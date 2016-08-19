@@ -1,5 +1,5 @@
 ---
 permalink: /
-layout: post
+layout: index
 ---
 Test
