@@ -5,29 +5,6 @@ layout: default
 GameBoy console
 <div class="posts">
   {% for post in site.pages %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    {% if post.tags %} | 
-    {% for tag in post.tags %}
-    <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}
-    {% endif %}
-
-    <article>
-      {{ post.excerpt | markdownify }}
-    <article>
-    <div class="post-more">
-      {% if site.disqus_short_name %}
-      <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
-      {% endif %}
-      <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
-    </div>
-  </div>
+  <p>post</p>
   {% endfor %}
 </div>
