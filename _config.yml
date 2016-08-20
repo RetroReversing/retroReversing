@@ -17,7 +17,7 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/gameboy/page:num'
+paginate_path: '/blog/page:num'
 permalink: pretty
 
 version: 1.0.0
@@ -27,8 +27,8 @@ nav:
   Home:           
     - '/'
   Consoles:   
-    - '/gameboy/'
-    - '/blog/'
+    - {Gameboy: '/gameboy/' }
+    - {Blog: '/blog/' }
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
   About:          
