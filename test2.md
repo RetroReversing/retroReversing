@@ -1,0 +1,4 @@
+---
+collection: gameboy
+tags: gameboy
+---
