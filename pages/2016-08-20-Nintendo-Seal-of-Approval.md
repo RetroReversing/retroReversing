@@ -8,6 +8,7 @@ tags:
 - nes
 - snes
 - n64
+category: n64
 source-id: 1GmYqqCbZu9liFZUhM6ASzJ6fA5ILUnN4ClmELoAe3Ak
 published: true
 ---
