@@ -2,6 +2,6 @@
 collection: gameboy
 tags: gameboy
 title: Intro
-excerpt: | GameBoy Inforduction |
+excerpt: GameBoy Inforduction
 ---
 Game boy page
