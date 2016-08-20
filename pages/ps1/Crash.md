@@ -1,4 +1,5 @@
 ---
+layout: post
 collection: ps1
 tags: ps1
 title: Intro
