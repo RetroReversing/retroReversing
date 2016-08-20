@@ -8,6 +8,7 @@ tags:
 - nes
 - snes
 - n64
+collection: n64
 source-id: 1GmYqqCbZu9liFZUhM6ASzJ6fA5ILUnN4ClmELoAe3Ak
 published: true
 ---
@@ -17,5 +18,5 @@ In 1986 the year in which many believed the video games industry was finished du
 
 Hiroshi Yamauchi president of Nintendo at the time believed the failure was due to too many 3rd party rubbish games: 
 
-![image alt text]({{ site.url }}/public/14TnlqI0AHoV0nxEZr5rMg_img_0.png)
+![image alt text]({{ site.url }}/public/kCxNlbEqQBTmGsgDrzeh4w_img_0.png)
 
