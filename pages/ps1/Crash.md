@@ -1,7 +1,7 @@
 ---
 collection: ps1
 tags: ps1
-title: Intro
+title: Making of Crash for PS1
 excerpt: Making of Crash for PS1
 ---
 
