@@ -5,9 +5,12 @@ layout: default
 GameBoy console
 <div class="posts">
   {% for post in site.pages %}
+  
+  {% if post.collection == 'gameboy'%}
   {{post.tags}}
   {{post.collection}}
   {{post.name}}
  12
+ {% endif %}
   {% endfor %}
 </div>
