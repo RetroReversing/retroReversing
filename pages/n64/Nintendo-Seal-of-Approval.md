@@ -1,5 +1,6 @@
 ---
 title: Nintendo Seal of Approval
+layout: page
 author: amorri40
 permalink: /nintendo-seal-of-approval/
 tags:
