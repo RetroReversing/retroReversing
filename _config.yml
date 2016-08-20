@@ -27,7 +27,7 @@ nav:
   Home:           
     - '/'
   Consoles:   
-    - {Gameboy: '/gameboy/' }
+    - '/gameboy/'
     - {Blog: '/blog/' }
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
@@ -40,7 +40,7 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-Collections:
+collections:
   - gameboy
 something: true
 
