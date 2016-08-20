@@ -47,9 +47,7 @@ hero:
 # 
 # # Collections
 #
-collections:
-  gameboy:
-    cpu: Z80
+
 
 # Puglins
 mathjax: true # whether support mathjax
