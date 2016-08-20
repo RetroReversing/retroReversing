@@ -19,7 +19,7 @@ GameBoy console
 
 <div class="posts">
   {% for post in site.pages %}
-    {% if post.collection == site.console %}
+    {% if post.collection == page.console %}
       <div class="post">
         <h1 class="post-title">
           <a href="{{ site.baseurl }}{{ post.url }}">
