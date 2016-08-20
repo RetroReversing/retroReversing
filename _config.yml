@@ -47,8 +47,7 @@ hero:
 # 
 # # Collections
 #
-collections:
-   - 'gameboy'
+test:true
 
 # Puglins
 mathjax: true # whether support mathjax
