@@ -4,18 +4,6 @@ layout: default
 console: 'gameboy'
 ---
 GameBoy console
-<div class="posts">
-  {% for post in site.pages %}
-  
-  {% if post.collection == 'gameboy'%}
-  {{site.collections}}
-  {{post}}
-  {{post.tags}}
-  {{post.collection}}
-  {{post.name}}
- {% endif %}
-  {% endfor %}
-</div>
 
 {% include console.html %}
 
