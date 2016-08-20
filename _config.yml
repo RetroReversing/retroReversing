@@ -41,7 +41,8 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 collections:
-  - gameboy
+  gameboy:
+    output: true
 something: true
 
 hero:
