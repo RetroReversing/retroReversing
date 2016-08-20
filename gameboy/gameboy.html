@@ -1,6 +1,7 @@
 ---
 permalink: /gameboy
 layout: default
+console: 'gameboy'
 ---
 GameBoy console
 <div class="posts">
@@ -18,7 +19,7 @@ GameBoy console
 
 <div class="posts">
   {% for post in site.pages %}
-    {% if post.collection == 'gameboy'%}
+    {% if post.collection == site.console %}
       <div class="post">
         <h1 class="post-title">
           <a href="{{ site.baseurl }}{{ post.url }}">
