@@ -1,6 +1,6 @@
 # Site Info
 title: RetroReversing
-tagline: 'Retro'
+tagline: 'Retro Reversing'
 description: ' Retro Reverse Engineering.'
 baseurl: "/retroReversing"
 url: http://amorri40.github.io
@@ -28,9 +28,10 @@ nav:
     - '/'
   Consoles:   
     - '/gameboy/'
-    - {Blog: '/blog/' }
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - {Gameboy: '/gameboy/' }
+    - {N64: '/n64/' }
+#    - { Categories: '/blog/categories/' }
+#    - { Tags: '/blog/tags/' }
   About:          
     - '/about/'
   Github Project: 
