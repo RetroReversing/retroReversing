@@ -3,7 +3,7 @@ title: RetroReversing
 tagline: 'Retro Reversing'
 description: ' Retro Reverse Engineering.'
 baseurl: "/retroReversing"
-url: http://amorri40.github.io
+url: http://amorri40.github.io/retroReversing
 logo: '/public/logo.png'
 
 # Site configurations
