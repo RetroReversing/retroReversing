@@ -18,12 +18,14 @@ GameBoy console
 
 <div class="posts">
   {% for post in site.pages %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-  </div>
+    {% if post.collection == 'gameboy'%}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
+      </div>
+    {% endif %}
   {% endfor %}
 </div>
