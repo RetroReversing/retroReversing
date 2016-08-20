@@ -41,7 +41,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 Collections:
-  - gbay
+  - gameboy
 something: true
 
 hero:
