@@ -17,7 +17,7 @@ sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: '/gameboy/page:num'
 permalink: pretty
 
 version: 1.0.0
