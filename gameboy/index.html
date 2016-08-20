@@ -7,10 +7,10 @@ GameBoy console
   {% for post in site.pages %}
   
   {% if post.collection == 'gameboy'%}
+  {{post}}
   {{post.tags}}
   {{post.collection}}
   {{post.name}}
- 12
  {% endif %}
   {% endfor %}
 </div>
