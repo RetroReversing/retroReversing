@@ -57,6 +57,26 @@ Now go Back to the game and fire a bullet, your bullets should now equal 47 sinc
 
 Initially there was 10555 possibilities for the memory address, but now after the second search it is down to just 2!
 
+![image alt text]({{ site.url }}/public/sicxZRNfuwPDLZTJMduj6w_img_6.png)
+
+Now select "View Search Results" and the 2 codes we have found are displayed on the left.
+
+Now select one to make it active by pressing the 'A' button and go back to the game. The game should now have unlimited bullets! :)
+
+## Tutorial - Mortal Kombat Trilogy
+
+### Unknown Value Search
+
+A health bar is the perfect example of an Unknown value since it doesn't display the exact number of health you have just a big green bar.
+
+![image alt text]({{ site.url }}/public/sicxZRNfuwPDLZTJMduj6w_img_7.png)
+
+Choose 'Start' to start the Action Replay search system, now return to the game and loose some health.
+
+![image alt text]({{ site.url }}/public/sicxZRNfuwPDLZTJMduj6w_img_8.png)
+
+Now press the Freeze button on the AR and select "Less than Last" since we reduced health.
+
 ## Full Video
 
 Link to the video on youtube is here: [https://www.youtube.com/watch?v=Gq8VQBKBKqI](https://www.youtube.com/watch?v=Gq8VQBKBKqI) 
