@@ -77,6 +77,10 @@ Choose 'Start' to start the Action Replay search system, now return to the game 
 
 Now press the Freeze button on the AR and select "Less than Last" since we reduced health.
 
+![image alt text]({{ site.url }}/public/sicxZRNfuwPDLZTJMduj6w_img_9.png)
+
+Now just repeat the process until you get around 20 options and test out each one until you find one that doesn't allow the player to lose any health.
+
 ## Full Video
 
 Link to the video on youtube is here: [https://www.youtube.com/watch?v=Gq8VQBKBKqI](https://www.youtube.com/watch?v=Gq8VQBKBKqI) 
