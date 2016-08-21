@@ -13,6 +13,8 @@ published: true
 ---
 # Super Mario 64 World Editing
 
+![image alt text]({{ site.url }}/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png)
+
 You can use the tool called "Toad's Tool" to edit the 3d worlds for the game Mario 64. It’s quite a simple tool, it allows you to view each world and edit the x,y,z coordinates of each object.
 
 Video of editing 3d objects:
