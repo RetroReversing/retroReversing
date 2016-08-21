@@ -7,6 +7,7 @@ tags:
 - n64
 - nintendo
 - world editor
+collection: n64
 source-id: 1K0N3kLqVv-GdoHrWNNGtomd1CAFomHlG0-Ugi_AUCec
 published: true
 ---
