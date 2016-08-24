@@ -7,7 +7,6 @@ tags:
 - n64
 - hardware
 - dev-kit
-collection: n64
 source-id: 1WZwQ0FYxkLkyrXAkC42pz57wbMefsZLzEcVYmAzzzyM
 published: true
 ---
