@@ -59,6 +59,9 @@ To assemble your GameBoy source code into Z80 machine code you could use the off
 The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy.
 So I presume it stands for Intelligent Systems Character A??? Designer
 
+## Intelligent Systems eXecutable - ISX and CVTISX 
+ISX is the format that the Assembler (ISAS) compiles the programs into, it is a compressed version of the rom, to convert it into a standard gameboy rom you need to run it through CVTISX (ConvertISX).
+
 ### CAD Change history
 ```
 IS-CGB-CAD change history
