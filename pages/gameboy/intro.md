@@ -51,10 +51,15 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 # GameBoy Color Software Development Kit
 You can download the Japanese version at emuparadise here: https://www.emuparadise.me/sdk/
 I'm not sure there ever was an english version of the Official Intelligent Systems GameBoy Development Kit
+
+## Intelligent Systems Assembler (ISAS)
+To assemble your GameBoy source code into Z80 machine code you could use the official Nintendo (Intelligent Systems) assembler and linker, ISAS and ISLK respectively.
+
+## Intelligent Systems Character A??? Designer (IS-CGB-CAD)
 The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy.
 So I presume it stands for Intelligent Systems Character A??? Designer
 
-## Change history
+### CAD Change history
 ```
 IS-CGB-CAD change history
 
