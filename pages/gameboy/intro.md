@@ -27,5 +27,11 @@ RAM: 8KB (32KB in Color)
 <iframe width="560" height="420" src="https://www.youtube.com/embed/qft4LBcOX3k?color=white&theme=dark"></iframe>
 
 --
+# GB Booster
+Similar to the Super GameBoy but this is for the Nintendo 64 and not licenced by Nintento, I first saw this for sale in issue X of the UK Nintendo Official Magazine.
+<iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
+
+--
 # GameBoy Printer
 <iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
+
