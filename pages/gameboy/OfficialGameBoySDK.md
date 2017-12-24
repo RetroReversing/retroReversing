@@ -1,4 +1,15 @@
 ---
+title: Official Game Boy Development Kit (by Intelligent Systems)
+layout: page
+author: amorri40
+permalink: /official-gameboy-dev-kit/
+tags:
+- nintendo
+- gameboy
+collection: gameboy
+published: true
+---
+
 # GameBoy Color Software Development Kit
 You can download the Japanese version at emuparadise here: https://www.emuparadise.me/sdk/
 I'm not sure there ever was an english version of the Official Intelligent Systems GameBoy Development Kit
