@@ -34,6 +34,10 @@ For more information:
 - http://www.chrismcovell.com/gbbooster.html
 - https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
 
+# Wide Boy 64
+Official device to play gameboy (including gba) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
+<iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
+
 --
 # Datel Game Booster for Sony Playstation
 Similar to the Super GameBoy but this is for the Sony Playstation!
