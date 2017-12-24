@@ -24,7 +24,7 @@ RAM: 8KB (32KB in Color)
 
 --
 # Super GameBoy
-<iframe width="560" height="420" src="https://www.youtube.com/embed/qft4LBcOX3k?color=white&theme=dark"></iframe>
+<iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
 
 --
 # GB Booster
