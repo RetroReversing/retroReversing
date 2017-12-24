@@ -30,7 +30,9 @@ RAM: 8KB (32KB in Color)
 # GB Booster
 Similar to the Super GameBoy but this is for the Nintendo 64 and not licenced by Nintento, I first saw this for sale in issue X of the UK Nintendo Official Magazine.
 <iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
-For more information: http://www.chrismcovell.com/gbbooster.html
+For more information: 
+- http://www.chrismcovell.com/gbbooster.html
+- https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
 
 --
 # GameBoy Printer
