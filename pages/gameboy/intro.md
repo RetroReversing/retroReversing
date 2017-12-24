@@ -10,4 +10,4 @@ CPU: z80 (LR35902) (Opcodes: http://www.pastraiser.com/cpu/gameboy/gameboy_opcod
 
 RAM: 8KB (32KB in Color)
 
-<iframe width="560" height="420" src="http://www.youtube.com/embed/oHg5SJYRHA0?color=white&theme=light"></iframe>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/2Mvb9olYVlg?color=white&theme=dark"></iframe>
