@@ -1,12 +1,11 @@
 ---
 title: Official Game Boy Development Kit (by Intelligent Systems)
-layout: page
+layout: post
 author: amorri40
 permalink: /official-gameboy-dev-kit/
 tags:
 - nintendo
 - gameboy
-collection: gameboy
 published: true
 ---
 
