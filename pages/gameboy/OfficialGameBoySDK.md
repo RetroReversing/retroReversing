@@ -27,10 +27,27 @@ ISX is the format that the Assembler (ISAS) compiles the programs into, it is a 
 
 ---
 
-## Intelligent Systems Character A??? Designer (IS-CGB-CAD)
-The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy.
-So I presume it stands for Intelligent Systems Character A??? Designer
+## Intelligent Systems ChAracter Designer (IS-CGB-CAD or DMG-CAD)
+The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy. 
+Its known as a Character development system.
+So I presume it stands for Intelligent Systems Character A??? Designer or Development
 
+---
+## Others
+* Mention of a DMG-ICE - Gameboy program development system [DMG-ICE] 
+
+```
+● Program development system for virtual boy [VUE-DEBUGGER] 
+● Program Development System for Super Nintendo Entertainment [IS-DEBUGGER] 
+● Character Development System for Super Nintendo Entertainment System [IS-CHARACTER] 
+● Sound Development System for Super Nintendo Entertainment [IS-SOUND] 
+Super Famicom Super FX Development System [IS-SUPER-FX] 
+● Gameboy program development system [DMG-ICE] 
+● Character development system for Game Boy [DMG-CAD] 
+● Program development system for NES cassette [HVC-ICE] 
+● Program development system for NES disk [FMS - ICE] 
+● Nintendo Character Development System [HVC CG - CAD]
+```
 ---
 # Change History
 
