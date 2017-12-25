@@ -59,8 +59,11 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 * Fantastic FAQ for tons of developer questions - http://www.devrs.com/gb/files/faqs.html
 
 ---
-# Rom Hacking GameBoy Games
-### Crystalis
+# Hacking GameBoy Games
+## Crystalis
 <iframe width="560" height="420" src="https://www.youtube.com/embed/whgbxtBAnPw?color=white&theme=dark"></iframe>
 
+## How to create your own twitch plays pokemon
+How to script an emulator so that it accepts REST requests for player input
+<iframe width="560" height="420" src="https://www.youtube.com/embed/qQrQcyDZydY?color=white&theme=dark"></iframe>
 
