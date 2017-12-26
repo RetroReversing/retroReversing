@@ -7,6 +7,7 @@ tags:
 - gameboy
 - tools
 - nintendo
+collection: gameboy
 source-id: 1sH6Z9UKnEQ1YL006-EaPWDGSxjmOEz_NU4xUK8GoCKc
 published: true
 ---
