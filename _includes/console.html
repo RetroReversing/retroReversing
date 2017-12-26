@@ -10,7 +10,6 @@
               <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             </h2>
             <div class="post-meta">
-                <span><i class="fa fa-clock-o"></i> Julye 28, 2017 by <a href="profile.html">Clark</a></span>
               {% if site.disqus_short_name %}
                 <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span>
               {% endif %}
@@ -20,8 +19,15 @@
     <div class="post-thumbnail">
         <img src="{{ post.image }}" alt="{{ post.title }}">
     </div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id urna ac lacus iaculis sollicitudin. Sed iaculis ante ut mi vehicula, laoreet ullamcorper nibh condimentum. Nunc sem urna, tincidunt sed purus non, sollicitudin fringilla nibh. Ut lacinia
+    {% if post.excerpt %}
+        <p>
+          {{ post.excerpt | markdownify }}
+        <p>
+    {% else %}
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id urna ac lacus iaculis sollicitudin. Sed iaculis ante ut mi vehicula, laoreet ullamcorper nibh condimentum. Nunc sem urna, tincidunt sed purus non, sollicitudin fringilla nibh. Ut lacinia
   lorem quis interdum laoreet. Curabitur massa ligula, ultrices non ipsum a, scelerisque iaculis mauris. Vivamus ut cursus quam.</p>
+    {% endif %}
+    
     <div class="post-footer">
       <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
       <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
