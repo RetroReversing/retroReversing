@@ -3,7 +3,7 @@
       <ol class="breadcrumb">
         {% if page.breadcrumbs %}
             {% for crumb in page.breadcrumbs %}
-            <li><a href="{{ site.baseurl }}/{{crumb}}" >{{ crumb }}</a></li>
+            <li><a href="{{ site.baseurl }}/{{crumb.url}}" >{{ crumb.name }}</a></li>
             {% endfor %}
         {% endif %}
       </ol>
