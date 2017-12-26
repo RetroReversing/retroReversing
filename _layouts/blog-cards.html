@@ -16,8 +16,11 @@
   <section class="breadcrumbs">
     <div class="container">
       <ol class="breadcrumb">
-        <li><a href="/">Home {{ page.breadcrumbs }}</a></li>
-        <li class="active">Blog Cards</li>
+        {% if page.breadcrumbs %}
+            {% for crumb in page.breadcrumbs %}
+            <li><a href="{{ site.baseurl }}/{{crumb}}" >{{ crumb }}</a></li>
+            {% endfor %}
+        {% endif %}
       </ol>
     </div>
   </section>
