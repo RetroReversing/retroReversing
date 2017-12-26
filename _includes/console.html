@@ -11,7 +11,9 @@
             </h2>
             <div class="post-meta">
                 <span><i class="fa fa-clock-o"></i> Julye 28, 2017 by <a href="profile.html">Clark</a></span>
-                <span><a href="blog-post.html#comments"><i class="fa fa-comment-o"></i> 98 comments</a></span>
+              {% if site.disqus_short_name %}
+                <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span>
+              {% endif %}
             </div>
           </div>
       </div>
@@ -23,6 +25,11 @@
     <div class="post-footer">
       <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
       <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
+      {% if post.tags %}
+        {% for tag in post.tags %}
+          <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
   
