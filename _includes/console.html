@@ -17,7 +17,11 @@
           </div>
       </div>
     <div class="post-thumbnail">
+      {% if post.image %}
         <img src="{{ post.image }}" alt="{{ post.title }}">
+      {% else %}
+        <img src="{{ page.consoleimage }}" alt="{{ post.title }}">
+      {% endif %}
     </div>
     {% if post.excerpt %}
         <p>
@@ -27,6 +31,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id urna ac lacus iaculis sollicitudin. Sed iaculis ante ut mi vehicula, laoreet ullamcorper nibh condimentum. Nunc sem urna, tincidunt sed purus non, sollicitudin fringilla nibh. Ut lacinia
   lorem quis interdum laoreet. Curabitur massa ligula, ultrices non ipsum a, scelerisque iaculis mauris. Vivamus ut cursus quam.</p>
     {% endif %}
+    <a href="{{ site.baseurl }}{{ post.url }}">...</a>
     
     <div class="post-footer">
       <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
