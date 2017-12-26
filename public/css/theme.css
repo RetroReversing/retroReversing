@@ -6080,7 +6080,7 @@ div.dataTables_wrapper div.dataTables_length select {
 }
 
 .post .post-header > div:first-child img {
-  border-radius: 50%;
+  /*border-radius: 50%;*/
 }
 
 .post .post-header > div:last-child {
