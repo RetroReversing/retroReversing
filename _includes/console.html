@@ -7,9 +7,6 @@
                 <h2 class="post-title">
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 </h2>
-                <div class="post-meta">
-
-                </div>
               </div>
           </div>
         <div class="post-thumbnail">
@@ -24,7 +21,7 @@
               {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
             <p>
         {% else %}
-              <p>Read all about the <a href="{{ site.baseurl }}{{ post.url }}">...</a></p>
+              <p>Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a></p>
         {% endif %}
         
 
