@@ -7,7 +7,7 @@ tags:
 - nes
 - nintendo
 - gameboy
-collection: gameboy
+collection: nes
 source-id: 1vqXVCGLppP3JXa24JZjmxQ21pmxrLN-dQSbwqh1SlAg
 published: true
 image: /public/QkyxcBhunP1JpTNuoeDIMw_img_0.png
