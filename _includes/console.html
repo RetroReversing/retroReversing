@@ -8,6 +8,10 @@
           </a>
         </h1>
       </div>
+      {% if post.image %}
+          {{ post.image }}
+          <img src="{{ post.image }}" />
+      {% endif %}
       {% if post.excerpt %}
         <article>
           {{ post.excerpt | markdownify }}
