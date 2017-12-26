@@ -36,16 +36,9 @@ So I presume it stands for Intelligent Systems Character A??? Designer or Develo
 * Mention of a DMG-ICE - Gameboy program development system [DMG-ICE] 
 
 ```
-● Program development system for virtual boy [VUE-DEBUGGER] 
-● Program Development System for Super Nintendo Entertainment [IS-DEBUGGER] 
-● Character Development System for Super Nintendo Entertainment System [IS-CHARACTER] 
-● Sound Development System for Super Nintendo Entertainment [IS-SOUND] 
-Super Famicom Super FX Development System [IS-SUPER-FX] 
-● Gameboy program development system [DMG-ICE] 
-● Character development system for Game Boy [DMG-CAD] 
-● Program development system for NES cassette [HVC-ICE] 
-● Program development system for NES disk [FMS - ICE] 
-● Nintendo Character Development System [HVC CG - CAD]
+IS-CGB-CHARACTER Documentation.7z  IS-CGB-SDK.7z
+IS-CGB-CAD.7z        IS-CGB-DEBUGGER.7z
+IS-CGB-CHARACTER.7z  IS-CGB-EMULATOR.7z
 ```
 ---
 # Change History
