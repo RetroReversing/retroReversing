@@ -1,13 +1,10 @@
   {% for post in site.pages %}
     {% if post.tags contains page.console %}
+{% include post-list-cards %}
       <div class="post post-card">
           <div class="post-header">
             <div>
               <img src="{{ post.thumbnail }}" alt="">
-<!--     Reserved for console category image           -->
-<!--                 <a href="profile.html">
-                
-              </a> -->
             </div>
               <div>
                 <h2 class="post-title">
