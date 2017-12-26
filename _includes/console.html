@@ -21,12 +21,12 @@
         </div>
         {% if post.excerpt %}
             <p>
-              {{ post.excerpt | markdownify }}
+              {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
             <p>
         {% else %}
-              <p>Read all about the </p>
+              <p>Read all about the <a href="{{ site.baseurl }}{{ post.url }}">...</a></p>
         {% endif %}
-        <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+        
 
         <div class="post-footer">
           <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
