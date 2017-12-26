@@ -2,7 +2,7 @@
 title: Introduction to Reverse engineering Nintendo 64 (N64)
 layout: page
 author: amorri40
-permalink: /n64/
+permalink: /n64/intro/
 tags:
 - n64
 - nintendo
