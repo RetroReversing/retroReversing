@@ -39,7 +39,7 @@
           {% endif %}
           {% if post.tags %}
             {% for tag in post.tags %}
-              <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+              <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
             {% endfor %}
           {% endif %}
         </div>
