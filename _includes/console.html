@@ -1,78 +1,47 @@
 <div class="posts">
   {% for post in site.pages %}
     {% if post.collection == page.console %}
-  
-  
-  <div class="post post-card">
-      <div class="post-header">
-          <div>
-            <h2 class="post-title">
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <div class="post-meta">
-              {% if site.disqus_short_name %}
-                <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span>
-              {% endif %}
-            </div>
-          </div>
-      </div>
-    <div class="post-thumbnail">
-      {% if post.image %}
-        <img src="{{ post.image }}" alt="{{ post.title }}">
-      {% else %}
-        <img src="{{ page.consoleimage }}" alt="{{ post.title }}">
-      {% endif %}
-    </div>
-    {% if post.excerpt %}
-        <p>
-          {{ post.excerpt | markdownify }}
-        <p>
-    {% else %}
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id urna ac lacus iaculis sollicitudin. Sed iaculis ante ut mi vehicula, laoreet ullamcorper nibh condimentum. Nunc sem urna, tincidunt sed purus non, sollicitudin fringilla nibh. Ut lacinia
-  lorem quis interdum laoreet. Curabitur massa ligula, ultrices non ipsum a, scelerisque iaculis mauris. Vivamus ut cursus quam.</p>
-    {% endif %}
-    <a href="{{ site.baseurl }}{{ post.url }}">...</a>
-    
-    <div class="post-footer">
-      <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
-      <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
-      {% if post.tags %}
-        {% for tag in post.tags %}
-          <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-        {% endfor %}
-      {% endif %}
-    </div>
-  </div>
-  
-      <div class="post">
-        <h1 class="post-title">
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </h1>
-      </div>
-      {% if post.image %}
-          <img src="{{ post.image }}" />
-      {% endif %}
-      {% if post.excerpt %}
-        <article>
-          {{ post.excerpt | markdownify }}
-        <article>
-      {% endif %}
-      {% if post.tags %}
-        {% for tag in post.tags %}
-          <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-        {% endfor %}
-      {% endif %}
+      <div class="post post-card">
+          <div class="post-header">
+              <div>
+                <h2 class="post-title">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <div class="post-meta">
 
-      <div class="post-more">
-        {% if site.disqus_short_name %}
-        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
+                </div>
+              </div>
+          </div>
+        <div class="post-thumbnail">
+          {% if post.image %}
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+          {% else %}
+            <img src="{{ page.consoleimage }}" alt="{{ post.title }}">
+          {% endif %}
+        </div>
+        {% if post.excerpt %}
+            <p>
+              {{ post.excerpt | markdownify }}
+            <p>
+        {% else %}
+              <p>Read all about the </p>
         {% endif %}
-        <a href="{{ site.baseurl }}{{ post.url }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>Read more</a>
+        <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+
+        <div class="post-footer">
+          <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
+          <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
+          {% if site.disqus_short_name %}
+              <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span>
+          {% endif %}
+          {% if post.tags %}
+            {% for tag in post.tags %}
+              <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
-      <hr />
-      <br />
+  
     {% endif %}
     
   {% endfor %}
