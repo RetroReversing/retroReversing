@@ -8,6 +8,7 @@ tags:
 - gameboy
 collection: gameboy
 image: http://www.retroreversing.com/public/ZAgzBlXrARIEyn2KnTa4g_img_2.png
+thumbnail: /public/NintendoGameBoyThumb.png
 published: true
 ---
 
