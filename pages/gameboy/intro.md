@@ -1,8 +1,9 @@
 ---
 collection: gameboy
 tags: gameboy
-title: Intro
+title: Introduction to Gameboy Reverse engineering
 excerpt: GameBoy Introduction
+thumbnail: /public/NintendoGameBoyThumb.png
 ---
 
 # Introduction to the System
