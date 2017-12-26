@@ -13,17 +13,7 @@
   <!-- /header -->
 
   <!-- main -->
-  <section class="breadcrumbs">
-    <div class="container">
-      <ol class="breadcrumb">
-        {% if page.breadcrumbs %}
-            {% for crumb in page.breadcrumbs %}
-            <li><a href="{{ site.baseurl }}/{{crumb}}" >{{ crumb }}</a></li>
-            {% endfor %}
-        {% endif %}
-      </ol>
-    </div>
-  </section>
+  {% include breadcrumbs.html %}
 
   <section>
     
