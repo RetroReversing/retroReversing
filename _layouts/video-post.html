@@ -27,14 +27,10 @@
           <div class="post post-single">
             <div class="post-header">
               <div>
-                <a href="profile.html"><img src="img/user/user-3.jpg" alt=""></a>
+                <img src="{{ page.thumbnail }}" alt="">
               </div>
               <div>
-                <h2 class="post-title">{{ page.title }}</h2>
-                <div class="post-meta">
-                  <span><i class="fa fa-clock-o"></i> August 22, 2017 by <a href="profile.html">Clark</a></span>
-                  <span><a href="#comments"><i class="fa fa-comment-o"></i> 33 comments</a></span>
-                </div>
+                <h2 class="post-title">{{ page.title }}</h2>                
               </div>
             </div>
             {{ content | markdownify }}
