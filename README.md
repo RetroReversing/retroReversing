@@ -14,3 +14,7 @@ https://www.retroreversing.com/
 
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
+
+----
+# Sources
+* Video game Science - https://www.reddit.com/r/videogamescience/
