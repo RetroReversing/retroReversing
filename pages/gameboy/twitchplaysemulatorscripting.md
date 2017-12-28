@@ -21,9 +21,9 @@ The main content is in english ignore the introduction speech which is in a fore
 
 This contains:
 <ul>
-  - How to script an emulator so that it accepts REST requests for player input
-  - How to use phone numbers to control REST requests
-  - How to hook into Visual Boy Advance
+  <li> How to script an emulator so that it accepts REST requests for player input </li>
+  <li>How to use phone numbers to control REST requests</li>
+  <li>How to hook into Visual Boy Advance </li>
 </ul>
 
 
