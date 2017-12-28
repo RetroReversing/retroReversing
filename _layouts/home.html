@@ -26,11 +26,12 @@
     <div class="container">
       <div class="row row-5">
         
-        {% for post in site.pages where_exp:"post","post.image != nil" %}
+        {% for post in site.pages %}
+        {% if site.image %}
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video">
                   <div class="card-img">
-                      <a href="video-post.html">
+                      <a href="{{ post.permalink }}">
                         <img src="{{ post.image }}" alt="{{ post.title }}">
                       </a>
                       {% if post.recommend %}
@@ -48,6 +49,7 @@
                   </div>
               </div>
         </div>
+        {% endif %}
         {% endfor %}     
       </div>
    
