@@ -1,8 +1,4 @@
 ---
-
-
----
----
 title: NES Sprite Tile Editing
 permalink: /nes-sprite-tile-editing/
 tags:
