@@ -64,12 +64,10 @@
                   {% if post.tags contains page.recommend %}
                     <li>
                       <div class="widget-img">
-                        <a href="blog-post.html"><img src="https://i1.ytimg.com/vi/4BLkEJu9szM/mqdefault.jpg" alt=""></a>
+                        <a href="{{ post.permalink }}"><img src="{{ post.image }}" alt=""></a>
                         <span>2:13</span>
                       </div>
-                      <h4><a href="blog-post.html">Titanfall 2's Trophies Only Have 3 Earned Through Multiplayer</a></h4>
-                      <span><i class="fa fa-clock-o"></i> July 30, 2017</span>
-                      <span><i class="fa fa-eye"></i> 345x</span>
+                      <h4><a href="blog-post.html">{{ post.title }}</a></h4>                  
                     </li>
                   {% endif %}
                 {% endfor %}
