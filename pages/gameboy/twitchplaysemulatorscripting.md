@@ -2,8 +2,7 @@
 tags: 
 - gameboy
 - emulatorscripting
-title: Create our Own Twitch Plays Pokemon Emulator Hack
-excerpt: GameBoy Introduction
+title: Create Twitch Plays Pokemon Emulator Script
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: qQrQcyDZydY
 permalink: /twitchpokemonhack
