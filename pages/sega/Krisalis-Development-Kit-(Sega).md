@@ -8,12 +8,13 @@ tags:
 - hardware
 - gamegear
 - segamastersystem
+image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
 source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
 published: true
 ---
 # Krisalis Development Kit (Sega)
 
-In the early to mid 1990s Krisalis Software Ltd created their own in-house sega Game Gear and Master System development kit. 
+In the early to mid 1990s Krisalis Software Ltd created their own in-house sega Game Gear and Master System Development Kit. 
 
 Shaun Hollingworth and Matt Furniss are credited with creation of the kits hardware and software components. Presumably Shaun was in charge of the hardware (as his name is credited on the board itself) and Matt the software BIOS.
 
