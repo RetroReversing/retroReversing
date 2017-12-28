@@ -45,26 +45,32 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-md-3">
-          <div class="card card-video">
-            <div class="card-img">
-              <a href="video-post.html">
-              <img src="https://i1.ytimg.com/vi/xUGRjNzGz3o/mqdefault.jpg" alt="Mass Effect: Andromeda Devastating Biotic">
-            </a>
-              <div class="card-meta">
-                <span>15:05</span>
+        
+        {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
+          {% if post.image %}
+            <div class="col-12 col-sm-6 col-md-3">
+              <div class="card card-video">
+                <div class="card-img">
+                  <a href="video-post.html">
+                  <img src="{{ post.image }}" alt="{{ post.title }}">
+                </a>
+                  {% if post.recommend %}
+                  <div class="card-meta">
+                    <span>{{ post.recommend }}</span>
+                  </div>
+                  {% endif %}
+                </div>
+                <div class="card-block">
+                  <h4 class="card-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h4>
+<!--                   <div class="card-meta">
+                    <span><i class="fa fa-clock-o"></i> May 21, 2017</span>
+                    <span>436 views</span>
+                  </div> -->       
+                </div>
               </div>
-            </div>
-            <div class="card-block">
-              <h4 class="card-title"><a href="video-post.html">Mass Effect: Andromeda Devastating Biotic</a></h4>
-              <div class="card-meta">
-                <span><i class="fa fa-clock-o"></i> May 21, 2017</span>
-                <span>436 views</span>
-              </div>
-              <p>Destin and James test out what biotic combos they can do in Mass Effect.</p>
-            </div>
-          </div>
-        </div>
+            
+          {% endif %}
+        {% endfor %}     
       </div>
 
    
