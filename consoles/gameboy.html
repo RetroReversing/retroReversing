@@ -11,5 +11,9 @@ breadcrumbs:
 ---
 <h1>GameBoy console</h1>
 
-{% include console.html %}
+{% for post in site.pages %}
+    {% if post.tags contains page.console %}
+      {% include post-list-cards.html %}
+    {% endif %}
+{% endfor %}
 
