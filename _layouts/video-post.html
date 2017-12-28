@@ -40,9 +40,9 @@
             {{ content }}
           </div>
           <div class="post-actions">
-            {% if post.tags %}
+            {% if page.tags %}
               <div class="post-tags">
-                {% for tag in post.tags %}
+                {% for tag in page.tags %}
                   <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
                 {% endfor %}
               </div>
