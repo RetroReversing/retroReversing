@@ -8,6 +8,13 @@
                   <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                 </h2>
               </div>
+            {% if post.tags %}
+              <div class="post-tags">
+                {% for tag in post.tags %}
+                  <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
           </div>
         <div class="post-thumbnail">
           {% if post.image %}
@@ -26,13 +33,7 @@
         
 
         <div class="post-footer">
-          {% if post.tags %}
-            <div class="post-tags">
-              {% for tag in post.tags %}
-                <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-              {% endfor %}
-            </div>
-          {% endif %}
+          
           <a class="btn btn-secondary" href="{{ site.baseurl }}{{ post.url }}" role="button">Read More</a>
           <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
           {% if site.disqus_short_name %}
