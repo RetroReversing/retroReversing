@@ -1,17 +1,26 @@
 ---
+
+
+---
+---
 title: NES Sprite Tile Editing
-layout: page
-author: amorri40
 permalink: /nes-sprite-tile-editing/
 tags:
 - nes
-- nintendo
 - gameboy
-collection: nes
 source-id: 1vqXVCGLppP3JXa24JZjmxQ21pmxrLN-dQSbwqh1SlAg
-published: true
+layout: video-post
+youtube: "iMACSQjyRDs"
 image: /public/QkyxcBhunP1JpTNuoeDIMw_img_0.png
 thumbnail: /public/consoles/Nintendo Entertainment System.png
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: NES
+    url: /nes
+  - name: NES Sprite Tile Editing
+    url: #
+recommend: gameboy
 ---
 # NES Sprite Tile editing with Tile Layer Pro
 
@@ -24,6 +33,4 @@ Back in the day of NES and Gameboy development, the sprites and tiles were saved
 You need to download an application called 'Tile Layer Pro'.
 
 One cool feature of Tile Layer Pro is being able to open multiple games at once and copy tiles over. In the video below they copy a ghost from pacman and replace the mario goomba with it!
-
-### Full video [https://gaming.youtube.com/watch?v=iMACSQjyRDs&list=PLfETG9aLSS1yTAUAm87_HLexkL9WZChQm](https://gaming.youtube.com/watch?v=iMACSQjyRDs&list=PLfETG9aLSS1yTAUAm87_HLexkL9WZChQm) 
 
