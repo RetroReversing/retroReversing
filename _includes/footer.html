@@ -20,4 +20,42 @@
 <script src="/public/js/jquery.min.js"></script>
 <script src="/public/js/popper.min.js"></script>
 <script src="/public/js/bootstrap.min.js"></script>
+<script src="/public/js/owl.carousel.min.js"></script>
+  <script>
+    (function($) {
+      "use strict";
+
+      // Full Width Carousel
+      $('.owl-slide').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: true,
+        items: 1
+      });
+
+      // Recent Reviews
+      $('.owl-list').owlCarousel({
+        margin: 25,
+        nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          500: {
+            items: 2
+          },
+          701: {
+            items: 3
+          },
+          1000: {
+            items: 4
+          }
+        }
+      });
+
+      // lightbox
+      $('[data-lightbox]').lightbox();
+    })(jQuery);
+  </script>
 <script src="/public/js/main.js"></script>
