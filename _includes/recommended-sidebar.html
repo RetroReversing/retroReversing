@@ -2,7 +2,7 @@
   <div class="widget widget-videos">
     <h5 class="widget-title">Recommends</h5>
     <ul class="widget-list">
-      {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
+      {% for post in site.pages where_exp:"post","post.tags contains page.recommend" limit:2 %}
         {% if post.tags contains page.recommend and post.image %}
           <li>
             <div class="widget-img">
