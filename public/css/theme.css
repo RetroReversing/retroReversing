@@ -6141,6 +6141,10 @@ div.dataTables_wrapper div.dataTables_length select {
   top: auto;
 }
 
+.post-tags {
+  display:inline;
+}
+
 .post-actions .post-tags {
   max-width: 80%;
 }
