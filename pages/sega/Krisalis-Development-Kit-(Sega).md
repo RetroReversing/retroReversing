@@ -11,6 +11,7 @@ tags:
 - gameboy
 source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
 published: true
+image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
 ---
 # Krisalis Development Kit
 
