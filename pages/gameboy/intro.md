@@ -4,6 +4,7 @@ tags: gameboy
 title: Introduction to Gameboy Reverse engineering
 excerpt: GameBoy Introduction
 thumbnail: /public/NintendoGameBoyThumb.png
+image: /public/GameBoyIntro.png
 ---
 
 # Introduction to the System
