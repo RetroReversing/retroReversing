@@ -15,6 +15,7 @@ breadcrumbs:
     url: /gameboy
   - name: Create Twitch Plays Pokemon Emulator Script
     url: #
+recommend: gameboy
 ---
 
 The main content is in english ignore the introduction speech which is in a foreign language.
