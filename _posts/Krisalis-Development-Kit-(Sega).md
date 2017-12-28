@@ -8,6 +8,7 @@ tags:
 - hardware
 - gamegear
 - segamastersystem
+- gameboy
 source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
 published: true
 ---
