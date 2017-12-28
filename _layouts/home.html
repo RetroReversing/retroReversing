@@ -26,28 +26,7 @@
     <div class="container">
       <div class="row row-5">
         
-        <div class="col-12 col-sm-6 col-md-3">
-          <div class="card card-video">
-            <div class="card-img">
-              <a href="video-post.html">
-              <img src="https://i1.ytimg.com/vi/GaERL8Nrl9k/mqdefault.jpg" alt="Tom Clancy's Ghost Recon: Wildlands">
-            </a>
-              <div class="card-meta">
-                <span>4:32</span>
-              </div>
-            </div>
-            <div class="card-block">
-              <h4 class="card-title"><a href="video-post.html">Tom Clancy's Ghost Recon: Wildlands</a></h4>
-              <div class="card-meta">
-                <span><i class="fa fa-clock-o"></i> 2 hours ago</span>
-                <span>423 views</span>
-              </div>
-              <p>Defeating the corrupt tyrants entrenched there will require not only strength.</p>
-            </div>
-          </div>
-        </div>
-        
-        {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
+        {% for post in site.pages where_exp:"post","post.image" %}
           {% if post.image %}
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video">
