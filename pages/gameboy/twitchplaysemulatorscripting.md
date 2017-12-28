@@ -6,7 +6,7 @@ tags:
 title: Create Twitch Plays Pokemon Emulator Script
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: qQrQcyDZydY
-image: https://img.youtube.com/vi/{{ youtube }}/maxresdefault.jpg
+image: https://img.youtube.com/vi/!YOUTUBE!/maxresdefault.jpg
 permalink: /twitchpokemonhack
 breadcrumbs:
   - name: Home
@@ -16,6 +16,7 @@ breadcrumbs:
   - name: Create Twitch Plays Pokemon Emulator Script
     url: #
 ---
+{{ page.image | replace: '!YOUTUBE!', page.youtube }}
 
 The main content is in english ignore the introduction speech which is in a foreign language.
 
