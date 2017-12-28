@@ -1,4 +1,5 @@
 ---
+layout: video-post
 tags: 
 - gameboy
 - emulatorscripting
