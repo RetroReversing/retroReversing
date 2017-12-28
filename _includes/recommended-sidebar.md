@@ -1,0 +1,19 @@
+<!-- recommended-sidebar  -->
+  <div class="widget widget-videos">
+    <h5 class="widget-title">Recommends</h5>
+    <ul class="widget-list">
+      {% for post in site.pages %}
+        {% if post.tags contains page.recommend %}
+          <li>
+            <div class="widget-img">
+              <a href="{{ post.permalink }}"><img src="{{ post.image }}" alt=""></a>
+              <span>{{ page.recommend }}</span>
+            </div>
+            <h4><a href="blog-post.html">{{ post.title }}</a></h4>                  
+          </li>
+        {% endif %}
+      {% endfor %}
+
+    </ul>
+  </div>
+<!-- /recommended-sidebar -->
