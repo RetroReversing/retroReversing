@@ -8,12 +8,10 @@ tags:
 - hardware
 - gamegear
 - segamastersystem
-- gameboy
 source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
 published: true
-image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
 ---
-# Krisalis Development Kit
+# Krisalis Development Kit (Sega)
 
 In the early to mid 1990s Krisalis Software Ltd created their own in-house sega Game Gear and Master System development kit. 
 
