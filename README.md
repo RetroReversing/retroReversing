@@ -21,4 +21,4 @@ https://www.retroreversing.com/
 
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
-r* Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
+* Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
