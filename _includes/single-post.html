@@ -6,17 +6,18 @@
         <div>
           <h2 class="post-title">{{ page.title }}</h2>                
         </div>
+        {% if page.tags %}
+          <div class="post-tags">
+            {% for tag in page.tags %}
+              <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
       {{ content | markdownify }}
     </div>
     <div class="post-actions">
-      {% if page.tags %}
-        <div class="post-tags">
-          {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
+      
 
 
       <div class="social-share">
