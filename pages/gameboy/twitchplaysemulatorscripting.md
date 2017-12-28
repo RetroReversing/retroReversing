@@ -5,7 +5,7 @@ tags:
 - emulatorscripting
 title: Create Twitch Plays Pokemon Emulator Script
 thumbnail: /public/NintendoGameBoyThumb.png
-youtube: qQrQcyDZydY&time_continue=41
+youtube: "qQrQcyDZydY"
 image: https://img.youtube.com/vi/qQrQcyDZydY/maxresdefault.jpg
 permalink: /twitchpokemonhack
 breadcrumbs:
