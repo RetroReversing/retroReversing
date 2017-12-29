@@ -1,26 +1,62 @@
----
-layout: default
----
-<article>
-  {{ content }}
-</article>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="fixed-header">
+  <!-- header -->
+  {% include header.html %}
+  <!-- /header -->
 
-{% if site.disqus_short_name %}
-<div class="comments">
-  <h2>Comments</h2>
-  <div id="disqus_thread"></div>
-  <script>
-var disqus_config = function () {
-  this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-(function() {
-  var d = document, s = d.createElement('script');
-  s.src = '//{{ site.disqus_short_name }}.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</div>
-{% endif %}
+  <!-- main -->
+  {% include breadcrumbs.html %}
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="post post-single">
+            <div class="post-header">
+              <div>
+                <img src="{{ page.thumbnail }}" alt="">
+              </div>
+              <div>
+                <h2 class="post-title">{{ page.title }}</h2>                
+              </div>
+            </div>
+            {{ content | markdownify }}
+          </div>
+          <div class="post-actions">
+            {% if page.tags %}
+              <div class="post-tags">
+                {% for tag in page.tags %}
+                  <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+            
+         
+            <div class="social-share">
+              <a class="btn btn-social btn-facebook btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on facebook"><i class="fa fa-facebook"></i></a>
+              <span>5.345k</span>
+              <a class="btn btn-social btn-twitter btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on twitter"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social btn-google-plus btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on google-plus"><i class="fa fa-google-plus"></i></a>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-3">
+          <div class="sidebar">
+            {% include recommended-sidebar.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /main -->
+
+  {% include footer.html %}
+
+ 
+</body>
+</html>
