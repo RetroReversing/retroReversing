@@ -1,3 +1,7 @@
+.post ul {
+    list-style-type: initial;
+}
+
 .post { ul {
   list-style-type: initial !important;
   padding: revert !important;
