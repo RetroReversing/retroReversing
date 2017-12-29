@@ -1,5 +1,5 @@
 ---
-layout: video-post
+layout: post
 tags: 
 - gameboy
 - emulatorscripting
