@@ -4,7 +4,7 @@ tags:
 - ps1
 - hardware
 - devkit
-title: The PS1 Consumer Dev Kit
+title: 'Net Yaroze - The PS1 Consumer Dev Kit'
 thumbnail: /public/consoles/Sony Playstation.png
 youtube: "kswSNF8gsHY"
 image: https://img.youtube.com/vi/kswSNF8gsHY/maxresdefault.jpg
@@ -14,7 +14,7 @@ breadcrumbs:
     url: /
   - name: Sony Playstation
     url: /ps1
-  - name: Net Yaroze: The PS1 Consumer Dev Kit
+  - name: 'Net Yaroze - The PS1 Consumer Dev Kit'
     url: #
 recommend: ps1
 ---
