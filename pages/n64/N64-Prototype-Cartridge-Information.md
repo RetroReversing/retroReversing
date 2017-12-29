@@ -1,12 +1,24 @@
 ---
-title: N64 Prototype Cartridge Information
-layout: page
-author: amorri40
-permalink: /n64-prototype-cartridge-information/
+layout: post
 tags:
 - n64
 - hardware
-- dev-kit
+- devkit
+- cartridge
+title: N64 Prototype Cartridge Information
+published: true
+thumbnail: /public/consoles/Nintendo 64.png
+youtube: "laOwsOHelBg"
+image: https://img.youtube.com/vi/laOwsOHelBg/maxresdefault.jpg
+permalink: /n64-prototype-cartridge-information/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo 64
+    url: /n64
+  - name: N64 Prototype Cartridge Information
+    url: #
+recommend: n64
 source-id: 1WZwQ0FYxkLkyrXAkC42pz57wbMefsZLzEcVYmAzzzyM
 published: true
 ---
