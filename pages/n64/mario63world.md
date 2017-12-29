@@ -8,7 +8,7 @@ source-id: 1K0N3kLqVv-GdoHrWNNGtomd1CAFomHlG0-Ugi_AUCec
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "4d5OsHRo7Nc"
-image: https://img.youtube.com/vi/4d5OsHRo7Nc/maxresdefault.jpg
+image: /public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png
 permalink: /mario-64-world/
 breadcrumbs:
   - name: Home
