@@ -1,10 +1,5 @@
 .post ul {
     list-style-type: initial;
-  padding: revert;
+  padding: 5%;
   margin: initial;
-}
-
-.post ul {
-  padding: revert !important;
-  margin: initial !important;
 }
