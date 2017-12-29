@@ -5,7 +5,7 @@ tags:
 - nes
 - gameboy
 source-id: 1vqXVCGLppP3JXa24JZjmxQ21pmxrLN-dQSbwqh1SlAg
-layout: video-post
+layout: post
 youtube: "iMACSQjyRDs"
 image: /public/QkyxcBhunP1JpTNuoeDIMw_img_0.png
 thumbnail: /public/consoles/Nintendo Entertainment System.png
