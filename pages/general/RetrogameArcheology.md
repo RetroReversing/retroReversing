@@ -14,7 +14,7 @@ breadcrumbs:
     url: /gameboy
   - name: Retrogame Archeology
     url: #
-thumbnail: /public/NintendoGameBoyThumb.png
+thumbnail: /public/consoles/Atari 2600.png
 recommend: featured
 ---
 From the Interactive Media & Games Seminar Series; 
