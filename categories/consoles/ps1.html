@@ -2,6 +2,7 @@
 permalink: /ps1/
 layout: blog-cards
 console: 'ps1'
+title: 'Sony Playstation 1'
 consoleimage: /public/consoles/Sony Playstation.png
 thumbnail: /public/consoles/Sony Playstation.png
 breadcrumbs:
@@ -12,6 +13,6 @@ breadcrumbs:
   - name: Sony Playstation 1
     url: #
 ---
-<div><img src="{{ page.thumbnail }}" /> <h1>{{ page.console | uppercase }}</h1></div>
+<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
