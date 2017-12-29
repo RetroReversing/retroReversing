@@ -1,14 +1,23 @@
 ---
-title: Krisalis Development Kit (Sega)
 layout: post
-author: amorri40
-permalink: /krisalis-development-kit-(sega)/
 tags:
-- dev-kit
+- devkit
 - hardware
 - gamegear
-- segamastersystem
+- sms
+title: Krisalis Development Kit (Sega)
+published: true
+thumbnail: /public/consoles/Sega Game Gear.png
 image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
+permalink: /krisalis-development-kit-(sega)/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Development Kits
+    url: /devkit
+  - name: Krisalis Development Kit (Sega)
+    url: #
+recommend: devkit
 source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
 published: true
 ---
@@ -120,7 +129,7 @@ The code was written using a single codebase for both MS/GG versions as well as 
 
 Thanks to MattTaylor on SMSPower.org we have an example source file which would be parsed by the KASM assembler and produced a ROM for Game Gear and Master System!
 
-```asm
+```assembly
 
 SMPRTE   DB 0 
 
