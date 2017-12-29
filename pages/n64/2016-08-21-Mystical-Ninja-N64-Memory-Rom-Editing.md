@@ -1,13 +1,22 @@
 ---
-title: Mystical Ninja N64 Memory Rom Editing
-layout: page
-author: amorri40
-permalink: /mystical-ninja-n64-memory-rom-editing/
-tags:
+layout: post
+tags: 
 - n64
-- nintendo
 - memory
-collection: n64
+title: Mystical Ninja N64 Memory Rom Editing
+published: true
+thumbnail: /public/consoles/Nintendo 64.png
+youtube: "HCOhOoajBFY"
+image: https://img.youtube.com/vi/HCOhOoajBFY/maxresdefault.jpg
+permalink: /mystical-ninja-n64-memory-rom-editing/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo 64
+    url: /n64
+  - name: Mystical Ninja N64 Memory Rom Editing
+    url: #
+recommend: n64
 source-id: 1rfRExF_BzOThycHq_q605RqT6hwQBUysmOpD9MP8glM
 published: true
 ---
