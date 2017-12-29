@@ -17,9 +17,13 @@ https://www.retroreversing.com/
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
 
+## Sega Saturn Development Kit
+* Cross Products development kit for sega saturn - https://segaretro.org/Cross_Products
+
 ----
-# Sources
+# Quality Sources
 * Video game Science - https://www.reddit.com/r/videogamescience/
+* SegaRetro - https://segaretro.org
 
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
