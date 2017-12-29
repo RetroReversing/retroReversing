@@ -1,5 +1,5 @@
 ---
-permalink: /devkits/
+permalink: /hardware/devkits/
 layout: blog-cards
 console: devkit
 breadcrumbs:
@@ -9,6 +9,7 @@ breadcrumbs:
     url: /hardware
 redirect_from:
   - /devkit
+  - /devkits
   - /dev-kit
   - /developmentkit
   - /development-kit
