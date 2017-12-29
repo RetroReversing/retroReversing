@@ -1,14 +1,24 @@
 ---
-title: Nintendo Seal of Approval
-layout: page
-author: amorri40
-permalink: /nintendo-seal-of-approval/
+layout: post
 tags:
-- nintendo
 - nes
 - snes
 - n64
-collection: n64
+- gc
+- wii
+title: Nintendo Seal of Approval
+published: true
+thumbnail: /public/consoles/Nintendo 64.png
+image: /public/kCxNlbEqQBTmGsgDrzeh4w_img_0.png
+permalink: /nintendo-seal-of-approval/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo 64
+    url: /n64
+  - name: Nintendo Seal of Approval
+    url: #
+recommend: n64
 source-id: 1GmYqqCbZu9liFZUhM6ASzJ6fA5ILUnN4ClmELoAe3Ak
 published: true
 ---
