@@ -1,15 +1,22 @@
 ---
-title: Mario Kart 64 World Viewer
-layout: page
-author: amorri40
-permalink: /mario-kart-64-world-viewer/
-tags:
-- nintendo
+layout: video-post
+tags: 
 - n64
-- world editor
-collection: n64
-source-id: 13L59d4QYK9y8PHOHIm7U7BDPkFj84OQnTGKdQv5EPU8
+- worldeditor
+title: Mario Kart 64 World Viewer
 published: true
+thumbnail: /public/consoles/Nintendo 64.png
+image: /public/0pZkOKRfCUlcJDX5TiJL8g_img_0.png
+permalink: /mario-kart-64-world-viewer/
+source-id: 13L59d4QYK9y8PHOHIm7U7BDPkFj84OQnTGKdQv5EPU8
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo 64
+    url: /n64
+  - name: Mario Kart 64 World Viewer
+    url: #
+recommend: n64
 ---
 # Mario Kart 64 World Viewer
 
