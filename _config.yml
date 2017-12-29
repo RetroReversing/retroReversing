@@ -9,6 +9,10 @@ logo: '/public/logo.png'
 # Site configurations
 gems:
   - jekyll-paginate
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+
 markdown: kramdown
 kramdown:
   input: GFM
@@ -19,10 +23,7 @@ sass:
 paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
-plugins:
-  - jekyll-redirect-from
-whitelist:
-  - jekyll-redirect-from
+
 
 version: 1.0.0
 
