@@ -1,0 +1,5 @@
+.post .post-single ul {
+  list-style-type: initial;
+  padding: revert;
+  margin: initial;
+}
