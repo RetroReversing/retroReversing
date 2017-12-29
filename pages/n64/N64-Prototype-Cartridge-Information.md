@@ -9,7 +9,7 @@ title: N64 Prototype Cartridge Information
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "laOwsOHelBg"
-image: https://img.youtube.com/vi/laOwsOHelBg/maxresdefault.jpg
+image: /public/WZ49eRMfsUEDM70of4Zg_img_0.png
 permalink: /n64-prototype-cartridge-information/
 breadcrumbs:
   - name: Home
