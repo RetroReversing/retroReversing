@@ -1,4 +1,5 @@
 # RetroReversing
+A curated list of awesome retro game development and reverse engineering resources, tools, docs, related projects all in an easy to use githubpages website.
 https://www.retroreversing.com/
 
 # Current Posts
@@ -11,6 +12,7 @@ https://www.retroreversing.com/
 
 ## Tools
 * TUME Map Editor - https://games.greggman.com/game/tume___the_universal_map_editor/
+* Game Genie Guy - https://www.romhacking.net/forum/index.php?topic=17595.40
 
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
