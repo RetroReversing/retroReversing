@@ -14,3 +14,4 @@ redirect_from:
   - /developmentkit
   - /development-kit
 ---
+{% include console.html %}
