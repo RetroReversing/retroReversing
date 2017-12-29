@@ -6,8 +6,8 @@ tags:
 - devkit
 title: DTL-H2000 PlayStation Development System
 thumbnail: /public/consoles/Sony Playstation.png
-youtube: "nYCCF7DuCBo"
-image: https://img.youtube.com/vi/nYCCF7DuCBo/maxresdefault.jpg
+youtube: "y3aKAFafPoc"
+image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
 permalink: /official-playStation-devkit
 breadcrumbs:
   - name: Home
