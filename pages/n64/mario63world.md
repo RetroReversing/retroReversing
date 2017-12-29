@@ -1,15 +1,23 @@
 ---
-title: Super Mario 64 World Editing
-layout: page
-author: amorri40
-permalink: /mario-64-world/
-tags:
+layout: video-post
+tags: 
 - n64
-- nintendo
-- world editor
-collection: n64
+- worldeditor
+title: Super Mario 64 World Editing
 source-id: 1K0N3kLqVv-GdoHrWNNGtomd1CAFomHlG0-Ugi_AUCec
 published: true
+thumbnail: /public/consoles/Nintendo 64.png
+youtube: "4d5OsHRo7Nc"
+image: https://img.youtube.com/vi/4d5OsHRo7Nc/maxresdefault.jpg
+permalink: /mario-64-world/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo 64
+    url: /n64
+  - name: Super Mario 64 World Editing
+    url: #
+recommend: n64
 ---
 # Super Mario 64 World Editing
 
