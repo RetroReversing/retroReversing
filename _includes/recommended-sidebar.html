@@ -4,7 +4,7 @@
     <h5 class="widget-title">Recommends</h5>
     <ul class="widget-list">
       {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
-        {% if post.tags contains page.recommend and post.image %}
+        {% if post.tags contains page.recommend and post.image and post.title != page.title %}
           <li>
             <div class="widget-img">
               <a href="{{ post.permalink }}"><img src="{{ post.image }}" alt=""></a>
