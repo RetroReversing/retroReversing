@@ -1,0 +1,10 @@
+{% if page.youtube %}
+<section class="bg-image" style="background-image: url('{{ page.image }}');">
+    <div class="overlay-light"></div>
+    <div class="container">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtube }}" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+{% endif %}
