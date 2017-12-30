@@ -1,3 +1,4 @@
+{% if page.carousel %}
 <section class="bg-inverse p-y-0">
     <div class="owl-carousel owl-slide full-height">
       {% for item in page.carousel %}
@@ -14,3 +15,4 @@
       {% endfor %}
     </div>
   </section>
+{% endif %}
