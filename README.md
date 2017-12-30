@@ -32,6 +32,7 @@ https://www.retroreversing.com/
 * Video game Science - https://www.reddit.com/r/videogamescience/
 * SegaRetro - https://segaretro.org
 * Ultra64.ca - http://ultra64.ca
+* Codeshop articles in Edge magazine (Aus)
 
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
