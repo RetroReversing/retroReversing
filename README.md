@@ -21,6 +21,7 @@ https://www.retroreversing.com/
 
 ## Sega Saturn Development Kit
 * Cross Products development kit for sega saturn - https://segaretro.org/Cross_Products
+* Cross Products vs Psy-Q (SN Systems) - https://archive.org/stream/EDGE.N023.1995.08/EDGE.N023.1995.08-Escapade#page/n53/mode/2up/search/%22SN+Systems%22
 
 ## Nintendo 64
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
