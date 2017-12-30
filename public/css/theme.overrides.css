@@ -1,5 +1,9 @@
 .post ul {
     list-style-type: initial;
-  padding: 5%;
-  margin: initial;
+    padding: 5%;
+    margin: initial;
+}
+
+.post a {
+  text-decoration: underline ;
 }
