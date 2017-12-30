@@ -12,8 +12,8 @@ permalink: /sega-documentary
 breadcrumbs:
   - name: Home
     url: /
-  - name: Sony Playstation
-    url: /ps1
+  - name: SEGA
+    url: /sega
   - name: Working at SEGA Documentary 
     url: #
 recommend: sega
