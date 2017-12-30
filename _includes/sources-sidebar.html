@@ -1,0 +1,21 @@
+<!-- sources-sidebar  -->
+{% if page.references %}
+  <div class="widget widget-videos">
+    <h5 class="widget-title">Sources</h5>
+    <ul class="widget-list">
+      {% for reference in site.references %}
+        {% if page.references contains reference.name %}
+          <li>
+            <div class="widget-img">
+              <a href="{{ reference.link }}"><img src="{{ reference.image }}" alt=""></a>
+              <span>{{ reference.name }}</span>
+            </div>
+            <h4><a href="{{ reference.link }}">{{ post.name }}</a></h4> 
+            <hr />
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+<!-- /sources-sidebar -->
