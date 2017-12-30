@@ -24,8 +24,8 @@ authors:
     link: https://www.youtube.com/channel/UC1scN415hiatrUSAg_51xqA
     image: https://yt3.ggpht.com/-59MNhf4K7fw/AAAAAAAAAAI/AAAAAAAAAAA/jA_EjpcyXIg/s288-c-k-no-mo-rj-c0xffffff/photo.jpg
 ---
+## Crash Bandicoot's Design and Technical Achievement
 Why is Crash Bandicoot designed the way he is? And how did Naughty Dog manage to cram so much graphical detail into the original Playstation? We take a quick look behind-the-scenes to find out!
 
-# How did crash pack entire games into so little memory
-See Dave-Baggett's excellent answer to this question here:
-http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1
+## How did crash pack entire games into so little memory
+<a href="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1">See Dave-Baggett's excellent answer to this question here!</a>
