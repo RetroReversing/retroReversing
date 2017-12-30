@@ -65,3 +65,7 @@ references:
     name: youtube 
     link: https://www.youtube.com/
     image: /public/Web-Youtube-alt-2-Metro-icon.png
+  - title: Wayback Machine
+    name: wayback 
+    link: https://archive.org/web/
+    image: /public/references/wayback.jpg
