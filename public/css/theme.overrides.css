@@ -7,3 +7,9 @@
 .post a {
   text-decoration: underline ;
 }
+
+. widget-friends i {
+  width:64px;
+  height:64px;
+  text-align: center;
+}
