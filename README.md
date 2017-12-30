@@ -21,6 +21,8 @@ https://www.retroreversing.com/
 ## Sega Saturn Development Kit
 * Cross Products development kit for sega saturn - https://segaretro.org/Cross_Products
 
+## Nintendo 64
+* SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
 ----
 # Quality Sources
 * Video game Science - https://www.reddit.com/r/videogamescience/
