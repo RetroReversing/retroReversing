@@ -9,6 +9,7 @@ tags:
 - hardware
 thumbnail: "/public/consoles/Nintendo 64.png"
 recommend: n64
+image: "/public/bdIl6SRdT2u7pt9pl7YOw_img_0.jpg"
 source-id: 1_DjkFL0bykSqDK6dBB64lc6-RsCOFhNCOoRrnIeaEIk
 published: true
 ---
