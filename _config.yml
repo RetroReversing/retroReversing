@@ -61,3 +61,7 @@ references:
     name: BehindTheScreens 
     link: https://www.youtube.com/channel/UC1scN415hiatrUSAg_51xqA
     image: https://yt3.ggpht.com/-59MNhf4K7fw/AAAAAAAAAAI/AAAAAAAAAAA/jA_EjpcyXIg/s288-c-k-no-mo-rj-c0xffffff/photo.jpg
+  - title: YouTube
+    name: youtube 
+    link: https://www.youtube.com/
+    image: /public/Web-Youtube-alt-2-Metro-icon.png
