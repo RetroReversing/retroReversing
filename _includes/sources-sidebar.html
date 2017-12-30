@@ -4,13 +4,11 @@
       <div class="widget widget-friends">
         <h5 class="widget-title">Sources <span>({{ page.references.size }})</span></h5>
         <ul>
-          {% for reference in page.references %}
-            {% if site.references contains reference %}
-              <li><a href="{{ site.references.get(reference).link }}" data-toggle="tooltip" title="{{ site.references.get(reference).title }}"><img src="{{ site.references.get(reference).image }}" alt="{{ site.references.get(reference).title }}"></a></li>
-            {% else %}
-              <li><a href="#" data-toggle="tooltip" title="{{ reference }}"><i class="fa fa-book"></i></a></li>
+          {% for reference in site.references %}
+            {% if page.references contains reference.name %}
+              <li><a href="{{ reference.link }}" data-toggle="tooltip" title="{{ reference.title }}"><img src="{{ reference.image }}" alt="{{ reference.title }}"></a></li>
             {% endif %}
-          {% endfor %}
+      {% endfor %}
     </ul>
   </div>
 {% endif %}
