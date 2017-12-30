@@ -25,6 +25,9 @@ https://www.retroreversing.com/
 ## Nintendo 64
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
 
+## Playstation 3
+* Book review of "Programming the Cell Processor" and Comparison of open source tools to SN Systems sdk here - https://archive.org/stream/GDM_February_2009#page/n39/mode/2up/search/%22SN+Systems%22
+
 ## PC
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
 ----
