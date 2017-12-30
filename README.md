@@ -14,6 +14,7 @@ https://www.retroreversing.com/
 * TUME Map Editor - https://games.greggman.com/game/tume___the_universal_map_editor/
 * Game Genie Guy - https://www.romhacking.net/forum/index.php?topic=17595.40
 * Psy-Q CD Emulation Systems - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
+* Deluxe Paint IV - https://www.youtube.com/watch?v=973fiFaSXqw
 
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
