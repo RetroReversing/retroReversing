@@ -2,7 +2,7 @@
 {% if page.references %}
   
       <div class="widget widget-friends">
-        <h5 class="widget-title">Sources <span>({{ len(page.references) }})</span></h5>
+        <h5 class="widget-title">Sources <span>({{ page.references.size }})</span></h5>
         <ul>
           {% for reference in site.references %}
             {% if page.references contains reference.name %}
