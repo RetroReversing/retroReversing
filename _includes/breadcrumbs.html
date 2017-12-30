@@ -1,11 +1,13 @@
-<section class="breadcrumbs">
+{% if page.breadcrumbs %}
+  <section class="breadcrumbs">
     <div class="container">
       <ol class="breadcrumb">
-        {% if page.breadcrumbs %}
+        
             {% for crumb in page.breadcrumbs %}
             <li><a href="{{crumb.url}}" >{{ crumb.name }}</a></li>
             {% endfor %}
-        {% endif %}
+        
       </ol>
     </div>
   </section>
+{% endif %}
