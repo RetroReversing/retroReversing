@@ -7,7 +7,7 @@ tags:
 - devkit
 title: Working at SEGA Documentary 
 thumbnail: /public/consoles/Sega Genesis.png
-image: https://img.youtube.com/vi/0HwvAjELuuM/maxresdefault.jpg
+image: https://img.youtube.com/vi/lCnaw07LaS0/maxresdefault.jpg
 permalink: /sega-documentary
 breadcrumbs:
   - name: Home
