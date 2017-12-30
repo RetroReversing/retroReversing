@@ -5,7 +5,7 @@
         <h5 class="widget-title">Sources <span>({{ page.references.size }})</span></h5>
         <ul>
           {% for reference in page.references %}
-            {% if site.references contains reference.name %}
+            {% if site.references contains reference %}
               <li><a href="{{ reference.link }}" data-toggle="tooltip" title="{{ site.references.get(reference).title }}"><img src="{{ reference.image }}" alt="{{ reference.title }}"></a></li>
             {% else %}
               <li><a href="#" data-toggle="tooltip" title="{{ reference }}"><i class="fa fa-book"></i></a></li>
