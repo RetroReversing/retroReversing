@@ -23,6 +23,9 @@ https://www.retroreversing.com/
 
 ## Nintendo 64
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
+
+## PC
+* Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
 ----
 # Quality Sources
 * Video game Science - https://www.reddit.com/r/videogamescience/
