@@ -56,3 +56,8 @@ mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
 
+references: 
+  - title: Behind The Screens
+    name: BehindTheScreens 
+    link: https://www.youtube.com/channel/UC1scN415hiatrUSAg_51xqA
+    image: https://yt3.ggpht.com/-59MNhf4K7fw/AAAAAAAAAAI/AAAAAAAAAAA/jA_EjpcyXIg/s288-c-k-no-mo-rj-c0xffffff/photo.jpg
