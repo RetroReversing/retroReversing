@@ -46,7 +46,7 @@ dbcman.irx|102| Device Control Library
 pppoe.irx|99| Point To Point Protocol over Ethernet (PPPoE) library
 stream.irx|73| MultiStream DSP (Official PS2 Dev Kit)
 cri_adxi.irx|73| ADX is a streamed audio format which allows for multiple audio streams, seamless looping and continuous playback (CRIWARE SDK)
-libnet.irx|68| 
+libnet.irx|68| libnet Library
 eznetcnf.irx|64| 
 ezmidi.irx|63| 
 lgaud.irx|63| 
