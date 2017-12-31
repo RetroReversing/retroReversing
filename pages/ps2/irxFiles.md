@@ -27,9 +27,9 @@ libsd.irx|627| Sound Library (Official PS2 Dev Kit)
 mcman.irx|608| MCMAN is the memory card manager (Official PS2 Dev Kit)
 mcserv.irx|608| MCSERV is the memory card server. This provides the RPC interface to MCMAN (Official PS2 Dev Kit)
 padman.irx|574| Game Pad Manager (Official PS2 Dev Kit)
-sdrdrv.irx|476| 
+sdrdrv.irx|476| Sound Driver (Official PS2 Dev Kit)
 usbd.irx|257| USBD library - low-level USB functions used by all USB drivers. (Official PS2 Dev Kit)
-mtapman.irx|187| 
+mtapman.irx|187| Multi-tap manager (Official PS2 Dev Kit)
 dev9.irx|184| HDD/Ethernet/modem adapter low-level library (Official PS2 Dev Kit)
 modhsyn.irx|166| 
 cdvdstm.irx|161| 
