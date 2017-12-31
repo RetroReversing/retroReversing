@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: ps2
 ---
-<div class="table">
+
 IRX | Usage | Description
 --- | --- | ---
 sio2man.irx|638| 
@@ -645,4 +645,3 @@ ezncnf_s.irx|1|
 gbxcd.irx|1| 
 sndrv003.irx|1| 
 blade_cd.irx|1| 
-</div>
