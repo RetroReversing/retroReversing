@@ -163,7 +163,7 @@ exaudvd.irx|5|
 aveppp.irx|5| 
 sndbget.irx|5| 
 iopsys.irx|5| 
-eyetoy.irx|5| 
+eyetoy.irx|5| EyeToy USB Library
 dgco_d.irx|5| 
 mstream.irx|5| 
 sndrv101.irx|5| Wrapper driver for SCE modem driver (SN Systems NDK)
