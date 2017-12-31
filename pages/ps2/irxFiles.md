@@ -32,7 +32,7 @@ usbd.irx|257| USBD library - low-level USB functions used by all USB drivers. (O
 mtapman.irx|187| Multi-tap manager (Official PS2 Dev Kit)
 dev9.irx|184| HDD/Ethernet/modem adapter low-level library (Official PS2 Dev Kit)
 modhsyn.irx|166| 
-cdvdstm.irx|161| 
+cdvdstm.irx|161| DVD Streaming Functions (Official PS2 Dev Kit)
 netcnf.irx|156| 
 modmidi.irx|153| 
 smap.irx|138| Ethernet driver - for Sony network adaptor (Ethernet/modem) (Official PS2 Dev Kit)
