@@ -87,7 +87,7 @@ lgkbm.irx|18|
 usbinit.irx|17| 
 audio.irx|16| 
 ds2o.irx|16| 
-snstkrel.irx|15| 
+snstkrel.irx|15| TCP/IP Stack release version - no run-time debug logging (SN Systems NDK)
 lgdevw.irx|14| 
 scream.irx|14| 
 rspu2drv.irx|14| 
@@ -142,7 +142,7 @@ msl.irx|6|
 skmidi.irx|6| 
 989nomid.irx|6| 
 sndfi.irx|6| 
-sndrv001.irx|6| 
+sndrv001.irx|6| USB-Ethernet (not PPPoE) driver (SN Systems NDK)
 sounddrv.irx|6| 
 koeisnd.irx|6| 
 sksesq.irx|6| 
@@ -217,7 +217,7 @@ sndrv.irx|3|
 989mini.irx|3| 
 gtfsatmn.irx|3| 
 modsd.irx|3| 
-snstkdbg.irx|3| 
+snstkdbg.irx|3| TCP/IP Stack debug version - includes run-time debug logging (SN Systems NDK) *DEBUG*
 mpinet.irx|3| 
 fmodexl.irx|3| 
 fsiopcom.irx|3| 
@@ -538,7 +538,7 @@ rwa_cdvd.irx|1|
 psx2spc3.irx|1| 
 spdif.irx|1| 
 xvi_snd.irx|1| 
-snstfrel.irx|1| 
+snstfrel.irx|1| Fast API IOP component - no run-time debug logging (SN Systems NDK)
 sampman2.irx|1| 
 synthmod.irx|1| 
 dmaq.irx|1| 
