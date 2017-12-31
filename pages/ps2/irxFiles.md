@@ -106,7 +106,7 @@ ds1o_s1.irx|10|
 drtysckf.irx|10| 
 ezpcm.irx|10| 
 scrtchpd.irx|10| ScratchPad (Official PS2 Dev Kit)
-panicsys.irx|9| 
+panicsys.irx|9| (Tiger Woods PGA TOUR 06)
 skhsynth.irx|9| 
 ds2u_s1.irx|9| 
 ds1u_d.irx|9| 
