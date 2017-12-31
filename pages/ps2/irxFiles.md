@@ -70,9 +70,9 @@ modsein.irx|30| SE stream generation (Music) (Official PS2 Dev Kit)
 eznetctl.irx|30| 
 mc2_d.irx|29| Memory Card Library 2/Module (Official PS2 Dev Kit)
 ezentctl.irx|28| 
-usbmload.irx|27| 
-moddelay.irx|23| 
-modssyn.irx|23| 
+usbmload.irx|27| USB module autoloader (Official PS2 Dev Kit)
+moddelay.irx|23| CSL MIDI Delay (Official PS2 Dev Kit)
+modssyn.irx|23| CSL Software Synthesizer (Official PS2 Dev Kit)
 ds2u.irx|22| 
 ds2u_d.irx|22| 
 usbkeybd.irx|22| USB keyboard sample driver (usbmload.irx compatible) (Official PS2 Dev Kit)
