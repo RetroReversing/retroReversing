@@ -28,14 +28,14 @@ mcman.irx|608|
 mcserv.irx|608| 
 padman.irx|574| 
 sdrdrv.irx|476| 
-usbd.irx|257| 
+usbd.irx|257| USBD library - low-level USB functions used by all USB drivers.
 mtapman.irx|187| 
-dev9.irx|184| 
+dev9.irx|184| HDD/Ethernet/modem adapter low-level library
 modhsyn.irx|166| 
 cdvdstm.irx|161| 
 netcnf.irx|156| 
 modmidi.irx|153| 
-smap.irx|138| 
+smap.irx|138| Ethernet driver - for Sony network adaptor (Ethernet/modem) 
 msifrpc.irx|119| 
 inet.irx|117| 
 inetctl.irx|112| 
@@ -57,7 +57,7 @@ atad.irx|45|
 pfs.irx|43| 
 ilink.irx|42| 
 ilsock.irx|41| 
-spduart.irx|37| 
+spduart.irx|37| Modem driver - for Sony network adaptor (Ethernet/modem)
 hdd.irx|36| 
 mcxman.irx|36| 
 mcxserv.irx|35| 
@@ -91,10 +91,10 @@ snstkrel.irx|15|
 lgdevw.irx|14| 
 scream.irx|14| 
 rspu2drv.irx|14| 
-sndrv200.irx|13| 
+sndrv200.irx|13| PPPoE support (SN Systems NDK)
 rtfssiop.irx|13| 
-sndrv100.irx|13| 
-sndrv202.irx|13| 
+sndrv100.irx|13| Wrapper driver for SCE Ethernet (not PPPoE) driver (SN Systems NDK)
+sndrv202.irx|13| Wrapper driver for SCE Ethernet (PPPoE variant) driver (SN Systems NDK)
 an986.irx|13| 
 snprofil.irx|12| 
 ds1o_d.irx|11| 
@@ -151,7 +151,7 @@ skmsin.irx|6|
 rxsnddrv.irx|6| 
 iopmem.irx|5| 
 audio_r.irx|5| 
-ommodem.irx|5| 
+ommodem.irx|5| Omron modem driver (Networking) 
 ds1u.irx|5| 
 dgco_s1.irx|5| 
 sndn2drv.irx|5| 
@@ -166,7 +166,7 @@ iopsys.irx|5|
 eyetoy.irx|5| 
 dgco_d.irx|5| 
 mstream.irx|5| 
-sndrv101.irx|5| 
+sndrv101.irx|5| Wrapper driver for SCE modem driver (SN Systems NDK)
 avetcp.irx|5| 
 dare_re.irx|5| 
 fsiopums.irx|5| 
@@ -175,7 +175,7 @@ dare_rt.irx|4|
 tsnddrvc.irx|4| 
 gs_iop.irx|4| 
 zcddvd.irx|4| 
-sndrv201.irx|4| 
+sndrv201.irx|4| USB-Ethernet (PPPoE variant) driver (SN Systems NDK)
 989dstrm.irx|4| 
 sndrv000.irx|4| DECI2 driver provided in the SN Systems Network Development Kit (NDK)
 devglue.irx|4| 
@@ -188,7 +188,7 @@ audio_d.irx|4|
 sksadpcm.irx|4| 
 cdloader.irx|4| 
 dgco.irx|4| 
-sndrv002.irx|4| 
+sndrv002.irx|4| Lucent chip set USB modem driver (SN Systems NDK)
 imemman.irx|4| 
 iophooey.irx|4| 
 cdvdfsv.irx|4| 
@@ -646,5 +646,5 @@ cdmodule.irx|1|
 cei.irx|1| 
 ezncnf_s.irx|1| 
 gbxcd.irx|1| 
-sndrv003.irx|1| 
+sndrv003.irx|1| Conexant chip set USB modem driver (SN Systems NDK)
 blade_cd.irx|1| 
