@@ -232,7 +232,7 @@ libssl.irx|3|
 boxr.irx|3| 
 ezbgm.irx|3| 
 sndvglue.irx|3| 
-usbsrch.irx|3| 
+usbsrch.irx|3| Usb searcher 2002.11.08
 fssdivag.irx|3| 
 iltrans.irx|3| 
 psx2usbc.irx|3| 
