@@ -76,26 +76,26 @@ modssyn.irx|23| CSL Software Synthesizer (Official PS2 Dev Kit)
 ds2u.irx|22| 
 ds2u_d.irx|22| 
 usbkeybd.irx|22| USB keyboard sample driver (usbmload.irx compatible) (Official PS2 Dev Kit)
-modmono.irx|21| 
+modmono.irx|21| CSL MIDI Monophonic (Official PS2 Dev Kit)
 lgdev.irx|20| 
-spucodec.irx|20| 
+spucodec.irx|20| SPU2 Waveform Data Encoding Module (Official PS2 Dev Kit)
 mc2_s1.irx|20| 
 usbmouse.irx|19| USB Mouse (Official PS2 Dev Kit)
 rwa.irx|19| 
-ds2o_d.irx|18| 
+ds2o_d.irx|18| (pad2?)
 lgkbm.irx|18| 
-usbinit.irx|17| 
+usbinit.irx|17| USB autoloader (Official PS2 Dev Kit)
 audio.irx|16| 
-ds2o.irx|16| 
+ds2o.irx|16| (pad2?)
 snstkrel.irx|15| TCP/IP Stack release version - no run-time debug logging (SN Systems NDK)
 lgdevw.irx|14| 
-scream.irx|14| 
+scream.irx|14| SCREAM sound (Official PS2 Dev Kit)
 rspu2drv.irx|14| 
 sndrv200.irx|13| PPPoE support (SN Systems NDK)
 rtfssiop.irx|13| 
 sndrv100.irx|13| Wrapper driver for SCE Ethernet (not PPPoE) driver (SN Systems NDK)
 sndrv202.irx|13| Wrapper driver for SCE Ethernet (PPPoE variant) driver (SN Systems NDK)
-an986.irx|13| 
+an986.irx|13| USB Ethernet (not to be included in titles?) (Official PS2 Dev Kit)
 snprofil.irx|12| 
 ds1o_d.irx|11| 
 usbpspcm.irx|11| 
