@@ -50,13 +50,13 @@ libnet.irx|68| libnet Library
 eznetcnf.irx|64| 
 ezmidi.irx|63| 
 lgaud.irx|63| 
-ntgui2.irx|61| 
+ntgui2.irx|61| Network configuration GUI library 2 (Official PS2 Dev Kit)
 modmsin.irx|59| 
 netcnfif.irx|55| 
 atad.irx|45| ATA interface driver (Hard-drive)
 pfs.irx|43| Playstation File System (HDD) (Official PS2 Dev Kit)
-ilink.irx|42| 
-ilsock.irx|41| 
+ilink.irx|42| i.LINK (IEEE1394) Terminal Library (Official PS2 Dev Kit)
+ilsock.irx|41| i.LINK (IEEE1394) Socket Library (Official PS2 Dev Kit)
 spduart.irx|37| Modem driver - for Sony network adaptor (Ethernet/modem)
 hdd.irx|36| 
 mcxman.irx|36| 
