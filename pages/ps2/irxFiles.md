@@ -68,19 +68,19 @@ ent_smap.irx|33| eenet device "smap" (Official PS2 Dev Kit)
 modsesq.irx|32| SE sequencer (Music) (Official PS2 Dev Kit)
 modsein.irx|30| SE stream generation (Music) (Official PS2 Dev Kit)
 eznetctl.irx|30| 
-mc2_d.irx|29| Memory Card Library 2/Module
+mc2_d.irx|29| Memory Card Library 2/Module (Official PS2 Dev Kit)
 ezentctl.irx|28| 
 usbmload.irx|27| 
 moddelay.irx|23| 
 modssyn.irx|23| 
 ds2u.irx|22| 
 ds2u_d.irx|22| 
-usbkeybd.irx|22| 
+usbkeybd.irx|22| USB keyboard sample driver (usbmload.irx compatible) (Official PS2 Dev Kit)
 modmono.irx|21| 
 lgdev.irx|20| 
 spucodec.irx|20| 
 mc2_s1.irx|20| 
-usbmouse.irx|19| 
+usbmouse.irx|19| USB Mouse (Official PS2 Dev Kit)
 rwa.irx|19| 
 ds2o_d.irx|18| 
 lgkbm.irx|18| 
