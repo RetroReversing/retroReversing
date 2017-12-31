@@ -4,8 +4,8 @@ tags:
 - ps2
 - devkit
 title: IRX Files for Playstation 2
-thumbnail: /public/consoles/Sony Playstation 2.png
-image: /public/consoles/Sony Playstation 2.png
+thumbnail: /public/consoles/Sony PlayStation 2.png
+image: /public/consoles/Sony PlayStation 2.png
 permalink: /irx-ps2
 breadcrumbs:
   - name: Home
