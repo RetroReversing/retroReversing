@@ -62,11 +62,11 @@ hdd.irx|36| Hard Disk Drive
 mcxman.irx|36| MCX PDA Manager Library (Official PS2 Dev Kit)
 mcxserv.irx|35|  MCX PDA Server Library (Official PS2 Dev Kit)
 snddrv.irx|35| 
-eenetctl.irx|35| 
-ent_devm.irx|33| 
-ent_smap.irx|33| 
-modsesq.irx|32| 
-modsein.irx|30| 
+eenetctl.irx|35| eenetctl Library Emotion Engine Network (Official PS2 Dev Kit)
+ent_devm.irx|33| eenet device ??? (Official PS2 Dev Kit)
+ent_smap.irx|33| eenet device "smap" (Official PS2 Dev Kit)
+modsesq.irx|32| SE sequencer (Music) (Official PS2 Dev Kit)
+modsein.irx|30| SE stream generation (Music) (Official PS2 Dev Kit)
 eznetctl.irx|30| 
 mc2_d.irx|29| 
 ezentctl.irx|28| 
