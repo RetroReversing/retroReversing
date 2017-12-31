@@ -68,7 +68,7 @@ ent_smap.irx|33| eenet device "smap" (Official PS2 Dev Kit)
 modsesq.irx|32| SE sequencer (Music) (Official PS2 Dev Kit)
 modsein.irx|30| SE stream generation (Music) (Official PS2 Dev Kit)
 eznetctl.irx|30| 
-mc2_d.irx|29| 
+mc2_d.irx|29| Memory Card Library 2/Module
 ezentctl.irx|28| 
 usbmload.irx|27| 
 moddelay.irx|23| 
