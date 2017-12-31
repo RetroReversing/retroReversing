@@ -54,7 +54,7 @@ ntgui2.irx|61|
 modmsin.irx|59| 
 netcnfif.irx|55| 
 atad.irx|45| ATA interface driver (Hard-drive)
-pfs.irx|43| 
+pfs.irx|43| Playstation File System (HDD) (Official PS2 Dev Kit)
 ilink.irx|42| 
 ilsock.irx|41| 
 spduart.irx|37| Modem driver - for Sony network adaptor (Ethernet/modem)
