@@ -17,6 +17,9 @@ breadcrumbs:
 recommend: ps2
 ---
 
+IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. 
+You should be able to find some of these in the MODULES folder of a PS2 disk (but the folder depends on the disc).
+
 IRX | Usage | Description
 --- | --- | ---
 sio2man.irx|638| 
@@ -174,7 +177,7 @@ gs_iop.irx|4|
 zcddvd.irx|4| 
 sndrv201.irx|4| 
 989dstrm.irx|4| 
-sndrv000.irx|4| 
+sndrv000.irx|4| DECI2 driver provided in the SN Systems Network Development Kit (NDK)
 devglue.irx|4| 
 isndstrm.irx|4| 
 triiop.irx|4| 
