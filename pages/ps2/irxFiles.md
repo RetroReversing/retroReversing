@@ -51,7 +51,7 @@ eznetcnf.irx|64|
 ezmidi.irx|63| 
 lgaud.irx|63| 
 ntgui2.irx|61| Network configuration GUI library 2 (Official PS2 Dev Kit)
-modmsin.irx|59| 
+modmsin.irx|59| MIDI Sequencer Module (Official PS2 Dev Kit)
 netcnfif.irx|55| 
 atad.irx|45| ATA interface driver (Hard-drive)
 pfs.irx|43| Playstation File System (HDD) (Official PS2 Dev Kit)
