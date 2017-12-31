@@ -98,14 +98,14 @@ sndrv202.irx|13| Wrapper driver for SCE Ethernet (PPPoE variant) driver (SN Syst
 an986.irx|13| USB Ethernet (not to be included in titles?) (Official PS2 Dev Kit)
 snprofil.irx|12| 
 ds1o_d.irx|11| 
-usbpspcm.irx|11| 
+usbpspcm.irx|11| PSP Communication Library (Official PS2 Dev Kit)
 ds2o_s1.irx|11| 
 989snd.irx|10| 
-ilsample.irx|10| 
+ilsample.irx|10| iLink Sample (Official PS2 Dev Kit)
 ds1o_s1.irx|10| 
 drtysckf.irx|10| 
 ezpcm.irx|10| 
-scrtchpd.irx|10| 
+scrtchpd.irx|10| ScratchPad (Official PS2 Dev Kit)
 panicsys.irx|9| 
 skhsynth.irx|9| 
 ds2u_s1.irx|9| 
