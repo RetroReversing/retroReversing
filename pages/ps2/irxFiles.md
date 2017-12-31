@@ -44,8 +44,8 @@ ppp.irx|106| Point To Point Protocol (PPP) library (Official PS2 Dev Kit)
 usbkb.irx|103| USB Keyboard Library
 dbcman.irx|102| Device Control Library
 pppoe.irx|99| Point To Point Protocol over Ethernet (PPPoE) library
-stream.irx|73| 
-cri_adxi.irx|73| 
+stream.irx|73| MultiStream DSP (Official PS2 Dev Kit)
+cri_adxi.irx|73| ADX is a streamed audio format which allows for multiple audio streams, seamless looping and continuous playback (CRIWARE SDK)
 libnet.irx|68| 
 eznetcnf.irx|64| 
 ezmidi.irx|63| 
