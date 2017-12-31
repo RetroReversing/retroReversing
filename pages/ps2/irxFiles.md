@@ -22,7 +22,7 @@ You should be able to find some of these in the MODULES folder of a PS2 disk (bu
 
 IRX | Usage | Description
 --- | --- | ---
-sio2man.irx|638| Interface for joypads, multitaps and memory cards. (Official PS2 Dev Kit)
+sio2man.irx|638| Manager Interface for joypads, multitaps and memory cards. (Official PS2 Dev Kit)
 libsd.irx|627| Sound Library (Official PS2 Dev Kit)
 mcman.irx|608| MCMAN is the memory card manager (Official PS2 Dev Kit)
 mcserv.irx|608| MCSERV is the memory card server. This provides the RPC interface to MCMAN (Official PS2 Dev Kit)
@@ -37,13 +37,13 @@ netcnf.irx|156| Network Configuration (Official PS2 Dev Kit)
 modmidi.irx|153| MIDI Sequencer Module (Official PS2 Dev Kit)
 smap.irx|138| Ethernet driver - for Sony network adaptor (Ethernet/modem) (Official PS2 Dev Kit)
 msifrpc.irx|119| SIF Remote procedure Call (Official PS2 Dev Kit)
-inet.irx|117| 
-inetctl.irx|112| 
-sio2d.irx|108| 
-ppp.irx|106| 
-usbkb.irx|103| 
-dbcman.irx|102| 
-pppoe.irx|99| 
+inet.irx|117| Network Library
+inetctl.irx|112| iNET Control interface
+sio2d.irx|108| Interface for joypads, multitaps and memory cards. (Official PS2 Dev Kit)
+ppp.irx|106| Point To Point Protocol (PPP) library (Official PS2 Dev Kit)
+usbkb.irx|103| USB Keyboard Library
+dbcman.irx|102| Device Control Library
+pppoe.irx|99| Point To Point Protocol over Ethernet (PPPoE) library
 stream.irx|73| 
 cri_adxi.irx|73| 
 libnet.irx|68| 
