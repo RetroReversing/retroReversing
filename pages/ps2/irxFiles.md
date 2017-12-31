@@ -222,7 +222,7 @@ mpinet.irx|3|
 fmodexl.irx|3| 
 fsiopcom.irx|3| 
 overlord.irx|3| Jak II (http://psx-scene.com/forums/f150/jak-ii-crashing-94%25-opl-133963/ ) (and Jak X?) (GPL violation, MiniLZO)
-poweroff.irx|3| 
+poweroff.irx|3| Poweroff Processing Libraries (Official PS2 Dev Kit)
 fsmfstrm.irx|3| 
 filemgrr.irx|3| 
 entcnfde.irx|3| 
