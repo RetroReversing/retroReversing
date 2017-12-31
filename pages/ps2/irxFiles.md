@@ -96,7 +96,7 @@ rtfssiop.irx|13|
 sndrv100.irx|13| Wrapper driver for SCE Ethernet (not PPPoE) driver (SN Systems NDK)
 sndrv202.irx|13| Wrapper driver for SCE Ethernet (PPPoE variant) driver (SN Systems NDK)
 an986.irx|13| USB Ethernet (not to be included in titles?) (Official PS2 Dev Kit)
-snprofil.irx|12| 
+snprofil.irx|12| SNProfil Module (SN Systems SDK) (Neversoft)
 ds1o_d.irx|11| 
 usbpspcm.irx|11| PSP Communication Library (Official PS2 Dev Kit)
 ds2o_s1.irx|11| 
