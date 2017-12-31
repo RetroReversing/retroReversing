@@ -110,7 +110,7 @@ panicsys.irx|9| (Tiger Woods PGA TOUR 06, Sonic Heroes)
 skhsynth.irx|9| Standard Kit Library/Sound System
 ds2u_s1.irx|9| 
 ds1u_d.irx|9| 
-alasd.irx|9| 
+alasd.irx|9| (Swat Global Strike Team Pal)
 mem2mb.irx|9| 
 cdarb.irx|9| 
 sdhd.irx|9| 
