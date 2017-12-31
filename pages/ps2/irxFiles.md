@@ -31,12 +31,12 @@ sdrdrv.irx|476| Sound Driver (Official PS2 Dev Kit)
 usbd.irx|257| USBD library - low-level USB functions used by all USB drivers. (Official PS2 Dev Kit)
 mtapman.irx|187| Multi-tap manager (Official PS2 Dev Kit)
 dev9.irx|184| HDD/Ethernet/modem adapter low-level library (Official PS2 Dev Kit)
-modhsyn.irx|166| 
+modhsyn.irx|166| CSL Hardware Synthesizer (Official PS2 Dev Kit)
 cdvdstm.irx|161| DVD Streaming Functions (Official PS2 Dev Kit)
-netcnf.irx|156| 
-modmidi.irx|153| 
+netcnf.irx|156| Network Configuration (Official PS2 Dev Kit)
+modmidi.irx|153| MIDI Sequencer Module (Official PS2 Dev Kit)
 smap.irx|138| Ethernet driver - for Sony network adaptor (Ethernet/modem) (Official PS2 Dev Kit)
-msifrpc.irx|119| 
+msifrpc.irx|119| SIF Remote procedure Call (Official PS2 Dev Kit)
 inet.irx|117| 
 inetctl.irx|112| 
 sio2d.irx|108| 
