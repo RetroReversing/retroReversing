@@ -23,6 +23,8 @@ recommend: introduction
 videocarousel:
   - image: https://img.youtube.com/vi/Kalmryn9_sE/maxresdefault.jpg 
     youtube: 'Kalmryn9_sE'
+  - image: https://img.youtube.com/vi/5pEg9IdsE08/maxresdefault.jpg
+    youtube: '5pEg9IdsE08'
 references:
   - computerphile
 ---
