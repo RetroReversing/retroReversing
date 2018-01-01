@@ -21,6 +21,7 @@ breadcrumbs:
   - name: Cross Products SEGA MegaCD Development Kit  
     url: #
 recommend: devkit
+editlink: /sega/Mega Drive/CrossProductsDevKitSnasm2.md
 videocarousel:
   - image: https://img.youtube.com/vi/GH94fKtGr0M/maxresdefault.jpg 
     youtube: 'GH94fKtGr0M'
@@ -29,7 +30,7 @@ videocarousel:
   - image: https://img.youtube.com/vi/aD8kCGBi4wI/maxresdefault.jpg
     youtube: 'aD8kCGBi4wI'
 references:
-  - youtube
+  - computerphile
 ---
 A Cross Products (SNASM2) SEGA MegaCD Development Kit in action! 
 
