@@ -16,6 +16,7 @@ breadcrumbs:
   - name: Crash Bandicoot's Design and Technical Achievement 
     url: #
 recommend: ps1
+editlink: /ps1/CrashBandicoot.md
 videocarousel:
   - image: https://img.youtube.com/vi/0HwvAjELuuM/maxresdefault.jpg
     youtube: '0HwvAjELuuM'
