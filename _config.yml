@@ -69,3 +69,7 @@ references:
     name: wayback 
     link: https://archive.org/web/
     image: /public/references/wayback.jpg
+  - title: Devs Play (Double Fine)
+    name: DevsPlay 
+    link: https://www.youtube.com/user/DoubleFineProd/
+    image: /public/Web-Youtube-alt-2-Metro-icon.png
