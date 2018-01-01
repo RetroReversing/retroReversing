@@ -18,7 +18,7 @@ https://www.retroreversing.com/
 
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
-* Cross Products Development kit - https://www.youtube.com/watch?v=gLfNgKutK-g
+* SNASM2 PCI card - https://www.youtube.com/watch?v=zb2928JnKEg (https://assemblergames.com/threads/problems-installing-snasm2-pci-card.43990/page-5)
 
 ## Sega Saturn Development Kit
 * Cross Products development kit for sega saturn - https://segaretro.org/Cross_Products
