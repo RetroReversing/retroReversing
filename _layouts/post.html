@@ -27,7 +27,11 @@
               <div>
                 <h2 class="post-title">{{ page.title }}</h2>                
               </div>
-              <span>Contribute to this page: <a href="https://github.com/amorri40/retroReversing/tree/master/pages">Edit on github</a></span>
+              {% if page.editlink %}
+                <a href="https://github.com/amorri40/retroReversing/edit/master/pages/{{page.editlink}}">Edit on github</a>
+              {% else %}
+                <a href="https://github.com/amorri40/retroReversing/tree/master/pages">Edit on github</a>
+              {% endif %}
             </div>
             {{ content | markdownify }}
           </div>
