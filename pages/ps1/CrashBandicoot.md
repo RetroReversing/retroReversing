@@ -19,8 +19,11 @@ recommend: ps1
 videocarousel:
   - image: https://img.youtube.com/vi/0HwvAjELuuM/maxresdefault.jpg
     youtube: '0HwvAjELuuM'
+  - image: https://img.youtube.com/vi/C3zOzmI4oj8/maxresdefault.jpg
+    youtube: C3zOzmI4oj8
 references:
   - BehindTheScreens
+  - DevsPlay
 ---
 ## Crash Bandicoot's Design and Technical Achievement
 Why is Crash Bandicoot designed the way he is? And how did Naughty Dog manage to cram so much graphical detail into the original Playstation? We take a quick look behind-the-scenes to find out!
