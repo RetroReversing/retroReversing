@@ -20,6 +20,7 @@ breadcrumbs:
   - name: Game Physics (in Assembler) (SNASM2)  
     url: #
 recommend: introduction
+editlink: introduction/GamePhysicsinAssembler.md
 videocarousel:
   - image: https://img.youtube.com/vi/Kalmryn9_sE/maxresdefault.jpg 
     youtube: 'Kalmryn9_sE'
