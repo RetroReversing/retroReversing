@@ -7,9 +7,11 @@ tags:
 - n64
 - devkit
 - hardware
+- snsystems
 thumbnail: "/public/consoles/Nintendo 64.png"
 recommend: n64
 image: "/public/bdIl6SRdT2u7pt9pl7YOw_img_0.jpg"
+editlink: /n64/Maestro64.md
 references:
   - wayback
   - retrogames.co.uk
