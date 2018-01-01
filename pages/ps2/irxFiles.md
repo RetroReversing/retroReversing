@@ -151,7 +151,7 @@ skmsin.irx|6|
 rxsnddrv.irx|6| 
 iopmem.irx|5| 
 audio_r.irx|5| 
-ommodem.irx|5| Omron modem driver (Networking) 
+ommodem.irx|5| Omron modem driver (Networking) (for use with SCE Inet)
 ds1u.irx|5| 
 dgco_s1.irx|5| 
 sndn2drv.irx|5| 
