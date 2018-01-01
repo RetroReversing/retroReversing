@@ -8,7 +8,7 @@ tags:
 - genesis
 title: The SPROBE Megadrive development system
 published: true
-thumbnail: /public/consoles/Sega Mega Drive.png
+thumbnail: /public/consoles/Sega Megadrive.png
 youtube: FTnV2NqQwA8
 image: https://img.youtube.com/vi/FTnV2NqQwA8/maxresdefault.jpg
 permalink: /sprobe-megadrive/
