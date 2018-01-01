@@ -18,17 +18,17 @@ published: true
 
 First mentioned on the official SN Systems website on the 10th November 2000 the PS2 Network Development Kit (NDK) was a software development tool that allowed developers to add online networking features to their games.
 
-Also a post from December 20th 2000 on Gamasutra mentions that the Analyzer features " packet dropping, reordering, corruption, and bandwidth simulation, to test for application robustness in the event of poor quality or error-prone communication links" [1]
+Also a post from December 20th 2000 on Gamasutra mentions that the Analyzer features " packet dropping, reordering, corruption, and bandwidth simulation, to test for application robustness in the event of poor quality or error-prone communication links" [^1]
 
-Mentioned in the March 2001 issue of the Game Developer Magazine in the front line tools section by Daniel Huebner. The tool contains a "TCP/IP" stack to help developers add in networking features to their Playstation 2 Games. The tool also contains a PS2 “Packet Analyzer” which runs on the connected windows PC and requires the PS2 DTL-T1000 development hardware [2].
+Mentioned in the March 2001 issue of the Game Developer Magazine in the front line tools section by Daniel Huebner. The tool contains a "TCP/IP" stack to help developers add in networking features to their Playstation 2 Games. The tool also contains a PS2 “Packet Analyzer” which runs on the connected windows PC and requires the PS2 DTL-T1000 development hardware [^2].
 
 ![image alt text]({{ site.url }}/public/WpKsd53aOVPqARgF33wbqg_img_0.jpg)
 
-Image of SN Systems demonstrating their Network Development Kit for Playstation 2 at the 2002 Game Developer Conference [5].
+Image of SN Systems demonstrating their Network Development Kit for Playstation 2 at the 2002 Game Developer Conference [^5].
 
 ### First Online PS2 Game made possible with SN Systems NDK
 
-On a post on their official website entitled "SN Systems supports the first PlayStation®2 online enabled game" (25th October 2001) they announce that “Tony Hawk's Pro Skater™ 3” used their Network Development Kit to become the first online PS2 Game! [3]. It was developed By Neversoft Entertainment and also used the SN Systems ProDG development kit.
+On a post on their official website entitled "SN Systems supports the first PlayStation®2 online enabled game" (25th October 2001) they announce that “Tony Hawk's Pro Skater™ 3” used their Network Development Kit to become the first online PS2 Game! [^3]. It was developed By Neversoft Entertainment and also used the SN Systems ProDG development kit.
 
 ## NDK TCP/IP Stack
 
@@ -38,9 +38,9 @@ Diagram from the official website explaining how the TCP/IP stack works.
 
 It all starts from the Socket or Modem/Device API in the Emotion Engine (EE), this is the API that the game developers will use to make network calls and thus is the public interface for the library. 
 
-They have tried to make the library similar to the "BSD sockets" library but due to the nature of the Emotion Engine this was not easy. They needed to create a library which could be called by multiple threads simultaneously in the EE [4].
+They have tried to make the library similar to the "BSD sockets" library but due to the nature of the Emotion Engine this was not easy. They needed to create a library which could be called by multiple threads simultaneously in the EE [^4].
 
-The TCP/IP Stack runs on the Playstation 2's I/O Processor (IOP) rather than on the Emotion Engine CPUs in order to allow the game to use the 'precious emotion engine processing time’ rather than the networking library slowing the game down. It supports both blocking and non-blocking sockets but suggests using the non-blocking sockets from non-main-game-loop threads [4].
+The TCP/IP Stack runs on the Playstation 2's I/O Processor (IOP) rather than on the Emotion Engine CPUs in order to allow the game to use the 'precious emotion engine processing time’ rather than the networking library slowing the game down. It supports both blocking and non-blocking sockets but suggests using the non-blocking sockets from non-main-game-loop threads [^4].
 
 ### Memory impact of using the NDK
 
@@ -91,9 +91,9 @@ According to the official specifications of the NDK it claims to support more th
 
 ## NDK Analyzer
 
-The SN Systems Network Development Kit Analyzer is a program that runs on the developers PC and can intercept all the network packets coming into and out from the Playstation 2 [4]. 
+The SN Systems Network Development Kit Analyzer is a program that runs on the developers PC and can intercept all the network packets coming into and out from the Playstation 2 [^4]. 
 
-It uses the DECI2 interface instead of relying on a PS2 ethernet adapter or usb modem. It seems to be able to test reliability by dropping network packets and simulating different levels of bandwidth, it can also show performance graphs, statistics etc [6]. 
+It uses the DECI2 interface instead of relying on a PS2 ethernet adapter or usb modem. It seems to be able to test reliability by dropping network packets and simulating different levels of bandwidth, it can also show performance graphs, statistics etc [^6]. 
 
 I presume this system worked very similar to Wireshark, it would be great to get a screenshot of it running.
 
@@ -193,15 +193,15 @@ Also you will need the following irx modules that are distributed by Sony in the
 
 ## References
 
-1. Gamasutra Feature on NDK - [https://www.gamasutra.com/view/news/91158/SN_Systems_Brings_Internet_Gaming_Closer.php](https://www.gamasutra.com/view/news/91158/SN_Systems_Brings_Internet_Gaming_Closer.php)
+[^1]: Gamasutra Feature on NDK - [https://www.gamasutra.com/view/news/91158/SN_Systems_Brings_Internet_Gaming_Closer.php](https://www.gamasutra.com/view/news/91158/SN_Systems_Brings_Internet_Gaming_Closer.php)
 
-2. Game Developer Magazine - March 2001
+[^2]: Game Developer Magazine - March 2001
 
-3. First PS2 Online Game (25th October 2001) [https://web.archive.org/web/20040817005855/http://www.snsys.com:80/news/25100101.htm](https://web.archive.org/web/20040817005855/http://www.snsys.com:80/news/25100101.htm) 
+[^3]: First PS2 Online Game (25th October 2001) [https://web.archive.org/web/20040817005855/http://www.snsys.com:80/news/25100101.htm](https://web.archive.org/web/20040817005855/http://www.snsys.com:80/news/25100101.htm) 
 
-4. Wayback Machine Archive for the Official SN Systems description of the NDK - [https://web.archive.org/web/20060220113243/http://snsys.com:80/PlayStation2/ndk.htm](https://web.archive.org/web/20060220113243/http://snsys.com:80/PlayStation2/ndk.htm) 
+[^4]: Wayback Machine Archive for the Official SN Systems description of the NDK - [https://web.archive.org/web/20060220113243/http://snsys.com:80/PlayStation2/ndk.htm](https://web.archive.org/web/20060220113243/http://snsys.com:80/PlayStation2/ndk.htm) 
 
-5. GDC 2002 - [http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html#snsystems2](http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html#snsystems2) 
+[^5]: GDC 2002 - [http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html#snsystems2](http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html#snsystems2) 
 
-6. The Game Developers Conference Report 2002 - [http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html](http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html) 
+[^6]: The Game Developers Conference Report 2002 - [http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html](http://www.tmstation.scei.co.jp/ps2/public/Newsletter0006/nl06e-gdc.html) 
 
