@@ -2,7 +2,7 @@ All of this data is thanks to all the wonderful contributers over at: https://ps
 
 In order to generate these json files I enabled jQuery on the site and ran the following code in the browser console:
 ```js
-var classesToRemove = ['.col4', '.col1', '.col5', '.col8', '.sectionheader'];
+var classesToRemove = ['.col4', '.col1', '.col5', '.col8', '.sectionheader', 'th'];
 classesToRemove.forEach((className) => jQuery(className).remove());
 
 var allRows = jQuery('tr');
