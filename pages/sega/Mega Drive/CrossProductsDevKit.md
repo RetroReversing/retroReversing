@@ -8,7 +8,8 @@ tags:
 - devkit
 - crossproducts
 - snsystems
-title: Cross Products SEGA MegaCD Development Kit 
+- snasm2
+title: Cross Products SEGA MegaCD Development Kit (SNASM2)
 thumbnail: /public/consoles/Sega Genesis.png
 image: https://img.youtube.com/vi/gLfNgKutK-g/maxresdefault.jpg
 permalink: /sega-documentary
@@ -28,9 +29,12 @@ videocarousel:
 references:
   - youtube
 ---
-A Cross Products SEGA MegaCD Development Kit in action! 
+A Cross Products (SNASM2) SEGA MegaCD Development Kit in action! 
 
 This unit was built around 1994, and was used to develop games for the SEGA Mega Drive and MegaCD.
 Features:
 * Cross Products MegaCD development kit
 * SNASM2 - SN Systems Assembler modified by Cross Products
+
+## References
+* SNASM2 32x development brochure - https://segaretro.org/images/c/c0/SNASM2_%2832X%29_Brochure%28Alt%29.pdf
