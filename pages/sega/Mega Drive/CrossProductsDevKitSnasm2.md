@@ -39,5 +39,9 @@ Features:
 * SNASM2 - SN Systems Assembler modified by Cross Products
 * SNASM Interface Card in PC
 
+## SNASM for 32X Ad
+<img src="/public/magazine/SNASM2_Edge_UK_017.jpg"> [^1]
+
 ## References
+[^1]: Edge Magazine issue 17
 * SNASM2 32x development brochure - https://segaretro.org/images/c/c0/SNASM2_%2832X%29_Brochure%28Alt%29.pdf
