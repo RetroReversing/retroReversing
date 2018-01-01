@@ -18,6 +18,7 @@ https://www.retroreversing.com/
 
 ## Mega Drive/Genesis
 * Aladdin Source Code - https://gamehistory.org/aladdin-source-code/
+* Cross Products Development kit - https://www.youtube.com/watch?v=gLfNgKutK-g
 
 ## Sega Saturn Development Kit
 * Cross Products development kit for sega saturn - https://segaretro.org/Cross_Products
