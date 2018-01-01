@@ -19,10 +19,12 @@ breadcrumbs:
     url: /devkits
   - name: Cross Products SEGA MegaCD Development Kit  
     url: #
-recommend: sega
+recommend: devkit
 videocarousel:
   - image: https://img.youtube.com/vi/gLfNgKutK-g/maxresdefault.jpg
     youtube: 'gLfNgKutK-g'
+  - image: https://img.youtube.com/vi/aD8kCGBi4wI/maxresdefault.jpg
+    youtube: 'aD8kCGBi4wI'
 references:
   - youtube
 ---
