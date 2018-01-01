@@ -33,4 +33,4 @@ A Cross Products SEGA MegaCD Development Kit in action!
 This unit was built around 1994, and was used to develop games for the SEGA Mega Drive and MegaCD.
 Features:
 * Cross Products MegaCD development kit
-* SNASM2
+* SNASM2 - SN Systems Assembler modified by Cross Products
