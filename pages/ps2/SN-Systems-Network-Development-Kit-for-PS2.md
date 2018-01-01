@@ -8,22 +8,23 @@ tags:
 - snsystems
 - sdk
 thumbnail: /public/consoles/Sony PlayStation 2.png
-image: /public/consoles/Sony PlayStation 2.png
+image: /public/WpKsd53aOVPqARgF33wbqg_img_0.jpg
 recommend: ps2
+
 source-id: 13hjKlTlqNYhqYEVbVc3ELQZlqddl2YEpRDzyIVBJvr0
 published: true
 ---
 ## History of the SN Systems NDK for PS2
-
-![image alt text]({{ site.url }}/public/WpKsd53aOVPqARgF33wbqg_img_0.jpg)
-
-Image of SN Systems demonstrating their Network Development Kit for Playstation 2 at the 2002 Game Developer Conference [5].
 
 First mentioned on the official SN Systems website on the 10th November 2000 the PS2 Network Development Kit (NDK) was a software development tool that allowed developers to add online networking features to their games.
 
 Also a post from December 20th 2000 on Gamasutra mentions that the Analyzer features " packet dropping, reordering, corruption, and bandwidth simulation, to test for application robustness in the event of poor quality or error-prone communication links" [1]
 
 Mentioned in the March 2001 issue of the Game Developer Magazine in the front line tools section by Daniel Huebner. The tool contains a "TCP/IP" stack to help developers add in networking features to their Playstation 2 Games. The tool also contains a PS2 “Packet Analyzer” which runs on the connected windows PC and requires the PS2 DTL-T1000 development hardware [2].
+
+![image alt text]({{ site.url }}/public/WpKsd53aOVPqARgF33wbqg_img_0.jpg)
+
+Image of SN Systems demonstrating their Network Development Kit for Playstation 2 at the 2002 Game Developer Conference [5].
 
 ### First Online PS2 Game made possible with SN Systems NDK
 
