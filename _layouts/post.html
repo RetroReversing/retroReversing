@@ -27,6 +27,8 @@
               <div>
                 <h2 class="post-title">{{ page.title }}</h2>                
               </div>
+              {% assign filename = page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '.md' %}
+              <h4>Contribute to this page: <a href="{{filename}}">Edit on github</a></h4>
             </div>
             {{ content | markdownify }}
           </div>
@@ -40,12 +42,7 @@
             {% endif %}
             
          
-            <div class="social-share">
-              <a class="btn btn-social btn-facebook btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on facebook"><i class="fa fa-facebook"></i></a>
-              <span>5.345k</span>
-              <a class="btn btn-social btn-twitter btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on twitter"><i class="fa fa-twitter"></i></a>
-              <a class="btn btn-social btn-google-plus btn-circle" href="#" data-toggle="tooltip" title="" data-placement="bottom" role="button" data-original-title="Share on google-plus"><i class="fa fa-google-plus"></i></a>
-            </div>
+            {% include social-share.html %}
           </div>
           
           <div id="comments" class="comments anchor">
