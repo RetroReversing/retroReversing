@@ -11,8 +11,8 @@ tags:
 - snasm2
 title: Cross Products SEGA MegaCD Development Kit (SNASM2)
 thumbnail: /public/consoles/Sega Genesis.png
-image: https://img.youtube.com/vi/gLfNgKutK-g/maxresdefault.jpg
-permalink: /sega-documentary
+image: https://img.youtube.com/vi/GH94fKtGr0M/maxresdefault.jpg
+permalink: /snasm2-cross-products
 breadcrumbs:
   - name: Home
     url: /
@@ -22,6 +22,8 @@ breadcrumbs:
     url: #
 recommend: devkit
 videocarousel:
+  - image: https://img.youtube.com/vi/GH94fKtGr0M/maxresdefault.jpg 
+    youtube: 'GH94fKtGr0M'
   - image: https://img.youtube.com/vi/gLfNgKutK-g/maxresdefault.jpg
     youtube: 'gLfNgKutK-g'
   - image: https://img.youtube.com/vi/aD8kCGBi4wI/maxresdefault.jpg
@@ -35,6 +37,7 @@ This unit was built around 1994, and was used to develop games for the SEGA Mega
 Features:
 * Cross Products MegaCD development kit
 * SNASM2 - SN Systems Assembler modified by Cross Products
+* SNASM Interface Card in PC
 
 ## References
 * SNASM2 32x development brochure - https://segaretro.org/images/c/c0/SNASM2_%2832X%29_Brochure%28Alt%29.pdf
