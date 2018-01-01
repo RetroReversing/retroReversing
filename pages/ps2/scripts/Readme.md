@@ -9,7 +9,7 @@ var allRows = jQuery('tr');
 var total_string = "{";
 allRows.each((a,b,c)=> { 
 if (b.children[0] && b.children[1])
-	total_string+="\""+b.children[0].textContent+"\" : \""+b.children[1].textContent+"\"," 
+	total_string+="\""+b.children[0].textContent+"\" : \""+b.children[1].textContent+"\",\n" 
 })
 console.log(total_string,"}");
 ```
