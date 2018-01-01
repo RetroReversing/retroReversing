@@ -27,8 +27,7 @@
               <div>
                 <h2 class="post-title">{{ page.title }}</h2>                
               </div>
-              {% assign filename = page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '.md' %}
-              <h4>Contribute to this page: <a href="{{filename}}">Edit on github</a></h4>
+              <span>Contribute to this page: <a href="https://github.com/amorri40/retroReversing/tree/master/pages">Edit on github</a></span>
             </div>
             {{ content | markdownify }}
           </div>
