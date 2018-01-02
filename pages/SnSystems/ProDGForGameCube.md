@@ -6,7 +6,7 @@ tags:
 - dolphin
 - snsystems
 - sdk
-title: PRO-DG development tools for gamecube
+title: SN Systems PRO-DG development tools for gamecube
 thumbnail: /public/consoles/Nintendo Gamecube.png
 youtube: "TdPigfxxevo"
 image: https://img.youtube.com/vi/TdPigfxxevo/maxresdefault.jpg
@@ -19,6 +19,7 @@ breadcrumbs:
   - name: PRO-DG game development tools for gamecube
     url: #
 recommend: snsystems
+editlink: /SnSystems/ProDGForGameCube.md
 ---
 Lovely orange box and deluxe packaging for all of 150mb.
 
