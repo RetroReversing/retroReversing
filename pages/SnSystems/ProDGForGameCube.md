@@ -20,6 +20,9 @@ breadcrumbs:
     url: #
 recommend: snsystems
 editlink: /SnSystems/ProDGForGameCube.md
+references:
+  - assemblergames
+
 ---
 Lovely orange box and deluxe packaging for all of 150mb.
 
