@@ -18,5 +18,7 @@ breadcrumbs:
     url: #
 recommend: games
 editlink: /pc/Postal.md
+references:
+  - kimjustice
 ---
 You can get the official source code <a href="https://bitbucket.org/gopostal/postal-1-open-source/downloads/">Here</a>
