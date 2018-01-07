@@ -132,7 +132,11 @@ The file formats used in the source are listed in the following table:
 </table>
 
 
-### BASE.A65 vs BASE.CEW
+### BASE Directory
+
+The BASE directory contains all the glue code that puts everything together, sets up the banking etc.
+
+#### BASE.A65 vs BASE.CEW
 
 There seems to be three different versions of the "BASE" file, all with minor differences. I'm trying to figure out what CEW stands for as I presume the main build is the BASE.A65 file. 
 
