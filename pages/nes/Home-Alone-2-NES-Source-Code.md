@@ -140,9 +140,7 @@ It looks like BASE.CEW is older than its .A65 sibling as the A65 version has add
 
 The third file is BASE.OLD which presumably is just an older version of BASE.A65 and not that interesting.
 
-```diff
-
-diff --git a/BASE.CEW b/BASE.A65
+``` diff
 
 index 3846790..31a1b55 100644
 
