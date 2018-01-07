@@ -22,6 +22,7 @@ videocarousel:
     youtube: IbS7uEsHV_A
 references:
   - youtube
+editlink: /nes/NesProgrammingIntro.md
 ---
 ## Programming the NES
 Dry run of the Programming the Nintendo Entertainment System talk that Levi D Smith gave at Codestock 2014 in Knoxville, Tennessee.
