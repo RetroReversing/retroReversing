@@ -11,7 +11,7 @@
                 {% if post.image %}
                   <img src="{{ post.image }}" alt="">
                 {% else if post.youtube %}
-                  <img src="https://img.youtube.com/vi/{{ post.youtube }}/maxresdefault.jpg" alt="{{ post.title }}">
+                  <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                 {% endif %}
               </a>
               <span>{{ page.recommend }}</span>
