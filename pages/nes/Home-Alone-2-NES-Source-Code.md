@@ -7,6 +7,7 @@ tags:
 - nes
 - games
 recommend: nes
+youtube: cqsCqG-uako
 source-id: 1H2w_1W9uv3uGGAasoNzfTNVo_eezOpEQY5comaUNsXk
 published: true
 ---
@@ -141,145 +142,195 @@ The third file is BASE.OLD which presumably is just an older version of BASE.A65
 
 ```diff
 
-254,257c254,257
+diff --git a/BASE.CEW b/BASE.A65
 
-<               ldx     irq_ha
+index 3846790..31a1b55 100644
 
-<               bne     l3
+--- a/BASE.CEW
 
-<
++++ b/BASE.A65
 
-<               ldx     #11
+@@ -251,10 +251,10 @@ l0		sta	ditirq
 
-> ;             ldx     irq_ha
+ 		tya
 
-> ;             bne     l3
+ 		pha
 
-> ;
+ 
 
->               ldx     #8
+-		ldx	irq_ha
 
-266,282c266,279
+-		bne	l3
 
-<       lda     #128+2
+-
 
-<       sta     pointer
+-		ldx	#11
 
-<       lda     #27*4
++;		ldx	irq_ha
 
-<       sta     regdata
++;		bne	l3
 
-<       lda     #128+3
++;
 
-<       sta     pointer
++		ldx	#8
 
-<       lda     #27*4
+ l1		dex
 
-<       sta     regdata
+ 		bne	l1
 
-<       lda     #128+4
+ 
 
-<       sta     pointer
+@@ -263,34 +263,44 @@ l1		dex
 
-<       lda     #27*4
+ ;		lda	#$e0
 
-<       sta     regdata
+ ;		sta	vramadr
 
-<       lda     #128+5
+ 
 
-<       sta     pointer
+-	lda	#128+2
 
-<       lda     #27*4
+-	sta	pointer
 
-<       sta     regdata
+-	lda	#27*4
 
-<
+-	sta	regdata
 
-> ;     ldy     #27*4
+-	lda	#128+3
 
-> ;     ldx     #128+2
+-	sta	pointer
 
-> ;     stx     pointer
+-	lda	#27*4
 
-> ;     sty     regdata
+-	sta	regdata
 
-> ;     inx
+-	lda	#128+4
 
-> ;     stx     pointer
+-	sta	pointer
 
-> ;     sty     regdata
+-	lda	#27*4
 
-> ;     inx
+-	sta	regdata
 
-> ;     stx     pointer
+-	lda	#128+5
 
-> ;     sty     regdata
+-	sta	pointer
 
-> ;     inx
+-	lda	#27*4
 
-> ;     stx     pointer
+-	sta	regdata
 
-> ;     sty     regdata
+-	
 
-> ;
++;	ldy	#27*4
 
-284,287c281,284
++;	ldx	#128+2
 
-<       sta     mmc3reg2
++;	stx	pointer
 
-<       sta     mmc3reg3
++;	sty	regdata
 
-<       sta     mmc3reg4
++;	inx
 
-<       sta     mmc3reg5
++;	stx	pointer
 
-> ;     sty     mmc3reg2
++;	sty	regdata
 
-> ;     sty     mmc3reg3
++;	inx
 
-> ;     sty     mmc3reg4
++;	stx	pointer
 
-> ;     sty     mmc3reg5
++;	sty	regdata
 
-289c286
++;	inx
 
-<               jmp     l9
++;	stx	pointer
 
-> ;             jmp     l9
++;	sty	regdata
 
-293a291,303
++;	
 
->               cpx     #0
+ 		
 
->               bne     l4
+-	sta	mmc3reg2
 
->               ldx     #128+0
+-	sta	mmc3reg3
 
->
+-	sta	mmc3reg4
 
->               stx     pointer
+-	sta	mmc3reg5
 
->               sty     regdata
++;	sty	mmc3reg2
 
->               sty     mmc3reg0
++;	sty	mmc3reg3
 
->               inx
++;	sty	mmc3reg4
 
->               stx     pointer
++;	sty	mmc3reg5
 
->               sty     regdata
+ 
 
->               sty     mmc3reg1
+-		jmp	l9
 
->
++;		jmp	l9
 
-> l4
+ 
 
-358c368
+ l3		ldx	irq_ha	;which bank to switch in
 
-<
+ 		ldy	irqtbl,x
 
->       db      (movie_w)*4
+ 		
+
++		cpx	#0
+
++		bne	l4
+
++		ldx	#128+0
+
++
+
++		stx	pointer	
+
++		sty	regdata
+
++		sty	mmc3reg0
+
++		inx
+
++		stx	pointer	
+
++		sty	regdata
+
++		sty	mmc3reg1
+
++
+
++l4
+
+ 		ldx	#128+2
+
+ 
+
+ 		stx	pointer	
+
+@@ -355,7 +365,7 @@ irqtbl
+
+ 	db	(f_jail1_w)*4
+
+ 	db	(tape_w)*4
+
+ 	db	(caught_w)*4
+
+-
+
++	db	(movie_w)*4
+
+ ;-------------------------------------------------------------------------
+
+ 
+
+ spritdma
 
 ```
 
