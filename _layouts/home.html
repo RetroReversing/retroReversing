@@ -27,12 +27,16 @@
       <div class="row row-5">
         
         {% for post in site.pages %}
-        {% if post.image %}
+        {% if post.image || post.youtube %}
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video">
                   <div class="card-img">
                       <a href="{{ post.url }}">
-                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                        {% if post.image %}
+                            <img src="{{ post.image }}" alt="{{ post.title }}">
+                        {% else if post.youtube %}
+                            <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                        {% endif %}
                       </a>
                       {% if post.recommend %}
                         <div class="card-meta">
