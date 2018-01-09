@@ -103,7 +103,7 @@ The file formats used in the source are listed in the following table:
   </tr>
   <tr>
     <td>.RAW</td>
-    <td></td>
+    <td>RAW image format (why have these when we have the LBM files?)</td>
   </tr>
   <tr>
     <td>.LOD</td>
@@ -111,7 +111,7 @@ The file formats used in the source are listed in the following table:
   </tr>
   <tr>
     <td>.LBM</td>
-    <td></td>
+    <td>Deluxe Paint Images (Interlaced bitmaps), can be opened with XnViewMP</td>
   </tr>
   <tr>
     <td>.GRP</td>
@@ -119,7 +119,7 @@ The file formats used in the source are listed in the following table:
   </tr>
   <tr>
     <td>.SRC</td>
-    <td>6502 Assembler Header files?</td>
+    <td>6502 Assembler Header files used for includes</td>
   </tr>
   <tr>
     <td>.A65</td>
@@ -128,6 +128,10 @@ The file formats used in the source are listed in the following table:
   <tr>
     <td>.CEW</td>
     <td>6502 Assembler Source Code but with some minor differences</td>
+  </tr>
+  <tr>
+    <td>.GME</td>
+    <td>6502 Assembler Source Code Implementation files, these are only located in the Engine folder so does it stand for Game Engine?</td>
   </tr>
 </table>
 
@@ -144,195 +148,91 @@ It looks like BASE.CEW is older than its .A65 sibling as the A65 version has add
 
 The third file is BASE.OLD which presumably is just an older version of BASE.A65 and not that interesting.
 
-``` diff
-
-index 3846790..31a1b55 100644
-
---- a/BASE.CEW
-
-+++ b/BASE.A65
-
-@@ -251,10 +251,10 @@ l0		sta	ditirq
-
- 		tya
-
- 		pha
-
- 
-
--		ldx	irq_ha
-
--		bne	l3
-
--
-
--		ldx	#11
-
-+;		ldx	irq_ha
-
-+;		bne	l3
-
-+;
-
-+		ldx	#8
-
- l1		dex
-
- 		bne	l1
-
- 
-
-@@ -263,34 +263,44 @@ l1		dex
-
- ;		lda	#$e0
-
- ;		sta	vramadr
-
- 
-
--	lda	#128+2
-
--	sta	pointer
-
--	lda	#27*4
-
--	sta	regdata
-
--	lda	#128+3
-
--	sta	pointer
-
--	lda	#27*4
-
--	sta	regdata
-
--	lda	#128+4
-
--	sta	pointer
-
--	lda	#27*4
-
--	sta	regdata
-
--	lda	#128+5
-
--	sta	pointer
-
--	lda	#27*4
-
--	sta	regdata
-
--	
-
-+;	ldy	#27*4
-
-+;	ldx	#128+2
-
-+;	stx	pointer
-
-+;	sty	regdata
-
-+;	inx
-
-+;	stx	pointer
-
-+;	sty	regdata
-
-+;	inx
-
-+;	stx	pointer
-
-+;	sty	regdata
-
-+;	inx
-
-+;	stx	pointer
-
-+;	sty	regdata
-
-+;	
-
- 		
-
--	sta	mmc3reg2
-
--	sta	mmc3reg3
-
--	sta	mmc3reg4
-
--	sta	mmc3reg5
-
-+;	sty	mmc3reg2
-
-+;	sty	mmc3reg3
-
-+;	sty	mmc3reg4
-
-+;	sty	mmc3reg5
-
- 
-
--		jmp	l9
-
-+;		jmp	l9
-
- 
-
- l3		ldx	irq_ha	;which bank to switch in
-
- 		ldy	irqtbl,x
-
- 		
-
-+		cpx	#0
-
-+		bne	l4
-
-+		ldx	#128+0
-
-+
-
-+		stx	pointer	
-
-+		sty	regdata
-
-+		sty	mmc3reg0
-
-+		inx
-
-+		stx	pointer	
-
-+		sty	regdata
-
-+		sty	mmc3reg1
-
-+
-
-+l4
-
- 		ldx	#128+2
-
- 
-
- 		stx	pointer	
-
-@@ -355,7 +365,7 @@ irqtbl
-
- 	db	(f_jail1_w)*4
-
- 	db	(tape_w)*4
-
- 	db	(caught_w)*4
-
--
-
-+	db	(movie_w)*4
-
- ;-------------------------------------------------------------------------
-
- 
-
- spritdma
-
-```
+### DEVDOC Directory (Developer Documentation)
+
+This directory contains some very interesting documentation written by the developers for how to use the game engine, scripting etc.
+
+<table>
+  <tr>
+    <td>File Name</td>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>ADDING.DOC      </td>
+    <td>Describes how to go about creating a new ll* directory for the game (local levels). </td>
+  </tr>
+  <tr>
+    <td>FILEINFO.FI    </td>
+    <td>Information about the other files in the directory, mentions Game Boy but not sure the purpose of this file.</td>
+  </tr>
+  <tr>
+    <td>INSTALL.DOC</td>
+    <td>Installing a new project directory on your hard drive</td>
+  </tr>
+  <tr>
+    <td>NEWNES.DOC      </td>
+    <td>Documents how to build the project for different environments, such as Prod, Demo etc</td>
+  </tr>
+  <tr>
+    <td>SCRPDOC.DOC</td>
+    <td>Engine scripting documentation, how to use the scripting language</td>
+  </tr>
+  <tr>
+    <td>TEMPLATE</td>
+    <td>A bunch of Comment Templates for use in the assembly code, for example how to document a function similar to javadoc.</td>
+  </tr>
+</table>
+
+
+### PUB (Public?) Directory
+
+This directory seems to contain all the assets that are required on every level, for example the main character sprites and pickups.
+
+I presume its called public because other developers can work on their own "local levels" but share the PUB folder with each other when they make changes.
+
+#### PUB/GR (Public Graphics directory)
+
+Mainly contains LBM files (Deluxe Paint) for Kevin and pickups used in all the other levels.
+
+![image alt text]({{ site.url }}/public/XYg5KG06Vbr1qMtPjnDcXg_img_2.jpg)
+
+### Local Level Directories (ll0 -> ll4)
+
+I presume these are the different game levels?
+
+#### Common FIles
+
+<table>
+  <tr>
+    <td>CLEAN.BAT</td>
+    <td>Clean the folder by removing all the compiled files (*.nin, *.lod, *.spr, *.mem etc)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+
+### Local vs Full Game build
+
+It looks like there are 2 different ways to compile the game, one is a 'local build' which only contains a certain level (ll0, ll1 etc) and the other is the full game which contains all the levels.
+
+### ENG (Game Engine) Directory
+
+### Developers
+
+* Tony Lau
+
+* Christoper Will (Is he known in the code as Henry C. Will IV? )
+
+* Joseph A. Moses (Known in the code as Jesus? )
 
