@@ -222,6 +222,26 @@ I presume these are the different game levels?
 </table>
 
 
+### Local Level 0
+
+#### Local level 0 Backgrounds
+
+![image alt text]({{ site.url }}/public/XYg5KG06Vbr1qMtPjnDcXg_img_3.jpg)
+
+#### Local Level 0 Graphics (ll0/GR)
+
+![image alt text]({{ site.url }}/public/XYg5KG06Vbr1qMtPjnDcXg_img_4.jpg)
+
+### Local Level 1
+
+#### Local Level 01 Backgrounds
+
+![image alt text]({{ site.url }}/public/XYg5KG06Vbr1qMtPjnDcXg_img_5.jpg)
+
+#### Local Level 01 Graphics
+
+![image alt text]({{ site.url }}/public/XYg5KG06Vbr1qMtPjnDcXg_img_6.jpg)
+
 ### Local vs Full Game build
 
 It looks like there are 2 different ways to compile the game, one is a 'local build' which only contains a certain level (ll0, ll1 etc) and the other is the full game which contains all the levels.
