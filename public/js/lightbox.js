@@ -79,7 +79,7 @@
 			var video = '',
 					matches = '',
 					source = $(this).attr('href');
-
+if (source) {
 			if (matches = source.match(/\/\/.*?youtube\.[a-z]+\/watch\?v=([^&\s]+)/) || source.match(/youtu\.be\/(.*)/)) {
 	      video = 'https://www.youtube.com/embed/' + matches[1] + '?rel=0&amp;amp;autoplay=1&amp;amp;showinfo=0';
 	    }
@@ -87,7 +87,7 @@
 			if (matches = source.match(/\/\/.*?twitch\.[a-z]+\/\?channel=([^&\s]+)/)) {
 				video = 'https://player.twitch.tv/?channel=' + matches[1];
 			}
-
+    }
 	    if ( video ) {
 	      $('.lightbox ul').append(
 	        '<li class="lightbox-video">' +
