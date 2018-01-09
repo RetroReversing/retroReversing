@@ -59,8 +59,9 @@
       $('table').addClass('table');
 
       // lightbox
-      // $('[data-lightbox]').lightbox();
-      $('img').lightbox({gallery:'Retro Reversing', disqus:'{{ site.disqus_short_name }}'});
+      $('img').attr('data-lightbox',JSON.stringify({gallery:true}) );
+      $('[data-lightbox]').lightbox();
+      //$('img').lightbox({gallery:'Retro Reversing', disqus:'{{ site.disqus_short_name }}'});
     })(jQuery);
   </script>
 <script src="/public/js/main.js"></script>
