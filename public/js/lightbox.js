@@ -1,6 +1,7 @@
 // Gameforest lightbox plugin by yakuzi
 // Author: https://yakuthemes.com
 // Version: 1.0.3
+
 (function($) {
 	"use strict";
 
