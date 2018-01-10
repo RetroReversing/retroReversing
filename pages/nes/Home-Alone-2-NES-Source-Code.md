@@ -43,6 +43,10 @@ Thanks to "**freem**" on the NesDev forums we have a good description of the too
     <td>6502 NES Assembler 
 Usage:     a65 [path]infile[.a65] [[path]outfile[.lod]]</td>
   </tr>
+  <tr>
+    <td>CMERGE.EXE</td>
+    <td>Merge Char sets (e.g merge family char set and jail1 set) and returns a NIN file</td>
+  </tr>
 </table>
 
 
@@ -135,6 +139,30 @@ The file formats used in the source are listed in the following table:
   </tr>
 </table>
 
+
+### Game Asset Pipeline
+
+The game uses GNU Makefiles to build its assets into the shippable product. It all starts with Deluxe Paint on the Amiga, the artists draw pixel art on pre-defined templates and save them as the standard Deluxe Paint .LBM files.
+
+Those LBM files need to be converted into a format that the game engine can read and display on the screen. To convert the .LBM format into a NES friendly (2bpp) image format the developers use a tool called "l2n" which I presume they developed themselves or license from another game development studio.
+
+The .MAK makefiles have the format:
+
+```make
+
+movie1.nin:	movie1.lbm
+
+#
+
+#		"create movie 1 screen"
+
+#
+
+		l2n movie1
+
+```
+
+Where movie1.nin is the output file expected by the makefile and movie1.lbm is the input file.
 
 ### BASE Directory
 
