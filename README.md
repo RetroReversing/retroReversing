@@ -32,6 +32,9 @@ https://www.retroreversing.com/
 
 ## PC
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
+
+## Homebrew
+* UDK Ultimate - https://sites.google.com/view/udkultimate/
 ----
 # Quality Sources
 * Video game Science - https://www.reddit.com/r/videogamescience/
