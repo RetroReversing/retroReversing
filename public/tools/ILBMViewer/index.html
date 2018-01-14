@@ -29,6 +29,7 @@ function getParameterByName(name) {
 
 function loadImage(canvas_id) {
   var path = getParameterByName('path');
+  path = 'CHEF.LBM';
   var animate = getParameterByName('animate')
   loadIffImage(path, canvas_id, animate);
   var debug = getParameterByName('debug');
