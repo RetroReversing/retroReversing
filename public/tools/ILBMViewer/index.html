@@ -108,9 +108,11 @@ function loadIffImageFromFile(file, canvas_id, animate) {
   var iff = new IffContainer(canvas_id);
   iff.canvas.style.cursor = 'wait';
   var fileReader = new FileReader();
-    iff.arrayBuffer = fileReader.readAsArrayBuffer(file);
-    if (iff.arrayBuffer) {
-      parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
+  fileReader.onload = function () {
+    var data = fr.result;
+    iff.arrayBuffer = data;
+    
+    parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
       // Give the browser a chance to do something.
       window.setTimeout(function() {
         drawIffImage(iff);
@@ -119,9 +121,12 @@ function loadIffImageFromFile(file, canvas_id, animate) {
           animateIffImage(iff);
         }
       }, 100);
-    } else {
-      reportError(file, iff.canvas);
-    }
+  };
+  
+   fileReader.readAsArrayBuffer(file);
+    
+      
+    
 }
   </script>
 </body>
