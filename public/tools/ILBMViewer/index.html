@@ -18,6 +18,26 @@ body {
 .debug_container {
   display: None;
 }
+  
+.drag-hint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
+}
 </style>
 <script type="application/javascript" src="jdataview.js"></script>
 <script type="application/javascript" src="iff.js"></script>
@@ -45,8 +65,41 @@ function loadImage(canvas_id) {
   <h1>Online LBM/ILBM Deluxe Paint Image viewer</h1>
   <canvas id="iff_canvas"></canvas>
   <details id='iff_canvas_debug_container' class="debug_container">
-  <summary>Debug Output</summary>
-  <div id="iff_canvas_debug"></div>
-</details>
+    <summary>Debug Output</summary>
+    <div id="iff_canvas_debug"></div>
+  </details>
+  <div class="draghint hidden screen" id="draghint">
+    <input type="file" id="chooser" class="chooser"/>
+    <div class="dragtext">
+      <h1>drag a ILBM or LBM here to view</h1>
+    </div>
+  </div>
+  <script>
+    var draghint = document.getElementById('draghint');
+    window.addEventListener('drop', function(event) {
+      event.preventDefault();
+      draghint.classList.remove('hover');
+      if (event.dataTransfer.files.length > 0) {
+        console.log(event.dataTransfer.files);
+      }
+      return false;
+  });
+  
+  window.addEventListener('dragover', function(event) {
+      event.preventDefault();
+      draghint.classList.add('hover');
+      return false;
+  });
+
+window.addEventListener('dragleave', function(event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  return false;
+});
+
+window.addEventListener('focus', function() {
+  return draghint.classList.remove('hover');
+});
+  </script>
 </body>
 </html>
