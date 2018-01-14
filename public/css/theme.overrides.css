@@ -23,6 +23,7 @@
   border-style: dashed;
   background-color: white;
   border-color: #ccc;
+  width: 100%;
 }
   
 .dragtext {
