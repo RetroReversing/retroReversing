@@ -13,3 +13,25 @@
   height:64px;
   text-align: center;
 }
+
+
+/*  ILBM Viewer */
+.drag-hint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
+}
