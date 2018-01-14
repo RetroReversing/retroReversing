@@ -81,6 +81,7 @@ function loadImage(canvas_id) {
       draghint.classList.remove('hover');
       if (event.dataTransfer.files.length > 0) {
         console.log(event.dataTransfer.files);
+        loadIffImageFromFile(event.dataTransfer.files[0], 'iff_canvas', false) 
       }
       return false;
   });
@@ -100,6 +101,28 @@ window.addEventListener('dragleave', function(event) {
 window.addEventListener('focus', function() {
   return draghint.classList.remove('hover');
 });
+  </script>
+  
+  <script>
+function loadIffImageFromFile(file, canvas_id, animate) {
+  var iff = new IffContainer(canvas_id);
+  iff.canvas.style.cursor = 'wait';
+  var fileReader = FileReader();
+    iff.arrayBuffer = fileReader.readAsArrayBuffer(file);
+    if (iff.arrayBuffer && xhr.status < 400) {
+      parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
+      // Give the browser a chance to do something.
+      window.setTimeout(function() {
+        drawIffImage(iff);
+        iff.canvas.style.cursor = 'default'
+        if (iff.color_animations.length > 0 && animate) {
+          animateIffImage(iff);
+        }
+      }, 100);
+    } else {
+      reportError(xhr, path, iff.canvas);
+    }
+}
   </script>
 </body>
 </html>
