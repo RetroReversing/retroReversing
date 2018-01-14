@@ -109,7 +109,7 @@ function loadIffImageFromFile(file, canvas_id, animate) {
   iff.canvas.style.cursor = 'wait';
   var fileReader = new FileReader();
     iff.arrayBuffer = fileReader.readAsArrayBuffer(file);
-    if (iff.arrayBuffer && xhr.status < 400) {
+    if (iff.arrayBuffer) {
       parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
       // Give the browser a chance to do something.
       window.setTimeout(function() {
@@ -120,7 +120,7 @@ function loadIffImageFromFile(file, canvas_id, animate) {
         }
       }, 100);
     } else {
-      reportError(xhr, path, iff.canvas);
+      reportError(file, iff.canvas);
     }
 }
   </script>
