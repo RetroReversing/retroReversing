@@ -9,29 +9,10 @@ recommend: tools
 ---
 <script type="application/javascript" src="/public/tools/ILBMViewer/jdataview.js"></script>
 <script type="application/javascript" src="/public/tools/ILBMViewer/iff.js"></script>
-<script type="application/javascript">
-function getParameterByName(name) {
-  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
-  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
-
-function loadImage(canvas_id) {
-  var path = getParameterByName('path');
-  path = 'CHEF.LBM';
-  var animate = getParameterByName('animate')
-  loadIffImage(path, canvas_id, animate);
-  var debug = getParameterByName('debug');
-  if (debug == 'y') {
-    debug_element = document.getElementById(canvas_id + "_debug_container");
-    debug_element.style.display = 'inline'
-  }
-}
-</script>
-  <h1>Online LBM/ILBM Deluxe Paint Image viewer</h1>
-  <details id='iff_canvas_debug_container' class="debug_container">
+<!--   <details id='iff_canvas_debug_container' class="debug_container">
     <summary>Debug Output</summary>
     <div id="iff_canvas_debug"></div>
-  </details>
+  </details> -->
   <div class="draghint hidden screen" id="draghint">
 <!--     <input type="file" id="chooser" class="chooser"/> -->
     <div class="dragtext">
