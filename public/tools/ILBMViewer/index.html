@@ -109,7 +109,7 @@ function loadIffImageFromFile(file, canvas_id, animate) {
   iff.canvas.style.cursor = 'wait';
   var fileReader = new FileReader();
   fileReader.onload = function () {
-    var data = fr.result;
+    var data = fileReader.result;
     iff.arrayBuffer = data;
     
     parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
