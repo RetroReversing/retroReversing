@@ -18,8 +18,9 @@ breadcrumbs:
   - name: Sega Saturn Programming Box (Sophia Systems)
     url: #
 recommend: devkit
+editlink: /sega/saturn/SegaSaturnProgrammingBox.md
 references:
-  - segaretro
+  - segaretro.org
   - youtube
 ---
 ## Sega Saturn Programming Box (Sophia Systems)
