@@ -92,8 +92,8 @@ function setUpCanvas(iff) {
   iff.effective_width = iff.width * Math.max(ratio, 1);
   iff.effective_height = iff.height / Math.min(ratio, 1);
   /* Size target canvas to effective size */
-  iff_canvas.height = iff.effective_height
-  iff_canvas.width = iff.effective_width;
+  iff.canvas.height = iff.effective_height
+  iff.canvas.width = iff.effective_width;
 }
 
 /*
