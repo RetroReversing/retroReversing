@@ -79,10 +79,10 @@ function loadImage(canvas_id) {
     window.addEventListener('drop', function(event) {
       event.preventDefault();
       draghint.classList.remove('hover');
-      if (event.dataTransfer.files.length > 0) {
-        console.log(event.dataTransfer.files);
-        loadIffImageFromFile(event.dataTransfer.files[0], 'iff_canvas', false) 
-      }
+      event.dataTransfer.files.forEach(function(file, i) {
+        console.log(file, i);
+        loadIffImageFromFile(file, 'iff_canvas', false) 
+      })
       return false;
   });
   
