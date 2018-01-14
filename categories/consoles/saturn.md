@@ -1,0 +1,18 @@
+---
+permalink: /saturn/
+layout: blog-cards
+console: 'saturn'
+title: 'Sega Saturn'
+consoleimage: /public/consoles/Sega Saturn.png
+thumbnail: /public/consoles/Sega Saturn.png
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Consoles
+    url: /
+  - name: Sega Saturn
+    url: #
+---
+<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
+
+{% include console.html %}
