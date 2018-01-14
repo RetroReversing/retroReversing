@@ -9,6 +9,7 @@ title: Sega Saturn Programming Box (Sophia Systems)
 published: true
 thumbnail: /public/consoles/Sega Saturn.png
 youtube: 3E4Gvue9Im8
+image: /public/SaturnProgrammingBox.jpg
 permalink: /sega-saturn-programming-box/
 breadcrumbs:
   - name: Home
@@ -24,7 +25,7 @@ references:
   - youtube
 ---
 ## Sega Saturn Programming Box (Sophia Systems)
-
+<img src="/public/SaturnProgrammingBox.jpg" />
 Acording to SegaRetro.org the programming box was released before the saturn so would only be used for early titles (that started developed before mid-1995):
 ```
 The Sega Saturn Programming Box is a development kit for the Sega Saturn, released by Sophia Systems. 
