@@ -81,8 +81,11 @@ function loadImage(canvas_id) {
       draghint.classList.remove('hover');
       for (var i=0; i< event.dataTransfer.files.length; i++) {
         var file = event.dataTransfer.files[i];
-        console.log(file, i);
-        loadIffImageFromFile(file, 'iff_canvas', false);
+        var c = document.createElement('canvas');
+        c.id='ilbm'+i;
+        document.body.append(c);
+        console.log(file, i, c);
+        loadIffImageFromFile(file, c.id, false);
       }
       event.dataTransfer.files.forEach(function(file, i) {
         console.log(file, i);
