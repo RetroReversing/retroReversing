@@ -6,7 +6,6 @@ tags:
 title: ILBMViewer
 permalink: /ilbm
 recommend: tools
-editlink: https://github.com/amorri40/retroReversing/edit/master/tools/ILBMViewer.html
 ---
 <script type="application/javascript" src="/public/tools/ILBMViewer/jdataview.js"></script>
 <script type="application/javascript" src="/public/tools/ILBMViewer/iff.js"></script>
@@ -36,11 +35,12 @@ function loadImage(canvas_id) {
   <div class="draghint hidden screen" id="draghint">
 <!--     <input type="file" id="chooser" class="chooser"/> -->
     <div class="dragtext">
-      <h1>drag a ILBM or LBM here to view</h1>
+      <h1>Drop ILBM or LBM files here to view</h1>
+      <div id='ilbm'>
+      </div>
     </div>
   </div>
-<div id='ilbm'>
-</div>
+
   <script>
     var draghint = document.getElementById('draghint');
     window.addEventListener('drop', function(event) {
