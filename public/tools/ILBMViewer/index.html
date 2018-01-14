@@ -86,10 +86,6 @@ function loadImage(canvas_id) {
         console.log(file, i, c);
         loadIffImageFromFile(file, c.id, false);
       }
-      event.dataTransfer.files.forEach(function(file, i) {
-        console.log(file, i);
-        loadIffImageFromFile(file, 'iff_canvas', false) 
-      })
       return false;
   });
   
