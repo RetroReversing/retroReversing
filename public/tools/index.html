@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.debugLoc {
+  display: inline-block;
+  width: 8em;
+}
+
+.debugMsg {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+.debug_container {
+  display: None;
+}
+</style>
+<script type="application/javascript" src="jdataview.js"></script>
+<script type="application/javascript" src="iff.js"></script>
+<script type="application/javascript">
+function getParameterByName(name) {
+  var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+  return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function loadImage(canvas_id) {
+  var path = getParameterByName('path');
+  var animate = getParameterByName('animate')
+  loadIffImage(path, canvas_id, animate);
+  var debug = getParameterByName('debug');
+  if (debug == 'y') {
+    debug_element = document.getElementById(canvas_id + "_debug_container");
+    debug_element.style.display = 'inline'
+  }
+}
+</script>
+<title>IFF Image Viewer</title>
+</head>
+<body onload="loadImage('iff_canvas');">
+<canvas id="iff_canvas"></canvas>
+<details id='iff_canvas_debug_container' class="debug_container">
+<summary>Debug Output</summary>
+<div id="iff_canvas_debug"></div>
+</details>
+</body>
+</html>
