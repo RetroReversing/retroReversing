@@ -79,6 +79,11 @@ function loadImage(canvas_id) {
     window.addEventListener('drop', function(event) {
       event.preventDefault();
       draghint.classList.remove('hover');
+      for (var i=0; i< event.dataTransfer.files.length; i++) {
+        var file = event.dataTransfer.files[i];
+        console.log(file, i);
+        loadIffImageFromFile(file, 'iff_canvas', false);
+      }
       event.dataTransfer.files.forEach(function(file, i) {
         console.log(file, i);
         loadIffImageFromFile(file, 'iff_canvas', false) 
