@@ -1,0 +1,50 @@
+.hexviewer {
+   font-size: 15px;
+   color: #000;
+}
+
+.hexviewer .ascii {
+    color: #555;
+}
+
+.hexviewer div.heading {
+    font-family: monospace;
+    width: 4.5em;
+    float: left;
+}
+
+.hexviewer div.row {
+    height: 25px;
+    line-height: 25px;
+}
+
+.hexviewer .none {
+    visibility: hidden;
+}
+
+.hexviewer ul.setAscii, .hexviewer ul.setHex {
+    float:left;
+    margin:0;padding:0;
+    font-family: monospace;
+    text-align:center;
+    margin-right:5px;
+    margin-left: 5px;
+}
+
+.hexviewer ul.setAscii li, .hexviewer ul.setHex li {
+    margin:0;padding:0;
+    display: inline-block;
+    width: 1.5em;
+}
+
+.hexviewer ul.setAscii.active,
+.hexviewer ul.setHex.active {
+    color: green;
+}
+
+.hexviewer ul.setAscii li.active,
+.hexviewer ul.setHex li.active {
+    font-weight:bold;
+    color: white;
+    background-color: green;
+} 
