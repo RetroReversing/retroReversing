@@ -47,5 +47,5 @@ https://www.retroreversing.com/
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
-## Pallette 
-<span style="color=#1B1C1E">#1B1C1E</span>
+## Palette 
+https://coolors.co/1b1c1e-1e5dd3-3f7cac-95afba-bdc4a7
