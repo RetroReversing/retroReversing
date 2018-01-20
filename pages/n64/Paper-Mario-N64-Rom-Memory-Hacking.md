@@ -17,6 +17,7 @@ breadcrumbs:
   - name: Paper Mario N64 Rom Memory Hacking
     url: #
 recommend: n64
+editlink: /n64/Paper-Mario-N64-Rom-Memory-Hacking.md
 source-id: 11Kwn0Lq3f7bPkCtwPdI5a_Z85r5tYl2Vr34a3p3rwu4
 published: true
 ---
