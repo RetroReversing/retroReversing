@@ -69,6 +69,10 @@ references:
     name: wayback 
     link: https://archive.org/web/
     image: /public/references/wayback.jpg
+  - title: Archive.org
+    name: archive.org 
+    link: https://archive.org/
+    image: /public/references/wayback.jpg
   - title: Devs Play (Double Fine)
     name: DevsPlay 
     link: https://www.youtube.com/user/DoubleFineProd/
