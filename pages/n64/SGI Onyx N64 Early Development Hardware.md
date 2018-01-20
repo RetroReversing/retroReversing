@@ -18,7 +18,12 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/SGI Onyx N64 Early Development Hardware.md
+references:
+  - archive.org
 ---
+
+<img src="/public/magazine/EDGE_20_SGI_Onyx.png" />
+Mention of the SGI Onyx in Edge issue 20 from May 1995 as an early development kit for the Nintendo 64 [^1].
 
 # References
 [^1] EDGE 20 [1995-05] https://archive.org/stream/EDGE.N020.1995.05/EDGE.N020.1995.05-Escapade#page/n7/mode/2up/search/%22SN+Systems%22
