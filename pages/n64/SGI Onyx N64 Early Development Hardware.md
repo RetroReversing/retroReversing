@@ -20,4 +20,6 @@ recommend: n64
 editlink: /n64/SGI Onyx N64 Early Development Hardware.md
 ---
 
+# References
+[^1] EDGE 20 [1995-05] https://archive.org/stream/EDGE.N020.1995.05/EDGE.N020.1995.05-Escapade#page/n7/mode/2up/search/%22SN+Systems%22
 
