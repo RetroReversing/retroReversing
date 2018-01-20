@@ -48,3 +48,32 @@
     color: white;
     background-color: green;
 } 
+
+.pixelset {
+    /* background: #333; */
+    height: 100vh;
+    /* display: flex; */
+
+display: inline-table;
+    justify-content: center;
+    align-items: center;
+}
+
+  .codec2bpp {
+    /* width: 10px;
+    height: 80px; */
+  }
+      
+.pixel {
+  width: 2px;
+  height: 2px;
+  float: left;
+  box-shadow: 0px 0px 1px #fff;
+}
+
+.pixelRow {
+    position: relative;
+    height: 40px;
+    display: inline-block;
+    width: 2px;
+}
