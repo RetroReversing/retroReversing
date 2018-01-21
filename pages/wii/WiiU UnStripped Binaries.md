@@ -40,6 +40,8 @@ https://github.com/Maschell/nn_nex_logging_and_research/blob/master/PC/function_
 
 As far as I can see that downloads all eShop titles from Nintendo Update Server and checks if they contain debug symbols or not by parsing the RPX files and treating them as ELF binaries.
 
+Another interesting tool, this time developed in python is RPXTools symbols.py which can get the debug symbols from an RPX file: https://github.com/NWPlayer123/WiiUTools/blob/master/RPXTools/symbols.py
+
 
 # References
 [^1]: BullyWiiPlaza https://www.youtube.com/watch?v=bl55B1cvLUA
