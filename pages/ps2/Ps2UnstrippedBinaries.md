@@ -24,8 +24,8 @@ references:
 
 Game | Developer | Release Date | Ps2 SDK | Source
 --- | --- | --- | ---
-Crazy Taxi |  |  | PS2SDK 2.1.4 | [^1]
-Grand Theft Auto III |  |  | PS2SDK 2.3.0 | [^1]
+Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.4 | [^1]
+Grand Theft Auto III | `DMA Design` | Oct 22, 2001 | PS2SDK 2.3.0 | [^1]
 
  ## Potential Games to try
 * Growlanser 3 [^1]
