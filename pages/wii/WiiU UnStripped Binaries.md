@@ -5,7 +5,7 @@ tags:
 - symbols
 - games
 title: Wii U UnStripped Binaries (Developer Symbols)
-thumbnail: /public/consoles/Wii U.png
+thumbnail: /public/consoles/Nintendo WiiU.png
 youtube: "bl55B1cvLUA"
 image: https://img.youtube.com/vi/bl55B1cvLUA/maxresdefault.jpg
 permalink: /wii-u-unstripped/
