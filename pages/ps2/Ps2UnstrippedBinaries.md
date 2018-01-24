@@ -49,19 +49,15 @@ Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
 ## Others
 `sp193` on Assembler Games mentions that the Sound module also has debug information in it:
 ```
-The OSDSND module from the Protokernel boot ROM (SCPH-10000 and SCPH-15000) also has debugging information left over in it. This module is actually the tentative sound driver library (librspu2) that was mentioned within the SONY SDK, and was the predecessor to libsd. The funny thing is that the one in the expansion-bay boot ROMs is newer than the one that comes in the Sony PS2SDK (even in release v3.02).
-```
+The OSDSND module from the Protokernel boot ROM (SCPH-10000 and SCPH-15000) also has debugging information left over in it. 
+This module is actually the tentative sound driver library (librspu2) that was mentioned within the SONY SDK, and was the predecessor to libsd. 
+The funny thing is that the one in the expansion-bay boot ROMs is newer than the one that comes in the Sony PS2SDK (even in release v3.02).
+```[^1]
 
-l_oliveira on the same Assembler Games forum topic states that most of the games with debug symbols were compiled with the earlier 2.x.x SDK rather than the later 3.x.x SDK [^1].
-```
-Piposaru 2001 has full debug symbols on the final retail disc. But then it's a early game compiled with 2.x.x SDK. Very old stuff.
+l_oliveira on the same Assembler Games forum topic states that most of the games with debug symbols were compiled with the earlier 2.x.x SDK rather than the later 3.x.x SDK [^1]. 
+He then goes on to mention an interesting tidbit about Arcade code still having debug symbols in it, even when they strip the Ps2 version of the same game (e.g Konami).
 
-I don't think I've ever seen a retail game with 3.x.x SDK which had symbols in it. It confirms stripping the elf being the norm later on. 
-
-Plenty of PS2 arcade stuff have debug symbols on. IOP stuff with symbols in are quite rare on retail stuff even on older stuff because most programmers didn't bother with making their own IOP modules (only companies who designed their own middleware like Square, for example would bother with making custom IOP modules) and the ones which did had to deal with the IOP having only 2MB of memory, meaning memory was too precious to be wasted.
-
-But yes, arcade stuff have debug symbols in it still. lol @ Konami Python1/2 IOP modules. (Konami striped their retail PS2 modules and ELF files diligently, though. Even when it wasn't required)
-```
+Also the IRX I/O processor modules rarely if ever have any debug symbols due to most games not developing their own IOP modules and the limit of the 2MB memory for the modules [^1].
 
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
