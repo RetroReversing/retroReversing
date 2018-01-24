@@ -47,12 +47,13 @@ Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
 * LEGO Racers 2 [^3]
 
 ## Others
-`sp193` on Assembler Games mentions that the Sound module also has debug information in it:
+`sp193` on Assembler Games mentions that the Sound module also has debug information in it [^1]:
 ```
 The OSDSND module from the Protokernel boot ROM (SCPH-10000 and SCPH-15000) also has debugging information left over in it. 
 This module is actually the tentative sound driver library (librspu2) that was mentioned within the SONY SDK, and was the predecessor to libsd. 
 The funny thing is that the one in the expansion-bay boot ROMs is newer than the one that comes in the Sony PS2SDK (even in release v3.02).
-```[^1]
+```
+
 
 l_oliveira on the same Assembler Games forum topic states that most of the games with debug symbols were compiled with the earlier 2.x.x SDK rather than the later 3.x.x SDK [^1]. 
 He then goes on to mention an interesting tidbit about Arcade code still having debug symbols in it, even when they strip the Ps2 version of the same game (e.g Konami).
