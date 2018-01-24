@@ -39,6 +39,7 @@ Fatal Frame 2 | `Tecmo` | Dec 10, 2003 | PS2SDK 2.8.0 | [^1]
 Piposaru 2001 | `SIE Japan Studio` | 5 July 2001 | PS2SDK ??? | [^1]
 Jak and Daxter | `Naughty Dog` | 3 December 2001 | PS2SDK 2.2.1 | [^1]
 Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
+007 Nightfire | `Eurocom / Electronic Arts` |  Nov 18, 2002 | PS2SDK 2.4.3 | [^2] 
 
 ---
 ## Potential Games to try
@@ -63,3 +64,4 @@ But yes, arcade stuff have debug symbols in it still. lol @ Konami Python1/2 IOP
 
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
+[^2]: Copy of Nightfire NTSC
