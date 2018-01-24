@@ -33,6 +33,9 @@ https://www.retroreversing.com/
 ## PC
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
 
+## Games
+* Jak and Daxter - http://www.codersnotes.com/notes/disassembling-jak/
+
 ## Homebrew
 * UDK Ultimate - https://sites.google.com/view/udkultimate/
 ----
