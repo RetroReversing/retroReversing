@@ -44,6 +44,7 @@ Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
 ---
 ## Potential Games to try
 * Growlanser 3 [^1]
+* LEGO Racers 2 [^3]
 
 ## Others
 `sp193` on Assembler Games mentions that the Sound module also has debug information in it:
@@ -65,3 +66,4 @@ But yes, arcade stuff have debug symbols in it still. lol @ Konami Python1/2 IOP
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
 [^2]: Copy of Nightfire NTSC
+[^3]: Lego Racers 2 - http://www.ps2-home.com/forum/viewtopic.php?f=13&t=1231
