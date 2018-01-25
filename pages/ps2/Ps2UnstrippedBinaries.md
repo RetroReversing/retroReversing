@@ -28,6 +28,7 @@ Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.
 Piposaru 2001 (Japan) | `SIE Japan Studio` | 5 July 2001 | PS2SDK 2.1.4 | [^1]
 Jak and Daxter | `Naughty Dog` | 3 December 2001 | PS2SDK 2.2.1 | [^1]
 Shadow Hearts | `Sacnoth / Midway` | Dec 11, 2001 | PS2SDK 2.2.2 | [^1]
+LEGO Racers 2 | `Attention Software` | Sep 27, 2001 | PS2SDK 2.2.4 | [^3]
 Grand Theft Auto III | `DMA Design` | Oct 22, 2001 | PS2SDK 2.3.0 | [^1]
 Xenosaga Episode I: Der Wille zur Macht | `Monolith Soft` | 28 February 2002 | PS2SDK 2.4.2 | [^1]
 007 Nightfire | `Eurocom / Electronic Arts` |  Nov 18, 2002 | PS2SDK 2.4.3 | [^2] 
@@ -40,12 +41,11 @@ Devil May Cry | `Capcom` | Oct 16, 2001  | PS2SDK ??? | [^1]
 Fatal Frame | `Tecmo` | Mar 4, 2002 | PS2SDK ??? | [^1]
 ICO (PAL)  | `Sony Interactive Entertainment Japan Studio` | Sep 24, 2001 | PS2SDK ??? | [^1]
 Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK ??? | [^1]
-
+LEGO Racers 2
 
 ---
 ## Potential Games to try
 * Growlanser 3 [^1]
-* LEGO Racers 2 [^3]
 
 ## Others
 `sp193` on Assembler Games mentions that the Sound module also has debug information in it [^1]:
