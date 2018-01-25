@@ -41,7 +41,7 @@ Devil May Cry | `Capcom` | Oct 16, 2001  | PS2SDK ??? | [^1]
 Fatal Frame | `Tecmo` | Mar 4, 2002 | PS2SDK ??? | [^1]
 ICO (PAL)  | `Sony Interactive Entertainment Japan Studio` | Sep 24, 2001 | PS2SDK ??? | [^1]
 Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK ??? | [^1]
-LEGO Racers 2
+
 
 ---
 ## Potential Games to try
