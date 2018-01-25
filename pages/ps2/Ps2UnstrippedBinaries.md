@@ -25,6 +25,7 @@ references:
 Game | Developer | Release Date | Ps2 SDK | Source
 --- | --- | --- | ---
 Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.4 | [^1]
+Piposaru 2001 (Japan) | `SIE Japan Studio` | 5 July 2001 | PS2SDK 2.1.4 | [^1]
 Jak and Daxter | `Naughty Dog` | 3 December 2001 | PS2SDK 2.2.1 | [^1]
 Shadow Hearts | `Sacnoth / Midway` | Dec 11, 2001 | PS2SDK 2.2.2 | [^1]
 Grand Theft Auto III | `DMA Design` | Oct 22, 2001 | PS2SDK 2.3.0 | [^1]
@@ -39,7 +40,7 @@ Devil May Cry | `Capcom` | Oct 16, 2001  | PS2SDK ??? | [^1]
 Fatal Frame | `Tecmo` | Mar 4, 2002 | PS2SDK ??? | [^1]
 ICO (PAL)  | `Sony Interactive Entertainment Japan Studio` | Sep 24, 2001 | PS2SDK ??? | [^1]
 Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK ??? | [^1]
-Piposaru 2001 | `SIE Japan Studio` | 5 July 2001 | PS2SDK ??? | [^1]
+
 
 ---
 ## Potential Games to try
@@ -59,6 +60,11 @@ l_oliveira on the same Assembler Games forum topic states that most of the games
 He then goes on to mention an interesting tidbit about Arcade code still having debug symbols in it, even when they strip the Ps2 version of the same game (e.g Konami).
 
 Also the IRX I/O processor modules rarely if ever have any debug symbols due to most games not developing their own IOP modules and the limit of the 2MB memory for the modules [^1].
+
+## Interesting Notes
+
+### Piposaru 2001 (Japan)
+Piposaru 2001 contains two IOPRP*.IMG files (IOPRP205.IMG and IOPRP214.IMG) so presumably both 2.0.5 and 2.1.4 versions of the PS2SDK were used during development. In the MCMAN.IRX the string `PsIImcman   2020` exists which suggests it was built using PS2SDK version 2.0.2. In the main binary elf file it also mentions `PsIIlibkernl2050` again suggesting 2.0.5. I have marked the game as using 2.1.4 since that is the most recent version used.
 
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
