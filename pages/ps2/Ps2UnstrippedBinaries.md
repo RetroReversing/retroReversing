@@ -24,6 +24,7 @@ references:
 
 Game | Developer | Release Date | Ps2 SDK | Source
 --- | --- | --- | ---
+Timesplitters | `Free Radical Design / Eidos Interactive` | Oct 23, 2000  | PS2SDK 2.0.0 | PAL Europe ISO
 Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.4 | [^1]
 Piposaru 2001 (Japan) | `SIE Japan Studio` | 5 July 2001 | PS2SDK 2.1.4 | [^1]
 Jak and Daxter | `Naughty Dog` | 3 December 2001 | PS2SDK 2.2.1 | [^1]
