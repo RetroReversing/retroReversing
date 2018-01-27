@@ -40,6 +40,7 @@ Game | Ps2 SDK | Debug Info?
 Shaun Palmer's Pro Snowboarding | PS2SDK 2.3.4 | Full Debug Symbols
 Ecco the Dolphin: Defender of the Future | PS2SDK 2.2.0 | Full Debug Symbols (33mb elf)
 FIFA Football 2002 | PS2SDK 2.2.0 | Full Debug Symbols (7.6mb elf)
+Twisted Metal: Black | PS2SDK 2.1.3 | Full Debug Symbols (5.6mb elf) `LGDEV.IRX`
 
 
 ---
