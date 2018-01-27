@@ -38,6 +38,7 @@ Game | Ps2 SDK | Debug Info?
 NBA Street | PS2SDK 2.1.0 | 9125 Debug Symbols, also contains C++ header .h for animation files
 Driven | PS2SDK 2.2.4 | 7752 Debug Symbols
 Mx 2002 | PS2SDK 2.1.4 | 4892 Debug Symbols
+SplashDown MPEG Player | PS2SDK 2.3.0 | 947 Debug Symbols
 
 
 ## Demo Disc 14 - December 2001 SCED_50149
