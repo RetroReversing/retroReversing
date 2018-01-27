@@ -26,6 +26,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
 Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
+Star Wars Super Bomab Racing | PS2 SDK 1.6.0 | None
 ---
 
 ## Demo Disc 65 November 2005 SCED_53186
