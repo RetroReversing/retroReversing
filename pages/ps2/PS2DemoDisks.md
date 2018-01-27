@@ -22,6 +22,6 @@ editlink: /ps2/PS2DemoDisks.md
 
 ## Demo Disc 65 November 2005 SCED_53186
 Game | Ps2 SDK | Debug Info?
---- | --- | --- | ---
+--- | --- | ---
 Need for Speed Most Wanted | PS2SDK 2.8.0 | Some function and class names in uncommon format
 
