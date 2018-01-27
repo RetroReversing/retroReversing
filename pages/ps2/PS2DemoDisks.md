@@ -36,7 +36,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols! 
-
+Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols! 
 
 ---
 
