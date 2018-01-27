@@ -32,6 +32,15 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 ---
 
 
+## Demo Disc 17 - February 2002 SCED_50152
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | Full Debug Symbols
+
+---
+
+
 ## Demo Disc 18 - March 2002 SCED_50153
 
 Game | Ps2 SDK | Debug Info?
