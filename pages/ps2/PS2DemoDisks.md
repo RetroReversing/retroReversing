@@ -36,6 +36,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 NBA Street | PS2SDK 2.1.0 | 9125 Debug Symbols, also contains C++ header .h for animation files
+Driven | PS2SDK 2.2.4 | 7752 Debug Symbols
 
 
 ## Demo Disc 14 - December 2001 SCED_50149
