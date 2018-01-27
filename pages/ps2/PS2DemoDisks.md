@@ -40,6 +40,9 @@ Drakan The Ancients Gates | PS2SDK 2.3.2 | No symbols sub has a txt file mention
 GODAI Elemental Force | PS2SDK 2.1.4 | Full Debug Symbols! (6.4mb elf) plus SCRIPTS folder
 Herdy Gerdy | PS2 SDK 2.4.2 | No symbols but does have lots of printf debugging with filenames, plus `HGSOUND.TRX` Herdy Gerdy Sound IOP module
 Maximo | PS2 SDK 2.2.0 | Full Debug Symbols (5.9MB) `MJOLNIR.IRX`
+Stuntman Xav Stream Video | PS2 SDK | Full Debug Symbols (1mb) plus IOP Module for playing XAV files `XAVSTRM.IRX`
+
+---
 
 
 ## Demo Disc 19 - April 2002 SCED_50154
@@ -48,6 +51,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols! 
 Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols! 
+
 
 
 ---
