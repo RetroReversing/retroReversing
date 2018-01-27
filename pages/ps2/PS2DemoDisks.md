@@ -32,6 +32,13 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 ---
 
+## Demo Disc 15 - Christmas 2001 SCED_50150J
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+GTC: Africa | PS2SDK 2.2.4 | Full Debug Symbols
+
+
 
 ## Demo Disc 16 - January 2002 SCED_50151
 
