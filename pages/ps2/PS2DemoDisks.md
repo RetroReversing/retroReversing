@@ -37,6 +37,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | Full Debug Symbols
+Parappa the Rapper 2 | PS2SDK 2.4.1 | Full Debug Symbols
 
 ---
 
