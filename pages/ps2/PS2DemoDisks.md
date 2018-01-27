@@ -39,6 +39,7 @@ Game | Ps2 SDK | Debug Info?
 Drakan The Ancients Gates | PS2SDK 2.3.2 | No symbols sub has a txt file mentioning `Riot Engine` and a DEBUG folder and uses `SNPROFIL.IRX`
 GODAI Elemental Force | PS2SDK 2.1.4 | Full Debug Symbols! (6.4mb elf) plus SCRIPTS folder
 Herdy Gerdy | PS2 SDK 2.4.2 | No symbols but does have lots of printf debugging with filenames, plus `HGSOUND.TRX` Herdy Gerdy Sound IOP module
+Maximo | PS2 SDK 2.2.0 | Full Debug Symbols (5.9MB) `MJOLNIR.IRX`
 
 
 ## Demo Disc 19 - April 2002 SCED_50154
