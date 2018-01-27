@@ -38,6 +38,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Shaun Palmer's Pro Snowboarding | PS2SDK 2.3.4 | Full Debug Symbols
+Ecco the Dolphin: Defender of the Future | PS2SDK 2.2.0 | Full Debug Symbols (33mb elf)
 
 
 ---
