@@ -20,6 +20,14 @@ editlink: /ps2/PS2DemoDisks.md
 
 ## PS2 Demo Discs from Official Playstation 2 Magazine UK
 
+## Demo Disc 10 November 2005 SCED_50145
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
+
+---
+
 ## Demo Disc 65 November 2005 SCED_53186
 
 Game | Ps2 SDK | Debug Info?
