@@ -70,7 +70,8 @@ Piposaru 2001 contains two IOPRP*.IMG files (IOPRP205.IMG and IOPRP214.IMG) so p
 ## Games without Debug Symbols
 Game | Developer | Release Date | Ps2 SDK | Source
 --- | --- | --- | ---
-Ridge Racer V | `Namco` | 4th March 2000 | PS2SDK 1.5.0 | 
+Ridge Racer V | `Namco` | 4th March 2000 | PS2SDK 1.5.0 | Uses very early SDK
+Bloody Roar 4 | `Hudson Soft, Eighting` | 11th November 2003 | PS2SDK 2.8.0 | Has Renderware SDK 3.5 in DUMMY folder
 
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
