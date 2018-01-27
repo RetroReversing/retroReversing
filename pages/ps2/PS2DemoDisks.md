@@ -20,7 +20,7 @@ editlink: /ps2/PS2DemoDisks.md
 
 ## PS2 Demo Discs from Official Playstation 2 Magazine UK
 
-## Demo Disc 10 November 2005 SCED_50145
+## Demo Disc 10 August 2001 SCED_50145
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
@@ -28,6 +28,15 @@ Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is mu
 Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
 Star Wars Super Bomab Racing | PS2 SDK 1.6.0 | None
 GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
+
+---
+
+## Demo Disc 19 April 2002 SCED_50154
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols! 
+
 
 ---
 
