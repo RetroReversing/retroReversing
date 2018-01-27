@@ -37,6 +37,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 AirBlade | PS2SDK 2.3.2 | 3962 Debug Symbols
 Dark Cloud | PS2SDK 2.1.1 | 3952 Debug Symbols
+Tarzan Freeride | PS2SDK 2.2.4 | 10,588 Debug Symbols
 
 ---
 
