@@ -24,5 +24,5 @@ editlink: /ps2/PS2DemoDisks.md
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Need for Speed Most Wanted | PS2SDK 2.8.0 | Some function and class names in uncommon format
-NHL 06 | PS2SDK 2.8.0 | Uses Font Fusion - `FontFusion/2.4.1-nhl/source/cmn/core/glyph.cpp` some functions and class names
+NHL 06 | PS2SDK 2.8.0 | `FontFusion 2.4.1-nhl` `APT 0.18.06-nhl` `RealCore 6.25.00-nhl` `RealGraph 6.11.01-nhl`
 
