@@ -38,6 +38,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | Full Debug Symbols
 Parappa the Rapper 2 | PS2SDK 2.4.1 | Full Debug Symbols
+Robot Wars| PS2SDK 2.1.1 | Full Debug Symbols
 
 ---
 
