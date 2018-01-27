@@ -409,7 +409,8 @@ gtfsdvdj.irx|1|
 libaudio.irx|1| 
 ntgui2~1.irx|1| 
 sndman.irx|1| 
-mjolnird.irx|1| 
+mjolnir.irx|1| Used in the game Maximo Music/voice library
+mjolnird.irx|1| Used in the game Maximo (debug version, has debug symbols) Music/voice library
 timer.irx|1| 
 sirens3f.irx|1| 
 adpcmst.irx|1| 
@@ -430,7 +431,6 @@ atstrm2.irx|1|
 989nostr.irx|1| 
 evo_opt4.irx|1| 
 tsnddrvd.irx|1| 
-mjolnir.irx|1| 
 audio_p.irx|1| 
 pdinetcnf.irx|1| 
 iopcd_cd.irx|1| 
