@@ -37,8 +37,9 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 GTC: Africa | PS2SDK 2.2.4 | Full Debug Symbols (2.5mb elf)
-Lotus Challenge | PS2 SDK 2.1.4 | Full Debug Symbols (1.8mb elf)
-Jak and Daxter | PS2 SDK 2.2.1 | 880 Debug Symbols (incomplete) (532kb elf)
+Lotus Challenge | PS2SDK 2.1.4 | Full Debug Symbols (1.8mb elf)
+Jak and Daxter | PS2SDK 2.2.1 | 880 Debug Symbols (incomplete) (532kb elf)
+Extreme-G 3 | PS2SDK 2.1.4 | 2874 Debug Symbols (7.4mb elf)
 
 
 
