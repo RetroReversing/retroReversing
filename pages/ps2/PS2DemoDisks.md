@@ -20,7 +20,7 @@ editlink: /ps2/PS2DemoDisks.md
 
 ## PS2 Demo Discs from Official Playstation 2 Magazine UK
 
-## Demo Disc 10 August 2001 SCED_50145
+## Demo Disc 10 - August 2001 SCED_50145
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
@@ -31,7 +31,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 ---
 
-## Demo Disc 19 April 2002 SCED_50154
+## Demo Disc 19 - April 2002 SCED_50154
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
@@ -40,7 +40,16 @@ Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols!
 
 ---
 
-## Demo Disc 65 November 2005 SCED_53186
+## Demo Disc 18 - March 2002 SCED_50153
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Drakan The Ancients Gates | PS2SDK 2.3.2 | No symbols sub has a txt file mentioning `Riot Engine` and a DEBUG folder and uses `SNPROFIL.IRX`
+
+
+---
+
+## Demo Disc 65 - November 2005 SCED_53186
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
