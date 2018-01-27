@@ -30,6 +30,14 @@ Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols!
 Star Wars Super Bomab Racing | PS2 SDK 1.6.0 | None
 GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
+## Demo Disc 12 - October 2001 SCED_50147
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+MX Rider | PS2SDK 2.1.0 | 10,586 Debug Symbols
+Portal Runner | PS2SDK 2.1.4 | 5101 Debug Symbols
+Spy Hunter | PS2SDK 2.1.0 | 11,268 Debug Symbols
+
 
 ## Demo Disc 13 - November 2001 SCED_50148
 
@@ -39,8 +47,7 @@ NBA Street | PS2SDK 2.1.0 | 9125 Debug Symbols, also contains C++ header .h for 
 Driven | PS2SDK 2.2.4 | 7752 Debug Symbols
 Mx 2002 | PS2SDK 2.1.4 | 4892 Debug Symbols
 SplashDown MPEG Player | PS2SDK 2.3.0 | 947 Debug Symbols
-MX Rider | PS2SDK 2.1.0 | 10,586 Debug Symbols
-Portal Runner | PS2SDK 2.1.4 | 5101 Debug Symbols
+
 
 
 ## Demo Disc 14 - December 2001 SCED_50149
