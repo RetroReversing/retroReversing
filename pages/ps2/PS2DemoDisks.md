@@ -38,6 +38,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 GTC: Africa | PS2SDK 2.2.4 | Full Debug Symbols (2.5mb elf)
 Lotus Challenge | PS2 SDK 2.1.4 | Full Debug Symbols (1.8mb elf)
+Jak and Daxter | PS2 SDK 2.2.1 | 880 Debug Symbols (incomplete) (532kb elf)
 
 
 
