@@ -152,6 +152,14 @@ F1 2002 | PS2SDK 2.4.0 | Debug Symbols in the .MAP file
 MTV Music Generator | PS2SDK 2.1.0 | **2,098** Debug Symbols
 
 
+## Demo Disc 23 - August 2002 SCED_50745
+This demo came in a proper PS2 box rather than the standard DVD box used by the previous demo.
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Men in Black 2 Alien Escape | PS2SDK 2.4.3 | **20,542** Debug Symbols, References to `Metrowerks SDK`
+
+
 ## Demo Disc 24 - September 2002 SCED_50746
 
 Game | Ps2 SDK | Debug Info?
