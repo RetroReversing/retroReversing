@@ -122,16 +122,23 @@ Stuntman Xav Stream Video | PS2 SDK | Full Debug Symbols (1mb) plus IOP Module f
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols! 
-Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols! 
+Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols
+Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols
+
+
+## Demo Disc 20 - May 2002 SCED_50743
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Rally Championship | PS2SDK 2.2.4 | *3,019* Debug Symbols
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-Need for Speed Hot Pursuit 2 | PS2SDK 2.4.3 | 8,341 Debug Symbols,  Plus .MAP file that contains filenames and library names, odd fact is that it contains 2 elfs, one with debug symbols and one without, why include the debug symbols version, was it a mistake?
-Jak and Daxter: The Precursor Legacy | PS2SDK 2.2.1 | 880 debug symbols plus interesting looking .CGO and .DGO files... 
+Need for Speed Hot Pursuit 2 | PS2SDK 2.4.3 | *8,341* Debug Symbols,  Plus .MAP file that contains filenames and library names, odd fact is that it contains 2 elfs, one with debug symbols and one without, why include the debug symbols version, was it a mistake?
+Jak and Daxter: The Precursor Legacy | PS2SDK 2.2.1 | *880* debug symbols plus interesting looking .CGO and .DGO files... 
 
 
 
