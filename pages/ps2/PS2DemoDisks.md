@@ -218,3 +218,9 @@ NHL 06 | PS2SDK 2.8.0 | `FontFusion 2.4.1-nhl` `APT 0.18.06-nhl` `RealCore 6.25.
 Wallace & Gromit: The Curse of the Were-Rabbit | PS2SDK | Uses same engine as Project Zoo `fgdk3` (Frontier Game Development Kit 3?)
 
 ---
+
+# Potential Demos to try
+OPS2M Demo Disc 72 - Driver Parallel Lines apparently has .MAP files in the .IMG file according to Fireboyd78 on AssemblerGames forums [^1]
+
+# References
+[^1]: Driver Parallel lines with MAP files in it - https://assemblergames.com/threads/ops2m-demo-disc-72-driver-parallel-lines-late-05-beta-demo-download.66661/
