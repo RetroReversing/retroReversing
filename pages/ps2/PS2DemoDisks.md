@@ -143,6 +143,12 @@ Frequency | PS2SDK 2.3.2 | **13,890** Debug Symbols, uses python, uses EZMidi
 Peter Pan: Return to Never Land | PS2SDK 2.3.0 | **4,382** Debug Symbols
 Super Trucks | PS2SDK 2.4.3 | **2,990** Debug Symbols
 
+## Demo Disc 22 - July 2002 SCED_50744
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+F1 2002 | PS2SDK 2.4.0 | Debug Symbols in the .MAP file
+
 
 ## Demo Disc 24 - September 2002 SCED_50746
 
