@@ -158,6 +158,7 @@ This demo came in a proper PS2 box rather than the standard DVD box used by the 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Men in Black 2 Alien Escape | PS2SDK 2.4.3 | **20,542** Debug Symbols, References to `Metrowerks SDK`
+Project Zero | PS2SDK 2.2.4 | **4,328** Debug Symbols
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
