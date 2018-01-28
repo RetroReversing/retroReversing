@@ -234,6 +234,14 @@ Game | Ps2 SDK | Debug Info?
 Athens 2004 | PS2SDK 3.0.0 | Contains .MAP file
 Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
 
+
+## Demo Disc 57 - March 2005 SCED_53160
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
+
+
 ## Demo Disc 65 - November 2005 SCED_53186
 
 Game | Ps2 SDK | Debug Info?
