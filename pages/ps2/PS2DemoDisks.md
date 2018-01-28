@@ -188,6 +188,7 @@ Summoner 2 | PS2SDK 2.4.0 | **5,647** Debug Symbols
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Colin Mcrae Rally 3 | PS2SDK 2.5.2 | **4,969** Debug Symbols
+Haven: Call of the King | PS2SDK 2.5.0 | Contains a RUNABOUT.EXE with debug symbols but it unpacks the actual elf from some data file
 
 ---
 
