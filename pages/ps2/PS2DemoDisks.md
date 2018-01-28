@@ -197,7 +197,7 @@ Alpine Racer 3 | PS2SDK 2.4.2 | **3,916** Debug Symbols
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 VRally 3 | PS2SDK 2.5.2 | **6,603** Debug Symbols
-
+MX Superfly | PS2SDK 2.5.0 | **6,115** Debug Symbols
 
 ---
 
