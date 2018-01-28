@@ -183,6 +183,12 @@ Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | **3,817** Debug Symbols
 Summoner 2 | PS2SDK 2.4.0 | **5,647** Debug Symbols
 
 
+## Demo Disc 27 - November 2002 SCED_50748
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Colin Mcrae Rally 3 | PS2SDK 2.5.2 | **4,969** Debug Symbols
+
 ---
 
 ## Demo Disc 65 - November 2005 SCED_53186
