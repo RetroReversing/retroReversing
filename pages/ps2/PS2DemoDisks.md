@@ -241,6 +241,8 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
 
+## Demo Disc 58 - April 2005 SCED_53161
+I can't find any debug information on this Disc.
 
 ## Demo Disc 65 - November 2005 SCED_53186
 
