@@ -213,6 +213,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Grand Prix Challenge | PS2SDK 2.5.4 | **14,342** Debug Symbols
 The Mark of Kri | PS2SDK 2.5.4 | **7,387** Debug Symbols plus .MAP file!
+Wakeboarding Unleashed | PS2SDK 2.4.3 | Debug Symbols split over 3 elfs
 
 ---
 
