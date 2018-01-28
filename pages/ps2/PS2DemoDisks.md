@@ -212,6 +212,7 @@ FIFA 2003 | PS2SDK 2.3.4 | **12,074** Debug Symbols
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Grand Prix Challenge | PS2SDK 2.5.4 | **14,342** Debug Symbols
+The Mark of Kri | PS2SDK 2.5.4 | **7,387** Debug Symbols plus .MAP file!
 
 ---
 
