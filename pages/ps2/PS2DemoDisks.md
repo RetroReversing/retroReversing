@@ -149,6 +149,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 F1 2002 | PS2SDK 2.4.0 | Debug Symbols in the .MAP file
 2002 FIFA World Cup | PS2SDK 2.3.4 | **9,823** Debug Symbols
+MTV Music Generator | PS2SDK 2.1.0 | **2,098** Debug Symbols
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
