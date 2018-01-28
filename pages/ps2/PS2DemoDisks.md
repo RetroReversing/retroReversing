@@ -213,6 +213,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 NBA Live 2003 | PS2SDK 2.4.3 | **15,756** Debug Symbols
 Space Channel 5 V2 | PS2SDK 2.3.0 | **10,212** Debug Symbols
+Tom Clancy's Ghost Recon | PS2SDK 2.4.2 | **19,496** Debug Symbols
 
 
 ## Demo Disc 31 - March 2003 SCED_51529
