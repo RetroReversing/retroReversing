@@ -27,7 +27,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
 Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
-Star Wars Super Bomab Racing | PS2 SDK 1.6.0 | None
+Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
 GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 
@@ -35,7 +35,7 @@ GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-Lotus Challenge | PS2SDK 2.1.4 | 2,837 Debug Symbols
+Lotus Challenge | PS2SDK 2.1.4 | **2,837** Debug Symbols
 
 
 
@@ -43,20 +43,20 @@ Lotus Challenge | PS2SDK 2.1.4 | 2,837 Debug Symbols
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-MX Rider | PS2SDK 2.1.0 | 10,586 Debug Symbols
-Portal Runner | PS2SDK 2.1.4 | 5,101 Debug Symbols
-Spy Hunter | PS2SDK 2.1.0 | 11,268 Debug Symbols
-Soul Reaver 2 | PS2SDk 2.1.4 | 4,376 Debug Symbols
+MX Rider | PS2SDK 2.1.0 | **10,586** Debug Symbols
+Portal Runner | PS2SDK 2.1.4 | **5,101** Debug Symbols
+Spy Hunter | PS2SDK 2.1.0 | **11,268** Debug Symbols
+Soul Reaver 2 | PS2SDk 2.1.4 | **4,376** Debug Symbols
 
 
 ## Demo Disc 13 - November 2001 SCED_50148
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-NBA Street | PS2SDK 2.1.0 | 9125 Debug Symbols, also contains C++ header .h for animation files
-Driven | PS2SDK 2.2.4 | 7752 Debug Symbols
-Mx 2002 | PS2SDK 2.1.4 | 4892 Debug Symbols
-SplashDown MPEG Player | PS2SDK 2.3.0 | 947 Debug Symbols
+NBA Street | PS2SDK 2.1.0 | **9,125** Debug Symbols, also contains C++ header .h for animation files
+Driven | PS2SDK 2.2.4 | **7,752** Debug Symbols
+Mx 2002 | PS2SDK 2.1.4 | **4,892** Debug Symbols
+SplashDown MPEG Player | PS2SDK 2.3.0 | **947** Debug Symbols
 
 
 
@@ -130,8 +130,15 @@ Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
-Rally Championship | PS2SDK 2.2.4 | *3,019* Debug Symbols
+Rally Championship | PS2SDK 2.2.4 | **3,019** Debug Symbols
 Taz Wanted | PS2SDK 2.4.3 | **4,927** Debug symbols
+
+
+## Demo Disc 21 - June 2002 SCED_50742
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Medal of Honour Frontline | PS2SDK 2.4.2 | **6,199** Debug Symbols, also contains .MAP file
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
