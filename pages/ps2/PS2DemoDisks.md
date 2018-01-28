@@ -183,13 +183,21 @@ Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | **3,817** Debug Symbols
 Summoner 2 | PS2SDK 2.4.0 | **5,647** Debug Symbols
 
 
-## Demo Disc 27 - November 2002 SCED_50748
+## Demo Disc 27 - December 2002 SCED_50749
 
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Colin Mcrae Rally 3 | PS2SDK 2.5.2 | **4,969** Debug Symbols
 Haven: Call of the King | PS2SDK 2.5.0 | Contains a RUNABOUT.EXE with debug symbols but it unpacks the actual elf from some data file
 Alpine Racer 3 | PS2SDK 2.4.2 | **3,916** Debug Symbols
+
+
+## Demo Disc 28 - Christmas 2002 SCED_50750
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+VRally 3 | PS2SDK 2.5.2 | **6,603** Debug Symbols
+
 
 ---
 
