@@ -174,6 +174,14 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 X-Men Next Dimension | PS2SDK 2.4.3 | **3,418** Debug Symbols
 
+
+## Demo Disc 26 - November 2002 SCED_50748
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | **3,817** Debug Symbols
+
+
 ---
 
 ## Demo Disc 65 - November 2005 SCED_53186
