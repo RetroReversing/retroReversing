@@ -140,6 +140,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Medal of Honour Frontline | PS2SDK 2.4.2 | **6,199** Debug Symbols, also contains .MAP file
 Frequency | PS2SDK 2.3.2 | **13,890** Debug Symbols, uses python, uses EZMidi
+Peter Pan: Return to Never Land | PS2SDK 2.3.0 | **4,382** Debug Symbols
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
