@@ -180,6 +180,7 @@ X-Men Next Dimension | PS2SDK 2.4.3 | **3,418** Debug Symbols
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | **3,817** Debug Symbols
+Summoner 2 | PS2SDK 2.4.0 | **5,647** Debug Symbols
 
 
 ---
