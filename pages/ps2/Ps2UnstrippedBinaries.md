@@ -23,7 +23,7 @@ references:
 ## PS2 Retail Games with Debug Symbols
 
 Game | Developer | Release Date | Ps2 SDK | Source
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 Timesplitters | `Free Radical Design / Eidos Interactive` | Oct 23, 2000  | PS2SDK 2.0.0 | PAL Europe ISO
 Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.4 | [^1]
 Piposaru 2001 (Japan) | `SIE Japan Studio` | 5 July 2001 | PS2SDK 2.1.4 | [^1]
@@ -40,8 +40,8 @@ Virtual Fighter 4 Evolution (Korean version) | `SEGA` | Aug 13, 2003 | PS2SDK 2.
 Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
 Fatal Frame 2 | `Tecmo` | Dec 10, 2003 | PS2SDK 2.8.0 | [^1]
 Resident Evil 4 | `Capcom` | Oct 25, 2005 | PS2SDK 3.0.0 | Can't see symbols in PAL version (check sndata?) [^1]
+Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK 3.0.2 | Has symbols in *.XFF files which can be parsed with a script [^4]
 Resident Evil Code Veronica X | `Capcom` | Aug 21, 2001 | PS2SDK ??? | [^1]
-Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK ??? | [^1]
 
 
 ---
@@ -78,3 +78,4 @@ Xenosaga Episode II - Jenseits von Gut und Boese (Europe) | `Monolith Soft` | 24
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
 [^2]: Copy of Nightfire NTSC
 [^3]: Lego Racers 2 - http://www.ps2-home.com/forum/viewtopic.php?f=13&t=1231
+[^4]: Script to parse .XFF files from Shahdow of the Colossus - https://github.com/moosotc/dormin/blob/master/reeng/xff2.py
