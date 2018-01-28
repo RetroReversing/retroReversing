@@ -19,7 +19,7 @@ editlink: /ps2/PS2DemoDisks.md
 ---
 
 ## PS2 Demo Discs from Official Playstation 2 Magazine UK
-
+You can find out more about these Demo Discs over at crimson-ceremony.net: http://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140
 
 ## Demo Disc 10 - August 2001 SCED_50145
 
