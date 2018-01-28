@@ -232,6 +232,7 @@ Wakeboarding Unleashed | PS2SDK 2.4.3 | Debug Symbols split over 3 elfs
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Athens 2004 | PS2SDK 3.0.0 | Contains .MAP file
+Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
 
 ## Demo Disc 65 - November 2005 SCED_53186
 
