@@ -207,6 +207,12 @@ Game | Ps2 SDK | Debug Info?
 FIFA 2003 | PS2SDK 2.3.4 | **12,074** Debug Symbols
 
 
+## Demo Disc 31 - March 2003 SCED_51529
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Grand Prix Challenge | PS2SDK 2.5.4 | **14,342** Debug Symbols
+
 ---
 
 ## Demo Disc 65 - November 2005 SCED_53186
