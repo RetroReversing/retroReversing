@@ -223,12 +223,10 @@ Wallace & Gromit: The Curse of the Were-Rabbit | PS2SDK | Uses same engine as Pr
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Driver 4 | PS2SDK 3.0.0 | Contains .MAP files in DRIVER4.IMG [^1]
+TOCA Race Driver 3 | PS2SDK 3.0.2 | Not much a few references to cpp files and a small .sndata section
 
 
 ---
-
-# Potential Demos to try
-OPS2M Demo Disc 72 - Driver Parallel Lines apparently has .MAP files in the .IMG file according to Fireboyd78 on AssemblerGames forums [^1]
 
 # References
 [^1]: Driver Parallel lines with MAP files in it - https://assemblergames.com/threads/ops2m-demo-disc-72-driver-parallel-lines-late-05-beta-demo-download.66661/
