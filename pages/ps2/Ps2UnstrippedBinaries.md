@@ -40,7 +40,7 @@ Xenosaga Episode I: Der Wille zur Macht | `Monolith Soft` | 28 February 2002 | P
 Virtual Fighter 4 Evolution (Korean version) | `SEGA` | Aug 13, 2003 | PS2SDK 2.5.5 | [^1]
 Jak II | `Naughty Dog` | 14 October 2003 | PS2SDK 2.7.1 | [^1]
 Fatal Frame 2 | `Tecmo` | Dec 10, 2003 | PS2SDK 2.8.0 | [^1]
-Resident Evil 4 | `Capcom` | Oct 25, 2005 | PS2SDK 3.0.0 | Can't see symbols in PAL version (check sndata?) [^1]
+Resident Evil 4 | `Capcom` | Oct 25, 2005 | PS2SDK 3.0.0 | 7,402 in .sndata segment (SN Systems compiler?) [^1]
 Shadow of the Colossus (PAL) | `Sony Interactive Entertainment Japan Studio` | October 18, 2005 | PS2SDK 3.0.2 | Has symbols in .XFF files which can be parsed with a script [^4]
 
 
