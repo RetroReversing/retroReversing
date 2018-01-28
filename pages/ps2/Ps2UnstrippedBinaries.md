@@ -29,7 +29,7 @@ Crazy Taxi | `Acclaim Studios Cheltenham, Hitmaker` | May 15, 2001 | PS2SDK 2.1.
 Piposaru 2001 (Japan) | `SIE Japan Studio` | 5 July 2001 | PS2SDK 2.1.4 | [^1]
 Jak and Daxter | `Naughty Dog` | 3 December 2001 | PS2SDK 2.2.1 | [^1]
 Shadow Hearts | `Sacnoth / Midway` | Dec 11, 2001 | PS2SDK 2.2.2 | [^1]
-ICO (PAL)  | `Sony Interactive Entertainment Japan Studio` | Sep 24, 2001 | PS2SDK 2.2.4 | Can't see symbols [^1]
+ICO (PAL)  | `Sony Interactive Entertainment Japan Studio` | Sep 24, 2001 | PS2SDK 2.2.4 | Symbols seem to be in SRCFILE.TXT and TRFILE.txt - need to find a script to parse them [^1]
 LEGO Racers 2 | `Attention Software` | Sep 27, 2001 | PS2SDK 2.2.4 | [^3]
 Devil May Cry | `Capcom` | Oct 16, 2001  | PS2SDK 2.2.4 | [^1]
 Fatal Frame  | `Tecmo` | Dec 13, 2001 | PS2SDK 2.2.4 | [^1]
