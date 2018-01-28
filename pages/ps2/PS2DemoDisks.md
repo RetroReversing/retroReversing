@@ -198,6 +198,7 @@ Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 VRally 3 | PS2SDK 2.5.2 | **6,603** Debug Symbols
 MX Superfly | PS2SDK 2.5.0 | **6,115** Debug Symbols
+Treasure Planet | PS2SDK 2.5.0 | **4,519** Debug Symbols
 
 ---
 
