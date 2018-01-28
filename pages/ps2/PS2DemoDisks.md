@@ -131,6 +131,7 @@ Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols
 Game | Ps2 SDK | Debug Info?
 --- | --- | ---
 Rally Championship | PS2SDK 2.2.4 | *3,019* Debug Symbols
+Taz Wanted | PS2SDK 2.4.3 | **4,927** Debug symbols
 
 
 ## Demo Disc 24 - September 2002 SCED_50746
