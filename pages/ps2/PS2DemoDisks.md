@@ -200,6 +200,13 @@ VRally 3 | PS2SDK 2.5.2 | **6,603** Debug Symbols
 MX Superfly | PS2SDK 2.5.0 | **6,115** Debug Symbols
 Treasure Planet | PS2SDK 2.5.0 | **4,519** Debug Symbols
 
+## Demo Disc 29 - January 2003 SCED_51384
+
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+FIFA 2003 | PS2SDK 2.3.4 | **12,074** Debug Symbols
+
+
 ---
 
 ## Demo Disc 65 - November 2005 SCED_53186
