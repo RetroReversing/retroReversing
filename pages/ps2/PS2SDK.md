@@ -25,6 +25,8 @@ references:
 Last known version: **3.1.0** [^1]
 First version: **0.3.0** [^2]
 
+Updates were provided to licenced playstation developers on ps2-pro.com, where the update contained just the files that have changed and could be dropped in place to overwrite the previous versions.
+
 ### SDK Versions
 
 SDK Version | Publicly Leaked? | Notes
