@@ -51,7 +51,7 @@ SDK Version | Publicly Leaked? | Notes
 1.6.0a | No | 
 1.6.3 | No | `SSX (PAL)` `Jun 2000`
 1.6.4 | No | 
-1.6.5 | No | `Midnight Club (PAL)`
+1.6.5 | No | `Midnight Club (PAL)` `Aug 2000`
 1.6.6 | No | 
 2.0.0 | No | `Timesplitters`
 2.0.3 | No | `New library called "libhig" (High Level Graphics)`
