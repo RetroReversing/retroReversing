@@ -57,6 +57,7 @@ SDK Version | Publicly Leaked? | Notes
 2.0.3 | No | `New library called "libhig" (High Level Graphics)`
 2.0.2 | No | `This is Football 2002`
 2.0.5 | No | 
+2.0.6 | No | `Nov 2000`
 2.1.0 | No | `Gauntlet Dark Legacy Demo`
 2.1.1 | No | `Dark Cloud Demo`
 2.1.3 | No | `Resident Evil Code Veronica X`
