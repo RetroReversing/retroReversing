@@ -49,7 +49,7 @@ SDK Version | Publicly Leaked? | Notes
 1.5.7 | No | 
 1.6.0 | No | `Star Wars Super Bomad Racing Demo`
 1.6.0a | No | 
-1.6.3 | No | `SSX (PAL)`
+1.6.3 | No | `SSX (PAL)` `Jun 2000`
 1.6.4 | No | 
 1.6.5 | No | `Midnight Club (PAL)`
 1.6.6 | No | 
