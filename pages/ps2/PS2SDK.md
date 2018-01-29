@@ -51,27 +51,30 @@ SDK Version | Publicly Leaked? | Notes
 1.6.4 | No | 
 1.6.5 | No | 
 1.6.6 | No | 
-2.0 | No | 
+2.0.0 | No | `Timesplitters`
 2.0.2 | No | 
 2.0.5 | No | 
 2.1 | No | 
 2.1.1 | No | 
-2.1.4 | No | 
-2.2.1 | No | 
-2.2.2 | No | 
-2.3 | No | 
-2.4.2 | No | 
-2.5.5 | No | 
-2.7 | Docs leaked with 3.0 sdk leak; can't remember if SDK was leaked as well | 
-2.7.1 | No | 
+2.1.3 | No | `Resident Evil Code Veronica X`
+2.1.4 | No | `Crazy Taxi`
+2.2.1 | No | `Jak and Daxter`
+2.2.2 | No | `Shadow Hearts`
+2.2.4 | No | `ICO (PAL)`
+2.3.0 | No | `Grand Theft Auto III`
+2.4.2 | No | `Xenosaga Episode I: Der Wille zur Macht`
+2.4.3 | No | `007 Nightfire`
+2.5.5 | No | `Virtual Fighter 4 Evolution (Korean version)`
+2.7.0 | Docs leaked with 3.0 sdk leak; can't remember if SDK was leaked as well | 
+2.7.1 | No | `Jak II`
 2.7.2 | No | 
-2.8 | No | 
+2.8.0 | No | `Fatal Frame 2`
 2.8.1 | No | 
-3.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | 
+3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4`
 3.0.1 | No | 
-3.0.2 | publicly leaked; maybe incomplete |
+3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)`
 3.0.3 | publicly leaked; **complete** |
-3.1 | No | 
+3.1.0 | No | 
 
 ## References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
