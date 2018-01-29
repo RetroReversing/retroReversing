@@ -43,7 +43,7 @@ SDK Version | Publicly Leaked? | Notes
 1.4.1 | No | `Feb 2000`
 1.4.2 | No | 
 1.4.3 | No | 
-1.5 | No | 
+1.5 | No | `Apr 2000`
 1.5.1 | No | 
 1.5.3 | No | 
 1.5.7 | No | 
