@@ -52,6 +52,7 @@ SDK Version | Publicly Leaked? | Notes
 1.6.5 | No | `Midnight Club (PAL)`
 1.6.6 | No | 
 2.0.0 | No | `Timesplitters`
+2.0.3 | No | `New library called "libhig" (High Level Graphics)`
 2.0.2 | No | `This is Football 2002`
 2.0.5 | No | 
 2.1.0 | No | `Gauntlet Dark Legacy Demo`
