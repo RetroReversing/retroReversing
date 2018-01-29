@@ -86,10 +86,10 @@ SDK Version | Publicly Leaked? | Notes
 
 You can search for Games that match a specific SDK version by running the following bash command:
 ```bash
-find . -name "MCMAN.IRX" -print0 | xargs -0 strings | grep -Hn 2720
+find . -name "MCMAN.IRX" -print0 | xargs -0 strings | grep -Hn "   272"
 ```
-Replace 2720 with the version number you want, e.g 2720 is 2.7.2.0
+Replace 2720 with the version number you want, e.g 272 is 2.7.2
 
 ## References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
-[^2]: List of PS2 SDK Versions - https://assemblergames.com/threads/request-ps2-sdk-3-0-0.64540/
+[^2]: https://assemblergames.com/threads/request-ps2-sdk-3-0-0.64540/
