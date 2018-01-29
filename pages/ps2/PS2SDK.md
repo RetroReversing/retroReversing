@@ -40,7 +40,7 @@ SDK Version | Publicly Leaked? | Notes
 1.3 | No | 
 1.3.1 | No | 
 1.4 | No | 
-1.4.1 | No | 
+1.4.1 | No | `Feb 2000`
 1.4.2 | No | 
 1.4.3 | No | 
 1.5 | No | 
