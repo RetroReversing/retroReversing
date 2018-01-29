@@ -77,12 +77,18 @@ SDK Version | Publicly Leaked? | Notes
 2.7.1 | No | `Jak II`
 2.7.2 | No | 
 2.8.0 | No | `Fatal Frame 2`
-2.8.1 | No | 
+2.8.1 | No | `Bloody Roar` MCMAN.IRX has `PSIImcman 2810`
 3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4`
-3.0.1 | No | 
+3.0.1 | No | `24 The Game`
 3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)`
 3.0.3 | publicly leaked; **complete** |
 3.1.0 | No | 
+
+You can search for Games that match a specific SDK version by running the following bash command:
+```bash
+find . -name "MCMAN.IRX" -print0 | xargs -0 strings | grep -Hn 2720
+```
+Replace 2720 with the version number you want, e.g 2720 is 2.7.2.0
 
 ## References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
