@@ -112,6 +112,8 @@ Replace 2720 with the version number you want, e.g 272 is 2.7.2
 ## Sample Data
 ## SIF DMA Package
 ## USB PSP™ Communications Library
+## Demo Disc SDK
+## Shell System Package
 
 ## References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
