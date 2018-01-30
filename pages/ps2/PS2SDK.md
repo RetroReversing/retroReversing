@@ -84,7 +84,7 @@ SDK Version | Publicly Leaked? | Notes
 2.8.1 | No | `Bloody Roar` MCMAN.IRX has `PSIImcman 2810`
 3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4` **Nov 2003**
 3.0.1 | No | `24 The Game`
-3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)`
+3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)` **Jul 2004**
 3.0.3 | publicly leaked; **complete** | **Jun 2005**
 3.1.0 | No | 
 
