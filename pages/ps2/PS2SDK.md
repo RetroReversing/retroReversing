@@ -88,11 +88,30 @@ SDK Version | Publicly Leaked? | Notes
 3.0.3 | publicly leaked; **complete** | **Jun 2005**
 3.1.0 | No | 
 
+### How to check version of SDK in use
+You are really just looking for a string of the form "PSII* 2720" where the * denotes text that can change based on which library you search.
+
 You can search for Games that match a specific SDK version by running the following bash command:
 ```bash
 find . -name "MCMAN.IRX" -print0 | xargs -0 strings | grep -Hn "   272"
 ```
 Replace 2720 with the version number you want, e.g 272 is 2.7.2
+
+# SDK Contents
+
+## EE Toolchain
+## EENet Library
+## EyeToy® Vision Library
+## HTTPS Library
+## IOP Toolchain
+## Libcheck Library
+## Poweroff Processing Libraries
+## Runtime Libraries 3.0.3
+## Runtime Library Docs
+## Sample Code
+## Sample Data
+## SIF DMA Package
+## USB PSP™ Communications Library
 
 ## References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
