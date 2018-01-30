@@ -40,10 +40,10 @@ SDK Version | Publicly Leaked? | Notes
 1.3 | No | 
 1.3.1 | No | 
 1.4 | No | 
-1.4.1 | No | `Feb 2000`
+1.4.1 | No | **Feb 2000**
 1.4.2 | No | 
 1.4.3 | No | 
-1.5 | No | `Apr 2000`
+1.5 | No | **Apr 2000**
 1.5.1 | No | 
 1.5.3 | No | 
 1.5.7 | No | 
@@ -51,7 +51,7 @@ SDK Version | Publicly Leaked? | Notes
 1.6.0a | No | 
 1.6.3 | No | `SSX (PAL)` `Jun 2000`
 1.6.4 | No | 
-1.6.5 | No | `Midnight Club (PAL)` `Aug 2000`
+1.6.5 | No | `Midnight Club (PAL)` **Aug 2000**
 1.6.6 | No | 
 2.0.0 | No | `Timesplitters`
 2.0.3 | No | `New library called "libhig" (High Level Graphics)`
@@ -82,10 +82,10 @@ SDK Version | Publicly Leaked? | Notes
 2.7.2 | No | 
 2.8.0 | No | `Fatal Frame 2`
 2.8.1 | No | `Bloody Roar` MCMAN.IRX has `PSIImcman 2810`
-3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4`
+3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4` **Nov 2003**
 3.0.1 | No | `24 The Game`
 3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)`
-3.0.3 | publicly leaked; **complete** |
+3.0.3 | publicly leaked; **complete** | **Jun 2005**
 3.1.0 | No | 
 
 You can search for Games that match a specific SDK version by running the following bash command:
