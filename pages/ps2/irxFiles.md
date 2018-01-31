@@ -18,6 +18,17 @@ recommend: ps2
 ---
 
 IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. 
+
+You can load an IOP Module from Emotion Engine code using one of the following API commands:
+ - sceSifLoadModule()
+ - sceSifLoadModule()
+ - sceSifLoadStartModule()
+ - sceSifLoadStartModule()
+ - sceSifLoadModuleBuffer()
+ - sceSifLoadModuleBuffer()
+ - sceSifLoadStartModuleBuffer()
+ - sceSifLoadStartModuleBuffer
+
 You should be able to find some of these in the MODULES folder of a PS2 disk (but the folder depends on the disc).
 
 IRX | Usage | Description
