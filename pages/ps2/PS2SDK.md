@@ -175,16 +175,19 @@ The simulator was released before developers got access to the hardware [^3], it
 
 Name | Meaning
 --- | ---
+DMAC | ...
+DMA | Direct Memory Access?
+DVP | D* Vector Processor?
 GIF | Graphics Interface
 GS | Graphics Synthesiser
-DVP | D* Vector Processor?
-VU0 | Vector Unit 0
-VIF0 | Vector Unit 0 Interface
-VU1 | Vector Unit 1
-VIF1 | Vector Unit 1 Interface
-DMAC | ...
+IOP | Input/Output Processor
+SIF | Serial Interface
 SPR | Scratch Pad RAM
-DMA | Direct Memory Access?
+SPU | Sound Processing Unit
+VIF0 | Vector Unit 0 Interface
+VIF1 | Vector Unit 1 Interface
+VU0 | Vector Unit 0
+VU1 | Vector Unit 1
 
 
 
