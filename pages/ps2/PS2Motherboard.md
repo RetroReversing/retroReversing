@@ -34,7 +34,7 @@ PS1's hardware (Motherboard) overview.
 * Texture formats: 32/24/16/8/4
 
 ## I/O Processor (IOP)
-* Used for Interaction with peripherals
+* Used for Interaction with peripherals (Memory cards, usb devices, DVD etc)
 * 2MB RAM
 * Playstation 1 on a chip (used for playing PS1 games)
 
