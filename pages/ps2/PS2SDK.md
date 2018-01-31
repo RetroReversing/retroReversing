@@ -99,7 +99,30 @@ Replace 2720 with the version number you want, e.g 272 is 2.7.2
 
 # SDK Contents
 
-## EE Toolchain
+## Emotion Engine (EE) Toolchain
+The Emotion Engine Toolchain was developed by Cygnus based on GNUPro and has support for running the toolchain on windows, linux and Solaris.
+
+Tool | Description
+--- | ---
+ee-gcc | C compiler modified from GNU GCC
+ee-g++ | C++ GNU compiler
+ee-as | GNU Assembler
+dvp-elf-as | GNU Assembler for DVP (VU1 Assembler?)
+ee-ld | GNU Linker (Link object files together to create libraries)
+ee-gbd | Standard GNU Debugger
+ee-run | Simulator
+sky.ld | Script that calls the Linker?
+ee-addr2line | Get filenames and lines numbers from program addresses
+ee-ar | GNU Archive handler
+ee-c++filt | Demangle C++ symbols
+ee-nm | print the list of symbols contained in an object file
+ee-objcopy | Copy object files
+ee-objdump | Standard GNU object dumper to display information about an object
+ee-ranlib | List the index of an archive
+ee-size | Display the size of sections in a file
+ee-strings | Standard SNU strings utility to get strings from binary files
+ee-strip | Strip an executable to remove debugging symbols
+
 ## EENet Library
 ## EyeToy® Vision Library
 ## HTTPS Library
@@ -146,6 +169,7 @@ Replace 2720 with the version number you want, e.g 272 is 2.7.2
 Name | Meaning
 --- | ---
 GS | Graphics Synthesiser
+DVP | 
 
 
 
