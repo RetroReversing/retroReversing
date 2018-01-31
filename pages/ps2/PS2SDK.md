@@ -107,7 +107,7 @@ Tool | Description
 ee-gcc | C compiler modified from GNU GCC
 ee-g++ | C++ GNU compiler
 ee-as | GNU Assembler
-dvp-elf-as | GNU Assembler for DVP (VU1 Assembler?)
+dvp-elf-as | GNU Assembler for DVP (Vector unit Assembler?)
 ee-ld | GNU Linker (Link object files together to create libraries)
 ee-gbd | Standard GNU Debugger
 ee-run | Simulator
@@ -122,6 +122,13 @@ ee-ranlib | List the index of an archive
 ee-size | Display the size of sections in a file
 ee-strings | Standard SNU strings utility to get strings from binary files
 ee-strip | Strip an executable to remove debugging symbols
+
+### Debugging
+One important point is that generating debug symbols doesn't ever modify the code generation but there are some optimisation flags that can make debugging more difficult.
+
+
+### Emotion Engine Simulator
+The simulator was released before developers got access to the hardware [^3], it is basically an emulator which virtualizes the hardware of the emotion engine on a standard pc.
 
 ## EENet Library
 ## EyeToy® Vision Library
@@ -168,11 +175,18 @@ ee-strip | Strip an executable to remove debugging symbols
 
 Name | Meaning
 --- | ---
+GIF | Graphics Interface
 GS | Graphics Synthesiser
-DVP | 
+DVP | D* Vector Processor?
+VU0 | Vector Unit 0
+VIF0 | Vector Unit 0 Interface
+VU1 | Vector Unit 1
+VIF1 | Vector Unit 1 Interface
+DMAC | ...
 
 
 
 # References
 [^1]: https://assemblergames.com/threads/sdk-and-tools-versions-information.35040/
 [^2]: https://assemblergames.com/threads/request-ps2-sdk-3-0-0.64540/
+[^3]: http://redhatpartnerweb.com/about/presscenter/cygnus_1999/sony2.html
