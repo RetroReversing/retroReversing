@@ -3,7 +3,7 @@ layout: post
 tags: 
 - ps2
 - hardware
-title: PlayStation 2 Architecture
+title: PlayStation 2 Hardware Architecture
 thumbnail: /public/consoles/Sony PlayStation 2.png
 youtube: "X6wtbHI94iE"
 image: https://img.youtube.com/vi/X6wtbHI94iE/maxresdefault.jpg
@@ -13,7 +13,7 @@ breadcrumbs:
     url: /
   - name: Sony Playstation 2
     url: /ps2
-  - name: PlayStation 2 Architecture
+  - name: PlayStation 2 Hardware Architecture
     url: #
 recommend: ps2
 ---
@@ -34,15 +34,27 @@ PS1's hardware (Motherboard) overview.
 * Texture formats: 32/24/16/8/4
 
 ## I/O Processor (IOP)
-* Used for Interaction with peripherals (Memory cards, usb devices, DVD etc)
-* 2MB RAM
+* Used for Interaction with peripherals (Memory cards, usb devices, Networking, Audio, DVD etc)
+* 2MB RAM (8MB on a devkit)
 * Playstation 1 on a chip (used for playing PS1 games)
+* 36.9 Mhz
 
 ## Sound Processor (SPU2)
 * Sound controller
 
 ## Image processing Unit (IPU)
 * Decodes MPEG2 streams
+
+## Serial Interface (SIF)
+* Used to Interface between the Emotion Engine (EE) and the I/O processor (IOP)
+* SIFDMA - transfer memory to other processor
+* CIFCMD - run a command on the other processor such as setting flags
+* SIFRPC - run remote operations on the other processor, includes a return value
+
+### Example of SIF in action
+An example of using the SIF to communicate between both processors is the controller pad libraries. We want to communicate between libpad.a which runs on the Emotion Engine and padman.irx which runs on the I/O Processor.
+So during the VBlank period the IOP Padman.irx uses SIFDMA to send controller information (such as which buttons are pressed) to the Emotion Engine.
+The Emotion Engine can then request this information by calling the API scePadRead
 
 ---
 
