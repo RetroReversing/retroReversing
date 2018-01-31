@@ -128,7 +128,7 @@ One important point is that generating debug symbols doesn't ever modify the cod
 
 
 ### Emotion Engine Simulator
-The simulator was released before developers got access to the hardware [^3], it is basically an emulator which virtualizes the hardware of the emotion engine on a standard pc.
+The simulator was released before developers got access to the hardware [^3], it is basically an emulator which virtualizes the hardware of the emotion engine on a standard pc. This emulator was not cycle-accurate so was not guaranteed to produce the same result as running on the physical hardware.
 
 ## EENet Library
 ## EyeToy® Vision Library
@@ -183,6 +183,8 @@ VIF0 | Vector Unit 0 Interface
 VU1 | Vector Unit 1
 VIF1 | Vector Unit 1 Interface
 DMAC | ...
+SPR | Scratch Pad RAM
+DMA | Direct Memory Access?
 
 
 
