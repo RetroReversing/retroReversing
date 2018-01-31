@@ -175,8 +175,10 @@ The simulator was released before developers got access to the hardware [^3], it
 
 Name | Meaning
 --- | ---
+DECI2 | Protocol for PC to communicate with PS2 TOOL
 DMAC | ...
 DMA | Direct Memory Access?
+DNAS | Online library for..
 DVP | D* Vector Processor?
 GIF | Graphics Interface
 GS | Graphics Synthesiser
@@ -184,6 +186,7 @@ IOP | Input/Output Processor
 SIF | Serial Interface
 SPR | Scratch Pad RAM
 SPU | Sound Processing Unit
+TRC | Technical Requirements Checklist
 VIF0 | Vector Unit 0 Interface
 VIF1 | Vector Unit 1 Interface
 VU0 | Vector Unit 0
