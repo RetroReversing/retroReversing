@@ -19,10 +19,6 @@ recommend: ps2
 
 ## Main Emotion Engine SDK libraries
 ```
-./ee/sample/atok/softkb/utf8/libccc/lib/libccc.a
-./ee/sample/atok/softkb/libpfont/lib/libpfont.a
-./ee/sample/inet/ntgui2/utf8/libccc/lib/libccc.a
-./ee/sample/inet/ntgui2/libpfont/lib/libpfont.a
 ./ee/lib/liblout.a
 ./ee/lib/libnet.a
 ./ee/lib/libm_export.a
@@ -54,7 +50,7 @@ recommend: ps2
 ./ee/lib/libmtap.a
 ./ee/lib/libmsin.a
 ./ee/lib/libgcc_3.2-beta2-ee-030210_export.a
-./ee/lib/Old/librspu2.a
+
 ./ee/lib/libusbkb.a
 ./ee/lib/libgp.a
 ./ee/lib/libatok.a
@@ -90,12 +86,6 @@ recommend: ps2
 ./ee/lib/libcheck.a
 ./ee/lib/bnnetcnf.a
 ./ee/lib/netglue_insck.a
-
-./iop/install/lib/Old/libspu2.a
-./iop/install/lib/Old/libsnd2.a
-
-./iop/lib/Old/libspu2.a
-./iop/lib/Old/libsnd2.a
 ```
 
 ## Demo Disc Libraries
@@ -103,6 +93,14 @@ recommend: ps2
 ./Demo Disc SDK/sdk/philmsg/philmsg.a
 ./Demo Disc SDK/sdk/libscedemo/libscedemo.a
 ./Demo Disc SDK/sdk/online_lib/online.a
+```
+
+## Emotion Engine Sample Libraries
+```
+./ee/sample/atok/softkb/utf8/libccc/lib/libccc.a
+./ee/sample/atok/softkb/libpfont/lib/libpfont.a
+./ee/sample/inet/ntgui2/utf8/libccc/lib/libccc.a
+./ee/sample/inet/ntgui2/libpfont/lib/libpfont.a
 ```
 
 ## GCC Emotion Engine Libraries
@@ -144,6 +142,19 @@ GCC I/O Processor Libraries
 ./iop/gcc/lib/libiberty.a
 ./iop/gcc/lib/gcc-lib/mipsel-scei-elfl/2.8.1/libgcc.a
 ./iop/gcc/lib/libbfd.a
+
+```
+
+## Deprecated (old) Libraries
+LibSPU2 and LibSND2 seems to have been deprecated.. or maybe just these compiled versions are old, not sure..
+```
+./ee/lib/Old/librspu2.a
+./iop/install/lib/Old/libspu2.a
+./iop/install/lib/Old/libsnd2.a
+
+./iop/lib/Old/libspu2.a
+./iop/lib/Old/libsnd2.a
+
 ./iop/gcc/mipsel-scei-elfl/lib/Old/libspu2.a
 ./iop/gcc/mipsel-scei-elfl/lib/Old/libsnd2.a
 ```
