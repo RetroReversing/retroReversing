@@ -21,77 +21,73 @@ recommend: ps2
 
 Name | Description
 --- | ---
+base64.a | 
+bnnetcnf.a | 
+eenet46.a | 
+eenetctl.a | 
+ent_dump.a | 
+ent_eth.a | 
+ent_ppp.a | 
+ent_smap.a | 
+entctl46.a | 
+libatok.a | 
+libc_export.a | 
+libcdvd.a | 
+libcheck.a | 
+libdbc.a | 
+libdev.a | 
+libdma.a | 
+libeenet.a | 
+liberx.a | 
+libeyetoy.a | 
+libgcc_2.9 | -ee-991111-01_export.a
+libgcc_2.96 | -ee-001003-1_export.a
+libgcc_3.2 | -beta2-ee-030210_export.a
+libgcc_3.2 | -ee-030926_export.a
+libgcc_3.2 | -ee-040921_export.a
+libgcc_common_export.a | 
+libgp.a | 
+libgraph.a | 
+libhig.a | 
+libhip.a | 
+libhttp.a | 
+libhttps.a | 
+libinsck.a | 
+libipu.a | 
+libkernl.a | 
 liblout.a | 
+libm_export.a | 
+libmc.a | 
+libmc2.a | 
+libmcx.a | 
+libmpeg.a | 
+libmrpc.a | 
+libmsin.a | 
+libmtap.a | 
+libnet.a | 
+libnetif.a | 
+libpad.a | 
+libpad2.a | 
+libpc.a | 
+libpkt.a | 
+libqp.a | 
+libscf.a | 
+libsdr.a | 
+libsein.a | 
+libsk.a | 
+libspu2m.a | 
+libssyn.a | 
+libtimer.a | 
+libusbkb.a | 
+libusbpspcm.a | 
+libvib.a | 
+libvu0.a | 
+netcnfif.a | 
+netglue_eenet.a | 
+netglue_insck.a | 
+netifmc2.a | 
+ntgui2.a | 
 
-```
-./ee/lib/liblout.a
-./ee/lib/libnet.a
-./ee/lib/libm_export.a
-./ee/lib/netglue_eenet.a
-./ee/lib/ent_eth.a
-./ee/lib/libusbpspcm.a
-./ee/lib/libgraph.a
-./ee/lib/libsein.a
-./ee/lib/libspu2m.a
-./ee/lib/netifmc2.a
-./ee/lib/liberx.a
-./ee/lib/libqp.a
-./ee/lib/libgcc_3.2-ee-040921_export.a
-./ee/lib/libscf.a
-./ee/lib/eenetctl.a
-./ee/lib/libdma.a
-./ee/lib/base64.a
-./ee/lib/ent_smap.a
-./ee/lib/ent_ppp.a
-./ee/lib/libmrpc.a
-./ee/lib/libhttp.a
-./ee/lib/libhig.a
-./ee/lib/libnetif.a
-./ee/lib/libgcc_3.2-ee-030926_export.a
-./ee/lib/libmcx.a
-./ee/lib/libdev.a
-./ee/lib/libvib.a
-./ee/lib/libipu.a
-./ee/lib/libmtap.a
-./ee/lib/libmsin.a
-./ee/lib/libgcc_3.2-beta2-ee-030210_export.a
-
-./ee/lib/libusbkb.a
-./ee/lib/libgp.a
-./ee/lib/libatok.a
-./ee/lib/libsdr.a
-./ee/lib/libcdvd.a
-./ee/lib/libinsck.a
-./ee/lib/libpad.a
-./ee/lib/libeyetoy.a
-./ee/lib/libmpeg.a
-./ee/lib/libeenet.a
-./ee/lib/libsk.a
-./ee/lib/libpkt.a
-./ee/lib/ent_dump.a
-./ee/lib/libhip.a
-./ee/lib/libssyn.a
-./ee/lib/libhttps.a
-./ee/lib/ntgui2.a
-./ee/lib/libgcc_common_export.a
-./ee/lib/netcnfif.a
-./ee/lib/libc_export.a
-./ee/lib/libmc2.a
-./ee/lib/libdbc.a
-./ee/lib/libmc.a
-./ee/lib/libtimer.a
-./ee/lib/entctl46.a
-./ee/lib/libgcc_2.9-ee-991111-01_export.a
-./ee/lib/eenet46.a
-./ee/lib/libgcc_2.96-ee-001003-1_export.a
-./ee/lib/libvu0.a
-./ee/lib/libpc.a
-./ee/lib/libkernl.a
-./ee/lib/libpad2.a
-./ee/lib/libcheck.a
-./ee/lib/bnnetcnf.a
-./ee/lib/netglue_insck.a
-```
 
 ## Demo Disc Libraries
 ```
