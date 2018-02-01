@@ -146,7 +146,7 @@ sound.irx|7|
 usbgun.irx|7| 
 nusound.irx|7| 
 ent_cnf.irx|7| 
-cdvdman.irx|6| 
+cdvdman.irx|6|  Provides DVD functionality to IOP (Official PS2 Dev Kit)
 iopmain.irx|6| 
 gtfscdvd.irx|6| 
 msl.irx|6| 
@@ -202,7 +202,7 @@ dgco.irx|4|
 sndrv002.irx|4| Lucent chip set USB modem driver (SN Systems NDK)
 imemman.irx|4| 
 iophooey.irx|4| 
-cdvdfsv.irx|4| 
+cdvdfsv.irx|4| Called by Emotion Engine and forwards calls on to cdvdman.irx  (Official PS2 Dev Kit)
 ezsound.irx|4| 
 ezadpcm.irx|3| 
 avedhcp.irx|3| 
