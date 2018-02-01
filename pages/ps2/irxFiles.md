@@ -53,7 +53,7 @@ inetctl.irx|112| iNET Control interface
 sio2d.irx|108| Interface for joypads, multitaps and memory cards. (Official PS2 Dev Kit)
 ppp.irx|106| Point To Point Protocol (PPP) library (Official PS2 Dev Kit)
 usbkb.irx|103| USB Keyboard Library
-dbcman.irx|102| Device Control Library
+dbcman.irx|102| Device Control Library (Official PS2 Dev Kit) (used by libpad2 and libmc2)
 pppoe.irx|99| Point To Point Protocol over Ethernet (PPPoE) library
 stream.irx|73| MultiStream DSP (Official PS2 Dev Kit)
 cri_adxi.irx|73| ADX is a streamed audio format which allows for multiple audio streams, seamless looping and continuous playback (CRIWARE SDK)
