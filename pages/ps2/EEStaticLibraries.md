@@ -80,7 +80,7 @@ libssyn.a |
 libtimer.a | 
 libusbkb.a | 
 libusbpspcm.a | 
-libvib.a | 
+libvib.a | Used for controlling the vibration of a controller
 libvu0.a | 
 netcnfif.a | 
 netglue_eenet.a | 
