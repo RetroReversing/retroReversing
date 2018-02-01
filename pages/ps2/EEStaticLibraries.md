@@ -18,6 +18,11 @@ recommend: ps2
 ---
 
 ## Main Emotion Engine SDK libraries
+
+Name | Description
+--- | ---
+liblout.a | 
+
 ```
 ./ee/lib/liblout.a
 ./ee/lib/libnet.a
