@@ -179,6 +179,7 @@ DECI2 | Protocol for PC to communicate with PS2 TOOL
 DMAC | ...
 DMA | Direct Memory Access?
 DNAS | Online library for..
+DSNet | Suite of tools for debugging using a PS2 TOOL
 DVP | D* Vector Processor?
 GIF | Graphics Interface
 GS | Graphics Synthesiser
