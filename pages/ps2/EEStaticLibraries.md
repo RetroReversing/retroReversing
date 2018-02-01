@@ -17,19 +17,12 @@ breadcrumbs:
 recommend: ps2
 ---
 
+
 ## Main Emotion Engine SDK libraries
 
 Name | Description
 --- | ---
 base64.a | 
-bnnetcnf.a | 
-eenet46.a | 
-eenetctl.a | 
-ent_dump.a | 
-ent_eth.a | 
-ent_ppp.a | 
-ent_smap.a | 
-entctl46.a | 
 libatok.a | 
 libc_export.a | 
 libcdvd.a | 
@@ -40,32 +33,27 @@ libdma.a |
 libeenet.a | 
 liberx.a | 
 libeyetoy.a | 
-libgcc_2.9 | -ee-991111-01_export.a
-libgcc_2.96 | -ee-001003-1_export.a
-libgcc_3.2 | -beta2-ee-030210_export.a
-libgcc_3.2 | -ee-030926_export.a
-libgcc_3.2 | -ee-040921_export.a
+libgcc_2.9-ee-991111-01_export.a | 
+libgcc_2.96-ee-001003-1_export.a | 
+libgcc_3.2-beta2-ee-030210_export.a | 
+libgcc_3.2-ee-030926_export.a | 
+libgcc_3.2-ee-040921_export.a | 
 libgcc_common_export.a | 
-libgp.a | 
-libgraph.a | 
-libhig.a | 
-libhip.a | 
-libhttp.a | 
-libhttps.a | 
-libinsck.a | 
-libipu.a | 
+libgp.a | Graphics Processing library
+libgraph.a | Used to control the Graphics Synthesizer (GS)
+libhig.a | High level Graphics library
+libhip.a | Graphic plugin library for HIG
+libipu.a | Low level library for controlling the Image data Processor (IPU)
 libkernl.a | 
 liblout.a | 
 libm_export.a | 
 libmc.a | 
 libmc2.a | 
 libmcx.a | 
-libmpeg.a | 
+libmpeg.a | Library for playback of MPEG2 Video
 libmrpc.a | 
 libmsin.a | 
 libmtap.a | 
-libnet.a | 
-libnetif.a | 
 libpad.a | 
 libpad2.a | 
 libpc.a | 
@@ -82,12 +70,32 @@ libusbkb.a |
 libusbpspcm.a | 
 libvib.a | Used for controlling the vibration of a controller
 libvu0.a | 
-netcnfif.a | 
-netglue_eenet.a | 
+
+
+
+
+## Networking EE Libraries
+
+Name | Description
+--- | ---
+bnnetcnf.a | BB Navigator Network Configuration Library, used for reading the network configuration.
+eenet46.a | HTTP TCP/IP stack for networking
+eenetctl.a | Library for setting up the network
+ent_dump.a | 
+ent_eth.a | Ethernet interface driver paired with ent_eth.irx
+ent_ppp.a | Modem driver paired with ent_ppp.irx
+ent_smap.a | Network interface driver paired with ent_smap.irx
+entctl46.a | 
+libinsck.a | Socket library based on libnet
+libhttp.a | Library for HTTP calls
+libhttps.a | Library for HTTPS calls
+libnet.a | Controls the IOP networking INET library
+libnetif.a | 
+netcnfif.a | Common Network Configuration Interface Library
+netglue_eenet.a | General Purpose Network Wrapper API
 netglue_insck.a | 
 netifmc2.a | 
-ntgui2.a | 
-
+ntgui2.a | GUI library for managing Network Configuration
 
 ## Demo Disc Libraries
 ```
