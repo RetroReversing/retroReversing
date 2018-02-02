@@ -167,3 +167,8 @@ LibSPU2 and LibSND2 seems to have been deprecated.. or maybe just these compiled
 ./iop/gcc/mipsel-scei-elfl/lib/Old/libspu2.a
 ./iop/gcc/mipsel-scei-elfl/lib/Old/libsnd2.a
 ```
+
+## Using radare2 to print functions list
+```
+r2 -qc 'is~FUNC' objectname.o
+```
