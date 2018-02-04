@@ -97,6 +97,21 @@ find . -name "MCMAN.IRX" -print0 | xargs -0 strings | grep -Hn "   272"
 ```
 Replace 2720 with the version number you want, e.g 272 is 2.7.2
 
+# Running PS2 Official SDK under 64-bit ubuntu Linux
+By default the 64-bit version of ubuntu does come with the 32bit libraries that the SDK binaries have been linked to. 
+So when you try to run any of the binaries it gives an error such as:
+```
+iop-gcc: command not found
+```
+
+In order to fix this you need to run the following commands:
+```
+sudo apt-get update; sudo apt-get upgrade; sudo apt-get install ia32-libs
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install lib32z1
+```
+
 # SDK Contents
 
 ## Emotion Engine (EE) Toolchain
