@@ -75,6 +75,27 @@ Ridge Racer V | `Namco` | 4th March 2000 | PS2SDK 1.5.0 | Uses very early SDK
 Bloody Roar 4 | `Hudson Soft, Eighting` | 11th November 2003 | PS2SDK 2.8.0 | Has Renderware SDK 3.5 in DUMMY folder
 Xenosaga Episode II - Jenseits von Gut und Boese (Europe) | `Monolith Soft` | 24th June 2004 | PS2SDK 2.7.1 | No symbols but we can compare to Episode I which does have symbols
 
+# PS2 ELF Format
+
+## Segments
+
+Name | Description
+--- | ---
+.bss | 
+.ctors | Constructors
+.dtors | Destructors
+.data	| 
+.eh_frame	| 
+.jcr	| 
+.rodata | 
+.sdata | 
+.sbss	| 
+.text | 
+abs | 
+extern | 
+LOAD	| 
+
+
 # References
 [^1]: AssemblerGames Forum Topic - https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/
 [^2]: Copy of Nightfire NTSC
