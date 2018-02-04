@@ -81,19 +81,18 @@ Xenosaga Episode II - Jenseits von Gut und Boese (Europe) | `Monolith Soft` | 24
 
 Name | Description
 --- | ---
-.bss | 
+.bss | Contains statically-allocated variables that are not initialized.
 .ctors | Constructors
 .dtors | Destructors
-.data	| 
-.eh_frame	| 
-.jcr	| 
-.rodata | 
-.sdata | 
-.sbss	| 
-.text | 
-abs | 
-extern | 
-LOAD	| 
+.data	| Contains initialized static variables (global variables and static local variables)
+.eh_frame	| Exception Handling (EH) Frame, contains DWARF2 unwind info for exceptions [https://www.airs.com/blog/archives/460] [https://gcc.gnu.org/wiki/Dwarf2EHNewbiesHowto]
+.jcr	| GCJ Java section (gcc always puts this in executables even when not using Java)
+.rodata | Read-only data (constant variable values)
+.sdata | Small initialised Data (MIPS)
+.sbss	| Small uninitialised statically-allocated variables 
+.text | Contains the Code (functions)
+abs | Absolute Symbols
+extern | External Symbols
 
 
 # References
