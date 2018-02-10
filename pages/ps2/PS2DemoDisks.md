@@ -226,6 +226,15 @@ Wakeboarding Unleashed | PS2SDK 2.4.3 | Debug Symbols split over 3 elfs
 
 ---
 
+## Demo Disc 55 - January 2005 SCED_52170
+Game | Ps2 SDK | Debug Info?
+--- | --- | ---
+Mashed | PS2SDK 3.0.1 | **No symbols**, but contains some strings related to c source file location (Physics/Rwp37Active/src/core/context/src/RwpObj.c)
+Mercenaries | PS2SDK 2.7.1 | **No Symbols**, Mentions Indiana Jones as unlockable character in config
+PES4 | PS2SDK 3.0.1 | **No Symbols**, mentions `ADXT`
+Rumble Roses | PS2SDK 3.0.1 | Contains Map file
+Splinter Cell Pandora Tommorrow | PS2 SDK 3.0.0 | **No Symbols**, but contains a few symbol-like strings
+
 
 ## Demo Disc 56 - February 2005 SCED_53122
 
