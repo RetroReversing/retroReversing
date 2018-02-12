@@ -4,8 +4,8 @@ tags:
 - ps1
 - reverseengineering
 title: Playstation 1 Games with Debug Symbols
-thumbnail: /public/consoles/Sony Playstation 1.png
-image: /public/consoles/Sony Playstation 1.png
+thumbnail: /public/consoles/Sony Playstation.png
+image: /public/consoles/Sony Playstation.png
 permalink: /ps1-debug-symbols
 breadcrumbs:
   - name: Home
@@ -15,6 +15,7 @@ breadcrumbs:
   - name: Playstation 1 Games with Debug Symbols
     url: #
 recommend: ps1
+editlink: /ps1/PS1Symbols.md
 ---
 
 I have never seen a PS1 executable bigger than 2mb, normally if they require more code they split it into multiple executables. 
