@@ -36,6 +36,7 @@ Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM
 Divide The Enemies Within | /SYMBOL/GAME.SYM
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM
 Jackie Chan Stuntmaster | /GAME_REL.SYM
+Team Losi RC Racer | /SYMS/NEW.SYM
 
 ---
 
