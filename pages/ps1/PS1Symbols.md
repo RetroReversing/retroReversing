@@ -82,3 +82,4 @@ Other Interesting:
 * JackieChanStuntmaster contains GAME_REL.SYM!!!
 * KnockoutKings contains MAIN.MAP with address name mapping
 * NBA Shoot Out seems to have some source code
+* TwistedMetal Small Brawl may contain a .sym file zipped inside the /CRG/TWG.PSX file due to string "ps1burnPrc2/tmsb.symPK" where PK is the ZIP file header
