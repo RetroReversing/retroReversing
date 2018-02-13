@@ -52,6 +52,10 @@ Brunswick Circuit Pro Bowling 2 | THQB2R.MAP
 Disney's 101 Dalmatians 2 | /DATA/MAIN.MAP
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.MAP
 Knockout Kings | /DATA/MAIN.MAP
+NCAA March Madness | Located inside IGBIN.BIN
+SnoCross Championship Racing | Located inside SNOW.IMG
+True Pinball | Contains PINBALL.MAP but doesn't seem to contain function names
+
 ---
 
 These ones crashed while getting contents:
