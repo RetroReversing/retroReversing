@@ -70,8 +70,10 @@ True Pinball | Contains PINBALL.MAP but doesn't seem to contain function names
 
 ---
 
-These ones crashed while getting contents:
-* CastrolHondaSuperbikeRacing - BIKE.SYM
+# Games with Partial Source Code
+
+* Beatmania Best Hits has a near-final copy of Beatmania 5th Mix's source code [^1]
+
 
 Other Interesting:
 * Disney GoofysFunHouse contains string - "dbugpsx /h /epsx.cpe /m-  psx.sym"
@@ -84,3 +86,6 @@ Other Interesting:
 * KnockoutKings contains MAIN.MAP with address name mapping
 * NBA Shoot Out seems to have some source code
 * TwistedMetal Small Brawl may contain a .sym file zipped inside the /CRG/TWG.PSX file due to string "ps1burnPrc2/tmsb.symPK" where PK is the ZIP file header
+
+# References
+[^1]: https://assemblergames.com/threads/retail-playstation-1-games-with-debug-symbols.68587/#post-965072
