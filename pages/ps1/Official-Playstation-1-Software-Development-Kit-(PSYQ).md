@@ -52,7 +52,9 @@ On the official Cross Products website in 1997 it mentions builds of the SNASM2.
 
 In 1993 we launched Psy-Q with Psygnosis - this second generation product included C source level stepping and breakpointing and was even faster than the original SNasm. We haven't looked back since, we went on to make Psy-Q even faster and more powerful and able to handle even larger projects and we added support for more cpus and target systems.
 
-``` [?]
+``` 
+
+[?]
 
 ### Hardware by SN Systems for Psy-Q debugging
 
