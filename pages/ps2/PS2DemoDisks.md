@@ -226,6 +226,15 @@ Wakeboarding Unleashed | PS2SDK 2.4.3 | Debug Symbols split over 3 elfs
 
 ---
 
+## Demo Disc 53 - January 2005 SCED_52168
+Game | Ps2 SDK | Debug Info?
+Driver 3 | PS2SDK 2.7.0 | Contains animation Data in DRIVER3.IMG
+Sega Superstars | PS2SDK 3.0.0 | Uses boost libraries
+
+## Demo Disc 54 - January 2005 SCED_52169
+Game | Ps2 SDK | Debug Info?
+EyeToy: Play 2 | 3.0.0 | Has .lua script files but no symbols in main elf 
+
 <iframe src="https://archive.org/embed/PlayStation_2_Demo_Disc_SCED-52169_PAL" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 
 ## Demo Disc 55 - January 2005 SCED_52170
