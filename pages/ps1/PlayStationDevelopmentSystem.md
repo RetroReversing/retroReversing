@@ -6,7 +6,6 @@ tags:
 - devkit
 title: Official PlayStation 1 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation.png
-youtube: "y3aKAFafPoc"
 image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
 permalink: /official-playStation-devkit
 breadcrumbs:
@@ -14,15 +13,19 @@ breadcrumbs:
     url: /
   - name: Sony Playstation
     url: /ps1
-  - name: DTL-H2000 Official PlayStation Development System
+  - name: Official PlayStation 1 Development Kit (Hardware)
     url: #
 recommend: ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
+videocarousel:
+  - title: DTL-H2000 Official PlayStation Development System
+    image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
+    youtube: 'y3aKAFafPoc'
+  - title: PS1 Debug Stations
+    image: https://img.youtube.com/vi/mdaavzvAxwA/maxresdefault.jpg
+    youtube: 'mdaavzvAxwA'
 ---
 
-# DTL-H2000
-The video above shows the DTL-H2000 Development unit which slots into the ISA slot of a PC and contains all the hardware on a retail PS1.
-These boards were originally sold only to licensed developers only. 
 
 # MW.3 (Original Prototype Playstation)
 Original Prototype PS1 given to only a few developers called MW.3:
@@ -30,6 +33,10 @@ Original Prototype PS1 given to only a few developers called MW.3:
 
 # Twin ISA Development Kit:
 <img src="/public/magazine/PS1DevKitTwinISA_EDGE_Issue_20.png" />
+
+# DTL-H2000
+The video above shows the DTL-H2000 Development unit which slots into the ISA slot of a PC and contains all the hardware on a retail PS1.
+These boards were originally sold only to licensed developers only. 
 
 # CD Emulator Card
 ```				
