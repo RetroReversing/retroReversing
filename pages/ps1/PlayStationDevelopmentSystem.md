@@ -4,7 +4,7 @@ tags:
 - ps1
 - hardware
 - devkit
-title: DTL-H2000 PlayStation Development System
+title: Official PlayStation 1 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation.png
 youtube: "y3aKAFafPoc"
 image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
@@ -19,12 +19,12 @@ breadcrumbs:
 recommend: ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
 ---
+
+# DTL-H2000
+The video above shows the DTL-H2000 Development unit which slots into the ISA slot of a PC and contains all the hardware on a retail PS1.
 These boards were originally sold only to licensed developers only. 
 
-However, there was a consumer version of a similar device called Net Yaroze which is basically just like a stock PlayStation but the console is painted in Matte Black and comes with a serial link cable to connect the console to your PC and a stripped down version of the PlayStation SDK as well as documentation. 
-
-It was sold mostly to hobbyist programmers as the only way to acquire it was by ordering it through Sony's PlayStation website back in the day... With a hefty price tag of course.
-
+# MW.3 (Original Prototype Playstation)
 Original Prototype PS1 given to only a few developers called MW.3:
 <img src="/public/magazine/PS1OriginalDevKitMW3_EDGE_Issue_20.png" />
 
