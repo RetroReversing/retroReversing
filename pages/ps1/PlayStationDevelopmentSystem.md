@@ -43,3 +43,7 @@ code could be written and tested under simulation without having to repeatedly c
 However, the few di erences between the development kit and a production Playstation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
 ```
 [EDGE issue 20]
+
+# PSY-Q PlayStation Plug-in
+To go along with the PC based development environment, SN Systems also developed a custom plugin for the back of the playstation debug unit. This turns the debug unit into a full development environment!
+
