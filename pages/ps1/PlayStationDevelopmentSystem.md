@@ -47,3 +47,4 @@ However, the few di erences between the development kit and a production Playsta
 # PSY-Q PlayStation Plug-in
 To go along with the PC based development environment, SN Systems also developed a custom plugin for the back of the playstation debug unit. This turns the debug unit into a full development environment!
 
+<img src="/public/magazine/Sn Systems hadrware for Ps1 PsyQ in Next_Generation_Issue_015_March_1996_0083-2.jpg" />
