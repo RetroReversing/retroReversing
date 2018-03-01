@@ -40,6 +40,12 @@ Team Losi RC Racer | /SYMS/NEW.SYM
 Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM
 Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM 
 
+## Demos and Betas with SYM Symbol file
+
+Game Name | Symbol File
+--- | --- 
+Croc (Demo SLED-00038) | /CROC.SYM
+
 ---
 
 # MAP Files 
