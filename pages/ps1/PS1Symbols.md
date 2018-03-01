@@ -47,6 +47,7 @@ Game Name | Symbol File
 --- | --- 
 Croc (Demo SLED-00038) | /CROC.SYM
 Biohazard 2 (Japan) (Beta 2) | /MAIN.SYM
+Wipeout XL (USA) (Beta) | NTSC.SYM
 
 ---
 
