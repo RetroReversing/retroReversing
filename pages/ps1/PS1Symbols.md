@@ -38,6 +38,7 @@ Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM
 Jackie Chan Stuntmaster | /GAME_REL.SYM
 Team Losi RC Racer | /SYMS/NEW.SYM
 Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM
+Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM 
 
 ---
 
