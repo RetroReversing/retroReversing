@@ -47,6 +47,7 @@ Game Name | Symbol File
 --- | --- 
 Croc (Demo SLED-00038) | /CROC.SYM
 Biohazard 2 (Japan) (Beta 2) | /MAIN.SYM
+Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
 Wipeout XL (USA) (Beta) | NTSC.SYM
 
 ---
@@ -77,6 +78,14 @@ Knockout Kings | /DATA/MAIN.MAP
 NCAA March Madness | Located inside IGBIN.BIN
 SnoCross Championship Racing | Located inside SNOW.IMG
 True Pinball | Contains PINBALL.MAP but doesn't seem to contain function names
+
+
+## Demos and Betas with Linker Map file
+
+Game Name | Symbol File
+--- | --- 
+Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.MAP
+
 
 ---
 
