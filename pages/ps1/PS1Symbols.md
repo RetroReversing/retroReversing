@@ -33,18 +33,18 @@ Brunswick Circuit Pro Bowling | THQB2.SYM | Sport | https://www.youtube.com/watc
 Buggy (Europe) (En,Fr,De,Es,It,Pt) | SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=PfBSXU0Sc7s
 Cardinal Syn (Europe) | SYN.SYM | Fighting | https://www.youtube.com/watch?v=xxHyg5JEgSw
 Castrol Honda Superbike Racing | BIKE.SYM | Racing | https://www.youtube.com/watch?v=1-v3kMlJx50
-Crow, The - City of Angels (Europe) | CROW.SYM
-CyberTiger | GOLF.SYM
-Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM
-Divide The Enemies Within | /SYMBOL/GAME.SYM
-Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM
-Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM 
-Fear Effect (Germany) (Disc 1) | FEARPAL.SYM
-Flintstones, The - Bedrock Bowling (Europe) | FLINTR.SYM
-Grid Run (Europe) | SYM/SLES0381.SYM
-Hardcore 4x4 (Europe) (En,Fr,De) | MAIN.SYM
-Hi-Octane (Europe) (En,Fr,De,Es) | MAIN.SYM
-International Moto X (Europe) (En,Fr,De,Es,It,Nl) | PSX.SYM
+Crow, The - City of Angels (Europe) | CROW.SYM | Action | https://www.youtube.com/watch?v=0vDrqQAK5Yk
+CyberTiger | GOLF.SYM | Sport | https://www.youtube.com/watch?v=XxyXU8he-Iw
+Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM | Platformer | https://www.youtube.com/watch?v=SHr2BYzShtE
+Divide The Enemies Within | /SYMBOL/GAME.SYM | Action | https://www.youtube.com/watch?v=H3JE8iuwIog
+Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM | Childrens | https://www.youtube.com/watch?v=UJ6vgxBdoMs
+Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM | Driving | https://www.youtube.com/watch?v=hfEF_z0JfcQ
+Fear Effect (Germany) (Disc 1) | FEARPAL.SYM | Action | https://www.youtube.com/watch?v=rQBnYPnJqYw
+Flintstones, The - Bedrock Bowling (Europe) | FLINTR.SYM | Platformer | https://www.youtube.com/watch?v=EG3a8C4kQfs
+Grid Run (Europe) | SYM/SLES0381.SYM | Platformer | https://www.youtube.com/watch?v=ccPzDlWz-mE
+Hardcore 4x4 (Europe) (En,Fr,De) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=vv99PiwQEWQ
+Hi-Octane (Europe) (En,Fr,De,Es) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=xOEozcuLm-U
+International Moto X (Europe) (En,Fr,De,Es,It,Nl) | PSX.SYM | Racing | https://www.youtube.com/watch?v=oCvHbkQLLWU
 Jackie Chan Stuntmaster | /GAME_REL.SYM
 Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM
 Next Wave Herbst '98 (Germany) | DTK/dtk_menu.sym dtk_stub.sym
