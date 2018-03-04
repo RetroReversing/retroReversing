@@ -66,6 +66,7 @@ Cardinal Syn | Euro Demo 18 (Germany) | SYN/SYN.SYM
 Colin McCrae Rally 2 | Euro Demo 08-00 (Germany) | CMR2/GAMEFLOW.SYM
 Felony 11-79 | Essential PlayStation 7 (Europe) | /FELONY/MAIN.SYM
 O.D.T. | Euro Demo 28 (France) | /ODT/MOVIES.SYM ODT.SYM
+SCARS | PlayStation Zone CD Vol. 8 (Germany) | SCARSPAL.SYM
 TH Pro Skater | Euro Demo 07-00 (Germany) | PROSKATE/MAIN.SYM
 UEFA EURO 2000 | Euro Demo 07-00 (Germany) | EURODEMO/BECODE_Z.SYM E2000_Z.SYM FECODE_Z.SYM
 Soul reaver | Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
