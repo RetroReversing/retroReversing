@@ -48,16 +48,17 @@ Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM
 
 ## Demos and Betas with SYM Symbol file
 
-Game Name | Symbol File
+Game Name | Demo CD | Symbol File
 --- | --- 
-Croc (Demo SLED-00038) | /CROC.SYM
-Biohazard 2 (Japan) (Beta 2) | /MAIN.SYM
-Colin McCrae Rally 2 (Euro Demo 08-00 (Germany)) | CMR2/GAMEFLOW.SYM
-Felony 11-79 (Essential PlayStation 7 (Europe)) | /FELONY/MAIN.SYM
-TH Pro Skater (Euro Demo 07-00 (Germany)) | PROSKATE/MAIN.SYM
-UEFA EURO 2000 (Euro Demo 07-00 (Germany)) | EURODEMO/BECODE_Z.SYM E2000_Z.SYM FECODE_Z.SYM
-Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
-Wipeout XL (USA) (Beta) | NTSC.SYM
+Croc | (Demo SLED-00038) | /CROC.SYM
+Biohazard 2 | Biohazard 2 (Japan) (Beta 2) | /MAIN.SYM
+Cardinal Syn | Euro Demo 18 (Germany) | SYN/SYN.SYM
+Colin McCrae Rally 2 | Euro Demo 08-00 (Germany) | CMR2/GAMEFLOW.SYM
+Felony 11-79 | Essential PlayStation 7 (Europe) | /FELONY/MAIN.SYM
+TH Pro Skater | Euro Demo 07-00 (Germany) | PROSKATE/MAIN.SYM
+UEFA EURO 2000 | Euro Demo 07-00 (Germany) | EURODEMO/BECODE_Z.SYM E2000_Z.SYM FECODE_Z.SYM
+Soul reaver | Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
+Wipeout XL | Wipeout XL (USA) (Beta) | NTSC.SYM
 
 ---
 
