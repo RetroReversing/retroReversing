@@ -40,7 +40,13 @@ Divide The Enemies Within | /SYMBOL/GAME.SYM
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM
 Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM 
 Fear Effect (Germany) (Disc 1) | FEARPAL.SYM
+Flintstones, The - Bedrock Bowling (Europe) | FLINTR.SYM
+Grid Run (Europe) | SYM/SLES0381.SYM
+Hardcore 4x4 (Europe) (En,Fr,De) | MAIN.SYM
+Hi-Octane (Europe) (En,Fr,De,Es) | MAIN.SYM
+International Moto X (Europe) (En,Fr,De,Es,It,Nl) | PSX.SYM
 Jackie Chan Stuntmaster | /GAME_REL.SYM
+Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM
 Team Losi RC Racer | /SYMS/NEW.SYM
 Tomb Raider Chronicles (Unknown build) | MAIN.SYM
 Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin)
@@ -87,6 +93,7 @@ Castrol Honda Superbike Racing | BIKE.MAP
 Disney's 101 Dalmatians 2 | /DATA/MAIN.MAP
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.MAP
 Knockout Kings | /DATA/MAIN.MAP
+Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.MAP
 NCAA March Madness | Located inside IGBIN.BIN
 SnoCross Championship Racing | Located inside SNOW.IMG
 Tomb Raider Chronicles (Unknown build) | MAIN.MAP
