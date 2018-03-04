@@ -27,9 +27,9 @@ However it is possible to find symbols included on the disk in various formats, 
 
 ## Games with SYM Symbol file
 
-Game Name | Symbol File
---- | --- 
-Brunswick Circuit Pro Bowling | THQB2.SYM
+Game Name | Symbol File | Youtube
+--- | --- | ---
+Brunswick Circuit Pro Bowling | THQB2.SYM | https://www.youtube.com/watch?v=2XRmszyyf8Q
 Buggy (Europe) (En,Fr,De,Es,It,Pt) | SYMS/NEW.SYM
 Cardinal Syn (Europe) | SYN.SYM
 Castrol Honda Superbike Racing | BIKE.SYM
