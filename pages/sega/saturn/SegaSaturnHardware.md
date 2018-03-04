@@ -8,7 +8,6 @@ tags:
 - ss
 title: Sega Saturn Hardware Architecture
 thumbnail: /public/consoles/Sega Saturn.png
-youtube: "EF85n86FcPk"
 image: https://img.youtube.com/vi/EF85n86FcPk/maxresdefault.jpg
 permalink: /saturn-architecture
 breadcrumbs:
@@ -21,6 +20,13 @@ breadcrumbs:
 references:
   - youtube
   - edge
+videocarousel:
+  - title: Sega Saturn Teardown
+    image: https://img.youtube.com/vi/H-4HH56_sOY/maxresdefault.jpg
+    youtube: 'H-4HH56_sOY'
+  - title: Sega Saturn Repair
+    image: https://img.youtube.com/vi/EF85n86FcPk/maxresdefault.jpg
+    youtube: 'EF85n86FcPk'
 recommend: sega
 editlink: /sega/saturn/SegaSaturnHardware.md
 ---
