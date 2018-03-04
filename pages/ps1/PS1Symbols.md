@@ -27,12 +27,12 @@ However it is possible to find symbols included on the disk in various formats, 
 
 ## Games with SYM Symbol file
 
-Game Name | Symbol File | Youtube
---- | --- | ---
-Brunswick Circuit Pro Bowling | THQB2.SYM | https://www.youtube.com/watch?v=2XRmszyyf8Q
-Buggy (Europe) (En,Fr,De,Es,It,Pt) | SYMS/NEW.SYM
-Cardinal Syn (Europe) | SYN.SYM
-Castrol Honda Superbike Racing | BIKE.SYM
+Game Name | Symbol File | Genre | Youtube
+--- | --- | --- | ---
+Brunswick Circuit Pro Bowling | THQB2.SYM | Sport | https://www.youtube.com/watch?v=2XRmszyyf8Q
+Buggy (Europe) (En,Fr,De,Es,It,Pt) | SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=PfBSXU0Sc7s
+Cardinal Syn (Europe) | SYN.SYM | Fighting | https://www.youtube.com/watch?v=xxHyg5JEgSw
+Castrol Honda Superbike Racing | BIKE.SYM | Racing | https://www.youtube.com/watch?v=1-v3kMlJx50
 Crow, The - City of Angels (Europe) | CROW.SYM
 CyberTiger | GOLF.SYM
 Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM
