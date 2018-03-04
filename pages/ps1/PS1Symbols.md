@@ -45,15 +45,15 @@ Grid Run (Europe) | SYM/SLES0381.SYM | Platformer | https://www.youtube.com/watc
 Hardcore 4x4 (Europe) (En,Fr,De) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=vv99PiwQEWQ
 Hi-Octane (Europe) (En,Fr,De,Es) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=xOEozcuLm-U
 International Moto X (Europe) (En,Fr,De,Es,It,Nl) | PSX.SYM | Racing | https://www.youtube.com/watch?v=oCvHbkQLLWU
-Jackie Chan Stuntmaster | /GAME_REL.SYM
-Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM
-Next Wave Herbst '98 (Germany) | DTK/dtk_menu.sym dtk_stub.sym
-NHL Powerplay (Europe) | SYM/front.sym game.sym psx.sym runfront.sym rungame.sym
-Nuclear Strike (Europe) | DATA/DELTA.SYM dmz.sym e3demo.sym
-Team Losi RC Racer (US version of Buggy) | /SYMS/NEW.SYM
-Tomb Raider Chronicles (Unknown build) | MAIN.SYM
-Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin)
-Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM
+Jackie Chan Stuntmaster | /GAME_REL.SYM | Action | https://www.youtube.com/watch?v=OxQ0Pr-NlGQ
+Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM | Action | https://www.youtube.com/watch?v=lz9HtrZc9Gk
+Next Wave Herbst '98 (Germany) | DTK/dtk_menu.sym dtk_stub.sym | Unknown (Demo?) | Unknown
+NHL Powerplay (Europe) | SYM/front.sym game.sym psx.sym runfront.sym rungame.sym | Sport | https://www.youtube.com/watch?v=Zx2o5OoSCx0
+Nuclear Strike (Europe) | DATA/DELTA.SYM dmz.sym e3demo.sym | Shooter | https://www.youtube.com/watch?v=P33C7GjY3nU
+Team Losi RC Racer (US version of Buggy) | /SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=tH2CYEj3uZI
+Tomb Raider Chronicles (Unknown build) | MAIN.SYM | Action | https://www.youtube.com/watch?v=KbV7dZ8xJfI
+Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin) | Racing | https://www.youtube.com/watch?v=rJNHwyjKu6o
+Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM | Quiz | https://www.youtube.com/watch?v=IwuwbxV4pGw
 
 
 ## Demos and Betas with SYM Symbol file
