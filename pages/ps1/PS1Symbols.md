@@ -50,7 +50,7 @@ Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM
 Next Wave Herbst '98 (Germany) | DTK/dtk_menu.sym dtk_stub.sym
 NHL Powerplay (Europe) | SYM/front.sym game.sym psx.sym runfront.sym rungame.sym
 Nuclear Strike (Europe) | DATA/DELTA.SYM dmz.sym e3demo.sym
-Team Losi RC Racer | /SYMS/NEW.SYM
+Team Losi RC Racer (US version of Buggy) | /SYMS/NEW.SYM
 Tomb Raider Chronicles (Unknown build) | MAIN.SYM
 Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin)
 Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM
