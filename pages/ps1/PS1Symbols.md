@@ -127,6 +127,7 @@ Other Interesting:
 * Frogger2 seems to contain Makefiles
 * JackieChanStuntmaster contains GAME_REL.SYM!!!
 * KnockoutKings contains MAIN.MAP with address name mapping
+* NASCAR 2001 contains some references to source files in the executable SLUS_012.63
 * NBA Shoot Out seems to have some source code
 * VIP Demo (SCES-00236) Seems to contain a makefile
 
