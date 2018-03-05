@@ -128,7 +128,7 @@ Other Interesting:
 * JackieChanStuntmaster contains GAME_REL.SYM!!!
 * KnockoutKings contains MAIN.MAP with address name mapping
 * NBA Shoot Out seems to have some source code
-* TwistedMetal Small Brawl may contain a .sym file zipped inside the /CRG/TWG.PSX file due to string "ps1burnPrc2/tmsb.symPK" where PK is the ZIP file header
+* VIP Demo (SCES-00236) Seems to contain a makefile
 
 # References
 [^1]: https://assemblergames.com/threads/retail-playstation-1-games-with-debug-symbols.68587/#post-965072
