@@ -47,14 +47,24 @@ Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM | Driving | https://www.youtube
 Fear Effect (Germany) (Disc 1) | FEARPAL.SYM | Action | https://www.youtube.com/watch?v=rQBnYPnJqYw
 Flintstones, The - Bedrock Bowling (Europe) | FLINTR.SYM | Platformer | https://www.youtube.com/watch?v=EG3a8C4kQfs
 Grid Run (Europe) | SYM/SLES0381.SYM | Platformer | https://www.youtube.com/watch?v=ccPzDlWz-mE
+Grid Runner (Japan) | SYM_SLPS0659.SYM | Platformer | 
 Hardcore 4x4 (Europe) (En,Fr,De) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=vv99PiwQEWQ
 Hi-Octane (Europe) (En,Fr,De,Es) | MAIN.SYM | Racing | https://www.youtube.com/watch?v=xOEozcuLm-U
+Idol Promotion - Suzuki Yumie (Japan) (Yumie Island) | TEST/JANKEN/MAIN.SYM | | 
+Indy 500 (Japan) | INDY500.SYM | | 
 International Moto X (Europe) (En,Fr,De,Es,It,Nl) | PSX.SYM | Racing | https://www.youtube.com/watch?v=oCvHbkQLLWU
+Kidou Senshi Gundam - Gihren no Yabou - Zeon no Keifu - Kimitsu Eizou Disc Tokubetsu Hen (Japan) | TAIKEN3/TAIKEN3.SYM | | 
+Kyuu Bakukku (Japan) | CUBE.SYM | | 
 Jackie Chan Stuntmaster | /GAME_REL.SYM | Action | https://www.youtube.com/watch?v=OxQ0Pr-NlGQ
 Legacy of Kain - Soul Reaver (Germany) | DEBUG/NTSC/KAIN2.SYM | Action | https://www.youtube.com/watch?v=lz9HtrZc9Gk
+MDK (Japan) | MAIN.SYM | | 
 Next Wave Herbst '98 (Germany) | DTK/dtk_menu.sym dtk_stub.sym | Unknown (Demo?) | Unknown
 NHL Powerplay (Europe) | SYM/front.sym game.sym psx.sym runfront.sym rungame.sym | Sport | https://www.youtube.com/watch?v=Zx2o5OoSCx0
 Nuclear Strike (Europe) | DATA/DELTA.SYM dmz.sym e3demo.sym | Shooter | https://www.youtube.com/watch?v=P33C7GjY3nU
+Ore no Shikabane wo Koete Yuke (Japan) | ORECD_MAIN.SYM | | 
+PrePre Vol. 6 (Japan) | STRIKE_DATA_CRIMEA.SYM | | 
+RC Revenge (Europe) (En,Fr,De,Es) | release.sym | Racing | 
+Re-Loaded (Europe) (En,Fr,De) | relpal.sym | | 
 Team Losi RC Racer (US version of Buggy) | /SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=tH2CYEj3uZI
 Tomb Raider Chronicles (Unknown build) | MAIN.SYM | Action | https://www.youtube.com/watch?v=KbV7dZ8xJfI
 Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin) | Racing | https://www.youtube.com/watch?v=rJNHwyjKu6o
@@ -70,6 +80,7 @@ Biohazard 2 | Biohazard 2 (Japan) (Beta 2) | /MAIN.SYM
 Cardinal Syn | Euro Demo 18 (Germany) | SYN/SYN.SYM
 Colin McCrae Rally 2 | Euro Demo 08-00 (Germany) | CMR2/GAMEFLOW.SYM
 Felony 11-79 | Essential PlayStation 7 (Europe) | /FELONY/MAIN.SYM
+Granstream Denki | Granstream Denki (Japan) (Demo) | GS/P/MAIN.SYM
 O.D.T. | Euro Demo 28 (France) | /ODT/MOVIES.SYM ODT.SYM
 SCARS | PlayStation Zone CD Vol. 8 (Germany) | SCARSPAL.SYM
 TH Pro Skater | Euro Demo 07-00 (Germany) | PROSKATE/MAIN.SYM
