@@ -65,8 +65,12 @@ Ore no Shikabane wo Koete Yuke (Japan) | ORECD_MAIN.SYM | |
 PrePre Vol. 6 (Japan) | STRIKE_DATA_CRIMEA.SYM | | 
 RC Revenge (Europe) (En,Fr,De,Es) | release.sym | Racing | 
 Re-Loaded (Europe) (En,Fr,De) | relpal.sym | | 
+Soccer '97 (Europe) | olysocc.sym | | 
+Syndicate Wars (Germany) | main.sym | | 
 Team Losi RC Racer (US version of Buggy) | /SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=tH2CYEj3uZI
+Tiger Woods PGA Tour 2000 (Europe) (En,Fr,De,Es,Sv) | golfcd_a.sym | Sport | 
 Tomb Raider Chronicles (Unknown build) | MAIN.SYM | Action | https://www.youtube.com/watch?v=KbV7dZ8xJfI
+True Pinball (Europe) | pinball.sym | Sport | 
 Twisted Metal Small Brawl | tmsb.sym (inside ZDUMMY.bin) | Racing | https://www.youtube.com/watch?v=rJNHwyjKu6o
 Who Wants to Be a Millionaire 3rd Edition | /MIL3.SYM | Quiz | https://www.youtube.com/watch?v=IwuwbxV4pGw
 
