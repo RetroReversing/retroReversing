@@ -29,15 +29,20 @@ However it is possible to find symbols included on the disk in various formats, 
 
 Game Name | Symbol File | Genre | Youtube
 --- | --- | --- | ---
+AirAssault - The Red Mercury Missions (Japan) | PSX.SYM | | 
 Brunswick Circuit Pro Bowling | THQB2.SYM | Sport | https://www.youtube.com/watch?v=2XRmszyyf8Q
 Buggy (Europe) (En,Fr,De,Es,It,Pt) | SYMS/NEW.SYM | Racing | https://www.youtube.com/watch?v=PfBSXU0Sc7s
 Cardinal Syn (Europe) | SYN.SYM | Fighting | https://www.youtube.com/watch?v=xxHyg5JEgSw
 Castrol Honda Superbike Racing | BIKE.SYM | Racing | https://www.youtube.com/watch?v=1-v3kMlJx50
 Crow, The - City of Angels (Europe) | CROW.SYM | Action | https://www.youtube.com/watch?v=0vDrqQAK5Yk
 CyberTiger | GOLF.SYM | Sport | https://www.youtube.com/watch?v=XxyXU8he-Iw
+Deka Yonku - Tough the Truck (Japan) | MAIN.SYM | | 
+Destruction Derby (Japan) | DEMOLISH.SYM | Racing | 
+Diablo (Japan) | DIABPSX.SYM | Action | 
 Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM | Platformer | https://www.youtube.com/watch?v=SHr2BYzShtE
 Divide The Enemies Within | /SYMBOL/GAME.SYM | Action | https://www.youtube.com/watch?v=H3JE8iuwIog
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.SYM | Childrens | https://www.youtube.com/watch?v=UJ6vgxBdoMs
+Dragon Quest Characters - Torneko no Daibouken 2 - Fushigi no Dungeon (Japan) | FPS.SYM | | 
 Driver 2 (Spanish Version Disc 1) | /SPANISH.SYM | Driving | https://www.youtube.com/watch?v=hfEF_z0JfcQ
 Fear Effect (Germany) (Disc 1) | FEARPAL.SYM | Action | https://www.youtube.com/watch?v=rQBnYPnJqYw
 Flintstones, The - Bedrock Bowling (Europe) | FLINTR.SYM | Platformer | https://www.youtube.com/watch?v=EG3a8C4kQfs
@@ -71,6 +76,7 @@ TH Pro Skater | Euro Demo 07-00 (Germany) | PROSKATE/MAIN.SYM
 UEFA EURO 2000 | Euro Demo 07-00 (Germany) | EURODEMO/BECODE_Z.SYM E2000_Z.SYM FECODE_Z.SYM
 Soul reaver | Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
 Wipeout XL | Wipeout XL (USA) (Beta) | NTSC.SYM
+DemoDemo Vol. 12 (Japan) | DemoDemo Vol. 12 (Japan) | MAIN.SYM
 
 ---
 
