@@ -121,6 +121,7 @@ Game Name | Map File
 --- | --- 
 Brunswick Circuit Pro Bowling 2 | THQB2R.MAP
 Castrol Honda Superbike Racing | BIKE.MAP
+Diablo (Japan) | /DIABPSX.MAP
 Disney's 101 Dalmatians 2 | /DATA/MAIN.MAP
 Dora the Explorer - Barnyard Buddies | /DATA/MAIN.MAP
 Knockout Kings | /DATA/MAIN.MAP
@@ -133,9 +134,11 @@ True Pinball | Contains PINBALL.MAP but doesn't seem to contain function names
 
 ## Demos and Betas with Linker Map file
 
-Game Name | Symbol File
+Game Name | Demo CD | Symbol File
 --- | --- 
-Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.MAP
+Colin McCrae Rally 2 | Euro Demo 08-00 (Germany) | /CMR2/GAMEFLOW.MAP
+Soul reaver | SLES-02024 | /DEBUG/NTSC/KAIN2.MAP
+
 
 
 ---
