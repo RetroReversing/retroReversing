@@ -188,6 +188,12 @@ I'm guessing this could be caused by:
 * Corrupt cpppsx.exe
 * An issue with Wine (would upgrading fix it?)
 
+```
+winevdm: Cannot start DOS application Z:\Psyq\bin\CPPPSX.EXE
+         because the DOS memory range is unavailable.
+         You should install DOSBox.
+```
+
 ## Error - can't read 'sn.ini' or 'psyq.ini' config files - stopping.
 Make sure you have a file called PSYQ.INI in the bin directory and that you have not renamed it etc.
 
