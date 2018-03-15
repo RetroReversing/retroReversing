@@ -176,12 +176,19 @@ CCPSX.EXE HELLO.C
 pause
 ```
 
+You should now be able to run this in the terminal like so:
+```bash
+wineconsole hello32.bat
+```
+
 ## Error : could not execute cpppsx
 Sadly i'm not sure how to fix this error, this only happens on the 32bit version of the compilers, so if you get this error try the 16-bit version below.
 I'm guessing this could be caused by:
 * Incorrect path (it can't find cpppsx.exe) but then why can it find it in the 16bit version
 * Corrupt cpppsx.exe
 * An issue with Wine (would upgrading fix it?)
+
+## Error - can't read 'sn.ini' or 'psyq.ini' config files - stopping.
 
 # 16-bit compilers using DOSBox
 If you can't get the 32-bit compilers to work there is another option, the PSYQ SDK comes with 16-bit versions of the compilers built for DOS that we can emulate in DOSBOX.
