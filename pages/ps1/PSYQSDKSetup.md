@@ -155,11 +155,39 @@ void display()
 # 32-bit compilers using Wine
 You can run the 32-bit compilers built for windows through WINE on Mac and Linux.
 
+Create a new batch (`hello32.bat`) file in the same folder as `hello.c` you created previously with the following contents:
+```batch
+REM ================= PSX DEVELOPMENT ENVIRONMENT VARIABLES =============
+REM       RELEASE 1.8 LIBRARY 3.6.1 Date: 1-31-1998 Time: 21:38:44
+set PATH=C:\Psyq\bin;
+set PSX_PATH=C:\Psyq\bin
+set LIBRARY_PATH=C:\Psyq\lib
+set C_PLUS_INCLUDE_PATH=C:\Psyq\include
+set C_INCLUDE_PATH=C:\Psyq\include
+set PSYQ_PATH=C:\Psyq\bin
+
+set COMPILER_PATH=C:\Psyq\bin
+set GO32=DPMISTACK 1000000 
+set G032TMP=C:\TEMP
+set TMPDIR=C:\TEMP
+ 
+CCPSX.EXE HELLO.C
+  
+pause
+```
+
+## Error : could not execute cpppsx
+Sadly i'm not sure how to fix this error, this only happens on the 32bit version of the compilers, so if you get this error try the 16-bit version below.
+I'm guessing this could be caused by:
+* Incorrect path (it can't find cpppsx.exe) but then why can it find it in the 16bit version
+* Corrupt cpppsx.exe
+* An issue with Wine (would upgrading fix it?)
+
 # 16-bit compilers using DOSBox
 If you can't get the 32-bit compilers to work there is another option, the PSYQ SDK comes with 16-bit versions of the compilers built for DOS that we can emulate in DOSBOX.
 The 16-bit executables are located in the psyq folder which is located at the same level as the bin directory.
 
-Create a new batch (`hello.bat`) file in the same folder as `hello.c` you created previously with the following contents:
+Create a new batch (`hello16.bat`) file in the same folder as `hello.c` you created previously with the following contents:
 ```batch
 REM ================= PSX DEVELOPMENT ENVIRONMENT VARIABLES =============
 REM       RELEASE 1.8 LIBRARY 3.6.1 Date: 1-31-1998 Time: 21:38:44
