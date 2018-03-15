@@ -189,6 +189,7 @@ I'm guessing this could be caused by:
 * An issue with Wine (would upgrading fix it?)
 
 ## Error - can't read 'sn.ini' or 'psyq.ini' config files - stopping.
+Make sure you have a file called PSYQ.INI in the bin directory and that you have not renamed it etc.
 
 # 16-bit compilers using DOSBox
 If you can't get the 32-bit compilers to work there is another option, the PSYQ SDK comes with 16-bit versions of the compilers built for DOS that we can emulate in DOSBOX.
