@@ -223,3 +223,35 @@ pause
 ```
 Now right click this file and select open with DOSBOX which will run the batch script and leave you at a new command prompt in DOS. If everything went successfuly you will notice a generated file called A.OUT.
 
+
+# TOMB5 Example
+Tomb Raider 5 (Chronicles) reversing project. It uses a modern version of make with the original PSYQ compilers so you can't run it through PSYMAKE.
+In order to get this to run on MacOSX and Linux I needed to create a windows .bat file to wrap around the `cc1psx.exe` file so that we can run it in wineconsole with all the paths already setup.
+So create a new file called cc1psx.bat with the following contents:
+```bat
+REM ================= PSX DEVELOPMENT ENVIRONMENT VARIABLES =============
+REM       RELEASE 1.8 LIBRARY 3.6.1 Date: 1-31-1998 Time: 21:38:44
+set PATH=Z:\Psyq\bin;
+set PSX_PATH=Z:\Psyq\bin
+set LIBRARY_PATH=Z:\Psyq\lib
+set C_PLUS_INCLUDE_PATH=Z:\Psyq\include
+set C_INCLUDE_PATH=Z:\Psyq\include
+set PSYQ_PATH=Z:\Psyq\bin
+
+set COMPILER_PATH=Z:\Psyq\bin
+set GO32=DPMISTACK 1000000 
+set G032TMP=Z:\TEMP
+set TMPDIR=Z:\TEMP
+
+CCPSX.EXE %*
+```
+Replace the path with the directory of your Psyq installation, I found it was easier to experiment running commands with `wineconsole cmd` to make sure all the paths are valid.
+
+Now we can edit the `Makefile` so that we can replace:
+```
+CC         = ccpsx
+```
+with:
+```
+CC         = wineconsole ./bin/cc1psx.bat
+```
