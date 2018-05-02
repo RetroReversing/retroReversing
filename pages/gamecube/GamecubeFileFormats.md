@@ -21,4 +21,6 @@ editlink: /gamecube/GamecubeFileFormats.md.md
 
 Extension | Description
 --- | ---
-.GSF | Sound file
+.GSF | Sound File
+.SNI | Sound File
+.ZSD | Sound File
