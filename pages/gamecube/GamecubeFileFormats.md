@@ -22,5 +22,5 @@ editlink: /gamecube/GamecubeFileFormats.md.md
 Extension | Description
 --- | ---
 .GSF | Sound File
-.SNI | Sound File
+.SNI | Sound Include file (Source file) (007 Agent Under Fire)
 .ZSD | Sound File
