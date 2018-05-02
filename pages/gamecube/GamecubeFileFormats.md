@@ -24,3 +24,6 @@ Extension | Description
 .GSF | Sound File
 .SNI | Sound Include file (Source file) (007 Agent Under Fire)
 .ZSD | Sound File
+.h4m | Movie File
+.thp | Movie File
+.bmd | 3D Model
