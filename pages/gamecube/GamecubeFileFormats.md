@@ -26,4 +26,5 @@ Extension | Description
 .ZSD | Sound File
 .h4m | Movie File
 .thp | Movie File
+.mpc | Movie File (007 Agent Under Fire)
 .bmd | 3D Model
