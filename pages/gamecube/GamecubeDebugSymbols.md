@@ -34,9 +34,10 @@ You can normally see the symbols by opening in a dissasembler such as Radare2 or
 
 Game Name | Elf File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
-Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | 10,416 | Platformer | 
-Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | 13,931 | Action | 
-Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | 7,951 | Action | 
+Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
+Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
+Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
+Frogger Beyond | Frogger.elf | **4,561** | Action | 
 
 # Link Maps
 Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in Final Fantasy Crystal Chronicals.
