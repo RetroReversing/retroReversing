@@ -28,3 +28,14 @@ Extension | Description
 .thp | Movie File
 .mpc | Movie File (007 Agent Under Fire)
 .bmd | 3D Model
+.tgc | Demo/Embedded GCM file
+
+.TGC File Format
+Documentation: 
+
+# Games which have TGC files (Mostly demos):
+
+Game | Description
+--- | ---
+Animal Crossing | orest_Eng_Final_PAL50.tgc - Whats the purpose?
+
