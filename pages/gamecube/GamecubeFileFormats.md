@@ -40,6 +40,7 @@ Game | Description
 Animal Crossing | orest_Eng_Final_PAL50.tgc - Whats the purpose?
 Interactive Multi-Game Demo Disk - [September 2002-April 2006] | Each demo is in its own .TGC file
 Resident Evil 4 Samplers | Contains demos of other games such as zz_metroidprime2.tgc
+Star Wars - Rogue Squadron III - Rebel Strike (Demo) | Contains demos of other games e.g 0_gladius_video.pal.tgc, zz_r3_kiosk.pal.tgc
 
 # .FPK (FPack) File Format
 More information: http://www.emutalk.net/threads/33945-Naruto-fpk-format
