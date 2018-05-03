@@ -32,7 +32,7 @@ You can normally see the symbols by opening in a dissasembler such as Radare2 or
 
 ## ELF Executables with Debug Symbols
 
-Game Name | Elf File | Genre | Youtube
---- | --- | --- | ---
-Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | Platformer | 
+Game Name | Elf File | Number of Symbols | Genre | Youtube
+--- | --- | --- | --- | ---
+Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | 10,416 | Platformer | 
 
