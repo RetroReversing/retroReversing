@@ -38,3 +38,9 @@ Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | 10,416 | Platf
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | 13,931 | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | 7,951 | Action | 
 
+# Link Maps
+Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in Final Fantasy Crystal Chronicals.
+
+Game Name | Map File | Number of Symbols | Genre | Youtube
+--- | --- | --- | --- | ---
+Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG | 
