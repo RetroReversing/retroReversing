@@ -30,12 +30,21 @@ Extension | Description
 .bmd | 3D Model
 .tgc | Demo/Embedded GCM file
 
-.TGC File Format
+# .TGC File Format
 Documentation: 
 
-# Games which have TGC files (Mostly demos):
+## Games which have TGC files (Mostly demos):
 
 Game | Description
 --- | ---
 Animal Crossing | orest_Eng_Final_PAL50.tgc - Whats the purpose?
 
+# .FPK (FPack) File Format
+More information: http://www.emutalk.net/threads/33945-Naruto-fpk-format
+
+## Games which have FPK files:
+
+Game | Description
+--- | ---
+Bloody Roar - Primal Fury | Many FPK files in a fpack directory
+Naruto | http://www.emutalk.net/threads/33945-Naruto-fpk-format
