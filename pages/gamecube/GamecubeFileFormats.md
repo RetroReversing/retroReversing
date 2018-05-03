@@ -38,6 +38,7 @@ Documentation:
 Game | Description
 --- | ---
 Animal Crossing | orest_Eng_Final_PAL50.tgc - Whats the purpose?
+Interactive Multi-Game Demo Disk - [September 2002-April 2006] | Each demo is in its own .TGC file
 
 # .FPK (FPack) File Format
 More information: http://www.emutalk.net/threads/33945-Naruto-fpk-format
