@@ -52,6 +52,6 @@ Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG |
 
 # Prototype Games with Debug Symbols
 
-Game Name | Map File | Number of Symbols | Genre | Youtube
+Game Name | Map File | Number of Symbols | Genre | Notes
 --- | --- | --- | --- | ---
-NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | 
+NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
