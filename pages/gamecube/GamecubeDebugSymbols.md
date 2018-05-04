@@ -42,12 +42,18 @@ Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 
-# Link Maps
-Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in Final Fantasy Crystal Chronicals.
+# Link Maps (.MAP files)
+Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in retail games such as Animal Crossing and Final Fantasy Crystal Chronicals.
+One good way of finding these is to do a string search of the GCM ISO files for ".text section layout".
 
 Game Name | Map File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
+Animal Crossing (Australia) | foresta.map and static.map | ??? | RPG | 
+FIFA Football 2005 (United Kingdom) | fifa_z.map | ??? | Sport | 
 Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG | 
+Hot Wheels - World Race (United Kingdom) | HotwheelsFCDpal.MAP | ? | Racing | 
+Jeremy McGrath Supercross World | sx2002.MAP | ? | Sport | 
+
 
 
 # Prototype Games with Debug Symbols
@@ -55,3 +61,7 @@ Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG |
 Game Name | Map File | Number of Symbols | Genre | Notes
 --- | --- | --- | --- | ---
 NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
+
+# Other Notes
+
+Mario Kart - Double Dash!! contains a file called debugInfoS.MAP which would have presumably contained debug symbols but sadly it doesn't contain any data (nulled with 0-bytes).
