@@ -67,3 +67,5 @@ NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604*
 # Other Notes
 
 Mario Kart - Double Dash!! contains a file called debugInfoS.MAP which would have presumably contained debug symbols but sadly it doesn't contain any data (nulled with 0-bytes).
+
+Pikmin2 has a file called `pikmin2*P.MAP` which could be a compressed or encrypted debugger map file, but thats mainly a guess because the previous Pikmin has a plain-text debugger .MAP file. The * depends the Region U for US, P for PAL and J for Japan
