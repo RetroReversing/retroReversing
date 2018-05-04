@@ -53,6 +53,7 @@ FIFA Football 2005 (United Kingdom) | fifa_z.map | ??? | Sport |
 Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG | 
 Hot Wheels - World Race (United Kingdom) | HotwheelsFCDpal.MAP | ? | Racing | 
 Jeremy McGrath Supercross World | sx2002.MAP | ? | Sport | 
+Mario Smash Football | MarioSoccerD.MAP, MarioSoccerP.MAP, MarioSoccerR.MAP, MarioSoccerZ.MAP | ?? | Sport | 
 
 
 
