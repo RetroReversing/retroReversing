@@ -48,3 +48,10 @@ Many Interactive Demo Discs contain link maps which are files that the linker ge
 Game Name | Map File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
 Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG | 
+
+
+# Prototype Games with Debug Symbols
+
+Game Name | Map File | Number of Symbols | Genre | Youtube
+--- | --- | --- | --- | ---
+NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | 
