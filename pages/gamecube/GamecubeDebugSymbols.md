@@ -49,10 +49,12 @@ One good way of finding these is to do a string search of the GCM ISO files for 
 Game Name | Map File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
 Animal Crossing (Australia) | foresta.map and static.map | ??? | RPG | 
+Bratz - Forever Diamondz (United Kingdom) | Bratz_Gamecube Master Fast Build.MAP | ??? | ??? | 
 FIFA Football 2005 (United Kingdom) | fifa_z.map | ??? | Sport | 
 Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG | 
 Hot Wheels - World Race (United Kingdom) | HotwheelsFCDpal.MAP | ? | Racing | 
 Jeremy McGrath Supercross World | sx2002.MAP | ? | Sport | 
+Legend of Zelda, The - The Wind Waker (Korea) | f_pc_profile_lst.MAP plus others | ?? | Action | 
 Mario Smash Football | MarioSoccerD.MAP, MarioSoccerP.MAP, MarioSoccerR.MAP, MarioSoccerZ.MAP | ?? | Sport | 
 Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2) | BobTak2_German_Disc2.MAP | ?? | ? | 
 Pikmin | build.MAP | ?? | God game | 
