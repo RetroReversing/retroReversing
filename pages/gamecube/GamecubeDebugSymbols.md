@@ -55,6 +55,7 @@ Final Fantasy - Crystal Chronicles | dvd/map/stg009/game.MAP | ? | RPG |
 Hot Wheels - World Race (United Kingdom) | HotwheelsFCDpal.MAP | ? | Racing | 
 Jeremy McGrath Supercross World | sx2002.MAP | ? | Sport | 
 Legend of Zelda, The - The Wind Waker (Korea) | f_pc_profile_lst.MAP plus others | ?? | Action | 
+Mario Kart - Double Dash!! | debugInfoS.MAP | ?? | Racing | 
 Mario Smash Football | MarioSoccerD.MAP, MarioSoccerP.MAP, MarioSoccerR.MAP, MarioSoccerZ.MAP | ?? | Sport | 
 Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2) | BobTak2_German_Disc2.MAP | ?? | ? | 
 Pikmin | build.MAP | ?? | God game | 
@@ -71,8 +72,6 @@ Game Name | Map File | Number of Symbols | Genre | Notes
 NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
 
 # Other Notes
-
-Mario Kart - Double Dash!! contains a file called debugInfoS.MAP which would have presumably contained debug symbols but sadly it doesn't contain any data (nulled with 0-bytes).
 
 The Sims 2 Also has multiple .MAP files which have been nulled with 0-bytes.
 
