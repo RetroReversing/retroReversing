@@ -63,6 +63,7 @@ Scooby-Doo! Mystery Mayhem (United Kingdom) | engine_ret.MAP | ?? | Action |
 Super Mario Sunshine | marioEU.MAP | ?? | Platformer | 
 UEFA Champions League 2004-2005 (United Kingdom) | fifa_z.MAP | ?? | Sport | 
 Ultimate Spider-Man | symbolgc-final.MAP | ?? | Action | 
+Zelda no Densetsu - Twilight Princess (Japan) | frameworkF.MAP | ?? | Action | 
 
 
 # Prototype Games with Debug Symbols
