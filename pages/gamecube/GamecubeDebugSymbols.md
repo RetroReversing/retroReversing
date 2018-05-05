@@ -56,6 +56,7 @@ Jeremy McGrath Supercross World | sx2002.MAP | ? | Sport |
 Mario Smash Football | MarioSoccerD.MAP, MarioSoccerP.MAP, MarioSoccerR.MAP, MarioSoccerZ.MAP | ?? | Sport | 
 Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2) | BobTak2_German_Disc2.MAP | ?? | ? | 
 Pikmin | build.MAP | ?? | God game | 
+Ultimate Spider-Man | symbolgcfinal.MAP | ?? | Action | 
 
 
 # Prototype Games with Debug Symbols
