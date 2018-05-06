@@ -45,6 +45,7 @@ Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-per
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
+Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
 Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **10,162** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
