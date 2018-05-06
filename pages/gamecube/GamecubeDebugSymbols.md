@@ -36,7 +36,7 @@ Game Name | Elf File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
 007 - Agent Under Fire | Bond.elf | **8,519** | Action | 
 007 - Everything or Nothing | boot.elf | **822** | Action | 
-Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
+Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan) | crashwoc.elf | **2,684** | Platformer | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
 Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
@@ -46,6 +46,7 @@ Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watc
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
+Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
 Namco Museum 50th Anniversary | ffe.elf | **4,979** | Retro | 
