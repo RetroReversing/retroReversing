@@ -49,6 +49,7 @@ Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action 
 Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **10,162** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
+ZooCube (Japan) | ZooCube.elf | **8,167** | ? | 
 
 # Link Maps (.MAP files)
 Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in retail games such as Animal Crossing and Final Fantasy Crystal Chronicals.
