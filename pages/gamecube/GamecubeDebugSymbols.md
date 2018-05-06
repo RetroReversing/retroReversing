@@ -45,6 +45,7 @@ Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan) | crashwoc.elf | **2,684** | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
 Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
+Fairly OddParents, The - Breakin' da Rules (USA) | Gamecube.elf | **13,828** | |
 Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
