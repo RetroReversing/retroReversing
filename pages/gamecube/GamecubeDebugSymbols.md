@@ -58,6 +58,7 @@ Namco Museum 50th Anniversary | ffe.elf | **4,979** | Retro |
 Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **10,162** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
+SX Superstar | Supercross.elf | **7,552** | Sport | 
 Tetris Worlds (Japan) | TWgr.elf | **7,252** | Puzzle | 
 UFC - Throwdown | GCNDefault.elf | **2,648** | Fighting | 
 ZooCube (Japan) | ZooCube.elf | **8,167** | ? | 
