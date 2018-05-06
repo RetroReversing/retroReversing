@@ -53,6 +53,7 @@ Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
 Tetris Worlds (Japan) | TWgr.elf | **7,252** | Puzzle | 
+UFC - Throwdown | GCNDefault.elf | **2,648** | Fighting | 
 ZooCube (Japan) | ZooCube.elf | **8,167** | ? | 
 
 # Link Maps (.MAP files)
