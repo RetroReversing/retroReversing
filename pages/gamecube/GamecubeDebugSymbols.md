@@ -48,6 +48,7 @@ Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
 Fairly OddParents, The - Breakin' da Rules (USA) | Gamecube.elf | **13,828** | |
 Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
+Freestyle Metal X (USA) | FMX_CUBE_Publisher.elf | **5,836** | | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
