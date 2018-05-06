@@ -48,6 +48,7 @@ Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Dem
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
+Namco Museum 50th Anniversary | ffe.elf | **4,979** | Retro | 
 Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **10,162** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
