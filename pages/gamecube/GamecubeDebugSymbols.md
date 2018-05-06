@@ -44,6 +44,7 @@ Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
+Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
