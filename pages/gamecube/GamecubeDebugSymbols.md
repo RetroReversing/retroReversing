@@ -51,6 +51,7 @@ Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-per
 Freestyle Metal X (USA) | FMX_CUBE_Publisher.elf | **5,836** | | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
+Hudson Selection Vol. 4 - Takahashi-Meijin no Boukenjima (Japan) | huos.elf | **2,298** | | 
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
 Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
