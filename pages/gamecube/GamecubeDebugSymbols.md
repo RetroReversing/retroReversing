@@ -36,6 +36,11 @@ Game Name | Elf File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
 007 - Agent Under Fire | Bond.elf | **8,519** | Action | 
 007 - Everything or Nothing | boot.elf | **822** | Action | 
+Bakuten Shoot Beyblade 2002 - Nettou! Magne Tag Battle! (Japan) | main.elf | **1,921** | Action | 
+Beyblade VForce - Super Tournament Battle | main.elf | **2,207** | Action | 
+Big Air Freestyle | LoadAndParseELF.elf | **5,456** | Sport | 
+Black & Bruised | GCNDefault.elf | **3,762** | ? | 
+BloodRayne (United Kingdom) | Bloodrayne.elf | **4,340** | Action | 
 Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan) | crashwoc.elf | **2,684** | Platformer | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
