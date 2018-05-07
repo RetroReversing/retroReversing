@@ -54,6 +54,7 @@ Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (2
 Hudson Selection Vol. 4 - Takahashi-Meijin no Boukenjima (Japan) | huos.elf | **2,298** | | 
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
 Kao the Kangaroo - Round 2 (USA) | kao2gcnF.elf | **8,201** | Platformer | 
+King Arthur (USA) | Arthur.elf | **8,259** | | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
 Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
