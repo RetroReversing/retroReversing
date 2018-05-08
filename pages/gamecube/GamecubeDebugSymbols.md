@@ -49,6 +49,11 @@ Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan) | crashwoc.elf | **2,684** | 
 Cubix Robots for Everyone - Showdown (USA) | CubixGameCube.elf | **5,433** | ? | 
 Dark Summit (USA) | mob2gr.elf | **11,459** | ? | 
 Densetsu no Quiz Ou Ketteisen (Japan) | main.elf | **3,674** | ? | 
+Disney-Pixar Cars (USA) | CarsGCN.elf | **12,973** | ? | 
+Disney-Pixar Finding Nemo (USA) (v1.00) | GCNemo.elf | **5,562** | ? | 
+Disney-Pixar Ratatouille (France) | ratsgc_m.elf | **10,581** | ? |
+Disney-Pixar The Incredibles - Rise of the Underminer | in2gc_m.elf | **13,876** | Action | 
+Disney-Pixar The Incredibles (USA) | ingc_m.elf | **13,931** | | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
 Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
