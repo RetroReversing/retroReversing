@@ -47,6 +47,8 @@ Bratz - Rock Angelz (France) | Bratz_NGC_M.elf | **15,275** | ? |
 Crash Bandicoot - The Wrath of Cortex (USA) | crashwoc.elf | **2,685** | Platformer | 
 Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan) | crashwoc.elf | **2,684** | Platformer | 
 Cubix Robots for Everyone - Showdown (USA) | CubixGameCube.elf | **5,433** | ? | 
+Dark Summit (USA) | mob2gr.elf | **11,459** | ? | 
+Densetsu no Quiz Ou Ketteisen (Japan) | main.elf | **3,674** | ? | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
 Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
