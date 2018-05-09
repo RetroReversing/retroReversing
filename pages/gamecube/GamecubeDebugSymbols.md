@@ -65,6 +65,7 @@ Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
 Freestyle Metal X (USA) | FMX_CUBE_Publisher.elf | **5,836** | | 
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
+GoldenEye - Rogue Agent (USA) (Disc 1) | GE2RDVD.ELF | **20,654** | FPS | 
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
 Hudson Selection Vol. 4 - Takahashi-Meijin no Boukenjima (Japan) | huos.elf | **2,298** | | 
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
