@@ -75,7 +75,7 @@ Jeremy McGrath Supercross World (USA) | sx2002.elf | **4,186** | Sport |
 Kao the Kangaroo - Round 2 (USA) | kao2gcnF.elf | **8,201** | Platformer | 
 King Arthur (USA) | Arthur.elf | **8,259** | | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
-Les Désastreuses Aventures des Orphelins Baudelaire | main.elf | **10,416** | Platformer | 
+Lemony Snicket's A Series of Unfortunate Events (United Kingdom) | main.elf | **10,416** | Platformer | 
 Medal of Honor - European Assault (Germany) | MOH4RDVD.ELF | **17,815** | FPS | 
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
