@@ -56,7 +56,10 @@ Disney-Pixar The Incredibles - Rise of the Underminer | in2gc_m.elf | **13,876**
 Disney-Pixar The Incredibles (USA) | ingc_m.elf | **13,931** | | 
 Disney-Pixar Die Unglaublichen (The Incredibles) (Germany) (Disc 1) | ingc_m.elf | **13,931** | Action | 
 Disney's Piglet's Big Game (United Kingdom) | Piglet.elf | **7,951** | Action | 
+Disney's PK - Out of the Shadows (USA) (En,Fr,De,It) | RM_DLL.elf | **7,372** | ? | 
+Disney's Winnie the Pooh's Rumbly Tumbly Adventure (USA) (En,Fr,Es) | winnie.elf | **8,392** | | 
 Doshin the Giant | DolphinDefault.elf | **3,047** | God Game
+Duel Masters Nettou! Battle Arena (Japan) | main.elf | **2,306** | | 
 Fairly OddParents, The - Breakin' da Rules (USA) | Gamecube.elf | **13,828** | |
 Finding Nemo (United Kingdom) | GCNemo.elf | **5,600**
 Freedom Fighters (United Kingdom) | startup_release.elf | **16,664** | Third-person shooter | 
