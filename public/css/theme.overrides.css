@@ -8,6 +8,10 @@
   text-decoration: underline ;
 }
 
+.post h1 {
+  padding-top: 50px;
+}
+
 . widget-friends i {
   width:64px;
   height:64px;
