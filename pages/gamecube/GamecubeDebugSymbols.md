@@ -67,7 +67,9 @@ Freestyle Metal X (USA) | FMX_CUBE_Publisher.elf | **5,836** | |
 Frogger Beyond | Frogger.elf | **4,561** | Action | https://www.youtube.com/watch?v=t0DptiBTWPI
 GoldenEye - Rogue Agent (USA) (Disc 1) | GE2RDVD.ELF | **20,654** | FPS | 
 Harry Potter and the Goblet of Fire (United Kingdom) | gof_f.elf | **19,843** (200MB!) | Action |
+Hot Wheels - Velocity X (USA) | HotWheels.elf | **2,363** | | 
 Hudson Selection Vol. 4 - Takahashi-Meijin no Boukenjima (Japan) | huos.elf | **2,298** | | 
+Intellivision Lives! (USA) | GCNDefault.elf | **1,991** | | 
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
 Kao the Kangaroo - Round 2 (USA) | kao2gcnF.elf | **8,201** | Platformer | 
 King Arthur (USA) | Arthur.elf | **8,259** | | 
