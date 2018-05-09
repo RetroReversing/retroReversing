@@ -71,6 +71,7 @@ Hot Wheels - Velocity X (USA) | HotWheels.elf | **2,363** | |
 Hudson Selection Vol. 4 - Takahashi-Meijin no Boukenjima (Japan) | huos.elf | **2,298** | | 
 Intellivision Lives! (USA) | GCNDefault.elf | **1,991** | | 
 Interactive Multi-Game Demo Disk - July 2004 | GCNDefaultD.elf | **2,636** | Demo | 
+Jeremy McGrath Supercross World (USA) | sx2002.elf | **4,186** | Sport | 
 Kao the Kangaroo - Round 2 (USA) | kao2gcnF.elf | **8,201** | Platformer | 
 King Arthur (USA) | Arthur.elf | **8,259** | | 
 Legend of Spyro, The - A New Beginning | spyro06.elf | **12,813** | Platformer | 
