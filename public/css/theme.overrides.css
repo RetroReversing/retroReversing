@@ -12,6 +12,10 @@
   padding-top: 50px;
 }
 
+.post {
+  color: #333;
+}
+
 . widget-friends i {
   width:64px;
   height:64px;
