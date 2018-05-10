@@ -89,6 +89,7 @@ Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **
 Need for Speed - Underground 2 | Speed.elf | **13,870** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
 Nickelodeon SpongeBob SquarePants - The Movie (United Kingdom) | sb04gc_nm.elf | **8,005** | Action | 
+Nickelodeon SpongeBob SquarePants in - Battle for Bikini Bottom | sbpeM.elf | **9,296** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
 SX Superstar | Supercross.elf | **7,552** | Sport | 
 Tetris Worlds (Japan) | TWgr.elf | **7,252** | Puzzle | 
