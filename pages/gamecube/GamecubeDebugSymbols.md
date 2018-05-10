@@ -82,9 +82,13 @@ Medal of Honor - Frontline (United Kingdom) | Moh2UK.elf | **4,778** | FPS |
 Medal of Honor - Rising Sun | MOH3RDVD.elf | **9,941** | FPS | 
 Men in Black II - Alien Escape | MiiB_GCN_rtl.elf | **5,821** | Action | 
 Mission - Impossible - Operation Surma | IMF_GC-Final.elf | **17,258** | Action | 
+Monopoly - Mezase!! Daifugou Jinsei!! (Japan) | GRMJ0001.elf | **2,903** | Board | 
+Mortal Kombat - Deadly Alliance | mk5gc_release.elf | **5,864** | Fighting | 
 Namco Museum 50th Anniversary | ffe.elf | **4,979** | Retro | 
 Need for Speed - Underground (Player's Choice) (United Kingdom) | Speed.elf | **10,162** | Racing | 
+Need for Speed - Underground 2 | Speed.elf | **13,870** | Racing | 
 Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab (United Kingdom) | SpongeBob_ngc_mfb.elf | **16,884** | Action | 
+Nickelodeon SpongeBob SquarePants - The Movie (United Kingdom) | sb04gc_nm.elf | **8,005** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
 SX Superstar | Supercross.elf | **7,552** | Sport | 
 Tetris Worlds (Japan) | TWgr.elf | **7,252** | Puzzle | 
