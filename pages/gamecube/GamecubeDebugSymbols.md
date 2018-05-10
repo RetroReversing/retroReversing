@@ -117,6 +117,7 @@ Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2) | BobTak2_German_Dis
 Pikmin | build.MAP | ?? | God game | 
 Scooby-Doo! Mystery Mayhem (United Kingdom) | engine_ret.MAP | ?? | Action | 
 Super Mario Sunshine | marioEU.MAP | ?? | Platformer | 
+Sims 2, The (USA) | u2_ngc_debug.map | ?? | Simulation | 
 UEFA Champions League 2004-2005 (United Kingdom) | fifa_z.MAP | ?? | Sport | 
 Ultimate Spider-Man | symbolgc-final.MAP | ?? | Action | 
 Zelda no Densetsu - Twilight Princess (Japan) | frameworkF.MAP | ?? | Action | 
@@ -129,7 +130,6 @@ Game Name | Map File | Number of Symbols | Genre | Notes
 NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
 
 # Other Notes
-
-The Sims 2 Also has multiple .MAP files which have been nulled with 0-bytes.
-
 Pikmin2 has a file called `pikmin2*P.MAP` which could be a compressed or encrypted debugger map file, but thats mainly a guess because the previous Pikmin has a plain-text debugger .MAP file. The * depends the Region U for US, P for PAL and J for Japan
+
+Nintendo Puzzle Collection (Japan) contains an ARM executable for running on the GBA that has developer symbols in it called: ponagb2m_client.elf (Panel de Pon game?)
