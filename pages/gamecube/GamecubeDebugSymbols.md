@@ -96,10 +96,19 @@ Pac-Man World 3 (USA) | PMA_GC_M.elf | **16,619** | Platfomer |
 Peter Jackson's King Kong - The Official Game of the Movie | jadegc_ia2cr.elf | **6,033** | Action | 
 Scooby-Doo! Mystery Mayhem (United Kingdom) | engine_ret.elf | **5,849** | | 
 Scooby-Doo! Unmasked | engine_ret.elf | **6,066** | | 
+Spider-Man (Japan) | SMGDevS.elf | **9,711** | Action | 
+Star Wars - The Clone Wars | Clonewars.elf | **8,173** | Action | 
 Super Mario Strikers (Japan) | MarioSoccerR.elf | **8,350** | Sport | 
 SX Superstar | Supercross.elf | **7,552** | Sport | 
+Terminator 3 - The Redemption | t3game_gc.elf | **11,758** | Action | 
 Tetris Worlds (Japan) | TWgr.elf | **7,252** | Puzzle | 
-UFC - Throwdown | GCNDefault.elf | **2,648** | Fighting | 
+Top Gun - Ace of the Sky (Japan) | GCNDefault.elf | **2,866** | Action | 
+Top Gun - Combat Zones (USA) | GCNDefault.elf | **2,866** | Action | 
+TY the Tasmanian Tiger (USA) | TY_REL.elf | **7,701** | Platformer | 
+TY the Tasmanian Tiger 2 - Bush Rescue (USA) | Ty2.elf |**15,792** | Platformer | 
+TY the Tasmanian Tiger - Night of the Quinkan (USA) | Ty3.elf | **16,618** | Platformer | 
+UFC - Throwdown | GCNDefault.elf | **2,648** | Fighting |
+UFC2 Tapout Final Spec (Japan) | GCNDefault.elf | **2,682** | Sport | 
 ZooCube (Japan) | ZooCube.elf | **8,167** | ? | 
 
 # Link Maps (.MAP files)
