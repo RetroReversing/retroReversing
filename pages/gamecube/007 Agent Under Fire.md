@@ -31,6 +31,9 @@ editlink: /gamecube/007 Agent Under Fire.md
 # IDTech Engine
 * History of ID Tech Engine - https://youtu.be/00S64bc-QBE
 
+# Emulator Compatibility
+https://wiki.dolphin-emu.org/index.php?title=007%3A_Agent_Under_Fire
+
 # 007: Agent Under Fire Reloaded
 Mod for the gamecube version of 007 Agent Under Fire that fixes a few multiplayer balancing issues:
 * https://www.romhacking.net/hacks/3731/
