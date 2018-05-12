@@ -29,7 +29,12 @@ editlink: /gamecube/007 Agent Under Fire.md
  - Driving Engine | Need for Speed engine?
 
 # IDTech Engine
+Using id Tech 3 with ÜberTools
+
 * History of ID Tech Engine - https://youtu.be/00S64bc-QBE
+* Information about IDTech3 - https://en.wikipedia.org/wiki/Id_Tech_3
+* IDTech3 was open sourced - https://github.com/id-Software/Quake-III-Arena
+* UberTools - http://www.ritualistic.com/content.php/games/uber/features.php
 
 # Emulator Compatibility
 https://wiki.dolphin-emu.org/index.php?title=007%3A_Agent_Under_Fire
