@@ -35,6 +35,7 @@ Using id Tech 3 with ÜberTools
 * Information about IDTech3 - https://en.wikipedia.org/wiki/Id_Tech_3
 * IDTech3 was open sourced - https://github.com/id-Software/Quake-III-Arena
 * UberTools - http://www.ritualistic.com/content.php/games/uber/features.php
+* http://ritualistic.chrissstrahl.de/games/ef2/gdkdocs/start.html
 
 # Emulator Compatibility
 https://wiki.dolphin-emu.org/index.php?title=007%3A_Agent_Under_Fire
