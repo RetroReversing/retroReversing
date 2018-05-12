@@ -4,6 +4,7 @@ tags:
 - n64
 - memory
 - cheatcartridge
+- datel
 title: Datel Action Replay Professional (N64)
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
@@ -18,8 +19,7 @@ breadcrumbs:
   - name: Datel Action Replay Professional (N64)
     url: #
 recommend: n64
-source-id: 1iGy7B-iC51XU-Lb6SrNB_1KDAjTlMrV0_dSxhrymPYk
-published: true
+editlink: /n64/Datel-Action-Replay-Professional.md
 ---
 # Datel Action Replay Professional
 
