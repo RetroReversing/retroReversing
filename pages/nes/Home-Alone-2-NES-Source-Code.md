@@ -8,8 +8,10 @@ tags:
 - games
 recommend: nes
 youtube: cqsCqG-uako
+image: http://img.youtube.com/vi/cqsCqG-uako/0.jpg
 source-id: 1H2w_1W9uv3uGGAasoNzfTNVo_eezOpEQY5comaUNsXk
-published: true
+editlink: /nes/Home-Alone-2-NES-Source-Code.md
+
 ---
 ## Home Alone 2 NES Source Code
 
