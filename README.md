@@ -32,6 +32,7 @@ https://www.retroreversing.com/
 
 ## PC
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
+* Rebel Assault - https://github.com/Fortyseven/RA_1993
 
 ## Games
 * Jak and Daxter - http://www.codersnotes.com/notes/disassembling-jak/
