@@ -27,6 +27,10 @@ videocarousel:
   - title: Sega Dreamcast Dev Kit Overview of buttons and ports
     image: http://img.youtube.com/vi/upUbGLl9vJg/0.jpg
     youtube: 'upUbGLl9vJg'
+  - title: Sega Dreamcast Dev Kit Capturing in game screenshots (DC Capture)
+    image: http://img.youtube.com/vi/qU3l5RUswgA/0.jpg
+    youtube: 'qU3l5RUswgA'
+  
     
 recommend: sega
 references:
