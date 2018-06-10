@@ -18,9 +18,17 @@ breadcrumbs:
     url: /ps1
   - name: How the Dreamcast's Security was Hacked (MIL-CD)
     url: #
+videocarousel:
+  - title: How the Dreamcast's Security was Hacked (MIL-CD)
+    image: http://img.youtube.com/vi/R0pZ8Xs8dXU/0.jpg
+    youtube: 'R0pZ8Xs8dXU'
+  - title: SEGA HELPED PIRATES?! - The Story of echelon.txt
+    image: https://img.youtube.com/vi/_x5a0GcbweI/maxresdefault.jpg
+    youtube: '_x5a0GcbweI'
 recommend: sega
 references:
 - The Adequate Gamer
+- MrMario2011
 editlink: dreamcast/How the Dreamcast's Security was Hacked.md
 ---
 
