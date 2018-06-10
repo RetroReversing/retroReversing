@@ -18,8 +18,11 @@ breadcrumbs:
   - name: Sega Dreamcast Katana Development Kit
     url: #
 videocarousel:
-  - title: Sega Dreamcast Katana Development Kit
-    image: http://img.youtube.com/vi/R0pZ8Xs8dXU/0.jpg
+  - title: Sega Dreamcast Development Hardware Collection
+    image: http://img.youtube.com/vi/yia0jHPFfA4/0.jpg
+    youtube: 'yia0jHPFfA4'
+  - title: Sega Dreamcast Katana Development Kit (Earlier Development Kit)
+    image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
     youtube: 'kuff6PgoEuc'
 recommend: sega
 references:
