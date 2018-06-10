@@ -8,7 +8,6 @@ tags:
 - sega
 title: How the Dreamcast's Security was Hacked (MIL-CD)
 thumbnail: /public/consoles/Sony Playstation.png
-youtube: "R0pZ8Xs8dXU"
 image: http://img.youtube.com/vi/R0pZ8Xs8dXU/0.jpg
 permalink: /How-the-Dreamcast-Security-was-Hacked
 breadcrumbs:
