@@ -24,10 +24,15 @@ videocarousel:
   - title: Sega Dreamcast Katana Development Kit (Earlier Development Kit)
     image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
     youtube: 'kuff6PgoEuc'
+  - title: Sega Dreamcast Dev Kit Overview of buttons and ports
+    image: http://img.youtube.com/vi/upUbGLl9vJg/0.jpg
+    youtube: 'upUbGLl9vJg'
+    
 recommend: sega
 references:
 - The Adequate Gamer
 - MrMario2011
+- Dreamcast Hub
 editlink: dreamcast/Sega Dreamcast Katana Development Kit.md
 ---
 
