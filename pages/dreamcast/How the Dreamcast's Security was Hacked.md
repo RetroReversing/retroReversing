@@ -7,14 +7,14 @@ tags:
 - security
 - sega
 title: How the Dreamcast's Security was Hacked (MIL-CD)
-thumbnail: /public/consoles/Sony Playstation.png
+thumbnail: /public/consoles/Sega Dreamcast.png
 image: http://img.youtube.com/vi/R0pZ8Xs8dXU/0.jpg
 permalink: /How-the-Dreamcast-Security-was-Hacked
 breadcrumbs:
   - name: Home
     url: /
-  - name: Sony Playstation
-    url: /ps1
+  - name: Sega Dreamcast
+    url: /dc
   - name: How the Dreamcast's Security was Hacked (MIL-CD)
     url: #
 videocarousel:
