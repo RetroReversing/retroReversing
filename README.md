@@ -34,6 +34,9 @@ https://www.retroreversing.com/
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
 * Rebel Assault - https://github.com/Fortyseven/RA_1993
 
+## 3DS
+* 3DS Emulation in C++ - https://www.youtube.com/watch?v=1qGksJWsfow
+
 ## Games
 * Jak and Daxter - http://www.codersnotes.com/notes/disassembling-jak/
 
