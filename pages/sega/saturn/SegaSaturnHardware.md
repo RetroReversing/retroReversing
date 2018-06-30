@@ -24,6 +24,9 @@ videocarousel:
   - title: Sega Saturn Teardown
     image: https://img.youtube.com/vi/H-4HH56_sOY/maxresdefault.jpg
     youtube: 'H-4HH56_sOY'
+  - title: Sega Saturn Teardown
+    image: https://img.youtube.com/vi/bzO2P4WJO8E/maxresdefault.jpg
+    youtube: 'bzO2P4WJO8E'
   - title: Sega Saturn Repair
     image: https://img.youtube.com/vi/EF85n86FcPk/maxresdefault.jpg
     youtube: 'EF85n86FcPk'
