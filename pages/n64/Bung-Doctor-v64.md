@@ -25,3 +25,6 @@ editlink: /n64/Bung-Doctor-v64.md
 
 * 3rd Party Development kit (used by Acclaim)
 * Original Creator of .v64 files (it has functionality to dump carts).
+
+## Development Studios known to have used it
+* Acclaim/Iguana (Turok series)
