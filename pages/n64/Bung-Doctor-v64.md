@@ -2,9 +2,9 @@
 layout: post
 tags: 
 - n64
-- memory
-- cheatcartridge
-- datel
+- devkit
+- hardware
+- bung
 title: Bung Doctor v64 (N64)
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
