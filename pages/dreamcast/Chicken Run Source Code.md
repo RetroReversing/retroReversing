@@ -65,13 +65,13 @@ maths.c
 maths.h
 newpsx.c
 newpsx.h
-psi.c
+psi.c - Playstation Model (i) Handler - PSX CORE (c) 1999 ISL
 psi.h
 psiactor.c
-psiactor.h
-psitypes.h
+psiactor.h - Skinned model control routines
+psitypes.h - ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
 quatern.c
-quatern.h
+quatern.h - PSX CORE (c) 1999 ISL
 sbinit.c - Copyright (C) 2000, Sega of America Dreamcast
 shell.c
 shell.h
