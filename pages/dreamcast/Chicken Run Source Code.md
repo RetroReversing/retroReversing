@@ -26,7 +26,12 @@ references:
 editlink: dreamcast/Chicken Run Source Code.md
 ---
 
+Some of the source code for the game Chicken Run has been available to the internet as part of a "Dreamcast source code" bundle. After extracting the archive we are presented with two folders, "simple model shell" and "cr". 
+
+Presumably cr stands for chicken run and the simple model shell is a tool to display some of the 3D models as they would appear in the game engine. 
+
 # Simple Model Shell
+This tool would have been very useful for artists when exporting their models from their modelling software such as 3ds max or maya, as it will show what optimizations need to be made to the model.
 
 ```
 DCK_Maths.c
@@ -75,7 +80,7 @@ sprite.c
 sprite.h
 types.c
 types.h
-ultra64.h
+ultra64.h - n64 header?
 ```
 
 # CR (Chicken run source)
