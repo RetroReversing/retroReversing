@@ -7,7 +7,7 @@ tags:
 - sourcecode
 title: Chicken Run Source Code.md
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
+image: http://img.youtube.com/vi/thRXO3YwOCg/0.jpg
 permalink: /Chicken-Run-Source-Code
 breadcrumbs:
   - name: Home
@@ -17,9 +17,9 @@ breadcrumbs:
   - name: Chicken Run Source Code
     url: #
 videocarousel:
-  - title: Sega Dreamcast System Disc 2 in Action
-    image: http://img.youtube.com/vi/TL0VCLGev7A/0.jpg
-    youtube: 'TL0VCLGev7A'
+  - title: Chicken Run
+    image: http://img.youtube.com/vi/thRXO3YwOCg/0.jpg
+    youtube: 'thRXO3YwOCg'
 recommend: dreamcast
 references:
 - Dreamcast Hub
