@@ -26,6 +26,8 @@ references:
 editlink: dreamcast/Chicken Run Source Code.md
 ---
 
+Developed by Blitz Games (formerly known as Interactive Studios) in 2000 as a cross platform action adventure game based on the movie with the same name.
+
 Some of the source code for the game Chicken Run has been available to the internet as part of a "Dreamcast source code" bundle. After extracting the archive we are presented with two folders, "simple model shell" and "cr". 
 
 Presumably cr stands for chicken run and the simple model shell is a tool to display some of the 3D models as they would appear in the game engine. 
@@ -52,16 +54,16 @@ fixed.h
 gte.c
 include.h
 islfile.c
-islfont.c
-isltex.c
-islutil.c
+islfont.c - font support - AM2 PS   (c) 1999-2001 ISL 
+isltex.c - Texture and VRAM management
+islutil.c - ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
 islutil.h
 layout.c
 layout.h
-main.c
+main.c - Main core routine and system initialisation - This file is part of Frogger II, Copyright 2000 Interactive Studios Ltd
 main.h
 makefile
-maths.c
+maths.c - This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
 maths.h
 newpsx.c
 newpsx.h
