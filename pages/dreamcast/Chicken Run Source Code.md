@@ -40,7 +40,7 @@ DCK_Maths.c
 DCK_Maths.h
 DCK_System.c
 DCK_System.h
-DCK_Texture.c
+DCK_Texture.c - Texture handler rountines
 DCK_Texture.h
 DCK_Types.h
 actor2.c
@@ -51,10 +51,10 @@ crc32.c
 crc32.h
 fixed.c
 fixed.h
-gte.c
+gte.c - Gte playstation emulaution routines and structures
 include.h
-islfile.c
-islfont.c - font support - AM2 PS   (c) 1999-2001 ISL 
+islfile.c 
+islfont.c - font support - AM2 PS   (c) 1999-2001 ISL (AM2 = Action Man 2 Destruction X for PS1)
 isltex.c - Texture and VRAM management
 islutil.c - ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
 islutil.h
