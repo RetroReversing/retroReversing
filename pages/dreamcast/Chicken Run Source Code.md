@@ -72,15 +72,15 @@ psiactor.h
 psitypes.h
 quatern.c
 quatern.h
-sbinit.c
+sbinit.c - Copyright (C) 2000, Sega of America Dreamcast
 shell.c
 shell.h
 sonylibs.h
-sprite.c
+sprite.c - This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
 sprite.h
 types.c
 types.h
-ultra64.h - n64 header?
+ultra64.h - n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 ```
 
 # CR (Chicken run source)
