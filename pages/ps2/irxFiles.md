@@ -31,6 +31,7 @@ You can load an IOP Module from Emotion Engine code using one of the following A
 
 You should be able to find some of these in the MODULES folder of a PS2 disk (but the folder depends on the disc).
 
+<div class="datatable">
 IRX | Usage | Description
 --- | --- | ---
 sio2man.irx|638| Manager Interface for joypads, multitaps and memory cards. (Official PS2 Dev Kit)
@@ -659,3 +660,4 @@ ezncnf_s.irx|1|
 gbxcd.irx|1| 
 sndrv003.irx|1| Conexant chip set USB modem driver (SN Systems NDK)
 blade_cd.irx|1| 
+</div>
