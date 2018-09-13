@@ -57,11 +57,11 @@
       
       // Make markdown tables have the bootstrap table class to look pretty
       $('table').addClass('table');
+     
+      $('.datatable table').DataTable();
 
       // lightbox
-      //$('img').attr('data-lightbox',JSON.stringify({gallery:true}) );
       $('[data-lightbox]').lightbox();
-      //$('img').lightbox({gallery:'Retro Reversing', disqus:'{{ site.disqus_short_name }}'});
     })(jQuery);
   </script>
 <script src="/public/js/main.js"></script>
