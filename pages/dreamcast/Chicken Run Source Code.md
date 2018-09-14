@@ -90,80 +90,80 @@ ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 
 Filename | Description
 --- | ---
-DCK_Maths.c
-DCK_Maths.h
-DCK_System.c
-DCK_System.h
-DCK_Texture.c
-DCK_Texture.h
-DCK_Types.h
-DC_TIM.c
-DC_TIM.h
-DISPSTR.C
-DISPSTR.H
-PSX_PC.h
-USR.H
-Usr.c
-actor.c
-actor.h
-actor2.c
-actor2.h
-adxtest.c
-adxtest.h
-anim.c
-anim.h
-backup.c
-backup.h
-bff_load.c
-bff_load.h
-bpacsetup.c
-bpacsetup.h
-bpamsetup.c
-bpamsetup.h
-camera.c
-camera.h
-card.c
-card.h
-catapult.c
-catapult.h
-charactr.c
-charactr.h
-chase.c
-chase.h
-chicken.scr
-chickenrun.cpj
-cntrscn.c
-cntrscreen.c
-collide.c
-collide.h
-construct.c
-construct.h
-cr
-cr.dsp
-cr.dsw
-cr.ncb
-cr.opt
-crate.c
-crate.h
-crc32.c
-crc32.h
-credits.c
-credits.h
-curtains.c
-curtains.h
-cus_anim.c
-cus_dyn.c
-cus_full.c
-custom.c
-custom.h
-custom2.c
-dc_timer.c
-dc_timer.h
-dctext.xls
-debris.c
-debris.h
-demo.c
-demo.h
+DCK_Maths.c | 
+DCK_Maths.h | 
+DCK_System.c | 
+DCK_System.h | 
+DCK_Texture.c | 
+DCK_Texture.h | 
+DCK_Types.h | 
+DC_TIM.c | 
+DC_TIM.h | 
+DISPSTR.C | 
+DISPSTR.H | 
+PSX_PC.h | 
+USR.H | 
+Usr.c | 
+actor.c | 
+actor.h | 
+actor2.c | 
+actor2.h | 
+adxtest.c | 
+adxtest.h | 
+anim.c | 
+anim.h | 
+backup.c | 
+backup.h | 
+bff_load.c | 
+bff_load.h | 
+bpacsetup.c | 
+bpacsetup.h | 
+bpamsetup.c | 
+bpamsetup.h | 
+camera.c | 
+camera.h | 
+card.c | 
+card.h | 
+catapult.c | 
+catapult.h | 
+charactr.c | 
+charactr.h | 
+chase.c | 
+chase.h | 
+chicken.scr | 
+chickenrun.cpj | 
+cntrscn.c | 
+cntrscreen.c | 
+collide.c | 
+collide.h | 
+construct.c | 
+construct.h | 
+cr | 
+cr.dsp | 
+cr.dsw | 
+cr.ncb | 
+cr.opt | 
+crate.c | 
+crate.h | 
+crc32.c | 
+crc32.h | 
+credits.c | 
+credits.h | 
+curtains.c | 
+curtains.h | 
+cus_anim.c | 
+cus_dyn.c | 
+cus_full.c | 
+custom.c | 
+custom.h | 
+custom2.c | 
+dc_timer.c | 
+dc_timer.h | 
+dctext.xls | 
+debris.c | 
+debris.h | 
+demo.c | 
+demo.h | 
 deth.c
 deth.h
 dogchase.c
@@ -319,10 +319,10 @@ ultra64.h
 viewer.c
 viewer.h
 vmucheck.c
-vmucheck.h
-vssver.scc
-wings.c
-wings.h
+vmucheck.h | 
+vssver.scc | 
+wings.c | 
+wings.h | 
 
 
 <div class="mermaid">
