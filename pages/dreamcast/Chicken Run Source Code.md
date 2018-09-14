@@ -84,10 +84,11 @@ sprite.h
 types.c
 types.h
 ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
-```
+
 
 # CR (Chicken run source)
-```
+Filename | Description
+--- | ---
 DCK_Maths.c
 DCK_Maths.h
 DCK_System.c
@@ -321,4 +322,3 @@ vmucheck.h
 vssver.scc
 wings.c
 wings.h
-```
