@@ -35,12 +35,13 @@ Presumably cr stands for chicken run and the simple model shell is a tool to dis
 # Simple Model Shell
 This tool would have been very useful for artists when exporting their models from their modelling software such as 3ds max or maya, as it will show what optimizations need to be made to the model.
 
-```
+Filename | Description
+--- | ---
 DCK_Maths.c
 DCK_Maths.h
 DCK_System.c
 DCK_System.h
-DCK_Texture.c - Texture handler rountines
+DCK_Texture.c | Texture handler rountines
 DCK_Texture.h
 DCK_Types.h
 actor2.c
@@ -51,38 +52,38 @@ crc32.c
 crc32.h
 fixed.c
 fixed.h
-gte.c - Gte playstation emulaution routines and structures
+gte.c | Gte playstation emulaution routines and structures
 include.h
 islfile.c 
-islfont.c - font support - AM2 PS   (c) 1999-2001 ISL (AM2 = Action Man 2 Destruction X for PS1)
-isltex.c - Texture and VRAM management
-islutil.c - ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
+islfont.c | font support - AM2 PS   (c) 1999-2001 ISL (AM2 = Action Man 2 Destruction X for PS1)
+isltex.c | Texture and VRAM management
+islutil.c | ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
 islutil.h
 layout.c
 layout.h
-main.c - Main core routine and system initialisation - This file is part of Frogger II, Copyright 2000 Interactive Studios Ltd
+main.c | Main core routine and system initialisation - This file is part of Frogger II, Copyright 2000 Interactive Studios Ltd
 main.h
 makefile
-maths.c - This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
+maths.c | This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
 maths.h
 newpsx.c
 newpsx.h
-psi.c - Playstation Model (i) Handler - PSX CORE (c) 1999 ISL
+psi.c | Playstation Model (i) Handler - PSX CORE (c) 1999 ISL
 psi.h
 psiactor.c
-psiactor.h - Skinned model control routines
-psitypes.h - ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
+psiactor.h | Skinned model control routines
+psitypes.h | ISL PSX LIBRARY	(c) 1999 Interactive Studios Ltd.
 quatern.c
-quatern.h - PSX CORE (c) 1999 ISL
-sbinit.c - Copyright (C) 2000, Sega of America Dreamcast
+quatern.h | PSX CORE (c) 1999 ISL
+sbinit.c | Copyright (C) 2000, Sega of America Dreamcast
 shell.c
 shell.h
 sonylibs.h
-sprite.c - This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
+sprite.c | This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
 sprite.h
 types.c
 types.h
-ultra64.h - n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
+ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 ```
 
 # CR (Chicken run source)
