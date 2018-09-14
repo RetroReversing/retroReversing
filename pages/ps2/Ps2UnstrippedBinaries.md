@@ -70,6 +70,7 @@ Also the IRX I/O processor modules rarely if ever have any debug symbols due to 
 Piposaru 2001 contains two IOPRP*.IMG files (IOPRP205.IMG and IOPRP214.IMG) so presumably both 2.0.5 and 2.1.4 versions of the PS2SDK were used during development. In the MCMAN.IRX the string `PsIImcman   2020` exists which suggests it was built using PS2SDK version 2.0.2. In the main binary elf file it also mentions `PsIIlibkernl2050` again suggesting 2.0.5. I have marked the game as using 2.1.4 since that is the most recent version used.
 
 ## Games without Debug Symbols
+
 Game | Developer | Release Date | Ps2 SDK | Source
 --- | --- | --- | ---
 Ridge Racer V | `Namco` | 4th March 2000 | PS2SDK 1.5.0 | Uses very early SDK
