@@ -164,161 +164,161 @@ debris.c |
 debris.h | 
 demo.c | 
 demo.h | 
-deth.c
-deth.h
-dogchase.c
-dogchase.h
-dualshock.c
-dualshock.h
-ectsmenu.c
-ectsmenu.h
-egglaying.c
-egglaying.h
-empty.c
-empty.h
-enemies.c
-enemies.h
-engine.c
-engine.h
-error.h
-fireworks.c
-fireworks.h
-fixed.c
-fixed.h
-fma.c
-fma.h
-fx.c
-fx.h
-fxtest.c
-fxtest.h
-gallery.c
-gallery.h
-gametext.h
-gametext.txt
-global.h
-gte.c
-help.c
-help.h
-incbn
-include.h
-includeps
-inventory.c
-inventory.h
-islcard.c
-islfile.c
-islfont.c
-isllocal.c
-islpad.c
-islsfx2.c
-isltex.c
-islutil.c
-islvideo.c
-islxa.c
-language.c
-language.h
-layout.c
-layout.h
-lcdicons.h
-lev_flow.c
-lev_flow.h
-lights.c
-lights.h
-loading.h
-loadlnd.h
-loadsnd.c
-loadsnd.h
-main.c
-main.h
-makefile
-map.c
-map.h
-map_draw.c
-map_draw.h
-map_play.c
-map_play.h
-map_view.c
-map_view.h
-maths.c
-maths.h
-menu.c
-menu.h
-mssccprj.scc
-newpsx.c
-newpsx.h
-nme_dogs.c
-nme_mrst.c
-ok.h
-options.c
-options.h
-overlay.h
-overlay1.c
-overlay2.c
-overlays.c
-overlays.h
-pad.c
-pad.h
-particle.c
-particle.h
-pause.c
-pause.h
-platcoll.c
-platform.c
-platform.h
-powerbar.c
-powerbar.h
-psi.c
-psi.h
-psiactor.c
-psiactor.h
-psitypes.h
-puzzles.c
-puzzles.h
-quatern.c
-quatern.h
-ranges.h
-route.c
-route.h
-saveicon.h
-saving.h
-sbinit.c
-scenics.c
-scenics.h
-seesaw.c
-seesaw.h
-sfxtest.c
-sfxtest.h
-shell.c
-shell.h
-snapshot.c
-snapshot.h
-sonylibs.h
-sound.c
-sound.h
-source
-sprite.c
-sprite.h
-sprouts.c
-sprouts.h
-sptstream.c
-sptstream.h
-startup.c
-startup.h
-station.c
-station.h
-stilts.c
-stilts.h
-subgame.c
-subgame.h
-test.c
-text_ids.h
-timer.c
-timer.h
-types.c
-types.h
-ultra64.h
-viewer.c
-viewer.h
-vmucheck.c
+deth.c | 
+deth.h | 
+dogchase.c | 
+dogchase.h | 
+dualshock.c | 
+dualshock.h | 
+ectsmenu.c | 
+ectsmenu.h | 
+egglaying.c | 
+egglaying.h | 
+empty.c | 
+empty.h | 
+enemies.c | 
+enemies.h | 
+engine.c | 
+engine.h | 
+error.h | 
+fireworks.c | 
+fireworks.h | 
+fixed.c | 
+fixed.h | 
+fma.c | 
+fma.h | 
+fx.c | 
+fx.h | 
+fxtest.c | 
+fxtest.h | 
+gallery.c | 
+gallery.h | 
+gametext.h | 
+gametext.txt | 
+global.h | 
+gte.c | 
+help.c | 
+help.h | 
+incbn | 
+include.h | 
+includeps | 
+inventory.c | 
+inventory.h | 
+islcard.c | 
+islfile.c | 
+islfont.c | 
+isllocal.c | 
+islpad.c | 
+islsfx2.c | 
+isltex.c | 
+islutil.c | 
+islvideo.c | 
+islxa.c | 
+language.c | 
+language.h | 
+layout.c | 
+layout.h | 
+lcdicons.h | 
+lev_flow.c | 
+lev_flow.h | 
+lights.c | 
+lights.h | 
+loading.h | 
+loadlnd.h | 
+loadsnd.c | 
+loadsnd.h | 
+main.c | 
+main.h | 
+makefile | 
+map.c | 
+map.h | 
+map_draw.c | 
+map_draw.h | 
+map_play.c | 
+map_play.h | 
+map_view.c | 
+map_view.h | 
+maths.c | 
+maths.h | 
+menu.c | 
+menu.h | 
+mssccprj.scc | 
+newpsx.c | 
+newpsx.h | 
+nme_dogs.c | 
+nme_mrst.c | 
+ok.h | 
+options.c | 
+options.h | 
+overlay.h | 
+overlay1.c | 
+overlay2.c | 
+overlays.c | 
+overlays.h | 
+pad.c | 
+pad.h | 
+particle.c | 
+particle.h | 
+pause.c | 
+pause.h | 
+platcoll.c | 
+platform.c | 
+platform.h | 
+powerbar.c | 
+powerbar.h | 
+psi.c | 
+psi.h | 
+psiactor.c | 
+psiactor.h | 
+psitypes.h | 
+puzzles.c | 
+puzzles.h | 
+quatern.c | 
+quatern.h | 
+ranges.h | 
+route.c | 
+route.h | 
+saveicon.h | 
+saving.h | 
+sbinit.c | 
+scenics.c | 
+scenics.h | 
+seesaw.c | 
+seesaw.h | 
+sfxtest.c | 
+sfxtest.h | 
+shell.c | 
+shell.h | 
+snapshot.c | 
+snapshot.h | 
+sonylibs.h | 
+sound.c | 
+sound.h | 
+source | 
+sprite.c | 
+sprite.h | 
+sprouts.c | 
+sprouts.h | 
+sptstream.c | 
+sptstream.h | 
+startup.c | 
+startup.h | 
+station.c | 
+station.h | 
+stilts.c | 
+stilts.h | 
+subgame.c | 
+subgame.h | 
+test.c | 
+text_ids.h | 
+timer.c | 
+timer.h | 
+types.c | 
+types.h | 
+ultra64.h | 
+viewer.c | 
+viewer.h | 
+vmucheck.c |
 vmucheck.h | 
 vssver.scc | 
 wings.c | 
