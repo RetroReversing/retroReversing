@@ -323,3 +323,12 @@ vmucheck.h
 vssver.scc
 wings.c
 wings.h
+
+
+<div class="mermaid">
+graph LR
+        A-->B
+        B-->C
+        C-->A
+        D-->C
+</div>
