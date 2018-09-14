@@ -3,6 +3,7 @@ layout: post
 tags: 
 - ps1
 - reverseengineering
+- symbols
 title: Playstation 1 Games with Debug Symbols
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/consoles/Sony Playstation.png
