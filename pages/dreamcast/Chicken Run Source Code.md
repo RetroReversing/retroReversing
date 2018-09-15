@@ -528,8 +528,6 @@ WM_PROGRESS | |
 WORLD_MESH_INSTANCE | | 
 XA_INDEX_STR | | 
 XYSHORT | | 
-
-
 _ACTOR | | 
 _CAMVARS | | 
 _DCKMATRIX | | 
@@ -606,7 +604,8 @@ tagREBDATA | |
 tagTXTATTRIB | | 
 tag_VENT | | 
 u162DVECTOR | | 
-u16VECTOR
+u16VECTOR | | 
+
 
 <div class="mermaid">
 graph LR
