@@ -695,18 +695,20 @@ Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 
 # Game Credits
 * Fred Williams (Lead Programmer) - https://twitter.com/RFredW
-* Tom Drummond
-* David Harries
-* Barry Peterson
-* Chris Wilson
-* James Steele (Tools Programming)
-* Chris Wilsonn (Tools Programming)
-* Ian Bird (Additional Programming)
-* Steve Bond (Additional Programming)
-* Scott Lamb (Additional Programming)
+* Tom Drummond (Programmer)
+* David Harries (Programmer) - https://www.linkedin.com/in/david-harries-92a56213/
+* Barry Peterson (Programmer)
+* Chris Wilson (Programmer)
+* James Steele (Tools Programming) - https://www.linkedin.com/in/james-steele-0a62791/
+* Chris Wilson (Tools Programming)
+* Ian Bird (Additional Programming) - https://www.linkedin.com/in/ian-bird-19358780/
+* Steve Bond (Additional Programming) - https://www.linkedin.com/in/steve-bond-b21ba9/
+* Scott Lamb (Additional Programming) - https://www.linkedin.com/in/scottjameslamb/
 * Andy Sidwell (Additional Programming)
-* John Whigham (Additional Programming)
+* John Whigham (Additional Programming) - https://www.linkedin.com/in/john-whigham-b8524834/
 * Richard Hackett (Compression Technology) - https://www.linkedin.com/in/richard-hackett-4324531
+
+Also thanks to Phillip and Andrew Oliver who founded Blitz Games - http://www.olivertwins.com
 
 # Sources
 [^1]: http://www.cheatcc.com/psx/codes/chickenr.html#ixzz5RAbHltbW 
