@@ -47,6 +47,26 @@ for that type, which basically fills in any required pointers.
 
  Then there's a little routine saying "find a bff segment of "such&such type, with this name-CRC"
  ```
+ In the header file it also mentions:
+ ```
+ // All the types of object that you stick into a BFF need to start with a standard header
+// which allows the BFF routines to seek out specific objects on request.
+
+// "id" is long something like "PSA0" or "COL1" for PSA and collision data,
+// for identifying the TYPE of the block it is.
+
+// "len" is the length of the block, including the header.
+
+// "crc" is the CRC of the name of this specific entry, to distinguish it from any
+// other blocks of the same type.
+
+typedef struct BFF_HeaderTag
+{
+	unsigned long id;
+	unsigned long len;
+	unsigned long crc;
+}BFF_Header;
+```
 
 ---
 
