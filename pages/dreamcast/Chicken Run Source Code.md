@@ -148,7 +148,7 @@ ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 We actually have multiple versions of the chicken run source code:
 * the main cr folder
 * source folder under cr (dreamcast changes)
-* "Copy of Source" folder under cr
+* "Copy of Source" folder under cr (out of date, possibly ps1 released version?)
 
 This was very common before good version control software such as git came along, so developers would work in seperate folders and merge changes, or keep different console ports in different folders.
 
@@ -689,6 +689,21 @@ Name | Code
 --- | ---
 Max Eggs |	800AA1D0 0063 [^1]
 Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
+
+# Game Credits
+* Fred Williams (Load Programmer)
+* Tom Drummond
+* David Harries
+* Barry Peterson
+* Chris Wilson
+* James Steele (Tools Programming)
+* Chris Wilsonn (Tools Programming)
+* Ian Bird (Additional Programming)
+* Steve Bond (Additional Programming)
+* Scott Lamb (Additional Programming)
+* Andy Sidwell (Additional Programming)
+* John Whigham (Additional Programming)
+* Richard Hackett (Compression Technology)
 
 # Sources
 [^1]: http://www.cheatcc.com/psx/codes/chickenr.html#ixzz5RAbHltbW 
