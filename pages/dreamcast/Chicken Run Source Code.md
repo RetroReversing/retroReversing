@@ -37,7 +37,7 @@ On Dreamcast each act has its own folder each with its own .BFF and .SPT and som
 On PC each act also has its own folder plus the addition of .WAB files accompaning the .BFF and .SPT files.
 On PS1 the layout is completely different, presumably the data is compressed in CRTEST.DAT. it also contains a file called DUMMY which just contains padding 00 bytes.
 
-## BFF files
+## BFF files (Big file format?)
 There is a very helpful comment at the top of the `bff_load.c` file which explains what BFF files are:
 ```
 Quickie guide to BFF files:-
@@ -69,6 +69,9 @@ typedef struct BFF_HeaderTag
 	unsigned long crc;
 }BFF_Header;
 ```
+
+## SPT Files
+Used for File streaming, seems to be used for both texture and sound streaming.
 
 ---
 
