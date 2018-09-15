@@ -77,7 +77,7 @@ typedef struct BFF_HeaderTag
 Used for File streaming, seems to be used for both texture and sound streaming.
 
 
-## CRTEST.DAT
+## CRTEST.DAT (Playstation 1)
 This is where the Chicken Run game data is stored on the PS1 version instead of the folder based layout of the PC and Dreamcast.
 It has a magic number of FLA2, not sure why, did they ever have a FLA1, what does FLA even stand for?
 ```
@@ -92,6 +92,17 @@ Here is a list of games that have been referenced in the source code:
 * Glover
 * Action Man 2
 * Frogger 2
+
+---
+
+# Dreamcast Engine
+
+Most of the dreamcast specific code has a DCK_ prefix, presumable short for Dreamcast Katana (Katana was the code name for the dreamcast).
+Some example:
+* DCK_System
+* DCK_Texture
+
+Presumably there were versions of this code with N64 and PS1 prefix used at ISL but they weren't released with this source code unfortunetly. As most of the game code is cross platform but these files contain the very platform specific code for the Dreamcast.
 
 ---
 
