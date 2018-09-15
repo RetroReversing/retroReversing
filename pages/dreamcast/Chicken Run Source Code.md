@@ -112,6 +112,8 @@ So although it was originally compiled for PS1, all the sourcecode has been modi
 The following files won't compile to PS1 without modification:
 * types.c
 
+However the root/cr/source folder contails a makefile.mak which is for psyq and build the PS1 version.
+
 ---
 
 # Missing Files
@@ -185,8 +187,8 @@ ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 
 We actually have multiple versions of the chicken run source code:
 * the main cr folder
-* source folder under cr (dreamcast changes)
-* "Copy of Source" folder under cr (out of date, possibly ps1 released version?)
+* source folder under cr (ps1 makefile so guessing ps1)
+* "Copy of Source" folder under cr (?)
 
 This was very common before good version control software such as git came along, so developers would work in seperate folders and merge changes, or keep different console ports in different folders.
 
