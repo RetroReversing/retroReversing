@@ -332,3 +332,15 @@ graph LR
         C-->A
         D-->C
 </div>
+
+# Playstation 1
+
+## PS1 Gameshark cheats
+
+Name | Code
+--- | ---
+Max Eggs |	800AA1D0 0063 [^1]
+Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
+
+# Sources
+[^1]: http://www.cheatcc.com/psx/codes/chickenr.html#ixzz5RAbHltbW 
