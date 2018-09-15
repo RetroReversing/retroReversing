@@ -3,6 +3,8 @@ layout: post
 tags: 
 - dreamcast
 - dc
+- ps1
+- pc
 - games
 - sourcecode
 title: Chicken Run Source Code
@@ -28,11 +30,18 @@ editlink: dreamcast/Chicken Run Source Code.md
 
 Developed by Blitz Games (formerly known as Interactive Studios) in 2000 as a cross platform action adventure game based on the movie with the same name.
 
+# Act (Level) Data
+On Dreamcast each act has its own folder each with its own .BFF and .SPT and some containing region specific .SBB/.SBH files.
+On PC each act also has its own folder plus the addition of .WAB files accompaning the .BFF and .SPT files.
+On PS1 the layout is completely different, presumably the data is compressed in DUMMY or CRTEST.DAT.
+
+
+# C Game Source Code
 Some of the source code for the game Chicken Run has been available to the internet as part of a "Dreamcast source code" bundle. After extracting the archive we are presented with two folders, "simple model shell" and "cr". 
 
 Presumably cr stands for chicken run and the simple model shell is a tool to display some of the 3D models as they would appear in the game engine. 
 
-# Simple Model Shell
+## Simple Model Shell
 This tool would have been very useful for artists when exporting their models from their modelling software such as 3ds max or maya, as it will show what optimizations need to be made to the model.
 
 Filename | Description | Category
