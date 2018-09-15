@@ -171,7 +171,7 @@ set GO32=DPMISTACK 1000000
 set G032TMP=C:\TEMP
 set TMPDIR=C:\TEMP
  
-CCPSX.EXE HELLO.C
+CCPSX.EXE HELLO.C -o HELLO.CPE
   
 pause
 ```
@@ -180,6 +180,8 @@ You should now be able to run this in the terminal like so:
 ```bash
 wineconsole hello32.bat
 ```
+
+You should now get an HELLO.CPE file that you need to convert to a PSX Executable with `CPE2X.EXE` but that only seems to work under dosbox for me...
 
 ## Error : could not execute cpppsx
 This happens because the PSYQ.ini file has incorrect paths, since I was using the Z: drive I had to change it to:
@@ -218,11 +220,13 @@ set GO32=DPMISTACK 1000000
 set G032TMP=C:\TEMP
 set TMPDIR=C:\TEMP
  
-CCPSX.EXE HELLO.C
+CCPSX.EXE HELLO.C -o HELLO.CPE
+CPE2EXE HELLO.CPE
 pause
 ```
-Now right click this file and select open with DOSBOX which will run the batch script and leave you at a new command prompt in DOS. If everything went successfuly you will notice a generated file called A.OUT.
+Now right click this file and select open with DOSBOX which will run the batch script and leave you at a new command prompt in DOS. If everything went successfuly you will notice a generated file called HELLO.EXE.
 
+---
 
 # TOMB5 Example
 Tomb Raider 5 (Chronicles) reversing project. It uses a modern version of make with the original PSYQ compilers so you can't run it through PSYMAKE.
