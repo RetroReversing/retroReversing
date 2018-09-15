@@ -28,7 +28,9 @@ references:
 editlink: dreamcast/Chicken Run Source Code.md
 ---
 
-Developed by Blitz Games (formerly known as Interactive Studios) in 2000 as a cross platform action adventure game based on the movie with the same name.
+Developed by Blitz Games (formerly known as Interactive Studios Limited) in 2000 as a cross platform action adventure game based on the movie with the same name.
+
+Throughout the engine you will find referenced to the acronym isl (Interactive Studios Limited) e.g islfile, islfont etc.
 
 # Act (Level) Data
 On Dreamcast each act has its own folder each with its own .BFF and .SPT and some containing region specific .SBB/.SBH files.
