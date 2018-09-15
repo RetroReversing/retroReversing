@@ -106,6 +106,13 @@ Presumably there were versions of this code with N64 and PS1 prefix used at ISL 
 
 ---
 
+# Missing Files
+As with most leaked source code there are some missing files these are:
+* shinobi.h
+* sg_syhw.h
+
+---
+
 # C Game Source Code
 Some of the source code for the game Chicken Run has been available to the internet as part of a "Dreamcast source code" bundle. After extracting the archive we are presented with two folders, "simple model shell" and "cr". 
 
