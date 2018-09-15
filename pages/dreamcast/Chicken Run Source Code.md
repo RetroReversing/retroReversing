@@ -35,6 +35,29 @@ On Dreamcast each act has its own folder each with its own .BFF and .SPT and som
 On PC each act also has its own folder plus the addition of .WAB files accompaning the .BFF and .SPT files.
 On PS1 the layout is completely different, presumably the data is compressed in CRTEST.DAT. it also contains a file called DUMMY which just contains padding 00 bytes.
 
+## BFF files
+There is a very helpful comment at the top of the `bff_load.c` file which explains what BFF files are:
+```
+Quickie guide to BFF files:-
+
+ A BFF is, simply, a collection of data segments, prefixed by a TYPE, a SIZE, and an ID (the CRC of a name)
+Data of many different types can just be shoved together into one file.
+After loading, the program scans through the list, checks the type of each segment, and calls a "link" routine
+for that type, which basically fills in any required pointers.
+
+ Then there's a little routine saying "find a bff segment of "such&such type, with this name-CRC"
+ ```
+
+---
+
+# Games Referenced in the Source code
+Developers tend to reuse the same engine or parts of the same engine for multiple games across a wide range of platforms (one of the beenfits of writing in cross-patform C), which means there are other games that will share many of the same source files used in chicken run. 
+Here is a list of games that have been referenced in the source code:
+* Glover
+* Action Man 2
+* Frogger 2
+
+---
 
 # C Game Source Code
 Some of the source code for the game Chicken Run has been available to the internet as part of a "Dreamcast source code" bundle. After extracting the archive we are presented with two folders, "simple model shell" and "cr". 
