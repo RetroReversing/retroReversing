@@ -33,7 +33,7 @@ Developed by Blitz Games (formerly known as Interactive Studios) in 2000 as a cr
 # Act (Level) Data
 On Dreamcast each act has its own folder each with its own .BFF and .SPT and some containing region specific .SBB/.SBH files.
 On PC each act also has its own folder plus the addition of .WAB files accompaning the .BFF and .SPT files.
-On PS1 the layout is completely different, presumably the data is compressed in DUMMY or CRTEST.DAT.
+On PS1 the layout is completely different, presumably the data is compressed in CRTEST.DAT. it also contains a file called DUMMY which just contains padding 00 bytes.
 
 
 # C Game Source Code
