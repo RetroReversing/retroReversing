@@ -706,9 +706,10 @@ Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 * James Steele (Tools Programming) - https://www.linkedin.com/in/james-steele-0a62791/
   - ```c
     // Since Fred insits on being such a clever bugger and using in-line assembler, this file contains a load of macros so that the custom.c,     custom2.c and map_draw.c compile and work on the PC as well as the PSX without me having to write a whole load of PC draw routines.
-    // James Steele
-  ```
+    // James Steele```
 * Chris Wilson (Tools Programming)
+  - ``` /*	Curtains.c - by Chris Wilson
+  It's curtains for you, my lad!*/```
 * Ian Bird (Additional Programming) - https://www.linkedin.com/in/ian-bird-19358780/
 * Steve Bond (Additional Programming) - https://www.linkedin.com/in/steve-bond-b21ba9/
 * Scott Lamb (Additional Programming) - https://www.linkedin.com/in/scottjameslamb/ (SL: in comments)
