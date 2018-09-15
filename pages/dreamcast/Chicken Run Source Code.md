@@ -108,8 +108,8 @@ Presumably there were versions of this code with N64 and PS1 prefix used at ISL 
 
 # Missing Files
 As with most leaked source code there are some missing files these are:
-* shinobi.h
-* sg_syhw.h
+* shinobi.h (Dreamcast) - part of dreamcast sdk?
+* sg_syhw.h (Dreamcast) - part of dreamcast sdk?
 
 ---
 
