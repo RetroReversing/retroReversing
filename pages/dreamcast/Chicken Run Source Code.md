@@ -19,6 +19,9 @@ breadcrumbs:
   - name: Chicken Run Source Code
     url: #
 videocarousel:
+  - title: Blitz Game Studios
+    image: http://img.youtube.com/vi/XVSNxQbQFJw/0.jpg
+    youtube: 'XVSNxQbQFJw'
   - title: Chicken Run
     image: http://img.youtube.com/vi/thRXO3YwOCg/0.jpg
     youtube: 'thRXO3YwOCg'
@@ -691,7 +694,7 @@ Max Eggs |	800AA1D0 0063 [^1]
 Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 
 # Game Credits
-* Fred Williams (Load Programmer)
+* Fred Williams (Lead Programmer) - https://twitter.com/RFredW
 * Tom Drummond
 * David Harries
 * Barry Peterson
@@ -703,7 +706,7 @@ Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 * Scott Lamb (Additional Programming)
 * Andy Sidwell (Additional Programming)
 * John Whigham (Additional Programming)
-* Richard Hackett (Compression Technology)
+* Richard Hackett (Compression Technology) - https://www.linkedin.com/in/richard-hackett-4324531
 
 # Sources
 [^1]: http://www.cheatcc.com/psx/codes/chickenr.html#ixzz5RAbHltbW 
