@@ -76,6 +76,14 @@ typedef struct BFF_HeaderTag
 ## SPT Files
 Used for File streaming, seems to be used for both texture and sound streaming.
 
+
+## CRTEST.DAT
+This is where the Chicken Run game data is stored on the PS1 version instead of the folder based layout of the PC and Dreamcast.
+It has a magic number of FLA2, not sure why, did they ever have a FLA1, what does FLA even stand for?
+```
+static char FILEIO_CDINDEX[64] = "\\CRTEST.DAT;1"; //	"\\MYGAME.DAT;1"
+#define FLA_MAGIC			0x32414c46			// Magic number 'FLA2' INTEL
+```
 ---
 
 # Games Referenced in the Source code
