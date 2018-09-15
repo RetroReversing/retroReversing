@@ -106,6 +106,14 @@ Presumably there were versions of this code with N64 and PS1 prefix used at ISL 
 
 ---
 
+# Compiling for Playstation 1 with PSYQ
+So although it was originally compiled for PS1, all the sourcecode has been modified for the dreamcast version so it will need some modifications in order to compile for the playstation.
+
+The following files won't compile to PS1 without modification:
+* types.c
+
+---
+
 # Missing Files
 As with most leaked source code there are some missing files these are:
 * shinobi.h (Dreamcast SDK)
