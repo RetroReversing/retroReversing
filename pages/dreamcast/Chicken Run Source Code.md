@@ -145,6 +145,15 @@ ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 
 # CR (Chicken run source)
 
+We actually have multiple versions of the chicken run source code:
+* the main cr folder
+* source folder under cr (dreamcast changes)
+* "Copy of Source" folder under cr
+
+This was very common before good version control software such as git came along, so developers would work in seperate folders and merge changes, or keep different console ports in different folders.
+
+The main files in cr are:
+
 Filename | Category | Description
 --- | --- | --- 
 DCK_Maths.c | 
