@@ -35,8 +35,8 @@ Presumably cr stands for chicken run and the simple model shell is a tool to dis
 # Simple Model Shell
 This tool would have been very useful for artists when exporting their models from their modelling software such as 3ds max or maya, as it will show what optimizations need to be made to the model.
 
-Filename | Description
---- | ---
+Filename | Description | Category
+--- | --- | ---
 DCK_Maths.c | 
 DCK_Maths.h | 
 DCK_System.c | 
@@ -88,8 +88,8 @@ ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 
 # CR (Chicken run source)
 
-Filename | Description
---- | ---
+Filename | Category | Description
+--- | --- | --- 
 DCK_Maths.c | 
 DCK_Maths.h | 
 DCK_System.c | 
@@ -143,7 +143,7 @@ cr.dsp |
 cr.dsw | 
 cr.ncb | 
 cr.opt | 
-crate.c | 
+crate.c | Animation | Chase sequence featuring Mrs Tweedy hanging from the airplane
 crate.h | 
 crc32.c | 
 crc32.h | 
