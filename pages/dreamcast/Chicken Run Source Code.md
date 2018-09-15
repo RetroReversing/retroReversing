@@ -695,7 +695,8 @@ Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 
 # Game Credits
 * Fred Williams (Lead Programmer) - https://twitter.com/RFredW
-  * ```// I'll do these things for platforms, with a view to copying 'em into the main collision code
+  - ```c
+    // I'll do these things for platforms, with a view to copying 'em into the main collision code
     // when it's free. Luv, Fred.
     ```
 * Tom Drummond (Programmer)
@@ -703,7 +704,8 @@ Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 * Barry Peterson (Programmer)
 * Chris Wilson (Programmer)
 * James Steele (Tools Programming) - https://www.linkedin.com/in/james-steele-0a62791/
-  - ``` Since Fred insits on being such a clever bugger and using in-line assembler, this file contains a load of macros so that the custom.c, custom2.c and map_draw.c compile and work on the PC as well as the PSX without me having to write a whole load of PC draw routines.
+  - ```c
+  Since Fred insits on being such a clever bugger and using in-line assembler, this file contains a load of macros so that the custom.c, custom2.c and map_draw.c compile and work on the PC as well as the PSX without me having to write a whole load of PC draw routines.
   James Steele
   ```
 * Chris Wilson (Tools Programming)
