@@ -114,6 +114,9 @@ The following files won't compile to PS1 without modification:
 
 However the root/cr/source folder contails a makefile.mak which is for psyq and build the PS1 version.
 
+## PSY-Q Linker Files
+The PS1 linker files are available for both the release and the demo version: `crtest.lnk` and `crdemo.lnk` respectivly. 
+
 ---
 
 # Missing Files
