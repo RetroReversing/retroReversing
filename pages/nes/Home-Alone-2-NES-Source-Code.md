@@ -6,6 +6,7 @@ permalink: /home-alone-2-nes-source-code/
 tags:
 - nes
 - games
+- sourcecode
 recommend: nes
 youtube: cqsCqG-uako
 image: http://img.youtube.com/vi/cqsCqG-uako/0.jpg
