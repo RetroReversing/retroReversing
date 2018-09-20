@@ -20,8 +20,15 @@ editlink: /ps1/PS1 PsyQ Linker.md
 ---
 
 ## PSY-Q Linker Files
-The PS1 linker files are available for both the release and the demo version: `crtest.lnk` and `crdemo.lnk` respectivly. 
-You can pass a .lnk file as a @ parameter to the C compiler (CCPSX.EXE) like so:
+The PS1 linker files for the game chicken run by Blitz Games were made publicly available and are available for both the release and the demo version: `crtest.lnk` and `crdemo.lnk` respectivly. 
+
+### So what are these control (.lnk) files?
+Control files are files that help the linker to decide where in memory a specific binary should be placed, they can be given any extension but using .LNK was common practise as the official PSYQ development samples used this file naming convention.
+
+So if you have a .lnk file you can figure out the structure of a playstation executable, which libraries were used and what the original source file names would have been.
+
+### How would a developer use .lnk files in their workflow?
+You can pass a .lnk file as a control parameter to the PSX Linker (PSYLINK.EXE) like so:
 ```c
 $(PSYLINK) /l $(LIBISL) /psx /wo /v /c /strip /nostriplib @crdemo.lnk,crdemo.cpe,crdemo.sym,crdemo.map
 ```
