@@ -70,22 +70,27 @@ text    group
 bss     group   bss	
 ```
 
-The rest of the contents of crdemo.lnk is:
-```c
-		regs    pc=__SN_ENTRY_POINT							   
+### Overlays
+The PSYQ development kit offered a uniqu feature called `Overlays` which allowed developers to switch out parts of the executable at run time, meaning they could load different executable code into memory at different times. This allowed better use of memory as developers were not limited to just the space of RAM.
 
+Chicken run demo didn't use overlays but the main released game did, it looks like they made effective use of this feature by splitting the game into subgames and using the same section of memory (vid_ovl) to load the subgame in depending on where the player is.
+```asm
 ;overlay1                group   file("overlay1.bin")                            ; Test 1
 ;overlay2                group   over(overlay1),file("overlay2.bin")     ; Test 2
 ;vid_ovl                 group   over(overlay1),file("vid_ovl.bin")    ; video play
 
-;vid_ovl                 group   file("vid_ovl.bin")      ; video
-;sub1_ovl                group   over(vid_ovl),file("sub1_ovl.bin")     ; subgames
-;sub2_ovl                group   over(vid_ovl),file("sub2_ovl.bin")     ; subgames
-;sub4_ovl                group   over(vid_ovl),file("sub4_ovl.bin")     ; subgames
-;deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug menu
-
+vid_ovl                 group   file("vid_ovl.bin")      ; video
+sub1_ovl                group   over(vid_ovl),file("sub1_ovl.bin")     ; subgames
+sub2_ovl                group   over(vid_ovl),file("sub2_ovl.bin")     ; subgames
+sub4_ovl                group   over(vid_ovl),file("sub4_ovl.bin")     ; subgames
+deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug menu
 ; exp_ovl			group	over(overlay1),file("exp_ovl.bin")	; explore game
+```
+Also of interesting note is there is a debug menu in the game that occupies this same region of memory, does this mean the debug menu doesn't apply when in the sub games? Also what happened to sub3? they went straight to subgame 4...
 
+The rest of the contents of crdemo.lnk is:
+```c
+		regs    pc=__SN_ENTRY_POINT							   
 ;        section.4096 align4k.text,text
 ;        section align4k.*,text
 ;        section align4k.bss,bss
