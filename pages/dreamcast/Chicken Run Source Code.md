@@ -135,13 +135,17 @@ You can specify as many control files as you want on the command
 line and a control file can even reference another control file.
 ```
 
-In this case the contents of crdemo.lnk is:
-```c
+### ORG directive
+The ORG directive is normally used is assemblers/linkers to choose a specific location for certain pieces of code. For the PS1 the executable is normally started at location 0x00018000 but for demos it seems to be 0x80018000, not sure why.
+```asm
 ;        org     $00018000
 ; 18000, this is a demo disk...
         org     $80018000
-		regs    pc=__SN_ENTRY_POINT
+```
 
+### Group directive
+You can also specify a section group such as text or bss here. In this executable we only have text for code and bss for small static variable init. Also it looks like they used to have a grouo called dcache but it was commented out.
+```asm
 text    group
 
 ; I've removed the dcache area so that it's definitely all available
@@ -151,7 +155,12 @@ text    group
 
 ;dcache  group   obj(0x1f800000),size(0x400)
 
-bss     group   bss									   
+bss     group   bss	
+```
+
+The rest of the contents of crdemo.lnk is:
+```c
+		regs    pc=__SN_ENTRY_POINT							   
 
 ;overlay1                group   file("overlay1.bin")                            ; Test 1
 ;overlay2                group   over(overlay1),file("overlay2.bin")     ; Test 2
