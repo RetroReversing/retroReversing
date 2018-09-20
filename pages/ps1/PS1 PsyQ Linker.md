@@ -55,6 +55,12 @@ The ORG directive is normally used is assemblers/linkers to choose a specific lo
         org     $80018000
 ```
 
+### REGS directive
+The REGS directive sets the initial value of registers, in the case below this will set the program counter to the location of `__SN_ENTRY_POINT` which is a symbol defined in the standard library `SNLIB.LIB`.
+```asm
+  		regs    pc=__SN_ENTRY_POINT	
+```
+
 ### Group directive
 You can also specify a section group such as text or bss here. In this executable we only have text for code and bss for small static variable init. Also it looks like they used to have a grouo called dcache but it was commented out.
 ```asm
@@ -88,9 +94,9 @@ deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug m
 ```
 Also of interesting note is there is a debug menu in the game that occupies this same region of memory, does this mean the debug menu doesn't apply when in the sub games? Also what happened to sub3? they went straight to subgame 4...
 
-The rest of the contents of crdemo.lnk is:
-```c
-		regs    pc=__SN_ENTRY_POINT							   
+### Section directive
+Example:
+```asm
 ;        section.4096 align4k.text,text
 ;        section align4k.*,text
 ;        section align4k.bss,bss
@@ -102,13 +108,17 @@ The rest of the contents of crdemo.lnk is:
 	section	.sbss,bss
 	section	.bss,bss
 
-;	section vid_ovl.*, vid_ovl
-;	section sub1_ovl.*, sub1_ovl
-;	section sub2_ovl.*, sub2_ovl
-;	section sub4_ovl.*, sub4_ovl
-;	section deb_ovl.*, deb_ovl
+	section vid_ovl.*, vid_ovl
+	section sub1_ovl.*, sub1_ovl
+	section sub2_ovl.*, sub2_ovl
+	section sub4_ovl.*, sub4_ovl
+	section deb_ovl.*, deb_ovl
+```
 
+### INCLUDE directive
 
+The rest of the contents of crdemo.lnk is:
+```asm						   
 ;include "fixed.obj"
 ;include "powerbar.obj"
 ;include "fx.obj"
