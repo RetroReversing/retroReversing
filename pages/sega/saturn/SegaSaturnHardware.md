@@ -20,7 +20,11 @@ breadcrumbs:
 references:
   - youtube
   - edge
+  - gamehut
 videocarousel:
+  - title: Sega Saturn Hardware Architecture
+    image: https://img.youtube.com/vi/RvRG_v8XpC0/maxresdefault.jpg
+    youtube: 'RvRG_v8XpC0'
   - title: Sega Saturn Teardown
     image: https://img.youtube.com/vi/H-4HH56_sOY/maxresdefault.jpg
     youtube: 'H-4HH56_sOY'
