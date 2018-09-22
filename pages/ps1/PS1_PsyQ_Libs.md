@@ -13,27 +13,7 @@ breadcrumbs:
     url: /
   - name: Sony Playstation 1
     url: /ps1
-  - name: Playstation 1 Games with Debug Symbols
-    url: #
-recommend: ps1
-editlink: /ps1/PS1Symbols.md
----
-
----
-layout: post
-tags: 
-- ps1
-- sdk
-title: Official Sony PS1 Libraries 
-thumbnail: /public/consoles/Sony Playstation.png
-image: /public/psyqlibs.png
-permalink: /ps1-libs
-breadcrumbs:
-  - name: Home
-    url: /
-  - name: Sony Playstation 1
-    url: /ps1
-  - name:Official Sony PS1 Libraries 
+  - name: Official Sony PS1 Libraries
     url: #
 recommend: ps1
 editlink: /ps1/PS1_PsyQ_Libs.md
