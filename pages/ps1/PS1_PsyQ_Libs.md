@@ -15,8 +15,7 @@ breadcrumbs:
   - name:Official Sony PS1 Libraries 
     url: #
 recommend: ps1
-editlink: /ps1/PS1 PsyQ Libs.html
-
+editlink: /ps1/PS1_PsyQ_Libs.md
 ---
 
 # LIBSN
