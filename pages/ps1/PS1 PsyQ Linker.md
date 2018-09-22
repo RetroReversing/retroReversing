@@ -297,3 +297,73 @@ Example from Chicken Run source code:
         inclib  "libds.lib"
 ;        inclib  "libpress.lib",vid_ovl
 ```
+
+# OBJ File format
+When you pass -c to `CCPSX.EXE` it can generate a compiled object for each of the source files, this is very useful when you have a make file set up using `PSYMAKE.EXE`, and you can be reasonably confident most games were developed with some sort of build system such as psymake.
+
+The resulting obj files are in the LINK 2 format and can be dumped using the PSYQ development tool called `DUMPOBJ.EXE`, you will have to run this in DOSBOX as it is a 16-bit executable.
+```bash
+DUMPOBJ.EXE hello.obj /c >hello_dumped.txt
+```
+
+This will produce output similar to:
+```
+Header : LNK version 2
+46 : Processor type 7
+16 : Section symbol number 1 '.rdata' in group 0 alignment 8
+16 : Section symbol number 2 '.text' in group 0 alignment 8
+16 : Section symbol number 3 '.data' in group 0 alignment 8
+16 : Section symbol number 4 '.sdata' in group 0 alignment 8
+16 : Section symbol number 5 '.sbss' in group 0 alignment 8
+16 : Section symbol number 6 '.bss' in group 0 alignment 8
+16 : Section symbol number 7 '.ctors' in group 0 alignment 8
+16 : Section symbol number 8 '.dtors' in group 0 alignment 8
+28 : Define file number 9 as "HE\HELLOWORLD.C"
+6 : Switch to section 2
+6 : Switch to section 1
+2 : Code 14 bytes
+
+0000:48 65 6c 6c 6f 2c 20 57 6f 72 6c 64 21 00 
+
+6 : Switch to section 2
+6 : Switch to section 2
+6 : Switch to section 2
+2 : Code 76 bytes
+
+0000:e8 ff bd 27 14 00 bf af 10 00 be af 21 f0 a0 03 
+0010:00 00 00 0c 00 00 00 00 00 00 04 3c 00 00 84 24 
+0020:00 00 00 0c 00 00 00 00 21 10 00 00 00 00 00 08 
+0030:00 00 00 00 21 e8 c0 03 14 00 bf 8f 10 00 be 8f 
+0040:18 00 bd 27 08 00 e0 03 00 00 00 00 
+
+10 : Patch type 74 at offset 10 with [b]
+10 : Patch type 82 at offset 18 with (sectbase(1)+$0)
+10 : Patch type 84 at offset 1c with (sectbase(1)+$0)
+10 : Patch type 74 at offset 20 with [c]
+10 : Patch type 74 at offset 2c with (sectbase(2)+$34)
+6 : Switch to section 2
+60 : End SLD info at offset 0
+14 : XREF symbol number b '__main'
+14 : XREF symbol number c 'printf'
+12 : XDEF symbol number a 'main' at offset 0 in section 2
+74 : Function start :
+  section 0002
+  offset $00000000
+  file 0000
+  start line 0
+  frame reg 30
+  frame size 24
+  return pc reg 31
+  mask $c0000000
+  mask offset -4
+  name main
+76 : Function end :
+  section 0002
+  offset $0000004c
+  end line 0
+0 : End of file
+```
+
+Notice that in the example we have a definition (XDEF) for the `main` function and we are referencing (XREF) `printf` from the standard libraries.
+
+The code for the function is printed in hexidecimal but you can convert this to assembly using a disassembler.
