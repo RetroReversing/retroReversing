@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - ps1
-- reverseengineering
+- sdk
 - symbols
 title: Official Sony PS1 Libraries 
 thumbnail: /public/consoles/Sony Playstation.png
