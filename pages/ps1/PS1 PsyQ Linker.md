@@ -367,3 +367,28 @@ Header : LNK version 2
 Notice that in the example we have a definition (XDEF) for the `main` function and we are referencing (XREF) `printf` from the standard libraries.
 
 The code for the function is printed in hexidecimal but you can convert this to assembly using a disassembler.
+
+# LIB File format
+A library file is just a collection of object files in the same format as above. In fact a lib is just an archive of them! The PSYQ development kit comes with a set of official sony libraries that are used in almost every retail game released.
+
+You can print the contents of a library (.lib) file using the PSYQ development tool called `PSYLIB.EXE` like so:
+```bash
+PSYLIB.EXE \l LIBSN.LIB
+```
+
+This will result in output like so:
+```c
+PsyLib version 2.04
+
+Module     Date     Time   Externals defined
+
+OPEN     20-09-95 20:44:22 PCopen 
+CLOSE    20-09-95 20:44:22 PCclose 
+LSEEK    20-09-95 20:44:22 PClseek 
+CREAT    20-09-95 20:44:22 PCcreat 
+SNREAD   20-09-95 20:44:22 _SN_read 
+SNMAIN   20-09-95 20:44:22 __bss __heapsize __SN_ENTRY_POINT __bsslen __data 
+                           __main __text __datalen __textlen 
+                           __do_global_dtors __heapbase 
+```
+Each Module would be a .c/.asm file compiled into an object file and then added to the library using the PSYLIB /a option. You can extract all the object files by pasing the `/x` command line flat to `PSYLIB.EXE`.
