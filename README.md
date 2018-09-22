@@ -52,6 +52,7 @@ https://www.retroreversing.com/
 
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
+* Game Hut - https://www.youtube.com/channel/UCfVFSjHQ57zyxajhhRc7i0g
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
 ## Palette 
