@@ -95,6 +95,7 @@ deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug m
 Also of interesting note is there is a debug menu in the game that occupies this same region of memory, does this mean the debug menu doesn't apply when in the sub games? Also what happened to sub3? they went straight to subgame 4...
 
 ### Section directive
+The section directive
 Example:
 ```asm
 ;        section.4096 align4k.text,text
@@ -116,8 +117,9 @@ Example:
 ```
 
 ### INCLUDE directive
+The Include directive is used to include a specific compiled C/asm object, normally produced by a C compiler, this will allow specifying the rough order that the objects should be linked in the executable, but note that the linker can reorder during optimisation so this order is not guaranteed!
 
-The rest of the contents of crdemo.lnk is:
+Example based on the Chicken Run crdemo.lnk:
 ```asm						   
 ;include "fixed.obj"
 ;include "powerbar.obj"
@@ -229,7 +231,12 @@ The rest of the contents of crdemo.lnk is:
         include "islxa.obj"
         include "islfile.obj"
 		include "islfont.obj"
+```
 
+### Inclib Directive
+The inclib directive is very similar to the include directive but instead links in a full library of files.
+Example from Chicken Run source code:
+```asm
 
 ; The ISL libraries
 ; "Debug" or "Release" versions are switched betwen in the makefile
