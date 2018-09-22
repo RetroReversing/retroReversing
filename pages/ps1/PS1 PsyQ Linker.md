@@ -120,6 +120,8 @@ Example:
 
 You can see the difference that the section directive makes by inspecting the map file generated, change the order of sections or comment some out to see what the default behaviour is.
 
+Note that it will still group sections together based on the group directive, so the text sections will be together and the bss sections will be grouped together.
+
 ### INCLUDE directive
 The Include directive is used to include a specific compiled C/asm object, normally produced by a C compiler, this will allow specifying the rough order that the objects should be linked in the executable, but note that the linker can reorder during optimisation so this order is not guaranteed!
 
