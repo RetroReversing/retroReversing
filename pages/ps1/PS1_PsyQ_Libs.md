@@ -140,3 +140,59 @@ STRTOK   | strtok
 QSORT    | qsort 
 BSEARCH  | bsearch 
 
+# LIBC2
+
+Module |  Date | Externals defined
+--- | --- | ---
+BCMP     | 23-07-99 | bcmp 
+BCOPY    | 23-07-99 | bcopy 
+BZERO    | 23-07-99 | bzero 
+GETC     | 23-07-99 | getc 
+GETCHAR  | 23-07-99 | getchar 
+GETS     | 23-07-99 | gets 
+MEMCHR   | 23-07-99 | memchr 
+MEMCMP   | 23-07-99 | memcmp 
+MEMCPY   | 23-07-99 | memcpy 
+MEMMOVE  | 23-07-99 | memmove 
+MEMSET   | 23-07-99 | memset 
+PUTC     | 23-07-99 | putc 
+PUTCHAR  | 23-07-99 | _putchar _putchar_flash putchar 
+QSORT    | 23-07-99 | qsort 
+RAND     | 23-07-99 | rand srand 
+STRCAT   | 23-07-99 | strcat 
+STRCHR   | 23-07-99 | strchr 
+STRCMP   | 23-07-99 | strcmp 
+STRCPY   | 23-07-99 | strcpy 
+STRCSPN  | 23-07-99 | strcspn 
+STRINGS  | 23-07-99 | index rindex 
+STRLEN   | 23-07-99 | strlen 
+STRNCAT  | 23-07-99 | strncat 
+STRNCMP  | 23-07-99 | strncmp 
+STRNCPY  | 23-07-99 | strncpy 
+STRPBRK  | 23-07-99 | strpbrk 
+STRRCHR  | 23-07-99 | strrchr 
+STRSPN   | 23-07-99 | strspn 
+STRSTR   | 23-07-99 | strstr 
+STRTOK   | 23-07-99 | strtok 
+STRTOUL  | 23-07-99 | strtoul 
+TODIGIT  | 23-07-99 | todigit 
+PRINTF   | 23-07-99 | printf 
+PRNT     | 23-07-99 | prnt 
+SPRINTF  | 23-07-99 | sprintf 
+ITOA     | 23-07-99 | itoa 
+PUTS     | 23-07-99 | puts 
+BSEARCH  | 23-07-99 | bsearch 
+LSEARCH  | 23-07-99 | lsearch 
+SETJMP   | 23-07-99 | setjmp longjmp 
+EXIT     | 23-07-99 | exit 
+MALLOC   | 23-07-99 | malloc free calloc realloc 
+ABS_0    | 23-07-99 | abs 
+ABS_1    | 23-07-99 | labs 
+ATOI_0   | 23-07-99 | atoi 
+ATOI_1   | 23-07-99 | atol 
+CTYPE_0  | 23-07-99 | _ctype_ 
+CTYPE_1  | 23-07-99 | toupper 
+CTYPE_2  | 23-07-99 | tolower 
+STRTOL_0 | 23-07-99 | strtol 
+STRTOL_1 | 23-07-99 | atob 
+
