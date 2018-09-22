@@ -75,3 +75,65 @@ _UDIV_W_ | 20-09-95 | __udiv_w_sdiv
 _UMODDI3 | 20-09-95 | __umoddi3 
 _VARARGS | 20-09-95 | __builtin_saveregs 
 __GCC_BC | 20-09-95 | __gcc_bcmp 
+
+# LIBC
+
+Module  |  Externals defined
+--- | ---
+A56      | exit 
+A58      | getc 
+A59      | putc 
+A60      | getchar 
+A61      | putchar 
+A62      | gets 
+A63      | puts 
+C10      | todigit 
+C12      | strtoul 
+C13      | strtol 
+C14      | abs 
+C15      | labs 
+C16      | atoi 
+C17      | atol 
+C18      | atob 
+C19      | setjmp 
+C20      | longjmp 
+C21      | strcat 
+C22      | strncat 
+C23      | strcmp 
+C24      | strncmp 
+C25      | strcpy 
+C26      | strncpy 
+C27      | strlen 
+C28      | index 
+C29      | rindex 
+C30      | strchr 
+C31      | strrchr 
+C32      | strpbrk 
+C33      | strspn 
+C34      | strcspn 
+C36      | strstr 
+C37      | toupper 
+C38      | tolower 
+C39      | bcopy 
+C40      | bzero 
+C42      | memcpy 
+C43      | memset 
+C46      | memchr 
+C47      | rand 
+C48      | srand 
+C51      | malloc 
+C52      | free 
+C53      | lsearch 
+C55      | calloc 
+C56      | realloc 
+C63      | printf 
+CTYPE0   | _ctype_ 
+SPRINTF  | sprintf 
+ITOA     | itoa 
+MEMMOVE  | memmove 
+BCMP     | bcmp 
+MEMCMP   | memcmp 
+STRTOK   | strtok 
+QSORT    | qsort 
+BSEARCH  | bsearch 
+
