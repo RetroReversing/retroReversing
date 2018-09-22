@@ -19,6 +19,8 @@ recommend: ps1
 editlink: /ps1/PS1_PsyQ_Libs.md
 ---
 
+Note that the order of the externals defined in this list will not reflect the order in the final linked executable, as the order here is just the order that the `PSYLIB.EXE` tool exports in. 
+
 # LIBSN
 
 Module  |   Date  |  Externals defined
