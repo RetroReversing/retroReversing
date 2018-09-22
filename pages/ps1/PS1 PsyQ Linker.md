@@ -95,7 +95,9 @@ deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug m
 Also of interesting note is there is a debug menu in the game that occupies this same region of memory, does this mean the debug menu doesn't apply when in the sub games? Also what happened to sub3? they went straight to subgame 4...
 
 ### Section directive
-The section directive
+The section directive allows youto specify the order of sections within the executable, if a section is missed out such as "icontim" it will be added to the start.
+
+So for example if in the example below the `section	.bss,bss` was missed out, it would still create that section but it would be before the other sections.
 Example:
 ```asm
 ;        section.4096 align4k.text,text
@@ -115,6 +117,8 @@ Example:
 	section sub4_ovl.*, sub4_ovl
 	section deb_ovl.*, deb_ovl
 ```
+
+You can see the difference that the section directive makes by inspecting the map file generated, change the order of sections or comment some out to see what the default behaviour is.
 
 ### INCLUDE directive
 The Include directive is used to include a specific compiled C/asm object, normally produced by a C compiler, this will allow specifying the rough order that the objects should be linked in the executable, but note that the linker can reorder during optimisation so this order is not guaranteed!
