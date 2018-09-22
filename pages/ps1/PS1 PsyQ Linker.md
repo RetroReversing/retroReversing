@@ -412,8 +412,7 @@ _ASHLDI3 | 20-09-95 | __ashldi3
 _ASHRDI3 | 20-09-95 | __ashrdi3 
 _CMPDI2  | 20-09-95 | __cmpdi2 
 _DIVDI3  | 20-09-95 | __divdi3 
-_EH      | 20-09-95 | __throw_type_match __register_exceptions 
-                           __find_first_exception_table_match 
+_EH      | 20-09-95 | __throw_type_match __register_exceptions __find_first_exception_table_match 
 _FFSDI2  | 20-09-95 | __ffsdi2 
 _FXDFDI  | 20-09-95 | __fixdfdi 
 _FXSFDI  | 20-09-95 | __fixsfdi 
@@ -435,8 +434,7 @@ _LSHRDI3 | 20-09-95 | __lshrdi3
 _MODDI3  | 20-09-95 | __moddi3 
 _MULDI3  | 20-09-95 | __muldi3 
 _NEGDI2  | 20-09-95 | __negdi2 
-_NEW_HAN | 20-09-95 | set_new_handler __new_handler 
-                           __default_new_handler 
+_NEW_HAN | 20-09-95 | set_new_handler __new_handler  __default_new_handler 
 _OP_DELE | 20-09-95 | __builtin_delete 
 _OP_NEW  | 20-09-95 | __builtin_new 
 _OP_VDEL | 20-09-95 | __builtin_vec_delete 
