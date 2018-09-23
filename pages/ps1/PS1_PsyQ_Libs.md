@@ -115,64 +115,6 @@ FREE3    | 23-07-99 | free3 *_r_bp *_r_p *_r_freep
 REALLOC3 | 23-07-99 | realloc3 
 CALLOC3  | 23-07-99 | calloc3 
 
-# LIBSN
-
-Module  |   Date  |  Externals defined
---- | --- | ---
-OPEN     | 20-09-95 | PCopen 
-CLOSE    | 20-09-95 | PCclose 
-LSEEK    | 20-09-95 | PClseek 
-CREAT    | 20-09-95 | PCcreat 
-SNREAD   | 20-09-95 | _SN_read 
-SNMAIN   | 20-09-95 | __bss __heapsize __SN_ENTRY_POINT __bsslen __data  __main __text __datalen __textlen  __do_global_dtors __heapbase 
-FSINIT   | 20-09-95 | PCinit 
-SNWRITE  | 20-09-95 | _SN_write 
-READ     | 20-09-95 | PCread 
-WRITE    | 20-09-95 | PCwrite 
-SNDEF    | 20-09-95 | _stacksize _ramsize 
-PUREV    | 20-09-95 | __pure_virtual 
-CACHE    | 20-09-95 | SNFlushCache 
-_ASHLDI3 | 20-09-95 | __ashldi3 
-_ASHRDI3 | 20-09-95 | __ashrdi3 
-_CMPDI2  | 20-09-95 | __cmpdi2 
-_DIVDI3  | 20-09-95 | __divdi3 
-_EH      | 20-09-95 | __throw_type_match __register_exceptions __find_first_exception_table_match 
-_FFSDI2  | 20-09-95 | __ffsdi2 
-_FXDFDI  | 20-09-95 | __fixdfdi 
-_FXSFDI  | 20-09-95 | __fixsfdi 
-_FXTFDI  | 20-09-95 | 
-_FXUSDFD | 20-09-95 | __fixunsdfdi 
-_FIXUSDF | 20-09-95 | __fixunsdfsi 
-_FXUSSFD | 20-09-95 | __fixunssfdi 
-_FXUSSFS | 20-09-95 | __fixunssfsi 
-_FXUSTFD | 20-09-95 | 
-_FXUSXFD | 20-09-95 | 
-_FXUSXFS | 20-09-95 | 
-_FXXFDI  | 20-09-95 | 
-_FLTDIDF | 20-09-95 | __floatdidf 
-_FLTDISF | 20-09-95 | __floatdisf 
-_FLTDITF | 20-09-95 | 
-_FLTDIXF | 20-09-95 | 
-_LSHLDI3 | 20-09-95 | __lshldi3 
-_LSHRDI3 | 20-09-95 | __lshrdi3 
-_MODDI3  | 20-09-95 | __moddi3 
-_MULDI3  | 20-09-95 | __muldi3 
-_NEGDI2  | 20-09-95 | __negdi2 
-_NEW_HAN | 20-09-95 | set_new_handler __new_handler  __default_new_handler 
-_OP_DELE | 20-09-95 | __builtin_delete 
-_OP_NEW  | 20-09-95 | __builtin_new 
-_OP_VDEL | 20-09-95 | __builtin_vec_delete 
-_OP_VNEW | 20-09-95 | __builtin_vec_new 
-_SHTAB   | 20-09-95 | __shtab 
-_TRAMPOL | 20-09-95 | 
-_UCMPDI2 | 20-09-95 | __ucmpdi2 
-_UDIVDI3 | 20-09-95 | __udivdi3 
-_UDIVMOD | 20-09-95 | __udivmoddi4 
-_UDIV_W_ | 20-09-95 | __udiv_w_sdiv 
-_UMODDI3 | 20-09-95 | __umoddi3 
-_VARARGS | 20-09-95 | __builtin_saveregs 
-__GCC_BC | 20-09-95 | __gcc_bcmp 
-
 # LIBC
 
 Module  |  Externals defined
@@ -2014,3 +1956,460 @@ PDTAPRES | 23-07-99 | _mtapLastResult _padInitMtapPort _mtapFailAuto
 PDRESRES | 23-07-99 | _padFuncNextPort _padFuncClrInfo _padFuncGetTxd _padFuncCurrLimit _padFuncPtr2Port _padFuncPort2Info _padFuncSendAuto _padFuncChkEng _padFuncRecvAuto _padFuncClrCmdNo _padFuncIntGun _padFuncSetGunPort _padFuncGetGunPos _padInfoDir _padIntExec _padGunExec _padSioChan _padSioState _padTotalCurr _padModeMtap _padChanStart _padChanStop _padFixResult _padVsyncParam _padIntPad _padIsVsync _padCalledIntPad *_padRestPeriod _padInitSioMode _padSetRC2wait _padChkRC2wait _padClrIntSio0 _padWaitRXready _padSioRW _padSioRW2 _padSetCmd _padSendAtLoadInfo _padRecvAtLoadInfo _padGetActSize _padLoadActInfo _padCmdParaMode 
 PDHOKRES | 23-07-99 | *_padGunPosHbuf *_padGunPosVbuf _padGunInitHook _padGunExitHook _padGetHitCount _padClrHitCount 
 
+# LIBPress
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+LIBPRESS | 23-07-99 | DecDCTReset DecDCTGetEnv DecDCTPutEnv DecDCTin DecDCTout DecDCTinSync DecDCToutSync DecDCTinCallback DecDCToutCallback 
+VLC      | 23-07-99 | DecDCTvlcSize DecDCTvlc 
+VLC_C    | 23-07-99 | DecDCTvlcSize2 DecDCTvlc2 
+BUILD    | 23-07-99 | DecDCTvlcBuild 
+ENCSPU   | 23-07-99 | EncSPU 
+ENCSPU2  | 23-07-99 | EncSPU2 
+TABLE    | 23-07-99 | CF_DVLC CF2_DVLC 
+DCT002   | 23-07-99 | DecDCTBufSize 
+TBL_001  | 23-07-99 | DCL_DVLC 
+TBL_002  | 23-07-99 | DCC_DVLC 
+
+# LIBSIO
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+SIOHANDL | 23-07-99 | *siobuf _sio_driver siocons DelSIO AddSIO 
+LIBSIO   | 23-07-99 | _cdevinput _cdevscan _circgetc _ioabort add_nullcon_driver 
+SIO      | 23-07-99 | _sio_control *cntl *mode *baud 
+SIOCB    | 23-07-99 | Sio1Callback 
+
+# LIBSN
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+OPEN     | 20-09-95 | PCopen 
+CLOSE    | 20-09-95 | PCclose 
+LSEEK    | 20-09-95 | PClseek 
+CREAT    | 20-09-95 | PCcreat 
+SNREAD   | 20-09-95 | _SN_read 
+SNMAIN   | 20-09-95 | __bss __heapsize __SN_ENTRY_POINT __bsslen __data  __main __text __datalen __textlen  __do_global_dtors __heapbase 
+FSINIT   | 20-09-95 | PCinit 
+SNWRITE  | 20-09-95 | _SN_write 
+READ     | 20-09-95 | PCread 
+WRITE    | 20-09-95 | PCwrite 
+SNDEF    | 20-09-95 | _stacksize _ramsize 
+PUREV    | 20-09-95 | __pure_virtual 
+CACHE    | 20-09-95 | SNFlushCache 
+_ASHLDI3 | 20-09-95 | __ashldi3 
+_ASHRDI3 | 20-09-95 | __ashrdi3 
+_CMPDI2  | 20-09-95 | __cmpdi2 
+_DIVDI3  | 20-09-95 | __divdi3 
+_EH      | 20-09-95 | __throw_type_match __register_exceptions __find_first_exception_table_match 
+_FFSDI2  | 20-09-95 | __ffsdi2 
+_FXDFDI  | 20-09-95 | __fixdfdi 
+_FXSFDI  | 20-09-95 | __fixsfdi 
+_FXTFDI  | 20-09-95 | 
+_FXUSDFD | 20-09-95 | __fixunsdfdi 
+_FIXUSDF | 20-09-95 | __fixunsdfsi 
+_FXUSSFD | 20-09-95 | __fixunssfdi 
+_FXUSSFS | 20-09-95 | __fixunssfsi 
+_FXUSTFD | 20-09-95 | 
+_FXUSXFD | 20-09-95 | 
+_FXUSXFS | 20-09-95 | 
+_FXXFDI  | 20-09-95 | 
+_FLTDIDF | 20-09-95 | __floatdidf 
+_FLTDISF | 20-09-95 | __floatdisf 
+_FLTDITF | 20-09-95 | 
+_FLTDIXF | 20-09-95 | 
+_LSHLDI3 | 20-09-95 | __lshldi3 
+_LSHRDI3 | 20-09-95 | __lshrdi3 
+_MODDI3  | 20-09-95 | __moddi3 
+_MULDI3  | 20-09-95 | __muldi3 
+_NEGDI2  | 20-09-95 | __negdi2 
+_NEW_HAN | 20-09-95 | set_new_handler __new_handler  __default_new_handler 
+_OP_DELE | 20-09-95 | __builtin_delete 
+_OP_NEW  | 20-09-95 | __builtin_new 
+_OP_VDEL | 20-09-95 | __builtin_vec_delete 
+_OP_VNEW | 20-09-95 | __builtin_vec_new 
+_SHTAB   | 20-09-95 | __shtab 
+_TRAMPOL | 20-09-95 | 
+_UCMPDI2 | 20-09-95 | __ucmpdi2 
+_UDIVDI3 | 20-09-95 | __udivdi3 
+_UDIVMOD | 20-09-95 | __udivmoddi4 
+_UDIV_W_ | 20-09-95 | __udiv_w_sdiv 
+_UMODDI3 | 20-09-95 | __umoddi3 
+_VARARGS | 20-09-95 | __builtin_saveregs 
+__GCC_BC | 20-09-95 | __gcc_bcmp 
+
+# LIBSND
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+CCADSR   | 23-07-99 | _SsUtResolveADSR _SsUtBuildADSR 
+CC_0     | 23-07-99 | _SsContBankChange 
+CC_6     | 23-07-99 | _SsContDataEntry 
+CC_7     | 23-07-99 | _SsContMainVol 
+CC_10    | 23-07-99 | _SsContPanpot 
+CC_11    | 23-07-99 | _SsContExpression 
+CC_64    | 23-07-99 | _SsContDamper 
+CC_91    | 23-07-99 | _SsContExternal 
+CC_98    | 23-07-99 | _SsContNrpn1 
+CC_99    | 23-07-99 | _SsContNrpn2 
+CC_100   | 23-07-99 | _SsContRpn1 
+CC_101   | 23-07-99 | _SsContRpn2 
+CC_121   | 23-07-99 | _SsContResetAll 
+DE_0     | 23-07-99 | _SsSetNrpnVabAttr0 
+DE_1     | 23-07-99 | _SsSetNrpnVabAttr1 
+DE_2     | 23-07-99 | _SsSetNrpnVabAttr2 
+DE_3     | 23-07-99 | _SsSetNrpnVabAttr3 
+DE_4     | 23-07-99 | _SsSetNrpnVabAttr4 
+DE_5     | 23-07-99 | _SsSetNrpnVabAttr5 
+DE_6     | 23-07-99 | _SsSetNrpnVabAttr6 
+DE_7     | 23-07-99 | _SsSetNrpnVabAttr7 
+DE_8     | 23-07-99 | _SsSetNrpnVabAttr8 
+DE_9     | 23-07-99 | _SsSetNrpnVabAttr9 
+DE_10    | 23-07-99 | _SsSetNrpnVabAttr10 
+DE_11    | 23-07-99 | _SsSetNrpnVabAttr11 
+DE_12    | 23-07-99 | _SsSetNrpnVabAttr12 
+DE_13    | 23-07-99 | _SsSetNrpnVabAttr13 
+DE_14    | 23-07-99 | _SsSetNrpnVabAttr14 
+DE_15    | 23-07-99 | _SsSetNrpnVabAttr15 
+DE_16    | 23-07-99 | _SsSetNrpnVabAttr16 
+DE_17    | 23-07-99 | _SsSetNrpnVabAttr17 
+DE_18    | 23-07-99 | _SsSetNrpnVabAttr18 
+DE_19    | 23-07-99 | _SsSetNrpnVabAttr19 
+CRES     | 23-07-99 | _SsSndCrescendo 
+DECRES   | 23-07-99 | 
+MIDIBEND | 23-07-99 | _SsSetPitchBend 
+MIDICC   | 23-07-99 | _SsSetControlChange 
+MIDIMETA | 23-07-99 | _SsGetMetaEvent 
+MIDINOTE | 23-07-99 | _SsNoteOn 
+MIDIPROG | 23-07-99 | _SsSetProgramChange 
+MIDIREAD | 23-07-99 | _SsSeqPlay _SsGetSeqData _SsSeqGetEof 
+MIDITIME | 23-07-99 | _SsReadDeltaValue 
+NEXT     | 23-07-99 | _SsSndNextSep 
+NPAUSE   | 23-07-99 | _SsSndNextPause 
+PAUSE    | 23-07-99 | _SsSndPause 
+PLAY     | 23-07-99 | _SsSndPlay 
+REPLAY   | 23-07-99 | _SsSndReplay 
+SEPINIT  | 23-07-99 | _SsInitSoundSep 
+SEQINIT  | 23-07-99 | _SsInitSoundSeq 
+SSACCELE | 23-07-99 | _SsSndSetAccele SsSeqSetAccelerando SsSepSetAccelerando 
+SSCALL   | 23-07-99 | SsSeqCalledTbyT 
+SSCLOSE  | 23-07-99 | SsSeqClose SsSepClose 
+SSCMUTE  | 23-07-99 | SsChannelMute 
+SSGCMUTE | 23-07-99 | SsGetChannelMute 
+SSCRES   | 23-07-99 | _SsSndSetCres SsSeqSetCrescendo SsSepSetCrescendo 
+SSDECRES | 23-07-99 | _SsSndSetDecres SsSeqSetDecrescendo SsSepSetDecrescendo 
+SSEND    | 23-07-99 | SsEnd 
+SSGM     | 23-07-99 | SsGetMute 
+SSGMV    | 23-07-99 | SsGetMVol 
+SSGNC    | 23-07-99 | SsGetNck 
+SSGRV    | 23-07-99 | SsGetRVol 
+SSGSATTR | 23-07-99 | SsGetSerialAttr 
+SSGSV    | 23-07-99 | SsGetSerialVol 
+SSINIT   | 23-07-99 | _snd_vmask _SsInit *_SsMarkCallback *VBLANK_MINUS *_snd_openflag *_snd_ev_flag *SsFCALL *_ss_score *_snd_seq_s_max *_snd_seq_t_max 
+SSINIT_C | 23-07-99 | SsInit 
+SSINIT_H | 23-07-99 | SsInitHot 
+SSLOOP   | 23-07-99 | SsSetLoop 
+SSISEOS  | 23-07-99 | SsIsEos 
+SSMARK   | 23-07-99 | SsSetMarkCallback 
+SSNEXT   | 23-07-99 | SsSetNext 
+SSNEXT_2 | 23-07-99 | SsSeqSetNext 
+SSNOFF   | 23-07-99 | SsSetNoiseOff 
+SSNON    | 23-07-99 | SsSetNoiseOn 
+SSOPENP  | 23-07-99 | SsSepOpen 
+SSOPENQ  | 23-07-99 | SsSeqOpen 
+SSOPENPJ | 23-07-99 | SsSepOpenJ 
+SSOPENQJ | 23-07-99 | SsSeqOpenJ 
+SSPAUSE  | 23-07-99 | _SsSndSetPauseMode SsSeqPause SsSepPause 
+SSPLAY   | 23-07-99 | SsSeqPlay 
+SSPLAY_2 | 23-07-99 | SsSepPlay 
+SSPLAYB  | 23-07-99 | SsPlayBack 
+SSQUIT   | 23-07-99 | SsQuit 
+SSREPLAY | 23-07-99 | _SsSndSetReplayMode SsSeqReplay SsSepReplay 
+PLAYMODE | 23-07-99 | Snd_SetPlayMode 
+SSRIT    | 23-07-99 | _SsSndSetRit SsSeqSetRitardando SsSepSetRitardando 
+SSP      | 23-07-99 | SsSeqSkip 
+SSSP     | 23-07-99 | SsSetCurrentPoint 
+SSPPTP   | 23-07-99 | SsSeqPlayPtoP 
+SSSATTR  | 23-07-99 | SsSetSerialAttr 
+SSSM     | 23-07-99 | SsSetMute 
+SSSMV    | 23-07-99 | SsSetMVol 
+SSSNC    | 23-07-99 | SsSetNck 
+SSSRV    | 23-07-99 | SsSetRVol 
+SSSTART  | 23-07-99 | _snd_seq_tick_env SsStart SsStart2 
+SSSTOP   | 23-07-99 | _SsSndStop SsSeqStop SsSepStop 
+SSSV     | 23-07-99 | SsSetSerialVol 
+SSTABLE  | 23-07-99 | SsSetTableSize 
+SSTEMPO  | 23-07-99 | SsSetTempo 
+SSTICK   | 23-07-99 | SsSetTickMode 
+SSTICKCB | 23-07-99 | SsSetTickCallback 
+SSVKOFF  | 23-07-99 | SsVoKeyOff 
+SSVKON   | 23-07-99 | SsVoKeyOn 
+SSVOL    | 23-07-99 | _SsSndSetVol SsSeqSetVol SsSepSetVol 
+SSVOL_2  | 23-07-99 | SsSeqGetVol 
+TEMPO    | 23-07-99 | _SsSndTempo 
+VOL      | 23-07-99 | _SsSndSetVolData 
+DMYNOT1  | 23-07-99 | dmy_nothing1 
+DMYNOTE  | 23-07-99 | dmy_SsNoteOn 
+DMYPROG  | 23-07-99 | dmy_SsSetProgramChange 
+DMYMETA  | 23-07-99 | dmy_SsGetMetaEvent 
+DMYBEND  | 23-07-99 | dmy_SsSetPitchBend 
+DMYCC    | 23-07-99 | dmy_SsSetControlChange 
+DMYCC_0  | 23-07-99 | dmy_SsContBankChange 
+DMYCC_6  | 23-07-99 | dmy_SsContDataEntry 
+DMYCC_7  | 23-07-99 | dmy_SsContMainVol 
+DMYCC_10 | 23-07-99 | dmy_SsContPanpot 
+DMYCC_11 | 23-07-99 | dmy_SsContExpression 
+DMYCC_64 | 23-07-99 | dmy_SsContDamper 
+DMYCC_91 | 23-07-99 | dmy_SsContExternal 
+DMYCC_98 | 23-07-99 | dmy_SsContNrpn1 
+DMYCC_99 | 23-07-99 | dmy_SsContNrpn2 
+DMYCC100 | 23-07-99 | dmy_SsContRpn1 
+DMYCC101 | 23-07-99 | dmy_SsContRpn2 
+DMYCC121 | 23-07-99 | dmy_SsContResetAll 
+DMYDE_0  | 23-07-99 | dmy_SsSetNrpnVabAttr0 
+DMYDE_1  | 23-07-99 | dmy_SsSetNrpnVabAttr1 
+DMYDE_2  | 23-07-99 | dmy_SsSetNrpnVabAttr2 
+DMYDE_3  | 23-07-99 | dmy_SsSetNrpnVabAttr3 
+DMYDE_4  | 23-07-99 | dmy_SsSetNrpnVabAttr4 
+DMYDE_5  | 23-07-99 | dmy_SsSetNrpnVabAttr5 
+DMYDE_6  | 23-07-99 | dmy_SsSetNrpnVabAttr6 
+DMYDE_7  | 23-07-99 | dmy_SsSetNrpnVabAttr7 
+DMYDE_8  | 23-07-99 | dmy_SsSetNrpnVabAttr8 
+DMYDE_9  | 23-07-99 | dmy_SsSetNrpnVabAttr9 
+DMYDE_10 | 23-07-99 | dmy_SsSetNrpnVabAttr10 
+DMYDE_11 | 23-07-99 | dmy_SsSetNrpnVabAttr11 
+DMYDE_12 | 23-07-99 | dmy_SsSetNrpnVabAttr12 
+DMYDE_13 | 23-07-99 | dmy_SsSetNrpnVabAttr13 
+DMYDE_14 | 23-07-99 | dmy_SsSetNrpnVabAttr14 
+DMYDE_15 | 23-07-99 | dmy_SsSetNrpnVabAttr15 
+DMYDE_16 | 23-07-99 | dmy_SsSetNrpnVabAttr16 
+DMYDE_17 | 23-07-99 | dmy_SsSetNrpnVabAttr17 
+DMYDE_18 | 23-07-99 | dmy_SsSetNrpnVabAttr18 
+DMYDE_19 | 23-07-99 | dmy_SsSetNrpnVabAttr19 
+SSGCP    | 23-07-99 | SsGetCurrentPoint 
+SSVM     | 23-07-99 | SsSetVoiceMask 
+SSVM_2   | 23-07-99 | SsGetVoiceMask 
+UT_AKO   | 23-07-99 | SsUtAllKeyOff 
+UT_AUTOP | 23-07-99 | SsUtAutoPan 
+UT_AUTOV | 23-07-99 | SsUtAutoVol 
+UT_CADSR | 23-07-99 | SsUtChangeADSR 
+UT_CP    | 23-07-99 | SsUtChangePitch 
+UT_F     | 23-07-99 | SsUtFlush 
+UT_GPA   | 23-07-99 | SsUtGetProgAtr 
+UT_GVA   | 23-07-99 | SsUtGetVagAtr 
+UT_GVAD  | 23-07-99 | SsUtGetVagAddr 
+UT_GVAFT | 23-07-99 | SsUtGetVagAddrFromTone 
+UT_GVBA  | 23-07-99 | SsUtGetVBaddrInSB 
+UT_GVH   | 23-07-99 | SsUtGetVabHdr 
+UT_KEY   | 23-07-99 | SsUtKeyOn SsUtKeyOff 
+UT_KEYV  | 23-07-99 | SsUtKeyOnV SsUtKeyOffV 
+UT_PB    | 23-07-99 | SsUtPitchBend 
+UT_RDEL  | 23-07-99 | SsUtSetReverbDelay 
+UT_RDEP  | 23-07-99 | SsUtSetReverbDepth 
+UT_REV   | 23-07-99 | SsUtSetReverbType 
+UT_REV_2 | 23-07-99 | SsUtGetReverbType 
+UT_RFB   | 23-07-99 | SsUtSetReverbFeedback 
+UT_ROFF  | 23-07-99 | SsUtReverbOff 
+UT_RON   | 23-07-99 | SsUtReverbOn 
+UT_SPA   | 23-07-99 | SsUtSetProgAtr 
+UT_SVA   | 23-07-99 | SsUtSetVagAtr 
+UT_SVH   | 23-07-99 | SsUtSetVabHdr 
+UT_VVOL  | 23-07-99 | SsUtGetDetVVol 
+UT_VVOL2 | 23-07-99 | SsUtSetDetVVol 
+UT_VVOL3 | 23-07-99 | SsUtGetVVol 
+UT_VVOL4 | 23-07-99 | SsUtSetVVol 
+VM_ALOC1 | 23-07-99 | _SsVmAlloc 
+VM_ALOC2 | 23-07-99 | _SsVmDoAllocate 
+VM_AUTOP | 23-07-99 | SeAutoPan SetAutoPan 
+VM_AUTOV | 23-07-99 | SeAutoVol SetAutoVol 
+VM_DOFF  | 23-07-99 | _SsVmDamperOff 
+VM_DON   | 23-07-99 | _SsVmDamperOn 
+VM_F     | 23-07-99 | _SsVmFlush *_svm_envx_ptr *_svm_envx_hist *_svm_voice *_svm_okof1 *_svm_okon1 *_svm_okof2 *_svm_okon2 *_autovol *_autopan *_svm_sreg_dirty *_svm_sreg_buf *_svm_orev2 *_svm_orev1 *_svm_onos2 *_svm_onos1 
+VM_G     | 23-07-99 | *_svm_stereo_mono *_svm_vab_not_send_size *_svm_rattr *_svm_vab_used *_SsVmMaxVoice *_svm_vab_count *kMaxPrograms *_svm_cur *_svm_damper *_svm_auto_kof_mode *_svm_vab_vh *_svm_vab_pg *_svm_vab_tn *_svm_vab_start *_svm_vab_total *_svm_vh *_svm_pg *_svm_tn *_svm_vg 
+VM_INIT  | 23-07-99 | _SsVmInit 
+VM_KEY   | 23-07-99 | _SsVmKeyOn _SsVmKeyOff _SsVmSeKeyOn _SsVmSeKeyOff 
+VM_KEY_2 | 23-07-99 | KeyOnCheck 
+VM_N2P   | 23-07-99 | note2pitch SsPitchFromNote note2pitch2 
+VM_NO1   | 23-07-99 | vmNoiseOn 
+VM_NO2   | 23-07-99 | vmNoiseOn2 
+VM_NOFF  | 23-07-99 | vmNoiseOff 
+VM_NOISE | 23-07-99 | _SsVmNoiseOnWithAdsr _SsVmNoiseOn 
+VM_NOIS2 | 23-07-99 | _SsVmNoiseOff 
+VM_NOWOF | 23-07-99 | _SsVmKeyOffNow 
+VM_NOWON | 23-07-99 | _SsVmKeyOnNow 
+VM_PB    | 23-07-99 | _SsVmPBVoice _SsVmPitchBend 
+VM_PORTA | 23-07-99 | 
+VM_PROG  | 23-07-99 | _SsVmGetProgVol _SsVmSetProgPan _SsVmGetProgPan 
+VM_PROG2 | 23-07-99 | _SsVmSetProgVol 
+VM_SEQ   | 23-07-99 | _SsVmSetSeqVol _SsVmGetSeqVol _SsVmSeqKeyOff 
+VM_SEQ_2 | 23-07-99 | _SsVmGetSeqLVol _SsVmGetSeqRVol 
+VM_SPB   | 23-07-99 | SePitchBend 
+VM_STAV  | 23-07-99 | _SsVmSelectToneAndVag 
+VM_VIB   | 23-07-99 | SeVibOn SetVib SsUtVibrateOn SsUtVibrateOff 
+VM_VOL   | 23-07-99 | _SsVmSetVol 
+VM_VSU   | 23-07-99 | _SsVmVSetUp 
+VS_AUTO  | 23-07-99 | SsSetAutoKeyOffMode 
+VS_MONO  | 23-07-99 | SsSetMono SsSetStereo 
+VS_SRV   | 23-07-99 | SsSetReservedVoice 
+VS_VAB   | 23-07-99 | SsVabClose 
+VS_VFB   | 23-07-99 | SsVabFakeBody 
+VS_VH    | 23-07-99 | SsVabOpenHeadSticky _SsVabOpenHeadWithMode SsVabFakeHead 
+VS_VH2   | 23-07-99 | SsVabOpenHead 
+VS_VT    | 23-07-99 | SsVabTransfer 
+VS_VTB   | 23-07-99 | SsVabTransBody 
+VS_VTBP  | 23-07-99 | SsVabTransBodyPartly 
+VS_VTC   | 23-07-99 | SsVabTransCompleted 
+VM_ALOC3 | 23-07-99 | SsBlockVoiceAllocation 
+VM_ALOC4 | 23-07-99 | SsUnBlockVoiceAllocation 
+VM_ALOC5 | 23-07-99 | SsAllocateVoices 
+Q_KEYON  | 23-07-99 | SsQueueKeyOn 
+Q_KEYON2 | 23-07-99 | SsQueueReverb 
+Q_KEYON3 | 23-07-99 | SsQueueRegisters 
+Q_KEYON4 | 23-07-99 | SsGetActualProgFromProg 
+Q_KEYON5 | 23-07-99 | SsSetVoiceSettings 
+Q_KEYON6 | 23-07-99 | SsVoiceCheck 
+
+# LIBSPU
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+SPU      | 23-07-99 | _spu_RXX _spu_tsa _spu_transMode _spu_addrMode _spu_mem_mode _spu_mem_mode_plus _spu_mem_mode_unit _spu_mem_mode_unitM _spu_inTransfer _spu_transferCallback _spu_IRQCallback _spu_init _spu_Fw1ts *_spu_RQ _spu_FiDMA _spu_Fr_ _spu_t _spu_Fw _spu_Fr _spu_FsetRXX _spu_FsetRXXa _spu_FgetRXXa _spu_FsetPCR 
+S_CB     | 23-07-99 | _SpuCallback 
+S_DCB    | 23-07-99 | _SpuDataCallback 
+SPU_GEX  | 23-07-99 | 
+S_INI    | 23-07-99 | _spu_EVdma _spu_keystat _spu_trans_mode _spu_rev_flag _spu_rev_reserve_wa _spu_rev_offsetaddr _spu_rev_attr _spu_RQvoice _spu_RQmask _spu_voice_centerNote _spu_env _SpuInit SpuStart _spu_isCalled 
+S_I      | 23-07-99 | SpuInit 
+S_IH     | 23-07-99 | SpuInitHot 
+S_Q      | 23-07-99 | SpuQuit 
+S_SM     | 23-07-99 | SpuSetMute 
+S_GM     | 23-07-99 | SpuGetMute 
+S_M      | 23-07-99 | _spu_AllocBlockNum _spu_AllocLastNum _spu_memList 
+S_M_INT  | 23-07-99 | _spu_gcSPU 
+S_M_INIT | 23-07-99 | SpuInitMalloc 
+S_M_UTIL | 23-07-99 | _SpuIsInAllocateArea _SpuIsInAllocateArea_ 
+S_M_M    | 23-07-99 | SpuMalloc 
+S_M_WSA  | 23-07-99 | SpuMallocWithStartAddr 
+S_M_F    | 23-07-99 | SpuFree 
+S_M_X    | 23-07-99 | _spu_print 
+S_SE     | 23-07-99 | SpuSetEnv 
+S_F      | 23-07-99 | SpuFlush 
+ZEROBUF  | 23-07-99 | _spu_zerobuf 
+S_SAV    | 23-07-99 | _SpuSetAnyVoice 
+S_GAV    | 23-07-99 | _SpuGetAnyVoice 
+S_SNV    | 23-07-99 | SpuSetNoiseVoice 
+S_GNV    | 23-07-99 | SpuGetNoiseVoice 
+S_SNC    | 23-07-99 | SpuSetNoiseClock 
+S_GNC    | 23-07-99 | SpuGetNoiseClock 
+S_SR     | 23-07-99 | SpuSetReverb 
+S_GR     | 23-07-99 | SpuGetReverb 
+S_SRMP   | 23-07-99 | SpuSetReverbModeParam 
+S_GRMP   | 23-07-99 | SpuGetReverbModeParam 
+S_SRA    | 23-07-99 | _spu_setReverbAttr 
+S_RRWA   | 23-07-99 | SpuReserveReverbWorkArea 
+S_IRWAR  | 23-07-99 | SpuIsReverbWorkAreaReserved 
+S_SRD    | 23-07-99 | SpuSetReverbDepth 
+S_SRV    | 23-07-99 | SpuSetReverbVoice 
+S_GRV    | 23-07-99 | SpuGetReverbVoice 
+S_CRWA   | 23-07-99 | SpuClearReverbWorkArea 
+S_RDD    | 23-07-99 | SpuReadDecodedData 
+S_SI     | 23-07-99 | SpuSetIRQ 
+S_GI     | 23-07-99 | SpuGetIRQ 
+S_SIA    | 23-07-99 | SpuSetIRQAddr 
+S_GIA    | 23-07-99 | SpuGetIRQAddr 
+S_SIC    | 23-07-99 | SpuSetIRQCallback 
+S_SK     | 23-07-99 | SpuSetKey 
+S_GKS    | 23-07-99 | SpuGetKeyStatus 
+S_SKOWA  | 23-07-99 | SpuSetKeyOnWithAttr 
+S_GVEA   | 23-07-99 | SpuGetVoiceEnvelopeAttr 
+S_R      | 23-07-99 | SpuRead 
+S_W      | 23-07-99 | SpuWrite 
+S_W0     | 23-07-99 | SpuWrite0 
+S_STSA   | 23-07-99 | SpuSetTransferStartAddr 
+S_GTSA   | 23-07-99 | SpuGetTransferStartAddr 
+S_STM    | 23-07-99 | SpuSetTransferMode 
+S_GTM    | 23-07-99 | SpuGetTransferMode 
+S_WP     | 23-07-99 | SpuWritePartly 
+S_ITC    | 23-07-99 | SpuIsTransferCompleted 
+S_STC    | 23-07-99 | SpuSetTransferCallback 
+S_IT     | 23-07-99 | _spu_setInTransfer _spu_getInTransfer 
+S_SPLV   | 23-07-99 | SpuSetPitchLFOVoice 
+S_GPLV   | 23-07-99 | SpuGetPitchLFOVoice 
+S_GCA    | 23-07-99 | SpuGetCommonAttr 
+S_N2P    | 23-07-99 | _spu_note2pitch _spu_pitch2note 
+SR_GAKS  | 23-07-99 | SpuRGetAllKeysStatus SpuGetAllKeysStatus 
+ST       | 23-07-99 | SpuStTransfer SpuStInit SpuStQuit SpuStGetStatus SpuStGetVoiceStatus SpuStSetPreparationFinishedCallback SpuStSetTransferFinishedCallback SpuStSetStreamFinishedCallback 
+T_C      | 23-07-99 | TimerCallback 
+VERSION  | 23-07-99 | 
+S_SESA   | 23-07-99 | SpuSetESA 
+S_SVV    | 23-07-99 | SpuSetVoiceVolume 
+S_SVVA   | 23-07-99 | SpuSetVoiceVolumeAttr 
+S_SVP    | 23-07-99 | SpuSetVoicePitch 
+S_SVN    | 23-07-99 | SpuSetVoiceNote 
+S_SVSN   | 23-07-99 | SpuSetVoiceSampleNote 
+S_SVSA   | 23-07-99 | SpuSetVoiceStartAddr 
+S_SVLSA  | 23-07-99 | SpuSetVoiceLoopStartAddr 
+S_SVAR   | 23-07-99 | SpuSetVoiceAR 
+S_SVDR   | 23-07-99 | SpuSetVoiceDR 
+S_SVSR   | 23-07-99 | SpuSetVoiceSR 
+S_SVRR   | 23-07-99 | SpuSetVoiceRR 
+S_SVSL   | 23-07-99 | SpuSetVoiceSL 
+S_SVARA  | 23-07-99 | SpuSetVoiceARAttr 
+S_SVSRA  | 23-07-99 | SpuSetVoiceSRAttr 
+S_SVRRA  | 23-07-99 | SpuSetVoiceRRAttr 
+S_SVAD   | 23-07-99 | SpuSetVoiceADSR 
+S_SVADA  | 23-07-99 | SpuSetVoiceADSRAttr 
+S_SVA    | 23-07-99 | SpuSetVoiceAttr 
+SR_SVA   | 23-07-99 | SpuRSetVoiceAttr 
+SN_SVA   | 23-07-99 | SpuNSetVoiceAttr 
+SL_SVA   | 23-07-99 | SpuLSetVoiceAttr 
+S_GVV    | 23-07-99 | SpuGetVoiceVolume 
+S_GVVA   | 23-07-99 | SpuGetVoiceVolumeAttr 
+S_GVVX   | 23-07-99 | SpuGetVoiceVolumeX 
+S_GVP    | 23-07-99 | SpuGetVoicePitch 
+S_GVN    | 23-07-99 | SpuGetVoiceNote 
+S_GVSN   | 23-07-99 | SpuGetVoiceSampleNote 
+S_GVEX   | 23-07-99 | SpuGetVoiceEnvelope 
+S_GVSA   | 23-07-99 | SpuGetVoiceStartAddr 
+S_GVLSA  | 23-07-99 | SpuGetVoiceLoopStartAddr 
+S_GVAR   | 23-07-99 | SpuGetVoiceAR 
+S_GVDR   | 23-07-99 | SpuGetVoiceDR 
+S_GVSR   | 23-07-99 | SpuGetVoiceSR 
+S_GVRR   | 23-07-99 | SpuGetVoiceRR 
+S_GVSL   | 23-07-99 | SpuGetVoiceSL 
+S_GVARA  | 23-07-99 | SpuGetVoiceARAttr 
+S_GVSRA  | 23-07-99 | SpuGetVoiceSRAttr 
+S_GVRRA  | 23-07-99 | SpuGetVoiceRRAttr 
+S_GVAD   | 23-07-99 | SpuGetVoiceADSR 
+S_GVADA  | 23-07-99 | SpuGetVoiceADSRAttr 
+S_SCMV   | 23-07-99 | SpuSetCommonMasterVolume 
+S_SCMVA  | 23-07-99 | SpuSetCommonMasterVolumeAttr 
+S_SCCV   | 23-07-99 | SpuSetCommonCDVolume 
+S_SCCR   | 23-07-99 | SpuSetCommonCDReverb 
+S_SCCM   | 23-07-99 | SpuSetCommonCDMix 
+S_GCMV   | 23-07-99 | SpuGetCommonMasterVolume 
+S_GCMVX  | 23-07-99 | SpuGetCommonMasterVolumeX 
+S_GCMVA  | 23-07-99 | SpuGetCommonMasterVolumeAttr 
+S_GCCV   | 23-07-99 | SpuGetCommonCDVolume 
+S_GCCR   | 23-07-99 | SpuGetCommonCDReverb 
+S_GCCM   | 23-07-99 | SpuGetCommonCDMix 
+S_SCA    | 23-07-99 | SpuSetCommonAttr 
+S_SCERR  | 23-07-99 | *SpuCommonError 
+S_SRMT   | 23-07-99 | SpuSetReverbModeType 
+S_SRMD   | 23-07-99 | SpuSetReverbModeDepth 
+S_SRMDT  | 23-07-99 | SpuSetReverbModeDelayTime 
+S_SRMFB  | 23-07-99 | SpuSetReverbModeFeedback 
+S_GRMT   | 23-07-99 | SpuGetReverbModeType 
+S_GRMD   | 23-07-99 | SpuGetReverbModeDepth 
+S_GRMDT  | 23-07-99 | SpuGetReverbModeDelayTime 
+S_GRMFB  | 23-07-99 | SpuGetReverbModeFeedback 
+S_GVA    | 23-07-99 | SpuGetVoiceAttr 
+SN_GVA   | 23-07-99 | SpuNGetVoiceAttr 
+S_RMP0   | 23-07-99 | _spu_rev_startaddr 
+S_RMP1   | 23-07-99 | _spu_rev_workareasize 
+S_RMP2   | 23-07-99 | _spu_rev_param 
+
+# LIBTAP
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+TAP      | 22-09-97 | InitTAP StartTAP StopTAP SendTAP EnableTAP DisableTAP 
