@@ -1894,42 +1894,6 @@ MCXINIT  | 23-07-99 | McxStartCom McxStopCom
 MCXMAIN  | 23-07-99 | _mcxDsrEntry _mcxInitSioMode _mcxSetRC2wait _mcxChkRC2wait _mcxSioRW McxSync 
 MCXDSR   | 23-07-99 | _mcxStartFastDsr _mcxStopFastDsr _mcxFastDsrEnt _mcxIntRestSize _mcxCallFromC _mcxVecDsr _mcxVecSave 
 
-# LIBMCX
-
-Module  |   Date  |  Externals defined
---- | --- | ---
-MCXCMD1  | 23-07-99 | McxGetApl 
-MCXCMD2  | 23-07-99 | McxExecApl 
-MCXCMD3  | 23-07-99 | _mcxRxRestLen 
-MCXCMD4  | 23-07-99 | McxGetTime 
-MCXCMD5  | 23-07-99 | McxGetMem 
-MCXCMD6  | 23-07-99 | _mcxTxGetMem _mcxRxGetMem 
-MCXCMD7  | 23-07-99 | McxSetMem 
-MCXCMD8  | 23-07-99 | _mcxTxSetMem _mcxRxSetMem 
-MCXCMD9  | 23-07-99 | McxReadDev 
-MCXCMD10 | 23-07-99 | _mcxTxReadDev _mcxRxReadDev 
-MCXCMD11 | 23-07-99 | McxWriteDev 
-MCXCMD12 | 23-07-99 | _mcxTxWriteDev _mcxRxWriteDev 
-MCXCMD13 | 23-07-99 | McxSetTime 
-MCXCMD14 | 23-07-99 | McxGetUIFS 
-MCXCMD15 | 23-07-99 | McxSetUIFS 
-MCXCMD16 | 23-07-99 | McxShowTrans 
-MCXCMD17 | 23-07-99 | _mcxTxSetTrans 
-MCXCMD18 | 23-07-99 | McxHideTrans 
-MCXCMD19 | 23-07-99 | McxCurrCtrl 
-MCXCMD20 | 23-07-99 | McxFlashAcs 
-MCXCMD21 | 23-07-99 | McxGetSerial 
-MCXCMD22 | 23-07-99 | McxSetLED 
-MCXCMD23 | 23-07-99 | McxCardType McxGetMcxInfo 
-MCXCMD24 | 23-07-99 | McxAllInfo 
-MCXCMD25 | 23-07-99 | McxExecFlag 
-MCXCMD26 | 23-07-99 | McxGetInfo 
-MCXCMD27 | 23-07-99 | chkMemArea 
-MCXRESI  | 23-07-99 | _mcxTblCardEnt _mcxTblDsrEnt _mcxStat _mcxCmdSeq _mcxPort _mcxPass _mcxUIFSretry _mcxTxLen _mcxRxLen *_mcxFuncNo _mcxChkRsrv *_mcxRestSize _mcxStepSio *_mcxTxBuf *_mcxFuncGetTx *_mcxRxBuf *_mcxFuncApplyRx *_mcxDataLen *_mcxPtrBuff *_mcxSum *_mcxPtrCmdBuf0 *_mcxPtrCmdBuf1 *_mcxParam *_mcxFlag 
-MCXINIT  | 23-07-99 | McxStartCom McxStopCom 
-MCXMAIN  | 23-07-99 | _mcxDsrEntry _mcxInitSioMode _mcxSetRC2wait _mcxChkRC2wait _mcxSioRW McxSync 
-MCXDSR   | 23-07-99 | _mcxStartFastDsr _mcxStopFastDsr _mcxFastDsrEnt _mcxIntRestSize _mcxCallFromC _mcxVecDsr _mcxVecSave 
-
 # LIBPAD
 
 Module  |   Date  |  Externals defined
@@ -2409,6 +2373,7 @@ S_RMP1   | 23-07-99 | _spu_rev_workareasize
 S_RMP2   | 23-07-99 | _spu_rev_param 
 
 # LIBTAP
+The Playstation Multi-Tap library that allows 8 players to connect to one playstation with their controller and memory card.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
