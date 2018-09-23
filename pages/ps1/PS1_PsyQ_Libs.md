@@ -370,6 +370,8 @@ CRE_1    | 23-07-99 | CdReadFile
 CRE_2    | 23-07-99 | CdReadExec 
 
 # LIBCOMB
+The Link Cable Library (`libcomb.lib`) provides functions for connecting PlayStatios's together via a “link” cable.
+
 Module  |   Date  |  Externals defined
 --- | --- | ---
 COMB     | 23-07-99 | AddCOMB _comb_control 
