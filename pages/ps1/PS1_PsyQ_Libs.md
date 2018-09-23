@@ -1861,7 +1861,8 @@ PRINTF2  | 23-07-99 | printf2 sprintf2
 STRTOD00 | 23-07-99 | atof 
 STRTOD01 | 23-07-99 | strtod 
 
-# LIBMCRD
+# LIBMCRD (Extended Memory card)
+Higher level library for using the playstation memory cards, higherlevel than libcard.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
