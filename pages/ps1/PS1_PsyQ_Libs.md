@@ -21,7 +21,8 @@ editlink: /ps1/PS1_PsyQ_Libs.md
 
 Note that the order of the externals defined in this list will not reflect the order in the final linked executable, as the order here is just the order that the `PSYLIB.EXE` tool exports in. 
 
-# LIBAPI
+# LIBAPI - PS1 OS Kernel API
+The `LIBAPI.LIB` file is required in all PS1 executables as it controls the Playstation Kernel and interactions between the basic Playsation Operating System.
 
 Module  |   Date    | Externals defined
 --- | --- | ---
@@ -115,7 +116,8 @@ FREE3    | 23-07-99 | free3 *_r_bp *_r_p *_r_freep
 REALLOC3 | 23-07-99 | realloc3 
 CALLOC3  | 23-07-99 | calloc3 
 
-# LIBC
+# LIBC - Standard GCC C Library
+The standard C library used for functions like printf that are compiled in almost every C-based program.
 
 Module  |  Externals defined
 --- | ---
@@ -176,7 +178,8 @@ STRTOK   | strtok
 QSORT    | qsort 
 BSEARCH  | bsearch 
 
-# LIBC2
+# LIBC2 - Standard C library
+A faster (cacheable) implementation of the C standard libraries but required more memory than standard LIBC.
 
 Module |  Date | Externals defined
 --- | --- | ---
