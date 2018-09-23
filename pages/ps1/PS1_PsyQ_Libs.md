@@ -378,3 +378,45 @@ COMB     | 23-07-99 | AddCOMB _comb_control
 COMB_2   | 23-07-99 | DelCOMB 
 COMB_3   | 23-07-99 | ChangeClearSIO 
 
+# LIBDS
+The extended CD-ROM library is basically the same as libcd but it implements a `command queue` to allow for speed differences between cpu and cdrom. You can't use both libds and libcd at the same time!
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+DSSYS_1  | 23-07-99 | DS_init DS_reset_members DS_close DS_cw DS_vsync_callback DS_sync_callback DS_ready_callback DS_start_callback DS_system_status DS_lastcom DS_lastmode DS_lastpos DS_lastseek DS_lastread DS_status DS_shell_open DS_cw_system parcpy rescpy DS_stop DS_restart DS_system_active 
+DSSYS_2  | 23-07-99 | DS_CQ_flush DsInit DsReset DsCommand DsPacket _DsPacket2 DsSync DsReady DsQueueLen 
+DSSYS_3  | 23-07-99 | DsMix 
+DSSYS_4  | 23-07-99 | DsControlF 
+DSSYS_5  | 23-07-99 | DS_comstr DsComstr 
+DSTOC    | 23-07-99 | DsGetToc 
+DSREAD   | 23-07-99 | DsRead DsReadSync DsReadCallback DsReadBreak DsReadMode 
+DSREAD2  | 23-07-99 | DsRead2 
+DSREADE  | 23-07-99 | DsReadFile 
+DSFILE   | 23-07-99 | DsSearchFile 
+DSPLAY   | 23-07-99 | DsPlay 
+DSREADY  | 23-07-99 | DsStartReadySystem DsEndReadySystem DsReadySystemMode ER_active ER_clear 
+DSTYPE   | 23-07-99 | DsGetDiskType *GD_retry *GD_disk_kind 
+DSCB     | 23-07-99 | *GlobalCallback 
+D1_001   | 23-07-99 | DS_sync 
+D1_002   | 23-07-99 | DS_ready 
+D2_001   | 23-07-99 | DsClose 
+D2_002   | 23-07-99 | DsStatus 
+D2_003   | 23-07-99 | DsShellOpen 
+D2_004   | 23-07-99 | DsLastCom 
+D2_005   | 23-07-99 | DsFlush 
+D2_006   | 23-07-99 | DsSystemStatus 
+D3_002   | 23-07-99 | DsGetSector 
+D3_003   | 23-07-99 | DsGetSector2 
+D3_004   | 23-07-99 | DsDataSync 
+D3_005   | 23-07-99 | DsIntToPos 
+D3_006   | 23-07-99 | DsPosToInt 
+D3_007   | 23-07-99 | DsSetDebug 
+D3_008   | 23-07-99 | DsLastPos 
+D4_002   | 23-07-99 | DsControl 
+D4_003   | 23-07-99 | DsControlB 
+D5_001   | 23-07-99 | DS_intstr DsIntstr 
+DRE_2    | 23-07-99 | DsReadExec 
+DSCB_1   | 23-07-99 | DsSyncCallback 
+DSCB_2   | 23-07-99 | DsReadyCallback 
+DSCB_3   | 23-07-99 | DsStartCallback 
+DSCB_4   | 23-07-99 | DsDataCallback 
