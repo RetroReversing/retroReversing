@@ -21,6 +21,100 @@ editlink: /ps1/PS1_PsyQ_Libs.md
 
 Note that the order of the externals defined in this list will not reflect the order in the final linked executable, as the order here is just the order that the `PSYLIB.EXE` tool exports in. 
 
+# LIBAPI
+
+Module  |   Date    | Externals defined
+--- | --- | ---
+C57      | 23-07-99 | InitHeap 
+C58      | 23-07-99 | _exit 
+C65      | 23-07-99 | LoadTest 
+C66      | 23-07-99 | Load 
+C67      | 23-07-99 | Exec 
+C68      | 23-07-99 | FlushCache 
+C73      | 23-07-99 | GPU_cw 
+C81      | 23-07-99 | LoadExec 
+C82      | 23-07-99 | GetSysSp 
+C112     | 23-07-99 | _bu_init 
+C113     | 23-07-99 | _96_init 
+C114     | 23-07-99 | _96_remove 
+C157     | 23-07-99 | GetConf 
+C159     | 23-07-99 | SetMem 
+C160     | 23-07-99 | _boot 
+C161     | 23-07-99 | SystemError 
+C167     | 23-07-99 | bufs_cb_0 
+C168     | 23-07-99 | bufs_cb_1 
+C169     | 23-07-99 | bufs_cb_2 
+C170     | 23-07-99 | bufs_cb_3 
+C174     | 23-07-99 | bufs_cb_4 
+A07      | 23-07-99 | DeliverEvent 
+A08      | 23-07-99 | OpenEvent 
+A09      | 23-07-99 | CloseEvent 
+A10      | 23-07-99 | WaitEvent 
+A11      | 23-07-99 | TestEvent 
+A12      | 23-07-99 | EnableEvent 
+A13      | 23-07-99 | DisableEvent 
+A14      | 23-07-99 | OpenTh 
+A15      | 23-07-99 | CloseTh 
+A16      | 23-07-99 | ChangeTh 
+A18      | 23-07-99 | InitPAD2 
+A19      | 23-07-99 | StartPAD2 
+A20      | 23-07-99 | StopPAD2 
+A21      | 23-07-99 | PAD_init2 
+A22      | 23-07-99 | PAD_dr 
+A23      | 23-07-99 | ReturnFromException 
+A24      | 23-07-99 | ResetEntryInt 
+A25      | 23-07-99 | HookEntryInt 
+A32      | 23-07-99 | UnDeliverEvent 
+A36      | 23-07-99 | EnterCriticalSection 
+A37      | 23-07-99 | ExitCriticalSection 
+A38      | 23-07-99 | Exception 
+A39      | 23-07-99 | SetSp 
+A40      | 23-07-99 | SwEnterCriticalSection 
+A41      | 23-07-99 | SwExitCriticalSection 
+A50      | 23-07-99 | open 
+A51      | 23-07-99 | lseek 
+A52      | 23-07-99 | read 
+A53      | 23-07-99 | write 
+A54      | 23-07-99 | close 
+A55      | 23-07-99 | ioctl 
+A64      | 23-07-99 | cd 
+A65      | 23-07-99 | format 
+A66      | 23-07-99 | firstfile2 
+A67      | 23-07-99 | nextfile 
+A68      | 23-07-99 | rename 
+A69      | 23-07-99 | erase 
+A70      | 23-07-99 | undelete 
+A71      | 23-07-99 | AddDrv 
+A72      | 23-07-99 | DelDrv 
+A81      | 23-07-99 | Krom2RawAdd 
+A84      | 23-07-99 | _get_errno 
+A85      | 23-07-99 | _get_error 
+A91      | 23-07-99 | ChangeClearPAD 
+A94      | 23-07-99 | GetGp 
+A95      | 23-07-99 | GetSp 
+A96      | 23-07-99 | GetCr 
+A97      | 23-07-99 | GetSr 
+L02      | 23-07-99 | SysEnqIntRP 
+L03      | 23-07-99 | SysDeqIntRP 
+L10      | 23-07-99 | ChangeClearRCnt 
+COUNTER  | 23-07-99 | SetRCnt GetRCnt StartRCnt StopRCnt ResetRCnt 
+SC2B     | 23-07-99 | SetConf 
+PATCH    | 23-07-99 | _patch_pad EnablePAD DisablePAD 
+FIRST    | 23-07-99 | firstfile 
+PAD      | 23-07-99 | SetInitPadFlag ReadInitPadFlag PAD_init InitPAD StartPAD *_apiPadPatch 
+PADSTOP  | 23-07-99 | StopPAD 
+I_HEAP2  | 23-07-99 | InitHeap2 *_AllocRestBlockTop *_TopAllocArea *_max_heap *_Candidate 
+MALLOC2  | 23-07-99 | malloc2 
+FREE2    | 23-07-99 | free2 
+REALLOC2 | 23-07-99 | realloc2 
+CALLOC2  | 23-07-99 | calloc2 
+CHCLRPAD | 23-07-99 | _remove_ChgclrPAD 
+I_HEAP3  | 23-07-99 | _freep InitHeap3 
+MALLOC3  | 23-07-99 | malloc3 
+FREE3    | 23-07-99 | free3 *_r_bp *_r_p *_r_freep 
+REALLOC3 | 23-07-99 | realloc3 
+CALLOC3  | 23-07-99 | calloc3 
+
 # LIBSN
 
 Module  |   Date  |  Externals defined
