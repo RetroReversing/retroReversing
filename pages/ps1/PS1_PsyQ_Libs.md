@@ -1858,7 +1858,8 @@ LOW      | 23-07-99 | _card_format2 _card_create2
 DELETE   | 23-07-99 | MemCardDeleteFile 
 UNFORMAT | 23-07-99 | MemCardUnformat 
 
-# LIBMCX
+# LIBMCX - PocketStation
+Provides functions to control the PocketStation (a playstation memory card with a screen that can run ARM code) (reffered to as PDA in the official developer documentation.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1895,6 +1896,7 @@ MCXMAIN  | 23-07-99 | _mcxDsrEntry _mcxInitSioMode _mcxSetRC2wait _mcxChkRC2wait
 MCXDSR   | 23-07-99 | _mcxStartFastDsr _mcxStopFastDsr _mcxFastDsrEnt _mcxIntRestSize _mcxCallFromC _mcxVecDsr _mcxVecSave 
 
 # LIBPAD
+The `LIBPAD.LIB` library is used to interface with the game pads (controllers), including Dual shock controllers.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1921,6 +1923,7 @@ PDRESRES | 23-07-99 | _padFuncNextPort _padFuncClrInfo _padFuncGetTxd _padFuncCu
 PDHOKRES | 23-07-99 | *_padGunPosHbuf *_padGunPosVbuf _padGunInitHook _padGunExitHook _padGetHitCount _padClrHitCount 
 
 # LIBPress
+LIBPress is a compression library that can compress and decompress sound and image data using a few different compression algorithms such as DCT (Discrete Cosine Transform), BVQ (Block Vector Quantization) and Huffman Encoding.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1936,6 +1939,7 @@ TBL_001  | 23-07-99 | DCL_DVLC
 TBL_002  | 23-07-99 | DCC_DVLC 
 
 # LIBSIO
+LibSIO is a standard input output library for development kits to connect to and from PC,so you can write out debugging information to the PC.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1945,6 +1949,8 @@ SIO      | 23-07-99 | _sio_control *cntl *mode *baud
 SIOCB    | 23-07-99 | Sio1Callback 
 
 # LIBSN
+LibSN (Sn systems reference?) is a very low-level library for managing the stack pointer (SP along with access to the PC).
+It is used along with 2MByte and 8MByte.obj files.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -2003,6 +2009,7 @@ _VARARGS | 20-09-95 | __builtin_saveregs
 __GCC_BC | 20-09-95 | __gcc_bcmp 
 
 # LIBSND
+LibSND is the extended sound library that is at a higher level than the basic libspu, it can play VAB and SEQ audio files, along with a variety of different sound effects.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -2234,6 +2241,7 @@ Q_KEYON5 | 23-07-99 | SsSetVoiceSettings
 Q_KEYON6 | 23-07-99 | SsVoiceCheck 
 
 # LIBSPU
+The basic sound library for contacting the Sound processing Unit (SPU).
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
