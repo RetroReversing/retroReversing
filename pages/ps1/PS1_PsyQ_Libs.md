@@ -432,6 +432,7 @@ You can define callback functions that execute when the non-blocking function ac
 
 A dedicated local stack is used for a callback function so that control can return to the original state after the callback returns. All interrupts are prohibited within callback functions. (Areas in which interrupts are prohibited are called critical sections.)
 ```
+
 Module  |   Date  |  Externals defined
 --- | --- | ---
 PAD      | 23-07-99 | PadInit *PadIdentifier PadRead 
@@ -442,3 +443,73 @@ INTR_VB  | 23-07-99 | Vcount startIntrVSync
 INTR_DMA | 23-07-99 | startIntrDMA 
 VMODE    | 23-07-99 | SetVideoMode GetVideoMode 
 HWCONFIG | 23-07-99 | get_hwconfig 
+
+# LIBGPU
+LibGPU is a library for utilizing the GPU and frame buffer, it works using Primitives similar to OpenGL, triangles, sprites etc.
+
+The frame buffer is a 1mb memory chip that stores all the values of the pixels to display to the TV screen.
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+FONT     | 23-07-99 | Font SetDumpFnt FntPrint FntLoad FntOpen FntFlush 
+FONTTEX  | 23-07-99 | 
+KPRINTF  | 23-07-99 | kanjiclut *txyuv KanjiFntOpen *KanjiFont KanjiFntClose KanjiFntFlush KanjiFntPrint 
+OTAG     | 23-07-99 | DrawOTagIO DumpOTag CheckPrim 
+SYS      | 23-07-99 | GPU_printf GEnv ResetGraph SetGraphDebug SetGraphQueue GetGraphDebug DrawSyncCallback SetDispMask DrawSync ClearImage ClearImage2 LoadImage StoreImage MoveImage ClearOTag ClearOTagR DrawPrim DrawOTag PutDrawEnv DrawOTagEnv GetDrawEnv PutDispEnv GetDispEnv GetODE SetDrawArea SetDrawOffset SetDrawEnv _qin _qout *_que LoadImage2 _GPU_ResetCallback StoreImage2 MoveImage2 DrawOTag2 
+BREAK    | 23-07-99 | BreakDraw IsIdleGPU ContinueDraw 
+PARAM    | 23-07-99 | GetDrawEnv2 GetDrawMode GetTexWindow GetDrawArea GetDrawOffset 
+E00      | 23-07-99 | LoadTPage 
+E01      | 23-07-99 | LoadClut 
+E02      | 23-07-99 | LoadClut2 
+E03      | 23-07-99 | SetDefDrawEnv 
+E04      | 23-07-99 | SetDefDispEnv 
+P00      | 23-07-99 | GetTPage 
+P01      | 23-07-99 | GetClut 
+P02      | 23-07-99 | DumpTPage 
+P03      | 23-07-99 | DumpClut 
+P04      | 23-07-99 | NextPrim 
+P05      | 23-07-99 | IsEndPrim 
+P06      | 23-07-99 | AddPrim 
+P07      | 23-07-99 | AddPrims 
+P08      | 23-07-99 | CatPrim 
+P09      | 23-07-99 | TermPrim 
+P10      | 23-07-99 | SetSemiTrans 
+P11      | 23-07-99 | SetShadeTex 
+P12      | 23-07-99 | SetPolyF3 
+P13      | 23-07-99 | SetPolyFT3 
+P14      | 23-07-99 | SetPolyG3 
+P15      | 23-07-99 | SetPolyGT3 
+P16      | 23-07-99 | SetPolyF4 
+P17      | 23-07-99 | SetPolyFT4 
+P18      | 23-07-99 | SetPolyG4 
+P19      | 23-07-99 | SetPolyGT4 
+P20      | 23-07-99 | SetSprt8 
+P21      | 23-07-99 | SetSprt16 
+P22      | 23-07-99 | SetSprt 
+P23      | 23-07-99 | SetTile1 
+P24      | 23-07-99 | SetTile8 
+P25      | 23-07-99 | SetTile16 
+P26      | 23-07-99 | SetTile 
+P27      | 23-07-99 | SetLineF2 
+P28      | 23-07-99 | SetLineG2 
+P29      | 23-07-99 | SetLineF3 
+P30      | 23-07-99 | SetLineG3 
+P31      | 23-07-99 | SetLineF4 
+P32      | 23-07-99 | SetLineG4 
+P33      | 23-07-99 | SetDrawTPage 
+P34      | 23-07-99 | SetDrawMove 
+P35      | 23-07-99 | SetDrawLoad 
+P36      | 23-07-99 | MargePrim 
+P37      | 23-07-99 | DumpDrawEnv DumpDispEnv 
+P38      | 23-07-99 | SetTexWindow 
+P39      | 23-07-99 | SetPriority 
+P40      | 23-07-99 | SetDrawStp 
+P41      | 23-07-99 | SetDrawMode 
+K00      | 23-07-99 | GetTimSize 
+K01      | 23-07-99 | Krom2Tim 
+T00      | 23-07-99 | OpenTIM ReadTIM 
+T01      | 23-07-99 | OpenTMD ReadTMD 
+KT00     | 23-07-99 | Krom2RawAdd2 
+KT01     | 23-07-99 | kanjitrans 
+KT02     | 23-07-99 | hankanjitrans 
+
