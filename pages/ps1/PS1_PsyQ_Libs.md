@@ -368,3 +368,11 @@ TYPE_1   | 23-07-99 | CdDiskReady
 TYPE_2   | 23-07-99 | CdGetDiskType 
 CRE_1    | 23-07-99 | CdReadFile 
 CRE_2    | 23-07-99 | CdReadExec 
+
+# LIBCOMB
+Module  |   Date  |  Externals defined
+--- | --- | ---
+COMB     | 23-07-99 | AddCOMB _comb_control 
+COMB_2   | 23-07-99 | DelCOMB 
+COMB_3   | 23-07-99 | ChangeClearSIO 
+
