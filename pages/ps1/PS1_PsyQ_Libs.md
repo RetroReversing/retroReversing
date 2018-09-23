@@ -290,3 +290,81 @@ CTYPE_2  | 23-07-99 | tolower
 STRTOL_0 | 23-07-99 | strtol 
 STRTOL_1 | 23-07-99 | atob 
 
+# LIBCARD
+
+Module   |  Date  | Externals defined
+--- | --- | ---
+C112     | 23-07-99 | _bu_init 
+C171     | 23-07-99 | _card_info 
+C172     | 23-07-99 | _card_load 
+C173     | 23-07-99 | _card_auto 
+A74      | 23-07-99 | InitCARD2 
+A75      | 23-07-99 | StartCARD2 
+A76      | 23-07-99 | StopCARD2 
+A78      | 23-07-99 | _card_write 
+A79      | 23-07-99 | _card_read 
+A80      | 23-07-99 | _new_card 
+A88      | 23-07-99 | _card_chan 
+A92      | 23-07-99 | _card_status 
+A93      | 23-07-99 | _card_wait 
+CARD     | 23-07-99 | _card_clear 
+PATCH    | 23-07-99 | _patch_card _patch_card2 _copy_memcard_patch _patch_card_info 
+INIT     | 23-07-99 | InitCARD StartCARD StopCARD 
+END      | 23-07-99 | _ExitCard 
+FORMAT   | 23-07-99 | _card_format
+
+# LIBCD
+
+Module |  Date  | Externals defined
+--- | --- | ---
+CDROM    | 23-07-99 | StSetRing *StRingAddr *StRingSize *StRingBase *StRgb24 *StEmu_Addr *StEmu_Idx *StRingIdx1 *StRingIdx2 *StRingIdx3 *StSTART_FLAG *StStartFrame *StEndFrame *StFinalSector *Stframe_no *Stsector_offset *StCdIntrFlag *StCHANNEL *CChannel 
+TOC      | 23-07-99 | CdGetToc CdGetToc2 
+EVENT    | 23-07-99 | CD_cbread CD_read_dma_mode CdInit 
+SYS      | 23-07-99 | CdPosToInt 
+ISO9660  | 23-07-99 | CdSearchFile 
+CDREAD2  | 23-07-99 | CdRead2 
+CDPLAY   | 23-07-99 | CdPlay 
+C_002    | 23-07-99 | StClearRing 
+C_003    | 23-07-99 | StUnSetRing 
+C_004    | 23-07-99 | data_ready_callback StGetBackloc 
+C_005    | 23-07-99 | StSetStream *StFunc1 *StFunc2 
+C_006    | 23-07-99 | StSetEmulate 
+C_007    | 23-07-99 | StFreeRing 
+C_008    | 23-07-99 | init_ring_status 
+C_009    | 23-07-99 | StGetNext 
+C_010    | 23-07-99 | StSetMask 
+C_011    | 23-07-99 | debug_cause StCdInterrupt 
+C_012    | 23-07-99 | StSetChannel 
+C_013    | 23-07-99 | StGetNextS 
+C_014    | 23-07-99 | StNextStatus 
+BIOS_1   | 23-07-99 | CD_cbsync CD_cbready CD_debug CD_status CD_status1 CD_nopen CD_pos CD_mode CD_com DS_active CD_comstr CD_intstr CD_sync CD_flush CD_ready CD_cw CD_vol CD_initvol CD_initintr CD_init CD_datasync CD_set_test_parmnum *StMode 
+BIOS_2   | 23-07-99 | CD_getsector 
+BIOS_3   | 23-07-99 | CD_getsector2 
+C_015    | 23-07-99 | StRingStatus 
+S_002    | 23-07-99 | CdIntToPos 
+S_003    | 23-07-99 | CdStatus 
+S_004    | 23-07-99 | CdMode 
+S_005    | 23-07-99 | CdLastCom 
+S_006    | 23-07-99 | CdLastPos 
+S_007    | 23-07-99 | CdReset 
+S_008    | 23-07-99 | CdFlush 
+S_009    | 23-07-99 | CdSetDebug 
+S_010    | 23-07-99 | CdComstr 
+S_011    | 23-07-99 | CdIntstr 
+S_012    | 23-07-99 | CdSync 
+S_013    | 23-07-99 | CdReady 
+S_014    | 23-07-99 | CdSyncCallback 
+S_015    | 23-07-99 | CdReadyCallback 
+S_016    | 23-07-99 | CdControl CdControlF CdControlB 
+S_020    | 23-07-99 | CdMix 
+S_021    | 23-07-99 | CdGetSector 
+S_022    | 23-07-99 | CdGetSector2 
+S_023    | 23-07-99 | CdDataCallback 
+S_024    | 23-07-99 | CdDataSync 
+CDR_1    | 23-07-99 | CdReadBreak CdRead CdReadSync 
+CDR_2    | 23-07-99 | CdReadCallback 
+CDR_3    | 23-07-99 | CdReadMode 
+TYPE_1   | 23-07-99 | CdDiskReady 
+TYPE_2   | 23-07-99 | CdGetDiskType 
+CRE_1    | 23-07-99 | CdReadFile 
+CRE_2    | 23-07-99 | CdReadExec 
