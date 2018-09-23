@@ -513,3 +513,188 @@ KT00     | 23-07-99 | Krom2RawAdd2
 KT01     | 23-07-99 | kanjitrans 
 KT02     | 23-07-99 | hankanjitrans 
 
+# LIBGS
+
+From the official docs:
+```
+The extended graphics library (libgs) integrates the 2D and 3D graphics systems used in libgpu and libgte. It is designed to work well with the standard graphics file formats that can be created by PlayStation authoring tools:
+• The TIM format stores image resolution, color numbers and color look-up table information.
+• The TMD format stores multiple objects, scale information and texture address information.
+• HMD is a new format that was added in version 4.0 of the libraries. See Chapter 18, “HMD Library”, for more information about this format.
+In contrast with the libgpu and libgte libraries which process polygon-level data, libgs processes data by object units (groups of polygons), allowing 3D programs to be prototyped easily. By adding attributes to objects, it’s easy to create special effects.
+Using libgs involves extra overhead compared to using libgpu and libgte. However, libgs is an open architecture. Therefore, once you are ready to produce your game, you can optimize it by adding user- defined functions (via a jump table) that use libgpu and libgte services.
+```
+
+Module  |   Date  |  Externals defined
+--- | --- | ---
+2D_BG0   | 23-07-99 | GsSortBg 
+2D_BG1   | 23-07-99 | GsSortFastBg 
+2D_BG21  | 23-07-99 | GsSortFixBg16 
+2D_BG22  | 23-07-99 | GsInitFixBg16 
+2D_BG31  | 23-07-99 | GsSortFixBg32 
+2D_BG32  | 23-07-99 | GsInitFixBg32 
+2D_COM0  | 23-07-99 | _mk_spr_packet _mk_xpndsp _mk_normsp 
+2D_COM1  | 23-07-99 | _make_packet 
+2D_LIN0  | 23-07-99 | GsSortLine 
+2D_LIN1  | 23-07-99 | GsSortGLine 
+2D_BOX0  | 23-07-99 | GsSortBoxFill 
+2D_PRIM  | 23-07-99 | GsSortPoly 
+2D_SP0   | 23-07-99 | GsSortSprite 
+2D_SP1   | 23-07-99 | GsSortFastSprite 
+2D_SP2   | 23-07-99 | GsSortFlipSprite 
+2D_SP41  | 23-07-99 | GsSortFastSprite2 
+2D_SP42  | 23-07-99 | GsInitFastSprite2 
+2D_SP43  | 23-07-99 | GsSortFastSpriteArray 
+2D_SP44  | 23-07-99 | GsInitFastSpriteArray 
+2D_SP45  | 23-07-99 | GsSetFastSpriteArray 
+2D_SP0A  | 23-07-99 | GsSortSpriteA 
+2D_SP1A  | 23-07-99 | GsSortFastSpriteA 
+2D_SP0B  | 23-07-99 | GsSortSpriteB 
+2D_SP1B  | 23-07-99 | GsSortFastSpriteB 
+GS_001   | 23-07-99 | GsInitGraph *PSDIDX *GsDRAWENV *GsDISPENV *PSDGPU GsInitGraph2 *PSDBASEX *PSDBASEY *POSITION *CLIP2 *PSDCNT GsSortClear *PSDOFSX *PSDOFSY *GsORGOFSX *GsORGOFSY 
+GS_0021  | 23-07-99 | GsGetActiveBuff 
+GS_0022  | 23-07-99 | GsSetDrawBuffOffset 
+GS_003   | 23-07-99 | GsSetDrawBuffClip 
+GS_004   | 23-07-99 | GsSetOffset 
+GS_005   | 23-07-99 | GsSetClip 
+GS_006   | 23-07-99 | GsSetClip2D 
+GS_007   | 23-07-99 | GsInitVcount 
+GS_008   | 23-07-99 | GsGetVcount 
+GS_009   | 23-07-99 | GsClearVcount 
+GS_010   | 23-07-99 | GsSwapDispBuff 
+GS_011   | 23-07-99 | GsClearDispArea 
+GS_012   | 23-07-99 | GsSetClip2 
+GS_013   | 23-07-99 | GsSetOrign 
+MATRIX1  | 23-07-99 | *DSTACK 
+MATRIX2  | 23-07-99 | GsInitCoordinate2 
+MATRIX3  | 23-07-99 | GsInitCoord2param 
+MATRIX4  | 23-07-99 | GsSetLsMatrix 
+MATRIX5  | 23-07-99 | GsSetLightMatrix 
+MATRIX6  | 23-07-99 | GsSetLightMatrix2 
+MATRIX7  | 23-07-99 | GsMulCoord0 
+MATRIX8  | 23-07-99 | GsMulCoord2 
+MATRIX9  | 23-07-99 | GsMulCoord3 
+MATRIX10 | 23-07-99 | print_matrix 
+MATRIX11 | 23-07-99 | print_vector 
+GS_101   | 23-07-99 | GsSetNearClip 
+GS_102   | 23-07-99 | GsSetFarClip 
+GS_103   | 23-07-99 | GsDefDispBuff 
+GS_104   | 23-07-99 | GsInit3D *HWD0 *VWD0 *GsCLIP3near *GsLIGHT_MODE *GsCLIP3far 
+GS_105   | 23-07-99 | GsMapModelingData 
+GS_106   | 23-07-99 | GsSetProjection 
+GS_107   | 23-07-99 | GsSetFlatLight *GsLIGHTWSMATRIX *_LC 
+GS_108   | 23-07-99 | GsSetLightMode 
+GS_109   | 23-07-99 | GsSetFogParam 
+GS_110   | 23-07-99 | GsSetAmbient 
+GS_111   | 23-07-99 | GsDrawOt 
+GS_112   | 23-07-99 | GsDrawOtIO 
+GS_113   | 23-07-99 | GsClearOt 
+GS_114   | 23-07-99 | GsSortOt 
+GS_1151  | 23-07-99 | gte_apply_matrixl 
+GS_1152  | 23-07-99 | gte_apply_matrixll 
+GS_116   | 23-07-99 | gte_copy_matrix 
+GS_117   | 23-07-99 | gte_rotate_x_matrix 
+GS_118   | 23-07-99 | gte_rotate_y_matrix 
+GS_119   | 23-07-99 | gte_rotate_z_matrix 
+GS_120   | 23-07-99 | gte_scale_matrix 
+GS_121   | 23-07-99 | gte_init 
+GS_122   | 23-07-99 | GsGetTimInfo 
+GS_123   | 23-07-99 | Gssub_make_matrix *GsWSMATRIX *GsWSMATRIX_ORG 
+GS_124   | 23-07-99 | GsSetWorkBase 
+GS_125   | 23-07-99 | GsGetWorkBase 
+GS_126   | 23-07-99 | GsCutOt 
+GS_127   | 23-07-99 | GsDefDispBuff2 
+GS_128   | 23-07-99 | *GsIDMATRIX *GsIDMATRIX2 
+GS_131   | 23-07-99 | GsSetRefView2 
+GS_132   | 23-07-99 | GsSetView2 
+GS_133   | 23-07-99 | GsGetLw 
+GS_134   | 23-07-99 | GsGetLs 
+GS_135   | 23-07-99 | GsGetLws 
+GS_136   | 23-07-99 | GsScaleScreen 
+GS_137   | 23-07-99 | GsSetRefView2L 
+PRESET_1 | 23-07-99 | GsLinkObject5 
+PRESET_2 | 23-07-99 | GsPresetObject 
+PRESET2  | 23-07-99 | GsSortObject5 
+PRESET3  | 23-07-99 | GsSortObject5J *GsFCALL5 
+PRESET4  | 23-07-99 | dmyGsPrstF3NL dmyGsPrstF3LFG dmyGsPrstF3L dmyGsPrstNF3 dmyGsTMDdivF3NL dmyGsTMDdivF3LFG dmyGsTMDdivF3L dmyGsTMDdivNF3 dmyGsPrstG3NL dmyGsPrstG3LFG dmyGsPrstG3L dmyGsPrstNG3 dmyGsTMDdivG3NL dmyGsTMDdivG3LFG dmyGsTMDdivG3L dmyGsTMDdivNG3 dmyGsPrstTF3NL dmyGsPrstTF3LFG dmyGsPrstTF3L dmyGsPrstTNF3 dmyGsTMDdivTF3NL dmyGsTMDdivTF3LFG dmyGsTMDdivTF3L dmyGsTMDdivTNF3 dmyGsPrstTG3NL dmyGsPrstTG3LFG dmyGsPrstTG3L dmyGsPrstTNG3 dmyGsTMDdivTG3NL dmyGsTMDdivTG3LFG dmyGsTMDdivTG3L dmyGsTMDdivTNG3 dmyGsPrstF4NL dmyGsPrstF4LFG dmyGsPrstF4L dmyGsPrstNF4 dmyGsTMDdivF4NL dmyGsTMDdivF4LFG dmyGsTMDdivF4L dmyGsTMDdivNF4 dmyGsPrstG4NL dmyGsPrstG4LFG dmyGsPrstG4L dmyGsPrstNG4 dmyGsTMDdivG4NL dmyGsTMDdivG4LFG dmyGsTMDdivG4L dmyGsTMDdivNG4 dmyGsPrstTF4NL dmyGsPrstTF4LFG dmyGsPrstTF4L dmyGsPrstTNF4 dmyGsTMDdivTF4NL dmyGsTMDdivTF4LFG dmyGsTMDdivTF4L dmyGsTMDdivTNF4 dmyGsPrstTG4NL dmyGsPrstTG4LFG dmyGsPrstTG4L dmyGsPrstTNG4 dmyGsTMDdivTG4NL dmyGsTMDdivTG4LFG dmyGsTMDdivTG4L dmyGsTMDdivTNG4 dmyGsTMDfastF3NL dmyGsTMDfastF3LFG dmyGsTMDfastF3L dmyGsTMDfastNF3 dmyGsTMDfastG3NL dmyGsTMDfastG3LFG dmyGsTMDfastG3L dmyGsTMDfastNG3 dmyGsTMDfastTF3NL dmyGsTMDfastTF3LFG dmyGsTMDfastTF3L dmyGsTMDfastTNF3 dmyGsTMDfastTG3NL dmyGsTMDfastTG3LFG dmyGsTMDfastTG3L dmyGsTMDfastTNG3 dmyGsTMDfastF4NL dmyGsTMDfastF4LFG dmyGsTMDfastF4L dmyGsTMDfastNF4 dmyGsTMDfastG4NL dmyGsTMDfastG4LFG dmyGsTMDfastG4L dmyGsTMDfastNG4 dmyGsTMDfastTF4NL dmyGsTMDfastTF4LFG dmyGsTMDfastTF4L dmyGsTMDfastTNF4 dmyGsTMDfastTG4NL dmyGsTMDfastTG4LFG dmyGsTMDfastTG4L dmyGsTMDfastTNG4 dmyGsTMDfastF3GL dmyGsTMDfastF3GLFG dmyGsTMDfastF3GNL dmyGsTMDfastG3GL dmyGsTMDfastG3GLFG dmyGsTMDfastG3GNL dmyGsPrstF3GL dmyGsPrstF3GLFG dmyGsPrstF3GNL dmyGsPrstG3GL dmyGsPrstG3GLFG dmyGsPrstG3GNL 
+GLOBAL   | 23-07-99 | GsADIVZ GsADIVW GsADIVH *GsOUT_PACKET_P *GsMATE_C *GsLMODE *GsLIGNR *GsLIOFF *GsZOVER *GsBACKC *GsNDIV *GsTRATE *GsTON *GsDISPON 
+PMD1     | 23-07-99 | GsLinkObject3 
+PMD2     | 23-07-99 | GsSortObject3 
+OBJT     | 23-07-99 | GsLinkObject4 
+OBJT2    | 23-07-99 | GsSortObject4 
+OBJT3    | 23-07-99 | GsSortObject4J *GsFCALL4 
+DATG4_00 | 23-07-99 | GsA4divTG4L 
+DATG4_01 | 23-07-99 | GsA4divTG4LFG 
+DATG4_02 | 23-07-99 | GsA4divTG4NL 
+DATG4_03 | 23-07-99 | GsA4divTNG4 
+DATG4M00 | 23-07-99 | GsA4divTG4LM 
+DATG4M01 | 23-07-99 | GsA4divTG4LFGM 
+DATG4M02 | 23-07-99 | GsA4divTG4NLM 
+DATG4M03 | 23-07-99 | GsA4divTNG4M 
+DAFT4_00 | 23-07-99 | GsA4divTF4L 
+DAFT4_01 | 23-07-99 | GsA4divTF4LFG 
+DAFT4_02 | 23-07-99 | GsA4divTF4NL 
+DAFT4_03 | 23-07-99 | GsA4divTNF4 
+DAFT4M00 | 23-07-99 | GsA4divTF4LM 
+DAFT4M01 | 23-07-99 | GsA4divTF4LFGM 
+DAFT4M02 | 23-07-99 | GsA4divTF4NLM 
+DAFT4M03 | 23-07-99 | GsA4divTNF4M 
+DAG4_00  | 23-07-99 | GsA4divG4L 
+DAG4_01  | 23-07-99 | GsA4divG4LFG 
+DAG4_02  | 23-07-99 | GsA4divG4NL 
+DAG4_03  | 23-07-99 | GsA4divNG4 
+DAF4_00  | 23-07-99 | GsA4divF4L 
+DAF4_01  | 23-07-99 | GsA4divF4LFG 
+DAF4_02  | 23-07-99 | GsA4divF4NL 
+DAF4_03  | 23-07-99 | GsA4divNF4 
+DATG3_00 | 23-07-99 | GsA4divTG3L 
+DATG3_01 | 23-07-99 | GsA4divTG3LFG 
+DATG3_02 27-07-99 18:26:40 GsA4divTG3NL 
+DATG3_03 | 23-07-99 | GsA4divTNG3 
+DAG3_00  | 23-07-99 | GsA4divG3L 
+DAG3_01  | 23-07-99 | GsA4divG3LFG 
+DAG3_02  | 23-07-99 | GsA4divG3NL 
+DAG3_03  | 23-07-99 | GsA4divNG3 
+DAG3GF00 | 23-07-99 | GsTMDfastG3GL 
+DAG3GF01 | 23-07-99 | GsTMDfastG3GLFG 
+DAG3GF02 | 23-07-99 | GsTMDfastG3GNL 
+DAG3GP00 | 23-07-99 | GsPrstG3GL 
+DAG3GP01 | 23-07-99 | GsPrstG3GLFG 
+DAG3GP02 | 23-07-99 | GsPrstG3GNL 
+DAFT3_00 | 23-07-99 | GsA4divTF3L 
+DAFT3_01 | 23-07-99 | GsA4divTF3LFG 
+DAFT3_02 | 23-07-99 | GsA4divTF3NL 
+DAFT3_03 27-07-99 18:26:40 GsA4divTNF3 
+DAF3_00  | 23-07-99 | GsA4divF3L 
+DAF3_01  | 23-07-99 | GsA4divF3LFG 
+DAF3_02  | 23-07-99 | GsA4divF3NL 
+DAF3_03  | 23-07-99 | GsA4divNF3 
+DAF3GF00 | 23-07-99 | GsTMDfastF3GL 
+DAF3GF01 | 23-07-99 | GsTMDfastF3GLFG 
+DAF3GF02 | 23-07-99 | GsTMDfastF3GNL 
+DAF3GP00 | 23-07-99 | GsPrstF3GL 
+DAF3GP01 | 23-07-99 | GsPrstF3GLFG 
+DAF3GP02 | 23-07-99 | GsPrstF3GNL 
+DAG3MF00 | 23-07-99 | GsTMDfastG3M 
+DAG3MF01 | 23-07-99 | GsTMDfastG3MFG 
+DATG3MF0 | 23-07-99 | GsTMDfastTG3M 
+DATG3MF1 | 23-07-99 | GsTMDfastTG3MFG 
+DAG4MF00 | 23-07-99 | GsTMDfastG4M 
+DAG4MF01 | 23-07-99 | GsTMDfastG4MFG 
+DATG4MF0 | 23-07-99 | GsTMDfastTG4M 
+DATG4MF1 | 23-07-99 | GsTMDfastTG4MFG 
+DAF3MF00 | 23-07-99 | GsTMDfastF3M 
+DAF3MF01 | 23-07-99 | GsTMDfastF3MFG 
+DAFT3MF0 | 23-07-99 | GsTMDfastTF3M 
+DAFT3MF1 | 23-07-99 | GsTMDfastTF3MFG 
+DAF4MF00 | 23-07-99 | GsTMDfastF4M 
+DAF4MF01 | 23-07-99 | GsTMDfastF4MFG 
+DAFT4MF0 | 23-07-99 | GsTMDfastTF4M 
+DAFT4MF1 | 23-07-99 | GsTMDfastTF4MFG 
+DAF4GF00 | 23-07-99 | GsTMDfastF4GL 
+DAF4GF01 | 23-07-99 | GsTMDfastF4GLFG 
+DAF4GF02 | 23-07-99 | GsTMDfastF4GNL 
+DAG4GF00 | 23-07-99 | GsTMDfastG4GL 
+DAG4GF01 | 23-07-99 | GsTMDfastG4GLFG 
+DAG4GF02 | 23-07-99 | GsTMDfastG4GNL 
+
