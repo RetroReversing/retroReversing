@@ -2402,3 +2402,20 @@ The Playstation Multi-Tap library that allows 8 players to connect to one playst
 Module  |   Date  |  Externals defined
 --- | --- | ---
 TAP      | 22-09-97 | InitTAP StartTAP StopTAP SendTAP EnableTAP DisableTAP 
+
+Function Names in linking order
+```
+InitTAP
+StartTAP
+StopTAP
+SendTAP
+EnableTAP
+DisableTAP
+bzero
+PAD_dr
+EnterCriticalSection
+ExitCriticalSection
+SysEnqIntRP
+SysDeqIntRP
+ChangeClearRCnt
+```
