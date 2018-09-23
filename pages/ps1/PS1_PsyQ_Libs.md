@@ -236,6 +236,7 @@ STRTOL_0 | 23-07-99 | strtol
 STRTOL_1 | 23-07-99 | atob 
 
 # LIBCARD
+LIBCARD.LIB is the library for communicating with the memory cards.
 
 Module   |  Date  | Externals defined
 --- | --- | ---
@@ -258,7 +259,14 @@ INIT     | 23-07-99 | InitCARD StartCARD StopCARD
 END      | 23-07-99 | _ExitCard 
 FORMAT   | 23-07-99 | _card_format
 
-# LIBCD
+# LIBCD (Basic CD-ROM & Streaming)
+`LIBCD.LIB` is required for any games that need to access data from the CD drive.
+From the official documentation:
+```
+The CD/Streaming Library (libcd) consists of two separate libraries:
+• The CD-ROM Library, which provides functions for controlling the PlayStation built-in CD-ROM drive. It provides CD sound control and other services.
+• The Streaming Library, which is a group of functions for continuous reading of realtime data such as movies, sounds or vertex data stored on high-capacity media.
+```
 
 Module |  Date  | Externals defined
 --- | --- | ---
@@ -314,7 +322,7 @@ TYPE_2   | 23-07-99 | CdGetDiskType
 CRE_1    | 23-07-99 | CdReadFile 
 CRE_2    | 23-07-99 | CdReadExec 
 
-# LIBCOMB
+# LIBCOMB (Link Cable Library)
 The Link Cable Library (`libcomb.lib`) provides functions for connecting PlayStatios's together via a “link” cable.
 
 Module  |   Date  |  Externals defined
@@ -323,7 +331,7 @@ COMB     | 23-07-99 | AddCOMB _comb_control
 COMB_2   | 23-07-99 | DelCOMB 
 COMB_3   | 23-07-99 | ChangeClearSIO 
 
-# LIBDS
+# LIBDS (Extended CD-ROM)
 The extended CD-ROM library is basically the same as libcd but it implements a `command queue` to allow for speed differences between cpu and cdrom. You can't use both libds and libcd at the same time!
 
 Module  |   Date  |  Externals defined
@@ -366,7 +374,7 @@ DSCB_2   | 23-07-99 | DsReadyCallback
 DSCB_3   | 23-07-99 | DsStartCallback 
 DSCB_4   | 23-07-99 | DsDataCallback 
 
-# LIBETC
+# LIBETC (Callbacks management Library)
 The ETC library (`libetc.lib`) is mainly used for callbacks and is needed for a variety of other libraries such as graphics and sound as well as controllers. It main function is to control `callbacks`.
 
 From the official documentation:
@@ -389,8 +397,8 @@ INTR_DMA | 23-07-99 | startIntrDMA
 VMODE    | 23-07-99 | SetVideoMode GetVideoMode 
 HWCONFIG | 23-07-99 | get_hwconfig 
 
-# LIBGPU
-LibGPU is a library for utilizing the GPU and frame buffer, it works using Primitives similar to OpenGL, triangles, sprites etc.
+# LIBGPU (Basic Graphics Library)
+LibGPU is a library for utilizing the Graphics Processing Unit (GPU) and frame buffer, it works using Primitives similar to OpenGL, triangles, sprites etc.
 
 The frame buffer is a 1mb memory chip that stores all the values of the pixels to display to the TV screen.
 
@@ -458,7 +466,8 @@ KT00     | 23-07-99 | Krom2RawAdd2
 KT01     | 23-07-99 | kanjitrans 
 KT02     | 23-07-99 | hankanjitrans 
 
-# LIBGS
+# LIBGS (Extended Graphics Library)
+The extended graphics library `LIBGS.LIB` builds on top of `LIBGPU` and `LIBGTE` and provides functions to display TIM images and TMD model files.
 
 From the official docs:
 ```
@@ -643,7 +652,8 @@ DAG4GF00 | 23-07-99 | GsTMDfastG4GL
 DAG4GF01 | 23-07-99 | GsTMDfastG4GLFG 
 DAG4GF02 | 23-07-99 | GsTMDfastG4GNL 
 
-# LIBGTE
+# LIBGTE (Geometry Transformation Engine)
+LIBGTE is a library for 2D/3D math calculations that use the GTW hardware chip on the playstation to calculate coordinates and colour information before it is sent to the GPU.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1195,7 +1205,8 @@ Module  |   Date  |  Externals defined
 GUN      | 22-09-97 | RemoveGUN StopGun StartGun SelectGUN StartGUN StopGUN InitGUN SendGUN EnableGUN DisableGUN 
 NEWGUN   | 22-09-97 | _InitGun _ExitGun _check_gun_flag _clear_gun_flag read_gun_v read_gun_h 
 
-# LIBHMD
+# LIBHMD (HMD model, texture and animation format handling)
+The LIBHMD.LIB library supports loading the HMD format which is a 3D object that contains animation, texture and vertices to represent an object in 3D space.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
@@ -1786,6 +1797,7 @@ RVWUNIT  | 23-07-99 | GsSetRefViewUnit
 RVWLUNIT | 23-07-99 | GsSetRefViewLUnit 
 
 # LIBMATH
+Basic Maths library that supports floating point operations.
 
 Module  |   Date  |  Externals defined
 --- | --- | ---
