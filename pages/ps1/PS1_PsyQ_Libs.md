@@ -420,3 +420,25 @@ DSCB_1   | 23-07-99 | DsSyncCallback
 DSCB_2   | 23-07-99 | DsReadyCallback 
 DSCB_3   | 23-07-99 | DsStartCallback 
 DSCB_4   | 23-07-99 | DsDataCallback 
+
+# LIBETC
+The ETC library (`libetc.lib`) is mainly used for callbacks and is needed for a variety of other libraries such as graphics and sound as well as controllers. It main function is to control `callbacks`.
+
+From the official documentation:
+```
+Many functions such as graphics drawing, transferring data to the sound buffer, and loading data from the CD-ROM, may execute in parallel (asynchronously) in the background. These functions are called non- blocking functions, because they don’t block the CPU from performing other tasks.
+
+You can define callback functions that execute when the non-blocking function actually terminates. What actually happens is that when the non-blocking function completes, it generates an interrupt and the program jumps to the address registered as the callback. When the callback returns, the program returns to the point where the callback began, and normal processing resumes.
+
+A dedicated local stack is used for a callback function so that control can return to the original state after the callback returns. All interrupts are prohibited within callback functions. (Areas in which interrupts are prohibited are called critical sections.)
+```
+Module  |   Date  |  Externals defined
+--- | --- | ---
+PAD      | 23-07-99 | PadInit *PadIdentifier PadRead 
+PADSTOP  | 23-07-99 | PadStop 
+VSYNC    | 23-07-99 | Hcount VSync 
+INTR     | 23-07-99 | ResetCallback InterruptCallback DMACallback VSyncCallback VSyncCallbacks StopCallback RestartCallback CheckCallback GetIntrMask SetIntrMask 
+INTR_VB  | 23-07-99 | Vcount startIntrVSync 
+INTR_DMA | 23-07-99 | startIntrDMA 
+VMODE    | 23-07-99 | SetVideoMode GetVideoMode 
+HWCONFIG | 23-07-99 | get_hwconfig 
