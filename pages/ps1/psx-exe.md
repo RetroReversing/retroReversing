@@ -37,6 +37,8 @@ Some Information about the format:
 Name | Length | Description
 --- | --- | ---
 PSX Magic Number | 8 | Spells out 'PS-X EXE'
+Unknown | 16 | ???
+Initial Program Counter | 4 | e.g 0x80010000
 
 
 # References
