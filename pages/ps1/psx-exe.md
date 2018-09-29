@@ -26,5 +26,12 @@ In order to use tools like the RetDec decompiler we need to convert the exe form
 
 This document will contain my findings with regards to the PSX-EXE format.
 
+Some Information about the format:
+* Sony’s CD player can’t read executibles file that aren’t multiple of 2048 bytes [^1]
+
 # Useful Sources
 * ELF2EXE source code - https://github.com/cetygamer/psxsdk/blob/master/tools/elf2exe.c
+
+# References
+
+[^1] - https://www.linux-mips.org/wiki/PS1
