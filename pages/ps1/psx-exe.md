@@ -32,6 +32,13 @@ Some Information about the format:
 # Useful Sources
 * ELF2EXE source code - https://github.com/cetygamer/psxsdk/blob/master/tools/elf2exe.c
 
+# EXE Header
+
+Name | Length | Description
+--- | --- | ---
+PSX Magic Number | 8 | Spells out 'PS-X EXE'
+
+
 # References
 
 [^1]: https://www.linux-mips.org/wiki/PS1
