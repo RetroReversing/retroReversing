@@ -34,4 +34,4 @@ Some Information about the format:
 
 # References
 
-[^1] - https://www.linux-mips.org/wiki/PS1
+[^1]: - https://www.linux-mips.org/wiki/PS1
