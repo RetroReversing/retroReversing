@@ -38,7 +38,8 @@ Name | Length | Description
 --- | --- | ---
 PSX Magic Number | 8 | Spells out 'PS-X EXE'
 Unknown | 16 | ???
-Initial Program Counter | 4 | e.g 0x80010000
+Initial Program Counter | 4 | e.g 0x80010000 (stored opposite way around due to little endian)
+
 
 
 # References
