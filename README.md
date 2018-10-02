@@ -27,6 +27,9 @@ https://www.retroreversing.com/
 ## Nintendo 64
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
 
+## NES
+* How we fit an NES game into 40 Kilobytes - https://www.youtube.com/watch?v=ZWQ0591PAxM
+
 ## Playstation 3
 * Book review of "Programming the Cell Processor" and Comparison of open source tools to SN Systems sdk here - https://archive.org/stream/GDM_February_2009#page/n39/mode/2up/search/%22SN+Systems%22
 
