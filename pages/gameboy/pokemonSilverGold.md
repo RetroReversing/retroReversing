@@ -6,7 +6,7 @@ tags:
 title: How Pokemon Gold/Silver Worked (Game Boy)
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "XGFBtVbBgnM"
-image: /public/images/games/pokemonSilver.jpg
+image: /public/games/pokemonSilver.jpg
 permalink: /pokemon
 breadcrumbs:
   - name: Home
