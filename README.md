@@ -52,6 +52,7 @@ https://www.retroreversing.com/
 * Ultra64.ca - http://ultra64.ca
 * Codeshop articles in Edge magazine (Aus)
 * Super Famicom Development Wiki - https://wiki.superfamicom.org
+* N64 Cart Images @ James S' Kingdom - https://sites.google.com/site/jamesskingdom/Home/electronics-by-james-s/inside-manufactured-products/nintendo-64-hardware-exposed
 
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
