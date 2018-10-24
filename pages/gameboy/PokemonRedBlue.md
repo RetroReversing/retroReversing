@@ -5,7 +5,7 @@ tags:
 - games
 - assembly
 title: Reversing Pokemon Red and Blue (Game Boy)
-thumbnail: /publicpokemonBludeBox.png
+image: /public/images/games/pokemonBludeBox.png
 videocarousel:
   - title: ReAssembling Pokemon Red
     image: http://img.youtube.com/vi/MmZJhLVH2vo/0.jpg
@@ -13,7 +13,7 @@ videocarousel:
   - title: Pokemon Red Map building
     image: http://img.youtube.com/vi/tzr4Od68Gb0/0.jpg
     youtube: 'tzr4Od68Gb0'
-image: /public/pokemonBlueCart.png
+thumbnail: /public/pokemonBlueCart.png
 permalink: /pokemonredblue
 breadcrumbs:
   - name: Home
