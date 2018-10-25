@@ -27,4 +27,5 @@ editlink: /n64/Turok64SourceCode.md
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
 
-
+# References
+[^1]:- https://www.turokforums.com/index.php?topic=645.0
