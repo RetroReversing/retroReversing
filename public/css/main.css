@@ -1163,4 +1163,6 @@ a.pagination-item:hover {
     -webkit-animation: slide-in 0.6s
 }
 
-
+.postImage {
+  width:30vw;
+}
