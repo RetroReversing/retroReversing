@@ -5,7 +5,7 @@ tags:
 - games
 - sourcecode
 title: Turok 64 Official Source Code
-image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
+image: /public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 1.png
 videocarousel:
   - title: ReAssembling Pokemon Red
     image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
@@ -23,6 +23,7 @@ recommend: n64
 editlink: /n64/Turok64SourceCode.md
 ---
 # Turok 64
+<img src="/public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 3D.png" class="wow slideInLeft postImage" />
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
 
