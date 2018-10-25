@@ -33,7 +33,17 @@ The Game was pressed on to [8] megabyte cartridges meaning assets needed to be c
 
 <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
 
+
+# World
+In an interview with IGN, David Dinstbier, the project manager for Turok at Acclaim mentioned a world editor that they created for in-house development:
+```
+All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.
+```[^4]
+A world editor for Turok has never been leaked but it would be facinating to see some screenshots of this tool if they exist.
+
+
 # References
-[^1]:- https://www.turokforums.com/index.php?topic=645.0
-[^2]:- https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
-[^3]:- https://gamefaqs.gamespot.com/n64/199130-turok-dinosaur-hunter/credit
+[^1]: https://www.turokforums.com/index.php?topic=645.0
+[^2]: https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
+[^3]: https://gamefaqs.gamespot.com/n64/199130-turok-dinosaur-hunter/credit
+[^4]: https://www.ign.com/articles/1997/01/16/interview-with-the-creator-of-turok
