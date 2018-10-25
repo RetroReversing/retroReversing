@@ -44,3 +44,7 @@
 .hover {
   border-color: #333;
 }
+
+.postImage {
+  width:30vw;
+}
