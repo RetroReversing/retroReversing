@@ -10,7 +10,7 @@ videocarousel:
   - title: ReAssembling Pokemon Red
     image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
     youtube: 'ONEy_ybKWsg'
-thumbnail: /public/pokemonBlueCart.png
+thumbnail: /public/consoles/Nintendo 64.png
 permalink: /turok64sourcecode
 breadcrumbs:
   - name: Home
