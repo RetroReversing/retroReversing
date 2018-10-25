@@ -29,3 +29,4 @@ editlink: /n64/Turok64SourceCode.md
 
 # References
 [^1]:- https://www.turokforums.com/index.php?topic=645.0
+[^2]:- https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
