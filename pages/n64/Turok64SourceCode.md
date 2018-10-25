@@ -38,7 +38,8 @@ The Game was pressed on to [8] megabyte cartridges meaning assets needed to be c
 In an interview with IGN, David Dinstbier, the project manager for Turok at Acclaim mentioned a world editor that they created for in-house development:
 ```
 All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.
-```[^4]
+```
+[^4]
 A world editor for Turok has never been leaked but it would be facinating to see some screenshots of this tool if they exist.
 
 
