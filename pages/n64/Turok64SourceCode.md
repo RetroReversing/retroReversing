@@ -70,7 +70,9 @@ Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pr
 # Cartridge and Development Hardware
 <section class="postSection">
   <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
-  <div markdown="1">The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge.</div>
+  <div markdown="1">
+    The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge.
+  </div>
 </section>
 
 ## Official Development Hardware
@@ -79,7 +81,11 @@ The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra
 ## Unofficial Development Hardware
 <section class="postSection">
     <img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
-    <div markdown="1">During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. It is unknown if they had these units during the original Turok but it is quite possible [^7].</div>
+    <div markdown="1">
+During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. 
+      At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. 
+      It is unknown if they had these units during the original Turok but it is quite possible [^7].
+  </div>
 </section>
 
 
