@@ -71,33 +71,45 @@ Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pr
 <section class="postSection">
   <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
   <div markdown="1">
-    The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge.
+The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge.
   </div>
 </section>
 
 ## Official Development Hardware
+<section class="postSection">
+<div markdown="1">
 The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
+</div>
+</section>
 
 ## Unofficial Development Hardware
 <section class="postSection">
-    <img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
-    <div markdown="1">
+<img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
+<div markdown="1">
+
 During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. 
-      At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. 
-      It is unknown if they had these units during the original Turok but it is quite possible [^7].
-  </div>
+
+At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. 
+
+It is unknown if they had these units during the original Turok but it is quite possible [^7].
+
+</div>
 </section>
 
 
 # World
+<section class="postSection">
+<div markdown="1">
 In an interview with IGN, David Dinstbier, the project manager for Turok at Acclaim mentioned a world editor that they created for in-house development:
 ```
 All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.
 ```
 [^4]
 The world editor for Turok that David mentioned has never been released but it would be facinating to see some screenshots of this tool if they exist.
-The official remaster of Turok on Steam does contain a lvel editor for Turok 1 but it is unknown if this is based on the original in-house editor by Acclaim or if it was written by scratch [^5].
 
+The official remaster of Turok on Steam does contain a lvel editor for Turok 1 but it is unknown if this is based on the original in-house editor by Acclaim or if it was written by scratch [^5].
+</div>
+</section>
 
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
