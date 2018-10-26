@@ -29,9 +29,9 @@ Game was made by Iguana Entertainment under Acclaim and released on March 4th 19
 
 ---
 # Development Tools
-<img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 
 ## Developer Operating Systems
+<img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 It is certain that acclaim used the IRIX Operating System for their Silicon Graphics workstations (IRIS UNIX or IRIX was a variant of the UNIX operating system developed by Silicon Graphics).
 
 In the released Source Code there is an X11 folder, which means this may have been installed as the main desktop for these workstations. 
