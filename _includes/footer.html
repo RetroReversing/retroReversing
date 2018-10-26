@@ -32,7 +32,7 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
           
   <script>
-    (require(["binary-parser"]),function(bp) {
+    require(["binary-parser"] ,function(bp) {(function($) {
       "use strict";
       window.bp=bp;
 
@@ -75,6 +75,7 @@
       
       // scroll animations
       new WOW().init();
-    })(jQuery);
+    })(jQuery)
+                                            });
   </script>
 <script src="/public/js/main.js"></script>
