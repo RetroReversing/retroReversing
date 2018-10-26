@@ -23,14 +23,16 @@ recommend: n64
 editlink: /n64/Turok64SourceCode.md
 ---
 # Introduction to Turok 64
+<section>
 <img src="/public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 3D.png" class="wow slideInLeft postImage" />
 
 Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook, which made a team of over 61 people when you include all the other specialties[^3]. 
-
+</section>
 ---
 # Development Tools
 
 ## Developer Operating Systems
+<section>
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 It is certain that acclaim used the IRIX Operating System for their Silicon Graphics workstations (IRIS UNIX or IRIX was a variant of the UNIX operating system developed by Silicon Graphics).
 
@@ -39,7 +41,7 @@ In the released Source Code there is an X11 folder, which means this may have be
 It would have been very expensive to give all the developers their own Silicon Graphics workstations so it is likely they used other operating systems around the office.
 
 The source code feferences the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
-
+</section>
 ## Software Development Kit
 According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
 
