@@ -28,11 +28,14 @@ editlink: /n64/Turok64SourceCode.md
 
 Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook, which made a team of over 61 people when you include all the other specialties[^3]. 
 </section>
+
 ---
+
 # Development Tools
 
 ## Developer Operating Systems
 <section>
+
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
 It is certain that acclaim used the IRIX Operating System for their Silicon Graphics workstations (IRIS UNIX or IRIX was a variant of the UNIX operating system developed by Silicon Graphics).
 
@@ -44,6 +47,7 @@ The source code feferences the macro definition `WIN32` in the source code so th
 
 In a documentary for The Discovery Channel it can be seen that Turok 3 used Visual Studio on Windows for programming, but it is unclear if they also used this IDE for the original Turok [^8].
 </section>
+
 ## Software Development Kit
 According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
 
@@ -51,7 +55,9 @@ According to the latest release notes found in the source code it seems to be us
 ## Other Development tools
 Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pro-Pack is a general data compression library similar to zlib [^6].
 
+
 ---
+
 # Cartridge and Development Hardware
 <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
 The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge. 
