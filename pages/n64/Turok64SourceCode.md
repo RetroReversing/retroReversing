@@ -105,9 +105,9 @@ In an interview with IGN, David Dinstbier, the project manager for Turok at Accl
 All of the tools for this game were created internally; the world editor, how the animation is handled, everything we have, we created here.
 ```
 [^4]
-The world editor for Turok that David mentioned has never been released but it would be facinating to see some screenshots of this tool if they exist.
+The world editor for Turok that David mentioned has never been released but it would be fascinating to see some screenshots of this tool if they exist.
 
-The official remaster of Turok on Steam does contain a lvel editor for Turok 1 but it is unknown if this is based on the original in-house editor by Acclaim or if it was written by scratch [^5].
+The official remaster of Turok on Steam does contain a level editor for Turok 1 but it is unknown if this is based on the original in-house editor by Acclaim or if it was written by scratch [^5].
 </div>
 </section>
 
