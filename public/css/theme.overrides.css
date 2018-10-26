@@ -47,4 +47,6 @@
 
 .postImage {
   width:30vw;
+  float: left;
+  margin-right: 10px;
 }
