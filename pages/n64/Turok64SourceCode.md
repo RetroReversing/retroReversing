@@ -26,7 +26,9 @@ editlink: /n64/Turok64SourceCode.md
 <section class="postSection">
 <img src="/public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 3D.png" class="wow slideInLeft postImage" />
 
+<div markdown="1">
 Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook, which made a team of over 61 people when you include all the other specialties[^3]. 
+</div>
 
 </section>
 
