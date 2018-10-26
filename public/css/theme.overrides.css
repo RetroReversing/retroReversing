@@ -50,3 +50,7 @@
   float: left;
   margin-right: 10px;
 }
+
+.postSection {
+  line-height: 2;
+}
