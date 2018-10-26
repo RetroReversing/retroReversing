@@ -37,13 +37,18 @@ Game was made by Iguana Entertainment under Acclaim and released on March 4th 19
 <section>
 
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
+
 It is certain that acclaim used the IRIX Operating System for their Silicon Graphics workstations (IRIS UNIX or IRIX was a variant of the UNIX operating system developed by Silicon Graphics).
+
 
 In the released Source Code there is an X11 folder, which means this may have been installed as the main desktop for these workstations. 
 
+
 It would have been very expensive to give all the developers their own Silicon Graphics workstations so it is likely they used other operating systems around the office.
 
+
 The source code feferences the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
+
 
 In a documentary for The Discovery Channel it can be seen that Turok 3 used Visual Studio on Windows for programming, but it is unclear if they also used this IDE for the original Turok [^8].
 </section>
@@ -59,15 +64,19 @@ Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pr
 ---
 
 # Cartridge and Development Hardware
-<img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
-The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge. 
+<section>
+  <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
+  <p>The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge.</p>
+</section>
 
 ## Official Development Hardware
 The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
 
 ## Unofficial Development Hardware
-<img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
-During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. It is unknown if they had these units during the original Turok but it is quite possible [^7].
+<section>
+    <img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
+    <p>During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. It is unknown if they had these units during the original Turok but it is quite possible [^7].</p>
+</section>
 
 
 # World
