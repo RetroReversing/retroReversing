@@ -41,6 +41,8 @@ In the released Source Code there is an X11 folder, which means this may have be
 It would have been very expensive to give all the developers their own Silicon Graphics workstations so it is likely they used other operating systems around the office.
 
 The source code feferences the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
+
+In a documentary for The Discovery Channel it can be seen that Turok 3 used Visual Studio on Windows for programming, but it is unclear if they also used this IDE for the original Turok [^8].
 </section>
 ## Software Development Kit
 According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
@@ -80,3 +82,4 @@ The official remaster of Turok on Steam does contain a lvel editor for Turok 1 b
 [^5]: https://store.steampowered.com/app/405820/Turok/
 [^6]: https://wiki.multimedia.cx/index.php/RNC_ProPack
 [^7]: https://web.archive.org/web/20001119222300/http://www.dextrose.com:80/info/0428turok3dev.htm
+[^8]: https://youtu.be/dJXHyXxM0fg?t=1659
