@@ -27,11 +27,33 @@ editlink: /n64/Turok64SourceCode.md
 
 Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook, which made a team of over 61 people when you include all the other specialties[^3]. 
 
-# Cartridge
+---
+# Development Tools
 <img src="/public/games/turokCartridge.png" class="wow bounceInUp postImage" />
-The Game was pressed on to [8] megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge. The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
 
+## Developer Operating Systems
+It is certain that acclaim used the IRIX Operating System for their Silicon Graphics workstations (IRIS UNIX or IRIX was a variant of the UNIX operating system developed by Silicon Graphics).
+
+In the released Source Code there is an X11 folder, which means this may have been installed as the main desktop for these workstations. 
+
+It would have been very expensive to give all the developers their own Silicon Graphics workstations so it is likely they used other operating systems around the office.
+
+The source code feferences the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
+
+## Development Kit
+According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
+
+
+## Other Development tools
+Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pro-Pack is a general data compression library similar to zlib [^6].
+
+---
+# Cartridge and Development Hardware
 <img src="/public/N64/N64Cart_NUS_01A_01.png" class="wow bounceInLeft postImage" />
+The Game was cut on to 8 megabyte cartridges meaning assets needed to be compressed or cut in order to fit everything on the cartridge. 
+The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
+
+
 
 
 # World
@@ -50,3 +72,4 @@ The official remaster of Turok on Steam does contain a lvel editor for Turok 1 b
 [^3]: https://gamefaqs.gamespot.com/n64/199130-turok-dinosaur-hunter/credit
 [^4]: https://www.ign.com/articles/1997/01/16/interview-with-the-creator-of-turok
 [^5]: https://store.steampowered.com/app/405820/Turok/
+[^6]: https://wiki.multimedia.cx/index.php/RNC_ProPack
