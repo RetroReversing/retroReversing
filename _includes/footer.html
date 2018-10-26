@@ -24,7 +24,7 @@
 <script src="/public/js/lightbox.js"></script>
 <script src="/public/js/mermaid.min.js"></script>
 <script src="public/js/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script> -->
 <script src="/public/js/binary_unparser.bundle.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js"></script>
@@ -32,9 +32,8 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
           
   <script>
-    require(["binary-parser"] ,function(bp) {(function($) {
+    (function($) {
       "use strict";
-      window.bp=bp;
 
       // Full Width Carousel
       $('.owl-slide').owlCarousel({
@@ -75,7 +74,6 @@
       
       // scroll animations
       new WOW().init();
-    })(jQuery)
-                                            });
+    })(jQuery);
   </script>
 <script src="/public/js/main.js"></script>
