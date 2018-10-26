@@ -27,7 +27,16 @@ editlink: /n64/Turok64SourceCode.md
 <img src="/public/games/turok/Turok - Dinosaur Hunter (USA) (Rev B) 3D.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook, which made a team of over 61 people when you include all the other specialties[^3]. 
+Game was made by Iguana Entertainment under Acclaim and released on March 4th 1997. 
+The development team consisted of 9 programmers under the lead of Rob Cohen, 22 artists under the direction of Creative Director Nigel Cook.
+
+In total the Iguana Turok team was made up of over 61 people when you include all the other specialties[^3]. 
+
+In late 2018 the original source code for the N64 Version of Turok was released to the public by an unknown patreon, it is believed to have originated from one of the SGI workstations sold off during the Acclaim bankruptcy [^1] [^2].
+
+This makes it the first commerical Nintendo 64 game to have its source code released, which is very exciting from a Retro Game Archeology point of view, we can finally gain some insight into the development of a classic N64 game!
+
+The source code is almost completely written in C with only 2 or 3 assembly files present.
 </div>
 
 </section>
