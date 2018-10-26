@@ -56,6 +56,7 @@ The Game was cut on to 8 megabyte cartridges meaning assets needed to be compres
 The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
 
 ## Unofficial Development Hardware
+<img src="/public/games/turok/Turok3_DoctorV64.png" class="wow bounceInLeft postImage" />
 During a documentary by The Discovery Channel entitled "Video Games: Creating Virtual Fantasy" it documents the life of the developers at acclaim while they are working on Turok 3. At around 7 minutes into the show you can see the unofficial development kit known as the Bung Doctor V64. This was a much cheaper development kit compared to the Silicon graphics workstations which would sell for thousands. It is unknown if they had these units during the original Turok but it is quite possible [^7].
 
 
