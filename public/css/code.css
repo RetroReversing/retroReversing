@@ -1,0 +1,51 @@
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 4px
+}
+
+.highlight pre {
+    margin-bottom: 0
+}
+
+.gist .gist-file {
+    font-family: Menlo, Monaco, "Courier New", monospace !important
+}
+
+.gist .markdown-body {
+    padding: 15px
+}
+
+.gist pre {
+    padding: 0;
+    background-color: transparent
+}
+
+.gist .gist-file .gist-data {
+    font-size: .8rem !important;
+    line-height: 1.4
+}
+
+.gist code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0
+}
+
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+}
+
+blockquote p:last-child {
+    margin-bottom: 0
+}
+
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem
+    }
+}
