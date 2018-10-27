@@ -5,6 +5,7 @@ description: ' Retro Video Game Reverse Engineering.'
 baseurl: "/"
 url: http://www.retroreversing.com
 logo: '/public/logo.png'
+highlighter: rouge
 
 # Site configurations
 gems:
