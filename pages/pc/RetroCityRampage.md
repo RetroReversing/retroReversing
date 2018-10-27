@@ -1,25 +1,25 @@
 ---
 layout: post
 tags: 
-- pc
-- games
-- opensource
-title: Postal has been made Open Source!
-youtube: kSKeWH4TY9Y
+  - pc
+  - msdos
+title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
+image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
+videocarousel:
+  - title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
+    image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
+    youtube: 'kSKeWH4TY9Y'
 thumbnail: /public/consoles/Computer Old Design.png
-image: https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Postal_Coverart.png/220px-Postal_Coverart.png
-permalink: /postal
+permalink: /RetroCityRampage
 breadcrumbs:
   - name: Home
     url: /
   - name: PC
     url: /pc
-  - name: Postal is now Open Source!
+  - name: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
     url: #
-recommend: games
-editlink: /pc/Postal.md
-references:
-  - kimjustice
+recommend: pc
+editlink: /pc/RetroCityRampage.md
 ---
 ---
 layout: post
