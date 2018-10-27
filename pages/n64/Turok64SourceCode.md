@@ -10,7 +10,7 @@ videocarousel:
   - title: Turok 64 Official Source Code Found
     image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
     youtube: 'ONEy_ybKWsg'
-  - title: The Making of Turok: Dinosaur Hunter for Nintendo 64
+  - title: The Making of Turok Dinosaur Hunter for Nintendo 64
     image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
     twitch: '125480737'
 thumbnail: /public/consoles/Nintendo 64.png
