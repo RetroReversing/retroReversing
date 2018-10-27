@@ -35,9 +35,9 @@ The development team consisted of 9 programmers under the lead of Rob Cohen, 22 
 
 In total the Iguana Turok team was made up of over 61 people when you include all the other specialties[^3]. 
 
-In late 2018 the original source code for the N64 Version of Turok was released to the public by an unknown patreon, it is believed to have originated from one of the SGI workstations sold off during the Acclaim bankruptcy [^1] [^2].
+In late 2018 the original source code for the N64 Version of Turok was released to the public by an unknown patron, it is believed to have originated from one of the SGI workstations sold off during the Acclaim bankruptcy [^1] [^2].
 
-This makes it the first commerical Nintendo 64 game to have its source code released, which is very exciting from a Retro Game Archeology point of view, we can finally gain some insight into the development of a classic N64 game!
+This makes it the first commercial Nintendo 64 game to have its source code released, which is very exciting from a Retro Game Archeology point of view, we can finally gain some insight into the development of a classic N64 game!
 
 The source code is almost completely written in C with only 2 or 3 assembly files present.
 </div>
@@ -62,7 +62,7 @@ In the released Source Code there is an X11 folder, which means this may have be
 It would have been very expensive to give all the developers their own Silicon Graphics workstations so it is likely they used other operating systems around the office.
 
 
-The source code feferences the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
+The source code references the macro definition `WIN32` in the source code so there must have been some builds for either windows 3.1 or 95, and as it turns out Turok was released for Windows 95 on the 28th February 1997.
 
 
 In a documentary for The Discovery Channel it can be seen that Turok 3 used Visual Studio on Windows for programming, but it is unclear if they also used this IDE for the original Turok [^8].
@@ -83,7 +83,7 @@ You can find out more about RNC Compression over at SegaRetro - [Rob Northen com
 
 Specifically the library used is `RNC ProPack` which handles packing and unpacking then data.
 
-It looke like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
+It looks like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
 
 In the source code `boot.c` looks for an  RNC2 header for assets and decompresses the data if it is found.
 </div>
@@ -104,7 +104,7 @@ The Game was cut on to 8 megabyte cartridges meaning assets needed to be compres
 <div markdown="1">
 The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
   
-In an intreview with GamesRadar, lead designer David Dienstbier confirms that Iguana had 2 SGI workstations for development, 1 in a common room for artists to test assets in the real engine and another in the lead programmers office. [^9]
+In an interview with GamesRadar, lead designer David Dienstbier confirms that Iguana had 2 SGI workstations for development, 1 in a common room for artists to test assets in the real engine and another in the lead programmers office. [^9]
 </div>
 </section>
 
@@ -139,11 +139,11 @@ In the file `tengine.h` we get a hint that Turok 3D models were developed using 
 CMtxF		mf_3dstudio_to_u64;
 ```
 
-This is a Matrix definition to convert vertice coordinates from 3DStudio format to N64 (Ultra 64) which gives pretty concrete proof that 3D Studio was the main 3D modelling software used by Iguana while developing Turok 1. 
+This is a Matrix definition to convert vertices coordinates from 3DStudio format to N64 (Ultra 64) which gives pretty concrete proof that 3D Studio was the main 3D modelling software used by Iguana while developing Turok 1. 
 
 3DStudio and in turn 3DStudio Max later became the standard for 3D Game content creation so it is likely that Iguana Studios kept using this software for future games.
 
-In an interview with NintendoLife.com Greg Omelchuck, a character animator and 3D modeler for Turok mentions `3D Studio Max v4` but I presume they meant either `3D Studio 4` released in 1994 or `3D Studio Max 1.0` released in 1996 [^10]. 
+In an interview with NintendoLife.com Greg Omelchuck, a character animator and 3D modeller for Turok mentions `3D Studio Max v4` but I presume they meant either `3D Studio 4` released in 1994 or `3D Studio Max 1.0` released in 1996 [^10]. 
 
 It would be unlikely to be `3D Studio Max v4` as they say due to it being released in 2000, years after the game was released, unless it was v1.4 but I have a feeling it was `3D Studio 4` as the team would need time to learn the new Max version before they were confident using it for production game 3d modelling.
 </div>
