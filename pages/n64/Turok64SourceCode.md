@@ -82,7 +82,7 @@ No reference has been found to hint at any 3rd party SDKs such as SN Systems SDK
 Rob Northern Compression or RNC is a compression algorithm used by Iguana to compress game assets for Turok.
 You can find out more about RNC Compression over at SegaRetro - [Rob Northen compression - Sega Retro](https://segaretro.org/Rob_Northen_compression).
 
-Specifically the library used is `RNC ProPack` which handles packing and unpacking then data.
+Specifically the library used is `RNC ProPack` which handles packing and unpacking game data.
 
 It looks like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
 
@@ -160,7 +160,7 @@ The Game was cut on to 8 megabyte cartridges meaning assets needed to be compres
 The Game supported the Nintendo Memory Cards known as Controller Paks to save the players progress. You can find most of the code that implemented this feature in `control.h` and of course `control.c`.
 
 First the header file defines some important variables for the use of saving data to the controller paks.
-One is the global `ControllerPak` variable which is an instance of `OSPfs` a Nintendo defined type from the official SDK that stands for OS Pack File System.
+One is the global `ControllerPak` variable which is an instance of `OSPfs` a Nintendo defined type from the official SDK that resides in the OS package. Pfs presumably stands for Pak FileSystem as the memory pak has a very basic file ssystem for saving blocks or `notes` as they seem to be called in the n64 documentation.
 ```c
 extern OSPfs        ControllerPak ;
 ```
