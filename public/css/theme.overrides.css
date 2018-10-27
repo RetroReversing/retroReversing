@@ -54,3 +54,8 @@
 .postSection {
   line-height: 2;
 }
+
+.largeCode {
+max-height: 40vh;
+overflow: scroll;
+}
