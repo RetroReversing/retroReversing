@@ -73,8 +73,10 @@ In a documentary for The Discovery Channel it can be seen that Turok 3 used Visu
 According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
 
 
-## Other Development tools
-Reference to Sony PSX in rnc.s for something called “PROPACK Unpack”, RNC Pro-Pack is a general data compression library similar to zlib [^6].
+## Compression Library (RNC)
+Reference to Sony PSX in rnc.s for “PROPACK Unpack”, RNC Pro-Pack is a general data compression library similar to zlib [^6].
+
+`boot.c` looks for an  RNC2 header for assets and decompresses the data if it is found.
 
 
 ---
