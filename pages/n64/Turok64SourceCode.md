@@ -144,6 +144,9 @@ The official remaster of Turok on Steam does contain a level editor for Turok 1 
 </div>
 </section>
 
+# Other Games
+In an interview with GamesRadar, lead designer David Dienstbier confirms that the first South Park Game for N64 was based on the Turok Game Engine, so much of the code released will have been compiled for South Park too[^9].
+
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
 [^2]: https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
