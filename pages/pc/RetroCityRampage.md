@@ -1,5 +1,9 @@
 ---
 layout: post
+tags:
+  - pc
+  - port
+  - msdos
 title: Porting Retro City Rampage to MS-DOS From PS4 to 1.44MB Floppy
 image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
 videocarousel:
