@@ -1,15 +1,12 @@
 ---
 layout: post
-tags: 
-  - pc
-  - msdos
 title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
 image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
 videocarousel:
   - title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
     image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
     youtube: 'kSKeWH4TY9Y'
-thumbnail: /public/consoles/Computer Old Design.png
+thumbnail: '/public/consoles/Computer Old Design.png'
 permalink: /RetroCityRampage
 breadcrumbs:
   - name: Home
@@ -21,30 +18,6 @@ breadcrumbs:
 recommend: pc
 editlink: /pc/RetroCityRampage.md
 ---
----
-layout: post
-tags: 
-  - pc
-  - msdos
-title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
-image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
-videocarousel:
-  - title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
-    image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
-    youtube: 'kSKeWH4TY9Y'
-thumbnail: /public/consoles/Computer Old Design.png
-permalink: /RetroCityRampage
-breadcrumbs:
-  - name: Home
-    url: /
-  - name: PC
-    url: /pc
-  - name: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
-    url: #
-recommend: pc
-editlink: /pc/RetroCityRampage.md
----
-
 From the GDC Youtube Channel:
 ```
 Not many people are designing video games for MS-DOS these days, but that didn't stop Vblank Entertainment's Brian Provinciano from taking on the task. 
