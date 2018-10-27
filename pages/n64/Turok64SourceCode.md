@@ -73,10 +73,13 @@ In a documentary for The Discovery Channel it can be seen that Turok 3 used Visu
 According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
 
 
-## Compression Library (RNC)
-Reference to Sony PSX in rnc.s for “PROPACK Unpack”, RNC Pro-Pack is a general data compression library similar to zlib [^6].
+## Compression Library - Rob Northern Compression (RNC)
+Rob Northern Compression or RNC is a compression algorithm used by Iguana to compress game assets for Turok.
+You can find out more about RNC Compression over at SegaRetro - [Rob Northen compression - Sega Retro](https://segaretro.org/Rob_Northen_compression)
 
-`boot.c` looks for an  RNC2 header for assets and decompresses the data if it is found.
+It looke like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
+
+In the source code `boot.c` looks for an  RNC2 header for assets and decompresses the data if it is found.
 
 
 ---
