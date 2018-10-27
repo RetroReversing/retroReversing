@@ -9,7 +9,7 @@ videocarousel:
   - title: Porting Retro City Rampage to MS-DOS: From PS4 to 1.44MB Floppy
     image: http://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
     youtube: 'kSKeWH4TY9Y'
-thumbnail: /public/consoles/Nintendo 64.png
+thumbnail: /public/consoles/Computer Old Design.png
 permalink: /RetroCityRampage
 breadcrumbs:
   - name: Home
