@@ -96,6 +96,7 @@ In the source code `boot.c` looks for an  RNC2 header for assets and decompresse
 
 # Cheats
 <section class="postSection">
+<img src="/public/games/turok/Turok-_Dinosaur_Hunter_(Nintendo_64)-cheatmenu.png" class="wow bounceInUp postImage" alt="Turok Cheat Menu From The Cutting Room Floor" />  
 <div markdown="1">
 You can find all the in-game cheats code in a file conveniently named `cheats.c`, this contains all the rendering code required to display the cheat menu and allow the user to select which cheat to toggle on and off.
 
