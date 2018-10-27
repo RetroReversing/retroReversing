@@ -113,6 +113,9 @@ It is unknown if they had these units during the original Turok but it is quite 
 ---
 
 # 3D Models
+<section class="postSection">
+<img src="/public/software/3dsmax/WinWare-3d Studio 4.png" class="wow slideInLeft postImage" />
+<div markdown="1">
 For Nintendo 64 3D Model development the official standards were NinGen (based on MultiGen) or Alias but it was also common to use SoftImage, Nichimen Graphics or Autodesk's 3DStudio.
 
 In the file `tengine.h` we get a hint that Turok 3D models were developed using 3D Studio (note this was before the MAX version of 3D Studio):
@@ -131,6 +134,8 @@ This is a Matrix definition to convert vertice coordinates from 3DStudio format 
 In an interview with NintendoLife.com Greg Omelchuck, a character animator and 3D modeler for Turok mentions `3D Studio Max v4` but I presume they meant either `3D Studio 4` released in 1994 or `3D Studio Max 1.0` released in 1996 [^10]. 
 
 It would be unlikely to be `3D Studio Max v4` as they say due to it being released in 2000, years after the game was released, unless it was v1.4 but I have a feeling it was `3D Studio 4` as the team would need time to learn the new Max version before they were confident using it for production game 3d modelling.
+</div>
+</section>
 
 ---
 
