@@ -70,12 +70,13 @@ In a documentary for The Discovery Channel it can be seen that Turok 3 used Visu
 </section>
 
 ## Software Development Kit
-According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
+According to the latest release notes found in the source code it seems to be using the official N64 development kit released on October 15th 1996. 
+
+No reference has been found to hint at any 3rd party SDKs such as SN Systems SDKs.
 
 
 ## Compression Library - Rob Northern Compression (RNC)
 <section class="postSection">
-
 <img src="/public/software/RNC_ProPack.PNG" class="wow bounceInUp postImage" />
 <div markdown="1">
 Rob Northern Compression or RNC is a compression algorithm used by Iguana to compress game assets for Turok.
@@ -86,6 +87,58 @@ Specifically the library used is `RNC ProPack` which handles packing and unpacki
 It looks like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
 
 In the source code `boot.c` looks for an  RNC2 header for assets and decompresses the data if it is found.
+</div>
+</section>
+
+---
+
+# The Code
+
+# Cheats
+<section class="postSection">
+<div markdown="1">
+You can find all the in-game cheats code in a file conveniently named `cheats.c`, this contains all the rendering code required to display the cheat menu and allow the user to select which cheat to toggle on and off.
+
+First of all we draw the cheat menu background which is a black box with alpha transparency so it is partially transparent.
+```c
+// prepare to draw boxes
+    COnScreen__InitBoxDraw(ppDLP) ;
+    COnScreen__DrawHilightBox(ppDLP,
+                             CHEAT_X, CHEAT_Y,
+                             CHEAT_X+CHEAT_WIDTH, CHEAT_Y+CHEAT_HEIGHT,
+                             1, FALSE,
+                             0,0,0, 200 * pThis->m_Alpha) ;
+```
+
+You can see in the following code snippet that we next need to draw the Highlight box for the players current selection. 
+We display this texture using a function called DrawBar() in the Pause Screen structure.
+Horizontally we want the bar to reach from the start of the cheat menu box drawn previously, plus an additional 8px to give the menu box a little padding. 
+
+Vertically we need to display the highlight bar  at `CHEAT_Y+CHEATMENU_Y+(pThis->m_RealSelection*CHEATMENU_SPACING)`, these variables increase as the player moves up and down the cheat selection options and takes into account the spacing between items which can alter based on the number of cheats the player has available on screen.
+```c
+    // draw polygon selection bar
+    CPause__InitPolygon(ppDLP) ;
+    CPause__DrawBar(ppDLP, CHEAT_X+8, CHEAT_Y+CHEATMENU_Y+(pThis->m_RealSelection*CHEATMENU_SPACING),
+                        CHEAT_WIDTH-16, CHEATMENU_SPACING, pThis->m_Alpha) ;
+```
+
+Finally we just need to draw the text for each Cheat option on screen, so we first initialise the font with the scaling snd colour we want and then we can loop through and call `COnScreen__DrawText` on each cheat option.
+```c
+// draw each option
+    COnScreen__InitFontDraw(ppDLP) ;
+    COnScreen__SetFontScale(0.7, CHEAT_SCALE) ;
+    COnScreen__SetFontColor(ppDLP, 200, 200, 200, 200, 200, 200) ;
+    yStart = CHEAT_Y + CHEATMENU_Y;
+
+    for (i=0; i<CHEAT_END_SELECTION; i++)
+    {
+        if (cheat_menu_items[i])
+        {
+            COnScreen__DrawText(ppDLP, cheat_text[i], 320/2, yStart, (int)(255 * pThis->m_Alpha), TRUE, FALSE);
+            yStart += CHEATMENU_SPACING;
+        }
+    }
+```
 </div>
 </section>
 
