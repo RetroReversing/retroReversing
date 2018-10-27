@@ -20,7 +20,6 @@ breadcrumbs:
     url: #
 recommend: pc
 editlink: /pc/RetroCityRampage.md
-
 ---
 
 From the GDC Youtube Channel:
