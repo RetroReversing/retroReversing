@@ -88,6 +88,8 @@ The Game was cut on to 8 megabyte cartridges meaning assets needed to be compres
 <section class="postSection">
 <div markdown="1">
 The game was developed on SGI Indy workstations  with special Nintendo 64 (ultra64 at the time) hardware on a board the plugged straight into the SGI Expansion slot. This allowed developers to test games quickly without having to write a development cartridge every time [^2].
+  
+In an intreview with GamesRadar, lead designer David Dienstbier confirms that Iguana had 2 SGI workstations for development, 1 in a common room for artists to test assets in the real engine and another in the lead programmers office. [^9]
 </div>
 </section>
 
@@ -148,3 +150,4 @@ The official remaster of Turok on Steam does contain a level editor for Turok 1 
 [^6]: https://wiki.multimedia.cx/index.php/RNC_ProPack
 [^7]: https://web.archive.org/web/20001119222300/http://www.dextrose.com:80/info/0428turok3dev.htm
 [^8]: https://youtu.be/dJXHyXxM0fg?t=1659
+[^9]: https://www.gamesradar.com/uk/the-making-of-turok-dinosaur-hunter/
