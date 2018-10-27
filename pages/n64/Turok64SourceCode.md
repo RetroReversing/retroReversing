@@ -206,7 +206,9 @@ char                ExtName[4]    = {0,0,0,0} ;
 
 The Data that is actually saved to the Game Pak is modelled in a structure called CPersistantData:
 <div markdown="1" class="largeCode">
+
 ```c
+
 typedef struct CPersistantData_t
 {
     BOOL    SemiAutomaticPistolFlag,    // weapons owned flags
@@ -286,8 +288,8 @@ typedef struct CPersistantData_t
     u32 Crash ;
 
 } CPersistantData;
-
 ```
+
 </div>
 
   </div>
