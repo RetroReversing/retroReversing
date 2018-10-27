@@ -105,6 +105,25 @@ It is unknown if they had these units during the original Turok but it is quite 
 </div>
 </section>
 
+---
+
+# 3D Models
+For Nintendo 64 3D Model development the official standards were NinGen (based on MultiGen) or Alias but it was also common to use SoftImage, Nichimen Graphics or Autodesk's 3DStudio.
+
+In the file `tengine.h` we get a hint that Turok 3D models were developed using 3D Studio (note this was before the MAX version of 3D Studio):
+```c
+// global matrices
+/////////////////////////////////////////////////////////////////////////////
+
+// floating point matrices
+CMtxF		mf_3dstudio_to_u64;
+```
+
+This is a Matrix definition to convert vertice coordinates from 3DStudio format to N64 (Ultra 64) which gives pretty concrete proof that 3D Studio was the main 3D modelling software used by Iguana while developing Turok 1. 
+
+3DStudio and in turn 3DStudio Max later became the standard for 3D Game content creation so it is likely that Iguana Studios kept using this software for future games.
+
+---
 
 # World
 <section class="postSection">
