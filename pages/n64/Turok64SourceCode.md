@@ -75,7 +75,9 @@ According to the latest release notes found in the source code it seems to be us
 
 ## Compression Library - Rob Northern Compression (RNC)
 Rob Northern Compression or RNC is a compression algorithm used by Iguana to compress game assets for Turok.
-You can find out more about RNC Compression over at SegaRetro - [Rob Northen compression - Sega Retro](https://segaretro.org/Rob_Northen_compression)
+You can find out more about RNC Compression over at SegaRetro - [Rob Northen compression - Sega Retro](https://segaretro.org/Rob_Northen_compression).
+
+Specifically the library used is `RNC ProPack` which handles packing and unpacking then data.
 
 It looke like Iguana also used RNC for PS1 games as the file `rnc.s` contains a reference to Sony PSX for its “PROPACK Unpack” code written in assembly [^6].
 
