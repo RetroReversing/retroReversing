@@ -6,7 +6,12 @@
           <div class="carousel-overlay"></div>
           <div class="carousel-caption">
               <div class="embed-responsive embed-responsive-16by9">
+                {% if item.youtube %}
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ item.youtube }}" allowfullscreen></iframe>
+                {% endif %}
+                {% if item.twitch %}
+                <iframe src="https://player.twitch.tv/?autoplay=false&video={{item.twitch}}" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+                {% endif %}
               </div>
           </div>
         </div>
