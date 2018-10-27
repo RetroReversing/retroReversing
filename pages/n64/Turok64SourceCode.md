@@ -128,6 +128,10 @@ This is a Matrix definition to convert vertice coordinates from 3DStudio format 
 
 3DStudio and in turn 3DStudio Max later became the standard for 3D Game content creation so it is likely that Iguana Studios kept using this software for future games.
 
+In an interview with NintendoLife.com Greg Omelchuck, a character animator and 3D modeler for Turok mentions `3D Studio Max v4` but I presume they meant either `3D Studio 4` released in 1994 or `3D Studio Max 1.0` released in 1996 [^10]. 
+
+It would be unlikely to be `3D Studio Max v4` as they say due to it being released in 2000, years after the game was released, unless it was v1.4 but I have a feeling it was `3D Studio 4` as the team would need time to learn the new Max version before they were confident using it for production game 3d modelling.
+
 ---
 
 # World
@@ -157,3 +161,4 @@ In an interview with GamesRadar, lead designer David Dienstbier confirms that th
 [^7]: https://web.archive.org/web/20001119222300/http://www.dextrose.com:80/info/0428turok3dev.htm
 [^8]: https://youtu.be/dJXHyXxM0fg?t=1659
 [^9]: https://www.gamesradar.com/uk/the-making-of-turok-dinosaur-hunter/
+[^10]: http://www.nintendolife.com/news/2016/05/feature_the_making_of_turok_dinosaur_hunter
