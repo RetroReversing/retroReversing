@@ -204,6 +204,92 @@ char              GameName[16]  = {'t', 'u', 'r', 'o', 'k', 0,0,0,
 char                ExtName[4]    = {0,0,0,0} ;
 ```
 
+The Data that is actually saved to the Game Pak is modelled in a structure called CPersistantData:
+<div markdown="1" class="largeCode">
+```c
+typedef struct CPersistantData_t
+{
+    BOOL    SemiAutomaticPistolFlag,    // weapons owned flags
+            RiotShotgunFlag,
+            AutomaticShotgunFlag,
+            AssaultRifleFlag,
+            MachineGunFlag,
+            MiniGunFlag,
+            GrenadeLauncherFlag,
+            TechWeapon1Flag,
+            RocketFlag,
+            ShockwaveFlag,
+            TechWeapon2Flag,
+            ChronoSceptorFlag ;
+
+    BOOL    ArmorFlag,                      // miscellaneous inventory flags
+            BackPackFlag ;
+
+    int BulletPool,                     // weapons ammo
+            ShotgunPool,
+            EnergyPool,
+            ExpTekBowAmmo,
+            ExpShotgunPool,
+            TekBowAmmo,
+            MiniGunAmmo,
+            GrenadeLauncherAmmo,
+            RocketAmmo,
+            TechWeapon2Ammo,
+            ChronoSceptorAmmo;
+
+    int ArmorAmount ;
+
+    int WeaponUsing ;
+
+    int Level2Keys,
+            Level3Keys,
+            Level4Keys,
+            Level5Keys,
+            Level6Keys,
+            Level7Keys,
+            Level8Keys ;
+    int Level2Access,
+            Level3Access,
+            Level4Access,
+            Level5Access,
+            Level6Access,
+            Level7Access,
+            Level8Access ;
+    int ChronoSceptorPieces ;
+
+    int Difficulty ;
+
+
+    BOOL    RunWalk ;                       // TRUE for RUN
+    BOOL    ControlSide ;                   // TRUE for right handed
+    BOOL    Blood ;                         // TRUE for blood is on
+    BOOL    Stereo ;                            // TRUE for stereo
+    u32 MusicVolume ;
+    u32 SFXVolume ;
+    u32 Opacity ;
+    u32 HAnalog ;
+    u32 VAnalog ;
+    u32 CheatFlags ;
+    u32 EnabledCheatFlags ;
+
+    int Health,
+            MaxHealth,
+            Tokens,
+            Lives ;
+
+    u16 Checkpoint ;
+
+    float   BestTrainTime ;
+
+    INT32   BossFlags ;
+
+    u32 Crash ;
+
+} CPersistantData;
+
+```
+</div>
+
   </div>
 </section>
 
