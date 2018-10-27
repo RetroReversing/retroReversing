@@ -167,6 +167,43 @@ The OS is just for Operating System but `Pfs` presumably stands for Pak FileSyst
 ```c
 extern OSPfs        ControllerPak ;
 ```
+
+```c
+extern  OSPfsState      FileState ;
+extern  s32             FilesUsed, MaxFiles ;
+extern  s32             TurokFiles ;
+extern  s32             FreePages ;
+
+
+typedef     struct s_File
+{
+    int             index ;
+    char          string[20] ;
+    int             pages ;
+} t_File ;
+
+extern  t_File      FileDirectory[] ;
+```
+
+The FileState variable is of type OSPfsState, this is a Ultra 64 development kit struct defined as:
+```c
+typedef struct {
+   u32 file_size;       /*Note Size*/
+   u32 game_code;       /*Game Code*/
+   u16 company_code;    /*Company Code*/
+   char ext_name[4];    /*Note Extension*/
+   char game_name[16];  /*Note Name*/
+    }
+```
+
+For Turok these fields are defined using the following constants:
+```c
+u16             CompanyCode   = '51' ;
+u32             GameCode          = 'NTUE' ;
+char              GameName[16]  = {'t', 'u', 'r', 'o', 'k', 0,0,0,0,0,0,0,0,0,0,0} ;
+char                ExtName[4]    = {0,0,0,0} ;
+```
+
   </div>
 </section>
 
