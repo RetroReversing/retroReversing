@@ -160,7 +160,10 @@ The Game was cut on to 8 megabyte cartridges meaning assets needed to be compres
 The Game supported the Nintendo Memory Cards known as Controller Paks to save the players progress. You can find most of the code that implemented this feature in `control.h` and of course `control.c`.
 
 First the header file defines some important variables for the use of saving data to the controller paks.
-One is the global `ControllerPak` variable which is an instance of `OSPfs` a Nintendo defined type from the official SDK that resides in the OS package. Pfs presumably stands for Pak FileSystem as the memory pak has a very basic file ssystem for saving blocks or `notes` as they seem to be called in the n64 documentation.
+
+One is the global `ControllerPak` variable which is an instance of `OSPfs` a Nintendo defined type from the official SDK that resides in the OS package. 
+
+The OS is just for Operating System but `Pfs` presumably stands for Pak FileSystem as the memory pak has a very basic file ssystem for saving blocks or `notes` as they seem to be called in the n64 documentation.
 ```c
 extern OSPfs        ControllerPak ;
 ```
