@@ -289,6 +289,7 @@ typedef struct CPersistantData_t
 } CPersistantData;
 ```
 
+If you run Turok in an emulator and reach a save point you can get the Memory Pak file `.mpk` that the emulator saves and edit it in a Hex Editor of your choice. Or you can open it in an online MPK editor such as [MPKEdit](https://rawgit.com/bryc/mempak/master/index.html).
 </div>
 
   </div>
