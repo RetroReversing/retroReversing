@@ -49,6 +49,16 @@ This will depend what version of WINE and which platform, I was using MacOSX so 
 ~/.wine/drive_c/
 ```
 
+## Step 4 - Setup the environment Variable
+First go to directory: `~/.wine/drive_c/nintendo` and run the following command in bash:
+```bash
+wineconsole N64.BAT
+```
+This will setup all the environment variables, note that I got an error saying 
+```
+Can't recognize '' as an internal or external command, or batch script.
+```
+I will have to look into why this is happening.
 
 # Linker Issues
 
