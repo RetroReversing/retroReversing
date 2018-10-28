@@ -370,6 +370,13 @@ In an interview with GamesRadar, lead designer David Dienstbier confirms that th
 </div>
 </section>
 
+# Compiling the Source Code
+The released source code for Turok is very interesting, it looks like whoever started the project simply copied one of the official Nintendo Demos located under `C:\ultra\usr\src\pr` demos.
+
+This is a very common developer technique to get up and running quickly, copy source code that you know works and then build from that.
+
+The released source code in fact contains the whole `PR` folder, so it also contains some of the official Nintendo code Demos from an early release of the SDK.
+
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
 [^2]: https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
