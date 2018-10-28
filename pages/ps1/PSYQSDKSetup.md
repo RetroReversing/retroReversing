@@ -3,6 +3,8 @@ layout: post
 tags: 
 - ps1
 - reverseengineering
+- sdk
+- tutorial
 title: PSYQ SDK Setup on MacOSX/Linux
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/consoles/Sony Playstation.png
