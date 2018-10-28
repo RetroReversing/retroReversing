@@ -377,6 +377,17 @@ This is a very common developer technique to get up and running quickly, copy so
 
 The released source code in fact contains the whole `PR` folder, so it also contains some of the official Nintendo code Demos from an early release of the SDK.
 
+## Missing stddef.h
+This may have just been a problem with my N64 development environment, but it seemed to be missing stddef.h, so I copied one from the open source dragon sdk ans put it in `c:/ultra/GCC/MIPSE/INCLUDE` and it seemed con work just fine.
+
+## trex.c errors
+I was getting the following errors compiling `trex.c`:
+```
+trex.c:229: invalid operands to binary |
+trex.c:229: initializer element for `TRexModeTable[5].m_Flags' is not constant
+trex.c:1040: warning: initialization makes integer from pointer without a cast
+```
+
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
 [^2]: https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
