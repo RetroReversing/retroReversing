@@ -74,6 +74,7 @@ If you get the following error:
 ```
 c:/ultra/gcc/mipse/bin/ld.out: cannot open c:\ultra/usr/lib/PR/gspF3DEX2.fifo.o: #2 File not found
 ```
+For some reason some of the libraries have been renamed instead of `.fifo` they have `_fifo`, you will need to rename these as a batch.
 
 ---
 
