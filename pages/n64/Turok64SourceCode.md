@@ -378,20 +378,27 @@ This is a very common developer technique to get up and running quickly, copy so
 The released source code in fact contains the whole `PR` folder, so it also contains some of the official Nintendo code Demos from an early release of the SDK.
 
 ## Missing stddef.h
-This may have just been a problem with my N64 development environment, but it seemed to be missing stddef.h, so I copied one from the open source dragon sdk ans put it in `c:/ultra/GCC/MIPSE/INCLUDE` and it seemed con work just fine.
+This may have just been a problem with my N64 development environment, but it seemed to be missing stddef.h, so I copied one from the open source dragon sdk ans put it in `c:/ultra/GCC/MIPSE/INCLUDE`.
 
-## trex.c errors
-I was getting the following errors compiling `trex.c`:
+However I needed to make a change to the file so that it would #define NULL 0, so on line 400 of `stddef.h` change it to:
 ```
-trex.c:229: invalid operands to binary |
-trex.c:229: initializer element for `TRexModeTable[5].m_Flags' is not constant
-trex.c:1040: warning: initialization makes integer from pointer without a cast
+// #define NULL ((void *)0)
+#define NULL 0
 ```
 
-Which was reffering to this line:
-```c
-BOSS_MODE_INFO(NULL,								TRex_Code_Attack,		AI_ANIM_BOSS_TREX_LOOK,1,NULL | BF_LASER_ON),
+This will stop errors such as `trex.c:229: invalid operands to binary |` from appearing later on.
+
+## Assembler errors
 ```
+as -o adpcm.o adpcm.s
+adpcm.s: Assembler messages:
+adpcm.s:96: Error: ERROR: Illegal operands `sub'
+adpcm.s:97: Error: ERROR: Illegal operands `sw'
+adpcm.s:98: Error: ERROR: Illegal operands `sw'
+adpcm.s:99: Error: ERROR: Illegal operands `sw'
+adpcm.s:100: Error: ERROR: Illegal operands `sw'
+```
+
 
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
