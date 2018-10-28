@@ -63,19 +63,9 @@ This is just because of the line endings being different you can ignore it.
 ## Step 5 - Try to Compile a sample..
 In the same wineconsole that you opened in step 4 (as it now has all the environment variables setup in that console), cd to `C:\nintendo\n64kit\nusys\sample\nu0` and run make....
 
-You will notice that absolutely nothing happens, this is because all the executables are 16-bit and Wine doesn't support them. So now we try DOSBox.app as that does support 16-bit executables.
+You will notice that absolutely nothing happens, this is because all the executables are 16-bit and Wine doesn't support them. So since we want to run it as a 32bit application we need to use a tool called `exew32.exe` which comes with the package, to use it run this in the same wineconsole shell:
+`exew32 make`
 
-## Step 6 - DOSBox
-Copy the N64.bat from `~/.wine/drive_c/nintendo` and put it directly in `~/.wine/drive_c`.
-
-Right Click this file in Finder and select "Open With.." and select DOSBox.
-
-Then run the following command in DOSBOX:
-```
-call C:\ultra\setup.bat
-cd C:\nintendo\n64kit\nusys\sample\nu0
-make
-```
 
 # Linker Issues
 
