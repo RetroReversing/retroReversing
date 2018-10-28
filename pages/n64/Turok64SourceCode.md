@@ -388,6 +388,11 @@ trex.c:229: initializer element for `TRexModeTable[5].m_Flags' is not constant
 trex.c:1040: warning: initialization makes integer from pointer without a cast
 ```
 
+Which was reffering to this line:
+```c
+BOSS_MODE_INFO(NULL,								TRex_Code_Attack,		AI_ANIM_BOSS_TREX_LOOK,1,NULL | BF_LASER_ON),
+```
+
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
 [^2]: https://www.reddit.com/r/gamedev/comments/5nxqi9/n64_turok_dinosaur_hunter_source_code_discovered/
