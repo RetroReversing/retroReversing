@@ -48,6 +48,11 @@ This will depend what version of WINE and which platform, I was using MacOSX wit
 ```
 If you also use CrossOver for Mac make sure to change the `MYBottleName` to your own bottle name above.
 
+## Step 4 - Install MinGW
+Even although our native platform has its own make, to make it simpler we will just use MinGW for now, so download and install `mingw-get-setup.exe`. Later I will experiment with using the native `make` executable on MacOSX and Linux.
+
+This step is required because unlike the PS1 SDK, the N64 SDK does not come with a 'make' executable pre-built.
+
 ---
 
 # Official Nintendo SDK Documentation
