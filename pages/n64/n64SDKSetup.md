@@ -58,7 +58,10 @@ This will setup all the environment variables, note that I got an error saying
 ```
 Can't recognize '' as an internal or external command, or batch script.
 ```
-I will have to look into why this is happening.
+This is just because of the line endings being different you can ignore it.
+
+## Step 5 - Compile a sample!
+In the same wineconsole that you opened in step 4 (as it now has all the environment variables setup in that console), cd to `C:\nintendo\n64kit\nusys\sample\nu0` and run make.
 
 # Linker Issues
 
