@@ -397,6 +397,11 @@ adpcm.s:96: Error: ERROR: Illegal operands `sub'
 ```
 To get around this issue I copied `adpcm.o` from the original download of the source code, cheating yes but I'll come back to this later.
 
+## Assembler Warning type of symbol changed from 2 to 1
+```
+Warning: type of symbol `osWritebackDCacheAll' changed from 2 to 1 in codesegment.o
+Warning: type of symbol `osInvalICache' changed from 2 to 1 in codesegment.o
+```
 
 # References
 [^1]: https://www.turokforums.com/index.php?topic=645.0
