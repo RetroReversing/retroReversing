@@ -32,29 +32,23 @@ For this tutorial you will need WINE to run the N64 SDK windows pc executables o
 I personally use CrossOver for Mac that comes with its own Wine.app, create a new Wine Bottle and you should be good to go.
 
 ## Step 1 - Download the SDK
-You can find the official development kit multiple places online including `ultra64.ca`, for this tutorial we will be using Release 5.0, Released on the 4th August 1999 but any release should work.
+I previously used a build from `ultra64.ca` cut couldn't get it to work, then found this youtube video by `Alpha Tango Video
+` which contains a pre-built version that comes with Make/MIPS64 GCC etc so I found that much easier to use. Video is: [Installing the Nintendo 64 Development Kit in Windows 2000/98SE and building sample roms - YouTube](https://www.youtube.com/watch?v=84wk0mZ8gfM)
 
 ## Step 2 - Run the installers through WINE
-The intallers I ran were:
-* `NINTENDO 64 SDK 5.0 (Installer) (CD-RIP)/pc/Setup.exe`
-* `NINTENDO 64 SDK 5.0 (Installer) (CD-RIP)/OS2.0K/pc/N64OS20K_eng.exe`
+Extract the ISO from Step 1 and run the following in bash:
+```bash
+wineconsole install.bat
+```
 
-In MacOSX I can right click the .exe file and click open in WINE.app.
+This should open lots of installers, one after another similar to the youtube video but running in `WINE`.
 
 ## Step 3 - Find the Install location
-This will depend what version of WINE and which platform, I was using MacOSX with CrossOver so ym C:/ drive location was:
+This will depend what version of WINE and which platform, I was using MacOSX so my C:/ drive location was:
 ```
-/Users/myname/Library/Application Support/CrossOver/Bottles/MYBottleName/drive_c/
+~/.wine/drive_c/
 ```
-If you also use CrossOver for Mac make sure to change the `MYBottleName` to your own bottle name above.
 
-## Step 4 - Install MinGW
-Even although our native platform has its own make, to make it simpler we will just use MinGW for now, so download and install `mingw-get-setup.exe`. Later I will experiment with using the native `make` executable on MacOSX and Linux.
-
-This step is required because unlike the PS1 SDK, the N64 SDK does not come with a 'make' executable pre-built.
-
-## Step 5 - Fix paths
-The main problem with the default c drive location on MACOSX is that it has a space in the path which the SDK really does not like, so I ended up having to copy the c:/ultra and c:/nintendo folders to a path with no spaces.
 
 # Linker Issues
 
