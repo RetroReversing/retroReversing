@@ -44,7 +44,7 @@ In MacOSX I can right click the .exe file and click open in WINE.app.
 ## Step 3 - Find the Install location
 This will depend what version of WINE and which platform, I was using MacOSX with CrossOver so ym C:/ drive location was:
 ```
-/Users/alasdairmorrison/Library/Application Support/CrossOver/Bottles/MYBottleName/drive_c/
+/Users/myname/Library/Application Support/CrossOver/Bottles/MYBottleName/drive_c/
 ```
 If you also use CrossOver for Mac make sure to change the `MYBottleName` to your own bottle name above.
 
@@ -52,6 +52,17 @@ If you also use CrossOver for Mac make sure to change the `MYBottleName` to your
 Even although our native platform has its own make, to make it simpler we will just use MinGW for now, so download and install `mingw-get-setup.exe`. Later I will experiment with using the native `make` executable on MacOSX and Linux.
 
 This step is required because unlike the PS1 SDK, the N64 SDK does not come with a 'make' executable pre-built.
+
+## Step 5 - Fix paths
+The main problem with the default c drive location on MACOSX is that it has a space in the path which the SDK really does not like, so I ended up having to copy the c:/ultra and c:/nintendo folders to a path with no spaces.
+
+# Linker Issues
+
+# Error linking 32-bit code with 64-bit code
+If you get the following error:
+```
+ld: Z:\Users\username\temp_c\ultra/usr/lib\libgultra_d.a(rmonbrk.o): linking 32-bit code with 64-bit code
+```
 
 ---
 
