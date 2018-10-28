@@ -393,11 +393,9 @@ This will stop errors such as `trex.c:229: invalid operands to binary |` from ap
 as -o adpcm.o adpcm.s
 adpcm.s: Assembler messages:
 adpcm.s:96: Error: ERROR: Illegal operands `sub'
-adpcm.s:97: Error: ERROR: Illegal operands `sw'
-adpcm.s:98: Error: ERROR: Illegal operands `sw'
-adpcm.s:99: Error: ERROR: Illegal operands `sw'
-adpcm.s:100: Error: ERROR: Illegal operands `sw'
+...
 ```
+To get around this issue I copied `adpcm.o` from the original download of the source code, cheating yes but I'll come back to this later.
 
 
 # References
