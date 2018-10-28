@@ -69,10 +69,10 @@ You will notice that absolutely nothing happens, this is because all the executa
 
 # Linker Issues
 
-# Error linking 32-bit code with 64-bit code
+# gspF3DEX2.fifo.o File not found
 If you get the following error:
 ```
-ld: Z:\Users\username\temp_c\ultra/usr/lib\libgultra_d.a(rmonbrk.o): linking 32-bit code with 64-bit code
+c:/ultra/gcc/mipse/bin/ld.out: cannot open c:\ultra/usr/lib/PR/gspF3DEX2.fifo.o: #2 File not found
 ```
 
 ---
