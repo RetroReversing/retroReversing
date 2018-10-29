@@ -69,3 +69,17 @@ overflow: scroll;
         -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
 }
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
