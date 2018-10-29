@@ -66,15 +66,6 @@
         }
       });
       
-      $('.postImage').magnificPopup({
-        type: 'image',
-        closeOnContentClick: true,
-        mainClass: 'mfp-img-mobile',
-        image: {
-          verticalFit: true
-        }
-      });
-      
       // Make markdown tables have the bootstrap table class to look pretty
       $('table').addClass('table');
      
@@ -86,5 +77,16 @@
       // scroll animations
       new WOW().init();
     })(jQuery);
+    
+    $(document).ready(function() {
+        $('.postImage').magnificPopup({
+          type: 'image',
+          closeOnContentClick: true,
+          mainClass: 'mfp-img-mobile',
+          image: {
+            verticalFit: true
+          }
+        });
+    });
   </script>
 <script src="/public/js/main.js"></script>
