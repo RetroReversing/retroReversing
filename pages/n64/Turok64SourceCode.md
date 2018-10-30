@@ -94,7 +94,7 @@ In the source code `boot.c` looks for an  RNC2 header for assets and decompresse
 
 # The Code
 
-# Cheats
+## Cheats
 <section class="postSection">
 <img src="/public/games/turok/Turok-_Dinosaur_Hunter_(Nintendo_64)-cheatmenu.png" class="wow bounceInUp postImage" alt="Turok Cheat Menu From The Cutting Room Floor" />  
 <div markdown="1">
@@ -142,6 +142,13 @@ Finally we just need to draw the text for each Cheat option on screen, so we fir
 ```
 </div>
 </section>
+
+## The Assets
+After downloading the source code you might be condering where all the assets are, the package does not contain any 3d models or levels in any sort of editable format such as 3dStudio. So how exactly did the developers use this code without any assets to display on screen? This is where `cartdata.dat` comes in to play, this is a custom file format that contains all the assets needed for the game, including 3Dmodels, level data, collision information and textures.
+
+The format uses the RNC Compression we talked about earlier in this page to keep the file size fairly low and for N64 it is included in the `spec` file to bundle it inside the ROM image. 
+
+Also I had a look at a early demo version of Turok for Windows 95 that was shipped with the Italian PC Gamer Magazine issue 28 (1998) and it also has a data file, this time called `demodata.dat`. After a brief look this file also contains RNC compressed sections and it looks to be a very similar format to the n64 `cartdata.dat`
 
 ---
 
