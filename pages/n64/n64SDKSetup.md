@@ -66,7 +66,7 @@ In the same wineconsole that you opened in step 4 (as it now has all the environ
 You will notice that absolutely nothing happens, this is because all the executables are 16-bit and Wine doesn't support them. So since we want to run it as a 32bit application we need to use a tool called `exew32.exe` which comes with the package, to use it run this in the same wineconsole shell:
 `exew32 make`
 
-This will create a `.n64` rom but I have always found I need to change the file extension to `.v64` for emulators as it is technically in that format.
+This will create a `.n64` rom but I have always found I need to change the file extension to `.z64` for emulators as it is technically in that format.
 
 # Linker Issues
 
