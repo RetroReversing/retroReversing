@@ -20,6 +20,10 @@ editlink: /n64/n64_Radare2.md
 ---
 This guide will presume you have already installed the radare2 suite of binary analysis tools on your computer.
 
+Radare 2 supports *z64* big endian binaries using the r_bin plugin that comes preloaded with radare2, so you might need to convert your roms to this format if they are in v64 or little endian format.
+
+For more information about N64 Rom File formats: [List of Nintendo 64 ROM file formats - Wikipedia](https://en.wikipedia.org/wiki/List_of_Nintendo_64_ROM_file_formats)
+
 # Opening an N64 executable in radare2
 First lets run radare2:
 ```bash
