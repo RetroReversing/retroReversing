@@ -1,4 +1,3 @@
-N64 Rom Analysis with Radare2
 ---
 layout: post
 tags: 
