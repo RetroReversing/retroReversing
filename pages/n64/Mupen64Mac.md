@@ -420,13 +420,19 @@ ifeq ($(DEBUGGER), 1)
 
 So Finally we have a `libmupen64plus.dylib` with the  debugger enabled! Now what? How do we use it?!
 
+---
+
 # Building the Console Application
 You need to point APIDIR to the location of the core source code you checked out earlier.
 ```
 make APIDIR=/../mupen64plus-core-master/src/api DEBUG=1 all
 ```
 
+The console application is the simplest frontend for the emulator and it also has a very basic debugger in it.
+
 Now copy over the …
+
+---
 
 # Compiling Glitch64
 ```
@@ -437,9 +443,42 @@ Change line 137 to match:
 CFLAGS += $(OPTFLAGS) $(WARNFLAGS) -ffast-math -fno-strict-aliasing -fvisibility=hidden -I../../src -I../../src/Glitch64/inc -DGCC -I/usr/local/Cellar/boost/1.67.0_1/include
 ```
 
+---
 
 # Running the emulator
 example.v64 only seems to work with glide64 graphics for me.
 ```
 ./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib ./example.v64
 ```
+
+---
+
+# Source code analysis
+
+## Device folder
+Contains most of the emulator logic for the N64.
+
+### r4300_core
+### rdp_core
+### rsp_core
+### ai_controller
+### mi_controller
+### pi_controller
+### ri_controller
+### si_controller
+### vi_controller
+### pif;
+### rdram
+### memory
+
+### game_controller 
+### biopak 
+### mempak
+### rumblepak
+### transferpak
+### gb_cart
+
+### cart
+
+### dd_controller
+
