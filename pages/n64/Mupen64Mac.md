@@ -459,6 +459,15 @@ example.v64 only seems to work with glide64 graphics for me.
 Contains most of the emulator logic for the N64.
 
 ### r4300_core
+The r4300 is the main CPU used in the Nintendo64, it is based on the R4200 by MIPS Technologies Inc.
+[R4200 - Wikipedia](https://en.wikipedia.org/wiki/R4200)
+
+The main implementation of the cpu is contained in the `r4300_core` folder along with implementations of the 3 co-processors (cp0, cp1 and cp2).
+
+More information about the CPU can be found here:
+[N64 Programming/CPU overview - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/N64_Programming/CPU_overview)
+
+
 ### rdp_core
 ### rsp_core
 ### ai_controller
