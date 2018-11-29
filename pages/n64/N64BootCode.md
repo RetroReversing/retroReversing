@@ -28,13 +28,28 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000044: [40804800] mtc0 $zero,C0_COUNT
 0xa4000048: [40805800] mtc0 $zero,C0_COMPARE
 
+# set the $t0 register to 
 # $t0 = (0xa470 << 16);
 # $t0 = 0xFFFFFFFFA4700000
 0xa400004c: [3c08a470] lui $t0,0xa470 # Load Upper Immediate
-0xa4000050: [25080000] addiu $t0,$t0,0
-0xa4000054: [8d09000c] lw $t1,12($t0)
-0xa4000058: [152000ed] bne $t1,$zero,0xA4000410
-0xa4000060: [27bdffe8] addiu $sp,$sp,-24
+
+# Now we add 0 to the $t0 register for some reason…
+# $t0 = $t0 +0;
+# So now $t0 = 0xFFFFFFFFA4700000
+0xa4000050: [25080000] addiu $t0,$t0,0 # Add Immediate Unsigned
+
+# Now we use add 12 to $t0 and dereference it as a pointer
+# $t1 = MEM[$t0 + 12];
+# $t1 = MEM[0xFFFFFFFFA4700000 + 12];
+# So now $t1 = 0
+0xa4000054: [8d09000c] lw $t1,12($t0) # Load Word
+
+# if $t1 != $zero advance_pc(0xA4000410 << 2));
+# Since $t1 does equal 0  we don’t branch and go straight to next instruction
+0xa4000058: [152000ed] bne $t1,$zero,0xA4000410 # Branch on Not Equal
+
+# 
+0xa4000060: [27bdffe8] addiu $sp,$sp,-24 # Add Immediate Unsigned
 0xa4000064: [afb30000] sw $s3,0($sp)
 0xa4000068: [afb40004] sw $s4,4($sp)
 0xa400006c: [afb50008] sw $s5,8($sp)
