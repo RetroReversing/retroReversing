@@ -20,7 +20,7 @@ editlink: /n64/N64BootCode.md
 
 The boot code of most roms is the same and it comes to: 438 lines of assembly which is listed below:
 ```asm
-# Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISSASSEMBLED_BYTES]
+; Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISSASSEMBLED_BYTES]
 # First initialise the Coprocessor 0 memory
 # Copy $zero to C0_CAUSE (Cause of Last Exception) in coprocessor 0.
 # Repeated for Timer Count (C0_COUNT) and Timer Compare (C0_COMPARE)
