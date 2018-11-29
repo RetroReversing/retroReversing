@@ -21,45 +21,45 @@ editlink: /n64/N64BootCode.md
 The boot code of most roms is the same and it comes to: 438 lines of assembly which is listed below:
 ```asm
 ; Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISSASSEMBLED_BYTES]
-# First initialise the Coprocessor 0 memory
-# Copy $zero to C0_CAUSE (Cause of Last Exception) in coprocessor 0.
-# Repeated for Timer Count (C0_COUNT) and Timer Compare (C0_COMPARE)
+; First initialise the Coprocessor 0 memory
+; Copy $zero to C0_CAUSE (Cause of Last Exception) in coprocessor 0.
+; Repeated for Timer Count (C0_COUNT) and Timer Compare (C0_COMPARE)
 0xa4000040: [40806800] mtc0 $zero,C0_CAUSE ; Cause of Last Exception
 0xa4000044: [40804800] mtc0 $zero,C0_COUNT
 0xa4000048: [40805800] mtc0 $zero,C0_COMPARE
 
-# set the $t0 register to 
-# $t0 = (0xa470 << 16);
-# $t0 = 0xFFFFFFFFA4700000
-0xa400004c: [3c08a470] lui $t0,0xa470 # Load Upper Immediate
+; set the $t0 register to 
+; $t0 = (0xa470 << 16);
+; $t0 = 0xFFFFFFFFA4700000
+0xa400004c: [3c08a470] lui $t0,0xa470 ; Load Upper Immediate
 
-# Now we add 0 to the $t0 register for some reason…
-# $t0 = $t0 +0;
-# So now $t0 = 0xFFFFFFFFA4700000
-0xa4000050: [25080000] addiu $t0,$t0,0 # Add Immediate Unsigned
+; Now we add 0 to the $t0 register for some reason…
+; $t0 = $t0 +0;
+; So now $t0 = 0xFFFFFFFFA4700000
+0xa4000050: [25080000] addiu $t0,$t0,0 ; Add Immediate Unsigned
 
-# Now we use add 12 to $t0 and dereference it as a pointer
-# $t1 = MEM[$t0 + 12];
-# $t1 = MEM[0xFFFFFFFFA4700000 + 12];
-# So now $t1 = 0
-0xa4000054: [8d09000c] lw $t1,12($t0) # Load Word
+; Now we use add 12 to $t0 and dereference it as a pointer
+; $t1 = MEM[$t0 + 12];
+; $t1 = MEM[0xFFFFFFFFA4700000 + 12];
+; So now $t1 = 0
+0xa4000054: [8d09000c] lw $t1,12($t0) ; Load Word
 
-# if $t1 != $zero advance_pc(0xA4000410 << 2));
-# Since $t1 does equal 0  we don’t branch and go straight to next instruction
-0xa4000058: [152000ed] bne $t1,$zero,0xA4000410 # Branch on Not Equal
+; if $t1 != $zero advance_pc(0xA4000410 << 2));
+; Since $t1 does equal 0  we don’t branch and go straight to next instruction
+0xa4000058: [152000ed] bne $t1,$zero,0xA4000410 ; Branch on Not Equal
 
-# 
-0xa4000060: [27bdffe8] addiu $sp,$sp,-24 # Add Immediate Unsigned
+; 
+0xa4000060: [27bdffe8] addiu $sp,$sp,-24 ; Add Immediate Unsigned
 0xa4000064: [afb30000] sw $s3,0($sp)
 0xa4000068: [afb40004] sw $s4,4($sp)
 0xa400006c: [afb50008] sw $s5,8($sp)
 0xa4000070: [afb6000c] sw $s6,12($sp)
 0xa4000074: [afb70010] sw $s7,16($sp)
-0xa4000078: [3c08a470] lui $t0,0xa470 # Load Upper Immediate
+0xa4000078: [3c08a470] lui $t0,0xa470 ; Load Upper Immediate
 0xa400007c: [25080000] addiu $t0,$t0,0
-0xa4000080: [3c0aa3f8] lui $t2,0xa3f8 # Load Upper Immediate
-0xa4000084: [3c0ba3f0] lui $t3,0xa3f0 # Load Upper Immediate
-0xa4000088: [3c0ca430] lui $t4,0xa430 # Load Upper Immediate
+0xa4000080: [3c0aa3f8] lui $t2,0xa3f8 ; Load Upper Immediate
+0xa4000084: [3c0ba3f0] lui $t3,0xa3f0 ; Load Upper Immediate
+0xa4000088: [3c0ca430] lui $t4,0xa430 ; Load Upper Immediate
 0xa400008c: [258c0000] addiu $t4,$t4,0
 0xa4000090: [34090040] ori $t1,$zero,0x40
 0xa4000094: [ad090004] sw $t1,4($t0)
