@@ -30,17 +30,17 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 
 ; set the $t0 register to 
 ; $t0 = (0xa470 << 16);
-; $t0 = 0xFFFFFFFFA4700000
+; $t0 = 0xA4700000
 0xa400004c: [3c08a470] lui $t0,0xa470 ; Load Upper Immediate
 
 ; Now we add 0 to the $t0 register for some reason…
 ; $t0 = $t0 +0;
-; So now $t0 = 0xFFFFFFFFA4700000
+; So now $t0 = 0xA4700000
 0xa4000050: [25080000] addiu $t0,$t0,0 ; Add Immediate Unsigned
 
 ; Now we use add 12 to $t0 and dereference it as a pointer
 ; $t1 = MEM[$t0 + 12];
-; $t1 = MEM[0xFFFFFFFFA4700000 + 12];
+; $t1 = MEM[0xA4700000 + 12];
 ; So now $t1 = 0
 0xa4000054: [8d09000c] lw $t1,12($t0) ; Load Word
 
@@ -48,13 +48,26 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 ; Since $t1 does equal 0  we don’t branch and go straight to next instruction
 0xa4000058: [152000ed] bne $t1,$zero,0xA4000410 ; Branch on Not Equal
 
-; 
+; Now we are going to initialise some values on the STACK
+; So first lets update the Stack Pointer ($sp) to give us 24 bytes
+; before running: $sp = 0xA4001FF0
+; $sp = $sp - 24
+; after running: $sp = 0xA4001FD8
 0xa4000060: [27bdffe8] addiu $sp,$sp,-24 ; Add Immediate Unsigned
-0xa4000064: [afb30000] sw $s3,0($sp)
+
+; Now that we have the 24 bytes on the stack lets use them!
+; MEM[$sp + 0] = $s3; ($s3 was 0 when executing)
+0xa4000064: [afb30000] sw $s3,0($sp) ; Store word
+; MEM[$sp + 4] = $s4;  ($s4 was 1 when executing)
 0xa4000068: [afb40004] sw $s4,4($sp)
+; MEM[$sp + 8] = $s5;  ($s5 was 0 when executing)
 0xa400006c: [afb50008] sw $s5,8($sp)
+; MEM[$sp + 12] = $s6;  ($s6 was 0x3F when executing)
 0xa4000070: [afb6000c] sw $s6,12($sp)
+; MEM[$sp + 16] = $s7;  ($s7 was 0 when executing)
 0xa4000074: [afb70010] sw $s7,16($sp)
+
+; Now lets
 0xa4000078: [3c08a470] lui $t0,0xa470 ; Load Upper Immediate
 0xa400007c: [25080000] addiu $t0,$t0,0
 0xa4000080: [3c0aa3f8] lui $t2,0xa3f8 ; Load Upper Immediate
@@ -81,23 +94,25 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa40000dc: [2231ffff] addi $s1,$s1,-1
 0xa40000e0: [1620fffe] bne $s1,$zero,0xA40000DC
 0xa40000e8: [ad890000] sw $t1,0($t4)
-0xa40000ec: [3c091808] lui $t1,0x1808 # Load Upper Immediate
+0xa40000ec: [3c091808] lui $t1,0x1808 ; Load Upper Immediate
 0xa40000f0: [35292838] ori $t1,$t1,0x2838
 0xa40000f4: [ad490008] sw $t1,8($t2)
 0xa40000f8: [ad400014] sw $zero,20($t2)
-0xa40000fc: [3c098000] lui $t1,0x8000 # Load Upper Immediate
+0xa40000fc: [3c098000] lui $t1,0x8000 ; Load Upper Immediate
 0xa4000100: [ad490004] sw $t1,4($t2)
 0xa4000104: [00006825] or $t5,$zero,$zero
 0xa4000108: [00007025] or $t6,$zero,$zero
-0xa400010c: [3c0fa3f0] lui $t7,0xa3f0 # Load Upper Immediate
+0xa400010c: [3c0fa3f0] lui $t7,0xa3f0 ; Load Upper Immediate
 0xa4000110: [0000c025] or $t8,$zero,$zero
-0xa4000114: [3c19a3f0] lui $t9,0xa3f0 # Load Upper Immediate
-0xa4000118: [3c16a000] lui $s6,0xa000 # Load Upper Immediate
+0xa4000114: [3c19a3f0] lui $t9,0xa3f0 ; Load Upper Immediate
+0xa4000118: [3c16a000] lui $s6,0xa000 ; Load Upper Immediate
 0xa400011c: [0000b825] or $s7,$zero,$zero
-0xa4000120: [3c06a3f0] lui $a2,0xa3f0 # Load Upper Immediate
-0xa4000124: [3c07a000] lui $a3,0xa000 # Load Upper Immediate
+0xa4000120: [3c06a3f0] lui $a2,0xa3f0 ; Load Upper Immediate
+0xa4000124: [3c07a000] lui $a3,0xa000 ; Load Upper Immediate
 0xa4000128: [00009025] or $s2,$zero,$zero
-0xa400012c: [3c14a000] lui $s4,0xa000 # Load Upper Immediate
+0xa400012c: [3c14a000] lui $s4,0xa000 ; Load Upper Immediate
+
+; Assign 72 Bytes on Stack
 0xa4000130: [27bdffb8] addiu $sp,$sp,-72
 0xa4000134: [03a0f025] or $s8,$sp,$zero
 0xa4000138: [3c10a430] lui $s0,0xa430 # Load Upper Immediate
@@ -118,6 +133,8 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000190: [3c08f0ff] lui $t0,0xf0ff
 0xa4000194: [01685824] and $t3,$t3,$t0
 0xa4000198: [afab0004] sw $t3,4($sp)
+
+; Delete 8 Bytes on Stack
 0xa400019c: [23bd0008] addi $sp,$sp,8
 0xa40001a0: [24091000] li $t1,4096
 0xa40001a4: [ad890000] sw $t1,0($t4)
@@ -167,6 +184,7 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa40002d8: [ae370004] sw $s7,4($s1)
 0xa40002dc: [24d5000c] addiu $s5,$a2,12
 0xa40002e0: [8fa40000] lw $a0,0($sp)
+; Delete 8 Bytes on Stack
 0xa40002e4: [23bd0008] addi $sp,$sp,8
 0xa40002e8: [24050001] li $a1,1
 0xa40002ec: [0d000290] jal 0xA4000A40
@@ -213,12 +231,14 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000398: [02c9b024] and $s6,$s6,$t1
 0xa400039c: [ad160018] sw $s6,24($t0)
 0xa40003a0: [03c0e825] or $sp,$s8,$zero
+; Delete 72 Bytes on Stack
 0xa40003a4: [27bd0048] addiu $sp,$sp,72
 0xa40003a8: [8fb30000] lw $s3,0($sp)
 0xa40003ac: [8fb40004] lw $s4,4($sp)
 0xa40003b0: [8fb50008] lw $s5,8($sp)
 0xa40003b4: [8fb6000c] lw $s6,12($sp)
 0xa40003b8: [8fb70010] lw $s7,16($sp)
+; Delete 24 Bytes on Stack
 0xa40003bc: [27bd0018] addiu $sp,$sp,24
 0xa40003c0: [3c088000] lui $t0,0x8000
 0xa40003c4: [25080000] addiu $t0,$t0,0
@@ -261,6 +281,8 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa40004b0: [3c0c8000] lui $t4,0x8000
 0xa40004b4: [258c0000] addiu $t4,$t4,0
 0xa40004b8: [01800008] jr $t4
+
+; Assign 160 Bytes on Stack
 0xa4000778: [27bdff60] addiu $sp,$sp,-160
 0xa400077c: [afb00040] sw $s0,64($sp)
 0xa4000780: [afb10044] sw $s1,68($sp)
@@ -323,6 +345,8 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000870: [8fb7005c] lw $s7,92($sp)
 0xa4000874: [8fbe0060] lw $s8,96($sp)
 0xa4000878: [03e00008] jr $ra
+
+; Add 32 Bytes on Stack
 0xa4000880: [27bdffe0] addiu $sp,$sp,-32
 0xa4000884: [afbf001c] sw $ra,28($sp)
 0xa4000888: [00004825] or $t1,$zero,$zero
@@ -348,6 +372,8 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa40008e8: [0d000260] jal 0xA4000980
 0xa40008f0: [10000003] b 0xA4000900
 0xa40008fc: [8fbf001c] lw $ra,28($sp)
+
+; Delete 32 Bytes on Stack
 0xa4000900: [27bd0020] addiu $sp,$sp,32
 0xa4000904: [03e00008] jr $ra
 0xa400090c: [27bdffd8] addiu $sp,$sp,-40
@@ -372,8 +398,11 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000964: [2bda000a] slti $k0,$s8,10
 0xa4000968: [5740ffef] bnel $k0,$zero,0xA4000928
 0xa4000970: [8fbf001c] lw $ra,28($sp)
+
+; Delete 40 Bytes on Stack
 0xa4000974: [27bd0028] addiu $sp,$sp,40
 0xa4000978: [03e00008] jr $ra
+; Add 40 Bytes on Stack
 0xa4000980: [27bdffd8] addiu $sp,$sp,-40
 0xa4000984: [afbf001c] sw $ra,28($sp)
 0xa4000988: [afa40020] sw $a0,32($sp)
@@ -407,8 +436,12 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000a20: [5760ffe0] bnel $k1,$zero,0xA40009A4
 0xa4000a2c: [00021042] srl $v0,$v0,1
 0xa4000a30: [8fbf001c] lw $ra,28($sp)
+
+; Delete 40 Bytes on Stack
 0xa4000a34: [27bd0028] addiu $sp,$sp,40
 0xa4000a38: [03e00008] jr $ra
+
+; Add 8 Bytes on Stack
 0xa4000a40: [27bdffd8] addiu $sp,$sp,-40
 0xa4000a44: [308400ff] andi $a0,$a0,0xff
 0xa4000a48: [241b0001] li $k1,1
@@ -440,8 +473,10 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000ab8: [3c1aa430] lui $k0,0xa430
 0xa4000abc: [af400000] sw $zero,0($k0)
 0xa4000ac0: [8fbf001c] lw $ra,28($sp)
+; Delete 40 Bytes on Stack
 0xa4000ac4: [27bd0028] addiu $sp,$sp,40
 0xa4000ac8: [03e00008] jr $ra
+; Add 40 Bytes on Stack
 0xa4000ad0: [27bdffd8] addiu $sp,$sp,-40
 0xa4000ad4: [afbf001c] sw $ra,28($sp)
 0xa4000ad8: [241a2000] li $k0,8192
@@ -478,6 +513,7 @@ The boot code of most roms is the same and it comes to: 438 lines of assembly wh
 0xa4000b54: [035bd025] or $k0,$k0,$k1
 0xa4000b58: [a09a0000] sb $k0,0($a0)
 0xa4000b5c: [8fbf001c] lw $ra,28($sp)
+; Delete 40 Bytes on Stack
 0xa4000b60: [27bd0028] addiu $sp,$sp,40
 0xa4000b64: [03e00008] jr $ra
 ```
