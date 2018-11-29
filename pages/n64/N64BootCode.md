@@ -1,4 +1,3 @@
-N64 Boot Code Analysis
 ---
 layout: post
 tags: 
