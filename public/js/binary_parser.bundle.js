@@ -970,7 +970,7 @@ class FileUnparser extends UnParser {}
 ; // FileUnparser.prototype = UnParser.prototype;
 
 class ReactUnparser extends UnParser {
-  constructor(obj) {
+  constructor(obj, reactElement = '\"div\"') {
     super(obj);
     obj && Object.assign(this, obj);
 
@@ -981,6 +981,7 @@ class ReactUnparser extends UnParser {
     }
 
     this.generateString = this.generateStringUnparser;
+    this.reactElement = reactElement;
   }
 
   convertToUnParser(parser) {
@@ -1009,7 +1010,7 @@ class ReactUnparser extends UnParser {
 
       ctx.pushCode( // `buffer+='<span class="${classNames}" title="${classNames}">'+{0}.replace(/ /g,'_').substring(0,{2})+'</span>'; /*buffer.write('<span>{0}</span>', offset, offset + {2}, '{3}');*/`,
       `buffer.push(React.createElement(
-          SNCEElement,
+          ${this.reactElement},
           { className: "${classNameStr}"+extraClasses,
           options:${JSON.stringify(this.options)},
           keys: "${classNames}".replace('',),
@@ -1212,15 +1213,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const Buffer = require('buffer/').Buffer;
 
 exports.Buffer = Buffer;
-
-if (window) {
-  window.UnParser = {
-    Parser: _binary_parser.default,
-    FileUnparser: _binary_unparser.FileUnparser,
-    ReactUnparser: _binary_unparser.ReactUnparser,
-    Buffer
-  };
-}
 
 },{"./lib/binary_parser":1,"./lib/binary_unparser":2,"buffer/":6}],5:[function(require,module,exports){
 'use strict'
