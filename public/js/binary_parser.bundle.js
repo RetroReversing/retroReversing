@@ -707,10 +707,14 @@ Parser.prototype.generateChoice = function(ctx) {
 Parser.prototype.generateNest = function(ctx) {
     var nestVar = ctx.generateVariable(this.varName);
     if (this.options.type instanceof Parser) {
-        ctx.pushCode('{0} = {};', nestVar);
-        ctx.pushPath(this.varName);
+        if (this.varName) {
+          ctx.pushCode('{0} = {};', nestVar);
+          ctx.pushPath(this.varName);
+        }
         this.options.type.generate(ctx);
-        ctx.popPath(this.varName);
+        if (this.varName) {
+          ctx.popPath(this.varName);
+        }
     } else if (aliasRegistry[this.options.type]) {
         var tempVar = ctx.generateTmpVariable();
         ctx.pushCode('var {0} = {1}(offset);', tempVar, FUNCTION_PREFIX + this.options.type);
@@ -810,8 +814,12 @@ class UnParser {
 
   generateUnparser(ctx) {
     if (this.type) {
-      this["generate" + this.type].bind(this)(ctx);
-      this.generateAssert(ctx);
+      if (this["generate" + this.type]) {
+        this["generate" + this.type].bind(this)(ctx);
+        this.generateAssert(ctx);
+      } else {
+        console.error("No UnParser Generator for", this.type);
+      }
     }
 
     var varName = ctx.generateVariable(this.varName);
@@ -832,12 +840,6 @@ class UnParser {
       ctx.pushCode("while(buffer.readUInt8(offset++) !== 0 && offset - {0}  < {1});", start, this.options.length);
       ctx.pushCode("buffer.write('{0}', {1}, offset - {2} < {3} ? offset - 1 : offset, '{3}');", name, start, this.options.length, this.options.encoding);
     } else if (this.options.length) {
-      // ctx.pushCode(
-      //   "{0} = buffer.toString('{1}', offset, offset + {2});",
-      //   name,
-      //   this.options.encoding,
-      //   ctx.generateOption(this.options.length)
-      // );
       ctx.pushCode("buffer.write({0}, offset, offset + {2}, '{3}');", name, start, ctx.generateOption(this.options.length), this.options.encoding);
       ctx.pushCode("offset += {0};", ctx.generateOption(this.options.length));
     } else if (this.options.zeroTerminated) {
@@ -865,8 +867,10 @@ class UnParser {
   }
 
   generate(ctx) {
-    if (this.type) {
+    if (this.type && this["generate" + this.type]) {
       this["generate" + this.type](ctx);
+    } else {
+      console.error("No UnParser Generator for", this.type);
     }
 
     var varName = ctx.generateVariable(this.varName);
@@ -965,9 +969,32 @@ class UnParser {
 
 }
 
+var PRIMITIVE_TYPES = {
+  UInt8: 1,
+  UInt16LE: 2,
+  UInt16BE: 2,
+  UInt32LE: 4,
+  UInt32BE: 4,
+  Int8: 1,
+  Int16LE: 2,
+  Int16BE: 2,
+  Int32LE: 4,
+  Int32BE: 4,
+  FloatLE: 4,
+  FloatBE: 4,
+  DoubleLE: 8,
+  DoubleBE: 8
+};
+Object.keys(PRIMITIVE_TYPES).forEach(function (type) {
+  UnParser.prototype["generate" + type] = function (ctx) {
+    ctx.pushCode("buffer.write{1}({0}, offset);", ctx.generateVariable(this.varName), type);
+    ctx.pushCode("offset += {0};", PRIMITIVE_TYPES[type]);
+  };
+});
+
 class FileUnparser extends UnParser {}
 
-; // FileUnparser.prototype = UnParser.prototype;
+;
 
 class ReactUnparser extends UnParser {
   constructor(obj, reactElement = '\"div\"') {
@@ -1009,7 +1036,8 @@ class ReactUnparser extends UnParser {
       }
 
       ctx.pushCode( // `buffer+='<span class="${classNames}" title="${classNames}">'+{0}.replace(/ /g,'_').substring(0,{2})+'</span>'; /*buffer.write('<span>{0}</span>', offset, offset + {2}, '{3}');*/`,
-      `buffer.push(React.createElement(
+      `
+        const reactElement = React.createElement(
           ${this.reactElement},
           { className: "${classNameStr}"+extraClasses,
           options:${JSON.stringify(this.options)},
@@ -1017,9 +1045,11 @@ class ReactUnparser extends UnParser {
           title: "${classNameStr}", 
           key:"${name}" + offset,
           offset: offset,
-          uniqueKey:"${name}" + offset, value: {0}.substring(0,{2}) },
+          uniqueKey:"${name}" + offset, 
+          value: {0}.substring(0,{2}) },
           {0}.replace(/ /g,'_').substring(0,{2})
-        ));`, name, start, ctx.generateOption(this.options.length), this.options.encoding);
+        );
+        buffer.push(reactElement);`, name, start, ctx.generateOption(this.options.length), this.options.encoding);
       ctx.pushCode("}\n offset += {0};", ctx.generateOption(this.options.length));
     } else if (this.options.zeroTerminated) {
       ctx.pushCode("var {0} = offset;", start);
