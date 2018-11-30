@@ -1213,6 +1213,15 @@ const Buffer = require('buffer/').Buffer;
 
 exports.Buffer = Buffer;
 
+if (window) {
+  window.UnParser = {
+    Parser: _binary_parser.default,
+    FileUnparser: _binary_unparser.FileUnparser,
+    ReactUnparser: _binary_unparser.ReactUnparser,
+    Buffer
+  };
+}
+
 },{"./lib/binary_parser":1,"./lib/binary_unparser":2,"buffer/":6}],5:[function(require,module,exports){
 'use strict'
 
