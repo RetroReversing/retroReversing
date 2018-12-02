@@ -781,7 +781,8 @@ class UnParser {
   }
 
   compileUnparser() {
-    var src = "(function unparser(buffer, constructorFn, vars, React) { " + this.getUnparserCode() + " })";
+    var src = `(function unparser(buffer, constructorFn, vars, React) {
+      var extraClasses="";` + this.getUnparserCode() + " })";
     this.unparserCompiled = vm.runInThisContext(src);
   }
 
@@ -816,7 +817,6 @@ class UnParser {
     if (this.type) {
       if (this["generate" + this.type]) {
         this["generate" + this.type].bind(this)(ctx);
-        this.generateAssert(ctx);
       } else {
         console.error("No UnParser Generator for", this.type);
       }
@@ -834,6 +834,7 @@ class UnParser {
   generateStringUnparser(ctx) {
     var name = ctx.generateVariable(this.varName);
     var start = ctx.generateTmpVariable();
+    this.generateAssert(ctx);
 
     if (this.options.length && this.options.zeroTerminated) {
       ctx.pushCode("var {0} = offset;", start);
@@ -868,6 +869,7 @@ class UnParser {
 
   generate(ctx) {
     if (this.type && this["generate" + this.type]) {
+      this.generateAssert(ctx);
       this["generate" + this.type](ctx);
     } else {
       console.error("No UnParser Generator for", this.type);
@@ -898,6 +900,13 @@ class UnParser {
       ctx.pushCode("var {0} = {1}(offset);", tempVar, FUNCTION_PREFIX + this.options.type);
       ctx.pushCode("{0} = {1}.result; offset = {1}.offset;", nestVar, tempVar);
       if (this.options.type !== this.alias) ctx.addReference(this.options.type);
+    }
+  }
+
+  generateAssert(ctx) {
+    if (!this.options.assertWithoutErroring) {
+      ctx.pushCode(`extraClasses="";`);
+      return;
     }
   }
 
@@ -1069,12 +1078,42 @@ class ReactUnparser extends UnParser {
 
 ;
 
+ReactUnparser.prototype.generateAssert = function (ctx) {
+  if (!this.options.assertWithoutErroring) {
+    ctx.pushCode(`extraClasses="";`);
+    return;
+  }
+
+  var varName = ctx.generateVariable(this.varName);
+
+  switch (typeof this.options.assertWithoutErroring) {
+    case "function":
+      ctx.pushCode("if (!({0}).call(vars, {1})) {", this.options.assertWithoutErroring, varName);
+      break;
+
+    case "number":
+      ctx.pushCode("if ({0} !== {1}) {", this.options.assertWithoutErroring, varName);
+      break;
+
+    case "string":
+      ctx.pushCode('if ("{0}" !== {1}) {', this.options.assertWithoutErroring, varName);
+      break;
+
+    default:
+      throw new Error("Assert option supports only strings, numbers and assert functions.");
+  }
+
+  ctx.pushCode(`console.error("Assert error: ${varName} is ", ${varName});
+  extraClasses+="invalid";`);
+  ctx.pushCode("}");
+};
+
 function writeReactElement(ctx, reactElement, name, options, valueFormatter) {
   const classNames = name.split('.');
   const classNameStr = classNames.slice(1).join(' ');
   const length = ctx.generateOption(options.length);
   const elementOptions = `{
-    className: "${classNameStr}",
+    className: "${classNameStr} "+extraClasses,
     options:${JSON.stringify(options)},
     keys: "${classNames}",
     title: "${classNameStr}",
