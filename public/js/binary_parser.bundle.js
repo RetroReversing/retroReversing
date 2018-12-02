@@ -1035,8 +1035,7 @@ class ReactUnparser extends UnParser {
         }`);
       }
 
-      ctx.pushCode( // `buffer+='<span class="${classNames}" title="${classNames}">'+{0}.replace(/ /g,'_').substring(0,{2})+'</span>'; /*buffer.write('<span>{0}</span>', offset, offset + {2}, '{3}');*/`,
-      `
+      ctx.pushCode(`
         const reactElement = React.createElement(
           ${this.reactElement},
           { className: "${classNameStr}"+extraClasses,
