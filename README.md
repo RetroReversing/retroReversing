@@ -59,5 +59,8 @@ We only embed high-quality youtube videos related to the technical achievements 
 * Game Hut - https://www.youtube.com/channel/UCfVFSjHQ57zyxajhhRc7i0g
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
+## Cocoscope Channles
+* Guided Hacking - https://www.cocoscope.com/guidedhacking
+
 ## Palette 
 https://coolors.co/1b1c1e-1e5dd3-3f7cac-95afba-bdc4a7
