@@ -772,16 +772,16 @@ class UnParser {
     return new UnParser(parser);
   }
 
-  unparse(data, buffer) {
+  unparse(data, buffer, react = {}) {
     if (!this.unparserCompiled) {
       this.compileUnparser();
     }
 
-    return this.unparserCompiled(buffer, this.constructorFn, data);
+    return this.unparserCompiled(buffer, this.constructorFn, data, react);
   }
 
   compileUnparser() {
-    var src = "(function unparser(buffer, constructorFn, vars) { " + this.getUnparserCode() + " })";
+    var src = "(function unparser(buffer, constructorFn, vars, React) { " + this.getUnparserCode() + " })";
     this.unparserCompiled = vm.runInThisContext(src);
   }
 
@@ -1068,6 +1068,55 @@ class ReactUnparser extends UnParser {
 }
 
 ;
+
+function writeReactElement(ctx, reactElement, name, options, valueFormatter) {
+  const classNames = name.split('.');
+  const classNameStr = classNames.slice(1).join(' ');
+  const length = ctx.generateOption(options.length);
+  const elementOptions = `{
+    className: "${classNameStr}",
+    options:${JSON.stringify(options)},
+    keys: "${classNames}",
+    title: "${classNameStr}",
+    key:"${name}" + offset,
+    offset: offset,
+    uniqueKey:"${name}" + offset,
+    value: ${name} // .substring(0,${length})
+  }`;
+  const code = `
+  reactElement = React.createElement(${reactElement}, ${elementOptions}, ${valueFormatter(name)});
+  buffer.push(reactElement);
+  `;
+  ctx.pushCode(code, name, null, ctx.generateOption(options.length), options.encoding);
+}
+
+const hexFormatter = (chars, endian = "BE", value) => {
+  if (endian === "LE") {
+    return `
+    "0x"+
+    (${value}
+      .toString(16)
+      .replace(/^(.(..)*)$/, "0$1")
+      .match(/../g)
+      .reverse()
+      .join("") 
+    )
+    `;
+  }
+
+  return `"0x"+(${value}+ Math.pow(16, ${chars})).toString(16).slice(-${chars}).toUpperCase()`;
+};
+
+Object.keys(PRIMITIVE_TYPES).forEach(function (type) {
+  ReactUnparser.prototype["generate" + type] = function (ctx) {
+    const name = ctx.generateVariable(this.varName);
+    const numberOfCharsInHexString = PRIMITIVE_TYPES[type] * 2;
+    const endian = type.slice(-2);
+    writeReactElement(ctx, this.reactElement, name, this.options, hexFormatter.bind(null, numberOfCharsInHexString, endian)); // offset is still used in unparser to distinguish between 2 elements with same name
+
+    ctx.pushCode("offset += {0};", PRIMITIVE_TYPES[type]);
+  };
+});
 exports.FileUnparser = FileUnparser;
 exports.ReactUnparser = ReactUnparser;
 
