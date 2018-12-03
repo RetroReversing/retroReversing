@@ -52,6 +52,7 @@ $fp - Frame Pointer
 $v0 - function result 32bit
 $v1 - function result 64bit
 $a0.. - function argument registers
+$ra - return address from function
 ```
 After running the boot code in an emulator I traced each unique instruction executed and made notes on the purpose of each instruction.
 
@@ -92,7 +93,7 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 ; after running: $sp = 0xA4001FD8
 0xa4000060: [27bdffe8] addiu $sp,$sp,-24 ; Add Immediate Unsigned
 
-; Now that we have the 24 bytes on the stack lets use them!
+; Now that we have the 24 bytes lets store the S registers to save them
 ; MEM[$sp + 0] = $s3; ($s3 was 0 when executing)
 0xa4000064: [afb30000] sw $s3,0($sp) ; Store word
 ; MEM[$sp + 4] = $s4;  ($s4 was 1 when executing)
@@ -161,6 +162,8 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000164: [35718000] ori $s1,$t3,0x8000
 0xa4000168: [ae2e0004] sw $t6,4($s1)
 0xa400016c: [25f5000c] addiu $s5,$t7,12
+
+; Call Function SevenSeventyEight()
 0xa4000170: [0d0001de] jal 0xA4000778
 0xa4000178: [10400038] beq $v0,$zero,0xA400025C
 0xa4000180: [afa20000] sw $v0,0($sp)
@@ -224,6 +227,8 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 ; Delete 8 Bytes on Stack
 0xa40002e4: [23bd0008] addi $sp,$sp,8
 0xa40002e8: [24050001] li $a1,1
+
+; Call Function AForty($a0,$a1)
 0xa40002ec: [0d000290] jal 0xA4000A40
 0xa40002f4: [8ce80000] lw $t0,0($a3)
 0xa40002f8: [3c080008] lui $t0,0x8
@@ -268,13 +273,16 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000398: [02c9b024] and $s6,$s6,$t1
 0xa400039c: [ad160018] sw $s6,24($t0)
 0xa40003a0: [03c0e825] or $sp,$s8,$zero
+
 ; Delete 72 Bytes on Stack
 0xa40003a4: [27bd0048] addiu $sp,$sp,72
+; Load the Saved S registers back from stack
 0xa40003a8: [8fb30000] lw $s3,0($sp)
 0xa40003ac: [8fb40004] lw $s4,4($sp)
 0xa40003b0: [8fb50008] lw $s5,8($sp)
 0xa40003b4: [8fb6000c] lw $s6,12($sp)
 0xa40003b8: [8fb70010] lw $s7,16($sp)
+
 ; Delete 24 Bytes on Stack
 0xa40003bc: [27bd0018] addiu $sp,$sp,24
 0xa40003c0: [3c088000] lui $t0,0x8000
@@ -283,16 +291,21 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40003cc: [2529ffe0] addiu $t1,$t1,-32
 0xa40003d0: [4080e000] mtc0 $zero,C0_TAGLO
 0xa40003d4: [4080e800] mtc0 $zero,C0_TAGHI
+
+; Loop until $at == 0
 0xa40003d8: [bd080000] cache 0x8,0x0($t0)
 0xa40003dc: [0109082b] sltu $at,$t0,$t1
 0xa40003e0: [1420fffd] bne $at,$zero,0xA40003D8
+
 0xa40003e8: [3c088000] lui $t0,0x8000
 0xa40003ec: [25080000] addiu $t0,$t0,0
 0xa40003f0: [25092000] addiu $t1,$t0,8192
 0xa40003f4: [2529fff0] addiu $t1,$t1,-16
+; Loop until $at == 0
 0xa40003f8: [bd090000] cache 0x9,0x0($t0)
 0xa40003fc: [0109082b] sltu $at,$t0,$t1
 0xa4000400: [1420fffd] bne $at,$zero,0xA40003F8
+
 0xa4000408: [10000013] b 0xA4000458
 0xa4000458: [3c0aa400] lui $t2,0xa400
 0xa400045c: [254a0000] addiu $t2,$t2,0
@@ -319,8 +332,10 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40004b4: [258c0000] addiu $t4,$t4,0
 0xa40004b8: [01800008] jr $t4
 
+;  —— Start Function SevenSeventyEight —— 
 ; Assign 160 Bytes on Stack
 0xa4000778: [27bdff60] addiu $sp,$sp,-160
+; start saving all the registers into the newly created stack space
 0xa400077c: [afb00040] sw $s0,64($sp)
 0xa4000780: [afb10044] sw $s1,68($sp)
 0xa4000784: [00008825] or $s1,$zero,$zero
@@ -349,10 +364,14 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40007e0: [afb7005c] sw $s7,92($sp)
 0xa40007e4: [afbe0060] sw $s8,96($sp)
 0xa40007e8: [afbf0064] sw $ra,100($sp)
+
+; Call function EightEighty()
 0xa40007ec: [0d000220] jal 0xA4000880
 0xa40007f4: [26100001] addiu $s0,$s0,1
 0xa40007f8: [2a090004] slti $t1,$s0,4
 0xa40007fc: [1520fffb] bne $t1,$zero,0xA40007EC
+
+; Load all the registers back from the stack
 0xa4000804: [00112082] srl $a0,$s1,2
 0xa4000808: [0d000290] jal 0xA4000A40
 0xa4000810: [8fbf0064] lw $ra,100($sp)
@@ -381,16 +400,23 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa400086c: [8fb60058] lw $s6,88($sp)
 0xa4000870: [8fb7005c] lw $s7,92($sp)
 0xa4000874: [8fbe0060] lw $s8,96($sp)
-0xa4000878: [03e00008] jr $ra
 
+; Return back to wherever called this function
+0xa4000878: [03e00008] jr $ra ; return;
+; ——— End Function ——
+
+; —— Start Function EightEighty ——
 ; Add 32 Bytes on Stack
 0xa4000880: [27bdffe0] addiu $sp,$sp,-32
-0xa4000884: [afbf001c] sw $ra,28($sp)
+0xa4000884: [afbf001c] sw $ra,28($sp); store the return address on the stack
+
 0xa4000888: [00004825] or $t1,$zero,$zero
 0xa400088c: [00005825] or $t3,$zero,$zero
 0xa4000890: [00006025] or $t4,$zero,$zero
 0xa4000894: [299a0040] slti $k0,$t4,64
 0xa4000898: [53400018] beql $k0,$zero,0xA40008FC
+
+; Call Function NinetyC()
 0xa40008a0: [0d000243] jal 0xA400090C
 0xa40008a8: [58400008] blezl $v0,0xA40008CC
 0xa40008b0: [0049d023] subu $k0,$v0,$t1
@@ -406,13 +432,21 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40008dc: [00042080] sll $a0,$a0,2
 0xa40008e0: [008b2023] subu $a0,$a0,$t3
 0xa40008e4: [00042040] sll $a0,$a0,1
-0xa40008e8: [0d000260] jal 0xA4000980
+
+; Call function NineEighty()
+0xa40008e8: [0d000260] jal 0xA4000980 ; JUMP to Function
 0xa40008f0: [10000003] b 0xA4000900
-0xa40008fc: [8fbf001c] lw $ra,28($sp)
+0xa40008fc: [8fbf001c] lw $ra,28($sp) ; load the return address on the stack
 
 ; Delete 32 Bytes on Stack
 0xa4000900: [27bd0020] addiu $sp,$sp,32
-0xa4000904: [03e00008] jr $ra
+; return from function
+0xa4000904: [03e00008] jr $ra; return;
+; ——— End Function ——
+
+
+; —— Start Function  NinetyC ——
+; Add 40 Bytes on Stack
 0xa400090c: [27bdffd8] addiu $sp,$sp,-40
 0xa4000910: [afbf001c] sw $ra,28($sp)
 0xa4000914: [00001025] or $v0,$zero,$zero
@@ -438,7 +472,12 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 
 ; Delete 40 Bytes on Stack
 0xa4000974: [27bd0028] addiu $sp,$sp,40
-0xa4000978: [03e00008] jr $ra
+; Return from function
+0xa4000978: [03e00008] jr $ra; return;
+; ——— End Function ——
+
+
+; —— Start Function NineEighty ——
 ; Add 40 Bytes on Stack
 0xa4000980: [27bdffd8] addiu $sp,$sp,-40
 0xa4000984: [afbf001c] sw $ra,28($sp)
@@ -451,7 +490,11 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40009a0: [29da0040] slti $k0,$t6,64
 0xa40009a4: [57400004] bnel $k0,$zero,0xA40009B8
 0xa40009b8: [0d000290] jal 0xA4000A40
+
+; Call Function AaDeeZero()
 0xa40009c0: [0d0002b4] jal 0xA4000AD0
+
+; Call Function AaDeeZero()
 0xa40009c8: [0d0002b4] jal 0xA4000AD0
 0xa40009d0: [93ba0027] lbu $k0,39($sp)
 0xa40009d4: [241b0320] li $k1,800
@@ -476,8 +519,11 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 
 ; Delete 40 Bytes on Stack
 0xa4000a34: [27bd0028] addiu $sp,$sp,40
-0xa4000a38: [03e00008] jr $ra
+0xa4000a38: [03e00008] jr $ra ; return;
+; ——— End Function ——
 
+
+; —— Start Function AForty ——
 ; Add 8 Bytes on Stack
 0xa4000a40: [27bdffd8] addiu $sp,$sp,-40
 0xa4000a44: [308400ff] andi $a0,$a0,0xff
@@ -513,11 +559,20 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 ; Delete 40 Bytes on Stack
 0xa4000ac4: [27bd0028] addiu $sp,$sp,40
 0xa4000ac8: [03e00008] jr $ra
-; Add 40 Bytes on Stack
+; ——— End Function ——
+
+
+; —— Start Function AaDeeZero ——
+; Add 40 Bytes on Stack and save return address
 0xa4000ad0: [27bdffd8] addiu $sp,$sp,-40
 0xa4000ad4: [afbf001c] sw $ra,28($sp)
+
+; $k0 = 8192
 0xa4000ad8: [241a2000] li $k0,8192
+; $k1 = 0xa430
 0xa4000adc: [3c1ba430] lui $k1,0xa430
+
+; MEM[$k1] = $k0 (8192)
 0xa4000ae0: [af7a0000] sw $k0,0($k1)
 0xa4000ae4: [0000f025] or $s8,$zero,$zero
 0xa4000ae8: [8ebe0000] lw $s8,0($s5)
@@ -549,11 +604,16 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000b50: [001bdc82] srl $k1,$k1,18
 0xa4000b54: [035bd025] or $k0,$k0,$k1
 0xa4000b58: [a09a0000] sb $k0,0($a0)
+
+; Load return address back from stack
 0xa4000b5c: [8fbf001c] lw $ra,28($sp)
+
 ; Delete 40 Bytes on Stack
 0xa4000b60: [27bd0028] addiu $sp,$sp,40
 0xa4000b64: [03e00008] jr $ra
+; ——— End Function ——
 ```
 
 # References
 [^1]: http://www.it.uu.se/education/course/homepage/os/vt18/module-1/memory-mapped-io/
+[^2]: http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html 
