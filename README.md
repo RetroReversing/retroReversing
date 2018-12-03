@@ -2,13 +2,8 @@
 A curated list of awesome retro game development and reverse engineering resources, tools, docs, related projects all in an easy to use githubpages website.
 https://www.retroreversing.com/
 
-# Current Posts
-
-## Sega Game Gear & SMS
-* Krisalis Development Kit (Sega) - http://www.retroreversing.com/krisalis-development-kit-(sega)/
-
 ---
-# Future Posts
+# Future Posts to be written
 
 ## Tools
 * TUME Map Editor - https://games.greggman.com/game/tume___the_universal_map_editor/
@@ -26,6 +21,7 @@ https://www.retroreversing.com/
 
 ## Nintendo 64
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
+* Neon64: NES emulator for N64! - https://hcs64.com/neon64.html
 
 ## NES
 * How we fit an NES game into 40 Kilobytes - https://www.youtube.com/watch?v=ZWQ0591PAxM
