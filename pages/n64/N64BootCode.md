@@ -18,7 +18,44 @@ recommend: n64
 editlink: /n64/N64BootCode.md
 ---
 
-The boot code of most roms is the same and it comes to: 438 lines of assembly which is listed below:
+In this post we will be exploring the Nintendo 64 Bootstrapping Code or Boot code for short.
+
+The boot code is a short piece of MIPS assembly code located in every single N64 ROM that starts at offset 0x40 and has a size of 4032 bytes.
+
+Technically any code could have been placed in this section of the ROM as long as it initialises the hardware, but in practise there were only a couple of variations on the standard bootcode.
+
+The Boot Codes don't have any names or unique identifier to refer to them so for the remainder of this post I will identify a specific boot code section with its Md5 Checksum.
+
+Most of the Retail N64 roms (not including cheat cartridges or homebrew) use one of the following boot code segments:
+```
+2dacea29bd5ae921009b68f2763112d8 (used in 88% of games)
+519f29ee1440f2c7b39a79eea1aec40d (used in 4% of games, e.g Legend of Zelda OOT)
+877439da8c0021675bbbcfb63c0a10a6 (used in 3% of games, e.g 1080 Snowboarding)
+```
+
+The standard Boot Code is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
+
+The md5 hash for this boot code in binary format is:
+```
+2dacea29bd5ae921009b68f2763112d8
+```
+So you can check if your rom uses this bootcode by copying 4032 bytes from offset 0x0040 into a separate file and running the `md5` command on it.
+
+Some basics before reading the assembly listing:
+```
+$t0.. Temporary registers
+$s0.. Saved registers (get saved on stack)
+$k0 & $K1 Reserved for Kernal
+$gp - Global Pointer
+$sp - Stack Pointer (location of stack in memory)
+$fp - Frame Pointer
+$v0 - function result 32bit
+$v1 - function result 64bit
+$a0.. - function argument registers
+```
+After running the boot code in an emulator I traced each unique instruction executed and made notes on the purpose of each instruction.
+
+The boot code that executed came to 438 lines of MIPS assembly which is listed below:
 ```asm
 ; Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISSASSEMBLED_BYTES]
 ; First initialise the Coprocessor 0 memory
