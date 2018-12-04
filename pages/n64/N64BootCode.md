@@ -114,23 +114,40 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa400008c: [258c0000] addiu $t4,$t4,0
 0xa4000090: [34090040] ori $t1,$zero,0x40
 0xa4000094: [ad090004] sw $t1,4($t0)
-0xa4000098: [24111f40] li $s1,8000
-0xa400009c: [00000000] nop 
-0xa40000a0: [2231ffff] addi $s1,$s1,-1
+
+0xa4000098: [24111f40] li $s1,8000 ; Load how many times to loop into $s1 (8000)
+
+; —— Start of Loop (8000 times) ——
+; Loop seems to be waiting for other hardware to init
+; it simply counts down from 8000 to zero
+0xa400009c: [00000000] nop ; do nothing while we wait for other hardware
+0xa40000a0: [2231ffff] addi $s1,$s1,-1 ; $s1=$s1-1
 0xa40000a4: [1620fffd] bne $s1,$zero,0xA400009C
+; —— End of Loop ——
+
 0xa40000ac: [ad000008] sw $zero,8($t0)
 0xa40000b0: [34090014] ori $t1,$zero,0x14
 0xa40000b4: [ad09000c] sw $t1,12($t0)
 0xa40000b8: [ad000000] sw $zero,0($t0)
-0xa40000bc: [24110004] li $s1,4
+
+0xa40000bc: [24110004] li $s1,4 ; Load how many times to loop into $s1 (4)
+
+; —— Start of Loop (4 times) ——
 0xa40000c0: [00000000] nop 
-0xa40000c4: [2231ffff] addi $s1,$s1,-1
+0xa40000c4: [2231ffff] addi $s1,$s1,-1 ; $s1=$s1-1
 0xa40000c8: [1620fffd] bne $s1,$zero,0xA40000C0
+; —— End of Loop ——
+
 0xa40000d0: [3409000e] ori $t1,$zero,0xe
 0xa40000d4: [ad090000] sw $t1,0($t0)
-0xa40000d8: [24110020] li $s1,32
+
+0xa40000d8: [24110020] li $s1,32  ; Load how many times to loop into $s1 (32)
+
+; —— Start of Loop (32 times) ——
 0xa40000dc: [2231ffff] addi $s1,$s1,-1
 0xa40000e0: [1620fffe] bne $s1,$zero,0xA40000DC
+; —— End of Loop ——
+
 0xa40000e8: [ad890000] sw $t1,0($t4)
 0xa40000ec: [3c091808] lui $t1,0x1808 ; Load Upper Immediate
 0xa40000f0: [35292838] ori $t1,$t1,0x2838
@@ -160,12 +177,16 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000148: [16110005] bne $s0,$s1,0xA4000160
 0xa4000160: [24100400] li $s0,1024
 0xa4000164: [35718000] ori $s1,$t3,0x8000
+
+; —— Start of Loop (5 times) ——
 0xa4000168: [ae2e0004] sw $t6,4($s1)
 0xa400016c: [25f5000c] addiu $s5,$t7,12
 
-; Call Function SevenSeventyEight()
+; Call Function $v0 = SevenSeventyEight()
 0xa4000170: [0d0001de] jal 0xA4000778
+; Break out of loop if $v0 = 0 ($v0 is the return value of SevenSeventyEight())
 0xa4000178: [10400038] beq $v0,$zero,0xA400025C
+
 0xa4000180: [afa20000] sw $v0,0($sp)
 0xa4000184: [24092000] li $t1,8192
 0xa4000188: [ad890000] sw $t1,0($t4)
@@ -212,12 +233,16 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa400024c: [25ad0001] addiu $t5,$t5,1
 0xa4000250: [2da80008] sltiu $t0,$t5,8
 0xa4000254: [1500ffc4] bne $t0,$zero,0xA4000168
+; —— End of Loop ——
+
 0xa400025c: [3c08c400] lui $t0,0xc400
 0xa4000260: [ad48000c] sw $t0,12($t2)
 0xa4000264: [3c088000] lui $t0,0x8000
 0xa4000268: [ad480004] sw $t0,4($t2)
 0xa400026c: [03c0e825] or $sp,$s8,$zero
 0xa4000270: [00001825] or $v1,$zero,$zero
+
+; —— Start of Loop (4 times) ——
 0xa4000274: [8fa90004] lw $t1,4($sp)
 0xa4000278: [3c08b009] lui $t0,0xb009
 0xa400027c: [15280016] bne $t1,$t0,0xA40002D8
@@ -259,6 +284,8 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa400035c: [24630001] addiu $v1,$v1,1
 0xa4000360: [006d402a] slt $t0,$v1,$t5
 0xa4000364: [1500ffc3] bne $t0,$zero,0xA4000274
+; —— End of Loop ——
+
 0xa400036c: [3c0aa470] lui $t2,0xa470
 0xa4000370: [001294c0] sll $s2,$s2,19
 0xa4000374: [3c090006] lui $t1,0x6
@@ -292,19 +319,22 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40003d0: [4080e000] mtc0 $zero,C0_TAGLO
 0xa40003d4: [4080e800] mtc0 $zero,C0_TAGHI
 
-; Loop until $at == 0
+; —— Start of Loop (until $at == 0, 512 times) ——
 0xa40003d8: [bd080000] cache 0x8,0x0($t0)
 0xa40003dc: [0109082b] sltu $at,$t0,$t1
 0xa40003e0: [1420fffd] bne $at,$zero,0xA40003D8
+; —— End of Loop ——
 
 0xa40003e8: [3c088000] lui $t0,0x8000
 0xa40003ec: [25080000] addiu $t0,$t0,0
 0xa40003f0: [25092000] addiu $t1,$t0,8192
 0xa40003f4: [2529fff0] addiu $t1,$t1,-16
-; Loop until $at == 0
+
+; —— Start of Loop (until $at == 0, 512 times) ——
 0xa40003f8: [bd090000] cache 0x9,0x0($t0)
 0xa40003fc: [0109082b] sltu $at,$t0,$t1
 0xa4000400: [1420fffd] bne $at,$zero,0xA40003F8
+; —— End of Loop ——
 
 0xa4000408: [10000013] b 0xA4000458
 0xa4000458: [3c0aa400] lui $t2,0xa400
@@ -323,19 +353,26 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa400048c: [010a4025] or $t0,$t0,$t2
 0xa4000490: [016a5825] or $t3,$t3,$t2
 0xa4000494: [25290000] addiu $t1,$t1,0
+
+; —— Start of Loop (until $at == 0, 173 times) ——
 0xa4000498: [8d0d0000] lw $t5,0($t0)
 0xa400049c: [25080004] addiu $t0,$t0,4
 0xa40004a0: [010b082b] sltu $at,$t0,$t3
 0xa40004a4: [25290004] addiu $t1,$t1,4
 0xa40004a8: [1420fffb] bne $at,$zero,0xA4000498
+; —— End of Loop ——
+
 0xa40004b0: [3c0c8000] lui $t4,0x8000
 0xa40004b4: [258c0000] addiu $t4,$t4,0
 0xa40004b8: [01800008] jr $t4
 
-;  —— Start Function SevenSeventyEight —— 
+;  —— Start Function SevenSeventyEight (called 5 times) —— 
+; This function basically preserves all the registers on stack
+; then it calls function EightEighty() exactly 4 times
 ; Assign 160 Bytes on Stack
 0xa4000778: [27bdff60] addiu $sp,$sp,-160
-; start saving all the registers into the newly created stack space
+
+; Start Saving all the registers into the newly created stack space
 0xa400077c: [afb00040] sw $s0,64($sp)
 0xa4000780: [afb10044] sw $s1,68($sp)
 0xa4000784: [00008825] or $s1,$zero,$zero
@@ -364,12 +401,14 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40007e0: [afb7005c] sw $s7,92($sp)
 0xa40007e4: [afbe0060] sw $s8,96($sp)
 0xa40007e8: [afbf0064] sw $ra,100($sp)
+; End Saving Registers to Stack
 
-; Call function EightEighty()
-0xa40007ec: [0d000220] jal 0xA4000880
-0xa40007f4: [26100001] addiu $s0,$s0,1
-0xa40007f8: [2a090004] slti $t1,$s0,4
+; —— Start of Loop (4 times) ——
+0xa40007ec: [0d000220] jal 0xA4000880 ; Call function EightEighty()
+0xa40007f4: [26100001] addiu $s0,$s0,1; $s0 = $s0 + 1
+0xa40007f8: [2a090004] slti $t1,$s0,4 ' if $s0 < imm $t1 = 1
 0xa40007fc: [1520fffb] bne $t1,$zero,0xA40007EC
+; —— End of Loop ——
 
 ; Load all the registers back from the stack
 0xa4000804: [00112082] srl $a0,$s1,2
@@ -405,7 +444,7 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000878: [03e00008] jr $ra ; return;
 ; ——— End Function ——
 
-; —— Start Function EightEighty ——
+; —— Start Function EightEighty (runs 20 times) ——
 ; Add 32 Bytes on Stack
 0xa4000880: [27bdffe0] addiu $sp,$sp,-32
 0xa4000884: [afbf001c] sw $ra,28($sp); store the return address on the stack
@@ -413,8 +452,10 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000888: [00004825] or $t1,$zero,$zero
 0xa400088c: [00005825] or $t3,$zero,$zero
 0xa4000890: [00006025] or $t4,$zero,$zero
+
+; —— Start of Loop (? times) ——
 0xa4000894: [299a0040] slti $k0,$t4,64
-0xa4000898: [53400018] beql $k0,$zero,0xA40008FC
+0xa4000898: [53400018] beql $k0,$zero,0xA40008FC ; if $k0==0 return;
 
 ; Call Function NinetyC()
 0xa40008a0: [0d000243] jal 0xA400090C
@@ -427,6 +468,8 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa40008c4: [00000000] nop 
 0xa40008c8: [293a0050] slti $k0,$t1,80
 0xa40008cc: [1740fff1] bne $k0,$zero,0xA4000894
+; —— End of Loop ——
+
 0xa40008d4: [000b2080] sll $a0,$t3,2
 0xa40008d8: [008b2023] subu $a0,$a0,$t3
 0xa40008dc: [00042080] sll $a0,$a0,2
@@ -445,7 +488,7 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 ; ——— End Function ——
 
 
-; —— Start Function  NinetyC ——
+; —— Start Function  NinetyC (runs 288 times) ——
 ; Add 40 Bytes on Stack
 0xa400090c: [27bdffd8] addiu $sp,$sp,-40
 0xa4000910: [afbf001c] sw $ra,28($sp)
@@ -580,30 +623,36 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 0xa4000af0: [af7a0000] sw $k0,0($k1)
 0xa4000af4: [241b0040] li $k1,64
 0xa4000af8: [037ed824] and $k1,$k1,$s8
+; Now divide $k1 by 2^6
 0xa4000afc: [001bd982] srl $k1,$k1,6
 0xa4000b00: [0000d025] or $k0,$zero,$zero
 0xa4000b04: [035bd025] or $k0,$k0,$k1
 0xa4000b08: [241b4000] li $k1,16384
 0xa4000b0c: [037ed824] and $k1,$k1,$s8
+; Now divide $k1 by 2^13
 0xa4000b10: [001bdb42] srl $k1,$k1,13
 0xa4000b14: [035bd025] or $k0,$k0,$k1
 0xa4000b18: [3c1b0040] lui $k1,0x40
 0xa4000b1c: [037ed824] and $k1,$k1,$s8
+; Now divide $k1 by 2^20
 0xa4000b20: [001bdd02] srl $k1,$k1,20
 0xa4000b24: [035bd025] or $k0,$k0,$k1
 0xa4000b28: [241b0080] li $k1,128
 0xa4000b2c: [037ed824] and $k1,$k1,$s8
+; Now divide $k1 by 2^4
 0xa4000b30: [001bd902] srl $k1,$k1,4
 0xa4000b34: [035bd025] or $k0,$k0,$k1
 0xa4000b38: [341b8000] ori $k1,$zero,0x8000
 0xa4000b3c: [037ed824] and $k1,$k1,$s8
+; Now divide $k1 by 2^11
 0xa4000b40: [001bdac2] srl $k1,$k1,11
 0xa4000b44: [035bd025] or $k0,$k0,$k1
 0xa4000b48: [3c1b0080] lui $k1,0x80
 0xa4000b4c: [037ed824] and $k1,$k1,$s8
-0xa4000b50: [001bdc82] srl $k1,$k1,18
-0xa4000b54: [035bd025] or $k0,$k0,$k1
-0xa4000b58: [a09a0000] sb $k0,0($a0)
+; Now divide $k1 by 2^18
+0xa4000b50: [001bdc82] srl $k1,$k1,18 ; $k1 = $k1 >> 18;
+0xa4000b54: [035bd025] or $k0,$k0,$k1 ; $k0 = $k0 | $k1; 
+0xa4000b58: [a09a0000] sb $k0,0($a0) ; MEM[$a0] = $k0
 
 ; Load return address back from stack
 0xa4000b5c: [8fbf001c] lw $ra,28($sp)
