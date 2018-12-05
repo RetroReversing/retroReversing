@@ -29,6 +29,9 @@ https://www.retroreversing.com/
 ## Playstation 3
 * Book review of "Programming the Cell Processor" and Comparison of open source tools to SN Systems sdk here - https://archive.org/stream/GDM_February_2009#page/n39/mode/2up/search/%22SN+Systems%22
 
+## Gamecube
+* Animal Crossing NES emulator - https://jamchamb.github.io/2018/07/11/animal-crossing-nes-emulator-hacks.html
+
 ## PC
 * Klik & Play - https://web.archive.org/web/19990220223721/http://www.emf.net:80/%7Emikep/Knp/KNP.html
 * Rebel Assault - https://github.com/Fortyseven/RA_1993
