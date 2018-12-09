@@ -89,12 +89,31 @@ labels:
 ```
 
 ### Set checksum values
+You will notice in the above template that there are 2 checksum addresses:
+```yaml
+checksum1: 0xA03CF036
+checksum2: 0xBCC1C5D2
+```
+These are currently set to the checksum for Mario64 which will be no good for any other game, so lets get some proper values for this!
 
 You will need to change the checksum1 and checksum2 values to the values of your specific rom. 
+
 You can find the values by opening the Z64 ROM in a hex editor and going to address 0x10 and copying the hex value at that location. The same for checksum2 at 0x14 in the ROM.
 
 ### Set Entry point values
-You will notice the hex address `0x80241800` in the template, this is the start point for the game code in the Super Mario ROM.
+In two sections of the above template we have reference to the hex address `0x80241800`.
+One is in the labels section:
+```yaml
+labels:
+  - [0x80241800, "EntryPoint"]
+```
+
+The other is in the main range section:
+```yaml
+   - [0x001000, 0x0B6A40, "asm", "main", 0x80241800]
+```
+
+ This is called the Entry Point of a game and it is start point for the game code in RAM, the value above is for the Super Mario ROM.
 
 So we need to replace this value with the start address of the game you are wanting to reverse.
 
@@ -103,14 +122,17 @@ Again open your ROM in a hex editor and go to address: 0x08 and use the 4 bytes 
 ### Set end of assembly
 This is much trickier, so while we know that the assembly code starts at 0x001000 we don’t know where it finishes. This will require some disassembling and detective work which is what we will do in the next section so for now keep it at `0x0B6A40` which is where the initial Mario code ends. We will find the proper value for this later on.
 
-# Find Ultra64 SDK Library Symbols
+------
+# Part 3 - Code Analysis
+
+### Find Ultra64 SDK Library Symbols
 You can use this tool: https://github.com/shygoo/n64sym 
 ```bash
 n64sym paper_mario.bin -l libs/libgultra_rom.a
 ```
 
 -------
-# Part 3 - Advanced
+# Part 4 - Advanced
 
 ## Embedded Javascript engine in Project64
 Youtube: https://www.youtube.com/watch?v=PC0Tlz6oiN0 
