@@ -6,10 +6,15 @@ tags:
 title: N64 ROM Visualizer (.z64)
 permalink: /n64Visualizer
 recommend: tools
-editlink: /tools/n64RomViewer.html
+editlink: ../tools/n64RomViewer.html
 ---
-<script type="application/javascript" src="/public/tools/ILBMViewer/jdataview.js"></script>
-<script type="application/javascript" src="/public/tools/ILBMViewer/iff.js"></script>
+<script type="application/javascript" src="/public/js/binary_parser.bundle.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.production.min.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.production.min.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.min.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dropzone/6.0.4/index.js"></script>
+
+
 <!--   <details id='iff_canvas_debug_container' class="debug_container">
     <summary>Debug Output</summary>
     <div id="iff_canvas_debug"></div>
@@ -23,59 +28,125 @@ editlink: /tools/n64RomViewer.html
     </div>
   </div>
 
+<div id="root">
+    <!-- This element's contents will be replaced with your component. -->
+</div>
+
   <script>
-    var draghint = document.getElementById('draghint');
-    window.addEventListener('drop', function(event) {
-      event.preventDefault();
-      draghint.classList.remove('hover');
-      for (var i=0; i< event.dataTransfer.files.length; i++) {
-        var file = event.dataTransfer.files[i];
-        var c = document.createElement('canvas');
-        c.id='ilbm'+i;
-        $('#ilbm').append(c);
-        console.log(file, i, c);
-        loadIffImageFromFile(file, c.id, false);
-      }
-      return false;
-  });
-  
-  window.addEventListener('dragover', function(event) {
-      event.preventDefault();
-      draghint.classList.add('hover');
-      return false;
+    const { Parser, FileUnparser, ReactUnparser, Buffer } = window["binary_unparser"];
+
+// do europe and us have different offsets?
+// Z64 Rom File Parser
+var n64Header = new Parser.Parser()
+  .uint8("PI_BSB_DOM1_LAT_REG", { assertWithoutErroring: 0x80 })
+  .uint8("PI_BSB_DOM1_PGS_REG1", { assertWithoutErroring: 0x37 })
+  .uint8("PI_BSB_DOM1_PWD_REG", { assertWithoutErroring: 0x12 })
+  .uint8("PI_BSB_DOM1_PGS_REG", { assertWithoutErroring: 0x40 })
+  .uint32("ClockRate", { assertWithoutErroring: 0x0F })
+  .uint32("Program_Counter_PC")
+  .uint32("Release") // 1446 for marioKart, 1444 for NC+MortalKombat, 1447 for GE
+  .uint32("CRC1")
+  .uint32("CRC2")
+  .uint32("Unknown1")
+  .uint32("Unknown2")
+  .string("ImageName", { length: 20 })
+  .uint16("Unknown5")
+  .uint16("Unknown6")
+  .string("ManufacturerID", { length: 4 })
+  .string("CartridgeID", { length: 2 })
+  .string("CountryCode", { length: 2 })
+  .uint8("Version")
+  .array("bootCode", {
+      type: "uint8",
+      length: 4032
   });
 
-window.addEventListener('dragleave', function(event) {
-  event.preventDefault();
-  draghint.classList.remove('hover');
-  return false;
-});
 
-window.addEventListener('focus', function() {
-  return draghint.classList.remove('hover');
-});
-  </script>
+var n64HeaderUP = new ReactUnparser(n64Header);
+
+class FileUpload extends React.Component {
   
-  <script>
-function loadIffImageFromFile(file, canvas_id, animate) {
-  var iff = new IffContainer(canvas_id);
-  iff.canvas.style.cursor = 'wait';
-  var fileReader = new FileReader();
-  fileReader.onload = function () {
-    var data = fileReader.result;
-    iff.arrayBuffer = data;
-    
-    parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
-      // Give the browser a chance to do something.
-      window.setTimeout(function() {
-        drawIffImage(iff);
-        iff.canvas.style.cursor = 'default'
-        if (iff.color_animations.length > 0 && animate) {
-          animateIffImage(iff);
-        }
-      }, 100);
-  };
-  
-   fileReader.readAsArrayBuffer(file); 
+  constructor(props) {
+    super(props);
+    this.onDrop = this.onDrop.bind(this);
+    this.state = {
+      files: [],
+      reactResult: ''
+    };
+  }
+
+  onDrop(acceptedFiles) {
+    const { files, test } = this.state;
+    console.log("acceptedFiles", acceptedFiles);
+    if (!acceptedFiles[0]) return;
+    files.push(acceptedFiles[0]);
+    this.setState({
+      files
+    });
+    console.log("onDrop files:",this.state.files);
+    acceptedFiles.forEach(file => {
+        const reader = new FileReader();
+        reader.onload = () => {
+            const fileAsBinaryString = reader.result;
+            // do whatever you want with the file content
+          const parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
+          this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
+          
+          const reactResult = n64HeaderUP.unparse(parsedResult, [], React);
+          this.setState({reactResult})
+        };
+        reader.onabort = () => console.log('file reading was aborted');
+        reader.onerror = () => console.log('file reading has failed');
+
+        reader.readAsArrayBuffer(file);
+    });
+  }
+
+  render() {
+    const { files } = this.state;
+    return (
+      <div>
+      <aside>
+          <ul>
+            {
+              files.map(f => (
+                <li>
+                  <span key={f.id}>
+                    {f.name}
+                    {f.path} {" "}
+                    {f.size} {" "}
+                    bytes
+                  </span>
+                  
+                </li>))
+            }
+          </ul>
+        </aside>
+      <section>
+        
+        <div className="dropzone">
+          <Dropzone
+            multiple
+            onDrop={this.onDrop}
+          >
+            <p>Drop ROM here</p>
+          </Dropzone>
+        </div>
+      <div id="result">
+        {this.state.reactResult}
+      </div>
+       <div>
+        <textarea rows={20} cols={50} value={this.state.jsonResult}></textarea>
+       </div>
+      </section>
+    </div>
+    );
+  }
 }
+
+ReactDOM.render(
+  <div>
+    <FileUpload maxsize="100000" />
+  </div>
+  , document.querySelector('#root'));
   </script>
