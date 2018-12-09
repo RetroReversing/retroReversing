@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: N64 Reversing Introduction
-image:  /public/consoles/Nintendo 64.png
+image: /public/N64/N64 Introduction.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /N64Reversing
 breadcrumbs:
