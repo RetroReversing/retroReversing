@@ -15,7 +15,7 @@ editlink: ../tools/n64RomViewer.html
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dropzone/6.0.4/index.js"></script>
 
 <style>
-  #result {
+ #result {
   display:flex;
   flex-wrap: wrap;
   justify-items: start;
@@ -30,12 +30,12 @@ editlink: ../tools/n64RomViewer.html
   max-height: 10px;
 }
 
-section {
+#mySection {
   display: flex;
   flex-wrap: wrap;
 }
 
-section div {
+#mySection div {
   padding: 10px;
 }
 
@@ -123,7 +123,7 @@ function parseFile(file) {
     var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
     //this.setState({reactResult})
     ReactDOM.render(
-    React.createElement("section", null, " ", React.createElement("div", { id: "result" },
+    React.createElement("section", {id: "mySection"}, " ", React.createElement("div", { id: "result" },
         reactResult),
       React.createElement("div", null,
         React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }))),
