@@ -814,9 +814,8 @@ class UnParser {
   }
 
   generateFormatter(ctx, varName, formatter) {
-    if (typeof formatter === "function") {
-      // ctx.pushCode("{0} = ({1}).call(this, {0});", varName, formatter);
-      ctx.pushCode("console.error('generate formatter: {0} = ({1}).call(this, {0});');", varName, formatter);
+    if (typeof formatter === "function") {// ctx.pushCode("{0} = ({1}).call(this, {0});", varName, formatter);
+      // ctx.pushCode("console.error('generate formatter: {0} = ({1}).call(this, {0});');", varName, formatter);
     }
   }
 
