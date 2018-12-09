@@ -1,0 +1,81 @@
+---
+layout: post
+tags: 
+- tools
+- deluxepaint
+title: N64 ROM Visualizer (.z64)
+permalink: /ilbm
+recommend: tools
+editlink: /tools/n64RomViewer.html
+---
+<script type="application/javascript" src="/public/tools/ILBMViewer/jdataview.js"></script>
+<script type="application/javascript" src="/public/tools/ILBMViewer/iff.js"></script>
+<!--   <details id='iff_canvas_debug_container' class="debug_container">
+    <summary>Debug Output</summary>
+    <div id="iff_canvas_debug"></div>
+  </details> -->
+  <div class="draghint hidden screen" id="draghint">
+<!--     <input type="file" id="chooser" class="chooser"/> -->
+    <div class="dragtext">
+      <h1>Drop Z64 files here to view</h1>
+      <div id='ilbm'>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var draghint = document.getElementById('draghint');
+    window.addEventListener('drop', function(event) {
+      event.preventDefault();
+      draghint.classList.remove('hover');
+      for (var i=0; i< event.dataTransfer.files.length; i++) {
+        var file = event.dataTransfer.files[i];
+        var c = document.createElement('canvas');
+        c.id='ilbm'+i;
+        $('#ilbm').append(c);
+        console.log(file, i, c);
+        loadIffImageFromFile(file, c.id, false);
+      }
+      return false;
+  });
+  
+  window.addEventListener('dragover', function(event) {
+      event.preventDefault();
+      draghint.classList.add('hover');
+      return false;
+  });
+
+window.addEventListener('dragleave', function(event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  return false;
+});
+
+window.addEventListener('focus', function() {
+  return draghint.classList.remove('hover');
+});
+  </script>
+  
+  <script>
+function loadIffImageFromFile(file, canvas_id, animate) {
+  var iff = new IffContainer(canvas_id);
+  iff.canvas.style.cursor = 'wait';
+  var fileReader = new FileReader();
+  fileReader.onload = function () {
+    var data = fileReader.result;
+    iff.arrayBuffer = data;
+    
+    parseIffChunk(iff, 0, iff.arrayBuffer.byteLength);
+      // Give the browser a chance to do something.
+      window.setTimeout(function() {
+        drawIffImage(iff);
+        iff.canvas.style.cursor = 'default'
+        if (iff.color_animations.length > 0 && animate) {
+          animateIffImage(iff);
+        }
+      }, 100);
+  };
+  
+   fileReader.readAsArrayBuffer(file); 
+}
+  </script>
