@@ -33,120 +33,120 @@ editlink: ../tools/n64RomViewer.html
 </div>
 
   <script>
-    const { Parser, FileUnparser, ReactUnparser, Buffer } = window["binary_unparser"];
+    var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
 // do europe and us have different offsets?
 // Z64 Rom File Parser
-var n64Header = new Parser.Parser()
-  .uint8("PI_BSB_DOM1_LAT_REG", { assertWithoutErroring: 0x80 })
-  .uint8("PI_BSB_DOM1_PGS_REG1", { assertWithoutErroring: 0x37 })
-  .uint8("PI_BSB_DOM1_PWD_REG", { assertWithoutErroring: 0x12 })
-  .uint8("PI_BSB_DOM1_PGS_REG", { assertWithoutErroring: 0x40 })
-  .uint32("ClockRate", { assertWithoutErroring: 0x0F })
-  .uint32("Program_Counter_PC")
-  .uint32("Release") // 1446 for marioKart, 1444 for NC+MortalKombat, 1447 for GE
-  .uint32("CRC1")
-  .uint32("CRC2")
-  .uint32("Unknown1")
-  .uint32("Unknown2")
-  .string("ImageName", { length: 20 })
-  .uint16("Unknown5")
-  .uint16("Unknown6")
-  .string("ManufacturerID", { length: 4 })
-  .string("CartridgeID", { length: 2 })
-  .string("CountryCode", { length: 2 })
-  .uint8("Version")
-  .array("bootCode", {
-      type: "uint8",
-      length: 4032
-  });
+var n64Header = new Parser.Parser().
+uint8("PI_BSB_DOM1_LAT_REG", { assertWithoutErroring: 0x80 }).
+uint8("PI_BSB_DOM1_PGS_REG1", { assertWithoutErroring: 0x37 }).
+uint8("PI_BSB_DOM1_PWD_REG", { assertWithoutErroring: 0x12 }).
+uint8("PI_BSB_DOM1_PGS_REG", { assertWithoutErroring: 0x40 }).
+uint32("ClockRate", { assertWithoutErroring: 0x0F }).
+uint32("Program_Counter_PC").
+uint32("Release") // 1446 for marioKart, 1444 for NC+MortalKombat, 1447 for GE
+.uint32("CRC1").
+uint32("CRC2").
+uint32("Unknown1").
+uint32("Unknown2").
+string("ImageName", { length: 20 }).
+uint16("Unknown5").
+uint16("Unknown6").
+string("ManufacturerID", { length: 4 }).
+string("CartridgeID", { length: 2 }).
+string("CountryCode", { length: 2 }).
+uint8("Version").
+array("bootCode", {
+  type: "uint8",
+  length: 4032 });
 
 
-var n64HeaderUP = new ReactUnparser(n64Header);
 
-class FileUpload extends React.Component {
-  
-  constructor(props) {
-    super(props);
-    this.onDrop = this.onDrop.bind(this);
-    this.state = {
+var n64HeaderUP = new ReactUnparser(n64Header);var
+
+FileUpload = function (_React$Component) {_inherits(FileUpload, _React$Component);
+
+  function FileUpload(props) {_classCallCheck(this, FileUpload);var _this = _possibleConstructorReturn(this, (FileUpload.__proto__ || Object.getPrototypeOf(FileUpload)).call(this,
+    props));
+    _this.onDrop = _this.onDrop.bind(_this);
+    _this.state = {
       files: [],
-      reactResult: ''
-    };
-  }
+      reactResult: '' };return _this;
 
-  onDrop(acceptedFiles) {
-    const { files, test } = this.state;
-    console.log("acceptedFiles", acceptedFiles);
-    if (!acceptedFiles[0]) return;
-    files.push(acceptedFiles[0]);
-    this.setState({
-      files
-    });
-    console.log("onDrop files:",this.state.files);
-    acceptedFiles.forEach(file => {
-        const reader = new FileReader();
-        reader.onload = () => {
-            const fileAsBinaryString = reader.result;
-            // do whatever you want with the file content
-          const parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
-          this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
-          
-          const reactResult = n64HeaderUP.unparse(parsedResult, [], React);
-          this.setState({reactResult})
+  }_createClass(FileUpload, [{ key: "onDrop", value: function onDrop(
+
+    acceptedFiles) {var _this2 = this;var _state =
+      this.state,files = _state.files,test = _state.test;
+      console.log("acceptedFiles", acceptedFiles);
+      if (!acceptedFiles[0]) return;
+      files.push(acceptedFiles[0]);
+      this.setState({
+        files: files });
+
+      console.log("onDrop files:", this.state.files);
+      acceptedFiles.forEach(function (file) {
+        var reader = new FileReader();
+        reader.onload = function () {
+          var fileAsBinaryString = reader.result;
+          // do whatever you want with the file content
+          var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
+          _this2.setState({ jsonResult: JSON.stringify(parsedResult, 4, 4) });
+
+          var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
+          _this2.setState({ reactResult: reactResult });
         };
-        reader.onabort = () => console.log('file reading was aborted');
-        reader.onerror = () => console.log('file reading has failed');
+        reader.onabort = function () {return console.log('file reading was aborted');};
+        reader.onerror = function () {return console.log('file reading has failed');};
 
         reader.readAsArrayBuffer(file);
-    });
-  }
+      });
+    } }, { key: "render", value: function render()
 
-  render() {
-    const { files } = this.state;
-    return (
-      <div>
-      <aside>
-          <ul>
-            {
-              files.map(f => (
-                <li>
-                  <span key={f.id}>
-                    {f.name}
-                    {f.path} {" "}
-                    {f.size} {" "}
-                    bytes
-                  </span>
-                  
-                </li>))
-            }
-          </ul>
-        </aside>
-      <section>
-        
-        <div className="dropzone">
-          <Dropzone
-            multiple
-            onDrop={this.onDrop}
-          >
-            <p>Drop ROM here</p>
-          </Dropzone>
-        </div>
-      <div id="result">
-        {this.state.reactResult}
-      </div>
-       <div>
-        <textarea rows={20} cols={50} value={this.state.jsonResult}></textarea>
-       </div>
-      </section>
-    </div>
-    );
-  }
-}
+    {var
+      files = this.state.files;
+      return (
+        React.createElement("div", null,
+          React.createElement("aside", null,
+            React.createElement("ul", null,
+
+              files.map(function (f) {return (
+                  React.createElement("li", null,
+                    React.createElement("span", { key: f.id },
+                      f.name,
+                      f.path, " ", " ",
+                      f.size, " ", " ", "bytes")));}))),
+
+
+
+
+
+
+
+          React.createElement("section", null,
+
+            React.createElement("div", { className: "dropzone" },
+              React.createElement(Dropzone, {
+                  multiple: true,
+                  onDrop: this.onDrop },
+
+                React.createElement("p", null, "Drop ROM here"))),
+
+
+            React.createElement("div", { id: "result" },
+              this.state.reactResult),
+
+            React.createElement("div", null,
+              React.createElement("textarea", { rows: 20, cols: 50, value: this.state.jsonResult })))));
+
+
+
+
+    } }]);return FileUpload;}(React.Component);
+
 
 ReactDOM.render(
-  <div>
-    <FileUpload maxsize="100000" />
-  </div>
-  , document.querySelector('#root'));
+React.createElement("div", null,
+  React.createElement(FileUpload, { maxsize: "100000" })),
+
+document.querySelector('#root'));
   </script>
