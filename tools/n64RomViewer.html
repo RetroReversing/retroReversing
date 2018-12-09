@@ -33,7 +33,7 @@ editlink: ../tools/n64RomViewer.html
 </div>
 
   <script>
-    var _createClass = function () {function defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}return function (Constructor, protoProps, staticProps) {if (protoProps) defineProperties(Constructor.prototype, protoProps);if (staticProps) defineProperties(Constructor, staticProps);return Constructor;};}();function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self, call) {if (!self) {throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call && (typeof call === "object" || typeof call === "function") ? call : self;}function _inherits(subClass, superClass) {if (typeof superClass !== "function" && superClass !== null) {throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);}subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } });if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;}var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
+    var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
 // do europe and us have different offsets?
 // Z64 Rom File Parser
@@ -61,92 +61,130 @@ array("bootCode", {
   length: 4032 });
 
 
+function parseFile(file) {
+  var reader = new FileReader();
+  reader.onload = function () {
+    var fileAsBinaryString = reader.result;
+    // do whatever you want with the file content
+    var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
+    //this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
 
-var n64HeaderUP = new ReactUnparser(n64Header);var
+    var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
+    //this.setState({reactResult})
+    ReactDOM.render(
+    React.createElement("section", null, " ", React.createElement("div", { id: "result" },
+        reactResult),
+      React.createElement("div", null,
+        React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }))),
 
-FileUpload = function (_React$Component) {_inherits(FileUpload, _React$Component);
+    document.querySelector('#root'));
+  };
+  reader.onabort = function () {return console.log('file reading was aborted');};
+  reader.onerror = function () {return console.log('file reading has failed');};
 
-  function FileUpload(props) {_classCallCheck(this, FileUpload);var _this = _possibleConstructorReturn(this, (FileUpload.__proto__ || Object.getPrototypeOf(FileUpload)).call(this,
-    props));
-    _this.onDrop = _this.onDrop.bind(_this);
-    _this.state = {
-      files: [],
-      reactResult: '' };return _this;
+  reader.readAsArrayBuffer(file);
+}
 
-  }_createClass(FileUpload, [{ key: "onDrop", value: function onDrop(
-
-    acceptedFiles) {var _this2 = this;var _state =
-      this.state,files = _state.files,test = _state.test;
-      console.log("acceptedFiles", acceptedFiles);
-      if (!acceptedFiles[0]) return;
-      files.push(acceptedFiles[0]);
-      this.setState({
-        files: files });
-
-      console.log("onDrop files:", this.state.files);
-      acceptedFiles.forEach(function (file) {
-        var reader = new FileReader();
-        reader.onload = function () {
-          var fileAsBinaryString = reader.result;
-          // do whatever you want with the file content
-          var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
-          _this2.setState({ jsonResult: JSON.stringify(parsedResult, 4, 4) });
-
-          var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
-          _this2.setState({ reactResult: reactResult });
-        };
-        reader.onabort = function () {return console.log('file reading was aborted');};
-        reader.onerror = function () {return console.log('file reading has failed');};
-
-        reader.readAsArrayBuffer(file);
-      });
-    } }, { key: "render", value: function render()
-
-    {var
-      files = this.state.files;
-      return (
-        React.createElement("div", null,
-          React.createElement("aside", null,
-            React.createElement("ul", null,
-
-              files.map(function (f) {return (
-                  React.createElement("li", null,
-                    React.createElement("span", { key: f.id },
-                      f.name,
-                      f.path, " ", " ",
-                      f.size, " ", " ", "bytes")));}))),
+var n64HeaderUP = new ReactUnparser(n64Header);
 
 
+var draghint = document.getElementById('draghint');
+window.addEventListener('drop', function (event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  for (var i = 0; i < event.dataTransfer.files.length; i++) {if (window.CP.shouldStopExecution(0)) break;
+    var file = event.dataTransfer.files[i];
+    var c = document.createElement('canvas');
+    c.id = 'v64' + i;
+    $('#v64').append(c);
+    console.log(file, i, c);
+    parseFile(file, c.id, false);
+  }window.CP.exitedLoop(0);
+  return false;
+});
 
+window.addEventListener('dragover', function (event) {
+  event.preventDefault();
+  draghint.classList.add('hover');
+  return false;
+});
+window.addEventListener('dragleave', function (event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  return false;
+});
+window.addEventListener('focus', function () {
+  return draghint.classList.remove('hover');
+});
 
+// class FileUpload extends React.Component {
 
+//   constructor(props) {
+//     super(props);
+//     this.onDrop = this.onDrop.bind(this);
+//     this.state = {
+//       files: [],
+//       reactResult: ''
+//     };
+//   }
 
+//   onDrop(acceptedFiles) {
+//     const { files, test } = this.state;
+//     console.log("acceptedFiles", acceptedFiles);
+//     if (!acceptedFiles[0]) return;
+//     files.push(acceptedFiles[0]);
+//     this.setState({
+//       files
+//     });
+//     console.log("onDrop files:",this.state.files);
+//     acceptedFiles.forEach(parseFile);
+//   }
 
-          React.createElement("section", null,
+//   render() {
+//     const { files } = this.state;
+//     return (
+//       <div>
+//       <aside>
+//           <ul>
+//             {
+//               files.map(f => (
+//                 <li>
+//                   <span key={f.id}>
+//                     {f.name}
+//                     {f.path} {" "}
+//                     {f.size} {" "}
+//                     bytes
+//                   </span>
 
-            React.createElement("div", { className: "dropzone" },
-              React.createElement(Dropzone, {
-                  multiple: true,
-                  onDrop: this.onDrop },
+//                 </li>))
+//             }
+//           </ul>
+//         </aside>
+//       <section>
 
-                React.createElement("p", null, "Drop ROM here"))),
+//         <div className="dropzone">
+//           <Dropzone
+//             multiple
+//             onDrop={this.onDrop}
+//           >
+//             <p>Drop ROM here</p>
+//           </Dropzone>
+//         </div>
+//       <div id="result">
+//         {this.state.reactResult}
+//       </div>
+//        <div>
+//         <textarea rows={20} cols={50} value={this.state.jsonResult}></textarea>
+//        </div>
+//       </section>
+//     </div>
+//     );
+//   }
+// }
 
-
-            React.createElement("div", { id: "result" },
-              this.state.reactResult),
-
-            React.createElement("div", null,
-              React.createElement("textarea", { rows: 20, cols: 50, value: this.state.jsonResult })))));
-
-
-
-
-    } }]);return FileUpload;}(React.Component);
-
-
-ReactDOM.render(
-React.createElement("div", null,
-  React.createElement(FileUpload, { maxsize: "100000" })),
-
-document.querySelector('#root'));
+// ReactDOM.render(
+//   <div>
+//     <FileUpload maxsize="100000" />
+//   </div>
+//   , document.querySelector('#root'));
   </script>
