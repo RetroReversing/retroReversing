@@ -18,6 +18,20 @@ recommend: ps1
 editlink: /ps1/PS1FileFormats.md
 ---
 
+# File Formats used to distribute PS1 Discs
+A Playstation One CD can either be directly put into your PC via the CD-ROM drive or mounting a .BIN/.ISO file. All of these are just ways to be able to see the contents of a PS1 Disc similar to a folder of files.
+
+Extension | Description
+--- | ---
+.BIN | A BIN file needs a .CUE file in order to be useful, it is the raw binary contents of a PS1 disc
+.CUE | A CUE sheet describes a .BIN file and can be `mounted` on a pc to reveal the file system of the disc
+.ISO | A ISO file can be `mounted` on a pc to reveal the file system of the disc
+
+---
+
+# File formats Located on the PS1 Disc
+After mounting a PS1 Disc ISO/BIN/CUE you can view the file system of the Disc and you will see files with a variety of extensions, some of these extensions are standard across games and are listed in the table below.
+
 Extension | Description
 --- | ---
 .STR | Streaming Movie
