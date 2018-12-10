@@ -149,6 +149,33 @@ Total decoded section size:  B5A80/800000 (8.87%)
 
 This will create a `gameName.region.split` directory, where gameName and region are replaced with your specific rom settings. Don’t worry about that low percentage of decoded section we still have a few more ticks which can help increase the percentage decoded quickly.
 
+
+### N64Split Output
+
+Lets briefly look at the output of our initial run of n64split, if you open the directory it created it contains a number of different files listed below:
+
+Name | Description
+--- | ---
+Makefile | 
+Makefile.split |
+bin | This is where the binary blobs get extracted to, initially you will have `yourGameName.region.000040.boot.bin` which contains the boot code common in all roms
+geo | geometry will be extracted here (currently none)
+geo_commands.inc |
+globals.inc |  This is where all the labels you defined will be placed allowing compilers/assemblers to refer to them
+levels  | Game Levels will be placed here when we tell n64split how to decode the levels
+macros.inc  |
+models  | 3D Model data will be placed in this folder
+textures  | Game textures will be placed here when we tell n64split where in the rom the textures are
+yourGameName.region.ld  |
+yourGameName.region.s |
+
+Notice you can now run `make` and it will create the ROM from the split sections, cool! 
+This will form the basis of your reversing project, soon it will be filled with .c files, 3d models and other data and will all be able to be rebuilt back into the original rom using `make`!
+
+However the current content of the folder is not very useful at the moment as we haven’t actually split the rom into any proper areas yet but that is what we will do in the Next section.
+
+So now at the end of this section you will have a folder with files that will eventually become the reversed source code of the game, we just need to tell n64split where the code, models, levels and other assets are in the game. To do that we will need to do some digging to understand the internals of your chosen game rom.
+
 ------
 # Part 3 - Code Analysis
 
