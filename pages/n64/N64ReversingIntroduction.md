@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: N64 Reversing Introduction
-image: /public/N64/N64 Introduction.jpg
+image:  /public/N64/N64 Introduction.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /N64Reversing
 breadcrumbs:
@@ -88,6 +88,8 @@ labels:
   - [0x80241800, "EntryPoint"]
 ```
 
+Save this with a filename in the form: `gameName.region.yaml` in the config folder next to n64split executable.
+
 ### Set checksum values
 You will notice in the above template that there are 2 checksum addresses:
 ```yaml
@@ -121,6 +123,31 @@ Again open your ROM in a hex editor and go to address: 0x08 and use the 4 bytes 
 
 ### Set end of assembly
 This is much trickier, so while we know that the assembly code starts at 0x001000 we don’t know where it finishes. This will require some disassembling and detective work which is what we will do in the next section so for now keep it at `0x0B6A40` which is where the initial Mario code ends. We will find the proper value for this later on.
+
+### Run N64Split
+If you have put your new config file inside the config folder beside the n64split executable then you should be able to run this:
+```bash
+./n64split GameName.z64
+``` 
+
+It detects the correct config file using the checksum settings we defined earlier.
+
+If however you would rather keep the config file in a different directory you can directly specify it like so:
+```bash
+./n64split -c gameName.region.yaml  GameName.z64
+``` 
+
+If all goes well the output should be similar to:
+```bash
+root@69b99468cc18:/sm64tools# ./n64split GameName.z64
+Using config file: configs/gameName.region.yaml
+Splitting into "gameName.region.split" directory
+
+ROM split statistics:
+Total decoded section size:  B5A80/800000 (8.87%)
+```
+
+This will create a `gameName.region.split` directory, where gameName and region are replaced with your specific rom settings. Don’t worry about that low percentage of decoded section we still have a few more ticks which can help increase the percentage decoded quickly.
 
 ------
 # Part 3 - Code Analysis
