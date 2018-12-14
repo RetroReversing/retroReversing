@@ -11,7 +11,7 @@ breadcrumbs:
     url: /
   - name: Nintendo 64
     url: /n64
-  - name:Cleaning up n64split assembly code
+  - name: Cleaning up n64split assembly code
     url: #
 recommend: n64
 editlink: /n64/CleanUpN64Split.md
