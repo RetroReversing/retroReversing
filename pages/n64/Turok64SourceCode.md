@@ -382,6 +382,8 @@ The released source code for Turok is very interesting, it looks like whoever st
 
 This is a very common developer technique to get up and running quickly, copy source code that you know works and then build from that.
 
+The PR folder comes with the SDK and stands for `Project Reality` which was N64's codename before `Ultra64`.
+
 The released source code in fact contains the whole `PR` folder, so it also contains some of the official Nintendo code Demos from an early release of the SDK.
 
 ## Missing stddef.h
