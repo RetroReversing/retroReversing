@@ -1,4 +1,3 @@
-Mupen64+ Reversing Emulator
 ---
 layout: post
 tags: 
