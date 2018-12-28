@@ -53,7 +53,7 @@ This information is written out into the n64split config file allowing the split
 
 # Auto detection of Function names
 <section class="postSection">
-  <img src="/public/mupenRE/Mupen64+ RE Library detection.jpeg" class="wow bounceInUp postImage" />
+  <img src="/public/mupenRE/mupenRE Library.png" class="wow bounceInUp postImage" />
 <div markdown="1">
   We provide a json file with common function signatures from libultra, this is used to auto detect which functions are included in the game and putting a name to the function.
 
