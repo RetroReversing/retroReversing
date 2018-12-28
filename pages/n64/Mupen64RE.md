@@ -28,7 +28,7 @@ The main output after the user has finished playing is a couple of files: an n64
 
 # Features
 
-# Auto detection of ASM regions
+## Auto detection of ASM regions
 <section class="postSection">
 <img src="/public/mupenRE/Mupen64+ RE ASM regions.jpeg" class="wow bounceInUp postImage" />
   <div markdown="1">
@@ -38,7 +38,7 @@ Using DMA and TLB data we can auto detect regions of the rom which are interpret
 
 ---
 
-# Auto detection of data reads to ROM addresses
+## Auto detection of data reads to ROM addresses
 <section class="postSection">
 <div markdown="1">
 Using DMA and TLB tracing information we can generate a list of sections in the rom which are used to transfer data to memory.
@@ -51,7 +51,7 @@ This information is written out into the n64split config file allowing the split
 
 ---
 
-# Auto detection of Function names
+## Auto detection of Function names
 <section class="postSection">
   <img src="/public/mupenRE/mupenRE Library.png" class="wow bounceInUp postImage" />
 <div markdown="1">
@@ -63,7 +63,7 @@ This information is written out into the n64split config file allowing the split
 
 ---
 
-# Finding common functions across games
+## Finding common functions across games
 <section class="postSection">
   <img src="/public/mupenRE/Mupen64+ RE Common Functions.jpeg" class="wow bounceInUp postImage" />
 
@@ -84,7 +84,7 @@ Here is part of the n64split label output of playing a single race in top gear o
 
 ---
 
-# Auto detection of Audio regions
+## Auto detection of Audio regions
 <section class="postSection">
 <img src="/public/mupenRE/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
 <div markdown="1">
@@ -93,20 +93,22 @@ Here is part of the n64split label output of playing a single race in top gear o
 </section>
 ---
 
-# Configurable Dynamic Memory Corruption
+## Configurable Dynamic Memory Corruption
 <section class="postSection">
 <div markdown="1">
 One effective way to find out what to name certain areas of a rom is to corrupt it and witness the result. For example we currently detect audio regions of the rom but can't detect WHAT audio is playing, to help with this we support custom config paramters that allow you to choose the section to corrupt at runtime, allowing you to effectivly name unmapped regios of the ROM.
   </div>
 </section>
 
-# Printf Logging (osSyncPrintf)
+## Printf Logging (osSyncPrintf)
 <section class="postSection">
   <img src="/public/mupenRE/MupenRE printfs.png" class="wow bounceInUp postImage" />
 <div markdown="1">
   Sometimes the developer leaves in printf statement to help debugging, we can log these to json and also print them to the console, also useful for homebrew development.
 </div>
 </section>
+
+---
 
 # Future Plans
 * Auto detection of Texture/3D data?
