@@ -40,6 +40,7 @@ Using DMA and TLB data we can auto detect regions of the rom which are interpret
 
 ## Auto detection of data reads to ROM addresses
 <section class="postSection">
+  <img src="/public/mupenRE/MupenRE headers.png" class="wow bounceInUp postImage" />
 <div markdown="1">
 Using DMA and TLB tracing information we can generate a list of sections in the rom which are used to transfer data to memory.
 
