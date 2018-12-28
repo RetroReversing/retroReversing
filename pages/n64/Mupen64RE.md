@@ -86,7 +86,7 @@ Here is part of the n64split label output of playing a single race in top gear o
 
 # Auto detection of Audio regions
 <section class="postSection">
-<img src="/public/mupenRE￼/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
+<img src="/public/mupenRE/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
 <div markdown="1">
 Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files.
   <div>
@@ -103,7 +103,7 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 
 # Printf Logging (osSyncPrintf)
 <section class="postSection">
-  <img src="/public/mupenRE￼/MupenRE printfs.png" class="wow bounceInUp postImage" />
+  <img src="/public/mupenRE/MupenRE printfs.png" class="wow bounceInUp postImage" />
 <div markdown="1">
   Sometimes the developer leaves in printf statement to help debugging, we can log these to json and also print them to the console, also useful for homebrew development.
 </div>
