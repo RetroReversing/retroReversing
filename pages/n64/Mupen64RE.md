@@ -18,6 +18,10 @@ editlink: /n64/Mupen64RE.md
 ---
 
 # Introduction
+<section class="postSection">
+<img src="/public/mupenRE/MupenN64ReversingEmulator.png" class="wow slideInLeft postImage" />
+  <div markdown="1">
+
 Mupen64+ Reverser Edition (RE) is a fork of the Mupen64+ Nintendo 64 emulator tailored for reverse engineering.
 
 The main aim is to generate information that will be useful for the disassembling and decompilation of your chosen game.
@@ -25,6 +29,10 @@ The main aim is to generate information that will be useful for the disassemblin
 It does this by tracing and logging information about asm instructions, functions, memory addresses, DMAs etc as the user plays the game.
 
 The main output after the user has finished playing is a couple of files: an n64split config file and a tracing JSON file.
+</div>
+</section>
+
+---
 
 # Features
 
