@@ -30,6 +30,8 @@ The main output after the user has finished playing is a couple of files: an n64
 
 # Auto detection of ASM regions
 Using DMA and TLB data we can auto detect regions of the rom which are interpreted as assembly instructions and use this information to write out a N64Split config file with asm region information. 
+<img src="/public/mupenRE/Mupen64+ RE ASM regions.jpeg" class="wow bounceInUp postImage" />
+
 
 # Auto detection of data reads to ROM addresses
 Using DMA and TLB tracing information we can generate a list of sections in the rom which are used to transfer data to memory.
@@ -40,6 +42,7 @@ This information is written out into the n64split config file allowing the split
 
 # Auto detection of Function names
 We provide a json file with common function signatures from libultra, this is used to auto detect which functions are included in the game and putting a name to the function.
+<img src="/public/mupenRE/Mupen64+ RE Library detection.jpeg" class="wow bounceInUp postImage" />
 
 This information is also written out into the n64split config file as a label which can further help the process of starting a new reversing project.
 
@@ -48,6 +51,7 @@ This information is also written out into the n64split config file as a label wh
 We store the byte pattern of every function we come across while playing multiple games and can use this information to find common functions across games. 
 
 This can be very useful for finding common libraries used across multiple games as well as finding out common game engines used by companies.
+<img src="/public/mupenRE/Mupen64+ RE Common Functions.jpeg" class="wow bounceInUp postImage" />
 
 It was very common for the same development house to use a game engine for multiple games, one example is the Turok2 engine being used for the South Park game.
 
@@ -60,20 +64,20 @@ Here is part of the n64split label output of playing a single race in top gear o
 
 # Auto detection of Audio regions
 Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files, as can bee seen below:
-￼
+<img src="/public/mupenRE￼/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
+
+# Configurable Dynamic Memory Corruption
+One effective way to find out what to name certain areas of a rom is to corrupt it and witness the result. For example we currently detect audio regions of the rom but can't detect WHAT audio is playing, to help with this we support custom config paramters that allow you to choose the section to corrupt at runtime, allowing you to effectivly name unmapped regios of the ROM.
 
 # Future Plans
 * Auto detection of Texture/3D data?
 * Auto detection of memcopy
 * Auto detection of uncompression routine
 * config file to load what to log
-* automated memory corruption
-* More ultra64 signatures
+* More ultra64 signatures (use Zignature format?)
 * Auto Detection of Audio/Input/Display functions
 * option to collapse audio regions into smaller regions
 * log function calls
 * replace functions with javascript
 * auto detect rsp.boot
-
-GZIP header in Beetle Adventure Racing:
 ￼
