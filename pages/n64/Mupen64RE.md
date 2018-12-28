@@ -102,7 +102,7 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 
 # Printf Logging (osSyncPrintf)
 <section class="postSection">
-  <img src="/public/mupenRE￼MupenRE printfs.png" class="wow bounceInUp postImage" />
+  <img src="/public/mupenRE￼/MupenRE printfs.png" class="wow bounceInUp postImage" />
 <div markdown="1">
   Sometimes the developer leaves in printf statement to help debugging, we can log these to json and also print them to the console, also useful for homebrew development.
 </div>
