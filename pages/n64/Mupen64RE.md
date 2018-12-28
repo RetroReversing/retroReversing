@@ -55,9 +55,9 @@ This information is written out into the n64split config file allowing the split
 <section class="postSection">
   <img src="/public/mupenRE/Mupen64+ RE Library detection.jpeg" class="wow bounceInUp postImage" />
 <div markdown="1">
-We provide a json file with common function signatures from libultra, this is used to auto detect which functions are included in the game and putting a name to the function.
+  We provide a json file with common function signatures from libultra, this is used to auto detect which functions are included in the game and putting a name to the function.
 
-This information is also written out into the n64split config file as a label which can further help the process of starting a new reversing project.
+  This information is also written out into the n64split config file as a label which can further help the process of starting a new reversing project.
 </div>
 </section>
 
@@ -86,9 +86,10 @@ Here is part of the n64split label output of playing a single race in top gear o
 
 # Auto detection of Audio regions
 <section class="postSection">
-
-Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files, as can bee seen below:
 <img src="/public/mupenRE￼/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
+<div markdown="1">
+Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files.
+  <div>
 </section>
 
 ---
@@ -106,6 +107,7 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 <div markdown="1">
   Sometimes the developer leaves in printf statement to help debugging, we can log these to json and also print them to the console, also useful for homebrew development.
 </div>
+</section>
 
 # Future Plans
 * Auto detection of Texture/3D data?
