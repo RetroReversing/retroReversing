@@ -88,10 +88,9 @@ Here is part of the n64split label output of playing a single race in top gear o
 <section class="postSection">
 <img src="/public/mupenRE/Mupen64+ Reversers Edition.jpeg" class="wow bounceInUp postImage" />
 <div markdown="1">
-Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files.
-  <div>
+  Logging of the RSP Audio decoding allows us to identify which parts of the rom are audio files.
+ </div>
 </section>
-
 ---
 
 # Configurable Dynamic Memory Corruption
