@@ -78,7 +78,7 @@ This also means we only need to name a function once and it can be detected in o
 
 This information is written out into the labels section of the n64split config file and if you find functions with names that start with a different game name then you have likely found a common library or engine function.
 
-Here is part of the n64split label output of playing a single race in top gear overdrive, not that it finds common functions that it has seen before when playing Road Rash and BlastCorps. Along with finding common libultra symbols.
+Here is part of the n64split label output of playing a single race in top gear overdrive, note that it finds common functions that it has seen before when playing Road Rash and BlastCorps. Along with finding common libultra symbols.
 </div>
 ￼</section>
 
