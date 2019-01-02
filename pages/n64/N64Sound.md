@@ -53,7 +53,7 @@ The Sound Tools has two applications bundled, one is the `N64 Waveform Editor (d
 # N64 Sound Libraries
 There are 2 known officials sound libraries for N64 development, the `Sound Tools API Library` and the `N_Audio Driver for Sound Tools`.
 
-But what is the difference between these two libraries?
+The N_Audio Driver is the new version of the older SGI Sound Tools API and is more optimised for playing sounds. Most later games used this API.
 
 ---
 
@@ -65,6 +65,8 @@ The Sound Player requires a section of RAM to be reserved for it to move sound s
 Sound effects are often edited with the N64 Waveform Editor also known as `dse.exe`.
 
 ## Sound Effects format (Wave) (.tbl)
+Sound effects are made up of a couple of files, one is an ADPCM .AIFF file which stores the raw wave data and the other is a metadata file for playback settings.
+
 Sound effect samples are stored in the ROM with a bunch of parameters required for playing the audio such as:
 * Pitch
 * Envelopes
@@ -80,6 +82,54 @@ The Musician would initially have created the sound sample as AIFF files which a
 An .inst file is created with the playback parameters in it, then this file is merged with the AIFC files to generate a single .tbl file.
 
 Whats the difference between .inst and .bnk?
+
+## Example .tbl file
+A .tbl file is plain text:
+```
+2
+4
+  979   474   697   564   606   563   562   541 
+  991  1458  1179  1268  1177  1175  1131  1109 
+-1567 -2597 -3104 -3156 -2854 -2314 -1650  -963 
+ 3394  4056  4124  3729  3023  2156  1259   436 
+ -113  -117  -115  -113  -111  -109  -107  -104 
+ 2123  2088  2048  2008  1969  1931  1893  1856 
+-1735 -3186 -4381 -5346 -6106 -6683 -7100 -7376 
+ 3761  5171  6310  7207  7888  8380  8706  8888 
+```
+
+## Example .inst file
+```
+envelope env1
+{
+    attackTime		= 5000;
+    attackVolume	= 127;
+    decayTime		= 364920;
+    decayVolume		= 127;
+    releaseTime		= 5000;
+    releaseVolume	= 0;
+}
+
+sound sound1
+{
+    use (“SoundFileName”);    
+    pan    = 64;
+    volume = 127;
+    envelope = env1;
+}
+
+instrument inst1
+{
+    volume = 127;
+    pan    = 64;
+    sound  = sound1;
+}
+
+bank Wave1
+{
+    instrument [0] = inst1;
+}
+```
 
 ---
 
