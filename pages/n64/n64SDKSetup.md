@@ -7,7 +7,7 @@ tags:
 - tutorial
 title: Official N64 SDK Setup (MacOSX/Linux/Win)
 thumbnail: /public/consoles/Nintendo 64.png
-image: /public/consoles/Nintendo 64.png
+image: /public/N64/N64SDKSetup.png
 permalink: /n64-sdk-setup
 youtube: 84wk0mZ8gfM
 breadcrumbs:
