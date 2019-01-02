@@ -60,29 +60,48 @@ But what is the difference between these two libraries?
 # Sound Player (Sound effects)
 At the start of the game the Sound Player is initialised and assigned a `bank of sound effects`.
 
-## Sound Effects format (Wave)
+The Sound Player requires a section of RAM to be reserved for it to move sound sample data from ROM into RAM.
+
+Sound effects are often edited with the N64 Waveform Editor also known as `dse.exe`.
+
+## Sound Effects format (Wave) (.tbl)
 Sound effect samples are stored in the ROM with a bunch of parameters required for playing the audio such as:
 * Pitch
 * Envelopes
 * Key Mapping
 
-The Sound Player requires a section of RAM to be reserved for it to move sound sample data from ROM into RAM.
+The parameter data is stored in a `.bnk` file and is paired with a single compressed sound effect data `.tbl` file.
 
-Sound effects are often edited with the N64 Waveform Editor also known as `dse.exe`.
- 
+The compressed Sound effect data is stored in `.tbl` files during development before it gets merged into the ROM.
+
+## Sound effects Development Process
+The Musician would initially have created the sound sample as AIFF files which are then compressed into AIFC files.
+
+An .inst file is created with the playback parameters in it, then this file is merged with the AIFC files to generate a single .tbl file.
+
+Whats the difference between .inst and .bnk?
 
 ---
 
 # Sound Sequencer (Music)
 At the start of the game the Sound Sequencer is initialised and assigned a `bank of instruments` and a `bank of MIDI sequences`.
 
-## Sequence (Music) format
-Sequences are saved as MIDI format but can also be a compressed version of MIDI that gets decompressed at runtime.
+## Sequence (Music) format (.seq)
+Sequences are saved as `.seq` file in MIDI format but can also be a compressed version of MIDI that gets decompressed at runtime.
+
+The seq format is slightly more optimised than standard MIDI as it has all the unneeded events removed [^3].
 
 Sequences are edited using the N64 Sequencer tool also known as `dream.exe`.
+
+## Sequence Bank format (.sbk)
+The Sequence Bank format is just a bunch of .seq files added together.
+
+## Music Development Process
+To generate a .sbk file the Musician would compile the MIDI first into .seq files and then merge multiple .seq into a single .sbk file.
 
 ---
 
 # References
-[^1]:-https://n64squid.com/homebrew/ProgManual/chapter_libuse.html
-[^2]:-https://www.therwp.com/project/n64-sound-tool 
+[^1]: https://n64squid.com/homebrew/ProgManual/chapter_libuse.html
+[^2]: https://www.therwp.com/project/n64-sound-tool 
+[^3]: https://level42.ca/projects/ultra64/Documentation/man/pro-man/pro20/index20.1.html
