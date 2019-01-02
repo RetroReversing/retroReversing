@@ -2,8 +2,8 @@
 layout: post
 tags: 
 - n64
-title: N64 Sound and Audio
-image:  /public/consoles/Nintendo 64.png
+title: N64 Sound and Music
+image:  /public/N64/N64SoundMusic.png
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /n64sound
 breadcrumbs:
@@ -11,7 +11,7 @@ breadcrumbs:
     url: /
   - name: Nintendo 64
     url: /n64
-  - name: N64 Sound and Audio
+  - name: N64 Sound and Music
     url: #
 recommend: n64
 editlink: /n64/N64Sound.md
