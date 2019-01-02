@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: Mupen64+ Reversers Edition
-image:  /public/consoles/Nintendo 64.png
+image:  /public/N64/N64ReversingEmulator.png
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /mupen64RE
 breadcrumbs:
