@@ -16,6 +16,7 @@ breadcrumbs:
   - name: Mario Kart 64
     url: #
 recommend: n64
+editlink: /n64/Mario-Kart-64-World-Viewer.md
 ---
 
 # Documentation about Mario Kart 64
