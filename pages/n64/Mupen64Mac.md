@@ -418,38 +418,59 @@ ifeq ($(DEBUGGER), 1)
 
 ```
 
-So Finally we have a `libmupen64plus.dylib` with the  debugger enabled! Now what? How do we use it?!
+if you get the following error:
+```
+ld: library not found for -lintl
+```
+Then run:
+```
+brew link gettext --force
+```
 
----
+So Finally we have a `libmupen64plus.dylib` with the  debugger enabled! Now what? How do we use it?!
 
 # Building the Console Application
 You need to point APIDIR to the location of the core source code you checked out earlier.
 ```
 make APIDIR=/../mupen64plus-core-master/src/api DEBUG=1 all
 ```
-
 The console application is the simplest frontend for the emulator and it also has a very basic debugger in it.
 
 Now copy over the …
-
----
 
 # Compiling Glitch64
 ```
 brew install boost
 ```
-Change line 137 to match:
+Change line 137 of MakeFile to match:
 ```
 CFLAGS += $(OPTFLAGS) $(WARNFLAGS) -ffast-math -fno-strict-aliasing -fvisibility=hidden -I../../src -I../../src/Glitch64/inc -DGCC -I/usr/local/Cellar/boost/1.67.0_1/include
 ```
 
----
 
 # Running the emulator
 example.v64 only seems to work with glide64 graphics for me.
 ```
-./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib ./example.v64
+./mupen64plus --emumode 0 --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib ./example.v64
 ```
+
+## Running With Debugger
+```
+./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib --emumode 0 --noosd --verbose --debug ./example.v64
+```
+
+In debugger mode PC starts at 0xA4000040 (2751463488) with:
+```
+mtc0 $zero,C0_CAUSE
+```
+
+# GlideHQ
+GlideHQ is a texture upscale for the Glide graphics emulator plugin. This uses a number of different upscaling algorithms to make textures look higher quality than the what the original hardware supported.
+
+GlideHq comes as part of the Mupen64+ Glide64 source code.
+
+# Glitch64
+Glitch64 is 
 
 ---
 
@@ -459,15 +480,11 @@ example.v64 only seems to work with glide64 graphics for me.
 Contains most of the emulator logic for the N64.
 
 ### r4300_core
-The r4300 is the main CPU used in the Nintendo64, it is based on the R4200 by MIPS Technologies Inc.
-[R4200 - Wikipedia](https://en.wikipedia.org/wiki/R4200)
+The r4300 is the main CPU used in the Nintendo64, it is based on the R4200 by MIPS Technologies Inc. R4200 - Wikipedia
 
-The main implementation of the cpu is contained in the `r4300_core` folder along with implementations of the 3 co-processors (cp0, cp1 and cp2).
+The main implementation of the cpu is contained in the r4300_core folder along with implementations of the 3 co-processors (cp0, cp1 and cp2).
 
-More information about the CPU can be found here:
-[N64 Programming/CPU overview - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/N64_Programming/CPU_overview)
-
-
+More information about the CPU can be found here: N64 Programming/CPU overview - Wikibooks, open books for an open world
 ### rdp_core
 ### rsp_core
 ### ai_controller
@@ -488,6 +505,16 @@ More information about the CPU can be found here:
 ### gb_cart
 
 ### cart
+* cart_rom.c - cartridge stuff like DMA
+* sram.c/eeprom.c/flashram.c - saving stuff with the Controller Pak (list of games that use this: http://micro-64.com/database/gamesave.shtml )
+
+IPL2 is the PIF ROM?
+IPL3 is the first 1MB of CART?
 
 ### dd_controller
 
+
+
+￼
+￼
+￼
