@@ -48,10 +48,11 @@ The main output of the RSP microcode tends to be either graphical rasterization 
 
 # Known Microcodes
 The list of RSP Microcodes provided by the Official Nintendo64 SDK are as follows:
-* gspFast3D
-* gspLine2D
-* gspF3DNoN
-* gspTurbo3D
+* gspFast3D - most full features, includes shading fog etc
+* gspF3DNoN - same as Fast3D but without near-clipping
+* gspLine2D - does not render triangles so it gives a wireframe effect 
+* gspSprite2D - efficient for 2D sprite images
+* gspTurbo3D - faster than `Fast3D` but reduced precision.
 
 ## Variations of Fast3D  (F3D)
 Fast3D is a very common microcode provided with the N64 SDK, it went through multiple iterations during the N64 lifecycle.
@@ -69,12 +70,31 @@ F3DLX (Fast3DLimitedteXture) was an optimized version of the original Fast3D by 
 ### F3DLP - sub-pixel calculations ommited
 F3DLP (Fast3DLimitedPixel) was an optimized version of the original Fast3D by removing subpixel calculation support, this was deprecated after version 1 and was not carried over to F3DEX2 [^7].
 
+### .REJ (e.g F3DLX.Rej)
+The microcode files that have .Rej in the name subsitute the clipping process for the lighter `reject processing` feature.
+
+For example this is more efficient for rendering characters as clipping is not required but would not be suitable for landscapes where clipping is required [^8].
+
+### .NoN (e.g gspF3DEX.NoN.fifo.o)
+The microcode files that have .NoN in the name remove the `Near Clip` feature, which can be more efficient if you make sure to render your objects in the order from furthest away to closest as no clipping will take place [^8].
+
+Presumably NoN stands for `No Near-Clip` but this is unconfirmed.
+
+
+## Sending RSP result to RDP (.fifo, .dram etc)
+The result of the RSP graphical calculations need to be sent to the Reality Display Processor or RDP in order to rasterize the pixels for the game. There are multiple different ways to copy the result from RSP to RDP and each provide a slightly modified version of the RSP uCode to accomplish this.
+
+### .fifo (e.g gspFast3D.fifo.o)
+FIFO microcode uses a Queue (First in First Out) in RDRAM that is directly passed to the RDP.
+
+### .xbus (e.g gspF3DEX2.xbus.o)
+The XBUS is a physical connection that connects the RSP and RDP together on the chip. This allows passing data directly from the RSP to RDP without going through any additional steps such as using RDRAM.
+
+### .dram (e.g gspFast3D.dram.o)
+The DRAM method uses extensive use of RDRAM to store the RDP commands and requires work on the cpu to move the data to the RDP.
+
 # IMEM and DMEM
 RSP has its own 8kb of memory split into 2 chunks, one for assembly instructions (opcodes) and the other 4k for data. The Data portion was called DMEM (0x04000000 -> 0x04000FFF) and the Code portion was called IMEM (0x04001000 -> 0x04001FFF) [^2].
-
-
-# Sending Lists to RSP
-Display lists are sent to the RSP via SendDisplayList a function but are audio lists sent to the RSP via a function?
 
 # RSPBOOT
 RSPBOOT is a short piece of code to initialise/boot the RSP, the assembled `rspboot.o` file contains in the Official Nintendo64 SDK is 740bytes but as that contains extra object data when compiled into the final rom it only takes about 208bytes (e.g Mario64).
@@ -120,3 +140,4 @@ If you search a N64 rom file for his name "Yoshitaka Yasumoto" you will likely f
 [^5]: https://en.wikibooks.org/wiki/N64_Programming/Video_coprocessor 
 [^6]: https://hylianmodding.com/Thread-A-comprehensive-guide-to-F3DZEX-F3DEX2-Display-Lists 
 [^7]: https://level42.ca/projects/ultra64/Documentation/man/pro-man/pro25/index25.4.html 
+[^8]: https://level42.ca/projects/ultra64/Documentation/man/n64man/ucode/gspF3DLP.Rej.html 
