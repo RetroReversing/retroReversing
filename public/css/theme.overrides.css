@@ -83,3 +83,7 @@ overflow: scroll;
 .mfp-no-margins .mfp-container {
 	padding: 0;
 }
+
+.dataTables_length label {
+  display:flex;
+}
