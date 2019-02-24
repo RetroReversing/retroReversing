@@ -38,23 +38,23 @@ h6 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 26px;
 }
 
 h2 {
-  font-size: 30px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
 h5 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 h5 + .form-group {
