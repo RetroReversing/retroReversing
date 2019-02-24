@@ -13,17 +13,24 @@ redirect_from:
   - /games/debugsymols
   - /unstrippedbinaries
 ---
+# Introduction to Debug Symbols
 Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.
 
+## Where do debug symbols come from?
 Debug symbols are an atrifact of compiling a game from a higher level language (e.g C\C++) down to a lower level language such as Assembly code.
 
+## What are debug symbols used for?
 They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names in tact.
 
+## Why are debug symbols only in some games?
 Developers *should* remove the debug symbols before the release of the game, a process called `stripping executables`, but due to the high pressures of development and last-minute bugs they can be left in.
 
+## Which games are likely to contain debug symbols?
 Since these are artifacts of compilation it is very unlikely for a game on a platform earlier than the Playstation 1 to contain debug symbols as they tended to be hand written in assembly code.
 
 Also some platforms that used compiled code but were to be released on a small storage medium such as cartridge needed all the bytes they could get so it is very unlikely to get debug symbols on platforms such as Nintendo 64 or GameBoy Advance.
+
+# Game by Platform with debug symbols 
 
 Platform Name | List of games that still contain debug symbols
 ---|---
