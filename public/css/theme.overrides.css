@@ -92,3 +92,8 @@ overflow: scroll;
 .row p {
   padding: 10px;
 }
+.dataTables_filter input {
+  border: 1px lightgrey solid;
+  margin-top: 10px;
+  border-radius: 5px;
+}
