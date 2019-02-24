@@ -1,0 +1,51 @@
+---
+permalink: /games/symbols
+layout: blog-cards
+console: symbols
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Games
+    url: /games
+redirect_from:
+  - /debug
+  - /symbols
+  - /games/debugsymols
+  - /unstrippedbinaries
+---
+Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.
+
+Debug symbols are an atrifact of compiling a game from a higher level language (e.g C\C++) down to a lower level language such as Assembly code.
+
+They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names in tact.
+
+Developers *should* remove the debug symbols before the release of the game, a process called `stripping executables`, but due to the high pressures of development and last-minute bugs they can be left in.
+
+Since these are artifacts of compilation it is very unlikely for a game on a platform earlier than the Playstation 1 to contain debug symbols as they tended to be hand written in assembly code.
+
+Also some platforms that used compiled code but were to be released on a small storage medium such as cartridge needed all the bytes they could get so it is very unlikely to get debug symbols on platforms such as Nintendo 64 or GameBoy Advance.
+
+Platform Name | List of games that still contain debug symbols
+---|---
+Sony Playstation 1 | [Playstation 1 Games with Debug Symbols · RetroReversing](https://www.retroreversing.com/ps1-debug-symbols)
+Sony Playstation 2 | [PS2 Demo Discs · RetroReversing](https://www.retroreversing.com/ps2-demos/) && [PS2 UnStripped Binaries (Developer Symbols) · RetroReversing](https://www.retroreversing.com/ps2-unstripped/)
+Sony Playstation 3 | N/A Not a retro console yet
+Sony Playstation 4 | N/A Not a retro console yet
+Sony Playstation Portable | 
+Sony Playstation Vita | 
+Nintendo Gameboy Advance | Very rare due to limitations of cart size. None?
+Nintendo DS |
+Nintendo 3DS | N/A Not a retro console yet
+Nintendo 64 | Very rare due to limitations of cart size. None?
+Nintendo GameCube | [Nintendo Gamecube Games with Debug Symbols · RetroReversing](https://www.retroreversing.com/gamecube-debug-symbols)
+Nintendo Wii | [Wii Games with Debug Symbols · RetroReversing](https://www.retroreversing.com/wii-debug-symbols/) (*Incomplete*)
+Nintendo Wii U | [Wii U UnStripped Binaries (Developer Symbols) · RetroReversing](https://www.retroreversing.com/wii-u-unstripped/)
+Nintendo Switch | N/A Not a retro console yet
+Sega Saturn |
+Sega Dreamcast |
+Microsoft XBox | 
+Microsoft XBox 360 | N/A Not a retro console yet
+Microsoft XBox One | N/A Not a retro console yet
+
+
+{% include console.html %}
