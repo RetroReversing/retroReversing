@@ -48,4 +48,13 @@ Microsoft XBox 360 | N/A Not a retro console yet
 Microsoft XBox One | N/A Not a retro console yet
 
 
+There are also a few platforms that may have games with debug symbols but it is currently unknown:
+* N-gauge
+* Cybiko
+* GP32/GP2X/Pandora
+* Neo Geo X
+* Sega CD/Sega 32X
+* 3DO
+
+
 {% include console.html %}
