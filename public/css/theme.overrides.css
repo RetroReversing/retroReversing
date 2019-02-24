@@ -91,8 +91,6 @@ overflow: scroll;
 
 .row p {
   padding: 10px;
-  color: black;
-  letter-spacing: 0.05em;
 }
 
 .dataTables_filter input {
