@@ -1,7 +1,8 @@
 .post ul {
     list-style-type: initial;
-    padding: 5%;
+    padding-left: 5%;
     margin: initial;
+  margin-top:-5px;
 }
 
 .post a {
