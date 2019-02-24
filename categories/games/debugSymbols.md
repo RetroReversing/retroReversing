@@ -13,7 +13,7 @@ redirect_from:
   - /games/debugsymols
   - /unstrippedbinaries
 ---
-# Introduction to Debug Symbols
+<h1>Introduction to Debug Symbols</h1>
 Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.
 
 ## Where do debug symbols come from?
@@ -64,4 +64,7 @@ There are also a few platforms that may have games with debug symbols but it is 
 * 3DO
 
 
+
+<div>
 {% include console.html %}
+</div>
