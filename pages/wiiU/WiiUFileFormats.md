@@ -24,7 +24,7 @@ A sigpatch is a modification to the wiiU NAND memory that 'patches' the signatur
 
 This technically allows Virtual Console and other eShop games to be taken from one wiiU and installed on another sigpatched wiiU. 
 
-# WiiU File Formats
+# WiiU Game File Formats
 
 ## WiiU Raw Disc Image (*.WUD)
 This is a full dump of a WiiU Disk completely uncompressed, just like it would be on the disc itself.
@@ -62,6 +62,7 @@ The Title Metadata file (.tmd) contains the required `IOS` version (WiiUOS) and 
 
 The `.tmd` file contains all Sha1 of the content, but it's a SHA1 hash of decrypted files, not encrypted .app files. So it requires decryption and file extraction to check integrity.
 
+--- 
 # Decrypted WiiU NUS file formats
 When the nus .app files have been decrypted and extracted you will get all the game files you need for modding/reversing. The main files we are interested in are RPX and RPL.
 
@@ -80,8 +81,46 @@ Youtube video:
 
 Source code to the IDA pro loader: [ida_gel/src/wiiu at master · aerosoul94/ida_gel](https://github.com/aerosoul94/ida_gel/tree/master/src/wiiu) 
 
+--- 
+# WiiU Asset File Formats
+
+## SZS Compressed File Format
+A SZS file is actually just a YAZ0 compressed asset that could be any other format, it is just a common extension used to show its compressed with YAZ0. For more information:
+[SZS (File Extension) - Custom Mario Kart](http://wiki.tockdom.com/wiki/SZS_(File_Extension))
+
+## WiiU Localised Text Format (.msbt)
+This is used in many different wiiU games and is presumably part of the wiiU SDK.
+
+Thanks to the excellent folk over at the custom Mario Kart wik we have documentation about this format:
+[MSBT (File Format) - MK8](http://mk8.tockdom.com/wiki/MSBT_(File_Format))
+
+## .BCRES File Format (.CGFX, .BCMDL)
+The BCRES format was used in many 3DS games but only used in one WiiU game that we know of which is `Battle Tank Hero`.
+
+The game was released on 3DS first and then later ported to wiiU, but it is surprised this is the only game that uses this format. 
+
+For more information visit:
+[CGFX - The VG Resource Wiki](https://wiki.vg-resource.com/CGFX)
+
+## GTX Texture format
+[aboood40091/GTX-Extractor: Wii U 'GTX' Texture Extractor](https://github.com/aboood40091/GTX-Extractor) 
+
+## WEM Audio Format (WWISE)
+The format was developed by `WWise` for their audio creation software and used in a number of WiiU titles including:
+* Batman Arkham Origins Blackgate
+* Trine 2
+* Chariot
+* LOST REAVERS
+
+---
+# Other WiiU File Formats
+
+## Game Virtual Manual (.bfma)
+The Game Manual format is a `SARC` archive that can be extracted using `UWizard`. It contains both xml and a number of `.arc` files [^5]. 
+
 # References
 [^1]: https://github.com/ajd4096/nuspy/blob/master/nuspy/nuspy.py 
 [^2]: https://github.com/ihaveamac/wiiu-things/blob/master/wiiu_decrypt.py 
 [^3]: https://gbatemp.net/threads/what-are-title-cert-title-tmd-and-title-tik-files.495526/ 
 [^4]: https://gbatemp.net/threads/loadiine-wud-question-what-are-rpx-rpl-how-to-obtain.398773/ 
+[^5]: https://gbatemp.net/threads/is-there-a-way-to-edit-the-bfma-manual-files.460790/ 
