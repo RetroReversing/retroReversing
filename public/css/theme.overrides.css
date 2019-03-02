@@ -99,3 +99,8 @@ overflow: scroll;
   margin-top: 10px;
   border-radius: 5px;
 }
+
+.post .post-header > div:last-child .post-title {
+  font-size: 2em;
+  margin-top: 0px;
+}
