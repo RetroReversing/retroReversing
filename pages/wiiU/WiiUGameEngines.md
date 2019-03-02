@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: WiiU eShop Game Engines
-image:  /public/consoles/Nintendo WiiU.png
+image: /public/wiiU/WiiUeShopGameEngines.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUeShopEngines
 breadcrumbs:
