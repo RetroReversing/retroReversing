@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- wii
+- wiiU
 - symbols
 - games
 title: Wii U UnStripped Binaries (Developer Symbols)
@@ -12,11 +12,11 @@ permalink: /wii-u-unstripped/
 breadcrumbs:
   - name: Home
     url: /
-  - name: Wii
-    url: /wii
+  - name: WiiU
+    url: /wiiU
   - name: Wii U UnStripped Binaries (Developer Symbols)
     url: #
-recommend: wii
+recommend: wiiU
 editlink: /wii/WiiU UnStripped Binaries.md
 references:
   - youtube
