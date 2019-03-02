@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: Unity3d Game engine on wiiU
-image:  /public/consoles/Nintendo WiiU.png
+image:  /public/wiiU/WiiU_UnityEngine.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUUnity
 breadcrumbs:
