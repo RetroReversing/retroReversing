@@ -1,3 +1,7 @@
+#header .logo {
+  color: white;
+}
+
 .post ul {
     list-style-type: initial;
     padding-left: 5%;
