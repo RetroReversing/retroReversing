@@ -18,6 +18,11 @@
   color: #0085b6;
 }
 
+.post h2, .post h3, .post h4 {
+  color: #0085b6;
+  margin-left: 5px;
+}
+
 .post {
   color: #333;
 }
