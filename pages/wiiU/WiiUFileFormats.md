@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: Wii U File Formats
-image:  /public/consoles/Nintendo WiiU.png
+image:  /public/wiiU/WiiUFileFormats.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUFileFormats
 breadcrumbs:
