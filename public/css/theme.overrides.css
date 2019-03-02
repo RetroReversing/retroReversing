@@ -104,3 +104,7 @@ overflow: scroll;
   font-size: 2em;
   margin-top: 0px;
 }
+
+section {
+  padding: 30px 0;
+}
