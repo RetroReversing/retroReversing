@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: WiiU NAND Flash
-image:  /public/consoles/Nintendo WiiU.png
+image:  /public/wiiU/WiiUnandFlash.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUNAND
 breadcrumbs:
