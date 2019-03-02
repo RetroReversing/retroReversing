@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: Wii U Nintendo Web Framework
-image:  /public/consoles/Nintendo WiiU.png
+image:  /public/wiiU/WiiUWebFramework.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUNWF
 breadcrumbs:
