@@ -122,3 +122,7 @@ overflow: scroll;
 section {
   padding: 30px 0;
 }
+
+.footnotes p {
+  padding:0px;
+}
