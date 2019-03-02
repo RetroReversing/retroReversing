@@ -2,16 +2,16 @@
 layout: post
 tags: 
 - wiiU
-title: Wii Game Engines
+title: WiiU eShop Game Engines
 image:  /public/consoles/Nintendo WiiU.png
 thumbnail: /public/consoles/Nintendo WiiU.png
-permalink: /WiiUCustomEngines
+permalink: /WiiUeShopEngines
 breadcrumbs:
   - name: Home
     url: /
   - name: WiiU
     url: /wiiU
-  - name: Wii Custom Engines
+  - name: WiiU eShop Game Engines
     url: #
 recommend: wiiU
 editlink: /wiiU/WiiUGameEngines.md
@@ -21,10 +21,6 @@ editlink: /wiiU/WiiUGameEngines.md
 Most games nowadays are developed using a 3rd party game engine instead of building their own in-house game engine from scratch due to time and budget constraints. 
 
 It is considerably cheaper licensing a game engine such as Unity compared to spending money paying developers to write something that may not even end up as good.  
-
-## List of Known Game Engines used for WiiU eShop Games
-* Unity (Many Games)
-* Chowdren Game Engine (3 Games)
 
 ## Chrowdren Engine
 List of Games for wiiU eShop:
@@ -60,6 +56,11 @@ Known wiiU Games that use the vision engine:
 * How to Survive
 * Tengami
 
+---
+## Unreal Engine
+
+* LOST REAVERS
+* Master Reboot
 
 ---
 # Custom in-house Game Engines
@@ -97,14 +98,18 @@ It was also used for their `CastleStorm` game which was more of a tower defence 
 
 WiiU Games:
 * CHILD of LIGHT
+* Rayman Legends: Challenges App
 
 --- 
-## Wayforward Game Engine
-The Wayforward Game Engine is used by the developers Wayforward to create beautiful 2D platformers, it has been ported to multiple platforms but the wiiU eShop games that use this engine are:
+## EngineBlack Wayforward Game Engine
+The EngineBlack Game Engine is used by the developers Wayforward to create beautiful 2D platformers, it has been ported to multiple platforms but the wiiU eShop games that use this engine are:
 Uses lua scripting
 * DuckTales: Remastered
 * Shantae and the Pirate's Curse
 * Shantae: Half-Genie Hero
+* Shantae Risky's Revenge Director's Cut
+* Mighty Switch Force! 
+* Mighty Switch Force! 2
 
 ### Features
 * LUA scripting
@@ -124,6 +129,8 @@ Used for:
 ## Nicalis Game Engine
 Used in:
 * 1001 Spikes
+* The Binding of Isaac Rebirth
+* 
 
 ---
 ## BIT.TRIP engine
@@ -138,13 +145,61 @@ Used for `Coaster Crazy Deluxe` on the WiiU, it was built using the same engine 
 More information can be found on their official website [Technology - Frontier](https://www.frontier.co.uk/node/639)
 
 ---
+## Dakko Dakko Game Engine
+Wii U games using this engine:
+* Scram Kitty and his Buddy on Rails
+* 
+
+---
+## Nucleus (Curve Digital Engine)
+Nucleas is the name of the game engine that was custom developed by Curve Digital [^6].
+
+Wii U games that were built using this engine:
+* Nova-111
+* OlliOlli
+* Stealth Inc 2 A Game of Clones
+* Lone Survivor
+* The Swapper
+* Ultratron
+---
+
+## Storm3D Engine (FrozenByte)
+The Storm3D engine is the name of the in-house game engine used by Frozenbyte [^7].
+
+Source code for some of this engine was available as part of a humble bundle [^8].
+
+WiiU games that were built on this engine:
+* Trine 2 Director's Cut
+* Trine Enchanted Edition
+
+---
+
+## Two Tribes game engine
+Wii U Games made using the engine:
+* EDGE
+* RUSH
+* Swords & Soldiers
+* Toki Tori
+* Toki Tori 2
+
+---
+## Wii U Panorama View
+Basically the same app/game but with different assets but that technically makes it an engine. 
+The list of wiiU games/apps are:
+* Wii U Panorama View Birds in Flight
+* Wii U Panorama View Carnival!
+* Wii U Panorama View Double-Decker Tour
+* Wii U Panorama View Rickshaw Around Kyoto
+* Wii U Panorama View Trailer
+
+---
 
 ## Emulated Games
 Ignoring the virtual console which are all emulated games, a few eShop games are retro games running on an emulator compiled for wiiU.
 
 Known games with emulator:
 * Dungeons & Dragons Chronicles of Mystara (mana emulator)
-* 
+* NES REMIX 1/2
 
 ---
 ## Other games with custom engines
@@ -162,7 +217,6 @@ Known games with emulator:
 * Don't Starve Giant Edition (Uses C++ and Lua [^4])
 * Dr. Luigi
 * Dual Core
-* EDGE
 * Family Tennis SP
 * Fist of the North Star Ken's Rage 2
 * Flowerworks HD Follie's Adventure
@@ -170,11 +224,41 @@ Known games with emulator:
 * Human Resource Machine
 * Inside My Radio
 * Kung Fu Rabbit
-* 
-* 
+* Little Inferno
+* Minecraft Wii U Edition
+* Mutant Mudds Super Challenge
+* Pier Solar and the Great Architects
+* PixelJunk Monsters
+* Plantera
+* Project Zero Maiden of Black Water (Same engine as Dead or Alive 5 [^5]) 
+* Puddle (has actionscript files)
+* Pullblox World
+* Pure Chess
+* Spin the Bottle Bumpie's Party (has swf files)
+* Splatoon Testfire
+* Spot The Differences Party! (.bfilm textures)
+* Star Fox Guard Special Demo Version
+* Star Fox Zero The Battle Begins + Training
+* SteamWorld Dig
+* SteamWorld Heist
+* Super Meat Boy
+* Swords & Soldiers II (is this on the Two Tribes game engine?)
+* TANK! TANK! TANK!
+* The Cave (lua, debug symbols)
+* The Mysterious Cities of Gold Secret Paths (debug symbols)
+* TNT Racers (debug symbols)
+* Turtle Tale
+* Typoman
+* Unepic EnjoyUp Games
+* WICKED MONSTERS BLAST
+* Wii KARAOKE U
 
 # References
 [^1]: http://bluepointgames.com/bluepoint-engine-batman-arkham-origins-blackgate/
 [^2]: https://forum.xentax.com/viewtopic.php?t=8646 
 [^3]: https://nintendoeverything.com/interview-frontier-developments-talks-coaster-crazy-deluxe-lostwinds-possibility-of-3ds-support-and-more/ 
 [^4]: https://forums.kleientertainment.com/forums/topic/80262-which-game-engine-build-dont-starve-unity3d-or-self-build-engine/ 
+[^5]: https://fatalframe.fandom.com/wiki/Fatal_Frame:_Maiden_of_Black_Water 
+[^6]: https://www.reddit.com/r/wiiu/comments/2kory6/we_are_curve_digital_developers_of_stealth_inc_2/ 
+[^7]: https://www.moddb.com/engines/storm3d 
+[^8]: https://github.com/Frozenbyte/Jack-Claw 
