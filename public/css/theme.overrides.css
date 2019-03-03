@@ -23,6 +23,14 @@
   margin-left: 5px;
 }
 
+.post h3 {
+   margin-left: 10px;
+}
+
+.post h4 {
+   margin-left: 15px;
+}
+
 .post {
   color: #333;
 }
