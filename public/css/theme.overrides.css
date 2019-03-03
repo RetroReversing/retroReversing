@@ -3,10 +3,12 @@
 }
 
 .post ul {
-    list-style-type: initial;
-    padding-left: 5%;
-    margin: initial;
-    margin-top: 10px;
+  list-style-type: initial;
+  padding-left: 5%;
+  margin: initial;
+  margin-top: 5px;
+  margin-left: 4%;
+  font-size: 1.15em;
 }
 
 .post a {
@@ -109,7 +111,7 @@ overflow: scroll;
 }
 
 .row p {
-  padding: 10px;
+  padding: 5px;
   font-family: Georgia,Times,"Times New Roman",serif;
   font-size: 1.15em;
   line-height: 1.6;
