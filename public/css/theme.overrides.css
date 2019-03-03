@@ -115,6 +115,7 @@ overflow: scroll;
   line-height: 1.6;
   letter-spacing: 0.05em;
   margin-bottom: 5px;
+  padding-left: 4%;
 }
 
 .dataTables_filter input {
