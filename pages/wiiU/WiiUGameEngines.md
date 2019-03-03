@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 title: WiiU eShop Game Engines
-image: /public/wiiU/WiiUeShopGameEngines.jpg
+image:  /public/wiiU/WiiUeShopGameEngines.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUeShopEngines
 breadcrumbs:
@@ -57,10 +57,25 @@ Known wiiU Games that use the vision engine:
 * Tengami
 
 ---
-## Unreal Engine
+## Nintendo Web Framework
+The Nintendo Web Framework was by far the easiest way to develop a game or app for the wiiU. 
+It was an HTML5 framework that has an interface for the wiiU controllers.
+ 
+We have full coverage of the NWF framework here: [Wii U Nintendo Web Framework · RetroReversing](https://www.retroreversing.com/WiiUNWF)
 
+---
+## Unity Engine
+The Unity engine was by far the most popular game engine for wiiU eShop developers, this was helped by Nintendo's official support of the engine [^9].
+
+There was over 200 wiiU eShop games developed with the Unity engine, we have a complete list on the wiiU Unity section of the site here: [Unity Game Engine Games on wiiU eShop · RetroReversing](https://www.retroreversing.com/WiiUUnity)
+
+---
+## Unreal Engine
+Surprisingly there are only 2 Unreal Engine games that were released on the wiiU eShop:
 * LOST REAVERS
 * Master Reboot
+
+Clearly the Official support by Nintendo of the Unity Engine allowed Unity to dominate the wiiU eShop market and Unreal missed out.
 
 ---
 # Custom in-house Game Engines
@@ -130,7 +145,6 @@ Used for:
 Used in:
 * 1001 Spikes
 * The Binding of Isaac Rebirth
-* 
 
 ---
 ## BIT.TRIP engine
@@ -148,7 +162,6 @@ More information can be found on their official website [Technology - Frontier](
 ## Dakko Dakko Game Engine
 Wii U games using this engine:
 * Scram Kitty and his Buddy on Rails
-* 
 
 ---
 ## Nucleus (Curve Digital Engine)
@@ -161,8 +174,8 @@ Wii U games that were built using this engine:
 * Lone Survivor
 * The Swapper
 * Ultratron
----
 
+---
 ## Storm3D Engine (FrozenByte)
 The Storm3D engine is the name of the in-house game engine used by Frozenbyte [^7].
 
@@ -173,7 +186,6 @@ WiiU games that were built on this engine:
 * Trine Enchanted Edition
 
 ---
-
 ## Two Tribes game engine
 Wii U Games made using the engine:
 * EDGE
@@ -262,3 +274,4 @@ Known games with emulator:
 [^6]: https://www.reddit.com/r/wiiu/comments/2kory6/we_are_curve_digital_developers_of_stealth_inc_2/ 
 [^7]: https://www.moddb.com/engines/storm3d 
 [^8]: https://github.com/Frozenbyte/Jack-Claw 
+[^9]: https://developer.nintendo.com/tools 
