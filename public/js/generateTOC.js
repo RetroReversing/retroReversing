@@ -13,8 +13,8 @@ $(document).ready(function(){
             $(".post-directory dl").append("<dd><a class=\"jumper\" href=#" +
                     $(this).attr("id")
                     + ">"
-                    + "&nbsp;&nbsp;- " + $(this).text()
-                    + "</a></dd>");
+                    + "<span class=\"jumper--"+$(this).prop("tagName")+"\"> - " + $(this).text()
+                    + "</span></a></dd>");
         });
     });
 
