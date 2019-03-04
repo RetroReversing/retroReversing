@@ -10,7 +10,7 @@ $(document).ready(function(){
         var children = $(this).nextUntil("h1", "h2,h3,h4,h5,h6")
 
         children.each(function( index ) {
-            $(".post-directory dl").append("<dd><a class=\"jumper\" href=#" +
+            $(".post-directory dl").append("<dd><a class=\"jumper--child\" href=#" +
                     $(this).attr("id")
                     + ">"
                     + "<span class=\"jumper--"+$(this).prop("tagName")+"\">" + $(this).text()
