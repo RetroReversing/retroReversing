@@ -20,35 +20,5 @@
             });
         });
 
-        var fixmeTop = $('#post-directory-module').offset().top - 100;       // get initial position of the element
-
-        $(window).scroll(function() {                  // assign scroll event listener
-
-            var currentScroll = $(window).scrollTop(); // get current position
-
-            if (currentScroll >= fixmeTop) {           // apply position: fixed if you
-                $('#post-directory-module').css({      // scroll to that element or below it
-                    top: '100px',
-                    position: 'fixed',
-                    width: 'inherit'
-                });
-            } else {                                   // apply position: static
-                $('#post-directory-module').css({      // if you scroll above it
-                    position: 'inherit',
-                    width: 'inherit'
-                });
-            }
-
-        });
-
-        $("a.jumper").on("click", function( e )&nbsp;{
-
-            e.preventDefault();
-
-            $("body, html").animate({
-                scrollTop: ($( $(this).attr('hre') ).offset().top - 100)
-            }, 600);
-
-        });
     });
 
