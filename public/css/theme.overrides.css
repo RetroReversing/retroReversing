@@ -143,3 +143,23 @@ section {
 .jumper {
   font-weight: 200;
 }
+
+.jumper--H2 {
+  margin-left: 10px;
+}
+
+.jumper--H3 {
+  margin-left: 15px;
+}
+
+.jumper--H4 {
+  margin-left: 20px;
+}
+
+.jumper--H5 {
+  margin-left: 25px;
+}
+
+.jumper--H6 {
+  margin-left: 30px;
+}
