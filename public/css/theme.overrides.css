@@ -143,6 +143,12 @@ section {
 .jumper {
   font-weight: 500;
   color: #0085b6;
+  margin-bottom:5px;
+  margin-top:15px;
+}
+
+.jumper--H2, .jumper--H3, .jumper--H4, .jumper--H5, .jumper--H6 {
+  font-size:0.8em;
 }
 
 .jumper--H2 {
