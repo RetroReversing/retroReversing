@@ -141,7 +141,8 @@ section {
 }
 
 .jumper {
-  font-weight: 200;
+  font-weight: 500;
+  color: #0085b6;
 }
 
 .jumper--H2 {
