@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $( ".post h1" ).each(function( index ) {
         console.error("H1:",index);
-        $(".post-directory dl").append("<dt><a class=\"jumper\" hre=#" +
+        $(".post-directory dl").append("<dt><a class=\"jumper\" href=#" +
                 $(this).attr("id")
                 + ">"
                 + $(this).text()
