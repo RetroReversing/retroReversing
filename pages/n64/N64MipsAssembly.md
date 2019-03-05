@@ -2,9 +2,11 @@
 layout: post
 tags: 
 - n64
+- tutorial
+- assembly
 title: N64 MIPS Assembly Video Tutorials
-video:  "m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA"
-image:  /public/consoles/Nintendo 64.png
+youtube: "m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA"
+image: /public/consoles/Nintendo 64.png
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /N64MipsAssembly
 breadcrumbs:
