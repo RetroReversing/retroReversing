@@ -20,8 +20,15 @@ recommend: n64
 editlink: /n64/N64MipsAssembly.md
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Subscribe to Fraser N64!
-In order to help support the creation of more excellent N64 MIPS tutorials, consider subscribing to Fraser here:
-https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w
+First of all in order to help support the creation of more excellent N64 MIPS tutorials, consider subscribing to Fraser here:
+[(219) Fraser N64 - YouTube](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w)
+
+# Watch live on twitch
+If you are lucky you can catch the stream live here: [fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
+
+# Source Code and Resources
+You can access all the source code and resources refeenced in the videos here: [fraser125/N64_ASM_Videos: The files complementing my video series N64 MIPS Assembly](https://github.com/fraser125/N64_ASM_Videos)
+
+# Lesson 1 - Development Environment Setup
+In this lesson we will start from scratch and setup the development environment for Windows.
