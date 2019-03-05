@@ -30,5 +30,3 @@ If you are lucky you can catch the stream live here: [fraserN64 - Twitch](https:
 # Source Code and Resources
 You can access all the source code and resources refeenced in the videos here: [fraser125/N64_ASM_Videos: The files complementing my video series N64 MIPS Assembly](https://github.com/fraser125/N64_ASM_Videos)
 
-# Lesson 1 - Development Environment Setup
-In this lesson we will start from scratch and setup the development environment for Windows.
