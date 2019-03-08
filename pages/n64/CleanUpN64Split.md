@@ -17,6 +17,14 @@ recommend: n64
 editlink: /n64/CleanUpN64Split.md
 ---
 
+# Install n64split on mac
+In order to compile n64split you need to run a few commands:
+	```
+	brew install capstone
+	brew install libyaml
+	export C_INCLUDE_PATH=../sm64tools:/usr/local/Cellar/capstone/4.0.1/include/:/usr/local/Cellar/libyaml/0.2.1/include && export LIBRARY_PATH=/usr/local/opt/capstone/lib/:/usr/local/Cellar/libyaml/0.2.1/lib:/usr/local/Cellar/libpng/1.6.36/lib && make
+	```
+
 # Generate undefined_syms.txt
 I have a script that generates the `undefined_syms.txt` file for you:
 https://gist.github.com/RetroGameDeveloper/6d56d01179da9ad1924580ae544692a7
