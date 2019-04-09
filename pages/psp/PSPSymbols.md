@@ -5,14 +5,14 @@ tags:
 - reverseengineering
 - symbols
 title: Playstation Portable Games with Debug Symbols
-thumbnail: /public/consoles/Sony Playstation Portable.png
+thumbnail: /public/consoles/Sony PSP.png
 image: /public/consoles/Sony PSP.png
 permalink: /psp-debug-symbols
 breadcrumbs:
   - name: Home
     url: /
   - name: Sony Playstation Portable (PSP)
-    url: /ps1
+    url: /psp
   - name: PSP Games with Debug Symbols
     url: #
 recommend: psp
@@ -39,6 +39,8 @@ Many games using the ViciousEngine actually came with both the .sym and .map fil
 ViciousEngine was one of the few game engines recommended officially by Sony, and in fact they offered a discount for the engine if it was used to create a PSP Mini [^1].
 
 You can extract the .sym and .map file by opening the `PSP_GAME/USRDIR/DATA.PAK` with 
+
+The `DATA.PAK` file normally contains some files with a name that is a variation of `Game-dvd.map` and `Game-dvd.sym`.
 
 ## ViciousEngine Games with Debug Symbols
 * Alien Syndrome (USA) (PSN)
