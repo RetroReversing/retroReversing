@@ -30,6 +30,7 @@ videocarousel:
 The hardware supports booting games from both the UMD and DVD drive, the DVD drive can even boot games from standard DVD-R/RW and so many prototype PSP games are actually written on standard rewritable DVDs.
 
 ## PSP-1000 Standard Commander Arm
+In order to use the DevKit to play games you need a controller, and what better controller than the psp itself! A custom PSP `Controller Arm` was provided with the devkit for such a purpose. It wasn't a real psp and the inside board were very different to a retail psp, it was mainly just an interface for providing button in put and screen output for the developers to see what it would look like on a real psp.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P_ajF24sfGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## PSP Go Commander Arm
