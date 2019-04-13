@@ -4,6 +4,7 @@ tags:
 - psp
 - beta
 - prototype
+- games
 title: PSP Saints Row Undercover Officially Released Prototype
 thumbnail: /public/consoles/Sony PSP.png
 image: https://img.youtube.com/vi/8O2cLAiWIE/maxresdefault.jpg
@@ -18,13 +19,13 @@ breadcrumbs:
 recommend: psp
 editlink: /psp/PSPSaintsRowUndercover.md
 videocarousel:
-  - title: Inside Volition: Saints Row Undercover
+  - title: Inside Volition Saints Row Undercover
     image: https://img.youtube.com/vi/-8O2cLAiWIE/maxresdefault.jpg
     youtube: '-8O2cLAiWIE'
-  - title: Volition Plays: Saints Row Undercover
+  - title: Volition Plays Saints Row Undercover
     image: https://img.youtube.com/vi/YYvAO6yOgYc/maxresdefault.jpg
     youtube: 'YYvAO6yOgYc'
-  - title: How to Play Saints Row: Undercover on PSP! - Unreleased Saints Row Game Patched
+  - title: How to Play Saints Row Undercover on PSP! - Unreleased Saints Row Game Patched
     image: https://img.youtube.com/vi/LIUJaqQDl74/maxresdefault.jpg
     youtube: 'LIUJaqQDl74'
 ---
@@ -40,3 +41,5 @@ Interestingly there is a few modifications you need to make in order to run the 
 # References
 [^1]: [Saints Row: Undercover [PSP - Cancelled] - Unseen64](https://www.unseen64.net/2016/01/25/saints-row-undercover-fall-psp-cancelled/)
 [^2]: [(116) How to Play Saints Row: Undercover on PSP! - Unreleased Saints Row Game Patched - YouTube](https://www.youtube.com/watch?v=LIUJaqQDl74)
+
+
