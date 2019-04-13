@@ -18,7 +18,7 @@ breadcrumbs:
 recommend: psp
 editlink: /psp/PSPDevKit.md
 videocarousel:
-  - title: Sony PSP development debug hardware: the DTP H1500
+  - title: Sony PSP development debug hardware the DTP-H1500
     image: https://img.youtube.com/vi/F0kLdmOn7aI/maxresdefault.jpg
     youtube: 'F0kLdmOn7aI'
 ---
