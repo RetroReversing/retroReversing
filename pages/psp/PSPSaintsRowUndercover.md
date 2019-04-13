@@ -18,10 +18,10 @@ breadcrumbs:
 recommend: psp
 editlink: /psp/PSPSaintsRowUndercover.md
 videocarousel:
-  - title: Saints Row: Undercover Officially Released PSP Prototype
+  - title: Saints Row Undercover Officially Released PSP Prototype
     image: https://img.youtube.com/vi/8O2cLAiWIE/maxresdefault.jpg
     youtube: '8O2cLAiWIE'
-  - title: Saints Row: Undercover Officially Released PSP Prototype
+  - title: Saints Row Undercover Officially Released PSP Prototype
     image: https://img.youtube.com/vi/LIUJaqQDl74/maxresdefault.jpg
     youtube: 'LIUJaqQDl74'
 ---
