@@ -29,12 +29,12 @@ videocarousel:
 # Official PSP Development Kit hardware
 The hardware supports booting games from both the UMD and DVD drive, the DVD drive can even boot games from standard DVD-R/RW and so many prototype PSP games are actually written on standard rewritable DVDs.
 
-## PSP Standard Commander Arm
+## PSP-1000 Standard Commander Arm
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P_ajF24sfGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## PSP Go Commander Arm
 When the PSP Go console came out there was an optional accessory for the development kit to switch the standard PSP controller to a version that is basically a PSP-Go shell with all the PSP chips ripped out and it is pretty much just used as a controller and display.
-<img src="/images/PSPGoSDK.jpg" />
+<img src="/public/images/PSPGoSDK.jpg" />
 [^1]
 
 # References
