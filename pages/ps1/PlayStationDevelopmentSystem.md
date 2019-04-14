@@ -27,13 +27,17 @@ videocarousel:
 ---
 
 # PC Development Environment
+<img src="/public/images/psOneTool.jpg"/>
 Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing playstation games. EDGE magazine issue 20 had the following to say about this decision:
 ```
-Perhaps the most ingenious move on Sony's part was its decision to use the PC as a development platform, enabling it to call on the skills of huge number of developers. Licensees now receive a pair of full-length ISA cards that plug into a normal PC. These two cards contain the entire PlayStation chipset, as well as extra RAM and some logic to enable them to talk to the PC. 'lt's great having the system inside the PC,' reckons Peter Molyneux. 'With most bulky console development systems it sometimes feels like you're surrounded by NASA control.'
+Perhaps the most ingenious move on Sony's part was its decision to use the PC as a development platform, enabling it to call on the skills of huge number of developers. 
+Licensees now receive a pair of full-length ISA cards that plug into a normal PC. 
+These two cards contain the entire PlayStation chipset, as well as extra RAM and some logic to enable them to talk to the PC. 'lt's great having the system inside the PC,' reckons Peter Molyneux. 'With most bulky console development systems it sometimes feels like you're surrounded by NASA control.'
 					
 Such technology doesn't come cheap, though. PlayStation developers need to cough up £ 12,000 for the full system (which Sony is adamant it doesn't make money on), although all subsequent software tools and hardware upgrades are free.
 					
-But the decision to embrace the PC as a development platform has wider ramifications. Rather than promote a PlayStation-only development path, Sony has seen the advantage of capitalising on the crossover of product between the two platforms. The vast majority of non-Japanese developers are focusing on both formats (in Japan the IBM-compatible PC has a small following). 
+But the decision to embrace the PC as a development platform has wider ramifications. Rather than promote a PlayStation-only development path, Sony has seen the advantage of capitalising on the crossover of product between the two platforms. 
+The vast majority of non-Japanese developers are focusing on both formats (in Japan the IBM-compatible PC has a small following). 
 
 The PlayStation hardware was condensed by SCE Japan onto two cards that  would fit inside a standard PC. The Japanese flew Andy and Martin (From SN Systems) out to Tokyo in June to let them work on the new setup and write new software, so that the bulk of the existing system worked with the new hardware. Apart from extra RAM (eight megabytes of DRAM as opposed to two megabytes in the production PlayStation) and some PC logic, the hardware that slotted into the PC was virtually the same as the production PlayStation
 ```
@@ -49,10 +53,14 @@ The Twin ISA development kit was the most popular development kit used for the p
 <img src="/public/magazine/PS1DevKitTwinISA_EDGE_Issue_20.png" />
 
 # DTL-H2000
+<img src="/public/images/psoneToolISA.jpg" />
 The video above shows the DTL-H2000 Development unit which slots into the ISA slot of a PC and contains all the hardware on a retail PS1.
 These boards were originally sold only to licensed developers only. 
 
+<img src="/public/images/psone-DTL-H2510.jpg" />
+
 # CD Emulator Card
+<img src="/public/images/AllPSOneDevBoards.jpg" />
 ```				
 This enabled the company to design a CD emulator card which connected to a hard drive and output a steady data stream equivalent to that from the CD drive. Now PlayStation	
 code could be written and tested under simulation without having to repeatedly cut expensive gold COs (requiring a specialist Sony machine costing £4000). 
