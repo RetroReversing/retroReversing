@@ -28,7 +28,10 @@ videocarousel:
 
 # PC Development Environment
 <img src="/public/images/psOneTool.jpg"/>
-Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing playstation games. EDGE magazine issue 20 had the following to say about this decision:
+
+Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing playstation games. 
+EDGE magazine issue 20 had the following to say about this decision:
+
 ```
 Perhaps the most ingenious move on Sony's part was its decision to use the PC as a development platform, enabling it to call on the skills of huge number of developers. 
 Licensees now receive a pair of full-length ISA cards that plug into a normal PC. 
