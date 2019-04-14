@@ -53,14 +53,15 @@ The Twin ISA development kit was the most popular development kit used for the p
 <img src="/public/magazine/PS1DevKitTwinISA_EDGE_Issue_20.png" />
 
 # DTL-H2000
-<img src="/public/images/psoneToolISA.jpg" />
+<img src="/public/images/psoneToolISA.jpg"/>
 The video above shows the DTL-H2000 Development unit which slots into the ISA slot of a PC and contains all the hardware on a retail PS1.
 These boards were originally sold only to licensed developers only. 
 
-<img src="/public/images/psone-DTL-H2510.jpg" />
+<img src="/public/images/psone-DTL-H2510.jpg"/>
 
 # CD Emulator Card
-<img src="/public/images/AllPSOneDevBoards.jpg" />
+<img src="/public/images/AllPSOneDevBoards.jpg"/>
+
 ```				
 This enabled the company to design a CD emulator card which connected to a hard drive and output a steady data stream equivalent to that from the CD drive. Now PlayStation	
 code could be written and tested under simulation without having to repeatedly cut expensive gold COs (requiring a specialist Sony machine costing £4000). 
