@@ -86,3 +86,4 @@ To go along with the PC based development environment, SN Systems also developed
 # References
 [^1]: Next generation issue 15 from March 1996
 [^2]: EDGE issue 20
+[^3]: [SONY TOOL Playstation One PS1 Development DTL Devkit Debugging - RARE PROTOTYPE | eBay](https://www.ebay.com/itm/SONY-TOOL-Playstation-One-PS1-Development-DTL-Devkit-Debugging-RARE-PROTOTYPE/173864533814?_trkparms=aid%3D222007%26algo%3DSIM.MBE%26ao%3D1%26asc%3D20131231084308%26meid%3Df253eb90745846e382cf476c18395868%26pid%3D100010%26rk%3D5%26rkt%3D12%26sd%3D113713937185%26itm%3D173864533814&_trksid=p2047675.c100010.m2109)
