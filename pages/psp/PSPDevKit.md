@@ -16,9 +16,8 @@ breadcrumbs:
   - name: Official PlayStation Portable Development Kit
     url: #
 recommend: 
-  - psp
   - devkit
-  - hardware
+  - psp
 editlink: /psp/PSPDevKit.md
 videocarousel:
   - title: Sony PSP development debug hardware the DTP-H1500
