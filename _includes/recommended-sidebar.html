@@ -4,7 +4,7 @@
     <h5 class="widget-title">Recommends</h5>
     <ul class="widget-list">
       {% if page.recommend.first %}
-        {% for reccomend in page.recommend %}
+        {% for recommend in page.recommend %}
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
