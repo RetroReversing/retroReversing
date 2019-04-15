@@ -47,6 +47,10 @@ The testing tool tower contains both a DVD and UMD drive with a toggle to switch
 Notice that this does not have an ethernet port so can't be used for debugging unless using the slow usb serial or WLAN interface [^3]
 <img src="/public/images/PSPTower.jpg" />
 
+## The Development Unit (DTP-T1000)
+The front of the development Unit looks pretty much identical to the Testing tool (DTP-H1500), but on the back it contains an ethernet port to allow debugging with a host PC.
+
+
 ## Software Development Kit
 Since the development TOOL doesn't have a hard drive and I can't find any references to CDs that contains the development kit files, presumably developers had to logon to the SCE developer website to download the SDK, compilers etc for their PC.
 
