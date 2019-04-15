@@ -41,6 +41,10 @@ When the PSP Go console came out there was an optional accessory for the develop
 <img src="/public/images/PSPGoSDK.jpg" />
 [^1]
 
+## The Tower
+The tower contains both a DVD and UMD drive with a toggle to switch between the two.
+<img src="/public/images/PSPTower.jpg" />
+
 # References
 [^1]: http://develop.scee.net/files/presentations/acgirussia/Hardware_Overview_ACGI_09.pdf
 [^2]: [(110) What's Inside? - Sony PSP Development Controller - DTP-H110 - YouTube](https://www.youtube.com/watch?v=P_ajF24sfGc)
