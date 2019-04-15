@@ -32,7 +32,7 @@ videocarousel:
 Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing playstation games. 
 EDGE magazine issue 20 had the following to say about this decision:
 
-```
+```txt
 Perhaps the most ingenious move on Sony's part was its decision to use the PC as a development platform, enabling it to call on the skills of huge number of developers. 
 Licensees now receive a pair of full-length ISA cards that plug into a normal PC. 
 These two cards contain the entire PlayStation chipset, as well as extra RAM and some logic to enable them to talk to the PC. 'lt's great having the system inside the PC,' reckons Peter Molyneux. 'With most bulky console development systems it sometimes feels like you're surrounded by NASA control.'
@@ -65,14 +65,14 @@ These boards were originally sold only to licensed developers only.
 # CD Emulator Card
 <img src="/public/images/AllPSOneDevBoards.jpg"/>
 
-```				
+```md				
 This enabled the company to design a CD emulator card which connected to a hard drive and output a steady data stream equivalent to that from the CD drive. Now PlayStation	
 code could be written and tested under simulation without having to repeatedly cut expensive gold COs (requiring a specialist Sony machine costing £4000). 
 ```
 [^2]
 
 # Blue Debugging Playstation
-```		
+```markdown		
 However, the few differences between the development kit and a production Playstation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
 ```
 [^2]
