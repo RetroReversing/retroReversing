@@ -65,16 +65,14 @@ These boards were originally sold only to licensed developers only.
 # CD Emulator Card
 <img src="/public/images/AllPSOneDevBoards.jpg"/>
 
-```md				
-This enabled the company to design a CD emulator card which connected to a hard drive and output a steady data stream equivalent to that from the CD drive. Now PlayStation	
-code could be written and tested under simulation without having to repeatedly cut expensive gold COs (requiring a specialist Sony machine costing £4000). 
-```
+The CD emulator card developed by SN Systems (yellow card in above screenshot) is mentioned briefly in the same EDGE UK magazine article:		
+> This enabled the company to design a CD emulator card which connected to a hard drive and output a steady data stream equivalent to that from the CD drive. 
+> Now PlayStation	code could be written and tested under simulation without having to repeatedly cut expensive gold COs (requiring a specialist Sony machine costing £4000).
 [^2]
 
 # Blue Debugging Playstation
-```markdown		
-However, the few differences between the development kit and a production Playstation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
-```
+The Blue debugging playstation is described in the EDGE UK magazine issue 20:
+> However, the few differences between the development kit and a production Playstation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
 [^2]
 
 # PSY-Q PlayStation Plug-in
