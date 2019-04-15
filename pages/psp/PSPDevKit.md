@@ -41,8 +41,10 @@ When the PSP Go console came out there was an optional accessory for the develop
 <img src="/public/images/PSPGoSDK.jpg" />
 [^1]
 
-## The Tower
-The tower contains both a DVD and UMD drive with a toggle to switch between the two, it contains a slot to insert the PSP memory stick, a usb-mini port, a headphone port and a port to connect the Commander Arm. It also contains a number of DIP switches but it is unclear what each DIP-switch does.
+## The Testing Tool (DTP-H1500)
+The testing tool tower contains both a DVD and UMD drive with a toggle to switch between the two, it contains a slot to insert the PSP memory stick, a usb-mini port, a headphone port and a port to connect the Commander Arm. It also contains a number of DIP switches but it is unclear what each DIP-switch does.
+
+Notice that this does not have an ethernet port so can't be used for debugging unless using the slow usb serial or WLAN interface [^3]
 <img src="/public/images/PSPTower.jpg" />
 
 ## Software Development Kit
@@ -53,3 +55,4 @@ A PSP SDK has never been leaked probably because it was just a download that mos
 # References
 [^1]: http://develop.scee.net/files/presentations/acgirussia/Hardware_Overview_ACGI_09.pdf
 [^2]: [(110) What's Inside? - Sony PSP Development Controller - DTP-H110 - YouTube](https://www.youtube.com/watch?v=P_ajF24sfGc)
+[^3]: [[HELP][PSP DEVKIT] Hooking up DTP-H1500 to computer | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/help-psp-devkit-hooking-up-dtp-h1500-to-computer.66933/)
