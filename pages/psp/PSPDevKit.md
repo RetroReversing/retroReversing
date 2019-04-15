@@ -48,7 +48,9 @@ Notice that this does not have an ethernet port so can't be used for debugging u
 <img src="/public/images/PSPTower.jpg" />
 
 ## The Development Unit (DTP-T1000)
+<img src="/public/images/DTPT-1000-Front.png" />
 The front of the development Unit looks pretty much identical to the Testing tool (DTP-H1500), but on the back it contains an ethernet port to allow debugging with a host PC.
+<img src="/public/images/DTPT-1000-Back.png" />
 
 
 ## Software Development Kit
