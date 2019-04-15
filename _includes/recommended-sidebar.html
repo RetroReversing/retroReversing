@@ -3,24 +3,48 @@
   <div class="widget widget-videos">
     <h5 class="widget-title">Recommends</h5>
     <ul class="widget-list">
-      {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
-        {% if post.tags contains page.recommend and post.title != page.title %}
-          <li>
-            <div class="widget-img">
-              <a href="{{ post.permalink }}">
-                {% if post.image %}
-                  <img src="{{ post.image }}" alt="">
-                {% else if post.youtube %}
-                  <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
-                {% endif %}
-              </a>
-              <span>{{ page.recommend }}</span>
-            </div>
-            <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
-            <hr />
-          </li>
-        {% endif %}
-      {% endfor %}
+      {% if page.recommend.first %}
+        {% for reccomend in page.recommend %}
+          {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
+              {% if post.tags contains recommend and post.title != page.title %}
+                <li>
+                  <div class="widget-img">
+                    <a href="{{ post.permalink }}">
+                      {% if post.image %}
+                        <img src="{{ post.image }}" alt="">
+                      {% else if post.youtube %}
+                        <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                      {% endif %}
+                    </a>
+                    <span>{{ recommend }}</span>
+                  </div>
+                  <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
+                  <hr />
+                </li>
+              {% endif %}
+            {% endfor %}
+        {% endfor %}
+      {% else %}
+      
+        {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
+          {% if post.tags contains page.recommend and post.title != page.title %}
+            <li>
+              <div class="widget-img">
+                <a href="{{ post.permalink }}">
+                  {% if post.image %}
+                    <img src="{{ post.image }}" alt="">
+                  {% else if post.youtube %}
+                    <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                  {% endif %}
+                </a>
+                <span>{{ page.recommend }}</span>
+              </div>
+              <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
+              <hr />
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
 
     </ul>
   </div>
