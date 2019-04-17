@@ -2,14 +2,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
 
-<div id="folder-browser" />
+<div id="folder-browser">
+  <ul>
+      <li>Root node 1
+        <ul>
+          <li id="child_node_1">Child node 1</li>
+          <li>Child node 2</li>
+        </ul>
+      </li>
+      <li>Root node 2</li>
+    </ul>
+</div>
 <script>
 $('#folder-browser').jstree({
   "core" : {
     "animation" : 0,
     "check_callback" : true,
     "themes" : { "stripes" : true },
-    'data' : {
+    /*'data' : {
       'url' : function (node) {
         return node.id === '#' ?
           'ajax_demo_roots.json' : 'ajax_demo_children.json';
@@ -17,7 +27,7 @@ $('#folder-browser').jstree({
       'data' : function (node) {
         return { 'id' : node.id };
       }
-    }
+    }*/
   },
   "types" : {
     "#" : {
