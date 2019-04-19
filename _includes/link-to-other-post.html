@@ -4,7 +4,7 @@
 
 {% if include.post %}
 {% for post in site.pages %}
-{% if post.permalink = include.post %}
+{% if post.permalink == include.post %}
 <li>
   <div class="widget-img">
     <a href="{{ post.permalink }}">
