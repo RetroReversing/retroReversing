@@ -1,22 +1,23 @@
 <!-- To use this: include link-to-other-post.html post=/permlink-->
 <div class="linkToOtherPost">
 
-</div>
+
 {% if include.post %}
- {% for post in site.pages where_exp:"post","post.permalink equals include.post" %}
-            <li>
-              <div class="widget-img">
-                <a href="{{ post.permalink }}">
-                  {% if post.image %}
-                    <img src="{{ post.image }}" alt="">
-                  {% else if post.youtube %}
-                    <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
-                  {% endif %}
-                </a>
-                <span>{{ page.recommend }}</span>
-              </div>
-              <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
-              <hr />
-            </li>
-  {% endfor %}
+{% for post in site.pages where_exp:"post","post.permalink equals include.post" %}
+<!--<li>
+  <div class="widget-img">
+    <a href="{{ post.permalink }}">
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="">
+      {% else if post.youtube %}
+        <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+      {% endif %}
+    </a>
+    <span>{{ page.recommend }}</span>
+  </div>
+  <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
+  <hr />
+</li>-->
+{% endfor %}
 {% endif %}
+</div>
