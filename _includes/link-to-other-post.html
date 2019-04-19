@@ -2,8 +2,8 @@
 <div class="linkToOtherPost">
 
 </div>
-
- {% for post in site.pages where_exp:"post","post.permalink = include.post" %}
+{% if include.post %}
+ {% for post in site.pages where_exp:"post","post.permalink equals include.post" %}
             <li>
               <div class="widget-img">
                 <a href="{{ post.permalink }}">
@@ -18,4 +18,5 @@
               <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
               <hr />
             </li>
-        {% endfor %}
+  {% endfor %}
+{% endif %}
