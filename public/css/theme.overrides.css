@@ -174,3 +174,7 @@ section {
 blockquote {
   border-left-color: #0085b6;
 }
+
+.dataTable a {
+  color: #007bff !important;
+}
