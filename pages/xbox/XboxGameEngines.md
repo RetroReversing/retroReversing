@@ -20,6 +20,25 @@ recommend:
 - gameengines
 editlink: /xbox/XboxGameEngines.md
 ---
+# Introduction
+When the Xbox came out in 2001 most game developers were still getting used to the new layer of abstractions and code re-use provided by the superior hardware of consoles compared to the previous generations.
+
+Game engines have always been used to a certain extent within the games industry, re-using code from one game to another.
+
+These game engines were normally just distributed to developers in the same company and never released to other development studios, these are called 'in-house' game engines.
+
+However the xbox generation was the first to really take 3rd party game engines seriously. 
+
+Full Commercial off-the-shelf game engines became much more popular such as Unreal Engine or GameBryo. 
+
+But the real winners were the more specific middleware libraries such as the Havok Physics engine, Bink Video Playback engine and the Renderware Graphics engine.
+
+Most developers still wanted full control over their game engine but it was too costly to write a custom physics, audio or video engine for each game. In future console generations developers would move towards the full game engines, leaving some of the flexability behind.
+
+## Detecting middleware
+The games listed below each engine or middleware have been confirmed to use those engines by searching for common strings within the xbox executable themselves. 
+
+If you would like to add a game to the list please make sure to check the executable for a trace of the code, sometimes developers aim to use a library but it never ends up in the final build.
 
 # Full Retail Game Engines
 
@@ -111,6 +130,8 @@ Games:
 # Middleware
 
 ## Havok Physics Engine
+The Havok Physics engine was very popular with developers during the xbox era, with over 36 known games that use the middleware.
+
 To find out if a game uses Havok just search for the string `havok.com` in the main xbe executable file. Normally the havok libraries contain error messages redirecting to the havok.com website.
 
 Games:
@@ -133,10 +154,22 @@ Games:
 * Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
 * Goldeneye Rogue Agent
+* Halo 2
+* Harry Potter and the Goblet of Fire
+* IHRA Drag Racing 2005
+* IHRA Drag Racing Sportsman Edition
+* Just Cause
+* Lord of the Rings The Third Age
 * Marvel Nemesis - Rise Of The Imperfects
+* Max Payne 2
 * Medal of Honor European Assault
+* Mercenaries
+* Mortal Kombat Shaolin Monks
 * Nickelodeon Party Blast
+* Over the Hedge
+* Painkiller Hell Wars
 * Pariah
+* Psi Ops - The Mindgate Conspiracy
 * Starsky and Hutch
 
 ---
@@ -153,3 +186,4 @@ Games:
 
 Games:
 * IHRA Drag Racing 2005
+
