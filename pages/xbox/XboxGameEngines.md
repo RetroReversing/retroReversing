@@ -23,9 +23,9 @@ editlink: /xbox/XboxGameEngines.md
 # Introduction
 When the Xbox came out in 2001 most game developers were still getting used to the new layer of abstractions and code re-use provided by the superior hardware of consoles compared to the previous generations.
 
-Game engines have always been used to a certain extent within the games industry, re-using code from one game to another.
+Game engines have always been used to a certain extent within the games industry for re-using code from one game to another.
 
-These game engines were normally just distributed to developers in the same company and never released to other development studios, these are called 'in-house' game engines.
+These game engines were normally just distributed to developers in the same company and never released to other development studios therefore these are called 'in-house' game engines.
 
 However the xbox generation was the first to really take 3rd party game engines seriously. 
 
@@ -40,12 +40,14 @@ The games listed below each engine or middleware have been confirmed to use thos
 
 If you would like to add a game to the list please make sure to check the executable for a trace of the code, sometimes developers aim to use a library but it never ends up in the final build.
 
+---
 # Full Retail Game Engines
 
 ## Unreal Engine
-Look for a file with a .umd extension for example `xboxship.umd`.
+Look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
 
 Games:
+* America's Army - Rise Of Soldier
 * Brother in Arms - Earned in Blood
 * Brother in Arms
 * Combat Task Force 121
@@ -55,8 +57,11 @@ Games:
 * Land of the Dead
 * Magic the Gathering - Battlegrounds
 * Men of Valor
+* New Legends
 * Open Season
 * Pariah
+* Rainbow Six 3
+* Rainbow Six 3 - Black Arrow
 
 ---
 ## Vicious Engine
@@ -82,6 +87,7 @@ Games:
 
 ---
 # In-House Game Engines
+These game engines were not shared with any other developer and tend of be genre-specific, so games with a similar genre will run on a similar engine.
 
 ## GoldSrc (Source Engine)
 Look for references to VEngine in the main xbox executable.
@@ -125,6 +131,58 @@ Games:
 Games:
 * Just Cause
 
+---
+## Zero Engine (Pandemic)
+
+Games:
+* Mercenaries (mentions redengine?)
+* Star Wars The Clone Wars
+* Star Wars Battlefront
+* Star Wars Battlefront 2
+
+---
+## Lithtech Engine (Jupiter)
+Depending on the version of the Lithtech engine you need to search for its codename in the main executable, for example `JUPITERSPLASH`.
+Games:
+* Chicago Enforcer (Mob Enforcer)
+* Tron 2.0
+
+---
+## TOSHI Engine
+The Toshi Engine was developed by `Blue Tongue Entertainment` in Australia. To find out if a game uses this engine search for the strings: `ifdef TOSHI_SKU_PS2` or `AToshiAnimationSystem`
+
+Games:
+* Jurassic Park Operation Genesis
+
+---
+## id Tech 4
+Developed by id Software the idTech 4 engine is the next generation of the Doom/Quake engine. 
+To find out if your game uses this engine search for `idSysLocal` in the main executable.
+
+Games:
+* Doom 3
+* Doom 3 ROE
+
+---
+## Serious Engine
+Developed by CroTeam for the Serious sam franchise [^1].
+
+Games:
+* Serious Sam
+
+---
+## Shark 3D
+The Shark 3D engine was developed by `Spinor`. In order to find games developed using this engine search for `shark3d_snake_binary` or `spinor.com`.
+
+Games:
+* Dreamfall
+
+---
+## Real Virtuality
+This engine name cannot be confirmed in the executable files but there are multiple sources that say these games are developed using this engine.
+
+Games:
+* Operation Flashpoint: Elite [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
 
 ---
 # Middleware
@@ -186,4 +244,7 @@ Games:
 
 Games:
 * IHRA Drag Racing 2005
+
+# References
+[^1]: [CroTeam About](http://www.croteam.com/about/#)
 
