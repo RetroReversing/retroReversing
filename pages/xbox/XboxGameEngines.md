@@ -182,7 +182,7 @@ Games:
 This engine name cannot be confirmed in the executable files but there are multiple sources that say these games are developed using this engine.
 
 Games:
-* Operation Flashpoint: Elite [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
+* Operation Flashpoint: Elite [^2]
 
 ---
 # Middleware
@@ -228,23 +228,46 @@ Games:
 * Painkiller Hell Wars
 * Pariah
 * Psi Ops - The Mindgate Conspiracy
+* Rainbow Six - Critical Hour
+* Rainbow Six - Lockdown
+* Robotech Invasion
+* Room Zoom - Race For Impact
+* Shrek Superslam
+* Splinter Cell - Chaos Theory
+* Splinter Cell - Double Agent
 * Starsky and Hutch
 
 ---
 ## Renderware (Graphics)
 
+Games:
+
+
 ---
 ## Bink 2 (Video Playback Middleware)
+Bink was pretty much the industry standard for Video Playback on the Xbox and game development in general at the time.
 
-Games:
-* IHRA Drag Racing 2005
+So many games use the middleware that we would be pretty much listing the entire Xbox library. If you want to find out if your game uses Bink then either search for the string `Not a Bink file.` in the executable, or look for `.bik` files on the game disc.
 
 ---
 ## FMOD sound and music Middleware
+To find out if your game uses FMOD for audio playback look for the string `FMOD Sample Bank` in the main executable.
 
 Games:
+* American Chopper 2 - Full Throttle
+* Avatar - The Last Airbender
+* Call of Duty 3
+* Classified - Sentinel Crisis
+* Cold fear
+* Dead to Rights 2
+* Evil Dead - Regeneration
+* Flatout
+* Flatout 2
+* Heroes of the Pacific
 * IHRA Drag Racing 2005
+* IHRA Drag Racing Sportsman Edition
+* Jurassic Park Operation Genesis
 
 # References
 [^1]: [CroTeam About](http://www.croteam.com/about/#)
-
+[^2]: [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
