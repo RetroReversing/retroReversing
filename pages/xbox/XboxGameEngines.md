@@ -15,7 +15,9 @@ breadcrumbs:
     url: /xbox
   - name: Game Engines for the Original Xbox
     url: #
-recommend: xbox
+recommend:
+- xbox
+- gameengines
 editlink: /xbox/XboxGameEngines.md
 ---
 
@@ -58,8 +60,8 @@ Games:
 * Morrowind Game of the Year
 * Oddworld - Munchs Oddysee
 * Playboy The Mansion
----
 
+---
 # In-House Game Engines
 
 ## GoldSrc (Source Engine)
@@ -119,8 +121,18 @@ Games:
 * Backyard Wrestling 2
 * Crash Nitro Kart
 * Darkwatch
+* Destroy all humans
+* Destroy all humans 2
 * Deus Ex Infinity War
+* Ed Edd n Eddy The MIS-EDventures
+* Evil Dead - Regeneration
+* Full spectrum warrior
+* Full Spectrum Warrior Ten Hammers
+* Gene Troopers
+* Ghost Recon 2
+* Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
+* Goldeneye Rogue Agent
 * Marvel Nemesis - Rise Of The Imperfects
 * Medal of Honor European Assault
 * Nickelodeon Party Blast
