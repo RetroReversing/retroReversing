@@ -4,8 +4,8 @@ tags:
 - middleware
 - gameengines
 title: FMOD Sound Middleware
-thumbnail: /public/consoles/Microsoft Xbox.png
-image: /public/consoles/Microsoft Xbox.png
+thumbnail: /public/consoles/Tools.jpg
+image: /public/consoles/Tools.jpg
 permalink: /fmod-middleware
 breadcrumbs:
   - name: Home
@@ -15,7 +15,7 @@ breadcrumbs:
   - name: FMOD Sound Engine
     url: #
 recommend:
-  - middleware
+- middleware
 editlink: /middleware/FMOD.md
 ---
 
@@ -38,7 +38,34 @@ We have created a list per platform of the games we know are using FMOD for soun
 # Known Files used on Xbox
 These files are listed as leftover strings in xbox compiled binaries:, it means that they are being used by Xbox games:
 ```
+fmod\\src\\sound_software.c
+fmod\\src\\system_file.c
+fmod\\src\\system_thread.c
+fmod\\src\\system_memory.c
+fmod\\src\\fsound.c
+fmod\\src\\fsound_dsp.c
+fmod\\src\\fsound_dsp_fft.c
+fmod\\src\\fsound_sample.c
+fmod\\src\\fsound_stream.c
+fmod\\src\\fsound_tag.c
+
+fmod\\src\\fmusic.c
+fmod\\src\\music_formatmod.c
+fmod\\src\\music_formatit.c
+fmod\\src\\music_formatxm.c
+fmod\\src\\music_formats3m.c
+fmod\\src\\music_formatfsb.c
+
+
+fmod\\src\\format_oggvorbis.c
+fmod\\src\\format_it.c
+fmod\\src\\format_mpeg.c
+fmod\\src\\format_fsb.c
+fmod\\src\\format_wav.c
+
+
 fmod\\ogg_vorbis\\ogg\\src\\framing.c
+fmod\\ogg_vorbis\\vorbis\\lib\\vorbisfile.c
 fmod\\ogg_vorbis\\vorbis\\lib\\info.c
 fmod\\ogg_vorbis\\vorbis\\lib\\block.c
 fmod\\ogg_vorbis\\vorbis\\lib\\psy.c
