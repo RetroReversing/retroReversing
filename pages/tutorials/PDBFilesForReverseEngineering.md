@@ -1,7 +1,8 @@
 ---
 layout: post
 tags: 
-- tutorials
+- tutorial
+- introduction
 - tools
 - xbox
 - pc
