@@ -39,7 +39,7 @@ Sony Playstation 2 | [PS2 Demo Discs](https://www.retroreversing.com/ps2-demos/)
 Sony Playstation 3 | N/A Not a retro console yet
 Sony Playstation 4 | N/A Not a retro console yet
 Sony Playstation Portable | [Playstation Portable Games with Debug Symbols](https://www.retroreversing.com/psp-debug-symbols)
-Sony Playstation Vita | 
+Sony Playstation Vita | N/A Not a retro console yet
 Nintendo Gameboy Advance | Very rare due to limitations of cart size. None?
 Nintendo DS |
 Nintendo 3DS | N/A Not a retro console yet
@@ -50,18 +50,18 @@ Nintendo Wii U | [WiiU Games with Debug Symbols](https://www.retroreversing.com/
 Nintendo Switch | N/A Not a retro console yet
 Sega Saturn |
 Sega Dreamcast |
-Microsoft XBox | 
+Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-debug-symbol-games)
 Microsoft XBox 360 | N/A Not a retro console yet
 Microsoft XBox One | N/A Not a retro console yet
 
 
 There are also a few platforms that may have games with debug symbols but it is currently unknown:
-  * N-gauge
-  * Cybiko
-  * GP32/GP2X/Pandora
-  * Neo Geo X
-  * Sega CD/Sega 32X
-  * 3DO
+  - N-gauge
+  - Cybiko
+  - GP32/GP2X/Pandora
+  - Neo Geo X
+  - Sega CD/Sega 32X
+  - 3DO
 
 
 
