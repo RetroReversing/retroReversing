@@ -185,6 +185,18 @@ Games:
 * Operation Flashpoint: Elite [^2]
 
 ---
+## Glacier Engine
+Games that are built on the glacier engine tend to include the following string inside the main executable:
+`Z:\\code\\engine\\SDL_Engine\\Glacier\\scriptdll.cpp` or `engine\\ScriptInterfaces
+`
+
+Games:
+* Hitman 2 Silent Assassin
+* Hitman Blood Money
+* Hitman Contracts
+* Freedom Fighters
+
+---
 # Middleware
 
 ## Havok Physics Engine
@@ -238,10 +250,12 @@ Games:
 * Starsky and Hutch
 
 ---
-## Renderware (Graphics)
+## Renderware
+The Renderware Engine can be used anywhere from a simple graphics middleware to a full fledged game engine. 
+The Renderware engine provided graphics, audio, physics and AI modules. Most games only used a subset of the modules, with the graphics engine being the most popular.
 
 Games:
-
+* 
 
 ---
 ## Bink 2 (Video Playback Middleware)
@@ -267,6 +281,7 @@ Games:
 * IHRA Drag Racing 2005
 * IHRA Drag Racing Sportsman Edition
 * Jurassic Park Operation Genesis
+* Rainbow Six - Critical Hour
 
 # References
 [^1]: [CroTeam About](http://www.croteam.com/about/#)
