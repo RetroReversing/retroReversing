@@ -1,23 +1,20 @@
 <!-- To use this: include link-to-other-post.html post=/permlink-->
 <div class="linkToOtherPost">
-
-
 {% if include.post %}
 {% for post in site.pages %}
 {% if post.permalink == include.post %}
-<div style="display:none">
+<blockquote>
   <div class="widget-img">
     <a href="{{ post.permalink }}">
       {% if post.image %}
-        <img src="{{ post.image }}" alt="">
+        <img class="otherPostImg" src="{{ post.image }}" alt="">
       {% else if post.youtube %}
-        <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+        <img class="otherPostImg" src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
       {% endif %}
     </a>
   </div>
   <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
-  <hr />
-  </div>
+</blockquote>
 {% endif %}
 {% endfor %}
 {% endif %}
