@@ -27,7 +27,7 @@ videocarousel:
 ---
 This post covers the hardware used to develop Playstation One games by major studios back in the day, for the software side see the post on PsyQ.
 
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" %}
+{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
 
 
 # PC Development Environment
