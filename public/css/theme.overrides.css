@@ -178,3 +178,9 @@ blockquote {
 .dataTable a {
   color: #007bff !important;
 }
+
+.linkToOtherPost {
+  img {
+    max-height: 100px;
+  }
+}
