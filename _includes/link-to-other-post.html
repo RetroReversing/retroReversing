@@ -5,7 +5,7 @@
 {% if include.post %}
 {% for post in site.pages %}
 {% if post.permalink == include.post %}
-<!-- <li>
+<div style="display:none">
   <div class="widget-img">
     <a href="{{ post.permalink }}">
       {% if post.image %}
@@ -17,7 +17,7 @@
   </div>
   <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
   <hr />
-</li> -->
+  </div>
 {% endif %}
 {% endfor %}
 {% endif %}
