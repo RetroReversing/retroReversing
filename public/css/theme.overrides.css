@@ -185,3 +185,11 @@ blockquote {
     height: 100px !important;
   }
 }
+
+.linkToOtherPost blockquote {
+  display:flex;
+}
+
+.linkToOtherPost .widget-img img {
+  height: 100px !important;
+}
