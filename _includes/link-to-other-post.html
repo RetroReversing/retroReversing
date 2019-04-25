@@ -13,7 +13,10 @@
       {% endif %}
     </a>
   </div>
-  <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
+  <div class="linkToOtherPostRight">
+    <h4><a href="{{ post.permalink }}">{{ post.title }}</a></h4> 
+    <p> {% include.description %}</p>
+  </div>
 </blockquote>
 {% endif %}
 {% endfor %}
