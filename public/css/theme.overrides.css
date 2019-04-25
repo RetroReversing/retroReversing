@@ -180,7 +180,8 @@ blockquote {
 }
 
 .linkToOtherPost {
-  img {
-    max-height: 100px;
+  display: flex;
+  .widget-img img {
+    height: 100px !important;
   }
 }
