@@ -48,6 +48,7 @@ The `DATA.PAK` file normally contains some files with a name that is a variation
 * Cart Kings (EUR)
 * Days of Thunder (USA) (minis) (PSN) (/PSP_GAME/USRDIR/DATA.PAK)
 * Desi Adda - Games of India (Europe) (PSN)
+* Despicable Me (EUR)
 * DON 2 The Game (EUR)
 * PlayEnglish - Capitulos Extra (Spain) (PSN)
 * PlayEnglish - Desvela el Misterio (Spain) (PSN)
@@ -56,15 +57,27 @@ The `DATA.PAK` file normally contains some files with a name that is a variation
 * Top Gun (USA) (minis) (PSN) (Data.pak) (ViciousEngine)
 
 ---
+
+# Games with PRX symbols
+Some games implement some major parts of the game logic in prx files rather than in the EBOOT executables. The PRX format contains lots of debug information as its basically a library.
+* Flowars (KOR) `/PSP_GAME/USRDIR/umodule/flowars.prx`
+* SSX On Tour (KOR) (PRX files with lots of debug symbols)
+* SOCOM US Navy Seals Portable (JPN) (/PSP_GAME/USRDIR/TACTICS.PRX)
+
+
 # Other Retail Games with Debug Symbols
 Outside of games that use the Vicious Engine it is very rare to find games that bundled with their debug symbols, but there are a few games:
 * Need for Speed - ProStreet (Europe) (PSP) (PSN) (big files)
-* SOCOM US Navy Seals Portable (JPN) (/PSP_GAME/USRDIR/TACTICS.PRX)
+* Chandragupta Warrior Prince (EUR) - mentions of C-like exports (infernal engine)
 
 ---
 # Games with Lua Scripting
 While not quite debug symbols, these games contain unencrypted Lua scripts that can be modified
 * Pirates of the Caribbean - Dead Man's Chest (Europe) (PSN)
+
+# Games with Squirrel Scripting
+[Squirrel - The Programming Language](http://squirrel-lang.org/)
+* The Mystery Team
 
 # Games with Makefiles
 * Circles, Circles, Circles (Europe) (minis) (PSN)
@@ -72,15 +85,81 @@ While not quite debug symbols, these games contain unencrypted Lua scripts that 
 * Deflector (Europe) (minis) (PSN)
 * Route 66 (Europe) (minis) (PSN)
 
-# Prototype Games
-* Castlevania The Dracula X Chronicles (Castlevania The Dracula X Chronicles (Jan 30, 2007)
-* Championship Manager 2010 (Prototype)
-* Daxter (Feb 10, 2006 prototype)
-* Fight Night Round 3 (Dec 21, 2005 prototype - Debug)
-* Ford Racing: Off Road (Jan 11, 2008 prototype)
-* Formula One 06 (Jun 15, 2006 prototype)
-* Gangs of London (Jun 5, 2006 prototype)
-* God of War: Chains of Olympus (Feb 1, 2008 prototype)
+# Other developer content
+* Death Jr II Root Of Evil (USA) has a bash script (/PSP_GAME/USRDIR/STREAMS/IGOR.SH)
+    * the bash script mentions SN Systems the company that created the ProDG SDK
+* Ghostbusters The Video Game (EUR)
+    * Contains c-like extern statements
+* Armored Core Formula Front Extreme Battle (EUR)
+    * BOOT.BIN contains lots of mentions of debug symbols but not complete
+* Dantes Inferno (USA)
+    * What looks like unit test content?
+* Hellboy_The_Science_of_Evil (USA)
+    * Interesting BOOT.BIN
+* Marvel_Nemesis_Rise_Of_The_Imperfects_USA_PSP-ARTiSAN
+    * Interesting BOOT.BIN
+* Medal.of.Honor.Heroes.EUR.GERMAN.PSP-SUSHi
+    * EAGL debug symbols
+* Megpoid_The_Muic_Sharp_JPN_PSP-Caravan
+    * Interesting stuff in DATA.zip, scripting?
+* NASCAR_07_EUR_PSP-BAHAMUT
+    * Contains .o object files and EAGL
+* PixelJunk_Monsters_UMD_Limited_Edition_ASiA_PSP-PLAYASiA
+    * GM script files
+* The_Sims_2_USA_PSP-ARTiSAN
+    * Scripting stuff
+* Need_For_Speed_Most_Wanted_USA_PSP-ARTiSAN
+    * contains debug object files
 
+# Prototype Games
+Surprisingly the currently released prototypes have very little debug symbol information in them
+
+## Games with potential debug symbols
+* Melodie_(Sep_2,_2005_prototype) (looks like symbols in: `/USER_L0.IMG`)
+
+
+## Prototype Games without Debug symbols
+These games have been checked and unfortunetely do not contain any symbols:
+* Castlevania The Dracula X Chronicles (Jan 30, 2007)
+* Championship Manager 2010 (Prototype)
+* Chili Con Carnage (Sep 23, 2006 prototype)
+* Crazy Taxi - Fare Wars (Jun 28, 2007 prototype)
+* Daxter (Feb 10, 2006 prototype)
+* Death Jr (Jul 22, 2005 prototype)
+* Fight Night Round 3 (Dec 21, 2005 prototype - Debug)
+* Gangs of London (Jun 5, 2006 prototype)
+* Ghost Rider (Jan 18, 2007 prototype)
+* Isle of Minno (May 12, 2006 prototype)
+* Jeanne d'Arc (Aug 17, 2006 prototype)
+* Killzone Liberation (Jul 19, 2006 prototype)
+* Lemmings (Sep 30, 2005 prototype)
+* LocoRoco (Apr 20, 2006 prototype)
+* LocoRoco 2 (Sep 5, 2008 prototype)
+* MediEvil - Resurrection (Feb 15, 2005 prototype)
+* Metal Gear Solid - Portable Ops (Feb 6, 2007 prototype)
+* Ratchet & Clank - Size Matters (Dec 20, 2006 prototype)
+* Ratchet and Clank - Size Matters (Oct 11, 2006 Multiplayer Beta)
+* Rock Band Unplugged (Dec 10, 2008 prototype)
+* SOCOM U.S. Navy SEALs - Fireteam Bravo (Aug 19, 2005 prototype)
+* Saints Row - Undercover (Sep 8, 2009 prototype)
+* Silent Hill - Origins (Aug 7, 2006 prototype)
+* Silent Hill - Origins (Jul 19, 2007 prototype)
+* Silent Hill - Origins (May 26, 2006 prototype)
+* Sonic Rivals 2 Test Sample (Oct 8, 2007 prototype)
+* The 3rd Birthday (Jan 27, 2011 prototype)
+* The Elder Scrolls Travels - Oblivion (Apr 27, 2007 prototype)
+* The Elder Scrolls Travels - Oblivion (Feb 1, 2007 prototype)
+* The Elder Scrolls Travels - Oblivion (Jan 31, 2007 prototype)
+* The Elder Scrolls Travels - Oblivion (Jun 9, 2006 prototype)
+* The Elder Scrolls Travels - Oblivion (Nov 21, 2006 prototype)
+* The Eye of Judgement - Legends (Sep 28, 2009 prototype)
+* The Lord of the Rings - Tactics (Oct 4, 2005 prototype)
+* Tiger Woods PGA Tour 09 (Jul 15, 2008 prototype)
+* Tom Clancy's Splinter Cell Essentials (Jan 18, 2006 prototype)
+* WRC - FIA World Rally Championship (Aug 11, 2005 prototype)
+* Work Time Fun (Jul 27, 2006 prototype)
+
+
+---
 # References
 [^1]- [Gamasutra - Vicious Engine To Support PSP Minis Program](https://www.gamasutra.com/view/news/116317/Vicious_Engine_To_Support_PSP_Minis_Program.php)
