@@ -70,9 +70,9 @@ SDK Version | Publicly Leaked? | Notes
 2.3.0 | No | `Grand Theft Auto III` **Jun 2001**
 2.3.2 | No | ` AirBlade Demo`
 2.3.4 | No | `Shaun Palmer's Pro Snowboarding Demo`
-2.4.0 | No | `Crash Bandicoot: The Wrath of Cortex Demo`
+2.4.0 | No | `Crash Bandicoot The Wrath of Cortex Demo`
 2.4.1 | No | `Parappa the Rapper 2 Demo `
-2.4.2 | No | `Xenosaga Episode I: Der Wille zur Macht`
+2.4.2 | No | `Xenosaga Episode I Der Wille zur Macht`
 2.4.3 | No | `007 Nightfire`
 2.5.0 | No | `Mx Superfly Demo`
 2.5.2 | No | `VRally 3`
@@ -81,7 +81,13 @@ SDK Version | Publicly Leaked? | Notes
 2.7.0 | Docs leaked | **March 2003**
 2.7.1 | No | `Jak II`
 2.7.2 | No | 
-
+2.8.0 | No | `Fatal Frame 2`
+2.8.1 | No | `Bloody Roar` MCMAN.IRX has `PSIImcman 2810`
+3.0.0 | (publicly leaked with 2.7 Docs; maybe incomplete) | `Resident Evil 4` **Nov 2003**
+3.0.1 | No | `24 The Game`
+3.0.2 | publicly leaked maybe incomplete | `Shadow of the Colossus (PAL)` **Jul 2004**
+3.0.3 | publicly leaked **complete** | **Jun 2005**
+3.1.0 | No | 
 
 
 ### How to check version of SDK in use
