@@ -50,6 +50,9 @@ SDK Version | Publicly Leaked? | Notes
 1.5.7 | No | 
 1.6.0 | No | `Star Wars Super Bomad Racing Demo`
 1.6.0a | No | 
+
+SDK Version | Publicly Leaked? | Notes
+--- | --- | ---
 1.6.3 | No | `SSX (PAL)` **Jun 2000**
 1.6.4 | No | 
 1.6.5 | No | `Midnight Club (PAL)` 
@@ -58,6 +61,9 @@ SDK Version | Publicly Leaked? | Notes
 2.0.3 | No | `New library called "libhig" (High Level Graphics)`
 2.0.2 | No | `This is Football 2002`
 2.0.5 | No | 
+
+SDK Version | Publicly Leaked? | Notes
+--- | --- | ---
 2.0.6 | No | `Nov 2000`
 2.1.0 | No | `Gauntlet Dark Legacy Demo`
 2.1.1 | No | `Dark Cloud Demo`
@@ -67,6 +73,9 @@ SDK Version | Publicly Leaked? | Notes
 2.2.1 | No | `Jak and Daxter`
 2.2.2 | No | `Shadow Hearts`
 2.2.4 | No | `ICO (PAL)`
+
+SDK Version | Publicly Leaked? | Notes
+--- | --- | ---
 2.3.0 | No | `Grand Theft Auto III` **Jun 2001**
 2.3.2 | No | ` AirBlade Demo`
 2.3.4 | No | `Shaun Palmer's Pro Snowboarding Demo`
@@ -78,6 +87,9 @@ SDK Version | Publicly Leaked? | Notes
 2.5.2 | No | `VRally 3`
 2.5.4 | No | `The Mark of Kri`
 2.5.5 | No | `Virtual Fighter 4 Evolution (Korean version)`
+
+SDK Version | Publicly Leaked? | Notes
+--- | --- | ---
 2.7.0 | Docs leaked | **March 2003**
 2.7.1 | No | `Jak II`
 2.7.2 | No | 
