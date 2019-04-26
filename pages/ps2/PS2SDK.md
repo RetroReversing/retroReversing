@@ -73,23 +73,24 @@ SDK Version | Publicly Leaked? | Notes
 2.2.1 | No | `Jak and Daxter`
 2.2.2 | No | `Shadow Hearts`
 2.2.4 | No | `ICO (PAL)`
+2.3.0 | No | `Grand Theft Auto III` **Jun 2001**
+2.3.2 | No | `AirBlade Demo`
 
 SDK Version | Publicly Leaked? | Notes
 --- | --- | ---
-2.3.0 | No | `Grand Theft Auto III` **Jun 2001**
-2.3.2 | No | ` AirBlade Demo`
-2.3.4 | No | `Shaun Palmer's Pro Snowboarding Demo`
+2.3.4 | No | `Shaun Palmers Pro Snowboarding Demo`
 2.4.0 | No | `Crash Bandicoot The Wrath of Cortex Demo`
 2.4.1 | No | `Parappa the Rapper 2 Demo `
 2.4.2 | No | `Xenosaga Episode I Der Wille zur Macht`
 2.4.3 | No | `007 Nightfire`
 2.5.0 | No | `Mx Superfly Demo`
 2.5.2 | No | `VRally 3`
-2.5.4 | No | `The Mark of Kri`
-2.5.5 | No | `Virtual Fighter 4 Evolution (Korean version)`
+
 
 SDK Version | Publicly Leaked? | Notes
 --- | --- | ---
+2.5.4 | No | `The Mark of Kri`
+2.5.5 | No | `Virtual Fighter 4 Evolution (Korean version)`
 2.7.0 | Docs leaked | **March 2003**
 2.7.1 | No | `Jak II`
 2.7.2 | No | 
