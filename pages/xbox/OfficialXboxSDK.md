@@ -27,8 +27,15 @@ Unsurprisingly the XDK requires Microsoft Visual Studio as the IDE and Microsoft
 
 # Publicly Leaked XDKs
 The following versions of the SDK have been released to the public unofficially and can be found on sites like archive.org:
-* XDK 4361
+* XDK 4361 2002-03-01 (Accession)
+* XDK 4627 2002-07-05 (WAM)
+* XDK 5558 2003-06-12 (COMPLEX)
+* XDK 5659 2003-08-27 (COMPLEX)
+* XDK 5788 2003-11-24 (COMPLEX)
+* XDK 5849
+* XDK 5933 2005-03-22 (WAM)
 
+---
 # Cleaning up Previous installs
 It is important to remove previous installs of the SDK and the installer actively checks the version number of an installed xdk and won't allow you to install prior versions.
 
@@ -77,3 +84,9 @@ XboxSDK.chi | Compiled Help index for the CHM file
 ---
 # Samples
 If you had Visual C++ installed when you installed the SDK you will find a `Samples` folder under `Program Files/ Microsoft Xbox SDK` which contains example source code that can be compiled for the Xbox.
+
+---
+# Includes
+
+---
+# Libraries
