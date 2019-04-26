@@ -29,6 +29,7 @@ Updates were provided to licenced playstation developers on ps2-pro.com, where t
 
 ### SDK Versions
 
+
 SDK Version | Publicly Leaked? | Notes
 --- | --- | ---
 0.3.0 | No | 
@@ -87,6 +88,7 @@ SDK Version | Publicly Leaked? | Notes
 3.0.2 | publicly leaked; maybe incomplete | `Shadow of the Colossus (PAL)` **Jul 2004**
 3.0.3 | publicly leaked; **complete** | **Jun 2005**
 3.1.0 | No | 
+
 
 ### How to check version of SDK in use
 You are really just looking for a string of the form "PSII* 2720" where the * denotes text that can change based on which library you search.
