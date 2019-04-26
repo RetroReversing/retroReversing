@@ -36,6 +36,19 @@ SDK Version | Publicly Leaked? | Notes
 0.4.0 | No | 
 0.5.0 | No | 
 1.0 | No | **Sep 1999**
+1.1 | No | 
+1.2 | No | 
+1.3 | No | 
+1.3.1 | No | 
+1.4 | No | 
+1.4.1 | No | **Feb 2000**
+1.4.2 | No | 
+1.4.3 | No | 
+1.5 | No | **Apr 2000**
+1.5.1 | No | 
+1.5.3 | No | 
+1.5.7 | No | 
+1.6.0 | No | `Star Wars Super Bomad Racing Demo`
 
 
 
