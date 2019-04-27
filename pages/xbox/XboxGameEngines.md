@@ -197,6 +197,36 @@ Games:
 * Freedom Fighters
 
 ---
+## RIOT Engine
+To find a game that uses this engine simply search for `RIOT Engine` in the main executable.
+
+Games: 
+* The Suffering
+* The Suffering - Ties That Bind
+* Mortal Kombat Shaolin Monks
+
+Questionable Games:
+* Lord of the Rings Fellowship of the Rings (apparently this engine was used for PS2 and PC but it doesn't seem to be for the xbox version)
+
+## Mercury Engine
+The internal engine used by the company MercurySteam [^3]
+Games:
+* Scrapland [^3]
+
+---
+## Jade Engine
+Developed by UbiSoft initially for Beyond Good and Evil but also used for Prince of Persia [^4].
+`\\Jade
+
+Games:
+* Prince of Persia and the Sands of Time [^4] 
+* Prince of Persia Two Thrones
+* Prince of Persia Warrior Within [^4]
+* Beyond Good And Evil [^4]
+* King Kong
+
+
+---
 # Middleware
 
 ## Havok Physics Engine
@@ -252,10 +282,81 @@ Games:
 ---
 ## Renderware
 The Renderware Engine can be used anywhere from a simple graphics middleware to a full fledged game engine. 
+
 The Renderware engine provided graphics, audio, physics and AI modules. Most games only used a subset of the modules, with the graphics engine being the most popular.
 
+You can find out if your game was built using Renderware by searching the main executable for `RwFont`, `rwsdk` or simply `Renderware`/`RenderWare`
+
 Games:
-* 
+* Antz - Extreme Racing
+* Aquaman - Battle for Atlantis
+* Army Men - Sarge's War
+* Atari Anthology
+* Batman - Rise of Sin Tzu
+* Broken Sword - The Sleeping Dragon
+* Black
+* Burnout
+* Burnout 2 - Point of Impact
+* Burnout 3 Takedown
+* Call of Duty - Finest Hour
+* Classified - Sentinel Crisis
+* Curse - The Eye of Isis
+* Darkwatch
+* Dead to Rights 2
+* ESPN Major League Baseball
+* Evil Dead - Regeneration
+* Frogger Beyond
+* Furious Karting
+* Future Tactics The Uprising
+* Grand Theft Auto III
+* GTA San Andreas
+* GTA Vice City
+* Gravity Games Bike
+* Headhunter Redemption
+* Heroes of the Pacific
+* High Heat Baseball 2004
+* High Roller Casino
+* Kill Switch
+* Kung Fu Chaos
+* Manhunt
+* Max Payne 2
+* MLB SlugFest 2006
+* MLB SlugFest Loaded
+* Mortal Kombat Armageddon
+* Mortal Kombat Deception
+* Mx 2002
+* Mx Superfly
+* Need for Speed Underground 2
+* NFL Blitz 2k3
+* NFL Blitz PRO
+* NFL Blitz The League
+* Nickelodeon Party Blast
+* Outlaw Golf - 9 Holes of Xmas
+* Outlaw Golf 2
+* Outlaw Tennis
+* Outlaw Volleyball
+* Outlaw Volleyball - Red Hot
+* Redcard 2003
+* Robocop
+* Run Like Hell
+* Scooby Doo - Mystery Mayhem
+* Scooby Doo - Night of 100 Frights
+* Secret Weapons Over Normandy
+* Sonic Heroes
+* SpongeBob - Battle for Bikini Bottom
+* SpongeBob - Lights Camera PANTS
+* Starsky and Hutch
+* Strike Force Bowling
+* Teenage Mutant Ninja Turtles
+* TMNT - Mutant Melee
+* The Warriors
+* Tony Hawks Pro Skater 3
+* Top Gear - RPM Tuning
+* Toxic Grind
+* World Championship Poker
+* World Series Baseball
+* World Series Baseball 2K3
+* Xyanide
 
 ---
 ## Bink 2 (Video Playback Middleware)
@@ -282,7 +383,14 @@ Games:
 * IHRA Drag Racing Sportsman Edition
 * Jurassic Park Operation Genesis
 * Rainbow Six - Critical Hour
+* Rainbow Six - Lockdown
+* Scrapland
+* Stacked
+* The Dukes of Hazzard
+* Xbox Live Arcade
 
 # References
 [^1]: [CroTeam About](http://www.croteam.com/about/#)
 [^2]: [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
+[^3]: [Evolution of Mercury Engine Games 2004-2017 - YouTube](https://www.youtube.com/watch?v=4wJq55jAgPM)
+[^4]: [Evolution of Jade Engine Games 2003-2010 - YouTube](https://www.youtube.com/watch?v=7V4d4R1pLwQ)
