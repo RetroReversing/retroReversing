@@ -6,7 +6,7 @@ tags:
 - debug
 title: Original Xbox Games with Debug Symbols
 thumbnail: /public/consoles/Microsoft Xbox.png
-image: /public/consoles/Microsoft Xbox.png
+image: /public/images/xbox/XboxGameDebugSymbols.jpg
 permalink: /xbox-debug-symbol-games
 breadcrumbs:
   - name: Home
