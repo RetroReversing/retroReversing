@@ -42,16 +42,15 @@ If you would like to add a game to the list please make sure to check the execut
 
 ---
 # Full Retail Game Engines
-These engines were sold to developers as a product as apposed to 'in-house' engines that were only used by one company.
+These engines were sold to developers as a product as opposed to 'in-house' engines that were only used by one company.
 
 ## Unreal Engine
 <section class="postSection">
 <img src="/public/images/engines/UnrealEngineLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
-
 <div markdown="1">
 The Unreal Engine was developed by [Epic Games](https://www.epicgames.com/) initially for their game `Unreal` but later evolved to become a product in itself with many 3rd party games studios taking advantage of its power.
 
-To find out if your games uses this engine look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
+To find out if your games uses this engine, look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
 
 Games:
 * America's Army - Rise Of Soldier
@@ -73,15 +72,22 @@ Games:
 </div>
 </section>
 
-
 ---
 ## Vicious Engine
-Look for games that have `*.rgn` files, these are Region files so similar to maps/levels.
+<section class="postSection">
+<img src="/public/images/engines/ViciousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Vicious Engine was developed by Vicious Cycle Software and released late in the Xbox lifecycle in early 2005, thus very few 3rd party game developers used this engine for the Xbox but it was nevertheless available to them during the end of the xbox lifespan.
+  
+To find out if your games uses this engine, look for games that have `*.rgn` files, RGN stands for Region in this case which is the terminology Vicious Engine uses for Maps/Levels.
 
 Games:
 * Curious George
 * Dinotopia - The Sunstone Odyssey
 * Spy vs Spy
+
+</div>
+</section>
 
 ---
 ## Gamebryo (formerly NetImmerse)
