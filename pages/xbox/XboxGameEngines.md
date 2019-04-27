@@ -42,8 +42,13 @@ If you would like to add a game to the list please make sure to check the execut
 
 ---
 # Full Retail Game Engines
+These engines were sold to developers as a product as apposed to 'in-house' engines that were only used by one company.
 
 ## Unreal Engine
+<section class="postSection">
+<img src="/public/engines/UnrealEngineLogo.png" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
 
 Games:
@@ -62,6 +67,10 @@ Games:
 * Pariah
 * Rainbow Six 3
 * Rainbow Six 3 - Black Arrow
+
+</div>
+</section>
+
 
 ---
 ## Vicious Engine
