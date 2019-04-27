@@ -46,7 +46,7 @@ These engines were sold to developers as a product as apposed to 'in-house' engi
 
 ## Unreal Engine
 <section class="postSection">
-<img src="/public/engines/UnrealEngineLogo.png" class="wow slideInLeft postImage" />
+<img src="/public/images/engines/UnrealEngineLogo.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 Look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
