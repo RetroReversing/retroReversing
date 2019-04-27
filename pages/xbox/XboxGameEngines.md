@@ -274,7 +274,9 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/RiotEngine.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The RIOT engine was developed by Surreal Software initially for their Drakan serious of games but later used for Xbox games such as The Suffering.
+The RIOT engine was developed by Surreal Software initially for their Drakan series of games but later used for Xbox games such as The Suffering.
+  
+  You can find out more about this engine in a Gamasutra retrospective of their game Drakan [Gamasutra - Postmortem: Surreal Software's Drakan: Order of the Flame](https://www.gamasutra.com/view/feature/131586/postmortem_surreal_softwares_.php?page=2)
   
 To find a game that uses this engine simply search for `RIOT Engine` in the main executable.
 
