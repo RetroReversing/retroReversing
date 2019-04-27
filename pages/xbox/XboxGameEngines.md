@@ -208,26 +208,47 @@ Games:
 
 ---
 ## id Tech 4
+<section class="postSection">
+<img src="/public/images/enginesidTechLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Developed by id Software the idTech 4 engine is the next generation of the Doom/Quake engine. 
+  
 To find out if your game uses this engine search for `idSysLocal` in the main executable.
 
 Games:
 * Doom 3
 * Doom 3 ROE
+</div>
+</section>
 
 ---
 ## Serious Engine
+<section class="postSection">
+<img src="/public/images/SeriousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Developed by CroTeam for the Serious sam franchise [^1].
+  
+To find out if your game was developed using this engine simply search for the engine name in the main game executable: `Serious Engine`.
 
 Games:
 * Serious Sam
+* Serious Sam II
+</div>
+</section>
 
 ---
 ## Shark 3D
-The Shark 3D engine was developed by `Spinor`. In order to find games developed using this engine search for `shark3d_snake_binary` or `spinor.com`.
+<section class="postSection">
+<img src="/public/images/SpinorShark3DLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Shark 3D engine was developed by `Spinor` for internal use only. 
+
+In order to find games developed using this engine search for `shark3d_snake_binary` or `spinor.com`.
 
 Games:
 * Dreamfall
+</div>
+</section>
 
 ---
 ## Real Virtuality
