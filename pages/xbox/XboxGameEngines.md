@@ -84,6 +84,7 @@ To find out if your games uses this engine, look for games that have `*.rgn` fil
 Games:
 * Curious George
 * Dinotopia - The Sunstone Odyssey
+* Robotech Invasion
 * Spy vs Spy
 
 </div>
