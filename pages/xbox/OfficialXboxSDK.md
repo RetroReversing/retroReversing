@@ -5,7 +5,7 @@ tags:
 - sdk
 title: Official Xbox SDK (XDK)
 thumbnail: /public/consoles/Microsoft Xbox.png
-image: /public/consoles/Microsoft Xbox.png
+image: /public/images/xbox/XboxSDK.jpg
 permalink: /xbox-sdk-xdk
 breadcrumbs:
   - name: Home
