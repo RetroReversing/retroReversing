@@ -259,7 +259,9 @@ Games:
 
 ---
 ## Glacier Engine
-The Glacier engine was developed by IO Interactive for their Hitman series of games, but was also used internally for a few other games such as Freedom Fighters on the xbox [^7].
+The Glacier engine was developed by IO Interactive for their Hitman series of games, but was also used internally for a few other games such as Freedom Fighters on the xbox. It was initially built in 1999 for Hitman: Codename 47 and for subsequent games up to but not including Hitman Absolution which used Glacier 2 a complete rewrite of the engine [^7].
+
+For a great run down of the mian features offered by the engine checkout this GiantBomb article: [Glacier Engine 1 (Concept) - Giant Bomb](https://www.giantbomb.com/glacier-engine-1/3015-7220/)
 
 Games that are built on the glacier engine tend to include the following string inside the main executable:
 `Z:\\code\\engine\\SDL_Engine\\Glacier\\scriptdll.cpp` or `engine\\ScriptInterfaces
