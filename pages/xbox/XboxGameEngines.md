@@ -79,13 +79,13 @@ Games:
 <div markdown="1">
 The Vicious Engine was developed by Vicious Cycle Software and released late in the Xbox lifecycle in early 2005, thus very few 3rd party game developers used this engine for the Xbox but it was nevertheless available to them during the end of the xbox lifespan.
   
-To find out if your games uses this engine, look for games that have `*.rgn` files, RGN stands for Region in this case which is the terminology Vicious Engine uses for Maps/Levels.
+To find out if your games uses this engine, look for games that have `*.rgn` files, RGN stands for Region in this case which is the terminology Vicious Engine uses for Maps/Levels. Although other games that don't use this engine could also use .rgn for a filename such as `Star Wars - Obi Wan` so we will need a better method of detection.
 
 Games:
 * Curious George
-* Dinotopia - The Sunstone Odyssey
-* Robotech Invasion
-* Spy vs Spy
+* Dinotopia - The Sunstone Odyssey [^6]
+* Robotech Invasion [^6]
+* Spy vs Spy [^6]
 
 </div>
 </section>
@@ -119,25 +119,48 @@ Games:
 These game engines were not shared with any other developer and tend of be genre-specific, so games with a similar genre will run on a similar engine.
 
 ## GoldSrc (Source Engine)
+<section class="postSection">
+<img src="/public/images/engines/SourceEngine.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 To find out if your games uses this engine, look for references to VEngine in the main xbox executable.
 
 Games:
 * Counterstrike
 * Half-Life 2
 
+</div>
+</section>
+
 ---
 ## CryEngine
+<section class="postSection">
+<img src="/public/images/engines/CryEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 To find out if your games uses this engine, look for games that have the `lua.dat` file.
+
+Games:
 * Far Cry - Instincts
 * Far Cry Instincts Evolution
 
+</div>
+</section>
+
 ---
 ## NgEngine (by Z-Axis)
+<section class="postSection">
+<img src="/public/images/engines/ZAxislogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The NgEngine by Z-Axis games has very little information written about it just a few references to its name littlered throughout the main game executables.
+
+To find out if your games uses this engine, search the executable for `/NgEngine`.
 
 Games:
 * Aggressive Inline
 * BMX XXX
 * Dave Mirra Freestyle BMX 2
+
+</div>
+</section>
 
 ---
 ## Diesel engine
@@ -259,6 +282,9 @@ Games:
 # Middleware
 
 ## Havok Physics Engine
+<section class="postSection">
+<img src="/public/images/engines/HavokLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 The Havok Physics engine was very popular with developers during the xbox era, with over 36 known games that use the middleware.
 
 To find out if a game uses Havok just search for the string `havok.com` in the main xbe executable file. Normally the havok libraries contain error messages redirecting to the havok.com website.
@@ -307,9 +333,14 @@ Games:
 * Splinter Cell - Chaos Theory
 * Splinter Cell - Double Agent
 * Starsky and Hutch
+</div>
+</section>
 
 ---
 ## Renderware
+<section class="postSection">
+<img src="/public/images/engines/RenderWareLogo.gif" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 The Renderware Engine can be used anywhere from a simple graphics middleware to a full fledged game engine. 
 
 The Renderware engine provided graphics, audio, physics and AI modules. Most games only used a subset of the modules, with the graphics engine being the most popular.
@@ -387,14 +418,27 @@ Games:
 * World Series Baseball 2K3
 * Xyanide
 
+</div>
+</section>
+
 ---
 ## Bink 2 (Video Playback Middleware)
+<section class="postSection">
+<img src="/public/images/engines/BinkLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Bink was pretty much the industry standard for Video Playback on the Xbox and game development in general at the time.
 
 So many games use the middleware that we would be pretty much listing the entire Xbox library. If you want to find out if your game uses Bink then either search for the string `Not a Bink file.` in the executable, or look for `.bik` files on the game disc.
+</div>
+</section>
 
 ---
 ## FMOD sound and music Middleware
+<section class="postSection">
+<img src="/public/images/engines/FMODLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The FMOD Sound and Music middleware library is one of the industry standard for audio playback on games consoles and was used extensivly in the Xbox Generation of consoles and beyond.
+  
 To find out if your game uses FMOD for audio playback look for the string `FMOD Sample Bank` in the main executable.
 
 Games:
@@ -417,10 +461,14 @@ Games:
 * Stacked
 * The Dukes of Hazzard
 * Xbox Live Arcade
+</div>
+</section>
 
+---
 # References
 [^1]: [CroTeam About](http://www.croteam.com/about/#)
 [^2]: [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
 [^3]: [Evolution of Mercury Engine Games 2004-2017 - YouTube](https://www.youtube.com/watch?v=4wJq55jAgPM)
 [^4]: [Evolution of Jade Engine Games 2003-2010 - YouTube](https://www.youtube.com/watch?v=7V4d4R1pLwQ)
 [^5]: [Gamebryo(R) Powered Titles On Display at the September 1-5 Game Stars Live | GamesIndustry.biz](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
+[^6]: [Vicious Engine : About Us](http://viciousengine.com/about-us.php)
