@@ -250,6 +250,11 @@ Games:
 
 ---
 ## RIOT Engine
+<section class="postSection">
+<img src="/public/images/engines/RiotEngine.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The RIOT engine was developed by Surreal Software initially for their Drakan serious of games but later used for Xbox games such as The Suffering.
+  
 To find a game that uses this engine simply search for `RIOT Engine` in the main executable.
 
 Games: 
@@ -260,10 +265,22 @@ Games:
 Questionable Games:
 * Lord of the Rings Fellowship of the Rings (apparently this engine was used for PS2 and PC but it doesn't seem to be for the xbox version)
 
+</div>
+</section>
+
 ## Mercury Engine
-The internal engine used by the company MercurySteam [^3]
+<section class="postSection">
+<img src="/public/images/engines/MercurySteamLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The internal engine used by the company MercurySteam known for the game Scrapland on Xbox [^3].
+  
+To find a game that uses this engine just search for the developer name in the main game executable: `MercurySteam`.
+  
 Games:
 * Scrapland [^3]
+
+</div>
+</section>
 
 ---
 ## Jade Engine
@@ -470,5 +487,5 @@ Games:
 [^2]: [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
 [^3]: [Evolution of Mercury Engine Games 2004-2017 - YouTube](https://www.youtube.com/watch?v=4wJq55jAgPM)
 [^4]: [Evolution of Jade Engine Games 2003-2010 - YouTube](https://www.youtube.com/watch?v=7V4d4R1pLwQ)
-[^5]: [Gamebryo(R) Powered Titles On Display at the September 1-5 Game Stars Live | GamesIndustry.biz](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
+[^5]: [Gamebryo(R) Powered Titles On Display](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
 [^6]: [Vicious Engine : About Us](http://viciousengine.com/about-us.php)
