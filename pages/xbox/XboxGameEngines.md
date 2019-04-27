@@ -6,7 +6,7 @@ tags:
 - engines
 title: Original Xbox Game Engines
 thumbnail: /public/consoles/Microsoft Xbox.png
-image: /public/consoles/Microsoft Xbox.png
+image: /public/images/xbox/XboxGameEngines.jpg
 permalink: /xbox-game-engines
 breadcrumbs:
   - name: Home
