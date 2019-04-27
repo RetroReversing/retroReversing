@@ -209,7 +209,7 @@ Games:
 ---
 ## id Tech 4
 <section class="postSection">
-<img src="/public/images/enginesidTechLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<img src="/public/images/engines/idTechLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
 Developed by id Software the idTech 4 engine is the next generation of the Doom/Quake engine. 
   
@@ -224,7 +224,7 @@ Games:
 ---
 ## Serious Engine
 <section class="postSection">
-<img src="/public/images/SeriousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<img src="/public/images/engines/SeriousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
 Developed by CroTeam for the Serious sam franchise [^1].
   
@@ -239,7 +239,7 @@ Games:
 ---
 ## Shark 3D
 <section class="postSection">
-<img src="/public/images/SpinorShark3DLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<img src="/public/images/engines/SpinorShark3DLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
 The Shark 3D engine was developed by `Spinor` for internal use only. 
 
@@ -259,10 +259,11 @@ Games:
 
 ---
 ## Glacier Engine
+The Glacier engine was developed by IO Interactive for their Hitman series of games, but was also used internally for a few other games such as Freedom Fighters on the xbox [^7].
+
 Games that are built on the glacier engine tend to include the following string inside the main executable:
 `Z:\\code\\engine\\SDL_Engine\\Glacier\\scriptdll.cpp` or `engine\\ScriptInterfaces
 `
-
 Games:
 * Hitman 2 Silent Assassin
 * Hitman Blood Money
@@ -512,3 +513,4 @@ Games:
 [^4]: [Evolution of Jade Engine Games 2003-2010 - YouTube](https://www.youtube.com/watch?v=7V4d4R1pLwQ)
 [^5]: [Gamebryo(R) Powered Titles On Display](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
 [^6]: [Vicious Engine : About Us](http://viciousengine.com/about-us.php)
+[^7]: [Gamasutra - An Engine For Assassination IO's Tech Director Speaks](http://www.gamasutra.com/view/feature/134933/an_engine_for_assassination_ios_.php)
