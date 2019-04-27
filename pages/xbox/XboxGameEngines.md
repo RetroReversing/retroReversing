@@ -46,10 +46,12 @@ These engines were sold to developers as a product as apposed to 'in-house' engi
 
 ## Unreal Engine
 <section class="postSection">
-<img src="/public/images/engines/UnrealEngineLogo.png" class="wow slideInLeft postImage" />
+<img src="/public/images/engines/UnrealEngineLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-Look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
+The Unreal Engine was developed by [Epic Games](https://www.epicgames.com/) initially for their game `Unreal` but later evolved to become a product in itself with many 3rd party games studios taking advantage of its power.
+
+To find out if your games uses this engine look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
 
 Games:
 * America's Army - Rise Of Soldier
