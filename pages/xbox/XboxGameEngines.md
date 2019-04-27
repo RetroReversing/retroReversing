@@ -91,7 +91,13 @@ Games:
 
 ---
 ## Gamebryo (formerly NetImmerse)
-Look for .kfm files or .nif files or references to `NiSystem`
+<section class="postSection">
+<img src="/public/images/engines/GameBryoLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Gamebryo engine was developed by Gamebase and licensed to 3rd party game developers such as UbiSoft and Atari for use on the Xbox and other gaming platforms [^5].
+  
+To find out if your games uses this engine, look for .kfm files or .nif files or references to `NiSystem` or `Gamebryo File Format` in the main game executable.
+  
 Games:
 * Bass Trophy Hunter 2007
 * Futurama
@@ -101,13 +107,18 @@ Games:
 * Morrowind Game of the Year
 * Oddworld - Munchs Oddysee
 * Playboy The Mansion
+* Sid Meiers Pirates!
+* Stacked
+
+</div>
+</section>
 
 ---
 # In-House Game Engines
 These game engines were not shared with any other developer and tend of be genre-specific, so games with a similar genre will run on a similar engine.
 
 ## GoldSrc (Source Engine)
-Look for references to VEngine in the main xbox executable.
+To find out if your games uses this engine, look for references to VEngine in the main xbox executable.
 
 Games:
 * Counterstrike
@@ -115,7 +126,7 @@ Games:
 
 ---
 ## CryEngine
-Look for games that have the `lua.dat` file.
+To find out if your games uses this engine, look for games that have the `lua.dat` file.
 * Far Cry - Instincts
 * Far Cry Instincts Evolution
 
@@ -129,7 +140,7 @@ Games:
 
 ---
 ## Diesel engine
-Look for games that have a `*.bfs` file which seems to be the packed game format for the engine.
+To find out if your games uses this engine, look for games that have a `*.bfs` file which seems to be the packed game format for the engine.
 
 Games:
 * Flatout
@@ -411,3 +422,4 @@ Games:
 [^2]: [Real Virtuality 1 engine - Mod DB](https://www.moddb.com/engines/real-virtuality)
 [^3]: [Evolution of Mercury Engine Games 2004-2017 - YouTube](https://www.youtube.com/watch?v=4wJq55jAgPM)
 [^4]: [Evolution of Jade Engine Games 2003-2010 - YouTube](https://www.youtube.com/watch?v=7V4d4R1pLwQ)
+[^5]: [Gamebryo(R) Powered Titles On Display at the September 1-5 Game Stars Live | GamesIndustry.biz](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
