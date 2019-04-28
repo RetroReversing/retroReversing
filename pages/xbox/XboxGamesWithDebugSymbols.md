@@ -7,7 +7,7 @@ tags:
 title: Original Xbox Games with Debug Symbols
 thumbnail: /public/consoles/Microsoft Xbox.png
 image: /public/images/xbox/XboxGameDebugSymbols.jpg
-permalink: /xbox-debug-symbol-games
+permalink: /xbox-game-debug-symbols
 breadcrumbs:
   - name: Home
     url: /
@@ -36,12 +36,23 @@ Symbols compiled into the executable themselves are much harder to spot and tend
 The creme de la creme of useful data for reversers are PDB files and it is very rare for a game to include them on a retail release (or even a prototype for that matter). 
 
 So we are very lucky that after searching pretty much the entire Xbox game library we finally found 2 games with the PDB files fully intact, they are:
-* Crusty Demons (`Crusty.pdb`, `Crusty.map`)
+* ATV 3 - Lawless (Beta) (`Default.pdb`)
+* Crusty Demons (`Crusty.pdb`)
 * Gauntlet Dark Legacy (`shell3D.pdb`)
+* Xyanide (Multiple pdb files!)
 
 ---
 # Linker MAP files (.map)
+* ATV 3 - Lawless (Beta) (`Default.map`)
 * Buffy the Vampire Slayer (`final.map`)
+* Crusty Demons (`Crusty.map`)
+* Miami Vice (`Data1.AIF`)
+* Predator - Concrete Jungle
+* Sphinx And The Cursed Mummy
+* The Red Star
+* Wrath Unleashed
+* X-Men - The Official Game (`X3.ZPK`)
+* Xyanide (2003-05-07)
 
 # Other files
 These files need further investigation but it looks like they might contain debug symbols:
@@ -63,3 +74,9 @@ They can be a great place to start a game mod or simply to make the game easier/
 Games that use scripting:
 * Land of the Dead (Unreal Engine)
 * Pariah
+* 
+
+---
+# Games still to Check for Debug Symbols
+* Official Xbox Magazine demos
+* Xbox exhibition vol 1->7
