@@ -32,10 +32,10 @@ We have only managed to search Demo Disc 10->31 for debug symbols, if you have u
 
 Demo Disc | Game | Ps2 SDK | Debug Info?
 --- | --- | --- | ---
-10 August 2001 SCED_50145 | Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
-10 August 2001 SCED_50145 | Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
-10 August 2001 SCED_50145 | Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
-10 August 2001 SCED_50145 | GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
+#10 (August 2001, SCED_50145) | Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
+#10 (August 2001, SCED_50145) | Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
+#10 (August 2001, SCED_50145) | Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
+#10 (August 2001, SCED_50145) | GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 ## Demo Disc 11 - September 2001 SCED_50146
 
