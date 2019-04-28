@@ -58,7 +58,7 @@ Games:
 * Brother in Arms
 * Combat Task Force 121
 * Dead Man's Hand
-* Deus Ex Infinity War
+* Deus Ex Invisible War
 * Ghost Recon Advanced Warfighter
 * Land of the Dead
 * Magic the Gathering - Battlegrounds
@@ -342,7 +342,7 @@ Games:
 * Darkwatch
 * Destroy all humans
 * Destroy all humans 2
-* Deus Ex Infinity War
+* Deus Ex Invisible War
 * Ed Edd n Eddy The MIS-EDventures
 * Evil Dead - Regeneration
 * Full spectrum warrior
