@@ -464,8 +464,9 @@ Games:
 * Xyanide
 
 ### Renderware Debug information
-There is a prototype version of Xyanide  (2003-05-07) that contains the full debug symbols files (.pdb) and linker map files (.map).
-{% include link-to-other-post.html post="/xbox-game-debug-symbols/" description="For more information on Xbox debug symbols check out this post." %}
+There is a prototype version of Xyanide  (2003-05-07) that contains the full debug symbols files (.pdb) and linker map files (.map). 
+These could be useful to generate a function signature from and apply to other Renderware games.
+{% include link-to-other-post.html post="/xbox-game-debug-symbols" description="For more information on Xbox debug symbols check out this post." %}
 
 
 </div>
