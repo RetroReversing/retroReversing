@@ -17,19 +17,25 @@ breadcrumbs:
 recommend: symbols
 editlink: /ps2/PS2DemoDisks.md
 ---
+This page is dedicated to listing PS2 Demo Discs that contain developer debug symbols, either embedded inside the executable or as seperate .map or .sym files.
+
+It was much more common for PS2 debug symbols to be leaked on Demo Discs than their retail counterparts during the early days of the PS2 lifespan, later in the lifespan Demos with Debug symbols became rarer and rarer.
 
 ## PS2 Demo Discs from Official Playstation 2 Magazine UK
-You can find out more about these Demo Discs over at crimson-ceremony.net: http://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140
+The Official Playstation 2 Magazine in the UK often had a playable PS2 demo free with every magazine, this was a great way for games to 'try before you buy'.
 
-## Demo Disc 10 - August 2001 SCED_50145
+You can find out more about these Demo Discs over at crimson-ceremony.net: [demo pals - OPS2M Demo UK](https://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140).
 
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
-Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
-Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
-GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
+We have only managed to search Demo Disc 10->31 for debug symbols, if you have unsearched demos please help by contributing to this list!
 
+## List of games available with debug symbols
+
+Demo Disc | Game | Ps2 SDK | Debug Info?
+--- | --- | --- | ---
+10 August 2001 SCED_50145 | Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
+10 August 2001 SCED_50145 | Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
+10 August 2001 SCED_50145 | Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
+10 August 2001 SCED_50145 | GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
 
 ## Demo Disc 11 - September 2001 SCED_50146
 
