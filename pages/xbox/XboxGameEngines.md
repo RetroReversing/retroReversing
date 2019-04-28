@@ -118,11 +118,13 @@ Games:
 # In-House Game Engines
 These game engines were not shared with any other developer and tend of be genre-specific, so games with a similar genre will run on a similar engine.
 
-## GoldSrc (Source Engine)
+## GoldSrc Engine
 <section class="postSection">
 <img src="/public/images/engines/SourceEngine.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-To find out if your games uses this engine, look for references to VEngine in the main xbox executable.
+The GoldSrc engine was originally a modification of the Quake Engine created by Valve for Half-life and then re-used for other internal projects such as Counterstrike. This engine was later forked and mostly rewritten to become the basis of the new Half Life engine known as `Source` [^8].
+  
+To find out if your games uses this engine, look for references to `VEngine` in the main xbox executable.
 
 Games:
 * Counterstrike
@@ -516,3 +518,4 @@ Games:
 [^5]: [Gamebryo(R) Powered Titles On Display](https://www.gamesindustry.biz/articles/gamebryor-powered-titles-on-display-at-the-september-1-5-game-stars-live)
 [^6]: [Vicious Engine : About Us](http://viciousengine.com/about-us.php)
 [^7]: [Gamasutra - An Engine For Assassination IO's Tech Director Speaks](http://www.gamasutra.com/view/feature/134933/an_engine_for_assassination_ios_.php)
+[^8]: [GoldSrc - Wikipedia](https://en.wikipedia.org/wiki/GoldSrc)
