@@ -28,7 +28,7 @@ You can find out more about these Demo Discs over at crimson-ceremony.net: [demo
 
 We have only managed to search Demo Disc 10->31 for debug symbols, if you have unsearched demos please help by contributing to this list!
 
-## List of games available with debug symbols
+### List of games available with debug symbols
 
 Demo Disc | Game | Ps2 SDK | Debug Info?
 --- | --- | --- | ---
@@ -41,92 +41,35 @@ Demo Disc | Game | Ps2 SDK | Debug Info?
 12 - October 2001 SCED_50147 | Portal Runner | PS2SDK 2.1.4 | **5,101** Debug Symbols
 12 - October 2001 SCED_50147 | Spy Hunter | PS2SDK 2.1.0 | **11,268** Debug Symbols
 12 - October 2001 SCED_50147 | Soul Reaver 2 | PS2SDk 2.1.4 | **4,376** Debug Symbols
-
-## Demo Disc 13 - November 2001 SCED_50148
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-NBA Street | PS2SDK 2.1.0 | **9,125** Debug Symbols, also contains C++ header .h for animation files
-Driven | PS2SDK 2.2.4 | **7,752** Debug Symbols
-Mx 2002 | PS2SDK 2.1.4 | **4,892** Debug Symbols
-SplashDown MPEG Player | PS2SDK 2.3.0 | **947** Debug Symbols
-
-
-
-## Demo Disc 14 - December 2001 SCED_50149
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-AirBlade | PS2SDK 2.3.2 | 3962 Debug Symbols
-Dark Cloud | PS2SDK 2.1.1 | 3952 Debug Symbols
-Tarzan Freeride | PS2SDK 2.2.4 | 10,588 Debug Symbols
-
----
-
-## Demo Disc 15 - Christmas 2001 SCED_50150J
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-GTC: Africa | PS2SDK 2.2.4 | Full Debug Symbols (2.5mb elf)
-Lotus Challenge | PS2SDK 2.1.4 | Full Debug Symbols (1.8mb elf)
-Jak and Daxter | PS2SDK 2.2.1 | 880 Debug Symbols (incomplete) (532kb elf)
-Extreme-G 3 | PS2SDK 2.1.4 | 2874 Debug Symbols (7.4mb elf)
-
-
-
-## Demo Disc 16 - January 2002 SCED_50151
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Shaun Palmer's Pro Snowboarding | PS2SDK 2.3.4 | Full Debug Symbols
-Ecco the Dolphin: Defender of the Future | PS2SDK 2.2.0 | Full Debug Symbols (33mb elf)
-FIFA Football 2002 | PS2SDK 2.2.0 | Full Debug Symbols (7.6mb elf)
-Twisted Metal: Black | PS2SDK 2.1.3 | Full Debug Symbols (5.6mb elf) `LGDEV.IRX`
-
+13 - November 2001 SCED_50148 | NBA Street | PS2SDK 2.1.0 | **9,125** Debug Symbols, also contains C++ header .h for animation files
+13 - November 2001 SCED_50148 | Driven | PS2SDK 2.2.4 | **7,752** Debug Symbols
+13 - November 2001 SCED_50148 | Mx 2002 | PS2SDK 2.1.4 | **4,892** Debug Symbols
+13 - November 2001 SCED_50148 | SplashDown MPEG Player | PS2SDK 2.3.0 | **947** Debug Symbols
+14 - December 2001 SCED_50149 | AirBlade | PS2SDK 2.3.2 | 3962 Debug Symbols
+14 - December 2001 SCED_50149 | Dark Cloud | PS2SDK 2.1.1 | 3952 Debug Symbols
+14 - December 2001 SCED_50149 | Tarzan Freeride | PS2SDK 2.2.4 | 10,588 Debug Symbols
+15 - Christmas 2001 SCED_50150J | GTC: Africa | PS2SDK 2.2.4 | Full Debug Symbols (2.5mb elf)
+15 - Christmas 2001 SCED_50150J | Lotus Challenge | PS2SDK 2.1.4 | Full Debug Symbols (1.8mb elf)
+15 - Christmas 2001 SCED_50150J | Jak and Daxter | PS2SDK 2.2.1 | 880 Debug Symbols (incomplete) (532kb elf)
+15 - Christmas 2001 SCED_50150J | Extreme-G 3 | PS2SDK 2.1.4 | 2874 Debug Symbols (7.4mb elf)
+16 - January 2002 SCED_50151 | Shaun Palmer's Pro Snowboarding | PS2SDK 2.3.4 | Full Debug Symbols
+16 - January 2002 SCED_50151 | Ecco the Dolphin: Defender of the Future | PS2SDK 2.2.0 | Full Debug Symbols (33mb elf)
+16 - January 2002 SCED_50151 | FIFA Football 2002 | PS2SDK 2.2.0 | Full Debug Symbols (7.6mb elf)
+16 - January 2002 SCED_50151 | Twisted Metal: Black | PS2SDK 2.1.3 | Full Debug Symbols (5.6mb elf) `LGDEV.IRX`
+17 - February 2002 SCED_50152 | Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | Full Debug Symbols
+17 - February 2002 SCED_50152 | Parappa the Rapper 2 | PS2SDK 2.4.1 | Full Debug Symbols
+17 - February 2002 SCED_50152 | Robot Wars| PS2SDK 2.1.1 | Full Debug Symbols
+18 - March 2002 SCED_50153 | Drakan The Ancients Gates | PS2SDK 2.3.2 | No symbols sub has a txt file mentioning `Riot Engine` and a DEBUG folder and uses `SNPROFIL.IRX`
+18 - March 2002 SCED_50153 | GODAI Elemental Force | PS2SDK 2.1.4 | Full Debug Symbols! (6.4mb elf) plus SCRIPTS folder
+18 - March 2002 SCED_50153 | Herdy Gerdy | PS2 SDK 2.4.2 | No symbols but does have lots of printf debugging with filenames, plus `HGSOUND.TRX` Herdy Gerdy Sound IOP module
+18 - March 2002 SCED_50153 | Maximo | PS2 SDK 2.2.0 | Full Debug Symbols (5.9MB) `MJOLNIR.IRX`
+18 - March 2002 SCED_50153 | Stuntman Xav Stream Video | PS2 SDK | Full Debug Symbols (1mb) plus IOP Module for playing XAV files `XAVSTRM.IRX` (not a game)
+19 - April 2002 SCED_50154 | Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols
+19 - April 2002 SCED_50154 | Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols
+20 - May 2002 SCED_50743 | Rally Championship | PS2SDK 2.2.4 | **3,019** Debug Symbols
+20 - May 2002 SCED_50743 | Taz Wanted | PS2SDK 2.4.3 | **4,927** Debug symbols
 
 ---
-
-
-## Demo Disc 17 - February 2002 SCED_50152
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Crash Bandicoot: The Wrath of Cortex | PS2SDK 2.4.0 | Full Debug Symbols
-Parappa the Rapper 2 | PS2SDK 2.4.1 | Full Debug Symbols
-Robot Wars| PS2SDK 2.1.1 | Full Debug Symbols
-
----
-
-
-## Demo Disc 18 - March 2002 SCED_50153
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Drakan The Ancients Gates | PS2SDK 2.3.2 | No symbols sub has a txt file mentioning `Riot Engine` and a DEBUG folder and uses `SNPROFIL.IRX`
-GODAI Elemental Force | PS2SDK 2.1.4 | Full Debug Symbols! (6.4mb elf) plus SCRIPTS folder
-Herdy Gerdy | PS2 SDK 2.4.2 | No symbols but does have lots of printf debugging with filenames, plus `HGSOUND.TRX` Herdy Gerdy Sound IOP module
-Maximo | PS2 SDK 2.2.0 | Full Debug Symbols (5.9MB) `MJOLNIR.IRX`
-Stuntman Xav Stream Video | PS2 SDK | Full Debug Symbols (1mb) plus IOP Module for playing XAV files `XAVSTRM.IRX`
-
----
-
-
-## Demo Disc 19 - April 2002 SCED_50154
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Mike Tyson Heavyweight Boxing | PS2SDK 2.3.4 | Full Debug Symbols
-Vampire Night | PS2SDK 2.3.0 | Full Debug Symbols
-
-
-## Demo Disc 20 - May 2002 SCED_50743
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Rally Championship | PS2SDK 2.2.4 | **3,019** Debug Symbols
-Taz Wanted | PS2SDK 2.4.3 | **4,927** Debug symbols
-
-
 ## Demo Disc 21 - June 2002 SCED_50742
 
 Game | Ps2 SDK | Debug Info?
