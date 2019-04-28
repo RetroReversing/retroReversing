@@ -463,6 +463,11 @@ Games:
 * World Series Baseball 2K3
 * Xyanide
 
+### Renderware Debug information
+There is a prototype version of Xyanide  (2003-05-07) that contains the full debug symbols files (.pdb) and linker map files (.map).
+{% include link-to-other-post.html post="/xbox-game-debug-symbols/" description="For more information on Xbox debug symbols check out this post." %}
+
+
 </div>
 </section>
 
