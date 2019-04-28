@@ -32,28 +32,15 @@ We have only managed to search Demo Disc 10->31 for debug symbols, if you have u
 
 Demo Disc | Game | Ps2 SDK | Debug Info?
 --- | --- | --- | ---
-#10 (August 2001, SCED_50145) | Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
-#10 (August 2001, SCED_50145) | Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
-#10 (August 2001, SCED_50145) | Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
-#10 (August 2001, SCED_50145) | GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
-
-## Demo Disc 11 - September 2001 SCED_50146
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-Lotus Challenge | PS2SDK 2.1.4 | **2,837** Debug Symbols
-
-
-
-## Demo Disc 12 - October 2001 SCED_50147
-
-Game | Ps2 SDK | Debug Info?
---- | --- | ---
-MX Rider | PS2SDK 2.1.0 | **10,586** Debug Symbols
-Portal Runner | PS2SDK 2.1.4 | **5,101** Debug Symbols
-Spy Hunter | PS2SDK 2.1.0 | **11,268** Debug Symbols
-Soul Reaver 2 | PS2SDk 2.1.4 | **4,376** Debug Symbols
-
+10 - August 2001, SCED_50145) | Le Mans 24 Hours | PS2SDK 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concated together
+10 - August 2001, SCED_50145) | Gauntlet Dark Legacy | PS2SDK 2.1.0 | Full Debug Symbols! 
+10 - August 2001, SCED_50145) | Star Wars Super Bomad Racing | PS2 SDK 1.6.0 | None
+10 - August 2001, SCED_50145) | GT3 Quiz | PS2 SDK 2.2.4 | Full Debug Symbols!
+11 - September 2001 SCED_50146 | Lotus Challenge | PS2SDK 2.1.4 | **2,837** Debug Symbols
+12 - October 2001 SCED_50147 | MX Rider | PS2SDK 2.1.0 | **10,586** Debug Symbols
+12 - October 2001 SCED_50147 | Portal Runner | PS2SDK 2.1.4 | **5,101** Debug Symbols
+12 - October 2001 SCED_50147 | Spy Hunter | PS2SDK 2.1.0 | **11,268** Debug Symbols
+12 - October 2001 SCED_50147 | Soul Reaver 2 | PS2SDk 2.1.4 | **4,376** Debug Symbols
 
 ## Demo Disc 13 - November 2001 SCED_50148
 
