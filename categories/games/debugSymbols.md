@@ -49,7 +49,7 @@ Nintendo Wii | [Wii Games with Debug Symbols](https://www.retroreversing.com/wii
 Nintendo Wii U | [WiiU Games with Debug Symbols](https://www.retroreversing.com/wii-u-unstripped/)
 Nintendo Switch | N/A Not a retro console yet
 Sega Saturn |
-Sega Dreamcast |
+Sega Dreamcast | [Sega Dreamcast Games with Debug Symbols](https://www.retroreversing.com/sega-dreamcast-game-debug-symbols)
 Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-debug-symbol-games)
 Microsoft XBox 360 | N/A Not a retro console yet
 Microsoft XBox One | N/A Not a retro console yet
