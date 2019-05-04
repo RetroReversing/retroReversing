@@ -2,6 +2,7 @@
 layout: post
 tags: 
 - wiiU
+- gameengines
 title: WiiU eShop Game Engines
 image:  /public/wiiU/WiiUeShopGameEngines.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
