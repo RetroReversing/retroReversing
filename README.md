@@ -4,12 +4,13 @@ https://www.retroreversing.com/
 
 ---
 # Current collections of posts
-* [All Console Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
-* [All Console Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
-* [Console Games Source Code](https://www.retroreversing.com/games/sourcecode)
-* [Game Engines by Console](https://www.retroreversing.com/games/engines)
+* [Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
+* [Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
+* [Software Development Kits](https://www.retroreversing.com/sdks)
+* [Games Source Code](https://www.retroreversing.com/games/sourcecode)
+* [Game Engines](https://www.retroreversing.com/games/engines)
 * [Game File Formats](https://www.retroreversing.com/games/fileformats)
-* [Console Hardware Architecture](https://www.retroreversing.com/harware/consoles)
+* [Game Console Hardware Architecture](https://www.retroreversing.com/harware/consoles)
 
 ---
 # Future Posts to be written
