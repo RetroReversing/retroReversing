@@ -1,7 +1,7 @@
 ---
 permalink: /games/engines
 layout: blog-cards
-console: symbols
+console: gameengines
 breadcrumbs:
   - name: Home
     url: /
