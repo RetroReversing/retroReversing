@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - ps2
-- devkit
+- sdk
 title: IRX Files for Playstation 2
 thumbnail: /public/consoles/Sony PlayStation 2.png
 image: /public/consoles/Sony PlayStation 2.png
@@ -14,6 +14,7 @@ breadcrumbs:
     url: /ps2
   - name: IRX Files for Playstation 2
     url: #
+editlink: /ps2/irxFiles.md
 recommend: ps2
 ---
 
