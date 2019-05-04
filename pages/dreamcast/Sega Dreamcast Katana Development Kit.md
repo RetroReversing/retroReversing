@@ -6,7 +6,7 @@ tags:
 - hardware
 - devkit
 - sega
-title: Sega Dreamcast Katana Development Kit
+title: Sega Dreamcast Katana Development Kit Hardware
 thumbnail: /public/consoles/Sega Dreamcast.png
 image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
 permalink: /Sega-Dreamcast-Katana-Development-Kit
@@ -31,7 +31,6 @@ videocarousel:
     image: http://img.youtube.com/vi/qU3l5RUswgA/0.jpg
     youtube: 'qU3l5RUswgA'
   
-    
 recommend: sega
 references:
 - The Adequate Gamer
@@ -40,5 +39,22 @@ references:
 editlink: dreamcast/Sega Dreamcast Katana Development Kit.md
 ---
 
+# GD-X Duplicator (HKT-01)
+Hardware unit to duplicate GD-ROMs, not used for development but useful for duplicating discs for testers.
+
+You can see a video of the GD-X Duplicator by Adam Koralik here:
+[(191) Keep Dreaming - Sega Dreamcast GD-X Duplicator HKT-01 - Adam Koralik - YouTube](https://www.youtube.com/watch?v=rszqxcnOmCA)
+
+# GD-Writer (HKT-04)
+The GD-Writer is used by developers to burn GD-R discs which are a writable version of the Dreamcast GD-ROMs.
+
+You can see the GD-Writer in action in this video by Adam Koralik:
+[(191) Keep Dreaming - Sega Dreamcast GD-Writer HKT-04 - Adam Koralik - YouTube](https://www.youtube.com/watch?v=hqMWTJe3ioE)
+
+In order to use the GD-Writer hardware you would need to run a program called GD Workshop on your dreamcast DEV.BOX.
+
+{% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
+
+
 # References
-* Keep Dreaming by Adam Koralik - https://youtu.be/kuff6PgoEuc
+[^1] Keep Dreaming by Adam Koralik - https://youtu.be/kuff6PgoEuc
