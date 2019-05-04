@@ -36,11 +36,12 @@ This reduces development cost as much of the code from the PC version could be u
 You can find out if your favourite game was built using the Windows CE SDK by inserting the disc and looking for the file `0WINCEOS.BIN` in the root of the GD-ROM.
 Here is A list of Windows CE games that I have found so far:
 
+
 Game | Additional Notes
 ---|---
 4X4 EVO v1.001 (2000)(GOD)(NTSC)(US)| 
 Armada v1.000 (1999)(Metro3D)(NTSC)(US)| 
-Atari Anniversary Edition v1.001 (2001)(Infogrames)(NTSC)(US)[compilation]| 
+Atari Anniversary Edition v1.001 (2001)(Infogrames)(NTSC)(US)| 
 Biohazard 2 Value Plus v1.005 (1999)(Capcom)(NTSC)(JP)(en)| 
 Bust-A-Move 4 v1.001 (2000)(Acclaim)(NTSC)(US)| 
 Bust-A-Move 4 v1.001 (2000)(Acclaim)(PAL)| 
@@ -91,17 +92,17 @@ Resident Evil 2 v1.001 (2000)(Capcom)(NTSC)(US)|
 Rune Jade v1.027 (2000)(Hudson)(NTSC)(JP)| 
 Sega Rally 2 v1.000 (1999)(Sega)(PAL)| 
 Sega Rally 2 v1.003 (1999)(Sega)(NTSC)(US)| 
-Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)[HDR-0010-0011 10MM1, 10M3]| 
-Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)[HDR-0010-0011 11MB1, 11MM1]| 
-Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)[HDR-0010-0011 HJ120D, HJ121A, HJ122C]| 
-Sega Smashpack Volume 1 v1.002 (2000)(Sega)(NTSC)(US)[7S 51146][compilation]| 
+Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)| 
+Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)| 
+Sega Rally 2 v1.04 (1999)(Sega)(NTSC)(JP)(en)| 
+Sega Smashpack Volume 1 v1.002 (2000)(Sega)(NTSC)(US)| 
 Shinseiki Evangelion - Typing E Keikaku v1.001 (2001)(Gainax)(NTSC)(JP)| 
 SnoCross - Championship Racing v1.000 (2000)(Crave - Ubi Soft)(PAL)(M3)| 
 SnoCross - Championship Racing v1.000 (2000)(Crave)(NTSC)(US)| 
 Soukou no Kihei - Space Griffon v1.001 (1999)(Panther)(NTSC)(JP)| 
-South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)[1S T-8105N]| 
-South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)[7S T-8105N]| 
-South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)[8S T-8105N]| 
+South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)| 
+South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)| 
+South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(NTSC)(US)| 
 South Park - Chef's Luv Shack v1.000 (1999)(Acclaim)(PAL)| 
 Spirit of Speed 1937 v1.001 (2000)(LJN)(NTSC)(US)| 
 Spirit of Speed 1937 v1.002 (2000)(Acclaim)(PAL)(M4)| 
@@ -140,7 +141,8 @@ Worms Armageddon v1.001 (1999)(MicroProse)(NTSC)(US)|
 Worms World Party v1.001 (2001)(Titus)(NTSC)(US)(M9)| 
 Worms World Party v1.002 (2001)(Virgin)(PAL)(M9)| 
 Yoshia no Oka De Nekoronde... v1.001 (2001)(Mesa - Naxat)(NTSC)(JP)| 
-Yuki Gatari v1.004 (2002)(Takuyo)(NTSC)(JP)
+Yuki Gatari v1.004 (2002)(Takuyo)(NTSC)(JP) | 
+
 
 ## Even more games?
 SegaRetro wiki has a list of even more games that were created with the WindowsCE SDK but I have been unable to verify if they have WINCE on the disc yet, you can find the list here: [Windows CE - Sega Retro](https://segaretro.org/Windows_CE).
@@ -247,5 +249,5 @@ Maple is the name of the library that allows the Windows CE SDK to connect to ex
 # References
 [^1]: [The Dreamcast Junkyard: Windows CE is Best OS and Dreamcast is Best PC?](http://www.thedreamcastjunkyard.co.uk/2016/05/windows-ce-is-best-os-and-dreamcast-is.html)
 [^2]: [Windows CE - Sega Retro](https://segaretro.org/Windows_CE)
-[^3]: https://www.gamasutra.com/view/feature/131737/games_to_go_windows_ce.php?page=3
-[^4]: [Windows CE OS GUI (Shell) Is Possible | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/windows-ce-os-gui-shell-is-possible.64930/)
+[^3]: https://www.gamasutra.com/view/feature/131737/games_to_go_windows_ce.php?page=3 
+[^4]: [Windows CE OS GUI (Shell) Is Possible](https://assemblergames.com/threads/windows-ce-os-gui-shell-is-possible.64930/)
