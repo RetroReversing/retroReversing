@@ -6,6 +6,7 @@ https://www.retroreversing.com/
 # Current collections of posts
 * [All Console Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
 * [All Console Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
+* [Console Games Source Code](https://www.retroreversing.com/games/sourcecode)
 
 ---
 # Future Posts to be written
