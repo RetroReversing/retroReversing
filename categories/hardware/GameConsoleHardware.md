@@ -8,6 +8,7 @@ breadcrumbs:
   - name: Games
     url: /games
 redirect_from:
+  - /consolearchitecture
   - /architecture
   - /console-architecture
   - /consolehardware
