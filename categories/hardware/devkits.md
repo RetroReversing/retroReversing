@@ -24,11 +24,11 @@ We have tried to document all the development kit hardware available for the mos
 
 Console | Development Hardware
 ---|---
-Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/) <br /> [Maestro64 (Music)](https://www.retroreversing.com/maestro64/) <br /> [N64 Prototype Cartridge](https://www.retroreversing.com/n64-prototype-cartridge-information/)
+Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/) <br /> [Maestro64 (Music)](https://www.retroreversing.com/maestro64/) <br /> [N64 Prototype Cartridge](https://www.retroreversing.com/n64-prototype-cartridge-information/) <br /> [SGI Onyx N64 Early Development Hardware (Official)](https://www.retroreversing.com/sgi-onyx/)
 Sega Master System | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Game Gear | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Mega CD | [Cross Products SEGA MegaCD Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-cross-products)
-Sega Saturn | [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/)
+Sega Saturn | [Cross Products Sega Saturn Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-sega-saturn/) <br /> [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/)
 Sony Playstation Portable | [Official PlayStation Portable Development Kit](https://www.retroreversing.com/official-psp-devkit)
 Sony Playstation 1 | [Official PlayStation 1 Development Kit](https://www.retroreversing.com/official-playStation-devkit) <br /> [Net Yaroze - The PS1 Consumer Dev Kit](https://www.retroreversing.com/net-yaroze)
 
