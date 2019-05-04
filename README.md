@@ -1,9 +1,10 @@
 # RetroReversing
-A curated list of awesome retro game development and reverse engineering resources, tools, docs, related projects all in an easy to use githubpages website.
+A curated list of awesome retro game development and reverse engineering resources, tools, docs, related projects all in an easy to use 'github pages' website.
 https://www.retroreversing.com/
 
 ---
 # Current collections of posts
+* [All Console Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
 * [All Console Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
 
 ---
@@ -63,7 +64,7 @@ We only embed high-quality youtube videos related to the technical achievements 
 * Game Hut - https://www.youtube.com/channel/UCfVFSjHQ57zyxajhhRc7i0g
 * KimJustice - [Kim Justice - YouTube](https://www.youtube.com/channel/UC9ZWVL1Elyt2cdiQYjxS_1w)
 * Modern Vintage Gamer - [Modern Vintage Gamer - YouTube](https://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w)
-* [MrMario2011 - YouTube](https://www.youtube.com/user/MrMario2011)
+* MrMario2011 - [MrMario2011 - YouTube](https://www.youtube.com/user/MrMario2011)
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
 ## Cocoscope Channles
