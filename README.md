@@ -3,7 +3,12 @@ A curated list of awesome retro game development and reverse engineering resourc
 https://www.retroreversing.com/
 
 ---
+# Current collections of posts
+* [All Console Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
+
+---
 # Future Posts to be written
+If you are looking to contribute but don't know where to start here are a few examples of posts that are up for grabs.
 
 ## Tools
 * TUME Map Editor - https://games.greggman.com/game/tume___the_universal_map_editor/
@@ -56,6 +61,9 @@ https://www.retroreversing.com/
 ## Youtube Channels
 We only embed high-quality youtube videos related to the technical achievements in retro video games, here are some of the youtube channels we would like to support:
 * Game Hut - https://www.youtube.com/channel/UCfVFSjHQ57zyxajhhRc7i0g
+* KimJustice - [Kim Justice - YouTube](https://www.youtube.com/channel/UC9ZWVL1Elyt2cdiQYjxS_1w)
+* Modern Vintage Gamer - [Modern Vintage Gamer - YouTube](https://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w)
+* [MrMario2011 - YouTube](https://www.youtube.com/user/MrMario2011)
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
 ## Cocoscope Channles
