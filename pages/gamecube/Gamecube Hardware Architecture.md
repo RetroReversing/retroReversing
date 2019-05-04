@@ -4,6 +4,7 @@ tags:
 - gamecube
 - gc
 - hardware
+- consolearchitecture
 title: Gamecube Architecture
 thumbnail: /public/consoles/Nintendo Gamecube.png
 youtube: "x5K6RgIfBcw"
@@ -16,7 +17,10 @@ breadcrumbs:
     url: /gamecube
   - name: Gamecube Architecture
     url: #
-recommend: gamecube
+recommend: 
+  - gamecube
+  - consolearchitecture
+editlink: /gamecube/Gamecube Hardware Architecture.md
 ---
-GC's hardware (Motherboard) overview. 
+GC's hardware architecture (Motherboard) overview. 
 
