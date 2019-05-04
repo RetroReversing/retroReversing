@@ -29,4 +29,6 @@ Sega Master System | [Krisalis Development Kit (Sega) (Unofficial)](https://www.
 Sega Game Gear | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Mega CD | [Cross Products SEGA MegaCD Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-cross-products)
 
+<div>
 {% include console.html %}
+</div>
