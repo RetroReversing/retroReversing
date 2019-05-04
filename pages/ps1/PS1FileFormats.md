@@ -3,6 +3,7 @@ layout: post
 tags: 
 - ps1
 - reverseengineering
+- fileformats
 title: Playstation 1 File Formats
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/consoles/Sony Playstation.png
@@ -36,7 +37,7 @@ Extension | Description
 --- | ---
 .STR | Streaming Movie
 .BS | MDEC Stream
-.XA | Streaming CD-ROm Vocals
+.XA | Streaming CD-ROM Vocals
 .RSD | 3D Model files
 .TMD | 3D Model files (for PSYQ libraries)
 .PMD | High speed Modelling data
