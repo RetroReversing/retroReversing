@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - ps2
-- devkit
+- sdk
 title: Static Libraries (*.A) for Playstation 2 Emotion Engine
 thumbnail: /public/consoles/Sony PlayStation 2.png
 image: /public/consoles/Sony PlayStation 2.png
@@ -15,10 +15,12 @@ breadcrumbs:
   - name: Static Libraries (*.A) for Playstation 2 Emotion Engine
     url: #
 recommend: ps2
+editlink: /ps2/EEStaticLibraries.md
 ---
-
+This post will cover the programming libraries that were provided by the Official PS2 SDK for the Emotion Engine (the main processor for the PS2).
 
 ## Main Emotion Engine SDK libraries
+These are the essential libraries that games could not function without:
 
 Name | Description
 --- | ---
@@ -75,6 +77,7 @@ libvu0.a |
 
 
 ## Networking EE Libraries
+These libraries were only used for Playstation 2 games that conntected to the internet for online play.
 
 Name | Description
 --- | ---
