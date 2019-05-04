@@ -1,16 +1,17 @@
 ---
 title: Original Gameboy (DMG) Development kit
 layout: post
-author: amorri40
 permalink: /original-gameboy-(dmg)-development-kit/
 tags:
 - gameboy
-- tools
 - nintendo
-collection: gameboy
-source-id: 1sH6Z9UKnEQ1YL006-EaPWDGSxjmOEz_NU4xUK8GoCKc
-published: true
+- devkit
+- hardware
 thumbnail: /public/NintendoGameBoyThumb.png
+reccomend:
+  - gameboy
+  - devkit
+editlink: /gameboy/Original-Gameboy-(DMG)-Development-kit.md
 ---
 This post is split into a number of different sections:
 
