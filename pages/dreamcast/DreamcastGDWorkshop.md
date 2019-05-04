@@ -72,4 +72,4 @@ Additional CDDA Audio tracks can be placed in Session 2 but they will not be pla
 # Playing Burned GD-Rs
 You need the System Disc 2, which you would put in your dreamcast before your game then switch it out with your GD-R.
 
-{% include link-to-other-post.html post="Sega-Dreamcast-System-Disc-2/" description="You can find out about the System Disc 2 in this post." %}
+{% include link-to-other-post.html post="/Sega-Dreamcast-System-Disc-2" description="You can find out about the System Disc 2 in this post." %}
