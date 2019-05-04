@@ -3,6 +3,7 @@ layout: post
 tags: 
 - ps2
 - hardware
+- consolearchitecture
 title: PlayStation 2 Hardware Architecture
 thumbnail: /public/consoles/Sony PlayStation 2.png
 youtube: "X6wtbHI94iE"
@@ -15,7 +16,10 @@ breadcrumbs:
     url: /ps2
   - name: PlayStation 2 Hardware Architecture
     url: #
-recommend: ps2
+recommend: 
+  - ps2
+  - consolearchitecture
+editlink: /ps2/PS2 Hardware Architecture.md
 ---
 PS1's hardware (Motherboard) overview. 
 
