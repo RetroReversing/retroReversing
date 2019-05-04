@@ -9,6 +9,7 @@ https://www.retroreversing.com/
 * [Console Games Source Code](https://www.retroreversing.com/games/sourcecode)
 * [Game Engines by Console](https://www.retroreversing.com/games/engines)
 * [Game File Formats](https://www.retroreversing.com/games/fileformats)
+* [Console Hardware Architecture](https://www.retroreversing.com/harware/consoles)
 
 ---
 # Future Posts to be written
