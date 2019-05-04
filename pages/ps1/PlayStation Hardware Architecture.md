@@ -4,6 +4,7 @@ tags:
 - ps1
 - hardware
 - featured
+- consolearchitecture
 title: PlayStation Hardware Architecture (Motherboard)
 thumbnail: /public/consoles/Sony Playstation.png
 youtube: "MPXpH2hxuNc"
@@ -19,11 +20,14 @@ breadcrumbs:
 references:
   - youtube
   - edge
-recommend: ps1
+recommend: 
+  - ps1
+  - consolearchitecture
+editlink: /ps1/PlayStation Hardware Architecture.md
 ---
 This episode with look at the PS1's hardware and why Final Fantasy 7 was written the way that it was. 
 
-<img src="/public/magazine/Playstation1_Motherboard.jpg"/>[1]
+<img src="/public/magazine/Playstation1_Motherboard.jpg"/>[^1]
 1. The CPU
 2. ROM containing the Operating System
 3. The GPU
@@ -38,5 +42,5 @@ This episode with look at the PS1's hardware and why Final Fantasy 7 was written
 12. Video de/encoder
 
 ## References
-1. Edge Magazine issue 20 (May 1995)
-2. Youtube (Video: MPXpH2hxuNc)
+[^1]: Edge Magazine issue 20 (May 1995)
+[^2]: Youtube (Video: MPXpH2hxuNc)
