@@ -28,6 +28,9 @@ Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.co
 Sega Master System | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Game Gear | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Mega CD | [Cross Products SEGA MegaCD Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-cross-products)
+Sega Saturn | [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/)
+Sony Playstation Portable | [Official PlayStation Portable Development Kit](https://www.retroreversing.com/official-psp-devkit)
+Sony Playstation 1 | [Official PlayStation 1 Development Kit](https://www.retroreversing.com/official-playStation-devkit) <br /> [Net Yaroze - The PS1 Consumer Dev Kit](https://www.retroreversing.com/net-yaroze)
 
 ---
 # All Posts about Development Kits
