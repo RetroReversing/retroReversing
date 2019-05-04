@@ -23,8 +23,8 @@ So you can think of game engines as the combination of middleware.
 
 ## Who develops game engines?
 There are two type of game engines based on who developed them or rather who had access to them:
-* In-house game engines - only available to one game development studio
-* Retail game engine - engines that are normally sold as a product and used by multiple game development studios
+  * In-house game engines - only available to one game development studio
+  * Retail game engine - engines that are normally sold as a product and used by multiple game development studios
 
 ## How much did game engines cost?
 This really depends on the engine, it could have been anywhere between a licensing fee per game sold or a one time fee of thousands of dollars for console games.
