@@ -142,6 +142,99 @@ Worms World Party v1.002 (2001)(Virgin)(PAL)(M9)|
 Yoshia no Oka De Nekoronde... v1.001 (2001)(Mesa - Naxat)(NTSC)(JP)| 
 Yuki Gatari v1.004 (2002)(Takuyo)(NTSC)(JP)
 
+## Even more games?
+SegaRetro wiki has a list of even more games that were created with the WindowsCE SDK but I have been unable to verify if they have WINCE on the disc yet, you can find the list here: [Windows CE - Sega Retro](https://segaretro.org/Windows_CE).
+
+Also I haven't checked Demo discs or prototype games either, so please contribute if you know of some that should be added to the list.
+
+## Taxi 2 - Le Jeu (contains WinCE PDB files)
+The french game Taxi 2 contained the PDB files for all the libraries provided by the WindowsCE runtime environment for dreamcast. 
+Also of note is that the NTSC release of Armada also contained the PDB files for the same libraries but they have different md5 hashes so likely from different versions of the Windows CE runtime environment.
+
+PDB File | Md5 Hash | Notes
+---|---|---
+WINCE/IMEJPPUI.PDB | 6f5aac1bf15ed29bac2bde7f20c09abd | Japanese Input Method Editor (IME)
+WINCE/NETFLASH.PDB | 2f0c91d6349f0180ef2a432887f9ee78 | 
+WINCE/DDI.PDB | 7a0475d3944db3fdb04c35c6efe955c6 | Display Driver [^4]
+WINCE/DPMODEMX.PDB | ef1c6043e93adf89832f400b06ae1f70 | 
+WINCE/MRASENTRY.PDB | b00d54787d2501208db1adc44a269532 | MRASENTRY is a utility to create a RAS entry based on a file description of the entry
+WINCE/SERIAL.PDB | be068a5cc2d9251615c907595f8ab2d4 | Serial Communication Driver
+/WINCE/MPPP.PDB | ffa4e1d4e53e3f50c8b51f168e253cb7 | Microsoft Point-to-Point Protocol
+/WINCE/JSCRIPT.PDB | 1922e087c3d14125a6bfe261b7023ae5 | ECMAScript (Web Browser Lib)
+/WINCE/URLMON.PDB | 848491a8ff3ad6c424e108a6f1b20b44 | Url Moniker Services (Web Browser Lib)
+/WINCE/TIMER.PDB | 01da19d9a794d9a80f812dd163aeefb3 | High/low resolution Timer library
+/WINCE/DMUSIC.PDB | 7ba57234ca02b601d8206bacb4bbfc3d | Direct Music
+/WINCE/WDMLIB.PDB | 4e6baf98669347559c3f3f6e7e3148af | Windows Driver Model (WDM) Library
+/WINCE/AMSTREAM.PDB | d2649a8ba34a15c0787ee02088d66669 | DirectShow multimedia stream interfaces
+/WINCE/MRASDIAL.PDB | 37fc61f89f96f045122f5579f409b0db | RAS (Remote access service) dial connection
+/WINCE/DDHAL.PDB | cb7980ce0aa02fce0ac8df35678317a0 | Direct Dreamcast Hardware library for graphics
+/WINCE/DMLOADER.PDB | b10343666d5367efa606999dea08871c | Direct music loader
+/WINCE/SENDKEY.PDB | 39673bbc3b9868200cc9eb2ce879402a | 
+/WINCE/DINPUTX.PDB | 80f2f681f0ec52fee0d83642d2adc65b | Direct Input
+/WINCE/SH4SER.PDB | e6d83904b4cec7f27dabacf63b48bf5b | SH4 cpu serial interface
+/WINCE/MAPLE.PDB | 7024df629207f9d2933882e8b57ba3dd | Maple is the hardware bus that connects external devices to the Dreamcast console and enables the console to communicate with them.
+/WINCE/MSHTML.PDB | 98f0da4a152625b9233b4e2036ac3683 | 
+/WINCE/WSEGACD.PDB | 6d80b4857534df779563c7d81305ff1e | 
+/WINCE/TOOLHELP.PDB | c1bfd3d289271ec0c188eb2955373fcf | 
+/WINCE/TANKANJI.PDB | 96f6185994890346efab2204a9a42076 | 
+/WINCE/DBG.PDB | 8c68aa19ca867f16fb44fa69a45429e0 | 
+/WINCE/IECEUI.PDB | f822550d3217de63f15905a092695943 | 
+/WINCE/DPLAYX.PDB | 1f20a4dbe4008b00cab5d2bee01fb1bd | 
+/WINCE/MEMTOOL.PDB | 342c579283dea04da50635d843e7475d | 
+/WINCE/SHELL.PDB | 29818f5057786e277b3876dbbe8cc5bf | 
+/WINCE/SHLWAPI.PDB | 8c10158ffeb2effd328e2fe5d8302fd5 | 
+/WINCE/DMBAND.PDB | 1ac4d18f288e223387517930a1c66637 | 
+/WINCE/MSADPCM.PDB | 03046a5031844eac7cc569515a070196 | 
+/WINCE/MICROSTK.PDB | b6d52beeff2376bdfffb88d958d7b2ce | 
+/WINCE/ICCVID.PDB | d0b252d5cdf97b8eae841bc0031a0d3d | 
+/WINCE/CEMM.PDB | 1a4386d0c114637768825d88d14c78ab | 
+/WINCE/DMIME.PDB | 99a5cc3a058800d13c811f54c61bba79 | 
+/WINCE/CEGSM.PDB | d0e5a9d213fa27765533e3b343bed706 | 
+/WINCE/MMTIMER.PDB | 73df42ae62e3e519c450ced1b3e7a260 | 
+/WINCE/SERF.PDB | 49bcc93e670c830ed6140e3612253970 | 
+/WINCE/MAPLEDEV.PDB | e4a4c08660fff95f396a1b76e2a5eb06 | Sega Dreamcast External Device Interface called Maple (Dreamcast Exclusive)
+/WINCE/PROFDLL.PDB | b726b6e700577ac031276137ee409c46 | 
+/WINCE/MLANG.PDB | 608461596ee74a63c534f2fc6b085acf | 
+/WINCE/ICM.PDB | 21f88d3b1ed893675c4a39850eeae05f | 
+/WINCE/DMSTYLE.PDB | ea4f688ba564b80143a8b7eb6f7f8f06 | 
+/WINCE/DPWSOCKX.PDB | 7bf36df6cf92fe82f86ef37f1e321a96 | 
+/WINCE/DPLDPLAY.PDB | 3757ab16452c0cadd1f545c431774d62 | 
+/WINCE/LOADDBG.PDB | 2a8f6653f30f4c224922cde229739baa | 
+/WINCE/MSRLE32.PDB | 45ef2dd47c31f31b5a5a5bfbe2924f41 | 
+/WINCE/SHDOCVW.PDB | 3beabcae6acac63ab1e3d5110aa5504b | 
+/WINCE/SEGAMIDI.PDB | d9bdf522cb01ef00a9c3c55a06deabc8 | Sega MIDI Audio Library (Dreamcast Exclusive)
+/WINCE/DTRACE.PDB | 261dc62ed89e60a174fd8782a173e027 | 
+/WINCE/PLATUTIL.PDB | 4d5f3442b63da62dfdb2afbc383ec9bc | 
+/WINCE/PCMCONV.PDB | 10bb816afe70b89776ad2cff11cd4d44 | 
+/WINCE/WDEVICE.PDB | e608d2a64e7c5b846a80f1fa0e9d2d4a | 
+/WINCE/DSOUND.PDB | c1b58163abc63a62ec02f23108581a84 | DirectSound
+/WINCE/PHONETIC.PDB | b3423caa3f865fd854dd24c2a462f834 | 
+/WINCE/WDMOEM.PDB | f0c97921378e026fdf80dd620cb5addf | 
+/WINCE/GETHINFO.PDB | f42c92cf802716be223aac7ae8460080 | 
+/WINCE/IMGUTIL.PDB | 25bf03f1816625bdeb06359e74fefb02 | 
+/WINCE/WINSOCK.PDB | f3bbb266d7db9dcd8bbc6cd38d7ce2a6 | 
+/WINCE/QUARTZ.PDB | b6beee41e50066fbcd1023efd0ae721d | 
+/WINCE/VKEYBD.PDB | 2c4c7ec9d10ccc94f191fb2061f40c01 | 
+/WINCE/MSCHATPR.PDB | d3fff1f7db4170f83a7845dc34e741c6 | 
+/WINCE/SYSSTART.PDB | ac0667e3c5cd6e60a41e2dbbefed87b4 | 
+/WINCE/WININET.PDB | 5b897f635c639fbd01634f666adb850b | 
+/WINCE/VMUPROTO.PDB | b9416a7b18e24cba80d81b3da598631c | 
+/WINCE/DMCOMPOS.PDB | b6bc29fc907956015f93e88360fef80e | 
+/WINCE/IMAADPCM.PDB | e3b5db45278bf750f60d04117385bef2 | 
+/WINCE/IMEJPP.PDB | ae1960bea798a07a2d124e75a1f7e0ec | 
+/WINCE/OLEAUT32.PDB | 5cabc49947ab6c80ea46459c21d3bbbf | 
+/WINCE/PNGFILT.PDB | 8a594e11f1b590b447842a4caa9042ac | 
+/WINCE/SECUR32.PDB | c2a3331bd80c7117b92db9d8ed120f5a | 
+/WINCE/VMIMIME.PDB | b386e6121076488d918bd571580cb37a | 
+/WINCE/SEG_ROCK.PDB | 453bd7c35f93e56c8c7a64dd215b2d45 | 
+/WINCE/MSG711.PDB | 4bb4ec3ff7f0bab234e4764e49ccfbba | 
+/WINCE/IECEEXT.PDB | 69f3b3c4ece400917f3058bcde26f356 | 
+/WINCE/SNDCORE.PDB | 45b095dad4466c4af848cf2f1aa7edf8 | 
+/WINCE/SCHANNEL.PDB | 05ac9c6c854f3c7a59f0152cb4ac1977 | 
+/WINCE/MSACMCE.PDB | 415c1bf169f661a86f5e3775361d66a0 | 
+/WINCE/D3DIM.PDB | dc101a1f68d59818921cff9fa0859ad8 | Direct3D Immediate Mode
+/WINCE/DDRAW.PDB | f7f1a6ad153bcb8bd4a2e5dfe4015e79 | Direct Draw
+
 # WIndows CE Platform SDK
 The Windows CE Platform SDK itself was available free from the Microsoft website and was used for programming for a range of embedded devices. However this only included the CE libraries and headers, in order to actually compile for the Dreamcast you would need to pay for the full Katana development platform [^3].
 
@@ -155,3 +248,4 @@ Maple is the name of the library that allows the Windows CE SDK to connect to ex
 [^1]: [The Dreamcast Junkyard: Windows CE is Best OS and Dreamcast is Best PC?](http://www.thedreamcastjunkyard.co.uk/2016/05/windows-ce-is-best-os-and-dreamcast-is.html)
 [^2]: [Windows CE - Sega Retro](https://segaretro.org/Windows_CE)
 [^3]: https://www.gamasutra.com/view/feature/131737/games_to_go_windows_ce.php?page=3
+[^4]: [Windows CE OS GUI (Shell) Is Possible | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/windows-ce-os-gui-shell-is-possible.64930/)
