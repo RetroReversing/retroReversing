@@ -8,6 +8,7 @@ https://www.retroreversing.com/
 * [All Console Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
 * [Console Games Source Code](https://www.retroreversing.com/games/sourcecode)
 * [Game Engines by Console](https://www.retroreversing.com/games/engines)
+* [Game File Formats](https://www.retroreversing.com/games/fileformats)
 
 ---
 # Future Posts to be written
