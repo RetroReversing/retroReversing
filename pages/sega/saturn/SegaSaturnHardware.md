@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: 
+- consolearchitecture
 - segasaturn
 - hardware
 - saturn
@@ -34,7 +35,9 @@ videocarousel:
   - title: Sega Saturn Repair
     image: https://img.youtube.com/vi/EF85n86FcPk/maxresdefault.jpg
     youtube: 'EF85n86FcPk'
-recommend: sega
+recommend: 
+  - saturn
+  - consolearchitecture
 editlink: /sega/saturn/SegaSaturnHardware.md
 ---
 
