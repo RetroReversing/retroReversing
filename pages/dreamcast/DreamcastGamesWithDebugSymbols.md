@@ -41,7 +41,7 @@ Although these PDB files don't cover the entire source code for the games it can
 ## Taxi 2 - Le Jeu
 The french game Taxi 2 contained the PDB files for all the libraries provided by the WindowsCE runtime environment for dreamcast. Also of note is that the NTSC release of Armada also contained the PDB files for the same libraries but they have different MD5 hashes so likely from different versions of the Windows CE runtime environment.
 
-{% include link-to-other-post.html post="/dreamcast-windows-ce/" description="For the full list of PDB files found in Taxi 2 click here." %}
+{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For the full list of PDB files found in Taxi 2 click here." %}
 
 However it doesn't seem to have the actual .pdb file from the Taxi2 game itself sadly.
 
@@ -94,7 +94,7 @@ The Urban Chaos disc contains a file called `NKSCIFKD.MAP` which is a linker map
 ## Armada v1.000 (US) (WindowsCE)
 The US version of Armada contains the linker map file for the `WSEGACD` windows CE library. You can find out more about this library in our post about  the Windows CE SDK.
 
-{% include link-to-other-post.html post="/dreamcast-windows-ce/" description="For the full list of Dreamcase Windows CE libraries check out this post." %}
+{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For the full list of Dreamcase Windows CE libraries check out this post." %}
 
 ## Rune Jade v1.027 (JP) (WIndowsCE)
 The Japanese only online role playing game Rune Jade has a few linker map files for their windows CE online engine called `IWNETENGINE`. The rest of the game does not contain any debug symbols.
