@@ -96,8 +96,15 @@ The US version of Armada contains the linker map file for the `WSEGACD` windows 
 
 {% include link-to-other-post.html post="/dreamcast-windows-ce" description="For the full list of Dreamcase Windows CE libraries check out this post." %}
 
+## The Next Tetris (WindowsCE)
+The online edition of 'The Next Tetris' was built using the Dreamcast Windows CE SDK and has accidentally placed 2 windowsCE libraries on the retail disc:
+* CHATCE.LIB (Chat library for windowsCE)
+* SOUNDLIBWCE.LIB (Sound library for windowsCE)
+
+These are the files that are used during the build process to create the final executable and they have the function names inside and can technically be used and linked into your own games if you need a chat or sound library. It would be interesting to find out the differences between this sound library and the one that comes with the Windows CE SDK.
+
 ## Rune Jade v1.027 (JP) (WIndowsCE)
-The Japanese only online role playing game Rune Jade has a few linker map files for their windows CE online engine called `IWNETENGINE`. The rest of the game does not contain any debug symbols.
+The Japanese only online role playing game Rune Jade has a few linker map files for their windows CE online networking engine called `IWNETENGINE`. The rest of the game does not contain any debug symbols.
 
 
 ---
