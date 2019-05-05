@@ -74,6 +74,39 @@ Judging by the symbols the game was written in C++ so it must have used the GNU 
 ## South Park Rally v1.001 (2000)(Acclaim)(NTSC)(US)
 This game includes a file called `CDIMAGE.ELF` but it does not seem to be a valid ELF executable and it doesn't contain debug symbols as far as I can tell.
 
+---
+
+# Linker .map files
+During the build process for games the source code gets compiled and then linked into a final executable, in the dreamcast case it becomes the `1st_read.bin`.
+
+In order to help developers debug their games when they have been fully compiled the assembler generated a .map file that contains the function names and their location in the final executable.
+
+Normally these files would remain on the development kits and not appear on the final retail discs, however there are a couple of cases where these files were accidentally put on the retail game disc. The most notable being NFL 2K Japanese version which contained full debug symbols!
+
+## NFL 2K v1.002 (JP)
+In the original Japanese version of NFL 2K for the Sega Dreamcast, the Linker Map file is included on the disc by mistake. It was removed in the further versions of the Japanese release and the US/PAL releases.
+
+The MAP file contains all the function names and even the original source file names (the compiled .obj version).
+
+## Urban Chaos v1.000 (WindowsCE)
+The Urban Chaos disc contains a file called `NKSCIFKD.MAP` which is a linker map file for a Windows CE executable also called `NKSCIFKD.EXE`. But it is not very useful in terms of reversing the game itself.
+
+## Armada v1.000 (US) (WindowsCE)
+The US version of Armada contains the linker map file for the `WSEGACD` windows CE library. You can find out more about this library in our post about  the Windows CE SDK.
+
+{% include link-to-other-post.html post="/dreamcast-windows-ce/" description="For the full list of Dreamcase Windows CE libraries check out this post." %}
+
+## Rune Jade v1.027 (JP) (WIndowsCE)
+The Japanese only online role playing game Rune Jade has a few linker map files for their windows CE online engine called `IWNETENGINE`. The rest of the game does not contain any debug symbols.
+
+
+---
+# Games with Uncompiled Scripting
+
+## Resident Evil 3/ Biohazard 3
+The dreamcast version of Resident Evil 3 is unique in that it contains a folder of uncompiled BioScript files.  The scripting language is very similar to C, including header files and they have the extension .SCT.
+
+These can be modified to easily make mods for the game, you can find out more about Resident Evil Modding here: [Resident Evil 3 (1999) - Resident Evil 1 2 3 - Modding Forum](https://www.tapatalk.com/groups/residentevil123/resident-evil-3-1999-f56/)
 
 ---
 # Other interesting content 
