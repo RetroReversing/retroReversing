@@ -55,40 +55,145 @@ The Windows CE SDK for dreamcast came with a tools folder which contains a few G
 ## GD Workshop
 {% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
 
-## DebugMem Tool
-
 ## Dreamcast Tool (dctool.exe)
+<section class="postSection">
+<img src="/public/images/dreamcast/dctool.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The dreamcast Tool is a useful program to connect from a PC to a dreamcast development system allowing you to do tasks such as boot an executable image, run Dtrace, show textures etc.
+</div>
+</section>
+
 
 ## Dreamcast Trace Tool (Dtrace) (dtview.exe)
+DreamcastTrace or DTrace is a performance monitoring tool to allow developers to optimise their games to be as efficient as possible. It is unrelated to the well-known standard `DTrace` tool by Sun Microsystems.
 
 ## Image Configuration Tool (config.exe)
+<section class="postSection">
+<img src="/public/images/dreamcast/dreamcast_image_config.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+Unlike its name it does not relate to graphic images, instead it refers to Operating system images. This allows you to configure which modules will be included in your games version of the Windows CE Operating system.
+</div>
+</section>
+
 
 ## IP Maker Tool (ipmaker.exe)
+This is a tool for creating the boot loader for the disc (IP) called `ip_drago.bin` since the codename for the Win CE SDK is dragon.
 
-## Profiler Tool ()
+You give it the name of your main game executable (*.exe) and it will run that on playing the GD-ROM disc in a dreamcast.
+
+## Profiler Tool (profcvt.exe)
+The profiler is a tool to debug performance issues in your game executable's functions. This tool is vital to make a playable dreamcast game that also pushes the hardware limits without going below 30fps.
 
 ## Synthesizer Author Tool (SynthAuthor) (synthauthor.exe)
+<section class="postSection">
+<img src="/public/images/dreamcast/dreamcast_esynth.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The Synthesizer Author Tool is a program for sounds engineers to create a collection of instruments for use in the game music.
+</div>
+</section>
+
 
 ## Windows Debugger Tool (Windbg.exe)
+This is a standard source-level debugger supporting breakpoint and variable value watching.
 
-Also the file `NknoDbg.exe` is on the retail disc of a few retail games such as `Sega Rally 2`.
-
-> What is the difference between Windbg.exe and NknoDbg.exe?
+Also the file `NknoDbg.exe` is on the retail disc of a few retail games such as `Sega Rally 2`. But it is unconfirmed what this executable is and how it differs from the standard Windbg.exe tool.
 
 ---
 # Utilities Provided
 The Utilities differ from the tools as they all tend to be Command Line oriented and would normally be scripted and used as part of a automated build process.
 
-## Binary Generator Utility (bingen.exe) (CLI)
+## Audio Utilities
+The following are tools used by sound engineers to convert between sound formats for use on the Dreamcast.
 
-## Check RES Utility (checkres.exe)
+### DLS to Dreamcast ToneBank Converter Utility
+(dls2tb.exe)
+Converts .DLS files to the dreamcast specific .TB (Tonebank) files format.
 
-## Dreamcast Copy (dccopy.exe)
+### DLS to Sega ToneBank Converter Utility (dls2dcs.exe)
+> What is the difference between this and the .TB converter?
+
+### Wave Converter Utility (wavcon.exe) (Audio)
+Converts 16-bit PCM wave files to 4-bit ADPCM files for playing on the dreamcast.
+
+---
+## Debugging Utilities
+
+### Check RES Utility (checkres.exe)
+Check resource files to look for duplicates or problems with resource files.
+
+###  Debug Adapter Check (dacheck.exe)
+Used to debug connection issues with the debug adapter.
+
+### Dump Register Utility (dumpreg.exe)
+Used for debugging it transfers the dreamcast CPU registers to your PC for debugging low-level assembly code.
+
+### Profile Conversion Utility (profcvt.exe)
+This tool is used for converting the output of the function profiler tool into a human-readable text file.
+
+---
+## Windows CE OS Image Management Utilities
+
+### Make Image Utility (makeimg.exe)
+A command line version of the image config tool, it allows you to build an Windows CE OS image and choose which modules are included. 
+
+### ROM Image Builder Utility (romimage.exe)
+> Not sure the difference between this and makeimg.exe
+
+### Registry Compression Utility (regcomp.exe)
+Just like standard Windows on the Desktop, windowsCE also includes a Registry to save keys and values.
+
+This tool converts the human readable and easily editable ini file `RegInit.ini` into the compressed `Default.fdf` which is placed inside the WinCE OS image.
+
+---
+## Other Utilities
+
+### Binary Generator Utility (bingen.exe) (CLI)
+Command line utility to convert an executable into a binary file. Seems to take a language in as a parameter, not sure why.
+
+### Dreamcast Copy (dccopy.exe)
 This utility is simply a convenient tool to copy the newly built executable from the **Build** directory into the **Release** directory. 
 
+### Dump NK Utility (dumpnk.exe)
+This file dumps NK-ROM image files to a binary file.
+> But what is a NK-ROM file?
+
+### Flash Utility (flash.exe)
+Use this tool to upgrade the firmware of the Dreamcast development `DEV.BOX`.
+
+### File Merge Utility (fmerge.exe)
+Moves configuration files to multiple directories, not sure the purpose.
+
+### Mycat Utility (mycat.exe)
+Seems to concatinate some binary files to StandardOut and strips out some data but not sure the purpose.
+
+### NLS Compression Utility (cenlscmp.exe)
+> What is Natural Language Support Compression?
+
+### PowerVR Converter Utility (prconv.exe)  (CLI)
 
 
-## PowerVR Converter Utility (prconv.exe)  (CLI)
+### Rebaseic Utility (rebaseic.exe)
+Removes duplicate icons from  resource (.RES) files.
+
+## Resource to Executable Utility (res2exe.exe)
+
+## Text to Unicode Utility (txt2ucde.exe)
+Since windows CE only supports Unicode strings, for PC ports ASCII would need to be converted to Unicode which is where this utility comes in useful.
+
+## Txt2vmi Utility (txt2vmi.exe)
+Converts VMU text files to VMI images.
+
+## VC5 to VC6 Converter Utility (vc5tovc6.exe)
+Simply converts Visual C++ 5.0 projects to Visual C++ 6.0 project files.
+
+---
+# Libraries
+
+## DebugMem Tool (DEBUGMEM.LIB)
+The DebugMem tool is actually a library and programming interface that developers use to debug memory issues such as memory leaks.
 
 ---
 # Games that were built for WindowsCE
@@ -340,6 +445,13 @@ The WSEGACD library was developed by Sega for control of the GD-ROM drive. So de
 
 ## VMIMIME (VMU)
 The `VMIMIME` library is used to connect between the main game code and the VMU unit in the back of the controller.
+
+---
+# Glossary
+
+Name | Meaning
+---|---
+WDM | Windows Device Model 
 
 # References
 [^1]: [The Dreamcast Junkyard: Windows CE is Best OS and Dreamcast is Best PC?](http://www.thedreamcastjunkyard.co.uk/2016/05/windows-ce-is-best-os-and-dreamcast-is.html)
