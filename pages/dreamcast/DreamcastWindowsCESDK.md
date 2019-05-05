@@ -34,10 +34,19 @@ This reduces development cost as much of the code from the PC version could be u
 
 One example of a studio doing just that is a presentation from D. Michael Traub from Acclaim on porting the Quagmire engine to the Dreamcast, they used the WinCE SDK to port to the dreamcast and they found that it worked very well, claiming that it only took a month to port the engine thanks to the SDK.
 
+---
 # Porting issues from PC to DC
 Even although the Windows CE SDK's main focus is to make it easy to port your game from Standard windows Direct X over to embedded platforms such as the Dreamcast, there were a few important compatibility issues that developers needed to take into account when porting their games.
 
-Windows CE is Unicode only, so it does not support 
+Windows CE is Unicode only, so the game needs to be changed from ASCII.
+
+---
+# Executable format
+Unlike the standard Katana SDK the game executables for dreamcast windows CE were actually in PE executable format. The game executable could be called anything with a `.EXE` extension but many games simply call it `GAME.EXE` which may have been the default.
+
+These executable files are able to be opened in IDA Pro and radare2 for reverse engineering but most don't contain any debug symbols. 
+
+{% include link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="For games with debug symbols check out this post." %} 
 
 ---
 # Tools Provided
@@ -61,6 +70,10 @@ The Windows CE SDK for dreamcast came with a tools folder which contains a few G
 ## Synthesizer Author Tool (SynthAuthor) (synthauthor.exe)
 
 ## Windows Debugger Tool (Windbg.exe)
+
+Also the file `NknoDbg.exe` is on the retail disc of a few retail games such as `Sega Rally 2`.
+
+> What is the difference between Windbg.exe and NknoDbg.exe?
 
 ---
 # Utilities Provided
@@ -196,6 +209,15 @@ Also I haven't checked Demo discs or prototype games either, so please contribut
 ## Armada (US)
 The US version of Armada contains the linker map file for the `WSEGACD` windows CE library.  This contains all the function names provided by the library.
 
+## The Next Tetris (WindowsCE)
+The online edition of 'The Next Tetris' was built using the Dreamcast Windows CE SDK and has accidentally placed 2 windowsCE libraries on the retail disc:
+* CHATCE.LIB (Chat library for windowsCE)
+* SOUNDLIBWCE.LIB (Sound library for windowsCE)
+
+Note that The Next Tetris is the only dreamcast game that includes these two libraries.
+
+The game includes `TETRISDC.EXE` which is a SH-4 PE executable but it does not contain any debug symbols.
+
 ## Taxi 2 - Le Jeu (contains WinCE PDB files)
 The french game Taxi 2 contained the PDB files for all the libraries provided by the WindowsCE runtime environment for dreamcast. 
 Also of note is that the NTSC release of Armada also contained the PDB files for the same libraries but they have different md5 hashes so likely from different versions of the Windows CE runtime environment.
@@ -283,6 +305,26 @@ WINCE/SERIAL.PDB | be068a5cc2d9251615c907595f8ab2d4 | Serial Communication Drive
 /WINCE/MSACMCE.PDB | 415c1bf169f661a86f5e3775361d66a0 | Audio Compression Manager
 /WINCE/D3DIM.PDB | dc101a1f68d59818921cff9fa0859ad8 | Direct3D Immediate Mode
 /WINCE/DDRAW.PDB | f7f1a6ad153bcb8bd4a2e5dfe4015e79 | Direct Draw
+
+## Games that contained un-linked Library files
+It was very rare for games to include library files on the disc, these would serve no purpose as the game can't load static libraries at runtime (they would have to be dynamic link libraries .dll).
+
+These are somewhat interesting as they do contain function names but they are just a small part of each game.
+
+Library | Game | Additional Notes
+---|---|---
+SOUNDLIBWCE.LIB | The Next Tetris | Sound
+CHATCE.LIB  | The Next Tetris | Chat networking
+CARCE.LIB | Spirit of Speed 1937 | 
+CEFRONTLIB.LIB | Spirit of Speed 1937 | 
+ARCHIVE.LIB | Spirit of Speed 1937 | 
+BORIS2CE.LIB | Spirit of Speed 1937 | 
+GRAPHICSLIB.LIB | Spirit of Speed 1937 | 
+ERRORLIB.LIB | Spirit of Speed 1937 | 
+MAPLEDEV.LIB | Taxi 2 - Le Jeu | See the Maple library section
+MFSTDLIBDC.LIB | Urban Chaos | 
+DDLIBDC.LIB | Urban Chaos | 
+DDENGDC.LIB | Urban Chaos | 
 
 # WIndows CE Platform SDK
 The Windows CE Platform SDK itself was available free from the Microsoft website and was used for programming for a range of embedded devices. However this only included the CE libraries and headers, in order to actually compile for the Dreamcast you would need to pay for the full Katana development platform [^3].
