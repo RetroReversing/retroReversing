@@ -127,6 +127,24 @@ This shows that they were using version 1.1 of the windows CE (i.e "Dragon") SDK
 This also confirms that there was a SegaMidi dynamic library (.dll) that came as part of the Dreamcast version of the WindowsCE SDK.
 
 ---
+# Largest Dreamcast Executables
+Normally the largest executables for a given console tend to contain the most debug information, unfortunately due to the high use of external debug symbol files, the dreamcast executables tend to be quite small and lacking in symbols.
+
+This section will list the largest executables but sadly none of them seem to contain debug symbols as far as we can see, this is just hear for those curious about the laegest dreamcast executables.
+
+## Largest Katana 1st_read.bin executable
+The largest game compiled with the standard (non-winCE) SDK was `Street Fighter III - 3rd Strike` at 14.3MB with `Toy Story 2 - Buzz Lightyear to the Rescue` at 13.6MB coming in second.
+
+Looking at the size of the executables you would be excused for presuming that these would contain debug symbols. But no, well as far as we can tell it just includes code. Thats a lot of code!
+
+## Largest WindowsCE Executable
+Sadly all the Windows CE Dreamcast games were built with an external debug symbol file (.PDB).
+
+So the largest Windows CE game comes in at only 3.8MB which is 'SPACESTATION.EXE' from "Historical Mystery Adventure TROIA 1186 B.C. v1.002 (JP)" or more bizarley the pool game "Jimmy White's 2 - Cueball v1.100 (1999)(Virgin)(PAL)".
+
+Games smaller than that are unlikely to contain debug symbols as they tend to be stored as uncompressed strings and dreamcast development tended to include a lot of symbols with long names which add up to MBs of symbols.
+
+---
 # References
 [^1]: [History of the Sega Dreamcast/Development - Sega Retro](https://segaretro.org/History_of_the_Sega_Dreamcast/Development) 
 [^2]: [Windows CE OS GUI (Shell) Is Possible | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/windows-ce-os-gui-shell-is-possible.64930/)
