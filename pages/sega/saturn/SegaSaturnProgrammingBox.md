@@ -16,7 +16,7 @@ breadcrumbs:
     url: /
   - name: Development Kits
     url: /devkit
-  - name: Sega Saturn Programming Box (Sophia Systems)
+  - name: Official Sega Saturn Development Kit
     url: #
 recommend: devkit
 editlink: /sega/saturn/SegaSaturnProgrammingBox.md
