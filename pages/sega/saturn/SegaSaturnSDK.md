@@ -25,6 +25,12 @@ The Sega Saturn software development kit was available for both PC and SGI works
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
 
 ---
+#  Compiler Toolchain
+There were multiple sets of compilers available to Sega Saturn developers, the most popular being the Cygnus Solutions version of GCC for SH Microprocessors (Supplied by Sega). Cygnus Solutions were a company that sold GNU products with enterprise level support to make it easier for developers when they encountered compiler issues.
+
+Although the compiler toolchain supports C++ it was reccomended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
+
+---
 # Tools
 The Tools provided by the Sega Saturn Software Development Kit will be covered in this section.
 
@@ -109,33 +115,41 @@ Also it includes fonts used to display the warning message at the start of each 
 It looks like the file `sega_wrn.da` is the audio file that plays when you put a sega saturn disc in an audio player.
 
 ### SEGALIB (Libraries)
+One of the very nice things about the sega saturn SDK is that it actually contains the full source code to all the libraries that make up the SDK. The C and ASM source files are all located inside the SEGALIB folder seperated into folders based on the library name.
+
+Each folder contains a:
+* .a library for GCC compiler linking
+* .lib library for HITACHI SHC compiler linking
+* .lbr metadata of what objects to put in the .lib SHC compiler library when built
+* .c or .asm source code
+* makefile for building the source code
 
 Folder | Purpose
 ---|---
-AWK | 
-BPL | 
-CMP | 
+AWK | Awk scripts for gasm
+BPL | Branching Playback
+CMP | Compression Library
 CSH | Cache Simulation library
 DBG | Debug library
 DMA | Direct memory access library
-DSP | 
+DSP | Library to load programs into the Saturn SCU DSP
 FLD | File loader library
-GFS | 
+GFS | Global File System
 INCLUDE | Header Files (C Includes)
-INT | 
-LIB | 
+INT | Interrupt library
+LIB | Contains all the prebuilt libraries in both .a and .lib format
 MAN | Manual Documentation
 MAN_JPN | Japanese Manual Documentation
-MEM | 
-MPG | 
-MTH | 
-PCM | 
-SCL | 
-SDD | 
-SHC | 
-SND | 
-SPR | 
-STM | 
+MEM | Memory library
+MPG | MPEG Video
+MTH | Math Library
+PCM | Audio PCM/AD-PCM playback
+SCL |  (VDP2 Library?)
+SDD | Sound Driver source code (assembly)
+SHC | Hitachi SH C compile library source, only seems to implement one function `__sftra`
+SND | Sound Library
+SPR | Sprite Library
+STM | Stream System Library
 
 ### SEGASMP (Samples)
 This contains tons of great samples of how to use all the libraries in the Sega Saturn development kit.
@@ -154,25 +168,25 @@ DBG | Debug library sample
 DMA | DMA library sample
 DUAL | Slave CPU example
 FLD | File loader example
-GAME | 
-GAME_CD | 
-GFS | 
-LIB | 
+GAME | Demo game source code
+GAME_CD | Same sample game but with a few additions for CD Music playback
+GFS | File system library samples
+LIB | Start module examples
 MAN | Manual/Documentation
 MAN_JPN | Manual/Documentation in Japanese
-MEM | 
-MPG | 
-PCM | 
-PER | 
-SBLSGL | 
-SCL | 
-SGL | 
-SND | 
-SPR | 
-STM | 
-SYS | 
-TIM | 
-V_BLANK | 
+MEM | Memory management samples
+MPG | MPEG Video sample
+PCM | Audio playback samples
+PER | Peripheral samples (e.g mouse, gun, keyboard)
+SBLSGL | Graphics examples
+SCL | VDP2 graphics examples
+SGL | Graphics samples
+SND | Sound samples
+SPR | Sprite examples
+STM | Stream examples
+SYS | Application initialization program sample
+TIM | Timer samples
+V_BLANK | VBlank usage sample
 
 ---
 ## Sega 3D Game Library (SGL)
@@ -184,4 +198,61 @@ Note that this can also sometimes be called the Sega Graphics library, both are 
 ### GNU AWK/GAWK
 Contains builds of the GNU Free Software AWK for windows.
 
-The GNU Assember (GASM) uses the AWK files to help assemble source input, so these are sort of like part of the source code of the assembler.
+The GNU Assembler (GASM) uses the AWK files to help assemble source input, so these are sort of like part of the source code of the assembler.
+
+### Documentation
+
+### Demos
+The Demos folder Contains 4 Demos in source code form ready to be compiled using the GNU compiler toolchain for Sega Saturn.
+
+#### BiPlane Demo
+Compile with: GNU 2.7+ (GCC for SH2))
+Written in: C 
+
+#### CDDA_SGL
+CD Audio demo very simple with only one C source file.
+
+#### Chrome
+The Chrome demo shows various graphical effects such as gouraud shading, bump mapping and chrome finish for simple objects.
+
+#### Flying
+Compile with: GNU 2.7+ (GCC for SH2))
+Written in: C 
+This is a demo game where you fly a spaceship (flying saucer) and shoot at enemies below.
+
+---
+### Include files
+
+---
+### Libraries
+
+#### CDC (CD Communication)
+Functions that have the prefix CDC_ are part of the CD Communication library.
+
+### Samples
+There are two different sample folders for this library, called sample1 and sample2.
+
+### SDDRV (Sound driver)
+Assembly source code for the Sega Saturn Sound driver interface.
+
+### Tools
+* DG2TEX.EXE
+* S2D2SGL.EXE
+* S3D2SGL.EXE
+* S3DTEX.EXE
+
+---
+# Software for Designers
+
+## SoftImage creative environment
+In the official Sega documentation it is recommended to use SoftImage for 3D model creation on an SGI workstation.
+
+## Photoshop or Degitaizer
+Photoshop and Degitaizer for MacOS are recommended in the official Sega documentation for creation of all 2D assets.
+
+---
+# Glossary
+
+Term | Meaning
+---|---
+VCD | Video CD
