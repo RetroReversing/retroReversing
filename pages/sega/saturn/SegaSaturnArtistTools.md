@@ -22,9 +22,19 @@ editlink: /sega/saturn/SegaSaturnArtistTools.md
 
 
 # 2D Art Software
+<section class="postSection">
+<img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 ￼
+</div>
+</section>
 
 ## MapEditor (Mac)
+<section class="postSection">
+<img src="/public/images/saturn/SegaMapEditor.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **1.81E**
 
 Import File Formats supported:
@@ -35,6 +45,8 @@ Export File Formats supported:
 
 The MapEditor allows importing PICT/DGT2 image files and placing them on a 'map'. Areas of pixels are imported from the files and called 'characters'. The result would be scroll data for the game. So you can think of this tool similar to a tile editor, where screens are made up of individual tiles.
 ￼
+</div>
+</section>
 
 ## ScreenEditor 
 Latest Version: **1.07E**
@@ -51,14 +63,25 @@ Latest Version: **3.17US**
 
 The QuickViewer does exactly what it says on the tin, quickly allows you to view various image formats on the Sega Saturn development kit (both cart dev and P-Box). 
 ## Sega2DViewer (SGL_RUN.exe)
+<section class="postSection">
+<img src="/public/images/saturn/SEGA2DViewer.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **1.0US**
 
 File Formats supported:
 * 2D (Sega2D)
 
 The Sega2DViewer is an application that only works with the CartDev development kit, it basically just displays the output of the MapEditor/ScreenEditor SEGA2D files on the Sega Saturn Hardware.
-￼
- ## SegaConverter 
+</div>
+</section>
+
+
+--- ## SegaConverter 
+<section class="postSection">
+<img src="/public/images/saturn/SEGAConverter.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **4.83E**
 
 File Formats supported:
@@ -68,26 +91,40 @@ File Formats supported:
 * BOB
 
 The SegaConverter tool was developed to convert between similar 2D image formats.
-￼
+</div>
+</section>
+
  ## SegaPainter 
+<section class="postSection">
+<img src="/public/images/saturn/SEGAPainter.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **1.11US**
 
 File Formats supported:
 * PICT
 * DGT2 
 SegaPainter is a 2D Pixel Art Editor that supports animations, it is great for creating sprites tiles and backgrounds for the Sega Saturn.
-￼
+</div>
+</section>
 
+---
 ## SpriteEditor
+<section class="postSection">
+<img src="/public/images/saturn/SpriteEditor.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **1.36US**
 
 File Formats Supported:
 * DGT2
 
-The SpriteEditor works in conjunction with the SegaPainter, in that it imports the output and merges multiple images/sprites into what it called `patterns`. 
-￼
+The SpriteEditor works in conjunction with the SegaPainter, in that it imports the output and merges multiple images/sprites into what it called `patterns`.
+</div>
+</section>
 
- ## PhotoShop Plug-Ins
+
+--- ## PhotoShop Plug-Ins
 There were 6 plugins provided for Photoshop on the Sega Saturn Art Tools for Macintosh CD.
 
 
@@ -109,12 +146,18 @@ SegaRetro has an excellent article about Cinepak for Saturn including the list o
 In order to create 3D assets for the Sega Saturn there were multiple packages that developers could buy, the one Sega promoted was Softimage but N-world, 3DStudio and Alias/Wavefront PowerAnimator all supported exporting to the Sega Saturn 3d Model formats.
 
 ## Sega 3DEditor 
+<section class="postSection">
+<img src="/public/images/saturn/Sega3DEditor.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Latest Version: **1.72US**
 The Sega 3DEditor was a very simple 3D viewer which allowed some basic modifications to 3d models. Developers could use this software to add textures to their 3d models or use basic RGB colours to each quad.
-￼
+
 File Formats Supported:
 * SEGA3D
 * DXF
+</div>
+</section>
 
 ## Softimage
 Most games that use 3D models used an SGI workstation such as the SGI Indigo and used the Softimage software [^1]. In fact Sega announced in January 1995 that it was partnering with Softimage to make it the official 3D modelling package for the Sega Saturn [^2].
@@ -137,8 +180,13 @@ PowerAnimator eventually became known as Maya and owned by Autodesk. For more in
 [PowerAnimator - Sega Retro](https://segaretro.org/PowerAnimator)
 
 ## Syndesis Interchange 4.0 
-￼
+<section class="postSection">
+<img src="/public/images/saturn/Interchange.gif" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Interchange 4.0 is software for both PC and SGI workstations that simply converts 3d models from one format to another, it claimed to support over 50 file formats and was useful for developers when changing between software. It doesn't support Sega Saturn formats directly but it was advertised in the official Sega Developmental Newsletter.
+</div>
+</section>
 
 ## GAMUT-SG™ Sega Saturn™ Artist Tools (3DStudio)
 GAMUT is a suite of software developed by Animetix for converting `3D Studio` formats to various game consoles, even allowing to preview on the hardware before saving to the export format. 
@@ -149,8 +197,8 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 
 ---
 # References
-[^1]: [How make 3d objects, for the Saturn, and what programs? | The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/7994/make-3d-objects-saturn-programs)
-[^2]: [History and Versions | Softimage Wiki | FANDOM powered by Wikia](https://softimage.fandom.com/wiki/History_and_Versions)
+[^1]: [How make 3d objects, for the Saturn, and what programs?](http://segasaturngroup.proboards.com/thread/7994/make-3d-objects-saturn-programs)
+[^2]: [History and Versions](https://softimage.fandom.com/wiki/History_and_Versions)
 [^3]: [Game Express](https://web.archive.org/web/19970716123150if_/http://www.nichimen.com/PRODUCT-INFO/nworld/game-express/saturn-express.html)
 [^4]: Game Developer Magazine June/July 1995
 [^5]: Sega Developmental Newsletter from April 1996
