@@ -134,7 +134,7 @@ DBG | Debug library
 DMA | Direct memory access library
 DSP | Library to load programs into the Saturn SCU DSP
 FLD | File loader library
-GFS | Global File System
+GFS | General File System
 INCLUDE | Header Files (C Includes)
 INT | Interrupt library
 LIB | Contains all the prebuilt libraries in both .a and .lib format
@@ -170,7 +170,7 @@ DUAL | Slave CPU example
 FLD | File loader example
 GAME | Demo game source code
 GAME_CD | Same sample game but with a few additions for CD Music playback
-GFS | File system library samples
+GFS | General File system library samples
 LIB | Start module examples
 MAN | Manual/Documentation
 MAN_JPN | Manual/Documentation in Japanese
@@ -243,16 +243,13 @@ Assembly source code for the Sega Saturn Sound driver interface.
 
 ---
 # Software for Designers
+The software for 2D/3D Artists, Designers and sound editors are covered in the following post:
+{% include link-to-other-post.html post="/sega-saturn-artist-tools/" description="For the artist tools used for Sega Saturn Development check out this post." %}
 
-## SoftImage creative environment
-In the official Sega documentation it is recommended to use SoftImage for 3D model creation on an SGI workstation.
-
-## Photoshop or Degitaizer
-Photoshop and Degitaizer for MacOS are recommended in the official Sega documentation for creation of all 2D assets.
 
 ---
 # Glossary
 
 Term | Meaning
 ---|---
-VCD | Video CD
+VCD | Either VirtualCD or Video CD depending the context
