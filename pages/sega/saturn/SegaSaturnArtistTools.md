@@ -38,10 +38,10 @@ editlink: /sega/saturn/SegaSaturnArtistTools.md
 Latest Version: **1.81E**
 
 Import File Formats supported:
-* PICT
-* DGT2
+ - PICT
+ - DGT2
 Export File Formats supported:
-* 2D (Sega2D)
+ - 2D (Sega2D)
 
 The MapEditor allows importing PICT/DGT2 image files and placing them on a 'map'. Areas of pixels are imported from the files and called 'characters'. The result would be scroll data for the game. So you can think of this tool similar to a tile editor, where screens are made up of individual tiles.
 ￼
@@ -52,10 +52,10 @@ The MapEditor allows importing PICT/DGT2 image files and placing them on a 'map'
 Latest Version: **1.07E**
 
 Import File Formats supported:
-* PICT
-* DGT2
+ - PICT
+ - DGT2
 Export File Formats supported:
-* 2D (Sega2D)
+ - 2D (Sega2D)
 
 Similar to MapEditor but with a character/tile and cell size of 1. So it is more for generating a screen scroll one cell at a time.
  ## QuickViewer 
@@ -65,19 +65,18 @@ The QuickViewer does exactly what it says on the tin, quickly allows you to view
 ## Sega2DViewer (SGL_RUN.exe)
 <section class="postSection">
 <img src="/public/images/saturn/SEGA2DViewer.jpg" class="wow slideInLeft postImage" />
-
 <div markdown="1">
 Latest Version: **1.0US**
 
 File Formats supported:
-* 2D (Sega2D)
+ - 2D (Sega2D)
 
 The Sega2DViewer is an application that only works with the CartDev development kit, it basically just displays the output of the MapEditor/ScreenEditor SEGA2D files on the Sega Saturn Hardware.
 </div>
 </section>
 
-
---- ## SegaConverter 
+---
+## SegaConverter 
 <section class="postSection">
 <img src="/public/images/saturn/SEGAConverter.jpg" class="wow slideInLeft postImage" />
 
@@ -85,16 +84,17 @@ The Sega2DViewer is an application that only works with the CartDev development 
 Latest Version: **4.83E**
 
 File Formats supported:
-* PICT
-* DGT
-* RGB
-* BOB
+ - PICT
+ - DGT
+ - RGB
+ - BOB
 
 The SegaConverter tool was developed to convert between similar 2D image formats.
 </div>
 </section>
 
- ## SegaPainter 
+---
+## SegaPainter 
 <section class="postSection">
 <img src="/public/images/saturn/SEGAPainter.jpg" class="wow slideInLeft postImage" />
 
@@ -102,8 +102,8 @@ The SegaConverter tool was developed to convert between similar 2D image formats
 Latest Version: **1.11US**
 
 File Formats supported:
-* PICT
-* DGT2 
+ - PICT
+ - DGT2 
 SegaPainter is a 2D Pixel Art Editor that supports animations, it is great for creating sprites tiles and backgrounds for the Sega Saturn.
 </div>
 </section>
@@ -117,14 +117,14 @@ SegaPainter is a 2D Pixel Art Editor that supports animations, it is great for c
 Latest Version: **1.36US**
 
 File Formats Supported:
-* DGT2
+ - DGT2
 
 The SpriteEditor works in conjunction with the SegaPainter, in that it imports the output and merges multiple images/sprites into what it called `patterns`.
 </div>
 </section>
 
-
---- ## PhotoShop Plug-Ins
+---
+## PhotoShop Plug-Ins
 There were 6 plugins provided for Photoshop on the Sega Saturn Art Tools for Macintosh CD.
 
 
@@ -148,14 +148,15 @@ In order to create 3D assets for the Sega Saturn there were multiple packages th
 ## Sega 3DEditor 
 <section class="postSection">
 <img src="/public/images/saturn/Sega3DEditor.jpg" class="wow slideInLeft postImage" />
-
 <div markdown="1">
 Latest Version: **1.72US**
+
 The Sega 3DEditor was a very simple 3D viewer which allowed some basic modifications to 3d models. Developers could use this software to add textures to their 3d models or use basic RGB colours to each quad.
 
+
 File Formats Supported:
-* SEGA3D
-* DXF
+ - SEGA3D
+ - DXF
 </div>
 </section>
 
