@@ -195,6 +195,10 @@ blockquote {
   height: 100px !important;
 }
 
-.jstree-default {
+.jstree-default .jstree-anchor {
   font-size: 14px !important;
+}
+
+.jstree-default .jstree-node {
+  margin-left:0px !important;
 }
