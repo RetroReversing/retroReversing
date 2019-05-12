@@ -6,7 +6,7 @@ tags:
 - ps1
 - games
 - projects
-title: Batman Forever - The Arcade Game
+title: Batman Forever - The Arcade Game (1996)
 thumbnail: /public/consoles/Sega Saturn.png
 image: /public/consoles/Sega Saturn.png
 permalink: /batman-forever
@@ -15,7 +15,7 @@ breadcrumbs:
     url: /
   - name: Sega Saturn
     url: /segasaturn
-  - name: Batman Forever - The Arcade Game
+  - name: Batman Forever - The Arcade Game (1996)
     url: #
 recommend:
 - segasaturn
@@ -25,7 +25,7 @@ editlink: /games/BatmanForeverArcade.md
 
 As the name suggests Batman Forever is originally an Arcade Game that got ported to MSDOS, the Playstation 1 and Sega Saturn by Iguana Entertainment (Acclaim Published).
 
-The original arcade release was for the `ST-V` (Sega Titan Video Game System) arcade hardware which is what would eventually become the foundation of the32x/Sega Saturn hardware.
+The original arcade release was for the `ST-V` (Sega Titan Video Game System) arcade hardware which is what would eventually become the foundation of the32x/Sega Saturn hardware [^2].
 
 This article will cover interesting finding from both the original arcade version and the various home ports.
 
@@ -43,7 +43,7 @@ From the Sega Saturn version of the game we can find a few full source file path
 * "/batman/game/..\\gfx\\particle\\global.h",
 * "/batman/game/..\\gfx\\particle\\level1a.h"
 
-
+{% include folder-browser.html %}
 
 # Sega Saturn Libraries
 Also from the Sega Saturn version of the game we can see what libraries were linked into the main executable:
@@ -159,6 +159,8 @@ The list of programmers credited for both the Playstaion and Saturn port of Batm
 * Carl Wade (Lead Programmer & Tools Programmer)
 * Stephen Broumley (Lead Programmer & Tools Programmer)
 * Craig Galley (Tools Programmer)
+* David Crummack (Presentation)
+* Richard Cowie (Riddler Control Room)
 
 Sadly Carl Wade passed away in 2011 at the young age of 40, a fond memory of him by his friend and co-worker Stephen Broumley was a function he added to batman called `TheWholeKitAndCaboodle` when the player completed the game [^1]. 
 
@@ -168,12 +170,20 @@ It just goes to show the importance of preserving the development of these games
 # PS1 Version
 The PS1 version has no references to "PSYQ" at all and all the file extensions are completely different, so it looks like a rewrite of the game rather than a port.
 
-The main game executable `SLES_005.25` contains 318 functions when disassembling.
+The main game executable `SLES_005.25` contains **318** functions when disassembling.
 
 ---
 # MSDos Version
+Contains a few different executables:
+* `BM1.EXE` (**2677** functions) - Main game?
+* `DOS4GW.EXE` - DOS memory extender 
+* `FRONTEND.EXE` - Batman Menu? (**780** functions)
+* `I.EXE` - Game Installer
 
+Note for FrontEnd.exe you need to set IDA Pro to MS-DOS executable (Not the default LinearExecutable and Pentium 4 processor). But for BM1.EXE stick to LinearExecutable.
 
 ---
 # References
 [^1]: [Gamasutra - Obituary: Game Programming Veteran Carl Wade](https://www.gamasutra.com/view/news/128680/Obituary_Game_Programming_Veteran_Carl_Wade.php)
+[^2]: [Batman Forever sega st-v cart. by Acclaim Coin-Operated Ent., Inc. (1996)](https://www.arcade-history.com/?n=batman-forever&page=detail&id=191)
+[^3]: [(219) PSX Longplay [340] Batman Forever The Arcade Game - YouTube](https://www.youtube.com/watch?v=LJvrHS-kKZU)
