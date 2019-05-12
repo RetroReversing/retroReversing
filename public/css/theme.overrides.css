@@ -194,3 +194,7 @@ blockquote {
 .linkToOtherPost .widget-img img {
   height: 100px !important;
 }
+
+.jstree-default {
+  font-size: 14px !important;
+}
