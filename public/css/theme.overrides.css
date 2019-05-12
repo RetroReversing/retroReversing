@@ -202,3 +202,7 @@ blockquote {
 .jstree-default .jstree-node {
   margin-left:0px !important;
 }
+
+.jstree .jstree-children {
+margin-top: 0px !important;
+}
