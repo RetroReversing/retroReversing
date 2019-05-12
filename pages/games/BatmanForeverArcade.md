@@ -59,52 +59,52 @@ From the Sega Saturn version of the game we can find a few full source file path
 * "/batman/game/..\\gfx\\particle\\global.h",
 * "/batman/game/..\\gfx\\particle\\level1a.h"
 
-{% include folder-browser.html %}
+
 
 <div class="folder-browser">
-  <ul>
-      <li>C:\
-        <ul>
-          <li id="child_node_1">Batman
-             <ul>
-                <li>Game
-			<ul>
-                <li>Levels
-<ul>
-				<li>hotel.c</li>
-</ul>
+    <ul>
+        <li>C:\
+            <ul>
+                <li id="child_node_1">Batman
+                    <ul>
+                        <li>Game
+                            <ul>
+                                <li>Levels
+                                    <ul>
+                                        <li>hotel.c</li>
+                                    </ul>
+                                </li>
+                                <li>EPROM
+                                    <ul>
+                                        <li>attract.s</li>
+                                    </ul>
+                                </li>
+                                <li>enemyai.c</li>
+                                <li>enemyai.h</li>
+                                <li>enemy.h</li>
+                                <li>particle.h</li>
+                                <li>script.h</li>
+                                <li>objects.h</li>
+                            </ul>
+                        </li>
+                        <li>Gfx
+                            <ul>
+                                <li>Particle
+                                    <ul>
+                                        <li>global.h</li>
+                                        <li>level1a.h</li>
+                                        <li>enemy.h</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
-  <li>EPROM
-<ul>
-				<li>attract.s</li>
-</ul>
-                </li>
-			<li>enemyai.c</li>
-<li>enemyai.h</li>
-			<li>enemy.h</li>
-<li>particle.h</li>
-<li>script.h</li>
-<li>objects.h</li>
-             </ul> 
-                </li>
-<li>Gfx
-<ul>
-                <li>Particle
-			   <ul>
-				<li>global.h</li>
-<li>level1a.h</li>
-			<li>enemy.h</li>
-</ul>
-                </li>
-			
-             </ul> 
-</li>
-             </ul> 
-          </li>
-        </ul>
-      </li>
+            </ul>
+        </li>
     </ul>
 </div>
+{% include folder-browser.html %}
 
 # Object Files (Compiled C or ASM)
 From the Sega Saturn port of the game there are a few references to the original names for some of the compiled object files:
