@@ -29,6 +29,22 @@ The original arcade release was for the `ST-V` (Sega Titan Video Game System) ar
 
 This article will cover interesting finding from both the original arcade version and the various home ports.
 
+# Game Details
+Before getting into the technical side of reverse engineering we will cover a few important game details so that its easier to understand the files that we are reverse engineering.
+
+## Enemies
+* Guesser Robot
+* Feather Thug
+* Tassel Boss
+* Spice
+* Sugar
+* Two Face Thugs
+* Voice from the Sky
+* Sabouter
+* Blade
+* Zapper
+
+---
 # Source files
 From the Sega Saturn version of the game we can find a few full source file paths:
 * "C:\\BATMAN\\GAME\\ENEMYAI.C"
@@ -43,8 +59,57 @@ From the Sega Saturn version of the game we can find a few full source file path
 * "/batman/game/..\\gfx\\particle\\global.h",
 * "/batman/game/..\\gfx\\particle\\level1a.h"
 
+
+
+<div class="folder-browser">
+  <ul>
+      <li>C:\
+        <ul>
+          <li id="child_node_1">Batman
+             <ul>
+                <li>Game</li>
+             </ul> 
+          </li>
+          <li>Child node 2</li>
+        </ul>
+      </li>
+      <li>Root node 2</li>
+    </ul>
+</div>
+
 {% include folder-browser.html %}
 
+# Object Files (Compiled C or ASM)
+From the Sega Saturn port of the game there are a few references to the original names for some of the compiled object files:
+
+Name | Notes
+---|---
+3dbat.obj | 
+enemy.obj | 
+enemyai.obj | 
+eprom\\anims1.obj | 
+eprom\\anims2.obj | 
+eprom\\anims3.obj | 
+eprom\\anims4.obj | 
+eprom\\anims5.obj | 
+eprom\\anims6.obj | 
+eprom\\anims7.obj | 
+levels\\alleya.obj | 
+levels\\alleyb.obj | 
+levels\\batcave.obj | 
+levels\\hotel.obj | 
+levels\\level1a.obj | 
+levels\\level1b.obj | 
+levels\\level1c.obj | 
+levels\\level1d.obj | 
+levels\\lowcave.obj | 
+levels\\lsubway.obj | 
+levels\\riddcont.obj | 
+levels\\twoface.obj | 
+levels\\usubway.obj | 
+sound.obj | 
+
+---
 # Sega Saturn Libraries
 Also from the Sega Saturn version of the game we can see what libraries were linked into the main executable:
 * c:\\saturn\\lib\\libgcc.lib
