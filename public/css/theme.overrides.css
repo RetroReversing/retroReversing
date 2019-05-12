@@ -204,5 +204,6 @@ blockquote {
 }
 
 .jstree .jstree-children {
-margin-top: 0px !important;
+  margin-top: 0px !important;
+  padding-left: 0px !important;
 }
