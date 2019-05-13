@@ -59,8 +59,14 @@ From the Sega Saturn version of the game we can find a few full source file path
 * "/batman/game/..\\gfx\\particle\\global.h",
 * "/batman/game/..\\gfx\\particle\\level1a.h"
 
+<div class="folder-browser2" markdown="1">
+  * C:\
+    * Batman
+      * Game
+        * Levels
+</div>
 
-<div class="folder-browser">
+<div class="folder-browser2">
     <ul>
         <li>C:\
             <ul>
