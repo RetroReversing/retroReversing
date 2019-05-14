@@ -104,7 +104,7 @@ From the Sega Saturn version of the game we can find a few full source file path
     </ul>
 </div>
 
-{% include folder-browser.html %}
+{% include folder-browser.html data="[{'id':'c','parent':'#','text':'C:'},{'id':'c-batman','parent':'c','text':'BATMAN'},{'id':'c-batman-game','parent':'c-batman','text':'GAME'},{'id':'c-batman-game-enemyai-c','parent':'c-batman-game','text':'ENEMYAI.C'},{'id':'c-batman-game-eprom','parent':'c-batman-game','text':'EPROM'},{'id':'c-batman-game-eprom-attract-s','parent':'c-batman-game-eprom','text':'ATTRACT.S'},{'id':'c-batman-levels','parent':'c-batman','text':'levels'},{'id':'c-batman-levels-hotel-c','parent':'c-batman-levels','text':'hotel.c'},{'id':'c-batman-game-enemy-h','parent':'c-batman-game','text':'enemy.h'}]" %}
 
 # Object Files (Compiled C or ASM)
 From the Sega Saturn port of the game there are a few references to the original names for some of the compiled object files:
