@@ -49,7 +49,6 @@ Before getting into the technical side of reverse engineering we will cover a fe
 
 <div id="filelist1" markdown="1">
 From the Sega Saturn version of the game we can find a few full source file paths:
-
     * /BATMAN/GAME/ENEMYAI.C
     * /BATMAN/GAME/EPROM/ATTRACT.S
     * /batman/game/levels/hotel.c
@@ -61,7 +60,6 @@ From the Sega Saturn version of the game we can find a few full source file path
     * /batman/game/objects.h
     * /batman/gfx/particle/global.h
     * /batman/gfx/particle/level1a.h
-  
 </div>
 
 {% include folder-browser.html selector="#filelist1" %}
