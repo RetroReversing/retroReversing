@@ -15,13 +15,61 @@
 
 <script>
   
+  function cleanId(id) {
+  let cleanedId = id.replace(/\:/g, '');
+  cleanedId = cleanedId.replace(/\W/g, '-');
+  return cleanedId.toLowerCase();
+}
+
+function convertPathsToJsTree(paths) {
+  const data = [];
+  const generatedIds={};
+  paths.forEach((path)=>{
+    let splitPathParts = [];
+    if (path.indexOf('\\') !==-1) {
+      splitPathParts = path.split('\\');
+    } else {
+      splitPathParts = path.split('/');
+    }
+    splitPathParts.forEach((part,level)=>{
+      const id = cleanId(splitPathParts.slice(0,level+1).join('-'));
+      const parent = cleanId(splitPathParts.slice(0,level).join('-'));
+      const json = { id, parent, "text" : part };
+      if (!generatedIds[id]) {
+        data.push(json);
+        generatedIds[id] = true;
+      }
+    });
+  });
+  return data;
+}
+
+  var treeData = [];
+{% if include.selector %}
+var fileListid = '{{include.selector}}';
+var cssSelector = fileListid+' li';
+var listElements = $(cssSelector);
+
+var arrayOfPaths = [];
+if (listElements.length>0) {
+  listElements.each(function(){
+      arrayOfPaths.push($(this).text());
+  });
+  
+  treeData = convertPathsToJsTree(arrayOfPaths);
+  console.log('JSTree data:'+JSON.stringify(treeData));
+}
+ {% endif %}
+  
 $('.folder-browser').jstree({
   "core" : {
     "animation" : 0,
     "check_callback" : true,
     "themes" : { "stripes" : true },
     {% if include.data %}
-  "data": {{include.data}}
+      "data": {{include.data}}
+    {% else %}
+        "data": treeData
    {% endif %}
 //     "data":[{'id':'c','parent':'#','text':'C:'},{'id':'c-batman','parent':'c','text':'BATMAN'},{'id':'c-batman-game','parent':'c-batman','text':'GAME'},{'id':'c-batman-game-enemyai-c','parent':'c-batman-game','text':'ENEMYAI.C'},{'id':'c-batman-game-eprom','parent':'c-batman-game','text':'EPROM'},{'id':'c-batman-game-eprom-attract-s','parent':'c-batman-game-eprom','text':'ATTRACT.S'},{'id':'c-batman-levels','parent':'c-batman','text':'levels'},{'id':'c-batman-levels-hotel-c','parent':'c-batman-levels','text':'hotel.c'},{'id':'c-batman-game-enemy-h','parent':'c-batman-game','text':'enemy.h'}]
     /*'data' : {
