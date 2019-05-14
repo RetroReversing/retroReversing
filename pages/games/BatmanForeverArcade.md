@@ -49,62 +49,19 @@ Before getting into the technical side of reverse engineering we will cover a fe
 
 <div id="filelist1" markdown="1">
 From the Sega Saturn version of the game we can find a few full source file paths:
-  * C:\\BATMAN\\GAME\\ENEMYAI.C
-  * C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S
-  * /batman/game/levels/hotel.c
-  * /batman/game/enemy.h
-  * /batman/game/enemyai.h
-  * /batman/game/game.h
-  * /batman/game/particle.h
-  * /batman/game/script.h
-  * /batman/game/objects.h
-  * /batman/gfx/particle/global.h
-  * /batman/gfx/particle/level1a.h
-</div>
 
-<div class="folder-browser">
-    <ul>
-        <li>C:\
-            <ul>
-                <li id="child_node_1">Batman
-                    <ul>
-                        <li>Game
-                            <ul>
-                                <li>Levels
-                                    <ul>
-                                        <li>hotel.c</li>
-                                    </ul>
-                                </li>
-                                <li>EPROM
-                                    <ul>
-                                        <li>attract.s</li>
-<li>libeprom.lib</li>
-                                    </ul>
-                                </li>
-                                <li>enemyai.c</li>
-                                <li>enemyai.h</li>
-                                <li>enemy.h</li>
-                                <li>particle.h</li>
-                                <li>script.h</li>
-                                <li>objects.h</li>
-                            </ul>
-                        </li>
-                        <li>Gfx
-                            <ul>
-                                <li>Particle
-                                    <ul>
-                                        <li>global.h</li>
-                                        <li>level1a.h</li>
-                                        <li>enemy.h</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    * C:\\BATMAN\\GAME\\ENEMYAI.C
+    * C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S
+    * /batman/game/levels/hotel.c
+    * /batman/game/enemy.h
+    * /batman/game/enemyai.h
+    * /batman/game/game.h
+    * /batman/game/particle.h
+    * /batman/game/script.h
+    * /batman/game/objects.h
+    * /batman/gfx/particle/global.h
+    * /batman/gfx/particle/level1a.h
+  
 </div>
 
 {% include folder-browser.html selector="#filelist1" %}
