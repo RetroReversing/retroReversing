@@ -46,20 +46,21 @@ Before getting into the technical side of reverse engineering we will cover a fe
 
 ---
 # Source files
+
+<div markdown="1">
 From the Sega Saturn version of the game we can find a few full source file paths:
-<ul id="filelist1" markdown="1">
-* "C:\\BATMAN\\GAME\\ENEMYAI.C"
-* "C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S"
-* "levels/hotel.c"
-* "/batman/game/enemy.h"
-* "/batman/game/enemyai.h"
-* "/batman/game/game.h"
-* "/batman/game/particle.h"
-* "/batman/game/script.h"
-* "/batman/game/objects.h"
-* "/batman/game/..\\gfx\\particle\\global.h",
-* "/batman/game/..\\gfx\\particle\\level1a.h"
-</ul>
+  * "C:\\BATMAN\\GAME\\ENEMYAI.C"
+  * "C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S"
+  * "levels/hotel.c"
+  * "/batman/game/enemy.h"
+  * "/batman/game/enemyai.h"
+  * "/batman/game/game.h"
+  * "/batman/game/particle.h"
+  * "/batman/game/script.h"
+  * "/batman/game/objects.h"
+  * "/batman/game/..\\gfx\\particle\\global.h",
+  * "/batman/game/..\\gfx\\particle\\level1a.h"
+</div>
 
 <div class="folder-browser">
     <ul>
