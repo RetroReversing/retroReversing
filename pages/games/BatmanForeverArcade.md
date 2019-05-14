@@ -50,8 +50,8 @@ Before getting into the technical side of reverse engineering we will cover a fe
 <div id="filelist1" markdown="1">
 From the Sega Saturn version of the game we can find a few full source file paths:
 
-    * C:\\BATMAN\\GAME\\ENEMYAI.C
-    * C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S
+    * /BATMAN/GAME/ENEMYAI.C
+    * /BATMAN/GAME/EPROM/ATTRACT.S
     * /batman/game/levels/hotel.c
     * /batman/game/enemy.h
     * /batman/game/enemyai.h
