@@ -782,7 +782,6 @@ This section will analyze the source code for Home Alone 2 on the Nintendo Enter
 * /HomeAlone2_NES_Src/BlofPost/Sheet_0010.jpg
 * /HomeAlone2_NES_Src/BlofPost/Sheet_0011.jpg
 * /HomeAlone2_NES_Src/BlofPost/Sheet_0005.jpg
-* /HomeAlone2_NES_Src/&1
 * /HomeAlone2_NES_Src/UTL
 * /HomeAlone2_NES_Src/UTL/LOD2RAW.EXE
 * /HomeAlone2_NES_Src/UTL/CMERGE.EXE
@@ -1089,10 +1088,7 @@ It looks like there are 2 different ways to compile the game, one is a 'local bu
 ### ENG (Game Engine) Directory
 
 ### Developers
-
 * Tony Lau
-
 * Christoper Will (Is he known in the code as Henry C. Will IV? )
-
 * Joseph A. Moses (Known in the code as Jesus? )
 
