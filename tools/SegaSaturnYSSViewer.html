@@ -129,10 +129,8 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCXDN1") // 0x25F80082
 .uint16("SCYIN1") // 0x25F80084
 .uint16("SCYDN1") // 0x25F80086
-
 .uint32("ZMXN1") // 0x25F80088
 .uint32("ZMYN1") // 0x25F8008C
-
 .uint16("SCXN2")  // 0x25F80090
 .uint16("SCYN2")  // 0x25F80092
 .uint16("SCXN3")  // 0x25F80094
@@ -230,7 +228,6 @@ var yssVDP1Registers =   new Parser.Parser()
   .uint16("LOPR")
   .uint16("COPR")
   .uint16("MODR")
-
   .uint32("addr")
    .int32("disptoggle_dont_use_me")
    .int16("localX")
@@ -252,15 +249,14 @@ var yssVDP1Section = new Parser.Parser()
   .uint32("SECTION_VERSION")
   .uint32("SECTION_SIZE")
   .nest("VDP1_Registers", { type: yssVDP1Registers})
+  .array("VDP1_RAM", {
+    type: "uint8",
+    length: 0x80000 
+  })
   .array("SECTION_CONTENT", {
     type: "uint8",
-    length: function() { return this.SECTION_SIZE - 50 } });
-  
-//   .nest("VDP1_Registers", { type: yssVDP1Registers})
-//   .array("VDP1_RAM", {
-//     type: "uint8",
-//     length: 0x80000 
-//   })
+    length: function() { return this.SECTION_SIZE - 0x80000 - 50 } });
+
 //   .array("IMPROVED_SAVE_STATE", {
 //     type: "uint8",
 //     length: 0x40000 
