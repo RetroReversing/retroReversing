@@ -230,7 +230,7 @@ var yssVDP1Section = new Parser.Parser()
       type: "uint8",
       length: ( 0x340008-(0x80000+0x40000))
     })
-//   .nest("VDP1_Registers", { type: yssVDP2Registers})
+//   .nest("VDP1_Registers", { type: yssVDP1Registers})
   .array("VDP1_RAM", {
     type: "uint8",
     length: 0x80000 
@@ -305,7 +305,7 @@ var yssHeader = new Parser.Parser()
 .nest("SOUND_SCSP_SECTION", { type: yssSectionDefault})
 .nest("SCU_SECTION", { type: yssSectionDefault})
 .nest("SMPC_SECTION", { type: yssSectionDefault})
-.nest("GRAPHICS_VDP1_SECTION", { type: yssSectionDefault})
+.nest("GRAPHICS_VDP1_SECTION", { type: yssVDP1Section})
 .nest("GRAPHICS_VDP2_SECTION", { type: yssVDP2Section})
 .nest("OTHER_SECTION", { type: yssOtherSection})
 ;
