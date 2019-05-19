@@ -13,8 +13,8 @@ editlink: ../tools/SegaSaturnYSSViewer.html
 {% include file-parser.html format="YSS" %}
 
 
-  <script>
-    var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
+<script>
+var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
 // YSS File Parser
 var n64Header = new Parser.Parser().
@@ -67,19 +67,5 @@ window.addEventListener('drop', function (event) {
     parseFile(file, c.id, false);
   }
   return false;
-});
-
-window.addEventListener('dragover', function (event) {
-  event.preventDefault();
-  draghint.classList.add('hover');
-  return false;
-});
-window.addEventListener('dragleave', function (event) {
-  event.preventDefault();
-  draghint.classList.remove('hover');
-  return false;
-});
-window.addEventListener('focus', function () {
-  return draghint.classList.remove('hover');
 });
   </script>
