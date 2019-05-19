@@ -20,6 +20,12 @@ var yssVideoHeader = new Parser.Parser()
 .endianess("little")
 .uint32("VIDEO_FRAME_COUNT")
 .uint32("VIDEO_POSITION")
+
+var yssSectionHeader = new Parser.Parser()
+.endianess("little")
+.string("SECTION_NAME", { length: 3 })
+.uint32("SECTION_VERSION")
+.uint32("SECTION_SIZE")
   
 // YSS File Parser
 var yssHeader = new Parser.Parser()
@@ -36,6 +42,7 @@ var yssHeader = new Parser.Parser()
   },
   defaultChoice: new Parser.Parser()
 })
+.nest("CART_SECTION", { type: yssSectionHeader})
 .array("bootCode", {
   type: "uint8",
   length: 4032 });
