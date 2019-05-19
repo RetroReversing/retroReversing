@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 tags: 
 - tools
 - segasaturn
@@ -47,9 +47,9 @@ var yssHeader = new Parser.Parser()
 })
 .nest("CART_SECTION", { type: yssSectionHeader})
 .nest("CS2_SECTION", { type: yssSectionHeader})
-.array("bootCode", {
-  type: "uint8",
-  length: 4032 });
+.nest("Master_SH2_CPU_SECTION", { type: yssSectionHeader})
+.nest("Slave_SH2_CPU_SECTION", { type: yssSectionHeader})
+;
 
 var yssHeaderUP = new ReactUnparser(yssHeader);
 
