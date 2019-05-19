@@ -68,4 +68,17 @@ window.addEventListener('drop', function (event) {
   }
   return false;
 });
+  window.addEventListener('dragover', function (event) {
+  event.preventDefault();
+  draghint.classList.add('hover');
+  return false;
+});
+window.addEventListener('dragleave', function (event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  return false;
+});
+window.addEventListener('focus', function () {
+  return draghint.classList.remove('hover');
+});
   </script>
