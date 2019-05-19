@@ -122,22 +122,16 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCYIN0")// 0x25F80074
 .uint16("SCYDN0")// 0x25F80076
 
-.uint32("ZMXN0_D") // 0x25F8007A
-.uint32("ZMXN0_I") // 0x25F80078
-
-.uint32("ZMYN0_D") // 0x25F8007E
-.uint32("ZMYN0_I") // 0x25F8007C
+.uint32("ZMXN0") // 0x25F8007A
+.uint32("ZMYN0") // 0x25F8007E
 
 .uint16("SCXIN1") // 0x25F80080
 .uint16("SCXDN1") // 0x25F80082
 .uint16("SCYIN1") // 0x25F80084
 .uint16("SCYDN1") // 0x25F80086
 
-.uint32("ZMXN1_D") 
-.uint32("ZMXN1_I")
-
-.uint32("ZMYN1_D") 
-.uint32("ZMYN1_I")
+.uint32("ZMXN1")
+.uint32("ZMYN1")
 
 .uint16("SCXN2")  // 0x25F80090
 .uint16("SCYN2")  // 0x25F80092
@@ -146,14 +140,10 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("ZMCTL")  // 0x25F80098
 .uint16("SCRCTL") // 0x25F8009A
 
-.uint32("VCSTA_L") 
-.uint32("VCSTA_U")
-.uint32("LSTA0_L") 
-.uint32("LSTA0_U")
-.uint32("LSTA1_L") 
-.uint32("LSTA1_U")
-.uint32("LCTA_L") 
-.uint32("LCTA_U")
+.uint32("VCSTA")
+.uint32("LSTA0") 
+.uint32("LSTA1") 
+.uint32("LCTA")
 
 .uint16("BKTAU")  // 0x25F800AC
 .uint16("BKTAL")  // 0x25F800AE
@@ -182,10 +172,8 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("WCTLC")  // 0x25F800D4
 .uint16("WCTLD")  // 0x25F800D6
 
-.uint32("LWTA0_L") 
-.uint32("LWTA0_U") 
-.uint32("LWTA1_L") 
-.uint32("LWTA1_U")
+.uint32("LWTA0")
+.uint32("LWTA1")
 
 .uint16("SPCTL")  // 0x25F800E0
 .uint16("SDCTL")  // 0x25F800E2
@@ -198,26 +186,26 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("PRISA")  // 0x25F800F0
 .uint16("PRISB")  // 0x25F800F2
 .uint16("PRISC")  // 0x25F800F4
-// .uint16("PRISD")  // 0x25F800F6
-// .uint16("PRINA")  // 0x25F800F8
-// .uint16("PRINB")  // 0x25F800FA
-// .uint16("PRIR")   // 0x25F800FC
-// .uint16("CCRSA")  // 0x25F80100
-// .uint16("CCRSB")  // 0x25F80102
-// .uint16("CCRSC")  // 0x25F80104
-// .uint16("CCRSD")  // 0x25F80106
-// .uint16("CCRNA")  // 0x25F80108
-// .uint16("CCRNB")  // 0x25F8010A
-// .uint16("CCRR")   // 0x25F8010C
-// .uint16("CCRLB")  // 0x25F8010E
-// .uint16("CLOFEN") // 0x25F80110
-// .uint16("CLOFSL") // 0x25F80112
-// .uint16("COAR")   // 0x25F80114
-// .uint16("COAG")   // 0x25F80116
-// .uint16("COAB")   // 0x25F80118
-// .uint16("COBR")   // 0x25F8011A
-// .uint16("COBG")   // 0x25F8011C
-// .uint16("COBB")   // 0x25F8011E
+.uint16("PRISD")  // 0x25F800F6
+.uint16("PRINA")  // 0x25F800F8
+.uint16("PRINB")  // 0x25F800FA
+.uint16("PRIR")   // 0x25F800FC
+.uint16("CCRSA")  // 0x25F80100
+.uint16("CCRSB")  // 0x25F80102
+.uint16("CCRSC")  // 0x25F80104
+.uint16("CCRSD")  // 0x25F80106
+.uint16("CCRNA")  // 0x25F80108
+.uint16("CCRNB")  // 0x25F8010A
+.uint16("CCRR")   // 0x25F8010C
+.uint16("CCRLB")  // 0x25F8010E
+.uint16("CLOFEN") // 0x25F80110
+.uint16("CLOFSL") // 0x25F80112
+.uint16("COAR")   // 0x25F80114
+.uint16("COAG")   // 0x25F80116
+.uint16("COAB")   // 0x25F80118
+.uint16("COBR")   // 0x25F8011A
+.uint16("COBG")   // 0x25F8011C
+.uint16("COBB")   // 0x25F8011E
 // 	  .array("VDP2_REGS", {
 // 	    type: "uint8",
 // 	    length: 22 })
