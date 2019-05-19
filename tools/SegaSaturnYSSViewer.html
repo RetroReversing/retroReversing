@@ -18,7 +18,7 @@ var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_un
 
 // YSS File Parser
 var n64Header = new Parser.Parser()
-.endianess("big")
+.endianess("little")
 .string("YSS_SIGNATURE", { length: 3 })
 .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
 .uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
