@@ -135,12 +135,12 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCYIN1") // 0x25F80084
 .uint16("SCYDN1") // 0x25F80086
 
-.uint32("ZMXN1_D") // 0x25F8007A
-.uint32("ZMXN1_I") // 0x25F80078
+.uint32("ZMXN1_D") 
+.uint32("ZMXN1_I") 
 .uint32("ZMXN1_ALL")
 
-.uint32("ZMYN1_D") // 0x25F8007E
-.uint32("ZMYN1_I") // 0x25F8007C
+.uint32("ZMYN1_D") 
+.uint32("ZMYN1_I") 
 .uint32("ZMYN1_ALL")
 
 .uint16("SCXN2")  // 0x25F80090
@@ -149,9 +149,23 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCYN3")  // 0x25F80096
 .uint16("ZMCTL")  // 0x25F80098
 .uint16("SCRCTL") // 0x25F8009A
+
+.uint32("VCSTA_L") 
+.uint32("VCSTA_U") 
+.uint32("VCSTA_ALL")
+.uint32("LSTA0_L") 
+.uint32("LSTA0_U") 
+.uint32("LSTA0_ALL")
+.uint32("LSTA1_L") 
+.uint32("LSTA1_U") 
+.uint32("LSTA1_ALL")
+.uint32("LCTA_L") 
+.uint32("LCTA_U") 
+.uint32("LCTA_ALL")
+
   .array("VDP2_REGS", {
     type: "uint8",
-    length: 102 })
+    length: 54 })
   
   
 
