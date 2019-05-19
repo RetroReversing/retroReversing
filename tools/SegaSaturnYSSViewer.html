@@ -60,7 +60,7 @@ var yssSectionHeader = new Parser.Parser()
 .uint32("SECTION_VERSION")
 .uint32("SECTION_SIZE")
 
-var yssOtherSection = newParser.Parser()
+var yssOtherSection = new Parser.Parser()
 .endianess("little")
 .nest("OTHER_SECTION_HEADER", { type: yssSectionHeader})
 .array("BUP_RAM", {
