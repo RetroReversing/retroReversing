@@ -228,17 +228,17 @@ var yssVDP1Section = new Parser.Parser()
   .nest("HEADER", { type: yssSectionHeader})
   .array("VDP1_Registers", {
       type: "uint8",
-      length: 50
+      length: 0x340008
     })
 //   .nest("VDP1_Registers", { type: yssVDP1Registers})
-  .array("VDP1_RAM", {
-    type: "uint8",
-    length: 0x80000 
-  })
-  .array("IMPROVED_SAVE_STATE", {
-    type: "uint8",
-    length: 0x40000 
-  })
+//   .array("VDP1_RAM", {
+//     type: "uint8",
+//     length: 0x80000 
+//   })
+//   .array("IMPROVED_SAVE_STATE", {
+//     type: "uint8",
+//     length: 0x40000 
+//   })
 ;
   
  
