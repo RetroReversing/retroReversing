@@ -23,7 +23,7 @@ var yssVideoHeader = new Parser.Parser()
 
 var yssSectionHeader = new Parser.Parser()
 .endianess("little")
-.string("SECTION_NAME", { length: 3 })
+.string("SECTION_NAME", { length: 4 })
 .uint32("SECTION_VERSION")
 .uint32("SECTION_SIZE")
   
