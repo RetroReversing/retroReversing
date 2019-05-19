@@ -58,7 +58,29 @@ var yssSectionHeader = new Parser.Parser()
 .endianess("little")
 .string("SECTION_NAME", { length: 4 })
 .uint32("SECTION_VERSION")
-.uint32("SECTION_SIZE")
+.uint32("SECTION_SIZE");
+
+var yssVDP2Registers =   new Parser.Parser()
+  .endianess("little")
+  .array("VDP2_REGS", {
+    type: "uint8",
+    length: 286 })
+  
+  
+
+var yssVDP2Section = new Parser.Parser()
+  .endianess("little")
+  .nest("HEADER", { type: yssSectionHeader})
+  .nest("VDP2_Registers", { type: yssVDP2Registers})
+  .array("VDP2_RAM", {
+    type: "uint8",
+    length: 0x80000 
+  })
+  .array("VDP2_COLOR_RAM", {
+    type: "uint8",
+    length: 0x80000 
+  })
+  .int32("COLOR_MODE")
 
 var yssOtherSection = new Parser.Parser()
 .endianess("little")
@@ -123,7 +145,7 @@ var yssHeader = new Parser.Parser()
 .nest("SCU_SECTION", { type: yssSectionDefault})
 .nest("SMPC_SECTION", { type: yssSectionDefault})
 .nest("GRAPHICS_VDP1_SECTION", { type: yssSectionDefault})
-.nest("GRAPHICS_VDP2_SECTION", { type: yssSectionDefault})
+.nest("GRAPHICS_VDP2_SECTION", { type: yssVDP2Section})
 .nest("OTHER_SECTION", { type: yssOtherSection})
 ;
 
