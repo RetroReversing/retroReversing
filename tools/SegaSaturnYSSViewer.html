@@ -222,6 +222,26 @@ var yssVDP2Section = new Parser.Parser()
     length: 0x1000 
   })
   .int32("COLOR_MODE");
+  
+var yssVDP1Section = new Parser.Parser()
+  .endianess("little")
+  .nest("HEADER", { type: yssSectionHeader})
+  .array("VDP1_RAM", {
+      type: "uint8",
+      length: ( 0x340008-(0x80000+0x40000))
+    })
+//   .nest("VDP1_Registers", { type: yssVDP2Registers})
+  .array("VDP1_RAM", {
+    type: "uint8",
+    length: 0x80000 
+  })
+  .array("IMPROVED_SAVE_STATE", {
+    type: "uint8",
+    length: 0x40000 
+  })
+;
+  
+ 
 
 var yssOtherSection = new Parser.Parser()
 .endianess("little")
