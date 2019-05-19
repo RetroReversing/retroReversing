@@ -17,7 +17,7 @@ editlink: ../tools/SegaSaturnYSSViewer.html
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
 // YSS File Parser
-var n64Header = new Parser.Parser()
+var yssHeader = new Parser.Parser()
 .endianess("little")
 .string("YSS_SIGNATURE", { length: 3 })
 .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
@@ -27,7 +27,7 @@ var n64Header = new Parser.Parser()
   type: "uint8",
   length: 4032 });
 
-var n64HeaderUP = new ReactUnparser(n64Header);
+var yssHeaderUP = new ReactUnparser(n64Header);
 
 
 var draghint = document.getElementById('draghint');
@@ -40,7 +40,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, n64Header, n64HeaderUP);
+    parseFile(file, yssHeader, yssHeaderUP);
   }
   return false;
 });
