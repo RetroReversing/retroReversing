@@ -104,10 +104,10 @@ var yssHeader = new Parser.Parser()
 .nest("SMPC_SECTION", { type: yssSectionDefault})
 .nest("GRAPHICS_VDP1_SECTION", { type: yssSectionDefault})
 .nest("GRAPHICS_VDP2_SECTION", { type: yssSectionDefault})
-.nest("OTHER_SECTION", { type: yssSectionHeader})
+.nest("OTHER_SECTION", { type: yssOtherSection})
 ;
 
-var yssHeaderUP = new ReactUnparser(yssHeader);
+var yssFileUnParser = new ReactUnparser(yssHeader);
 
 
 var draghint = document.getElementById('draghint');
@@ -120,7 +120,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, yssHeader, yssHeaderUP, false);
+    parseFile(file, yssHeader, yssFileUnParser, false);
   }
   return false;
 });
