@@ -3,3 +3,53 @@
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.production.min.js"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.min.js"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dropzone/6.0.4/index.js"></script>
+
+
+<style>
+ #result {
+  display:flex;
+  flex-wrap: wrap;
+  justify-items: start;
+  height: 100%;
+  width: 100%;
+}
+
+#result div {
+  padding:5px;
+  cursor: pointer;
+  flex: 0 0 15%;
+  max-height: 10px;
+}
+
+#mySection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#mySection div {
+  padding: 10px;
+}
+
+.invalid {
+  color: red !important
+}
+</style>
+
+<!--   <details id='iff_canvas_debug_container' class="debug_container">
+    <summary>Debug Output</summary>
+    <div id="iff_canvas_debug"></div>
+  </details> -->
+
+
+  <div class="draghint hidden screen" id="draghint">
+<!--     <input type="file" id="chooser" class="chooser"/> -->
+    <div class="dragtext">
+      <h1>Drop Z64 files here to view</h1>
+      <div id='ilbm'>
+      </div>
+    </div>
+  </div>
+
+<div id="root">
+    <!-- This element's contents will be replaced with your component. -->
+</div>
