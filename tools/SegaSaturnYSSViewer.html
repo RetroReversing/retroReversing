@@ -182,22 +182,22 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("WCTLC")  // 0x25F800D4
 .uint16("WCTLD")  // 0x25F800D6
 
-// .uint32("LWTA0_L") 
-// .uint32("LWTA0_U") 
-// .uint32("LWTA1_L") 
-// .uint32("LWTA1_U")
+.uint32("LWTA0_L") 
+.uint32("LWTA0_U") 
+.uint32("LWTA1_L") 
+.uint32("LWTA1_U")
 
-// .uint16("SPCTL")  // 0x25F800E0
-// .uint16("SDCTL")  // 0x25F800E2
-// .uint16("CRAOFA") // 0x25F800E4
-// .uint16("CRAOFB") // 0x25F800E6
-// .uint16("LNCLEN") // 0x25F800E8
-// .uint16("SFPRMD") // 0x25F800EA
-// .uint16("CCCTL")  // 0x25F800EC
-// .uint16("SFCCMD") // 0x25F800EE
-// .uint16("PRISA")  // 0x25F800F0
-// .uint16("PRISB")  // 0x25F800F2
-// .uint16("PRISC")  // 0x25F800F4
+.uint16("SPCTL")  // 0x25F800E0
+.uint16("SDCTL")  // 0x25F800E2
+.uint16("CRAOFA") // 0x25F800E4
+.uint16("CRAOFB") // 0x25F800E6
+.uint16("LNCLEN") // 0x25F800E8
+.uint16("SFPRMD") // 0x25F800EA
+.uint16("CCCTL")  // 0x25F800EC
+.uint16("SFCCMD") // 0x25F800EE
+.uint16("PRISA")  // 0x25F800F0
+.uint16("PRISB")  // 0x25F800F2
+.uint16("PRISC")  // 0x25F800F4
 // .uint16("PRISD")  // 0x25F800F6
 // .uint16("PRINA")  // 0x25F800F8
 // .uint16("PRINB")  // 0x25F800FA
@@ -218,9 +218,9 @@ var yssVDP2Registers =   new Parser.Parser()
 // .uint16("COBR")   // 0x25F8011A
 // .uint16("COBG")   // 0x25F8011C
 // .uint16("COBB")   // 0x25F8011E
-	  .array("VDP2_REGS", {
-	    type: "uint8",
-	    length: 38 })
+// 	  .array("VDP2_REGS", {
+// 	    type: "uint8",
+// 	    length: 22 })
 ; 
 
 var yssVDP2Section = new Parser.Parser()
