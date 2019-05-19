@@ -226,9 +226,9 @@ var yssVDP2Section = new Parser.Parser()
 var yssVDP1Section = new Parser.Parser()
   .endianess("little")
   .nest("HEADER", { type: yssSectionHeader})
-  .array("VDP1_RAM", {
+  .array("VDP1_Registers", {
       type: "uint8",
-      length: ( 0x340008-(0x80000+0x40000))
+      length: 50
     })
 //   .nest("VDP1_Registers", { type: yssVDP1Registers})
   .array("VDP1_RAM", {
