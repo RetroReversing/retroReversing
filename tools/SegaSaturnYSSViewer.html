@@ -55,6 +55,7 @@ var yssHeader = new Parser.Parser()
 .nest("SMPC_SECTION", { type: yssSectionHeader})
 .nest("GRAPHICS_VDP1_SECTION", { type: yssSectionHeader})
 .nest("GRAPHICS_VDP2_SECTION", { type: yssSectionHeader})
+.nest("OTHER_SECTION", { type: yssSectionHeader})
 ;
 
 var yssHeaderUP = new ReactUnparser(yssHeader);
