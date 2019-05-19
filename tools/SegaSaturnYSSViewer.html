@@ -17,12 +17,13 @@ editlink: ../tools/SegaSaturnYSSViewer.html
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
 // YSS File Parser
-var n64Header = new Parser.Parser().
-string("YSS_SIGNATURE", { length: 3 }).
-uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 }).
-uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 }).
-uint16("Unknown6").
-array("bootCode", {
+var n64Header = new Parser.Parser()
+.endianess("big")
+.string("YSS_SIGNATURE", { length: 3 })
+.uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
+.uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
+.uint16("Unknown6")
+.array("bootCode", {
   type: "uint8",
   length: 4032 });
 
