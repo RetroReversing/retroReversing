@@ -70,7 +70,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, yssHeader, yssHeaderUP);
+    parseFile(file, yssHeader, yssHeaderUP, false);
   }
   return false;
 });
