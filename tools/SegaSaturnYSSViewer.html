@@ -62,9 +62,68 @@ var yssSectionHeader = new Parser.Parser()
 
 var yssVDP2Registers =   new Parser.Parser()
   .endianess("little")
+.uint16("TVMD")  // 0x25F80000
+.uint16("EXTEN") // 0x25F80002
+.uint16("TVSTAT")// 0x25F80004
+.uint16("VRSIZE")// 0x25F80006
+.uint16("HCNT")  // 0x25F80008
+.uint16("VCNT")  // 0x25F8000A
+.uint16("RAMCTL")// 0x25F8000E
+.uint16("CYCA0L")// 0x25F80010
+.uint16("CYCA0U")// 0x25F80012
+.uint16("CYCA1L")// 0x25F80014
+.uint16("CYCA1U")// 0x25F80016
+.uint16("CYCB0L")// 0x25F80018
+.uint16("CYCB0U")// 0x25F8001A
+.uint16("CYCB1L")// 0x25F8001C
+.uint16("CYCB1U")// 0x25F8001E
+.uint16("BGON")  // 0x25F80020
+.uint16("MZCTL") // 0x25F80022
+.uint16("SFSEL") // 0x25F80024
+.uint16("SFCODE")// 0x25F80026
+.uint16("CHCTLA")// 0x25F80028
+.uint16("CHCTLB")// 0x25F8002A
+.uint16("BMPNA") // 0x25F8002C
+.uint16("BMPNB") // 0x25F8002E
+.uint16("PNCN0") // 0x25F80030
+.uint16("PNCN1") // 0x25F80032
+.uint16("PNCN2") // 0x25F80034
+.uint16("PNCN3") // 0x25F80036
+.uint16("PNCR")  // 0x25F80038
+.uint16("PLSZ")  // 0x25F8003A
+.uint16("MPOFN") // 0x25F8003C
+.uint16("MPOFR") // 0x25F8003E
+.uint16("MPABN0")// 0x25F80040
+.uint16("MPCDN0")// 0x25F80042
+.uint16("MPABN1")// 0x25F80044
+.uint16("MPCDN1")// 0x25F80046
+.uint16("MPABN2")// 0x25F80048
+.uint16("MPCDN2")// 0x25F8004A
+.uint16("MPABN3")// 0x25F8004C
+.uint16("MPCDN3")// 0x25F8004E
+.uint16("MPABRA")// 0x25F80050
+.uint16("MPCDRA")// 0x25F80052
+.uint16("MPEFRA")// 0x25F80054
+.uint16("MPGHRA")// 0x25F80056
+.uint16("MPIJRA")// 0x25F80058
+.uint16("MPKLRA")// 0x25F8005A
+.uint16("MPMNRA")// 0x25F8005C
+.uint16("MPOPRA")// 0x25F8005E
+.uint16("MPABRB")// 0x25F80060
+.uint16("MPCDRB")// 0x25F80062
+.uint16("MPEFRB")// 0x25F80064
+.uint16("MPGHRB")// 0x25F80066
+.uint16("MPIJRB")// 0x25F80068
+.uint16("MPKLRB")// 0x25F8006A
+.uint16("MPMNRB")// 0x25F8006C
+.uint16("MPOPRB")// 0x25F8006E
+.uint16("SCXIN0")// 0x25F80070
+.uint16("SCXDN0")// 0x25F80072
+.uint16("SCYIN0")// 0x25F80074
+.uint16("SCYDN0")// 0x25F80076
   .array("VDP2_REGS", {
     type: "uint8",
-    length: 288 })
+    length: 170 })
   
   
 
