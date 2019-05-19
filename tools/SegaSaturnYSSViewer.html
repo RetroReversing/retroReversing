@@ -121,9 +121,23 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCXDN0")// 0x25F80072
 .uint16("SCYIN0")// 0x25F80074
 .uint16("SCYDN0")// 0x25F80076
+
+.uint32("ZMXN0_D") // 0x25F8007A
+.uint32("ZMXN0_I") // 0x25F80078
+.uint32("ZMXN0_ALL")
+
+.uint32("ZMYN0_D") // 0x25F8007E
+.uint32("ZMYN0_I") // 0x25F8007C
+.uint32("ZMYN0_ALL")
+
+.uint16("SCXIN1") // 0x25F80080
+.uint16("SCXDN1") // 0x25F80082
+.uint16("SCYIN1") // 0x25F80084
+.uint16("SCYDN1") // 0x25F80086
+
   .array("VDP2_REGS", {
     type: "uint8",
-    length: 170 })
+    length: 138 })
   
   
 
