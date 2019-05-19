@@ -16,6 +16,9 @@ editlink: ../tools/SegaSaturnYSSViewer.html
 <script>
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
+var yssVideoHeader = new Parser.Parser()
+.endianess("little")
+  
 // YSS File Parser
 var yssHeader = new Parser.Parser()
 .endianess("little")
@@ -24,6 +27,13 @@ var yssHeader = new Parser.Parser()
 .uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
 .uint32("HEADER_SIZE")
 // IF HEADER VERSION == 2 THEN READ VIDEO
+.choice("HEADER_VIDEO", {
+  tag: "HEADER_VERSION",
+  choices: {
+    2: yssVideoHeader
+  },
+  defaultChoice: new Parser.Parser()
+})
 .array("bootCode", {
   type: "uint8",
   length: 4032 });
