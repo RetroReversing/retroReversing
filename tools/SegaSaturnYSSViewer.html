@@ -65,8 +65,17 @@ var yssOtherSection = new Parser.Parser()
 .nest("OTHER_SECTION_HEADER", { type: yssSectionHeader})
 .array("BUP_RAM", {
   type: "uint8",
-  length: 0x10000 });
-// BupRam
+  length: 0x10000 })
+.array("HIGH_WORK_RAM", {
+  type: "uint8",
+  length: 0x100000 })
+.array("LOW_WORK_RAM", {
+  type: "uint8",
+  length: 0x100000 })
+.uint32("DECILINE_COUNT")
+.uint32("LINE_COUNT")
+;
+// DecilineCount
 
 
 
