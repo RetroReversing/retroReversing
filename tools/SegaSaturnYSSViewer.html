@@ -18,6 +18,7 @@ var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_un
 
 var yssVideoHeader = new Parser.Parser()
 .endianess("little")
+.uint32("VIDEO_FRAME_COUNT")
   
 // YSS File Parser
 var yssHeader = new Parser.Parser()
