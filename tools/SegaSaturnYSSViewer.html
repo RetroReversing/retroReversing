@@ -26,9 +26,10 @@ var yssSectionHeader = new Parser.Parser()
 .string("SECTION_NAME", { length: 4 })
 .uint32("SECTION_VERSION")
 .uint32("SECTION_SIZE")
-.array("SECTION_CONTENT", {
-  type: "uint8",
-  length: function() { return this.SECTION_SIZE } });
+.skip(function() { return this.SECTION_SIZE } }));
+// .array("SECTION_CONTENT", {
+//   type: "uint8",
+//   length: function() { return this.SECTION_SIZE } });
   
 // YSS File Parser
 var yssHeader = new Parser.Parser()
