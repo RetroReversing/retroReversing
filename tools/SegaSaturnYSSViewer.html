@@ -231,6 +231,19 @@ var yssVDP1Registers =   new Parser.Parser()
   .uint16("COPR")
   .uint16("MODR")
 
+  .uint32("addr")
+   .int32("disptoggle_dont_use_me")
+   .int16("localX")
+   .int16("localY")
+   .uint16("systemclipX1")
+   .uint16("systemclipY1")
+   .uint16("systemclipX2")
+   .uint16("systemclipY2")
+   .uint16("userclipX1")
+   .uint16("userclipY1")
+   .uint16("userclipX2")
+   .uint16("userclipY2")
+
 
 var yssVDP1Section = new Parser.Parser()
   .endianess("little")
@@ -241,7 +254,7 @@ var yssVDP1Section = new Parser.Parser()
   .nest("VDP1_Registers", { type: yssVDP1Registers})
   .array("SECTION_CONTENT", {
     type: "uint8",
-    length: function() { return this.SECTION_SIZE - 22 } });
+    length: function() { return this.SECTION_SIZE - 50 } });
   
 //   .nest("VDP1_Registers", { type: yssVDP1Registers})
 //   .array("VDP1_RAM", {
