@@ -26,31 +26,6 @@ array("bootCode", {
   type: "uint8",
   length: 4032 });
 
-
-function parseFile(file, n64Header, n64HeaderUP) {
-  var reader = new FileReader();
-  reader.onload = function () {
-    var fileAsBinaryString = reader.result;
-    // do whatever you want with the file content
-    var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
-    //this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
-
-    var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
-    //this.setState({reactResult})
-    ReactDOM.render(
-    React.createElement("section", {id: "mySection"}, " ", React.createElement("div", { id: "result" },
-        reactResult),
-      React.createElement("div", null,
-        React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }))),
-
-    document.querySelector('#root'));
-  };
-  reader.onabort = function () {return console.log('file reading was aborted');};
-  reader.onerror = function () {return console.log('file reading has failed');};
-
-  reader.readAsArrayBuffer(file);
-}
-
 var n64HeaderUP = new ReactUnparser(n64Header);
 
 
