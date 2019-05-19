@@ -139,12 +139,10 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCYN3")  // 0x25F80096
 .uint16("ZMCTL")  // 0x25F80098
 .uint16("SCRCTL") // 0x25F8009A
-
 .uint32("VCSTA") // 0x25F8009C
 .uint32("LSTA0") // 0x25F800A0
 .uint32("LSTA1") // 0x25F800A4
 .uint32("LCTA")// 0x25F800A8
-
 .uint16("BKTAU")  // 0x25F800AC
 .uint16("BKTAL")  // 0x25F800AE
 .uint16("RPMD")   // 0x25F800B0
@@ -320,7 +318,7 @@ var yssHeader = new Parser.Parser()
 .nest("SOUND_SCSP_SECTION", { type: yssSectionDefault})
 .nest("SCU_SECTION", { type: yssSectionDefault})
 .nest("SMPC_SECTION", { type: yssSectionDefault})
-.nest("GRAPHICS_VDP1_SECTION", { type: yssSectionDefault})
+.nest("GRAPHICS_VDP1_SECTION", { type: yssVDP1Section})
 .nest("GRAPHICS_VDP2_SECTION", { type: yssVDP2Section})
 .nest("OTHER_SECTION", { type: yssOtherSection})
 ;
