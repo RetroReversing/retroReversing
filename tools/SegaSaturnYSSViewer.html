@@ -171,64 +171,67 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("KTAOF")  // 0x25F800B6
 .uint16("OVPNRA") // 0x25F800B8
 .uint16("OVPNRB") // 0x25F800BA
+	  .array("VDP2_REGS", {
+	    type: "uint8",
+	    length: 46 })
 
-.uint32("RPTA_L") 
-.uint32("RPTA_U") 
-.uint32("RPTA_ALL")
+// .uint32("RPTA_L") 
+// .uint32("RPTA_U") 
+// .uint32("RPTA_ALL")
 
-.uint16("WPSX0")  // 0x25F800C0
-.uint16("WPSY0")  // 0x25F800C2
-.uint16("WPEX0")  // 0x25F800C4
-.uint16("WPEY0")  // 0x25F800C6
-.uint16("WPSX1")  // 0x25F800C8
-.uint16("WPSY1")  // 0x25F800CA
-.uint16("WPEX1")  // 0x25F800CC
-.uint16("WPEY1")  // 0x25F800CE
-.uint16("WCTLA")  // 0x25F800D0
-.uint16("WCTLB")  // 0x25F800D2
-.uint16("WCTLC")  // 0x25F800D4
-.uint16("WCTLD")  // 0x25F800D6
+// .uint16("WPSX0")  // 0x25F800C0
+// .uint16("WPSY0")  // 0x25F800C2
+// .uint16("WPEX0")  // 0x25F800C4
+// .uint16("WPEY0")  // 0x25F800C6
+// .uint16("WPSX1")  // 0x25F800C8
+// .uint16("WPSY1")  // 0x25F800CA
+// .uint16("WPEX1")  // 0x25F800CC
+// .uint16("WPEY1")  // 0x25F800CE
+// .uint16("WCTLA")  // 0x25F800D0
+// .uint16("WCTLB")  // 0x25F800D2
+// .uint16("WCTLC")  // 0x25F800D4
+// .uint16("WCTLD")  // 0x25F800D6
 
-.uint32("LWTA0_L") 
-.uint32("LWTA0_U") 
-.uint32("LWTA0_ALL")
-.uint32("LWTA1_L") 
-.uint32("LWTA1_U") 
-.uint32("LWTA1_ALL")
+// .uint32("LWTA0_L") 
+// .uint32("LWTA0_U") 
+// .uint32("LWTA0_ALL")
+// .uint32("LWTA1_L") 
+// .uint32("LWTA1_U") 
+// .uint32("LWTA1_ALL")
 
-.uint16("SPCTL")  // 0x25F800E0
-.uint16("SDCTL")  // 0x25F800E2
-.uint16("CRAOFA") // 0x25F800E4
-.uint16("CRAOFB") // 0x25F800E6
-.uint16("LNCLEN") // 0x25F800E8
-.uint16("SFPRMD") // 0x25F800EA
-.uint16("CCCTL")  // 0x25F800EC
-.uint16("SFCCMD") // 0x25F800EE
-.uint16("PRISA")  // 0x25F800F0
-.uint16("PRISB")  // 0x25F800F2
-.uint16("PRISC")  // 0x25F800F4
-.uint16("PRISD")  // 0x25F800F6
-.uint16("PRINA")  // 0x25F800F8
-.uint16("PRINB")  // 0x25F800FA
-.uint16("PRIR")   // 0x25F800FC
-.uint16("CCRSA")  // 0x25F80100
-.uint16("CCRSB")  // 0x25F80102
-.uint16("CCRSC")  // 0x25F80104
-.uint16("CCRSD")  // 0x25F80106
-.uint16("CCRNA")  // 0x25F80108
-.uint16("CCRNB")  // 0x25F8010A
-.uint16("CCRR")   // 0x25F8010C
-.uint16("CCRLB")  // 0x25F8010E
-.uint16("CLOFEN") // 0x25F80110
-.uint16("CLOFSL") // 0x25F80112
-.uint16("COAR")   // 0x25F80114
-.uint16("COAG")   // 0x25F80116
-.uint16("COAB")   // 0x25F80118
-.uint16("COBR")   // 0x25F8011A
-.uint16("COBG")   // 0x25F8011C
-.uint16("COBB")   // 0x25F8011E
-.uint16("Unknown1")   // 0x25F8011E
-.uint16("Unknown2")   // 0x25F8011E
+// .uint16("SPCTL")  // 0x25F800E0
+// .uint16("SDCTL")  // 0x25F800E2
+// .uint16("CRAOFA") // 0x25F800E4
+// .uint16("CRAOFB") // 0x25F800E6
+// .uint16("LNCLEN") // 0x25F800E8
+// .uint16("SFPRMD") // 0x25F800EA
+// .uint16("CCCTL")  // 0x25F800EC
+// .uint16("SFCCMD") // 0x25F800EE
+// .uint16("PRISA")  // 0x25F800F0
+// .uint16("PRISB")  // 0x25F800F2
+// .uint16("PRISC")  // 0x25F800F4
+// .uint16("PRISD")  // 0x25F800F6
+// .uint16("PRINA")  // 0x25F800F8
+// .uint16("PRINB")  // 0x25F800FA
+// .uint16("PRIR")   // 0x25F800FC
+// .uint16("CCRSA")  // 0x25F80100
+// .uint16("CCRSB")  // 0x25F80102
+// .uint16("CCRSC")  // 0x25F80104
+// .uint16("CCRSD")  // 0x25F80106
+// .uint16("CCRNA")  // 0x25F80108
+// .uint16("CCRNB")  // 0x25F8010A
+// .uint16("CCRR")   // 0x25F8010C
+// .uint16("CCRLB")  // 0x25F8010E
+// .uint16("CLOFEN") // 0x25F80110
+// .uint16("CLOFSL") // 0x25F80112
+// .uint16("COAR")   // 0x25F80114
+// .uint16("COAG")   // 0x25F80116
+// .uint16("COAB")   // 0x25F80118
+// .uint16("COBR")   // 0x25F8011A
+// .uint16("COBG")   // 0x25F8011C
+// .uint16("COBB")   // 0x25F8011E
+// .uint16("Unknown1")   // 0x25F8011E
+// .uint16("Unknown2")   // 0x25F8011E
 ; 
 
 var yssVDP2Section = new Parser.Parser()
