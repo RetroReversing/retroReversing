@@ -33,6 +33,10 @@
 .invalid {
   color: red !important
 }
+  
+.dragHintText {
+  padding-bottom:30px;
+}
 </style>
 
 <!--   <details id='iff_canvas_debug_container' class="debug_container">
@@ -44,7 +48,7 @@
   <div class="draghint hidden screen" id="draghint">
 <!--     <input type="file" id="chooser" class="chooser"/> -->
     <div class="dragtext">
-      <h1>Drop {{include.format}} files here to view</h1>
+      <h1 class="dragHintText">Drop {{include.format}} files here to view</h1>
       <div id='ilbm'>
       </div>
     </div>
