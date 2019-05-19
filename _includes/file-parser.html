@@ -62,3 +62,20 @@
 <div id="root">
     <!-- This element's contents will be replaced with your component. -->
 </div>
+
+<script>
+  var draghint = document.getElementById('draghint');
+  window.addEventListener('dragover', function (event) {
+    event.preventDefault();
+    draghint.classList.add('hover');
+    return false;
+  });
+  window.addEventListener('dragleave', function (event) {
+    event.preventDefault();
+    draghint.classList.remove('hover');
+    return false;
+  });
+  window.addEventListener('focus', function () {
+    return draghint.classList.remove('hover');
+  });
+</script>
