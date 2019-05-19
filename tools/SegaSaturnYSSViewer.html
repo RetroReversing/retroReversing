@@ -140,10 +140,10 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("ZMCTL")  // 0x25F80098
 .uint16("SCRCTL") // 0x25F8009A
 
-.uint32("VCSTA")
-.uint32("LSTA0") 
-.uint32("LSTA1") 
-.uint32("LCTA")
+.uint32("VCSTA") // 0x25F8009C
+.uint32("LSTA0") // 0x25F800A0
+.uint32("LSTA1") // 0x25F800A4
+.uint32("LCTA")// 0x25F800A8
 
 .uint16("BKTAU")  // 0x25F800AC
 .uint16("BKTAL")  // 0x25F800AE
@@ -154,9 +154,7 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("OVPNRA") // 0x25F800B8
 .uint16("OVPNRB") // 0x25F800BA
 
-
-.uint32("RPTA_L") 
-.uint32("RPTA_U")
+.uint32("RPTA") // 0x25F800BC
 
 .uint16("WPSX0")  // 0x25F800C0
 .uint16("WPSY0")  // 0x25F800C2
@@ -172,8 +170,8 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("WCTLC")  // 0x25F800D4
 .uint16("WCTLD")  // 0x25F800D6
 
-.uint32("LWTA0")
-.uint32("LWTA1")
+.uint32("LWTA0") // 0x25F800D8
+.uint32("LWTA1") // 0x25F800DC
 
 .uint16("SPCTL")  // 0x25F800E0
 .uint16("SDCTL")  // 0x25F800E2
@@ -206,9 +204,9 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("COBR")   // 0x25F8011A
 .uint16("COBG")   // 0x25F8011C
 .uint16("COBB")   // 0x25F8011E
-// 	  .array("VDP2_REGS", {
-// 	    type: "uint8",
-// 	    length: 22 })
+	  .array("VDP2_REGS", {
+	    type: "uint8",
+	    length: 4 })
 ; 
 
 var yssVDP2Section = new Parser.Parser()
