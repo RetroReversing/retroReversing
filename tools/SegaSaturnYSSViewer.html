@@ -124,11 +124,9 @@ var yssVDP2Registers =   new Parser.Parser()
 
 .uint32("ZMXN0_D") // 0x25F8007A
 .uint32("ZMXN0_I") // 0x25F80078
-.uint32("ZMXN0_ALL")
 
 .uint32("ZMYN0_D") // 0x25F8007E
 .uint32("ZMYN0_I") // 0x25F8007C
-.uint32("ZMYN0_ALL")
 
 .uint16("SCXIN1") // 0x25F80080
 .uint16("SCXDN1") // 0x25F80082
@@ -136,12 +134,10 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCYDN1") // 0x25F80086
 
 .uint32("ZMXN1_D") 
-.uint32("ZMXN1_I") 
-.uint32("ZMXN1_ALL")
+.uint32("ZMXN1_I")
 
 .uint32("ZMYN1_D") 
-.uint32("ZMYN1_I") 
-.uint32("ZMYN1_ALL")
+.uint32("ZMYN1_I")
 
 .uint16("SCXN2")  // 0x25F80090
 .uint16("SCYN2")  // 0x25F80092
@@ -151,17 +147,13 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("SCRCTL") // 0x25F8009A
 
 .uint32("VCSTA_L") 
-.uint32("VCSTA_U") 
-.uint32("VCSTA_ALL")
+.uint32("VCSTA_U")
 .uint32("LSTA0_L") 
-.uint32("LSTA0_U") 
-.uint32("LSTA0_ALL")
+.uint32("LSTA0_U")
 .uint32("LSTA1_L") 
-.uint32("LSTA1_U") 
-.uint32("LSTA1_ALL")
+.uint32("LSTA1_U")
 .uint32("LCTA_L") 
-.uint32("LCTA_U") 
-.uint32("LCTA_ALL")
+.uint32("LCTA_U")
 
 .uint16("BKTAU")  // 0x25F800AC
 .uint16("BKTAL")  // 0x25F800AE
@@ -171,33 +163,29 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("KTAOF")  // 0x25F800B6
 .uint16("OVPNRA") // 0x25F800B8
 .uint16("OVPNRB") // 0x25F800BA
-	  .array("VDP2_REGS", {
-	    type: "uint8",
-	    length: 38 })
 
-// .uint32("RPTA_L") 
-// .uint32("RPTA_U") 
-// .uint32("RPTA_ALL")
 
-// .uint16("WPSX0")  // 0x25F800C0
-// .uint16("WPSY0")  // 0x25F800C2
-// .uint16("WPEX0")  // 0x25F800C4
-// .uint16("WPEY0")  // 0x25F800C6
-// .uint16("WPSX1")  // 0x25F800C8
-// .uint16("WPSY1")  // 0x25F800CA
-// .uint16("WPEX1")  // 0x25F800CC
-// .uint16("WPEY1")  // 0x25F800CE
-// .uint16("WCTLA")  // 0x25F800D0
-// .uint16("WCTLB")  // 0x25F800D2
-// .uint16("WCTLC")  // 0x25F800D4
-// .uint16("WCTLD")  // 0x25F800D6
+.uint32("RPTA_L") 
+.uint32("RPTA_U")
+
+.uint16("WPSX0")  // 0x25F800C0
+.uint16("WPSY0")  // 0x25F800C2
+.uint16("WPEX0")  // 0x25F800C4
+.uint16("WPEY0")  // 0x25F800C6
+
+.uint16("WPSX1")  // 0x25F800C8
+.uint16("WPSY1")  // 0x25F800CA
+.uint16("WPEX1")  // 0x25F800CC
+.uint16("WPEY1")  // 0x25F800CE
+.uint16("WCTLA")  // 0x25F800D0
+.uint16("WCTLB")  // 0x25F800D2
+.uint16("WCTLC")  // 0x25F800D4
+.uint16("WCTLD")  // 0x25F800D6
 
 // .uint32("LWTA0_L") 
 // .uint32("LWTA0_U") 
-// .uint32("LWTA0_ALL")
 // .uint32("LWTA1_L") 
-// .uint32("LWTA1_U") 
-// .uint32("LWTA1_ALL")
+// .uint32("LWTA1_U")
 
 // .uint16("SPCTL")  // 0x25F800E0
 // .uint16("SDCTL")  // 0x25F800E2
@@ -230,8 +218,9 @@ var yssVDP2Registers =   new Parser.Parser()
 // .uint16("COBR")   // 0x25F8011A
 // .uint16("COBG")   // 0x25F8011C
 // .uint16("COBB")   // 0x25F8011E
-// .uint16("Unknown1")   // 0x25F8011E
-// .uint16("Unknown2")   // 0x25F8011E
+	  .array("VDP2_REGS", {
+	    type: "uint8",
+	    length: 38 })
 ; 
 
 var yssVDP2Section = new Parser.Parser()
