@@ -225,11 +225,18 @@ var yssVDP2Section = new Parser.Parser()
   
 var yssVDP1Section = new Parser.Parser()
   .endianess("little")
-  .nest("HEADER", { type: yssSectionHeader})
+//   .nest("HEADER", { type: yssSectionHeader})
+  .string("SECTION_NAME", { length: 4 })
+  .uint32("SECTION_VERSION")
+  .uint32("SECTION_SIZE")
   .array("VDP1_Registers", {
       type: "uint8",
-      length: 0x340008
+      length: 4
     })
+  .array("SECTION_CONTENT", {
+    type: "uint8",
+    length: function() { return this.SECTION_SIZE - 4 } });
+  
 //   .nest("VDP1_Registers", { type: yssVDP1Registers})
 //   .array("VDP1_RAM", {
 //     type: "uint8",
