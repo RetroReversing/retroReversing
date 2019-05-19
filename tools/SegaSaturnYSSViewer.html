@@ -153,14 +153,11 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("KTAOF")  // 0x25F800B6
 .uint16("OVPNRA") // 0x25F800B8
 .uint16("OVPNRB") // 0x25F800BA
-
 .uint32("RPTA") // 0x25F800BC
-
 .uint16("WPSX0")  // 0x25F800C0
 .uint16("WPSY0")  // 0x25F800C2
 .uint16("WPEX0")  // 0x25F800C4
 .uint16("WPEY0")  // 0x25F800C6
-
 .uint16("WPSX1")  // 0x25F800C8
 .uint16("WPSY1")  // 0x25F800CA
 .uint16("WPEX1")  // 0x25F800CC
@@ -169,10 +166,8 @@ var yssVDP2Registers =   new Parser.Parser()
 .uint16("WCTLB")  // 0x25F800D2
 .uint16("WCTLC")  // 0x25F800D4
 .uint16("WCTLD")  // 0x25F800D6
-
 .uint32("LWTA0") // 0x25F800D8
 .uint32("LWTA1") // 0x25F800DC
-
 .uint16("SPCTL")  // 0x25F800E0
 .uint16("SDCTL")  // 0x25F800E2
 .uint16("CRAOFA") // 0x25F800E4
@@ -223,19 +218,32 @@ var yssVDP2Section = new Parser.Parser()
   })
   .int32("COLOR_MODE");
   
+  
+var yssVDP1Registers =   new Parser.Parser()
+  .endianess("little")
+  .uint16("TVMR")
+  .uint16("FBCR")
+  .uint16("PTMR")
+  .uint16("EWDR")
+  .uint16("EWLR")
+  .uint16("EWRR")
+  .uint16("ENDR")
+  .uint16("EDSR")
+  .uint16("LOPR")
+  .uint16("COPR")
+  .uint16("MODR")
+
+
 var yssVDP1Section = new Parser.Parser()
   .endianess("little")
 //   .nest("HEADER", { type: yssSectionHeader})
   .string("SECTION_NAME", { length: 4 })
   .uint32("SECTION_VERSION")
   .uint32("SECTION_SIZE")
-  .array("VDP1_Registers", {
-      type: "uint8",
-      length: 4
-    })
+  .nest("VDP1_Registers", { type: yssVDP1Registers})
   .array("SECTION_CONTENT", {
     type: "uint8",
-    length: function() { return this.SECTION_SIZE - 4 } });
+    length: function() { return this.SECTION_SIZE - 22 } });
   
 //   .nest("VDP1_Registers", { type: yssVDP1Registers})
 //   .array("VDP1_RAM", {
