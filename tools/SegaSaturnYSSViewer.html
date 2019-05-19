@@ -22,7 +22,8 @@ var yssHeader = new Parser.Parser()
 .string("YSS_SIGNATURE", { length: 3 })
 .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
 .uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
-.uint16("Unknown6")
+.uint32("HEADER_SIZE")
+// IF HEADER VERSION == 2 THEN READ VIDEO
 .array("bootCode", {
   type: "uint8",
   length: 4032 });
