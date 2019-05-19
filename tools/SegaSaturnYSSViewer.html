@@ -59,6 +59,22 @@ var yssSectionHeader = new Parser.Parser()
 .string("SECTION_NAME", { length: 4 })
 .uint32("SECTION_VERSION")
 .uint32("SECTION_SIZE")
+
+var yssOtherSection = newParser.Parser()
+.endianess("little")
+.nest("OTHER_SECTION_HEADER", { type: yssSectionHeader})
+.array("BUP_RAM", {
+  type: "uint8",
+  length: 0x10000 });
+// BupRam
+
+
+
+var yssSectionDefault = new Parser.Parser()
+.endianess("little")
+.string("SECTION_NAME", { length: 4 })
+.uint32("SECTION_VERSION")
+.uint32("SECTION_SIZE")
 // .skip(function() { return this.SECTION_SIZE } }));
 .array("SECTION_CONTENT", {
   type: "uint8",
@@ -79,15 +95,15 @@ var yssHeader = new Parser.Parser()
   },
   defaultChoice: new Parser.Parser()
 })
-.nest("CART_SECTION", { type: yssSectionHeader})
-.nest("CS2_SECTION", { type: yssSectionHeader})
-.nest("Master_SH2_CPU_SECTION", { type: yssSectionHeader})
-.nest("Slave_SH2_CPU_SECTION", { type: yssSectionHeader})
-.nest("SOUND_SCSP_SECTION", { type: yssSectionHeader})
-.nest("SCU_SECTION", { type: yssSectionHeader})
-.nest("SMPC_SECTION", { type: yssSectionHeader})
-.nest("GRAPHICS_VDP1_SECTION", { type: yssSectionHeader})
-.nest("GRAPHICS_VDP2_SECTION", { type: yssSectionHeader})
+.nest("CART_SECTION", { type: yssSectionDefault})
+.nest("CS2_SECTION", { type: yssSectionDefault})
+.nest("Master_SH2_CPU_SECTION", { type: yssSectionDefault})
+.nest("Slave_SH2_CPU_SECTION", { type: yssSectionDefault})
+.nest("SOUND_SCSP_SECTION", { type: yssSectionDefault})
+.nest("SCU_SECTION", { type: yssSectionDefault})
+.nest("SMPC_SECTION", { type: yssSectionDefault})
+.nest("GRAPHICS_VDP1_SECTION", { type: yssSectionDefault})
+.nest("GRAPHICS_VDP2_SECTION", { type: yssSectionDefault})
 .nest("OTHER_SECTION", { type: yssSectionHeader})
 ;
 
