@@ -78,8 +78,9 @@
     React.createElement("section", {id: "mySection"}, " ", React.createElement("div", { id: "result" },
         reactResult),
       React.createElement("div", null,
-                !showJson? null:          
-        React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }))
+                (!showJson)? null:          
+        ( React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }) )
+   )
     ),
     document.querySelector('#root'));
   };
