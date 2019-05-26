@@ -32,7 +32,7 @@ By reverse engineering these games you are helping to preserve games that are on
 
 
 # Games that have never been re-released
-These are games that are still only available on the Sega Saturn. Some of them may have also been in the arcade using the STV hardware which was based on the Sega Saturn so they are still included in this list.
+These are games that are still only available on the Sega Saturn. Some of them may have also been in the arcade using the STV hardware which was based on the Sega Saturn so they are still included in this list [^1].
 
 Games:
 * Albert Odyssey
@@ -131,6 +131,8 @@ These games are exclusive to the Saturn in terms of games consoles but were also
 * Virtua Cop 2
 * Virtua Fighter 2
 
+# Japanese Exclusives
+This post only covers the english exclusive Sega Saturn games, the Saturn was much more popular in Japan so you can view a list of Japan Sega Saturn Exclusives here: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
 
 # References
 [^1]: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
