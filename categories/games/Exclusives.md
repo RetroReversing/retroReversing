@@ -12,7 +12,7 @@ redirect_from:
 ---
 # Exclusives by Platform 
 
-Platform Name | List of games that still contain debug symbols
+Platform Name | List of games exclusive to that Platform
 ---|---
 Sega Saturn | [Exclusive Sega Saturn Games & Re-releases](https://www.retroreversing.com/sega-saturn-exclusives/)
 
