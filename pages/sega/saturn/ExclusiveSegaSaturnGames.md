@@ -25,14 +25,18 @@ videocarousel:
     youtube: 'y7OsG8tCuFQ'
 ---
 
+
 If you are interested in reversing a Sega Saturn game it can be useful to see what other platforms the game was released for, however if you don't have a game in mind then this list can help you choose a game that is not available elsewhere.
 
-By reverse enginnering these games you are helping to preserve games that are only playable on Sega Saturn, so you can understand how these games work and then help improve emulators to run these games.
+By reverse engineering these games you are helping to preserve games that are only playable on Sega Saturn, so you can understand how these games work and then help improve emulators to run these games.
+
 
 # Games that have never been re-released
 These are games that are still only available on the Sega Saturn. Some of them may have also been in the arcade using the STV hardware which was based on the Sega Saturn so they are still included in this list.
 
 Games:
+* Albert Odyssey
+* Astal
 * Battle Monsters
 * Black Fire
 * Burning Rangers
@@ -41,21 +45,27 @@ Games:
 * Crimewave
 * Cyber Speedway
 * Dark Savior
+* Deep Fear
 * F-1 Challenge
 * Fighters Megamix
 * Ghen War
 * Golden Axe: The Duel
 * GunGriffon
 * Hang-On GP '96
+* Heir of Zendor
+* High Velocity: Mountain Racing Challenge
 * Highway 2000
 * International Victory Goal
+* Iron Storm
 * Keio Flying Squadron 2
 * Mr. Bones
+* Magic Knight Rayheart
 * Mystaria - The Realms of Lore
 * Panzer Dragoon Zwei
 * Panzer Dragoon Saga
 * Robotica
 * Saturn Bomberman
+* Scud: The Disposable Assassin
 * Sega Worldwide Soccer '98 Club Edition
 * Shining Force III
 * Shining the Holy Ark
@@ -68,12 +78,14 @@ Games:
 * Victory Boxing
 * Virtua Fighter Remix
 * Virtua Fighter Kids
+* Virtual Casino
 * Virtual Hydlide
 * Virtual Open Tennis
 * Wing Arms
 * Winter Heat
 * World Series Baseball
 * World Series Baseball II
+
 
 # Games that were re-released
 * Athlete Kings (PS2)
@@ -97,14 +109,17 @@ These games are exclusive to the Saturn in terms of games consoles but were also
 * Baku Baku
 * Bug!
 * Bug Too!
+* Congo the Movie: The Lost City of Zinj
 * Daytona USA CCE
 * Enemy Zero
+* Frankenstein
 * Galactic Attack
 * Nights Into Dreams... 
 * Manx TT Super Bike
 * Virtual-On - Cyber Troopers
 * Last Bronx
 * Panzer Dragoon
+* Scorcher
 * Sega Rally Championship
 * Sega Touring Car Championship
 * Sega Worldwide Soccer '97
@@ -118,5 +133,5 @@ These games are exclusive to the Saturn in terms of games consoles but were also
 
 
 # References
-[^1]: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
-[^2]: [(278) Sega Saturn 32bit Era Console Exclusives Part 4 YouTube](https://www.youtube.com/watch?v=y7OsG8tCuFQ)
+[^1]: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
+[^2]: [(278) Sega Saturn 32-bit Era Console Exclusives - Part 4 - YouTube](https://www.youtube.com/watch?v=y7OsG8tCuFQ)
