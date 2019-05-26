@@ -15,6 +15,7 @@ redirect_from:
 Platform Name | List of games exclusive to that Platform
 ---|---
 Sega Saturn | [Exclusive Sega Saturn Games & Re-releases](https://www.retroreversing.com/sega-saturn-exclusives/)
+Xbox | [Category:Xbox-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Xbox-only_games)
 
 
 ---
