@@ -36,13 +36,8 @@ Platform Name | List of games that still contain debug symbols
 ---|---
 Sony Playstation 1 | [Playstation 1 Games with Debug Symbols](https://www.retroreversing.com/ps1-debug-symbols)
 Sony Playstation 2 | [PS2 Demo Discs](https://www.retroreversing.com/ps2-demos/) && [PS2 Retail Games](https://www.retroreversing.com/ps2-unstripped/)
-Sony Playstation 3 | N/A Not a retro console yet
-Sony Playstation 4 | N/A Not a retro console yet
 Sony Playstation Portable | [Playstation Portable Games with Debug Symbols](https://www.retroreversing.com/psp-debug-symbols)
-Sony Playstation Vita | N/A Not a retro console yet
-Nintendo Gameboy Advance | Very rare due to limitations of cart size. None?
 Nintendo DS |
-Nintendo 3DS | N/A Not a retro console yet
 Nintendo 64 | None due to limitations of cart size. But we do have part of Turok source code: [Turok 64 Official Source Code Analysis](https://www.retroreversing.com/turok64sourcecode)
 Nintendo GameCube | [Nintendo Gamecube Games with Debug Symbols](https://www.retroreversing.com/gamecube-debug-symbols)
 Nintendo Wii | [Wii Games with Debug Symbols](https://www.retroreversing.com/wii-debug-symbols/) (*Incomplete*)
@@ -52,18 +47,17 @@ Sega Saturn |
 Sega Dreamcast | [Sega Dreamcast Games with Debug Symbols](https://www.retroreversing.com/sega-dreamcast-game-debug-symbols)
 Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-debug-symbol-games)
 Microsoft XBox 360 | N/A Not a retro console yet
-Microsoft XBox One | N/A Not a retro console yet
 
 
 There are also a few platforms that may have games with debug symbols but it is currently unknown:
-  - N-gauge
-  - Cybiko
-  - GP32/GP2X/Pandora
-  - Neo Geo X
-  - Sega CD/Sega 32X
-  - 3DO
+* N-gauge
+* Cybiko
+* GP32/GP2X/Pandora
+* Neo Geo X
+* Sega CD/Sega 32X
+* 3DO
 
-
+---
 
 <div>
 {% include console.html %}
