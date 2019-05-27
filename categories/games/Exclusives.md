@@ -25,6 +25,7 @@ Sega Dreamcast | [Dreamcast-only games - Wikipedia](https://en.wikipedia.org/wik
 Sega Mega Drive | [Sega Genesis-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_Genesis-only_games)
 Sega Saturn | [Exclusive Sega Saturn Games & Re-releases](https://www.retroreversing.com/sega-saturn-exclusives/)
 Sony Playstation | [PlayStation (console)-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_(console)-only_games)
+Sony Playstation 2 | [PlayStation 2-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_2-only_games)
 
 ---
 
