@@ -34,6 +34,10 @@ var sysrofHeader = new Parser.Parser()
   .uint8("POSSIBLY_NUMBER_OF_OBJECTS")
   .uint8("Unknown4", { assertWithoutErroring: 0 })
   .string("Unknown5", { length: 4, assertWithoutErroring:"0200" })
+  .uint8("Unknown6", { assertWithoutErroring: 8 })
+  .uint32("Unknown7", { assertWithoutErroring: 0x20200000 })
+  .uint32("OBJECT_NAME_LENGTH")
+  .string("OBJECT_NAME", { length: "OBJECT_NAME_LENGTH"} )
   
 
 
