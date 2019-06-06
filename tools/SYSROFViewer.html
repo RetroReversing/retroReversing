@@ -21,9 +21,13 @@ var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_un
 var sysrofHeader = new Parser.Parser()
   .endianess("big")
 //   .string("YSS_SIGNATURE", { length: 3 })
-//   .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
   .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
-//   .uint32("HEADER_SIZE")
+  .array("UNKNOWN_HEADER", {
+      type: "uint8",
+      length: 28 
+    }) // Seems to be either 00 or 80 for each byte
+  .uint16("Unknown", { assertWithoutErroring: 0x5E84 })
+
 //   // IF HEADER VERSION == 2 THEN READ VIDEO
 //   .choice("HEADER_VIDEO", {
 //     tag: "HEADER_VERSION",
