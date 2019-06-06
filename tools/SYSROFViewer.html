@@ -22,7 +22,7 @@ var sysrofHeader = new Parser.Parser()
   .endianess("big")
 //   .string("YSS_SIGNATURE", { length: 3 })
 //   .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
-  .int32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
+  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
 //   .uint32("HEADER_SIZE")
 //   // IF HEADER VERSION == 2 THEN READ VIDEO
 //   .choice("HEADER_VIDEO", {
