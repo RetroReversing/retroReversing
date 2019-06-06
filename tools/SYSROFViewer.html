@@ -19,10 +19,10 @@ editlink: ../tools/SYSROFViewer.html
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
   
 var sysrofHeader = new Parser.Parser()
-  .endianess("little")
+  .endianess("big")
 //   .string("YSS_SIGNATURE", { length: 3 })
 //   .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
-  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
+  .int32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
 //   .uint32("HEADER_SIZE")
 //   // IF HEADER VERSION == 2 THEN READ VIDEO
 //   .choice("HEADER_VIDEO", {
