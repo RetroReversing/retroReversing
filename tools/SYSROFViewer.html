@@ -18,34 +18,24 @@ editlink: ../tools/SYSROFViewer.html
 <script>
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
   
-// YSS File Parser
-var yssHeader = new Parser.Parser()
-.endianess("little")
-.string("YSS_SIGNATURE", { length: 3 })
-.uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
-.uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
-.uint32("HEADER_SIZE")
-// IF HEADER VERSION == 2 THEN READ VIDEO
-.choice("HEADER_VIDEO", {
-  tag: "HEADER_VERSION",
-  choices: {
-    2: yssVideoHeader
-  },
-  defaultChoice: new Parser.Parser()
-})
-.nest("CART_SECTION", { type: yssSectionDefault})
-.nest("CS2_SECTION", { type: yssSectionDefault})
-.nest("Master_SH2_CPU_SECTION", { type: yssSectionDefault})
-.nest("Slave_SH2_CPU_SECTION", { type: yssSectionDefault})
-.nest("SOUND_SCSP_SECTION", { type: yssSectionDefault})
-.nest("SCU_SECTION", { type: yssSectionDefault})
-.nest("SYSTEM_MANAGEMENT_PERIPHERAL_CONTROL_SMPC_SECTION", { type: yssSectionDefault})
-.nest("GRAPHICS_VDP1_SECTION", { type: yssVDP1Section})
-.nest("GRAPHICS_VDP2_SECTION", { type: yssVDP2Section})
-.nest("OTHER_SECTION", { type: yssOtherSection})
-;
+var sysrofHeader = new Parser.Parser()
+  .endianess("little")
+  .string("YSS_SIGNATURE", { length: 3 })
+//   .uint8("HEADER_ENDIAN", { assertWithoutErroring: 0x01 })
+//   .uint32("HEADER_VERSION", { assertWithoutErroring: 0x02 })
+//   .uint32("HEADER_SIZE")
+//   // IF HEADER VERSION == 2 THEN READ VIDEO
+//   .choice("HEADER_VIDEO", {
+//     tag: "HEADER_VERSION",
+//     choices: {
+//       2: yssVideoHeader
+//     },
+//     defaultChoice: new Parser.Parser()
+//   })
+//   .nest("CART_SECTION", { type: yssSectionDefault})
+  ;
 
-var yssFileUnParser = new ReactUnparser(yssHeader);
+var sysrofFileUnParser = new ReactUnparser(sysrofHeader);
 
 
 var draghint = document.getElementById('draghint');
@@ -58,7 +48,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, yssHeader, yssFileUnParser, false);
+    parseFile(file, sysrofHeader, sysrofFileUnParser, false);
   }
   return false;
 });
