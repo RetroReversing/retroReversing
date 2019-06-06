@@ -30,6 +30,11 @@ var sysrofHeader = new Parser.Parser()
   .uint16("Unknown2")
   .string("BUILD_DATE", { length: 6 })
   .string("BUILD_TIME", { length: 6 })
+  .uint8("Unknown3", { assertWithoutErroring: 0 })
+  .uint8("POSSIBLY_NUMBER_OF_OBJECTS")
+  .uint8("Unknown4", { assertWithoutErroring: 0 })
+  .string("Unknown5", { length: 4, assertWithoutErroring:"0200" })
+  
 
 
 //   // IF HEADER VERSION == 2 THEN READ VIDEO
