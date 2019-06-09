@@ -10,6 +10,10 @@ permalink: /sysrofVisualizer
 recommend: segasaturn
 editlink: ../tools/SYSROFViewer.html
 ---
+<h1>SYSROF Object Module Format</h1>
+The `SYSROF` format was commonly used in the early 90s by companies like Hitachi for their own compiler toolchain instead of other formats such as COFF or ELF.
+
+The SYSROF format is most common in the Sega Saturn SDK samples but is also used in the Dreamcast Katana SDK.
 {% include file-parser.html format="obj" %}
 
 <style>
@@ -83,3 +87,6 @@ window.addEventListener('focus', function () {
   return draghint.classList.remove('hover');
 });
   </script>
+
+# References
+[^1]: [sourceware.org Git - binutils-gdb.git/blob - binutils/sysdump.c](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob;f=binutils/sysdump.c;h=aa656240e0eacab8c6aa09bd0a73423056bf4ced;hb=7bf6856e9c9fcb0cf9522e4104363acaef773202)
