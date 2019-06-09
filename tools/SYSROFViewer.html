@@ -34,9 +34,14 @@ var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_un
 
 var sysrofSYMBOL = new Parser.Parser()
   .endianess("big")
-  .uint8("SYMBOL_HEADER", { assertWithoutErroring: 0x84 })
+  .uint8("SYMBOL_HEADER", { assertWithoutErroring: 0x94 })
   .uint8("SYMBOL_SECTION_LENGTH")
-  .uint8("SYMBOL_SECTION_FORMAT", { assertWithoutErroring: 0x40 })
+  .uint16("SECTION_APPEARANCE_NUMBER")
+  .uint8("SPARE")
+  .uint32("ADDRESS")
+  .uint8("SYMBOL_NAME_LENGTH")
+  .string("SYMBOL_NAME", { length: "SYMBOL_NAME_LENGTH"} )
+  .uint8("END_MODULE_HEADER", { assertWithoutErroring: 0x52 })
 // ED = External Define
   
 var sysrofModule = new Parser.Parser()
