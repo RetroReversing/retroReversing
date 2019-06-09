@@ -32,6 +32,13 @@ Drop a SYSROF format file such as .obj or .abs in the box below to see a breakdo
 <script>
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
+var sysrofSYMBOL = new Parser.Parser()
+  .endianess("big")
+  .uint8("SYMBOL_HEADER", { assertWithoutErroring: 0x84 })
+  .uint8("SYMBOL_SECTION_LENGTH")
+  .uint8("SYMBOL_SECTION_FORMAT", { assertWithoutErroring: 0x40 })
+// ED = External Define
+  
 var sysrofModule = new Parser.Parser()
   .endianess("big")
   .uint8("MODULE_HEADER", { assertWithoutErroring: 0x84 })
@@ -74,6 +81,7 @@ var sysrofSection = new Parser.Parser()
   .uint8("BIT_FIELD_MODE_SPARE")
   .uint8("SECTION_NAME_LENGTH")
   .string("UNIT_NAME", { length: "SECTION_NAME_LENGTH"} )
+  .uint8("END_SECTION_HEADER", { assertWithoutErroring: 0x0A })
 
 
 var sysrofUnit = new Parser.Parser()
@@ -111,6 +119,7 @@ var sysrofHeader = new Parser.Parser()
   .nest("MODULE", {type: sysrofModule })
   .nest("UNIT", {type: sysrofUnit })
   .nest("SECTION", {type: sysrofSection })
+  .nest("SYMBOL", {type: sysrofSYMBOL)
 
 //   .uint32("UNIT_NAME_LENGTH")
 //   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
