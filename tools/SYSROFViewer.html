@@ -24,28 +24,17 @@ Drop a SYSROF format file such as .obj or .abs in the box below to see a breakdo
 {% include file-parser.html format="obj" %}
 
 <style>
-  .BUILD_DATE,.BUILD_TIME {
+  .BUILD_DATE,.BUILD_TIME,.MODULE_NAME {
     color: green;
   }
 </style>
 
 <script>
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
-  
-var sysrofHeader = new Parser.Parser()
-  .endianess("big")
 
-  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
-  .uint8("SIZE")
-  .uint8("HD")
-  .uint8("HS")
-  .uint8("UN")
-  .array("UNKNOWN_HEADER", {
-      type: "uint8",
-      length: 24 
-    }) // Seems to be either 00 or 80 for each byte
-// Module Type ()
-  .uint16("Unknown", { assertWithoutErroring: 0x5E84 })
+var sysrofModule = new Parser.Parser()
+  .endianess("big")
+  .uint8("MODULE_HEADER", { assertWithoutErroring: 0x84 })
   .uint8("UNKNOWN2")
   .uint8("UNKNOWN2_1")
   .string("BUILD_DATE", { length: 6 })
@@ -55,10 +44,8 @@ var sysrofHeader = new Parser.Parser()
   .uint8("Code", { assertWithoutErroring: 0 })
   .string("VERSION", { length: 4, assertWithoutErroring:"0200" })
   .uint8("ADDRESS_UPDATE", { assertWithoutErroring: 8 })
-  //.uint8("SEGMENT_ID")
   .uint8("NUMBER_OF_EXTERNAL_REFS")
   .uint8("NUMBER_OF_EXTERNAL_DEFS")
-
   .uint8("SEGMENT_SIZE")
   .uint8("SEGMENT_SHIFT")
   .uint8("ENTRY_POINT")
@@ -70,8 +57,9 @@ var sysrofHeader = new Parser.Parser()
   .string("MODULE_NAME", { length: "MODULE_NAME_LENGTH"} )
   .uint8("CPU_NAME_LENGTH")
   .string("CPU_NAME", { length: "CPU_NAME_LENGTH"} )
-
-// OM Format
+  
+var sysrofUnit = new Parser.Parser()
+  .endianess("big")
   .uint8("FORMAT_OM")
   .uint8("Spare2", { assertWithoutErroring: 0 })
   .uint8("SECTION_NUMBER")
@@ -81,6 +69,24 @@ var sysrofHeader = new Parser.Parser()
   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
   .uint8("TOOL_NAME_LENGTH")
   .string("TOOL_NAME", { length: "TOOL_NAME_LENGTH"} )
+  
+var sysrofHeader = new Parser.Parser()
+  .endianess("big")
+
+  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 })
+  .uint8("SIZE")
+  .uint8("HD")
+  .uint8("HS")
+  .uint8("UN")
+  .uint8("US")
+  .uint8("SC")
+  .array("UNKNOWN_HEADER", {
+      type: "uint8",
+      length: 22 
+    }) // Seems to be either 00 or 80 for each byte
+  .uint8("END_HEADER", { assertWithoutErroring: 0x5E })
+  .nest("MODULE", {type: sysrofModule })
+  .nest("UNIT", {type: sysrofUnit })
 
 //   .uint32("UNIT_NAME_LENGTH")
 //   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
@@ -97,7 +103,6 @@ var sysrofHeader = new Parser.Parser()
 //     },
 //     defaultChoice: new Parser.Parser()
 //   })
-//   .nest("CART_SECTION", { type: yssSectionDefault})
   ;
 
 var sysrofFileUnParser = new ReactUnparser(sysrofHeader);
