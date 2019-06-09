@@ -14,9 +14,14 @@ editlink: ../tools/SYSROFViewer.html
 The `SYSROF` format was commonly used in the early 90s by companies like Hitachi for their own compiler toolchain instead of other formats such as COFF or ELF.
 
 The SYSROF format is most common in the Sega Saturn SDK samples but is also used in the Dreamcast Katana SDK.
+
+Drop a SYSROF format file such as .obj or .abs in the box below to see a breakdown of what each byte means:
 {% include file-parser.html format="obj" %}
 
 <style>
+  .BUILD_DATE,.BUILD_TIME {
+    color: green;
+  }
 </style>
 
 <script>
