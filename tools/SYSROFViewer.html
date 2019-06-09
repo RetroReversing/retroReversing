@@ -44,8 +44,10 @@ var sysrofHeader = new Parser.Parser()
       type: "uint8",
       length: 24 
     }) // Seems to be either 00 or 80 for each byte
+// Module Type ()
   .uint16("Unknown", { assertWithoutErroring: 0x5E84 })
-  .uint16("Unknown2")
+  .uint8("UNKNOWN2")
+  .uint8("UNKNOWN2_1")
   .string("BUILD_DATE", { length: 6 })
   .string("BUILD_TIME", { length: 6 })
   .uint8("Spare", { assertWithoutErroring: 0 })
@@ -66,6 +68,20 @@ var sysrofHeader = new Parser.Parser()
   .string("SYS_NAME", { length: "SYS_NAME_LENGTH"} )
   .uint8("MODULE_NAME_LENGTH")
   .string("MODULE_NAME", { length: "MODULE_NAME_LENGTH"} )
+  .uint8("CPU_NAME_LENGTH")
+  .string("CPU_NAME", { length: "CPU_NAME_LENGTH"} )
+
+// OM Format
+  .uint8("FORMAT_OM")
+  .uint8("Spare2", { assertWithoutErroring: 0 })
+  .uint8("SECTION_NUMBER")
+  .uint8("NUMBER_OF_EXTERNAL_REFS")
+  .uint8("NUMBER_OF_EXTERNAL_DEFS")
+  .uint8("UNIT_NAME_LENGTH")
+  .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
+  .uint8("TOOL_NAME_LENGTH")
+  .string("TOOL_NAME", { length: "TOOL_NAME_LENGTH"} )
+
 //   .uint32("UNIT_NAME_LENGTH")
 //   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
 //   .uint32("TOOL_NAME_LENGTH")
