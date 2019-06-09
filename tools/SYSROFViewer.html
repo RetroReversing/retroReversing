@@ -57,7 +57,10 @@ var sysrofModule = new Parser.Parser()
   .string("MODULE_NAME", { length: "MODULE_NAME_LENGTH"} )
   .uint8("CPU_NAME_LENGTH")
   .string("CPU_NAME", { length: "CPU_NAME_LENGTH"} )
-  
+
+var sysrofSection = new Parser.Parser()
+  .endianess("big")
+
 var sysrofUnit = new Parser.Parser()
   .endianess("big")
   .uint8("FORMAT_OM")
@@ -69,6 +72,9 @@ var sysrofUnit = new Parser.Parser()
   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
   .uint8("TOOL_NAME_LENGTH")
   .string("TOOL_NAME", { length: "TOOL_NAME_LENGTH"} )
+  .string("BUILD_DATE", { length: 6 })
+  .string("BUILD_TIME", { length: 6 })
+  .uint8("END_UNIT_HEADER", { assertWithoutErroring: 0xD8 })
   
 var sysrofHeader = new Parser.Parser()
   .endianess("big")
