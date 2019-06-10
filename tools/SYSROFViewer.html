@@ -124,7 +124,14 @@ var sysrofHeader = new Parser.Parser()
   .nest("MODULE", {type: sysrofModule })
   .nest("UNIT", {type: sysrofUnit })
   .nest("SECTION", {type: sysrofSection })
-  .nest("SYMBOL", {type: sysrofSYMBOL})
+  .array("SYMBOLS", {
+      type: sysrofSYMBOL,
+      readUntil: function(item, buffer) {
+      return item.END_MODULE_HEADER !== 0;
+    } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
+    })
+  //.nest("SYMBOL", {type: sysrofSYMBOL})
+
 
 //   .uint32("UNIT_NAME_LENGTH")
 //   .string("UNIT_NAME", { length: "UNIT_NAME_LENGTH"} )
