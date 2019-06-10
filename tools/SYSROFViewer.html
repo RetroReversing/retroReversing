@@ -113,7 +113,7 @@ var sysrofUnit = new Parser.Parser()
       return item !== 0;
      } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
   })
-  .uint8("END_UNIT_HEADER", { assertWithoutErroring: 0xD8 })
+//   .uint8("END_UNIT_HEADER", { assertWithoutErroring: 0xD8 })
   
 var sysrofHeader = new Parser.Parser()
   .endianess("big")
