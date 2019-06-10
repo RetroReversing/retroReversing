@@ -126,7 +126,14 @@ var sysrofArea = new Parser.Parser()
   .choice("data", {
     tag: "AREA_HEADER",
     choices: {
-      0x94: sysrofSYMBOL, 
+      0x94: new Parser.Parser()
+              .endianess("big")
+             .array("SYMBOLS", {
+                type: sysrofSYMBOL,
+               readUntil: function(item, buffer) {
+                  return buffer[0] !== 0;
+                } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
+            }),
       0x84: sysrofModule,
       0x88: sysrofSection
     },
@@ -159,12 +166,12 @@ var sysrofHeader = new Parser.Parser()
       type: sysrofArea,
      readUntil: 'eof'
   })
-  .array("SYMBOLS", {
-      type: sysrofSYMBOL,
-     readUntil: function(item, buffer) {
-      return buffer[0] !== 0;
-      } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
-  })
+//   .array("SYMBOLS", {
+//       type: sysrofSYMBOL,
+//      readUntil: function(item, buffer) {
+//       return buffer[0] !== 0;
+//       } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
+//   })
   
 
   
