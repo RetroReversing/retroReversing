@@ -107,6 +107,12 @@ var sysrofUnit = new Parser.Parser()
   .string("TOOL_NAME", { length: "TOOL_NAME_LENGTH"} )
   .string("BUILD_DATE", { length: 6 })
   .string("BUILD_TIME", { length: 6 })
+  .array("Zeros", {
+      type: 'uint8',
+     readUntil: function(item, buffer) {
+      return item !== 0;
+     } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
+  })
   .uint8("END_UNIT_HEADER", { assertWithoutErroring: 0xD8 })
   
 var sysrofHeader = new Parser.Parser()
@@ -130,11 +136,10 @@ var sysrofHeader = new Parser.Parser()
   .nest("SYMBOLSectionHeader", {type: sysrofSymbolHeader})
   .array("SYMBOLS", {
       type: sysrofSYMBOL,
-   readUntil: function(item, buffer) {
-     console.error("Buffer:", buffer, buffer[0], buffer[1]);
+     readUntil: function(item, buffer) {
       return buffer[0] !== 0;
-    } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
-    })
+      } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
+  })
   
 
 
