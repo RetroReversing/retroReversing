@@ -122,7 +122,7 @@ var sysrofUnit = new Parser.Parser()
 var sysrofArea = new Parser.Parser()
   .endianess("big")
   .uint8("AREA_HEADER")
-  .uint8("UNIT_LENGTH")
+  .uint8("AREA_LENGTH")
   .choice("data", {
     tag: "AREA_HEADER",
     choices: {
@@ -132,7 +132,7 @@ var sysrofArea = new Parser.Parser()
     },
     defaultChoice: new Parser.Parser().array("Skipped", {
       type: "uint8",
-      length: "UNIT_LENGTH" 
+      length: "AREA_LENGTH" 
     })
   })
 
