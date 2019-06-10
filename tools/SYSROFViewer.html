@@ -155,16 +155,17 @@ var sysrofHeader = new Parser.Parser()
   .nest("UNIT", {type: sysrofUnit })
   .nest("SECTION", {type: sysrofSection })
   .nest("SYMBOLSectionHeader", {type: sysrofSymbolHeader})
+  .array("AREAS", {
+      type: sysrofArea,
+     readUntil: 'eof'
+  })
   .array("SYMBOLS", {
       type: sysrofSYMBOL,
      readUntil: function(item, buffer) {
       return buffer[0] !== 0;
       } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
   })
-  .array("AREAS", {
-      type: sysrofArea,
-     readUntil: 'eof'
-  })
+  
 
   
 
