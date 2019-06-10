@@ -131,6 +131,7 @@ var sysrofHeader = new Parser.Parser()
   .array("SYMBOLS", {
       type: sysrofSYMBOL,
    readUntil: function(item, buffer) {
+     console.error("Buffer:", buffer, buffer[0], buffer[1]);
       return buffer[0] !== 0;
     } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
     })
