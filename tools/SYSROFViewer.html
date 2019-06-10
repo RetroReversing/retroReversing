@@ -27,11 +27,15 @@ Drop a SYSROF format file such as .obj or .abs in the box below to see a breakdo
   .BUILD_DATE,.BUILD_TIME,.MODULE_NAME,.SYMBOL_NAME {
     color: green;
   }
+  .UNIT_HEADER {
+    color: yellow;
+  }
 </style>
 
 <script>
 var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
 
+  
 var sysrofSymbolHeader  = new Parser.Parser()
   .endianess("big")
   .uint8("SYMBOL_HEADER", { assertWithoutErroring: 0x94 })
@@ -115,6 +119,23 @@ var sysrofUnit = new Parser.Parser()
   })
 //   .uint8("END_UNIT_HEADER", { assertWithoutErroring: 0xD8 })
   
+var sysrofArea = new Parser.Parser()
+  .endianess("big")
+  .uint8("AREA_HEADER")
+  .uint8("UNIT_LENGTH")
+  .choice("data", {
+    tag: "AREA_HEADER",
+    choices: {
+      0x94: sysrofSYMBOL, 
+      0x84: sysrofModule,
+      0x88: sysrofSection
+    },
+    defaultChoice: new Parser.Parser().array("Skipped", {
+      type: "uint8",
+      length: "UNIT_LENGTH" 
+    })
+  })
+
 var sysrofHeader = new Parser.Parser()
   .endianess("big")
 
@@ -140,6 +161,11 @@ var sysrofHeader = new Parser.Parser()
       return buffer[0] !== 0;
       } // stop when specific item is parsed. buffer can be used to perform a read-ahead.
   })
+  .array("AREAS", {
+      type: sysrofArea,
+     readUntil: 'eof'
+  })
+
   
 
 
