@@ -1,0 +1,181 @@
+<div class="grid"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+<style>
+.grid {
+    font: 12px 'arial';
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.caption {
+  
+    font-size: 10px;
+}
+.comoCell {
+    height: 59px;
+    width: 59px;
+}
+.cell {
+    border: 1px solid #dddddd;
+    padding: 1px;
+}
+
+rect.cell:hover {
+    stroke: 2px rgb(200,5,5);    
+}
+}
+
+#legend {
+    padding: 1.5em 0 0 1.5em;
+}
+
+li.key {
+    border-top-width: 15px;
+    border-top-style: solid;
+    font-size: .75em;
+    width: 10%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+</style>
+
+
+<script>
+function buildGrid(id, width, height) {
+    let _data = [{startAddr:0x00000, endAddr:0x000FFFFF, name:"Boot ROM"}, 
+                 {startAddr: 0x00100000, endAddr:0x0017FFFF, name:"SMPC registers"},
+                  {startAddr: 0x00180000, endAddr:0x900000, name:"Backup RAM"}]
+    _data = _data.map((d,i)=> { d.id=i; return [d] });
+    
+    const boxWidth=width*0.7;
+    const boxHeight=60;
+    const boxLeftOffset=75;
+    const boxTopOffset=30;
+
+    var grid = d3.select(id).append("svg")
+        .attr("width", width)
+        .attr("height", height)
+        .attr("class", "grid")
+        // .call(tip);
+
+    var row = grid.selectAll(".row")
+        .data(_data)
+        .enter().append("svg:g")
+        .attr("class", "row");
+
+    var col = row.selectAll(".cell")
+        .data(d=>d)
+        .enter().append("svg:rect")
+        .attr("class", "cell")
+        .attr("x", function (d) {
+          return boxLeftOffset;
+        })
+        .attr("y", function (d) {
+          return boxTopOffset+(d.id*boxHeight);
+        })
+        .attr("width", function (d) {
+            return boxWidth;//d.width;
+        })
+        .attr("height", function (d) {
+            return boxHeight;
+        })
+       .on('mouseover', function (d) {
+              d3.select(this)
+                .style('stroke', 'rgb(255,0,0)')
+                .style('stroke-width', '2.5px')
+                .style('border', '1px solid #FFFFFF')
+                .style('padding', '2px');
+             // tip.show(d.startAddr);
+      })
+         .on('mouseout', function (d) {
+           d3.select(this)
+             .style('stroke', '#555')
+             .style('stroke-width', '1px')
+             .style('border', '1px solid #DDDDDD')
+             .style('padding', '1px');
+             // tip.hide(d.startAddr);
+         })
+      .on('click', function () {
+        console.log(d3.select(this));
+      })
+        .style("fill", function (d) {
+        return "#FFFFFF";//color(d.patients);
+      })
+        .style("stroke", '#555');
+    
+    // Label of the box, right in the center
+    var text = row.selectAll(".label")
+        .data(function (d) {
+            return d;
+        })
+        .enter().append("svg:text")
+        .transition()
+        .duration(2500)
+        .delay(500)
+        .attr("x", function (d) {
+            return boxLeftOffset + boxWidth / 2;
+        })
+        .attr("y", function (d,i) {
+          console.error("this:", this, d);
+            return (boxTopOffset+boxHeight/2) + (boxHeight*d.id);
+        })
+        .attr("text-anchor", "middle")
+        .attr("dy", ".35em")
+        .text(function (d) {
+        return d.name;
+    });
+
+        // top label for the y axis
+    grid.append("text")
+    .attr("x", 0)
+    .attr("y", 20)
+    .style("text-anchor", "left")
+    .text("Memory Address");
+
+    //build side labels for the y axis
+    var nextStartY = 59; //20 + 15 + Math.round(dims[0]/2)
+    for (var obj in _data) {
+        grid.append("text")
+            .attr("x", 0)
+            .attr("y", (nextStartY + ((nextStartY - 15) * obj)))
+            .style("text-anchor", "left")
+            .text("0x"+_data[obj][0].startAddr.toString(16));
+    }
+}
+
+buildGrid('.grid', 770, 340);
+</script>
