@@ -13,6 +13,267 @@ editlink: ../tools/memory-maps/SegaSaturnMemoryMap.html
 ---
 <script src="/public/js/badger-accordion.min.js" />
 
+<style>
+dl,
+dt,
+dd {
+  margin: 0;
+}
+
+html {
+  color: #323232;
+  font-family: 'Josefin Sans', Arial;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+body {
+  background: #EFF1F0;
+  min-height: 100vh;
+}
+
+.vh {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.vh.focusable:active,
+.vh.focusable:focus {
+  position: static;
+  overflow: visible;
+  width: auto;
+  height: auto;
+  margin: 0;
+  clip: auto;
+}
+
+.container {
+  max-width: 720px;
+  margin: 10vh auto 0;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin: 10vh auto;
+    width: 90%;
+  }
+}
+.header {
+  display: block;
+  margin: 0 auto 60px;
+  max-width: 75%;
+  text-align: center;
+}
+
+button {
+  border: 0;
+  width: 100%;
+  font-size: 1em;
+}
+
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+a {
+  color: #34495e;
+}
+
+.inline-list {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline-list__item {
+  display: inline-block;
+}
+.inline-list__item:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+.icon-link {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 5px;
+  text-decoration: none;
+}
+.icon-link:focus {
+  color: #2574A9;
+  outline: auto 2px #2574A9;
+}
+.icon-link:focus .icon-link__text {
+  box-shadow: inset 0 -3px #2574A9;
+}
+.icon-link:focus svg {
+  fill: #2574A9;
+}
+.icon-link svg {
+  transition: all ease-in-out 0.2s;
+  fill: #34495e;
+  margin-left: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-link:hover {
+    color: #2574A9;
+  }
+  .icon-link:hover .icon-link__text {
+    box-shadow: inset 0 -3px #2574A9;
+  }
+  .icon-link:hover svg {
+    fill: #2574A9;
+  }
+}
+.icon-link__text {
+  transition: all ease-in-out 0.2s;
+  box-shadow: inset 0 -2px currentColor;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 40px;
+  max-width: 280px;
+}
+
+.badger-accordion__panel {
+  max-height: 75vh;
+  overflow: hidden;
+}
+.badger-accordion__panel.-ba-is-hidden {
+  max-height: 0 !important;
+}
+.badger-accordion--initialized .badger-accordion__panel {
+  transition: max-height ease-in-out 0.2s;
+}
+
+.badger-accordion {
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1), 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.badger-accordion__header:not(:last-of-type) {
+  border-bottom: 1px solid #EFF1F0;
+}
+
+.badger-accordion__trigger {
+  align-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0px;
+  color: #34495e;
+  display: flex;
+  font-family: 'Josefin Sans', Arial;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 20px;
+  text-align: left;
+  transition: all ease-in-out 0.2s;
+  width: 100%;
+}
+.badger-accordion__trigger[aria-expanded=true] .badger-accordion__trigger-icon:before {
+  -webkit-transform: rotate(45deg) translate3d(13px, 14px, 0);
+          transform: rotate(45deg) translate3d(13px, 14px, 0);
+}
+.badger-accordion__trigger[aria-expanded=true] .badger-accordion__trigger-icon:after {
+  -webkit-transform: rotate(-45deg) translate3d(-13px, 14px, 0);
+          transform: rotate(-45deg) translate3d(-13px, 14px, 0);
+}
+.badger-accordion__trigger:focus, .badger-accordion__trigger:hover {
+  background-color: #16a085;
+  cursor: pointer;
+  outline: none;
+}
+.badger-accordion__trigger:focus .badger-accordion__trigger-title, .badger-accordion__trigger:hover .badger-accordion__trigger-title {
+  color: #fff;
+}
+.badger-accordion__trigger:focus .badger-accordion__trigger-icon:after, .badger-accordion__trigger:focus .badger-accordion__trigger-icon:before, .badger-accordion__trigger:hover .badger-accordion__trigger-icon:after, .badger-accordion__trigger:hover .badger-accordion__trigger-icon:before {
+  background-color: #fff;
+}
+.badger-accordion__trigger::-moz-focus-inner {
+  border: none;
+}
+
+.badger-accordion__trigger-title {
+  font-size: 1.2rem;
+  transition: ease-in-out 0.3s;
+}
+
+.badger-accordion__trigger-icon {
+  display: block;
+  height: 40px;
+  margin-left: auto;
+  position: relative;
+  transition: all ease-in-out 0.2s;
+  width: 40px;
+}
+.badger-accordion__trigger-icon:after, .badger-accordion__trigger-icon:before {
+  background-color: #333;
+  content: "";
+  height: 3px;
+  position: absolute;
+  top: 10px;
+  transition: all ease-in-out 0.1333333333s;
+  width: 30px;
+}
+.badger-accordion__trigger-icon:before {
+  left: 1px;
+  -webkit-transform: rotate(45deg) translate3d(8px, 22px, 0);
+          transform: rotate(45deg) translate3d(8px, 22px, 0);
+  -webkit-transform-origin: 100%;
+          transform-origin: 100%;
+}
+.badger-accordion__trigger-icon:after {
+  -webkit-transform: rotate(-45deg) translate3d(-8px, 22px, 0);
+          transform: rotate(-45deg) translate3d(-8px, 22px, 0);
+  right: 1px;
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+}
+
+.badger-accordion__panel {
+  background-color: #fafafa;
+  position: relative;
+}
+.badger-accordion__panel:after {
+  background-color: #EFF1F0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.badger-accordion__panel-inner {
+  padding: 20px 20px 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .badger-accordion__trigger-icon {
+    display: none;
+    padding: 20px;
+  }
+}
+
+
+</style>
+
 <section class="container">
 
     <dl class="badger-accordion js-badger-accordion">
