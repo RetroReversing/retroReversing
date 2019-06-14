@@ -11,4 +11,60 @@ permalink: /segaSaturnMemoryMap
 recommend: segasaturn
 editlink: ../tools/memory-maps/SegaSaturnMemoryMap.html
 ---
+<script src="/public/js/badger-accordion.min.js" />
+
+<section class="container">
+
+    <dl class="badger-accordion js-badger-accordion">
+        <dt class="badger-accordion__header">
+            <button class="badger-accordion__trigger js-badger-accordion-header">
+                <h1 class="badger-accordion__trigger-title">
+                    Boot ROM
+                </h1>
+                <div class="badger-accordion__trigger-icon">
+                </div>
+            </button>
+        </dt>
+        <dd class="badger-accordion__panel js-badger-accordion-panel">
+            <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                <p>The Boot ROM is...</p>
+            </div>
+        </dd>
+        <dt class="badger-accordion__header">
+            <button class="badger-accordion__trigger js-badger-accordion-header">
+                <div class="badger-accordion__trigger-title">
+                   SMPC registers
+                </div>
+                <div class="badger-accordion__trigger-icon">
+                </div>
+            </button>
+        </dt>
+        <dd class="badger-accordion__panel js-badger-accordion-panel">
+            <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                <p>SMPC</p>
+            </div>
+        </dd>
+        <dt class="badger-accordion__header">
+            <button class="badger-accordion__trigger js-badger-accordion-header">
+                <div class="badger-accordion__trigger-title">
+                    Backup RAM
+                </div>
+                <div class="badger-accordion__trigger-icon">
+                </div>
+            </button>
+        </dt>
+        <dd class="badger-accordion__panel js-badger-accordion-panel">
+            <div class="badger-accordion__panel-inner text-module js-badger-accordion-panel-inner">
+                <p>Backup ram..</p>
+            </div>
+        </dd>
+    </dl>
+</section>
+
+<script>
+var accordionDomNode = document.querySelector('.js-badger-accordion');
+var accordion = new BadgerAccordion(accordionDomNode); 
+</script>
+
 {% include memoryMap.html data="[{}]" %}
+
