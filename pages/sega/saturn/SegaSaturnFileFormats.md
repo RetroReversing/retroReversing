@@ -6,7 +6,7 @@ tags:
 - sega
 title: Sega Saturn File Formats
 thumbnail: /public/consoles/Sega Saturn.png
-image: /public/consoles/Sega Saturn.png
+image: /public/images/saturn/Sega Saturn File Formats.jpg
 permalink: /sega-saturn-file-formats/
 breadcrumbs:
   - name: Home
