@@ -13,6 +13,37 @@ editlink: ../tools/memory-maps/SegaSaturnMemoryMap.html
 ---
 <script src="/public/js/badger-accordion.min.js" />
 
+<div class="memoryMap">
+Start | End | Name | Description
+---|---|---|---
+0x00 | 0x000FFFFF | Boot ROM | Repets every 512 kb
+0x00100000 | 0x0017FFFF |	SMPC registers | 
+0x00180000 | 0x001FFFFF | Backup RAM | 
+0x00200000 | 0x002FFFFF | Work RAM Low | 
+0x00300000 | 0x003FFFFF | Random data | Random on every read (mostly 0x00)
+0x00400000 | 0x007FFFFF | Zero |  Always returns 0x0000
+0x00800000 | 0x00FFFFFF | Unknown |  Always returns 0x00000001000200030004000500060007
+0x01000000 | 0x01FFFFFF | FFFF |  Always returns 0xFFFF
+0x02000000 | 0x03FFFFFF | CS0 | 
+0x04000000 | 0x04FFFFFF | CS1 | 
+0x05000000 | 0x057FFFFF | Dummy | 
+0x05800000 | 0x058FFFFF | CS2 | 
+0x05900000 | 0x059FFFFF | Unknown | Lockup the saturn when read
+0x05A00000 | 0x05AFFFFF | 68000 Audio Work RAM | 
+0x05B00000 | 0x05BFFFFF | SCSP registers | 
+0x05C00000 | 0x05C7FFFF | VDP1 VRAM | 
+0x05C80000 | 0x05CFFFFF | VDP1 Framebuffer | 
+0x05D00000 | 0x05D7FFFF | VDP1 Registers | 
+0x05D80000 | 0x05DFFFFF | Lockup when read | 
+0x05E00000 | 0x05EFFFFF | VDP2 VRAM | Repeats every 512 kb
+0x05F00000 | 0x05F7FFFF | VDP2 CRAM | Repeats every 4kb
+0x05F80000 | 0x05FBFFFF | VDP2 registers | Repeats every 512 bytes
+0x05FC0000 | 0x05FDFFFF | Unknown | Always returns 0x000E0000
+0x05FE0000 | 0x05FEFFFF | SCU registers | Repeats every 256 bytes
+0x05FF0000 | 0x05FFFFFF | Unknown registers | Repeats every 256 bytes
+0x06000000 | 0x07FFFFFF | Work RAM High | 
+</div>
+
 <style>
 dl,
 dt,
@@ -327,4 +358,5 @@ var accordionDomNode = document.querySelector('.js-badger-accordion');
 var accordion = new BadgerAccordion(accordionDomNode); 
 </script>
 
-
+# References
+[^1]: [SH-2CPU - Yabause](https://wiki.yabause.org/index.php5?title=SH-2CPU)
