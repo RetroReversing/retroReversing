@@ -8,7 +8,7 @@ tags:
 - games
 title: Exclusive Sega Saturn Games & Re-releases
 thumbnail: /public/consoles/Sega Saturn.png
-image:  /public/consoles/Sega Saturn.png
+image:  /public/images/saturn/Sega Saturn Exclusive Games.jpg
 permalink: /sega-saturn-exclusives/
 breadcrumbs:
   - name: Home
@@ -20,7 +20,16 @@ breadcrumbs:
 recommend: saturn
 editlink: /sega/saturn/ExclusiveSegaSaturnGames.md
 videocarousel:
-  - title: Part4
+  - title: Part 1
+    image: http://img.youtube.com/vi/Z-A-hUbGHeQ/0.jpg
+    youtube: 'Z-A-hUbGHeQ'
+  - title: Part 2
+    image: http://img.youtube.com/vi/s87WJ4EZXSo/0.jpg
+    youtube: 's87WJ4EZXSo'
+  - title: Part 3
+    image: http://img.youtube.com/vi/jo8qi3mnHoo/0.jpg
+    youtube: 'jo8qi3mnHoo'
+  - title: Part 4
     image: http://img.youtube.com/vi/y7OsG8tCuFQ/0.jpg
     youtube: 'y7OsG8tCuFQ'
 ---
@@ -136,4 +145,7 @@ This post only covers the english exclusive Sega Saturn games, the Saturn was mu
 
 # References
 [^1]: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
-[^2]: [(278) Sega Saturn 32-bit Era Console Exclusives - Part 4 - YouTube](https://www.youtube.com/watch?v=y7OsG8tCuFQ)
+[^2]: [(432) Sega Saturn 32-bit Era Console Exclusives - Part 1 - YouTube](https://www.youtube.com/watch?v=Z-A-hUbGHeQ)
+[^3]: [(432) Sega Saturn 32-bit Era Console Exclusives - Part 2 - YouTube](https://www.youtube.com/watch?v=s87WJ4EZXSo)
+[^4]: [(432) Sega Saturn 32-bit Era Console Exclusives - Part 3 - YouTube](https://www.youtube.com/watch?v=jo8qi3mnHoo)
+[^5]: [(278) Sega Saturn 32-bit Era Console Exclusives - Part 4 - YouTube](https://www.youtube.com/watch?v=y7OsG8tCuFQ)
