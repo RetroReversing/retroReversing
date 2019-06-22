@@ -23,9 +23,10 @@ Start | End | Name | Description
 0x00300000 | 0x003FFFFF | Random data | Random on every read (mostly 0x00)
 0x00400000 | 0x007FFFFF | Zero |  Always returns 0x0000
 0x00800000 | 0x00FFFFFF | Unknown |  Always returns 0x00000001000200030004000500060007
-0x01000000 | 0x01FFFFFF | FFFF |  Always returns 0xFFFF
-0x02000000 | 0x03FFFFFF | CS0 | 
-0x04000000 | 0x04FFFFFF | CS1 | 
+0x01000000 | 0x017FFFFF | Master Init (MINIT) |  Data written goes to Master SH-2 `Free Running Timer`. Section is Write Only.
+0x01800000 | 0x01FFFFFF | Slave Init (SINIT) | Data written goes to Slave SH-2 `Free Running Timer`. Section is Write Only.
+0x02000000 | 0x03FFFFFF | CS0 | Cartridge
+0x04000000 | 0x04FFFFFF | CS1 | Cartridge
 0x05000000 | 0x057FFFFF | Dummy | 
 0x05800000 | 0x058FFFFF | CS2 | 
 0x05900000 | 0x059FFFFF | Unknown | Lockup the saturn when read
