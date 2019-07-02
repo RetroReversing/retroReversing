@@ -77,7 +77,7 @@ var cpbackupFastHeader = new Parser.Parser()
       length: 3
   })
 
-var CPBackupFile = = new Parser.Parser()
+var CPBackupFile = new Parser.Parser()
   .endianess("little")
   .uint8("FormatType")
   .choice("data", {
