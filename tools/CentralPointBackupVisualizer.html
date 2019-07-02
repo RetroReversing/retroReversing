@@ -72,6 +72,7 @@ var cpbackupSlowHeader = new Parser.Parser()
 
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
+  .skip(-1) // go back as the choice read a byte that we need
   .array("Directories", {
       type: cpbackupDirectory,
       length: 3
