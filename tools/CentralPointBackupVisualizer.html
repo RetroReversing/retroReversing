@@ -88,7 +88,7 @@ var CPBackupFile = new Parser.Parser()
     defaultChoice: cpbackupFastHeader
   })
 
-var cpbackupFileUnParser = new ReactUnparser(cpbackupSlowHeader);
+var cpbackupFileUnParser = new ReactUnparser(CPBackupFile);
 
 
 var draghint = document.getElementById('draghint');
@@ -101,7 +101,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, cpbackupSlowHeader, cpbackupFileUnParser, false);
+    parseFile(file, CPBackupFile, cpbackupFileUnParser, false);
   }
   return false;
 });
