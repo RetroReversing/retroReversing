@@ -55,7 +55,7 @@ var cpbackupSlowFile = new Parser.Parser()
 
 var cpbackupSlowHeader = new Parser.Parser()
   .endianess("little")
-  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 }) // SCP
+  .string("SCP", { length: 3})
   .uint8("NumberOfFolders")
   .uint8("NumberOfFiles")
   .uint8("Unknown")
@@ -69,6 +69,24 @@ var cpbackupSlowHeader = new Parser.Parser()
   })
   .uint32("Unknown2")
   .uint16("Unknown3")
+
+var cpbackupFastHeader = new Parser.Parser()
+  .endianess("big")
+  .array("Directories", {
+      type: cpbackupDirectory,
+      length: 3
+  })
+
+var CPBackupFile = = new Parser.Parser()
+  .endianess("little")
+  .uint8("FormatType")
+  .choice("data", {
+    tag: "FormatType",
+    choices: {
+      1: cpbackupSlowHeader
+    },
+    defaultChoice: cpbackupFastHeader
+  })
 
 var cpbackupFileUnParser = new ReactUnparser(cpbackupSlowHeader);
 
