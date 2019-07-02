@@ -81,7 +81,7 @@ var CPBackupFile = new Parser.Parser()
   .endianess("little")
   .uint8("FormatType")
   .choice("data", {
-    tag: "FormatType",
+    tag: function(a,b,c) { console.log("choice:", a,b,c,this); return 2; },
     choices: {
       1: cpbackupSlowHeader
     },
