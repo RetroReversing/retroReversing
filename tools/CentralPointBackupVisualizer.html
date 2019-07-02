@@ -98,7 +98,7 @@ var cpbackupFastHeader = new Parser.Parser()
 var CPBackupFile = new Parser.Parser()
   .endianess("little")
   .uint8("FormatType")
-  .choice("data", {
+  .choice("Content", {
     tag: "FormatType",
     choices: {
       1: cpbackupSlowHeader
