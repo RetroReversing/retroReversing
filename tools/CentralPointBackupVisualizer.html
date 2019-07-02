@@ -1,0 +1,107 @@
+---
+layout: post
+tags: 
+- tools
+- fileformats
+title: Central Point Backup Format Visualiser (CPBACKUP.001,.002..)
+permalink: /centralPointBackup
+recommend: fileformats
+editlink: ../tools/CentralPointBackupVisualizer.html
+---
+<h1>Central Point Backup Restoring</h1>
+Recently I was sent some really interesting files that are known to contain Spiderman Sega mega drive source assets, they were ripped from floppy disks. However instead of using the normal FAT format it just has 1 file per disk, CPBACKUP.001, CPBACKUP.002 and CPBACKUP.003. 
+
+These are Central Point Backup files created either from a version of DOS or a really early version of windows, as the files have a timestamp of 1993.
+
+Unfortunately Central Point stopped making the software after getting bought out and so there is no version for anything above Windows 3.1.
+
+Drop a CPBackup.001 format file such as .001 in the box below to see a breakdown of what each byte means, if you have a .002 or onwards file try concatinating it with the .001 in order:
+{% include file-parser.html format="001" %}
+
+<style>
+  .BUILD_DATE,.BUILD_TIME,.MODULE_NAME,.SYMBOL_NAME {
+    color: green;
+  }
+  .UNIT_HEADER {
+    color: yellow;
+  }
+</style>
+
+<script>
+var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_unpars.Parser,FileUnparser = _window$binary_unpars.FileUnparser,ReactUnparser = _window$binary_unpars.ReactUnparser,Buffer = _window$binary_unpars.Buffer;
+
+var cpbackupDirectory = new Parser.Parser()
+  .endianess("little")
+  .uint16("MagicHeaderForDirectory")
+  .string("Filename", {length: 13})
+  
+var cpbackupSlowFile = new Parser.Parser()
+  .endianess("little")
+  .uint16("MagicHeaderForFile")
+  .string("Filename", {length: 13})
+  .uint16("Date")
+  .uint16("Time")
+  .uint8("Unknown")
+  .uint32("SizeOfUncompressedFile")
+  
+ var cpbackupSlowData = new Parser.Parser()
+  .endianess("little")
+  .uint16("DataLength")
+  .array("Files", {
+      type: 'uint8',
+      length: "DataLength" 
+  })
+  
+
+var cpbackupSlowHeader = new Parser.Parser()
+  .endianess("little")
+  .uint32("FILE_SIGNATURE", { assertWithoutErroring: 0x80210080 }) // SCP
+  .uint8("NumberOfFolders")
+  .uint8("NumberOfFiles")
+  .uint8("Unknown")
+  .array("Directories", {
+      type: cpbackupDirectory,
+      length: "NumberOfFolders" 
+  })
+  .array("Files", {
+      type: cpbackupSlowFile,
+      length: "NumberOfFiles" 
+  })
+  .uint32("Unknown2")
+  .uint16("Unknown3")
+
+var cpbackupFileUnParser = new ReactUnparser(cpbackupSlowHeader);
+
+
+var draghint = document.getElementById('draghint');
+window.addEventListener('drop', function (event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  for (var i = 0; i < event.dataTransfer.files.length; i++) {
+    var file = event.dataTransfer.files[i];
+    var c = document.createElement('canvas');
+    c.id = 'v64' + i;
+    $('#v64').append(c);
+    console.log(file, i, c);
+    parseFile(file, cpbackupSlowHeader, cpbackupFileUnParser, false);
+  }
+  return false;
+});
+window.addEventListener('dragover', function (event) {
+  event.preventDefault();
+  draghint.classList.add('hover');
+  return false;
+});
+window.addEventListener('dragleave', function (event) {
+  event.preventDefault();
+  draghint.classList.remove('hover');
+  return false;
+});
+window.addEventListener('focus', function () {
+  return draghint.classList.remove('hover');
+});
+  </script>
+
+# References
+[^1]: http://www.os2museum.com/wp/the-central-point-backup-floppy-format/
+[^2]: https://www.pcjs.org/disks/pcx86/dos/ibm/5.00/ 
