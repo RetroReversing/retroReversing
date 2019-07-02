@@ -70,19 +70,20 @@ var cpbackupSlowHeader = new Parser.Parser()
   .uint32("Unknown2")
   .uint16("Unknown3")
 
+// Fast version (Non-Dos Big Endian)
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
   .skip(-1) // go back as the choice read a byte that we need
   .array("Directories", {
       type: cpbackupDirectory,
-      length: 3
+      readUntil: function(item, buffer) { return buffer[0] !== 0xDA; }
   })
 
 var CPBackupFile = new Parser.Parser()
   .endianess("little")
   .uint8("FormatType")
   .choice("data", {
-    tag: function(a,b,c) { console.log("choice:", a,b,c,this); return 2; },
+    tag: "FormatType",
     choices: {
       1: cpbackupSlowHeader
     },
