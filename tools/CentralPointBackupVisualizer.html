@@ -84,7 +84,9 @@ var cpbackupFastFile = new Parser.Parser()
   .uint8("CompressedLow")
   .uint8("Date2")
   .uint8("Time2")
-  .uint8("Unknown")
+  .uint8("UnknownByte")
+  .uint16("UnknownWordNormally7")
+  .uint16("UnknownWordAgain")
   .array("Compressed", {
       type: 'uint8',
       length: function() {
