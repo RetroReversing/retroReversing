@@ -85,6 +85,12 @@ var cpbackupFastFile = new Parser.Parser()
   .uint8("Date2")
   .uint8("Time2")
   .uint8("Unknown")
+  .array("Compressed", {
+      type: 'uint8',
+      length: function() {
+        return (this.CompressedHigh*256)+ this.CompressedLow;
+      }
+  })
 
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
