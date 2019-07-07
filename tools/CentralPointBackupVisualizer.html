@@ -89,9 +89,11 @@ var cpbackupFastFile = new Parser.Parser()
   .uint16("UnknownWordAgain")
   .array("Compressed", {
       type: 'uint8',
-      length: function() {
-        return (this.CompressedHigh*256)+ this.CompressedLow;
-      }
+//       length: function() {
+//         return (this.CompressedHigh*256)+ this.CompressedLow;
+//       }
+    readUntil: function(item, buffer) { return buffer[0] === 0xFF && buffer[1] === 0xDB; }
+    // possibly readUntil: 0xFFDB
   })
 
 var cpbackupFastHeader = new Parser.Parser()
