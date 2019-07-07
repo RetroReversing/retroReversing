@@ -93,7 +93,8 @@ var cpbackupFastHeader = new Parser.Parser()
       type: cpbackupDirectory,
       readUntil: function(item, buffer) { return buffer[0] !== 0xDA; }
   })
-  .nest("Files", { type: cpbackupFastFile });
+  .nest("Files", { type: cpbackupFastFile,
+                 readUntil: function(item, buffer) { return buffer[0] !== 0xDB; } });
 
 var CPBackupFile = new Parser.Parser()
   .endianess("little")
