@@ -33,7 +33,7 @@ var _window$binary_unpars = window["binary_unparser"],Parser = _window$binary_un
 var cpbackupDirectory = new Parser.Parser()
   .endianess("little")
   .uint16("MagicHeaderForDirectory")
-  .string("Filename", {length: 13})
+  .string("DirectoryName", {length: 13})
   
 var cpbackupSlowFile = new Parser.Parser()
   .endianess("little")
