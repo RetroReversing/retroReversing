@@ -95,6 +95,7 @@ var cpbackupFastFile = new Parser.Parser()
     readUntil: function(item, buffer) { return buffer[0] === 0xFF && buffer[1] === 0xDB; }
     // possibly readUntil: 0xFFDB
   })
+  .skip(1)
 
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
