@@ -60,7 +60,7 @@ var cpbackupSlowFile = new Parser.Parser()
       length: function() { if (this.DataLength === 0xFFFF) {
         return 0;
       }
-                          console.error("Datalen:", this, offset, this.DataLength);
+                          
        return this.DataLength;
      }
   })
@@ -115,6 +115,7 @@ var cpbackupFastFile = new Parser.Parser()
                          readUntil: function(item, buffer) { 
       var isAnotherSection = buffer[0] === 0xFF && buffer[1] === 0xDB; 
       var isEndOfAllFiles = buffer[0] === 0x44 && buffer[1] === 0x43 && buffer[2] === 0x50;
+                           console.error("Datalen:", this, offset, this.Filename);
       return isAnotherSection || isEndOfAllFiles;
     }
                          })
