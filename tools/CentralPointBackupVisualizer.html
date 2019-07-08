@@ -60,8 +60,9 @@ var cpbackupSlowFile = new Parser.Parser()
       length: function() { if (this.DataLength === 0xFFFF) {
         return 0;
       }
-                          return this.DataLength;
-                         }
+                          console.error("Datalen:", this, offset, this.DataLength);
+       return this.DataLength;
+     }
   })
 
 var cpbackupSlowHeader = new Parser.Parser()
