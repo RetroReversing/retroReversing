@@ -53,7 +53,7 @@ var cpbackupSlowFile = new Parser.Parser()
   })
   
  var cpbackupFastData = new Parser.Parser()
-  .endianess("big")
+  .endianess("little")
   .uint16("DataLength")
   .array("CompressedContent", {
       type: 'uint8',
