@@ -146,6 +146,9 @@ var CPBackupFile = new Parser.Parser()
   })
 
 var cpbackupFileUnParser = new ReactUnparser(CPBackupFile);
+  
+  var cpbackupBinaryUP = new FileUnparser(CPBackupFile);
+// console.log("Unparsed:",cpbackupBinaryUP.unparse(result, new Buffer()));
 
 
 var draghint = document.getElementById('draghint');
@@ -158,7 +161,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, CPBackupFile, cpbackupFileUnParser, false);
+    parseFile(file, CPBackupFile, cpbackupFileUnParser, false, cpbackupBinaryUP);
   }
   return false;
 });
