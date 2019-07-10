@@ -70,9 +70,12 @@
   reader.onload = function () {
     var fileAsBinaryString = reader.result;
     // do whatever you want with the file content
-    var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
+    var fileBuffer = Buffer.from(fileAsBinaryString);
+    var parsedResult = n64Header.parse(fileBuffer);
     //this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
-    onParseCallback(parsedResult);
+    if (onParseCallback) {
+      onParseCallback(fileBuffer, parsedResult);
+    }
 
     var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
     ReactDOM.render(
