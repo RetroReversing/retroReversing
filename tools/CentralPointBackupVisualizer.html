@@ -151,10 +151,15 @@ var cpbackupFileUnParser = new ReactUnparser(CPBackupFile);
   
   var cpbackupBinaryUP = new FileUnparser(CPBackupFile);
 
+  function convertToSlowFormat(file, parsedResult) {
+    var slowFormat = parsedResult;
+    console.error("TODO convert fast to slow CPbackup here");
+    console.error("Unparsed:",cpbackupBinaryUP.unparse(slowFormat, file));
+  }
 
   function onParseCallback(file, parsedResult) {
     console.error("parsedResult:", parsedResult);
-    console.error("Unparsed:",cpbackupBinaryUP.unparse(parsedResult, file));
+    convertToSlowFormat(file, parsedResult);
   }
 
 var draghint = document.getElementById('draghint');
