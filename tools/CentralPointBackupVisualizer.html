@@ -154,7 +154,7 @@ var cpbackupFileUnParser = new ReactUnparser(CPBackupFile);
 
   function onParseCallback(file, parsedResult) {
     console.error("parsedResult:", parsedResult);
-    console.log("Unparsed:",cpbackupBinaryUP.unparse(parsedResult, file));
+    console.error("Unparsed:",cpbackupBinaryUP.unparse(parsedResult, file));
   }
 
 var draghint = document.getElementById('draghint');
