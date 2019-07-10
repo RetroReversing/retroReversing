@@ -148,8 +148,12 @@ var CPBackupFile = new Parser.Parser()
 var cpbackupFileUnParser = new ReactUnparser(CPBackupFile);
   
   var cpbackupBinaryUP = new FileUnparser(CPBackupFile);
-// console.log("Unparsed:",cpbackupBinaryUP.unparse(result, new Buffer()));
 
+
+  function onParseCallback(parsedResult) {
+    console.error("parsedResult:", parsedResult);
+    console.log("Unparsed:",cpbackupBinaryUP.unparse(parsedResult, new Buffer()));
+  }
 
 var draghint = document.getElementById('draghint');
 window.addEventListener('drop', function (event) {
@@ -161,7 +165,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, CPBackupFile, cpbackupFileUnParser, false, cpbackupBinaryUP);
+    parseFile(file, CPBackupFile, cpbackupFileUnParser, false, onParseCallback);
   }
   return false;
 });
