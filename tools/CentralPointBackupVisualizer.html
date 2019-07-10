@@ -167,7 +167,7 @@ window.addEventListener('drop', function (event) {
     c.id = 'v64' + i;
     $('#v64').append(c);
     console.log(file, i, c);
-    parseFile(file, CPBackupFile, cpbackupFileUnParser, false, onParseCallback.bind(null,file));
+    parseFile(file, CPBackupFile, cpbackupFileUnParser, false, onParseCallback);
   }
   return false;
 });
