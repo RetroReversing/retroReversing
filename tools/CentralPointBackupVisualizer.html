@@ -99,26 +99,28 @@ var cpbackupFastFile = new Parser.Parser()
   .uint8("UnknownByte")
   .uint16("UnknownWordNormally7")
   .uint16("UnknownWordAgain")
-//   .array("Compressed", {
-//       type: 'uint8',
+  .array("Compressed", {
+      type: 'uint8',
 //       length: function() {
 //         return (this.CompressedHigh*256)+ this.CompressedLow;
 //       }
-// //     readUntil: function(item, buffer) { 
-// //       var isAnotherSection = buffer[0] === 0xFF && buffer[1] === 0xDB; 
-// //       var isEndOfAllFiles = buffer[0] === 0x44 && buffer[1] === 0x43 && buffer[2] === 0x50;
-// //       return isAnotherSection || isEndOfAllFiles;
-// //     }
-//     // possibly readUntil: 0xFFDB
-//   })
-.array("MoreCompressed", {type: cpbackupFastData, 
-                         readUntil: function(item, buffer) { 
+    readUntil: function(item, buffer) { 
+      if (buffer.length<16) return true;
       var isAnotherSection = buffer[0] === 0xFF && buffer[1] === 0xDB; 
       var isEndOfAllFiles = buffer[0] === 0x44 && buffer[1] === 0x43 && buffer[2] === 0x50;
-                           //console.error("Datalen:", this, offset, this.Filename);
       return isAnotherSection || isEndOfAllFiles;
     }
-                         })
+    // possibly readUntil: 0xFFDB
+  })
+// .array("MoreCompressed", {type: cpbackupFastData, 
+//                          readUntil: function(item, buffer) { 
+//       var isAnotherSection = buffer[0] === 0xFF && buffer[1] === 0xDB; 
+//       var isEndOfAllFiles = buffer[0] === 0x44 && buffer[1] === 0x43 && buffer[2] === 0x50;
+//                            //console.error("Datalen:", this, offset, this.Filename);
+//       return isAnotherSection || isEndOfAllFiles;
+//     }
+//                          })
+  .skip(function() { console.log('this:',this) })
   .skip(1)
 
 var cpbackupFastHeader = new Parser.Parser()
