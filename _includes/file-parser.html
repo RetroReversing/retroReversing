@@ -65,13 +65,14 @@
 
 <script>
   
-  function parseFile(file, n64Header, n64HeaderUP, showJson) {
+  function parseFile(file, n64Header, n64HeaderUP, showJson, onParseCallback) {
   var reader = new FileReader();
   reader.onload = function () {
     var fileAsBinaryString = reader.result;
     // do whatever you want with the file content
     var parsedResult = n64Header.parse(Buffer.from(fileAsBinaryString));
     //this.setState({jsonResult: JSON.stringify(parsedResult, 4, 4)});
+    onParseCallback(parsedResult);
 
     var reactResult = n64HeaderUP.unparse(parsedResult, [], React);
     ReactDOM.render(
