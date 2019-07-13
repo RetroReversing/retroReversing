@@ -132,3 +132,6 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 * replace functions with javascript
 * auto detect rsp.boot
 ￼
+---
+# Download & Source Code
+Currently there are no pre-built binaries yet but you can build it yourself by cloning the github repository: [RetroReversing/mupen64plus-core: Core module of the Mupen64Plus Reversing Emulator](https://github.com/RetroReversing/mupen64plus-core)
