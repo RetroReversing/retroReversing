@@ -31,11 +31,14 @@
                 {% else %}
                   <a href="https://github.com/amorri40/retroReversing/tree/master/pages"><i class="fa fa-edit"></i>Edit on github</a>
                 {% endif %}
-                {% if page.updatedAt %}
-                  <h5>Page last updated: {{page.updatedAt}}</h5>
-                {% else %}
-                  <h5>Site last updated: {{site.time}}</h5>
-                {% endif %}
+                <i>Last Updated: 
+                    {% if page.updatedAt %}
+                      {{page.updatedAt}}
+                    {% else %}
+                      {{site.time}}
+                    {% endif %}
+                </i>
+                
               </div>
             </div>
             {{ content | markdownify }}
