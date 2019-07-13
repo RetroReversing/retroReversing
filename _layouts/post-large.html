@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="fixed-header">
+  <!-- header -->
+  {% include header.html %}
+  <!-- /header -->
+
+  <!-- main -->
+  {% include breadcrumbs.html %}
+  
+  {% include video-header.html %}
+  
+  {% include video-carousel.html %}
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="post post-single">
+            <div class="post-header">
+              <div>
+                <img src="{{ page.thumbnail }}" alt="">
+              </div>
+              <div>
+                <h2 class="post-title">{{ page.title }}</h2>             
+                {% if page.editlink %}
+                  <a href="https://github.com/amorri40/retroReversing/edit/master/pages/{{page.editlink}}"><i class="fa fa-edit"></i>Edit on github</a>
+                {% else %}
+                  <a href="https://github.com/amorri40/retroReversing/tree/master/pages"><i class="fa fa-edit"></i>Edit on github</a>
+                {% endif %}
+                | Updated:
+                <i> 
+                    {% if page.updatedAt %}
+                      {{page.updatedAt}}
+                    {% else %}
+                      {{site.time}}
+                    {% endif %}
+                </i>
+                
+              </div>
+            </div>
+            {{ content | markdownify }}
+          </div>
+          <div class="post-actions">
+            {% if page.tags %}
+              <div class="post-tags">
+                {% for tag in page.tags %}
+                  <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+                {% endfor %}
+              </div>
+            {% endif %}
+            
+         
+            {% include social-share.html %}
+          </div>
+          
+          <div id="comments" class="comments anchor">
+            {% include disqus.html %}
+          </div>
+          
+        </div>
+        <div class="col-lg-3">
+          <div class="sidebar">
+            {% include sources-sidebar.html %}
+            {% include recommended-sidebar.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /main -->
+
+  {% include footer.html %}
+
+ 
+</body>
+</html>
