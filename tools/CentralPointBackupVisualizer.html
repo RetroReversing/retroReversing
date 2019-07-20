@@ -64,10 +64,17 @@ var cpbackupSlowFile = new Parser.Parser()
         var length = this.DataLength;
         var mask = 1 << 15;
         length &= ~mask;
-        console.error("Old length:", this.DataLength, "New length:", length, "offset:",offset)                  
+//         console.error("Old length:", this.DataLength, "New length:", length, "offset:",offset)                  
        return length;
      }
   })
+   .array("Logging", {
+      type: 'uint8',
+      length: function() {
+        console.error("This:",this, "offset", offset);
+      return 0;
+      }
+ });
 
 var cpbackupSlowHeader = new Parser.Parser()
   .endianess("little")
