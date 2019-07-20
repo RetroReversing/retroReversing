@@ -24,16 +24,17 @@ The boot code is a short piece of MIPS assembly code located in every single N64
 
 Technically any code could have been placed in this section of the ROM as long as it initialises the hardware, but in practise there were only a couple of variations on the standard bootcode.
 
-The Boot Codes don't have any names or unique identifier to refer to them so for the remainder of this post I will identify a specific boot code section with its Md5 Checksum.
+The Boot Codes can be named after the CIC (Lockout) chip that they were created to work with and have the format `CIC-NUS-####`, to detect which boot code has which name we can take the MD5 hash of the code and compare it to the table below [^3].
 
-Most of the Retail N64 roms (not including cheat cartridges or homebrew) use one of the following boot code segments:
-```
-2dacea29bd5ae921009b68f2763112d8 (used in 88% of games)
-519f29ee1440f2c7b39a79eea1aec40d (used in 4% of games, e.g Legend of Zelda OOT)
-877439da8c0021675bbbcfb63c0a10a6 (used in 3% of games, e.g 1080 Snowboarding)
-```
+Md5 Hash | PAL Name (CIC chip) | NA Name (CIC Chip) | Details
+---|---|---
+2dacea29bd5ae921009b68f2763112d8 | CIC-NUS-7101 | CIC-NUS-6102 | Used in 88% of games
+877439da8c0021675bbbcfb63c0a10a6 | CIC-NUS-7103 | CIC-NUS-6103 | X103 Used in 3% of games (e.g 1080 Snowboarding)
+519f29ee1440f2c7b39a79eea1aec40d | CIC-NUS-7105 | CIC-NUS-6105 | X105 Used in 4% of games (e.g Legend of Zelda OOT)
+?? | CIC-NUS-7106 | CIC-NUS-6106 | X106 Used in ?% of games (e.g Yoshi)
+?? | CIC-NUS-7102 | CIC-NUS-6101 | Used in Starfox64/Lylat Wars
 
-The standard Boot Code is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
+The standard Boot Code (`CIC-NUS-7101`/`CIC-NUS-6102`) is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
 
 The md5 hash for this boot code in binary format is:
 ```
@@ -666,3 +667,5 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 # References
 [^1]: http://www.it.uu.se/education/course/homepage/os/vt18/module-1/memory-mapped-io/
 [^2]: http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html 
+[^3]: Talcardo Jirones in the comment sections of this page
+[^4]: [Micro-64](http://micro-64.com/database/gamecic.shtml)
