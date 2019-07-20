@@ -63,7 +63,7 @@ var cpbackupSlowFile = new Parser.Parser()
         }
         var length = this.DataLength;
         var mask = 1 << 15;
-        length |= mask;
+        length &= ~mask;
         console.error("Old length:", this.DataLength, "New length:", length)                  
        return length;
      }
