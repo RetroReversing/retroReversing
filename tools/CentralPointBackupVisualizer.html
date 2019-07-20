@@ -157,7 +157,10 @@ var cpbackupFastHeader = new Parser.Parser()
 //                    console.error("ReadUntil Fast current buffer:", buffer[0], "buffer1:", buffer[1], buffer, 'offset:',offset);
 //                    return buffer[0] !== 0xDB; 
 //                  } 
-                      });
+                      })
+.array("FastFiles2", { type: cpbackupFastFile,
+                       length:1})
+;
 
 var CPBackupFile = new Parser.Parser()
   .endianess("little")
