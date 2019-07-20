@@ -64,7 +64,7 @@ var cpbackupSlowFile = new Parser.Parser()
         var length = this.DataLength;
         var mask = 1 << 15;
         length &= ~mask;
-        console.error("Old length:", this.DataLength, "New length:", length)                  
+        console.error("Old length:", this.DataLength, "New length:", length, "offset:",offset)                  
        return length;
      }
   })
@@ -112,7 +112,7 @@ var cpbackupFastFile = new Parser.Parser()
         console.error("Done (Reached 0xFF 0xFF)",buffer[0],buffer[1],buffer[2]);
         return true;
       }
-      console.error("Keep going", buffer);
+      console.error("Keep going offset:", offset," buffer:", buffer);
       return false;
       
     }
