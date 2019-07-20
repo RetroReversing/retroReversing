@@ -140,8 +140,9 @@ var cpbackupFastFile = new Parser.Parser()
 //       return isAnotherSection || isEndOfAllFiles;
 //     }
 //                          })
-  .skip(function() { console.log('this:',this, 'offset:',offset) })
   .skip(2)
+  .skip(function() { console.log('this file:',this, 'offset:',offset) })
+  
 
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
@@ -151,10 +152,12 @@ var cpbackupFastHeader = new Parser.Parser()
       readUntil: function(item, buffer) { return buffer[0] !== 0xDA; }
   })
   .array("FastFiles", { type: cpbackupFastFile,
-                 readUntil: function(item, buffer) { 
-                   console.error("ReadUntil Fast current buffer:", buffer[0], buffer[1], buffer, 'offset:',offset);
-                   return buffer[0] !== 0xDB; 
-                 } });
+                       length:2,
+//                  readUntil: function(item, buffer) { 
+//                    console.error("ReadUntil Fast current buffer:", buffer[0], "buffer1:", buffer[1], buffer, 'offset:',offset);
+//                    return buffer[0] !== 0xDB; 
+//                  } 
+                      });
 
 var CPBackupFile = new Parser.Parser()
   .endianess("little")
