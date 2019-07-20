@@ -104,7 +104,19 @@ var cpbackupFastFile = new Parser.Parser()
   .uint16("UnknownWordNormally7")
   .uint16("UnknownWordAgain")
   .skip(1)
-  .array("Compressed", { type:cpbackupFastData, length:1})
+  .array("Compressed", { 
+    type:cpbackupFastData, 
+    readUntil: function(item, buffer) { 
+      if (buffer.length<16) return true; // failsafe
+      if (buffer[0] === 0xFF && buffer[1] === 0xFF) {
+        console.error("Done",buffer);
+        return true;
+      }
+      console.error("Keep going", buffer);
+      return false;
+      
+    }
+  })
 
 
 //   .array("Compressed_old", {
@@ -129,7 +141,7 @@ var cpbackupFastFile = new Parser.Parser()
 //     }
 //                          })
   .skip(function() { console.log('this:',this) })
-  .skip(1)
+  .skip(2)
 
 var cpbackupFastHeader = new Parser.Parser()
   .endianess("big")
@@ -140,7 +152,7 @@ var cpbackupFastHeader = new Parser.Parser()
   })
   .array("FastFiles", { type: cpbackupFastFile,
                  readUntil: function(item, buffer) { 
-                   // console.error("ReadUntil Fast current buffer:", buffer[0], buffer[1], buffer, offset);
+                   console.error("ReadUntil Fast current buffer:", buffer[0], buffer[1], buffer, offset);
                    return buffer[0] !== 0xDB; 
                  } });
 
