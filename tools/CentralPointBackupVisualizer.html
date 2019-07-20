@@ -109,7 +109,7 @@ var cpbackupFastFile = new Parser.Parser()
     readUntil: function(item, buffer) { 
       if (buffer.length<16) return true; // failsafe
       if (buffer[0] === 0xFF && buffer[1] === 0xFF) {
-        console.error("Done",buffer);
+        console.error("Done (Reached 0xFF 0xFF)",buffer[0],buffer[1],buffer[2]);
         return true;
       }
       console.error("Keep going", buffer);
@@ -140,7 +140,7 @@ var cpbackupFastFile = new Parser.Parser()
 //       return isAnotherSection || isEndOfAllFiles;
 //     }
 //                          })
-  .skip(function() { console.log('this:',this) })
+  .skip(function() { console.log('this:',this, 'offset:',offset) })
   .skip(2)
 
 var cpbackupFastHeader = new Parser.Parser()
@@ -152,7 +152,7 @@ var cpbackupFastHeader = new Parser.Parser()
   })
   .array("FastFiles", { type: cpbackupFastFile,
                  readUntil: function(item, buffer) { 
-                   console.error("ReadUntil Fast current buffer:", buffer[0], buffer[1], buffer, offset);
+                   console.error("ReadUntil Fast current buffer:", buffer[0], buffer[1], buffer, 'offset:',offset);
                    return buffer[0] !== 0xDB; 
                  } });
 
