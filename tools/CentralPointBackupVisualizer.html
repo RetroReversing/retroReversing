@@ -103,6 +103,7 @@ var cpbackupFastFile = new Parser.Parser()
   .uint8("UnknownByte")
   .uint16("UnknownWordNormally7")
   .uint16("UnknownWordAgain")
+  .skip(1)
   .array("Compressed", { type:cpbackupFastData, length:1})
 
 
