@@ -26,13 +26,15 @@ Technically any code could have been placed in this section of the ROM as long a
 
 The Boot Codes can be named after the CIC (Lockout) chip that they were created to work with and have the format `CIC-NUS-####`, to detect which boot code has which name we can take the MD5 hash of the code and compare it to the table below [^3].
 
+
 Md5 Hash | PAL Name (CIC chip) | NA Name (CIC Chip) | Details
----|---|---
+---|---|---|---
 2dacea29bd5ae921009b68f2763112d8 | CIC-NUS-7101 | CIC-NUS-6102 | Used in 88% of games
 877439da8c0021675bbbcfb63c0a10a6 | CIC-NUS-7103 | CIC-NUS-6103 | X103 Used in 3% of games (e.g 1080 Snowboarding)
 519f29ee1440f2c7b39a79eea1aec40d | CIC-NUS-7105 | CIC-NUS-6105 | X105 Used in 4% of games (e.g Legend of Zelda OOT)
 ?? | CIC-NUS-7106 | CIC-NUS-6106 | X106 Used in ?% of games (e.g Yoshi)
 ?? | CIC-NUS-7102 | CIC-NUS-6101 | Used in Starfox64/Lylat Wars
+
 
 The standard Boot Code (`CIC-NUS-7101`/`CIC-NUS-6102`) is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
 
