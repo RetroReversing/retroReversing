@@ -57,11 +57,15 @@ var cpbackupSlowFile = new Parser.Parser()
   .uint16("DataLength")
   .array("CompressedContent", {
       type: 'uint8',
-      length: function() { if (this.DataLength === 0xFFFF) {
-        return 0;
-      }
+      length: function() { 
+        if (this.DataLength === 0xFFFF) {
+          return 0;
+        }
+        var length = this.DataLength;
+        var mask = 1 << 15;
+        length |= mask;
                           
-       return this.DataLength;
+       return length;
      }
   })
 
