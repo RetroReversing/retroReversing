@@ -113,16 +113,17 @@ var cpbackupFastFile = new Parser.Parser()
   .skip(1)
   .array("Compressed", { 
     type:cpbackupFastData, 
-    readUntil: function(item, buffer) { 
-      if (buffer.length<16) return true; // failsafe
-      if (buffer[0] === 0xFF && buffer[1] === 0xFF) {
-        console.error("Done (Reached 0xFF 0xFF)",buffer[0],buffer[1],buffer[2]);
-        return true;
-      }
-      console.error("Keep going offset:", offset," buffer:", buffer);
-      return false;
+    length: 1,
+//     readUntil: function(item, buffer) { 
+//       if (buffer.length<16) return true; // failsafe
+//       if (buffer[0] === 0xFF && buffer[1] === 0xFF) {
+//         console.error("Done (Reached 0xFF 0xFF)",buffer[0],buffer[1],buffer[2]);
+//         return true;
+//       }
+//       console.error("Keep going offset:", offset," buffer:", buffer);
+//       return false;
       
-    }
+//     }
   })
 
 
