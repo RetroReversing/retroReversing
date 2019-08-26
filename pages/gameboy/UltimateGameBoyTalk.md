@@ -6,7 +6,7 @@ tags:
 title: The Ultimate Game Boy Talk
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "HyzD8pNlpwI"
-image: https://img.youtube.com/vi/HyzD8pNlpwI/maxresdefault.jpg
+image: https://img.youtube.com/vi/HyzD8pNlpwI/hqdefault.jpg
 permalink: /ultimate-gameboy
 breadcrumbs:
   - name: Home
