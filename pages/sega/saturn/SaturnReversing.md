@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: 
+tags:
 - segasaturn
 - saturn
 - sega
@@ -23,12 +23,12 @@ recommend: segasaturn
 editlink: /sega/saturn/SaturnReversing.md
 ---
 
-# Disassembling the executable 
+# Disassembling the executable
 According to a post on segaxtreme.net the Sega Saturn executes the first file it find on the disc, most of the time its in the root directory in alphabetical order.
 
 ## Loading into IDA Pro
 
-Use a save state: [cyberwarriorx/yssloader: An IDA Pro plugin for importing Yabause YSS savestates](https://github.com/cyberwarriorx/yssloader) 
+Use a save state: [cyberwarriorx/yssloader: An IDA Pro plugin for importing Yabause YSS savestates](https://github.com/cyberwarriorx/yssloader)
 
 ### PSYQ IDA Pro
 The standard SIG files won't find many functions if the game was compiled with PSYQ!
@@ -36,7 +36,8 @@ The standard SIG files won't find many functions if the game was compiled with P
 ---
 
 ## Loading into Ghidra
-[VGKintsugi/Ghidra-SegaSaturn-Processor: A Ghidra processor for the Sega Saturn (SuperH SH-2)](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Processor) 
+[VGKintsugi/Ghidra-SegaSaturn-Processor: A Ghidra processor for the Sega Saturn (SuperH SH-2)](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Processor)
+[VGKintsugi/Ghidra-SegaSaturn-Loader: An ISO and save state loader for Ghidra for the Sega Saturn](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader)
 
 ---
 # Extracting & Rebuilding Saturn Game discs
@@ -154,4 +155,4 @@ Although not all games have these references such as Bubble Bobble but it is kno
 
 ---
 # References
-[^1]: https://segaxtreme.net/threads/starting-a-sega-saturn-translation-hack.6059/ 
+[^1]: https://segaxtreme.net/threads/starting-a-sega-saturn-translation-hack.6059/
