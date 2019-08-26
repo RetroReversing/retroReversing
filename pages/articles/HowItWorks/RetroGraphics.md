@@ -10,7 +10,7 @@ tags:
 - atari
 title: How Retro Graphics worked
 thumbnail: /public/consoles/Computer Old Design.png
-image: https://img.youtube.com/vi/Tfh0ytz8S0k/maxresdefault.jpg
+image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg
 permalink: /how-retro-graphics-worked
 breadcrumbs:
   - name: Home
@@ -23,7 +23,7 @@ recommend: dos
 editlink: /articles/HowItWorks/RetroGraphics.md
 videocarousel:
   - title: Part 1
-    image: https://img.youtube.com/vi/Tfh0ytz8S0k/maxresdefault.jpg
+    image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg
     youtube: 'Tfh0ytz8S0k'
   - title: Part 2
     image: https://img.youtube.com/vi/_rsycfDliZU/maxresdefault.jpg
