@@ -8,7 +8,7 @@ tags:
 - ss
 title: Sega Saturn Alpha Transparency Effects
 thumbnail: /public/consoles/Sega Saturn.png
-image: https://img.youtube.com/vi/FdD0GvVRSMc/maxresdefault.jpg
+image: https://img.youtube.com/vi/FdD0GvVRSMc/hqdefault.jpg
 permalink: /saturn-transparency
 breadcrumbs:
   - name: Home
