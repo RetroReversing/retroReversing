@@ -7,7 +7,7 @@ tags:
 title: PlayStation 2 Hardware Architecture
 thumbnail: /public/consoles/Sony PlayStation 2.png
 youtube: "X6wtbHI94iE"
-image: https://img.youtube.com/vi/X6wtbHI94iE/maxresdefault.jpg
+image: https://img.youtube.com/vi/X6wtbHI94iE/hqdefault.jpg
 permalink: /playStation-2-architecture
 breadcrumbs:
   - name: Home
