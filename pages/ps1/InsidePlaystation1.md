@@ -7,7 +7,7 @@ tags:
 title: What's inside a Playstation?
 thumbnail: /public/consoles/Sony Playstation.png
 youtube: "JqeFT67U-xo"
-image: https://img.youtube.com/vi/JqeFT67U-xo/maxresdefault.jpg
+image: https://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
 permalink: /inside-playstation
 breadcrumbs:
   - name: Home
