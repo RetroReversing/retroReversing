@@ -60,6 +60,9 @@ The 3rd voice can only produce a triangle and is used for bass notes.
 The 4th voice can only produce random noise.
 The 5th voice was for PCM sample sounds but apparently rarely used.
 
+You can see a visualisation of the wave in a play though of Mario bros 3 in the video by Bizqwit below [^2]:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xI3xZAn7r2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Commodore 64
 Although the C64 only had 3 voices, each one could use whatever waveform it wanted out of the following options:
 * Square
@@ -81,3 +84,4 @@ Audio would be built up of small audio clips called "samples". The concept of a 
 
 # References
 [^1]: [How Oldschool Sound/Music worked](https://www.youtube.com/watch?v=q_3d1x2VPxk)
+[^2]: [(403) NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)
