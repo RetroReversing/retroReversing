@@ -22,16 +22,7 @@ recommend:
 - tutorials
 - ghidra
 editlink: /articles/Ghidra/GhidraDecompilingIntroduction.md
-videocarousel:
-  - title: Part 1
-    image: https://i.ytimg.com/vi/4v8WkHmSFUU/sddefault.jpg
-    youtube: '4v8WkHmSFUU'
-  - title: Part 2
-    image: https://i.ytimg.com/vi/OlWm9Oh9bj8/sddefault.jpg
-    youtube: 'OlWm9Oh9bj8'
-  - title: Part 3
-    image: https://i.ytimg.com/vi/Y-BhEfbg7C4/sddefault.jpg
-    youtube: 'Y-BhEfbg7C4'
+youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
 ---
 
 This tutorial will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
@@ -75,8 +66,23 @@ If you are using a different executable or compiled with a different compiler th
 
 When you have found what you believe to be the main method, right click on the auto generated function name and select rename function.
 
+# Creating a new Struct
+Go to the `Data Type Manager` and right click the executable name, select `New -> Structure`.
+
+Give the structure a useful name and assign the struct's fields by clicking the green plus icon and selecting the data type for each field [^3].
+
+## How to apply the struct to code
+You can right click the first global variable that you know is the first field in the struct and select `Data -> Choose Data Type` , it will then ask you which struct you want to use.
+
+Note that if you get something similar to:
+```
+yourStructName.field0x4._0_1_
+```
+Then this means that at offset 0x4 in the struct we have an undefined field for the structure. 
+
 # References
 [^1]: [Software Reverse Engineering with Ghidra -- Setup and Installation - YouTube](https://www.youtube.com/watch?v=4v8WkHmSFUU)
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
 [^3]: [Software Reverse Engineering with Ghidra -- Creating Structures - YouTube](https://www.youtube.com/watch?v=Y-BhEfbg7C4)
+[^4]: [Software Reverse Engineering with Ghidra -- Creating Arrays and Changing Function Signatures - YouTube](https://www.youtube.com/watch?v=xP6ddyVeUWg&list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te&index=5)
 
