@@ -4,7 +4,7 @@
 {% for post in site.pages %}
 {% if post.permalink == include.post %}
 <blockquote>
-  <div class="widget-img">
+  <div class="widget-img" style="width:250px">
     <a href="{{ post.permalink }}">
       {% if post.image %}
         <img class="otherPostImg" src="{{ post.image }}" alt="">
