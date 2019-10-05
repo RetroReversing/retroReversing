@@ -17,7 +17,7 @@ breadcrumbs:
   - name: Wii U UnStripped Binaries (Developer Symbols)
     url: #
 recommend: wiiU
-editlink: /wii/WiiU UnStripped Binaries.md
+editlink: /wii/WiiUUnStrippedBinaries.md
 references:
   - youtube
 ---
