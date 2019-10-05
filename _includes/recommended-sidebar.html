@@ -1,7 +1,7 @@
 <!-- recommended-sidebar  -->
 {% if page.recommend %}
   <div class="widget widget-videos">
-    <h5 class="widget-title">Recommends</h5>
+    <h5 class="widget-title">{{ page.recommendTitle || "Recommends" }}</h5>
     <ul class="widget-list">
       {% if page.recommend.first %}
         {% for recommend in page.recommend %}
