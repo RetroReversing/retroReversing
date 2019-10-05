@@ -61,6 +61,7 @@ The Moonshell multimedia player allows you to play Movies right from your DS! Th
 ￼
 DSTwitter was a very simple twitter client for the Nintendo DS, it worked very well to read and even reply to tweets. Unfortunately as it only ever has support for basic Twitter authentication and no OAuth support, it no longer works as twitter removed basic auth in 2009 [^3].
 </div>
+</section>
 
 ## Original Games
 
