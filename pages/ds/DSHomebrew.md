@@ -32,7 +32,7 @@ If you are interested in browsing a full list of all DS homebrew developed then 
 ## DS-DSLR: Homebrew Nintendo DS remote for Canon DSLR
 ￼
 <section class="postSection">
-<img src="/public/images/ds/dsdslr.jpg" class="wow slideInLeft postImage" />
+<img src="/public/DS/dsdslr.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 Steve Chapman from Panocamera.com has built a very impressive homebrew application and hardware interface to connect his DSLR camera to his Nintendo DS [^2].
@@ -54,8 +54,13 @@ He has even managed to add voice recognition support to take a photo when he say
 The Moonshell multimedia player allows you to play Movies right from your DS! This was pretty huge in 2007 when having a portable way to watch videos was much less common [^1].
 
 ## DSTwitter - Twitter client
+<section class="postSection">
+<img src="/public/DS/Dstwitter.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 ￼
 DSTwitter was a very simple twitter client for the Nintendo DS, it worked very well to read and even reply to tweets. Unfortunately as it only ever has support for basic Twitter authentication and no OAuth support, it no longer works as twitter removed basic auth in 2009 [^3].
+</div>
 
 ## Original Games
 
