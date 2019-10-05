@@ -13,6 +13,34 @@ https://www.retroreversing.com/
 * [Game Console Hardware Architecture](https://www.retroreversing.com/harware/consoles)
 
 ---
+# Posts by Console
+
+## Nintendo
+* [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
+* [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
+* [Nintendo 64](https://www.retroreversing.com/n64/)
+* [Nintendo Gamecube (Dolphin)](https://www.retroreversing.com/gamecube/)
+* [Nintendo Wii](https://www.retroreversing.com/wii/)
+* [Nintendo 3DS](https://www.retroreversing.com/3ds/)
+* [Nintendo WiiU](https://www.retroreversing.com/wiiU/)
+
+## SEGA
+[Sega Master System](https://www.retroreversing.com/sms/)
+[Sega Mega Drive (Genesis)](https://www.retroreversing.com/md/)
+[Sega Saturn](https://www.retroreversing.com/saturn/)
+[Sega Dreamcast](https://www.retroreversing.com/dreamcast/)
+[Sega Game Gear](https://www.retroreversing.com/gamegear/)
+
+## Sony
+[Sony Playstation 1](https://www.retroreversing.com/ps1/)
+[Sony Playstation 2](https://www.retroreversing.com/ps2)
+[Sony Playstation Portable](https://www.retroreversing.com/psp/)
+
+## Microsoft
+[Microsoft Xbox](https://www.retroreversing.com/xbox/)
+[PC](https://www.retroreversing.com/pc/)
+
+---
 # Future Posts to be written
 If you are looking to contribute but don't know where to start here are a few examples of posts that are up for grabs.
 
