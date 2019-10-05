@@ -4,12 +4,12 @@
 {% for post in site.pages %}
 {% if post.permalink == include.post %}
 <blockquote>
-  <div class="widget-img" style="width:250px">
+  <div class="widget-img">
     <a href="{{ post.permalink }}">
       {% if post.image %}
-        <img class="otherPostImg" src="{{ post.image }}" alt="">
+        <img style="width:250px" class="otherPostImg" src="{{ post.image }}" alt="">
       {% else if post.youtube %}
-        <img class="otherPostImg" src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+        <img style="width:250px" class="otherPostImg" src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
       {% endif %}
     </a>
   </div>
