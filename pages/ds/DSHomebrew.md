@@ -31,6 +31,10 @@ If you are interested in browsing a full list of all DS homebrew developed then 
 
 ## DS-DSLR: Homebrew Nintendo DS remote for Canon DSLR
 ￼
+<section class="postSection">
+<img src="/public/images/ds/dsdslr.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Steve Chapman from Panocamera.com has built a very impressive homebrew application and hardware interface to connect his DSLR camera to his Nintendo DS [^2].
 
 The story goes that he grew tired of lugging around his heavy
@@ -40,6 +44,10 @@ using his DSLR camera and wanted to find a lighter solution [^1].
 It uses the Gameboy Advance cartridge slot to connect to the camera so has presumably created his own circuit board to convert the two data interfaces.
 
 He has even managed to add voice recognition support to take a photo when he says a word, saving hundreds of dollars on buying a retail solution for the task [^1].
+</div>
+</section>
+
+
 
 ## Moonshell Multimedia Player
 <iframe width="560" height="315" src="https://www.youtube.com/embed/emHmXPOb5Ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
