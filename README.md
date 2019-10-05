@@ -3,7 +3,7 @@ A curated list of awesome retro game development and reverse engineering resourc
 https://www.retroreversing.com/
 
 ---
-# Current collections of posts
+# Collections
 * [Games with Debug Symbols](https://www.retroreversing.com/games/symbols)
 * [Development Kits (Hardware)](https://www.retroreversing.com/hardware/devkits/)
 * [Software Development Kits](https://www.retroreversing.com/sdks)
@@ -13,7 +13,7 @@ https://www.retroreversing.com/
 * [Game Console Hardware Architecture](https://www.retroreversing.com/harware/consoles)
 
 ---
-# Posts by Console
+# Consoles
 
 ## Nintendo
 * [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
