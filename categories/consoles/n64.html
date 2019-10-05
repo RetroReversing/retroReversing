@@ -4,6 +4,7 @@ layout: blog-cards
 console: 'n64'
 title: 'Nintendo 64 (Project Reality)'
 consoleimage: /public/consoles/Nintendo 64.png
+thumbnail: /public/consoles/Nintendo 64.png
 breadcrumbs:
   - name: Home
     url: /
@@ -12,6 +13,13 @@ breadcrumbs:
   - name: Nintendo 64
     url: #
 ---
-<h1><img class="consolePageThumbnail" src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
----
+<h1>
+  <img class="consolePageThumbnail" src="{{ page.thumbnail }}" /> 
+  <span>{{ page.title }}</span>
+</h1>
+<div>
+  <p>The Nintendo 64 has only been fully reverse engineered recently with the work on understanding the new CIC chip installed in each game cartridge.
+  During the N64's lifetime there were various unlicenced devices that ignored the CIC chip such as game backup devices (e.g Bung's Dr V64), game cheat cartrdges (e.g Equalizer/Action Replay) and region unlockers (Passport Plus).
+  Most required a legitimate cartridge to be inserted into the back and used that for the CIC chip communication.</p>
+</div>
 {% include console.html %}
