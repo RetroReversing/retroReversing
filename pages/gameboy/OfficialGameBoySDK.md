@@ -23,6 +23,7 @@ editlink: /gameboy/OfficialGameBoySDK.md
 
 # Official GameBoy Software Development Kit
 The official gameboy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information on the development hardware check out this post." %}
 
 ## Download the SDK
 You can download the Japanese version of the Gameboy Color SDK from emuparadise here: 
