@@ -8,10 +8,17 @@ tags:
 - devkit
 - hardware
 thumbnail: /public/NintendoGameBoyThumb.png
-reccomend:
-  - gameboy
-  - devkit
 editlink: /gameboy/Original-Gameboy-(DMG)-Development-kit.md
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo Gameboy
+    url: /gameboy
+  - name: Gameboy (DMG & GBC) Development kit
+    url: #
+recommend: 
+- gameboy
+- devkit
 ---
 This post covers all the official hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development.
 
