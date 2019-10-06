@@ -34,6 +34,13 @@ The Integrated Circuit Emulator or ICE was developed for the original Gameboy (D
 
 ![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_4.jpg)
 
+## IS-CGB-EMU (Emulator)
+One example of the gameboy emulators sold by Intelligent systems is the `IS-CGB-EMU` (Intelligent Systems Colour GameBoy Emulator). A similar system was produced for the earlier DMG Gameboy System.
+
+The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
+
+<iframe src="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" width="100%"></iframe>
+
 ---
 # Demoing Tools
 Demoing tools are hardware that allowed pulishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
@@ -75,3 +82,4 @@ Gameboy Cartridge tools are used to write to writable cartridges known as flash 
 [^1]: Many of the Images are thanks to - [http://nintendoage.com/forum/messageview.cfm?catid=35&threadid=141667](http://nintendoage.com/forum/messageview.cfm?catid=35&threadid=141667) 
 [^2]: Board Images of the DMG-ICE - [https://assemblergames.com/threads/dmg-ice-gameboy-black-white-model-dev-kit.47995/](https://assemblergames.com/threads/dmg-ice-gameboy-black-white-model-dev-kit.47995/) 
 [^3]: [GB DEV FAQs](http://www.devrs.com/gb/files/faqs.html#ProSoftware)
+[^4]: [Intelligent Systems IS-CGB-EMULATOR Nintendo Game Boy Color Emulator](http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm)
