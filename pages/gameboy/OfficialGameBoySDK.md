@@ -15,13 +15,16 @@ breadcrumbs:
     url: /gameboy
   - name: Official Game Boy Software Development Kit (by Intelligent Systems)
     url: #
-recommend: gameboy
-editlink: /gameboy/PokemonRedBlue.md
+recommend: 
+- gameboy
+- sdk
+editlink: /gameboy/OfficialGameBoySDK.md
 ---
 
 # Official GameBoy Software Development Kit
 The official gameboy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
 
+## Download the SDK
 You can download the Japanese version of the Gameboy Color SDK from emuparadise here: 
 [https://www.emuparadise.me/sdk/](https://www.emuparadise.me/sdk/)
 
