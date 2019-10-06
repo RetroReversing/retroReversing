@@ -1,20 +1,20 @@
 ---
-title: Gameboy (DMG & GBC) Development kit
+title: Gameboy (DMG & GBC) Development Kit Hardware
 layout: post
-permalink: /original-gameboy-(dmg)-development-kit/
+permalink: /gameboy-development-kit-hardware/
 tags:
 - gameboy
 - nintendo
 - devkit
 - hardware
 thumbnail: /public/NintendoGameBoyThumb.png
-editlink: /gameboy/Original-Gameboy-(DMG)-Development-kit.md
+editlink: /gameboy/GameboyDevelopmentKitHardware.md
 breadcrumbs:
   - name: Home
     url: /
   - name: Nintendo Gameboy
     url: /gameboy
-  - name: Gameboy (DMG & GBC) Development kit
+  - name: Gameboy (DMG & GBC) Development Kit Hardware
     url: #
 recommend: 
 - gameboy
@@ -24,7 +24,7 @@ This post covers all the official hardware developers used to create games for t
 
 This post is split into a number of different sections:
 * Programming Tools
-* Demoing Tools
+* Presentation/Demo Tools
 * Cartridge Tools
 
 ---
@@ -59,8 +59,8 @@ The DMG-CAD (Character Development System) allowed designers/artists to preview 
 Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998. There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color.
 
 ---
-# Demoing Tools
-Demoing tools are hardware that allowed pulishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
+# Presentation/Demo Tools
+Demonstration tools are hardware that allowed pulishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
 
 ## Demo Boy II
 
