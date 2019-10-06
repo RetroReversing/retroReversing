@@ -49,20 +49,37 @@ With this repository you can do anything you ever dreamed of changing in the ori
 </section>
 
 # Game Development
-<section class="postSection">
-<img src="/public/pokemonBlueCircuit.png" class="wow slideInLeft postImage" />
-
-<div markdown="1">
 The game was developed by only 5 programmers at Game Freak and released in Japan in early 1996.
 
-However It took two and a half years to modify the original Japanese Pokemon red/green to the western Pokemon red/blue releases due to the memory limitations of the gameboy cartridge and english taking up more space than the Japanese text [^4]. So Pokemon names, dialog and even maps needed to be optimised to take up less space.
+However It took two and a half years to modify the original Japanese Pokemon red/green to the western Pokemon red/blue releases due to the memory limitations of the gameboy cartridge and english taking up more space than the Japanese text [^4]. 
 
+## Early Content
+<section class="postSection">
+<iframe  class="wow slideInLeft postImage" src="https://www.youtube.com/embed/y8byjH9skHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
 Of course as it was released in 1996 the development of the game goes back years before that, presumably to early 1990. The group `Helix Chamber` has released beta content for red/green to give an insight into the evolution of the designs of the Pokemon and maps [^6].
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y8byjH9skHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 </div>
 </section>
 
+## Development Tools
+
+### Official Development Hardware
+The developers were using an IBM PC running either MSDOS or Windows 95/NT as the DMG software development kit only runs on these systems. This would be paired with a `DMG-ICE` Debugger/Emulator that allowed the developers to test how the game ran on the real hardware.
+
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information about the DMG-ICE and other development hardware check out this post." %}
+
+### Software Development Kit
+It is very likely that Game Freak used the official Software Development kit provided by Intelligent Systems. This would give them the IS Assembler and Linker programs needed to build the game into a working rom.
+
+## Cartridge and Development Hardware
+<section class="postSection">
+<img src="/public/pokemonBlueCircuit.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Game was cut on to 2 megabyte cartridges meaning assets needed to be optimised or cut in order to fit everything on the cartridge. Thus was even more evident in the Western releases due to the english text being larger than the original Japanese [^4]. So Pokemon names, dialog and even maps needed to be optimised to take up less space.
+</div>
+</section>
+
+---
 # Assembling the source code
 <section class="postSection">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MmZJhLVH2vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
