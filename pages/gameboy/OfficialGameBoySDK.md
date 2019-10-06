@@ -1,22 +1,33 @@
 ---
-title: Official Game Boy Development Kit (by Intelligent Systems)
+title: Official Game Boy Software Development Kit (by Intelligent Systems)
 layout: post
-author: amorri40
-permalink: /official-gameboy-dev-kit/
+permalink: /official-gameboy-software-dev-kit/
 tags:
 - nintendo
 - gameboy
-collection: gameboy
-image: http://www.retroreversing.com/public/ZAgzBlXrARIEyn2KnTa4g_img_2.png
+- sdk
+image: /public/NintendoGameBoyThumb.png
 thumbnail: /public/NintendoGameBoyThumb.png
-published: true
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo Gameboy
+    url: /gameboy
+  - name: Official Game Boy Software Development Kit (by Intelligent Systems)
+    url: #
+recommend: gameboy
+editlink: /gameboy/PokemonRedBlue.md
 ---
 
-# Official GameBoy Color Software Development Kit
-You can download the Japanese version at emuparadise here: 
-- https://www.emuparadise.me/sdk/
+# Official GameBoy Software Development Kit
+The official gameboy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
+
+You can download the Japanese version of the Gameboy Color SDK from emuparadise here: 
+[https://www.emuparadise.me/sdk/](https://www.emuparadise.me/sdk/)
+
 I'm not sure there ever was an english version of the Official Intelligent Systems GameBoy Development Kit.
-if you needed support back in 2000 you could have emailed the official SDK support: DMG-Support@intsys.co.jp 
+
+If you needed support back in 2000 you could have emailed the official SDK support: `DMG-Support@intsys.co.jp`.
 
 ## Intelligent Systems Assembler (ISAS)
 To assemble your GameBoy source code into Z80 machine code you could use the official Nintendo (Intelligent Systems) assembler and linker, ISAS and ISLK respectively.
@@ -29,15 +40,13 @@ ISX is the format that the Assembler (ISAS) compiles the programs into, it is a 
 
 ---
 
-## Intelligent Systems ChAracter Designer (IS-CGB-CAD or DMG-CAD)
+## Intelligent Systems Character Designer (IS-CGB-CAD or DMG-CAD)
 The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy. 
 Its known as a Character development system.
 So I presume it stands for Intelligent Systems Character A??? Designer or Development
 
 ---
 ## Others
-* Mention of a DMG-ICE - Gameboy program development system [DMG-ICE] 
-
 ```
 IS-CGB-CHARACTER Documentation.7z  IS-CGB-SDK.7z
 IS-CGB-CAD.7z        IS-CGB-DEBUGGER.7z
@@ -47,6 +56,7 @@ IS-CGB-CHARACTER.7z  IS-CGB-EMULATOR.7z
 # Change History
 
 ### ISAS Change History
+The Intelligent System Assembler has evolved over time and this is the latest changelog available:
 ```
 10/26 ISAS 1.26
 · Unification of revisions
