@@ -37,7 +37,7 @@ editlink: /gameboy/PokemonRedBlue.md
 
 # Introduction
 <section class="postSection">
-<img src="//public/pokemonBlueCart.png" class="wow slideInLeft postImage" />
+<img src="/public/pokemonBlueCart.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 The Pokemon Reverse Engineering Team (PRET) have managed to pull off a marvellous achievement, they have fully reverse engineered Pokemon Red and Blue back into Z80 assembly code [^1].
@@ -55,7 +55,38 @@ With this repository you can do anything you ever dreamed of changing in the ori
 <div markdown="1">
 The game was developed by only 5 programmers at Game Freak and released in Japan in early 1996.
 
-However It took two and a half years to modify the original Japanese Pokemon red/green to the western Pokemon red/blue releases due to the memory limitations of the gameboy cartridge and english taking up more space than the Japanese text [^4]. So Pokemon names, dialog and even screens needed to be optimised to take up less space.
+However It took two and a half years to modify the original Japanese Pokemon red/green to the western Pokemon red/blue releases due to the memory limitations of the gameboy cartridge and english taking up more space than the Japanese text [^4]. So Pokemon names, dialog and even maps needed to be optimised to take up less space.
+
+Of course as it was released in 1996 the development of the game goes back years before that, presumably to early 1990. The group `Helix Chamber` has released beta content for red/green to give an insight into the evolution of the designs of the Pokemon and maps [^6].
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y8byjH9skHM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</section>
+
+# Assembling the source code
+<section class="postSection">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MmZJhLVH2vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div markdown="1">
+If you want to be able to assemble the source code back into the original rom you will need to download a few tools and of course the source code for the pokered project available here: [pret/pokered](https://github.com/pret/pokered/)
+
+It is generally easier to build the project on MacOSX or Linux but for windows you can use Cygwin. So if you are on windows make sure to download Cygwin or any other linux-like shell for windows.
+
+The first thing to download would be the assembler, this is what converts the source code from assembly language into machine code (the ROM). The pokered project is written for the `rgbds` assembler which you can download from: [https://github.com/rednex/rgbds](https://github.com/rednex/rgbds).
+You can download either the prebuilt binaries for win/linux or build it yourself by cloning the git project and running `sudo make install`.
+
+Now you should be able to use `rgbds` tools from the command line, so you can go to where you downloaded the pokered project and simply run `make`.
+
+If all goes well it will generate `pokered.gbc` and `pokeblue.gbc` whih are byte-identical versions of the retail ROMS! If it didn't go well check out the install instructions: [pokered/INSTALL.md · pret/pokered](https://github.com/pret/pokered/blob/6ba3765c5932996f5da6417ae703794ff10bb1cb/INSTALL.md)
+</div>
+</section>
+
+# Maps
+<section class="postSection">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tzr4Od68Gb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div markdown="1">
+In the pokered source code the maps are saved as `.blk` files, these files are small binary files and can be edited in a tool called `RBMap`.
 </div>
 </section>
 
@@ -66,4 +97,5 @@ However It took two and a half years to modify the original Japanese Pokemon red
 [^3]: [pokered/credits_text.asm at 6ba3765c5932996f5da6417ae703794ff10bb1cb · pret/pokered](https://github.com/pret/pokered/blob/6ba3765c5932996f5da6417ae703794ff10bb1cb/text/credits_text.asm)
 [^4]: [The Making of Pokemon Red, Green and Blue - YouTube](https://www.youtube.com/watch?v=0s3z1t5Li5A)
 [^5]: [An Exclusive Look At Pokémon’s Early Design Documents - YouTube](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)
+[^6]: [What Dreams May Come: Prototype Data for Pokémon Red and Green – Helix Chamber](https://helixchamber.com/2019/02/16/what-dreams-may-come/)
 
