@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: Mupen64+ Emulator Source Code Analysis
-image: /public/consoles/Nintendo 64.png
+image: /public/N64/N64LearnMIPSAssemblyLanguage.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /mupen64sourcecode
 breadcrumbs:
@@ -14,7 +14,7 @@ breadcrumbs:
   - name: Mupen64+ Emulator Source Code Analysis
     url: #
 recommend: n64
-editlink: /n64/Mupen64Mac.md
+editlink: /n64/Mupen64SourceCodeAnalysis.md
 ---
 
 # Introduction
