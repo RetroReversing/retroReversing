@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: Mupen64+ Emulator Source Code Analysis
-image: /public/N64/N64LearnMIPSAssemblyLanguage.jpg
+image: /public/N64/N64Mupen64SourceCodeAnalysis.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /mupen64sourcecode
 breadcrumbs:
