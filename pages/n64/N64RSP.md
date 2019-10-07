@@ -3,7 +3,7 @@ layout: post
 tags: 
 - n64
 title: N64 RSP - Reality Signal Processor
-image:  /public/consoles/Nintendo 64.png
+image:  /public/N64/N64RealitySignalProcessor.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
   - title: Video 1
