@@ -4,9 +4,10 @@ tags:
 - n64
 - tutorial
 - assembly
+- mips
 title: N64 MIPS Assembly Video Tutorials
 youtube: "m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA"
-image: /public/consoles/Nintendo 64.png
+image: /public/N64/N64LearnMIPSAssemblyLanguage.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 permalink: /N64MipsAssembly
 breadcrumbs:
@@ -22,7 +23,7 @@ editlink: /n64/N64MipsAssembly.md
 
 # Subscribe to Fraser N64!
 First of all in order to help support the creation of more excellent N64 MIPS tutorials, consider subscribing to Fraser here:
-[(219) Fraser N64 - YouTube](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w)
+[Fraser N64 - YouTube](https://www.youtube.com/channel/UC3tcfSES8CB45DmTbHhUP1w)
 
 # Watch live on twitch
 If you are lucky you can catch the stream live here: [fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
