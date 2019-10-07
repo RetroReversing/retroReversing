@@ -176,7 +176,7 @@ While changing these there is also a number of other modifications to do to the 
 
 Here is the new MakeFile:
 ```bash
-
+TODO: Get the contents of the file
 ```
 
 Notice you can now run `make` and it will try to create the ROM from the split sections, cool! 
