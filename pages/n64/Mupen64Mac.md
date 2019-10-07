@@ -139,19 +139,9 @@ Then run:
 brew link gettext --force
 ```
 
-So Finally we have a `libmupen64plus.dylib` with the  debugger enabled! Now what? How do we use it?!
+So Finally we have a `libmupen64plus.dylib` with the  debugger enabled! Now what? How do we use it?! Well first we need a few plugins to be compiled to be able to render graphics.
 
----
-## Building the Console Application
-You need to point APIDIR to the location of the core source code you checked out earlier.
-```
-make APIDIR=/../mupen64plus-core-master/src/api DEBUG=1 all
-```
-The console application is the simplest frontend for the emulator and it also has a very basic debugger in it.
-
-Now copy over the …
-
-# Compiling Glitch64
+### Compiling Glitch64
 In order to compile Glitch64 you will need to make sure you have boost installed, which you can do via brew like so:
 ```
 brew install boost
@@ -165,6 +155,18 @@ CFLAGS += $(OPTFLAGS) $(WARNFLAGS) -ffast-math -fno-strict-aliasing -fvisibility
 Now Glitch64 should be able to be compiled with `make`.
 
 ---
+### Building the Console Application
+Finally the Console Application is the last piece of the puzzle, this is what will actually execute the emulator, so when this is built we will be able to run games!
+
+You will need to point APIDIR to the location of the core source code you checked out earlier.
+```
+make APIDIR=/../mupen64plus-core-master/src/api DEBUG=1 all
+```
+The console application is the simplest frontend for the emulator and it also has a very basic debugger in it.
+
+Now copy over the plugins that you have built previously such as `glide64`.
+
+---
 # Running the emulator
 Now the run the emulator! The emulator comes with an example public domain rom file called `example.v64`, this ROM only seems to work with glide64 graphics for me. You can run it like so:
 ```
@@ -172,6 +174,7 @@ Now the run the emulator! The emulator comes with an example public domain rom f
 ```
 
 ## Running With Debugger
+You can run the emulator with the debugger enabled by passing a few extra parameters like so:
 ```
 ./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib --emumode 0 --noosd --verbose --debug ./example.v64
 ```
@@ -180,15 +183,14 @@ In debugger mode PC starts at 0xA4000040 (2751463488) with:
 ```
 mtc0 $zero,C0_CAUSE
 ```
-
 ---
-# GlideHQ
+
+# Mupen64+ Features
+
+## GlideHQ (Texture upscale)
 GlideHQ is a texture upscale for the Glide graphics emulator plugin. This uses a number of different upscaling algorithms to make textures look higher quality than the what the original hardware supported.
 
 GlideHq comes as part of the Mupen64+ Glide64 source code.
-
-# Glitch64
-Glitch64 is 
 
 ---
 
@@ -232,4 +234,3 @@ IPL2 is the PIF ROM?
 IPL3 is the first 1MB of CART?
 
 ### dd_controller
-￼
