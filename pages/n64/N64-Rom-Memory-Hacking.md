@@ -3,23 +3,22 @@ layout: post
 tags: 
 - n64
 - memory
-title: Paper Mario N64 Rom Memory Hacking
-published: true
+title: N64 Rom Memory Hacking (Paper Mario)
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "AxRmQ3bbe1Q"
-image: /public/OtJz1MlDMoYL7Wgc91mkg_img_0.png
-permalink: /paper-mario-n64-rom-memory-hacking/
+image: https://i.ytimg.com/vi/AxRmQ3bbe1Q/sddefault.jpg
+permalink: /n64-rom-memory-hacking/
 breadcrumbs:
   - name: Home
     url: /
   - name: Nintendo 64
     url: /n64
-  - name: Paper Mario N64 Rom Memory Hacking
+  - name: N64 Rom Memory Hacking (Paper Mario)
     url: #
-recommend: n64
-editlink: /n64/Paper-Mario-N64-Rom-Memory-Hacking.md
-source-id: 11Kwn0Lq3f7bPkCtwPdI5a_Z85r5tYl2Vr34a3p3rwu4
-published: true
+recommend: 
+- n64
+- memory
+editlink: /n64/N64-Rom-Memory-Hacking.md
 ---
 # Paper Mario Memory Hacking Basics
 
