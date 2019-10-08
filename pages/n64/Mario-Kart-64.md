@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Mario Kart 64
     url: #
 recommend: n64
-editlink: /n64/Mario-Kart-64-World-Viewer.md
+editlink: /n64/Mario-Kart-64.md
 ---
 
 # Introduction to Mario Kart 64
@@ -24,7 +24,7 @@ editlink: /n64/Mario-Kart-64-World-Viewer.md
 <img src="/public/games/Mario Kart 64 (USA).png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-Game was made by Nintendo EAD and was released in Europe on June 24th, 1997. 
+The Game was made by Nintendo EAD and was released in Europe on June 24th, 1997. 
 The development team consisted of 8 programmers under the lead of Masato Kimura, 7 artists under the direction of Visual Director Tadashi Sugiyama, Audio by Taro Bando and all being supervised by the producer Shigeru Miyamoto [^1].
 
 The source code is almost completely written in C and compiled with IDO C compiler (Unknown version).
@@ -35,8 +35,20 @@ The source code is almost completely written in C and compiled with IDO C compil
 ---
 
 # Documentation about Mario Kart 64
-* https://github.com/RenaKunisaki/mariokart64/wiki
+* [Home · RenaKunisaki/mariokart64 Wiki](https://github.com/RenaKunisaki/mariokart64/wiki)
 * [https://github.com/shygoo/mk64project](https://github.com/shygoo/mk64project) 
+
+## 2D Graphics & Rendering
+
+## Gameplay
+
+## Tracks/World
+
+## Objects
+
+## Sounds and Music
+
+## Text and Localisation
 
 ---
 
@@ -52,8 +64,10 @@ The project also contains documentation for the Mario Kart 64 rom file, specifyi
 
 You can view the project and even download the source code on github:
 
+## Mario Kart 64 Kart Viewer
+
 
 
 # References
-[^1]:-https://www.giantbomb.com/mario-kart-64/3030-10084/credits/
-[^2]:-http://shmuplations.com/mariokart64/
+[^1]:[Mario Kart 64 Credits - Giant Bomb](https://www.giantbomb.com/mario-kart-64/3030-10084/credits/)
+[^2]:[shmuplations.com](http://shmuplations.com/mariokart64/)
