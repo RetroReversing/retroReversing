@@ -21,7 +21,7 @@ editlink: /n64/Mario-Kart-64-World-Viewer.md
 
 # Introduction to Mario Kart 64
 <section class="postSection">
-<img src="/public/games/n64/Mario Kart 3D.png" class="wow slideInLeft postImage" />
+<img src="/public/games/n64/Mario Kart 64 (USA).png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 Game was made by Nintendo EAD and was released in Europe on June 24th, 1997. 
