@@ -9,8 +9,8 @@ tags:
 - projects
 - idtech3
 title: 007 Agent Under Fire for Nintendo Gamecube Reverse Engineering
+image: /public/images/gamecube/007 Agent Under Fire.jpg
 thumbnail: /public/consoles/Nintendo Gamecube.png
-image: /public/consoles/Nintendo Gamecube.png
 permalink: /007-agent-under-fire
 youtube: sdloBZ-NYwU
 breadcrumbs:
@@ -26,7 +26,7 @@ editlink: /gamecube/007 Agent Under Fire.md
 
 # Game Specs
  - Action Engine: ID Tech 3 engine
- - Driving Engine: Need for Speed engine?
+ - Driving Engine: Believed to be the Need for Speed engine
 
 # IDTech Engine
 Using id Tech 3 with ÜberTools
