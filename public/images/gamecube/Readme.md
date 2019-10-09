@@ -1,0 +1,1 @@
+Gamecube cover art
