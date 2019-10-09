@@ -30,9 +30,8 @@ The original arcade release was for the `ST-V` (Sega Titan Video Game System) ar
 
 This article will cover interesting finding from both the original arcade version and the various home ports.
 
----
 # Game Details
-Before getting into the technical side of reverse engineering we will cover a few important game details so that it's easier to understand the files that we are reverse engineering.
+Before getting into the technical side of reverse engineering we will cover a few important game details so that its easier to understand the files that we are reverse engineering.
 
 ## Enemies
 * Guesser Robot
@@ -46,349 +45,268 @@ Before getting into the technical side of reverse engineering we will cover a fe
 * Blade
 * Zapper
 
-## Levels
-7. Batcave
-
 ---
-# Development Environment
-We can data mine the Sega Saturn version to try to reconstruct what the development environment would be like for this version of the game. This will be a mix of assumptions and any facts we can get from the games themselves, we believe this is a pretty good approximation of what it would be like to view the source code of Batman Forever.
-
-## Hardware (Development Kits)
-For both the PS1 and the Sega Saturn version we know they used the PSYQ development kit which comes with a modified retail console and boards to connect it to a development PC.
-
-But it is likely they also owned the official development kits from Sega and Sony, which was a cartDev or P-Box for Saturn and a PS1 development board for Sony development.
-
-{% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
-
-{% include link-to-other-post.html post="/official-playStation-devkit" description="For the hardware side of the Sony Playstation Development Kit check out this post." %}
-
----
-# Game Assets
-
-## COD Files:
-* LEVEL10.COD
-* LEVEL9.COD
-* LEVEL8.COD
-* LEVEL7.COD
-* LEVEL6.COD
-* LEVEL5.COD
-* LEVEL4.COD
-* LEVEL3.COD
-* LEVEL2.COD
-* LEVEL1D.COD
-* LEVEL1C.COD
-* LEVEL1B.COD
-* LEVEL1A.COD
-
-## Palete Files (.PAL)
-
-## HI Files
-Seems to be compressed with RNC
-
-## Saturn Game Disc
-* /0
-* /0FLOOR.BIN
-* /0WALL.BIN
-* /ALA_BACK.BIN
-* /ALLGFX.BIN
-* /ALLYAGFX.BIN
-* /ALLYBGFX.BIN
-* /ALTHUG.ANM
-* /ALTHUG.COD
-* /ALTH_GFX.BIN
-* /BACK
-* /BACK/ALLEYA.BIN
-* /BACK/ALLEYA.LVS
-* /BACK/ALLEYA.PAL
-* /BACK/ALLEYB.BIN
-* /BACK/ALLEYB.LVS
-* /BACK/ALLEYB.PAL
-* /BACK/BATCAVE.BIN
-* /BACK/BATCAVE.LVS
-* /BACK/BATCAVE.PAL
-* /BACK/HOTEL.BIN
-* /BACK/HOTEL.LVS
-* /BACK/HOTEL.PAL
-* /BACK/LEVEL1A.BIN
-* /BACK/LEVEL1A.LVS
-* /BACK/LEVEL1A.PAL
-* /BACK/LEVEL1B.BIN
-* /BACK/LEVEL1B.LVS
-* /BACK/LEVEL1B.PAL
-* /BACK/LEVEL1C.BIN
-* /BACK/LEVEL1C.LVS
-* /BACK/LEVEL1C.PAL
-* /BACK/LEVEL1D.BIN
-* /BACK/LEVEL1D.LVS
-* /BACK/LEVEL1D.PAL
-* /BACK/LOWCAVE.BIN
-* /BACK/LOWCAVE.LVS
-* /BACK/LOWCAVE.PAL
-* /BACK/LSUBWAY.BIN
-* /BACK/LSUBWAY.LVS
-* /BACK/LSUBWAY.PAL
-* /BACK/TWOFACE.BIN
-* /BACK/TWOFACE.LVS
-* /BACK/TWOFACE.PAL
-* /BACK/USUBWAY.BIN
-* /BACK/USUBWAY.LVS
-* /BACK/USUBWAY.PAL
-* /BACK1D.BIN
-* /BANK1.COD
-* /BANK10.COD
-* /BANK11.COD
-* /BANK12.COD
-* /BANK13.COD
-* /BANK14.COD
-* /BANK2.COD
-* /BANK3.COD
-* /BANK4.COD
-* /BANK5.COD
-* /BANK6.COD
-* /BANK7.COD
-* /BANK8.COD
-* /BANK9.COD
-* /BATBOSS.BIN
-* /BATBOSS.COD
-* /BATSIG.DAT
-* /BONUS.BIN
-* /BONUS.COD
-* /BONUSPAL.BIN
-* /CAVEBACK.BIN
-* /CAVE_GFX.BIN
-* /CDDA1
-* /COMBO.DAT
-* /DOMIN.DAT
-* /FEATHER.ANM
-* /FEATHER.BIN
-* /FEATHER.COD
-* /FRONTEND
-* /FRONTEND/ACCLAIM.HI
-* /FRONTEND/BATFLC.BIN
-* /FRONTEND/BATHIGH.HI
-* /FRONTEND/BATLOGOA.HI
-* /FRONTEND/BATLOGOB.HI
-* /FRONTEND/BATM8.256
-* /FRONTEND/BATOP8.256
-* /FRONTEND/BATSIGNL.HI
-* /FRONTEND/CITY.HI
-* /FRONTEND/COMBO.HI
-* /FRONTEND/DCCOMIC.HI
-* /FRONTEND/DOM.HI
-* /FRONTEND/DRUGS2.HI
-* /FRONTEND/ENDGUYS.FLC
-* /FRONTEND/FOREVER2.FLC
-* /FRONTEND/GOTH.HI
-* /FRONTEND/IGUANA.HI
-* /FRONTEND/KO.HI
-* /FRONTEND/LEGAL.HI
-* /FRONTEND/LICENSE.HI
-* /FRONTEND/LOGO1.HI
-* /FRONTEND/MOBILE2.HI
-* /FRONTEND/MULTKOS.HI
-* /FRONTEND/OPT1.HI
-* /FRONTEND/OPT2.HI
-* /FRONTEND/OPT3.HI
-* /FRONTEND/OPT4.HI
-* /FRONTEND/PIC02.HI
-* /FRONTEND/RIBS8.256
-* /FRONTEND/ROBFLC.BIN
-* /FRONTEND/ROBHIGH.HI
-* /FRONTEND/SKYBACK.HI
-* /FRONTEND/TAIL.HI
-* /FRONTEND/THING.HI
-* /FRONTEND/TITGFX.BIN
-* /FRONTEND/VAULT.HI
-* /FRONTEND/WBROS.HI
-* /FRONTEND/WHEEL8.256
-* /FRONTEND/WING8.256
-* /FRONTEND.BIN
-* /GAME.BIN
-* /GUESS.BIN
-* /GUESSER.ANM
-* /GUESSER.COD
-* /HERO.DAT
-* /HOTELGFX.BIN
-* /INTRO1A.BIN
-* /LEVEL10.COD
-* /LEVEL1A.COD
-* /LEVEL1B.COD
-* /LEVEL1C.COD
-* /LEVEL1D.COD
-* /LEVEL2.COD
-* /LEVEL3.COD
-* /LEVEL4.COD
-* /LEVEL5.COD
-* /LEVEL6.COD
-* /LEVEL7.COD
-* /LEVEL8.COD
-* /LEVEL9.COD
-* /LV1B_GFX.BIN
-* /LV1D_GFX.BIN
-* /LVBC_BCK.BIN
-* /LVBC_GFX.BIN
-* /LVBC_MSC.BIN
-* /MASKS
-* /MASKS/1BMSK1.RAW
-* /MASKS/1BMSK2.RAW
-* /MASKS/1BMSK3.RAW
-* /MASKS/1BMSK4.RAW
-* /MASKS/HTMSK1.RAW
-* /MASKS/HTMSK2.RAW
-* /MASKS/NEWBTUBE.RAW
-* /MASKS/NEWFTUBE.RAW
-* /MASKS/NEWLITE.RAW
-* /NMEGFX.BIN
-* /RIDDLER.DAT
-* /RIDLEV.BIN
-* /SAB.ANM
-* /SAB.COD
-* /SAB_GFX.BIN
-* /SAFE.TEX
-* /SCORE.DAT
-* /SFX
-* /SFX/2FACE.SFX
-* /SFX/2FACEFG.SFX
-* /SFX/ALEYASEQ.SEQ
-* /SFX/ALEYASEQ.SFX
-* /SFX/ALLEYA.SFX
-* /SFX/ALLEYB.SFX
-* /SFX/ALWAYS1.SFX
-* /SFX/BACKEND1.SEQ
-* /SFX/BACKEND1.SFX
-* /SFX/BACKEND2.SEQ
-* /SFX/BACKEND2.SFX
-* /SFX/BATARANG.SFX
-* /SFX/BATBOLA.SFX
-* /SFX/BATCALL.SFX
-* /SFX/BONUS.SFX
-* /SFX/CAVESEQ.SEQ
-* /SFX/CAVESEQ.SFX
-* /SFX/COIN.SFX
-* /SFX/FEATHER.SFX
-* /SFX/FRONTEND.SFX
-* /SFX/GRAPPLE2.SFX
-* /SFX/GRENADE.SFX
-* /SFX/GUESSER.SFX
-* /SFX/HOTEL.SFX
-* /SFX/HOTELSEQ.SEQ
-* /SFX/HOTELSEQ.SFX
-* /SFX/LBATCAVE.SFX
-* /SFX/LEV1ASEQ.SEQ
-* /SFX/LEV1ASEQ.SFX
-* /SFX/LEV1BSEQ.SEQ
-* /SFX/LEV1BSEQ.SFX
-* /SFX/LEV1DSEQ.SEQ
-* /SFX/LEV1DSEQ.SFX
-* /SFX/LEVEL1A.SFX
-* /SFX/LEVEL1B.SFX
-* /SFX/LEVEL1C.SFX
-* /SFX/LEVEL1D.SFX
-* /SFX/RIDDSEQ.SEQ
-* /SFX/RIDDSEQ.SFX
-* /SFX/RIDLRPAD.SFX
-* /SFX/SABOTEUR.SFX
-* /SFX/SDDRVS.TSK
-* /SFX/SELECT.SEQ
-* /SFX/SELECT.SFX
-* /SFX/SPICE.SFX
-* /SFX/SUGAR.SFX
-* /SFX/TASER.SFX
-* /SFX/TASSLE.SFX
-* /SFX/TFACESEQ.SEQ
-* /SFX/TFACESEQ.SFX
-* /SFX/THEME.SEQ
-* /SFX/THEME.SFX
-* /SFX/THUG.SFX
-* /SFX/UBATCAVE.SFX
-* /SFX/USUBWAY.SFX
-* /SMP_ABS.TXT
-* /SMP_BIB.TXT
-* /SMP_CPY.TXT
-* /SPACE.DAT
-* /SPI_GFX.BIN
-* /STOLEN.DAT
-* /SUGAR.ANM
-* /SUGAR.COD
-* /SUG_GFX.BIN
-* /TASSLE.ANM
-* /TASSLE.BIN
-* /TASSLE.COD
-* /TFACENME.ANM
-* /TFACENME.COD
-* /TFGFX.BIN
-* /TWO2_GFX.BIN
-* /YINYANG.DAT
-
----
-## Source files
-From the Sega Saturn version of the game we can find a few full source file paths, also if we mix in data that is likely to be in the source tree we can piece together a folder tree that would be very similar to the original source code:
-* "C:\\BATMAN\\GAME\\ENEMYAI.C"
-* "C:\\BATMAN\\GAME\\EPROM\\ATTRACT.S"
-* "levels/hotel.c"
-* "/batman/game/enemy.h"
-* "/batman/game/enemyai.h"
-* "/batman/game/game.h"
-* "/batman/game/particle.h"
-* "/batman/game/script.h"
-* "/batman/game/objects.h"
-* "/batman/game/..\\gfx\\particle\\global.h",
-* "/batman/game/..\\gfx\\particle\\level1a.h"
-
-
-<div class="folder-browser">
-    <ul>
-        <li>C:\
-            <ul>
-                <li id="child_node_1">Batman
-                    <ul>
-                        <li>Game
-                            <ul>
-                                <li>Levels
-                                    <ul>
-                                        <li>hotel.c</li>
-                                    </ul>
-                                </li>
-                                <li>EPROM
-                                    <ul>
-                                        <li>attract.s</li>
-<li>libeprom.lib</li>
-                                    </ul>
-                                </li>
-                                <li>enemyai.c</li>
-                                <li>enemyai.h</li>
-                                <li>enemy.h</li>
-                                <li>particle.h</li>
-                                <li>script.h</li>
-                                <li>objects.h</li>
-                                <li>saturn.lnk</li>
-<li>game.cpe</li>
-<li>game.sym</li>
-<li>game.map</li>
-                            </ul>
-                        </li>
-                        <li>Gfx
-                            <ul>
-                                <li>Particle
-                                    <ul>
-                                        <li>global.h</li>
-                                        <li>level1a.h</li>
-                                        <li>enemy.h</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
+# Source files
+From the Sega Saturn version of the game we can find a few full source file paths:
+<div id="filelist1" markdown="1">
+* /BATMAN/GAME/ENEMYAI.C
+* /BATMAN/GAME/EPROM/ATTRACT.S
+* /batman/game/levels/hotel.c
+* /batman/game/enemy.h
+* /batman/game/enemyai.h
+* /batman/game/game.h
+* /batman/game/particle.h
+* /batman/game/script.h
+* /batman/game/objects.h
+* /batman/gfx/particle/global.h
+* /batman/gfx/particle/level1a.h
 </div>
 
-{% include folder-browser.html %}
+{% include folder-browser.html selector="#filelist1" %}
 
----
-## Object Files (Compiled C or ASM)
+
+
+## Saturn Game Disc
+<div id="filelistSaturn" markdown="1">
+* /BATMAN_COINOP/0
+* /BATMAN_COINOP/0FLOOR.BIN
+* /BATMAN_COINOP/0WALL.BIN
+* /BATMAN_COINOP/ALA_BACK.BIN
+* /BATMAN_COINOP/ALLGFX.BIN
+* /BATMAN_COINOP/ALLYAGFX.BIN
+* /BATMAN_COINOP/ALLYBGFX.BIN
+* /BATMAN_COINOP/ALTHUG.ANM
+* /BATMAN_COINOP/ALTHUG.COD
+* /BATMAN_COINOP/ALTH_GFX.BIN
+* /BATMAN_COINOP/BACK
+* /BATMAN_COINOP/BACK/ALLEYA.BIN
+* /BATMAN_COINOP/BACK/ALLEYA.LVS
+* /BATMAN_COINOP/BACK/ALLEYA.PAL
+* /BATMAN_COINOP/BACK/ALLEYB.BIN
+* /BATMAN_COINOP/BACK/ALLEYB.LVS
+* /BATMAN_COINOP/BACK/ALLEYB.PAL
+* /BATMAN_COINOP/BACK/BATCAVE.BIN
+* /BATMAN_COINOP/BACK/BATCAVE.LVS
+* /BATMAN_COINOP/BACK/BATCAVE.PAL
+* /BATMAN_COINOP/BACK/HOTEL.BIN
+* /BATMAN_COINOP/BACK/HOTEL.LVS
+* /BATMAN_COINOP/BACK/HOTEL.PAL
+* /BATMAN_COINOP/BACK/LEVEL1A.BIN
+* /BATMAN_COINOP/BACK/LEVEL1A.LVS
+* /BATMAN_COINOP/BACK/LEVEL1A.PAL
+* /BATMAN_COINOP/BACK/LEVEL1B.BIN
+* /BATMAN_COINOP/BACK/LEVEL1B.LVS
+* /BATMAN_COINOP/BACK/LEVEL1B.PAL
+* /BATMAN_COINOP/BACK/LEVEL1C.BIN
+* /BATMAN_COINOP/BACK/LEVEL1C.LVS
+* /BATMAN_COINOP/BACK/LEVEL1C.PAL
+* /BATMAN_COINOP/BACK/LEVEL1D.BIN
+* /BATMAN_COINOP/BACK/LEVEL1D.LVS
+* /BATMAN_COINOP/BACK/LEVEL1D.PAL
+* /BATMAN_COINOP/BACK/LOWCAVE.BIN
+* /BATMAN_COINOP/BACK/LOWCAVE.LVS
+* /BATMAN_COINOP/BACK/LOWCAVE.PAL
+* /BATMAN_COINOP/BACK/LSUBWAY.BIN
+* /BATMAN_COINOP/BACK/LSUBWAY.LVS
+* /BATMAN_COINOP/BACK/LSUBWAY.PAL
+* /BATMAN_COINOP/BACK/TWOFACE.BIN
+* /BATMAN_COINOP/BACK/TWOFACE.LVS
+* /BATMAN_COINOP/BACK/TWOFACE.PAL
+* /BATMAN_COINOP/BACK/USUBWAY.BIN
+* /BATMAN_COINOP/BACK/USUBWAY.LVS
+* /BATMAN_COINOP/BACK/USUBWAY.PAL
+* /BATMAN_COINOP/BACK1D.BIN
+* /BATMAN_COINOP/BANK1.COD
+* /BATMAN_COINOP/BANK10.COD
+* /BATMAN_COINOP/BANK11.COD
+* /BATMAN_COINOP/BANK12.COD
+* /BATMAN_COINOP/BANK13.COD
+* /BATMAN_COINOP/BANK14.COD
+* /BATMAN_COINOP/BANK2.COD
+* /BATMAN_COINOP/BANK3.COD
+* /BATMAN_COINOP/BANK4.COD
+* /BATMAN_COINOP/BANK5.COD
+* /BATMAN_COINOP/BANK6.COD
+* /BATMAN_COINOP/BANK7.COD
+* /BATMAN_COINOP/BANK8.COD
+* /BATMAN_COINOP/BANK9.COD
+* /BATMAN_COINOP/BATBOSS.BIN
+* /BATMAN_COINOP/BATBOSS.COD
+* /BATMAN_COINOP/BATSIG.DAT
+* /BATMAN_COINOP/BONUS.BIN
+* /BATMAN_COINOP/BONUS.COD
+* /BATMAN_COINOP/BONUSPAL.BIN
+* /BATMAN_COINOP/CAVEBACK.BIN
+* /BATMAN_COINOP/CAVE_GFX.BIN
+* /BATMAN_COINOP/CDDA1
+* /BATMAN_COINOP/COMBO.DAT
+* /BATMAN_COINOP/DOMIN.DAT
+* /BATMAN_COINOP/FEATHER.ANM
+* /BATMAN_COINOP/FEATHER.BIN
+* /BATMAN_COINOP/FEATHER.COD
+* /BATMAN_COINOP/FRONTEND
+* /BATMAN_COINOP/FRONTEND/ACCLAIM.HI
+* /BATMAN_COINOP/FRONTEND/BATFLC.BIN
+* /BATMAN_COINOP/FRONTEND/BATHIGH.HI
+* /BATMAN_COINOP/FRONTEND/BATLOGOA.HI
+* /BATMAN_COINOP/FRONTEND/BATLOGOB.HI
+* /BATMAN_COINOP/FRONTEND/BATM8.256
+* /BATMAN_COINOP/FRONTEND/BATOP8.256
+* /BATMAN_COINOP/FRONTEND/BATSIGNL.HI
+* /BATMAN_COINOP/FRONTEND/CITY.HI
+* /BATMAN_COINOP/FRONTEND/COMBO.HI
+* /BATMAN_COINOP/FRONTEND/DCCOMIC.HI
+* /BATMAN_COINOP/FRONTEND/DOM.HI
+* /BATMAN_COINOP/FRONTEND/DRUGS2.HI
+* /BATMAN_COINOP/FRONTEND/ENDGUYS.FLC
+* /BATMAN_COINOP/FRONTEND/FOREVER2.FLC
+* /BATMAN_COINOP/FRONTEND/GOTH.HI
+* /BATMAN_COINOP/FRONTEND/IGUANA.HI
+* /BATMAN_COINOP/FRONTEND/KO.HI
+* /BATMAN_COINOP/FRONTEND/LEGAL.HI
+* /BATMAN_COINOP/FRONTEND/LICENSE.HI
+* /BATMAN_COINOP/FRONTEND/LOGO1.HI
+* /BATMAN_COINOP/FRONTEND/MOBILE2.HI
+* /BATMAN_COINOP/FRONTEND/MULTKOS.HI
+* /BATMAN_COINOP/FRONTEND/OPT1.HI
+* /BATMAN_COINOP/FRONTEND/OPT2.HI
+* /BATMAN_COINOP/FRONTEND/OPT3.HI
+* /BATMAN_COINOP/FRONTEND/OPT4.HI
+* /BATMAN_COINOP/FRONTEND/PIC02.HI
+* /BATMAN_COINOP/FRONTEND/RIBS8.256
+* /BATMAN_COINOP/FRONTEND/ROBFLC.BIN
+* /BATMAN_COINOP/FRONTEND/ROBHIGH.HI
+* /BATMAN_COINOP/FRONTEND/SKYBACK.HI
+* /BATMAN_COINOP/FRONTEND/TAIL.HI
+* /BATMAN_COINOP/FRONTEND/THING.HI
+* /BATMAN_COINOP/FRONTEND/TITGFX.BIN
+* /BATMAN_COINOP/FRONTEND/VAULT.HI
+* /BATMAN_COINOP/FRONTEND/WBROS.HI
+* /BATMAN_COINOP/FRONTEND/WHEEL8.256
+* /BATMAN_COINOP/FRONTEND/WING8.256
+* /BATMAN_COINOP/FRONTEND.BIN
+* /BATMAN_COINOP/GAME.BIN
+* /BATMAN_COINOP/GUESS.BIN
+* /BATMAN_COINOP/GUESSER.ANM
+* /BATMAN_COINOP/GUESSER.COD
+* /BATMAN_COINOP/HERO.DAT
+* /BATMAN_COINOP/HOTELGFX.BIN
+* /BATMAN_COINOP/INTRO1A.BIN
+* /BATMAN_COINOP/LEVEL10.COD
+* /BATMAN_COINOP/LEVEL1A.COD
+* /BATMAN_COINOP/LEVEL1B.COD
+* /BATMAN_COINOP/LEVEL1C.COD
+* /BATMAN_COINOP/LEVEL1D.COD
+* /BATMAN_COINOP/LEVEL2.COD
+* /BATMAN_COINOP/LEVEL3.COD
+* /BATMAN_COINOP/LEVEL4.COD
+* /BATMAN_COINOP/LEVEL5.COD
+* /BATMAN_COINOP/LEVEL6.COD
+* /BATMAN_COINOP/LEVEL7.COD
+* /BATMAN_COINOP/LEVEL8.COD
+* /BATMAN_COINOP/LEVEL9.COD
+* /BATMAN_COINOP/LV1B_GFX.BIN
+* /BATMAN_COINOP/LV1D_GFX.BIN
+* /BATMAN_COINOP/LVBC_BCK.BIN
+* /BATMAN_COINOP/LVBC_GFX.BIN
+* /BATMAN_COINOP/LVBC_MSC.BIN
+* /BATMAN_COINOP/MASKS
+* /BATMAN_COINOP/MASKS/1BMSK1.RAW
+* /BATMAN_COINOP/MASKS/1BMSK2.RAW
+* /BATMAN_COINOP/MASKS/1BMSK3.RAW
+* /BATMAN_COINOP/MASKS/1BMSK4.RAW
+* /BATMAN_COINOP/MASKS/HTMSK1.RAW
+* /BATMAN_COINOP/MASKS/HTMSK2.RAW
+* /BATMAN_COINOP/MASKS/NEWBTUBE.RAW
+* /BATMAN_COINOP/MASKS/NEWFTUBE.RAW
+* /BATMAN_COINOP/MASKS/NEWLITE.RAW
+* /BATMAN_COINOP/NMEGFX.BIN
+* /BATMAN_COINOP/RIDDLER.DAT
+* /BATMAN_COINOP/RIDLEV.BIN
+* /BATMAN_COINOP/SAB.ANM
+* /BATMAN_COINOP/SAB.COD
+* /BATMAN_COINOP/SAB_GFX.BIN
+* /BATMAN_COINOP/SAFE.TEX
+* /BATMAN_COINOP/SCORE.DAT
+* /BATMAN_COINOP/SFX
+* /BATMAN_COINOP/SFX/2FACE.SFX
+* /BATMAN_COINOP/SFX/2FACEFG.SFX
+* /BATMAN_COINOP/SFX/ALEYASEQ.SEQ
+* /BATMAN_COINOP/SFX/ALEYASEQ.SFX
+* /BATMAN_COINOP/SFX/ALLEYA.SFX
+* /BATMAN_COINOP/SFX/ALLEYB.SFX
+* /BATMAN_COINOP/SFX/ALWAYS1.SFX
+* /BATMAN_COINOP/SFX/BACKEND1.SEQ
+* /BATMAN_COINOP/SFX/BACKEND1.SFX
+* /BATMAN_COINOP/SFX/BACKEND2.SEQ
+* /BATMAN_COINOP/SFX/BACKEND2.SFX
+* /BATMAN_COINOP/SFX/BATARANG.SFX
+* /BATMAN_COINOP/SFX/BATBOLA.SFX
+* /BATMAN_COINOP/SFX/BATCALL.SFX
+* /BATMAN_COINOP/SFX/BONUS.SFX
+* /BATMAN_COINOP/SFX/CAVESEQ.SEQ
+* /BATMAN_COINOP/SFX/CAVESEQ.SFX
+* /BATMAN_COINOP/SFX/COIN.SFX
+* /BATMAN_COINOP/SFX/FEATHER.SFX
+* /BATMAN_COINOP/SFX/FRONTEND.SFX
+* /BATMAN_COINOP/SFX/GRAPPLE2.SFX
+* /BATMAN_COINOP/SFX/GRENADE.SFX
+* /BATMAN_COINOP/SFX/GUESSER.SFX
+* /BATMAN_COINOP/SFX/HOTEL.SFX
+* /BATMAN_COINOP/SFX/HOTELSEQ.SEQ
+* /BATMAN_COINOP/SFX/HOTELSEQ.SFX
+* /BATMAN_COINOP/SFX/LBATCAVE.SFX
+* /BATMAN_COINOP/SFX/LEV1ASEQ.SEQ
+* /BATMAN_COINOP/SFX/LEV1ASEQ.SFX
+* /BATMAN_COINOP/SFX/LEV1BSEQ.SEQ
+* /BATMAN_COINOP/SFX/LEV1BSEQ.SFX
+* /BATMAN_COINOP/SFX/LEV1DSEQ.SEQ
+* /BATMAN_COINOP/SFX/LEV1DSEQ.SFX
+* /BATMAN_COINOP/SFX/LEVEL1A.SFX
+* /BATMAN_COINOP/SFX/LEVEL1B.SFX
+* /BATMAN_COINOP/SFX/LEVEL1C.SFX
+* /BATMAN_COINOP/SFX/LEVEL1D.SFX
+* /BATMAN_COINOP/SFX/RIDDSEQ.SEQ
+* /BATMAN_COINOP/SFX/RIDDSEQ.SFX
+* /BATMAN_COINOP/SFX/RIDLRPAD.SFX
+* /BATMAN_COINOP/SFX/SABOTEUR.SFX
+* /BATMAN_COINOP/SFX/SDDRVS.TSK
+* /BATMAN_COINOP/SFX/SELECT.SEQ
+* /BATMAN_COINOP/SFX/SELECT.SFX
+* /BATMAN_COINOP/SFX/SPICE.SFX
+* /BATMAN_COINOP/SFX/SUGAR.SFX
+* /BATMAN_COINOP/SFX/TASER.SFX
+* /BATMAN_COINOP/SFX/TASSLE.SFX
+* /BATMAN_COINOP/SFX/TFACESEQ.SEQ
+* /BATMAN_COINOP/SFX/TFACESEQ.SFX
+* /BATMAN_COINOP/SFX/THEME.SEQ
+* /BATMAN_COINOP/SFX/THEME.SFX
+* /BATMAN_COINOP/SFX/THUG.SFX
+* /BATMAN_COINOP/SFX/UBATCAVE.SFX
+* /BATMAN_COINOP/SFX/USUBWAY.SFX
+* /BATMAN_COINOP/SMP_ABS.TXT
+* /BATMAN_COINOP/SMP_BIB.TXT
+* /BATMAN_COINOP/SMP_CPY.TXT
+* /BATMAN_COINOP/SPACE.DAT
+* /BATMAN_COINOP/SPI_GFX.BIN
+* /BATMAN_COINOP/STOLEN.DAT
+* /BATMAN_COINOP/SUGAR.ANM
+* /BATMAN_COINOP/SUGAR.COD
+* /BATMAN_COINOP/SUG_GFX.BIN
+* /BATMAN_COINOP/TASSLE.ANM
+* /BATMAN_COINOP/TASSLE.BIN
+* /BATMAN_COINOP/TASSLE.COD
+* /BATMAN_COINOP/TFACENME.ANM
+* /BATMAN_COINOP/TFACENME.COD
+* /BATMAN_COINOP/TFGFX.BIN
+* /BATMAN_COINOP/TWO2_GFX.BIN
+* /BATMAN_COINOP/YINYANG.DAT
+</div>
+
+{% include folder-browser.html selector="#filelistSaturn" %}
+
+
+# Object Files (Compiled C or ASM)
 From the Sega Saturn port of the game there are a few references to the original names for some of the compiled object files:
 
 Name | Notes
@@ -419,15 +337,7 @@ levels\\usubway.obj |
 sound.obj | 
 
 ---
-## Build Process
-
-```
-Individual C source (.C) modules are compiled into SH2 (.OBJ) object modules by the program CCSH. This first calls the GNU C preprocessor CPPSH (in the C:\GNUSH2\BIN) then calling CC1SH on this output to produce SH2 assembly code, then finally calling ASSH (in C:\PSYQ) to assemble this into the final object format.
-```
-[^4]
-
----
-## Sega Saturn Libraries
+# Sega Saturn Libraries
 Also from the Sega Saturn version of the game we can see what libraries were linked into the main executable:
 * c:\\saturn\\lib\\libgcc.lib
 * c:\\saturn\\lib\\libc.lib
@@ -442,7 +352,7 @@ Also from the Sega Saturn version of the game we can see what libraries were lin
 
 
 ## libIguan.lib (Iguana Entertainment custom library)
-The Sega Saturn version of the game has a reference to a library file created by Iguana Entertainment (the developers of the port) called `c:\\igsatlib\\libiguan.lib`, it has the following symbols:
+The sega saturn version of the game has a reference to a library file created by Iguana Entertainment (the developers of the port) called `c:\\igsatlib\\libiguan.lib`, it has the following symbols:
 
 Symbol | Notes
 ---|---
@@ -537,6 +447,7 @@ Symbol | Notes
 
 ---
 # Sega Saturn Memory Symbols
+
 
 Address | Symbol | Notes
 ---|---|---
@@ -903,107 +814,6 @@ Address | Symbol | Notes
 060FB5A8 | GuesserCodeTORNADOIN | 
 060FB5C4 | GuesserSetupTORNADO | 
 060FB618 | AlThugSetupRUSH | 
-060FC??? | FEATHER_C_Throw3Feathers | 
-060FC55A | FEATHER_C_ThrowALLFeathers | 
-060FC574 | FEATHER_C_LaunchStick | 
-060FC57E | FEATHER_C6_HandSlaps | 
-060FC592 | FEATHER_C6_SlideSlap | 
-060FC5A8 | FEATHER_C6_SlideSlapSPIN | 
-060FC5BC | GUESSER3_InfoTable | 
-060FC5C0 | FEATHER_SFX_BlockRetal | 
-060FC5CC | GuesserBoundBoxes | 
-060FC5D2 | FEATHER_SFX_BatmanTaunt | 
-060FC5EA | FEATHER_SFX_RobinTaunt | 
-060FC602 | FEATHER_SFX_EndOfBeingComboedByBatman | 
-060FC604 | GuesserModeTable | 
-060FC60E | FEATHER_SFX_EndOfBeingComboedByRobin | 
-060FC61A | FEATHER_SFX_GetOutOfStunned | 
-060FC628 | Feather1FxPalette | 
-060FC638 | Feather2FxPalette | 
-060FC648 | Feather3FxPalette | 
-060FC658 | FeatherSetupTable | 
-060FC68C | FEATHER1_ComboSet1 | 
-060FC69C | FEATHER1_ComboSet2 | 
-060FC6AC | FEATHER1_Stats | 
-060FC708 | FEATHER1_AIScript | 
-060FC720 | FEATHER1_InfoTable | 
-060FC730 | FEATHER2_ComboSet1 | 
-060FC740 | FEATHER2_ComboSet2 | 
-060FC750 | FEATHER2_ComboSet3 | 
-060FC760 | FEATHER2_ComboSet6 | 
-060FC770 | FEATHER2_Stats | 
-060FC7CC | FEATHER2_AIScript | 
-060FC7F8 | FEATHER2_InfoTable | 
-060FC808 | FEATHER3_ComboSet1 | 
-060FC818 | FEATHER3_ComboSet2 | 
-060FC828 | FEATHER3_ComboSet3 | 
-060FC838 | FEATHER3_ComboSet4 | 
-060FC848 | FEATHER3_ComboSet5 | 
-060FC858 | FEATHER3_ComboSet6 | 
-060FC868 | FEATHER3_ComboSet7 | 
-060FC878 | FEATHER3_Stats | 
-060FC8D4 | FEATHER3_AIScript | 
-060FC928 | FEATHER3_InfoTable | 
-060FC938 | FeatherBoundBoxes | 
-060FC954 | FeatherModeTable | 
-060FCC94 | GuesserBitList | 
-060FCD44 | ExplodeGuesserOffsetScript | 
-060FCD78 | GuesserHeadBox | 
-060FD014 | FeatherAngles | 
-060FD02C | FeatherAttackBox | 
-060F???? | ALTHUG_C5_SpinKickEnd | 
-060FBADC | ALTHUG_C6_MadPunch | 
-060FBAEC | GuesserHitPlayer | 
-060FBAF0 | ALTHUG_C6_SpinKicksCity | 
-060FBAFE | ALTHUG_C8_Neillcombo | 
-060FBB08 | StartFeatherParticle | 
-060FBB16 | ALTHUG_C7_GRABcombo | 
-060FBB2C | AlThugFxPalette1 | 
-060FBB3C | AlThugFxPalette2 | 
-060FBB4C | AlThugFxPalette3 | 
-060FBB5C | AlthugSetupTable | 
-060FBB90 | ALTHUG1_ComboSet1 | 
-060FBBB0 | ALTHUG1_Stats | 
-060FBC0C | ALTHUG1_AIScript | 
-060FBC20 | ALTHUG1_InfoTable | 
-060FBC30 | ALTHUG2_ComboSet1 | 
-060FBC40 | ALTHUG2_Stats | 
-060FBC80 | EnemyFire_DrawFeatherStick | 
-060FBC9C | ALTHUG2_AIScript | 
-060FBCAC | EnemyFire_UpdateFeatherStick | 
-060FBCB0 | ALTHUG2_InfoTable | 
-060FBCC0 | ALTHUG3_ComboSet1 | 
-060FBCE8 | ALTHUG3_ComboSet2 | 
-060FBCF8 | ALTHUG3_Stats | 
-060FBD44 | PlayerHitGuesser | 
-060FBD54 | ALTHUG3_AIScript | 
-060FBD74 | ALTHUG3_InfoTable | 
-060FBD84 | AlThugBoundBoxes | 
-060FBDA0 | AlThugModeTable | 
-060FBE30 | GuesserHitEnemy | 
-060FBEE0 | GuesserHitObject | 
-060FBF9C | ExplodeGuesserHead | 
-060FBFBC | GuesserCode | 
-060FC080 | GuesserHeadHitPlayer | 
-060FC148 | PlayerHitGuesserHead | 
-060FC16C | Guesser1FxPalette | 
-060FC17C | Guesser2FxPalette | 
-060FC18C | Guesser3FxPalette | 
-060FC19C | GUESSER_C_ElecLaunchFist | 
-060FC1A8 | GUESSER_C_GrabLaunchFist1 | 
-060FC1C8 | GUESSER_C_TornadoHomeIn |
-
-## Sega Saturn Entry Point
-The Code Entry point is `$600d000` which is presumably `exec.obj`.
-
-## Sega Saturn Overlays
-* GameOVR6.ctors GameOVR6.dtors
-* GameOVR7.text
-* ENEMY2.ctors ENEMY2.dtors ENEMY2.data ENEMY2.text
-* ENEMY3.ctors ENEMY3.data ENEMY3.bss
-* ENEMY5.ctors ENEMY5.dtors ENEMY5.data ENEMY5.bss
-* ENEMY6.data ENEMY6.ctors ENEMY6.dtors
-* ENEMY7.data ENEMY7.bss ENEMY7.ctors
 
 
 # Game Programmers
@@ -1035,13 +845,8 @@ Contains a few different executables:
 Note for FrontEnd.exe you need to set IDA Pro to MS-DOS executable (Not the default LinearExecutable and Pentium 4 processor). But for BM1.EXE stick to LinearExecutable.
 
 ---
-# Differences is Region Versions?
-Since some of the data in the Saturn executable is leftover memory, then it is possible to have different memory leaked into the executable depending on which region the game was compiled for, as they were compiled t different times.
-
----
 # References
 [^1]: [Gamasutra - Obituary: Game Programming Veteran Carl Wade](https://www.gamasutra.com/view/news/128680/Obituary_Game_Programming_Veteran_Carl_Wade.php)
 [^2]: [Batman Forever sega st-v cart. by Acclaim Coin-Operated Ent., Inc. (1996)](https://www.arcade-history.com/?n=batman-forever&page=detail&id=191)
 [^3]: [PSX Longplay [340] Batman Forever The Arcade Game - YouTube](https://www.youtube.com/watch?v=LJvrHS-kKZU)
-[^4]: http://cowboyprogramming.com/2010/06/03/1995-programming-on-the-sega-saturn/
-[^5]: [Sega Saturn Vs PlayStation - Batman Forever: The Arcade Game - YouTube](https://www.youtube.com/watch?v=WWz2nScv22g)
+[^4]: [Sega Saturn Vs PlayStation - Batman Forever: The Arcade Game - YouTube](https://www.youtube.com/watch?v=WWz2nScv22g)
