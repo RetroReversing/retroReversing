@@ -9,7 +9,7 @@ title: Datel Action Replay Professional (N64)
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "Gq8VQBKBKqI"
-image: /public/sicxZRNfuwPDLZTJMduj6w_img_0.png
+image: /public/images/actionreplay/ActionReplayViewer.jpg
 permalink: /datel-action-replay-professional/
 breadcrumbs:
   - name: Home
@@ -25,7 +25,7 @@ editlink: /n64/Datel-Action-Replay-Professional.md
 
 ## V-Ram functionality
 
-![image alt text]({{ site.url }}/public/sicxZRNfuwPDLZTJMduj6w_img_0.png)
+![image alt text]({{ site.url }}/public/images/actionreplay/ActionReplayViewer.jpg)
 
 You could press a "Freeze button" on the Action Replay to “see images not normally visible during playing of the game”. The video seems to be showing different render frames from the game Top Gear Overdrive.
 
