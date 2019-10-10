@@ -48,10 +48,6 @@ Gerry_MAN has taken some excellent photos of his NUS-SUD on Twitter along with p
 The full n64 development kit was used by Sound designer Grant Kirkhope at Rare to produce masterpieces such as Banjo-Kazooie and GoldenEye. This consisted of a Silicon Graphics Indy with the N64 hardware used as an extension inside it [^2].
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hmmm I don’t think I did. I had a Silicon Graphics Indy computer with the Ultra 64 circuit board inside it. I connected my PC to it via midi</p>&mdash; Grantilda Von Scarehope (@grantkirkhope) <a href="https://twitter.com/grantkirkhope/status/1182160711377506304?ref_src=twsrc%5Etfw">October 10, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-```
-I had a Silicon Graphics Indy computer with the Ultra 64 circuit board inside it. I connected my PC to it via midi
-```
-
 # References
 [^1]: [EDGE 20 1995-05](https://archive.org/stream/EDGE.N020.1995.05/EDGE.N020.1995.05-Escapade#page/n7/mode/2up/search/%22SN+Systems%22)
 [^2]: [Gerry_MAN on Twitter](https://twitter.com/GerryRobotics/status/1182083779915071498)
