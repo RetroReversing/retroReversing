@@ -15,7 +15,9 @@ breadcrumbs:
     url: /ps1
   - name: Official PlayStation 1 Development Kit (Hardware)
     url: #
-recommend: ps1
+recommend: 
+  - devkit
+  - ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
 videocarousel:
   - title: DTL-H2000 Official PlayStation Development System
