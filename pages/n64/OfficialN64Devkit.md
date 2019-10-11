@@ -13,7 +13,6 @@ videocarousel:
   - title: 
     image: http://img.youtube.com/vi/Z45nbzMLk98/hqdefault.jpg
     youtube: Z45nbzMLk98
-youtube: "Z45nbzMLk98"
 image: /public/magazine/EDGE_20_SGI_Onyx.png
 permalink: /official-n64-devkit/
 breadcrumbs:
@@ -51,9 +50,7 @@ The earliest mention of the SGI Onyx being used as an early development kit for 
 
 
 ## Nintendo 64 Development Unit (IRIX workstations)
-
 <section class="postSection">
-￼
 <img src="/public/N64/sgiDevkit.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
@@ -69,10 +66,8 @@ This has the benefit of not using any workstation hardware resources to run the 
 
 
 ### N64 hardware add-on board (Nintendo 64 Development Board)
-
 <section class="postSection">
     <img src="/public/N64/n64AddOnInternals.jpg" class="wow slideInLeft postImage" />
-￼
 <div markdown="1">
 The add-on board slips into the SGI Indy workstations case and has pretty much all the hardware from a retail console, with a few changes to allow the communication between the IRIX operating system and the hardware.
 
@@ -81,10 +76,8 @@ The add-on board slips into the SGI Indy workstations case and has pretty much a
 
 
 ### N64 Hardware Connectivity
-
 <section class="postSection">
     <img src="/public/N64/SGI_Indy_card_back.jpg" class="wow slideInLeft postImage" />
-￼
 <div markdown="1">
 You can see the standard SNES/N64 A/V out socket in the back on the Indy, apart from this the connectivity was very sparse. The controllers connected via another bit of hardware and are not on the add-on board at all.
 
@@ -111,7 +104,6 @@ The SDK that comes with the Partner-N64PC was provided by Metrowerks (Codewarrio
 
 <section class="postSection">
     <img src="/public/N64/PARTNER-1J 64.jpg" class="wow slideInLeft postImage" />
-￼
 <div markdown="1">
 The `Debugger Pak` was used by both Partner-N64PC and Partner-N64NW, it functioned similarly to the standard `Game Pak` but were longer and had the connection port at the top for connecting to the PC. This allowed full debugging support such as breakpoints and stack traces to be used.
 </div>
@@ -124,13 +116,12 @@ The `Debugger Pak` was used by both Partner-N64PC and Partner-N64NW, it function
 
 <section class="postSection">
     <img src="/public/N64/PARTNER7IF7I!.jpg" class="wow slideInLeft postImage" />
-￼
 <div markdown="1">
 The ISA card was a small add-on card that could be slotted a the standard PC's ISA bus slot and contained just enough hardware to allow communication over the port. 
 
 The ISA card comes as part of the Partner-N64PC pack but you could also buy a PCI version separately for $350 [^13].
 
-Notice that there are DIP switches at the top of the board that need to be confined before installing to make that the I/O addresses for communication match the PC.
+Notice that there are DIP switches at the top of the board that need to be configured before installing to make sure that the I/O addresses for communication match the PC.
 </div>
 </section>
 
@@ -138,12 +129,11 @@ Notice that there are DIP switches at the top of the board that need to be confi
 ## Modified N64 (Control Deck Assembly)
 <section class="postSection">
     <img src="/public/N64/N64KMCModified.jpg" class="wow slideInLeft postImage" />
-￼
 <div markdown="1">
 
 In order to use the Partner64 the retail N64 console hardware had to be modified, these normally came with the development kit when you bought the Partner64 or you could buy a separate one for about $200 [^13].
 
-Ultra64.ca has an excellent tutorial which shows you how to create YOUR OWN Partner N64 development kit for home-brew development, very cool! It is available here: [Make your own Partner N64 console, for use with IS Viewer : Nintendo (Ultra) 64](https://ultra64.ca/tutorials/make-your-own-partner-n64-console-for-use-with-is-viewer/)
+Ultra64.ca has an excellent tutorial which shows you how to *create your own* Partner N64 development kit for home-brew development, very cool! It is available here: [Make your own Partner N64 console, for use with IS Viewer : Nintendo (Ultra) 64](https://ultra64.ca/tutorials/make-your-own-partner-n64-console-for-use-with-is-viewer/)
 
 </div>
 </section>
@@ -151,7 +141,7 @@ Ultra64.ca has an excellent tutorial which shows you how to create YOUR OWN Part
 ### Usage of Partner64
 The official Partner64 development kit was quite popular and used both inside and outside of Nintendo.
 
-Here is a list of games that still contain KMC Partner64 debug code thanks to a Pastebin by ZOINKITY [^8]:
+Here is a list of games that still contain KMC Partner64 debug code thanks to a Pastebin by user `ZOINKITY` [^8]:
 1. KMC\0   1080 TenEighty Snowboarding
 2. KMC\0   64 Oozumou 2
 3. KMC\0   64 Trump Collection - Alice no Wakuwaku Trump World
@@ -230,7 +220,7 @@ The main benefit of the IS-Viewer64 over alternative flash carts available to de
 ### Usage of IS-Viewer64
 The IS-Viewer 64 was used to develop the two Zelda games (Oracle of Time, Majoras Mask) and still contains some code to write out debug messages to a connected PC on the retail ROM [^5].
 
-Here is a list of games that still contain IS64 debug code thanks to a Pastebin by ZOINKITY [^8]:
+Here is a list of games that still contain IS64 debug code thanks to a Pastebin by user `ZOINKITY` [^8]:
 1. Castlevania / Akumajou Dracula Mokushiroku - Real Action Adventure
 2. Dance Dance Revolution - Disney Dancing Museum
 3. Ganbare Goemon - Neo Momoyama Bakufu no Odori / Mystical Ninja Starring Goemon
