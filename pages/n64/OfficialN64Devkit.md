@@ -100,6 +100,8 @@ The Partner-N64PC was another full official development kit by KMC (Kyoto Microc
 
 The SDK that comes with the Partner-N64PC was provided by Metrowerks (Codewarrior).
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fun Fact! The official Nintendo <a href="https://twitter.com/hashtag/N64Dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64Dev</a> Kit released by Kyoto Microcomputer, was called the &quot;PARTNER-N64&quot;. The Kit was actually available in two versions. One for Windows PC, and the second for the SGI INDY. This was KuC&#39;s way of attracting Game Studios using SGI INDY equipment. <a href="https://t.co/mLfbZRFZeH">pic.twitter.com/mLfbZRFZeH</a></p>&mdash; Gerry_MAN (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1141180836198408192?ref_src=twsrc%5Etfw">June 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Partner-N64 Debugger Pak 
 
 <section class="postSection">
