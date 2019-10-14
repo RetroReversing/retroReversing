@@ -10433,6 +10433,9 @@ figure {
   }
 
   .rr-twitter {
-    width:20%
+    width:20%;
+    margin-top:-100px;
+    background-color: #292F33;
+    margin-bottom: -30px;
   }
 }
