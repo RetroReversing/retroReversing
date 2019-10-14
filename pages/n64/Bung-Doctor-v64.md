@@ -9,7 +9,7 @@ title: Bung Doctor v64 (N64)
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "8Za3DNGeP5Y"
-image: https://img.youtube.com/vi/8Za3DNGeP5Y/hqdefault.jpg
+image: https://i.ytimg.com/vi/8Za3DNGeP5Y/hqdefault.jpg
 permalink: /Bung-Doctor-v64/
 breadcrumbs:
   - name: Home
