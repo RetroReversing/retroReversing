@@ -10439,3 +10439,7 @@ figure {
     margin-bottom: -30px;
   }
 }
+
+.owl-carousel .owl-stage-outer {
+	max-height: 65vh;
+}
