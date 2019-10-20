@@ -31,7 +31,7 @@ Its this attention to hawrdware detail which makes developing an emulator a very
 # Game Console Architecture 
 The table below contains the information we have collected about the hardware architecture of each games console.
 
-Platform Name | Game Engine List
+Platform Name | Page
 ---|---
 Nintendo 64 | [Nintendo 64 Hardware Architecture](https://www.retroreversing.com/n64-hardware-architecture/)
 Nintendo Gamecube | [Gamecube Architecture](https://www.retroreversing.com/gamecube-architecture)
