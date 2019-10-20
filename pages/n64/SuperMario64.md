@@ -3,23 +3,23 @@ layout: post
 tags: 
 - n64
 - worldeditor
-title: Super Mario 64 World Editing
-source-id: 1K0N3kLqVv-GdoHrWNNGtomd1CAFomHlG0-Ugi_AUCec
-published: true
+title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "4d5OsHRo7Nc"
 image: /public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png
-permalink: /mario-64-world/
+permalink: /super-mario-64/
 breadcrumbs:
   - name: Home
     url: /
   - name: Nintendo 64
     url: /n64
-  - name: Super Mario 64 World Editing
+  - name: Super Mario 64
     url: #
 recommend: n64
+editlink: /n64/SuperMario64.md
 ---
-# Super Mario 64 World Editing
+
+## Super Mario 64 World Editing
 
 ![image alt text]({{ site.url }}/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png)
 
