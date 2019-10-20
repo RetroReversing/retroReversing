@@ -25,15 +25,28 @@ editlink: /n64/N64HardwareArchitecture.md
 <section class="postSection">
 <img src="/public/N64/NUS- CPU -01.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
+The Nintendo 64 hardware brought incredible processing power into players homes with its 64-bit architecture and state of the art graphics.
 
-The custom chips inside the N64 tend of have the suffix `NUS` which stands for Nintendo Ultimate SixtyFour.
+In order to pull this off Nintendo worked with SGI and a number of manufacturers to develop a PCB that would not only deliver power but would also be affordable to the average consumer.
+
+The custom chips inside the N64 all have the suffix `NUS` which stands for Nintendo Ultra Sixtyfour.
 
 </div>
 </section>
 
 ## CPU (CPU-NUS A) (9726XK053)
+<section class="postSection">
+    <img src="/public/N64/Nintendo64-CPU-NUS.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+
 The CPU was called the `VR4300` which was a derivative of the 64-bit MIPS R4300i, it developed by a partnership between SGI and Nintendo and manufactured by NEC [^1]. 
+
 It ran at 93.75MHz and has an onboard 24 KB L1 cache [^2].
+
+</div>
+</section>
+
 
 ## RCP-NUS (Reality Co-processor) (9727EK078)
 <section class="postSection">
@@ -64,7 +77,14 @@ It also was used for security to region-lock and prevent piracy, it does this by
 It was designed by Nintendo but manufactured by Sharp.
 
 ## Nintendo RDRAM18-NUS (9727LU641)
+<section class="postSection">
+    <img src="/public/N64/Nintendo64-RDRAM18-NUS.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 The RDRAM came as a standard 4MB  and was manufactured by NEC, you could get an additional 4MB if you used the Expansion Pak [^1].
+
+</div>
+</section>
 
 
 ## MX8330MC (Main Clock)
