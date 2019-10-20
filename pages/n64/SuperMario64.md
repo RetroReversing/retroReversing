@@ -31,7 +31,9 @@ The source code is almost completely written in C and compiled with IDO C compil
 </div>
 </section>
 
-## Super Mario 64 World Editing
+## Modding Tools
+
+### Super Mario 64 World Editing
 <section class="postSection">
 <img src="/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png" class="wow slideInLeft postImage" />
 
@@ -42,6 +44,19 @@ You can use the program called "Toad's Tool" to edit the 3D worlds for the game 
 Also contains basic functionality for texture editing.
 </div>
 </section>
+
+## Decompilation
+Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
+
+The project can be rebuilt with the correct version of the IDO C compiler through QEMU-IRIX to produce a byte-identical ROM of the retail game for both North America and Japan. 
+
+This allows anyone with basic c-knowledge to hack around and change core gameplay elements, make the game easier/harder/add new mechanics etc.
+
+### Introduction to the Decompilation project
+Mountainflaw has released a tutorial that covers the basics of the Decompilation project and is the best way to get started for newcomers:
+[Introduction to Super Mario64 Decomp](https://mountainflaw.github.io/assets/page/intro.html)
+
+---
 
 # References
 [^1]: [Super Mario 64 Credits](https://nintendo.fandom.com/wiki/Super_Mario_64/credits#)
