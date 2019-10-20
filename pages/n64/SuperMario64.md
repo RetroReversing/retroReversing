@@ -19,7 +19,7 @@ recommend: n64
 editlink: /n64/SuperMario64.md
 ---
 
-## Introduction to Super Mario 64
+# Introduction to Super Mario 64
 <section class="postSection">
 <img src="/public/N64/SuperMario64(USA).png" class="wow slideInLeft postImage" />
 
@@ -31,9 +31,9 @@ The source code is almost completely written in C and compiled with IDO C compil
 </div>
 </section>
 
-## Modding Tools
+# Modding Tools
 
-### Super Mario 64 World Editing
+## Super Mario 64 World Editing
 <section class="postSection">
 <img src="/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png" class="wow slideInLeft postImage" />
 
@@ -45,14 +45,15 @@ Also contains basic functionality for texture editing.
 </div>
 </section>
 
-## Decompilation
+---
+# Decompilation
 Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
 
 The project can be rebuilt with the correct version of the IDO C compiler through QEMU-IRIX to produce a byte-identical ROM of the retail game for both North America and Japan. 
 
 This allows anyone with basic c-knowledge to hack around and change core gameplay elements, make the game easier/harder/add new mechanics etc.
 
-### Introduction to the Decompilation project
+## Introduction to the Decompilation project
 Mountainflaw has released a tutorial that covers the basics of the Decompilation project and is the best way to get started for newcomers:
 [Introduction to Super Mario64 Decomp](https://mountainflaw.github.io/assets/page/intro.html)
 
