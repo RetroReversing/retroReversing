@@ -33,6 +33,7 @@ The table below contains the information we have collected about the hardware ar
 
 Platform Name | Game Engine List
 ---|---
+Nintendo 64 | [Nintendo 64 Hardware Architecture](https://www.retroreversing.com/n64-hardware-architecture/)
 Nintendo Gamecube | [Gamecube Architecture](https://www.retroreversing.com/gamecube-architecture)
 Sega Saturn | [Sega Saturn Hardware Architecture](https://www.retroreversing.com/saturn-architecture)
 Sony Playstation | [PlayStation Hardware Architecture](https://www.retroreversing.com/playStation-architecture) <br /> [What's inside a Playstation?](https://www.retroreversing.com/inside-playstation)
