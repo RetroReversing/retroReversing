@@ -3,6 +3,7 @@ layout: post
 tags: 
 - n64
 - hardware
+- consolearchitecture
 title: Nintendo 64 Hardware Architecture
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
