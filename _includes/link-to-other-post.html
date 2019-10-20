@@ -7,9 +7,9 @@
   <div class="widget-img">
     <a href="{{ post.permalink }}">
       {% if post.image %}
-        <img style="width:250px" class="otherPostImg" src="{{ post.image }}" alt="">
+        <img style="min-width:200px; max-width:200px" class="otherPostImg" src="{{ post.image }}" alt="">
       {% else if post.youtube %}
-        <img style="width:250px" class="otherPostImg" src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+        <img style="min-width:200px; max-width:200px" class="otherPostImg" src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
       {% endif %}
     </a>
   </div>
