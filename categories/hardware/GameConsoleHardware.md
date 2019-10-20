@@ -1,12 +1,18 @@
 ---
 permalink: /harware/consoles
-layout: blog-cards
+layout: post
 console: consolearchitecture
+title: 'Game Console Hardware Architecture'
+recommend: consolearchitecture
+recommendTitle: All Hardware Architecture
+editlink: ../categories/hardware/GameConsoleHardware.md
 breadcrumbs:
   - name: Home
     url: /
-  - name: Games
-    url: /games
+  - name: Hardware
+    url: /hardware
+  - name: Game Console Hardware Architecture
+    url: #
 redirect_from:
   - /consolearchitecture
   - /architecture
@@ -15,6 +21,7 @@ redirect_from:
   - /games/console
   - /hardware-architecture
 ---
+
 <h1>Introduction to Game Console Hardware Architecture </h1>
 A game console itself is a series of chips placed on to a board, however unlike a PC motherboard it contains specialist chips that can normally not be upgraded.
 
