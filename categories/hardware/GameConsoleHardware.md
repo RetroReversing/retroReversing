@@ -1,5 +1,5 @@
 ---
-permalink: /harware/consoles
+permalink: /hardware/consoles
 layout: post
 console: consolearchitecture
 title: 'Game Console Hardware Architecture'
