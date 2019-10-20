@@ -21,9 +21,15 @@ breadcrumbs:
 recommend: n64
 editlink: /n64/N64HardwareArchitecture.md
 ---
+
+<section class="postSection">
+<img src="/public/N64/NUS- CPU -01.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 The custom chips inside the N64 tend of have the suffix `NUS` which stands for Nintendo Ultimate SixtyFour.
 
-<img src="/public/N64/NUS- CPU -01.jpg" class="wow slideInLeft postImage" />
+</div>
+</section>
 
 ## CPU (CPU-NUS A) (9726XK053)
 The CPU was called the `VR4300` which was a derivative of the 64-bit MIPS R4300i, it developed by a partnership between SGI and Nintendo and manufactured by NEC [^1]. 
