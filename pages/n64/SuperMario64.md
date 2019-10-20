@@ -19,7 +19,7 @@ recommend: n64
 editlink: /n64/SuperMario64.md
 ---
 
-## Introduction to Mario Kart 64
+## Introduction to Super Mario 64
 <section class="postSection">
 <img src="/public/N64/SuperMario64(USA).png" class="wow slideInLeft postImage" />
 
