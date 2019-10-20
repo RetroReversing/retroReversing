@@ -27,7 +27,7 @@ editlink: /n64/SuperMario64.md
 The Game was made by Nintendo EAD and was released in Europe on March 1st, 1997. 
 The development team consisted of 2 System programmers and 3 main programmers with additions from `Giles Goddard` responsible for the Mario face at the beginning and `Takumi Kawagoe` responsible for the camera programming [^1].
 
-The source code is almost completely written in C and compiled with IDO C compiler (Unknown version).
+The source code is almost completely written in C and compiled with IDO C compiler 5.3.
 </div>
 </section>
 
