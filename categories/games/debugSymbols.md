@@ -1,6 +1,6 @@
 ---
 permalink: /games/symbols
-layout: blog-cards
+layout: post
 console: symbols
 breadcrumbs:
   - name: Home
@@ -10,7 +10,7 @@ breadcrumbs:
 redirect_from:
   - /debug
   - /symbols
-  - /games/debugsymols
+  - /games/debugsymbols
   - /unstrippedbinaries
 ---
 <h1>Introduction to Debug Symbols</h1>
@@ -45,7 +45,7 @@ Nintendo Wii U | [WiiU Games with Debug Symbols](https://www.retroreversing.com/
 Nintendo Switch | N/A Not a retro console yet
 Sega Saturn |
 Sega Dreamcast | [Sega Dreamcast Games with Debug Symbols](https://www.retroreversing.com/sega-dreamcast-game-debug-symbols)
-Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-debug-symbol-games)
+Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-game-debug-symbols)
 Microsoft XBox 360 | N/A Not a retro console yet
 
 
