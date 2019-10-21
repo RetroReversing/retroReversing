@@ -20,7 +20,7 @@ recommend:
 - symbols
 editlink: /xbox/XboxGamesWithDebugSymbols.md
 ---
-Debug symbols pretty much open a game wide open to budding verse engineers. These files make reverse engineering almost a piece of cake, giving useful names to each of the functions in an executable and sometimes even full local variable naming and source code references.
+Debug symbols pretty much open a game wide open to budding reverse engineers. These files make reverse engineering almost a piece of cake, giving useful names to each of the functions in an executable and sometimes even full local variable naming and source code references.
 
 However most developers are very careful not to leak any debug symbols, especially into retail releases, so most games will not have publicly available debug symbols. But if you look very hard you might be able to find a game or two compiled for a console that have debug symbols left in by mistake.
 
