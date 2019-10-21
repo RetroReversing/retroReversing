@@ -13,7 +13,7 @@ videocarousel:
   - title: 
     image: http://img.youtube.com/vi/Z45nbzMLk98/hqdefault.jpg
     youtube: Z45nbzMLk98
-   - title: Prototype Cartridge
+  - title: Prototype Cartridge
     image: http://img.youtube.com/vi/laOwsOHelBg/hqdefault.jpg
     youtube: laOwsOHelBg
 image: /public/magazine/EDGE_20_SGI_Onyx.png
@@ -147,15 +147,15 @@ Ultra64.ca has an excellent tutorial which shows you how to *create your own* Pa
 The official Partner64 development kit was quite popular and used both inside and outside of Nintendo.
 
 Here is a list of games that still contain KMC Partner64 debug code thanks to a Pastebin by user `ZOINKITY` [^8]:
-1. KMC\0   1080 TenEighty Snowboarding
-2. KMC\0   64 Oozumou 2
-3. KMC\0   64 Trump Collection - Alice no Wakuwaku Trump World
-4. KMC\0   AI Shougi 3
-5. KMC\0   Aidyn Chronicles - The First Mage
-6. KMC\0   Battlezone - Rise of the Black Dogs
-7. KMC\0   Blues Brothers 2000
-8. KMC\0   Brunswick Circuit Pro Bowling
-9. KMC\0   Buck Bumble
+1. 1080 TenEighty Snowboarding
+2. 64 Oozumou 2
+3. 64 Trump Collection - Alice no Wakuwaku Trump World
+4. AI Shougi 3
+5. Aidyn Chronicles - The First Mage
+6. Battlezone - Rise of the Black Dogs
+7. Blues Brothers 2000
+8. Brunswick Circuit Pro Bowling
+9. Buck Bumble
 10. KMC\0   Charlie Blast's Territory
 11. KMC\0   Dragon Sword 64 (NTSC) (Proto)  [[NOT PAL!]]
 12. KMC\0   Earthworm Jim 3D
@@ -247,6 +247,13 @@ Here is a list of games that still contain IS64 debug code thanks to a Pastebin 
 19. Doshin the Giant 2 (64DD)
 20. Mario Artist Communication Kit (64DD)
 
+## Prototype Cartridges (NUS-8F16F/NUS-16F32SB/NUS-16F32S/NUS-16F32S)
+Rewritable Prototype cartridges were available to buy and came in 128Mb, 256Mb and 512Mb configurations, with the largest capacity being the most expensive.
+
+These were given out to journalists to preview/review the games in their magazines before the official launch of the game along with being used to demonstrate upcoming games at tradeshows such as E3 [^15].
+
+They are double the size of regular N64 games and they are actually re-writeable using a flashing device by Intelligent systems.
+
 
 ---
 # Unofficial N64 Development Kit
@@ -290,3 +297,4 @@ The full n64 development kit was used by Sound designer Grant Kirkhope at Rare t
 [^12]: [Partner-N64 PC](http://n64devkit.square7.ch/tools/kmc/part_pc_facts.htm)
 [^13]: [Guid to NINTENDO64 development tools](http://n64devkit.square7.ch/tools/tindex.htm)
 [^14]: [Development Tools Summary](http://n64devkit.square7.ch/tools/kmc/index.htm)
+[^15]: [Duke Nukem Prototype](http://www.nintendoplayer.com/prototype/duke-nukem-64/)
