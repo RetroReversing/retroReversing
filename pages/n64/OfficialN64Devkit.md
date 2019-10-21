@@ -13,6 +13,9 @@ videocarousel:
   - title: 
     image: http://img.youtube.com/vi/Z45nbzMLk98/hqdefault.jpg
     youtube: Z45nbzMLk98
+   - title: Prototype Cartridge
+    image: http://img.youtube.com/vi/laOwsOHelBg/hqdefault.jpg
+    youtube: laOwsOHelBg
 image: /public/magazine/EDGE_20_SGI_Onyx.png
 permalink: /official-n64-devkit/
 breadcrumbs:
