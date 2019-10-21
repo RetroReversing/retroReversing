@@ -156,24 +156,24 @@ Here is a list of games that still contain KMC Partner64 debug code thanks to a 
 7. Blues Brothers 2000
 8. Brunswick Circuit Pro Bowling
 9. Buck Bumble
-10. KMC\0   Charlie Blast's Territory
-11. KMC\0   Dragon Sword 64 (NTSC) (Proto)  [[NOT PAL!]]
-12. KMC\0   Earthworm Jim 3D
-13. KMC\0   Elmo's Letter Adventure
-14. KMC\0   Elmo's Number Journey
-15. KMC\0   Fighter Destiny 2
-16. KMC\0   Fighting Force 64
-17. KMC\0   GameShark Pro (v2.0)
-18. both    Ganbare Goemon - Neo Momoyama Bakufu no Odori / Mystical Ninja Starring Goemon
-19. both    Ganbare! Nippon! Olympics 2000
-20. KMC\0   Gex 3 - Deep Cover Gecko
-21. KMC\0   Gex 64 - Enter the Gecko
-22. KMC\0   Glover 2 (USA) (Proto)  [[internal crc B7F40BCF 553556A5]]
-23. KMC\0   Harvest Moon 64 / Bokujou Monogatari 2
-24. KMC\0   Hercules - The Legendary Journeys
-25. both    Hyper Olympics in Nagano 64 / Nagano Winter Olympics '98
-26. KMC\0   Ide Yosuke no Mahjong Juku
-27. both    International Superstar Soccer 2000
+10. Charlie Blast's Territory
+11. Dragon Sword 64 (NTSC) (Proto)  [[NOT PAL!]]
+12. Earthworm Jim 3D
+13. Elmo's Letter Adventure
+14. Elmo's Number Journey
+15. Fighter Destiny 2
+16. Fighting Force 64
+17. GameShark Pro (v2.0)
+18. Ganbare Goemon - Neo Momoyama Bakufu no Odori / Mystical Ninja Starring Goemon
+19. Ganbare! Nippon! Olympics 2000
+20. Gex 3 - Deep Cover Gecko
+21. Gex 64 - Enter the Gecko
+22. Glover 2 (USA) (Proto)  [[internal crc B7F40BCF 553556A5]]
+23. Harvest Moon 64 / Bokujou Monogatari 2
+24. Hercules - The Legendary Journeys
+25. Hyper Olympics in Nagano 64 / Nagano Winter Olympics '98
+26. Ide Yosuke no Mahjong Juku
+27. International Superstar Soccer 2000
 28. both    International Track & Field - Summer Games / International Track & Field 2000
 29. both    Jikkyou J.League 1999 - Perfect Striker 2
 30. KMC\0   Kakutou Denshou - F-Cup Maniax
@@ -247,13 +247,19 @@ Here is a list of games that still contain IS64 debug code thanks to a Pastebin 
 19. Doshin the Giant 2 (64DD)
 20. Mario Artist Communication Kit (64DD)
 
+
+
 ## Prototype Cartridges (NUS-8F16F/NUS-16F32SB/NUS-16F32S/NUS-16F32S)
+<section class="postSection">
+    <img src="/public/WZ49eRMfsUEDM70of4Zg_img_0.png" class="wow slideInLeft postImage" />
+<div markdown="1">
 Rewritable Prototype cartridges were available to buy and came in 128Mb, 256Mb and 512Mb configurations, with the largest capacity being the most expensive.
 
 These were given out to journalists to preview/review the games in their magazines before the official launch of the game along with being used to demonstrate upcoming games at tradeshows such as E3 [^15].
 
-They are double the size of regular N64 games and they are actually re-writeable using a flashing device by Intelligent systems.
-
+They are double the size of regular N64 games and they are actually re-writeable 7 at a time using a flashing device by Intelligent systems.
+</div>
+</section>
 
 ---
 # Unofficial N64 Development Kit
@@ -269,6 +275,7 @@ Nintendo released multiple hardware for Sound designers to test their creations 
 
 The SDK also came with the `N64 Sound Tools` and `MusyX Audio Tools` which contain software such as a sound sample editor which used a format similar to MIDI [^2].
 
+
 ## NUS-SUD (Sound development)
 
 Gerry_MAN has taken some excellent photos of his NUS-SUD on Twitter along with photos of him actually managing to connect and send data from his PC to the hardware!
@@ -277,6 +284,7 @@ Gerry_MAN has taken some excellent photos of his NUS-SUD on Twitter along with p
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">For the Updated version 3.0 of the ROM you can actually see the pre-existing peak meter pixels as they are just slightly visible...as shown in the image below. Would be cool to get a Version 3 of the SoundTools cart someday. <br>Pretty Awesome!!<br>😎👌 <a href="https://t.co/xAZ8moXAXe">pic.twitter.com/xAZ8moXAXe</a></p>&mdash; Gerry_MAN (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1182085021504589824?ref_src=twsrc%5Etfw">10 October 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ## Full Devkit used by Sound designers 
 The full n64 development kit was used by Sound designer Grant Kirkhope at Rare to produce masterpieces such as Banjo-Kazooie and GoldenEye. This consisted of a Silicon Graphics Indy with the N64 hardware used as an extension inside it [^2].
