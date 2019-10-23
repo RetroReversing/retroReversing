@@ -39,22 +39,24 @@ The source code is almost completely written in C and compiled with IDO C compil
 </section>
 
 # Modding Tools
-
-## Super Mario 64 World Editing
-<section class="postSection">
-<img src="/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png" class="wow slideInLeft postImage" />
-
-<div markdown="1">
-
-You can use the program called "Toad's Tool" to edit the 3D worlds for the game Mario 64. It’s quite a simple tool, it allows you to view each world and edit the x,y,z coordinates of each object.
-
-Also contains basic functionality for texture editing.
-</div>
-</section>
+The community has developed some excellent tools for modding Super Mario 64, so if you just want to change assets in the game you don't need to use the full decompilation project, just load up one of these excellent tools.
 
 ## Creating 3D world with Sketchup
 `Salmence100` has a twitch account where he streams his process for creating 3D worlds in Sketchup, exporting to `.OBJ` and importing into `Super Mario 64 Editor`, currently he is building new levels based on Mario Party 2.
 <iframe src="https://player.twitch.tv/?autoplay=false&video=v491285343" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/videos/491285343?tt_content=text_link&tt_medium=vod_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch Beginning work on the MP2 Romhack again! from Salmence100 on www.twitch.tv</a>
+
+## Adding Actors/Object
+<section class="postSection">
+<img src="/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+A newly imported object can appear very plain wthout any enemies or coins to collect, so lets add some objects!
+
+You can use the program called "Toad's Tool" to edit the objects for the level, It’s quite a simple tool, it allows you to view each world and edit the x,y,z coordinates of each object.
+
+Also contains basic functionality for texture editing.
+</div>
+</section>
 
 ---
 # Decompilation
