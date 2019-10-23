@@ -11,26 +11,21 @@
     cleanedId = cleanedId.replace(/\W/g, '-');
     return cleanedId.toLowerCase();
   }
-
+  
 function convertPathsToJsTree(paths) {
-  var data = [];
-  var generatedIds={};
+  const data = [];
+  const generatedIds={};
   paths.forEach((path)=>{
-    var splitPathParts = [];
+    let splitPathParts = [];
     if (path.indexOf('\\') !==-1) {
       splitPathParts = path.split('\\');
     } else {
       splitPathParts = path.split('/');
     }
     splitPathParts.forEach((part,level)=>{
-      var parent = cleanId(splitPathParts.slice(0,level).join('-')) || '#';
-//       var indexOfPipe = part.indexOf('|');
-//       if (indexOfPipe>-1) {
-//           part = cleanId(part.substring(0, indexOfPipe));
-//       }
-      var id = cleanId(parent+'-'+part);
-      
-      var json = { id, parent, "text" : part };
+      const id = cleanId(splitPathParts.slice(0,level+1).join('-'));
+      const parent = cleanId(splitPathParts.slice(0,level).join('-')) || '#';
+      const json = { id, parent, "text" : part };
       if (id.length>0 && !generatedIds[id]) {
         data.push(json);
         generatedIds[id] = true;
@@ -39,6 +34,34 @@ function convertPathsToJsTree(paths) {
   });
   return data;
 }
+
+// function convertPathsToJsTree(paths) {
+//   var data = [];
+//   var generatedIds={};
+//   paths.forEach((path)=>{
+//     var splitPathParts = [];
+//     if (path.indexOf('\\') !==-1) {
+//       splitPathParts = path.split('\\');
+//     } else {
+//       splitPathParts = path.split('/');
+//     }
+//     splitPathParts.forEach((part,level)=>{
+//       var parent = cleanId(splitPathParts.slice(0,level).join('-')) || '#';
+// //       var indexOfPipe = part.indexOf('|');
+// //       if (indexOfPipe>-1) {
+// //           part = cleanId(part.substring(0, indexOfPipe));
+// //       }
+//       var id = cleanId(parent+'-'+part);
+      
+//       var json = { id, parent, "text" : part };
+//       if (id.length>0 && !generatedIds[id]) {
+//         data.push(json);
+//         generatedIds[id] = true;
+//       }
+//     });
+//   });
+//   return data;
+// }
 
   var treeData = [];
 {% if include.selector %}
