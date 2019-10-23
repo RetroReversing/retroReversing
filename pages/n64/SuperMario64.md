@@ -57,6 +57,13 @@ This allows anyone with basic c-knowledge to hack around and change core gamepla
 Mountainflaw has released a tutorial that covers the basics of the Decompilation project and is the best way to get started for newcomers:
 [Introduction to Super Mario64 Decomp](https://mountainflaw.github.io/assets/page/intro.html)
 
+## Checking out the Code
+The project is released on Github: [GitHub - n64decomp/sm64: A Super Mario 64 decompilation, brought to you by a bunch of clever folks.](https://github.com/n64decomp/sm64) and can be built on linux and windows but for mac you will need to use something like docker.
+
+```bash
+git clone https://github.com/n64decomp/sm64.git
+```
+
 ---
 
 # References
