@@ -58,6 +58,14 @@ Also contains basic functionality for texture editing.
 </div>
 </section>
 
+## Changing the level's background
+<section class="postSection">
+<iframe height="315" src="https://www.youtube.com/embed/3HGrTUZxA6A" class="wow slideInLeft postImage" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <div markdown="1">
+One thing you wil notice with your newly imported level is that it will still have the background image (skybox) of the level you replaced in the ROM. This can be easily changed to give your level a much more unique feeling to it.
+</div>
+</section>
+
 ---
 # Decompilation
 Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
