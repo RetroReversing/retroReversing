@@ -3,6 +3,7 @@ layout: post
 tags: 
 - n64
 - worldeditor
+- games
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "4d5OsHRo7Nc"
@@ -44,6 +45,10 @@ You can use the program called "Toad's Tool" to edit the 3D worlds for the game 
 Also contains basic functionality for texture editing.
 </div>
 </section>
+
+## Creating 3D world with Sketchup
+`Salmence100` has a twitch account where he streams his process for creating 3D worlds in Sketchup, exporting to `.OBJ` and importing into `Super Mario 64 Editor`, currently he is building new levels based on Mario Party 2.
+<iframe src="https://player.twitch.tv/?autoplay=false&video=v491285343" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/videos/491285343?tt_content=text_link&tt_medium=vod_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch Beginning work on the MP2 Romhack again! from Salmence100 on www.twitch.tv</a>
 
 ---
 # Decompilation
