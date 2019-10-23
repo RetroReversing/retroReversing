@@ -6,7 +6,13 @@ tags:
 - games
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
-youtube: "4d5OsHRo7Nc"
+videocarousel:
+  - title: Loading custom levels
+    image: http://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
+    youtube: 'NpOwt4QhGPQ&list=PLrHfiJH7XHir-QYZsy2Du5t27DThqG1Vw'
+  - title: Toads Tool
+    image: http://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
+    youtube: '4d5OsHRo7Nc'
 image: /public/N64/Super_Mario_64_box_cover.jpg
 permalink: /super-mario-64/
 breadcrumbs:
