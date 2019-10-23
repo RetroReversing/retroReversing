@@ -24,11 +24,11 @@ function convertPathsToJsTree(paths) {
     }
     splitPathParts.forEach((part,level)=>{
       var parent = cleanId(splitPathParts.slice(0,level).join('-')) || '#';
-      var indexOfPipe = part.indexOf('|');
-      if (indexOfPipe>-1) {
-          part = part.substring(0, indexOfPipe);
-      }
-      var id = parent+'-'+part;
+//       var indexOfPipe = part.indexOf('|');
+//       if (indexOfPipe>-1) {
+//           part = cleanId(part.substring(0, indexOfPipe));
+//       }
+      var id = cleanId(parent+'-'+part);
       
       var json = { id, parent, "text" : part };
       if (id.length>0 && !generatedIds[id]) {
