@@ -3786,7 +3786,7 @@ git clone https://github.com/n64decomp/sm64.git
  * /src/goddard/dynlists/anim_group_1.c
  * /src/goddard/objects.c
  * /src/goddard/joints.h
- * /src/engine| the core game engine code (collision etc)
+ * /src/engine
  * /src/engine/math_util.c
  * /src/engine/level_script.h
  * /src/engine/geo_layout.h
