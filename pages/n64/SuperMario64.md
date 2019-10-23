@@ -7,7 +7,7 @@ tags:
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 youtube: "4d5OsHRo7Nc"
-image: /public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png
+image: /public/N64/Super_Mario_64_box_cover.jpg
 permalink: /super-mario-64/
 breadcrumbs:
   - name: Home
