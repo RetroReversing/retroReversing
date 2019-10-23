@@ -26,7 +26,7 @@ recommend: n64
 editlink: /n64/SuperMario64.md
 ---
 
-# Introduction to Super Mario 64
+# Introduction to Super Mario 64 Reversing & Modding
 <section class="postSection">
 <img src="/public/N64/SuperMario64(USA).png" class="wow slideInLeft postImage" />
 
@@ -63,6 +63,15 @@ Also contains basic functionality for texture editing.
 <iframe height="315" src="https://www.youtube.com/embed/3HGrTUZxA6A" class="wow slideInLeft postImage" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div markdown="1">
 One thing you wil notice with your newly imported level is that it will still have the background image (skybox) of the level you replaced in the ROM. This can be easily changed to give your level a much more unique feeling to it.
+</div>
+</section>
+
+## Adding warps
+<section class="postSection">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VX0NDhrIaIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <div markdown="1">
+Mario wouldn't be Mario without his pipes, lets add some that warp from one part of the level to another!
 </div>
 </section>
 
