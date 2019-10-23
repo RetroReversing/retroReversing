@@ -8,8 +8,8 @@ title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
   - title: Loading custom levels
-    image: http://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
-    youtube: 'NpOwt4QhGPQ&list=PLrHfiJH7XHir-QYZsy2Du5t27DThqG1Vw'
+    image: http://img.youtube.com/vi/NpOwt4QhGPQ/0.jpg
+    youtube: 'NpOwt4QhGPQ?list=PLrHfiJH7XHir-QYZsy2Du5t27DThqG1Vw'
   - title: Toads Tool
     image: http://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
     youtube: '4d5OsHRo7Nc'
