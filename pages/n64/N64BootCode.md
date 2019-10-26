@@ -234,6 +234,23 @@ void a4000040()
 }
 ```
 
+## SevenSeventyEight()
+This function loops 4 times and sums up the output from the `EightEighty_a4000880` function.
+```c
+u8 SevenSeventyEight_a4000778() {
+  undefined4 in_v1;
+  
+  int count = 0;
+  int total = 0;
+  while (count < 4) {
+    count += 1;
+    total += EightEighty_a4000880();
+  };
+  FUN_a4000a40(count >> 2, 1);
+  return CONCAT44(count >> 2, in_v1);
+}
+```
+
 ---
 # Assembly Code
 
