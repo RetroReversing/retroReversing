@@ -99,21 +99,25 @@ void a4000040()
     } while (iVar11 != 0);
     
     
-        _RI_CURRENT_LOAD = 0;
-    _RI_SELECT = 0x14;
+    RI_CURRENT_LOAD = 0;
+    RI_SELECT = 0x14;
     countdown = 4;
     do {
       countdown = countdown + -1;
     } while (countdown != 0);
-    _RI_BASE = 0xe;
+    
+    RI_BASE = 0xe;
     countdown2 = 0x20;
     do {
       countdown2 = countdown2 + -1;
     } while (countdown2 != 0);
-    _MI_BASE = 0x10f;
-    _RDRAM_DELAY = 0x18082838;
-    _RDRAM_REF_ROW = 0;
-    _RDRAM_DEVICE_ID = 0x80000000;
+    
+    
+    MI_BASE = 0x10f;
+    RDRAM_DELAY = 0x18082838;
+    RDRAM_REF_ROW = 0;
+    RDRAM_DEVICE_ID = 0x80000000;
+    
     uVar6 = 0;
     iVar8 = 0;
     puVar9 = (uint *)&RDRAM_BASE;
@@ -123,14 +127,14 @@ void a4000040()
     iVar12 = 0;
     piVar17 = (int *)local_60;
     puVar18 = (undefined4 *)local_60;
-    if (_MI_VERSION == 0x1010101) {
-      // Version 1 RCP
+    if (MI_VERSION == 0x1010101) {
+      // Version >=2 RCP
       iVar10 = 0x200;
       iVar12 =  0xa3f04000;
       piVar18 = (int *)auStack96;
     }
     else {
-      // Version >=2 RCP
+      // Version 1 RCP
       iVar10 = 0x400;
       iVar12 = 0xa3f08000;
     }
