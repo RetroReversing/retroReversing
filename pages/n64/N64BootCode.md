@@ -246,8 +246,36 @@ u8 SevenSeventyEight_a4000778() {
     count += 1;
     total += EightEighty_a4000880();
   };
-  FUN_a4000a40(count >> 2, 1);
-  return CONCAT44(count >> 2, in_v1);
+  FUN_a4000a40(total >> 2, 1);
+  return CONCAT44(total >> 2, in_v1);
+}
+```
+
+## EightEighty
+
+```c
+u4 EightEighty_a4000880() {
+  int iVar5;
+  
+  int counter = 0;
+  int result = 0;
+  int iVar5 = 0;
+  
+  while (counter < 0x50) {
+    if (iVar5 > 0x3f) {
+      return 0;
+    }
+    
+    int iVar1 = FUN_a400090c(iVar5);
+    if (iVar1 > 0) {
+      result += (iVar1 - counter) * iVar5;
+      counter = iVar1;
+    }
+    iVar5 += 1;
+  }
+  
+  result = FUN_a4000980(result * 0x16  - 0x370);
+  return result;
 }
 ```
 
