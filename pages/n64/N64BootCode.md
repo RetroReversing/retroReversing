@@ -63,22 +63,22 @@ void a4000040()
   int extraout_v1_00;
   undefined4 *puVar3;
   undefined4 *puVar4;
-  int iVar5;
+  uint local_t2_64;
+  uint uVar5;
   uint uVar6;
-  uint uVar7;
-  undefined4 uVar8;
-  uint *puVar9;
+  undefined4 uVar7;
+  uint *puVar8;
+  int iVar9;
   int iVar10;
   int iVar11;
   int iVar12;
-  int iVar13;
-  uint uVar14;
+  uint uVar13;
+  int iVar14;
   int iVar15;
-  int iVar16;
-  uint uVar17;
-  int *piVar18;
-  undefined4 *puVar19;
-  undefined auStack96 [72];
+  uint uVar16;
+  int *piVar17;
+  undefined4 *puVar18;
+  undefined local_60 [72];
   
 
   // Co-Processor Zero Exception & Timer Registers
@@ -88,13 +88,17 @@ void a4000040()
   
 
   if (RI_SELECT == 0) {
-    iVar5 = -0x5c080000;
-    puVar3 = (undefined4 *)&DAT_a4300000;
-    _DAT_a4700004 = 0x40;
+    local_t2_64 = 0xa3f80000;
+    puVar3 = (undefined4 *)&MI_BASE;
+    _RI_CONFIG = 0x40;
+    
+    // Loop 8000 to delay 24000 cycles
     iVar11 = 8000;
     do {
       iVar11 = iVar11 + -1;
     } while (iVar11 != 0);
+    
+    
     _DAT_a4700008 = 0;
     _DAT_a470000c = 0x14;
     iVar11 = 4;
