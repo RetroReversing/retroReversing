@@ -99,38 +99,40 @@ void a4000040()
     } while (iVar11 != 0);
     
     
-    _DAT_a4700008 = 0;
-    _DAT_a470000c = 0x14;
-    iVar11 = 4;
+        _RI_CURRENT_LOAD = 0;
+    _RI_SELECT = 0x14;
+    countdown = 4;
     do {
-      iVar11 = iVar11 + -1;
-    } while (iVar11 != 0);
-    _DAT_a4700000 = 0xe;
-    iVar11 = 0x20;
+      countdown = countdown + -1;
+    } while (countdown != 0);
+    _RI_BASE = 0xe;
+    countdown2 = 0x20;
     do {
-      iVar11 = iVar11 + -1;
-    } while (iVar11 != 0);
-    _DAT_a4300000 = 0x10f;
-    _DAT_a3f80008 = 0x18082838;
-    _DAT_a3f80014 = 0;
-    _DAT_a3f80004 = 0x80000000;
-    uVar7 = 0;
-    iVar11 = 0;
-    puVar9 = (uint *)&DAT_a3f00000;
-    iVar16 = 0;
-    uVar14 = 0;
+      countdown2 = countdown2 + -1;
+    } while (countdown2 != 0);
+    _MI_BASE = 0x10f;
+    _RDRAM_DELAY = 0x18082838;
+    _RDRAM_REF_ROW = 0;
+    _RDRAM_DEVICE_ID = 0x80000000;
+    uVar6 = 0;
+    iVar8 = 0;
+    puVar9 = (uint *)&RDRAM_BASE;
     iVar15 = 0;
-    iVar13 = 0;
-    piVar18 = (int *)auStack96;
-    puVar19 = (undefined4 *)auStack96;
-    if (_DAT_a4300004 == 0x1010101) {
+    uVar13 = 0;
+    iVar14 = 0;
+    iVar12 = 0;
+    piVar17 = (int *)local_60;
+    puVar18 = (undefined4 *)local_60;
+    if (_MI_VERSION == 0x1010101) {
+      // Version 1 RCP
       iVar10 = 0x200;
-      iVar12 = -0x5c0fc000;
+      iVar12 =  0xa3f04000;
       piVar18 = (int *)auStack96;
     }
     else {
+      // Version >=2 RCP
       iVar10 = 0x400;
-      iVar12 = -0x5c0f8000;
+      iVar12 = 0xa3f08000;
     }
     do {
       *(int *)(iVar12 + 4) = iVar11;
@@ -201,18 +203,19 @@ void a4000040()
     uVar14 = 0x80000000;
     setCopReg(0,TagLo,0,0);
     setCopReg(0,TagHi,0,0);
-    do {
+    
+    while (uVar14 < 0x80003fe0) {
       cacheOp(8,uVar14);
-      bVar1 = uVar14 < 0x80003fe0;
       uVar14 = uVar14 + 0x20;
-    } while (bVar1);
+    }
+    
     uVar14 = 0x80000000;
-    do {
+    while (uVar14 < 0x80001ff0) {
       cacheOp(1,uVar14);
-      bVar1 = uVar14 < 0x80001ff0;
       uVar14 = uVar14 + 0x10;
-    } while (bVar1);
+    }
   }
+  
   puVar3 = &DAT_a40004c0;
   puVar4 = (undefined4 *)&DAT_a0000000;
   do {
