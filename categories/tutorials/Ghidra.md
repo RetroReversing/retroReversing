@@ -1,5 +1,5 @@
 ---
-permalink: /ghirda/
+permalink: /ghidra
 layout: post
 console: 'ghidra'
 title: 'Ghidra Decompiler & Disassembler - Awesome List'
