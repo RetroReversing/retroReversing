@@ -18,12 +18,14 @@ recommend: n64
 editlink: /n64/N64BootCode.md
 ---
 
+# Introduction to Nintendo 64 Bootcode
 In this post we will be exploring the Nintendo 64 Bootstrapping Code or Boot code for short.
 
 The boot code is a short piece of MIPS assembly code located in every single N64 ROM that starts at offset 0x40 and has a size of 4032 bytes.
 
 Technically any code could have been placed in this section of the ROM as long as it initialises the hardware, but in practise there were only a couple of variations on the standard bootcode.
 
+## Different Bootcodes used
 The Boot Codes can be named after the CIC (Lockout) chip that they were created to work with and have the format `CIC-NUS-####`, to detect which boot code has which name we can take the MD5 hash of the code and compare it to the table below [^3].
 
 
@@ -35,7 +37,7 @@ Md5 Hash | PAL Name (CIC chip) | NA Name (CIC Chip) | Details
 ?? | CIC-NUS-7106 | CIC-NUS-6106 | X106 Used in ?% of games (e.g Yoshi)
 ?? | CIC-NUS-7102 | CIC-NUS-6101 | Used in Starfox64/Lylat Wars
 
-
+## Standard Bootcode
 The standard Boot Code (`CIC-NUS-7101`/`CIC-NUS-6102`) is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
 
 The md5 hash for this boot code in binary format is:
@@ -43,6 +45,181 @@ The md5 hash for this boot code in binary format is:
 2dacea29bd5ae921009b68f2763112d8
 ```
 So you can check if your rom uses this bootcode by copying 4032 bytes from offset 0x0040 into a separate file and running the `md5` command on it.
+
+## What execute the bootcode
+When the `PIF ROM` has finished executing and it passes the anti-piracy CIC check it always jumps to address `0xA4000040` in memory. This is the start of the bootcode and will be where the start of the code analysis will begin.
+
+---
+# Pseudo C-code
+Before jumping straight into the Assembly code for the bootcode we can have a look at a simplified form of the code, which is a sort of decompilation, but bare in mind that the code was originally written in assembly so its not a true decompilation.
+
+We will simplify the code by treating each block of code as a C function, and what better place to start than the code at address `0xA4000040`:
+```c
+void a4000040()
+{
+  bool bVar1;
+  int iVar2;
+  int extraout_v1;
+  int extraout_v1_00;
+  undefined4 *puVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  uint uVar6;
+  uint uVar7;
+  undefined4 uVar8;
+  uint *puVar9;
+  int iVar10;
+  int iVar11;
+  int iVar12;
+  int iVar13;
+  uint uVar14;
+  int iVar15;
+  int iVar16;
+  uint uVar17;
+  int *piVar18;
+  undefined4 *puVar19;
+  undefined auStack96 [72];
+  
+  setCopReg(0,Cause,0,0);
+  setCopReg(0,Count,0,0);
+  setCopReg(0,Compare,0,0);
+  if (_DAT_a470000c == 0) {
+    iVar5 = -0x5c080000;
+    puVar3 = (undefined4 *)&DAT_a4300000;
+    _DAT_a4700004 = 0x40;
+    iVar11 = 8000;
+    do {
+      iVar11 = iVar11 + -1;
+    } while (iVar11 != 0);
+    _DAT_a4700008 = 0;
+    _DAT_a470000c = 0x14;
+    iVar11 = 4;
+    do {
+      iVar11 = iVar11 + -1;
+    } while (iVar11 != 0);
+    _DAT_a4700000 = 0xe;
+    iVar11 = 0x20;
+    do {
+      iVar11 = iVar11 + -1;
+    } while (iVar11 != 0);
+    _DAT_a4300000 = 0x10f;
+    _DAT_a3f80008 = 0x18082838;
+    _DAT_a3f80014 = 0;
+    _DAT_a3f80004 = 0x80000000;
+    uVar7 = 0;
+    iVar11 = 0;
+    puVar9 = (uint *)&DAT_a3f00000;
+    iVar16 = 0;
+    uVar14 = 0;
+    iVar15 = 0;
+    iVar13 = 0;
+    piVar18 = (int *)auStack96;
+    puVar19 = (undefined4 *)auStack96;
+    if (_DAT_a4300004 == 0x1010101) {
+      iVar10 = 0x200;
+      iVar12 = -0x5c0fc000;
+      piVar18 = (int *)auStack96;
+    }
+    else {
+      iVar10 = 0x400;
+      iVar12 = -0x5c0f8000;
+    }
+    do {
+      *(int *)(iVar12 + 4) = iVar11;
+      iVar2 = FUN_a4000778();
+      if (iVar2 == 0) break;
+      *piVar18 = iVar2;
+      *puVar3 = 0x2000;
+      uVar6 = *puVar9;
+      piVar18[1] = uVar6 & 0xf0ff0000;
+      piVar18 = piVar18 + 2;
+      *puVar3 = 0x1000;
+      if ((uVar6 & 0xf0ff0000) == 0xb0190000) {
+        iVar16 = iVar16 + 0x8000000;
+        uVar14 = uVar14 + 0x200000;
+        iVar13 = iVar13 * 2 + 1;
+      }
+      *puVar3 = 0x2000;
+      uVar6 = puVar9[9];
+      uVar17 = *puVar9;
+      *puVar3 = 0x1000;
+      if (((uVar6 & 0xffff) == 0x500) && ((uVar17 & 0x1000000) == 0)) {
+        puVar9[6] = 0x101c0a04;
+      }
+      else {
+        puVar9[6] = 0x80c1204;
+      }
+      iVar11 = iVar11 + 0x8000000;
+      puVar9 = (uint *)((int)puVar9 + iVar10 * 2);
+      uVar7 = uVar7 + 1;
+    } while (uVar7 < 8);
+    *(undefined4 *)(iVar5 + 0xc) = 0xc0000000;
+    *(undefined4 *)(iVar5 + 4) = 0x80000000;
+    do {
+      if (puVar19[1] == -0x4ff70000) {
+        *(int *)(iVar12 + 4) = iVar16;
+        FUN_a4000a40(*puVar19,1);
+        uVar14 = uVar14 + 0x100000;
+        *(int *)(iVar12 + 4) = iVar15;
+        iVar5 = extraout_v1;
+      }
+      else {
+        *(int *)(iVar12 + 4) = iVar15;
+        FUN_a4000a40(*puVar19,1);
+        iVar15 = iVar15 + 0x8000000;
+        iVar5 = extraout_v1_00;
+      }
+      puVar19 = puVar19 + 2;
+    } while (iVar5 + 1 < (int)uVar7);
+    _DAT_a4700010 = iVar13 << 0x13 | 0x63634;
+    _DAT_a0000318 = uVar14 & 0xfffffff;
+    uVar14 = 0x80000000;
+    setCopReg(0,TagLo,0,0);
+    setCopReg(0,TagHi,0,0);
+    do {
+      cacheOp(8,uVar14);
+      bVar1 = uVar14 < 0x80003fe0;
+      uVar14 = uVar14 + 0x20;
+    } while (bVar1);
+    uVar14 = 0x80000000;
+    do {
+      cacheOp(9,uVar14);
+      bVar1 = uVar14 < 0x80001ff0;
+      uVar14 = uVar14 + 0x10;
+    } while (bVar1);
+  }
+  else {
+    uVar14 = 0x80000000;
+    setCopReg(0,TagLo,0,0);
+    setCopReg(0,TagHi,0,0);
+    do {
+      cacheOp(8,uVar14);
+      bVar1 = uVar14 < 0x80003fe0;
+      uVar14 = uVar14 + 0x20;
+    } while (bVar1);
+    uVar14 = 0x80000000;
+    do {
+      cacheOp(1,uVar14);
+      bVar1 = uVar14 < 0x80001ff0;
+      uVar14 = uVar14 + 0x10;
+    } while (bVar1);
+  }
+  puVar3 = &DAT_a40004c0;
+  puVar4 = (undefined4 *)&DAT_a0000000;
+  do {
+    uVar8 = *puVar3;
+    puVar3 = puVar3 + 1;
+    *puVar4 = uVar8;
+    puVar4 = puVar4 + 1;
+  } while (puVar3 < (undefined4 *)0xa4000774);
+                    /* WARNING: Treating indirect jump as call */
+  (*(code *)&LAB_80000000)();
+  return;
+}
+```
+
+---
+# Assembly Code
 
 Some basics before reading the assembly listing:
 ```
