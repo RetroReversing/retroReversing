@@ -80,10 +80,14 @@ void a4000040()
   undefined4 *puVar19;
   undefined auStack96 [72];
   
-  setCopReg(0,Cause,0,0);
-  setCopReg(0,Count,0,0);
-  setCopReg(0,Compare,0,0);
-  if (_DAT_a470000c == 0) {
+
+  // Co-Processor Zero Exception & Timer Registers
+  setCopReg(0,Cause,0,0); // Cause of Last Exception
+  setCopReg(0,Count,0,0); // Timer Count
+  setCopReg(0,Compare,0,0); // Timer Compare
+  
+
+  if (RI_SELECT == 0) {
     iVar5 = -0x5c080000;
     puVar3 = (undefined4 *)&DAT_a4300000;
     _DAT_a4700004 = 0x40;
@@ -189,6 +193,7 @@ void a4000040()
     } while (bVar1);
   }
   else {
+    // RI_SELECT was not equal to 0, so lets just run a subset of the code
     uVar14 = 0x80000000;
     setCopReg(0,TagLo,0,0);
     setCopReg(0,TagHi,0,0);
