@@ -49,6 +49,12 @@ So you can check if your rom uses this bootcode by copying 4032 bytes from offse
 ## What execute the bootcode
 When the `PIF ROM` has finished executing and it passes the anti-piracy CIC check it always jumps to address `0xA4000040` in memory. This is the start of the bootcode and will be where the start of the code analysis will begin.
 
+## What does the bootcode do?
+In the official N64 SDK documentation you can read about some of the tasks that the bootcode is responsible for:
+[Chapter 6 - N64 Operating System Overview](http://n64devkit.square7.ch/pro-man/pro06/06-10.htm)
+
+Basically it all boils down to initialization of the different chips (CP0, RCP, RDRAM) and loading and jumping to the actual game code.
+
 ## Why have different bootcodes?
 One reason is for security and to prevent backup devices being used, for example the `CIC-NUS-6103` and `CIC-NUS-6106` change the RAM entry point for the game [^5].
 
@@ -58,9 +64,17 @@ Currently more analysis is needed to compare the different bootcodes and figure 
 # Pseudo C-code
 Before jumping straight into the Assembly code for the bootcode we can have a look at a simplified form of the code, which is a sort of decompilation, but bare in mind that the code was originally written in assembly so its not a true decompilation.
 
+We have split up the code into the functions displayed in the table below:
+
+Fake Name | Address | Purpose
+---|---|---
+Boot() | 0xa4000040 | Start of Bootcode (Initialize C0P and RCP)
+SevenSeventyEight() | 0xa4000778 |
+EightEighty() | 0xa4000880 |
+
 We will simplify the code by treating each block of code as a C function, and what better place to start than the code at address `0xA4000040`:
 ```c
-void a4000040()
+void Boot_a4000040()
 {
   bool bVar1;
   int iVar2;
@@ -233,7 +247,7 @@ void a4000040()
     *puVar4 = uVar8;
     puVar4 = puVar4 + 1;
   } while (puVar3 < (undefined4 *)0xa4000774);
-                    /* WARNING: Treating indirect jump as call */
+  
   (*(code *)&LAB_80000000)();
   return;
 }
@@ -256,7 +270,7 @@ u8 SevenSeventyEight_a4000778() {
 }
 ```
 
-## EightEighty
+## EightEighty()
 
 ```c
 u4 EightEighty_a4000880() {
