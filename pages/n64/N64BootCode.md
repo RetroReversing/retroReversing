@@ -258,7 +258,7 @@ void Boot_a4000040()
 
 ## CIC_NUS_6102_Code()
 This is a small piece of code that was loaded into memory in the previous function.
-```
+```c
 void CIC_NUS_6102_Code() {
   u4 *puVar1;
   u4 *puVar2;
