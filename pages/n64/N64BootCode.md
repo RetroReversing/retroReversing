@@ -240,16 +240,78 @@ void Boot_a4000040()
     }
   }
   
-  puVar3 = &DAT_a40004c0;
-  puVar4 = (undefined4 *)&DAT_a0000000;
-  do {
-    uVar8 = *puVar3;
-    puVar3 = puVar3 + 1;
-    *puVar4 = uVar8;
-    puVar4 = puVar4 + 1;
-  } while (puVar3 < (undefined4 *)0xa4000774);
+  // Copy the 6102 bootcode from 0xa40004c0 to address 0x80000000 in RAM
+  int* current_loc = &CIC_NUS_6102_Code_Start_Location; // CIC_NUS_6102_Code_Start_Location is 0xa40004c0
+  int* destination_loc = &DAT_a0000000;
   
-  (*(code *)&LAB_80000000)();
+  while (puVar3 < 0xa4000774) {
+    byte value = *current_loc;
+    current_loc++;
+    *destination_loc = value;
+    destination_loc++;
+  }
+  
+  CIC_NUS_6102_Code(); // 0x80000000 is the code that was loaded previously
+  return;
+}
+```
+
+## CIC_NUS_6102_Code()
+This is a small piece of code that was loaded into memory in the previous function.
+```c
+void CIC_NUS_6102_Code(void)
+
+{
+  undefined4 *puVar1;
+  undefined4 *puVar2;
+  uint in_t1;
+  int in_t3;
+  int unaff_s3;
+  undefined4 unaff_s4;
+  undefined4 unaff_s5;
+  undefined4 unaff_s7;
+  
+  _DAT_a4600000 = in_t1 & 0x1fffffff;
+  do {
+  } while ((_DAT_a4600010 & 2) != 0);
+  _DAT_a4600004 = in_t3 + 0x1000U & 0x1fffffff;
+  _DAT_a460000c = 0xfffff;
+  do {
+  } while ((_DAT_a4600010 & 1) != 0);
+  if (_DAT_a4080000 != 0) {
+    _DAT_a4080000 = 0;
+  }
+  _DAT_a4040010 = 0xaaaaae;
+  _DAT_a430000c = 0x555;
+  _DAT_a4800018 = 0;
+  _DAT_a450000c = 0;
+  _MI_BASE = 0x800;
+  _DAT_a4600010 = 2;
+  if (unaff_s3 == 0) {
+    _DAT_a0000308 = 0xb0000000;
+  }
+  else {
+    _DAT_a0000308 = 0xa6000000;
+  }
+  puVar2 = (undefined4 *)&DAT_a4000000;
+  _DAT_a0000300 = unaff_s4;
+  _DAT_a0000304 = unaff_s3;
+  _DAT_a000030c = unaff_s5;
+  _DAT_a0000314 = unaff_s7;
+  do {
+    puVar1 = puVar2 + 1;
+    *puVar2 = 0;
+    puVar2 = puVar1;
+  } while (puVar1 != (undefined4 *)&DAT_a4001000);
+  puVar2 = (undefined4 *)&DAT_a4001000;
+  do {
+    puVar1 = puVar2 + 1;
+    *puVar2 = 0;
+    puVar2 = puVar1;
+  } while (puVar1 != (undefined4 *)0xa4002000);
+                    /* WARNING: Could not recover jumptable at 0xa400076c. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+  (*_DAT_b0000008)();
   return;
 }
 ```
