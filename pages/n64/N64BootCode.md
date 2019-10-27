@@ -32,10 +32,10 @@ The Boot Codes can be named after the CIC (Lockout) chip that they were created 
 Md5 Hash | PAL Name (CIC chip) | NA Name (CIC Chip) | Details
 ---|---|---|---
 2dacea29bd5ae921009b68f2763112d8 | CIC-NUS-7101 | CIC-NUS-6102 | Used in 88% of games
-877439da8c0021675bbbcfb63c0a10a6 | CIC-NUS-7103 | CIC-NUS-6103 | X103 Used in 3% of games (e.g 1080 Snowboarding)
-519f29ee1440f2c7b39a79eea1aec40d | CIC-NUS-7105 | CIC-NUS-6105 | X105 Used in 4% of games (e.g Legend of Zelda OOT)
-?? | CIC-NUS-7106 | CIC-NUS-6106 | X106 Used in ?% of games (e.g Yoshi)
-?? | CIC-NUS-7102 | CIC-NUS-6101 | Used in Starfox64/Lylat Wars
+877439da8c0021675bbbcfb63c0a10a6 | CIC-NUS-7103 | CIC-NUS-6103 | Used in 3% of games (e.g 1080 Snowboarding)
+519f29ee1440f2c7b39a79eea1aec40d | CIC-NUS-7105 | CIC-NUS-6105 | Used in 4% of games (e.g Legend of Zelda OOT)
+?? | CIC-NUS-7106 | CIC-NUS-6106 | Used in 3 games (Yoshi's Story, Cruis'n World and F-Zero X) [^4]
+?? | CIC-NUS-7102 | CIC-NUS-6101 | Used in 1 game: Starfox64 (also known as Lylat Wars in PAL)
 
 ## Standard Bootcode
 The standard Boot Code (`CIC-NUS-7101`/`CIC-NUS-6102`) is what we will analysis in this post as it covers 88% of all Retail N64 games and the other Boot Codes tend to be based on it anyway.
@@ -48,6 +48,9 @@ So you can check if your rom uses this bootcode by copying 4032 bytes from offse
 
 ## What execute the bootcode
 When the `PIF ROM` has finished executing and it passes the anti-piracy CIC check it always jumps to address `0xA4000040` in memory. This is the start of the bootcode and will be where the start of the code analysis will begin.
+
+## Why have different bootcodes?
+Currently more analysis is needed to compare the different bootcodes and figure out why the differences were required and how similar they are. Comment below if you have any information that might be of use.
 
 ---
 # Pseudo C-code
