@@ -71,6 +71,7 @@ Fake Name | Address | Purpose
 Boot() | 0xa4000040 | Start of Bootcode (Initialize C0P and RCP)
 SevenSeventyEight() | 0xa4000778 |
 EightEighty() | 0xa4000880 |
+AFourty() | a4000a40
 
 We will simplify the code by treating each block of code as a C function, and what better place to start than the code at address `0xA4000040`:
 ```c
@@ -159,7 +160,7 @@ void Boot_a4000040()
     }
     do {
       *(int *)(iVar12 + 4) = iVar11;
-      iVar2 = FUN_a4000778();
+      iVar2 = SevenSeventyEight(); // call SevenSeventyEight_a4000778()
       if (iVar2 == 0) break;
       *piVar18 = iVar2;
       *puVar3 = 0x2000;
@@ -190,15 +191,15 @@ void Boot_a4000040()
     *(undefined4 *)(iVar5 + 4) = 0x80000000;
     do {
       if (puVar19[1] == -0x4ff70000) {
-        *(int *)(iVar12 + 4) = iVar16;
-        FUN_a4000a40(*puVar19,1);
-        uVar14 = uVar14 + 0x100000;
-        *(int *)(iVar12 + 4) = iVar15;
+        *(iVar12 + 4) = iVar16;
+        AFourty(*puVar19,1); // call AFourty_a4000a40()
+        uVar14 += 0x100000;
+        *(iVar12 + 4) = iVar15;
         iVar5 = extraout_v1;
       }
       else {
         *(int *)(iVar12 + 4) = iVar15;
-        FUN_a4000a40(*puVar19,1);
+        AFourty(*puVar19,1); // call AFourty_a4000a40()
         iVar15 = iVar15 + 0x8000000;
         iVar5 = extraout_v1_00;
       }
