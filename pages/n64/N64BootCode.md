@@ -258,60 +258,71 @@ void Boot_a4000040()
 
 ## CIC_NUS_6102_Code()
 This is a small piece of code that was loaded into memory in the previous function.
-```c
-void CIC_NUS_6102_Code(void)
-
-{
-  undefined4 *puVar1;
-  undefined4 *puVar2;
+```
+void CIC_NUS_6102_Code() {
+  u4 *puVar1;
+  u4 *puVar2;
   uint in_t1;
   int in_t3;
   int unaff_s3;
-  undefined4 unaff_s4;
-  undefined4 unaff_s5;
-  undefined4 unaff_s7;
+  u4 unaff_s4;
+  u4 unaff_s5;
+  u4 unaff_s7;
   
-  _DAT_a4600000 = in_t1 & 0x1fffffff;
+  _PI_DRAM_ADDR = in_t1 & 0x1fffffff;
   do {
-  } while ((_DAT_a4600010 & 2) != 0);
-  _DAT_a4600004 = in_t3 + 0x1000U & 0x1fffffff;
-  _DAT_a460000c = 0xfffff;
+  } while ((_PI_STATUS & 2) != 0);
+  
+  __PI_DMA_CART_ADDR = in_t3 + 0x1000U & 0x1fffffff;
+  _PI_DMA_WRITE_LEN = 0xfffff;
+  
   do {
-  } while ((_DAT_a4600010 & 1) != 0);
-  if (_DAT_a4080000 != 0) {
-    _DAT_a4080000 = 0;
+  } while ((_PI_STATUS & 1) != 0);
+  
+  if (_SP_PC_BASE != 0) {
+    _SP_PC_BASE = 0;
   }
-  _DAT_a4040010 = 0xaaaaae;
-  _DAT_a430000c = 0x555;
-  _DAT_a4800018 = 0;
-  _DAT_a450000c = 0;
+  
+  _SP_STATUS = 0xaaaaae;
+  _MI_INTR_MASK = 0x555;
+  _SI_STATUS = 0;
+  _AI_STATUS = 0;
   _MI_BASE = 0x800;
-  _DAT_a4600010 = 2;
+  _PI_STATUS = 2;
+  
   if (unaff_s3 == 0) {
-    _DAT_a0000308 = 0xb0000000;
+    _CART_DOMAIN_ADDRESS = 0xb0000000; // (CART_DOM1_ADDR2)
   }
   else {
-    _DAT_a0000308 = 0xa6000000;
+    _CART_DOMAIN_ADDRESS = 0xa6000000; // (CART_DOM1_ADDR1)
   }
-  puVar2 = (undefined4 *)&DAT_a4000000;
+  
+  // Write Zeros To Entire RSP DMEM & IMEM Regions
+  
+  current_address = &SP_MEM_BASE;
   _DAT_a0000300 = unaff_s4;
   _DAT_a0000304 = unaff_s3;
   _DAT_a000030c = unaff_s5;
   _DAT_a0000314 = unaff_s7;
+  
+  // Clear RSP DMEM
   do {
-    puVar1 = puVar2 + 1;
-    *puVar2 = 0;
-    puVar2 = puVar1;
-  } while (puVar1 != (undefined4 *)&DAT_a4001000);
-  puVar2 = (undefined4 *)&DAT_a4001000;
+    next_address = current_address + 1;
+    *current_address = 0;
+    current_address = next_address;
+  } while (next_address != &RSP_IMEM_START);
+  
+  
+  // Clear RSP IMEM
+  current_address = &RSP_IMEM_START;
+  
   do {
-    puVar1 = puVar2 + 1;
-    *puVar2 = 0;
-    puVar2 = puVar1;
-  } while (puVar1 != (undefined4 *)0xa4002000);
-                    /* WARNING: Could not recover jumptable at 0xa400076c. Too many branches */
-                    /* WARNING: Treating indirect jump as call */
-  (*_DAT_b0000008)();
+    next_address = current_address + 1;
+    *current_address = 0;
+    current_address = next_address;
+  } while (next_address != 0xa4002000);
+                  
+  Boot_Address_Offset(); // Boot_Address_Offset == 0xb0000008
   return;
 }
 ```
