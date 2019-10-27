@@ -50,6 +50,8 @@ So you can check if your rom uses this bootcode by copying 4032 bytes from offse
 When the `PIF ROM` has finished executing and it passes the anti-piracy CIC check it always jumps to address `0xA4000040` in memory. This is the start of the bootcode and will be where the start of the code analysis will begin.
 
 ## Why have different bootcodes?
+One reason is for security and to prevent backup devices being used, for example the `CIC-NUS-6103` and `CIC-NUS-6106` change the RAM entry point for the game [^5].
+
 Currently more analysis is needed to compare the different bootcodes and figure out why the differences were required and how similar they are. Comment below if you have any information that might be of use.
 
 ---
@@ -912,3 +914,4 @@ The boot code that executed came to 438 lines of MIPS assembly which is listed b
 [^2]: http://www.mrc.uidaho.edu/mrc/people/jff/digital/MIPSir.html 
 [^3]: Talcardo Jirones in the comment sections of this page
 [^4]: [Micro-64](http://micro-64.com/database/gamecic.shtml)
+[^5]: [ROM - en64 wiki](http://en64.shoutwiki.com/wiki/ROM)
