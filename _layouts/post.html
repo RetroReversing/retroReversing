@@ -4,7 +4,9 @@
   {% include head.html %}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{page.title}}">
-  {% if page.image %}
+  {% if page.twitterimage %}
+    <meta name="twitter:image" content="{{page.twitterimage}}">
+  {% elif page.image %}
     <meta name="twitter:image" content="{{page.image}}">
   {% else %}
     <meta name="twitter:image" content="https://www.retroreversing.com/{{page.thumbnail}}">
