@@ -3,8 +3,17 @@
 <head>
   {% include head.html %}
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:image" content="https://www.retroreversing.com/{{ page.image }}">
+  <meta name="twitter:title" content="{{page.title}}">
+  {% if page.image %}
+    <meta name="twitter:image" content="https://www.retroreversing.com/{{page.image}}">
+  {% else %}
+    <meta name="twitter:image" content="https://www.retroreversing.com/{{page.thumbnail}}">
+  {% endif %}
+  {% if page.description %}
+    <meta name="twitter:title" content="{{page.description}}">
+  {% else %}
+    <meta name="twitter:title" content="Retro reversing - Peak behind the curtain to see how your favourite video games were made.">
+  {% endif %}
 </head>
 <body class="fixed-header">
   <!-- header -->
