@@ -6,7 +6,7 @@ tags:
 - sdk
 title: GD Workshop (GD-R Burner/Virtualiser)
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: /public/consoles/Sega Dreamcast.png
+image: /public/images/dreamcast/Dreamcast-GD-Workshop.jpg
 permalink: /sega-dreamcast-gd-workshop
 breadcrumbs:
   - name: Home
@@ -19,7 +19,7 @@ recommend:
 - dreamcast
 - sdk
 editlink: /dreamcast/DreamcastGDWorkshop.md
----
+---	
 
 GD Workshop was developed by CrossProducts as a tool to not only burn GD-Rs but also to create virtual GDROM images for use on the DEV.BOX.
 
