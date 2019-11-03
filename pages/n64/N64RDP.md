@@ -2,10 +2,10 @@
 layout: post
 tags: 
 - n64
-title: N64 RSP - Reality Display Processor
+title: N64 RDP - Reality Display Processor
 image:  /public/consoles/Nintendo 64.png
 thumbnail: /public/consoles/Nintendo 64.png
-permalink: /n64rsp
+permalink: /n64rdp
 breadcrumbs:
   - name: Home
     url: /
