@@ -38,4 +38,6 @@ There were a few third party developers who created their own custom development
 
 ## Official Software development kit
 
+<div>
 {% include console.html %}
+</div>
