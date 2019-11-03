@@ -1,10 +1,13 @@
 ---
 permalink: /saturn/
-layout: blog-cards
+layout: post
 console: 'saturn'
-title: 'Sega Saturn'
+title: 'Sega Saturn (Hacking & Reversing)'
 consoleimage: /public/consoles/Sega Saturn.png
 thumbnail: /public/consoles/Sega Saturn.png
+recommend: saturn
+recommendTitle: All Saturn Posts
+editlink: ../categories/consoles/saturn.md
 breadcrumbs:
   - name: Home
     url: /
