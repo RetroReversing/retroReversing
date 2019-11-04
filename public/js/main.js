@@ -128,7 +128,7 @@
 //   Used for the carousel on the homepage
 	$('.full-height .carousel-item').each(function () {
 // 		$(this).css('height', $(window).height()  - $('header').outerHeight() );
-    $(this).css('height', '75vh'  );
+    $(this).css('height', '50vh'  );
   });
 
 // 	$(window).resize(function () {
