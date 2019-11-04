@@ -125,9 +125,10 @@
 	});
 
 	// Full Height
+//   Used for the carousel on the homepage
 	$('.full-height .carousel-item').each(function () {
 // 		$(this).css('height', $(window).height()  - $('header').outerHeight() );
-    $(this).css('height', '40vh'  );
+    $(this).css('height', '75vh'  );
   });
 
 // 	$(window).resize(function () {
