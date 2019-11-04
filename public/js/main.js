@@ -125,15 +125,15 @@
 	});
 
 	// Full Height
-	$('.full-height .carousel-item').each(function () {
-		$(this).css('height', $(window).height()  - $('header').outerHeight() );
-  });
+// 	$('.full-height .carousel-item').each(function () {
+// 		$(this).css('height', $(window).height()  - $('header').outerHeight() );
+//   });
 
-	$(window).resize(function () {
-    $('.full-height .carousel-item').each(function () {
-			$(this).css('height', $(window).height()  - $('header').outerHeight() );
-    });
-  });
+// 	$(window).resize(function () {
+//     $('.full-height .carousel-item').each(function () {
+// 			$(this).css('height', $(window).height()  - $('header').outerHeight() );
+//     });
+//   });
 
 
 	// Embed Player
