@@ -40,6 +40,39 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
           
   <script>
+    
+    // wait for the entire page to finish loading
+    window.addEventListener('load', function() {
+
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+
+    });
+
+    function lazyLoad() {
+      var card_images = document.querySelectorAll('.card-img');
+
+      // loop over each card image
+      card_images.forEach(function(card_image) {
+        var image_url = card_image.getAttribute('data-image-full');
+        var content_image = card_image.querySelector('img');
+
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+
+        // listen for load event when the new photo is finished loading
+        content_image.addEventListener('load', function() {
+          // swap out the visible background image with the new fully downloaded photo
+          card_image.style.backgroundImage = 'url(' + image_url + ')';
+          // add a class to remove the blur filter to smoothly transition the image change
+          card_image.className = card_image.className + ' is-loaded';
+        });
+
+      });
+
+    }
+    
+    
     (function($) {
       "use strict";
 
