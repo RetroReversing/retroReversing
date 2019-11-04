@@ -50,12 +50,12 @@
     });
 
     function lazyLoad() {
-      var card_images = document.querySelectorAll('.card-img');
+      var card_images = document.querySelectorAll('.lazy-load');
 
       // loop over each card image
-      card_images.forEach(function(card_image) {
+      card_images.forEach(function(content_image) {
         
-        var content_image = card_image.querySelector('img');
+//         var content_image = card_image.querySelector('img');
         var image_url = content_image.getAttribute('data-image-full');
 
         // change the src of the content image to load the new high res photo
