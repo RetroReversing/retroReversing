@@ -125,9 +125,10 @@
 	});
 
 	// Full Height
-// 	$('.full-height .carousel-item').each(function () {
+	$('.full-height .carousel-item').each(function () {
 // 		$(this).css('height', $(window).height()  - $('header').outerHeight() );
-//   });
+    $(this).css('height', '40vh'  );
+  });
 
 // 	$(window).resize(function () {
 //     $('.full-height .carousel-item').each(function () {
