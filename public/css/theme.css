@@ -4500,6 +4500,7 @@ input[type="file"] {
   max-width: 100%;
   height: 150px;
   width:100%;
+  background-color: lightgrey;
 }
 
 .card .card-img .badge {
