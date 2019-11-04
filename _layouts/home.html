@@ -33,9 +33,9 @@
                   <div class="card-img">
                       <a href="{{ post.url }}">
                         {% if post.image %}
-                            <img src="{{ post.image }}" alt="{{ post.title }}">
+                            <img src="{{ post.image }}" data-image-full="{{ post.image }}" alt="{{ post.title }}">
                         {% else if post.youtube %}
-                            <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                            <img data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
                         {% endif %}
                       </a>
                       {% if post.recommend %}
