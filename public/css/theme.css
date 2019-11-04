@@ -4501,6 +4501,8 @@ input[type="file"] {
   height: 150px;
   width:100%;
   background-color: lightgrey;
+  min-height: 150px;
+  min-width: 100%;
 }
 
 .card .card-img .badge {
