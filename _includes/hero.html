@@ -12,7 +12,7 @@
 {% endif %}
 {% if page.herocarousel %}
 <section class="bg-inverse p-y-0">
-    <div class="owl-carousel owl-slide-auto-play" style="height:50vh">
+    <div class="owl-carousel owl-slide-auto-play full-height" style="height:50vh">
       {% for item in page.herocarousel %}
         <div class="carousel-item" style="background-image: url('{{ item.image }}');">
           <div class="carousel-overlay"></div>
