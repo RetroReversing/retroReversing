@@ -20,7 +20,7 @@ redirect_from:
   - /ss
 ---
 
-# Introduction to Hacking the Sega Saturn
+# Introduction to Hacking/Modding/Reversing the Sega Saturn
 Interested in learning more about the the Saturn? Excellent! This section will guide you through the basics, starting from basic architecture all the way to an introduction to reverse engineering your first game!
 
 {% include link-to-other-post.html post="/saturn-reversing" description="For an introduction on reverse engineering Sega Saturn games check out this post." %}
@@ -51,7 +51,9 @@ There were a few third party developers who created their own custom development
 # Software Development Kits
 
 ## Official Software development kit
+The Official Software development kit was developed in-house by SEGA and was made up of multiple libraries and compiler toolchains. One was a fork of GCC built by `Cygnus Solutions` and the other was a custom compiler built by `Hitachi`.
 
+{% include link-to-other-post.html post="/sega-saturn-sdk/" description="For more information on Official SDK for the Saturn check out this post." %}
 
 ---
 <div>
