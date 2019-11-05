@@ -33,14 +33,18 @@
                   <div class="card-img">
                       <a href="{{ post.url }}">
                         {% if post.image %}
-                            <img class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
+                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
                         {% else if post.youtube %}
-                            <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
                         {% endif %}
                       </a>
                       {% if post.recommend %}
                         <div class="card-meta">
-                          <span>{{ post.recommend }}</span>
+                          {% if post.recommend.first %}
+                            <span>{{ post.recommend.first }}</span>
+                          {% else %}
+                            <span>{{ post.recommend }}</span>
+                          {% endif %}
                         </div>
                       {% endif %}
                   </div>
