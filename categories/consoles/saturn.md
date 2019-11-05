@@ -30,6 +30,10 @@ When it comes to finding a game to reverse engineer it can be helpful to look at
 
 {% include link-to-other-post.html post="/sega-saturn-exclusives/" description="For a list of all the exclusive Sega Saturn games check out this post." %}
 
+## Sega Saturn Graphics
+There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be preven false with some clever programming techniques.
+
+{% include link-to-other-post.html post="/saturn-transparency" description="For details on Transparency effects in Sega Saturn games check out this post." %}
 
 ---
 # Development Kits (Hardware)
@@ -48,6 +52,8 @@ There were a few third party developers who created their own custom development
 
 ## Official Software development kit
 
+
+---
 <div>
 {% include console.html %}
 </div>
