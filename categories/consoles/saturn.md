@@ -20,6 +20,16 @@ redirect_from:
   - /ss
 ---
 
+# Introduction to Hacking the Sega Saturn
+Interested in learning more about the the Saturn? Excellent! This section will guide you through the basics, starting from basic architecture all the way to an introduction to reverse engineering your first game!
+
+{% include link-to-other-post.html post="/saturn-reversing" description="For an introduction on reverse engineering Sega Saturn games check out this post." %}
+
+## Sega Saturn Exclusives
+When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
+
+{% include link-to-other-post.html post="/sega-saturn-exclusives/" description="For a list of all the exclusive Sega Saturn games check out this post." %}
+
 
 ---
 # Development Kits (Hardware)
