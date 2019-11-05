@@ -1,8 +1,8 @@
 {% if page.videocarousel %}
 <section class="bg-inverse p-y-0">
-    <div class="owl-carousel owl-slide full-height" style="height:80vh">
+    <div class="owl-carousel owl-slide">
       {% for item in page.videocarousel %}
-        <div class="carousel-item" style="background-image: url('{{ item.image }}');">
+        <div class="carousel-item" style="height: 80vh; background-image: url('{{ item.image }}');">
           <div class="carousel-overlay"></div>
           <div class="carousel-caption">
               <div class="embed-responsive embed-responsive-16by9">
