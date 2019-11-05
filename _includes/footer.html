@@ -35,7 +35,7 @@
 <script src="/public/js/binary_unparser.bundle.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/min/dropzone.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script> -->
 
 <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.js"></script>
           
@@ -78,33 +78,40 @@
       "use strict";
 
       // Full Width Carousel
-      $('.owl-slide').owlCarousel({
+      $('.owl-slide-auto-play').owlCarousel({
         nav: true,
         loop: true,
         autoplay: true,
         items: 1
       });
+      
+      $('.owl-slide').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: false,
+        items: 1
+      });
 
       // Recent Reviews
-      $('.owl-list').owlCarousel({
-        margin: 25,
-        nav: true,
-        dots: false,
-        responsive: {
-          0: {
-            items: 1
-          },
-          500: {
-            items: 2
-          },
-          701: {
-            items: 3
-          },
-          1000: {
-            items: 4
-          }
-        }
-      });
+//       $('.owl-list').owlCarousel({
+//         margin: 25,
+//         nav: true,
+//         dots: false,
+//         responsive: {
+//           0: {
+//             items: 1
+//           },
+//           500: {
+//             items: 2
+//           },
+//           701: {
+//             items: 3
+//           },
+//           1000: {
+//             items: 4
+//           }
+//         }
+//       });
       
       // Make markdown tables have the bootstrap table class to look pretty
       $('table').addClass('table');
@@ -112,21 +119,21 @@
       $('table').DataTable();
 
       // lightbox
-      $('[data-lightbox]').lightbox();
+//       $('[data-lightbox]').lightbox();
       
       // scroll animations
       new WOW().init();
     })(jQuery);
     
-    $(document).ready(function() {
-        $('.postSection .postImage').magnificPopup({
-          type: 'image',
-          closeOnContentClick: true,
-          mainClass: 'mfp-img-mobile',
-          image: {
-            verticalFit: true
-          }
-        });
-    });
+//     $(document).ready(function() {
+//         $('.postSection .postImage').magnificPopup({
+//           type: 'image',
+//           closeOnContentClick: true,
+//           mainClass: 'mfp-img-mobile',
+//           image: {
+//             verticalFit: true
+//           }
+//         });
+//     });
   </script>
 <script src="/public/js/main.js"></script>
