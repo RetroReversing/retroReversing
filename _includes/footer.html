@@ -76,20 +76,25 @@
     
     (function($) {
       "use strict";
+      
+      var items = 1;
+      if ($(window).width() > 600) {
+        items=2;
+      }
 
       // Full Width Carousel
       $('.owl-slide-auto-play').owlCarousel({
         nav: true,
         loop: true,
         autoplay: true,
-        items: 1
+        items: items
       });
       
-      $('.owl-slide').owlCarousel({
+      $('.owl-slide-no-auto').owlCarousel({
         nav: true,
         loop: true,
         autoplay: false,
-        items: 1
+        items: items
       });
 
       // Recent Reviews
