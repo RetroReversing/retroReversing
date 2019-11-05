@@ -35,6 +35,11 @@ There are some myths around the Sega Saturn's graphical abilities, such as the l
 
 {% include link-to-other-post.html post="/saturn-transparency" description="For details on Transparency effects in Sega Saturn games check out this post." %}
 
+## Retail Sega Saturn hardware
+When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a facinating topic.
+
+{% include link-to-other-post.html post="/saturn-architecture" description="For more information on the Saturn hardware architecture check out this post." %}
+
 ---
 # Development Kits (Hardware)
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by nintendo as a few other publishers had their own versions of development hardware.
@@ -54,6 +59,11 @@ There were a few third party developers who created their own custom development
 The Official Software development kit was developed in-house by SEGA and was made up of multiple libraries and compiler toolchains. One was a fork of GCC built by `Cygnus Solutions` and the other was a custom compiler built by `Hitachi`.
 
 {% include link-to-other-post.html post="/sega-saturn-sdk/" description="For more information on Official SDK for the Saturn check out this post." %}
+
+### Using the SDK - Compiling samples
+One of the best ways to get started understanding how games were made using the official SDK is to tinker with the samples that come packaged with the SDK. By compiling and running these on a saturn console you can start to understand how everything pieces together.
+
+{% include link-to-other-post.html post="/sega-saturn-compiling-samples/" description="For more information on Official SDK for the Saturn check out this post." %}
 
 ---
 <div>
