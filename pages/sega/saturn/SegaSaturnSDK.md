@@ -19,20 +19,23 @@ breadcrumbs:
 recommend: saturn
 editlink: /sega/saturn/SegaSaturnSDK.md
 ---
-The Sega Saturn software development kit was available for both PC and SGI workstations.
-
+The Sega Saturn software development kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by sega and a few custom 3rd party.
 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
 
 ---
 #  Compiler Toolchain
-There were multiple sets of compilers available to Sega Saturn developers, the most popular being the Cygnus Solutions version of GCC for SH Microprocessors (Supplied by Sega). Cygnus Solutions were a company that sold GNU products with enterprise level support to make it easier for developers when they encountered compiler issues.
+There were multiple sets of compilers available to Sega Saturn developers, the most popular being the Cygnus Solutions version of GCC for SH Microprocessors (Supplied by Sega) and the other was the custom SH-2 compiler developed by `Hitachi`. 
 
-Although the compiler toolchain supports C++ it was reccomended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
+Cygnus Solutions were a company that sold GNU products with enterprise level support to make it easier for developers when they encountered compiler issues.
+
+Although the Cygnus Solutions compiler toolchain supports C++ it was reccomended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
+
+{% include link-to-other-post.html post="/sega-saturn-hitachi-compiler/" description="For more information on Hitachi Compiler for the Saturn check out this post." %}
 
 ---
 # Tools
-The Tools provided by the Sega Saturn Software Development Kit will be covered in this section.
+The SDK didn't only provide compilers, there was a set of useful tools provided for a wide variety of tasks such as image conversion and debugging.
 
 ## Background Converter (BGCON)
 Latest Known Version: 1.6
