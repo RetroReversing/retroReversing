@@ -169,6 +169,12 @@ For Graphics Designers a `Graphics Box` can be purchased from Sega. This image w
 * Blue Cart (PsyQ)
 * Cross Products VCD/CD board
 
+---
+
+# Overall Cost of Development Kits
+In this side by side example of the Sega Saturn and Nintendo 64 you can see which one developers preferred in terms of cost:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 # References
 [^1]: https://segaretro.org/Sega_Saturn_Programming_Box
