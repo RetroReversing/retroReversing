@@ -109,7 +109,7 @@ If the game accessed memory in certain restricted regions this machine would sen
 
 This machine would likely be used by Sega themselves to check if games can be given the go-ahead to be produced, otherwise they would be failed and given back to the developer to fix the memory issues.
 
-{% include link-to-other-site.html link="https://nfggames.com/games/satadd/" description="NFGGames has a good page on the original `SI Electronics` Address checker." title="IS Electronics / Sega Saturn Address Checker - NFG Games" image="https://nfggames.com/games/satadd/satadd2.jpg" %}
+{% include link-to-other-site.html link="https://nfggames.com/games/satadd/" description="NFGGames has a good page on the original SI Electronics Address checker." title="IS Electronics / Sega Saturn Address Checker - NFG Games" image="https://nfggames.com/games/satadd/satadd2.jpg" %}
 
 For the second version of the Sega Saturn Address checker hardware it was basically a retail Saturn with LED lights down the side, one for each unmapped memory area, for more information SEGARetro has an excellent wiki page on it: [Sega Saturn Address Checker - Sega Retro](https://segaretro.org/Sega_Saturn_Address_Checker)
 
