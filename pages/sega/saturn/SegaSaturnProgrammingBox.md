@@ -66,7 +66,7 @@ The following youtube video shows a CartDev in action:
 <img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
 
 ---
-# Cross Products Dev Kit
+# Cross Products Dev Kit (SNASM2)
 <img src="/public/images/saturn/CrossProductsCartDev.png" />
 
 According to the article in EDGE Cross Products has just been bought by SEGA and were in charge of supplying the CartDev, Mirage CD Emulator and Modified Saturn to game development studios [^3].
@@ -81,6 +81,9 @@ According the to advert it was a pretty advanced game development kit back in 19
 SNASM2 can give you the edge! 
 The preferred development system of SEGA Worldwide, SNASM2 Saturn provides full C Source level debugging, C-Structure browse facility, and local variable windows, along with support for user breakpoint controller in SH2s.
 ```
+
+You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow from `ausretrogamer`:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 # Modified Sega Saturn
