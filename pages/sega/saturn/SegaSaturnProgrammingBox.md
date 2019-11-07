@@ -18,14 +18,17 @@ breadcrumbs:
     url: /devkit
   - name: Official Sega Saturn Development Kit (Hardware)
     url: #
-recommend: devkit
+recommend: 
+  - devkit
+  - crossproducts
 editlink: /sega/saturn/SegaSaturnProgrammingBox.md
 references:
   - segaretro.org
   - youtube
+updatedAt: 7th November 2019
 ---
 
-During the sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
+During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
 # Sega Saturn Programming Box (Sophia Systems)
 <img src="/public/SaturnProgrammingBox.jpg" />
@@ -69,6 +72,16 @@ According to the article in EDGE Cross Products has just been bought by SEGA and
 
 The Software Development Kit that was provided with these systems were also provided by Cross Products and were under the `SNASM2` SDK brand name. This provided all the standard libraries, compilers and other build tools to create Saturn games.
 
+There was an advert in the Uk magazine `EDGE` issue 21 that took the space theme of the saturn and ran with it:
+<img src="/public/magazine/SNASM2.Saturn.EDGE.N021.1995.06.jpg" />
+
+According the to advert it was a pretty advanced game development kit back in 1995 [^7]:
+```
+SNASM2 can give you the edge! 
+The preferred development system of SEGA Worldwide, SNASM2 Saturn provides full C Source level debugging, C-Structure browse facility, and local variable windows, along with support for user breakpoint controller in SH2s.
+```
+
+
 # Modified Sega Saturn
 The Modified Sega Saturn that Cross Products sold to game developers was known as the `DevSaturn` and can be seen in this sort youtube video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/72Ac7R5TMuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -100,7 +113,7 @@ NFGGames has a good page on the original `SI Electronics` Address checker here: 
 For the second version of the Sega Saturn Address checker hardware it was basically a retail Saturn with LED lights down the side, one for each unmapped memory area, for more information SEGARetro has an excellent wiki page on it: [Sega Saturn Address Checker - Sega Retro](https://segaretro.org/Sega_Saturn_Address_Checker)
 
 ---
-# Sega Saturn Boot DIsc
+# Sega Saturn Boot Disc
 Similar to the Dreamcast's System Disc 2, this is a disc that allows any retail Sega Saturn to play developer written CD-Rs without any Saturn modding required.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jdOdhjv1FNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -158,6 +171,7 @@ For Graphics Designers a `Graphics Box` can be purchased from Sega. This image w
 [^1]: https://segaretro.org/Sega_Saturn_Programming_Box
 [^2]: https://segaretro.org/Sophia_Systems
 [^3]: EDGE Magazine issue 23 (August 1995)
-[^4]: [(198) Sega Saturn System Boot Disc (Play Backups Without Modding!) - Game Taff - YouTube](https://www.youtube.com/watch?v=jdOdhjv1FNY)
+[^4]: [Sega Saturn System Boot Disc (Play Backups Without Modding!) - Game Taff - YouTube](https://www.youtube.com/watch?v=jdOdhjv1FNY)
 [^5]: [Ebay: Hitachi E7000 PC Saturn SH-2 Debugging station | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/ebay-hitachi-e7000-pc-saturn-sh-2-debugging-station.3092/)
 [^6]: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html)
+[^7]: EDGE issue 21 (June 1995)
