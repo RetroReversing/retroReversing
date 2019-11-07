@@ -22,6 +22,7 @@ breadcrumbs:
     url: #
 recommend: gamecube
 editlink: /gamecube/007 Agent Under Fire.md
+updatedAt: 7 November 2019
 ---
 
 # Game Specs
