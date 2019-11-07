@@ -46,10 +46,8 @@ The P-Box also has a custom Japanese-only SCSI connection to the developers PC (
 # Sega of America's Cart Dev
 ￼<img src="/public/images/saturn/P-BOX_and_CartDev.png" />
 
-
-The CartDev system was a much cheaper alternative to the Sophia P-Box costing just $4,800 instead of the $7,475 for the P-Box.
+The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just $4,800 instead of the $7,475 for the P-Box.
 ￼
-
 <img src="/public/images/saturn/Sega_CartDev_1.jpg" />
 
 There are 2 versions of the CartDev kit:
@@ -111,7 +109,7 @@ If the game accessed memory in certain restricted regions this machine would sen
 
 This machine would likely be used by Sega themselves to check if games can be given the go-ahead to be produced, otherwise they would be failed and given back to the developer to fix the memory issues.
 
-NFGGames has a good page on the original `SI Electronics` Address checker here: [IS Electronics / Sega Saturn Address Checker - NFG Games](https://nfggames.com/games/satadd/)
+{% include link-to-other-site.html link="https://nfggames.com/games/satadd/" description="NFGGames has a good page on the original `SI Electronics` Address checker." title="IS Electronics / Sega Saturn Address Checker - NFG Games" image="https://nfggames.com/games/satadd/satadd2.jpg" %}
 
 For the second version of the Sega Saturn Address checker hardware it was basically a retail Saturn with LED lights down the side, one for each unmapped memory area, for more information SEGARetro has an excellent wiki page on it: [Sega Saturn Address Checker - Sega Retro](https://segaretro.org/Sega_Saturn_Address_Checker)
 
