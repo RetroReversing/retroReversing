@@ -45,9 +45,12 @@ The P-Box also has a custom Japanese-only SCSI connection to the developers PC (
 ---
 # Sega of America's Cart Dev
 ￼<img src="/public/images/saturn/P-BOX_and_CartDev.png" />
-￼
+
+
 The CartDev system was a much cheaper alternative to the Sophia P-Box costing just $4,800 instead of the $7,475 for the P-Box.
-￼<img src="/public/images/saturn/Sega_CartDev_1.jpg" />
+￼
+
+<img src="/public/images/saturn/Sega_CartDev_1.jpg" />
 
 There are 2 versions of the CartDev kit:
 * Cross CartDev Rev.A
@@ -58,15 +61,15 @@ The following youtube video shows a CartDev in action:
 
 
 ## Connecting CartDev To the old P-Box
-￼<img src="/public/images/saturn/ConnectCartDevToPBox.png" />
+<img src="/public/images/saturn/ConnectCartDevToPBox.png" />
 
 
 ## Connecting CartDev to modified retail Saturn
-￼<img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
+<img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
 
 ---
 # Cross Products Dev Kit
-￼<img src="/public/images/saturn/CrossProductsCartDev.png" />
+<img src="/public/images/saturn/CrossProductsCartDev.png" />
 
 According to the article in EDGE Cross Products has just been bought by SEGA and were in charge of supplying the CartDev, Mirage CD Emulator and Modified Saturn to game development studios [^3].
 
@@ -92,7 +95,7 @@ It has a DIP switch on the side to switch between the CD emulator and the actual
 It also has a connection port on the left hand side of the unit along side a Cross Products Logo. This is where it would connect to the Mirage CD emulator from Cross Products.
 
 You can see the back of the modified saturn with the cross products CD Switch in a photo taken by `stevejigga` and posted on the AssemblerGames forum:
-￼<img src="/public/images/saturn/CrossProducts_Saturn_CD_Switch.jpg" />
+<img src="/public/images/saturn/CrossProducts_Saturn_CD_Switch.jpg" />
 
 The official price list from Cross Products put the Modified Saturn by itself at a price of £500 with a brief description:
 > Production Saturn fitted with shielded NMI cables and CD switch 
@@ -141,7 +144,7 @@ The Mirage wasn't the only way to mount discs for the development system, there 
 
 ---
 # Hitachi E7000 PC Debug Unit (ICE)
-￼<img src="/public/images/saturn/Hitachi-E7000-PC-Debug-Saturn.jpg" />
+<img src="/public/images/saturn/Hitachi-E7000-PC-Debug-Saturn.jpg" />
 The Hitachi E7000 PC Debug Unit is an In Circuit Emulator or ICE for short, it connects to the Sophia (P-Box) or the Address Checker hardware and also the developers PC.
 
 This was used by developers to debug their games and it acted as a full SH-2 cpu. It was not cheap as one unit cost $15,000.00 USD including all wires and documentation, so not all developers could have one of these units.
@@ -158,7 +161,7 @@ Sega recommended Macintosh for sound designers or 2D Artists, and SGI INDY or IN
 For sound designers a `Sound Box` could be purchased for $4,800.00 from SEGA and connected to the sound designers Macintosh system.
 
 ## Graphics Target Box by Sophia Systems
-￼<img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" />
+<img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" />
 For Graphics Designers a `Graphics Box` can be purchased from Sega. This image was from `Chris M Covell`[^6] and you can checkout his excellent site here: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html).
 
 ---
