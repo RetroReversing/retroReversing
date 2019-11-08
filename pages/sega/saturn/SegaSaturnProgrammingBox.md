@@ -147,10 +147,14 @@ The Mirage wasn't the only way to mount discs for the development system, there 
 
 ---
 # Hitachi E7000 PC Debug Unit (ICE)
-<img src="/public/images/saturn/Hitachi-E7000-PC-Debug-Saturn.jpg" />
-The Hitachi E7000 PC Debug Unit is an In Circuit Emulator or ICE for short, it connects to the Sophia (P-Box) or the Address Checker hardware and also the developers PC.
+<section class="postSection">
+  <img src="/public/images/saturn/Hitachi-E7000-PC-Debug-Saturn.jpg"  class="wow slideInLeft postImage" />
+  <div markdown="1">
+  The Hitachi E7000 PC Debug Unit is an In Circuit Emulator or ICE for short, it connects to the Sophia (P-Box) or the Address Checker hardware and also the developers PC.
 
-This was used by developers to debug their games and it acted as a full SH-2 cpu. It was not cheap as one unit cost $15,000.00 USD including all wires and documentation, so not all developers could have one of these units.
+  This was used by developers to debug their games and it acted as a full SH-2 cpu. It was not cheap as one unit cost $15,000.00 USD including all wires and documentation, so not all developers could have one of these units.
+  </div>
+</section>
 
 You can use the `ipi` executable included with the hitachi development kit to connect to it as shown in the video below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yUgepCl0J0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
