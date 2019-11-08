@@ -43,10 +43,34 @@ The P-Box had a DIP switch to change between the built in CD emulator (which boo
 The P-Box also has a custom Japanese-only SCSI connection to the developers PC (or SGI Indy) so the developer could send game builds to the system and debug games from the PC interface.
 
 ---
-# Sega of America's Cart Dev
-￼<img src="/public/images/saturn/P-BOX_and_CartDev.png" />
+# Cross Products Dev Kit (SNASM2)
+Cross Products is a UK based company that specialised in createing development kits of all sort of consoles, most success came with their SEGA mega-drive line of products. So when the SEGA Saturn was announced they jumped on board to build their own development kit known as the `Cross Saturn` based on their `SNASM2` line of development kits.
 
-The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just $4,800 instead of the $7,475 for the P-Box.
+<img src="/public/images/saturn/CrossProductsCartDev.png" />
+
+
+
+The Software Development Kit that was provided with these systems were also provided by Cross Products and were under the `SNASM2` SDK brand name. This provided all the standard libraries, compilers and other build tools to create Saturn games.
+
+There was an advert in the Uk magazine `EDGE` issue 21 that took the space theme of the saturn and ran with it:
+<img src="/public/magazine/SNASM2.Saturn.EDGE.N021.1995.06.jpg" />
+
+According the to advert it was a pretty advanced game development kit back in 1995 [^7]:
+
+> SNASM2 can give you the edge! 
+> The preferred development system of SEGA Worldwide, SNASM2 Saturn provides full C Source level debugging, C-Structure browse > facility, and local variable windows, along with support for user breakpoint controller in SH2s.
+
+
+You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow from `ausretrogamer`:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had just been bought by SEGA and were put in charge of supplying the next development kit known as `CartDev`. There were also responsible for the `Mirage CD Emulator` and Modified Saturn sold to game development studios [^3].
+
+---
+# Sega CartDev
+<img src="/public/images/saturn/P-BOX_and_CartDev.png" />
+
+The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just $4,800 instead of the $7,475 for the P-Box. It was the result of SEGA buying the development studio `Cross Products` and rebranding their SNASM2 development kit as the Official Sega `CartDev`.
 ￼
 <img src="/public/images/saturn/Sega_CartDev_1.jpg" />
 
@@ -61,32 +85,15 @@ The following youtube video shows a CartDev in action:
 
 
 ## Connecting CartDev To the old P-Box
+The new CartDev development kit needed saturn hardware to connect to, as the Sophia P-Box was technically Saturn hardware it could also be used with the CartDev devleopment kit. This would have been at least a partial relief for developers who spent thousands of dollars on the first Sega Saturn Development kit, only for it to be replaced by the `CartDev` not long after.
 <img src="/public/images/saturn/ConnectCartDevToPBox.png" />
 
 
 ## Connecting CartDev to modified retail Saturn
+For developers that didn't have a Sophia Systems Programming Box there was a much cheaper alternative provided with the `CartDev` system. Cross Products could modify a retail sega saturn console and allow it to connect to the `CartDev` system.
 <img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
 
 ---
-# Cross Products Dev Kit (SNASM2)
-<img src="/public/images/saturn/CrossProductsCartDev.png" />
-
-According to the article in EDGE Cross Products has just been bought by SEGA and were in charge of supplying the CartDev, Mirage CD Emulator and Modified Saturn to game development studios [^3].
-
-The Software Development Kit that was provided with these systems were also provided by Cross Products and were under the `SNASM2` SDK brand name. This provided all the standard libraries, compilers and other build tools to create Saturn games.
-
-There was an advert in the Uk magazine `EDGE` issue 21 that took the space theme of the saturn and ran with it:
-<img src="/public/magazine/SNASM2.Saturn.EDGE.N021.1995.06.jpg" />
-
-According the to advert it was a pretty advanced game development kit back in 1995 [^7]:
-```
-SNASM2 can give you the edge! 
-The preferred development system of SEGA Worldwide, SNASM2 Saturn provides full C Source level debugging, C-Structure browse facility, and local variable windows, along with support for user breakpoint controller in SH2s.
-```
-
-You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow from `ausretrogamer`:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 # Modified Sega Saturn
 The Modified Sega Saturn that Cross Products sold to game developers was known as the `DevSaturn` and can be seen in this sort youtube video:
@@ -102,11 +109,12 @@ You can see the back of the modified saturn with the cross products CD Switch in
 
 Notice the `VCD` port, this is not for the `Video Compact Disc` feature of the Sega Saturn but instead used for Virtual CD emulators such as the `Mirage` which was a harddrive that emulated the functionality of loading a CD, much quicker than actually burning a physical CD! [^8]
 
-Presumably the modification to be able to use the CD emulator, along with the region switcher is the only modifications made to the retail saturn units, but its also possible they enabled running CD-Rs without using the Sega Saturn Boot disc, but this is unconfirmed.
+Presumably the modification to be able to use the CD emulator, along with the region switcher is the only modifications made to the retail saturn units.
 
-The official price list from Cross Products put the Modified Saturn by itself at a price of £500 with a brief description:
-> Production Saturn fitted with shielded NMI cables and CD switch 
+The official price list from Cross Products put the Modified Saturn by itself at a price of £500 which are simply described as:
+> A production Saturn fitted with shielded NMI cables and CD switch (VCD)
 
+---
 # Address Checker Hardware by SI Electronics
 ￼<img src="/public/images/saturn/SegaSaturn_Address_Checker.jpg" />
 
