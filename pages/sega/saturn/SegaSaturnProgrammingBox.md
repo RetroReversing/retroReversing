@@ -164,8 +164,12 @@ You can use the `ipi` executable included with the hitachi development kit to co
 Sega recommended Macintosh for sound designers or 2D Artists, and SGI INDY or INDIGO2 machines for 3D work. Sega also released a couple of hardware attachments for Macintosh systems specifically for these designers.
 
 ## Sound Target Box by Sophia Systems
-￼<img src="/public/images/saturn/Sophia-Sega-Saturn-Sound-Box-byPeekB.jpg" />
+<section class="postSection">
+  <img src="/public/images/saturn/Sophia-Sega-Saturn-Sound-Box-byPeekB.jpg" class="wow slideInLeft postImage" />
+  <div markdown="1">
 For sound designers a `Sound Box` could be purchased for $4,800.00 from SEGA and connected to the sound designers Macintosh system.
+  </div>
+</section>
 
 ## Graphics Target Box by Sophia Systems
 <img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" />
