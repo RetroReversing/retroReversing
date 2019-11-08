@@ -25,7 +25,7 @@ editlink: /sega/saturn/SegaSaturnProgrammingBox.md
 references:
   - segaretro.org
   - youtube
-updatedAt: 7th November 2019
+updatedAt: 8th November 2019
 ---
 
 During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
@@ -190,17 +190,18 @@ This was the first sound development hardware available for the SEGA saturn and 
 For Graphics Designers a `Graphics Box` can be purchased from Sega. This image was from `Chris M Covell`[^6] and you can checkout his excellent site here: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html).
 
 ---
-# Others
-* Blue Cart (PsyQ)
-* Cross Products VCD/CD board
-
----
-
 # Overall Cost of Development Kits
 In this side by side example of the Sega Saturn and Nintendo 64 you can see which one developers preferred in terms of cost:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+---
 
+# 3rd Party Development kits
+Although the Cross Products development kit was initially a 3rd party development kit it was included on this page as it became the official `CartDev` development kit. However there was also another competing 3rd party development kit by Sony of all people.. well technically a company that got bought by Sony: Sn Systems & Psygnosis. It was called the Psy-Q Saturn development kit and it was part of a cross platform suite of development kits.
+
+{% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SN Systems & Psygnosis PSYQ Saturn check out this post." %}
+
+---
 # References
 [^1]: https://segaretro.org/Sega_Saturn_Programming_Box
 [^2]: https://segaretro.org/Sophia_Systems
