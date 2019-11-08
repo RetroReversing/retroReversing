@@ -54,6 +54,8 @@ There are 2 versions of the CartDev kit:
 * Cross CartDev Rev.A
 * Cross CartDev Rev.B
 
+The first Revision (Rev A) has an issue with the power supply unit and so was quickly replaced with the latest revision B model, so it is much more common to find the Rev.B model out in the wild [^8].
+
 The following youtube video shows a CartDev in action:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKH07vPTC7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -98,10 +100,12 @@ It also has a connection port on the left hand side of the unit along side a Cro
 You can see the back of the modified saturn with the cross products CD Switch in a photo taken by `stevejigga` and posted on the AssemblerGames forum:
 <img src="/public/images/saturn/CrossProducts_Saturn_CD_Switch.jpg" />
 
-The official price list from Cross Products put the Modified Saturn by itself at a price of £500 with a brief description:
-> Production Saturn fitted with shielded NMI cables and CD switch 
+Notice the `VCD` port, this is not for the `Video Compact Disc` feature of the Sega Saturn but instead used for Virtual CD emulators such as the `Mirage` which was a harddrive that emulated the functionality of loading a CD, much quicker than actually burning a physical CD! [^8]
 
 Presumably the modification to be able to use the CD emulator is the only modification made to the retail saturn units, but its also possible they enabled running CD-Rs without using the Sega Saturn Boot disc, but this is unconfirmed.
+
+The official price list from Cross Products put the Modified Saturn by itself at a price of £500 with a brief description:
+> Production Saturn fitted with shielded NMI cables and CD switch 
 
 # Address Checker Hardware by SI Electronics
 ￼<img src="/public/images/saturn/SegaSaturn_Address_Checker.jpg" />
@@ -195,3 +199,4 @@ In this side by side example of the Sega Saturn and Nintendo 64 you can see whic
 [^5]: [Ebay: Hitachi E7000 PC Saturn SH-2 Debugging station | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/ebay-hitachi-e7000-pc-saturn-sh-2-debugging-station.3092/)
 [^6]: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html)
 [^7]: EDGE issue 21 (June 1995)
+[^8]: [Saturn - Aren't all Dev Saturn consoles the same? | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/arent-all-dev-saturn-consoles-the-same.324/)
