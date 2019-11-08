@@ -116,7 +116,7 @@ The official price list from Cross Products put the Modified Saturn by itself at
 
 ---
 # Address Checker Hardware by SI Electronics
-<img src="/public/images/saturn/SegaSaturn_Address_Checker.jpg" />
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Good luck fitting this SEGA Saturn in your TV cabinet. Egg for scale.<br><br>(this machine was used to ensure that games in development didn&#39;t violate the Sega Memory usage guide) <a href="https://t.co/pZaZCEHigN">pic.twitter.com/pZaZCEHigN</a></p>&mdash; Codemasters (@Codemasters) <a href="https://twitter.com/Codemasters/status/1192794937613524992?ref_src=twsrc%5Etfw">November 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 In order to make sure your game doesn't violate the Sega Memory usage guide this piece of hardware would allow running your game with real-time checking of the memory addresses used. 
 
