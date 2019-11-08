@@ -109,7 +109,7 @@ You can see the back of the modified saturn with the cross products CD Switch in
 
 Notice the `VCD` port, this is not for the `Video Compact Disc` feature of the Sega Saturn but instead used for Virtual CD emulators such as the `Mirage` which was a harddrive that emulated the functionality of loading a CD, much quicker than actually burning a physical CD! [^8]
 
-Presumably the modification to be able to use the CD emulator, along with the region switcher is the only modifications made to the retail saturn units.
+The modification to be able to use the CD emulator, along with the region switcher is the only modifications made to most of the the retail saturn units known as the `MS100` model. However there was an additional variant with a MIDI interface to connect to the `Sega Sound Tools` if you bought the `MC100` model [^8].
 
 The official price list from Cross Products put the Modified Saturn by itself at a price of £500 which are simply described as:
 > A production Saturn fitted with shielded NMI cables and CD switch (VCD)
