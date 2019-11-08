@@ -35,7 +35,7 @@ updatedAt: 8th November 2019
 
 During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
 
-## Sega Saturn Programming Box (Sophia Systems)
+# Sega Saturn Programming Box (Sophia Systems)
 <img src="/public/SaturnProgrammingBox.jpg" />
 The original Sega Saturn Programming box (or P-Box) became available to developers before the retail release of the Saturn and was the first development kit available for the Saturn [^1].
 
@@ -48,7 +48,7 @@ The P-Box had a DIP switch to change between the built in CD emulator (which boo
 The P-Box also has a custom Japanese-only SCSI connection to the developers PC (or SGI Indy) so the developer could send game builds to the system and debug games from the PC interface.
 
 ---
-## Cross Products Dev Kit (SNASM2)
+# Cross Products Dev Kit (SNASM2)
 Cross Products is a UK based company that specialised in createing development kits of all sort of consoles, most success came with their SEGA mega-drive line of products. So when the SEGA Saturn was announced they jumped on board to build their own development kit known as the `Cross Saturn` based on their `SNASM2` line of development kits.
 
 <img src="/public/images/saturn/CrossProductsCartDev.png" />
@@ -72,7 +72,7 @@ You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow fro
 According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had just been bought by SEGA and were put in charge of supplying the next development kit known as `CartDev`. There were also responsible for the `Mirage CD Emulator` and Modified Saturn sold to game development studios [^3].
 
 ---
-## Sega CartDev
+# Sega CartDev
 <img src="/public/images/saturn/P-BOX_and_CartDev.png" />
 
 The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just $4,800 instead of the $7,475 for the P-Box. It was the result of SEGA buying the development studio `Cross Products` and rebranding their SNASM2 development kit as the Official Sega `CartDev`.
@@ -89,18 +89,18 @@ The following youtube video shows a CartDev in action:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKH07vPTC7w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### Connecting CartDev To the old P-Box
+## Connecting CartDev To the old P-Box
 The new CartDev development kit needed saturn hardware to connect to, as the Sophia P-Box was technically Saturn hardware it could also be used with the CartDev devleopment kit. This would have been at least a partial relief for developers who spent thousands of dollars on the first Sega Saturn Development kit, only for it to be replaced by the `CartDev` not long after.
 <img src="/public/images/saturn/ConnectCartDevToPBox.png" />
 
 
-### Connecting CartDev to modified retail Saturn
+## Connecting CartDev to modified retail Saturn
 For developers that didn't have a Sophia Systems Programming Box there was a much cheaper alternative provided with the `CartDev` system. Cross Products could modify a retail sega saturn console and allow it to connect to the `CartDev` system.
 <img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
 
 ---
 
-## Modified Sega Saturn
+# Modified Sega Saturn
 The Modified Sega Saturn that Cross Products sold to game developers was known as the `DevSaturn` and can be seen in this sort youtube video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/72Ac7R5TMuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -120,7 +120,7 @@ The official price list from Cross Products put the Modified Saturn by itself at
 > A production Saturn fitted with shielded NMI cables and CD switch (VCD)
 
 ---
-## Address Checker Hardware by SI Electronics
+# Address Checker Hardware by SI Electronics
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Good luck fitting this SEGA Saturn in your TV cabinet. Egg for scale.<br><br>(this machine was used to ensure that games in development didn&#39;t violate the Sega Memory usage guide) <a href="https://t.co/pZaZCEHigN">pic.twitter.com/pZaZCEHigN</a></p>&mdash; Codemasters (@Codemasters) <a href="https://twitter.com/Codemasters/status/1192794937613524992?ref_src=twsrc%5Etfw">November 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 In order to make sure your game doesn't violate the Sega Memory usage guide this piece of hardware would allow running your game with real-time checking of the memory addresses used. 
@@ -136,7 +136,7 @@ For the second version of the Sega Saturn Address checker hardware it was basica
 {% include link-to-other-site.html url="https://segaretro.org/Sega_Saturn_Address_Checker" description="SegaRetro page on the 2nd version of the Sega Saturn Address Checker." title="Address Checker v2" image="https://segaretro.org/images/a/a6/Ssaddresschk_01.jpg" %}
 
 ---
-## Sega Saturn Boot Disc
+# Sega Saturn Boot Disc
 Similar to the Dreamcast's System Disc 2, this is a disc that allows any retail Sega Saturn to play developer written CD-Rs without any Saturn modding required.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jdOdhjv1FNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -148,7 +148,7 @@ There are two versions available, one in red and the other in black, one can onl
 Note that when using the system disc it will go back to the dashboard and disable the security check, so just pop the CD-R disc into the drive and it should boot as normal.
 
 ---
-## Mirage CD Emulator
+# Mirage CD Emulator
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BQwD0asDiic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 The Mirage CD Emulator was developed by Cross Products and sold to development studios to save time and discs by emulating the use of a physical drive.
 
@@ -163,7 +163,7 @@ For more information about the Mirage please check out this excellent page on Se
 The Mirage wasn't the only way to mount discs for the development system, there was also a Virtual CD emulator available for the P-box. This allowed much more discs to be mounted as it could use the entire PC hard drive as storage.
 
 ---
-## Hitachi E7000 PC Debug Unit (ICE)
+# Hitachi E7000 PC Debug Unit (ICE)
 <section class="postSection">
   <img src="/public/images/saturn/Hitachi-E7000-PC-Debug-Saturn.jpg"  class="wow slideInLeft postImage" />
   <div markdown="1">
@@ -177,10 +177,10 @@ You can use the `ipi` executable included with the hitachi development kit to co
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yUgepCl0J0w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-## Hardware for Designers
+# Hardware for Designers
 Sega recommended Macintosh for sound designers or 2D Artists, and SGI INDY or INDIGO2 machines for 3D work. Sega also released a couple of hardware attachments for Macintosh systems specifically for these designers.
 
-### Sound Target Box by Sophia Systems
+## Sound Target Box by Sophia Systems
 <section class="postSection">
   <img src="/public/images/saturn/Sophia-Sega-Saturn-Sound-Box-byPeekB.jpg" class="wow slideInLeft postImage" />
   <div markdown="1">
@@ -190,18 +190,18 @@ This was the first sound development hardware available for the SEGA saturn and 
   </div>
 </section>
 
-### Graphics Target Box by Sophia Systems
+## Graphics Target Box by Sophia Systems
 <img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" />
 For Graphics Designers a `Graphics Box` can be purchased from Sega. This image was from `Chris M Covell`[^6] and you can checkout his excellent site here: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html).
 
 ---
-## Overall Cost of Development Kits
+# Overall Cost of Development Kits
 In this side by side example of the Sega Saturn and Nintendo 64 you can see which one developers preferred in terms of cost:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
-## 3rd Party Development kits
+# 3rd Party Development kits
 Although the Cross Products development kit was initially a 3rd party development kit it was included on this page as it became the official `CartDev` development kit. However there was also another competing 3rd party development kit by Sony of all people.. well technically a company that got bought by Sony: Sn Systems & Psygnosis. It was called the Psy-Q Saturn development kit and it was part of a cross platform suite of development kits.
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SN Systems & Psygnosis PSYQ Saturn check out this post." %}
