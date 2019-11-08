@@ -12,8 +12,8 @@ $(document).ready(function(){
             $(".post-directory dl").append("<dt><a class=\"jumper--child\" href=#" +
                     $(this).attr("id")
                     + ">"
-                    + "<span class=\"jumper--"+$(this).prop("tagName")+"\"> * " + $(this).text()
-                    + "</span></a></dt>");
+                    + "<li class=\"jumper--"+$(this).prop("tagName")+"\"> * " + $(this).text()
+                    + "</li></a></dt>");
         });
     });
 
