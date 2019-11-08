@@ -116,7 +116,7 @@ The official price list from Cross Products put the Modified Saturn by itself at
 
 ---
 # Address Checker Hardware by SI Electronics
-￼<img src="/public/images/saturn/SegaSaturn_Address_Checker.jpg" />
+<img src="/public/images/saturn/SegaSaturn_Address_Checker.jpg" />
 
 In order to make sure your game doesn't violate the Sega Memory usage guide this piece of hardware would allow running your game with real-time checking of the memory addresses used. 
 
@@ -179,7 +179,9 @@ Sega recommended Macintosh for sound designers or 2D Artists, and SGI INDY or IN
 <section class="postSection">
   <img src="/public/images/saturn/Sophia-Sega-Saturn-Sound-Box-byPeekB.jpg" class="wow slideInLeft postImage" />
   <div markdown="1">
-For sound designers a `Sound Box` could be purchased for $4,800.00 from SEGA and connected to the sound designers Macintosh system.
+For sound designers a `Sound Box` could be purchased for $4,800.00 from SEGA and connected to the sound designers Macintosh system. 
+
+This was the first sound development hardware available for the SEGA saturn and was later replaced by a model of the `CartDev` development kit which has a MIDI port that also connected to the Macintosh based SEGA Sound Tools.
   </div>
 </section>
 
