@@ -207,7 +207,7 @@ Although the Cross Products development kit was initially a 3rd party developmen
 [^2]: https://segaretro.org/Sophia_Systems
 [^3]: EDGE Magazine issue 23 (August 1995)
 [^4]: [Sega Saturn System Boot Disc (Play Backups Without Modding!) - Game Taff - YouTube](https://www.youtube.com/watch?v=jdOdhjv1FNY)
-[^5]: [Ebay: Hitachi E7000 PC Saturn SH-2 Debugging station | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/ebay-hitachi-e7000-pc-saturn-sh-2-debugging-station.3092/)
+[^5]: [Ebay: Hitachi E7000 PC Saturn SH-2 Debugging station](https://assemblergames.com/threads/ebay-hitachi-e7000-pc-saturn-sh-2-debugging-station.3092/)
 [^6]: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html)
 [^7]: EDGE issue 21 (June 1995)
-[^8]: [Saturn - Aren't all Dev Saturn consoles the same? | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/arent-all-dev-saturn-consoles-the-same.324/)
+[^8]: [All Dev Saturn consoles the same? | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/arent-all-dev-saturn-consoles-the-same.324/)
