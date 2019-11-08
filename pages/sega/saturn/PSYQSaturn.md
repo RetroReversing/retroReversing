@@ -8,7 +8,7 @@ tags:
 - snsystems
 - psyq
 - psygnosis
-title: PsyQ Sega Saturn Development Kit
+title: Psy-Q Sega Saturn Development Kit
 image: /public/images/saturn/Sega Saturn PSYQ Development Kit.jpg
 thumbnail: /public/consoles/Sega Saturn.png
 permalink: /psyq-sega-saturn/
@@ -17,7 +17,7 @@ breadcrumbs:
     url: /
   - name: Development Kits
     url: /devkit
-  - name: PsyQ Sega Saturn Development Kit
+  - name: Psy-Q Sega Saturn Development Kit
     url: #
 recommend: devkit
 editlink: /sega/saturn/PSYQSaturn.md
@@ -25,29 +25,42 @@ references:
   - segaretro.org
 ---
 
-# Advert for PsyQ for Sega Saturn
-Advert in EDGE issue 20 for the Sega Saturn development kit by Sony owned Psygnosis and SN Systems:
+# Introduction to PSY-Q Saturn
+The PsyQ Sega Saturn development kit was developed by a partnership of Psygnosis and SN Systems in order to make it really easy to develop for both the Sega Saturn and PS1 using the same sort of development approach.
+
+## How it worked
+Instead of relying on modified console such as their competitors `Cross Products` they used purly retail hardware with the aim of reducing costs for development studios as the retail hardware and repair costs are much cheaper than specialist hardware.
+
+In order to turn the retail consoles into a development system they used cartridges that plugged into the retail console that has software written in assembly to control the hardware. 
+
+The cartridge would have a SCSI port for connection between the cartridge inside the console and the development PC. The saturn version was no different and slotted into the memory expansion slot above the CD drive.
+
+## Advert for Psy-Q Sega Saturn
+Ther is an advert in the UK magazine EDGE issue 20 for the PSYQ Sega Saturn development kit, which would be competing against the Official `Cross Products` development kit also advertised in the same issue:
 <img src="/public/magazine/PsyQ.Saturn.EDGE.N020.1995.05.jpg" />
 
-# SegaRetro
-There is also some information and a manual for the PSY-Q Saturn development kit on SegaRetro: [PSY-Q Development System](https://segaretro.org/PSY-Q_Development_System)
+## Development Manual for PSY-Q Saturn
+The excellent wiki known as SegaRetro has uploaded the full development manual for using the PsyQ development kit for Sega Saturn. It is unknown where they managed to get it from but it is much appreciated by the whole sega saturn community.
 
+{% include link-to-other-site.html url="https://segaretro.org/PSY-Q_Development_System" description="SegaRetro has the programmer manual available for download." title="PSY-Q Development System Manual" image="https://segaretro.org/images/thumb/9/97/Psy-Q_Development_System_%28Sega_Saturn%29.jpg/511px-Psy-Q_Development_System_%28Sega_Saturn%29.jpg" %}
+
+---
 # Games that were built with PSYQ
+Not many Sega Saturn games were actually developed using the PsyQ development kit unfortunetly, but there were a small number of quality titles that we have confirmed use the PsyQ SDK.
 
-Games:
+The Games are:
 * Bubble Bobble also featuring Rainbow Islands
 * Batman Forever - The Arcade Game
 * Battle Stations
 
 ---
-# Interesting PSYQ Related Strings
-
+## Interesting PSYQ Related Strings within the Games
 
 On Windows/DOS systems PSYQ the PSYQ SDK was normally installed to the root of the main harddrive, so it is very common to find games that have references to the location built into the executables, such as:
 * `c:/psyq/`
 * `d:\\psyqsat` (in the game BattleStations)
 
-We know that the PSYQ SDK install folder contained at least these folders:
+From these games we also know that the PSYQ SDK install folder contained at least these folders:
 
 Folder Name | Purpose
 ---|---
@@ -56,7 +69,8 @@ segalib | Holds the sega libraries for saturn
 
 
 ## PSYQ Includes
-Known PSYQ header includes are listed in the table below:
+As PsyQ Saturn was a C-based development kit, it was common to provide an api via c header (.h) files. Since there is no version of PsyQ Saturn available on the internet we have had to data mine a few games that have left over symbols in them.
+These are presented in the list below:
 
 File | Purpose
 ---|---
