@@ -7,8 +7,14 @@ tags:
 - consolearchitecture
 title: PlayStation Hardware Architecture (Motherboard)
 thumbnail: /public/consoles/Sony Playstation.png
-youtube: "MPXpH2hxuNc"
-image: https://img.youtube.com/vi/MPXpH2hxuNc/maxresdefault.jpg
+videocarousel:
+  - title: Video 1
+    image: http://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
+    youtube: 'JqeFT67U-xo'
+  - title: Video 2
+    image: http://img.youtube.com/vi/MPXpH2hxuNc/hqdefault.jpg
+    youtube: 'MPXpH2hxuNc'
+image: https://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
 permalink: /playStation-architecture
 breadcrumbs:
   - name: Home
@@ -17,13 +23,13 @@ breadcrumbs:
     url: /ps1
   - name: PlayStation Hardware Architecture (Motherboard)
     url: #
-references:
-  - youtube
-  - edge
 recommend: 
   - ps1
   - consolearchitecture
+  - hardware
 editlink: /ps1/PlayStation Hardware Architecture.md
+redirect_from:
+  - /inside-playstation
 ---
 This episode with look at the PS1's hardware and why Final Fantasy 7 was written the way that it was. 
 
