@@ -32,6 +32,15 @@ However don’t be disillusioned the PS1 was still a very powerful machine for i
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
 ---
+# Development Kits (Hardware)
+Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by Sony as a few other publishers had their own versions of development hardware.
+
+## Official Development Kit
+The official development kit for the PS1 was a partnership between Sony and SN Systems which allowed developers to use their PC to interact with the real PS1 hardware.
+
+{% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the official Sony Playstation Devkit check out this post." %}
+
+---
 # Software Development Kits
 
 ## Official Software development kit
