@@ -87,12 +87,12 @@ The following youtube video shows a CartDev in action:
 
 
 ## Connecting CartDev To the old P-Box
-The new CartDev development kit needed saturn hardware to connect to, as the Sophia P-Box was technically Saturn hardware it could also be used with the CartDev devleopment kit. This would have been at least a partial relief for developers who spent thousands of dollars on the first Sega Saturn Development kit, only for it to be replaced by the `CartDev` not long after.
+The new CartDev development kit needed Saturn hardware to connect to, as the Sophia P-Box was technically Saturn hardware it could also be used with the CartDev development kit. This would have been at least a partial relief for developers who spent thousands of dollars on the first Sega Saturn Development kit, only for it to be replaced by the `CartDev` not long after.
 <img src="/public/images/saturn/ConnectCartDevToPBox.png" />
 
 
 ## Connecting CartDev to modified retail Saturn
-For developers that didn't have a Sophia Systems Programming Box there was a much cheaper alternative provided with the `CartDev` system. Cross Products could modify a retail sega saturn console and allow it to connect to the `CartDev` system.
+For developers that didn't have a Sophia Systems Programming Box there was a much cheaper alternative provided with the `CartDev` system. Cross Products could modify a retail Sega Saturn console and allow it to connect to the `CartDev` system.
 <img src="/public/images/saturn/ConnectCartDevToRetailSaturn.png" />
 
 ---
@@ -103,15 +103,15 @@ The Modified Sega Saturn that Cross Products sold to game developers was known a
 
 It cost $700 and it was not able to run burned CDR games without the `System Boot Disc` so there was no benefit to non-developers for owning the modified unit.
 
-It has a DIP switch on the side to switch between the CD emulator and the actual CD drive inside the saturn. 
+It has a DIP switch on the side to switch between the CD emulator and the actual CD drive inside the Saturn. 
 It also has a connection port on the left hand side of the unit along side a Cross Products Logo. This is where it would connect to the Mirage CD emulator from Cross Products.
 
-You can see the back of the modified saturn with the cross products CD Switch in a photo taken by `stevejigga` and posted on the AssemblerGames forum:
+You can see the back of the modified Saturn with the cross products CD Switch in a photo taken by `stevejigga` and posted on the AssemblerGames forum:
 <img src="/public/images/saturn/CrossProducts_Saturn_CD_Switch.jpg" />
 
-Notice the `VCD` port, this is not for the `Video Compact Disc` feature of the Sega Saturn but instead used for Virtual CD emulators such as the `Mirage` which was a harddrive that emulated the functionality of loading a CD, much quicker than actually burning a physical CD! [^8]
+Notice the `VCD` port, this is not for the `Video Compact Disc` feature of the Sega Saturn but instead used for Virtual CD emulators such as the `Mirage` which was a hard-drive that emulated the functionality of loading a CD, much quicker than actually burning a physical CD! [^8]
 
-The modification to be able to use the CD emulator, along with the region switcher is the only modifications made to most of the the retail saturn units known as the `MS100` model. However there was an additional variant with a MIDI interface to connect to the `Sega Sound Tools` if you bought the `MC100` model [^8].
+The modification to be able to use the CD emulator, along with the region switcher is the only modifications made to most of the the retail Saturn units known as the `MS100` model. However there was an additional variant with a MIDI interface to connect to the `Sega Sound Tools` if you bought the `MC100` model [^8].
 
 The official price list from Cross Products put the Modified Saturn by itself at a price of £500 which are simply described as:
 > A production Saturn fitted with shielded NMI cables and CD switch (VCD)
@@ -183,13 +183,19 @@ Sega recommended Macintosh for sound designers or 2D Artists, and SGI INDY or IN
   <div markdown="1">
 For sound designers a `Sound Box` could be purchased for $4,800.00 from SEGA and connected to the sound designers Macintosh system. 
 
-This was the first sound development hardware available for the SEGA saturn and was later replaced by a model of the `CartDev` development kit which has a MIDI port that also connected to the Macintosh based SEGA Sound Tools.
+This was the first sound development hardware available for the SEGA Saturn and was later replaced by a model of the `CartDev` development kit which has a MIDI port that also connected to the Macintosh based SEGA Sound Tools.
   </div>
 </section>
 
 ## Graphics Target Box by Sophia Systems
-<img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" />
-For Graphics Designers a `Graphics Box` can be purchased from Sega. This image was from `Chris M Covell`[^6] and you can checkout his excellent site here: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html).
+<section class="postSection">
+  <img src="/public/images/saturn/Saturn-Graphics-Box-ChrisMCovell.jpg" class="wow slideInLeft postImage" />
+  <div markdown="1">
+For Graphics Designers a `Graphics Box` developed by Sophia Systems can be purchased from Sega. This image was from `Chris M Covell`[^6] and you can check out his excellent site here: [Sega Saturn Graphics Box](https://www.chrismcovell.com/saturnbox.html).
+    
+As this is similar to the Sound Box it is likely that this also got replaced by the `CartDev` development kit, but it is unlikely it would need a special model as there would be no need for an additional connectivity options as the SCSI port should be able to handle any graphics being sent between development PC and graphics development kit.
+  </div>
+</section>
 
 ---
 # Overall Cost of Development Kits
