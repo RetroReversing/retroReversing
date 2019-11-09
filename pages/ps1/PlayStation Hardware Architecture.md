@@ -40,9 +40,8 @@ The Hardware initially looks quite clean and simple, especially in comparison to
 
 # Main Board
 <section class="postSection">
-    <img src="/public/magazine/Playstation1_Motherboard.jpg" class="wow slideInLeft postImage" />
-
-<div markdown="1" style="padding-left:5px">
+    <img src="/public/magazine/Playstation1_Motherboard.jpg" class="wow slideInLeft postImage" style="padding-right:15px" />
+<div markdown="1">
   1. The CPU (MIPS R3000A 33.96Mhz 32-bit [^2])
   2. ROM containing the Operating System (512KB [^2])
   3. The GPU
