@@ -39,19 +39,19 @@ The Hardware initially looks quite clean and simple, especially in comparison to
 <section class="postSection">
     <img src="/public/magazine/Playstation1_Motherboard.jpg" class="wow slideInLeft postImage" />
 
-<div markdown="1">
-1. The CPU (MIPS R3000A 33.96Mhz 32-bit [^2])
-2. ROM containing the Operating System (512KB [^2])
-3. The GPU
-4. Main RAM (DRAM)
-5. Video RAM (VRAM)
-6. Sound Processing Unit (SPU)
-7. Sound RAM (512K)
-8. CD Controller
-9. CD DSP (Digital Signal Processor)
-10. Digital Audio Converter
-11. ???
-12. Video de/encoder
+<div markdown="1" style="padding-left:5px">
+  1. The CPU (MIPS R3000A 33.96Mhz 32-bit [^2])
+  2. ROM containing the Operating System (512KB [^2])
+  3. The GPU
+  4. Main RAM (DRAM)
+  5. Video RAM (VRAM)
+  6. Sound Processing Unit (SPU)
+  7. Sound RAM (512K)
+  8. CD Controller
+  9. CD DSP (Digital Signal Processor)
+  10. Digital Audio Converter
+  11. ???
+  12. Video de/encoder
 </div>
 </section>
 
@@ -66,7 +66,7 @@ The System control co-processor was the part of the CPU that handled memory mana
 
 ## Geometry Transformation Engine (COP2)
 
-The Geometry Transformation Engine (GTE) is on of the co-processors attached to the main processor, specifically designed to do fast maths operations. This is what allowed the playstations to do its fast processing of Geometry such as 3D models, animation and effects.
+The Geometry Transformation Engine (GTE) is on of the co-processors attached to the main processor, specifically designed to do fast maths operations. This is what allowed the playstation to do its fast processing of Geometry such as 3D models, animation and effects.
 
 {% include link-to-other-post.html post="/ps1-gte" description="For more information on the GTE check out this post." %}
 
