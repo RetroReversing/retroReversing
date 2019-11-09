@@ -5,7 +5,7 @@ tags:
 - hardware
 - featured
 - consolearchitecture
-title: PlayStation Hardware Architecture (Motherboard)
+title: PlayStation 1 Hardware Architecture
 thumbnail: /public/consoles/Sony Playstation.png
 videocarousel:
   - title: Video 1
@@ -55,8 +55,18 @@ The Hardware initially looks quite clean and simple, especially in comparison to
 </div>
 </section>
 
+# The CPU
+If you thought that the Nintendo 64 was the only console that partnered with SGI for this generation of consoles you would be mistaken, the CPU for the original playstation used technology licensed from SGI and build by `LSI Logic Corp` [^3].
+
+The CPU used for the Playstation was not just a simple MIPS  R3000A, it was partnered with additional `co-processors` to handle system resources and geometry processing.
+
+The Geometry Transformation Engine (GTE) is on of the co-processors attached to the main processor, specifically designed to do fast maths operations. This is what allowed the playstations to do its fast processing of Geometry such as 3D models, animation and effects.
+
+{% include link-to-other-post.html post="/ps1-gte" description="For more information on the GTE check out this post." %}
+
 ---
 
 # References
 [^1]: Edge Magazine issue 20 (May 1995)
 [^2]: [What's inside a Playstation? - YouTube](https://www.youtube.com/watch?v=JqeFT67U-xo&feature=player_embedded)
+[^3]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
