@@ -38,7 +38,7 @@ However don’t be disillusioned the PS1 was still a very powerful machine for i
 The Official Software development kit was developed by a partnership between `SN Systems` who are known for excellent 3rd party development kits and the Game Studio Psygnosis who are known for excellent quality games. 
 It was called PSY-Q and wven although it was owned by Sony it was actually a cross-platform development kit which included support for the Sega Saturn!
 
-{% include link-to-other-post.html post="official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the Playstation 1 check out this post." %}
+{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the Playstation 1 check out this post." %}
 
 ---
 
