@@ -32,6 +32,15 @@ However don’t be disillusioned the PS1 was still a very powerful machine for i
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
 ---
+# Software Development Kits
+
+## Official Software development kit
+The Official Software development kit was developed by a partnership between `SN Systems` who are known for excellent 3rd party development kits and the Game Studio Psygnosis who are known for excellent quality games. 
+It was called PSY-Q and wven although it was owned by Sony it was actually a cross-platform development kit which included support for the Sega Saturn!
+
+{% include link-to-other-post.html post="official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the Playstation 1 check out this post." %}
+
+---
 
 <div>
 {% include console.html %}
