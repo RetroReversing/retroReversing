@@ -9,11 +9,14 @@ title: PlayStation 1 Hardware Architecture
 thumbnail: /public/consoles/Sony Playstation.png
 videocarousel:
   - title: Video 1
-    image: http://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
-    youtube: 'JqeFT67U-xo'
-  - title: Video 2
     image: http://img.youtube.com/vi/MPXpH2hxuNc/hqdefault.jpg
     youtube: 'MPXpH2hxuNc'
+  - title: Video 2
+    image: http://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
+    youtube: 'JqeFT67U-xo'
+  - title: Video 3
+    image: http://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
+    youtube: 'hT5NSWS-znc'
 image: https://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
 permalink: /playStation-architecture
 breadcrumbs:
