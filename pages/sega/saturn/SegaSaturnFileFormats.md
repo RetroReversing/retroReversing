@@ -19,7 +19,15 @@ recommend: saturn
 editlink: /sega/saturn/SegaSaturnFileFormats.md
 ---
 
-# Code Formats
+The sega saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compred to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
+
+Unlike most cartridge based ROM chips CDs have a standard File System to read files from and so instead of everything being in a giant blob of binary and burned to a chip, the game could be split into multiple files.
+
+Also the consoles would not have enough RAM to hold all the game assets so games would have to stream assets into memory when needed. So it would only read the texture or sound files used in a particular level and ignore the rest.
+
+This makes it slightly easier to do some basic modding of Saturn assets compared to a ROM based console such as the Mega Drive, as you can normally pinpoint the asset you want down to a particular file and sometimes they have file extensions that tell you exactly what format the file is.
+
+# Executable Code Formats
 
 ## Executables (COF)
 Sega Saturn Executables are actually COF/COFF (Common Object File Format) files which is a precursor to the ELF executable format that is used on most future console platforms.
