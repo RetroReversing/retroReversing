@@ -55,10 +55,16 @@ The Hardware initially looks quite clean and simple, especially in comparison to
 </div>
 </section>
 
+---
 # The CPU
 If you thought that the Nintendo 64 was the only console that partnered with SGI for this generation of consoles you would be mistaken, the CPU for the original playstation used technology licensed from SGI and build by `LSI Logic Corp` [^3].
 
 The CPU used for the Playstation was not just a simple MIPS  R3000A, it was partnered with additional `co-processors` to handle system resources and geometry processing.
+
+## System Control Co-processor (COP0)
+The System control co-processor was the part of the CPU that handled memory management, interrupts and hardware breakpoints. This allows the main processor to focus on game logic while the system co-processor handled all the lower-level details [^4].
+
+## Geometry Transformation Engine (COP2)
 
 The Geometry Transformation Engine (GTE) is on of the co-processors attached to the main processor, specifically designed to do fast maths operations. This is what allowed the playstations to do its fast processing of Geometry such as 3D models, animation and effects.
 
@@ -70,3 +76,4 @@ The Geometry Transformation Engine (GTE) is on of the co-processors attached to 
 [^1]: Edge Magazine issue 20 (May 1995)
 [^2]: [What's inside a Playstation? - YouTube](https://www.youtube.com/watch?v=JqeFT67U-xo&feature=player_embedded)
 [^3]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
+[^4]: [www.raphnet.net/electronique/psx_adaptor/Playstation.txt](http://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
