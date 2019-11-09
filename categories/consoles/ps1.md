@@ -45,6 +45,11 @@ The official development kit for the PS1 was a partnership between Sony and SN S
 
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the official Sony Playstation Devkit check out this post." %}
 
+## Official Consumer Development Kit (Net Yaroze)
+The official development kit for the PS1 was only available for licensed game developers but there was a stripped-down version available for the general public known as Net Yaroze.
+
+{% include link-to-other-post.html post="/net-yaroze" description="For more information on the consumer development kit known as Net Yaroze check out this post." %}
+
 ---
 # Software Development Kits
 
