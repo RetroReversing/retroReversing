@@ -59,7 +59,7 @@ The Hardware initially looks quite clean and simple, especially in comparison to
 # The CPU
 If you thought that the Nintendo 64 was the only console that partnered with SGI for this generation of consoles you would be mistaken, the CPU for the original playstation used technology licensed from SGI and build by `LSI Logic Corp` [^3].
 
-The CPU used for the Playstation was not just a simple MIPS  R3000A, it was partnered with additional `co-processors` to handle system resources and geometry processing.
+The CPU used for the Playstation was not just a simple MIPS  R3000A, it was partnered with additional `co-processors` to handle system resources and geometry processing. There was actually only 2 co-processors in the CPU named COP0 and COP2 as COP1 and COP3 were not present in the chip.
 
 ## System Control Co-processor (COP0)
 The System control co-processor was the part of the CPU that handled memory management, interrupts and hardware breakpoints. This allows the main processor to focus on game logic while the system co-processor handled all the lower-level details [^4].
