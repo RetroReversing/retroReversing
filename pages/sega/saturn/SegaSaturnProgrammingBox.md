@@ -27,10 +27,7 @@ recommend:
   - devkit
   - crossproducts
 editlink: /sega/saturn/SegaSaturnProgrammingBox.md
-references:
-  - segaretro.org
-  - youtube
-updatedAt: 8th November 2019
+updatedAt: 9th November 2019
 ---
 
 During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
@@ -75,7 +72,7 @@ According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had
 # Sega CartDev
 <img src="/public/images/saturn/P-BOX_and_CartDev.png" />
 
-The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just $4,800 instead of the $7,475 for the P-Box. It was the result of SEGA buying the development studio `Cross Products` and rebranding their SNASM2 development kit as the Official Sega `CartDev`.
+The CartDev system was a much cheaper alternative to the Sophia `P-Box` costing just 4,800 USD instead of the 7,475 USD for the P-Box. It was the result of SEGA buying the development studio `Cross Products` and rebranding their SNASM2 development kit as the Official Sega `CartDev`.
 ￼
 <img src="/public/images/saturn/Sega_CartDev_1.jpg" />
 
