@@ -29,8 +29,10 @@ Interested in learning more about the the Sony Playstation? Excellent! This sect
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
 However don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
 
-{% include link-to-other-post.html post="playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
+{% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
 ---
 
+<div>
 {% include console.html %}
+</div>
