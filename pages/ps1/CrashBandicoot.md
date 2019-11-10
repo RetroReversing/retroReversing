@@ -30,7 +30,7 @@ references:
 Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. It was created by Andy Gavin and Jason Rubin for release on the original Playstation console.
 
 ---
-# Technical Limitations & Optimizations
+# 3D Models
 Technical limitations of the Sony Playstation 1 hardware and the limited small CRT's used to play games were a big part in shaping the game we know and love today.
 
 ## Crash's Design limitations
@@ -39,7 +39,10 @@ The design of Crash bandicoot was described by Rubin as 51% technical and visual
 ### Use of Untextured Polygons for Crash
 It also turned out that the PlayStation was particularly good at rendering untextured but shaded polygons because of this it was decided that crash would be untextured which was a high enough polygon count that the details could be shown using just the colors of the polygons as well as rendering faster this had other advantages.
 
-The bright colors of Crash would pop out on the screen and this also avoided the Playstations lack of texture perspective correction. 
+The bright colors of Crash would pop out on the screen and this also avoided the Playstations lack of texture perspective correction. This also helped with the cartoon vibe that the game was going for [^2].
+
+---
+# 3D World
 
 ## Level Design Limitations
 The game was designed around the Playstations limitation and so the design is the reason that crash bandicoot's levels
@@ -47,23 +50,12 @@ look so rich and vibrant trees Hills in terms in the levels ensured that there w
 at once for the PlayStation to handle if a polygon was obscured by something like a fern or a bush the game engine was
 smart enough to ignore that polygon entirely.
 
-So if the developers ever had too many polygons on the screen they could actually just add in a bush to fix the problem[^1]! 
+So if the developers ever had too many polygons on the screen they could actually just add in a bush to fix the problem [^1]! 
 
 The PlayStation could not handle showing many enemies on the screen at one time as they were composed of too many
-polygons so lots of woompa fruit was added as they are in fact 2d sprites so many ofvthese could be rendered at once to make the levels a bit more interesting.
+polygons so lots of woompa fruit was added as they are in fact 2d sprites so many of these could be rendered at once to make the levels a bit more interesting.
 
 The Crates were also relatively low in terms of polygon count (6 if you only render what is facing the camera) so many could be added to make the levels feel more fleshed out.
-
-## Secret Code from Sony?
-Crash Bandicoot was a technical marvel boasting visuals so impressive that Naughty Dog were accused of being given secret libraries of code from Sony to make their game perform better than others!
-
-However this was not true, Naughty Dog would often break Sony's reccomended development process by not using their provided libraries and instead program their own bespoke more efficient libraries to push the hardware to its limits.
-
-
-## Animation
-The characters were also animated differently to most games, rather than giving a character bones and moving them around Naughty Dog's animators instead moved individual vertices around to create Crashes exaggerated expressions.
-
-This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in Jak and Daxter [^1].
 
 ## Use of Fixed Camera Optimisations
 The in-game camera moves on a fixed path through each level so a lot of things could be pre calculated before putting the game on the disc.
@@ -72,6 +64,16 @@ The in-game camera moves on a fixed path through each level so a lot of things c
 
 So to optimise this Crash Bandicoot could pre-calculate the order as it would always be the same thanks to the fixed camera [^1].
 
+---
+# 3D Animation
+The characters were also animated differently to most games, rather than giving a character bones and moving them around Naughty Dog's animators instead moved individual vertices around to create Crashes exaggerated expressions.
+
+This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in Jak and Daxter [^1].
+
+
+
+---
+# Coding Secrets
 
 ## Avoiding Playstation RAM limitations
 One of the main technical limitations was taking many megabytes of data and placing it in the Playstation's limited RAM (2MB). To do this many parts of the level were pre-calculated. In fact some of these pre-calculations were so complex that it would take several hours for a single level to process even when that was being distributed over eight computers [^1]!
@@ -85,11 +87,17 @@ Other optimisations such as re-using the same variables to save individual bytes
 
 {% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave-Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimisations for Crash"  %}
 
+## Secret Code from Sony?
+Crash Bandicoot was a technical marvel boasting visuals so impressive that Naughty Dog were accused of being given secret libraries of code from Sony to make their game perform better than others [^1]!
+
+However this was not true, Naughty Dog would often break Sony's reccomended development process by not using their provided libraries and instead program their own bespoke more efficient libraries to push the hardware to its limits.
+
 
 ---
 # Left over content
 The Cutting Room Floor has a very details page listing all of the unused assets available in the game and is highly recommended to check out: [Crash Bandicoot - The Cutting Room Floor](https://tcrf.net/Crash_Bandicoot)
 
-
+---
 # References
 [^1]: [Crash Bandicoots Design and Technical Achievement - Behind The Screens - YouTube](https://www.youtube.com/watch?feature=emb_logo)
+[^2]: [Making Crash Bandicoot – part 3 « All Things Andy Gavin](https://blog.mascherato.com/2011/02/04/making-crash-bandicoot-part-3/)
