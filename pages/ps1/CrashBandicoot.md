@@ -45,10 +45,9 @@ The bright colors of Crash would pop out on the screen and this also avoided the
 # 3D World
 
 ## Level Design Limitations
-The game was designed around the Playstations limitation and so the design is the reason that crash bandicoot's levels
-look so rich and vibrant trees Hills in terms in the levels ensured that there was never too much being shown on screen
-at once for the PlayStation to handle if a polygon was obscured by something like a fern or a bush the game engine was
-smart enough to ignore that polygon entirely.
+The game was designed around the Playstation's limitations and so levels needed to be planned accordingly to fit in the limited memory and processing power the Playstation had available.
+
+The levels ensured that there was never too much being shown on screen at once, if a polygon was obscured by something like a fern or a bush the game engine was smart enough to ignore that polygon entirely.
 
 So if the developers ever had too many polygons on the screen they could actually just add in a bush to fix the problem [^1]! 
 
