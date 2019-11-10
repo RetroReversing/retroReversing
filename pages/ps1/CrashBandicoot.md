@@ -6,7 +6,7 @@ tags:
 - crashbandicoot
 title: Crash Bandicoot
 thumbnail: /public/consoles/Sony Playstation.png
-image: https://img.youtube.com/vi/0HwvAjELuuM/maxresdefault.jpg
+image: https://img.youtube.com/vi/0HwvAjELuuM/hqdefault.jpg
 permalink: /crash-bandicoot
 breadcrumbs:
   - name: Home
@@ -73,8 +73,8 @@ The in-game camera moves on a fixed path through each level so a lot of things c
 So to optimise this Crash Bandicoot could pre-calculate the order as it would always be the same thanks to the fixed camera [^1].
 
 
-## Avoiding Playstaitons RAM limitations
-One of the main technical limitations was taking many megabytes of data and placing it in the Playstations' limited RAM. To do this many parts of the level were pre-calculated. In fact some of these pre-calculations were so complex that it would take several hours for a single level to process even when that was being distributed over eight computers [^1]!
+## Avoiding Playstation RAM limitations
+One of the main technical limitations was taking many megabytes of data and placing it in the Playstation's limited RAM (2MB). To do this many parts of the level were pre-calculated. In fact some of these pre-calculations were so complex that it would take several hours for a single level to process even when that was being distributed over eight computers [^1]!
 
 These techniques managed to compress levels that were 128 megabytes in size down to a measly 12 megabytes. While that is impressive, the levels however would then need to be dynamically loaded to fit into the Playstation's two megabytes of RAM.
 
