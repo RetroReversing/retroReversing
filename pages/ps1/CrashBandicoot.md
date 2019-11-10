@@ -81,9 +81,9 @@ These techniques managed to compress levels that were 128 megabytes in size down
 This would have to be done seamlessly to keep the frame-rate stable and the developers even went as far as controlling the physical layout of the bytes on the cd-rom a large file exists in the game that serves no purpose but to push the game's data to the outside of the disk since this area of the disk moves faster data here could be read quicker so that everything could
 be loaded by the time Crash ended up in those levels.
 
-Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end crash bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
+Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end Crash Bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
 
-{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave-Baggett's excellent post on more optimizations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimizations for Crash"  %}
+{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave-Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimisations for Crash"  %}
 
 
 ---
