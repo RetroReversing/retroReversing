@@ -93,8 +93,10 @@ However this was not true, Naughty Dog would often break Sony's reccomended deve
 
 
 ---
-# Left over content
-The Cutting Room Floor has a very details page listing all of the unused assets available in the game and is highly recommended to check out: [Crash Bandicoot - The Cutting Room Floor](https://tcrf.net/Crash_Bandicoot)
+# Unused content
+As with most games that have a rushed development cycle, there are assets available on the disc which are never actually used in the retail game. For Crash Bandicoot this includes a full level known as `Stormy Ascent` which was deemed too hard and too time consuming to fix up before the release date.
+
+{% include link-to-other-site.html url="https://tcrf.net/Crash_Bandicoot" description="The Cutting Room Floor has a very detailed page listing all of the unused assets available in the game and is highly recommended to check out" image="https://tcrf.net/images/e/e7/Crash1_-_GuardDog.png" title="Crash Bandicoot - The Cutting Room Floor"  %}
 
 ---
 # References
