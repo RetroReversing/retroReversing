@@ -60,12 +60,12 @@ Crash Bandicoot was a technical marvel boasting visuals so impressive that Naugh
 However this was not true, Naughty Dog would often break Sony's reccomended development process by not using their provided libraries and instead program their own bespoke more efficient libraries to push the hardware to its limits.
 
 
-## Animatiomn
+## Animation
 The characters were also animated differently to most games, rather than giving a character bones and moving them around Naughty Dog's animators instead moved individual vertices around to create Crashes exaggerated expressions.
 
-This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in jak and daxter [^1].
+This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in Jak and Daxter [^1].
 
-## Use of Fixed Camera Optimizations
+## Use of Fixed Camera Optimisations
 The in-game camera moves on a fixed path through each level so a lot of things could be pre calculated before putting the game on the disc.
 
 3D games need to calculate the correct order in which to render polygons on the fly, but the PlayStation had no easy way to do that.
@@ -76,20 +76,19 @@ So to optimise this Crash Bandicoot could pre-calculate the order as it would al
 ## Avoiding Playstaitons RAM limitations
 One of the main technical limitations was taking many megabytes of data and placing it in the Playstations' limited RAM. To do this many parts of the level were pre-calculated. In fact some of these pre-calculations were so complex that it would take several hours for a single level to process even when that was being distributed over eight computers [^1]!
 
-These techniques managed to compress levels that were 128 megabytes in size down to a measly 12 megabytes. While that is impressive, the levels however would then need to be dynamically loaded to fit into the Playstations two megabytes of RAM.
+These techniques managed to compress levels that were 128 megabytes in size down to a measly 12 megabytes. While that is impressive, the levels however would then need to be dynamically loaded to fit into the Playstation's two megabytes of RAM.
 
-This would have to be done seamlessly to keep the framerate stable and the developers even went as far as controlling the physical layout of the bytes on the cd-rom a large file exists in the game that serves no purpose but to push the game's data to the outside of the disk since this area of the disk moves faster data here could be read quicker so that everything could
-be loaded by the time crash ended up in those levels.
+This would have to be done seamlessly to keep the frame-rate stable and the developers even went as far as controlling the physical layout of the bytes on the cd-rom a large file exists in the game that serves no purpose but to push the game's data to the outside of the disk since this area of the disk moves faster data here could be read quicker so that everything could
+be loaded by the time Crash ended up in those levels.
 
-Other optimizations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end crash bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
+Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end crash bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
 
-## How did crash pack entire games into so little memory
-<a href="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1">See Dave-Baggett's excellent answer to this question here!</a>
+{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave-Baggett's excellent post on more optimizations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimizations for Crash"  %}
+
 
 ---
 # Left over content
-The Cutting Room Floor has a very details page listing all of the unused assets available in the game and is highly reccomended to check out: [Crash Bandicoot - The Cutting Room Floor](https://tcrf.net/Crash_Bandicoot)
-
+The Cutting Room Floor has a very details page listing all of the unused assets available in the game and is highly recommended to check out: [Crash Bandicoot - The Cutting Room Floor](https://tcrf.net/Crash_Bandicoot)
 
 
 # References
