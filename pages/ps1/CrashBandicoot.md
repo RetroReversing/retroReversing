@@ -27,14 +27,24 @@ references:
   - DevsPlay
 ---
 # Introduction to Crash Bandicoot
-Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. It was created by Andy Gavin and Jason Rubin for release on the original Playstation console.
+Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. It was created by Andy Gavin and Jason Rubin of Naughty Dog for release on the original Playstation console.
+
+## Development Team
+Naughty Dog started with just Andy Gavin and Jason Rubin and later introduced the programmer Dave Baggett and Universal VP Mark Cerny.
+
+They were one of the few developers to sign an agreement directly with Sony, most of the time it was the publisher who signed this aggreement. This agreement was known as the "developers agreement" and was notoriously harsh on the developers as Sony wanted to keep strict control over who had access to develop for the platform [^4].
+
+## Development Tools
+The team paid $35k for a development kit in 1994 which likely was the original prototype development kit known as the MW.3, this predated the PC-based SN Systems PSYQ development kit that used an ISA card that plugged directly into a development PC.
+
+{% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the MW.3 and other official development kits please check out this post." %}
 
 ---
 # 3D Models
 Technical limitations of the Sony Playstation 1 hardware and the limited small CRT's used to play games were a big part in shaping the game we know and love today.
 
 ## Crash's Design limitations
-The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^1].
+The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^5].
 
 ### Use of Untextured Polygons for Crash
 It also turned out that the PlayStation was particularly good at rendering untextured but shaded polygons because of this it was decided that crash would be untextured which was a high enough polygon count that the details could be shown using just the colors of the polygons as well as rendering faster this had other advantages.
@@ -121,3 +131,5 @@ Another excellent Crash based game for the Playstation 1 was `Crash team Racing`
 [^1]: [Crash Bandicoots Design and Technical Achievement - Behind The Screens - YouTube](https://www.youtube.com/watch?feature=emb_logo)
 [^2]: [Making Crash Bandicoot – part 3 « All Things Andy Gavin](https://blog.mascherato.com/2011/02/04/making-crash-bandicoot-part-3/)
 [^3]: [ughman/c2c: Crash 2 in C](https://github.com/ughman/c2c)
+[^4]: [Making Crash Bandicoot – part 1 :: All Things Andy Gavin](https://all-things-andy-gavin.com/2011/02/02/making-crash-bandicoot-part-1/)
+[^5]: [Making Crash Bandicoot – part 2 :: All Things Andy Gavin](https://all-things-andy-gavin.com/2011/02/03/making-crash-bandicoot-part-2/)
