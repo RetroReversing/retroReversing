@@ -34,7 +34,7 @@ Crash bandicoot was one of the first 3d platformers that managed to deliver qual
 Technical limitations of the Sony Playstation 1 hardware and the limited small CRT's used to play games were a big part in shaping the game we know and love today.
 
 ## Crash's Design limitations
-The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour.
+The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^1].
 
 ### Use of Untextured Polygons for Crash
 It also turned out that the PlayStation was particularly good at rendering untextured but shaded polygons because of this it was decided that crash would be untextured which was a high enough polygon count that the details could be shown using just the colors of the polygons as well as rendering faster this had other advantages.
@@ -54,7 +54,7 @@ So if the developers ever had too many polygons on the screen they could actuall
 The PlayStation could not handle showing many enemies on the screen at one time as they were composed of too many
 polygons so lots of woompa fruit was added as they are in fact 2d sprites so many of these could be rendered at once to make the levels a bit more interesting.
 
-The Crates were also relatively low in terms of polygon count (6 if you only render what is facing the camera) so many could be added to make the levels feel more fleshed out.
+The Crates were also relatively low in terms of polygon count (6 if you only render what is facing the camera) so many could be added to make the levels feel more fleshed out [^1].
 
 ## Use of Fixed Camera Optimisations
 The in-game camera moves on a fixed path through each level so a lot of things could be pre calculated before putting the game on the disc.
@@ -65,11 +65,15 @@ So to optimise this Crash Bandicoot could pre-calculate the order as it would al
 
 ---
 # 3D Animation
+<section class="postSection">
+  <iframe width="560" height="315" class="wow slideInLeft postImage" src="https://www.youtube.com/embed/RYFVYHWcD8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div markdown="1">
 The characters were also animated differently to most games, rather than giving a character bones and moving them around Naughty Dog's animators instead moved individual vertices around to create Crashes exaggerated expressions.
 
 This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in Jak and Daxter [^1].
-
-
+</div>
+</section>
 
 ---
 # Coding Secrets
