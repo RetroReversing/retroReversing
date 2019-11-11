@@ -30,7 +30,7 @@ references:
 Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. It was created by Andy Gavin and Jason Rubin of Naughty Dog for release on the original Playstation console.
 
 ## Development Team
-Naughty Dog started with just Andy Gavin and Jason Rubin and later introduced the programmer Dave Baggett and Universal VP Mark Cerny.
+Naughty Dog started development of Crash Bandicoot with just Andy Gavin and Jason Rubin and later introduced the programmer Dave Baggett and Universal VP Mark Cerny. 
 
 They were one of the few developers to sign an agreement directly with Sony, most of the time it was the publisher who signed this aggreement. This agreement was known as the "developers agreement" and was notoriously harsh on the developers as Sony wanted to keep strict control over who had access to develop for the platform [^4].
 
@@ -40,10 +40,12 @@ The team paid $35k for a development kit in 1994 which likely was the original p
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the MW.3 and other official development kits please check out this post." %}
 
 ---
-# 3D Models
+# Assets
+
+## 3D Models
 Technical limitations of the Sony Playstation 1 hardware and the limited small CRT's used to play games were a big part in shaping the game we know and love today.
 
-## Crash's Design limitations
+### Crash's Design limitations
 The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^5].
 
 ### Use of Untextured Polygons for Crash
@@ -52,9 +54,9 @@ It also turned out that the PlayStation was particularly good at rendering untex
 The bright colors of Crash would pop out on the screen and this also avoided the Playstations lack of texture perspective correction. This also helped with the cartoon vibe that the game was going for [^2].
 
 ---
-# 3D World
+## 3D World
 
-## Level Design Limitations
+### Level Design Limitations
 The game was designed around the Playstation's limitations and so levels needed to be planned accordingly to fit in the limited memory and processing power the Playstation had available.
 
 The levels ensured that there was never too much being shown on screen at once, if a polygon was obscured by something like a fern or a bush the game engine was smart enough to ignore that polygon entirely.
@@ -66,7 +68,7 @@ polygons so lots of woompa fruit was added as they are in fact 2d sprites so man
 
 The Crates were also relatively low in terms of polygon count (6 if you only render what is facing the camera) so many could be added to make the levels feel more fleshed out [^1].
 
-## Use of Fixed Camera Optimisations
+### Use of Fixed Camera Optimisations
 The in-game camera moves on a fixed path through each level so a lot of things could be pre calculated before putting the game on the disc.
 
 3D games need to calculate the correct order in which to render polygons on the fly, but the PlayStation had no easy way to do that.
@@ -74,7 +76,7 @@ The in-game camera moves on a fixed path through each level so a lot of things c
 So to optimise this Crash Bandicoot could pre-calculate the order as it would always be the same thanks to the fixed camera [^1].
 
 ---
-# 3D Animation
+## 3D Animation
 <section class="postSection">
   <iframe width="560" height="315" class="wow slideInLeft postImage" src="https://www.youtube.com/embed/RYFVYHWcD8Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -84,6 +86,15 @@ The characters were also animated differently to most games, rather than giving 
 This was in an era where bone animations in games were primitive and characters were low poly, so this made Crash stand out from the crowd as an emotive cartoon character. Naughty Dog would use its technique to even greater effect later on in Jak and Daxter [^1].
 </div>
 </section>
+
+---
+# Modding
+
+## CrashEdit - Level Editor
+CrashEdit is a modding tool developed by `cbhacks` to edit levels for the first 3 PS1 Crash Bandiccot games. It is being replaced by another tool called `DRNSF` but currently it has some features which are not available in the new tool yet.
+
+{% include link-to-other-site.html url="https://github.com/cbhacks/CrashEdit" description="To find out more about the level editor check out the projects Github page" image="/public/consoles/Sony Playstation.png" title="CrashEdit - Level Editor"  %}
+
 
 ---
 # Coding Secrets
