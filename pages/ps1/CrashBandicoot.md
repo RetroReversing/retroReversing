@@ -113,7 +113,7 @@ The developer known as `ughman` has created a Crash 2 mini-decompilation project
 ## Crash Team Racing Modding Tools
 Another excellent Crash based game for the Playstation 1 was `Crash team Racing`, there are a few projects which have managed to create modding tools for this game, the most complete is known as `CTR-tools`.
 
-{% include link-to-other-site.html url="https://github.com/DCxDemo/CTR-tools" description="Github project for the Crash Team Racing (PS1) tools" image="" title="CTR-tools"  %}
+{% include link-to-other-site.html url="https://github.com/DCxDemo/CTR-tools" description="Github project for the Crash Team Racing (PS1) tools" image="" title="CTR-tools" image="https://github.com/DCxDemo/CTR-tools/raw/master/ctr-tools-logo.png"  %}
 
 
 ---
