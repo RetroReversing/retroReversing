@@ -33,7 +33,7 @@ However don’t be disillusioned the PS1 was still a very powerful machine for i
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
 ## Geometry Transformation Engine (GTE)
-The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playsation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
+The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playstation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
 
 {% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
 
@@ -42,7 +42,7 @@ The Geometry Transformation Engine or GTE was what allowed the Playstation to ha
 What would the Sony Playstation be without its excellent line-up of games? It was the games that attracted many people away from the Nintendo 64 and Sega Saturn and on to their very first Sony console.
 
 ## Playstation 1 Games with Debug Symbols
-An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the Playstation One and gives you access to all the original functiontion and variables names that were used in the retail source code.
+An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the Playstation One and gives you access to all the original function and variables names that were used in the retail source code.
 
 {% include link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
 
@@ -78,6 +78,7 @@ It was called PSY-Q and even although it was owned by Sony it was actually a cro
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the Playstation 1 check out this post." %}
 
 ---
+# All Posts
 <div>
 {% include console.html %}
 </div>
