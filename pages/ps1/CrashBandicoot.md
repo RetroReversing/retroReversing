@@ -103,6 +103,16 @@ As with most games that have a rushed development cycle, there are assets availa
 {% include link-to-other-site.html url="https://tcrf.net/Crash_Bandicoot" description="The Cutting Room Floor has a very detailed page listing all of the unused assets available in the game and is highly recommended to check out" image="https://tcrf.net/images/e/e7/Crash1_-_GuardDog.png" title="Crash Bandicoot - The Cutting Room Floor"  %}
 
 ---
+# Other Games
+
+## Crash 2 Decompilation
+The developer known as `ughman` has created a Crash 2 mini-decompilation project which converts the original assembly for the PS1 version of Crash 2 into C code which is structured like assembly. So it is up to the developer to take it further and re-create all the loops and function calls [^3].
+
+{% include link-to-other-site.html url="https://github.com/ughman/c2c" description="Github project for the decompilation of Crash 2 for PS1" image="" title="Crash 2 in C"  %}
+
+
+---
 # References
 [^1]: [Crash Bandicoots Design and Technical Achievement - Behind The Screens - YouTube](https://www.youtube.com/watch?feature=emb_logo)
 [^2]: [Making Crash Bandicoot – part 3 « All Things Andy Gavin](https://blog.mascherato.com/2011/02/04/making-crash-bandicoot-part-3/)
+[^3]: [ughman/c2c: Crash 2 in C](https://github.com/ughman/c2c)
