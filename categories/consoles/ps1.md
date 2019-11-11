@@ -20,6 +20,7 @@ carousel:
     image: https://img.youtube.com/vi/MPXpH2hxuNc/maxresdefault.jpg
     link: /playStation-architecture
 editlink: ../categories/consoles/ps1.md
+updatedAt: 11th November 2019                                      
 ---
 
 # Introduction to Hacking the Sony Playstation One
