@@ -3,6 +3,7 @@ layout: post
 tags: 
 - sega
 - segasaturn
+- saturn
 - ps1
 - games
 - projects
