@@ -25,16 +25,33 @@ editlink: ../categories/consoles/ps1.md
 # Introduction to Hacking the Sony Playstation One
 Interested in learning more about the the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic MIPS assembly language all the way to an introduction to reverse engineering your first game!
 
-## Retail Playstation hardware
+---
+# Retail Playstation hardware
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
 However don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
 
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
+## Geometry Transformation Engine (GTE)
+The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playsation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
+
+{% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
+
+---
+# Games
+What would the Sony Playstation be without its excellent line-up of games? It was the games that attracted many people away from the Nintendo 64 and Sega Saturn and on to their very first Sony console.
+
 ## Playstation 1 Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the Playstation One and gives you access to all the original functiontion and variables names that were used in the retail source code.
 
 {% include link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
+
+## Crash Bandicoot
+Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. 
+
+It was created by Andy Gavin and Jason Rubin for release on the original Playstation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
+
+{% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
 
 ---
 # Development Kits (Hardware)
