@@ -27,12 +27,12 @@ references:
   - DevsPlay
 ---
 # Introduction to Crash Bandicoot
-Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. It was created by Andy Gavin and Jason Rubin of Naughty Dog for release on the original Playstation console.
+Crash bandicoot was one of the first 3D Platform games that managed to deliver both quality gameplay and impressive graphics for its time. It was developed Naughty Dog for release on the original Playstation console with the aim for it to become the Mascot character for the console, this aim paid off for the creators.
 
 ## Development Team
 Naughty Dog started development of Crash Bandicoot with just Andy Gavin and Jason Rubin and later introduced the programmer Dave Baggett and Universal VP Mark Cerny. 
 
-They were one of the few developers to sign an agreement directly with Sony, most of the time it was the publisher who signed this aggreement. This agreement was known as the "developers agreement" and was notoriously harsh on the developers as Sony wanted to keep strict control over who had access to develop for the platform [^4].
+They were one of the few developers to sign an agreement directly with Sony, most of the time it was the publisher who signed this agreement. This agreement was known as the "developers agreement" and was notoriously harsh on the developers as Sony wanted to keep strict control over who had access to develop for the platform [^4].
 
 ## Development Tools
 The team paid $35k for a development kit in 1994 which likely was the original prototype development kit known as the MW.3, this predated the PC-based SN Systems PSYQ development kit that used an ISA card that plugged directly into a development PC.
@@ -91,7 +91,7 @@ This was in an era where bone animations in games were primitive and characters 
 # Modding
 
 ## CrashEdit - Level Editor
-CrashEdit is a modding tool developed by `cbhacks` to edit levels for the first 3 PS1 Crash Bandiccot games. It is being replaced by another tool called `DRNSF` but currently it has some features which are not available in the new tool yet.
+CrashEdit is a modding tool developed by `cbhacks` to edit levels for the first 3 PS1 Crash Bandicoot games. It is being replaced by another tool called `DRNSF` but currently it has some features which are not available in the new tool yet.
 
 {% include link-to-other-site.html url="https://github.com/cbhacks/CrashEdit" description="To find out more about the level editor check out the projects Github page" image="/public/consoles/Sony Playstation.png" title="CrashEdit - Level Editor"  %}
 
@@ -109,7 +109,7 @@ be loaded by the time Crash ended up in those levels.
 
 Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end Crash Bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
 
-{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave-Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimisations for Crash"  %}
+{% include link-to-other-site.html url="http://www.quora.com/How-did-game-developers-pack-entire-games-into-so-little-memory-twenty-five-years-ago/answer/Dave-Baggett?srid=z9ZA&share=1" description="See Dave Baggett's excellent post on more optimisations made to Crash Bandicoot!" image="/public/consoles/Sony Playstation.png" title="More Memory Optimisations for Crash"  %}
 
 ## Secret Code from Sony?
 Crash Bandicoot was a technical marvel boasting visuals so impressive that Naughty Dog were accused of being given secret libraries of code from Sony to make their game perform better than others [^1]!
