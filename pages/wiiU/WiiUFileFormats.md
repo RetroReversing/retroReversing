@@ -113,6 +113,13 @@ The format was developed by `WWise` for their audio creation software and used i
 * Chariot
 * LOST REAVERS
 
+## Binary caFe Layout IMage (.bflim)
+The BFLIM file format (Binary caFe Layout IMage) is used to store layout images. [^6]
+The following tools can handle BFLIM files:
+* [BFLIM Tool](https://github.com/aboood40091/BFLIM-Tool/releases/tag/v1.0), by AboodXD
+* [BFLIMtoGTX](https://mega.nz/#!KgRilZAR!qLGAx1yb9KduShuzxwZjd7nuN329nMjDQvrX9sy-CsE), by RandomTalkingBush
+* [Wexos's Toolbox](http://mk8.tockdom.com/wiki/Wexos%27s_Toolbox), by [Wexos](http://mk8.tockdom.com/wiki/Wexos)
+
 ---
 # Other WiiU File Formats
 
@@ -125,3 +132,4 @@ The Game Manual format is a `SARC` archive that can be extracted using `UWizard`
 [^3]: https://gbatemp.net/threads/what-are-title-cert-title-tmd-and-title-tik-files.495526/ 
 [^4]: https://gbatemp.net/threads/loadiine-wud-question-what-are-rpx-rpl-how-to-obtain.398773/ 
 [^5]: https://gbatemp.net/threads/is-there-a-way-to-edit-the-bfma-manual-files.460790/ 
+[^6]: http://mk8.tockdom.com/wiki/BFLIM_(File_Format)
