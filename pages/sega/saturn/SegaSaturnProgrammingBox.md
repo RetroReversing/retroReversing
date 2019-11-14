@@ -159,6 +159,9 @@ For more information about the Mirage please check out this excellent page on Se
 
 The Mirage wasn't the only way to mount discs for the development system, there was also a Virtual CD emulator available for the P-box. This allowed much more discs to be mounted as it could use the entire PC hard drive as storage.
 
+{% include link-to-other-site.html url="http://dj898.egloos.com/932484" description="For more images of the Mirage CD Emulator check out this site on egloos." image="http://pds6.egloos.com/pds/200710/30/68/e0037268_47269a29124f0.jpg" title="Images of Mirage"  %}
+
+
 ---
 # Hitachi E7000 PC Debug Unit (ICE)
 <section class="postSection">
