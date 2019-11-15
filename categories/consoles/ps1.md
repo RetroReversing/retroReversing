@@ -5,6 +5,7 @@ console: 'ps1'
 title: 'Sony Playstation 1 (PSX)'
 consoleimage: /public/consoles/Sony Playstation.png
 thumbnail: /public/consoles/Sony Playstation.png
+twitterimage: https://www.retroreversing.com/public/consoles/Sony Playstation.png
 recommend: ps1
 recommendTitle: All PS1 Posts
 breadcrumbs:
