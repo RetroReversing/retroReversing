@@ -63,7 +63,7 @@ The earliest mention of the SGI Onyx being used as an early development kit for 
 
 <div markdown="1">
 
-As the N64 hardware matured so did the development hardware, the `Nintendo 64 Development Unit` was one of there first evolutions of the development kit and was sold directly by Nintendo from October 1996 onwards.
+As the N64 hardware matured so did the development hardware, the `Nintendo 64 Development Unit` was one of the first evolutions of the development kit and was sold directly by Nintendo from October 1996 onwards.
 
 It consisted of a standard SGI Indy workstation with an add-on board containing the retail Nintendo 64 hardware. 
 
@@ -179,40 +179,40 @@ Here is a list of games that still contain KMC Partner64 debug code thanks to a 
 25. Hyper Olympics in Nagano 64 / Nagano Winter Olympics '98
 26. Ide Yosuke no Mahjong Juku
 27. International Superstar Soccer 2000
-28. both    International Track & Field - Summer Games / International Track & Field 2000
-29. both    Jikkyou J.League 1999 - Perfect Striker 2
-30. KMC\0   Kakutou Denshou - F-Cup Maniax
-31. both    Legend of Zelda, The - Majora's Mask (Debug)
-32. KMC\0   Lylat Wars  [[PAL only, not NTSC!]]
-33. KMC\0   Mario Party (Europe)    [[not NTSC!]]
-34. both    Mario Party 3   [[USA, PAL, +not+ Japan]]
-35. KMC\0   Micro Machines 64 Turbo
-36. both    Midway's Greatest Arcade Hits - Volume 1
-37. KMC\0   Mischief Makers (USA) (Rev A)   [[not in other versions]]
-38. KMC\0   MRC - Multi Racing Championship
-39. KMC\0   NFL Blitz - Special Edition
-40. KMC\0   NFL Blitz 2001
-41. KMC\0   Nightmare Creatures
-42. KMC\0   Parlor! Pro 64 - Pachinko Jikki Simulation Game
-43. KMC\0   Pokemon Puzzle League
-44. both    Pokemon Stadium 2 / Pocket Monster Stadium 3
-45. KMC\0   Polaris SnoCross
-46. KMC\0   Powerpuff Girls, The - Chemical X-Traction
-47. KMC\0   Premier Manager 64
-48. KMC\0   Ready 2 Rumble Boxing
-49. KMC\0   Ready 2 Rumble Boxing - Round 2
-50. KMC\0   Road Rash 64
-51. KMC\0   Rockman 64 (Japan) (Proto)
-52. KMC\0   Star Fox 64 (Rev A) [[Japan and USA; not in v1.0]]
-53. KMC\0   Superman (USA) (Proto)  [[not in retail]]
-54. KMC\0   Tom and Jerry in Fists of Furry
-55. KMC\0   Triple Play 2000
-56. KMC\0   WCW Nitro   [[both versions]]
-57. both    4567 (64DD)
-58. KMC\0   Dezaemon DD (64DD)
-59. KMC\0   Doshin the Giant (retail and demo) (64DD)
-60. both    Doshin the Giant 2 (64DD)
-61. both    Mario Artist Communication Kit (64DD)
+28. International Track & Field - Summer Games / International Track & Field 2000
+29. Jikkyou J.League 1999 - Perfect Striker 2
+30. Kakutou Denshou - F-Cup Maniax
+31. Legend of Zelda, The - Majora's Mask (Debug)
+32. Lylat Wars  [[PAL only, not NTSC!]]
+33. Mario Party (Europe)    [[not NTSC!]]
+34. Mario Party 3   [[USA, PAL, +not+ Japan]]
+35. Micro Machines 64 Turbo
+36. Midway's Greatest Arcade Hits - Volume 1
+37. Mischief Makers (USA) (Rev A)   [[not in other versions]]
+38. MRC - Multi Racing Championship
+39. NFL Blitz - Special Edition
+40. NFL Blitz 2001
+41. Nightmare Creatures
+42. Parlor! Pro 64 - Pachinko Jikki Simulation Game
+43. Pokemon Puzzle League
+44. Pokemon Stadium 2 / Pocket Monster Stadium 3
+45. Polaris SnoCross
+46. Powerpuff Girls, The - Chemical X-Traction
+47. Premier Manager 64
+48. Ready 2 Rumble Boxing
+49. Ready 2 Rumble Boxing - Round 2
+50. Road Rash 64
+51. Rockman 64 (Japan) (Proto)
+52. Star Fox 64 (Rev A) [[Japan and USA; not in v1.0]]
+53. Superman (USA) (Proto)  [[not in retail]]
+54. Tom and Jerry in Fists of Furry
+55. Triple Play 2000
+56. WCW Nitro   [[both versions]]
+57. 4567 (64DD)
+58. Dezaemon DD (64DD)
+59. Doshin the Giant (retail and demo) (64DD)
+60. Doshin the Giant 2 (64DD)
+61. Mario Artist Communication Kit (64DD)
 
 ---
 ## Monegi Smart Pack
@@ -260,7 +260,7 @@ Here is a list of games that still contain IS64 debug code thanks to a Pastebin 
 <div markdown="1">
 Rewritable Prototype cartridges were available to buy and came in 128Mb, 256Mb and 512Mb configurations, with the largest capacity being the most expensive.
 
-These were given out to journalists to preview/review the games in their magazines before the official launch of the game along with being used to demonstrate upcoming games at tradeshows such as E3 [^15].
+These were given out to journalists to preview/review the games in their magazines before the official launch of the game along with being used to demonstrate upcoming games at trade shows such as E3 [^15].
 
 They are double the size of regular N64 games and they are actually re-writeable 7 at a time using a flashing device by Intelligent systems.
 </div>
