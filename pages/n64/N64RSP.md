@@ -32,7 +32,7 @@ The RCP is actually split into two distinct parts one for the Geometry transform
 
 The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor that deals with data transform. It is a MIPS-based cpu like the main R4000 cpu but it also contains additional 8-bit vector opcodes [^1].
 
-The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^16].
+The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^9].
 
 </div>
 </section>
@@ -167,10 +167,9 @@ So Display lists are created based on the commands listed in the GBI and are sen
 So you could summarize that the purpose of the graphics RSP microcode is to implement the functionality required by the GBI.
 
 
-
 ---
 #  References
-[^1]: [N64 RDP/RSP | Beyond3D Forum](https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/)
+[^1]: [N64 RDP/RSP](https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/)
 [^2]: [N64 ASM - Day 8](https://patater.com/gbaguy/day8n64.htm)
 [^3]: http://n64devkit.square7.ch/n64man/ucode/rspboot.htm
 [^4]: https://www.docdroid.net/NXMlF3s/grucode.pdf#page=3 
@@ -178,3 +177,4 @@ So you could summarize that the purpose of the graphics RSP microcode is to impl
 [^6]: https://hylianmodding.com/Thread-A-comprehensive-guide-to-F3DZEX-F3DEX2-Display-Lists 
 [^7]: https://level42.ca/projects/ultra64/Documentation/man/pro-man/pro25/index25.4.html 
 [^8]: https://level42.ca/projects/ultra64/Documentation/man/n64man/ucode/gspF3DLP.Rej.html 
+[^9]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n9)
