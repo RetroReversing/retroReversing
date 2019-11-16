@@ -43,8 +43,7 @@ You can think of the RSP as a more powerful version of the Sony Playstation's Ge
 
 {% include link-to-other-post.html post="/ps1-gte" description="For more information about Sonys answer to the Geometry calculation problem known as the GTE check out this post." %}
 
----
-# Usage of RSP for Graphics
+## Usage of RSP for Graphics
 Common tasks given to the RSP for graphical data processing are:
 * Lighting calculations
 * Display List decoding
@@ -53,11 +52,31 @@ Common tasks given to the RSP for graphical data processing are:
 * Clipping
 * Vertice Transforms (translate, scale, rotate)
 
-# Usage of RSP for Audio
+## Usage of RSP for Audio
 Common tasks given to the RSP for graphical data processing are:
 * Wavetable Audio format decoding
 * Midi Audio processing
 * MP3 decoding (Conkers Bad Fur Day)
+
+---
+# Memory inside the RCP
+<section class="postSection">
+    <img src="/public/N64/N64-RCP-Decapped.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+As you can see from the De-capped RCP chip there are 2 4KB memory sections inside, one labeled as IMEM and the other labeled as DMEM. 
+IMEM is the shorthand for Instruction Memory and is just for Assembly instructions that run on the RSP, this is also known as  Microcode or uCode.
+
+DMEM is the shorthand for Data Memory and is used for all the data the RSP needs access too, so this would normally be geometry or audio data that it is performing calculations on [^2].
+</div>
+</section>
+
+
+## Instruction Memory (IMEM) (0x04001000 -> 0x04001FFF)
+Instruction Memory is the executable area of memory inside the RCP that runs `microcode`, you can sort of think of the microcode as a shader that gets executed by the RSP, however this is not quite the case.
+
+## Data Memory (DMEM) (0x04000000 -> 0x04000FFF)
+In order to process data on the RSP the game needs to copy memory into the DMEM section of the RCP at locations 0x04000000 to 0x04000FFF, and copy the result back out into standard DRAM.
 
 ---
 # RSP Microcode
@@ -129,10 +148,6 @@ The XBUS is a physical connection that connects the RSP and RDP together on the 
 
 ### .dram (e.g gspFast3D.dram.o)
 The DRAM method uses extensive use of RDRAM to store the RDP commands and requires work on the cpu to move the data to the RDP.
-
----
-# IMEM and DMEM
-RSP has its own 8kb of memory split into 2 chunks, one for assembly instructions (opcodes) and the other 4k for data. The Data portion was called DMEM (0x04000000 -> 0x04000FFF) and the Code portion was called IMEM (0x04001000 -> 0x04001FFF) [^2].
 
 ---
 # RSPBOOT
