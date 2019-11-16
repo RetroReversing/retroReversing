@@ -20,6 +20,12 @@ breadcrumbs:
 recommend: n64
 editlink: /n64/N64RSP.md
 ---
+
+# Introduction
+<section class="postSection">
+    <img src="/public/N64/N64-RCP-Decapped.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 Unlike most PC hardware at the time the Nintendo 64 has the advantage of having its own stand alone graphics processor known as the `Reality Co-Processor` (RCP). This freed up the main CPU from having to do any graphics calculations and it could use all its processing power for the main game logic.
 
 The RCP is actually split into two distinct parts one for the Gemotry transformations known as the `Reality Signal Processor` (RSP) and the other for the Per-pixel calculations known as the `Reality Display Processor` (RDP).
@@ -28,10 +34,13 @@ The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor t
 
 The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^16].
 
-# RSP Microcode
-The ability to do fast Matrix and Addition calculations is crucial for 3D graphics and Audio Synthesis and decompression, so to take advantage of the specialised CPU programmers had the ability to write custom assembly for this processor known as `microcode`. Microcode is similar to assembly language but optimized for parallel computation of thousands of matrix calculations per second, but its much less documented than traditional assembly and took developers years to figure out how to make the best use of the chip.
+</div>
+</section>
 
-# RSP for Graphics
+{% include link-to-other-post.html post="/n64rdp" description="For more information about the second half of the RCP known as the Reality Display Processor check out this post." %}
+
+---
+# Usage of RSP for Graphics
 Common tasks given to the RSP for graphical data processing are:
 * Lighting calculations
 * Display List decoding
@@ -40,23 +49,37 @@ Common tasks given to the RSP for graphical data processing are:
 * Clipping
 * Vertice Transforms (translate, scale, rotate)
 
-# RSP for Audio
+# Usage of RSP for Audio
 Common tasks given to the RSP for graphical data processing are:
 * Wavetable Audio format decoding
 * Midi Audio processing
 * MP3 decoding (Conkers Bad Fur Day)
 
-# Microcode
-Although you can initially think of the RSP microcode as similar to a modern Shader language, as they are both used to implement a programmable graphics pipeline. 
-It wasn’t common for developers to write their own microcode for their games until near the end of the N64 lifecycle. 
+---
+# RSP Microcode
+The ability to do fast Matrix and Addition calculations is crucial for 3D graphics and Audio Synthesis and decompression, so to take advantage of the specialised CPU programmers had the ability to write custom assembly for this processor known as `microcode`. 
 
+Microcode (otherwise known as uCode) is similar to assembly language but optimized for parallel computation of thousands of matrix calculations per second, but its much less documented than traditional assembly and took developers years to figure out how to make the best use of the chip.
+
+## Pre-written Microcode
+Although you can initially think of the RSP microcode as similar to a modern Shader language, as they are both used to implement a programmable graphics pipeline, this is not quite the case in practise. Most of the time the developers used the Nintendo written microcode and called it as if it was a normal Fixed function pipeline. 
+
+## Custom Microcode
+It wasn’t common for developers to write their own microcode for their games until near the end of the N64 lifecycle. 
 So most early games used pre-written microcode developed by SGI and Nintendo and used it like a fixed function graphical pipeline.
 
-The main reason for the lack of custom microcode development by 3rd party games is due to the poor tools and documentation provided by nintendo. Not to mention the complexity of programming for it and no debugger was provided [^1].
+In fact the main reason for the lack of custom microcode development by 3rd party games is due to the poor tools and documentation provided by nintendo. Not to mention the complexity of programming for it and no debugger was provided [^1].
 
+## The Microcode wizard - Yoshitaka Yasumoto
+ Yoshitaka Yasumoto is credited in many games as being the microcode programmer (e.g Yoshi’s story) but most games use his microcode without explicitly giving credit as it was part of the Official N64 SDK. 
+
+If you search a N64 rom file for his name "Yoshitaka Yasumoto" you will likely find the microcode that he has written. This works for most games unless they used their own custom uCode.
+
+## Output of Microcode
 The main output of the RSP microcode tends to be either graphical rasterization commands for the RDP or audio buffers for the DAC.
 
-# Known Microcodes
+---
+# Pre-written Microcodes
 The list of RSP Microcodes provided by the Official Nintendo64 SDK are as follows:
 * gspFast3D - most full features, includes shading fog etc
 * gspF3DNoN - same as Fast3D but without near-clipping
@@ -103,9 +126,11 @@ The XBUS is a physical connection that connects the RSP and RDP together on the 
 ### .dram (e.g gspFast3D.dram.o)
 The DRAM method uses extensive use of RDRAM to store the RDP commands and requires work on the cpu to move the data to the RDP.
 
+---
 # IMEM and DMEM
 RSP has its own 8kb of memory split into 2 chunks, one for assembly instructions (opcodes) and the other 4k for data. The Data portion was called DMEM (0x04000000 -> 0x04000FFF) and the Code portion was called IMEM (0x04001000 -> 0x04001FFF) [^2].
 
+---
 # RSPBOOT
 RSPBOOT is a short piece of code to initialise/boot the RSP, the assembled `rspboot.o` file contains in the Official Nintendo64 SDK is 740bytes but as that contains extra object data when compiled into the final rom it only takes about 208bytes (e.g Mario64).
 
@@ -137,15 +162,12 @@ So Display lists are created based on the commands listed in the GBI and are sen
 
 So you could summarize that the purpose of the graphics RSP microcode is to implement the functionality required by the GBI.
 
-#  Yoshitaka Yasumoto
- Yoshitaka Yasumoto is credited in many games as being the microcode programmer (e.g Yoshi’s story) but most games use his microcode without explicitly giving credit as it was part of the Official N64 SDK. 
 
-If you search a N64 rom file for his name "Yoshitaka Yasumoto" you will likely find the microcode that he has written. This works for most games unless they used their own custom uCode.
 
 ---
 #  References
-[^1]: https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/
-[^2]: https://patater.com/gbaguy/day8n64.htm
+[^1]: [N64 RDP/RSP | Beyond3D Forum](https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/)
+[^2]: [N64 ASM - Day 8](https://patater.com/gbaguy/day8n64.htm)
 [^3]: http://n64devkit.square7.ch/n64man/ucode/rspboot.htm
 [^4]: https://www.docdroid.net/NXMlF3s/grucode.pdf#page=3 
 [^5]: https://en.wikibooks.org/wiki/N64_Programming/Video_coprocessor 
