@@ -20,8 +20,13 @@ breadcrumbs:
 recommend: n64
 editlink: /n64/N64RSP.md
 ---
+Unlike most PC hardware at the time the Nintendo 64 has the advantage of having its own stand alone graphics processor known as the `Reality Co-Processor` (RCP). This freed up the main CPU from having to do any graphics calculations and it could use all its processing power for the main game logic.
 
-The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor (RCP) that deals with data transform. It is a MIPS-based cpu like the main R4000 cpu but it also contains additional 8-bit vector opcodes[^1].
+The RCP is actually split into two distinct parts one for the Gemotry transformations known as the `Reality Signal Processor` (RSP) and the other for the Per-pixel calculations known as the `Reality Display Processor` (RDP).
+
+The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor that deals with data transform. It is a MIPS-based cpu like the main R4000 cpu but it also contains additional 8-bit vector opcodes [^1].
+
+The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^16].
 
 The data transform is crucial for both graphics and audio data and so microcode is used to implement graphics and audio routines that run on the RSP.
 
