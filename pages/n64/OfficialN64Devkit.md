@@ -65,12 +65,14 @@ The earliest mention of the SGI Onyx being used as an early development kit for 
 
 As the N64 hardware matured so did the development hardware, the `Nintendo 64 Development Unit` was one of the first evolutions of the development kit and was sold directly by Nintendo from October 1996 onwards.
 
-It consisted of a standard SGI Indy workstation with an add-on board containing the retail Nintendo 64 hardware. 
+It consisted of a standard SGI workstation such as an Indy with an add-on board containing the retail Nintendo 64 hardware. 
 
 This has the benefit of not using any workstation hardware resources to run the games as it used the N64 hardware directly and just communicated with it for debugging [^9].
 
 </div>
 </section>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qk_JjfeChQA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ### N64 hardware add-on board (Nintendo 64 Development Board)
