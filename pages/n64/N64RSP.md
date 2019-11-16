@@ -28,7 +28,8 @@ The N64 Reality Signal Processor (RSP) is the part of the Reality Co-Processor t
 
 The functionality of the RSP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as specially design for fast Matrix and addition calculations unlike the standard PC RISC and CISC based processors [^16].
 
-The data transform is crucial for both graphics and audio data and so microcode is used to implement graphics and audio routines that run on the RSP.
+# RSP Microcode
+The ability to do fast Matrix and Addition calculations is crucial for 3D graphics and Audio Synthesis and decompression, so to take advantage of the specialised CPU programmers had the ability to write custom assembly for this processor known as `microcode`. Microcode is similar to assembly language but optimized for parallel computation of thousands of matrix calculations per second, but its much less documented than traditional assembly and took developers years to figure out how to make the best use of the chip.
 
 # RSP for Graphics
 Common tasks given to the RSP for graphical data processing are:
@@ -141,6 +142,7 @@ So you could summarize that the purpose of the graphics RSP microcode is to impl
 
 If you search a N64 rom file for his name "Yoshitaka Yasumoto" you will likely find the microcode that he has written. This works for most games unless they used their own custom uCode.
 
+---
 #  References
 [^1]: https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/
 [^2]: https://patater.com/gbaguy/day8n64.htm
