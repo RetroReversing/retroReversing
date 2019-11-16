@@ -59,12 +59,12 @@ Common tasks given to the RSP for graphical data processing are:
 * MP3 decoding (Conkers Bad Fur Day)
 
 ---
-# Memory inside the RCP
+# Memory inside the RSP
 <section class="postSection">
-    <img src="/public/N64/N64-RCP-Decapped.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/N64/N64-RSP-Decapped.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-As you can see from the De-capped RCP chip there are 2 4KB memory sections inside, one labeled as IMEM and the other labeled as DMEM. 
+As you can see from the De-capped RSP chip there are 2 4KB memory sections inside, one labeled as IMEM and the other labeled as DMEM. 
 IMEM is the shorthand for Instruction Memory and is just for Assembly instructions that run on the RSP, this is also known as  Microcode or uCode.
 
 DMEM is the shorthand for Data Memory and is used for all the data the RSP needs access too, so this would normally be geometry or audio data that it is performing calculations on [^2].
