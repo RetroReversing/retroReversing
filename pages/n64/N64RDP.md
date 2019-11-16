@@ -29,7 +29,7 @@ The RCP is actually split into two distinct parts one for the Geometry transform
 
 The N64 Reality Display Processor (RDP) is used to render the Nintendo 64's game polygons into 2D pixels that it stores in the FrameBuffer ready to be displayed on the screen [^1].
 
-The functionality of the RDP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as the big advantage over the Playstation hardware as it allowed advanced features such as Texture Perspective correction which Sony's hardware could not perform efficiently [^16].
+The functionality of the RDP was first described in an interview with `George Zachary` in the magazine `Next Generation` where he described the processor as the big advantage over the Playstation hardware as it allowed advanced features such as Texture Perspective correction which Sony's hardware could not perform efficiently [^4].
 
 The RDP is used after the Reality Signal Processor has processed its calculations, so you can think of the RSP as a sort of Vertex Shader and the RDP as a sort of Pixel Shader [^2].
 
@@ -105,3 +105,4 @@ One of the developers of the N64 emulation plugin `GLideN64` known as `gonetz ` 
 [^1]: [N64 RDP/RSP](https://forum.beyond3d.com/threads/n64-rdp-rsp.15758/)
 [^2]: [N64 object software renderer in 512 lines](https://news.ycombinator.com/item?id=16138583)
 [^3]: [Chapter 4 - Runtime Software Architecture](http://ultra64.ca/files/documentation/online-manuals/man-v5-1/pro-man/pro04/04-05.htm)
+[^4]: [NEXT Generation Issue #14 February 1996 : Imagine Media : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/nextgen-issue-014/page/n9)
