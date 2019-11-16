@@ -272,7 +272,9 @@ They are double the size of regular N64 games and they are actually re-writeable
 # Unofficial N64 Development Kit
 
 ## SN64 (SN Systems)
-You can view a cached version of the official Sn systems SN64 development kit thanks to Icequake [SN64 Nintendo64 Development Tools](http://n64.icequake.net/mirror/slaanesh79/Dev/SN%20Systems_files/n64.htm)
+SN Systems released their own cheaper Nintendo 64 development kit aimed at smaller studios and it was used to create some classic games such as Resident Evil 2 [^17].
+
+You can view a cached version of the official SN systems SN64 development kit thanks to Icequake [SN64 Nintendo64 Development Tools](http://n64.icequake.net/mirror/slaanesh79/Dev/SN%20Systems_files/n64.htm)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check this out!!<br>I recently acquired these <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> cartridges called the “SN64” and the “Maestro64”. <br><br>Manufactured by the company:<br>“SN Systems”. The more Rare of the two is the Maestro64, which was used for N64 Sound development. <a href="https://twitter.com/hashtag/N64?src=hash&amp;ref_src=twsrc%5Etfw">#N64</a> <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://t.co/9vvlB1MOQ7">https://t.co/9vvlB1MOQ7</a> <a href="https://t.co/NRHoj2Uu34">pic.twitter.com/NRHoj2Uu34</a></p>&mdash; Gerry_MAN (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1179955009800286208?ref_src=twsrc%5Etfw">October 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -314,3 +316,4 @@ The full n64 development kit was used by Sound designer Grant Kirkhope at Rare t
 [^14]: [Development Tools Summary](http://n64devkit.square7.ch/tools/kmc/index.htm)
 [^15]: [Duke Nukem Prototype](http://www.nintendoplayer.com/prototype/duke-nukem-64/)
 [^16]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n7)
+[^17]: [Gamasutra - Postmortem: Angel Studios Resident Evil 2 N64 Version](https://www.gamasutra.com/view/feature/131556/postmortem_angel_studios_.php?page=3)
