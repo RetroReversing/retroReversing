@@ -35,16 +35,21 @@ The website N64Squid has a page dedicated to Nintendo 64 development hardware th
 
 # Official Development Kit 
 
+SGI started work on what it called the `Reality Engine` in 1992, this technology cost $100,000 but produced some of the most beautiful 3D demos that the world had ever seen. An SGI employee called `Tim Van Hook` then took this technology and produced a functionally similar engine at a much cheaper price point and called it the `Multimedia Engine` [^16].
+
+It was this technology that SGI wanted to bring into the home, but they decided that they would need the help of a major player in the video game industry, Nintendo. Thus in August 1993 the `Ultra64` project began its life as a partnership between Nintendo and SGI.
+
 ## Early Development Hardware - SGI Onyx 
 <section class="postSection">
 <img src="/public/magazine/EDGE_20_SGI_Onyx.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 
-In the very early days of the Ultra 64 project the retail hardware was still under active development, but games would need to start development as soon as possible so that the system could have launch titles.
+In the very early days of the `Ultra64` project the retail hardware was still under active development, but games would need to start development as soon as possible so that the system could have launch titles.
 
-As there was no ready hardware to use early developers for the platform used the `SGI Onyx` as it was presumed that the hardware would be very similar, they were envisioning the N64 as just a stripped down version of this workstation, mainly due to their partnership with SGI for the graphics.
+As there was no ready hardware to use early developers such as `Shigeru Miyamoto` for the platform used the `SGI Onyx` and it's `Multimedia Engine` along with a software emulation layer to model how they envisioned the `Ultra64` project. This is where Super Mario 64 started its life in July of 1994 [^16].
 
+All the launch titles had to be developed on the SGI workstations with the software emulation layer until working prototypes of the Nintendo 64 hardware was available and could be slotted in the same SGI workstations.
 
 The earliest mention of the SGI Onyx being used as an early development kit for the Nintendo 64  was in the Edge UK magazine issue 20 from May 1995. [^1].
 
@@ -52,7 +57,7 @@ The earliest mention of the SGI Onyx being used as an early development kit for 
 </section>
 
 
-## Nintendo 64 Development Unit (IRIX workstations)
+## Nintendo 64 Development Unit (SGI IRIX workstations)
 <section class="postSection">
 <img src="/public/N64/sgiDevkit.jpg" class="wow slideInLeft postImage" />
 
@@ -60,7 +65,7 @@ The earliest mention of the SGI Onyx being used as an early development kit for 
 
 As the N64 hardware matured so did the development hardware, the `Nintendo 64 Development Unit` was one of there first evolutions of the development kit and was sold directly by Nintendo from October 1996 onwards.
 
-It consisted of a standard SGI Indy workstation with an add-on board containing the N64 hardware. 
+It consisted of a standard SGI Indy workstation with an add-on board containing the retail Nintendo 64 hardware. 
 
 This has the benefit of not using any workstation hardware resources to run the games as it used the N64 hardware directly and just communicated with it for debugging [^9].
 
@@ -306,3 +311,4 @@ The full n64 development kit was used by Sound designer Grant Kirkhope at Rare t
 [^13]: [Guid to NINTENDO64 development tools](http://n64devkit.square7.ch/tools/tindex.htm)
 [^14]: [Development Tools Summary](http://n64devkit.square7.ch/tools/kmc/index.htm)
 [^15]: [Duke Nukem Prototype](http://www.nintendoplayer.com/prototype/duke-nukem-64/)
+[^16]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n7)
