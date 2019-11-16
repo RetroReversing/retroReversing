@@ -58,8 +58,11 @@ It ran at 93.75MHz and has an onboard 24 KB L1 cache [^2].
 
 <div markdown="1">
 
-The RCP was the main graphics chip in the Nintendo 64 developed by SGI/Nintendo and manufactured by NEC [^1]. 
-It consisted of multiple separate areas that can be seen in the De-capped chip on the left, such as the RDP and RSP. 
+Unlike most PC hardware at the time the Nintendo 64 has the advantage of having its own stand alone graphics processor known as the `Reality Co-Processor` (RCP). This freed up the main CPU from having to do any graphics calculations and it could use all its processing power for the main game logic.
+
+The RCP chip was developed by a partnership between SGI Inc and Nintendo and the retail version was physically manufactured by NEC [^1]. 
+
+The RCP is actually split into two distinct parts one for the Gemotry transformations known as the `Reality Signal Processor` (RSP) and the other for the Per-pixel calculations known as the `Reality Display Processor` (RDP). You can see the de-capped chip on the left, showing the main parts such as the RDP and RSP.
 
 The Reality Display Processor (RDP) is used to render the polygons into 2D pixels that it stores in the FrameBuffer ready to be displayed on the screen.
 
