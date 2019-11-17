@@ -40,7 +40,10 @@ The company Multigen were known for creating very good 3D modelling tools for a 
 
 They were developed to run on Sri's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations.
 
-The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 swell as the N64 [^4].
+The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4].
+
+Notable Games with assets created in Multigen:
+* San Francisco Rush (N64, PS1) [^15]
 </div>
 </section>
 
@@ -123,3 +126,4 @@ Deluxe Paint (Dpaint) was the most popular tool for making textures, along with 
 [^12]: [NIFF 2.0 Graphic Environment](http://n64devkit.square7.ch/niff/niff_navi2/index.htm)
 [^13]: GAME DEVELOPER Magazine - DECEMBER 1998
 [^14]: [Gamasutra: John Szczepaniak's Blog - Unusual Evolution  Developing Space Station Silicon Valley](https://www.gamasutra.com/blogs/JohnSzczepaniak/20130605/193654/Unusual_Evolution__Developing_Space_Station_Silicon_Valley.php)
+[^15]: [GDM January 1999](https://archive.org/details/GDM_January_1999/page/n9?q=multigen)
