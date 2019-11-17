@@ -31,6 +31,9 @@ For Nintendo 64 3D Model development the official standards were NinGen (based o
 3D Modelling software was relatively new when development for Nintendo 64 game started, but during the lifetime many new products flooded the market and by the end artists were spoiled for choice.
 
 ## Ningen/Multigen/GameGen
+<section class="postSection">
+    <img src="/public/N64/Nintendo64_NinGen_MultiGen_ge007_stpetersburg.png" class="wow slideInLeft postImage" />
+<div markdown="1">
 Ningen was a custom version of the realtime 3D modelling software called `MultiGen` created by the company `Multigen Inc`. 
 
 The company Multigen were known for creating very good 3D modelling tools for a variety of purposes, such as flight simulators and games.
@@ -38,6 +41,8 @@ The company Multigen were known for creating very good 3D modelling tools for a 
 They were developed to run on Sri's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations.
 
 The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 swell as the N64 [^4].
+</div>
+</section>
 
 ## Alias/Power Animator/Wavefront
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TxlVAQeJQEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -90,8 +95,12 @@ It is possible that `Lightwave 3D` was used for the creation of assets for some 
 # Other 3D Related tools
 
 ## NIFF Editor
+<section class="postSection">
+    <img src="/public/N64/Nintendo64niffEditor.gif" class="wow slideInLeft postImage" />
+<div markdown="1">
 NIFF Editor was part of the package known as `NIFF Navigator` and the first version was released on the 9th of October 1997 and the last release on May 6th 1999 [^12].
-
+</div>
+</section>
 ---
 # Texture Creation
 Deluxe Paint (Dpaint) was the most popular tool for making textures, along with PaintShopPro and PhotoShop.
