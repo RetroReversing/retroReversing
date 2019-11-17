@@ -34,13 +34,13 @@ For Nintendo 64 3D Model development the official standards were NinGen (based o
 <section class="postSection">
     <img src="/public/N64/Nintendo64_NinGen_MultiGen_ge007_stpetersburg.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-Ningen was a custom version of the realtime 3D modelling software called `MultiGen` created by the company `Multigen Inc`. 
+Ningen was a custom version of the realtime 3D modelling software called `MultiGen` created by the company `Multigen Inc` and tailored specifically for video game platforms, especially Nintendo 64. 
 
-The company Multigen were known for creating very good 3D modelling tools for a variety of purposes, such as flight simulators and games.
+The company Multigen were well known for creating very good 3D modelling tools for a variety of purposes, such as flight simulators and games.
 
-They were developed to run on Sri's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations.
+They were developed to run on Sri's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations. Although a later version was released for Windows NT based systems, the price of the software itself at 9 thousand dollars was still rather costly.
 
-The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4].
+The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4]. Unlike its competitors such as Softimage and 3D Studio Max, Multigen did not offer any animation functionality as it was presumed that it would be handeled manually in the game engine [^15].
 
 Notable Games with assets created in Multigen:
 * San Francisco Rush (N64, PS1) [^15]
