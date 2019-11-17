@@ -101,7 +101,7 @@ Deluxe Paint (Dpaint) was the most popular tool for making textures, along with 
 ---
 # References
 [^1]: [What programs did people use to make models for the N64 and PS1? - General Forums / Blender and CG Discussions - Blender Artists Community](https://blenderartists.org/t/what-programs-did-people-use-to-make-models-for-the-n64-and-ps1/511620/6)
-[^2]: [N64 3D modeling software options | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/n64-3d-modeling-software-options.65407/)
+[^2]: [N64 3D modeling software options](https://assemblergames.com/threads/n64-3d-modeling-software-options.65407/)
 [^3]: [GoldenEye: Decoded: NinGen 3D Modelling](https://goldeneyedecoded.blogspot.com/2014/04/ningen-3d-modelling.html)
 [^4]: [FAQ: Chris Lee – MCV/Develop](https://www.mcvuk.com/faq-chris-lee/)
 [^5]: [Alias Wavefront, Batman & Robin 3D Character Models on SGI Indy from Probe Software - YouTube](https://www.youtube.com/watch?v=TxlVAQeJQEk)
