@@ -74,7 +74,7 @@ They can be a great place to start a game mod or simply to make the game easier/
 Games that use scripting:
 * Land of the Dead (Unreal Engine)
 * Pariah
-* 
+* Pirates of the Caribbean
 
 ---
 # Games still to Check for Debug Symbols
