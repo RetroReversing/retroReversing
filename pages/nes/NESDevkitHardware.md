@@ -32,6 +32,16 @@ Nintendo has been very secretive about how their official NES games were develop
 
 ## Programming Hardware
 
+## Famicom Disk System Development hardware
+
+<section class="postSection">
+    <img src="/public/images/nes/PrototypeFamicomDiskWhite.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+Retail FDS games were either yellow or Blue so a White FDS disk is used for in-development prototype games and may be re-writable. It is unclear whether they could be written to via a standard PC floppy drive however.
+</div>
+</section>
+
 ---
 # In-house development kits
 Due to the lack of official NES development kits, many companies had to reverse engineer the system themselves in order to do any game development for the system.
