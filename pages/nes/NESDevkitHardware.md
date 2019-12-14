@@ -5,12 +5,8 @@ tags:
 - devkit
 - hardware
 title: NES (Famicom) Development Kit Hardware
-thumbnail: /public/consoles/NES.png
-videocarousel:
-  - title: Homebrew
-    image: http://img.youtube.com/vi/JvBnmxUIiSE/hqdefault.jpg
-    youtube: JvBnmxUIiSE
-image: /public/magazine/EDGE_20_SGI_Onyx.png
+thumbnail: /public/consoles/Nintendo Entertainment System.png
+image: /public/consoles/Nintendo Entertainment System.png
 permalink: /official-nes-devkit/
 breadcrumbs:
   - name: Home
@@ -40,6 +36,17 @@ Nintendo has been very secretive about how their official NES games were develop
 # In-house development kits
 Due to the lack of official NES development kits, many companies had to reverse engineer the system themselves in order to do any game development for the system.
 
+# HAL “Game Maker” (Twin Famicom)
+<section class="postSection">
+    <img src="/public/images/nes/TwinFamicomGameMaker.png" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+HAL Laboratory, Inc. who are best known for creating the Kirby and Mother series of games were very early NES developers. Like many other developers they did not have an official development kits available so took a rather unique approach to developing games on the system. They used the retail Twin Famicom System with an added trackball mouse, no keyboard at all [^7]!
+
+Development data was written and read from the floppy disc and they presumably created some software that ran on the cartridge port that allowed them to edit code or sprite data.
+</div>
+</section>
+
 ## Software Creations Development Kit (Mike Webb)
 Software Creations Ltd has a problem on their hands, they wanted to develop games for Nintendo's new home console but Nintendo only allowed companies who were already developing NES games to become licensed. 
 
@@ -59,6 +66,7 @@ The news of the sale of these 3rd party development kits did not please Nintendo
 
 ## Namco
 Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
+
 
 ---
 # Unanswered Questions
@@ -84,4 +92,3 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^8]: NintendoAge e-Zine Issue 02 2009
 [^9]: Edge [uk] 136
 [^10]: [How Do You Make a Game? Part 2: Development Tools – The History of How We Play](https://thehistoryofhowweplay.wordpress.com/2018/07/10/how-do-you-make-a-game-part-2-development-tools/)
-
