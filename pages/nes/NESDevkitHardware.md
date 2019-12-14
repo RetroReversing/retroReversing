@@ -46,6 +46,22 @@ Retail FDS games were either yellow or Blue so a White FDS disk is used for in-d
 # In-house development kits
 Due to the lack of official NES development kits, many companies had to reverse engineer the system themselves in order to do any game development for the system.
 
+## NES Mission control dev kit
+<section class="postSection">
+    <img src="/public/images/nes/NESMissionControlDeckNESInternals.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/nes/NESMissionControDeck.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The `Mission Control NES development kit` was created by Rocket Science Productions to help smaller developers get into the market of creating games for Nintendos new console [^1].
+
+It consists of a breadboard filled with chips and screwed to a plank of wood and a modified retail NES console [^2].
+
+Games built using this development system include but is not limited to:
+* Bill & Ted's Excellent Adventure
+* The Mutant Virus [^2]
+</div>
+</section>
+
 # HAL “Game Maker” (Twin Famicom)
 <section class="postSection">
     <img src="/public/images/nes/TwinFamicomGameMaker.png" class="wow slideInLeft postImage" />
