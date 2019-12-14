@@ -40,8 +40,14 @@ Nintendo has been very secretive about how their official NES games were develop
 # In-house development kits
 Due to the lack of official NES development kits, many companies had to reverse engineer the system themselves in order to do any game development for the system.
 
-## Namco
-Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
+## Software Creations Development Kit (Mike Webb)
+Software Creations Ltd has a problem on their hands, they wanted to develop games for Nintendo's new home console but Nintendo only allowed companies who were already developing NES games to become licensed. 
+
+This Catch-22 situation resulted in Mike Webb reverse engineering the NES hardware and creating his own development kit. According to an interview in Retro Gamer Magazine issue 37 it was quite an elaborate creation consisting of a stack of RAM chips that could be written on a Commodore 64 and then read via the cartridge port of a retail NES [^4]. 
+
+You can see Mike Webb talking about the making of Solstice for NES, a game he not only programmed but also created the hardware development kit for, in the video below.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/894_PNqBkx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## BEAM's NES Development System
 BEAM was a very small company in the 80s mostly creating titles for the ZX Spectrum from their office in Melbourne, Australia. When the Famicom (NES) was released in Japan to critical acclaim they knew hat their next development platform would be. However they also knew that Nintendo would never give development kits to such a small company 
@@ -50,6 +56,9 @@ BEAM was a very small company in the 80s mostly creating titles for the ZX Spect
 They spent the year reverse engineering the Famicom hardware and in 1987 they completed their `NES Development System`. These caused quite a stir especially in the local Australian development community, so much so that BEAM started selling the kits to other development companies [^8].
 
 The news of the sale of these 3rd party development kits did not please Nintendo and after a lengthy negotiation process BEAM agreed to stop selling its development kit in order to gain an official development license from Nintendo [^8].
+
+## Namco
+Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
 
 ---
 # Unanswered Questions
@@ -75,3 +84,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^8]: NintendoAge e-Zine Issue 02 2009
 [^9]: Edge [uk] 136
 [^10]: [How Do You Make a Game? Part 2: Development Tools – The History of How We Play](https://thehistoryofhowweplay.wordpress.com/2018/07/10/how-do-you-make-a-game-part-2-development-tools/)
+
