@@ -32,12 +32,35 @@ Nintendo has been very secretive about how their official NES games were develop
 
 ## Programming Hardware
 
+---
 ## Famicom Disk System Development hardware
+The Famicom Disk System (FDS) was just a cheaper way of distributing games for the Famicom in Japan due to the higher cost of producing cartridges.
 
+It was released in Japan only on the 21st of February 21 1986, 3 years later than the Famicom but the same year as the European NES release. 
+
+It seems to have been commonly been used for development of NES games even if they ended up on cartridges for western audiences.
+
+### FDT ICE  (ISD)
+<section class="postSection">
+    <img src="/public/images/nes/IntelligentSystems-ICE-Famicom-Disc-System.jpg" class="wow slideInLeft postImage" />
+This is a very rare item, it is possibly only used within Intelligent Systems (IS) themselves, although IS did mass produce a similar product for the SNES so it is possible that this was THE official development kit for the NES.
+
+ICE stands for In-Circuit Emulator and Intelligent Systems made these for most of Nintendo's hardware in the future too. These would be used by connecting to a development PC and allowing breakpoints and memory checking to be run from a debugger like interface.
+
+ISD may stand for Intelligent Systems Debugger or Development.
+
+FDT may stand for Famicom Disk T???
+
+</div>
+</section>
+
+### Famicom Disk System Prototypes
 <section class="postSection">
     <img src="/public/images/nes/PrototypeFamicomDiskWhite.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
+
+
 Retail FDS games were either yellow or Blue so a White FDS disk is used for in-development prototype games and may be re-writable. It is unclear whether they could be written to via a standard PC floppy drive however.
 </div>
 </section>
