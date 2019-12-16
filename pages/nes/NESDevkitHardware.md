@@ -27,7 +27,7 @@ It wasn't until the first 3rd party game was in development that the need for a 
 
 It is likely that developers who managed to get an official license from Nintendo were given some basic documentation about the hardware such as the memory map, PPU and APU. It would then be up to the developer to create their own development environment [^3].
 
-# Official Nintendo in-house development kit
+# Official Nintendo development kit
 Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese childrens book of all places and kindly translated by Chris Mcovell on his website.
 
 ## Programming Hardware
@@ -62,6 +62,27 @@ FDT may stand for Famicom Disk T???
 
 
 Retail FDS games were either yellow or Blue so a White FDS disk is used for in-development prototype games and may be re-writable. It is unclear whether they could be written to via a standard PC floppy drive however.
+</div>
+</section>
+
+---
+# Graphic Artist hardware
+
+<section class="postSection">
+    <img src="/public/images/nes/FmicomGraphiEditing.jpg" class="wow slideInLeft postImage" />
+
+From the same children's book we can see Mr. Tezuka hard at work on Super Mario Bros 3, it looks like he is viewing the Character (Sprite/Pixel) data for the Mario sprite sheet. 
+
+It is unclear if it is connected to the version running on the Famicom to the right of the computer. It would be pretty useful if changes made on the PC automatically updated the sprites in the running game, but it is unlikely they had  built the hardware to support such a feature.
+
+</div>
+</section>
+
+<section class="postSection">
+    <img src="/public/images/nes/FamicomMarioSpriteViewer.jpg" class="wow slideInLeft postImage" />
+Presumably this is some sort of pixel editing tool that can piece together parts from the sprite sheet and update and possibly even animate the result to the viewer. It is unclear what the colours at the top represent, it could be the available colour pallet.
+
+The Fujitsu FM R-50 HD business computer was used to create all the pixel art for Super Mario Bros 3. It was an IBM-PC compatible which ran a version of MS-DOS.
 </div>
 </section>
 
