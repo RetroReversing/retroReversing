@@ -13,6 +13,8 @@ redirect_from:
   - /dev-kit
   - /developmentkit
   - /development-kit
+editlink:../categories/hardware/devkits.md
+recommend:devkit
 ---
 
 # Introduction to Development Kits (Hardware)
@@ -24,6 +26,7 @@ We have tried to document all the development kit hardware available for the mos
 
 Console | Development Hardware
 ---|---
+Nintendo Entertainment System | [NES Devkits])https://www.retroreversing.com/official-nes-devkit/)
 Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/) <br /> [Maestro64 (Music)](https://www.retroreversing.com/maestro64/) <br /> [N64 Prototype Cartridge](https://www.retroreversing.com/n64-prototype-cartridge-information/) <br /> [Official N64 Development Hardware](https://www.retroreversing.com/official-n64-devkit/)
 Nintendo Gameboy | [IS Gameboy Development kit](https://www.retroreversing.com/gameboy-development-kit-hardware/)
 Sega Dreamcast | [Official Sega Dreamcast Katana Development Kit Hardware](https://www.retroreversing.com/Sega-Dreamcast-Katana-Development-Kit) <br /> [The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
