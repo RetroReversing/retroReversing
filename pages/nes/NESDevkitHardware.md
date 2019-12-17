@@ -7,7 +7,7 @@ tags:
 title: NES (Famicom) Development Kit Hardware
 thumbnail: /public/consoles/Nintendo Entertainment System.png
 image: /public/consoles/Nintendo Entertainment System.png
-permalink: /official-nes-devkit/
+permalink: /famicom-nes-development-kit/
 breadcrumbs:
   - name: Home
     url: /
@@ -19,22 +19,34 @@ recommend: nes
 editlink: /nes/NESDevkitHardware.md
 ---
 
-The Nintendo Famicom was released in Japan on 15th July, 1983 at a price of 14,800 yen. It was one of the first consoles on the market that used the 6502 processor and so not many developers has experience creating games for it. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
+The Nintendo `Famicom` was released in Japan on 15th July, 1983 at a price of 14,800 yen. It was one of the first consoles on the market that used the 6502 processor and so not many developers has experience creating games for it. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
 
 Since Nintendo were very new to the video game market and saw themselves as creating most of the software that will run on the NES they did not make a specific development kit, or if they did it was very well hidden in the official Nintendo headquarters and no public information has been released on it.
 
-It wasn't until the first 3rd party game was in development that the need for a Development Kit for the NES was established.
+It wasn't until the first 3rd party game was in development that the need for a Development Kit for the NES was established. It took a full year after the Famicom's launch for the first 3rd party title to appear.
+
+In 1986 Nintendo would open up its licensee program to allow other developers to create software for the Famicom [^12]. It was then on the lookout for talented programmers to make use of the 6502 chip which was relatively uncommon at the time of its launch (although had been used in the Commodore 64).
+
+Presumably many developers would write code for the C64 taking into account the memory model of the NES and test their code via burning an EPROM cartridge.
 
 It is likely that developers who managed to get an official license from Nintendo were given some basic documentation about the hardware such as the memory map, PPU and APU. It would then be up to the developer to create their own development environment [^3].
 
-# Official Nintendo development kit
-Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese childrens book of all places and kindly translated by Chris Mcovell on his website.
+# Official Nintendo in-house development kit
+Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese children's book of all places and kindly translated by Chris McCovell on his website.
 
 ## Programming Hardware
+<section class="postSection">
+    <img src="/public/images/nes/FamicomProgrammersHardAtWorkOnMario3.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+In the photograph from a children's book titled `Starts of the Famicom Games` (Kindly scanned and translated by Chris Covell) you can see 4 programmers presumably working on Super Mario Bros 3 [^5]. They are using `HP 64000 mainframe computers` which have presumably been modified to have a Famicom add-on board or 6502 processor card to be able to test their assembled code.
+</div>
+</section>
 
 ## Testing & prototype Hardware
 <section class="postSection">
     <img src="/public/images/nes/FamicomEEPROMWriter.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
 
 So how did Nintendo test the games they were writing on the hardware? The EEPROM writers scattered around the offices in the children's book hint at how this was done.
 
@@ -44,6 +56,8 @@ An EEPROM writer writes to an erasable version of the games "ROM" chip which can
 
 <section class="postSection">
     <img src="/public/images/nes/FamicomWithEEPROMCart.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 In the photograph on the left you can see a custom EEPROM cartridge inside the retail Famicom on Miyamoto's desk, so he would run through the game and give feedback or bug reports to the programmers and artists for the next build of the game.
 
 </div>
@@ -53,6 +67,7 @@ In the photograph on the left you can see a custom EEPROM cartridge inside the r
 
 <section class="postSection">
     <img src="/public/images/nes/FmicomGraphiEditing.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
 
 From the same children's book we can see Mr. Tezuka hard at work on Super Mario Bros 3, it looks like he is viewing the Character (Sprite/Pixel) data for the Mario sprite sheet. 
 
@@ -63,13 +78,15 @@ It is unclear if it is connected to the version running on the Famicom to the ri
 
 <section class="postSection">
     <img src="/public/images/nes/FamicomMarioSpriteViewer.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 Presumably this is some sort of pixel editing tool that can piece together parts from the sprite sheet and update and possibly even animate the result to the viewer. It is unclear what the colours at the top represent, it could be the available colour pallet.
 
 The Fujitsu FM R-50 HD business computer was used to create all the pixel art for Super Mario Bros 3. It was an IBM-PC compatible which ran a version of MS-DOS.
 </div>
 </section>
 
----
+
 ## Famicom Disk System Development hardware
 The Famicom Disk System (FDS) was just a cheaper way of distributing games for the Famicom in Japan due to the higher cost of producing cartridges.
 
@@ -117,6 +134,8 @@ As for Commercial games, the legendary developer of Pokemon, Satoshi Tajiri from
 
 </div>
 </section>
+
+
 
 ---
 # In-house development kits
@@ -196,8 +215,8 @@ In a very rare interview with Nasir Gebelli he talks about creating NES games fo
 
 <section class="postSection">
 <iframe  class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/z6pcfINCB4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <div markdown="1">
+
 This is a short video on the making on final fantasy 2 and it looks like most of the developers are using a Sharp Twin Famicom. This was used to at least test their games on but it is unclear if they built any custom hardware or even what computers they used to write the 6502 assembly on. Although it was presumably the Apple II with Mini Assembler.
 
 </div>
