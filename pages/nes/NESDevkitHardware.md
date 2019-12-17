@@ -126,6 +126,35 @@ You can see Mike Webb talking about the making of Solstice for NES, a game he no
 <iframe width="560" height="315" src="https://www.youtube.com/embed/894_PNqBkx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+## Rare Ltd (PDS development system)
+<section class="postSection">
+    <img src="/public/images/nes/Famicom_PDS_INTERFACE.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+Rare became of Nintendos first 3rd party developers outside of Japan by Reverse engineering the Famicom hardware before its western launch and presenting the results to Nintendo [^16].
+
+This development kit was the result of the reverse engineering effort as you can see the board has `COPYRIGHT 1988 RARE LTD` rather than an official Nintendo or Intelligent Systems Copyright mark.
+
+It also has `Nintendo PDS Interface` printed on the board, which likely stands for `Programmers Development System`.
+
+This hints at it being used with the `PDS development system` made by `P.D.Systems Ltd` (Andy Glaister & co) which came with a 6502 assembler and was a full development system for  C63 and ZX Spectrum [^17]. 
+
+PDS was a commonly used development kit in UK and it would be likely that when Rare was developing ZX Spectrum games they used this development system so all they had to do was reverse-engineer the NES and create an interface to control it from their existing development setup. 
+</div>
+</section>
+
+### Eurocom (Used PDS)
+In the source code for the 1990 NES game Magician, which was kindly opened source by developer Chris Shrigley, it contains .PDS files which are used in the PDS development kit.
+
+When you open the .PDS files in a text editor the string `P.D.Systems Ltd 1985-88` can clearly be seen confirming that it used the  PDS development system.
+
+So it was definitely used for NES game development by studio `Eurocom` but whether they used Rare's interface board or created their own remains a mystery.
+
+### Zippo Software (Rare partnership)
+In the UK Magazine GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. It is possible that this is a PDS development System kit with the Interface card built by Rare.
+
+
+
 ## BEAM's NES Development System
 BEAM was a very small company in the 80s mostly creating titles for the ZX Spectrum from their office in Melbourne, Australia. When the Famicom (NES) was released in Japan to critical acclaim they knew hat their next development platform would be. However they also knew that Nintendo would never give development kits to such a small company 
 [^8].
