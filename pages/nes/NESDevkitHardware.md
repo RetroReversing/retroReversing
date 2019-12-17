@@ -21,7 +21,7 @@ redirect_from:
   - /official-nes-devkit/
 ---
 
-The Nintendo `Famicom` was released in Japan on 15th July, 1983 at a price of 14,800 yen. It was one of the first consoles on the market that used the 6502 processor and so not many developers has experience creating games for it. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
+The Nintendo `Famicom` was released in Japan on 15th July, 1983 at a price of 14,800 yen. Development for the machine was strictly controlled by Nintendo as they didn't want a repeat of the US "Video Game Crash" which they blamed on the lack of quality games. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
 
 Since Nintendo were very new to the video game market and saw themselves as creating most of the software that will run on the NES they did not make a specific development kit, or if they did it was very well hidden in the official Nintendo headquarters and no public information has been released on it.
 
@@ -29,7 +29,7 @@ It wasn't until the first 3rd party game was in development that the need for a 
 
 In 1986 Nintendo would open up its licensee program to allow other developers to create software for the Famicom [^12]. It was then on the lookout for talented programmers to make use of the 6502 chip which was relatively uncommon at the time of its launch (although had been used in the Commodore 64).
 
-Presumably many developers would write code for the C64 taking into account the memory model of the NES and test their code via burning an EPROM cartridge.
+Presumably many developers would write code for the C64 taking into account the memory model of the NES and test their code via burning an EEPROM cartridge.
 
 It is likely that developers who managed to get an official license from Nintendo were given some basic documentation about the hardware such as the memory map, PPU and APU. It would then be up to the developer to create their own development environment [^3].
 
