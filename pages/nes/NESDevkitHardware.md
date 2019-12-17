@@ -134,6 +134,20 @@ They spent the year reverse engineering the Famicom hardware and in 1987 they co
 
 The news of the sale of these 3rd party development kits did not please Nintendo and after a lengthy negotiation process BEAM agreed to stop selling its development kit in order to gain an official development license from Nintendo [^8].
 
+## Westwood Studios
+
+<section class="postSection">
+    <img src="/public/images/nes/WestwoodStudiosNESDevkit.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+A rather intriguing looking item was put up for auction on Ebay in 2011 claiming it was a NES development kit used by Westwood studios. Strangely the description for the item also mentions that "Atari" was printed on some of the boards. It is currently unknown who bought the hardware and if it was used for Westwood's only NES title called DragonStrike.
+
+Games that may have been built with this kit:
+* DragonStrike
+
+</div>
+</section>
+
 ## Namco
 Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
 
