@@ -15,7 +15,9 @@ breadcrumbs:
     url: /nes
   - name: NES (Famicom) Development Kit Hardware
     url: #
-recommend: nes
+recommend: 
+- devkit
+- nes
 editlink: /nes/NESDevkitHardware.md
 redirect_from:
   - /official-nes-devkit/
@@ -34,14 +36,14 @@ Presumably many developers would write code for the C64 taking into account the 
 It is likely that developers who managed to get an official license from Nintendo were given some basic documentation about the hardware such as the memory map, PPU and APU. It would then be up to the developer to create their own development environment [^3].
 
 # Official Nintendo in-house development kit
-Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese children's book of all places and kindly translated by Chris McCovell on his website.
+Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese children's book of all places and kindly translated by Chris Covell on his website.
 
 ## Programming Hardware
 <section class="postSection">
     <img src="/public/images/nes/FamicomProgrammersHardAtWorkOnMario3.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 
-In the photograph from a children's book titled `Starts of the Famicom Games` (Kindly scanned and translated by Chris Covell) you can see 4 programmers presumably working on Super Mario Bros 3 [^5]. They are using `HP 64000 mainframe computers` which have presumably been modified to have a Famicom add-on board or 6502 processor card to be able to test their assembled code.
+In the photograph from a children's book titled `Stars of the Famicom Games` (Kindly scanned and translated by Chris Covell) you can see 4 programmers presumably working on Super Mario Bros 3 [^5]. They are using `HP 64000 mainframe computers` which have presumably been modified to have a Famicom add-on board or 6502 processor card to be able to test their assembled code.
 </div>
 </section>
 
@@ -92,7 +94,7 @@ The Fujitsu FM R-50 HD business computer was used to create all the pixel art fo
 ## Famicom Disk System Development hardware
 The Famicom Disk System (FDS) was just a cheaper way of distributing games for the Famicom in Japan due to the higher cost of producing cartridges.
 
-It was released in Japan only on the 21st of February 21 1986, 3 years later than the Famicom but the same year as the European NES release. 
+It was released in Japan only on the 21st of February 1986, 3 years later than the Famicom but the same year as the European NES release. 
 
 It seems to have been commonly been used for development of NES games even if they ended up on cartridges for western audiences.
 
@@ -103,11 +105,11 @@ It seems to have been commonly been used for development of NES games even if th
 
 This is a very rare item, it is possibly only used within Intelligent Systems (IS) themselves, although IS did mass produce a similar product for the SNES so it is possible that this was THE official development kit for the NES.
 
-ICE stands for In-Circuit Emulator and Intelligent Systems made these for most of Nintendo's hardware in the future too. These would be used by connecting to a development PC and allowing breakpoints and memory checking to be run from a debugger like interface.
+ICE stands for In-Circuit Emulator and Intelligent Systems made these for most of Nintendo's hardware in the future too. These would be used by connecting to a development PC and allowing breakpoints and memory checking to be run from a debugger-like interface.
 
-ISD may stand for Intelligent Systems Debugger or Development.
-
-FDT may stand for Famicom Disk T???
+As for the acronyms used in the name:
+* ISD may stand for Intelligent Systems Debugger or Development.
+* FDT may stand for Famicom Disk T(?)
 
 </div>
 </section>
@@ -130,7 +132,7 @@ It is very rare for Nintendo to allow non-licensed developers to write code or "
 <section class="postSection">
 <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/j8J58aTxCPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-The first ever development kit that general consumers could buy was `Family Basic`, which was as the name suggests an implementation of the BASIC programming language that you could write and execute on the Famicom [^20].
+The first ever Nintendo development kit that general consumers could buy was `Family Basic`, which was as the name suggests an implementation of the BASIC programming language that you could write and execute on the Famicom [^20].
 
 As for Commercial games, the legendary developer of Pokemon, Satoshi Tajiri from Game Freaks used Family BASIC to create his first game, which he then built his own NES development kit on top of and created the game called Mendel Palace [^21].
 
@@ -234,13 +236,13 @@ It was developed by Andrew Glaister, Foo Katan and his friend Jez San and sold b
     <img src="/public/images/nes/Famicom_PDS_INTERFACE.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 
-Rare became of Nintendos first 3rd party developers outside of Japan by Reverse engineering the Famicom hardware before its western launch and presenting the results to Nintendo [^16].
+Rare became one of Nintendos first 3rd party developers outside of Japan by Reverse engineering the Famicom hardware before its western launch and presenting the results to Nintendo [^16].
 
 This development kit was the result of the reverse engineering effort as you can see the board has `COPYRIGHT 1988 RARE LTD` rather than an official Nintendo or Intelligent Systems Copyright mark.
 
 It also has `Nintendo PDS Interface` printed on the board, which likely stands for `Programmers Development System`.
 
-This hints at it being used with the `PDS development system` made by `P.D.Systems Ltd` (Andy Glaister & co) which came with a 6502 assembler and was a full development system for  C63 and ZX Spectrum [^17]. 
+This hints at it being used with the `PDS development system` made by `P.D.Systems Ltd` (Andy Glaister & co) which came with a 6502 assembler and was a full development system for  C64 and ZX Spectrum [^17]. 
 
 PDS was a commonly used development kit in UK and it would be likely that when Rare was developing ZX Spectrum games they used this development system so all they had to do was reverse-engineer the NES and create an interface to control it from their existing development setup. 
 </div>
@@ -257,7 +259,7 @@ So it was definitely used for NES game development by studio `Eurocom` but wheth
 In the UK Magazine GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. It is possible that this is a PDS development System kit with the Interface card built by Rare.
 
 ### Codemasters
-As a fellow British game developer who was working on C64 and Specturm games Codemasters used PDS to develop most of their games for all of these platforms [^18]. 
+As a fellow British game developer who was working on C64 and Spectrum games, Codemasters used PDS to develop most of their games for all of these platforms [^18]. 
 
 Although it has been confirmed that used PDS for all their other systems there is no proof that they also used the development kit for NES games but it is probable as they were already familiar with the environment.
 
@@ -271,15 +273,14 @@ Their hardware side of the development kit was described as a PC connected to a 
 ## Did Nintendo ever provide an Official Development kit for the NES?
 Many sources hint that there was no official Nintendo development kit for the NES and in fact there is very little information that has been leaked about these development kits. It looked like Nintendo themselves used EEPROM writers and custom made cartridges for development.
 
-However in the NintendoAge article from issue 2 [^8] it mentioned that in 1987 BEAM software knew they couldn't get an official development kit from Nintendo and so made their own. When Nintendo found out about their custom development kit they wanted the sale of it stopped. Why did they want the custom development kits to case production if they didn't have officially supported ones?
+However in the NintendoAge article from issue 2 [^8] it mentioned that in 1987 BEAM software knew they couldn't get an official development kit from Nintendo and so made their own. When Nintendo found out about their custom development kit they wanted the sale of it stopped. Why did they want the custom development kits to cease production if they didn't have officially supported ones?
 
 Did they really rely on every single creating their own hardware based development kit?
 
-Also in GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. However it was mentioned elsewhere that rare reverse engineered the Famicom, so was it even an official devkit?
-
-## Was their official software such as assemblers?
+## Official NES development software such as assemblers?
 Some sources such as [^3] suggest that there was an official Nintendo assembler for the NES but very little information online confirms this.
 
+---
 # References
 [^1]: [NES Mission control dev kit](https://www.assembler-games.com/threads/nes-mission-control-dev-kit.41738/)
 [^2]: [NES Mission Control Development System](http://devkits.handheldmuseum.com/NES_MissionControl.htm)
