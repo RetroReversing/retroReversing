@@ -17,6 +17,8 @@ breadcrumbs:
     url: #
 recommend: nes
 editlink: /nes/NESDevkitHardware.md
+redirect_from:
+  - /official-nes-devkit
 ---
 
 The Nintendo `Famicom` was released in Japan on 15th July, 1983 at a price of 14,800 yen. It was one of the first consoles on the market that used the 6502 processor and so not many developers has experience creating games for it. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
