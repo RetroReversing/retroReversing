@@ -137,6 +137,25 @@ The news of the sale of these 3rd party development kits did not please Nintendo
 ## Namco
 Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
 
+## Square (Apple II & Twin Famicom)
+
+<section class="postSection">
+<iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/LGzd7JRbxL0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+
+In a very rare interview with Nasir Gebelli he talks about creating NES games for Square with an Apple II and Mini Assembler, including final fantasy 1!
+
+</div>
+</section>
+
+<section class="postSection">
+<iframe  class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/z6pcfINCB4o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div markdown="1">
+This is a short video on the making on final fantasy 2 and it looks like most of the developers are using a Sharp Twin Famicom. This was used to at least test their games on but it is unclear if they built any custom hardware or even what computers they used to write the 6502 assembly on. Although it was presumably the Apple II with Mini Assembler.
+
+</div>
+</section>
 
 ---
 # Unanswered Questions
@@ -152,13 +171,18 @@ Did they really rely on every single creating their own hardware based developme
 Some sources such as [^3] suggest that there was an official Nintendo assembler for the NES but very little information online confirms this.
 
 # References
-[^1]: [NES Mission control dev kit | ASSEMbler Games Archive](https://www.assembler-games.com/threads/nes-mission-control-dev-kit.41738/)
+[^1]: [NES Mission control dev kit](https://www.assembler-games.com/threads/nes-mission-control-dev-kit.41738/)
 [^2]: [NES Mission Control Development System](http://devkits.handheldmuseum.com/NES_MissionControl.htm)
-[^3]: [What was dev like on the NES back in 1987? - nesdev.com](https://forums.nesdev.com/viewtopic.php?f=2&t=10169)
+[^3]: [What was dev like on the NES back in 1987?](https://forums.nesdev.com/viewtopic.php?f=2&t=10169)
 [^4]: [Bagshot Row : The Chuckie Egg Professional's Resource Kit](http://www.bagshot-row.org/chuckie-egg/authors.html)
 [^5]: [Stars of Famicom Games](http://www.chrismcovell.com/secret/weekly/Stars_of_the_Family_Computer.html)
 [^6]: [Nintendo’s Development Disks « Famicom World](https://famicomworld.com/workshop/tech/nintendos-development-disks/)
 [^7]: [Kirby’s Development Secrets – Source Gaming](http://www.sourcegaming.info/2017/04/19/kirbys-development-secrets/)
 [^8]: NintendoAge e-Zine Issue 02 2009
-[^9]: Edge [uk] 136
+[^9]: Edge UK Issue 136
 [^10]: [How Do You Make a Game? Part 2: Development Tools – The History of How We Play](https://thehistoryofhowweplay.wordpress.com/2018/07/10/how-do-you-make-a-game-part-2-development-tools/)
+[^11]: [First Kirby Game Was Created With a Trackball, No Keyboard Gaming](https://uk.pcmag.com/games/89073/first-kirby-game-was-created-with-a-trackball-no-keyboard)
+[^12]: [Gamasutra - A former mentor recalls the early career of Satoru Iwata](https://www.gamasutra.com/view/news/254169/A_former_mentor_recalls_the_early_career_of_Satoru_Iwata.php)
+[^13]: [Original Famicom (NES) development kit belonging to RARE. : retrogaming](https://www.reddit.com/r/retrogaming/comments/9aspgn/original_famicom_nes_development_kit_belonging_to/)
+[^14]: GamesTM issue 22
+[^15]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
