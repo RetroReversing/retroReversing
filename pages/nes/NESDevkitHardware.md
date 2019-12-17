@@ -111,9 +111,9 @@ Games built using this development system include but is not limited to:
     <img src="/public/images/nes/TwinFamicomGameMaker.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-HAL Laboratory, Inc. who are best known for creating the Kirby and Mother series of games were very early NES developers. Like many other developers they did not have an official development kits available so took a rather unique approach to developing games on the system. They used the retail Twin Famicom System with an added trackball mouse, no keyboard at all [^7]!
+HAL Laboratory, Inc. who are best known for creating the Kirby and Mother series of games were very early NES developers. Like many other developers they did not have an official development kits available so took a rather unique approach to developing games on the system. They used the retail Twin Famicom System with an added trackball mouse along with a tool they created that had a virtual keyboard [^7].
 
-Development data was written and read from the floppy disc and they presumably created some software that ran on the cartridge port that allowed them to edit code or sprite data.
+Development data was written and read from the floppy disc and they created some software that ran on the cartridge port that allowed them to edit code or sprite data. This was during the development of their game `Metal Slader Glory` [^11]
 </div>
 </section>
 
@@ -124,35 +124,6 @@ This Catch-22 situation resulted in Mike Webb reverse engineering the NES hardwa
 
 You can see Mike Webb talking about the making of Solstice for NES, a game he not only programmed but also created the hardware development kit for, in the video below.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/894_PNqBkx4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-## Rare Ltd (PDS development system)
-<section class="postSection">
-    <img src="/public/images/nes/Famicom_PDS_INTERFACE.jpg" class="wow slideInLeft postImage" />
-<div markdown="1">
-
-Rare became of Nintendos first 3rd party developers outside of Japan by Reverse engineering the Famicom hardware before its western launch and presenting the results to Nintendo [^16].
-
-This development kit was the result of the reverse engineering effort as you can see the board has `COPYRIGHT 1988 RARE LTD` rather than an official Nintendo or Intelligent Systems Copyright mark.
-
-It also has `Nintendo PDS Interface` printed on the board, which likely stands for `Programmers Development System`.
-
-This hints at it being used with the `PDS development system` made by `P.D.Systems Ltd` (Andy Glaister & co) which came with a 6502 assembler and was a full development system for  C63 and ZX Spectrum [^17]. 
-
-PDS was a commonly used development kit in UK and it would be likely that when Rare was developing ZX Spectrum games they used this development system so all they had to do was reverse-engineer the NES and create an interface to control it from their existing development setup. 
-</div>
-</section>
-
-### Eurocom (Used PDS)
-In the source code for the 1990 NES game Magician, which was kindly opened source by developer Chris Shrigley, it contains .PDS files which are used in the PDS development kit.
-
-When you open the .PDS files in a text editor the string `P.D.Systems Ltd 1985-88` can clearly be seen confirming that it used the  PDS development system.
-
-So it was definitely used for NES game development by studio `Eurocom` but whether they used Rare's interface board or created their own remains a mystery.
-
-### Zippo Software (Rare partnership)
-In the UK Magazine GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. It is possible that this is a PDS development System kit with the Interface card built by Rare.
-
 
 
 ## BEAM's NES Development System
@@ -200,6 +171,47 @@ This is a short video on the making on final fantasy 2 and it looks like most of
 </div>
 </section>
 
+## Programmers Development System (PDS) 
+The Programmers Development System or PDS for short was a development kit for many 8-bit systems including C64 and ZX Spectrum that was very popular in the UK [^17].
+
+It was developed by Andrew Glaister, Foo Katan and his friend Jez San and sold by their company `PD Systems Ltd`. Foo Katan was also the founder of `Bits studios` which created the NES game `Loopz` and many gameboy games, including a  game boy development kit [^19]. It is unclear if his NES and GB development was based on his prior work with PDS but it is very likely at least influenced by it.
+
+### Rare Ltd (PDS)
+<section class="postSection">
+    <img src="/public/images/nes/Famicom_PDS_INTERFACE.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+Rare became of Nintendos first 3rd party developers outside of Japan by Reverse engineering the Famicom hardware before its western launch and presenting the results to Nintendo [^16].
+
+This development kit was the result of the reverse engineering effort as you can see the board has `COPYRIGHT 1988 RARE LTD` rather than an official Nintendo or Intelligent Systems Copyright mark.
+
+It also has `Nintendo PDS Interface` printed on the board, which likely stands for `Programmers Development System`.
+
+This hints at it being used with the `PDS development system` made by `P.D.Systems Ltd` (Andy Glaister & co) which came with a 6502 assembler and was a full development system for  C63 and ZX Spectrum [^17]. 
+
+PDS was a commonly used development kit in UK and it would be likely that when Rare was developing ZX Spectrum games they used this development system so all they had to do was reverse-engineer the NES and create an interface to control it from their existing development setup. 
+</div>
+</section>
+
+### Eurocom (PDS)
+In the source code for the 1990 NES game Magician, which was kindly opened source by developer Chris Shrigley, it contains .PDS files which are used in the PDS development kit.
+
+When you open the .PDS files in a text editor the string `P.D.Systems Ltd 1985-88` can clearly be seen confirming that it used the  PDS development system.
+
+So it was definitely used for NES game development by studio `Eurocom` but whether they used Rare's interface board or created their own remains a mystery.
+
+### Zippo Software (Rare partnership, probably PDS)
+In the UK Magazine GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. It is possible that this is a PDS development System kit with the Interface card built by Rare.
+
+### Codemasters
+As a fellow British game developer who was working on C64 and Specturm games Codemasters used PDS to develop most of their games for all of these platforms [^18]. 
+
+Although it has been confirmed that used PDS for all their other systems there is no proof that they also used the development kit for NES games but it is probable as they were already familiar with the environment.
+
+In Edge UK Magazine Issue 136 it is mentioned that they created their own prototype NES development kit to get around Nintendo's expensive licensing fees. This is also how they developed the cheat device known as the `Game Genie` [^9].
+
+Their hardware side of the development kit was described as a PC connected to a C64 connected to a NES in a mass of wires and each release was named after a character from Blade Runner [^9]!
+
 ---
 # Unanswered Questions
 
@@ -209,6 +221,8 @@ Many sources hint that there was no official Nintendo development kit for the NE
 However in the NintendoAge article from issue 2 [^8] it mentioned that in 1987 BEAM software knew they couldn't get an official development kit from Nintendo and so made their own. When Nintendo found out about their custom development kit they wanted the sale of it stopped. Why did they want the custom development kits to case production if they didn't have officially supported ones?
 
 Did they really rely on every single creating their own hardware based development kit?
+
+Also in GamesTM issue 22 it is mentioned that Zippo software's partnership with Rare meant they were one of the first to receive a NES development kit outside of Japan and thus producing `Solar Jetman` in 1989. However it was mentioned elsewhere that rare reverse engineered the Famicom, so was it even an official devkit?
 
 ## Was their official software such as assemblers?
 Some sources such as [^3] suggest that there was an official Nintendo assembler for the NES but very little information online confirms this.
@@ -229,3 +243,7 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^13]: [Original Famicom (NES) development kit belonging to RARE. : retrogaming](https://www.reddit.com/r/retrogaming/comments/9aspgn/original_famicom_nes_development_kit_belonging_to/)
 [^14]: GamesTM issue 22
 [^15]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
+[^16]: [Original Famicom (NES) development kit belonging to RARE. : retrogaming](https://www.reddit.com/r/retrogaming/comments/9aspgn/original_famicom_nes_development_kit_belonging_to/)
+[^17]: [PDS development system - CPCWiki](http://www.cpcwiki.eu/index.php/PDS_development_system)
+[^18]: [Oliver Twins](https://web.archive.org/web/20060829185146/http://www.blitzgames.com/olivertwins/earlyyearsp2.htm)
+[^19]: [Retro Gamer 2018 PressReader.com](https://www.pressreader.com/uk/retro-gamer/20181129/281638191249599)
