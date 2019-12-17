@@ -32,6 +32,43 @@ Nintendo has been very secretive about how their official NES games were develop
 
 ## Programming Hardware
 
+## Testing & prototype Hardware
+<section class="postSection">
+    <img src="/public/images/nes/FamicomEEPROMWriter.jpg" class="wow slideInLeft postImage" />
+
+So how did Nintendo test the games they were writing on the hardware? The EEPROM writers scattered around the offices in the children's book hint at how this was done.
+
+An EEPROM writer writes to an erasable version of the games "ROM" chip which can be slotted in a development cartridge which can be placed in a retail Famicom unit for testing.
+</div>
+</section>
+
+<section class="postSection">
+    <img src="/public/images/nes/FamicomWithEEPROMCart.jpg" class="wow slideInLeft postImage" />
+In the photograph on the left you can see a custom EEPROM cartridge inside the retail Famicom on Miyamoto's desk, so he would run through the game and give feedback or bug reports to the programmers and artists for the next build of the game.
+
+</div>
+</section>
+
+## Graphic Artist hardware
+
+<section class="postSection">
+    <img src="/public/images/nes/FmicomGraphiEditing.jpg" class="wow slideInLeft postImage" />
+
+From the same children's book we can see Mr. Tezuka hard at work on Super Mario Bros 3, it looks like he is viewing the Character (Sprite/Pixel) data for the Mario sprite sheet. 
+
+It is unclear if it is connected to the version running on the Famicom to the right of the computer. It would be pretty useful if changes made on the PC automatically updated the sprites in the running game, but it is unlikely they had  built the hardware to support such a feature.
+
+</div>
+</section>
+
+<section class="postSection">
+    <img src="/public/images/nes/FamicomMarioSpriteViewer.jpg" class="wow slideInLeft postImage" />
+Presumably this is some sort of pixel editing tool that can piece together parts from the sprite sheet and update and possibly even animate the result to the viewer. It is unclear what the colours at the top represent, it could be the available colour pallet.
+
+The Fujitsu FM R-50 HD business computer was used to create all the pixel art for Super Mario Bros 3. It was an IBM-PC compatible which ran a version of MS-DOS.
+</div>
+</section>
+
 ---
 ## Famicom Disk System Development hardware
 The Famicom Disk System (FDS) was just a cheaper way of distributing games for the Famicom in Japan due to the higher cost of producing cartridges.
@@ -43,6 +80,8 @@ It seems to have been commonly been used for development of NES games even if th
 ### FDT ICE  (ISD)
 <section class="postSection">
     <img src="/public/images/nes/IntelligentSystems-ICE-Famicom-Disc-System.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 This is a very rare item, it is possibly only used within Intelligent Systems (IS) themselves, although IS did mass produce a similar product for the SNES so it is possible that this was THE official development kit for the NES.
 
 ICE stands for In-Circuit Emulator and Intelligent Systems made these for most of Nintendo's hardware in the future too. These would be used by connecting to a development PC and allowing breakpoints and memory checking to be run from a debugger like interface.
@@ -60,29 +99,22 @@ FDT may stand for Famicom Disk T???
 
 <div markdown="1">
 
-
 Retail FDS games were either yellow or Blue so a White FDS disk is used for in-development prototype games and may be re-writable. It is unclear whether they could be written to via a standard PC floppy drive however.
 </div>
 </section>
 
 ---
-# Graphic Artist hardware
+# Consumer Development Kits
+It is very rare for Nintendo to allow non-licensed developers to write code or "homebrew" on their consoles. However when they developed the Famicom (Family Computer) they wanted to expand the computer aspect and not just rely on games so they had a few initiatives to allow PC like functionality on the console.
 
+## Family BASIC for Famicom
 <section class="postSection">
-    <img src="/public/images/nes/FmicomGraphiEditing.jpg" class="wow slideInLeft postImage" />
+<iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/j8J58aTxCPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+The first ever development kit that general consumers could buy was `Family Basic`, which was as the name suggests an implementation of the BASIC programming language that you could write and execute on the Famicom [^20].
 
-From the same children's book we can see Mr. Tezuka hard at work on Super Mario Bros 3, it looks like he is viewing the Character (Sprite/Pixel) data for the Mario sprite sheet. 
+As for Commercial games, the legendary developer of Pokemon, Satoshi Tajiri from Game Freaks used Family BASIC to create his first game, which he then built his own NES development kit on top of and created the game called Mendel Palace [^21].
 
-It is unclear if it is connected to the version running on the Famicom to the right of the computer. It would be pretty useful if changes made on the PC automatically updated the sprites in the running game, but it is unlikely they had  built the hardware to support such a feature.
-
-</div>
-</section>
-
-<section class="postSection">
-    <img src="/public/images/nes/FamicomMarioSpriteViewer.jpg" class="wow slideInLeft postImage" />
-Presumably this is some sort of pixel editing tool that can piece together parts from the sprite sheet and update and possibly even animate the result to the viewer. It is unclear what the colours at the top represent, it could be the available colour pallet.
-
-The Fujitsu FM R-50 HD business computer was used to create all the pixel art for Super Mario Bros 3. It was an IBM-PC compatible which ran a version of MS-DOS.
 </div>
 </section>
 
@@ -106,7 +138,7 @@ Games built using this development system include but is not limited to:
 </div>
 </section>
 
-# HAL “Game Maker” (Twin Famicom)
+## HAL “Game Maker” (Twin Famicom)
 <section class="postSection">
     <img src="/public/images/nes/TwinFamicomGameMaker.png" class="wow slideInLeft postImage" />
 
@@ -247,3 +279,5 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^17]: [PDS development system - CPCWiki](http://www.cpcwiki.eu/index.php/PDS_development_system)
 [^18]: [Oliver Twins](https://web.archive.org/web/20060829185146/http://www.blitzgames.com/olivertwins/earlyyearsp2.htm)
 [^19]: [Retro Gamer 2018 PressReader.com](https://www.pressreader.com/uk/retro-gamer/20181129/281638191249599)
+[^20]: [history - Was Family BASIC for the NES/Famicom powerful enough to create full games and applications? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/5024/was-family-basic-for-the-nes-famicom-powerful-enough-to-create-full-games-and-ap)
+[^21]: [Gamasutra - A basic history of BASIC on its 50th birthday](https://www.gamasutra.com/view/news/216469/A_basic_history_of_BASIC_on_its_50th_birthday.php)
