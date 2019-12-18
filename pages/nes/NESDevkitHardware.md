@@ -268,6 +268,15 @@ In Edge UK Magazine Issue 136 it is mentioned that they created their own protot
 
 Their hardware side of the development kit was described as a PC connected to a C64 connected to a NES in a mass of wires and each release was named after a character from Blade Runner [^9]!
 
+### Bit Managers & Infogrames (PDS)
+<section class="postSection">
+    <img src="/public/images/nes/Programmers Development System By PDSystems.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+In an Interview with `Alberto González` who was a composer for many classic video game soundtracks along with graphics development work, he mentioned that he used PDS with modifications for GameBoy, Master System and NES [^22]. The screenshot on the left is Alberto using `PDS Pc1.24` developed by `P.D.Systems Ltd 1985-88`.
+
+</div>
+</section>
+
 ---
 # Unanswered Questions
 
@@ -304,3 +313,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^19]: [Retro Gamer 2018 PressReader.com](https://www.pressreader.com/uk/retro-gamer/20181129/281638191249599)
 [^20]: [history - Was Family BASIC for the NES/Famicom powerful enough to create full games and applications? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/5024/was-family-basic-for-the-nes-famicom-powerful-enough-to-create-full-games-and-ap)
 [^21]: [Gamasutra - A basic history of BASIC on its 50th birthday](https://www.gamasutra.com/view/news/216469/A_basic_history_of_BASIC_on_its_50th_birthday.php)
+[^22]: [Interview with Alberto González (composer) – VGArc](http://www.vgarc.org/vgarc-originals/interview-with-alberto-gonzalez/)
