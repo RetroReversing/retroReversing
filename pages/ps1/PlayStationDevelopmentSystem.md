@@ -19,6 +19,7 @@ recommend:
   - devkit
   - ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
+updatedAt: 18th December 2019
 videocarousel:
   - title: DTL-H2000 Official PlayStation Development System
     image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
@@ -56,6 +57,8 @@ The vast majority of non-Japanese developers are focusing on both formats (in Ja
 # MW.3 (Original Prototype Playstation)
 Original Prototype PS1 given to only a few developers such as SN Systems and was called MW.3, it was only used for very early playstation games. This was basically just an entitre prototype playstation and the hardware differes from the finally released retail playstation, a photo of it was provideded in EDGE issue 20:
 <img src="/public/magazine/PS1OriginalDevKitMW3_EDGE_Issue_20.png" />
+
+Notice that it looks very similar to the `Sony Network Engineering Workstation` (NEWS) which was a line of Unix workstation computers that Sony developed in the late 80s and early 90s. It is likely the same machine but with added hardware for Playstation graphics and sound capabilities, more information on the Sony NEWS is available on Wikipedia: [Sony NEWS - Wikipedia](https://en.wikipedia.org/wiki/Sony_NEWS)
 
 # Twin ISA Development Kit:
 The Twin ISA development kit was the most popular development kit used for the playstation:
