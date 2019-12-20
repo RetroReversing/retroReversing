@@ -8,6 +8,10 @@ thumbnail: /public/consoles/PokemonMini.png
 recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
+videocarousel:
+  - title: Did You Known Gaming
+    image: http://img.youtube.com/vi/JHSQsxWMWwY/hqdefault.jpg
+    youtube: 'JHSQsxWMWwY'
 breadcrumbs:
   - name: Home
     url: /
