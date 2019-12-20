@@ -52,3 +52,23 @@ The developer `Scylus` has created a brand new browser-based (javascript) Pokemo
 ## Pokémon Mini ROM disassembler - mindis2
 {% include link-to-other-site.html url="https://github.com/pokemon-mini/mindis2" description="Pokémon Mini ROM disassembler with support for the official S1C88 assembly language" title="mindis2 - Pokémon Mini ROM disassembler" image="http://www.retroreversing.com/public/consoles/PokemonMini.png"  %}
 
+---
+# ROM Translations
+The Pokémon Mini only had a library of 10 games, and 5 of those were only ever released in Japan! 
+Luckily for us a dedicated team of fans have translated the Japanese exclusives into english and are fully playable via flash cart or emulator!
+
+## Pichu Bros. Mini
+[Romhacking.net - Translations - Pichu Bros. Mini](https://www.romhacking.net/translations/4578/)
+
+## Pokémon Breeder mini
+[Romhacking.net - Translations - Pokémon Sodateyasan Mini](https://www.romhacking.net/translations/2937/)
+
+## Pokémon Puzzle Collection vol. 2
+[Romhacking.net - Translations - Pokémon Puzzle Collection Vol. 2](https://www.romhacking.net/translations/2933/)
+
+## Pokémon Race mini
+[Romhacking.net - Translations - Pokémon Race mini](https://www.romhacking.net/translations/2928/)
+
+## Togepi's Great Adventure
+[Romhacking.net - Translations - Togepi no Daibouken](https://www.romhacking.net/translations/2929/)
+
