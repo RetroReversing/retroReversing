@@ -27,19 +27,32 @@ Unlike previously thought, Nintendo did not actually create custom hardware for 
 
 The hardware for the Pokemon Mini was provided by `Seiko EPSON` which included a 8-bit CPU called the `S1C88` , it was a cpu that was commonly sold for small portable devices such as watches or pedometers.
 
+## Jupiter Corporation
+Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
+
+Jupiter had a long history working with Nintendo and were trusted licensees of many Nintendo characters after creating game such as `Mario Picross` in as far back as 1995.
+
+They were responsible for the `Pocket Pikachu Color` which was released in November 21st 1999 which can be seen as the predecessor to the Pokemon Mini and likely used very similar technology [^1].
+
+They also released similar projects for non-Nintendo licensed products such as the `Pocket Sakura` which is the same hardware as the Pocket Pikachu but could communicate with the Sakura Wars game for gameboy [^2]!
+
+
 ---
-# Official Software Development Kit (Toolchain)
+# Game Development
+
+## Official Software Development Kit (Toolchain)
 {% include link-to-other-post.html post="/official-pokemon-mini-sdk/" description="For an introduction to the official SDK used to create Pokemon Mini games check out this post." %}
 
----
-# Homebrew SDK
+## Homebrew SDK
 The Pokémon Mini homebrew scene is just starting to take off, with some very talented developers making tools that make it easier than ever to start programming your own games or applications!
 
-## Flash Cartridge
+### Flash Cartridge
 It is now possible to flash your games onto a development cartridge thanks to the creation of the `Ditto Mini`.
 
 {% include link-to-other-site.html url="http://dittomini.com" description="Flash cartridge for the Pokemon Mini" title="DittoMini" image="http://dittomini.com/images/cartridge_hero.png"  %}
 
+---
+# Emulation
 
 ## Browser-based Emulator
 The developer `Scylus` has created a brand new browser-based (javascript) Pokemon Mini emulator which wile not yet as stable as PokeMini emulator it supports the official S1C88 assembly language. It even contains basic debugging support but there are a few known bugs which cause inaccuracies in the emulation.
@@ -72,3 +85,7 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 ## Togepi's Great Adventure
 [Romhacking.net - Translations - Togepi no Daibouken](https://www.romhacking.net/translations/2929/)
 
+---
+# References
+[^1]: [Pocket Pikachu Color! Gold & Silver Together! | Game Software | Products | Jupiter Corporation](http://www.jupiter.co.jp/e/product/game/other/pokepika.php)
+[^2]: [Pocket Sakura | Game Software | Products | Jupiter Corporation](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)
