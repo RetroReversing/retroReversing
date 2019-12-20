@@ -58,7 +58,7 @@ The Pokémon Mini only had a library of 10 games, and 5 of those were only ever 
 Luckily for us a dedicated team of fans have translated the Japanese exclusives into english and are fully playable via flash cart or emulator!
 
 ## Pichu Bros. Mini
-[Romhacking.net - Translations - Pichu Bros. Mini](https://www.romhacking.net/translations/4578/)
+{% include link-to-other-site.html url="https://www.romhacking.net/translations/4578/" description="Pichu Bros. Mini in english!" title="Romhacking.net - Translations - Pichu Bros. Mini" image="https://www.romhacking.net/translations/pokemin/images/4578titlescreen.png"  %}
 
 ## Pokémon Breeder mini
 [Romhacking.net - Translations - Pokémon Sodateyasan Mini](https://www.romhacking.net/translations/2937/)
