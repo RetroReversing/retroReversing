@@ -16,8 +16,6 @@ breadcrumbs:
   - name: Pokemon Mini
     url: #
 ---
-# Introduction to the Pokemon Mini
-Interested in learning more about the the Pokemon Mini? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to an introduction to reverse engineering your first game!
 
 # Introduction to the Pokemon Mini
 Unlike previously thought, Nintendo did not actually create custom hardware for the Pokemon Mini, as it was recently found out that the CPU is actually a standard Seiko model that was previously used to power similar devices with small LCDs.
