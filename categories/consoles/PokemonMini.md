@@ -74,10 +74,10 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 {% include link-to-other-site.html url="https://www.romhacking.net/translations/4578/" description="Pichu Bros. Mini in english!" title="Romhacking.net - Translations - Pichu Bros. Mini" image="https://www.romhacking.net/translations/pokemin/images/4578titlescreen.png"  %}
 
 ## Pokémon Breeder mini
-[Romhacking.net - Translations - Pokémon Sodateyasan Mini](https://www.romhacking.net/translations/2937/)
+{% include link-to-other-site.html url="https://www.romhacking.net/translations/2937/" description="Pokémon Breeder Mini in english!" title="Romhacking.net - Translations - Pokémon Sodateyasan Mini" image="https://www.romhacking.net/translations/pokemin/images/2937titlescreen.png"  %}
 
 ## Pokémon Puzzle Collection vol. 2
-[Romhacking.net - Translations - Pokémon Puzzle Collection Vol. 2](https://www.romhacking.net/translations/2933/)
+{% include link-to-other-site.html url="https://www.romhacking.net/translations/2933/" description="Pokémon Puzzle Collection vol. 2 in english!" title="Romhacking.net - Translations - Pokémon Puzzle Collection Vol. 2" image="https://www.romhacking.net/translations/pokemin/images/2933titlescreen.png"  %}
 
 ## Pokémon Race mini
 [Romhacking.net - Translations - Pokémon Race mini](https://www.romhacking.net/translations/2928/)
