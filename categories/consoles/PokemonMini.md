@@ -23,9 +23,12 @@ breadcrumbs:
 ---
 
 # Introduction to the Pokemon Mini (PM)
-Unlike previously thought, Nintendo did not actually create custom hardware for the Pokemon Mini, as it was recently found out that the CPU is actually a standard Seiko model that was previously used to power similar devices with small LCDs.
+The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
+`Jupiter Corporation` and released in Japan on December 14th 2001. 
 
-The hardware for the Pokemon Mini was provided by `Seiko EPSON` which included a 8-bit CPU called the `S1C88` , it was a cpu that was commonly sold for small portable devices such as watches or pedometers.
+They had previously worked with the Jupiter Corporation on hardware such as the Pocket Pikachu which created the foundation for the Pokemon Mini project.
+
+The Japanese company `Denyusha` was also contracted to create games for the Pokemon Mini and would become one of only 3 developers for the system (SDD, Jupiter and Denyusha).
 
 ## Nintendo System Development Division
 The Nintendo System Development Division (SDD) was a small development team in charge of lower-profile hardware such as the `Pokewalker`, `Pokemotion` and Pokemon Mini [^3]. 
@@ -43,6 +46,19 @@ They were responsible for the `Pocket Pikachu Color` which was released in Novem
 
 They also released similar projects for non-Nintendo licensed products such as the `Pocket Sakura` which is the same hardware as the Pocket Pikachu but could communicate with the Sakura Wars game for gameboy [^2]!
 
+## Denyusha
+Denyusha were contracted out by The Pokemon Company to make 3 different games for the Pokemon Mini console, according to their official website they started working with the Pokemon Corporation in June 2001 but had already worked with Nintendo since 1998 [^5].
+
+The games Denyusha developed for the Pokemon Mini are as follows:
+* Pichu Bros. mini
+* Pokémon Party mini
+* Pokémon Zany Cards
+
+---
+# Hardware
+Unlike previously thought, Nintendo SDD did not actually create custom hardware for the Pokemon Mini, as it would have been far too expensive for such a low profile device. Instead they used somewhat off the shelf parts as it was recently found out that the CPU is actually a standard `Seiko Epson` model that was previously used to power similar devices with small LCDs.
+
+The hardware for the Pokemon Mini was provided by `Seiko EPSON` which included a 8-bit CPU called the `S1C88` , it was a cpu that was commonly sold for small portable devices such as watches or pedometers.
 
 ---
 # Game Development
@@ -98,3 +114,4 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 [^2]: [Pocket Sakura](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)
 [^3]: [Nintendo System Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_System_Development)
 [^4]: [Daisuke Tsujimura](https://nintendo.fandom.com/wiki/Daisuke_Tsujimura)
+[^5]: [denyu-sha.co.jp - Wayback Machine](https://web.archive.org/web/20021002220556/https://denyu-sha.co.jp/)
