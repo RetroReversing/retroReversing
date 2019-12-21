@@ -80,12 +80,12 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 {% include link-to-other-site.html url="https://www.romhacking.net/translations/2933/" description="Pokémon Puzzle Collection vol. 2 in english!" title="Romhacking.net - Translations - Pokémon Puzzle Collection Vol. 2" image="https://www.romhacking.net/translations/pokemin/images/2933titlescreen.png"  %}
 
 ## Pokémon Race mini
-[Romhacking.net - Translations - Pokémon Race mini](https://www.romhacking.net/translations/2928/)
+{% include link-to-other-site.html url="https://www.romhacking.net/translations/2928/" description="Pokémon Race Mini in english!" title="Romhacking.net - Translations - Pokémon Race mini" image="https://www.romhacking.net/translations/pokemin/images/2928titlescreen.png"  %}
 
 ## Togepi's Great Adventure
-[Romhacking.net - Translations - Togepi no Daibouken](https://www.romhacking.net/translations/2929/)
+{% include link-to-other-site.html url="https://www.romhacking.net/translations/2929/" description="Togepi's Great Adventure in english!" title="Romhacking.net - Translations - Togepi no Daibouken" image="https://www.romhacking.net/translations/pokemin/images/2929titlescreen.png"  %}
 
 ---
 # References
-[^1]: [Pocket Pikachu Color! Gold & Silver Together! | Game Software | Products | Jupiter Corporation](http://www.jupiter.co.jp/e/product/game/other/pokepika.php)
-[^2]: [Pocket Sakura | Game Software | Products | Jupiter Corporation](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)
+[^1]: [Pocket Pikachu Color! Gold & Silver Together!](http://www.jupiter.co.jp/e/product/game/other/pokepika.php)
+[^2]: [Pocket Sakura](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)
