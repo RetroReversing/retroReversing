@@ -22,10 +22,17 @@ breadcrumbs:
     url: #
 ---
 
-# Introduction to the Pokemon Mini
+# Introduction to the Pokemon Mini (PM)
 Unlike previously thought, Nintendo did not actually create custom hardware for the Pokemon Mini, as it was recently found out that the CPU is actually a standard Seiko model that was previously used to power similar devices with small LCDs.
 
 The hardware for the Pokemon Mini was provided by `Seiko EPSON` which included a 8-bit CPU called the `S1C88` , it was a cpu that was commonly sold for small portable devices such as watches or pedometers.
+
+## Nintendo System Development Division
+The Nintendo System Development Division (SDD) was a small development team in charge of lower-profile hardware such as the `Pokewalker`, `Pokemotion` and Pokemon Mini [^3]. 
+
+SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon Mini project were the two directors `Yoshikazu Mori` and `Shinya Kawada`. 
+
+There was one main Pokemon Mini programmer at SDD, `Daisuke Tsujimura` who worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the `Jupiter Corporation` and `Denyusha` to help create games and software for the new handheld [^4].
 
 ## Jupiter Corporation
 Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
@@ -89,3 +96,5 @@ Luckily for us a dedicated team of fans have translated the Japanese exclusives 
 # References
 [^1]: [Pocket Pikachu Color! Gold & Silver Together!](http://www.jupiter.co.jp/e/product/game/other/pokepika.php)
 [^2]: [Pocket Sakura](http://www.jupiter.co.jp/e/product/game/other/pokesaku.php)
+[^3]: [Nintendo System Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_System_Development)
+[^4]: [Daisuke Tsujimura](https://nintendo.fandom.com/wiki/Daisuke_Tsujimura)
