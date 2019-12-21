@@ -37,6 +37,10 @@ SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon 
 
 There was one main Pokemon Mini programmer at SDD, `Daisuke Tsujimura` who worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the `Jupiter Corporation` and `Denyusha` to help create games and software for the new handheld [^4].
 
+The games SDD developed for the Pokemon Mini are as follows:
+* Pokemon Shock Tetris
+* Snorlax's Lunchtime (Only released as part of Pokemon Channel)
+
 ## Jupiter Corporation
 Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
 
@@ -45,6 +49,14 @@ Jupiter had a long history working with Nintendo and were trusted licensees of m
 They were responsible for the `Pocket Pikachu Color` which was released in November 21st 1999 which can be seen as the predecessor to the Pokemon Mini and likely used very similar technology [^1].
 
 They also released similar projects for non-Nintendo licensed products such as the `Pocket Sakura` which is the same hardware as the Pocket Pikachu but could communicate with the Sakura Wars game for gameboy [^2]!
+
+The games Jupiter developed for the Pokemon Mini are as follows:
+* Pokémon Pinball mini
+* Pokémon Puzzle Collection
+* Pokémon Puzzle Collection vol. 2
+* Pokémon Race mini
+* Togepi's Great Adventure
+* Pokémon Breeder mini
 
 ## Denyusha
 Denyusha were contracted out by The Pokemon Company to make 3 different games for the Pokemon Mini console, according to their official website they started working with the Pokemon Corporation in June 2001 but had already worked with Nintendo since 1998 [^5].
