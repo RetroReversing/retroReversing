@@ -10,6 +10,9 @@ recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
 videocarousel:
+  - title: Nintendo's Forgotten Console
+    image: http://img.youtube.com/vi/_Da5CfhH128/hqdefault.jpg
+    youtube: '_Da5CfhH128'
   - title: Did You Known Gaming
     image: http://img.youtube.com/vi/JHSQsxWMWwY/hqdefault.jpg
     youtube: 'JHSQsxWMWwY'
