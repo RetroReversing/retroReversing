@@ -38,11 +38,15 @@ The Nintendo System Development Division (SDD) was a small development team in c
 
 SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon Mini project were the two directors `Yoshikazu Mori` and `Shinya Kawada`. 
 
-There was one main Pokemon Mini programmer at SDD, `Daisuke Tsujimura` who worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the `Jupiter Corporation` and `Denyusha` to help create games and software for the new handheld [^4].
+There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the `Jupiter Corporation` and `Denyusha` to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
 
 The games SDD developed for the Pokemon Mini are as follows:
-* Pokemon Shock Tetris (`Daisuke Tsujimura`, `Koji Yoshizaki`)
-* Snorlax's Lunchtime (`Daisuke Tsujimura`, Only released as part of Pokemon Channel)
+* Pokemon Shock Tetris
+* Snorlax's Lunchtime (Only released as part of Pokemon Channel)
+
+Employees at SDD responsible for Pokemon Mini programming:
+* Daisuke Tsujimura
+* Koji Yoshizaki
 
 ## Jupiter Corporation
 Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
