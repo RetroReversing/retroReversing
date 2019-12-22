@@ -69,6 +69,7 @@ Employees at Jupiter responsible for Pokemon Mini programming:
 * Yoshikazu Mori (Pokémon Pinball mini, Pokémon Race mini, Togepi's Great Adventure)
 * Hiroyuki Kawaharabayashi (Pokémon Puzzle Collection, Togepi's Great Adventure)
 * Hiraku Kitawaki (Pokémon Puzzle Collection)
+* Masato Furukawa (Pokémon Race mini)
 
 ## Denyusha
 Denyusha were contracted out by The Pokemon Company to make 3 different games for the Pokemon Mini console, according to their official website they started working with the Pokemon Corporation in June 2001 but had already worked with Nintendo since 1998 [^5].
@@ -77,6 +78,10 @@ The games Denyusha developed for the Pokemon Mini are as follows:
 * Pichu Bros. mini
 * Pokémon Party mini
 * Pokémon Zany Cards
+
+Employees at Denyusha responsible for Pokemon Mini programming:
+* Go Nagasaka (Pokémon Zany Cards)
+* Katsuhisa Okino (Pichu Bros. mini, Pokémon Party mini)
 
 ---
 # Hardware
