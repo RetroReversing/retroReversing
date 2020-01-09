@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64_3DModellingSoftware.md
-updatedAt: 16th November 2019
+updatedAt: 9th January 2020
 ---
 
 During the Nintendo 64s lifetime 3D modelling tools evolved at an incredible pace. 3D games were the new trend which pushed developers into creating new 3D games in order to get published.
@@ -104,6 +104,10 @@ It is possible that `Lightwave 3D` was used for the creation of assets for some 
 NIFF Editor was part of the package known as `NIFF Navigator` and the first version was released on the 9th of October 1997 and the last release on May 6th 1999 [^12].
 </div>
 </section>
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">Okay found a scene viewer program, which builds a preview executable for running on hardware. This seems to have a more complete makefile so I&#39;ll use that one as a base and try building the samples again <a href="https://t.co/eaPYR95WUP">pic.twitter.com/eaPYR95WUP</a></p>&mdash; Matt Phillips (@bigevilboss) <a href="https://twitter.com/bigevilboss/status/1214919320347828225?ref_src=twsrc%5Etfw">8 January 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ---
 # Texture Creation
 Deluxe Paint (Dpaint) was the most popular tool for making textures, along with PaintShopPro and PhotoShop.
