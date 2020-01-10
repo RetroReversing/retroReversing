@@ -16,6 +16,9 @@ videocarousel:
   - title: Wide Boy
     image: https://img.youtube.com/vi/llIz6qjDfLc/hqdefault.jpg
     youtube: llIz6qjDfLc
+  - title: Famicom Wide Boy
+    image: https://img.youtube.com/vi/zOF4Wm2_6oM/hqdefault.jpg
+    youtube: zOF4Wm2_6oM
 breadcrumbs:
   - name: Home
     url: /
@@ -149,8 +152,12 @@ It was also very common for developers to just create these themselves from reta
 
 
 ## GameBoy Tester Unit
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_9.png" class="wow slideInLeft postImage" />
+<div markdown="1">
 
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_9.png)
+</div>
+</section>
 
 ---
 # Third Party Development kits
