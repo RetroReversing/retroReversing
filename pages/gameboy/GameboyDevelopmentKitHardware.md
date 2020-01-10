@@ -9,6 +9,10 @@ tags:
 - hardware
 thumbnail: /public/NintendoGameBoyThumb.png
 editlink: /gameboy/GameboyDevelopmentKitHardware.md
+videocarousel:
+  - title: GB Smart Development kit
+    image: https://img.youtube.com/vi/GYwV4Y1t2sQ/hqdefault.jpg
+    youtube: GYwV4Y1t2sQ
 breadcrumbs:
   - name: Home
     url: /
@@ -19,8 +23,9 @@ breadcrumbs:
 recommend: 
 - gameboy
 - devkit
+updatedAt: 10th January 2020
 ---
-This post covers all the official hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development.
+This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development.
 
 This post is split into a number of different sections:
 * Programming Tools
@@ -28,7 +33,7 @@ This post is split into a number of different sections:
 * Cartridge Tools
 
 ---
-# Programming Tools
+# Official Programming Tools
 The Official programming development kit for the Gameboy consisted of the Debugger (US$4000) and the Emulator/ICE (US$3000) which were both developed by the Nintendo owned company called Intelligent Systems [^3].
 
 They both connect to a developer workstation such as an IBM-PC via the SCSI port and offer a few software tools for communication between the IBM-PC and the Intelligent systems hardware.
@@ -94,6 +99,12 @@ Gameboy Cartridge tools are used to write to writable cartridges known as flash 
 ## GameBoy Tester Unit
 
 ![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_9.png)
+
+---
+# Third Party Development kits
+
+## GB Smart Development kit
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GYwV4Y1t2sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # References
