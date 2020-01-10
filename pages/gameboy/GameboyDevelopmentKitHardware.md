@@ -80,6 +80,15 @@ Demonstration tools are hardware that allowed pulishers or the press to present 
 # Cartridge Tools
 Gameboy Cartridge tools are used to write to writable cartridges known as flash carts or to check the cartridges for problems.
 
+## Prototype Gameboy Cartridges
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/YLNsqcQlOdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+  As Gameboy cartridges contained the game on a ROM chip which is read-only by its nature, in order to create prototype cartridges you can replace the ROM chip with an rewritable data chip such as EEPROM and you have a cartridge ideal for testing! It was very common for developers to just create these themselves rather than buy specific writable cartridges from Nintendo/Intelligent Systems.
+</div>
+</section>
+
+
 ## DMG FLASH GANG WRITER
 
 ![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_5.png)
