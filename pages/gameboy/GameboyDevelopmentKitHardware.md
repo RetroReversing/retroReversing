@@ -141,16 +141,6 @@ It was also very common for developers to just create these themselves from reta
 </div>
 </section>
 
-## GameBoy DEV Port
-<section class="postSection">
-  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_7.png" class="wow slideInLeft postImage" />
-<div markdown="1">
-
-</div>
-</section>
-
-
-
 ## GameBoy Tester Unit
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_9.png" class="wow slideInLeft postImage" />
