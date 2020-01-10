@@ -66,7 +66,10 @@ The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Adva
 
 ## DMG-CAD (Gameboy tile/sprite editing hardware)
 The DMG-CAD (Character Development System) allowed designers/artists to preview pixel art on the gameboy hardware without using the more programmer specific hardware such as the `DMG-ICE`.
+
 Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998. There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color.
+
+There was one sold on Japanese Yahoo Auctions but the link was never archived in the wayback machine ("http://page.auctions.yahoo.co.jp/jp/auction/181784286").
 
 ---
 # Presentation/Demo Tools
