@@ -45,17 +45,17 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_3.jpg" class="wow slideInLeft postImage" />
 <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_4.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-  The Integrated Circuit Emulator or ICE was developed for the original Gameboy (DMG) and allowed developers to debug issues effecting their games, set breakpoints and inspect memory. This is also known as the Program development system but information on eactly how it was used is sparse.
+  The Integrated Circuit Emulator or ICE was developed for the original Gameboy (DMG) and allowed developers to debug issues effecting their games, set breakpoints and inspect memory. This is also known as the Program development system but information on exactly how it was used is sparse.
 </div>
 </section>
 
 
-## IS-CGB-EMU (Emulator)
-The `IS-CGB-EMU` (Intelligent Systems Colour GameBoy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
+## IS-CGB-EMU (Nintendo Game Boy Color Emulator)
+The `IS-CGB-EMU` (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
 
 The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
 
-<iframe src="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" width="100%"></iframe>
+{% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The handheldmuseum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
 
 ## IS-CGB-DEBUGGER (Debugger)
 The Color Gameboy debugger hardware was similar to the DMG-ICE in that it allowed fully fledged debugging capabilities such as breakpoints, stack traces and memory modification.
