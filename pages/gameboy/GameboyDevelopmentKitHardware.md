@@ -56,7 +56,7 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 <div markdown="1">
 The `IS-CGB-EMU` (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
   
-  If the `IS-CGB-DEBUGGER` label is ticked on the bottom of the unit then it also supported debugging options such as setting breakpoints, inspecting memory etc and is likely an ICE (Similar to DMG-ICE)
+  If the `IS-CGB-DEBUGGER` label is ticked on the bottom of the unit then it also supported debugging options such as setting breakpoints, tracing, inspecting memory etc and is likely an ICE (Similar to DMG-ICE) [^12].
 
 The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
 </div>
@@ -72,7 +72,7 @@ The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Adva
 <div markdown="1">
 The DMG-CAD (Character Development System) allowed designers/artists to preview pixel art on the gameboy hardware without using the more programmer specific hardware such as the `DMG-ICE`.
 
-Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998. 
+Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998 [^12]. 
 
 There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color, the photos on the left are from that system but it only shows the Gameboy screen and wires coming out the back, it is unclear where the wires went.
 
@@ -200,3 +200,4 @@ the Doctor GB Xchanger was primarily sold as a piracy device but could be used b
 [^9]: [Demo Vision](https://www.chrismcovell.com/demovision.html)
 [^10]: [WideBoy](https://www.chrismcovell.com/wideboy.html)
 [^11]: [Wide Boy 64](https://www.chrismcovell.com/wideboy64.html)
+[^12]: [IS CGB tool](https://web.archive.org/web/20021017211518/http://www.intsys.co.jp/tool/cgb/)
