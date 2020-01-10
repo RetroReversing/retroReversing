@@ -51,9 +51,14 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 
 
 ## IS-CGB-EMU (Nintendo Game Boy Color Emulator)
+<section class="postSection">
+<img src="/public/images/GameBoy/IntelligentSystems_ColorGameBoy_Emulator.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
 The `IS-CGB-EMU` (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
 
 The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
+</div>
+</section>
 
 {% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The handheldmuseum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
 
