@@ -55,15 +55,14 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 <img src="/public/images/GameBoy/IntelligentSystems_ColorGameBoy_Emulator.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 The `IS-CGB-EMU` (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
+  
+  If the `IS-CGB-DEBUGGER` label is ticked on the bottom of the unit then it also supported debugging options such as setting breakpoints, inspecting memory etc and is likely an ICE (Similar to DMG-ICE)
 
 The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
 </div>
 </section>
 
 {% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The handheldmuseum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
-
-## IS-CGB-DEBUGGER (Debugger)
-The Color Gameboy debugger hardware was similar to the DMG-ICE in that it allowed fully fledged debugging capabilities such as breakpoints, stack traces and memory modification.
 
 ## DMG-CAD (Gameboy tile/sprite editing hardware)
 The DMG-CAD (Character Development System) allowed designers/artists to preview pixel art on the gameboy hardware without using the more programmer specific hardware such as the `DMG-ICE`.
