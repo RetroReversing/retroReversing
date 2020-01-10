@@ -104,7 +104,18 @@ Gameboy Cartridge tools are used to write to writable cartridges known as flash 
 # Third Party Development kits
 
 ## GB Smart Development kit
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GYwV4Y1t2sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/GYwV4Y1t2sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+  The GB Smart Development kit could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when solds to individual people and the `development kit` name was used very lightly.
+
+The development cartridge was known as the `Smart Card` which was 16Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
+
+The files that were distributed with the development kit have been kindly uploaded by `JakobAir` here: [GitHub - JakobAir/GB-Smart-Development-Kit: Files for the Gameboy Smart Development Kit will be placed here. I claim no authorization of these files.](https://github.com/JakobAir/GB-Smart-Development-Kit) 
+
+The manual has never been scanned so if you find one then please help the community and share a pdf if you have the ability!
+</div>
+</section>
 
 ---
 # References
@@ -113,3 +124,4 @@ Gameboy Cartridge tools are used to write to writable cartridges known as flash 
 [^3]: [GB DEV FAQs](http://www.devrs.com/gb/files/faqs.html#ProSoftware)
 [^4]: [Intelligent Systems IS-CGB-EMULATOR Nintendo Game Boy Color Emulator](http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm)
 [^5]: [GameBoy Dev Machine - GBA ROM DUMPED!](http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=31950)
+[^6]: [GB SMART DEVELOPMENT KIT](http://www.goldenshop.com.hk/AI-trad/Misc_htm/m-smartgb.htm)
