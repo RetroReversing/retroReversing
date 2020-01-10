@@ -13,6 +13,9 @@ videocarousel:
   - title: GB Smart Development kit
     image: https://img.youtube.com/vi/GYwV4Y1t2sQ/hqdefault.jpg
     youtube: GYwV4Y1t2sQ
+  - title: Wide Boy
+    image: https://img.youtube.com/vi/llIz6qjDfLc/hqdefault.jpg
+    youtube: llIz6qjDfLc
 breadcrumbs:
   - name: Home
     url: /
@@ -62,17 +65,25 @@ Not much information is known about it other than a brief mention on the Intelli
 # Presentation/Demo Tools
 Demonstration tools are hardware that allowed publishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
 
-## DMG/Famicom Wide Boy
+## Famicom Wide Boy (DMG)
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_1.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-The WideBoy was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board.
+The WideBoy was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board. It was developed by Intelligent Systems and only sold to Game developers and Press outlets by Nintendo themselves.
   
   This was commonly used by developers and testers to make it alot easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
 </div>
 </section>
 
 {% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="Chris M Covell has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
+
+## N64 Wide Boy (Wide-Boy64) (DMG & CGB)
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/llIz6qjDfLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+An updated version of the Wide Boy was released as a cartridge for the Nintendo 64 that supported GameBoy Color games [^11]. There was later a version of the Wide-Boy64 that could play Gameboy Advance games known as the AGB model.
+</div>
+</section>
 
 ## Demo Boy II (DemoVision)
 <section class="postSection">
@@ -175,3 +186,4 @@ the Doctor GB Xchanger was primarily sold as a piracy device but could be used b
 [^8]: [Game Boy “DUCK” DMG Universal Dev](https://thissideout.wordpress.com/2014/03/11/game-boy-duck-dmg-universal-dev/)
 [^9]: [Demo Vision](https://www.chrismcovell.com/demovision.html)
 [^10]: [WideBoy](https://www.chrismcovell.com/wideboy.html)
+[^11]: [Wide Boy 64](https://www.chrismcovell.com/wideboy64.html)
