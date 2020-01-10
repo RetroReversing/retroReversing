@@ -84,14 +84,21 @@ Gameboy Cartridge tools are used to write to writable cartridges known as flash 
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/YLNsqcQlOdI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-  As Gameboy cartridges contained the game on a ROM chip which is read-only by its nature, in order to create prototype cartridges you can replace the ROM chip with an rewritable data chip such as EEPROM and you have a cartridge ideal for testing! It was very common for developers to just create these themselves rather than buy specific writable cartridges from Nintendo/Intelligent Systems.
+  As Gameboy cartridges contained the game on a ROM chip which is read-only by its nature, in order to create prototype cartridges you can replace the ROM chip with an rewritable data chip such as EEPROM and you have a cartridge ideal for testing! 
+Nintendo sold boards with EPROM sockets that could be used for exactly this purpose, it was a standard gameboy cartridge but with a slot where the EPROM chip could be easily removed for re-programming, there was also a piece of hardware called a `GANG writer` that could write to multiple of these cartridges at once. 
+  
+It was also very common for developers to just create these themselves from retail games.
 </div>
 </section>
 
 
 ## DMG FLASH GANG WRITER
-
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_5.png)
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_5.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+  Rather the writing to the prototype cartridges one-by-one, which would be too time consuming as developers tended to send out multiple copies to the press (magazines etc) there was a tool known as the `FLASH GANG WRITER` where you could place the cartridges in and write the same ROM image to all of them.
+</div>
+</section>
 
 ## Duck (Dmg Universal ChecKer)
 
