@@ -108,8 +108,12 @@ It was also very common for developers to just create these themselves from reta
 </section>
 
 ## Duck (Dmg Universal ChecKer)
-
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_6.png)
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_6.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+  The DMG Universal Checker or aptly named DUCK is a unit for quality control (QA) of the cartridges during the manufacturing process, a Game Boy cartridge is inserted into the socket and the machine calculates and compares the checksum of the ROM with a test cartridge, it also tests saving and loading from SRAM to check for any corruption errors [^8].
+</div>
+</section>
 
 ## GameBoy DEV Port
 
@@ -152,3 +156,4 @@ the Doctor GB Xchanger was primarily sold as a piracy device but could be used b
 [^5]: [GameBoy Dev Machine - GBA ROM DUMPED!](http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=31950)
 [^6]: [GB SMART DEVELOPMENT KIT](http://www.goldenshop.com.hk/AI-trad/Misc_htm/m-smartgb.htm)
 [^7]: [DMG-MBC1 MULTI CHECKER CARTRIDGE](http://www.nesworld.com/gb/pics/dmgmbs1-3.jpg)
+[^8]: [Game Boy “DUCK” DMG Universal Dev](https://thissideout.wordpress.com/2014/03/11/game-boy-duck-dmg-universal-dev/)
