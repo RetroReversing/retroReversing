@@ -91,6 +91,13 @@ It was also very common for developers to just create these themselves from reta
 </div>
 </section>
 
+### DMG-MBC1 MULTI CHECKER CARTRIDGE (DMG-Checker)
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+  The DMG-MBC1 Multichecker cartridge was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so was limited to games that were under 2MByte of ROM and 32KByte of RAM, `Dig Dug` is one game that was developed using this cartridge [^7].
+</div>
+</section>
 
 ## DMG FLASH GANG WRITER
 <section class="postSection">
@@ -108,9 +115,7 @@ It was also very common for developers to just create these themselves from reta
 
 ![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_7.png)
 
-## DMG-Checker
 
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png)
 
 ## GameBoy Tester Unit
 
@@ -146,3 +151,4 @@ the Doctor GB Xchanger was primarily sold as a piracy device but could be used b
 [^4]: [Intelligent Systems IS-CGB-EMULATOR Nintendo Game Boy Color Emulator](http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm)
 [^5]: [GameBoy Dev Machine - GBA ROM DUMPED!](http://nintendoage.com/forum/messageview.cfm?catid=22&threadid=31950)
 [^6]: [GB SMART DEVELOPMENT KIT](http://www.goldenshop.com.hk/AI-trad/Misc_htm/m-smartgb.htm)
+[^7]: [DMG-MBC1 MULTI CHECKER CARTRIDGE](http://www.nesworld.com/gb/pics/dmgmbs1-3.jpg)
