@@ -25,16 +25,11 @@ recommend:
 - devkit
 updatedAt: 10th January 2020
 ---
-This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development.
-
-This post is split into a number of different sections:
-* Programming Tools
-* Presentation/Demo Tools
-* Cartridge Tools
+This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
 
 ---
 # Official Programming Tools
-The Official programming development kit for the Gameboy consisted of the Debugger (US$4000) and the Emulator/ICE (US$3000) which were both developed by the Nintendo owned company called Intelligent Systems [^3].
+The Official programming development kit for the Gameboy consisted of the Debugger (which cost $4000 USD) and the Emulator/ICE (which cost $3000) and were both developed by the Nintendo owned company called Intelligent Systems [^3].
 
 They both connect to a developer workstation such as an IBM-PC via the SCSI port and offer a few software tools for communication between the IBM-PC and the Intelligent systems hardware.
 
@@ -65,15 +60,32 @@ Not much information is known about it other than a brief mention on the Intelli
 
 ---
 # Presentation/Demo Tools
-Demonstration tools are hardware that allowed pulishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
-
-## Demo Boy II
-
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_0.png)
+Demonstration tools are hardware that allowed publishers or the press to present gameboy games on a larger screen, useful for demos and to create screenshots for magazines.
 
 ## DMG/Famicom Wide Boy
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_1.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+The WideBoy was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board.
+  
+  This was commonly used by developers and testers to make it alot easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
+</div>
+</section>
 
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_1.png)
+{% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="Chris M Covell has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
+
+## Demo Boy II (DemoVision)
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_0.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Demo Boy was an alternative to the `Wide Boy` that allowed displaying two gameboy screens at once on a single TV. It used similar hardware that was based on the Famicom (NES) with a custom ROM image for loading the data from the two gameboys attached via cable and displaying the result on the screen. It is an ideal way to develop and test link-cable games on a much larger display.
+  
+ There exists multiple versions of this under a variety of names starting with the Demo Boy then Demo Boy 2 and finally the Demo Vision [^9].
+</div>
+</section>
+
+{% include link-to-other-site.html url="https://www.chrismcovell.com/demovision.html" description="Chris M Covell has an excellent page on the DemoVision unit which seems like a newer version of the Demo Boy" image="https://www.chrismcovell.com/images/demovision.gif" title="Nintendo Demo Vision"  %}
+
 
 
 ---
@@ -116,8 +128,12 @@ It was also very common for developers to just create these themselves from reta
 </section>
 
 ## GameBoy DEV Port
+<section class="postSection">
+  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_7.png" class="wow slideInLeft postImage" />
+<div markdown="1">
 
-![image alt text]({{ site.url }}/public/ZAgzBlXrARIEyn2KnTa4g_img_7.png)
+</div>
+</section>
 
 
 
@@ -157,3 +173,5 @@ the Doctor GB Xchanger was primarily sold as a piracy device but could be used b
 [^6]: [GB SMART DEVELOPMENT KIT](http://www.goldenshop.com.hk/AI-trad/Misc_htm/m-smartgb.htm)
 [^7]: [DMG-MBC1 MULTI CHECKER CARTRIDGE](http://www.nesworld.com/gb/pics/dmgmbs1-3.jpg)
 [^8]: [Game Boy “DUCK” DMG Universal Dev](https://thissideout.wordpress.com/2014/03/11/game-boy-duck-dmg-universal-dev/)
+[^9]: [Demo Vision](https://www.chrismcovell.com/demovision.html)
+[^10]: [WideBoy](https://www.chrismcovell.com/wideboy.html)
