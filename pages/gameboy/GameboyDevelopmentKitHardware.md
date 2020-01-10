@@ -64,12 +64,21 @@ The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Adva
 
 {% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The handheldmuseum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
 
-## DMG-CAD (Gameboy tile/sprite editing hardware)
+## DMG-CAD & IS-CGB-CHARACTER (Gameboy tile/sprite editing hardware)
+
+<section class="postSection">
+  <img src="/public/images/GameBoy/IS-CGB-Character-Screen.jpg" class="wow slideInLeft postImage" />
+  <img src="public/images/GameBoy/IS-CGB-Character-Back.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
 The DMG-CAD (Character Development System) allowed designers/artists to preview pixel art on the gameboy hardware without using the more programmer specific hardware such as the `DMG-ICE`.
 
-Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998. There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color.
+Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998. 
+
+There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color, the photos on the left are from that system but it only shows the Gameboy screen and wires coming out the back, it is unclear where the wires went.
 
 There was one sold on Japanese Yahoo Auctions but the link was never archived in the wayback machine ("http://page.auctions.yahoo.co.jp/jp/auction/181784286").
+</div>
+</section>
 
 ---
 # Presentation/Demo Tools
