@@ -24,32 +24,34 @@ editlink: /gameboy/GameBoySDK.md
 The official Game Boy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
 {% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information on the development hardware check out this post." %}
 
-## Download the SDK
+## Using the SDK
+If you are interested in using the SDK to develop homebrew or to help reverse engineer a game that used the Official SDK then this section will guide you through some of the basics.
+
+### Download the SDK
 You can download the Japanese version of the Gameboy Color SDK from emuparadise here: 
-[https://www.emuparadise.me/sdk/](https://www.emuparadise.me/sdk/)
+[Gameboy Color SDK](https://www.emuparadise.me/sdk/)
 
-I'm not sure there ever was an english version of the Official Intelligent Systems GameBoy Development Kit.
+---
+## Documentation
+The official manual for the Software Development Kit was uploaded to archive.org and is available here: 
+[Gameboy Development Manual V1.1 : Nintendo : Free Download, Borrow, and Streaming : Internet Archive](https://archive.org/details/GameBoyProgManVer1.1)
 
-If you needed support back in 2000 you could have emailed the official SDK support: `DMG-Support@intsys.co.jp`.
+---
+## Tools included
 
-## Intelligent Systems Assembler (ISAS)
+### Intelligent Systems Assembler (ISAS)
 To assemble your GameBoy source code into Z80 machine code you could use the official Nintendo (Intelligent Systems) assembler and linker, ISAS and ISLK respectively.
 *Last Known Version*: ISAS 1.26 / ISLK 1.26 (1999/10/26)
 
----
-
-## Intelligent Systems eXecutable - ISX and CVTISX 
+### Intelligent Systems eXecutable - ISX and CVTISX 
 ISX is the format that the Assembler (ISAS) compiles the programs into, it is a compressed version of the rom, to convert it into a standard gameboy rom you need to run it through CVTISX (ConvertISX).
 
----
-
-## Intelligent Systems Character Designer (IS-CGB-CAD or DMG-CAD)
+### Intelligent Systems Character Designer (IS-CGB-CAD or DMG-CAD)
 The archive only seems to contains the "IS-CGB-CAD" tool, which I presume is some sort of graphics/map editor. Graphics, Sprites and Tiles are known as "characters" for the GameBoy. 
 Its known as a Character development system.
 So I presume it stands for Intelligent Systems Character A??? Designer or Development
 
----
-## Others
+### Others
 Just before the Intelligent Systems development FTP server was shut down, someone managed to backup the contents of the Gameboy color sdk and the files that were saved are as follows:
 
 * IS-CGB-CHARACTER Documentation.7z - Documentation for the CAD graphics tool
