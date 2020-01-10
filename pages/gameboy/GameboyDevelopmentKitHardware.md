@@ -117,6 +117,11 @@ The manual has never been scanned so if you find one then please help the commun
 </div>
 </section>
 
+## Doctor GB Xchanger
+the Doctor GB Xchanger was primarily sold as a piracy device but could be used by consumers or even some small studios as a cheaper alternative to the official development kit.
+
+{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Gameboy_Xchanger" description="The wiki `videogamedevelopmentdevices.fandom.com` has an excellent page on the Doctor GB Xchanger" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/2/26/Gb_xchanger_boxed.jpg/revision/latest?cb=20130422153247" title="Gameboy Xchanger"  %}
+
 ---
 # References
 [^1]: Many of the Images are thanks to - [http://nintendoage.com/forum/messageview.cfm?catid=35&threadid=141667](http://nintendoage.com/forum/messageview.cfm?catid=35&threadid=141667) 
