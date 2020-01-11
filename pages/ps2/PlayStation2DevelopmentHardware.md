@@ -33,14 +33,21 @@ This post covers the hardware used to develop Playstation 2 games by major studi
 # Official Development Kit
 The official development kit created by Sony was by far the most widley used by game studios for development, however Sony sold a few different devices tailored for different purposes such as programming or QA.
 
-## PlayStation 2 DTL-T10000H Development Tool
-<iframe width="560" height="315" src="https://www.youtube.com/embed/G2ep1X_BS-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The `PlayStation 2 DTL-T10000H Development Tool` or TOOL for short was developed by Sony and sold directly to game studios for game development. 
+## Playstation 2 DTL-T10000H Development Tool
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/G2ep1X_BS-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+  The `PlayStation 2 DTL-T10000H Development Tool` or TOOL for short was developed by Sony and sold directly to game studios for game development. 
 It connects to a PC workstation and also has the ability to run both burned and retail PS2 game discs [^1].
+</div>
+</section>
 
-## PLAYSTATION 2 DTL-H1000 DEBUGGING STATION (TEST)
-Since the TOOL was an expensive beast aimed at programmers, for QA testing of games, Sony released another unit for known as the `PLAYSTATION 2 DTL-H1000 DEBUGGING STATION` or `TEST` for short. This was basically a standard Playstation 2 but with the ability to read burned CDRs.
+
+## Playstation 2 DTL-H1000 Debugging station (TEST)
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/aaGl-yM1lvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+  Since the TOOL was an expensive beast aimed at programmers, for QA testing of games, Sony released another unit for known as the `PLAYSTATION 2 DTL-H1000 DEBUGGING STATION` or `TEST` for short. This was basically a standard Playstation 2 but with the ability to read burned CDRs.
 
 There were a few different models of the TEST and different variants for each region:
 * PLAYSTATION 2 DTL-H1000 DEBUGGING STATION
@@ -49,6 +56,8 @@ There were a few different models of the TEST and different variants for each re
 * PLAYSTATION 2 SPCH-770004 CONSOLE
 
 Some early models didn't have support for reading retail discs or DVDs, so only CDRs were supported [^3].
+</div>
+</section>
 
 {% include link-to-other-site.html url="http://thevideogameproject.com/ps2hard.html" description="For more information on the Debugging station, The Video Game project has an excellent page on the subject" image="http://thevideogameproject.com/images/ps2hard13.jpg" title="PS2 Debugging Station - The Video Game Project"  %}
 
