@@ -136,7 +136,6 @@ It was also very common for developers to just create these themselves from reta
 ### DMG-MBC1 MULTI CHECKER CARTRIDGE (DMG-Checker)
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png" class="wow slideInLeft postImage" />
-  <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_9.png" class="wow slideInLeft postImage" />
 <div markdown="1">
   The DMG-MBC1 Multichecker cartridge was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so was limited to games that were under 2MByte of ROM and 32KByte of RAM, `Dig Dug` is one game that was developed using this cartridge [^7].
 </div>
