@@ -68,7 +68,7 @@ The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Adva
 
 <section class="postSection">
   <img src="/public/images/GameBoy/IS-CGB-Character-Screen.jpg" class="wow slideInLeft postImage" />
-  <img src="public/images/GameBoy/IS-CGB-Character-Back.jpg" class="wow slideInLeft postImage" />
+  <img src="/public/images/GameBoy/IS-CGB-Character-Back.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 The DMG-CAD (Character Development System) allowed designers/artists to preview pixel art on the gameboy hardware without using the more programmer specific hardware such as the `DMG-ICE`.
 
