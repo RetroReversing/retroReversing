@@ -23,6 +23,10 @@ videocarousel:
   - title: GIANT PlayStation 2 Development Tool!
     image: https://img.youtube.com/vi/hYjcwZA3XWs/maxresdefault.jpg
     youtube: 'hYjcwZA3XWs'
+  - title: Ebay Find Playstation 2 TOOL (Dev Kit)
+    image: https://img.youtube.com/vi/G2ep1X_BS-Q/maxresdefault.jpg
+    youtube: 'G2ep1X_BS-Q'
+updatedAt: 11th January 2020
 ---
 This post covers the hardware used to develop Playstation 2 games by major studios back in the day, for the software side see the post on the Official PS2 SDK.
 
@@ -30,8 +34,10 @@ This post covers the hardware used to develop Playstation 2 games by major studi
 The official development kit created by Sony was by far the most widley used by game studios for development, however Sony sold a few different devices tailored for different purposes such as programming or QA.
 
 ## PlayStation 2 DTL-T10000H Development Tool
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G2ep1X_BS-Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The `PlayStation 2 DTL-T10000H Development Tool` or TOOL for short was developed by Sony and sold directly to game studios for game development. 
-It connects to a PC workstation and also has the ability to run retail PS2 game discs [^1].
+It connects to a PC workstation and also has the ability to run both burned and retail PS2 game discs [^1].
 
 ---
 # Third Party Development Kits
@@ -45,3 +51,4 @@ One of the development kits that SN Systems created for the Playstation 2 was ta
 ---
 # References
 [^1]: [GIANT PlayStation 2 Development Tool! - YouTube](https://www.youtube.com/watch?v=hYjcwZA3XWs)
+[^2]: [Ebay Find: Playstation 2 TOOL (Dev Kit) - YouTube](https://www.youtube.com/watch?time_continue=896&v=G2ep1X_BS-Q&feature=emb_logo)
