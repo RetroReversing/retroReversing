@@ -20,12 +20,15 @@ recommend:
   - psp
 editlink: /psp/PSPDevKit.md
 videocarousel:
+  - title: PlayStation Portable (PSP) Development System Showcase!
+    image: https://img.youtube.com/vi/Edegy5QUg2M/maxresdefault.jpg
+    youtube: 'Edegy5QUg2M'
   - title: Sony PSP development debug hardware the DTP-H1500
     image: https://img.youtube.com/vi/F0kLdmOn7aI/maxresdefault.jpg
     youtube: 'F0kLdmOn7aI'
   - title: Lazy Overview PSP development system DTP H1500
-    image: https://img.youtube.com/vi/CLPYWgOaRGQ/maxresdefault.jpg
-    youtube: 'CLPYWgOaRGQ'
+    image: https://img.youtube.com/vi/0Vph-DeosFE/maxresdefault.jpg
+    youtube: '0Vph-DeosFE'
 ---
 
 # Official PSP Development Kit hardware
