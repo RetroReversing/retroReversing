@@ -35,7 +35,7 @@ This post covers all the hardware developers used to create games for the Gamebo
 
 ---
 # Official Programming Tools
-The Official programming development kit for the Gameboy consisted of the Debugger (which cost $4000 USD) and the Emulator/ICE (which cost $3000) and were both developed by the Nintendo owned company called Intelligent Systems [^3].
+The Official programming development kit for the Gameboy consisted of the Debugger that cost 4k USD and the Emulator (ICE) which cost 3k and were both developed by the Nintendo owned company called Intelligent Systems [^3].
 
 They both connect to a developer workstation such as an IBM-PC via the SCSI port and offer a few software tools for communication between the IBM-PC and the Intelligent systems hardware.
 
