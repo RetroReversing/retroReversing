@@ -165,7 +165,7 @@ It was also very common for developers to just create these themselves from reta
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/GYwV4Y1t2sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-  The GB Smart Development kit could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when solds to individual people and the `development kit` name was used very lightly.
+  The GB Smart Development kit could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when sold to individual people and the `development kit` name was used very lightly.
 
 The development cartridge was known as the `Smart Card` which was 16Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
 
