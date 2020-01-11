@@ -64,7 +64,7 @@ The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Adva
 </div>
 </section>
 
-{% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The handheldmuseum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
+{% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" description="The Handheld Museum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
 
 ## DMG-CAD & IS-CGB-CHARACTER (Gameboy tile/sprite editing hardware)
 
@@ -92,7 +92,7 @@ Demonstration tools are hardware that allowed publishers or the press to present
 <div markdown="1">
 The WideBoy was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board. It was developed by Intelligent Systems and only sold to Game developers and Press outlets by Nintendo themselves.
   
-  This was commonly used by developers and testers to make it alot easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
+  This was commonly used by developers and testers to make it much easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
 </div>
 </section>
 
@@ -139,7 +139,7 @@ It was also very common for developers to just create these themselves from reta
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-  The DMG-MBC1 Multichecker cartridge was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so was limited to games that were under 2MByte of ROM and 32KByte of RAM, `Dig Dug` is one game that was developed using this cartridge [^7].
+  The DMG-MBC1 Multichecker cartridge was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so was limited to games that were under 2 MB of ROM and 32 KB of RAM, `Dig Dug` is one game that was developed using this cartridge [^7].
 </div>
 </section>
 
@@ -168,7 +168,7 @@ It was also very common for developers to just create these themselves from reta
 <div markdown="1">
   The GB Smart Development kit could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when sold to individual people and the `development kit` name was used very lightly.
 
-The development cartridge was known as the `Smart Card` which was 16Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
+The development cartridge was known as the `Smart Card` which was 16 Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
 
 The files that were distributed with the development kit have been kindly uploaded by `JakobAir` here: [GitHub - JakobAir/GB-Smart-Development-Kit: Files for the Gameboy Smart Development Kit will be placed here. I claim no authorization of these files.](https://github.com/JakobAir/GB-Smart-Development-Kit) 
 
