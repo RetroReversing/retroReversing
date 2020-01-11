@@ -5,7 +5,8 @@ permalink: /official-gameboy-software-dev-kit/
 tags:
 - gameboy
 - sdk
-image: /public/NintendoGameBoyThumb.png
+image: /public/images/GameBoy/Game Boy SDK.jpg
+twitterimage: /public/images/GameBoy/Game Boy SDK.jpg
 thumbnail: /public/NintendoGameBoyThumb.png
 breadcrumbs:
   - name: Home
@@ -18,10 +19,11 @@ recommend:
 - gameboy
 - sdk
 editlink: /gameboy/GameBoySDK.md
+updatedAt: 11th January 2020
 ---
 
 # Official GameBoy Software Development Kit (by Intelligent Systems)
-The official Game Boy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
+The official Game Boy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Gameboy Color, eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
 {% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information on the development hardware check out this post." %}
 
 ## Using the SDK
@@ -53,14 +55,12 @@ So I presume it stands for Intelligent Systems Character A??? Designer or Develo
 
 ### Others
 Just before the Intelligent Systems development FTP server was shut down, someone managed to backup the contents of the Gameboy color sdk and the files that were saved are as follows:
-
-* IS-CGB-CHARACTER Documentation.7z - Documentation for the CAD graphics tool
 * IS-CGB-SDK.7z - Software development kit (libraries etc)
-* IS-CGB-CAD.7z - Character/Graphics development tool     
+* IS-CGB-EMULATOR.7z - Color Gameboy Emulator   
 * IS-CGB-DEBUGGER.7z - Gameboy debugger
+* IS-CGB-CAD.7z - Character/Graphics development tool  
 * IS-CGB-CHARACTER.7z - Character/Graphics development tool  
-* IS-CGB-EMULATOR.7z - Gameboy Emulator
-
+* IS-CGB-CHARACTER Documentation.7z - Documentation for the CAD graphics tool
 
 ---
 # Third Party SDKs
@@ -88,6 +88,7 @@ Along with the release on Romhacking.net there was another release of Gameboy so
 ### Unanswered questions
 
 #### Who or what was R.H.C?
+In the Gremlin SDK it mentions that a lot of tools were `by R.H.C`, but it is unclear who or what this is.
 It could be the initials of an employee who wrote the software or it could be a company. They seem to have written both `ATG.EXE` and `CUTFILE.EXE`.
 
 R.H.C was possibly Richard Hutchison as that was a college of Barry and worked on a few titles together, but this is unconfirmed? [^1].
