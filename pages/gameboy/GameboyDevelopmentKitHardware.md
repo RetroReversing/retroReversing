@@ -8,6 +8,8 @@ tags:
 - devkit
 - hardware
 thumbnail: /public/NintendoGameBoyThumb.png
+image: /public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
+twitterimage: /public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 editlink: /gameboy/GameboyDevelopmentKitHardware.md
 videocarousel:
   - title: GB Smart Development kit
