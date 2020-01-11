@@ -39,6 +39,19 @@ The official development kit created by Sony was by far the most widley used by 
 The `PlayStation 2 DTL-T10000H Development Tool` or TOOL for short was developed by Sony and sold directly to game studios for game development. 
 It connects to a PC workstation and also has the ability to run both burned and retail PS2 game discs [^1].
 
+## PLAYSTATION 2 DTL-H1000 DEBUGGING STATION (TEST)
+Since the TOOL was an expensive beast aimed at programmers, for QA testing of games, Sony released another unit for known as the `PLAYSTATION 2 DTL-H1000 DEBUGGING STATION` or `TEST` for short. This was basically a standard Playstation 2 but with the ability to read burned CDRs.
+
+There were a few different models of the TEST and different variants for each region:
+* PLAYSTATION 2 DTL-H1000 DEBUGGING STATION
+* PLAYSTATION 2 DTL-30002 DEBUGGING STATION
+* PLAYSTATION 2 SPCH-39004 CONSOLE
+* PLAYSTATION 2 SPCH-770004 CONSOLE
+
+Some early models didn't have support for reading retail discs or DVDs, so only CDRs were supported [^3].
+
+{% include link-to-other-site.html url="http://thevideogameproject.com/ps2hard.html" description="For more information on the Debugging station, The Video Game project has an excellent page on the subject" image="http://thevideogameproject.com/images/ps2hard13.jpg" title="PS2 Debugging Station - The Video Game Project"  %}
+
 ---
 # Third Party Development Kits
 Due to the complexity of the PS2 hardware it was not very common for third parties to create development tools for the PS2, however there were a few companies such as SN Systems that created their own cheaper development kits that compete directly with Sony's.
@@ -52,3 +65,4 @@ One of the development kits that SN Systems created for the Playstation 2 was ta
 # References
 [^1]: [GIANT PlayStation 2 Development Tool! - YouTube](https://www.youtube.com/watch?v=hYjcwZA3XWs)
 [^2]: [Ebay Find: Playstation 2 TOOL (Dev Kit) - YouTube](https://www.youtube.com/watch?time_continue=896&v=G2ep1X_BS-Q&feature=emb_logo)
+[^3]: [Playstation 2 Prototype, Debug & Sample Hardware](http://thevideogameproject.com/ps2hard.html)
