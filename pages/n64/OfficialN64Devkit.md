@@ -7,6 +7,9 @@ tags:
 title: Official Nintendo 64 (Ultra 64) Development Kit Hardware
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
+  - title: Ultra64 Development Hardware & Prototype Ultra64 Controller
+    image: http://img.youtube.com/vi/RvC6IyZ7COA/hqdefault.jpg
+    youtube: RvC6IyZ7COA
   - title: Partner N64
     image: http://img.youtube.com/vi/d5YO2XMBvvk/hqdefault.jpg
     youtube: d5YO2XMBvvk
