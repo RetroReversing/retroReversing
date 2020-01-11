@@ -29,6 +29,7 @@ videocarousel:
   - title: Lazy Overview PSP development system DTP H1500
     image: https://img.youtube.com/vi/0Vph-DeosFE/maxresdefault.jpg
     youtube: '0Vph-DeosFE'
+updatedAt: 11th January 2020
 ---
 
 # Official PSP Development Kit hardware
@@ -62,6 +63,6 @@ Since the development TOOL doesn't have a hard drive and I can't find any refere
 A PSP SDK has never been leaked probably because it was just a download that most people would do and then throw away, much easier to loose than a physical CD like previous Sony SDKs.
 
 # References
-[^1]: http://develop.scee.net/files/presentations/acgirussia/Hardware_Overview_ACGI_09.pdf
-[^2]: [(110) What's Inside? - Sony PSP Development Controller - DTP-H110 - YouTube](https://www.youtube.com/watch?v=P_ajF24sfGc)
-[^3]: [[HELP][PSP DEVKIT] Hooking up DTP-H1500 to computer | ASSEMbler - Home of the obscure](https://assemblergames.com/threads/help-psp-devkit-hooking-up-dtp-h1500-to-computer.66933/)
+[^1]: [SCEE Hardware Overview](http://develop.scee.net/files/presentations/acgirussia/Hardware_Overview_ACGI_09.pdf)
+[^2]: [What's Inside? - Sony PSP Development Controller - DTP-H110 - YouTube](https://www.youtube.com/watch?v=P_ajF24sfGc)
+[^3]: [Hooking up DTP-H1500 to computer](https://assemblergames.com/threads/help-psp-devkit-hooking-up-dtp-h1500-to-computer.66933/)
