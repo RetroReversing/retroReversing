@@ -6,6 +6,8 @@ tags:
 - games
 title: PS2 Demos with Debug Symbols
 thumbnail: /public/consoles/Sony PlayStation 2.png
+image: https://www.retroreversing.com/public/images/ps2/PS2 Demos with Debug Symbols.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Demos with Debug Symbols.jpg
 permalink: /ps2-demos/
 breadcrumbs:
   - name: Home
