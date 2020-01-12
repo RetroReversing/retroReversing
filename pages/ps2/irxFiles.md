@@ -5,7 +5,8 @@ tags:
 - sdk
 title: IRX Files for Playstation 2
 thumbnail: /public/consoles/Sony PlayStation 2.png
-image: /public/consoles/Sony PlayStation 2.png
+image: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
 permalink: /irx-ps2
 breadcrumbs:
   - name: Home
@@ -15,7 +16,9 @@ breadcrumbs:
   - name: IRX Files for Playstation 2
     url: #
 editlink: /ps2/irxFiles.md
-recommend: ps2
+recommend: 
+- ps2
+- sdk
 ---
 
 IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. 
