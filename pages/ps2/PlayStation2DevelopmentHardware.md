@@ -151,7 +151,7 @@ This attempt failed to convince the courts in Europe that the console should be 
 [^4]: [PS2 - PlayStation 2 TOOL DTL-T10000/DTL-T15000 Reliability](https://www.obscuregamers.com/threads/playstation-2-tool-dtl-t10000-dtl-t15000-reliability.376/)
 [^5]: [EB-2000 prototype PS2 development system](https://web.archive.org/web/20141106125327/http://www.assemblergames.com/forums/showthread.php?10802-EB-2000-prototype-PS2-development-system)
 [^6]: [Index of /ps2](http://lorezan.free.fr/ps2/?M=A)
-[^7]: [Playstation 2 DTL-T14000 Tool CD/DVD-ROM Emulator By Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096224897)
+[^7]: [Playstation 2 DTL-T14000 Tool CD/DVD-ROM Emulator By Nicholas Cottrill on Flickr](https://www.flickr.com/photos/icarusnick/6096224897)
 [^8]: [DVD Emulator (DTL-T14000) for PlayStation®2](https://web.archive.org/web/20040829081814/http://www.snsys.com/PlayStation2/dvdemu.htm)
 [^9]: [Official Playstation 2 Linux Kit Installation and Demo - YouTube](https://www.youtube.com/watch?v=rWmJ0RH_Feo)
 [^10]: [How/Why Sony Classed the PlayStation 2 as a Home Computer - Demo of Yabasic - YouTube](https://www.youtube.com/watch?v=ZnXpzczPc38)
