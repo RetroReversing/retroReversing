@@ -4,15 +4,17 @@ tags:
 - ps2
 - symbols
 - games
-title: PS2 UnStripped Binaries (Developer Symbols)
+title: PS2 Games with Debug Symbols (UnStripped Binaries)
 thumbnail: /public/consoles/Sony PlayStation 2.png
+image: https://www.retroreversing.com/public/images/ps2/PS2 Games with Debug Symbols.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Games with Debug Symbols.jpg
 permalink: /ps2-unstripped/
 breadcrumbs:
   - name: Home
     url: /
   - name: Ps2
     url: /ps2
-  - name: PS2 UnStripped Binaries (Developer Symbols)
+  - name: PS2 Games with UnStripped Binaries (Developer Symbols)
     url: #
 recommend: symbols
 editlink: /ps2/Ps2UnstrippedBinaries.md
