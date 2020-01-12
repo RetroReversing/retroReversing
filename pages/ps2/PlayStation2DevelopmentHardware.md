@@ -1,3 +1,5 @@
+PS2 Development kit hardware
+
 ---
 layout: post
 tags: 
@@ -6,7 +8,7 @@ tags:
 - devkit
 title: Sony PlayStation 2 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation 2.png
-image: https://img.youtube.com/vi/shr7kbAiyhs/hqdefault.jpg
+image: https://img.youtube.com/vi/hYjcwZA3XWs/hqdefault.jpg
 permalink: /playstation-2-development-hardware
 breadcrumbs:
   - name: Home
