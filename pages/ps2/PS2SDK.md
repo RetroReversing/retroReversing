@@ -6,6 +6,8 @@ tags:
 - sdk
 title: PS2 Official Software Development Kit (SDK)
 thumbnail: /public/consoles/Sony PlayStation 2.png
+image: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
 permalink: /ps2-official-sdk/
 breadcrumbs:
   - name: Home
@@ -23,7 +25,8 @@ references:
 ## PS2 Official Software development Kit by Sony
 
 Last known version: **3.1.0** [^1]
-First version: **0.3.0** [^2]
+
+First known version: **0.3.0** [^2]
 
 Updates were provided to licenced playstation developers on ps2-pro.com, where the update contained just the files that have changed and could be dropped in place to overwrite the previous versions.
 
