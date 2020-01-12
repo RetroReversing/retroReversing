@@ -5,8 +5,8 @@ tags:
 - sdk
 title: Static Libraries (.A) for Playstation 2 Emotion Engine
 thumbnail: /public/consoles/Sony PlayStation 2.png
-image: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
-twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
+image: https://www.retroreversing.com/public/images/ps2/PS2 Emotion Engine Static Libraries.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Emotion Engine Static Libraries.jpg
 permalink: /static-libraries-ps2
 breadcrumbs:
   - name: Home
@@ -15,7 +15,9 @@ breadcrumbs:
     url: /ps2
   - name: Static Libraries (.A) for Playstation 2 Emotion Engine
     url: #
-recommend: ps2
+recommend: 
+- ps2
+- sdk
 editlink: /ps2/EEStaticLibraries.md
 ---
 This post will cover the programming libraries that were provided by the Official PS2 SDK for the Emotion Engine (the main processor for the PS2).
