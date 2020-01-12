@@ -6,7 +6,7 @@ tags:
 - devkit
 title: Sony PlayStation 2 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation 2.png
-image: https://img.youtube.com/vi/shr7kbAiyhs/maxresdefault.jpg
+image: https://img.youtube.com/vi/shr7kbAiyhs/hqdefault.jpg
 permalink: /playstation-2-development-hardware
 breadcrumbs:
   - name: Home
@@ -21,10 +21,10 @@ recommend:
 editlink: /ps2/PlayStation2DevelopmentHardware.md
 videocarousel:
   - title: GIANT PlayStation 2 Development Tool!
-    image: https://img.youtube.com/vi/hYjcwZA3XWs/maxresdefault.jpg
+    image: https://img.youtube.com/vi/hYjcwZA3XWs/hqdefault.jpg
     youtube: 'hYjcwZA3XWs'
   - title: Ebay Find Playstation 2 TOOL (Dev Kit)
-    image: https://img.youtube.com/vi/G2ep1X_BS-Q/maxresdefault.jpg
+    image: https://img.youtube.com/vi/G2ep1X_BS-Q/hqdefault.jpg
     youtube: 'G2ep1X_BS-Q'
 updatedAt: 11th January 2020
 ---
@@ -77,7 +77,7 @@ Currently no video exists of the Performance Analyzer running, but if someone ha
    <img src="/public/images/ps2/Playstation 2 DTL-T14000 Tool CDDVD-ROM Emulator.jpg" class="wow slideInLeft postImage" />
   
 <div markdown="1">
-The `DTL-T14000` hardware was not a full development kit in itself it was just an add-on for existing TOOL units that allowed developers to use a hard drive version of the game but it emulates the speed and disc access of a physical CD/DVD. This saves developers creating hundreds of CD/DVDs of their game when testing and gives more realistic load times compares to the hard drive.
+Developed by SN Systems the `DTL-T14000` hardware was not a full development kit in itself it was just an add-on for existing TOOL units that allowed developers to use a hard drive version of the game but it emulates the speed and disc access of a physical CD/DVD. This saves developers creating hundreds of CD/DVDs of their game when testing and gives more realistic load times compares to the hard drive [^8].
 
 The image on the left[^7] was taken by `Nicholas Cottrill` and uploaded to his excellent Flickr account available here: [Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/).
 </div>
@@ -106,13 +106,38 @@ To add networking capabilities you could purchase a `DTL-H10010 Development tool
 {% include link-to-other-site.html url="http://thevideogameproject.com/ps2hard.html" description="For more information on the Debugging station, The Video Game project has an excellent page on the subject" image="http://thevideogameproject.com/images/ps2hard13.jpg" title="PS2 Debugging Station - The Video Game Project"  %}
 
 ---
-# Third Party Development Kits
-Due to the complexity of the PS2 hardware it was not very common for third parties to create development tools for the PS2, however there were a few companies such as SN Systems that created their own cheaper development kits that compete directly with Sony's.
+# Consumer Development Kits
+Consumer development kits allow hobbies users to create software for the Playstation 2, technically Sony released two official products for this, one was the Yabasic development environment and the other was the much more capable Playstation 2 Linux development kit. 
 
-## SN Systems Network Development Kit
-One of the development kits that SN Systems created for the Playstation 2 was tailored for games that utilise the Network capabilities that were added towards the end of the PS2's lifetime.
+## Playstation 2 Linux
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/rWmJ0RH_Feo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+Sony officially released an official development kit for hobbyists similar to their `Net Yaroze` system they created for the original Playstation. 
 
-{% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2/" description="For more informations about the SN Systems Network Development kit for the PS2." %}
+The kit comes with:
+* PS2 Linux software
+* PS2 branded Mouse
+* PS2 branded keyboard
+* PS2 Harddrive adapter + Netwrok interface
+* PS2 to VGA adapter
+* Hard Drive
+
+They sold many of these to universities to tech `console` development, but we use the word console lightly as it was basically just Linux game programming as control of the PS2 hardware was severely limited [^9].
+</div>
+</section>
+
+## Yabasic
+<section class="postSection">
+  <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/ZnXpzczPc38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+Yabasic was released with every PAL Playstation 2 on the accompanying demo disc.
+
+It was offered as an attempt to clarify the Playstation 2 as a Home Computer in the European Union to avoid the game console tax which existed at the time [^10].
+
+This attempt failed to convince the courts in Europe that the console should be classified as a Home Computer.
+</div>
+</section>
 
 ---
 # References
@@ -123,3 +148,6 @@ One of the development kits that SN Systems created for the Playstation 2 was ta
 [^5]: [EB-2000 prototype PS2 development system](https://web.archive.org/web/20141106125327/http://www.assemblergames.com/forums/showthread.php?10802-EB-2000-prototype-PS2-development-system)
 [^6]: [Index of /ps2](http://lorezan.free.fr/ps2/?M=A)
 [^7]: [Playstation 2 DTL-T14000 Tool CD/DVD-ROM Emulator | Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096224897)
+[^8]: [DVD Emulator (DTL-T14000) for PlayStation®2](https://web.archive.org/web/20040829081814/http://www.snsys.com/PlayStation2/dvdemu.htm)
+[^9]: [Official Playstation 2 Linux Kit Installation and Demo - YouTube](https://www.youtube.com/watch?v=rWmJ0RH_Feo)
+[^10]: [How/Why Sony Classed the PlayStation 2 as a Home Computer - Demo of Yabasic - YouTube](https://www.youtube.com/watch?v=ZnXpzczPc38)
