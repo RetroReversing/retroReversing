@@ -37,7 +37,8 @@ Sega Mega Drive | [The SPROBE Megadrive development system (Unofficial)](https:/
 Sega Saturn | [Cross Products Sega Saturn Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-sega-saturn/) <br /> [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/) <br /> [Official Sega Saturn Development Kit](https://www.retroreversing.com/sega-saturn-programming-box/)
 Sony Playstation Portable | [Official PlayStation Portable Development Kit](https://www.retroreversing.com/official-psp-devkit)
 Sony Playstation 1 | [Official PlayStation 1 Development Kit](https://www.retroreversing.com/official-playStation-devkit) <br /> [Net Yaroze - The PS1 Consumer Dev Kit](https://www.retroreversing.com/net-yaroze)
-Sony Playstation 3 | [Official PlayStation 3 Development Kit (Hardware) · RetroReversing](https://www.retroreversing.com/official-playStation3-devkit)
+Sony Playstation 2 | [Sony PlayStation 2 Development Kit (Hardware)](https://www.retroreversing.com/playstation-2-development-hardware)
+Sony Playstation 3 | [Official PlayStation 3 Development Kit (Hardware)](https://www.retroreversing.com/official-playStation3-devkit)
 
 ---
 # All Posts about Development Kits
