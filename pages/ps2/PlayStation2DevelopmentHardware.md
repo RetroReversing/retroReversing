@@ -1,5 +1,3 @@
-PS2 Development kit hardware
-
 ---
 layout: post
 tags: 
