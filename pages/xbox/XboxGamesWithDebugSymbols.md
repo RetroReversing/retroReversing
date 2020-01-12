@@ -73,6 +73,7 @@ They can be a great place to start a game mod or simply to make the game easier/
 
 Games that use scripting:
 * Land of the Dead (Unreal Engine)
+* Midtown Madness 3
 * Pariah
 * Pirates of the Caribbean
 
