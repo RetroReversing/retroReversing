@@ -30,6 +30,9 @@ updatedAt: 11th January 2020
 ---
 This post covers the hardware used to develop Playstation 2 games by major studios back in the day, for the software side see the post on the Official PS2 SDK.
 
+{% include link-to-other-post.html post="/ps2-official-sdk/" description="For the software side of the PS2 Development Kit check out this post." %}
+
+
 # Official Development Kit
 The official development kit created by Sony was by far the most widley used by game studios for development, however Sony sold a few different devices tailored for different purposes such as programming or QA.
 
@@ -144,10 +147,10 @@ This attempt failed to convince the courts in Europe that the console should be 
 [^1]: [GIANT PlayStation 2 Development Tool! - YouTube](https://www.youtube.com/watch?v=hYjcwZA3XWs)
 [^2]: [Ebay Find: Playstation 2 TOOL (Dev Kit) - YouTube](https://www.youtube.com/watch?time_continue=896&v=G2ep1X_BS-Q&feature=emb_logo)
 [^3]: [Playstation 2 Prototype, Debug & Sample Hardware](http://thevideogameproject.com/ps2hard.html)
-[^4]: [PS2 - PlayStation 2 TOOL DTL-T10000/DTL-T15000 Reliability | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/playstation-2-tool-dtl-t10000-dtl-t15000-reliability.376/)
+[^4]: [PS2 - PlayStation 2 TOOL DTL-T10000/DTL-T15000 Reliability](https://www.obscuregamers.com/threads/playstation-2-tool-dtl-t10000-dtl-t15000-reliability.376/)
 [^5]: [EB-2000 prototype PS2 development system](https://web.archive.org/web/20141106125327/http://www.assemblergames.com/forums/showthread.php?10802-EB-2000-prototype-PS2-development-system)
 [^6]: [Index of /ps2](http://lorezan.free.fr/ps2/?M=A)
-[^7]: [Playstation 2 DTL-T14000 Tool CD/DVD-ROM Emulator | Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096224897)
+[^7]: [Playstation 2 DTL-T14000 Tool CD/DVD-ROM Emulator By Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096224897)
 [^8]: [DVD Emulator (DTL-T14000) for PlayStation®2](https://web.archive.org/web/20040829081814/http://www.snsys.com/PlayStation2/dvdemu.htm)
 [^9]: [Official Playstation 2 Linux Kit Installation and Demo - YouTube](https://www.youtube.com/watch?v=rWmJ0RH_Feo)
 [^10]: [How/Why Sony Classed the PlayStation 2 as a Home Computer - Demo of Yabasic - YouTube](https://www.youtube.com/watch?v=ZnXpzczPc38)
