@@ -1,0 +1,154 @@
+---
+layout: post
+tags: 
+- snes
+- devkit
+- hardware
+title: SNES (Super Famicom) Development Kit Hardware
+thumbnail: /public/consoles/Super Nintendo Entertainment System.png
+image: /public/consoles/Super Nintendo Entertainment System.png
+twitterimage: https://www.retroreversing.com/public/consoles/Super Nintendo Entertainment System.png
+permalink: /super-famicom-snes-development-kit/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Super Nintendo Entertainment System
+    url: /snes
+  - name: SNES (Super Famicom) Development Kit Hardware
+    url: #
+recommend: 
+- devkit
+- nes
+editlink: /snes/SNESDevkitHardware.md
+redirect_from:
+  - /official-snes-devkit/
+---
+
+# Official Nintendo in-house development kit
+Unusually there are actually multiple development kits that could be seen as "official", one by Nintendo's Intelligent Systems company and the other by Ricoh who was the creator of the SNES CPU.
+
+## Intelligent Systems SHVC Development System
+<section class="postSection">
+<img src="/public/images/snes/Intelligent Systems SHVC Development System.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+Intelligent systems is often in charge of Nintendo's official development kit that get sold to game studios and the Super Famicom was no exception. There are a number of different versions of the development kit but they mainly contain the same hardware.
+
+There are multiple versions of the development kit:
+* IS-Sound (Sound development kit)
+* IS-Debugger (Programmers development kit)
+* IS-Character (Graphics development kit)
+* Emulator SE is the US version and has all 3 in once case [^11]
+
+The `IS-Debugger` is aimed at programmers and has functionality to inspect memory and VRAM, along with breakpoints and debugging symbols [^12].
+</div>
+</section>
+
+### Intelligent Systems Super Nintendo Emulator SE (US & EU)
+<section class="postSection">
+  <img src="/public/images/snes/Intelligent Systems Super Nintendo Emulator SE.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The `Super Nintendo Emulator SE` was made by Intelligent systems and sold by Nintendo to developers in both the US and Europe. It differs from the Japanese versions in that it is not split into three different units, all the functionality is in one single tower [^11].
+
+It contains a SCSI hard drive inside and was sold for at least 10k USD at time of launch [^14]
+
+According to Wikipedia `Square Soft` developed the game `Secret of Evermore` using at least two of these units [^13].
+
+</div>
+</section>
+
+## Ricoh SF BOX-II
+<section class="postSection">
+<div markdown="1">
+The SF-Box II was a development kit for the Super Nintendo made by `Ricoh` who were responsible for the SNES CPU chip `Ricoh 5A22` and had worked with Nintendo in the past on the Famicom Disc System (FDS) [^3].
+
+The SF-Box uses the standard SNES controller and AV cables and even has a cartridge slot on the top of the unit [^3]. On the back of the unit is 2 sets of DIP switches and power options for both the "Target" and the unit itself. There are 3 interface ports on the back, one that is known to connect to the `SA-1 Emulator`.
+
+On the inside it has 4 layers of PCBs including 4MB of SRAM and a few prototype Ricoh chips (not the production chips used in retail SNES), a ROHM video encoder and a `658c16` CPU [^3].
+
+It is unclear the relation between this and the Intelligent Systems kit, as Ricoh were the official manufacture of the CPU so this can be classed as an official development kit.
+
+There is the `Super Famicom Debugger` Manual on Archive.org which was provided with the SF Box-II and was written in September 1991 [^8].
+</div>
+</section>
+
+<blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">For a dev kit, this SF Box-II unit for the SFC that&#39;s on Yahoo Japan right now is charmingly quaint. Sources indicate that this bad boy used to cost a cool 2.5 million yen, which was still apparently cheaper than the Sony workstations devs apparently had to use at first. <a href="https://t.co/5TvPEW5HPD">pic.twitter.com/5TvPEW5HPD</a></p>&mdash; Tom James, The Daigo Umehara of Dating Sims (@iiotenki) <a href="https://twitter.com/iiotenki/status/954904703640379393?ref_src=twsrc%5Etfw">21 January 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### Ricoh SA-1 Emulator
+<section class="postSection">
+  <img src="/public/images/snes/Ricoh SA-1 Emulator.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The `SA-1 Emulator` was developed by `Ricoh` as an add-on to the SF-Box II, it connected to the Control bus on the back of the SF-Box. It adds support for the Super Accelerator 1 (SA1) processor that was located in the cartridges themselves.
+
+This would allow developers more CPU power for their games at the cost of a higher price to manufacture the game cartridges.
+
+The image on the left was taken by a user on ObscureGamers called `HI_RICKY` [^7].
+
+In a children's book titled "The Making of Dragon Quest VI" you can see an `SF BOX-II` on the desk of one of the Enix/Heartbeat programmers [^9]. So it was clearly widely used by game developers, just not sure if it was more or less common than the Intelligent Systems model.
+</div>
+</section>
+
+## Ricoh SF Box (Original)
+<section class="postSection">
+  <img src="/public/images/snes/Ricoh SF Box Original.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+Not much is known about the first version of the Ricoh SF Box, aside from a few screenshots from an old auction listing. It looks like a standard PC tower but has all the standard ports for Super Nintendo [^10]. 
+
+From the outside it looks like a tower version of the SF-Box-II but it is unclear what has changed on the inside.
+</div>
+</section>
+
+---
+# Third Party development kits
+Although Nintendo sold a very good development kit, many game studios still created their own hardware for development. They did this for various reasons such as cost and flexibility, the main in-house and commercial development kits that we know about will be described in this section.
+
+## Super Magicom
+<section class="postSection">
+    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/-nDu9Z6MUXA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+The Magicom was developed by `JSI Front FarEast` and `SN Software Ltd` in the UK (not to be confused with SN Systems) and allowed developers to. Burn a floppy disc with a ROM binary of their code and run on the retail system. It was also widely used for backing up cartridges and piracy, many of the ROMS available online were created using the Super Magicom.
+
+You could download code to the SNES Magicom via a parallel cable, allowing developers to send their code directly without needing to write a floppy. 
+
+The system was features in the UK Magazine `N-Force` issue 02 as a backup device and had the usual disclaimer about owning the games you are going to backup [^1].
+</div>
+</section>
+
+Plenty of developers such as Mike Dailly used the Magicom as a cheap development kit for the Super Nintendo:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You could download code to the SNES Magicoms via a parallel cable. Gave me a cheap ass devkit back in the early 90s with my Amiga! :) <a href="https://t.co/M6Yxslg8s6">https://t.co/M6Yxslg8s6</a></p>&mdash; Mike Dailly™ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (@mdf200) <a href="https://twitter.com/mdf200/status/890481867123773445?ref_src=twsrc%5Etfw">July 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Super_Magicom" description="The wiki known as `Video Game Development Devices` has compiled an excellent page with more details on the Super Magicom" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/8/8e/Smagicom.jpg/revision/latest?cb=20130422150458" title="Super Magicom"  %}
+
+## Argonaut RAMBoy/RAMBaby/FATBoy
+<section class="postSection">
+
+<img src="/public/images/snes/Argonaut RAMBoy.png" class="wow slideInLeft postImage" />
+<img src="/public/images/snes/Argonaut RAMBoy Internals.png" class="wow slideInLeft postImage" />
+ 
+<div markdown="1">
+The RAMBOY was an in-house development kit by Argonaut Software for producing Super Nintendo Games, very little is known about the system but a few pictures were released by an eBay user known as `simon_gba`.
+
+The RAMBOY was briefly mentioned in the September 1990 issues of ACE magazine in the UK. It was mentioned as part of the preview of the game Boy game `Eclipse` as the game's core was written on the RAMBOY for the SNES and translated to the Z80 for the Game Boy [^5].
+
+There was also a version known as `RAMBOY 5` which has a custom cartridge that plugged into a retail SNES and communicated to the developers PC through an interface [^6].
+</div>
+</section>
+
+---
+# References
+[^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
+[^2]: [SNES Development Hardware and Software | Super Famicom Development Wiki](https://wiki.superfamicom.org/snes-development-hardware-and-software)
+[^3]: [Shiggsy's Place](https://web.archive.org/web/20110726073425/http://shiggsy.gbadev.org/section.php?s=snes)
+[^4]: [N-Force - No 2 (1992-08)(Europress Impact)(GB)](https://archive.org/stream/N-Force_No_2_1992-08_Europress_Impact_GB#page/n6/mode/1up)
+[^5]: [ACE Issues Oct 1987-April 1992](https://archive.org/stream/ACE35Aug90/ACE/ACE36-Sep90#page/n11/mode/2up/search/ramboy)
+[^6]: [Argonaut RAMBOY 5 - SNES Development Hardware circa 1992 — GoCollect Forum](https://connect.gocollect.com/discussion/184683/argonaut-ramboy-5-snes-development-hardware-circa-1992)
+[^7]: [SNES - SF BOX-II with SA-1 EMULATOR | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sf-box-ii-with-sa-1-emulator.146/)
+[^8]: [SF Box-II](https://archive.org/details/sfbox2sfd)
+[^9]: [How Games are Made -- Page 2](http://www.chrismcovell.com/secret/weekly/How_Games_Are_Made_DQVI_2.html)
+[^10: [Nintendo Super Nes Snes Ricoh Sfbox Development Kit Dev Console](http://supernintendosnesvideogames.com/en/nintendo_super_nes_snes_ricoh_sfbox_development_kit_dev_console.php)
+[^11]: [SNES - SFC/SNES Development Manual and Software source | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sfc-snes-development-manual-and-software-source.907/)
+[^12]: [SHVC IS-DEBUGGER is alive | ASSEMbler Games Archive](https://www.assembler-games.com/threads/shvc-is-debugger-is-alive.61987/)
+[^13]: [Super NES Emulator SE - Wikipedia](https://en.wikipedia.org/wiki/Super_NES_Emulator_SE)
