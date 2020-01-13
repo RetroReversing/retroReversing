@@ -124,10 +124,8 @@ Plenty of developers such as Mike Dailly used the Magicom as a cheap development
 
 ## Argonaut RAMBoy/RAMBaby/FATBoy
 <section class="postSection">
-
-<img src="/public/images/snes/Argonaut RAMBoy.png" class="wow slideInLeft postImage" />
-<img src="/public/images/snes/Argonaut RAMBoy Internals.png" class="wow slideInLeft postImage" />
- 
+  <img src="/public/images/snes/Argonaut RAMBoy.png" class="wow slideInLeft postImage" />
+  <img src="/public/images/snes/Argonaut RAMBoy Internals.png" class="wow slideInLeft postImage" />
 <div markdown="1">
 The RAMBOY was an in-house development kit by Argonaut Software for producing Super Nintendo Games, very little is known about the system but a few pictures were released by an eBay user known as `simon_gba`.
 
@@ -137,6 +135,45 @@ There was also a version known as `RAMBOY 5` which has a custom cartridge that p
 </div>
 </section>
 
+## Accolade SNES Development System
+<section class="postSection">
+  <img src="/public/images/snes/Accolade SNES Dev System.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+Accolade built their own development kit for Super Nintendo development which consisted of a retail SNES with a custom cartridge.
+
+The custom cartridge shown on the left used static RAM for the game that was being executed and an EPROM chip with development software that could monitor and debug the game.
+
+In order to send a game to the cartridge there was a parallel port that connected to a developers PC, the PC could then send debugging commands to the cartridge to add breakpoints etc [^14].
+</div>
+</section>
+
+## Sluggo Development system
+<section class="postSection">
+  <img src="/public/images/snes/sluggo 3 Memory emulator.jpg" class="wow slideInLeft postImage" />
+  <img src="/public/images/snes/sluggo 3 snes cartridge.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Sluggo development system was a custom in-house development tool created by `Rebecca Heineman` and her partner while working at Interplay. 
+
+The two images on the left are from the `Atari Compendium` and show the main development kit (memory emulator) and a custom SNES cartridge that could be connected to an IBM-PC or even an Apple II GS to execute code on the Super Nintendo (and other consoles) [^15]. 
+
+It was also sold to other developers for $895 for a single ROM system and $1295 for a dual, where the dual would be used to simulate 2 ROMs which was needed for consoles like the NES [^15].
+
+The Sluggo could support different console by having a separate `personality module` (custom cartridge) that plugs into the standard console cartridge slot [^17].
+
+Consoles supported:
+* Mega Drive (Genesis)
+* Atari Lynx
+* NES (Famicom)
+* Turbo Grafix 16
+* Commodore 64
+
+Games that were developed using the Sluggo:
+* RPM Racing [^16]
+</div>
+</section>
+
+{% include link-to-other-site.html url="https://wiki.superfamicom.org/sluggo-iii" description="For more information and an excellent interview with the author check out this page on the super famicom wiki" image="https://wiki.superfamicom.org/uploads/sluggo-3.jpg" title="Sluggo III"  %}
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
@@ -145,10 +182,14 @@ There was also a version known as `RAMBOY 5` which has a custom cartridge that p
 [^4]: [N-Force - No 2 (1992-08)(Europress Impact)(GB)](https://archive.org/stream/N-Force_No_2_1992-08_Europress_Impact_GB#page/n6/mode/1up)
 [^5]: [ACE Issues Oct 1987-April 1992](https://archive.org/stream/ACE35Aug90/ACE/ACE36-Sep90#page/n11/mode/2up/search/ramboy)
 [^6]: [Argonaut RAMBOY 5 - SNES Development Hardware circa 1992 — GoCollect Forum](https://connect.gocollect.com/discussion/184683/argonaut-ramboy-5-snes-development-hardware-circa-1992)
-[^7]: [SNES - SF BOX-II with SA-1 EMULATOR | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sf-box-ii-with-sa-1-emulator.146/)
+[^7]: [SNES - SF BOX-II with SA-1 EMULATOR - ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sf-box-ii-with-sa-1-emulator.146/)
 [^8]: [SF Box-II](https://archive.org/details/sfbox2sfd)
 [^9]: [How Games are Made -- Page 2](http://www.chrismcovell.com/secret/weekly/How_Games_Are_Made_DQVI_2.html)
-[^10: [Nintendo Super Nes Snes Ricoh Sfbox Development Kit Dev Console](http://supernintendosnesvideogames.com/en/nintendo_super_nes_snes_ricoh_sfbox_development_kit_dev_console.php)
-[^11]: [SNES - SFC/SNES Development Manual and Software source | ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sfc-snes-development-manual-and-software-source.907/)
-[^12]: [SHVC IS-DEBUGGER is alive | ASSEMbler Games Archive](https://www.assembler-games.com/threads/shvc-is-debugger-is-alive.61987/)
+[^10]: [Nintendo Super Nes Snes Ricoh Sfbox Development Kit Dev Console](http://supernintendosnesvideogames.com/en/nintendo_super_nes_snes_ricoh_sfbox_development_kit_dev_console.php)
+[^11]: [SNES - SFC/SNES Development Manual and Software source - ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sfc-snes-development-manual-and-software-source.907/)
+[^12]: [SHVC IS-DEBUGGER is alive - ASSEMbler Games Archive](https://www.assembler-games.com/threads/shvc-is-debugger-is-alive.61987/)
 [^13]: [Super NES Emulator SE - Wikipedia](https://en.wikipedia.org/wiki/Super_NES_Emulator_SE)
+[^14]: [Russell Borogove on Twitter](https://twitter.com/mister_borogove/status/1122915184014585857)
+[^15]: [Sluggo III - Super Famicom Development Wiki](https://wiki.superfamicom.org/sluggo-iii)
+[^16]: [RPM Racing - Wikipedia](https://en.wikipedia.org/wiki/RPM_Racing)
+[^17]: [Atari Compendium](http://www.ataricompendium.com/archives/interviews/rebecca_heineman/interview_rebecca_heineman.html)
