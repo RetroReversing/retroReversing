@@ -144,6 +144,10 @@ Accolade built their own development kit for Super Nintendo development which co
 The custom cartridge shown on the left used static RAM for the game that was being executed and an EPROM chip with development software that could monitor and debug the game.
 
 In order to send a game to the cartridge there was a parallel port that connected to a developers PC, the PC could then send debugging commands to the cartridge to add breakpoints etc [^14].
+
+What is interesting is that it looks like it used the `SNASM PC-connection card` from the SN Systems development kit to talk to the PC, so it may just be a modified version of the SN Systems development kit [^18].
+
+There was originally more photos on the site `Nintendo-Town.fr` but unfortunately the Wayback machine didn't save them, you can see the post with the missing photos here: [Accolade - the archeoDEV lair](http://web.archive.org/web/20130622225603/http://www.nintendo-town.fr/mod2/?tag=accolade).
 </div>
 </section>
 
@@ -174,6 +178,14 @@ Games that were developed using the Sluggo:
 
 {% include link-to-other-site.html url="https://wiki.superfamicom.org/sluggo-iii" description="For more information and an excellent interview with the author check out this page on the super famicom wiki" image="https://wiki.superfamicom.org/uploads/sluggo-3.jpg" title="Sluggo III"  %}
 
+## Rare Ltd
+<section class="postSection">
+  <img src="/public/images/snes/Rare SNES Development kit 1995.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Super Nintendo development kit created by Rare was a custom cartridge which presumably contained SRAM that gets populated by the game ROM when connected to a developers PC. Very little is known about this development kit but it would be great to know the features this supported and which games were developed using it (Donkey Kong Country?) .
+</div>
+</section>
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
@@ -193,3 +205,4 @@ Games that were developed using the Sluggo:
 [^15]: [Sluggo III - Super Famicom Development Wiki](https://wiki.superfamicom.org/sluggo-iii)
 [^16]: [RPM Racing - Wikipedia](https://en.wikipedia.org/wiki/RPM_Racing)
 [^17]: [Atari Compendium](http://www.ataricompendium.com/archives/interviews/rebecca_heineman/interview_rebecca_heineman.html)
+[^18]: [Accolade - the archeoDEV lair](http://web.archive.org/web/20130622225603/http://www.nintendo-town.fr/mod2/?tag=accolade)
