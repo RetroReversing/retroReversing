@@ -6,8 +6,8 @@ tags:
 - hardware
 title: SNES (Super Famicom) Development Kit Hardware
 thumbnail: /public/consoles/Super Nintendo Entertainment System.png
-image: /public/consoles/Super Nintendo Entertainment System.png
-twitterimage: https://www.retroreversing.com/public/consoles/Super Nintendo Entertainment System.png
+image: /public/images/snes/Super Nintendo Development Kit Hardware.jpg
+twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo Development Kit Hardware.jpg
 permalink: /super-famicom-snes-development-kit/
 breadcrumbs:
   - name: Home
@@ -186,6 +186,58 @@ The Super Nintendo development kit created by Rare was a custom cartridge which 
 </div>
 </section>
 
+## PUNK Development Kit
+The "PUNK" development kit was only used in-house at the company called `PUNK Development` who made games for RazorSoft. It was a cheaper alternative to the official Nintendo kit and developed by John R. Carlsen and team in 1991 [^3].
+
+There was an image of the development kit on `Shiggsy's Place` but sadly the Wayback machine never archived it [^3].
+
+Kevin Seghetti and Scott Statton were part of the team that created the PUNK development kit for SNES and Mega Drive (Genesis) but later formed his own company called `Developer Resources` which also created development kits for the same consoles [^19].
+
+## SFX Development Kit
+The `SFX Development Kit` was created by `Software Creations` for in-house Super Nintendo game development instead of the official Nintendo devkits [^3].
+
+It is likely similar to how they made their NES development kits and was also created by `Mike Webb` by reverse engineering the early Super Famicom Hardware before it was released [^20].
+
+In an interview with the developers of Solstice 2 they mention developing the game in early 1991 on IBM computers with their own tools that simulated the functions of the Super Famicom [^20].
+
+In fact it was one of the first SNES games to start development outside of Japan [^21].
+
+Similar to the PUNK development kit there was an image of the development kit on `Shiggsy's Place` but sadly the Wayback machine never archived it [^3].
+
+
+##  PSY-Q Development System (Psygnosis & SN Systems)
+<section class="postSection">
+  <img src="/public/images/snes/Psy-Q-SNES-SDK-Software-Development-Kit-incl.-Manual-Hardware-Software.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The PSY-Q cross-platform development kit was built by a partnership between SN Systems and  Psygnosis [^2].
+
+The Super Nintendo version consisted of a PC Interface board, SNES Development Cartridge and SCSI cable for connecting the two together [^22].
+
+This development kit was used to create ground-breaking games for the Super Nintendo such as Toy Story [^22].
+</div>
+</section>
+
+### PSY-Q PC Interface Board
+
+<section class="postSection">
+  <img src="/public/images/snes/PSY-Q PC Interface Card.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+The PC interface card was standard across all of PSY-Q's development kits, on the left the image is from the 32X kit but it functions the same as the SNES card. 
+
+This was basically just used to allow the PC to interpret the results coming back from the SNES and also as an interface to send data such as ROMs or breakpoint information to the SNES cartridge.
+</div>
+</section>
+
+### PSY-Q Development Cartridge
+<section class="postSection">
+  <img src="/public/images/snes/SNES PSYQ Advert.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Development Cartridge slotted into the standard Super Nintendo Cartridge slot and connected to the PC via SCSI cable. This allows the game developer to send new game builds straight to the SNES from their PC and also contained functionality for debugging such as breakpoints, C source code lines support and tracing.
+
+You have to slot a retail game cartridge in the back in order to pass the SNES region check and it also uses the SRAM and other chips located on the board.
+</div>
+</section>
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
@@ -206,3 +258,7 @@ The Super Nintendo development kit created by Rare was a custom cartridge which 
 [^16]: [RPM Racing - Wikipedia](https://en.wikipedia.org/wiki/RPM_Racing)
 [^17]: [Atari Compendium](http://www.ataricompendium.com/archives/interviews/rebecca_heineman/interview_rebecca_heineman.html)
 [^18]: [Accolade - the archeoDEV lair](http://web.archive.org/web/20130622225603/http://www.nintendo-town.fr/mod2/?tag=accolade)
+[^19]: [Interview:Kevin Seghetti - GDRI :: Game Developer Research Institute](http://gdri.smspower.org/wiki/index.php/Interview:Kevin_Seghetti)
+[^20]: [Making of Solstice 2: Equinox](http://www.chrismcovell.com/secret/sp_Solstice2int.html)
+[^21]: [Solstice 2](http://www.zee-3.com/pickfordbros/softography/index.php?game=45)
+[^22]: [Psy-Q SNES SDK (Software Development Kit) incl. Manual, Hardware & Software - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2013/06/10/psy-q-snes-sdk-software-development-kit-incl-manual-hardware-software/)
