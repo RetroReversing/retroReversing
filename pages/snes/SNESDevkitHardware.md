@@ -4,6 +4,8 @@ tags:
 - snes
 - devkit
 - hardware
+- crossproducts
+- snsystems
 title: SNES (Super Famicom) Development Kit Hardware
 thumbnail: /public/consoles/Super Nintendo Entertainment System.png
 image: /public/images/snes/Super Nintendo Development Kit Hardware.jpg
@@ -18,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: 
 - devkit
-- nes
+- snes
 editlink: /snes/SNESDevkitHardware.md
 redirect_from:
   - /official-snes-devkit/
@@ -156,7 +158,7 @@ There was originally more photos on the site `Nintendo-Town.fr` but unfortunatel
   <img src="/public/images/snes/sluggo 3 Memory emulator.jpg" class="wow slideInLeft postImage" />
   <img src="/public/images/snes/sluggo 3 snes cartridge.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Sluggo development system was a custom in-house development tool created by `Rebecca Heineman` and her partner while working at Interplay. 
+The Sluggo development system was a custom in-house development tool created by `Rebecca Heineman` and her partner while working at Interplay. The development kit was created because Interplay couldn't afford the official SNES devkit but managed to get Nintendo to send over the hardware documentation in Japanese [^23].
 
 The two images on the left are from the `Atari Compendium` and show the main development kit (memory emulator) and a custom SNES cartridge that could be connected to an IBM-PC or even an Apple II GS to execute code on the Super Nintendo (and other consoles) [^15]. 
 
@@ -173,6 +175,7 @@ Consoles supported:
 
 Games that were developed using the Sluggo:
 * RPM Racing [^16]
+* Out of this world (Another World) [^23]
 </div>
 </section>
 
@@ -238,10 +241,17 @@ You have to slot a retail game cartridge in the back in order to pass the SNES r
 </div>
 </section>
 
+##  SNASM2 by Cross Products
+SNASM was a third party development kit created by Cross Products which supported multiple consoles including the Super Nintendo. The Super Nintendo version cost £2,000 in May 1995 according to the official price List archived by `SegaRetro` [^24].
+
+Not much information exists about the Super Nintendo version of this development kit but the site `SegaRetro` has in-depth information about the Sega Mega Drive version of the devkit, so for more details check out their website.
+
+{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="For information about the Sega Mega Drive SNASM2 development kit check out Sega Retro" image="https://segaretro.org/images/a/af/SNASM68K_Console_Interface.jpg" title="Sega Mega Drive SNASM68K - Sega Retro"  %}
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
-[^2]: [SNES Development Hardware and Software | Super Famicom Development Wiki](https://wiki.superfamicom.org/snes-development-hardware-and-software)
+[^2]: [SNES Development Hardware and Software - Super Famicom Development Wiki](https://wiki.superfamicom.org/snes-development-hardware-and-software)
 [^3]: [Shiggsy's Place](https://web.archive.org/web/20110726073425/http://shiggsy.gbadev.org/section.php?s=snes)
 [^4]: [N-Force - No 2 (1992-08)(Europress Impact)(GB)](https://archive.org/stream/N-Force_No_2_1992-08_Europress_Impact_GB#page/n6/mode/1up)
 [^5]: [ACE Issues Oct 1987-April 1992](https://archive.org/stream/ACE35Aug90/ACE/ACE36-Sep90#page/n11/mode/2up/search/ramboy)
@@ -262,3 +272,5 @@ You have to slot a retail game cartridge in the back in order to pass the SNES r
 [^20]: [Making of Solstice 2: Equinox](http://www.chrismcovell.com/secret/sp_Solstice2int.html)
 [^21]: [Solstice 2](http://www.zee-3.com/pickfordbros/softography/index.php?game=45)
 [^22]: [Psy-Q SNES SDK (Software Development Kit) incl. Manual, Hardware & Software - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2013/06/10/psy-q-snes-sdk-software-development-kit-incl-manual-hardware-software/)
+[^23]: [The polygons of Another World](http://fabiensanglard.net/another_world_polygons_SNES/index.html)
+[^24]: [Cross Products UK Price List](https://segaretro.org/images/3/3c/Cross_Products_UK_Price_List_-_May_1995.pdf)
