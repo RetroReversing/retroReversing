@@ -103,6 +103,14 @@ From the outside it looks like a tower version of the SF-Box-II but it is unclea
 </div>
 </section>
 
+## 8 MB EPROM cartridge (SHVC-8PV5B-01)
+<section class="postSection">
+  <img src="/public/images/snes/8MB Super Famicom EPROM Cartridge SHVC-8PV5B-01.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+Nintendo also sold flashable cartridges with up to 8MB of EPROM that could be written to via EPROM writers and worked on retail Super Famicom consoles [^27].
+</div>
+</section>
+
 ---
 # Third Party development kits
 Although Nintendo sold a very good development kit, many game studios still created their own hardware for development. They did this for various reasons such as cost and flexibility, the main in-house and commercial development kits that we know about will be described in this section.
@@ -248,6 +256,27 @@ Not much information exists about the Super Nintendo version of this development
 
 {% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="For information about the Sega Mega Drive SNASM2 development kit check out Sega Retro" image="https://segaretro.org/images/a/af/SNASM68K_Console_Interface.jpg" title="Sega Mega Drive SNASM68K - Sega Retro"  %}
 
+## Factor 5 PEGASUS Snes Devkit
+<section class="postSection">
+  <img src="/public/images/snes/Pegasus SNES by Factor5 development kit.png" class="wow slideInLeft postImage" />
+<div markdown="1">
+The `PEGASUS` development kit was created ands used in-house at Factor-5 for their Super Nintendo games such as Super Turrican [^25].
+
+It consists of a custom cartridge and a modified Super Nintendo system which has an added `CSG 6520 CIA interface chip` (from C64/Amiga) along with DIP switches at the side of the unit. It connects to a developers PC with a standard Parallel cable and has a `PCMCIA Adapter` but it is unclear what that is for [^26].
+</div>
+</section>
+
+## Developer Resources Sega Genesis and Super Nintendo development tools
+`Developer Resources` was a company founded by former members of the company `Punk development` in order to focus on development tools for the Super Nintendo and Mega Drive. 
+
+They wanted to expand the development tools offered from the simple ROM emulator at PUNK to a full featured development environment including source level debugger, graphics tools and game libraries. 
+
+According to Will Norris's CV they has a custom SNES cartridge with a parallel port for downloading art assets to the super Nintendo, as soon as the developer hits the `PrintScrn` button the image shown up on the SNES very cool indeed! [^29].
+
+It is unknown who they sold these development kits to or even what the hardware looked like, but the developers did release some of the source code they work on to Sourceforge [^28].
+
+{% include link-to-other-site.html url="https://sourceforge.net/projects/drdevtools/" description="Check out the source code they released on SourceForge"  title="Developer Resources console dev tools download"  %}
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
@@ -274,3 +303,8 @@ Not much information exists about the Super Nintendo version of this development
 [^22]: [Psy-Q SNES SDK (Software Development Kit) incl. Manual, Hardware & Software - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2013/06/10/psy-q-snes-sdk-software-development-kit-incl-manual-hardware-software/)
 [^23]: [The polygons of Another World](http://fabiensanglard.net/another_world_polygons_SNES/index.html)
 [^24]: [Cross Products UK Price List](https://segaretro.org/images/3/3c/Cross_Products_UK_Price_List_-_May_1995.pdf)
+[^25]: [Factor 5 Pegasus SNES Super Nintendo Development Kit - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2011/07/10/factor-5-pegasus-snes-super-nintendo-development-kit/)
+[^26]: [dforce3000](http://www.dforce3000.de/index.php?p=fdsingle&uid=488)
+[^27]: [SNES 8 MB EPROM Cartridge](https://devkits.handheldmuseum.com/SNES_8MBEPROM.htm)
+[^28]: [Interview:Kevin Seghetti - GDRI :: Game Developer Research Institute](http://gdri.smspower.org/wiki/index.php/Interview:Kevin_Seghetti)
+[^29]: [Will Norris: C.V.](http://www.biohack.net/cv/)
