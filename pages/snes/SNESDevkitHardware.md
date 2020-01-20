@@ -106,6 +106,7 @@ From the outside it looks like a tower version of the SF-Box-II but it is unclea
 ## 8 MB EPROM cartridge (SHVC-8PV5B-01)
 <section class="postSection">
   <img src="/public/images/snes/8MB Super Famicom EPROM Cartridge SHVC-8PV5B-01.jpg" class="wow slideInLeft postImage" />
+  <img src="/public/images/snes/SNES TEST Board EPROM SHVC-2P3B-01.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 Nintendo also sold flashable cartridges with up to 8MB of EPROM that could be written to via EPROM writers and worked on retail Super Famicom consoles [^27].
 </div>
@@ -250,9 +251,18 @@ You have to slot a retail game cartridge in the back in order to pass the SNES r
 </section>
 
 ##  SNASM2 by Cross Products
-SNASM was a third party development kit created by Cross Products which supported multiple consoles including the Super Nintendo. The Super Nintendo version cost £2,000 in May 1995 according to the official price List archived by `SegaRetro` [^24].
+<section class="postSection">
+  <img src="/public/images/snes/Snasm658 SNES Development Kit.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+SNASM2 was a third party development kit created by Cross Products which supported multiple consoles including the Super Nintendo. 
+
+The Super Nintendo version was called the `SNASM658` and cost £2,000 in May 1995 according to the official price List archived by `SegaRetro` [^24].
 
 Not much information exists about the Super Nintendo version of this development kit but the site `SegaRetro` has in-depth information about the Sega Mega Drive version of the devkit, so for more details check out their website.
+
+The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^30]. 
+</div>
+</section>
 
 {% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="For information about the Sega Mega Drive SNASM2 development kit check out Sega Retro" image="https://segaretro.org/images/a/af/SNASM68K_Console_Interface.jpg" title="Sega Mega Drive SNASM68K - Sega Retro"  %}
 
@@ -260,7 +270,7 @@ Not much information exists about the Super Nintendo version of this development
 <section class="postSection">
   <img src="/public/images/snes/Pegasus SNES by Factor5 development kit.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-The `PEGASUS` development kit was created ands used in-house at Factor-5 for their Super Nintendo games such as Super Turrican [^25].
+The `PEGASUS` development kit was created and used in-house at Factor-5 for their Super Nintendo games such as Super Turrican [^25].
 
 It consists of a custom cartridge and a modified Super Nintendo system which has an added `CSG 6520 CIA interface chip` (from C64/Amiga) along with DIP switches at the side of the unit. It connects to a developers PC with a standard Parallel cable and has a `PCMCIA Adapter` but it is unclear what that is for [^26].
 </div>
@@ -276,6 +286,18 @@ According to Will Norris's CV they has a custom SNES cartridge with a parallel p
 It is unknown who they sold these development kits to or even what the hardware looked like, but the developers did release some of the source code they work on to Sourceforge [^28].
 
 {% include link-to-other-site.html url="https://sourceforge.net/projects/drdevtools/" description="Check out the source code they released on SourceForge"  title="Developer Resources console dev tools download"  %}
+
+## Rhotech Labs Romulator
+<section class="postSection">
+  <img src="/public/images/snes/Rhotech Labs Romulator.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The `ROMulator` development kit was a third party development kit sold online by `Rhotech Labs` for both Super Nintendo and Mega Drive development [^31].
+
+The development kit was prices at $225 for the Main board and one of either a SNES or Genesis Cartridge  along with all the software and cables required for use [^31].
+
+The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^30]. 
+</div>
+</section>
 
 ---
 # References
@@ -308,3 +330,5 @@ It is unknown who they sold these development kits to or even what the hardware 
 [^27]: [SNES 8 MB EPROM Cartridge](https://devkits.handheldmuseum.com/SNES_8MBEPROM.htm)
 [^28]: [Interview:Kevin Seghetti - GDRI :: Game Developer Research Institute](http://gdri.smspower.org/wiki/index.php/Interview:Kevin_Seghetti)
 [^29]: [Will Norris: C.V.](http://www.biohack.net/cv/)
+[^30]: [GlitchedHeart (@glitchedheart) / Twitter](https://twitter.com/glitchedheart)
+[^31]: [where can I get a Romulator and how much?](http://strangetextsbutcher.blogspot.com/2019/08/where-can-i-get-romulator-and-how-much.html)
