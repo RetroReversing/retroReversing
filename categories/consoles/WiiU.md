@@ -17,4 +17,8 @@ breadcrumbs:
     url: #
 ---
 
+# All Posts
+<div>
+
 {% include console.html %}
+</div>
