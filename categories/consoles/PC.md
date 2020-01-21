@@ -1,6 +1,10 @@
 ---
 permalink: /pc/
-layout: blog-cards
+layout: post
+title: IBM-PC & Compatibles
+recommend: pc
+recommendTitle: All PC Posts
+editlink: ../categories/consoles/PC.md
 console: 'pc'
 consoleimage: /public/consoles/Computer Old Design.png
 breadcrumbs:
@@ -11,6 +15,5 @@ breadcrumbs:
   - name: PC
     url: #
 ---
-<h1>{{ page.console }}</h1>
 
 {% include console.html %}
