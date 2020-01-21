@@ -1,8 +1,11 @@
 ---
 permalink: /ps2
-layout: blog-cards
+layout: post
+title: Sony Playstation 2
+recommend: ps2
+recommendTitle: All PS2 Posts
+editlink: ../categories/consoles/PS2.md
 console: 'ps2'
-title: 'Sony Playstation 2'
 consoleimage: /public/consoles/Sony PlayStation 2.png
 thumbnail: /public/consoles/Sony PlayStation 2.png
 breadcrumbs:
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Sony Playstation 2
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
