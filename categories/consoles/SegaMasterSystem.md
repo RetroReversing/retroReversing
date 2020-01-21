@@ -16,5 +16,8 @@ breadcrumbs:
   - name: Sega Master System
     url: #
 ---
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
