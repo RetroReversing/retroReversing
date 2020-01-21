@@ -1,8 +1,11 @@
 ---
 permalink: /gamecube/
-layout: blog-cards
+layout: post
+title: Nintendo Gamecube (Dolphin)
+recommend: gamecube
+recommendTitle: All GC Posts
+editlink: ../categories/consoles/Gamecube.md
 console: 'gamecube'
-title: 'Nintendo Gamecube (Dolphin)'
 consoleimage: /public/consoles/Nintendo Gamecube.png
 thumbnail: /public/consoles/Nintendo Gamecube.png
 breadcrumbs:
@@ -16,6 +19,5 @@ redirect_from:
   - /gc
   - /dolphin
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
