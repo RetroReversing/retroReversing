@@ -20,4 +20,8 @@ redirect_from:
   - /dc
 ---
 
+# All Posts
+<div>
+
 {% include console.html %}
+</div>
