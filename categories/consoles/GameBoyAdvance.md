@@ -16,4 +16,7 @@ breadcrumbs:
 
 # Nintendo Game Boy Advance Reverse Engineering
 
+<div>
+
 {% include console.html %}
+</div>
