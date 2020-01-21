@@ -23,7 +23,9 @@ carousel:
     link: /gameboy-hardware-autopsy
 ---
 
-<h1>Nintendo Game Boy Reverse Engineering</h1>
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
 
