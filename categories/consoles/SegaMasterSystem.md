@@ -1,8 +1,11 @@
 ---
 permalink: /sms/
-layout: blog-cards
+layout: post
+title: Sega Master System
+recommend: sms
+recommendTitle: All SMS Posts
+editlink: ../categories/consoles/SegaMasterSystem.md
 console: 'sms'
-title: 'Sega Master System'
 consoleimage: /public/consoles/Sega - Master System.png
 thumbnail: /public/consoles/Sega - Master System.png
 breadcrumbs:
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Sega Master System
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
