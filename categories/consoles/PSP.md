@@ -1,8 +1,11 @@
 ---
 permalink: /psp/
-layout: blog-cards
+layout: post
+title: Sony Playstation Portable (PSP)
+recommend: psp
+recommendTitle: All PSP Posts
+editlink: ../categories/consoles/PSP.md
 console: 'psp'
-title: 'Sony Playstation Portable'
 consoleimage: /public/consoles/Sony PSP.png
 thumbnail: /public/consoles/Sony PSP.png
 breadcrumbs:
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Sony Playstation Portable
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
