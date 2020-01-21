@@ -20,6 +20,8 @@ redirect_from:
   - /mega-drive
   - /genesis
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
