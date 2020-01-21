@@ -4,7 +4,7 @@ layout: post
 title: Nintendo Game Boy (DMG & GBC)
 recommend: gameboy
 recommendTitle: All GB Posts
-editlink: ../categories/consoles/gameboy.md
+editlink: ../categories/consoles/GameBoy.md
 console: gameboy
 consoleimage: /public/ZAgzBlXrARIEyn2KnTa4g_img_1.png
 breadcrumbs:
