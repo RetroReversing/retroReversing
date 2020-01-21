@@ -1,6 +1,9 @@
 ---
 permalink: /wiiU/
-layout: blog-cards
+layout: post
+recommend: wiiU
+recommendTitle: All WiiU Posts
+editlink: ../categories/consoles/WiiU.md
 console: 'wiiU'
 title: 'Nintendo WiiU'
 consoleimage: /public/consoles/Nintendo WiiU.png
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Nintendo WiiU
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
