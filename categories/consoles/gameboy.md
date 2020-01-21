@@ -1,6 +1,10 @@
 ---
 permalink: /gameboy/
-layout: blog-cards
+layout: post
+title: Nintendo Game Boy (DMG & GBC)
+recommend: gameboy
+recommendTitle: All GB Posts
+editlink: ../categories/consoles/gameboy.md
 console: gameboy
 consoleimage: /public/ZAgzBlXrARIEyn2KnTa4g_img_1.png
 breadcrumbs:
@@ -18,7 +22,8 @@ carousel:
     image: https://img.youtube.com/vi/RZUDEaLa5Nw/maxresdefault.jpg
     link: /gameboy-hardware-autopsy
 ---
-<h1>Nintendo GameBoy Reverse Engineering</h1>
+
+<h1>Nintendo Game Boy Reverse Engineering</h1>
 
 {% include console.html %}
 
