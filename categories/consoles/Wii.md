@@ -1,6 +1,9 @@
 ---
 permalink: /wii/
-layout: blog-cards
+layout: post
+recommend: wii
+recommendTitle: All Wii Posts
+editlink: ../categories/consoles/Wii.md
 console: 'wii'
 title: 'Nintendo Wii'
 consoleimage: /public/consoles/Nintendo Wii.png
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Nintendo Wii
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
