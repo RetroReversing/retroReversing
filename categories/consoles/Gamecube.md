@@ -19,5 +19,8 @@ redirect_from:
   - /gc
   - /dolphin
 ---
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
