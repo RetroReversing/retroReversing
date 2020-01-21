@@ -16,5 +16,8 @@ breadcrumbs:
   - name: Microsoft Xbox
     url: #
 ---
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
