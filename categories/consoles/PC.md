@@ -15,5 +15,8 @@ breadcrumbs:
   - name: PC
     url: #
 ---
+# All Posts
+<div>
 
 {% include console.html %}
+</div>
