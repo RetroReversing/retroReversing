@@ -1,8 +1,11 @@
 ---
 permalink: /xbox/
-layout: blog-cards
+layout: post
+title: Microsoft Xbox
+recommend: xbox
+recommendTitle: All Xbox Posts
+editlink: ../categories/consoles/Xbox.md
 console: 'xbox'
-title: 'Microsoft Xbox'
 consoleimage: /public/consoles/Microsoft Xbox.png
 thumbnail: /public/consoles/Microsoft Xbox.png
 breadcrumbs:
@@ -13,6 +16,5 @@ breadcrumbs:
   - name: Microsoft Xbox
     url: #
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
