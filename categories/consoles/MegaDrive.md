@@ -1,8 +1,11 @@
 ---
 permalink: /md/
-layout: blog-cards
+layout: post
+title: Sega Mega Drive (Genesis)
+recommend: md
+recommendTitle: All MD Posts
+editlink: ../categories/consoles/MegaDrive.md
 console: 'md'
-title: 'Sega Mega Drive (Genesis)'
 consoleimage: /public/consoles/Sega Megadrive.png
 thumbnail: /public/consoles/Sega Megadrive.png
 breadcrumbs:
