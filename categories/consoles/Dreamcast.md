@@ -1,8 +1,11 @@
 ---
 permalink: /dreamcast/
-layout: blog-cards
+layout: post
+title: Sega Dreamcast
+recommend: dreamcast
+recommendTitle: All Dreamcast Posts
+editlink: ../categories/consoles/Dreamcast.md
 console: 'dreamcast'
-title: 'Sega Dreamcast'
 consoleimage: /public/consoles/Sega Dreamcast.png
 thumbnail: /public/consoles/Sega Dreamcast.png
 breadcrumbs:
@@ -16,6 +19,5 @@ redirect_from:
   - /dreamcast
   - /dc
 ---
-<h1><img src="{{ page.thumbnail }}" /> <span>{{ page.title }}</span></h1>
 
 {% include console.html %}
