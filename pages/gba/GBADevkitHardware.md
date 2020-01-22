@@ -105,11 +105,53 @@ A surprisingly common method of development was to use unlicensed Flash cards wh
 
 Many retail games were developed using this very cheap method including big names such as `Hot Wheels Stunt Track Driver` and `Matchbox Emergency Patrol` [^1].
 
+## Sn Systems Pro-DG
+<section class="postSection">
+    <img src="/public/images/gba/ProDG GBA devkit photo by Nicholas Cottrill.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/gba/ProDG GBA photo by Nicholas Cottrill.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+SN Systems released their Pro-DG development kit for Game Boy Advance in March 2001 the same month that the retail GBA hit store shelves in Japan [^7].
+
+It cost £1,700 but the development kit is only sold to developers who are licensed by Nintendo so consumers could not buy these development kits [^8].
+
+According to the official product sheet the development kit consists of the following hardware:
+* Development GBA console
+* 32MB Cartridge emulator (custom cartridge)
+* SCSI card for connecting to the PC
+
+[View the official Pro-DG GBA product sheet on the Wayback Machine](http://web.archive.org/web/20040612123439/http://www.snsys.com/Products/ProductSheets/ProDGAGB-E-headed.pdf)
+
+Although the GBA is listed as a development version it seems to just be a retail console with a slight modification of the power source [^10].
+
+ProDG connects to the developers PC running Visual Studio through a SCSI cable that connects to the custom cartridge.
+
+The photos on the left are by Nicholas Cottrill who has an excellent Flickr account full of cool development kit photographs [^9]!
+
+</div>
+</section>
+
+## Unknown Development Kits
+<section class="postSection">
+    <img src="/public/images/gba/SN Systems Game Boy Cartridge.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+Although it says SN Systems on it, it was not available as part of their ProDG development kit and according to a post on `GoCollect` it wasn't actually made by SN Systems themselves [^11].
+
+Although it looks like a standard DMG cartridge it actually had a Game Boy Advance ROM on it.
+</div>
+</section>
+
 ---
 # References
 [^1]: [Writing a Game Boy Advance Game | Hacker News](https://news.ycombinator.com/item?id=10096634)
 [^2]: [Game Boy Advance Development Kit Revealed - IGN](https://uk.ign.com/articles/2000/08/22/game-boy-advance-development-kit-revealed)
 [^3]: [Nintendo Game Boy Advance Wide-Boy (for N64)](https://devkits.handheldmuseum.com/GBA_Wideboy.htm)
-[^4]: [Game Boy Advance TS Board | ASSEMbler Games Archive](https://www.assembler-games.com/threads/game-boy-advance-ts-board.61693/)
+[^4]: [Game Boy Advance TS Board - ASSEMbler Games Archive](https://www.assembler-games.com/threads/game-boy-advance-ts-board.61693/)
 [^5]: [Andrew Borman on Twitter: "People talk about the best ways to play Game Boy games. They talk about Super Game Boys, Game Boy Players (with or without mods), and even some development equipment like the Wideboy. But rarely does the IS-AGB-Capture come up. https://t.co/i4xJUycSaz" / Twitter](https://twitter.com/borman18/status/1056336154755297282)
 [^6]: [[research] Gen 3 Event Generation Algorithm Research (10ANNIV, etc) - Page 16 - ROM - GBA Research and Development - Project Pokemon Forums](https://projectpokemon.org/home/forums/topic/39517-gen-3-event-generation-algorithm-research-10anniv-etc/page/16/)
+[^7]: [Gamasutra - SN Systems Releases ProDG for GameCube and Game Boy Advance](https://www.gamasutra.com/view/news/243/blogs/rss/)
+[^8]: [GameBoy Advance Dev'rs - Hardware](https://www.devrs.com/gba/hardware.php)
+[^9]: [Prodg Gameboy Advance | Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
+[^10]: [Nintendo Game Boy Advance ProDG Development Kit](http://devkits.handheldmuseum.com/GBC-ProDG/index.htm)
+[^11]: [[Tech] GameBoy Dev Machine - GBA ROM DUMPED! — GoCollect Forum](https://connect.gocollect.com/discussion/31950/i-came-back-again-after-a-few-months-to-the-same)
