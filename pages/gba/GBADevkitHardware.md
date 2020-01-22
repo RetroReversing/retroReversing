@@ -152,6 +152,6 @@ Although it looks like a standard DMG cartridge it actually had a Game Boy Advan
 [^6]: [Project Pokemon Forums](https://projectpokemon.org/home/forums/topic/39517-gen-3-event-generation-algorithm-research-10anniv-etc/page/16/)
 [^7]: [Gamasutra - SN Systems Releases ProDG for GameCube and Game Boy Advance](https://www.gamasutra.com/view/news/243/blogs/rss/)
 [^8]: [GameBoy Advance Dev'rs - Hardware](https://www.devrs.com/gba/hardware.php)
-[^9]: [Prodg Gameboy Advance - Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
+[^9]: [Prodg Gameboy Advance - Nicholas Cottrill](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
 [^10]: [Nintendo Game Boy Advance ProDG Development Kit](http://devkits.handheldmuseum.com/GBC-ProDG/index.htm)
 [^11]: [GameBoy Dev Machine - GBA ROM DUMPED! - GoCollect Forum](https://connect.gocollect.com/discussion/31950/i-came-back-again-after-a-few-months-to-the-same)
