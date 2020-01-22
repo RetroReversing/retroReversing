@@ -26,9 +26,11 @@ We have tried to document all the development kit hardware available for the mos
 
 Console | Development Hardware
 ---|---
-Nintendo Entertainment System | [NES Development Kit Hardware](https://www.retroreversing.com/official-nes-devkit/)
+Nintendo Entertainment System (NES) | [NES Development Kit Hardware](https://www.retroreversing.com/official-nes-devkit/)
+Super Nintendo Entertainment System (SNES) | [SNES Development Kit Hardware](https://www.retroreversing.com/official-snes-devkit/)
 Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/) <br /> [Maestro64 (Music)](https://www.retroreversing.com/maestro64/) <br /> [Official N64 Development Hardware](https://www.retroreversing.com/official-n64-devkit/)
-Nintendo Gameboy | [Game Boy Development kit Hardware](https://www.retroreversing.com/gameboy-development-kit-hardware/)
+Nintendo Game Boy (DMG & GBC) | [Game Boy Development kit Hardware](https://www.retroreversing.com/gameboy-development-kit-hardware/)
+Nintendo Game Boy Advance (GBA) | [Game Boy Advance Development Kit Hardware](https://www.retroreversing.com/game-boy-advance-development-kit/)
 Sega Dreamcast | [Official Sega Dreamcast Katana Development Kit Hardware](https://www.retroreversing.com/Sega-Dreamcast-Katana-Development-Kit) <br /> [The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
 Sega Master System | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
 Sega Game Gear | [Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
