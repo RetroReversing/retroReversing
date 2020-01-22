@@ -144,14 +144,14 @@ Although it looks like a standard DMG cartridge it actually had a Game Boy Advan
 
 ---
 # References
-[^1]: [Writing a Game Boy Advance Game | Hacker News](https://news.ycombinator.com/item?id=10096634)
+[^1]: [Writing a Game Boy Advance Game - Hacker News](https://news.ycombinator.com/item?id=10096634)
 [^2]: [Game Boy Advance Development Kit Revealed - IGN](https://uk.ign.com/articles/2000/08/22/game-boy-advance-development-kit-revealed)
 [^3]: [Nintendo Game Boy Advance Wide-Boy (for N64)](https://devkits.handheldmuseum.com/GBA_Wideboy.htm)
 [^4]: [Game Boy Advance TS Board - ASSEMbler Games Archive](https://www.assembler-games.com/threads/game-boy-advance-ts-board.61693/)
 [^5]: [Andrew Borman on Twitter: "People talk about the best ways to play Game Boy games. They talk about Super Game Boys, Game Boy Players (with or without mods), and even some development equipment like the Wideboy. But rarely does the IS-AGB-Capture come up. https://t.co/i4xJUycSaz" / Twitter](https://twitter.com/borman18/status/1056336154755297282)
-[^6]: [[research] Gen 3 Event Generation Algorithm Research (10ANNIV, etc) - Page 16 - ROM - GBA Research and Development - Project Pokemon Forums](https://projectpokemon.org/home/forums/topic/39517-gen-3-event-generation-algorithm-research-10anniv-etc/page/16/)
+[^6]: [Project Pokemon Forums](https://projectpokemon.org/home/forums/topic/39517-gen-3-event-generation-algorithm-research-10anniv-etc/page/16/)
 [^7]: [Gamasutra - SN Systems Releases ProDG for GameCube and Game Boy Advance](https://www.gamasutra.com/view/news/243/blogs/rss/)
 [^8]: [GameBoy Advance Dev'rs - Hardware](https://www.devrs.com/gba/hardware.php)
-[^9]: [Prodg Gameboy Advance | Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
+[^9]: [Prodg Gameboy Advance - Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
 [^10]: [Nintendo Game Boy Advance ProDG Development Kit](http://devkits.handheldmuseum.com/GBC-ProDG/index.htm)
-[^11]: [[Tech] GameBoy Dev Machine - GBA ROM DUMPED! — GoCollect Forum](https://connect.gocollect.com/discussion/31950/i-came-back-again-after-a-few-months-to-the-same)
+[^11]: [GameBoy Dev Machine - GBA ROM DUMPED! - GoCollect Forum](https://connect.gocollect.com/discussion/31950/i-came-back-again-after-a-few-months-to-the-same)
