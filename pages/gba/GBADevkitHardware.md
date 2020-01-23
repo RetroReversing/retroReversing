@@ -135,14 +135,16 @@ The photos on the left are by Nicholas Cottrill who has an excellent Flickr acco
 </div>
 </section>
 
-## Unknown Development Kits
+## SN Systems Flash ROM Cartridge for Game Boy Advance
 <section class="postSection">
     <img src="/public/images/gba/SN Systems Game Boy Cartridge.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 
-Although it says SN Systems on it, it was not available as part of their ProDG development kit and according to a post on `GoCollect` it wasn't actually made by SN Systems themselves [^11].
+Although it says SN Systems on it, it was not available as part of their ProDG development kit and was actually a completely separate product.
 
-Although it looks like a standard DMG cartridge it actually had a Game Boy Advance ROM on it.
+Although it looks like a standard DMG cartridge it actually had a Game Boy Advance ROM on it and had a microUSB port in the top of the cartridge for connecting to a developers PC.
+
+One cool feature of the cartridge for development was that it saved game states of crashed games that could be copied over to PC to debug further, they called this feature `Post-Mortem Debugging` [^11].
 </div>
 </section>
 
@@ -158,4 +160,4 @@ Although it looks like a standard DMG cartridge it actually had a Game Boy Advan
 [^8]: [GameBoy Advance Dev'rs - Hardware](https://www.devrs.com/gba/hardware.php)
 [^9]: [Prodg Gameboy Advance - Nicholas Cottrill](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
 [^10]: [Nintendo Game Boy Advance ProDG Development Kit](http://devkits.handheldmuseum.com/GBC-ProDG/index.htm)
-[^11]: [GameBoy Dev Machine - GBA ROM DUMPED! - GoCollect Forum](https://connect.gocollect.com/discussion/31950/i-came-back-again-after-a-few-months-to-the-same)
+[^11]: [Flash ROM Cartridge for Game Boy Advance](http://web.archive.org/web/20030811012110/http://www.snsystems.com/GameBoyAdvance/flashcart.htm)
