@@ -65,11 +65,15 @@ If the `IS-AGB-DEBUGGER` label is checked on the unit then it also contains supp
 </section>
 
 ## IS-AGB-MIDI
+<section class="postSection">
+    <img src="/public/images/gba/IS-AGB-MIDI.png" class="wow slideInLeft postImage" />
+
+<div markdown="1">
 For sound developers Intelligent Systems created the `IS-AGB-MIDI` which is a cartridge that plugs into the `IS-AGB-EMULATOR` [^4].
 
 You then connect the cartridge to the development PC via the MIDI port and you have the ability to test sounds and music on the GBA hardware directly!
-
-As far as we know no one has taken a photo of what the `IS-AGB-MIDI` looks like so unfortunately we can only guess.
+</div>
+</section>
 
 ## IS-AGB-CAPTURE
 
