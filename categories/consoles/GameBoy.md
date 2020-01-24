@@ -50,6 +50,10 @@ Every game produced for the Game Boy required a little piece of code known as th
 # Reverse Engineering Game Boy Games
 There have been a few very successful reverse engineering projects for the Game Boy, one of the most successful is the Pokemon dissassembly which managed to reverse engineer the entire game into a rebuildable ROM!
 
+## Pokemon Red/Blue/Yellow
+The Pokemon Reverse Engineering Team (PRET) have managed to pull off a marvellous achievement, they have fully reverse engineered Pokemon Red and Blue back into retail-matching assembly code.
+{% include link-to-other-post.html post="/pokemonredblue" description="For more information about the project check out this post." %}
+
 ## Legend of Zelda Links Awakening
 In August 2016 the website KZone started a full disassembly of the classic Game Boy game Link's Awakening, along the way they have written some excellent in-depth articles about how the game works. Check it out!
 
