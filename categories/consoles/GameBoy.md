@@ -6,7 +6,8 @@ recommend: gameboy
 recommendTitle: All GB Posts
 editlink: ../categories/consoles/GameBoy.md
 console: gameboy
-consoleimage: /public/ZAgzBlXrARIEyn2KnTa4g_img_1.png
+consoleimage: /public/NintendoGameBoyThumb.png
+thumbnail: /public/NintendoGameBoyThumb.png
 breadcrumbs:
   - name: Home
     url: /
@@ -22,7 +23,16 @@ carousel:
     image: https://img.youtube.com/vi/RZUDEaLa5Nw/maxresdefault.jpg
     link: /gameboy-hardware-autopsy
 ---
+Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
 
+# Game Boy Exclusives
+When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
+
+{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy to be able to play" image="" title="List of Original DMG Game Boy exclusives"  %}
+
+{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy Color to be able to play" image="" title="List of Game Boy Color exclusives"  %}
+
+---
 # All Posts
 <div>
 
