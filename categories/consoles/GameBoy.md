@@ -23,14 +23,21 @@ carousel:
     image: https://img.youtube.com/vi/RZUDEaLa5Nw/maxresdefault.jpg
     link: /gameboy-hardware-autopsy
 ---
+# Game Boy Basics
 Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
 
-# Game Boy Exclusives
+
+## Game Boy Exclusive Games (DMG & Color)
 When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
 
-{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy to be able to play" image="" title="List of Original DMG Game Boy exclusives"  %}
+{% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy to be able to play" image="/public/NintendoGameBoyThumb.png" title="List of Original DMG Game Boy exclusives"  %}
 
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy Color to be able to play" image="" title="List of Game Boy Color exclusives"  %}
+
+## Game Boy Assembly Language (Z80-like)
+The Game Boy has a variant of the Zilog Z80 processor, well technically it is a CPU between the `i8080` and the Z80, it is not binary compatible with either but there are similarities. You need a assembler that can handle the Game Boy speicific opcodes in order to write functional code for the Game Boy in assembly language.
+
+{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language" image="" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
 
 ---
 # All Posts
