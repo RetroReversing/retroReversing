@@ -37,7 +37,7 @@ When it comes to finding a game to reverse engineer it can be helpful to look at
 ## Game Boy Assembly Language (Z80-like)
 The Game Boy has a variant of the Zilog Z80 processor, well technically it is a CPU between the `i8080` and the Z80, it is not binary compatible with either but there are similarities. You need a assembler that can handle the Game Boy speicific opcodes in order to write functional code for the Game Boy in assembly language.
 
-{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language" image="" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
+{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language" image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
 
 ---
 # All Posts
