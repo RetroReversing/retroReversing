@@ -28,6 +28,7 @@ videocarousel:
 redirect_from:
   - /official-mega-drive-devkit/
   - /sega-dev-card
+  - /sprobe-megadrive/
 ---
 
 # Third Party Development Kits
@@ -43,6 +44,18 @@ The developer could then run `SEGALOAD GameName.bin` to load a compiled Sega Meg
 </div>
 </section>
 
+## SPROBE (EA)
+<section class="postSection">
+    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/FTnV2NqQwA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+Developed for Electronic Arts in 1989, the SPROBE combines a Sega Mega Drive and a development board.
+
+Latching onto the Mega Drive cart interface, it adds a cartridge emulator as well as a debug / development capability using a PC card link.
+This hardware is one of the reasons for EA's early dominance in Sega Genesis gaming [^2].
+</div>
+</section>
+
 ---
 # References
 [^1]: [Western Technologies Sega Dev Card Demo - YouTube](https://www.youtube.com/watch?time_continue=102&v=A9zQueGP4iI&feature=emb_logo)
+[^2]: [Rare video game hardware: The SPROBE Megadrive development system - YouTube](https://www.youtube.com/watch?time_continue=1&v=FTnV2NqQwA8&feature=emb_logo)
