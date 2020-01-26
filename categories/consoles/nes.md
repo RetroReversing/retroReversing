@@ -28,6 +28,17 @@ The disassembled code is then shown to the user and can then be modified and re-
 {% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
 
 ---
+# Hardware
+
+## Nintendo (NES) Controller - Electronics
+<section class="postSection">
+    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+In this video `Displaced Gamers` explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
+</div>
+</section>
+
+---
 # All Posts
 <div>
 
