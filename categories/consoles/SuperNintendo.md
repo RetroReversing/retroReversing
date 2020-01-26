@@ -28,6 +28,16 @@ Every three years `byuu` creates an excellent article on the current status of S
 ## The Polygons of Another World
 {% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
 
+# Game Modification
+
+## SNES Save Editing with Link to the Past
+<section class="postSection">
+    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dRwjBcqHMpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div markdown="1">
+Excellent video by `Displaced Gamers` on how to edit SRAM saves for a Link to the Past on Super Nintendo, this is not actually `ROM Hacking` as the ROM is exactly the same, it is only the SRAM that is modified.
+
+</div>
+</section>
 
 ---
 # All Posts
