@@ -7,6 +7,9 @@ tags:
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
+  - title: Did Nintendo really forget to Optimize Super Mario 64
+    image: http://img.youtube.com/vi/NKlbE2eROC0/0.jpg
+    youtube: 'NKlbE2eROC0'
   - title: Loading custom levels
     image: http://img.youtube.com/vi/NpOwt4QhGPQ/0.jpg
     youtube: 'NpOwt4QhGPQ?list=PLrHfiJH7XHir-QYZsy2Du5t27DThqG1Vw'
