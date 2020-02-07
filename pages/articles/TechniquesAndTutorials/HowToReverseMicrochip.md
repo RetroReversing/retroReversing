@@ -69,7 +69,13 @@ Now you can repeat the imaging process from above with the delayed chip.
 # Creating a Vector 
 You can now trace the image created in a tool such as `Inkscape` and add labels for each pin and component and trace along the resistors etc.
 
+---
+# Other talks and resources
 
+## Chris Gerlinsky's talk at RECON 2019 on optically preserving Mask ROMS
+(The ROM Matrix Revolution Unscrambling Bits)[https://recon.cx/media-archive/2019/Session.002.Chris_Gerlinsky.The_ROM_matric_revolution_Unscrambling_bits-K0W7zZQDK9lQQ.mp4]
+
+---
 # References
 [^1]: [How I reverse engineer a chip - YouTube](https://www.youtube.com/watch?v=r8Vq5NV4Ens)
 [^2]: [Decapsulating a ceramic integrated circuit - YouTube](https://www.youtube.com/watch?v=wnQ8Td1y_dM)
