@@ -117,6 +117,19 @@ The developer `Scylus` has created a brand new browser-based (javascript) Pokemo
 ## Pokémon Mini ROM disassembler - mindis2
 {% include link-to-other-site.html url="https://github.com/pokemon-mini/mindis2" description="Pokémon Mini ROM disassembler with support for the official S1C88 assembly language" title="mindis2 - Pokémon Mini ROM disassembler" image="http://www.retroreversing.com/public/consoles/PokemonMini.png"  %}
 
+--- 
+# ROM Hacking Pokémon Mini games
+
+## Tile and Sprite editing
+<section class="postSection">
+    <img src="/public/images/PokemonMini/Pokemon Mini ROM Image Editing.png" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+    You can open any Pokemon Mini rom file (`*.min`) in a tool called `Tile Molester` with the Codec setup to be `1BPP`, as Pokemon Mini is only back and white all images are stored as 1 bit per pixed, with black as 0 and white as 1.
+ </div>
+</section> 
+
+
 ---
 # ROM Translations
 The Pokémon Mini only had a library of 10 games, and 5 of those were only ever released in Japan! 
