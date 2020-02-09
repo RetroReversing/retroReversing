@@ -126,6 +126,8 @@ The developer `Scylus` has created a brand new browser-based (javascript) Pokemo
 
  <div markdown="1">
     You can open any Pokemon Mini rom file (`*.min`) in a tool called `Tile Molester` with the Codec setup to be `1BPP`, as Pokemon Mini is only back and white all images are stored as 1 bit per pixed, with black as 0 and white as 1.
+    
+   In the screenshot on the left you can see what initially looks like lots of duplicate tiles, these are infact the Masks used for transparency and you can see the tile they apply to to the right of the mask.
  </div>
 </section> 
 
