@@ -25,7 +25,10 @@ The source code for Ocean Software's Mr Do! port to the gameboy has been officia
 Description from Paul Hughes [^1]
 ```
 Many moons ago I debugged and finished off Ocean's Mr Do! for the original Gameboy. 
-As Joffa, the late, great original author, decided to release the source code, I thought I'd also put it up.
+
+As Joffa, the late, great original author, decided to release the source code, 
+
+I thought I'd also put it up.
 ```
 
 The header for the source file also mentions Wesley Knackets developed it between the 28th of June and the 5th of September 1990, which is just a little over 2 months!
@@ -47,5 +50,9 @@ Known developers:
 * Joffa
 * Wesley Knackers
 
-## References
+---
+# Development kit
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It was started on Special FX’s own Gameboy assembler and hardware and was finished on Ocean’s own Atari ST based assembler and hardware.</p>&mdash; Paul Hughes (@PaulieHughes) <a href="https://twitter.com/PaulieHughes/status/1231294467879116800?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+---
+# References
 [^1]: http://www.pauliehughes.com/downloads/index.html
