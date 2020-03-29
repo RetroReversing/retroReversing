@@ -102,6 +102,22 @@ In fact you may have already seen Hexadecimal if you have worked with Colours as
  </div>
 </section> 
 
+## Viewing files with a Hex editor
+Now that you know why the Hexadecimal notation is useful for developers to represent bytes, let's use a tool that every reverse engineer has handy at all times, the HEX editor!
+
+As we know a game is build up of either a single file (ROM) or multiple files, but at the end of the day they are all files and all contain bytes of data.
+
+So we know know that we can represent each byte as a HEX codes, why don't we open up some of those game files!
+
+Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
+* Hex Fiend (Mac OSX)
+* Win Hex (Windows)
+* Bless Hex Editor (Linux)
+
+Some ROM hacks are done purely with a HEX editor and emulator so this is a powerful tool to get you started, but there are many other useful tools to learn along the way to make it even easier.
+
+So go on give it a try, open your favourite ROM in a Hex editor and see what you can find!
+
 ## File Formats
 
 <section class="postSection">
