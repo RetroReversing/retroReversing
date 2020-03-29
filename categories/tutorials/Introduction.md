@@ -130,9 +130,20 @@ There are so many file formats out there (and many variations) that you couldn't
  </div>
 </section> 
 
-## Magic Headers
-
+## Magic Headers & the file command
 Now you know the basics of how data can be represented you can dive into many different file formats used in games. You can view them in Hexadecimal with a Hex Editor and you can spot the Magic Header (if the file has one). This can be very useful for looking at files in ISO files, especially if they do not have a file extension.
+
+The Magic Header for a file tends to be the first few bytes of the file, for example wav sound files start with the first 4 ASCII characters `WAVE`.
+
+Wikipedia has a useful table of the most common file formats and what their Magic headers are:
+[List of file signatures - Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
+So you could open your file in a Hex editor and search that page for what file type it is. But there exists an even easier solution, systems based on UNIX come pre-installed with a useful tool called `file` which can tell you what a file contains regardless of its extension.
+
+An example of using file:
+```
+file unknownfile
+```
 
 ## Custom File formats
 Many files used in games could be a custom format created specifically for that game (or engine), understanding how to decode these custom file formats is a vital skill that is worth learning.
