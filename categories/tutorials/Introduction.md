@@ -3,6 +3,7 @@ permalink: /tutorials/introduction
 layout: post
 title: Beginners Guide to Reverse Engineering (Retro Games)
 thumbnail: /public/consoles/Computer Old Design.png
+image: /public/images/Reverse Engineering Beginners Guide.jpg
 console: introduction
 breadcrumbs:
   - name: Home
@@ -19,6 +20,8 @@ redirect_from:
 recommend: 
 - introduction
 - tutorial
+tags:
+- introduction
 editlink: ../categories/tutorials/Introduction.md
 updatedAt: 29th March 2020
 ---
