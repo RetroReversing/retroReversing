@@ -67,7 +67,8 @@ If you are interested there are a few court battles that are relevant:
 In fact reverse engineering already plays a vital role in ensuring your freedom in an increasingly more technological society. How do you know a voting machine is accurately counting your vote? Or how do you know if your computer is spying on you? You could reverse engineer it and find out.
 
 ---
-# All Posts
+# All Posts tagged with Introduction
+
 <div>
 
 {% include console.html %}
