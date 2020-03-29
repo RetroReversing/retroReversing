@@ -2,6 +2,7 @@
 layout: post
 tags: 
 - n64
+- introduction
 title: N64 Reversing Introduction
 image:  /public/N64/N64 Introduction.jpg
 thumbnail: /public/consoles/Nintendo 64.png
@@ -15,6 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64ReversingIntroduction.md
+updatedAt: 29th March 2020
 ---
 
 This post will give a brief introduction for the tools and techniques you need to start reverse engineering and decompiling a N64 Game.
