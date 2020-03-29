@@ -2,6 +2,7 @@
 permalink: /tutorials/introduction
 layout: post
 title: Beginners Guide to Reverse Engineering (Retro Games)
+thumbnail: /public/consoles/Computer Old Design.png
 console: introduction
 breadcrumbs:
   - name: Home
@@ -18,7 +19,8 @@ redirect_from:
 recommend: 
 - introduction
 - tutorial
-editlink: /categories/tutorials/Introduction.md
+editlink: ../categories/tutorials/Introduction.md
+updatedAt: 29th March 2020
 ---
 
 This guide is for all beginners who are interesting in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.
@@ -27,7 +29,7 @@ This guide is for all beginners who are interesting in learning more about the t
 Many people are confused about what exactly is involved in reverse engineering or why exactly people would "waste their time" on such a task. Well lets find out...
 
 ## What is Reverse engineering?
-Presumably by being on this page you at least have a slight idea about what reverse engineering is and may even have some pre-conceptiuons. 
+Presumably by being on this page you at least have a slight idea about what reverse engineering is and may even have some pre-conceptions. 
 
 At the end of the day it really is what it says on the tin, "Reverse engineering" taking the engineering process in reverse from finished product to learn how it was made.
 
