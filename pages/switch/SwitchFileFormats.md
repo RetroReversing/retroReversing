@@ -2,6 +2,7 @@
 layout: post
 tags: 
 - switch
+- fileformats
 title: Nintendo Switch File Formats
 image:  /public/consoles/Nintendo Switch.png
 thumbnail: /public/consoles/Nintendo Switch.png
@@ -13,21 +14,28 @@ breadcrumbs:
     url: /switch
   - name: Nintendo Switch File Formats
     url: #
-recommend: switch
+recommend: 
+- switch
+- fileformats
 editlink: /switch/SwitchFileFormats.md
-updatedAt: 31st March 2020
 ---
 The Nintendo Switch development scene has introduced a lot of new file formats, some completely new and others are extensions of what had been used on the Wii and Wii U.
 
 # Full Game Files
 Full Game files come in two standard formats depending if they are game cartridges (XCI) or EShop downloads (NSP).
 
-## XCI - Xecutor Images
-The XCI format was created by `Team Xecutor` as a way to dump game cartridges on their custom firmware known as `SX OS`.
+## XCI - NX Cart Images
+The XCI format was created as a way to dump entire game cartridges to a single file.
 
-You can dump game cartridges if you are using SXOS using the homebrew app `SX Dumper`.
+You can dump game cartridges if you are using SX OS using the homebrew app `SX Dumper`.
 
 XCI files are encrypted using the firmware specific master key and so can be run on any switch, just like game cartridges [^2].
+
+As XCI files are a 1:1 copy of the data stored on the eMMC chip of a game cartridge it can also contain blank space at the end of the file if the game is smaller than the eMMC chip's capacity.
+
+You can remove this extra space with a tool such as [XCI-Cutter A tool to remove unused space from XCI-Dumps](https://github.com/Destiny1984/XCI-Cutter).
+
+If you are interested in the internals of the file format, the site `SwitchBrew` was an excellent page with what each byte represents: [Gamecard Format - Nintendo Switch Brew](https://switchbrew.org/w/index.php?title=Gamecard_Format).
 
 ## NSP - Nintendo Submission Package
 NSP files is the format for games downloaded from the Switch EShop, similar to .apk on Android or .app on iOS.
@@ -35,6 +43,39 @@ NSP files is the format for games downloaded from the Switch EShop, similar to .
 NSP files are encrypted using master keys and rightsId keys and are encrypted for a specific user [^2].
 
 ---
+# Archive File Formats
+These files store part of the game and are normally included inside other file formats.
+
+## NCA - Nintendo Content Archives
+NCA files are compressed archives (think zip) that contain game data, normally multiple NCA files can be extracted from a single XCI or NSP file.
+
+There are multiple types of NCA file depending on what they contain:
+* EXEFS - Executable file system (code)
+* ROMFS - Read Only file system (data)
+* PFS0 - P? File system (data)
+
+### EXEFS (Executable filesystem files)
+ExeFS stands for Executable filesystem and is part of the largest Nintendo Content Archive (NCA) file for a game. It is a file system that contains Nintendo Switch executables known as NSO's [^1].
+
+There are a few files contains in the executable filesystem that we will cover in this section.
+
+If you want to mod a game to change the actual behaviour (executable code) then this is the where you start, there are also multiple ways to apply an ExeFS mod which will be covered in another section.
+
+---
+# Individual File Formats
+
+## NPDM (*.npdm)
+The NPDM file contains information about the game for example the title and services that the game is allowed to access.
+
+## rtld (Runtime Link editor nso executable)
+Basically the runtime Link editor exectuable is the first code that runs when a game is started. Its job is to manager the other executable code modules (nso files) in memory.
+
+SwitchBrew has an excellent page on how the rtld works available here: [Rtld - Nintendo Switch Brew](https://switchbrew.org/wiki/Rtld)
+
+## sdk (nso executable)
+
+## subsdk0 (nso executable)
+
 # References
 [^1]: [RELEASE - ExeFSManager - A Simple ExeFS Manager | GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/exefsmanager-a-simple-exefs-manager.526794/)
 [^2]: [differences between nsp and xci files? | GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/differences-between-nsp-and-xci-files.511776/)
