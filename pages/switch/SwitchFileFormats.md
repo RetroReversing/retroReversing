@@ -87,7 +87,7 @@ There are multiple types of NCA file depending on what they contain:
 * ROMFS - Read Only file system (data)
 * PFS0 - P??? File system (data)
 
-### EXEFS (Executable filesystem files)
+### EXEFS (Executable filesystem partition)
 ExeFS stands for Executable filesystem and is part of the largest Nintendo Content Archive (NCA) file for a game. It is a file system that contains Nintendo Switch executables known as NSO's [^1].
 
 There are a few files contains in the executable filesystem that we will cover in this section.
@@ -99,20 +99,28 @@ CNMT files are small meta data files that are inside an XCI or NSP archive.
 [CNMT - Nintendo Switch Brew](https://switchbrew.org/wiki/CNMT)
 
 ---
-# Individual File Formats
+# EXEFS File Formats
+This section covers the game code which is all stored in the executable Filesystem partition or EXEFS. 
 
 ## NPDM (*.npdm)
 The NPDM file contains information about the game for example the title and services that the game is allowed to access.
 
-## rtld (Runtime Link editor nso executable)
+## Nintendo Switch Object (NSO) Files
+NSO files are compiled Nintendo Switch executable code and can only be run if they are in the EXEFS partition of the game. These are compile from source files, normally from the official Nintendo Switch Software Development Kit.
+
+
+### rtld (Runtime Link editor NSO executable)
 Basically the runtime Link editor executable is the first code that runs when a game is started. Its job is to manage the other executable code modules (NSO files) in memory.
 
 SwitchBrew has an excellent page on how the RTLD works available here: [Rtld - Nintendo Switch Brew](https://switchbrew.org/wiki/Rtld)
 
-## sdk (nso executable)
+### main (NSO executable)
+There is a `main` NSO executable file in the EXEFS partition, this as its name suggests is where the main game code was compiled.
+
+### sdk (NSO executable)
 There is a `sdk` executable in the EXEFS portion, this is presumably the build of the official Nintendo Switch SDK.
 
-## subsdk's (nso executable)
+### subsdk's (nso executable)
 It is still unclear what the sub SDK executable are, my guess would be they are dynamic libraries of code. It is possible these are optional libraries bundled with the official Switch SDK.
 
 For example:
