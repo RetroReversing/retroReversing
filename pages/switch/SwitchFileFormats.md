@@ -60,6 +60,8 @@ For more information about the extracted files see the section on NCA files.
 ### Cutting XCI files
 As XCI files are a 1:1 copy of the data stored on the eMMC chip of a game cartridge it can also contain blank space at the end of the file if the game is smaller than the eMMC chip's capacity.
 
+{% include link-to-other-site-text.html title="XCI-Cutter - A tool to remove unused space from XCI-Dumps" url="https://github.com/Destiny1984/XCI-Cutter" word1="XCI-Cutter" word2="on github" color1="wisteria" color2="midnight" description="You can remove this extra space with a tool such as XCI-Cutter"  %}
+
 You can remove this extra space with a tool such as [XCI-Cutter A tool to remove unused space from XCI-Dumps](https://github.com/Destiny1984/XCI-Cutter).
 
 ### XCI File Format
