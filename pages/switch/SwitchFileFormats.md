@@ -73,7 +73,7 @@ NSP files are encrypted using master keys and rightsId keys and are encrypted fo
 ### Creating NSP Files
 The recommended way of creating NSP files is to use the `NX Dump Tool` homebrew available on GitHub.
 
-{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to NSP" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="Homebrew" color1="pomegranate" color2="midnight" description="The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub" number="1"  %}
+{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to NSP" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="NXDumpTool" color1="pomegranate" color2="midnight" description="The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub" number="1"  %}
 
 Even although NSP is the format for Eshop games the application `NX Dump Tool` allows you to dump cartridges as NSP files.
 
