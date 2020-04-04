@@ -60,7 +60,7 @@ For more information about the extracted files see the section on NCA files.
 ### Cutting XCI files
 As XCI files are a 1:1 copy of the data stored on the eMMC chip of a game cartridge it can also contain blank space at the end of the file if the game is smaller than the eMMC chip's capacity.
 
-{% include link-to-other-site-text.html title="XCI-Cutter - A tool to remove unused space from XCI-Dumps" url="https://github.com/Destiny1984/XCI-Cutter" word1="XCI-Cutter" word2="XCI-Cutter" color1="wisteria" color2="midnight" description="You can remove this extra space with a tool such as XCI-Cutter"  %}
+{% include link-to-other-site-text.html title="XCI-Cutter - A tool to remove unused space from XCI-Dumps" url="https://github.com/Destiny1984/XCI-Cutter" word1="XCI-Cutter" word2="XCI-Cutter" color1="wisteria" color2="midnight" description="You can remove this extra space with a tool such as XCI-Cutter" number="2"  %}
 
 ### XCI File Format
 If you are interested in the internals of the file format, the site `SwitchBrew` was an excellent page with what each byte represents: [Gamecard Format - Nintendo Switch Brew](https://switchbrew.org/w/index.php?title=Gamecard_Format).
@@ -73,7 +73,7 @@ NSP files are encrypted using master keys and rightsId keys and are encrypted fo
 ### Creating NSP Files
 The recommended way of creating NSP files is to use the `NX Dump Tool` homebrew available on GitHub.
 
-{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to NSP" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="Homebrew" color1="pomegranate" color2="midnight" description="The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub"  %}
+{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to NSP" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="Homebrew" color1="pomegranate" color2="midnight" description="The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub" number="1"  %}
 
 Even although NSP is the format for Eshop games the application `NX Dump Tool` allows you to dump cartridges as NSP files.
 
