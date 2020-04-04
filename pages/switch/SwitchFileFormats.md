@@ -71,7 +71,9 @@ NSP files is the format for games downloaded from the Switch EShop, similar to .
 NSP files are encrypted using master keys and rightsId keys and are encrypted for a specific user [^2].
 
 ### Creating NSP Files
-The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub: [GitHub - DarkMatterCore/nxdumptool: Generates XCI/NSP/HFS0/ExeFS/RomFS/Certificate/Ticket dumps from Nintendo Switch gamecards and installed SD/eMMC titles.](https://github.com/DarkMatterCore/nxdumptool).
+The recommended way of creating NSP files is to use the `NX Dump Tool` homebrew available on GitHub.
+
+{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to NSP" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="Homebrew" color1="pomegranate" color2="midnight" description="The recommended way of creating NSP files is to use the NX Dump Tool available on GitHub"  %}
 
 Even although NSP is the format for Eshop games the application `NX Dump Tool` allows you to dump cartridges as NSP files.
 
