@@ -42,6 +42,7 @@ Here is an example
 ./hactool --outdir ./output -x -t xci yourgame.xci
 ```
 This will create 4 folders in the output directory:
+{% include changelog-list.html %}
 * normal - unknown - sometimes empty
     * NCA Files
     * CNMT Files (Content Meta Data for each NCA file)
