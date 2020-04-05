@@ -88,6 +88,8 @@ As XCI files are a 1:1 copy of the data stored on the eMMC chip of a game cartri
 ### XCI File Format
 {% include link-to-other-site-text.html title="XCI File Format Spec" url="https://switchbrew.org/w/index.php?title=Gamecard_Format" word1="XCI Format" word2="Gamecard" color1="belize" color2="midnight" description="If you are interested in the internals of the file format, the site `SwitchBrew` has an excellent page with what each byte represents" number="3"  %}
 
+---
+
 ## NSP - Nintendo Submission Package
 NSP files is the format for games downloaded from the Switch EShop, similar to .apk on Android or .app on iOS.
 
