@@ -44,7 +44,7 @@ Here is an example
 This will create 4 folders in the output directory:
 
 <div class="rr-changelog">
-  <div class="rr-version-gen" version="1" date="Normal (Unknown - sometimes empty)" ></div>
+  <div class="rr-version-gen" version="N" date="Normal (Unknown - sometimes empty)" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="NCA" desc="NCA Files for title image and details" ></div>
       <div class="rr-info-gen" badge="CNMT" desc="Meta Data Files for each NCA" ></div>
@@ -52,7 +52,7 @@ This will create 4 folders in the output directory:
 </div>
 
 <div class="rr-changelog">
-  <div class="rr-version-gen" version="1" date="Secure (Game Data)" ></div>
+  <div class="rr-version-gen" version="S" date="Secure (Game Data)" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="NCA" desc="Largest NCA contains game executable" ></div>
       <div class="rr-info-gen" badge="CNMT" desc="Meta Data Files for each NCA" ></div>
@@ -61,10 +61,22 @@ This will create 4 folders in the output directory:
     </ul>
 </div>
 
-* update - game update files
-* logo - Nintendo logos - sometimes empty
-    * `StartupMovie.gif` - animated gif of switch logo
-    * NintendoLogo.png - Nintendo logo
+
+<div class="rr-changelog">
+  <div class="rr-version-gen" version="U" date="Update" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="NCA" desc="Probably contains Switch OS updates" ></div>
+      <div class="rr-info-gen" badge="CNMT" desc="Meta Data Files for each NCA" ></div>
+    </ul>
+</div>
+
+<div class="rr-changelog">
+  <div class="rr-version-gen" version="L" date="Logo (Nintendo logos - sometimes empty)" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="GIF" desc="StartupMovie.gif - Animated switch logo shown at the start of every game" ></div>
+      <div class="rr-info-gen" badge="PNG" desc="NintendoLogo.png - Static Nintendo logo shown at the start of every game" ></div>
+    </ul>
+</div>
 
 For more information about the extracted files see the section on NCA files.
 
