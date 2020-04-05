@@ -4,15 +4,6 @@
     color: #0085b6;
 }
 
-body {
-    font-family: proxima-nova,sans-serif;
-    font-size: 16px;
-    line-height: 1.8;
-    color: #b9b7c0;
-    letter-spacing: .02em;
-    word-wrap: break-word;
-}
-
 /*  Change log start */
 .rr-changelog+.rr-changelog {
     margin-top: 20px;
@@ -40,6 +31,7 @@ body {
 }
 
 .rr-changelog {
+   line-height: 1.8;
     position: relative;
     padding-bottom: 20px;
     font-family: futura-pt,sans-serif;
@@ -161,9 +153,7 @@ body {
 </div>
 
 <script>
-var versionGen = $('.rr-version-gen');
-
-versionGen.each(function(index) {
+$('.rr-version-gen').each(function(index) {
     $(this).replaceWith( `<div>
         <div class="rr-changelog-version">`+$(this).attr('version')+`</div>
         <div class="rr-changelog-date">`+$(this).attr('date')+`</div>
