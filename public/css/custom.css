@@ -82,7 +82,7 @@
     -ms-flex-align: start;
     align-items: flex-start;
     padding-bottom: 0;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .rr-changelog-success>.rr-changelog-badge::after {
