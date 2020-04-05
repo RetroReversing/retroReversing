@@ -30,7 +30,7 @@ The XCI format was created as a way to dump entire game cartridges to a single f
 XCI files are encrypted using the firmware specific master key and so can be run on any switch, just like game cartridges [^2].
 
 ### Creating XCI Files
-{% include link-to-other-site-text.html title="NXDumpTool - Dump your Games to XCI" url="https://github.com/DarkMatterCore/nxdumptool" word1="NXDumpTool" word2="NXDumpTool" color1="green" color2="midnight" description="The recommended way of creating XCI files is to use the NX Dump Tool available on GitHub" number="4"  %}
+{% include link-to-other-site.html title="NXDumpTool - Dump your Games to XCI" url="https://github.com/DarkMatterCore/nxdumptool" image="https://github.com/DarkMatterCore/nxdumptool/raw/master/icon.jpg" description="The recommended way of creating XCI files is to use the NX Dump Tool available on GitHub"  %}
 
 You can also dump game cartridges if you are using SX OS using the homebrew app `SX Dumper`.
 
