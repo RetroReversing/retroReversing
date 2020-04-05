@@ -128,6 +128,26 @@
       
       // scroll animations
       new WOW().init();
+      
+      
+    // START: changlog
+      $('.rr-version-gen').each(function(index) {
+          $(this).replaceWith( `<div>
+              <div class="rr-changelog-version">`+$(this).attr('version')+`</div>
+              <div class="rr-changelog-date">`+$(this).attr('date')+`</div>
+      </div>
+          `);
+      });
+
+      $('.rr-info-gen').each(function(index) {
+        $(this).replaceWith(`<div class="rr-changelog rr-changelog-success">
+                      <div class="rr-changelog-badge">`+$(this).attr('badge')+`</div>
+                      <div class="rr-changelog-info">`+$(this).attr('desc')+`</div>
+                  </div>`);
+      })
+    // END: changelog
+      
+      
     })(jQuery);
     
 //     $(document).ready(function() {
