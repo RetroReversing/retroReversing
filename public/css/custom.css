@@ -1,0 +1,144 @@
+.rr-changelog-date, .rr-changelog h5 {
+    font-size: 1.125rem;
+    color: #0085b6;
+}
+
+/*  Change log start */
+.rr-changelog+.rr-changelog {
+    margin-top: 20px;
+}
+
+.rr-changelog::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50px;
+    bottom: 0;
+    left: 28px;
+    width: 3px;
+    background-color: #0085b6;
+    border-radius: 3px;
+}
+
+.rr-changelog>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.rr-changelog {
+   line-height: 1.8;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: futura-pt,sans-serif;
+}
+
+.rr-changelog-version {
+    position: relative;
+    padding: 2px 12px 3px;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    letter-spacing: .01em;
+}
+
+.rr-changelog-version::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0085b6;
+    border-radius: 3px;
+    -webkit-transform: skew(-2deg);
+    -ms-transform: skew(-2deg);
+    transform: skew(-2deg);
+    z-index: -1;
+}
+
+.rr-changelog-date {
+    margin-bottom: 0;
+}
+
+.rr-changelog-more .rr-changelog+.rr-changelog {
+    margin-top: 12px;
+}
+
+.rr-changelog-more {
+    padding-left: 79px;
+}
+
+.rr-changelog-more .rr-changelog {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 0;
+}
+
+.rr-changelog-success>.rr-changelog-badge::after {
+    background-color: #44c441;
+}
+
+.rr-changelog-badge::after, .rr-changelog-badge::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+}
+
+.rr-changelog-badge::after {
+    left: -2px;
+    width: 5px;
+    background-color: #d31c3e;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+
+.rr-changelog-badge {
+    color: white;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-width: 54px;
+    padding: 2px 12px 3px;
+    margin-right: 14px;
+    overflow: hidden;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .01em;
+    border-radius: 3px;
+}
+
+.rr-changelog-badge::before {
+    right: 2px;
+    left: 2px;
+    background-color: #333;
+    border-radius: 3px;
+    -webkit-transform: skew(-4deg);
+    -ms-transform: skew(-4deg);
+    transform: skew(-4deg);
+    z-index: -1;
+}
+
+.rr-changelog-info {
+    margin-top: -1px;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* End changelog */
