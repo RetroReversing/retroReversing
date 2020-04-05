@@ -42,7 +42,7 @@ Here is an example
 ./hactool --outdir ./output -x -t xci yourgame.xci
 ```
 This will create 4 folders in the output directory:
-{% include changelog-list.html %}
+
 <div class="rr-changelog">
   <div class="rr-version-gen" version="1" date="Normal (Unknown - sometimes empty)" ></div>
     <ul class="rr-changelog-more">
@@ -51,11 +51,16 @@ This will create 4 folders in the output directory:
     </ul>
 </div>
 
-* secure - game data
-    * NCA files (largest one is game executable)
-    * CNMT Files (Content Meta Data for each NCA file)
-    * .CERT (optional)
-    * .TIK (optional)
+<div class="rr-changelog">
+  <div class="rr-version-gen" version="1" date="Secure (Game Data)" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="NCA" desc="Largest NCA contains game executable" ></div>
+      <div class="rr-info-gen" badge="CNMT" desc="Meta Data Files for each NCA" ></div>
+      <div class="rr-info-gen" badge="CERT" desc="Certificate File for encryption" ></div>
+      <div class="rr-info-gen" badge="TIK" desc="Ticket File for encryption" ></div>
+    </ul>
+</div>
+
 * update - game update files
 * logo - Nintendo logos - sometimes empty
     * `StartupMovie.gif` - animated gif of switch logo
