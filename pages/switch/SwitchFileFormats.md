@@ -43,9 +43,14 @@ Here is an example
 ```
 This will create 4 folders in the output directory:
 {% include changelog-list.html %}
-* normal - unknown - sometimes empty
-    * NCA Files
-    * CNMT Files (Content Meta Data for each NCA file)
+<div class="rr-changelog">
+  <div class="rr-version-gen" version="1" date="Normal (Unknown - sometimes empty)" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="NCA" desc="NCA Files for title image and details" ></div>
+      <div class="rr-info-gen" badge="CNMT" desc="Meta Data Files for each NCA" ></div>
+    </ul>
+</div>
+
 * secure - game data
     * NCA files (largest one is game executable)
     * CNMT Files (Content Meta Data for each NCA file)
