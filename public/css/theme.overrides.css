@@ -162,7 +162,9 @@ section {
 }
 
 .jumper--H3 {
-  margin-left: 15px;
+  margin-left: 25px;
+  font-weight: 200;
+  list-style: none;
 }
 
 .jumper--H4 {
