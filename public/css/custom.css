@@ -18,6 +18,7 @@
     width: 3px;
     background-color: #0085b6;
     border-radius: 3px;
+    margin-left: 5%;
 }
 
 .rr-changelog>div {
@@ -34,6 +35,7 @@
     position: relative;
     padding-bottom: 20px;
     font-family: futura-pt,sans-serif;
+  padding-left: 5%;
 }
 
 .rr-changelog-version {
