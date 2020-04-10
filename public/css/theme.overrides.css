@@ -186,6 +186,11 @@ blockquote {
   }
 }
 
+.linkToOtherPost blockquote:hover {
+    background: #0085b62b;
+    cursor: pointer;
+}
+
 .linkToOtherPost blockquote {
   display:flex;
   margin-left: 5%;
