@@ -113,11 +113,11 @@ overflow: scroll;
 .row p {
   padding: 5px;
   font-family: Georgia,Times,"Times New Roman",serif;
-  font-size: 1.15em;
-  line-height: 1.6;
+  font-size: 1.0em;
+/*   line-height: 1.6; */
   letter-spacing: 0.05em;
-  margin-bottom: 5px;
-  padding-left: 4%;
+  margin-bottom: 2px;
+  padding-left: 2%;
 }
 
 .dataTables_filter input {
