@@ -220,4 +220,8 @@ blockquote {
 /* code blocks */
 .language-plaintext,.highlighter-rouge {
   padding-left:5%;
+  pre {
+       background-color: #333;
+      color: white;
+  }
 }
