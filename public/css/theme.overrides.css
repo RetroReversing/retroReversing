@@ -143,6 +143,7 @@ section {
   margin-bottom:1px;
 }
 
+/*  Table of contents */
 .jumper {
   font-weight: 500;
   color: #0085b6;
@@ -156,6 +157,8 @@ section {
 
 .jumper--H2 {
   margin-left: 10px;
+  list-style: none;
+  margin-top: 5px;
 }
 
 .jumper--H3 {
