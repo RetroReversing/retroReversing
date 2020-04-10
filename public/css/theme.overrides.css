@@ -187,8 +187,7 @@ blockquote {
 }
 
 .linkToOtherPost blockquote:hover {
-    background: #0085b62b;
-    cursor: pointer;
+    background: #0085b60d;
 }
 
 .linkToOtherPost blockquote {
