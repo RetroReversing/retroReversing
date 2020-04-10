@@ -188,6 +188,7 @@ blockquote {
 
 .linkToOtherPost blockquote {
   display:flex;
+  margin-left: 5%;
 }
 
 .linkToOtherPost .widget-img img {
