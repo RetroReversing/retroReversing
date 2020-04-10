@@ -117,7 +117,7 @@ overflow: scroll;
 /*   line-height: 1.6; */
   letter-spacing: 0.05em;
   margin-bottom: 2px;
-  padding-left: 2%;
+  padding-left: 5%;
 }
 
 .dataTables_filter input {
@@ -129,6 +129,8 @@ overflow: scroll;
 .post .post-header > div:last-child .post-title {
   font-size: 2em;
   margin-top: 0px;
+  color: #0085b6;
+  margin-left: 0;
 }
 
 section {
@@ -179,6 +181,7 @@ blockquote {
   color: #007bff !important;
 }
 
+/*  Link to other post */
 .linkToOtherPost {
   display: flex;
   .widget-img img {
@@ -199,6 +202,7 @@ blockquote {
   height: 100px !important;
 }
 
+/*  JS Tree */
 .jstree-default .jstree-anchor {
   font-size: 14px !important;
 }
