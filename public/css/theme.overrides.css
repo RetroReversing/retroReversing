@@ -224,7 +224,7 @@ blockquote {
 
 /* code blocks */
 p .language-plaintext {
-  padding-left:0px;
+  padding-left: 5px;
 }
 .language-plaintext,.highlighter-rouge {
   padding-left:5%;
