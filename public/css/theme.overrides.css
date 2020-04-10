@@ -221,10 +221,15 @@ blockquote {
 }
 
 /* code blocks */
+p .language-plaintext {
+  padding-left:0px;
+}
 .language-plaintext,.highlighter-rouge {
   padding-left:5%;
-  pre {
-       background-color: #333;
-      color: white;
-  }
+}
+
+.language-plaintext pre {
+  background-color: #333;
+  color: white;
+  
 }
