@@ -155,6 +155,20 @@ For example:
 * subsdk0
 * subsdk1
 
+---
+# Game Engine File Formats
+
+## Archive Files
+
+### SZS (ARMS & Mario Kart)
+The SZS file format is used in many of Nintendos first party games on the switch such as `ARMS` and actually comes from the Wii version of Mario Kart. It is an archive file that compresses game assets such as Models and Textures [^3].
+
+{% include link-to-other-site-text.html title="SZS Modifier" url="http://www.chadsoft.co.uk/wiicoder/" word1="SZS" word2="SZS" color1="green" color2="midnight" description="ChadSoft has created a tool to modify SZS files aptly called the SZS Modifier" number="6"  %}
+
+
+
+---
 # References
 [^1]: [RELEASE - ExeFSManager - A Simple ExeFS Manager GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/exefsmanager-a-simple-exefs-manager.526794/)
 [^2]: [differences between nsp and xci files? GBAtemp.net - The Independent Video Game Community](https://gbatemp.net/threads/differences-between-nsp-and-xci-files.511776/)
+[^3]: [CTools & SZS Modifier](http://www.chadsoft.co.uk/wiicoder/)
