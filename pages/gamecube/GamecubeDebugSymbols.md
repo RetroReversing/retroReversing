@@ -7,7 +7,7 @@ tags:
 - reverseengineering
 title: Nintendo Gamecube Games with Debug Symbols
 thumbnail: /public/consoles/Nintendo Gamecube.png
-image: /public/consoles/Nintendo Gamecube.png
+image: /public/N64/Gamecube games with debug symbols.jpg
 permalink: /gamecube-debug-symbols
 breadcrumbs:
   - name: Home
@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: gamecube
 editlink: /gamecube/GamecubeDebugSymbols.md
+updatedAt: 25th April 2020
 ---
 
 Gamecube game executable can come in a number of different formats, one is the standard .DOL file (short for dolphin) and the other is the ELF.
