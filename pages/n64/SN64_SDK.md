@@ -6,7 +6,7 @@ tags:
 - snsystems
 title: SN64 - Nintendo 64 Software Development Kit (SDK)
 thumbnail: /public/consoles/Nintendo 64.png
-image: /public/consoles/Nintendo 64.png
+image: /public/N64/N64 SN64 Software Development Kit.jpg
 permalink: /sn64-sdk-sn-systems
 breadcrumbs:
   - name: Home
@@ -17,6 +17,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/SN64_SDK.md
+updatedAt: 25th April 2020
 ---
 
 SN64 was a software development kit for the Nintendo 64 created by `SN Systems` and popular with 3rd party game developers.
@@ -83,6 +84,7 @@ This archive contains the 32bit SN64 SDK from late 1996 that run under Windows 9
 These files would normally be located in the developers C:\ drive at location `c:\n64\bin32`.
 
 The Full List of files contained in the archive are included below:
+
 Name | Description
 ---|---
 TBIOS2.COM | BIOS replacement for `psybios` for N64 version only
