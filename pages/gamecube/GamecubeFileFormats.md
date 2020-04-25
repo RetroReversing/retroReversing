@@ -6,7 +6,7 @@ tags:
 - reverseengineering
 title: Nintendo Gamecube (Dolphin) File Formats
 thumbnail: /public/consoles/Nintendo Gamecube.png
-image: /public/consoles/Nintendo Gamecube.png
+image: /public/N64/Gamecube File Formats.jpg
 permalink: /gamecube-file-formats
 breadcrumbs:
   - name: Home
@@ -16,7 +16,8 @@ breadcrumbs:
   - name: Nintendo Gamecube File Formats
     url: #
 recommend: gamecube
-editlink: /gamecube/GamecubeFileFormats.md.md
+editlink: /gamecube/GamecubeFileFormats.md
+updatedAt: 25th April 2020
 ---
 
 Extension | Description
