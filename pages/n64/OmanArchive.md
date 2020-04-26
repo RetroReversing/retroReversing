@@ -115,6 +115,89 @@ Co-Simulation is using software to verify and test simulated hardware, in this c
 # HW & HW2 Folders (Hardware Verilog Models)
 Verilog is a Hardware Description Language used to Design and verify hardware. The HW and HW2 folders contain Verilog descriptions for the Nintendo 64 hardware, including the prototype development boards.
 
+
+---
+# TOOLS Folder
+The Tools folder contains the source code of many of the tools distributed in the Nintendo 64 SDK.
+
+There is a `Makefile` in this directory that can be used to build all of the tools at once.
+
+## COMPUTILS 
+The CompUtils folder contains code for a bunch of compiler tools such as `nld`, `gdis`, `gnm` and `r4300_check`.
+
+
+## CONTROLLER 
+The Controller folder contains example C code for a Unix (IRIX) program that can access a game controller. Probably useful for testing code before the N64 hardware was ready by connecting a controller directly to the IRIX workstation.
+
+## CONV - multigen database conversion tools
+Multigen was a tool for creating 3D models and environments on SGI IRIX workstations and so was ideal for creating 3D graphics for the N64.
+
+In fact Nintendo had its own fork of the project specifically for the Nintendo 64 called `Ningen`.
+
+{% include link-to-other-post.html post="/n64-3d-modelling" description="For more information about MultiGen and Ningen check out this post on 3D Modelling Software for the N64." %}
+
+The CONV project is source code for a series of tools to convert Multigen models and textures to a format that can be run on the N64. These tools include:
+* flt2c - Convert 3D models in FLT format to C code
+* rgb2c - convert RGB textures to C code
+* ppmquant - reduce colours in pixmap
+* imscale - RGB image scale tool
+
+## DATA - Verilog data tools
+Not sure exactly what these tools are for but something to do with manipulating `.data` scripts for Verilog.
+
+Tools included I n this package are:
+* checkaudio - extracts and verifies audio from Verilog log file
+* checkhex
+* checkimage - extracts and verifies image from Verilog log file
+* checkvideo - extracts image from `vi.tab` and compare to rgb file
+* data2rdram 
+* rdram2data 
+* rdram2image 
+* rdramgclr
+* bump - creates bump map?
+* dump2mem 
+* gbi2mem
+
+There seems to be a few tools from converting rdram to data and back but it is not clear what the purpose of this would be.
+
+## DLPRINT - Print DisplayLists
+This folder is the course code for a tool called `dlprint` that basically sits in a loop waiting for Display Lists to be passed to it and it will print them to the console, very useful for debugging.
+
+So how exactly do we pass display lists to the tool? Well it seems to use a macro defined in `u64gio.h` called `DEV_U64_DATA` for this purpose and is set to the path: `/dev/u64_data`.
+
+Notice that this is a UNIX device (in `/dev` folder) so it is used to communicate with the N64 development board that was inside the workstation.
+
+It calls a function called `uhOpenGame` which is defined in the `LIBULTRAHOST` project in the file `OPENGAME.C`. It returns a file descriptor if it succeeds.
+
+## DRIVERD - Driver Daemon startup utility
+This folder contains the source code for a program called `driverd` which is used to setup the N64 emulation hardware. This program is a daemon so it runs in the background and should only ever be running one instance at any given time. 
+
+It provides functionality to send commands to running games and read responses. You can use this functionality by using the IRIX device driver for u64. See the `dlprint` source code above for example code utilising this driver daemon.
+
+## EMULATE - N64 Emulator by SGI
+This folder contains the source code for the `emulate` executable and the library `libem.a`. The emulate tool takes in a rom image and a bunch of parameters whether to enable lighting and openGL. 
+
+This tool is used as a High Level emulator running on the IRIX workstation and forks a process of each of the RSP and RDP simulators to handle the additional chips.
+
+## GLOAD - Game Loader
+This folder contains the source code for the command `gload` which is use for loading a ROM into the N64 development board inside the IRIX workstation. Unlike the emulate tool this actually runs the game on real N64 hardware.
+
+## GPERF - Game Performance Profiler
+The source code for the `gperf` tool is in this folder, the tool is used to help game developers optimise their code by profiling how much time is spent in each function.
+
+## MAKEROM
+This folder contains the source code for the `makerom` utility which converts a `specfile` into a ROM image that can be run on the hardware and also an ELF executable that can be run in the debugger (GVD).
+
+## KDEBUG - Kernel Debugger
+This folder contains the source code for the Kernel Debugger known as `kdebug`, this tool was used to send debugging information to and from the N64 development kit hardware inside the IRIX workstation. It used the `/dev/u64_kdebug` device driver for the communication. 
+
+## GCORD - Code Re-order tool
+This folder contains source code for two versions of a tool called `gcord`, which is similar to the Unix command `cord`. The purpose is to optimise the game code to fit into the machines cache more efficiently.
+
+---
+# usr and var folders
+These 2 folders are just extracted versions from the INSTD.tar file at the root of the project, please see the section on that topic for more information.
+
 ---
 # References
 [^1]: [Why did N64 emulation hit a reef? : emulation](https://www.reddit.com/r/emulation/comments/6leedm/why_did_n64_emulation_hit_a_reef/) 
@@ -122,3 +205,4 @@ Verilog is a Hardware Description Language used to Design and verify hardware. T
 [^3]: [inst - IRIX](https://nixdoc.net/man-pages/IRIX/man1/inst.1.html)
 [^4]: [master - IRIX](http://nixdoc.net/man-pages/IRIX/man2/man4/master.4.html)
 [^5]: [HW/SW CoSim](http://www.frobnotz.com/cosim/cosim.html)
+[^6]: [cord(1) [osf1 man page]](https://www.unix.com/man-page/osf1/1/cord/)
