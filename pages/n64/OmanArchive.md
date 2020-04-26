@@ -117,6 +117,58 @@ Verilog is a Hardware Description Language used to Design and verify hardware. T
 
 
 ---
+# Man Folder (Manual Pages)
+This folder contains all the Manual pages (known as man pages in unix) for the entire N64 development kit.
+
+If you ever wonder what a specific tool or function was used for in N64 development then this is the best place to search.
+
+During install of the development kit, two versions were created of these files, one in the standard man page location and the other in PostScript file format intended for physically printing out.
+
+---
+# RDPSIM & RDPSIM2 Folders (Reality Display Processor Simulation)
+These folders contain two slightly different versions of the Reality Display Processor Simulator. This was used to help software developers start coding their games while the hardware was still being developed and also as a way to test the hardware while it was being created.
+
+---
+# RSPASM & RSPASM1201 Folders (Reality Signal Processor Assembler)
+This folder contains the source code for the Assembler used to compile `*.S` assembly files into RSP microcode (uCode).
+
+To do this they have created a yacc parser grammar file called `PARSER.G.Y` and a Lexer called `PARSER.LX.L`.  Also included are a few AWK scripts to help the assembler with tasks such as wrapping the file in C code etc.
+
+This is a fairly standard way to create an assembler or compiler and it doesn't take very long to understand the YACC grammar syntax and you can understand how it works.
+
+The `RSPASM1201` is just a previous version of the `RSPASM` folder from the 1st of December (12/01) used for regression testing of the RSP.
+
+---
+# RSPCODE Folder (RSP uCode microcode)
+This folder contains RSP source code (known as uCode or microcode) for performing a bunch of tasks on the RSP (Reality Signal Processor) chip.
+
+These include:
+* AUDIO - playing Sounds and Music using the RSP
+* GRAPHICS - Graphics calculations such as Lighting etc 
+* MANTEST - Manufacturing Test Vectors microcode
+* MPAUDIO.DELETED - MPEG audio microcode (deprecated)
+* MPVIDEO.DELETED - MPEG video microcode (deprecated)
+* RSPBOOT - The Boot (Startup) code for the RSP
+* VIDEO - MPEG video microcode
+* grfx_ucode_src.zip - compressed version of the `GRAPHICS` folder
+
+All the source code requires `RSPASM` to assemble into object files and then `RSP2ELF` to convert into an executable file format.
+
+
+---
+# RSPSIM Folder (Reality Signal Processor Simulation)
+This folder contains the source code for a full simulator (emulator) of the RSP (Reality Signal Processor). This was created to allow developers to start writing RSP scripts while the hardware was still being developed.
+
+There are a few executables that this source code builds which are:
+* rsp - main simulation executable (CLI version)
+* rspg - main simulation executable (GUI version)
+* rsp_ops - utility to dump the disassembly of the command set
+
+These tools helped 1st party developers (and a few lucky third parties) write and debug their RSP microcode on their workstation without constantly testing on the hardware.
+
+{% include link-to-other-post.html post="/n64rsp" description="For more information about the RSP check out this page." %}
+
+---
 # TOOLS Folder
 The Tools folder contains the source code of many of the tools distributed in the Nintendo 64 SDK.
 
