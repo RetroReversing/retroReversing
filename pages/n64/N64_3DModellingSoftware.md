@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64_3DModellingSoftware.md
-updatedAt: 9th January 2020
+updatedAt: 26th April 2020
 ---
 
 During the Nintendo 64s lifetime 3D modelling tools evolved at an incredible pace. 3D games were the new trend which pushed developers into creating new 3D games in order to get published.
@@ -38,7 +38,7 @@ Ningen was a custom version of the realtime 3D modelling software called `MultiG
 
 The company Multigen were well known for creating very good 3D modelling tools for a variety of purposes, such as flight simulators and games.
 
-They were developed to run on Sri's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations. Although a later version was released for Windows NT based systems, the price of the software itself at 9 thousand dollars was still rather costly.
+They were developed to run on SGI's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations. Although a later version was released for Windows NT based systems, the price of the software itself at 9 thousand dollars was still rather costly.
 
 The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4]. Unlike its competitors such as Softimage and 3D Studio Max, Multigen did not offer any animation functionality as it was presumed that it would be handeled manually in the game engine [^15].
 
