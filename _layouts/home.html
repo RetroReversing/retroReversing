@@ -3,6 +3,20 @@
 <head>
   {% include head.html %}
   <style>
+    .rr-head-hero {
+      width: 80%; 
+      display: list-item;
+    }
+    @media screen and (max-width: 600px) {
+      .rr-head-consoles {
+        display: none;
+      }
+      .rr-head-hero {
+        width: 100%; 
+        display: list-item;
+      }
+    }
+    
     .console-img {
       width: 45px;
     margin-left: 10px;
@@ -33,10 +47,10 @@
 
   <!-- main -->
   <div style="display:flex; width:100%; height:350px;">
-    <div style="width: 80%; display: list-item;">
+    <div class="rr-head-hero">
       {% include hero.html %}
     </div>
-    <div style="width:20%; background-color: #292F33;">
+    <div class="rr-head-consoles" style="width:20%; background-color: #292F33;">
 	    	<ul class="head-console-list">
             <a href="/n64/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png" /> <strong>Nintendo 64</strong></li></a>
             <a href="/ps1/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sony%20Playstation.png" /> <strong>Sony Playstation</strong></li></a>
