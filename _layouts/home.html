@@ -14,6 +14,9 @@
     }
     .head-console-item {
       padding: 10px;
+      strong {
+        color:white;
+      }
     }
   </style>
 </head>
@@ -29,14 +32,14 @@
     </div>
     <div style="width:20%; background-color: #292F33;">
 	    	<ul class="head-console-list">
-            <a href="/n64/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png">Nintendo 64</li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sony Playstation</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sega Saturn</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Microsoft Xbox</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Nintendo Wii U</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sega Dreamcast</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Nintendo GameBoy</strong></li></a>
-            <a href="#"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sony Playstation 2</strong></li></a>
+            <a href="/n64/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Nintendo 64</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sony Playstation</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sega Saturn</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Microsoft Xbox</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Nintendo Wii U</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sega Dreamcast</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Nintendo GameBoy</strong></li></a>
+            <a href="#" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="https://www.retroreversing.com/public/consoles/Nintendo%2064.png"> <strong>Sony Playstation 2</strong></li></a>
         </ul>
     </div>
   </div>
@@ -61,7 +64,7 @@
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video wow slideInUp">
                   <div class="card-img">
-                      <a href="{{ post.url }}">
+                      <a href="{{ post.url }}" target="_blank">
                         {% if post.image %}
                             <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
                         {% else if post.youtube %}
@@ -96,7 +99,7 @@
     </div>
     
     <div class="rr-twitter">
-      <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw" target="_blank">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </div>
       
   </section>
