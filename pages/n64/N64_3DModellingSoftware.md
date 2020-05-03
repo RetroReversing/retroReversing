@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64_3DModellingSoftware.md
-updatedAt: 26th April 2020
+updatedAt: 3rd May 2020
 ---
 
 During the Nintendo 64s lifetime 3D modelling tools evolved at an incredible pace. 3D games were the new trend which pushed developers into creating new 3D games in order to get published.
@@ -115,6 +115,8 @@ NIFF Editor was part of the package known as `NIFF Navigator` and the first vers
 Deluxe Paint (Dpaint) was the most popular tool for making textures, along with PaintShopPro and PhotoShop. So any editor which supported saving the SGI's RGB format was supported and their were tools to convert other formats to RGB.
 
 In order to use the textures in a Nintendo 64 game, the official SDK came with the command line tool called `rgb2c` which converted a SGI RGB image file into compilable C Code!
+
+If the texture was referenced in a 3D model format such as Ningen (`*.flt`) then it would be automatically converted to C-code when the model was converted.
 
 
 
