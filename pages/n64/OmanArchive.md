@@ -138,7 +138,7 @@ Name | Description
 ABI.DOC | Audio Binary Interface MakerFile Documentation
 ANIMATION_ENGINE.FM | Brief overview of 3D Animation of Models
 AS.FM | Graphics Algorithm Simulator
-AUDBI.FM | Audio Binary Interface 1.0 command reference (e.g for `A_CLEARBUFF`)
+AUDBI.FM | Audio Binary Interface 1.0 command reference (e.g for `A_CLEARBUFF`)
 AUDUCODE.FM | RSP Audio Microcode Architecture
 AUDUCODE.PS | Same as `AUDUCODE.FM` but in Postscript format
 BLEND_MODES.TXT | Very detailed description of the Blend Modes by `Phil Gossett`
@@ -146,8 +146,7 @@ CHAR_PLAN.DOC | Device Characterization checklist
 CHIP_DESIGN_DIRS.FM | Description of the Verilog folders
 DEBUGGER.TXT | Notes on how to use the `CaseVision Debugger`
 DIAGNOSTIC_PROPOSAL.FM | Proposal to create a `Diagnostic System` for the Nintendo 64 Hardware and Software 
-DIAGS.DOC | Diagnostic program documentation for the Ultra 64 development 
-board
+DIAGS.DOC | Diagnostic program documentation for the Ultra 64 development board
 DMA_PERFORMANCE | DMA Performance Analysis
 EMULATOR.TXT | Status of the Graphics Binary Interface Emulator for SGI workstations
 ENDIAN.TXT | Brief notes on Big Endian bit ordering
