@@ -172,7 +172,9 @@ Instructions must fit in the 4KB IMEM memory region so this limits the microcode
 To get around this limitation code `overlays` can be used and will be discussed further on, however it is important to note that the use of code `overlays` has a negative performance impact.
 
 # Display Lists
-Display lists can be thought of as a set of commands (ucode) that can be used by the programmer to manipulate the RSP’s currently running microcode [^5].
+Display lists can be thought of as a set of commands that can be used by the programmer to manipulate the RSP’s currently running microcode [^5]. Basically we want the CPU to setup a list of commands that the RSP will use to calculate the next frame, which the RSP will run in parallel while the CPU is computing game logic. 
+
+So you can think of a display list as an array of 64-bit words (8 bytes) where each element of the array is a command that the RSP will use to render the frame.
 
 # Graphical Binary Interface (GBI)
 The graphics programmer controls the RSP from main game code using the GBI. 
