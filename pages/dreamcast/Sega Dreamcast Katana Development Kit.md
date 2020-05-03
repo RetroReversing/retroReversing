@@ -8,7 +8,7 @@ tags:
 - sega
 title: Sega Dreamcast Katana Development Kit Hardware
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
+image: https://img.youtube.com/vi/kuff6PgoEuc/hqdefault.jpg
 permalink: /Sega-Dreamcast-Katana-Development-Kit
 breadcrumbs:
   - name: Home
@@ -19,18 +19,17 @@ breadcrumbs:
     url: #
 videocarousel:
   - title: Sega Dreamcast Development Hardware Collection
-    image: http://img.youtube.com/vi/yia0jHPFfA4/0.jpg
+    image: https://img.youtube.com/vi/yia0jHPFfA4/0.jpg
     youtube: 'yia0jHPFfA4'
   - title: Sega Dreamcast Katana Development Kit (Earlier Development Kit)
-    image: http://img.youtube.com/vi/kuff6PgoEuc/0.jpg
+    image: https://img.youtube.com/vi/kuff6PgoEuc/0.jpg
     youtube: 'kuff6PgoEuc'
   - title: Sega Dreamcast Dev Kit Overview of buttons and ports
-    image: http://img.youtube.com/vi/upUbGLl9vJg/0.jpg
+    image: https://img.youtube.com/vi/upUbGLl9vJg/0.jpg
     youtube: 'upUbGLl9vJg'
   - title: Sega Dreamcast Dev Kit Capturing in game screenshots (DC Capture)
-    image: http://img.youtube.com/vi/qU3l5RUswgA/0.jpg
+    image: https://img.youtube.com/vi/qU3l5RUswgA/0.jpg
     youtube: 'qU3l5RUswgA'
-  
 recommend: sega
 references:
 - The Adequate Gamer
