@@ -42,6 +42,8 @@ They were developed to run on SGI's IRIX Operating system and so would be limite
 
 The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4]. Unlike its competitors such as Softimage and 3D Studio Max, Multigen did not offer any animation functionality as it was presumed that it would be handeled manually in the game engine [^15].
 
+The official Nintendo 64 SDK came with documentation that covered the use of Ningen files (`*.flt`) and a few tools to convert the FLT format into C-code that could be used in a game.
+
 Notable Games with assets created in Multigen:
 * San Francisco Rush (N64, PS1) [^15]
 </div>
@@ -110,7 +112,9 @@ NIFF Editor was part of the package known as `NIFF Navigator` and the first vers
 
 ---
 # Texture Creation
-Deluxe Paint (Dpaint) was the most popular tool for making textures, along with PaintShopPro and PhotoShop.
+Deluxe Paint (Dpaint) was the most popular tool for making textures, along with PaintShopPro and PhotoShop. So any editor which supported saving the SGI's RGB format was supported and their were tools to convert other formats to RGB.
+
+In order to use the textures in a Nintendo 64 game, the official SDK came with the command line tool called `rgb2c` which converted a SGI RGB image file into compilable C Code!
 
 
 
