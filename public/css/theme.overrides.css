@@ -226,9 +226,6 @@ blockquote {
 p .language-plaintext {
   padding-left: 5px;
 }
-.language-plaintext,.highlighter-rouge {
-  padding-left:5%;
-}
 
 .language-plaintext pre {
   background-color: #333;
