@@ -2,7 +2,7 @@
 title: Writing NES Games with Assembly
 layout: post
 permalink: /writing-nes-games/
-image: http://i3.ytimg.com/vi/kXbMCKMJXXQ/hqdefault.jpg
+image: https://i3.ytimg.com/vi/kXbMCKMJXXQ/hqdefault.jpg
 tags:
 - nes
 - programming
