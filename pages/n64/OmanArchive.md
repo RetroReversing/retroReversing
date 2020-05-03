@@ -132,6 +132,7 @@ For anyone trying to reverse engineer the old FrameMaker format, they is a Posts
 
 Hopefully someone will be able to convert them to a PS, PDF or HTML file someday for us all to enjoy.
 
+
 Name | Description
 ---|---
 ABI.DOC | Audio Binary Interface MakerFile Documentation
@@ -212,6 +213,7 @@ ULTRADBG.TXT | Very interesting document on how to debug N64 code
 VIDEO_MODES.TXT | Described the different video modes for both NTSC and PAL
 YIELD.TXT | Notes on What Yield is (e.g `osSpTaskYield`)
 
+
 One of the most interesting documents in this list that can be easily read is `SWARCH.PS` as it contains plenty of interesting information about how the software architecture works.
 
 ## HW - Hardware Documentation
@@ -224,30 +226,30 @@ HW/ATTRIBUTEBUFFER.FM | Attribute Buffering
 HW/AUDIO_DOC | AI CONTROLLER PROGRAMMING INTERFACE
 HW/BL.FM | Hardware Blender description
 HW/CC.FM | Color Combiner hardware
-HW/CELL_NEEDS.FM
-HW/CELL_TRACK.FM
-HW/CS.FM
-HW/CSIM_INTRO.DOC
-HW/CYCLES
-HW/EWCTR.FM
-HW/HWSYMBOLS.FM
-HW/OS_DEV.SC
-HW/OS_VIDEO.SC
+HW/CELL_NEEDS.FM | 
+HW/CELL_TRACK.FM | 
+HW/CS.FM | 
+HW/CSIM_INTRO.DOC | 
+HW/CYCLES | 
+HW/EWCTR.FM | 
+HW/HWSYMBOLS.FM | 
+HW/OS_DEV.SC | 
+HW/OS_VIDEO.SC | 
 HW/PI_BLOCK.TXT | PI Datapath Block Diagram
-HW/PI.FM
+HW/PI.FM | 
 HW/PIN_LIST | List of all the pins on the RCP
-HW/PROTOBOARD.SH
-HW/RAMSPEC.SC
-HW/RCP_BLOCK.FM
-HW/RCP_IO.FM
-HW/REGFILESPEC.SC
-HW/SHUFFLETABLE.FM
+HW/PROTOBOARD.SH | 
+HW/RAMSPEC.SC | 
+HW/RCP_BLOCK.FM | 
+HW/RCP_IO.FM | 
+HW/REGFILESPEC.SC | 
+HW/SHUFFLETABLE.FM | 
 HW/SI_SPEC.TXT | Serial Interface specification
-HW/TAB_FORMAT.DOC
-HW/TESTER_CRC.DOC
-HW/TF.FM
+HW/TAB_FORMAT.DOC | 
+HW/TESTER_CRC.DOC | 
+HW/TF.FM | 
 HW/TOOLTIPS | Tips for using the tools Verilog and Compass
-HW/TRI_FORMAT.FM
+HW/TRI_FORMAT.FM | 
 HW/VERILOG_HEADER_TEST | Source code header - not interesting
 HW/WIREDELAYS | Email rising wire resistance and capacitance
 
@@ -259,17 +261,17 @@ Name | Description
 VERIF/BL | hardware Blender test cases
 VERIF/CC | Color combiner test cases
 VERIF/CS | Command Shuffle Unit Test Plan
-VERIF/CV
+VERIF/CV | 
 VERIF/EW | Edge Walker Unit Test Plan
-VERIF/HIGHLEVELTEST
-VERIF/IO
-VERIF/MS
-VERIF/RDPOVERALL
-VERIF/RDPVERIF.FM
-VERIF/ST
-VERIF/TC
-VERIF/TF
-VERIF/TM
+VERIF/HIGHLEVELTEST | 
+VERIF/IO | 
+VERIF/MS | 
+VERIF/RDPOVERALL | 
+VERIF/RDPVERIF.FM | 
+VERIF/ST | 
+VERIF/TC | 
+VERIF/TF | 
+VERIF/TM | 
 
 ## PICS
 These are pictures in SGI RGB format but it is currently unclear where they are used. If you want to view them just add the `.SGI` extension to the end of them and you can open them in most image editors.
@@ -289,9 +291,8 @@ PICS/PIC8.SGI | lots of squares with different patterns in them
  ## AUDIO
 Not sure why a new directory was created for one file but this folder does exactly what it says on the tin, has Audio documentation in it. Which is only one file which contains the Audio API functions.
 
-Name | Description
----|---
-AUDIO/AUDIOLIBREF.DOC | Audio Library Reference
+The file is:
+* AUDIO/AUDIOLIBREF.DOC - Audio Library Reference
 
 ## DEV
 The documents this folder are intended to be released to developers when they obtain the SDK.
@@ -350,6 +351,7 @@ DEV/TEXRECT.DOC  | Chapter 14
 DEV/TEXTURE.DOC  | Chapter 13
 DEV/WALKAPP.DOC | Unreleased documentation about a Haunted house demo
 
+
 The file `DEV/WALKAPP.DOC` seems to have never been released to developers as part of the SDK as it describes a N64 demo where a user walks around a haunted house.
 
 ### DEV/SCRIPTS
@@ -357,38 +359,38 @@ This folder just contains the scripts to convert the FrameMaker files into PostS
 
 Name | Description
 ---|---
-DEV/SCRIPTS/UPDATE.SCRIPT
-DEV/SCRIPTS/PRINT_TO_PS.FM
-DEV/SCRIPTS/PS.SCRIPT
+DEV/SCRIPTS/UPDATE.SCRIPT | 
+DEV/SCRIPTS/PRINT_TO_PS.FM | 
+DEV/SCRIPTS/PS.SCRIPT | 
 
 ## RSP
 
 Name | Description
 ---|---
-RSP/ADVANCED.DOC
-RSP/APPENDIXA.DOC
-RSP/COP0.DOC
-RSP/MAKEFILE
-RSP/OVERVIEW.DOC
-RSP/RSPARCH.DOC
-RSP/RSPASM.DOC
-RSP/RSPPROGGUIDE.BOOK
-RSP/RSPPROGGUIDEIX.DOC
-RSP/RSPPROGGUIDELABELS.FM
-RSP/RSPPROGGUIDELOF.DOC
-RSP/RSPPROGGUIDELOT.DOC
-RSP/RSPPROGGUIDETOC.DOC
-RSP/RSPREFCARD.FM
-RSP/TITLEPAGE.DOC
-RSP/VUINST.DOC
+RSP/ADVANCED.DOC | 
+RSP/APPENDIXA.DOC | 
+RSP/COP0.DOC | 
+RSP/MAKEFILE | 
+RSP/OVERVIEW.DOC | 
+RSP/RSPARCH.DOC | 
+RSP/RSPASM.DOC | 
+RSP/RSPPROGGUIDE.BOOK | 
+RSP/RSPPROGGUIDEIX.DOC | 
+RSP/RSPPROGGUIDELABELS.FM | 
+RSP/RSPPROGGUIDELOF.DOC | 
+RSP/RSPPROGGUIDELOT.DOC | 
+RSP/RSPPROGGUIDETOC.DOC | 
+RSP/RSPREFCARD.FM | 
+RSP/TITLEPAGE.DOC | 
+RSP/VUINST.DOC | 
 
 ### RSP/PS
 
 Name | Description
 ---|---
-RSP/PS/AA.ZIP
-RSP/PS/RSPPROGGUIDE.PS
-RSP/PS/RSPREFCARD.PS
+RSP/PS/AA.ZIP | 
+RSP/PS/RSPPROGGUIDE.PS | 
+RSP/PS/RSPREFCARD.PS | 
 
 
 
@@ -396,55 +398,55 @@ RSP/PS/RSPREFCARD.PS
 
 Name | Description
 ---|---
-RSP/SCRIPTS/UPDATE.SCRIPT
-RSP/SCRIPTS/PRINT_TO_PS.FM
-RSP/SCRIPTS/REFCARD.SCRIPT
-RSP/SCRIPTS/PS.SCRIPT
+RSP/SCRIPTS/UPDATE.SCRIPT | 
+RSP/SCRIPTS/PRINT_TO_PS.FM | 
+RSP/SCRIPTS/REFCARD.SCRIPT | 
+RSP/SCRIPTS/PS.SCRIPT | 
 
 
 ## MSP_EXAMPLE
 
 Name | Description
 ---|---
-MSP_EXAMPLE/MSP_TRANSFORM.TXT
-MSP_EXAMPLE/README
-MSP_EXAMPLE/MSP_LIGHT.TXT
-MSP_EXAMPLE/MSP_SETUP.TXT
+MSP_EXAMPLE/MSP_TRANSFORM.TXT | 
+MSP_EXAMPLE/README | 
+MSP_EXAMPLE/MSP_LIGHT.TXT | 
+MSP_EXAMPLE/MSP_SETUP.TXT | 
 
 
 ## 4300 - The N64 CPU
 
 Name | Description
 ---|---
-4300/ADDENDUM.DOC
-4300/BLOCKWRITE.MIF
-4300/BLOCKWRITE.SUP
-4300/BOOK
-4300/BOOKLOF.DOC
-4300/BOOKLOT.DOC
-4300/BOOKTOC.DOC
-4300/CACHE.DOC
-4300/CLOCKS.DOC
-4300/CP0.DOC
-4300/CP0.DOC.RECOVER
-4300/DELAYEDREAD.MIF
-4300/DELAYEDREAD.SUP
-4300/DIFF.DOC
-4300/DIFFICE.DOC
-4300/ELECTRICAL.DOC
-4300/EXCP_HAND.DOC
-4300/EXECUTION.DOC
-4300/FMDICTIONARY
-4300/FUNDAMENTAL.DOC
-4300/GLOSSARY.DOC
-4300/HISTORY.DOC
-4300/INTRO.DOC
-4300/JTAG.DOC
-4300/OVERVIEW.DOC
-4300/SYSINTF.DOC
-4300/TEMP.DOC
-4300/TESTMODE.DOC
-4300/TITLE.DOC
+4300/ADDENDUM.DOC | 
+4300/BLOCKWRITE.MIF | 
+4300/BLOCKWRITE.SUP | 
+4300/BOOK | 
+4300/BOOKLOF.DOC | List of Figures
+4300/BOOKLOT.DOC  | List of Tables
+4300/BOOKTOC.DOC | Table of contents
+4300/CACHE.DOC | 
+4300/CLOCKS.DOC | 
+4300/CP0.DOC | 
+4300/CP0.DOC.RECOVER | Old version of `CP0.DOC`
+4300/DELAYEDREAD.MIF | 
+4300/DELAYEDREAD.SUP | 
+4300/DIFF.DOC | 
+4300/DIFFICE.DOC | 
+4300/ELECTRICAL.DOC | 
+4300/EXCP_HAND.DOC | 
+4300/EXECUTION.DOC | 
+4300/FMDICTIONARY | 
+4300/FUNDAMENTAL.DOC | 
+4300/GLOSSARY.DOC | 
+4300/HISTORY.DOC | 
+4300/INTRO.DOC | 
+4300/JTAG.DOC | 
+4300/OVERVIEW.DOC | 
+4300/SYSINTF.DOC | 
+4300/TEMP.DOC | 
+4300/TESTMODE.DOC | 
+4300/TITLE.DOC | 
 
 
 ---
