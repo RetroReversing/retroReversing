@@ -18,6 +18,7 @@ breadcrumbs:
 recommend: n64
 editlink: /n64/OmanArchive.md
 updatedAt: 3rd May 2020
+twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
 ---
 
 The "Oman Archive" was a leak of Nintendo Technical documents from a source inside SGI in late 1999. It was uploaded to the internet under the name `oman.rar` but has since been repackaged into multiple other archive formats.
