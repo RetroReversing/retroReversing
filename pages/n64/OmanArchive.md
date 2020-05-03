@@ -4,7 +4,7 @@ tags:
 - n64
 - sdk
 - leak
-title: Oman Archive
+title: Oman Archive - N64 Leak by SGI employee
 thumbnail: /public/consoles/Nintendo 64.png
 image: /public/N64/N64 Oman Archive.jpg
 permalink: /oman-archive
@@ -218,134 +218,142 @@ One of the most interesting documents in this list that can be easily read is `S
 
 Name | Description
 ---|---
-HW/CYCLES
-HW/PI_BLOCK.TXT
-HW/HWSYMBOLS.FM
-HW/CELL_TRACK.FM
-HW/PI.FM
-HW/VERILOG_HEADER_TEST
-HW/BL.FM
-HW/4300_PIN_LIST
-HW/SHUFFLETABLE.FM
-HW/CC.FM
-HW/OS_VIDEO.SC
+HW/4300_PIN_LIST | Comparison between the VR4300i and Nintendo R4300i Pins, most are the same but some are off by one such as EValidB
+HW/ASICSYN_QUICK_REFERENCE | ASIC Synthesizer Quick Reference
+HW/ATTRIBUTEBUFFER.FM | Attribute Buffering
+HW/AUDIO_DOC | AI CONTROLLER PROGRAMMING INTERFACE
+HW/BL.FM | Hardware Blender description
+HW/CC.FM | Color Combiner hardware
 HW/CELL_NEEDS.FM
-HW/TAB_FORMAT.DOC
-HW/CSIM_INTRO.DOC
-HW/EWCTR.FM
-HW/TF.FM
-HW/REGFILESPEC.SC
-HW/TESTER_CRC.DOC
-HW/RCP_BLOCK.FM
-HW/AUDIO_DOC
-HW/RAMSPEC.SC
-HW/WIREDELAYS
-HW/TRI_FORMAT.FM
-HW/ASICSYN_QUICK_REFERENCE
-HW/ATTRIBUTEBUFFER.FM
-HW/RCP_IO.FM
-HW/PROTOBOARD.SH
+HW/CELL_TRACK.FM
 HW/CS.FM
-HW/SI_SPEC.TXT
-HW/TOOLTIPS
-HW/PIN_LIST
+HW/CSIM_INTRO.DOC
+HW/CYCLES
+HW/EWCTR.FM
+HW/HWSYMBOLS.FM
 HW/OS_DEV.SC
+HW/OS_VIDEO.SC
+HW/PI_BLOCK.TXT | PI Datapath Block Diagram
+HW/PI.FM
+HW/PIN_LIST | List of all the pins on the RCP
+HW/PROTOBOARD.SH
+HW/RAMSPEC.SC
+HW/RCP_BLOCK.FM
+HW/RCP_IO.FM
+HW/REGFILESPEC.SC
+HW/SHUFFLETABLE.FM
+HW/SI_SPEC.TXT | Serial Interface specification
+HW/TAB_FORMAT.DOC
+HW/TESTER_CRC.DOC
+HW/TF.FM
+HW/TOOLTIPS | Tips for using the tools Verilog and Compass
+HW/TRI_FORMAT.FM
+HW/VERILOG_HEADER_TEST | Source code header - not interesting
+HW/WIREDELAYS | Email rising wire resistance and capacitance
 
 ## VERIF
 Hardware verification documentation files are located in this folder.
 
 Name | Description
 ---|---
-VERIF/RDPOVERALL
-VERIF/HIGHLEVELTEST
-VERIF/MS
-VERIF/BL
-VERIF/EW
-VERIF/RDPVERIF.FM
-VERIF/CS
-VERIF/IO
-VERIF/TM
-VERIF/TC
-VERIF/ST
+VERIF/BL | hardware Blender test cases
+VERIF/CC | Color combiner test cases
+VERIF/CS | Command Shuffle Unit Test Plan
 VERIF/CV
-VERIF/CC
+VERIF/EW | Edge Walker Unit Test Plan
+VERIF/HIGHLEVELTEST
+VERIF/IO
+VERIF/MS
+VERIF/RDPOVERALL
+VERIF/RDPVERIF.FM
+VERIF/ST
+VERIF/TC
 VERIF/TF
+VERIF/TM
 
 ## PICS
-These are pictures in all sorts of different formats but it is currently unclear where they are used.
+These are pictures in SGI RGB format but it is currently unclear where they are used. If you want to view them just add the `.SGI` extension to the end of them and you can open them in most image editors.
 
 Name | Description
 ---|---
-PICS/TENNIS1.CIF
-PICS/PIC8.SGI
-PICS/BALL.1
-PICS/TEN1.MB
-PICS/TEN1.BLK
-PICS/LOGO_SGI.SMALL
-PICS/INTL.RGB
-PICS/BALL.2
-PICS/BALL.3
+PICS/BALL.1 | Unknown image format starts with Magic number: 59 A6 6A 95
+PICS/BALL.2 | Not an SGI image
+PICS/BALL.3 | Not an SGI image
+PICS/INTL.RGB | Has the TDK logo in it, very blurry greyscale
+PICS/LOGO_SGI.SMALL | Small SGI logo (205x196)
+PICS/TEN1.MB | Square with white pixels in bottom left and dark grey everywhere else
+PICS/TEN1.BLK | Small white Square with grey pixels in the top right corner
+PICS/TENNIS1.CIF | Greyscale image of man holding ping pong racket and bouncing ball on it
+PICS/PIC8.SGI | lots of squares with different patterns in them
 
  ## AUDIO
+Not sure why a new directory was created for one file but this folder does exactly what it says on the tin, has Audio documentation in it. Which is only one file which contains the Audio API functions.
 
 Name | Description
 ---|---
-AUDIO/AUDIOLIBREF.DOC
+AUDIO/AUDIOLIBREF.DOC | Audio Library Reference
 
 ## DEV
 The documents this folder are intended to be released to developers when they obtain the SDK.
 
+Pretty much all of this is already available on the web such as on square7.ch: [N64 Programming Manual](http://n64devkit.square7.ch/pro-man/index.htm).
+
+As such we have just listed the chapter that each document corresponds to int he table below.
+
 Name | Description
 ---|---
-DEV/DK32.PS
-DEV/BARKLEY.PS
-DEV/TEMPLATE.DOC
-DEV/PARTAUDIOTAB.DOC
-DEV/OSCORE.DOC
-DEV/TEXRECT.DOC
-DEV/SPRITES.DOC
-DEV/BLENDER.DOC
-DEV/PARTPERFORMANCETAB.DOC
-DEV/GAMESHOP.DOC
-DEV/SOFTWAREBRINGUP.DOC
-DEV/OSINTRO.DOC
-DEV/MAKEFILE
-DEV/INSTALLATION.DOC
-DEV/PARTGETSTARTEDTAB.DOC
-DEV/RDPSTATEMACHINE.DOC
-DEV/DK32SF.PS
-DEV/SCHEDULER.DOC
-DEV/PERFORMANCETUNE.DOC
-DEV/PRDEV.BOOK
-DEV/ADVMEMORYMGMT.DOC
-DEV/MUSICIANMAN.DOC
-DEV/TEXTURE.DOC
-DEV/RSPSTATEMACHINE.DOC
-DEV/PRDEVTOC.DOC
-DEV/IO.DOC
-DEV/SPRITEUCODE.DOC
-DEV/PARTGRAPHICSTAB.DOC
-DEV/OVERVIEWRUNTIME.DOC
-DEV/AUDIOFORMATS.DOC
-DEV/PARTDEVTOOLSTAB.DOC
-DEV/PARTINDEXTAB.DOC
-DEV/PRDEVLOT.DOC
-DEV/OVERVIEWCOMPILETIME.DOC
-DEV/AUDIOTOOLS.DOC
-DEV/PARTOVERVIEWTAB.DOC
-DEV/MEMORYMGMT.DOC
-DEV/AUDIOLIB.DOC
-DEV/PERFORMANCETUNE.PS
-DEV/AUDIOMEMORYUSAGE.DOC
-DEV/STYLE_STRUCTURE.TXT
-DEV/PRDEVIX.DOC
-DEV/PARTOSTAB.DOC
-DEV/OVERVIEWHARDWARE.DOC
-DEV/PRDEVLOF.DOC
-DEV/GFXUCODE.DOC
-DEV/WALKAPP.DOC
+DEV/ADVMEMORYMGMT.DOC | Chapter 10
+DEV/AUDIOFORMATS.DOC | Chapter 19
+DEV/AUDIOLIB.DOC | Chapter 17
+DEV/AUDIOMEMORYUSAGE.DOC | Chapter 21
+DEV/AUDIOTOOLS.DOC | Chapter 18
+DEV/BARKLEY.PS | Seems to be incomplete guide to setting up Development hardware
+DEV/BLENDER.DOC | Chapter 15
+DEV/DK32.PS | Image of Donkey Kong as a RGBA32 texture
+DEV/DK32SF.PS | Upside down image of Diddy kong
+DEV/GAMESHOP.DOC | Chapter 23
+DEV/GFXUCODE.DOC | Chapter 25
+DEV/INSTALLATION.DOC | Chapter 1
+DEV/IO.DOC  | Chapter 8
+DEV/MAKEFILE | makefile to create Postscript versions of the FrameMaker files
+DEV/MEMORYMGMT.DOC  | Chapter 9
+DEV/MUSICIANMAN.DOC | Chapter 20
+DEV/OSCORE.DOC  | Chapter 7
+DEV/OSINTRO.DOC  | Chapter 6
+DEV/OVERVIEWCOMPILETIME.DOC | Chapter 5
+DEV/OVERVIEWHARDWARE.DOC  | Chapter 3
+DEV/OVERVIEWRUNTIME.DOC  | Chapter 4
+DEV/PARTAUDIOTAB.DOC | PART files are just collections of chapters
+DEV/PARTDEVTOOLSTAB.DOC | PART files are just collections of chapters
+DEV/PARTGETSTARTEDTAB.DOC | PART files are just collections of chapters
+DEV/PARTGRAPHICSTAB.DOC | PART files are just collections of chapters
+DEV/PARTINDEXTAB.DOC | PART files are just collections of chapters
+DEV/PARTOSTAB.DOC | PART files are just collections of chapters
+DEV/PARTOVERVIEWTAB.DOC | PART files are just collections of chapters
+DEV/PARTPERFORMANCETAB.DOC | PART files are just collections of chapters
+DEV/PERFORMANCETUNE.DOC  | Chapter 24
+DEV/PERFORMANCETUNE.PS  | Chapter 24
+DEV/PRDEV.BOOK | Entire Book file references all the other docs
+DEV/PRDEVIX.DOC  | Index
+DEV/PRDEVLOF.DOC | List of Figures
+DEV/PRDEVLOT.DOC | List of Tables
+DEV/PRDEVTOC.DOC | Table of Contents
+DEV/RDPSTATEMACHINE.DOC  | Chapter 12
+DEV/RSPSTATEMACHINE.DOC  | Chapter 11
+DEV/SCHEDULER.DOC  | Chapter 22
+DEV/SOFTWAREBRINGUP.DOC | Programming Manual Chapter 2
+DEV/SPRITES.DOC  | Chapter 16
+DEV/SPRITEUCODE.DOC | Programming Manual Chapter 18
+DEV/STYLE_STRUCTURE.TXT | Style guide for the documentation 
+DEV/TEMPLATE.DOC | Template used for creating new documentation pages
+DEV/TEXRECT.DOC  | Chapter 14
+DEV/TEXTURE.DOC  | Chapter 13
+DEV/WALKAPP.DOC | Unreleased documentation about a Haunted house demo
+
+The file `DEV/WALKAPP.DOC` seems to have never been released to developers as part of the SDK as it describes a N64 demo where a user walks around a haunted house.
 
 ### DEV/SCRIPTS
+This folder just contains the scripts to convert the FrameMaker files into PostScript files.
 
 Name | Description
 ---|---
@@ -358,32 +366,40 @@ DEV/SCRIPTS/PS.SCRIPT
 Name | Description
 ---|---
 RSP/ADVANCED.DOC
-RSP/RSPPROGGUIDE.BOOK
-RSP/RSPPROGGUIDELOT.DOC
-RSP/RSPPROGGUIDELOF.DOC
-RSP/RSPPROGGUIDETOC.DOC
-RSP/TITLEPAGE.DOC
-RSP/MAKEFILE
-RSP/RSPASM.DOC
-RSP/RSPARCH.DOC
-RSP/PS
-RSP/PS/RSPREFCARD.PS
-RSP/PS/AA.ZIP
-RSP/PS/RSPPROGGUIDE.PS
-RSP/OVERVIEW.DOC
 RSP/APPENDIXA.DOC
+RSP/COP0.DOC
+RSP/MAKEFILE
+RSP/OVERVIEW.DOC
+RSP/RSPARCH.DOC
+RSP/RSPASM.DOC
+RSP/RSPPROGGUIDE.BOOK
 RSP/RSPPROGGUIDEIX.DOC
 RSP/RSPPROGGUIDELABELS.FM
+RSP/RSPPROGGUIDELOF.DOC
+RSP/RSPPROGGUIDELOT.DOC
+RSP/RSPPROGGUIDETOC.DOC
 RSP/RSPREFCARD.FM
-RSP/COP0.DOC
+RSP/TITLEPAGE.DOC
 RSP/VUINST.DOC
 
+### RSP/PS
+
+Name | Description
+---|---
+RSP/PS/AA.ZIP
+RSP/PS/RSPPROGGUIDE.PS
+RSP/PS/RSPREFCARD.PS
+
+
+
 ### RSP/SCRIPTS
+
+Name | Description
+---|---
 RSP/SCRIPTS/UPDATE.SCRIPT
 RSP/SCRIPTS/PRINT_TO_PS.FM
 RSP/SCRIPTS/REFCARD.SCRIPT
 RSP/SCRIPTS/PS.SCRIPT
-
 
 
 ## MSP_EXAMPLE
@@ -400,35 +416,35 @@ MSP_EXAMPLE/MSP_SETUP.TXT
 
 Name | Description
 ---|---
-4300/EXCP_HAND.DOC
-4300/TEMP.DOC
-4300/FMDICTIONARY
-4300/GLOSSARY.DOC
-4300/DIFFICE.DOC
-4300/TESTMODE.DOC
-4300/HISTORY.DOC
-4300/SYSINTF.DOC
-4300/BOOKLOF.DOC
-4300/CACHE.DOC
-4300/EXECUTION.DOC
-4300/OVERVIEW.DOC
-4300/JTAG.DOC
 4300/ADDENDUM.DOC
-4300/CP0.DOC.RECOVER
-4300/ELECTRICAL.DOC
-4300/FUNDAMENTAL.DOC
-4300/INTRO.DOC
-4300/BOOK
-4300/BOOKLOT.DOC
-4300/BLOCKWRITE.SUP
-4300/DELAYEDREAD.MIF
-4300/CLOCKS.DOC
 4300/BLOCKWRITE.MIF
-4300/DELAYEDREAD.SUP
-4300/TITLE.DOC
-4300/DIFF.DOC
-4300/CP0.DOC
+4300/BLOCKWRITE.SUP
+4300/BOOK
+4300/BOOKLOF.DOC
+4300/BOOKLOT.DOC
 4300/BOOKTOC.DOC
+4300/CACHE.DOC
+4300/CLOCKS.DOC
+4300/CP0.DOC
+4300/CP0.DOC.RECOVER
+4300/DELAYEDREAD.MIF
+4300/DELAYEDREAD.SUP
+4300/DIFF.DOC
+4300/DIFFICE.DOC
+4300/ELECTRICAL.DOC
+4300/EXCP_HAND.DOC
+4300/EXECUTION.DOC
+4300/FMDICTIONARY
+4300/FUNDAMENTAL.DOC
+4300/GLOSSARY.DOC
+4300/HISTORY.DOC
+4300/INTRO.DOC
+4300/JTAG.DOC
+4300/OVERVIEW.DOC
+4300/SYSINTF.DOC
+4300/TEMP.DOC
+4300/TESTMODE.DOC
+4300/TITLE.DOC
 
 
 ---
@@ -650,6 +666,9 @@ MSP or Media Display Processor is a term thought up by SGI for their co-processo
 
 ## MBI - Media Binary Interface 
 The Media Binary interface is just a term that refers to the software interface for interacting with the Reality Co-Processor. 
+
+## ASIC - Application-specific integrated circuit
+Used in some of the hardware documentation to discuss the Chips created to excel at a single purpose.
 
 ---
 # References
