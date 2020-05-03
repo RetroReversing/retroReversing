@@ -7,14 +7,14 @@ tags:
 - sega
 title: Official Sega Saturn Development Kit (Hardware)
 thumbnail: /public/consoles/Sega Saturn.png
-image: http://img.youtube.com/vi/xPHtTGfCpgU/hqdefault.jpg
+image: https://img.youtube.com/vi/xPHtTGfCpgU/hqdefault.jpg
 permalink: /sega-saturn-programming-box/
 videocarousel:
   - title: Hard 4 Games
-    image: http://img.youtube.com/vi/xPHtTGfCpgU/hqdefault.jpg
+    image: https://img.youtube.com/vi/xPHtTGfCpgU/hqdefault.jpg
     youtube: 'xPHtTGfCpgU'
   - title: Video 2
-    image: http://img.youtube.com/vi/3E4Gvue9Im8/hqdefault.jpg
+    image: https://img.youtube.com/vi/3E4Gvue9Im8/hqdefault.jpg
     youtube: '3E4Gvue9Im8'
 breadcrumbs:
   - name: Home
