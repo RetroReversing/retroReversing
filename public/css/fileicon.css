@@ -138,6 +138,7 @@
   background: #f4b400;
 }
 
+/* C source code */
 a[data-type=c] .file-icon {
   background: #f4b400;
 }
@@ -145,6 +146,7 @@ a[data-type=c] .file-icon::after {
   content: "c";
 }
 
+/* h header file */
 a[data-type=h] .file-icon {
   background: #e13d34;
 }
@@ -152,6 +154,23 @@ a[data-type=h] .file-icon::after {
   content: "h";
 }
 
+/* sh bash file */
+a[data-type=sh] .file-icon {
+  background: #212529;
+}
+a[data-type=sh] .file-icon::after {
+  content: "sh";
+}
+
+/* s assembly file */
+a[data-type=s] .file-icon {
+  background: #bd3232;
+}
+a[data-type=s] .file-icon::after {
+  content: "s";
+}
+
+/* JS tree override for file icons  */
 .jstree-default .jstree-icon:empty {
     width: 15px;
     height: 19px;
