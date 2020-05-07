@@ -24,7 +24,7 @@
   border-bottom-left-radius: 2px;
   border-width: 5px;
   border-style: solid;
-  border-color: #fff #fff rgba(255,255,255,.35) rgba(255,255,255,.35);
+  border-color: rgba(255,255,255,.35) rgba(255,255,255,.35) rgba(255,255,255,0) rgba(255,255,255,0);
 }
 .file-icon::after {
   display: block;
