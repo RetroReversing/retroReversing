@@ -170,6 +170,14 @@ a[data-type=s] .file-icon::after {
   content: "s";
 }
 
+/* bin binary file */
+a[data-type=bin] .file-icon {
+  background: #868e96;
+}
+a[data-type=bin] .file-icon::after {
+  content: "bin";
+}
+
 /* JS tree override for file icons  */
 .jstree-default .jstree-icon:empty {
     width: 15px;
