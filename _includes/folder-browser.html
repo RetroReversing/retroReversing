@@ -25,13 +25,13 @@ function convertPathsToJsTree(paths) {
     splitPathParts.forEach((part,level)=>{
       const id = cleanId(splitPathParts.slice(0,level+1).join('-'));
       const parent = cleanId(splitPathParts.slice(0,level).join('-')) || '#';
-      var splittedFileName = "s.c".split('.');
+      var splittedFileName = part.split('.');
       var extension = "";
       if (splittedFileName.length>1) {
           extension = splittedFileName[1];
       }
       console.info("TODO: get extension:", splittedFileName, extension);
-      const json = { id, parent, text: part, icon: "file-icon", "li_attr": 'data-type="doc"' };
+      const json = { id, parent, text: part, icon: "file-icon", "li_attr": {"data-type": "doc"}, "i_attr": {"data-type": "doc"} };
       if (id.length>0 && !generatedIds[id]) {
         data.push(json);
         generatedIds[id] = true;
