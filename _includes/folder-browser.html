@@ -28,7 +28,7 @@ function convertPathsToJsTree(paths) {
       var splittedFileName = part.split('.');
       var extension = "";
       if (splittedFileName.length>1) {
-          extension = splittedFileName[1];
+          extension = splittedFileName[splittedFileName.length-1];
       }
       console.info("TODO: get extension:", splittedFileName, extension);
       const json = { id, parent, text: part, "a_attr": {"data-type": extension} };
