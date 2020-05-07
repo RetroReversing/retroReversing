@@ -79,6 +79,13 @@ Mario wouldn't be Mario without his pipes, lets add some that warp from one part
 </section>
 
 ---
+# Ports
+Thanks to the 2 years of hard work by the Super Mario 64 decompilation team it is now possible to experience native ports of Sm64, no emulator required!
+
+## DirectX 12 (Windows)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJUT1el0qFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # Decompilation
 Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
 
