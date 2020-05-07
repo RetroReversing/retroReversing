@@ -145,7 +145,7 @@ a[data-type=c] .file-icon::after {
   content: "c";
 }
 
-a[data-type=h] .file-icon[data-type=h] {
+a[data-type=h] .file-icon {
   background: #e13d34;
 }
 a[data-type=h] .file-icon::after {
