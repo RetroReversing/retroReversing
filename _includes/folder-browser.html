@@ -28,7 +28,7 @@ function convertPathsToJsTree(paths) {
       var splittedFileName = part.split('.');
       var extension = "";
       if (splittedFileName.length>1) {
-          extension = splittedFileName[splittedFileName.length-1];
+          extension = splittedFileName[splittedFileName.length-1].toLowerCase();
       }
       console.info("TODO: get extension:", splittedFileName, extension);
       const json = { id, parent, text: part, "a_attr": {"data-type": extension} };
@@ -73,16 +73,6 @@ $('{{include.selector}}').jstree({
     {% else %}
         "data": treeData
    {% endif %}
-//     "data":[{'id':'c','parent':'#','text':'C:'},{'id':'c-batman','parent':'c','text':'BATMAN'},{'id':'c-batman-game','parent':'c-batman','text':'GAME'},{'id':'c-batman-game-enemyai-c','parent':'c-batman-game','text':'ENEMYAI.C'},{'id':'c-batman-game-eprom','parent':'c-batman-game','text':'EPROM'},{'id':'c-batman-game-eprom-attract-s','parent':'c-batman-game-eprom','text':'ATTRACT.S'},{'id':'c-batman-levels','parent':'c-batman','text':'levels'},{'id':'c-batman-levels-hotel-c','parent':'c-batman-levels','text':'hotel.c'},{'id':'c-batman-game-enemy-h','parent':'c-batman-game','text':'enemy.h'}]
-    /*'data' : {
-      'url' : function (node) {
-        return node.id === '#' ?
-          'ajax_demo_roots.json' : 'ajax_demo_children.json';
-      },
-      'data' : function (node) {
-        return { 'id' : node.id };
-      }
-    }*/
   },
   "types" : {
     "#" : {
