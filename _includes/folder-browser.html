@@ -31,7 +31,11 @@ function convertPathsToJsTree(paths) {
           extension = splittedFileName[1];
       }
       console.info("TODO: get extension:", splittedFileName, extension);
-      const json = { id, parent, text: part, icon: "file-icon", "li_attr": {"data-type": extension}, "i_attr": {"data-type": extension} };
+      const json = { id, parent, text: part, "a_attr": {"data-type": extension} };
+      if (extension.length>0) {
+        json.icon = "file-icon";
+        json["a_attr"] = {"data-type": extension};
+      }
       if (id.length>0 && !generatedIds[id]) {
         data.push(json);
         generatedIds[id] = true;
