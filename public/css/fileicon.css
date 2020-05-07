@@ -137,3 +137,12 @@
 .file-icon[data-type=png] {
   background: #f4b400;
 }
+
+a[data-type=c] .file-icon {
+  background: #f4b400;
+}
+a[data-type=c] .file-icon::after {
+  content: "c";
+}
+
+
