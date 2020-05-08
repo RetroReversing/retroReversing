@@ -7,18 +7,18 @@ tags:
 - wii
 - ique
 title: BroadOn Archive - Nintendo May 2020 Leak (4Chan)
-thumbnail: /public/consoles/Nintendo 64.png
-image: /public/N64/N64 BroadOn Archive.jpg
+thumbnail: /public/consoles/Nintendo Wii.png
+image: /public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
 permalink: /broadon-archive
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo 64
-    url: /n64
+  - name: Nintendo Wii
+    url: /wii
   - name: BroadOn Archive
     url: #
 recommend: n64
-editlink: /n64/BroadOnArchive.md
+editlink: /wii/BroadOnArchive.md
 updatedAt: 8th May 2020
 twitterimage: https://www.retroreversing.com/public/N64/N64 BroadOn Archive.jpg
 ---
