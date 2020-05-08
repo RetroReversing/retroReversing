@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/OmanArchive.md
-updatedAt: 3rd May 2020
+updatedAt: 8th May 2020
 twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
 ---
 
@@ -261,17 +261,17 @@ Name | Description
 VERIF/BL | hardware Blender test cases
 VERIF/CC | Color combiner test cases
 VERIF/CS | Command Shuffle Unit Test Plan
-VERIF/CV | 
+VERIF/CV | Check Vectors
 VERIF/EW | Edge Walker Unit Test Plan
 VERIF/HIGHLEVELTEST | 
-VERIF/IO | 
-VERIF/MS | 
-VERIF/RDPOVERALL | 
+VERIF/IO | I/O Subsystem Verification Plan
+VERIF/MS | Misc Info (it is blank)
+VERIF/RDPOVERALL | High level RDP Test cases
 VERIF/RDPVERIF.FM | 
 VERIF/ST | 
-VERIF/TC | 
+VERIF/TC | Texture Compression Tests
 VERIF/TF | 
-VERIF/TM | 
+VERIF/TM | Texture Memory test cases
 
 ## PICS
 These are pictures in SGI RGB format but it is currently unclear where they are used. If you want to view them just add the `.SGI` extension to the end of them and you can open them in most image editors.
@@ -359,94 +359,101 @@ This folder just contains the scripts to convert the FrameMaker files into PostS
 
 Name | Description
 ---|---
-DEV/SCRIPTS/UPDATE.SCRIPT | 
+DEV/SCRIPTS/UPDATE.SCRIPT | fmbatch script to update the documentation
 DEV/SCRIPTS/PRINT_TO_PS.FM | 
-DEV/SCRIPTS/PS.SCRIPT | 
+DEV/SCRIPTS/PS.SCRIPT | fmbatch script to convert to Postscript
 
 ## RSP
+This folder contains all the documentation about programming the Reality Signal Processor. 
 
 Name | Description
 ---|---
-RSP/ADVANCED.DOC | 
-RSP/APPENDIXA.DOC | 
-RSP/COP0.DOC | 
-RSP/MAKEFILE | 
-RSP/OVERVIEW.DOC | 
-RSP/RSPARCH.DOC | 
-RSP/RSPASM.DOC | 
-RSP/RSPPROGGUIDE.BOOK | 
-RSP/RSPPROGGUIDEIX.DOC | 
-RSP/RSPPROGGUIDELABELS.FM | 
-RSP/RSPPROGGUIDELOF.DOC | 
-RSP/RSPPROGGUIDELOT.DOC | 
-RSP/RSPPROGGUIDETOC.DOC | 
-RSP/RSPREFCARD.FM | 
-RSP/TITLEPAGE.DOC | 
-RSP/VUINST.DOC | 
+RSP/ADVANCED.DOC | Advanced topics, such as DMEM usage, RSP performance, code overlays, and the CPU-RSP relationship.
+RSP/APPENDIXA.DOC |  Formally describes the behavior of each instruction
+RSP/COP0.DOC | Chapter 4 RSP Coprocessor 0
+RSP/MAKEFILE | Used to make the postscript versions using `fmbatch`
+RSP/OVERVIEW.DOC | Overview of the documentation chapters
+RSP/RSPARCH.DOC | RSP MIPS Instruction Set Architecture
+RSP/RSPASM.DOC | RSP MIPS Assembly Directives
+RSP/RSPPROGGUIDE.BOOK | Book file that references each doc file
+RSP/RSPPROGGUIDEIX.DOC | Index of the Documentation
+RSP/RSPPROGGUIDELABELS.FM | List of Labels
+RSP/RSPPROGGUIDELOF.DOC | List of Figures
+RSP/RSPPROGGUIDELOT.DOC | List of Tables
+RSP/RSPPROGGUIDETOC.DOC | Table of Contents
+RSP/RSPREFCARD.FM | Reality Signal Processor Programmer’s Reference Card
+RSP/TITLEPAGE.DOC | Title Page of Documentation
+RSP/VUINST.DOC | Vector Unit Instructions
 
 ### RSP/PS
+This folder contains the printable postscript versions of the RSP Programming Guide and the Reference card documentation. 
+
+The reference card is a sort of "Cheat Sheet" for programming on the RSP.
 
 Name | Description
 ---|---
-RSP/PS/AA.ZIP | 
-RSP/PS/RSPPROGGUIDE.PS | 
-RSP/PS/RSPREFCARD.PS | 
+RSP/PS/AA.ZIP | Zip archive of the two postscript files in this folder
+RSP/PS/RSPPROGGUIDE.PS | Postscript version of the RSP Programmers Guide
+RSP/PS/RSPREFCARD.PS | Postscript version of the reference card
 
 
 
 ### RSP/SCRIPTS
+This folder contains scripts to convert the Adobe FrameMaker documentation into printable PostScript files.
 
 Name | Description
 ---|---
-RSP/SCRIPTS/UPDATE.SCRIPT | 
+RSP/SCRIPTS/UPDATE.SCRIPT | fmbatch script to update the doc files
 RSP/SCRIPTS/PRINT_TO_PS.FM | 
-RSP/SCRIPTS/REFCARD.SCRIPT | 
-RSP/SCRIPTS/PS.SCRIPT | 
+RSP/SCRIPTS/REFCARD.SCRIPT | fmbatchto print the Reference card to Postscript
+RSP/SCRIPTS/PS.SCRIPT | fmbatch to print to Postscript
 
 
 ## MSP_EXAMPLE
+This folder contains  pseudo-assembly examples for the Media Signal Processor (MSP) which is basically the RSP.
 
 Name | Description
 ---|---
-MSP_EXAMPLE/MSP_TRANSFORM.TXT | 
-MSP_EXAMPLE/README | 
-MSP_EXAMPLE/MSP_LIGHT.TXT | 
-MSP_EXAMPLE/MSP_SETUP.TXT | 
+MSP_EXAMPLE/MSP_TRANSFORM.TXT | Transform example code
+MSP_EXAMPLE/README | Describes the purpose of the folder
+MSP_EXAMPLE/MSP_LIGHT.TXT | Example of lighting calculations
+MSP_EXAMPLE/MSP_SETUP.TXT | Example of triangle setup
 
 
 ## 4300 - The N64 CPU
+This folder contains all the RISC Processor Specification for the N64 CPU (NEC VR4300).
 
 Name | Description
 ---|---
-4300/ADDENDUM.DOC | 
-4300/BLOCKWRITE.MIF | 
+4300/ADDENDUM.DOC | Additional details about the CPU
+4300/BLOCKWRITE.MIF | Converted version of `BLOCKWRITE.SUP` using `supTomif`
 4300/BLOCKWRITE.SUP | 
-4300/BOOK | 
+4300/BOOK | FrameMaker Book file that references all the Docs
 4300/BOOKLOF.DOC | List of Figures
 4300/BOOKLOT.DOC  | List of Tables
 4300/BOOKTOC.DOC | Table of contents
-4300/CACHE.DOC | 
-4300/CLOCKS.DOC | 
-4300/CP0.DOC | 
+4300/CACHE.DOC | Chapter 5 Data and Instruction Cache
+4300/CLOCKS.DOC | CPU Clocks documentation (on-chip Phase Locked Loop circuit)
+4300/CP0.DOC |  System Control Coprocessor (CP0)
 4300/CP0.DOC.RECOVER | Old version of `CP0.DOC`
-4300/DELAYEDREAD.MIF | 
-4300/DELAYEDREAD.SUP | 
-4300/DIFF.DOC | 
+4300/DELAYEDREAD.MIF | Converted version of `DELAYEDREAD.SUP` using 
+4300/DELAYEDREAD.SUP | Delayed processor read request figure
+4300/DIFF.DOC | Differences from the R4000
 4300/DIFFICE.DOC | 
-4300/ELECTRICAL.DOC | 
-4300/EXCP_HAND.DOC | 
-4300/EXECUTION.DOC | 
-4300/FMDICTIONARY | 
-4300/FUNDAMENTAL.DOC | 
-4300/GLOSSARY.DOC | 
-4300/HISTORY.DOC | 
-4300/INTRO.DOC | 
-4300/JTAG.DOC | 
-4300/OVERVIEW.DOC | 
-4300/SYSINTF.DOC | 
-4300/TEMP.DOC | 
-4300/TESTMODE.DOC | 
-4300/TITLE.DOC | 
+4300/ELECTRICAL.DOC | Electrical information such as Voltages
+4300/EXCP_HAND.DOC | Exception Handling
+4300/EXECUTION.DOC | The instruction execution unit
+4300/FMDICTIONARY | Adobe FileMaker Dictionary
+4300/FUNDAMENTAL.DOC | Operation Fundamentals
+4300/GLOSSARY.DOC | Glossary of Terms
+4300/HISTORY.DOC | Revision History of the documentation
+4300/INTRO.DOC | Very short Introduction to the documentation
+4300/JTAG.DOC | JTAG Interface for the CPU
+4300/OVERVIEW.DOC | Overview of the five-stage execution pipeline
+4300/SYSINTF.DOC | Chapter 8 System Interface
+4300/TEMP.DOC | Template based on the Exception Handling chapter
+4300/TESTMODE.DOC | Test Mode (JTAG)
+4300/TITLE.DOC | Title Page of documentation
 
 
 ---
@@ -454,6 +461,8 @@ Name | Description
 Verilog is a Hardware Description Language used to Design and verify hardware. The HW and HW2 folders contain Verilog source code for the Nintendo 64 hardware, including the prototype development boards.
 
 HW.old contains version 1.0 of the RCP Verilog source code presumably for archival reasons.
+
+{% include link-to-other-post.html post="/verilog" description="For more information about Verilog source code click here" %}
 
 ---
 # INCLUDE Folder
