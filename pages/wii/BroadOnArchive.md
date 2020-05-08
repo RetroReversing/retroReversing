@@ -13,14 +13,18 @@ permalink: /broadon-archive
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo Wii
-    url: /wii
+  - name: Nintendo 64
+    url: /n64
   - name: BroadOn Archive
     url: #
 recommend: n64
 editlink: /wii/BroadOnArchive.md
 updatedAt: 8th May 2020
-twitterimage: https://www.retroreversing.com/public/N64/N64 BroadOn Archive.jpg
+twitterimage: https://www.retroreversing.com/public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
+videocarousel:
+  - title: MVG
+    image: https://i.ytimg.com/vi/n8G7eq0GlQs/sddefault.jpg
+    youtube: 'n8G7eq0GlQs'
 ---
 
 In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as Zammis Clark.
@@ -46,11 +50,56 @@ If you are just interested in browsing the files then it is highly recommended y
 
 However the advantage of the CVS version is that it contains the commit history of the files which can be very interesting!
 
-# Contents of the Archive
+## Contents of the Archive
 Whether you have the original or the NOCVS fixed version you will get 3 different tar files in the archive:
 * rvl-factory.tar - 111.3MB (Not affected by CVS)
 * depot.tar -  2.9GB
 * depotrvl.tar - 533.9MB
+
+---
+# Depot.tar - iQue specifications by RouteFree
+The name depot may be related to the network functionality of the iQue  known as the iQue Depot. 
+
+The iQue Depot is the service that was later enchanted and used for the Nintendo Wii. 
+
+## CVSROOT Folder
+As the name implies this folder is for the configuration of the Concurrent Versions System. You can think of this folder as similar to the `.git` folder in more modern projects. Nothing interesting to see here.
+
+## HW Folder - Kilopass XPM hardware Verilog Source
+The HW folder contains hardware specifications for the Kilopass Super Permanent Memory or XPM.
+
+This is presumable the hardware used in the iQue Player to enable storing code and data on the chip in a way that makes it harder for reverse engineers to access the data.
+
+There is basic Verilog source code in this folder along with official specifications all from Kilopass themselves.
+
+### Data Sheets
+The DataSheets folder contains three pdf files:
+* KPS13_DS_V031605.pdf - DS013T (version 2005-03-17) Datasheet
+* TMDG013T_V1.3.pdf - Testing Methodology Design Guidelines
+* xpm_integration_guideline_RevF-06APR2005.pdf - Kilopass XPM IP Integration Guideline 
+
+### GDS Folder
+The `gds` folder contains more Verilog source files, such as the TSMC layout layer mapping (`Virtuoso_0.13um_Ver2.1a.1.map`) along with the GDS files used to describe it in a graphical form.
+
+### Models Folder
+The `models` folder contains the timing library Verilog source code in both ascii (*.lib) and binary compiled form (*.db). This also contains the Verilog source file `kp13ts64_r01w01_70c3p.v` which is the main code for the Kilopass `32kx8` XPM.
+
+### Netlist Folder
+The `netlist` folder contains the netlist specification in the CDL file format, this is a plain text document that specifies what each node is connected to in the circuit.
+
+---
+## RF Folder - Project BB
+Not sure why this man directory is called `rf` but it contains most of the files for the iQue Player (also known as Project BB during development). This includes hardware source code (Verilog), software source, SDK and Documentation.
+
+This folder contains two files at the root called `BBdefs` and `BBrules`, these are both common Make definitions that get included into Makefiles in the child folders. 
+
+There is also an empty sub folder called `ecad` and it is unclear what this folder could be been used for but it is likely that it is hardware related and would stand for electronic computer-aided design.
+
+### DOC folder - Documentation
+The iQue player was codenamed the "BB" project (possibly reference to something in Chinese?) so much of the documentation references the system as the BB or BB Player.
+
+### HW folder - iQue Player Hardware
+This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
 
 ---
 # References
