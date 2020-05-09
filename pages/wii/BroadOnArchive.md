@@ -112,9 +112,9 @@ In fact this folder comes with two pre-compiled Windows executables:
 
 The source code for these too executables are `test_dec.c` and `test_enc.c` respectively. 
 
-The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by *Paulo Barreto* and *Vincent Rijmen*.
+The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by **Paulo Barreto** and **Vincent Rijmen**.
 
-You can find the exact same code on Github: [crypt-rijndael/rijndael-vals/reference implementation at master · Leont/crypt-rijndael · GitHub](https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation)
+{% include link-to-other-site-text.html title="AES Reference Implementation" url="https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation" word1="crypt-rijndael" word2="on github" color1="wisteria" color2="midnight" description="You can find the AES Reference implementation code on Github." %}
  
 The folder also contains `*.bin` files that can be used to test the algorithm, when you feed in `input.bin` into test_dec then `output.bin` and `deciphered.bin` should match exactly.
 
