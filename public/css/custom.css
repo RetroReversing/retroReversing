@@ -111,6 +111,10 @@
     background-color: #44c441;
 }
 
+.rr-changelog-error>.rr-changelog-badge::after {
+    background-color: #d31c3e;
+}
+
 .rr-changelog-badge::after, .rr-changelog-badge::before {
     content: "";
     position: absolute;
@@ -122,7 +126,7 @@
 .rr-changelog-badge::after {
     left: -2px;
     width: 5px;
-    background-color: #d31c3e;
+    background-color: #44c441;
     -webkit-transform: rotate(6deg);
     -ms-transform: rotate(6deg);
     transform: rotate(6deg);
