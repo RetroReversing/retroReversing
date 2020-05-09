@@ -8,7 +8,11 @@
     margin-top: 20px;
 }
 
-.rr-changelog::before {
+.rr-changelog-category {
+  margin-bottom: 10px;
+}
+
+.rr-changelog-category::before {
     content: "";
     position: absolute;
     display: block;
@@ -35,7 +39,7 @@
     position: relative;
     padding-bottom: 20px;
     font-family: futura-pt,sans-serif;
-  padding-left: 5%;
+    padding-left: 5%;
 }
 
 .rr-changelog-version {
