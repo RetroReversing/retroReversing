@@ -101,6 +101,23 @@ The iQue player was codenamed the "BB" project (possibly reference to something 
 ### HW folder - iQue Player Hardware
 This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
 
+### Verification folder
+The Verification folder contains the source code for a tool called `aes` which is simply code to do simple Advanced Encryption Standard (AES) encryption and decryption.
+
+For security the iQue Player only allows running signed and encrypted code, AES Cipher block chaining (CBC) is the encryption algorithm used for this. This tool specifically is used to test the encryption and decryption of binary content.
+
+In fact this folder comes with two pre-compiled Windows executables:
+* test_dec.exe - Test decryption
+* test_enc.exe - Test encryption
+
+The source code for these too executables are `test_dec.c` and `test_enc.c` respectively. 
+
+The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by *Paulo Barreto* and *Vincent Rijmen*.
+
+You can find the exact same code on Github: [crypt-rijndael/rijndael-vals/reference implementation at master · Leont/crypt-rijndael · GitHub](https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation)
+ 
+The folder also contains `*.bin` files that can be used to test the algorithm, when you feed in `input.bin` into test_dec then `output.bin` and `deciphered.bin` should match exactly.
+
 ### Java folder
 This folder is pretty boring in that it just contains a standard distribution of Apache Ant version 1.4.1. Apache Ant is basically a task runner written in Java, but it is unclear what they were using it for in the iQue project. 
 
