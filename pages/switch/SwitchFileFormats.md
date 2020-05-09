@@ -43,7 +43,7 @@ Here is an example
 ```
 This will create 4 folders in the output directory:
 
-<div class="rr-changelog">
+<div class="rr-changelog-category">
   <div class="rr-version-gen" version="Normal" date="Unknown and sometimes empty" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="*.NCA" desc="NCA Files for title image and details" ></div>
@@ -51,7 +51,7 @@ This will create 4 folders in the output directory:
     </ul>
 </div>
 
-<div class="rr-changelog">
+<div class="rr-changelog-category">
   <div class="rr-version-gen" version="Secure" date="Contains Game Data" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="*.NCA" desc="Largest NCA contains game executable" ></div>
@@ -62,7 +62,7 @@ This will create 4 folders in the output directory:
 </div>
 
 
-<div class="rr-changelog">
+<div class="rr-changelog-category">
   <div class="rr-version-gen" version="Update" date="Contains Game Patches and OS Updates" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="*.NCA" desc="Probably contains Switch OS updates" ></div>
@@ -70,7 +70,7 @@ This will create 4 folders in the output directory:
     </ul>
 </div>
 
-<div class="rr-changelog">
+<div class="rr-changelog-category">
   <div class="rr-version-gen" version="Logo" date="Nintendo logos (sometimes empty)" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="StartupMovie.gif" desc="Animated switch logo shown at the start of every game" ></div>
