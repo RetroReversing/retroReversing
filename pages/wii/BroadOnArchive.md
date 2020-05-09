@@ -101,6 +101,18 @@ The iQue player was codenamed the "BB" project (possibly reference to something 
 ### HW folder - iQue Player Hardware
 This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
 
+---
+### SW folder - iQue Software (SDK etc)
+This folder contains the source code for software related to the iQue Player such as the SDK.
+
+The top level of this folder is a bash script called `mklinks` which simply creates symbolic links to common folders so they can be used easily after they have been built.
+
+#### n64os20I folder - Internal N64 development tools
+This folder contains the final version of the internal N64 development tools from SGI, an earlier version of this content was released as part of the "Oman Archive", so only the changes will be listed here.
+
+{% include link-to-other-post.html post="/oman-archive" description="To view details about the files released in the oman archive check out this post." %}
+
+---
 ### Verification folder
 The Verification folder contains the source code for a tool called `aes` which is simply code to do simple Advanced Encryption Standard (AES) encryption and decryption.
 
