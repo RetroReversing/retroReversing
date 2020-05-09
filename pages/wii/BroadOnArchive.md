@@ -119,12 +119,12 @@ The BCP version of the library is a fork of the RCP library with added support t
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments"></div>
       <div class="rr-info-gen" badge="simipc.h" desc="BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional 'Broadon Extension' section at the end"></div>
-   <div class="rr-info-gen" badge="socket.c" desc="Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain" />
-   <div class="rr-info-gen" badge="rdram.c" desc="seems to have been removed from the RCP version" />
+ <div class="rr-info-gen" badge="socket.c" desc="Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain" ></div>
+ <div class="rr-info-gen" badge="rdram.c" desc="seems to have been removed from the RCP version" ></div>
     </ul>
 </div>
 
-Each version contains a `.tab` file (`rcppli.tab` and `bcppli.tab`) which is a verilog file and has the form [^2] :
+Each version contains a `.tab` file (`rcppli.tab` and `bcppli.tab`) which is a verilog file [^2] and has the form:
 ```
 $my_function_name call=CalledByThis size=32 maxargs=1 roparm=ffffffff nocallback 
 ```
