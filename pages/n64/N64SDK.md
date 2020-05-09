@@ -46,6 +46,27 @@ Released Versions: **3.0**, **4.0**, **4.1**, **5.0**, **5.1**, **5.2**
 
 Version 5.1 (10th Feb 2000) of the kit was partially released in the BroadOn archive leak of May 2020 due to its use in the iQue players development.
 
+## ccbl - ColorCombiner and Blender Demo
+This is an application that runs on the Nintendo 64 hardware to teach programmers about the RDP features. It has the ability to communicate with a Windows Application called `dptest` for which the source code is also available.
+
+## dptest - Display Processor Test tool
+Windows application that communicates with the N64 application `ccbl` to save and load configurations.
+
+It works with a number of different N64 development flash cartridges such as:
+* MSP-A/MSP-B/MSP-C
+* Partner-N64
+* IS-Viewer64
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="Files" date="Files in the dptest folder" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="dptest.exe" desc=""></div>
+      <div class="rr-info-gen" badge="TargetN64.dll" desc="DLL for communication between flash cartridge and the PC "></div>
+ <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication theough the KMC Partner N64 flash cartirdge" ></div>
+ <div class="rr-info-gen" badge="dptest.n64" desc="Compiled N64 rom of CCBL that communicated with dptest" ></div>
+    </ul>
+</div>
+
 ---
 # N64 Operating System
 The N64 OS was initially released with both SGI and PC versions on the same disc, later it was moved to a disc for each operating system.
