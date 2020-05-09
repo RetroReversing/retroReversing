@@ -101,6 +101,11 @@ The iQue player was codenamed the "BB" project (possibly reference to something 
 ### HW folder - iQue Player Hardware
 This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
 
+### Java folder
+This folder is pretty boring in that it just contains a standard distribution of Apache Ant version 1.4.1. Apache Ant is basically a task runner written in Java, but it is unclear what they were using it for in the iQue project. 
+
+Nothing is customised so we will not cover the contents here.
+
 ### LIB folder - BCP PLI library code
 The Library folder contains the source code for two very similar libraries:
 * RCP PLI (Reality Co-Processor PLI) - version 1.1
@@ -115,7 +120,7 @@ The code in these libraries seems to be related to interprocess communication (I
 The BCP version of the library is a fork of the RCP library with added support to be able to compile on linux. 
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Changes" date="Changes between RCP and BCP" ></div>
+  <div class="rr-version-gen" version="Changes" date="Between RCP and BCP" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments"></div>
       <div class="rr-info-gen" badge="simipc.h" desc="BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional 'Broadon Extension' section at the end"></div>
@@ -131,8 +136,10 @@ $my_function_name call=CalledByThis size=32 maxargs=1 roparm=ffffffff nocallback
 
 If you build the libraries you will get a static library output (`libbcppli.a` and `librcppli.a`).
 
-Both the resulting library files and tab files are used in the the Behavioral Simulator code (located in rf/hw/chip).
+Both the resulting library files and tab files are used in the the Behavioural Simulator code (located in rf/hw/chip).
+
 
 ---
 # References
 [^1]: [Revision Control System - Wikipedia](https://en.wikipedia.org/wiki/Revision_Control_System#Second_generation)
+[^2]: Principles of Verilog PLI By Swapnajit Mittra page 6
