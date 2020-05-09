@@ -114,7 +114,7 @@ The code in these libraries seems to be related to interprocess communication (I
 
 The BCP version of the library is a fork of the RCP library with added support to be able to compile on linux. 
 
-<div class="rr-changelog">
+<div class="rr-changelog-category">
   <div class="rr-version-gen" version="Changes" date="Changes between RCP and BCP" ></div>
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments"></div>
