@@ -117,10 +117,10 @@ The BCP version of the library is a fork of the RCP library with added support t
 <div class="rr-changelog">
   <div class="rr-version-gen" version="Changes" date="Changes between RCP and BCP" ></div>
     <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments" ></div>
-      <div class="rr-info-gen" badge="simipc.h" desc="BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional "Broadon Extension" section at the end" ></div>
- <div class="rr-info-gen" badge="socket.c" desc="Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain" ></div>
- <div class="rr-info-gen" badge="rdram.c" desc="seems to have been removed from the RCP version" ></div>
+      <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments" />
+      <div class="rr-info-gen" badge="simipc.h" desc="BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional 'Broadon Extension' section at the end" />
+ <div class="rr-info-gen" badge="socket.c" desc="Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain" />
+ <div class="rr-info-gen" badge="rdram.c" desc="seems to have been removed from the RCP version" />
     </ul>
 </div>
 
