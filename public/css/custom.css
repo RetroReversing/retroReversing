@@ -8,6 +8,7 @@
     margin-top: 20px;
 }
 
+/*  Top level change log category */
 .rr-changelog-category {
   margin-bottom: 10px;
   line-height: 1.8;
@@ -30,6 +31,16 @@
     margin-left: 5%;
 }
 
+.rr-changelog-category>div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Changelog items */
 .rr-changelog>div {
     display: -webkit-box;
     display: -ms-flexbox;
