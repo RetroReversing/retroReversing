@@ -114,11 +114,15 @@ The code in these libraries seems to be related to interprocess communication (I
 
 The BCP version of the library is a fork of the RCP library with added support to be able to compile on linux. 
 
-This required some minor changes, these changes include:
-* Plusarg.c - change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments
-* simipc.h - BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional "Broadon Extension" section at the end
-* socket.c  - Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain
-* rdram.c - seems to have been removed from the RCP version
+<div class="rr-changelog">
+  <div class="rr-version-gen" version="Changes" date="Changes between RCP and BCP" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="plusarg.c" desc="change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments" ></div>
+      <div class="rr-info-gen" badge="simipc.h" desc="BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional "Broadon Extension" section at the end" ></div>
+ <div class="rr-info-gen" badge="socket.c" desc="Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain" ></div>
+ <div class="rr-info-gen" badge="rdram.c" desc="seems to have been removed from the RCP version" ></div>
+    </ul>
+</div>
 
 Each version contains a `.tab` file (`rcppli.tab` and `bcppli.tab`) which is a verilog file and has the form [^2] :
 ```
