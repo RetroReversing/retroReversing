@@ -19,7 +19,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /wii/BroadOnArchive.md
-updatedAt: 8th May 2020
+updatedAt: 9th May 2020
 twitterimage: https://www.retroreversing.com/public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
 videocarousel:
   - title: MVG
@@ -100,6 +100,34 @@ The iQue player was codenamed the "BB" project (possibly reference to something 
 
 ### HW folder - iQue Player Hardware
 This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
+
+### LIB folder - BCP PLI library code
+The Library folder contains the source code for two very similar libraries:
+* RCP PLI (Reality Co-Processor PLI) - version 1.1
+* BCP PLI (BB Co-Processor PLI) - version 1.2
+
+PLI stands for Programming Language Interface and refers to the Verilog PLI as these libraries are used to communicate with the verily models of the Reality Co-processor (RCP or BCP).
+
+The RCP version is presumably from SGI as part of the original Ultra 64 project, but it was not previously released in the "Oman Archive". It requires an SGI IRIX workstation to compile.
+
+The code in these libraries seems to be related to interprocess communication (IPC) for managing shared data in the system.
+
+The BCP version of the library is a fork of the RCP library with added support to be able to compile on linux. 
+
+This required some minor changes, these changes include:
+* Plusarg.c - change on line 81 - just changes hard coded 4 to hard coded 1, something to do with the command line arguments
+* simipc.h - BCP has additional preprocessor defines such as `BCP_COMBINE_XZ` in an additional "Broadon Extension" section at the end
+* socket.c  - Adds some new code in `ifndef __sgi__` blocks to make it run in the linux toolchain
+* rdram.c - seems to have been removed from the RCP version
+
+Each version contains a `.tab` file (`rcppli.tab` and `bcppli.tab`) which is a verilog file and has the form [^2] :
+```
+$my_function_name call=CalledByThis size=32 maxargs=1 roparm=ffffffff nocallback 
+```
+
+If you build the libraries you will get a static library output (`libbcppli.a` and `librcppli.a`).
+
+Both the resulting library files and tab files are used in the the Behavioral Simulator code (located in rf/hw/chip).
 
 ---
 # References
