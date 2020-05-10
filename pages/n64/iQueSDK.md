@@ -84,45 +84,46 @@ Like pretty much all C/C++ Software development kits, the interface to the SDKs 
 
 Header File Name | Description
 ---|---
-ansi.h | 
-asm.h | 
-assert.h | 
-dl-machine.h | 
-fpregdef.h | 
-fpu_control.h | 
-gzip.h | 
-libfb.h | 
-libmus_data.h | 
-libmus.h | 
-machine-gmon.h | 
-regdef.h | 
-sgidefs.h | 
-stdlib.h | 
-string.h | 
-tinymon.h | 
-ultra64.h | 
-ultrahost.h |
+ansi.h | Standard Minix include: [www.doc.ic.ac.uk/~svb/oslab/Minix/usr/include/ansi.h](http://www.doc.ic.ac.uk/~svb/oslab/Minix/usr/include/ansi.h)
+asm.h | Just includes `sys/asm.h`
+assert.h | Defined the assert preprocessor macro for making sure values are correct
+dl-machine.h | Machine-dependent ELF dynamic relocation inline functions (GNU C Library)
+fpregdef.h | GNU C Library
+fpu_control.h | Floating Point control Unit (GNU C Library)
+gzip.h | Zlib wrapper for function `expand_gzip` to uncompress
+libfb.h | FrameBuffer Nintendo Library header, defines functions such as `fbInit`
+libmus_data.h | Music library data definition header file (Software Creations Ltd)
+libmus.h |  Nintendo 64 Music Tools Programmers Library (Software Creations Ltd)
+machine-gmon.h | Machine-specific calling sequence for `mcount' profiling function (GNU C Library)
+regdef.h | Part of the GNU C Library
+sgidefs.h | Part of the GNU C Library
+stdlib.h | Standard functions such as `abort`
+string.h | Standard string handling functions such as `strcmp`
+tinymon.h | Constants for TinyMon (SGI)
+ultra64.h | Includes all the N64 headers from the `./Pr` folder
+ultrahost.h | Functions for the N64 Development kit board for SGI Indy
 
-### ide - IDE headers
+### ide - Interactive Diagnostic Environment headers
+Initiialy we thought this would be related to an Integrated development environment, but alas its an acronym for what they called the **Interactive Diagnostic Environment**.
 
 Header File Name | Description
 ---|---
-ide/dbg_comm.h | 
-ide/diag.h | 
-ide/ide.h | 
+ide/dbg_comm.h | Common debug functions such as `dgDmaReadMem` (SGI)
+ide/diag.h | Common structure definitions and global variables for BOSTON diags
+ide/ide.h | Data structures used by the Interactive Diagnostic Environment interpreter.
 
 ### sys - System headers 
 
 Header File Name | Description
 ---|---
-sys/asm.h | 
-sys/fpregdef.h | 
-sys/fpu.h | 
-sys/inst.h | 
-sys/regdef.h | 
-sys/u64driver.h | 
-sys/u64gio.h | 
-sys/ucontext.h | 
+sys/asm.h | MIPS Assembly preprocessor macros (GNU C Library)
+sys/fpregdef.h | MIPS Register preprocessor defines (GNU C Library)
+sys/fpu.h | Floating Point control functions (SGI)
+sys/inst.h | MIPS Instruction Format defines (MIPS)
+sys/regdef.h | Symbolic register names for 32 bit ABI (GNU C Library)
+sys/u64driver.h | N64 development kit driver for SGI Indy
+sys/u64gio.h | N64 development kit Global IO defines (SGI)
+sys/ucontext.h | System V/mips ABI compliant context switching support (GNU C Library)
 
 
 ### Make - Common include for Makefiles
@@ -357,3 +358,111 @@ PR/table.o |
 PR/tspManTest1.dram.o | 
 PR/tspManTest1.o | 
 
+---
+## sbin - Command line tools
+The sbin directory contains pre-build command line tools that are useful for developers when writing iQue applications. Many of these are based on the N64 version of the same name.
+
+Tool name | Description
+---|---
+a2b | 
+aes_encode | 
+aesrom | 
+asccode | 
+b2a | 
+b2mem | 
+bincode | 
+bincut | 
+blink | 
+buildtask | 
+bump | 
+byte2lba | 
+calcncc | 
+cglue | 
+checkaudio | 
+checkhex | 
+checkimage | 
+checkvideo | 
+copySimResultsToArchive | 
+copyToArchive | 
+cpp | 
+cscale | 
+ctrldesc | 
+d2elf | 
+dat2bin | 
+data2rdram | 
+devsh | 
+do_wave | 
+dump2mem | 
+ecs_gen | 
+filter | 
+flat_shade_dl | 
+flt2c | 
+fp | 
+gbi2mem | 
+gen_rdram | 
+iclr | 
+idf | 
+imgsize | 
+imscale | 
+iplload | 
+iplpload | 
+iplpuload | 
+ique_gdb | 
+irix-install | 
+irix-ipcrm | 
+lba2byte | 
+lst2imem | 
+main2image | 
+main2rdp | 
+make_movie | 
+makemask | 
+makerom | 
+mdump | 
+merrg | 
+mips332 | 
+mkisprite | 
+mksprite | 
+mksprite32 | 
+mksprite8 | 
+mkspriteia | 
+mkspriteyuv | 
+monitor | 
+mux | 
+oneband | 
+plog | 
+plotstt | 
+ppmquant | 
+printvec | 
+publish | 
+ramstart | 
+raw2image | 
+rdp2read | 
+rdram2data | 
+rdram2image | 
+rdram2new | 
+rdram2rdp | 
+rdramg | 
+rdramgclr | 
+rdramPatch | 
+remove_comments | 
+rgb2c | 
+romaddress | 
+romalign | 
+romdump | 
+romfill | 
+rommap | 
+rommd | 
+rsp | 
+rsp_ops | 
+rsp2elf | 
+rspasm | 
+setup | 
+subimg | 
+symedit | 
+tab2sim | 
+tab2vmem | 
+tab2wvs | 
+vparse | 
+vsig | 
+whohas | 
+xnet |
