@@ -49,8 +49,17 @@ When Animal Forest (Animal Crossing) was to be ported to the platform the develo
 
 The problem with porting this to the iQue is that Controller Pak's didn't exist on the system, so how would this feature be implemented for the iQue? The answer to this problem was added to the API in version 1.3 of the SDK, Auxiliary data or AuxData for short was an API that allowed storing this Controller Pak data on the iQue cartridge.
 
-## GDB - GNU Debugger
-First added in version 1.2 of the iQue SDK, the GNU Debugger allows proper source level debugging to be performed through the USB interface. 
+## GDB - iQue Player Debugger
+First added in version 1.2 of the iQue SDK, the  iQue Player Debugger allows proper source level debugging to be performed through the USB interface. 
+
+It is a fork of the very well known GNU Debugger (GDB) and consists of 3 main parts:
+* ique_gdb - command line tool that the developer uses to set breakpoints etc
+* GDB Stub - Runs on the iQue Player itself as is located in the debug version of libUltra called `libultra_d`
+* mux - takes commands from ique_gdb via TCP and forwards it to the GDB Stub on the iQue via USB
+
+Note that the debugger only supports code compiled for the  R4300 CPU and so does not help debug issues with the Reality Co-Processor code such as RSP microcode.
+
+Also note that in order to debug a game, not only does it have to be compiled with the debug version of `libultra` but also needs to call the function `gdbInit` to initialise the GDB stub on the iQue.
 
 ## N64OnlineManuals52
 This is the same documentation as could be found in version 5.2 of the Nintendo 64 SDK, as far as we know there has been no changes to it for iQue but someone should do a Folder Diff on this to make sure.
@@ -58,9 +67,186 @@ This is the same documentation as could be found in version 5.2 of the Nintendo 
 {% include link-to-other-post.html post="/n64-sdk" description="For the contents of the 5.2 Nintendo 64 SDK Documentation check out this post." %}
 
 ---
-# per_user folder
+# Modules folder - Reality Debug Bridge Driver Module
+The modules folder contains source code for the **Reality Debug Bridge** (RDB) which is a Linux driver used to communicate with the iQue Player, mainly for debugging.
+
+A humorous reference to the 1933 movie `Duck soup` appears in the source code in the following line:
+```c
+#define DRIVER_AUTHOR "Rufus T. Firefly, rtf@freedonia.gov"
+```
+
+---
+# per_user folder - Main SDK files
 The `per_user` folder is exactly what it sounds like, these are installed on a user basis instead of globally on the system, so each user on the system can modify their installation to suit their own needs.
 
+## include - C Header files for iQue SDK
+Like pretty much all C/C++ Software development kits, the interface to the SDKs functions and structures are located in the Header files. The includes for the iQue SDK includes all the previous header files from the N64 SDK plus some added extras. 
+
+Header File Name | Description
+---|---
+ansi.h | 
+asm.h | 
+assert.h | 
+dl-machine.h | 
+fpregdef.h | 
+fpu_control.h | 
+gzip.h | 
+libfb.h | 
+libmus_data.h | 
+libmus.h | 
+machine-gmon.h | 
+regdef.h | 
+sgidefs.h | 
+stdlib.h | 
+string.h | 
+tinymon.h | 
+ultra64.h | 
+ultrahost.h |
+
+### ide - IDE headers
+
+Header File Name | Description
+---|---
+ide/dbg_comm.h | 
+ide/diag.h | 
+ide/ide.h | 
+
+### sys - System headers 
+
+Header File Name | Description
+---|---
+sys/asm.h | 
+sys/fpregdef.h | 
+sys/fpu.h | 
+sys/inst.h | 
+sys/regdef.h | 
+sys/u64driver.h | 
+sys/u64gio.h | 
+sys/ucontext.h | 
+
+
+### Make - Common include for Makefiles
+
+Header File Name | Description
+---|---
+make/commondefs | 
+make/commonrules | 
+make/ismcommondefs | 
+make/ismcommonrules | 
+make/kcommondefs | 
+make/kcommonrules | 
+make/PRdefs | 
+make/releasedefs | 
+make/startversion | 
+
+### nustd - Nintendo Ultra Standard Library includes
+
+Header File Name | Description
+---|---
+nustd/ctype.h | 
+nustd/malloc.h | 
+nustd/math.h | 
+nustd/mathdef.h | 
+nustd/setjmp.h | 
+
+### PR - Project Reality (N64) Includes
+
+Header File Name | Description
+---|---
+PR/abi.h | 
+PR/audiotools.h | 
+PR/bbfs_export.h | 
+PR/bbfs.h | 
+PR/bbskapi_export.h | 
+PR/bbskapi.h | 
+PR/dbgdefs.h | 
+PR/dbgproto.h | 
+PR/driverd.h | 
+PR/em.h | 
+PR/gbi.h | 
+PR/gs2dex.h | 
+PR/gt.h | 
+PR/gtoff.h | 
+PR/gu.h | 
+PR/gzsort.h | 
+PR/leo.h | 
+PR/leoappli.h | 
+PR/leosp.h | 
+PR/libaudio.h | 
+PR/mbi.h | 
+PR/n_libaudio_s_to_n.h | 
+PR/n_libaudio.h | 
+PR/os_ai.h | 
+PR/os_bb_export.h | 
+PR/os_bb.h | 
+PR/os_bbcard.h | 
+PR/os_bbexec_export.h | 
+PR/os_bbexec.h | 
+PR/os_bbfs_export.h | 
+PR/os_bbfs.h | 
+PR/os_cache.h | 
+PR/os_cont.h | 
+PR/os_convert.h | 
+PR/os_debug.h | 
+PR/os_eeprom.h | 
+PR/os_error.h | 
+PR/os_exception.h | 
+PR/os_flash.h | 
+PR/os_gbpak.h | 
+PR/os_gio.h | 
+PR/os_host.h | 
+PR/os_internal_debug.h | 
+PR/os_internal_error.h | 
+PR/os_internal_exception.h | 
+PR/os_internal_gio.h | 
+PR/os_internal_host.h | 
+PR/os_internal_reg.h | 
+PR/os_internal_rsp.h | 
+PR/os_internal_si.h | 
+PR/os_internal_thread.h | 
+PR/os_internal_tlb.h | 
+PR/os_internal.h | 
+PR/os_libc.h | 
+PR/os_message.h | 
+PR/os_motor.h | 
+PR/os_pfs.h | 
+PR/os_pi.h | 
+PR/os_rdp.h | 
+PR/os_reg.h | 
+PR/os_rsp.h | 
+PR/os_si.h | 
+PR/os_system.h | 
+PR/os_thread.h | 
+PR/os_time.h | 
+PR/os_tlb.h | 
+PR/os_usb.h | 
+PR/os_version.h | 
+PR/os_vi.h | 
+PR/os_voice.h | 
+PR/os.h | 
+PR/PRimage.h | 
+PR/R4300.h | 
+PR/ramrom.h | 
+PR/rcp.h | 
+PR/rdb.h | 
+PR/region.h | 
+PR/rmon.h | 
+PR/rsp_ipc.h | 
+PR/rsp.h | 
+PR/sched.h | 
+PR/sp.h | 
+PR/sptask.h | 
+PR/sptaskoff.h | 
+PR/trace.h | 
+PR/ucode_debug.h | 
+PR/ucode.h | 
+PR/ultraerror.h | 
+PR/ultralog.h | 
+PR/ultratypes.h | 
+PR/uportals.h | 
+PR/verify.h | 
+
+---
 ## lib folder - Compiled Library files for iQue
 
 Library File Name | Description
@@ -170,3 +356,4 @@ PR/rspboot.o |
 PR/table.o | 
 PR/tspManTest1.dram.o | 
 PR/tspManTest1.o | 
+
