@@ -127,55 +127,62 @@ sys/ucontext.h | System V/mips ABI compliant context switching support (GNU C Li
 
 
 ### Make - Common include for Makefiles
+Makefiles are used to build all the source code in the SDK and so instead of duplicating the same logic in many Makefiles, common logic is placed into a file in this directory.
 
 Header File Name | Description
 ---|---
-make/commondefs | 
-make/commonrules | 
-make/ismcommondefs | 
-make/ismcommonrules | 
-make/kcommondefs | 
-make/kcommonrules | 
-make/PRdefs | 
-make/releasedefs | 
-make/startversion | 
+make/commondefs | Common definition such as where to find the compilers (SGI)
+make/commonrules | Common Makefile Rules (SGI)
+make/ismcommondefs | Common definitions for building ism idb's and images
+make/ismcommonrules | Commonrules to build idb's and images for an ism
+make/kcommondefs | contains basic common flags/locations for kernel builds (SGI)
+make/kcommonrules | common rules for kernel makefiles (SGI)
+make/PRdefs | Just links to PRdefs in the PR directory (SGI)
+make/releasedefs | Version information for the current release
+make/startversion | generate version number (and alpha number) in a standard fashion
+
+Currently unsure what an ISM IDB is or what `gendist` does (Generated Probability Distribution Models?).
 
 ### nustd - Nintendo Ultra Standard Library includes
+Unlike previous header files, this library is written by Nintendo themselves and thus has comments in Japanese.
 
 Header File Name | Description
 ---|---
-nustd/ctype.h | 
-nustd/malloc.h | 
-nustd/math.h | 
-nustd/mathdef.h | 
-nustd/setjmp.h | 
+nustd/ctype.h | Common type functions such as `isdigit`
+nustd/malloc.h | Standard Memory Allocation
+nustd/math.h | Maths functions such as `floor`
+nustd/mathdef.h | Maths definitions such as PI: `DVAL_PI`
+nustd/setjmp.h | Defined two jump functions `setjmp` and `longjmp`
 
 ### PR - Project Reality (N64) Includes
+This folder is part of the Official Nintendo 64 SDK and seems to be a fairly unmodified version of it. The main difference is the addition of files that start with the prefix `bb`.
+
+Note that files with the prefix `Leo` refer to the Nintendo 64 Disk Drive (64DD) as Leo was its codename while in development.
 
 Header File Name | Description
 ---|---
-PR/abi.h | 
-PR/audiotools.h | 
-PR/bbfs_export.h | 
-PR/bbfs.h | 
-PR/bbskapi_export.h | 
-PR/bbskapi.h | 
-PR/dbgdefs.h | 
+PR/abi.h | Audio Binary Interface (SGI)
+PR/audiotools.h | defines used by the audiotools programs (SGI)
+PR/bbfs_export.h | iQue Filesystem defines (BroadOn)
+PR/bbfs.h | This file is blank (BroadOn)
+PR/bbskapi_export.h | iQue SK Api (BroadOn)
+PR/bbskapi.h | This file is blank (BroadOn)
+PR/dbgdefs.h | Debug defines, just defined a few data types such as `TVid` (SGI)
 PR/dbgproto.h | 
-PR/driverd.h | 
-PR/em.h | 
-PR/gbi.h | 
-PR/gs2dex.h | 
-PR/gt.h | 
-PR/gtoff.h | 
-PR/gu.h | 
-PR/gzsort.h | 
-PR/leo.h | 
-PR/leoappli.h | 
-PR/leosp.h | 
-PR/libaudio.h | 
-PR/mbi.h | 
-PR/n_libaudio_s_to_n.h | 
+PR/driverd.h | Driver Daemon startup utility for Indy (SGI)
+PR/em.h | Emulator definitions (SGI)
+PR/gbi.h | Graphics Binary Interface (SGI)
+PR/gs2dex.h | Header file for S2DEX microcode (Nintendo)
+PR/gt.h | Header for the TURBO 3D graphics microcode (SGI)
+PR/gtoff.h | TURBO 3D State defines (Automatically generated) (SGI)
+PR/gu.h | Graphics API functions such as `guLoadTextureBlockMipMap`
+PR/gzsort.h | Header for ZSort microcode(Nintendo)
+PR/leo.h | Standard 64DD functions (Nintendo)
+PR/leoappli.h | Low level 64DD defines (ALPS Electric Co)
+PR/leosp.h | A few extra 64DD defines
+PR/libaudio.h | Audio Library defines (SGI)
+PR/mbi.h | Media Binary Interface, basically include that GBI and ABI (SGI)
+PR/n_libaudio_s_to_n.h | Audio macro functions such as `alSynAddPlayer`
 PR/n_libaudio.h | 
 PR/os_ai.h | 
 PR/os_bb_export.h | 
@@ -247,26 +254,32 @@ PR/ultratypes.h |
 PR/uportals.h | 
 PR/verify.h | 
 
+Not sure what the SK API for iQue was.
+
 ---
 ## lib folder - Compiled Library files for iQue
+The lib folder unsurprisingly contains static libraries that can be linked with iQue applications.
+
+Not sure why there is 2 versions of the Music libraries, some have the prefix `libn_` and the others are just `lib`.
 
 Library File Name | Description
 ---|---
-libcrypto.a | 
-libfb.a | 
-libgcc.a | 
-libmus_d.a | 
-libmus.a | 
-libn_audio.a | 
-libn_mus_d.a | 
-libn_mus.a | 
+libcrypto.a | Encryption library for iQue Player content
+libfb.a | Framebuffer library by Nintendo with functions such as `fbPixel`
+libgcc.a | Standard GNU GCC library
+libmus_d.a | Music library data definition library
+libmus.a | Nintendo 64 Music Tools Programmers Library
+libn_audio.a | Nintendo Audio Library
+libn_mus_d.a | Music library data definition library
+libn_mus.a | Nintendo 64 Music Tools Programmers Library
 libnustd.a | Nintendo Ultra Standard library (Source for this is available in the N64 SDK)
-libultra_d.a | 
-libultra_rom.a | 
-libultra.a | 
+libultra_d.a | Debug version of the Ultra64 Library
+libultra_rom.a | Retail version of the Ultra64 Library
+libultra.a | Standard version of Ultra64 Library
 libz.a | Zlib compression library
 
 ### PR - Project reality (N64) Libraries
+This folder contains the standard pre-compiled libraries that were distributed as part of the official Nintendo 64 SDK.
 
 Library File Name | Description
 ---|---
