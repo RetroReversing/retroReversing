@@ -5294,8 +5294,8 @@ div.dataTables_wrapper div.dataTables_filter input {
 div.dataTables_wrapper div.dataTables_length select {
   width: auto;
   padding: 0 0 0 5px;
-  height: 36px;
-/*   margin: 0 5px; */
+/*   height: 36px; */
+  margin: 0 5px;
 }
 
 .dataTables_wrapper {
