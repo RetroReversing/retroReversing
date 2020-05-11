@@ -74,23 +74,6 @@ You have a %hi() but no %lo()
 
 (it's impossible to have just a single %hi, because if you do %hi/lo(some_address + some_offset), that offset is stored in the %lo instruction)
 
-```
-then fruitlessly trying to shift the ROM, and debugging every instance to the pointer i missed
-repeat until it works
-```
-
-```
-cam did post a script which mass hi/lo replaced detected instances
-it was about 85-90% accurate
-and didnt get every asm pointer
-the remainder still had to be hand replaced which, i, uh.. did.
-all 5000+ of them.
-thats why sm64 is shiftable because i was mad enough to do it
-i did have help from mrcheeze.
-```
-
-https://github.com/SM64-TAS-ABC/sm64_source/commit/b2563c8ee4cd4d6278260134957553a97a3fe2bf
-
 Making the rom relocatable.
 
 
