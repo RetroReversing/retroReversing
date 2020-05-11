@@ -19,7 +19,7 @@ recommend:
 - ique
 - n64
 editlink: /n64/iQueSDK.md
-updatedAt: 10th May 2020
+updatedAt: 11th May 2020
 twitterimage: https://www.retroreversing.com/public/N64/iQue SDK.jpg
 ---
 The iQue Player was a sort of plug and play version of the Nintendo 64 system sold in China with its main aim to stop the rampant piracy in the market.
@@ -104,7 +104,7 @@ ultra64.h | Includes all the N64 headers from the `./Pr` folder
 ultrahost.h | Functions for the N64 Development kit board for SGI Indy
 
 ### ide - Interactive Diagnostic Environment headers
-Initiialy we thought this would be related to an Integrated development environment, but alas its an acronym for what they called the **Interactive Diagnostic Environment**.
+Initially we thought this would be related to an Integrated development environment, but alas its an acronym for what they called the **Interactive Diagnostic Environment**.
 
 Header File Name | Description
 ---|---
@@ -375,52 +375,56 @@ PR/tspManTest1.o |
 ## sbin - Command line tools
 The sbin directory contains pre-build command line tools that are useful for developers when writing iQue applications. Many of these are based on the N64 version of the same name.
 
+Note that if you are interest in the source code for any of these tools then you can find it in "BroadOn Leak".
+
+{% include link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
+
 Tool name | Description
 ---|---
-a2b | 
-aes_encode | 
-aesrom | 
-asccode | 
-b2a | 
-b2mem | 
-bincode | 
-bincut | 
-blink | 
-buildtask | 
-bump | 
-byte2lba | 
-calcncc | 
-cglue | 
-checkaudio | 
+a2b | Simple program to convert 64-bit words in ASCII to binary
+aes_encode | Encrypt binary content with AES encryption
+aesrom | Encrypts a N64 rom into romname.aes
+asccode | Kanji Ascii Code converter
+b2a | Opposite of a2b, converts from binary to ASCII
+b2mem |  Converts binary file into ASCII verilog memory file
+bincode | Kanji Binary Code converter
+bincut | Cuts out X number of bytes from a binary file at a certain offset
+blink | This program changes the color of a specified primitive to magenta in order to make it stand out in the display.
+buildtask | simple linker for RSP tasks. It concatenates objects compiled by rspasm, as well as their data segments, and builds an object table in DMEM
+bump | Bump map generator
+byte2lba | Convert Bytes to Leo (64DD)
+calcncc | Calculate Nintendo Check Code
+cglue | Glue together 3 images into a color image
+checkaudio | extracts and verifies audio from Verilog log file
 checkhex | 
-checkimage | 
-checkvideo | 
-copySimResultsToArchive | 
-copyToArchive | 
-cpp | 
-cscale | 
+checkimage |  extracts and verifies image from Verilog log file
+checkvideo | extracts image from `vi.tab` and compare to rgb file
+copySimResultsToArchive | Archives the resulting simulator files
+copyToArchive | copies each file (from the list of .rdp files specified as incoming arguments) to similarly named (mem,rdram,rdp) files with a .archive suffix tacked on.
+cpp | GNU C++ compiler for MIPS
+cscale | Multiply or divide the colors in an image by a color vector
 ctrldesc | 
-d2elf | 
-dat2bin | 
-data2rdram | 
-devsh | 
-do_wave | 
+d2elf | Create a debug ELF file
+dat2bin | Convert hex data file into binary file
+data2rdram | tool to expand .data scripts into .rdram files
+devsh | send commands to remote monitor and receive responses
+do_wave | Bash script for converting Wave tabular files to Qsim scripts
 dump2mem | 
 ecs_gen | 
-filter | 
+filter | RDP filter simulator
 flat_shade_dl | 
-flt2c | 
+flt2c | MultiGen `.flt` database to Ultra 64 graphics data-structure
 fp | 
 gbi2mem | 
 gen_rdram | 
-iclr | 
+iclr | clear the "incore" area of image file so cmp on 2 images works
 idf | 
 imgsize | 
-imscale | 
+imscale | RGB image scale tool
 iplload | 
 iplpload | 
 iplpuload | 
-ique_gdb | 
+ique_gdb | GDb Debugger for iQue Player
 irix-install | 
 irix-ipcrm | 
 lba2byte | 
@@ -432,7 +436,7 @@ makemask |
 makerom | 
 mdump | 
 merrg | 
-mips332 | 
+mips332 | inplace rewrite the elf header of a 32-bit MSB mips binary (Linux)
 mkisprite | 
 mksprite | 
 mksprite32 | 
@@ -440,11 +444,11 @@ mksprite8 |
 mkspriteia | 
 mkspriteyuv | 
 monitor | 
-mux | 
-oneband | 
-plog | 
+mux | Middle man between GDB client and server 
+oneband | Extract  a single band of a color image
+plog | Multigen database conversion tool
 plotstt | 
-ppmquant | 
+ppmquant | reduce colours in pixmap
 printvec | 
 publish | 
 ramstart | 
@@ -458,24 +462,25 @@ rdramg |
 rdramgclr | 
 rdramPatch | 
 remove_comments | 
-rgb2c | 
+rgb2c | Convert RGB image to C code
 romaddress | 
 romalign | 
 romdump | 
 romfill | 
-rommap | 
-rommd | 
-rsp | 
-rsp_ops | 
-rsp2elf | 
-rspasm | 
-setup | 
-subimg | 
-symedit | 
-tab2sim | 
-tab2vmem | 
-tab2wvs | 
-vparse | 
-vsig | 
-whohas | 
-xnet |
+rommap | Perl script to get a symbol map of the rom
+rommd | Sets the MetaData for the ROM such as how many Controller Paks
+rsp | RSP Simulator
+rsp_ops | program that dumps the disassembly table
+rsp2elf | Converts RSP compiled objects to ELF executables
+rspasm | RSP microcode assembler
+setup | a short test program to test the polygon setup algorithm for the RSP
+subimg | Extract a region from an image (Paul Haeberli - 1984)
+symedit | Edit debug symbols in ELF executable
+tab2sim | convert tabular file to Compass Qsim script
+tab2vmem | convert tabular file to Verilog memory driver
+tab2wvs | convert tabular file to Compass Wave driver
+vparse | Parse verilog tab files
+vsig | Print vertical signals names as comments in tab file
+whohas | Bash script to tell you who may have a file in modify state (Version control)
+xnet | Translates netlist information, along with a configuration file into an executive main function (either C or Verilog)
+
