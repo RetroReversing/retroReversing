@@ -109,6 +109,7 @@ overflow: scroll;
 .dataTables_length label {
   display:flex;
   padding: 10px;
+  padding-bottom: 0px;
 }
 
 .row p {
