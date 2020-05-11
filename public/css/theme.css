@@ -5287,15 +5287,19 @@ div.dataTables_wrapper div.dataTables_filter label {
 }
 
 div.dataTables_wrapper div.dataTables_filter input {
-  height: 36px;
-  line-height: 36px;
+/*   height: 36px;
+  line-height: 36px; */
 }
 
 div.dataTables_wrapper div.dataTables_length select {
   width: auto;
   padding: 0 0 0 5px;
   height: 36px;
-  margin: 0 5px;
+/*   margin: 0 5px; */
+}
+
+.dataTables_wrapper {
+  padding-left:5%
 }
 
 .dataTables_wrapper.container-fluid {
