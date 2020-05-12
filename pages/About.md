@@ -3,7 +3,9 @@ layout: post
 tags: 
 - introduction
 title: Why Reverse Engineer Retro games? - About RetroReversing.com
-image: /public/Articles/Why reverse engineer retroreversing.com.jpg
+image: /public/Articles/Why Reverse Engineer Games retroreversing.com.jpg
+thumbnail: /public/consoles/Atari 2600.png
+youtube: k6PWZh0MJ1Y
 permalink: /why-reverse-retro-games
 breadcrumbs:
   - name: Home
@@ -14,7 +16,9 @@ recommend:
 - introduction
 editlink: /About.md
 updatedAt: 12th May 2020
-twitterimage: https://www.retroreversing.com/public/Articles/Why reverse engineer retroreversing.com.jpg
+twitterimage: https://www.retroreversing.com/public/Articles/Why Reverse Engineer Games retroreversing.com.jpg
+redirect_from:
+  -  /retrogame-archeology
 ---
 
 If you have arrived at this page you may have a few questions such as why does RetroReversing.com even exist?
@@ -65,6 +69,12 @@ If that all still sounds out of reach then don't worry the main aim of this site
 # Why learn Reverse Engineering?
 Reverse engineering has been an integral part of the game industry from the very start, whether it was game developers reverse engineering the console to rival companies reversing each other games, reversing was a vital skill.
 
+## Retrogame Archeology
+Retrogame Archeology is a term coined by Associate Professor John Aycokc from the University of Calgary. 
+
+He highlights the benefits of looking under the hood of old games in this excellent video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/k6PWZh0MJ1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 # Site specific
 This section aims to answer questions as to why the site is setup the way it is, what content should be included in the site and what is out of scope or better covered on other websites.
@@ -93,3 +103,8 @@ We are taking advantage of a few of Github's features such as being able to edit
 
 The advantages are:
 * Decentralised (anyone can fork and download a local copy of the entire website)
+
+## Examples of content not to post
+
+### Unused Assets
+Do not post unused content, that is the domain of The Cutting Room Floor, a link should be made on each game page to Link to this, and any con tent found should be posted to TCRF page.
