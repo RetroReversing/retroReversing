@@ -135,3 +135,9 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 ---
 # Download & Source Code
 Currently there are no pre-built binaries yet but you can build it yourself by cloning the github repository: [RetroReversing/mupen64plus-core: Core module of the Mupen64Plus Reversing Emulator](https://github.com/RetroReversing/mupen64plus-core)
+
+## Running
+when you have compiled the code you will get a dynamic library file (*.dylib on mac, *.so on linux and *.dll on windows) you can run mupen using this core like so:
+```bash
+./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib --noosd ./example.v64
+```
