@@ -51,7 +51,7 @@ One fairly common format for storing video in Sega Saturn games is to the the Ci
 The Sega Saturn had support for Audio Video Interleave (AVI) video files and was widley used in games such as Devil Summoner. You will notice that these files start with the magic header `RIFF`, this is due to AVI being a subformat based on the Resource Interchange File Format (RIFF) [^1].
 
 
-# TGQ - Video Files
+## TGQ - Video Files
 [Electronic Arts TGQ - MultimediaWiki](https://wiki.multimedia.cx/index.php/Electronic_Arts_TGQ) 
 
 ---
@@ -59,6 +59,12 @@ The Sega Saturn had support for Audio Video Interleave (AVI) video files and was
 
 ## RGB Files
 [doyousketch2/SatRGB: Extract RGB images from Sega Saturn files](https://github.com/doyousketch2/SatRGB)
+
+---
+# Audio Formats
+
+## SEQ files
+[mistydemeo/seq2mid: Tool and documentation for the Sega Saturn SEQ format](https://github.com/mistydemeo/seq2mid)
 
 ---
 # Other Formats
@@ -76,7 +82,7 @@ A quick look at the PCS File format from the Sega Saturn game Exhumed/Powerslave
 ## Grandia
 [TrekkiesUnite118/GrandiaTranslation: Collection of Tools and Info for Translating Grandia for the Sega Saturn.](https://github.com/TrekkiesUnite118/GrandiaTranslation)
 
-# DSK
+## DSK
 Virtual Disc image used by developers when using the Mirage CD Emulator.
 
 ---
