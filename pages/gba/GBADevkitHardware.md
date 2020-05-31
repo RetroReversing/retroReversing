@@ -17,6 +17,10 @@ breadcrumbs:
     url: /gba
   - name: Game Boy Advance (AGB) Development Kit Hardware
     url: #
+videocarousel:
+  - title: GBA Prototype Board H4G
+    image: http://img.youtube.com/vi/ezffQA6Ir38/hqdefault.jpg
+    youtube: 'ezffQA6Ir38'
 recommend: 
 - devkit
 - gba
