@@ -19,7 +19,7 @@ recommend: saturn
 editlink: /sega/saturn/SegaSaturnFileFormats.md
 ---
 
-The sega saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compred to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
+The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
 Unlike most cartridge based ROM chips CDs have a standard File System to read files from and so instead of everything being in a giant blob of binary and burned to a chip, the game could be split into multiple files.
 
@@ -41,12 +41,15 @@ ABS Files are listed in the documentation as "Absolute load module file "
 
 ---
 # Video Formats
+Due to the large amount of cheap storage available thank to the CD format, game started incorporating full video files, these tended to be in a couple of standard video formats. 
 
-## CPK
-```
-Many Sega Saturn CD-ROM games use this file format to store frames of a Cinepak-compressed video interleaved with uncompressed PCM audio. When this is the case, the files will typically have the extension .CPK (which is why FILM files are usually known as CPK files). Sometimes, audio-only FILM files will have a .SND extension.
-```
-[Sega FILM - MultimediaWiki](https://wiki.multimedia.cx/index.php/Sega_FILM#Sega_Saturn_CPK_File_Format)
+## CPK - Cinepak-compressed video
+One fairly common format for storing video in Sega Saturn games is to the the Cinepak-compressed video format known as CPK [^2]. This format uses uncompressed PCM audio and it can even be used without the video component, normally with the `.SND` file extension.
+
+
+## AVI - Audio Video Interleave
+The Sega Saturn had support for Audio Video Interleave (AVI) video files and was widley used in games such as Devil Summoner. You will notice that these files start with the magic header `RIFF`, this is due to AVI being a subformat based on the Resource Interchange File Format (RIFF) [^1].
+
 
 # TGQ - Video Files
 [Electronic Arts TGQ - MultimediaWiki](https://wiki.multimedia.cx/index.php/Electronic_Arts_TGQ) 
@@ -76,3 +79,7 @@ A quick look at the PCS File format from the Sega Saturn game Exhumed/Powerslave
 # DSK
 Virtual Disc image used by developers when using the Mirage CD Emulator.
 
+---
+# References
+[^1]: [Audio Video Interleave - Wikipedia](https://en.wikipedia.org/wiki/Audio_Video_Interleave)
+[^2]: [Sega FILM - MultimediaWiki](https://wiki.multimedia.cx/index.php/Sega_FILM#Sega_Saturn_CPK_File_Format)
