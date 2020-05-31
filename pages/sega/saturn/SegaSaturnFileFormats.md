@@ -66,6 +66,10 @@ The Sega Saturn had support for Audio Video Interleave (AVI) video files and was
 ## SEQ files
 [mistydemeo/seq2mid: Tool and documentation for the Sega Saturn SEQ format](https://github.com/mistydemeo/seq2mid)
 
+## AIF files
+
+[Audio Formats in Saturn Games - Mini-Revver](https://minirevver.weebly.com/audio-formats-in-saturn-games.html)
+
 ---
 # Other Formats
 
