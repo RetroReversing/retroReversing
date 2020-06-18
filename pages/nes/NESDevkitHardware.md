@@ -207,6 +207,27 @@ Games that may have been built with this kit:
 ## Namco
 Namco reverse engineered the Famicom hardware and created their own suite of development tools [^10]. However very little information has been released about their internal development kits so it is presumed they were disposed of after NES development ceased.
 
+## N2G - Nintendo Development System
+<section class="postSection">
+    <img src="/public/images/nes/N2G NES Development Kit.jpg" class="wow slideInLeft postImage" />
+  <img src="/public/images/nes/N2G NES Development Kit Inside.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+The user `JaxsBox` posted details of a 3rd party development kit for the NES on the old NintendoAge site, where he has posted a few photos and some technical information [^23].
+  
+Note that this development kit doesn't contain a cartridge slot so it probably connects to a developers PC directly to send ROM data to the machine for emulation.
+
+Presumably this was developed in house by `RSP` (Riedel Software Productions, Inc), although it is also possible that it was developed by another company and just licensed to RSP.
+
+Games that may have been built by this development kit:
+* Sesame Street: Countdown
+* Sesame Street: Big Bird's Hide and Speak
+* MTV Remote Control
+* Win, Lose, or Draw
+
+</div>
+</section>
+
+
 ## Square (Apple II & Twin Famicom)
 
 <section class="postSection">
@@ -314,3 +335,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^20]: [history - Was Family BASIC for the NES/Famicom powerful enough to create full games and applications? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/5024/was-family-basic-for-the-nes-famicom-powerful-enough-to-create-full-games-and-ap)
 [^21]: [Gamasutra - A basic history of BASIC on its 50th birthday](https://www.gamasutra.com/view/news/216469/A_basic_history_of_BASIC_on_its_50th_birthday.php)
 [^22]: [Interview with Alberto González (composer) – VGArc](http://www.vgarc.org/vgarc-originals/interview-with-alberto-gonzalez/)
+[^23]: [N2G](https://web.archive.org/web/20170415132556/http://nintendoage.com/forum/messageview.cfm?catid=56&threadid=69249)
