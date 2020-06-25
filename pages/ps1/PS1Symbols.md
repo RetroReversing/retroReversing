@@ -139,7 +139,12 @@ Game Name | Demo CD | Symbol File
 --- | --- 
 Colin McCrae Rally 2 | Euro Demo 08-00 (Germany) | /CMR2/GAMEFLOW.MAP
 Soul reaver | SLES-02024 | /DEBUG/NTSC/KAIN2.MAP
+Syphon Filter (USA) (Demo) | SCUS-94362 | /SIPHON.MAP
 
+### Syphon Filter (USA) (Demo)
+The Github user `Wuteva` has been investigating the Linker Map file contained in the USA version of the Syphon Filter Demo and has found some very interesting information [^2]. 
+
+They have found that the MAP file doesn't quite match the binary executable contained on the disc (the MainLoop function is at `0x800144a4` in Ghdira but is at `0x800144C0` in the map file). This is likely due to the version of the binary having an earlier date compared to the Linker Map file [^2].
 
 
 ---
@@ -164,3 +169,4 @@ Other Interesting:
 
 # References
 [^1]: https://assemblergames.com/threads/retail-playstation-1-games-with-debug-symbols.68587/#post-965072
+[^2]: [PSX game with debug symbol: Syphon Filter (USA) (Demo) contains a .map file](https://github.com/RetroReversing/retroReversing/issues/22)
