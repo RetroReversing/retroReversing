@@ -205,6 +205,15 @@ There was an image of the development kit on `Shiggsy's Place` but sadly the Way
 
 Kevin Seghetti and Scott Statton were part of the team that created the PUNK development kit for SNES and Mega Drive (Genesis) but later formed his own company called `Developer Resources` which also created development kits for the same consoles [^19].
 
+## Sculptured Software Development Kit
+<section class="postSection">
+  <img src="/public/images/snes/SculpturedSoftwareDevkit.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
+Sculptured Software created their own custom Development Kit and even sold it to other companies as long as they were licensed with Nintendo, but it is unclear how much this would cost.
+It consists of a card that fits into the ISA slot of a developers PC which contains an entire SNES board on a 3x3 inch square [^32]. This seems like an incredible convienent way to develop games for the Super Nintendo and may have influenced the official PS1 development kit that came out a few years later with the same concept. 
+</div>
+</section>
+
 ## SFX Development Kit
 The `SFX Development Kit` was created by `Software Creations` for in-house Super Nintendo game development instead of the official Nintendo devkits [^3].
 
@@ -324,7 +333,7 @@ The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^
 [^21]: [Solstice 2](http://www.zee-3.com/pickfordbros/softography/index.php?game=45)
 [^22]: [Psy-Q SNES SDK (Software Development Kit) incl. Manual, Hardware & Software - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2013/06/10/psy-q-snes-sdk-software-development-kit-incl-manual-hardware-software/)
 [^23]: [The polygons of Another World](http://fabiensanglard.net/another_world_polygons_SNES/index.html)
-[^24]: [Cross Products UK Price List](https://segaretro.org/images/3/3c/Cross_Products_UK_Price_List_-_May_1995.pdf)
+[^24]: [Cross Products UK Price List](https://segaretro.org/images/3/3c/Cross_Products_UK_Price_List__May_1995.pdf)
 [^25]: [Factor 5 Pegasus SNES Super Nintendo Development Kit - Rare Video Games Auctions, Sales & Pricing](http://gamesniped.com/2011/07/10/factor-5-pegasus-snes-super-nintendo-development-kit/)
 [^26]: [dforce3000](http://www.dforce3000.de/index.php?p=fdsingle&uid=488)
 [^27]: [SNES 8 MB EPROM Cartridge](https://devkits.handheldmuseum.com/SNES_8MBEPROM.htm)
@@ -332,3 +341,4 @@ The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^
 [^29]: [Will Norris: C.V.](http://www.biohack.net/cv/)
 [^30]: [GlitchedHeart (@glitchedheart) / Twitter](https://twitter.com/glitchedheart)
 [^31]: [where can I get a Romulator and how much?](http://strangetextsbutcher.blogspot.com/2019/08/where-can-i-get-romulator-and-how-much.html)
+[^32]: [dforce3000 Sculptured Software](http://ultra16.dforce3000.de/index.php?p=news)
