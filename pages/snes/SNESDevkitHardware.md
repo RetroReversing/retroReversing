@@ -210,7 +210,10 @@ Kevin Seghetti and Scott Statton were part of the team that created the PUNK dev
   <img src="/public/images/snes/SculpturedSoftwareDevkit.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 Sculptured Software created their own custom Development Kit and even sold it to other companies as long as they were licensed with Nintendo, but it is unclear how much this would cost.
-It consists of a card that fits into the ISA slot of a developers PC which contains an entire SNES board on a 3x3 inch square [^32]. This seems like an incredible convienent way to develop games for the Super Nintendo and may have influenced the official PS1 development kit that came out a few years later with the same concept. 
+  
+It consists of a card that fits into the ISA slot of a developers PC which contains an entire SNES board on a 3x3 inch square [^32]. 
+
+This seems like an incredibly convenient way to develop games for the Super Nintendo and may have influenced the official PS1 development kit that came out a few years later with the same concept. 
 </div>
 </section>
 
