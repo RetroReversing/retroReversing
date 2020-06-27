@@ -5,6 +5,7 @@ tags:
 - psygnosis
 - ocean
 - commodore64
+- documentary
 title: Imagine and Ocean Software Documentary
 youtube: "Yt9BsZCifgU"
 image: https://img.youtube.com/vi/Yt9BsZCifgU/0.jpg
@@ -15,7 +16,9 @@ breadcrumbs:
   - name: Imagine and Ocean Software Documentary
     url: #
 thumbnail: /public/consoles/Commodore 64.png
-recommend: general
+recommend: 
+- documentary
+- general
 editlink: /general/ImagineOceanDocumentary.md
 
 ---
