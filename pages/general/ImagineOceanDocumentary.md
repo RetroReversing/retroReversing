@@ -7,7 +7,7 @@ tags:
 - commodore64
 title: Imagine and Ocean Software Documentary
 youtube: "Yt9BsZCifgU"
-image: http://img.youtube.com/vi/Yt9BsZCifgU/0.jpg
+image: https://img.youtube.com/vi/Yt9BsZCifgU/0.jpg
 permalink: /imagine-ocean
 breadcrumbs:
   - name: Home
