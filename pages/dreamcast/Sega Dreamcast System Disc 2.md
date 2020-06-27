@@ -8,7 +8,7 @@ tags:
 - sega
 title: The Sega Dreamcast System Disc 2 Development Tool
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: http://img.youtube.com/vi/TL0VCLGev7A/0.jpg
+image: https://img.youtube.com/vi/TL0VCLGev7A/0.jpg
 permalink: /Sega-Dreamcast-System-Disc-2
 breadcrumbs:
   - name: Home
@@ -19,12 +19,13 @@ breadcrumbs:
     url: #
 videocarousel:
   - title: Sega Dreamcast System Disc 2 in Action
-    image: http://img.youtube.com/vi/TL0VCLGev7A/0.jpg
+    image: https://img.youtube.com/vi/TL0VCLGev7A/0.jpg
     youtube: 'TL0VCLGev7A'
 recommend: dreamcast
 references:
 - Dreamcast Hub
 editlink: dreamcast/Sega Dreamcast System Disc 2.md
+updatedAt: 27th June 2020
 ---
 
 In order to help prevent alpha and beta games being leaked to the public, Sega made sure that an additional disc was required to run developer burned GD-Rs.
