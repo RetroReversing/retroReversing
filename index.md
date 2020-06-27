@@ -10,7 +10,7 @@ herocarousel:
     herolink: /turok64sourcecode
   - herotitle: "Retrogame Archeology"
     image: https://i.ytimg.com/vi/k6PWZh0MJ1Y/maxresdefault.jpg
-    herotext: "John Aycokc, Associate Professor Computer Science, University of Calgary uses retrogame archeology to look under the hood of old games to uncover the clever tricks that make them tick. Learn about what retrogame archeology is (and isn't) and how old games are studied today."
+    herotext: "John Aycokc, uses Retrogame Archeology to look under the hood of old games to uncover the clever tricks that make them tick."
     herolink: /retrogame-archeology
   - herotitle: "Ultra 64"
     image: /public/hero/Nintendo 64 Hero.jpg
