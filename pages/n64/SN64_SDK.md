@@ -20,9 +20,13 @@ editlink: /n64/SN64_SDK.md
 updatedAt: 25th April 2020
 ---
 
-SN64 was a software development kit for the Nintendo 64 created by `SN Systems` and popular with 3rd party game developers.
+SN64 was a software development kit for the Nintendo 64 created by `SN Systems` and was especially popular with 3rd party game developers.
 
 # Introduction
+<section class="postSection">
+    <img src="/public/N64/SN64_Devkit_By_ChrisCor.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/N64/SN64_Devkit_By_ChrisCor2.jpg" class="wow slideInLeft postImage" />
+<div markdown="1">
 Sn Systems are a company that have always specialised in creating excellent tools for game developers. Their most popular product during the N64 lifecycle was called PSYQ and targeted Sony PlayStation and Sega Saturn consoles. 
 
 It was inevitable that SN Systems would create a SDK for the newly announced Ultra 64 to target the 3rd party development market as an alternative to Nintendos own offering. 
@@ -34,6 +38,11 @@ SN64 went under a multitude of different names as SN Systems were constantly re-
 * SN64 - Most common name
 * Psy-Q N64 - Name in some of the development tools such as Assembler
 * Pro-DG - To align with their other development tools late in the lifecycle of the N64.
+
+Images on the left of the Development kit hardware are courtesy of ChrisCor on Twitter who kindly gave permission for us to include his photos on this page you can check out his Twitter here: [ChrisCor (@Jackhead_ASG) / Twitter](https://twitter.com/Jackhead_ASG) [^1].
+
+</div>
+</section>
 
 ---
 # Contents of the SDK (106)
@@ -116,3 +125,7 @@ PSYQ.H | Header file that only exports one function called `init_debug`
 PSYQ.OBJ | Compiled Object file
 SNMAIN.S | Assembly code for the entry point for the game
 TEST.C | Simple C code to initialise the N64
+
+---
+# References
+[^1]: [ChrisCor (@Jackhead_ASG) / Twitter](https://twitter.com/Jackhead_ASG)
