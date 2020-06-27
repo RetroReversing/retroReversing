@@ -6,14 +6,13 @@ tags:
 - hardware
 - bung
 title: Bung Doctor v64 (N64)
-published: true
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
   - title: MVG Doctor V64
-    image: http://img.youtube.com/vi/HrQYdr0FY70/0.jpg
+    image: https://img.youtube.com/vi/HrQYdr0FY70/0.jpg
     youtube: 'HrQYdr0FY70'
   - title: Hard4Games Doctor V64
-    image: http://img.youtube.com/vi/8Za3DNGeP5Y/0.jpg
+    image: https://img.youtube.com/vi/8Za3DNGeP5Y/0.jpg
     youtube: '8Za3DNGeP5Y'
 image: https://i.ytimg.com/vi/8Za3DNGeP5Y/hqdefault.jpg
 permalink: /Bung-Doctor-v64/
@@ -26,6 +25,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/Bung-Doctor-v64.md
+updatedAt: 27th June 2020
 ---
 # Bung Dr V64
 The Doctor V64 was a 3rd Party Development kit and Piracy device that was much cheaper than the official nintendo development kits [^1]. It is the original Creator of .v64 files (it has functionality to dump carts) and even came with a CD full of N64 roms.
