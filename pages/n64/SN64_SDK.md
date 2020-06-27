@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/SN64_SDK.md
-updatedAt: 25th April 2020
+updatedAt: 27th June 2020
 ---
 
 SN64 was a software development kit for the Nintendo 64 created by `SN Systems` and was especially popular with 3rd party game developers.
