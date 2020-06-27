@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: 
+- documentary
 - md
 - sonic
 - sega
@@ -16,12 +17,15 @@ breadcrumbs:
     url: /sega
   - name: Working at SEGA Documentary 
     url: #
-recommend: sega
+recommend: 
+- documentary
+- sega
 videocarousel:
   - image: https://img.youtube.com/vi/lCnaw07LaS0/maxresdefault.jpg
     youtube: 'lCnaw07LaS0'
   - image: https://img.youtube.com/vi/-M8RIc6Ek0Q/maxresdefault.jpg
     youtube: '-M8RIc6Ek0Q'
+editlink: ../pages/sega/WorkingAtSega.md
 references:
   - youtube
 ---
