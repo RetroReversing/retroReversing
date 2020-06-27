@@ -225,7 +225,7 @@ blockquote {
 
 /* code blocks */
 p .language-plaintext, p .language-bash {
-  padding-left: 5px;
+  padding-left: 5%;
 }
 
 .language-plaintext pre, .language-bash pre {
