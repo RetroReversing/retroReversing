@@ -9,7 +9,7 @@ tags:
 - sourcecode
 title: Chicken Run Source Code
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: http://img.youtube.com/vi/thRXO3YwOCg/0.jpg
+image: https://img.youtube.com/vi/thRXO3YwOCg/0.jpg
 permalink: /Chicken-Run-Source-Code
 breadcrumbs:
   - name: Home
@@ -20,10 +20,10 @@ breadcrumbs:
     url: #
 videocarousel:
   - title: Blitz Game Studios
-    image: http://img.youtube.com/vi/XVSNxQbQFJw/0.jpg
+    image: https://img.youtube.com/vi/XVSNxQbQFJw/0.jpg
     youtube: 'XVSNxQbQFJw'
   - title: Chicken Run
-    image: http://img.youtube.com/vi/thRXO3YwOCg/0.jpg
+    image: https://img.youtube.com/vi/thRXO3YwOCg/0.jpg
     youtube: 'thRXO3YwOCg'
 recommend: dreamcast
 references:
