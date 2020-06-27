@@ -5,16 +5,16 @@ console: 'PokemonMini'
 title: 'Pokemon Mini'
 consoleimage: /public/consoles/PokemonMini.png
 thumbnail: /public/consoles/PokemonMini.png
-twitterimage: http://www.retroreversing.com/public/consoles/PokemonMini.png
+twitterimage: https://www.retroreversing.com/public/consoles/PokemonMini.png
 recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
 videocarousel:
   - title: Nintendo's Forgotten Console
-    image: http://img.youtube.com/vi/_Da5CfhH128/hqdefault.jpg
+    image: https://img.youtube.com/vi/_Da5CfhH128/hqdefault.jpg
     youtube: '_Da5CfhH128'
   - title: Did You Known Gaming
-    image: http://img.youtube.com/vi/JHSQsxWMWwY/hqdefault.jpg
+    image: https://img.youtube.com/vi/JHSQsxWMWwY/hqdefault.jpg
     youtube: 'JHSQsxWMWwY'
 breadcrumbs:
   - name: Home
