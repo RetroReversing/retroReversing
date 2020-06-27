@@ -224,12 +224,11 @@ blockquote {
 }
 
 /* code blocks */
-p .language-plaintext {
+p .language-plaintext, p .language-bash {
   padding-left: 5px;
 }
 
-.language-plaintext pre {
+.language-plaintext pre, .language-bash pre {
   background-color: #333;
   color: white;
-  
 }
