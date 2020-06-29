@@ -104,7 +104,7 @@ According to Cary Brisebois on Twitter there was software called `Bonk` that we 
 
 <img src="/public/images/ps1/Radical Entertainment Custom Development PS1 Side by Andrew Earley.jpg" />
 
-These photos are kindly contributed by Andrew Early who recently obtained the development kit from a contact at a recycling center [^4]. 
+These photos are kindly contributed by Andrew Earley who recently obtained the development kit from a contact at a recycling center [^4]. 
 
 # References
 [^1]: Next generation issue 15 from March 1996
