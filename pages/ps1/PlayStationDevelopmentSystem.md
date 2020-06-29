@@ -91,7 +91,23 @@ To go along with the PC based development environment, SN Systems also developed
 <img src="/public/magazine/Sn Systems hadrware for Ps1 PsyQ in Next_Generation_Issue_015_March_1996_0083-2.jpg" />
 [^1]
 
+---
+# In-House Development Kits
+Due to the quality and relatively low-cost of the official PS1 development kit, it was rare for developers to create their own custom development kits, however a few do exist.
+
+## Gik - Radical Entertainment Development Kit
+Radical Entertainment had its own customised PS1 console which has its left side cut out and an additional board was added that protruded out that side. This board has additional RAM chips and a port to communicate with the devleopers PC. Presumably the developer would load the full debug executables on to the extra RAM allowing a much more efficient debugging process and would have cost less than the official development kits to produce.
+
+<img src="/public/images/ps1/Radical Entertainment Custom Development PS1 by Andrew Earley.jpg" />
+
+According to Cary Brisebois on Twitter there was software called `Bonk` that we used for communicating with the development unit [^5]. 
+
+<img src="/public/images/ps1/Radical Entertainment Custom Development PS1 Side by Andrew Earley.jpg" />
+
+These photos are kindly contributed by Andrew Early who recently obtained the development kit from a contact at a recycling center [^4]. 
+
 # References
 [^1]: Next generation issue 15 from March 1996
 [^2]: EDGE issue 20
-[^3]: [SONY TOOL Playstation One PS1 Development DTL Devkit Debugging - RARE PROTOTYPE | eBay](https://www.ebay.com/itm/SONY-TOOL-Playstation-One-PS1-Development-DTL-Devkit-Debugging-RARE-PROTOTYPE/173864533814?_trkparms=aid%3D222007%26algo%3DSIM.MBE%26ao%3D1%26asc%3D20131231084308%26meid%3Df253eb90745846e382cf476c18395868%26pid%3D100010%26rk%3D5%26rkt%3D12%26sd%3D113713937185%26itm%3D173864533814&_trksid=p2047675.c100010.m2109)
+[^3]: [SONY TOOL Playstation One PS1 Development DTL Devkit Debugging RARE PROTOTYPE](https://www.ebay.com/itm/SONY-TOOL-Playstation-One-PS1-Development-DTL-Devkit-Debugging-RARE-PROTOTYPE/173864533814)
+[^4]: [Andrew on Twitter Twitter](https://twitter.com/AndrewEarley7/status/1276871457272823808)
