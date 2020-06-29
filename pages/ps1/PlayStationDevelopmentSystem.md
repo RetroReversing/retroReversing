@@ -7,6 +7,7 @@ tags:
 title: Official PlayStation 1 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation.png
 image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
+twitterimage: https://www.retroreversing.com/public/images/psOneTool.jpg
 permalink: /official-playStation-devkit
 breadcrumbs:
   - name: Home
@@ -19,7 +20,7 @@ recommend:
   - devkit
   - ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
-updatedAt: 18th December 2019
+updatedAt: 29th June 2020
 videocarousel:
   - title: DTL-H2000 Official PlayStation Development System
     image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
