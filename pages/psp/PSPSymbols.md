@@ -6,7 +6,8 @@ tags:
 - symbols
 title: Playstation Portable Games with Debug Symbols
 thumbnail: /public/consoles/Sony PSP.png
-image: /public/consoles/Sony PSP.png
+image: /public/images/psp/PSP Games with Debug Symbols.jpg
+twitterimage: https://www.retroreversing.com/public/images/psp/PSP Games with Debug Symbols.jpg
 permalink: /psp-debug-symbols
 breadcrumbs:
   - name: Home
