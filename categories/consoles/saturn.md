@@ -51,6 +51,11 @@ When the Saturn was launched it brought incredible processing power into the hom
 
 {% include link-to-other-post.html post="/saturn-architecture" description="For more information on the Saturn hardware architecture check out this post." %}
 
+## Saturn Hardware in the Arcade
+The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabinate, some of the games released for the ST-V were also available on the saturn but others remain exclusive to the aercade hardware.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EgAsiBv1TJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ---
 # Development Kits (Hardware)
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by nintendo as a few other publishers had their own versions of development hardware.
