@@ -49,7 +49,7 @@ The emulator contains all the functionality of a standard Saturn emulator but ad
 
 ## Log Input and playback with logging
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/Saturn Reversing - Input Logging.jpg" class="wow bounceInUp postImage" />
+  <img src="/public/images/saturn/Saturn Reversing - Input Logging.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 One very important feature of the reversing emulator is the ability to record all the button presses made during a playthrough. This allows you to play the game at full speed but then later playback the same button presses with full logging enabled. This is an effective way to log a games functionality without having to play at unbearable framerates.
 </div>
@@ -58,7 +58,7 @@ One very important feature of the reversing emulator is the ability to record al
 
 ## Named Save States and Frame Usage logging
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/Saturn Reversing - Named Save States.jpg" class="wow bounceInUp postImage" />
+  <img src="/public/images/saturn/Saturn Reversing - Named Save States.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 Once a playthrough has been completed the user has the ability to playback the input states and create named save states for interesting parts of the game.
 
@@ -71,7 +71,7 @@ For example if a save state was created and called "Start of Level 2" then any f
 ---
 ## Configurable Memory Corruption
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/Saturn Reversing - Corruption.jpg" class="wow bounceInUp postImage" />
+  <img src="/public/images/saturn/Saturn Reversing - Corruption.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 One effective way to find out what to name certain file or areas of memory is corrupt it and witness the result. 
 
@@ -82,7 +82,7 @@ For example we currently detect audio regions of the rom but can't detect **WHAT
 ---
 ## Data Visualiser
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/Saturn Reversing - Data Visualiser.jpg" class="wow bounceInUp postImage" />
+  <img src="/public/images/saturn/Saturn Reversing - Data Visualiser.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 When dealing with huge chunks of memory it can be useful to visualise the bytes in order to detect patterns or images encoded in the data. There are a number of different visualisers such as:
 * 8Bits per Pixel (Each byte is coloured)
@@ -103,7 +103,7 @@ The tool uses the emulation logic from the emulator to export assembly language 
 ---
 ## Scripting Support
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
+  <img src="/public/images/saturn/Saturn Reversing - Scripting.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
   The emulator has the ability to run scripts that you define, places where you can execute scripts include:
 * File Loading from CD - execute a script when a file is read from the CD file system
@@ -120,7 +120,6 @@ These are functions that are currently being worked on but not ready for release
 
 ## Function Tagging (Manual)
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 Unless you are lucky enough to have debug symbols for the game you want to reverse then you will be faced with hundreds of unnamed functions. 
 
@@ -141,7 +140,6 @@ Examples of tags:
 
 ## Automated Function Tagging
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 The ability to add tags to unnamed functions is in credibly valuable for understanding the purpose and eventually providing an accurate name for it. However manually adding tags to functions can be tedious and there are a few areas where the emulator can help the user to automatically tag based on functionality such as:
 * VDP1 or VDP2 usage
@@ -156,7 +154,6 @@ For example if a function uses the hardware to play a sound then it will automat
 ---
 ## ASCII String Listing
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 Like every good reversing tool, the emulator supports finding strings from a chunk of memory or file at runtime. These strings can provide valuable hints as to what a function does that references them.
 </div>
@@ -165,7 +162,6 @@ Like every good reversing tool, the emulator supports finding strings from a chu
 ---
 ## Assembly Code Export
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 We plan to have the ability to export the disassembled code into a folder with a working Makefile, that when ran will rebuild the executable code back into a working ISO image.
 </div>
@@ -174,7 +170,6 @@ We plan to have the ability to export the disassembled code into a folder with a
 ---
 ## Auto detection of Function names
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
   We provide a json file with common function signatures from the main Sega Saturn SDKs, this is used to automatically detect which functions are included in the game and putting a name to the function.
 </div>
@@ -183,7 +178,6 @@ We plan to have the ability to export the disassembled code into a folder with a
 ---
 ## Finding common functions across games
 <section class="postSection">
-  <img src="/public/images/saturn/saturnRE/.jpg" class="wow bounceInUp postImage" />
 <div markdown="1">
 We store the byte pattern of every function we come across while playing multiple games and can use this information to find common functions across games. 
 
