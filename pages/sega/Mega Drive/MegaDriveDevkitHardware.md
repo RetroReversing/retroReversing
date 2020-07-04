@@ -7,7 +7,7 @@ tags:
 - megadrive
 title: Sega Mega Drive (Genesis) Development Kit Hardware
 thumbnail: /public/consoles/Sega Megadrive.png
-image: /public/images/megadrive/Sega Mega Drive Genesis Development Kit Hardware.jpg
+image: /public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis Development Kit Hardware.jpg
 permalink: /sega-mega-drive-genesis-development-kit/
 breadcrumbs:
