@@ -6,7 +6,7 @@ tags:
 - fileformats
 title: Playstation 1 File Formats
 thumbnail: /public/consoles/Sony Playstation.png
-image: /public/consoles/ps1/Sony PS1 File Formats.jpg
+image: /public/images/ps1/Sony PS1 File Formats.jpg
 permalink: /ps1-file-formats
 breadcrumbs:
   - name: Home
