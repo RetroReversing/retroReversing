@@ -19,9 +19,7 @@ recommend: psp
 editlink: /psp/PSPSymbols.md
 ---
 
-The Sony Playstation portable used encrypted executables known as `eboot.bin`, these are basically just an encrypted ELF file and it is possible to decrypt them with the correct tools.
-
-I have never seen a PSP executable that contains the debug symbols inside the elf (eboot) itself, all the games with debug symbols we have come across have been using external .sym and .map files to store the debug information. 
+The Sony Playstation portable used encrypted executables known as `EBOOT.BIN`, these are basically just an encrypted ELF file and it is possible to decrypt them with the correct tools. Some games also ship with unencrypted executables in `BOOT.BIN`
 
 ---
 # Types of PSP Symbol files
@@ -34,6 +32,19 @@ I have never seen a PSP executable that contains the debug symbols inside the el
 Similar to .sym files but are created by the linker to document where each function is located in the final linked executable.
 
 ---
+# BOOT.BINs with Debug Symbols
+* Adventure Player (Japan) (v1.05)
+* Armored Core - Formula Front (Korea) (v1.02)
+* Astonishia Story (Korea) (v1.02)
+* Big Bang Bang (Japan) (Sample) (2003-09-22)
+* Demo Disc for PSP Vol. 1 (Japan) (Demo)
+* Glorace - Phantastic Carnival (Korea) (v1.02)
+* Jan Sangoku Musou (Japan) (v1.02)
+* Puzzle Bobble Pocket (Japan) (v1.01)
+* Rengoku - The Tower of Purgatory (Japan) (v1.01)
+* Space Invaders - Galaxy Beat (Japan) (v1.02)
+* Yu-Gi-Oh! Duel Monsters GX - Tag Force (Japan) (En,Ja,Fr,De,Es,It) (v1.02)
+
 # ViciousEngine
 Many games using the ViciousEngine actually came with both the .sym and .map files compressed inside the `DATA.PAK` file.
 ViciousEngine was one of the few game engines recommended officially by Sony, and in fact they offered a discount for the engine if it was used to create a PSP Mini [^1].
