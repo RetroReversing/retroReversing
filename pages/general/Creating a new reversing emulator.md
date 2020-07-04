@@ -4,7 +4,7 @@ tags:
 - emulator
 - reversingemulator
 title: Creating a new reversing emulator
-image: /public/Articles/Creating a new reversing emulator.jpg
+image: /public/Articles/Creating a new Reversing Emulator.jpg
 thumbnail: /public/consoles/Atari 2600.png
 permalink: /create-reversing-emulator
 breadcrumbs:
