@@ -24,18 +24,22 @@ redirect_from:
   - /official-nes-devkit/
 ---
 
+# Introduction
 The Nintendo `Famicom` was released in Japan on 15th July, 1983 at a price of 14,800 yen. Development for the machine was strictly controlled by Nintendo as they didn't want a repeat of the US "Video Game Crash" which they blamed on the lack of quality games. As such most of the games initially released for the platform were made by Nintendo itself, presumably on prototype NES hardware.
 
 Since Nintendo were very new to the video game market and saw themselves as creating most of the software that will run on the NES they did not make a specific development kit, or if they did it was very well hidden in the official Nintendo headquarters and no public information has been released on it.
 
+## What about 3rd parties?
 It wasn't until the first 3rd party game was in development that the need for a Development Kit for the NES was established. It took a full year after the Famicom's launch for the first 3rd party title to appear.
 
+## Nintendo Licensee program
 In 1986 Nintendo would open up its licensee program to allow other developers to create software for the Famicom [^12]. It was then on the lookout for talented programmers to make use of the 6502 chip which was relatively uncommon at the time of its launch (although had been used in the Commodore 64).
 
 Presumably many developers would write code for the C64 taking into account the memory model of the NES and test their code via burning an EEPROM cartridge.
 
 It is likely that developers who managed to get an official license from Nintendo were given some basic documentation about the hardware such as the memory map, PPU and APU. It would then be up to the developer to create their own development environment [^3].
 
+---
 # Official Nintendo in-house development kit
 Nintendo has been very secretive about how their official NES games were developed but there is some information coming from a Japanese children's book of all places and kindly translated by Chris Covell on his website.
 
@@ -43,6 +47,9 @@ Nintendo has been very secretive about how their official NES games were develop
 <section class="postSection">
     <img src="/public/images/nes/FamicomProgrammersHardAtWorkOnMario3.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
+When the NES was first released it was not common in Japan for PCs to be running with a 6502 processor [^24], so how did developers write and test code for the famicom? Did they have to burn a EPROM everytime they assembled their code to test even the smallest change?!
+  
+Well yes in fact that was the case, the code for the early NES games was written using a **NEC PC-8001** [^24] which has a Z80 processor, so none of the 6502 assembly code could be run without connecting to a NES system.
 
 In the photograph from a children's book titled `Stars of the Famicom Games` (Kindly scanned and translated by Chris Covell) you can see 4 programmers presumably working on Super Mario Bros 3 [^5]. They are using `HP 64000 mainframe computers` which have presumably been modified to have a Famicom add-on board or 6502 processor card to be able to test their assembled code.
 </div>
@@ -336,3 +343,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^21]: [Gamasutra - A basic history of BASIC on its 50th birthday](https://www.gamasutra.com/view/news/216469/A_basic_history_of_BASIC_on_its_50th_birthday.php)
 [^22]: [Interview with Alberto González (composer) – VGArc](http://www.vgarc.org/vgarc-originals/interview-with-alberto-gonzalez/)
 [^23]: [N2G](https://web.archive.org/web/20170415132556/http://nintendoage.com/forum/messageview.cfm?catid=56&threadid=69249)
+[^24]: [Nintendo Entertainment System/NES (1985-1995) – History of Console Gaming](https://hiscoga.wordpress.com/nintendo-entertainment-systemnes-1985-1995/)
