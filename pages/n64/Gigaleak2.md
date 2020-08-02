@@ -251,6 +251,244 @@ ot_ | Written by tsutomu kaneshige?
 sot_ | Written by hiroki sotoike
 
 
+## Source Code Files
+The following table below just contains the uncompiled source code files present in the root directory of the F-Zero X source code.
+
+Name | Description
+---|---
+dai_autoline.h | 
+dai_camera.h | 
+dai_e_steng.h | 
+dai_ending.h | 
+dai_engine.h | 
+dai_fireworks.h | 
+dai_letter.c | 
+dai_letter.h | 
+dai_m_size.h | 
+dai_machine.h | 
+dai_me_size.h | 
+dai_ssletter.c | 
+dai_ssletter.h | 
+dai_ssletter2.c | 
+dai_ssletter2.h | 
+dai_ssletter3.c | 
+dai_ssletter3.h | 
+dai_steng.h | 
+dai_traveling.c | 
+dai_traveling.h | 
+debug.h | 
+kn_backedit.h | 
+kn_backinit.c | 
+kn_backup.c | 
+kn_backup.h | 
+kn_camera.h | 
+kn_cameraedit.h | 
+kn_common.h | 
+kn_disk.h | 
+kn_dlsub.h | 
+kn_endgp.c | 
+kn_endgp.h | 
+kn_font.h | 
+kn_option.c | 
+kn_option.h | 
+kn_record.c | 
+kn_record.h | 
+kn_recordsub.c | 
+kn_ssrecord.c | 
+kn_suidashi.h | 
+kn_window.h | 
+kn_wipe.h | 
+kn_world.h | 
+kn_worldobj.h | 
+ko_abc.c | 
+ko_abc.h | 
+ko_block.h | 
+ko_csel.c | 
+ko_csel.h | 
+ko_define.h | 
+ko_dtabc.c | 
+ko_dtcsel.c | 
+ko_dtgsel.c | 
+ko_dtmsel.h | 
+ko_dtmsel2.c | 
+ko_dttitle.c | 
+ko_dtwin.c | 
+ko_gsel.c | 
+ko_gsel.h | 
+ko_gsub.h | 
+ko_language.h | 
+ko_main.h | 
+ko_memory.h | 
+ko_msel.c | 
+ko_msel.h | 
+ko_pcgraph.h | 
+ko_pctask.h | 
+ko_protect.h | 
+ko_ramman.h | 
+ko_select.c | 
+ko_select.h | 
+ko_title.c | 
+ko_title.h | 
+ko_win.c | 
+ko_win.h | 
+l_math.h | 
+l_static.h | 
+mo_color.h | 
+mo_commonprg.c | 
+mo_commonstatic.h | 
+mo_controller.h | 
+mo_declare.h | 
+mo_diskproc.h | 
+mo_drawkanji.c | 
+mo_drawkanji.h | 
+mo_editor.c | 
+mo_editor.h | 
+mo_kbuffer.c | 
+mo_kbuffer.h | 
+mo_machinemenu.c | 
+mo_macro.h | 
+mo_macro2.h | 
+mo_main.h | 
+mo_message.c | 
+mo_printerr.c | 
+mo_printerr.h | 
+mo_reaction.h | 
+mo_rom.c | 
+mo_rom.h | 
+mo_romkbuf.c | 
+mo_setting.h | 
+mo_setupkanji.c | 
+mo_sseditor.c | 
+mo_sseditor.h | 
+mo_ssmachine.h | 
+mo_ssmenutex.c | 
+mo_ssmenutex.h | 
+mo_sssetting.c | 
+mo_static.h | 
+n64dd.h | 
+ot_course.h | 
+ot_editcar.h | 
+ot_effect.h | 
+ot_header.h | 
+ot_letter.h | 
+ot_machine.h | 
+ot_menu.h | 
+ot_pcaudio.h | 
+ot_race.h | 
+ot_sseffect.c | 
+ot_sseffect2.c | 
+ot_sub.h | 
+ot_system.h | 
+person.h | 
+sot_buffer.h | 
+sot_buffer8m.h | 
+sot_camera.h | 
+sot_code.h | 
+sot_course.h | 
+sot_cpuletter.h | 
+sot_crsobj.h | 
+sot_define.h | 
+sot_disk.c | 
+sot_disk.h | 
+sot_diskproc.h | 
+sot_disksys.c | 
+sot_disksys.h | 
+sot_draw.c | 
+sot_draw.h | 
+sot_dynamic.h | 
+sot_editbuf.h | 
+sot_efect.h | 
+sot_entry.c | 
+sot_entry.h | 
+sot_error.h | 
+sot_filelist.c | 
+sot_filelist.h | 
+sot_ghost.h | 
+sot_help.c | 
+sot_help.h | 
+sot_kanji.h | 
+sot_leo.c | 
+sot_letter.c | 
+sot_letter.h | 
+sot_main.h | 
+sot_mapselect.h | 
+sot_math.h | 
+sot_matrix.h | 
+sot_menu.c | 
+sot_menu.h | 
+sot_menudata.c | 
+sot_mesdata.c | 
+sot_message.c | 
+sot_message.h | 
+sot_minimap.h | 
+sot_nameinput.h | 
+sot_pack.h | 
+sot_pad.h | 
+sot_rominfo.h | 
+sot_sscrsedit.c | 
+sot_sseditor.c | 
+sot_ssletter.c | 
+sot_ssletter.h | 
+sot_ssletter2.c | 
+sot_static.h | 
+sot_string.c | 
+sot_string.h | 
+sot_sub.h | 
+sot_system.h | 
+sotleo.c | 
+ucode_f.h |
+
+## Textures (IMAGES folder)
+
+There are some interesting images in the F-Zero X source code, including an image of Beavis from Beavis and Butthead.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I FOUND THIS IN THE F-ZERO X TEXTURES <a href="https://t.co/tlu1I2Tv9c">pic.twitter.com/tlu1I2Tv9c</a></p>&mdash; Zeether (@Zeether77) <a href="https://twitter.com/Zeether77/status/1287421325477392391?ref_src=twsrc%5Etfw">July 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+---
+# Animal Crossing (forest folder)
+Animal Forest (Animal Crossing in the west) source code was initially based on the Zelda source code and thus has a few similar files to the OOT source also present in the leak.
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="Forest" date="Main Source Code folder" ></div>
+    <ul class="rr-changelog-more">
+        <div class="rr-info-gen" badge="data" desc="Assets (3D Models)" ></div>
+ <div class="rr-info-gen" badge="flash" desc="Flash library (pre-compiled)" ></div>
+ <div class="rr-info-gen" badge="forest_audio" desc="Pre-compiled sound files" ></div>
+ <div class="rr-info-gen" badge="forest_lib" desc="Pre-compiled source code for F3DZEX2 and Famicom emulator" ></div>
+ <div class="rr-info-gen" badge="lib" desc="Libraries for N64DD (leo) and N64 Master Data Utility" ></div>
+ <div class="rr-info-gen" badge="rtcsrc" desc="Source code for the Real Time Clock library (librtc.a)" ></div>
+ <div class="rr-info-gen" badge="src" desc="Header files and a few C source files from the main game" ></div>
+ <div class="rr-info-gen" badge="tarball" desc="Tar archives sent from Nintendo" ></div>
+ <div class="rr-info-gen" badge="zelda_tool_copy" desc="Command Line tools (probably copied from Zelda but not specific to Zelda)" ></div>
+    </ul>
+</div>
+
+
+## Assets (data folder)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: Noesis has an ELF loader! <a href="https://twitter.com/hashtag/nintendoleaks?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleaks</a> <a href="https://t.co/WVxpLS3qjB">https://t.co/WVxpLS3qjB</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1289577386975977472?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## CLI Tools (zelda_tool_copy folder)
+The **zelda_tool_copy** founds far more interesting than it actually is, it is really just a subset of command line tools provided in the N64 and iQue sdks and none of them are zelda specific, these tools were used to create most games.
+
+Note that if you are interest in the source code for any of these tools then you can find it in "BroadOn Leak".
+
+{% include link-to-other-post.html post="/broadon-archive" description="For more information about the BroadOn N64 Leak." %}
+
+Name | Description
+---|---
+romalign | Align a ROM file to a certain boundary
+romfill  |  Source code for this tool in BroadOn leak
+romaddress |  Possibly new version of the romaddress perl script from the N64 OS SDK
+romdivide |   ?
+rommap | Prints out a map of the ROM, similar to  the rommap perl script from the N64 OS SDK
+rommap_new  |Modified version of rommap
+slidec | SLI decompressor decompresses a szp or szs file (Version 1.0)
+slicnv |  SLI converter, converts szpfile to szsfile (Version 1.0)
+sliencV11 | SLI compressor (Version 1.1)
+ 
+What is interesting about the tools above is that it uses the SZS extension for compression, so nintendo have been using this format from at least the N64 until present day Switch titles!
+
 ---
 # Release Folder (Compiled ROM files)
 The **/release** folder contains the result of compiling the source code for each game in this leak, in both english and Chinese ROM files.
