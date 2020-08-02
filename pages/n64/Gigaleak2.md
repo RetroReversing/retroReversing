@@ -487,7 +487,36 @@ slidec | SLI decompressor decompresses a szp or szs file (Version 1.0)
 slicnv |  SLI converter, converts szpfile to szsfile (Version 1.0)
 sliencV11 | SLI compressor (Version 1.1)
  
-What is interesting about the tools above is that it uses the SZS extension for compression, so nintendo have been using this format from at least the N64 until present day Switch titles!
+What is interesting about the tools above is that it uses the SZS extension for compression, so Nintendo have been using this format from at least the N64 until present day Switch titles!
+
+--- 
+# Mario Kart 64 (mk64 folder)
+The source code for Mario Kart 64 seems to be missing most of the game engins source code, and appears to be mainly the game assets and code for screens that are heavily localized such as the Menus and End screens of the game.
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="mk64" date="Main Source Code folder" ></div>
+    <ul class="rr-changelog-more">
+        <div class="rr-info-gen" badge="audio" desc="Pre-compiled Audio data" ></div>
+<div class="rr-info-gen" badge="enemy_source" desc="Enemy AI C Source code in one massive C file" ></div>
+<div class="rr-info-gen" badge="i10n" desc="Tools for Localisation and data in both Chinese and English" ></div>
+<div class="rr-info-gen" badge="image" desc="Images stored in C files as Byte arrays" ></div>
+<div class="rr-info-gen" badge="include" desc="C Header files for the game logic" ></div>
+<div class="rr-info-gen" badge="KT_data" desc="Track Data?" ></div>
+<div class="rr-info-gen" badge="map" desc="Track Drawing Data" ></div>
+<div class="rr-info-gen" badge="metadata" desc="iQue metadata for the game" ></div>
+<div class="rr-info-gen" badge="mkartDiffSource" desc="Contains USA and JP source code differences" ></div>
+<div class="rr-info-gen" badge="object" desc="Drawing data for 2D Spries such as Banana power up" ></div>
+<div class="rr-info-gen" badge="player" desc="Player Kart Sprites" ></div>
+<div class="rr-info-gen" badge="RESULT" desc="race result Ending data & credits" ></div>
+<div class="rr-info-gen" badge="select" desc="Player Selection Screen & Title at start of game" ></div>
+
+    </ul>
+</div>
+
+## Assets
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This F1 car is found in a few Mario Kart 64 source folders. There is a version stored in the same format as Super FX models (GEO/3DG1), and a version converted to N64 source code. It was probably used in early tests and does not mean that MK64 was to be a F1 racing game. <a href="https://t.co/hsi0ULrM8W">pic.twitter.com/hsi0ULrM8W</a></p>&mdash; Starxxon (@vl_tone) <a href="https://twitter.com/vl_tone/status/1289639440814489600?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ---
 # Release Folder (Compiled ROM files)
