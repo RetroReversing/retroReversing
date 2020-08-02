@@ -29,6 +29,7 @@ This leak contained files for a Version Control Repository (CVS) owned by the cr
 * 1080 snowboarding
 * Animal Crossing/Forest
 * Dr Mario 64
+* F-Zero X
 * Super Mario 64
 * Mario Kart 64
 * Wave Race 64
@@ -72,7 +73,7 @@ club | Source code for the iQue Club application
 devkit | N64 Dev Kit 5.0 (both pc & sgi) & Sound Tools
 devsys | Partner N64 Development Kit
 dm64 | Dr Mario 64 Source code
-f0x | Source code for Star Fox 64
+f0x | Source code for F-Zero X
 forest | Source code to Animal Crossing
 game_manuals | Contains the Adobe Postscript files for the physical game manuals
 marioAGB | Source code for Super Mario Advance
@@ -93,7 +94,7 @@ z_ocarina2 | Source code for Master Quest (Ura Zelda)
 
 ---
 # 1080 Snowboarding (1080 folder)
-The 1080 folder contains two main subfolders apps and lib, apps is where the main soruce code and assets arec ontains and the lib folder just contains a single static library known as `libgdl_u64.a`
+The 1080 folder contains two main subfolders **apps** and **lib**, the **apps** folder is where the main source code and assets are contained and the **lib** folder just contains a single static library known as `libgdl_u64.a`
 
 ## GDL Static Library (libgdl_u64.a)
 It is not clear what the purpose of the GDL static library is yet or if it was used in any other games, but we do know it was created by **Giles Goddard** due to this line in the Makefile:
@@ -216,8 +217,43 @@ If anyone is interested in a full rundown of what each of the pre-compiled objec
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The full complete source code to Dr Mario 64 has been successfully compiled! <a href="https://twitter.com/hashtag/n64?src=hash&amp;ref_src=twsrc%5Etfw">#n64</a> <a href="https://twitter.com/hashtag/nintendoleak?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleak</a> <a href="https://t.co/y66ryCOmgJ">https://t.co/y66ryCOmgJ</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1287691481772326919?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
-# Release Folder (Compiled Roms)
-The **/release** folder contains the result of compiling the source code for each game in this leak, in both english and Chinese roms.
+# F-Zero X (f0x folder)
+The source code for F-Zero X is nowhere near as well organised as the 1080 Snowboarding code, BUT it actually has source code and not just pre-compiled object files!
+
+Also this is not just the code to the N64 version but also contains the 64DD course editor!
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="F0X" date="Main Source Code folder" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="audio" desc="Pre-compiled audio code" ></div>
+ <div class="rr-info-gen" badge="CAD" desc="Contains Sprites in RGB format" ></div>
+       <div class="rr-info-gen" badge="cheat" desc="" ></div>
+	 <div class="rr-info-gen" badge="cheat_code" desc="Same as Cheat folder" ></div>
+ <div class="rr-info-gen" badge="i10n" desc="Localization (Text used for translations)" ></div>
+ <div class="rr-info-gen" badge="IMAGES" desc="Texture files" ></div>
+ <div class="rr-info-gen" badge="metadata" desc="Metadata information for iQue Player" ></div>
+ <div class="rr-info-gen" badge="MOJI" desc="Alphabet Textures" ></div>
+ <div class="rr-info-gen" badge="sound" desc="Audio data" ></div>
+    </ul>
+</div>
+
+The source files seem to be named after the developer that was responsible for them, this was common practise in the early days of software development before good quality source control.
+
+The table below covers the most common prefixes found in the F-Zero source code.
+
+Prefix | Description
+---|---
+dai_ | Written by daisuke tsujimura
+ko_ | Written by keizo ohta
+kn_ | Written by masahiro kawano?
+mo_ | Written by shiro mouri ?
+ot_ | Written by tsutomu kaneshige?
+sot_ | Written by hiroki sotoike
+
+
+---
+# Release Folder (Compiled ROM files)
+The **/release** folder contains the result of compiling the source code for each game in this leak, in both english and Chinese ROM files.
 
 
 ---
