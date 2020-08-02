@@ -28,6 +28,7 @@ On the 25th of July 2020, the day after the `Gigaleak`, its sequel Gigaleak 2 wa
 This leak contained files for a Version Control Repository (CVS) owned by the creators of the Chinese iQue Player (Routefree). It mainly focussed on Nintendo 64 source code but also contained a few Gameboy Advance (AGB) files too. Note that this was sent from Nintendo to iQue for the purpose of creating a Chinese localised version of the main N64 games such as:
 * 1080 snowboarding
 * Animal Crossing/Forest
+* Dr Mario 64
 * Super Mario 64
 * Mario Kart 64
 * Wave Race 64
@@ -89,6 +90,126 @@ yoshi | Source code for Yoshi's Story
 z_majora | Source code for Zelda Majora's Mask
 z_ocarina | Source code for Zelda OOT
 z_ocarina2 | Source code for Master Quest (Ura Zelda)
+
+---
+# 1080 Snowboarding (1080 folder)
+The 1080 folder contains two main subfolders apps and lib, apps is where the main soruce code and assets arec ontains and the lib folder just contains a single static library known as `libgdl_u64.a`
+
+## GDL Static Library (libgdl_u64.a)
+It is not clear what the purpose of the GDL static library is yet or if it was used in any other games, but we do know it was created by **Giles Goddard** due to this line in the Makefile:
+```
+/usr/people/giles/src/stl/latest
+```
+
+There is also reference to a tool called **GDEDIT** in the same Makefile so it could be linked to this library or it could be that Giles just prefixed **GD** to the start of any tool he created.
+
+There doesn't seem to be any source code in the leaks for this library but since a static library is just an archive, we can list the contents with the following command:
+```
+ar t libgdl_u64.a
+```
+
+The files contained in the library will be listed in the table below along with any descriptions that help identify the purpose of the objects:
+
+File Name | Description
+---|---
+acos.o | 
+actor.o | 
+alloc.o | 
+animate.o | 
+animateio.o | 
+app.o | 
+asin.o | 
+atan.o | 
+binmgr.o | 
+boot.o | 
+callback.o | 
+camera.o | 
+clay.o | 
+collide.o | 
+colours.o | 
+console.o | 
+control.o | 
+dl.o | 
+dnode.o | 
+env64x32_l1.o | 
+env64x32_l2.o | 
+env64x32a.o | 
+env64x32b.o | 
+env64x32c.o | 
+euler.o | 
+forcestick.o | 
+fricstick.o | 
+funcptr.o | 
+gel.o | 
+gfxlib.o | 
+hair.o | 
+hand1_tex.o | 
+hand2_tex.o | 
+hostio.o | 
+ik.o | 
+isstream.o | 
+item.o | 
+math.o | 
+mblur.o | 
+memory.o | 
+memtrack.o | 
+message.o | 
+moji4b.o | 
+mouse.o | 
+node.o | 
+nodelist.o | 
+nus_mark_tex.o | 
+parameter.o | 
+particle.o | 
+phong_ia8.o | 
+printfault.o | 
+qnode.o | 
+ramp32x32_tex.o | 
+rcpmgr.o | 
+shadow.o | 
+shadowc_tex.o | 
+shape.o | 
+skin.o | 
+spot1_tex.o | 
+spot2_tex.o | 
+spot3_tex.o | 
+spot4_tex.o | 
+spotlight.o | 
+spring.o | 
+star_env_tex.o | 
+stdgfx.o | 
+stdio.o | 
+stdobjs.o | 
+stdsys.o | 
+sun_64x32_tex.o | 
+syslib.o | 
+terrain.o | 
+text.o | 
+timer.o | 
+u64cont.o | 
+vrbox.o | 
+water.o | 
+widget.o | 
+window.o | 
+
+## Main Source Code (apps/ski folder)
+The main source code is neatly organised into a bunch of sub folders, this makes it one of the tidiest source code folders in the leak.
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="Ski" date="Main Source Code folder" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="data" desc="Contains Asset data such as Player animations, maps and effects" ></div>
+      <div class="rr-info-gen" badge="flow" desc="Game Flow code - seems to be the main game code" ></div>
+<div class="rr-info-gen" badge="gui" desc="The main game GUI" ></div>
+<div class="rr-info-gen" badge="snow" desc="Code for snow effects, including board spray and trail" ></div>
+<div class="rr-info-gen" badge="u64" desc="Contains the standard build toolchain such as makefiles, boot code and rom specs" ></div>
+<div class="rr-info-gen" badge="world" desc="World Editor pre-compiled code" ></div>
+    </ul>
+</div>
+
+Unfortunately there is no uncompiled source code for 1080 snowboarding, so don't expect any *.c or *.h files here, but the precompiled ELF objects *.o can be very interesting indeed.
+
+If anyone is interested in a full rundown of what each of the pre-compiled objects contains and how they are related to the final ROM then let us know and we can create a new page for this purpose.
 
 ---
 # Dr Mario 64 (dm64 folder)
