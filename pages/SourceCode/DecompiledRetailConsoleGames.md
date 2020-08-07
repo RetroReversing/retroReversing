@@ -3,7 +3,7 @@ permalink: /source-code/decompiled-retail-console-games
 layout: post
 title: Decompiled Retail Console Games
 thumbnail: /public/consoles/Computer Old Design.png
-image: /public/images/Retail Console Game Source code.jpg
+image: /public/images/Decompiled Retail Console Games.jpg
 console: sourcecode
 breadcrumbs:
   - name: Home
@@ -157,7 +157,8 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 The Sega Mega Drive was Sega's most popular console in terms of games developed, and as such it also seems to be the most popular for reverse engineering projects too.
 
 ### Kid Chameleon
-[GitHub - sonicretro/kid-chameleon-disasm: Split disassembly of Kid Chameleon](https://github.com/sonicretro/kid-chameleon-disasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/kid-chameleon-disasm" description="Kid Chameleon Disassembly seems to be fairly well documented but still needs much more work to document each subroutine" image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Kid_Chameleon_Coverart.png/220px-Kid_Chameleon_Coverart.png" title="Split disassembly of Kid Chameleon"  %}
+
 
 ### Phantasy star II
 [GitHub - lory90/ps2disasm: Phantasy Star II Disassembly](https://github.com/lory90/ps2disasm)
