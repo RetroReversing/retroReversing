@@ -64,40 +64,40 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Super Nintendo (SNES)
 
 ### Super Bomberman
-{% include link-to-other-site.html url="https://github.com/LIJI32/superbomberman" description="." image="https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png" title="Disassembly and remade build system for SNES game Super Bomberman"  %}
+{% include link-to-other-site.html url="https://github.com/LIJI32/superbomberman" description="The Disassembly of Super Bomberman is about half complete and it uses ca65 to build the retail worldwide ROM images" image="https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png" title="Disassembly and remade build system for SNES game Super Bomberman"  %}
 
 ### Super Mario All-Stars
-{% include link-to-other-site.html url="https://github.com/Ersanio/SMAS-Disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/3/3c/Super_Mario_All_Stars_%28game_box_art%29.jpg" title="Disassembly of the Super Mario All-Stars ROM"  %}
+{% include link-to-other-site.html url="https://github.com/Ersanio/SMAS-Disassembly" description="Incomplete Super Mario All-Stars Disassembly project, has made great progress but still quite a lot of work to do. There are plans to make this disassembly assemble-able in either xkas or asar" image="https://upload.wikimedia.org/wikipedia/en/3/3c/Super_Mario_All_Stars_%28game_box_art%29.jpg" title="Disassembly of the Super Mario All-Stars ROM"  %}
 
 ### Super Mario World
-{% include link-to-other-site.html url="https://github.com/Dotsarecool/SMWDisX" description="." image="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png" title="SMW Disassembly X"  %}
+{% include link-to-other-site.html url="https://github.com/Dotsarecool/SMWDisX" description="(Yet another) disassembly of Super Mario World. This disassembly will focus on code readability and the ability to assemble any of the four console releases of the original game (J, U, E 1.0, & E 1.1). It also assembles the Super System arcade version of the game. Uses the Asar v1.61 Assembler to build back into original ROMs" image="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png" title="SMW Disassembly X"  %}
 
 ### Super Mario World 2: Yoshi's Island
-{% include link-to-other-site.html url="https://github.com/Raidenthequick/yoshisisland-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg" title="Full disassembly of Yoshi's Island (SNES) version U 1.0"  %}
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/yoshisisland-disassembly" description="Disassembly is 100% finished, assembles under Asar and produces a fully clean ROM." image="https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg" title="Full disassembly of Yoshi's Island (SNES) version U 1.0"  %}
 
 ### Super Metroid
-{% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
+{% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
 
 ---
 ## Nintendo 64
 
 ### Super Mario 64
-{% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
+{% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
 
 ---
 ## Nintendo Game Boy
 
 ### Kirby's Dream Land
-{% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
+{% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="This is a disassembly of Kirby's Dream Land (Game Boy), still under active development but many subroutines still to be named. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
 
 ### Pokemon Red & Blue
-{% include link-to-other-site.html url="https://github.com/pret/pokered" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/440px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png" title="Disassembly of Pokémon Red/Blue"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokered" description="This is a fully complete disassembly of Pokémon Red and Blue. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/440px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png" title="Disassembly of Pokémon Red/Blue"  %}
 
 ### Pokemon Yellow
-{% include link-to-other-site.html url="https://github.com/pret/pokeyellow" description="." image="https://upload.wikimedia.org/wikipedia/en/4/4a/Pokemon_Yellow.png" title="Disassembly of Pokemon Yellow"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokeyellow" description="This is a fully complete disassembly of Pokémon Yellow.  It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/4/4a/Pokemon_Yellow.png" title="Disassembly of Pokemon Yellow"  %}
 
 ### Super Mario Land
-{% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="Incomplete disassembly of Super Mario Land (World) (Rev A). It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
 
 ---
 ## Nintendo Game Boy Color
