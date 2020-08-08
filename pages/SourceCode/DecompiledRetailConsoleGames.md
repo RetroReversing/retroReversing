@@ -127,22 +127,22 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Game Boy Advance
 
 ### Fire Emblem: The Sacred Stones
-{% include link-to-other-site.html url="https://github.com/FireEmblemUniverse/fireemblem8u" description="." image="https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG" title="Decompilation/disassembly of Fire Emblem: The Sacred Stones"  %}
+{% include link-to-other-site.html url="https://github.com/FireEmblemUniverse/fireemblem8u" description="This is a disassembly of Fire Emblem: The Sacred Stones (U)[!], it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG" title="Decompilation/disassembly of Fire Emblem: The Sacred Stones"  %}
 
 ### Kirby & The Amazing Mirror
-{% include link-to-other-site.html url="https://github.com/jiangzhengwenjz/katam" description="." image="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" title="Disassembly of Kirby & The Amazing Mirror (USA)"  %}
+{% include link-to-other-site.html url="https://github.com/jiangzhengwenjz/katam" description="This is a disassembly of Kirby & The Amazing Mirror (USA), it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" title="Disassembly of Kirby & The Amazing Mirror (USA)"  %}
 
 ### Pokemon Ruby & Sapphire
-{% include link-to-other-site.html url="https://github.com/pret/pokeruby" description="." image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokeruby" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
 
 ### Pokemon Emerald
-{% include link-to-other-site.html url="https://github.com/pret/pokeemerald" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg" title="Decompilation of Pokémon Emerald"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokeemerald" description="This is a decompilation of Pokémon Emerald, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg" title="Decompilation of Pokémon Emerald"  %}
 
 ### Pokemon FireRed & LeafGreen
-{% include link-to-other-site.html url="https://github.com/pret/pokefirered" description="." image="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" title="Decompilation of Pokémon FireRed/LeafGreen"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokefirered" description="This is a disassembly of Pokémon FireRed and LeafGreen, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" title="Decompilation of Pokémon FireRed/LeafGreen"  %}
 
-### Pokémon Mystery Dungeon: Red/Blue Rescue Team
-{% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="." image="https://upload.wikimedia.org/wikipedia/en/e/ee/Pok%C3%A9mon_Mystery_Dungeon_-_Blue_Rescue_Team_Coverart.png" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
+### Pokémon Mystery Dungeon: Red Rescue Team
+{% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ---
 # Sega Systems
@@ -217,14 +217,10 @@ Mobile games are a special case that weren't initially going to be included, but
 ## Java 2 Mobile Edition (J2ME)
 
 ### Sonic 1 J2ME
-{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="" title="Decompile of the 2005 mobile port of Sonic 1"  %}
+{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="https://repository-images.githubusercontent.com/254218052/8e42f080-7f34-11ea-9261-3e534fe23726" title="Decompile of the 2005 mobile port of Sonic 1"  %}
 
 ---
 ## Android
 
 ### Sonic Advance
-{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
-
----
-# References
-[^1]: [GitHub - nmikstas/dragon-warrior-disassembly: NES Dragon Warrior software disassembly](https://github.com/nmikstas/dragon-warrior-disassembly)
+{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
