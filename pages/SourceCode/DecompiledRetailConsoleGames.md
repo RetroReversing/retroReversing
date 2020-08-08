@@ -103,25 +103,25 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Nintendo Game Boy Color
 
 ### Links Awakening DX
-{% include link-to-other-site.html url="https://github.com/zladx/LADX-Disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png" title="Disassembly of Legend of Zelda: Links Awakening DX"  %}
+{% include link-to-other-site.html url="https://github.com/zladx/LADX-Disassembly" description="Links Awakening DX Disassembly still under active development. It uses RGBDS to build into the worldwide ROM set." image="https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png" title="Disassembly of Legend of Zelda: Links Awakening DX"  %}
 
 ### Legend of Zelda Oracle of Ages & Seasons
-{% include link-to-other-site.html url="https://github.com/Drenn1/oracles-disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg" title="Disassembly of Oracle of Ages and Seasons"  %}
+{% include link-to-other-site.html url="https://github.com/Drenn1/oracles-disasm" description="This is intended to be a full disassembly of Oracle of Ages and Seasons for the Gameboy Color. The disassembly uses WLA-DX as its assembler." image="https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg" title="Disassembly of Oracle of Ages and Seasons"  %}
 
 ### Pokemon Gold & Silver
-{% include link-to-other-site.html url="https://github.com/pret/pokegold" description="." image="https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png" title="Disassembly of Pokémon Gold/Silver"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokegold" description="This is a fully documented disassembly of Pokemon Gold and Pokemon Silver. It uses the RGBDS assembler to build into the retail ROMs" image="https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png" title="Disassembly of Pokémon Gold/Silver"  %}
 
 ### Pokemon Crystal
-{% include link-to-other-site.html url="https://github.com/pret/pokecrystal" description="." image="https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png" title="Disassembly of Pokémon Crystal"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokecrystal" description="This is a fully documented disassembly of Pokemon Crystal. It uses the RGBDS assembler to build into the retail ROMs" image="https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png" title="Disassembly of Pokémon Crystal"  %}
 
 ### Pokemon Pinball
-{% include link-to-other-site.html url="https://github.com/pret/pokepinball" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png" title="Disassembly of Pokémon Pinball"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokepinball" description="This is a disassembly of Pokémon Pinball (Game Boy Color), the assembler used is rgbds version 0.4.0." image="https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png" title="Disassembly of Pokémon Pinball"  %}
 
 ### Pokemon Trading Card Game
-{% include link-to-other-site.html url="https://github.com/pret/poketcg" description="." image="https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png" title="Disassembly of Pokémon TCG"  %}
+{% include link-to-other-site.html url="https://github.com/pret/poketcg" description="This is a disassembly of Pokémon TCG that uses the RGBDS assembler toolchain to build the retail ROM." image="https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png" title="Disassembly of Pokémon TCG"  %}
 
 ### Pokémon Puzzle Challenge
-{% include link-to-other-site.html url="https://github.com/pret/pokepuzzle" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png" title="Disassembly of Pokémon Puzzle Challenge"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pokepuzzle" description="This is a disassembly of Pokémon Puzzle Challenge that uses the RGBDS assembler toolchain to build the retail ROM." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png" title="Disassembly of Pokémon Puzzle Challenge"  %}
 
 ---
 ## Game Boy Advance
