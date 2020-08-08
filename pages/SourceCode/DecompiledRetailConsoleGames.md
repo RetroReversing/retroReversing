@@ -4,6 +4,7 @@ layout: post
 title: Decompiled Retail Console Games
 thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/Decompiled Retail Console Games.jpg
+twitterimage: https://www.retroreversing.com/public/images/Decompiled Retail Console Games.jpg
 console: sourcecode
 breadcrumbs:
   - name: Home
