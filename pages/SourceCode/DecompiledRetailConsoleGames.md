@@ -46,16 +46,19 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/Entroper/FF1Disassembly" description="Completed documentation of all code, uses ca65 to assemble back to original ROM" image="https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg" title="Final Fantasy 1 Disassembly"  %}
 
 ### Legend of Zelda
-{% include link-to-other-site.html url="https://github.com/camthesaxman/zeldasource" description="." image="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png" title="Disassembly of Legend of Zelda"  %}
+{% include link-to-other-site.html url="https://github.com/camthesaxman/zeldasource" description="This is a work in progress disassembly of The Legend of Zelda for the Nintendo Entertainment System, it uses CC65 to assemble back in to the original ROM" image="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png" title="Disassembly of Legend of Zelda"  %}
 
 ### Mega Man 3
-{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman3-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mega Man 3 (NES)"  %}
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman3-disassembly" description="Fully complete disassembly of Mega Man 3 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mega Man 3 (NES)"  %}
+
+### Mega Man 4
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman4-disassembly" description="Fully complete disassembly of Mega Man 4 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg" title="Full disassembly of Mega Man 4"  %}
 
 ### Mega Man 5
-{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman5-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg" title="Full disassembly of Mega Man 3"  %}
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman5-disassembly" description="Fully complete disassembly of Mega Man 5 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg" title="Full disassembly of Mega Man 5"  %}
 
 ### Super Mario Bros 3
-{% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="." image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
+{% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="Looks like a fairly complete Disassembly of Super Mario Bros 3 that uses NESASM to re-assemble back into the original US ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
 
 ---
 ## Super Nintendo (SNES)
@@ -143,8 +146,10 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ---
 # Sega Systems
+Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
 
 ## Sega Master System
+Although the Sega Master System was hugely popular in Europe, it can't compete with the NES for number of disassembled projects created so far.
 
 ### Phantasy Star
 {% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
@@ -194,7 +199,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
 
 ### PSX DOOM
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="." image=".jpg" title="Psx Doom Reverse Engineering"  %}
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="." image="" title="Psx Doom Reverse Engineering"  %}
 
 ---
 # Microsoft Systems
@@ -212,13 +217,13 @@ Mobile games are a special case that weren't initially going to be included, but
 ## Java 2 Mobile Edition (J2ME)
 
 ### Sonic 1 J2ME
-{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="." image=".jpg" title="Decompile of the 2005 mobile port of Sonic 1"  %}
+{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="." image="" title="Decompile of the 2005 mobile port of Sonic 1"  %}
 
 ---
 ## Android
 
 ### Sonic Advance
-{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="." image=".jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
+{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="." image="" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
 
 ---
 # References
