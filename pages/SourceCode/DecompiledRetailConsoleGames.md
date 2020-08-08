@@ -152,10 +152,10 @@ Sega is similar to Nintendo in that most of the games that people are interested
 Although the Sega Master System was hugely popular in Europe, it can't compete with the NES for number of disassembled projects created so far.
 
 ### Phantasy Star
-{% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="Incomplete Phantasy Star Disassembly for Sega Master System from SonicRetro. It uses the wla-z80 assembler to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
 
 ### Sonic 2 (SMS)
-{% include link-to-other-site.html url="https://github.com/sonicretro/s2smsdisasm" description="." image=".jpg" title="Sonic 2 SMS Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2smsdisasm" description="Sonic 2 for the Sega Master System Incomplete Disassembly from SonicRetro. It uses the wla-z80 assembler to build the ROM." image="" title="Sonic 2 SMS Disassembly"  %}
 
 ---
 ## Sega Mega Drive
@@ -166,25 +166,25 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 
 
 ### Phantasy star II
-{% include link-to-other-site.html url="https://github.com/lory90/ps2disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg" title="Phantasy Star II Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/lory90/ps2disasm" description="Incomplete Phantasy star II Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg" title="Phantasy Star II Disassembly"  %}
 
 ### Phantasy star III
-{% include link-to-other-site.html url="https://github.com/lory90/ps3disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/c/c9/Phantasy_Star_III_box_US.jpg" title="Phantasy Star III Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/lory90/ps3disasm" description="Incomplete Phantasy star III Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/c/c9/Phantasy_Star_III_box_US.jpg" title="Phantasy Star III Disassembly"  %}
 
 ### Phantasy Star IV
-{% include link-to-other-site.html url="https://github.com/lory90/ps4disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg" title="Phantasy Star IV Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/lory90/ps4disasm" description="Incomplete Phantasy star IV Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg" title="Phantasy Star IV Disassembly"  %}
 
 ### Sonic 1
-{% include link-to-other-site.html url="https://github.com/sonicretro/s1disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" title="Sonic 1 Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s1disasm" description="The very latest Sonic 1 Disassembly, under very active development by the SonicRetro team. It uses the ASM68K assembler." image="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" title="Sonic 1 Disassembly"  %}
 
 ### Sonic 2
-{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 2 Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 2 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 2 Disassembly"  %}
 
 ### Sonic and Knuckles
-{% include link-to-other-site.html url="https://github.com/sonicretro/skdisasm" description="." image="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg" title="Sonic and Knuckles Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/skdisasm" description="A disassembly of Sonic and Knuckles for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg" title="Sonic and Knuckles Disassembly"  %}
 
 ### Sonic Spinball 
-{% include link-to-other-site.html url="https://github.com/sonicretro/spindisasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg" title="Sonic Spinball Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/spindisasm" description="This is the Sonic Spinball disassembly by Andlabs converted to a .asm file and fixed up to produce an accurate build in asm68k." image="https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg" title="Sonic Spinball Disassembly"  %}
 
 ---
 # Sony Systems
@@ -193,13 +193,13 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ## Playstation 1
 
 ### Tomb Raider: Chronicles
-{% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
+{% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="This repository contains decompiled code for the game Tomb Raider: Chronicles. All decompiled code is based off the final PlayStation and PC version. The goal is to decompile as much as possible since the original source code is reportedly lost. It is not expected for decompiled code to be 1:1 with the original source code. However, functionality wise it will be the same." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
 
 ### Need for Speed: High Stakes
-{% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
+{% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="A very early decompilation project for Need For Speed 4, but the progress that has been made is very impressive." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
 
 ### PSX DOOM
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="." image="" title="Psx Doom Reverse Engineering"  %}
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="" title="Psx Doom Reverse Engineering"  %}
 
 ---
 # Microsoft Systems
@@ -208,7 +208,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 ## Xbox 360
 
 ### Terraria
-{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
+{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
 
 ---
 # Mobile games
@@ -217,13 +217,13 @@ Mobile games are a special case that weren't initially going to be included, but
 ## Java 2 Mobile Edition (J2ME)
 
 ### Sonic 1 J2ME
-{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="." image="" title="Decompile of the 2005 mobile port of Sonic 1"  %}
+{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="" title="Decompile of the 2005 mobile port of Sonic 1"  %}
 
 ---
 ## Android
 
 ### Sonic Advance
-{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="." image="" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
+{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
 
 ---
 # References
