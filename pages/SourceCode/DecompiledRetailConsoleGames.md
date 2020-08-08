@@ -19,7 +19,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: 7th August 2020
+updatedAt: 8th August 2020
 ---
 
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
@@ -37,109 +37,109 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Nintendo Entertainment System (NES)
 
 ### Balloon Fight
-[GitHub - LuigiBlood/balloonfight_dis: Balloon Fight NES Disassembly](https://github.com/LuigiBlood/balloonfight_dis)
+{% include link-to-other-site.html url="https://github.com/LuigiBlood/balloonfight_dis" description="Project by LuigiBlood, requires BASS to assemble back into the retail ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg" title="Balloon Fight (USA) NES Disassembly"  %}
 
 ### Dragon Warrior
-[GitHub - nmikstas/dragon-warrior-disassembly: NES Dragon Warrior software disassembly](https://github.com/nmikstas/dragon-warrior-disassembly)
+{% include link-to-other-site.html url="https://github.com/nmikstas/dragon-warrior-disassembly" description="Complete Dragon warrior disassembly by github user nmikstas, uses Ophis to assemble back into the original ROM" image="https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg" title="Complete Dragon warrior disassembly"  %}
 
 ### Final Fantasy
-[GitHub - Entroper/FF1Disassembly](https://github.com/Entroper/FF1Disassembly)
+{% include link-to-other-site.html url="https://github.com/Entroper/FF1Disassembly" description="Completed documentation of all code, uses ca65 to assemble back to original ROM" image="https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg" title="Final Fantasy 1 Disassembly"  %}
 
 ### Legend of Zelda
-[GitHub - camthesaxman/zeldasource: Disassembly of Legend of Zelda](https://github.com/camthesaxman/zeldasource)
+{% include link-to-other-site.html url="https://github.com/camthesaxman/zeldasource" description="." image="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png" title="Disassembly of Legend of Zelda"  %}
 
 ### Mega Man 3
-[GitHub - Raidenthequick/megaman3-disassembly: Full disassembly of Mega Man 3 (NES)](https://github.com/Raidenthequick/megaman3-disassembly)
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman3-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mega Man 3 (NES)"  %}
 
 ### Mega Man 5
-[GitHub - Raidenthequick/megaman5-disassembly: Full disassembly of Mega Man 5 (NES)](https://github.com/Raidenthequick/megaman5-disassembly)
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman5-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg" title="Full disassembly of Mega Man 3"  %}
 
 ### Super Mario Bros 3
-[GitHub - captainsouthbird/smb3: Disassembly of Super Mario Bros 3](https://github.com/captainsouthbird/smb3)
+{% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="." image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
 
 ---
 ## Super Nintendo (SNES)
 
 ### Super Bomberman
-[GitHub - LIJI32/superbomberman: Disassembly and remade build system for SNES game Super Bomberman](https://github.com/LIJI32/superbomberman)
+{% include link-to-other-site.html url="https://github.com/LIJI32/superbomberman" description="." image="https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png" title="Disassembly and remade build system for SNES game Super Bomberman"  %}
 
 ### Super Mario All-Stars
-[GitHub - Ersanio/SMAS-Disassembly: Disassembly of the Super Mario All-Stars ROM](https://github.com/Ersanio/SMAS-Disassembly)
+{% include link-to-other-site.html url="https://github.com/Ersanio/SMAS-Disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/3/3c/Super_Mario_All_Stars_%28game_box_art%29.jpg" title="Disassembly of the Super Mario All-Stars ROM"  %}
 
 ### Super Mario World
-[GitHub - Dotsarecool/SMWDisX: SMW Disassembly X](https://github.com/Dotsarecool/SMWDisX)
+{% include link-to-other-site.html url="https://github.com/Dotsarecool/SMWDisX" description="." image="https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png" title="SMW Disassembly X"  %}
 
 ### Super Mario World 2: Yoshi's Island
-[GitHub - Raidenthequick/yoshisisland-disassembly: Full disassembly of Yoshi's Island (SNES) version U 1.0](https://github.com/Raidenthequick/yoshisisland-disassembly)
+{% include link-to-other-site.html url="https://github.com/Raidenthequick/yoshisisland-disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg" title="Full disassembly of Yoshi's Island (SNES) version U 1.0"  %}
 
 ### Super Metroid
-[GitHub - strager/supermetroid: Super Metroid SNES game, disassembled](https://github.com/strager/supermetroid)
+{% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
 
 ---
 ## Nintendo 64
 
 ### Super Mario 64
-[GitHub - n64decomp/sm64: A Super Mario 64 decompilation, brought to you by a bunch of clever folks.](https://github.com/n64decomp/sm64)
+{% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
 
 ---
 ## Nintendo Game Boy
 
 ### Kirby's Dream Land
-[GitHub - huderlem/kirbydreamland: disassembly of Kirby's Dream Land](https://github.com/huderlem/kirbydreamland)
+{% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
 
 ### Pokemon Red & Blue
-[GitHub - pret/pokered: Disassembly of Pokémon Red/Blue](https://github.com/pret/pokered)
+{% include link-to-other-site.html url="https://github.com/pret/pokered" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/440px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png" title="Disassembly of Pokémon Red/Blue"  %}
 
 ### Pokemon Yellow
-[GitHub - pret/pokeyellow: Disassembly of Pokemon Yellow](https://github.com/pret/pokeyellow)
+{% include link-to-other-site.html url="https://github.com/pret/pokeyellow" description="." image="https://upload.wikimedia.org/wikipedia/en/4/4a/Pokemon_Yellow.png" title="Disassembly of Pokemon Yellow"  %}
 
 ### Super Mario Land
-[GitHub - kaspermeerts/supermarioland: Super Mario Land disassembly](https://github.com/kaspermeerts/supermarioland)
+{% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
 
 ---
 ## Nintendo Game Boy Color
 
 ### Links Awakening DX
-[GitHub - zladx/LADX-Disassembly: Disassembly of Legend of Zelda: Links Awakening DX](https://github.com/zladx/LADX-Disassembly)
+{% include link-to-other-site.html url="https://github.com/zladx/LADX-Disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png" title="Disassembly of Legend of Zelda: Links Awakening DX"  %}
 
 ### Legend of Zelda Oracle of Ages & Seasons
-[GitHub - Drenn1/oracles-disasm: Disassembly of Oracle of Ages and Seasons](https://github.com/Drenn1/oracles-disasm)
+{% include link-to-other-site.html url="https://github.com/Drenn1/oracles-disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg" title="Disassembly of Oracle of Ages and Seasons"  %}
 
 ### Pokemon Gold & Silver
-[GitHub - pret/pokegold: Disassembly of Pokémon Gold/Silver](https://github.com/pret/pokegold)
+{% include link-to-other-site.html url="https://github.com/pret/pokegold" description="." image="https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png" title="Disassembly of Pokémon Gold/Silver"  %}
 
 ### Pokemon Crystal
-[GitHub - pret/pokecrystal: Disassembly of Pokémon Crystal](https://github.com/pret/pokecrystal)
+{% include link-to-other-site.html url="https://github.com/pret/pokecrystal" description="." image="https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png" title="Disassembly of Pokémon Crystal"  %}
 
 ### Pokemon Pinball
-[GitHub - pret/pokepinball: Disassembly of Pokémon Pinball](https://github.com/pret/pokepinball)
+{% include link-to-other-site.html url="https://github.com/pret/pokepinball" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png" title="Disassembly of Pokémon Pinball"  %}
 
 ### Pokemon Trading Card Game
-[GitHub - pret/poketcg: Disassembly of Pokémon TCG](https://github.com/pret/poketcg)
+{% include link-to-other-site.html url="https://github.com/pret/poketcg" description="." image="https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png" title="Disassembly of Pokémon TCG"  %}
 
 ### Pokémon Puzzle Challenge
-[GitHub - pret/pokepuzzle: Disassembly of Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)
+{% include link-to-other-site.html url="https://github.com/pret/pokepuzzle" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png" title="Disassembly of Pokémon Puzzle Challenge"  %}
 
 ---
 ## Game Boy Advance
 
 ### Fire Emblem: The Sacred Stones
-[GitHub - FireEmblemUniverse/fireemblem8u: Decompilation/disassembly of Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)
+{% include link-to-other-site.html url="https://github.com/FireEmblemUniverse/fireemblem8u" description="." image="https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG" title="Decompilation/disassembly of Fire Emblem: The Sacred Stones"  %}
 
 ### Kirby & The Amazing Mirror
-[GitHub - jiangzhengwenjz/katam: Disassembly of Kirby & The Amazing Mirror (USA)](https://github.com/jiangzhengwenjz/katam)
+{% include link-to-other-site.html url="https://github.com/jiangzhengwenjz/katam" description="." image="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" title="Disassembly of Kirby & The Amazing Mirror (USA)"  %}
 
 ### Pokemon Ruby & Sapphire
-[GitHub - pret/pokeruby: Decompilation of Pokémon Ruby/Sapphire](https://github.com/pret/pokeruby)
+{% include link-to-other-site.html url="https://github.com/pret/pokeruby" description="." image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
 
 ### Pokemon Emerald
-[GitHub - pret/pokeemerald: Decompilation of Pokémon Emerald](https://github.com/pret/pokeemerald)
+{% include link-to-other-site.html url="https://github.com/pret/pokeemerald" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg" title="Decompilation of Pokémon Emerald"  %}
 
 ### Pokemon FireRed & LeafGreen
-[GitHub - pret/pokefirered: Decompilation of Pokémon FireRed/LeafGreen](https://github.com/pret/pokefirered)
+{% include link-to-other-site.html url="https://github.com/pret/pokefirered" description="." image="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" title="Decompilation of Pokémon FireRed/LeafGreen"  %}
 
-### Pokémon Mystery Dungeon: Red Rescue Team
-[GitHub - pret/pmd-red: Decompilation of Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)
+### Pokémon Mystery Dungeon: Red/Blue Rescue Team
+{% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="." image="https://upload.wikimedia.org/wikipedia/en/e/ee/Pok%C3%A9mon_Mystery_Dungeon_-_Blue_Rescue_Team_Coverart.png" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ---
 # Sega Systems
@@ -147,10 +147,10 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Sega Master System
 
 ### Phantasy Star
-[GitHub - lory90/ps1disasm: Phantasy Star Disassembly](https://github.com/lory90/ps1disasm)
+{% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
 
 ### Sonic 2 (SMS)
-[GitHub - sonicretro/s2smsdisasm: Sonic 2 SMS Disassembly](https://github.com/sonicretro/s2smsdisasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2smsdisasm" description="." image=".jpg" title="Sonic 2 SMS Disassembly"  %}
 
 ---
 ## Sega Mega Drive
@@ -161,25 +161,25 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 
 
 ### Phantasy star II
-[GitHub - lory90/ps2disasm: Phantasy Star II Disassembly](https://github.com/lory90/ps2disasm)
+{% include link-to-other-site.html url="https://github.com/lory90/ps2disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg" title="Phantasy Star II Disassembly"  %}
 
 ### Phantasy star III
-[GitHub - lory90/ps3disasm: Phantasy Star III Disassembly](https://github.com/lory90/ps3disasm)
+{% include link-to-other-site.html url="https://github.com/lory90/ps3disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/c/c9/Phantasy_Star_III_box_US.jpg" title="Phantasy Star III Disassembly"  %}
 
 ### Phantasy Star IV
-[GitHub - lory90/ps4disasm: Phantasy Star IV Disassembly](https://github.com/lory90/ps4disasm)
+{% include link-to-other-site.html url="https://github.com/lory90/ps4disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg" title="Phantasy Star IV Disassembly"  %}
 
 ### Sonic 1
-[GitHub - sonicretro/s1disasm: Sonic 1 Disassembly](https://github.com/sonicretro/s1disasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/s1disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" title="Sonic 1 Disassembly"  %}
 
 ### Sonic 2
-[GitHub - sonicretro/s2disasm: Sonic 2 Disassembly](https://github.com/sonicretro/s2disasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 2 Disassembly"  %}
 
 ### Sonic and Knuckles
-[GitHub - sonicretro/skdisasm: Sonic and Knuckles Disassembly](https://github.com/sonicretro/skdisasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/skdisasm" description="." image="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg" title="Sonic and Knuckles Disassembly"  %}
 
 ### Sonic Spinball 
-[GitHub - sonicretro/spindisasm: Sonic Spinball Disassembly](https://github.com/sonicretro/spindisasm)
+{% include link-to-other-site.html url="https://github.com/sonicretro/spindisasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg" title="Sonic Spinball Disassembly"  %}
 
 ---
 # Sony Systems
@@ -188,13 +188,13 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ## Playstation 1
 
 ### Tomb Raider: Chronicles
-[GitHub - TOMB5/TOMB5: Tomb Raider: Chronicles Disassembly translated to C source code.](https://github.com/TOMB5/TOMB5)
+{% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
 
 ### Need for Speed: High Stakes
-[GitHub - OpenNFS/NFSHSX: Need for Speed: High Stakes Disassembly translated to C source code.](https://github.com/OpenNFS/NFSHSX)
+{% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
 
 ### PSX DOOM
-[GitHub - RetailGameSourceCode/PSXDOOM-RE: Psx Doom Reverse Engineering By [GEC]](https://github.com/RetailGameSourceCode/PSXDOOM-RE)
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="." image=".jpg" title="Psx Doom Reverse Engineering"  %}
 
 ---
 # Microsoft Systems
@@ -203,7 +203,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 ## Xbox 360
 
 ### Terraria
-[GitHub - dptug/TerrariaXDK: Broken Decompiled Terraria Xbox 360 Edition source code](https://github.com/dptug/TerrariaXDK)
+{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
 
 ---
 # Mobile games
@@ -212,13 +212,13 @@ Mobile games are a special case that weren't initially going to be included, but
 ## Java 2 Mobile Edition (J2ME)
 
 ### Sonic 1 J2ME
-[GitHub - Iso-Kilo/Sonic-1-J2ME-Decompilation: Decompile of the 2005 mobile port of Sonic 1.](https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation)
+{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="." image=".jpg" title="Decompile of the 2005 mobile port of Sonic 1"  %}
 
 ---
 ## Android
 
 ### Sonic Advance
-[GitHub - ImmutableOctet/sonicgba-monkey: A Monkey port of decompiled Java from Sonic Advance (Mobile)](https://github.com/ImmutableOctet/sonicgba-monkey)
+{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="." image=".jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
 
 ---
 # References
