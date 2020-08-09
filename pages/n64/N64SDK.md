@@ -10,13 +10,13 @@ permalink: /n64-sdk
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo 64 Software Development Kit
+  - name: Nintendo 64
     url: /n64
-  - name: Oman Archive
+  - name: Nintendo 64 Software Development Kit
     url: #
 recommend: n64
 editlink: /n64/N64SDK.md
-updatedAt: 9th May 2020
+updatedAt: 9th August 2020
 twitterimage: https://www.retroreversing.com/public/N64/N64 SDK.jpg
 ---
 This post covers the Official Nintendo 64 Software Development kit that was sent to developers is actually split among a number of different discs due to its size.
@@ -29,10 +29,10 @@ These Discs include:
 
 # N64Kit (N64 Developers Toolkit)
 The N64 Developers toolkit contained all the following applications used for N64 Development:
-* ccbl
+* ccbl - Color Combiner and Blender N64 code
+* DPTEST  - PC application to communicate with ccbl
 * DDTools
-* DPTEST
-* HVQ/HVQM
+* HVQ/HVQM - Imge and Video compression
 * Monegi Multi Viewer64
 * NIFF
 * NuSYSTEM
@@ -42,9 +42,10 @@ On Windows it was installed into `C:\nintendo\n64kit` and contained pre-compiled
 
 ## Known Versions of N64Kit
 Latest Version: **5.2**
+
 Released Versions: **3.0**, **4.0**, **4.1**, **5.0**, **5.1**, **5.2**
 
-Version 5.1 (10th Feb 2000) of the kit was partially released in the BroadOn archive leak of May 2020 due to its use in the iQue players development.
+Version 5.1 (10th Feb 2000) of the kit was partially released in the BroadOn archive leak of May 2020 due to its use in the iQue player development.
 
 ## ccbl - ColorCombiner and Blender Demo
 This is an application that runs on the Nintendo 64 hardware to teach programmers about the RDP features. It has the ability to communicate with a Windows Application called `dptest` for which the source code is also available.
@@ -60,12 +61,26 @@ It works with a number of different N64 development flash cartridges such as:
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="Files" date="Files in the dptest folder" ></div>
     <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="dptest.exe" desc=""></div>
+      <div class="rr-info-gen" badge="dptest.exe" desc="Main application for communicating from PC to N64"></div>
       <div class="rr-info-gen" badge="TargetN64.dll" desc="DLL for communication between flash cartridge and the PC "></div>
- <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication theough the KMC Partner N64 flash cartirdge" ></div>
+ <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication through the KMC Partner N64 flash cartirdge" ></div>
  <div class="rr-info-gen" badge="dptest.n64" desc="Compiled N64 rom of CCBL that communicated with dptest" ></div>
     </ul>
 </div>
+
+## HVQ - Image & Video compression
+The Hybrid Vector Quantization (HVQ) algorithm is an effective form of image compression for low bit rate images and can out perform JPEG by between 10 and 20%.
+
+Since videos are just a collection of images there is a variant of the algorithm called HVQM that compress video content. This folder contains code for both the image and video compression tools.
+
+If a game used the HVQ algorithm they were required to show a logo which was contained in the `HVQlogo` folder.
+
+The source code suggests that the algorithm may have been written by Hudson.
+
+### hvq2enc
+This folder contains a pre-built Windows executable called `hvq2enc.exe` for compressing BMP or PPM images into HVQ encoded images.
+
+There is also a version of this tool for video content called `hvqm2enc.exe`which supports converting uncompressed AVI files to compressed HVQM2 files.
 
 ---
 # N64 Operating System
