@@ -69,13 +69,20 @@ It works with a number of different N64 development flash cartridges such as:
 </div>
 
 ## HVQ - Image & Video compression
-The Hybrid Vector Quantization (HVQ) algorithm is an effective form of image compression for low bit rate images and can out perform JPEG by between 10 and 20%.
+<section class="postSection">
+  {% include sticker-text.html text="HVQ"  %}
 
-Since videos are just a collection of images there is a variant of the algorithm called HVQM that compress video content. This folder contains code for both the image and video compression tools.
+ <div markdown="1">
+  The Hybrid Vector Quantization (HVQ) algorithm is an effective form of image compression for low bit rate images and can out perform JPEG by between 10 and 20%.
 
-If a game used the HVQ algorithm they were required to show a logo which was contained in the `HVQlogo` folder.
+  Since videos are just a collection of images there is a variant of the algorithm called HVQM that compress video content. This folder contains code for both the image and video compression tools.
 
-The source code suggests that the algorithm may have been written by Hudson.
+  If a game used the HVQ algorithm they were required to show a logo which was contained in the `HVQlogo` folder.
+
+  The source code suggests that the algorithm may have been written by Hudson.
+ </div>
+</section> 
+
 
 ### hvq2enc
 This folder contains a pre-built Windows executable called `hvq2enc.exe` for compressing BMP or PPM images into HVQ encoded images.
