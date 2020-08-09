@@ -84,12 +84,19 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ---
 ## Nintendo 64
+Recently, mainly in thanks to the huge success of the Super Mario 64 project, there has been revived interest in Nintendo 64 Decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
+
+### Mario Kart 64
+{% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A very early decompilation of Mario Kart 64 (U) source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
 ### Super Mario 64
 {% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
 
-### Mario Kart 64
-{% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A very early decompilation of Mario Kart 64 (U) source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+## The Legend of Zelda: Ocarina of Time
+{% include link-to-other-site.html url="https://github.com/zeldaret/oot" description="This is a WIP decompilation of The Legend of Zelda: Ocarina of Time. The purpose of the project is to recreate a source code base for the game from scratch, using information found inside the game along with static and/or dynamic analysis. The only build currently supported is Master Quest (Debug), but other versions are planned to be supported." image="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png/220px-The_Legend_of_Zelda_Ocarina_of_Time_box_art.png" title="Decompilation of The Legend of Zelda: Ocarina of Time"  %}
+
+## The Legend of Zelda: Majora's Mask
+{% include link-to-other-site.html url="https://github.com/zeldaret/mm" description="A decompilation of The Legend of Zelda: Majora's Mask brought to you by a bunch of clever folks" image="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg/220px-The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" title="Decompilation of The Legend of Zelda: Majora's Mask"  %}
 
 ---
 ## Nintendo GameCube
