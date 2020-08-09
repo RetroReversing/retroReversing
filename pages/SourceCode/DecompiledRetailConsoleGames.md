@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: 8th August 2020
+updatedAt: 9th August 2020
 ---
 
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
@@ -243,6 +243,14 @@ There are only a handful of reverse engineered games for Microsoft games console
 
 ### Terraria
 {% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
+
+---
+# Atari Systems
+
+## Atari 2600
+
+{% include link-to-other-site.html url="https://github.com/johnidm/asm-atari-2600" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Sample source code games Atari 2600"  %}
+
 
 ---
 # Mobile games
