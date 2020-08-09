@@ -61,6 +61,9 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ### Super Mario Bros 3
 {% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="Looks like a fairly complete Disassembly of Super Mario Bros 3 that uses NESASM to re-assemble back into the original US ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
 
+### Tetris
+{% include link-to-other-site.html url="https://github.com/CelestialAmber/TetrisNESDisasm" description="This is a disassembly of Tetris (NES) that uses cc65 as the assembler" image="https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg" title="Disassembly of Tetris (NES)"  %}
+
 ---
 ## Super Nintendo (SNES)
 
@@ -84,6 +87,16 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ### Super Mario 64
 {% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
+
+### Mario Kart 64
+{% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="." image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+
+---
+## Nintendo GameCube
+
+### Super Smash Bros Melee
+{% include link-to-other-site.html url="https://github.com/doldecomp/melee" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/220px-Super_Smash_Bros_Melee_box_art.png" title="A decompilation of Super Smash Bros Melee"  %}
+
 
 ---
 ## Nintendo Game Boy
@@ -146,6 +159,11 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ---
+## Nintendo DS
+
+{% include link-to-other-site.html url="https://github.com/JimB16/PokePlat" description="Impressive Disassembly of the NDS game Pokemon Platinum. Uses the DevKitARM toolchain to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Pokemon_Platinum.png/220px-Pokemon_Platinum.png" title="Disassembly of Pokemon Platinum"  %}
+
+---
 # Sega Systems
 Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
 
@@ -186,6 +204,18 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 
 ### Sonic Spinball 
 {% include link-to-other-site.html url="https://github.com/sonicretro/spindisasm" description="This is the Sonic Spinball disassembly by Andlabs converted to a .asm file and fixed up to produce an accurate build in asm68k." image="https://upload.wikimedia.org/wikipedia/en/6/6c/Sonic_Spinball_Box.jpeg" title="Sonic Spinball Disassembly"  %}
+
+---
+## Sega CD
+
+### Shining Force CD
+{% include link-to-other-site.html url="https://github.com/ShiningForceCentral/SFCDDISASM" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Shining_Force_CD.jpg" title="A disassembly of the game Shining Force CD"  %}
+
+---
+## Sega Game Gear (GG)
+
+### Sonic 1 (GG)
+{% include link-to-other-site.html url="https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly" description="." image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear"  %}
 
 ---
 # Sony Systems
