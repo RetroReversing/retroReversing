@@ -89,7 +89,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
 
 ### Mario Kart 64
-{% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="." image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A very early decompilation of Mario Kart 64 (U) source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
 ---
 ## Nintendo GameCube
@@ -97,6 +97,8 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ### Super Smash Bros Melee
 {% include link-to-other-site.html url="https://github.com/doldecomp/melee" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/220px-Super_Smash_Bros_Melee_box_art.png" title="A decompilation of Super Smash Bros Melee"  %}
 
+### Super Mario Sunshine
+{% include link-to-other-site.html url="https://github.com/JimB16/SMS" description="Disassembly of the main .dol-file of Super Mario Sunshine, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine"  %}
 
 ---
 ## Nintendo Game Boy
@@ -161,6 +163,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ---
 ## Nintendo DS
 
+### Pokemon Platinum
 {% include link-to-other-site.html url="https://github.com/JimB16/PokePlat" description="Impressive Disassembly of the NDS game Pokemon Platinum. Uses the DevKitARM toolchain to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Pokemon_Platinum.png/220px-Pokemon_Platinum.png" title="Disassembly of Pokemon Platinum"  %}
 
 ---
