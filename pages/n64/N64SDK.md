@@ -70,7 +70,7 @@ It works with a number of different N64 development flash cartridges such as:
 
 ## HVQ - Image & Video compression
 <section class="postSection">
-  {% include sticker-text.html text="HVQ"  %}
+  {% include sticker-text.html text="HVQ" color1="#ef548f" color2="#ef8b6d"  %}
 
  <div markdown="1">
   The Hybrid Vector Quantization (HVQ) algorithm is an effective form of image compression for low bit rate images and can out perform JPEG by between 10 and 20%.
