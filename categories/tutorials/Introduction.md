@@ -74,7 +74,7 @@ Presumably if you have read this far you are interested in learning at least the
 Let's start at the beginning, you might have seen ROM files before, well actually I can safely assume you HAVE used a few of them in your favourite emulator.
 
 But what exactly are ROM files? How did that big plastic cartridge become a single file that can be run into an emulator? Let's find out!
-{% include link-to-other-post.html post="/how-retro-cartridges-roms-worked" description="Find out here!" %}
+{% include link-to-other-post.html post="/how-retro-cartridges-roms-worked" description="Have you ever wondered how a game cartridge for Game Boy or the NES actually works? Find out here!" %}
 
 
 ## ISO files
@@ -159,6 +159,34 @@ strings yourfilename
 ```
 </div>
 </section> 
+
+---
+# Lesson 3 - CPU, Executables & Assembly Code
+This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
+
+## How a CPU Works
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+LiveOverflow has an excellent introduction video to how a CPU works and what exactly assembly language is. 
+
+### CPU Registers
+In this video you will learn about registers, which it describes as global variables that the CPU accesses directly, which is a really nice way to think about them. 
+Each CPU has a number of built in registers which can each store a set number of Bytes, the number of bytes that they store is defined by the CPU, for example a 64-bit CPU will have 64-bits for each register.
+
+Almost all CPUs have special instructions that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
+
+### The Stack
+But what happens when you want to store more data than the limited number of registers available on the CPU? 
+This is where the computers RAM comes in, no matter how simple your console or PC is it will have some sort of RAM available and is used to store data such as the players X and Y Position.
+
+So how do we read and write data to this RAM? One simple way of saving and loading data is with something called the Stack.
+
+You can think of the stack like a deck of cards, you can add new cards only to the top of the deck which represents writing to the stack. For reading data from the stack you can only take the top most card, which is also the most recently written piece of data.
+
+Although unlike a deck of cards when you add more data the address of the data goes downwards instead of upwards, so if the first element in a stack is at position 10 then when you add another byte of data its address would be 9.
+
+In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
+
+
 
 ---
 # All Posts tagged with Introduction
