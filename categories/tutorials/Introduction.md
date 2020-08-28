@@ -186,6 +186,9 @@ Although unlike a deck of cards when you add more data the address of the data g
 
 In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
+## Reversing with GDB
+GDB is a very useful tool to debug through an application, with functionality to set breakpoints and disassemble the code, which makes it a very useful tool for basic reverse engineering.
+{% include link-to-other-post.html post="/tutorials/gdb-reversing" description="For more information about GDB check out this post." %}
 
 
 ---
