@@ -5,8 +5,8 @@ tags:
 - sega
 title: Sega Saturn Save Game Data
 thumbnail: /public/consoles/Sega Saturn.png
-image: /public/saturn/Sega Saturn Save RAM.jpg
-twitterimage: https://www.retroreversing.com/public/saturn/Sega Saturn Save RAM.jpg
+image: /public/images/saturn/Sega Saturn Save RAM.jpg
+twitterimage: https://www.retroreversing.com/public/images/saturn/Sega Saturn Save RAM.jpg
 permalink: /sega-saturn-save-data/
 breadcrumbs:
   - name: Home
