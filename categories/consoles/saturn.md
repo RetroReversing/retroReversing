@@ -42,9 +42,11 @@ Unlike most cartridge based ROM chips CDs have a standard File System to read fi
 
 Also the consoles would not have enough RAM to hold all the game assets so games would have to stream assets into memory when needed. So it would only read the texture or sound files used in a particular level and ignore the rest.
 
+{% include link-to-other-post.html post="/sega-saturn-file-formats/" description="For details on the file formats you might find in Sega Saturn games check out this post." %}
+
 This makes it slightly easier to do some basic modding of Saturn assets compared to a ROM based console such as the Mega Drive, as you can normally pinpoint the asset you want down to a particular file and sometimes they have file extensions that tell you exactly what format the file is.
 
-{% include link-to-other-post.html post="/sega-saturn-file-formats/" description="For details on the file formats you might find in Sega Saturn games check out this post." %}
+{% include link-to-other-post.html post="/sega-saturn-save-data/" description="For details on the Save Data file formats for Sega Saturn games check out this post." %}
 
 ## Retail Sega Saturn hardware
 When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a facinating topic.
