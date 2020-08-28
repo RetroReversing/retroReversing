@@ -39,8 +39,7 @@ Third party manufacturers such as Blaze and Datel also started to create their o
 
 Third parties also bundles additional features in these cartridges such as Cheat Engines (Action Replay) and region unlocking.
 
-You can find an excellent page on all the third party memory cartridges over at SegaRetro:
-[Saturn third-party memory cartridges - Sega Retro](https://segaretro.org/Saturn_third-party_memory_cartridges)
+{% include link-to-other-site.html url="https://segaretro.org/Saturn_third-party_memory_cartridges" description="You can find an excellent page on all the third party memory cartridges over at SegaRetro" image="https://segaretro.org/images/thumb/f/fc/MemoryCardBlazer_Saturn_Box_Front.jpg/265px-MemoryCardBlazer_Saturn_Box_Front.jpg" title="Saturn third-party memory cartridges"  %}
 
 ## Saturn Floppy Drive
 If you have a Japanese console there is a third alternative to the above two options, the Saturn Floppy Drive! 
@@ -49,7 +48,7 @@ It supports up to 1.44MB of game save data which is many times more than the off
 
 Unfortunately however, very few games supported the peripheral which limited its appeal.
 
-[Saturn Floppy Drive - Sega Retro](https://segaretro.org/Saturn_Floppy_Drive)
+{% include link-to-other-site.html url="https://segaretro.org/Saturn_Floppy_Drive" description="SegaRetro has an excellent page on the Saturn Floppy Drive" image="https://segaretro.org/images/9/9d/Saturn_HSS-0128.jpg" title="Saturn Floppy Drive - Sega Retro"  %}
 
 ---
 # Backing up and Recovering Saves
@@ -71,9 +70,9 @@ The Saturn doesn't have the ability to write to a CD-R or external HD, so the so
 
 This is where one clever solution comes in, transfer the data directly from the SATURN TO PC via sound! All you need is a Stereo audio Y cable adapter and a CDR.
 
-[GitHub - slinga-homebrew/Save-Game-Extractor: Transmit Sega Saturn save game files as audio. Based on minimodem](https://github.com/slinga-homebrew/Save-Game-Extractor)
+{% include link-to-other-site.html url="https://github.com/slinga-homebrew/Save-Game-Extractor" description="View the project on Github" image="https://github.com/slinga-homebrew/Save-Game-Extractor/raw/master/screenshots/main.png" title="Save-Game-Extractor: Transmit Sega Saturn save game files as audio"  %}
 
-It is based on the minimodem project, which is a very clever tool to send data over audio, it isn't the fastest method of transfer but it is very effective for use cases such as this [^5].
+It is based on the `minimodem` project, which is a very clever tool to send data over audio, it isn't the fastest method of transfer but it is very effective for use cases such as this [^5].
 
 ### Sega Saturn Save Parser
 Once you have the save data copied over from the Saturn to your PC you may want to edit the data. The Sega Saturn Save Parser provides a GUI for exactly that purpose, it can load in a number of formats:
@@ -83,7 +82,7 @@ Once you have the save data copied over from the Saturn to your PC you may want 
 
 This tool has the ability to delete, extract and insert saves back into the raw image [^4].
 
-[GitHub - hitomi2500/ss-save-parser: Parser for Sega Saturn images of various save media.](https://github.com/hitomi2500/ss-save-parser)
+{% include link-to-other-site.html url="https://github.com/hitomi2500/ss-save-parser" description="View the SS Save Parser project on Github" title="Parser for Sega Saturn images of various save media"  %}
 
 ---
 ## Copy Saves from PC to Saturn
@@ -95,7 +94,7 @@ Thankfully a few developers have created some tool exactly for this job.
 The Save Game Manager by `Rockin'-B` is a very useful tool that allows you to manage save games on the Saturn itself. 
 You can copy save games from the burned CD and save it into the internal RAM or the external cartridge RAM. You can even export save files as base64 strings.
 
-[The Rockin'-B : Save Game Manager](http://www.rockin-b.de/saturn-savegamemanager.html)
+{% include link-to-other-site.html url="http://www.rockin-b.de/saturn-savegamemanager.html" description="Download the code and executables on the official website" image="http://www.rockin-b.de/saturn/savegamemanager/SGM_help.jpg" title="The Rockin'-B : Save Game Manager"  %}
 
 It can also be a useful tool to dump and update Action Replay firmware [^2].
 
@@ -106,9 +105,10 @@ It allows the user to burn Sega Saturn save game files to a CD and copy them to 
 
 It also offers the ability to save to the Japanese only Saturn Floppy Disk Drive which is pretty nifty if you happen to own this hardware.
 
-[GitHub - slinga-homebrew/Save-Game-Copier: Sega Saturn Save Game Copier](https://github.com/slinga-homebrew/Save-Game-Copier)
+{% include link-to-other-site.html url="https://github.com/slinga-homebrew/Save-Game-Copier" description="View the project on Github" image="https://github.com/slinga-homebrew/Save-Game-Copier/blob/master/menu.png?raw=true" title="Save-Game-Copier: Sega Saturn Save Game Copier"  %}
 
 The project is now archived but is still a useful tool and the source code is available for anyone interested in how it was built [^3].
+
 ---
 # References
 [^1]: [Add a Section on Sega Saturn Save Games · Issue #24 · RetroReversing/retroReversing](https://github.com/RetroReversing/retroReversing/issues/24)
