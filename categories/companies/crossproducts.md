@@ -21,7 +21,7 @@ updatedAt: 31st August 2020
 ---
 
 # History of Cross Products
-Cross Products is a company that specifialised in development tools for game programming, located in the UK and founded in 1989 by by Ian Oliver and Andy Craven [^1].
+Cross Products is a company that specialised in development tools for game programming, located in the UK and founded in 1989 by by Ian Oliver and Andy Craven [^1].
 
 Cross Products had such a successful development kit that it was the industry standard during the Mega Drive era, this caused SEGA to purchase the company in 1994 for an undiscolves sum of money [^1].
 
