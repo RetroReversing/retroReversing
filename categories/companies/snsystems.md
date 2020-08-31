@@ -27,7 +27,9 @@ They were looking for good development tools for the Atari ST and CBM Amiga but 
 
 Their first product was the SN Systems assembler (SNASM) which was such a success that fellow British-based development tool creator **Cross Products** decided to license it and thus it became the de facto standard for Mega Drive Game Development around the world [^1].
 
-Sn Systems worked closely with other companies, especially the Sony-owned Psygnosis to help brand their new development kit known as PSY-Q.
+{% include link-to-other-post.html post="/companies/crossproducts/" description="For more information on Cross Products check out this post." %}
+
+SN Systems worked closely with other companies, especially the Sony-owned Psygnosis to help brand their new development kit known as PSY-Q.
 
 SN Systems were themselves bought by Sony in 2005 to exclusivly create development tools for their upcoming Playstation 3 hardware. 
 
