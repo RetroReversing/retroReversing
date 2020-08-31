@@ -53,6 +53,8 @@ The Psy-Q development was such a success for Sony PS1 development that it actual
 
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony Playstation 1 version of PSY-Q check out this post." %}
 
+Note that PSY-Q for PS1 was later rebranded as **SDevTC** (Sony Developer Toolchain) sometime before August 1999 as it is mentioned the rebranding in the Official **Run-Time Library Overview** from August 1999.
+
 ### PSY-Q for SEGA Saturn
 Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q branding), it supported a competing platform also under the Psy-Q branding, the Sega Saturn!
 
