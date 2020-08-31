@@ -42,6 +42,8 @@ It claims to compile 12K lines of source code in just 5 seconds, which was a hug
 
 The original SNASM only supported Motorola 68K processors, but that allowed support for 3 major platforms, the Amiga, Atari ST and Apple II, this would also form the basis of Sega Mega Drive support which also used the processor.
 
+{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM68K on SegaRetro." title="SNASM68K - Sega Retro"  %}
+
 ## SNASM2
 In the May 1995 Price List it mentions that SNASM2 was available to buy for the following platforms:
 * Amiga 600/1200
