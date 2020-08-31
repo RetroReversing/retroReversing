@@ -34,9 +34,13 @@ Archived Cross Products Official Website: https://web.archive.org/web/1997021709
 # Products
 
 ## SNASM (SNASM68K)
-SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost £600 and runs on PC [^2]. It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a development kit for the Atari ST.
+SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost £600 and runs on PC [^2]. 
+
+It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac.
 
 It claims to compile 12K lines of source code in just 5 seconds, which was a huge benefit as compiling full games at the time could take upwards of 15 minutes, so the faster the compiler the less developer time wasted.
+
+The original SNASM only supported Motorola 68K processors, but that allowed support for 3 major platforms, the Amiga, Atari ST and Apple II, this would also form the basis of Sega Mega Drive support which also used the processor.
 
 ## SNASM2
 In the May 1995 Price List it mentions that SNASM2 was available to buy for the following platforms:
