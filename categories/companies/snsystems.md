@@ -64,7 +64,11 @@ SN64 was a software development kit for the Nintendo 64 created by SN Systems an
 {% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
 
 ## ProDG
-ProDG was the next step for Sn Systems and provided development kits for both the PS2 and Gamecube under this brand name, presumably this had nothing to do with Psygnosis at this stage.
+ProDG was the next step for Sn Systems and provided development kits for both the PS2 in 2000 and Gamecube in 2001 under this brand name, presumably this had nothing to do with Psygnosis at this stage.
+
+There was also a version of ProDG available for the Gameboy Advance released in 2001 as an alternative to the official development kit from Nintendo.
+
+{% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For more information on the GBA version of ProDG check out this post." %}
 
 ---
 # References
