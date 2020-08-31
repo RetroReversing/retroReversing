@@ -39,11 +39,11 @@ Cross Products then built upon the product and released their own version called
 ### PSY-Q
 PSY-Q was a development kit born from an agreement between popular UK-based game developer Psygnosis and SN Systems to develop a state of the art development kit based on the C-programming language.
 
-The Psy-Q development was such a success for Sony PS1 development that it actually became the oggicially licensed development kit for the platform and SN Systems was later bought by Sony.
+The Psy-Q development was such a success for Sony PS1 development that it actually became the oggicially licensed development kit for the platform and SN Systems was later bought by Sony. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
 
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony Playstation 1 version of PSY-Q check out this post." %}
 
-Even although SN Systems were bought by Sony for their Psy-Q development kit, it supported a competing platform under the Psy-Q branding, the Sega Saturn!
+Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q branding), it supported a competing platform also under the Psy-Q branding, the Sega Saturn!
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SEGA Saturn version of PSY-Q check out this post." %}
 
@@ -52,8 +52,10 @@ SN64 was a software development kit for the Nintendo 64 created by SN Systems an
 
 {% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
 
+---
 # References
 [^1]: https://web.archive.org/web/19970521224105/http://www.snsys.com:80/
+[^2]: Next Generation Magazine June 1995 issue
 
 ---
 # All Posts mentioning SN Systems
