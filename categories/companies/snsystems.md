@@ -16,7 +16,7 @@ redirect_from:
   - /snsystems
   - /sn-systems
   - /snsystem
-editlink: ../categories/consoles/n64.md
+editlink: ../categories/companies/snsystems.md
 updatedAt: 31st August 2020
 ---
 
@@ -72,16 +72,24 @@ Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q brandi
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SEGA Saturn version of PSY-Q check out this post." %}
 
+---
 ## SN64 (Nintendo 64 Development Kit)
 SN64 was a software development kit for the Nintendo 64 created by SN Systems and was especially popular with 3rd party game developers.
 
 {% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
 
+---
 ## ProDG
 ProDG was the next step for SN Systems and provided development kits for both the PS2 in 2000 and Gamecube in 2001 under this brand name, presumably this had nothing to do with Psygnosis at this stage.
 
 Although the name ProDG was originally used to refer to the SN Systems IDE that supported PS1 & N64 development back in 1998 (released JUNE 1998 [^4]), it seems they re-used this brand to refer to the whole development kit and not just the IDE [^3].
 
+### ProDG for Gamecube
+Sn Systems released their ProDG development kit for Gamecube in 2001 and worked alongside the official Nintendo Gamecube development kit (NR-Reader) by providing a **SN-TDEV** that was used for efficient debugging on the system.
+
+{% include link-to-other-post.html post="/prodg-gamecube" description="For more information on the Gamecube version of ProDG check out this post." %}
+
+### ProDG for GBA
 There was also a version of ProDG available for the Gameboy Advance released in 2001 as an alternative to the official development kit from Nintendo.
 
 {% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For more information on the GBA version of ProDG check out this post." %}
