@@ -2,9 +2,16 @@
 layout: post
 permalink: /companies/crossproducts/
 console: crossproducts
+recommend: crossproducts
+recommendTitle: All CrossProducts Posts
+title: Cross Products (Creator of Development Tools)
 breadcrumbs:
   - name: Home
     url: /
+  - name: Companies
+    url: /
+  - name: Cross Products
+    url: #
 redirect_from:
   - /cross-products
   - /crossproducts
