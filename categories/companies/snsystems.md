@@ -40,7 +40,7 @@ According to the Official SN Systems "PC Development System for the Nintendo 64"
 * SEGA 32X
 * SEGA MegaDrive/Genesis (SNASM65k)
 * SEGA Mega-CD (SNASM2)
-* Super Nintendo Entertainment System
+* Super Nintendo Entertainment System (PSY-Q)
 * Commodore Amiga 1200 and 600
 * Williams Phoenix Arcade Board
 * Nintendo 64 (SN64 -> ProDG)
