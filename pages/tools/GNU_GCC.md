@@ -63,6 +63,12 @@ SN Systems released versions 2.8.0/2.8.1 for the Sony Playstation 1 [^1].
 SN Systems released versions 2.8.0/2.8.1 for the Sony Nintendo 64 [^1].
 
 ---
+# SEGA Saturn
+
+## Cygnus 2.7 Sega SATURN Compiler Toolchain
+Version 2.7 of the GNU Compiler Collection built in September 1996 specifically for the Sega Saturn.
+
+---
 # References
 [^1]: [SN Systems](https://web.archive.org/web/19980523231120/http://www.snsys.com/snsys/default.asp)
 [^2]: [GCC Releases - GNU Project - Free Software Foundation (FSF)](https://gcc.gnu.org/releases.html)
