@@ -33,10 +33,17 @@ Archived Cross Products Official Website: https://web.archive.org/web/1997021709
 ---
 # Products
 
-## SNASM (SNASM68K)
+## SNASM
+SNasm (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) in collaboration with the founders of Cross Products Ian Oliver and Andy Craven. It was licensed to Cross products for sale as paert of their first commercial development kit for the Atari ST and Amiga systems [^3].
+
+Note that Spiny Norman (Martin Day) would go on to found a rival development tools company known as SN Systems (Spiny Norman Systems) but they did not distribute SNASM itself.
+
+{% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems and their own development kits check out this post." %}
+
+## SNASM68K
 SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost £600 and runs on PC [^2]. 
 
-It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac.
+It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac. Unfortunetly the article fails to mention the other lead developer Martin Day, presumably because the issue was mainly focusing on both Realtime and Vektor development studios.
 
 It claims to compile 12K lines of source code in just 5 seconds, which was a huge benefit as compiling full games at the time could take upwards of 15 minutes, so the faster the compiler the less developer time wasted.
 
@@ -66,3 +73,4 @@ In the May 1995 Price List it mentions that SNASM2 was available to buy for the 
 # References
 [^1]: [Cross Products](https://segaretro.org/Cross_Products)
 [^2]: The Games Machine Issue 29 April 1990
+[^3]: [SN Systems](https://segaretro.org/SN_Systems)
