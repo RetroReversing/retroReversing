@@ -31,10 +31,22 @@ Sn Systems worked closely with other companies, especially the Sony-owned Psygno
 
 SN Systems were themselves bought by Sony in 2005 to exclusivly create development tools for their upcoming Playstation 3 hardware. 
 
+---
 # Products
 
+According to the Official SN Systems "PC Development System for the Nintendo 64" guide (Thanks to Ultra64.ca), the list of SN systems development kits are as follows:
+* Sony PlayStation (PSY-Q -> SDevTC)
+* SEGA Saturn (PSY-Q)
+* SEGA 32X
+* SEGA MegaDrive/Genesis (SNASM65k)
+* SEGA Mega-CD (SNASM2)
+* Super Nintendo Entertainment System
+* Commodore Amiga 1200 and 600
+* Williams Phoenix Arcade Board
+* Nintendo 64 (SN64 -> ProDG)
+
 ## SNASM (SN Systems Assembler)
-The original SNASM was a custom assembler written by SN Systems to target . 
+The original SNASM was a custom assembler written by SN Systems to target multple CPU architectures in a similar way. 
 
 It was such a useful product that **Cross Products** licensed it and distrubuted it with their development toolkits, which helped make it the most popular Mega Drive Assembler available.
 
