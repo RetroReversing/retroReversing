@@ -57,7 +57,7 @@ Companies that have confirmed use of SNASM include:
 ### CPUs Supported
 As SNASM was a cross assembler it supported multiple processors, which was one of the main advantages to the toolchain. 
 Each assembler was named with prefix SNASM and suffix based on the processor family.
-* SNASM68K - Motorola 68K (Amiga, Atari ST, MegaDrive)
+* SNASM68K - Motorola 68K (Amiga, Atari ST, Atari Jaguar, Sega Mega Drive)
 * SNASM658 - WDC 65c816 (Super Nintendo)
 
 ## SNASM Platforms supported
