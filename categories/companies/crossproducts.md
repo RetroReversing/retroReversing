@@ -33,7 +33,7 @@ Archived Cross Products Official Website: https://web.archive.org/web/1997021709
 ---
 # Products
 
-## SNASM (SNASM68K)
+## SNASM
 SNasm (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) in collaboration with the founders of Cross Products Ian Oliver and Andy Craven. It was licensed to Cross products for sale as paert of their first commercial development kit for the Atari ST and Amiga systems [^3].
 
 Note that Spiny Norman (Martin Day) would go on to found a rival development tools company known as SN Systems (Spiny Norman Systems) but they did not distribute SNASM itself.
@@ -50,20 +50,26 @@ The original SNASM only supported Motorola 68K processors, but that allowed supp
 
 {% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM68K on SegaRetro." title="SNASM68K - Sega Retro"  %}
 
-### Conpanies that used SNASM
+### Companies that used SNASM
 Companies that have confirmed use of SNASM include:
 * System 3 - Last Ninja 3 [^5]
 
-## SNASM2
+### CPUs Supported
+As SNASM was a cross assembler it supported multiple processors, which was one of the main advantages to the toolchain. 
+Each assembler was named with prefix SNASM and suffix based on the processor family.
+* SNASM68K - Motorola 68K (Amiga, Atari ST, MegaDrive)
+* SNASM658 - WDC 65c816 (Super Nintendo)
+
+## SNASM Platforms supported
 In the May 1995 Price List it mentions that SNASM2 was available to buy for the following platforms:
 * Amiga 600/1200 (SNASM68K)
 * Sega Genesis/Mega Drive (SNASM68K)
-* Sega 32X
-* Mega CD
+* Sega 32X (SNASM68K)
+* Mega CD (SNASM68K)
 * Sega Saturn
 * Super Nintendo Entertainment system (SNASM658)
 * Jaguar
-* CDi
+* Philips CDi
 
 ### SNASM2 for Philips CDi
 SNASM2 was used for the CDi port of Micro Machines by Codemasters developer Ashley Hogg, it was a PC based development environment that connected to the CDi via SCSI [^4].
