@@ -53,14 +53,18 @@ The original SNASM only supported Motorola 68K processors, but that allowed supp
 
 ## SNASM2
 In the May 1995 Price List it mentions that SNASM2 was available to buy for the following platforms:
-* Amiga 600/1200
-* Sega Genesis/Mega Drive
+* Amiga 600/1200 (SNASM68K)
+* Sega Genesis/Mega Drive (SNASM68K)
 * Sega 32X
 * Mega CD
 * Sega Saturn
-* Super Nintendo Entertainment system
+* Super Nintendo Entertainment system (SNASM658)
 * Jaguar
 * CDi
+
+### SNASM2 for Philips CDi
+SNASM2 was used for the CDi port of Micro Machines by Codemasters developer Ashley Hogg, it was a PC based development environment that connected to the CDi via SCSI [^4].
+
 
 ---
 # All Posts mentioning Cross Products
@@ -74,3 +78,4 @@ In the May 1995 Price List it mentions that SNASM2 was available to buy for the 
 [^1]: [Cross Products](https://segaretro.org/Cross_Products)
 [^2]: The Games Machine Issue 29 April 1990
 [^3]: [SN Systems](https://segaretro.org/SN_Systems)
+[^4]: [The Black Moon Project](http://www.blackmoonproject.co.uk/interviews/ashley_hogg.php)
