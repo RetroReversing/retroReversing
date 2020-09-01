@@ -33,14 +33,13 @@ Archived Cross Products Official Website: https://web.archive.org/web/1997021709
 ---
 # Products
 
-## SNASM
+## SNASM (SNASM68K)
 SNasm (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) in collaboration with the founders of Cross Products Ian Oliver and Andy Craven. It was licensed to Cross products for sale as paert of their first commercial development kit for the Atari ST and Amiga systems [^3].
 
 Note that Spiny Norman (Martin Day) would go on to found a rival development tools company known as SN Systems (Spiny Norman Systems) but they did not distribute SNASM itself.
 
 {% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems and their own development kits check out this post." %}
 
-## SNASM68K
 SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost £600 and runs on PC [^2]. 
 
 It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac. Unfortunetly the article fails to mention the other lead developer Martin Day, presumably because the issue was mainly focusing on both Realtime and Vektor development studios.
@@ -50,6 +49,10 @@ It claims to compile 12K lines of source code in just 5 seconds, which was a hug
 The original SNASM only supported Motorola 68K processors, but that allowed support for 3 major platforms, the Amiga, Atari ST and Apple II, this would also form the basis of Sega Mega Drive support which also used the processor.
 
 {% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM68K on SegaRetro." title="SNASM68K - Sega Retro"  %}
+
+### Conpanies that used SNASM
+Companies that have confirmed use of SNASM include:
+* System 3 - Last Ninja 3 [^5]
 
 ## SNASM2
 In the May 1995 Price List it mentions that SNASM2 was available to buy for the following platforms:
@@ -84,3 +87,4 @@ The SNASM658 was the Super Nintendo version of the SNASM2 development kit and ca
 [^2]: The Games Machine Issue 29 April 1990
 [^3]: [SN Systems](https://segaretro.org/SN_Systems)
 [^4]: [The Black Moon Project](http://www.blackmoonproject.co.uk/interviews/ashley_hogg.php)
+[^5]: [Last Ninja 3 - WikiMili](https://wikimili.com/en/Last_Ninja_3)
