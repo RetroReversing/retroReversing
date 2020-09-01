@@ -65,6 +65,11 @@ In the May 1995 Price List it mentions that SNASM2 was available to buy for the 
 ### SNASM2 for Philips CDi
 SNASM2 was used for the CDi port of Micro Machines by Codemasters developer Ashley Hogg, it was a PC based development environment that connected to the CDi via SCSI [^4].
 
+### SNASM658 for Super Nintendo
+The SNASM658 was the Super Nintendo version of the SNASM2 development kit and came with a Super Nintendo Cartridge and PCI cartridge to download ROMS from a developer PC and run on a retail system.
+
+{% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the SNASM658 and other SNES dev kits check out this post." %}
+
 
 ---
 # All Posts mentioning Cross Products
