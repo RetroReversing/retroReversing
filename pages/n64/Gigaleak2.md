@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/Gigaleak2.md
-updatedAt: 1st August 2020
+updatedAt: '2020-08-01'
 twitterimage: https://www.retroreversing.com/public/N64/N64 Gigaleak2.jpg
 ---
 
