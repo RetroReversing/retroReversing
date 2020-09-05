@@ -27,7 +27,7 @@ videocarousel:
   - title: Ebay Find Playstation 2 TOOL (Dev Kit)
     image: https://img.youtube.com/vi/G2ep1X_BS-Q/hqdefault.jpg
     youtube: 'G2ep1X_BS-Q'
-updatedAt: 11th January 2020
+updatedAt: '2020-01-11'
 ---
 This post covers the hardware used to develop Playstation 2 games by major studios back in the day, for the software side see the post on the Official PS2 SDK.
 
