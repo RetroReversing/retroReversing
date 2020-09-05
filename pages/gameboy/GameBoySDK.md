@@ -19,7 +19,7 @@ recommend:
 - gameboy
 - sdk
 editlink: /gameboy/GameBoySDK.md
-updatedAt: 11th January 2020
+updatedAt: '2020-01-11'
 ---
 
 # Official GameBoy Software Development Kit (by Intelligent Systems)
