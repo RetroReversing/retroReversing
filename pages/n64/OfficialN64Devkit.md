@@ -19,7 +19,8 @@ videocarousel:
   - title: Prototype Cartridge
     image: http://img.youtube.com/vi/laOwsOHelBg/hqdefault.jpg
     youtube: laOwsOHelBg
-image: /public/magazine/EDGE_20_SGI_Onyx.png
+image: /public/N64/N64 Development Kit Hardware.jpg
+twitterimage: https://www.retroreversing.com/public/N64/N64 Development Kit Hardware.jpg
 permalink: /official-n64-devkit/
 breadcrumbs:
   - name: Home
@@ -32,6 +33,7 @@ recommend: n64
 editlink: /n64/OfficialN64Devkit.md
 references:
   - archive.org
+updatedAt: '2020-01-11'
 ---
 
 The website N64Squid has a page dedicated to Nintendo 64 development hardware that is well worth a look: [Nintendo 64 development hardware - N64 Squid](https://n64squid.com/homebrew/n64-sdk/development-hardware/). This page aims to compliment that page and give additional details about the hardware, so it is recommended you read that page first [^3]. 
