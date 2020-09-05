@@ -25,7 +25,12 @@ When reverse engineering games, one of the first things to find out is which eng
 This page will list only the confirmed engines for each game along with proof that the game3 was built with that engine, so the list won't contain every game, but any game on the list you can be confident it was based on the engine listed.
 
 # Unity3d
+<section class="postSection">
+    <img src="/public/images/engines/UnrealEngineLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Unity3d has supported the Nintendo Switch right from launch and the dev tools are distributed by Nintendo themselves rather than by Unity. Developers need to have signed up for a Nintendo Developer account to be granted access to download the Unity plugin to allow exporting to Switch [^1].
+</div>
+</section>
 
 ## Reverse Engineering & Modding
 Unity3D games are compiled from .net byte code down to C++ when generating a Nintendo Switch version. This makes it harder than standard Unity reverse engineering as the generated native code is harder to decompile than .net byte code.
@@ -96,8 +101,15 @@ Timespinner | contains string: `D:/Projects/Switch/MonoGame.`
 
 ---
 # Unreal Engine 4
+<section class="postSection">
+<img src="/public/images/engines/UnrealEngineLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+The Unreal Engine was developed by [Epic Games](https://www.epicgames.com/) initially for their game `Unreal` but later evolved to become a product in itself with many 3rd party games studios taking advantage of its power.
+</div>
+</section>
 
 ## Games
+
 Game Name | Proof of engine
 ---|---
 Bioshock remastered | `engine.u`
@@ -110,8 +122,15 @@ Trials of Mana | `UE4CommandLine.txt`
 
 ---
 # Havok
+<section class="postSection">
+<img src="/public/images/engines/HavokLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+Havok is a popular physics engines that has been ported to the Nintendo switch.
+</div>
+</section>
 
 ## Games
+
 Game Name | Proof of engine
 ---|---
 Dark Souls | 
