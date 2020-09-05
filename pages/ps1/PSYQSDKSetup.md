@@ -7,7 +7,8 @@ tags:
 - tutorial
 title: PSYQ SDK Setup on MacOSX/Linux
 thumbnail: /public/consoles/Sony Playstation.png
-image: /public/consoles/Sony Playstation.png
+image: /public/images/ps1/Sony PS1 PsyQ SDK Setup.jpg
+twitterimage: http://www.retroreversing.com/public/images/ps1/Sony PS1 PsyQ SDK Setup.jpg
 permalink: /psyq-sdk-setup
 breadcrumbs:
   - name: Home
@@ -23,7 +24,7 @@ editlink: /ps1/PSYQSDKSetup.md
 # Hello World example
 We are going to use the PSX Hello world example from PSXDEV (<a href="http://www.psxdev.net/help/psyq_hello_world.html">http://www.psxdev.net/help/psyq_hello_world.html</a>)
 Create a new file called Hello.C
-```C
+```c
 /*
 ===========================================================
                 Sony PlayStation 1 Source Code
