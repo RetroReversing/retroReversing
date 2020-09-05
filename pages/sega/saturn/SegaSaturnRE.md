@@ -4,7 +4,8 @@ tags:
 - saturn
 - reversingEmulator
 title: Sega Saturn Reversing Emulator
-image:  /public/images/saturn/SaturnReversingEmulator.jpg
+image: /public/images/saturn/Sega Saturn Reversing Emulator.jpg
+twitterimage: http://www.retroreversing.com/public/images/saturn/Sega Saturn Reversing Emulator.jpg
 thumbnail: /public/consoles/Sega Saturn.png
 permalink: /Sega-Saturn-Reversing-Emulator
 breadcrumbs:
