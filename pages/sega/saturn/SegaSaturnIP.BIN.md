@@ -5,7 +5,8 @@ tags:
 - sega
 title: Sega Saturn IP.BIN (Initial Program)
 thumbnail: /public/consoles/Sega Saturn.png
-image: /public/consoles/Sega Saturn.png
+image: /public/images/saturn/Sega Saturn IP.bin.jpg
+twitterimage: http://www.retroreversing.com/public/images/saturn/Sega Saturn IP.bin.jpg
 permalink: /sega-saturn-initial-program-ip/
 breadcrumbs:
   - name: Home
