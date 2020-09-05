@@ -29,7 +29,7 @@ videocarousel:
   - title: Lazy Overview PSP development system DTP H1500
     image: https://img.youtube.com/vi/0Vph-DeosFE/maxresdefault.jpg
     youtube: '0Vph-DeosFE'
-updatedAt: 11th January 2020
+updatedAt: '2020-01-11'
 ---
 
 # Official PSP Development Kit hardware
