@@ -19,7 +19,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /wii/BroadOnArchive.md
-updatedAt: '2020-05-10T13:07:54-08:00'
+updatedAt: '2020-05-10T00:00:00Z'
 twitterimage: https://www.retroreversing.com/public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
 videocarousel:
   - title: MVG
