@@ -7,7 +7,8 @@ tags:
 - xbox
 - pc
 title: Using PDB files for Reverse Engineering
-image: /public/consoles/Tools.jpg
+image: /public/images/tools/Using PDB files for Reversing.jpg
+twitterimage: http://www.retroreversing.com/public/images/tools/Using PDB files for Reversing.jpg
 thumbnail: /public/consoles/Tools.jpg
 permalink: /PDBFileReversing
 breadcrumbs:
