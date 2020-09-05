@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: gamecube
 editlink: /gamecube/GamecubeFileFormats.md
-updatedAt: 25th April 2020
+updatedAt: '2020-04-25'
 ---
 
 Extension | Description
