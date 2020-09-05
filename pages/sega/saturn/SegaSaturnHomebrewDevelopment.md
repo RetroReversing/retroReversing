@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /sega/saturn/SegaSaturnHomebrewDevelopment.md
+updatedAt: '2020-06-27'
 ---
 There are multiple ways to create your own Homebrew for the Sega Saturn, one is to use the official SDK but a much better way is to use one of the open-source modern development kits available. 
 
