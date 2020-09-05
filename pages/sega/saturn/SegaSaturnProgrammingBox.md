@@ -27,7 +27,7 @@ recommend:
   - devkit
   - crossproducts
 editlink: /sega/saturn/SegaSaturnProgrammingBox.md
-updatedAt: 9th November 2019
+updatedAt: '2019-11-09'
 ---
 
 During the Sega saturns lifecycle there were multiple development kits available to developers starting from the original Sphia Systems that came out before the retail hardware, followed by devkits from both `Cross Products` (Official) and the Unofficial `SN Systems (PSYQ)`.
