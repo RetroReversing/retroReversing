@@ -19,6 +19,7 @@ recommend:
 - xbox
 - gameengines
 editlink: /xbox/XboxGameEngines.md
+updatedAt: '2019-04-28'
 ---
 # Introduction
 When the Xbox came out in 2001 most game developers were still getting used to the new layer of abstractions and code re-use provided by the superior hardware of consoles compared to the previous generations.
