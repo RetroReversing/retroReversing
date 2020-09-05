@@ -18,6 +18,7 @@ recommend:
 - switch
 - gameengines
 editlink: /switch/SwitchGameEngines.md
+updatedAt: '2020-09-05'
 ---
 
 When reverse engineering games, one of the first things to find out is which engine the game is based on, this will save a considerable amount of time if it is based on a standard engine that is well documented.
