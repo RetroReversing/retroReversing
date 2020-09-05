@@ -18,7 +18,7 @@ recommend:
 - hardware
 - leak
 editlink: /hardware/Verilog.md
-updatedAt: 8th May 2020
+updatedAt: '2020-05-08'
 twitterimage: https://www.retroreversing.com/public/Hardware/Verilog.jpg
 ---
 
