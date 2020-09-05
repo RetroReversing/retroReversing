@@ -15,7 +15,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64RDP.md
-updatedAt: 25th April 2020
+updatedAt: '2020-04-25'
 ---
 
 # Introduction
