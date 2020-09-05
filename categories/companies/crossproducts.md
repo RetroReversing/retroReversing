@@ -5,6 +5,8 @@ console: crossproducts
 recommend: crossproducts
 recommendTitle: All CrossProducts Posts
 title: Cross Products (Creator of Development Tools)
+image: /public/images/companies/Cross Product - Company.jpg
+twitterimage: https://www.retroreversing.com/public/images/companies/Cross Product - Company.jpg
 breadcrumbs:
   - name: Home
     url: /
@@ -16,8 +18,7 @@ redirect_from:
   - /cross-products
   - /crossproducts
 editlink: ../categories/companies/crossproducts.md
-recommend: devkit
-updatedAt: 31st August 2020
+updatedAt: '2020-08-31'
 ---
 
 # History of Cross Products
