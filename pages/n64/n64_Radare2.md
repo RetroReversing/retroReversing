@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: ps1
 editlink: /n64/n64_Radare2.md
+updatedAt: '2019-11-20'
 ---
 This guide will presume you have already installed the radare2 suite of binary analysis tools on your computer.
 
