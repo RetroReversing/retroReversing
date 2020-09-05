@@ -80,7 +80,7 @@
     <div class="container">
       <div class="row row-5">
         
-        {% for post in site.pages %}
+        {% for post in site.pages | sort:'updatedAt' %}
         {% if post.image or post.youtube %}
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video wow slideInUp">
