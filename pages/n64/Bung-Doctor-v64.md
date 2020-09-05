@@ -25,7 +25,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/Bung-Doctor-v64.md
-updatedAt: 27th June 2020
+updatedAt: '2020-06-27'
 ---
 # Bung Dr V64
 The Doctor V64 was a 3rd Party Development kit and Piracy device that was much cheaper than the official nintendo development kits [^1]. It is the original Creator of .v64 files (it has functionality to dump carts) and even came with a CD full of N64 roms.
