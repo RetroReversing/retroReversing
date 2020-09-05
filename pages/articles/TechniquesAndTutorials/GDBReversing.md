@@ -18,7 +18,7 @@ tags:
 - introduction
 - gdb
 editlink: /articles/TechniquesAndTutorials/GDBReversing.md
-updatedAt: 28th August 2020
+updatedAt: '2020-08-28'
 ---
 
 The GNU Debugger or GDB for short is a command line tool that allows you to disassemble and understand the code execution of a program. 
