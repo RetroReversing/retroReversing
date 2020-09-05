@@ -103,11 +103,11 @@
                       {% endif %}
                   </div>
                   <div class="card-block">
-                       <h4 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h4>
-<!--                        <div class="card-meta">
-                        <span><i class="fa fa-clock-o"></i> May 21, 2017</span>
-                        <span>436 views</span>
-                       </div>       -->
+                       <h4 class="card-title"><a href="{{ post.url }}" target="_blank" >{{ post.title }}</a></h4>
+                       <div class="card-meta">
+                        <span><i class="fa fa-clock-o"></i> {{ post.updatedAt | date_to_long_string: "ordinal" }}</span>
+<!--                         <span>436 views</span> -->
+                       </div>      
                   </div>
               </div>
         </div>
