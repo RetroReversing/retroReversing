@@ -48,9 +48,9 @@
                 | Updated:
                 <i> 
                     {% if page.updatedAt %}
-                      {{page.updatedAt}}
+                      {{page.updatedAt | date_to_long_string: "ordinal"}}
                     {% else %}
-                      {{site.time | date_to_long_string}}
+                      {{site.time | date_to_long_string: "ordinal"}}
                     {% endif %}
                 </i>
                 
