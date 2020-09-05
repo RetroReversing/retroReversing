@@ -20,7 +20,7 @@ recommend:
   - devkit
   - ps1
 editlink: /ps1/PlayStationDevelopmentSystem.md
-updatedAt: 29th June 2020
+updatedAt: '2020-06-29'
 videocarousel:
   - title: DTL-H2000 Official PlayStation Development System
     image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
