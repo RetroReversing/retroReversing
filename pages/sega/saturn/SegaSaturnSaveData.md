@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Sega Saturn Save Data
     url: #
 recommend: saturn
-updatedAt: 28th August 2020
+updatedAt: '2020-08-28'
 editlink: /sega/saturn/SegaSaturnSaveData.md
 ---
 
