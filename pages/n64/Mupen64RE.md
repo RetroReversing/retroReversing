@@ -14,7 +14,7 @@ breadcrumbs:
   - name: Mupen64+ Reverser Edition
     url: #
 recommend: n64
-updatedAt: 4th July 2020
+updatedAt: '2020-07-04'
 editlink: /n64/Mupen64RE.md
 ---
 
