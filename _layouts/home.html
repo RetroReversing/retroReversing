@@ -105,7 +105,9 @@
                   <div class="card-block">
                        <h4 class="card-title"><a href="{{ post.url }}" target="_blank" >{{ post.title }}</a></h4>
                        <div class="card-meta">
-                        <span><i class="fa fa-clock-o"></i> {{ post.updatedAt | date_to_long_string: "ordinal" }}</span>
+                         {% if post.updatedAt %}
+                            <span><i class="fa fa-clock-o"></i> {{ post.updatedAt | date_to_long_string: "ordinal" }}</span>
+                         {% endif %}
 <!--                         <span>436 views</span> -->
                        </div>      
                   </div>
