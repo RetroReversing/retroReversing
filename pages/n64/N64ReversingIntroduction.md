@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64ReversingIntroduction.md
-updatedAt: 29th March 2020
+updatedAt: '2020-03-29'
 ---
 
 This post will give a brief introduction for the tools and techniques you need to start reverse engineering and decompiling a N64 Game.
