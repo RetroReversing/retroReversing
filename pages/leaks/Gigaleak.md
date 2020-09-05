@@ -6,7 +6,8 @@ tags:
 - sourcecode
 title: Gigaleak - SNES Source Code Leak 
 thumbnail: /public/consoles/Nintendo 64.png
-image: /public/N64/Gigaleak.jpg
+image: /public/images/snes/Gigaleak.jpg
+twitterimage: http://www.retroreversing.com/public/images/snes/Gigaleak.jpg
 permalink: /gigaleak
 breadcrumbs:
   - name: Home
