@@ -18,7 +18,7 @@ redirect_from:
   - /cross-products
   - /crossproducts
 editlink: ../categories/companies/crossproducts.md
-updatedAt: '2020-08-31'
+updatedAt: '2020-09-05'
 ---
 
 # History of Cross Products
