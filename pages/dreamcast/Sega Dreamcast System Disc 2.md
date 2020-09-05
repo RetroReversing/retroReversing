@@ -25,7 +25,7 @@ recommend: dreamcast
 references:
 - Dreamcast Hub
 editlink: dreamcast/Sega Dreamcast System Disc 2.md
-updatedAt: 27th June 2020
+updatedAt: '2020-06-27'
 ---
 
 In order to help prevent alpha and beta games being leaked to the public, Sega made sure that an additional disc was required to run developer burned GD-Rs.
