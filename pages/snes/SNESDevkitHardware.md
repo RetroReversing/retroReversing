@@ -24,6 +24,7 @@ recommend:
 editlink: /snes/SNESDevkitHardware.md
 redirect_from:
   - /official-snes-devkit/
+updatedAt: '2020-06-26'
 ---
 
 # Official Nintendo in-house development kit
