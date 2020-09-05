@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: 
-- howitworked
+- howitworks
 - pc
 - nes
 - appleII
 - audio
 - commodore
 - atari
-title: How Retro Sound/Music worked
+title: How Retro Sound/Music work
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
 permalink: /how-retro-audio-worked
@@ -20,7 +20,7 @@ breadcrumbs:
   - name: How Retro Audio worked
     url: #
 recommend: 
-- howitworked
+- howitworks
 - audio
 - nes
 editlink: /articles/HowItWorks/RetroAudio.md
