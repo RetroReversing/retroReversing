@@ -30,7 +30,7 @@ videocarousel:
   - title: Part 2 MVG
     image: https://i.ytimg.com/vi/gYQMdox5gzI/sddefault.jpg
     youtube: 'gYQMdox5gzI'
-updatedAt: 24th August 2020
+updatedAt: '2020-08-24'
 ---
 Have you ever wondered what exactly is inside those retro game cartirdges (ROMs)? In this post we will find out the purpose of ROM cartridges and how they worked.
 
