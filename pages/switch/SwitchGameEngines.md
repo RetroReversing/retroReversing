@@ -20,6 +20,10 @@ recommend:
 editlink: /switch/SwitchGameEngines.md
 ---
 
+When reverse engineering games, one of the first things to find out is which engine the game is based on, this will save a considerable amount of time if it is based on a standard engine that is well documented.
+
+This page will list only the confirmed engines for each game along with proof that the game3 was built with that engine, so the list won't contain every game, but any game on the list you can be confident it was based on the engine listed.
+
 # Unity3d
 Unity3d has supported the Nintendo Switch right from launch and the dev tools are distributed by Nintendo themselves rather than by Unity. Developers need to have signed up for a Nintendo Developer account to be granted access to download the Unity plugin to allow exporting to Switch [^1].
 
@@ -42,13 +46,16 @@ Children of Morta | contains file `unity_builtin_extra`
 Harvest Moon Light of Hope | contains file `unity_builtin_extra`
 Horizon Chase | `Managed/Metadata/global-metadata.dat`
 Human Fall Flat | contains file `unity_builtin_extra`
+Mountain Rescue Simulator | `Managed/Metadata/global-metadata.dat`
 Riot Civil Unrest | contains file `Managed/Metadata/global-metadata.dat`
 RPG Maker MV | contains file `unity_builtin_extra`
 Saturday morning RPG | contains file `unity_builtin_extra`
 Snow Moto Racing Freedom | `Managed/Metadata/global-metadata.dat`
 Songbird Symphony | `Managed/Metadata/global-metadata.dat`
+Stranded Sails: Explorers of the cursed Islands | `Managed/Metadata/global-metadata.dat`
 Super Monkey Ball Banana Blitz HD | contains file: `data.unity3d`
 The World Ends with You | `Managed/Metadata/global-metadata.dat`
+Two Point Hospital | `Managed/Metadata/global-metadata.dat`
  
 ---
 # Clickteam Fusion
@@ -93,11 +100,13 @@ Timespinner | contains string: `D:/Projects/Switch/MonoGame.`
 ## Games
 Game Name | Proof of engine
 ---|---
+Bioshock remastered | `engine.u`
 GRIP Combat racing | `UE4CommandLine.txt`
 Hello Neighbour Hide and Seek  | `UE4CommandLine.txt`
 Jumanji | `UE4CommandLine.txt`
 Monster JAM Crush it | `UE4CommandLine.txt`
 Narcos Rise Of the Cartels | `UE4CommandLine.txt`
+Trials of Mana | `UE4CommandLine.txt`
 
 ---
 # Havok
