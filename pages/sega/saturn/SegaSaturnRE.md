@@ -15,7 +15,7 @@ breadcrumbs:
   - name: Sega Saturn Reversing Emulator
     url: #
 recommend: saturn
-updatedAt: 4th July 2020
+updatedAt: '2020-07-04'
 editlink: /sega/saturn/SegaSaturnRE.md
 ---
 # Introduction
