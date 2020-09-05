@@ -15,7 +15,7 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /About.md
-updatedAt: 12th May 2020
+updatedAt: '2020-05-12'
 twitterimage: https://www.retroreversing.com/public/Articles/Why Reverse Engineer Games retroreversing.com.jpg
 redirect_from:
   -  /retrogame-archeology
