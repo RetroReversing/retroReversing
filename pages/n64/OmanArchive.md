@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/OmanArchive.md
-updatedAt: 8th May 2020
+updatedAt: '2020-05-08'
 twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
 ---
 
