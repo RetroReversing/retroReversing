@@ -87,9 +87,9 @@
                   <div class="card-img">
                       <a href="{{ post.url }}" target="_blank">
                         {% if post.image %}
-                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
+                            <img src="" class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
                         {% else if post.youtube %}
-                            <img src="/public/images/RetroReversingLogoSmall.png" class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                            <img src="" class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
                         {% endif %}
                       </a>
                       {% if post.recommend %}
