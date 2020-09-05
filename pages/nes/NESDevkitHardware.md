@@ -22,6 +22,7 @@ recommend:
 editlink: /nes/NESDevkitHardware.md
 redirect_from:
   - /official-nes-devkit/
+updatedAt: '2020-07-18'
 ---
 
 # Introduction
