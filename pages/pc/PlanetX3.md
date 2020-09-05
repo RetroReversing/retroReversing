@@ -32,6 +32,7 @@ videocarousel:
   - title: Part 4
     image: https://img.youtube.com/vi/wCx32lrBSNQ/maxresdefault.jpg
     youtube: 'wCx32lrBSNQ'
+updatedAt: '2019-06-26'
 ---
 
 # Introduction
