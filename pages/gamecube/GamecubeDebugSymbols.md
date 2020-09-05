@@ -18,7 +18,7 @@ breadcrumbs:
     url: #
 recommend: gamecube
 editlink: /gamecube/GamecubeDebugSymbols.md
-updatedAt: 25th April 2020
+updatedAt: '2020-04-25'
 ---
 
 Gamecube game executable can come in a number of different formats, one is the standard .DOL file (short for dolphin) and the other is the ELF.
