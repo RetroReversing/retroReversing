@@ -4,7 +4,8 @@ tags:
 - switch
 - fileformats
 title: Nintendo Switch File Formats
-image:  /public/consoles/Nintendo Switch.png
+image:  /public/images/switch/Nintendo Switch File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/switch/Nintendo Switch File Formats.jpg
 thumbnail: /public/consoles/Nintendo Switch.png
 permalink: /SwitchFileFormats
 breadcrumbs:
@@ -18,6 +19,7 @@ recommend:
 - switch
 - fileformats
 editlink: /switch/SwitchFileFormats.md
+updatedAt: '2020-09-05'
 ---
 The Nintendo Switch development scene has introduced a lot of new file formats, some completely new and others are extensions of what had been used on the Wii and Wii U.
 
