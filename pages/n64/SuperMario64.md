@@ -27,6 +27,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/SuperMario64.md
+updatedAt: '2020-05-07'
 ---
 
 # Introduction to Super Mario 64 Reversing & Modding
