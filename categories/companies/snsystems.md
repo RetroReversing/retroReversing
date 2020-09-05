@@ -19,7 +19,7 @@ redirect_from:
   - /sn-systems
   - /snsystem
 editlink: ../categories/companies/snsystems.md
-updatedAt: 31st August 2020
+updatedAt: '2020-08-31'
 ---
 
 # History of SN Systems
