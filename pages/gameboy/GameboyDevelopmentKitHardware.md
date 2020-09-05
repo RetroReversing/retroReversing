@@ -31,7 +31,7 @@ breadcrumbs:
 recommend: 
 - gameboy
 - devkit
-updatedAt: 10th January 2020
+updatedAt: '2020-01-10'
 ---
 This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
 
