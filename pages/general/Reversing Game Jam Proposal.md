@@ -14,7 +14,7 @@ breadcrumbs:
 recommend: 
 - introduction
 editlink: /general/Reversing Game Jam Proposal.md
-updatedAt: 12th May 2020
+updatedAt: '2020-05-12'
 twitterimage: https://www.retroreversing.com/public/Articles/Reversing Game Jam Proposal.jpg
 ---
 
