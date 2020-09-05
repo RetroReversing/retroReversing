@@ -5,6 +5,8 @@ console: snsystems
 recommend: snsystems
 recommendTitle: All SN Systems Posts
 title: SN Systems (Creator of Development Tools)
+image: /public/images/companies/SN Systems - Company.jpg
+twitterimage: https://www.retroreversing.com/public/images/companies/SN Systems - Company.jpg
 breadcrumbs:
   - name: Home
     url: /
