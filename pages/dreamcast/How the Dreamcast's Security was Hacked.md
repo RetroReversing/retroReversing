@@ -31,7 +31,7 @@ references:
 - The Adequate Gamer
 - MrMario2011
 editlink: dreamcast/How the Dreamcast's Security was Hacked.md
-updatedAt: 27th June 2020
+updatedAt: '2020-06-27'
 ---
 
 Excellent video by The Adequate Gamer on youtube (https://www.youtube.com/watch?v=R0pZ8Xs8dXU)
