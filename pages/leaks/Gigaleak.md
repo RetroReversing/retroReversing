@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: snes
 editlink: /leaks/Gigaleak.md
-updatedAt: 3rd September 2020
+updatedAt: '2020-09-03'
 twitterimage: https://www.retroreversing.com/public/N64/Gigaleak.jpg
 ---
 
