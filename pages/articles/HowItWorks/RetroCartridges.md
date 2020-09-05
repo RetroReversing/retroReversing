@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: 
-- howitworked
+- howitworks
 - pc
 - nes
 - snes
 - n64
 - megadrive
 - mastersystem
-title: How Retro Cartridges/ROMS worked
+title: How Retro Cartridges/ROMS work
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/NLEMsw1SjDY/sddefault.jpg
 permalink: /how-retro-cartridges-roms-worked
@@ -20,7 +20,7 @@ breadcrumbs:
   - name: How Retro Cartridges/ROMS worked
     url: #
 recommend: 
-- howitworked
+- howitworks
 - nes
 editlink: /articles/HowItWorks/RetroCartridges.md
 videocarousel:
