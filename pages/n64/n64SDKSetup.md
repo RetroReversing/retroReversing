@@ -19,6 +19,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/n64SDKSetup.md
+updatedAt: '2019-01-02'
 ---
 
 # Introduction
