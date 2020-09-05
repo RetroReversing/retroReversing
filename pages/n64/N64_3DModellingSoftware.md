@@ -20,7 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64_3DModellingSoftware.md
-updatedAt: 3rd May 2020
+updatedAt: '2020-05-03'
 ---
 
 During the Nintendo 64s lifetime 3D modelling tools evolved at an incredible pace. 3D games were the new trend which pushed developers into creating new 3D games in order to get published.
