@@ -83,7 +83,7 @@ The SNASM658 was the Super Nintendo version of the SNASM2 development kit and ca
 ### SNASM for Atari ST
 The Atari ST was one of the first platforms supported by the original SNASM development kit, it allowed developing on a PC and debugging on an Atari ST, with the main benefit being that crashes on the Atari didn't affect development compared to editing on the Atari ST itself.
 
-{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM Devkit Box for the Atari ST at Computing History" title="SNASM Devkit Box for the Atart ST - Peripheral - Computing History]" image="http://www.computinghistory.org.uk/userdata/images/large/83/67/product-118367.jpg"  %}
+{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM Devkit Box for the Atari ST at Computing History" title="SNASM Devkit Box for the Atart ST - Peripheral - Computing History]" image="https://www.computinghistory.org.uk/userdata/images/large/83/67/product-118367.jpg"  %}
 
 ---
 # All Posts mentioning Cross Products
