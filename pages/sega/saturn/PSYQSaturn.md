@@ -23,6 +23,7 @@ recommend: devkit
 editlink: /sega/saturn/PSYQSaturn.md
 references:
   - segaretro.org
+updatedAt: '2019-11-08'
 ---
 
 # Introduction to PSY-Q Saturn
