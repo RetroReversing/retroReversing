@@ -24,6 +24,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/Turok64SourceCode.md
+updatedAt: '2018-12-15'
 ---
 # Introduction to Turok 64
 <section class="postSection">
