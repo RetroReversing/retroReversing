@@ -19,7 +19,7 @@ recommend:
 - ique
 - n64
 editlink: /n64/iQueSDK.md
-updatedAt: 11th May 2020
+updatedAt: '2020-05-11'
 twitterimage: https://www.retroreversing.com/public/N64/iQue SDK.jpg
 ---
 The iQue Player was a sort of plug and play version of the Nintendo 64 system sold in China with its main aim to stop the rampant piracy in the market.
