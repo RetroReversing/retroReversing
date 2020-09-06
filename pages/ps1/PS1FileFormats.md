@@ -7,6 +7,7 @@ tags:
 title: Playstation 1 File Formats
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/images/ps1/Sony PS1 File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/ps1/Sony PS1 File Formats.jpg
 permalink: /ps1-file-formats
 breadcrumbs:
   - name: Home
@@ -17,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: ps1
 editlink: /ps1/PS1FileFormats.md
+updatedAt: '2019-05-04'
 ---
 
 # File Formats used to distribute PS1 Discs
