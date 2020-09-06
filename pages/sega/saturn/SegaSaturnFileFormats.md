@@ -21,7 +21,7 @@ editlink: /sega/saturn/SegaSaturnFileFormats.md
 updatedAt: '2020-05-31'
 ---
 <section class="postSection">
-    <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+    <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:100px" class="wow slideInLeft postImage" />
 <div markdown="1">
 The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
