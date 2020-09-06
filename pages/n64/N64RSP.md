@@ -3,7 +3,8 @@ layout: post
 tags: 
 - n64
 title: N64 RSP - Reality Signal Processor
-image:  /public/N64/N64RealitySignalProcessor.jpg
+image: /public/N64/N64RealitySignalProcessor.jpg
+twitterimage: https://www.retroreversing.com/public/N64/N64RealitySignalProcessor.jpg
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
   - title: Video 1
@@ -19,6 +20,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64RSP.md
+updatedAt: '2020-05-03'
 ---
 
 # Introduction
