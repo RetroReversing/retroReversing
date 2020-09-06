@@ -16,6 +16,7 @@ breadcrumbs:
     url: #
 recommend: n64
 editlink: /n64/N64BootCode.md
+updatedAt: '2019-10-27'
 ---
 
 # Introduction to Nintendo 64 Bootcode
