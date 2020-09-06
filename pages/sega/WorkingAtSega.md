@@ -36,7 +36,7 @@ This rare documentary was part of **Careers for the 21st Century** by **Takeoff 
 The documentary starts with an introduction by **Ron Barber** from Takeoff Multimedia with some rather 90s video effects and acting, it can be quite funny watching it in the present day.
 
 ## License to Print Money?
-Interview with Roger hector who was VP of the SEGA Techincal Institute at the time claiming that talented game developers are like "Rockstars" and can make quite a bit of money. In fact they even go as far as to use the phrase "License to Print Money" and compare it to the successful career of Bill Cosby... (Doesn't age well).
+Interview with Roger hector who was VP of the SEGA Technical Institute at the time claiming that talented game developers are like "Rockstars" and can make quite a bit of money. In fact they even go as far as to use the phrase "License to Print Money" and compare it to the successful career of Bill Cosby... (Doesn't age well).
 
 This was around the time that Sonic 3 was near the end of its development.
 
@@ -47,5 +47,5 @@ This was around the time that Sonic 3 was near the end of its development.
   - Which Software is he using?
 * Adrian Stevens - Technical Director
   - What development kit is he using?
-  - Normal PC connected to special cartridge in a normal sgea Genesis allows debugging.
+  - Normal PC connected to special cartridge in a normal SEGA Genesis allows debugging.
   - Demonstrates being able to pause and step through the game using the debugger on the pc.
