@@ -20,7 +20,7 @@ recommend:
 - dreamcast
 - symbols
 editlink: /dreamcast/DreamcastGamesWithDebugSymbols.md
-updateAt: '2019-10-19'
+updatedAt: '2019-10-19'
 ---
 <section class="postSection">
     <img src="/public/images/dreamcast/Dreamcast-Games-With-Debug-Symbols.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
