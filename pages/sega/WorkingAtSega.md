@@ -46,6 +46,8 @@ The documentary lists the jobs that were available at SEGA at the time, which ar
 * Musicians
 * Game designers
 * Game testers
+* Game Producer
+* Technical Director
 
 ## Prototype Game
 Roger Hector shows off a prototype version of Sonic 3 which is a standard SEGA development cartridge with flashes EEPROMs that would run in a retail unit.
@@ -55,12 +57,24 @@ This was around the time that Sonic 3 was near the end of its development.
 ## Music development hardware
 In a brief interview with Howard Drosson who is a Music director at SEGA Technical Institute he shows off all the technical equipment (sound modules, mixing board, keyboard) used to create great sound and music of the Genesis. He even shows off the Music development cartridge sticking out of a Genesis which connects to his development PC to download the music files after run. through his sequencer.
 
+## Animation
+They then go on to interview **Dean Ruggles** who is an Animator at SEGA Technical Institute while he is working on the main character in Comix Zone's animation.
+
+It is hard to see from the footage what software he is using but along the top it has a menu of items that contains "Pict,Brush,?,Stencil"
+  
+He mentions that for him games are fairly quick, each games last a couple of months then he is on to the next game, very different to how the games industry is today!
+
+## Production
+This is follwed by an inverview with Dean lester who is a producer at SEGA Technical Institute, he briefly describes his role at ensuring quality of the games produced at STI and managing the money assigned to each project.
+
+## Programming
+There is then an interview with Adrian Stevens - Technical Director which he describes as a programmer with more responsibilities.
+- What development kit is he using?
+- Normal PC connected to special cartridge in a normal SEGA Genesis allows debugging.
+- Demonstrates being able to pause and step through the game using the debugger on the pc.
+
 ## Other Notes
 * Shows assembly code and development kit in part 2.
 * Video at the end mentions 1993 so I'm presuming thats when the documentary was filmed, but some commenters on Youtube believe it to be 1995. Presumably because its showing in-development games.
-* Dean Ruggles - Animator at SEGA Technical Institute ( working on Comix Zone animation)
-  - Which Software is he using?
-* Adrian Stevens - Technical Director
-  - What development kit is he using?
-  - Normal PC connected to special cartridge in a normal SEGA Genesis allows debugging.
-  - Demonstrates being able to pause and step through the game using the debugger on the pc.
+
+
