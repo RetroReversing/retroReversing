@@ -3,7 +3,8 @@ permalink: /gameboy/intro
 layout: post
 tags: 
  - gameboy
-title: Introduction to Game Boy Reverse engineering
+ - hardware
+title: Game Boy Hardware Architecture
 thumbnail: /public/NintendoGameBoyThumb.png
 image: /public/GameBoyIntro.png
 breadcrumbs:
@@ -11,22 +12,21 @@ breadcrumbs:
     url: /
   - name: Game Boy
     url: /gameboy
-  - name: Introduction to Game Boy Reverse engineering
+  - name: Game Boy Hardware Architecture
     url: #
-editlink: ../pages/gameboy/into.md
+editlink: ../pages/gameboy/Hardware Architecture.md
 recommend: 
 - gameboy
+- hardware
 ---
 
-# Introduction to the System
+# The Hardware
 
 ## Original GameBoy DMG (Dot Matrix Game)
 
 **CPU**: z80 - LR35902 (Opcodes: http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 
 **RAM**: 8KB (32KB in Color)
-
-# The Hardware
 
 ## The Ultimate Gameboy Talk (hardware specs etc)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -60,19 +60,4 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 ## GameBoy Printer
 <iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
 
---
-
-# Software development for the Gameboy
-
-## Useful Links
-* Fantastic FAQ for tons of developer questions - http://www.devrs.com/gb/files/faqs.html
-
 ---
-# Hacking GameBoy Games
-## Crystalis
-<iframe width="560" height="420" src="https://www.youtube.com/embed/whgbxtBAnPw?color=white&theme=dark"></iframe>
-
-## How to create your own twitch plays pokemon
-How to script an emulator so that it accepts REST requests for player input
-<iframe width="560" height="420" src="https://www.youtube.com/embed/qQrQcyDZydY?color=white&theme=dark"></iframe>
-
