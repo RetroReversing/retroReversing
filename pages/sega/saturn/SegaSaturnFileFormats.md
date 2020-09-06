@@ -7,6 +7,7 @@ tags:
 title: Sega Saturn File Formats
 thumbnail: /public/consoles/Sega Saturn.png
 image: /public/images/saturn/Sega Saturn File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/saturn/Sega Saturn File Formats.jpg
 permalink: /sega-saturn-file-formats/
 breadcrumbs:
   - name: Home
@@ -17,8 +18,11 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /sega/saturn/SegaSaturnFileFormats.md
+updatedAt: '2020-05-31'
 ---
-
+<section class="postSection">
+    <img src="/public/images/saturn/Sega Saturn File Formats.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
 Unlike most cartridge based ROM chips CDs have a standard File System to read files from and so instead of everything being in a giant blob of binary and burned to a chip, the game could be split into multiple files.
@@ -26,6 +30,8 @@ Unlike most cartridge based ROM chips CDs have a standard File System to read fi
 Also the consoles would not have enough RAM to hold all the game assets so games would have to stream assets into memory when needed. So it would only read the texture or sound files used in a particular level and ignore the rest.
 
 This makes it slightly easier to do some basic modding of Saturn assets compared to a ROM based console such as the Mega Drive, as you can normally pinpoint the asset you want down to a particular file and sometimes they have file extensions that tell you exactly what format the file is.
+</div>
+</section>
 
 # Executable Code Formats
 
