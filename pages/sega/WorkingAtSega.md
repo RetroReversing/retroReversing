@@ -35,10 +35,12 @@ This rare documentary was part of **Careers for the 21st Century** by **Takeoff 
 
 The documentary starts with an introduction by **Ron Barber** from Takeoff Multimedia with some rather 90s video effects and acting, it can be quite funny watching it in the present day.
 
+## License to Print Money?
 Interview with Roger hector who was VP of the SEGA Techincal Institute at the time claiming that talented game developers are like "Rockstars" and can make quite a bit of money. In fact they even go as far as to use the phrase "License to Print Money" and compare it to the successful career of Bill Cosby... (Doesn't age well).
 
 This was around the time that Sonic 3 was near the end of its development.
 
+## Other Notes
 * Shows assembly code and development kit in part 2.
 * Video at the end mentions 1993 so I'm presuming thats when the documentary was filmed, but some commenters on Youtube believe it to be 1995. Presumably because its showing in-development games.
 * Dean Ruggles - Animator at SEGA Technical Institute ( working on Comix Zone animation)
