@@ -1,32 +1,43 @@
 ---
-collection: gameboy
-tags: gameboy
-title: Introduction to Gameboy Reverse engineering
-excerpt: GameBoy Introduction
+permalink: /gameboy/intro
+layout: post
+tags: 
+ - gameboy
+title: Introduction to Game Boy Reverse engineering
 thumbnail: /public/NintendoGameBoyThumb.png
 image: /public/GameBoyIntro.png
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Game Boy
+    url: /gameboy
+  - name: Introduction to Game Boy Reverse engineering
+    url: #
+editlink: ../pages/gameboy/into.md
+recommend: 
+- gameboy
 ---
 
 # Introduction to the System
 
 ## Original GameBoy DMG (Dot Matrix Game)
 
-CPU: z80 (LR35902) (Opcodes: http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
+**CPU**: z80 - LR35902 (Opcodes: http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
 
-RAM: 8KB (32KB in Color)
+**RAM**: 8KB (32KB in Color)
 
 
 ## Introduction Advert
-<iframe width="560" height="420" src="http://www.youtube.com/embed/2Mvb9olYVlg?color=white&theme=dark"></iframe>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/2Mvb9olYVlg"></iframe>
 
 # The Hardware
 
 ## The Ultimate Gameboy Talk (hardware specs etc)
-<iframe width="560" height="420" src="http://www.youtube.com/embed/HyzD8pNlpwI?color=white&theme=dark"></iframe>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/HyzD8pNlpwI"></iframe>
 
 ## The Game Boy, a hardware autopsy
-<iframe width="560" height="420" src="http://www.youtube.com/embed/RZUDEaLa5Nw?color=white&theme=dark"></iframe>
-<iframe width="560" height="420" src="http://www.youtube.com/embed/ecTQVa42sJc?color=white&theme=dark"></iframe>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/RZUDEaLa5Nw"></iframe>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/ecTQVa42sJc"></iframe>
 
 ---
 ## Super GameBoy
