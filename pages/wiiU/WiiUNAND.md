@@ -3,7 +3,8 @@ layout: post
 tags: 
 - wiiU
 title: WiiU NAND Flash
-image:  /public/wiiU/WiiUnandFlash.jpg
+image: /public/wiiU/WiiUnandFlash.jpg
+twitterimage: https://www.retroreversing.com/public/wiiU/WiiUnandFlash.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUNAND
 breadcrumbs:
@@ -15,6 +16,7 @@ breadcrumbs:
     url: #
 recommend: wiiU
 editlink: /wiiU/WiiUNAND.md
+updatedAt: '2019-03-02'
 ---
 
 # What is NAND?
