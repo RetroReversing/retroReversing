@@ -27,6 +27,7 @@ recommend:
 editlink: /gba/GBADevkitHardware.md
 redirect_from:
   - /official-gba-devkit/
+updatedAt: '2020-01-23'
 ---
 
 # Official Development Kit Hardware
