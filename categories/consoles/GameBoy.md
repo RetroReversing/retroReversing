@@ -63,6 +63,8 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 ## Looney Tunes: Carrot Crazy
 {% include link-to-other-site.html url="https://www.huderlem.com/blog/posts/carrot-crazy-1/" description="Find out how to reverse engineer Looney Tunes: Carrot Crazy for the GBC" image="https://www.huderlem.com/blog/posts/carrot-crazy-1/password-entry-screen.png" title="Reverse Engineering Carrot Crazy"  %}
 
+## Crystalis
+<iframe width="560" height="420" src="https://www.youtube.com/embed/whgbxtBAnPw"></iframe>
 
 ---
 # Game Boy Development
