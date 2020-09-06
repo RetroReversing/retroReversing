@@ -1,5 +1,5 @@
 ---
-permalink: /gameboy/intro
+permalink: /gameboy/hardware
 layout: post
 tags: 
  - gameboy
