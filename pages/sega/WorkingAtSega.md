@@ -56,21 +56,33 @@ This was around the time that Sonic 3 was near the end of its development.
 In a brief interview with Howard Drosson who is a Music director at SEGA Technical Institute he shows off all the technical equipment (sound modules, mixing board, keyboard) used to create great sound and music of the Genesis. He even shows off the Music development cartridge sticking out of a Genesis which connects to his development PC to download the music files after run. through his sequencer.
 
 ## Animation
+<section class="postSection">
+    <img src="/public/images/megadrive/Comix Zone Animation Editor.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 They then go on to interview **Dean Ruggles** who is an Animator at SEGA Technical Institute while he is working on the main character in Comix Zone's animation.
 
 It is hard to see from the footage what software he is using but along the top it has a menu of items that contains "Pict,Brush,?,Stencil"
   
 He mentions that for him games are fairly quick, each games last a couple of months then he is on to the next game, very different to how the games industry is today!
+</div>
+</section>
 
 ## Production
 This is follwed by an inverview with Dean lester who is a producer at SEGA Technical Institute, he briefly describes his role at ensuring quality of the games produced at STI and managing the money assigned to each project.
 
 ## Programming
+<section class="postSection">
+    <img src="/public/images/megadrive/Sega MD programming.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+
 There is then an interview with Adrian Stevens - Technical Director which he describes as a programmer with more responsibilities.
 
 He briefly shows the development kit he is using is the **Cross Products CartDev** machine hooked up to his standard PC and a retail SEGA Genesis.
 
 He even Demonstrates being able to pause and step through the game using the debugger on the pc.
+</div>
+</section>
 
 ## Computer Graphics Artist
 Interview with Marti Thomson about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC.
