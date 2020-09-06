@@ -5,7 +5,8 @@ tags:
 - n64
 - leak
 title: Verilog
-image: /public/Hardware/Verilog.jpg
+image: /public/images/hardware/Verilog Hardware Description Language.jpg
+twitterimage: https://www.retroreversing.com/public/images/hardware/Verilog Hardware Description Language.jpg
 permalink: /verilog
 breadcrumbs:
   - name: Home
@@ -21,12 +22,16 @@ editlink: /hardware/Verilog.md
 updatedAt: '2020-05-08'
 twitterimage: https://www.retroreversing.com/public/Hardware/Verilog.jpg
 ---
-
+<section class="postSection">
+    <img src="/public/images/hardware/Verilog Hardware Description Language.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Verilog (Verify Logic) is a hardware definition programming language, this means that it is a text representation of a Digital circuit. So if you wanted to design your own hardware or program a FPGA you would use this language to develop all the logic before the final board is printed.
 
 There are a number of reasons why Verilog is interesting to us at RetroReversing, one of them is due to the leaks of the official Verilog source code by Nintendo for a variety of their consoles.
 
 The other reason is that it opens the door to much more efficient emulation devices based on FPGAs such as a MiSTer.
+</div>
+</section>
 
 # How does it work
 At first glance Verilog source code looks very similar to a traditional programming language such as Python or C/C++. However instead of being compiled down into machine code and run on a CPU, Verilog source code gets `synthesised` into the FPGA which re-configured the logic blocks of the FPGA [^1]. 
