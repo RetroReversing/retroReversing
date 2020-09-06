@@ -20,8 +20,11 @@ recommend:
 - dreamcast
 - symbols
 editlink: /dreamcast/DreamcastGamesWithDebugSymbols.md
+updateAt: '2019-10-19'
 ---
-
+<section class="postSection">
+    <img src="/public/images/dreamcast/Dreamcast-Games-With-Debug-Symbols.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Debug symbols pretty much open a game wide open to budding verse engineers. These files make reverse engineering almost a piece of cake, giving useful names to each of the functions in an executable and sometimes even full local variable naming and source code references.
 
 However most developers are very careful not to leak any debug symbols, especially into retail releases, so most games will not have publicly available debug symbols. But if you look very hard you might be able to find a game or two compiled for a console that have debug symbols left in by mistake.
@@ -31,6 +34,8 @@ The Dreamcast is no different, although unlike the Sega Saturn before it, the ga
 Also it is further complicated due to the fact that there were actually two official Software Development Kits (SDKs) available for the dreamcast. One was the standard `Katana` SDK that  used custom libraries written by Sega and the other was the Windows CE SDK written by Microsoft with added dreamcast functions.
 
 The Windows CE SDK was built to make porting from PC to dreamcast easier but required the game to ship with Windows CE libraries and to be compiled by the Microsoft C Compiler/Assembler suite.
+</div>
+</section>
 
 ---
 # PDB files for WinCE executables
