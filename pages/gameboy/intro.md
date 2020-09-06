@@ -29,7 +29,7 @@ recommend:
 # The Hardware
 
 ## The Ultimate Gameboy Talk (hardware specs etc)
-<iframe width="560" height="420" src="http://www.youtube.com/embed/HyzD8pNlpwI"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## The Game Boy, a hardware autopsy
 <iframe width="560" height="420" src="http://www.youtube.com/embed/RZUDEaLa5Nw"></iframe>
