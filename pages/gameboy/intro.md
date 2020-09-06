@@ -26,10 +26,6 @@ recommend:
 
 **RAM**: 8KB (32KB in Color)
 
-
-## Introduction Advert
-<iframe width="560" height="420" src="http://www.youtube.com/embed/2Mvb9olYVlg"></iframe>
-
 # The Hardware
 
 ## The Ultimate Gameboy Talk (hardware specs etc)
