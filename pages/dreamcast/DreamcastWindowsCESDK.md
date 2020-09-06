@@ -8,6 +8,7 @@ tags:
 title: Sega Dreamcast Microsoft Windows CE SDK
 thumbnail: /public/consoles/Sega Dreamcast.png
 image: /public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg
+twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg
 permalink: /dreamcast-windows-ce
 breadcrumbs:
   - name: Home
@@ -20,8 +21,11 @@ recommend:
 - dreamcast
 - sdks
 editlink: /dreamcast/DreamcastWindowsCESDK.md
+updatedAt: '2019-10-31'
 ---
-
+<section class="postSection">
+    <img src="/public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 Originally called the Dragon SDK and planned to be the full Operating System (OS) of the dreamcast. However SEGA decided to go with their own limited BIOS with the Dreamcast instead of a fully functional OS. So to use WindowsCE on the Dreamcast game developers would have to bundle the entire Windows CE OS on the game disc [^2].
 
 This means that in order to run the game the dreamcast would first boot into the file `0WINCEOS.BIN` on the GD-ROM disc and then it would load the game. This had a performance impact, reducing the resources the developers would have for the game, so lower memory, longer loading times and less performance for the actual game.
@@ -33,6 +37,8 @@ The answer mainly comes down to the ease of porting PC games to the platform and
 This reduces development cost as much of the code from the PC version could be used with some modification and it would take less developer time to learn the Application programming Interfaces (API). So it was a trade-off that worked for less performance demanding games as they could be developed much quicker from a PC port [^1].
 
 One example of a studio doing just that is a presentation from D. Michael Traub from Acclaim on porting the Quagmire engine to the Dreamcast, they used the WinCE SDK to port to the dreamcast and they found that it worked very well, claiming that it only took a month to port the engine thanks to the SDK.
+</div>
+</section>
 
 ---
 # Porting issues from PC to DC
