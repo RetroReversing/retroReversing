@@ -7,6 +7,7 @@ tags:
 title: GD Workshop (GD-R Burner/Virtualiser)
 thumbnail: /public/consoles/Sega Dreamcast.png
 image: /public/images/dreamcast/Dreamcast-GD-Workshop.jpg
+twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast-GD-Workshop.jpg
 permalink: /sega-dreamcast-gd-workshop
 breadcrumbs:
   - name: Home
@@ -19,10 +20,15 @@ recommend:
 - dreamcast
 - sdk
 editlink: /dreamcast/DreamcastGDWorkshop.md
+updatedAt: '2019-10-31'
 ---	
-
-GD Workshop was developed by CrossProducts as a tool to not only burn GD-Rs but also to create virtual GDROM images for use on the DEV.BOX.
-
+<section class="postSection">
+    <img src="/public/images/dreamcast/Dreamcast-GD-Workshop.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
+GD Workshop was developed by CrossProducts as a tool to not only burn GD-Rs but also to create virtual GDROM images for use on the **DEV.BOX** development hardware.
+  </div>
+</section>
+  
 # Running GD Workshop
 Although the Katana development kit Dev.BOX is basically a windows PC with a GD-ROM drive, it cannot run on standard PCs without being patched.
 
