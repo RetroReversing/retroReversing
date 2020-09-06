@@ -53,7 +53,7 @@ Roger Hector shows off a prototype version of Sonic 3 which is a standard SEGA d
 This was around the time that Sonic 3 was near the end of its development.
 
 ## Music development hardware
-In a brief interview with Howard Drosson who is a Music director at SEGA Technical Institute he shows off all the technical equipment (sound modules, mixing board, keyboard) used to create great sound and music of the Genesis. He even shows off the Music development cartridge sticking out of a Genesis which connects to his development PC to download the music files after run. through his sequencer.
+In a brief interview with **Howard Drosson** who is a Music director at SEGA Technical Institute he shows off all the technical equipment (sound modules, mixing board, keyboard) used to create great sound and music of the Genesis. He even shows off the Music development cartridge sticking out of a Genesis which connects to his development PC to download the music files after run. through his sequencer.
 
 ## Animation
 <section class="postSection">
@@ -69,13 +69,12 @@ He mentions that for him games are fairly quick, each games last a couple of mon
 </section>
 
 ## Production
-This is follwed by an inverview with Dean lester who is a producer at SEGA Technical Institute, he briefly describes his role at ensuring quality of the games produced at STI and managing the money assigned to each project.
+This is followed by an interview with **Dean Lester** who is a producer at SEGA Technical Institute, he briefly describes his role at ensuring quality of the games produced at STI and managing the money assigned to each project.
 
 ## Programming
 <section class="postSection">
     <img src="/public/images/megadrive/Sega MD programming.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-
 There is then an interview with Adrian Stevens - Technical Director which he describes as a programmer with more responsibilities.
 
 He briefly shows the development kit he is using is the **Cross Products CartDev** machine hooked up to his standard PC and a retail SEGA Genesis.
@@ -85,9 +84,9 @@ He even Demonstrates being able to pause and step through the game using the deb
 </section>
 
 ## Computer Graphics Artist
-Interview with Marti Thomson about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC.
+Interview with **Marti Thomson** about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC whihc has a similar menu to the Animation editor shown earlier.
 
 ## Notes about the Date
-The filming may have been done in 1993 as the Youtube title suggests but some of the edited footage is definetly from later as it shown SEGA saturn games such as Bug, Clockwork Knight and Panzel Dragoon. Some commenters on Youtube believe it to be 1995 but Comix Zone was in development at the time for the in-person filming so it is likely to be earlier than that.
+The filming may have been done in 1993 as the Youtube title suggests but some of the edited footage is definitely from later as it shown SEGA Saturn games such as Bug, Clockwork Knight and Panzer Dragoon. Some commenters on Youtube believe it to be 1995 but Comix Zone was in development at the time for the in-person filming so it is likely to be earlier than that.
 
 
