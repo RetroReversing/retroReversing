@@ -28,7 +28,7 @@ videocarousel:
 editlink: ../pages/sega/WorkingAtSega.md
 references:
   - youtube
-updatedAt: 2017-12-30
+updatedAt: '2017-12-30'
 ---
 ## Working At SEGA Documentary
 This rare documentary was part of **Careers for the 21st Century** by **Takeoff Multimedia**, it shows what life was like as a developer working at SEGA in 1993. This was probably created to inspire kids to want to get into the games industry, as if children needed more motivation to make games for a living!
