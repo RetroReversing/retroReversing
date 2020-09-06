@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: saturn
 editlink: /sega/saturn/SegaSaturnSDK.md
+updatedAt: '2019-11-05'
 ---
 The Sega Saturn software development kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by sega and a few custom 3rd party.
 
