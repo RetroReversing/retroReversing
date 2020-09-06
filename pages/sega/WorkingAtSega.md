@@ -3,9 +3,7 @@ layout: post
 tags: 
 - documentary
 - md
-- sonic
 - sega
-- devkit
 title: Working at SEGA Documentary 
 thumbnail: /public/consoles/Sega Genesis.png
 image: https://img.youtube.com/vi/lCnaw07LaS0/sddefault.jpg
@@ -69,12 +67,15 @@ This is follwed by an inverview with Dean lester who is a producer at SEGA Techn
 
 ## Programming
 There is then an interview with Adrian Stevens - Technical Director which he describes as a programmer with more responsibilities.
-- What development kit is he using?
-- Normal PC connected to special cartridge in a normal SEGA Genesis allows debugging.
-- Demonstrates being able to pause and step through the game using the debugger on the pc.
 
-## Other Notes
-* Shows assembly code and development kit in part 2.
-* Video at the end mentions 1993 so I'm presuming thats when the documentary was filmed, but some commenters on Youtube believe it to be 1995. Presumably because its showing in-development games.
+He briefly shows the development kit he is using is the **Cross Products CartDev** machine hooked up to his standard PC and a retail SEGA Genesis.
+
+He even Demonstrates being able to pause and step through the game using the debugger on the pc.
+
+## Computer Graphics Artist
+Interview with Marti Thomson about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC.
+
+## Notes about the Date
+The filming may have been done in 1993 as the Youtube title suggests but some of the edited footage is definetly from later as it shown SEGA saturn games such as Bug, Clockwork Knight and Panzel Dragoon. Some commenters on Youtube believe it to be 1995 but Comix Zone was in development at the time for the in-person filming so it is likely to be earlier than that.
 
 
