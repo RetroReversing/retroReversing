@@ -18,6 +18,7 @@ breadcrumbs:
     url: #
 recommend: psp
 editlink: /psp/PSPSymbols.md
+updatedAt: '2020-06-04'
 ---
 
 The Sony Playstation portable used encrypted executables known as `EBOOT.BIN`, these are basically just an encrypted ELF file and it is possible to decrypt them with the correct tools. Some games also ship with unencrypted executables in `BOOT.BIN`
