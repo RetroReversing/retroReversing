@@ -16,6 +16,7 @@ breadcrumbs:
     url: #
 recommend: wiiU
 editlink: /wiiU/WiiUVirtualConsole.md
+updatedAt: '2019-03-04'
 ---
 
 # Introduction
