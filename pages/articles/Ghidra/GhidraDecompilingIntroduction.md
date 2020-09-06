@@ -23,6 +23,7 @@ recommend:
 - ghidra
 editlink: /articles/Ghidra/GhidraDecompilingIntroduction.md
 youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
+updatedAt: '2019-09-01'
 ---
 
 This tutorial will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
