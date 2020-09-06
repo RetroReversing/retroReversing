@@ -3,7 +3,8 @@ layout: post
 tags: 
 - wiiU
 title: Wii U Virtual Console Reversing
-image:  /public/consoles/Nintendo WiiU.png
+image: /public/wiiU/WiiU Virtual Console Reversing.jpg
+twitterimage: https://www.retroreversing.com/public/wiiU/WiiU Virtual Console Reversing.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
 permalink: /WiiUVirtualConsole
 breadcrumbs:
@@ -18,6 +19,9 @@ editlink: /wiiU/WiiUVirtualConsole.md
 ---
 
 # Introduction
+<section class="postSection">
+    <img src="/public/wiiU/WiiU Virtual Console Reversing.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
+<div markdown="1">
 The WiiU Virtual console was a fantastic way to play retro Nintendo games from pretty much all of Nintendo's old consoles, it even included wii games!
 
 To be able to play these retro games on the wiiU hardware Nintendo had to bundle each game rom with an emulator, Nintendo didn't want to develop their own emulators so they outsourced each consoles emulator to various companies such as M2 for Gameboy Advance.
@@ -25,6 +29,8 @@ To be able to play these retro games on the wiiU hardware Nintendo had to bundle
 The alternative to emulation would have been recompiling each game for the wiiU. This would not only have been time consuming but would require a full rewrite for the earlier games that were implemented in assembly code.
 
 This post will cover the details we have discovered so far about how the WiiU virtual console games are implemented. Each console has a different method of emulation so this post will be split by console.
+</div>
+</section>
 
 ---
 
