@@ -10,6 +10,7 @@ recommend: nes
 youtube: cqsCqG-uako
 image: https://img.youtube.com/vi/cqsCqG-uako/0.jpg
 editlink: /nes/Home-Alone-2-NES-Source-Code.md
+updatedAt: '2018-09-19'
 ---
 
 # Home Alone 2 NES Source Code
