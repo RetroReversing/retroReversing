@@ -13,13 +13,13 @@ permalink: /broadon-archive
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo 64
-    url: /n64
+  - name: Nintendo Wii
+    url: /wii
   - name: BroadOn Archive
     url: #
 recommend: n64
 editlink: /wii/BroadOnArchive.md
-updatedAt: '2020-05-10'
+updatedAt: '2020-09-10'
 twitterimage: https://www.retroreversing.com/public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
 videocarousel:
   - title: MVG
@@ -27,7 +27,11 @@ videocarousel:
     youtube: 'n8G7eq0GlQs'
 ---
 
-In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as Zammis Clark.
+In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as **Zammis Clark**.
+
+More content was later uploaded throughout 2020 such as the Gigaleak which contained source code for many popular Nintendo classics.
+{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+
 
 # The Uploads 
 The material itself was uploaded twice, the first upload was named `unsorted.zip`. The problem with this archive was that it contained many files with the extension `,v` (comma intentional).
@@ -66,7 +70,7 @@ The iQue Depot is the service that was later enchanted and used for the Nintendo
 As the name implies this folder is for the configuration of the Concurrent Versions System. You can think of this folder as similar to the `.git` folder in more modern projects. Nothing interesting to see here.
 
 ## HW Folder - Kilopass XPM hardware Verilog Source
-The HW folder contains hardware specifications for the Kilopass Super Permanent Memory or XPM.
+The HW folder contains hardware specifications for the Kilopass Super Permanent Memory or XPM. This is kept operate from the rest of the source as it is 3rd party technology licensed from Kilopass.
 
 This is presumable the hardware used in the iQue Player to enable storing code and data on the chip in a way that makes it harder for reverse engineers to access the data.
 
@@ -101,12 +105,47 @@ The iQue player was codenamed the "BB" project (possibly reference to something 
 ### HW folder - iQue Player Hardware
 This folder contains the Verilog source code and a bunch of software source code that is used to help verify that the hardware is working correctly.
 
----
 ### SW folder - iQue Software (SDK etc)
 This folder contains the source code for software related to the iQue Player such as the SDK.
 
 The top level of this folder is a bash script called `mklinks` which simply creates symbolic links to common folders so they can be used easily after they have been built.
 
+#### BBPlayer folder
+
+#### Linux Dev Root - iQue development environment for Linux
+
+#### export_headers folder
+This folder just contains C header files that are all for the iQue specific features such as security and Network features.
+
+Header File Name | Description
+---|---
+aes.h | Defines functions such as `aes_HwKeyExpand`, `aes_SwEncrypt` and `aes_SwDecrypt`
+aes_api.h | Defines structors and preprocessor directives along with functions such as `aesMakeKey`
+bbcert.h | Project BB Certificate structures and preprocessor defines 
+bbticket.h | BbTicket structure which is used to verify a user owns a game
+bbtoolsapi.h | Handy tool functions such as `generateUnsignedBbCert`
+bbmetadata.h | Metadata structors to hold data such as SHA has of games
+bbreg.h | BB Player User Registration Data Structure
+bbtypes.h | Common types for BB Player software
+ultratypes.h | Standard N64 types from the Official N64 SDK
+
+It also contains `libcryptoX86.a` which is the result of compiling the BBPlayer libcrypto library on X86 hardware and is used for the server code.
+
+The executable `pkgbootrl` is whats called the "Bundle tool" and the source code is located in `rf/sw/bbplayer/tools/crls`.
+
+#### Kits folder - Software Development Kits
+
+The `N64 Sound Tools` folder holds the content distributed to Musicians as an addon to the official N64 SDK.
+
+{% include link-to-other-post.html post="/n64sound" description="You can find out more about the N64 Sound Tools here." %}
+
+The `n64kit` folder partially contains the Japanese version of the N64 Developers Kit Version 5.1 from 2000/02/10. A newer more complete version of this development kit is available on `ultra64.ca` so the contents won't be mentioned here.
+
+{% include link-to-other-post.html post="/n64-sdk" description="For more information about the n64kit view this post." %}
+
+For some reason it only contains the `nusys`, `nustd` and `misc` folders of the n64kit.
+
+---
 #### n64os20I folder - Internal N64 development tools
 This folder contains the final version of the internal N64 development tools from SGI, an earlier version of this content was released as part of the "Oman Archive", so only the changes will be listed here.
 
@@ -124,7 +163,7 @@ In fact this folder comes with two pre-compiled Windows executables:
 
 The source code for these too executables are `test_dec.c` and `test_enc.c` respectively. 
 
-The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by **Paulo Barreto** and **Vincent Rijmen**.
+The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by *Paulo Barreto* and *Vincent Rijmen*.
 
 {% include link-to-other-site-text.html title="AES Reference Implementation" url="https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation" word1="crypt-rijndael" word2="on github" color1="wisteria" color2="midnight" description="You can find the AES Reference implementation code on Github." %}
  
