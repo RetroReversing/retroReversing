@@ -112,10 +112,6 @@ Master files are basically configuration for all the modules on an IRIX system a
 
 ---
 # AS Folder (Algorithm Simulator)
-<div class="css-folder" data-type="doc">
-      <div class="css-paper one" />
-      <div class="css-paper two"/>
-  </div>
 
 The folder called `AS` is at the top level and contains a brief README saying that this folder contains a C program that begins to model the algorithms and functionality of the MSP and MDP (presumably the RSP and RDP).
 
