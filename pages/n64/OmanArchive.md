@@ -59,7 +59,7 @@ Although the file simple called `tmp` looks like a linux directory it is in fact
 
 ## AUD.c
 <section class="postSection">
-    <div class="file-icon file-icon-xl" data-type="c"></div>
+    <div class="file-icon file-icon-xl wow slideInLeft postImage" data-type="c"></div>
 
  <div markdown="1">
   A C-source file that must have been misplaced, not sure exactly where it came from but it was created by SGI in 1994. The same file exists in `TOOLS\EMULATE\AUD.C` so it must have been copied by accident to the top level directory.
