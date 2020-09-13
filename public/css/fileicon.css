@@ -138,6 +138,10 @@
   background: #f4b400;
 }
 
+.file-icon[data-type=c] {
+  background: #2c82bd;
+}
+
 /* C source code */
 a[data-type=c] .file-icon {
   background: #f4b400;
