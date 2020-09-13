@@ -1,0 +1,71 @@
+.css-folder {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFD485;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+}
+.css-folder:before {
+  width: 55px;
+  height: 25px;
+  border-radius: 5px;
+  content: '';
+  background-color: #FFD485;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+}
+.css-folder:after {
+  display: block;
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  content: '';
+  transform: skew(0deg);
+  background-color: #ffe1a8;
+  transition: all .2s;
+}
+.css-folder .css-paper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: whitesmoke;
+  width: 190px;
+  height: 140px;
+  transition: all .2s;
+}
+.css-folder .css-paper.one {
+  background-color: #ffadad;
+}
+.css-folder .css-paper.two {
+  background-color: #ffd6a5;
+}
+.css-folder .css-paper.three {
+  background-color: #fdffb6;
+}
+.css-folder .css-paper.four {
+  background-color: #9bf6ff;
+}
+.css-folder:hover:after {
+  transform: skew(-20deg);
+  margin-left: 25px;
+}
+.css-folder:hover .css-paper:nth-child(1) {
+  transform: rotate(10deg) translate(-80px, -80px);
+}
+.css-folder:hover .css-paper:nth-child(2) {
+  transform: rotate(20deg) translate(-80px, -80px);
+}
+.css-folder:hover .css-paper:nth-child(3) {
+  transform: rotate(30deg) translate(-80px, -80px);
+}
+.css-folder:hover .css-paper:nth-child(4) {
+  transform: rotate(40deg) translate(-80px, -80px);
+}
