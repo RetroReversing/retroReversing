@@ -15,7 +15,9 @@ breadcrumbs:
     url: /n64
   - name: Oman Archive
     url: #
-recommend: n64
+recommend:
+- leak
+- n64
 editlink: /n64/OmanArchive.md
 updatedAt: '2020-05-08'
 twitterimage: https://www.retroreversing.com/public/N64/N64 Oman Archive.jpg
