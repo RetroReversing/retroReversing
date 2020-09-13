@@ -58,7 +58,14 @@ All of the files in the root directory up to and including `N64NOTES.TXT` (9th M
 Although the file simple called `tmp` looks like a linux directory it is in fact an ASCII Text file that is the output of running a directory command on their `E:\oman\DOC` folder.
 
 ## AUD.c
-A C-source file that must have been misplaced, not sure exactly where it came from but it was created by SGI in 1994. The same file exists in `TOOLS\EMULATE\AUD.C` so it must have been copied by accident to the top level directory.
+<section class="postSection">
+    <div class="file-icon file-icon-xl" data-type="c"></div>
+
+ <div markdown="1">
+  A C-source file that must have been misplaced, not sure exactly where it came from but it was created by SGI in 1994. The same file exists in `TOOLS\EMULATE\AUD.C` so it must have been copied by accident to the top level directory.
+ </div>
+</section> 
+
 
 ## docs.zip
 This contains a subset of the files from the `/DOC` folder and they are all identical in contents to those files too. This zip can be ignored and you can go straight to the `/DOC` folder.
