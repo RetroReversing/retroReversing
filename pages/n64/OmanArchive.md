@@ -117,9 +117,6 @@ Master files are basically configuration for all the modules on an IRIX system a
 
  <div markdown="1">
 The folder called `AS` is at the top level and contains a brief README saying that this folder contains a C program that begins to model the algorithms and functionality of the MSP and MDP (presumably the RSP and RDP).
- </div>
-</section> 
-
 
 The Algorithm Simulator was used before the N64 hardware prototype was available to develop on and allowed developers to get a head start on their games.
 
@@ -129,6 +126,12 @@ The folder contains:
 * *.o compiled version of the *.c files
 * *.RGB - Textures
 * *.I - 3D object files
+
+
+ </div>
+</section> 
+
+
 
 ---
 # COSIM Folder (Co-Simulation)
