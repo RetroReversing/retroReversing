@@ -5,7 +5,7 @@ tags:
 - nes
 title: Nintendo Lot Check ROM Leak 
 thumbnail: /public/consoles/Nintendo 64.png
-image: /public/N64/NintendoLotCheck.jpg
+image: /public/images/leaks/Nintendo Lot Check.jpg
 permalink: /nintendo-lot-check
 breadcrumbs:
   - name: Home
@@ -19,10 +19,17 @@ recommend:
 - nes
 editlink: /leaks/NintendoLotCheck.md
 updatedAt: '2020-09-13'
-twitterimage: https://www.retroreversing.com/public/N64/NintendoLotCheck.jpg
+twitterimage: https://www.retroreversing.com/public/images/leaks/Nintendo Lot Check.jpg
 ---
 
+<section class="postSection">
+    <img src="/public/images/leaks/Nintendo Lot Check.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 Since Nintendo controls manufacturing of all official games they have a process called **Lot Check** that ensures the games quality before manufacturing. Every game ever officially released for their platform has had to go through the Lot Check process in order to achieve the Nintendo Seal of Quality.
+ </div>
+</section> 
+
 
 # Lot Check Lists
 In the Pokemon Leak on the 4th of September 2020 a bunch of excel spreadsheets were uploaded into the `/misc` folder, these contained the full list of all games that have gone through the Nintendo Lot Check process for most systems up until the Nintendo DS.
@@ -128,7 +135,7 @@ However there is an occasional game that made it all the way to Lot Check phase 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">News: Unreleased RockBoard Game Boy Port Discovered<a href="https://t.co/6C9WmhkBOA">https://t.co/6C9WmhkBOA</a> <a href="https://t.co/UXizG2448p">pic.twitter.com/UXizG2448p</a></p>&mdash; Brian (@Protodude) <a href="https://twitter.com/Protodude/status/1303703176281980928?ref_src=twsrc%5Etfw">September 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Pokémon Picross (DMGAKVJ0.1)
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Canceled Pokémon Picross Game Boy Color Game Surfaces In Nintendo Leak <a href="https://t.co/A8QS7LTEno">https://t.co/A8QS7LTEno</a></p>&mdash; ⭐ yyoossk𑀳𐨆ۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖۖ ۗۗۗۗۗۗۗۗۗۗ⭐ (@Cloud0835) <a href="https://twitter.com/Cloud0835/status/1304067589400702977?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Canceled Pokémon Picross Game Boy Color Game Surfaces In Nintendo Leak <a href="https://t.co/A8QS7LTEno">https://t.co/A8QS7LTEno</a></p>&mdash; ⭐ yyoossk⭐ (@Cloud0835) <a href="https://twitter.com/Cloud0835/status/1304067589400702977?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 # References
