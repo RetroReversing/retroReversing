@@ -68,7 +68,13 @@ Although the file simple called `tmp` looks like a linux directory it is in fact
 
 
 ## docs.zip
+<section class="postSection">
+    <div class="file-icon file-icon-xl wow slideInLeft postImage" data-type="zip"></div>
+
+ <div markdown="1">
 This contains a subset of the files from the `/DOC` folder and they are all identical in contents to those files too. This zip can be ignored and you can go straight to the `/DOC` folder.
+ </div>
+</section> 
 
 ## INSTD.tar
 This TAR archive contains the N64 SDK version 2.0G (for RCP 2.0) for use on an IRIX Unix machine, to install just copy the 2 folders (var and usr) to the root of your SGI IRIX.
