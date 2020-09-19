@@ -238,7 +238,7 @@ p .language-plaintext, p .language-bash {
 
 .rr-tabs ul.tabs {
 	width: 50vw;
-	height: 80px;
+/* 	height: 80px; */
 	margin: 0 auto;
 	list-style: none;
 	overflow: hidden;
