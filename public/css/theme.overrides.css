@@ -254,7 +254,7 @@ p .language-plaintext, p .language-bash {
 	position: relative;
 	display: block;
 /* 	height: 30px; */
-/* 	margin-top: 40px; */
+	margin-top: 40px;
 	padding: 10px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -302,7 +302,7 @@ border-top-right-radius: 8px;
 }
 
 .rr-tabs ul.tabs li a.active {
-/* 	margin: 30px 0 0 0; */
+	margin: 30px 0 0 0;
 	padding: 10px 0 10px 0;
   background: #ffffff;
 	z-index: 4;
