@@ -65,7 +65,7 @@
           return '<li><a class="'+classnames+'" href="#/'+title+'">'+title+'</a></li>';
         });
         
-        var result_html = li_tabs.toArray().join('/n');
+        var result_html = li_tabs.toArray().join('');
         $(tab_group).prepend('<ul class="tabs group">'+result_html+'</ul>');
 
         var tabs =  $(tab_group).find(".tabs li a");
