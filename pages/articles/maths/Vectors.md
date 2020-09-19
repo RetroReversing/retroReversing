@@ -43,10 +43,12 @@ Functions that you can apply to vectors
 ---
 <div class="rr-tabs" title="group1">
   <div class="rr-tab" title="NintendoDS" default>
+    # Nintendo DS SDK
     The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisVEC.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
   Here are the types it provides to the developer:
   </div>
-  <div class="rr-tab" title="Nintendo64">
+  <div class="rr-tab" markdown="1" title="Nintendo64">
+    # Nintendo 64 SDK
    The Nintendo 64 SDK...
   </div>
 </div>
