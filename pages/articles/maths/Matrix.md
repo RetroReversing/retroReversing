@@ -298,7 +298,3 @@ void MTX44_MultVecArraySR(const Mtx44 *mult, Vec *srcBasep, Vec *dstBasep, u32 c
   </div>
 </div>
 
-
-
-## Nintendo DS Matrix Functions
-
