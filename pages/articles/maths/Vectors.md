@@ -50,8 +50,10 @@ Functions that you can apply to vectors
   
   <div class="rr-tab" title="Nintendo 64">
     <div markdown="1">
+      
     # Nintendo 64 SDK
    The Nintendo 64 SDK...
+   
     </div>
   </div>
 </div>
