@@ -49,10 +49,10 @@ Functions that you can apply to vectors
   </div>
   
   <div class="rr-tab" title="Nintendo 64">
-    <p markdown="1">
+    <div markdown="1">
     # Nintendo 64 SDK
    The Nintendo 64 SDK...
-    </p>
+    </div>
   </div>
 </div>
 
