@@ -41,6 +41,20 @@ Functions that you can apply to vectors
 * Normalise (set length to 1 but keep direction)
 
 ---
+<div class="rr-tabs" title="group1">
+  <div class="rr-tab" markdown="1" title="Nintendo DS" default>
+    The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisVEC.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
+
+Here are the types it provides to the developer:
+  </div>
+  <div class="rr-tab" markdown="1" title="Nintendo 64">
+   The Nintendo 64 SDK...
+  </div>
+</div>
+
+
+
+---
 # Nintendo DS
 The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisVEC.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
