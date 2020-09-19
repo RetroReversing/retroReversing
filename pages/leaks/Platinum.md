@@ -29,8 +29,8 @@ Most notably it contains the source code for Pokemon Platinum, the Wii Startup D
 
 # Files Leaked
 * platinum.7z (2.73GB) - Game Boy Lot Check ROMs, Wii Starup Disc, Pokemon Platinum and DSi source code
-* generic.7z
-* from_nintendo.rar
+* generic.7z (1.82 GB)
+* from_nintendo.rar (1.85GB) - iQue Email dump
 
 ---
 # Contents of Platinum.7z
@@ -439,6 +439,31 @@ When the repository has been checked out it contains the following files and fol
 * readme.txt
 * setup
 * tools
+
+---
+# iQue Email dump - Contents of from_nintendo.rar
+The **from_nintendo.rar** archive contains what looks like an email attachment dump of all the files that Nintendo sent to iQue(?). They are all split by folders depending on what date they were sent from Nintendo and overall it is quite a random bunch of files.
+
+The date folders contained in the archive are:
+* **20090522** - Screenshots of some DS Fatal errors - probably from a debugging email thread
+* **20090525** - A tool called **MessageEditor** version 4.9.6.1
+* **20090630** - Spreadsheets (XLS) about how the DSiShop works
+* **20090703** - Contains TWL-ManualTools
+* **20090707** - Archives with Chinese names (Something to do with WiiSports)
+* **20090713** - Wii Tech specs and some sort of Dog show game
+* **20090715** - DSiWare Wario information for a translation into Chinese (contains ROMs in TAD format)
+* **20090730** - MotionPlus Movie Player
+* **20090807** - Translation information for Dr Mario (Spreadsheets)
+* **20090824** - Contains WiiFit design Docs (TWN_ExtraBalance_090824) and TWL-ManualTools 3.1
+* **20090825** - Some notes about which Dr Mario ROM to use and a file called **health_message.gmm** which has something to do with WiiFit
+* **20091021** - Info about DSi apps Solitare and Clock/Calculator
+* **20091023** - PhotoBooth Sound files? (Love Girlys?!)
+* **20091028** - contains **EAD-00960_NintenDOG_C_NoBGM_091027.exe**
+* **20091030** - contains spreadsheets of the staff credits for each region
+* **20091102** - contains some .wav sound files
+* **20091105** - contains **5bpA-5ciA** around 20 titles for iQue DS (cls and tad files)
+* **20091109** - contains **clocks_rom_header.zip** - rom header templates
+* **20091111** - DS TAD ROM of shop? for checking version upgrade
 
 ---
 # References
