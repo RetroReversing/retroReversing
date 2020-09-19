@@ -6,8 +6,8 @@ tags:
 - sourcecode
 title: Nintendo Platinum Leak  
 thumbnail: /public/consoles/Nintendo 64.png
-image: /public/N64/Platinumleak.jpg
-permalink: /gigaleak
+image: /public/images/leaks/PlatinumLeak.jpg
+permalink: /platinumleak
 breadcrumbs:
   - name: Home
     url: /
@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: leaks
 editlink: /leaks/Platinum.md
-twitterimage: https://www.retroreversing.com/public/N64/Platinumleak.jpg
+twitterimage: https://www.retroreversing.com/public/images/leaks/PlatinumLeak.jpg
 ---
 
 The Platinum leak occurred on the 9th of September 2020 and included gigabytes of content, hence why some call it GigaLeak 3.
