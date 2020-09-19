@@ -66,7 +66,7 @@
           if (isdefault) {
             classnames = "active"
           }
-          var href_title=replaceAll(title,' ','');
+          var href_title=replaceAll(title,' ','___');
           return '<li><a class="'+classnames+'" href="#/'+href_title+'">'+title+'</a></li>';
         });
         
@@ -83,7 +83,7 @@
           tabs.removeClass("active");
           $(this).addClass("active");
           $(tab_group).find('.rr-tab').hide();
-          var href_content=replaceAll(content,' ','');
+          var href_content=replaceAll(content,'___',' ');
 
           $('div[title|="'+href_content+'"]').show();
         });
