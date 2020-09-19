@@ -48,6 +48,42 @@
       setTimeout(lazyLoad, 1000);
 
     });
+    
+    function handle_tab_groups() {
+      var rr_tab_groups = $(".rr-tabs");
+
+      rr_tab_groups.each(function loop_tab_group(index, tab_group) {
+        var rr_tabs = $(tab_group).find('.rr-tab');
+
+        var li_tabs = rr_tabs.map(function mapTabsToHeaders(i,v) {
+          var title = $(v).attr('title'); 
+          var isdefault = $(v).attr('default') === "";
+          var classnames = "";
+          if (isdefault) {
+            classnames = "active"
+          }
+          return '<li><a class="'+classnames+'" href="#/'+title+'">'+title+'</a></li>';
+        });
+        
+        var result_html = li_tabs.toArray().join('/n');
+        $(tab_group).prepend('<ul class="tabs group">'+result_html+'</ul>');
+
+        var tabs =  $(tab_group).find(".tabs li a");
+
+        $(tab_group).find('div').hide();
+        $(tab_group).find('div[default]').show();
+
+        tabs.click(function() {
+          var content = this.hash.replace('/','').replace('#','');
+          tabs.removeClass("active");
+          $(this).addClass("active");
+          $(tab_group).find('div').hide();
+
+          $('div[title|="'+content+'"]').show();
+        });
+
+      });
+    }
 
     function lazyLoad() {
       var card_images = document.querySelectorAll('.lazy-load');
@@ -72,6 +108,10 @@
       });
 
     }
+    
+    (function($) {
+      handle_tab_groups();
+    })(jQuery);
     
     
     (function($) {
