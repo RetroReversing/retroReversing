@@ -40,31 +40,17 @@ Functions that you can apply to vectors
 * Linearly interpolates between two points (Lerp)
 * Normalise (set length to 1 but keep direction)
 
----
-<div class="rr-tabs" title="group1">
-  <div class="rr-tab" title="Nintendo DS" default>
-<div markdown="1">
-# Nintendo DS SDK
-The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisVEC.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
-Here are the types it provides to the developer:
-</div>
-</div>
-  
-  <div class="rr-tab" title="Nintendo 64">
-<div markdown="1">
-# Nintendo 64 SDK
-The Nintendo 64 SDK 
-</div>
-  </div>
-</div>
-
 
 
 ---
 # Nintendo DS
 The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisVEC.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
+<div class="rr-tabs" title="group1">
+  <div class="rr-tab" title="Types" default>
+<div markdown="1">
 Here are the types it provides to the developer:
+
 ```c
 #define vl volatile
 
@@ -99,7 +85,13 @@ typedef  vl Pos32     vPos32;
 typedef  vl Pos       vPos;
 ```
 
+</div>
+</div>
+  
+  <div class="rr-tab" title="Functions">
+<div markdown="1">
 Here are a few of the functions it provides:
+
 ```c
 void VEC_Copy2Vec10(const Vec   *srcp, Vec10 *dstp);
 void VEC_Copy2Vec32(const Vec   *srcp, Vec32 *dstp);
@@ -142,3 +134,11 @@ void VEC_Lerp(Vec *a, Vec *b, Vec *d, s32 t);
 void VEC32_Lerp(Vec32 *a, Vec32 *b, Vec32 *d, s32 t);
 void VEC32_LerpFast(Vec32 *a, Vec32 *b, Vec32 *d, s32 t);
 ```
+
+</div>
+  </div>
+</div>
+
+
+
+
