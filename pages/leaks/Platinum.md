@@ -23,10 +23,12 @@ updatedAt: '2020-09-19'
 
 The Platinum leak occurred on the 9th of September 2020 and included gigabytes of content, hence why some call it GigaLeak 3.
 
+{% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
+
 Most notably it contains the source code for Pokemon Platinum, the Wii Startup Disc and a ton of previously un released Game Boy and Game Boy Color ROMS from the Nintendo Lot Check process.
 
 # Files Leaked
-* platinum.7z (2.73GB) 
+* platinum.7z (2.73GB) - Game Boy Lot Check ROMs, Wii Starup Disc, Pokemon Platinum and DSi source code
 * generic.7z
 * from_nintendo.rar
 
@@ -55,10 +57,10 @@ The Disc was only needed to run once, sort of like installing an Operating Syste
 
 ## Contents of 20090512.rar
 The archive contains the following files
-* main_cn41v2_2009-0508-1945.zip - Main Channel GCM file
-* photo_090508_CHN_FINAL.zip - Final Version of the Wii photo Channel WAD file
-* sample_channel_for_CK_20090511.zip - Dummy channels with debugging info
-* startupdisc_changeLog.txt - Developer Change log in Japanese
+* **main_cn41v2_2009-0508-1945.zip** - Main Channel GCM file
+* **photo_090508_CHN_FINAL.zip** - Final Version of the Wii photo Channel WAD file
+* **sample_channel_for_CK_20090511.zip** - Dummy channels with debugging info
+* **startupdisc_changeLog.txt** - Developer Change log in Japanese
 
 ## Main Channel GCM File (main_cn41v2_2009-0508-1945.gcm)
 A GCM file is a basically a Game Cube ISO Image, so a file with all the contents of a physical Game Cube/Wii disc. The **main_cn41v2_2009-0508-1945.gcm** file is the first revision of the Wii Startup Disc and can be loaded into Dolphin with a couple of byte changes.
@@ -82,13 +84,13 @@ When you checkout the repository you will get the following files:
 * **AGBモニタ履歴.txt** - Change log for GBA / AGB2 monitor program
 * **IrisMainp** - Source code for DS (Iris) Main processor boot ROM (ARM9)
 * **IrisSubp** - Source code for DS (Iris) Subprocessor boot ROM (ARM7)
-* NitroAgbMonTS1_040304.bin - GBA Boot rom for DS
-* NitroMainpMonTS1_040304.bin - Main DS Boot rom
-* NitroMainpMonTS1_040304.map - Linker Map for Main DS Boot rom
-* NitroMonCheckSumTS1_040304.txt - Check sum's for the DS Boot roms located in this folder
-* NitroSubpMonTS1_040304.bin - Subprocessor DS Boot rom
-* NitroSubpMonTS1_040304.map - Linker Map for Subprocess DS Boot rom
-* doc - documentation in Japanese
+* **NitroAgbMonTS1_040304.bin** - GBA Boot rom for DS
+* **NitroMainpMonTS1_040304.bin** - Main DS Boot rom
+* **NitroMainpMonTS1_040304.map** - Linker Map for Main DS Boot rom
+* **NitroMonCheckSumTS1_040304.txt** - Check sum's for the DS Boot roms located in this folder
+* **NitroSubpMonTS1_040304.bin** - Subprocessor DS Boot rom
+* **NitroSubpMonTS1_040304.map** - Linker Map for Subprocess DS Boot rom
+* **doc** - Documentation in Japanese
 
 Note that Iris was the codename for the Nintendo Ds while in early development, it was later changed to Nitro [^2]. 
 
@@ -354,13 +356,13 @@ When you check out the SVN repository you get the following folders:
 * build - source code for all the tools
 * docs - documentation for some of the tools
 * include - empty folder
-* tests - contains 2 tests, one if a font viewer for DS, the other are roms for testing the Master Editor
+* tests - contains 2 tests, one if a font viewer for DS, the other are ROMs for testing the Master Editor
 * tools - Windows installers for the compiled tools
 
 ### Build (TwlToolsRED/build)
 Contains the source code for the following tools:
 * A9Ovl_Chk - Delphi/pascal project to check ARM9 overlay in rom?
-* AccessLogConverter - Perl script to conver access log format
+* AccessLogConverter - Perl script to convert access log format
 * BannerForcefulInserter - Forcefully inserts a Banner into an SRL ROM
 * CardToSD - DS tool to Dump Game Cartridge to SD card
 * ChinaKorea - empty folder
