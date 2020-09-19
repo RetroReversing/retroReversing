@@ -51,7 +51,7 @@ This is an excellent video which covers how to write your own Quaternion library
 The Nintendo DS Operating System has a small Quaternion helper library defined in the header file **IrisQUAT.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
 <div class="rr-tabs" title="group1">
-  <div class="rr-tab" markdown="1" title="Types" default>
+  <div class="rr-tab" title="Types" default>
     <div  markdown="1" >
 Here are the types it provides to the developer:
       
