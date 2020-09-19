@@ -52,7 +52,7 @@ The Nintendo DS Operating System has a small Quaternion helper library defined i
 
 <div class="rr-tabs" title="group1">
   <div class="rr-tab" title="Types" default>
-    <div  markdown="1" >
+    <div markdown="1" >
 Here are the types it provides to the developer:
       
 ```c
