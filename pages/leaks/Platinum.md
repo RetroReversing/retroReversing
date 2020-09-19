@@ -18,6 +18,7 @@ breadcrumbs:
 recommend: leaks
 editlink: /leaks/Platinum.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/PlatinumLeak.jpg
+updatedAt: '2020-09-19'
 ---
 
 The Platinum leak occurred on the 9th of September 2020 and included gigabytes of content, hence why some call it GigaLeak 3.
