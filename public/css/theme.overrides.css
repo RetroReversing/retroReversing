@@ -274,6 +274,7 @@ p .language-plaintext, p .language-bash {
         -ms-transition: padding 0.2s ease, margin 0.2s ease;
             transition: padding 0.2s ease, margin 0.2s ease;
 }
+
 .rr-tabs .tabs li:first-child a {
 	z-index: 3;
   -webkit-border-top-left-radius: 8px;
@@ -296,7 +297,7 @@ border-top-right-radius: 8px;
 }
 
 .rr-tabs ul.tabs li a:hover {
-/* 	margin: 35px 0 0 0; */
+ 	margin: 35px 0 0 0; 
 	padding: 10px 0 5px 0;
 }
 
