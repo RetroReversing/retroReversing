@@ -43,8 +43,11 @@ A Vector is basically a Matrix with just 1 row, you can find out more about Vect
 # Nintendo DS
 The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisMTX.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
-## Nintendo DS Matrix Types
+<div class="rr-tabs" title="group1">
+  <div class="rr-tab" markdown="1" title="Types" default>
+    <div  markdown="1" >
 Here are the types it provides to the developer:
+
 ```c
 typedef s32 MtxRow3_t[3];
 typedef struct {
@@ -58,7 +61,6 @@ typedef vl MtxRow    vMtxRow;
 typedef vl MtxRow3   vMtxRow3;
 typedef vl Mtx33Row  vMtx33Row;
 
-// 4要素の行
 typedef s32 MtxRow4_t[4];
 typedef struct {
     MtxRow4_t r;
@@ -69,21 +71,18 @@ typedef MtxRow4   Mtx44Row;
 typedef vl MtxRow4   vMtxRow4;
 typedef vl Mtx44Row  vMtx44Row;
 
-// 4x3行列
 typedef s32 Mtx_t[4][3];
 typedef union {
     Mtx_t m;
 } Mtx;
 typedef  vl Mtx   vMtx;
 
-// 3x3行列
 typedef s32 Mtx33_t[3][3];
 typedef union {
     Mtx33_t m;
 } Mtx33;
 typedef  vl Mtx33   vMtx33;
 
-// 4x4行列
 // used for projection matrix
 typedef s32 Mtx44_t[4][4];
 typedef union {
@@ -92,8 +91,13 @@ typedef union {
 typedef  vl Mtx44   vMtx44;
 ```
 
-## Nintendo DS Matrix Functions
-Here are a few of the functions it provides:
+</div>
+  </div>
+
+  <div class="rr-tab" title="Functions">
+<div  markdown="1" >
+Here are a all of the functions it provides:
+  
 ```c
 
 void MTX_Identity(Mtx *dstp);
@@ -288,3 +292,12 @@ void MTX44_MultVecSR(const Mtx44 *mult, Vec *srcp, Vec *dstp);
 void MTX_MultVecArraySR(  const Mtx   *mult, Vec *srcBasep, Vec *dstBasep, u32 count);
 void MTX44_MultVecArraySR(const Mtx44 *mult, Vec *srcBasep, Vec *dstBasep, u32 count);
 ```
+
+</div>
+  </div>
+</div>
+
+
+
+## Nintendo DS Matrix Functions
+
