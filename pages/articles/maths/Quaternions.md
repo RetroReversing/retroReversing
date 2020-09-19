@@ -50,8 +50,11 @@ This is an excellent video which covers how to write your own Quaternion library
 # Nintendo DS
 The Nintendo DS Operating System has a small Quaternion helper library defined in the header file **IrisQUAT.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
-## Nintendo DS Quaternion Types
+<div class="rr-tabs" title="group1">
+  <div class="rr-tab" markdown="1" title="Types" default>
+    <div  markdown="1" >
 Here are the types it provides to the developer:
+      
 ```c
 // 16-bit
 typedef struct {
@@ -71,11 +74,15 @@ typedef struct {
     s32 w;
 } Quat32;
 typedef  vl Quat32    vQuat32;
-
 ```
 
-## Nintendo DS Quaternion Functions
-Here are a few of the functions it provides:
+</div>
+  </div>
+
+  <div class="rr-tab" title="Functions">
+<div  markdown="1" >
+Here are all of the functions it provides:
+  
 ```c
 #define VEC_Conv2Quat(axisp, theta, dstp)     VEC_Conv2QuatPriv(SIN_NDIV_DEFAULT, axisp, theta, dstp)
 
@@ -106,3 +113,8 @@ void QUAT_Lerp( Quat *p, Quat *q, Quat *d, s32 t);
 
 void QUAT_Slerp(Quat *p, Quat *q, Quat *d, s32 t);
 ```
+
+</div>
+  </div>
+</div>
+
