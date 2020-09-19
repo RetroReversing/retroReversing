@@ -44,8 +44,9 @@ A Vector is basically a Matrix with just 1 row, you can find out more about Vect
 The Nintendo DS Operating System has a basic Matrix library defined by the header file **IrisMTX.h**. This file was leaked as part of the September 2020 "Platinum leak" as it is part of the Nintendo DS Boot ROM.
 
 <div class="rr-tabs" title="group1">
-  <div class="rr-tab" markdown="1" title="Types" default>
-    <div  markdown="1" >
+  <div class="rr-tab" title="Types" default>
+
+<div  markdown="1" >
 Here are the types it provides to the developer:
 
 ```c
