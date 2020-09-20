@@ -57,6 +57,7 @@ The folders are:
 * **20110922** - Contains a debug version of Knife (**SPD-05577_KQ9J_DEBUG_2011_0915_1547.tad**) and debug documentation for it
 
 ## DsiWare Titles included
+The DSiWare included in both **20090722** and **20090925** folders are listed in the table below along with their name in both Japanese and English.
 
 FileName | DsiWare Name
 ---|---
