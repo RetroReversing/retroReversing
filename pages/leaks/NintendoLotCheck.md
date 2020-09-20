@@ -479,6 +479,13 @@ Yu-Gi-Oh (FR).gbc | Never released in France
 ## Pokémon Picross (DMGAKVJ0.1)
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Canceled Pokémon Picross Game Boy Color Game Surfaces In Nintendo Leak <a href="https://t.co/A8QS7LTEno">https://t.co/A8QS7LTEno</a></p>&mdash; ⭐ yyoossk⭐ (@Cloud0835) <a href="https://twitter.com/Cloud0835/status/1304067589400702977?ref_src=twsrc%5Etfw">September 10, 2020</a></blockquote>  
 
+---
+# Nintendo DSi
+While not quite a Lot Check release, you might also be interested in the **DSiWareROM.rar** archive from the Platinum leak as it contains a ton of DSiWare ROMS in **TAD** format. 
+
+These were sent to iQue for localisation for the Chinese market and were presumably taken from the Lot Check archive by Nintendo SPD.
+
+{% include link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
 
 ---
 # References
