@@ -15,7 +15,9 @@ breadcrumbs:
     url: /leaks
   - name: Nintendo DsiWare Leak 
     url: #
-recommend: leaks
+recommend: 
+- leak
+- ds
 editlink: /leaks/DsiWare.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/DsiWareLeak.jpg
 updatedAt: '2020-09-20'
@@ -25,8 +27,9 @@ As part of the Platinum Leak on the 9th of September 2020 a ton of DsiWare title
 
 {% include link-to-other-post.html post="/platinumleak" description="For more information on the rest of the Platinum check out this post." %}
 
-## DSIWare ROMS (DSiWareROM.rar)
+The Platinum leak contained an archive called **generic.7z** it is inside this that you will find the **DSiWareROM.rar** archive covered in this post
 
+# DSIWare ROMS (DSiWareROM.rar)
 The **DSiWareROM.rar** archive contains a ton of DSiWare ROMS in **TAD** format. The repository is split into folders based on the date, presumably from when Nintendo sent the data to iQue.
 
 Apparently **TAD** files are DSIWare applications that have been exported to the SD card [^1].
@@ -53,13 +56,13 @@ The folders are:
 * **20100930** - Contains Karuta
 * **20110922** - Contains a debug version of Knife (**SPD-05577_KQ9J_DEBUG_2011_0915_1547.tad**) and debug documentation for it
 
-### DsiWare Titles included
+## DsiWare Titles included
 
 FileName | DsiWare Name
 ---|---
 KAAJ_SPD-02799.tad | AQUARIO (Art Style シリーズ)
 KADJ_SPD-02799.tad | DECODE (Art Style シリーズ)
-KAGJ_SPD-02808.tad | あつめる笑顔帳 (Collecting smile books)
+KAGJ_SPD-02808.tad | あつめる笑顔帳 (Collecting smile books?!)
 KAHJ_SPD-02799.tad | HACOLIFE (Art Style シリーズ)
 KAKJ_SPD-02799.tad | nalaku (Art Style シリーズ)
 KAPJ_SPD-02799.tad | PiCOPiCT (Art Style シリーズ)
@@ -73,72 +76,111 @@ KDNJ_NWD-00151.tad | ほぼ日路線図 2009 (Hobonichi Route Map 2009)
 KE3J_SPD-02799.tad | あそべる絵本　マインドテン (Picture book to play with Mind Ten)
 KEAJ_SPD-02817.tad | エレクトロプランクトン　トレーピー (Electroplankton trappy)
 KEBJ_SPD-02817.tad | エレクトロプランクトン　ハネンボン (Electroplankton Hanenbon)
-KECJ_SPD-02817.tad | 
-KEDJ_SPD-02817.tad | 
-KEEJ_SPD-02817.tad | 
-KEFJ_SPD-02817.tad | 
-KEGJ_SPD-02817.tad | 
-KEHJ_SPD-02817.tad | 
-KEIJ_SPD-02817.tad | 
-KEJJ_SPD-02817.tad | 
-KGBJ_SPD-02803.tad | 
-KGCJ_SPD-02803.tad | 
-KGDJ_SPD-02803.tad | 
-KGFJ_SPD-02803.tad | 
-KGGJ_SPD-02803.tad | 
-KGHJ_SPD-02803.tad | 
-KGJJ_SPD-02803.tad | 
-KGMJ_SPD-02803.tad | 
-KGVJ_SPD-02803.tad | 
-KHDJ_SPD-02803.tad | 
-KJEJ_SPD-02807.tad | 
-KK4J_SPD-02816.tad | 
-KKDJ_SPD-02803.tad | 
-KM9J_SPD-02817.tad | 
-KMDJ_SPD-02817.tad | 
-KMFJ_SPD-02817.tad | 
-KMIJ_SPD-02817.tad | 
-KMNJ_SPD-02817.tad | 
-KMSJ_SPD-02817.tad | 
-KN9J_SPD-02807.tad | 
-KNDJ_SPD-02807.tad | 
-KNKJ_SPD-02803.tad | 
-KNRJ_SPD-02807.tad | 
-KPNJ_SPD-02803.tad | 
-KQ6J_SPD-02803.tad | 
-KR2J_NWD-00151.tad | 
-KRIJ_NWD-00151.tad | 
-KSEJ_SPD-02807.tad | 
-KSLJ_SPD-02807.tad | 
-KSUJ_SPD-02816.tad | 
-KTBJ_SPD-02816.tad | 
-KTPJ_SPD-02816.tad | 
-KTRJ_SPD-02816.tad | 
-KUWJ_SPD-02808.tad | 
-KWBJ_SPD-02807.tad | 
-KWCJ_SPD-02807.tad | 
-KWDJ_SPD-02807.tad | 
-KWFJ_SPD-02807.tad | 
-KWGJ_SPD-02807.tad | 
-KX7J_SPD-02803.tad | 
-K59J_SPD-03093.tad | 
-KA2E_SPD-03100.tad | 
-KAIE_SPD-03100.tad | 
-KCDJ_SPD-03107.tad | 
-KCHJ_SPD-03097.tad | 
-KDMJ_SPD-03100.tad | 
-KMTJ_SPD-03097.tad | 
-KMZJ_SPD-03107.tad | 
-KOAJ_SPD-03097.tad | 
-KOBJ_SPD-03097.tad | 
-KOCJ_SPD-03097.tad | 
-KODJ_SPD-03097.tad | 
-KOEJ_SPD-03097.tad | 
-KPTJ_SPD-03100.tad | 
-KSPJ_SPD-03100.tad | 
-KTUJ_SPD-03097.tad | 
+KECJ_SPD-02817.tad | エレクトロプランクトン　ルミナリアン (Electroplankton Luminarian)
+KEDJ_SPD-02817.tad | エレクトロプランクトン　タイヨウチュウ (Electroplankton Heliozoa)
+KEEJ_SPD-02817.tad | エレクトロプランクトン　レックレック (Electroplankton Reclek)
+KEFJ_SPD-02817.tad | エレクトロプランクトン　ナノカープ (Electroplankton nanocarp)
+KEGJ_SPD-02817.tad | エレクトロプランクトン　ヒカリノワ (Electroplankton Hikarinova)
+KEHJ_SPD-02817.tad | エレクトロプランクトン　マリンスノー (Electroplankton marine snow)
+KEIJ_SPD-02817.tad | エレクトロプランクトン　ツリガネムシ (Electroplankton Vorticella)
+KEJJ_SPD-02817.tad | エレクトロプランクトン　ボルボイス (Electroplankton Volvois)
+KGBJ_SPD-02803.tad | ゲーム＆ウオッチ ボール (Games & Watch Balls)
+KGCJ_SPD-02803.tad | ゲーム＆ウオッチ シェフ (Game & Watch Chef)
+KGDJ_SPD-02803.tad | ゲーム＆ウオッチ ドンキーコングJR. (Game&Watch DONKEY KONG JR.)
+KGFJ_SPD-02803.tad | ゲーム＆ウオッチ マリオズセメントファクトリー (Game&Watch MARIO'S Cement Factory)
+KGGJ_SPD-02803.tad | ゲーム＆ウオッチ フラッグマン (Game&Watch FLAGMAN)
+KGHJ_SPD-02803.tad | ゲーム＆ウオッチ ヘルメット(Game&Watch HELMET)
+KGJJ_SPD-02803.tad | ゲーム＆ウオッチ ジャッジ (Game&Watch JUDGE)
+KGMJ_SPD-02803.tad | ゲーム＆ウオッチ マンホール (Game&Watch MANHOLE)
+KGVJ_SPD-02803.tad | ゲーム＆ウオッチ バーミン (Game&Watch VERMIN)
+KHDJ_SPD-02803.tad | いつでもプリクラ☆キラデコプレミアム (Anytime Purikura ☆ Kiradeco Premium)
+KJEJ_SPD-02807.tad | リズムで鍛える新しいえいご漬け　ネイティブ会話編 (New English Training)
+KK4J_SPD-02816.tad | 囲んで消して ワクグミの時間  (Wakugumi: Monochrome Puzzle)
+KKDJ_SPD-02803.tad | がんばる私のおさいふ応援団 (Household account book)
+KM9J_SPD-02817.tad | ちょっとマジック大全 恐ろしい数字 (A Little Bit of... Magic Made Fun: Deep Psyche)
+KMDJ_SPD-02817.tad | ちょっとマジック大全 デート占い (A Little Bit of… Magic Made Fun: Matchmaker)
+KMFJ_SPD-02817.tad | ちょっとマジック大全 ファニーフェイス (A Little Bit of... Magic Made Fun: Funny Face)
+KMIJ_SPD-02817.tad | ちょっとマジック大全 スキ·キライ発見器 (A Little Bit of… Magic Made Fun: Mind Probe)
+KMNJ_SPD-02817.tad | ちょっとマジック大全 念写カメラ (A Little Bit of… Magic Made Fun: Psychic Camera)
+KMSJ_SPD-02817.tad | ちょっとマジック大全 3つのシャッフルゲーム(A Little Bit of... Magic Made Fun: Shuffle Games)
+KN9J_SPD-02807.tad | ちょっと脳を鍛える大人のDSiトレーニング 数独編 (Brain Age Express: Sudoku)
+KNDJ_SPD-02807.tad | ちょっと脳を鍛える大人のDSiトレーニング 文系編 (Brain Age Express: Arts & Letters)
+KNKJ_SPD-02803.tad | 井出洋介の健康麻将DSi (Yosuke Ide's Health Asahi DSi)
+KNRJ_SPD-02807.tad | ちょっと脳を鍛える大人のDSiトレーニング 理系編 (Brain Age Express: Math)
+KPNJ_SPD-02803.tad | ちょっとパネルでポン (Puzzle League Express)
+KQ6J_SPD-02803.tad | くるくるアクション くるパチ６ (Spin 6)
+KR2J_NWD-00151.tad | ポケットるるぶ京都 (Pocket Rurubu Kyoto)
+KRIJ_NWD-00151.tad | ポケットるるぶ東京 (Pocket Rurubu Tokyo)
+KSEJ_SPD-02807.tad | リズムで鍛える新しいえいご漬け　やさしい会話編 (New English Training)
+KSLJ_SPD-02807.tad | ソリティアDSi (Touch Solitaire)
+KSUJ_SPD-02816.tad | ちょっと数陣タイセン (Number Battle)
+KTBJ_SPD-02816.tad | ちょっとアソビ大全 おなじみテーブル (A Little Bit of... All-Time Classics: Strategy Games)
+KTPJ_SPD-02816.tad | ちょっとアソビ大全 おてがるトランプ (A Little Bit of... All-Time Classics: Family Games)
+KTRJ_SPD-02816.tad | ちょっとアソビ大全 じっくりトランプ (A Little Bit of... All-Time Classics: Card Classics)
+KUWJ_SPD-02808.tad | うつすメイドインワリオ (WarioWare: Snapped!)
+KWBJ_SPD-02807.tad | ニンテンドーDSi時計 ファミコンマリオタイプ (Mario Clock)
+KWCJ_SPD-02807.tad | ニンテンドーDSi時計 どうぶつの森タイプ (Animal Crossing Clock)
+KWDJ_SPD-02807.tad | ニンテンドーDSi時計 フォトスタンドタイプ (Photo Clock)
+KWFJ_SPD-02807.tad | ニンテンドーDSi電卓 ファミコンマリオタイプ (Mario Calculator)
+KWGJ_SPD-02807.tad | ニンテンドーDSi電卓 どうぶつの森タイプ (Animal Crossing Calculator)
+KX7J_SPD-02803.tad | パズルいろいろ　月刊クロスワードハウス　Vol.1 (Various puzzles Monthly Crossword House Vol.1)
+K59J_SPD-03093.tad | あぁ無情 刹那 (Metal Torrent)
+KA2E_SPD-03100.tad | Art Academy: Second Semester (European ROM)
+KAIE_SPD-03100.tad | Art Academy: First Semester (European ROM)
+KCDJ_SPD-03107.tad | Word
+KCHJ_SPD-03097.tad | カードヒーロー スピードバトルカスタム (Card Hero Speed Battle Custom)
+KDMJ_SPD-03100.tad | Minis (Mario vs. Donkey Kong: Minis March Again!)
+KMTJ_SPD-03097.tad | ニンテンドーDSi メトロノーム (Nintendo DSi Metronome)
+KMZJ_SPD-03107.tad | 睡眠記録 めざまし時計 (Sleep Clock)
+KOAJ_SPD-03097.tad | 今日からはじめるフェイスニング顔トレミニ①すっきり小顔コース (Face training)
+KOBJ_SPD-03097.tad | 今日からはじめるフェイスニング顔トレミニ②ステキな笑顔コース (Face training 2)
+KOCJ_SPD-03097.tad | 今日からはじめるフェイスニング顔トレミニ③若々しい顔コース (Face training 3)
+KODJ_SPD-03097.tad | 今日からはじめるフェイスニング顔トレミニ④目と口の健康コース (Face training 4)
+KOEJ_SPD-03097.tad | 今日からはじめるフェイスニング顔トレミニ⑤顔のリフレッシュコース (Face Training 5)
+KPTJ_SPD-03100.tad | パネル連結　３分ロケット (Pata)
+KSPJ_SPD-03100.tad | ねらってスポっと！ (Spot!)
+KTUJ_SPD-03097.tad | ニンテンドーDSi 楽器チューナー (Nintendo DSi Instrument Tuner)
+
+---
+# Electroplankton Series (エレクトロプランクトン)
+In the list above you will notice a lot of games in the Electroplankton series, Electroplankton was originally a DS game and then split up into sub-games and sold on the DSi Store for 200 points each [^3].
+
+The ID for the games all start with **KE** then the letter of the sub-game from **A** to **J** and finally followed by the region, for the leak they are all Japanese so have the letter **J**.
+
+The ROMs leaked for Electroplankton are:
+* KEAJ_SPD-02817.tad - エレクトロプランクトン　トレーピー (Electroplankton trappy)
+* KEBJ_SPD-02817.tad - エレクトロプランクトン　ハネンボン (Electroplankton Hanenbon)
+* KECJ_SPD-02817.tad - エレクトロプランクトン　ルミナリアン (Electroplankton Luminarian)
+* KEDJ_SPD-02817.tad - エレクトロプランクトン　タイヨウチュウ (Electroplankton Heliozoa)
+* KEEJ_SPD-02817.tad - エレクトロプランクトン　レックレック (Electroplankton Reclek)
+* KEFJ_SPD-02817.tad - エレクトロプランクトン　ナノカープ (Electroplankton nanocarp)
+* KEGJ_SPD-02817.tad - エレクトロプランクトン　ヒカリノワ (Electroplankton Hikarinova)
+* KEHJ_SPD-02817.tad - エレクトロプランクトン　マリンスノー (Electroplankton marine snow)
+* KEIJ_SPD-02817.tad - エレクトロプランクトン　ツリガネムシ (Electroplankton Vorticella)
+* KEJJ_SPD-02817.tad - エレクトロプランクトン　ボルボイス (Electroplankton Volvois)
+
+---
+# Game & Watch Series (ゲーム＆ウオッチ)
+Nintendo released remakes of some of their classic Game & Watch handheld systems as downloadable DSiWare available for both the DSi and 3DS.
+
+The ID for the games all start with **KG** followed by the letter of the individual game and watch game, the letters represent the first letter of the game, e.g **B** for Balls and **V** for Vermin, so not all Letters are used.
+
+---
+# Art Academy Series (Art Style シリーズ)
+The ROMs leaked in the Art Academy Series are:
+* KA2E_SPD-03100.tad - Art Academy: Second Semester (European ROM)
+* KAIE_SPD-03100.tad - Art Academy: First Semester (European ROM)
+* KAAJ_SPD-02799.tad - AQUARIO (Art Style シリーズ)
+* KADJ_SPD-02799.tad - DECODE (Art Style シリーズ)
+* KAGJ_SPD-02808.tad - あつめる笑顔帳 (Collecting smile books?!)
+* KAHJ_SPD-02799.tad - HACOLIFE (Art Style シリーズ)
+* KAKJ_SPD-02799.tad - nalaku (Art Style シリーズ)
+* KAPJ_SPD-02799.tad - PiCOPiCT (Art Style シリーズ)
+* KASJ_SPD-02799.tad - SOMNIUM (Art Style シリーズ)
+* KAVJ_SPD-02799.tad - DIGIDRIVE (Art Style シリーズ)
 
 ---
 # References
-[^1]: [DSi CID Discovered | Next Generation Emulation](https://www.ngemu.com/threads/dsi-cid-discovered.169257/)
+[^1]: [DSi CID Discovered - Next Generation Emulation](https://www.ngemu.com/threads/dsi-cid-discovered.169257/)
 [^2]: [Nintendo Software Planning & Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Software_Planning_%26_Development)
+[^3]: [Electroplankton - Wikipedia](https://en.wikipedia.org/wiki/Electroplankton)
