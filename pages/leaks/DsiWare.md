@@ -29,7 +29,7 @@ As part of the Platinum Leak on the 9th of September 2020 a ton of DsiWare title
 
 The Platinum leak contained an archive called **generic.7z** it is inside this that you will find the **DSiWareROM.rar** archive covered in this post
 
-# DSIWare ROMS (DSiWareROM.rar)
+# DSiWare ROMS (DSiWareROM.rar)
 The **DSiWareROM.rar** archive contains a ton of DSiWare ROMS in **TAD** format. The repository is split into folders based on the date, presumably from when Nintendo sent the data to iQue.
 
 Apparently **TAD** files are DSIWare applications that have been exported to the SD card [^1].
@@ -56,10 +56,10 @@ The folders are:
 * **20100930** - Contains Karuta
 * **20110922** - Contains a debug version of Knife (**SPD-05577_KQ9J_DEBUG_2011_0915_1547.tad**) and debug documentation for it
 
-## DsiWare Titles included
+## DSiWare Titles included
 The DSiWare included in both **20090722** and **20090925** folders are listed in the table below along with their name in both Japanese and English.
 
-FileName | DsiWare Name
+FileName | DSiWare Name
 ---|---
 KAAJ_SPD-02799.tad | AQUARIO (Art Style シリーズ)
 KADJ_SPD-02799.tad | DECODE (Art Style シリーズ)
@@ -165,6 +165,17 @@ The ROMs leaked for Electroplankton are:
 Nintendo released remakes of some of their classic Game & Watch handheld systems as downloadable DSiWare available for both the DSi and 3DS.
 
 The ID for the games all start with **KG** followed by the letter of the individual game and watch game, the letters represent the first letter of the game, e.g **B** for Balls and **V** for Vermin, so not all Letters are used.
+
+The ROMs leaked in the Game & Watch series are:
+* KGBJ_SPD-02803.tad - ゲーム＆ウオッチ ボール (Games & Watch Balls)
+* KGCJ_SPD-02803.tad - ゲーム＆ウオッチ シェフ (Game & Watch Chef)
+* KGDJ_SPD-02803.tad - ゲーム＆ウオッチ ドンキーコングJR. (Game&Watch DONKEY KONG JR.)
+* KGFJ_SPD-02803.tad - ゲーム＆ウオッチ マリオズセメントファクトリー (Game&Watch MARIO'S Cement Factory)
+* KGGJ_SPD-02803.tad - ゲーム＆ウオッチ フラッグマン (Game&Watch FLAGMAN)
+* KGHJ_SPD-02803.tad - ゲーム＆ウオッチ ヘルメット(Game&Watch HELMET)
+* KGJJ_SPD-02803.tad - ゲーム＆ウオッチ ジャッジ (Game&Watch JUDGE)
+* KGMJ_SPD-02803.tad - ゲーム＆ウオッチ マンホール (Game&Watch MANHOLE)
+* KGVJ_SPD-02803.tad - ゲーム＆ウオッチ バーミン (Game&Watch VERMIN)
 
 ---
 # Art Academy Series (Art Style シリーズ)
