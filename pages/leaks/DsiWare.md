@@ -198,40 +198,40 @@ The ROMs in the first two folders (**20090722** and **20090925**) are fairly eas
 Some are missing the product code which is the easiest way to identify the ROMs. So if you know what any of the ROMs in the list below are then please let us know.
 
 The Unknown ROMs are:
-* SPD-03408_chample0923f.tad - Chample? (never heard of it)
-* SPD-03521_SikakuDSi_1015.tad - Sikaku? (never heard of it)
-* blocker_dsi_TwlRomSymbol_2009_1008_1040_r27659.tad
-* Starship_TwlRomJapan_2009_1028_1125_r28723.tad - Starship? (never heard of it)
-* Starship_TwlRomSymbol_2009_1028_1122_r28723.tad - Starship(?) with debug sumbols
-* SPD-03654_Zodiac_Pinball_Cheat_2009_08_26_1205.tad - Zodiac Pinball? (never heard of it)
-* SPD-03649_AttaColleda_RomForShot100204.tad
-* SPD-03776_20100127_2D.tad
-* x_dsi_TwlRomSymbol_2010_0204_1646_r32157.tad
-* SPD-03878_R13948_DSRL.tad
-* SPD-03878_artest100215_2105_R13948_DSFN.tad - Augmented Reality test?
+* **SPD-03408_chample0923f.tad** - Chample? (never heard of it)
+* **SPD-03521_SikakuDSi_1015.tad** - Sikaku? (mistransliteration of "Shikaku" [^4])
+* **blocker_dsi_TwlRomSymbol_2009_1008_1040_r27659.tad** - Blocker?
+* **Starship_TwlRomJapan_2009_1028_1125_r28723.tad** - Starship? (maybe Starship Patrol / Defender? [^4])
+* **Starship_TwlRomSymbol_2009_1028_1122_r28723.tad** - Starship(?) with debug symbols
+* **SPD-03654_Zodiac_Pinball_Cheat_2009_08_26_1205.tad** -  Pinball Pulse: The Ancients Beckon [^4] Presumably with build in cheats
+* **SPD-03649_AttaColleda_RomForShot100204.tad** - Unknown
+* SPD-03776_20100127_2D.tad -  Attakoreda, JP title of Tales in a Box
+* **x_dsi_TwlRomSymbol_2010_0204_1646_r32157.tad** - Unknown
+* **SPD-03878_R13948_DSRL.tad**
+* **SPD-03878_artest100215_2105_R13948_DSFN.tad** - Augmented Reality test?
 
 Some of these ROMs do have the product code after the letter **T** which presumably means it is a test version and not a retail release.
 
 The Testing ROMs are:
-* SPD-03394_TKAVJ01.tad - DIGIDRIVE (Art Style Series)
-* SPD-03396_TKPAJ00.tad - Leader
-* SPD-03400_pbat.KPBJ.F.0907.2660.tad - P-Bat
-* SPD-03482_TKA2J00.tad - Art Academy: Second Semester
-* SPD-03483_TKAIJ00.tad - Art Academy: First Semester
-* TKDZJ10.tad - DigiQ-z
-* SPD-03623_TKSRE00.tad - Project Sky
-* SPD-03654_TKZPE01.tad - Pinball Pulse The Ancients Beckon
-* SPD-03649_TWL-KRGJ091201.tad - Looksley's Line Up
-* K8PJ_SVN4990_rel.tad - Mtan P (release?)
-* K8PJ_SVN4990_rom.tad - Mtan P (debug?)
-* K8EJ_SVN4989_rel.tad - Mtan E (release?)
-* K8EJ_SVN4989_rom.tad - Mtan E (debug?)
-* SPD-03723_KKR1009_1D.tad - Flip The Core? (Guess based on KKR)
-* SPD-03776_TK3LJ00.tad - さるバンド (仮) (Monkey band (provisional))
-* TKDXJ00.tad - DigiQ-x
-* SPD-03895_DSiGolf_us20091204d.tad - DsiGolf
-* SPD-03895_TK72E00.tad - DsiGolf
-* SPD-05577_KQ9J_DEBUG_2011_0915_1547.tad - Knife (Zelda 4 swords?)
+* **SPD-03394_TKAVJ01.tad** - DIGIDRIVE (Art Style Series)
+* **SPD-03396_TKPAJ00.tad** - Leader
+* **SPD-03400_pbat.KPBJ.F.0907.2660.tad** - P-Bat
+* **SPD-03482_TKA2J00.tad** - Art Academy: Second Semester
+* **SPD-03483_TKAIJ00.tad** - Art Academy: First Semester
+* **TKDZJ10.tad** - DigiQ-z
+* **SPD-03623_TKSRE00.tad** - Project Sky
+* **SPD-03654_TKZPE01.tad** - Pinball Pulse The Ancients Beckon
+* **SPD-03649_TWL-KRGJ091201.tad** - Looksley's Line Up
+* **K8PJ_SVN4990_rel.tad** - Mtan P (release?)
+* **K8PJ_SVN4990_rom.tad** - Mtan P (debug?)
+* **K8EJ_SVN4989_rel.tad** - Mtan E (release?)
+* **K8EJ_SVN4989_rom.tad** - Mtan E (debug?)
+* **SPD-03723_KKR1009_1D.tad** - Flip The Core? (Guess based on KKR)
+* **SPD-03776_TK3LJ00.tad** - さるバンド (仮) (Monkey band (provisional))
+* **TKDXJ00.tad** - DigiQ-x
+* **SPD-03895_DSiGolf_us20091204d.tad** - DsiGolf
+* **SPD-03895_TK72E00.tad** - DsiGolf
+* **SPD-05577_KQ9J_DEBUG_2011_0915_1547.tad** - Knife (Zelda 4 swords?)
 
 
 ---
@@ -239,3 +239,4 @@ The Testing ROMs are:
 [^1]: [DSi CID Discovered - Next Generation Emulation](https://www.ngemu.com/threads/dsi-cid-discovered.169257/)
 [^2]: [Nintendo Software Planning & Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Software_Planning_%26_Development)
 [^3]: [Electroplankton - Wikipedia](https://en.wikipedia.org/wiki/Electroplankton)
+[^4]: [Gingerbread Man on Twitter: "@RetroReversing @orcastraw Zodiac Pinball I guess is Pinball Pulse: The Ancients Beckon, made by Fuse Games. It's based on Greek mythology. It was never released in Japan, so Zodiac Pinball was likely its planned JP title (or working title). Starship: maybe Starship Patrol / Defender?" / Twitter](https://twitter.com/confluentibus/status/1307833147007160320)
