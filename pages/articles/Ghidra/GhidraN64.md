@@ -81,19 +81,6 @@ If you have a version of the N64 SDK then you can use the `Parse C Source` featu
 If there are any errors with the parsing of the C files then you will need to locate the generated file called: `CParserPlugin.out`. Normally it is generated in the current users home directory so you can run:
 ```
 cat ~/CParserPlugin.out
-```
-
----
-# Setting up the memory map
-By default the ghidra loader only loads the .rom, .ram and .boot, but there is much more to the N64 memory map than these sections, and in fact your game will use its own sections too. So it is important you know your way around the Memory Map editor which can be viewed by selecting: `Window -> Memory Map`.
-
-Here are a few default sections you might want to add:
-
-Name | Start Address | Length
----|---|---
-RI_BASE | 0xA400000 | 0x100000
-MI_BASE | 0XA300000 | 0x100000
-
 ---
 # References
 [^1]: [N64 ROM Decompiling With Ghidra - N64LoaderWV - YouTube](https://www.youtube.com/watch?v=3d3a39LuCwc)
