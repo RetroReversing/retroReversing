@@ -28,7 +28,7 @@ According to a post on segaxtreme.net the Sega Saturn executes the first file it
 
 ## Loading into IDA Pro
 
-Use a save state: [cyberwarriorx/yssloader: An IDA Pro plugin for importing Yabause YSS savestates](https://github.com/cyberwarriorx/yssloader)
+Use a save state: [cyberwarriorx/yssloader: An IDA Pro plugin for importing Yabause YSS save states](https://github.com/cyberwarriorx/yssloader)
 
 ### PSYQ IDA Pro
 The standard SIG files won't find many functions if the game was compiled with PSYQ!
@@ -36,8 +36,7 @@ The standard SIG files won't find many functions if the game was compiled with P
 ---
 
 ## Loading into Ghidra
-[VGKintsugi/Ghidra-SegaSaturn-Processor: A Ghidra processor for the Sega Saturn (SuperH SH-2)](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Processor)
-[VGKintsugi/Ghidra-SegaSaturn-Loader: An ISO and save state loader for Ghidra for the Sega Saturn](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader)
+[VGKintsugi/Ghidra-SegaSaturn-Loader: Supports loading ISOs as well as Mednafen and Yabause emulator save states](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader)
 
 ---
 # Extracting & Rebuilding Saturn Game discs
