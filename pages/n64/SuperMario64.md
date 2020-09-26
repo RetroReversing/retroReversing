@@ -106,6 +106,10 @@ You can find the source code for the Playstation 3 port here: [Comparing mkst:3d
 This is more of a novelty port than anything else, it is not expected to be playable but it is a very cool tech demo!
 You can find the source code for the DOS port here: [fgsfdsfgs/sm64-port: PS2 and DOS ports of sm64-port.](https://github.com/fgsfdsfgs/sm64-port)
 
+## SEGA Dreamcast Port
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T5DYIM-UJXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can find the source code for the Dreamcast port here: [Comparing sm64-port:master...mrneo240:master · sm64-port/sm64-port](https://github.com/sm64-port/sm64-port/compare/master...mrneo240:master)
+
 ---
 # Decompilation
 Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
