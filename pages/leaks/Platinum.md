@@ -532,7 +532,7 @@ The **.NLF** file is interesting as it is a **NitroROM List File** as it seems t
 * files/wotbl.narc
 
 ---
-## sd.rar
+## iQue SD card contents - sd.rar
 This archive is a backup of an iQue developer or testers SD card. it contains different builds of multiple DSiWare applications such as SystemUpdater.
 
 The Contents are:
@@ -555,8 +555,8 @@ The Contents are:
 * TKUWJ00D.tad - WarioWare Snapped (Japanese)
 * TKUWV00D.tad - WarioWare Snapped (English)
 * dic - Dictionary data for Chinese (CH and TW)
-* ecConfigView
-* edit.txt
+* ecConfigView - DSiStore Debug tool
+* edit.txt - blank text file
 * file1.txt
 * mario_CHN20090910
 * mario_CHN20090911_+a
@@ -582,6 +582,13 @@ It also contains the following builds of the **SystemUpdater**:
 * SystemUpdater_20090710.tad
 * SystemUpdater_forCKdev.tad
 
+### ecConfigView (sd.rar/ecConfigView)
+This is a tool for debugging the DSiStore only to be used on development hardware. It is a standard TAD ROM file that can be installed on development DSi hardware.
+
+It adds an item to the DSi menu called "EC file utility" which simply had a few options to delete files such as "ec.cfg" from the DsiShop.
+
+### DS Capture Software for PARTNER-CTR-CAPTURE (sd.rar/MoMo/3DSSoft)
+This folder contains the Windows Installer for the software that connects to the **PARTNER-CTR-CAPTURE** development hardware. This is a way for developers to take screenshots and short videos from the Nintendo DS.
 
 ---
 # iQue Email dump - Contents of from_nintendo.rar
