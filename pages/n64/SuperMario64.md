@@ -84,7 +84,27 @@ Mario wouldn't be Mario without his pipes, lets add some that warp from one part
 Thanks to the 2 years of hard work by the Super Mario 64 decompilation team it is now possible to experience native ports of Sm64, no emulator required!
 
 ## DirectX 12 (Windows)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rJUT1el0qFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XnxmbnYdFLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Nintendo keeps taking down videos showing the DirectX 12 port of Super Mario 64, so the best way to see it is to compile it yourself and play on your own windows PC. 
+
+
+## Sony PSP
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Un3GuYHZA2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can find the source code for the PSP port here: [z2442/sm64-port: A port of https://www.github.com/n64decomp/sm64 for modern devices.](https://github.com/z2442/sm64-port)
+
+## Sony Playstation Vita
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GrZzco4ZE5c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can find the source code for the Vita port here: [bythos14/sm64-vita: A port of https://www.github.com/sm64-port/sm64-port for the PS Vita](https://github.com/bythos14/sm64-vita)
+
+## Sony Playstation 3
+<iframe width="560" height="315" src="https://www.youtube.com/embed/avTl-CgjblA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+As you can see from the video, the sound and controller input has not been implemented yet but it is definetly a cool proof of concept!
+You can find the source code for the Playstation 3 port here: [Comparing mkst:3ds-port...fgsfdsfgs:ps3 · mkst/sm64-port](https://github.com/mkst/sm64-port/compare/3ds-port...fgsfdsfgs:ps3)
+
+## DOS port (3dfx)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bf5Crup6UWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+This is more of a novelty port than anything else, it is not expected to be playable but it is a very cool tech demo!
+You can find the source code for the DOS port here: [fgsfdsfgs/sm64-port: PS2 and DOS ports of sm64-port.](https://github.com/fgsfdsfgs/sm64-port)
 
 ---
 # Decompilation
