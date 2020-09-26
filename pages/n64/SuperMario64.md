@@ -8,13 +8,13 @@ title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
   - title: Did Nintendo really forget to Optimize Super Mario 64
-    image: http://img.youtube.com/vi/NKlbE2eROC0/0.jpg
+    image: https://img.youtube.com/vi/NKlbE2eROC0/0.jpg
     youtube: 'NKlbE2eROC0'
   - title: Loading custom levels
-    image: http://img.youtube.com/vi/NpOwt4QhGPQ/0.jpg
+    image: https://img.youtube.com/vi/NpOwt4QhGPQ/0.jpg
     youtube: 'NpOwt4QhGPQ?list=PLrHfiJH7XHir-QYZsy2Du5t27DThqG1Vw'
   - title: Toads Tool
-    image: http://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
+    image: https://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
     youtube: '4d5OsHRo7Nc'
 image: /public/N64/Super_Mario_64_box_cover.jpg
 permalink: /super-mario-64/
@@ -84,33 +84,33 @@ Mario wouldn't be Mario without his pipes, lets add some that warp from one part
 Thanks to the 2 years of hard work by the Super Mario 64 decompilation team it is now possible to experience native ports of Sm64, no emulator required!
 
 ## DirectX 12 (Windows)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XnxmbnYdFLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XnxmbnYdFLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 Nintendo keeps taking down videos showing the DirectX 12 port of Super Mario 64, so the best way to see it is to compile it yourself and play on your own windows PC. 
 
 ## Sony PSP
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Un3GuYHZA2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Un3GuYHZA2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 You can find the source code for the PSP port here: [z2442/sm64-port: A port of https://www.github.com/n64decomp/sm64 for modern devices.](https://github.com/z2442/sm64-port)
 
 ## Sony Playstation Vita
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GrZzco4ZE5c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GrZzco4ZE5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 You can find the source code for the Vita port here: [bythos14/sm64-vita: A port of https://www.github.com/sm64-port/sm64-port for the PS Vita](https://github.com/bythos14/sm64-vita)
 
 ## Sony Playstation 2
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nCL82p7kC_4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nCL82p7kC_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 You can find the source code for the Playstation 2 port here: [fgsfdsfgs/sm64-port at ps2](https://github.com/fgsfdsfgs/sm64-port/tree/ps2)
 
 ## Sony Playstation 3
-<iframe width="560" height="315" src="https://www.youtube.com/embed/avTl-CgjblA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/avTl-CgjblA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 As you can see from the video, the sound and controller input has not been implemented yet but it is definetly a cool proof of concept!
 You can find the source code for the Playstation 3 port here: [Comparing mkst:3ds-port...fgsfdsfgs:ps3 · mkst/sm64-port](https://github.com/mkst/sm64-port/compare/3ds-port...fgsfdsfgs:ps3)
 
 ## DOS port (3dfx)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bf5Crup6UWM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bf5Crup6UWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 This is more of a novelty port than anything else, it is not expected to be playable but it is a very cool tech demo!
 You can find the source code for the DOS port here: [fgsfdsfgs/sm64-port: PS2 and DOS ports of sm64-port.](https://github.com/fgsfdsfgs/sm64-port)
 
 ## SEGA Dreamcast Port
-<iframe width="560" height="315" src="https://www.youtube.com/embed/T5DYIM-UJXg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T5DYIM-UJXg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 You can find the source code for the Dreamcast port here: [Comparing sm64-port:master...mrneo240:master · sm64-port/sm64-port](https://github.com/sm64-port/sm64-port/compare/master...mrneo240:master)
 
 ---
