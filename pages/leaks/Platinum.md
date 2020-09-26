@@ -419,27 +419,45 @@ The tools folder simply contains a **bin** folder that contains:
 * Mastering Batch File.zip
 
 ---
-## TwlIPL
-When the repository has been checked out it contains the following files and folders:
-* Makefile
-* Makefile.full
-* Makefile.nitroSystem.HYB
-* Makefile.nitroSystem.LTD
-* Makefile.sysmenu
-* Makefile.twlSDK
-* RomHeader
-* add-ins
-* bin
-* build
-* debugsoft
-* docs
-* include
-* keys
-* man
-* readme.txt
-* setup
-* tools
+## TwlIPL - Initial Program Loader? Operating System?
+Not sure what this is, but guessing it is the Initial Program Loader/Operating System for DSi, but this is unconfirmed.
 
+When the repository has been checked out it contains the following files and folders:
+* Makefile - Main makefile that calls the one in the build folder
+* Makefile.full - Calls ALL the other Makefiles in this folder, builds everything
+* Makefile.nitroSystem.HYB - HYBLID Architecture Makefile
+* Makefile.nitroSystem.LTD - LIMITED Architecture Makefile
+* Makefile.sysmenu - Makefile for the System Menu
+* Makefile.twlSDK - Makefile for the DSi SDK
+* RomHeader
+* add-ins - Contains NitroSystem from 8th April 2008 and a PC Tool called **NTR_IPL2_Gaiji_Font_PC**
+* bin - some built DS ROMs in SRL and TAD format
+* build - source code
+* debugsoft - DS debug ROMs such as **SaveDataTest**
+* docs - All sorts of misc documentation
+* include - C header files for sysmenu and the firmware
+* keys - Perl script to create RSA keys
+* man - Doxygen manual for **WDS_Wrapper**
+* readme.txt - brief notes for how to build the repository
+* setup - bash script that you are supposed to **source** into your bash shell
+* tools - tools for windows such as **AesDecrypter.exe**
+
+### Source Code (TwlIPL/build folder)
+This folder contains the source code for a bunch of tools and different firmware:
+* Makefile - Main Makefile which builds everything in each sub folder
+* buildtools - standard DS build tools such as **commondefs**
+* components - contains jackal and hyena components
+* debugsoft - source code for the DS debug ROMs
+* gcdfirm - GCD Firmware
+* libraries - source code for libraries such as **aes**
+* libraries_sysmenu - System Menu libraries such as **acsign**
+* nandfirm - NAND Firmware
+* norfirm - NOR Firmware
+* systemMenu_RED - Source code for the System Menu
+* systemMenu_mastering - Contains mastering Makefile
+* systemMenu_tools - source code for System Menu tools such as **CardboardEraser**
+* tests - source code for testing tools such as **ErrorLogTest**
+* tools - source code for some of the tools such as **rombreaker**
 
 ---
 # Pokemon Platinum Source Code (MASTER_CPUJ00.zip)
@@ -488,6 +506,8 @@ There are two archives that contain source code patches for the Pokemon Platinum
 * patch_from_MASTER_CPUJ00_to_FIELDTEST2.zip
 
 The two patch archives are identical apart from one file called **platinum.rsf** which is only available in the **_nobanner** version.
+
+An RSF file is a **Nitro ROM SPEC FILE** used for building the DS ROM file.
 
 ---
 # Contents of generic.7z
