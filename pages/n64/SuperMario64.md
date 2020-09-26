@@ -3867,7 +3867,11 @@ git clone https://github.com/n64decomp/sm64.git
 
 {% include folder-browser.html selector="#filelist" %}
 
+---
+# Official Source code
+The official source code for Super Mario 64 was leaked as part of the second Gigaleak which also contained source code for many other official N64 games including Mario Kart, Wave Race and both Zelda titles.
 
+{% include link-to-other-post.html post="/gigaleak2" description="For more information about Gigaleak 2 check out this post." %}
 
 ---
 
