@@ -29,7 +29,7 @@ Most notably it contains the source code for Pokemon Platinum, the Wii Startup D
 
 # Files Leaked
 * platinum.7z (2.73GB) - Game Boy Lot Check ROMs, Wii Starup Disc, Pokemon Platinum and DSi source code
-* generic.7z (1.82 GB)
+* generic.7z (1.82 GB) - iQue DsiWare Tad files and a Pokemon Event Distribution Application
 * from_nintendo.rar (1.85GB) - iQue Email dump
 
 ---
@@ -441,6 +441,149 @@ When the repository has been checked out it contains the following files and fol
 * tools
 
 ---
+# Contents of generic.7z
+When the archive is extracted it is found to contain the following archives inside it:
+* DSiWareROM.rar - DSiWare ROMS sent to iQue
+* ro.rar - Chinese iQue DSiWare
+* sd.rar - Contents of an SD card from iQue
+* windows.rar - Pokemon Distribution Windows Program
+
+## DSIWare ROMS (generic.7z/DSiWareROM.rar)
+
+The **DSiWareROM.rar** archive contains a ton of DSiWare ROMS in **TAD** format. The repository is split into folders based on the date, presumably from when Nintendo sent the data to iQue.
+
+We have a separate post on the **DSiWareROM.rar** archive contents with the intention to do a deep dive into the various debug versions included in the archive.
+
+{% include link-to-other-post.html post="/dsiwareleak" description="For more information on the files inside the DsiWare archive check out this post." %}
+
+---
+## Chinese DsiWare ROM backup (generic.7z/ro.rar)
+The archive contains the Chinese versions of some DSi titles by iQue, when extracted this archive has the following folders:
+* G&W_New - Chinese ports of Game & Watch games
+* 一下下马力欧医生 - Dr Mario
+* 照照瓦利殴制造 - WarioWare: Snapped!
+* 鸟和豆&纸飞机 - Bird and Bean & Paper Airplane
+
+### Game & Watch (ro.rar/G&W_New) 
+This folder contains all the iQue Chinese ports of the Game & Watch DsiWare titles, it includes the following **tad** files:
+* TKGBC00.tad - Game&Watch FLAGMAN (CHN)
+* TKGCC00.tad - Game&Watch CHEF (CHN)
+* TKGDC00.tad - Game&Watch DONKEY KONG JR. (CHN)
+* TKGFC00.tad - Game&Watch MARIO'S Cement Factory (CHN)
+* TKGGC00.tad - Game&Watch FLAGMAN (CHN)
+* TKGHC00.tad - Game&Watch HELMET (CHN)
+* TKGJC00.tad - ゲーム＆ウオッチ ジャッジ
+* TKGMC00.tad - Game&Watch MANHOLE (CHN)
+* TKGVC00.tad - Game&Watch VERMIN (CHN)
+
+### Dr Mario - Chinese Version (ro.rar/一下下马力欧医生)
+This folder contains the raw ROMS (srl files) for the Chinese version of Dr Mario:
+* SPD-03675_TKD9C00.tad.exe - self extracting executable
+* SPD-03675_TKD9C00.tad.srl - 
+* TKD9C00.tad.srl - 
+
+Not sure what the difference between the two ROM files is.
+
+### WarioWare: Snapped!  - Chinese Version (ro.rar/照照瓦利殴制造)
+This folder contains the WarioWare: Snapped Chinese localisation.
+* SPD-03671_TKUWC10.exe
+* twlmiwCN_100223.tad
+* SPD-03671_TKUWC10.tad
+* SPD-03671_TKUWC10.tad.srl
+
+### Bird and Bean & Paper Airplane - Chinese Version (ro.rar/鸟和豆&纸飞机 )
+This folder contains two different games, one is Pyoro (Bird and Beans) and the other is Paper Airplane Chase, both versions are Chinese for the iQue DSi.
+
+The files in this folder are:
+* Plane.bmp - iQue image warning players of problems such as Game addiction and Piracy
+* Plane_NITRO.srl - Raw ROM of Paper Airplane Chase
+* Pyoro.bmp - iQue image warning players of problems such as Game addiction and Piracy
+* Pyoro_NITRO.srl - Raw ROM of Pyoro (Bird and Beans)
+* TKAMC00.tad - Tad file of Paper Airplane Chase
+* TKP6C00.tad - Tad file of Pyoro (Bird and Beans)
+
+---
+## DPDeliver - Pokemon Distribution Windows Program (generic.7z/windows.rar)
+
+When the RAR file is extracted the contents are:
+* DPDeliver.exe - Main Windows Application in either Japanese or Chinese (unsure)
+* templateagb.srl - Game Boy Advance ROM template 
+* templateds.nlf - NitroROM List File
+* templateds.srl - Nintendo DS ROM template
+
+The DPDeliver application for Windows is a tool to create a Pokemon Distribution event ROM, it is completely in Japanese.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">DPDeliver.exe, a program that is NOT rendering correctly for me in American Locale, but, this can generate a distro ROM for Gen 4 Pokemon game events I think. <a href="https://t.co/CJboJPhIjX">pic.twitter.com/CJboJPhIjX</a></p>&mdash; Kaitlyn Molinas (@orcastraw) <a href="https://twitter.com/orcastraw/status/1304912291700371456?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The **.NLF** file is interesting as it is a **NitroROM List File** as it seems to list the contents of the DS SRL file, it lists the contents of the DS ROM as follows:
+* bin/ARM9-TS/Release/templateds_header.sbin
+* bin/ARM9-TS/Release/templateds.sbin
+* d:/nitro/NitroSDK/components/mongoose/ARM7-TS/Release/mongoose_sub.sbin
+* bin/ARM9-TS/Release/templateds_files.sbin
+* files/286.b15
+* files/data.bin
+* files/debug.lz
+* files/decchi.bin
+* files/evo.narc
+* files/growtbl.narc
+* files/period.dat
+* files/personal.narc
+* files/waza_tbl.narc
+* files/wotbl.narc
+
+---
+## sd.rar
+This archive is a backup of an iQue developer or testers SD card. it contains different builds of multiple DSiWare applications such as SystemUpdater.
+
+The Contents are:
+* 090902_mario
+* 090902_wario 
+* 20090924_shop - contains **shop.HNFC.Release.thumb.tad**
+* A_phtclock.tad
+* B_phtclock.tad
+* CTR-Oinari_docs.zip
+* C_phtclock.tad
+* Capture - Contains 3 empty BMP files
+* DCIM - Standard photo folder containing selfies of 2 attractive Chinese Women
+* HNI_0037.JPG - Photo of 2 attractive Chinese Women
+* HNI_0040.JPG - modified version of **HNI_0037.JPG** with lots of stamps on it
+* MoMo
+* Plane_cn_708.tad - Paper Airplane Chase (Chinese) Build 708
+* Plane_cn_727F.tad - Paper Airplane Chase (Chinese) Build 727F 
+* Pyoro_cn_708.tad - Pyoro (Chinese) Build 708
+* Pyoro_cn_727F.tad - Pyoro (Chinese) Build 727F
+* TKUWJ00D.tad - WarioWare Snapped (Japanese)
+* TKUWV00D.tad - WarioWare Snapped (English)
+* dic - Dictionary data for Chinese (CH and TW)
+* ecConfigView
+* edit.txt
+* file1.txt
+* mario_CHN20090910
+* mario_CHN20090911_+a
+* photo - empty folder
+* phtclock.tad
+* phtclock_2.tad
+* phtclock_3.tad
+* phtclock_4.tad
+* phtclock_5.tad
+* phtclock_6.tad
+* phtclock_7.tad
+* phtclock_8.tad
+* private
+* shop.HNFC.Release.14231.tad
+* tcl_2.tad
+
+It also contains the following builds of the **SystemUpdater**:
+* SystemUpdater_20090417_forCKdev.srl
+* SystemUpdater_20090428.tad
+* SystemUpdater_20090430.tad
+* SystemUpdater_20090514.tad
+* SystemUpdater_20090611.tad
+* SystemUpdater_20090710.tad
+* SystemUpdater_forCKdev.tad
+
+
+---
 # iQue Email dump - Contents of from_nintendo.rar
 The **from_nintendo.rar** archive contains what looks like an email attachment dump of all the files that Nintendo sent to iQue(?). They are all split by folders depending on what date they were sent from Nintendo and overall it is quite a random bunch of files.
 
@@ -465,8 +608,42 @@ The date folders contained in the archive are:
 * **20091109** - contains **clocks_rom_header.zip** - rom header templates
 * **20091111** - DS TAD ROM of shop? for checking version upgrade
 
+## TWL-ManualTools (from_nintendo.rar/20090703)
+The **ManualTools** application for Windows PCs is actually sent to iQue twice, on the 3rd of July and then again on the 24th of August.
+
+The tools are to update the digital manuals that come with DSi titles and can be viewed on the Nintendo DSi.
+
+There is a viewer which is an application for the DSi that can be used to preview manual files on the console itself.
+
+### Contents of TWL-ManualTools
+The following files and folders can be extracted from the **TWL-ManualTools** archive:
+* Makefile - Makefile for **LibM2d**
+* ManualEditorStarter.exe - Main Windows executable for the Manual Editor
+* SourceTreeMap.txt - brief overview of each file in the repository
+* build - Source code for the m2d library and demos for using it
+* data - Only contains file **m2dres_narc.blz**
+* docs - Documentation for both the Editor and a programmers guide for the library
+* include - C header files for the **m2d** library
+* lib - precompiled version of the **m2d** library
+* man - HTML reference manual for the m2d library
+* manualResources - images for each language the tool supports
+* readme.txt - Describes the purpose of the Manual Tools (to create e-Manuals)
+* tools - Tools to preview and edit the digital manual files
+
+### m2d library (Manual Display Library)
+Inside the manual tools there is also source code for the M2D library that is used to show the electronic manuals on the Nintendo DS. 
+
+This is also called **libntmvm2d** elsewhere in the files, **lib** is a standard prefix for precompiled libraries, guessing the **nt** stands for Nitro (DS codename).
+
+### Manual Editor
+The Manual Editor is a Windows application for editing the digital manuals present in Nintendo DS games.
+
+Pages are saved with the extension **.ntpg**, presumably standing for NITRO Page.
+
 ---
 # References
 [^1]: [Lost Media Wiki - Wii Startup Disc](https://lostmediawiki.com/Wii_Startup_Disc_(found_software_disc;_2006))
 [^2]: [IRIS - NintendoWiki](http://niwanetwork.org/wiki/IRIS)
 [^3]: [Nintendo Research & Engineering - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Research_%26_Engineering)
+[^4]: [DSi CID Discovered | Next Generation Emulation](https://www.ngemu.com/threads/dsi-cid-discovered.169257/)
+[^5]: [Nintendo Software Planning & Development - Wikipedia](https://en.wikipedia.org/wiki/Nintendo_Software_Planning_%26_Development)
