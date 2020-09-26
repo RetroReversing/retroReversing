@@ -440,6 +440,55 @@ When the repository has been checked out it contains the following files and fol
 * setup
 * tools
 
+
+---
+# Pokemon Platinum Source Code (MASTER_CPUJ00.zip)
+This archive contains the full source code for the Nintendo DS game called Pokemon Platinum.
+
+**CPUJ** is the Product ID for the Japanese Pokemon Platinum (**CPUE** is the North American product ID). The two zeros at the end of the filename are also part of the internal ID and just represent the revision number. So this is the source code for the first released version of Platinum.
+
+When the archive is extracted it contains the following three top level folders:
+* **lib** - extracted versions of some of the zip files such as the SDK
+* **main** - the main source code
+* **zip** - contains zip archive of stuff such as the SDK
+
+## Libraries (MASTER_CPUJ00.zip/lib folder)
+The lib folder contains the following items:
+* **NitroDWC** - DS wireless communication Library version 2.2 plus8
+* **NitroSDK** - DS Software Development Kit
+* **NitroSystem** - DS Graphics and Sound SDK libraries
+* **NitroWiFi** - DS Wi-Fi library
+* **cygwin.bat** - Windows Batch File  to start up a cygwin bash terminal
+* **libVCT** - VoiceChat Library version 1.3.1
+* **readme.txt** - very brief notes about the two batch files and a note to install CodeWarrior IDE
+* **setpath.bat** - Sets environment variables such as **NITROSDK_ROOT**
+
+## Zip Archives (MASTER_CPUJ00.zip//zip)
+This folder contains all the different librarys that are used to make the pokemon platinum source code, including the full SDK and CodeWarrior IDE.
+
+The zip files are:
+* **NITRO-System-Library-071126-patch1.zip** - DS Graphics and Sound SDK libraries (patch)
+* **NITRO-System-Library-071126.zip** - DS Graphics and Sound SDK libraries from 26th Nov 2007
+* **NitroDWC-2_2plus8-080630.zip** - DS wireless communication Library from 30th June 2008
+* **NitroDWC-addon-ppwlobby-20080707.zip** - Pokemon Platinum Wi-Fi Lobby Library
+* **NitroMiddleware-libVCT-1_3_1-080401.zip** - VoiceChat Library from 1st April 2008
+* **NitroSDK-4_2-071210.zip** - DS SDK from 10th December 2007
+* **NitroSDK-4_2-patch-plus-080118.zip** DS SDK Patch from 18th January 2008
+* **NitroWiFi-2_1-070710.zip** - DS WiFi Library from 10th July 2007
+* **NitroWiFi-2_1-patch-plus3-070920.zip** - DS WiFi Library patch from 20th September 2007
+* **cw_ds-2_0-sp2-20071025.zip** - CodeWarrior IDE from 25th October 2007
+* **cw_ds-2_0-sp2-patch2-20080215.zip** - CodeWarrior IDE path from 15th Feb 2008
+
+Note that almost all of these have been extracted in the **/lib** folder so you don't need to extract them manually. The only exception is the **PPWLobby** which you will need to extract if you are interested in it.
+
+
+## The Patches (patch_from_MASTER_CPUJ00_to_FIELDTEST2.zip)
+There are two archives that contain source code patches for the Pokemon Platinum source code, they are:
+* patch_from_MASTER_CPUJ00_to_FIELDTEST2_nobanner.zip
+* patch_from_MASTER_CPUJ00_to_FIELDTEST2.zip
+
+The two patch archives are identical apart from one file called **platinum.rsf** which is only available in the **_nobanner** version.
+
 ---
 # Contents of generic.7z
 When the archive is extracted it is found to contain the following archives inside it:
@@ -587,8 +636,8 @@ This is a tool for debugging the DSiStore only to be used on development hardwar
 
 It adds an item to the DSi menu called "EC file utility" which simply had a few options to delete files such as "ec.cfg" from the DsiShop.
 
-### DS Capture Software for PARTNER-CTR-CAPTURE (sd.rar/MoMo/3DSSoft)
-This folder contains the Windows Installer for the software that connects to the **PARTNER-CTR-CAPTURE** development hardware. This is a way for developers to take screenshots and short videos from the Nintendo DS.
+### 3DS Capture Software for PARTNER-CTR-CAPTURE (sd.rar/MoMo/3DSSoft)
+This folder contains the Windows Installer for the software that connects to the **PARTNER-CTR-CAPTURE** development hardware. This is a way for developers to take screenshots and short videos from the Nintendo 3DS.
 
 ---
 # iQue Email dump - Contents of from_nintendo.rar
