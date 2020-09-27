@@ -21,7 +21,7 @@ redirect_from:
 ---
 
 # Retail Hardware
-Rodrigo Copetti has an excellent in-depth article about the haredware architecture of the Nintendo Gamecube, it is a must read for anyone wanting to reverse engineer Gamecube games as you will need to know all about the low level architecture.
+Rodrigo Copetti has an excellent in-depth article about the hardware architecture of the Nintendo Gamecube, it is a must read for anyone wanting to reverse engineer Gamecube games as you will need to know all about the low level architecture.
 
 {% include link-to-other-site.html url="https://www.copetti.org/projects/consoles/gamecube/" description="The website by `Rodrigo Copetti` is required reading for console hardware architecture" image="https://www.copetti.org/images/consoles/gamecube/motherboard_marked.d93afe1360c2793657e14a68fa6af06e17e65df339df93d8fa4c720973359919.png" title="Rodrigo Copetti's Gamecube Hardware Architecture"  %}
 
