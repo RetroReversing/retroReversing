@@ -20,10 +20,11 @@ recommend: gamecube
 editlink: /gamecube/GamecubeDebugSymbols.md
 updatedAt: '2020-04-25'
 ---
+If you are interested in reverse engineering a Gamecube game, the first step is to find out if the game has its debug symbols available, this makes it much easier to reverse as all the functions will have nice friendly human readable names.
 
-Gamecube game executable can come in a number of different formats, one is the standard .DOL file (short for dolphin) and the other is the ELF.
+Gamecube game executable can come in a number of different formats, one is the standard .DOL file (short for dolphin) and the other is the ELF which is a standard format for Unix based systems.
 
-
+If a Gamecube game disc has the elf file available then it is possible that it will have debug information embedded inside it, the easiest way to check is to look at the size or run the **strings** command on it.
 
 # ELF Files
 
@@ -32,6 +33,7 @@ ELF files can contain many debug symbols such as the function, variable and some
 You can normally see the symbols by opening in a dissasembler such as Radare2 or IDA Pro.
 
 ## ELF Executables with Debug Symbols
+The following table lists all the known Gamecube games that contain ELF files with debug symbols embedded inside.
 
 Game Name | Elf File | Number of Symbols | Genre | Youtube
 --- | --- | --- | --- | ---
@@ -112,6 +114,7 @@ UFC - Throwdown | GCNDefault.elf | **2,648** | Fighting |
 UFC2 Tapout Final Spec (Japan) | GCNDefault.elf | **2,682** | Sport | 
 ZooCube (Japan) | ZooCube.elf | **8,167** | ? | 
 
+---
 # Link Maps (.MAP files)
 Many Interactive Demo Discs contain link maps which are files that the linker generates and contains the function names. Also in retail games such as Animal Crossing and Final Fantasy Crystal Chronicals.
 One good way of finding these is to do a string search of the GCM ISO files for ".text section layout".
@@ -136,14 +139,16 @@ UEFA Champions League 2004-2005 (United Kingdom) | fifa_z.MAP | ?? | Sport |
 Ultimate Spider-Man | symbolgc-final.MAP | ?? | Action | 
 Zelda no Densetsu - Twilight Princess (Japan) | frameworkF.MAP | ?? | Action | 
 
-
+---
 # Prototype Games with Debug Symbols
+Prototype games are even more likely to contain debug symbols as they are intended for either testing or journalistic usage, thus having the symbols available would help the developers fix bugs before the final retail release. The table below is an incomplete list of prototypes that have debug symbols, if you know any more please let us know!
 
 Game Name | Map File | Number of Symbols | Genre | Notes
 --- | --- | --- | --- | ---
 NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
 
+---
 # Other Notes
-Pikmin2 has a file called `pikmin2*P.MAP` which could be a compressed or encrypted debugger map file, but thats mainly a guess because the previous Pikmin has a plain-text debugger .MAP file. The * depends the Region U for US, P for PAL and J for Japan
+The game **Pikmin 2** has a file called `pikmin2*P.MAP` which could be a compressed or encrypted debugger map file, but thats mainly a guess because the previous Pikmin has a plain-text debugger .MAP file. The * depends the Region U for US, P for PAL and J for Japan
 
 Nintendo Puzzle Collection (Japan) contains an ARM executable for running on the GBA that has developer symbols in it called: ponagb2m_client.elf (Panel de Pon game?)
