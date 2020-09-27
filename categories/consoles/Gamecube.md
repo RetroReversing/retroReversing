@@ -30,10 +30,12 @@ After finishing that article here is a brief overview of the Gamecube motherboar
 
 ---
 # Gamecube Games
+The Nintendo Gamecube has an excellent library of games just begging to be reverse engineered, it is always a good idea to do some research before you start, this is where this section comes in as it deals with specific games.
 
 ## Games with Debug Symbols
 If you are interested in reverse engineering a Gamecube game, the first step is to find out if the game has its **debug symbols** available, this makes it much easier to reverse as all the functions will have nice friendly human readable names.
-{% include link-to-other-post.html post="gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
+
+{% include link-to-other-post.html post="/gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
 
 ---
 # All Posts
