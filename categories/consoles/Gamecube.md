@@ -37,6 +37,14 @@ If you are interested in reverse engineering a Gamecube game, the first step is 
 
 {% include link-to-other-post.html post="/gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
 
+## Prototype Games
+Prototype games are ideal targets for reverse engineering as many of them contain developer information inside them and some games never got a retail release, making them even more interesting!
+
+{% include link-to-other-site.html url="https://hiddenpalace.org/Prototypes_by_system/Nintendo_GameCube" description="Hidden Palace has the most complete list of released Gamecube Prototypes and Demos, check it out here." title="List of Nintendo Gamecube Prototypes - Hidden Palace"  %}
+
+
+
+
 ---
 # All Posts
 <div>
