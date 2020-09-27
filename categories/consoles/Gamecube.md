@@ -29,6 +29,13 @@ After finishing that article here is a brief overview of the Gamecube motherboar
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/x5K6RgIfBcw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+# Gamecube Games
+
+## Games with Debug Symbols
+If you are interested in reverse engineering a Gamecube game, the first step is to find out if the game has its **debug symbols** available, this makes it much easier to reverse as all the functions will have nice friendly human readable names.
+{% include link-to-other-post.html post="gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
+
+---
 # All Posts
 <div>
 
