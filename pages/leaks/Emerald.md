@@ -36,7 +36,7 @@ When extracted the emerald archive has the following sub archives inside it:
 * **RVL-RAAE.7z** - Wii Startup Disc
 * **RVL-WTester.7z** - Wii Wifi Tester application
 * **pm_eme_ose.7z** - Pokemon Emerald source code
-* **tako_main_052306.tgz** - ATI Verilog files & Build environment, along with documentation for the **Tako** project
+* **tako_main_052306.tgz** - ATI Verilog files & Build environment for the Hollywood Graphics chip (Vegas/Tako)
 
 ---
 # Nintendo Wii Boot Diagnostic Application (emeralds.7z/BOOT-DIAG.7z)
@@ -67,8 +67,8 @@ Files included:
 ---
 # Donkey Kong: Original Edition (emeralds.7z/RVL-FFWP.7z)
 This archive only contains 2 files in it:
-* FFWP000.wad
-* RVL-FFWP-v0.wad.out
+* **FFWP000.wad** - non-working WAD file (at least in dolphin)
+* **RVL-FFWP-v0.wad.out** - working WAD file
 
 The name **FFWP** is the product ID for the NES Virtual Console game Donkey Kong: Original Edition. 
 
@@ -104,7 +104,6 @@ The contents of this archive are as follows:
 
 This doesn't seem to install in Dolphin so it can't be confirmed if it is a WifiTester application. But it is definitely an application for the Wii.
 
-
 ---
 # Vegas/Tako (Hollywood) (emeralds.7z/tako_main_052306.tgz)
 The archive **tako_main_052306.tgz** has been created by ATI, another company responsible for working on the Nintendo Wii. We already have leaked Verilog files from the company BroadOn previously, so when joined with these files you have a more complete picture of the entire Wii Verilog source code.
@@ -114,7 +113,7 @@ The archive **tako_main_052306.tgz** has been created by ATI, another company re
 
 This archive contains the hardware Verilog source code for the ArtX (ATI) Hollywood graphics processor. Specifically the Vegas portion which is the core of the Chip, note that the project was previously called **Tako** (after the sushi), the name change is noted in the index.html file in the web documentation.
 
-<img src="/public/images/wii/Wii Hollywood Graphics - Vegas and Napa.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/wii/Wii Hollywood Graphics - Vegas and Napa.jpg" class="wow slideInLeft postImage" style="height: 120px;width: 100%;margin-bottom: 20px;margin-top: 20px;" />
 
 Other sources are calling **Tako** a portable Gamecube project, however this is incorrect, there are a few documents talking about a hybrid portable gamecube however this was under the **NNGC** or **GC Portable** name and not related to **Tako** (apart from Tako being encluded as the Graphics processor).
 
@@ -129,8 +128,10 @@ When the archive has been extracted it has the following folders:
 * **hw** - Hardware spec files (verilog)
 * **test** - C source code and scripts to test the hardware specs
 
-## Bothware header files and tools (tako_main_052306.tgz/bw) 
-This folder potentially contains header files and tools related to Bothware, but what Bothware is I have no clue.
+note that this folder seems to be missing the **sw** sub folder which is referenced in some of the documentation such as the **buildNTDGX.txt** file, which states that the Nintendo Gamecube Graphics Library (NTDGX) is in that folder.
+
+## BothWare header files and tools (tako_main_052306.tgz/bw) 
+This folder potentially contains header files and tools related to Bothware, presumably bothware is content that is used by both the hardware and software folders such as the fdl include files.
 
 The contents of the **bw** folder is as follows:
 * **Makefile** - Main makefile that builds the sub directories
@@ -148,18 +149,32 @@ The fiddle tool compiles **.fdl** (Field Description Language) files into C head
 
 ---
 ## Documentation (tako_main_052306.tgz/doc)
-The Doc folder contains some very interesting documentation, this is where the news sources got their headline for the Portable Gamecube.
+The Doc folder contains some very interesting documentation, this is where the news sources got their headline for the **Portable Gamecube** (specifically in the **proj** sub directory).
 
 The contents of this folder are as follows:
-* cmn
-* dummy.txt - dummy text file with nothing of importance in it
-* hw
-* index.html - root index.html that redirects to the index of the **web** directory
-* proj
-* spec_legacy
-* sw - software documentation (broadon and nintendo sections are empty but ATI has docs)
-* test - test plan spreadsheets
-* web
+* **cmn** - Common documentation related to building the project
+* **dummy.txt** - dummy text file with nothing of importance in it
+* **hw** - Hardware Documentation
+* **index.html** - root index.html that redirects to the index of the **web** directory
+* **proj** - Project documentation
+* **spec_legacy** - Gamecube flipper hardware documentation
+* **sw** - software documentation (Broadon and Nintendo sections are empty but ATI has docs)
+* **test** - test plan spreadsheets
+* **web** - web based documentation including Wiki backup
+
+### Common Documentation (doc/cmn)
+The files in the folder are as follows:
+* **buildEnv.txt** - How to setup the build environment (e.g environment variables)
+* **buildInternals.txt** - Coming Soon - so nothing of interest
+* **buildNTDGX.txt** - how to build the Nintendo Graphics API (NTDGX) used for Gamecube
+* **codeAndMakefiles.txt** - pretty detailed guide for how to write better C/C++ and Makefiles
+* **log.gz** - just contains a log file with the results of all the builds passing
+
+The most interesting file in this is probably the log file, although not exactly gripping reading material it can be nice to see the result of the build system running successfully. 
+
+The next most interesting is the **codeAndMakefiles.txt** file which describes what they learned from the messy Dolphin (Gamecube) codebase. So they decided to treat all compiler errors as warnings and avoid the use of undefined compiler-specific code. Good advice that still holds to C/C++ developers today!
+
+Also of interest is the uncertainty of what Nintendo was planning, they wanted to support the **NTDGX** API for backwards compatibility with Gamecube but they were not sure if it would still be used by the Wii.
 
 ### Software Documentation (doc/sw)
 This folder contains three folders but sadly the **nintendo** and **broadon** folders are empty, the only folder with content is the **ati** folder.
