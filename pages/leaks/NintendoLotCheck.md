@@ -44,6 +44,7 @@ FileList.csv  | NES Lot Check with less columns
 HNPdata_List.xlsx   | NES Lot Check
 NTR_data.xls   | Nintendo DS Lot Check
 NUD_data.xls  | Nintendo 64DD Lot Check
+NUS_data.xls | Nintendo 64 Lot Check
 S-ROY_data.xls  | SNES late release games with Royalties
 SHNP_data.xls   | SNES Lot Check
 TWL-DW_data.xls | DSiware lot Check
@@ -576,6 +577,6 @@ These were sent to iQue for localisation for the Chinese market and were presuma
 [^3]: [Billard Club for Game Boy Color - GameFAQs](https://gamefaqs.gamespot.com/gbc/565800-billard-club)
 [^4]: [Bounced - The Cutting Room Floor](https://tcrf.net/Bounced)
 [^5]: [Carnivale for Game Boy Color - GameFAQs](https://gamefaqs.gamespot.com/gbc/915800-carnivale)
-[^6]: [Baby's Day Out (partially lost builds of cancelled movie tie-in video games; 1994) - The Lost Media Wiki](https://lostmediawiki.com/Baby%27s_Day_Out_(partially_lost_builds_of_cancelled_movie_tie-in_video_games;_1994))
+[^6]: [Baby's Day Out The Lost Media Wiki](https://lostmediawiki.com/Baby%27s_Day_Out_(partially_lost_builds_of_cancelled_movie_tie-in_video_games;_1994) )
 [^7]: [Bobby's World (Game Boy) - The Cutting Room Floor](https://tcrf.net/Bobby%27s_World_(Game_Boy))
 [^8]: [mame/famicom_flop.xml at master mamedev/mame GitHub](https://github.com/mamedev/mame/blob/master/hash/famicom_flop.xml)
