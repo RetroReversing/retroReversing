@@ -28,6 +28,8 @@ recommend:
 editlink: /gamecube/GCDevelopmentKitHardware.md
 references:
   - archive.org
+twitterimage: https://www.retroreversing.com/public/images/gc/Gamecube Development Kit Hardware.jpg 
+updatedAt: '2020-09-20'
 ---
 
 # AMC Dolphin Development Hardware (DDH)
@@ -245,7 +247,7 @@ The SN Systems ProDG Devlink was hardware supplied with the SN Systems ProDG SDK
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-{% include link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardwareif so check out this post." %}
+{% include link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardware, if so check out this post." %}
 
 
 ---
