@@ -98,6 +98,7 @@ We only embed high-quality youtube videos related to the technical achievements 
 * KimJustice - [Kim Justice - YouTube](https://www.youtube.com/channel/UC9ZWVL1Elyt2cdiQYjxS_1w)
 * Modern Vintage Gamer - [Modern Vintage Gamer - YouTube](https://www.youtube.com/channel/UCjFaPUcJU1vwk193mnW_w1w)
 * MrMario2011 - [MrMario2011 - YouTube](https://www.youtube.com/user/MrMario2011)
+* Hard4Games - [Hard4Games - YouTube](https://www.youtube.com/channel/UCacYHKoNLHrVoN1L9uup86A)
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
 
 ## Cocoscope Channles
