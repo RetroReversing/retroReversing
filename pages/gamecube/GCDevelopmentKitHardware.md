@@ -49,9 +49,7 @@ The systems seems to have been distributed with software called the **gameOptix 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/04uII-sb4cQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage" ></iframe>
 
 <div markdown="1">
-The Prototype version of the DDH has RJ-11 ports instead of gamecube ports and only ran at either 3/4 or half the speed of the retail Gamecube.
-
-Apparently the system runs at 3/4 the speed of a retail Nintendo Gamecube [^7], which isn't exactly ideal for development but would be fine if just used for debugging non-performance related issues.
+The Prototype version of the DDH has RJ-11 ports instead of gamecube ports and apparently the system runs at 3/4 the speed of a retail Nintendo Gamecube [^7], which isn't exactly ideal for development but would be fine if just used for debugging non-performance related issues.
 </div>
 </section>
 
@@ -95,7 +93,7 @@ The Optical Disk Emulator (ODEM) PCI card was used to send game data to the NPDP
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2GHRdOQ2Y3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
 
 <div markdown="1">
-The GBOX was very similar to the GDEV unit but instead of being focussed for programmers it has more of a focus on testing. The main feature it lacks compared to the **NPDP-GDEV** is the lack of connecting to the Optical Disk Emulator (ODEM) PCI card [^5], so it could only test games from the physical NPDP cartridges that had been written using either the **NPDP-GDEV** or one of the NPDP Writers (NPDP-GW/NPDP-SW).
+The GBOX was very similar to the GDEV unit but instead of being focussed for programmers it has more of a focus on testing. The main feature it lacks compared to the **NPDP-GDEV** is the lack of connecting to the Optical Disk Emulator (ODEM) PCI card [^5], so it could only test games from the physical NPDP cartridges that had been written using one of the NPDP Writers (NPDP-GW/NPDP-SW).
 </div>
 </section>
 
@@ -122,7 +120,7 @@ However it lacked any method of communicating with a developers PC, which is whe
 <div markdown="1">
 Intelligent Systems have a history of creating **IS-Viewer** cartridges for Nintendo consoles such as the Nintendo 64 and the Gamecube was no different. It connected to the bottom of the NPDP Reader console and enabled communication with a development PC over a RS-232 cable, making it similar to the **NPDP-GBOX**.
 
-The main purpose of this unit however was for Assert creators (Graphics artists, Sound engineers, 3D Animators etc) to preview how their game assets would look (or sound) when played on real Gamecube hardware. This has the advantage of being a cheaper solution that buying asset creators their own **NPDP-GBOX** and so they didn't need to share time with other programmers and Testers on the team.
+The main purpose of this unit however was for Assert creators (Graphics artists, Sound engineers, 3D Animators etc) to preview how their game assets would look (or sound) when played on real Gamecube hardware. This has the advantage of being a cheaper solution than buying asset creators their own **NPDP-GBOX** and so they didn't need to share time with other programmers and Testers on the team.
 
 It provided a High Speed USB 2.0 interface to connect to the Developers PC which allowed very fast transfer of Game assets for previewing on the Gamecube hardware [^8]. It also boasts about being the only Gamecube development hardware that natively supports the Apple Macintosh, which was a popular platform for content creators at the time.
 
@@ -240,11 +238,15 @@ The SN-TDEV unit supports the SN Systems SDK known as PRO-DG, including the perf
 <img src="/public/images/gc/SN Systems ProDG Devlink.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-The SN Systems ProDG Devlink was hardware supplied with the SN Systems PdoDG SDK known as ProView, which is similar in function to the **IS-DOL-VIEWER** in that it targeted asset creators rather than programmers [^13]. It connects to the NPDP Reader or NR Reader consoles and provides a USB interface to allow content creators to send assets to the Gamecube quickly. The image on the left was kindly provided by **Shane Battye** over on his twitter [^12].
+The SN Systems ProDG Devlink was hardware supplied with the SN Systems ProDG SDK known as **ProView**, which is similar in function to the **IS-DOL-VIEWER** in that it targeted asset creators rather than programmers [^13]. It connects to the NPDP Reader or NR Reader consoles and provides a USB interface to allow content creators to send assets to the Gamecube quickly. The image on the left was kindly provided by **Shane Battye** over on his twitter [^12].
 </div>
 </section>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+{% include link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardwareif so check out this post." %}
+
 
 ---
 # References
