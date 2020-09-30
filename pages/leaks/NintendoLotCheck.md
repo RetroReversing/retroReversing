@@ -118,16 +118,16 @@ It is important to know a few things about the Famicom Disk System before procee
 
 ## Contents of FMC_DISK.7z
 When the **FMC_DISK.7z** archive has been extract it creates the following files and folders:
-* 110803HNPdata.xls - NES Lot Check list (from 3rd August 2011)
-* DiskWriterSoftPak_ZEL.txt
-* DiskWriterSoftPak_ZEL.zip
-* FMC_DISK.zip - Zip of the disk_image folder (password protected)
-* FMCｄｉｓｋsystem_ead_070726.xls - Lot Check list of Famicom Disk System Games (from 26th July 2007)
-* FMCｄｉｓｋsystem_ead_160519.xls - Lot Check list of Famicom Disk System Games (from 19th May 2016)
-* disk_image - ROMS for each of the sides (A/B) of the disks
-* disk_labels - photographs of each of the master disks that was dumped
-* readme.txt - notes about the files in this folder, created for Wii Virtual Console
-* tool - contains a tool to convert RDA/RDB to FDS format (**rdafds.exe**)
+* **110803HNPdata.xls** - NES Lot Check list (from 3rd August 2011)
+* **DiskWriterSoftPak_ZEL.txt** - Notes about the Zelda EPROM Converter
+* **DiskWriterSoftPak_ZEL.zip** - Source code and Zelda EPROM result
+* **FMC_DISK.zip** - Zip of the disk_image folder (password protected)
+* **FMCｄｉｓｋsystem_ead_070726.xls** - Lot Check list of Famicom Disk System Games (from 26th July 2007)
+* **FMCｄｉｓｋsystem_ead_160519.xls** - Lot Check list of Famicom Disk System Games (from 19th May 2016)
+* **disk_image** - ROMS for each of the sides (A/B) of the disks
+* **disk_labels** - photographs of each of the master disks that was dumped
+* **readme.txt** - notes about the files in this folder, created for Wii Virtual Console
+* **tool** - contains a tool to convert RDA/RDB to FDS format (**rdafds.exe**)
 
 The **readme.txt** file is really interesting as it mentions converting side A and side B of the Disk to a format called QD, which is basically both **rda** and **rda** files concatenated together.
 
@@ -166,6 +166,8 @@ Thanks to **MrCheeze_** over on twitter we have a list of games that do not matc
 
 Some of the names for the games were found in the MAME source code, so not completely unknown ROMS [^8]. 
 
+of particular note are the Nomura NES Trade ROMS which were used to trade Stock with the Japanese bank **Nomura**.
+
 The format of each Games product code is as follows (example is for Bandai's Ultraman):
 ```js
 Publisher = "BAN"
@@ -180,14 +182,14 @@ SIDE_B_FileName = Software_Number + "_" Publisher + "-" + Abbreviation + "-" + R
 ```
 
 The Publisher codes used for the above files are as follows:
-* BAN - Bandai
-* KDS - Konami
-* FSC - Nintendo
-* FMC - Nintendo
-* NDS - Namco
-* PAC - Pack-In Video
-* SCO - Scorpion Soft
-* SFL - Sofel
+* **BAN** - Bandai
+* **KDS** - Konami
+* **FSC** - Nintendo
+* **FMC** - Nintendo
+* **NDS** - Namco
+* **PAC** - Pack-In Video
+* **SCO** - Scorpion Soft
+* **SFL** - Sofel
 
 
 ---
