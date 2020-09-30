@@ -8,11 +8,11 @@ title: Nintendo Gamecube (Dolphin) Development Kit Hardware
 thumbnail: /public/consoles/Nintendo Gamecube.png
 videocarousel:
   - title: DDH & NPDP-GDEV
-    image: http://img.youtube.com/vi/Bi6xRPhKjvQ/hqdefault.jpg
+    image: https://img.youtube.com/vi/Bi6xRPhKjvQ/hqdefault.jpg
     youtube: Bi6xRPhKjvQ
-  - title: 
-    image: http://img.youtube.com/vi/Z45nbzMLk98/hqdefault.jpg
-    youtube: Z45nbzMLk98
+  - title: NR Reader
+    image: https://img.youtube.com/vi/7qxk9ORDSIk/hqdefault.jpg
+    youtube: 7qxk9ORDSIk
 image: /public/images/gc/Gamecube Development Kit Hardware.jpg
 permalink: /gamecube-development-kit-hardware/
 breadcrumbs:
