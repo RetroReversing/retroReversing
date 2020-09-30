@@ -18,7 +18,7 @@ recommend:
 - leak
 - nes
 editlink: /leaks/NintendoLotCheck.md
-updatedAt: '2020-09-13'
+updatedAt: '2020-09-30'
 twitterimage: https://www.retroreversing.com/public/images/leaks/Nintendo Lot Check.jpg
 ---
 
@@ -32,7 +32,7 @@ Since Nintendo controls manufacturing of all official games they have a process 
 
 
 # Lot Check Lists
-In the Pokemon Leak on the 4th of September 2020 a bunch of excel spreadsheets were uploaded into the `/misc` folder, these contained the full list of all games that have gone through the Nintendo Lot Check process for most systems up until the Nintendo DS.
+In the Pokemon Leak on the 4th of May 2020 a bunch of excel spreadsheets were uploaded into the `/misc` folder, these contained the full list of all games that have gone through the Nintendo Lot Check process for most systems up until the Nintendo DS.
 
 Name | Description
 ---|---
@@ -109,6 +109,86 @@ All computer programs have bugs, and NES games are no different, in some cases t
 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">the mystery roms have been discovered <a href="https://t.co/tY5sH5yfeq">pic.twitter.com/tY5sH5yfeq</a></p>&mdash; I..A..N..S (@IANSYT) <a href="https://twitter.com/IANSYT/status/1287615989304131584?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+# Famicom Disk System Lot Check
+On the 30th September 2020 the Famicom Disc System Lot Check ROMS were leaked to the public as part of the **Paladin Leak**. The archive containing these ROMS was called **FMC_DISK.7z** and was included in the **paladin.7z** main archive.
+
+It is important to know a few things about the Famicom Disk System before proceeding, the disks could have multiple sides (2 of course) and has different content on each side. Nintendo used a format called `RD*` to store these games and had a different file for each side, so if a game has two sides then there would be both an **RDA** and **RDB** file (for side A and side B respectively). 
+
+## Contents of FMC_DISK.7z
+When the **FMC_DISK.7z** archive has been extract it creates the following files and folders:
+* 110803HNPdata.xls - NES Lot Check list (from 3rd August 2011)
+* DiskWriterSoftPak_ZEL.txt
+* DiskWriterSoftPak_ZEL.zip
+* FMC_DISK.zip - Zip of the disk_image folder (password protected)
+* FMCｄｉｓｋsystem_ead_070726.xls - Lot Check list of Famicom Disk System Games (from 26th July 2007)
+* FMCｄｉｓｋsystem_ead_160519.xls - Lot Check list of Famicom Disk System Games (from 19th May 2016)
+* disk_image - ROMS for each of the sides (A/B) of the disks
+* disk_labels - photographs of each of the master disks that was dumped
+* readme.txt - notes about the files in this folder, created for Wii Virtual Console
+* tool - contains a tool to convert RDA/RDB to FDS format (**rdafds.exe**)
+
+The **readme.txt** file is really interesting as it mentions converting side A and side B of the Disk to a format called QD, which is basically both **rda** and **rda** files concatenated together.
+
+Presumably the D in both file extension formats stands for Disk, but it is unclear what the Q stands for or even the R in RDA/RDB.
+
+## RDA to FDS Converter tool (rdafds)
+This is a tool that converts from the Nintendo RD* format for Disk System games to the iNES **FDS** so that it can be emulated on a PC. It seems that nintendo were using an NES emulator to test these games before the virtual console versions were available.
+
+If you are interested in converting the RD* files located in this archive then you can use the **rdafds.exe** executable located in the **tool** folder to do the conversion.
+
+## Zelda Disk Version (DiskWriterSoftPak_ZEL.zip)
+It seems that Nintendo had trouble getting any data from the Master Disk for Zelda so they asked Mr. **Tomohiro Kawase** who managed to get the data from an EPROM (SQCD?).
+
+It seems they needed to create a tool called **scattoqd.exe** to convert the resulting EPROM data (called SCAT for some reason?) to the Virtual Console QD format. The source code is also availble for this tool under a single C++ source file called **scattoqd.cpp**.
+
+The result is in the zip archive under the name **007_FMC-ZEL-0-1.qd**, as mentioned before the Virtual Console (QD) format is just RDA and RDB concatenated together, so you could split it up fairly easily.
+
+## Unreleased Famicom Disc System Games
+Thanks to **MrCheeze_** over on twitter we have a list of games that do not match any previously released Game Codes, these games are:
+* 064 - BAN-UL1-0-0 - Ultraman - Kaijuu Teikoku no Gyakushuu
+* 070 - SCO-MEA-2-0 - Michael English Daibouken (Sample)
+* 085 - FMC-ON1-3-0 - Famicom Mukashi Banashi - Shin Onigashima
+* 086 - FMC-ON2-0-0 - Famicom Mukashi Banashi - Shin Onigashima (Disk 2)
+* 143 - NDS-PAC-1-0 - Pac-Man
+* 145 - NDS-DIG-0-0 - Dig Dug
+* 146 - NDS-DD2-0-0 - Dig Dug II
+* 164 - FSC-FTAJ-1-0 - 野村のファミコントレード (Nomura NES Trade)
+* 165 - FSC-FTEJ-1-0 - 野村のファミコントレード（デモ用）(Nomura's NES trade (for demo))
+* 166 - FMC-KMAR-0-0 - Kaettekita Mario Bros. (translation: Come back Mario Bros)
+* 174 - FMC-BFD-1-0 - バルーンファイト (Balloon fight)
+* 180 - FMC-GOD-0-0 - 五目ならべ (Five eyes)
+* 194 - SFL-TMG-1-0 - ザ·マネーゲーム (The Money Game)
+* 195 - PAC-KTD-1-0 - Kattobi! Warabe Ko
+* 201 - BAN-SG2-0-0 - SDｶﾞﾝﾀﾞﾑﾜｰﾙﾄﾞ ｶﾞﾁｬﾎﾟﾝ戦士 SCRAMBLE WARS ﾏｯﾌﾟｺﾚｸｼｮﾝ (SD Gundam World Gachapon Warrior SCRAMBLE WARS Map Collection)
+* 210 - FSC-FTBJ-1-0 - 野村のファミコントレード (Nomura NES Trade)
+
+Some of the names for the games were found in the MAME source code, so not completely unknown ROMS [^8]. 
+
+The format of each Games product code is as follows (example is for Bandai's Ultraman):
+```js
+Publisher = "BAN"
+Abbreviation = "UL1"
+Revision_version = 0
+Unknown = 0
+Software_Number = '064'
+
+// Result
+SIDE_A_FileName = Software_Number + "_" Publisher + "-" + Abbreviation + "-" + Revision_version + Unknown  + ".rda" // 064_BAN-UL1-0-0.rda
+SIDE_B_FileName = Software_Number + "_" Publisher + "-" + Abbreviation + "-" + Revision_version + Unknown  + ".rdb" // 064_BAN-UL1-0-0.rdb
+```
+
+The Publisher codes used for the above files are as follows:
+* BAN - Bandai
+* KDS - Konami
+* FSC - Nintendo
+* FMC - Nintendo
+* NDS - Namco
+* PAC - Pack-In Video
+* SCO - Scorpion Soft
+* SFL - Sofel
+
 
 ---
 
@@ -496,3 +576,4 @@ These were sent to iQue for localisation for the Chinese market and were presuma
 [^5]: [Carnivale for Game Boy Color - GameFAQs](https://gamefaqs.gamespot.com/gbc/915800-carnivale)
 [^6]: [Baby's Day Out (partially lost builds of cancelled movie tie-in video games; 1994) - The Lost Media Wiki](https://lostmediawiki.com/Baby%27s_Day_Out_(partially_lost_builds_of_cancelled_movie_tie-in_video_games;_1994))
 [^7]: [Bobby's World (Game Boy) - The Cutting Room Floor](https://tcrf.net/Bobby%27s_World_(Game_Boy))
+[^8]: [mame/famicom_flop.xml at master mamedev/mame GitHub](https://github.com/mamedev/mame/blob/master/hash/famicom_flop.xml)
