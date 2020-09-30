@@ -100,7 +100,7 @@ The GBOX was very similar to the GDEV unit but instead of being focussed for pro
 </section>
 
 ---
-## NPDP Reader
+## NPDP Reader Console
 <section class="postSection">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rAwBQomvFZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
 
@@ -160,6 +160,93 @@ This PCI cart connected to the Gang/Single NPDP writers and is required for them
 </section>
 
 ---
+## NR Development Kits
+The NR-based development kits came out at the same time as the NPDP kits and had the advantage of using fairly cheap DVD-Rs, known as NR Discs to store games. The downside is that a new CDR would need to be burned for each build, meaning it was a lot more wasteful than the NPDP development options.
+
+## NR Disc (DOT-003)
+<section class="postSection">
+<img src="/public/images/gc/Gamecube NR Disc.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The Gamecube NR Discs are  a small 8cm DVD-R that developers would write to using an **NR-Writer** and could only be played back on specific gamecube hardware called the **NR-Reader**. NR Disc were mainly used as a convenient testing solution as they could be easily burnt and given to a team of game testers to play on their NR-Reader consoles.
+
+</div>
+</section>
+
+
+## NR Reader
+<section class="postSection">
+<img src="/public/images/gc/Gamecube NR-Reader.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The Gamecube **NR-Reader** was a slightly modified retail Gamecube unit that could only play burned development NR discs, so it doesn't play any retail game discs. Its purpose was to get as close to testing on a retail machine as possible, so no debugging features were present on these consoles.
+
+The main modification to the hardware other than the optical disc reader is that it has a switch on the side to switch between different regions (PAL/NTSC) [^6].
+
+</div>
+</section>
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧𝙨 𝙆𝙞𝙩 𝙤𝙛 𝙩𝙝𝙚 𝙙𝙖𝙮<br><br>If you’re wondering why this <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> has such an odd color, that’s because it’s a devkit. This is called an NR- reader. It only reads NR discs. <a href="https://twitter.com/hashtag/gaming?src=hash&amp;ref_src=twsrc%5Etfw">#gaming</a> <a href="https://twitter.com/hashtag/nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#nintendo</a> <a href="https://twitter.com/hashtag/gamersunite?src=hash&amp;ref_src=twsrc%5Etfw">#gamersunite</a> <a href="https://t.co/rXA20vuTnc">pic.twitter.com/rXA20vuTnc</a></p>&mdash; 🕹 ᄃӨᄂӨПΣᄂ FΛᄂᄃӨП 🕹 (@ColonelFalcon) <a href="https://twitter.com/ColonelFalcon/status/1068871756327337988?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## NR-Writer
+<section class="postSection">
+<img src="/public/images/gc/Gamecube NR-Writer.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The Gamecube NR Writer connects to a developer's PC via a SCSI port and allows burning of Game Cube Image files (GCM) to NR discs. According to Nintendo this would only take about 20 minutes and you could even daisy chain multiple NR-Writers together to write up to 4 images at once! This gave it a similar functionality to the Gang Writer for NPDP cartridges.
+
+According to a post on AssemblerGames these writers are not unique to Nintendo and were used outside the games industry, but Nintendo got special permission from Panasonic to write custom firmwares for these drives to produce NR discs [^6]
+</div>
+</section>
+
+
+
+## USB-EXI USB Adapter (GCP-2000)
+<section class="postSection">
+<img src="/public/images/gc/Gamecube GCP-2000 USB Adapter.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The GCP-2000 USB Adapter connects via a Gamecube's memory card slot and has a usb port allowing communication between a developer's PC and the Gamecube hardware. The EXI bus on a Gamecube is used to connect external peripherals including the memory card and so this hardware just provides an interface between that EXI Bus and USB.
+
+</div>
+</section>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nvG25CKrg_s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+---
+
+# SN Systems Tiny Development Kit (SN-TDEV)
+<section class="postSection">
+<img src="/public/images/gc/Gamecube SN Systems Tiny Development Kit - SN-TDEV.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The SN Systems Tiny Development Kit or **SN-TDEV** for short was a cheaper alternative to the other development kits and was very popular in Universities teaching game development along with smaller third party game developers. They require a license to use which apparently only lasted a single semester so the University would need to keep renewing them from SN Systems every term that they wanted to run the course [^6].
+
+It cannot play regular retail games, only Burned NR-discs, but it also has a fast USB 2.0 connector which can be used to emulate the Disc drive on a developers PC, skipping the need to burn NR Discs.
+
+It provided double the amount of RAM (48MB) as a standard Nintendo Gamecube which allowed the ability to send compiled ELF executables to the system to debug and run [^11].
+
+</div>
+</section>
+
+The SN-TDEV unit supports the SN Systems SDK known as PRO-DG, including the performance optimiser known as **Tuner** [^11].
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧𝙨 𝙆𝙞𝙩 𝙤𝙛 𝙩𝙝𝙚 𝙙𝙖𝙮<br><br>This is a chocolate brown <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> TDEV. It’s a devkit that was also used in Universities. It does not play regular games, only NR discs. (Found at <a href="https://t.co/RfI4EsLWv6">https://t.co/RfI4EsLWv6</a>) <a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> <a href="https://t.co/W7uVfQBGfP">pic.twitter.com/W7uVfQBGfP</a></p>&mdash; 🕹 ᄃӨᄂӨПΣᄂ FΛᄂᄃӨП 🕹 (@ColonelFalcon) <a href="https://twitter.com/ColonelFalcon/status/949407089524342785?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+# SN Systems ProDG Devlink
+<section class="postSection">
+<img src="/public/images/gc/SN Systems ProDG Devlink.jpg" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+The SN Systems ProDG Devlink was hardware supplied with the SN Systems PdoDG SDK known as ProView, which is similar in function to the **IS-DOL-VIEWER** in that it targeted asset creators rather than programmers [^13]. It connects to the NPDP Reader or NR Reader consoles and provides a USB interface to allow content creators to send assets to the Gamecube quickly. The image on the left was kindly provided by **Shane Battye** over on his twitter [^12].
+</div>
+</section>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 # References
 [^1]: [Rare Nintendo Dolphin prototype NPDP-GDEV & DHH System Review - Gamester81 - YouTube](https://www.youtube.com/watch?list=PLD4E95BD5EA898348&time_continue=44&v=Bi6xRPhKjvQ&feature=emb_logo)
 [^2]: [GDEV - RGDWiki](https://wiki.mariocube.com/index.php/GDEV)
@@ -171,3 +258,6 @@ This PCI cart connected to the Gang/Single NPDP writers and is required for them
 [^8]: [INTELLIGENT SYSTEMS 開発ツール](https://web.archive.org/web/20021113013320/http://www.intsys.co.jp/tools/gamecube/viewer/intro.html)
 [^9]: [Dumping a NPDP cart? - ASSEMbler Games Archive](https://www.assembler-games.com/threads/dumping-a-npdp-cart.42055/)
 [^10]: [Copying a NPDP cart - ASSEMbler Games Archive](https://www.assembler-games.com/threads/copying-a-npdp-cart.6497/)
+[^11]: [SN-TDEV for Nintendo GameCube](https://web.archive.org/web/20041206205148/http://www.snsys.com/GameCube/SN-TDEV.htm)
+[^12]: [Shane Battye 🎮 on Twitter: "Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit](https://twitter.com/shanebattye/status/1165466965164449793)
+[^13]: [ProView for Nintendo GameCube](https://web.archive.org/web/20041208104135/http://www.snsys.com/GameCube/ProView.htm)
