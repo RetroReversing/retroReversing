@@ -217,7 +217,13 @@ The GCP-2000 USB Adapter connects via a Gamecube's memory card slot and has a us
 
 ---
 
-# SN Systems Tiny Development Kit (SN-TDEV)
+# SN Systems Development Kits
+SN Systems are very well known for their quality third party development kit hardware and SDKs and the gamecube was one of the last non-Sony platforms that they supported after being bought out by Sony.
+
+{% include link-to-other-post.html post="/companies/snsystems/" description="For more information on SN Systems check out this post." %}
+
+
+## SN Systems Tiny Development Kit (SN-TDEV)
 <section class="postSection">
 <img src="/public/images/gc/Gamecube SN Systems Tiny Development Kit - SN-TDEV.jpg" class="wow slideInLeft postImage" />
 
@@ -235,7 +241,7 @@ The SN-TDEV unit supports the SN Systems SDK known as PRO-DG, including the perf
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧𝙨 𝙆𝙞𝙩 𝙤𝙛 𝙩𝙝𝙚 𝙙𝙖𝙮<br><br>This is a chocolate brown <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> TDEV. It’s a devkit that was also used in Universities. It does not play regular games, only NR discs. (Found at <a href="https://t.co/RfI4EsLWv6">https://t.co/RfI4EsLWv6</a>) <a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> <a href="https://t.co/W7uVfQBGfP">pic.twitter.com/W7uVfQBGfP</a></p>&mdash; 🕹 ᄃӨᄂӨПΣᄂ FΛᄂᄃӨП 🕹 (@ColonelFalcon) <a href="https://twitter.com/ColonelFalcon/status/949407089524342785?ref_src=twsrc%5Etfw">January 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-# SN Systems ProDG Devlink
+## SN Systems ProDG Devlink
 <section class="postSection">
 <img src="/public/images/gc/SN Systems ProDG Devlink.jpg" class="wow slideInLeft postImage" />
 
@@ -247,6 +253,7 @@ The SN Systems ProDG Devlink was hardware supplied with the SN Systems ProDG SDK
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+---
 {% include link-to-other-post.html post="/official-n64-devkit/" description="Since you have got this far you might be interested in Nintendo's previous generation of console development hardware, if so check out this post." %}
 
 
