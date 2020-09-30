@@ -159,7 +159,7 @@ Thanks to **MrCheeze_** over on twitter we have a list of games that do not matc
 * 165 - FSC-FTEJ-1-0 - 野村のファミコントレード（デモ用）(Nomura's NES trade (for demo))
 * 166 - FMC-KMAR-0-0 - Kaettekita Mario Bros. (translation: Come back Mario Bros)
 * 174 - FMC-BFD-1-0 - バルーンファイト (Balloon fight)
-* 180 - FMC-GOD-0-0 - 五目ならべ (Five eyes)
+* 180 - FMC-GOD-0-0 - 五目ならべ (Five eyes) (Gomoku Narabe Renju)
 * 194 - SFL-TMG-1-0 - ザ·マネーゲーム (The Money Game)
 * 195 - PAC-KTD-1-0 - Kattobi! Warabe Ko
 * 201 - BAN-SG2-0-0 - SDｶﾞﾝﾀﾞﾑﾜｰﾙﾄﾞ ｶﾞﾁｬﾎﾟﾝ戦士 SCRAMBLE WARS ﾏｯﾌﾟｺﾚｸｼｮﾝ (SD Gundam World Gachapon Warrior SCRAMBLE WARS Map Collection)
@@ -191,6 +191,12 @@ The Publisher codes used for the above files are as follows:
 * **PAC** - Pack-In Video
 * **SCO** - Scorpion Soft
 * **SFL** - Sofel
+
+## Gomoku Narabe Renju 五目ならべ
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/LuigiBlood?ref_src=twsrc%5Etfw">@LuigiBlood</a> already documented the unreleased FDS port of Balloon Fight. I think this is another unrelease FDS port of &quot;Gomoku Narabe Renju&quot;, Nintendo&#39;s Famicom version of Go. <a href="https://t.co/PAhjtBW8fJ">pic.twitter.com/PAhjtBW8fJ</a></p>&mdash; ラ0.F (@MrCheeze_) <a href="https://twitter.com/MrCheeze_/status/1311358036678713345?ref_src=twsrc%5Etfw">September 30, 2020</a></blockquote>
+
+## Balloon Fight
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve never seen Balloon Fight on FDS, ever <a href="https://t.co/NACIXI3nCP">pic.twitter.com/NACIXI3nCP</a></p>&mdash; LuigiBlood (@LuigiBlood) <a href="https://twitter.com/LuigiBlood/status/1311270365503598595?ref_src=twsrc%5Etfw">September 30, 2020</a></blockquote>
 
 
 ---
