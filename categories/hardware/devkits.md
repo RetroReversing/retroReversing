@@ -24,11 +24,25 @@ Development Kits are facinating, many come out before the specs for the console 
 
 We have tried to document all the development kit hardware available for the most popular retro consoles, so hopefully you will find the posts below helpful.
 
+# Nintendo Development Kit Hardware
+
+## Nintendo Entertainment System (NES/Famicom)
+{% include link-to-other-post.html post="/official-nes-devkit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
+[NES Development Kit Hardware](https://www.retroreversing.com)
+
+## Super Nintendo Entertainment System (SNES)
+{% include link-to-other-post.html post="/official-snes-devkit/" description="For information about Nintendo's Super Famicom development hardware check out this post." %}
+
+## Nintendo 64 (Ultra64)
+{% include link-to-other-post.html post="/official-n64-devkit/" description="For information about Nintendo's Ultra 64 development hardware check out this post." %}
+[Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/)
+[Maestro64 (Music)](https://www.retroreversing.com/maestro64/) 
+
+## Nintendo Gamecube (Dolphin)
+{% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
+
 Console | Development Hardware
 ---|---
-Nintendo Entertainment System (NES) | [NES Development Kit Hardware](https://www.retroreversing.com/official-nes-devkit/)
-Super Nintendo Entertainment System (SNES) | [SNES Development Kit Hardware](https://www.retroreversing.com/official-snes-devkit/)
-Nintendo 64 | [Bung Doctor v64 (N64) (Unofficial)](https://www.retroreversing.com/Bung-Doctor-v64/) <br /> [Maestro64 (Music)](https://www.retroreversing.com/maestro64/) <br /> [Official N64 Development Hardware](https://www.retroreversing.com/official-n64-devkit/)
 Nintendo Game Boy (DMG & GBC) | [Game Boy Development kit Hardware](https://www.retroreversing.com/gameboy-development-kit-hardware/)
 Nintendo Game Boy Advance (GBA) | [Game Boy Advance Development Kit Hardware](https://www.retroreversing.com/game-boy-advance-development-kit/)
 Sega Dreamcast | [Official Sega Dreamcast Katana Development Kit Hardware](https://www.retroreversing.com/Sega-Dreamcast-Katana-Development-Kit) <br /> [The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
