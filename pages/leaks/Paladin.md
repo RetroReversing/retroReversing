@@ -104,6 +104,7 @@ Contents:
 * **pocchama.srl** - ?
 * **pocchama_agb.bin** - Another GBA Test ROM
 
+
 The Product IDs with numbers as the second 2 characters tend to be Demo versions and are not in the GBA or NDS LotCheck spreadsheet (**AGB_data**).
 
 ---
@@ -228,7 +229,9 @@ Each folder contains both a M and F (Male/Female?) version of the European Ninte
 * 061213 - 13th December 2006 (trial)
 * 061214 - 14th December 2006 (trial) 
 
+
 The archives **Ranger_trial_eu_061214.zip** and **Ranger_trial_eu_061214.rar** have exactly the same content inside, so they were probably seeing which format compressed the best when sending it on.
+
 ---
 # 3DS Test Card SVN Repository (ctr_card_test.zip)
 In order to access the contents of the SVN repository you have to run the following command:
@@ -523,128 +526,128 @@ These files are for the ARM7 CPU core and would be included in your C/C++ source
 
 Name | Description
 ---|---
-./iris_sp.h
-./iris_sp/init
-./iris_sp/init/crt0.h
-./iris_sp/hw
-./iris_sp/hw/mmap_global.h
-./iris_sp/hw/ioreg_SPSND.h
-./iris_sp/hw/ioreg.h
-./iris_sp/hw/mmap_wram.h
-./iris_sp/hw/ioreg_SPPAD.h
-./iris_sp/hw/armArch.h
-./iris_sp/hw/ioreg_SPMPI.h
-./iris_sp/hw/ioreg_SPDISP.h
-./iris_sp/hw/ioreg_SPOS.h
-./iris_sp/hw/ioreg_SPMI.h
-./iris_sp/code32.h
-./iris_sp/os.h
-./iris_sp/memorymap.h
-./iris_sp/snd
-./iris_sp/snd/snd_capture.h
-./iris_sp/snd/snd_channel.h
-./iris_sp/snd/snd.h
-./iris_sp/snd/snd_init.h
-./iris_sp/snd/snd_util.h
-./iris_sp/os
-./iris_sp/os/interrupt.h
-./iris_sp/os/system.h
-./iris_sp/code16.h
+./iris_sp.h | 
+./iris_sp/init | 
+./iris_sp/init/crt0.h | 
+./iris_sp/hw | 
+./iris_sp/hw/mmap_global.h | 
+./iris_sp/hw/ioreg_SPSND.h | 
+./iris_sp/hw/ioreg.h | 
+./iris_sp/hw/mmap_wram.h | 
+./iris_sp/hw/ioreg_SPPAD.h | 
+./iris_sp/hw/armArch.h | 
+./iris_sp/hw/ioreg_SPMPI.h | 
+./iris_sp/hw/ioreg_SPDISP.h | 
+./iris_sp/hw/ioreg_SPOS.h | 
+./iris_sp/hw/ioreg_SPMI.h | 
+./iris_sp/code32.h | 
+./iris_sp/os.h | 
+./iris_sp/memorymap.h | 
+./iris_sp/snd | 
+./iris_sp/snd/snd_capture.h | 
+./iris_sp/snd/snd_channel.h | 
+./iris_sp/snd/snd.h | 
+./iris_sp/snd/snd_init.h | 
+./iris_sp/snd/snd_util.h | 
+./iris_sp/os | 
+./iris_sp/os/interrupt.h | 
+./iris_sp/os/system.h | 
+./iris_sp/code16.h | 
 
 ### IRIS Header files (/include/iris)
 These files are for the ARM9 CPU core and would be included in your C/C++ source code in order to use the functionalities provided by the main processor SDK library.
 
 Name | Description
 ---|---
-./iris/init
-./iris/init/crt0.h
-./iris/ARM7-TEG.lcf
-./iris/version.h
-./iris/hw
-./iris/hw/ioreg_PAD.h
-./iris/hw/ioreg_G3X.h
-./iris/hw/mmap_global.h
-./iris/hw/ioreg_G3.h
-./iris/hw/ioreg_OS.h
-./iris/hw/mmap_shared.h
-./iris/hw/ioreg.h
-./iris/hw/mmap_main.h
-./iris/hw/armArch.h
-./iris/hw/ioreg_MI.h
-./iris/hw/mmap_vram.h
-./iris/hw/ioreg_GX.h
-./iris/hw/mmap_tcm.h
-./iris/hw/ioreg_SPI.h
-./iris/hw/ioreg_CP.h
-./iris/hw/ioreg_G2.h
-./iris/types.s
-./iris/code32.h
-./iris/types.h
-./iris/mi
-./iris/mi/wram.h
-./iris/mi/dma.h
-./iris/mi/exMemory.h
-./iris/ARM9-BB.lcf
-./iris/misc.h
-./iris/fx
-./iris/fx/fx.h
-./iris/fx/fx_mtx33.h
-./iris/fx/fx_trig.h
-./iris/fx/fx_mtx43.h
-./iris/fx/fx_cp.h
-./iris/fx/fx_mtx44.h
-./iris/fx/fx_mtx.h
-./iris/fx/fx_const.h
-./iris/fx/fx_vec.h
-./iris/os.h
-./iris/ARM7-BB.lcf
-./iris/pad
-./iris/pad/pad.h
-./iris/ARM9-TEG.lcf
-./iris/memorymap.h
-./iris/ARM9-TEG.lcf.template
-./iris/gx
-./iris/gx/gx.h
-./iris/gx/g3c.h
-./iris/gx/g3x.h
-./iris/gx/g3.h
-./iris/gx/g2_oam.h
-./iris/gx/gxcommon.h
-./iris/gx/gx_vramcnt.h
-./iris/gx/g2.h
-./iris/gx/gx_load.h
-./iris/gx/g3imm.h
-./iris/gx/g3_util.h
-./iris/gx/gx_capture.h
-./iris/gx/g3b.h
-./iris/gx/gx_bgcnt.h
-./iris/os
-./iris/os/spinLock.h
-./iris/os/halt.h
-./iris/os/protectionUnit.h
-./iris/os/context.h
-./iris/os/cache.h
-./iris/os/message.h
-./iris/os/protectionRegion.h
-./iris/os/emulator.h
-./iris/os/systemCall.h
-./iris/os/timer.h
-./iris/os/thread.h
-./iris/os/printf.h
-./iris/os/interrupt.h
-./iris/os/system.h
-./iris/os/mutex.h
-./iris/os/utility.h
-./iris/os/init.h
-./iris/os/exception.h
-./iris/os/arena.h
-./iris/os/alloc.h
-./iris/os/tcm.h
-./iris/cp
-./iris/cp/sqrt.h
-./iris/cp/divider.h
-./iris/code16.h
-./iris.h
+./iris/init | 
+./iris/init/crt0.h | 
+./iris/ARM7-TEG.lcf | 
+./iris/version.h | 
+./iris/hw | 
+./iris/hw/ioreg_PAD.h | 
+./iris/hw/ioreg_G3X.h | 
+./iris/hw/mmap_global.h | 
+./iris/hw/ioreg_G3.h | 
+./iris/hw/ioreg_OS.h | 
+./iris/hw/mmap_shared.h | 
+./iris/hw/ioreg.h | 
+./iris/hw/mmap_main.h | 
+./iris/hw/armArch.h | 
+./iris/hw/ioreg_MI.h | 
+./iris/hw/mmap_vram.h | 
+./iris/hw/ioreg_GX.h | 
+./iris/hw/mmap_tcm.h | 
+./iris/hw/ioreg_SPI.h | 
+./iris/hw/ioreg_CP.h | 
+./iris/hw/ioreg_G2.h | 
+./iris/types.s | 
+./iris/code32.h | 
+./iris/types.h | 
+./iris/mi | 
+./iris/mi/wram.h | 
+./iris/mi/dma.h | 
+./iris/mi/exMemory.h | 
+./iris/ARM9-BB.lcf | 
+./iris/misc.h | 
+./iris/fx | 
+./iris/fx/fx.h | 
+./iris/fx/fx_mtx33.h | 
+./iris/fx/fx_trig.h | 
+./iris/fx/fx_mtx43.h | 
+./iris/fx/fx_cp.h | 
+./iris/fx/fx_mtx44.h | 
+./iris/fx/fx_mtx.h | 
+./iris/fx/fx_const.h | 
+./iris/fx/fx_vec.h | 
+./iris/os.h | 
+./iris/ARM7-BB.lcf | 
+./iris/pad | 
+./iris/pad/pad.h | 
+./iris/ARM9-TEG.lcf | 
+./iris/memorymap.h | 
+./iris/ARM9-TEG.lcf.template | 
+./iris/gx | 
+./iris/gx/gx.h | 
+./iris/gx/g3c.h | 
+./iris/gx/g3x.h | 
+./iris/gx/g3.h | 
+./iris/gx/g2_oam.h | 
+./iris/gx/gxcommon.h | 
+./iris/gx/gx_vramcnt.h | 
+./iris/gx/g2.h | 
+./iris/gx/gx_load.h | 
+./iris/gx/g3imm.h | 
+./iris/gx/g3_util.h | 
+./iris/gx/gx_capture.h | 
+./iris/gx/g3b.h | 
+./iris/gx/gx_bgcnt.h | 
+./iris/os | 
+./iris/os/spinLock.h | 
+./iris/os/halt.h | 
+./iris/os/protectionUnit.h | 
+./iris/os/context.h | 
+./iris/os/cache.h | 
+./iris/os/message.h | 
+./iris/os/protectionRegion.h | 
+./iris/os/emulator.h | 
+./iris/os/systemCall.h | 
+./iris/os/timer.h | 
+./iris/os/thread.h | 
+./iris/os/printf.h | 
+./iris/os/interrupt.h | 
+./iris/os/system.h | 
+./iris/os/mutex.h | 
+./iris/os/utility.h | 
+./iris/os/init.h | 
+./iris/os/exception.h | 
+./iris/os/arena.h | 
+./iris/os/alloc.h | 
+./iris/os/tcm.h | 
+./iris/cp | 
+./iris/cp/sqrt.h | 
+./iris/cp/divider.h | 
+./iris/code16.h | 
+./iris.h | 
 
 ### Precompiled Static Libraries (*.A) (/lib)
 
