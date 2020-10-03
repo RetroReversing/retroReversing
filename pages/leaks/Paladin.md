@@ -23,11 +23,21 @@ recommend:
 - 3ds
 editlink: /leaks/Paladin.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/PaladinLeak.jpg
+updatedAt: '2020-10-03'
 ---
 
+
+<section class="postSection">
+    <img src="/public/images/leaks/PaladinLeak.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 The Paladin leak occurred on the 30th of September 2020 and included about 2.4GB of content related to the Nintendo IRIS and Pokemon spinoffs. This was the third Nintendo leak in September 2020 with the First being the Emerald leak and the second being the Platinum leak.
+ </div>
+</section> 
+
 
 # Files Leaked
+As usual the files were uploaded to anonfiles and the links shared on the 4Chan **/vp** board, the files were:
 * paladin.7z (2.44GB)
 
 # Contents of Paladin.7z
@@ -65,6 +75,8 @@ The files have the standard Nintendo SRL extension which was used both both GBA 
 
 It is unclear the file naming convention and how far along the different builds of the game are but we know that the first 4 characters are the standard product ID for Leaf Green (BPGE) and Fire Red (BPRE).
 
+## ROMS leaked
+
 Contents:
 * BPGE264RR.srl - Leaf Green
 * BPGE264RU1.srl
@@ -84,6 +96,7 @@ Contents:
 # Pokemon Mystery Dungeon (/Dungeon)
 In the **Dungeon** folder it has a bunch of Game Boy Advance and Nintendo DS ROMS for Pokemon Mystery Dungeon, they are in the SRL format which is the same as .GBA, so can you can easily play these in any GBA emulator.
 
+## Mystery Dungeon GBA & NDS ROMS leaked
 Contents: 
 * **AB24J00.srl** - Pocket Monsters: Fushigi no Dungeon Aka no Kyuujotai (Japanese) (GBA)
 * **NAPHJ00.srl** - Pokemon Fushigi no Dungeon: Ao no Kyuujotai (Nintendo DS)
@@ -117,18 +130,26 @@ Not sure what these Wii WAD files are and they don't open in the Dolphin emulato
 * viewer_.wad
 
 ---
-# Pokemon Ranger E3 Demo (Ranger_e3_060420)
+# Pokemon Ranger
+Pokemon Ranger is a Nintendo Ds game that was first released in Japan on the 23rd of March 2006. It was jointly developed by HAL Laboratory and Creatures Inc. 
+
+Unfortunately this leak does not have the source code for it but it does have some interesting E3 builds of the game and the translation files sent out to the localisation teams.
+
+---
+## Pokemon Ranger E3 Demo (Ranger_e3_060420)
 This folder contains two Nintendo DS ROMs for Pokemon Ranger, you can play these in any Nintendo DS emulator as they are the same as the .NDS format.
+
 The Contents of this folder are:
 * **tycho_e3_0604202018DSf.bin** - Nintendo DS ROM Demo of Pokemon Ranger from 20th April 2006 (F)
 * **tycho_e3_0604202018DSm.bin** - Nintendo DS ROM Demo of Pokemon Ranger from 20th April 2006 (M)
+
 
 The only difference in the file names is the last letter either being an f or an m. Currently waiting for the Pokemon Rom hacking community to figure out what the differences are in these two ROMs.
 
 Could the F stand for Female and the M stand for Male?
 
 ---
-# Initial Pokemon Ranger PAL Translations (PokeRanger_Euro.zip)
+## Initial Pokemon Ranger PAL Translations (PokeRanger_Euro.zip)
 The **PokeRanger_Euro.zip** seems to be created before the localisation process for Pokemon Ranger has started, for the result of the translation process check out the other archive **Ranger_EURO.zip**.
 
 There is a folder called **To_Alessio** which were files to be sent to **Alessio Danieli** who is a Localization Producer at Nintendo of Europe, files in this folder are:
@@ -141,6 +162,7 @@ There is a folder called **To_Alessio** which were files to be sent to **Alessio
 * **PokemonRanger_TaskList.xls** - Priority of localization tasks between Nintendo of Europe (NOE) and Nintendo Japan (NCL)
 * **Pokemon_DataFile.xls** - details about all the Pokemon in the game
 
+
 The second folder is titled **To_translators** and contains the documents that translators need to create their respective localization: 
 * **capture_challenge.xls** - Notes on how Pokemon appear in the capture challenge
 * **RangerTextList_Eng.xls** - This is an overview of what each excel spread sheet sent to translators means
@@ -148,12 +170,13 @@ The second folder is titled **To_translators** and contains the documents that t
 * **Ranger_milestone_debug.xls** - Testing script for how to test the game
 * **Pokemon_DataFile.xls** - details about all the Pokemon in the game
 
+
 The remaining files in this folder are:
 * **NARGEd.SRL** - Nintendo DS ROM for Pokemon Ranger
 * **staffrole_noa.xls** - List of People who worked on Pokemon Ranger in English and Japanese - used for the credits screen
 
 ---
-# Pokemon Ranger PAL Translation Spreadsheets (Ranger_EURO.zip)
+## Pokemon Ranger PAL Translation Spreadsheets (Ranger_EURO.zip)
 This folder contains a slightly modified /Documents folder compared to the previous **PokeRanger_Euro.zip** archive, but the changes are not particularly interesting apart from the new folder containing the Japanese translations **Ranger_JP**.
 
 There are four localisations which each have their own separate folder with the same files but with different locale text, these are: German, Italian, French and Spanish. 
@@ -183,11 +206,14 @@ The list of files that are present in all the localisations are:
 * **message_ending.xls** - Post-main story scenario including some events and NPC dialogues
 * **message_scenario.xls** - Body text (main story)
 
+
 The file from the previous archive **RangerTextList_Eng.xls** was sent to translators which explains the contents of each of these files.
+
 
 The other two files not related to the four localisations are at the root of this folder: 
 * **PKR_EURO.xls** - Pokemon Ranger Instructions for updating the documents via "macro book"
 * **NARGJ00_debag.srl** - Debug version of - Pokemon Ranger NDS ROM
+
 
 This folder also contains the Japanese version of the Documents seen in the previous archive (**PokeRanger_Euro.zip**), these are the new files in the new **Ranger_JP** in the documents directory:
 * **RangerTextList.xls** - This is an overview of what each excel spreadsheet sent to translators means (in Japanese)
@@ -200,7 +226,7 @@ The most interesting document here is the **PKRanger_DebugMode.doc** which descr
 Overall this is a very interesting insight into the translation process of a Nintendo DS game, it is something people don't really think about very much but nice to see whole they solved the task, especially for PAL regions that required four additional languages.
 
 ---
-# Pokemon Ranger PAL builds (rangereu.7z)
+## Pokemon Ranger PAL builds (rangereu.7z)
 When the **rangereu.7z** archive has been extracted you will get a folder for each of the Pokemon Ranger builds.
 
 Each folder contains both a M and F (Male/Female?) version of the European Nintendo DS ROM, it will take some time for Pokemon ROM hackers to understand all the differences in these builds but for now here is the list of builds included:
@@ -238,6 +264,8 @@ In order to access the contents of the SVN repository you have to run the follow
 ```bash
 svn checkout "file:///$PWD" trunk
 ```
+This is the first in a number of Citrus (CTR/3DS) source code archives which contain interesting test programs used internally at Nintendo.
+
 This project creates a 3DS ROM which has a variety of testing functions:
 * Function Test - keeps looping over a function until B is pressed
 * Command Test
@@ -245,6 +273,7 @@ This project creates a 3DS ROM which has a variety of testing functions:
 * Reliability Test for Writable Memory - Aging Test
 * Back Up Memory Test
 
+## Source code files
 The files that will be checked out into the trunk directory are:
 * BackupMemoryTest.cpp - sets up the menu for the Backup Memory Test
 * CardTestFunction.cpp - dummy functions **cardFunctionTestStart** and **cardFunctionTestEnd**
@@ -263,9 +292,12 @@ The files that will be checked out into the trunk directory are:
 * nakayama.h - header file for **nakayama.cpp** utility functions
 * クラス図.bmp - UML Diagram of all the classes (クラス図 is Japanese for Class Diagram)
 
+
 The **nakayama.cpp** file is a pretty useful library of functions to create a basic UI for 3DS programs, it has classes such as Page/UIControl etc which can be used to create nice clean UI code.
 
 One of the more interesting files is actually **クラス図.bmp** which is a rare case of programmers actually using UML to design or document the code they are writing.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It can be quite rare for game developers to use UML, but this class diagram was created for the Nintendo 3DS (CTR) Test Card. This was presumably created by Nakayama (nakayama.cpp) who seems to have created a nice little UI library for the 3DS. <a href="https://twitter.com/hashtag/NintendoLeaks?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoLeaks</a> <a href="https://twitter.com/hashtag/Nintendo3ds?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo3ds</a> <a href="https://t.co/drWynTWPEL">pic.twitter.com/drWynTWPEL</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1312401796514689024?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote>
 
 Also this project seems to use **OMake** rather than standard **make**, but since it is a fork of make it is fully backwards compatible and has a few new features such as dependency analysis [^1].
 
@@ -277,15 +309,17 @@ In order to access the contents of the SVN repository you have to run the follow
 ```bash
 svn checkout "file:///$PWD" trunk
 ```
-This seems to be the source code for a Unix (Windows via Cygwin) tool to generate an eFuseID. An eFuse are microscopic 'fuses' that can be physically burned away. They are used to prevent downgrading a firmware to a lower version as each firmware requires a higher number of fuses to have been destroyed. However we are not exactly sure what this software is used for or what an eFuse ID is. 
+This seems to be the source code for a Unix (Windows via Cygwin) tool to generate an eFuseID. eFuse are microscopic 'fuses' that can be physically burned away. They are used to prevent downgrading a firmware to a lower version as each firmware requires a higher number of fuses to have been destroyed. However we are not exactly sure what this software is used for or what an eFuse ID is. Also we know that the Nintendo Switch uses eFuses but no record of the 3DS using eFuses.
 
 All we know is that this project uses openssl and uses private/public key encryption using AES.
 
-it creates three different executables:
+It creates three different executables:
 * outputSharpID - Outputs the ID in a format corresponding to testSharpID
 * sharp
 * testSharpID
 * gen_id
+
+## Source Code Files
 
 The files that will be checked out into the trunk directory are:
 * Makefile - Makefile for **gen_id**
