@@ -26,7 +26,6 @@ twitterimage: https://www.retroreversing.com/public/images/leaks/PaladinLeak.jpg
 updatedAt: '2020-10-03'
 ---
 
-
 <section class="postSection">
     <img src="/public/images/leaks/PaladinLeak.jpg" class="wow slideInLeft postImage" />
 
@@ -35,6 +34,7 @@ The Paladin leak occurred on the 30th of September 2020 and included about 2.4GB
  </div>
 </section> 
 
+{% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
 
 # Files Leaked
 As usual the files were uploaded to anonfiles and the links shared on the 4Chan **/vp** board, the files were:
@@ -76,6 +76,7 @@ The files have the standard Nintendo SRL extension which was used both both GBA 
 It is unclear the file naming convention and how far along the different builds of the game are but we know that the first 4 characters are the standard product ID for Leaf Green (BPGE) and Fire Red (BPRE).
 
 ## ROMS leaked
+It is currently unknown what differences are in these builds, but you can rename them to '.gba' and run them in any Game Boy Advance emulator to find out.
 
 Contents:
 * BPGE264RR.srl - Leaf Green
@@ -126,8 +127,10 @@ Not sure what these Wii WAD files are and they don't open in the Dolphin emulato
 * common-key.bin
 * devmon.wad
 * devmon_.wad
-* viewer.wad
-* viewer_.wad
+* viewer.wad - ShowMiiWads says its corrupt
+* viewer_.wad - Sample Viewer
+
+You can extract both **devmon_.wad** and **viewer_.wad** with the tool ShowMiiWads but it is still not clear what purpose they have.
 
 ---
 # Pokemon Ranger
@@ -359,6 +362,8 @@ The files that will be checked out into the trunk directory are:
 
 If you know anything about this tool please reach out to us so we can update the information here.
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mystery from the Nintendo Paladin Leak: Why is there a Nintendo 3DS &quot;eFuse&quot; repository when they were not used on the console? The switch used eFuses to prevent downgrading firmware versions but the 3DS did not as far as we know. <a href="https://t.co/1BrJ1wDS7i">https://t.co/1BrJ1wDS7i</a> <a href="https://twitter.com/hashtag/NintendoLeaks?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoLeaks</a> <a href="https://twitter.com/hashtag/3ds?src=hash&amp;ref_src=twsrc%5Etfw">#3ds</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1312407942742896641?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ---
 # 3DS Firmware SVN Repository (ctr_firmware.zip)
 In order to access the contents of the SVN repository you have to run the following command:
@@ -418,10 +423,10 @@ The other folder holds the Windows based tools for the TwlBkpCheck tool, the con
 
 The **Bin** folder just contains the compiled results of both **TWLBackupBlock** and **FalsifyTwlBackup**:
 * FalsifyTwlBackup.exe
-* TwlBackupBlock.dll
+* TwlBackupBlock.dll - dynamic library used by FalsifyTwlBackup.exe to read TWL: backup files
 
 ### TWLBackupBlock (.net C# Project)
-**TWLBackupBlock**:
+This is a Dynamic Library that provides encryption / decryption processing for TWL backup data. Not sure if this is for **TAD** files, the contents are:
 * ExtBinaryReader.cs
 * SignatureBody.cs
 * Utility.cs
@@ -441,19 +446,43 @@ The **Bin** folder just contains the compiled results of both **TWLBackupBlock**
 * AbstractBody.cs
 
 ### FalsifyTwlBackup (.net C# Project)
-**FalsifyTwlBackup**:
+This is a .net C# executable that seems to modify a TWL backup by removing sections of bytes and replacing with 0-only bytes.
+
+There seems to be 6 different categories of modifications it will make (1xx,2xx,3xx,4xx,5xx and 9xx).
+
+This program is to presumably create bad input for the 3DS **TwlBkpImporter** application to test that it correctly errors on bad input. The contents of this folder are:
 * Category1xx.cs
-* Properties.cs
+* Properties.cs - Standard C# file with meta-data
 * Category9xx.cs
 * main.cs
 * Category5xx.cs
-* FalsifyTwlBackup.csproj
-* Properties
-* Properties/AssemblyInfo.cs
-* Falsify.cs
+* FalsifyTwlBackup.csproj - Standard C# Project file
+* Properties/AssemblyInfo.cs - Standard C# file with meta-data
+* Falsify.cs - functions such as **CreateImproperData**
 * Category4xx.cs
 * Category3xx.cs
 * Category2xx.cs
+
+When trying to run the **FalsifyTwlBackup.exe** executable the following usage information is printed:
+```bash
+./FalsifyingTwlBackup.exe BACKUP_FILE ENC_KEY_FILE MAC_KEY_FILE [-mode MODE] [-type TYPE]
+  BACKUP_FILE  : *.bin
+  ENC_KEY_FILE : *.txt
+  MAC_KEY_FILE : *.txt
+
+  MODE
+   all (default) : output all falsifying pattern
+   cat:CAT_NUM   : output all pattern of CAT_NUM category
+                     ex) -mode cat:100 -> falsifying 100,101,102....
+   each:PAT_NUM  : output PAT_NUM pattern
+                     ex) -mode each:204 -> falsifying 204 only
+   verify        : verify backup file
+
+  TYPE
+   normal (default) : normal bkp type
+   wps              : bkp with private save type
+   legacy           : legacy bkp type
+```
 
 ---
 # Nintendo RED 3DS Tools (ctr_tools_red.zip)
