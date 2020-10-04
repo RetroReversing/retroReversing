@@ -394,7 +394,7 @@ The **ctr_test_tools.zip** archive contains source code for a tool called **TwlB
 The project comes in two parts, one that runs on the 3DS itself and the other that runs on Windows PCs.
 
 ## TwlBkpImporter for 3DS
-The first tool is for the 3DS system itself and it is called **TwlBkpImporter**, which seems to be a tool to import a previously backed-up DSi partition from the SD card into the TWL NAND partition, the source files are:
+The first tool is for the 3DS system itself and it is called **TwlBkpImporter**, which seems to be a tool to import a previously backed-up DSi (partition?/game?) from the SD card into the TWL NAND partition, the source files are:
 * TwlBkpImporter/sdAccessor.h - header file for SD card functions
 * TwlBkpImporter/OMakefile - OMakefile for the 3DS rom
 * TwlBkpImporter/twlBkpImporter.rsf - Meta-data about the Card (e.g Title, CompanyCode)
@@ -484,6 +484,9 @@ When trying to run the **FalsifyTwlBackup.exe** executable the following usage i
    legacy           : legacy bkp type
 ```
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Second Mystery from the Paladin Leak, what were the DSi Backup tools for 3DS used for (FalsifyTwlBackup). They seem to be tools to import a DSi Backup and &quot;Falsify&quot; it but why would this be needed on the 3DS? <a href="https://t.co/1BrJ1wmgII">https://t.co/1BrJ1wmgII</a> <a href="https://twitter.com/hashtag/nintendoleak?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleak</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1312490952334868481?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote>
+
+
 ---
 # Nintendo RED 3DS Tools (ctr_tools_red.zip)
 In order to access the contents of the SVN repository you have to run the following command:
@@ -492,8 +495,8 @@ svn checkout "file:///$PWD" trunk
 ```
 
 The folders that will be checked out into the trunk directory are:
-* HSM_Server
-* MakeUpdatePartition
+* **HSM_Server** - Hardware Security Module Server for signing content from the 3DS Store
+* MakeUpdatePartition - Create the Update Partition in a 3DS Game
 * MasterEditorCTR
 * MediaSizeTestProjectMaker
 * MetaDataExtractor
@@ -501,11 +504,123 @@ The folders that will be checked out into the trunk directory are:
 * RomCompareTool
 * mastering
 
+## HSM Server by Sarion Systems Research
+**Sarion Systems Research** is a Japanese Company who specialise in Hardware Security Modules (HSM) [^2].
+
+This is the source code to a server that issues HSM certificates for 3DS downloadable content. This acts in a similar way to browsers certificate authorities to make sure that the software being sent to the 3DS is signed by official sources and has not been tampered with.
+
+Basically it is Java EE web application source code that gets compiled into a **war** file and uses apache as the web server for static content.
+
+They call the application Web Service Signer (WSSigner) and it comes in a few parts:
+* **Wssigner-client** - sample client -this would probably have been used to help development of the 3DS Game Store, although of course it would not have been written in Java like this sample is
+* **WSSigner-API** - The main API uses to get signed content and make sure the content is correct
+
+Unless you are really interested in security and cryptography you will probably not be interested in this source code. 
+
+---
+## MakeUpdatePartition
+This folder contains the source code for a tool that updated *.cia files and adds a standard update partition into it. 
+
+Presumably this tool is used just before mastering the final Game card so that it will contain the necessary update data so that if the user doesn't have a high enough firmware version, they can update via the Game Card.
+
+Most if not all 3DS game cards had update partitions with the latest firmware available at the time on them.
+
+This project is a mix of Python and bash scripts a long with two executables which we are not sure the purpose of:
+* imas-tool.4.8.1.exe
+* CommandLineOls.exe
+
+Note that many of these files confirm that the 3DS operating Systems name was "Horizon".
+
+### CommandLineOls (Official Licensing Service/Server?)
+When you try to run the ** executable from the Command Prompt it provides the following usage information:
+```bash
+Usage: ./CommandLineOls *.xml threadNum[default=1]
+```
+
+It is not clearly understood the purpose, but we believe it is a tool to contact the Official Licensing Server (OLS) to create signed licenses for each game title, presumably it is quite an extensive operation if you can customise the number of threads used!
+
+Although there is a few scripts that can give a clue as to what this tools does, they are:
+* genDevOlsXml.py
+* genOlsXml.py
+* genProdOlsXml.py
+
+When you try to run one of the python files it prints the following usage information:
+```bash
+Usage:
+  genOlsXml.py UserName Password Tin downloadDirectory serverName titlePassword ciaFiles...
+```
+
+The Username and Password will be for a Nintendo user admin, serverName will presumably be one of the licensing servers that handles 3DS content.
+
+### IMAS Tool (Item Uploader?)
+The executable **imas-tool.4.8.1.exe** is quite interesting, while we don't quite know the purpose of it, some of the contents can be seen using a simple `strings` command.
+
+It contains compiled Java classes for apache and even some from Nintendo, this is because the executable is using **Launch4J**, so it's a Java application that looks like a standard executable.
+ 
+You can see the Nintendo files in the table below.
+
+Name | Possible Purpose
+---|---
+jp/co/nintendo/imas/tool/ImasTool.class | 
+jp/co/nintendo/imas/tool/MailSender.class | 
+jp/co/nintendo/imas/tool/util/PropertyManager$PropertyKey.class | 
+jp/co/nintendo/imas/tool/util/UserConfigurationManager.class | 
+jp/co/nintendo/imas/tool/util/Messages.class | 
+jp/co/nintendo/imas/tool/util/UserConfigurationManager$1.class | 
+jp/co/nintendo/imas/tool/util/ImasUrlUtil.class | 
+jp/co/nintendo/imas/tool/util/PropertyManager.class | 
+jp/co/nintendo/imas/tool/util/ImasToolUtil.class | 
+jp/co/nintendo/imas/tool/xml/Proxy.class | 
+jp/co/nintendo/imas/tool/xml/BmsAccount.class | 
+jp/co/nintendo/imas/tool/xml/Operation.class | 
+jp/co/nintendo/imas/tool/xml/Configuration.class | 
+jp/co/nintendo/imas/tool/xml/Operations.class | 
+jp/co/nintendo/imas/tool/xml/Titles.class | 
+jp/co/nintendo/imas/tool/xml/ObjectFactory.class | 
+jp/co/nintendo/imas/tool/xml/Notification.class | 
+jp/co/nintendo/imas/tool/xml/RsaServerDownNotification.class | 
+jp/co/nintendo/imas/tool/xml/Title.class | 
+jp/co/nintendo/imas/tool/xml/ServerInfo.class | 
+jp/co/nintendo/imas/tool/HttpClientManager$1.class | 
+jp/co/nintendo/imas/tool/OlsException.class | 
+jp/co/nintendo/imas/tool/ResponseParser.class | 
+jp/co/nintendo/imas/tool/ResponseParser$1.class | 
+jp/co/nintendo/imas/tool/NotificationException.class | 
+jp/co/nintendo/imas/tool/HttpClientManager.class | 
+jp/co/nintendo/imas/tool/BtsException.class | 
+jp/co/nintendo/imas/tool/BmsException.class | 
+jp/co/nintendo/imas/tool/HttpClientManager$3.class | 
+jp/co/nintendo/imas/tool/HttpClientManager$2.class | 
+jp/co/nintendo/imas/tool/MailSender$1.class | 
+jp/co/nintendo/imas/tool/enums/OperationEnum.class | 
+jp/co/nintendo/imas/tool/enums/CountryEnum.class | 
+jp/co/nintendo/imas/tool/enums/PlatformEnum.class | 
+jp/co/nintendo/imas/tool/enums/BmsErrorCodeEnum.class | 
+jp/co/nintendo/imas/tool/enums/TitleTypeEnum.class | 
+jp/co/nintendo/imas/tool/ols/BtsOperation$UploadStatusTask.class | 
+jp/co/nintendo/imas/tool/ols/BtsOperation.class | 
+jp/co/nintendo/imas/tool/ols/OlsOperation.class | 
+jp/co/nintendo/imas/tool/ols/AbstractOlsOperation.class | 
+jp/co/nintendo/imas/tool/HttpClientManager$4.class | 
+jp/co/nintendo/imas/tool/HttpClientManager$5.class | 
+jp/co/nintendo/imas/tool/messages.properties | 
+jp/co/nintendo/imas/tool/messages_ja.properties | 
+jp/co/nintendo/imas/tool/HttpManager.class | 
+jp/co/nintendo/imas/tool/RsaServerDownException.class | 
+jp/co/nintendo/imas/tool/Constants.class | 
+META-INF/maven/jp.co.nintendo/imas-tool/pom.xml | 
+META-INF/maven/jp.co.nintendo/imas-tool/pom.properties | 
+
+If you try to run the application with a Java Runtime installed it shows the following usage information and then quits:
+> Usage:
+> - Execute from command line : ./item-uploader.exe [Configuration file]
+> - Execute from explorer : Drag & drop a configuration file over item-uploader.exe icon
+
 ---
 # IRIS Software Development Kit
 The IRIS project was supposed to be the next in the Game Boy line, a more powerful Game Boy Advance with a single screen. Later the project was changed into the **NITRO** project when another screen was added and it became the Nintendo DS.
 
-## IRIS SDK Files from December 3rd 2003 for ToolMaker (irisSDKbulb-snapshot-031203-forToolMaker.tar.gz)
+## Files from December 3rd 2003 for ToolMaker (irisSDKbulb-snapshot-031203-forToolMaker.tar.gz)
 The **irisSDKbulb-snapshot-031203-forToolMaker.tar.gz** archive is the earliest known Software development kit for the IRIS project.
 
 There are some files that are not in this archive that are in the **irisSDKbulb-snapshot-031203.tar.gz** archive instead, namely the **docs/_private/** folder which will be covered in the next section.
@@ -513,7 +628,7 @@ There are some files that are not in this archive that are in the **irisSDKbulb-
 As for the files in this archive they are just earlier versions of the IRIS SDK so check out the section below for the files in the last known version of the IRIS SDK as it is very similar.
 
 ---
-## IRIS SDK Files from December 3rd 2003 (irisSDKbulb-snapshot-031203.tar.gz)
+## Files from December 3rd 2003 (irisSDKbulb-snapshot-031203.tar.gz)
 This is almost exactly the same as the content from **irisSDKbulb-snapshot-031203-forToolMaker.tar.gz** but contains some new files which I guess are not to be sent in the **forToolMaker** build (whatever that is).
 
 All the new files are under the folder **docs/_private/** which is a completely new directory, these files are:
@@ -522,13 +637,13 @@ All the new files are under the folder **docs/_private/** which is a completely 
 * CodeWarrior
 
 ---
-## IRIS SDK Files from December 12th 2003 (irisSDKbulb-snapshot-031212.tar.gz)
+## Files from December 12th 2003 (irisSDKbulb-snapshot-031212.tar.gz)
 The contents are pretty much the same as December 3rd but there has been development work so there isn't that many new files but quite a few source files have changed, which is to be expected.
 
 Nothing of real interest is in this archive unless you want to see the progress made between two different snapshots. Check out the last IRIS SDK (**irisSDKbulb-snapshot-040120.tar.gz**) for an overview of the contents of the IRIS SDK.
 
 ---
-## Private IRIS SDK Files from 20th January 2004 (irisSDKbulb-snapshot-040120-private.tar.gz)
+## Private Files from 20th January 2004 (irisSDKbulb-snapshot-040120-private.tar.gz)
 This is an interesting archive as it only contains contents not found in the other build from 20th January 2004 (**irisSDKbulb-snapshot-040120.tar.gz**). 
 
 These files are:
@@ -550,7 +665,7 @@ These files are:
 * ./SDKTools/@WinCvsSetting.rtf
 
 ---
-## IRIS SDK from 20th January 2004 (irisSDKbulb-snapshot-040120.tar.gz)
+## Files from 20th January 2004 (irisSDKbulb-snapshot-040120.tar.gz)
 This is the last known version of the IRIS SDK built on the 20th of January 2004, presumably just after the Nintendo DS (NITRO) project was started as it contains files referencing the project under the name **Nitro**.
 Contents:
 * Makefile
@@ -797,3 +912,4 @@ Contents:
 ---
 # References
 [^1]: [The OMake build system](http://omake.metaprl.org/index.html)
+[^2]: [HSM - Sarion Systems Research](https://translate.googleusercontent.com/translate_c?depth=1&hl=en&prev=search&pto=aue&rurl=translate.google.com&sl=ja&sp=nmt4&u=https://www.sarion.co.jp/biz/biz_area_hsm.html&usg=ALkJrhhZSaL83IoTbt-2GDjG7yidTS4zSA)
