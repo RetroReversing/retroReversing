@@ -132,3 +132,42 @@ You can run the library you built through the terminal like so:
 ```
 
 Note that for consoles that require a BIOS make sure it is located in the System directory of RetroArch. Mine was `~/Documents/RetroArch/system`.
+
+---
+# Step 4 - Modifying the Makefile to include libRetroReversing
+
+## 4.1 Add include to Makefile
+Find the main Makefile for your core, for example it may be called `Makefile.libretro`.
+
+Find the line that imports the common makefile:
+```
+include $(BUILD_DIR)/Makefile.common
+```
+
+Add the following line after it:
+```
+include ./libRetroReversing/Makefile.retroreversing
+```
+
+## 4.2 Re-make
+Now that you have included the libRetroReversing source files, re-run make the same way you did earlier and then make sure the emulator still works, you can do all this with the one liner below.
+
+```bash
+make && /Applications/RetroArch.app/Contents/MacOS/RetroArch -L mednafen_saturn_libretro.dylib "/Saturn/Games/Awesome Game.cue" -v
+```
+
+## Add specific functions for your console
+In the libRetroReversing submodule duplicate a  file called `./console/DummyConsole.cpp` and name it after your console e.g `Saturn.cpp`. 
+
+This file will be the main interface that will hold the custom code for your specific emulator.
+
+There are a couple of functions you will need to implement:
+
+---
+# Step 5 - Source Modifications
+
+## Add Include to top of libretro.c
+Find either `libretro.c` or `libretro.cpp` and add the following include to the top of the file:
+```c
+#include "libRetroReversing/include/libRR.h"
+```
