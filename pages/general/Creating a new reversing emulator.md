@@ -149,6 +149,9 @@ Add the following line after it:
 include ./libRetroReversing/Makefile.retroreversing
 ```
 
+For example in the emulator SameBoy the Makefile for libretro is in its own libretro folder as you can see in the screenshot below:
+<img src="/public/images/reversingEmulator/SameBoy-Create-Reversing-Emulator.jpg" class="wow slideInLeft postImage" /> 
+
 ## 4.2 Re-make
 Now that you have included the libRetroReversing source files, re-run make the same way you did earlier and then make sure the emulator still works, you can do all this with the one liner below.
 
