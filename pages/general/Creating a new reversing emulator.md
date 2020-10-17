@@ -1,8 +1,8 @@
 ---
 layout: post
 tags: 
-- emulator
-- reversingemulator
+- reversingEmulator
+- introduction
 title: Creating a new reversing emulator
 image: /public/Articles/Creating a new Reversing Emulator.jpg
 thumbnail: /public/consoles/Atari 2600.png
