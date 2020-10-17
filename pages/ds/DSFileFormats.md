@@ -23,17 +23,29 @@ editlink: /ds/DSFileFormats.md
 # TAD (similar to a Wii WAD)
 TAD files are installable applications for the Nintendo DSi, similar in function to the WAD file for the Wii console.
 
+## Creation of TAD files
 Developers would create these files by converting an SRL ROM to TAD format with a tool called **maketad**.
 
 It is not common to see TAD files out in the wild as they tend to be used by developers. However in the Platinum leak there was a huge archive of DSi applications in TAD format. Some of these are even debug versions so may contain full debug symbols useful for reverse engineering.
 
+## Usage of TAD files
 Developers would use an application called **TwlNmenu** to install TAD files on their DSi hardware.
 
-However there doesn't seem to be a tool capable of installing TAD files on a modified DSi as of September 2020. There also doesn't seem to be a way to extract the contents or even emulate them.
+However there doesn't seem to be a tool capable of installing TAD files on a modified DSi as of September 2020. However you can use the details in the next section to extract a DS ROM file (SRL) from the TAD file.
 
+## Extracting TAD file content
+Using the **split_tad_console** script (from twToolsRed) one can extract the Nintendo DSi ROM (SRL) file from a TAD file [^4]. This has been tested with The Legend of Zelda 4 Swords Tad file available in the Platinum Leak.
+
+There is also an alternative python script from a user on 4chan: 
+[#This is for Python 2from Crypto.Cipher import AES #pycrypto. If on windows, h - Pastebin.com](https://pastebin.com/7dhXeMWJ)
+
+One can then use the steps in the SRL section below to mount the SRL to a directory and view its contents.
+
+From the sounds of it on a 3DS you can use **GodMode9** to convert the SRL to a CIA, or on preview, install the SRL directly.
+NO$GBA should be able to launch it too once it's in SRL format [^4].
+
+## Re-signing a TAD file
 Interestingly it is possible to resign a TAD file using the Wii resigning tools, but it won't be able to be installed on a modified DSi due to anti-tampering methods [^1].
-
-[TwlNmenu - RGDWiki](https://wiki.mariocube.com/index.php?title=TwlNmenu&mobileaction=toggle_view_desktop)
 
 ## TwlNmenu on 3DS?!
 Do not run TwlNmenu on 3DS unless you have backed up your TWLN partition and you find a way to get valid certificates. In theory if you got valid certificates you would be able to install the TAD files but noone has yet managed to do it.
@@ -47,7 +59,11 @@ SRL is the extension Nintendo uses for Nintendo DS ROMS and is the same as the N
 
 Also it seems that on the Wii U Nintendo used the .srl file extension for their Nintendo DS emulated ROMs.
 
-You can convert SRL files to TAD format with the SDK tool called **maketad**.
+## Extracting SRL content
+To extract the content of a SRL ROM file you can use the **ninfs** tool to mount the SRL to a directory and then view its contents, like so [^4]:
+```bash
+mount_srl swords.srl ~/mnt_srl
+```
 
 ---
 # TMD Format (Title metadata)
@@ -65,3 +81,4 @@ The **.NLF** file is interesting as it is a **NitroROM List File** as it seems t
 [^1]: [TwlNmenu - RGDWiki](https://wiki.mariocube.com/index.php?title=TwlNmenu&mobileaction=toggle_view_desktop)
 [^2]: [TWL Dev Apps working on retail 3DS! - YouTube](https://www.youtube.com/watch?v=gm5_nZOm_kM)
 [^3]: [How do you convert Nintendo DS .SRL into decrypted .NDS?](https://gbatemp.net/threads/how-do-you-convert-nintendo-ds-srl-into-decrypted-nds.400279/)
+[^4]: [TAD Format - Extra details · Issue #38 · RetroReversing/retroReversing](https://github.com/RetroReversing/retroReversing/issues/38)
