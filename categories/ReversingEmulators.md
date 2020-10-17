@@ -12,6 +12,11 @@ breadcrumbs:
     url: #
 recommend: reversingEmulator
 editlink: ../categories/ReversingEmulators.md
+redirect_from:
+  -  /reversingemulator
+image: /public/images/reversingEmulator/Reversing emulators.jpg
+twitterimage: https://www.retroreversing.com/public/images/reversingEmulator/Reversing emulators.jpg
+updatedAt: '2020-10-17'
 ---
 
 # What is a Reversing Emulator?
