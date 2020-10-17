@@ -14,6 +14,7 @@ recommend: reversingEmulator
 editlink: ../categories/ReversingEmulators.md
 redirect_from:
   -  /reversingemulator
+  -  /reversingEmulator
 image: /public/images/reversingEmulator/Reversing emulators.jpg
 twitterimage: https://www.retroreversing.com/public/images/reversingEmulator/Reversing emulators.jpg
 updatedAt: '2020-10-17'
@@ -58,7 +59,7 @@ More and more consoles are becoming supported with the aim of most of the Sega/N
 {% include link-to-other-post.html post="/Sega-Saturn-Reversing-Emulator" description="For more information about the Sega Saturn emulator based on Beetle check out this post." %}
 
 ## Nintendo GameBoy (DMG & GBC)
-{% include link-to-other-post.html post="//" description="For more information about the Game Boy and Game Boy Color reversing emulator based on Sameboy check out this post." %}
+{% include link-to-other-post.html post="/GameBoy-Reversing-Emulator" description="For more information about the Game Boy and Game Boy Color reversing emulator based on Sameboy check out this post." %}
 
 ## Pokemon Mini
 {% include link-to-other-post.html post="//" description="For more information about the Pokemon Mini reversing emulator based on Pokemini check out this post." %}
