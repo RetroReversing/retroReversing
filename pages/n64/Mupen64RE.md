@@ -2,6 +2,7 @@
 layout: post
 tags: 
 - n64
+- reversingEmulator
 title: N64 Reversing Emulator - Mupen64+ RE
 image:  /public/N64/N64ReversingEmulator.png
 thumbnail: /public/consoles/Nintendo 64.png
