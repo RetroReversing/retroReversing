@@ -39,8 +39,12 @@ Many Yaroze games were included in the free demo disc distributed with the **UK 
 Special Thanks to XPCoin, who is one of the few people who have documented the process of developing for Net Yaroze on YouTube!  Check him out here:  https://www.youtube.com/user/gwald
 
 ---
-# Yaroze games on the NUON
-Believe it or not a few games built on the Net Yaroze were ported to the relatively obscure NUON platform, more information can be found here [^2]: [DragonShadow Industries releases Yaroze Classics for NUON](http://www.the-nextlevel.com/tnl/threads/39974-DragonShadow-Industries-releases-Yaroze-Classics-for-NUON)
+# Yaroze games on the NUON DVD games console
+Believe it or not a few games built on the Net Yaroze were ported to the relatively obscure NUON platform [^2], they were ported by a company called **DragonShadow Industries**.
+
+The games released for the NUON that were developed for Net Yaroze are as follows:
+* Katapila by Ben James
+* Invs by Philippe-Andre Lorin
 
 ---
 # References
