@@ -50,9 +50,10 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 # Nintendo Handheld Development Kit Hardware
 
 ## Nintendo Game Boy (DMG & GBC) 
-[Game Boy Development kit Hardware](https://www.retroreversing.com/gameboy-development-kit-hardware/)
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For information about Nintendo's Game Boy development hardware check out this post." %}
+
 ## Nintendo Game Boy Advance (GBA)
-[Game Boy Advance Development Kit Hardware](https://www.retroreversing.com/game-boy-advance-development-kit/)
+{% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For information about Nintendo's Game Boy Advance development hardware check out this post." %}
 
 ---
 # SEGA Development Kit Hardware
