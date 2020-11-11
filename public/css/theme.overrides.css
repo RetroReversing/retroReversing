@@ -11,6 +11,13 @@
   margin-left: 4%;
 }
 
+.post ol {
+  padding-left: 5%;
+  margin: initial;
+  margin-top: 5px;
+  margin-left: 4%;
+}
+
 .post a {
   text-decoration: underline ;
 }
