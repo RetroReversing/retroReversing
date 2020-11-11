@@ -78,13 +78,16 @@ We have tried to document all the development kit hardware available for the mos
 [Official PlayStation Portable Development Kit](https://www.retroreversing.com/official-psp-devkit)
 
 ## Sony Playstation 1
-[Official PlayStation 1 Development Kit](https://www.retroreversing.com/official-playStation-devkit) <br /> [Net Yaroze - The PS1 Consumer Dev Kit](https://www.retroreversing.com/net-yaroze)
+{% include link-to-other-post.html post="/official-playStation-devkit" description="For information about Sony's Playstation One development hardware check out this post." %}
+
+Sony also officially supported a consumer development kit known as Net Yaroze, which was limited compared to the full development kit but some excellent games were created with it!
+{% include link-to-other-post.html post="/net-yaroze" description="For information about Sonys consumer development hardware known as Net Yaroze development hardware check out this post." %}
 
 ## Sony Playstation 2 
-[Sony PlayStation 2 Development Kit (Hardware)](https://www.retroreversing.com/playstation-2-development-hardware)
+{% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}
 
 ## Sony Playstation 3 
-[Official PlayStation 3 Development Kit (Hardware)](https://www.retroreversing.com/official-playStation3-devkit)
+{% include link-to-other-post.html post="/official-playStation3-devkit" description="For information about Sony's Playstation Three development hardware check out this post." %}
 
 ---
 # All Posts about Development Kits
