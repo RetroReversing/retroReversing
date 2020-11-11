@@ -238,26 +238,26 @@ The main benefit of the IS-Viewer64 over alternative flash carts available to de
 The IS-Viewer 64 was used to develop the two Zelda games (Oracle of Time, Majoras Mask) and still contains some code to write out debug messages to a connected PC on the retail ROM [^5].
 
 Here is a list of games that still contain IS64 debug code thanks to a Pastebin by user `ZOINKITY` [^8]:
-1. Castlevania / Akumajou Dracula Mokushiroku - Real Action Adventure
-2. Dance Dance Revolution - Disney Dancing Museum
-3. Ganbare Goemon - Neo Momoyama Bakufu no Odori / Mystical Ninja Starring Goemon
-4. Ganbare! Nippon! Olympics 2000
-5.  Hyper Olympics in Nagano 64 / Nagano Winter Olympics '98
-6. J.League Tactics Soccer
-7. Mario Artist Paint Studio (64DD)
-8. Paper Mario
-9. Legend of Zelda, The - Ocarina of Time - Master Quest (Debug)
-10. Legend of Zelda, The - Ocarina of Time (Debug)
-11. International Superstar Soccer 2000
-12. International Track & Field - Summer Games / International Track & Field 2000
-13. Jikkyou J.League 1999 - Perfect Striker 2
-14. Legend of Zelda, The - Majora's Mask (Debug)
-15. Mario Party 3   [[USA, PAL, +not+ Japan]]
-16. Midway's Greatest Arcade Hits - Volume 1
-17. Pokemon Stadium 2 / Pocket Monster Stadium 3
-18. 4567 (64DD)
-19. Doshin the Giant 2 (64DD)
-20. Mario Artist Communication Kit (64DD)
+  1. Castlevania / Akumajou Dracula Mokushiroku - Real Action Adventure
+  2. Dance Dance Revolution - Disney Dancing Museum
+  3. Ganbare Goemon - Neo Momoyama Bakufu no Odori / Mystical Ninja Starring Goemon
+  4. Ganbare! Nippon! Olympics 2000
+  5.  Hyper Olympics in Nagano 64 / Nagano Winter Olympics '98
+  6. J.League Tactics Soccer
+  7. Mario Artist Paint Studio (64DD)
+  8. Paper Mario
+  9. Legend of Zelda, The - Ocarina of Time - Master Quest (Debug)
+  10. Legend of Zelda, The - Ocarina of Time (Debug)
+  11. International Superstar Soccer 2000
+  12. International Track & Field - Summer Games / International Track & Field 2000
+  13. Jikkyou J.League 1999 - Perfect Striker 2
+  14. Legend of Zelda, The - Majora's Mask (Debug)
+  15. Mario Party 3   [[USA, PAL, +not+ Japan]]
+  16. Midway's Greatest Arcade Hits - Volume 1
+  17. Pokemon Stadium 2 / Pocket Monster Stadium 3
+  18. 4567 (64DD)
+  19. Doshin the Giant 2 (64DD)
+  20. Mario Artist Communication Kit (64DD)
 
 
 
@@ -283,6 +283,16 @@ You can view a cached version of the official SN systems SN64 development kit th
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check this out!!<br>I recently acquired these <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> cartridges called the “SN64” and the “Maestro64”. <br><br>Manufactured by the company:<br>“SN Systems”. The more Rare of the two is the Maestro64, which was used for N64 Sound development. <a href="https://twitter.com/hashtag/N64?src=hash&amp;ref_src=twsrc%5Etfw">#N64</a> <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://t.co/9vvlB1MOQ7">https://t.co/9vvlB1MOQ7</a> <a href="https://t.co/NRHoj2Uu34">pic.twitter.com/NRHoj2Uu34</a></p>&mdash; Gerry_MAN (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1179955009800286208?ref_src=twsrc%5Etfw">October 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+## Maestro64
+SN Systems also released an unofficial development kit created specifically for Musicians called the Maestro64, we have another post specifically for this piece of hardware.
+
+{% include link-to-other-post.html post="/maestro64/" description="For information about SN Systems's Maestro64 development cartridge check out this post." %}
+
+## Bung DoctorV64
+There was also a device created by Bung which advertised itself as a development kit but many consumers used it for backing up game cartridges. 
+
+{% include link-to-other-post.html post="/Bung-Doctor-v64/" description="For information about Bung's v64 development hardware check out this post." %}
+
 ---
 # Official Sound Development Tools
 Nintendo released multiple hardware for Sound designers to test their creations on the real hardware without having to bug the developers to borrow a full development machine.
@@ -292,7 +302,7 @@ The SDK also came with the `N64 Sound Tools` and `MusyX Audio Tools` which conta
 
 ## NUS-SUD (Sound development)
 
-Gerry_MAN has taken some excellent photos of his NUS-SUD on Twitter along with photos of him actually managing to connect and send data from his PC to the hardware!
+**Gerry_MAN** has taken some excellent photos of his NUS-SUD on Twitter along with photos of him actually managing to connect and send data from his PC to the hardware!
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Check this out!<br>The <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> SoundTools Dev cart streams Music or samples in real-time to the <a href="https://twitter.com/hashtag/N64?src=hash&amp;ref_src=twsrc%5Etfw">#N64</a>. Sent over an LPT printer cable. Notice the white squares? @ the bottom of the screen? <br>Sound PEAK meters!!<br>Inactive when the Cart is not streaming sound.<br>Pretty cool!! <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://t.co/ZpgL1RtSdD">pic.twitter.com/ZpgL1RtSdD</a></p>&mdash; Gerry_MAN (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1182083779915071498?ref_src=twsrc%5Etfw">10 October 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
