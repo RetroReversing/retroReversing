@@ -40,11 +40,15 @@ Special Thanks to XPCoin, who is one of the few people who have documented the p
 
 ---
 # Yaroze games on the NUON DVD games console
-Believe it or not a few games built on the Net Yaroze were ported to the relatively obscure NUON platform [^2], they were ported by a company called **DragonShadow Industries**.
+Believe it or not a few games built on the Net Yaroze were ported to the relatively obscure NUON platform [^2], they were ported by a site called **DragonShadow Industries**. The way this was done is rather interesting, they were porting their own game **Decaying Orbit** to the NUON and instead of fully reqriting the games source code, they created a wrapper library that simulated some of the Net Yaroze librarys. This has the benefit of allowing multiple Net Yaroze games to be ported to the NUON with little code modification required!
 
 The games released for the NUON that were developed for Net Yaroze are as follows:
+* Decaying Orbit by DragonShadow Industries
 * Katapila by Ben James
 * Invs by Philippe-Andre Lorin
+* BreakDown by Chris Wallace
+
+Unfortunetly the source code for this library was never released, so the games that can be ported are limited to the above list for now.
 
 ---
 # References
