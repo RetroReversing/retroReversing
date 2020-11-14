@@ -8,6 +8,7 @@ tags:
 title: Sega Game Gear Development Hardware
 thumbnail: /public/consoles/Sega Game Gear.png
 image: /public/images/gamegear/Sega GameGear Devkit Hardware.jpg
+twitterimage: https://www.retroreversing.com/public/images/gamegear/Sega GameGear Devkit Hardware.jpg
 permalink: /sega-game-gear-devkit
 breadcrumbs:
   - name: Home
