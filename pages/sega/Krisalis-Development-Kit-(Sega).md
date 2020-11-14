@@ -6,7 +6,7 @@ tags:
 - gamegear
 - sms
 - sega
-title: Sega Master System/Game Gear Development Kits
+title: Krisalis Development Kit (Sega Master System/Game Gear)
 thumbnail: /public/consoles/Sega Game Gear.png
 image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
 permalink: /krisalis-development-kit-(sega)/
@@ -15,15 +15,13 @@ breadcrumbs:
     url: /
   - name: Development Kits
     url: /devkit
-  - name: Sega Master System/Game Gear Development Kits
+  - name: Krisalis Development Kit (Sega Master System/Game Gear)
     url: #
 recommend: devkit
 editlink: /sega/Krisalis-Development-Kit-(Sega).md
 ---
 
-# Custom In-house development Kits
-
-## Krisalis Development Kit
+# Krisalis Development Kit
 
 In the early to mid 1990s Krisalis Software Ltd created their own in-house sega Game Gear and Master System Development Kit. 
 
@@ -33,7 +31,7 @@ It seems to be very similar to Spidersofts own in-house dev kit (called ESYS) an
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
 
-### Gear Video Decoder
+## Gear Video Decoder
 
 The Gear Video decoder was a board created by Shaun Hollingworth, which presumably is the board that connects the Game Gear to the TV monitor or development system. 
 
@@ -43,7 +41,7 @@ Games World magazine even featured a version of this hardware (which they called
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
 
-### Krisalis and Spidersoft collaboration
+## Krisalis and Spidersoft collaboration
 
 It seems both Krisalis and Spidersoft were creating their own development hardware in collaboration with one another, presumably sharing experience of what works and what doesn't work so the other studio can improve their own development kit. They were both mentioned in the Games World article as creator of the ESYS-RGB adapter.
 
@@ -54,7 +52,7 @@ RetroSpark on SMSPower.org has the following to say on the comparison:
 > 
 > In fact, we discussed the possibility that this box is ESYS. Matt mentioned that Krisalis wrote the software for ESYS - perhaps they were also subcontracted to build the hardware. However, there is at least one difference between this box and Matt's - this box does not appear to have a battery backup for the SRAM. 
 
-### ESYS Development Kit
+## ESYS Development Kit
 
 Matt Taylor mentions the similar ESYS development tool used in-house at rival software company Spidersoft:
 
@@ -68,20 +66,20 @@ The ESYS box also had battery backup meaning that ROM images downloaded to it co
 
 ```
 
-### Development Kit BIOS
+## Development Kit BIOS
 
 The BIOS for this development kit has been dumped by the talented people over at SMSPower.org and it runs out that you can run it in an emulator as either a Master System ROM OR a Game Gear ROM! The Bootup screen shows a different image depending on if its being run as a Master System game or Game Gear as can be seen in the screenshots below.
 
-### Master System Mode
+## Master System Mode
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_3.png)
 
-### Game Gear Mode
+## Game Gear Mode
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_4.png)
 
 ---
-# PC Development Tools
+# PC Development Tools used with Krisalis
 
 Initially Krisalis used PDS but then later moved to their own handwritten development toolchain.
 
@@ -104,20 +102,18 @@ It was called the Krisalis Assembler Z80 (KasmZ80) and they later distributed ve
 
 Matt Taylor (ex Spidersoft employee) on developing Lemmings 2 with KASM:
 
-
 > The development compilers and debugging software, called KASM, was written by Krisalis Software and allowed for real-time debugging and breakpointing of code running on any device attached to the ESYS box. 
 
 ### Single Codebase for multiple platforms
 
-Matt Taylor (ex Spidersoft employee) on developing Lemmings 2 with KASM for both Master System and Game Gear:
-
+Matt Taylor (ex Spidersoft employee) on developing Lemmings 2 with KASM for both Master System and Game Gear[^1]:
 
 > The code was written using a single codebase for both MS/GG versions as well as the Game Boy version, and was developed in around 8 months.
 
 
 ### Example Code for KASMz80 (Playing Sound Samples)
 
-Thanks to MattTaylor on SMSPower.org we have an example source file which would be parsed by the KASM assembler and produced a ROM for Game Gear and Master System!
+Thanks to MattTaylor on SMSPower.org[^2] we have an example source file which would be parsed by the KASM assembler and produced a ROM for Game Gear and Master System!
 
 ```assembly
 
