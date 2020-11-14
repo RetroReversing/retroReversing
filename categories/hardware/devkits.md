@@ -85,7 +85,7 @@ There was also a third party development kit by SN Systems which was part of the
 # Sony Development Kit Hardware
 
 ## Sony Playstation Portable 
-[Official PlayStation Portable Development Kit](https://www.retroreversing.com/official-psp-devkit)
+{% include link-to-other-post.html post="/official-psp-devkit" description="For information about Sony's Playstation portable development hardware check out this post." %}
 
 ## Sony Playstation 1
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For information about Sony's Playstation One development hardware check out this post." %}
