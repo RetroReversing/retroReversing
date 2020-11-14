@@ -45,20 +45,31 @@ When the PSP Go console came out there was an optional accessory for the develop
 <img src="/public/images/PSPGoSDK.jpg" />
 [^1]
 
+---
 ## The Testing Tool (DTP-H1500)
 The testing tool tower contains both a DVD and UMD drive with a toggle to switch between the two, it contains a slot to insert the PSP memory stick, a usb-mini port, a headphone port and a port to connect the Commander Arm. It also contains a number of DIP switches but it is unclear what each DIP-switch does.
 
 Notice that this does not have an ethernet port so can't be used for debugging unless using the slow usb serial or WLAN interface [^3]
 <img src="/public/images/PSPTower.jpg" />
 
+---
 ## The Development Unit (DTP-T1000)
-<img src="/public/images/DTPT-1000-Front.png" />
+<section class="postSection">
+    <img src="/public/images/DTPT-1000-Front.png" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 The front of the development Unit looks pretty much identical to the Testing tool (DTP-H1500), but on the back it contains an ethernet port to allow debugging with a host PC.
+
+this was the reccomended choice for programmers as it was easy to send code to the development unit via LAN and debug the code by setting breakpoints and viewing mermory/registers.
+ </div>
+</section> 
+
 <img src="/public/images/DTPT-1000-Back.png" />
 
 
 ## Software Development Kit
-Since the development TOOL doesn't have a hard drive and I can't find any references to CDs that contains the development kit files, presumably developers had to logon to the SCE developer website to download the SDK, compilers etc for their PC.
+Since the development TOOL doesn't have a hard drive and I can't find references to any CDs that contains the development kit files, presumably developers had to logon to the SCE developer website to download the SDK, compilers etc for their PC.
+
 
 A PSP SDK has never been leaked probably because it was just a download that most people would do and then throw away, much easier to loose than a physical CD like previous Sony SDKs.
 
