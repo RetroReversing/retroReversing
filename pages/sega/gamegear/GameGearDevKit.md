@@ -4,6 +4,7 @@ tags:
 - gamegear
 - sega
 - gg
+- devkit
 title: Sega Game Gear Development Hardware
 thumbnail: /public/consoles/Sega Game Gear.png
 image: /public/consoles/Sega Game Gear.png
