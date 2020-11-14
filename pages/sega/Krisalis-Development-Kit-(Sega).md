@@ -5,8 +5,8 @@ tags:
 - hardware
 - gamegear
 - sms
-title: Krisalis Development Kit (Sega)
-published: true
+- sega
+title: Sega Master System/Game Gear Development Kits
 thumbnail: /public/consoles/Sega Game Gear.png
 image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
 permalink: /krisalis-development-kit-(sega)/
@@ -15,13 +15,15 @@ breadcrumbs:
     url: /
   - name: Development Kits
     url: /devkit
-  - name: Krisalis Development Kit (Sega)
+  - name: Sega Master System/Game Gear Development Kits
     url: #
 recommend: devkit
-source-id: 1wrygbHk9kkkAxq5lmuA1zXwDkN16Di9Kkg1kfrBUwtU
-published: true
+editlink: /sega/Krisalis-Development-Kit-(Sega).md
 ---
-# Krisalis Development Kit (Sega)
+
+# Custom In-house development Kits
+
+## Krisalis Development Kit
 
 In the early to mid 1990s Krisalis Software Ltd created their own in-house sega Game Gear and Master System Development Kit. 
 
@@ -31,7 +33,7 @@ It seems to be very similar to Spidersofts own in-house dev kit (called ESYS) an
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
 
-## Gear Video Decoder
+### Gear Video Decoder
 
 The Gear Video decoder was a board created by Shaun Hollingworth, which presumably is the board that connects the Game Gear to the TV monitor or development system. 
 
@@ -41,21 +43,18 @@ Games World magazine even featured a version of this hardware (which they called
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
 
-## Krisalis and Spidersoft collaboration
+### Krisalis and Spidersoft collaboration
 
 It seems both Krisalis and Spidersoft were creating their own development hardware in collaboration with one another, presumably sharing experience of what works and what doesn't work so the other studio can improve their own development kit. They were both mentioned in the Games World article as creator of the ESYS-RGB adapter.
 
 RetroSpark on SMSPower.org has the following to say on the comparison:
 
-```
 
-This development system shares many similarities with Spidersoft's ESYS (described by Matt Taylor), including apparent support for easily swapping the ribbon cable and cartridge for use on a different system. 
+> This development system shares many similarities with Spidersoft's ESYS (described by Matt Taylor), including apparent support for easily swapping the ribbon cable and cartridge for use on a different system. 
+> 
+> In fact, we discussed the possibility that this box is ESYS. Matt mentioned that Krisalis wrote the software for ESYS - perhaps they were also subcontracted to build the hardware. However, there is at least one difference between this box and Matt's - this box does not appear to have a battery backup for the SRAM. 
 
-In fact, we discussed the possibility that this box is ESYS. Matt mentioned that Krisalis wrote the software for ESYS - perhaps they were also subcontracted to build the hardware. However, there is at least one difference between this box and Matt's - this box does not appear to have a battery backup for the SRAM. 
-
-```
-
-## ESYS Development Kit
+### ESYS Development Kit
 
 Matt Taylor mentions the similar ESYS development tool used in-house at rival software company Spidersoft:
 
@@ -69,18 +68,19 @@ The ESYS box also had battery backup meaning that ROM images downloaded to it co
 
 ```
 
-# Development Kit BIOS
+### Development Kit BIOS
 
 The BIOS for this development kit has been dumped by the talented people over at SMSPower.org and it runs out that you can run it in an emulator as either a Master System ROM OR a Game Gear ROM! The Bootup screen shows a different image depending on if its being run as a Master System game or Game Gear as can be seen in the screenshots below.
 
-## Master System Mode
+### Master System Mode
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_3.png)
 
-## Game Gear Mode
+### Game Gear Mode
 
 ![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_4.png)
 
+---
 # PC Development Tools
 
 Initially Krisalis used PDS but then later moved to their own handwritten development toolchain.
@@ -92,14 +92,9 @@ PDS stands for the Programmers Development System created by "Programmers Develo
 It seems to be waiting for the PDS running the on programmers PC to send the code through the hardware interface into the development kit.
 
 Shaun Hollingworth on this development kit:
-
-```
-
-The version you have was originally designed to support the PDS Z80 dev system, but increasingly people ran out of symbol space when developing, so I hastily ported our in house z80 assembler (also written by yours truly) which ran on Atari STs to the PC (completely rewritten in 8086 16 bit code) which solved that problem. KasmZ80 also had a z80 debugger with breakpoints using some z80 RST xx instruction, though I can't remember which one. 
-
-We used it for all z80 dev work at Krisalis. We had versions for other CPUs including ARM. 
-
-```
+> The version you have was originally designed to support the PDS Z80 dev system, but increasingly people ran out of symbol space when developing, so I hastily ported our in house z80 assembler (also written by yours truly) which ran on Atari STs to the PC (completely rewritten in 8086 16 bit code) which solved that problem. KasmZ80 also had a z80 debugger with breakpoints using some z80 RST xx instruction, though I can't remember which one. 
+> 
+> We used it for all z80 dev work at Krisalis. We had versions for other CPUs including ARM. 
 
 ## KasmZ80
 
@@ -109,21 +104,16 @@ It was called the Krisalis Assembler Z80 (KasmZ80) and they later distributed ve
 
 Matt Taylor (ex Spidersoft employee) on developing Lemmings 2 with KASM:
 
-```
 
-The development compilers and debugging software, called KASM, was written by Krisalis Software and allowed for real-time debugging and breakpointing of code running on any device attached to the ESYS box. 
-
-```
+> The development compilers and debugging software, called KASM, was written by Krisalis Software and allowed for real-time debugging and breakpointing of code running on any device attached to the ESYS box. 
 
 ### Single Codebase for multiple platforms
 
 Matt Taylor (ex Spidersoft employee) on developing Lemmings 2 with KASM for both Master System and Game Gear:
 
-```
 
-The code was written using a single codebase for both MS/GG versions as well as the Game Boy version, and was developed in around 8 months.
+> The code was written using a single codebase for both MS/GG versions as well as the Game Boy version, and was developed in around 8 months.
 
-```
 
 ### Example Code for KASMz80 (Playing Sound Samples)
 
@@ -258,14 +248,9 @@ LETSGO:   INCBIN L2LETSGO.SMP   ; 6346
  
 
 # References
-
-* [http://www.smspower.org/forums/8528-Lemmings2SMSGG](http://www.smspower.org/forums/8528-Lemmings2SMSGG) - information on developing Lemmings 2 with KASM
-
-* [http://www.smspower.org/forums/14724-PlayingSoundSamples#78968](http://www.smspower.org/forums/14724-PlayingSoundSamples#78968) - example of KASM source code
-
-* [https://www.flickr.com/photos/23778385@N07/15132453349/in/album-72157647817215536/](https://www.flickr.com/photos/23778385@N07/15132453349/in/album-72157647817215536/) - images of hardware from Krisalis SDK
-
-* [http://www.smspower.org/forums/15019-KrisalisSoftwareSMSGGDevBox](http://www.smspower.org/forums/15019-KrisalisSoftwareSMSGGDevBox) - tons of excellent Krisalis Dev kit information
-
-* [http://web.archive.org/web/19971010205654/krisalis.co.uk/](http://web.archive.org/web/19971010205654/krisalis.co.uk/) - The old Krisalis Software website on the WayBack Machine
+[^1]: [http://www.smspower.org/forums/8528-Lemmings2SMSGG](http://www.smspower.org/forums/8528-Lemmings2SMSGG) - information on developing Lemmings 2 with KASM
+[^2]: [http://www.smspower.org/forums/14724-PlayingSoundSamples#78968](http://www.smspower.org/forums/14724-PlayingSoundSamples#78968) - example of KASM source code
+[^3]: [https://www.flickr.com/photos/23778385@N07/15132453349/in/album-72157647817215536/](https://www.flickr.com/photos/23778385@N07/15132453349/in/album-72157647817215536/) - images of hardware from Krisalis SDK
+[^4]: [http://www.smspower.org/forums/15019-KrisalisSoftwareSMSGGDevBox](http://www.smspower.org/forums/15019-KrisalisSoftwareSMSGGDevBox) - tons of excellent Krisalis Dev kit information
+[^5]: [http://web.archive.org/web/19971010205654/krisalis.co.uk/](http://web.archive.org/web/19971010205654/krisalis.co.uk/) - The old Krisalis Software website on the WayBack Machine
 
