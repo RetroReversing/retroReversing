@@ -58,23 +58,23 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 ---
 # SEGA Development Kit Hardware
 
-## Sega Master System 
-[Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
+## SEGA Master System 
+{% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For information about the Krisalis 3rd party development hardware check out this post." %}
 
-## Sega Game Gear 
-[Krisalis Development Kit (Sega) (Unofficial)](https://www.retroreversing.com/krisalis-development-kit-(sega)/)
+## SEGA Game Gear 
+{% include link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
 
-## Sega Mega Drive 
+## SEGA Mega Drive 
 [The SPROBE Megadrive development system (Unofficial)](https://www.retroreversing.com/sprobe-megadrive/) 
 [Sega Dev Card (Western Technologies) (Unofficial)](https://www.retroreversing.com/sega-dev-card)
 
-## Sega Mega CD 
+## SEGA Mega CD 
 [Cross Products SEGA MegaCD Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-cross-products)
 
-## Sega Saturn 
+## SEGA Saturn 
 [Cross Products Sega Saturn Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-sega-saturn/) <br /> [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/) <br /> [Official Sega Saturn Development Kit](https://www.retroreversing.com/sega-saturn-programming-box/)
 
-## Sega Dreamcast
+## SEGA Dreamcast
 [Official Sega Dreamcast Katana Development Kit Hardware](https://www.retroreversing.com/Sega-Dreamcast-Katana-Development-Kit) <br /> [The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
 
 ---
