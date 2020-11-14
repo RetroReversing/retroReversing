@@ -24,6 +24,7 @@ Development Kits are facinating, many come out before the specs for the console 
 
 We have tried to document all the development kit hardware available for the most popular retro consoles, so hopefully you will find the posts below helpful.
 
+---
 # Nintendo Console Development Kit Hardware
 
 ## Nintendo Entertainment System (NES/Famicom)
@@ -79,7 +80,6 @@ There was also a third party development kit by SN Systems which was part of the
 
 ## SEGA Dreamcast
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
-[The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
 
 ---
 # Sony Development Kit Hardware
