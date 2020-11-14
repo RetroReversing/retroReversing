@@ -28,7 +28,6 @@ We have tried to document all the development kit hardware available for the mos
 
 ## Nintendo Entertainment System (NES/Famicom)
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
-[NES Development Kit Hardware](https://www.retroreversing.com)
 
 ## Super Nintendo Entertainment System (SNES)
 {% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For information about Nintendo's Super Famicom development hardware check out this post." %}
@@ -72,11 +71,15 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 
 ## SEGA Saturn 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For information about SEGA's Saturn development hardware check out this post." %}
-[Cross Products Sega Saturn Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-sega-saturn/) <br /> [PsyQ Sega Saturn Development Kit (Unofficial)](https://www.retroreversing.com/psyq-sega-saturn/) <br /> [Official Sega Saturn Development Kit](https://www.retroreversing.com/sega-saturn-programming-box/)
+
+There was also a third party development kit by SN Systems which was part of their multi-platform toolchain known as PsyQ.
+
+{% include link-to-other-post.html post="/psyq-sega-saturn/" description="For information about SN Systems's Saturn development hardware (PsyQ) check out this post." %}
+
 
 ## SEGA Dreamcast
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
-[Official Sega Dreamcast Katana Development Kit Hardware](https://www.retroreversing.com/Sega-Dreamcast-Katana-Development-Kit) <br /> [The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
+[The Sega Dreamcast System Disc 2 Development Tool](https://www.retroreversing.com/Sega-Dreamcast-System-Disc-2)
 
 ---
 # Sony Development Kit Hardware
