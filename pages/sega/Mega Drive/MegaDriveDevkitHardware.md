@@ -52,8 +52,6 @@ There is no known images of the hardware but it is likely a board that looks ver
  <div markdown="1">
 The ER308 was a In-Circuit-Emulator (ICE) developed by ZAX  Corporation for developing Z80 assembly programs.
 
-{% include link-to-other-site.html url="https://segaretro.org/Zax_Corporation" description="For more information about the ZAX corporation checkout this excellent Sega Retro page" image="https://segaretro.org/images/2/20/ZaxCorporation_Logo.png" title="Zax Corporation - Sega Retro"  %}
-
 Sega officially distributed these for Sega Mega Drive development due to the sound chip being a Z80 processor [^3].
 
 Interestingly this piece of hardware required not one but two ISA cards to be in a developers PC in order to communicate with the ICE [^3].
@@ -63,6 +61,8 @@ The ICE would allow developers to set breakpoints, step through instructions and
 Apparently there was another ZAX ICE for the Motorola 68k processor which would provide the same functionality but for the main Mega Drive processor.
  </div>
 </section> 
+
+{% include link-to-other-site.html url="https://segaretro.org/Zax_Corporation" description="For more information about the ZAX corporation checkout this excellent Sega Retro page" image="https://segaretro.org/images/2/20/ZaxCorporation_Logo.png" title="Zax Corporation - Sega Retro"  %}
 
 ---
 # Third Party Development Kits
