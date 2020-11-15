@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - documentary
-- md
+- megadrive
 - sega
 title: Working at SEGA Documentary 
 thumbnail: /public/consoles/Sega Genesis.png
