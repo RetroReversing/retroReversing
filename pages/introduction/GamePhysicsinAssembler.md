@@ -1,11 +1,8 @@
 ---
 layout: post
 tags: 
-- md
-- megacd
+- megadrive
 - sega
-- genesis
-- snasm2
 - introduction
 - assembly
 title: Game Physics (in Assembler) (SNASM2)
