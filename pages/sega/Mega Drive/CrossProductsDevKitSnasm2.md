@@ -1,14 +1,11 @@
 ---
 layout: post
 tags: 
-- md
-- megacd
+- megadrive
 - sega
-- genesis
 - devkit
 - crossproducts
 - snsystems
-- snasm2
 title: Cross Products SEGA MegaCD Development Kit (SNASM2)
 thumbnail: /public/consoles/Sega Genesis.png
 image: https://img.youtube.com/vi/GH94fKtGr0M/maxresdefault.jpg
