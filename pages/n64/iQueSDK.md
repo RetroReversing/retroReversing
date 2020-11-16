@@ -254,7 +254,7 @@ PR/ultratypes.h |
 PR/uportals.h | 
 PR/verify.h | 
 
-Not sure what the SK API for iQue was.
+The SK API for iQue was used to allow games and software to interact with the Secure Kernel of the iQue, the website iQueBrew has an excellent page with all the known Secure Kernel calls [SKC - iQueBrew](http://www.iquebrew.org/index.php?title=SKC).
 
 ---
 ## lib folder - Compiled Library files for iQue
