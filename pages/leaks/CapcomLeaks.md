@@ -4,7 +4,7 @@ tags:
 - leak
 - ps1
 title: Capcom Leaks  
-thumbnail: /public/consoles/Playstation 1.png
+thumbnail: /public/consoles/Sony Playstation.png
 image: /public/images/leaks/Capcom Leaks.jpg
 permalink: /ncapcomleaks
 breadcrumbs:
