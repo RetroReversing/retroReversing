@@ -6,7 +6,7 @@ tags:
 title: Capcom Leaks  
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/images/leaks/Capcom Leaks.jpg
-permalink: /ncapcomleaks
+permalink: /capcomleaks
 breadcrumbs:
   - name: Home
     url: /
