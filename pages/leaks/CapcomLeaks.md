@@ -20,11 +20,13 @@ recommend:
 redirect_from:
   - /capcom
 editlink: /leaks/CapcomLeaks.md
-twitterimage: https://www.retroreversing.com/public/images/leaks/Capcom.jpg
+twitterimage: https://www.retroreversing.com/public/images/leaks/Capcom Leaks.jpg
 updatedAt: '2020-11-17'
 ---
 
 On 1st November 2020 CAPCOM was targeted by known hacker group **RagnarLeaks** and some source code and private data was leaked to the dark web. This post will only cover source code that was found in the leak, we only support the preservation of old playstation source code.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Information on the RAGNAR malware, that was responsible for compromising Capcom&#39;s servers:<a href="https://t.co/oZDDbKMQNz">https://t.co/oZDDbKMQNz</a></p>&mdash; /PPG/ (@pokeprotos) <a href="https://twitter.com/pokeprotos/status/1328454646847787008?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote>
 
 # Files leaked
 There were four archives leaked, and due to size were split into multiple 7Zip parts.
@@ -34,11 +36,18 @@ There were four archives leaked, and due to size were split into multiple 7Zip p
 4. **CAPCOM4_ID442.7z** - The Misadventures of Tron Bonne PS1 source code (1.38GB)
 
 ---
+# Devil May Cry 2 Source code (Capcom3ID451.7z)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A backup of a disk containing DMC2 code was found in the leak. <br><br>Original is probably in cold storage, sitting at some undisclosed location.<br><br>The disk contains all software and data needed to compile and run the game. <a href="https://t.co/AVd17xjJvc">pic.twitter.com/AVd17xjJvc</a></p>&mdash; /PPG/ (@pokeprotos) <a href="https://twitter.com/pokeprotos/status/1328189538326388736?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote>
+
+---
 # The Misadventures of Tron Bonne (CAPCOM4_ID442.7z)
 The root folder is called **PS_トロンにコブン** which is the Japanese name for the game plus the PS_ prefix for Playstation. It contains three sub folders inside it:
 * 北米版 - North American Edition
 * PAL版 - PAL version (Europe)
 * 国内版 - Domestic version (Japan)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Plus the source code of &quot;The Misadventures of Tron Bonne&quot; (screenshot not mine): <a href="https://t.co/eutXjxgjel">pic.twitter.com/eutXjxgjel</a></p>&mdash; WaluigiBSOD (@WaluigiBSOD) <a href="https://twitter.com/WaluigiBSOD/status/1328411114980470784?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote> 
 
 ---
 ## PAL Version (/PAL版)
