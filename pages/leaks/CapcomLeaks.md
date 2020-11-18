@@ -82,3 +82,5 @@ Each folder belongs to a member of the development team:
 * sakano - Mitsunori Sakano
 * shingaki - Hidekazu Shingaki
 * tuji - ?
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Crash has successfully compiled all the leaked N64 source code and now he is working on Tron Bonne from the Capcom leaks! How exciting! <a href="https://t.co/DUiiXNVnuJ">https://t.co/DUiiXNVnuJ</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1328837943805562881?ref_src=twsrc%5Etfw">November 17, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
