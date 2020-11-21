@@ -77,16 +77,72 @@ The fonts included in this folder are:
 ##  UC build procedure (/bioUCリビルド手順)
 This folder contains a tutorial for how to setup a development environment, including Wii SDK, CodeWarrior and CRI SDK for building the source code to Resident Evil Umbrella Chronicles!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Got to hand it to them, the developers of Resident Evil Umbrella Chronicles had good documentation for how to get setup with the codebase. Including installing the Wii SDK, CodeWarrior and the CRI SDK Nice job! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://t.co/ntSm1fp4dz">pic.twitter.com/ntSm1fp4dz</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329108788918558720?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Got to hand it to them, the developers of Resident Evil Umbrella Chronicles had good documentation for how to get setup with the codebase. Including installing the Wii SDK, CodeWarrior and the CRI SDK Nice job! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://t.co/ntSm1fp4dz">pic.twitter.com/ntSm1fp4dz</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329108788918558720?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 ## Design documents (/design)
 The design folder contains a bunch of game design document for Umbrella Chronicles!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Game Designers at CAPCOM made some excellent documents for Umbrella Chronicles on the Nintendo Wii! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://twitter.com/hashtag/ResidentEvil?src=hash&amp;ref_src=twsrc%5Etfw">#ResidentEvil</a> <a href="https://t.co/GYcj4ItoxD">pic.twitter.com/GYcj4ItoxD</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329126809473081349?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Game Designers at CAPCOM made some excellent documents for Umbrella Chronicles on the Nintendo Wii! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://twitter.com/hashtag/ResidentEvil?src=hash&amp;ref_src=twsrc%5Etfw">#ResidentEvil</a> <a href="https://t.co/GYcj4ItoxD">pic.twitter.com/GYcj4ItoxD</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329126809473081349?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
-##  Source Code & Tools (/バイオ納品 and /韓国版/バイオ納品)
+## Korean version files (/韓国版)
+This folder contains the following sub folders inside it:
+* BioUC_2D_Kor - 2D assets
+* RECYCLER - empty tree
+* bioUCリビルド手順 - tutorial for setting up development environment (the same content as the folder at the root level)
+* bioUC韓国版テキスト - bioUC Korean version text
+* バイオ納品 - Source code
+
+### 2D Assets (/韓国版/BioUC_2D_Kor)
+This folder mostly contains TGA images for all the textures and images in the game.
+
+The assets are organised into a number of folders:
+* atract - Wii warning messages and starting screens (abstract?)
+* binary - contains tpl, brlan and brlyt format files
+* dialog - tga/rlan/rlyt image assets for dialogs
+* doc - spreadsheets of text for localisation
+* game - empty tree
+* gameover - empty tree
+* icon_banner_kr - empty tree
+* option - empty tree
+* pause - empty tree
+* result - empty tree
+* saveload - empty tree
+* select - empty tree
+* title - empty tree
+
+File formats for 2D assets include:
+* BRLAN (Binary Revolution Layout AnimatioN) - Wii format for title animations (Binary)
+* BRLYT (Binary Revolution LaYouT) - Wii format for layout
+* TPL (Texture Palette Library) - Wii format for texture palettes (colours)
+* RLAN (Revolution Layout AnimatioN) - Wii format for title animations (XML)
+* RLYT (Binary Revolution LaYouT) - Wii format for layout (XML)
+
+It looks like this folder was half way through copying when it stopped, as it was probably copying alphabetically, as soon as it got to the doc folder it stopped copying, so the rest of the folders are empty trees.
+
+### Korean version text (/韓国版/bioUC韓国版テキスト)
+This folder contains fonts and text messages used throughout the game to be localised from Japanese into Korean.
+
+The only file with messages to be translated is called **mes_ko.xls** and contains thousands of messages (2000+) in Japanese with their Korean counterparts. if you have ever wondered how games get localised into other languages then this is the document you should check out.
+
+The fonts are separated into two of folders:
+* Ksマッピング - KS mapping (Korean)
+    * WKBGHYSO.TTF
+    * WKLYESO.TTF
+    * WKWCHJO.TTF
+    * WKYESO.TTF
+* S-jisマッピング - S-JIS mapping (Japanese)
+    * CGBGHyso.ttf
+    * CGLYeso.TTF
+    * CGWCHJO.TTF
+    * CGYESO.TTF
+
+### Korean Source code (/韓国版/バイオ納品)
+For an overview of the Source code folder see the next section as the only source code we have is for the Korean version, for some reason the other versions were never copied over in the leak.
+
+---
+##  Source Code (/バイオ納品 and /韓国版/バイオ納品)
 The folder name roughly translates to **Bio Deliverables** and should contain the source code and tools developed for the game. 
 
 However there is one important point about this folder, it is located in two places in the leak, one is mainly just the empty folder structure and the other is the real deal. 
@@ -107,6 +163,114 @@ There are a few files that are only located in the **/バイオ納品** folde
 These are all official software development kit files from Nintendo and CRIware used in many 1st & 3rd party Wii games.
 
 Since these are not Capcom specific they will be covered in a future post.
+
+### Korean version source code (/韓国版/バイオ納品)
+The rest of this section will discuss the korean version of the source code. It contains the following files and folders:
+* bioUC - C/C++ source code
+* bioUCscript - Game script files (lua etc)
+* buildtool - Nintendo SDK Tools
+* readme.txt - Japanese document outlining the structor of the source code
+* tool - custom tools created by Capcom
+* 北米著作権登録 -  North American copyright registration
+
+### North American copyright registration (北米著作権登録)
+This is a very strange folder indeed, the translated name might make you think of some sort of legal documents to the North American copyright office. 
+
+However there are two files in this folder and they are not what I would expect at all:
+* ending.doc
+* title.doc
+
+Just judging by the names you might think it is the story of the game, but if you actually open the documents you will see they are both C/C++ source code files in MS Word format.
+
+Who knows why these exist in this format, very odd indeed!
+
+### Nintendo SDK Tools (/韓国版/バイオ納品/buildtool)
+As expected this folder contains all the Software development kits and tools from outside of Capcom. It is split into a number of folders:
+* CRI_SDK - CRIware SDK
+* CodeWarrior - Metrowerks Codewarrior
+* DevelopmentTools - Wii tools created by Nintendo
+* MasteringTools - Wii Mastering tools created by Nintendo
+* NintendoWareForRevolution - NintendoWare tools and runtime libraries for Wii
+* RevolutionSDK - Official Wii SDK
+
+### Tools By Capcom (/韓国版/バイオ納品/tool)
+This folder contains pre-compiled versions of the tools made for the game by Capcom employees.
+
+Some of the tools include:
+* BGObjConv - Background Object converter for object placed in rooms
+* BGObjCreater - Creates background objects from BGObj models
+* BulletHoleVolume - Tool for putting bullet holes in 3d models
+* CharaConv
+* CollisionTool - Converts Collision data
+* Doc
+* FontConv - Convert Font data
+* FontConvLocal - Font localisation
+* FontConvLocal_Multi
+* FontConv_Multi
+* IconBanner - Tool for creating Wii banner
+* ItemModel - Uploads 3D model data to asset server
+* ItemParam - Uploads item parameter data to asset server
+* LayoutConv - converts the output of the LayoutEditor into binary and packs it into an **arc** archive
+* MakeBRFNT_Tool - Create BRFNT font file from your own images
+* PlayerBulletModel - Converts 3d models for Bullets
+* PlayerWeaponParam - Upload the players weapon parameters to the asset server
+* StageViewer - Creates background data for stages
+
+### Lua scripting (bioUCscript)
+The game uses both LUA scripting language and the Ruby scripting language for its game design scripts.
+
+The folders contained are:
+* __binary__ - empty tree but would have contained binary compiled versions of the scripts
+* __camera__ - Camera script in EMT format
+* __include__ - C include files used for Lua
+* __system__ - tools used for scripting (e.g lua interpreter)
+* __zai__ - Zombie AI scripts (Ruby)
+* omake - special stage scripts
+* r_alpha - opening cutscene lua script
+* r_alpha_saveload saving and loading Lua script
+* r_biouc - main game management
+* r_e3 - E3 demo script
+* r_halfalpha
+* r_leipzig - Leipzig GC Developers Conference demo
+* r_prepro
+* r_privateshow
+* r_tgs
+* s00c1 - Stage 0.0 Chapter 1
+* s00c2 - Stage 0.0 Chapter 2
+* s00c3 - Stage 0.0 Chapter 3
+* s01c1 - Stage 0.1 Chapter 1
+* s01c2 - Stage 0.1 Chapter 2
+* s10c1 - Stage 1.0 Chapter 1
+* s10c2 - Stage 1.0 Chapter 2
+* s10c3 - Stage 1.0 Chapter 3
+* s11c1 - Stage 1.1 Chapter 1
+* s11c2 - Stage 1.1 Chapter 2
+* s12c1 - Stage 1.2 Chapter 1
+* s12c2 - Stage 1.2 Chapter 2
+* s20c1 - Stage 2.0 Chapter 1
+* s20c1_e3 - E3 version of  Stage 2.0 Chapter 1
+* s20c2 - Stage 2.0 Chapter 2
+* s20c3 - Stage 2.0 Chapter 3
+* s21c1 - Stage 2.1 Chapter 1
+* s22c1 - Stage 2.2 Chapter 1
+* s23c1 - Stage 2.3 Chapter 1
+* s30c1 - Stage 3.0 Chapter 1
+* s30c2 - Stage 3.0 Chapter 2
+* s30c3 - Stage 3.0 Chapter 3
+* s31c1 - Stage 3.1 Chapter 1
+* s31c2 - Stage 3.1 Chapter 2
+* s31c3 - Stage 3.1 Chapter 3
+
+The scripting file formats used are:
+* .EMT - Custom binary format
+* .LUA - LUA script
+* .H - Standard C/C++ header file
+* .RB - Ruby Script
+* .AI - Zombie AI - Compiled version of (SAI)
+* .SAI - Source Zombie AI scripts in Ruby
+* .CONF - Plain text config
+* .TRAP - traps (custom binary format)
+
 
 ---
 # Devil May Cry 2 Source code (Capcom3ID451.7z)
