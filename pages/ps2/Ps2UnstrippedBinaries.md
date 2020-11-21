@@ -820,9 +820,14 @@ Zone of the Enders - Z.O.E (Japan) | SLPM-65019 | 2001-01-12 |
 eJay ClubWorld - The Music Making Experience (Europe) | SLES-50933 | 2002-07-19 | 
 eJay Clubworld - The Music Making Experience (USA) | SLUS-20525 | 2002-12-11 | 
 
+---
+# PS2 Demos with Debug Symbols
+If your game is not listed in the retail game list above then fear not, there is still a chance that debug symbols are available for a demo of the game. We have a separate page listing all the PS2 Demos with Debug Symbols.
+
+{% include link-to-other-post.html post="/ps2-demos/" description="For the Demo games with debug symbols check out this post." %}
 
 ---
-## Others
+# Others
 `sp193` on Assembler Games mentions that the Sound module also has debug information in it [^1]:
 
 > The OSDSND module from the Protokernel boot ROM (SCPH-10000 and SCPH-15000) also has debugging information left over in it. 
