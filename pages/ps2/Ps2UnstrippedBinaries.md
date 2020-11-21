@@ -842,7 +842,7 @@ Piposaru 2001 contains two IOPRP*.IMG files (IOPRP205.IMG and IOPRP214.IMG) so p
 This list is kind of odd, it is for games that do not contains debug symbols but may also be of interest to reverse engineers due to certain characteristics.
 
 Game | Developer | Release Date | Ps2 SDK | Source
---- | --- | --- | ---
+--- | --- | --- | --- | ---
 Ridge Racer V | `Namco` | 4th March 2000 | PS2SDK 1.5.0 | Uses very early SDK
 Bloody Roar 4 | `Hudson Soft, Eighting` | 11th November 2003 | PS2SDK 2.8.0 | Has Renderware SDK 3.5 in DUMMY folder
 Xenosaga Episode II - Jenseits von Gut und Boese (Europe) | `Monolith Soft` | 24th June 2004 | PS2SDK 2.7.1 | No symbols but we can compare to Episode I which does have symbols
