@@ -22,7 +22,9 @@ references:
   - assemblergames
 ---
 
-Debug symbols are normally a rare treasure sought by reverse engineers from prototypes and beta versions of games, however in the early years of the PS2 it was common for debug symbols to be left in the retail version of the games! This is amazing for any S2 reversers who want an easy project to start with as all the function names are in plain text and all that needs to be done is disassemble the executable!
+Debug symbols are normally a rare treasure sought by reverse engineers from prototypes and beta versions of games, however in the early years of the PS2 it was common for debug symbols to be left in the retail version of the games! 
+
+This is amazing for any PS2 reversers who want an easy project to start with as all the function names are in plain text and all that needs to be done is disassemble the executable!
 
 # PS2 Retail Games with Debug Symbols
 This is a constantly updating list of the retail Playstation 2 games with debug symbols left behind by their developers, most of them are in the executables themselves, which are standard ELF format files!
