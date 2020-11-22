@@ -35,8 +35,9 @@ There were four archives leaked, and due to size were split into multiple 7Zip p
 3.  **Capcom3ID451.7z** - Devil May Cry 2 Source code ( 11.2GB in 2 parts)
 4. **CAPCOM4_ID442.7z** - The Misadventures of Tron Bonne PS1 source code (1.38GB)
 
----
+The archives released after these do not contain any source code unfortunately, so will not be covered in this post.
 
+---
 # Resident Evil Umbrella Chronicles
 When the archives have been extracted it creates a folder called **Wii_バイオハザード アンブレラクロニクルズ** which translates roughly to **Wii_ Biohazard Umbrella Chronicles**. Biohazard is the Japanese name for Resident Evil.
 
@@ -77,13 +78,32 @@ The fonts included in this folder are:
 ##  UC build procedure (/bioUCリビルド手順)
 This folder contains a tutorial for how to setup a development environment, including Wii SDK, CodeWarrior and CRI SDK for building the source code to Resident Evil Umbrella Chronicles!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Got to hand it to them, the developers of Resident Evil Umbrella Chronicles had good documentation for how to get setup with the codebase. Including installing the Wii SDK, CodeWarrior and the CRI SDK Nice job! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://t.co/ntSm1fp4dz">pic.twitter.com/ntSm1fp4dz</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329108788918558720?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Got to hand it to them, the developers of Resident Evil Umbrella Chronicles had good documentation for how to get setup with the codebase. Including installing the Wii SDK, CodeWarrior and the CRI SDK Nice job! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://t.co/ntSm1fp4dz">pic.twitter.com/ntSm1fp4dz</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329108788918558720?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> 
 
 ---
 ## Design documents (/design)
 The design folder contains a bunch of game design document for Umbrella Chronicles!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Game Designers at CAPCOM made some excellent documents for Umbrella Chronicles on the Nintendo Wii! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://twitter.com/hashtag/ResidentEvil?src=hash&amp;ref_src=twsrc%5Etfw">#ResidentEvil</a> <a href="https://t.co/GYcj4ItoxD">pic.twitter.com/GYcj4ItoxD</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329126809473081349?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+This includes top down drawings of each of the maps with all the areas of interest mapped such as where to collect items. These files are named like so:
+```
+bioUC_scenario*_*_* // e.g bioUC_scenario0_0_1
+```
+
+This folder also contains some interesting files with the following file formats:
+* .EMDL - AutoDesk Softimage Export Model
+* .RMDL - Revolution Model (Wii 3D Model)
+* .RTSA - Revolution Texture Animation (Wii)
+* .RTEX - Revolution Texture format
+* .SCN (Scene format)
+* .BRRES - Common archive format for Wii assets (models etc)
+
+Some of these file formats are covered in our Wii file formats page: 
+
+{% include link-to-other-post.html post="/wii-file-formats" description="For more information on other Wii File formats check out this post." %}
+
+The **Scenes** folder looks like it used to contain Softimage XSI assets, but not all the files were copied over so much of the folders are sadly empty.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Game Designers at CAPCOM made some excellent documents for Umbrella Chronicles on the Nintendo Wii! <a href="https://twitter.com/hashtag/capcomleaks?src=hash&amp;ref_src=twsrc%5Etfw">#capcomleaks</a> <a href="https://twitter.com/hashtag/capcom?src=hash&amp;ref_src=twsrc%5Etfw">#capcom</a> <a href="https://twitter.com/hashtag/wii?src=hash&amp;ref_src=twsrc%5Etfw">#wii</a> <a href="https://twitter.com/hashtag/ResidentEvil?src=hash&amp;ref_src=twsrc%5Etfw">#ResidentEvil</a> <a href="https://t.co/GYcj4ItoxD">pic.twitter.com/GYcj4ItoxD</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1329126809473081349?ref_src=twsrc%5Etfw">November 18, 2020</a></blockquote> 
 
 ---
 ## Korean version files (/韓国版)
@@ -272,6 +292,41 @@ The scripting file formats used are:
 * .TRAP - traps (custom binary format)
 
 
+### C/C++ Source Code (/bioUC)
+This folder contains:
+* Doc - Documentation for the source code
+* DvdRoot - Contents from the retail disc
+* Project - project build scripts
+* Src - contains the actual source code
+* update_data.bat - batch script to update directory from the main build server
+
+### Source Code documentation (/bioUC/Doc)
+This folder contains documentation for the source code completely in japanese:
+* aiscript.txt - Documentation for the custom scripting language for AI based on Forth
+* ode_script.txt - Documentation for the scripts they use of Open Dynamic Engine objects
+* takahashis
+* ゆれもの仕様.doc - WiiMote controller Shake specifications
+* エフェクトについて.txt - Effects such as Blur/Glare/Shadows etc
+* カウンターアクションコマンドについて - Counter action commands
+* カメラ／ライト／フォグについて.txt - About camera / light / fog
+* システム周りについて.txt - About the system
+* スクリーンショット撮影について.txt - About screenshot ability
+* デバッグ支援について.txt - Debugging support
+* データ型について.txt - About Data Types
+* バイオハザードにおけるIK処理負荷.doc - Inver Kinematics (IK) processing load in biohazard
+* パッドについて.txt - Controller Pad
+* プロジェクトの構築方法について.txt - How to build the project
+* フォルダ構成について.txt - About folder structure
+* メモリ確保について.txt - About memory allocation
+* 噛み付きについて - About Zombie Bites
+* 振動エディタ - Vibration editor
+* 描画周りについて.txt - About drawing
+* 音周り - Sound
+
+The file **aiscript.txt** is facinating, it describes the custom scripting language they implemented for the movement of the AI characters. It is based on the Forth programming language and they called it **bioForth**. It is well worth a read if you can translate it.
+
+Following on from **aiscript.txt** you should also read **ode_script.txt** as it is based on the same custom scripting language. In this case it is used for Open Dynamic Engine physics object creation!
+
 ---
 # Devil May Cry 2 Source code (Capcom3ID451.7z)
 
@@ -313,7 +368,7 @@ It is unconfirmed if there are any minor differences between this and the retail
 
 ---
 ## Japanese Version (/国内版) 
-Te Japanese version contains more folders than the other two due to it containing some development tools.
+The Japanese version contains more folders than the other two due to it containing some development tools.
 * tools - tools developed by each member of the development team
 * library - development software such as Multi-ICE
 * ﾏｽﾀｰﾛﾑﾃﾞｰﾀ - Master ROM data
@@ -329,3 +384,4 @@ Each folder belongs to a member of the development team:
 * sakano - Mitsunori Sakano
 * shingaki - Hidekazu Shingaki
 * tuji - ?
+
