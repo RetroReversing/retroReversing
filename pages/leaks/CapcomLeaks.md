@@ -3,6 +3,8 @@ layout: post
 tags: 
 - leak
 - ps1
+- ps2
+- wii
 title: Capcom Leaks  
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/images/leaks/Capcom Leaks.jpg
@@ -22,6 +24,10 @@ redirect_from:
 editlink: /leaks/CapcomLeaks.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/Capcom Leaks.jpg
 updatedAt: '2020-11-17'
+videocarousel:
+  - title: MVG
+    image: https://i.ytimg.com/vi/eRpHuh2ZkR8/sddefault.jpg
+    youtube: 'eRpHuh2ZkR8'
 ---
 
 On 1st November 2020 CAPCOM was targeted by known hacker group **RagnarLeaks** and some source code and private data was leaked to the dark web. This post will only cover source code that was found in the leak, we only support the preservation of old playstation source code.
@@ -236,8 +242,8 @@ Some of the tools include:
 * PlayerWeaponParam - Upload the players weapon parameters to the asset server
 * StageViewer - Creates background data for stages
 
-### Lua scripting (bioUCscript)
-The game uses both LUA scripting language and the Ruby scripting language for its game design scripts.
+### Lua/Ruby/BioForth scripting (bioUCscript)
+The game uses the LUA scripting language and the Ruby scripting language along with a custom implementation of the Forth language known as BioForth for its game design scripts.
 
 The folders contained are:
 * __binary__ - empty tree but would have contained binary compiled versions of the scripts
@@ -287,7 +293,7 @@ The scripting file formats used are:
 * .H - Standard C/C++ header file
 * .RB - Ruby Script
 * .AI - Zombie AI - Compiled version of (SAI)
-* .SAI - Source Zombie AI scripts in Ruby
+* .SAI - Source Zombie AI scripts in BioForth
 * .CONF - Plain text config
 * .TRAP - traps (custom binary format)
 
@@ -304,7 +310,7 @@ This folder contains:
 This folder contains documentation for the source code completely in japanese:
 * aiscript.txt - Documentation for the custom scripting language for AI based on Forth
 * ode_script.txt - Documentation for the scripts they use of Open Dynamic Engine objects
-* takahashis
+* takahashis - Collision system
 * ゆれもの仕様.doc - WiiMote controller Shake specifications
 * エフェクトについて.txt - Effects such as Blur/Glare/Shadows etc
 * カウンターアクションコマンドについて - Counter action commands
@@ -326,6 +332,147 @@ This folder contains documentation for the source code completely in japanese:
 The file **aiscript.txt** is facinating, it describes the custom scripting language they implemented for the movement of the AI characters. It is based on the Forth programming language and they called it **bioForth**. It is well worth a read if you can translate it.
 
 Following on from **aiscript.txt** you should also read **ode_script.txt** as it is based on the same custom scripting language. In this case it is used for Open Dynamic Engine physics object creation!
+
+### Source Code files (/bioUC/Src)
+Note that the actual development team was outside of Capcom in a company called **Cavia** so you will see the Cavia copyright at the top of most source files.
+
+This folder contains:
+* Common - common code used for multiple games
+* Game - main game code specific to this game
+* Test - test code for collisions/sounds etc
+* Tool - source code to the custom tools they created
+
+### Tool Source code (/bioUC/Src/Tool)
+The Tool folder is split into 3 different categories depending where the tool is run:
+* Wii - Tools that are run on the Wii itself
+* Win32 - Windows tools
+* Plugin - Plugin for Softimage XSI 3D modelling tool
+
+There is only one plugin for Softimage XSI and it is for exporting collision data from a Softimage scene. it is aptly named **CollisionDataExporter** and contains the full Visual Studio project.
+
+The Wii Tools that were created by Capcom are:
+* AgingTask
+* BgObjViewer
+* CollisionViewer
+* ColorBar
+* DebugPlayer
+* EventViewer
+* ItemEdit
+* JimakuViewer
+* LightEdit
+* MoterEditor
+* MoveActionEdit
+* MovieViewer
+* ODEEditor
+* PWeaponEdit
+
+The Windows based tool that were created by Capcom are:
+* BGObjCreateTool
+* Coll2bin
+* CollDataCnvUtil
+* EnumWindows
+* FontChange
+* FontConv
+* MotorConv
+* bgobjpack
+* bio_txtres
+* convconv
+* csvtbl
+* damageReactionTable
+* damageratetable
+* expression
+* luac_customized
+* nw4r_Conv
+* seqconv
+* sndeffcv
+* uniparam
+* yuvtobmp
+
+### Test Source code (/bioUC/Src/Test)
+The Test folder is organised into folders based on the programmer that created the tool:
+* andot (Tomoyuki Ando) - 3D model Viewer test tool
+* hinoy
+* ikedat - Inverse Kinematics test?
+* izawah - Fill rate/Layout and ODE tests
+* izawah2 - same as **izawah** folder
+* satoud (Daisuke Sato)
+* takahashis - Collision and ODE tests
+* tsukizakis (S.Tsukizaki)
+* yanagisawan - Sound tests
+* yokozawak
+
+### Common Source code (/bioUC/Src/Common)
+This folder contains the C/C++ common across multiple games that Cavia created.
+
+It contains the following files and folders:
+* CRI_MW
+* CameraUtil
+* CharaLight
+* Collision
+* Debug
+* Effect
+* Emt
+* Font
+* GXUtil
+* HomeButton
+* Layout
+* MenuTask
+* Model
+* MotionSeq
+* Motor
+* NWSystem
+* Nand
+* ODE
+* Override
+* Pad
+* PrimitiveManager
+* ScreenShot
+* Script
+* Sound
+* Thread
+* Util
+* math
+* movie
+* task_manager
+* wlCommon.h
+
+### Main Game Source code (/bioUC/Src/Game)
+This can be seen as the most interesting folder in the entire project as it contains the game specific code in C/C++.
+
+This folder is organised into the following files and folders:
+* Actor
+* Boss
+* BulletHole
+* CallbackDRAW
+* Camera
+* Collision
+* EHitAttribute
+* Effect
+* Event
+* GameTask
+* Item
+* KeyConfig
+* Layout
+* Light
+* Main
+* ModelModify
+* Movie
+* Player
+* SaveData
+* SaveLoad
+* SceneAnm
+* Script
+* Stage
+* SubScreen
+* Thunder
+* Vibration
+* bioConfig.h
+* bioDebugTimer.h
+* bioMemoryTag.h
+* bioMenuPage.h
+* bioPrimitivePriority.h
+* bioScnObjPriority.h
+* sound
 
 ---
 # Devil May Cry 2 Source code (Capcom3ID451.7z)
@@ -384,4 +531,3 @@ Each folder belongs to a member of the development team:
 * sakano - Mitsunori Sakano
 * shingaki - Hidekazu Shingaki
 * tuji - ?
-
