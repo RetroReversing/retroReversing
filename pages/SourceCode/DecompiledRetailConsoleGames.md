@@ -111,6 +111,12 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/JimB16/SMS" description="Disassembly of the main .dol-file of Super Mario Sunshine, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine"  %}
 
 ---
+## Nintendo Switch
+
+### The Legend of Zelda: Breath of the Wild
+{% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Initial decompilation of the Nintendo switch version of BOTW, it uses the devkitA64 toolchain" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
+
+---
 ## Nintendo Game Boy
 
 ### Kirby's Dream Land
