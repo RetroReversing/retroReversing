@@ -98,8 +98,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## The Legend of Zelda: Majora's Mask
 {% include link-to-other-site.html url="https://github.com/zeldaret/mm" description="A decompilation of The Legend of Zelda: Majora's Mask brought to you by a bunch of clever folks" image="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg/220px-The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" title="Decompilation of The Legend of Zelda: Majora's Mask"  %}
 
-## Doom64
-{% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom64"  %}
+## Doom 64
+{% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
 
 ---
