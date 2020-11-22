@@ -98,6 +98,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## The Legend of Zelda: Majora's Mask
 {% include link-to-other-site.html url="https://github.com/zeldaret/mm" description="A decompilation of The Legend of Zelda: Majora's Mask brought to you by a bunch of clever folks" image="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg/220px-The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" title="Decompilation of The Legend of Zelda: Majora's Mask"  %}
 
+## Doom 64
+{% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
+
 ---
 ## Nintendo GameCube
 
@@ -106,12 +109,6 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 ### Super Mario Sunshine
 {% include link-to-other-site.html url="https://github.com/JimB16/SMS" description="Disassembly of the main .dol-file of Super Mario Sunshine, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine"  %}
-
----
-## Nintendo Switch
-
-### The Legend of Zelda: Breath of the Wild
-{% include link-to-other-site.html url=https://github.com/zeldaret/botw" description="Initial decompilation of the Nintendo switch version of BOTW, it uses the devkitA64 toolchain" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
 
 ---
 ## Nintendo Game Boy
