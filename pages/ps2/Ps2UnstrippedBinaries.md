@@ -16,10 +16,11 @@ breadcrumbs:
     url: /ps2
   - name: PS2 Games with UnStripped Binaries (Developer Symbols)
     url: #
-recommend: symbols
+recommend: 
+- symbols
+- ps2
 editlink: /ps2/Ps2UnstrippedBinaries.md
-references:
-  - assemblergames
+updatedAt: '2020-11-21'
 ---
 
 Debug symbols are normally a rare treasure sought by reverse engineers from prototypes and beta versions of games, however in the early years of the PS2 it was common for debug symbols to be left in the retail version of the games! 
