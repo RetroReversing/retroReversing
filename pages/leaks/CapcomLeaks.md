@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: 
+tags: 
 - leak
 - ps1
 - ps2
@@ -41,10 +42,14 @@ There were four archives leaked, and due to size were split into multiple 7Zip p
 3.  **Capcom3ID451.7z** - Devil May Cry 2 Source code ( 11.2GB in 2 parts)
 4. **CAPCOM4_ID442.7z** - The Misadventures of Tron Bonne PS1 source code (1.38GB)
 
-The archives released after these do not contain any source code unfortunately, so will not be covered in this post.
+The archives released after these (5-7) do not contain any source code unfortunately, so will not be covered in this post.
+
+Archive 8 contains source code for unreleased Resident Evil games and thus are not considered retro and will not be covered here.
 
 ---
 # Resident Evil Umbrella Chronicles
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rv2wsBxqWAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 When the archives have been extracted it creates a folder called **Wii_バイオハザード アンブレラクロニクルズ** which translates roughly to **Wii_ Biohazard Umbrella Chronicles**. Biohazard is the Japanese name for Resident Evil.
 
 The source code for Resident Evil Umbrella Chronicles has many empty folders inside it, it is unclear why this is the case, they could have been removed due to space constraints or maybe a copy job was only part way through before it was stopped. 
@@ -179,12 +184,12 @@ In the root version it is mainly an empty folder structure but the **buildtool**
 
 ### Files only in the Root version  (/バイオ納品)
 There are a few files that are only located in the **/バイオ納品** folder despite the majority of it being an empty folder structure. They are all located in `/バイオ納品/buildtool/buildtool/` and have the following folders:
-* CRI_SDK - CRI Middleware SDK
-* CodeWarrior - CodeWarrior + Plugins + License
-* DevelopmentTools - Wii Development tools
-* MasteringTools - Tools for Wii game publishing
-* NintendoWareForRevolution - NintendoWare tools and runtime libraries for Wii
-* RevolutionSDK - Wii SDK
+* **CRI_SDK** - CRI Middleware SDK
+* **CodeWarrior** - CodeWarrior + Plugins + License
+* **DevelopmentTools** - Wii Development tools
+* **MasteringTools** - Tools for Wii game publishing
+* **NintendoWareForRevolution** - NintendoWare tools and runtime libraries for Wii
+* **RevolutionSDK** - Wii SDK
 
 These are all official software development kit files from Nintendo and CRIware used in many 1st & 3rd party Wii games.
 
@@ -192,12 +197,12 @@ Since these are not Capcom specific they will be covered in a future post.
 
 ### Korean version source code (/韓国版/バイオ納品)
 The rest of this section will discuss the korean version of the source code. It contains the following files and folders:
-* bioUC - C/C++ source code
-* bioUCscript - Game script files (lua etc)
-* buildtool - Nintendo SDK Tools
-* readme.txt - Japanese document outlining the structor of the source code
-* tool - custom tools created by Capcom
-* 北米著作権登録 -  North American copyright registration
+* **bioUC** - C/C++ source code
+* **bioUCscript** - Game script files (lua etc)
+* **buildtool** - Nintendo SDK Tools
+* **readme.txt** - Japanese document outlining the structor of the source code
+* **tool** - custom tools created by Capcom
+* **北米著作権登録** -  North American copyright registration
 
 ### North American copyright registration (北米著作権登録)
 This is a very strange folder indeed, the translated name might make you think of some sort of legal documents to the North American copyright office. 
@@ -212,35 +217,35 @@ Who knows why these exist in this format, very odd indeed!
 
 ### Nintendo SDK Tools (/韓国版/バイオ納品/buildtool)
 As expected this folder contains all the Software development kits and tools from outside of Capcom. It is split into a number of folders:
-* CRI_SDK - CRIware SDK
-* CodeWarrior - Metrowerks Codewarrior
-* DevelopmentTools - Wii tools created by Nintendo
-* MasteringTools - Wii Mastering tools created by Nintendo
-* NintendoWareForRevolution - NintendoWare tools and runtime libraries for Wii
-* RevolutionSDK - Official Wii SDK
+* **CRI_SDK** - CRIware SDK
+* **CodeWarrior** - Metrowerks Codewarrior
+* **DevelopmentTools** - Wii tools created by Nintendo
+* **MasteringTools** - Wii Mastering tools created by Nintendo
+* **NintendoWareForRevolution** - NintendoWare tools and runtime libraries for Wii
+* **RevolutionSDK** - Official Wii SDK
 
 ### Tools By Capcom (/韓国版/バイオ納品/tool)
 This folder contains pre-compiled versions of the tools made for the game by Capcom employees.
 
 Some of the tools include:
-* BGObjConv - Background Object converter for object placed in rooms
-* BGObjCreater - Creates background objects from BGObj models
-* BulletHoleVolume - Tool for putting bullet holes in 3d models
-* CharaConv
-* CollisionTool - Converts Collision data
-* Doc
-* FontConv - Convert Font data
-* FontConvLocal - Font localisation
-* FontConvLocal_Multi
-* FontConv_Multi
-* IconBanner - Tool for creating Wii banner
-* ItemModel - Uploads 3D model data to asset server
-* ItemParam - Uploads item parameter data to asset server
-* LayoutConv - converts the output of the LayoutEditor into binary and packs it into an **arc** archive
-* MakeBRFNT_Tool - Create BRFNT font file from your own images
-* PlayerBulletModel - Converts 3d models for Bullets
-* PlayerWeaponParam - Upload the players weapon parameters to the asset server
-* StageViewer - Creates background data for stages
+* **BGObjConv** - Background Object converter for object placed in rooms
+* **BGObjCreater** - Creates background objects from BGObj models
+* **BulletHoleVolume** - Tool for putting bullet holes in 3d models
+* **CharaConv**
+* **CollisionTool** - Converts Collision data
+* **Doc**
+* **FontConv** - Convert Font data
+* **FontConvLocal** - Font localisation
+* **FontConvLocal_Multi**
+* **FontConv_Multi**
+* **IconBanner** - Tool for creating Wii banner
+* **ItemModel** - Uploads 3D model data to asset server
+* **ItemParam** - Uploads item parameter data to asset server
+* **LayoutConv** - converts the output of the LayoutEditor into binary and packs it into an **arc** archive
+* **MakeBRFNT_Tool** - Create BRFNT font file from your own images
+* **PlayerBulletModel** - Converts 3d models for Bullets
+* **PlayerWeaponParam** - Upload the players weapon parameters to the asset server
+* **StageViewer** - Creates background data for stages
 
 ### Lua/Ruby/BioForth scripting (bioUCscript)
 The game uses the LUA scripting language and the Ruby scripting language along with a custom implementation of the Forth language known as BioForth for its game design scripts.
@@ -300,34 +305,34 @@ The scripting file formats used are:
 
 ### C/C++ Source Code (/bioUC)
 This folder contains:
-* Doc - Documentation for the source code
-* DvdRoot - Contents from the retail disc
-* Project - project build scripts
-* Src - contains the actual source code
-* update_data.bat - batch script to update directory from the main build server
+* **Doc** - Documentation for the source code
+* **DvdRoot** - Contents from the retail disc
+* **Project** - project build scripts
+* **Src** - contains the actual source code
+* **update_data.bat** - batch script to update directory from the main build server
 
 ### Source Code documentation (/bioUC/Doc)
 This folder contains documentation for the source code completely in japanese:
-* aiscript.txt - Documentation for the custom scripting language for AI based on Forth
-* ode_script.txt - Documentation for the scripts they use of Open Dynamic Engine objects
-* takahashis - Collision system
-* ゆれもの仕様.doc - WiiMote controller Shake specifications
-* エフェクトについて.txt - Effects such as Blur/Glare/Shadows etc
-* カウンターアクションコマンドについて - Counter action commands
-* カメラ／ライト／フォグについて.txt - About camera / light / fog
-* システム周りについて.txt - About the system
-* スクリーンショット撮影について.txt - About screenshot ability
-* デバッグ支援について.txt - Debugging support
-* データ型について.txt - About Data Types
-* バイオハザードにおけるIK処理負荷.doc - Inver Kinematics (IK) processing load in biohazard
-* パッドについて.txt - Controller Pad
-* プロジェクトの構築方法について.txt - How to build the project
-* フォルダ構成について.txt - About folder structure
-* メモリ確保について.txt - About memory allocation
-* 噛み付きについて - About Zombie Bites
-* 振動エディタ - Vibration editor
-* 描画周りについて.txt - About drawing
-* 音周り - Sound
+* **aiscript.txt** - Documentation for the custom scripting language for AI based on Forth
+* **ode_script.txt** - Documentation for the scripts they use of Open Dynamic Engine objects
+* **takahashis** - Collision system
+* **ゆれもの仕様.doc** - WiiMote controller Shake specifications
+* **エフェクトについて.txt** - Effects such as Blur/Glare/Shadows etc
+* **カウンターアクションコマンドについて** - Counter action commands
+* **カメラ／ライト／フォグについて.txt** - About camera / light / fog
+* **システム周りについて.txt** - About the system
+* **スクリーンショット撮影について.txt** - About screenshot ability
+* **デバッグ支援について.txt** - Debugging support
+* **データ型について.txt** - About Data Types
+* **バイオハザードにおけるIK処理負荷.doc** - Inver Kinematics (IK) processing load in biohazard
+* **パッドについて.txt** - Controller Pad
+* **プロジェクトの構築方法について.txt** - How to build the project
+* **フォルダ構成について.txt** - About folder structure
+* **メモリ確保について.txt** - About memory allocation
+* **噛み付きについて** - About Zombie Bites
+* **振動エディタ** - Vibration editor
+* **描画周りについて.txt** - About drawing
+* **音周り** - Sound
 
 The file **aiscript.txt** is facinating, it describes the custom scripting language they implemented for the movement of the AI characters. It is based on the Forth programming language and they called it **bioForth**. It is well worth a read if you can translate it.
 
@@ -337,10 +342,10 @@ Following on from **aiscript.txt** you should also read **ode_script.txt** as it
 Note that the actual development team was outside of Capcom in a company called **Cavia** so you will see the Cavia copyright at the top of most source files.
 
 This folder contains:
-* Common - common code used for multiple games
-* Game - main game code specific to this game
-* Test - test code for collisions/sounds etc
-* Tool - source code to the custom tools they created
+* **Common** - common code used for multiple games
+* **Game** - main game code specific to this game
+* **Test** - test code for collisions/sounds etc
+* **Tool** - source code to the custom tools they created
 
 ### Tool Source code (/bioUC/Src/Tool)
 The Tool folder is split into 3 different categories depending where the tool is run:
@@ -476,24 +481,156 @@ This folder is organised into the following files and folders:
 
 ---
 # Devil May Cry 2 Source code (Capcom3ID451.7z)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/No9MCC8hRdY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+When the archive is extracted you get a folder called "02_デビルメイクライシリーズ" which simply translates to "02_Devil May Cry Series", this folder contains two children:
+* PS2_デビルメイクライ2 - PS2_Devil May Cry 2
+* マスター画像 - Master image (empty folder)
+
+Looking into the one non-empty folder you will find a few files and folders:
+* PS2_デビルメイクライ2【収納されていたパッケージ画像2】.pdf - Photo of the top of the storage box that contained the builds
+* PS2_デビルメイクライ2【収納されていたパッケージ画像3.pdf - Photo of the side of the storage box that contained the builds
+* PS2_デビルメイクライ2【最終バックアップディスク1】.ISO - Final Backup Disc 1
+* PS2_デビルメイクライ2【最終バックアップディスク1】.html - Final Backup Disc 1
+* PS2_デビルメイクライ2【最終バックアップディスク1】.pdf - Final Backup Disc 1
+* PS2_デビルメイクライ2【最終バックアップディスク2】.ISO - Final Backup Disc 2
+* PS2_デビルメイクライ2【最終バックアップディスク2】.html - Final Backup Disc 2
+* PS2_デビルメイクライ2【最終バックアップディスク3】.ISO - Final Backup Disc 3
+* PS2_デビルメイクライ2【最終バックアップディスク3】.pdf - Final Backup Disc 3
+* PS2_デビルメイクライ2【最終バックアップディスク4】.ISO - Final Backup Disc 4
+* PS2_デビルメイクライ2【最終バックアップディスク4】.html - Final Backup Disc 4
+* マスター画像 - Master Image (empty folder)
+
+Note the naming of the files might be a little confusing, there are four unique discs (ISO files) here. Rather than 4 different versions of the same disc as I initially thought when viewing the folder.
+
+A really cool but unexpected fact about this folder is the inclusion of the photos of where the builds were stored, including the cardboard box which has DMC2 images stuck to it. 
+
+They are all stored in PDF format for some reason even although they only contain one image. Also contained in pdf format is photos of the CD inside the jewel case.
+
+The HTML files in this folder are also quite interesting, they seem to be a list of differences between what is presumably the Master Image and the specific backup discs.
+
+This leaves the ISO image files which is exactly where you will find the source code for the game, so lets dive in!
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A backup of a disk containing DMC2 code was found in the leak. <br><br>Original is probably in cold storage, sitting at some undisclosed location.<br><br>The disk contains all software and data needed to compile and run the game. <a href="https://t.co/AVd17xjJvc">pic.twitter.com/AVd17xjJvc</a></p>&mdash; /PPG/ (@pokeprotos) <a href="https://twitter.com/pokeprotos/status/1328189538326388736?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote> 
 
+Each disc contains a subset of a single large build, this is due to the limited storage size of DVD discs. 
+
+So there is a readme.txt file at the root of each DVD which lists the final build structure when you merge all the discs together.
+
+## Disc 1 - PS2 SDKs and 3rd party libraries
+When Disc 1 has been mounted it has the following contents:
+* **china** - library for Chinese version
+* **cri** - CRI middleware (ADX/Sofdec/MWSFD)
+* **cw** - CodeWarrior 3.03J
+* **cygwin** - cygwin 1.1.x
+* **readme.txt** - details about the contents of all theDVDs
+* **sce** - Official PS2 SDK
+* **si** - SoftImage XSI data
+
+---
+## Disc 2 - Source Code
+When Disc 2 has been mounted it has the following contents:
+* **blood_type.txt** - Blood Type Meta Data
+* **data** - data for mastering the DVD disc of the game
+* **devil2.bat** - just sets environment variables for building the game
+* **dipsw.dat** - Maybe something to do with DIP switches on the dev hardware?
+* **effect.txt** - Notes about the player and the enemy's flying sand smoke effect
+* **enemy.txt** - some sort of meta data related to player and enemies
+* **filename.txt** - this looks like a template for creating new files
+* **inst.bat** - install batch script that copies and deletes data
+* **keepflag.txt** - meta data about bonus orbs
+* **makefile** - the main makefile for the project
+* **makerom.txt** - notes about creating the ISO image
+* **module.lst** - list of IOP modules (IRX files)
+* **mwlib** - CRI middleware library files
+* **pack.bat**
+* **pget.bat** - batch script for copying data then packing it
+* **probar.txt** - notes about the loading processing bar
+* **prog** - C/C++ source code
+* **project** - CodeWarrior project files data
+* **roma.bat** - Copy files for America
+* **romc.bat** - Copy files for China
+* **rome.bat** - Copy files for Europe
+* **romj.bat** - Copy files for Japan
+* **romk.bat** - Copy files for Korea
+* **scrchpad.txt** - scratchpad memory notes
+* **setting.bat** - possibly copies ELF file to dev hardware
+* **uninst.bat** - deletes AutoModelista files (probably copied from that games project files and forgotten to be updated)
+
+One surprisingly interesting file is **probar.txt** which lists the different colours the loading progress bar has and what it is actually doing when it has that colour!
+
+---
+## Disc 3 - Misc
+When Disc 2 has been mounted it has the following contents:
+* **camera** - Camera intermediate data
+* **ccz** -  For creating the ISO IMAGE
+* **char** - Textures - TIM2, IPU data
+* **demo** - content used for Demo Disc version
+* **doc** - Text files for localisation
+* **movie** - contains movie files that wouldn't fit on Disc 4
+* **orb** - Set orb intermediate data
+* **set** - Enemy set intermediate data
+* **sound** - Sound data
+* **stage** - Terrain intermediate data
+* **tools** - Tools
+
+---
+## Disc 4 - Movie files
+This DVD only contained the movie files which would have been located at **/devil2/movie** in the original build.
+
+The contents of the movie folder are as follows:
+* Jiware512.zip
+* billboss512.zip
+* cg_00d.mcj - op/dante video metadata
+* cg_00l.mcj - op/lucia video metadata
+* cg_01.mcj - matihe512 video metadata
+* cg_02.mcj - billboss512 video metadata
+* cg_03.mcj - hliport512 video metadata
+* cg_04.mcj - tower512 video metadata
+* cg_05.mcj - gisiki512 video metadata
+* cg_06.mcj - mon512 video metadata
+* cg_07.mcj - Jiware512 video metadata
+* cg_08.mcj - staff video metadata
+* cg_09d.mcj - next dante video metadata
+* cg_09l.mcj - next lucia video metadata
+* devil2.mcl - INI file containing paths for all the .MCJ files
+* gisiki512.zip
+* hliport512.zip
+* matihe512.zip
+* mon512.zip
+* movie.lst - seems to contain meta data describing the .mdj files
+* next.zip
+* staff.zip - Ending credits video of the game
+* tower512.zip
+
+The .MCJ files seem to have been created by **CRI Sofdec CRAFT**, these are video files in the CRI Sofdec format. The sofdec format is based on MPEG-2 but has support for CRI's ADX audio codec.
+
+These files are all brought together in the plain text ini files called **devil2.mcl**.
+
+The zip files contain bitmap (BMP) files for each frame of the video! As you would expect these vip files are huge because of it.
+
+Note that Disc 3 also contains 3 Movie archives which couldn't fit on the Disc 4 folder:
+* op/dante.zip
+* op/lucia.zip
+* op/国別512.zip - Country?
+
 ---
 # The Misadventures of Tron Bonne (CAPCOM4_ID442.7z)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VtlDBzVN-Ts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The root folder is called **PS_トロンにコブン** which is the Japanese name for the game plus the PS_ prefix for Playstation. It contains three sub folders inside it:
-* 北米版 - North American Edition
-* PAL版 - PAL version (Europe)
-* 国内版 - Domestic version (Japan)
+* **北米版** - North American Edition
+* **PAL版** - PAL version (Europe)
+* **国内版** - Domestic version (Japan)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Plus the source code of &quot;The Misadventures of Tron Bonne&quot; (screenshot not mine): <a href="https://t.co/eutXjxgjel">pic.twitter.com/eutXjxgjel</a></p>&mdash; WaluigiBSOD (@WaluigiBSOD) <a href="https://twitter.com/WaluigiBSOD/status/1328411114980470784?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote> 
 
 ---
 ## PAL Version (/PAL版)
 There are three folders in the PAL version:
-* ﾏｽﾀｰﾛﾑｲﾒｰｼﾞ- Master ROM image
-* TRON_CD1 - PAL Source Code
-* TRON_CD2 - PAL Tools
+* **ﾏｽﾀｰﾛﾑｲﾒｰｼﾞ** - Master ROM image
+* **TRON_CD1** - PAL Source Code
+* **TRON_CD2** - PAL Tools
 
 ### ﾏｽﾀｰﾛﾑｲﾒｰｼﾞ- Master ROM image
 The Master ROM image folder contains an .img/.cue file combo that is the disc they pressed for PAL regions, you should be able to play this in the PS1 emulator of your choice.
@@ -502,11 +639,11 @@ It is unconfirmed if there are any minor differences between this and the retail
 
 ---
 ## North American Version (/北米版) 
-there are four folders in the North American version:
+There are four folders in the North American version:
 * ﾏｽﾀｰﾛﾑｲﾒｰｼﾞ - Master ROM image
-* disc1 - NA Source Code
-* disc2 - Tools developed by matsuda and shingaki
-* disc3 - NA Tools
+* **disc1** - NA Source Code
+* **disc2** - Tools developed by matsuda and shingaki
+* **disc3** - NA Tools
 
 ### ﾏｽﾀｰﾛﾑｲﾒｰｼﾞ - Master ROM image
 The Master ROM image folder contains an .img/.cue file combo that is the disc they pressed for North America, you should be able to play this in the PS1 emulator of your choice.
@@ -516,11 +653,11 @@ It is unconfirmed if there are any minor differences between this and the retail
 ---
 ## Japanese Version (/国内版) 
 The Japanese version contains more folders than the other two due to it containing some development tools.
-* tools - tools developed by each member of the development team
-* library - development software such as Multi-ICE
-* ﾏｽﾀｰﾛﾑﾃﾞｰﾀ - Master ROM data
-* pocket - Pocketstation source code
-* psx - PS1 source code and assets
+* **tools** - tools developed by each member of the development team
+* **library** - development software such as Multi-ICE
+* **ﾏｽﾀｰﾛﾑﾃﾞｰﾀ** - Master ROM data
+* **pocket** - Pocketstation source code
+* **psx** - PS1 source code and assets
 
 ### Tools (/国内版/tools)
 Each folder belongs to a member of the development team:
