@@ -27,7 +27,7 @@ It is very rare that a commercial game releases its source code to the public, i
 To be considered for this list the game must have at least a quarter of the source code used to make the game/prototype released.
 
 This list does not contain fan decompilations of retail games, for those we have a separate page:
-{% include link-to-other-post.html post="/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 # Nintendo Systems
 Nintendo systems have by far the largest selection of official source code to choose from, some of it has been leaked and others have been released officially by the developers.
@@ -35,13 +35,13 @@ Nintendo systems have by far the largest selection of official source code to ch
 ## GameBoy (DMG & GBC)
 
 ### Days of Thunder 
-{% include link-to-other-site.html url="https://github.com/DickBlackshack/Days-of-Thunder-NES-Unpublished" description="" image="https://images-na.ssl-images-amazon.com/images/I/61rhbiNhkoL._AC_.jpg" title="Days of Thunder"  %}
+{% include link-to-other-site.html url="https://github.com/DickBlackshack/Days-of-Thunder-NES-Unpublished" description="Days of Thunder was an unpublished NES game by developer Chris Oberth" image="https://images-na.ssl-images-amazon.com/images/I/61rhbiNhkoL._AC_.jpg" title="Days of Thunder"  %}
 
 ### Infinity
-{% include link-to-other-site.html url="https://github.com/infinity-gbc/infinity" description="" image="" title="Infinity"  %}
+{% include link-to-other-site.html url="https://github.com/infinity-gbc/infinity" description="Infinity is a role-playing game for the Game Boy Color handheld game console, developed by Affinix Software primarily between the years 1999 and 2001. The game is incomplete and should be considered alpha/preview quality. " image="" title="Infinity"  %}
 
 ### Little Mermaid Pinball 
-{% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
+{% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="Source code fo the retai game boy release of Little Mermaid Pinball" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
 
 ### Mr Do!
 {% include link-to-other-post.html post="/mrdo" description="For more information on the Mr Do! Game Boy source code check out this post." %}
@@ -87,16 +87,16 @@ Most of these games have been leaked due to part 2 of the infamous Gigaleak.
 {% include link-to-other-post.html post="/gigaleak2" description="For more information check out this post." %}
 
 Games with Source Code Leaked:
-	•	1080 Snowboarding
-	•	Animal Crossing (Animal Forest)
-	•	Dr Mario 64
-	•	F-Zero X
-	•	Mario Kart 64
-	•	NBA Courtside 1 & 2
-	•	Star Fox 64
-	•	Super Mario 64 (Decompiled + Partial official leak)
-	•	Yoshi's Story
-	•	Wave Race 64
+* 1080 Snowboarding
+* Animal Crossing (Animal Forest)
+* Dr Mario 64
+* F-Zero X
+* Mario Kart 64
+* NBA Courtside 1 & 2
+* Star Fox 64
+* Super Mario 64 (Decompiled + Partial official leak)
+* Yoshi's Story
+* Wave Race 64
 
 ### Mortal Kombat Trilogy
 {% include link-to-other-site.html url="https://hiddenpalace.org/Mortal_Kombat_Trilogy_(May_13,_1996_prototype)" description="" image="https://i.ytimg.com/vi/dXuNTPYF42A/hqdefault.jpg" title="Mortal Kombat Trilogy"  %}
