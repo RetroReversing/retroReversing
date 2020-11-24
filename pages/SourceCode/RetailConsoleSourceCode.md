@@ -26,6 +26,9 @@ It is very rare that a commercial game releases its source code to the public, i
 
 To be considered for this list the game must have at least a quarter of the source code used to make the game/prototype released.
 
+This list does not contain fan decompilations of retail games, for those we have a separate page:
+{% include link-to-other-post.html post="/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+
 # Nintendo Systems
 Nintendo systems have by far the largest selection of official source code to choose from, some of it has been leaked and others have been released officially by the developers.
 
