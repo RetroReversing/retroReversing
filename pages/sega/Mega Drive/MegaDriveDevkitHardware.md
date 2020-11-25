@@ -26,6 +26,12 @@ videocarousel:
   - image: https://img.youtube.com/vi/A9zQueGP4iI/maxresdefault.jpg
     title: Western Technologies Sega Dev Card
     youtube: 'A9zQueGP4iI'
+  - image: https://img.youtube.com/vi/GH94fKtGr0M/maxresdefault.jpg 
+    youtube: 'GH94fKtGr0M'
+  - image: https://img.youtube.com/vi/gLfNgKutK-g/maxresdefault.jpg
+    youtube: 'gLfNgKutK-g'
+  - image: https://img.youtube.com/vi/aD8kCGBi4wI/maxresdefault.jpg
+    youtube: 'aD8kCGBi4wI'
 redirect_from:
   - /official-mega-drive-devkit/
   - /sega-dev-card
