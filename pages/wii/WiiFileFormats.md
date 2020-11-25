@@ -3,24 +3,34 @@ layout: post
 tags: 
 - wii
 - fileformats
-title: Wii FIle Formats
+title: Wii File Formats
 thumbnail: /public/consoles/Nintendo Wii.png
-image: /public/consoles/Nintendo Wii.png
+image: /public/images/wii/Wii File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/wii/Wii File Formats.jpg
 permalink: /wii-file-formats
 breadcrumbs:
   - name: Home
     url: /
   - name: Wii
     url: /wii
-  - name: Wii FIle Formats
+  - name: Wii File Formats
     url: #
 recommend: 
 - wii
 - fileformats
 editlink: /wii/WiiFileFormats.md
+updatedAt: '2020-11-25' 
 ---
+<section class="postSection">
+    <img src="/public/images/wii/Wii File Formats.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+When reverse engineering Wii games it is very important to know the file formats that were commonly used in game development.
 
 Many of the asset formats in this document are from the NintendoWare for Revolution toolset [^1].
+ </div>
+</section> 
+
 
 # ISO Files
 ISO files are a standard format for distributing the contents of a physical disc as a single file. If you want to back up your Wii game discs this is one of the formats you may want to use.
