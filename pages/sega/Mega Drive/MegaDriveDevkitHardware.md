@@ -30,6 +30,8 @@ redirect_from:
   - /official-mega-drive-devkit/
   - /sega-dev-card
   - /sprobe-megadrive/
+  - /snasm2-cross-products
+updatedAt: '2020-11-25'
 ---
 The SEGA Mega drive was released on October 29th 1988 in Japan following with North America almost a year later and Europe another whole year later than that! 
 
