@@ -1,12 +1,12 @@
 ---
 layout: post
-tags: 
+tags:
 - devkit
 - hardware
 - megadrive
 title: Sega Mega Drive (Genesis) Development Kit Hardware
 thumbnail: /public/consoles/Sega Megadrive.png
-image: /public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
+image: /public/images/megadrive/Sega Mega Drive Genesis Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis Development Kit Hardware.jpg
 permalink: /sega-mega-drive-genesis-development-kit/
 breadcrumbs:
@@ -29,15 +29,23 @@ redirect_from:
   - /sega-dev-card
   - /sprobe-megadrive/
 ---
+The SEGA Mega drive was released on October 29th 1988 in Japan following with North America almost a year later and Europe another whole year later than that! 
+
+During its lifespan it became incredibly popular especially in Brazillian and European markets where it lasted long after the death of its successor the Saturn.
 
 # Official Development Kits
+SEGA provided developers with different options for developing games for the platform throughout the years, starting with their Super Mega Drive and eventually leading to the distribution of Cross Products SNASM development kits.
+
+Below is the photo containing the only information we have on the pricing of the development kit:
+
+<img src="/public/images/megadrive/Mega Drive Price List.jpg" class="wow slideInLeft postImage" />
 
 ## Super Mega Drive Development console
 There is very little information out there about the Super Mega Drive but a manual was leaked thanks to the [techdocs.exodusemulator.com](techdocs.exodusemulator.com) website.
 
 This gives the information that it would be a Mega Drive console with the ability to use a In-circuit emulator such as the ZAX ICE to debug game code.
 
-The site says that is was by Sega Ozisoft due to the copyright notice that is on every page, however there is another version where the copyright notice is instead changed to "The Code Monkeys". 
+At first glance it might seem that it was built by Sega Ozisoft due to the copyright notice that is on every page, however there is another version where the copyright notice is instead changed to "The Code Monkeys". 
 
 Both Sega OziSoft and "The Code Monkeys" were games studios that developed games for the Mega Drive, so it is likely that Sega printed different versions of the user manual each with a watermark of the company they sent it to.
 
@@ -57,12 +65,84 @@ Sega officially distributed these for Sega Mega Drive development due to the sou
 Interestingly this piece of hardware required not one but two ISA cards to be in a developers PC in order to communicate with the ICE [^3].
 
 The ICE would allow developers to set breakpoints, step through instructions and trace programs but don't expect audio or graphics output, this is literally just for tracing the execution of the CPU to test programs.
-
-Apparently there was another ZAX ICE for the Motorola 68k processor which would provide the same functionality but for the main Mega Drive processor.
  </div>
 </section> 
 
 {% include link-to-other-site.html url="https://segaretro.org/Zax_Corporation" description="For more information about the ZAX corporation checkout this excellent Sega Retro page" image="https://segaretro.org/images/2/20/ZaxCorporation_Logo.png" title="Zax Corporation - Sega Retro"  %}
+
+## ZAX ERX 318P ICE for Motorola 68K
+<section class="postSection">
+    <img src="/public/images/megadrive/Mega Drive ZAX ERX 318P.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+There was another ZAX ICE for the Motorola 68k processor which would provide the same functionality as the Z80 one but for the main Mega Drive processor. This would have most likely been the way most Mega Drive game programmers debugged their main game logic.
+ </div>
+</section> 
+
+
+## Mega Drive Loader (171-5734)
+<section class="postSection">
+    <img src="/public/images/megadrive/Mega Drive Loader.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The SEGA Mega Drive Loader was a connector for transferring data from a developers PC to the Mega Drive console. It connected to the controller port on the console and the printer port of the PC.
+
+It was mainly used for downloading ROM files to the ICE unit to be played on the console.
+ </div>
+</section> 
+
+
+## Mega Drive Address Checker (171-6286)
+
+<section class="postSection">
+    <img src="/public/images/megadrive/Mega Drive Address Checker.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The SEGA Mega Drive Address Checker was a development tool used to check the integrity of software for the system. It warned the user of any writes to invalid memory addresses, which is a very useful debugging tool and useful for SEGA itself to make sure cartridges are of a quality enough to produce.
+ </div>
+</section> 
+
+
+---
+## Prototype Cartridges
+In order to QA the game and send out promotional copies to magazines or other media publications, prototype cartridges were sold by SEGA that contained slots for EPROMs to be burned.
+
+### 4Meg ROM Board A (171-5694-01)
+
+<section class="postSection">
+    <img src="/public/images/megadrive/Mega Drive 4Meg ROM Board A.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The 4Mb ROM board is the most common to find today as it was distributed to media companies, especially games magazines. 
+
+The developer would use an EPROM writer to write each of the chips and then place them inside the cartridge.  </div>
+</section> 
+
+
+## SEGADEV SRAM Sega Mega Drive Development Cartridge
+
+<section class="postSection">
+    <img src="/public/images/megadrive/SEGADEV SRAM Sega Mega Drive Development Cartridge.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/megadrive/SEGADEV SRAM Sega Mega Drive Development Cartridge Back.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+Western Technologies developed a 2MB RAM cartridge that was distributed by SEGA to developers.
+
+This development cartridge has a port on it to connect to a development PC to load data into the RAM chips [^3]. Apparently the two 8KB EPROMS you can see are for a bootloader program. 
+
+So if you are considering buying one of these please remember that there will be no prototype games on them due to it being SRAM based. The data is gone as soon as it is disconnected.</div>
+</section> 
+
+---
+
+# Official Development Kits for Mega Drive Addons
+The SEGA Mega drive is one of the most upgradable consoles ever on the market due to SEGAs initiatives to keep the hardware up to date with up coming 32-bit systems.
+
+## Sega Virtua Processor (SVP) Dev Board (171-6666A)
+
+<section class="postSection">
+    <img src="/public/images/megadrive/Sega Virtua Processor Dev Board.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The Sega Virtua Processor was an additional processor for handling 3D geometry contained inside the mega drive cartridge itself. You can think of this as SEGAs answer to the superFX chip.
+
+In order to develop games that used this new processor, development hardware has to be created with the processor on board. The SVP Dev board was just that, it had the SVP processor along with slots for EPROM chips to be inserted with the custom game code.
+</div>
+</section> 
 
 ---
 # Third Party Development Kits
