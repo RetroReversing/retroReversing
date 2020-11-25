@@ -4,6 +4,8 @@ tags:
 - devkit
 - hardware
 - megadrive
+- crossproducts
+- snsystems
 title: Sega Mega Drive (Genesis) Development Kit Hardware
 thumbnail: /public/consoles/Sega Megadrive.png
 image: /public/images/megadrive/Sega Mega Drive Genesis Development Kit Hardware.jpg
@@ -38,7 +40,7 @@ SEGA provided developers with different options for developing games for the pla
 
 Below is the photo containing the only information we have on the pricing of the development kit:
 
-<img src="/public/images/megadrive/Mega Drive Price List.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/megadrive/Mega Drive Price List.jpg" class="wow slideInLeft" />
 
 ## Super Mega Drive Development console
 There is very little information out there about the Super Mega Drive but a manual was leaked thanks to the [techdocs.exodusemulator.com](techdocs.exodusemulator.com) website.
@@ -111,7 +113,8 @@ In order to QA the game and send out promotional copies to magazines or other me
  <div markdown="1">
 The 4Mb ROM board is the most common to find today as it was distributed to media companies, especially games magazines. 
 
-The developer would use an EPROM writer to write each of the chips and then place them inside the cartridge.  </div>
+The developer would use an EPROM writer to write each of the chips and then place them inside the cartridge.  
+</div>
 </section> 
 
 
@@ -119,14 +122,22 @@ The developer would use an EPROM writer to write each of the chips and then plac
 
 <section class="postSection">
     <img src="/public/images/megadrive/SEGADEV SRAM Sega Mega Drive Development Cartridge.jpg" class="wow slideInLeft postImage" />
-<img src="/public/images/megadrive/SEGADEV SRAM Sega Mega Drive Development Cartridge Back.jpg" class="wow slideInLeft postImage" />
+
  <div markdown="1">
-Western Technologies developed a 2MB RAM cartridge that was distributed by SEGA to developers.
+The Sega Dev Card by Western Technologies was a  development kit that functioned in a similar way to modern day Flash Cartridges. It connects to the developers PC (running MS-DOS) via a port on the back of the cartridge [^1].
+
+Western Technologies created the 2MB RAM cartridge that was then distributed by SEGA to developers.
 
 This development cartridge has a port on it to connect to a development PC to load data into the RAM chips [^3]. Apparently the two 8KB EPROMS you can see are for a bootloader program. 
 
 So if you are considering buying one of these please remember that there will be no prototype games on them due to it being SRAM based. The data is gone as soon as it is disconnected.</div>
 </section> 
+
+<img src="/public/images/megadrive/SEGADEV SRAM Sega Mega Drive Development Cartridge Back.jpg" class="wow slideInLeft" />
+
+The developer could run `SEGALOAD GameName.bin` to load a compiled Sega Mega Drive game ROM file. It can also debug games using breakpoints and memory dumps [^1].
+
+ <iframe class="wow slideInLeft" width="560" height="315" src="https://www.youtube.com/embed/A9zQueGP4iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -144,19 +155,80 @@ In order to develop games that used this new processor, development hardware has
 </div>
 </section> 
 
+## MegaCD CTrac CD Emulation System
+<section class="postSection">
+    <img src="/public/images/megadrive/MegaCD CTrac CD Emulation System.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The CTrac CD Emulation system was developed by **ICOM Simulations** and distributed officially by SEGA. As the name suggest it emulates a CD drive, instead using the hard drive of the developers PC to stream content to the Mega CD.
+</div>
+</section> 
+
+This was also used for the Cross Products Mega-CD development kit and you can see more details about both in the following video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gLfNgKutK-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 # Third Party Development Kits
+SEGA were not the only distributer of development kits for the SEGA Mega Drive, British-based companies such as SN Systems and Cross Products dominated the marked in the UK.
 
-## Western Technologies Sega Dev Card
+## Cross Products SNASM 68000
 <section class="postSection">
-    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/A9zQueGP4iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<div markdown="1">
-The Sega Dev Card by Western Technologies was a third party development kit that functioned in a similar way to modern day Flash Cartridges. It connects to the developers PC (running MS-DOS) via a port on the back of the cartridge [^1].
+    <img src="/public/images/megadrive/Cross Products SNASM 68000.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+The SNASM 68K was Cross Products first development kit for a SEGA console and it was hugely popular! So popular that SEGA purchased Cross Products outright and they became the official creator of development kits for every SEGA system since.
 
-The developer could then run `SEGALOAD GameName.bin` to load a compiled Sega Mega Drive game ROM file. It can also debug games using breakpoints and memory dumps [^1].
-
+SNASM68K was part of an overall product suite known as SNAM which had development kits for most of the major consoles at the time including the SNES.
 </div>
-</section>
+</section> 
+
+Note that the SNASM68K was not just development hardware but in fact contained the very popular SDK toolchain also called SNASM68K.
+
+SEGARetro.org has an excellent page on the development kit: [SNASM68K - Sega Retro](https://segaretro.org/SNASM68K)
+
+The SNASM 68K lasted until late 1993 when it was then replaced with version 2 of the suite aptly called SNASM2.
+
+---
+## Cross Products SNASM2 Suite
+In November 1993 Cross Products teamed up with SEGA to produce the sequel to their popular SNASM68K development kit named SNASM2. 
+
+There were multiple flavours of the SNASM2 development kits, one with a SEGA Mega-CD built in and another for 32X development.
+
+### Cross Products SNASM2 Mega-CD development Kit
+The SNASM2 Mega-CD kit is one of the most commonly seen Mega Drive developments kits and has been used recently to create the game **Tanglewood**.
+
+In fact you can even see the Tanglewood developer Matt give an overview of the hardware in a video for Computerphile:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GH94fKtGr0M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+For even more details about the Mega-CD development kit check out the video below.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aD8kCGBi4wI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Cross Products SNASM2 32X development kit
+In Issue 17 of the UK Magazine **EDGE** there is a full-page advert for the 32X version fo the SNASM2 suite.
+
+<img src="/public/magazine/SNASM2_Edge_UK_017.jpg"> 
+
+
+---
+# Psy-Q Development Kit (Plus 32X support)
+
+<section class="postSection">
+    <img src="/public/images/megadrive/Psy-Q Mega Drive Development Kit.jpg" class="wow slideInLeft postImage" />
+ <div markdown="1">
+SN Systems were a well known company in the UK for producing development kit hardware and so they jumped at the chance to develop a kit for the Sega Mega Drive.
+
+Common to most of their other development kits they tend to be extensions of the retail hardware with custom cartridges placed in the console with a connected to the developers PC for sending ROMS down to the console.
+</div>
+</section> 
+
+Nicholas Cottrill has some excellent photos of the Psy-Q Mega Drive hardware on his Flickr:
+[Psy-Q Mega Drive/Mega CD and 32X by Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096758782/in/photostream/)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Mega Drive setup - that card looks sussssssspiciously similar, so I have my hopes up.<br><br>I think this is the setup <a href="https://twitter.com/Psycatic?ref_src=twsrc%5Etfw">@Psycatic</a> used for his Invaders game. <a href="https://t.co/I7teIze9MG">pic.twitter.com/I7teIze9MG</a></p>&mdash; Matt Phillips (@bigevilboss) <a href="https://twitter.com/bigevilboss/status/1142031487317020672?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
+# In-House development Kits
+Even with the wide variety of development kits on the market for the SEGA Genesis some companies prefered to create their own development kits.
 
 ## SPROBE (EA)
 <section class="postSection">
@@ -168,6 +240,7 @@ Latching onto the Mega Drive cart interface, it adds a cartridge emulator as wel
 This hardware is one of the reasons for EA's early dominance in Sega Genesis gaming [^2].
 </div>
 </section>
+
 
 ---
 # References
