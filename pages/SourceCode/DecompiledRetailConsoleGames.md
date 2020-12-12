@@ -101,6 +101,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Doom 64
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
+## Perfect Dark
+{% include link-to-other-site.html url="https://github.com/n64decomp/perfect_dark" description="Decompilation of Perfect Dark, about 25% complete" image="https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg" title="Decompilation of Perfect Dark"  %}
+
+
 ---
 ## Nintendo GameCube
 
