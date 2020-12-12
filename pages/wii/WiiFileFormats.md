@@ -56,6 +56,17 @@ When you have extracted a WAD you will get a bunch of .APP files, these are arch
 ## How to extract .app files
 You can use a GUI tool such as `U8Mii.exe` or a command line interface such as `ARCTool`.
 
+### With Wiimms SZS Tools
+You can download Wiimms SZS Tools here: https://szs.wiimm.de/download.html
+
+Here is an example of extracting a U8 archive:
+
+```
+wszst x ./lineattack/00000002.app
+```
+
+This tool can also be used to manipulate a lot of other file formats, such as TPL and BRRES.
+
 ### With U8Mii
 U8Mii is a windows executable that has a GUI for opening App files, on windows you should be able to double click it but on Linux or Mac you will need to use WINE like so:
 ```
