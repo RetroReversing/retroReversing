@@ -14,10 +14,6 @@ gems:
   - jekyll-feed
 whitelist:
   - jekyll-redirect-from
-  - jekyll-feed
-  
-feed:
-  tags: true
 
 markdown: kramdown
 kramdown:
