@@ -9,6 +9,9 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
+  
+feed:
+  tags: true
 
 # Site configurations
 gems:
