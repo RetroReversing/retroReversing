@@ -11,7 +11,6 @@ highlighter: rouge
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-feed
 whitelist:
   - jekyll-redirect-from
 
