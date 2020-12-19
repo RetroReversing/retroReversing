@@ -20,6 +20,8 @@ recommend:
 - fileformats
 editlink: ../posts/wii/WiiFileFormats.md
 updatedAt: '2020-11-25'
+collection: posts
+excerpt: FInd out about the most common Wii File formats in this post
 ---
 <section class="postSection">
     <img src="/public/images/wii/Wii File Formats.jpg" class="wow slideInLeft postImage" />
