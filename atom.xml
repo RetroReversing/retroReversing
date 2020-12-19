@@ -27,9 +27,21 @@ layout: none
           <author>
             <name>Retro Reversing</name>
           </author>
-          <category term="wii"/>
-          <category term="fileformats"/>
-          <summary type="html">Find out about the most common Wii File formats in this post</summary>
+          {% if post.recommend %}
+            <div class="card-meta">
+              {% if post.recommend.first %}
+                <category term="{{ post.recommend.first }}"/>
+              {% else %}
+                <category term="{{ post.recommend }}"/>
+              {% endif %}
+            </div>
+          {% endif %}
+          
+          {% if post.excerpt %}
+            <summary type="html">{{post.excerpt}}</summary>
+          {% else %}
+            <summary type="html">Find out about {{post.title}} in this post</summary>
+          {% endif %}
           {% if post.image %}
                 <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.retroreversing.com/{{ post.image }}"/>
                 <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://www.retroreversing.com/{{ post.image }}"/>
