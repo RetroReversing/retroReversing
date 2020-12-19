@@ -15,9 +15,6 @@ gems:
 whitelist:
   - jekyll-redirect-from
   - jekyll-feed
-
-plugins:
-  - jekyll-feed
   
 feed:
   tags: true
