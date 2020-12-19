@@ -18,9 +18,8 @@ breadcrumbs:
 recommend: 
 - wii
 - fileformats
-editlink: '../_posts/wii/WiiFileFormats.md'
+editlink: '../_posts/wii/2020-11-25-WiiFileFormats.md'
 updatedAt: '2020-11-25'
-date: '2016-05-29 13:25:00 -0400'
 excerpt: FInd out about the most common Wii File formats in this post
 ---
 <section class="postSection">
