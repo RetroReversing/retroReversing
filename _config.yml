@@ -7,6 +7,9 @@ url: https://www.retroreversing.com
 logo: '/public/logo.png'
 highlighter: rouge
 
+plugins:
+  - jekyll-feed
+
 # Site configurations
 gems:
   - jekyll-paginate
@@ -53,7 +56,7 @@ hero:
   caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
 
-# Puglins
+# Plugins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
