@@ -19,19 +19,24 @@ layout: none
       {% if post.image or post.youtube %}
         <entry>
           <title type="html">{{ post.title }}</title>
-          <link href="{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
+          <link href="https://www.retroreversing.com/{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
           <published>{{ post.updatedAt }}T00:00:00+00:00</published>
           <updated>{{ post.updatedAt }}T00:00:00+00:00</updated>
-          <id>{{ post.url }}</id>
-          <content type="html" xml:base="{{ post.url }}"></content>
+          <id>https://www.retroreversing.com/{{ post.url }}</id>
+          <content type="html" xml:base="https://www.retroreversing.com/{{ post.url }}"></content>
           <author>
             <name>Retro Reversing</name>
           </author>
           <category term="wii"/>
           <category term="fileformats"/>
           <summary type="html">Find out about the most common Wii File formats in this post</summary>
-          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.retroreversing.com/public/images/wii/Wii%20File%20Formats.jpg"/>
-          <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://www.retroreversing.com/public/images/wii/Wii%20File%20Formats.jpg"/>
+          {% if post.image %}
+                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.retroreversing.com/{{ post.image }}"/>
+                <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://www.retroreversing.com/{{ post.image }}"/>
+          {% else if post.youtube %}
+                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://img.youtube.com/vi/{{ post.youtube }}"/>
+                <media:content xmlns:media="http://search.yahoo.com/mrss/" medium="image" url="https://img.youtube.com/vi/{{ post.youtube }}"/>
+          {% endif %}
         </entry>
       {% endif %}
     {% endfor %}  
