@@ -19,7 +19,9 @@ recommend:
 - wii
 - fileformats
 editlink: /wii/WiiFileFormats.md
-updatedAt: '2020-11-25' 
+updatedAt: '2020-11-25'
+date: '2020-11-25'
+collection: posts
 ---
 <section class="postSection">
     <img src="/public/images/wii/Wii File Formats.jpg" class="wow slideInLeft postImage" />
