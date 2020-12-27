@@ -6,7 +6,7 @@ tags:
 - 3ds
 title: Nintendo Ninja Leak  
 thumbnail: /public/consoles/Nintendo 3DS.png
-image: /public/images/leaks/NinjaLeak.jpg
+image: /public/images/leaks/Nintendo Ninja Leak.jpg
 permalink: /ninjaleak
 breadcrumbs:
   - name: Home
@@ -19,7 +19,7 @@ recommend:
 - leak
 - ds
 - 3ds
-editlink: /leaks/Ninja.md
+editlink: /leaks/Nintendo Ninja Leak.jpg
 twitterimage: https://www.retroreversing.com/public/images/leaks/NinjaLeak.jpg
 updatedAt: '2020-12-27'
 ---
@@ -31,9 +31,9 @@ Including stalking and intimidation of a Nintendo 3DS developer who is well resp
 Note that as Nintendo kept private information about this individual such as real name, address and parents information, it is not recommended to share this information, and none of that information will be in this article.
 
 # Files leaked:
-* NintendoSDK_fromSSD_IKEDA_20151124.zip
-* Documents.7z (901.8 MB)
-* Secure.7z (570.2 MB)
+* NintendoSDK_fromSSD_IKEDA_20151124.zip - Old 2015 Switch SDK
+* Documents.7z (901.8 MB) - Anti-piracy Related documents
+* Secure.7z (570.2 MB) - Security related documents
 
 ---
 # Documents.7z
