@@ -20,7 +20,7 @@ recommend:
 - ds
 - 3ds
 editlink: /leaks/Nintendo Ninja Leak.jpg
-twitterimage: https://www.retroreversing.com/public/images/leaks/NinjaLeak.jpg
+twitterimage: https://www.retroreversing.com/public/images/leaks/Nintendo Ninja Leak.jpg
 updatedAt: '2020-12-27'
 ---
 
