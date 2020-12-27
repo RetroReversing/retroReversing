@@ -44,7 +44,7 @@ Castrol Honda Superbike Racing | BIKE.SYM | Racing | https://www.youtube.com/wat
 Crow, The - City of Angels (Europe) | CROW.SYM | Action | https://www.youtube.com/watch?v=0vDrqQAK5Yk
 CyberTiger | GOLF.SYM | Sport | https://www.youtube.com/watch?v=XxyXU8he-Iw
 Deka Yonku - Tough the Truck (Japan) | MAIN.SYM | | 
-Destruction Derby (Japan) | DEMOLISH.SYM | Racing | 
+Destruction Derby (Japan) | TEMP/DEMOLISH.SYM | Racing | https://www.youtube.com/watch?v=FFMzFthGHkc
 Diablo (Japan) | DIABPSX.SYM | Action | 
 Disney's 101 Dalmatians 2 | /DATA/MAIN.SYM | Platformer | https://www.youtube.com/watch?v=SHr2BYzShtE
 Divide The Enemies Within | /SYMBOL/GAME.SYM | Action | https://www.youtube.com/watch?v=H3JE8iuwIog
