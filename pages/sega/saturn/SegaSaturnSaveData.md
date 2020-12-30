@@ -51,6 +51,12 @@ Unfortunately however, very few games supported the peripheral which limited its
 
 {% include link-to-other-site.html url="https://segaretro.org/Saturn_Floppy_Drive" description="SegaRetro has an excellent page on the Saturn Floppy Drive" image="https://segaretro.org/images/9/9d/Saturn_HSS-0128.jpg" title="Saturn Floppy Drive - Sega Retro"  %}
 
+## Optical Disk Emulators (ODEs)
+A number of Sega Saturn ODEs allow for the backing up of save game data to SD card. This includes the Fenrir, MODE, and Satiator ODEs. 
+
+## Netlink
+The Sega Saturn Netlink is a 28.8k modem that plugs into the cartridge port of the Saturn. It allowed for the ability to e-mail game saves. 
+
 ---
 # Backing up and Recovering Saves
 One problem with Sega Saturn Save Data storage was that not all games supported saving to memory cartridges and management of the saves such as deletion and duplication was not easy.
@@ -99,16 +105,13 @@ You can copy save games from the burned CD and save it into the internal RAM or 
 
 It can also be a useful tool to dump and update Action Replay firmware [^2].
 
-### Sega Saturn Save Game Copier
-The Save Game Copier is a tool by SlingaHomebrew as an entry to the 2003 SegaXtreme Saturn Homebrew contest. 
-
-It allows the user to burn Sega Saturn save game files to a CD and copy them to the internal RAM of the Saturn. It consists of a Sega Saturn Homebrew Application with a menu allowing you to choose which saves from the CD to move to either the Internal RAM or external save cartridge. 
-
-It also offers the ability to save to the Japanese only Saturn Floppy Disk Drive which is pretty nifty if you happen to own this hardware.
+### Save Game Copier
+The Save Game Copier is a tool that allows the user copy Sega Saturn save game files to and/or from internal memory, cartridge memory, external devices (e.g. Sega Saturn Floppy Disk Drive), Satiator ODE, MODE, and CD. It consists of a Sega Saturn homebrew application with a simple text menu.
 
 {% include link-to-other-site.html url="https://github.com/slinga-homebrew/Save-Game-Copier" description="View the project on Github" image="https://github.com/slinga-homebrew/Save-Game-Copier/blob/master/menu.png?raw=true" title="Save-Game-Copier: Sega Saturn Save Game Copier"  %}
 
-The project is now archived but is still a useful tool and the source code is available for anyone interested in how it was built [^3].
+# .BUP File Format
+A number of Sega Saturn homebrew applications have standardized on the [.BUP file header](https://github.com/slinga-homebrew/Save-Game-BUP-Scripts). The 64-byte header contains the metadata of the raw save followed by the save itself. 
 
 ---
 # References
