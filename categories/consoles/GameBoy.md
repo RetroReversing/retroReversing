@@ -76,6 +76,15 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information about the SDK used to make Game Boy games check out this post." %}
 
 ---
+# Game Boy Hardware
+
+## Hardware Architecture
+[Game boy Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/game-boy/)
+
+## Game Boy Pocket Hardware Schematics
+[gb-schematics/MGB-xCPU.pdf at master · Gekkio/gb-schematics · GitHub](https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf)
+
+---
 # Source Code
 
 ## Mr Do! For Original Game Boy
