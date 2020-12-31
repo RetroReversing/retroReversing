@@ -26,7 +26,7 @@ editlink: /sega/saturn/SegaSaturnArtistTools.md
 <img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-￼
+￼The Sega Saturn had multiple tools availble for 2D asset creation, most were third party but SEGA even created their own basic first party tools that they distributed to developers for the Apple Macintosh.
 </div>
 </section>
 
@@ -195,6 +195,10 @@ GAMUT is a suite of software developed by Animetix for converting `3D Studio` fo
 There was a specific version for Sega Saturn developers called `GAMUT-SG` that could work with the CartDev of PsyQ development kits to preview the 3D models on the Sega Saturn, very useful for artists. 
 
 Especially since the Sega Saturn required geometry to be in Quads and not Polygons, so the artist would need to tweak the output to look better on Saturn hardware. The tweaks to the output were saved in the 3dStudio file format so it could be re-used for further exports [^6].
+
+---
+## Shade III Light for Saturn
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Anyone have a spare £999 to preserve the rare Shade III development tools for sega saturn, not much is known about it <a href="https://twitter.com/hashtag/segasaturn?src=hash&amp;ref_src=twsrc%5Etfw">#segasaturn</a> <a href="https://twitter.com/hashtag/devkit?src=hash&amp;ref_src=twsrc%5Etfw">#devkit</a> <a href="https://t.co/iaSrppcgl5">https://t.co/iaSrppcgl5</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1302526859519971328?ref_src=twsrc%5Etfw">September 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 # References
