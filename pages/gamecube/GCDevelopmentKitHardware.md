@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- gc
+- gamecube
 - devkit
 - hardware
 title: Nintendo Gamecube (Dolphin) Development Kit Hardware
@@ -23,7 +23,7 @@ breadcrumbs:
   - name: Nintendo Gamecube (Dolphin) Development Kit Hardware
     url: #
 recommend: 
-- gc
+- gamecube
 - devkit
 editlink: /gamecube/GCDevelopmentKitHardware.md
 references:
