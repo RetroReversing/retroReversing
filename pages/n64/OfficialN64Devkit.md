@@ -110,6 +110,8 @@ The `Nintendo 64 Development Unit` later evolved into the `Partner-N64` series o
 ### KMC Partner-N64NW (Network SGI workstations)
 Unlike the `Nintendo 64 Development Unit` this development kit didn't contain an add-on board and instead connected directly to a modified retail N64. This was achieved using a custom cartridge known as a `Debugger Pak` slotted in the N64 with a network adapter that could be connected directly to an SGI workstation such as an Indy [^14].
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check this out!<br>Here is an Ultra rare <a href="https://twitter.com/hashtag/N64?src=hash&amp;ref_src=twsrc%5Etfw">#N64</a> development kit. The “Partner-N64 NW”.<br><br>Targeted at Game development Studio’s using SGI Indy computer systems. <br><br>This version of the Partner dev system communicates with the Indy over the Ethernet LAN port. <a href="https://twitter.com/hashtag/N64Dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64Dev</a> <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/SEHLgRece1">pic.twitter.com/SEHLgRece1</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1337199038488317954?ref_src=twsrc%5Etfw">December 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### KMC Partner-N64PC (Windows PCs)
 The Partner-N64PC was another full official development kit by KMC (Kyoto Microcomputer, Co. Ltd.) specifically for Windows PCs. 
 
