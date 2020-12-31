@@ -23,7 +23,7 @@ editlink: /sega/saturn/SegaSaturnArtistTools.md
 
 # 2D Art Software
 <section class="postSection">
-<img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" style="width:200px" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 ￼The Sega Saturn had multiple tools availble for 2D asset creation, most were third party but SEGA even created their own basic first party tools that they distributed to developers for the Apple Macintosh.
