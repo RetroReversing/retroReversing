@@ -82,6 +82,8 @@ The image to the left is from the excellent HandHeldMuseum.com website [^3].
  </div>
 </section> 
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some pretty sweet Sega GameGear development EEPROM carts shown in this article...Nice! 😎👌 <a href="https://t.co/mWmhQWM098">https://t.co/mWmhQWM098</a> <a href="https://t.co/Nw2vKvvHP6">pic.twitter.com/Nw2vKvvHP6</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1256359547976978439?ref_src=twsrc%5Etfw">May 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ---
 # Third Party Development Hardware
