@@ -35,6 +35,10 @@ Although the Cygnus Solutions compiler toolchain supports C++ it was reccomended
 {% include link-to-other-post.html post="/sega-saturn-hitachi-compiler/" description="For more information on Hitachi Compiler for the Saturn check out this post." %}
 
 ---
+# Documentation
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some early <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> developer documentation from March 1994 <a href="https://t.co/K1UlD2jNoc">pic.twitter.com/K1UlD2jNoc</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1337556128868143104?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 # Tools
 The SDK didn't only provide compilers, there was a set of useful tools provided for a wide variety of tasks such as image conversion and debugging.
 
