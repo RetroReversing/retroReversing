@@ -176,6 +176,10 @@ The manual has never been scanned so if you find one then please help the commun
 </div>
 </section>
 
+## Codemasters Orac
+Ex-Codemasters employee DrTune posted his custom FPGA based Game Boy devkit used in 1992 to his twitter:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ha just came across pic of my &quot;Orac&quot; Gameboy dev board from 1992, used for all Codemasters GB games; 256K SRAM, PC interface. Old skool FPGA. Big connector is optional logic analyzer port. Acid house smiley face b/c we did more than just hack hardware. <a href="https://t.co/1zHhvED1fC">pic.twitter.com/1zHhvED1fC</a></p>&mdash; DrTune (@drtune) <a href="https://twitter.com/drtune/status/1343388636784414720?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Doctor GB Xchanger
 the Doctor GB Xchanger was primarily sold as a piracy device but could be used by consumers or even some small studios as a cheaper alternative to the official development kit.
 
