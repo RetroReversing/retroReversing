@@ -19,12 +19,11 @@ breadcrumbs:
 recommend: saturn
 editlink: /sega/saturn/SegaSaturnArtistTools.md
 ---
-
+This post will cover the most commonly used tools by artists when developing assets for sega saturn games, including 2D, 3D and Video.
 
 # 2D Art Software
 <section class="postSection">
 <img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" style="width:200px" class="wow slideInLeft postImage" />
-
 <div markdown="1">
 ￼The Sega Saturn had multiple tools availble for 2D asset creation, most were third party but SEGA even created their own basic first party tools that they distributed to developers for the Apple Macintosh.
 </div>
