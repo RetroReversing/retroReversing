@@ -2,7 +2,7 @@ name: Typo CI
 
 on:
   push:
-    branches-ignore:
+    branches:
       - master
 jobs:
   spellcheck:
