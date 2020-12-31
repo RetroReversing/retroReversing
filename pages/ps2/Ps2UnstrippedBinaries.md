@@ -877,6 +877,9 @@ Name | Description
 abs | Absolute Symbols
 extern | External Symbols
 
+## .sndata Tool
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Woah! This is awesome, anyone interested in <a href="https://twitter.com/hashtag/Playstation2?src=hash&amp;ref_src=twsrc%5Etfw">#Playstation2</a> reversing should check this out <a href="https://t.co/W5WgaCbLgF">https://t.co/W5WgaCbLgF</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1307248565622845442?ref_src=twsrc%5Etfw">September 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ---
 # References
 [^1]: [AssemblerGames Forum Topic ](https://assemblergames.com/threads/retail-ps2-games-with-debugging-symbols.51510/)
