@@ -16,6 +16,10 @@ breadcrumbs:
 
 # Nintendo Game Boy Advance Reverse Engineering
 
+## Hardware Architecture
+**Copetti.org** has an excellent page on the hardware Architecture of the Game Boy Advance, it is also a great introduction to the system:
+[Game Boy Advance Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/game-boy-advance/)
+
 <div>
 
 {% include console.html %}
