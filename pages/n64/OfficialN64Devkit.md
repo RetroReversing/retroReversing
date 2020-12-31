@@ -295,6 +295,11 @@ There was also a device created by Bung which advertised itself as a development
 
 {% include link-to-other-post.html post="/Bung-Doctor-v64/" description="For information about Bung's v64 development hardware check out this post." %}
 
+## Rareware custom cartridges
+
+### RAREWARE N64 security dongle
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check this out!<br>This is a proprietary RAREWARE N64 security dongle.<br><br>These adapters prevented N64 prototype games from booting, unless the Dongle was connected.<br><br>Used by Rare Ltd. specifically during development of games such as Conker&#39;s Bad Fur Day.<a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://twitter.com/hashtag/N64Dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64Dev</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://t.co/WdyvTj3mhX">pic.twitter.com/WdyvTj3mhX</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1331369942319509504?ref_src=twsrc%5Etfw">November 24, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ---
 # Official Sound Development Tools
 Nintendo released multiple hardware for Sound designers to test their creations on the real hardware without having to bug the developers to borrow a full development machine.
