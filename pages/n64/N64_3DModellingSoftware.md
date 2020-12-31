@@ -49,6 +49,9 @@ Notable Games with assets created in Multigen:
 </div>
 </section>
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HUGE NEWS: ModelGen (the basis for NinGen) on <a href="https://twitter.com/hashtag/SGI?src=hash&amp;ref_src=twsrc%5Etfw">#SGI</a> Irix is now unlocked + working!<br><br>Similar to the interface used by <a href="https://twitter.com/RareLtd?ref_src=twsrc%5Etfw">@RareLtd</a> for <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://twitter.com/hashtag/3Dmodelling?src=hash&amp;ref_src=twsrc%5Etfw">#3Dmodelling</a><br><br>Thanks <a href="https://twitter.com/Windoze999?ref_src=twsrc%5Etfw">@Windoze999</a> for cracking flexlm, @SiliconClassics for ModelGen itself, <a href="https://twitter.com/GoldenEraDoco?ref_src=twsrc%5Etfw">@GoldenEraDoco</a> and <a href="https://twitter.com/drdoak?ref_src=twsrc%5Etfw">@drdoak</a> for motivation... <a href="https://t.co/NmxHFoi9Sf">pic.twitter.com/NmxHFoi9Sf</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1310122697297281024?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 ## Alias/Power Animator/Wavefront
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TxlVAQeJQEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
