@@ -230,9 +230,10 @@ Here is a list of games that still contain KMC Partner64 debug code thanks to a 
 
 ---
 ## IS-Viewer 64
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AvMoboqlfbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The IS-Viewer64 or IS64 for short was the official way to create a N64 prototype cartridge than ran on a modified version of retail hardware. It is a flash cart created by Intelligent Systems (hence the IS prefix) and was released as part of the official N64 development kit. This did not have debug support such as breakpoints and stack traces and this was much cheaper than alternatives. Although It cost around 1800 USD on release so was still an expensive solution [^6].
+
+View it in action in the excellent video below by BehindTheCode [^18]:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FbyHw3BDJJs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The main benefit of the IS-Viewer64 over alternative flash carts available to developers was the crazy fast transfer speed, allowing games to be written to the onboard RAM in as little as 30 seconds! [^7].
 
@@ -339,3 +340,4 @@ The full n64 development kit was used by Sound designer Grant Kirkhope at Rare t
 [^15]: [Duke Nukem Prototype](http://www.nintendoplayer.com/prototype/duke-nukem-64/)
 [^16]: [NEXT Generation Issue #14 February 1996](https://archive.org/details/nextgen-issue-014/page/n7)
 [^17]: [Gamasutra - Postmortem: Angel Studios Resident Evil 2 N64 Version](https://www.gamasutra.com/view/feature/131556/postmortem_angel_studios_.php?page=3)
+[^18]: [(1998) BTC #3 RARE Nintendo N64 "IS-VIEWER 64" Development Cartridge - NOW WORKING!! - YouTube](https://www.youtube.com/watch?v=FbyHw3BDJJs)
