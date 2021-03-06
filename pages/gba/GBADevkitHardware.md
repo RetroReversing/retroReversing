@@ -105,7 +105,7 @@ The Cartridge looks like a standard Gameboy Color cartridge with a ribbon cable 
 </div>
 </section>
 
-It was also bundled with software for Wndows XP that you can see in this tweet from BehindTheCode:
+It was also bundled with software for Windows XP that you can see in this tweet from BehindTheCode:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Check this out!<br>This is the “IS-AGB-CHARACTER” a dev cartridge by Intelligent-Systems for <a href="https://twitter.com/hashtag/Gameboy?src=hash&amp;ref_src=twsrc%5Etfw">#Gameboy</a> Advance.<br><br>Unit interfaces to a dev PC using a parallel LPT port &amp; is used in tandem with an IS-AGB-EMULATOR for editing Color pallets, textures and OBJ animation files. <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://t.co/Fzvq6yQtuZ">pic.twitter.com/Fzvq6yQtuZ</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1367609733138550794?ref_src=twsrc%5Etfw">March 4, 2021</a></blockquote> 
 
 ## AGB FLASH GANG WRITER
