@@ -446,6 +446,7 @@ Name | Notes
  Rabbids Party - TV Party (Japan) |  
  Rabbids Party - Time Travel (Japan) |  
  Rabbids Party Returns (Japan) |  
+ Radio Helicopter (Europe) | **/PCopter/PCopter.elf**
  Rally Racer (Europe) (En,Fr,De,Es,It) |  
  Rampage - Total Destruction (Europe) (En,Fr,De,Es,It) |  
  Rampage - Total Destruction (USA) |  
