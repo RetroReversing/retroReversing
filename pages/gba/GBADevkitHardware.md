@@ -69,6 +69,9 @@ If the `IS-AGB-DEBUGGER` label is checked on the unit then it also contains supp
 </div>
 </section>
 
+A custom GBA controller is attacted to the **IS-AGB-EMULATOR** to play the games, one of which has been documented by Developer Jeff on his Twitter:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prototype Nintendo Gameboy Advanced in unreleased Lemon Yellow! <br><br>This system went with the IS CGB/AGB Emulator kit ver.1 and works as an controller unit for the device. <br><br>More photos &amp; a teardown coming soon of this unique rarity including its emulator box so stay tuned!<br><br>-Jeff <a href="https://t.co/B8F5zFOokc">pic.twitter.com/B8F5zFOokc</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1352523620015353856?ref_src=twsrc%5Etfw">January 22, 2021</a></blockquote>
+
 ## IS-AGB-MIDI
 <section class="postSection">
     <img src="/public/images/gba/IS-AGB-MIDI.png" class="wow slideInLeft postImage" />
