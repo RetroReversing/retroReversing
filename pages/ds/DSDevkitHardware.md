@@ -107,6 +107,15 @@ it has a bunch of DIP switches for configuration, a USB type-B port and uses the
 For more information about the Writer and a teardown: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/?from=20)
 
 ---
+# Consumer Development Kits
+A consumer development kit for the DS? Of course Nintendo would never allow Homebrew on their console officially but there was an attempt by Datel to allow users to write Apps for the DS using a special cartridge.
+
+## Datel Games n Music
+Datel are a very talented company when to comes to by-passing security and doing things people didn't think possible. One project they sold in stores was called **Games n' Music** and allowed users to create their own mini Apps.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Datel once released a multimedia cartridge for DS which allowed playing music, images, and user made apps. It was essentially a flash cart without a ROM loader. These were actually on store shelves in America?? It&#39;s how I got into piracy and homebrew on my DS at age like, 11... <a href="https://t.co/a7kDkDo7LW">pic.twitter.com/a7kDkDo7LW</a></p>&mdash; Kaitlyn Molinas (@orcastraw) <a href="https://twitter.com/orcastraw/status/1317956971128102912?ref_src=twsrc%5Etfw">October 18, 2020</a></blockquote>
+
+---
 # References
 [^1]: [Nintendo DS Development Unit! - IS Nitro Emulator - H4G - YouTube](https://www.youtube.com/watch?v=zn2amiL45no)
 [^2]: [Nintendo DS on your television, the IS-Nitro-Capture a developers tool - YouTube](https://www.youtube.com/watch?v=Qh9pHzKFXE4)
