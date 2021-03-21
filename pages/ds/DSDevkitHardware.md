@@ -72,14 +72,39 @@ Similar to the **IS-NITRO-EMULATOR** the **IS-NITRO-DEBUGGER** was an advanced v
 ## IS-NITRO-Capture
 <section class="postSection">
 
-<iframe class="wow slideInLeft postImage"  src="https://www.youtube.com/embed/Qh9pHzKFXE4" height="300" title="Nintendo DS on your television, the IS-Nitro-Capture a developers tool" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<img src="/public/images/ds/IS-NITRO-Capture.jpeg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-The **IS-NITRO-Capture** is hardware that can play DS and GBA games on a PC or TV. This is very useful for QA teams to avoid eye strain and for Game journalists to take screenshots of Nintendo DS games.
+The **IS-NITRO-Capture** is hardware that can play DS and GBA games on a monitor or PC via USB. You have multiple options such as using two monitors, one for each of the DS screens or just displaying both DS screens on the same monitor. this is controlled by the value of the DIP switches on the back of the unit.
+
+This is very useful for QA teams to avoid eye strain and for Game journalists to take screenshots of Nintendo DS games.
+
+When connected to a PC it can even capture video footage, perfect for showcasing games at conventions!
 
 Note that it did not support original GB and GBC games unlike the retail Nintendo DS [^2].
  </div>
 </section> 
+
+---
+## IS-NITRO-Writer
+<section class="postSection">
+
+<img src="/public/images/ds/IS-NITRO-Writer.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **IS-NITRO-Writer** is used to flash a ROM image to multiple flash cartridges at once!  intelligent Systems developed one of these units for most Nintendo consoles including the Nintendo 64 and Game Boy.
+
+One of the slots holds the master cartridge that will be copied to all the 7 other cartridges. Alternatively it can connect to the PC via USB and take a ROM from the PC and flash to 8 cartridges at once (the Master slot is used to flash an extra one).
+
+it has a bunch of DIP switches for configuration, a USB type-B port and uses the same power supply as a Nintendo Gamecube!
+ </div>
+</section> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ahhh, now there&#39;s a devkit for a platform I knew inside and out... Great memories developing the first few LEGO games on this. Next to it the eight slot gang burner for programming test cartridges. <a href="https://t.co/PzgzULWWA7">pic.twitter.com/PzgzULWWA7</a></p>&mdash; Paul Hughes (@PaulieHughes) <a href="https://twitter.com/PaulieHughes/status/1336074097281929218?ref_src=twsrc%5Etfw">December 7, 2020</a></blockquote> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">There was Nintendo Dev kits for sale on ebay. This is a &quot;Nitro&quot; writer (the codename for the DS). Notice it takes a Gamecube power port. <a href="https://t.co/MUIzuCGIMT">pic.twitter.com/MUIzuCGIMT</a></p>&mdash; Kuromi Bunny in Boston (@KuromiBunnyGirl) <a href="https://twitter.com/KuromiBunnyGirl/status/838516430882684929?ref_src=twsrc%5Etfw">March 5, 2017</a></blockquote> 
+
+For more information about the Writer and a teardown: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/?from=20)
 
 ---
 # References
