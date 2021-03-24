@@ -65,8 +65,10 @@ For example if you look for an Life cheat code for Action Replay it will have th
 Memory Hacking is not exclusive to Emulators or cheat cartirdges, the PC gaming community has been using these methods for many years. One very popular tool is known as **Cheat Engine** and it performs the same functions but for any PC program.
 
 Cheat engine can be very powerful so if you are interested check out the Guided Hacking Bible:
-[Guide - GHB1 - Start Here Beginner Guide to Game Hacking - Guided Hacking](https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/)
+{% include link-to-other-site.html url="https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/" description="The Guided Hacking Bible is an excellent place to improve your memory editing skills using tools such as Cheat Engine" image="https://avatars.githubusercontent.com/u/46234790?s=200&v=4" title="Guided Hacking Book 1 - Beginners Guide to Game Hacking"  %}
+
 
 ---
 # References
 [^1]: [Hacking Nintendo 64 ROMs - Memory Hacking Software MHS - YouTube](https://www.youtube.com/watch?v=AxRmQ3bbe1Q)
+[^2]: [Guide - GHB1 - Start Here Beginner Guide to Game Hacking - Guided Hacking](https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/)
