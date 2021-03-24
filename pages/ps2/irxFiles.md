@@ -383,7 +383,7 @@ modsesq2.irx||1|
 kiopstr.irx||1| 
 b2ilink.irx||1| 
 mgwfsiop.irx||1| 
-spduar~1||irx|1| 
+spduar~1.irx||1|
 storage.irx||1| 
 adpcmstr.irx||1| 
 stream_t.irx||1| 
@@ -396,7 +396,7 @@ pfm.irx||1|
 usb_buzr.irx||1| 
 pttsrvr.irx||1| 
 dman.irx||1| 
-sulpha~1||irx|1| 
+sulpha~1.irx||1|
 drtysckd.irx||1| 
 se_cd.irx||1| 
 egiopads.irx||1| 
@@ -407,12 +407,12 @@ xvi_iop.irx||1|
 sirens3.irx||1| 
 msis_iop.irx||1| 
 swps2io.irx||1| 
-stream~1||irx|1| 
+stream~1.irx||1| 
 musicdrv.irx||1| 
 sniopps2.irx||1| 
 filecd.irx||1| 
 fssd.irx||1| 
-sulpha~2||irx|1| 
+sulpha~2||irx|1|
 pcmstrm.irx||1| 
 stream73.irx||1| 
 pl2303.irx||1| 
@@ -428,7 +428,7 @@ ggsound.irx||1|
 rtfsdvdr.irx||1| 
 gtfsdvdj.irx||1| 
 libaudio.irx||1| 
-ntgui2~1||irx|1| 
+ntgui2~1.irx||1|
 sndman.irx||1| 
 mjolnir.irx||1| Used in the game Maximo Music/voice library
 mjolnird.irx||1| Used in the game Maximo (debug version, has debug symbols) Music/voice library
@@ -566,7 +566,7 @@ dmaq.irx||1|
 imodeman.irx||1| 
 mjolnm2r.irx||1| 
 oniss2.irx||1| 
-libsd~1||irx|1| 
+libsd~1.irx||1| 
 aswmid.irx||1| 
 mbank.irx||1| 
 bsdsocki.irx||1| 
@@ -615,7 +615,7 @@ psx2spc2.irx||1|
 fader.irx||1| 
 usbjoy.irx||1| 
 careleas.irx||1| 
-stream71.irx||1| 
+stream71.irx||1|
 css.irx||1| 
 bgmstrm.irx||1| 
 ycdvdr.irx||1| 
