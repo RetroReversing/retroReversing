@@ -122,7 +122,7 @@ The connected DS was used as a controller, this allowed the players to use the t
 </section> 
 
 ---
-## IS-NITRO-UIC
+## IS-NITRO-UIC (MIDI)
 <section class="postSection">
 
 <img src="/public/images/ds/IS-NITRO-UIC.jpg" class="wow slideInLeft postImage" />
@@ -204,6 +204,37 @@ Keeping the tradition with its DS predecessor the controller is a modified retai
 </section> 
 
 ---
+## IS-TWL-CAPTURE
+<section class="postSection">
+    <img src="/public/images/ds/IS-TWL-Capture.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+Again Keeping the tradition with its DS predecessor the **IS-TWL-CAPTURE** is the equivalent of the **IS-NITRO-CAPTURE** but with the added ability to support DSi functions.
+ </div>
+</section> 
+
+
+## IS-TWL-VSA
+Very little is known about the **IS-TWL-VSA** but it was briefly mentioned in a 2015 recruitment document and described as a "Integrated Development environment add in" [^6].
+
+## IS-TWL-MIDI
+Noone has taken any photos of the **IS-TWL-VSA** but it was briefly mentioned in a 2015 Intelligent Systems recruitment document and described as a "Sound Development System" [^6]. It is presumably just a more up-to-date version of the **IS-NITRO-UIC**.
+
+## TWL-DEV-EUR (PANDA) Nintendo DSi Development Unit
+
+<section class="postSection">
+    <img src="/public/images/ds/TWL-DEV-EUR.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The DSi development unit was similar to its retail counterpart but had the ability to read development cartridges and install *.TAD files.
+
+TAD files are the equivalent of Wii's WAD file format but for Twilight (DSi).
+ </div>
+</section> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today’s arrival : a boxer Nintendo DSI panda (dev console) with a development box ! (Where usually all box actually know for those panda was just no name white box).<br><br>And I also got two cards, including one of the four Nintendo factory devcart that was recently found. <a href="https://t.co/w4O188jCx8">pic.twitter.com/w4O188jCx8</a></p>&mdash; Michel Gaschet (@Michel_Gaschet) <a href="https://twitter.com/Michel_Gaschet/status/1315986618227068931?ref_src=twsrc%5Etfw">October 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 # Third party Development Kits
 In addition to the official development kits put out by Nintendo, there was a third party development kit from SN-Systems.
 
@@ -229,3 +260,5 @@ Datel are a very talented company when to comes to by-passing security and doing
 [^2]: [Nintendo DS on your television, the IS-Nitro-Capture a developers tool - YouTube](https://www.youtube.com/watch?v=Qh9pHzKFXE4)
 [^3]: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/)
 [^4]: [Gamasutra - SN Systems and Hudson Announce DS Tools Project](https://www.gamasutra.com/view/news/96005/SN_Systems_and_Hudson_Announce_DS_Tools_Project.php)
+[^5]: [Nintendo DS IS TWL Debugger from Retrogames](https://www.retrogames.co.uk/044754/Nintendo/Nintendo-DS-IS-TWL-Debugger)
+[^6]: [Intelligent Systems Recruitment 2015](https://intsys.co.jp/recruit/requirement/pamphlet2015.pdf)
