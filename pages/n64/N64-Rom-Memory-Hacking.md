@@ -25,13 +25,15 @@ One excellent way to get started modifying your favourite game is to use memory 
 
 # Introduction to Memory Hacking with Paper Mario
 
-The Youtube users known as **Soul Umbreon** has put together an excellent video tutorial for finding the memory locations of common statistics such as HP, items etc. The example is Paper Mario but this technique should work for most games on the nintendo 64.
+The Youtube user known as **Soul Umbreon** has put together an excellent video tutorial for finding the memory locations of common statistics such as HP, items etc. The example is for the game Paper Mario but this technique should work for most if not all Nintendo 64 games.
 
-![image alt text]({{ site.url }}/public/OtJz1MlDMoYL7Wgc91mkg_img_0.png)
-
-The video is located here: [https://gaming.youtube.com/watch?v=AxRmQ3bbe1Q](https://gaming.youtube.com/watch?v=AxRmQ3bbe1Q) 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AxRmQ3bbe1Q" title="Hacking Nintendo 64 ROMs - Memory Hacking Software MHS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How it works
+<section class="postSection">
+    <img src="/public/OtJz1MlDMoYL7Wgc91mkg_img_0.png" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 The technique is simple:
 1. Perform an initial memory search for the current value of the stat you want (e.g Lives or HP).
 2. Change the stat in the game, e.g loose a life.
@@ -40,17 +42,23 @@ The technique is simple:
 5. Repeat until you only get a couple of values
 6. Then change these values and the one that increases your lives is the variable you want
 
-Now you can 'lock' these memory addresses if you don’t want the game to change the stat, e.g you won’t lose HP.
+Now you can **lock** these memory addresses if you don’t want the game to change the stat, e.g you won’t lose HP.
+ </div>
+</section> 
 
+---
 # Share What you find
-Try to document these addresses and share your findings with the Retro Reversing community.
+Try to document these addresses and share your findings with the community, any new cheat codes or information about what memory addresses are responsible for what are always appreciated.
+
+Any information you share can then give other Reversers a head start when they look into the same game and hopefully they will build on what you found, creating even more value for the community.
 
 ---
 # Run on real Hardware
 One great way to get addresses or even test your findings is to learn how to create cheats for 'cheat cartridges' e.g Action Replay, Game Breaker or Equalizer. 
 
 If you learn the syntax they use for the cheats you will be able to get the addresses they use for a similar cheat. 
-For example if you look for an HP cheat code for Action Replay it will have the same addresses shown in the video. You can then put this knowledge to the test and create your own cheat codes.
+
+For example if you look for an Life cheat code for Action Replay it will have the same addresses shown in the video. You can then put this knowledge to the test and create your own cheat codes which run on physical Action Replay cartridges.
 
 ---
 # More advanced Memory Hacking
@@ -59,4 +67,6 @@ Memory Hacking is not exclusive to Emulators or cheat cartirdges, the PC gaming 
 Cheat engine can be very powerful so if you are interested check out the Guided Hacking Bible:
 [Guide - GHB1 - Start Here Beginner Guide to Game Hacking - Guided Hacking](https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/)
 
-
+---
+# References
+[^1]: [Hacking Nintendo 64 ROMs - Memory Hacking Software MHS - YouTube](https://www.youtube.com/watch?v=AxRmQ3bbe1Q)
