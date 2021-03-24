@@ -39,7 +39,9 @@ The Youtube user known as **Soul Umbreon** has put together an excellent video t
  This means that there are a number of bytes in RAM which corrospond to an interesting value in-game such as the Lives of the Player, or well anything at all really.
  
  If we can find where these locations are we can change how the game behaves in real-time. But how do we find out where the values are located in the big blob of bytes known as RAM?
+ 
  Just like finding anything we perform a search, if we know the current game lives are set to 3, then just loop over each byte in RAM until the value 3 and that should be the value right?! 
+ 
  Well sort of, it *could* be but the number 3 will also be used for many other non-lives related things in the game, for example an enemy could be located at position 3 on the Y axis etc. So we need to find out *which* location that has the number 3 corrosponds to the actual lives.
  
 The technique is simple:
@@ -62,11 +64,17 @@ Any information you share can then give other Reversers a head start when they l
 
 ---
 # Run on real Hardware
-One great way to get addresses or even test your findings is to learn how to create cheats for 'cheat cartridges' e.g Action Replay, Game Breaker or Equalizer. 
+<section class="postSection">
+    <img src="/public/images/n64/Equalizer Cheat Code Cartridge.jpg" class="wow slideInLeft postImage" />
 
-If you learn the syntax they use for the cheats you will be able to get the addresses they use for a similar cheat. 
+ <div markdown="1">
+It is even possible to edit the memory of your favourite game on the original hardware, with no modifications required! Just use an old School Cheat Cartridge such as the Action Replay, Game Breaker or Equalizer cartridges. 
+
+These cartridges use a special syntax to tell the Nintendo 64 which memory addresses you want to modify and using that you can convert any cheat you have made in an emulator to run on physical hardware.
 
 For example if you look for an Life cheat code for Action Replay it will have the same addresses shown in the video. You can then put this knowledge to the test and create your own cheat codes which run on physical Action Replay cartridges.
+ </div>
+</section> 
 
 ---
 # More advanced Memory Hacking
