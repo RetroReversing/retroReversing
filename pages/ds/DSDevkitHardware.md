@@ -127,6 +127,17 @@ This allows game developers to test their games with the exact right amount of S
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: These Nintendo DS development cartridges really existed. <a href="https://t.co/Tp8A0tGvL6">pic.twitter.com/Tp8A0tGvL6</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1337742223744495619?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
+# Third party Development Kits
+In addition to the official development kits put out by Nintendo, there was a third party development kit from SN-Systems.
+
+## Sn Systems Pro-DG for Nintendo DS (DSDEV)
+SN Systems have a long history of creating 3rd party development kits for Nintendo consoles and the Nintendo DS was no exception, or was it?!
+
+You see before the console was released SN Systems announced a collaboration with Hudson soft to add Nintendo DS support to their ProDG line of development kits [^4].
+
+However it is unclear if it actually materialised or if any game developers used it to create a retail game, as all mention of it was scrubbed from their official website after 2005.
+
+---
 # Consumer Development Kits
 A consumer development kit for the DS? Of course Nintendo would never allow Homebrew on their console officially but there was an attempt by Datel to allow users to write Apps for the DS using a special cartridge.
 
@@ -140,3 +151,4 @@ Datel are a very talented company when to comes to by-passing security and doing
 [^1]: [Nintendo DS Development Unit! - IS Nitro Emulator - H4G - YouTube](https://www.youtube.com/watch?v=zn2amiL45no)
 [^2]: [Nintendo DS on your television, the IS-Nitro-Capture a developers tool - YouTube](https://www.youtube.com/watch?v=Qh9pHzKFXE4)
 [^3]: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/)
+[^4]: [Gamasutra - SN Systems and Hudson Announce DS Tools Project](https://www.gamasutra.com/view/news/96005/SN_Systems_and_Hudson_Announce_DS_Tools_Project.php)
