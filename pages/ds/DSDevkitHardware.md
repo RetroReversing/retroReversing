@@ -108,10 +108,8 @@ For more information about the Writer and a teardown: [The NSMB Hacking Domain Â
 
 ---
 ## DS Rewritable development Cartridge
-DS Development Cartridge.jpg
-
 <section class="postSection">
-    <img src="/public/images/engines/image.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/ds/DS Development Cartridge.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
 Similar to most console development kits, there are official development flash cartridges for the DS. These are similar to the standard game cartridge but are re-writeable and thus can be used for any game.
