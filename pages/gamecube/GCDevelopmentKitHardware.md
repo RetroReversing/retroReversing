@@ -250,7 +250,11 @@ The SN Systems ProDG Devlink was hardware supplied with the SN Systems ProDG SDK
 </div>
 </section>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Here is an image of the Pro-DG SDK package that was sold to developers, looks beautiful but it was very expensive for only 150mb of data.
+<img src="/public/images/gc/ProDG Gamecube SDK by SN Systems.jpg" class="wow slideInLeft postImage" />
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit <a href="https://t.co/KClW9Br2DB">pic.twitter.com/KClW9Br2DB</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1165466965164449793?ref_src=twsrc%5Etfw">August 25, 2019</a></blockquote>
 
 
 ---
