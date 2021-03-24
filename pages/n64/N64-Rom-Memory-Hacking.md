@@ -34,6 +34,14 @@ The Youtube user known as **Soul Umbreon** has put together an excellent video t
     <img src="/public/OtJz1MlDMoYL7Wgc91mkg_img_0.png" class="wow slideInLeft postImage" />
 
  <div markdown="1">
+ So we know that anything that can change in a game will be stored in some sort of Writable memory such as RAM.
+ 
+ This means that there are a number of bytes in RAM which corrospond to an interesting value in-game such as the Lives of the Player, or well anything at all really.
+ 
+ If we can find where these locations are we can change how the game behaves in real-time. But how do we find out where the values are located in the big blob of bytes known as RAM?
+ Just like finding anything we perform a search, if we know the current game lives are set to 3, then just loop over each byte in RAM until the value 3 and that should be the value right?! 
+ Well sort of, it *could* be but the number 3 will also be used for many other non-lives related things in the game, for example an enemy could be located at position 3 on the Y axis etc. So we need to find out *which* location that has the number 3 corrosponds to the actual lives.
+ 
 The technique is simple:
 1. Perform an initial memory search for the current value of the stat you want (e.g Lives or HP).
 2. Change the stat in the game, e.g loose a life.
