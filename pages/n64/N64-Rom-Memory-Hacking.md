@@ -19,6 +19,7 @@ recommend:
 - n64
 - memory
 editlink: /n64/N64-Rom-Memory-Hacking.md
+updatedAt: '2021-03-24'
 ---
 # Memory Hacking
 One excellent way to get started modifying your favourite game is to use memory hacking techniques. By learning what memory locations are used for specific functions you can perform all sorts of crazy cheats and start to get an understanding of how the game works internally.
