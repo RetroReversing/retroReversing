@@ -94,7 +94,7 @@ The Optical Disk Emulator (ODEM) PCI card was used to send game data to the NPDP
 ---
 ## NPDP-GBOX - Testing Solution
 <section class="postSection">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2GHRdOQ2Y3I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
+  <img src="/public/images/gc/NPDP-G-BOX - Gamecube Developmet Kit.jpg" class="wow slideInLeft postImage" />
 
 <div markdown="1">
 The GBOX was very similar to the GDEV unit but instead of being focussed for programmers it has more of a focus on testing. The main feature it lacks compared to the **NPDP-GDEV** is the lack of connecting to the Optical Disk Emulator (ODEM) PCI card [^5], so it could only test games from the physical NPDP cartridges that had been written using one of the NPDP Writers (NPDP-GW/NPDP-SW).
