@@ -30,6 +30,8 @@ references:
   - archive.org
 twitterimage: https://www.retroreversing.com/public/images/gc/Gamecube Development Kit Hardware.jpg 
 updatedAt: '2020-09-30'
+redirect_from:
+ - /prodg-gamecube
 ---
 
 # AMC Dolphin Development Hardware (DDH)
