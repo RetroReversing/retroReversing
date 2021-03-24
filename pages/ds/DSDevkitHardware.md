@@ -64,9 +64,19 @@ For more information and a tear down visit: [The NSMB Hacking Domain » Nintendo
     <img src="/public/images/ds/IS-NITRO-DEBUGGER.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-Similar to the **IS-NITRO-EMULATOR** the **IS-NITRO-DEBUGGER** was an advanced version which added a few debugging features such as breakpoints and memory watchers to the emulator.
+The **IS-NITRO-DEBUGGER** is just a standard **IS-NITRO-EMULATOR** with additional software for a few debugging features such as breakpoints and memory watchers for programmers to debug their code on the real hardware.
  </div>
 </section> 
+
+### IS-NITRO-EMULATOR Controller
+<section class="postSection">
+    <img src="/public/images/ds/IS-NITRO-Emulator controller.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The controller for the **IS-NITRO-EMULATOR** is just a standard Nintendo DS with an un-pluggable cable in the back instead of the game card slot. This allows developers to use all the functionality of the DS such as the touch screen and still debug the code via their main PC.
+ </div>
+</section> 
+
 
 ---
 ## IS-NITRO-Capture
@@ -82,6 +92,47 @@ This is very useful for QA teams to avoid eye strain and for Game journalists to
 When connected to a PC it can even capture video footage, perfect for showcasing games at conventions!
 
 Note that it did not support original GB and GBC games unlike the retail Nintendo DS [^2].
+ </div>
+</section> 
+
+---
+## IS-NITRO-HUB
+<section class="postSection">
+
+<img src="/public/images/ds/IS-NITRO-HUB.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **IS-NITRO-HUB** is a piece of development hardware that was used to connect multiple development units (e.g IS-NITRO-EMULATOR) together using standard ethernet cables.
+
+This was very useful for testing multi-player comes or software that communicated with other devices such as Pictochat.
+ </div>
+</section> 
+
+---
+## IS-NITRO-VIDEO
+<section class="postSection">
+
+<img src="/public/images/ds/IS-NITRO-VIDEO - voodooween.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **IS-NITRO-VIDEO** is a piece of development hardware that was used to output video from a prototype DS game to multiple monitors, this was used for demos and events where Nintendo would showcase their games. 
+
+The connected DS was used as a controller, this allowed the players to use the touch screen and other event attendees would see the result on large monitors on the show floor.
+ </div>
+</section> 
+
+---
+## IS-NITRO-UIC
+<section class="postSection">
+
+<img src="/public/images/ds/IS-NITRO-UIC.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The ** IS-NITRO-UIC** is a piece of development hardware that was used to test MIDI sound on the Nintendo DS. 
+
+The hardware would be connected to a developers PC via USB, and using the provided software the sound engineer could send midi files that would play back on the device's speakers.
+
+The hardware could also be connected to any MIDI instrument directly via the MIDI interface!
  </div>
 </section> 
 
@@ -106,7 +157,6 @@ it has a bunch of DIP switches for configuration, a USB type-B port and uses the
 
 For more information about the Writer and a teardown: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/?from=20)
 
----
 ## DS Rewritable development Cartridge
 <section class="postSection">
     <img src="/public/images/ds/DS Development Cartridge.jpg" class="wow slideInLeft postImage" />
@@ -124,7 +174,34 @@ This allows game developers to test their games with the exact right amount of S
  </div>
 </section> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: These Nintendo DS development cartridges really existed. <a href="https://t.co/Tp8A0tGvL6">pic.twitter.com/Tp8A0tGvL6</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1337742223744495619?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: These Nintendo DS development cartridges really existed. <a href="https://t.co/Tp8A0tGvL6">pic.twitter.com/Tp8A0tGvL6</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1337742223744495619?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> 
+---
+
+## IS-TWL-DEBUGGER
+<section class="postSection">
+    <img src="/public/images/ds/IS-TWL-DEBUGGER.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **IS-TWL-DEBUGGER** development kit is a newer version of the **IS-NITRO-DEBUGGER** but with added support for the features of the DSI which was codenamed **Twilight** (TWL) during development.
+
+On the front it has slots for both an SD card and a standard DS cartridge.
+
+It has 32MB of main memory, twice that of the retail Nintendo DSi, this allows developers to use that memory for debugging overlays etc.
+
+For wireless communication it includes its own antenna!
+
+Similar to the **IS-NITRO-Emulator** it uses the gamecube power supply and has a USB port for interfacing with the developers PC.
+ </div>
+</section> 
+
+### IS-TWL-DEBUGGER Controller
+<section class="postSection">
+    <img src="/public/images/ds/IS-TWL-DEBUGGER Controller.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+Keeping the tradition with its DS predecessor the controller is a modified retail Unit, but instead of the cartridge port it had wires connecting it to the main unit itself [^5].
+ </div>
+</section> 
 
 ---
 # Third party Development Kits
