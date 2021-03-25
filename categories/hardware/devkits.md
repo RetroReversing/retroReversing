@@ -70,10 +70,6 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 ## SEGA Mega Drive 
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
-## SEGA Mega CD 
-{% include link-to-other-post.html post="/snasm2-cross-products" description="For information about Cross Products's SEGA MegaCD development hardware check out this post." %}
-
-
 ## SEGA Saturn 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For information about SEGA's Saturn development hardware check out this post." %}
 
