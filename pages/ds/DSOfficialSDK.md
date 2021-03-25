@@ -146,6 +146,8 @@ Contents:
 
 ---
 # C/C++ Header files (/include)
+the table below lists all the C++ header files available to use when developing Nintendo DS games.
+
 Name | Description
 ---|---
 nitro_win32.h
@@ -520,7 +522,8 @@ Contents:
 
 ---
 # Static Libraries (/lib)
-Contents:
+the table below lists all the Static Libraries that a Nintendo DS game can link to to provide useful functionality. There are normally two versions of a static Library, one compiled with the standard toolchain and another compiled for Thumb.
+
 Name | Thumb | Description
 ---|---|---
 libsyscall.a | N/A |
@@ -562,7 +565,7 @@ libwfs.a | libwfs.thumb.a |
 libwm.a | libwm.thumb.a | 
 libwvr.a | libwvr.thumb.a | 
 
-
+---
 # Source Code (/build)
 Contents:
 * Makefile
