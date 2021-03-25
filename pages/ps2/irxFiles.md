@@ -19,10 +19,17 @@ editlink: /ps2/irxFiles.md
 recommend: 
 - ps2
 - sdk
+updatedAt: '2021-03-25'
 ---
+If you are interested in the Playstation 2, especially reversing or developing  games for it, you will eventually come across files with the .IRX extension.
 
-IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. 
+# What are IRX Files?
+IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. So they are the result of compiling C/C++ code targetted to run on the Playstation 2's I/O processor, the code is compiled into MIPS R3000A Assembly and the. assembled to create the final IRX file.
 
+# What are they used for?
+Most IRX files are used for Input devices, such as the joypads, lightguns, eyetoy etc, this is why they run on the Input/Output processor. However as the processor is just a standard general purpose MIPS processor any code can technically be put in an IRX file as long as it doesn't need to be particularly fast.
+
+# How are they used?
 You can load an IOP Module from Emotion Engine code using one of the following API commands:
  - sceSifLoadModule()
  - sceSifLoadModule()
@@ -33,13 +40,13 @@ You can load an IOP Module from Emotion Engine code using one of the following A
  - sceSifLoadStartModuleBuffer()
  - sceSifLoadStartModuleBuffer
 
+# Where do I find them?
 You should be able to find some of these in the MODULES folder of a PS2 disk (but the folder depends on the disc).
 
-'Official' modules are modules provided to gamedevs in the official Sony PS2 Dev Kit.
+# What are the known IRX Modules?
+'Official' modules are modules provided to game developers in the official Sony PS2 Dev Kit.
 Note that more modules the than the ones marked below might be official.
 
-<div class="datatable">
-</div>
 
 IRX | Official | Usage | Description
 --- | --- | --- | ---
