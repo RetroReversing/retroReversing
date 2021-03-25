@@ -151,136 +151,155 @@ the table below lists all the C++ header files available to use when developing 
 
 Name | Description
 ---|---
-nitro_win32.h
-nitro_sp.h
-nitro_wl
-nitro_wl/common
-nitro_wl/common/version_wl.h
-nitro.h
-nitro
-nitro/gx.h
-nitro/init
-nitro/init/crt0.h
-nitro/env.h
-nitro/wvr
-nitro/wvr/common
-nitro/wvr/common/wvr_common.h
-nitro/wvr/ARM9
-nitro/wvr/ARM9/wvr.h
-nitro/cht
-nitro/cht/ARM9
-nitro/cht/ARM9/pictocatch.h
-nitro/version.h
-nitro/parent_begin.h
-nitro/mi.h
-nitro/dtcm_begin.h
-nitro/card
-nitro/card/eeprom.h
-nitro/card/rom.h
-nitro/card/backup.h
-nitro/card/pullOut.h
-nitro/card/common.h
-nitro/card/fram.h
-nitro/card/flash.h
-nitro/snd.h
-nitro/wvr.h
-nitro/exi.h
-nitro/hw
-nitro/hw/common
-nitro/hw/common/mmap_shared.h
-nitro/hw/common/lcd.h
-nitro/hw/common/armArch.h
-nitro/hw/ARM7
-nitro/hw/ARM7/ioreg_PAD.h
-nitro/hw/ARM7/mmap_global.h
-nitro/hw/ARM7/ioreg_OS.h
-nitro/hw/ARM7/ioreg.h
-nitro/hw/ARM7/mmap_wram.h
-nitro/hw/ARM7/mmap_main.h
-nitro/hw/ARM7/ioreg_MI.h
-nitro/hw/ARM7/ioreg_PXI.h
-nitro/hw/ARM7/ioreg_SND.h
-nitro/hw/ARM7/ioreg_EXI.h
-nitro/hw/ARM7/ioreg_GX.h
-nitro/hw/ARM7/ioreg_SPI.h
-nitro/hw/ARM9
-nitro/hw/ARM9/ioreg_PAD.h
-nitro/hw/ARM9/ioreg_G3X.h
-nitro/hw/ARM9/mmap_global.h
-nitro/hw/ARM9/ioreg_G3.h
-nitro/hw/ARM9/ioreg_OS.h
-nitro/hw/ARM9/ioreg.h
-nitro/hw/ARM9/mmap_main.h
-nitro/hw/ARM9/ioreg_MI.h
-nitro/hw/ARM9/ioreg_PXI.h
-nitro/hw/ARM9/mmap_vram.h
-nitro/hw/ARM9/ioreg_EXI.h
-nitro/hw/ARM9/ioreg_GX.h
-nitro/hw/ARM9/ioreg_GXS.h
-nitro/hw/ARM9/mmap_tcm.h
-nitro/hw/ARM9/ioreg_CP.h
-nitro/hw/ARM9/ioreg_G2.h
-nitro/hw/ARM9/ioreg_G2S.h
-nitro/itcm_begin.h
-nitro/pxi.h
-nitro/wbt.h
-nitro/pxi
-nitro/pxi/common
-nitro/pxi/common/fifo.h
-nitro/pxi/common/regname.h
-nitro/pxi/common/compparam.h
-nitro/pxi/common/init.h
-nitro/card.h
-nitro/itcm_end.h
-nitro/code32.h
-nitro/types.h
-nitro/mi
-nitro/mi/wram.h
-nitro/mi/dma.h
-nitro/mi/card.h
-nitro/mi/uncomp_stream.h
-nitro/mi/byteAccess.h
-nitro/mi/swap.h
-nitro/mi/stream.h
-nitro/mi/compress.h
-nitro/mi/memory.h
-nitro/mi/uncompress.h
-nitro/mi/init.h
-nitro/mi/exMemory.h
-nitro/misc.h
-nitro/ioreg.h
-nitro/specfiles
-nitro/specfiles/ARM7-TEG.lcf
-nitro/specfiles/ROM-TS.rsf
-nitro/specfiles/ARM9-TS-cloneboot-C.lcf.template
-nitro/specfiles/ARM9-TS.lsf
-nitro/specfiles/ARM9-TEG.lsf
-nitro/specfiles/ARM9-TEG-C.lcf.template
-nitro/specfiles/ARM7-TS.lsf
-nitro/specfiles/ARM9-TEG.lcf
-nitro/specfiles/ARM9-TEG.lcf.template
-nitro/specfiles/ARM9-TS.lcf
-nitro/specfiles/ARM7-TS.lcf.template
-nitro/specfiles/ARM7-TS.lcf
-nitro/specfiles/ARM9-TS-C.lcf.template
-nitro/specfiles/ndsld.response.template
-nitro/specfiles/default.bnr
-nitro/specfiles/mwldarm.response.template
-nitro/specfiles/ARM7-TEG.lsf
-nitro/specfiles/ARM9-TS.lcf.template
-nitro/specfiles/2.x
-nitro/specfiles/2.x/ARM9-TS-cloneboot-C.lcf.template
-nitro/specfiles/2.x/ARM9-TEG-C.lcf.template
-nitro/specfiles/2.x/ARM9-TEG.lcf.template
-nitro/specfiles/2.x/ARM9-TS-C.lcf.template
-nitro/specfiles/2.x/ARM9-TS.lcf.template
-nitro/specfiles/ARM7-TEG.lcf.template
-nitro/specfiles/ROM-TEG.rsf
-nitro/dtcm_end.h
-nitro/fx
-nitro/fx/fx.h
-nitro/fx/fx_mtx33.h
-nitro/fx/fx_trig.h
+nitro_win32.h |
+nitro_sp.h |
+nitro_wl |
+nitro_wl/common |
+nitro_wl/common/version_wl.h |
+nitro.h |
+nitro |
+nitro/gx.h |
+nitro/init |
+nitro/init/crt0.h |
+nitro/env.h |
+nitro/wvr |
+nitro/wvr/common |
+nitro/wvr/common/wvr_common.h |
+nitro/wvr/ARM9 |
+nitro/wvr/ARM9/wvr.h |
+nitro/cht |
+nitro/cht/ARM9 |
+nitro/cht/ARM9/pictocatch.h |
+nitro/version.h |
+nitro/parent_begin.h |
+nitro/mi.h |
+nitro/dtcm_begin.h |
+nitro/card |
+nitro/card/eeprom.h |
+nitro/card/rom.h |
+nitro/card/backup.h |
+nitro/card/pullOut.h |
+nitro/card/common.h |
+nitro/card/fram.h |
+nitro/card/flash.h |
+nitro/snd.h |
+nitro/wvr.h |
+nitro/exi.h |
+nitro/hw |
+nitro/hw/common |
+nitro/hw/common/mmap_shared.h |
+nitro/hw/common/lcd.h |
+nitro/hw/common/armArch.h |
+
+---
+## ARM7 Headers
+
+Name | Description
+---|---
+nitro/hw/ARM7/ioreg_PAD.h |
+nitro/hw/ARM7/mmap_global.h |
+nitro/hw/ARM7/ioreg_OS.h |
+nitro/hw/ARM7/ioreg.h |
+nitro/hw/ARM7/mmap_wram.h |
+nitro/hw/ARM7/mmap_main.h |
+nitro/hw/ARM7/ioreg_MI.h |
+nitro/hw/ARM7/ioreg_PXI.h |
+nitro/hw/ARM7/ioreg_SND.h |
+nitro/hw/ARM7/ioreg_EXI.h |
+nitro/hw/ARM7/ioreg_GX.h |
+nitro/hw/ARM7/ioreg_SPI.h |
+
+## ARM9 Headers
+
+Name | Description
+---|---
+nitro/hw/ARM9/ioreg_PAD.h |
+nitro/hw/ARM9/ioreg_G3X.h |
+nitro/hw/ARM9/mmap_global.h |
+nitro/hw/ARM9/ioreg_G3.h |
+nitro/hw/ARM9/ioreg_OS.h |
+nitro/hw/ARM9/ioreg.h |
+nitro/hw/ARM9/mmap_main.h |
+nitro/hw/ARM9/ioreg_MI.h |
+nitro/hw/ARM9/ioreg_PXI.h |
+nitro/hw/ARM9/mmap_vram.h |
+nitro/hw/ARM9/ioreg_EXI.h |
+nitro/hw/ARM9/ioreg_GX.h |
+nitro/hw/ARM9/ioreg_GXS.h |
+nitro/hw/ARM9/mmap_tcm.h |
+nitro/hw/ARM9/ioreg_CP.h |
+nitro/hw/ARM9/ioreg_G2.h |
+nitro/hw/ARM9/ioreg_G2S.h |
+
+## Memory Interface (MI)
+
+Name | Description
+---|---
+nitro/mi |
+nitro/mi/wram.h |
+nitro/mi/dma.h |
+nitro/mi/card.h |
+nitro/mi/uncomp_stream.h |
+nitro/mi/byteAccess.h |
+nitro/mi/swap.h |
+nitro/mi/stream.h |
+nitro/mi/compress.h |
+nitro/mi/memory.h |
+nitro/mi/uncompress.h |
+nitro/mi/init.h |
+nitro/mi/exMemory.h |
+
+## Misc Headers
+
+Name | Description
+---|---
+nitro/itcm_begin.h |
+nitro/pxi.h |
+nitro/wbt.h |
+nitro/pxi |
+nitro/pxi/common |
+nitro/pxi/common/fifo.h |
+nitro/pxi/common/regname.h |
+nitro/pxi/common/compparam.h |
+nitro/pxi/common/init.h |
+nitro/card.h |
+nitro/itcm_end.h |
+nitro/code32.h |
+nitro/types.h |
+nitro/misc.h |
+nitro/ioreg.h |
+nitro/specfiles |
+nitro/specfiles/ARM7-TEG.lcf |
+nitro/specfiles/ROM-TS.rsf |
+nitro/specfiles/ARM9-TS-cloneboot-C.lcf.template |
+nitro/specfiles/ARM9-TS.lsf |
+nitro/specfiles/ARM9-TEG.lsf |
+nitro/specfiles/ARM9-TEG-C.lcf.template |
+nitro/specfiles/ARM7-TS.lsf |
+nitro/specfiles/ARM9-TEG.lcf |
+nitro/specfiles/ARM9-TEG.lcf.template |
+nitro/specfiles/ARM9-TS.lcf |
+nitro/specfiles/ARM7-TS.lcf.template |
+nitro/specfiles/ARM7-TS.lcf |
+nitro/specfiles/ARM9-TS-C.lcf.template |
+nitro/specfiles/ndsld.response.template |
+nitro/specfiles/default.bnr |
+nitro/specfiles/mwldarm.response.template |
+nitro/specfiles/ARM7-TEG.lsf |
+nitro/specfiles/ARM9-TS.lcf.template |
+nitro/specfiles/2.x |
+nitro/specfiles/2.x/ARM9-TS-cloneboot-C.lcf.template |
+nitro/specfiles/2.x/ARM9-TEG-C.lcf.template |
+nitro/specfiles/2.x/ARM9-TEG.lcf.template |
+nitro/specfiles/2.x/ARM9-TS-C.lcf.template |
+nitro/specfiles/2.x/ARM9-TS.lcf.template |
+nitro/specfiles/ARM7-TEG.lcf.template |
+nitro/specfiles/ROM-TEG.rsf |
+nitro/dtcm_end.h |
+nitro/fx |
+nitro/fx/fx.h |
+nitro/fx/fx_mtx33.h |
+nitro/fx/fx_trig.h |
 nitro/fx/fx_mtx22.h
 nitro/fx/fx_mtx43.h
 nitro/fx/fx_cp.h
