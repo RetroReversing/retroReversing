@@ -240,12 +240,14 @@ Even with the wide variety of development kits on the market for the SEGA Genesi
 
 ## SPROBE (EA)
 <section class="postSection">
-    <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/FTnV2NqQwA8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="/public/images/megadrive/EA-mega-drive-devkit-sprobe.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 Developed for Electronic Arts in 1989, the SPROBE combines a Sega Mega Drive and a development board.
 
 Latching onto the Mega Drive cart interface, it adds a cartridge emulator as well as a debug / development capability using a PC card link.
 This hardware is one of the reasons for EA's early dominance in Sega Genesis gaming [^2].
+
+There used to be a video showing off this hardware on Youtube by AssemblerGames, however it has since been deleted.
 </div>
 </section>
 
