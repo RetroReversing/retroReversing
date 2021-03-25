@@ -34,27 +34,30 @@ Known Leaked versions:
 
 # Known Versions
 These are the versions that have been known to exist and their release dates:
-* irisSDK-snapshot-031203 - 3rd December 2003
-* irisSDK-snapshot-031212 - 12th December 2003
-* irisSDK-snapshot-040120 - 20th January 2004 
-* NITRO-SDK 1.0 - 5th April 2004
-* NITRO-SDK 1.2 - 16th June 2004 
-* NITRO-SDK 2.0 - 11th March 2005 (First in english)
-* NITRO-SDK 2.1 - 9th May 2005 
-* NITRO-SDK 2.2 - 22nd August 2005 
-* NITRO-SDK 3.0 - 25th January 2006
-* NITRO-SDK 3.1 - 2nd May 2006 
-* NITRO-SDK 3.2 - 28th August 2006 
-* NITRO-SDK 4.0 - 15th February 2007 
-* NITRO-SDK 4.1 - 10th July 2007
-* NITRO-SDK 4.2 - 10th December 2007
-* NITRO-SDK 4.2 + Patch - 18th January 2008
-* TWL-SDK 5.0 - 23rd October 2008
-* TWL-SDK 5.1 - 27th February 2009
-* TWL-SDK 5.2 - 10th June 2009
-* TWL-SDK 5.3 - 7th August 2009
-* TWL-SDK 5.4 - 20th November 2009
-* TWL-SDK 5.5 - 12th July 2010
+
+SDK Version Name | Release Date
+---|---
+irisSDK-snapshot-031203 | 3rd December 2003
+irisSDK-snapshot-031212 | 12th December 2003
+irisSDK-snapshot-040120 | 20th January 2004 
+NITRO-SDK 1.0 | 5th April 2004
+NITRO-SDK 1.2 | 16th June 2004 
+NITRO-SDK 2.0 | 11th March 2005 (First in english)
+NITRO-SDK 2.1 | 9th May 2005 
+NITRO-SDK 2.2 | 22nd August 2005 
+NITRO-SDK 3.0 | 25th January 2006
+NITRO-SDK 3.1 | 2nd May 2006 
+NITRO-SDK 3.2 | 28th August 2006 
+NITRO-SDK 4.0 | 15th February 2007 
+NITRO-SDK 4.1 | 10th July 2007
+NITRO-SDK 4.2 | 10th December 2007
+NITRO-SDK 4.2 + Patch | 18th January 2008
+TWL-SDK 5.0 | 23rd October 2008
+TWL-SDK 5.1 | 27th February 2009
+TWL-SDK 5.2 | 10th June 2009
+TWL-SDK 5.3 | 7th August 2009
+TWL-SDK 5.4 | 20th November 2009
+TWL-SDK 5.5 | 12th July 2010
 
 All three IRIS SDK version were leaked as part of the Paladin Leak on the 30th September 2020.
 
@@ -69,11 +72,11 @@ Note that there was also something called the "TWLwrap SDK" for DSi that was lea
 * cache
 * components
 * data
-* docs - Documentation
-* include - C/C++ Header files for SDK libraries
-* lib - Static libraries for the SDK
-* man - Manual for Functions
-* tools - SDK Tools such as elftobin and makerom
+* **docs** - Documentation
+* **include** - C/C++ Header files for SDK libraries
+* **lib** - Static libraries for the SDK
+* **man** - Manual for Functions
+* **tools** - SDK Tools such as elftobin and makerom
 
 ---
 # Manual (/man)
@@ -232,10 +235,10 @@ nitro/hw/ARM9/ioreg_G2.h |
 nitro/hw/ARM9/ioreg_G2S.h |
 
 ## Memory Interface (MI)
+The memory interface includes were used to produde functions for accessing specific areas of the hardwares memory and were located in the **nitro/mi** folder.
 
 Name | Description
 ---|---
-nitro/mi |
 nitro/mi/wram.h |
 nitro/mi/dma.h |
 nitro/mi/card.h |
@@ -300,51 +303,51 @@ nitro/fx |
 nitro/fx/fx.h |
 nitro/fx/fx_mtx33.h |
 nitro/fx/fx_trig.h |
-nitro/fx/fx_mtx22.h
-nitro/fx/fx_mtx43.h
-nitro/fx/fx_cp.h
-nitro/fx/fx_mtx44.h
-nitro/fx/fx_mtx.h
-nitro/fx/fx_const.h
-nitro/fx/fx_vec.h
-nitro/exi
-nitro/exi/ARM7
-nitro/exi/ARM7/genPort.h
-nitro/os.h
-nitro/utest.h
-nitro/parent_end.h
-nitro/ext
-nitro/ext/ext_scrntest.h
-nitro/ext/ext_keycontrol.h
-nitro/pad.h
-nitro/cht.h
-nitro/codereset.h
-nitro/wm
-nitro/wm/common
-nitro/wm/common/wm.h
-nitro/wm/ARM9
-nitro/wm/ARM9/wm_api.h
-nitro/memorymap_sp.h
-nitro/std
-nitro/std/string.h
-nitro/section.h
-nitro/prc.h
-nitro/version_end.h
-nitro/ctrdg.h
-nitro/math
-nitro/math/fft.h
-nitro/math/dgt.h
-nitro/math/crc.h
-nitro/math/rand.h
-nitro/math/math.h
-nitro/math/qsort.h
-nitro/math/checksum.h
-nitro/pad
-nitro/pad/common
-nitro/pad/common/pad.h
-nitro/pad/ARM7
-nitro/pad/ARM7/xyButton.h
-nitro/env
+nitro/fx/fx_mtx22.h |
+nitro/fx/fx_mtx43.h |
+nitro/fx/fx_cp.h |
+nitro/fx/fx_mtx44.h |
+nitro/fx/fx_mtx.h |
+nitro/fx/fx_const.h |
+nitro/fx/fx_vec.h |
+nitro/exi |
+nitro/exi/ARM7 |
+nitro/exi/ARM7/genPort.h |
+nitro/os.h |
+nitro/utest.h |
+nitro/parent_end.h |
+nitro/ext |
+nitro/ext/ext_scrntest.h |
+nitro/ext/ext_keycontrol.h |
+nitro/pad.h |
+nitro/cht.h |
+nitro/codereset.h |
+nitro/wm |
+nitro/wm/common |
+nitro/wm/common/wm.h |
+nitro/wm/ARM9 |
+nitro/wm/ARM9/wm_api.h |
+nitro/memorymap_sp.h |
+nitro/std |
+nitro/std/string.h |
+nitro/section.h |
+nitro/prc.h |
+nitro/version_end.h |
+nitro/ctrdg.h |
+nitro/math |
+nitro/math/fft.h |
+nitro/math/dgt.h |
+nitro/math/crc.h |
+nitro/math/rand.h |
+nitro/math/math.h |
+nitro/math/qsort.h |
+nitro/math/checksum.h |
+nitro/pad |
+nitro/pad/common |
+nitro/pad/common/pad.h |
+nitro/pad/ARM7 |
+nitro/pad/ARM7/xyButton.h |
+nitro/env |
 nitro/env/env_system.h
 nitro/spec.h
 nitro/version_begin.h
