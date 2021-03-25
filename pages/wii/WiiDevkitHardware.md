@@ -33,6 +33,30 @@ In fact it was the green gamecube development unit called the **NR Reader**. Thi
 
 You will notice that the motion controller actually plugs into the standard gamecube controller port and so is not wireless and it comes with a slightly different motion bar than the retail units.
 
-You can read more about the NR Reader and other Gamecube development kit hardware on its own page.
  </div>
 </section> 
+
+{% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
+
+---
+# RVT-001 NDEV
+
+<section class="postSection">
+    <img src="/public/images/wii/NDEV.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **NDEV** was the main unit used by the game programmers to build and debug their games.
+
+The unit itself contains all the standard Wii hardware but lacks any kind of hard drive, so in order to play games on the unit they must be streamed from the game developer's PC via USB.
+
+So the unit treat the host PC like a external hard drive and reads the ELF executable and all the game files directly from the PC HDD [^2].
+ </div>
+</section> 
+
+For much more detailed information about the NDEV unit check out the RGDWiki page on it:
+[NDEV - RGDWiki](https://wiki.mariocube.com/index.php/NDEV)
+
+---
+# References
+[^1]: [Wii Development Consoles & Games! (RVT-H, RVT-R Wireless & Wired) - H4G - YouTube](https://www.youtube.com/watch?v=uNKoiJaieXQ)
+[^2]: [NDEV - RGDWiki](https://wiki.mariocube.com/index.php/NDEV)
