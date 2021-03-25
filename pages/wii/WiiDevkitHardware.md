@@ -6,7 +6,7 @@ tags:
 - hardware
 title: Nintendo Wii Development Kit Hardware
 thumbnail: /public/consoles/Nintendo Wii.png
-image: /public/images/qii/Nintendo Wii Development Kit Hardware.jpg
+image: /public/images/wii/Nintendo Wii Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Development Kit Hardware.jpg
 permalink: /nintendo-wii-development-kit/
 breadcrumbs:
@@ -33,13 +33,14 @@ In fact it was the green gamecube development unit called the **NR Reader**. Thi
 
 You will notice that the motion controller actually plugs into the standard gamecube controller port and so is not wireless and it comes with a slightly different motion bar than the retail units.
 
+You can read more about the NR Reader and other Gamecube development kit hardware on its own page.
  </div>
 </section> 
 
 {% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
 
 ---
-# RVT-001 NDEV
+# RVT-001 - NDEV
 
 <section class="postSection">
     <img src="/public/images/wii/NDEV.jpg" class="wow slideInLeft postImage" />
@@ -70,10 +71,11 @@ Apparently these are green to fit in with the previous generation of development
  </div>
 </section> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nintendo Wii &quot;Prototype&quot; Tradeshow Development Kit RVT - R Wireless Reader <br><br>Similar to the final RVT-R &quot;Wireless&quot; but in retail flavor, ill take this apart and compare to discern any differences that may exist. <br><br>Enjoy!<br>-Jeff<br><br>Special Thanks <br>@AndrewEarley7 <a href="https://t.co/5RUZkmCBIE">pic.twitter.com/5RUZkmCBIE</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1190400093205254146?ref_src=twsrc%5Etfw">November 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nintendo Wii &quot;Prototype&quot; Tradeshow Development Kit RVT - R Wireless Reader <br><br>Similar to the final RVT-R &quot;Wireless&quot; but in retail flavor, ill take this apart and compare to discern any differences that may exist. <br><br>Enjoy!<br>-Jeff<br><br>Special Thanks <br>@AndrewEarley7 <a href="https://t.co/5RUZkmCBIE">pic.twitter.com/5RUZkmCBIE</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1190400093205254146?ref_src=twsrc%5Etfw">November 1, 2019</a></blockquote>
 
 ---
 # RVT-003 - RVT-R Writer
+
 <section class="postSection">
     <img src="/public/images/wii/RVT-R Writer.jpg" class="wow slideInLeft postImage" />
 
@@ -98,6 +100,22 @@ These can be read by the **RVT-R Reader** and written to using the **RVT-R Write
 Many Prototype Wii games have been found on these Discs and they can be dumped using a hacked Wii console. Redump has a guide for dumping these if you are interested: [Nintendo GameCube (NR) / Wii (RVT-R) Dumping Guide - Redump Wiki](http://wiki.redump.org/index.php?title=Nintendo_GameCube_(NR)_/_Wii_(RVT-R)_Dumping_Guide)
 </div>
 </section> 
+
+---
+# RVT-005 - RVT-H (Hard drive)
+<section class="postSection">
+    <img src="/public/images/wii/RVT-H.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **RVT-H** is basically the same as a RVT-R Reader expect that instead of reading optical disks it instead has a built in hard drive. 
+
+The hard-drive can hold multiple games at once and you can switch between them with buttons on the front of the unit.
+ </div>
+</section> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now unboxing a <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> RVT-H wireless <a href="https://twitter.com/hashtag/Wii?src=hash&amp;ref_src=twsrc%5Etfw">#Wii</a> <a href="https://twitter.com/hashtag/devkit?src=hash&amp;ref_src=twsrc%5Etfw">#devkit</a>. Unlike the green RVT-R, this has an HDD, not an optical drive. <a href="https://t.co/exe4QcbUm9">pic.twitter.com/exe4QcbUm9</a></p>&mdash; Robin Davies (@ozconsoul) <a href="https://twitter.com/ozconsoul/status/738635595430264832?ref_src=twsrc%5Etfw">June 3, 2016</a></blockquote>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uNKoiJaieXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # References
