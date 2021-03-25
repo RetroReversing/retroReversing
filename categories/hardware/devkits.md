@@ -36,6 +36,7 @@ We have tried to document all the development kit hardware available for the mos
 ## Nintendo 64 (Ultra64)
 {% include link-to-other-post.html post="/official-n64-devkit/" description="For information about Nintendo's Ultra 64 development hardware check out this post." %}
 
+### 3rd Party Nintendo 64 Development Kits
 There was also a device created by Bung which advertised itself as a development kit but many consumers used it for backing up game cartridges.
 {% include link-to-other-post.html post="/Bung-Doctor-v64/" description="For information about Bung's v64 development hardware check out this post." %}
 
@@ -45,6 +46,9 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 
 ## Nintendo Gamecube (Dolphin)
 {% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
+
+## Nintendo Wii
+{% include link-to-other-post.html post="/nintendo-wii-development-kit/" description="For information about Nintendo's Wii development hardware check out this post." %}
 
 ---
 # Nintendo Handheld Development Kit Hardware
