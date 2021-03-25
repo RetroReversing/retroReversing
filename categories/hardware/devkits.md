@@ -55,6 +55,9 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 ## Nintendo Game Boy Advance (GBA)
 {% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For information about Nintendo's Game Boy Advance development hardware check out this post." %}
 
+## Nintendo DS (NDS)
+{% include link-to-other-post.html post="nintendo-ds-development-kit/" description="For information about Nintendo DS development hardware check out this post." %}
+
 ---
 # SEGA Development Kit Hardware
 
@@ -68,7 +71,8 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
 ## SEGA Mega CD 
-[Cross Products SEGA MegaCD Development Kit (SNASM2)](https://www.retroreversing.com/snasm2-cross-products)
+{% include link-to-other-post.html post="/snasm2-cross-products" description="For information about Cross Products's SEGA MegaCD development hardware check out this post." %}
+
 
 ## SEGA Saturn 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For information about SEGA's Saturn development hardware check out this post." %}
