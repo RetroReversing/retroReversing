@@ -85,6 +85,21 @@ It was essentially just a DVD-R burner that could burn to the proprietary DVDs t
 </section> 
 
 ---
+# RVT-004 - RVT-R Single Layer Disc
+
+<section class="postSection">
+    <img src="/public/images/wii/RVT-R Single Layer Disc.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+Similar to the NR discs for the Gamecube development kit but with the added storage capacity required for Wii Games.
+
+These can be read by the **RVT-R Reader** and written to using the **RVT-R Writer**.
+ 
+Many Prototype Wii games have been found on these Discs and they can be dumped using a hacked Wii console. Redump has a guide for dumping these if you are interested: [Nintendo GameCube (NR) / Wii (RVT-R) Dumping Guide - Redump Wiki](http://wiki.redump.org/index.php?title=Nintendo_GameCube_(NR)_/_Wii_(RVT-R)_Dumping_Guide)
+</div>
+</section> 
+
+---
 # References
 [^1]: [Wii Development Consoles & Games! (RVT-H, RVT-R Wireless & Wired) - H4G - YouTube](https://www.youtube.com/watch?v=uNKoiJaieXQ)
 [^2]: [NDEV - RGDWiki](https://wiki.mariocube.com/index.php/NDEV)
