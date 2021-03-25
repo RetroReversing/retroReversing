@@ -19,6 +19,10 @@ breadcrumbs:
 recommend: 
 - devkit
 - wii
+videocarousel:
+  - title: Hard 4 Games 
+    image: http://img.youtube.com/vi/uNKoiJaieXQ/hqdefault.jpg
+    youtube: 'uNKoiJaieXQ'
 editlink: /wii/WiiDevkitHardware.md
 updatedAt: '2021-03-25'
 ---
@@ -113,7 +117,6 @@ The hard-drive can hold multiple games at once and you can switch between them w
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now unboxing a <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> RVT-H wireless <a href="https://twitter.com/hashtag/Wii?src=hash&amp;ref_src=twsrc%5Etfw">#Wii</a> <a href="https://twitter.com/hashtag/devkit?src=hash&amp;ref_src=twsrc%5Etfw">#devkit</a>. Unlike the green RVT-R, this has an HDD, not an optical drive. <a href="https://t.co/exe4QcbUm9">pic.twitter.com/exe4QcbUm9</a></p>&mdash; Robin Davies (@ozconsoul) <a href="https://twitter.com/ozconsoul/status/738635595430264832?ref_src=twsrc%5Etfw">June 3, 2016</a></blockquote>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uNKoiJaieXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # References
