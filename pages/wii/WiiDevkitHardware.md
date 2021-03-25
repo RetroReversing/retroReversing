@@ -20,6 +20,7 @@ recommend:
 - devkit
 - wii
 editlink: /wii/WiiDevkitHardware.md
+updatedAt: '2021-03-25'
 ---
 
 # Wii Prototype Development Kit
@@ -41,7 +42,6 @@ You can read more about the NR Reader and other Gamecube development kit hardwar
 
 ---
 # RVT-001 - NDEV
-
 <section class="postSection">
     <img src="/public/images/wii/NDEV.jpg" class="wow slideInLeft postImage" />
 
@@ -75,7 +75,6 @@ Apparently these are green to fit in with the previous generation of development
 
 ---
 # RVT-003 - RVT-R Writer
-
 <section class="postSection">
     <img src="/public/images/wii/RVT-R Writer.jpg" class="wow slideInLeft postImage" />
 
@@ -88,7 +87,6 @@ It was essentially just a DVD-R burner that could burn to the proprietary DVDs t
 
 ---
 # RVT-004 - RVT-R Single Layer Disc
-
 <section class="postSection">
     <img src="/public/images/wii/RVT-R Single Layer Disc.jpg" class="wow slideInLeft postImage" />
 
