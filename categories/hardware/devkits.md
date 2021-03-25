@@ -56,7 +56,7 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 {% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For information about Nintendo's Game Boy Advance development hardware check out this post." %}
 
 ## Nintendo DS (NDS)
-{% include link-to-other-post.html post="nintendo-ds-development-kit/" description="For information about Nintendo DS development hardware check out this post." %}
+{% include link-to-other-post.html post="/nintendo-ds-development-kit/" description="For information about Nintendo DS development hardware check out this post." %}
 
 ---
 # SEGA Development Kit Hardware
