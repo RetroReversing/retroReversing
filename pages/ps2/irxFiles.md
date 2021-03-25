@@ -31,17 +31,17 @@ Most IRX files are used for Input devices, such as the joypads, lightguns, eyeto
 
 ## How are they used?
 You can load an IOP Module from Emotion Engine code using one of the following API commands:
- - sceSifLoadModule()
- - sceSifLoadModule()
- - sceSifLoadStartModule()
- - sceSifLoadStartModule()
- - sceSifLoadModuleBuffer()
- - sceSifLoadModuleBuffer()
- - sceSifLoadStartModuleBuffer()
- - sceSifLoadStartModuleBuffer
+ - **sceSifLoadModule**()
+ - **sceSifLoadModule**()
+ - **sceSifLoadStartModule**()
+ - **sceSifLoadStartModule**()
+ - **sceSifLoadModuleBuffer**()
+ - **sceSifLoadModuleBuffer**()
+ - **sceSifLoadStartModuleBuffer**()
+ - **sceSifLoadStartModuleBuffer**()
 
 ## Where do I find them?
-You should be able to find some of these in the MODULES folder of a PS2 disk (but the folder depends on the disc).
+You should be able to find some of these in the **MODULES** folder of a Playstation 2 disk (but the folder depends on the disc).
 
 ## What are the known IRX Modules?
 'Official' modules are modules provided to game developers in the official Sony PS2 Dev Kit.
