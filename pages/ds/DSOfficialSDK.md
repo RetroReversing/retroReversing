@@ -27,12 +27,13 @@ When the Nintendo DSi was released the SDK was once again renamed to the twiligh
 
 # Leaked Versions of the SDK
 Known Leaked versions:
-* NITRO-SDK 3.0 (Unknown Leak)
-* NITRO-SDK 4.2 + Patch (Pokemon Platinum Source code Leak)
-* TWL-SDK 5.5 (Unknown Leak)
+* **NITRO-SDK 3.0** (Unknown Leak)
+* **NITRO-SDK 4.2+ Patch** (Pokemon Platinum Source code Leak)
+* **TWL-SDK 5.5** (Unknown Leak) - This is the DSi version of the SDK
 
 
 # Known Versions
+These are the versions that have been known to exist and their release dates:
 * irisSDK-snapshot-031203 - 3rd December 2003
 * irisSDK-snapshot-031212 - 12th December 2003
 * irisSDK-snapshot-040120 - 20th January 2004 
