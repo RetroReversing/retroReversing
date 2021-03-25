@@ -18,9 +18,9 @@ recommend: devkit
 ---
 
 # Introduction to Development Kits (Hardware)
-Game console development kits come in all shapes and sizes, some are built by the games console manifacturar themselves and others are built by 3rd-party companies.
+Game console development kits come in all shapes and sizes, some are built by the games console manufacture themselves and others are built by 3rd-party companies.
 
-Development Kits are facinating, many come out before the specs for the console have even been finalized. 
+Development Kits are fascinating, many come out before the specs for the console have even been finalised.
 
 We have tried to document all the development kit hardware available for the most popular retro consoles, so hopefully you will find the posts below helpful.
 
