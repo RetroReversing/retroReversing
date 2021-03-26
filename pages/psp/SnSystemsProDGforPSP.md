@@ -28,10 +28,14 @@ updatedAt: '2021-03-26'
 ## What is the SN Systems ProDG PSP SDK?
 SN Systems were in the business of creating excellent 3rd party development tools and many game development studios relied on them to provide first class tools for console development. The PSP was no different and SN Systems started developing its PSP version of its popular ProDG SDK sometime in 2003 (as far as we know).
 
+{% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems check out this post." %}
+
 ## What was contained in the SDK?
 The SDK contained the SN Systems Compilers (SNC C/C++) which were optimised specifically for the handheld's cpu architecture, allowing faster assembly code to be generated compared to Sony's standard SDK.
 
 The SDK also contained the ProDG Tuner (Tuner-LE) which was used to for game optimization by visualising code and providing information about where the main bottlenecks are [^2].
+
+Similar to the ProDG SDKs for other consoles this SDK included the **Target Manager** which allowed shared usage of multiple PSP development Kits via the internal network.
 
 ## What are the known versions of the SDK?
 So far we only know of one versions to exist:
