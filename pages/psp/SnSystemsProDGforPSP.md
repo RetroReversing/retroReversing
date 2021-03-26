@@ -33,9 +33,19 @@ SN Systems were in the business of creating excellent 3rd party development tool
 ## What was contained in the SDK?
 The SDK contained the SN Systems Compilers (SNC C/C++) which were optimised specifically for the handheld's cpu architecture, allowing faster assembly code to be generated compared to Sony's standard SDK.
 
+The SDK contained a few main parts:
+* ProDG Tuner
+* Target Manager
+* Proview
+
+### ProDG Tuner
 The SDK also contained the ProDG Tuner (Tuner-LE) which was used to for game optimization by visualising code and providing information about where the main bottlenecks are [^2].
 
+### Target Manager
 Similar to the ProDG SDKs for other consoles this SDK included the **Target Manager** which allowed shared usage of multiple PSP development Kits via the internal network.
+
+### Proview (Proview-LE)
+Proview is an optional part of the SDK tailored to artists, this allows them to test how their assets look and run on the PSP hardware without having to create a new build of the game. This can be run through the previously discussed Target Manager meaning any artist PC could connect to it similar to a shared network printer.
 
 ## What are the known versions of the SDK?
 So far we only know of one versions to exist:
@@ -179,3 +189,4 @@ Below is an example of strings that hint at the use of the SN Systems SDK:
 # References
 [^1]: [PSP Dev Tool Success For UK Firm News](https://archive.ph/20130630110629/http://www.totalvideogames.com/PSP/news/PSP-Dev-Tool-Success-For-UK-Firm-6919.html)
 [^2]: [SN Systems new product – Tuner-LE for PSP™ - GamesIndustry.biz](https://www.gamesindustry.biz/articles/sn-systems-new-product-tuner-le-for-psp)
+[^3]: [SN Products Home Page](http://web.archive.org/web/20050908160005/http://www.snsystems.com/Products/)
