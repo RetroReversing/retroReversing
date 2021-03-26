@@ -23,6 +23,9 @@ videocarousel:
   - title: MVG Getting games off debug hardware
     image: http://img.youtube.com/vi/D_rstdgCz9M/hqdefault.jpg
     youtube: 'D_rstdgCz9M'
+  - title: PTOP Xbox Debug Kit Exploration
+    image: http://img.youtube.com/vi/ocJcI7YjLJc/hqdefault.jpg
+    youtube: 'ocJcI7YjLJc'
 editlink: /xbox/XboxDevkitHardware.md
 updatedAt: '2021-03-26'
 ---
@@ -96,6 +99,12 @@ One of the main ones is the ability to run unsigned code instead of retail signe
  </div>
 </section> 
 
+## Different Debug Kit variants
+There were multiple different variants of the Debug Kit, in the video below PToPOnline provides an excellent overview of these:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ocJcI7YjLJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Backing up Prototypes from Debug Kits
+If you happen to buy a Debug kit, please take extra care with the hard drive, it may contain an unreleased prototype. In the Video Below Modern Vintage Gamer takes you through the steps to preserving prototypes.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D_rstdgCz9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
