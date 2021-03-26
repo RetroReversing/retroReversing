@@ -32,6 +32,10 @@ The SDK contained the SN Systems Compilers (SNC C/C++) which were optimised spec
 
 The SDK also contained the ProDG Tuner (Tuner-LE) which was used to for game optimization by visualising code and providing information about where the main bottlenecks are [^2].
 
+## What are the known versions of the SDK?
+So far we only know of one versions to exist:
+* 2.7.1 - used in Need for Speed
+
 ## Have any versions of the SDK been leaked?
 No versions of the ProDG SDK for the PSP have currently been leaked to the internet, although a photo of it had been shared to Andrew Borman's Twitter:
 
