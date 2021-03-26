@@ -19,6 +19,10 @@ breadcrumbs:
 recommend: 
 - devkit
 - xbox
+videocarousel:
+  - title: Hard 4 Games 
+    image: http://img.youtube.com/vi/uNKoiJaieXQ/hqdefault.jpg
+    youtube: 'uNKoiJaieXQ'
 editlink: /xbox/XboxDevkitHardware.md
 ---
 
@@ -37,9 +41,46 @@ Later on Microsoft sent out the **Alpha II** development kits which came either 
 
 These Alpha development kits looked like standard PCs at first glance but if you open it up you will find custom parts built specifically for the console [^1]. 
 
-People have attempted to create their own **Frankenstein** versions of these consoles to varying success.
+People have attempted to create their own **FrankenAlpha** versions of these consoles with alternative hardware to varying success.
  </div>
 </section> 
+
+---
+# DVT3 - Xbox Development Kits
+<section class="postSection">
+    <img src="/public/images/xbox/Xbox DVT3 development kit.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **DVT3** development kit was released after the Alpha units when the retail hardware had been finalised.
+ </div>
+</section> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g0nWpmZo69Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+# DVT4 - Xbox Development Kit
+<section class="postSection">
+    <img src="/public/images/xbox/Xbox DVT4 development kit.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The **DVT4** development kit was released next and was the main kit used throughout the lifecycle of the original Xbox.
+ </div>
+</section> 
+
+---
+# Debug Kits
+<section class="postSection">
+    <img src="/public/images/xbox/" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+Debug units look very similar to the retail Xbox consoles both inside and out but they have a few differences useful for testing prototype games. 
+
+One of the main ones is the ability to run unsigned code instead of retail signed code and double the RAM of the retail console. This is required due to debug tools overhead that remain in memory while the prototypes are run.
+ </div>
+</section> 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D_rstdgCz9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 # References
