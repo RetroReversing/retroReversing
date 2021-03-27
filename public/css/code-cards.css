@@ -90,18 +90,16 @@
 
 .rr-main-cards {
   background: #f9f9f9;
-  width: 100vw;
-  padding-top: 75px;
   display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  line-height: 1.5;
-  font-size: 16px;
+  line-height: 1.4;
+  font-size: 14px;
   text-align: center;
   transition: all 0.3s ease;
-  margin: 3em auto 8em;
+  margin: 2em auto 7em;
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 20px;
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(4, auto);
   justify-content: center;
