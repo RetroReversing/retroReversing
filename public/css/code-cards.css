@@ -75,6 +75,7 @@
   cursor: pointer;
   transition: 0.4s ease;
   margin-bottom: 5px;
+  text-align: left;
 }
 .rr-file-card li:hover {
   background-color: rgba(1, 1, 1, 0.05);
