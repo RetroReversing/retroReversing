@@ -55,6 +55,128 @@ player_dat | .c, .o |
 ring | .c, .h, .o | 
 rom_header | .s | 
 
+<main class="rr-main-cards">
+	<section>
+		<div class="rr-file-card">
+			<img class="geopattern" data-title="bg.c" />
+			<div>
+				<h3>bg.c</h3>
+				<ul>
+					<li>
+						<span class="rr-variable-type">void</span> initwave2nd<span class="rr-func-args">(BgAnm*)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> Anm_wave2nd<span class="rr-func-args">(BgAnm*)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitBg<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> BgProc<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> Change_Bg_VRAM<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> UpdateBg<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitSky<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> Init_Sky_ScreenDat<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DrawSky<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DeleteSky<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> SoraRight<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> SoraLeft<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitCoral<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitCoralScreenDat<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DrawCoral<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DeleteCoral<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> CoralRight<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> CoralLeft<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> CoralUpDown<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitLight<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitLightScreenDat<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DrawLight<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DeleteLight<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitOceanA<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitOceanAScreenDat<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> OceanA_Idle<span class="rr-func-args">(Bg*,s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DrawOceanA<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DeleteOceanA<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> OceanA_Up<span class="rr-func-args">(Bg*)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> OceanA_Down<span class="rr-func-args">(Bg*)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitOceanB<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> InitOceanBScreenDat<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DrawOceanB<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> DeleteOceanB<span class="rr-func-args">(s32,s32)</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> OceanB_Up<span class="rr-func-args">()</span>
+					</li>
+					<li>
+						<span class="rr-variable-type">void</span> OceanB_Down<span class="rr-func-args">()</span>
+					</li>
+				</ul>
+			</div>
+			<div class="rr-file-stats"> </div>
+		</div>
+	</section>
+
+</main>
 
 ---
 ## Dolphin/Doc
@@ -63,7 +185,7 @@ This folder contains a brief document describing the Dolphin demo and the featur
 The document is simply called **DemoProgramDolphin.doc**.
 
 ---
-## dolphin/bg_parts
+## Bg_parts (dolphin/bg_parts)
 This folder contains 
 
 File Name | Extension | Description
@@ -80,7 +202,7 @@ wave2nd3 | .bmp, .c, .o |
 
 
 ---
-## dolphin/img
+## Img (dolphin/img)
 This folder contains 
 
 File Name | Extension | Description
@@ -91,7 +213,7 @@ ring_32_64_right | .bmp |
 
 
 ---
-#### dolphin/img/Oumgai/O_fukiya
+#### O_fukiya (dolphin/img/Oumgai/O_fukiya)
 This folder contains 
 
 File Name | Extension | Description
@@ -100,7 +222,7 @@ O_fukiya000 | .bmp |
 
 
 ---
-#### dolphin/img/Oumgai/O_kihon
+#### O_kihon (dolphin/img/Oumgai/O_kihon)
 This folder contains 
 
 File Name | Extension | Description
@@ -118,7 +240,7 @@ O_kihon010 | .bmp |
 
 
 ---
-#### dolphin/img/Oumgai/O_kougeki
+#### O_kougeki (dolphin/img/Oumgai/O_kougeki)
 This folder contains 
 
 File Name | Extension | Description
@@ -147,7 +269,7 @@ O_kougeki020 | .bmp |
 
 
 ---
-#### dolphin/img/Oumgai/O_yarare
+#### O_yarare (dolphin/img/Oumgai/O_yarare)
 This folder contains 
 
 File Name | Extension | Description
@@ -176,7 +298,7 @@ O_yarare020 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_attack
+#### R_attack (dolphin/img/Ricky/R_attack)
 This folder contains 
 
 File Name | Extension | Description
@@ -191,7 +313,7 @@ R_attack7 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_down
+#### R_down (dolphin/img/Ricky/R_down)
 This folder contains 
 
 File Name | Extension | Description
@@ -208,7 +330,7 @@ R_down8 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_go_down
+#### R_go_down (dolphin/img/Ricky/R_go_down)
 This folder contains 
 
 File Name | Extension | Description
@@ -224,7 +346,7 @@ R_go_down7 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_go_up
+#### R_go_up (dolphin/img/Ricky/R_go_up)
 This folder contains 
 
 File Name | Extension | Description
@@ -240,7 +362,7 @@ R_go_up7 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_jump
+#### R_jump (dolphin/img/Ricky/R_jump)
 This folder contains 
 
 File Name | Extension | Description
@@ -259,7 +381,7 @@ R_jump9 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_kihon
+#### R_kihon (dolphin/img/Ricky/R_kihon)
 This folder contains 
 
 File Name | Extension | Description
@@ -275,7 +397,7 @@ R_kihon7 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/R_up
+#### R_up (dolphin/img/Ricky/R_up)
 This folder contains 
 
 File Name | Extension | Description
@@ -292,7 +414,7 @@ R_up8 | .bmp |
 
 
 ---
-#### dolphin/img/Ricky/small
+#### Small (dolphin/img/Ricky/small)
 This folder contains 
 
 File Name | Extension | Description
@@ -308,7 +430,7 @@ r_small7 | .bmp |
 
 
 ---
-## dolphin/obj
+## Obj (dolphin/obj)
 This folder contains 
 
 File Name | Extension | Description
@@ -432,7 +554,7 @@ ring_32_64_right | .c, .o |
 
 
 ---
-# yoshi
+# Yoshi (yoshi)
 This folder contains 
 
 File Name | Extension | Description
@@ -469,7 +591,7 @@ yoshi | .bin, .elf, .map |
 
 
 ---
-### yoshi/bmp/islebmp
+### Islebmp (yoshi/bmp/islebmp)
 This folder contains 
 
 File Name | Extension | Description
@@ -540,7 +662,7 @@ yoshi_island_990907_0_9 | .bmp, .o |
 
 
 ---
-### yoshi/bmp/menubmp
+### Menubmp (yoshi/bmp/menubmp)
 This folder contains 
 
 File Name | Extension | Description
@@ -553,7 +675,7 @@ umi64 | .bmp, .o |
 
 
 ---
-### yoshi/bmp/yosbgbmp
+### Yosbgbmp (yoshi/bmp/yosbgbmp)
 This folder contains 
 
 File Name | Extension | Description
@@ -568,7 +690,7 @@ tmp | .bmp |
 
 
 ---
-### yoshi/bmp/yosbmp
+### Yosbmp (yoshi/bmp/yosbmp)
 This folder contains 
 
 File Name | Extension | Description
@@ -901,7 +1023,7 @@ toge | .bmp, .o |
 
 
 ---
-## yoshi/sound
+## Sound (yoshi/sound)
 This folder contains 
 
 File Name | Extension | Description
