@@ -269,6 +269,26 @@ rom_header | .s |
   </div>
   <div class="rr-file-stats">  </div>
 </div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="hitcheck.c" />
+  <div><h3>hitcheck.c</h3>
+  <ul>  <li>
+    <span class="rr-variable-type">void</span> Fukiya2Dolphin<span class="rr-func-args">(Player*,Fukiya*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> Dolphin2Enemy<span class="rr-func-args">(Player*,Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> Ring2Dolphin<span class="rr-func-args">(Ring*,Player*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">u8</span> RingPass<span class="rr-func-args">(Ring*,Player*)</span>
+  </li> 
+  </ul>
+  </div>
+  <div class="rr-file-stats">  <div class="rr-file-stat rr-file-stats-functions">?</div>  <div class="rr-file-stat rr-file-stats-variables">?</div>  <div class="rr-file-stat rr-file-stats-lines">?</div>  </div>
+</div>
     
 </section>
 
