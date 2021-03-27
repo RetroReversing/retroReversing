@@ -55,8 +55,7 @@ player_dat | .c, .o |
 ring | .c, .h, .o | 
 rom_header | .s | 
 
-<main class="rr-main-cards">
-	<section>
+<section class="rr-main-cards">
 		<div class="rr-file-card">
 			<img class="geopattern" data-title="bg.c" />
 			<div>
@@ -175,7 +174,7 @@ rom_header | .s |
 			<div class="rr-file-stats"> </div>
 		</div>
     
-    <div class="rr-file-card">
+<div class="rr-file-card">
   <img class="geopattern" data-title="enemy.c" />
   <div><h3>enemy.c</h3>
   <ul>  <li>
@@ -270,9 +269,8 @@ rom_header | .s |
   <div class="rr-file-stats">  </div>
 </div>
     
-	</section>
+</section>
 
-</main>
 
 ---
 ## Dolphin/Doc
