@@ -48,9 +48,9 @@
   box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
   border-radius: 10px;
   transition: 0.2s ease;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 350px;
+/*   padding-left: 5%;
+  padding-right: 5%; */
+  width: 250px;
   border-radius: 10px;
   text-align: center;
   display: grid;
@@ -61,6 +61,7 @@
 .rr-file-card h3 {
   font: 700 24px/1.2 "Poppins", sans-serif;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 .rr-file-card ul {
   border-bottom: 0.5px solid #999;
