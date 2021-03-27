@@ -66,6 +66,8 @@
   border-bottom: 0.5px solid #999;
   padding-bottom: 10px;
   list-style: none;
+  overflow-y: scroll;
+  height: 200px;
 }
 .rr-file-card li {
   color: darkblue;
