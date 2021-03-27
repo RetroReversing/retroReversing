@@ -174,6 +174,102 @@ rom_header | .s |
 			</div>
 			<div class="rr-file-stats"> </div>
 		</div>
+    
+    <div class="rr-file-card">
+  <img class="geopattern" data-title="enemy.c" />
+  <div><h3>enemy.c</h3>
+  <ul>  <li>
+    <span class="rr-variable-type">void</span> InitEnemy<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> EnemyProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> CreateTeki<span class="rr-func-args">(Enemy*,CharMapData*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> HitCheck_Enemy<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> HitEnemy<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DeadCheckEnemy<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ControlEnemyMove<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> MoveShell1<span class="rr-func-args">(Enemy*,u8)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> MoveShell2<span class="rr-func-args">(Enemy*,u8)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellAttackMove<span class="rr-func-args">(Enemy*,u8)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DeadMove<span class="rr-func-args">(Enemy*,u8)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> LcdCheckEnemy<span class="rr-func-args">(Enemy*,Player*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellAnim<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellBaseAnim<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellAttackAnim<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellDamageAnim<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> ShellDeadAnim<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DrawEnemy<span class="rr-func-args">(OamData*,Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> EraseEnemy<span class="rr-func-args">(OamData*,Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitAwa<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> AwaProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> CreateAwa<span class="rr-func-args">(Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> AwaMove<span class="rr-func-args">(Awa*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DrawAwa<span class="rr-func-args">(OamData*,Awa*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitFukiya<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> FukiyaProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> CreateFukiya<span class="rr-func-args">(Fukiya*,Enemy*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> FukiyaMove<span class="rr-func-args">(Fukiya*)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DrawFukiya<span class="rr-func-args">(OamData*,Fukiya*)</span>
+  </li> 
+  </ul>
+  </div>
+  <div class="rr-file-stats">  </div>
+</div>
+    
 	</section>
 
 </main>
