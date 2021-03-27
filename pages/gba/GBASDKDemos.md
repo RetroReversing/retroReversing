@@ -289,6 +289,110 @@ rom_header | .s |
   </div>
   <div class="rr-file-stats">  <div class="rr-file-stat rr-file-stats-functions">?</div>  <div class="rr-file-stat rr-file-stats-variables">?</div>  <div class="rr-file-stat rr-file-stats-lines">?</div>  </div>
 </div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="main.c" />
+  <div><h3>main.c</h3>
+  <ul>  <li>
+    <span class="rr-variable-type">void</span> InitPlayer<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitEnemy<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> DrawAwa<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitBg<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> BgProc<span class="rr-func-args">(s32,s32)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> UpdateBg<span class="rr-func-args">(s32,s32)</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitRing<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> RingProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitTama<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> TamaProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> SmokeProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> InitPlayer_Awa<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> Player_AwaProc<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameInit<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameMain<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameOver<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> KeyRead<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> KeyDown<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> IntrDammy<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> VBlankIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> HBlankIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> VCountIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> intr_main<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> AgbMain<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> VBlankIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> HBlankIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> VCountIntr<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> IntrDammy<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> KeyRead<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameInit<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameMain<span class="rr-func-args">()</span>
+  </li> 
+  <li>
+    <span class="rr-variable-type">void</span> GameOver<span class="rr-func-args">()</span>
+  </li> 
+  </ul>
+  </div>
+  <div class="rr-file-stats">  <div class="rr-file-stat rr-file-stats-functions">?</div>  <div class="rr-file-stat rr-file-stats-variables">?</div>  <div class="rr-file-stat rr-file-stats-lines">?</div>  </div>
+</div>
     
 </section>
 
