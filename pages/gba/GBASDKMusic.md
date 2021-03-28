@@ -68,6 +68,7 @@ There are a number of files that are required in order to bring the M4A library 
 * m4aLibOD1.o
 * m4aLibUSC.o
 
+---
 # Reverse Engineering
 
 ## How can I tell if a game is using the M4A library?
@@ -78,7 +79,7 @@ If it matches any of the m4aLib functions then you know your game uses it.
 
 ## What are the main functions in the M4A Library
 You can view the main exports in the **mks4agbLib.h** header file below:
-<section class="rr-main-cards">
+<section class="rr-main-cards" style="justify-content: center">
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="mks4agbLib.h" />
