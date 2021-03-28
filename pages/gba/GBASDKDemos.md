@@ -32,6 +32,8 @@ There are some very interesting findings in this SDK, but this post will cover s
 If you look in the **src/demos** folder you will find two pretty cool GBA game source code projects. One is a Yoshi's Story example and the other is called Dolphin.
 
 # Dolphin
+Dolphin is a demo game for the Game Boy Advance with very strong similarities to the Ecco the Dolphin series. You control a Dolphin called Ricky and can move through the water and go through rings. It is simple but a very nice tech demo for the possibilities of the GBA hardware.
+
 This folder contains the main source code and build scripts required to compile the Dolphin example into a working GBA ROM.
 
 File Name | Extension | Description
@@ -312,24 +314,27 @@ The document is simply called **DemoProgramDolphin.doc**.
 
 ---
 ## Bg_parts (dolphin/bg_parts)
-This folder contains 
+This folder contains each part of the Background that makes up the game, in the original BMP format and the converted C source code equivalent and it's compiled object. 
+
+The BMP files are the only files of interest here as they would be fed to a tool that automatically converts it to a C-file (basically just encodes each byte of the BMP as an element of an array in C). The generated C files would then be compiled using the standard GBA toolchain compilers (GCC) and the object file (.o) would be created as the result.
+
+These object files would then be linked with the rest of the game code to generate the final ELF executable of the game, which would then be converted to a valid GBA ROM, whew!
 
 File Name | Extension | Description
 ---|---|---
-light4 | .bmp, .c, .o | 
-sango1024x256 | .bmp, .c, .o | 
-sora | .bmp, .c, .o | 
-umiA_ | .bmp | 
-umi_ab_256x512 | .bmp, .c, .o | 
-umia_ | .c, .o | 
-wave2nd1 | .bmp, .c, .o | 
-wave2nd2 | .bmp, .c, .o | 
-wave2nd3 | .bmp, .c, .o | 
+light4 | .bmp, .c, .o | A texture used to map on to Ricky when he is swimming under water to mimic underwater light
+sango1024x256 | .bmp, .c, .o | The Coral right at the bottom of the sea
+sora | .bmp, .c, .o | The sky image
+umiA_ | .bmp, .c, .o | water image
+umi_ab_256x512 | .bmp, .c, .o | Contains the water and sea floor
+wave2nd1 | .bmp, .c, .o | Wave image used for animating at the top of the water
+wave2nd2 | .bmp, .c, .o | Wave image used for animating at the top of the water
+wave2nd3 | .bmp, .c, .o | Wave image used for animating at the top of the water
 
 
 ---
-## Img (dolphin/img)
-This folder contains 
+## Images (dolphin/img)
+This folder contains all the sprite images used in the game.
 
 File Name | Extension | Description
 ---|---|---
