@@ -135,7 +135,7 @@
 /*   justify-content: center; */
   overflow-x: scroll;
   margin-left: -100px;
-/*   padding-left: 250px; */
+  padding-left: 10px;
 }
 
 * {
