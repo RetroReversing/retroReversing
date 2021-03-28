@@ -89,6 +89,14 @@
   color: #569BD5;
   min-width: 80px;
   max-width: 80px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* You can hover over the TYPE to show the full type name if it was too long */
+.rr-file-card li span:first-child:hover {
+    white-space: normal;
 }
 
 .rr-file-card li:hover {
