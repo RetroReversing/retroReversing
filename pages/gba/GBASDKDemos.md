@@ -375,7 +375,7 @@ This folder contains the generated output of all the image folder's BMP files. T
 
 ---
 # Yoshi (yoshi)
-This folder contains 
+This folder contains a demo game based on the Nintendo 64 title Yoshi's story, this was a very impressive example running on the GBA hardware.
 
 File Name | Extension | Description
 ---|---|---
@@ -409,6 +409,78 @@ yos_sound | .h |
 yos_type | .h | 
 yoshi | .bin, .elf, .map | 
 
+<div class="rr-source-code-title">Code Files</div>
+<section class="rr-main-cards">
+  
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="bg_proc.c" />
+  <div><h3>bg_proc.c</h3><ul>
+    <li><span>short[256]</span> tsin</li> 
+    <li><span>short[256]</span> tcos</li> 
+    <li><span>u8[4096]</span> Bg1_ScreenDat</li> 
+    <li><span>u16[1024]</span> Bg2_ScreenDat</li> 
+    <li><span>u16[1024]</span> Bg3_ScreenDat</li> 
+    <li><span>u8</span> Bg_Mode</li> 
+    <li><span>s32</span> prev_x</li> 
+    <li><span>s32</span> prev_y</li> 
+    <li><span>BgDat</span> Bg1</li> 
+    <li><span>BgDat</span> Bg2</li> 
+    <li><span>BgDat</span> Bg3</li> 
+    <li><span>s32</span> rot_center_x</li> 
+    <li><span>s32</span> rot_center_y</li> 
+    <li><span>vs32</span> bg2pa</li> 
+    <li><span>vs32</span> bg2pb</li> 
+    <li><span>vs32</span> bg2pc</li> 
+    <li><span>vs32</span> bg2pd</li> 
+    <li><span>vs32</span> bg2_center_x</li> 
+    <li><span>vs32</span> bg2_center_y</li> 
+    <li><span>vu32</span> scale_x</li> 
+    <li><span>vu32</span> scale_y</li> 
+    <li><span>vu16</span> rotate_value</li> 
+    <li><span>int</span> move_val_x</li> 
+    <li><span>int</span> move_val_y</li> 
+    <li><span>float</span> Bg1_Offset_X</li> 
+    <li><span>float</span> Bg1_Offset_Y</li> 
+    <li><span>float</span> Bg3_Offset_Y</li> 
+    <li><span>int</span> Counter</li> 
+    <li><span>u8</span> Biyoon_Count</li> 
+    <li><span>s32</span> Sa</li> 
+    <li><span>int</span> tileX</li> 
+    <li><span>int</span> tileY</li> 
+    <li><span>int</span> MapX</li> 
+    <li><span>int</span> MapY</li> 
+    <li><span>int</span> SoundSize</li> 
+    <li><span>void</span> bg_init<span class="rr-func-args">(s8)</span></li> 
+    <li><span>void</span> bg_init_first<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> bg_init_gameover<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> bg_init_dead<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> bg_modified<span class="rr-func-args">(s32,s32,s32)</span></li> 
+    <li><span>void</span> Bgmode1<span class="rr-func-args">(s32,s32,s32)</span></li> 
+    <li><span>void</span> siro_anm<span class="rr-func-args">(s16)</span></li> 
+    <li><span>void</span> Bgmode3<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Bg2_UpDown<span class="rr-func-args">(s32)</span></li> 
+    <li><span>void</span> SetBgTextControl<span class="rr-func-args">(vu16*,u16,u16,u16,u16,u16,u16)</span></li> 
+    <li><span>void</span> SetBgRotationControl<span class="rr-func-args">(vu16*,u16,u16,u16,u16,u16,u16,u16)</span></li> 
+    <li><span>void</span> SetDispControl<span class="rr-func-args">(vu16*,u16,u16,u16,u16,u16,u16,u16,u16,u16,u16,u16,u16,u16)</span></li> 
+    <li><span>void</span> InitBg1<span class="rr-func-args">()</span></li> 
+    <li><span>u8</span> InitBg1_Map<span class="rr-func-args">(u8,u8)</span></li> 
+    <li><span>void</span> BgUpdate<span class="rr-func-args">(s32,s32,s32)</span></li> 
+    <li><span>void</span> RightBg1<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> LeftBg1<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitBg2<span class="rr-func-args">()</span></li> 
+    <li><span>u16</span> InitBg2_Map<span class="rr-func-args">(u8,u8)</span></li> 
+    <li><span>void</span> RightBg2<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> LeftBg2<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitBg3<span class="rr-func-args">()</span></li> 
+    <li><span>u16</span> InitBg3_Map<span class="rr-func-args">(u8,u8)</span></li> 
+    <li><span>void</span> RightBg3<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> LeftBg3<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">25</div>    <div class="rr-file-stat rr-file-stats-variables">35</div>    <div class="rr-file-stat rr-file-stats-lines">990</div>  </div>
+</div>
+
+
+</section>
 
 ---
 ### Islebmp (yoshi/bmp/islebmp)
