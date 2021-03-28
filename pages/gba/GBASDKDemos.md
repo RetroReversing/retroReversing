@@ -20,6 +20,9 @@ videocarousel:
   - title: Yoshi Demo
     image: http://img.youtube.com/vi/M_7uK6fvF8A/hqdefault.jpg
     youtube: 'M_7uK6fvF8A'
+  - title: Dolphin Demo
+    image: http://img.youtube.com/vi/9dwOMPNvtfc/hqdefault.jpg
+    youtube: '9dwOMPNvtfc'
 recommend: 
 - sdk
 - gba
@@ -29,10 +32,14 @@ Version 3.0 of the Game Boy Advance Software Development Kit (SDK) was leaked on
 
 There are some very interesting findings in this SDK, but this post will cover something particularly interesting, the demo games developed by Nintendo to show off the power of the GBA to developers.
 
-If you look in the **src/demos** folder you will find two pretty cool GBA game source code projects. One is a Yoshi's Story example and the other is called Dolphin.
+If you look in the **src/demos** folder you will find two pretty cool GBA game source code projects. One is a **Yoshi's Story** example and the other is called **Dolphin** featuring Ricky the Dolphin!.
 
+---
 # Dolphin Demo
 Dolphin is a demo game for the Game Boy Advance with very strong similarities to the Ecco the Dolphin series. You control a Dolphin called Ricky and can move through the water and go through rings. It is simple but a very nice tech demo for the possibilities of the GBA hardware.
+
+You can see it in action in the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9dwOMPNvtfc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This folder contains the main source code and build scripts required to compile the Dolphin example into a working GBA ROM.
 
@@ -46,16 +53,16 @@ bg | .c, .h, .o | Code for drawing Background images, such as water and coral fl
 crt0 | .o, .s | Implements the start function and bootstraps the program, all GBA games need this as it sets up the interrupts and jumps to the main function
 dolphin | .bin, .elf, .map | The generated game in both ELF and .bin (GBA ROM) formats, along with the linker map file containing all the final locations of code inside the game
 dolphin_readme | .txt | A Brief introduction to the game and how to play it
-enemy | .c, .h, .o | 
-enemy_dat | .c, .o | 
-game_dat | .c, .o | 
-gdbrc | N/A | 
-hitcheck | .c, .h, .o | Collision detection logic
-main | .c, .h, .o | 
-player | .c, .h, .o | 
-player_dat | .c, .o | 
-ring | .c, .h, .o | 
-rom_header | .s | 
+enemy | .c, .h, .o | Main enemy logic such as drawing and hit detection
+enemy_dat | .c, .o | Enemy animation data (references images for each frame)
+game_dat | .c, .o | Just contains pre-computer sin and cos tables
+gdbrc | N/A | Configuration for the GNU debugger for debugging the game
+hitcheck | .c, .h, .o | Main collision detection logic
+main | .c, .h, .o | This contains the **AgbMain** function which starts the game along with the other main game logic
+player | .c, .h, .o | Main player logic such as drawing and moving
+player_dat | .c, .o | Just contains player animation data, references to each of the images used and the delay of each frame
+ring | .c, .h, .o | Contains all the logic for the rings, including drawing them and what happens when the dolphin moves through them
+rom_header | .s | Assembly code that implements the common GBA ROM reader required of all GBA ROMs
 
 <div class="rr-source-code-title">Code Files</div>
 <section class="rr-main-cards">
@@ -388,18 +395,23 @@ There is no point in listing these files as they are exactly the same as the BMP
 
 ---
 # Yoshi (yoshi)
-This folder contains a demo game based on the Nintendo 64 title Yoshi's story, this was a very impressive example running on the GBA hardware.
+This folder contains a demo game based on the Nintendo 64 title **Yoshi's story**, this was a very impressive example running on the GBA hardware.
+
+You can see it in action in the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ikG2TURwovc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+All the source code is here to build the example yourself and it makes an excellent project to learn how to reverse GBA games as you can see the original source code.
 
 File Name | Extension | Description
 ---|---|---
 Gasdepend | N/A | Lists dependencies for the GNU assembler to know when to reassemble crt0.s
 Makedepend | N/A | Lists dependencies to tell Make when to re-compile files
 Makefile | N/A | Main Makefile used to build the project
-Readme | .txt | 
-bg_proc | .c, .o | 
-crt0 | .o, .s | 
-etc_bmp | .h | 
-gdbrc | N/A | 
+Readme | .txt | Fairly detailed instructions for the game and how to build it
+bg_proc | .c, .o | Logic for drawing the background layers
+crt0 | .o, .s | Implements the start function and bootstraps the program, all GBA games need this as it sets up the interrupts and jumps to the main function
+etc_bmp | .h | Include file that just exports pointers to each of the bmp images
+gdbrc | N/A | Configuration for the GNU debugger for debugging the game
 isle_bmp | .h | 
 ldscript | .x | 
 menu | .c, .o | 
@@ -407,7 +419,7 @@ menu_bmp | .h |
 menu_dat | .c, .h, .o | 
 oam_proc | .c, .h, .o | 
 reverbpatch | .o | 
-rom_header | .s | 
+rom_header | .s | Assembly code that implements the common GBA ROM reader required of all GBA ROMs
 soundpatch | .o | 
 yos_anm | .c, .h, .o | 
 yos_bmp | .h | 
@@ -420,7 +432,9 @@ yos_main | .c, .ext, .h, .o |
 yos_main_dat | .c, .h, .o | 
 yos_sound | .h | 
 yos_type | .h | 
-yoshi | .bin, .elf, .map | 
+yoshi | .bin, .elf, .map | The main game executable in ELF format and the converted GBA rom file (.bin) along with the symbol MAP which shows where the code is inside the game
+
+It is worth reasing the **Readme.txt** file in this directory, most of the time Readmes are not that interesting but in this case you would be worse off not reading it. It provides an excellent overview of what the demo is showcasing and how it all works.
 
 <div class="rr-source-code-title">Code Files</div>
 <section class="rr-main-cards">
