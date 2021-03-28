@@ -64,7 +64,7 @@ This assembly file can then be modified if required and assembled with the GNU A
 There are a number of files that are required in order to bring the M4A library into your Game Boy Advance project, they are:
 * MusicPlayDef.s
 * mks4agbLib.o
-* mks4agbLib.h
+* mks4agbLib.h - header file for the main library functions available in **mks4agbLib.o**
 * m4aLibOD1.o
 * m4aLibUSC.o
 
@@ -75,3 +75,48 @@ If you use radare2 or IDA pro you can run these FLAIR signatures on your game to
 [laqieer/gba_lib_func_sig: Game Boy Advance Library Function Signature for Reverse Engineering](https://github.com/laqieer/gba_lib_func_sig)
 
 If it matches any of the m4aLib functions then you know your game uses it.
+
+## What are the main functions in the M4A Library
+You can view the main exports in the **mks4agbLib.h** header file below:
+<section class="rr-main-cards">
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="mks4agbLib.h" />
+  <div><h3>mks4agbLib.h</h3><ul>
+    <li><span>u8 const[]</span> __sound_mode_i</li> 
+    <li><span>u8 const[]</span> __total_mplay_n</li> 
+    <li><span>u8 const[]</span> __total_song_n</li> 
+    <li><span>SoundArea</span> m4a_sound</li> 
+    <li><span>MPlayTable const[]</span> mplay_table</li> 
+    <li><span>SongTable const[]</span> song_table</li> 
+    <li><span>u8[]</span> m4a_memacc_area</li> 
+    <li><span>void</span> m4aSoundInit<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> SoundMode_rev01<span class="rr-func-args">(u32)</span></li> 
+    <li><span>void</span> m4aSoundMain<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> SoundVSync_rev01<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> SoundVSyncOff_rev01<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> SoundVSyncOn_rev01<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> MPlayStart_rev01<span class="rr-func-args">(MusicPlayerArea*,SongHeader*)</span></li> 
+    <li><span>void</span> m4aSongNumStart<span class="rr-func-args">(u16)</span></li> 
+    <li><span>void</span> m4aSongNumStartOrChange<span class="rr-func-args">(u16)</span></li> 
+    <li><span>void</span> m4aSongNumStartOrContinue<span class="rr-func-args">(u16)</span></li> 
+    <li><span>void</span> m4aMPlayImmInit<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
+    <li><span>void</span> MPlayStop_rev01<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
+    <li><span>void</span> m4aSongNumStop<span class="rr-func-args">(u16)</span></li> 
+    <li><span>void</span> m4aMPlayAllStop<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> m4aMPlayContinue<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
+    <li><span>void</span> m4aSongNumContinue<span class="rr-func-args">(u16)</span></li> 
+    <li><span>void</span> m4aMPlayAllContinue<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> m4aMPlayFadeOut<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
+    <li><span>void</span> MPlayTempoControl<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
+    <li><span>void</span> MPlayVolumeControl<span class="rr-func-args">(MusicPlayerArea*,u16,u16)</span></li> 
+    <li><span>void</span> MPlayPitchControl<span class="rr-func-args">(MusicPlayerArea*,u16,s16)</span></li> 
+    <li><span>void</span> MPlayPanpotControl<span class="rr-func-args">(MusicPlayerArea*,u16,s8)</span></li> 
+    <li><span>void</span> MPlayModDepthSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
+    <li><span>void</span> MPlayLFOSpeedSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">24</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">125</div>  </div>
+</div>
+
+
+</section>
