@@ -83,6 +83,9 @@
   height: 200px;
   max-width: 245px;
   margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .rr-file-card li {
