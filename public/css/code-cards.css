@@ -81,11 +81,14 @@
   transition: 0.4s ease;
   margin-bottom: 5px;
   text-align: left;
+  display: flex;
 }
 
 /* First child is the TYPE of the variable/function */
 .rr-file-card li span:first-child {
   color: #569BD5;
+  min-width: 80px;
+  max-width: 80px;
 }
 
 .rr-file-card li:hover {
