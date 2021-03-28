@@ -120,10 +120,10 @@
   grid-gap: 15px;
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(4, auto);
-  justify-content: center;
+/*   justify-content: center; */
   overflow-x: scroll;
   margin-left: -100px;
-  padding-left: 250px;
+/*   padding-left: 250px; */
 }
 
 * {
