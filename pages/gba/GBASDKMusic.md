@@ -83,7 +83,7 @@ You can view the main exports in the **mks4agbLib.h** header file below:
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="mks4agbLib.h" />
-  <div><h3>mks4agbLib.h</h3><ul style="width:350px">
+  <h3>mks4agbLib.h</h3><ul style="width:350px">
     <li><span>u8 const[]</span> __sound_mode_i</li> 
     <li><span>u8 const[]</span> __total_mplay_n</li> 
     <li><span>u8 const[]</span> __total_song_n</li> 
@@ -115,7 +115,7 @@ You can view the main exports in the **mks4agbLib.h** header file below:
     <li><span>void</span> MPlayPanpotControl<span class="rr-func-args">(MusicPlayerArea*,u16,s8)</span></li> 
     <li><span>void</span> MPlayModDepthSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
     <li><span>void</span> MPlayLFOSpeedSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">24</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">125</div>  </div>
 </div>
 
