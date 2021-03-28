@@ -3,17 +3,13 @@
   justify-content: space-evenly;
 }
 
-.rr-variable-type, .rr-type, .rr-file-card li:first-child {
-  color: #569BD5;
-}
-
 .rr-source-code-title {
   text-align: center;
   margin-top: 20px;
   font: 200 48px "Poppins", sans-serif;
 }
 
-.rr-func-args {
+.rr-func-args, .rr-file-card li::nth-child(3) {
   color: #4eb9c0;
   text-overflow: ellipsis;
   max-width: 100px;
@@ -76,12 +72,18 @@
   overflow-y: scroll;
   height: 200px;
 }
+
 .rr-file-card li {
   color: darkblue;
   cursor: pointer;
   transition: 0.4s ease;
   margin-bottom: 5px;
   text-align: left;
+}
+
+/* First child is the TYPE of the variable/function */
+.rr-file-card li:first-child {
+  color: #569BD5;
 }
 
 .rr-file-card li:hover {
