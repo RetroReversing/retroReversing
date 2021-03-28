@@ -43,14 +43,14 @@ Gasdepend | N/A | Lists dependencies for the GNU assembler to know when to reass
 Makedepend | N/A | Lists dependencies to tell Make when to re-compile files
 Makefile | N/A | Main Makefile used to build the project
 bg | .c, .h, .o | Code for drawing Background images, such as water and coral floor
-crt0 | .o, .s | 
-dolphin | .bin, .elf, .map | 
-dolphin_readme | .txt | 
+crt0 | .o, .s | Implements the start function and bootstraps the program, all GBA games need this as it sets up the interrupts and jumps to the main function
+dolphin | .bin, .elf, .map | The generated game in both ELF and .bin (GBA ROM) formats, along with the linker map file containing all the final locations of code inside the game
+dolphin_readme | .txt | A Brief introduction to the game and how to play it
 enemy | .c, .h, .o | 
 enemy_dat | .c, .o | 
 game_dat | .c, .o | 
 gdbrc | N/A | 
-hitcheck | .c, .h, .o | 
+hitcheck | .c, .h, .o | Collision detection logic
 main | .c, .h, .o | 
 player | .c, .h, .o | 
 player_dat | .c, .o | 
@@ -345,7 +345,7 @@ ring_32_64_right | .bmp | right sprite of the ring
 
 ---
 #### Oumgai sprites (dolphin/img/Oumgai)
-In the Oumgai folder we have tons of animation framesfor a sea creature presumably called **Oumgai**. These are all in BMP but the resulting .c and .o files are in the **dolphin/Obj** folder.
+In the Oumgai folder we have tons of animation framesfor a sea creature known as nautilus in English and **Oumgai** in Japanese. These are all in BMP but the resulting .c and .o files are in the **dolphin/Obj** folder.
 
 File Name | Extension | Description
 ---|---|---
