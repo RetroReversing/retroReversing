@@ -27,6 +27,7 @@ recommend:
 - sdk
 - gba
 editlink: /gba/GBASDKDemos.md
+updatedAt: '2021-03-28'
 ---
 Version 3.0 of the Game Boy Advance Software Development Kit (SDK) was leaked on to the internet for everyone to enjoy.
 
