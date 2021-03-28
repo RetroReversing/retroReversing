@@ -412,26 +412,26 @@ bg_proc | .c, .o | Logic for drawing the background layers
 crt0 | .o, .s | Implements the start function and bootstraps the program, all GBA games need this as it sets up the interrupts and jumps to the main function
 etc_bmp | .h | Include file that just exports pointers to each of the bmp images
 gdbrc | N/A | Configuration for the GNU debugger for debugging the game
-isle_bmp | .h | 
-ldscript | .x | 
+isle_bmp | .h | Include file for declaring pointers to every image of the rotating island sprite
+ldscript | .x | Ld script that tells the Linker where to place data in the resulting ELF
 menu | .c, .o | 
-menu_bmp | .h | 
+menu_bmp | .h | Include file for declaring pointers to every image of the menu
 menu_dat | .c, .h, .o | 
 oam_proc | .c, .h, .o | 
 reverbpatch | .o | 
 rom_header | .s | Assembly code that implements the common GBA ROM reader required of all GBA ROMs
 soundpatch | .o | 
 yos_anm | .c, .h, .o | 
-yos_bmp | .h | 
+yos_bmp | .h | Include file for declaring pointers to every image of the main game sprites
 yos_game | .c, .ext, .h, .o | 
 yos_game_dat | .c, .h, .o | 
 yos_game_mov | .c, .h, .o | 
 yos_game_pr | .c, .h, .o | 
 yos_game_sub | .c, .h, .o | 
 yos_main | .c, .ext, .h, .o | 
-yos_main_dat | .c, .h, .o | 
-yos_sound | .h | 
-yos_type | .h | 
+yos_main_dat | .c, .h, .o | Just contains pre-generated sin/cos tables
+yos_sound | .h | Include file for declaring a few preprocessor macros used for sound effects
+yos_type | .h | Include file for declaring a few custom coordinate types such as **xyPos_tag**
 yoshi | .bin, .elf, .map | The main game executable in ELF format and the converted GBA rom file (.bin) along with the symbol MAP which shows where the code is inside the game
 
 It is worth reasing the **Readme.txt** file in this directory, most of the time Readmes are not that interesting but in this case you would be worse off not reading it. It provides an excellent overview of what the demo is showcasing and how it all works.
