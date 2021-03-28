@@ -479,6 +479,34 @@ yoshi | .bin, .elf, .map |
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">25</div>    <div class="rr-file-stat rr-file-stats-variables">35</div>    <div class="rr-file-stat rr-file-stats-lines">990</div>  </div>
 </div>
 
+<div class="rr-file-card">
+  <img class="geopattern" data-title="menu_dat.c" />
+  <div><h3>menu_dat.c</h3><ul>
+    <li><span>u16 const[256]</span> p0_yoshi_island_Palette</li> 
+    <li><span>u8 const*[60]</span> p0_isle_tbl</li> 
+    <li><span>u8 const[60]</span> p0_size_tbl</li> 
+    <li><span>u8 const*[60]</span> p0_map_tbl</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">183</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="menu.c" />
+  <div><h3>menu.c</h3><ul>
+    <li><span>s16</span> p0_isle_frm</li> 
+    <li><span>s16</span> p0_count</li> 
+    <li><span>s16[228]</span> p0_h_org_b</li> 
+    <li><span>s16[228]</span> p0_h_tmp_b</li> 
+    <li><span>s16[256][4]</span> p0_h_bg2p</li> 
+    <li><span>u8[1024]</span> p0_BgBak</li> 
+    <li><span>s32</span> p0_hsy_org</li> 
+    <li><span>void</span> p0_set_umi_sora<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> proc_0<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p0_VIntrFunc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p0_VCountIntr<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">390</div>  </div>
+</div>
 
 </section>
 
