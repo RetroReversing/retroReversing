@@ -334,90 +334,25 @@ wave2nd3 | .bmp, .c, .o | Wave image used for animating at the top of the water
 
 ---
 ## Images (dolphin/img)
-This folder contains all the sprite images used in the game.
+This folder contains all the sprite images used in the game. In the foot folder we have a few Misc sprites such as a buddle and the ring sprites, most of the other sprites are in the Oumgai and Ricky folders.
 
 File Name | Extension | Description
 ---|---|---
 awa | .bmp | Bubble sprite
 ring_32_64_left | .bmp | left sprite of the ring
 ring_32_64_right | .bmp | right sprite of the ring
+
+
+---
+#### Oumgai sprites (dolphin/img/Oumgai)
+In the Oumgai folder we have tons of animation framesfor a sea creature presumably called **Oumgai**. These are all in BMP but the resulting .c and .o files are in the **dolphin/Obj** folder.
+
+File Name | Extension | Description
+---|---|---
 /Oumgai/O_fukiya | .bmp | A pink japanese Blowgun?!
-
----
-#### O_kihon (dolphin/img/Oumgai/O_kihon)
-This folder contains animation frames for a sea creature presumably called **Oumgai**.
-
-File Name | Extension | Description
----|---|---
-O_kihon001 | .bmp | 
-O_kihon002 | .bmp | 
-O_kihon003 | .bmp | 
-O_kihon004 | .bmp | 
-O_kihon005 | .bmp | 
-O_kihon006 | .bmp | 
-O_kihon007 | .bmp | 
-O_kihon008 | .bmp | 
-O_kihon009 | .bmp | 
-O_kihon010 | .bmp | 
-
-
----
-#### O_kougeki (dolphin/img/Oumgai/O_kougeki)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-O_kougeki000 | .bmp | 
-O_kougeki001 | .bmp | 
-O_kougeki002 | .bmp | 
-O_kougeki003 | .bmp | 
-O_kougeki004 | .bmp | 
-O_kougeki005 | .bmp | 
-O_kougeki006 | .bmp | 
-O_kougeki007 | .bmp | 
-O_kougeki008 | .bmp | 
-O_kougeki009 | .bmp | 
-O_kougeki010 | .bmp | 
-O_kougeki011 | .bmp | 
-O_kougeki012 | .bmp | 
-O_kougeki013 | .bmp | 
-O_kougeki014 | .bmp | 
-O_kougeki015 | .bmp | 
-O_kougeki016 | .bmp | 
-O_kougeki017 | .bmp | 
-O_kougeki018 | .bmp | 
-O_kougeki019 | .bmp | 
-O_kougeki020 | .bmp | 
-
-
----
-#### O_yarare (dolphin/img/Oumgai/O_yarare)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-O_yarare000 | .bmp | 
-O_yarare001 | .bmp | 
-O_yarare002 | .bmp | 
-O_yarare003 | .bmp | 
-O_yarare004 | .bmp | 
-O_yarare005 | .bmp | 
-O_yarare006 | .bmp | 
-O_yarare007 | .bmp | 
-O_yarare008 | .bmp | 
-O_yarare009 | .bmp | 
-O_yarare010 | .bmp | 
-O_yarare011 | .bmp | 
-O_yarare012 | .bmp | 
-O_yarare013 | .bmp | 
-O_yarare014 | .bmp | 
-O_yarare015 | .bmp | 
-O_yarare016 | .bmp | 
-O_yarare017 | .bmp | 
-O_yarare018 | .bmp | 
-O_yarare019 | .bmp | 
-O_yarare020 | .bmp | 
-
+/Oumgai/O_kihon/O_kihon00(0-10) | .bmp | Normal animation frames
+/Oumgai/O_kougeki/O_kougeki000(0-20) | .bmp | Animation frames of movement
+/Oumgai/O_yarare/O_yarare0(0-20) | .bmp | Animation frames of movement
 
 ---
 #### Ricky sprites (dolphin/img/Ricky)
@@ -436,127 +371,7 @@ File Name | Extension | Description
 
 ---
 ## Obj (dolphin/obj)
-This folder contains the generated output of the image folder's BMP files for Ricky and Oumgai.
-
-File Name | Extension | Description
----|---|---
-awa | .c, .o | 
-o_fukiya000 | .c, .o | 
-o_kihon001 | .c, .o | 
-o_kihon002 | .c, .o | 
-o_kihon003 | .c, .o | 
-o_kihon004 | .c, .o | 
-o_kihon005 | .c, .o | 
-o_kihon006 | .c, .o | 
-o_kihon007 | .c, .o | 
-o_kihon008 | .c, .o | 
-o_kihon009 | .c, .o | 
-o_kihon010 | .c, .o | 
-o_kougeki000 | .c, .o | 
-o_kougeki001 | .c, .o | 
-o_kougeki002 | .c, .o | 
-o_kougeki003 | .c, .o | 
-o_kougeki004 | .c, .o | 
-o_kougeki005 | .c, .o | 
-o_kougeki006 | .c, .o | 
-o_kougeki007 | .c, .o | 
-o_kougeki008 | .c, .o | 
-o_kougeki009 | .c, .o | 
-o_kougeki010 | .c, .o | 
-o_kougeki011 | .c, .o | 
-o_kougeki012 | .c, .o | 
-o_kougeki013 | .c, .o | 
-o_kougeki014 | .c, .o | 
-o_kougeki015 | .c, .o | 
-o_kougeki016 | .c, .o | 
-o_kougeki017 | .c, .o | 
-o_kougeki018 | .c, .o | 
-o_kougeki019 | .c, .o | 
-o_kougeki020 | .c, .o | 
-o_yarare000 | .c, .o | 
-o_yarare001 | .c, .o | 
-o_yarare002 | .c, .o | 
-o_yarare003 | .c, .o | 
-o_yarare004 | .c, .o | 
-o_yarare005 | .c, .o | 
-o_yarare006 | .c, .o | 
-o_yarare007 | .c, .o | 
-o_yarare008 | .c, .o | 
-o_yarare009 | .c, .o | 
-o_yarare010 | .c, .o | 
-o_yarare011 | .c, .o | 
-o_yarare012 | .c, .o | 
-o_yarare013 | .c, .o | 
-o_yarare014 | .c, .o | 
-o_yarare015 | .c, .o | 
-o_yarare016 | .c, .o | 
-o_yarare017 | .c, .o | 
-o_yarare018 | .c, .o | 
-o_yarare019 | .c, .o | 
-o_yarare020 | .c, .o | 
-r_attack1 | .c, .o | 
-r_attack2 | .c, .o | 
-r_attack3 | .c, .o | 
-r_attack4 | .c, .o | 
-r_attack5 | .c, .o | 
-r_attack6 | .c, .o | 
-r_attack7 | .c, .o | 
-r_down0 | .c, .o | 
-r_down1 | .c, .o | 
-r_down2 | .c, .o | 
-r_down3 | .c, .o | 
-r_down4 | .c, .o | 
-r_down5 | .c, .o | 
-r_down6 | .c, .o | 
-r_down7 | .c, .o | 
-r_down8 | .c, .o | 
-r_go_down0 | .c, .o | 
-r_go_down1 | .c, .o | 
-r_go_down2 | .c, .o | 
-r_go_down3 | .c, .o | 
-r_go_down4 | .c, .o | 
-r_go_down5 | .c, .o | 
-r_go_down6 | .c, .o | 
-r_go_down7 | .c, .o | 
-r_go_up0 | .c, .o | 
-r_go_up1 | .c, .o | 
-r_go_up2 | .c, .o | 
-r_go_up3 | .c, .o | 
-r_go_up4 | .c, .o | 
-r_go_up5 | .c, .o | 
-r_go_up6 | .c, .o | 
-r_go_up7 | .c, .o | 
-r_jump0 | .c, .o | 
-r_jump1 | .c, .o | 
-r_jump10 | .c, .o | 
-r_jump2 | .c, .o | 
-r_jump3 | .c, .o | 
-r_jump4 | .c, .o | 
-r_jump5 | .c, .o | 
-r_jump6 | .c, .o | 
-r_jump7 | .c, .o | 
-r_jump8 | .c, .o | 
-r_jump9 | .c, .o | 
-r_kihon0 | .c, .o | 
-r_kihon1 | .c, .o | 
-r_kihon2 | .c, .o | 
-r_kihon3 | .c, .o | 
-r_kihon4 | .c, .o | 
-r_kihon5 | .c, .o | 
-r_kihon6 | .c, .o | 
-r_kihon7 | .c, .o | 
-r_up0 | .c, .o | 
-r_up1 | .c, .o | 
-r_up2 | .c, .o | 
-r_up3 | .c, .o | 
-r_up4 | .c, .o | 
-r_up5 | .c, .o | 
-r_up6 | .c, .o | 
-r_up7 | .c, .o | 
-r_up8 | .c, .o | 
-ring_32_64_left | .c, .o | 
-ring_32_64_right | .c, .o | 
-
+This folder contains the generated output of all the image folder's BMP files. These were generated by a tool and then compiled from .c to .o in order to be linked into the final game. There is no point in listing these files as they are exactly the same as the BMP files listed in the IMG folder.
 
 ---
 # Yoshi (yoshi)
