@@ -3,7 +3,7 @@
   justify-content: space-evenly;
 }
 
-.rr-variable-type {
+.rr-variable-type, .rr-type, .rr-file-card li:first-child {
   color: #569BD5;
 }
 
@@ -83,6 +83,7 @@
   margin-bottom: 5px;
   text-align: left;
 }
+
 .rr-file-card li:hover {
   background-color: rgba(1, 1, 1, 0.05);
 }
