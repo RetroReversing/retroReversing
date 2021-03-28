@@ -82,6 +82,11 @@ It is aimed at programmers directly and allowed standard debugging features such
 </div>
 </section>
 
+### Prototype NPDP-GDEV
+Developer Jeff managed to find an extremely rare prototype **NPDP-GDEV** which would only have been sent to a select few developers in the early stages of the Gamecube. 
+It did not run at full speed initially, but this unit was upgrades to run at full Gamecube speed later down the line.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">So heres a bit better quality image of the elusive Nintendo Gamecube GDEV Prototype &quot;Beta Release&quot; With Beta ODEM &amp; Beta USB Adapter Module. <br><br>If you have any questions, thoughts, or conerns please drop them below.!<br><br>Thanks and all the best. <br>-Jeff <a href="https://t.co/oGPiGzIadZ">pic.twitter.com/oGPiGzIadZ</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1375587099295023104?ref_src=twsrc%5Etfw">March 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### NPDP-ODEM PCI card - Optical Disk Emulation via PC
 <section class="postSection">
 <img src="/public/images/gc/Gamecube NPDP-ODEM PCI card.jpg" class="wow slideInLeft postImage" />
