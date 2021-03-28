@@ -1122,12 +1122,16 @@ toge | .bmp, .o |
 
 ---
 ## Sound (yoshi/sound)
-This folder contains 
+Just as the name might imply this folder contains the sounds used in the demo, it seems to use a library called **m4alib** which we don't know anything about.
+
+This folder only contains the pre-compiled object files, presumably these have been converted from a sound format and compiled into these for easy linking with the rest of the game. 
+
+Sadly the original sound files don't seem to exist.
 
 File Name | Extension | Description
 ---|---|---
 SoundDat | .o | 
-Soundfiles | N/A | 
+Soundfiles | N/A | List of all sound object files to link to the game, used by the Makefile
 bm_atri | .o | 
 c_gaonn | .o | 
 e_derup | .o | 
