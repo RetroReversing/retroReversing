@@ -70,7 +70,7 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 		
 <div class="rr-file-card">
   <img class="geopattern" data-title="bg.c" />
-  <div><h3>bg.c</h3><ul>
+  <h3>bg.c</h3><ul>
     <li><span>BgAnmPat[4]</span> wave2nd_pat</li> 
     <li><span>Bg</span> Light</li> 
     <li><span>Bg</span> Coral</li> 
@@ -121,13 +121,13 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>void</span> DeleteOceanB<span class="rr-func-args">(s32,s32)</span></li> 
     <li><span>void</span> OceanB_Up<span class="rr-func-args">()</span></li> 
     <li><span>void</span> OceanB_Down<span class="rr-func-args">()</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">36</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">790</div>  </div>
 </div>
     
 <div class="rr-file-card">
   <img class="geopattern" data-title="enemy.c" />
-  <div><h3>enemy.c</h3><ul>
+  <h3>enemy.c</h3><ul>
     <li><span>Enemy[10]</span> dEnemy</li> 
     <li><span>Awa[16]</span> awa</li> 
     <li><span>Fukiya[4]</span> fukiya</li> 
@@ -165,13 +165,13 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>void</span> CreateFukiya<span class="rr-func-args">(Fukiya*,Enemy*)</span></li> 
     <li><span>void</span> FukiyaMove<span class="rr-func-args">(Fukiya*)</span></li> 
     <li><span>void</span> DrawFukiya<span class="rr-func-args">(OamData*,Fukiya*)</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">29</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">733</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="enemy_dat.c" />
-  <div><h3>enemy_dat.c</h3><ul>
+  <h3>enemy_dat.c</h3><ul>
     <li><span>u8 const*[10]</span> shell_base_pix_tbl</li> 
     <li><span>Anmpat[10]</span> shell_base_anm_pat</li> 
     <li><span>u8 const*[21]</span> shell_attack_pix_tbl</li> 
@@ -180,36 +180,36 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>Anmpat[21]</span> shell_yarare_anm_pat</li> 
     <li><span>CharMapData[12]</span> shell_map_dat</li> 
     <li><span>Enemy_Oam_Data[10]</span> enemy_Oam_Data</li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">143</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="game_dat.c" />
-  <div><h3>game_dat.c</h3><ul>
+  <h3>game_dat.c</h3><ul>
     <li><span>u32 const[1][2]</span> Oam_16x8dot</li> 
     <li><span>u32 const[1][2]</span> OamData_Sample</li> 
     <li><span>short[256]</span> sin_tbl</li> 
     <li><span>short[256]</span> cos_tbl</li> 
     <li><span>u8[256]</span> sintable</li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">112</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="hitcheck.c" />
-  <div><h3>hitcheck.c</h3><ul>
+  <h3>hitcheck.c</h3><ul>
     <li><span>void</span> Fukiya2Dolphin<span class="rr-func-args">(Player*,Fukiya*)</span></li> 
     <li><span>void</span> Dolphin2Enemy<span class="rr-func-args">(Player*,Enemy*)</span></li> 
     <li><span>void</span> Ring2Dolphin<span class="rr-func-args">(Ring*,Player*)</span></li> 
     <li><span>u8</span> RingPass<span class="rr-func-args">(Ring*,Player*)</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">201</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="main.c" />
-  <div><h3>main.c</h3><ul>
+  <h3>main.c</h3><ul>
     <li><span>vu16</span> IntrCheck</li> 
     <li><span>u16</span> Cont</li> 
     <li><span>u16</span> Trg</li> 
@@ -233,13 +233,13 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>void</span> GameInit<span class="rr-func-args">()</span></li> 
     <li><span>void</span> GameMain<span class="rr-func-args">()</span></li> 
     <li><span>void</span> GameOver<span class="rr-func-args">()</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">325</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="player_dat.c" />
-  <div><h3>player_dat.c</h3><ul>
+  <h3>player_dat.c</h3><ul>
     <li><span>u8 const*[6]</span> r_kihon_pixel_tbl</li> 
     <li><span>u8 const*[8]</span> r_kihon_idle_pixel_tbl</li> 
     <li><span>u8 const*[6]</span> r_attack_pixel_tbl</li> 
@@ -252,13 +252,13 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>AnmTable[6]</span> rick_attack_pat</li> 
     <li><span>AnmTable[11]</span> rick_kihon_fast_pat</li> 
     <li><span>AnmTable[25]</span> rick_jump_pat</li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">12</div>    <div class="rr-file-stat rr-file-stats-lines">270</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="player.c" />
-  <div><h3>player.c</h3><ul>
+  <h3>player.c</h3><ul>
     <li><span>Player</span> player</li> 
     <li><span>Player_Awa[4]</span> player_awa</li> 
     <li><span>void</span> InitPlayer<span class="rr-func-args">()</span></li> 
@@ -289,13 +289,13 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>void</span> CreatePlayer_Awa<span class="rr-func-args">(Player_Awa*,Player*)</span></li> 
     <li><span>void</span> Player_AwaMove<span class="rr-func-args">(Player_Awa*,Player*)</span></li> 
     <li><span>void</span> DrawPlayer_Awa<span class="rr-func-args">(OamData*,Player_Awa*)</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">28</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">852</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="ring.c" />
-  <div><h3>ring.c</h3><ul>
+  <h3>ring.c</h3><ul>
     <li><span>Ring[20]</span> ring</li> 
     <li><span>RingMapData[30]</span> ring_map_dat</li> 
     <li><span>u32 const[1][2]</span> Oam_32x64dot</li> 
@@ -307,7 +307,7 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
     <li><span>void</span> RingNormal<span class="rr-func-args">(Ring*,u8)</span></li> 
     <li><span>void</span> RingPassed<span class="rr-func-args">(Ring*,u8)</span></li> 
     <li><span>void</span> RingHit<span class="rr-func-args">(Ring*,u8)</span></li> 
-  </ul></div>
+  </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">260</div>  </div>
 </div>
     
