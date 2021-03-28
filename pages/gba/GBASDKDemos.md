@@ -57,237 +57,117 @@ rom_header | .s |
 
 <div class="rr-source-code-title">Code Files</div>
 <section class="rr-main-cards">
-		<div class="rr-file-card">
-			<img class="geopattern" data-title="bg.c" />
-			<div>
-				<h3>bg.c</h3>
-				<ul>
-					<li>
-						<span class="rr-variable-type">void</span> initwave2nd<span class="rr-func-args">(BgAnm*)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> Anm_wave2nd<span class="rr-func-args">(BgAnm*)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitBg<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> BgProc<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> Change_Bg_VRAM<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> UpdateBg<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitSky<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> Init_Sky_ScreenDat<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DrawSky<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DeleteSky<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> SoraRight<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> SoraLeft<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitCoral<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitCoralScreenDat<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DrawCoral<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DeleteCoral<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> CoralRight<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> CoralLeft<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> CoralUpDown<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitLight<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitLightScreenDat<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DrawLight<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DeleteLight<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitOceanA<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitOceanAScreenDat<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> OceanA_Idle<span class="rr-func-args">(Bg*,s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DrawOceanA<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DeleteOceanA<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> OceanA_Up<span class="rr-func-args">(Bg*)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> OceanA_Down<span class="rr-func-args">(Bg*)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitOceanB<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> InitOceanBScreenDat<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DrawOceanB<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> DeleteOceanB<span class="rr-func-args">(s32,s32)</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> OceanB_Up<span class="rr-func-args">()</span>
-					</li>
-					<li>
-						<span class="rr-variable-type">void</span> OceanB_Down<span class="rr-func-args">()</span>
-					</li>
-				</ul>
-			</div>
-			<div class="rr-file-stats"> </div>
-		</div>
+		
+<div class="rr-file-card">
+  <img class="geopattern" data-title="bg.c" />
+  <div><h3>bg.c</h3><ul>
+    <li><span>BgAnmPat[4]</span> wave2nd_pat</li> 
+    <li><span>Bg</span> Light</li> 
+    <li><span>Bg</span> Coral</li> 
+    <li><span>Bg</span> OceanA</li> 
+    <li><span>Bg</span> OceanB</li> 
+    <li><span>Bg</span> Sky</li> 
+    <li><span>u16[1024]</span> UmiA_ScreenDat</li> 
+    <li><span>u16[1024]</span> Bg2_ScreenDat</li> 
+    <li><span>u16[1024]</span> Sky_ScreenDat</li> 
+    <li><span>u16[1024]</span> Sango_ScreenDat</li> 
+    <li><span>s32</span> ocean_xPos</li> 
+    <li><span>s32</span> sora_xPos</li> 
+    <li><span>u8</span> DisplayArea</li> 
+    <li><span>BgAnm</span> wave2nd</li> 
+    <li><span>void</span> initwave2nd<span class="rr-func-args">(BgAnm*)</span></li> 
+    <li><span>void</span> Anm_wave2nd<span class="rr-func-args">(BgAnm*)</span></li> 
+    <li><span>void</span> InitBg<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> BgProc<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> Change_Bg_VRAM<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> UpdateBg<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> InitSky<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Init_Sky_ScreenDat<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> DrawSky<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> DeleteSky<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> SoraRight<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> SoraLeft<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitCoral<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitCoralScreenDat<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> DrawCoral<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> DeleteCoral<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> CoralRight<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CoralLeft<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CoralUpDown<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitLight<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitLightScreenDat<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> DrawLight<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> DeleteLight<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> InitOceanA<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitOceanAScreenDat<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> OceanA_Idle<span class="rr-func-args">(Bg*,s32,s32)</span></li> 
+    <li><span>void</span> DrawOceanA<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> DeleteOceanA<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> OceanA_Up<span class="rr-func-args">(Bg*)</span></li> 
+    <li><span>void</span> OceanA_Down<span class="rr-func-args">(Bg*)</span></li> 
+    <li><span>void</span> InitOceanB<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitOceanBScreenDat<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> DrawOceanB<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> DeleteOceanB<span class="rr-func-args">(s32,s32)</span></li> 
+    <li><span>void</span> OceanB_Up<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> OceanB_Down<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">36</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">790</div>  </div>
+</div>
     
 <div class="rr-file-card">
   <img class="geopattern" data-title="enemy.c" />
-  <div><h3>enemy.c</h3>
-  <ul>  <li>
-    <span class="rr-variable-type">void</span> InitEnemy<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> EnemyProc<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> CreateTeki<span class="rr-func-args">(Enemy*,CharMapData*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> HitCheck_Enemy<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> HitEnemy<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> DeadCheckEnemy<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ControlEnemyMove<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> MoveShell1<span class="rr-func-args">(Enemy*,u8)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> MoveShell2<span class="rr-func-args">(Enemy*,u8)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellAttackMove<span class="rr-func-args">(Enemy*,u8)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> DeadMove<span class="rr-func-args">(Enemy*,u8)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> LcdCheckEnemy<span class="rr-func-args">(Enemy*,Player*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellAnim<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellBaseAnim<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellAttackAnim<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellDamageAnim<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> ShellDeadAnim<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> DrawEnemy<span class="rr-func-args">(OamData*,Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> EraseEnemy<span class="rr-func-args">(OamData*,Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> InitAwa<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> AwaProc<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> CreateAwa<span class="rr-func-args">(Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> AwaMove<span class="rr-func-args">(Awa*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> DrawAwa<span class="rr-func-args">(OamData*,Awa*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> InitFukiya<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> FukiyaProc<span class="rr-func-args">()</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> CreateFukiya<span class="rr-func-args">(Fukiya*,Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> FukiyaMove<span class="rr-func-args">(Fukiya*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> DrawFukiya<span class="rr-func-args">(OamData*,Fukiya*)</span>
-  </li> 
-  </ul>
-  </div>
-  <div class="rr-file-stats">  </div>
+  <div><h3>enemy.c</h3><ul>
+    <li><span>Enemy[10]</span> dEnemy</li> 
+    <li><span>Awa[16]</span> awa</li> 
+    <li><span>Fukiya[4]</span> fukiya</li> 
+    <li><span>u32 const[1][2]</span> Oam_def</li> 
+    <li><span>u32 const[1][2]</span> Oam_32x32dot</li> 
+    <li><span>u32 const[1][2]</span> Oam_16x16dot</li> 
+    <li><span>u32 const[1][2]</span> Oam_8x8dot</li> 
+    <li><span>u8[12]</span> anm_state</li> 
+    <li><span>void</span> InitEnemy<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> EnemyProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CreateTeki<span class="rr-func-args">(Enemy*,CharMapData*)</span></li> 
+    <li><span>void</span> HitCheck_Enemy<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> HitEnemy<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> DeadCheckEnemy<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> ControlEnemyMove<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> MoveShell1<span class="rr-func-args">(Enemy*,u8)</span></li> 
+    <li><span>void</span> MoveShell2<span class="rr-func-args">(Enemy*,u8)</span></li> 
+    <li><span>void</span> ShellAttackMove<span class="rr-func-args">(Enemy*,u8)</span></li> 
+    <li><span>void</span> DeadMove<span class="rr-func-args">(Enemy*,u8)</span></li> 
+    <li><span>void</span> LcdCheckEnemy<span class="rr-func-args">(Enemy*,Player*)</span></li> 
+    <li><span>void</span> ShellAnim<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> ShellBaseAnim<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> ShellAttackAnim<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> ShellDamageAnim<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> ShellDeadAnim<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> DrawEnemy<span class="rr-func-args">(OamData*,Enemy*)</span></li> 
+    <li><span>void</span> EraseEnemy<span class="rr-func-args">(OamData*,Enemy*)</span></li> 
+    <li><span>void</span> InitAwa<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> AwaProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CreateAwa<span class="rr-func-args">(Enemy*)</span></li> 
+    <li><span>void</span> AwaMove<span class="rr-func-args">(Awa*)</span></li> 
+    <li><span>void</span> DrawAwa<span class="rr-func-args">(OamData*,Awa*)</span></li> 
+    <li><span>void</span> InitFukiya<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> FukiyaProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CreateFukiya<span class="rr-func-args">(Fukiya*,Enemy*)</span></li> 
+    <li><span>void</span> FukiyaMove<span class="rr-func-args">(Fukiya*)</span></li> 
+    <li><span>void</span> DrawFukiya<span class="rr-func-args">(OamData*,Fukiya*)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">29</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">733</div>  </div>
 </div>
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="hitcheck.c" />
-  <div><h3>hitcheck.c</h3>
-  <ul>  <li>
-    <span class="rr-variable-type">void</span> Fukiya2Dolphin<span class="rr-func-args">(Player*,Fukiya*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> Dolphin2Enemy<span class="rr-func-args">(Player*,Enemy*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">void</span> Ring2Dolphin<span class="rr-func-args">(Ring*,Player*)</span>
-  </li> 
-  <li>
-    <span class="rr-variable-type">u8</span> RingPass<span class="rr-func-args">(Ring*,Player*)</span>
-  </li> 
-  </ul>
-  </div>
-  <div class="rr-file-stats">  <div class="rr-file-stat rr-file-stats-functions">?</div>  <div class="rr-file-stat rr-file-stats-variables">?</div>  <div class="rr-file-stat rr-file-stats-lines">?</div>  </div>
+  <div><h3>hitcheck.c</h3><ul>
+    <li><span>void</span> Fukiya2Dolphin<span class="rr-func-args">(Player*,Fukiya*)</span></li> 
+    <li><span>void</span> Dolphin2Enemy<span class="rr-func-args">(Player*,Enemy*)</span></li> 
+    <li><span>void</span> Ring2Dolphin<span class="rr-func-args">(Ring*,Player*)</span></li> 
+    <li><span>u8</span> RingPass<span class="rr-func-args">(Ring*,Player*)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">201</div>  </div>
 </div>
 
 <div class="rr-file-card">
