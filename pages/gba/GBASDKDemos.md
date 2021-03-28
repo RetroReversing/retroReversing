@@ -338,23 +338,14 @@ This folder contains all the sprite images used in the game.
 
 File Name | Extension | Description
 ---|---|---
-awa | .bmp | 
-ring_32_64_left | .bmp | 
-ring_32_64_right | .bmp | 
-
-
----
-#### O_fukiya (dolphin/img/Oumgai/O_fukiya)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-O_fukiya000 | .bmp | 
-
+awa | .bmp | Bubble sprite
+ring_32_64_left | .bmp | left sprite of the ring
+ring_32_64_right | .bmp | right sprite of the ring
+/Oumgai/O_fukiya | .bmp | A pink japanese Blowgun?!
 
 ---
 #### O_kihon (dolphin/img/Oumgai/O_kihon)
-This folder contains 
+This folder contains animation frames for a sea creature presumably called **Oumgai**.
 
 File Name | Extension | Description
 ---|---|---
@@ -429,140 +420,23 @@ O_yarare020 | .bmp |
 
 
 ---
-#### R_attack (dolphin/img/Ricky/R_attack)
-This folder contains 
+#### Ricky sprites (dolphin/img/Ricky)
+In the Ricky folder we have tons of animation frames for the Ricky sprite, moving up/down/jumping etc. These are all in BMP but the resulting .c and .o files are in the **dolphin/Obj** folder.
 
 File Name | Extension | Description
 ---|---|---
-R_attack1 | .bmp | 
-R_attack2 | .bmp | 
-R_attack3 | .bmp | 
-R_attack4 | .bmp | 
-R_attack5 | .bmp | 
-R_attack6 | .bmp | 
-R_attack7 | .bmp | 
-
-
----
-#### R_down (dolphin/img/Ricky/R_down)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_down0 | .bmp | 
-R_down1 | .bmp | 
-R_down2 | .bmp | 
-R_down3 | .bmp | 
-R_down4 | .bmp | 
-R_down5 | .bmp | 
-R_down6 | .bmp | 
-R_down7 | .bmp | 
-R_down8 | .bmp | 
-
-
----
-#### R_go_down (dolphin/img/Ricky/R_go_down)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_go_down0 | .bmp | 
-R_go_down1 | .bmp | 
-R_go_down2 | .bmp | 
-R_go_down3 | .bmp | 
-R_go_down4 | .bmp | 
-R_go_down5 | .bmp | 
-R_go_down6 | .bmp | 
-R_go_down7 | .bmp | 
-
-
----
-#### R_go_up (dolphin/img/Ricky/R_go_up)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_go_up0 | .bmp | 
-R_go_up1 | .bmp | 
-R_go_up2 | .bmp | 
-R_go_up3 | .bmp | 
-R_go_up4 | .bmp | 
-R_go_up5 | .bmp | 
-R_go_up6 | .bmp | 
-R_go_up7 | .bmp | 
-
-
----
-#### R_jump (dolphin/img/Ricky/R_jump)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_jump0 | .bmp | 
-R_jump1 | .bmp | 
-R_jump10 | .bmp | 
-R_jump2 | .bmp | 
-R_jump3 | .bmp | 
-R_jump4 | .bmp | 
-R_jump5 | .bmp | 
-R_jump6 | .bmp | 
-R_jump7 | .bmp | 
-R_jump8 | .bmp | 
-R_jump9 | .bmp | 
-
-
----
-#### R_kihon (dolphin/img/Ricky/R_kihon)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_kihon0 | .bmp | 
-R_kihon1 | .bmp | 
-R_kihon2 | .bmp | 
-R_kihon3 | .bmp | 
-R_kihon4 | .bmp | 
-R_kihon5 | .bmp | 
-R_kihon6 | .bmp | 
-R_kihon7 | .bmp | 
-
-
----
-#### R_up (dolphin/img/Ricky/R_up)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-R_up0 | .bmp | 
-R_up1 | .bmp | 
-R_up2 | .bmp | 
-R_up3 | .bmp | 
-R_up4 | .bmp | 
-R_up5 | .bmp | 
-R_up6 | .bmp | 
-R_up7 | .bmp | 
-R_up8 | .bmp | 
-
-
----
-#### Small (dolphin/img/Ricky/small)
-This folder contains 
-
-File Name | Extension | Description
----|---|---
-r_small0 | .bmp | 
-r_small1 | .bmp | 
-r_small2 | .bmp | 
-r_small3 | .bmp | 
-r_small4 | .bmp | 
-r_small5 | .bmp | 
-r_small6 | .bmp | 
-r_small7 | .bmp | 
-
+/Ricky/R_attack/R_attack(0-7) | .bmp | This folder contains animation frame of Ricky's right attack
+/Ricky/R_down/R_down(0-8) | .bmp | This folder contains animation frames of Ricky looking down.
+/Ricky/R_up/R_up(0-8) | .bmp | This folder contains animation frames of Ricky looking up.
+/Ricky/R_go_down/R_go_down(0-7)| .bmp | This folder contains animation frames of Ricky moving down
+/Ricky/R_go_up/R_go_up(0-7)| .bmp | This folder contains animation frames of Ricky moving up
+/Ricky/R_jump/R_jump(0-10)| .bmp | This folder contains animation frames of Ricky jumping
+/Ricky/small/r_small(0-7) | .bmp | This folder contains small images of Ricky, not currently sure why
+/Ricky/R_kihon/R_kihon(0-7) | .bmp | This folder contains animation frames of Ricky moving forward
 
 ---
 ## Obj (dolphin/obj)
-This folder contains 
+This folder contains the generated output of the image folder's BMP files for Ricky and Oumgai.
 
 File Name | Extension | Description
 ---|---|---
