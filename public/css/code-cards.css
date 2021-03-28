@@ -91,6 +91,7 @@
   margin-bottom: 5px;
   text-align: left;
   display: flex;
+  width: fit-content;
 }
 
 /* First child is the TYPE of the variable/function */
