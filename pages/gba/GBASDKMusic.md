@@ -83,7 +83,7 @@ You can view the main exports in the **mks4agbLib.h** header file below:
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="mks4agbLib.h" />
-  <div><h3>mks4agbLib.h</h3><ul>
+  <div><h3>mks4agbLib.h</h3><ul style="width:350px">
     <li><span>u8 const[]</span> __sound_mode_i</li> 
     <li><span>u8 const[]</span> __total_mplay_n</li> 
     <li><span>u8 const[]</span> __total_song_n</li> 
