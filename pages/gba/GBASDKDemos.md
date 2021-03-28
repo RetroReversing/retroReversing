@@ -5,7 +5,7 @@ tags:
 - sdk
 - demos
 title: Game Boy Advance SDK Demos
-thumbnail: /public/consoles/Game Boy Advance.png
+thumbnail: /public/consoles/Nintendo Game Boy Advance.png
 image: /public/images/gba/Game Boy Advance SDK Demos.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK Demos.jpg
 permalink: /game-boy-advance-sdk-demos/
