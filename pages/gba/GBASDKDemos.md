@@ -160,6 +160,33 @@ rom_header | .s |
 </div>
 
 <div class="rr-file-card">
+  <img class="geopattern" data-title="enemy_dat.c" />
+  <div><h3>enemy_dat.c</h3><ul>
+    <li><span>u8 const*[10]</span> shell_base_pix_tbl</li> 
+    <li><span>Anmpat[10]</span> shell_base_anm_pat</li> 
+    <li><span>u8 const*[21]</span> shell_attack_pix_tbl</li> 
+    <li><span>Anmpat[13]</span> shell_attack_anm_pat</li> 
+    <li><span>u8 const*[21]</span> shell_yarare_pix_tbl</li> 
+    <li><span>Anmpat[21]</span> shell_yarare_anm_pat</li> 
+    <li><span>CharMapData[12]</span> shell_map_dat</li> 
+    <li><span>Enemy_Oam_Data[10]</span> enemy_Oam_Data</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">143</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="game_dat.c" />
+  <div><h3>game_dat.c</h3><ul>
+    <li><span>u32 const[1][2]</span> Oam_16x8dot</li> 
+    <li><span>u32 const[1][2]</span> OamData_Sample</li> 
+    <li><span>short[256]</span> sin_tbl</li> 
+    <li><span>short[256]</span> cos_tbl</li> 
+    <li><span>u8[256]</span> sintable</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">112</div>  </div>
+</div>
+
+<div class="rr-file-card">
   <img class="geopattern" data-title="hitcheck.c" />
   <div><h3>hitcheck.c</h3><ul>
     <li><span>void</span> Fukiya2Dolphin<span class="rr-func-args">(Player*,Fukiya*)</span></li> 
@@ -198,6 +225,80 @@ rom_header | .s |
     <li><span>void</span> GameOver<span class="rr-func-args">()</span></li> 
   </ul></div>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">325</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="player_dat.c" />
+  <div><h3>player_dat.c</h3><ul>
+    <li><span>u8 const*[6]</span> r_kihon_pixel_tbl</li> 
+    <li><span>u8 const*[8]</span> r_kihon_idle_pixel_tbl</li> 
+    <li><span>u8 const*[6]</span> r_attack_pixel_tbl</li> 
+    <li><span>u8 const*[9]</span> r_down_pixel_tbl</li> 
+    <li><span>u8 const*[29]</span> r_up_down_pixel_tbl</li> 
+    <li><span>u8 const*[19]</span> r_jump_pixel_tbl</li> 
+    <li><span>AnmTable2[7]</span> rick_normal_move_pat</li> 
+    <li><span>AnmTable2[8]</span> rick_kihon_idle_pat</li> 
+    <li><span>AnmTable2[19]</span> rick_jump_anm_pat</li> 
+    <li><span>AnmTable[6]</span> rick_attack_pat</li> 
+    <li><span>AnmTable[11]</span> rick_kihon_fast_pat</li> 
+    <li><span>AnmTable[25]</span> rick_jump_pat</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">12</div>    <div class="rr-file-stat rr-file-stats-lines">270</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="player.c" />
+  <div><h3>player.c</h3><ul>
+    <li><span>Player</span> player</li> 
+    <li><span>Player_Awa[4]</span> player_awa</li> 
+    <li><span>void</span> InitPlayer<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> PlayerProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> DrawPlayer<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> RestrictPlayerPosition<span class="rr-func-args">(Player*)</span></li> 
+    <li><span>void</span> PlayerActionControl<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Chang_Dir<span class="rr-func-args">(Player*)</span></li> 
+    <li><span>void</span> MovePlayer<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> ChangeWaterSpeed<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Action1<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> JumpPlayer<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Action3<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> InitPlayerAnim<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> PlayerAnim<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_kihon_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_kihon_idle_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_updown_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_jump_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_idle_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_attack_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_move_rl_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_head_attack_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Ajust_Light_Reflection<span class="rr-func-args">(Player*)</span></li> 
+    <li><span>void</span> BlinkPlayer<span class="rr-func-args">(Player*)</span></li> 
+    <li><span>void</span> InitPlayer_Awa<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> Player_AwaProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> CreatePlayer_Awa<span class="rr-func-args">(Player_Awa*,Player*)</span></li> 
+    <li><span>void</span> Player_AwaMove<span class="rr-func-args">(Player_Awa*,Player*)</span></li> 
+    <li><span>void</span> DrawPlayer_Awa<span class="rr-func-args">(OamData*,Player_Awa*)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">28</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">852</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="ring.c" />
+  <div><h3>ring.c</h3><ul>
+    <li><span>Ring[20]</span> ring</li> 
+    <li><span>RingMapData[30]</span> ring_map_dat</li> 
+    <li><span>u32 const[1][2]</span> Oam_32x64dot</li> 
+    <li><span>void</span> InitRing<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> RingProc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> RingStateControl<span class="rr-func-args">(Ring*)</span></li> 
+    <li><span>void</span> CreateRing<span class="rr-func-args">(Player*)</span></li> 
+    <li><span>void</span> DrawRing<span class="rr-func-args">(Ring*)</span></li> 
+    <li><span>void</span> RingNormal<span class="rr-func-args">(Ring*,u8)</span></li> 
+    <li><span>void</span> RingPassed<span class="rr-func-args">(Ring*,u8)</span></li> 
+    <li><span>void</span> RingHit<span class="rr-func-args">(Ring*,u8)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">260</div>  </div>
 </div>
     
 </section>
