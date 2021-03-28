@@ -508,6 +508,227 @@ yoshi | .bin, .elf, .map |
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">390</div>  </div>
 </div>
 
+<div class="rr-file-card">
+  <img class="geopattern" data-title="oam_proc.c" />
+  <div><h3>oam_proc.c</h3><ul>
+    <li><span>s8[10]</span> OamList</li> 
+    <li><span>u8</span> oamNode_end</li> 
+    <li><span>u8</span> oamWaitFlg</li> 
+    <li><span>OamListNode[128]</span> OamNode</li> 
+    <li><span>AffineParamWork[32]</span> affineWork</li> 
+    <li><span>DmaReqDat[64]</span> dmaReqArray</li> 
+    <li><span>u16</span> dmaReqNum</li> 
+    <li><span>AnmWork[64]</span> anmWork</li> 
+    <li><span>void</span> make_OamBuf<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> clear_OamList<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> add_OamList<span class="rr-func-args">(u8,s8)</span></li> 
+    <li><span>OamData*</span> new_OamData<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> dmaReqSet<span class="rr-func-args">(u8*,u16,u16)</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">111</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_anm.c" />
+  <div><h3>yos_anm.c</h3><ul>
+    <li><span>u8 const*[]</span> p1_yoshi_pixel_tbl</li> 
+    <li><span>AnmTbl const[3]</span> yoshi_anm_normal</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_walk</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_run</li> 
+    <li><span>AnmTbl const[9]</span> yoshi_anm_l2r</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_jump</li> 
+    <li><span>AnmTbl const[65]</span> yoshi_anm_kyoro</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_tyouhatu</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_funbari</li> 
+    <li><span>AnmTbl const[2]</span> yoshi_anm_kururinha</li> 
+    <li><span>AnmTbl const[40]</span> yoshi_anm_die</li> 
+    <li><span>AnmTbl const[9]</span> yoshi_anm_bring1</li> 
+    <li><span>AnmTbl const[16]</span> yoshi_anm_bring2</li> 
+    <li><span>AnmTbl const*[12]</span> p1_yoshi_anm_patern</li> 
+    <li><span>AnmTbl const[9]</span> hei_anm_walk</li> 
+    <li><span>AnmTbl const[5]</span> hei_anm_turn</li> 
+    <li><span>u8 const*[]</span> p1_heiho_pixel_tbl</li> 
+    <li><span>u8 const*[]</span> p1_heiho_b_pixel_tbl</li> 
+    <li><span>u8 const*[]</span> p1_heiho_g_pixel_tbl</li> 
+    <li><span>u8 const*[]</span> p1_heiho_y_pixel_tbl</li> 
+    <li><span>u8 const*[]</span> p1_heihoL_pixel_tbl</li> 
+    <li><span>AnmTbl const*[3]</span> p1_heiho_anm_patern</li> 
+    <li><span>AnmTbl const[3]</span> mbox_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_mbox_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_mbox_anm_patern</li> 
+    <li><span>AnmTbl const[4]</span> sun_anm_d</li> 
+    <li><span>AnmTbl const[4]</span> sun_anm_c</li> 
+    <li><span>AnmTbl const[4]</span> sun_anm_normal</li> 
+    <li><span>AnmTbl const[4]</span> sun_anm_s</li> 
+    <li><span>AnmTbl const[4]</span> sun_anm_sp</li> 
+    <li><span>u8 const*[]</span> p1_sun_pixel_tbl</li> 
+    <li><span>AnmTbl const*[6]</span> p1_sun_anm_patern</li> 
+    <li><span>AnmTbl const[12]</span> killerS_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_killerS_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_killerS_anm_patern</li> 
+    <li><span>AnmTbl const[5]</span> kokamek_anm_normal</li> 
+    <li><span>AnmTbl const[5]</span> kokamek_anm_ura</li> 
+    <li><span>u8 const*[]</span> p1_kokamek_pixel_tbl</li> 
+    <li><span>AnmTbl const*[3]</span> p1_kokamek_anm_patern</li> 
+    <li><span>AnmTbl const[9]</span> hosi_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_hosi_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_hosi_anm_patern</li> 
+    <li><span>AnmTbl const[9]</span> kurukemu_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_kurukemu_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_kurukemu_anm_patern</li> 
+    <li><span>AnmTbl const[15]</span> balloon_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_balloon_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_balloon_anm_patern</li> 
+    <li><span>AnmTbl const[9]</span> bomb_anm_normal</li> 
+    <li><span>u8 const*[]</span> p1_bomb_pixel_tbl</li> 
+    <li><span>AnmTbl const*[2]</span> p1_bomb_anm_patern</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">51</div>    <div class="rr-file-stat rr-file-stats-lines">1082</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_game_dat.c" />
+  <div><h3>yos_game_dat.c</h3><ul>
+    <li><span>CharMapData const[36]</span> p1_charMapData</li> 
+    <li><span>xyPos const[26]</span> p1_mapALine</li> 
+    <li><span>u32 const[1][2]</span> p1_OamData_Sample</li> 
+    <li><span>xyPos const</span> p1_yoshi_start_pos</li> 
+    <li><span>CharSpecData const[34]</span> p1_charSpecData</li> 
+    <li><span>ObjChr const[39]</span> p1_objChrTbl</li> 
+    <li><span>ObjChr const[4]</span> p1_objChrTbl2</li> 
+    <li><span>AnmInfo const[64]</span> p1_anmInfo_def</li> 
+    <li><span>xyPos const[8]</span> p1_hanabira_pos</li> 
+    <li><span>s16[8]</span> p1_hanabira_rot_tbl</li> 
+    <li><span>s32 const[10]</span> p1_tatenobi_tbl</li> 
+    <li><span>u16 const[256]</span> p1_obj_Palette</li> 
+    <li><span>xyPos const[4]</span> p1_kokamekPos</li> 
+    <li><span>s32 const[4][3]</span> p1_koumoriDat</li> 
+    <li><span>xyPos const[8]</span> p1_balloon_randv_tbl</li> 
+    <li><span>xyPos[1]</span> p1_balloon_pos</li> 
+    <li><span>u8**[4]</span> p1_heiho_pix_tbl</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">17</div>    <div class="rr-file-stat rr-file-stats-lines">350</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_game_mov.c" />
+  <div><h3>yos_game_mov.c</h3><ul>
+    <li><span>s16[3]</span> p1_egg_se_tbl</li> 
+    <li><span>void</span> p1_yoshi_init1<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_jump_se_set<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_yoshiMove<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_yos_histry_set<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_heiho_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_heihoL_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_killerS_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_balloon_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_omori_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_bomb_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_kokamek_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_toge_move<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_hakoMove<span class="rr-func-args">(u8)</span></li> 
+    <li><span>void</span> p1_charMove<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_hanabiraMove<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_eggMove<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_effectMove<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">17</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">1885</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_game_pr.c" />
+  <div><h3>yos_game_pr.c</h3><ul>
+    <li><span>void</span> p1_yoshiPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_yoshiKagePrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_eggPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_charPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_gagePrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_heiKagePrint<span class="rr-func-args">(xyPos,s8)</span></li> 
+    <li><span>void</span> p1_heiKagePrintL<span class="rr-func-args">(xyPos)</span></li> 
+    <li><span>void</span> p1_bombKagePrint<span class="rr-func-args">(xyPos)</span></li> 
+    <li><span>void</span> p1_effectPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_kokamekPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_kumoPrint<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_koumoriPrint<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">12</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">607</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_game_sub.c" />
+  <div><h3>yos_game_sub.c</h3><ul>
+    <li><span>void</span> p1_workInit0<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_affineWorkInit0<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_charWorkInit0<span class="rr-func-args">()</span></li> 
+    <li><span>s16</span> p1_yos_hit_yoko<span class="rr-func-args">(xyPos,s16*)</span></li> 
+    <li><span>s16</span> p1_yos_hit_tate<span class="rr-func-args">(xyPos,s16*)</span></li> 
+    <li><span>s8</span> p1_jimen_cross_chk_yoko<span class="rr-func-args">(xyPos,xyPos)</span></li> 
+    <li><span>s8</span> p1_jimen_cross_chk<span class="rr-func-args">(xyPos,xyPos)</span></li> 
+    <li><span>s8</span> p1_line_cross_chk_tate<span class="rr-func-args">(xyPos,xyPos,xyPos,xyPos)</span></li> 
+    <li><span>u32</span> p1_getMap<span class="rr-func-args">(long)</span></li> 
+    <li><span>s8</span> p1_line_cross_chk_yoko<span class="rr-func-args">(xyPos,xyPos,xyPos,xyPos)</span></li> 
+    <li><span>s32</span> p1_get_rel_pos<span class="rr-func-args">(s32)</span></li> 
+    <li><span>s32</span> p1_get_lap_pos<span class="rr-func-args">(s32)</span></li> 
+    <li><span>void</span> p1_yoshi_dead_set<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_yoshi_jump_set<span class="rr-func-args">(s32)</span></li> 
+    <li><span>void</span> p1_effectSet<span class="rr-func-args">(s8,xyPos,xyPos*)</span></li> 
+    <li><span>void</span> p1_balloon_dead<span class="rr-func-args">(s16)</span></li> 
+    <li><span>void</span> p1_anim_work_proc<span class="rr-func-args">()</span></li> 
+    <li><span>s8</span> p1_turekomi_fly_pos_set<span class="rr-func-args">(s32)</span></li> 
+    <li><span>void</span> p1_clear_anm<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_key_chk<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> p1_calcDispPosition<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">21</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">962</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_game.c" />
+  <div><h3>yos_game.c</h3><ul>
+    <li><span>gGames</span> p1_gGame</li> 
+    <li><span>u8</span> p1_sub_status</li> 
+    <li><span>s32</span> p1_line_count</li> 
+    <li><span>YoshiWork</span> p1_yoshiWork</li> 
+    <li><span>EffectWork[32]</span> p1_effWork</li> 
+    <li><span>CharacterWork[3]</span> p1_eggWork</li> 
+    <li><span>CharacterWork[4]</span> p1_kokamekWork</li> 
+    <li><span>CharacterWork[8]</span> p1_hanabiraWork</li> 
+    <li><span>CharacterWork[48]</span> p1_charWork</li> 
+    <li><span>func_ptr const[4]</span> func_tbl</li> 
+    <li><span>void</span> yos_game<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> VIntrFunc<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> game_init0<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> game_init1<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> game_main<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> game_over0<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">10</div>    <div class="rr-file-stat rr-file-stats-lines">487</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_main_dat.c" />
+  <div><h3>yos_main_dat.c</h3><ul>
+    <li><span>s16 const[256]</span> fix_sin</li> 
+    <li><span>s16 const[256]</span> fix_cos</li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">80</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="yos_main.c" />
+  <div><h3>yos_main.c</h3><ul>
+    <li><span>gMainVal</span> gMain</li> 
+    <li><span>IntrFuncp[15]</span> IntrTable</li> 
+    <li><span>IntrFuncp const[14]</span> IntrTable_0</li> 
+    <li><span>void(*[2])()</span> proc_func_tbl</li> 
+    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">165</div>  </div>
+</div>
+
 </section>
 
 ---
