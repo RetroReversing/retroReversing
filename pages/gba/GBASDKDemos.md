@@ -772,16 +772,18 @@ File Name | Extension | Description
 \*/bmpfiles | N/A | List of all the BMP files to convert (read from the Makefile)
 islebmp/libislebmp | .a | Static Library archive of all the island animation images
 islebmp/yoshi_island_990907_0_(1-60) | .bmp, .o | Each image is a frame in an animation of the island spinning around
-menubmp/grade | .bmp, .o | 
-menubmp/kumo | .bmp, .o | 
-menubmp/libmenubmp | .a | 
-menubmp/umi64 | .bmp, .o | 
-yosbgbmp/bg1 | .bmp, .c, .o, .plb | 
-yosbgbmp/bg2 | .bmp, .c, .o | 
-yosbgbmp/bg2_5 | .bmp | 
-yosbgbmp/bg3 | .bmp, .c, .o | 
-yosbgbmp/libyosbgbmp | .a | 
-yosbgbmp/tmp | .bmp | 
+menubmp/grade | .bmp, .o | Gradient image used for the menu
+menubmp/kumo | .bmp, .o | Static-like texture used for the menu
+menubmp/libmenubmp | .a | Static Library archive of all the menu images
+menubmp/umi64 | .bmp, .o | Water image used for the menu
+yosbgbmp/bg1 | .bmp, .c, .o, .plb | The background image used for the platforms/path that Yoshi walks on
+yosbgbmp/bg2 | .bmp, .c, .o | The background image used for the hills in the background
+yosbgbmp/bg2_5 | .bmp | The background image used for the hills in the background but with a texture applied to it
+yosbgbmp/bg3 | .bmp, .c, .o | The background image used for the Sky (says made in japan on it)
+yosbgbmp/libyosbgbmp | .a | Static Library archive of all the background images used in the level
+yosbgbmp/tmp | .bmp | I think this is a tileset image?
+
+What is the **bg1.plb** file and what is it used for? Possibly collision detection?
 
 ---
 ### Yosbmp (yoshi/bmp/yosbmp)
