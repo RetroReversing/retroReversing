@@ -82,6 +82,7 @@
   overflow-y: scroll;
   height: 200px;
   max-width: 245px;
+  margin: 0px;
 }
 
 .rr-file-card li {
