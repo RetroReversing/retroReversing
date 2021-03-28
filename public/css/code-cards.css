@@ -9,7 +9,7 @@
   font: 200 35px "Poppins", sans-serif;
 }
 
-.rr-func-args, .rr-file-card li::nth-child(3) {
+.rr-func-args {
   color: #4eb9c0;
   text-overflow: ellipsis;
   max-width: 100px;
@@ -72,6 +72,7 @@
   list-style: none;
   overflow-y: scroll;
   height: 200px;
+  max-width: 245px;
 }
 
 .rr-file-card li {
