@@ -30,7 +30,8 @@
 
 .rr-file-stat:before {
   color: #666a6d;
-  font: 300 17px/1.2 "Poppins", sans-serif;
+  font: 200 10px/1.2 "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
 .rr-file-stats-functions:before {
