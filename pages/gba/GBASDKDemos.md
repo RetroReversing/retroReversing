@@ -787,7 +787,9 @@ What is the **bg1.plb** file and what is it used for? Possibly collision detecti
 
 ---
 ### Yosbmp (yoshi/bmp/yosbmp)
-This folder contains .imb files which are?
+This folder contains sprites used in the Yoshi level including all the animation frames.
+
+This folder contains .imb files which are the result of calling **bmp2bin** on the BMP images and .o files which are the result of calling **objcopy** on the same images.
 
 File Name | Extension | Description
 ---|---|---
