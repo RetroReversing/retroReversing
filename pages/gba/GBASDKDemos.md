@@ -38,11 +38,11 @@ This folder contains the main source code and build scripts required to compile 
 
 File Name | Extension | Description
 ---|---|---
-Agb_c2_s | .bat | 
-Gasdepend | N/A | 
-Makedepend | N/A | 
-Makefile | N/A | 
-bg | .c, .h, .o | 
+Agb_c2_s | .bat | Window Batch script to use Cygwin GCC to compile main.c
+Gasdepend | N/A | Lists dependencies for the GNU assembler to know when to reassemble crt0.s
+Makedepend | N/A | Lists dependencies to tell Make when to re-compile files
+Makefile | N/A | Main Makefile used to build the project
+bg | .c, .h, .o | Code for drawing Background images, such as water and coral floor
 crt0 | .o, .s | 
 dolphin | .bin, .elf, .map | 
 dolphin_readme | .txt | 
