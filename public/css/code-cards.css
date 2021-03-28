@@ -1,7 +1,4 @@
-.rr-file-stats {
-  display: flex;
-  justify-content: space-evenly;
-}
+
 
 .rr-source-code-title {
   text-align: center;
@@ -19,6 +16,17 @@
   cursor: pointer;
   height: 18px;
   overflow-y: hidden;
+}
+
+.rr-func-args:hover {
+  white-space: normal;
+}
+
+/* Start File Statistics */
+
+.rr-file-stats {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .rr-file-stat {
@@ -45,6 +53,7 @@
 .rr-file-stats-lines:before {
   content: "Lines";
 }
+/* End file Statistics */
 
 .rr-file-card {
   position: relative;
