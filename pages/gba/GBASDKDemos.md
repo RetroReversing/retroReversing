@@ -292,34 +292,32 @@ rom_header | .s |
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="main.c" />
-  <div><h3>main.c</h3>
-  <ul>
-  <li><span class="rr-type">vu16</span> IntrCheck</li> 
-  <li><span class="rr-type">u16</span> Cont</li> 
-  <li><span class="rr-type">u16</span> Trg</li> 
-  <li><span class="rr-type">u32[512]</span> IntrMainBuf</li> 
-  <li><span class="rr-type">ObjBuf</span> Oam</li> 
-  <li><span class="rr-type">u8[256]</span> rasttable</li> 
-  <li><span class="rr-type">u8</span> v_phase</li> 
-  <li><span class="rr-type">s8</span> amp_r</li> 
-  <li><span class="rr-type">s8</span> hz</li> 
-  <li><span class="rr-type">u8</span> state</li> 
-  <li><span class="rr-type">s16</span> counter</li> 
-  <li><span class="rr-type">u8</span> offset</li> 
-  <li><span class="rr-type">void(*[2])()</span> pGame_func_tbl</li> 
-  <li><span class="rr-type">IntrFuncp const[15]</span> IntrTable</li> 
-  <li><span class="rr-type">void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> HBlankIntr<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> VCountIntr<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> IntrDammy<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> KeyRead<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> GameInit<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> GameMain<span class="rr-func-args">()</span></li> 
-  <li><span class="rr-type">void</span> GameOver<span class="rr-func-args">()</span></li> 
-  </ul>
-  </div>
-  <div class="rr-file-stats">  <div class="rr-file-stat rr-file-stats-functions">9</div>  <div class="rr-file-stat rr-file-stats-variables">14</div>  <div class="rr-file-stat rr-file-stats-lines">?</div>  </div>
+  <div><h3>main.c</h3><ul>
+    <li><span>vu16</span> IntrCheck</li> 
+    <li><span>u16</span> Cont</li> 
+    <li><span>u16</span> Trg</li> 
+    <li><span>u32[512]</span> IntrMainBuf</li> 
+    <li><span>ObjBuf</span> Oam</li> 
+    <li><span>u8[256]</span> rasttable</li> 
+    <li><span>u8</span> v_phase</li> 
+    <li><span>s8</span> amp_r</li> 
+    <li><span>s8</span> hz</li> 
+    <li><span>u8</span> state</li> 
+    <li><span>s16</span> counter</li> 
+    <li><span>u8</span> offset</li> 
+    <li><span>void(*[2])()</span> pGame_func_tbl</li> 
+    <li><span>IntrFuncp const[15]</span> IntrTable</li> 
+    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> HBlankIntr<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> VCountIntr<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> IntrDammy<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> GameInit<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> GameMain<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> GameOver<span class="rr-func-args">()</span></li> 
+  </ul></div>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">325</div>  </div>
 </div>
     
 </section>
