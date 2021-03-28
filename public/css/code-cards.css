@@ -115,11 +115,12 @@
   transition: all 0.3s ease;
 /*   margin: 2em auto 7em; */
   margin-top: 5px;
-  display: grid;
+/*   display: grid; */
   grid-gap: 20px;
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(4, auto);
   justify-content: center;
+  overflow-x: scroll;
 }
 
 * {
