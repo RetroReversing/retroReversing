@@ -88,6 +88,10 @@
   margin-right: 15px;
 }
 
+.rr-file-card div {
+  max-width: 245px;
+}
+
 .rr-file-card li {
   color: darkblue;
   cursor: pointer;
