@@ -20,6 +20,7 @@ recommend:
 - sdk
 - gba
 editlink: /gba/GBASDKMusic.md
+updatedAt: '2021-03-30'
 ---
 
 # Introduction
