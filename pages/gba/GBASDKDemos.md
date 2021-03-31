@@ -1123,7 +1123,9 @@ toge | .bmp, .o |
 
 ---
 ## Sound (yoshi/sound)
-Just as the name might imply this folder contains the sounds used in the demo, it seems to use a library called **m4alib** which we don't know anything about.
+Just as the name might imply this folder contains the sounds used in the demo, it is using a GBA Sound library library called **m4alib** which you can find out more about in our other post.
+
+{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a/" description="For more information about the M4A Sound library check out this post." %}
 
 This folder only contains the pre-compiled object files, presumably these have been converted from a sound format and compiled into these for easy linking with the rest of the game. 
 
