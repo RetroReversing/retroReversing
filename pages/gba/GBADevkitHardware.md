@@ -33,7 +33,7 @@ updatedAt: '2020-01-23'
 # Official Development Kit Hardware
 The Game Boy Advance official development kits were incredibly similar to the original Game Boy and Game Boy Color devkits. In fact they reused the same dev kits and added support for the GBA.
 
-## Early Prototype Development kit
+## Early Prototype Development kit (Target Board TS2)
 <section class="postSection">
     <img src="/public/images/gba/GBA Early Prototype.jpg" class="wow slideInLeft postImage" />
 
@@ -43,6 +43,8 @@ This is as bare-bones as development kits get, before the GBA was even released 
 You can see a modified original Game Boy cartridge with the sticker saying `AGB Only` plugged into the cartridge slot and acting as an interface to the developers PC. So presumably they would send ROM images to the board from their PC's development environment.
 
 Presumably it also had a connection to be able to display it on a larger screen for development but there is no obvious connector for that.
+
+There are references in the Software Development Kit to **Target Board TS2** which we believe is this development kit, not sure what TS2 stands for but there is also a TS4, (Testing Station?).
 </div>
 </section>
 
