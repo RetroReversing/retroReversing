@@ -137,7 +137,7 @@ The AGB IR Communication Library manual is available in both PDF format (**AGBIR
 For using the IR communication library in a game see the  **AGB Infrared Comm Programming Guide** instead.
 
 ## AGB Infrared Communication Programming Guide
-The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir) and covers porgramming for use with the Infrared Adapter.
+The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir) and covers programming for use with the Infrared Adapter.
 
 The GBA Infrared Adapter (**AGB-006**) was an accessory that was released 2 years after the GBA and only ever used in 1 Japanese game called **Cyber Drive Zoids**.
 
@@ -200,3 +200,174 @@ This folder contains documentation for the demo Dolphin game included in the **/
 This folder contains documentation for the Yoshi Demo project including the basics of how to play and the technology involved in its creation.
 
 {% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
+
+---
+### Function Sample Documentation (/AllManual/others/func_sample)
+This folder contains 
+
+File Name | Extension | Description
+---|---|---
+alphasm | .htm | Alpha Blending demo code
+bg_rsm | .htm | Background demo code  showing rotating, scaling and moving backgrounds
+bmpmode | .htm | Background Bitmap mode example code
+coleffsm | .htm | Special Color effects sample code
+obj_rsm | .htm | Object (Sprite) demo code showing rotating, scaling and moving sprites
+swinsm | .htm | Example code showing off the different Window modes
+
+---
+# API Headers (/include folder)
+This folder contains 
+
+File Name | Extension | Description
+---|---|---
+Agb | .h | Include file for declaring 
+AgbDefine | .h, .s | 
+AgbDefineArm | .s | 
+AgbIr | .h | Include file for declaring 
+AgbMacro | .h, .s | 
+AgbMacroArm | .s | 
+AgbMemoryMap | .h, .s | 
+AgbMemoryMapArm | .s | 
+AgbMultiBoot | .h | Include file for declaring 
+AgbSound | .h | Include file for declaring 
+AgbSyscallDefine | .s | 
+AgbSyscallDefineArm | .s | 
+AgbSystemCall | .h | Include file for declaring 
+AgbTypes | .h | Include file for declaring 
+IsAgbPrint | .h | Include file for declaring 
+
+<section class="rr-main-cards"><div class="rr-source-code-title">Code Files</div>
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbDefine.h" />
+  <h3>AgbDefine.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">710</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbIr.h" />
+  <h3>AgbIr.h</h3><ul>
+    <li><span>void</span> irBegin<span class="rr-func-args">(int,irResult*,int)</span></li> 
+    <li><span>void</span> irEnd<span class="rr-func-args">()</span></li> 
+    <li><span>int</span> irSendConnect<span class="rr-func-args">(int)</span></li> 
+    <li><span>int</span> irRecvConnect<span class="rr-func-args">(int)</span></li> 
+    <li><span>void</span> irInit<span class="rr-func-args">()</span></li> 
+    <li><span>int</span> irSendPacket<span class="rr-func-args">(int*,int)</span></li> 
+    <li><span>int</span> irRecvPacket<span class="rr-func-args">(int*,int)</span></li> 
+    <li><span>void</span> irMountThumbCore<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> irMountArmCore<span class="rr-func-args">(int*,int*)</span></li> 
+    <li><span>void</span> irRamCopy<span class="rr-func-args">(int*,int*)</span></li> 
+    <li><span>void</span> irEnable<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> irDisable<span class="rr-func-args">()</span></li> 
+    <li><span>int</span> irDetection<span class="rr-func-args">()</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">251</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbMemoryMap.h" />
+  <h3>AgbMemoryMap.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">509</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbMultiBoot.h" />
+  <h3>AgbMultiBoot.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">126</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbTypes.h" />
+  <h3>AgbTypes.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">729</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="IsAgbPrint.h" />
+  <h3>IsAgbPrint.h</h3><ul>
+    <li><span>void</span> AGBPrintInit<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> AGBPutc<span class="rr-func-args">(char const)</span></li> 
+    <li><span>void</span> AGBPrint<span class="rr-func-args">(char const*)</span></li> 
+    <li><span>void</span> AGBPrintf<span class="rr-func-args">(char const*,...)</span></li> 
+    <li><span>void</span> AGBPrintFlush1Block<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> AGBPrintFlush<span class="rr-func-args">()</span></li> 
+    <li><span>void</span> AGBAssert<span class="rr-func-args">(char const*,int,char const*,int)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">161</div>  </div>
+</div>
+
+</section>
+
+---
+## Backup Library Headers (/backup)
+This folder contains all the C include files for accessing Save Data on the cartridge for all the supported types of Backup chip (Flash/SRAM/EEPROM)
+
+File Name | Extension | Description
+---|---|---
+AgbDacs | .h | Include file for declaring the unused DACS reading/writing functions such as **ReadDacs**
+AgbEeprom | .h | Include file for declaring EEPROM reading/writing functions such as **ReadEepromDword**
+AgbFlash | .h | Include file for declaring FLASH chip reading/writing functions such as **EraseFlashSector**
+AgbSram | .h | Include file for declaring the slower (but uses less WRAM) SRAM reading/writing functions such as  **ReadSram**
+AgbSramFast | .h | Include file for declaring the faster (but more memory intensive) SRAM reading/writing functions such as **ReadSramFast**
+
+<section class="rr-main-cards"><div class="rr-source-code-title">Backup Library Header Files</div>
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbDacs.h" />
+  <h3>AgbDacs.h</h3><ul>
+    <li><span>dacsType const*</span> dacs</li> 
+    <li><span>u32</span> dacs_remainder</li> 
+    <li><span>u16</span> IdentifyDacs<span class="rr-func-args">()</span></li> 
+    <li><span>u16</span> SetDacsTimerIntr<span class="rr-func-args">(u8,void(**)())</span></li> 
+    <li><span>u32</span> ExchangeSectorToPhysAdr<span class="rr-func-args">(u16)</span></li> 
+    <li><span>u32</span> ExchangePhysAdrToSector<span class="rr-func-args">(u32)</span></li> 
+    <li><span>void</span> ReadDacs<span class="rr-func-args">(u16,u32,u16*,u32)</span></li> 
+    <li><span>u16</span> EraseDacsChip<span class="rr-func-args">()</span></li> 
+    <li><span>u16</span> EraseDacsSector<span class="rr-func-args">(u16)</span></li> 
+    <li><span>u16</span> ProgramDacs_NE<span class="rr-func-args">(u16,u32,u16*,u32)</span></li> 
+    <li><span>u16</span> ProgramDacsSector<span class="rr-func-args">(u16,u16*)</span></li> 
+    <li><span>u32</span> VerifyDacs<span class="rr-func-args">(u16,u16,u16*,u32)</span></li> 
+    <li><span>u32</span> VerifyDacsSector<span class="rr-func-args">(u16,u16*)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">364</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbSram.h" />
+  <h3>AgbSram.h</h3><ul>
+    <li><span>void</span> ReadSram<span class="rr-func-args">(u8*,u8*,u32)</span></li> 
+    <li><span>void</span> WriteSram<span class="rr-func-args">(u8*,u8*,u32)</span></li> 
+    <li><span>u32</span> VerifySram<span class="rr-func-args">(u8*,u8*,u32)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">87</div>  </div>
+</div>
+
+<div class="rr-file-card">
+  <img class="geopattern" data-title="AgbSramFast.h" />
+  <h3>AgbSramFast.h</h3><ul>
+    <li><span>void</span> SetSramFastFunc<span class="rr-func-args">()</span></li> 
+    <li><span>void(*)(u8*,u8*,u32)</span> ReadSramFast</li> 
+    <li><span>void</span> WriteSramFast<span class="rr-func-args">(u8*,u8*,u32)</span></li> 
+    <li><span>u32(*)(u8*,u8*,u32)</span> VerifySramFast</li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">103</div>  </div>
+</div>
+
+</section>
+
+---
+# API Libraries (/lib folder)
+There are two types of library in this folder *.a and *.alf.
+
+The libraries included are as follows:
+* **libagbsyscall.a** - System Call Library
+* **libagbsyscall_arm.alf** - System Call Library (ARM version)
+* **libagbbackup.a** - Save Game library
+* **libagbbackup_arm.alf** - Save Game library (ARM version)
+* **libagbir.a** - IR communication library
+* **libagbir_arm.alf** - IR communication library (ARM version)
+* **libisagbprn.s** - Assembly source code for the **libisagbprn.a** library
+* **libisagbprn.a** - Debug library for Printing messages to console
+* **libisagbprn_arm.alf** - Debug library for Printing messages to console (ARM version)
