@@ -67,8 +67,6 @@
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  margin-right: 10px;
-  margin-left: 10px;
   text-align: center;
 }
 
@@ -150,9 +148,9 @@
 /*   margin: 2em auto 7em; */
   margin-top: 5px;
 /*   display: grid; */
-  grid-gap: 15px;
+/*   grid-gap: 15px;
   grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(4, auto); */
 /*   justify-content: center; */
   overflow-x: scroll;
   margin-left: -100px;
