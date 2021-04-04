@@ -1351,6 +1351,8 @@ IsAgbPrint | .h | Include file for declaring
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">161</div>  </div>
 </div>
 
+</section>
+
 ---
 ## Backup Library Headers (/backup)
 This folder contains all the C include files for accessing Save Data on the cartridge for all the supported types of Backup chip (Flash/SRAM/EEPROM)
@@ -1362,6 +1364,7 @@ AgbEeprom | .h | Include file for declaring EEPROM reading/writing functions suc
 AgbFlash | .h | Include file for declaring FLASH chip reading/writing functions such as **EraseFlashSector**
 AgbSram | .h | Include file for declaring the slower (but uses less WRAM) SRAM reading/writing functions such as  **ReadSram**
 AgbSramFast | .h | Include file for declaring the faster (but more memory intensive) SRAM reading/writing functions such as **ReadSramFast**
+
 
 <div class="rr-source-code-title">Backup Library Header Files</div><section class="rr-main-cards">
 <div class="rr-file-card">
