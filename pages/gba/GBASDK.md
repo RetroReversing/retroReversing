@@ -67,7 +67,7 @@ toolsSetup | .txt | Instructions for installing the SDK and connecting to the de
 ## AGB Programming Manual
 The AGB programming manual is available in both PDF format (**AGBProgramming Manual.PDF**) and HTML format (/AllManual/program). 
 
-It is 163 pages explaining everything pretty much everything you need to know to start programming for the GBA hardware:
+It is 163 pages explaining pretty much everything you need to know to start programming for the GBA hardware:
 * Memory Map
 * Background rendering (Both Character and Binary modes)
 * Playing sounds
@@ -137,8 +137,15 @@ The AGB IR Communication Library manual is available in both PDF format (**AGBIR
 For using the IR communication library in a game see the  **AGB Infrared Comm Programming Guide** instead.
 
 ## AGB Infrared Communication Programming Guide
-The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir). 
+The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir) and covers porgramming for use with the Infrared Adapter.
 
+The GBA Infrared Adapter (**AGB-006**) was an accessory that was released 2 years after the GBA and only ever used in 1 Japanese game called **Cyber Drive Zoids**.
+
+As the hardware is now quite rare and it was only ever used for one game this documentation will most likely not be useful to anyone reverse engineering or creating a new GBA game.
+
+However **Shonumi** has written an excellent Edge of Emulation article on implementing an emulated version of the Infrared adaptor and even created a virtual Zoid (Robot):
+
+{% include link-to-other-site.html url="" description="Check out the Edge of Emulation article on emulating the GBA Infrared Adapter" image="https://shonumi.github.io/articles/zoids_1.png" title="Edge of Emulation: GBA Infrared Adapter"  %}
 
 ---
 ## Frequently Asked Questions (/AllManual/faq)
@@ -170,4 +177,26 @@ This folder contains documentation for the **MusicPlayerAGB2000** library, it is
 * Programmer's Manual - For the game programmer
 
 ### Sound Developer's Manual
-The Sound developer's Manual is HTML-based documentation found in the **/AllManual/musicplayer/sound_dev** folder.
+The Sound developer's Manual is HTML-based documentation found in the **/AllManual/musicplayer/sound_dev** folder and is tailored towards the sound engineer.
+
+The documentation for the Sound and Music library is covered in its own post specifically for this functionality, it is recommended you read it here:
+
+{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a/" description="For more information about the GBA Music Library check out this post." %}
+
+---
+## Other Documentation (/AllManual/others)
+This folder contains the following subsections:
+* **Converter** - Documentation for the agbcomp and bmp2agb tools
+* **Converter (old)** - Documentation for the tools: act2agb, agbparts, bin2h, bmp2bin, bmpgrid, bmpred and sgi2bmp
+* **Function Sample** - Documentation for the sample projects in the src folder that show off certain functions such as Alpha Blending
+* **Sample Demo** - Documentation for the two demo games: Yoshi and Dolphin
+
+
+### Iruka (Dolphin) Demo Documentaton (/AllManual/others/demo/Iruka)
+This folder contains documentation for the demo Dolphin game included in the **/src** folder and even includes UML-like Flow diagrams for the main game logic!
+
+---
+#### Yoshi Demo Documentation (/AllManual/others/demo/yoshi)
+This folder contains documentation for the Yoshi Demo project including the basics of how to play and the technology involved in its creation.
+
+{% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
