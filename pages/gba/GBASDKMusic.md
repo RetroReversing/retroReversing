@@ -63,11 +63,34 @@ This assembly file can then be modified if required and assembled with the GNU A
 
 ## How are the sound objects used?
 There are a number of files that are required in order to bring the M4A library into your Game Boy Advance project, they are:
-* MusicPlayDef.s
-* mks4agbLib.o
-* mks4agbLib.h - header file for the main library functions available in **mks4agbLib.o**
-* m4aLibOD1.o
-* m4aLibUSC.o
+* MusicPlayDef.s - Assembly code used for sony data
+* mks4agbLib.o - Compiled library functionality
+* mks4agbLib.h - Header file for using the library in a game
+* m4aLibOD1.o - Compiled code for use when Only DMA 1 mode is active
+* m4aLibUSC.o - Compiled code for use when System ROM mode is selected
+
+## Can a sound engineer test the music without building the main game?
+Yes! When the tool is run it also outputs a file called **SoundMon.elf** this is an executable GBA program that can be loaded into the IS-AGB-EMULATOR and provides a simple menu for playing back the sounds converted using **mks4agb.exe**.
+
+## What is Direct Sound and Compatible Sound?
+Compatible sound is 4 channels of Mono sounds which is backwards compatible with the Game Boy Color. 
+Direct Sound is 12 channel Stereo and only for GBA games.
+
+Both Direct Sound and Compatible Sound can be used at the same time in Game Boy Advance games to provide some excellent music!
+
+---
+#  Sound Developer's Tutorial (/AllManual/musicplayer/sound_dev/Tutorial)
+As part of the documentation Nintendo provided a demo of both AIFF and MIDI music playing on the GBA. The demo shows Wario flying in a plane around while the background music plays and has a few sound effects too.
+
+The table below shows all the the Data required to follow the tutorial, including the ROM file that can be played in any GBA emulator.
+
+File Name | Extension | Description
+---|---|---
+AiffFiles | .ZIP | The sample AIFF music files used in the Demo game
+IniFile | .zip | This provides the sample **mks4agb.ini** that is created during the tutorial
+MidiFiles | .zip | The sample MIDI music files used in the Demo game
+m_Sample | .zip | The modified sample Assembly code used in the tutorial
+mp2kdemo | .zip | This contains the **mp2kdemo.bin** GBA ROM with Wario flying around with sounds
 
 ---
 # Reverse Engineering
