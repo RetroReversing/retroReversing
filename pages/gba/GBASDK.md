@@ -7,7 +7,7 @@ title: Game Boy Advance Software Development Kit (SDK)
 thumbnail: /public/consoles/Nintendo Game Boy Advance.png
 image: /public/images/gba/Game Boy Advance SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK.jpg
-permalink: /game-boy-advance-sdk-m4a/
+permalink: /game-boy-advance-sdk/
 breadcrumbs:
   - name: Home
     url: /
@@ -67,8 +67,69 @@ toolsSetup | .txt | Instructions for installing the SDK and connecting to the de
 ## AGB Programming Manual
 The AGB programming manual is available in both PDF format (**AGBProgramming Manual.PDF**) and HTML format (/AllManual/program). 
 
+It is 163 pages explaining everything pretty much everything you need to know to start programming for the GBA hardware:
+* Memory Map
+* Background rendering (Both Character and Binary modes)
+* Playing sounds
+* DMA
+* Joypad input
+* Interrupts
+* Communication interfaces
+
+
 ## AGB Backup Library Manual
 The AGB Backup Library manual is available in both PDF format (**AGBBackupLibraryManual.PDF**) and HTML format (/AllManual/backup) and covers the Save RAM (SRAM) available built in to certain cartridges.  
+
+This documents the use of the **libagbbackup.a** static library which MUST be used to communicate with the different Save Game Backup chips on the cartridge, as Nintendo forbids not using this library to access the data (presumably for Save Game Safety).
+
+The available SRAM chips on the GBA cartridges were:
+* 256kbit SRAM
+* 512kbit FLASH ROM
+* 4kbit EEPROM
+
+They had also planned support for **1Mbit DACS** but this was never released.
+
+Each type of backup chip had its own set of functions and their own header files as listed below:
+* SRAM - **AgbSram.h** and **AgbSramFast.h** 
+* FLASH ROM - **AgbFlash.h**
+* EEPROM - **AgbEeprom.h**
+
+### SRAM Library
+The difference between the two header files comes down to memory vs cpu optimization, the **Fast** version is more efficient on the CPU but uses 300 extra bytes of Work RAM (WRAM). Apart from the difference in memory usage they are identical. 
+
+---
+## AGB System Call Reference
+The AGB System Call Reference manual is available in both PDF format (**AGB System Call Reference.PDF**) and HTML format (/AllManual/syscall). 
+
+This is a 35 page document listing all of the system calls available from the Syscall (**libagbsyscall**) library to use in your application, such as functions like **BgAffineSet** or **CpuFastSet**. it is standard API documentation giving an explanation all the parameters and return type  and a little about what the functions achieve.
+
+## AGB Register List
+The AGB Register List is available in both PDF format (**AGBRegList.PDF**) and HTML format (/AllManual/register). 
+It contains a large table of all the addresses of hardware registers, their names and what each bit does. 
+
+This is an extremely helpful document when reverse engineering GBA games as games will often need to read or right to these registers to access the hardware features of the device.
+
+These hardware Registers are used for many things including:
+* Reading Game Pad buttons
+* Communication over Link cable
+* Sprite Management
+* Sound Management
+* Direct Memory Access (DMA)
+
+## AGB Data Format
+The AGB programming manual is available in both PDF format (**AGBDataFormat.PDF**) and HTML format (**/AllManual/dataformat**) and contains the format that data should be in for certain parts of memory, especially related to graphics.
+
+There are a few areas of memory that need to be in a specifc format:
+* Pallette RAM (5 bits for Red, 5 for Green and 5 for Blue)
+* Background Data (Different format for Character mode vs Bitmap mode)
+* Sprite Data/OAM - X/Y position of sprites and the image to show
+
+If you are creating a GBA game you need to follow these Data Formats otherwise the screen will look corrrupt, most emulators will be able to help you out with their VRAM viewer windows.
+
+## ARM7TDMI Reference Manual by ARM 
+The **ARM7TDMI** Reference Manual is a PDF specification (**/AllManual/arm/ARM7TDMI_Ref_man.pdf**) provided by ARM that has 275 pages of pretty much everything you would ever want to know about the CPU used in the Game Boy Advance.
+
+As this is a reference I wouldn't recommend reading it and instead just refer to it if you are looking into how a particular feature of the CPU works. You can reverse and create games without ever having opened this manual but when anytime you wonder about the Coprocessor or assembly instruction timings then this is a great reference.
 
 ## AGB IR Communication Library Manual
 The AGB IR Communication Library manual is available in both PDF format (**AGBIRCommLibraryMan1.0.PDF**) and HTML format (/AllManual/ir) and covers the very low level technology details of how the IR interface works at the hardware level.
@@ -78,19 +139,6 @@ For using the IR communication library in a game see the  **AGB Infrared Comm Pr
 ## AGB Infrared Communication Programming Guide
 The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir). 
 
-## AGB System Call Reference
-The AGB programming manual is available in both PDF format (**AGB System Call Reference.PDF**) and HTML format (/AllManual/syscall). 
-
-## AGB Register List
-The AGB Register List is available in both PDF format (**AGBRegList.PDF**) and HTML format (/AllManual/register). 
-
-## AGB Data Format
-The AGB programming manual is available in both PDF format (**AGBDataFormat.PDF**) and HTML format (/AllManual/dataformat). 
-
-## ARM7TDMI Reference Manual by ARM 
-The **ARM7TDMI** Reference Manual is a PDF specification (**/AllManual/arm/ARM7TDMI_Ref_man.pdf**) provided by ARM that has 275 pages of pretty much everything you would ever want to know about the CPU used in the Game Boy Advance.
-
-As this is a reference I wouldn't recommend reading it and instead just refer to it if you are looking into how a particular feature of the CPU works. You can reverse and create games without ever having opened this manual but when anytime you wonder about the Coprocessor or assembly instruction timings then this is a great reference.
 
 ---
 ## Frequently Asked Questions (/AllManual/faq)
@@ -116,7 +164,10 @@ This folder contains the exact same files as the include directory but with a .T
 This is not particularly useful as most IDEs nowadays provide easy ways to check on the source code for the include files without leaving the editor.
 
 ---
-## Musicplayer Documentation (/AllManual/musicplayer)
+## Music Player Documentation (/AllManual/musicplayer)
 This folder contains documentation for the **MusicPlayerAGB2000** library, it is split into two different files, one for each of the different types of users:
 * Sound Developer's Manual - For the sound engineer
 * Programmer's Manual - For the game programmer
+
+### Sound Developer's Manual
+The Sound developer's Manual is HTML-based documentation found in the **/AllManual/musicplayer/sound_dev** folder.
