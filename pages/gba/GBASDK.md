@@ -1410,7 +1410,7 @@ AgbSramFast | .h | Include file for declaring the faster (but more memory intens
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">103</div>  </div>
 </div>
-
+</section>
 
 ---
 # API Libraries (/lib folder)
