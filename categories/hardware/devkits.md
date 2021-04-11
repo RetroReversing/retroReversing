@@ -2,6 +2,8 @@
 permalink: /hardware/devkits/
 layout: post
 console: devkit
+image: /public/images/categories/Console Development Kit Hardware.jpg
+twitterimage: https://www.retroreversing.com/public/images/categories/Console Development Kit Hardware.jpg
 breadcrumbs:
   - name: Home
     url: /
