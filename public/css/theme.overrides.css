@@ -121,10 +121,14 @@ overflow: scroll;
 
 .row p {
   padding: 5px;
-  font-family: Georgia,Times,"Times New Roman",serif;
-  font-size: 1.0em;
+/*   font-family: Georgia,Times,"Times New Roman",serif; */
+/*   font-size: 1.0em; */
 /*   line-height: 1.6; */
-  letter-spacing: 0.05em;
+/*   letter-spacing: 0.05em; */
+  letter-spacing: -.01em;
+  font-size: 16px;
+  line-height: 23px;
+  font-family: graphik,Arial,sans-serif;
   margin-bottom: 2px;
   padding-left: 5%;
 }
