@@ -20,11 +20,23 @@ recommend: devkit
 ---
 
 # Introduction to Development Kits (Hardware)
+<section class="postSection">
+    <img src="/public/images/categories/Console Development Kit Hardware.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+Games consoles required specialist hardware in order to develop for them as it was very rare for a PC of the time to be able to emulate newly released consoles.
+Programming would be done via a PC as normal but when it comes to debugging or testing the game it would need to be run on hardware similar to the retail console.
+
+This is where Game Console development Kit Hardware comes in, they are systems that norally connect to a PC but have the hardware of the target games console.
+
 Game console development kits come in all shapes and sizes, some are built by the games console manufacture themselves and others are built by 3rd-party companies.
 
-Development Kits are fascinating, many come out before the specs for the console have even been finalised.
+Development Kits offer a fascinating insight into the game development process, most come out before the specs for the console have even been finalised or announced to the public.
 
-We have tried to document all the development kit hardware available for the most popular retro consoles, so hopefully you will find the posts below helpful.
+We have tried to document all the development kit hardware available for the most popular retro consoles, so hopefully you will find the posts below helpful. If you notice anything missing, please let us know!
+ </div>
+</section> 
+
 
 ---
 # Nintendo Console Development Kit Hardware
