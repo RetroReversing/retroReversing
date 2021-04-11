@@ -17,6 +17,7 @@ redirect_from:
   - /development-kit
 editlink: ../categories/hardware/devkits.md
 recommend: devkit
+updatedAt: '2021-04-11'
 ---
 
 # Introduction to Development Kits (Hardware)
