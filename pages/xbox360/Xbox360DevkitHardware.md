@@ -61,6 +61,35 @@ One very interesting fact about this unit is that it came with an early build of
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B9MXxtd2WVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+# Xbox 360 XeDK Beta Development Kits
+Sometime during late 2004 and early 2005 Microsoft started sending out the Beta versions of the development kit hardware, which were much closer to what would become the retail hardware than the Alpha Units.
+
+Note that the labels Beta 1 and Beta 2 were given by the community and not their official titles inside Microsoft.
+
+## Xbox 360 XeDK Beta 1
+
+<section class="postSection">
+    <img src="/public/images/xbox360/Xbox 360 XeDK Beta 1.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The first Beta development kit wasn't shipped for very long before it got replaced by its second generation, this makes it much harder to find. The Kit looks like a standard Xbox 360 with a hat on. That hat is known as a sidecar and it is where most of the interesting development hardware is located.
+
+The development hardware board in the first Beta is called the **Titan Kernel debugging board** and it comes with **Krypton** prototype controllers [^2].
+
+One major difference between this one and version 2 is that it can only play XEX1 format executables and thus is very limited in what it can play as most 360 games and application are in XEX2 format [^2].
+ </div>
+</section> 
+
+## Xbox 360 XeDK Beta 2
+<section class="postSection">
+    <img src="/public/images/xbox360/Xbox 360 XeDK Beta 2.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+The second Beta version was very similar to the first however it has the huge advantage in that it can play XEX2 format games, this makes it much more appealing to purchase today to play prototype games on.
+ </div>
+</section> 
+
+---
 # References
 [^1]: [The Xbox 360 Alpha 2 XeDK - How does it compare to the Xbox 360?! - MR RATCHET - YouTube](https://www.youtube.com/watch?v=B9MXxtd2WVs)
 [^2]: [Tutorial - The Updated "Wiki"/Guide For The Xbox 360 XDK (Xbox Development Kit) - Se7enSins Gaming Community](https://www.se7ensins.com/forums/threads/the-updated-wiki-guide-for-the-xbox-360-xdk-xbox-development-kit.1807200/)
