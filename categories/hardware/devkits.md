@@ -118,7 +118,7 @@ Compared to the other companies on this list Microsoft is the newest to the hard
 
 
 ## Microsoft Xbox 360
-We still need t create a page collecting all of the Xbox360 development kit hardware
+We still need to create a page collecting all of the Xbox360 development kit hardware
 
 ---
 # All Posts tagged with Development Kit
