@@ -26,6 +26,7 @@ We have tried to document all the development kit hardware available for the mos
 
 ---
 # Nintendo Console Development Kit Hardware
+Nintendo has used Intelligent Systems to create all their Development Kit hardware and then Nintendo would officially sell them to game development studios for a high price.
 
 ## Nintendo Entertainment System (NES/Famicom)
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
@@ -64,6 +65,7 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 
 ---
 # SEGA Development Kit Hardware
+SEGA themselves tended to rely on third party hardware manufacturers to create their development kits and as such each console's kit was completely different.
 
 ## SEGA Master System 
 {% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For information about the Krisalis 3rd party development hardware check out this post." %}
@@ -81,12 +83,14 @@ There was also a third party development kit by SN Systems which was part of the
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For information about SN Systems's Saturn development hardware (PsyQ) check out this post." %}
 
-
 ## SEGA Dreamcast
+The Dreamcast arguby had the best development kit that SEGA had ever sold for their consoles, it is just a shame the lifespan of the Dreamcast was cut short.
+
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
 
 ---
 # Sony Development Kit Hardware
+Sony have long been in the hardware development buisness and it shows with the quality of their development kits, they were fairly well-liked by the development community even if development for the later Sony systems sch as the PS3 was in general a pain.
 
 ## Sony Playstation Portable 
 {% include link-to-other-post.html post="/official-psp-devkit" description="For information about Sony's Playstation portable development hardware check out this post." %}
@@ -101,10 +105,21 @@ Sony also officially supported a consumer development kit known as Net Yaroze, w
 {% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}
 
 ## Sony Playstation 3 
-{% include link-to-other-post.html post="/official-playStation3-devkit" description="For information about Sony's Playstation Three development hardware check out this post." %}
+{% include link-to-other-post.html post="/official-playStation3-devkit" description="For information about Sony's Playstation 3 development hardware check out this post." %}
 
 ---
-# All Posts about Development Kits
+# Microsoft Development Kit Hardware
+Compared to the other companies on this list Microsoft is the newest to the hardware game, as their primary focus has been Software such as Windows or the Office suite. However even with this relative inexperience they managed to create some excellent development kit hardware that made it even easier for developers to move from PC to games console development.
+
+## Microsoft Xbox
+{% include link-to-other-post.html post="/microsoft-xbox-development-kit/" description="For information about Microsoft's Xbox development hardware check out this post." %}
+
+
+## Microsoft Xbox 360
+We still need t create a page collecting all of the Xbox360 development kit hardware
+
+---
+# All Posts tagged with Development Kit
 
 <div>
 {% include console.html %}
