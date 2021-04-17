@@ -3,7 +3,7 @@ layout: post
 tags: 
 - sega
 - dreamcast
-- sdks
+- sdk
 - microsoft
 title: Sega Dreamcast Microsoft Windows CE SDK
 thumbnail: /public/consoles/Sega Dreamcast.png
@@ -19,7 +19,7 @@ breadcrumbs:
     url: #
 recommend:
 - dreamcast
-- sdks
+- sdk
 editlink: /dreamcast/DreamcastWindowsCESDK.md
 updatedAt: '2019-10-31'
 ---
