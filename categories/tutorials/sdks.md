@@ -41,7 +41,8 @@ However we do know that **Sculptured Software** had their own custom SDK known a
 From at least the Game Boy Advance Software development kits for Nintendo's handheld systems were often provided by Nintendo themselves via their online dev portal known as **WarioWorld**.
 
 ## Nintendo Game Boy (DMG & GBC)
-No information is available about software development kits for the Nintendo Game Boy
+A few files were leaked from Nintendos development FTP server in the early 2000s, this has allowed us to document some of the known tools that were found in the Game Boy Software development kit:
+{% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information on the known Game Boy SDK files check out this post." %}
 
 ## Nintendo Game Boy Advance (GBA)
 
