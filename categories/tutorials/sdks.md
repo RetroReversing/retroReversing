@@ -63,6 +63,7 @@ Again no information is available about any Official Game Gear Software Developm
 ## SEGA Mega Drive (Genesis)
 
 ## SEGA Saturn
+{% include link-to-other-post.html post="/sega-saturn-sdk/" description="For more information on the files in the Official Sega Saturn SDK check out this post." %}
 
 ## SEGA Dreamcast
 
@@ -88,6 +89,6 @@ Again no information is available about any Official Game Gear Software Developm
 
 ---
 # All Posts tagged with SDK
-
-
+<div>
 {% include console.html %}
+</div>
