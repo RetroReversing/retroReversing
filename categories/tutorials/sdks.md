@@ -31,6 +31,9 @@ No information is known about if an official SNES SDK ever existed, it may have 
 However we do know that **Sculptured Software** had their own custom SDK known as the SSDS (Sculptured Software Development System) which was released to the internet and we will have a post on this in the future.
 
 ## Nintendo 64
+The Nintendo 64 SDK was leaked some time in the late 2000s and now can be easily accessed online, this gives us the opportunity to dive in and document exactly what was contained in the Software Development Kit:
+
+{% include link-to-other-post.html post="/n64-sdk" description="For more information on the Nintendo 64 SDK files check out this post." %}
 
 ## Nintendo Gamecube
 
