@@ -73,6 +73,8 @@ Again no information is available about any Official Game Gear Software Developm
 ## Sony Playstation Portable
 
 ## Sony Playstation 1
+{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the files in the Official Sony Playstation SDK check out this post." %}
+
 
 ## Sony Playstation 2
 
