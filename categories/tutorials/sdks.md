@@ -89,6 +89,8 @@ We are currently in the process of documenting the files in the Official Sony Pl
 # Microsoft Software Development Kits
 
 ## Microsoft Xbox
+We are currently working on a post that will document the files in the Microsoft Xbox SDK here:
+{% include link-to-other-post.html post="/xbox-sdk-xdk" description="For more information on the files in the Official Sony Microsoft Xbox SDK check out this post." %}
 
 ## Microsoft Xbox 360
 
