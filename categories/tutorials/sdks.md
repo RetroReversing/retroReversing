@@ -55,6 +55,9 @@ We are currently in the process of documenting the files available in the Game B
 We are currently in the process of documenting the files found in the Official Nintendo DS (NITRO) Software development kit:
 {% include link-to-other-post.html post="/DS-NITRO-SDK" description="For more information on the Official Nintendo DS SDK files check out this post." %}
 
+## Nintendo Pokemon Mini
+{% include link-to-other-post.html post="/official-pokemon-mini-sdk/" description="For more information on the Pokemon Mini SDK check out this post." %}
+
 ---
 # SEGA Software Development Kits
 
