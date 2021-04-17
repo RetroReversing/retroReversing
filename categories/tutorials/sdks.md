@@ -48,6 +48,8 @@ A few files were leaked from Nintendos development FTP server in the early 2000s
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information on the known Game Boy SDK files check out this post." %}
 
 ## Nintendo Game Boy Advance (GBA)
+We are currently in the process of documenting the files available in the Game Boy Advance SDK in the following post:
+{% include link-to-other-post.html post="/game-boy-advance-sdk/" description="For more information on the Official Game Boy Advance SDK files check out this post." %}
 
 ## Nintendo DS (NDS)
 
