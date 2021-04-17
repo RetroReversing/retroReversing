@@ -79,7 +79,12 @@ There were two Software Development Kits for the SEGA Dreamcast, one for Windows
 ---
 # Sony Software Development Kits
 
-## Sony Playstation Portable
+## Sony Playstation Portable (PSP)
+There are two main Software Development Kits for the Sony PSP, which were both merged into one single Development Kit when Sony bought SN Systems.
+
+ProDG was the third party SDK developed by SN Systems and later incorporated into the official PSP SDK.
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
+
 
 ## Sony Playstation 1
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the files in the Official Sony Playstation SDK check out this post." %}
