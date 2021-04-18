@@ -24,6 +24,7 @@ breadcrumbs:
     url: /
   - name: Pokemon Mini
     url: #
+updatedAt: '2021-04-18'
 ---
 
 # Introduction to the Pokemon Mini (PM)
@@ -46,7 +47,7 @@ The Nintendo System Development Division (SDD) was a small development team in c
 
 SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon Mini project were the two directors `Yoshikazu Mori` and `Shinya Kawada`. 
 
-There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the **Jupiter Corporation** and **Denyusha** to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
+There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as **Pokemon Tetris** and **Snorlax's Lunchtime**, along with also working closely with the **Jupiter Corporation** and **Denyusha** to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
 
 The games SDD developed for the Pokemon Mini are as follows:
 * Pokemon Shock Tetris
@@ -59,9 +60,9 @@ Employees at SDD responsible for Pokemon Mini programming:
 ## Jupiter Corporation
 Jupiter is a very important company when it comes to the Pokemon Mini, in fact they developed more than half of the games available for the console with 6 in total!
 
-Jupiter had a long history working with Nintendo and were trusted licensees of many Nintendo characters after creating game such as `Mario Picross` in as far back as 1995.
+Jupiter had a long history working with Nintendo and were trusted licensees of many Nintendo characters after creating game such as **Mario Picross** in as far back as 1995.
 
-They were responsible for the `Pocket Pikachu Color` which was released in November 21st 1999 which can be seen as the predecessor to the Pokemon Mini and likely used very similar technology [^1].
+They were responsible for the **Pocket Pikachu Color** which was released in November 21st 1999 which can be seen as the predecessor to the Pokemon Mini and likely used very similar technology [^1].
 
 They also released similar projects for non-Nintendo licensed products such as the `Pocket Sakura` which is the same hardware as the Pocket Pikachu but could communicate with the Sakura Wars game for gameboy [^2]!
 
