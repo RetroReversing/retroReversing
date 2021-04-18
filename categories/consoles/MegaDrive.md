@@ -2,10 +2,10 @@
 permalink: /md/
 layout: post
 title: Sega Mega Drive (Genesis)
-recommend: md
-recommendTitle: All MD Posts
+recommend: megadrive
+recommendTitle: All Mega Drive Posts
 editlink: ../categories/consoles/MegaDrive.md
-console: 'md'
+console: 'megadrive'
 consoleimage: /public/consoles/Sega Megadrive.png
 thumbnail: /public/consoles/Sega Megadrive.png
 breadcrumbs:
@@ -20,6 +20,13 @@ redirect_from:
   - /mega-drive
   - /genesis
 ---
+
+# Introduction
+
+## History fo the Mega Drive
+Sega Retro has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly reccomended that you read this before anything else:
+[History of the Sega Mega Drive - Sega Retro](https://segaretro.org/History_of_the_Sega_Mega_Drive)
+
 # All Posts
 <div>
 
