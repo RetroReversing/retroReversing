@@ -5,7 +5,8 @@ console: 'PokemonMini'
 title: 'Pokemon Mini'
 consoleimage: /public/consoles/PokemonMini.png
 thumbnail: /public/consoles/PokemonMini.png
-twitterimage: https://www.retroreversing.com/public/consoles/PokemonMini.png
+image: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
+twitterimage: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
 recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
@@ -26,19 +27,26 @@ breadcrumbs:
 ---
 
 # Introduction to the Pokemon Mini (PM)
+<section class="postSection">
+    <img src="/public/images/PokemonMini/Pokemon Mini Introduction.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
-`Jupiter Corporation` and released in Japan on December 14th 2001. 
+**Jupiter Corporation** and released in Japan on December 14th 2001. 
 
 They had previously worked with the Jupiter Corporation on hardware such as the Pocket Pikachu which created the foundation for the Pokemon Mini project.
 
-The Japanese company `Denyusha` was also contracted to create games for the Pokemon Mini and would become one of only 3 developers for the system (SDD, Jupiter and Denyusha).
+The Japanese company **Denyusha** was also contracted to create games for the Pokemon Mini and would become one of only 3 developers for the system (SDD, Jupiter and Denyusha).
+ </div>
+</section> 
+
 
 ## Nintendo System Development Division
-The Nintendo System Development Division (SDD) was a small development team in charge of lower-profile hardware such as the `Pokewalker`, `Pokemotion` and Pokemon Mini [^3]. 
+The Nintendo System Development Division (SDD) was a small development team in charge of lower-profile hardware such as the **Pokewalker**, **Pokemotion** and Pokemon Mini [^3]. 
 
 SDD was lead by general manager `Masaru Shimomura` and in charge of the Pokemon Mini project were the two directors `Yoshikazu Mori` and `Shinya Kawada`. 
 
-There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the `Jupiter Corporation` and `Denyusha` to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
+There were two main Pokemon Mini programmers at SDD, `Daisuke Tsujimura` and `Koji Yoshizaki` who both worked on titles such as `Pokemon Tetris` and `Snorlax's Lunchtime`, along with also working closely with the **Jupiter Corporation** and **Denyusha** to help create games and software for the new handheld [^4]. At least one of them are thanked in the credits of all games released on the Pokemon Mini! So it is safe to say these two were vital in the development of the Pokemon Mini, at least in terms of the software produced for it.
 
 The games SDD developed for the Pokemon Mini are as follows:
 * Pokemon Shock Tetris
