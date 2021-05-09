@@ -169,7 +169,7 @@ This folder contains Frequently asked questions in HTML format for Game Boy Adva
 <section class="postSection">
     <div class="css-folder css-folder-left wow slideInLeft postImage">/gnu</div>
 
- <div markdown="1">
+ <div markdown="1" class="rr-post-markdown">
   This folder contains HTML documentation provided by Cygnus for their **GNUPro Toolkit** product which was a suite of compilers based on GCC but with official support from Cygnus (later RedHat) for compiling to ARM assembly.
   
   This is the same as any GCC documentation you can find freely on the web and is not customized to the GBA so it will not be covered here.
@@ -182,7 +182,7 @@ This folder contains Frequently asked questions in HTML format for Game Boy Adva
 <section class="postSection">
     <div class="css-folder css-folder-left wow slideInLeft postImage">/header</div>
 
- <div markdown="1">
+ <div markdown="1" class="rr-post-markdown">
 This folder contains the exact same files as the include directory but with a .TXT extension, this was provided just so the developer could access the files easily in their web browser when the have the documentation pages loaded up.
 
 This is not particularly useful as most IDEs nowadays provide easy ways to check on the source code for the include files without leaving the editor.
@@ -191,9 +191,15 @@ This is not particularly useful as most IDEs nowadays provide easy ways to check
 
 ---
 ## Music Player Documentation (/AllManual/musicplayer)
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/musicplayer</div>
+
+ <div markdown="1" class="rr-post-markdown">
 This folder contains documentation for the **MusicPlayerAGB2000** library, it is split into two different files, one for each of the different types of users:
 * Sound Developer's Manual - For the sound engineer
 * Programmer's Manual - For the game programmer
+ </div>
+</section> 
 
 ### Sound Developer's Manual
 The Sound developer's Manual is HTML-based documentation found in the **/AllManual/musicplayer/sound_dev** folder and is tailored towards the sound engineer.
@@ -204,18 +210,23 @@ The documentation for the Sound and Music library is covered in its own post spe
 
 ---
 ## Other Documentation (/AllManual/others)
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/others</div>
+
+ <div markdown="1" class="rr-post-markdown">
 This folder contains the following subsections:
 * **Converter** - Documentation for the agbcomp and bmp2agb tools
 * **Converter (old)** - Documentation for the tools: act2agb, agbparts, bin2h, bmp2bin, bmpgrid, bmpred and sgi2bmp
 * **Function Sample** - Documentation for the sample projects in the src folder that show off certain functions such as Alpha Blending
 * **Sample Demo** - Documentation for the two demo games: Yoshi and Dolphin
-
+</div>
+</section> 
 
 ### Iruka (Dolphin) Demo Documentaton (/AllManual/others/demo/Iruka)
 This folder contains documentation for the demo Dolphin game included in the **/src** folder and even includes UML-like Flow diagrams for the main game logic!
 
 ---
-#### Yoshi Demo Documentation (/AllManual/others/demo/yoshi)
+### Yoshi Demo Documentation (/AllManual/others/demo/yoshi)
 This folder contains documentation for the Yoshi Demo project including the basics of how to play and the technology involved in its creation.
 
 {% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
