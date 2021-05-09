@@ -20,8 +20,9 @@ recommend:
 - gba
 editlink: /gba/GBASDK.md
 ---
+
 # Introduction
-This page covers release 3 of the english software development kit, but the other versions are very similar to this. It is unclear if this was the last release of the development kit.
+This page covers release **3.0** of the english software development kit, but the other versions are very similar to this. It is unclear if this was the last release of the development kit.
 
 In the documentation Nintendo calls this SDK the **GameBoy Advance Developers Kit 2000** presumably due to using the millennium/2000 was very trendy at the time.
 
@@ -119,7 +120,7 @@ These hardware Registers are used for many things including:
 ## AGB Data Format
 The AGB programming manual is available in both PDF format (**AGBDataFormat.PDF**) and HTML format (**/AllManual/dataformat**) and contains the format that data should be in for certain parts of memory, especially related to graphics.
 
-There are a few areas of memory that need to be in a specifc format:
+There are a few areas of memory that need to be in a specific format:
 * Pallette RAM (5 bits for Red, 5 for Green and 5 for Blue)
 * Background Data (Different format for Character mode vs Bitmap mode)
 * Sprite Data/OAM - X/Y position of sprites and the image to show
@@ -149,6 +150,10 @@ However **Shonumi** has written an excellent Edge of Emulation article on implem
 
 ---
 ## Frequently Asked Questions (/AllManual/faq)
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/gnu</div>
+
+ <div markdown="1" class="rr-post-markdown">
 This folder contains Frequently asked questions in HTML format for Game Boy Advance Development split into the following categories:
 * **General** - Questions about GBA development that don't belong to a specific category
 * **Graphics** - Questions about drawing sprites (Objs) and Backgrounds
@@ -156,12 +161,13 @@ This folder contains Frequently asked questions in HTML format for Game Boy Adva
 * **Communication** - Questions about Linking Game Boy Advance consoles together with Link Cables
 * **Backup** - Questions about Save Data
 * **GNU Tool** - Questions related to the Compiler/Assembler/Linker provided by Cygnus GNUPro Toolkit
-
+ </div>
+</section> 
 
 ---
 ## GNU Documentation (/AllManual/gnu)
 <section class="postSection">
-    <div class="css-folder wow slideInLeft postImage"></div>
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/gnu</div>
 
  <div markdown="1">
   This folder contains HTML documentation provided by Cygnus for their **GNUPro Toolkit** product which was a suite of compilers based on GCC but with official support from Cygnus (later RedHat) for compiling to ARM assembly.
@@ -171,13 +177,17 @@ This folder contains Frequently asked questions in HTML format for Game Boy Adva
  </div>
 </section> 
 
-
-
 ---
 ## Header Documentation (/AllManual/header)
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/header</div>
+
+ <div markdown="1">
 This folder contains the exact same files as the include directory but with a .TXT extension, this was provided just so the developer could access the files easily in their web browser when the have the documentation pages loaded up.
 
 This is not particularly useful as most IDEs nowadays provide easy ways to check on the source code for the include files without leaving the editor.
+ </div>
+</section> 
 
 ---
 ## Music Player Documentation (/AllManual/musicplayer)
@@ -225,25 +235,25 @@ swinsm | .htm | Example code showing off the different Window modes
 
 ---
 # API Headers (/include folder)
-This folder contains 
+This folder contains both C header include files (.h) and assembly headers (.s) that declare all the functions and macros used in the GBA SDK libraries.
 
 File Name | Extension | Description
 ---|---|---
-Agb | .h | Include file for declaring 
-AgbDefine | .h, .s | 
-AgbDefineArm | .s | 
-AgbIr | .h | Include file for declaring 
+Agb | .h | Include file for importing all the common header files such as **AgbTypes.h**
+AgbDefine | .h, .s |  Include file for declaring common macros such as **LCD_WIDTH**
+AgbDefineArm | .s | Assembly include file for declaring common macros such as **SYSTEM_CLOCK**
+AgbIr | .h | Include file for declaring the functions in the Infrared Communication library
 AgbMacro | .h, .s | 
 AgbMacroArm | .s | 
 AgbMemoryMap | .h, .s | 
 AgbMemoryMapArm | .s | 
-AgbMultiBoot | .h | Include file for declaring 
+AgbMultiBoot | .h | Include file for declaring the types used for the Multi-player download functionality with one cartridge
 AgbSound | .h | Include file for declaring 
 AgbSyscallDefine | .s | 
 AgbSyscallDefineArm | .s | 
 AgbSystemCall | .h | Include file for declaring 
 AgbTypes | .h | Include file for declaring 
-IsAgbPrint | .h | Include file for declaring 
+IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to terminal library
 
 <div class="rr-source-code-title">API Header Files</div><section class="rr-main-cards">
 <div class="rr-file-card">
@@ -1359,9 +1369,7 @@ IsAgbPrint | .h | Include file for declaring
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">161</div>  </div>
 </div>
-
 </section>
-
 
 ---
 ## Backup Library Headers (/backup)
@@ -1374,7 +1382,6 @@ AgbEeprom | .h | Include file for declaring EEPROM reading/writing functions suc
 AgbFlash | .h | Include file for declaring FLASH chip reading/writing functions such as **EraseFlashSector**
 AgbSram | .h | Include file for declaring the slower (but uses less WRAM) SRAM reading/writing functions such as  **ReadSram**
 AgbSramFast | .h | Include file for declaring the faster (but more memory intensive) SRAM reading/writing functions such as **ReadSramFast**
-
 
 <div class="rr-source-code-title">Backup Library Header Files</div><section class="rr-main-cards">
 <div class="rr-file-card">
@@ -1423,7 +1430,6 @@ AgbSramFast | .h | Include file for declaring the faster (but more memory intens
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">103</div>  </div>
 </div>
-</section>
 
 
 ---
@@ -1457,3 +1463,58 @@ The GBA SDK comes with source code for 2 demo games:
 
 For more details on the two demos we have a separate post covering the details:
 {% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
+
+## SysCall Library Source Code (src/lib/syscall)
+The Assembly source code for the SysCall library is available in the **src/lib/syscall** folder of the GBA SDK and is available in two different formats:
+* GNU - GNU Assembler (GAS) format assembly code
+* ARM - ARMASM format assembly code
+
+The source code is not particularly interesting as all it does is act as a wrapper around the 42 GBA Software Interrupts which you can find a full list of here:
+[Tonc: Software Interrupts](https://www.coranac.com/tonc/text/swi.htm)
+
+They all follow the same format so here is an example:
+```asm
+@********************************************************************
+@*          AgbSysArcTan.s                                          *
+@*            AGB System Call Functions (for GAS)                   *
+@*                                                                  *
+@*          Copyright (C) 1999-2000 NINTENDO Co.,Ltd.               *
+@********************************************************************
+		.INCLUDE	"AgbDefine.s"
+		.INCLUDE	"AgbMemoryMap.s"
+		.TEXT
+		.CODE 16
+
+@--------------------------------------------------------------------
+@-		Arc Tangent  					    -
+@--------------------------------------------------------------------
+		.GLOBAL	ArcTan
+		.THUMB_FUNC
+ArcTan:			swi		9 // This calls software interupt number 9
+				bx		lr // return and switch instruction set to THUMB if Least Significant Bit is 1 otherwise switch to ARM
+
+
+		.END
+```
+
+## Sample Source Code
+
+{% include link-to-other-post.html post="/game-boy-advance-sdk-samples/" description="For more information about the Samples provided by the SDK check out this post." %}
+
+
+## Tool Source Code (src/bin)
+
+
+---
+# GBA Compilers
+The compilers provided for the GBA were a modified version of GNU GCC distributed by **Cygnus Solutions** (Cygwin) for the ARM architecture. They provided an installed called **AGBSetup2.exe** on the AGB Developers ToolKit CD which installed the programs to **C:\Program files\cygnus**.
+
+The version of GCC shipped with the SDK is 2.95.1 which is handy to know when decompiling the games back to C source code, about 90% of games were compiled with this version including the Pokemon series of games.
+
+There is a RAR file called **gba_compilers.rar** that is an archive that contains the following files inside it:
+* armelf-000512.zip - All the pre-compiled tools such as compilers and linkers
+* thumb_patch03-OCT-03.zip - contains an updated version of the THUMB C compilers (cc1.exe and cc1plus.exe)
+* src_patch021206.zip - Patch for arm-000512 from 2006
+* GNUPro021206.zip - Contains Setup.exe for installing the compiler toolchain
+
+In the leaked version there is also a **armelf-000512** folder which is not the contents of **armelf-000512.zip** but it looks like it is the GNU source code for the tools provided in that zip.
