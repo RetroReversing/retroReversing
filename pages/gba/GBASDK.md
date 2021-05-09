@@ -66,6 +66,10 @@ relnotes_us | .txt | Notes the differences between the English US SDK and the Ja
 toolsSetup | .txt | Instructions for installing the SDK and connecting to the development kit hardware
 
 ## AGB Programming Manual
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">AGB Programming Manual</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB programming manual is available in both PDF format (**AGBProgramming Manual.PDF**) and HTML format (/AllManual/program). 
 
 It is 163 pages explaining pretty much everything you need to know to start programming for the GBA hardware:
@@ -76,12 +80,19 @@ It is 163 pages explaining pretty much everything you need to know to start prog
 * Joypad input
 * Interrupts
 * Communication interfaces
-
+ </div>
+</section> 
 
 ## AGB Backup Library Manual
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">Backup Library Manual</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB Backup Library manual is available in both PDF format (**AGBBackupLibraryManual.PDF**) and HTML format (/AllManual/backup) and covers the Save RAM (SRAM) available built in to certain cartridges.  
 
 This documents the use of the **libagbbackup.a** static library which MUST be used to communicate with the different Save Game Backup chips on the cartridge, as Nintendo forbids not using this library to access the data (presumably for Save Game Safety).
+ </div>
+</section> 
 
 The available SRAM chips on the GBA cartridges were:
 * 256kbit SRAM
@@ -100,15 +111,27 @@ The difference between the two header files comes down to memory vs cpu optimiza
 
 ---
 ## AGB System Call Reference
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">System Call Reference</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB System Call Reference manual is available in both PDF format (**AGB System Call Reference.PDF**) and HTML format (/AllManual/syscall). 
 
 This is a 35 page document listing all of the system calls available from the Syscall (**libagbsyscall**) library to use in your application, such as functions like **BgAffineSet** or **CpuFastSet**. it is standard API documentation giving an explanation all the parameters and return type  and a little about what the functions achieve.
+ </div>
+</section> 
 
 ## AGB Register List
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">Register List</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB Register List is available in both PDF format (**AGBRegList.PDF**) and HTML format (/AllManual/register). 
 It contains a large table of all the addresses of hardware registers, their names and what each bit does. 
 
 This is an extremely helpful document when reverse engineering GBA games as games will often need to read or right to these registers to access the hardware features of the device.
+</div>
+</section> 
 
 These hardware Registers are used for many things including:
 * Reading Game Pad buttons
@@ -118,6 +141,10 @@ These hardware Registers are used for many things including:
 * Direct Memory Access (DMA)
 
 ## AGB Data Format
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">Data Format</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB programming manual is available in both PDF format (**AGBDataFormat.PDF**) and HTML format (**/AllManual/dataformat**) and contains the format that data should be in for certain parts of memory, especially related to graphics.
 
 There are a few areas of memory that need to be in a specific format:
@@ -126,28 +153,42 @@ There are a few areas of memory that need to be in a specific format:
 * Sprite Data/OAM - X/Y position of sprites and the image to show
 
 If you are creating a GBA game you need to follow these Data Formats otherwise the screen will look corrupt, most emulators will be able to help you out with their VRAM viewer windows.
+</div>
+</section> 
 
 ## ARM7TDMI Reference Manual by ARM 
 <section class="postSection">
-    <div class="file-icon file-icon-xl wow slideInLeft postImage" data-type="pdf">ARM7TDMI</div>
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">ARM7 TDMI</div>
 
  <div markdown="1" class="rr-post-markdown">
 The **ARM7TDMI** Reference Manual is a PDF specification (**/AllManual/arm/ARM7TDMI_Ref_man.pdf**) provided by ARM that has 275 pages of pretty much everything you would ever want to know about the CPU used in the Game Boy Advance.
 
 As this is a reference I wouldn't recommend reading it and instead just refer to it if you are looking into how a particular feature of the CPU works. You can reverse and create games without ever having opened this manual but when anytime you wonder about the Coprocessor or assembly instruction timings then this is a great reference.
- </div>
+</div>
 </section> 
 
-
 ## AGB IR Communication Library Manual
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">IR Communication Library</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB IR Communication Library manual is available in both PDF format (**AGBIRCommLibraryMan1.0.PDF**) and HTML format (/AllManual/ir) and covers the very low level technology details of how the IR interface works at the hardware level.
 
 For using the IR communication library in a game see the  **AGB Infrared Comm Programming Guide** instead.
+</div>
+</section> 
 
 ## AGB Infrared Communication Programming Guide
+<section class="postSection">
+    <div class="file-icon file-icon-left file-icon-xl wow slideInLeft postImage" data-type="pdf">IR Programming Guide</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The AGB Infrared Communication Programming guide is available in both PDF format (**AGBInfraredCommProgGuide.PDF**) and HTML format (/AllManual/ir) and covers programming for use with the Infrared Adapter.
 
 The GBA Infrared Adapter (**AGB-006**) was an accessory that was released 2 years after the GBA and only ever used in 1 Japanese game called **Cyber Drive Zoids**.
+
+</div>
+</section> 
 
 As the hardware is now quite rare and it was only ever used for one game this documentation will most likely not be useful to anyone reverse engineering or creating a new GBA game.
 
@@ -158,7 +199,7 @@ However **Shonumi** has written an excellent Edge of Emulation article on implem
 ---
 ## Frequently Asked Questions (/AllManual/faq)
 <section class="postSection">
-    <div class="css-folder css-folder-left wow slideInLeft postImage">/gnu</div>
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/faq</div>
 
  <div markdown="1" class="rr-post-markdown">
 This folder contains Frequently asked questions in HTML format for Game Boy Advance Development split into the following categories:
