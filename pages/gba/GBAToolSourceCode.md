@@ -384,19 +384,6 @@ util | .h | Include file for declaring
 </div>
 
 <div class="rr-file-card">
-  <img class="geopattern" data-title="image.h" />
-  <h3>image.h</h3><ul>
-    <li><span>inline bool</span> operator<span>==(const Image<_Ty>&_L,const Image<_Ty>&_R){
-    return ((Image<_Ty>&)_L).Compare( (Image<_Ty>&)_R );
-}</span></li> 
-    <li><span>inline bool</span> operator<span>!=(const Image<_Ty>&_L,const Image<_Ty>&_R){
-    return !(_L == _R);
-}</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">366</div>  </div>
-</div>
-
-<div class="rr-file-card">
   <img class="geopattern" data-title="map.h" />
   <h3>map.h</h3><ul>
   </ul>
