@@ -1585,7 +1585,10 @@ The SDK also comes with 13 sample projects, each showing off a different feature
 
 
 ## Tool Source Code (src/bin)
+The Tool Source Code folder holds the source code for most of the standard GBA development tools that deal with image conversion, the pre-compiled tools are available in the **/bin** directory.
 
+If you are interested in going in depth into the source code for how these tools works then we have a separate post covering just that:
+{% include link-to-other-post.html post="/game-boy-advance-tool-source-code/" description="For more information about the GBA SDK Tool Source Code check out this post." %}
 
 ---
 # GBA Compilers
@@ -1594,9 +1597,9 @@ The compilers provided for the GBA were a modified version of GNU GCC distribute
 The version of GCC shipped with the SDK is 2.95.1 which is handy to know when decompiling the games back to C source code, about 90% of games were compiled with this version including the Pokemon series of games.
 
 There is a RAR file called **gba_compilers.rar** that is an archive that contains the following files inside it:
-* armelf-000512.zip - All the pre-compiled tools such as compilers and linkers
-* thumb_patch03-OCT-03.zip - contains an updated version of the THUMB C compilers (cc1.exe and cc1plus.exe)
-* src_patch021206.zip - Patch for arm-000512 from 2006
-* GNUPro021206.zip - Contains Setup.exe for installing the compiler toolchain
+* **armelf-000512.zip** - All the pre-compiled tools such as compilers and linkers
+* **thumb_patch03-OCT-03.zip** - contains an updated version of the THUMB C compilers (cc1.exe and cc1plus.exe)
+* **src_patch021206.zip** - Patch for arm-000512 from 2006
+* **GNUPro021206.zip** - Contains Setup.exe for installing the compiler toolchain
 
 In the leaked version there is also a **armelf-000512** folder which is not the contents of **armelf-000512.zip** but it looks like it is the GNU source code for the tools provided in that zip.
