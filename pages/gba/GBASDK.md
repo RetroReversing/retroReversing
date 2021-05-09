@@ -125,12 +125,19 @@ There are a few areas of memory that need to be in a specific format:
 * Background Data (Different format for Character mode vs Bitmap mode)
 * Sprite Data/OAM - X/Y position of sprites and the image to show
 
-If you are creating a GBA game you need to follow these Data Formats otherwise the screen will look corrrupt, most emulators will be able to help you out with their VRAM viewer windows.
+If you are creating a GBA game you need to follow these Data Formats otherwise the screen will look corrupt, most emulators will be able to help you out with their VRAM viewer windows.
 
 ## ARM7TDMI Reference Manual by ARM 
+<section class="postSection">
+    <div class="file-icon file-icon-xl wow slideInLeft postImage" data-type="pdf">ARM7TDMI</div>
+
+ <div markdown="1" class="rr-post-markdown">
 The **ARM7TDMI** Reference Manual is a PDF specification (**/AllManual/arm/ARM7TDMI_Ref_man.pdf**) provided by ARM that has 275 pages of pretty much everything you would ever want to know about the CPU used in the Game Boy Advance.
 
 As this is a reference I wouldn't recommend reading it and instead just refer to it if you are looking into how a particular feature of the CPU works. You can reverse and create games without ever having opened this manual but when anytime you wonder about the Coprocessor or assembly instruction timings then this is a great reference.
+ </div>
+</section> 
+
 
 ## AGB IR Communication Library Manual
 The AGB IR Communication Library manual is available in both PDF format (**AGBIRCommLibraryMan1.0.PDF**) and HTML format (/AllManual/ir) and covers the very low level technology details of how the IR interface works at the hardware level.
