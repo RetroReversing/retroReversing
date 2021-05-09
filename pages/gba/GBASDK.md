@@ -292,6 +292,8 @@ This folder contains documentation for the Yoshi Demo project including the basi
 
  <div markdown="1" class="rr-post-markdown">
 This folder contains basic documentation for each of the samples provided in the **/src** directory that show off certain graphical features of the GBA hardware.
+</div>
+</section> 
 
 File Name | Extension | Description
 ---|---|---
@@ -301,8 +303,6 @@ bmpmode | .htm | Background Bitmap mode example code
 coleffsm | .htm | Special Color effects sample code
 obj_rsm | .htm | Object (Sprite) demo code showing rotating, scaling and moving sprites
 swinsm | .htm | Example code showing off the different Window modes
-</div>
-</section> 
 
 ---
 # API Headers (/include folder)
@@ -1440,6 +1440,7 @@ IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">161</div>  </div>
 </div>
+</div>
 </section>
 
 ---
@@ -1454,7 +1455,8 @@ AgbFlash | .h | Include file for declaring FLASH chip reading/writing functions 
 AgbSram | .h | Include file for declaring the slower (but uses less WRAM) SRAM reading/writing functions such as  **ReadSram**
 AgbSramFast | .h | Include file for declaring the faster (but more memory intensive) SRAM reading/writing functions such as **ReadSramFast**
 
-<div class="rr-source-code-title">Backup Library Header Files</div><section class="rr-main-cards">
+<div class="rr-source-code-title">Backup Library Header Files</div>
+<section class="rr-main-cards">
 
 <div class="rr-file-card">
   <img class="geopattern" data-title="AgbDacs.h" />
@@ -1503,7 +1505,7 @@ AgbSramFast | .h | Include file for declaring the faster (but more memory intens
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">103</div>  </div>
 </div>
 
-</div>
+</section>
 
 ---
 # API Libraries (/lib folder)
