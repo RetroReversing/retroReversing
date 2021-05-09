@@ -3,6 +3,10 @@
   font-weight: 600;
 }
 
+.post strong {
+  color: #2089b0;
+}
+
 .post ul {
   list-style-type: initial;
   padding-left: 5%;
