@@ -22,11 +22,18 @@ editlink: /gba/GBASDK.md
 ---
 
 # Introduction
+<section class="postSection">
+    <img src="https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
 This page covers release **3.0** of the english software development kit, but the other versions are very similar to this. It is unclear if this was the last release of the development kit.
 
 In the documentation Nintendo calls this SDK the **GameBoy Advance Developers Kit 2000** presumably due to using the millennium/2000 was very trendy at the time.
 
 This was distributed to developers as a windows installer called **AGBSetup.exe** which would by default install it into a folder called **/agb** for Advanced Game Boy, so when upgrading the SDK it tells developers to delete the contents of the **/agb** directory before updating.
+
+ </div>
+</section> 
 
 ## Japanese SDK
 As Nintendo is a Japanese company the SDK was originally created in Japanese and localised to English, however there are a few differences between the development kits.
@@ -270,10 +277,9 @@ This folder contains the following subsections:
 </div>
 </section> 
 
-### Iruka (Dolphin) Demo Documentaton (/AllManual/others/demo/Iruka)
+### Iruka (Dolphin) Demo Documentation (/AllManual/others/demo/Iruka)
 This folder contains documentation for the demo Dolphin game included in the **/src** folder and even includes UML-like Flow diagrams for the main game logic!
 
----
 ### Yoshi Demo Documentation (/AllManual/others/demo/yoshi)
 This folder contains documentation for the Yoshi Demo project including the basics of how to play and the technology involved in its creation.
 
@@ -281,6 +287,10 @@ This folder contains documentation for the Yoshi Demo project including the basi
 
 ---
 ### Function Sample Documentation (/AllManual/others/func_sample)
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/func_sample</div>
+
+ <div markdown="1" class="rr-post-markdown">
 This folder contains basic documentation for each of the samples provided in the **/src** directory that show off certain graphical features of the GBA hardware.
 
 File Name | Extension | Description
@@ -291,6 +301,8 @@ bmpmode | .htm | Background Bitmap mode example code
 coleffsm | .htm | Special Color effects sample code
 obj_rsm | .htm | Object (Sprite) demo code showing rotating, scaling and moving sprites
 swinsm | .htm | Example code showing off the different Window modes
+</div>
+</section> 
 
 ---
 # API Headers (/include folder)
@@ -1443,6 +1455,7 @@ AgbSram | .h | Include file for declaring the slower (but uses less WRAM) SRAM r
 AgbSramFast | .h | Include file for declaring the faster (but more memory intensive) SRAM reading/writing functions such as **ReadSramFast**
 
 <div class="rr-source-code-title">Backup Library Header Files</div><section class="rr-main-cards">
+
 <div class="rr-file-card">
   <img class="geopattern" data-title="AgbDacs.h" />
   <h3>AgbDacs.h</h3><ul>
@@ -1490,10 +1503,15 @@ AgbSramFast | .h | Include file for declaring the faster (but more memory intens
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">103</div>  </div>
 </div>
 
+</div>
 
 ---
 # API Libraries (/lib folder)
-There are two types of library in this folder *.a and *.alf.
+<section class="postSection">
+    <div class="css-folder css-folder-left wow slideInLeft postImage">/lib</div>
+
+ <div markdown="1" class="rr-post-markdown">
+This folder contains all the libraries that a developer can link into their GBA game, they contains some useful functions for using system calls, game saves and IR communication. There are two types of library in this folder *.a and *.alf.
 
 The libraries included are as follows:
 * **libagbsyscall.a** - System Call Library
@@ -1506,16 +1524,18 @@ The libraries included are as follows:
 * **libisagbprn.a** - Debug library for Printing messages to console
 * **libisagbprn_arm.alf** - Debug library for Printing messages to console (ARM version)
 
+ </div>
+</section> 
 
 ---
 # Source code (/src folder)
 The source folder contains all the C and assembly source code for:
-* two demo games
-* 13 function samples
-* System Call library source code (assembly)
+* Two demo games (Dolphin and Yoshi)
+* 13 samples of GBA functionality
+* The System Call library source code in ARM assembly
 * Source code for all of the tools in the **bin** directory
 
-## Demos
+## Demo Source Code (src/demos)
 The GBA SDK comes with source code for 2 demo games:
 * Yoshi - A demo using sprites from the N64 game Yoshi's story
 * Dolphin - A demo similar to ecco the dolphin
@@ -1556,7 +1576,8 @@ ArcTan:			swi		9 // This calls software interupt number 9
 		.END
 ```
 
-## Sample Source Code
+## Sample Source Code (src/samples)
+The SDK also comes with 13 sample projects, each showing off a different feature of the GBA hardware, this section would be huge if we went into detail on this page, so we have split it out into its own page.
 
 {% include link-to-other-post.html post="/game-boy-advance-sdk-samples/" description="For more information about the Samples provided by the SDK check out this post." %}
 
