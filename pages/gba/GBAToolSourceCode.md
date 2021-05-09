@@ -85,24 +85,6 @@ act2agb | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for descr
 main | .cpp | Just contains main function that shows the usage information, parses the arguments and calls the library functions
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">85</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
-
 ---
 ## Agbparts (agbparts)
 This folder contains 
@@ -112,25 +94,6 @@ File Name | Extension | Description
 agbparts | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for description of the files
 main | .cpp | 
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
-
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">175</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
 
 ---
 ## Bin2h (bin2h)
@@ -142,26 +105,6 @@ bin2h | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for descrip
 main | .cpp | 
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
 
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-    <li><span>unsigned long</span> get_file_size<span>(const char *file_name)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">127</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
-
 ---
 ## BMP to bin (bmp2bin)
 This folder contains the source code to **bmp2bin** which is a simple tool that converts a single BMP image into a binary .IMB file that can be included inside a GBA ROM.
@@ -171,25 +114,6 @@ File Name | Extension | Description
 bmp2bin | .aps, .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for description of the files
 main | .cpp | 
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
-
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">252</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
 
 ---
 ## BMP to map (bmp2map)
@@ -201,25 +125,6 @@ bmp2map | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for descr
 main | .cpp | 
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
 
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">288</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
-
 ---
 ## Split BMP into grid of images (bmpgrid)
 This folder contains the source code for **bmpgrid** a command line tool that converts a single BMP into multiple images based on the width and height of a tile.
@@ -229,25 +134,6 @@ File Name | Extension | Description
 BmpGrid | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for description of the files
 main | .cpp | 
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
-
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">203</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
-
-</section>
 
 ---
 ## Bmp color reducer (bmpred)
@@ -289,13 +175,6 @@ resource | .h | Include file for declaring the default macros from Visual C++ 5.
     <li><span>Picture </span> CreateReductionPicture<span>(const HPicture&_Hpic,const Palette&_Pal,u16 offset)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
 </div>
 
 </section>
@@ -364,13 +243,6 @@ sgi2bmp | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for descr
     <li><span>static bool</span> sgiCreateImage<span>(HPicture&pic,IMAGEHEADER&imh,unsigned char *pSrc,char flag,short tp,Color&bkcolor)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">335</div>  </div>
-</div>
-
-<div class="rr-file-card">
-  <img class="geopattern" data-title="resource.h" />
-  <h3>resource.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
 </div>
 
 </section>
