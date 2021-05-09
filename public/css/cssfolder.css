@@ -23,3 +23,11 @@
   border-right: 10px solid transparent;
   z-index: -1;
 }
+
+/* Css folder used as left image */
+.css-folder-left {
+  margin: 10px;
+  text-align: center;
+  font-weight: 400;
+  padding-top: 5px;
+}
