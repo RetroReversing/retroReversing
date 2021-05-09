@@ -1218,3 +1218,8 @@ y_tont1 | .o |
 y_tont2 | .o | 
 y_upup | .o | 
 y_ywiha | .o | 
+
+---
+# Zelda 2 Tech demo
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A long-rumored Zelda II tech demo for GBA has finally surfaced, ROM and source code included!<br><br>It&#39;s a included as reference in the GBA SDK, found on a Spongebob GBA dev disc uploaded by <a href="https://twitter.com/JacobLenstar?ref_src=twsrc%5Etfw">@JacobLenstar</a>.<br><br>ROM + Source:<a href="https://t.co/p9aCkSF8Q1">https://t.co/p9aCkSF8Q1</a><br><br>Full archive:<a href="https://t.co/7hquBy9lnX">https://t.co/7hquBy9lnX</a> <a href="https://t.co/mrvtbkudJ8">pic.twitter.com/mrvtbkudJ8</a></p>&mdash; MrTalida (@MrTalida) <a href="https://twitter.com/MrTalida/status/1208849338073411584?ref_src=twsrc%5Etfw">December 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
