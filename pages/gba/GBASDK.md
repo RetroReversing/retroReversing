@@ -160,9 +160,18 @@ This folder contains Frequently asked questions in HTML format for Game Boy Adva
 
 ---
 ## GNU Documentation (/AllManual/gnu)
-This folder contains HTML documentation provided by Cygnus for their **GNUPro Toolkit** product which was a suite of compilers based on GCC but with official support from Cygnus (later RedHat) for compiling to ARM assembly.
+<section class="postSection">
+    <div class="css-folder wow slideInLeft postImage"></div>
 
-This is the same as any GCC documentation you can find freely on the web and is not customized to the GBA so it will not be covered here.
+ <div markdown="1">
+  This folder contains HTML documentation provided by Cygnus for their **GNUPro Toolkit** product which was a suite of compilers based on GCC but with official support from Cygnus (later RedHat) for compiling to ARM assembly.
+  
+  This is the same as any GCC documentation you can find freely on the web and is not customized to the GBA so it will not be covered here.
+
+ </div>
+</section> 
+
+
 
 ---
 ## Header Documentation (/AllManual/header)
