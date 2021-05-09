@@ -19,6 +19,7 @@ recommend:
 - sdk
 - gba
 editlink: /gba/GBASDK.md
+updatedAt: '2021-05-09'
 ---
 
 # Introduction
@@ -1594,7 +1595,7 @@ If you are interested in going in depth into the source code for how these tools
 # GBA Compilers
 The compilers provided for the GBA were a modified version of GNU GCC distributed by **Cygnus Solutions** (Cygwin) for the ARM architecture. They provided an installed called **AGBSetup2.exe** on the AGB Developers ToolKit CD which installed the programs to **C:\Program files\cygnus**.
 
-The version of GCC shipped with the SDK is 2.95.1 which is handy to know when decompiling the games back to C source code, about 90% of games were compiled with this version including the Pokemon series of games.
+The version of GCC shipped with the SDK is **2.95.1** which is handy to know when decompiling the games back to C source code, about **90%** of games were compiled with this version including the Pokemon series of games.
 
 There is a RAR file called **gba_compilers.rar** that is an archive that contains the following files inside it:
 * **armelf-000512.zip** - All the pre-compiled tools such as compilers and linkers
