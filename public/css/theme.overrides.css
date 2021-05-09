@@ -51,6 +51,10 @@
   text-align: center;
 }
 
+.rr-post-markdown {
+    padding-left: 40px;
+}
+
 
 /*  ILBM Viewer */
 .draghint {
