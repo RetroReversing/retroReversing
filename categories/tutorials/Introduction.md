@@ -161,8 +161,12 @@ strings yourfilename
 </section> 
 
 ---
-# Lesson 3 - CPU, Executables & Assembly Code
+# Lesson 3 - Executables, CPU & Assembly Code
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
+
+## What is an executable and how does it work?
+The Youtuber **Bisqwit** bhas created an excellent video on how executables work:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hhgxsrAFyz8" title="What are EXE files made of?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How a CPU Works
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
