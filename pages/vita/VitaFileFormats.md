@@ -5,8 +5,8 @@ tags:
 - vita
 - sony
 title: Playstation Vita File Formats
-thumbnail: /public/consoles/Vita.png
-image: /public/consoles/Vita.png
+thumbnail: /public/consoles/Sony PSVita.png
+image: /public/consoles/Sony PSVita.png
 permalink: /playstation-vita-file-formats/
 breadcrumbs:
   - name: Home
