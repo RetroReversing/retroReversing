@@ -38,31 +38,39 @@ Unity3d has supported the Nintendo Switch right from launch and the dev tools ar
 Unity3D games are compiled from .net byte code down to C++ when generating a Nintendo Switch version. This makes it harder than standard Unity reverse engineering as the generated native code is harder to decompile than .net byte code.
 
 There are tools than support dumping the data from Unity NRO games such as the Il2CppDumper:
-https://github.com/Perfare/Il2CppDumper
+[https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 
-You should always backup `Managed/Metadata/global-metadata.dat` as it contains debug symbols for the game.
+You should always backup **Managed/Metadata/global-metadata.dat** as it contains debug symbols for the game.
 
 ## Games built with Unity
+The best way to check if a switch game is using the Unity engine is to look in the RomFs filesystem for a file called `Managed/Metadata/global-metadata.dat`, this contains debug symbols, the larger the file size the more symbols are included.
 
 Game Name | Proof of engine
 ---|---
-Ash of Gods: Redemption | `Managed/Metadata/global-metadata.dat`
-Black Future 88  | `Managed/Metadata/global-metadata.dat`
-Cat Quest | contains file `unity_builtin_extra`
+Aces of the luftwaffe Squadron | global-metadata.dat (4.33 MB)
+Ash of Gods: Redemption | global-metadata.dat
+Avicii Invector | global-metadata.dat (7.72 MB)
+Black Future 88  | global-metadata.dat
+Cat Quest | global-metadata.dat (6.97 MB)
 Children of Morta | contains file `unity_builtin_extra`
 Harvest Moon Light of Hope | contains file `unity_builtin_extra`
-Horizon Chase | `Managed/Metadata/global-metadata.dat`
+Horizon Chase | global-metadata.dat (5.30 MB)
 Human Fall Flat | contains file `unity_builtin_extra`
-Mountain Rescue Simulator | `Managed/Metadata/global-metadata.dat`
-Riot Civil Unrest | contains file `Managed/Metadata/global-metadata.dat`
+Into the Dead 2 | global-metadata.dat (5.66 MB)
+John Wicks Hex | 8.98 MB
+Mountain Rescue Simulator | global-metadata.dat (8.09 MB)
+Riot Civil Unrest | global-metadata.dat
 RPG Maker MV | contains file `unity_builtin_extra`
 Saturday morning RPG | contains file `unity_builtin_extra`
-Snow Moto Racing Freedom | `Managed/Metadata/global-metadata.dat`
-Songbird Symphony | `Managed/Metadata/global-metadata.dat`
-Stranded Sails: Explorers of the cursed Islands | `Managed/Metadata/global-metadata.dat`
+Snow Moto Racing Freedom | global-metadata.dat
+Songbird Symphony | global-metadata.dat
+Stranded Sails: Explorers of the cursed Islands | global-metadata.dat
+Super Epic: The Entertainment War | global-metadata.dat (8.07 MB)
 Super Monkey Ball Banana Blitz HD | contains file: `data.unity3d`
-The World Ends with You | `Managed/Metadata/global-metadata.dat`
-Two Point Hospital | `Managed/Metadata/global-metadata.dat`
+Truck & Logistics Simulator | global-metadata.dat (9.54 MB)
+The Dark Crystal Age of Resistance Tactics | global-metadata.dat (13.4 MB)
+The World Ends with You | global-metadata.dat
+Two Point Hospital | global-metadata.dat (16.7 MB)
  
 ---
 # Clickteam Fusion
@@ -86,6 +94,7 @@ Undertale | string in main executable: `SDK MW+YoYoGames+GameMaker_Studio_2-11.1
 
 ---
 # Haxe (Heaps.io)
+There is only one Switch game so far that uses the Haxe engine and it is the excellent **Dead Cells**, well worth a purchase whenever it is on sale! 
 
 ## Games
 Game Name | Proof of engine
@@ -95,6 +104,7 @@ Dead Cells | contains string `C:/Projects/haxeTools/lib/hashlink/src/alloc.c`
 
 ---
 # MonoGame (XNA)
+It is relatively rare to find a Switch game created with MonoGame but they do exist and you can find a few in the table below.
 
 ## Games
 Game Name | Proof of engine
@@ -111,16 +121,20 @@ The Unreal Engine was developed by [Epic Games](https://www.epicgames.com/) init
 </section>
 
 ## Games
+You can detect Unreal Engine games on the Nintendo switch very easily by looking at the root of the ROMFS section and if it contains a file called **UE4CommandLine.txt** then it is likely to be an UnrealEngine 4 game.
 
 Game Name | Proof of engine
 ---|---
+9 Monkeys of Shaolin | UE4CommandLine.txt
 Bioshock remastered | `engine.u`
-GRIP Combat racing | `UE4CommandLine.txt`
-Hello Neighbour Hide and Seek  | `UE4CommandLine.txt`
-Jumanji | `UE4CommandLine.txt`
-Monster JAM Crush it | `UE4CommandLine.txt`
-Narcos Rise Of the Cartels | `UE4CommandLine.txt`
-Trials of Mana | `UE4CommandLine.txt`
+Gigantosaurus The Game | UE4CommandLine.txt
+GRIP Combat racing | UE4CommandLine.txt
+Hello Neighbour Hide and Seek  | UE4CommandLine.txt
+Jumanji | UE4CommandLine.txt
+Monster JAM Crush it | UE4CommandLine.txt
+Narcos Rise Of the Cartels | UE4CommandLine.txt
+Remothered Tormented Fathers | UE4CommandLine.txt
+Trials of Mana | UE4CommandLine.txt
 
 ---
 # Havok
@@ -133,9 +147,18 @@ Havok is a popular physics engines that has been ported to the Nintendo switch.
 
 ## Games
 
-Game Name | Proof of engine
+Game Name | Notes
 ---|---
 Dark Souls | 
+
+---
+# MT Framework (in-house Capcom engine)
+
+[MT Framework - Wikipedia](https://en.wikipedia.org/wiki/MT_Framework)
+
+Game Name | Details
+---|---
+Mega Man 11 | contains *.arc files for compressed assets
 
 ---
 # Other Engines
@@ -143,10 +166,24 @@ Dark Souls |
 Game Name | Details
 ---|---
 ARMS | Possibly using parts of the Mario Kart engine?
-The Binding of Isaac | 
+The Binding of Isaac | Custom?
 Retro City Rampage | Custom
 Skyrim | Creation Engine (GameBryo)
+Streets of rage 4 | in-house Guard Crush Engine
 Wolfenstein II: The New Colossus | id Tech 6
+
+---
+# Unknown (Custom?) Engines
+
+Game Name | Details
+---|---
+Azure striker Gunvolt pack | contains *.irarc files
+Borderlands | contains *.xxx (WillowGame?)
+Metro 2033 redux | contains *.vfs0 files
+Shantae and the Pirates Curse | contains *.vol files
+Ultra Street Fighter II: The Final Challengers | contains *.arc files
+VRally 4 | contains *.paclog files
+
 
 ---
 # References
