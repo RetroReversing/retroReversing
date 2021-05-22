@@ -6,7 +6,8 @@ tags:
 - sony
 title: Playstation Vita File Formats
 thumbnail: /public/consoles/Sony PSVita.png
-image: /public/consoles/Sony PSVita.png
+image: /public/images/vita/PSVita File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/vita/PSVita File Formats.jpg
 permalink: /playstation-vita-file-formats/
 breadcrumbs:
   - name: Home
@@ -69,8 +70,29 @@ Executable files are where all the game code is stored in binary and can be disa
 ## SELF - Signed ELF executables
 SELF files are the main executables that run on the Playstation Vita and PS3, it is a Sony specific extension of the well known ELF (Executable and Linkable Format) file format that is used on many other systems (Linux, PS2, Gamecube..) [^1].
 
+### Extract ELF from SELF
+You need to build **vita-unmake-fself** from 
+```bash
+./vita-unmake-fself eboot.bin
+```
+
 ## SPRX - Signed Playstation Relocatable eXecutable
 SPRX files are basically dynamic libraries similar to **DLL** files on Windows, **Dylib** files on OSX and **IRX** files on Playstation 2.
+
+---
+# Archive files
+
+## PSARC - Playstation Archive (PS3/Vita)
+In order to extract a psarc file you can use the following tool: [paul-hedrick/psarc](https://github.com/paul-hedrick/psarc)
+```bash
+/psarc -x data.arc
+```
+
+---
+# Asset Files
+
+## GXT - Game Texture
+[GXT - Vita Dev Wiki](https://playstationdev.wiki/psvitadevwiki/index.php?title=GXT)
 
 ---
 # Terminology
@@ -81,5 +103,5 @@ This section contains a definition of terminology you might see related to the f
 
 ---
 # References
-[^1]: [SELF - SPRX - PS3 Developer wiki](https://www.psdevwiki.com/ps3/SELF_-_SPRX)
-[^2]: [PKG files - PS3 Developer wiki](https://www.psdevwiki.com/ps3/PKG_files)
+[^1]: [SELF SPRX PS3 Developer wiki](https://www.psdevwiki.com/ps3/SELF_-_SPRX)
+[^2]: [PKG files PS3 Developer wiki](https://www.psdevwiki.com/ps3/PKG_files)
