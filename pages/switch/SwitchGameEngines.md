@@ -53,11 +53,12 @@ Avicii Invector | global-metadata.dat (7.72 MB)
 Black Future 88  | global-metadata.dat
 Cat Quest | global-metadata.dat (6.97 MB)
 Children of Morta | contains file `unity_builtin_extra`
+Fitness Boxing | global-metadata.dat (5.77 MB)
 Harvest Moon Light of Hope | contains file `unity_builtin_extra`
 Horizon Chase | global-metadata.dat (5.30 MB)
 Human Fall Flat | contains file `unity_builtin_extra`
 Into the Dead 2 | global-metadata.dat (5.66 MB)
-John Wicks Hex | 8.98 MB
+John Wicks Hex | global-metadata.dat (8.98 MB)
 Mountain Rescue Simulator | global-metadata.dat (8.09 MB)
 Riot Civil Unrest | global-metadata.dat
 RPG Maker MV | contains file `unity_builtin_extra`
@@ -134,6 +135,7 @@ Jumanji | UE4CommandLine.txt
 Monster JAM Crush it | UE4CommandLine.txt
 Narcos Rise Of the Cartels | UE4CommandLine.txt
 Remothered Tormented Fathers | UE4CommandLine.txt
+Skully | UE4CommandLine.txt
 Trials of Mana | UE4CommandLine.txt
 
 ---
@@ -159,18 +161,22 @@ Dark Souls |
 Game Name | Details
 ---|---
 Mega Man 11 | contains *.arc files for compressed assets
+Ultra Street Fighter II: The Final Challengers | contains *.arc files
 
 ---
 # Other Engines
+The table below has other engines used for individual games, most are internal and not available to the public.
 
 Game Name | Details
 ---|---
 ARMS | Possibly using parts of the Mario Kart engine?
-The Binding of Isaac | Custom?
-Retro City Rampage | Custom
+Payday 2 | Diesel 2.0
+Rayman Legends | UbiArt
+Retro City Rampage | Vblank Engine
 Skyrim | Creation Engine (GameBryo)
 Streets of rage 4 | in-house Guard Crush Engine
 Wolfenstein II: The New Colossus | id Tech 6
+
 
 ---
 # Unknown (Custom?) Engines
@@ -181,7 +187,7 @@ Azure striker Gunvolt pack | contains *.irarc files
 Borderlands | contains *.xxx (WillowGame?)
 Metro 2033 redux | contains *.vfs0 files
 Shantae and the Pirates Curse | contains *.vol files
-Ultra Street Fighter II: The Final Challengers | contains *.arc files
+The Binding of Isaac | Custom?
 VRally 4 | contains *.paclog files
 
 
