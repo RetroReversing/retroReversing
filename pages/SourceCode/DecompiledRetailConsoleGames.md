@@ -144,13 +144,13 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo GameCube
 
 ### Naruto: Gekitō Ninja Taisen! 4
-{% include link-to-other-site.html url="https://github.com/doldecomp/gnt4" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://static.wikia.nocookie.net/naruto/images/d/de/Clash_4.jpg/revision/latest?cb=20081024213758" title="Naruto: Gekitō Ninja Taisen! 4"  %}
+{% include link-to-other-site.html url="https://github.com/doldecomp/gnt4" description="" image="" title="Naruto: Gekitō Ninja Taisen! 4"  %}
 
 ### Legend of Zelda: Twilight Princess
-{% include link-to-other-site.html url="https://github.com/zeldaret/tp" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://www.covercentury.com/covers/gamecube/t/gc_thelegendofzeldatwilightprincess_au.jpg" title="Legend of Zelda: Twilight Princess"  %}
+{% include link-to-other-site.html url="https://github.com/zeldaret/tp" description="" image="https://www.covercentury.com/covers/gamecube/t/gc_thelegendofzeldatwilightprincess_au.jpg" title="Legend of Zelda: Twilight Princess"  %}
 
 ### Paper Mario: The Thousand Year Door
-{% include link-to-other-site.html url="https://github.com/doldecomp/ttyd" description="Disassembly of the main .dol-file of Super Mario Sunshine, lacks documentation but a very impressive project." image="https://static.wikia.nocookie.net/mario/images/6/60/Paper_Mario_-_The_Thousand-Year_Door_%28North_American_box%29.png/revision/latest/scale-to-width-down/1000?cb=20121207162930" title="Paper Mario: The Thousand Year Door"  %}
+{% include link-to-other-site.html url="https://github.com/doldecomp/ttyd" description="" image="" title="Paper Mario: The Thousand Year Door"  %}
 
 ### Super Smash Bros Melee
 {% include link-to-other-site.html url="https://github.com/doldecomp/melee" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/220px-Super_Smash_Bros_Melee_box_art.png" title="A decompilation of Super Smash Bros Melee"  %}
@@ -162,7 +162,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo Wii
 
 ### Wii Sports
-{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
+{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="" image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
 
 ### Legend of Zelda Ocarina of Time (Wii Virtual Console)
 {% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of Legend of Zelda Ocarina of Time for the Wii Virtual Console" image="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png/220px-The_Legend_of_Zelda_Ocarina_of_Time_box_art.png" title="Disassembly of Legend of Zelda Ocarina of Time" %}
@@ -179,7 +179,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo Game Boy
 
 ### Donkey Kong '94
-{% include link-to-other-site.html url="https://github.com/CelestialAmber/DKGBDisasm" description="This is a disassembly of Kirby's Dream Land (Game Boy), still under active development but many subroutines still to be named. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Donkey Kong '94"  %}
+{% include link-to-other-site.html url="https://github.com/CelestialAmber/DKGBDisasm" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Donkey_Kong_94_box_art.jpg/220px-Donkey_Kong_94_box_art.jpg" title="Donkey Kong '94"  %}
 
 ### Kirby's Dream Land
 {% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="This is a disassembly of Kirby's Dream Land (Game Boy), still under active development but many subroutines still to be named. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
@@ -194,7 +194,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="Incomplete disassembly of Super Mario Land (World) (Rev A). It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
 
 ### Super Mario Land 3: Wario Land
-{% include link-to-other-site.html url="https://github.com/Kak2X/wl" description="Incomplete disassembly of Super Mario Land (World) (Rev A). It ues the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land 3 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/Kak2X/wl" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
 
 ---
 ## Nintendo Game Boy Color
@@ -226,8 +226,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ---
 ## Game Boy Advance
 
-### Banjo Kazooie Grunty's Revange
-{% include link-to-other-site.html url="https://github.com/jellees/bkgr" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Banjo Kazooie Grunty's Revange"  %}
+### Banjo Kazooie Grunty's Revenge
+{% include link-to-other-site.html url="https://github.com/jellees/bkgr" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Bkgruntysrevengentsc.jpg/220px-Bkgruntysrevengentsc.jpg" title="Banjo Kazooie Grunty's Revenge"  %}
 
 ### Fire Emblem: The Sacred Stones
 {% include link-to-other-site.html url="https://github.com/FireEmblemUniverse/fireemblem8u" description="This is a disassembly of Fire Emblem: The Sacred Stones (U)[!], it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG" title="Decompilation/disassembly of Fire Emblem: The Sacred Stones"  %}
@@ -236,13 +236,13 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/jiangzhengwenjz/katam" description="This is a disassembly of Kirby & The Amazing Mirror (USA), it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg" title="Disassembly of Kirby & The Amazing Mirror (USA)"  %}
 
 ### The Legend of Zelda: The Minish Cap
-{% include link-to-other-site.html url="https://github.com/zeldaret/tmc" description="This is a disassembly of Fire Emblem: The Sacred Stones (U), it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG" title="Decompilation/disassembly of Fire Emblem: The Sacred Stones"  %}
+{% include link-to-other-site.html url="https://github.com/zeldaret/tmc" description="" image="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG" title="The Legend of Zelda: The Minish Cap"  %}
 
 ### Mario & Luigi Superstar Saga
-{% include link-to-other-site.html url="https://github.com/nstearns96/MLSuperstarSaga" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of The Legend of Zelda: The Minish Cap"  %}
+{% include link-to-other-site.html url="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" description="" image="" title="Mario & Luigi Superstar Saga"  %}
 
 ### Mario VS Donkey Kong
-{% include link-to-other-site.html url="https://github.com/camthesaxman/mariovsdk" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Mario VS Donkey Kong"  %}
+{% include link-to-other-site.html url="https://github.com/camthesaxman/mariovsdk" description="" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Mario VS Donkey Kong"  %}
 
 ### Pokemon Ruby & Sapphire
 {% include link-to-other-site.html url="https://github.com/pret/pokeruby" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
@@ -257,7 +257,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ### Super Mario Advance 2: Super Mario World
-{% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Super Mario Advance 2: Super Mario World"  %}
+{% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="" image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg" title="Decompilation of Super Mario Advance 2: Super Mario World"  %}
 
 ---
 ## Nintendo DS
@@ -272,7 +272,7 @@ Sega is similar to Nintendo in that most of the games that people are interested
 ## 32X
 
 ### Knuckles Chaotix
-{% include link-to-other-site.html url="https://github.com/sonicretro/chaotix" description="Knuckles Chaotix" image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Kid_Chameleon_Coverart.png/220px-Kid_Chameleon_Coverart.png" title="Knuckles Chaotix"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/chaotix" description="Knuckles Chaotix" image="https://upload.wikimedia.org/wikipedia/en/d/dd/Knuckles%27_Chaotix_Coverart.png" title="Knuckles Chaotix"  %}
 
 ## Sega CD
 
@@ -309,7 +309,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 {% include link-to-other-site.html url="https://github.com/lory90/ps4disasm" description="Incomplete Phantasy star IV Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg" title="Phantasy Star IV Disassembly"  %}
 
 ### Ristar
-{% include link-to-other-site.html url="https://github.com/sonicretro/ristar" description="A disassembly of Ristar for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Ristar Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/ristar" description="A disassembly of Ristar for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/2/2a/Ristar_cover_EU.jpg" title="Ristar Disassembly"  %}
 
 ### Sonic 1
 {% include link-to-other-site.html url="https://github.com/sonicretro/s1disasm" description="The very latest Sonic 1 Disassembly, under very active development by the SonicRetro team. It uses the ASM68K assembler." image="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" title="Sonic 1 Disassembly"  %}
@@ -318,10 +318,10 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 {% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 2 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 2 Disassembly"  %}
 
 ### Sonic 3
-{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 2 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 3 Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 3 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_3_US_Cover.jpg" title="Sonic 3 Disassembly"  %}
 
 ### Sonic 3D Blast
-{% include link-to-other-site.html url="https://github.com/sonicretro/s3ddisasm" description="A disassembly of Sonic 3D Blast for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 3D Blast Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s3ddisasm" description="A disassembly of Sonic 3D Blast for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Sonic3D.jpg/220px-Sonic3D.jpg" title="Sonic 3D Blast Disassembly"  %}
 
 ### Sonic and Knuckles
 {% include link-to-other-site.html url="https://github.com/sonicretro/skdisasm" description="A disassembly of Sonic and Knuckles for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/d/d3/Sonic_%26_Knuckles_cover.jpg" title="Sonic and Knuckles Disassembly"  %}
@@ -345,7 +345,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 ## Sega Dreamcast (DC)
 
 ### Sonic Adventure (DC)
-{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="Sonic Adventure (DC) Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
 
 ---
 # Sony Systems
@@ -360,7 +360,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="A very early decompilation project for Need For Speed 4, but the progress that has been made is very impressive." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
 
 ### PSX DOOM
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="" title="Psx Doom Reverse Engineering"  %}
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg" title="Psx Doom Reverse Engineering"  %}
 
 ---
 # Microsoft Systems
@@ -374,10 +374,10 @@ There are only a handful of reverse engineered games for Microsoft games console
 ## PC
 
 ### Sonic CD
-{% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Sonic CD PC Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="https://thumbnails.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg/300px-Sonic_CD_1995_cover.jpg" image="" title="Sonic CD PC Disassembly"  %}
 
 ### Sonic and Knuckles Collection
-{% include link-to-other-site.html url="https://github.com/sonicretro/skc_disasm" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Sonic and Knuckles Collection PC Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/skc_disasm" description="" image="https://archive.org/download/S3KPCUSA/__ia_thumb.jpg" title="Sonic and Knuckles Collection PC Disassembly"  %}
 
 ---
 # Atari Systems
@@ -387,7 +387,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 {% include link-to-other-site.html url="https://github.com/johnidm/asm-atari-2600" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Multiple Atari 2600 Games"  %}
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Donkey Kong (Atari 2600)"  %}
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="" title="Donkey Kong (Atari 2600)"  %}
 
 ## ColecoVision
 
