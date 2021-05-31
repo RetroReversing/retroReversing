@@ -254,7 +254,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/pret/pokefirered" description="This is a disassembly of Pokémon FireRed and LeafGreen, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg" title="Decompilation of Pokémon FireRed/LeafGreen"  %}
 
 ### Pokémon Mystery Dungeon: Red Rescue Team
-{% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
+{% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ### Super Mario Advance 2: Super Mario World
 {% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="" image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg" title="Decompilation of Super Mario Advance 2: Super Mario World"  %}
@@ -309,7 +309,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 {% include link-to-other-site.html url="https://github.com/lory90/ps4disasm" description="Incomplete Phantasy star IV Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg" title="Phantasy Star IV Disassembly"  %}
 
 ### Ristar
-{% include link-to-other-site.html url="https://github.com/sonicretro/ristar" description="A disassembly of Ristar for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/2/2a/Ristar_cover_EU.jpg" title="Ristar Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/ristar" description="A disassembly of Ristar for the Sega Mega Drive/Genesis by SonicRetro." image="https://upload.wikimedia.org/wikipedia/en/2/2a/Ristar_cover_EU.jpg" title="Ristar Disassembly"  %}
 
 ### Sonic 1
 {% include link-to-other-site.html url="https://github.com/sonicretro/s1disasm" description="The very latest Sonic 1 Disassembly, under very active development by the SonicRetro team. It uses the ASM68K assembler." image="https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg" title="Sonic 1 Disassembly"  %}
@@ -318,7 +318,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 {% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 2 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Sonic 2 Disassembly"  %}
 
 ### Sonic 3
-{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 3 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_3_US_Cover.jpg" title="Sonic 3 Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2disasm" description="A disassembly of Sonic the Hedgehog 3 for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg" title="Sonic 3 Disassembly"  %}
 
 ### Sonic 3D Blast
 {% include link-to-other-site.html url="https://github.com/sonicretro/s3ddisasm" description="A disassembly of Sonic 3D Blast for the Sega Mega Drive/Genesis by SonicRetro. It uses the AS Macroassembler." image="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Sonic3D.jpg/220px-Sonic3D.jpg" title="Sonic 3D Blast Disassembly"  %}
@@ -387,7 +387,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 {% include link-to-other-site.html url="https://github.com/johnidm/asm-atari-2600" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Multiple Atari 2600 Games"  %}
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="" title="Donkey Kong (Atari 2600)"  %}
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)"  %}
 
 ## ColecoVision
 
