@@ -68,8 +68,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://gist.github.com/1wErt3r/4048722" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros The Lost Levels
-{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="
-This is a disassembly of Donkey Kong for the NES and it's different revisions - Rev 0 (Japenese), Rev 1 (International) and Gamecube. It's fully disassembled but it's not fully documented. Doesn't include graphics data. You must rip it yourself. Assembles with "asm6" assembler." image="https://upload.wikimedia.org/wikipedia/en/b/b5/Mariobros2japanbox.jpg" title="Full disassembly of Super Mario Bros" %}
+{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="This is a disassembly of Donkey Kong for the NES and it's different revisions - Rev 0 (Japenese), Rev 1 (International) and Gamecube. It's fully disassembled but it's not fully documented. Doesn't include graphics data. You must rip it yourself. Assembles with "asm6" assembler." image="https://upload.wikimedia.org/wikipedia/en/b/b5/Mariobros2japanbox.jpg" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros 3
 {% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="Looks like a fairly complete Disassembly of Super Mario Bros 3 that uses NESASM to re-assemble back into the original US ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
