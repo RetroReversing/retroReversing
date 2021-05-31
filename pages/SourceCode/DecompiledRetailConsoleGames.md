@@ -144,13 +144,13 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo GameCube
 
 ### Naruto: Gekitō Ninja Taisen! 4
-{% include link-to-other-site.html url="https://github.com/doldecomp/gnt4" description="" image="" title="Naruto: Gekitō Ninja Taisen! 4"  %}
+{% include link-to-other-site.html url="https://github.com/doldecomp/gnt4" description="" image="https://images-na.ssl-images-amazon.com/images/I/51G3ZCM607L._AC_.jpg" title="Naruto: Gekitō Ninja Taisen! 4"  %}
 
 ### Legend of Zelda: Twilight Princess
 {% include link-to-other-site.html url="https://github.com/zeldaret/tp" description="" image="https://www.covercentury.com/covers/gamecube/t/gc_thelegendofzeldatwilightprincess_au.jpg" title="Legend of Zelda: Twilight Princess"  %}
 
 ### Paper Mario: The Thousand Year Door
-{% include link-to-other-site.html url="https://github.com/doldecomp/ttyd" description="" image="" title="Paper Mario: The Thousand Year Door"  %}
+{% include link-to-other-site.html url="https://github.com/doldecomp/ttyd" description="" image="https://upload.wikimedia.org/wikipedia/en/1/18/Paper_Mario_The_Thousand-Year_Door_%28artwork%29.jpg" title="Paper Mario: The Thousand Year Door"  %}
 
 ### Super Smash Bros Melee
 {% include link-to-other-site.html url="https://github.com/doldecomp/melee" description="." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Super_Smash_Bros_Melee_box_art.png/220px-Super_Smash_Bros_Melee_box_art.png" title="A decompilation of Super Smash Bros Melee"  %}
@@ -239,7 +239,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/zeldaret/tmc" description="" image="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG" title="The Legend of Zelda: The Minish Cap"  %}
 
 ### Mario & Luigi Superstar Saga
-{% include link-to-other-site.html url="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" description="" image="" title="Mario & Luigi Superstar Saga"  %}
+{% include link-to-other-site.html url="" description="" image="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" title="Mario & Luigi Superstar Saga"  %}
 
 ### Mario VS Donkey Kong
 {% include link-to-other-site.html url="https://github.com/camthesaxman/mariovsdk" description="" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Mario VS Donkey Kong"  %}
@@ -297,7 +297,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 {% include link-to-other-site.html url="https://github.com/sonicretro/kid-chameleon-disasm" description="Kid Chameleon Disassembly seems to be fairly well documented but still needs much more work to document each subroutine" image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Kid_Chameleon_Coverart.png/220px-Kid_Chameleon_Coverart.png" title="Split disassembly of Kid Chameleon"  %}
 
 ### Knucles the Echidna in Sonic 2
-{% include link-to-other-site.html url="https://github.com/sonicretro/ktes2" description="Knucles the Echidna in Sonic 2" image="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Kid_Chameleon_Coverart.png/220px-Kid_Chameleon_Coverart.png" title="Knucles the Echidna in Sonic 2"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/ktes2" description="Knucles the Echidna in Sonic 2" image="https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg" title="Knucles the Echidna in Sonic 2"  %}
 
 ### Phantasy star II
 {% include link-to-other-site.html url="https://github.com/lory90/ps2disasm" description="Incomplete Phantasy star II Disassembly for Mega Drive/Genesis by lory90. It uses an assembler called ASW." image="https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg" title="Phantasy Star II Disassembly"  %}
