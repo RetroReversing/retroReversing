@@ -239,10 +239,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/zeldaret/tmc" description="" image="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG" title="The Legend of Zelda: The Minish Cap"  %}
 
 ### Mario & Luigi Superstar Saga
-{% include link-to-other-site.html url="" description="" image="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" title="Mario & Luigi Superstar Saga"  %}
+{% include link-to-other-site.html url="https://github.com/nstearns96/MLSuperstarSaga" description="" image="https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg" title="Mario & Luigi Superstar Saga"  %}
 
 ### Mario VS Donkey Kong
-{% include link-to-other-site.html url="https://github.com/camthesaxman/mariovsdk" description="" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Mario VS Donkey Kong"  %}
+{% include link-to-other-site.html url="https://github.com/camthesaxman/mariovsdk" description="" image="https://mario.wiki.gallery/images/9/9b/Mvd.jpg" title="Decompilation of Mario VS Donkey Kong"  %}
 
 ### Pokemon Ruby & Sapphire
 {% include link-to-other-site.html url="https://github.com/pret/pokeruby" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
