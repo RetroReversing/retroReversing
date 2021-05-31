@@ -105,7 +105,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/n64decomp/banjo-kazooie" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
 
 ### Conker's Bad Fur Day
-{% include link-to-other-site.html url="https://github.com/mkst/conker" description="Decompilation of Perfect Dark, about 25% complete" image="https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg" title="Decompilation of Conker's Bad Fur Day"  %}
+{% include link-to-other-site.html url="https://github.com/mkst/conker" description="Decompilation of Conker, about 4% complete" image="https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg" title="Decompilation of Conker's Bad Fur Day"  %}
 
 ### Diddy Kong Racing
 {% include link-to-other-site.html url="https://github.com/DavidSM64/Diddy-Kong-Racing" description="A very early decompilation of Diddy Kong Racing source by DavidSM64" image="https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg" title="Diddy Kong Racing"  %}
@@ -114,7 +114,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
 ### Goldeneye 007
-{% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Goldeneye 007"  %}
+{% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A an early decompilation of Goldeneye 007" image="https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg" title="Goldeneye 007 Decompilation"  %}
 
 ### Mario Kart 64
 {% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
@@ -129,16 +129,16 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/zeldaret/mm" description="A decompilation of The Legend of Zelda: Majora's Mask brought to you by a bunch of clever folks" image="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg/220px-The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" title="Decompilation of The Legend of Zelda: Majora's Mask"  %}
 
 ### Paper Mario
-{% include link-to-other-site.html url="https://github.com/pmret/papermario" description="Decompilation of Perfect Dark, about 25% complete" image="https://images.nintendolife.com/847b9a804f99c/paper-mario-cover.cover_large.jpg" title="Decompilation of Paper Mario"  %}
+{% include link-to-other-site.html url="https://github.com/pmret/papermario" description="Decompilation of Paper Mario, about 30% complete" image="https://images.nintendolife.com/847b9a804f99c/paper-mario-cover.cover_large.jpg" title="Decompilation of Paper Mario"  %}
 
 ### Pokemon Snap
-{% include link-to-other-site.html url="https://github.com/ethteck/pokemonsnap" description="Decompilation of Perfect Dark, about 25% complete" image="https://upload.wikimedia.org/wikipedia/en/0/0a/Pokémon_Snap_Coverart.png" title="Decompilation of Pokemon Snap"  %}
+{% include link-to-other-site.html url="https://github.com/ethteck/pokemonsnap" description="An early Decompilation of Pokemon Snap" image="https://upload.wikimedia.org/wikipedia/en/0/0a/Pokémon_Snap_Coverart.png" title="Decompilation of Pokemon Snap"  %}
 
 ### Pokemon Stadium
-{% include link-to-other-site.html url="https://github.com/ethteck/pokemonstadium" description="Decompilation of Perfect Dark, about 25% complete" image="https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg" title="Decompilation of Pokemon Stadium"  %}
+{% include link-to-other-site.html url="https://github.com/ethteck/pokemonstadium" description="Early Decompilation of Pokemon Stadium" image="https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg" title="Decompilation of Pokemon Stadium"  %}
 
 ### Quest 64
-{% include link-to-other-site.html url="https://github.com/mallos31/quest64" description="Decompilation of Perfect Dark, about 25% complete" image="https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg" title="Decompilation of Quest 64"  %}
+{% include link-to-other-site.html url="https://github.com/mallos31/quest64" description="Very early Decompilation of Quest 64" image="https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg" title="Decompilation of Quest 64"  %}
 
 ---
 ## Nintendo GameCube
