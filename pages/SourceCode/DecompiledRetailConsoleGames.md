@@ -44,7 +44,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/nmikstas/dragon-warrior-disassembly" description="Complete Dragon warrior disassembly by github user nmikstas, uses Ophis to assemble back into the original ROM" image="https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg" title="Complete Dragon warrior disassembly"  %}
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Sample source code games Atari 2600"  %}
+{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly" description="Donkey Kong NES disassembly" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Donkey Kong (NES)"  %}
 
 ### Final Fantasy
 {% include link-to-other-site.html url="https://github.com/Entroper/FF1Disassembly" description="Completed documentation of all code, uses ca65 to assemble back to original ROM" image="https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg" title="Final Fantasy 1 Disassembly"  %}
@@ -53,7 +53,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/camthesaxman/zeldasource" description="This is a work in progress disassembly of The Legend of Zelda for the Nintendo Entertainment System, it uses CC65 to assemble back in to the original ROM" image="https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png" title="Disassembly of Legend of Zelda"  %}
 
 ### Mario Bros
-{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Mario-Bros.-Dis" description="Fully complete disassembly of Mega Man 3 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mega Man 3 (NES)"  %}
+{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Mario-Bros.-Dis" description="Disassembly of Mario Bros for the NES" image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mario Bros (NES)"  %}
 
 ### Mega Man 3
 {% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman3-disassembly" description="Fully complete disassembly of Mega Man 3 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg" title="Full disassembly of Mega Man 3 (NES)"  %}
@@ -65,10 +65,10 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman5-disassembly" description="Fully complete disassembly of Mega Man 5 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg" title="Full disassembly of Mega Man 5"  %}
 
 ### Super Mario Bros
-{% include link-to-other-site.html url="https://gist.github.com/1wErt3r/4048722" description="COmplete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
+{% include link-to-other-site.html url="https://gist.github.com/1wErt3r/4048722" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros The Lost Levels
-{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="COmplete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
+{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros 3
 {% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="Looks like a fairly complete Disassembly of Super Mario Bros 3 that uses NESASM to re-assemble back into the original US ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
@@ -114,7 +114,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
 ### Goldeneye 007
-{% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %
+{% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
 ### Mario Kart 64
 {% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
@@ -162,10 +162,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo Wii
 
 ### Wii Sports
-{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine"
+{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine" %}
 
 ### Legend of Zelda Ocarina of Time (Wii Virtual Console)
-{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of the main .dol-file of Naruto: Gekitō Ninja Taisen! 4, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of the main .dol-file of Super Mario Sunshine"
+{% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="Disassembly of Legend of Zelda Ocarina of Time for the Wii Virtual Console" image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of Legend of Zelda Ocarina of Time" %}
 
 ---
 ## Nintendo Switch
@@ -257,7 +257,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://cdn.bulbagarden.net/upload/thumb/b/b4/MD_Red_EN_boxart.jpg/500px-MD_Red_EN_boxart.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ### Super Mario Advance 2: Super Mario World
-{% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %
+{% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="This is a disassembly of Pokémon Ruby and Sapphire, it uses the devkitARM SDK to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg" title="Decompilation of Pokémon Ruby/Sapphire"  %}
 
 ---
 ## Nintendo DS
