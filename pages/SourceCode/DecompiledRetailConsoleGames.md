@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2020-11-22'
+updatedAt: '2021-05-31'
 ---
 
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
