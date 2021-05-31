@@ -44,7 +44,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/nmikstas/dragon-warrior-disassembly" description="Complete Dragon warrior disassembly by github user nmikstas, uses Ophis to assemble back into the original ROM" image="https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg" title="Complete Dragon warrior disassembly"  %}
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly" description="Donkey Kong NES disassembly" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Donkey Kong (NES)"  %}
+{% include link-to-other-site.html url="https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly" description="Donkey Kong NES disassembly" image="https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG/revision/latest?cb=20080807232845" title="Donkey Kong (NES)"  %}
 
 ### Final Fantasy
 {% include link-to-other-site.html url="https://github.com/Entroper/FF1Disassembly" description="Completed documentation of all code, uses ca65 to assemble back to original ROM" image="https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg" title="Final Fantasy 1 Disassembly"  %}
@@ -68,7 +68,8 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://gist.github.com/1wErt3r/4048722" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros The Lost Levels
-{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
+{% include link-to-other-site.html url="https://github.com/threecreepio/smb2j-disassembly" description="
+This is a disassembly of Donkey Kong for the NES and it's different revisions - Rev 0 (Japenese), Rev 1 (International) and Gamecube. It's fully disassembled but it's not fully documented. Doesn't include graphics data. You must rip it yourself. Assembles with "asm6" assembler." image="https://upload.wikimedia.org/wikipedia/en/b/b5/Mariobros2japanbox.jpg" title="Full disassembly of Super Mario Bros" %}
 
 ### Super Mario Bros 3
 {% include link-to-other-site.html url="https://github.com/captainsouthbird/smb3" description="Looks like a fairly complete Disassembly of Super Mario Bros 3 that uses NESASM to re-assemble back into the original US ROM" image="https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png" title="Disassembly of Super Mario Bros 3"  %}
@@ -80,7 +81,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ## Super Nintendo (SNES)
 
 ### Donkey Kong Country 2
-{% include link-to-other-site.html url="https://github.com/p4plus2/DKC2-disassembly" description="A repository dedicated to the reverse engineering of the SNES game DKC2." image="https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg" title="DKC2-disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/p4plus2/DKC2-disassembly" description="A repository dedicated to the reverse engineering of the SNES game DKC2." image="https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg" title="DKC2 Disassembly"  %}
 
 ### Super Bomberman
 {% include link-to-other-site.html url="https://github.com/LIJI32/superbomberman" description="The Disassembly of Super Bomberman is about half complete and it uses ca65 to build the retail worldwide ROM images" image="https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png" title="Disassembly and remade build system for SNES game Super Bomberman"  %}
