@@ -345,7 +345,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 ## Sega Dreamcast (DC)
 
 ### Sonic Adventure (DC)
-{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast" image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
 
 ---
 # Sony Systems
@@ -374,7 +374,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 ## PC
 
 ### Sonic CD
-{% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="https://thumbnails.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg/300px-Sonic_CD_1995_cover.jpg" image="" title="Sonic CD PC Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="" image="https://thumbnails.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg/300px-Sonic_CD_1995_cover.jpg" title="Sonic CD PC Disassembly"  %}
 
 ### Sonic and Knuckles Collection
 {% include link-to-other-site.html url="https://github.com/sonicretro/skc_disasm" description="" image="https://archive.org/download/S3KPCUSA/__ia_thumb.jpg" title="Sonic and Knuckles Collection PC Disassembly"  %}
