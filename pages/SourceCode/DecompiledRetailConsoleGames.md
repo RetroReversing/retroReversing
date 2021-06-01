@@ -134,6 +134,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Mario Party
 {% include link-to-other-site.html url="https://github.com/gamemasterplc/mpsource" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
+### Mario Party 3
+{% include link-to-other-site.html url="https://github.com/PartyPlanner64/mp3" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+
 ### Mario Kart 64
 {% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
