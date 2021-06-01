@@ -94,6 +94,9 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ### Super Mario World 2: Yoshi's Island
 {% include link-to-other-site.html url="https://github.com/Raidenthequick/yoshisisland-disassembly" description="Disassembly is 100% finished, assembles under Asar and produces a fully clean ROM." image="https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg" title="Full disassembly of Yoshi's Island (SNES) version U 1.0"  %}
 
+### Super Mario RPG
+{% include link-to-other-site.html url="https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
+
 ### Super Metroid
 {% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
 
@@ -104,11 +107,20 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Banjo Kazooie
 {% include link-to-other-site.html url="https://github.com/n64decomp/banjo-kazooie" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
 
+### Blast Corps
+{% include link-to-other-site.html url="https://github.com/retroplastic/blastcorps" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
+
+### Body Harvest
+{% include link-to-other-site.html url="https://github.com/jaytheham/body-harvest-decompilation" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
+
 ### Conker's Bad Fur Day
 {% include link-to-other-site.html url="https://github.com/mkst/conker" description="Decompilation of Conker, about 4% complete" image="https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg" title="Decompilation of Conker's Bad Fur Day"  %}
 
 ### Diddy Kong Racing
 {% include link-to-other-site.html url="https://github.com/DavidSM64/Diddy-Kong-Racing" description="A very early decompilation of Diddy Kong Racing source by DavidSM64" image="https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg" title="Diddy Kong Racing"  %}
+
+### Dinosaur Planet
+{% include link-to-other-site.html url="https://github.com/zestydevy/dinosaur-planet" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
 ### Doom 64
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
@@ -116,11 +128,23 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Goldeneye 007
 {% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A an early decompilation of Goldeneye 007" image="https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg" title="Goldeneye 007 Decompilation"  %}
 
+### Kirby 64: The Crystal Shards
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/kirby64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+
+### Mario Party
+{% include link-to-other-site.html url="https://github.com/gamemasterplc/mpsource" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+
 ### Mario Kart 64
 {% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
+### Neon Genesis Evangelion
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/evangelion" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+
 ### Super Mario 64
 {% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
+
+### Superman 64
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/superman" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
 ### The Legend of Zelda: Ocarina of Time
 {% include link-to-other-site.html url="https://github.com/zeldaret/oot" description="This is a WIP decompilation of The Legend of Zelda: Ocarina of Time. The purpose of the project is to recreate a source code base for the game from scratch, using information found inside the game along with static and/or dynamic analysis. The only build currently supported is Master Quest (Debug), but other versions are planned to be supported." image="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png/220px-The_Legend_of_Zelda_Ocarina_of_Time_box_art.png" title="Decompilation of The Legend of Zelda: Ocarina of Time"  %}
@@ -161,6 +185,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ---
 ## Nintendo Wii
 
+### Speed Racer
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/speedracer" description="" image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
+
 ### Wii Sports
 {% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="" image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
 
@@ -173,6 +200,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### The Legend of Zelda: Breath of the Wild
 {% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Initial decompilation of the Nintendo switch version of BOTW, it uses the devkitA64 toolchain" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
 
+### Super Mario Odyssey
+{% include link-to-other-site.html url="https://github.com/shibbo/OdysseyDecomp" description="Initial decompilation of the Nintendo switch version of BOTW, it uses the devkitA64 toolchain" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
+
 ---
 # Nintendo Handhelds
 
@@ -184,6 +214,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Kirby's Dream Land
 {% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="This is a disassembly of Kirby's Dream Land (Game Boy), still under active development but many subroutines still to be named. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
 
+### Mole Mania
+{% include link-to-other-site.html url="https://github.com/froggestspirit/mmania" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Donkey_Kong_94_box_art.jpg/220px-Donkey_Kong_94_box_art.jpg" title="Donkey Kong '94"  %}
+
 ### Pokemon Red & Blue
 {% include link-to-other-site.html url="https://github.com/pret/pokered" description="This is a fully complete disassembly of Pokémon Red and Blue. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/440px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png" title="Disassembly of Pokémon Red/Blue"  %}
 
@@ -193,8 +226,14 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Super Mario Land
 {% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="Incomplete disassembly of Super Mario Land (World) (Rev A). It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
 
+### Super Mario Land 2: Six Golden Coins
+{% include link-to-other-site.html url="https://github.com/froggestspirit/marioland2" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
+
 ### Super Mario Land 3: Wario Land
 {% include link-to-other-site.html url="https://github.com/Kak2X/wl" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
+
+### Wario Land 3
+{% include link-to-other-site.html url="https://github.com/froggestspirit/wland3" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
 
 ---
 ## Nintendo Game Boy Color
@@ -255,6 +294,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 ### Pokémon Mystery Dungeon: Red Rescue Team
 {% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
+
+### Sonic Advance 2
+{% include link-to-other-site.html url="https://github.com/froggestspirit/SoAdvance2" description="" image="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG" title="The Legend of Zelda: The Minish Cap"  %}
 
 ### Super Mario Advance 2: Super Mario World
 {% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="" image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg" title="Decompilation of Super Mario Advance 2: Super Mario World"  %}
