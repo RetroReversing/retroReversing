@@ -314,7 +314,7 @@ Many sources hint that there was no official Nintendo development kit for the NE
 
 However in the NintendoAge article from issue 2 [^8] it mentioned that in 1987 BEAM software knew they couldn't get an official development kit from Nintendo and so made their own. When Nintendo found out about their custom development kit they wanted the sale of it stopped. Why did they want the custom development kits to cease production if they didn't have officially supported ones?
 
-Did they really rely on every single creating their own hardware based development kit?
+Did they really rely on every single studio creating their own hardware based development kit? It seems like quite a barrier for entry, but then again Nintendo only wanted *quality* software so this could be intentional.
 
 ## Official NES development software such as assemblers?
 Some sources such as [^3] suggest that there was an official Nintendo assembler for the NES but very little information online confirms this.
