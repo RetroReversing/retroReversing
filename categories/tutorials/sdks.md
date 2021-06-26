@@ -23,7 +23,13 @@ We have tried to document all the software development kits available for the mo
 # Nintendo Console Software Development Kits
 
 ## Nintendo Entertainment System (NES/Famicom)
-No information is known about if an official NES SDK ever existed, it may have just been documentation about the NES hardware given to developers and the developers needed to pick their own tools.
+No information has been officially confirmed about whether an official NES SDK was sent out to developers, it may have just been documentation about the NES hardware given to developers and the companies themselves needed to pick their own tools.
+
+We do know that Official Famicom development of Mario Bros 3 took place on the **HP 64000 mainframe computers** which had an assember simply called **assemble** that when paired with a 6502 add-on board could have been the SDK used. However since most third party developers would not have these mainframe computers there was no point distributing tools for these computers. 
+
+{% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For more information on the Nintendo Famicom development kit check out this page." %}
+
+Most third parties had their own custom assemblers and linkers at the time and so each company would have its own SDK toolchains.
 
 ## Super Nintendo Entertainment System (SNES/Super Famicom)
 No information is known about if an official SNES SDK ever existed, it may have just been documentation about the NES hardware given to developers and the developers needed to pick their own tools.
