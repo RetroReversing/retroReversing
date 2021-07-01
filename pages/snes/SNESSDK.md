@@ -6,7 +6,7 @@ tags:
 - intelligentsystems
 title: SNES (Super Famicom) Software Development Kit (SDK)
 thumbnail: /public/consoles/Super Nintendo Entertainment System.png
-image: /public/images/snes/Super Nintendo Development Kit Hardware.jpg
+image: /public/images/snes/Super Nintendo SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo SDK.jpg
 permalink: /super-famicom-snes-sdk/
 breadcrumbs:
@@ -317,8 +317,6 @@ SHVCFUNC.TB1 |
 
 
 #### KANKICHI (N-SPC) Sound Driver Sound Code
-[N-SPC Engine - SnesLab](https://sneslab.net/wiki/N-SPC_Engine)
-
 The files that make up the Kankichi sound driver source code are below:
 
 Extension | Description
@@ -329,6 +327,10 @@ KANKICHI.DOC | Documentation for the KANKICHI Sound driver
 KANKICHI.ISO | Compiled object version of KAN.ASM
 KANKICHI.SND | Assembly descriptor file for how to build the ISX using **ISSND** tool
 L.BAT | Windows Batch file that calls ISSND and ISLINK tools on KANKICHI driver
+
+For more information on how this sound driver works checkout this excellent page on SNESLab:
+
+{% include link-to-other-site.html url="https://sneslab.net/wiki/N-SPC_Engine" description="For more information about the N-SPC driver check out this page on SNESLab" image="/public/consoles/Super Nintendo Entertainment System.png" title="N-SPC Engine"  %}
 
 ### Generate Sound Binary Data from Instruments and assembled Music
 Now that we have assembled an ISX file for all the instruments (e.g WAVE.ISX) and assembled another ISX file for the Audio Driver (e.g KANKICHI.ISX).
@@ -390,16 +392,71 @@ SOURCE.SOD |
 XXXXX.SRC | Assembly code Result of compiling a GAK (MIDI-like) file
 VERUP | Changelog for IS-SOUND Ver1.10
 
-#### ISX To Binary/ROM converter
-This is a strange application, it is not written by Intelligent systems or Nintendo and in fact it actively says it doesn't like them when you print the usage information!
-￼
+#### i2b - ISX To Binary/ROM converter
+In the SS folder we also have a tool called **i2b** which seems to be able to convert an ISX file into a ROM image for use flashing to a cartridge.
 
+<img src="/public/images/snes/snes i2b tool.jpg" class="wow slideInLeft postImage" />
+
+This is a strange application, it is not written by Intelligent systems or Nintendo and in fact it actively says it doesn't like them when you print the usage information!
+
+---
 ## SNES Memory Maps Folder (/SS/Map)
 The MAP folder contains Japanese documentation about the memory mapping for the Super Nintendo. 
 
 The main file is **MEMORY.MAP** which contains the developer **Toshio Sengoku** notes on how the memory map on the Super Famicom works.
 
 The other two files are for the two different official mapper modes 20 and 21, the file **MAP20.MAP** file contains the un-annotated version that is contained in the standard **MEMORY.MAP** file.
+
+
+---
+# Sculptured Software SDK
+The custom third party Software Development Kit for the Super Nintendo created by Sculptured Software has been released online as: 
+* SNES Development System Debugger 1.xx
+
+This SDK is to be used along with the Sculptured Software custom development kit hardware.
+
+For more information about the Sculptured Software hardware check out this post:
+{% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the **Sculptured Software** development hardware check out this post" %}
+
+Executables:
+* **RTM.EXE** - Produced by Borland C++ to load the other tools
+* **SASML.EXE** - SNES Assembler
+* **SFL2P.EXE** - SFX2Plus Downloader (Downloads ROM to flash cartridge from PC)
+* **SLINK.EXE** - SNES Linker (takes in a link file)
+* **SSBUG.EXE** - SNES & Mega Drive Debugger
+
+One of the awesome features of this SDK is that it has been written to be cross platform with both the SNES and the Sega Mega Drive, so the same tool such as SSBUG.EXE can be used to develop for both systems.
+
+## Nintendo Object Block (NOB) files
+In the Help documentation of this SDK (**SBUGHELP.HLP**) it mentions that SSBUG has support for NOB files.
+
+There is no mention of NOB files in the parts of the official SDK that we have access to so we are not sure if this is an official Nintendo format, but the documentation certainly make it look like it is.
+
+## SNES Assemblers
+In the files released online we have access to a SNES assembler called **SASML.EXE** created by Sculptured Software Inc.
+
+However reading the **readme.txt** file it mentions a bunch of other 65816 assemblers that we do not have:
+* SASM
+* SASM32 - Presumably just 32-bit version of SASM
+
+Having a brief look at the **SASML.EXE** executable it looks like it is a forked version of **SASM.EXE**
+65816 assemblers (SASM,SASM32 & SASML/SLINK)
+
+
+---
+# Psy-Q DevKit for Super Nintendo
+SN Systems were a company that specialised in creating cross platform development kits for game consoles and the Super Nintendo was no exception.
+
+<img src="/public/images/snes/SNES%20PSYQ%20Advert.jpg" class="wow slideInLeft postImage" />
+
+So far the only part of the Psy-Q development kit that has been archived and released online is the Programmers Guide Documentation.
+
+If anyone has the files that were distributed with the Psy-Q SNES SDK then let us know as it is yet to be archived or documented!
+
+---
+# High Level languages on the SNES (C/C++)
+Some games such as Bubsy 2 may have been written in C, especially by Accolade according to Russell Borogove on twitter [^1].
+
 
 ---
 # References
