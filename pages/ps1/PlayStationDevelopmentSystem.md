@@ -25,11 +25,8 @@ videocarousel:
   - title: DTL-H2000 Official PlayStation Development System
     image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
     youtube: 'y3aKAFafPoc'
-  - title: PS1 Debug Stations
-    image: https://img.youtube.com/vi/mdaavzvAxwA/maxresdefault.jpg
-    youtube: 'mdaavzvAxwA'
 ---
-This post covers the hardware used to develop Playstation One games by major studios back in the day, for the software side see the post on PsyQ.
+This post covers the hardware used to develop Playstation One games by major studios back in the day, for the software side see the post on the PsyQ Software Development Kit.
 
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
 
@@ -116,6 +113,10 @@ According to Cary Brisebois on Twitter there was software called `Bonk` that we 
 
 These photos are kindly contributed by Andrew Earley who recently obtained the development kit from a contact at a recycling center [^4]. 
 
+
+{% include link-to-other-post.html post="/hardware/devkits/" description="For more information about all the other console development hardware check out this post" %}
+
+---
 # References
 [^1]: Next generation issue 15 from March 1996
 [^2]: EDGE issue 20
