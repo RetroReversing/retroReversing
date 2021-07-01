@@ -28,7 +28,23 @@ Every three years `byuu` creates an excellent article on the current status of S
 ## The Polygons of Another World
 {% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
 
-# Game Modification
+---
+# Hardware
+
+## Development Kit
+{% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the **Super Nintendo** development hardware check out this post" %}
+
+## SNES in-flight Airplane hardware (Nintendo Gateway)
+In 1993 Nintendo introduced an in-flight entertainment system called the Gateway, this system allowed passengers to play SNES games for about 4 USD an hour.
+
+The Journalist **Ernie Smith** has written an excellent article on his site which you can access at [Will the In-Flight Entertainment System Survive COVID-19?](https://tedium.co/2020/06/19/in-flight-entertainment-system-covid-19-impact-history/) and also tweeted out the Nintendo Power article which talks about it: 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Remember when you could play Super NES games on a plane? That was awesome. Nintendo Power, circa Feb. &#39;94: <a href="https://t.co/iKm6mLB8Us">pic.twitter.com/iKm6mLB8Us</a></p>&mdash; Ernie Smith (@ShortFormErnie) <a href="https://twitter.com/ShortFormErnie/status/834989238810775552?ref_src=twsrc%5Etfw">February 24, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has created an excellent video on the subject:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+# Game Modification and ROM Hacking
 
 ## SNES Save Editing with Link to the Past
 <section class="postSection">
