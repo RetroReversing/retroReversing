@@ -102,6 +102,7 @@ We are currently in the process of documenting the files in the Official Sony Pl
 {% include link-to-other-post.html post="/ps2-official-sdk/" description="For more information on the files in the Official Sony Playstation 2 SDK check out this post." %}
 
 ## Sony Playstation 3
+We are currently looking for information about the Sony Playstation 3 Software Development Kit and will write a post on it in future.
 
 ---
 # Microsoft Software Development Kits
@@ -111,7 +112,7 @@ We are currently working on a post that will document the files in the Microsoft
 {% include link-to-other-post.html post="/xbox-sdk-xdk" description="For more information on the files in the Official Sony Microsoft Xbox SDK check out this post." %}
 
 ## Microsoft Xbox 360
-
+We are still collecting information about the Xbox 360 software development kit provided by Microsoft, a post will become available in the future.
 
 
 ---
