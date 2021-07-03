@@ -32,9 +32,11 @@ We do know that Official Famicom development of Mario Bros 3 took place on the *
 Most third parties had their own custom assemblers and linkers at the time and so each company would have its own SDK toolchains.
 
 ## Super Nintendo Entertainment System (SNES/Super Famicom)
-No information is known about if an official SNES SDK ever existed, it may have just been documentation about the NES hardware given to developers and the developers needed to pick their own tools.
+Unlike the original Famicom system, Nintendo provided third party developers with some tools to make Super Famicom development easier. Although not all of these tools have been archived or released on to the internet, however the tools we know about are documented in the post below.
 
-However we do know that **Sculptured Software** had their own custom SDK known as the SSDS (Sculptured Software Development System) which was released to the internet and we will have a post on this in the future.
+{% include link-to-other-post.html post="/super-famicom-snes-sdk/" description="For more information on the Super Nintendo development kit check out this page." %}
+
+We also know that it was common for third parties to create their own custom SDK, such as **Sculptured Software** who created the SSDS (**Sculptured Software Development System**) which was released to the internet and is also available in the post above.
 
 ## Nintendo 64
 The Nintendo 64 SDK was leaked some time in the late 2000s and now can be easily accessed online, this gives us the opportunity to dive in and document exactly what was contained in the Software Development Kit:
