@@ -149,6 +149,14 @@ NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604*
 
 ---
 # Other Notes
-The game **Pikmin 2** has a file called `pikmin2*P.MAP` which could be a compressed or encrypted debugger map file, but thats mainly a guess because the previous Pikmin has a plain-text debugger .MAP file. The * depends the Region U for US, P for PAL and J for Japan
+This section contains notes about other games not listed above.
 
-Nintendo Puzzle Collection (Japan) contains an ARM executable for running on the GBA that has developer symbols in it called: ponagb2m_client.elf (Panel de Pon game?)
+## Pikmin 2
+Thanks to Nikki (@NWPlayer123) on Twitter we now know that the **pikmin2?P.MAP** file in the retail Pikmin 2 release is full of junk data, as Nintendo had a tool to scrub the debug map file but the file entry on the disk still remained.
+
+The good news is that there are 2 Demo Discs of Pikmin that contain a valid Pikmin 2 symbol map, as mentioned in this twitter thread by Nikki:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">note to self: the demo disc with the Pikmin 2 US symbol map is D78E01, matches about 96% of retail <a href="https://t.co/Sbr05XKQvl">pic.twitter.com/Sbr05XKQvl</a></p>&mdash; Nikki™ 🌹 (@NWPlayer123) <a href="https://twitter.com/NWPlayer123/status/1414757863495503876?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Nintendo Puzzle Collection
+Nintendo Puzzle Collection (Japan) contains an ARM executable for running on the GBA that has developer symbols in it called: ponagb2m_client.elf (Panel de Pon game?).
