@@ -131,7 +131,8 @@ Legend of Zelda, The - The Wind Waker (Korea) | f_pc_profile_lst.MAP plus others
 Mario Kart - Double Dash!! | debugInfoS.MAP | ?? | Racing | 
 Mario Smash Football | MarioSoccerD.MAP, MarioSoccerP.MAP, MarioSoccerR.MAP, MarioSoccerZ.MAP | ?? | Sport | 
 Nickelodeon Tak 2 - Der Stab der Traeume (Germany) (Disc 2) | BobTak2_German_Disc2.MAP | ?? | ? | 
-Pikmin | build.MAP | ?? | God game | 
+Pikmin | build.MAP | ?? | God Game | 
+Pikmin 2 demo in Multi-Game Kiosk Demo Disc 17 (USA) | pikmin2?P.MAP | ?? | God Game | 
 Scooby-Doo! Mystery Mayhem (United Kingdom) | engine_ret.MAP | ?? | Action | 
 Super Mario Sunshine | marioEU.MAP | ?? | Platformer | 
 Sims 2, The (USA) | u2_ngc_debug.map | ?? | Simulation | 
