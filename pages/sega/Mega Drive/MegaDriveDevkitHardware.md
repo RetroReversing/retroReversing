@@ -51,6 +51,11 @@ Below is the photo containing the only information we have on the pricing of the
 <img src="/public/images/megadrive/Mega Drive Price List.jpg" class="wow slideInLeft" />
 
 ## Super Mega Drive Development console
+<section class="postSection">
+    <img src="/public/images/megadrive/Super Mega Drive (top).jpg" class="wow slideInLeft postImage" />
+   <img src="/public/images/megadrive/Super Mega Drive (bottom).jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 There is very little information out there about the Super Mega Drive but a manual was leaked thanks to the [techdocs.exodusemulator.com](techdocs.exodusemulator.com) website.
 
 This gives the information that it would be a Mega Drive console with the ability to use a In-circuit emulator such as the ZAX ICE to debug game code.
@@ -61,8 +66,13 @@ Both Sega OziSoft and "The Code Monkeys" were games studios that developed games
 
 It is believed that this was the first development kit that Sega produced in the early years of the Mega Drive and that it was fairly quickly replaced with others such as the Cross Products SNASM.
 
-There is no known images of the hardware but it is likely a board that looks very similar to the retail MD board but with additional ports for connecting to an ICE.
+ </div>
+</section> 
 
+There was no known images of this rare development kit online until Phil Bennett (@PhilBennett3D) posted one of my favourite tweets which you can see below:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What&#39;s this? Why it&#39;s a Super Mega Drive, Sega&#39;s Mega Drive development system. (1/) <a href="https://t.co/Jl29Bj3pOw">pic.twitter.com/Jl29Bj3pOw</a></p>&mdash; Phil Bennett (@PhilBennett3D) <a href="https://twitter.com/PhilBennett3D/status/1406684067710394373?ref_src=twsrc%5Etfw">June 20, 2021</a></blockquote>
+
+---
 ## ZAX ER308 ICE for Z80 (Sound)
 <section class="postSection">
     <img src="/public/images/gamegear/Sega ZAX ICE Z80.jpg" class="wow slideInLeft postImage" />
