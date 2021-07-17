@@ -11,7 +11,7 @@ thumbnail: /public/NintendoGameBoyThumb.png
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo Gameboy
+  - name: Nintendo GameBoy
     url: /gameboy
 videocarousel:
   - title: The Ultimate Game Boy Talk
@@ -20,10 +20,16 @@ videocarousel:
   - title: The Game Boy, a hardware autopsy
     image: https://img.youtube.com/vi/RZUDEaLa5Nw/hqdefault.jpg
     youtube: RZUDEaLa5Nw
+redirect_from:
+  -  /gameboy/hardware
 ---
 # Game Boy Basics
 Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
 
+## Original GameBoy Dot Matrix Game (DMG) Specs 
+Main specs of the original GameBoy:
+ - **CPU**: z80 - LR35902 (Opcodes: http://www.pastraiser.com/cpu/gameboy/gameboy_opcodes.html)
+ - **RAM**: 8KB (32KB in Color)
 
 ## Game Boy Exclusive Games (DMG & Color)
 When it comes to finding a game to reverse engineer, it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives, as these are the games people can no longer play on modern consoles.
@@ -31,6 +37,9 @@ When it comes to finding a game to reverse engineer, it can be helpful to look a
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy to be able to play" image="/public/NintendoGameBoyThumb.png" title="List of Original DMG Game Boy exclusives"  %}
 
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy Color to be able to play" image="/public/consoles/Nintendo Game Boy Color.png" title="List of Game Boy Color exclusives"  %}
+
+## The Ultimate Gameboy Talk (hardware specs etc)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # Game Boy Technology
@@ -86,6 +95,35 @@ We used to have a post on the hardware architecture of the Game Boy, but now we 
 ## Game Boy Pocket Hardware Schematics
 If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Gameboy Circuit Schematics over on Github:
 [gb-schematics/MGB-xCPU.pdf at master · Gekkio/gb-schematics · GitHub](https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf)
+
+## The Game Boy, a hardware autopsy
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RZUDEaLa5Nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ecTQVa42sJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+## Super GameBoy
+<iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
+
+---
+## GB Booster
+Similar to the Super GameBoy but this is for the Nintendo 64 and not licenced by Nintendo, I first saw this for sale in issue X of the UK Nintendo Official Magazine.
+<iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
+For more information: 
+- http://www.chrismcovell.com/gbbooster.html
+- https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
+
+## Wide Boy 64
+Official device to play gameboy (including gba) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
+<iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
+
+---
+## Datel Game Booster for Sony Playstation
+Similar to the Super GameBoy but this is for the Sony Playstation!
+<iframe width="560" height="420" src="https://www.youtube.com/embed/SxF2e6DUMRo?color=white&theme=dark"></iframe>
+
+---
+## GameBoy Printer
+<iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
 
 ---
 # Source Code
