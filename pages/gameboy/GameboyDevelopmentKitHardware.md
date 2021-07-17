@@ -137,6 +137,20 @@ It was also very common for developers to just create these themselves from reta
 </div>
 </section>
 
+### DMG-MBC5-32M-R-FLASH (32Mb Rumble Flash cartidge)
+<section class="postSection">
+  <img src="/public/images/GameBoy/DMG-MBC5-32M-R-FLASH - outside.jpeg" class="wow slideInLeft postImage" />
+  <img src="/public/images/GameBoy/DMG-MBC5-32M-R-FLASH - inside.jpeg" class="wow slideInLeft postImage" />
+<div markdown="1">
+Nintendo sold special flash cartridges which had rumble support along with Memory Bank Controller 5 (MBC5) which were used for games such as **Looney Tunes Collector: Martian Alert**.
+</div>
+</section>
+
+Thank you to both **@forestillusion** and **@Altomare3** for these excellent images of both the outide and inside of the cartridges.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Enjoy! <a href="https://t.co/pYSsMY0Eyp">pic.twitter.com/pYSsMY0Eyp</a></p>&mdash; Altomare (@Altomare3) <a href="https://twitter.com/Altomare3/status/1416342450914959361?ref_src=twsrc%5Etfw">July 17, 2021</a></blockquote>
+
+
 ### DMG-MBC1 MULTI CHECKER CARTRIDGE (DMG-Checker)
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png" class="wow slideInLeft postImage" />
