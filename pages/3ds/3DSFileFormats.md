@@ -19,7 +19,21 @@ recommend:
 - fileformats
 editlink: /3ds/3DSFileFormats.md
 ---
+The **Nintendo 3DS** (Codename **CITRUS**) utilises a number of different file formats either created by Nintendo or third party. If you are interested in reverse engineering a 3DS game then you will most likely come across these formats, so it is a good idea to have at least some knowledge of how they work.
 
+The main file formats used in Nintendo 3DS games are outlined in the table below, with further detail in the sections of this post.
+
+Extension | Description
+---|---
+.3ds | Unofficial format used for dumping 3DS Game Cards
+.cci | Nintendo Official file format for dumping 3DS game cards
+.csu | 3DS Update file
+.cxi | Citrus Executable Image - archvie that contains executable game code
+.app | Another name for .cxi files
+.cfa | Citrus File Archive - compressed file that doesn't contain executable code e.g for Game Manuals
+
+
+---
 # NCSD Formats
 Nintendo Citrus Standard formats are used for game cards and system updates.
 
