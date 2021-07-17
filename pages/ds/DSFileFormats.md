@@ -20,6 +20,16 @@ recommend:
 editlink: /ds/DSFileFormats.md
 ---
 
+The Nintendo DS (Codename **NITRO**) utilises a number of different file formats either created by Nintendo or a third party developer. If you are interested in reverse engineering a DS game then you will most likely come across these formats, so it is a good idea to have at least some knowledge of how they work.
+
+The main file formats used in **Nintendo DS** games are outlined in the table below, with further detail in the sections of this post.
+
+Extension | Description
+---|---
+.tad | Installable application for Nintendo Dsi (similar to the WAD format on Wii)
+.nds | Dump of a Nintendo DS Game Card (unofficial)
+.srl | Official Dump of a Nintendo DS Game Card
+
 # TAD (similar to a Wii WAD)
 TAD files are installable applications for the Nintendo DSi, similar in function to the WAD file for the Wii console.
 
