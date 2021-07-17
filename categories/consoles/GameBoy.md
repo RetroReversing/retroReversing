@@ -22,6 +22,7 @@ videocarousel:
     youtube: RZUDEaLa5Nw
 redirect_from:
   -  /gameboy/hardware
+  -  /ultimate-gameboy
 ---
 # Game Boy Basics
 Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
@@ -39,6 +40,10 @@ When it comes to finding a game to reverse engineer, it can be helpful to look a
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy Color to be able to play" image="/public/consoles/Nintendo Game Boy Color.png" title="List of Game Boy Color exclusives"  %}
 
 ## The Ultimate Gameboy Talk (hardware specs etc)
+The 8-bit Game Boy was sold between 1989 and 2003, but its architecture more closely resembles machines from the early 1980s, like the Commodore 64 or the NES.
+
+This talk attempts to communicate "everything about the Game Boy" to the listener, including its internals and quirks, as well as the tricks that have been used by games and modern demos, reviving once more the spirit of times when programmers counted clock cycles and hardware limitations were seen as a challenge.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyzD8pNlpwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
