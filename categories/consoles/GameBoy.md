@@ -13,15 +13,13 @@ breadcrumbs:
     url: /
   - name: Nintendo Gameboy
     url: /gameboy
-carousel:
+videocarousel:
   - title: The Ultimate Game Boy Talk
-    description: 'This talk attempts to communicate "everything about the Game Boy" to the listener, including its internals and quirks, as well as the tricks that have been used by games and modern demos, reviving once more the spirit of times when programmers counted clock cycles and hardware limitations were seen as a challenge.'
-    image: https://img.youtube.com/vi/HyzD8pNlpwI/maxresdefault.jpg
-    link: /ultimate-gameboy
+    image: https://img.youtube.com/vi/HyzD8pNlpwI/hqdefault.jpg
+    youtube: HyzD8pNlpwI
   - title: The Game Boy, a hardware autopsy
-    description: 'Have you ever wondered how the Game Boy works? How the games that defined the history of the handheld world were made? This video series hopes to answer these questions and more concerning one of the most successful gaming platforms ever.'
-    image: https://img.youtube.com/vi/RZUDEaLa5Nw/maxresdefault.jpg
-    link: /gameboy-hardware-autopsy
+    image: https://img.youtube.com/vi/RZUDEaLa5Nw/hqdefault.jpg
+    youtube: RZUDEaLa5Nw
 ---
 # Game Boy Basics
 Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
