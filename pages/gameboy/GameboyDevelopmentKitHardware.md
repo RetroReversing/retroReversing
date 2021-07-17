@@ -33,11 +33,11 @@ recommend:
 - devkit
 updatedAt: '2020-01-10'
 ---
-This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color and some were even used for early Gameboy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
+This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color (GBC) and some were even used for early Gameboy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
 
 ---
 # Official Programming Tools
-The Official programming development kit for the Gameboy consisted of the Debugger that cost 4k USD and the Emulator (ICE) which cost 3k and were both developed by the Nintendo owned company called Intelligent Systems [^3].
+The Official programming development kit for the Gameboy consisted of the Debugger that cost 4,000 USD and the Emulator (ICE) which cost 3,000 USD and were both developed by the Nintendo owned company called **Intelligent Systems** [^3].
 
 They both connect to a developer workstation such as an IBM-PC via the SCSI port and offer a few software tools for communication between the IBM-PC and the Intelligent systems hardware.
 
@@ -47,7 +47,7 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_3.jpg" class="wow slideInLeft postImage" />
 <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_4.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-  The Integrated Circuit Emulator or ICE was developed for the original Gameboy (DMG) and allowed developers to debug issues effecting their games, set breakpoints and inspect memory. This is also known as the Program development system but information on exactly how it was used is sparse.
+  The **Integrated Circuit Emulator** or ICE was developed for the original Gameboy (DMG) and allowed developers to debug issues effecting their games, set breakpoints and inspect memory. This is also known as the **Program development system** (confirmation needed) but information on exactly how it was used is sparse.
 </div>
 </section>
 
@@ -56,11 +56,11 @@ They both connect to a developer workstation such as an IBM-PC via the SCSI port
 <section class="postSection">
 <img src="/public/images/GameBoy/IntelligentSystems_ColorGameBoy_Emulator.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-The `IS-CGB-EMU` (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
+The **IS-CGB-EMU** (Intelligent Systems Color Game Boy Emulator) was hardware that allowed developers to download their games to try on the actual hardware and even communication between an IBM-PC and the gameboy hardware itself to execute and check operations. Developers that bought this would also be given discs with the Inteligent Systems Assembler/Linker and other software development tools.
   
-  If the `IS-CGB-DEBUGGER` label is ticked on the bottom of the unit then it also supported debugging options such as setting breakpoints, tracing, inspecting memory etc and is likely an ICE (Similar to DMG-ICE) [^12].
+  If the **IS-CGB-DEBUGGER** label is ticked on the bottom of the unit then it also supported debugging options such as setting breakpoints, tracing, inspecting memory etc and is likely an ICE (Similar to DMG-ICE) [^12].
 
-The Later units also had support for the `AGB` (Advanced GameBoy or Gameboy Advance) built into the hardware.
+The Later units also had support for the **AGB** (Advanced GameBoy or Gameboy Advance) built into the hardware.
 </div>
 </section>
 
@@ -78,7 +78,7 @@ The DMG-CAD (Character Development System) allowed designers/artists to preview 
 
 Not much information is known about it other than a brief mention on the Intelligent systems website back in 1998 [^12]. 
 
-There is also the `IS-CGB-CHARACTER` which is a similar system but updated for the Gameboy Color, the photos on the left are from that system but it only shows the Gameboy screen and wires coming out the back, it is unclear where the wires went.
+There is also the **IS-CGB-CHARACTER** which is a similar system but updated for the Gameboy Color, the photos on the left are from that system but it only shows the Gameboy screen and wires coming out the back, it is unclear where the wires went.
 
 There was one sold on Japanese Yahoo Auctions but the link was never archived in the wayback machine ("http://page.auctions.yahoo.co.jp/jp/auction/181784286").
 </div>
@@ -92,7 +92,7 @@ Demonstration tools are hardware that allowed publishers or the press to present
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_1.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-The WideBoy was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board. It was developed by Intelligent Systems and only sold to Game developers and Press outlets by Nintendo themselves.
+The **WideBoy** was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board. It was developed by Intelligent Systems and only sold to Game developers and Press outlets by Nintendo themselves.
   
   This was commonly used by developers and testers to make it much easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
 </div>
@@ -112,7 +112,7 @@ An updated version of the Wide Boy was released as a cartridge for the Nintendo 
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_0.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Demo Boy was an alternative to the `Wide Boy` that allowed displaying two gameboy screens at once on a single TV. It used similar hardware that was based on the Famicom (NES) with a custom ROM image for loading the data from the two gameboys attached via cable and displaying the result on the screen. It is an ideal way to develop and test link-cable games on a much larger display.
+The **Demo Boy** was an alternative to the **Wide Boy** that allowed displaying two gameboy screens at once on a single TV. It used similar hardware that was based on the Famicom (NES) with a custom ROM image for loading the data from the two gameboys attached via cable and displaying the result on the screen. It is an ideal way to develop and test link-cable games on a much larger display.
   
  There exists multiple versions of this under a variety of names starting with the Demo Boy then Demo Boy 2 and finally the Demo Vision [^9].
 </div>
@@ -142,7 +142,7 @@ It was also very common for developers to just create these themselves from reta
   <img src="/public/images/GameBoy/DMG-MBC5-32M-R-FLASH - outside.jpeg" class="wow slideInLeft postImage" />
   <img src="/public/images/GameBoy/DMG-MBC5-32M-R-FLASH - inside.jpeg" class="wow slideInLeft postImage" />
 <div markdown="1">
-Nintendo sold special flash cartridges which had rumble support along with Memory Bank Controller 5 (MBC5) which were used for games such as **Looney Tunes Collector: Martian Alert**.
+Nintendo sold special flash cartridges which had rumble support along with Memory Bank Controller 5 (MBC5) which were used for games such as **Looney Tunes Collector**: **Martian Alert**.
 </div>
 </section>
 
@@ -155,7 +155,7 @@ Thank you to both **@forestillusion** and **@Altomare3** for these excellent ima
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_8.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-  The DMG-MBC1 Multichecker cartridge was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so was limited to games that were under 2 MB of ROM and 32 KB of RAM, `Dig Dug` is one game that was developed using this cartridge [^7].
+  The **DMG-MBC1 Multichecker cartridge** was the earliest of the official prototype cartridges sold by Nintendo and only supported Memory Bank Controller version 1 (MBC1) so it was limited to games that were under 2 MB of ROM and 32 KB of RAM, **Dig Dug** is one game that was developed using this cartridge [^7].
 </div>
 </section>
 
@@ -163,7 +163,7 @@ Thank you to both **@forestillusion** and **@Altomare3** for these excellent ima
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_5.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-  Rather the writing to the prototype cartridges one-by-one, which would be too time consuming as developers tended to send out multiple copies to the press (magazines etc) there was a tool known as the `FLASH GANG WRITER` where you could place the cartridges in and write the same ROM image to all of them.
+  Rather the writing to the prototype cartridges one-by-one, which would be too time consuming as developers tended to send out multiple copies to the press (magazines etc) there was a tool known as the **FLASH GANG WRITER** where you could place the cartridges in and write the same ROM image to all of them.
 </div>
 </section>
 
@@ -171,7 +171,7 @@ Thank you to both **@forestillusion** and **@Altomare3** for these excellent ima
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_6.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-  The DMG Universal Checker or aptly named DUCK is a unit for quality control (QA) of the cartridges during the manufacturing process, a Game Boy cartridge is inserted into the socket and the machine calculates and compares the checksum of the ROM with a test cartridge, it also tests saving and loading from SRAM to check for any corruption errors [^8].
+  The DMG Universal Checker or aptly named **DUCK** is a unit for quality control (QA) of the cartridges during the manufacturing process, a Game Boy cartridge is inserted into the socket and the machine calculates and compares the checksum of the ROM with a test cartridge, it also tests saving and loading from SRAM to check for any corruption errors [^8].
 </div>
 </section>
 
@@ -182,9 +182,9 @@ Thank you to both **@forestillusion** and **@Altomare3** for these excellent ima
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/GYwV4Y1t2sQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-  The GB Smart Development kit could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when sold to individual people and the `development kit` name was used very lightly.
+  The **GB Smart Development kit** could be used by small studios or even individual developers to create games for the original Game Boy. However it was likely mainly used for piracy when sold to individual people and the `development kit` name was used very lightly.
 
-The development cartridge was known as the `Smart Card` which was 16 Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
+The development cartridge was known as the **Smart Card** which was 16 Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
 
 The files that were distributed with the development kit have been kindly uploaded by `JakobAir` here: [GitHub - JakobAir/GB-Smart-Development-Kit: Files for the Gameboy Smart Development Kit will be placed here. I claim no authorization of these files.](https://github.com/JakobAir/GB-Smart-Development-Kit) 
 
@@ -193,13 +193,13 @@ The manual has never been scanned so if you find one then please help the commun
 </section>
 
 ## Codemasters Orac
-Ex-Codemasters employee DrTune posted his custom FPGA based Game Boy devkit used in 1992 to his twitter:
+Ex-Codemasters employee **DrTune** posted his custom FPGA based Game Boy devkit used in 1992 to his twitter:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ha just came across pic of my &quot;Orac&quot; Gameboy dev board from 1992, used for all Codemasters GB games; 256K SRAM, PC interface. Old skool FPGA. Big connector is optional logic analyzer port. Acid house smiley face b/c we did more than just hack hardware. <a href="https://t.co/1zHhvED1fC">pic.twitter.com/1zHhvED1fC</a></p>&mdash; DrTune (@drtune) <a href="https://twitter.com/drtune/status/1343388636784414720?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Doctor GB Xchanger
-the Doctor GB Xchanger was primarily sold as a piracy device but could be used by consumers or even some small studios as a cheaper alternative to the official development kit.
+The **Doctor GB Xchanger** was primarily sold as a piracy device but could be used by consumers or even some small studios as a cheaper alternative to the official development kit.
 
-{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Gameboy_Xchanger" description="The wiki `videogamedevelopmentdevices.fandom.com` has an excellent page on the Doctor GB Xchanger" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/2/26/Gb_xchanger_boxed.jpg/revision/latest?cb=20130422153247" title="Gameboy Xchanger"  %}
+{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Gameboy_Xchanger" description="The wiki **videogamedevelopmentdevices.fandom.com** has an excellent page on the Doctor GB Xchanger" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/2/26/Gb_xchanger_boxed.jpg/revision/latest?cb=20130422153247" title="Gameboy Xchanger"  %}
 
 ---
 # References
