@@ -28,7 +28,7 @@ Interested in learning more about the the original Game Boy or Game Boy Color? E
 
 
 ## Game Boy Exclusive Games (DMG & Color)
-When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
+When it comes to finding a game to reverse engineer, it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives, as these are the games people can no longer play on modern consoles.
 
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy to be able to play" image="/public/NintendoGameBoyThumb.png" title="List of Original DMG Game Boy exclusives"  %}
 
@@ -70,18 +70,23 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 # Game Boy Development
 
 ## Game Boy Development Kit Hardware
+Special hardware was sold directly from Nintendo in order to make it easy for third party developers to get started making their own games for the new handheld.
+
 {% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information about the development hardware used for Game Boy projects check out this post." %}
 
 ## Game Boy Software Development Kit
+Along with the hardware, Nintendo also provided a fairly limited software development kit, which contained tools such as z80 assemblers and linkers.
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information about the SDK used to make Game Boy games check out this post." %}
 
 ---
 # Game Boy Hardware
 
 ## Hardware Architecture
-[Game boy Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/game-boy/)
+We used to have a post on the hardware architecture of the Game Boy, but now we have replaced it for a link to the far superior page on **copetti.org**, it is a must read for any reverse engineer or beginner emulator developer.
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="This page on copetti.org has everything you need to know about the Game Boy Hardware, it is a must read!" image="/public/NintendoGameBoyThumb.png" title="Game boy Architecture - A Practical Analysis"  %}
 
 ## Game Boy Pocket Hardware Schematics
+If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Gameboy Circuit Schematics over on Github:
 [gb-schematics/MGB-xCPU.pdf at master · Gekkio/gb-schematics · GitHub](https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf)
 
 ---
@@ -93,7 +98,7 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
 
 ---
-# All Posts
+# All Posts tagged with GameBoy
 <div>
 
 {% include console.html %}
