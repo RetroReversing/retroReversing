@@ -30,6 +30,9 @@ The disassembled code is then shown to the user and can then be modified and re-
 ---
 # Hardware
 
+## Development Kit Hardware
+{% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
+
 ## Nintendo (NES) Controller - Electronics
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
