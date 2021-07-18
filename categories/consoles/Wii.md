@@ -17,8 +17,17 @@ breadcrumbs:
     url: #
 ---
 
+# Hardware
+
+## Retail Hardware
+[Wii Architecture - A Practical Analysis](https://www.copetti.org/writings/consoles/wii/)
+
+## Development Hardware
+{% include link-to-other-post.html post="/nintendo-wii-development-kit/" description="For information about Nintendo's Wii development hardware check out this post." %}
+
 # All Posts
 <div>
 
 {% include console.html %}
+
 </div>
