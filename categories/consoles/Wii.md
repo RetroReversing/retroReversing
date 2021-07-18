@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Nintendo Wii
     url: #
 ---
-# Introduction to Hacking the Sony Playstation One
+# Introduction to Hacking the Nintendo Wii
 Interested in learning more about the the Nintendo Wii? Excellent! This section will guide you through the basics, starting from basic PowerPC assembly language all the way to an introduction to reverse engineering your first game!
 
 ---
