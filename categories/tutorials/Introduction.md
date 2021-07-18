@@ -194,6 +194,39 @@ In fact the CPU has designated instructions to read and write from the stack, of
 GDB is a very useful tool to debug through an application, with functionality to set breakpoints and disassemble the code, which makes it a very useful tool for basic reverse engineering.
 {% include link-to-other-post.html post="/tutorials/gdb-reversing" description="For more information about GDB check out this post." %}
 
+---
+# Next Steps - Choosing your console
+You may already have a game or console chosen that you would like to reverse, if not we would suggest you start with either Game Boy or the Nintendo Entertainment System as there are many tools and documentation available for these platforms.
+
+## Nintendo Consoles
+We have pages on each of the following **Nintendo** consoles:
+* [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
+* [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
+* [Nintendo 64](https://www.retroreversing.com/n64/)
+* [Nintendo Gamecube (Dolphin)](https://www.retroreversing.com/gamecube/)
+* [Nintendo Wii](https://www.retroreversing.com/wii/)
+* [Nintendo 3DS](https://www.retroreversing.com/3ds/)
+* [Nintendo WiiU](https://www.retroreversing.com/wiiU/)
+
+## SEGA Consoles
+We have pages on each of the following **SEGA** consoles:
+* [Sega Master System](https://www.retroreversing.com/sms/)
+* [Sega Mega Drive (Genesis)](https://www.retroreversing.com/md/)
+* [Sega Saturn](https://www.retroreversing.com/saturn/)
+* [Sega Dreamcast](https://www.retroreversing.com/dreamcast/)
+* [Sega Game Gear](https://www.retroreversing.com/gamegear/)
+
+## Sony Consoles
+We have pages on each of the following **Sony** consoles:
+* [Sony Playstation 1](https://www.retroreversing.com/ps1/)
+* [Sony Playstation 2](https://www.retroreversing.com/ps2)
+* [Sony Playstation Portable](https://www.retroreversing.com/psp/)
+
+## Microsoft Consoles & PC
+We have pages on each of the following **Microsoft** consoles along with a section of the IBM-PC:
+* [Microsoft Xbox](https://www.retroreversing.com/xbox/)
+* [PC](https://www.retroreversing.com/pc/)
+
 
 ---
 # All Posts tagged with Introduction
