@@ -20,13 +20,15 @@ redirect_from:
   - /dolphin
 ---
 
-# Retail Hardware
+# Hardware
+
+## Retail Hardware
 Rodrigo Copetti has an excellent in-depth article about the hardware architecture of the Nintendo Gamecube, it is a must read for anyone wanting to reverse engineer Gamecube games as you will need to know all about the low level architecture.
 
 {% include link-to-other-site.html url="https://www.copetti.org/projects/consoles/gamecube/" description="The website by `Rodrigo Copetti` is required reading for console hardware architecture" image="/public/consoles/Nintendo Gamecube.png" title="Rodrigo Copetti's Gamecube Hardware Architecture"  %}
 
-After finishing that article here is a brief overview of the Gamecube motherboard, see if you can spot the components that you have just learned about:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/x5K6RgIfBcw" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Development Hardware
+{% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
 
 ---
 # Gamecube Games
