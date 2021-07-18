@@ -17,6 +17,15 @@ breadcrumbs:
     url: #
 ---
 
+# Hardware
+
+## Retail Hardware
+[Playstation 2 Architecture - A Practical Analysis](https://www.copetti.org/writings/consoles/playstation-2/)
+
+## Development Hardware
+{% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}
+
+---
 # All Posts
 <div>
 
