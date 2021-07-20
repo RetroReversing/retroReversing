@@ -114,7 +114,7 @@ Version 13 seems to have been the latest version of the 128 Giga-Bit Switch ROM 
 * /ES/16GB_ROM.pdf - Older version
 
 ### 256GBit ROM Card (MX23K256GL0)
-Version 1§ seems to have been the latest version of the 256 Giga-Bit Switch ROM Card as specified in the following two documents:
+Version 11 seems to have been the latest version of the 256 Giga-Bit Switch ROM Card as specified in the following two documents:
 * /CS/MX23K256GL0ver11(B)_Apr27.pdf
 * /CS/MX23K256GL0ver11(B)_Apr27.pdf.gpg
 
