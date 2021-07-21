@@ -33,6 +33,7 @@ Extension | Description
 .cxi | Citrus Executable Image - archvie that contains executable game code
 .app | Another name for .cxi files
 .cfa | Citrus File Archive - compressed file that doesn't contain executable code e.g for Game Manuals
+.cia | Citrus Installable Archive - used for games that get installed to the 3ds memory
 
 
 ---
