@@ -8,7 +8,7 @@ title: Nintendo Wii Diagnostic Disc Source Code
 thumbnail: /public/consoles/Nintendo Wii.png
 image: /public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
-permalink: /nintendo-wii-development-kit/
+permalink: /nintendo-wii-diag4rvl-leak/
 breadcrumbs:
   - name: Home
     url: /
@@ -107,7 +107,7 @@ It is split into five main folders:
 * **docs** - Documentation mainly in Japanese
 * **dvddata** - Contains all of the assets used by the various tests such as images sounds etc, these are copied straight to the DVD.
 * **include** - All the C Header files used throughout the codebase
-* **mddlwin** - Contains the source code to the MDDL.exe tool along with a manual in japanese
+* **mddlwin** - Contains the source code to the MDDL.exe tool along with a manual in Japanese
 
   </div>
 </section>  
@@ -157,9 +157,167 @@ One of the most interesting documents here is the **diag_gfx_check.jp.doc** file
 ---
 ### ATI Hardware Docs (/docs/ati/hw/)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/docs/ati/hw/chip</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/docs/ati/hw/</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains a subset of content already leaked and documented in the Emerald leak. These documents were created by ATI and relate to the Wii hardware. For a description of the files check out our post on the Emerald Leak under the section **doc/hw/sys**.
 
   </div>
 </section>  
+
+---
+## Mddlwin (/mddlwin)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/mddlwin</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the source code and executable for a Windows GUI program called MDDLWin.
+
+  </div>
+</section>  
+
+File Name | Extension | Description
+---|---|---
+MDDLWin_manual.jp | .doc | 
+TFileStream2 | .cpp, .h | 
+Unit1 | .cpp, .dfm, .h | 
+makedol | .c, .h | 
+mddl | .bpr, .cpp, .res | 
+mddlwin | .exe | Pre-compiled executable of the tool for Windows
+
+
+<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="TFileStream2.cpp" />
+  <h3>TFileStream2.cpp</h3><ul>
+    <li><span>const int</span> bufsize</li> 
+    <li><span>char</span> buffer[bufsize]</li> 
+    <li><span>int</span> restsize</li> 
+    <li><span>int</span> now</li> 
+    <li><span>bool</span> isend</li> 
+    <li><span></span> TFileStream2<span>::TFileStream2(const AnsiString s,Word in):TFileStream(s,in)</span></li> 
+    <li><span>int __fastcall</span> TFileStream2<span>::Readln(void *p)</span></li> 
+    <li><span>int __fastcall</span> TFileStream2<span>::Readst(char *p)</span></li> 
+    <li><span>int</span> ScanString<span>(char *in,char *table)</span></li> 
+    <li><span>char </span> ReadString<span>(char *in,char *table,bool *Find)</span></li> 
+    <li><span>char </span> TrimString<span>(char *in,char *table)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">164</div>  </div>
+</div>
+
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="Unit1.cpp" />
+  <h3>Unit1.cpp</h3><ul>
+    <li><span></span> Form1 *Form1</li> 
+    <li><span>AnsiString</span> ConvertSl<span>(char *s)</span></li> 
+    <li><span>int</span> SearchGroup<span>(char *p)</span></li> 
+    <li><span>int</span> SearchDiag<span>(char *p)</span></li> 
+    <li><span>void</span> DecodeGroups<span>(char *groups,int *glink)</span></li> 
+    <li><span>void</span> DecodeDiags<span>(char *diags,int *dlink)</span></li> 
+    <li><span>bool</span> GetFileData<span>(AnsiString name,TSearchRec&sr)</span></li> 
+    <li><span>void</span> CopyResource<span>(AnsiString from,AnsiString to,bool isDelete)</span></li> 
+    <li><span>AnsiString</span> groupfile</li> 
+    <li><span>AnsiString</span> diagfile</li> 
+    <li><span>AnsiString</span> resourcefile</li> 
+    <li><span>AnsiString</span> masterfile</li> 
+    <li><span>AnsiString</span> dvdrootdir</li> 
+    <li><span>AnsiString</span> mddldefname</li> 
+    <li><span>char </span> ENV_ROOT</li> 
+    <li><span>char </span> systemname</li> 
+    <li><span>AnsiString</span> rootdir</li> 
+    <li><span>const</span> BUTTON_WIDTH</li> 
+    <li><span>const</span> BUTTON_HEIGHT</li> 
+    <li><span></span> tablestr table[]</li> 
+    <li><span>TPanel </span> list<span>[sizeof(table)/sizeof(tablestr)]</span></li> 
+    <li><span>const</span> BUFFER_SIZE</li> 
+    <li><span>int</span> DiagSize</li> 
+    <li><span>int</span> GroupSize</li> 
+    <li><span>DData</span> Diag[1000]</li> 
+    <li><span>GData</span> Group[300]</li> 
+    <li><span>bool</span> isTreeViewSelected</li> 
+    <li><span>NodeStr</span> TV2Node</li> 
+    <li><span>bool</span> ppcmode</li> 
+    <li><span>int</span> Lang</li> 
+    <li><span>__fastcall</span> TForm1<span>::TForm1(TComponent *Owner):TForm(Owner)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::FormClose(TObject *Sender,TCloseAction&Action)</span></li> 
+    <li><span>bool</span> TForm1<span>::isSelectedDiag()</span></li> 
+    <li><span>bool</span> TForm1<span>::isSelectedGroup()</span></li> 
+    <li><span>char </span> AddResource<span>(TListBox *L,char *from,char *to)</span></li> 
+    <li><span>DData </span> TForm1<span>::DoDiag(char *name,TFileStream2 *f,DData&Diag,TListBox *L)</span></li> 
+    <li><span>GData </span> TForm1<span>::DoGroup(char *name,TFileStream2 *f,GData&Group)</span></li> 
+    <li><span>int</span> SearchGroup<span>(char *p)</span></li> 
+    <li><span>int</span> SearchDiag<span>(char *p)</span></li> 
+    <li><span>void</span> DecodeGroups<span>(char *groups,int *glink)</span></li> 
+    <li><span>void</span> DecodeDiags<span>(char *diags,int *dlink)</span></li> 
+    <li><span>bool</span> TForm1<span>::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
+    <li><span>bool</span> DoDiag2<span>(DData&Diag,TListBox *L,int&num)</span></li> 
+    <li><span>bool</span> TForm1<span>::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
+    <li><span>int __fastcall</span> TForm1<span>::SelectClick()</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::BevelClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::ListBox1Click(TObject *Sender)</span></li> 
+    <li><span>struct NodeStr</span> TForm1<span>::Develop(bool isParent,int i,NodeStr Node,TTreeView *GroupTree)</span></li> 
+    <li><span>struct NodeStr __fastcall</span> TForm1<span>::DevelopChild(int i,NodeStr Node,TTreeView *GroupTree)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::GroupReadClick()</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::GroupTreeClick(TObject *Sender)</span></li> 
+    <li><span>AnsiString</span> ConvertSl<span>(char *s)</span></li> 
+    <li><span>void</span> TForm1<span>::UpdateSystem()</span></li> 
+    <li><span>void</span> TForm1<span>::ShowDiagContents(TListBox *ListBox,int target)</span></li> 
+    <li><span>void</span> TForm1<span>::ShowGroupContents(TListBox *ListBox,int target)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::GroupTreeMouseDown(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::JumpToClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::GroupTreeMouseUp(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::MasterTreeDragOver(TObject *Sender,TObject *Source,int X,int Y,TDragState State,bool&Accept)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::MasterTreeDragDrop(TObject *Sender,TObject *Source,int X,int Y)</span></li> 
+    <li><span>bool</span> GetFileData<span>(AnsiString name,TSearchRec&sr)</span></li> 
+    <li><span>void</span> CopyResource<span>(AnsiString from,AnsiString to,bool isDelete)</span></li> 
+    <li><span>bool</span> isMatchCache<span>(TListBox *L,AnsiString file,AnsiString dfile)</span></li> 
+    <li><span>void</span> FDelete<span>(AnsiString dname,AnsiString fname)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::CreateButtonClick(TObject *Sender)</span></li> 
+    <li><span>int</span> TForm1<span>::isMatchResource(AnsiString str,TListBox *L)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::FileFormatGroupClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::FormActivate(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::RootPanelClick(TObject *Sender)</span></li> 
+    <li><span>void</span> TForm1<span>::ParseArg()</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::DvdrootPanelClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::MddlPanelClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::DeleteButtonClick(TObject *Sender)</span></li> 
+    <li><span>void</span> TForm1<span>::SetErrorMessage(EMode mode,TListBox *L,AnsiString s)</span></li> 
+    <li><span>void</span> TrimRAdd<span>(TListBox *L,AnsiString s)</span></li> 
+    <li><span>void</span> TrimLAdd<span>(TListBox *L,AnsiString s)</span></li> 
+    <li><span>void</span> TrimAdd<span>(TListBox *L,AnsiString s)</span></li> 
+    <li><span>bool</span> TForm1<span>::ReadMddl2(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::CheckButtonClick(TObject *Sender)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::WMGetMinMaxInfo(TWMGetMinMaxInfo&msg)</span></li> 
+    <li><span>void __fastcall</span> TForm1<span>::LangGroupClick(TObject *Sender)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">59</div>    <div class="rr-file-stat rr-file-stats-variables">22</div>    <div class="rr-file-stat rr-file-stats-lines">2294</div>  </div>
+</div>
+
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="makedol.c" />
+  <h3>makedol.c</h3><ul>
+    <li><span>u32</span> Verbose</li> 
+    <li><span>ElfHdr</span> Eh</li> 
+    <li><span>ElfPrgHdr </span> Ph</li> 
+    <li><span>u32</span> Swap32<span>(u32 val)</span></li> 
+    <li><span>u16</span> Swap16<span>(u16 val)</span></li> 
+    <li><span>void</span> SwapPh<span>(ElfPrgHdr *pp)</span></li> 
+    <li><span>void</span> SwapEh<span>(ElfHdr *ep)</span></li> 
+    <li><span>DolImage </span> EatPh<span>(FILE *fp)</span></li> 
+    <li><span>DolImage </span> ElfRead<span>(const char *elfFile)</span></li> 
+    <li><span>int</span> Pad32<span>(FILE *fout,u32 bytes)</span></li> 
+    <li><span>int</span> DumpDol<span>(DolImage *ip,char *outFile)</span></li> 
+    <li><span>void</span> ConvertToUnixFmt<span>(char *fmt)</span></li> 
+    <li><span>static u32</span> Swap32<span>(u32 val)</span></li> 
+    <li><span>static u16</span> Swap16<span>(u16 val)</span></li> 
+    <li><span>static void</span> SwapPh<span>(ElfPrgHdr *pp)</span></li> 
+    <li><span>static void</span> SwapEh<span>(ElfHdr *ep)</span></li> 
+    <li><span>static DolImage </span> EatPh<span>(FILE *fp)</span></li> 
+    <li><span>static DolImage </span> ElfRead<span>(const char *elfFile)</span></li> 
+    <li><span>static int</span> Pad32<span>(FILE *fout,u32 bytes)</span></li> 
+    <li><span>static int</span> DumpDol<span>(DolImage *ip,char *outFile)</span></li> 
+    <li><span>static void</span> ConvertToUnixFmt<span>(char *fmt)</span></li> 
+    <li><span>int</span> MakeDol<span>(char *inFile,char *outFile)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">496</div>  </div>
+</div>
+
+</section>
