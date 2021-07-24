@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h2 > p {
@@ -52,15 +52,15 @@ h2 > p {
 }
 
 h3 {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 h5 {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 h5 + .form-group {
