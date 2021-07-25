@@ -377,8 +377,9 @@ diaginfo | .h | Include file for declaring common pre-processor defines for the 
 Interesting information in the **diaginfo.h** file is that it mentions **Bollywood** which is a version of the **Hollywood** graphics chip, with added security (preventing the **Trucha** Exploit).
 
 It also mentions the following information:
+
 Date | ID | Version of DIAG | Name
----|---|---
+---|---|---|---
 2006/07/20 | RVL-064J | 4.3.0 | DIAG 4.3
 2006/07/28 | RVL-067J | 4.4.0 | DIAG 4.4
 2006/08/02 | RVL-100J | 4.4.1 | RVL_AGING 1.0
@@ -389,23 +390,6 @@ Date | ID | Version of DIAG | Name
 2008/09/03 | RVL-013E | 4.9.0 | DIAG 4.9 (for Hollywood and Bollywood)
 
 For more information on **Bollywood** check out this page: [Bollywood - RGDWiki](https://wiki.raregamingdump.ca/index.php/Bollywood)
-
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-  <div class="rr-file-card">
-  <img class="geopattern" data-title="ahb.h" />
-  <h3>ahb.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">24</div>  </div>
-</div>
-
-  <div class="rr-file-card">
-  <img class="geopattern" data-title="ahb_fdl_defs.h" />
-  <h3>ahb_fdl_defs.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">14322</div>  </div>
-</div>
-
-</section>
 
 ---
 ### Character Pipeline (CP) (/include/cp)
