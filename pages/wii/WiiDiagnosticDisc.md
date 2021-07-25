@@ -94,7 +94,7 @@ As far as I can see building the DIAG4 Disc involves a number of different tools
 ## What are all these file formats?
 Here is a brief description of the main file formats you will encounter in this codebase:
 * DDF format - seems to be the definition of the data to be written to a DVD such as the game name, company. Or it is used to emulate folders on a PC to act like they are a DVD for the development kit.
-* MDL format - Used by MDDL.exe seems to descibe all the different diagnostic tests split into groups such as **Board_Aging** etc
+* MDL format - Used by MDDL.exe seems to describe all the different diagnostic tests split into groups such as **Board_Aging** etc
 
 ---
 # Wii DIAG tool Source Code (/)
@@ -108,7 +108,6 @@ It is split into five main folders:
 * **dvddata** - Contains all of the assets used by the various tests such as images sounds etc, these are copied straight to the DVD.
 * **include** - All the C Header files used throughout the codebase
 * **mddlwin** - Contains the source code to the MDDL.exe tool along with a manual in Japanese
-
   </div>
 </section>  
 
@@ -175,16 +174,20 @@ MDDLWin is a tool to make it easier to manage all the different tests that will 
 
 Each test has its own compiled ELF that will be executed on the console along with some meta data such as the test name, a description and a unique 2 byte ID.
 
+
+  </div>
+</section>  
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">MddlWin - A Windows GUI created by Nintendo to organise which tests will be written to the Wii/Gamecube Diagnostic Disc. Each test is its own ELF file that tests a specific part of the hardware. <a href="https://t.co/dnLAUO4CN3">pic.twitter.com/dnLAUO4CN3</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1419260438810877960?ref_src=twsrc%5Etfw">July 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 The main window is split into 3 top sections:
 * **DIAG** - Lists all the tests along with their 2 byte unique ID
 * **GROUP** - You can group multiple DIAGs together by dragging and dropping from DIAG to GROUP
 * **MASTER** - You can drag and drop items from either the DIAG or GROUP lists here and only these tests will be written to DVD root.
 
 Under the DIAG list there is a bunch of toggle buttons such as **GEKKO** these filter the DIAG list to only include the category of tests that have been toggled.
-  </div>
-</section>  
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">MddlWin - A Windows GUI created by Nintendo to organise which tests will be written to the Wii/Gamecube Diagnostic Disc. Each test is its own ELF file that tests a specific part of the hardware. <a href="https://t.co/dnLAUO4CN3">pic.twitter.com/dnLAUO4CN3</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1419260438810877960?ref_src=twsrc%5Etfw">July 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -339,6 +342,66 @@ If you are interested in the DOL format, it is partly documented in this WiiBrew
     <li><span>int</span> MakeDol<span>(char *inFile,char *outFile)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">496</div>  </div>
+</div>
+
+</section>
+
+---
+## Include (/include)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/include</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains all the C/C++ Header files used throughout all the different DIAG tests. 
+
+It is split into seven subfolders:
+* **artx** - Gamecube C header files created by ARTX INC.
+* **ati** - Wii C header files created by ATI and BroadOn
+* **cp** - Character Pipeline C Header files for 3d character models skinning and animation by Nintendo
+* **diag** - C Header files specifically for the DIAG Wii/Gamecube diagnostic disc
+* **dolphin** - Misc Gamecube header files such as for parsing JPEG images and the Audio interface
+* **simplekit** - Simple Kit library by Hiratsu Daisuke for rendering lines, rectangles, circles and text
+* **uji** - Not quite sure what the UJI library is but contains barcode, gamepad input and image headers
+
+  </div>
+</section>  
+
+There are also three top level header files, two of which should have been included in the ATI folder instead (in Our Opinion) are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ahb | .h | Include file for declaring **PHYS_TO_PROTECTED** and **ACR_PROT_REGS_BASE** macros by ATI
+ahb_fdl_defs | .h | Include file for declaring tons of preprocessor defines that has been generated by **ahb_fdl_defs.fdl**
+diaginfo | .h | Include file for declaring common pre-processor defines for the name and version information
+
+Interesting information in the **diaginfo.h** file is that it mentions **Bollywood** which is a version of the **Hollywood** graphics chip, with added security (preventing the Trucha Exploit).
+
+It also mentions the following information:
+Date | ID | Version of DIAG | Name
+---|---|---
+2006/07/20 | RVL-064J | 4.3.0 | DIAG 4.3
+2006/07/28 | RVL-067J | 4.4.0 | DIAG 4.4
+2006/08/02 | RVL-100J | 4.4.1 | RVL_AGING 1.0
+2006/08/20 | RVL-121J | 4.4.2 | RVL_FINAL_CHECKER 1.0
+2006/08/22 | RVL-123J | 4.4.3 | RVL_BOARD_CHECKER 1.0
+2008/06/03 | RVL-011E | 4.7.0 | DIAG 4.7 (for Bollywood)
+2008/06/30 | RVL-012E | 4.8.0 | DIAG 4.8 (for Hollywood and Bollywood)
+2008/09/03 | RVL-013E | 4.9.0 | DIAG 4.9 (for Hollywood and Bollywood)
+
+For more information on Bollywood check out this page: [Bollywood - RGDWiki](https://wiki.raregamingdump.ca/index.php/Bollywood)
+
+<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="ahb.h" />
+  <h3>ahb.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">24</div>  </div>
+</div>
+
+  <div class="rr-file-card">
+  <img class="geopattern" data-title="ahb_fdl_defs.h" />
+  <h3>ahb_fdl_defs.h</h3><ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">14322</div>  </div>
 </div>
 
 </section>
