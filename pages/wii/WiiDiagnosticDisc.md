@@ -454,6 +454,8 @@ simplekit | .h | Include file for declaring all of the helpful render functions 
   </div>
 </section>  
 
+This folder simply contains one top level include which is used to include all the files in the sub directory **/utility**.
+
 File Name | Extension | Description
 ---|---|---
 UJIUtility | .h | Include file for including all the other header files in the utility directory 
@@ -462,30 +464,33 @@ UJIUtility | .h | Include file for including all the other header files in the u
 ---
 #### Utility (/include/uji/utility)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/include/uji/utility</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/uji/utility</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the actual source code for the entire **uji** library, these could easily have been put top level but maybe there was a plan to add additional folders of functionality to uji which never happened. 
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-BasicPad | .h | Include file for declaring 2 C structures **BASIC_PAD_TYPE** and **JPad** that hold button pressesand stick X/Y position
+BasicPad | .h | Include file for declaring 2 C structures **BASIC_PAD_TYPE** and **JPad** that hold button presses and stick X/Y position
 BasicPuts | .h | Include file for declaring **DsPuts** and **DsPrintf** functions that draw text to the screen buffer
 Crc | .h | Include file for declaring a function to compute the CRC 32 of a buffer **ComputeCRC32**
 InitSystem | .h | Include file for declaring initialisation functions such as **InitSystem** along with render functions such as **BeforeRender** and **DoneRender**
-Layer | .h | Include file for declaring 
-LayerInterface | .h | Include file for declaring 
-Menu | .h | Include file for declaring 
-PortExi | .h | Include file for declaring 
-Thread | .h | Include file for declaring 
-WriteLog | .h | Include file for declaring 
-barcode | .h | Include file for declaring 
-chklog | .h | Include file for declaring 
-dpsram | .h | Include file for declaring 
-sled | .h | Include file for declaring 
+Layer | .h | Include file for declaring a layer system where you can have multiple layers of images on screen, text layers etc
+LayerInterface | .h | Include file for declaring the two main structures used for layers: **_tagLayerManager** and **_tagLayer** (ILayer)
+Menu | .h | Include file for declaring Menu related structures such as **MENU_ELEMENT_TYPE** and **MENU_TYPE** along with functions **menuOpen** and **ShowMenu**
+PortExi | .h | Include file for declaring what looks like connection via a Exi port, not sure what it is but it has functions **portWrite** and **portRead**
+Thread | .h | Include file for declaring functions to start threads such as **jStartGxThread** and  **jStartPadThread**
+WriteLog | .h | Include file for declaring functions that allow writing to log fines in NAND
+barcode | .h | Include file for declaring a few functions to draw a 2D barcode containing text messages such as **BarcodePrint**
+chklog | .h | Include file for declaring functions for checking log messages in NAND such as **CheckHwWriteLog**
+dpsram | .h | Include file for declaring Dual Ported SRam functions such as **commSend** and **commReceive**
+sled | .h | Include file for declaring functions such as **SledOn** and **SledFlashStart**, not really sure what Sled is however, an LED interface would be a guess
 
+The most interesting part of this codebase is the LayerSystem allowing easy drawing of Menus with Images and Text, very useful when creating gamecube/wii demos.
+
+If we didn't already have multiple homebrew examples showing off similar functionality this would be a great library to recommend for anyone wanting to create some simple 2D interfaces on the Gamecube!
 
 <div class="rr-source-code-title">Code Files</div>
   <section class="rr-main-cards">
@@ -726,6 +731,430 @@ sled | .h | Include file for declaring
     <li><span>void</span> SledFlashStart<span>(int flash_time)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">26</div>  </div>
+ </div>
+
+</section>
+
+---
+### Diag Test SDK Headers (/include/diag)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/include/diag</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains C Header files that make up the Diag SDK to write tests that run in the **DIAG4** tool.
+
+It seems most of the files are mostly written by ArtX but others have japanese comments which suggests Nintendo has modified it.
+
+  </div>
+</section>  
+
+File Name | Extension | Description
+---|---|---
+SItoUSB | .h | Include file for declaring functions that send data from the Serial Interface to USB
+SIusbOSReport | .h | Include file for declaring functions that write an Operating System Report via the USB interface
+diagcommon | .h | Include file for declaring common functions used in DIAG tests to get and set environment settings
+diagerr | .h | Include file for declaring pre-processor constants such as **DE_GECKO** and **DE_AES**
+diagsdk | .h | Include file for declaring functions that must be called by every test such as **DIAGStart**
+sdio | .h | Include file for declaring structures and functions for interfacing with SD cards
+sdm | .h | Include file for declaring higher level constants and functions for SD card file systems such as reading and writing a particular file
+wkreport | .h | Include file for declaring functions to read and write over something called WK?
+
+
+The main question we have after looking into the files in this folder is what exactly is WK, it looks like some sort of interface and has a function that allows it to be probed **WKProbe**.
+
+
+<div class="rr-source-code-title">Code Files</div>
+  <section class="rr-main-cards">
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="SItoUSB.h" />
+  <h3>SItoUSB.h</h3>
+  <ul>
+    <li><span>BOOL</span> SIusbCheckDev<span>(s32 chan)</span></li> 
+    <li><span>BOOL</span> SIusbReset<span>(s32 chan,u32 *buf)</span></li> 
+    <li><span>BOOL</span> SIusbGetStatus<span>(s32 chan,u32 *buf)</span></li> 
+    <li><span>BOOL</span> SIusbCheckFifo<span>(s32 chan,u16 *buf)</span></li> 
+    <li><span>BOOL</span> SIusbTrans<span>(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf)</span></li> 
+    <li><span>BOOL</span> SIusbTransAsync<span>(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf,SIUSBcallback callback)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">39</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="SIusbOSReport.h" />
+  <h3>SIusbOSReport.h</h3>
+  <ul>
+    <li><span>BOOL</span> SIusbCheckAllReportFinish<span>(void)</span></li> 
+    <li><span>BOOL</span> SIusbOSReportInit<span>(void)</span></li> 
+    <li><span>void</span> SIusbOSReportOri<span>(const char *msg,...)</span></li> 
+    <li><span>void</span> SIusbOSReport<span>(const char *msg,...)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">21</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="diagcommon.h" />
+  <h3>diagcommon.h</h3>
+  <ul>
+    <li><span>s32</span> DIAGGetEnv<span>(Env *env)</span></li> 
+    <li><span>void</span> DIAGPutEnv<span>(Env *env)</span></li> 
+    <li><span>u32</span> DIAGGetSettingLoop<span>(void)</span></li> 
+    <li><span>u32</span> DIAGGetCurrentLoop<span>(void)</span></li> 
+    <li><span>s32</span> DIAGGetCfg<span>(Cfg *cfg)</span></li> 
+    <li><span>void</span> DIAGPutCfg<span>(Cfg *cfg)</span></li> 
+    <li><span>void</span> __OSLaunchMenu<span>(void)</span></li> 
+    <li><span>void</span> __OSRelaunchTitle<span>(void)</span></li> 
+    <li><span>s32</span> NANDFinalize<span>(void)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">147</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="diagerr.h" />
+  <h3>diagerr.h</h3>
+  <ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">48</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="diagsdk.h" />
+  <h3>diagsdk.h</h3>
+  <ul>
+    <li><span>u32</span> DIAGStart<span>(void)</span></li> 
+    <li><span>void</span> DIAGStop<span>(u32 status)</span></li> 
+    <li><span>BOOL</span> DIAGGetLogDest<span>(s32 *chan,u32 *dev)</span></li> 
+    <li><span>s32</span> DIAGProbeBarnacle<span>(s32 chan,u32 dev)</span></li> 
+    <li><span>BOOL</span> DIAGReadBarnacle<span>(s32 chan,u32 dev,u32 command,u8 *result)</span></li> 
+    <li><span>BOOL</span> DIAGCheckIPL<span>(void)</span></li> 
+    <li><span>u32</span> DIAGGetHwRev<span>(void)</span></li> 
+    <li><span>void</span> DIAGReportStart<span>(void)</span></li> 
+    <li><span>void</span> DIAGReportStop<span>(void)</span></li> 
+    <li><span>BOOL</span> DIAGReportStat<span>(void)</span></li> 
+    <li><span>void</span> DIAGInitCRC<span>(int argc,char **argv)</span></li> 
+    <li><span>u32</span> DIAGComputeCRC<span>(s32 *buf,u32 size)</span></li> 
+    <li><span>s32</span> DIAGCheckCRC<span>(s32 *buf,u32 size)</span></li> 
+    <li><span>u32</span> DIAGGetCRCValue<span>()</span></li> 
+    <li><span>s32</span> DIAGGetCRCCount<span>()</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">15</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="sdio.h" />
+  <h3>sdio.h</h3>
+  <ul>
+    <li><span>void</span> sdi_init_intr<span>(void(*irqCb)(void))</span></li> 
+    <li><span>void</span> sdi_init<span>(void(*irqCb)(void))</span></li> 
+    <li><span>sdi_slot_t</span> sdi_handle<span>(u32 ctrl,u32 slot)</span></li> 
+    <li><span>void</span> sdi_set_debug<span>(u32 debug)</span></li> 
+    <li><span>u32</span> sdi_rd_reg<span>(sdi_slot_t sp,u32 offset)</span></li> 
+    <li><span>void</span> sdi_wr_reg<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
+    <li><span>void</span> sdi_wr_reg16<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
+    <li><span>u32</span> sdi_verif_reg<span>(sdi_slot_t sp,u32 offset,u32 expected)</span></li> 
+    <li><span>void</span> sdi_reg_intr<span>(sdi_slot_t sp,u32 intr,void(*irq)(sdi_slot_t,void *),void *closure)</span></li> 
+    <li><span>void</span> sdi_intr<span>(void)</span></li> 
+    <li><span>u32</span> sdi_get_istat<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_clear_istat<span>(sdi_slot_t sp,u32 ibits)</span></li> 
+    <li><span>u32</span> sdi_wait_istat<span>(sdi_slot_t sp,u32 ibits,u32 bail_on_abort)</span></li> 
+    <li><span>void</span> sdi_wr_host_ctrl<span>(sdi_slot_t sp,u32 in_data)</span></li> 
+    <li><span>void</span> sdi_int_regs_en<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_wr_nor_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
+    <li><span>void</span> sdi_wr_err_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
+    <li><span>void</span> sdi_err_int_recover<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd)</span></li> 
+    <li><span>u32</span> sdi_io_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd,u32 blk_size,u32 blk_cnt,u32 dma,u32 wr)</span></li> 
+    <li><span>void</span> sdi_read_io_coherency<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_write_io_coherency<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_resp_type_cal<span>(sdi_slot_t sp,u32 cmd_index,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_mem_cmd<span>(sdi_slot_t sp,u32 cmd_index,u32 arg,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_mem_cmd_data<span>(sdi_slot_t sp,u32 sysaddr,u32 cmd_index,u32 blk_size,u32 blk_cnt,u32 data_addr,u32 dma,u32 wr,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd0<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd2<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd3<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd7<span>(sdi_slot_t sp,u32 rca)</span></li> 
+    <li><span>u32</span> sdi_cmd9<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd12<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd13<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_cmd16<span>(sdi_slot_t sp,u32 dflt_blk_size)</span></li> 
+    <li><span>u32</span> sdi_cmd17<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd18<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd23<span>(sdi_slot_t sp,u32 blk_cnt)</span></li> 
+    <li><span>u32</span> sdi_cmd24<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd25<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd32<span>(sdi_slot_t sp,u32 start_blk_addr)</span></li> 
+    <li><span>u32</span> sdi_cmd33<span>(sdi_slot_t sp,u32 end_blk_addr)</span></li> 
+    <li><span>u32</span> sdi_cmd38<span>(sdi_slot_t sp,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd52<span>(sdi_slot_t sp,u32 reg_addr,u32 sd_wr_data,u32 fn_no,u32 raw,u32 wr,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdioByteRead<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdioByteWrite<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 wr_data,u32 raw,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdioExtRead<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdioExtWrite<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd53<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 wr,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
+    <li><span>u32</span> sdi_cmd55<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_acmd6<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
+    <li><span>u32</span> sdi_dma_done<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_abort<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_suspend<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_resume<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_set_async_mode<span>(sdi_slot_t sp,u32 mode)</span></li> 
+    <li><span>void</span> sdi_wr_clk_ctrl<span>(sdi_slot_t sp,u32 clk_ctrl)</span></li> 
+    <li><span>void</span> sdi_wr_blk_gap_ctrl<span>(sdi_slot_t sp,u32 bgap_ctrl)</span></li> 
+    <li><span>void</span> sdi_wr_timeout_reg<span>(sdi_slot_t sp,u32 timeout_cnt)</span></li> 
+    <li><span>void</span> sdi_set_bus_width<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
+    <li><span>void</span> sdi_rd_sd_hc_capabilities<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_clock_supply<span>(sdi_slot_t sp,u32 div)</span></li> 
+    <li><span>void</span> sdi_clock_stop<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_clock_change<span>(sdi_slot_t sp,u32 div)</span></li> 
+    <li><span>void</span> sdi_bus_power<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_validate_ocr<span>(sdi_slot_t sp,u32 ocr_data,u32 mem,u32 mmc)</span></li> 
+    <li><span>u32</span> sdi_card_insertion<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_io_card_init<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdi_mem_card_init<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdi_mmc_card_init<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSwapBytes4<span>(u32 value)</span></li> 
+    <li><span>u32</span> checkErrorInt<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiCardDetect<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiCardInit<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> waitTransferComplete<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiGoIdle<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdiIoReset<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdiSoftReset<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sendCmd<span>(sdi_slot_t sp,u32 arg,u32 tmdcmd)</span></li> 
+    <li><span>u32</span> sdiSendStatus<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSendOpCondition<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiAllSendCid<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSendRca<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSendCsd<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSelectCard<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSetBlockLength<span>(sdi_slot_t sp,u32 blksiz)</span></li> 
+    <li><span>u32</span> sdiSetBusWidth<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
+    <li><span>u32</span> sdiAsyncAbort<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiSyncAbort<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> updateDmaPointer<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdiReadSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *rdbuf,u32 dma)</span></li> 
+    <li><span>u32</span> sdiWriteSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *wrbuf,u32 dma)</span></li> 
+    <li><span>u32</span> sdiReadBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)</span></li> 
+    <li><span>u32</span> sdiWriteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)</span></li> 
+    <li><span>u32</span> sdiReadMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)</span></li> 
+    <li><span>u32</span> sdiWriteMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)</span></li> 
+    <li><span>u32</span> sdiReadInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
+    <li><span>u32</span> sdiWriteInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
+    <li><span>void</span> sdi_init_ird<span>(sdi_slot_t sp,u32 ctrl,u32 slot,void(*irqCb)(void))</span></li> 
+    <li><span>void</span> sdi_clear_hcstruct<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdio_initUSBSDIPLLs<span>()</span></li> 
+    <li><span>void</span> sdio_DisableGpio<span>(void)</span></li> 
+    <li><span>void</span> sdio_EnableIOPJtag<span>(void)</span></li> 
+    <li><span>void</span> sdio_acr_iostrctrl1<span>(u8 val)</span></li> 
+    <li><span>u32</span> sdio_SelectCard<span>(sdi_slot_t sp,u32 rca)</span></li> 
+    <li><span>u32</span> sdio_setHSpd<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_setHSpd2<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_setNmlSpd<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_getscr<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_cidcheck<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_csdcheck<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_scrcheck<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_check_cins<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_check_crmv<span>(sdi_slot_t sp)</span></li> 
+    <li><span>void</span> sdio_udelay<span>(u32 delay)</span></li> 
+    <li><span>void</span> sdio_hc_swrst<span>(sdi_slot_t sp,u32 type)</span></li> 
+    <li><span>u32</span> sdio_wait_programend<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_DeSelectCard<span>(sdi_slot_t sp)</span></li> 
+    <li><span>u32</span> sdio_rwsdioreg<span>(sdi_slot_t sp,u32 wr,u32 fn_no,u32 blk_size,u32 blk_mode,u32 opcode,u32 reg_addr,u32 blk_cnt,u32 sysaddr,u32 dma)</span></li> 
+    <li><span>u32</span> checkStatus<span>(sdi_slot_t sp)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">118</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">498</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="sdm.h" />
+  <h3>sdm.h</h3>
+  <ul>
+    <li><span>struct partitiontable_s</span> __attribute__<span>((packed))</span></li> 
+    <li><span>struct partitionboot_s</span> __attribute__<span>((packed))</span></li> 
+    <li><span>s32</span> SDMInit<span>(BOOL,int)</span></li> 
+    <li><span>s32</span> SDMOpen<span>(struct direntry *de,char *filename)</span></li> 
+    <li><span>s32</span> SDMOpenDirFile<span>(struct direntry *de,char *name)</span></li> 
+    <li><span>s32</span> SDMRead<span>(struct direntry *de,s32 id,u8 *data)</span></li> 
+    <li><span>s32</span> SDMFindFirst<span>(struct direntry *de)</span></li> 
+    <li><span>s32</span> SDMFindNext<span>(struct direntry *de)</span></li> 
+    <li><span>s32</span> SDMDirFileFind<span>(struct direntry *de,char *name)</span></li> 
+    <li><span>void</span> SDMSetAccessMode<span>(BOOL in)</span></li> 
+    <li><span>void</span> SDMFinish<span>()</span></li> 
+    <li><span>void </span> SDMAlloc<span>(u32 size)</span></li> 
+    <li><span>void</span> SDMFree<span>(void *in)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">108</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="wkreport.h" />
+  <h3>wkreport.h</h3>
+  <ul>
+    <li><span>BOOL</span> WKProbe<span>(s32 chan)</span></li> 
+    <li><span>BOOL</span> WKCheckBuf<span>(s32 chan,u16 *send,u16 *recv)</span></li> 
+    <li><span>BOOL</span> WKFlushBuf<span>(s32 chan)</span></li> 
+    <li><span>s32</span> WKRead<span>(s32 chan,void *buf,u32 len)</span></li> 
+    <li><span>s32</span> WKWrite<span>(s32 chan,void *buf,u32 len)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">22</div>  </div>
+ </div>
+
+</section>
+
+---
+### Dolphin (/include/dolphin)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/include/dolphin</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains a subset of files from the **Dolphin OS**.
+
+  </div>
+</section>  
+
+File Name | Extension | Description
+---|---|---
+ais | .h | Include file for declaring the Audio Interface constants and functions
+ar | .h | Include file for declaring  functions and constants that access memory from ARAM
+arq | .h | Include file for declaring functions and structures for a ARAM based Queue implementation
+doldefs | .h | Include file for declaring a few preprocessor macros such as **DOLPHIN_LIB_VERSION**
+dtk | .h | Include file for declaring functions and structures for a DVD Audio Track Player such as **DTKQueueTrack**
+hio | .h | Include file for declaring Windows API functions called the Host Interface that can read and write data including something called a Mailbox
+jpeg | .h | Include file for declaring functions to convert JPEG images to Textures such as **JPEGDecompressToTexRGBA8**
+
+The most interesting file in this directory is **hio.h** which acts as a host interface sending and receiving data from the Gamecube/Wii to a windows PC. It also has the concept of a Mailbox, but it is uncertain how it works without finding the implementation files.
+
+<div class="rr-source-code-title">Code Files</div>
+  <section class="rr-main-cards">
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="ais.h" />
+  <h3>ais.h</h3>
+  <ul>
+    <li><span>AISCallback</span> AIRegisterStreamCallback<span>(AISCallback callback)</span></li> 
+    <li><span>u32</span> AIGetStreamSampleCount<span>(void)</span></li> 
+    <li><span>void</span> AIResetStreamSampleCount<span>(void)</span></li> 
+    <li><span>void</span> AISetStreamTrigger<span>(u32 trigger)</span></li> 
+    <li><span>u32</span> AIGetStreamTrigger<span>(void)</span></li> 
+    <li><span>void</span> AISetStreamPlayState<span>(u32 state)</span></li> 
+    <li><span>u32</span> AIGetStreamPlayState<span>(void)</span></li> 
+    <li><span>void</span> AISetStreamSampleRate<span>(u32 rate)</span></li> 
+    <li><span>u32</span> AIGetStreamSampleRate<span>(void)</span></li> 
+    <li><span>void</span> AISetStreamVolLeft<span>(u8 vol)</span></li> 
+    <li><span>void</span> AISetStreamVolRight<span>(u8 vol)</span></li> 
+    <li><span>u8</span> AIGetStreamVolLeft<span>(void)</span></li> 
+    <li><span>u8</span> AIGetStreamVolRight<span>(void)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="ar.h" />
+  <h3>ar.h</h3>
+  <ul>
+    <li><span>ARCallback</span> ARRegisterDMACallback<span>(ARCallback callback)</span></li> 
+    <li><span>u32</span> ARGetDMAStatus<span>(void)</span></li> 
+    <li><span>void</span> ARStartDMA<span>(u32 type,u32 mainmem_addr,u32 aram_addr,u32 length)</span></li> 
+    <li><span>u32</span> ARInit<span>(u32 *stack_index_addr,u32 num_entries)</span></li> 
+    <li><span>u32</span> ARGetBaseAddress<span>(void)</span></li> 
+    <li><span>BOOL</span> ARCheckInit<span>(void)</span></li> 
+    <li><span>void</span> ARReset<span>(void)</span></li> 
+    <li><span>u32</span> ARAlloc<span>(u32 length)</span></li> 
+    <li><span>u32</span> ARFree<span>(u32 *length)</span></li> 
+    <li><span>u32</span> ARGetSize<span>(void)</span></li> 
+    <li><span>u32</span> ARGetInternalSize<span>(void)</span></li> 
+    <li><span>void</span> ARSetSize<span>(void)</span></li> 
+    <li><span>void</span> ARClear<span>(u32 flag)</span></li> 
+    <li><span>void</span> __ARClearInterrupt<span>(void)</span></li> 
+    <li><span>u16</span> __ARGetInterruptStatus<span>(void)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">15</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">173</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="arq.h" />
+  <h3>arq.h</h3>
+  <ul>
+    <li><span>void</span> ARQInit<span>(void)</span></li> 
+    <li><span>void</span> ARQReset<span>(void)</span></li> 
+    <li><span>void</span> ARQPostRequest<span>(ARQRequest *task,u32 owner,u32 type,u32 priority,u32 source,u32 dest,u32 length,ARQCallback callback)</span></li> 
+    <li><span>void</span> ARQRemoveRequest<span>(ARQRequest *task)</span></li> 
+    <li><span>void</span> ARQRemoveOwnerRequest<span>(u32 owner)</span></li> 
+    <li><span>void</span> ARQFlushQueue<span>(void)</span></li> 
+    <li><span>void</span> ARQSetChunkSize<span>(u32 size)</span></li> 
+    <li><span>u32</span> ARQGetChunkSize<span>(void)</span></li> 
+    <li><span>BOOL</span> ARQCheckInit<span>(void)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">125</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="doldefs.h" />
+  <h3>doldefs.h</h3>
+  <ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">70</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="dtk.h" />
+  <h3>dtk.h</h3>
+  <ul>
+    <li><span>void</span> DTKInit<span>(void)</span></li> 
+    <li><span>void</span> DTKShutdown<span>(void)</span></li> 
+    <li><span>u32</span> DTKQueueTrack<span>(char *fileName,DTKTrack *track,u32 eventMask,DTKCallback callback)</span></li> 
+    <li><span>u32</span> DTKRemoveTrack<span>(DTKTrack *track)</span></li> 
+    <li><span>BOOL</span> DTKFlushTracks<span>(DTKFlushCallback callback)</span></li> 
+    <li><span>void</span> DTKSetSampleRate<span>(u32 samplerate)</span></li> 
+    <li><span>u32</span> DTKGetSampleRate<span>(void)</span></li> 
+    <li><span>void</span> DTKSetInterruptFrequency<span>(u32 samples)</span></li> 
+    <li><span>u32</span> DTKGetInterruptFrequency<span>(void)</span></li> 
+    <li><span>void</span> DTKSetRepeatMode<span>(u32 repeat)</span></li> 
+    <li><span>u32</span> DTKGetRepeatMode<span>(void)</span></li> 
+    <li><span>BOOL</span> DTKSetState<span>(u32 state)</span></li> 
+    <li><span>u32</span> DTKGetState<span>(void)</span></li> 
+    <li><span>BOOL</span> DTKNextTrack<span>(void)</span></li> 
+    <li><span>BOOL</span> DTKPrevTrack<span>(void)</span></li> 
+    <li><span>u32</span> DTKGetPosition<span>(void)</span></li> 
+    <li><span>DTKTrack </span> DTKGetCurrentTrack<span>(void)</span></li> 
+    <li><span>void</span> DTKSetVolume<span>(u8 left,u8 right)</span></li> 
+    <li><span>u16</span> DTKGetVolume<span>(void)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">112</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="hio.h" />
+  <h3>hio.h</h3>
+  <ul>
+    <li><span>BOOL WINAPI</span> HIOEnumDevices<span>(HIOEnumCallback callback)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOInit<span>(s32 chan,HIOCallback callback)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOInitEx<span>(s32 chan,u32 dev,HIOCallback callback)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOReadMailbox<span>(u32 *word)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOWriteMailbox<span>(u32 word)</span></li> 
+    <li><span>BOOL WINAPI</span> HIORead<span>(u32 addr,void *buffer,s32 size)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOWrite<span>(u32 addr,const void *buffer,s32 size)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOReadAsync<span>(u32 addr,void *buffer,s32 size,HIOCallback callback)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOWriteAsync<span>(u32 addr,const void *buffer,s32 size,HIOCallback callback)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOReadStatus<span>(u32 *status)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOInit2<span>(s32 chan,HIOCallback callback,HIONotify notify,void *param)</span></li> 
+    <li><span>BOOL WINAPI</span> HIOInitEx2<span>(s32 chan,s32 dev,HIOCallback callback,HIONotify notify,void *param)</span></li> 
+    <li><span>void WINAPI</span> HIOExit<span>()</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">77</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="jpeg.h" />
+  <h3>jpeg.h</h3>
+  <ul>
+    <li><span>BOOL</span> JPEGGetFileInfo<span>(u8 *jpegData,JPEGFileInfo *info)</span></li> 
+    <li><span>u32</span> JPEGCalcMemory<span>(JPEGFileInfo *info)</span></li> 
+    <li><span>BOOL</span> JPEGOpenDecompressor<span>(JPEGDecompressor *decomp,u8 *errorCode,u8 *workSpace,u8 *jpegData,JPEGFileInfo *info)</span></li> 
+    <li><span>void</span> JPEGDecompressRawImage<span>(JPEGDecompressor *decomp,void *dataY,void *dataCb,void *dataCr)</span></li> 
+    <li><span>void</span> JPEGDecompressToXfb<span>(JPEGDecompressor *decomp,void *xfbData,u32 xfbWidth,u32 xfbHeight)</span></li> 
+    <li><span>void</span> JPEGDecompressToTexYCbCr<span>(JPEGDecompressor *decomp,void *texY,void *texCb,void *texCr)</span></li> 
+    <li><span>void</span> JPEGDecompressToTexRGBA8<span>(JPEGDecompressor *decomp,void *texData,u8 alpha)</span></li> 
+    <li><span>BOOL</span> JPEGGetNextRGBA8Tile<span>(JPEGDecompressor *decomp,void *texData,u8 alpha,BOOL init)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">172</div>  </div>
  </div>
 
 </section>
