@@ -169,20 +169,41 @@ One of the most interesting documents here is the **diag_gfx_check.jp.doc** file
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mddlwin</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the source code and executable for a Windows GUI program called MDDLWin.
+ This folder contains the source code and a pre-compiled executable for a Windows GUI program called MDDLWin.
 
+MDDLWin is a tool to make it easier to manage all the different tests that will be executed in the DIAG tool on the Wii. 
+
+Each test has its own compiled ELF that will be executed on the console along with some meta data such as the test name, a description and a unique 2 byte ID.
+
+The main window is split into 3 top sections:
+* **DIAG** - Lists all the tests along with their 2 byte unique ID
+* **GROUP** - You can group multiple DIAGs together by dragging and dropping from DIAG to GROUP
+* **MASTER** - You can drag and drop items from either the DIAG or GROUP lists here and only these tests will be written to DVD root.
+
+Under the DIAG list there is a bunch of toggle buttons such as **GEKKO** these filter the DIAG list to only include the category of tests that have been toggled.
   </div>
 </section>  
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">MddlWin - A Windows GUI created by Nintendo to organise which tests will be written to the Wii/Gamecube Diagnostic Disc. Each test is its own ELF file that tests a specific part of the hardware. <a href="https://t.co/dnLAUO4CN3">pic.twitter.com/dnLAUO4CN3</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1419260438810877960?ref_src=twsrc%5Etfw">July 25, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 File Name | Extension | Description
 ---|---|---
-MDDLWin_manual.jp | .doc | 
-TFileStream2 | .cpp, .h | 
-Unit1 | .cpp, .dfm, .h | 
-makedol | .c, .h | 
-mddl | .bpr, .cpp, .res | 
+MDDLWin_manual.jp | .doc | Japanese manual giving brief introduction to the interface
+TFileStream2 | .cpp, .h | Implementation of a simple file stream, to read bytes line by line
+Unit1 | .cpp, .dfm, .h | Implementation of the GUI (TForm1) such as tree view drag and drop and loading MDL files
+makedol | .c, .h | The source code for the makedol tool that converts ELF to DOL format
+mddl | .bpr, .cpp, .res | Just contains the **WinMain** to create the Unit1 form, standard template from Borland C++ Builder
 mddlwin | .exe | Pre-compiled executable of the tool for Windows
 
+The project was written using Borland C++ Builder and if you have the IDE you can open the project file **mddl.bpr**.
+
+The **Unit1.dfm** file can be edited in C++ Builder as it contains the layout of the main Form. The implementation that goes along with the form is **Unit1.cpp** and has the code for loading the MDL file and populating the form.
+
+The code for Unit1 is fairly standard C++ Builder code so it might not be particularly interesting to you, unless you are interested in the MDL format.
+
+What is more interesting the reverse engineers is the source code for the **makedol** tool which is contained in **makedol.c**. This tool converts compiled ELF files into the Gamecube/Wii executable Dolphin file. This can be worth a read if you have ever wondered about the difference between .DOL and .ELF files.
+
+If you are interested in the DOL format, it is partly documented in this WiiBrew page: [DOL - WiiBrew](https://wiibrew.org/wiki/DOL)
 
 <div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
   <div class="rr-file-card">
