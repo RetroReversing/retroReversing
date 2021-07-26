@@ -1664,31 +1664,34 @@ The original fiddle files have already been documented in the Emerald leak, so i
   </div>
 </section>  
 
+{% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
+
 File Name | Extension | Description
 ---|---|---
-ahb_fdl_defs | .h | Include file for declaring 
-bp_reg | .h | Include file for declaring 
-cp_reg | .h | Include file for declaring 
-dsp_reg | .h | Include file for declaring 
-gen_if | .h | Include file for declaring 
-gen_reg | .h | Include file for declaring 
+ahb_fdl_defs | .h | Include file for declaring ?
+bp_reg | .h | Include file for declaring Blitting Processor details
+cp_reg | .h | Include file for declaring Command processor details
+dsp_reg | .h | Include file for declaring Digital Signal Processor details
+gen_if | .h | Include file for declaring ?
+gen_reg | .h | Include file for declaring ?
 io_reg | .h | Include file for declaring 
 mem_reg | .h | Include file for declaring 
-pe_misc | .h | Include file for declaring 
-pe_reg | .h | Include file for declaring 
-pi_reg | .h | Include file for declaring 
+pe_misc | .h | Include file for declaring Pixel engine details
+pe_reg | .h | Include file for declaring Pixel engine register details
+pi_reg | .h | Include file for declaring Processor Interface
 ra_gen | .h | Include file for declaring 
 ras2_tev_if | .h | Include file for declaring 
 ras_reg | .h | Include file for declaring 
-su_reg | .h | Include file for declaring 
-tev_reg | .h | Include file for declaring 
-tx_reg | .h | Include file for declaring 
-vi_reg | .h | Include file for declaring 
-xf_cmds | .h | Include file for declaring 
+su_reg | .h | Include file for declaring Setup Unit details
+tev_reg | .h | Include file for declaring Texture Color Combiner details
+tx_reg | .h | Include file for declaring Texture registers
+vi_reg | .h | Include file for declaring Video Interface registers
+xf_cmds | .h | Include file for declaring XF (Transform unit) commands
 xf_mem | .h | Include file for declaring 
 xf_state | .h | Include file for declaring 
 xf_ucode | .h | Include file for declaring 
 
+Not exactly sure what the Gamecube/Wii XF hardware is but seems to be able to read commands and microcode (ucode).
 
 ---
 ## Gx (ati/gx)
@@ -2014,19 +2017,16 @@ gxu | .h | Include file for declaring all the Utility functions provided by the 
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/helper</div>
   <div markdown="1" class="rr-post-markdown">
- This folder only contains one file which defines certain pre-processor constants based on which compiler has been used.
+ This folder only contains one file called **compiler.h** which defines certain pre-processor constants based on which compiler has been used.
 
 Compilers supported are:
 * ATI GNU Compiler
 * GNU C Compiler
 * Watcom C Compiler
 
+The pre-processor constants defined are used for purposes such as calling conventions (**AX_CDECL**) or to mark certain arguments or variables as unused in the code (**ATI_VARIABLE_NOT_USED**).
   </div>
 </section>  
-
-File Name | Extension | Description
----|---|---
-compiler | .h | Include file for declaring compiler based constants such as **AX_CDECL** for calling conventions
 
 
 ---
