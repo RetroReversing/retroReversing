@@ -1,3 +1,8 @@
+/* hide scrollbar on webkit */
+::-webkit-scrollbar {
+    display: none;
+}
+
 #header .logo {
   color: white;
   font-weight: 600;
