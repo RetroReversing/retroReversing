@@ -27,10 +27,10 @@ editlink: /wii/AtiLowLevelSDK.md
 # Introduction
 In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to Zammis Clark. Included in these files were source code for a variety of Wii internal applications such as a Diagnostic tool known as **DIAG4**. 
 
-This post will cover the Low Level Wii SDK created by ATI/ArtX for the Wii/Gamecube which was included as part of the **DIAG4** source code.
+This post will cover the **Low Level Wii SDK** created by ATI/ArtX for the Wii/Gamecube which was included as part of the **DIAG4** source code.
 
 ## What is the ATI Low Level Wii SDK?
-In order to develop the Wii Operating System (IOS) and other internal diagnostic tools (e.g DIAG4) an SDK was created to abstract the low level hardware in a C/C++ library.
+In order to develop the Wii Operating System (**IOS**) and other internal diagnostic tools (e.g DIAG4) an SDK was created to abstract the low level hardware in a C/C++ library.
 
 ## Where did it come from?
 In the 2021 Nintendo Leak an archive was released called **DIAG4RVL.7Z**, if you extract this archive and go to the path **DIAG/include**
@@ -50,7 +50,7 @@ The ATI version is a fork of the ArtX version which has been updated for the Wii
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/include/artx</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains Gamecube header files provided by the Company ArtX, the company later changed its name to ATI during the development of the wii.
+ This folder contains Gamecube header files provided by the Company **ArtX**, the company later changed its name to **ATI** during the development of the wii.
 
 This folder is provided for use in the Gamecube DIAG tests and there is an updated version of this folder with Wii support in the **ati** folder.
 
@@ -80,13 +80,14 @@ Most of the include files are at the top level but there are also a few sub-dire
 * **helper** - Compiler related constants
 * **private** - Internal debug functions for ATI
 
+We have provided descriptions for the files at the root level of this folder in the table below:
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-acr | .h | Include file for declaring 
-aes | .h | Include file for declaring 
+acr | .h | Include file for declaring ?
+aes | .h | Include file for declaring ?
 aesreg | .h | Include file for declaring a few AES pre-processor constants such as **AES_BASE_REG** it was written by **BroadOn**
 ahb | .h | Include file for declaring a few functions for accessing the AHB (Advanced High-performance Bus) bus 
 ahbdbg | .h | Include file for declaring a debug AHB function called **ahbdbgInit**
@@ -94,20 +95,20 @@ ai | .h | Include file for declaring a function to initialise the Audio Interfac
 ar_priv | .h | Include file for declaring ARAM pre-processor constants
 aram | .h | Include file for declaring ARAM related functions such as **__ARReadDMA**
 arch | .h | Include file for declaring constants related to the hardware architecture it is running on ORCA/NDEV/DRIP such as **BUSSPEED_DEFAULT**
-args | .h | Include file for declaring 
+args | .h | Include file for declaring ?
 assert | .h | Include file for declaring a simple assert function for debugging
 ati_usb | .h | Include file for declaring low level USB interface functions
 atidiag | .h | Include file for including lots of other header files for hardware components such as **ai.h** 
 ax_types | .h | Include file for declaring common standard types for ArtX code such as **AXint8**
 ax_ver | .h | Include file for declaring constants for the different hardware versions e.g **DOLPHIN_REV_A**
 axdbg | .h | Include file for declaring a few debug functions
-axmc | .h | Include file for declaring 
+axmc | .h | Include file for declaring ?
 big_endian | .h | Include file for declaring macros that convert to big endian format
 boot | .h | Include file for declaring two strings **BOOT_BLK** and **AUTOBOOT_BLK**
-busclient | .h | Include file for declaring 
+busclient | .h | Include file for declaring ?
 casm | .inc | 
-crc | .h | Include file for declaring 
-dbg_viai_setup | .h | Include file for declaring 
+crc | .h | Include file for declaring ?
+dbg_viai_setup | .h | Include file for declaring ?
 dbgcomm | .h | Include file for declaring 
 dbgint | .h | Include file for declaring 
 dcbz_basic | .h | Include file for declaring 
@@ -1674,24 +1675,24 @@ cp_reg | .h | Include file for declaring Command processor details
 dsp_reg | .h | Include file for declaring Digital Signal Processor details
 gen_if | .h | Include file for declaring ?
 gen_reg | .h | Include file for declaring ?
-io_reg | .h | Include file for declaring 
-mem_reg | .h | Include file for declaring 
+io_reg | .h | Include file for declaring ?
+mem_reg | .h | Include file for declaring ?
 pe_misc | .h | Include file for declaring Pixel engine details
 pe_reg | .h | Include file for declaring Pixel engine register details
 pi_reg | .h | Include file for declaring Processor Interface
-ra_gen | .h | Include file for declaring 
-ras2_tev_if | .h | Include file for declaring 
-ras_reg | .h | Include file for declaring 
+ra_gen | .h | Include file for declaring ?
+ras2_tev_if | .h | Include file for declaring ?
+ras_reg | .h | Include file for declaring ?
 su_reg | .h | Include file for declaring Setup Unit details
 tev_reg | .h | Include file for declaring Texture Color Combiner details
 tx_reg | .h | Include file for declaring Texture registers
 vi_reg | .h | Include file for declaring Video Interface registers
 xf_cmds | .h | Include file for declaring XF (Transform unit) commands
-xf_mem | .h | Include file for declaring 
-xf_state | .h | Include file for declaring 
-xf_ucode | .h | Include file for declaring 
+xf_mem | .h | Include file for declaring ?
+xf_state | .h | Include file for declaring ?
+xf_ucode | .h | Include file for declaring ?
 
-Not exactly sure what the Gamecube/Wii XF hardware is but seems to be able to read commands and microcode (ucode).
+Not exactly sure what the Gamecube/Wii **XF** hardware is but seems to be able to read commands and microcode (ucode).
 
 ---
 ## Gx (ati/gx)
