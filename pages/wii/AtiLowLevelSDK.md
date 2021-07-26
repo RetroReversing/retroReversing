@@ -71,14 +71,14 @@ For more information you can take a diff of the two folders if you are especiall
 This library was not provided to third party developers in the official SDK and so was only used for internal tools and software such as the Wii Operating system known as **IOS**.
 
 Most of the include files are at the top level but there are also a few sub-directories:
-* bfm750 - only contains one file but nothing is defined in it
-* diag
-* export
-* fdl
-* gx
-* gxu
-* helper
-* private
+* **bfm750** - only contains one file but nothing is defined in it
+* **diag** - Low level PowerPC register access functions
+* **export** - unknown purpose, seems to be just a subset of gx folder files
+* **fdl** - low level C header files generated from fiddle .fdl files
+* **gx** - Graphics header files
+* **gxu** - Graphics Utility header files
+* **helper** - Compiler related constants
+* **private** - Internal debug functions for ATI
 
   </div>
 </section>  
