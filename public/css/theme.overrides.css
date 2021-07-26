@@ -2,6 +2,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+/* hide in firefox and ie */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
 
 #header .logo {
   color: white;
