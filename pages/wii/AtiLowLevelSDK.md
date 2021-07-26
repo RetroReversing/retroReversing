@@ -66,9 +66,19 @@ For more information you can take a diff of the two folders if you are especiall
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/include/ati</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the C header files that provide low level acess to the wii hardware. This library was originally written for the gamecube and then updated for the Wii, it was created by ATI (formally ArtX).
+ This folder contains the C header files that provide low level access to the wii hardware. This library was originally written for the gamecube and then updated for the Wii, it was created by ATI (formally ArtX).
 
 This library was not provided to third party developers in the official SDK and so was only used for internal tools and software such as the Wii Operating system known as **IOS**.
+
+Most of the include files are at the top level but there are also a few sub-directories:
+* bfm750 - only contains one file but nothing is defined in it
+* diag
+* export
+* fdl
+* gx
+* gxu
+* helper
+* private
 
   </div>
 </section>  
@@ -175,6 +185,8 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
 * boot.blk
 * autoboot.blk
 
+The file **generic.h** is actually from the Linux Kernel (**linux/byteorder_generic.h**), so technically if this is linked into any distributed Wii software it could be a GPL violation.
+
 <div class="rr-source-code-title">Code Files</div>
   <section class="rr-main-cards">
  <div class="rr-file-card">
@@ -215,14 +227,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
  </div>
 
  <div class="rr-file-card">
-  <img class="geopattern" data-title="aesreg.h" />
-  <h3>aesreg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">54</div>  </div>
- </div>
-
- <div class="rr-file-card">
   <img class="geopattern" data-title="ahb.h" />
   <h3>ahb.h</h3>
   <ul>
@@ -251,14 +255,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>AiStatus</span> aiInit<span>(void(*_tranCb)(void))</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ar_priv.h" />
-  <h3>ar_priv.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">79</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -304,30 +300,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>void</span> _assert<span>(const char *,const char *,int)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="atidiag.h" />
-  <h3>atidiag.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">61</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ax_types.h" />
-  <h3>ax_types.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">189</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ax_ver.h" />
-  <h3>ax_ver.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">68</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -381,22 +353,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>void</span> FreeAndReallocate<span>(GXMCObj *mpgObj,GXBool newBuffer)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">28</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">78</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="big_endian.h" />
-  <h3>big_endian.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">69</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="boot.h" />
-  <h3>boot.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -496,14 +452,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>void</span> diagStop<span>(u32 status)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">105</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="diagerr.h" />
-  <h3>diagerr.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">48</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -771,14 +719,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>asm DMAStatus</span> dmaWrite<span>(register unsigned long,register unsigned long,register unsigned long)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">84</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="generic.h" />
-  <h3>generic.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">181</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -1085,22 +1025,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
     <li><span>u32</span> getBootMode<span>(void)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">176</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">309</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="little_endian.h" />
-  <h3>little_endian.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">69</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="lomem.h" />
-  <h3>lomem.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">83</div>  </div>
  </div>
 
  <div class="rr-file-card">
@@ -1473,14 +1397,6 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
  </div>
 
  <div class="rr-file-card">
-  <img class="geopattern" data-title="types.h" />
-  <h3>types.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">47</div>  </div>
- </div>
-
- <div class="rr-file-card">
   <img class="geopattern" data-title="usb.h" />
   <h3>usb.h</h3>
   <ul>
@@ -1667,72 +1583,19 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
 </section>
 
 ---
-## Bfm750 (ati/bfm750)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/bfm750</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-File Name | Extension | Description
----|---|---
-buspvt | .h | Include file for declaring 
-
-
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="buspvt.h" />
-  <h3>buspvt.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">9</div>  </div>
- </div>
-
-</section>
-
----
 ## Diag (ati/diag)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/diag</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains interfaces for direct access to PowerPC registers, including Broadway specific ones. Judging by the name of this folder it is maily for testing that the PowerPC CPU is correctly handling the different register values in tests written for **DIAG4RVL**.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-PPCArch | .h | Include file for declaring 
-
-
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="PPCArch.h" />
-  <h3>PPCArch.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">571</div>  </div>
- </div>
-
-</section>
-
----
-### Model (ati/diag/model)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/diag/model</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-File Name | Extension | Description
----|---|---
-unshared | .h | Include file for declaring 
+PPCArch | .h | Include file for declaring pre-processor constants for PowerPC such as **IBAT4U** which is a Broadway register
+model/unshared | .h | Include file for declaring a bunch of powerPX functions  for getting and setting register values such as **ppcHID0Set**
 
 
 <div class="rr-source-code-title">Code Files</div>
@@ -1782,229 +1645,21 @@ unshared | .h | Include file for declaring
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/export</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains a subset of the header files copied from the GX folder, basically identical copies without the **gxreg.h** file. No idea why these would be used instead of the standard ones under the GX folder..
+
+Check the next section for the description of the GX files for information on them, no point in duplicating the descriptions in this section.
 
   </div>
-</section>  
-
-File Name | Extension | Description
----|---|---
-gx | .h | Include file for declaring 
-gxfifo | .h | Include file for declaring 
-vertex | .h | Include file for declaring 
-
-
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gx.h" />
-  <h3>gx.h</h3>
-  <ul>
-    <li><span>void </span> memset32<span>(void *,u32,u32)</span></li> 
-    <li><span>void </span> memcpy32<span>(void *,const void *,u32)</span></li> 
-    <li><span>int</span> memcmp32<span>(const void *,const void *,u32)</span></li> 
-    <li><span>void</span> GXSetVtxDesc<span>(GXAttr Attr,GXAttrType Type)</span></li> 
-    <li><span>void</span> GXSetVtxDescv<span>(GXVtxDescList *AttrPtr)</span></li> 
-    <li><span>void</span> GXGetVtxDesc<span>(GXAttr Attr,GXAttrType *TypePtr)</span></li> 
-    <li><span>void</span> GXClearVtxDesc<span>(void)</span></li> 
-    <li><span>void</span> GXSetVtxAttrFmt<span>(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt CompCnt,GXCompType CompType,u8 Shift)</span></li> 
-    <li><span>void</span> GXSetVtxAttrFmtv<span>(GXVtxFmtID Idx,GXVtxFmtList *AttrPtr)</span></li> 
-    <li><span>void</span> GXGetVtxAttrFmt<span>(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt *CompCnt,GXCompType *CompType,u8 *Shift)</span></li> 
-    <li><span>void</span> GXSetArray<span>(GXAttr Attr,u32 Base,u8 Stride)</span></li> 
-    <li><span>void</span> GXGetArray<span>(GXAttr Attr,u32 *Base,u8 *Stride)</span></li> 
-    <li><span>void</span> GXSetTexCoordGen<span>(GXTexCoord Coord,GXTexGenType Type,u8 MatIdx)</span></li> 
-    <li><span>void</span> GXGetTexCoordGen<span>(GXTexCoord Coord,GXTexGenType *Type,u8 *MatIdx)</span></li> 
-    <li><span>void</span> GXSetTexCoordGen2<span>(GXTexCoord Coord,GXTexGenFunc Func,GXTexGenSrc Source,u8 MatIdx)</span></li> 
-    <li><span>void</span> GXSetTexCoordWrap<span>(GXTexCoord Coord,GXBool CylWrapS,GXBool CylWrapT,GXBool BiasS,GXBool BiasT,GXBool LineOffset,GXBool PointOffset)</span></li> 
-    <li><span>void</span> GXSetBumpSource<span>(GXTexCoord Coord,GXTexCoord SrcCoord,GXLightID SrcLight)</span></li> 
-    <li><span>void</span> GXGetBumpSource<span>(GXTexCoord Coord,GXTexCoord *SrcCoord,GXLightID *SrcLight)</span></li> 
-    <li><span>void</span> GXSetTexCoordTrans<span>(GXTexCoord Coord,GXMtxName MtxIdx,GXBool Normalize)</span></li> 
-    <li><span>void</span> GXSetDualTexTrans<span>(GXBool Enable)</span></li> 
-    <li><span>void</span> GXSetCCConstColor<span>(GXCCRegID CCReg,GXColor Color)</span></li> 
-    <li><span>void</span> GXGetCCConstColor<span>(GXCCRegID CCReg,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetCCConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect ConstSelect)</span></li> 
-    <li><span>void</span> GXGetCCConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)</span></li> 
-    <li><span>void</span> GXSetACConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect ConstSelect)</span></li> 
-    <li><span>void</span> GXGetACConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)</span></li> 
-    <li><span>void</span> GXSetCCSwapModeTableEntry<span>(GXCCSwSelect CCSwapId,GXCCChannel Red,GXCCChannel Green,GXCCChannel Blue,GXCCChannel Alpha)</span></li> 
-    <li><span>void</span> GXGetCCSwapModeTableEntry<span>(GXCCSwSelect CCSwapId,GXCCChannel *Red,GXCCChannel *Green,GXCCChannel *Blue,GXCCChannel *Alpha)</span></li> 
-    <li><span>void</span> GXSetCCSwapMode<span>(GXCCStageID CCStageId,GXCCSwSelect TextureSwap,GXCCSwSelect RasterSwap)</span></li> 
-    <li><span>void</span> GXGetCCSwapMode<span>(GXCCStageID CCStageId,GXCCSwSelect *TextureSwap,GXCCSwSelect *RasterSwap)</span></li> 
-    <li><span>void</span> GXClearVertexCache<span>(void)</span></li> 
-    <li><span>void</span> GXGetVertexCacheStatus<span>(u32 *CheckCnt,u32 *MissCnt,u32 *StallCnt)</span></li> 
-    <li><span>void</span> GXBeginPrimitive<span>(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)</span></li> 
-    <li><span>void</span> GXBeginPrimitive2<span>(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)</span></li> 
-    <li><span>void</span> GXEndPrimitive<span>(void)</span></li> 
-    <li><span>void</span> GXSetLineWidth<span>(u8 Width,GXTexOffsets Offset)</span></li> 
-    <li><span>void</span> GXGetLineWidth<span>(u8 *Width,GXTexOffsets *Offset)</span></li> 
-    <li><span>void</span> GXSetPointSize<span>(u8 PointSize,GXTexOffsets Offset)</span></li> 
-    <li><span>void</span> GXGetPointSize<span>(u8 *PointSize,GXTexOffsets *Offset)</span></li> 
-    <li><span>void</span> GXSetShadeMode<span>(GXShadeModes Mode)</span></li> 
-    <li><span>void</span> GXGetShadeMode<span>(GXShadeModes *Mode)</span></li> 
-    <li><span>void</span> GXSetAntiAliasing<span>(GXBool Mode,u8 SamplePts[4][3][2])</span></li> 
-    <li><span>void</span> GXGetAntiAliasing<span>(GXBool *Mode,u8 SamplePts[4][3][2])</span></li> 
-    <li><span>void</span> GXSetCoPlanar<span>(GXBool Enable)</span></li> 
-    <li><span>void</span> GXGetCoPlanar<span>(GXBool *Enable)</span></li> 
-    <li><span>void</span> GXSetFieldMode<span>(GXBool texLod,GXBool linewd)</span></li> 
-    <li><span>void</span> GXSetProjection<span>(f32 Matrix[4][4],GXProjMtxType type)</span></li> 
-    <li><span>void</span> GXLoadPosMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadNormMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadTexMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName,GXMtxType Type)</span></li> 
-    <li><span>void</span> GXLoadPosMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadNormMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadTexMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName,GXMtxType Type)</span></li> 
-    <li><span>void</span> GXSetDefaultMatrix<span>(GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXGetDefaultMatrix<span>(GXMtxName *MatName)</span></li> 
-    <li><span>void</span> GXSetViewport<span>(s16 Left,s16 Top,u16 Width,u16 Height,f32 Near,f32 Far)</span></li> 
-    <li><span>void</span> GXGetViewport<span>(s16 *Left,s16 *Top,u16 *Width,u16 *Height,f32 *Near,f32 *Far)</span></li> 
-    <li><span>void</span> GXSetScissor<span>(u16 Left,u16 Top,u16 Width,u16 Height)</span></li> 
-    <li><span>void</span> GXGetScissor<span>(u16 *Left,u16 *Top,u16 *Width,u16 *Height)</span></li> 
-    <li><span>void</span> GXSetCullMode<span>(GXCullModes Mode)</span></li> 
-    <li><span>void</span> GXGetCullMode<span>(GXCullModes *Mode)</span></li> 
-    <li><span>void</span> GXInitLightAttn<span>(GXLightObj *ptr,f32 A0,f32 A1,f32 A2,f32 K0,f32 K1,f32 K2)</span></li> 
-    <li><span>void</span> GXInitShininess<span>(GXLightObj *ptr,f32 Shininess)</span></li> 
-    <li><span>void</span> GXInitLightPos<span>(GXLightObj *ptr,f32 X,f32 Y,f32 Z)</span></li> 
-    <li><span>void</span> GXInitLightDir<span>(GXLightObj *ptr,f32 X,f32 Y,f32 Z)</span></li> 
-    <li><span>void</span> GXInitLightColor<span>(GXLightObj *ptr,GXColor LightColor)</span></li> 
-    <li><span>void</span> GXLoadLightStateImm<span>(GXLightObj *ptr,GXLightID LightId)</span></li> 
-    <li><span>void</span> GXLoadLightStateIndx<span>(u32 LightObjIdx,GXLightID LightId)</span></li> 
-    <li><span>void</span> GXSetAmbientColor<span>(GXColorID ColorId,GXColor AmbColor)</span></li> 
-    <li><span>void</span> GXGetAmbientColor<span>(GXColorID ColorId,GXColor *AmbColor)</span></li> 
-    <li><span>void</span> GXSetMaterialColor<span>(GXColorID ColorId,GXColor MatColor)</span></li> 
-    <li><span>void</span> GXGetMaterialColor<span>(GXColorID ColorId,GXColor *MatColor)</span></li> 
-    <li><span>void</span> GXSetLightCtrl<span>(GXColorID ColorId,GXBool Enable,GXColorSrc AmbSource,GXColorSrc MatSource,GXLightID LightMask,GXDiffuseFn DiffFunc,GXAttnFn AttnFunc)</span></li> 
-    <li><span>void</span> GXGetLightCtrl<span>(GXColorID ColorId,GXBool *Enable,GXColorSrc *AmbSource,GXColorSrc *MatSource,GXLightID *LightMask,GXDiffuseFn *DiffFunc,GXAttnFn *AttnFunc)</span></li> 
-    <li><span>void</span> GXInitTexObj<span>(GXTexObj *TexObjPtr,void *ImagePtr,u16 Width,u16 Height,GXTexFormats Format,GXTexWrapModes WrapS,GXTexWrapModes WrapT,GXTexFilters MinFilt,GXTexFilters MagFilt,f32 MinLod,f32 MaxLod,f32 LodBias,GXBool doEdgeLod)</span></li> 
-    <li><span>void</span> GXInitTexObj2<span>(GXTexObj *TexObjPtr,GXBool LodClamp,GXTexAnisotropy MaxAniso,GXBool FieldPredict,GXBool BilinearRound)</span></li> 
-    <li><span>void</span> GXInitTlutObj<span>(GXTlutObj *TlutObjPtr,void *LutPtr,u16 NumEntries,GXTlutFormats Format)</span></li> 
-    <li><span>void</span> GXInitTexRegion<span>(GXTexRegion *TexRegionPtr,GXBool IsCached,void *TmemEvenPtr,u8 WidthEven,u8 HeightEven,void *TmemOddPtr,u8 WidthOdd,u8 HeightOdd)</span></li> 
-    <li><span>void</span> GXInitTlutRegion<span>(GXTlutRegion *TlutRegionPtr,void *TmemPtr)</span></li> 
-    <li><span>void</span> GXPreLoadTexture<span>(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTlut<span>(GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTexState<span>(GXTexMapID TexId,GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTlutState<span>(GXTexMapID TexId,GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)</span></li> 
-    <li><span>void</span> GXClearTexRegion<span>(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXFlushTextureState<span>(void)</span></li> 
-    <li><span>void</span> GXInitIndirectTexture<span>(GXCCStageID CCStageId,GXIndTexMapID TexId,GXIndTexFormats Fmt,GXIndTexBias Bias,GXIndTexAlphaSel AlphaSel,GXIndTexMtxID MatrixSel,GXIndTexWrap WrapS,GXIndTexWrap WrapT,GXBool IndLOD,GXBool AddPrev)</span></li> 
-    <li><span>void</span> GXSetIndTexMtx<span>(GXIndTexMtxID MtxId,f32 OffsetMatrix[3][2],u8 ScaleExp)</span></li> 
-    <li><span>void</span> GXSetIndTexScale<span>(GXIndTexMapID IndTexId,GXIndTexScale ScaleS,GXIndTexScale ScaleT)</span></li> 
-    <li><span>void</span> GXSetIndTexOrder<span>(u8 NumIndTex,GXIndTexMapID IndTexId[],GXTexMapID TexId[],GXTexCoord TexCoord[])</span></li> 
-    <li><span>void</span> GXSetCCOp<span>(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)</span></li> 
-    <li><span>void</span> GXGetCCOp<span>(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)</span></li> 
-    <li><span>void</span> GXSetACOp<span>(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)</span></li> 
-    <li><span>void</span> GXGetACOp<span>(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)</span></li> 
-    <li><span>void</span> GXSetCCOutput<span>(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)</span></li> 
-    <li><span>void</span> GXGetCCOutput<span>(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)</span></li> 
-    <li><span>void</span> GXSetACOutput<span>(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)</span></li> 
-    <li><span>void</span> GXGetACOutput<span>(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)</span></li> 
-    <li><span>void</span> GXSetCCColor<span>(GXCCRegID CCReg,GXColor Color)</span></li> 
-    <li><span>void</span> GXSetCCColor2<span>(GXCCRegID CCReg,s16 red,s16 grn,s16 blu,s16 alp)</span></li> 
-    <li><span>void</span> GXGetCCColor<span>(GXCCRegID CCReg,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetCCOrder<span>(u8 NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])</span></li> 
-    <li><span>void</span> GXGetCCOrder<span>(u8 *NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])</span></li> 
-    <li><span>void</span> GXSyncSuTsRegs<span>(void)</span></li> 
-    <li><span>void</span> GXGetSuTexSize<span>(GXTexCoord coord,u32 *w,u32 *h)</span></li> 
-    <li><span>void</span> GXSetRange<span>(f32 NearZ,f32 SideX)</span></li> 
-    <li><span>void</span> GXSetFog<span>(GXFogTypes Type,GXBool Proj,GXBool Range,f32 StartZ,f32 EndZ,f32 NearZ,f32 FarZ,f32 SideX,GXColor Color)</span></li> 
-    <li><span>void</span> GXGetFog<span>(GXFogTypes *Type,GXBool *Proj,GXBool *Range,f32 *StartZ,f32 *EndZ,f32 *NearZ,f32 *FarZ,f32 *SideX,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetColorMode<span>(GXColorModes Ops,GXBlendModes SrcFactor,GXBlendModes DstFactor,GXLogicOps logicOp,GXBool Dither)</span></li> 
-    <li><span>void</span> GXGetColorMode<span>(GXColorModes *Ops,GXBlendModes *SrcFactor,GXBlendModes *DstFactor,GXLogicOps *logicOp,GXBool *Dither)</span></li> 
-    <li><span>void</span> GXSetBlendOp<span>(GXBlendOps op)</span></li> 
-    <li><span>void</span> GXSetDestAlpha<span>(GXBool Enable,u8 Alpha)</span></li> 
-    <li><span>void</span> GXGetDestAlpha<span>(GXBool *Enable,u8 *Alpha)</span></li> 
-    <li><span>void</span> GXSetZMode<span>(GXBool CompareEnable,GXBool UpdateEnable,GXCompare Func)</span></li> 
-    <li><span>void</span> GXGetZMode<span>(GXBool *CompareEnable,GXBool *UpdateEnable,GXCompare *Func)</span></li> 
-    <li><span>void</span> GXSetZTexture<span>(GXZTexOp op,GXZTexFormat fmt,f32 zBias)</span></li> 
-    <li><span>void</span> GXGetZTexture<span>(GXZTexOp *op,GXZTexFormat *fmt,f32 *zBias)</span></li> 
-    <li><span>void</span> GXSetAlphaFunc<span>(GXAlphaLogic AlphaLogic,GXCompare Func0,GXCompare Func1,u8 RefValue0,u8 RefValue1)</span></li> 
-    <li><span>void</span> GXGetAlphaFunc<span>(GXAlphaLogic *AlphaLogic,GXCompare *Func0,GXCompare *Func1,u8 *RefValue0,u8 *RefValue1)</span></li> 
-    <li><span>void</span> GXSetPixelFormat<span>(GXPixelFormats Format,GXZCmprFormats ZCmpr,GXBool ZTop)</span></li> 
-    <li><span>void</span> GXGetPixelFormat<span>(GXPixelFormats *Format,GXZCmprFormats *ZCmpr,GXBool *ZTop)</span></li> 
-    <li><span>void</span> GXSetColorMask<span>(GXBool ColorMask,GXBool AlphaMask)</span></li> 
-    <li><span>void</span> GXSetMotionComp<span>(GXBool OddMask,GXBool EvenMask)</span></li> 
-    <li><span>void</span> GXGetMotionComp<span>(GXBool *OddMask,GXBool *EvenMask)</span></li> 
-    <li><span>void</span> GXBeginDisplayList<span>(void *BasePtr,u32 nBytes)</span></li> 
-    <li><span>u32</span> GXEndDisplayList<span>(void)</span></li> 
-    <li><span>void</span> GXCallDisplayList<span>(void *BasePtr,u32 nBytes)</span></li> 
-    <li><span>void</span> GXSetCopyControl<span>(GXFbClamps ClampFlags,GXTexFormats TexFormat,GXFbInterlace Interlaced,GXGamma Gamma,u16 VertScale,GXBool MipFilter)</span></li> 
-    <li><span>void</span> GXSetCopyColorConv<span>(GXCCV ccvFlag)</span></li> 
-    <li><span>void</span> GXSetAAFilter<span>(u8 Coefficients[7])</span></li> 
-    <li><span>void</span> GXGetAAFilter<span>(u8 Coefficients[7])</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void </span> GXHDOffset<span>(u16 PrevSrcHeight,void *DstBasePtr,u16 DstStride,GXBool RstEnable,GXBool HFilter)</span></li> 
-    <li><span>void</span> GXSetHD<span>(u16 AlphaRst,u16 ScaleRst,GXBool RstEnable,GXBool HFilter)</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay16<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay32<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXCopyFBToTexture<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXSetClear<span>(GXColor ClearColor,u32 ClearZ)</span></li> 
-    <li><span>void</span> GXGetClear<span>(GXColor *ClearColor,u32 *ClearZ)</span></li> 
-    <li><span>void</span> GXClearBoundingBox<span>(void)</span></li> 
-    <li><span>void</span> GXGetBoundingBox<span>(u16 *Left,u16 *Right,u16 *Top,u16 *Bottom)</span></li> 
-    <li><span>void</span> GXSetQuadOffset<span>(u16 left,u16 top)</span></li> 
-    <li><span>u32</span> GXReadPixelColorAlpha<span>(u16 x,u16 y)</span></li> 
-    <li><span>u32</span> GXReadPixelColor<span>(u16 x,u16 y)</span></li> 
-    <li><span>void</span> GXWritePixelColor<span>(u16 x,u16 y,u32 color)</span></li> 
-    <li><span>u32</span> GXGetPerfMetric<span>(GXPerf perf)</span></li> 
-    <li><span>void</span> GXInitPerfCounters<span>(GXPerfBlock blockA,u32 valA,GXPerfBlock blockB,u32 valB,GXPerfBlock blockC,u32 valC,GXPerfBlock blockD,u32 valD)</span></li> 
-    <li><span>void</span> GXInitPEPerfCounters<span>(GXBool pe0,GXBool pe1,GXBool pe2,GXBool pe3,GXBool pe4,GXBool pe5)</span></li> 
-    <li><span>void</span> GXDisplayPerfCounters<span>(void)</span></li> 
-    <li><span>void</span> GXSetFifoBase<span>(u32 BasePtr,u32 Size,GXBool SetDefaults)</span></li> 
-    <li><span>void</span> GXSetFifoLimits<span>(u32 HiWaterMark,u32 LoWaterMark,u32 RdBreakMark)</span></li> 
-    <li><span>void</span> GXSetInterrupts<span>(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)</span></li> 
-    <li><span>void</span> GXClearInterrupts<span>(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)</span></li> 
-    <li><span>void</span> GXSetFifoPtrs<span>(u32 WritePtr,u32 ReadPtr)</span></li> 
-    <li><span>void</span> GXGetFifoPtrs<span>(u32 *WritePtrPtr,u32 *ReadPtrPtr)</span></li> 
-    <li><span>void</span> GXGetFifoStatusFull<span>(GXBool *Underflow,GXBool *Overflow,GXBool *Break,GXBool *RDIdle,GXBool *CPIdle)</span></li> 
-    <li><span>void</span> GXGetFifoStatus<span>(GXBool *Underflow,GXBool *Overflow,GXBool *Break)</span></li> 
-    <li><span>void</span> GXDisplayFifoStatus<span>(void)</span></li> 
-    <li><span>void</span> GXGetFifoCount<span>(u32 *FifoCount)</span></li> 
-    <li><span>void</span> GXSetFifoEnable<span>(GXBool Read,GXBool WrPtrInc)</span></li> 
-    <li><span>void</span> GXInit<span>(void)</span></li> 
-    <li><span>void</span> GXInit2<span>(void)</span></li> 
-    <li><span>void</span> GXInitB<span>(u32 revNo)</span></li> 
-    <li><span>void</span> GXSetPERefresh<span>(u32 peRefresh)</span></li> 
-    <li><span>void</span> GXSetTXRefresh<span>(u32 txRefresh)</span></li> 
-    <li><span>void</span> GXAbortFrame<span>(void)</span></li> 
-    <li><span>void</span> GXSetDrawSync<span>(u16 Token)</span></li> 
-    <li><span>void</span> GXGetDrawSync<span>(u16 *Token)</span></li> 
-    <li><span>GXBool</span> GXDrawDone<span>(void)</span></li> 
-    <li><span>GXBool</span> GXDrawDoneSafe<span>(void)</span></li> 
-    <li><span>void</span> GXFlush<span>(void)</span></li> 
-    <li><span>void</span> GXHWSync<span>(u8 Token)</span></li> 
-    <li><span>void</span> GXBypass<span>(u32 regData)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">172</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1513</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxfifo.h" />
-  <h3>gxfifo.h</h3>
-  <ul>
-    <li><span>void</span> gxFifoWrite<span>(u32 d,u32 sz)</span></li> 
-    <li><span>void</span> GXResetCacheAlignment<span>()</span></li> 
-    <li><span>void</span> GXSimStart<span>(char *fileName)</span></li> 
-    <li><span>void</span> GXSimEnd<span>(void)</span></li> 
-    <li><span>void</span> GXSimEnd<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">172</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="vertex.h" />
-  <h3>vertex.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">261</div>  </div>
- </div>
-
-</section>
+</section> 
 
 ---
-## Fdl (ati/fdl)
+## Fiddle (FDL) Generated Headers (ati/fdl)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/fdl</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains C header files automatically generated from a tool called **fiddle** that takes in Field  description language **.fdl** files and returns a C header file with lots of pre-processor constants.
+
+The original fiddle files have already been documented in the Emerald leak, so if you are interested check out our page on that leak.
 
   </div>
 </section>  
@@ -2035,202 +1690,22 @@ xf_state | .h | Include file for declaring
 xf_ucode | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ahb_fdl_defs.h" />
-  <h3>ahb_fdl_defs.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">12391</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="bp_reg.h" />
-  <h3>bp_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">380</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="cp_reg.h" />
-  <h3>cp_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1703</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dsp_reg.h" />
-  <h3>dsp_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">540</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gen_if.h" />
-  <h3>gen_if.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">90</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gen_reg.h" />
-  <h3>gen_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">309</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="io_reg.h" />
-  <h3>io_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">2948</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mem_reg.h" />
-  <h3>mem_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1919</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="pe_misc.h" />
-  <h3>pe_misc.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">950</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="pe_reg.h" />
-  <h3>pe_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">2015</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="pi_reg.h" />
-  <h3>pi_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">778</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ra_gen.h" />
-  <h3>ra_gen.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">292</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ras2_tev_if.h" />
-  <h3>ras2_tev_if.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">100</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ras_reg.h" />
-  <h3>ras_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">498</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="su_reg.h" />
-  <h3>su_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">598</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="tev_reg.h" />
-  <h3>tev_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1142</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="tx_reg.h" />
-  <h3>tx_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">993</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="vi_reg.h" />
-  <h3>vi_reg.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1627</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="xf_cmds.h" />
-  <h3>xf_cmds.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">277</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="xf_mem.h" />
-  <h3>xf_mem.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1662</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="xf_state.h" />
-  <h3>xf_state.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">124</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="xf_ucode.h" />
-  <h3>xf_ucode.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">830</div>  </div>
- </div>
-
-</section>
-
 ---
 ## Gx (ati/gx)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/gx</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the C-Header files used for Graphics development using the Gamecube/Wii GPU known as Flipper/Broadway.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-gx | .h | Include file for declaring 
-gxfifo | .h | Include file for declaring 
-gxreg | .h | Include file for declaring 
-vertex | .h | Include file for declaring 
+gx | .h | Include file for declaring all the Graphics related structures and functions such as **GXInitTexObj**
+gxfifo | .h | Include file for declaring a simulation of the Graphics FIFO pipeline in software
+gxreg | .h | Include file for declaring a simulation of the Graphics hardware Registers in software
+vertex | .h | Include file for declaring pre-processor defines related to vertices such as **GXTexCoord2bv**
 
 
 <div class="rr-source-code-title">Code Files</div>
@@ -2452,29 +1927,21 @@ vertex | .h | Include file for declaring
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">16</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">174</div>  </div>
  </div>
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="vertex.h" />
-  <h3>vertex.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">261</div>  </div>
- </div>
-
 </section>
 
 ---
-## Gxu (ati/gxu)
+## Gxu Library Headers (ati/gxu)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/gxu</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the header file for the GXU library which is similar to GLU if you have ever used OpenGL, it contains Graphical utility functions for reading textures and setting up view Matrices. 
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-gxu | .h | Include file for declaring 
+gxu | .h | Include file for declaring all the Utility functions provided by the GXU library
 
 
 <div class="rr-source-code-title">Code Files</div>
@@ -2547,64 +2014,42 @@ gxu | .h | Include file for declaring
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/helper</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder only contains one file which defines certain pre-processor constants based on which compiler has been used.
+
+Compilers supported are:
+* ATI GNU Compiler
+* GNU C Compiler
+* Watcom C Compiler
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-compiler | .h | Include file for declaring 
+compiler | .h | Include file for declaring compiler based constants such as **AX_CDECL** for calling conventions
 
-
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="compiler.h" />
-  <h3>compiler.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">32</div>  </div>
- </div>
-
-</section>
 
 ---
 ## Private (ati/private)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/private</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains miscellaneous files related to debugging the low level hardware components, presumably this was just meant for internal use at ATI themselves.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-common | .h | Include file for declaring 
-fdl_assert | .h | Include file for declaring 
-gxdebug | .h | Include file for declaring 
-gxreg | .h | Include file for declaring 
-gxtypes | .h | Include file for declaring 
+common | .h | Include file for including all the other files in the private folder 
+fdl_assert | .h | Include file for declaring the **FDL_ASSERT** macro
+gxdebug | .h | Include file for declaring a few pre-processor based Graphic Debug functions such as **DbgPrintf**
+gxreg | .h | Include file for declaring low level graphics hardware debug functions such as **GXWriteXFRegs**
+gxtypes | .h | Include file for declaring useful graphical stuctures and functions such as **__GXTexRegionInt_struct**
 
 
 <div class="rr-source-code-title">Code Files</div>
   <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="common.h" />
-  <h3>common.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">50</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="fdl_assert.h" />
-  <h3>fdl_assert.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">6</div>  </div>
- </div>
 
  <div class="rr-file-card">
   <img class="geopattern" data-title="gxreg.h" />
