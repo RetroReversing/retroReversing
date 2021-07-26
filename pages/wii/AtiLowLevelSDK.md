@@ -22,6 +22,7 @@ recommend:
 - sdk
 - gc
 editlink: /wii/AtiLowLevelSDK.md
+updatedAt: '2021-07-26'
 ---
 
 # Introduction
