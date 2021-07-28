@@ -122,5 +122,10 @@ Files Leaked:
 * **gen4_era_protos.7z** - 
 * **teru-sama_mail_2006.7z** - 
 
-Inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
+
+The main files inside **DIAG4RVL.zip** was the source code to a DVD that is used to test all the hardware components of the Gamecube/Wii's hardware. This was used throughout the develpment of the console and also for fixing retail units.
+{% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak/" description="For more information on the contents of the DIAG4RVL archive check out this post." %}
+
+
+Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
 {% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
