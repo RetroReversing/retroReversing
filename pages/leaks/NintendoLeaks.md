@@ -106,3 +106,21 @@ Files Leaked:
 * paladin.7z (2.44GB)
 
 {% include link-to-other-post.html post="/paladinleak" description="For more information on the Paladin leak check out this post." %}
+
+---
+# Unexpected Leak (20th July 2021)
+After more than half a year without any Nintendo leaks, on 20th July 2021 even more goddies were release to the internet from the archive of Zammis Clark.
+
+Files Leaked:
+* **datasheet.7z** - Low level hardware information for Switch Game cards and Gamecube memory cards
+* **DIAG4RVL.7z** - just contains DIAG4RVL.zip
+* **DIAG4RVL.zip** - Cobtaibs the source code to the Wii/Gamecube Hardware diagnostics DVD
+* **pmEME_US20050207.7z** - Pokemon Emerald Localisation from Japanese to Other languages information
+* **ique_player_common_tickets.7z** - Collection of 86 tik and tikmd files for the iQue player (N64 version)
+* **haishin_20130912.zip** - Pokemon X/Y Distribution event Software
+* **bb2.7z** - 
+* **gen4_era_protos.7z** - 
+* **teru-sama_mail_2006.7z** - 
+
+Inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
+{% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
