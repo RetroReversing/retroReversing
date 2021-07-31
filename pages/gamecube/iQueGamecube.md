@@ -43,7 +43,7 @@ The root folder contains an index.html file which can be opened in any webbrowse
 This folder also contains the following sub-directories:
 * **ali** - Documentation about the Multimedia System on a Chip designed by T-Squares/ALi for use in the BB2 hardware
 * **dv** - Design Validation documentation
-* **dvd** - 
+* **dvd** - DVD ROM and the custom Nintendo NROM specification for Discs
 * **gamecube** - 
 * **hardware** - 
 * **infrastructure** - Documentation for how to use the CVS version control system
@@ -233,6 +233,66 @@ They note that due to rampant piracy in the Chinese market it is very hard to ma
 
   </div>
 </section>  
+
+---
+## Dvd (/dvd)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dvd</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documentation for both the standard DVD-ROM format along with the Gamecube specific NROM format created by Nintendo. According to the documentation Nintendo confirmed that Gamecube games can tolerate a read speed of up to 250ms, but if you go as high as 300ms it causes major errors.
+
+The plan was to create custom BB2 Discs that are more secure than the original Gamecube NROM format, potentially using the Content Scrambling System (CSS).
+
+BroadOn wanted **ALi** to modify the System on a Chip (SOC) to allow reading the BB2 format NROM discs along with standard DVDs so it would need to support the custom lead-in Control Data Zone and the scramble initialisation. Not sure if it got far enough for ALi to implement this however.
+
+It also contains brief information about the Content Scrambling System (CSS), so not sure if they were going to apply CSS to the custom NROM discs for the Chinese market.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BB2 DVD Disc Performance | .xls | Spreadsheet containing low level detailed comparisons of NROM such as Hashing Overhead, Stroke Length and Access Time
+BB2 DVD Disc Performance Summary | .doc | Document containing table of differences between DVD and NROM speeds
+Ecma-267 | .pdf | Document containing the official ECMA standard for 120 mm DVD ROM discs  (easily available online)
+INF-8090 | .PDF | Document containing ATAPI DVD Device specification for the DVD Format written by the SFF Committee (easily available online)
+dvdnrom | .html | HTML Document containing information about the differences between NROM and DVD formats
+
+---
+## Online (/online)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/online</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains an extensive document called **OnlineGaming.doc** which uses multiple sources to decide how best to create their own Online Gaming infrastructure. It has details on how the online play in gamecube games is implemented and more general information such as how matchmaking servers work. It is worth a read to get an overview of what 2004 online gaming was like from a game development perspective.
+
+It also contains a link to Arnim Laeuger's USB to GBA adapter: [USB to GBA](https://web.archive.org/web/20021225065822/http://home.knuut.de/arnim.laeuger/usb_gba/usb_gba.html) and a link to **GBATEK** pages, but not sure what they had planed for the GBA, could it have been something to do with the Gamecube to GBA adapter? 
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+OnlineGaming | .doc | Document containing an overview of Online gaming Infrastructure
+USBN96041 | .pdf | Document containing the specification by National Semiconductor for USB controller chip
+index | .html | HTML Document containing links to the other two documents and a few other links to gba homebrew on the web
+
+
+---
+## BB2 Project Schedule (/schedules)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/schedules</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the spreadsheet **BB2-Schedule.xls** that surprisingly contains the schedule for the BB2 Project. The project start date was on the 30th January 2004 and the proposed production build start was to be 31st January 2005.
+
+The spreadsheet was last updated on the 14th May 2004, this could be roughly the date where resources were moved from this project over to the upcoming Wii.
+
+  </div>
+</section>  
+
 
 ---
 # References
