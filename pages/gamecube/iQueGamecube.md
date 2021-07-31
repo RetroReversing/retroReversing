@@ -22,9 +22,11 @@ editlink: /gamecube/iQueGamecube.md
 ---
 
 # Introduction
-In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to Zammis Clark. Included in these files were documentation and source code for an unreleased console for the Chinese market with the codename **BB2**. 
+In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to Zammis Clark. Included in these files were documentation and source code for an unreleased console for the Chinese market with the codename **BB2** (BroadOn Board 2). 
 
-This is a sequel to the Nintendo 64 Based **iQue Player** that was released in China successfully.
+This is a sequel to the Nintendo 64 Based **iQue Player** that was released in China successfully although was later cracked and piracy flooded in.
+
+According to RGDWiki it was to be called the **iQue Box** and development stopped due to the focus switching to the upcoming Wii project [^1].
 
 This post will cover the **bb2.7z** archive leaked in July 2021.
 
@@ -44,7 +46,7 @@ This folder also contains the following sub-directories:
 * **dvd** - 
 * **gamecube** - 
 * **hardware** - 
-* **infrastructure** - 
+* **infrastructure** - Documentation for how to use the CVS version control system
 * **licensing** - Document outlining the costs of licensing DVD playback functionality for BB2
 * **marketing** - Contains a really interesting Market Analysis by BroadOn and proposal for why BB2 will be a success (Games + DVD + karaoke)
 * **online** - Documentation related to Online Gaming!
@@ -53,18 +55,19 @@ This folder also contains the following sub-directories:
 * **system_hw** - 
 * **system_software** - 
 
+Each of these sub directories will be covered in the rest of the post.
   </div>
 </section>  
 
 
 ---
-## Ali Multimedia Engine SOC (/ali)
+## ALi Multimedia Engine SOC (/ali)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/ali</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains documentation related to the low level hardware for the Multimedia processor designed by T-Square Design (ALi) for use in project BB2.
 
-ALi Corporation bought **T-Square Design** some time in 2004 and re-branded everything under their brand, so in some files you will see T-Squared and in newer files you will see ALi.
+**ALi** Corporation bought **T-Square Design** some time in 2004 and re-branded everything under their brand, so in some files you will see T-Squared and in newer files you will see ALi.
 
 The company T-Square design (Also known as T2Design in the documentation) designed the **T630x** range of Multimedia System on A chip (SOC) but when they were bought by ALi they renamed this range to the **M630x** range.
 
@@ -129,7 +132,7 @@ MIPS32INT-AFP-00.95 | .pdf | Introduction to the MIPS32 Architecture Document of
 R4400_Uman_book_Ed2 | .pdf | The MIPS R4000 Microprocessor User’s Manual by Joe Heinrich
 ejtag200 | .pdf | Document created by MIPS containing the EJTAG Debuging solution (can easily be found officially online)
 
-Older Documentation by TSquare Design:
+Older Documentation by T-Square Design:
 
 File Name | Extension | Description
 ---|---|---
@@ -178,3 +181,59 @@ iosim | .html | HTML Document containing the changes made to the Input/Output Si
 iosim_func | .html | HTML Document containing the functions and macros available in the I/O Sim API
 mc_dv | .htm | HTML Document containing notes on MC (Memory Card?) hardware verification
 sha1_dv | .htm | HTML Document containing notes on the tests for SHA Hash support in hardware for content authentication
+
+---
+## Infrastructure (/infrastructure)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/infrastructure</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains information for how to use the CVS version control system to both checkout and checkin source code to the BB2 project. 
+
+It also contains a standard MIPS document explaining how to use the EJTAG debugger but this document can be found online without downloading this leak.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+SourceImport | .html | HTML Document containing the steps required to import a new version into the CVS repository
+cvstree | .html | HTML Document containing a guide for both windows and linux users for how to checkout the CVS repository
+mips-ejtag-02.60 | .pdf | Document created by MIPS containing the EJTAG Debuging solution (can easily be found officially online)
+
+
+---
+## Licensing (/licensing)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/licensing</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains a single **dvd_licensing.htm** document that lists all the different royalties that need to be paid in order to release a device with DVD playback support. This includes Dolby Digital which has a fee per channel used, the DVD CCA fee for playing DVDs that use the Content Scramble system and the different DVD patent pools like **DVD 6C**.
+
+According to the document it costs on average 13 USD to 15 USB per DVD player! If you thought software patents were bad, hardware patents are even more costly.
+
+This document is worth reading just to see the sheer cost of releasing hardware that requires DVD technology.
+
+More information on DVD 6C is available here: [DVD6C PATENT POOL / FAQ](http://www.dvd6cla.com/faq.html)
+
+  </div>
+</section>  
+
+
+---
+## Marketing (/marketing)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/marketing</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the file **BB2-MRD.doc** which lists the marketing analysis that has been done so far and how that releases to releasing the BB2 product.
+
+They list the main competitors as the Sony PS2 and also the Xbox that is available in Hong Kong, not to mention the problem with the government policy cracking down on console hardware.
+
+They note that due to rampant piracy in the Chinese market it is very hard to make money on per-game releases, especially on the PC platform. So most income made from the Chinese gaming market is from online games such as League of Legends micro-transactions.
+
+  </div>
+</section>  
+
+---
+# References
+[^1]: [iQue Box - RGDWiki](https://wiki.raregamingdump.ca/index.php/iQue_Box)
