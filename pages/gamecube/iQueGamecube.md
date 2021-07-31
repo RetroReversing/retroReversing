@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- gc
+- gamecube
 - leak
 title: iQue Gamecube Leak (BB2)
 thumbnail: /public/consoles/Nintendo Wii.png
@@ -16,9 +16,8 @@ breadcrumbs:
   - name: iQue Gamecube Leak (BB2)
     url: #
 recommend: 
-- wii
+- gamecube
 - sdk
-- gc
 editlink: /gamecube/iQueGamecube.md
 ---
 
@@ -152,3 +151,30 @@ If you are interested in software development the most interesting file to read 
 
 if you are more of a hardware fan check out **TS072_platform_user_manual__v1.04_030908.pdf** as it has photographs of the hardware in use along with information on how it was used.
 
+---
+## Design Verification Documents (/dv)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dv</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains all the documentation related to automated verification that the System on a Chip behaves as expected.
+
+It mentions that they use the Incisive Coverage Technology (ICT) software produced by **Cadence Design** which tracks the code coverage for the low level verilog hardware source code.
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BB2 Verification Overview | .pdf, .ppt | Presentation first introducing BB2 and then talking about each hardware component and their respective verilog test bench
+aes_dv | .htm | HTML Document containing details on how to verify the hardware for AES encryption/decryption of content such as games
+bb2_dv_list | .html | HTML Document containing a list of all the different verifications grouped by component such as GI ROM/GI SRAM/GI PCI Unit/GI DI Unit/AIS
+di_system_dv | .html | HTML Document containing details on how to verify the DI Bus (Disk Interface?)
+hashblocks | .gif | GIF diagram showing SHA1 hash blocks
+icttutorial | .pdf | Document containing a tutorial for how to use the ICT software by **Cadence Design**
+ictuser | .pdf | Document containing the Incisive Coverage Technology User Guide created by **Cadence Design**
+index | .html | HTML Document containing links to all the documents in this folder grouped by company e.g ATI/ALi
+iosim | .html | HTML Document containing the changes made to the Input/Output Simulator since the original BB project (iQue Player)
+iosim_func | .html | HTML Document containing the functions and macros available in the I/O Sim API
+mc_dv | .htm | HTML Document containing notes on MC (Memory Card?) hardware verification
+sha1_dv | .htm | HTML Document containing notes on the tests for SHA Hash support in hardware for content authentication
