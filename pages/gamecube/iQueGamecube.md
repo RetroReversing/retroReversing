@@ -40,6 +40,7 @@ The documentation and source code for the BB2 hardware uses a lot of acronyms, s
 * GI - Gamecube Disk Interface (Replaces the MEI with a standard DVD drive)
 * MC - Memory Crypto (Unit)
 * MEI - Matsushita Drive (Custom Gamecube DVD drive)
+* SK - Secure Kernel
 
 ---
 #  iQue Gamecube Documentation (bb2.7z/doc)
@@ -50,7 +51,7 @@ The documentation and source code for the BB2 hardware uses a lot of acronyms, s
 
 Most of the implementation was completed by the Chinese company **BroadOn**, in fact it was almost ready for release, however it never made it to market.
 
-The root folder contains an index.html file which can be opened in any webbrowser and gives links to all the internal sites related to BB2 such as the source code archive.
+The root folder contains an index.html file which can be opened in any web browser and gives links to all the internal sites related to BB2 such as the source code archive.
 
 This folder also contains the following sub-directories:
 * **ali** - Documentation about the Multimedia System on a Chip designed by T-Squares/ALi for use in the BB2 hardware
@@ -63,9 +64,9 @@ This folder also contains the following sub-directories:
 * **marketing** - Contains a really interesting Market Analysis by BroadOn and proposal for why BB2 will be a success (Games + DVD + karaoke)
 * **online** - Documentation related to Online Gaming!
 * **schedules** - Contains a project schedule spreadsheet that shows all the important dates to get the hardware designed, verified and entered into production
-* **security** - 
+* **security** - Documentation about how the security system will work, mainly how it will prevent piracy
 * **system_hw** - 
-* **system_software** - 
+* **system_software** - Documentation about the software that will run on the Device (ALiRes and GeckoRes)
 
 Each of these sub directories will be covered in the rest of the post.
   </div>
@@ -318,14 +319,17 @@ The Audio Input interface (**AI**) was to receive Audio from GC hardware and Mux
 
 The Audio Interface Streaming (AIS) unit is used to stream data from the drive to the Gamecube Flipper CPU.
 
-To save cost the **M3358** SoC was to perform operations that are normally handled by seperate components on the Gamecube motherboard these are:
+To save cost the **M3358** SoC was to perform operations that are normally handled by separate components on the Gamecube motherboard these are:
 * Disc Interface (DI)
 * Servo (controls DVD mechanical hardware)
 * TV Encoder
 * Clock Generator
 
+The most interesting part is how it all comes together utilising the original Gamecube Flipper and Gekko components with a new Multimedia Chip.
   </div>
 </section>  
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is the architecture of the proposed iQue Box the sequel to the iQue Player. It mixes <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> hardware such as Gekko and Flipper with a customised Multimedia processor M3358 created by ALi that handles clock generator, Disc/Video/Audio interfaces <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> <a href="https://t.co/7L3C7GpTIf">pic.twitter.com/7L3C7GpTIf</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1421555084354334722?ref_src=twsrc%5Etfw">July 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 The files in this folder are described in the table below:
 
@@ -355,6 +359,70 @@ sha1-unit | .html | HTML Document containing details of the SHA1 hardware unit w
 The files **BB2 Hardware Overview.pdf** and **3357+ Project Overview.pdf** are by far the most interesting file in this folder as it pretty much described the entire BB2 project and what each company (BroadOn/ALi) need to do.
 
 **3358 Pinout.pdf** is also worth a look as it has some excellent diagrams that show how everything works together. The Gekko and Flipper hardware connect to the custom 3358 chip via DI/VI/AI/AIS and also use it as a clock generator.
+
+---
+## Security (/security)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/security</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documents related to the security of the device and the content that will be played on it. This includes the RSA and ECC algortihms used and general notes for how to write secure code on both the client and network level.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Eccdesc | .htm | HTML Document containing the ECC algorithms used in the BB Player and how they were implemented (Poly Math and Elliptic Math)
+Rsadesc | .htm | HTML Document containing  the RSA algorithm used and how it was implemented in the system
+ac | .htm | HTML Document containing a proposal for Activation codes which are human readable and would be input by the players themselves
+algorithms | .htm | HTML Document containing  a table of different crypto algorithms used in the BB Player and where they are used in the system, such as RSA, EC, ECDSA and Ring Validate
+ctauth | .html | HTML Document containing the proposal for Content Authentication using a Ticket based system and Hierarchical Hashing
+cthash-fig1 | .gif | GIF Diagram showing content authentication between the Drive and Disk interface (DI)
+dvdcopies | .htm | HTML Document containing a list of companies that provide copy protection for DVD-9 Disks
+netDataSecurity | .htm | HTML Document containing the requirements for secure network data processing on the BB2 device to protect both the player data and the Intellectual property
+secure_coding | .htm | HTML Document containing a list of common secure coding practises such as buffer overflow protection
+
+In **secure_coding.html** it mentions the Xbox Dashboard hack which used a buffer overflow on a loaded font (.xtf) file to trick the system into loading a 3GB data block into memory.
+
+In **dvdcopies.htm** it mentions that **DCA Inc.** and **Sonopress** are the companies that master Original Xbox DVD disks.
+
+---
+## System Software (/system_software)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/system_software</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains details on the System Software that would need to be written for the system called the "Universal Player".
+
+There were two CPU architectures that software had to be compiled to
+* PowerPC (Gekko Gamecube Processor)
+* MIPS32 (ALi Multimedia Processor)
+
+The SDK used for developing the BB2 System software was split into 3 parts:
+* **usr** - X86 libraries/binaries and include files for compiling on Windows/Linux
+* **gc** - C/C++ Headers and Libraries to run on the Gamecube Gekko processor
+* **soc** - C/C++ Headers and Libraries to run on the ALi System on a Chip
+
+The files in this folder are described in the table below:
+  </div>
+</section>  
+
+
+File Name | Extension | Description
+---|---|---
+alisys | .dia, .png | Diagram of the ALiRes resident software components that will be run on the custom ALi Multimedia Chip such as the main control loop and game launcher
+bb2_definition | .doc, .html | Contains the definition of the product which is a Universal Plug and Play Gamecube compatible console with DVD and other media player that has secure rights management
+build_env | .html | HTML Document containing details on how to build the software on both Windows and Linux
+func_spec | .html | HTML Document containing the functional specification of the BB2 Software (Secure Mode, Secure Boot, AliRes, GekkoRes)
+sk_entry | .html | HTML Document containing details on how to enable entry into the Secure Kernel for EJTAG debugging
+sw_structure | .html | HTML Document containing details on how the two main software components that are resident in memory in each of the 2 CPUs GeckoRes and AliRes
+sw_tasks | .html | HTML Document containing all the tasks that need to be completed on the software side (last updated 25th March 2004)
+
+In the file **bb2_definition.html** it mentions that they has plans for two different versions of the hardware one for developing countries (iQue Version) and the other for developed countries (Nintendo). The interesting thing about the Nintendo version is that they wanted backward compatibility with original Gamecube Discs along with support for the new BoardOn software.
+
+It has mention of connecting to a PC to download games to the system, not just for purchases but for rentals and demos too! 
+
 
 ---
 # References
