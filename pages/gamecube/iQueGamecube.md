@@ -30,6 +30,18 @@ According to RGDWiki it was to be called the **iQue Box** and development stoppe
 
 This post will cover the **bb2.7z** archive leaked in July 2021.
 
+## Common terms and Acronyms 
+The documentation and source code for the BB2 hardware uses a lot of acronyms, so the ones that we know will be listed below: 
+* AES - Advanced Encryption Standard
+* AIS - Audio Interface Streaming (Bus)
+* AVM - Audio Video Muxing (takes the audio and video from flipper and passes to ALi chip)
+* CG - Chip-Global Control
+* DC - Disc Crypto (Unit)
+* GI - Gamecube Disk Interface (Replaces the MEI with a standard DVD drive)
+* MC - Memory Crypto (Unit)
+* MEI - Matsushita Drive (Custom Gamecube DVD drive)
+
+---
 #  iQue Gamecube Documentation (bb2.7z/doc)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/doc</div>
@@ -45,12 +57,12 @@ This folder also contains the following sub-directories:
 * **dv** - Design Validation documentation
 * **dvd** - DVD ROM and the custom Nintendo NROM specification for Discs
 * **gamecube** - 
-* **hardware** - 
+* **hardware** - Documentation for each of the custom chips to be designed for the project by both BroadOn and ALi
 * **infrastructure** - Documentation for how to use the CVS version control system
 * **licensing** - Document outlining the costs of licensing DVD playback functionality for BB2
 * **marketing** - Contains a really interesting Market Analysis by BroadOn and proposal for why BB2 will be a success (Games + DVD + karaoke)
 * **online** - Documentation related to Online Gaming!
-* **schedules** - 
+* **schedules** - Contains a project schedule spreadsheet that shows all the important dates to get the hardware designed, verified and entered into production
 * **security** - 
 * **system_hw** - 
 * **system_software** - 
@@ -293,6 +305,56 @@ The spreadsheet was last updated on the 14th May 2004, this could be roughly the
   </div>
 </section>  
 
+---
+## Hardware (/hardware)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/hardware</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the low level hardware documentation for each of the custom chips that would make up the  Gamecube Disc Interface (**GI**) to be designed by BroadOn.
+
+Also contains details about the Digital Video Input Interface (VI) to be designed by ALi as an enhancement to their **M3357** Multimedia Chip.
+
+The Audio Input interface (**AI**) was to receive Audio from GC hardware and Mux it with the **M3357** Multimedia Chip, this chip was also to be designed by ALi.
+
+The Audio Interface Streaming (AIS) unit is used to stream data from the drive to the Gamecube Flipper CPU.
+
+To save cost the **M3358** SoC was to perform operations that are normally handled by seperate components on the Gamecube motherboard these are:
+* Disc Interface (DI)
+* Servo (controls DVD mechanical hardware)
+* TV Encoder
+* Clock Generator
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+3357+ Project Overview | .pdf, .ppt | A presentation given to ALi to suggest what needs to be modified in the ALi M3357 Multimedia Chip to add support for the Gamecube Interface
+3358 Pinout | .doc, .pdf | Contains diagrams and lots of information about the 3358, not just pin-out info, worth reading
+BB2 AI Spec | .doc, .pdf | Audio Interface specification which is used as an enhancement to the 3358 to allow taking in Audio from the Flipper Gamecube CPU
+BB2 EJTAG Debugging | .doc, .pdf | Document outlining how to enable the EJTAG interface via NVRAM
+BB2 Hardware Overview | .pdf, .ppt | A presentation which covers the BB2 console project as a whole
+BB2 Issues | .xls | Spreadsheet containing the list of issues that are yet to be resolved for each of the components
+BB2 VI Spec | .doc, .pdf | Document containing the Video interface design specification such as the low level timings and signals
+BroadOn_SoC_Documents | .html | HTML Document containing links to each of the documents in this folder, this should have been called index.html
+GI Interface Spec | .doc, .pdf | Document containing all the low level signals of the Gamecube Interface such as **alt_boot**
+aes-unit | .html | HTML Document containing details on the AES unit which contains the Disc and Memory Crypto components for encrypting and decrypting data as it passes through the system
+ais-unit | .html | HTML Document containing details on the AIS unit which moves 16bit samples from the AIS interface to the Flipper CPU
+bb2-block | .gif | GIF Image of the integration between Gecko, flipper and the custom MCM by ALi (used in gi-arch.html)
+bi-unit | .html | HTML Document containing details on the BI Unit which connects the PCI Bus to the GI unit.
+dc-unit | .html | HTML Document containing details of the Disk Crypto (DC) unit which coordinates the SHA1, AES, PCI and DI to do complex memory decryption
+di-unit | .html | HTML Document containing details on the Disk Interface (DI) for Flipper which is used to read data over the GI Buffer in a similar manner to how it would on a real gamecube
+gi-arch | .html | HTML Document containing details of the Gamecube Interface (GI) as a whole
+gi-block | .gif | GIF Image of the individual parts that make up the Gamecube Interface (SRAM, DI, AIS, SHA1, AES, PCI)
+mc-unit | .html | HTML Document containing details of the Memory Crypto (MC) unit which is used for encryption, decryption and hasing of data in main memory
+sec-ctrl | .html | HTML Document containing details about the Secure controller and the different modes it supports
+sha1-unit | .html | HTML Document containing details of the SHA1 hardware unit which hashes data in GI SRAM
+
+The files **BB2 Hardware Overview.pdf** and **3357+ Project Overview.pdf** are by far the most interesting file in this folder as it pretty much described the entire BB2 project and what each company (BroadOn/ALi) need to do.
+
+**3358 Pinout.pdf** is also worth a look as it has some excellent diagrams that show how everything works together. The Gekko and Flipper hardware connect to the custom 3358 chip via DI/VI/AI/AIS and also use it as a clock generator.
 
 ---
 # References
