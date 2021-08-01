@@ -28,7 +28,7 @@ This is a sequel to the Nintendo 64 Based **iQue Player** that was released in C
 
 According to RGDWiki it was to be called the **iQue Box** and development stopped due to the focus switching to the upcoming Wii project [^1].
 
-There are no known images of any prototypes developed or any mock designs of the console case but we do have a few specifications:
+There are no known photos of any prototypes developed but we do have a few diagrams and specifications:
 * width: 12"
 * depth: 8"
 * height: 2.5"
@@ -69,10 +69,10 @@ This folder also contains the following sub-directories:
 * **infrastructure** - Documentation for how to use the CVS version control system
 * **licensing** - Document outlining the costs of licensing DVD playback functionality for BB2
 * **marketing** - Contains a really interesting Market Analysis by BroadOn and proposal for why BB2 will be a success (Games + DVD + karaoke)
-* **online** - Documentation related to Online Gaming!
+* **online** - Documentation related to Online Gaming and also GBA connectivity
 * **schedules** - Contains a project schedule spreadsheet that shows all the important dates to get the hardware designed, verified and entered into production
 * **security** - Documentation about how the security system will work, mainly how it will prevent piracy
-* **system_hw** - 
+* **system_hw** - Documentation about all the hardware requirements like power supply and Bill of Materials, also contains case design
 * **system_software** - Documentation about the software that will run on the Device (ALiRes and GeckoRes)
 
 Each of these sub directories will be covered in the rest of the post.
@@ -510,6 +510,99 @@ Power Supply Requirement | .doc | Document containing open frame power supply re
 atx_conn | .vsd | Microsoft Visio file containing a diagram of an ATX 20 pin connector used for the power supply
 bb2_pwr_sply_dim | .vsd | Microsoft Visio file containing a diagram showing the size of the power supply required
 
+
+---
+## Gamecube (/gamecube)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/gamecube</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the official documentation provided by Nintendo for software developers, most of it was provided in the official SDK.
+
+This folder also contains the following sub-directories:
+* **hardware** - Low level hardware documentation provided by Nintendo
+* **NetworkBase** - Tutorial on how to install the Nintendo Gamecube Comminication Hardware for Network play
+* **SocketLibrary** - Html based documentation for the Gamecube Sockets Libraries including DVD Ethernet (dvdeth) and Berkeley Sockets (so)
+* **Network_SDK** - The Official Nintendo Network SDK documentation including the AVE-TCP Module and Head to Head Module (h2h)
+* **VirtualMemory** - Documentation for the Official Gamecube Virtual Memory Library provided by the SDK (November 18th 2003)
+
+The files in this folder are described in the table below, they are all part of the standard Gamecube SDK provided by Nintendo:
+  </div>
+</section>  
+
+
+File Name | Extension | Description
+---|---|---
+Architecture_Guide | .pdf | Document containing information for software developers on the hardware (Gekko/GP/1TSRAM/DSP/ARAM/PAD/AI/VI) and the Software Development Kit
+Audio_Programmers_Guide | .pdf | Document containing how to use the Audio Library (AX) and the Sound Pipeline (DSPADPCM/DTKMAKE/DSPTOOL.DLL)
+GekkoUserManual | .pdf | Document containing the User Manual for the Gekko RISC CPU written by IBM
+Graphics_Programmers_Guide | .pdf | Document containing how to use the Graphics Library (GX)
+PALDev_Guidelines | .pdf | Document containing details for developers creating PAL games, such as multiple language support and the timing differences compared to NTSC
+PowerPCProgEnv | .pdf | Document containing low level details from IBM about how the PowerPC architecture works
+Programmers_Guide | .pdf | Document containing programming information such as how to use the build system, the Operating System library, DVD library, PAD, PERF and debugging tips
+USB_Communication_Library | .pdf | Document containing details on how to communicate between the Gamecube and another USB device such as a PC using libraries HIO/MCC
+Video_Guide_186 | .pdf | Document containing the Gamecube Video Guidelines such as Pixel rations, effective screen frame and progressive mode
+bootsequence | .html | HTML Document containing the Boot Sequence (BS1 and BS2) for the gamecube
+eabi_app | .pdf | Document containing information from IBM about developing EABI compliant programs
+index | .html | HTML Document containing links to the other files in this folder
+install_sdk | .html | HTML Document containing information on how to install the WIndows Gamecube SDK from 8th May 2003
+readme_networkbase.us | .txt | Text file from the Network SDK explaining the different static libraries such as **eth.a** or **mdm.a** and their debug variants
+readme_socketlib.us | .txt | Text file from the Socket Library SDK containing a change log
+
+Although it is also provided by the standard Gamecube SDK, we will always recommend reading **Architecture_Guide.pdf** for anyone interested in Gamecube development.
+
+The file **bootsequence.html** written by **Atsushi Watanabe** seems to be the only file unique to this leak in this folder and documents the sequence of tasks performed by the Gamecube during boot. 
+* It first runs Boot Sequence 1 (BS1) on IPLROM which initialises hardware like ARAM and CPU. 
+* Then it runs Boot Sequence 2 (BS2) on RAM which reads from the DVD drive and reads the game DOL file and Apploader. 
+* Finally it runs the actual game code.
+
+---
+### Network Development Kit Hardware Install Guide (/gamecube/NetworkBase)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/NetworkBase</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the **Gamecube Communication Hardware Installation Guide** (**HWInstallation_Guide11.us.pdf**) for installing the Official Gamecube Network hardware into the two official Gamecube development kits the DDH and the NPDP-GDEV.
+
+It also has a guide for how to use the **Line Emulator** which is a development tool that emulates a phone line connection, so that developers don't need to pay telephone charges during game testing and development.
+  </div>
+</section>  
+
+---
+### Network SDK (/gamecube/Network_SDK)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Network_SDK</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the documentation provided in the **Official Gamecube Network SDK**, which was provided to all Gamecube developers and is not unique to the BB2 project. 
+
+It won't be covered here as we will have a separate post covering the full contents of the Gamecube Network SDK in depth.
+
+This folder contains the following sub-directories:
+* **h2h** - Head-to-Head Library
+* **avetcp** - AVE-TCP library
+  </div>
+</section>  
+
+
+---
+### Gamecube Socket Library (/gamecube/SocketLibrary)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/SocketLibrary</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the documentation provided in the Official Gamecube Socket SDK, which was provided to all Gamecube developers and is not unique to the BB2 project. 
+
+It won't be covered here as we will have a separate post covering the full contents of the Socket Library in depth.
+  </div>
+</section>  
+
+---
+### Virtual Memory SDK (/gamecube/VirtualMemory)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/VirtualMemory</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the documentation provided in the Official Gamecube Virtual Memory SDK, which was provided to all Gamecube developers and is not unique to the BB2 project. 
+
+It won't be covered here as we will have a separate post covering the full contents of the VM SDK in depth.
+  </div>
+</section>  
 
 ---
 # References
