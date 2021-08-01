@@ -28,6 +28,13 @@ This is a sequel to the Nintendo 64 Based **iQue Player** that was released in C
 
 According to RGDWiki it was to be called the **iQue Box** and development stopped due to the focus switching to the upcoming Wii project [^1].
 
+There are no known images of any prototypes developed or any mock designs of the console case but we do have a few specifications:
+* width: 12"
+* depth: 8"
+* height: 2.5"
+* Material: UL94-V0 rated ABS plastic
+* DVD Drive: Front loading, located near the right side of the console
+
 This post will cover the **bb2.7z** archive leaked in July 2021.
 
 ## Common terms and Acronyms 
@@ -329,7 +336,7 @@ The most interesting part is how it all comes together utilising the original Ga
   </div>
 </section>  
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is the architecture of the proposed iQue Box the sequel to the iQue Player. It mixes <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> hardware such as Gekko and Flipper with a customised Multimedia processor M3358 created by ALi that handles clock generator, Disc/Video/Audio interfaces <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> <a href="https://t.co/7L3C7GpTIf">pic.twitter.com/7L3C7GpTIf</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1421555084354334722?ref_src=twsrc%5Etfw">July 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is the architecture of the proposed iQue Box the sequel to the iQue Player. It mixes <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> hardware such as Gekko and Flipper with a customised Multimedia processor M3358 created by ALi that handles clock generator, Disc/Video/Audio interfaces <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> <a href="https://t.co/7L3C7GpTIf">pic.twitter.com/7L3C7GpTIf</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1421555084354334722?ref_src=twsrc%5Etfw">July 31, 2021</a></blockquote>
 
 The files in this folder are described in the table below:
 
@@ -422,6 +429,86 @@ sw_tasks | .html | HTML Document containing all the tasks that need to be comple
 In the file **bb2_definition.html** it mentions that they has plans for two different versions of the hardware one for developing countries (iQue Version) and the other for developed countries (Nintendo). The interesting thing about the Nintendo version is that they wanted backward compatibility with original Gamecube Discs along with support for the new BoardOn software.
 
 It has mention of connecting to a PC to download games to the system, not just for purchases but for rentals and demos too! 
+
+---
+## System Hardware (/system_hw)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/system_hw</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **dvd_loader** - Information about the requirements for the DVD drive
+* **pwr_supply** - Information for the Power supply required for the console
+* **mechanical** - Diagrams and information about how the outer case for the console looks
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BB2 BOMs | .xls | Bill of Materials spreadsheet containing a list of all the parts required and their manufacturer and part ID
+BB2 CPU Board Layout | .vsd | Microsoft Visio file containing the main CPU board layout
+BB2 ME & ID Requirements | .doc | Document containing the Mechanical Engineering and Industrial Design Requirements such as the case dimensions (width: 12"  depth:8" height: 2.5")
+BB2 System Diagram | .vsd | Microsoft Visio file containing all the main units such and how they connect to each other on the board
+DVD Loader Requirements for BB | .doc | Duplicate to the file in the sub directory dvd_loader
+
+The **BB2 ME & ID Requirements | .doc** is the most interesting file in this folder as it lists the dimensions of the console along with a few details such as the plastic (UL94-V0 ABS) it will be made out of and where the DVD-drive will be (right hand side, front loading)
+
+---
+### Dvd Loader (/system_hw/dvd_loader)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dvd_loader</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains a single document called **DVD Loader Requirements for BB.doc** that contains the basic requirements for the DVD drive that will be included in the BB2 console. It needs to be able to support up to 2.66GB dual layer 8cm disks and up to 8.54GB for dual layer 12cm disks.
+
+The maximum access time should be 250msec (3-7x) with a maximum spin up time of 5 seconds, and it should have a laser lifetime of 10k hours.
+  </div>
+</section>  
+
+
+---
+### Mechanical (/system_hw/mechanical)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/mechanical</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains details about what the physical console would look like, including the ports on the front and rear of the unit and how it would look from the top.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Front Panel Requirement | .doc | Document containing a list of all the features of the front panel such as 4 gamecube ports, start/stop/eject, usb port and two memory card ports
+Rear Panel Requirement | .doc | Document containing details of the ports on the rear of the console such as S-Video and Component out, USB and ethernet ports and a HDD expansion bay
+bb2_box | .vsd | Microsoft Visio file containing a diagram of the internals of the console
+bb_2_f_r_panel | .vsd | Microsoft Visio file containing a diagram of the outer case of the console
+
+The most interesting file in this folder is definitely the **bb_2_f_r_panel.vsd** file which provides a diagram of what the console would have looked like from the top, front and back.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is the closest we can get to see what the unreleased iQue Box Player would have looked like. Basically a small top loading DVD player with 4 <a href="https://twitter.com/hashtag/Gamecube?src=hash&amp;ref_src=twsrc%5Etfw">#Gamecube</a> ports on the front and 2 memory card slots 1/3 <a href="https://t.co/vB2waUaWHx">pic.twitter.com/vB2waUaWHx</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1421829947409195009?ref_src=twsrc%5Etfw">August 1, 2021</a></blockquote> 
+
+---
+### Power Supply (/system_hw/pwr_supply)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/pwr_supply</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains information on sourcing a power supply for the BB2 console, such as all the power requirements for each chip and also the dimensions so it would fit in the case.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Power Requirements | .xls | Spreadsheet containing the DC voltage requirements of all the components of the board 
+Power Supply Requirement | .doc | Document containing open frame power supply requirements for the unit
+atx_conn | .vsd | Microsoft Visio file containing a diagram of an ATX 20 pin connector used for the power supply
+bb2_pwr_sply_dim | .vsd | Microsoft Visio file containing a diagram showing the size of the power supply required
 
 
 ---
