@@ -204,7 +204,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Initial decompilation of the Nintendo switch version of BOTW, it uses the devkitA64 toolchain" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
 
 ### Super Mario Odyssey
-{% include link-to-other-site.html url="https://github.com/shibbo/OdysseyDecomp" description="Initial decompilation of the Nintendo switch game Super Mario Odyssey" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of Super Mario Odyssey"  %}
+{% include link-to-other-site.html url="https://github.com/shibbo/OdysseyDecomp" description="Initial decompilation of the Nintendo switch game Super Mario Odyssey" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
 
 ---
 # Nintendo Handhelds
@@ -218,7 +218,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/huderlem/kirbydreamland" description="This is a disassembly of Kirby's Dream Land (Game Boy), still under active development but many subroutines still to be named. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg" title="Disassembly of Kirby's Dream Land"  %}
 
 ### Mole Mania
-{% include link-to-other-site.html url="https://github.com/froggestspirit/mmania" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/2/23/Donkey_Kong_94_box_art.jpg/220px-Donkey_Kong_94_box_art.jpg" title="Donkey Kong '94"  %}
+{% include link-to-other-site.html url="https://github.com/froggestspirit/mmania" description="" image="https://upload.wikimedia.org/wikipedia/en/0/02/Mole_mania_boxart.png" title="Mole Mania"  %}
 
 ### Pokemon Red & Blue
 {% include link-to-other-site.html url="https://github.com/pret/pokered" description="This is a fully complete disassembly of Pokémon Red and Blue. It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp/440px-Pok%C3%A9mon_Red_and_Blue_cover_art.webp.png" title="Disassembly of Pokémon Red/Blue"  %}
