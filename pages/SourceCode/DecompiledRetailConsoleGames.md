@@ -95,7 +95,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/Raidenthequick/yoshisisland-disassembly" description="Disassembly is 100% finished, assembles under Asar and produces a fully clean ROM." image="https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg" title="Full disassembly of Yoshi's Island (SNES) version U 1.0"  %}
 
 ### Super Mario RPG
-{% include link-to-other-site.html url="https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
+{% include link-to-other-site.html url="https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly" description="This project is a disassembly of Super Mario RPG for the Super Famicom (SNES), it is not under active development." image="https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg" title="Super Mario RPG Disassembly"  %}
 
 ### Super Metroid
 {% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
