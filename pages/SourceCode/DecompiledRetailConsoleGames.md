@@ -230,13 +230,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/kaspermeerts/supermarioland" description="Incomplete disassembly of Super Mario Land (World) (Rev A). It uses the RGBDS assembler." image="https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg" title="Super Mario Land disassembly"  %}
 
 ### Super Mario Land 2: Six Golden Coins
-{% include link-to-other-site.html url="https://github.com/froggestspirit/marioland2" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/froggestspirit/marioland2" description="" image="https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg" title="Super Mario Land 2: Six Golden Coins disassembly"  %}
 
 ### Super Mario Land 3: Wario Land
 {% include link-to-other-site.html url="https://github.com/Kak2X/wl" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
-
-### Wario Land 3
-{% include link-to-other-site.html url="https://github.com/froggestspirit/wland3" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Wario_Land_Box_Art.jpg/220px-Wario_Land_Box_Art.jpg" title="Super Mario Land 3 disassembly"  %}
 
 ---
 ## Nintendo Game Boy Color
@@ -264,6 +261,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 ### Pokémon Puzzle Challenge
 {% include link-to-other-site.html url="https://github.com/pret/pokepuzzle" description="This is a disassembly of Pokémon Puzzle Challenge that uses the RGBDS assembler toolchain to build the retail ROM." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Pok%C3%A9mon_Puzzle_Challenge_Coverart.png" title="Disassembly of Pokémon Puzzle Challenge"  %}
+
+### Wario Land 3
+{% include link-to-other-site.html url="https://github.com/froggestspirit/wland3" description="" image="https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg" title="Wario Land 3 disassembly"  %}
 
 ---
 ## Game Boy Advance
