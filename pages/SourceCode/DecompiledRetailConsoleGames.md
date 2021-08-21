@@ -108,10 +108,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/n64decomp/banjo-kazooie" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
 
 ### Blast Corps
-{% include link-to-other-site.html url="https://github.com/retroplastic/blastcorps" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
+{% include link-to-other-site.html url="https://github.com/retroplastic/blastcorps" description="Disassembly of Blast Corps" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Blast Corps"  %}
 
 ### Body Harvest
-{% include link-to-other-site.html url="https://github.com/jaytheham/body-harvest-decompilation" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
+{% include link-to-other-site.html url="https://github.com/jaytheham/body-harvest-decompilation" description="Disassembly of Body Harvest" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Body Harvest"  %}
 
 ### Conker's Bad Fur Day
 {% include link-to-other-site.html url="https://github.com/mkst/conker" description="Decompilation of Conker, about 4% complete" image="https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg" title="Decompilation of Conker's Bad Fur Day"  %}
@@ -120,7 +120,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/DavidSM64/Diddy-Kong-Racing" description="A very early decompilation of Diddy Kong Racing source by DavidSM64" image="https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg" title="Diddy Kong Racing"  %}
 
 ### Dinosaur Planet
-{% include link-to-other-site.html url="https://github.com/zestydevy/dinosaur-planet" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
+{% include link-to-other-site.html url="https://github.com/zestydevy/dinosaur-planet" description="A decompilation of Dinosaur Planet" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Dinosaur Planet"  %}
 
 ### Doom 64
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
@@ -129,25 +129,25 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A an early decompilation of Goldeneye 007" image="https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg" title="Goldeneye 007 Decompilation"  %}
 
 ### Kirby 64: The Crystal Shards
-{% include link-to-other-site.html url="https://github.com/farisawan-2000/kirby64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/kirby64" description="A decompilation of Kirby 64" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="Kirby 64 disassembly"  %}
 
 ### Mario Party
-{% include link-to-other-site.html url="https://github.com/gamemasterplc/mpsource" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/gamemasterplc/mpsource" description="A decompilation of the original Mario Party" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="Mario Party disassembly"  %}
 
 ### Mario Party 3
-{% include link-to-other-site.html url="https://github.com/PartyPlanner64/mp3" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/PartyPlanner64/mp3" description="A decompilation of Mario Party 3" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="Mario Party 3 disassembly"  %}
 
 ### Mario Kart 64
 {% include link-to-other-site.html url="https://github.com/ProjectRevoTPP/mk64" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
 
 ### Neon Genesis Evangelion
-{% include link-to-other-site.html url="https://github.com/farisawan-2000/evangelion" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/evangelion" description="A decompilation of Neon Genesis Evangelion" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="Neon Genesis Evangelion disassembly"  %}
 
 ### Super Mario 64
 {% include link-to-other-site.html url="https://github.com/n64decomp/sm64" description="This repo contains a full decompilation of Super Mario 64 (J), (U), and (E) with minor exceptions in the audio subsystem. it uses the original IRIX based compiler toolchain to build wrapped in QEMU-IRIX for compatibility on modern systems." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Super_Mario_64_box_cover.jpg" title="Super Mario 64 decompilation"  %}
 
 ### Superman 64
-{% include link-to-other-site.html url="https://github.com/farisawan-2000/superman" description="A decompilation of Mario Kart 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="A Mario Kart 64 disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/superman" description="A decompilation of Superman 64 source" image="https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png" title="Superman 64 disassembly"  %}
 
 ### The Legend of Zelda: Ocarina of Time
 {% include link-to-other-site.html url="https://github.com/zeldaret/oot" description="This is a WIP decompilation of The Legend of Zelda: Ocarina of Time. The purpose of the project is to recreate a source code base for the game from scratch, using information found inside the game along with static and/or dynamic analysis. The only build currently supported is Master Quest (Debug), but other versions are planned to be supported." image="https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/The_Legend_of_Zelda_Ocarina_of_Time_box_art.png/220px-The_Legend_of_Zelda_Ocarina_of_Time_box_art.png" title="Decompilation of The Legend of Zelda: Ocarina of Time"  %}
@@ -189,7 +189,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ## Nintendo Wii
 
 ### Speed Racer
-{% include link-to-other-site.html url="https://github.com/farisawan-2000/speedracer" description="" image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
+{% include link-to-other-site.html url="https://github.com/farisawan-2000/speedracer" description="Speed Racer for Wii Disassembly with a single decompiled function in C" image="https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Speed_Racer_game_Wii.jpg/220px-Speed_Racer_game_Wii.jpg" title="Speed Racer" %}
 
 ### Wii Sports
 {% include link-to-other-site.html url="https://github.com/doldecomp/ogws" description="" image="https://upload.wikimedia.org/wikipedia/en/e/e0/Wii_Sports_Europe.jpg" title="Wii Sports" %}
