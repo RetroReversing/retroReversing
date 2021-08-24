@@ -40,7 +40,7 @@ redirect_from:
 
 <div markdown="1">
 
-The earliest Gamecube development hardware available to game developers was known as the Dolphin Development Hardware or simply DDH for short. This system was sold before the other development kits were finalised, allowing game developers to get a head start on Gamecube development [^4]. 
+The earliest Gamecube development hardware available to game developers was known as the **Dolphin Development Hardware** or simply **DDH** for short. This system was sold before the other development kits were finalised, allowing game developers to get a head start on Gamecube development [^4]. 
 
 It was built by Applied Microsystems Corp (AMC) and just looked like a standard light grey PC tower with dolphin logo on the front and some Gamecube controller ports. 
 
@@ -59,7 +59,8 @@ The Prototype version of the DDH has RJ-11 ports instead of gamecube ports and a
 
 ---
 # NPDP Development Kits
-NPDP is the name of the development cartridges for in development games, they were basically hard disk drives used as game cartridges for developers to write games to them.
+According to leaked Nintendo internal documentation **NPDP** standard for Nintendo Pseudo Disc Pack [^14] which are a suite of development tools that used a cartridge to read/write gamecube games.
+These cartridges were basically hard disk drives used as game cartridges for developers to write games to them and allowed faster load times than reading from a physical disc.
 
 ## NPDP cartridges (GCT-0300)
 <section class="postSection">
@@ -283,3 +284,4 @@ Here is an image of the Pro-DG SDK package that was sold to developers, looks be
 [^11]: [SN-TDEV for Nintendo GameCube](https://web.archive.org/web/20041206205148/http://www.snsys.com/GameCube/SN-TDEV.htm)
 [^12]: [Shane Battye 🎮 on Twitter: "Interesting little tool for NR-Readers and GameCube dev - this is an SN Systems ProDG devlink kit](https://twitter.com/shanebattye/status/1165466965164449793)
 [^13]: [ProView for Nintendo GameCube](https://web.archive.org/web/20041208104135/http://www.snsys.com/GameCube/ProView.htm)
+[^14]: ANEMONE2.DOC from the BB2 Nintendo Leak
