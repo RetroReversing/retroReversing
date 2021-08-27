@@ -4,7 +4,7 @@ tags:
 - gamecube
 - leak
 title: iQue Gamecube Leak (BB2)
-thumbnail: /public/consoles/Nintendo Wii.png
+thumbnail: /public/consoles/Nintendo Gamecube.png
 image: /public/images/gc/iQue gamecube.jpg
 twitterimage: https://www.retroreversing.com/public/images/gc/iQue gamecube.jpg
 permalink: /ique-gamecube/
@@ -64,7 +64,7 @@ This folder also contains the following sub-directories:
 * **ali** - Documentation about the Multimedia System on a Chip designed by T-Squares/ALi for use in the BB2 hardware
 * **dv** - Design Validation documentation
 * **dvd** - DVD ROM and the custom Nintendo NROM specification for Discs
-* **gamecube** - 
+* **gamecube** - Mostly documentation provided by Nintendo (some is from the Gamecube SDK)
 * **hardware** - Documentation for each of the custom chips to be designed for the project by both BroadOn and ALi
 * **infrastructure** - Documentation for how to use the CVS version control system
 * **licensing** - Document outlining the costs of licensing DVD playback functionality for BB2
@@ -372,7 +372,7 @@ The files **BB2 Hardware Overview.pdf** and **3357+ Project Overview.pdf** are b
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/security</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains documents related to the security of the device and the content that will be played on it. This includes the RSA and ECC algortihms used and general notes for how to write secure code on both the client and network level.
+ This folder contains documents related to the security of the device and the content that will be played on it. This includes the RSA and ECC algorithms used and general notes for how to write secure code on both the client and network level.
 
   </div>
 </section>  
@@ -463,7 +463,7 @@ The **BB2 ME & ID Requirements | .doc** is the most interesting file in this fol
   <div markdown="1" class="rr-post-markdown">
  This folder contains a single document called **DVD Loader Requirements for BB.doc** that contains the basic requirements for the DVD drive that will be included in the BB2 console. It needs to be able to support up to 2.66GB dual layer 8cm disks and up to 8.54GB for dual layer 12cm disks.
 
-The maximum access time should be 250msec (3-7x) with a maximum spin up time of 5 seconds, and it should have a laser lifetime of 10k hours.
+The maximum access time should be 250 msec (3-7x) with a maximum spin up time of 5 seconds, and it should have a laser lifetime of 10k hours.
   </div>
 </section>  
 
@@ -603,6 +603,456 @@ It won't be covered here as we will have a separate post covering the full conte
 It won't be covered here as we will have a separate post covering the full contents of the VM SDK in depth.
   </div>
 </section>  
+
+
+---
+### Gamecube Hardware Specifications (/gamecube/hardware)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/hardware</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains low level documentation by Nintendo and other hardware providers such as ArtX and IBM for each piece of hardware in the official Gamecube.
+
+This folder also contains the following sub-directories:
+* **power** - 
+* **gekko** - Gekko CPU specifications
+* **video** - 
+* **VI** - Video Interface Specifications
+* **DI** - Disk Interface Specifications
+* **dvd** - DVD Interface Specifications
+* **AI** - Audio Interface Specifications
+* **CPU_board** - 
+* **clock** - 
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Flipper_datasheet_020218 | .pdf | Document containing low level details about the Flipper ASIC such as Pin out and registers
+For_EXI_Designer | .doc | Document containing details aimed towards designers who would be creating hardware add-ons that connect to the Gamecube EXI interface
+index | .html | HTML Document containing links to all the files and sub folders in this directory
+iotop | .doc | Document containing information about the ArtX Flipper GPU Input/Output features such as the EXI interface or DVD drive interface
+
+If you are interested in how the Gamecube Graphics works at a low level then the document **iotop.doc** is worth a read but beware it is very low level!
+
+---
+#### Audio Interface (AI) (/gamecube/hardware/AI)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/AI</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the low level specifications for the Audio Interface from Nintendo.
+
+This folder also contains the following sub-directories:
+* **hw** - empty folder
+* **doc** - contains specifications for the Audio Interface
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+README | .txt | Text file containing a brief overview of the contents of this folder, written by ATI and sent to RD3/BroadOn
+index | .html | HTML Document containing links to each of the files in the doc sub directory
+
+---
+#### AI Design Verification (/gamecube/hardware/AI/doc/dv)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dv</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains a single file called **ai.xls** that contains all the components of the Audio interface such as **aiDSP** and when they will be verified.
+  </div>
+</section>  
+
+
+---
+#### AI Specifications (/gamecube/hardware/AI/doc/spec)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/spec</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Dsp16_overview | .pdf | Document containing low level details about the DSP such as the assembly instructions and how each one is implemented
+ai | .pdf | Document containing a draft specification for the Audio Interface including DAC output, audio streaming and a mixing unit
+dolphin-B_05 | .PDF | Document containing block diagrams on the Gamecube Audio subsystem hardware
+dsp16_instr | .pdf | Document containing the same contents as **Dsp16_overview.pdf** but in landscape orientation
+dspintf | .doc | Document containing the DSP Interface Specification created by ArtX
+soundhw_revb | .pdf | Document containing ?
+virohm | .doc | Document containing ?
+
+---
+#### Clock Generator (/gamecube/hardware/clock)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/clock</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documentation for the clock chip that was used in the retail Gamecube which seems to be called the SNS-QA0764-1B unit and designed on the 14th February 2003 by **Macronix**.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+KDS1 | .jpg | JPG Image of a scanned in form with frequency/temperature statistics in Japanese
+KDS2 | .jpg | JPG Image of a scanned in diagram of the clock chip 
+KDS3 | .jpg | JPG Image of scanned in form with misc details
+SNS-QA0764-1B CLK(B)-DOL | .pdf | Document containing specifications for the clock generator by MegaChips/Macronix
+
+
+---
+#### Dvd (/gamecube/hardware/dvd)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dvd</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documents from Nintendo about how the DVD drive works at a hardware level including the low level details of the way a Gamecube game is stored on the DVD (**NROM_disc_physical_format.doc**).
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ANEMONE2 | .doc | Document containing a report of testing different gamecube drive speeds on 161 Japanese Gamecube Games
+Confirmation of Drive Spec-0.13_E_ | .pdf | Document from 4th July 2000 containing information on the drive Interface (DI) such as the pin layout and timings
+Drive Mechanical Specifications | .doc | Document containing details on the physical drive motor and lazer used to read the Discs
+NROM_disc_physical_format | .doc | Document from 2013 containing details about the security implemented into the Nintendo NROM Disc format used for Gamecube discs
+
+
+---
+#### Gekko (/gamecube/hardware/gekko)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/gekko</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains details on the PowerPC based RISC microprocessor developed specifically for the Gamecube. It contains 6.5 million transistors over the 42.7 sq mm die and a 256K L2 cache.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Gekko_DS_DD4.0_V1.0d20030320 | .pdf | 38 page document written by IBM containing the Datasheet for the Gekko CPU such as low level voltages
+Gekko_datasheet_supplement_dd4.0_v1.0.d020403 | .pdf | 4 page Document containing an addendum to the main datasheet containing the overshoot and undershoot voltage
+
+
+---
+#### Power (/gamecube/hardware/power)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/power</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains very low level details on the power hardware used in the original Gamecube hardware such as the A/C adapter and step down controllers.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ACadapter_spec | .txt | Text file containing specifications of the A?C adapters needed for each country
+DCDC_spec | .txt | Text file containing the specification of the DC/DC converter module
+LM2642 | .pdf | Document by National Semiconductor containing details on the LM2642 Two-Phase Synchronous Step-Down Switching Controller
+LM2644 May 2002 | .pdf | Document by National Semiconductor containing details on the LM2644 Two-Phase Synchronous Step-Down Switching Controller
+fig1 | .jpg | JPG Diagram of volatage over 150mS
+fig2 | .jpg | JPG Diagram showing 2.05A
+fig3 | .jpg | JPG Diagram showing 3.8A
+
+
+---
+#### Video (/gamecube/hardware/video)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/video</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+3in1_RICOH_v14 | .pdf | Document containing ?
+MX88L41-1.0 | .pdf | Document containing ?
+RGBcable | .jpg | JPG Image of ?
+RS5C583_011205_v11a | .pdf | Document containing ?
+ave_p_dol | .txt | Text file containing ?
+component | .jpg | JPG Image of a circuit diagram showing the pin connections and how they get mapped to Red/Green/Blue component cables
+
+---
+#### CPU Board (/gamecube/hardware/CPU_board)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/CPU_board</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains information for the CPU board known internally as the **C-DOL-CPU-30** such as the low level circuit diagrams. 
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+30-00 | .pdf | Document containing a huge circuit diagram showing all the pins on the CPU board for Gekko and Flipper
+PAL10-01 | .pdf | Document containing the PAL version of **30-00.pdf** would be interesting to document the changes between them but it would take a while
+c-dol-cpu-30/c-dol-cpu-30 | .001, .002, .003, .004, .005, .006, .007, .008, .009, .010, .011, .012, .013, .014, .015, .016, .apt, .lst | Use the lst file to see the contents of each of the 16 files, Gerber?
+
+
+---
+#### Disc Interface (DI) (/gamecube/hardware/DI)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DI</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **hw** - empty folder tree
+* **bfm** - Bus Functional Model Verilog Source Code
+* **doc** - Documentation for the Flipper I/O subsystem and stress testing of the DI
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+README | .txt | Text file containing a list of a few files that may be of interest to R&D3/BroadOn from ATI
+index | .html | HTML Document containing the index that just links to the documents **iodetail.doc** and the DI Drive Spec
+
+---
+##### Disc Interface Documentation (/gamecube/hardware/DI/doc)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/dv</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documentation related to the Disc Interface and how it connects to the main Flipper chip.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+dv/di0 | .xls | Spreadsheet containing a list of stress tests for the DI/MEI and whether they have been completed or not
+spec/iodetail | .doc | Document containing information on the Flipper I/O subsystem (Serial/EXI/DVD/Audio) by ArtX
+
+---
+##### Bus Functional Model (BFM) for BB2 (/gamecube/hardware/DI/bfm/BB2)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/BB2</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the Bus Functional Model source code for the Disc Interface written in Verilog.
+
+This folder also contains the following sub-directories:
+* **monitors** - verilog source code for the two monitors
+* **tools** - Testing tool C code for integrating with the verilog code
+* **sys** - the main verilog source code of the DI
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+README_BFM | N/A | Brief text document describing the two BFM variations known as ArtX and MEI
+monitors/monitor_di | .v | Verilog source file for the Disc interface
+monitors/monitor_vi_en | .v | Verilog source file for the Video interface
+
+
+---
+##### BFM DI Verilog (/gamecube/hardware/DI/bfm/BB2/sys/di)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/di</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the verilog source code for the Disc Interface along with a few C source files for interacting with it. All the source code in this folder was created by ArtX (ATI).
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+README | N/A | This contains a good amount of documentation about all the verilog source files contained in this folder
+README_BFM | N/A | Same file as the one in the root BFM directory
+README_BFM~ | N/A | Duplicate of README_BFM
+di_Dev | .tab | 
+di_dev | .c | 
+di_dvdcontrol | .v | 
+di_dvdmei | .v | 
+di_dvdpli | .v | 
+di_dvdstub | .v | 
+di_dvdtop | .v | 
+di_mem | .v | 
+didev | .h | Include file for declaring ?
+dimem | .init | Used to initialize the 64K memory
+randmem | .c | 
+
+
+<div class="rr-source-code-title">Code Files</div>
+  <section class="rr-main-cards">
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="di_dev.c" />
+  <h3>di_dev.c</h3>
+  <ul>
+    <li><span>u32</span> strbRatio</li> 
+    <li><span>u32</span> pktDelay</li> 
+    <li><span>u32</span> brstDelay</li> 
+    <li><span>u32</span> brkDelay</li> 
+    <li><span>u32</span> brkRespDelay</li> 
+    <li><span>u32</span> errDelay</li> 
+    <li><span>Dev</span> dev</li> 
+    <li><span>char </span> pStrs[]</li> 
+    <li><span>char </span> cmdStrs[]</li> 
+    <li><span>u32</span> pTypes[P_MAX+1]</li> 
+    <li><span>int clkPer,startPer</span> clkCnt</li> 
+    <li><span>char </span> dirStr[2]</li> 
+    <li><span>char </span> sigStr[bs_maxsig]</li> 
+    <li><span>u32</span> bsParms[bs_maxsig]</li> 
+    <li><span>u32</span> bsVals[2][MAX_BRKSTATE][bs_maxsig]</li> 
+    <li><span>DiMon</span> mon</li> 
+    <li><span>static FILE </span> hiOpen<span>(const char *path)</span></li> 
+    <li><span>int</span> check_didev<span>()</span></li> 
+    <li><span>static void</span> devGetCmd<span>(void)</span></li> 
+    <li><span>static void</span> devReset<span>(int reset)</span></li> 
+    <li><span>int</span> call_didev<span>()</span></li> 
+    <li><span>static void</span> setDelays<span>(void)</span></li> 
+    <li><span>static void</span> getDelays<span>(void)</span></li> 
+    <li><span>static void</span> getTimes<span>(void)</span></li> 
+    <li><span>static void</span> forceErr<span>(void)</span></li> 
+    <li><span>static u32</span> testErr<span>(void)</span></li> 
+    <li><span>static void</span> doDoor<span>(void)</span></li> 
+    <li><span>static void</span> doCover<span>(void)</span></li> 
+    <li><span>static void</span> doDevPos<span>(void)</span></li> 
+    <li><span>static void</span> doDevNeg<span>(void)</span></li> 
+    <li><span>static void</span> doHostNeg<span>()</span></li> 
+    <li><span>static void</span> dumpPkt<span>(void)</span></li> 
+    <li><span>static void</span> doCmd<span>(void)</span></li> 
+    <li><span>static void</span> doHostPos<span>(void)</span></li> 
+    <li><span>static void</span> doBrk<span>(void)</span></li> 
+    <li><span>static void</span> brkVerify<span>(void)</span></li> 
+    <li><span>static void</span> doMonitor<span>(void)</span></li> 
+    <li><span>static void</span> clrErr<span>(void)</span></li> 
+    <li><span>int</span> misc_didev<span>(int data,int reason,int paramvc)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">23</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">1307</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="didev.h" />
+  <h3>didev.h</h3>
+  <ul>
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">93</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="randmem.c" />
+  <h3>randmem.c</h3>
+  <ul>
+    <li><span>void</span> main<span>(int argc,char *argv[])</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">20</div>  </div>
+ </div>
+
+</section>
+
+---
+##### DI Verilog Programming Language Interface (PLI) (/gamecube/hardware/DI/bfm/BB2/tools/pli)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/pli</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the C source code for a testing tool created by ArtX called **TestPLI**, it interacts with the verilog source code using the PLI.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Makefile | N/A | Used to build the source code in the folder (run make)
+TestPLI | .c, .tab | The main C source file that loads vector streams
+jfile | .c, .tab | C Source file that implements a few file opening functions to get around the verilog 32 file descriptor limit
+
+
+<div class="rr-source-code-title">Code Files</div>
+  <section class="rr-main-cards">
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="TestPLI.c" />
+  <h3>TestPLI.c</h3>
+  <ul>
+    <li><span>int</span> numVecStreams</li> 
+    <li><span>char</span> InputLine[256]</li> 
+    <li><span>struct {
+   char key[MAXKEY];
+   FILE *vecfp;
+   int  more;
+   int  fields;
+   int  linenum;
+</span> VecStreams[MAXSTREAMS]</li> 
+    <li><span>int</span> InitVec<span>(int data,int reason)</span></li> 
+    <li><span>int</span> InitTaggedVec<span>(int data,int reason)</span></li> 
+    <li><span>int</span> GetVec<span>(int data,int reason)</span></li> 
+    <li><span>int</span> GetAnyTaggedVec<span>(int data,int reason)</span></li> 
+    <li><span>int</span> GetUntaggedVec<span>(int data,int reason)</span></li> 
+    <li><span>int</span> GetCLVal<span>(int data,int reason)</span></li> 
+    <li><span>void</span> GetCLStr<span>(int data,int reason)</span></li> 
+    <li><span>int</span> FileExist<span>(int data,int reason)</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">443</div>  </div>
+ </div>
+
+ <div class="rr-file-card">
+  <img class="geopattern" data-title="jfile.c" />
+  <h3>jfile.c</h3>
+  <ul>
+    <li><span>static FILE </span> hiOpen<span>(const char *path)</span></li> 
+    <li><span>int</span> check_jopen<span>()</span></li> 
+    <li><span>int</span> call_jopen<span>()</span></li> 
+    <li><span>int</span> check_jclose<span>()</span></li> 
+    <li><span>int</span> call_jclose<span>()</span></li> 
+    <li><span>int</span> check_jflush<span>()</span></li> 
+    <li><span>int</span> call_jflush<span>()</span></li> 
+    <li><span>int</span> check_jdisplay<span>()</span></li> 
+    <li><span>static void</span> prtStr<span>(FILE *fp,char *val,int digs,int ldZero)</span></li> 
+    <li><span>int</span> call_jdisplay<span>()</span></li> 
+  </ul>
+  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">361</div>  </div>
+ </div>
+
+</section>
+
+
+---
+#### Video Interface (/gamecube/hardware/VI)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/VI</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documentation related to the Video Interface of the Nintendo Gamecube.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+README | .txt | Text file containing recommendation to read some of the documents in this folder
+index | .html | HTML Document containing links to the documents on the vI Unit and Timing
+doc/dv/vi | .xls | Spreadsheet containing the design verification for the Video Interface
+doc/spec/vi | .doc | Document containing the main Video Interface specification  created by ArtX
+doc/spec/vi54mhz_timing | .doc | Document containing two diagrams for the VI Timing information in 54MHz mode
 
 ---
 # References
