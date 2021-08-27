@@ -23,35 +23,35 @@ updatedAt: '2021-08-27'
 ---
 
 # Introduction
-In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to Zammis Clark. Included in these files were documentation and source code for an unreleased console for the Chinese market with the codename **BB2** (BroadOn Board 2). 
+In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to **Zammis Clark**. Included in these files were documentation and source code for an unreleased console for the Chinese market with the codename **BB2** (BroadOn Board 2). 
 
 This is a sequel to the Nintendo 64 Based **iQue Player** that was released in China successfully although was later cracked and piracy flooded in.
 
 According to RGDWiki it was to be called the **iQue Box** and development stopped due to the focus switching to the upcoming Wii project [^1].
 
 There are no known photos of any prototypes developed but we do have a few diagrams and specifications:
-* width: 12"
-* depth: 8"
-* height: 2.5"
-* Material: UL94-V0 rated ABS plastic
-* DVD Drive: Front loading, located near the right side of the console
+* **width**: 12"
+* **depth**: 8"
+* **height**: 2.5"
+* **Material**: UL94-V0 rated ABS plastic
+* **DVD Drive**: Top loading, located on the top side of the console
 
-This post will cover the **bb2.7z** archive leaked in July 2021.
+This post will cover the **bb2.7z** archive leaked in **July 2021**.
 
 ## Common terms and Acronyms 
 The documentation and source code for the BB2 hardware uses a lot of acronyms, so the ones that we know will be listed below: 
-* AES - Advanced Encryption Standard
-* AIS - Audio Interface Streaming (Bus)
-* AVM - Audio Video Muxing (takes the audio and video from flipper and passes to ALi chip)
-* CG - Chip-Global Control
-* DC - Disc Crypto (Unit)
-* GI - Gamecube Disk Interface (Replaces the MEI with a standard DVD drive)
-* MC - Memory Crypto (Unit)
-* MEI - Matsushita Drive (Custom Gamecube DVD drive)
-* SK - Secure Kernel
+* **AES** - Advanced Encryption Standard
+* **AIS** - Audio Interface Streaming (Bus)
+* **AVM** - Audio Video Muxing (takes the audio and video from flipper and passes to ALi chip)
+* **CG** - Chip-Global Control
+* **DC** - Disc Crypto (Unit)
+* **GI** - Gamecube Disk Interface (Replaces the MEI with a standard DVD drive for BB2)
+* **MC** - Memory Crypto (Unit)
+* **MEI** - Matsushita Drive (Custom Gamecube DVD drive used in the original Gamecube hardware)
+* **SK** - Secure Kernel
 
 ---
-#  iQue Gamecube Documentation (bb2.7z/doc)
+# iQue Gamecube Documentation (bb2.7z/doc)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/doc</div>
   <div markdown="1" class="rr-post-markdown">
@@ -95,9 +95,9 @@ The company T-Square design (Also known as T2Design in the documentation) design
 The newer chips in the range were later named as the **335X** causing even more confusing, you will find documentation about all the different chips in this folder, but the main thing to remember is that they the resulting BB2 SOC contains features from all of them.
 
 Ali Family of  **Networked DVD Multimedia Processor** chips:
-* 6303/6304/6305/6306 - 2003 and earlier designed by T2-design
-* 3355/3357 - 2003 newer versions of 630X range
-* 3358 - The BB2 chip requested in 2004
+* **6303/6304/6305/6306** - from 2003 and earlier designed by T2-design
+* **3355/3357** - from later in 2003, newer versions of 630X range
+* **3358** - The BB2 chip requested in 2004
 
 The BB2 project initially choose to base the system on the **M3357** clocked as 200MHZ with MPEG 1,2,4 support, a PCI interface and hardware Variable Length Decoding (VLD).
 
@@ -442,10 +442,10 @@ This folder also contains the following sub-directories:
 * **dvd_loader** - Information about the requirements for the DVD drive
 * **pwr_supply** - Information for the Power supply required for the console
 * **mechanical** - Diagrams and information about how the outer case for the console looks
-  </div>
-</section>  
 
 The files in this folder are described in the table below:
+  </div>
+</section>  
 
 File Name | Extension | Description
 ---|---|---
