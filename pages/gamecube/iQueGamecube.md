@@ -19,6 +19,7 @@ recommend:
 - gamecube
 - sdk
 editlink: /gamecube/iQueGamecube.md
+updatedAt: '2021-08-27'
 ---
 
 # Introduction
@@ -573,11 +574,11 @@ It also has a guide for how to use the **Line Emulator** which is a development 
   <div markdown="1" class="rr-post-markdown">
  This folder contains the documentation provided in the **Official Gamecube Network SDK**, which was provided to all Gamecube developers and is not unique to the BB2 project. 
 
-It won't be covered here as we will have a separate post covering the full contents of the Gamecube Network SDK in depth.
-
 This folder contains the following sub-directories:
 * **h2h** - Head-to-Head Library
 * **avetcp** - AVE-TCP library
+
+It won't be covered here as we will have a separate post covering the full contents of the Gamecube Network SDK in depth.
   </div>
 </section>  
 
@@ -613,19 +614,21 @@ It won't be covered here as we will have a separate post covering the full conte
  This folder contains low level documentation by Nintendo and other hardware providers such as ArtX and IBM for each piece of hardware in the official Gamecube.
 
 This folder also contains the following sub-directories:
-* **power** - 
+* **power** - Low level information on the Power related hardware
 * **gekko** - Gekko CPU specifications
 * **video** - 
 * **VI** - Video Interface Specifications
 * **DI** - Disk Interface Specifications
 * **dvd** - DVD Interface Specifications
 * **AI** - Audio Interface Specifications
-* **CPU_board** - 
-* **clock** - 
+* **CPU_board** - Diagrams of the CPU Board
+* **clock** - Low level information about the clock generator
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
+
 
 File Name | Extension | Description
 ---|---|---
@@ -646,10 +649,11 @@ If you are interested in how the Gamecube Graphics works at a low level then the
 This folder also contains the following sub-directories:
 * **hw** - empty folder
 * **doc** - contains specifications for the Audio Interface
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -671,7 +675,7 @@ index | .html | HTML Document containing links to each of the files in the doc s
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/spec</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains low level documentation on the Audio Interface such as the DSP, DAC output and audio streaming capabilities of the Nintendo Gamecube.
 
   </div>
 </section>  
@@ -774,7 +778,7 @@ fig3 | .jpg | JPG Diagram showing 3.8A
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/video</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains video specific hardware such as RGB and component cable diagrams.
 
   </div>
 </section>  
@@ -819,10 +823,12 @@ This folder also contains the following sub-directories:
 * **hw** - empty folder tree
 * **bfm** - Bus Functional Model Verilog Source Code
 * **doc** - Documentation for the Flipper I/O subsystem and stress testing of the DI
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
+
 
 File Name | Extension | Description
 ---|---|---
@@ -857,10 +863,10 @@ This folder also contains the following sub-directories:
 * **monitors** - verilog source code for the two monitors
 * **tools** - Testing tool C code for integrating with the verilog code
 * **sys** - the main verilog source code of the DI
-  </div>
-</section>  
 
 The files in this folder are described in the table below:
+  </div>
+</section>  
 
 File Name | Extension | Description
 ---|---|---
@@ -946,14 +952,6 @@ randmem | .c |
     <li><span>int</span> misc_didev<span>(int data,int reason,int paramvc)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">23</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">1307</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="didev.h" />
-  <h3>didev.h</h3>
-  <ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">93</div>  </div>
  </div>
 
  <div class="rr-file-card">
