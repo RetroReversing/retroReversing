@@ -51,7 +51,7 @@ The documentation and source code for the BB2 hardware uses a lot of acronyms, s
 * **SK** - Secure Kernel
 
 ---
-# iQue Gamecube Documentation (bb2.7z/doc)
+#  iQue Gamecube Documentation (bb2.7z/doc)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/doc</div>
   <div markdown="1" class="rr-post-markdown">
@@ -455,7 +455,7 @@ BB2 ME & ID Requirements | .doc | Document containing the Mechanical Engineering
 BB2 System Diagram | .vsd | Microsoft Visio file containing all the main units such and how they connect to each other on the board
 DVD Loader Requirements for BB | .doc | Duplicate to the file in the sub directory dvd_loader
 
-The **BB2 ME & ID Requirements | .doc** is the most interesting file in this folder as it lists the dimensions of the console along with a few details such as the plastic (UL94-V0 ABS) it will be made out of and where the DVD-drive will be (right hand side, front loading)
+The **BB2 ME & ID Requirements.doc** is the most interesting file in this folder as it lists the dimensions of the console along with a few details such as the plastic (UL94-V0 ABS) it will be made out of and where the DVD-drive will be (right hand side, front loading)
 
 ---
 ### Dvd Loader (/system_hw/dvd_loader)
