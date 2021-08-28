@@ -34,8 +34,7 @@ So it consisted of a few main parts:
 * Connection to twitch IRC chat (Python)
 * Sending the button presses to the emulator (Python)
 * Receiving emulator state from the Javascript frontend overlay to display stats
-* Streaming the overlay plus the emulator window to twitch (possibly used OBS?)
-
+* Streaming the overlay plus the emulator window to twitch (OBS and Chrome [^3])
 
 In the original implementation it used the glob al keyboard event in the python win32 API like so:
 ```python
@@ -44,6 +43,8 @@ win32api.keybd_event(keymap[button], 0, 0, 0)
 The downside of this is the window needs to be in focus to get the event, otherwise if the focus is changed it will start sending the input to other windows running in the OS, not ideal from a security standpoint.
 
 This was later changed to directly interface with a Lua script running in the emulator that connects via HTTP, so the button presses go directly to the emulator and this also has a few advantages such as frame perfect timing.
+
+According to the AMA (Ask Me Anything) thread on reddit with the creator it requires two servers, one to compress the video and the other to do everything else such as play the game and display the overlay. It would be interesting to find out what the video compression server is doing that couldn't be done with standard OBS on the same server.
 
 ---
 # Python Brazil Keynote (Hacking a Gameboy with Python)
