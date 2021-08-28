@@ -43,7 +43,7 @@ The contents of the **Datasheet.7z** archive are documented in a separate post t
 
 {% include link-to-other-post.html post="/switch-game-card-data-sheets" description="For more information on the low level hardware information about the Nintendo Switch, including Lotus3 Game Cards reader and the Game Cards themselves check out this post." %}
 
-Honestly the Datasheet.7z probably won't be of interest to many people at all unless you really like looking at hardware data sheets about physical storage. It will also not be particularly useful for homebrew or emulation purposes either.
+Honestly the **Datasheet.7z** probably won't be of interest to most people, unless you really like looking at hardware data sheets about physical storage. It will also not be particularly useful for homebrew or emulation purposes either.
 
 ---
 # Chinese Gamecube (BroadOn Board 2/iQue) (bb2.7z)
@@ -58,7 +58,7 @@ The contents of the **BB2.7z** archive are documented in a separate post which y
 ---
 # Pokemon Gen 4 Era Prototypes  (gen4_era_protos.7z)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage"></div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/gen4_era_protos</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains Nintendo DS Rom files for Pokemon Diamond and Perl in the almost retail stage of development from 2006.
 
@@ -100,11 +100,12 @@ Unless you are a big fan of Diamond/Perl the slight modifications of each protot
 # iQue Player Common Tickets
 The Chinese iQue Player was a plug-and-play Nintendo 64 console with an online shop for purchasing N64 games. Each of these games were signed with a ticket so that only the purchaser can install the game on their console.
 
-However the file ***ique_player_common_tickets.7z** which was leaked on 20th July 2021 contains all the tickets for each of these purchases.
+However the file **ique_player_common_tickets.7z** which was leaked on 20th July 2021 contains all the tickets for each of these purchases.
 
 There are two files for each game a Ticket (.tik) and a MetaData file (.tikmd), each game has its own TitleId. 
 
 So the files in this archive are the titleID followed by either of those extensions depending on the file type:
+
 
 File Name | Extension | Description
 ---|---|---
@@ -155,15 +156,15 @@ File Name | Extension | Description
 
 One interesting thing about iQue Title ID's is that the last 2 digits are the version of the game, so if the game has been patched multiple times it could theoretically go up to 99.
 
-**iQueBrew** has a list of titles and each has a field called "Has Ticket". The tickets that are in this leak and marked as No in that table are as follows: 2101902, 2102902, 2106101, 4101104, 4101902, 5201902, 5202902, 6101902
+**iQueBrew** has a list of titles and each has a field called "Has Ticket". The tickets that are in this leak and marked as No in that table are as follows: 2101902, 2102902, 2106101, 4101104, 4101902, 5201902, 5202902, 6101902.
 
-[Titles - iQueBrew](http://www.iquebrew.org/index.php?title=Titles)
+For the list on iQueBrew check out their page: [Titles - iQueBrew](http://www.iquebrew.org/index.php?title=Titles)
 
 ---
 # Pokemon Emerald Localisation Emails
 
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage"></div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">pmEME_US20050207</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains localisation documentation from around the time when Emerald was released in Japan but was undergoing changes for the Overseas markets.
 
@@ -236,9 +237,12 @@ xy_debug.cia | Debug version of the xy.cia file
 For more information on the Pokemon X/Y Distribution Tool : [Distribution devices - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Distribution_devices)
 
 ---
-# DIAG4RVL
+# Wii/GC Diagnostic Tool (DIAG4RVL.ZIP)
 The archive **DIAG4RVL.ZIP** contains the source code for the Internal Wii Diagnostic Tool known as **DIAG**. There is also gamecube diagnostics in the tool as it was initially created during the Gamecube development process and the Wii is based on its hardware.
 
 The contents of the **DIAG4RVL.ZIP** archive are documented in a separate post which you can find a link to below.
 
 {% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak/" description="For more information about the DIAG tool source code check out this post." %}
+
+Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
+{% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
