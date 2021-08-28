@@ -16,9 +16,10 @@ breadcrumbs:
   - name: Create Twitch Plays Pokemon Emulator Script
     url: #
 recommend: gameboy
+editlink: /gameboy/twitchplaysemulatorscripting.md
 ---
 
-The main content is in english ignore the introduction speech which is in a foreign language.
+The video starts of with introducing the speaker in Portuguese as the conference was hosted in Brazil, however if you don't understand Portuguese then don't worry the main content of the presentation is in English.
 
 This contains:
 
