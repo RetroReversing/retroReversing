@@ -86,7 +86,15 @@ function read_file(name)
         io.input(input)
         content = io.read()
         io.close(input)
+        return content
     end
+    return nil
+end
+
+function press_button(button)
+    local input_table = {}
+    input_table[button] = true
+    joypad.set(1, input_table)
 end
 
 while true do
@@ -104,7 +112,9 @@ while true do
 end
 ```
 
-The source code for everything covered in the Keynote is available on Github:
+With this script you can manually create a **button.txt** file with one button press per line or even better you can write a script that generates button.txt based on some external event such as a Twitch chat.
+
+The source code for a similar project covered in the Keynote is available on Github:
 [sagnew/Twilio-IP-Messaging-Plays-Pokemon: A clone of the 2013 phenomenon "Twitch Plays Pokemon" using Twilio's new IP Messaging API.](https://github.com/sagnew/Twilio-IP-Messaging-Plays-Pokemon)
 
 ---
