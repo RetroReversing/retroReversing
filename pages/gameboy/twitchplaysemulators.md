@@ -92,7 +92,7 @@ end
 while true do
     if file_exists('button.txt') then
         button = read_file('button.txt')
-        os.remove(button)
+        os.remove('button.txt')
         emu.message('Pressing button:')
         
         for i=0, 5 do
