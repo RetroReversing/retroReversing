@@ -24,6 +24,7 @@ Have you ever seen **Twitch Plays Pokemon** (TPP) and wondered how it actually w
 If you have never seen TPP check it out live on twitch:
 [TwitchPlaysPokemon - Twitch](https://www.twitch.tv/twitchplayspokemon)
 
+---
 # Python Brazil Keynote (Hacking a Gameboy with Python)
 Sam Agnew who works at Twilio gave a keynote at the Python Brasil conference in 2012 discussing how to create a similar experience to TPP using Python!
 
@@ -34,4 +35,21 @@ This contains:
   * How to use phone numbers to control REST requests
   * How to hook into Visual Boy Advance
 
+---
+# How did the Pokemon games on Nintendo 3DS work?
+Back in 2014 TwitchPlaysPokemon was completing game after game and soon the next in line would be a 3DS Pokemon game, but without good 3DS emulation back then how exactly would TPP continue?
 
+The answer is custom hardware created by a hacker called **dekuNukem** who modified a retail 3DS console, added a capture card and streamed the 3DS game directly to twitch for the next year! 
+
+This hardware was named **3xtDS** and allows full control over all the buttons and even the touch screen over a standard USB interface.
+
+This means that any code running on the host PC can control the 3DS and see the result via the capture card, so no custom code needs to be written for the 3DS CPU itself, so the 3DS does not need to be jailbroken.
+
+You can see the hardware in action in the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9PZrJH7Z8KE" title="3xtDS: A 3DS Streaming Console with External Control Interface" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In the video you can see that text commands can be sent directly to the device to control the game using the USB interface, very impressive!
+
+--
+# References
+[^1]: [Im dekuNukem aka twitch_plays_3ds, Ask Me Anything - twitchplayspokemon](https://www.reddit.com/r/twitchplayspokemon/comments/75wzlj/im_dekunukem_aka_twitch_plays_3ds_ask_me_anything/)
