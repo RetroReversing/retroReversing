@@ -7,7 +7,8 @@ tags:
 title: How does Twitch Play Emulators?
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "qQrQcyDZydY?time_continue=41"
-image: https://img.youtube.com/vi/qQrQcyDZydY/maxresdefault.jpg
+image: /public/images/howitworks/How does twitch play pokemon.jpg
+twitterimage: https://www.retroreversing.com/public/images/howitworks/How does twitch play pokemon.jpg
 permalink: /twitchpokemonhack
 breadcrumbs:
   - name: Home
