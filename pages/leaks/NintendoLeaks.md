@@ -114,18 +114,20 @@ After more than half a year without any Nintendo leaks, on 20th July 2021 even m
 Files Leaked:
 * **datasheet.7z** - Low level hardware information for Switch Game cards and Gamecube memory cards
 * **DIAG4RVL.7z** - just contains DIAG4RVL.zip
-* **DIAG4RVL.zip** - Cobtaibs the source code to the Wii/Gamecube Hardware diagnostics DVD
+* **DIAG4RVL.zip** -Contains the source code for A Wii/Gamecube Diagnostic tool know as DIAG4
 * **pmEME_US20050207.7z** - Pokemon Emerald Localisation from Japanese to Other languages information
 * **ique_player_common_tickets.7z** - Collection of 86 tik and tikmd files for the iQue player (N64 version)
 * **haishin_20130912.zip** - Pokemon X/Y Distribution event Software
-* **bb2.7z** - 
-* **gen4_era_protos.7z** - 
-* **teru-sama_mail_2006.7z** - 
-
+* **bb2.7z** - Information and Verilog source code for the BroadOn Board 2 a planned Chinese version of the gamecube
+* **gen4_era_protos.7z** - Diamond and perl prototype roms and the source code
+* **teru-sama_mail_2006.7z** - A dump of the personal email inbox of **Murakawa Tsushin**
 
 The main files inside **DIAG4RVL.zip** was the source code to a DVD that is used to test all the hardware components of the Gamecube/Wii's hardware. This was used throughout the develpment of the console and also for fixing retail units.
 {% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak/" description="For more information on the contents of the DIAG4RVL archive check out this post." %}
 
-
 Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
 {% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
+
+For more information on the rest of the files leaked on the 20th July 2021 check out our post:
+{% include link-to-other-post.html post="/nintendo-2021-leak" description="For more information July 2021 leak check out this post." %}
+
