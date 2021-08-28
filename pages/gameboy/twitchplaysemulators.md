@@ -20,6 +20,7 @@ recommend:
 - howitworks
 - gameboy
 editlink: /gameboy/twitchplaysemulators.md
+updatedAt: '2017-12-28'
 ---
 
 Have you ever seen **Twitch Plays Pokemon** (TPP) and wondered how it actually works? How does typing comments in a twitch stream result in the player moving in the original Pokemon Games, how is the screen directly streaming to twitch 24/7? In this post we aim to provide a few answers to these questions and more.
