@@ -21,6 +21,7 @@ redirect_from:
 ---
 
 # Hardware
+The Nintendo Gamecube has fairly sophisticated hardware for the time, this was when Nintendo was still trying to compete with raw processing power. The hardware would then be used as a basis of both the Wii and Wii U consoles in the future.
 
 ## Retail Hardware
 Rodrigo Copetti has an excellent in-depth article about the hardware architecture of the Nintendo Gamecube, it is a must read for anyone wanting to reverse engineer Gamecube games as you will need to know all about the low level architecture.
@@ -29,6 +30,11 @@ Rodrigo Copetti has an excellent in-depth article about the hardware architectur
 
 ## Development Hardware
 {% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
+
+## Unreleased Hardware
+In China there were plans to release a version of the Gamecube with DVD playback functionality and additional security. This was to be a sequal to the iQue Player which was a Chinese only Nintendo 64 plug and play device. However half way through development the resources were moved to work on the Nintendo Wii instead.
+{% include link-to-other-post.html post="/ique-gamecube/" description="For information about iQue/BroadOn's prototype Chinese Gamecube hardware check out this post." %}
+
 
 ---
 # Gamecube Games
