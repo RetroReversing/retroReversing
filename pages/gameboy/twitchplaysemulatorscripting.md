@@ -19,10 +19,17 @@ recommend: gameboy
 editlink: /gameboy/twitchplaysemulatorscripting.md
 ---
 
+Have you ever seen **Twitch Plays Pokemon** (TPP) and wondered how it actually works? How does typing comments in a twitch stream result in the player moving in the original Pokemon Games, how is the screen directly streaming to twitch 24/7? In this post we aim to provide a few answers to these questions and more.
+
+If you have never seen TPP check it out live on twitch:
+[TwitchPlaysPokemon - Twitch](https://www.twitch.tv/twitchplayspokemon)
+
+# Python Brazil Keynote (Hacking a Gameboy with Python)
+Sam Agnew who works at Twilio gave a keynote at the Python Brasil conference in 2012 discussing how to create a similar experience to TPP using Python!
+
 The video starts of with introducing the speaker in Portuguese as the conference was hosted in Brazil, however if you don't understand Portuguese then don't worry the main content of the presentation is in English.
 
 This contains:
-
   * How to script an emulator so that it accepts REST requests for player input 
   * How to use phone numbers to control REST requests
   * How to hook into Visual Boy Advance
