@@ -466,7 +466,17 @@ If anyone has the files that were distributed with the Psy-Q SNES SDK then let u
 Some games such as **Bubsy 2** may have been written in C, especially by Accolade according to Russell Borogove on twitter [^1].
 
 ---
+# Other Sound Drivers for the SNES
+The **N-SPC/Kankichi** Sound driver that came with the official SDK and has been documented above was far from the only sound driver used on the SNES. In fact there are over 122 unique sound drivers that we know about, and all of them have been documented in detail on the GDRI Wiki. 
+
+If you have any interest in SNES Sound development this is not only a must read but also a site you should bookmark as you will keep coming back to it. 
+
+{% include link-to-other-site.html url="http://gdri.smspower.org/wiki/index.php/Super_Famicom/Super_NES_Sound_Driver_List" description="Check out all the 122 unique sound drivers for the Super Famicom" image="/public/consoles/Super Nintendo Entertainment System.png" title="Super NES Sound Driver List"  %}
+
+
+---
 # References
 [^1]: [Russell Borogove on Twitter](https://twitter.com/mister_borogove/status/1122915184014585857)
 [^2]: [Kankichi-kun - Video Game Music Preservation Foundation Wiki](http://vgmpf.com/Wiki/index.php?title=Kankichi-kun)
 [^3]: [Nintendo Music Format (N-SPC) - Super Famicom Development Wiki](https://wiki.superfamicom.org/nintendo-music-format-(n-spc))
+[^4]: [Super NES Sound Driver List](http://gdri.smspower.org/wiki/index.php/Super_Famicom/Super_NES_Sound_Driver_List)
