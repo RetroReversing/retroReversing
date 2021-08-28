@@ -3,7 +3,7 @@ layout: post
 tags: 
 - gameboy
 - emulatorscripting
-title: Create Twitch Plays Pokemon Emulator Script
+title: How does Twitch Play Emulators?
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "qQrQcyDZydY?time_continue=41"
 image: https://img.youtube.com/vi/qQrQcyDZydY/maxresdefault.jpg
@@ -11,12 +11,14 @@ permalink: /twitchpokemonhack
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo Gameboy
-    url: /gameboy
-  - name: Create Twitch Plays Pokemon Emulator Script
+  - name: How it Works
+    url: /howitworks
+  - name: How does Twitch Play Emulators?
     url: #
-recommend: gameboy
-editlink: /gameboy/twitchplaysemulatorscripting.md
+recommend: 
+- howitworks
+- gameboy
+editlink: /gameboy/twitchplaysemulators.md
 ---
 
 Have you ever seen **Twitch Plays Pokemon** (TPP) and wondered how it actually works? How does typing comments in a twitch stream result in the player moving in the original Pokemon Games, how is the screen directly streaming to twitch 24/7? In this post we aim to provide a few answers to these questions and more.
@@ -46,14 +48,22 @@ This was later changed to directly interface with a Lua script running in the em
 
 According to the AMA (Ask Me Anything) thread on reddit with the creator it requires two servers, one to compress the video and the other to do everything else such as play the game and display the overlay. It would be interesting to find out what the video compression server is doing that couldn't be done with standard OBS on the same server.
 
+## Emulators used
+Twitch plays pokemon has supported multiple Nintendo console emulators such as: 
+* Gameboy/GBC/GBA - VBA-RR v24
+* Nintendo DS - DesMUmE
+* Gamecube/Wii - Dolphin
+* Nintendo 64 - ? (possibly Mupen64 or Project64)
+
 ---
 # Python Brazil Keynote (Hacking a Gameboy with Python)
-Sam Agnew who works at Twilio gave a keynote at the Python Brasil conference in 2012 discussing how to create a similar experience to TPP using Python!
+Sam Agnew who works at Twilio gave a keynote at the 12th Python Brasil conference in 2017 discussing how to create a similar experience to TPP using Python!
 
 The video starts of with introducing the speaker in Portuguese as the conference was hosted in Brazil, however if you don't understand Portuguese then don't worry the main content of the presentation is in English.
 
 This contains:
-  * How to script an emulator so that it accepts REST requests for player input 
+  * Brief introduction to what TPP is
+  * How to script an emulator with Lua so that it accepts REST requests for player input 
   * How to use phone numbers to control REST requests
   * How to hook into Visual Boy Advance
 
