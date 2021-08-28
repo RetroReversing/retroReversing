@@ -33,7 +33,7 @@ It was mainly implemented in python but a overlay was also developed with Javasc
 So it consisted of a few main parts:
 * Connection to twitch IRC chat (Python)
 * Sending the button presses to the emulator (Python)
-* Receiving emulator state from the Javascript frontend overlay to display stats
+* Receiving emulator state from lua to the Javascript frontend overlay to display stats such as Pokemon health
 * Streaming the overlay plus the emulator window to twitch (OBS and Chrome [^3])
 
 In the original implementation it used the glob al keyboard event in the python win32 API like so:
