@@ -22,7 +22,10 @@ editlink: /leaks/HidemaruMailLeak.md
 # Introduction
 In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to **Zammis Clark**. Included in these files were the Corporate Emails inbox of an employee called **Murakawa Tsushin**. 
 
+# Who is Murakawa?
 Murakawa was in charge of localisation from Japanese to Korean/English and lots of European languages. This is probably why Zammis Clark targeted him as he is a huge Pokemon fan and couldn't wait for the English release of the games.
+
+He worked in the Planning and Development Department for Nintendo of Japan.
 
 ## What is Hidemaru Mail?
 **HidemaruMail** is a Japanese application for managing email similar to the function of Microsoft Outlook. It just so happens a Nintendo employee used this software in 2006 and his email archive was downloaded by Zammis Clark and later released online for all to see.
@@ -36,6 +39,7 @@ Murakawa was in charge of localisation from Japanese to Korean/English and lots 
  * **mail.nintendo.co.jp** - all emails that were sent to this user
  * **TempMail 0** - empty folder
 
+Files in this folder are described in the table below.
   </div>
 </section>  
 
@@ -49,22 +53,23 @@ The Address Book backup files are pretty much identical if you compare them so i
 ---
 ## Mail.nintendo.co.jp (/mail.nintendo.co.jp)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">mail.nintendo.co.jp</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains the following sub folders:
-* Remote - Empty folder
-* User - Empty folder
-* ゴミ箱 - Trash Can
-* 受信 - Inbox
-* 受信HTML - HTML inbox
-* 受信ログ - Inbox Log
-* 受信添付 - Attachments received
-* 未送信 - Unsent (Empty)
-* 草稿 - Draft (Empty)
-* 送信ログ - Transmission log
-* 送信添付 - Attachments sent
-* 送信済み - Sent box
+* **Remote** - Empty folder
+* **User** - Empty folder
+* **ゴミ箱** - Trash Can
+* **受信** - Inbox
+* **受信HTML** - HTML inbox
+* **受信ログ** - Inbox Log
+* **受信添付** - Attachments received
+* **未送信** - Unsent (Empty)
+* **草稿** - Draft (Empty)
+* **送信ログ** - Transmission log
+* **送信添付** - Attachments sent
+* **送信済み** - Sent box
 
+Files in this folder are described in the table below.
   </div>
 </section>  
 
@@ -81,7 +86,7 @@ The only file that might be mildly interesting is **filter.txt** as if you are l
 ---
 #### Murakawa communication (/mail.nintendo.co.jp/User/村川通信)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/User/村川通信</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">User/村川通信</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains all the conversations with Murakawa Tsushin. He seems to send out some sort of newsletter with random, sometime games related content.
 
@@ -108,14 +113,14 @@ File Name | Extension | Description
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/User/過去ログ/雑談</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains general chat about video games and the industry, mildly interesting but don't go out of your way to read it.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-雑談200506 | .txt | Talking about Scape Channel 5, Jet Set Radio Future, C programming question and more
+雑談200506 | .txt | Talking about Space Channel 5, Jet Set Radio Future, C programming question and more
 雑談200509 | .txt | Talking about Xavix using images of Jackie Chan to promote their wii Fit like product
 雑談200510 | .txt | Talking about gambling machines?
 雑談200601 | .txt | Talk about a GPS based-game for  DS, suggests Pokemon Go like functionality (10 years before that was a thing)
@@ -123,8 +128,6 @@ File Name | Extension | Description
 雑談200603 | .txt | Organising a drinking party
 雑談200605 | .txt | Talk about the new Sony VAIO mobile phone
 雑談200609 | .txt | Talk about aquariums and PS3 launch
-
-"I'm Murakawa from the Planning and Development Department 5PG." Teruki Murakawa 
 
 ￼
 
@@ -134,7 +137,6 @@ File Name | Extension | Description
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/ゴミ箱</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains deleted emails, you probably could have guessed that, nothing of value is in here.
-
   </div>
 </section>  
 
@@ -170,6 +172,7 @@ File Name | Extension | Description
 * 会議のスケジュール
 * 部内技術サポート
 
+The files in the root of this directory are described in the table below.
   </div>
 </section>  
 
@@ -301,9 +304,6 @@ NOK関連200609 | .txt |
 NOK関連200610 | .txt | 
 NOK関連200611 | .txt | 
 NOK関連200612 | .txt | 
-list | .bin | 
-prop | .bin | 
-subdir | .bin | 
 
 
 ---
@@ -322,8 +322,6 @@ NOK ML200609 | .txt |
 NOK ML200610 | .txt | 
 NOK ML200611 | .txt | 
 NOK ML200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -338,8 +336,6 @@ prop | .bin |
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
-prop | .bin | 
 えいご漬け韓国語版 ML200610 | .txt | 
 えいご漬け韓国語版 ML200611 | .txt | 
 えいご漬け韓国語版 ML200612 | .txt | 
@@ -368,7 +364,7 @@ File Name | Extension | Description
 ---
 #### Pokemon emerald for euro (/mail.nintendo.co.jp/受信/Pokemon emerald for Euro)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Pokemon emerald for Euro</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">Pokemon emerald for Euro</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -381,14 +377,12 @@ Pokemon emerald for Euro200505 | .txt |
 Pokemon emerald for Euro200506 | .txt | 
 Pokemon emerald for Euro200507 | .txt | 
 Pokemon emerald for Euro200512 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
 #### Wii (/mail.nintendo.co.jp/受信/Revolution)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">Revolution</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -425,7 +419,7 @@ E3200605 | .txt |
 ---
 ##### Opera browser Mailing List (/mail.nintendo.co.jp/受信/Revolution/Opera browser ML)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/Opera browser ML</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">Opera browser ML</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -445,7 +439,7 @@ Opera browser ML200612 | .txt |
 ---
 ##### Wii homemenu by Intelligent systems (/mail.nintendo.co.jp/受信/Revolution/REVO_HomeMenuintsyscojp)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/REVO_HomeMenuintsyscojp</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">REVO_HomeMenuintsyscojp</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -478,8 +472,6 @@ RVLネットワーク関連200607 | .txt |
 RVLネットワーク関連200608 | .txt | 
 RVLネットワーク関連200609 | .txt | 
 RVLネットワーク関連200610 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -496,12 +488,10 @@ File Name | Extension | Description
 ---|---|---
 Wii Preview関連200608 | .txt | 
 Wii Preview関連200609 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
-##### Wii lotcheck ml (/mail.nintendo.co.jp/受信/Revolution/Wii lotcheck ML)
+##### Wii Lot Check Mailing List (/mail.nintendo.co.jp/受信/Revolution/Wii lotcheck ML)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/Wii lotcheck ML</div>
   <div markdown="1" class="rr-post-markdown">
@@ -524,7 +514,7 @@ prop | .bin |
 ---
 ##### Wiiツール輸出規制 ml (/mail.nintendo.co.jp/受信/Revolution/Wiiツール輸出規制 ML)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/Wiiツール輸出規制 ML</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">Wiiツール輸出規制 ML</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -536,14 +526,12 @@ File Name | Extension | Description
 Wiiツール輸出規制 ML200606 | .txt | 
 Wiiツール輸出規制 ML200607 | .txt | 
 Wiiツール輸出規制 ML200608 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
 ##### Ml-revo-info (/mail.nintendo.co.jp/受信/Revolution/ml-revo-info)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/ml-revo-info</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">ml-revo-info</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -564,14 +552,12 @@ NNGC ML200605 | .txt |
 NNGC ML200606 | .txt | 
 NNGC ML200608 | .txt | 
 NNGC ML200610 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
 ##### Wii-shared1 ml (/mail.nintendo.co.jp/受信/Revolution/wii-shared1 ML)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/wii-shared1 ML</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">wii-shared1 ML</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -580,8 +566,6 @@ prop | .bin |
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
-prop | .bin | 
 wii-shared1 ML200609 | .txt | 
 wii-shared1 ML200610 | .txt | 
 wii-shared1 ML200611 | .txt | 
@@ -591,7 +575,7 @@ wii-shared1 ML200612 | .txt |
 ---
 ##### ゲームリモコン (/mail.nintendo.co.jp/受信/Revolution/ゲームリモコン)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/ゲームリモコン</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">ゲームリモコン</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -618,18 +602,15 @@ File Name | Extension | Description
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
 miw_sup ML200511 | .txt | 
 miw_sup ML200601 | .txt | 
 miw_sup ML200602 | .txt | 
 miw_sup ML200604 | .txt | 
-prop | .bin | 
-
 
 ---
 ###### Ml-rvlcon (/mail.nintendo.co.jp/受信/Revolution/ゲームリモコン/ml-rvlcon)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/ゲームリモコン/ml-rvlcon</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">ml-rvlcon</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -674,8 +655,6 @@ SORA_SUP200606 | .txt |
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
-prop | .bin | 
 ソラ ML200511 | .txt | 
 ソラ ML200512 | .txt | 
 ソラ ML200601 | .txt | 
@@ -704,9 +683,6 @@ prop | .bin |
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
-prop | .bin | 
-subdir | .bin | 
 バーチャルコンソール200602 | .txt | 
 バーチャルコンソール200603 | .txt | 
 バーチャルコンソール200604 | .txt | 
@@ -722,7 +698,7 @@ subdir | .bin |
 
 
 ---
-###### Is virtualconsole ml (/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole ML)
+###### Intelligent Systems Virtual Console Mailing List (/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole ML)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole ML</div>
   <div markdown="1" class="rr-post-markdown">
@@ -745,12 +721,9 @@ IS VirtualConsole ML200610 | .txt |
 IS VirtualConsole ML200611 | .txt | 
 IS VirtualConsole ML200611_01 | .txt | 
 IS VirtualConsole ML200612 | .txt | 
-list | .bin | 
-prop | .bin | 
-
 
 ---
-###### Is virtualconsole_debug ml (/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole_Debug ML)
+###### Intelligent Systems Virtual Console Debug Mailing List(/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole_Debug ML)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/バーチャルコンソール/IS VirtualConsole_Debug ML</div>
   <div markdown="1" class="rr-post-markdown">
@@ -767,8 +740,6 @@ IS VirtualConsole_Debug ML200609 | .txt |
 IS VirtualConsole_Debug ML200610 | .txt | 
 IS VirtualConsole_Debug ML200611 | .txt | 
 IS VirtualConsole_Debug ML200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -784,8 +755,6 @@ prop | .bin |
 File Name | Extension | Description
 ---|---|---
 IS VirtualConsole_Debug(NOA) ML200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -800,8 +769,6 @@ prop | .bin |
 
 File Name | Extension | Description
 ---|---|---
-list | .bin | 
-prop | .bin | 
 似顔絵 ML200606 | .txt | 
 似顔絵 ML200607 | .txt | 
 似顔絵 ML200608 | .txt | 
@@ -842,8 +809,6 @@ SPD ALL200609 | .txt |
 SPD ALL200610 | .txt | 
 SPD ALL200611 | .txt | 
 SPD ALL200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -877,8 +842,6 @@ SPD GM200609 | .txt |
 SPD GM200610 | .txt | 
 SPD GM200611 | .txt | 
 SPD GM200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -912,8 +875,6 @@ SPD TI200609 | .txt |
 SPD TI200610 | .txt | 
 SPD TI200611 | .txt | 
 SPD TI200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -1249,7 +1210,7 @@ File Name | Extension | Description
 ---
 #### Meeting schedule (/mail.nintendo.co.jp/受信/会議のスケジュール)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/会議のスケジュール</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">会議のスケジュール</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -1268,7 +1229,7 @@ File Name | Extension | Description
 ---
 #### Internal technical support (/mail.nintendo.co.jp/受信/部内技術サポート)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/部内技術サポート</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">部内技術サポート</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -1302,7 +1263,7 @@ File Name | Extension | Description
 ---
 ### HTML Inbox (/mail.nintendo.co.jp/受信HTML)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信HTML</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">受信HTML</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -1315,10 +1276,9 @@ Email that are just notices of a sent file or a boring trivial message are not i
 
 File Name | Extension | Description
 ---|---|---
-050519_01 | just talk about sending a report
+050519_01 | Just talk about sending a report
 050523_00 | Notice of Upload of Pokemon Emerald ROM for EURO translation (debug-2005-05-23-A-EURO.exe)
 050524_06 | Mario Club bug log?
-
 050527_00 | 
 050530_00 | 
 050530_01 | 
@@ -1330,7 +1290,6 @@ File Name | Extension | Description
 050530_08 | 
 050531_00 | Talk about changes in French and italian locale (using a period after EXP)
 050531_06 | email address of Game Freak employees
-
 050601_00 | 
 050601_01 | 
 050601_02 | 
@@ -1579,7 +1538,7 @@ File Name | Extension | Description
 ---
 ### Received Log (/mail.nintendo.co.jp/受信ログ)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信ログ</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">受信ログ</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -1668,7 +1627,7 @@ File Name | Extension | Description
 ---
 ### Received Attachments (/mail.nintendo.co.jp/受信添付)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信添付</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">受信添付</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -4014,7 +3973,7 @@ Zelda no Densetsu.sram |
 ---
 ### Transmission log (/mail.nintendo.co.jp/送信ログ)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/送信ログ</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">送信ログ</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -4044,7 +4003,7 @@ File Name | Extension | Description
 ---
 ### Sent Attachments (/mail.nintendo.co.jp/送信添付)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/送信添付</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">送信添付</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -4465,7 +4424,7 @@ Workload.zip |
 ---
 ### Sent Box (/mail.nintendo.co.jp/送信済み)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/送信済み</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">送信済み</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
