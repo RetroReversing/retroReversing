@@ -25,6 +25,27 @@ If you have never seen TPP check it out live on twitch:
 [TwitchPlaysPokemon - Twitch](https://www.twitch.tv/twitchplayspokemon)
 
 ---
+# Original Implementation
+The original implementation of Twitch Plays Pokemon was developed in and was closed source (probably due to security concerns of having a twitch chat control your computer..). 
+
+It was mainly implemented in python but a overlay was also developed with Javascript and the React Framework [^3].
+
+So it consisted of a few main parts:
+* Connection to twitch IRC chat (Python)
+* Sending the button presses to the emulator (Python)
+* Receiving emulator state from the Javascript frontend overlay to display stats
+* Streaming the overlay plus the emulator window to twitch (possibly used OBS?)
+
+
+In the original implementation it used the glob al keyboard event in the python win32 API like so:
+```python
+win32api.keybd_event(keymap[button], 0, 0, 0)
+```
+The downside of this is the window needs to be in focus to get the event, otherwise if the focus is changed it will start sending the input to other windows running in the OS, not ideal from a security standpoint.
+
+This was later changed to directly interface with a Lua script running in the emulator that connects via HTTP, so the button presses go directly to the emulator and this also has a few advantages such as frame perfect timing.
+
+---
 # Python Brazil Keynote (Hacking a Gameboy with Python)
 Sam Agnew who works at Twilio gave a keynote at the Python Brasil conference in 2012 discussing how to create a similar experience to TPP using Python!
 
@@ -69,7 +90,21 @@ So Twitch receives its streams in the **Real-Time Messaging Protocol** (RTMP) so
 
 One solution could be using the **ffmpeg** command line interface, but the question is how exactly do we combine that with the output of our emulator...
 
+To run a test stream from ffmpeg to twitch you can use the following command after adding your own stream key to it:
+```bash
+ffmpeg -re \
+-f lavfi -i testsrc2=size=960x540 \
+-f lavfi -i aevalsrc="sin(0*2*PI*t)" \
+-vcodec libx264 \
+-r 30 -g 30 \
+-preset fast -vb 3000k -pix_fmt rgb24 \
+-pix_fmt yuv420p \
+-f flv \
+rtmp://live-fra.twitch.tv/app/STREAMKEY
+```
+
 ---
 # References
 [^1]: [Im dekuNukem aka twitch_plays_3ds, Ask Me Anything - twitchplayspokemon](https://www.reddit.com/r/twitchplayspokemon/comments/75wzlj/im_dekunukem_aka_twitch_plays_3ds_ask_me_anything/)
 [^2]: [Say hello to 3xtDS, a device that makes TPP XY, αSapphire, ΩRuby, or any 3DS game a reality! : twitchplayspokemon](https://www.reddit.com/r/twitchplayspokemon/comments/255257/say_hello_to_3xtds_a_device_that_makes_tpp_xy/)
+[^3]: [I am the creator of Twitch Plays Pokemon, AMA! : pokemon](https://www.reddit.com/r/pokemon/comments/5tlshm/i_am_the_creator_of_twitch_plays_pokemon_ama/ddnfda8/)
