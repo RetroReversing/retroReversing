@@ -67,6 +67,43 @@ This contains:
   * How to use phone numbers to control REST requests
   * How to hook into Visual Boy Advance
 
+## Lua Source code
+This is the lua source code that he wrote live during the keynote, you can run it in the windows version of VisualBoyAdvance (for Mac/Linux you need to use WINE).
+```lua
+function file_exists(name)
+    local f = io.open(name, 'r')
+    if f == nil then
+        io.close(f)
+        return true
+    end
+    
+    return false
+end
+
+function read_file(name)
+    if file_exists(name) then
+        local input = io.open(name, "-")
+        io.input(input)
+        content = io.read()
+        io.close(input)
+    end
+end
+
+while true do
+    if file_exists('button.txt') then
+        button = read_file('button.txt')
+        os.remove(button)
+        emu.message('Pressing button:')
+        
+        for i=0, 5 do
+            press_button(button)
+            emu.frameadvance()
+        end
+    end
+    emu.frameadvance()
+end
+```
+
 The source code for everything covered in the Keynote is available on Github:
 [sagnew/Twilio-IP-Messaging-Plays-Pokemon: A clone of the 2013 phenomenon "Twitch Plays Pokemon" using Twilio's new IP Messaging API.](https://github.com/sagnew/Twilio-IP-Messaging-Plays-Pokemon)
 
