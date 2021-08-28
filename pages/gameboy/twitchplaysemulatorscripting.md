@@ -58,6 +58,18 @@ In the video you can see that text commands can be sent directly to the device t
 The source code is also available on Github if anyone has the necessary experience to create their own: [dekuNukem/3xtDS: 3DS Streaming Console with External Control Interface.](https://github.com/dekuNukem/3xtDS)
 
 ---
+# Headless Streaming
+When I first heard about Twitch Plays Pokemon and other similar projects I had presumed it was running a script which streams the emulator screen directly to twitch. However the more I look into it, it seems they all are running standard PCs with a GUI such as OBS for streaming.
+
+This was a little disappointing as it would be nice to have some sort of container (such as a docker image) that could be deployed to a base server (or "the cloud") with minimal overhead.
+
+So it begs the question, is it possible to create a completely headless (No GUI) version of TPP so its easy to host a very lightweigt version on fairly cheap hosting solutions?
+
+So Twitch receives its streams in the **Real-Time Messaging Protocol** (RTMP) so if we can send data directly using this protocol from an emulator we could in theory cut out the middle man and not require a GUI desktop environment running on the server.
+
+One solution could be using the **ffmpeg** command line interface, but the question is how exactly do we combine that with the output of our emulator...
+
+---
 # References
 [^1]: [Im dekuNukem aka twitch_plays_3ds, Ask Me Anything - twitchplayspokemon](https://www.reddit.com/r/twitchplayspokemon/comments/75wzlj/im_dekunukem_aka_twitch_plays_3ds_ask_me_anything/)
 [^2]: [Say hello to 3xtDS, a device that makes TPP XY, αSapphire, ΩRuby, or any 3DS game a reality! : twitchplayspokemon](https://www.reddit.com/r/twitchplayspokemon/comments/255257/say_hello_to_3xtds_a_device_that_makes_tpp_xy/)
