@@ -35,6 +35,9 @@ This contains:
   * How to use phone numbers to control REST requests
   * How to hook into Visual Boy Advance
 
+The source code for everything covered in the Keynote is available on Github:
+[sagnew/Twilio-IP-Messaging-Plays-Pokemon: A clone of the 2013 phenomenon "Twitch Plays Pokemon" using Twilio's new IP Messaging API.](https://github.com/sagnew/Twilio-IP-Messaging-Plays-Pokemon)
+
 ---
 # How did the Pokemon games on Nintendo 3DS work?
 Back in 2014 TwitchPlaysPokemon was completing game after game and soon the next in line would be a 3DS Pokemon game, but without good 3DS emulation back then how exactly would TPP continue?
