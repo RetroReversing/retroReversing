@@ -1,8 +1,9 @@
 ---
 layout: post
 tags: 
+- howitworks
 - gameboy
-- emulatorscripting
+- 3ds
 title: How does Twitch Play Emulators?
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "qQrQcyDZydY?time_continue=41"
