@@ -246,3 +246,9 @@ The contents of the **DIAG4RVL.ZIP** archive are documented in a separate post w
 
 Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
 {% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
+
+---
+# Murakawa Tsushin Hidemaru emails (teru-sama_mail_2006.7z)
+The **teru-sama_mail_2006.7z** archive contains an email dump of the inbox of **Murakawa Tsushin** who was in charge of Pokemon localisation at Nintendo of Japan.
+
+{% include link-to-other-post.html post="/nintendo-hidemaru-mail-leak" description="For more information on the leaked emails check out this post." %}
