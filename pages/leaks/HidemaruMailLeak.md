@@ -22,7 +22,10 @@ editlink: /leaks/HidemaruMailLeak.md
 # Introduction
 In 2020 and 2021 numerous secret files have been leaked from Nintendo thanks to **Zammis Clark**. Included in these files were the Corporate Emails inbox of an employee called **Murakawa Tsushin**. 
 
-# Who is Murakawa?
+## What was leaked
+The archive **teru-sama_mail_2006.7z** was leaked to 4chan on the **20th July 2021**, it is a dump of Murakawa Tsushin's emails from the Hidemaru Mail client.
+
+## Who is Murakawa?
 Murakawa was in charge of localisation from Japanese to Korean/English and lots of European languages. This is probably why Zammis Clark targeted him as he is a huge Pokemon fan and couldn't wait for the English release of the games.
 
 He worked in the Planning and Development Department for Nintendo of Japan.
@@ -84,32 +87,36 @@ The only file that might be mildly interesting is **filter.txt** as if you are l
 
 
 ---
-#### Murakawa communication (/mail.nintendo.co.jp/User/村川通信)
+### Murakawa's newsletter (/mail.nintendo.co.jp/User/村川通信)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">User/村川通信</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains all the conversations with Murakawa Tsushin. He seems to send out some sort of newsletter with random, sometime games related content.
+ This folder contains all the emails sent out by Murakawa for his Newsletter called the **Murakawa Tsushin**. He seems to send out some sort of newsletter with random, sometime games related content.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-村川通信200506 | .txt | 
-村川通信200507 | .txt | 
-村川通信200508 | .txt | 
-村川通信200509 | .txt | 
-村川通信200510 | .txt | 
-村川通信200511 | .txt | 
-村川通信200512 | .txt | 
-村川通信200601 | .txt | 
-村川通信200602 | .txt | 
-村川通信200603 | .txt | 
-村川通信200604 | .txt | 
-村川通信200612 | .txt | 
+村川通信200506 | .txt | Comparison of wireless communication functions between Nintendo DS and PSP
+村川通信200507 | .txt | News about Dark basic (3D game programming language with BASIC syntax)
+村川通信200508 | .txt | Not much news as he is preparing for a wedding
+村川通信200509 | .txt | Talk about the PocketMod which is a printable PDA apparently.. (http://www.pocketmod.com/)
+村川通信200510 | .txt | Shares a link talking about Nintendo DS Homebrew!
+村川通信200511 | .txt | Links to a yahoo headline about the Cell Architecture in the PS3
+村川通信200512 | .txt | Compares the price of Apple products with Nintendo
+村川通信200601 | .txt | Links to article talking about Pixar being acquired by Disney
+村川通信200602 | .txt | Links to a book called "Sony Chronicle 2006" which has thousands of pictures of Sony products through the ages
+村川通信200603 | .txt | Has a link to Review-C an application by NEC that statically analysis C code to find problems
+村川通信200604 | .txt | Link to a Japanese book on how to write your own CPU in 30 days by Hidemi Kawai (looks like a really interesting book)
+村川通信200612 | .txt | Links to a page selling a little wiimote key ring, looks very cute
+
+The Homebrew Nintendo DS link that he has shared in one of his newsletters is no longer available but it has been archived by the wayback machine: [here](https://web.archive.org/web/20060703171517/http://www.helloworld.jp/~duke/nintendo_ds/index.html) 
+
+One very interesting Japanese website that is commonly linked in the newsletter for programmers is Game Watch: [Graphics course for 3D game fans](https://web.archive.org/web/20070304130614/http://www.watch.impress.co.jp/game/docs/backno/rensai/3dg.htm)
 
 ---
-##### Past Log Chats (/mail.nintendo.co.jp/User/過去ログ/雑談)
+### Past Log Chats (/mail.nintendo.co.jp/User/過去ログ/雑談)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/User/過去ログ/雑談</div>
   <div markdown="1" class="rr-post-markdown">
@@ -152,25 +159,25 @@ File Name | Extension | Description
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains the following sub directories:
-* CW for NintendoDS
-* DS Socket Lib
-* NOA Doc
-* NOK関連
-* NintendoDS
-* Pokemon emerald for Euro
-* Revolution
-* SPD ALL
-* SPD GM
-* SPD TI
-* Wi-Fiガイドライン ML
-* dea-5p-sup ML
-* dea-sup
-* アカウント関連
-* サーバ管理
-* ポケモン
-* 人事関連
-* 会議のスケジュール
-* 部内技術サポート
+* **CW for NintendoDS** - Discussion between Metrowerks and Nintendo on the CodeWarior for Nintendo DS product
+* **DS Socket Lib** - Mailing list discussing the Nintendo DS netwokring SDK
+* **NOA Doc**
+* **NOK関連**
+* **NintendoDS**
+* **Pokemon emerald for Euro**
+* **Revolution**
+* **SPD ALL**
+* **SPD GM**
+* **SPD TI**
+* **Wi-Fiガイドライン ML**
+* **dea-5p-sup ML**
+* **dea-sup**
+* **アカウント関連**
+* **サーバ管理**
+* **ポケモン**
+* **人事関連**
+* **会議のスケジュール**
+* **部内技術サポート**
 
 The files in the root of this directory are described in the table below.
   </div>
@@ -214,50 +221,56 @@ File Name | Extension | Description
 
 
 ---
-#### Cw for Nintendo DS (/mail.nintendo.co.jp/受信/CW for NintendoDS)
+#### CodeWarrior for Nintendo DS (/mail.nintendo.co.jp/受信/CW for NintendoDS)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/CW for NintendoDS</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">CW for NintendoDS</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains communication between Metrowerks (who develop the CodeWarrior IDE) and Nintendo. Specifically for the Nintendo DS version of CodeWarrior.
+
+As you can imagine when creating a compiler and IDE for the Nintendo DS, there were lots of messages between Nintendo and Metrowerks clarifying points and discussing bugs.
+
+Emails in this folder contain mentions of **Ensata** which is an in-house developed Nintendo DS emulator.
+
+Note that during 2005 Metrowerks became part of **Freescale Semiconductor**, so many of the emails mention Freescale but they are still talking about the same Metrowerks CodeWarrior IDE.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-CW for DintendoDS200510 | .txt | 
-CW for DintendoDS200511 | .txt | 
-CW for DintendoDS200512 | .txt | 
-CW for DintendoDS200601 | .txt | 
-CW for DintendoDS200602 | .txt | 
-CW for DintendoDS200603 | .txt | 
-CW for DintendoDS200604 | .txt | 
-CW for DintendoDS200605 | .txt | 
-CW for DintendoDS200606 | .txt | 
-CW for DintendoDS200607 | .txt | 
-CW for DintendoDS200608 | .txt | 
-CW for DintendoDS200609 | .txt | 
-CW for DintendoDS200610 | .txt | 
-CW for DintendoDS200611 | .txt | 
+CW for DintendoDS200510 | .txt | Talk about the Ensata emulator version 1.4
+CW for DintendoDS200511 | .txt | Talk about Nitro SDK 3.0
+CW for DintendoDS200512 | .txt | Talk about Debugger patch for CodeWarrior for NINTENDO DS 1.2 SP3 (2005/12/13)
+CW for DintendoDS200601 | .txt | Talk about Code Overlays for the Nintendo DS
+CW for DintendoDS200602 | .txt | Talk about CW for DS 2.0 compiler (Version 3.0)
+CW for DintendoDS200603 | .txt | Talk about CodeWarrior for NINTENDO DS 2.0 FC version
+CW for DintendoDS200604 | .txt | Official release of CW for NDS 2.0 to developers
+CW for DintendoDS200605 | .txt | Release of the Nintendo DS SDK 3.1
+CW for DintendoDS200606 | .txt | Compiler patch for CodeWarrior for NINTENDO DS 2.0 (2006/6/16)
+CW for DintendoDS200607 | .txt | Release Ver. 1.4d of the Ensata DS Emulator
+CW for DintendoDS200608 | .txt | CodeWarrior for NINTENDO DS Version 2.0 Service Pack 1 Announcement
+CW for DintendoDS200609 | .txt | Details about the .NEF (Nintendo Elf Format) used for DS executables
+CW for DintendoDS200610 | .txt | Metrowerks moved from their eSupport system to Radix Live
+CW for DintendoDS200611 | .txt | Release of CodeWarrior for NINTENDO DS 2.0 SP1 Build Tool Patch 2
 
 
 ---
-#### Ds socket lib (/mail.nintendo.co.jp/受信/DS Socket Lib)
+#### Nintendo DS Socket Library (/mail.nintendo.co.jp/受信/DS Socket Lib)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/DS Socket Lib</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">DS Socket Lib</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains discussions talking about the networking (socket) SDK for the Nintendo DS. So bugs and other issues are discussed in this mailing list, but of the emails we have none are particularly interesting.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-DS Socket Lib200506 | .txt | 
-DS Socket Lib200507 | .txt | 
-DS Socket Lib200508 | .txt | 
-DS Socket Lib200509 | .txt | 
-DS Socket Lib200510 | .txt | 
+DS Socket Lib200506 | .txt | Just talks about a new internal page being setup called the "Nintendo Wi-Fi Connection Support Page"
+DS Socket Lib200507 | .txt | Just a notice saying that "Nintendo Wi-Fi Connection Planning Study Material (2005/06/22 version)" has been uploaded
+DS Socket Lib200508 | .txt | Notice of a bug in the function SO_SendTo returning SO_ENOBUFS
+DS Socket Lib200509 | .txt | Notice of infinite loop in OS_LoadContext which gets fixed in a new release of the SDK
+DS Socket Lib200510 | .txt | Just contains a list of the email addresses of the people that subscribe to the mailing list
 
 
 ---
@@ -289,7 +302,7 @@ NOA Doc200612 | .txt |
 ---
 #### Nintendo of Korea (/mail.nintendo.co.jp/受信/NOK関連)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/NOK関連</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">NOK関連</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -309,7 +322,7 @@ NOK関連200612 | .txt |
 ---
 ##### Nintendo of Korea Mailing Lists (/mail.nintendo.co.jp/受信/NOK関連/NOK ML)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/NOK関連/NOK ML</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/NOK関連/NOK ML</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -325,7 +338,7 @@ NOK ML200612 | .txt |
 
 
 ---
-##### えいご漬け韓国語版 ml (/mail.nintendo.co.jp/受信/NOK関連/えいご漬け韓国語版 ML)
+##### Korean version Mailing list (/mail.nintendo.co.jp/受信/NOK関連/えいご漬け韓国語版 ML)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/NOK関連/えいご漬け韓国語版 ML</div>
   <div markdown="1" class="rr-post-markdown">
@@ -405,15 +418,15 @@ Revolution200611 | .txt |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/mail.nintendo.co.jp/受信/Revolution/E3</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains emails sent to everyone preparing for E3 2006 such as playble demo guidelines and due dates.
 
   </div>
 </section>  
 
 File Name | Extension | Description
 ---|---|---
-E3200604 | .txt | 
-E3200605 | .txt | 
+E3200604 | .txt | Talks about the deadlines for E3 deliverables such as playable demos and video content
+E3200605 | .txt | Contains branding instructions for what logo to use and information for travelling to E3
 
 
 ---
@@ -507,8 +520,6 @@ Wii lotcheck ML200609 | .txt |
 Wii lotcheck ML200610 | .txt | 
 Wii lotcheck ML200611 | .txt | 
 Wii lotcheck ML200612 | .txt | 
-list | .bin | 
-prop | .bin | 
 
 
 ---
@@ -4433,8 +4444,8 @@ Workload.zip |
 
 File Name | Extension | Description
 ---|---|---
-送信済み200505 | .txt | 
-送信済み200506 | .txt | 
+送信済み200505 | .txt | Talk about interview candidates
+送信済み200506 | .txt | onboarding process and 3d training
 送信済み200507 | .txt | 
 送信済み200508 | .txt | 
 送信済み200509 | .txt | 
