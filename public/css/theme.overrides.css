@@ -197,14 +197,22 @@ section {
 
 .jumper--H4 {
   margin-left: 20px;
+  font-weight: 100;
+  list-style: none;
 }
 
 .jumper--H5 {
   margin-left: 25px;
+  font-weight: 50;
+  font-size:0.7em;
+  list-style: none;
 }
 
 .jumper--H6 {
   margin-left: 30px;
+  font-weight: 25;
+  font-size:0.6em;
+  list-style: none;
 }
 
 blockquote {
