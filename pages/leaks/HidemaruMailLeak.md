@@ -1,4 +1,3 @@
-Nintendo Hidemaru Mail Leak
 ---
 layout: post
 tags: 
