@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Sega Saturn Save Data
     url: #
 recommend: saturn
-updatedAt: '2020-08-28'
+updatedAt: '2021-09-28'
 editlink: /sega/saturn/SegaSaturnSaveData.md
 ---
 
@@ -98,9 +98,9 @@ Whether you want to restore your own save game data, try other peoples or even e
 Thankfully a few developers have created some tools exactly for this job.
 
 ### Save Data Manager
-Save Data Manager by `cafe-alpha` is the most advanced tool of its type for the Sega Saturn. It's compatible with all standard memory devices and supports all of the features found in the stock memory manager, with the added benefit of being able to perform operations in bulk (e.g. delete multiple save files at once). It also boasts compatibility with Action Replay cartridges* and Fenrir ODE for save data import/export, supports a plethora of save data formats, can dump the system BIOS and cartridge ROM, and includes a firmware flasher utility for use with many different cartridges. Support for Satiator ODE is coming soon [^4].
+Save Data Manager by `cafe-alpha` is the most advanced tool of its type for the Sega Saturn. It's compatible with all standard memory devices and supports all of the features found in the stock memory manager, with the added benefit of being able to perform operations in bulk (e.g. delete multiple save files at once). It also boasts compatibility with Action Replay cartridges and Fenrir ODE for save data import/export, supports a plethora of save data formats, can dump the system BIOS and cartridge ROM, and includes a firmware flasher utility for use with many different cartridges. Support for Satiator ODE is coming soon [^4].
 
-* Save data can be exported from Action Replay to internal memory and supported ODEs. However, it's currently not possible to import save data to Action Replay.
+Note regarding Action Replay compatibility; save data can be exported from Action Replay to internal memory and supported ODEs, but it's currently not possible to import save data to Action Replay.
 
 {% include link-to-other-site.html url="https://ppcenter.webou.net/pskai/#download" description="Included in the Pseudo Saturn Kai archive" title="Saturn Save Data Manager"  %}
 
@@ -116,6 +116,7 @@ Save Game Copier is a tool that allows the user copy Sega Saturn save game files
 
 ### Save Game Manager
 Save Game Manager by `Rockin'-B` is a very useful tool that allows you to manage save games on the Saturn itself. You can copy save games from the burned CD and save it into the internal RAM or the external cartridge RAM, and you can even export save files as base64 strings. It can also dump and update Action Replay firmware [^3].
+
 Due to its age, it has less features than its more contemporary counterparts discussed above.
 
 {% include link-to-other-site.html url="http://www.rockin-b.de/saturn-savegamemanager.html" description="Download the code and executables on the official website" image="http://www.rockin-b.de/saturn/savegamemanager/SGM_help.jpg" title="The Rockin'-B : Save Game Manager"  %}
@@ -128,4 +129,4 @@ A number of Sega Saturn homebrew applications have standardized on the [.BUP fil
 [^1]: [GitHub - slinga-homebrew/Save-Game-Extractor: Transmit Sega Saturn save game files as audio. Based on minimodem](https://github.com/slinga-homebrew/Save-Game-Extractor)
 [^2]: [GitHub - hitomi2500/ss-save-parser: Parser for Sega Saturn images of various save media.](https://github.com/hitomi2500/ss-save-parser)
 [^3]: [The Rockin'-B : Save Game Manager](http://www.rockin-b.de/saturn-savegamemanager.html)
-[^4]: [August Activity (2021/08/31) | cafe-alpha on Patreon](https://www.patreon.com/posts/august-activity-55575271)
+[^4]: [August Activity 2021/08/31 : cafe-alpha on Patreon](https://www.patreon.com/posts/august-activity-55575271)
