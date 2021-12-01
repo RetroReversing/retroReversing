@@ -30,7 +30,7 @@ Extension | Description
 .3ds | Unofficial format used for dumping 3DS Game Cards
 .cci | Nintendo Official file format for dumping 3DS game cards
 .csu | 3DS Update file
-.cxi | Citrus Executable Image - archvie that contains executable game code
+.cxi | Citrus Executable Image - archive that contains executable game code
 .app | Another name for .cxi files
 .cfa | Citrus File Archive - compressed file that doesn't contain executable code e.g for Game Manuals
 .cia | Citrus Installable Archive - used for games that get installed to the 3ds memory
