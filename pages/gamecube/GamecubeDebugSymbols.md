@@ -147,6 +147,7 @@ Prototype games are even more likely to contain debug symbols as they are intend
 Game Name | Map File | Number of Symbols | Genre | Notes
 --- | --- | --- | --- | ---
 NFS Underground (Preview 10-09-2003 Console+ 26669 - 010) | Speed.elf | **9,604** | Racing | Uses SNSystems Library + Debugger
+Resident Evil 4 (Debug Build) | Bio4.\*.SYM | **10,380+** | Action | Contains SYM files for the main executable & the REL overlay files (some RELs are stored inside DRS containers) - unknown what created the SYM files, but a [parser](https://github.com/emoose/re4-research/blob/master/re4sym.cpp) is available.
 
 ---
 # Other Notes
