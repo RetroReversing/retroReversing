@@ -27,7 +27,7 @@ Issue Number | Content
 ---|---
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
-
+23 | Behind the Scenes of The Thing
 
 ---
 # Creative Magazines
@@ -53,7 +53,7 @@ Each issue had a main focus but they all contained tutorials for a wide variety 
 The issues we know about are listed in the table below:
 
 Number | Date | Title
-—|—|—
+---|---|---
 86 | 2003-10 | Create Amazing Websites
 87 | 2003-11 | Sound and Vision
 88 | 2003-12 | Futuristic Web Design
