@@ -28,7 +28,7 @@ Issue Number | Content
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
 23 | Talking about the Mechanics of The Thing
-28 | Trailer of travel documentaries to places like Mexico, Spain, India
+28 | Trailer of travel documentaries from Pilot Guides to places like Mexico, Spain, India ([Pilot Film and Television Productions Home Page](https://web.archive.org/web/20010517025522/http://www.pilot.co.uk/))
 
 ---
 # Creative Magazines
