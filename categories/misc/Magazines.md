@@ -43,12 +43,16 @@ Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Ma
 
 Number | Date | Title
 ---|---|---
-135 | 2007-05 | 
-136 | 2007-06 | 
-137 | 2007-07 | 
-140 | 2007-09 | 
-141 | 2007-10 | 
-143 | 2007-12 | 
+121 | 2006-04 | Design Hotspots
+122 | 2006-05 | The Money Issue
+123 | 2006-06 | 50 Ways to Become a Better Designer
+130 | 2006-12 | Create Perfect Characters
+135 | 2007-05 | Branch out
+136 | 2007-06 | Be The best
+137 | 2007-07 | Illustrate >> Animate
+140 | 2007-09 | Global Challenge
+141 | 2007-10 | The Inspiration Issue - Young Guns
+143 | 2007-12 | Logo Secrets
 
 ### Book Extracts
 The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
