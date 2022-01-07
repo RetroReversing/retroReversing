@@ -27,7 +27,8 @@ Issue Number | Content
 ---|---
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
-23 | Behind the Scenes of The Thing
+23 | Talking about the Mechanics of The Thing
+28 | Trailer of travel documentaries to places like Mexico, Spain, India
 
 ---
 # Creative Magazines
