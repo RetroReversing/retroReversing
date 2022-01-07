@@ -53,6 +53,26 @@ Number | Date | Title
 140 | 2007-09 | Global Challenge
 141 | 2007-10 | The Inspiration Issue - Young Guns
 143 | 2007-12 | Logo Secrets
+148 | 2008-05 |
+150 | 2008-07 | 
+151 | 2008-08 | 
+152 | 2008-Summer | 
+153 | 2008-09 | 
+154 | 2008-10 | 
+155 | 2008-11 | 
+156 | 2008-12 | 
+157 | 2009-01 | 
+162 | 2009-06 |
+168 | 2009-11 | 
+172 | 2010-03 | 
+173 | 2010-04 | 
+175 | 2010-06 | 
+177 | 2010-08 | 
+178 | 2010-Summer | 
+179 | 2010-09 | 
+180 | 2010-10 | 
+181 | 2010-11 | 
+182 | 2010-12 | 
 
 ### Book Extracts
 The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
