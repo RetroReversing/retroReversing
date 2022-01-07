@@ -43,7 +43,10 @@ Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Ma
 
 Number | Date | Title
 ---|---|---
+135 | 2007-05 | 
+136 | 2007-06 | 
 137 | 2007-07 | 
+140 | 2007-09 | 
 
 ### Book Extracts
 The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
@@ -57,17 +60,27 @@ Issue | Book Name | Notes
 140 | Painter X Creativity: Digital Artists Handbook | Pages 19-34 and 229-248
 
 ### Free Resources
-As an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine.
+Often the CDs would contain free resources from around the Web, such as a few sample hours of Video training courses or templates/images. One awesome thing they started doing was including full PDFs for issues from 2 years prior but sadly this didn't last very long.
 
 Issue | Free Resource | Notes
 ---|---|---
-137 | Issue 114 PDFs | PDF for each page of the 114 Issue of Computer Arts from October 2005
+136 | Issue 113 PDF | PDF for each page of the 113 Issue of Computer Arts from September 2005
+136 | 100 royalty-free Fotolia images | 
+136 | Ten Project Dogwaffle tutorials | 
+136 | Lynda.com After Effects 7 Essential Training | 
+137 | Issue 114 PDF | PDF for each page of the 114 Issue of Computer Arts from October 2005
 137 | Lynda.com Flash CS3 Professional Essential Training | 1 hour 13 minutes of content (chapters 2-4) from Lynda.com's 8 hour Flash training course [Flash CS3 Professional Essential Training - lynda.com Online Training Library®](https://web.archive.org/web/20071228024218/http://movielibrary.lynda.com/html/modPage.asp?ID=353)
 137 | FlashVillage.com Flash Template | Free Television Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | FlashVillage.com Flash Template | Orbital Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | Issue 117 PDFs | PDF for each page of the 114 Issue of Computer Arts from Christmas 2005
 140 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques | 1 hour of content from Smart Objects (chapter 22) of the 9.5 hour training course
 
+### Free Full products
+Occassionally as an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine. Not all issues included free full products but the ones that did were generally worth picking up, but of course it was always an older version of the products as an incentive to upgrade to the latest versions.
+
+Issue | Free Product | Notes
+---|---|---
+136 | Bryce 5.0 | 
 
 ---
 ## Web Designer Magazine (UK)
