@@ -77,6 +77,15 @@ Often the CDs would contain free resources from around the Web, such as a few sa
 
 Issue | Free Resource | Notes
 ---|---|---
+122 | MyPictureMarc | Freeware
+122 | Lynda.com Flash 8 Professional Essential Training | 
+122 | 4 Fontoville fonts | 
+122 | 3 Media Artist Secrets podcasts | 
+123 | Maxdox Mobile Publisher Personal Edition | Freeware mobile publishing software
+123 | 5 ShowStoppersFX motion backgrounds | 5 Royalty-free videos
+123 | Lynda.com After Effects 6 Essential Training | 
+123 | 30 PhotoObjects images | 30 Royalty free images used in the tutorial for Adobe Bridge
+123 | Issue 100 PDF | PDF for each page of the 100th Issue of Computer Arts
 130 | 50 Fotolia images | 
 130 | The Designer Series Three: Studio Output | 
 130 | Lynda.com Illustrator CS2 and Flash 8 Integration training | 
@@ -111,6 +120,9 @@ Occassionally as an incentive to buy the magazine there would be a few paid prod
 
 Issue | Free Product | Notes
 ---|---|---
+122 | Carrara Studio 2.1 |
+122 | TaxCalc Lite | 
+123 | Cleanerzoomer 1.0.1 | PC only, removes artifacts from images
 136 | Bryce 5.0 | 
 
 ---
