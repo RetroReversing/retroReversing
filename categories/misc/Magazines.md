@@ -47,6 +47,8 @@ Number | Date | Title
 136 | 2007-06 | 
 137 | 2007-07 | 
 140 | 2007-09 | 
+141 | 2007-10 | 
+143 | 2007-12 | 
 
 ### Book Extracts
 The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
@@ -56,8 +58,13 @@ Issue | Book Name | Notes
 137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
 137 | Character Animation: 2D Skills for Better 3D | Extact for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
 137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
-140 | Adobe Photoshop CS3 One-on-One | Pages 302-355 but it's missig the actual images!!
+140 | Adobe Photoshop CS3 One-on-One | Pages 302-355 but it's missing the actual images!!
 140 | Painter X Creativity: Digital Artists Handbook | Pages 19-34 and 229-248
+141 | EXPOSE 5 | 
+141 | Secrets of Digital Illustation |  
+143 | Choosing and Using Paper | Book by RotoVision, free pages 0-21
+143 | How to Cheat in Adobe Flash | Pages 2-5 and page 33
+143 | The Adobe photoshop Layers Book | Pages 1-5
 
 ### Free Resources
 Often the CDs would contain free resources from around the Web, such as a few sample hours of Video training courses or templates/images. One awesome thing they started doing was including full PDFs for issues from 2 years prior but sadly this didn't last very long.
@@ -73,7 +80,20 @@ Issue | Free Resource | Notes
 137 | FlashVillage.com Flash Template | Free Television Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | FlashVillage.com Flash Template | Orbital Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | Issue 117 PDFs | PDF for each page of the 114 Issue of Computer Arts from Christmas 2005
-140 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques | 1 hour of content from Smart Objects (chapter 22) of the 9.5 hour training course
+140 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques |  1 hour of content from Smart Objects (chapter 21) of the 9.5 hour training course
+141 | 26 Diomedia royalty-free photos | 
+141 | CG Wallpapers | 
+141 | Issue 118 PDF | PDF for each page of the 118th Issue of Computer Arts
+141 | Lynda.com Actionscript in Flash CS3 professional Essential Training | 
+143 | Free CG Wallpapers | 4 Desktop Wallpapers from CGWallpapers.com in different resolutions
+143 | Issue 120 PDF | PDF for each page of the 120th Issue of Computer Arts
+143 | 50 Free Fonts | Free Fonts available on the web from: ultimatefontdownload.com, haroldsfonts.com, iconian.com, larabiefonts.com
+143 | 200 Free CSS Templates | CSS Templates that are free on the web from freecsstemplates.org
+143 | 68 free deviantART Photoshop brushes | 68 free brushes available on chain.deviantart.com such as fingerprints, footprints and paper
+143 | 35 free vector images | Creative Commons Vector art from a wide range of different sites such as LAFKON and Ben Blogged
+143 | 7 Go Media Spray Paint brushes | Seven 2500px Photoshop brushes provided by gomedia.us
+143 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques | 1 hour of content from the Adjustment Layers chapter (number 22) of the 9.5 hour training course
+
 
 ### Free Full products
 Occassionally as an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine. Not all issues included free full products but the ones that did were generally worth picking up, but of course it was always an older version of the products as an incentive to upgrade to the latest versions.
