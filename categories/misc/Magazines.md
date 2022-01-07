@@ -35,6 +35,26 @@ Issue Number | Content
 # Creative Magazines
 Creative Magazines related to topics such as art/3d graphics and even web development are just as valuable a source as gaming magazines for the time as they would often talk about industry events and software that were often used by game developers.
 
+---
+## Computer Arts (UK)
+Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development.
+
+### Issues
+
+Number | Date | Title
+---|---|---
+137 | 2007-07 | 
+
+### Book Extracts
+The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
+
+Issue | Book Name | Notes
+---|---
+137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
+137 | Character Animation: 2D Skills for Better 3D | Extact for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
+137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
+
+---
 ## Web Designer Magazine (UK)
 Web Designer Magazine was a popular UK magazine purely dedicated to Web development, it was a relaunch of a previous magazine called **Practical Internet** and was known by the lengthy title **Practical Internet Web Designer** from issue 86 until dropping the prefix altogether by issue 95 in 2004.
 
