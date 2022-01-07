@@ -59,6 +59,8 @@ The accompaning CD for Computer Arts often had extracts from popular industy boo
 
 Issue | Book Name | Notes
 ---|---|---
+130 | Reinventing Music Video | 
+130 | Advertising is Dead: Long live Advertising | 
 137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
 137 | Character Animation: 2D Skills for Better 3D | Extact for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
 137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
@@ -75,6 +77,11 @@ Often the CDs would contain free resources from around the Web, such as a few sa
 
 Issue | Free Resource | Notes
 ---|---|---
+130 | 50 Fotolia images | 
+130 | The Designer Series Three: Studio Output | 
+130 | Lynda.com Illustrator CS2 and Flash 8 Integration training | 
+130 | 10 Icon Republic icons | 
+130 | Jeremyville videos |
 136 | Issue 113 PDF | PDF for each page of the 113 Issue of Computer Arts from September 2005
 136 | 100 royalty-free Fotolia images | 
 136 | Ten Project Dogwaffle tutorials | 
