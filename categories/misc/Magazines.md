@@ -49,10 +49,25 @@ Number | Date | Title
 The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
 
 Issue | Book Name | Notes
----|---
+---|---|---
 137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
 137 | Character Animation: 2D Skills for Better 3D | Extact for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
 137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
+140 | Adobe Photoshop CS3 One-on-One | Pages 302-355 but it's missig the actual images!!
+140 | Painter X Creativity: Digital Artists Handbook | Pages 19-34 and 229-248
+
+### Free Resources
+As an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine.
+
+Issue | Free Resource | Notes
+---|---|---
+137 | Issue 114 PDFs | PDF for each page of the 114 Issue of Computer Arts from October 2005
+137 | Lynda.com Flash CS3 Professional Essential Training | 1 hour 13 minutes of content (chapters 2-4) from Lynda.com's 8 hour Flash training course [Flash CS3 Professional Essential Training - lynda.com Online Training Library®](https://web.archive.org/web/20071228024218/http://movielibrary.lynda.com/html/modPage.asp?ID=353)
+137 | FlashVillage.com Flash Template | Free Television Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
+140 | FlashVillage.com Flash Template | Orbital Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
+140 | Issue 117 PDFs | PDF for each page of the 114 Issue of Computer Arts from Christmas 2005
+140 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques | 1 hour of content from Smart Objects (chapter 22) of the 9.5 hour training course
+
 
 ---
 ## Web Designer Magazine (UK)
