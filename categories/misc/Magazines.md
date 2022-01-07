@@ -77,6 +77,11 @@ Often the CDs would contain free resources from around the Web, such as a few sa
 
 Issue | Free Resource | Notes
 ---|---|---
+121 | 50 photoshop plugins for Digital Darkroom | 
+121 | Pentagram documentary | 
+121 | Lynda.com Dreamweaver 8 Essential Training | 
+121 | 50 iStockphoto images | 
+121 | 16 Typephases fonts | 
 122 | MyPictureMarc | Freeware
 122 | Lynda.com Flash 8 Professional Essential Training | 
 122 | 4 Fontoville fonts | 
@@ -120,6 +125,7 @@ Occassionally as an incentive to buy the magazine there would be a few paid prod
 
 Issue | Free Product | Notes
 ---|---|---
+121 | Shade 7 Designer LE | 
 122 | Carrara Studio 2.1 |
 122 | TaxCalc Lite | 
 123 | Cleanerzoomer 1.0.1 | PC only, removes artifacts from images
