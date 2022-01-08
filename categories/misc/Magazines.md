@@ -21,9 +21,10 @@ Title | Notes
 ---|---
 Game Developer | 
 Game Maker | Only 1 issue published?
-Wireframe | Still going strong in 2022!
+Wireframe | From November 2018 and still going strong in January 2022!
 
 ## Wireframe Magazine
+[Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
 
 ### Articles
 It is worth reading the entire Wrireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
