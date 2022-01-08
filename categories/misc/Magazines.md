@@ -42,10 +42,11 @@ Title | Notes
 ---|---
 EDGE |
 GamesTM | 
-PC Gamer | 
+PC Gamer | long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
-Retro Gamer | 
+Retro Gamer | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
 
+---
 ## PSi2 Magazine
 Published by Thin-Ice Media (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
@@ -81,6 +82,20 @@ Web Desginer | UK magazine from 2004 until ?
 ---
 ## Computer Artist (USA)
 Computer Artist was a monthly magazine published every 2 months by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the first issue was published but the last issue was in June 1997 when it merged into **Electronic Publishing** magazine.
+
+### Articles
+Due to their age Computer Artist issues are hard to find, but the ones we can find had the following articles listed in the table below:
+
+Issue | Article Title
+---|---
+1997-02 | Editorial: The Algorithmic Artist
+1997-02 | Behind the Art; Creators of Children's Books Go Digital - Exploring Textile Design
+1997-02 | Makeready: The Fifth-Color Follies - A fifth color on press can enhance images, too.
+1997-02 | Review: Fractal Design Takes Painting to 3D
+1997-02 | Profile: Ken Musgrave - This landscape artist, who paints by programming, has just moved from an East Coast academic setting to Hollywood's hottest special-effects house.
+1997-02 | The Computer Artist's Studio - Whether you're starting from scratch or updating your digital tools, these guidelines include the latest considerations for artists and designers.
+1997-02 | Bit by Bit: Taking it to the Web - FreeHand 7 offers a variety of ways to put images on the Web, as this exercise shows.
+
 
 ---
 ## Computer Arts (UK)
