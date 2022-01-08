@@ -37,7 +37,7 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 
 Title | Notes
 ---|---
-3D Artist | UK magazine
+3D Artist | UK magazine published by Imagine Publishing from 2009 until December 2019
 3D World | Global magazine from ? until ?
 Computer Artist | USA magazine From 1994 until? Published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
