@@ -43,6 +43,8 @@ Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Ma
 
 Number | Date | Title
 ---|---|---
+1 | 2995-12 | Seeing is Believing
+13 | 1997-Winter | 
 121 | 2006-04 | Design Hotspots
 122 | 2006-05 | The Money Issue
 123 | 2006-06 | 50 Ways to Become a Better Designer
@@ -97,6 +99,11 @@ Often the CDs would contain free resources from around the Web, such as a few sa
 
 Issue | Free Resource | Notes
 ---|---|---
+1 | Viewpoint and Nvision Datasets | 3D models in Alias and Wavefront formats including a scorpion, skyscraper, dinosaur, lazer equipped truck and even an army general
+1 | Truespace 2.0 | Animation and Rendering suite
+1 | Adobe Premiere 4.0 | Save disabled version of the movie editor
+1 | Calamus 95 | Windows 95 version of the popular Atari ST Desktop Publishing (DTP) package, save-disabled demo version
+1 | Photoshop 3.0 | Fully featured demo version of photoshop but save is disabled
 121 | 50 photoshop plugins for Digital Darkroom | 
 121 | Pentagram documentary | 
 121 | Lynda.com Dreamweaver 8 Essential Training | 
@@ -145,6 +152,10 @@ Occassionally as an incentive to buy the magazine there would be a few paid prod
 
 Issue | Free Product | Notes
 ---|---|---
+1 | Monitest | Windows 3.1 Application to highlight areas of phosphor damage to a CRT
+1 | Picture Publisher 3.1 | 2D Image editor by MicroGrafx
+1 | WinImages: Morph V1 | Tool by Black Belt that allows you to morph a 2D image into an animation as a standard .AVI movie or .FLC file that can be played with **AAPLAY**
+1 | Imagine 3.0 | Complete 3D program worth £500
 121 | Shade 7 Designer LE | 
 122 | Carrara Studio 2.1 |
 122 | TaxCalc Lite | 
