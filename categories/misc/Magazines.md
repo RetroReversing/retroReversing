@@ -23,6 +23,17 @@ Game Developer |
 Game Maker | 
 Wireframe | 
 
+## Wireframe Magazine
+
+### Articles
+It is worth reading the entire Wrireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
+
+Issue | Name
+---|---
+1 | City Craft - The design Theory behind video game cities
+1 | Source Code - How particle physics turned Defender into a coin-op classic
+1 | Maths of balance - Examining the curves and formulae behind the games we play
+
 ---
 # Games Specific Magazines
 There are many magazines related to Gaming both past and present, however only a few of them have interesting articles about game development, the ones we know about are listed in the table below.
