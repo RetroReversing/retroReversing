@@ -20,8 +20,8 @@ Occasionally you can be lucky enough to find a whole magazine specifically dedic
 Title | Notes
 ---|---
 Game Developer | 
-Game Maker | 
-Wireframe | 
+Game Maker | Only 1 issue published?
+Wireframe | Still going strong in 2022!
 
 ## Wireframe Magazine
 
@@ -80,7 +80,7 @@ Web Desginer | UK magazine from 2004 until ?
 
 ---
 ## Computer Artist (USA)
-Computer Artist was a monthly magazine published by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the last or first issue was published but it was sometime in 1997 when it merged into **Electronic Publishing** magazine.
+Computer Artist was a monthly magazine published every 2 months by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the first issue was published but the last issue was in June 1997 when it merged into **Electronic Publishing** magazine.
 
 ---
 ## Computer Arts (UK)
