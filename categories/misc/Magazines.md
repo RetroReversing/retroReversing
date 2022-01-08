@@ -88,6 +88,11 @@ Due to their age Computer Artist issues are hard to find, but the ones we can fi
 
 Issue | Article Title
 ---|---
+1996-08 | Profile: Louis Fishauf - When this award-winning Canadian graphic designer picked up digital tools a decade ago, his illustration work came to the fore.
+1996-08 | Lean and Clean Art - Vector illustration programs are the preferred tool of some of today's most original and creative digital artists.
+1996-08 | Clip Art's New Life - Digital tools and ever-tighter schedules have re-energized one of design's most venerable resources.
+1996-08 | Soft Shadows in QuarkXPress - Depending on the effect you're after, one or more of these workable approaches may fill the bill.
+1996-08 | Shapes Functionality Empowers Painter 4 - Resolution-independent "Shapes" add new dimensions to Painter's flexibility.
 1997-02 | Editorial: The Algorithmic Artist
 1997-02 | Behind the Art; Creators of Children's Books Go Digital - Exploring Textile Design
 1997-02 | Makeready: The Fifth-Color Follies - A fifth color on press can enhance images, too.
@@ -95,6 +100,7 @@ Issue | Article Title
 1997-02 | Profile: Ken Musgrave - This landscape artist, who paints by programming, has just moved from an East Coast academic setting to Hollywood's hottest special-effects house.
 1997-02 | The Computer Artist's Studio - Whether you're starting from scratch or updating your digital tools, these guidelines include the latest considerations for artists and designers.
 1997-02 | Bit by Bit: Taking it to the Web - FreeHand 7 offers a variety of ways to put images on the Web, as this exercise shows.
+
 
 
 ---
