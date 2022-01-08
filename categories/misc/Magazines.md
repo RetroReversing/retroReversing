@@ -43,7 +43,9 @@ Computer Artist | USA magazine From 1994 until? Published by PennWell Publishing
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
 Digit | UK magazine
 Digital Arts | UK magazine
+Photoshop Creative | until September 2018
 Web Desginer | UK magazine from 2004 until ?
+.net | UK magazine published until May 2020
 
 ---
 ## Computer Arts (UK)
