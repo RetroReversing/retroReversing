@@ -79,6 +79,10 @@ Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
 
 ---
+## Computer Artist (USA)
+Computer Artist was a monthly magazine published by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the last or first issue was published but it was sometime in 1997 when it merged into **Electronic Publishing** magazine.
+
+---
 ## Computer Arts (UK)
 Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
 
