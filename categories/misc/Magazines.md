@@ -14,13 +14,32 @@ recommend: magazines
 One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game specific magazines and digital/creative magazines have a wealth of information.
 
 ---
-# Games Specific Magazines
+# Games Industry Magazines
+Occasionally you can be lucky enough to find a whole magazine specifically dedicated to Game Development but they can be few and far between. Unfortunetly most are now defunct but one excellent title remains until the time of writing: Wireframe magazine, if you are in a position to support this magazine I would strongly reccomend it.
 
-## PSi-2 Magazine
+Title | Notes
+---|---
+Game Developer | 
+Game Maker | 
+Wireframe | 
+
+---
+# Games Specific Magazines
+There are many magazines related to Gaming both past and present, however only a few of them have interesting articles about game development, the ones we know about are listed in the table below.
+
+Title | Notes
+---|---
+EDGE |
+GamesTM | 
+PC Gamer | 
+PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
+Retro Gamer | 
+
+## PSi2 Magazine
 Published by Thin-Ice Media (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
 
-### PSi-2 Magazine CDs
+### PSi2 Magazine CDs
 Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers.
 
 Issue Number | Content
@@ -38,11 +57,12 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 Title | Notes
 ---|---
 3D Artist | UK magazine published by Imagine Publishing from 2009 until December 2019
-3D World | Global magazine from ? until ?
-Computer Artist | USA magazine From 1994 until? Published by PennWell Publishing Company
+3D World | Global magazine from ? and still going today
+Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
 Digit | UK magazine
 Digital Arts | UK magazine
+Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
 Photoshop Creative | until September 2018
 Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
@@ -55,7 +75,7 @@ Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Ma
 
 Number | Date | Title
 ---|---|---
-1 | 2995-12 | Seeing is Believing
+1 | 1995-12 | Seeing is Believing
 13 | 1997-Winter | 
 121 | 2006-04 | Design Hotspots
 122 | 2006-05 | The Money Issue
