@@ -35,6 +35,16 @@ Issue Number | Content
 # Creative Magazines
 Creative Magazines related to topics such as art/3d graphics and even web development are just as valuable a source as gaming magazines for the time as they would often talk about industry events and software that were often used by game developers.
 
+Title | Notes
+---|---
+3D Artist | UK magazine
+3D World | Global magazine from ? until ?
+Computer Artist | USA magazine From 1994 until? Published by PennWell Publishing Company
+Computer Arts | UK magazine from 1995 until 2020 but was also published globally
+Digit | UK magazine
+Digital Arts | UK magazine
+Web Desginer | UK magazine from 2004 until ?
+
 ---
 ## Computer Arts (UK)
 Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development.
