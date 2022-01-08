@@ -15,10 +15,27 @@ The publishers came up with the term "Bookazine" to cover this concept of a very
 
 Many of these were published with topics related to the Games Industry such as 3D Modelling, Animation, Photoshop, Programming or even just Games themselves.
 
+---
 # Programming Bookazines
 
-Title | Notes
----|---
-The Hackers Manual 2012 | Published by Future and contains articles from Linux Format
-The Hackers Manual 2016 | Published by Future
+Title | Publisher | Notes
+---|---|---
+The Hackers Manual 2012 | Future Publishing | Contains articles from Linux Format
+The Hackers Manual 2016 | Future Publishing | 
+the Ultimate Python Coding Manual | Papercut Limited | 
 
+---
+# Gaming Bookazines
+
+Title | Publisher | Notes
+---|---|---
+The N64 Book | Future Publishing | 
+The NES Book | Future Publishing | with artcles from Retro Gamer magazine
+
+---
+# Digital Art Bookazines
+
+Title | Publisher | Notes
+---|---|---
+The Sci-fi & Fantasy Art Book | Future Publishing | at least 4 editions published
+the Ultimate Guide to Graphic Design | Dennis Publishing | contains articles from MacUser magazine
