@@ -47,7 +47,7 @@ Web Desginer | UK magazine from 2004 until ?
 
 ---
 ## Computer Arts (UK)
-Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development.
+Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
 
 ### Issues
 
@@ -217,3 +217,8 @@ Number | Date | Title
 106 | 2005-05 | RSS
 107 | 2005-06 | Stunning Website Construction
 108 | 2005-06 | Create an online community
+
+
+---
+# References
+[^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
