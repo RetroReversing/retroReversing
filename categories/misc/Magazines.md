@@ -139,6 +139,7 @@ Issue | Title | Author | Notes
 1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
 1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
 1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
+1996-01 | 3D Graphics Accelerators for PC Game Development | [CGW: News: 3D Graphics Accelerators for PC Game Development (01.96)](https://web.archive.org/web/19961207182423/http://www.cgw.com/cgw/Archives/1996/01/01news1_04.html)
 1996-12 | New Tools for 3D Gamers | Donna Coco | [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
 2006-12 | Middle Ground - The use of third-party middleware within the entertainment realm is expanding | Michael Arrington | 
 
