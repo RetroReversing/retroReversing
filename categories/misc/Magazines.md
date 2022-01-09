@@ -74,7 +74,7 @@ Title | Notes
 Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
 Computer Graphics World | USA magazine from 1977 until 2022 published by PennWell Publishing Company
-Digit | UK magazine
+Digit | UK magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
 Digital Arts | UK magazine
 Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
 Photoshop Creative | until September 2018
@@ -170,10 +170,20 @@ Issue | Article Title
 Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
 
 ### Issues
+Computer Arts was initially published as a one off in December 1995 but then became bi-monthly in July 1996 and eventually switched over to being Monthly in September 1997.
 
 Number | Date | Title
 ---|---|---
 1 | 1995-12 | Seeing is Believing
+2 | 1996-07 | The Secrets of Digital Art
+3 | 1996-09 | Get the hang of Scale
+4 | 1996-11 | 100 Photoshop Tips
+5 | 1997-01 | 3D Rendering
+6 | 1997-03 | Photo-manipulation
+7 | 1997-05 | Techniques for Textures
+8 | 1997-07 | Increase your Photoshop Skills
+9 | 1997-09 | Develop your 3D Skills with Extreme 3D
+10 | 1997-10 | Compositing with xRes
 13 | 1997-Winter | 
 121 | 2006-04 | Design Hotspots
 122 | 2006-05 | The Money Issue
