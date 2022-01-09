@@ -103,6 +103,11 @@ The table below focuses on the articles related to Game Development, the list is
 
 Issue | Title | Author | Notes
 ---|---|---|---
+1990-06 | Visualizing Math | Lisa Stapleton | May give interesting information used by early 3D game developers
+1990-06 | Stereo 3D | Phillip Robinson | Very early article on Stereoscopic 3D (does it mention Master System 3D?)
+1990-12 | Silicon Graphics Straddles PC\Workstation Market | Unknown | Early SGI articles are always interesting
+1991-02 | A Real-Time Stroll | Unknown | Early real-time graphics from 1991
+1991-03 | The Video Toaster | Unknown | Later became Lightwave3D
 1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
 1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
 1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
