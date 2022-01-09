@@ -73,7 +73,7 @@ Title | Notes
 3D World | Global magazine from ? and still going today
 Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
-Computer Graphics World | USA magazine from 1980 until 2022 published by PennWell Publishing Company
+Computer Graphics World | USA magazine from 1977 until 2022 published by PennWell Publishing Company
 Digit | UK magazine
 Digital Arts | UK magazine
 Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
@@ -83,7 +83,7 @@ Web Desginer | UK magazine from 2004 until ?
 
 ---
 ## Computer Graphics World (USA)
-Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the early 80s right up to the present day (2022+).
+Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
 
 One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. Howevr one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
 
@@ -103,7 +103,11 @@ The table below focuses on the articles related to Game Development, the list is
 
 Issue | Title | Author | Notes
 ---|---|---|---
+1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
+1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
+1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
 1996-12 | New Tools for 3D Gamers | Donna Coco | [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
+2006-12 | Middle Ground - The use of third-party middleware within the entertainment realm is expanding | Michael Arrington | 
 
 
 ---
