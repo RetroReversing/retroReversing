@@ -17,11 +17,11 @@ One of the best ways to get an insight into the games industry is to look at the
 # Games Industry Magazines
 Occasionally you can be lucky enough to find a whole magazine specifically dedicated to Game Development but they can be few and far between. Unfortunetly most are now defunct but one excellent title remains until the time of writing: Wireframe magazine, if you are in a position to support this magazine I would strongly reccomend it.
 
-Title | Notes
----|---
-Game Developer | 
-Game Maker | Only 1 issue published?
-Wireframe | From November 2018 and still going strong in January 2022!
+Title | Publisher | Notes
+---|---|---
+Game Developer | UBM Tech | March 1994 until July 2013
+Game Maker | Future Publishing | Only 1 issue published?
+Wireframe | Raspberry Pi Press | From November 2018 and still going strong in January 2022!
 
 ## Wireframe Magazine
 [Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
