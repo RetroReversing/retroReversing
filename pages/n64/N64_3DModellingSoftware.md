@@ -3,13 +3,10 @@ layout: post
 tags: 
 - n64
 - 3d
+- tools
 title: N64 3D Modelling Software
-image:  https://img.youtube.com/vi/TxlVAQeJQEk/hqdefault.jpg
+image: /public/N64/Nintendo64_NinGen_MultiGen_ge007_stpetersburg.png
 thumbnail: /public/consoles/Nintendo 64.png
-videocarousel:
-  - title: Alias Wavefront, Batman & Robin 3D Character Models on SGI Indy from Probe Software - YouTube
-    image: https://img.youtube.com/vi/TxlVAQeJQEk/hqdefault.jpg
-    youtube: TxlVAQeJQEk
 permalink: /n64-3d-modelling
 breadcrumbs:
   - name: Home
@@ -18,7 +15,10 @@ breadcrumbs:
     url: /n64
   - name: Nintendo 64 3D Modelling Software
     url: #
-recommend: n64
+recommend: 
+- n64
+- 3d
+- tools
 editlink: /n64/N64_3DModellingSoftware.md
 updatedAt: '2020-05-03'
 ---
@@ -53,15 +53,17 @@ Notable Games with assets created in Multigen:
 
 ---
 ## Alias/Power Animator/Wavefront
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TxlVAQeJQEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 Alias Power Animator was an excellent 3D modelling and animation package developed for SGI workstations. It came at a very high price point of £60,000 but came with plugins especially for Nintendo 64 development but they were not officially supported by Nintendo [^2].
 
 The software later changed its name to `Alias | Wavefront` after buying out the rival company called `Wavefront`.
 
 This package eventually got turned in to `Maya` and was bought by Autodesk, it is still used in the games industry today but not as widely as competitors such as 3DS Max [^2].
 
-Power Animator was used to develop games such as DMA Design's `Silicon Valley` for the Nintendo 64 [^14].
+Power Animator was used to develop games such as DMA Design's **Silicon Valley** for the Nintendo 64 [^14].
+
+The Video below showed Batman & Robin 3D Character Models running on a SGI Indy from Probe Software but it has since been deleted:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TxlVAQeJQEk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Hopefully someone can re-upload this video as it was a good demo for how Alias Wavefront looked on the SGI Indy!
 
 ---
 ## Softimage
