@@ -89,6 +89,23 @@ One of the good things about CGW is that they have articles from each issue avai
 
 Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
 
+The magazine is formed of 80+ pages of content, some of which are adverts (interesting CG tool adverts however!) and the following main content sections:
+* Editor's Note (Also on Website)
+* Letters - Published user letters sent to the magazine (Only in physical Magazine)
+* Spotlight - News and Products (Also on Website)
+* Tech Watch - Interesting artcles (Only in physical Magazine)
+* Portfolio (Not got copyright permission for website)
+* User Focus
+* Products (Also on Website)
+
+### Articles
+The table below focuses on the articles related to Game Development, the list is still a WIP:
+
+Issue | Title | Author | Notes
+---|---|---|---
+1996-12 | New Tools for 3D Gamers | Donna Coco | [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
+
+
 ---
 ## Computer Artist (USA)
 Computer Artist was a monthly magazine published every 2 months by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the first issue was published but the last issue was in June 1997 when it merged into **Electronic Publishing** magazine.
