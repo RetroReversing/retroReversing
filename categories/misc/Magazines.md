@@ -73,12 +73,21 @@ Title | Notes
 3D World | Global magazine from ? and still going today
 Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
+Computer Graphics World | USA magazine from 1980 until 2022 published by PennWell Publishing Company
 Digit | UK magazine
 Digital Arts | UK magazine
 Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
 Photoshop Creative | until September 2018
 Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
+
+---
+## Computer Graphics World (USA)
+Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the early 80s right up to the present day (2022+).
+
+One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. Howevr one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
+
+Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
 
 ---
 ## Computer Artist (USA)
