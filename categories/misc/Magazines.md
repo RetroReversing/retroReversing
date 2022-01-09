@@ -119,6 +119,21 @@ Issue | Title | Author | Notes
 1992-11 | Modeling Made Easy | Caren D. Potter |
 1992-12 | Galactic Graphics | Patricia Barnes-Svarney |
 1993-01 | Prime-Time Proving Ground for 3D Graphics | Barbara Robertson |  
+1993-06 | Kicking the Tires of VR Software | Louis M. Brill | 
+1993-07 | Hell-Bent on Adventure | Gaye L. Graves | 
+1993-08 | The Amiga: Is it Time You Took a Second Look? | Rick Cook | 
+1993-09 | Terrain Modeling | Laura Lang | 
+1993-10 | Evaluating 3D on the High End | Tim Forcade | 
+1993-12 | The Games People Play | Laureen Belleville | 
+1994-09 | Interacting With the Gods | T. Reveaux | 
+1994-10 | Inside the Game Developer's Toolbox | D. Coco | 
+1994-11 | Exploring the Options Beyond 3D Studio | D. Pope | 
+1994-12 | Fresh Paint: Like word processing, page-layout, and image-editing programs, 3D painting software-which enables artists to paint texture maps directly and interactively onto 3D models-is one of those technologies that seems impossible to imagine ever having been without | B. Robertson | 
+1995-02 | 3D conquers the PC | Donna Coco | 
+1995-04 | User Snapshots - Animations help sell cereal. Creating cartoon characters for new CD-ROM game. | Unknown | 
+1995-05 | Driving VR | Diana Phillips Mahoney | 
+1995-05 | Plug-Ins Electrify 3D Studio | Barbara Robertson | 
+1995-05 | Model Shop - Designing a watch with Alias Studio | Unknown | 
 1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
 1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
 1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
