@@ -1,6 +1,7 @@
 ---
 layout: post
 permalink: /3d-software
+thumbnail: /public/images/RetroReversingLogoSmall.png
 console: 3d
 breadcrumbs:
   - name: Home
