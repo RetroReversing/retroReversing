@@ -108,6 +108,17 @@ Issue | Title | Author | Notes
 1990-12 | Silicon Graphics Straddles PC\Workstation Market | Unknown | Early SGI articles are always interesting
 1991-02 | A Real-Time Stroll | Unknown | Early real-time graphics from 1991
 1991-03 | The Video Toaster | Unknown | Later became Lightwave3D
+1991-05 | 3D from the Ground Up | Unknown | Might have interesting technical details
+1991-06 | Algorithmic Advancements | Peter Sorensen | These algorithms influenced CG and game developers
+1991-10 | Painting in 3D | Barbara Robertson | Early 3D painting technology
+1992-03 | Virtual Reality | Arielle Emmett | 
+1992-03 | Multimedia Development | Unknown | Games are multimedia ao might be an interesting article for a 1992 perspective
+1992-05 | Let the Games Begin | Diana Phillips Mahoney |
+1992-05 | The market for virtual reality | Unknown | Early VR tech
+1992-07 | SIGGRAPH '92 Preview | Unknown | Would be good to see what was shown at SIGGRAPH 1992
+1992-11 | Modeling Made Easy | Caren D. Potter |
+1992-12 | Galactic Graphics | Patricia Barnes-Svarney |
+1993-01 | Prime-Time Proving Ground for 3D Graphics | Barbara Robertson |  
 1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
 1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
 1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
