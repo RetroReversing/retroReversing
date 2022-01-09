@@ -1,12 +1,14 @@
 ---
 layout: post
 permalink: /magazines
-console: documentary
+console: magazines
+thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /
 redirect_from:
   - /industry-magazines
+  - /magazine
 editlink: ../categories/misc/Magazines.md
 recommend: magazines
 ---
