@@ -84,6 +84,7 @@ You can view a product demo created by AutoDesk in 1996 [^6] below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y8azQEceSJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The video even shows Character Studio which is a tool to help create 3D animated characters and has built in animations for common walk cycles.
+
 ---
 # Retro Games that used 3DS Max
 Game Studios don't tend to advertise which 3D modeling program they used for the creation of specific games, and models tend to be compressed into game specific formats when released. So it can be hard to tell what games used 3D Studio (Max) but the games we know about will be placed in the table below.
