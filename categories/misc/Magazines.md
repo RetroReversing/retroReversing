@@ -21,7 +21,7 @@ Occasionally you can be lucky enough to find a whole magazine specifically dedic
 
 Title | Publisher | Notes
 ---|---|---
-Develop | NewBayMedia | Published Until November 2017
+Develop | NewBayMedia | Published from August 1996 Until November 2017
 Game Developer | UBM Tech | March 1994 until July 2013
 Game Maker | Future Publishing | Only 1 issue published?
 Wireframe | Raspberry Pi Press | From November 2018 and still going strong in January 2022!
