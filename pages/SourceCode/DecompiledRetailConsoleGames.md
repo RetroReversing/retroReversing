@@ -411,11 +411,18 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 # Microsoft Systems
 There are only a handful of reverse engineered games for Microsoft games consoles.
 
+## MSX
+
+### Metal Gear
+[GuillianSeed/MetalGear: Fully annotated disassembly of the original Metal Gear game (MSX2, Konami, 1987, RC750)](https://github.com/GuillianSeed/MetalGear)
+
+---
 ## Xbox 360
 
 ### Terraria
 {% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
 
+---
 ## PC
 
 ### Sonic CD
