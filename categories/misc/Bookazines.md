@@ -120,7 +120,7 @@ INSTANCING | Control objects with intelligent cloning | Issue 173 (October 2013)
 URBAN ENVIRONMENTS | Design realistic cities in no time | Issue 178 (Feb 2014)
 STUNNING SIMULATIONS | Explore the features and uses of particle effects | 
 FLUID DYNAMICS | Understand fluid dynamics systems | 
-SUB-SURFACE SCATTERING | Create convincing interactions with this technique | 
+SUB-SURFACE SCATTERING | Create convincing interactions with this technique | Issue 172 (September 2013)
 MEDICAL GRAPHICS | This niche world can really influence your work | 
 
 The **Questions and Answers** section contains 6 of the most popular Q&A sections from the monthly magazine.
@@ -146,7 +146,7 @@ PARTICLE SYSTEMS: PART 1 | Part one of two looking at particle systems |
 PARTICLE SYSTEMS: PART 2 |  Further advice on particle systems | 
 DEPTH OF COLOUR |  The basics of colour depth of raster images | 
 
-Tye **Tutorials** section contains 14 articles written for specific software such as 3ds Max, Photoshop and ZBrush.
+The **Tutorials** section contains 14 articles written for specific software such as 3ds Max, Photoshop and ZBrush.
 
 Name | Tag Line | Author | Original issue
 ---|---|---|---
