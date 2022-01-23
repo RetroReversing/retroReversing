@@ -84,13 +84,14 @@ The table below shows the pieces features in the Bookazine along with their arti
 
 Name of Piece | Artist Name | Software used
 ---|---|---
-Dog | Caetano Silva | ZBrush, Modo, Cinema 4D, Photoshop
+[Dog](https://caetanosilva.com/dog-un-mariachi) | Caetano Silva | ZBrush, Modo, Cinema 4D, Photoshop
 Hades, God Of The Underworld | Elena Bespalova | Maya, ZBrush, Keyshot
-Deathstroke's Revenge | Alessandro Baldasseroni | 3ds Max, ZBrush, Mudbox, V-Ray, Photoshop
-Miyamoto Chu With His Super Car | Hsun-Chun Chuang | Maya, mental ray, Photoshop, After Effects
-Cybernetic Organism Artemis AA 3057 | Sengjoon Song | Maya, Mari, Photoshop, nDo, Headus UVLayout, V-Ray
+Deathstroke's Revenge | [Alessandro Baldasseroni](https://alessandrobaldasseroni.com/) | 3ds Max, ZBrush, Mudbox, V-Ray, Photoshop
+[Miyamoto Chu With His Super Car](https://www.artstation.com/artwork/oyW4O) | Hsun-Chun Chuang | Maya, mental ray, Photoshop, After Effects
+Cybernetic Organism Artemis AA 3057 | [Sengjoon Song](https://www.sengjoon.com/) | Maya, Mari, Photoshop, nDo, Headus UVLayout, V-Ray
 BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
-Red-eyes Tree Frog | Gordon Goane | ZBrush, Maya, TopoGun, KeyShot, Photoshop
-Baby Rock 2.0 | Alessio Rossi | 3ds Max, V-Ray, Mudbox, Photoshop
-Valhalla | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
+[Red-eyed Tree Frog](https://gordongoane.com/projects/W5bX) | Gordon Goane | ZBrush, Maya, TopoGun, KeyShot, Photoshop
+[Baby Rock 2.0 - Alessio Rossi](https://www.alessiorossi.com/baby-rock-2-0/) | Alessio Rossi | 3ds Max, V-Ray, Mudbox, Photoshop
+[Valhalla](https://www.rochr.com/Valhalla.html) | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
 The Pirate | [Pietro Licini](https://pietrolicini.com/) | Maya, ZBrush, Mudbox, Arnold, Photoshop
+
