@@ -93,4 +93,4 @@ BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
 Red-eyes Tree Frog | Gordon Goane | ZBrush, Maya, TopoGun, KeyShot, Photoshop
 Baby Rock 2.0 | Alessio Rossi | 3ds Max, V-Ray, Mudbox, Photoshop
 Valhalla | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
-The Pirate | Pietro Licini| Maya, ZBrush, Mudbox, Arnold, Photoshop
+The Pirate | [Pietro Licini](https://pietrolicini.com/) | Maya, ZBrush, Mudbox, Arnold, Photoshop
