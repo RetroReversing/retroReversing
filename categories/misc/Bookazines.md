@@ -99,21 +99,21 @@ The Fundamentals actions is a series of 19 articles all written by **Mike Griggs
 
 Name | Tag Line | Original Issue
 ---|---|---
-[MODELS FOR GAME ENGINES](https://www.creativebloq.com/3d/create-3d-models-game-engines-5-pro-tips-41411267) | Learn core skills with this easy introduction | April 2014?
+[MODELS FOR GAME ENGINES](https://www.creativebloq.com/3d/create-3d-models-game-engines-5-pro-tips-41411267) | Learn core skills with this easy introduction | 177 (Jan 2014)
 TRIMMING POLYS | Removing unnecessary polys is key for workflow | 
 MESH SMOOTHING | Smoothing is an essential basic for modellers | 
 UV MAPS | The basics of using UV maps | 
 LEARN HOW TO USE RIGGING | An essential skill for animation | 
 UNDERSTAND RIGID DYNAMICS | Physics-based dynamics explained | 
 UNDERSTAND SOFT DYNAMICS | Use these to create movement in your scenes | 
-UNDERSTAND YOUR CAMERA | Create realistic viewpoints by looking down a lens | 
+UNDERSTAND YOUR CAMERA | Create realistic viewpoints by looking down a lens | Issue 179 (March 2014)
 USING HDR TO LIGHT SCENES | Use image-based lighting to maximum effect | 
 HAIR AND FUR | Learn how to bring hair and fur to life | 
 GREAT CREATURE DESIGN | Key steps for cracking creatures | 
 METAL SURFACES | What you need to know to render metal surfaces | 
 TILED TEXTURES | Discover seamless textures for improved workflow | 
 INSTANCING | Control objects with intelligent cloning | 
-URBAN ENVIRONMENTS | Design realistic cities in no time | 
+URBAN ENVIRONMENTS | Design realistic cities in no time | Issue 178 (Feb 2014)
 STUNNING SIMULATIONS | Explore the features and uses of particle effects | 
 FLUID DYNAMICS | Understand fluid dynamics systems | 
 SUB-SURFACE SCATTERING | Create convincing interactions with this technique | 
