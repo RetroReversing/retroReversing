@@ -79,10 +79,10 @@ First published in 2014 by **Future** this Bookazine has been republished at lea
 
 ### Contents of Get Started in 3D
 The Bookazine is split into the following sections:
-* Showcase - Shows off 10 fantastic pieces of 3D Art
-* Fundamentals - 19 Articles by Mike Griggs
-* Theory
-* Tutorials
+* **Showcase** - Shows off 10 fantastic pieces of 3D Art
+* **Fundamentals** - 19 Articles by Mike Griggs
+* **Theory** - 5 Articles on theory by Denis Kozlov
+* **Tutorials** - 14 articles written for specific software
 
 The table below shows the pieces features in the Bookazine along with their artists and the software used to create them.
 
@@ -139,7 +139,7 @@ PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job by Ian Dean
 The **Theory** section contains an in-depth look at the theoretical concepts that make 3D graphics work, all written by **Denis Kozlov**.
 
 Name | Tag Line | Original issue
----|---|---|---
+---|---|---
 VIRTUAL LENSES | Create faultless renders with virtual lenses | 
 PIXEL PERSPECTIVE | Think of pixels as data and not colours | 
 PARTICLE SYSTEMS: PART 1 | Part one of two looking at particle systems | 
