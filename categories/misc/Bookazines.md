@@ -64,8 +64,33 @@ Videogames Hardware Handbook | Future Publishing | Articles from Retro Gamer mag
 Title | Publisher | Notes
 ---|---|---
 Flash Essentials | Future Publishing | Articles from .net magazine
-Get Started in 3D | Future Publishing | 
+Get Started in 3D | Future Publishing | Articles from 3D World magazine (2014-2021)
 Illustrate with Photoshop Genius Guide | Future Publishing | At least 6 editions
 ImagineFX Annual | Future Publishing | 
 The Sci-fi & Fantasy Art Book | Future Publishing | at least 4 editions published
 The Ultimate Guide to Graphic Design | Dennis Publishing | contains articles from MacUser magazine
+
+## Get Started in 3D
+First published in 2014 by **Future** this Bookazine has been republished at least 4 times with almost identical content. It contains 180 pages of pure content with no Advertisements, honestly if you can find a copy in your local newsagents then I would reccomend picking it up as it is well worth the money.
+
+### Contents of Get Started in 3D
+The Bookazine is split into the following sections:
+* Showcase - Shows off 10 fantastic pieces of 3D Art
+* Fundamentals
+* Theory
+* Tutorials
+
+The table below shows the pieces features in the Bookazine along with their artists and the software used to create them.
+
+Name of Piece | Artist Name | Software used
+---|---|---
+Dog | Caetano Silva | ZBrush, Modo, Cinema 4D, Photoshop
+Hades, God Of The Underworld | Elena Bespalova | Maya, ZBrush, Keyshot
+Deathstroke's Revenge | Alessandro Baldasseroni | 3ds Max, ZBrush, Mudbox, V-Ray, Photoshop
+Miyamoto Chu With His Super Car | Hsun-Chun Chuang | Maya, mental ray, Photoshop, After Effects
+Cybernetic Organism Artemis AA 3057 | Sengjoon Song | Maya, Mari, Photoshop, nDo, Headus UVLayout, V-Ray
+BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
+Red-eyes Tree Frog | Gordon Goane | ZBrush, Maya, TopoGun, KeyShot, Photoshop
+Baby Rock 2.0 | Alessio Rossi | 3ds Max, V-Ray, Mudbox, Photoshop
+Valhalla | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
+The Pirate | Pietro Licini| Maya, ZBrush, Mudbox, Arnold, Photoshop
