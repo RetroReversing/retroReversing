@@ -63,13 +63,17 @@ Videogames Hardware Handbook | Future Publishing | Articles from Retro Gamer mag
 
 Title | Publisher | Notes
 ---|---|---
+3D Art & Design | Imagine Publishing | From the makers of 3D Artist, 2010-2011, replaced by "The 3D Art & Design Book"
 Flash Essentials | Future Publishing | Articles from .net magazine
 Get Started in 3D | Future Publishing | Articles from 3D World magazine (2014-2021)
 Illustrate with Photoshop Genius Guide | Future Publishing | At least 6 editions
 ImagineFX Annual | Future Publishing | 
+The 3D Art & Design Annual | Imagine Publishing & Future Publishing (from 2017) | From the makers of: 3D Artist, 6 known volumes available 
+The 3D Art & Design Book | Imagine Publishing | From 2012 to 2014) it replaces 3D "Art & Design" and is further replaced by "The 3D Art & Design Annual"
 The Sci-fi & Fantasy Art Book | Future Publishing | at least 4 editions published
 The Ultimate Guide to Graphic Design | Dennis Publishing | contains articles from MacUser magazine
 
+---
 ## Get Started in 3D
 First published in 2014 by **Future** this Bookazine has been republished at least 4 times with almost identical content. It contains 180 pages of pure content with no Advertisements, honestly if you can find a copy in your local newsagents then I would reccomend picking it up as it is well worth the money.
 
@@ -95,7 +99,7 @@ BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
 [Valhalla](https://www.rochr.com/Valhalla.html) | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
 The Pirate | [Pietro Licini](https://pietrolicini.com/) | Maya, ZBrush, Mudbox, Arnold, Photoshop
 
-The Fundamentals actions is a series of 19 articles all written by **Mike Griggs** and previously featured in the monthly 3D World Magazine, the table below lists the articles along with the original magazine they were featured in (if known).
+The **Fundamentals** section is a series of 19 articles all written by **Mike Griggs** and previously featured in the monthly 3D World Magazine, the table below lists the articles along with the original magazine they were featured in (if known).
 
 Name | Tag Line | Original Issue
 ---|---|---
@@ -119,7 +123,7 @@ FLUID DYNAMICS | Understand fluid dynamics systems |
 SUB-SURFACE SCATTERING | Create convincing interactions with this technique | 
 MEDICAL GRAPHICS | This niche world can really influence your work | 
 
-Questions and Answers
+The **Questions and Answers** section contains 6 of the most popular Q&A sections from the monthly magazine.
 
 Name | Tag Line | Original Issue
 ---|---|---
@@ -129,6 +133,34 @@ QUESTIONS AND ANSWERS 3 | Modelling dinosaurs and more! |
 QUESTIONS AND ANSWERS 4 | Includes a mech design masterclass | 
 QUESTIONS AND ANSWERS 5 | Global illumination in C4D and more | 
 QUESTIONS AND ANSWERS 6 | Includes how to create realistic materials | 
-PORTFOLIOS | The pro’s guide to building a better portfolio | 
-PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job | 
+PORTFOLIOS | The pro’s guide to building a better portfolio by Andrew Gordon | 
+PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job by Ian Dean | 
 
+The **Theory** section contains an in-depth look at the theoretical concepts that make 3D graphics work, all written by **Denis Kozlov**.
+
+Name | Tag Line | Original issue
+---|---|---|---
+VIRTUAL LENSES | Create faultless renders with virtual lenses | 
+PIXEL PERSPECTIVE | Think of pixels as data and not colours | 
+PARTICLE SYSTEMS: PART 1 | Part one of two looking at particle systems | 
+PARTICLE SYSTEMS: PART 2 |  Further advice on particle systems | 
+DEPTH OF COLOUR |  The basics of colour depth of raster images | 
+
+Tye **Tutorials** section contains 14 articles written for specific software such as 3ds Max, Photoshop and ZBrush.
+
+Name | Tag Line | Author | Original issue
+---|---|---|---
+ANATOMY: PART 1 | Sculpting the torso | Dan Crossland |
+ANATOMY: PART 2 | Sculpting the masses | Dan Crossland |
+ANATOMY: PART 3 | Sculpting the muscles | Dan Crossland |
+ANATOMY: PART 4 | Creating a master model | Dan Crossland |
+HANDS | Detailed hands in ZBrush | Titouan Olive | 
+UNWRAPPING UVS | Master this core skill | Rob Redman | 
+BIG SCREEN CREATURES | Cinematic creatures in 10 easy steps | Tyler Bolyard | 
+LIGHT AND TEXTURE | Apply texture and light to a complex character | Daniele Scerra | 
+RIG-READY CREATURES | Get to grips with retopology tools | Adam Dewhirst | 
+CHARACTER CONCEPTS | Successful character concepts in 15 stages | Dan Mason | 
+12 CAR RENDER TIPS | Use 3ds Max and V-Ray for perfect car rendering | Dave Cox | 
+SCI-FI RACING | Create futurist racing machines in 3ds Max 2015 | Al Brady | 
+REALISTIC ENVIRONMENTS |  Build your own cityscape in fantastic detail (3ds max, photoshop) | Anthony Eftekhari | 
+PHOTOSHOP TEXTURES |  10 top tips for better textures in Photoshop | Leigh van der Byl  | 
