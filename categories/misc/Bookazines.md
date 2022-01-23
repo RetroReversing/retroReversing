@@ -76,7 +76,7 @@ First published in 2014 by **Future** this Bookazine has been republished at lea
 ### Contents of Get Started in 3D
 The Bookazine is split into the following sections:
 * Showcase - Shows off 10 fantastic pieces of 3D Art
-* Fundamentals
+* Fundamentals - 19 Articles by Mike Griggs
 * Theory
 * Tutorials
 
@@ -94,4 +94,41 @@ BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
 [Baby Rock 2.0 - Alessio Rossi](https://www.alessiorossi.com/baby-rock-2-0/) | Alessio Rossi | 3ds Max, V-Ray, Mudbox, Photoshop
 [Valhalla](https://www.rochr.com/Valhalla.html) | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
 The Pirate | [Pietro Licini](https://pietrolicini.com/) | Maya, ZBrush, Mudbox, Arnold, Photoshop
+
+The Fundamentals actions is a series of 19 articles all written by **Mike Griggs** and previously featured in the monthly 3D World Magazine, the table below lists the articles along with the original magazine they were featured in (if known).
+
+Name | Tag Line | Original Issue
+---|---|---
+[MODELS FOR GAME ENGINES](https://www.creativebloq.com/3d/create-3d-models-game-engines-5-pro-tips-41411267) | Learn core skills with this easy introduction | April 2014?
+TRIMMING POLYS | Removing unnecessary polys is key for workflow | 
+MESH SMOOTHING | Smoothing is an essential basic for modellers | 
+UV MAPS | The basics of using UV maps | 
+LEARN HOW TO USE RIGGING | An essential skill for animation | 
+UNDERSTAND RIGID DYNAMICS | Physics-based dynamics explained | 
+UNDERSTAND SOFT DYNAMICS | Use these to create movement in your scenes | 
+UNDERSTAND YOUR CAMERA | Create realistic viewpoints by looking down a lens | 
+USING HDR TO LIGHT SCENES | Use image-based lighting to maximum effect | 
+HAIR AND FUR | Learn how to bring hair and fur to life | 
+GREAT CREATURE DESIGN | Key steps for cracking creatures | 
+METAL SURFACES | What you need to know to render metal surfaces | 
+TILED TEXTURES | Discover seamless textures for improved workflow | 
+INSTANCING | Control objects with intelligent cloning | 
+URBAN ENVIRONMENTS | Design realistic cities in no time | 
+STUNNING SIMULATIONS | Explore the features and uses of particle effects | 
+FLUID DYNAMICS | Understand fluid dynamics systems | 
+SUB-SURFACE SCATTERING | Create convincing interactions with this technique | 
+MEDICAL GRAPHICS | This niche world can really influence your work | 
+
+Questions and Answers
+
+Name | Tag Line | Original Issue
+---|---|---
+QUESTIONS AND ANSWERS 1 | Your problems solved by our experts | 
+QUESTIONS AND ANSWERS 2 | More 3D problems solved | 
+QUESTIONS AND ANSWERS 3 | Modelling dinosaurs and more! | 
+QUESTIONS AND ANSWERS 4 | Includes a mech design masterclass | 
+QUESTIONS AND ANSWERS 5 | Global illumination in C4D and more | 
+QUESTIONS AND ANSWERS 6 | Includes how to create realistic materials | 
+PORTFOLIOS | The pro’s guide to building a better portfolio | 
+PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job | 
 
