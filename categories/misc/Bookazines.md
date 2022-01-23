@@ -104,18 +104,18 @@ The **Fundamentals** section is a series of 19 articles all written by **Mike Gr
 Name | Tag Line | Original Issue
 ---|---|---
 [MODELS FOR GAME ENGINES](https://www.creativebloq.com/3d/create-3d-models-game-engines-5-pro-tips-41411267) | Learn core skills with this easy introduction | Issue 177 (Jan 2014)
-TRIMMING POLYS | Removing unnecessary polys is key for workflow | 
+TRIMMING POLYS | Removing unnecessary polys is key for workflow | Issue 169 (June 2013)
 MESH SMOOTHING | Smoothing is an essential basic for modellers | Issue 175 (December 2013)
-UV MAPS | The basics of using UV maps | 
+UV MAPS | The basics of using UV maps | Issue 171 (August 2013)
 LEARN HOW TO USE RIGGING | An essential skill for animation | 
 UNDERSTAND RIGID DYNAMICS | Physics-based dynamics explained | 
 UNDERSTAND SOFT DYNAMICS | Use these to create movement in your scenes | 
 UNDERSTAND YOUR CAMERA | Create realistic viewpoints by looking down a lens | Issue 179 (March 2014)
-USING HDR TO LIGHT SCENES | Use image-based lighting to maximum effect | 
+USING HDR TO LIGHT SCENES | Use image-based lighting to maximum effect | Issue 170 (July 2013)
 HAIR AND FUR | Learn how to bring hair and fur to life | Issue 174 (November 2013)
-GREAT CREATURE DESIGN | Key steps for cracking creatures | 
+GREAT CREATURE DESIGN | Key steps for cracking creatures | Issue 167 (April 2013)
 METAL SURFACES | What you need to know to render metal surfaces | 
-TILED TEXTURES | Discover seamless textures for improved workflow | 
+TILED TEXTURES | Discover seamless textures for improved workflow | Issue 166 (March 2013)
 INSTANCING | Control objects with intelligent cloning | Issue 173 (October 2013)
 URBAN ENVIRONMENTS | Design realistic cities in no time | Issue 178 (Feb 2014)
 STUNNING SIMULATIONS | Explore the features and uses of particle effects | 
@@ -160,7 +160,7 @@ BIG SCREEN CREATURES | Cinematic creatures in 10 easy steps | Tyler Bolyard |
 LIGHT AND TEXTURE | Apply texture and light to a complex character | Daniele Scerra | 
 RIG-READY CREATURES | Get to grips with retopology tools | Adam Dewhirst | 
 CHARACTER CONCEPTS | Successful character concepts in 15 stages | Dan Mason | 
-12 CAR RENDER TIPS | Use 3ds Max and V-Ray for perfect car rendering | Dave Cox | 
+12 CAR RENDER TIPS | Use 3ds Max and V-Ray for perfect car rendering | Dave Cox | Issue 170 (July 2013)
 SCI-FI RACING | Create futurist racing machines in 3ds Max 2015 | Al Brady | 
 REALISTIC ENVIRONMENTS |  Build your own cityscape in fantastic detail (3ds max, photoshop) | Anthony Eftekhari | 
-PHOTOSHOP TEXTURES |  10 top tips for better textures in Photoshop | Leigh van der Byl  | 
+PHOTOSHOP TEXTURES |  10 top tips for better textures in Photoshop | Leigh van der Byl  | Issue 167 (April 2013)
