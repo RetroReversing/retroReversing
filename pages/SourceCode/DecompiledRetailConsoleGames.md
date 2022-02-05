@@ -407,6 +407,9 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ### PSX DOOM
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg" title="Psx Doom Reverse Engineering"  %}
 
+### Castlevania: Symphony of the Night
+{% include link-to-other-site.html url="https://github.com/xeeynamo/sotn-decomp" description="In-progress decompilation and reverse engineering of Castlevania Symphony of the Night" image="https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg" title="Castlevania: Symphony of the Night"  %}
+
 ---
 # Microsoft Systems
 There are only a handful of reverse engineered games for Microsoft games consoles.
