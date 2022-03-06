@@ -185,6 +185,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Super Mario Sunshine
 {% include link-to-other-site.html url="https://github.com/JimB16/SMS" description="Disassembly of the main .dol-file of Super Mario Sunshine, lacks documentation but a very impressive project." image="https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Super_mario_sunshine.jpg/220px-Super_mario_sunshine.jpg" title="Disassembly of Super Mario Sunshine"  %}
 
+### Super Monkey Ball
+{% include link-to-other-site.html url="https://github.com/camthesaxman/smb-decomp/" description="" image="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Super_Monkey_Ball_Coverart.png/220px-Super_Monkey_Ball_Coverart.png" title="Super Monkey Ball Decompilation"  %}
+
 ---
 ## Nintendo Wii
 
