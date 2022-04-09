@@ -10,6 +10,8 @@ breadcrumbs:
     url: /
   - name: Leaks
     url: #
+redirect_from:
+  -  /leak
 editlink: ../categories/misc/Leaks.md
 ---
 
