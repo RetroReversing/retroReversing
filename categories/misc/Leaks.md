@@ -1,8 +1,10 @@
 ---
 permalink: /leaks
 layout: post
-console: leaks
-recommend: leaks
+console: leak
+recommend: 
+- leaks
+- leak
 recommendTitle: All Leaks
 title: Game Industry Source Code Leaks
 breadcrumbs:
