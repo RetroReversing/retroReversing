@@ -44,6 +44,19 @@ Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has c
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+# Games
+The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.
+
+## Remakes for the GBA
+As soon as the Game Boy Advance (GBA) was annonced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
+
+The GBA is a completely different beast from the SNES in terms of architecture and with most SNES games written in pure 6502 assembly it wasn't possible to just do a straight port. Most of the games needed to be re-written from scratch to support the new portable console.
+During this process a lot of changes were made to fit the much smaller non-backlit screen of the GBA, such as increasing the sprite size and brightening the contrast. 
+
+The Youtuber **CaptRobau** has an excellent video showing off the graphical differences between all 48 games that were remade for the GBA:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xurqNOafU6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+---
 # Game Modification and ROM Hacking
 
 ## SNES Save Editing with Link to the Past
