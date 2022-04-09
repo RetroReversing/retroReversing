@@ -7,5 +7,6 @@ breadcrumbs:
     url: /
 redirect_from:
   - /datel
+editlink: ../categories/companies/datel.md
 ---
 {% include console.html %}
