@@ -57,6 +57,12 @@ The Youtuber **CaptRobau** has an excellent video showing off the graphical diff
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xurqNOafU6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ---
+# Sound and Music
+
+For anyone interested in how Sound works on the SNES you should watch **SNES Audio System Overview** from **Retro Game Mechanics Explained** on Youtube:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zrn0QavLMyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # Game Modification and ROM Hacking
 
 ## SNES Save Editing with Link to the Past
