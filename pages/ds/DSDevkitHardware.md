@@ -129,11 +129,13 @@ The connected DS was used as a controller, this allowed the players to use the t
 <img src="/public/images/ds/IS-NITRO-UIC.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-The ** IS-NITRO-UIC** is a piece of development hardware that was used to test MIDI sound on the Nintendo DS. 
+The **IS-NITRO-UIC** is a piece of development hardware that was used to test MIDI sound on the Nintendo DS. 
 
 The hardware would be connected to a developers PC via USB, and using the provided software the sound engineer could send midi files that would play back on the device's speakers.
 
 The hardware could also be connected to any MIDI instrument directly via the MIDI interface!
+   
+<img src="/public/images/ds/IS-NITRO-UIC-DIAGRAM.jpg" class="wow slideInLeft postImage" />
  </div>
 </section> 
 
