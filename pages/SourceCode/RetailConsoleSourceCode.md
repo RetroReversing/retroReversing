@@ -41,7 +41,7 @@ Nintendo systems have by far the largest selection of official source code to ch
 {% include link-to-other-site.html url="https://github.com/infinity-gbc/infinity" description="Infinity is a role-playing game for the Game Boy Color handheld game console, developed by Affinix Software primarily between the years 1999 and 2001. The game is incomplete and should be considered alpha/preview quality. " image="" title="Infinity"  %}
 
 ### Little Mermaid Pinball 
-{% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="Source code fo the retai game boy release of Little Mermaid Pinball" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
+{% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="Source code for the retail game boy release of Little Mermaid Pinball" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
 
 ### Mr Do!
 {% include link-to-other-post.html post="/mrdo" description="For more information on the Mr Do! Game Boy source code check out this post." %}
@@ -53,7 +53,15 @@ Nintendo systems have by far the largest selection of official source code to ch
 The source code to Pokemon Silver and Gold were released as part of the Nintendo Leaks in early 2020.
 
 ---
+## Game Boy Advance
+The GBA was the first Nintendo portable to have most of its games written in the C language as compilers had finally become good enough to develop full retail games with.
+
+### Manic Miner
+{% include link-to-other-site.html url="https://illusion.64history.net/2022/manic-miner-gba-source" description="Manic Miner for the GBA full Source code" image="https://upload.wikimedia.org/wikipedia/en/3/31/Manic_miner_bugbyte.jpg" title="Manic Miner (GBA)"  %}
+
+---
 ## Nintendo Entertainment System
+Games for Nintendo's first console was almost exclusivly written in 6502 assembly language as anything higher level would simply be too slow due to early compilers producing less efficient code than human programmers.
 
 ### Magician
 {% include link-to-other-site.html url="https://github.com/makiten/Magician-NES" description="Source Code officially released by developers" image="https://upload.wikimedia.org/wikipedia/en/5/5d/Magician_Cover.jpg" title="Magician"  %}
