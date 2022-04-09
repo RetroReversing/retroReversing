@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/RetailConsoleSourceCode.md
-updatedAt: '2020-11-24'
+updatedAt: '2022-04-09'
 ---
 It is very rare that a commercial game releases its source code to the public, it is even rarer for that to be a console game, but there have been a few exciting cases in recent history which we will explore in this post.
 
@@ -165,6 +165,11 @@ Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fac
 The source code for the misadventures of Tron Bonne was released as part of the November 2020 Capcom leaks.
 
 {% include link-to-other-post.html post="/capcomleaks" description="For more information on the Tron Bonne source code check out this post." %}
+
+### Wipeout
+On the 27th March 2022 **March42** and **Forest of Illusion** released the official source code to one of the most popular original Playstation games, Wipeout! 
+
+{% include link-to-other-site.html url="https://illusion.64history.net/2022/wipeout-psx-windows-source" description="Not known if its buildable" image="https://upload.wikimedia.org/wikipedia/en/c/c3/WipEoutCover.jpg" title="Wipeout"  %}
 
 ---
 ## Sony Playstation 2
