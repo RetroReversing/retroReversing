@@ -55,6 +55,20 @@ It was created by Andy Gavin and Jason Rubin for release on the original Playsta
 
 {% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
 
+## Remastered PS1 Games
+Some classic PS1 games have been remastered or remade for more modern consoles, if you are looking to reverse engineer one of these games it may help to look at the modern version to find additional information that may be relevant.
+
+Name | Platform | Notes
+---|---|---
+Crash Bandicoot 1-3 | PS4, Switch, PC, XboxOne | Remade in a new engine but tried to be as faithful as possible to the originals
+Crash Team Racing | PS4, Switch, PC, XboxOne | Remade in a new engine with additional content from Crash Nitro Cart and Crash tag Team Racing
+Castlevania SOTN | Xbox360, PS4, iOS, Android | Re-Released in Castlevania Requiem compilation
+Final Fantasy 7-9 | PS4, Switch | 
+Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher resolution assets? (confirmation required)
+Medievil | PS4 | Remade in the Unreal Engine
+Spyro 1-3 | PS4, Switch | Remade in Unreal Engine 4 but aims to be as faithful as possible to the originals
+Resident Evil 1-3 | PS3, PS4, XboxOne | Does this use original engine with higher resolution assets?
+
 ---
 # Development Kits (Hardware)
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by Sony as a few other publishers had their own versions of development hardware.
