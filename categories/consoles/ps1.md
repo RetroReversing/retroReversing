@@ -67,6 +67,7 @@ Final Fantasy 7-9 | PS4, Switch |
 Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher resolution assets? (confirmation required)
 Medievil | PS4 | Remade in the Unreal Engine
 Mega Man X 4 | PS4, Switch, XboxOne | Source Code Port of X4 Released in **Mega Man X Legacy Collection**
+Metal Gear Solid | Gamecube | Remade for Gamecube as **Metal Gear Solid: The Twin Snakes**
 PaRappa The Rapper | PSP, PS4 | The PS4 version is actually just a the PSP version emulated with higher resolution assets
 Resident Evil 1-3 | PS3, PS4, XboxOne | Does this use original engine with higher resolution assets?
 SaGa Frontier | PS4, Switch, iOS, Android, Windows | 
