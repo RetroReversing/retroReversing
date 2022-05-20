@@ -73,6 +73,7 @@ SaGa Frontier | PS4, Switch, iOS, Android, Windows |
 Spyro 1-3 | PS4, Switch | Remade in Unreal Engine 4 but aims to be as faithful as possible to the originals
 
 Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
+This list also doesn't include projects such as **PS one Classics** as they were just emulations of the original PS1 games running on a more modern console and not either a source port or a full remake.
 
 ---
 # Development Kits (Hardware)
