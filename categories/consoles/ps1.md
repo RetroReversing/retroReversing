@@ -68,6 +68,9 @@ Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher res
 Medievil | PS4 | Remade in the Unreal Engine
 Spyro 1-3 | PS4, Switch | Remade in Unreal Engine 4 but aims to be as faithful as possible to the originals
 Resident Evil 1-3 | PS3, PS4, XboxOne | Does this use original engine with higher resolution assets?
+Mega Man X 4 | PS4, Switch, XboxOne | Source Code Port of X4 Released in **Mega Man X Legacy Collection**
+
+Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
 
 ---
 # Development Kits (Hardware)
