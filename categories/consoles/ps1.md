@@ -66,9 +66,11 @@ Castlevania SOTN | Xbox360, PS4, iOS, Android | Re-Released in Castlevania Requi
 Final Fantasy 7-9 | PS4, Switch | 
 Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher resolution assets? (confirmation required)
 Medievil | PS4 | Remade in the Unreal Engine
-Spyro 1-3 | PS4, Switch | Remade in Unreal Engine 4 but aims to be as faithful as possible to the originals
-Resident Evil 1-3 | PS3, PS4, XboxOne | Does this use original engine with higher resolution assets?
 Mega Man X 4 | PS4, Switch, XboxOne | Source Code Port of X4 Released in **Mega Man X Legacy Collection**
+PaRappa The Rapper | PSP, PS4 | The PS4 version is actually just a the PSP version emulated with higher resolution assets
+Resident Evil 1-3 | PS3, PS4, XboxOne | Does this use original engine with higher resolution assets?
+SaGa Frontier | PS4, Switch, iOS, Android, Windows | 
+Spyro 1-3 | PS4, Switch | Remade in Unreal Engine 4 but aims to be as faithful as possible to the originals
 
 Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
 
