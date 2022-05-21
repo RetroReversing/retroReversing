@@ -2,6 +2,7 @@
 layout: post
 permalink: /magazines
 console: magazines
+title: Magazines (Games Industry)
 thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
@@ -10,7 +11,9 @@ redirect_from:
   - /industry-magazines
   - /magazine
 editlink: ../categories/misc/Magazines.md
-recommend: magazines
+recommend: industry
+tags:
+ - industry
 ---
 
 One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game specific magazines and digital/creative magazines have a wealth of information.
