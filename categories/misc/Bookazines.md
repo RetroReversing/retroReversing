@@ -9,11 +9,12 @@ breadcrumbs:
 redirect_from:
   - /industry-bookazines
 editlink: ../categories/misc/Bookazines.md
-recommend: bookazines
+recommend: industry
 tags:
 - bookazines
 - magazines
 - books
+- industry
 ---
 What do you call a product that collects articles from monthly magazines into a single yearly publication? 
 The publishers came up with the term "Bookazine" to cover this concept of a very large magazine related to a specific topic.
