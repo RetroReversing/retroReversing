@@ -12,8 +12,8 @@ redirect_from:
   - /magazine
 editlink: ../categories/misc/Magazines.md
 recommend: industry
-image: /public/images/categories/Games Industry.jpg
-twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry.jpg
+image: /public/images/categories/Games Industry Magazines.jpg
+twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Magazines.jpg
 tags:
  - industry
 ---
