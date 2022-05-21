@@ -9,4 +9,9 @@ redirect_from:
   - /datel
 editlink: ../categories/companies/datel.md
 ---
+
+# All Posts
+
+<div>
 {% include console.html %}
+</div>
