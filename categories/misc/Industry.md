@@ -29,3 +29,6 @@ We have an entire page dedicated to just Bookazines related to game developement
 ## Books
 {% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
 
+---
+# All Posts
+{% include console.html %}
