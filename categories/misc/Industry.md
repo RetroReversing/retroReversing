@@ -7,8 +7,6 @@ breadcrumbs:
     url: /
 editlink: ../categories/misc/Industry.md
 recommend: industry
-tags:
-- industry
 ---
 
 # Game Industry Materials
