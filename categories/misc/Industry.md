@@ -31,4 +31,7 @@ We have an entire page dedicated to just Bookazines related to game developement
 
 ---
 # All Posts
+
+<div>
 {% include console.html %}
+</div>
