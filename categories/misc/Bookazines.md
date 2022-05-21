@@ -2,6 +2,7 @@
 layout: post
 permalink: /bookazines
 console: bookazines
+title: Bookazines (Games Industry)
 breadcrumbs:
   - name: Home
     url: /
