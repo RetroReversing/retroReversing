@@ -3,6 +3,8 @@ layout: post
 permalink: /bookazines
 console: bookazines
 title: Bookazines (Games Industry)
+image: /public/images/categories/Games Industry Bookazines.jpg
+twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Bookazines.jpg
 breadcrumbs:
   - name: Home
     url: /
