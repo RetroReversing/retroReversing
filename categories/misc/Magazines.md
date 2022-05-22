@@ -361,7 +361,7 @@ Issue | Free Product | Notes
 ---
 ## Web Designer Magazine (UK)
 <section class="postSection">
-    <img src="/public/images/magazines/Web Designer.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/magazines/Web Designer.jpg" class="wow slideInLeft postImage" style="width:200px" />
 
  <div markdown="1" class="rr-post-markdown">
 Web Designer Magazine was a popular UK magazine purely dedicated to Web development, it was a relaunch of a previous magazine called **Practical Internet** and was known by the lengthy title **Practical Internet Web Designer** from issue 86 until dropping the prefix altogether by issue 95 in 2004.
