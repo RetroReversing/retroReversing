@@ -134,13 +134,13 @@ Since this website is dedicated to real-time applications of computer graphics t
 
 
 The magazine is formed of 80+ pages of content, some of which are adverts (interesting CG tool adverts however!) and the following main content sections:
-* Editor's Note (Also on Website)
-* Letters - Published user letters sent to the magazine (Only in physical Magazine)
-* Spotlight - News and Products (Also on Website)
-* Tech Watch - Interesting articles (Only in physical Magazine)
-* Portfolio (Not got copyright permission for website)
-* User Focus
-* Products (Also on Website)
+* **Editor's Note** - Also available fully on their Website
+* **Letters** - Published user letters sent to the magazine (Only in physical Magazine)
+* **Spotlight** - News and Products (Also on Website)
+* **Tech Watch** - Interesting articles (Only in physical Magazine)
+* **Portfolio** - Presumably Not got copyright permission from individual authors for publishing on their website
+* **User Focus**
+* **Products** - Also available on their Website
 
 ### Articles
 The table below focuses on the articles related to Game Development, the list is still a WIP:
