@@ -425,6 +425,7 @@ Issue # | Category | Author | Title
 96 | Photoshop | Andy Stewart | Create A Perfect Pixel Art House In Photoshop 
 96 | Photoshop | Zooey Ball | Build An Animated Pixel Art Cityscape
 97 | Flash | Darren Richardson | Create an interactive animated flash quiz
+101 | Flash | Mark Shufflebottom | Create a stunning flash animation with Swift 3D
 
 Web Designer issue 101 also had a behind the scenes look at the website for **Myst IV Revelation** which was implemented in Flash MX 2004 and provided a game-like experience.
 
