@@ -215,7 +215,7 @@ Issue | Article Title
 ---
 ## Computer Arts (UK)
 <section class="postSection">
-    <img src="/public/images/magazines/Computer Arts.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/magazines/Computer Arts.jpg" class="wow slideInLeft postImage" style="width:200px" />
 
  <div markdown="1" class="rr-post-markdown">
 **Computer Arts** was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, it contained a wealth of information related to asset creation for game development.
