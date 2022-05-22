@@ -54,16 +54,23 @@ There are many magazines related to Gaming both past and present, however only a
 
 Title | Notes
 ---|---
-EDGE |
-GamesTM | 
-PC Gamer | long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
+EDGE | UK magazine that contained interviews with game developers and even adverts for Development Kits
+GamesTM | UK Magazine that contained interviews with Game developers
+PC Gamer | Long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
 Retro Gamer | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
 
 ---
 ## PSi2 Magazine
-Published by Thin-Ice Media (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
+<section class="postSection">
+    <img src="/public/images/magazines/PSi2.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
+ </div>
+</section> 
+
 
 ### PSi2 Magazine CDs
 Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers.
@@ -96,11 +103,18 @@ Web Desginer | UK magazine from 2004 until ?
 
 ---
 ## Computer Graphics World (USA)
+<section class="postSection">
+    <img src="/public/images/magazines/Computer Graphics World.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
 Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
 
 One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. However one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
 
 Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
+ </div>
+</section> 
+
 
 The magazine is formed of 80+ pages of content, some of which are adverts (interesting CG tool adverts however!) and the following main content sections:
 * Editor's Note (Also on Website)
