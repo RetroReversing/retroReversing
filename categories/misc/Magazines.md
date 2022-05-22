@@ -18,11 +18,13 @@ tags:
  - industry
 ---
 
-One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game specific magazines and digital/creative magazines have a wealth of information.
+One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information.
 
 ---
 # Games Industry Magazines
-Occasionally you can be lucky enough to find a whole magazine specifically dedicated to Game Development but they can be few and far between. Unfortunetly most are now defunct but one excellent title remains until the time of writing: Wireframe magazine, if you are in a position to support this magazine I would strongly reccomend it.
+Occasionally you can be lucky enough to find a whole magazine specifically dedicated to Game Development but they can be few and far between.
+
+Unfortunately, most are now defunct but one excellent title remains until the time of writing: Wireframe magazine, if you are in a position to support this magazine I would strongly recommend it.
 
 Title | Publisher | Notes
 ---|---|---
@@ -38,7 +40,7 @@ You can view the issues here:
 [Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
 
 ### Articles
-It is worth reading the entire Wrireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
+It is worth reading the entire Wireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
 
 Issue | Name
 ---|---
@@ -96,7 +98,7 @@ Web Desginer | UK magazine from 2004 until ?
 ## Computer Graphics World (USA)
 Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
 
-One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. Howevr one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
+One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. However one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
 
 Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
 
@@ -104,7 +106,7 @@ The magazine is formed of 80+ pages of content, some of which are adverts (inter
 * Editor's Note (Also on Website)
 * Letters - Published user letters sent to the magazine (Only in physical Magazine)
 * Spotlight - News and Products (Also on Website)
-* Tech Watch - Interesting artcles (Only in physical Magazine)
+* Tech Watch - Interesting articles (Only in physical Magazine)
 * Portfolio (Not got copyright permission for website)
 * User Focus
 * Products (Also on Website)
@@ -123,7 +125,7 @@ Issue | Title | Author | Notes
 1991-06 | Algorithmic Advancements | Peter Sorensen | These algorithms influenced CG and game developers
 1991-10 | Painting in 3D | Barbara Robertson | Early 3D painting technology
 1992-03 | Virtual Reality | Arielle Emmett | 
-1992-03 | Multimedia Development | Unknown | Games are multimedia ao might be an interesting article for a 1992 perspective
+1992-03 | Multimedia Development | Unknown | Games are multimedia so might be an interesting article for a 1992 perspective
 1992-05 | Let the Games Begin | Diana Phillips Mahoney |
 1992-05 | The market for virtual reality | Unknown | Early VR tech
 1992-07 | SIGGRAPH '92 Preview | Unknown | Would be good to see what was shown at SIGGRAPH 1992
@@ -231,19 +233,19 @@ Number | Date | Title
 182 | 2010-12 | 
 
 ### Book Extracts
-The accompaning CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
+The accompanying CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
 
 Issue | Book Name | Notes
 ---|---|---
 130 | Reinventing Music Video | 
 130 | Advertising is Dead: Long live Advertising | 
 137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
-137 | Character Animation: 2D Skills for Better 3D | Extact for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
+137 | Character Animation: 2D Skills for Better 3D | Extract for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
 137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
 140 | Adobe Photoshop CS3 One-on-One | Pages 302-355 but it's missing the actual images!!
 140 | Painter X Creativity: Digital Artists Handbook | Pages 19-34 and 229-248
 141 | EXPOSE 5 | 
-141 | Secrets of Digital Illustation |  
+141 | Secrets of Digital Illustration |  
 143 | Choosing and Using Paper | Book by RotoVision, free pages 0-21
 143 | How to Cheat in Adobe Flash | Pages 2-5 and page 33
 143 | The Adobe photoshop Layers Book | Pages 1-5
@@ -302,7 +304,7 @@ Issue | Free Resource | Notes
 
 
 ### Free Full products
-Occassionally as an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine. Not all issues included free full products but the ones that did were generally worth picking up, but of course it was always an older version of the products as an incentive to upgrade to the latest versions.
+Occasionally as an incentive to buy the magazine there would be a few paid products that are offered "free" as long as you have bought the magazine. Not all issues included free full products but the ones that did were generally worth picking up, but of course it was always an older version of the products as an incentive to upgrade to the latest versions.
 
 Issue | Free Product | Notes
 ---|---|---
