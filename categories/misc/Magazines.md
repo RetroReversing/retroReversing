@@ -39,11 +39,11 @@ Wireframe | Raspberry Pi Press | From November 2018 and still going strong in Ma
     <img src="/public/images/magazines/Wireframe.jpeg" class="wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-   Wireframe is an excellent magazine that blends developer interviews with practical tutorials such as how to implement various game mechanics in programming languages such as python or even C programming for the original Game Boy!
+   Wireframe is an excellent magazine that blends developer interviews with practical tutorials such as how to implement various game mechanics in programming languages such as python or even **C programming** for the original Game Boy!
    
    They even release all the issues they make free on their website in pdf form for everyone (not just subscribers).
    
-Thankfully Wireframe magazine is still producing issues in 2022, we highly suggest you support the publication by subscribing to them, this isn't a sponsor slot honest, it is the only remaining print magazine related to Game Development!
+Thankfully **Wireframe** magazine is still producing issues in 2022, we highly suggest you support the publication by subscribing to them, this isn't a sponsor slot honest, it is the only remaining print magazine related to Game Development!
  </div>
 </section> 
 
@@ -82,7 +82,7 @@ Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Pl
 
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
    
-Whether it was always intended to be just another advertisement route for Datel or not, it ended up having a good run of 38 issues or just over 3 years on High Street shelves!
+Whether it was always intended to be just another advertisement route for **Datel** or not, it ended up having a good run of 38 issues or just over 3 years on High Street shelves!
  </div>
 </section> 
 
