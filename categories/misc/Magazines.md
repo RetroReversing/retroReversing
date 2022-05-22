@@ -415,13 +415,15 @@ Number | Date | Title
 ## WD Game Related Tutorials
 The magazine had plenty of interesting web programming and graphic creation content, but as the focus of this site is on games development here is a list of the Game related tutorials. 
 
-Most of these are for Flash game development but note that the photoshop tutorials would also be useful for Game Artists but will be covered in another section.
+Most of these are for Flash game development but there are also a few Pixel Art tutorials for photoshop mixed in for good measure.
 
 Issue # | Category | Author | Title
 ---|---|---|---
 95 | Flash | Lee Groombridge | Create a cool games console interface
 95 | Flash | Robert Firebaugh | Learn how to animate characters in flash
 95 | Flash | Mark Shufflebottom | Create an intro animation with Flash MX 2004
+96 | Photoshop | Andy Stewart | Create A Perfect Pixel Art House In Photoshop 
+96 | Photoshop | Zooey Ball | Build An Animated Pixel Art Cityscape
 
 ---
 # References
