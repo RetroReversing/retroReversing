@@ -75,7 +75,7 @@ Retro Gamer | Long running UK Magazine dedicated to Retro games, often has inter
 ---
 ## PSi2 Magazine
 <section class="postSection">
-    <img src="/public/images/magazines/PSi2.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/magazines/PSi2.jpg" class="wow slideInLeft postImage" style="width:200px" />
 
  <div markdown="1" class="rr-post-markdown">
 Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
