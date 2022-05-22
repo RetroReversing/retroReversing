@@ -426,6 +426,8 @@ Issue # | Category | Author | Title
 96 | Photoshop | Zooey Ball | Build An Animated Pixel Art Cityscape
 97 | Flash | Darren Richardson | Create an interactive animated flash quiz
 
+Web Designer issue 101 also had a behind the scenes look at the website for **Myst IV Revelation** which was implemented in Flash MX 2004 and provided a game-like experience.
+
 ---
 # References
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
