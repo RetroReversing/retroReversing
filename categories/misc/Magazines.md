@@ -75,7 +75,10 @@ Retro Gamer | Long running UK Magazine dedicated to Retro games, often has inter
 
  <div markdown="1" class="rr-post-markdown">
 Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
+
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
+   
+Whether it was always intended to be just another advertisment route for Datel or not, it ended up having a good run of 38 issues or just over 3 years on High Street shelves!
  </div>
 </section> 
 
