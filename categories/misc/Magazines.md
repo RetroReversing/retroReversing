@@ -33,10 +33,18 @@ Game Developer | UBM Tech | US Magazine which was published from March 1994 unti
 GameMaker | Future Publishing | UK magazine dedicated to Game Modding and Development. Only 1 issue was published in October 2003 before it became a supplement for the **PC Format** magazine (which also didn't last long)
 Wireframe | Raspberry Pi Press | From November 2018 and still going strong in May 2022!
 
+---
 ## Wireframe Magazine
-Wireframe magazine is luckily still producing issues in 2022, we highly suggest you support the last remaining game development magazine that is being printed!
+<section class="postSection">
+    <img src="/public/images/magazines/Wireframe.jpeg" class="wow slideInLeft postImage" />
 
-You can view the issues here:
+ <div markdown="1" class="rr-post-markdown">
+Thankfully Wireframe magazine is still producing issues in 2022, we highly suggest you support the publication by subscribing to them, this isn't a sponsor slot honest, it is the only remaining print magazine related to Game Development!
+ </div>
+</section> 
+
+
+You can view all the issues on their official website:
 [Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
 
 ### Articles
@@ -197,9 +205,17 @@ Issue | Article Title
 
 ---
 ## Computer Arts (UK)
-Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
+<section class="postSection">
+    <img src="/public/images/magazines/Computer Arts.jpg" class="wow slideInLeft postImage" />
 
-### Issues
+ <div markdown="1" class="rr-post-markdown">
+Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. 
+It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
+ </div>
+</section> 
+
+
+### Computer Arts Issues
 Computer Arts was initially published as a one off in December 1995 but then became bi-monthly in July 1996 and eventually switched over to being Monthly in September 1997.
 
 Number | Date | Title
@@ -246,7 +262,7 @@ Number | Date | Title
 181 | 2010-11 | 
 182 | 2010-12 | 
 
-### Book Extracts
+### Free Book Extracts
 The accompanying CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
 
 Issue | Book Name | Notes
@@ -334,20 +350,27 @@ Issue | Free Product | Notes
 
 ---
 ## Web Designer Magazine (UK)
+<section class="postSection">
+    <img src="/public/images/magazines/Web Designer.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
 Web Designer Magazine was a popular UK magazine purely dedicated to Web development, it was a relaunch of a previous magazine called **Practical Internet** and was known by the lengthy title **Practical Internet Web Designer** from issue 86 until dropping the prefix altogether by issue 95 in 2004.
 
 It was initially published by **Highbury House** until they went into receivership on January 20th 2006 where it was bought by Imagine Publishing, which eventually it was sold to Future Publishing and then discontinued at issue 293 [confirmation required].
+ </div>
+</section> 
 
-### Total Web Design
+
+### Total-Web-Design
 Strangely for a magazine dedicated to Web Development, there was no website for the magazine or even its sister title “Practical Web Projects”. This changed in mid 2004 when bought 
 
 Issue number 97 from August 2004 had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website: 
 [Total Web Design](https://web.archive.org/web/20040730202310/http://www.total-web-design.com/) 
 
-### Editors
+### WD Editors
 It was edited by Thomas Watson from the rename of Practical Internet in 2003 until issue 101 where it was taken over by Mark Hattersley in issue 104. Issue 102-103 did not have an editor and was simply signed off by “The Web Designer Team”.
 
-### Issues
+### WD Issues
 Each issue had a main focus but they all contained tutorials for a wide variety of software such as Photoshop, Dreamweaver, PHP and Flash.
 
 The issues we know about are listed in the table below:
