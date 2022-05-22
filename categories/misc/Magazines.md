@@ -16,6 +16,7 @@ image: /public/images/categories/Games Industry Magazines.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Magazines.jpg
 tags:
  - industry
+updatedAt: '2022-05-22'
 ---
 
 One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information.
@@ -377,10 +378,10 @@ Strangely for a magazine dedicated to Web Development, there was no website for 
 Web Designer issue number 97 (from August 2004) had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website which you can view here: 
 [Total Web Design](https://web.archive.org/web/20040730202310/http://www.total-web-design.com/) 
 
-### WD Editors
-It was edited by Thomas Watson from the rename of Practical Internet in 2003 until issue 101 where it was taken over by Mark Hattersley in issue 104. Issue 102-103 did not have an editor and was simply signed off by “The Web Designer Team”.
+### Editors
+It was edited by Thomas Watson from the rename of Practical Internet in 2003 until issue 101 where it was taken over by **Mark Hattersley** in issue 104. Issue 102-103 did not have a named editor and was simply signed off by **The Web Designer Team**.
 
-### WD Issues
+### Issues
 Each issue had a main focus but they all contained tutorials for a wide variety of software such as Photoshop, Dreamweaver, PHP and Flash.
 
 The issues we know about are listed in the table below:
