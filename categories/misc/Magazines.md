@@ -36,7 +36,7 @@ Wireframe | Raspberry Pi Press | From November 2018 and still going strong in Ma
 ---
 ## Wireframe Magazine
 <section class="postSection">
-    <img src="/public/images/magazines/Wireframe.jpeg" class="wow slideInLeft postImage" />
+    <img src="/public/images/magazines/Wireframe.jpeg" class="wow slideInLeft postImage" style="width:200px" />
 
  <div markdown="1" class="rr-post-markdown">
    Wireframe is an excellent magazine that blends developer interviews with practical tutorials such as how to implement various game mechanics in programming languages such as python or even **C programming** for the original Game Boy!
