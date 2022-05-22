@@ -51,7 +51,7 @@ Thankfully **Wireframe** magazine is still producing issues in 2022, we highly s
 You can view all the issues on their official website:
 [Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
 
-### Articles
+### Relevant Articles
 It is worth reading the entire Wireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
 
 Issue | Name
@@ -142,7 +142,7 @@ The magazine is formed of 80+ pages of content, some of which are adverts (inter
 * **User Focus**
 * **Products** - Also available on their Website
 
-### Articles
+### Relevant Articles
 The table below focuses on the articles related to Game Development, the list is still a WIP:
 
 Issue | Title | Author | Notes
