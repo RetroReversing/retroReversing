@@ -372,9 +372,9 @@ It was initially published by **Highbury House** until they went into receiversh
 
 
 ### Total-Web-Design
-Strangely for a magazine dedicated to Web Development, there was no website for the magazine or even its sister title “Practical Web Projects”. This changed in mid 2004 when bought 
+Strangely for a magazine dedicated to Web Development, there was no website for the magazine or even its sister title **Practical Web Projects**. This changed in mid-late 2004 when they bought the domain **www.Total-Web-Design.com** to represent both magazines.
 
-Issue number 97 from August 2004 had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website: 
+Web Designer issue number 97 (from August 2004) had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website which you can view here: 
 [Total Web Design](https://web.archive.org/web/20040730202310/http://www.total-web-design.com/) 
 
 ### WD Editors
@@ -424,6 +424,7 @@ Issue # | Category | Author | Title
 95 | Flash | Mark Shufflebottom | Create an intro animation with Flash MX 2004
 96 | Photoshop | Andy Stewart | Create A Perfect Pixel Art House In Photoshop 
 96 | Photoshop | Zooey Ball | Build An Animated Pixel Art Cityscape
+97 | Flash | Darren Richardson | Create an interactive animated flash quiz
 
 ---
 # References
