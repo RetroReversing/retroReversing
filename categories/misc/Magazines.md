@@ -412,6 +412,17 @@ Number | Date | Title
 108 | 2005-06 | Create an online community
 
 
+## WD Game Related Tutorials
+The magazine had plenty of interesting web programming and graphic creation content, but as the focus of this site is on games development here is a list of the Game related tutorials. 
+
+Most of these are for Flash game development but note that the photoshop tutorials would also be useful for Game Artists but will be covered in another section.
+
+Issue # | Category | Author | Title
+—|—|—|—
+95 | Flash | Lee Groombridge | Create a cool games console interface
+95 | Flash | Robert Firebaugh | Learn how to animate characters in flash
+95 | Flash | Mark Shufflebottom | Create an intro animation with Flash MX 2004
+
 ---
 # References
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
