@@ -124,7 +124,9 @@ Web Desginer | UK magazine from 2004 until ?
  <div markdown="1" class="rr-post-markdown">
 Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
 
-One of the good things about CGW is that they have articles from each issue available on their web page, going all the way back to 1999. However one of the bad things is that they seem to actively take down PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
+One of the good things about **CGW** is that they have articles from each issue available on their web page, going all the way back to 1999. 
+   
+   However one of the bad things is that they seem to **actively take down** PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
 
 Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
  </div>
@@ -188,7 +190,7 @@ Issue | Title | Author | Notes
 
 ---
 ## Computer Artist (USA)
-Computer Artist was a monthly magazine published every 2 months by the PennWell Publishing Company in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the first issue was published but the last issue was in June 1997 when it merged into **Electronic Publishing** magazine.
+Computer Artist was a monthly magazine published every 2 months by the **PennWell Publishing Company** in the US and dedicated to Digital art creation [Computer Artist -- PennWell Publishing Company](https://web.archive.org/web/19961113152553/http://www.pennwell.com/compart.html#abstract). It is currently unknown when the first issue was published but the last issue was in June 1997 when it merged into **Electronic Publishing** magazine.
 
 ### Articles
 Due to their age Computer Artist issues are hard to find, but the ones we can find had the following articles listed in the table below:
@@ -216,8 +218,9 @@ Issue | Article Title
     <img src="/public/images/magazines/Computer Arts.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-Computer Arts was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, so it contains a wealth of information related to asset creation for game development. 
-It lasted 305 issues before the pandemic in 2020 stopped production of the magazine [^1].
+**Computer Arts** was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, it contained a wealth of information related to asset creation for game development.
+   
+It lasted 305 issues before the pandemic in 2020 stopped production of the magazine, if you can find back issues of this magazines they are well worth picking up [^1].
  </div>
 </section> 
 
