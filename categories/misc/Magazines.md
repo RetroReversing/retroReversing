@@ -119,7 +119,7 @@ Web Desginer | UK magazine from 2004 until ?
 ---
 ## Computer Graphics World (USA)
 <section class="postSection">
-    <img src="/public/images/magazines/Computer Graphics World.jpg" class="wow slideInLeft postImage" />
+    <img src="/public/images/magazines/Computer Graphics World.jpg" class="wow slideInLeft postImage" style="width:300px" />
 
  <div markdown="1" class="rr-post-markdown">
 Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
