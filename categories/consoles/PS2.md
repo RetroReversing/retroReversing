@@ -34,6 +34,11 @@ For an in-depth look at the Playstation 2 Retail hardware architecture check out
 The hardware used to develop Playstation 2 games was similar but had an increase in memory along with a few debugging features. The details are covered in a seperate post:
 {% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}
 
+Later in the PS2's lifetime SN Systems released a specific development kit for developing online multiplayer PS2 games compatible with the PS2 Modem called the Network Development Kit (NDK).
+
+{% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2/" description="For information about Network Development Kit development hardware check out this post." %}
+
+
 ---
 # Games
 What would the Sony Playstation 2 be without its excellent line-up of games? It was huge line up of third party the games that attracted many people away from the Nintendo Gamecube and Microsoft Xbox.
