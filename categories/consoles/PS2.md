@@ -60,10 +60,17 @@ The Official Software development kit was developed by a partnership between SN 
 
 {% include link-to-other-post.html post="/ps2-official-sdk/" description="For information about Sony's Playstation Two SDK check out this post." %}
 
-## Emotion Engine Static Libraries
+### Emotion Engine Static Libraries
 The Playstation 2 Software Development kit included various statically compiled libraries that could be optionally included in your games, these ranged from vital (gcc runtime) to optional such as Multi-tap support.
 
 {% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post" %}
+
+### Dynamic Libraries (IRX files)
+{% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post" %}
+
+## Consumer Development Kit
+Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of Linux. The software ran on consumer PS2 models and came with a PS2 hard-drive.
+
 
 ---
 # All Posts
