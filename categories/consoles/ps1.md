@@ -25,19 +25,28 @@ updatedAt: 11th November 2019
 ---
 
 # Introduction to Hacking the Sony Playstation One
-Interested in learning more about the the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic MIPS assembly language all the way to an introduction to reverse engineering your first game!
+Interested in learning more about the the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic 32-bit MIPS assembly language all the way to an introduction to reverse engineering your first game!
 
 ---
 # Retail Playstation hardware
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
+
 However don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
 
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
+
+The main parts of the hardware are:
+* 32-bit MIPs CPU (33.96Mhz)
+* GPU - Unlike more modern GPUs it Only handled 2D Polygons (360k per second) [^1]
+* Geometry Transformation Engine (GTE) - 1.5M Vertices per second [^1]
+* 24 Channel sound chip (SPU)
 
 ## Geometry Transformation Engine (GTE)
 The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playstation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
 
 {% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
+
+One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^1].
 
 ---
 # Games
@@ -107,3 +116,7 @@ It was called PSY-Q and even although it was owned by Sony it was actually a cro
 <div>
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
