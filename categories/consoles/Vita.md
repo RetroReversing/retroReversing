@@ -17,6 +17,12 @@ breadcrumbs:
     url: #
 ---
 
+# Hardware
+
+## Retail Hardware
+The PS Vita took an off the shelf Quad core ARM CPU with a NEON coprocessor and combined it with a PowerVR GPU with dedicated video memory.
+
+---
 # All Posts
 <div>
 
