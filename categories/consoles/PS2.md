@@ -27,7 +27,7 @@ The main parts of the PS2 hardware were:
 
 ## Retail Hardware
 For an in-depth look at the Playstation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:
-{% include link-to-other-site.html url="ttps://www.copetti.org/writings/consoles/playstation-2/" description="Copetti.org has an excellent tear down of the Playstation 2 Hardware and how it works" image="https://www.copetti.org/images/consoles/ps2/_hue8a2466eba16e1ae3cd9542d2db31c8a_66348_dcb7ac7ba1db910c9628de3127aa9544.webp" title="Playstation 2 Architecture - A Practical Analysis"  %}
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-2/" description="Copetti.org has an excellent tear down of the Playstation 2 Hardware and how it works" image="https://www.copetti.org/images/consoles/ps2/_hue8a2466eba16e1ae3cd9542d2db31c8a_66348_dcb7ac7ba1db910c9628de3127aa9544.webp" title="Playstation 2 Architecture - A Practical Analysis"  %}
 
 
 ## Development Hardware
