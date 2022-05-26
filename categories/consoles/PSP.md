@@ -21,7 +21,7 @@ breadcrumbs:
 When announced the PSP was claimed to be as powerful as the PS2 and while it was certainly a very powerful system and the most impressive portable console on the market, it didn't quite reach the performance of it's home console sibling.
 
 The PSP was made up of:
-* Dual Core MIPS CPU with SIMD Matrix coprocessor
+* Dual Core MIPS 32bit CPU with SIMD Matrix coprocessor
 * GPU with embedded memory (Fixed Function Pipeline)
 * Sound processing on second CPU core
 
