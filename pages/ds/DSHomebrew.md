@@ -20,13 +20,16 @@ recommend:
 - ds
 - 3ds
 editlink: /ds/DSHomebrew.md
+updatedAt: '2019-10-07'
 ---
 
-The Nintendo DS has had a very talented homebrew scene right from the very start thanks to the popularity of DS Flash carts such as the R4. This page will list just a few of the amazing apps developed by the scene.
+The **Nintendo DS** has had a very talented homebrew scene right from the very start thanks to the popularity of DS Flash carts such as the R4. This page will list just a few of the amazing homebrew apps developed by the scene.
 
 # Full list of all homebrew
-If you are interested in browsing a full list of all DS homebrew developed then you should visit the GameBrew wiki page for this: [List of DS homebrew applications - GameBrew - a wiki dedicated to Video Game Homebrew.](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications)
+If you are interested in browsing a full list of all DS homebrew developed then you should visit the GameBrew wiki page for this: 
+[List of DS homebrew applications - GameBrew - a wiki dedicated to Video Game Homebrew.](https://www.gamebrew.org/wiki/List_of_DS_homebrew_applications)
 
+---
 # Original Homebrew
 
 ## DS-DSLR: Homebrew Nintendo DS remote for Canon DSLR
