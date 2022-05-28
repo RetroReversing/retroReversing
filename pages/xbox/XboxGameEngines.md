@@ -394,6 +394,10 @@ The Renderware engine provided graphics, audio, physics and AI modules. Most gam
 You can find out if your game was built using Renderware by searching the main executable for `RwFont`, `rwsdk` or simply `Renderware`/`RenderWare`
 
 Games:
+* AFL Live 2003
+* AFL Live 2004
+* AFL Live Premiership Edition
+* Alfa Romeo Racing Italiano
 * Antz - Extreme Racing
 * Aquaman - Battle for Atlantis
 * Army Men - Sarge's War
@@ -404,8 +408,11 @@ Games:
 * Burnout
 * Burnout 2 - Point of Impact
 * Burnout 3 Takedown
+* Burnout Revenge
 * Call of Duty - Finest Hour
 * Classified - Sentinel Crisis
+* Cold Fear
+* Commandos: Strike Force
 * Curse - The Eye of Isis
 * Darkwatch
 * Dead to Rights 2
@@ -414,55 +421,75 @@ Games:
 * Frogger Beyond
 * Furious Karting
 * Future Tactics The Uprising
+* Gauntlet: Seven Sorrows
 * Grand Theft Auto III
 * GTA San Andreas
 * GTA Vice City
 * Gravity Games Bike
+* Harry Potter and the Goblet of Fire
+* Harry Potter and the Prisoner of Azkaban
 * Headhunter Redemption
+* Hello Kitty: Roller Rescue
 * Heroes of the Pacific
 * High Heat Baseball 2004
 * High Roller Casino
 * Kill Switch
+* KOF: Maximum Impact: Maniax
 * Kung Fu Chaos
 * Manhunt
 * Max Payne 2
 * MLB SlugFest 2006
 * MLB SlugFest Loaded
 * Mortal Kombat Armageddon
+* Mortal Kombat: Deadly Alliance
 * Mortal Kombat Deception
 * Mx 2002
 * Mx Superfly
+* NBA Ballers
 * Need for Speed Underground 2
 * NFL Blitz 2k3
 * NFL Blitz PRO
 * NFL Blitz The League
 * Nickelodeon Party Blast
+* ObsCure
 * Outlaw Golf - 9 Holes of Xmas
 * Outlaw Golf 2
 * Outlaw Tennis
 * Outlaw Volleyball
 * Outlaw Volleyball - Red Hot
+* Puyo Puyo Fever
 * Redcard 2003
 * Robocop
 * Run Like Hell
+* Rolling
+* Rugby League
 * Scooby Doo - Mystery Mayhem
 * Scooby Doo - Night of 100 Frights
 * Secret Weapons Over Normandy
+* Shadow the Hedgehog
 * Sonic Heroes
 * SpongeBob - Battle for Bikini Bottom
 * SpongeBob - Lights Camera PANTS
+* SpongeBob - The Movie
 * Starsky and Hutch
 * Strike Force Bowling
 * Teenage Mutant Ninja Turtles
 * TMNT - Mutant Melee
+* The Incredibles
+* The Incredibles: Rise of the Underminer
 * The Warriors
 * Tony Hawks Pro Skater 3
+* Tony Hawk's Pro Skater 4
+* Tony Hawk's Underground
 * Top Gear - RPM Tuning
+* Total Overdose: A Gunslinger's Tale in Mexico
 * Toxic Grind
+* Without Warning
 * World Championship Poker
 * World Series Baseball
 * World Series Baseball 2K3
 * Xyanide
+* Yourself!Fitness
 
 ### Renderware Debug information
 There is a prototype version of Xyanide  (2003-05-07) that contains the full debug symbols files (.pdb) and linker map files (.map). 
