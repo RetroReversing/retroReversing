@@ -332,6 +332,7 @@ Games:
 * Baldur's Gate: Dark Alliance
 * Baldur's Gate: Dark Alliance II
 * The Bard's Tale
+* Combat Elite: WWII Paratroopers
 * Fallout: Brotherhood of Steel
 * Justice League Heroes
 
