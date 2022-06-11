@@ -325,6 +325,19 @@ Games:
 
 
 ---
+## The Snowblind engine
+Developed by Snowblind Studio used for there baldur's gate series. It Also referred to as the Dark Alliance game engine.
+
+Games:
+* Baldur's Gate: Dark Alliance
+* Baldur's Gate: Dark Alliance II
+* The Bard's Tale
+* Combat Elite: WWII Paratroopers
+* Fallout: Brotherhood of Steel
+* Justice League Heroes
+
+
+---
 # Middleware
 
 ## Havok Physics Engine
