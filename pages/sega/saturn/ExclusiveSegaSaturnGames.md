@@ -100,6 +100,7 @@ Games:
 
 # Games that were re-released
 * Athlete Kings (PS2)
+* D&D Collection (PS3)
 * Daytona USA (PS3, X360)
 * Die Hard Arcade (PS2, PS3)
 * Dragon Force (PS2)
@@ -109,6 +110,7 @@ Games:
 * Nights Into Dreams... (PS3, X360)
 * Last Bronx (PS2)
 * Panzer Dragoon (PS2)
+* Radiant Silvergun (X360)
 * Sega Rally Championship (PS2)
 * Virtua Cop (PS2)
 * Virtua Cop 2 (Dreamcast, PS2)
