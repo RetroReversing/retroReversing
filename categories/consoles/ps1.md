@@ -25,7 +25,7 @@ updatedAt: 11th November 2019
 ---
 
 # Introduction to Hacking the Sony Playstation One
-Interested in learning more about the the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic 32-bit MIPS assembly language all the way to an introduction to reverse engineering your first game!
+Interested in learning more about the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic 32-bit MIPS assembly language all the way to an introduction to reverse engineering your first game!
 
 ---
 # Retail Playstation hardware
@@ -86,6 +86,10 @@ Tony Hawk's Pro Skater 1+2 | PS4/5, Switch, XboxOne | Remade in Unreal Engine 4
 
 Wipeout Omega Collection is one game that did not make the list as its technically not a remaster of the PS1 original.
 This list also doesn't include projects such as **PS one Classics** as they were just emulations of the original PS1 games running on a more modern console and not either a source port or a full remake.
+
+## Tool-Assisted-Speedruns (TAS) for PS1
+In this video EZScape demonstrates a few speed runs for PS1 games that could never be possible by humans as they require changing the controller input every single frame. He shows techniques such as Zig-zagging in Crash Bandicoot, Pac-Man World and Spyro 3.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZchqpHU_Hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 # Development Kits (Hardware)
