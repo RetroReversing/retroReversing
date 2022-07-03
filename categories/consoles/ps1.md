@@ -91,6 +91,8 @@ This list also doesn't include projects such as **PS one Classics** as they were
 In this video EZScape demonstrates a few speed runs for PS1 games that could never be possible by humans as they require changing the controller input every single frame. He shows techniques such as Zig-zagging in Crash Bandicoot, Pac-Man World and Spyro 3.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZchqpHU_Hfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+If you are interested in creating your own Tool-Assisted-Speedruns then you might want to check the latest version of **BizHawk**. If you are interested in improving some existing TAS then check out [PS1 Tool-assisted movies - TASVideos](https://tasvideos.org/Movies-PSX)
+
 ---
 # Development Kits (Hardware)
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by Sony as a few other publishers had their own versions of development hardware.
