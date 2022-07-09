@@ -208,3 +208,11 @@ Find the **retro_run** function and add the following code to the top of it:
 
 ## 5.4 Override the Video Callback function
 Find any calls to the function **video_cb** and replace them with calls to **libRR_video_cb**.
+
+## 5.5 Hook into retro_load_game
+Find the definition of the **retro_load_game** function and add code like the following:
+```c
+// libRR start
+libRR_handle_load_game(info, environ_cb);
+// libRR end
+```
