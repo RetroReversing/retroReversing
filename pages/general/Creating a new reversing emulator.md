@@ -183,3 +183,13 @@ Finding where to put this function call is tricky as it depends where input is h
   retro_input_state_t input_cb = libRR_handle_input(original_input_state_cb);
   // libRR end
 ```
+
+### 5.2.1 Add Input Descriptors
+Find code like the following:
+```c
+environ_cb( RETRO_ENVIRONMENT_SET_INPUT_DESCRIPTORS, desc );
+```
+And add the following code under it, note that whatever was in the second parameter slot (desc in thsi case) should be passed as the first parameter:
+```c
+libRR_setInputDescriptor(desc, 21);
+```
