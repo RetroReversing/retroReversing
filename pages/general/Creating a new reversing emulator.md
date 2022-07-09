@@ -193,3 +193,15 @@ And add the following code under it, note that whatever was in the second parame
 ```c
 libRR_setInputDescriptor(desc, 21);
 ```
+
+## 5.3 Allow libRR to pause the game
+Find the **retro_run** function and add the following code to the top of it:
+```c
+// libRR start
+    bool should_continue = libRR_run_frame();
+    if (!should_continue)
+    {
+        return;
+    }
+    // libRR end
+```
