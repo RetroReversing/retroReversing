@@ -205,3 +205,6 @@ Find the **retro_run** function and add the following code to the top of it:
     }
     // libRR end
 ```
+
+## 5.4 Override the Video Callback function
+Find any calls to the function **video_cb** and replace them with calls to **libRR_video_cb**.
