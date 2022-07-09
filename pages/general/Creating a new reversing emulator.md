@@ -144,8 +144,9 @@ Find the line that imports the common makefile:
 include $(BUILD_DIR)/Makefile.common
 ```
 
-Add the following line after it:
+Add the following line after it, chaning ConsoleName to the name of the console (you will need this name later):
 ```
+libRetroReversingConsole = ConsoleName
 include ./libRetroReversing/Makefile.retroreversing
 ```
 
@@ -160,7 +161,7 @@ make && /Applications/RetroArch.app/Contents/MacOS/RetroArch -L mednafen_saturn_
 ```
 
 ## Add specific functions for your console
-In the libRetroReversing submodule duplicate a  file called `./console/DummyConsole.cpp` and name it after your console e.g `Saturn.cpp`. 
+In the libRetroReversing submodule duplicate a  file called `./console/DummyConsole.cpp` and name it after your console e.g `Saturn.cpp`. This needs to match the ConsoleName exactly as you defined it earlier in step 4.1.
 
 This file will be the main interface that will hold the custom code for your specific emulator.
 
