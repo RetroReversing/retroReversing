@@ -170,8 +170,16 @@ There are a couple of functions you will need to implement:
 ---
 # Step 5 - Source Modifications
 
-## Add Include to top of libretro.c
+## 5.1 Add Include to top of libretro.c
 Find either `libretro.c` or `libretro.cpp` and add the following include to the top of the file:
 ```c
 #include "libRetroReversing/include/libRR.h"
+```
+
+## 5.2 Add Logging of Input
+Finding where to put this function call is tricky as it depends where input is handled in the core you are modifying, but try to find a function that uses **retro_input_state_t** and add the following call, which will modify the input based on if we are in playback mode or recording mode
+```c
+//libRR start
+  retro_input_state_t input_cb = libRR_handle_input(original_input_state_cb);
+  // libRR end
 ```
