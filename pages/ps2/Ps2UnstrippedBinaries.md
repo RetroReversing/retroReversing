@@ -96,9 +96,9 @@ BloodRayne 2 (USA) | SLUS-20862 | 2020-06-20 |
 Boboboubo Boubobo - Hajike Matsuri (Japan) | SLPM-65262 | 2003-01-30 | 
 Breath of Fire - Dragon Quarter (USA) | SLUS-20499 | 2002-12-27 | 
 Breath of Fire V - Dragon Quarter (Japan) | SLPM-65196 | 2002-10-20 | 
-Brothers in Arms - Meiyo no Daishou (Japan) | 2004-08-04 | 
+Brothers in Arms - Meiyo no Daishou (Japan) | ? | 2004-08-04 | 
 Bujingai - The Forsaken City (USA) | SLUS-20895 | 2004-05-17 | 
-Burnout Dominator | 2007-01-31 | 
+Burnout Dominator | ? | 2007-01-31 | 
 CART Fury - Championship Racing (USA) | SLUS-20141 | 2001-05-06 | 
 Capcom vs. SNK 2 - Mark of the Millennium 2001 (Europe) | SLES-50541 | 2001-10-19 | 
 Capcom vs. SNK 2 - Mark of the Millennium 2001 (USA) | SLUS-20246 | 2001-09-20 | 
@@ -356,7 +356,7 @@ Ka (Japan) | SCPS-11009 | 2001-05-16 |
 Ka 2 - Let's Go Hawaii (Japan) | SCPS-15045 | 2003-06-08 | 
 Karaoke Revolution - Night Selection 2003 (Japan) | SLPM-62383 | 2003-11-07 | 
 Karaoke Revolution Family Pack (Japan) | SLPM-62528 | 2004-06-16 | 
-Karaoke Stage (Europe)[SLES-52308 | 2005-01-31 | 
+Karaoke Stage (Europe) | SLES-52308 | 2005-01-31 | 
 Kelly Slater's Pro Surfer (Europe) | SLES-51200 | 2002-09-03 | 
 Kelly Slater's Pro Surfer (Europe) | SLES-51201 | 2002-09-06 | 
 Kelly Slater's Pro Surfer (USA) | SLUS-20334 | 2002-08-08 | 
@@ -379,7 +379,7 @@ Kikou Heidan J-Phoenix 2 (Japan) | SLPM-65343 | 2003-12-10 |
 King of Fighters 2000, The (USA) | SLUS-20834 | 2003-11-08 | 
 King of Fighters 2001, The (Japan) | SLPS-25266 | 2003-09-06 | 
 King of Fighters 2001, The (USA) | SLUS-20839 | 2003-11-11 | 
-Kingdom Hearts - Re Chain of Memories (Preview) | 2008-10-01 | 
+Kingdom Hearts - Re Chain of Memories (Preview) | ? | 2008-10-01 | 
 Kino no Tabi - The Beautiful World (Japan) | SLPS-25248 | 2003-06-05 | 
 Kishin Houkou Demonbane (Japan) | SLPM-65491 | 2004-05-14 | 
 Kita e. - Diamond Dust (Japan) | SLPM-65404 | 2003-09-03 | 
@@ -500,7 +500,7 @@ NHL Hitz 2003 (USA) | SLUS-20438 | 2002-08-11 |
 NHL Hitz Pro (USA) | SLUS-20691 | 2003-09-08 | 
 Natsu Yume Ya Wa - The Tale of a Midsummer Night's Dream (Japan) | SLPS-25276 | 2003-07-06 | 
 Nebula - Echo Night (Japan) | SLPS-25314 | 2003-12-03 | 
-Need for Speed Most Wanted | 2005-09-20 | 
+Need for Speed Most Wanted | ? | 2005-09-20 | 
 Nickelodeon Jimmy Neutron - Boy Genius (USA) | SLUS-20537 | 2002-08-18 | 
 Nickelodeon Rocket Power - Beach Bandits (USA) | SLUS-20473 | 2002-08-15 | 
 Nightshade (USA) | SLUS-20810 | 2003-11-21 | 
