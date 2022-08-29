@@ -82,7 +82,7 @@ SDK Version | Publicly Leaked? | Notes
 2.5.4 | No | `The Mark of Kri`
 2.5.5 | No | `Virtual Fighter 4 Evolution (Korean version)`
 2.7.0 | Docs leaked | **March 2003**
-2.7.1 | No | `Jak II`
+2.7.1 | No | `Jak II` | `Neon Genesis Evangelion 2 (NTCS-J)` MCMAN.IRX has `PsIImcman   2710`
 2.7.2 | No | 
 2.8.0 | No | `Fatal Frame 2`
 2.8.1 | No | `Bloody Roar` MCMAN.IRX has `PSIImcman 2810`
