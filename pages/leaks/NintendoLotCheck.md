@@ -32,7 +32,7 @@ Since Nintendo controls manufacturing of all official games they have a process 
 
 
 # Lot Check Lists
-In the Pokemon Leak on the 4th of May 2020 a bunch of excel spreadsheets were uploaded into the `/misc` folder, these contained the full list of all games that have gone through the Nintendo Lot Check process for most systems up until the Nintendo DS.
+In the Pokemon Leak on the 10th of April 2020 a bunch of excel spreadsheets were uploaded into the `/misc` folder, these contained the full list of all games that have gone through the Nintendo Lot Check process for most systems up until the Nintendo DS.
 
 Name | Description
 ---|---
