@@ -4,6 +4,8 @@ tags:
 - introduction
 title: Legality of Reverse Engineering & Clean Room Reversing
 thumbnail: /public/images/RetroReversingLogoSmall.png
+image: /public/images/clean-room-reversing.jpg
+twitterimage: https://www.retroreversing.com/public/images/clean-room-reversing.jpg
 permalink: /clean-room-reversing
 breadcrumbs:
   - name: Home
