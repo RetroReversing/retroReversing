@@ -37,7 +37,7 @@ Unity3d has supported the Nintendo Switch right from launch and the dev tools ar
 ## Reverse Engineering & Modding
 Unity3D games are compiled from .net byte code down to C++ when generating a Nintendo Switch version. This makes it harder than standard Unity reverse engineering as the generated native code is harder to decompile than .net byte code.
 
-There are tools than support dumping the data from Unity NRO games such as the Il2CppDumper:
+There are tools that support dumping the data from Unity NRO games such as the Il2CppDumper:
 [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
 
 You should always backup **Managed/Metadata/global-metadata.dat** as it contains debug symbols for the game.
@@ -45,37 +45,78 @@ You should always backup **Managed/Metadata/global-metadata.dat** as it contains
 ## Games built with Unity
 The best way to check if a switch game is using the Unity engine is to look in the RomFs filesystem for a file called `Managed/Metadata/global-metadata.dat`, this contains debug symbols, the larger the file size the more symbols are included.
 
-Game Name | Proof of engine
+Game Name | Size of global-metadata.dat
 ---|---
-Aces of the luftwaffe Squadron | global-metadata.dat (4.33 MB)
-Ash of Gods: Redemption | global-metadata.dat
-Avicii Invector | global-metadata.dat (7.72 MB)
-Black Future 88  | global-metadata.dat
-Cat Quest | global-metadata.dat (6.97 MB)
-Children of Morta | contains file `unity_builtin_extra`
-Fitness Boxing | global-metadata.dat (5.77 MB)
-Harvest Moon Light of Hope | contains file `unity_builtin_extra`
-Horizon Chase | global-metadata.dat (5.30 MB)
-Human Fall Flat | contains file `unity_builtin_extra`
-Into the Dead 2 | global-metadata.dat (5.66 MB)
-John Wicks Hex | global-metadata.dat (8.98 MB)
-Mountain Rescue Simulator | global-metadata.dat (8.09 MB)
-Riot Civil Unrest | global-metadata.dat
-RPG Maker MV | contains file `unity_builtin_extra`
-Saturday morning RPG | contains file `unity_builtin_extra`
-Snow Moto Racing Freedom | global-metadata.dat
-Songbird Symphony | global-metadata.dat
-Stranded Sails: Explorers of the cursed Islands | global-metadata.dat
-Super Epic: The Entertainment War | global-metadata.dat (8.07 MB)
-Super Monkey Ball Banana Blitz HD | contains file: `data.unity3d`
-Truck & Logistics Simulator | global-metadata.dat (9.54 MB)
-The Dark Crystal Age of Resistance Tactics | global-metadata.dat (13.4 MB)
-The World Ends with You | global-metadata.dat
-Two Point Hospital | global-metadata.dat (16.7 MB)
+30 in 1 Game Collection Vol 1 | 4.72 MB
+Aces of the luftwaffe Squadron | 4.33 MB
+Ary | 10.9 MB
+Alex Kidd in Miracle World DX | 7.24 MB
+Ash of Gods: Redemption | ?
+Avicii Invector | 7.72 MB
+Bendy and the Ink Machine | 5.57 MB
+Black Future 88  | ?
+Cat Quest | 6.97 MB
+Cities Skylines | 7.25MB
+Chicken Range | 4.87 MB
+Children of Morta | ?
+Cris Tales | 10.8 MB
+Cruis’n Blast | 8.13 MB
+Cyanide & Happiness Freakpocalypse | 6.83 MB
+Empire of Sin | 8.75 MB
+Evergate | 4.90 MB
+Farmers Vs Zombies | 7.46 MB
+Final Fantasy IX | 5.26
+Final Vendetta | 4.25
+Fitness Boxing | 5.77 MB
+Foreclosed | 9.39 MB
+Fort Boyard | 8.61 MB
+Greak memories of Azur | 7.21 MB
+Harvest Moon Light of Hope | ?
+Horizon Chase | 5.30 MB
+Human Fall Flat | ?
+Instant Sports | 4.96 MB
+Into the Dead 2 | 5.66 MB
+John Wicks Hex | 8.98 MB
+Kaze and the Wild Masks | 7.55 MB
+KeWe | 10.1 MB
+Kingdom Hearts Melody of Memory | 7.64 MB
+Knights and Bikes | 8.15 MB
+Kunai | 8.96 MB
+Mountain Rescue Simulator | 8.09 MB
+Nightmare Boy | 3.83 MB
+Pokemon Brilliant Diamond | 11.4 MB
+realMYST | 6.31 MB
+RICO: London | 8.24 MB
+Riot Civil Unrest | ?
+RPG Maker MV | ?
+Road 96 | 10.4 MB
+Saturday morning RPG | ?
+Sea of Solitude | 5.69 MB
+Shadowgate | 6.23 MB
+Snow Moto Racing Freedom | ?
+Songbird Symphony | ?
+Stranded Sails: Explorers of the cursed Islands | ?
+Stranger Things 3 The Game | 10.6 MB
+Streets of Red | 4.73 MB
+Subnautica | 11.0 MB
+Subnautica Below Zero | 12.3 MB
+Super Epic: The Entertainment War | 8.07 MB
+Supermarket shriek | 7.89 MB
+Super Monkey Ball Banana Blitz HD | ?
+To The Moon | 3.33 MB
+Truck & Logistics Simulator | 9.54 MB
+The Dark Crystal Age of Resistance Tactics | 13.4 MB
+The Falconeer: Warrior Edition | 3.53 MB
+The World Ends with You | ?
+Two Point Campus | 10.1 MB
+Two Point Hospital | 16.7 MB
+Wasteland 2 | 19.6 MB
+Wizard of Legend | 5.77 MB
+Yooka laylee and the impossible lair | 10.1 MB
  
 ---
 # Clickteam Fusion
-Clickteam Fusion is a game creation tool created by Clickteam mainly for 2D games. Clickteam also provide a paid-for-service to convert games made in their engine to consoles including the Nintendo Switch [^2].
+Clickteam Fusion is a game creation tool created by Clickteam mainly for 2D games. Clickteam also provides a paid-for-service to convert games made in their engine to consoles including the Nintendo Switch [^2].
 
 ## Games
 Game Name | Proof of engine
@@ -127,16 +168,31 @@ You can detect Unreal Engine games on the Nintendo switch very easily by looking
 Game Name | Proof of engine
 ---|---
 9 Monkeys of Shaolin | UE4CommandLine.txt
+Balan Wonderworld | UE4CommandLine.txt
 Bioshock remastered | `engine.u`
+Close to the sun | UE4CommandLine.txt
+Destroy all humans | UE4CommandLine.txt
+Fast & Furious: Spy Racers | UE4CommandLine.txt
 Gigantosaurus The Game | UE4CommandLine.txt
 GRIP Combat racing | UE4CommandLine.txt
 Hello Neighbour Hide and Seek  | UE4CommandLine.txt
+Hot Wheels Unleashed | UE4CommandLine.txt
 Jumanji | UE4CommandLine.txt
+Kings Bounty 2 | UE4CommandLine.txt
+Little Nightmares 2 | UE4CommandLine.txt
+LiveALive | UE4CommandLine.txt
+Man Eater | UE4CommandLine.txt
 Monster JAM Crush it | UE4CommandLine.txt
 Narcos Rise Of the Cartels | UE4CommandLine.txt
 Remothered Tormented Fathers | UE4CommandLine.txt
 Skully | UE4CommandLine.txt
+Spirit of the North | UE4CommandLine.txt
+Taxi Chaos | UE4CommandLine.txt
+Tiny Metal Ultimate | UE4CommandLine.txt
+Tony Hawks Pro Skater 1+2 | UE4CommandLine.txt
+Tracks: Toybox Edition | UE4CommandLine.txt
 Trials of Mana | UE4CommandLine.txt
+Tropico 6 | UE4CommandLine.txt
 
 ---
 # Havok
@@ -185,6 +241,8 @@ Game Name | Details
 ---|---
 Azure striker Gunvolt pack | contains *.irarc files
 Borderlands | contains *.xxx (WillowGame?)
+Eastward | contains lua scripts
+Hades | contains lua scripts
 Metro 2033 redux | contains *.vfs0 files
 Shantae and the Pirates Curse | contains *.vol files
 The Binding of Isaac | Custom?
