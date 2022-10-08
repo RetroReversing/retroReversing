@@ -22,6 +22,12 @@ breadcrumbs:
 The Youtuber **Displaced Gamers** has an excellent video explaining the common DOS aspect ratio:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YvckyWxHAIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## DOS Game Modding
+
+### DOS Game Corruption
+If You are using a browser-based DOSBox emulator to run your games you can add this bookmarklet to your browser for it to automatically corrupt random memory addresses inside the DOS game:
+[jsRTC/jsRTC_for_js-dosbox.txt at master · redscientistlabs/jsRTC](https://github.com/redscientistlabs/jsRTC/blob/master/jsRTC_for_js-dosbox.txt)
+
 ---
 # MSX
 The MSX was a standard introducted by **Microsoft Japan** to make sure no matter which manufacturer build the PC (e.g Sony, Panasonic, Philips) they would all be able to run the same software.
