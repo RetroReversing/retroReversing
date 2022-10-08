@@ -76,6 +76,13 @@ The main cheat cartridge available for the NES was the **Game Genie** created by
 The Game Genie used a special encoding format for its codes which can be encoded and decoded using this handy online tool:
 [Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
 
+## Deliberate NES Memory Corruption by Javidx9
+The Youtuber **Javidx9** has created a system that randomly corrupts the memory of a NES game as it runs just for the fun of seeing the chaos that follows. The interesting part of this is that his system is somewhat smart in that it tracks the most common memory addresses used per frame (excluding screen memory) and changes those at a higher rate compared to just random memory locations.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-csXgGstvHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Apparently the source code was once linked on the twitch page, but it is sadly so old now that the link has disappeared, it would have been really interesting to see it!
+
 ---
 # All Posts
 <div>
