@@ -97,7 +97,10 @@ The Game Genie used a special encoding format for its codes which can be encoded
 If you want to permantly modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
 [Romhacking.net - Utilities - Permanent Game Genie](https://www.romhacking.net/utilities/784/)
 
-## Deliberate NES Memory Corruption by Javidx9
+## NES Memory Corruption
+Corrupting the memory of a ROM has become very popular over on Youtube with creators such as **Vinesauce** regularly using ROM corruptors on popular games to produce some interesting results.
+
+### Deliberate NES Memory Corruption by Javidx9
 The Youtuber **Javidx9** has created a system that randomly corrupts the memory of a NES game (every 5 seconds) as it runs just for the fun of seeing the chaos that follows. The interesting part of this is that his system is somewhat smart in that it tracks the most common memory addresses used per frame (excluding screen memory) and changes those at a higher rate compared to just random memory locations.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-csXgGstvHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
