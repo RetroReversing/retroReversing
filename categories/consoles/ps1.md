@@ -49,6 +49,13 @@ The Geometry Transformation Engine or GTE was what allowed the Playstation to ha
 One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^1].
 
 ---
+# Unofficial Hardware Add-ons
+
+## Sony PlayStation VCD Player Add-On Card
+The Youtuber **Scarlet Sprites** has a good overview of this rather rare unofficial PS1 add-on which allowed playing the rather obscure Video CD (VCD) format on retail Playstation 1 consoles:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gcdxsV0Qo0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # Games
 What would the Sony Playstation be without its excellent line-up of games? It was the games that attracted many people away from the Nintendo 64 and Sega Saturn and on to their very first Sony console.
 
