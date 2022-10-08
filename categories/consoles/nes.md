@@ -21,11 +21,17 @@ editlink: ../categories/consoles/nes.md
 Interested in learning more about the the NES? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to an introduction to reverse engineering your first game!
 
 
-## Super Mario 'compiler'
-The website **neilb.net** has created what it calls a "Mario Compiler" which takes in the original Super Mario Bros ROM and disassembles it.
-The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM.
+## Super Mario Compiler
+The website **neilb.net** has created what it calls a **Mario Compiler** which takes in the original Super Mario Bros ROM and disassembles it.
+The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM. All from within the web application!
 
 {% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
+
+## Super Mario Bros in C
+**Mitchell Sternke** has created an impressive port of the original NES Super Mario Bros, he has written a tool that converts most of the 6502 assembly code into its equivalent C code. He has then written a PPU, Controller and APU emulation layer in C to make it all work into a portable C application running natively on the target hardware (No 6502 CPU emulation required!).
+
+You can find it on Github here:
+[SuperMarioBros-C/README.md at master · MitchellSternke/SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C/blob/master/README.md)
 
 ---
 # Hardware
