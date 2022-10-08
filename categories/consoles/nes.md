@@ -27,6 +27,8 @@ The disassembled code is then shown to the user and can then be modified and re-
 
 {% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
 
+You can also view the source code for the project here: [nbarkhina/MarioCompiler: A Super Mario Compiler written in JavaScript](https://github.com/nbarkhina/MarioCompiler)
+
 ## Super Mario Bros in C
 **Mitchell Sternke** has created an impressive port of the original NES Super Mario Bros, he has written a tool that converts most of the 6502 assembly code into its equivalent C code. He has then written a PPU, Controller and APU emulation layer in C to make it all work into a portable C application running natively on the target hardware (No 6502 CPU emulation required!).
 
