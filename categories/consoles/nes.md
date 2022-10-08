@@ -123,6 +123,9 @@ Corrupting the memory of a ROM has become very popular over on Youtube with crea
 
 If you want to try it yourself we recommend the **Real-Time Corruptor Vanguard** (RTCV) available on Github: [redscientistlabs/RTCV: Real-Time Corruptor, Vanguard, CorruptCore, NetCore2 https://redscientist.com/rtc](https://github.com/redscientistlabs/RTCV). It is written using DotNet so it should work on Windows and MacOSX/Linux via Mono.
 
+For more information we have a specific post on the topic of Game memory corruption:
+{% include link-to-other-post.html post="/emulator-game-memory-corruption" description="For information about Game Memory Corruption check out this post." %}
+
 ### Deliberate NES Memory Corruption by Javidx9
 The Youtuber **Javidx9** has created a system that randomly corrupts the memory of a NES game (every 5 seconds) as it runs just for the fun of seeing the chaos that follows. The interesting part of this is that his system is somewhat smart in that it tracks the most common memory addresses used per frame (excluding screen memory) and changes those at a higher rate compared to just random memory locations.
 
