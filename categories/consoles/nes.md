@@ -109,6 +109,11 @@ The Youtuber **Javidx9** has created a system that randomly corrupts the memory 
 
 Apparently the source code was once linked on the twitch page, but it is sadly so old now that the link has disappeared, it would have been really interesting to see it!
 
+## HD Texture Packs
+You can easily replace the 2D Sprites and Tiles from a NES game with HD/4K alternatives using specific emulators such as Mesen and HDNes. The gameplay is unchanged as it overlays the HD Graphics on top of the game and doesn't have any of the colour limitations of the NES hardware. These modifications as emulator specific and will not modify the original ROM.
+
+Mesen even comes with a HD Pack Builder Tool to create your own texture packs, for more information: [HD Packs :: Mesen Documentation](https://www.mesen.ca/docs/hdpacks.html#using-the-hd-pack-builder)
+
 ---
 # Graphics & Rendering
 For an introduction to how the NES renders graphics to the screen checkout **Austin Morlan**'s excellent article on his website:
