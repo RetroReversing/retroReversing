@@ -7,11 +7,10 @@ tags:
 - memory
 - n64
 - gc
-- corruption
 title: Emulator Game Memory corruption
 thumbnail: /public/consoles/Computer Old Design.png
-image: /public/images/Emulator Memory Corruption.jpg
-twitterimage: https://www.retroreversing.com/public/images/Emulator Memory Corruption.jpg
+image: /public/images/articles/Emulator Memory Corruption.jpg
+twitterimage: https://www.retroreversing.com/public/images/articles/Emulator Memory Corruption.jpg
 permalink: /emulator-game-memory-corruption
 breadcrumbs:
   - name: Home
