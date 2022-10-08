@@ -139,6 +139,13 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
 
 ---
+# Misc
+
+## Synthic: Automatically generate gameboy music using machine learning
+This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
+[jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
+
+---
 # All Posts tagged with GameBoy
 <div>
 
