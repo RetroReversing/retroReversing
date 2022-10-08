@@ -6,7 +6,8 @@ tags:
 - devkit
 title: Official PlayStation Portable Development Kit
 thumbnail: /public/consoles/Sony PSP.png
-image: https://img.youtube.com/vi/F0kLdmOn7aI/maxresdefault.jpg
+image: /public/images/psp/PSP Development Kit.jpg
+twitterimage: https://www.retroreversing.com/public/images/psp/PSP Development Kit.jpg
 permalink: /official-psp-devkit
 breadcrumbs:
   - name: Home
@@ -23,12 +24,6 @@ videocarousel:
   - title: PlayStation Portable (PSP) Development System Showcase!
     image: https://img.youtube.com/vi/Edegy5QUg2M/maxresdefault.jpg
     youtube: 'Edegy5QUg2M'
-  - title: Sony PSP development debug hardware the DTP-H1500
-    image: https://img.youtube.com/vi/F0kLdmOn7aI/maxresdefault.jpg
-    youtube: 'F0kLdmOn7aI'
-  - title: Lazy Overview PSP development system DTP H1500
-    image: https://img.youtube.com/vi/0Vph-DeosFE/maxresdefault.jpg
-    youtube: '0Vph-DeosFE'
 updatedAt: '2020-01-11'
 ---
 
@@ -37,7 +32,7 @@ The hardware supports booting games from both the UMD and DVD drive, the DVD dri
 
 ## PSP-1000 Standard Commander Arm
 In order to use the DevKit to play games you need a controller, and what better controller than the psp itself! A custom PSP `Controller Arm` was provided with the devkit for such a purpose. It wasn't a real psp and the inside board were very different to a retail psp, it was mainly just an interface for providing button in put and screen output for the developers to see what it would look like on a real psp.
-Here is a tear down of the controler hardware by RetroGameTech [^2]:
+Here is a tear down of the controler hardware by **RetroGameTech** [^2]:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P_ajF24sfGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## PSP Go Commander Arm
