@@ -57,6 +57,10 @@ You can find it on Github here:
 # Hardware
 
 ## Development Kit Hardware
+Since Nintendo were very new to the home video game market, they saw themselves as creating most of the software that will run on the NES. 
+So they did not make a public NES development kit, so most third parties has to roll their own development kits.
+
+We have a specific post covering all the NES development kits that we know about here:
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## Retail NES Hardware
