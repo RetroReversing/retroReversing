@@ -10,7 +10,8 @@ tags:
 - corruption
 title: Emulator Game Memory corruption
 thumbnail: /public/consoles/Computer Old Design.png
-image: https://i.ytimg.com/vi/sIELpn4-Umw/hqdefault.jpg
+image: /public/images/Emulator Memory Corruption.jpg
+twitterimage: https://www.retroreversing.com/public/images/Emulator Memory Corruption.jpg
 permalink: /emulator-game-memory-corruption
 breadcrumbs:
   - name: Home
