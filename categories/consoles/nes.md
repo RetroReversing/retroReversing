@@ -126,7 +126,7 @@ The Game Genie used a special encoding format for its codes which can be encoded
 [Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
 
 ### Making Game Genie Codes Permanent
-If you want to permantly modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
+If you want to permanently modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
 [Romhacking.net - Utilities - Permanent Game Genie](https://www.romhacking.net/utilities/784/)
 
 ## NES Memory Corruption
