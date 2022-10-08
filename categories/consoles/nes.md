@@ -22,7 +22,7 @@ Interested in learning more about the the NES? Excellent! This section will guid
 
 
 ## Super Mario 'compiler'
-The website `neilb.net` has created what it calls a `Mario Compiler` which takes in the original Super Mario Bros ROM and dissassembles it.
+The website **neilb.net** has created what it calls a "Mario Compiler" which takes in the original Super Mario Bros ROM and disassembles it.
 The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM.
 
 {% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
@@ -39,7 +39,7 @@ The disassembled code is then shown to the user and can then be modified and re-
 <div markdown="1">
 Have you ever wondered about how a NES controller actually works, such as the circuits and electronic components used to physically create it? 
   
-  Well you are in luck, the Youtuber **Displaced Gamers** explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
+  Well you are in luck, the YouTuber **Displaced Gamers** explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
   
 He opens up the NES controller revealing the physical wires, traces (green lines on the circuit), rubber membranes and the 8-bit shift register (HD14021BP).
   
