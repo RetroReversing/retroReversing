@@ -50,6 +50,16 @@ He opens up the NES controller revealing the physical wires, traces (green lines
 </section>
 
 ---
+# Software Development
+There was no official software development kit provided by Nintendo for the NES, instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
+
+Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
+
+## The Making of ROM City Rampage
+The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # Game Modding
 
 ## Cheat Cartridges (Game Genie)
