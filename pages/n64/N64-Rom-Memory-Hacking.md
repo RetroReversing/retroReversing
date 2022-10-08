@@ -5,7 +5,6 @@ tags:
 - memory
 title: N64 Rom Memory Hacking (Paper Mario)
 thumbnail: /public/consoles/Nintendo 64.png
-youtube: "AxRmQ3bbe1Q"
 image: https://i.ytimg.com/vi/AxRmQ3bbe1Q/sddefault.jpg
 permalink: /n64-rom-memory-hacking/
 breadcrumbs:
@@ -23,12 +22,6 @@ updatedAt: '2021-03-24'
 ---
 # Memory Hacking
 One excellent way to get started modifying your favourite game is to use memory hacking techniques. By learning what memory locations are used for specific functions you can perform all sorts of crazy cheats and start to get an understanding of how the game works internally.
-
-# Introduction to Memory Hacking with Paper Mario
-
-The Youtube user known as **Soul Umbreon** has put together an excellent video tutorial for finding the memory locations of common statistics such as HP, items etc. The example is for the game Paper Mario but this technique should work for most if not all Nintendo 64 games.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AxRmQ3bbe1Q" title="Hacking Nintendo 64 ROMs - Memory Hacking Software MHS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How it works
 <section class="postSection">
@@ -73,17 +66,13 @@ It is even possible to edit the memory of your favourite game on the original ha
 
 These cartridges use a special syntax to tell the Nintendo 64 which memory addresses you want to modify and using that you can convert any cheat you have made in an emulator to run on physical hardware.
 
-For example if you look for an Life cheat code for Action Replay it will have the same addresses shown in the video. You can then put this knowledge to the test and create your own cheat codes which run on physical Action Replay cartridges.
+For example if you look for a life cheat code for **Action Replay** it will have the same addresses. You can then put this knowledge to the test and create your own cheat codes which run on physical Action Replay cartridges.
  </div>
 </section> 
 
 ---
 # More advanced Memory Hacking
-Memory Hacking is not exclusive to Emulators or cheat cartirdges, the PC gaming community has been using these methods for many years. One very popular tool is known as **Cheat Engine** and it performs the same functions but for any PC program.
-
-Cheat engine can be very powerful so if you are interested check out the Guided Hacking Bible:
-{% include link-to-other-site.html url="https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/" description="The Guided Hacking Bible is an excellent place to improve your memory editing skills using tools such as Cheat Engine" image="https://avatars.githubusercontent.com/u/46234790?s=200&v=4" title="Guided Hacking Book 1 - Beginners Guide to Game Hacking"  %}
-
+Memory Hacking is not exclusive to Emulators or cheat cartridges, the PC gaming community has been using these methods for many years. One very popular tool is known as **Cheat Engine** and it performs the same functions but for any PC program.
 
 ---
 # References
