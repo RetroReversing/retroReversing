@@ -42,6 +42,15 @@ In this video `Displaced Gamers` explains exactly how the electronics of the NES
 </section>
 
 ---
+# Game Modding
+
+## Cheats (Game Genie)
+The main cheat cartridge available for the NES was the **Game Genie**. 
+
+The Game Genie used a special encoding format for its codes which can be encoded and decoded using this handy online tool:
+[Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
+
+---
 # All Posts
 <div>
 
