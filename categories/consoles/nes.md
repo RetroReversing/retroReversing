@@ -1,10 +1,12 @@
 ---
 permalink: /nes/
 layout: post
-console: 'nes'
-title: 'Nintendo Entertainment System Reverse Engineering'
+console: nes
+title: Nintendo Entertainment System Reverse Engineering
 consoleimage: /public/consoles/Nintendo Entertainment System.png
 thumbnail: /public/consoles/Nintendo Entertainment System.png
+image: /public/images/nes/NES Reversing.jpg
+twitterimage: https://www.retroreversing.com/public/images/nes/NES Reversing.jpg
 breadcrumbs:
   - name: Home
     url: /
@@ -15,6 +17,7 @@ breadcrumbs:
 recommend: nes
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/nes.md
+updatedAt: '2022-10-08'
 ---
 
 # Introduction
