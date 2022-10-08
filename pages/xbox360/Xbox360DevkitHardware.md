@@ -20,6 +20,7 @@ recommend:
 - devkit
 - xbox
 editlink: /xbox360/Xbox360DevkitHardware.md
+updatedAt: '2022-01-14'
 ---
 
 # Xbox 360 Alpha Development Kits
