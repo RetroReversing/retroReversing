@@ -59,7 +59,11 @@ You can find it on Github here:
 ## Development Kit Hardware
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
-## Nintendo (NES) Controller - Electronics
+## Retail NES Hardware
+For an in-depth look at the NES Retail hardware architecture check out the excellent post by **Copetti.org**:
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.png" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
+
+## Retail NES Controller Electronics
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
