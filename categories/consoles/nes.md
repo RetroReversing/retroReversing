@@ -27,6 +27,11 @@ Interested in learning more about the the NES? Excellent! This section will guid
 If you are interested to see officially released or leaked source code check for the Nintendo Entertainment System check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
+### Home Alone NES Source Code
+The full source code for the NES game **Home Alone** was released online thats to the **Game History Org** and we have a specific post covering the details of the files included:
+{% include link-to-other-post.html post="/home-alone-2-nes-source-code/" description="For the official source code to Home Alone for the NES check out this post." %}
+
+---
 ## Reverse Engineered NES Games
 If you are interested to see existing reversing projects for the NES check out our other post specifically on this topic:
 {% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
