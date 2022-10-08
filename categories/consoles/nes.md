@@ -23,9 +23,13 @@ Interested in learning more about the the NES? Excellent! This section will guid
 ---
 # Games
 
-## Official Retail Game Source Code
+## Official Retail NES Game Source Code
 If you are interested to see officially released or leaked source code check for the Nintendo Entertainment System check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+
+## Reverse Engineered NES Games
+If you are interested to see existing reversing projects for the NES check out our other post specifically on this topic:
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ## Super Mario Bros
 The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
