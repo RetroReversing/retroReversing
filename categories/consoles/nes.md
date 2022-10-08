@@ -44,8 +44,8 @@ In this video `Displaced Gamers` explains exactly how the electronics of the NES
 ---
 # Game Modding
 
-## Cheats (Game Genie)
-The main cheat cartridge available for the NES was the **Game Genie**. 
+## Cheat Cartridges (Game Genie)
+The main cheat cartridge available for the NES was the **Game Genie** created by **Codemasters** (Distributed by Galoob & Hornby Hobbies). This was a physical connector that would sit between the NES and the Game Cartridge you wanted to cheat on. It would alter the signals based on which memory addresses were being read/written to in real-time based on the Cheat code that was loaded into the system.
 
 The Game Genie used a special encoding format for its codes which can be encoded and decoded using this handy online tool:
 [Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
