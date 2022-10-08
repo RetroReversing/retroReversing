@@ -91,7 +91,7 @@ Along with the hardware, Nintendo also provided a fairly limited software develo
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information about the SDK used to make Game Boy games check out this post." %}
 
 ---
-# Game Boy Hardware
+# Hardware
 
 ## Hardware Architecture
 We used to have a post on the hardware architecture of the Game Boy, but now we have replaced it for a link to the far superior page on **copetti.org**, it is a must read for any reverse engineer or beginner emulator developer.
@@ -104,6 +104,13 @@ If you want to go really low level into the Game Boy hardware, you can view a re
 ## The Game Boy, a hardware autopsy
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RZUDEaLa5Nw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ecTQVa42sJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## The Mobile Adapter GB
+In Japan an adapter was released that allowed you to connect your GameBoy Color to a mobile phone called **The Mobile Adapter GB**. Only a few Japanese games supported this adapter, one of which was Pokemon Crystal.
+
+**TheXcellerator** has written an excellent article on not only how the adapter works but also how he managed to create an exploit to run custom code through the adapter! 
+
+Here is the link: [Tetsuji: Remote Code Execution on a GameBoy Colour 22 Years Later :: TheXcellerator](https://xcellerator.github.io/posts/tetsuji/)
 
 ---
 ## Super GameBoy
