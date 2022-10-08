@@ -89,8 +89,13 @@ Then simply join the header with the content from address 0x747E67D6 and 0xC87FC
 ## Cheat Cartridges (Game Genie)
 The main cheat cartridge available for the NES was the **Game Genie** created by **Codemasters** (Distributed by Galoob & Hornby Hobbies). This was a physical connector that would sit between the NES and the Game Cartridge you wanted to cheat on. It would alter the signals based on which memory addresses were being read/written to in real-time based on the Cheat code that was loaded into the system.
 
+### Game Genie Code Format
 The Game Genie used a special encoding format for its codes which can be encoded and decoded using this handy online tool:
 [Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
+
+### Making Game Genie Codes Permanent
+If you want to permantly modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
+[Romhacking.net - Utilities - Permanent Game Genie](https://www.romhacking.net/utilities/784/)
 
 ## Deliberate NES Memory Corruption by Javidx9
 The Youtuber **Javidx9** has created a system that randomly corrupts the memory of a NES game (every 5 seconds) as it runs just for the fun of seeing the chaos that follows. The interesting part of this is that his system is somewhat smart in that it tracks the most common memory addresses used per frame (excluding screen memory) and changes those at a higher rate compared to just random memory locations.
