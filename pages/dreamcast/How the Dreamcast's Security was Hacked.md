@@ -8,7 +8,8 @@ tags:
 - sega
 title: How the Dreamcast's Security was Hacked (MIL-CD)
 thumbnail: /public/consoles/Sega Dreamcast.png
-image: https://img.youtube.com/vi/_x5a0GcbweI/maxresdefault.jpg
+image: /public/images/dreamcast/Dreamcast Security and Piracy.jpg
+twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast Security and Piracy.jpg
 permalink: /How-the-Dreamcast-Security-was-Hacked
 breadcrumbs:
   - name: Home
