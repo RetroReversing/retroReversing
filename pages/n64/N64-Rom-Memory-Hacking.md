@@ -5,7 +5,8 @@ tags:
 - memory
 title: N64 Rom Memory Hacking (Paper Mario)
 thumbnail: /public/consoles/Nintendo 64.png
-image: https://i.ytimg.com/vi/AxRmQ3bbe1Q/sddefault.jpg
+image: /public/images/n64/N64 Memory Editing.jpg
+twitterimage: https://www.retroreversing.com/public/images/n64/N64 Memory Editing.jpg
 permalink: /n64-rom-memory-hacking/
 breadcrumbs:
   - name: Home
@@ -22,6 +23,8 @@ updatedAt: '2021-03-24'
 ---
 # Memory Hacking
 One excellent way to get started modifying your favourite game is to use memory hacking techniques. By learning what memory locations are used for specific functions you can perform all sorts of crazy cheats and start to get an understanding of how the game works internally.
+
+You can even use a tool like **Cheat Engine** to inspect memory of an emulator such as Mupen64 to modify the contents of N64 game memory!
 
 ## How it works
 <section class="postSection">
@@ -77,4 +80,3 @@ Memory Hacking is not exclusive to Emulators or cheat cartridges, the PC gaming 
 ---
 # References
 [^1]: [Hacking Nintendo 64 ROMs - Memory Hacking Software MHS - YouTube](https://www.youtube.com/watch?v=AxRmQ3bbe1Q)
-[^2]: [Guide - GHB1 - Start Here Beginner Guide to Game Hacking - Guided Hacking](https://guidedhacking.com/threads/ghb1-start-here-beginner-guide-to-game-hacking.5911/)
