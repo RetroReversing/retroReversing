@@ -108,6 +108,19 @@ It covers the following topics related to NES Graphics:
 * **Sprites** - Graphics made up of tiles but are rendered above the background tiles
 
 ---
+# Reverse Engineering
+
+## File Formats
+When reversing NES games you will come across a variety of file formats, this section will try to cover all of the most common formats you will encounter.
+
+The formats for NES ROMS (virtual cartridges) are:
+* **.NES** - This is the most common format for NES ROMs to be in, it is also known as the **iNES** format, most emulators will play this format (For More information: [INES - NESdev Wiki](https://www.nesdev.org/wiki/INES))
+* **.UNIF** - The Universal NES Image Format was a competitor format to iNES 1.0 but has largely been replaced by iNES 2.0
+* **.FDS** - Famicom Disc System backup format created for the **fwNES** emulator
+* **.NSF** (NSF2/NSFe) - NES Sound Format for playing music ripped from NES games can be played back in some emulators and specific NSF tools.
+* **.TNES** - Official Format by Nintendo used on the 3DS Virtual Console and also supports Famicom Disc System games
+
+---
 # All Posts
 <div>
 
