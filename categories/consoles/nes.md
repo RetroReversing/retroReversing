@@ -65,11 +65,14 @@ Nowadays there are many open source assemblers, IDE's and even high level langua
 
 ## NES Emulators with Debugging Functionality
 When reversing or developing NES games it is vital to use a good emulator which has debugging support such as:
-* BreakPoints - e.g can create a breakpoint at a specific code or memory location and execution will stop at that place
-* Symbol File support - e.g supports loading a file with a list of known variable and function names
+* **BreakPoints** - e.g can create a breakpoint at a specific code or memory location and execution will stop at that place
+* **Symbol File support** - e.g supports loading a file with a list of known variable and function names
+* **Built-in Assembler** - assemble code in real-time within the emulator to quickly create patches
+* **PPU Viewer** - see the current state of the Picture Processing Unit such as the Nametable, Sprites, CHR Memory viewer etc
 
 Here is a list of a few Open Source emulators that have some of these features:
-* **nintendulator** - [quietust/nintendulator: NES emulator for Windows](https://github.com/quietust/nintendulator)
+* **Mesen** - [SourMesen/Mesen: Mesen is a cross-platform (Windows & Linux) NES/Famicom emulator built in C++ and C#](https://github.com/SourMesen/Mesen)
+* **Nintendulator** - [quietust/nintendulator: NES emulator for Windows](https://github.com/quietust/nintendulator)
 
 ## The Making of ROM City Rampage (Grand Theftendo)
 The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
