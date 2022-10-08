@@ -84,6 +84,22 @@ The Youtuber **Javidx9** has created a system that randomly corrupts the memory 
 Apparently the source code was once linked on the twitch page, but it is sadly so old now that the link has disappeared, it would have been really interesting to see it!
 
 ---
+# Graphics & Rendering
+For an introduction to how the NES renders graphics to the screen checkout **Austin Morlan**'s excellent article on his website:
+[An Overview of NES Rendering - Austin Morlan](https://austinmorlan.com/posts/nes_rendering_overview/).
+
+It covers the following topics related to NES Graphics:
+* Tiles - 8x8 pixel graphics used to make up the background of a game
+* Block - A set of 4x4 tiles (used for colour indexing)
+* Frames - Background made up of 32x30 titles (256x240 pixels)
+* Nametable - Big blob of bytes, specifying which tile is placed where in the frame (Like a Room in GameMaker)
+* Pattern Table - Contains the actual pixels for the 8x8 tiles as either a 1 or a 0 (no colour information)
+* System Palette - A Palette of all the 64 colours a NES can output to the screen
+* Frame Palette - A dynamic subset of the System Palette of just the colours used in a single frame. Palette 0 to 3 are for background tiles, and 4 to 7 are for sprites.
+* Attribute Table - A look up table of which Palette to use for that Block (set of 4x4 tiles)
+* Sprites - Graphics made up of tiles but are rendered above the background tiles
+
+---
 # All Posts
 <div>
 
