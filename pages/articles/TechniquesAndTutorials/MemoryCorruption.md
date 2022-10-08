@@ -41,6 +41,7 @@ One of the troubles with reversing games is that there are no variable names so 
 
 You can then map the memory reads/writes back to the game code to get an indication of what a function or piece of assembly code is doing for the game.
 
+---
 # Tools
 ROM Corruptors have existed since the year 2000 with many no longer being updated, however there are 2 main corruptors that are still in use today [^4]:
 * Vinesauce ROM Corruptor
@@ -55,10 +56,10 @@ The Real Time Corruptor was developed by Phil Girard and Dan Barreiro as a way t
 
 ### RTC Engines
 There are a number of different "Engines" available in RTC, these are basically different ways to corrupt the data, the corruptors available are:
-* Nightmare engine - throws random bytes at the selected memory regions
-* Hellgenie Engine (cheats) - applies random cheats (e.g game engine codes)
-* Distortion Engine (Bytes) - creates blast backups and re-applies them later
-* External ROM Plugin - use with Glitch Harvester
+* **Nightmare engine** - throws random bytes at the selected memory regions
+* **Hellgenie Engine** (cheats) - applies random cheats (e.g game engine codes)
+* **Distortion Engine** (Bytes) - creates blast backups and re-applies them later
+* **External ROM Plugin** - use with Glitch Harvester
 
 ### Error Delay
 The error delay chooses how much time to wait between each blasted byte.
@@ -68,15 +69,15 @@ Memory Zones are areas of memory that are allowed to be corrupted. For example y
 
 ### Blast Radius
 The blast radius controls how it corrupts memory, there are a few options:
-* SPREAD - spreads corruptions random across selected memory
-* CHUNK - corrupts all the memory in one chunk
-* BURST - same as chunk but split into 10 different areas
+* **SPREAD** - spreads corruptions random across selected memory
+* **CHUNK** - corrupts all the memory in one chunk
+* **BURST** - same as chunk but split into 10 different areas
 
 ### Blast Type
 Blast type chooses how to change the bytes that are to be blasted. Basically how it selects the value to replace the old memory value. There are three blast types:
-* Random - Random value is placed at that byte location
-* Tilt - it will go up or down a value
-* Random Tilt - both combined
+* **Random** - Random value is placed at that byte location
+* **Tilt** - it will go up or down a value
+* **Random Tilt** - both combined
 
 If you are looking for a specific thing in the game it is good to set the region of memory that would most likely contain that data along with setting the `Blast Radius` to `CHUNK`.
 
@@ -125,4 +126,4 @@ This uses the Real Time Corruptor which is a tool for specifically corrupting th
 [^3]: [Real-Time Corruptor](http://redscientist.com/pages/rtc.php)
 [^4]: [Old Corruptors - Corrupt.wiki](https://corrupt.wiki/corruptors/old-corruptors)
 [^5]: [The Vinesauce ROM Corruptor :: Corrupted Bytes](http://corruptedbytes.com/the-vinesauce-rom-corruptor/)
-[^6]: [(416) RTC Guide Part 1 | Main Program - YouTube](https://www.youtube.com/watch?v=sIELpn4-Umw)
+[^6]: [RTC Guide Part 1 - Main Program - YouTube](https://www.youtube.com/watch?v=sIELpn4-Umw)
