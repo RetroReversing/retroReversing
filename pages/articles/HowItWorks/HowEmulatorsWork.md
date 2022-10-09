@@ -158,7 +158,7 @@ What better way to learn how to write your own emulator that watching people wri
 
 ## Apple II Emulator in React and Typescript
 <section class="postSection">
-<iframe src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
+<iframe height="300" src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
 
  <div markdown="1" class="rr-post-markdown">
 **Chris Torrence** has put together an excellent series of videos in which he writes an Apple II emulator from scratch that will run in any modern web browser!
