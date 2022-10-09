@@ -104,6 +104,10 @@ body {
   margin-left: 10px;
 }
 
+.postImageRight + .rr-post-markdown {
+  padding-left: 20px;
+}
+
 .postSection {
   line-height: 2;
 }
