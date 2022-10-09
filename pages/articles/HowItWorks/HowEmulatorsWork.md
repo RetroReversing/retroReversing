@@ -110,3 +110,19 @@ Of course this pseudo code would fail after we get to the end of the instruction
 Now that you understand the Pseudo code, you can look at how real emulators are implemented:
 * **NES** - [QuickNES_Core/Nes_Cpu.cpp uses a switch statement](https://github.com/RetroReversing/QuickNES_Core/blob/master/nes_emu/Nes_Cpu.cpp#L201)
 * **SNES** - [snes9x2010/cpuexec.c - snes9x uses a table lookup instead of switch statement](https://github.com/RetroReversing/snes9x2010/blob/master/src/cpuexec.c#L293)
+* **N64** - [mupen64plus-core/pure_interp.c uses multiple switch statements based on category of opcode](https://github.com/RetroReversing/mupen64plus-core/blob/master/src/device/r4300/pure_interp.c#L290)
+
+## Complexities
+We have covered CPU emulation at a very high level, simplifying the details to make it easier to understand, but note that CPU emulation is far from a trivial problem to solve. One of the reasons for complexity is that we are trying to simulate physical hardware, hardware with multiple chips working in parallel with each other. Whenever you have multiple tasks in parallel you get issue with **timing**, such as the Audio Processor being out of sync with the CPU so the sound doesn't match what would play on the real hardware.
+
+### Cycle-accurate Timings
+Timing in emulators is reffered to as cycles, so Cycle accurate timing is the gold standard in emlation and matches what the physical hardware would do.
+
+Most emulators don't have cycle-accurate timing and rely on estimated timings which are **good-enough** to run most software created for the hardware. The reason for this is to get real cycle-accurate timing you need to effectivly emulate all sorts of very low level hardware details which requires both a lot of knowledge on the developers part and a lot of CPU time on the host machine running the emulator. 
+
+For most emulators this is fine as users won't notice such subtle timing differences and would rather the emulator doesn't take up either entire CPU in the process. However for true preservation of the original experience cycle-accurate emulation is very important. 
+
+### Un-documented Opcodes/Instructions
+CPUs are complex pieces for hardware and not all Opcodes have been formally documented for use by programmers. However this doesn't stop programmers using instructions that have not been documented by the CPU vendor. This raises a question for emulator developers, what do all those un-documented instructions do? How many bytes to the instructions take up? How many Clock Cycles? To get a true answer you need to try them on real hardware and inspect what the physical chips do at a low level, this is a non-trivial task.
+
+Most software written for a specific CPU do not use un-documented instructions as the programmers probably don't know what they do either. But there are a few retails games and software that use them for specific purposes such as anti-emulation/anti-piracy.
