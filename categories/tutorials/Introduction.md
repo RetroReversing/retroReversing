@@ -165,12 +165,12 @@ strings yourfilename
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
 
 ## What is an executable and how does it work?
-The Youtuber **Bisqwit** bhas created an excellent video on how executables work:
+The Youtuber **Bisqwit** has created an excellent video on how executables work:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hhgxsrAFyz8" title="What are EXE files made of?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How a CPU Works
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-LiveOverflow has an excellent introduction video to how a CPU works and what exactly assembly language is. 
+**LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
 
 ### CPU Registers
 In this video you will learn about registers, which it describes as global variables that the CPU accesses directly, which is a really nice way to think about them. 
@@ -189,6 +189,10 @@ You can think of the stack like a deck of cards, you can add new cards only to t
 Although unlike a deck of cards when you add more data the address of the data goes downwards instead of upwards, so if the first element in a stack is at position 10 then when you add another byte of data its address would be 9.
 
 In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
+
+## What is an emulator and how does it work?
+We have a specific post covering exactly how emulators works including tips for writing your own emulators:
+{% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
 ## Reversing with GDB
 GDB is a very useful tool to debug through an application, with functionality to set breakpoints and disassemble the code, which makes it a very useful tool for basic reverse engineering.
