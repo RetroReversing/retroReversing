@@ -42,3 +42,20 @@ Normally when we are talking about a system such as a games console or PC they h
 
 ## What types of emulation are there?
 There are two main cateogies of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
+
+---
+# Emulating The CPU
+You can think of a CPU as an infinite loop, it does the same thing over and over until it has no more electricity and switches off. So a CPU should be easy to emulate on another system right? Just create a while loop that runs forever and does everything a CPU would do each cycle. Well sort of.. its not quite that easy but we are on the right track.
+
+Every iteration of the loop (known as a clock cycle in CPU terms) the CPU goes through a process known as the **fetch–decode–execute cycle**.
+
+At a very high level this would be:
+* **Fetch** - find where the next instruction I should execute is located
+* **Decode** - understand what the instruction is asking me to do
+* **Execute** - actually do what the instruction wants
+
+Thats what CPUs do from the moment they are started until the end of time (or when they are powered off).
+
+So imagine you are a baker with an endless list of tasks to do to make cakes and every time you have finished one of those tasks you just move on to the next one, forever. The task in this case is what a CPU calls an instruction, for example put in flour to the bowl would be an instruction. 
+
+**Fetching** would be the Baker moving on from the previous step and finding the next step of the recipe (it might be on the next line of the recipe book or on another page). **Decoding** the instruction would be the Baker reading that step of the recipe and **executing** would be physically putting the flour in the bowl.
