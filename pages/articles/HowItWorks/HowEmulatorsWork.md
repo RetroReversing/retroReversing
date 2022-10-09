@@ -153,5 +153,16 @@ This raises a question for emulator developers, what do all those un-documented 
 Most software written for a specific CPU do not use un-documented instructions as the programmers probably don't know what they do either. But there are a few retails games and software that use them for specific purposes such as anti-emulation/anti-piracy.
 
 ---
+# Videos on Emulator Development
+What better way to learn how to write your own emulator that watching people write one themselves. This section will link to video tutorials on emulator development, some are follow-along-at-home type and others are just mentioning the core concepts, but all are worth a watch if you are serious about emulator development.
+
+## Apple II Emulator in React and Typescript
+**Chris Torrence** has put together an excellent series of videos in which he writes an Apple II emulator from scratch that will run in any modern web browser!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Commodore 64 Emulation in JavaScript - Imran Nazar - NDC London 2022
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # References
 [^1]: [Are there good books/resources/guides on Emulator Architecture and how to structure your projects? : EmuDev](https://www.reddit.com/r/EmuDev/comments/w0epiv/are_there_good_booksresourcesguides_on_emulator/)
