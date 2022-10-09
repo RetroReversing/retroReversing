@@ -73,7 +73,7 @@ The steps of the recipe/program are called Instructions and they are indeed a se
 
 A Byte is just eight 1s and 0s in a row and could look like this to a CPU: `00000011`, but us humans find it easier to represent a single Byte as a Hex Value instead which would look like this `0x03`. The **0x** at the start just tells us that its  a Hex value so we know its not a decimal value but is also sometimes written with a Dollar sign instead like this: `$03`, but we will be using the **0x** throughout this site.
 
-## Intructions & Opcode
+## Instructions & Opcodes
 Now that we know we can represent CPU Instructions as Hex values we can look at some real CPU instructions used by a number of common processors:
 * **0x04** - In a **Z80 CPU** this Hex increments the **B Register** think of the B register as similar to the Program Counter but doesn't just store where we are in the program it can store whatever number you would like
 * **0xEA** - In a **6502 CPU** this Hex is called a No-Operation or NOP for short, yes doing nothing is a valid thing for a CPU to do, CPUs need time to relax too you know!
@@ -86,7 +86,9 @@ But in all CPUs the 1st byte is known as the **Opcode** and is used to determine
 
 Also just incase you start to panic and think you need to learn all sorts of different Hex values and what they do, you don't, emulator developers always have a reference form this nearby and  there is a much simpler way to write instructions known as **Assembly Language**. Most emulators however use the Hex value in the CPU emulation loop to **decode** which instruction it should now execute.
 
-Here is some pseudo code to piece together thwat we have talked about so far:
+## Putting it all together
+
+Here is some pseudo code to piece together that we have talked about so far:
 ```js
 var instructions = [0xEA, 0xEA, 0xEA,...]; // All the steps that make up our recipe/program
 var programCounter = 0; // start at... well the start of the instructions array
@@ -98,8 +100,8 @@ while(true) { // loop forever and ever
       case 0xEA: // lets check if the opcode is 0xEA
 	 // Lets do nothing as this is a NOP (No-operation instruction)
     }
-    programCounter = programCounter +1; // go to the next instruction in the loop
+    programCounter = programCounter + 1; // go to the next instruction in the loop
 }
 ```
 
-Of course this psudo code would fail after we get to the end of the instructions array but CPUs just keep going on.
+Of course this pseudo code would fail after we get to the end of the instructions array but CPUs just keep going on.
