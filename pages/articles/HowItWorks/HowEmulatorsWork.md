@@ -23,7 +23,7 @@ editlink: /articles/HowItWorks/HowEmulatorsWork.md
 # Introduction to How Emulators Work
 Emulators are computer programs that run on one system such as a PC or games console but pretend to be another system such as retro console like the NES or GameBoy.
 
-But how do they work? How would you implement a Emulator? Where should you start if you are interested in Emulator development? This post attempts to answer all those questions.
+But how do they work? How would you implement an Emulator? Where should you start if you are interested in Emulator development? This post attempts to answer all those questions.
 
 ## What can be emulated?
 Normally emulators are pretending to be a physical system so we need to simulate all the connections between physical components such as different electronic chips.
@@ -41,7 +41,7 @@ Normally when we are talking about a system such as a games console or PC they h
 * **Audio Output Interface** - Some systems such as games consoles have Audio processing chips which need to be simulated
 
 ## What types of emulation are there?
-There are two main cateogies of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
+There are two main categories of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
 
 
 ---
@@ -66,3 +66,19 @@ So imagine you are a baker with an endless list of tasks to do to make cakes and
 In this analogy how does the Baker remember what step of the recipe he is on? Lets say the recipe steps are numbered, they need to use their brain to remember the step number they are on. Then every time they move to the next step they increases the number they are remembering by 1. This is exactly what a CPU needs to do, but since a CPU doesn't have a human brain the CPU instead has what are called **Registers**.
 
 **Registers** are small pieces of memory that can only store a small amount of information at once (lets say just one number). So in this example the CPU needs a register to remember what line of the recipe (program) it is executing. This little piece of memory (register) for keeping track of the location it is at has a special name called the **Program Counter** or **PC** for short. It is exactly the same as the Baker keeping track of which step number of the recipe they are on, they are counting up just like the **Program Counter**.
+
+## Binary & Hex Representations
+So we now know that CPUs store the step they are on in the Program Counter but what do those steps look like? Computers don't understand human language, only 1/On and 0/Off (Binary numbers).
+
+The steps of the recipe/program are called Instructions and they are indeed a series of 1s and 0s, but Humans are not good at reading long lines of 1s and 0s and Humans need to be able to program and understand computer Instructions so although they are 1s and 0s to the CPU us Humans represent them as **Hex Values** split up into **Bytes** instead.
+
+A Byte is just eight 1s and 0s in a row and could look like this to a CPU: `00000011`, but us humans find it easier to represent a single Byte as a Hex Value instead which would look like this `0x03`. The **0x** at the start just tells us that its  a Hex value so we know its not a decimal value but is also sometimes written with a Dollar sign instead like this: `$03`, but we will be using the **0x** throughout this site.
+
+## Intructions & Opcode
+Now that we know we can represent CPU Instructions as Hex values we can look at some real CPU instructions used by a number of common processors:
+* **0x04** - In a **Z80 CPU** this Hex increments the **B Register** think of the B register as similar to the Program Counter but doesn't just store where we are in the program it can store whatever number you would like
+* **0xEA** - In a **6502 CPU** this Hex is called a No-Operation or NOP for short, yes doing nothing is a valid thing for a CPU to do, CPUs need time to relax too you know!
+
+These are two examples of different CPUs from real Nintendo games consoles, the Z80 CPU was used in the GameBoy and the 6502 was used in the NES.
+
+Also just incase you start to panic and think you need to learn all sorts of different Hex values and what they do, you don't, emulator developers always have a reference form this nearby and  there is a much simpler way to write instructions known as **Assembly Language**. Most emulators however use the Hex value in the CPU emulation loop to **decode** which instruction it should now execute.
