@@ -189,7 +189,7 @@ A Memory Map is a piece of documentation that is used to say which address range
 
 You will notice that for many games consoles and other systems there are tons of memory addresses that are mapped to nothing at all. It seems like a huge waste of memory to emulate these unused addresses in a big byte array.
 
-So instead of a simple array for all of RAM, it might in-fact be better to have smaller arrays, one for each type of memory and have specific read and write functions that handle going to the correct memory array.
+So instead of a simple array for all of RAM, it might be better to have smaller arrays, one for each type of memory and have specific read and write functions that handle going to the correct memory array.
 
 Here is some pseudo code after taking into account what was have said above:
 ```js
@@ -202,7 +202,7 @@ function read(addressLocation) {
 	return LowRAM[addressLocation];
   }
 
-// other if statements for HighRam and other pieces of memory such as SaveRAM or controller input would go here
+// other if statements for HighRam and other pieces of memory such as SaveRAM, Cartridge ROM or controller input would go here
 
 }
 
@@ -219,6 +219,21 @@ function write(addressLocation, valueToWrite) {
 Now that you understand the Pseudo code, you can look at how real emulators are implemented:
 * **NES** - [QuickNES_Core/Nes_Cpu.cpp uses a bunch of Macros such as READ_LOW/READ_PROG ](https://github.com/RetroReversing/QuickNES_Core/blob/master/nes_emu/Nes_Cpu.cpp#L98)
 * **SNES** - [snes9x2010/memmap.c atis an example of using multiple smaller arrays one for each type of RAM](https://github.com/RetroReversing/snes9x2010/blob/master/src/memmap.c#L429)
+
+---
+# Emulating Graphics/Video
+Many systems that you will want to emulate have some sort of graphical output, whether that is to a TV Screen such as a CRT or a more permanent physical form via a device such as a printer.
+
+Every system handles graphical output in a very different way so this section will only cover things that they have in common, specifically when talking about a CRT or other TV-like display.
+
+So just like in the other sections where we had the **Central Processing Unit** (CPU) to process the system instructions and the **Memory Management Unit** (MMU) to handle the system memory, for graphics we normally refer to the managment interface as the **Picture Processing Unit** or PPU for short.
+
+The PPU normally renders a pixel at a time, but how do you know the colour of that pixel? Well you need to take into account all the background tiles, sprites etc that intersect at that pixel.
+
+## PPU Timing
+But what about timing? There is a risk that your emulated PPU will get out of sync with the emulated CPU resulting in all sorts of weird behaviour. 
+
+The simplist way to solve this issue is to run both the PPU and CPU in the same thread and find out how many pixels are drawn to the screen per cpu-cycle. That means you can run 1 cpu-cycle then call the PPU to draw that number of pixels and so on in a infinite loop. The problem with this is that if the system you are emulating is more recent/powerful it you won't have enough GHz on your host machine to emulate that system.
 
 ---
 # Videos on Emulator Development
@@ -252,7 +267,7 @@ A very cool feature of his emulator is it has en embedded 6502 assembler inside 
 <iframe height="300" class="wow slideInLeft postImage" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  <div markdown="1" class="rr-post-markdown">
-**Imran Nazar** goes over how and why he created a Commodore 64 emulator in Javascript. It is a very good introduction to the concepts of emulators but doesn't go into the specifics for how his emulator works.
+**Imran Nazar** goes over how and why he created a Commodore 64 emulator in Javascript. It is a very good introduction to the concepts of emulators such as the CPU loop, MMU and PPU but doesn't go into the specifics for how his emulator works in terms of code.
  </div>
 </section> 
 
@@ -262,7 +277,7 @@ A very cool feature of his emulator is it has en embedded 6502 assembler inside 
 <iframe height="300" class="wow slideInLeft postImageRight" src="https://www.youtube.com/embed/y71lli8MS8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  <div markdown="1" class="rr-post-markdown">
-**Bisqwit** 
+**Bisqwit** holds a live coding session where he writes a NES emulator using features new to C++11. Make sure to enable subtitles for this video as that is where all the description is, there is no narration for this video. It is split into two 30 minute videos and can be a little hard to follow reading the subtitles and watching the code editing at the same time but it has a charm to it.
  </div>
 </section> 
 
