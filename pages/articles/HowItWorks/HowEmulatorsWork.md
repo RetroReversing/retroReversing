@@ -88,7 +88,7 @@ But in all CPUs the 1st byte is known as the **Opcode** and is used to determine
 
 Also just incase you start to panic and think you need to learn all sorts of different Hex values and what they do, you don't, emulator developers always have a reference form this nearby and  there is a much simpler way to write instructions known as **Assembly Language**. Most emulators however use the Hex value in the CPU emulation loop to **decode** which instruction it should now execute.
 
-### Opcode Mnemonics & Assembly langauge
+### Opcode Mnemonics & Assembly language
 Most Humans find it easier to remember patterns of letters (Mnemonics) that a set of Hex values such as `0x45 0xFF 0xEA`. The Mnemonics used to represent Opcodes is called **Assembly Language** and they are normally just shorthand of what the operation does e.g:
 * **MUL** - Multiplies two numbers
 * **ADD** - Adds two numbers
@@ -153,12 +153,51 @@ This raises a question for emulator developers, what do all those un-documented 
 Most software written for a specific CPU do not use un-documented instructions as the programmers probably don't know what they do either. But there are a few retails games and software that use them for specific purposes such as anti-emulation/anti-piracy.
 
 ---
+# Emulating the Memory
+All systems you would want to emulate have a certain amount of RAM/memory where they store values that impact the running of the program, variables such as the player's score would be saved in this memory.
+
+A really simple way to emulate a system's memory would be to have a big array of bytes and whenever you need to read or write to a memory location you just go to that specific index in the byte array.
+
+For example here is some pseudo code for that:
+```
+var systemMemory = [0x06, 0x01...];
+
+var playerScorePointer = 0; // store the location in memory where the player score is stored
+
+// Lets read the value at position 0 (value of playerScorePointer) of the emulated system's memory
+var playerScore = systemMemory[playerScorePointer];
+
+// Now lets write a new score for the player, just add 1 because they got 1 more point
+systemMemory[playerScorePointer] = systemMemory[playerScorePointer] + 1;
+```
+
+However it is not quite this simple as many systems use something called Memory Mapped registers/variables. What these are are certain addresses of memory that when either read from or written to they interact with some sort of Input/Output device such as a game controller.
+
+So the CPU can be dumb and just write to a certain address, but the Memory management Unit needs to be able to tell where that write should occur, should it write to:
+* High RAM
+* Low RAM
+* Save RAM (SRAM)
+* Audio/Graphics RAM
+
+These will all be different chips on the board but will all just be referenced by an address. So how does the MMU know which addresses point to which memory chips? This is where the Memory Map comes in handy.
+
+## Memory Maps
+A Memory Map is a piece of documentation that is used to say which address ranges are used for what purpose. Here are some example Memory Maps for various consoles:
+* **NES** - [CPU memory map - NESdev Wiki](https://www.nesdev.org/wiki/CPU_memory_map)
+* **SNES** - [Super NES Programming/SNES memory map - Wikibooks, open books for an open world](https://en.wikibooks.org/wiki/Super_NES_Programming/SNES_memory_map)
+* **N64** - [Memory map detailed - en64 wiki](http://en64.shoutwiki.com/wiki/Memory_map_detailed)
+
+You will notice that for many games consoles and other systems there are tons of memory addresses that are mapped to nothing at all. It seems like a huge waste of memory to emulate these unused addresses in a big byte array.
+
+So instead of a simple array for all of RAM, it might infact be better to have smaller arrays, one for each type of memory and have specific read and write functions that handle going to the correct memory array.
+
+---
 # Videos on Emulator Development
 What better way to learn how to write your own emulator that watching people write one themselves. This section will link to video tutorials on emulator development, some are follow-along-at-home type and others are just mentioning the core concepts, but all are worth a watch if you are serious about emulator development.
 
 ## Apple II Emulator in React and Typescript
 <section class="postSection">
-<iframe height="300" src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
+<iframe src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
 
  <div markdown="1" class="rr-post-markdown">
 **Chris Torrence** has put together an excellent series of videos in which he writes an Apple II emulator from scratch that will run in any modern web browser!
@@ -171,8 +210,32 @@ A very cool feature of his emulator is it has en embedded 6502 assembler inside 
  </div>
 </section> 
 
+## NES Emulator from Scratch by javidx9
+<section class="postSection">
+<iframe height="300" class="wow slideInRight postImageRight" src="https://www.youtube.com/embed/F8kx56OZQhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <div markdown="1" class="rr-post-markdown">
+**javidx9** has created an excellent series where he dives into the world of NES emulator development.
+ </div>
+</section> 
+
 ## Commodore 64 Emulation in JavaScript - Imran Nazar - NDC London 2022
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section class="postSection">
+<iframe height="300" class="wow slideInLeft postImage" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <div markdown="1" class="rr-post-markdown">
+**Imran Nazar** goes over how and why he created a Commodore 64 emulator in Javascript. It is a very good introduction to the concepts of emulators but doesn't go into the specifics for how his emulator works.
+ </div>
+</section> 
+
+
+## Creating a NES emulator in C++11
+<section class="postSection">
+<iframe height="300" class="wow slideInLeft postImageRight" src="https://www.youtube.com/embed/y71lli8MS8s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <div markdown="1" class="rr-post-markdown">
+**Bisqwit** 
+ </div>
+</section> 
 
 ---
 # References
