@@ -19,6 +19,7 @@ recommend:
 - howitworks
 - nes
 editlink: /articles/HowItWorks/HowEmulatorsWork.md
+updatedAt: '2022-10-09'
 ---
 # Introduction to How Emulators Work
 Emulators are computer programs that run on one system such as a PC or games console but pretend to be another system such as retro console like the NES or GameBoy.
@@ -87,6 +88,28 @@ But in all CPUs the 1st byte is known as the **Opcode** and is used to determine
 
 Also just incase you start to panic and think you need to learn all sorts of different Hex values and what they do, you don't, emulator developers always have a reference form this nearby and  there is a much simpler way to write instructions known as **Assembly Language**. Most emulators however use the Hex value in the CPU emulation loop to **decode** which instruction it should now execute.
 
+### Opcode Mnemonics & Assembly langauge
+Most Humans find it easier to remember patterns of letters (Mnemonics) that a set of Hex values such as `0x45 0xFF 0xEA`. The Mnemonics used to represent Opcodes is called **Assembly Language** and they are normally just shorthand of what the operation does e.g:
+* **MUL** - Multiplies two numbers
+* **ADD** - Adds two numbers
+* **SUB** - Subtracts two numbers
+* **BEQ** - Branch (Change location of Program Counter) if numbers are equal to each other
+
+### Opcode Categories
+Not all opcodes are created equal, some are for modifying RAM, others are for changing the location of the Program Counter (Branching).
+
+For the 6502 CPU the reddit user **mysticreddit** suggests breaking the 56 instruction set down into categories [^1]:
+* **Load/Store** - LDA, LDX, LDY, STA, STX, STY, TAX, TAY, TXA, TYA
+* **Arithmetic** - ADC, SBC, CLC, SEC, INC, DEC, INX, INY, DEX, DEY, CMP, CPY, CPX
+* **Branching** - BCC, BCS, BEQ, BNE, BMI, BPL, BVC, BVS
+* **Logic** - AND, ORA, EOR
+* **Bit manipulation** - ASL, LSR, ROL, ROR, BIT, CLC, SEC
+* **Misc** - NOP
+* **Modes** - CLD, SED, CLI, SEI, CLV
+* **Stack** - PHA, PLA, PHP, PLP
+* **Flow Control** - JSR, JMP, RTS, RTI, BRK
+* **Undocumented instructions** - The CPU Vendor has never told anyone what these do
+
 ## Putting it all together
 
 Here is some pseudo code to piece together that we have talked about so far:
@@ -116,13 +139,19 @@ Now that you understand the Pseudo code, you can look at how real emulators are 
 We have covered CPU emulation at a very high level, simplifying the details to make it easier to understand, but note that CPU emulation is far from a trivial problem to solve. One of the reasons for complexity is that we are trying to simulate physical hardware, hardware with multiple chips working in parallel with each other. Whenever you have multiple tasks in parallel you get issue with **timing**, such as the Audio Processor being out of sync with the CPU so the sound doesn't match what would play on the real hardware.
 
 ### Cycle-accurate Timings
-Timing in emulators is reffered to as cycles, so Cycle accurate timing is the gold standard in emlation and matches what the physical hardware would do.
+Timing units in emulators are referred to as cycles, so **Cycle-accurate** timing is the gold standard in emulation and matches what the physical hardware would do.
 
-Most emulators don't have cycle-accurate timing and rely on estimated timings which are **good-enough** to run most software created for the hardware. The reason for this is to get real cycle-accurate timing you need to effectivly emulate all sorts of very low level hardware details which requires both a lot of knowledge on the developers part and a lot of CPU time on the host machine running the emulator. 
+Most emulators don't have cycle-accurate timing and rely on estimated timings which are **good-enough** to run most software created for the hardware. The reason for this is to get real cycle-accurate timing you need to effectively emulate all sorts of very low level hardware details which requires both a lot of knowledge on the developers part and a lot of CPU time on the host machine running the emulator. 
 
 For most emulators this is fine as users won't notice such subtle timing differences and would rather the emulator doesn't take up either entire CPU in the process. However for true preservation of the original experience cycle-accurate emulation is very important. 
 
 ### Un-documented Opcodes/Instructions
-CPUs are complex pieces for hardware and not all Opcodes have been formally documented for use by programmers. However this doesn't stop programmers using instructions that have not been documented by the CPU vendor. This raises a question for emulator developers, what do all those un-documented instructions do? How many bytes to the instructions take up? How many Clock Cycles? To get a true answer you need to try them on real hardware and inspect what the physical chips do at a low level, this is a non-trivial task.
+CPUs are complex pieces for hardware and not all Opcodes have been formally documented for use by programmers. However this doesn't stop programmers using instructions that have not been documented by the CPU vendor. 
+
+This raises a question for emulator developers, what do all those un-documented instructions do? How many bytes to the instructions take up? How many Clock Cycles? To get a true answer you need to try them on real hardware and inspect what the physical chips do at a low level, this is a non-trivial task.
 
 Most software written for a specific CPU do not use un-documented instructions as the programmers probably don't know what they do either. But there are a few retails games and software that use them for specific purposes such as anti-emulation/anti-piracy.
+
+---
+# References
+[^1]: [Are there good books/resources/guides on Emulator Architecture and how to structure your projects? : EmuDev](https://www.reddit.com/r/EmuDev/comments/w0epiv/are_there_good_booksresourcesguides_on_emulator/)
