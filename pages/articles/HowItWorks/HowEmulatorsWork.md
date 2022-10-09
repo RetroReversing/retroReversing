@@ -6,6 +6,8 @@ tags:
 title: How Emulators work
 thumbnail: /public/consoles/Computer Old Design.png
 permalink: /how-emulators-work
+image: /public/images/articles/How Emulators Work.jpg
+twitterimage: /public/images/articles/How Emulators Work.jpg
 breadcrumbs:
   - name: Home
     url: /
