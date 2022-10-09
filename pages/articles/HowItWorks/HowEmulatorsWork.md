@@ -159,7 +159,7 @@ All systems you would want to emulate have a certain amount of RAM/memory where 
 A really simple way to emulate a system's memory would be to have a big array of bytes and whenever you need to read or write to a memory location you just go to that specific index in the byte array.
 
 For example here is some pseudo code for that:
-```
+```js
 var systemMemory = [0x06, 0x01...];
 
 var playerScorePointer = 0; // store the location in memory where the player score is stored
@@ -189,7 +189,36 @@ A Memory Map is a piece of documentation that is used to say which address range
 
 You will notice that for many games consoles and other systems there are tons of memory addresses that are mapped to nothing at all. It seems like a huge waste of memory to emulate these unused addresses in a big byte array.
 
-So instead of a simple array for all of RAM, it might infact be better to have smaller arrays, one for each type of memory and have specific read and write functions that handle going to the correct memory array.
+So instead of a simple array for all of RAM, it might in-fact be better to have smaller arrays, one for each type of memory and have specific read and write functions that handle going to the correct memory array.
+
+Here is some pseudo code after taking into account what was have said above:
+```js
+var HighRAM = [0x00,0x12, ...];
+var LowRAM = [0x00,0x12, ...];
+
+function read(addressLocation) {
+  if (addressLocation > 0 && addressLocation <= 0xFF) {
+    // Read from LowRAM
+	return LowRAM[addressLocation];
+  }
+
+// other if statements for HighRam and other pieces of memory such as SaveRAM or controller input would go here
+
+}
+
+function write(addressLocation, valueToWrite) {
+  if (addressLocation > 0 && addressLocation <= 0xFF) {
+    // Write to LowRAM
+	LowRAM[addressLocation] = valueToWrite;
+  }
+
+// other if statements for HighRam and other pieces of memory such as SaveRAM or writing pixels to a screen would go here
+}
+```
+
+Now that you understand the Pseudo code, you can look at how real emulators are implemented:
+* **NES** - [QuickNES_Core/Nes_Cpu.cpp uses a bunch of Macros such as READ_LOW/READ_PROG ](https://github.com/RetroReversing/QuickNES_Core/blob/master/nes_emu/Nes_Cpu.cpp#L98)
+* **SNES** - [snes9x2010/memmap.c atis an example of using multiple smaller arrays one for each type of RAM](https://github.com/RetroReversing/snes9x2010/blob/master/src/memmap.c#L429)
 
 ---
 # Videos on Emulator Development
@@ -197,7 +226,7 @@ What better way to learn how to write your own emulator that watching people wri
 
 ## Apple II Emulator in React and Typescript
 <section class="postSection">
-<iframe src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
+<iframe height="300" src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
 
  <div markdown="1" class="rr-post-markdown">
 **Chris Torrence** has put together an excellent series of videos in which he writes an Apple II emulator from scratch that will run in any modern web browser!
