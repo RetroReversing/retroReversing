@@ -98,6 +98,12 @@ body {
   margin-right: 10px;
 }
 
+.postImageRight {
+  width:30vw;
+  float: right;
+  margin-left: 10px;
+}
+
 .postSection {
   line-height: 2;
 }
