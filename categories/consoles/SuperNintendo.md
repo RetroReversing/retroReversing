@@ -31,8 +31,12 @@ Every three years **Near** created an excellent article on the current status of
 ---
 # Hardware
 
-## Development Kit
+## Development Kit Hardware
 {% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the **Super Nintendo** development hardware check out this post" %}
+
+## Retail Console Hardware
+For an in-depth look at the SNES Retail hardware architecture check out the excellent post by **Copetti.org**:
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.png" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
 
 ## SNES in-flight Airplane hardware (Nintendo Gateway)
 In 1993 Nintendo introduced an in-flight entertainment system called the Gateway, this system allowed passengers to play SNES games for about 4 USD an hour.
