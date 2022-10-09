@@ -182,7 +182,7 @@ The formats for NES ROMS (virtual cartridges) are:
 * **.NSF** (NSF2/NSFe) - NES Sound Format for playing music ripped from NES games can be played back in some emulators and specific NSF tools.
 * **.TNES** - Official Format by Nintendo used on the 3DS Virtual Console and also supports Famicom Disc System games
 
-## Adding Hard Drops to NES Tetris
+## Tutorial - Adding Hard Drops to NES Tetris
 The website **Grid Bugs** has written an excellent article on reverse engineering the NES version of Tetris to add functionality to the game called a **Hard Drop**. Check it out here:
 [Reverse-Engineering NES Tetris to add Hard Drop](https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/)
 
