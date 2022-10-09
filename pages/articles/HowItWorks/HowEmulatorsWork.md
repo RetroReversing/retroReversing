@@ -5,9 +5,9 @@ tags:
 - emulator
 title: How Emulators work
 thumbnail: /public/consoles/Computer Old Design.png
-permalink: /how-emulators-work
 image: /public/images/articles/How Emulators Work.jpg
 twitterimage: /public/images/articles/How Emulators Work.jpg
+permalink: /how-emulators-work
 breadcrumbs:
   - name: Home
     url: /
@@ -43,7 +43,6 @@ Normally when we are talking about a system such as a games console or PC they h
 ## What types of emulation are there?
 There are two main categories of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
 
-
 ---
 # Emulating The CPU
 You can think of a CPU as an infinite loop, it does the same thing over and over until it has no more electricity and switches off. So a CPU should be easy to emulate on another system right? Just create a while loop that runs forever and does everything a CPU would do each cycle. Well sort of.. its not quite that easy but we are on the right track.
@@ -63,7 +62,7 @@ So imagine you are a baker with an endless list of tasks to do to make cakes and
 **Fetching** would be the Baker moving on from the previous step and finding the next step of the recipe (it might be on the next line of the recipe book or on another page). **Decoding** the instruction would be the Baker reading that step of the recipe and **executing** would be physically putting the flour in the bowl.
 
 ## Program Counter & Registers
-In this analogy how does the Baker remember what step of the recipe he is on? Lets say the recipe steps are numbered, they need to use their brain to remember the step number they are on. Then every time they move to the next step they increases the number they are remembering by 1. This is exactly what a CPU needs to do, but since a CPU doesn't have a human brain the CPU instead has what are called **Registers**.
+In this analogy how does the Baker remember what step of the recipe he is on? Let's say the recipe steps are numbered, they need to use their brain to remember the step number they are on. Then every time they move to the next step they increases the number they are remembering by 1. This is exactly what a CPU needs to do, but since a CPU doesn't have a human brain the CPU instead has what are called **Registers**.
 
 **Registers** are small pieces of memory that can only store a small amount of information at once (lets say just one number). So in this example the CPU needs a register to remember what line of the recipe (program) it is executing. This little piece of memory (register) for keeping track of the location it is at has a special name called the **Program Counter** or **PC** for short. It is exactly the same as the Baker keeping track of which step number of the recipe they are on, they are counting up just like the **Program Counter**.
 
@@ -81,4 +80,26 @@ Now that we know we can represent CPU Instructions as Hex values we can look at 
 
 These are two examples of different CPUs from real Nintendo games consoles, the Z80 CPU was used in the GameBoy and the 6502 was used in the NES.
 
+Note that in these two examples the Instruction was only one Byte long, as you can imagine one Byte is not very much information with only 256 possible values. So Instructions can be many bytes long, the limit depends on which CPU we are talking about. 
+
+But in all CPUs the 1st byte is known as the **Opcode** and is used to determine how many bytes long this instruction will be.
+
 Also just incase you start to panic and think you need to learn all sorts of different Hex values and what they do, you don't, emulator developers always have a reference form this nearby and  there is a much simpler way to write instructions known as **Assembly Language**. Most emulators however use the Hex value in the CPU emulation loop to **decode** which instruction it should now execute.
+
+Here is some pseudo code to piece together thwat we have talked about so far:
+```js
+var instructions = [0xEA, 0xEA, 0xEA,...]; // All the steps that make up our recipe/program
+var programCounter = 0; // start at... well the start of the instructions array
+
+while(true) { // loop forever and ever
+    fetchedInstruction = instructions[programCounter]; // get the instruction from the array at the current step we are on (program counter)
+    switch(fetchedInstruction) {
+      // Now decode the instruction
+      case 0xEA: // lets check if the opcode is 0xEA
+	 // Lets do nothing as this is a NOP (No-operation instruction)
+    }
+    programCounter = programCounter +1; // go to the next instruction in the loop
+}
+```
+
+Of course this psudo code would fail after we get to the end of the instructions array but CPUs just keep going on.
