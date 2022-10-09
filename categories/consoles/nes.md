@@ -92,6 +92,10 @@ There was no official software development kit provided by Nintendo for the NES,
 
 Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
 
+## What is an emulator and how does it work?
+We have a specific post covering exactly how emulators work including tips for writing your own emulators: 
+{% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
+
 ## NES Emulators with Debugging Functionality
 When reversing or developing NES games it is vital to use a good emulator which has debugging support such as:
 * **BreakPoints** - e.g can create a breakpoint at a specific code or memory location and execution will stop at that place
