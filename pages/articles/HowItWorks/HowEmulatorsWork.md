@@ -48,6 +48,7 @@ There are two main cateogies of emulators: High Level Emulators (HLE) and Low Le
 # Emulating The CPU
 You can think of a CPU as an infinite loop, it does the same thing over and over until it has no more electricity and switches off. So a CPU should be easy to emulate on another system right? Just create a while loop that runs forever and does everything a CPU would do each cycle. Well sort of.. its not quite that easy but we are on the right track.
 
+## Fetch-Decode-Execute Cycle
 Every iteration of the loop (known as a clock cycle in CPU terms) the CPU goes through a process known as the **fetch–decode–execute cycle**.
 
 At a very high level this would be:
@@ -60,3 +61,8 @@ Thats what CPUs do from the moment they are started until the end of time (or wh
 So imagine you are a baker with an endless list of tasks to do to make cakes and every time you have finished one of those tasks you just move on to the next one, forever. The task in this case is what a CPU calls an instruction, for example put in flour to the bowl would be an instruction. 
 
 **Fetching** would be the Baker moving on from the previous step and finding the next step of the recipe (it might be on the next line of the recipe book or on another page). **Decoding** the instruction would be the Baker reading that step of the recipe and **executing** would be physically putting the flour in the bowl.
+
+## Program Counter & Registers
+In this analogy how does the Baker remember what step of the recipe he is on? Lets say the recipe steps are numbered, they need to use their brain to remember the step number they are on. Then every time they move to the next step they increases the number they are remembering by 1. This is exactly what a CPU needs to do, but since a CPU doesn't have a human brain the CPU instead has what are called **Registers**.
+
+**Registers** are small pieces of memory that can only store a small amount of information at once (lets say just one number). So in this example the CPU needs a register to remember what line of the recipe (program) it is executing. This little piece of memory (register) for keeping track of the location it is at has a special name called the **Program Counter** or **PC** for short. It is exactly the same as the Baker keeping track of which step number of the recipe they are on, they are counting up just like the **Program Counter**.
