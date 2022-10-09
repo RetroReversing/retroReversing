@@ -35,6 +35,7 @@ So in this post we are just going to call the thing we want to pretend to be: th
 ## What is a System made of?
 Normally when we are talking about a system such as a games console or PC they have a few common components that we will need to simulate on our host system such as:
 * **A CPU Chip** - e.g Z80, 6502, SH-2, x86, ARM etc
+* **ROM** - Read-Only Memory such as a Game Cartirdge (or ISO for CD based systems which are also Read-Only)
 * **RAM** - A bunch of memory modules to store the current state of the system
 * **Input Interface** - Such as controllers for game consoles or keyboard/mouse of PC-like systems
 * **Display/Output Interface** - Normally a screen such as a monitor or TV but could also be an more physical output like printing on paper
@@ -105,3 +106,7 @@ while(true) { // loop forever and ever
 ```
 
 Of course this pseudo code would fail after we get to the end of the instructions array but CPUs just keep going on.
+
+Now that you understand the Pseudo code, you can look at how real emulators are implemented:
+* **NES** - [QuickNES_Core/Nes_Cpu.cpp uses a switch statement](https://github.com/RetroReversing/QuickNES_Core/blob/master/nes_emu/Nes_Cpu.cpp#L201)
+* **SNES** - [snes9x2010/cpuexec.c - snes9x uses a table lookup instead of switch statement](https://github.com/RetroReversing/snes9x2010/blob/master/src/cpuexec.c#L293)
