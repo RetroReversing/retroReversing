@@ -36,7 +36,7 @@ So in this post we are just going to call the thing we want to pretend to be: th
 ## What is a System made of?
 Normally when we are talking about a system such as a games console or PC they have a few common components that we will need to simulate on our host system such as:
 * **A CPU Chip** - e.g Z80, 6502, SH-2, x86, ARM etc
-* **ROM** - Read-Only Memory such as a Game Cartirdge (or ISO for CD based systems which are also Read-Only)
+* **ROM** - Read-Only Memory such as a Game Cartridge (or ISO for CD based systems which are also Read-Only)
 * **RAM** - A bunch of memory modules to store the current state of the system
 * **Input Interface** - Such as controllers for game consoles or keyboard/mouse of PC-like systems
 * **Display/Output Interface** - Normally a screen such as a monitor or TV but could also be an more physical output like printing on paper
@@ -157,8 +157,19 @@ Most software written for a specific CPU do not use un-documented instructions a
 What better way to learn how to write your own emulator that watching people write one themselves. This section will link to video tutorials on emulator development, some are follow-along-at-home type and others are just mentioning the core concepts, but all are worth a watch if you are serious about emulator development.
 
 ## Apple II Emulator in React and Typescript
+<section class="postSection">
+<iframe src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="wow slideInLeft postImage"></iframe>
+
+ <div markdown="1" class="rr-post-markdown">
 **Chris Torrence** has put together an excellent series of videos in which he writes an Apple II emulator from scratch that will run in any modern web browser!
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7QaWQwffmOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Unlike our for loop in the CPU pseudo code we listed above his system uses the Javascript **setTimeout** series of functions instead but it is equivalent, it is better to do **setTimeout** when running inside a web-browser so the browser can handle other actions instead of waiting forever for the emulator to finish the loop.
+
+Also instead of using a switch statement like we did above it is a table lookup based on the opcode, but it is functionally equivalent.
+
+A very cool feature of his emulator is it has en embedded 6502 assembler inside it, so he can easily write tests with 6502 assembly code and run them straight inside his emulator!
+ </div>
+</section> 
 
 ## Commodore 64 Emulation in JavaScript - Imran Nazar - NDC London 2022
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NqTVANK7Mg8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
