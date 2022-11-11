@@ -54,7 +54,8 @@ The developer has created an excellent youtube video showing off the process of 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cxrRTvvbQjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Where do I download?
-This is currently uncertain, the website: https://sites.google.com/view/udkultimate/ previously had links to download a version of the SDK. However all links have since been removed so it is possible there has been a DMCA takedown request.
+The original website: https://sites.google.com/view/udkultimate/ previously had links to download a version of the SDK. However all links have since been removed because of a DMCA takedown request.
+The latest and full version of the SDK as since been archived here: https://archive.org/details/udk-engine-ps-3-xbox-360-pc.-7z
 
 # Current Questions
 As this is a project with many interesting technical achievements, it would be great to find out the answers to a few questions:
