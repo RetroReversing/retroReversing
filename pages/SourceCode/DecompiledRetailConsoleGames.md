@@ -401,8 +401,17 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 ## Playstation 1
 
+### Crash Bandicoot
+{% include link-to-other-site.html url="https://github.com/wurlyfox/c1" description="This is a port of the game Crash Bandicoot to C. The code is designed to compile for both psx and pc. At the moment only pc-specific code is working." image="https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png" title="Port of Crash Bandicoot to C"  %}
+
+### Crash Team Racing
+{% include link-to-other-site.html url="https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C" description="A work-in-progress project to decompile Crash Team Racing into human-readable C code" image="https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png" title="Crash Team Racing Decompilation"  %}
+
 ### Tomb Raider: Chronicles
 {% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="This repository contains decompiled code for the game Tomb Raider: Chronicles. All decompiled code is based off the final PlayStation and PC version. The goal is to decompile as much as possible since the original source code is reportedly lost. It is not expected for decompiled code to be 1:1 with the original source code. However, functionality wise it will be the same." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
+
+### DRIVER 2
+{% include link-to-other-site.html url="https://github.com/OpenDriver2/REDRIVER2" description="Driver 2 Playstation game reverse engineering effort" image="https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png" title="REDRIVER2"  %}
 
 ### Need for Speed: High Stakes
 {% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="A very early decompilation project for Need For Speed 4, but the progress that has been made is very impressive." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
@@ -412,6 +421,9 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 ### Castlevania: Symphony of the Night
 {% include link-to-other-site.html url="https://github.com/xeeynamo/sotn-decomp" description="In-progress decompilation and reverse engineering of Castlevania Symphony of the Night" image="https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg" title="Castlevania: Symphony of the Night"  %}
+
+### Legend of Dragoon
+{% include link-to-other-site.html url="https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java" description="A project to reverse engineer Legend of Dragoon into a high-level language with a modding API. This is not an emulator, but assembly code disassembled and rewritten in Java." image="https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg" title="Legend of Dragoon"  %}
 
 ---
 # Microsoft Systems
@@ -432,11 +444,17 @@ There are only a handful of reverse engineered games for Microsoft games console
 ## PC
 
 ### Sonic CD
+#### Sonic CD (1996)
 {% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="" image="https://thumbnails.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg/300px-Sonic_CD_1995_cover.jpg" title="Sonic CD PC Disassembly"  %}
+
+#### Sonic CD (2011)
+{% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg" title="A Full Decompilation of Sonic CD (2011) & Retro Engine (v3)"  %}
 
 ### Sonic and Knuckles Collection
 {% include link-to-other-site.html url="https://github.com/sonicretro/skc_disasm" description="" image="https://archive.org/download/S3KPCUSA/__ia_thumb.jpg" title="Sonic and Knuckles Collection PC Disassembly"  %}
 
+### Sonic Mania
+{% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation" description="" image="https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg" title="A complete decompilation of Sonic Mania (2017)"  %}
 ---
 # Atari Systems
 
@@ -465,5 +483,9 @@ Mobile games are a special case that weren't initially going to be included, but
 ---
 ## Android
 
+### Sonic 1 & 2 Classic (2013)
+{% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png" title="A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)"  %}
+
 ### Sonic Advance
 {% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
+
