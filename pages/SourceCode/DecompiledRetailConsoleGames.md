@@ -64,6 +64,9 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 ### Mega Man 5
 {% include link-to-other-site.html url="https://github.com/Raidenthequick/megaman5-disassembly" description="Fully complete disassembly of Mega Man 5 by Raidenthequick, it compiles into the US version of the ROM with the xkas assembler" image="https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg" title="Full disassembly of Mega Man 5"  %}
 
+### Metroid 
+{% include link-to-other-site.html url="https://github.com/ZaneDubya/MetroidMMC3" description="This is the disassembled source code of METROID for the Nintendo Entertainment System (NES). You can reassemble the source code using the included assembler, or a build of the latest version of Ophis." image="https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg" title="Metroid for MMC3."  %}
+
 ### Super Mario Bros
 {% include link-to-other-site.html url="https://gist.github.com/1wErt3r/4048722" description="Complete disassembly of Super Mario Bros by doppelganger. Uses x816 to compile back to the original ROM." image="https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png" title="Full disassembly of Super Mario Bros" %}
 
@@ -98,14 +101,17 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 {% include link-to-other-site.html url="https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly" description="This project is a disassembly of Super Mario RPG for the Super Famicom (SNES), it is not under active development." image="https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg" title="Super Mario RPG Disassembly"  %}
 
 ### Super Metroid
-{% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES), it is still under active development." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
+{% include link-to-other-site.html url="https://github.com/strager/supermetroid" description="This project is a disassembly of Super Metroid for the Super Famicom (SNES)." image="https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg" title="Super Metroid SNES game, disassembled"  %}
+
+### The Legend of Zelda: A Link to the Past
+{% include link-to-other-site.html url="https://github.com/snesrev/zelda3" description="This is a reverse engineered clone of Zelda 3 - A Link to the Past." image="https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg" title="A reimplementation of Zelda 3"  %}
 
 ---
 ## Nintendo 64
 Recently, mainly in thanks to the huge success of the Super Mario 64 project, there has been revived interest in Nintendo 64 Decompilation. While most projects are still in very early stages, there are a few that meet the criteria for this list.
 
 ### Banjo Kazooie
-{% include link-to-other-site.html url="https://github.com/n64decomp/banjo-kazooie" description="Decompilation of Banjo Kazooie, about 20% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
+{% include link-to-other-site.html url="https://github.com/n64decomp/banjo-kazooie" description="Decompilation of Banjo Kazooie, about 94% complete" image="https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png" title="Decompilation of Banjo Kazooie"  %}
 
 ### Blast Corps
 {% include link-to-other-site.html url="https://github.com/retroplastic/blastcorps" description="Disassembly of Blast Corps" image="https://upload.wikimedia.org/wikipedia/en/8/83/Blast_Corps_Coverart.png" title="Blast Corps"  %}
@@ -125,7 +131,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ### Doom 64
 {% include link-to-other-site.html url="https://github.com/Erick194/DOOM64-RE" description="A decompilation of Doom 64 by the GEC Team" image="https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg" title="Decompilation of Doom 64"  %}
 
-### Goldeneye 007
+### GoldenEye 007
 {% include link-to-other-site.html url="https://github.com/n64decomp/007" description="A an early decompilation of Goldeneye 007" image="https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg" title="Goldeneye 007 Decompilation"  %}
 
 ### Kirby 64: The Crystal Shards
@@ -156,7 +162,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/zeldaret/mm" description="A decompilation of The Legend of Zelda: Majora's Mask brought to you by a bunch of clever folks" image="https://upload.wikimedia.org/wikipedia/en/thumb/6/60/The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg/220px-The_Legend_of_Zelda_-_Majora%27s_Mask_Box_Art.jpg" title="Decompilation of The Legend of Zelda: Majora's Mask"  %}
 
 ### Paper Mario
-{% include link-to-other-site.html url="https://github.com/pmret/papermario" description="Decompilation of Paper Mario, about 30% complete" image="https://images.nintendolife.com/847b9a804f99c/paper-mario-cover.cover_large.jpg" title="Decompilation of Paper Mario"  %}
+{% include link-to-other-site.html url="https://github.com/pmret/papermario" description="Decompilation of Paper Mario, about 94% complete" image="https://images.nintendolife.com/847b9a804f99c/paper-mario-cover.cover_large.jpg" title="Decompilation of Paper Mario"  %}
+
+### Perfect Dark
+{% include link-to-other-site.html url="https://github.com/n64decomp/perfect_dark" description="This repository contains a complete decompilation of Perfect Dark for the Nintendo 64. The project aims to be a matching decompilation. When a matching decompilation is compiled with the same compiler that the original developers used, the output will be exactly the same as the retail game, byte for byte." image="https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg" title="A decompilation of Perfect Dark"  %}
 
 ### Pokemon Snap
 {% include link-to-other-site.html url="https://github.com/ethteck/pokemonsnap" description="An early Decompilation of Pokemon Snap" image="https://upload.wikimedia.org/wikipedia/en/0/0a/Pokémon_Snap_Coverart.png" title="Decompilation of Pokemon Snap"  %}
@@ -302,7 +311,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/pret/pmd-red" description="This is a disassembly of Pokémon Mystery Dungeon: Red Rescue Team, it uses the devkitARM SDK to build the ROM" image="https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg" title="Decompilation of Pokémon Mystery Dungeon: Red Rescue Team"  %}
 
 ### Sonic Advance 2
-{% include link-to-other-site.html url="https://github.com/froggestspirit/SoAdvance2" description="" image="https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG" title="The Legend of Zelda: The Minish Cap"  %}
+{% include link-to-other-site.html url="https://github.com/froggestspirit/SoAdvance2" description="This is a disassembly of Sonic Advance 2, on the GameBoy Advance." image="https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png" title="Disassembly of Sonic Advance 2"  %}
 
 ### Super Mario Advance 2: Super Mario World
 {% include link-to-other-site.html url="https://github.com/atasro2/sma2" description="" image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg" title="Decompilation of Super Mario Advance 2: Super Mario World"  %}
@@ -401,29 +410,42 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 ## Playstation 1
 
+### Castlevania: Symphony of the Night
+{% include link-to-other-site.html url="https://github.com/xeeynamo/sotn-decomp" description="A full decompilation in C, that compiles the same binaries as the commercial video game Castlevania: Symphony of the Night for PS1." image="https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg" title="Decompilation of Castlevania: Symphony of the Night"  %}
+
 ### Crash Bandicoot
 {% include link-to-other-site.html url="https://github.com/wurlyfox/c1" description="This is a port of the game Crash Bandicoot to C. The code is designed to compile for both psx and pc. At the moment only pc-specific code is working." image="https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png" title="Port of Crash Bandicoot to C"  %}
 
 ### Crash Team Racing
 {% include link-to-other-site.html url="https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C" description="A work-in-progress project to decompile Crash Team Racing into human-readable C code" image="https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png" title="Crash Team Racing Decompilation"  %}
 
-### Tomb Raider: Chronicles
-{% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="This repository contains decompiled code for the game Tomb Raider: Chronicles. All decompiled code is based off the final PlayStation and PC version. The goal is to decompile as much as possible since the original source code is reportedly lost. It is not expected for decompiled code to be 1:1 with the original source code. However, functionality wise it will be the same." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
-
 ### DRIVER 2
 {% include link-to-other-site.html url="https://github.com/OpenDriver2/REDRIVER2" description="Driver 2 Playstation game reverse engineering effort" image="https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png" title="REDRIVER2"  %}
 
+### Legend of Dragoon
+{% include link-to-other-site.html url="https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java" description="A project to reverse engineer Legend of Dragoon into a high-level language with a modding API. This is not an emulator, but assembly code disassembled and rewritten in Java." image="https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg" title="Legend of Dragoon decompiled, reverse engineered, and ported to Java "  %}
+
+### Metal Gear Solid
+{% include link-to-other-site.html url="https://github.com/FoxdieTeam/mgs_reversing" description="This project aims to completely reverse engineer Metal Gear Solid for PlayStation back to C source code which when compiled produces the same assembly code." image="https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png" title="Metal Gear Solid PSX Reimplementation Repo"  %}
+
 ### Need for Speed: High Stakes
-{% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="A very early decompilation project for Need For Speed 4, but the progress that has been made is very impressive." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
+{% include link-to-other-site.html url="https://github.com/OpenNFS/NFSHSX" description="An attempt to translate Need for Speed 4 High Stakes dissasembly to C Source Code." image="https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg" title="Need for Speed: High Stakes Disassembly translated to C source code"  %}
 
 ### PSX DOOM
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg" title="Psx Doom Reverse Engineering"  %}
 
-### Castlevania: Symphony of the Night
-{% include link-to-other-site.html url="https://github.com/xeeynamo/sotn-decomp" description="In-progress decompilation and reverse engineering of Castlevania Symphony of the Night" image="https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg" title="Castlevania: Symphony of the Night"  %}
+### Silent Hill
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PSXDOOM-RE" description="The complete reverse engineering of PSX Doom by [GEC], this effort took about 2 and a half years to complete." image="https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg" title="Psx Doom Reverse Engineering"  %}
 
-### Legend of Dragoon
-{% include link-to-other-site.html url="https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java" description="A project to reverse engineer Legend of Dragoon into a high-level language with a modding API. This is not an emulator, but assembly code disassembled and rewritten in Java." image="https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg" title="Legend of Dragoon"  %}
+### Tomb Raider: Chronicles
+{% include link-to-other-site.html url="https://github.com/TOMB5/TOMB5" description="This repository contains decompiled code for the game Tomb Raider: Chronicles. All decompiled code is based off the final PlayStation and PC version. The goal is to decompile as much as possible since the original source code is reportedly lost. It is not expected for decompiled code to be 1:1 with the original source code. However, functionality wise it will be the same." image="https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png" title="Tomb Raider: Chronicles Disassembly translated to C source code"  %}
+
+---
+
+## PlayStation 2
+
+### Jak & Daxter 1-2
+{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="This project is to port Jak 1 (NTSC, "black label" version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
 
 ---
 # Microsoft Systems
@@ -443,11 +465,16 @@ There are only a handful of reverse engineered games for Microsoft games console
 ---
 ## PC
 
-### Sonic CD
-#### Sonic CD (1996)
+### Diablo
+{% include link-to-other-site.html url="https://github.com/diasurgical/devilution" description="Diablo devolved - magic behind the 1996 computer game" image="https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png" title="Devilution"  %}
+
+### Duke Nukem II (DOS)
+{% include link-to-other-site.html url="https://github.com/lethal-guitar/Duke2Reconstructed" description="This is a reconstruction of the source code of the game Duke Nukem II (Apogee Software, 1993), based on disassembly of the original executable. It compiles with era-appropriate toolchains and produces a binary that's 100 % identical to the original one." image="https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg" title="Reconstructed source code of the game Duke Nukem II"  %}
+
+### Sonic CD (1996)
 {% include link-to-other-site.html url="https://github.com/sonicretro/scdpc_disasm" description="" image="https://thumbnails.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg/300px-Sonic_CD_1995_cover.jpg" title="Sonic CD PC Disassembly"  %}
 
-#### Sonic CD (2011)
+### Sonic CD (2011)
 {% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg" title="A Full Decompilation of Sonic CD (2011) & Retro Engine (v3)"  %}
 
 ### Sonic and Knuckles Collection
@@ -460,7 +487,7 @@ There are only a handful of reverse engineered games for Microsoft games console
 
 ## Atari 2600
 
-{% include link-to-other-site.html url="https://github.com/johnidm/asm-atari-2600" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Multiple Atari 2600 Games"  %}
+{% include link-to-other-site.html url="http://www.bjars.com/disassemblies.html" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Disassemblies of original Atari 2600 games"  %}
 
 ### Donkey Kong
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)"  %}
@@ -470,8 +497,15 @@ There are only a handful of reverse engineered games for Microsoft games console
 ### Donkey Kong
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="Various disassembled Atari 2600 games" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVisio n Disassembly"  %}
 
-
 ---
+# NEC Systems
+
+## PC-9801
+
+### Touhou Project 1-5 (1997-1998)
+{% include link-to-other-site.html url="https://github.com/nmlgc/ReC98" description="This project aims to perfectly reconstruct the source code of the first five Touhou Project games by ZUN Soft (now Team Shanghai Alice), which were originally released exclusively for the NEC PC-9801 system." image="https://static.wikia.nocookie.net/touhou/images/f/f3/Th01Cover.jpg" title="The Touhou PC-98 Restoration Project"  %}
+---
+
 # Mobile games
 Mobile games are a special case that weren't initially going to be included, but we have included a few games that are based on console games.
 
@@ -489,3 +523,8 @@ Mobile games are a special case that weren't initially going to be included, but
 ### Sonic Advance
 {% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)"  %}
 
+## Windows Phone
+
+### Plants vs. Zombies (2011)
+
+{% include link-to-other-site.html url="https://github.com/Mewnojs/PlantsVsZombies.NET" description="powered by MonoGame." image="https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg" title="A port of Plants vs. Zombies Windows Phone version to various platforms"  %}
