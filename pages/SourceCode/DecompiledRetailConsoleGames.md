@@ -263,7 +263,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/wagrenier/Mikompilation" description="Decompilation project for the Fatal Frame 2 : Crimson Butterfly game engine. Our goal is to have a fully playable port on PC and maybe on future platforms too." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for the Fatal Frame 2 : Crimson Butterfly"  %}
 
 ### Jak & Daxter 1-2
-{% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="This project is to port Jak 1 (NTSC, "black label" version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
+{% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="This project is to port Jak 1 (NTSC, 'black label' version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
 
 ---
 # Microsoft Systems
