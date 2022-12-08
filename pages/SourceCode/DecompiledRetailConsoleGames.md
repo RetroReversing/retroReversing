@@ -166,15 +166,36 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ---
 
 ## Nintendo Switch
+
+### The Legend of Zelda: Breath of the Wild
+{% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Active, at 16%" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of LOZ BOTW"  %}
+
+### Super Mario Odyssey
+{% include link-to-other-site.html url="https://github.com/MonsterDruide1/OdysseyDecomp" description="Initial decompilation of the Nintendo switch game Super Mario Odyssey" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
+
 ---
 # Nintendo Handhelds
+
 ## Nintendo Game Boy
+
+| Name | Project Type | Status |
+| ---- | ---- | ---- |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Mario Kart Wii](https://github.com/riidefi/mkw)              | Decompilation | Active, at 11% |
+
 ---
+
 ## Nintendo Game Boy Color
 ---
 ## Game Boy Advance
 ---
 ## Nintendo DS
+
+### Pokemon Diamond and Pearl
+{% include link-to-other-site.html url="https://github.com/pret/pokediamond" description="This is a decompilation of Pokémon Diamond." image="https://upload.wikimedia.org/wikipedia/en/2/2e/PokemonDiamondPearlBoxArt.jpg" title="Decompilation of Pokémon Diamond/Pearl"  %}
+
+### Pokemon Platinum
+{% include link-to-other-site.html url="https://github.com/JimB16/PokePlat" description="Inactive" image="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Pokemon_Platinum.png/220px-Pokemon_Platinum.png" title="Disassembly of Pokemon Platinum"  %}
+
 ---
 ## Nintendo 3DS
 ---
@@ -190,18 +211,60 @@ Although the Sega Master System was hugely popular in Europe, it can't compete w
 The Sega Mega Drive was Sega's most popular console in terms of games developed, and as such it also seems to be the most popular for reverse engineering projects too.
 ---
 ## Sega CD
+
+### Shining Force CD
+{% include link-to-other-site.html url="https://github.com/ShiningForceCentral/SFCDDISASM" description="" image="https://upload.wikimedia.org/wikipedia/en/f/f5/Shining_Force_CD.jpg" title="A disassembly of the game Shining Force CD" %}
+
 ---
 ## Sega Game Gear (GG)
+
+### Sonic 1 (GG)
+{% include link-to-other-site.html url="https://github.com/TheRavenfreak/Sonic-1-Game-Gear-Disassembly" description="" image="https://upload.wikimedia.org/wikipedia/en/4/46/Sonic1GGCoverArt.jpg" title="A work in progress split disassembly of Sonic The Hedgehog on the Sega Game Gear" %}
+
 ---
 ## Sega Dreamcast (DC)
+
+### Sonic Adventure (DC)
+{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast" image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+
 ---
 ## Sega Model 2 Arcade 
+
+### Sonic the Fighters  
+{% include link-to-other-site.html url="https://github.com/cglmrfreeman/stfdisasm" description="" image="https://upload.wikimedia.org/wikipedia/en/5/5b/Sonic_the_Fighters.png" title="Sonic the Fighters Disassembly"  %}
+
 ---
 # Sony Systems
 Compared to the other systems, Sony doesn't have many decompilation projects, mainly due to the higher complexity of the games developed by the PS1 era, requiring much larger teams to create the games in the first place.
+
 ## Playstation 1
+
+| Name | Project Type | Status |
+| ---- | ---- | ---- |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legacy of Kain 2: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, Boot screen playable |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, First disk fully playable |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed: High Stakes](https://github.com/OpenNFS/NFSHSX)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed 1-6 (Game Engine)](https://github.com/OpenNFS/OpenNFS)              | Reimplementation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [PSX DOOM](https://github.com/RetailGameSourceCode/PSXDOOM-RE)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider 1-5 (Game Engine)](https://github.com/XProger/OpenLara)              | Reimplementation | First game fully playable and ported to many platforms |
+
 ---
 ## PlayStation 2
+
+### Fatal Frame 2: Crimson Butterfly  
+{% include link-to-other-site.html url="https://github.com/wagrenier/Mikompilation" description="Decompilation project for the Fatal Frame 2 : Crimson Butterfly game engine. Our goal is to have a fully playable port on PC and maybe on future platforms too." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for the Fatal Frame 2 : Crimson Butterfly"  %}
+
+### Jak & Daxter 1-2
+{% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="This project is to port Jak 1 (NTSC, "black label" version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
+
 ---
 # Microsoft Systems
 There are only a handful of reverse engineered games for Microsoft game consoles.
@@ -209,21 +272,74 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 [GuillianSeed/MetalGear: Fully annotated disassembly of the original Metal Gear game (MSX2, Konami, 1987, RC750)](https://github.com/GuillianSeed/MetalGear)
 ---
 ## Xbox
+
+### Halo: Combat Evolved
+{% include link-to-other-site.html url="https://github.com/halo-re/halo" description="The goal of this project is to study and create a free, open-source re-implementation of the original Xbox launch title Halo: Combat Evolved." image="https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg" title="Halo: Combat Evolved Decompilation Research Project"  %}
+
 ---
 ## Xbox 360
+
+### Terraria
+{% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://upload.wikimedia.org/wikipedia/en/4/42/TerrariaLogo2.png" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
+
 ---
 ## PC
+
+| Name | Project Type | Status |
+| ---- | ---- | ---- |
+|![](https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png){:width="100"} [Cave Story](https://github.com/gameblabla/CSE2)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | Completed |
+|![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2 (Game Engine)](https://github.com/AliveTeam/alive_reversing)              | Reimplementation | Active, Playable |
+|![](https://images.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg){:width="100"} [Sonic CD (1996)](https://github.com/sonicretro/scdpc_disasm)              | Disassembly | Completed |
+|![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Completed |
+|![](https://static.wikia.nocookie.net/sonic/images/6/64/SKC_US_Boxart.jpg){:width="100"} [Sonic & Knuckles Collection (1997)](https://github.com/sonicretro/skc_disasm)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Completed |
+
 ---
 # Atari Systems
+
 ## Atari 2600
+
+{% include link-to-other-site.html url="http://www.bjars.com/disassemblies.html" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Disassemblies of original Atari 2600 games" %}
+
+### Donkey Kong
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)" %}
+
 ## ColecoVision
+
+### Donkey Kong
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="Various disassembled Atari 2600 games" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVisio n Disassembly" %}
+
 ---
 # NEC Systems
+
 ## PC-9801
+
+### Touhou Project 1-5 (1997-1998)
+
+{% include link-to-other-site.html url="https://github.com/nmlgc/ReC98" description="This project aims to perfectly reconstruct the source code of the first five Touhou Project games by ZUN Soft (now Team Shanghai Alice), which were originally released exclusively for the NEC PC-9801 system." image="https://static.wikia.nocookie.net/touhou/images/f/f3/Th01Cover.jpg" title="The Touhou PC-98 Restoration Project" %}
+
 ---
 # Mobile games
 Mobile games are a special case that weren't initially going to be included, but we have included a few games that are based on console games.
+
 ## Java 2 Mobile Edition (J2ME)
+
+### Sonic 1 J2ME
+{% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="https://repository-images.githubusercontent.com/254218052/8e42f080-7f34-11ea-9261-3e534fe23726" title="Decompile of the 2005 mobile port of Sonic 1" %}
+
 ---
 ## Android
+
+### Sonic 1 & 2 Classic (2013)
+{% include link-to-other-site.html url="https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation" description="" image="https://static.wikia.nocookie.net/sonic/images/2/2c/Sonic2iOSpromotional3.png" title="A complete decompilation of Sonic 1 & Sonic 2 (2013) & Retro Engine (v4)" %}
+
+### Sonic Advance
+{% include link-to-other-site.html url="https://github.com/ImmutableOctet/sonicgba-monkey" description="Sonic GBA is a fan developed reinterpretation of decompiled Java output from the Android version of Sonic Advance." image="https://i.ytimg.com/vi/u9BNOiB9Pcc/maxresdefault.jpg" title="A Monkey port of decompiled Java from Sonic Advance (Mobile)" %}
+
 ## Windows Phone
+
+### Plants vs. Zombies (2011)
+{% include link-to-other-site.html url="https://github.com/Mewnojs/PlantsVsZombies.NET" description="powered by MonoGame." image="https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg" title="A port of Plants vs. Zombies Windows Phone version to various platforms" %}
