@@ -3,6 +3,10 @@ _gh_pages
 _site
 .ruby-version
 
+# ruby build
+Gemfile
+Gemfile.lock
+
 # Numerous always-ignore extensions
 *.diff
 *.err
@@ -14,6 +18,11 @@ _site
 *.zip
 *.vi
 *~
+
+# jekyll
+.jekyll-cache
+.jekyll-metadata
+vendor
 
 # OS or Editor folders
 .DS_Store
