@@ -2,8 +2,8 @@
 title: RetroReversing
 tagline: 'Retro Reversing'
 description: ' Retro Video Game Reverse Engineering.'
-baseurl: "/retroReversing/"
-url: https://frds.github.io/retroReversing/
+baseurl: "/"
+url: https://frds.github.io/
 logo: '/public/logo.png'
 highlighter: rouge
 
