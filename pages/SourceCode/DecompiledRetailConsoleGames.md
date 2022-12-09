@@ -296,21 +296,21 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legacy of Kain 2: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, Boot screen playable |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, First disk fully playable |
+|![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
+|![](https://static.wikia.nocookie.net/legacyofkain_gamepedia/images/6/60/SR1-Cover-PS1.jpg){:width="100"} [Legacy of Kain 2: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, Boot screen playable |
+|![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, First disk fully playable |
 |![](https://www.mobygames.com/images/covers/l/83999-lunar-2-eternal-blue-complete-playstation-front-cover.jpg){:width="100"} [Lunar 2: Eternal Blue](https://github.com/Zackmon/lunar2-psx-decomp)              | Decompilation | Inactive, at 12% |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed: High Stakes](https://github.com/OpenNFS/NFSHSX)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed 1-6 (Game Engine)](https://github.com/OpenNFS/OpenNFS)              | Reimplementation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [PSX DOOM](https://github.com/RetailGameSourceCode/PSXDOOM-RE)              | Decompilation | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider 1-5 (Game Engine)](https://github.com/XProger/OpenLara)              | Reimplementation | First game fully playable and ported to many platforms |
+|![](https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg){:width="100"} [Need for Speed: High Stakes](https://github.com/OpenNFS/NFSHSX)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg){:width="100"} [Need for Speed 1-6 (Game Engine)](https://github.com/OpenNFS/OpenNFS)              | Reimplementation | Inactive |
+|![](https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg){:width="100"} [PSX DOOM](https://github.com/RetailGameSourceCode/PSXDOOM-RE)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
+|![](https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider 1-5 (Game Engine)](https://github.com/XProger/OpenLara)              | Reimplementation | First game fully playable and ported to many platforms |
 |![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
 
 ---
