@@ -180,13 +180,51 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Mario Kart Wii](https://github.com/riidefi/mkw)              | Decompilation | Active, at 11% |
+|![](https://upload.wikimedia.org/wikipedia/en/2/23/Donkey_Kong_94_box_art.jpg){:width="100"} [Donkey Kong '94](https://github.com/CelestialAmber/DKGBDisasm)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/8/83/Kdl1ussmall.jpg){:width="100"} [Kirby's Dream Land](https://github.com/huderlem/kirbydreamland)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/0/02/Mole_mania_boxart.png){:width="100"} [Mole Mania](https://github.com/froggestspirit/mmania)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/a/af/Pok%C3%A9mon_Red_and_Blue_cover_art.webp){:width="100"} [Pokemon Red & Blue](https://github.com/pret/pokered)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4a/Pokemon_Yellow.png){:width="100"} [Pokemon Yellow](https://github.com/pret/pokeyellow)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg){:width="100"} [Super Mario Land](https://github.com/kaspermeerts/supermarioland)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg){:width="100"} [Super Mario Land 2: Six Golden Coins](https://github.com/froggestspirit/marioland2)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/5/5f/Wario_Land_Box_Art.jpg){:width="100"} [Super Mario Land 3: Wario Land](https://github.com/Kak2X/wl)              | Disassembly | Completed |
 
 ---
 
 ## Nintendo Game Boy Color
+
+| Name | Project Type | Status |
+| ---- | ---- | ---- |
+|![](https://upload.wikimedia.org/wikipedia/en/f/f8/Looney_Tunes_Carrot_Crazy.jpg){:width="100"} [Looney Tunes: Carrot Crazy](https://github.com/huderlem/carrotcrazy)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4c/Pok%C3%A9mon_box_art_-_Gold_Version.png){:width="100"} [Pokemon Gold & Silver](https://github.com/pret/pokegold)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png){:width="100"} [Pokemon Crystal](https://github.com/pret/pokecrystal)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png){:width="100"} [Pokemon Pinball](https://github.com/pret/pokepinball)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png){:width="100"} [Pokemon Trading Card Game](https://github.com/pret/poketcg)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg){:width="100"} [Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg){:width="100"} [Wario Land 3](https://github.com/froggestspirit/wland3)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png){:width="100"} [The Legend of Zelda Links Awakening DX](https://github.com/zladx/LADX-Disassembly)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg){:width="100"} [The Legend of Zelda Oracle of Ages & Seasons](https://github.com/Drenn1/oracles-disasm)              | Disassembly | Completed |
+
 ---
 ## Game Boy Advance
+
+| Name | Project Type | Status |
+| ---- | ---- | ---- |
+|![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo Kazooie Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/not-alons/hmfomt)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg){:width="100"} [Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Completed |
+|![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width="100"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg){:width="100"} [Pokemon Emerald](https://github.com/pret/pokeemerald)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg){:width="100"} [Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)              | Decompilation | Active |
+|![](https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg){:width="100"} [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/froggestspirit/SoAdvance2)              | Disassembly | Completed |
+|![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Completed |
+|![](https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Completed |
+
 ---
 ## Nintendo DS
 
@@ -201,11 +239,28 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 ---
 # Sega Systems
 Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
+
 ## 32X
+
+### Knuckles Chaotix
+{% include link-to-other-site.html url="https://github.com/sonicretro/chaotix" description="Knuckles Chaotix" image="https://upload.wikimedia.org/wikipedia/en/d/dd/Knuckles%27_Chaotix_Coverart.png" title="Knuckles Chaotix"  %}
+
+---
 ## Sega CD
+
+### Shining Force CD
+{% include link-to-other-site.html url="https://github.com/ShiningForceCentral/SFCDDISASM" description="." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Shining_Force_CD.jpg" title="A disassembly of the game Shining Force CD"  %}
+
 ---
 ## Sega Master System
 Although the Sega Master System was hugely popular in Europe, it can't compete with the NES for number of disassembled projects created so far.
+
+### Phantasy Star
+{% include link-to-other-site.html url="https://github.com/lory90/ps1disasm" description="Incomplete Phantasy Star Disassembly for Sega Master System from SonicRetro. It uses the wla-z80 assembler to build the ROM" image="https://upload.wikimedia.org/wikipedia/en/3/34/Phantasy_Star_MS_cover.png" title="Phantasy Star Disassembly"  %}
+
+### Sonic 2 (SMS)
+{% include link-to-other-site.html url="https://github.com/sonicretro/s2smsdisasm" description="Sonic 2 for the Sega Master System Incomplete Disassembly from SonicRetro. It uses the wla-z80 assembler to build the ROM." image="https://greenhillszone.files.wordpress.com/2011/03/sonic_the_hedgehog_2_8-bit.png" title="Sonic 2 SMS Disassembly"  %}
+
 ---
 ## Sega Mega Drive
 The Sega Mega Drive was Sega's most popular console in terms of games developed, and as such it also seems to be the most popular for reverse engineering projects too.
@@ -247,6 +302,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legacy of Kain 2: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, Boot screen playable |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, First disk fully playable |
+|![](https://www.mobygames.com/images/covers/l/83999-lunar-2-eternal-blue-complete-playstation-front-cover.jpg){:width="100"} [Lunar 2: Eternal Blue](https://github.com/Zackmon/lunar2-psx-decomp)              | Decompilation | Inactive, at 12% |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed: High Stakes](https://github.com/OpenNFS/NFSHSX)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Need for Speed 1-6 (Game Engine)](https://github.com/OpenNFS/OpenNFS)              | Reimplementation | Inactive |
@@ -255,6 +311,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Tomb Raider 1-5 (Game Engine)](https://github.com/XProger/OpenLara)              | Reimplementation | First game fully playable and ported to many platforms |
+|![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
 
 ---
 ## PlayStation 2
@@ -296,6 +353,9 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/sonic/images/6/64/SKC_US_Boxart.jpg){:width="100"} [Sonic & Knuckles Collection (1997)](https://github.com/sonicretro/skc_disasm)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Completed |
+|![](https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg){:width="100"} [Twisted Metal 2](hhttps://github.com/abelbriggs1/tm2pc-reveng)              | Decompilation | Inactive |
+
+
 
 ---
 # Atari Systems
