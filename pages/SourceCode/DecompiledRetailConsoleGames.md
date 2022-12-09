@@ -200,7 +200,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/a/af/Pokemon_Crystal_Box.png){:width="100"} [Pokemon Crystal](https://github.com/pret/pokecrystal)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/e/e9/Pok%C3%A9mon_Pinball_Coverart.png){:width="100"} [Pokemon Pinball](https://github.com/pret/pokepinball)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/1/19/Pok%C3%A9mon_Trading_Card_Game_Coverart.png){:width="100"} [Pokemon Trading Card Game](https://github.com/pret/poketcg)              | Disassembly | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg){:width="100"} [Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)              | Disassembly | Completed |
+|![](https://en.wikipedia.org/wiki/File:Pok%C3%A9mon_Puzzle_Challenge_Coverart.png){:width="100"} [Pokémon Puzzle Challenge](https://github.com/pret/pokepuzzle)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cb/Warioland3.jpg){:width="100"} [Wario Land 3](https://github.com/froggestspirit/wland3)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c1/Link%27s_Awakening.png){:width="100"} [The Legend of Zelda Links Awakening DX](https://github.com/zladx/LADX-Disassembly)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/a/af/The_Legend_of_Zelda_Oracle_of_Seasons_and_Oracle_of_Ages_Game_Cover.jpg){:width="100"} [The Legend of Zelda Oracle of Ages & Seasons](https://github.com/Drenn1/oracles-disasm)              | Disassembly | Completed |
@@ -211,18 +211,18 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo Kazooie Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Decompilation | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/not-alons/hmfomt)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/not-alons/hmfomt)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg){:width="100"} [Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)              | Disassembly | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Inactive |
 |![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Disassembly | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width="100"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg){:width="100"} [Pokemon Emerald](https://github.com/pret/pokeemerald)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg){:width="100"} [Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)              | Decompilation | Active |
 |![](https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg){:width="100"} [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/froggestspirit/SoAdvance2)              | Disassembly | Completed |
-|![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/froggestspirit/SoAdvance2)              | Disassembly | Abandoned |
+|![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Active |
 |![](https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Completed |
 
 ---
