@@ -188,6 +188,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/0/02/Supermariolandboxart.jpg){:width="100"} [Super Mario Land](https://github.com/kaspermeerts/supermarioland)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0d/Super_Mario_Land_2_box_art.jpg){:width="100"} [Super Mario Land 2: Six Golden Coins](https://github.com/froggestspirit/marioland2)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/5/5f/Wario_Land_Box_Art.jpg){:width="100"} [Super Mario Land 3: Wario Land](https://github.com/Kak2X/wl)              | Disassembly | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4a/Tetris_Boxshot.jpg){:width="100"} [Tetris](https://github.com/alexsteb/tetris_disassembly)              | Disassembly | Completed |
+
 
 ---
 
@@ -217,10 +219,11 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Inactive |
 |![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width="100"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg){:width="100"} [Pokemon Emerald](https://github.com/pret/pokeemerald)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg){:width="100"} [Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)              | Decompilation | Active |
-|![](https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg){:width="100"} [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width="100"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg){:width="100"} [Pokemon Emerald](https://github.com/pret/pokeemerald)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg){:width="100"} [Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)              | Decompilation | Completed |
+|![](https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg){:width="100"} [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/8/82/Pokemonpinballrubyandsapphire.png){:width="100"} [Pokémon Pinball: Ruby & Sapphire](https://github.com/pret/pokepinballrs)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/froggestspirit/SoAdvance2)              | Disassembly | Abandoned |
 |![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Active |
 |![](https://coverproject.sfo2.cdn.digitaloceanspaces.com/gameboy_advance/supermarioadvance2_thumb.jpg){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Completed |
@@ -299,7 +302,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
+|![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, PC Port Fully Playable |
 |![](https://static.wikia.nocookie.net/legacyofkain_gamepedia/images/6/60/SR1-Cover-PS1.jpg){:width="100"} [Legacy of Kain 2: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, Boot screen playable |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, First disk fully playable |
 |![](https://www.mobygames.com/images/covers/l/83999-lunar-2-eternal-blue-complete-playstation-front-cover.jpg){:width="100"} [Lunar 2: Eternal Blue](https://github.com/Zackmon/lunar2-psx-decomp)              | Decompilation | Inactive, at 12% |
@@ -354,8 +357,6 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://static.wikia.nocookie.net/sonic/images/6/64/SKC_US_Boxart.jpg){:width="100"} [Sonic & Knuckles Collection (1997)](https://github.com/sonicretro/skc_disasm)              | Disassembly | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Completed |
 |![](https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg){:width="100"} [Twisted Metal 2](hhttps://github.com/abelbriggs1/tm2pc-reveng)              | Decompilation | Inactive |
-
-
 
 ---
 # Atari Systems
