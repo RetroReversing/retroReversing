@@ -300,7 +300,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)                     | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, Fully Playable on PC |
@@ -330,7 +330,10 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 # Microsoft Systems
 There are only a handful of reverse engineered games for Microsoft game consoles.
 ## MSX
-[GuillianSeed/MetalGear: Fully annotated disassembly of the original Metal Gear game (MSX2, Konami, 1987, RC750)](https://github.com/GuillianSeed/MetalGear)
+
+### Metal Gear (1987)
+{% include link-to-other-site.html url="https://github.com/GuillianSeed/MetalGear" description="This repository contains the fully annotated disassembly of the original Metal Gear game, released by Konami for MSX2 in 1987 with code RC750 image="https://upload.wikimedia.org/wikipedia/en/b/bd/Metal_Gear_cover.jpg" title="Fully annotated disassembly of the original Metal Gear game"  %}
+
 ---
 ## Xbox
 
@@ -349,10 +352,10 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png){:width="100"} [Cave Story](https://github.com/gameblabla/CSE2)              | Decompilation | Completed |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | Completed |
-|![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2 (Game Engine)](https://github.com/AliveTeam/alive_reversing)              | Reimplementation | Active, Playable |
+|![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)              | Game Engine Reimplementation | Active, Playable |
 |![](https://images.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg){:width="100"} [Sonic CD (1996)](https://github.com/sonicretro/scdpc_disasm)              | Disassembly | Completed |
 |![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/sonic/images/6/64/SKC_US_Boxart.jpg){:width="100"} [Sonic & Knuckles Collection (1997)](https://github.com/sonicretro/skc_disasm)              | Disassembly | Completed |
@@ -367,12 +370,12 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 {% include link-to-other-site.html url="http://www.bjars.com/disassemblies.html" description="Various disassembled Atari 2600 games" image="https://upload.wikimedia.org/wikipedia/commons/b/b9/Atari-2600-Wood-4Sw-Set.jpg" title="Disassemblies of original Atari 2600 games" %}
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="Various disassembled Atari 2600 games" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)" %}
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/286583-donkey-kong-disassembly-take-2/" description="" image="https://images-na.ssl-images-amazon.com/images/I/71B3YruuXkL._AC_SL1095_.jpg" title="Donkey Kong (Atari 2600)" %}
 
 ## ColecoVision
 
 ### Donkey Kong
-{% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="Various disassembled Atari 2600 games" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVisio n Disassembly" %}
+{% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVision Disassembly" %}
 
 ---
 # NEC Systems
