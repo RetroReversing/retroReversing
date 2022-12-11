@@ -79,8 +79,8 @@ Some classic PS1 games have been remastered or remade for more modern consoles, 
 Name | Platform | Notes
 ---|---|---
 Ape Escape | PSP | Source Code was ported to the PSP as **Ape Escape: On the Loose**
-Crash Bandicoot 1-3 | PS4, Switch, PC, XboxOne | Remade in a new engine but tried to be as faithful as possible to the originals
-Crash Team Racing | PS4, Switch, PC, XboxOne | Remade in a new engine with additional content from Crash Nitro Cart and Crash tag Team Racing
+Crash Bandicoot 1-3 | PS4, Switch, PC, XboxOne | Remade in Alchemy engine but tried to be as faithful as possible to the originals
+Crash Team Racing | PS4, Switch, XboxOne | Remade in Alchemy Engine with additional content from Crash Nitro Kart and Crash Tag Team Racing
 Castlevania SOTN | Xbox360, PS4, iOS, Android | Re-Released in Castlevania Requiem compilation
 Final Fantasy 7-9 | PS4, Switch | 
 Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher resolution assets? (confirmation required)

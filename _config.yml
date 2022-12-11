@@ -8,7 +8,7 @@ logo: '/public/logo.png'
 highlighter: rouge
 
 # Site configurations
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap

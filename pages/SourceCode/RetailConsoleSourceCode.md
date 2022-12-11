@@ -37,9 +37,6 @@ Nintendo systems have by far the largest selection of official source code to ch
 ### Days of Thunder 
 {% include link-to-other-site.html url="https://github.com/DickBlackshack/Days-of-Thunder-NES-Unpublished" description="Days of Thunder was an unpublished NES game by developer Chris Oberth" image="https://images-na.ssl-images-amazon.com/images/I/61rhbiNhkoL._AC_.jpg" title="Days of Thunder"  %}
 
-### Infinity
-{% include link-to-other-site.html url="https://github.com/infinity-gbc/infinity" description="Infinity is a role-playing game for the Game Boy Color handheld game console, developed by Affinix Software primarily between the years 1999 and 2001. The game is incomplete and should be considered alpha/preview quality. " image="" title="Infinity"  %}
-
 ### Little Mermaid Pinball 
 {% include link-to-other-site.html url="https://github.com/dashxdr/cgb" description="Source code for the retail game boy release of Little Mermaid Pinball" image="https://upload.wikimedia.org/wikipedia/en/2/25/TheLittleMermaidIIPinballFrenzy.jpg" title="Little Mermaid Pinball"  %}
 
@@ -154,11 +151,26 @@ Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fac
 
 ## Sony Playstation 1
 
+### 360: Three Sixty
+{% include link-to-other-site.html url="https://tcrf.net/360:_Three_Sixty" description="Source code that was left in the retail disc." image="https://upload.wikimedia.org/wikipedia/en/1/10/360_Three_Sixty_%28Playstation_video_game%29_boxart.jpg" title="Cryo Interactive's 360: Three Sixty"  %}
+
 ### Battle Konchuuden
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/BattleKonchuuden" description="" image="" title="Battle Konchuuden"  %}
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/BattleKonchuuden" description="Battle Konchuuden's sources as found on the retail CD-ROM" image="https://psxdatacenter.com/images/covers/J/B/SLPS-01779.jpg" title="Battle Konchuuden"  %}
+
+### Beatmania APPEND 5th MIX
+{% include link-to-other-site.html url="https://www.psxdev.net/forum/viewtopic.php?f=41&t=470" description="Source code found on another Beatmania game." image="https://psxdatacenter.com/images/covers/J/B/SLPM-86322.jpg" title="Beatmania APPEND 5thMIX Psy-Q Source Code"  %}
+
+### California Watersports
+{% include link-to-other-site.html url="https://archive.org/details/cws-src" description="The PlayStation source code was released in 2020 with the permission of developer Mark Theyer." image="https://psxdatacenter.com/images/covers/P/C/SLES-02950.jpg" title="California Watersports (PS1) Source Code"  %}
+
+### Chill
+{% include link-to-other-site.html url="https://archive.org/download/Redump.orgSonyPlayStation-PAL-C/Chill%20%28Europe%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.zip" description="An earlier build snapshot with sources found in the retail CD contents." image="https://upload.wikimedia.org/wikipedia/en/1/19/Chill_cover.jpg" title="Silicon Dreams studio's Chill Source Code"  %}
+
+### Jimmy Johnson's VR Football '98
+{% include link-to-other-site.html url="https://tcrf.net/Jimmy_Johnson%27s_VR_Football_%2798" description="Source code archive from May 1st 1997." image="https://psxdatacenter.com/images/covers/U/J/SLUS-00500.jpg" title="VR Football '98 Source"  %}
 
 ### Pachi Slot Master
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PachiSlotMaster" description="" image="" title="Pachi Slot Master"  %}
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/PachiSlotMaster" description="" image="https://psxdatacenter.com/images/covers/J/P/SLPS-01927.jpg" title="Pachi Slot Master Sammy SP"  %}
 
 ### Spongebob Squarepants: SuperSponge
 {% include link-to-other-site.html image="https://upload.wikimedia.org/wikipedia/en/3/33/SpongeBob_SuperSponge_PS1.jpg" description="" url="https://github.com/RetailGameSourceCode/Spongebob_SuperSponge#spongebob-squarepants-supersponge" title="Spongebob Squarepants: SuperSponge"  %}
@@ -166,13 +178,30 @@ Retail Sega Saturn source code is almost as rare as Hen's teeth, due to this fac
 ### Monopoly
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/Monopoly" description="" image="https://upload.wikimedia.org/wikipedia/en/0/09/Monopoly_%281997%29_Video_Game_Cover.jpg" title="Monopoly"  %}
 
-### Ultimate Mortal Kombat 3
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/UltimateMortalKombat3" description="Source Code - Incomplete / Not Buildable" image="" title="Ultimate Mortal Kombat 3"  %}
+### Mortal Kombat 3
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/UltimateMortalKombat3" description="" image="https://psxdatacenter.com/images/covers/U/M/SCUS-94201.jpg" title="Various Mortal Kombat 3 Source Code Collections"  %}
 
-### The misadventures of Tron Bonne
+### Ultimate Mortal Kombat 3 (Unreleased)
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/UltimateMortalKombat3" description="Source Code - Incomplete / Not Buildable" image="https://upload.wikimedia.org/wikipedia/en/f/f9/Ultimate_MK3.png" title="Ultimate Mortal Kombat 3"  %}
+
+### Re-Volt
+{% include link-to-other-site.html url="https://archive.org/details/ReVoltXboxAndPCSourceCode" description="Re Volt Xbox And PC Source Code (Acclaim)
+C/C++ Game source code. Including unreleased Xbox port." image="https://psxdatacenter.com/images/covers/U/R/SLUS-00851.jpg" title="Ultimate Mortal Kombat 3"  %}
+
+### The Misadventures of Tron Bonne
 The source code for the misadventures of Tron Bonne was released as part of the November 2020 Capcom leaks.
 
-{% include link-to-other-post.html post="/capcomleaks" description="For more information on the Tron Bonne source code check out this post." %}
+{% include link-to-other-post.html post="/capcomleaks" description="For more information on the 
+Tron Bonne source code check out this post." %}
+
+### Tomb Raider II
+{% include link-to-other-site.html url="https://archive.org/details/tomb-raider-ii-core-design-eidos-1997-source-code.-7z" description="" image="https://psxdatacenter.com/images/covers/U/T/SLUS-00437.jpg" title="Eidos Core Design's Tomb Raider II 1997 Source Code"  %}
+
+### Urban Chaos
+{% include link-to-other-site.html url="https://github.com/dizzy2003/MuckyFoot-UrbanChaos/tree/master/fallen/PSXENG" description="PSX Source Code" image="https://upload.wikimedia.org/wikipedia/en/5/5b/Urban_Chaos_Coverart.png" title="Mucky Foot's 1996 Urban Chaos" %}
+
+### WarCraft II: The Dark Saga
+{% include link-to-other-site.html url="https://archive.org/details/warcraftIIsourcecodePSX" description="Leaked source code for 'Warcraft II: The Dark Saga' for the Sony PlayStation." image="https://static.wikia.nocookie.net/wowwiki/images/0/00/Warcraft_II_-_The_Dark_Saga.png" title="Blizzard's Warcraft II: The Dark Saga - PS1 Source Code"  %}
 
 ### Wipeout
 On the 27th March 2022 **March42** and **Forest of Illusion** released the official source code to one of the most popular original Playstation games, Wipeout! 
@@ -198,9 +227,13 @@ This section has all the consoles Microsoft made which are considered retro enou
 ## Original Xbox
 The original Xbox was a joy to program for, especially for PC developers who were familiar with the Direct X API. However very few xbox games have ever has their source code leaked.
 
-### Star Wars:Jedi Academy
+### Star Wars: Jedi Academy
 {% include link-to-other-site.html url="https://assembler-games.com/threads/star-wars-jedi-academy-jedi-knight-ii-jedi-outcast-source-code-released.45272/" description="Star Wars:Jedi Academy & Jedi Knight II: Jedi Outcast Source Code Released" image="https://images-na.ssl-images-amazon.com/images/I/512KMVAS6RL._AC_.jpg" title="Star Wars:Jedi Academy"  %}
 
+## Windows (PC)
+
+### Jurassic Park: Trespasser
+{% include link-to-other-site.html url="https://github.com/OpenTrespasser/JurassicParkTrespasser" description="A git-based fork of the Jurassic Park: Trespasser source code." image="https://upload.wikimedia.org/wikipedia/en/3/3c/Jp-trespasser-cover.png" title="Jurassic Park: Trespasser"  %}
 
 ---
 # References
