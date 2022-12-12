@@ -239,6 +239,10 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 ---
 ## Nintendo 3DS
+
+### Super Mario 3D Land (EU)
+{% include link-to-other-site.html url="https://github.com/fruityloops1/RedPepper" description="This is a decompilation of the EU version of Super Mario 3D Land." image="https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg" title="Super Mario 3D Land EU Decompilation"  %}
+
 ---
 # Sega Systems
 Sega is similar to Nintendo in that most of the games that people are interested in reverse engineering are 1st party titles such as Sonic and Phantasy Star.
@@ -309,7 +313,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)                                              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://github.com/xeeynamo/sotn-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, Partly Playable on PC |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | Completed, Fully Playable on PC |
