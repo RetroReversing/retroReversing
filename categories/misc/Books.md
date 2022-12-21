@@ -54,7 +54,23 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
-Games for the Atari 400/800 : or how to program your own games | S. Roberts | BASIC and Assembly | 
+Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the ATARI Editor/Assembler cartridge
+
+---
+## Books First Published in 1983
+This section will cover books related to game development published in the year 1983.
+
+Title | Author | Software | Notes
+---|---|---|---
+Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
+
+---
+## Books First Published in 1984
+This section will cover books related to game development published in the year 1984.
+
+Title | Author | Software | Notes
+---|---|---|---
+Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
 
 ---
 ## Books First Published in 1994
