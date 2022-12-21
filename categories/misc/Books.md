@@ -53,7 +53,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
-Graphics Gems | Andrew S. Glassne | C Programming | 
+<img src="/public/images/books/GraphicsGems.jpg" /> Graphics Gems | Andrew S. Glassne | C Programming | 
 Sound Blaster the Official Book | | Sound Blaster | 
 Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
 Zen of Graphics | | | 
