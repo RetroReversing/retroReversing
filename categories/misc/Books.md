@@ -38,11 +38,55 @@ This section will cover:
 
 This section will cover:
 * The Game programming GEMS series of books
-* Tricks of the Game Programming Gurus
-* 6502 Assembly language programming
-* Sound Blaster the Official Book
-* Zen of Graphics
-* OpenGL Reference Manual
-* OpenGL SuperBible
-* Computer Graphics & Geometric Modeling
-* 
+
+
+## Books First Published in 1979
+This section will cover books related to game development published in the year 1979.
+
+Title | Author | Software | Notes
+---|---|---|---
+6502 Assembly language programming | Lance A. Leventhal | | 
+
+---
+## Books First Published in 1994
+This section will cover books related to game development published in the year 1994 when C and Assembly language were king.
+
+Title | Author | Software | Notes
+---|---|---|---
+Sound Blaster the Official Book | | Sound Blaster | 
+Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
+Zen of Graphics | | | 
+
+---
+## Books First Published in 1995
+This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the Saturn and Playstation were released in the US & Europe.
+
+Title | Author | Software | Notes
+---|---|---|---
+More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
+Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
+
+---
+## Books First Published in 1996
+This section will cover books related to game development published in the year 1996, which is the year the Nintendo 64 was released.
+
+Title | Author | Software | Notes
+---|---|---|---
+OpenGL SuperBible | | OpenGL API | 
+
+---
+## Books First Published in 1997
+This section will cover books related to game development published in the year 1997.
+
+Title | Author | Software | Notes
+---|---|---|---
+OpenGL Reference Manual | | OpenGL API | 
+
+---
+## Books First Published in 1999
+This section will cover books related to game development published in the year 1999
+
+Title | Author | Software | Notes
+---|---|---|---
+Computer Graphics & Geometric Modeling | | | 
+
