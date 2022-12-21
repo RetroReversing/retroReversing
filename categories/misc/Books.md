@@ -22,15 +22,16 @@ One of the best ways to get an insight into the games industry is to look at the
 As this is a site about retro games we are mainly aiming to add books that were released around the time of retro consoles **or** books about retro game development.
 
 This page is split into the following categories:
-* Books about Retro Game Development
+* Books about Retro Game Development with Modern Tools
 * Books published around the same time as retro games
 
-# Books about Retro Game Development
+# Books about Retro Game Development with Modern Tools
 This section will cover:
 * Retro Game Dev - Commodore 64
 * ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
 * Code the Classics - 2019
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
+* Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
 
 ---
 # Books published around the same time as retro games
