@@ -89,7 +89,8 @@ OpenGL Reference Manual | | OpenGL API |
 ## Books First Published in 1999
 This section will cover books related to game development published in the year 1999
 
-Title | Author | Software | Notes
+Cover | Title | Author | Software | Notes
 ---|---|---|---
-Computer Graphics & Geometric Modeling | | | 
+ | Computer Graphics & Geometric Modeling | | | 
+<img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
