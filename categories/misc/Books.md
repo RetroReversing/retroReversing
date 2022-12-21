@@ -63,6 +63,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Black art of Windows Game Programming | Eric R. Lyons | WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows NT and Windows 95)
 More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
 
