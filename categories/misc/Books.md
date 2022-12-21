@@ -46,6 +46,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 6502 Assembly language programming | Lance A. Leventhal | | 
+Electronic games : design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
 ## Books First Published in 1994
