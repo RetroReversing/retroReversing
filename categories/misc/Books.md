@@ -63,7 +63,10 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
+Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
+The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
+
 
 ---
 ## Books First Published in 1994
