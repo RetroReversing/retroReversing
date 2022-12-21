@@ -49,6 +49,14 @@ Title | Author | Software | Notes
 Electronic games : design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
+## Books First Published in 1982
+This section will cover books related to game development published in the year 1982.
+
+Title | Author | Software | Notes
+---|---|---|---
+Games for the Atari 400/800 : or how to program your own games | S. Roberts | BASIC and Assembly | 
+
+---
 ## Books First Published in 1994
 This section will cover books related to game development published in the year 1994 when C and Assembly language were king.
 
