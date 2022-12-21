@@ -25,19 +25,11 @@ This page is split into the following categories:
 * Books about Retro Game Development with Modern Tools
 * Books published around the same time as retro games
 
-# Books about Retro Game Development with Modern Tools
-This section will cover:
-* Retro Game Dev - Commodore 64
-* ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
-* Code the Classics - 2019
-* Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
-* Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
 
 ---
 # Books published around the same time as retro games
 
-This section will cover:
-* The Game programming GEMS series of books
+This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
 
 
 ## Books First Published in 1979
@@ -70,6 +62,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
 Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
 
 ---
@@ -119,3 +112,12 @@ Cover | Title | Author | Software | Notes
  | Computer Graphics & Geometric Modeling | | | 
 <img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
+---
+
+# Books about Retro Game Development with Modern Tools
+This section will cover:
+* Retro Game Dev - Commodore 64
+* ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
+* Code the Classics - 2019
+* Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
+* Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
