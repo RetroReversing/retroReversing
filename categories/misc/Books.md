@@ -67,6 +67,30 @@ Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Comm
 Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
 The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
+---
+## Books First Published in 1985
+This section will cover books related to game development published in the year 1985.
+
+Title | Author | Software | Notes
+---|---|---|---
+Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
+
+
+---
+## Books First Published in 1992
+This section will cover books related to game development published in the year 1992.
+
+Title | Author | Software | Notes
+---|---|---|---
+Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
+
+---
+## Books First Published in 1993
+This section will cover books related to game development published in the year 1993.
+
+Title | Author | Software | Notes
+---|---|---|---
+The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
 
 ---
 ## Books First Published in 1994
