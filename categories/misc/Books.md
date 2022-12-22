@@ -139,9 +139,12 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 1996
 This section will cover books related to game development published in the year 1996, which is the year the Nintendo 64 was released.
 
+There were some excellent books released by **Waite Group Press** [^1] such as the **Black Art of Macintosh Game Programming** and the **OpenGL SuperBible** which were both cutting-edge at the time.
+
 Title | Author | Software | Notes
 ---|---|---|---
-OpenGL SuperBible | | OpenGL API | 
+Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
+OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
 
 ---
 ## Books First Published in 1997
@@ -169,3 +172,7 @@ This section will cover:
 * Code the Classics - 2019
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
 * Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
+
+---
+# References
+[^1]: [Waite Group Press Subject Room](https://web.archive.org/web/19980202235710fw_/http://www.waite.com/books/subject.html)
