@@ -144,6 +144,16 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
 
 ---
+# Sound and Audio on the Game Boy
+
+## Game Boy Color Audio Chip
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I reverse-engineered the audio chip in the <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> Game Boy Color. It contains three power op-amps for the speaker and headphone channels. This 1998 chip is built from about 100 NPN and PNP transistors. Die photo from <a href="https://twitter.com/johndmcmaster?ref_src=twsrc%5Etfw">@johndmcmaster</a>. Article &amp; schematic:<a href="https://t.co/EhsVogAJPl">https://t.co/EhsVogAJPl</a> <a href="https://t.co/J6CYPsOdaz">pic.twitter.com/J6CYPsOdaz</a></p>&mdash; Ken Shirriff (@kenshirriff) <a href="https://twitter.com/kenshirriff/status/1256631240838361088?ref_src=twsrc%5Etfw">May 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Synthic: Automatically generate gameboy music using machine learning
+This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
+[jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
+
+---
 # File Formats
 There are a few different file formats that you will find relating to the GameBoy which are listed below:
 * **.ISX** Official Nintendo ROM file (compiled by the assembler **ISAS**) (contains debug symbols)
@@ -155,12 +165,6 @@ If you backup your own games they will be created with a **.GB** or **.GBC** fil
 The emulator SameBoy recently added support to play ISX files due to the **2020 Nintendo Leaks**:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 
----
-# Misc
-
-## Synthic: Automatically generate gameboy music using machine learning
-This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
-[jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
 
 ---
 # All Posts tagged with GameBoy
