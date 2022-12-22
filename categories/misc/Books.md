@@ -32,6 +32,7 @@ This page is split into the following categories:
 This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
 
 Some of the most note-worthy publishers for game development related books on this list are:
+* Prima Tech [^2]
 * Sams.net
 * Waite Group Press [^1]
 
@@ -183,6 +184,29 @@ Cover | Title | Author | Software | Notes
 <img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
 ---
+## Books First Published in 2000
+This section will cover books related to game development published in the year 2000
+
+Cover | Title | Author | Software | Notes
+---|---|---|---
+3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
+3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
+Developer's guide to computer game design | John Scott Lewinski | Game Design | 
+Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
+Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
+
+---
+## Books First Published in 2001
+This section will cover books related to game development published in the year 2001.
+
+This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---
+Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
+
+
+---
 
 # Books about Retro Game Development with Modern Tools
 This section will cover:
@@ -195,3 +219,4 @@ This section will cover:
 ---
 # References
 [^1]: [Waite Group Press Subject Room](https://web.archive.org/web/19980202235710fw_/http://www.waite.com/books/subject.html)
+[^2]: [prima-tech.com:](https://web.archive.org/web/20011007072554/http://www.prima-tech.com/books/)
