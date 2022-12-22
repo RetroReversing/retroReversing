@@ -1,9 +1,9 @@
 ---
 permalink: /gameboy/
 layout: post
-title: Nintendo Game Boy (DMG & GBC)
+title: Nintendo Game Boy (DMG & GBC) Reversing
 recommend: gameboy
-recommendTitle: All GB Posts
+recommendTitle: All GameBoy Posts
 editlink: ../categories/consoles/GameBoy.md
 console: gameboy
 consoleimage: /public/NintendoGameBoyThumb.png
@@ -75,9 +75,6 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 ## Looney Tunes: Carrot Crazy
 {% include link-to-other-site.html url="https://www.huderlem.com/blog/posts/carrot-crazy-1/" description="Find out how to reverse engineer Looney Tunes: Carrot Crazy for the GBC" image="https://www.huderlem.com/blog/posts/carrot-crazy-1/password-entry-screen.png" title="Reverse Engineering Carrot Crazy"  %}
 
-## Crystalis
-<iframe width="560" height="420" src="https://www.youtube.com/embed/whgbxtBAnPw"></iframe>
-
 ---
 # Game Boy Development
 
@@ -114,6 +111,7 @@ Here is the link: [Tetsuji: Remote Code Execution on a GameBoy Colour 22 Years L
 
 ---
 ## Super GameBoy
+The Super GameBoy was a Super Nintendo Cartridge that allowed you to play Original GameBoy (DMG) games on the big screen (TV Monitor). It did this by including all the hardware a normal GameBoy has (a z80 cpu etc) minus the screen and the buttons:
 <iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
 
 ---
@@ -125,7 +123,7 @@ For more information:
 - https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
 
 ## Wide Boy 64
-Official device to play gameboy (including gba) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
+Official device to play gameboy (including GBA) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
 <iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
 
 ---
@@ -144,6 +142,18 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 The source code for the Game Boy classic `Mr Do!` has been kindly released by two of the original game developers and can provide an excellent reference for how retail Game Boy games were developed in 1990!
 
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
+
+---
+# File Formats
+There are a few different file formats that you will find relating to the GameBoy which are listed below:
+* **.ISX** Official Nintendo ROM file (compiled by the assembler **ISAS**) (contains debug symbols)
+* **.GB** Original GameBoy ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
+* **.GBC** Original GameBoy Color ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
+
+If you backup your own games they will be created with a **.GB** or **.GBC** file extension along with most of the ROMS that can be found online. If the ROM was leaked from a first party developer such as Nintendo then they will likely be in **.ISX** format, this can easily be converted to **.GBC** with the tool **CVTISX** included in the Official GameBoy SDK.
+
+The emulator SameBoy recently added support to play ISX files due to the **2020 Nintendo Leaks**:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 
 ---
 # Misc
