@@ -155,8 +155,8 @@ overflow: scroll;
   max-width: 95%
 }
 
-.row thead {
-  background-color: white;
+.table > thead > tr > th {
+  color: #0085b6
 }
 
 .row p {
