@@ -151,7 +151,7 @@ Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C |
 Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
 Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
 The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
-Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java | 
+Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
 NetWarriors in C++ : programming multi-player games for Windows | Joe Gradecki | | 
 NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
 OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
