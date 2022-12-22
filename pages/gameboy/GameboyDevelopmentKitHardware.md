@@ -100,11 +100,15 @@ The **WideBoy** was used to present Game Boy games on a bigger screen such as a 
 
 {% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="Chris M Covell has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
 
-## N64 Wide Boy (Wide-Boy64) (DMG & CGB)
+## N64 Wide Boy (Wide-Boy64 or WideBoy64) (DMG & CGB)
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/llIz6qjDfLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-An updated version of the Wide Boy was released as a cartridge for the Nintendo 64 that supported GameBoy Color games [^11]. There was later a version of the Wide-Boy64 that could play Gameboy Advance games known as the AGB model.
+An updated version of the Wide Boy was released as a cartridge for the Nintendo 64 that supported GameBoy Color games [^11]. 
+ Later they released a new version of the **Wide-Boy64** that could play Gameboy Advance games known as the AGB model.
+  
+  During development of the Pokemon Gold/Silver/Crystal games the WideBoy64 was used to take screenshots of visual artifacts by the QA team and sent to the developers.
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The development team used WideBoy64 screen captures to document graphical bugs in Pokemon! <a href="https://t.co/WsYV7pKFCh">https://t.co/WsYV7pKFCh</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1254137614501896195?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 </div>
 </section>
 
