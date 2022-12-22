@@ -47,6 +47,15 @@ The Journalist **Ernie Smith** has written an excellent article on his site whic
 Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has created an excellent video on the subject:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+ ## Satellaview
+ The **Satellaview** was a satelite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
+ 
+ The sad thing about the Satellaview is due to the nature of the technology most of the content has been lost to time and has only been partially preserved by finding old recordings on people's Satellaview cartridges. Some content was broadcast but never downloaded, or soon overwritten with newer content so there is no other way to obtain the data.
+ 
+ In 2020 Luigiblood did a presentation to the **AirGap2020** conference about **Satellaview Reverse Engineering** which can be watched below:
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/qUAmk8dYmrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
 ---
 # Games
 The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.
