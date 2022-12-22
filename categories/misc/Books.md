@@ -112,11 +112,12 @@ In books it was the year of Andre LaMothe who published multiple books that woul
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
+| Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
 | Sound Blaster the Official Book | | Sound Blaster | 
 | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
 | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
-| Zen of Graphics | | | 
+| Zen of Graphics | Michael Abrash | | 
 
 ---
 ## Books First Published in 1995
