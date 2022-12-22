@@ -141,14 +141,21 @@ This section will cover books related to game development published in the year 
 
 There were some excellent books released by **Waite Group Press** [^1] such as the **Black Art of Macintosh Game Programming** and the **OpenGL SuperBible** which were both cutting-edge at the time.
 
+Also the author **Joe Gradecki** released two books this year in the **NetWarriors** series, one an update to his book last yeae but this time in C++ and the other a guide to online resources, which would be very interesting to read now-adays, although most links would now be long dead.
+
 Title | Author | Software | Notes
 ---|---|---|---
 3D game Alchemy for Doom, Doom II, Heretic and Hexen | Steve Benner, et al. | Doom Level Editor | Available on RetroMags.com
+Black art of Java game programming | Joel Fan, Eric Ries, Calin Tenitchi. | Java | 
 Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
+Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
 Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
 The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
-The game developer's guide to online resources | Joe Gradecki. | | Very little information about this online
+Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java | 
+NetWarriors in C++ : programming multi-player games for Windows | Joe Gradecki | | 
+NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
 OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
+Win95 graphics programming | Mathias Rasch | WinG API | 
 
 ---
 ## Books First Published in 1997
