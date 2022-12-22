@@ -90,7 +90,11 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
+Programming games for beginners | Christopher A Howard | | 
+Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland c++ | 
 The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
+QBasic games and more! | Fred Sexton | QBasic | 
 
 ---
 ## Books First Published in 1994
