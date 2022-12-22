@@ -178,13 +178,25 @@ $(function() {
 //         }
 //       });
       
+      
+// Table Handling
+try {      
       // Make markdown tables have the bootstrap table class to look pretty
       $('table').addClass('table');
+  
+      // We only want striped tables if the table has more than one element
+      function onlyRowsGreaterThanOne(index) { return $( "tr", this ).length > 1 }
+      $('table').filter(onlyRowsGreaterThanOne).addClass('table-striped');
       
       // Only use the fancy table if elements greater than minimum
-      function filterFunc(index) { return $( "tr", this ).length >= 5 }
+      function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length >= 10 }
+  
      
-      $('table').filter(filterFunc).DataTable();
+      $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
+} catch (e) {
+  console.error("Exception with table handling:", e);
+}
+//  End Table Handling
 
       // lightbox
 //       $('[data-lightbox]').lightbox();
