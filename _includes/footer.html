@@ -185,8 +185,8 @@ try {
       $('table').addClass('table');
   
       // We only want striped tables if the table has more than one element
-      function onlyRowsGreaterThanOne(index) { return $( "tr", this ).length > 1 }
-      $('table').filter(onlyRowsGreaterThanOne).addClass('table-striped');
+      function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
+      $('table').filter(onlyRowsGreaterThanTwo).addClass('table-striped');
       
       // Only use the fancy table if elements greater than minimum
       function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length >= 10 }
