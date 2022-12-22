@@ -143,7 +143,11 @@ There were some excellent books released by **Waite Group Press** [^1] such as t
 
 Title | Author | Software | Notes
 ---|---|---|---
+3D game Alchemy for Doom, Doom II, Heretic and Hexen | Steve Benner, et al. | Doom Level Editor | Available on RetroMags.com
 Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
+Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
+The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
+The game developer's guide to online resources | Joe Gradecki. | | Very little information about this online
 OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
 
 ---
