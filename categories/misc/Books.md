@@ -31,6 +31,10 @@ This page is split into the following categories:
 
 This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
 
+Some of the most note-worthy publishers for game development related books on this list are:
+* Sams.net
+* Waite Group Press [^1]
+
 
 ## Books First Published in 1979
 This section will cover books related to game development published in the year 1979.
@@ -149,12 +153,14 @@ Title | Author | Software | Notes
 Black art of Java game programming | Joel Fan, Eric Ries, Calin Tenitchi. | Java | 
 Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
 Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
+Developing games that learn | Leonard Dorfman, Narendra K. Ghosh. | C Programming | 
 Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
 The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
 Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
-NetWarriors in C++ : programming multi-player games for Windows | Joe Gradecki | | 
+NetWarriors in C++: programming multi-player games for Windows | Joe Gradecki | | 
 NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
 OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
+Spells of fury: building Windows 95 games using DirectX 2 | Michael J. Norton | VC++ 4.0 and DirectX |
 Win95 graphics programming | Mathias Rasch | WinG API | 
 
 ---
@@ -163,6 +169,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Developing Java entertainment applets | John Withers | Java | 
 OpenGL Reference Manual | | OpenGL API | 
 
 ---
@@ -172,6 +179,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
  | Computer Graphics & Geometric Modeling | | | 
+ | Game design: secrets of the sages | Marc Saltzman | Game Design | 
 <img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
 ---
