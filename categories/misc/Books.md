@@ -179,6 +179,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
+ | AI for computer games and animation : a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
 <img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
@@ -188,9 +189,10 @@ Cover | Title | Author | Software | Notes
 This section will cover books related to game development published in the year 2000
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
+Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
 Developer's guide to computer game design | John Scott Lewinski | Game Design | 
 Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
 Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
@@ -202,7 +204,7 @@ This section will cover books related to game development published in the year 
 This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers.
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
 
 
