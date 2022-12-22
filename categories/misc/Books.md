@@ -126,7 +126,8 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
 | Black art of Windows Game Programming | Eric R. Lyons | C/C++ WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
-| Building a 3D game engine in C++ | Brian Hook | C++ | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
+| Building a 3D game engine in C++ | Brian Hook (@HookTM) | C++ | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
+| Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
 | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
 | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 <img src="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
