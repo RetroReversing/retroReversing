@@ -73,6 +73,9 @@ PC Gamer | Long Running UK Magazine dedicated to PC Gaming, sometimes has game d
 PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
 Retro Gamer | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
 
+## EDGE Magazine
+The magazine **EDGE** is famous for hiring many of the engineers at Rare due to their advertisements (such as Dr Doak).
+
 ---
 ## PSi2 Magazine
 <section class="postSection">
@@ -438,6 +441,7 @@ Title | Notes
 ---|---
 PC Magazine | Occassionally had a few articles related to game development or programming
 
+
 ## PC Magazine (UK)
 PC magazine called itself "the independent guide to IBM-standard personal computing" and was available from April 1992 until it ceased publication in 2002.
 
@@ -445,6 +449,13 @@ Issue # | Title | Author | Notes
 ---|---|---|---
 VOL 13; NUMBER 21 (1994) | Power Programming: Real Games for Windows | Thielen, D | Not available online
 VOL 15; NUMBER 14 (1996) | Power Programming: Using Microsoft's high-speed Direct Draw API in an arcade-style action game | Grell, G. | 
+
+## PC Plus
+
+Issue # | Title | Author | Notes
+---|---|---|---
+ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN | 
+
 
 ---
 # References
