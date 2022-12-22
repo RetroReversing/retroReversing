@@ -146,8 +146,10 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 ---
 # Sound and Audio on the Game Boy
 
-## Game Boy Color Audio Chip
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I reverse-engineered the audio chip in the <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> Game Boy Color. It contains three power op-amps for the speaker and headphone channels. This 1998 chip is built from about 100 NPN and PNP transistors. Die photo from <a href="https://twitter.com/johndmcmaster?ref_src=twsrc%5Etfw">@johndmcmaster</a>. Article &amp; schematic:<a href="https://t.co/EhsVogAJPl">https://t.co/EhsVogAJPl</a> <a href="https://t.co/J6CYPsOdaz">pic.twitter.com/J6CYPsOdaz</a></p>&mdash; Ken Shirriff (@kenshirriff) <a href="https://twitter.com/kenshirriff/status/1256631240838361088?ref_src=twsrc%5Etfw">May 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+## Game Boy Color Audio Chip Reversing (AMP MGB)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I reverse-engineered the audio chip in the <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> Game Boy Color. It contains three power op-amps for the speaker and headphone channels. This 1998 chip is built from about 100 NPN and PNP transistors. Die photo from <a href="https://twitter.com/johndmcmaster?ref_src=twsrc%5Etfw">@johndmcmaster</a>. Article &amp; schematic:<a href="https://t.co/EhsVogAJPl">https://t.co/EhsVogAJPl</a> <a href="https://t.co/J6CYPsOdaz">pic.twitter.com/J6CYPsOdaz</a></p>&mdash; Ken Shirriff (@kenshirriff) <a href="https://twitter.com/kenshirriff/status/1256631240838361088?ref_src=twsrc%5Etfw">May 2, 2020</a></blockquote>
+
+If you are interested in low-level hardware details about the Game Boy then this is a must read article: [Reverse-engineering the audio amplifier chip in the Nintendo Game Boy Color](http://www.righto.com/2020/05/reverse-engineering-audio-chip-in.html)
 
 ## Synthic: Automatically generate gameboy music using machine learning
 This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
