@@ -312,6 +312,11 @@ The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^
 </div>
 </section>
 
+## MusiCart by Chip Level Designs
+The **MusiCart** was a custom made SNES cartridge that allowed audio engineers to test directly on SNES hardware. It came with a PCI card and an Inteface port to connect the cartridge to the PC card with a parallel cable.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here’s a cool find of the week! A Super Nintendo developer sound cart called the MusiCart. This kit would allow you to output music your developing from your PC to the SNES console. <a href="https://t.co/WSyamVMZOg">pic.twitter.com/WSyamVMZOg</a></p>&mdash; Andrew (@GamingLegend64) <a href="https://twitter.com/GamingLegend64/status/1261650654759514112?ref_src=twsrc%5Etfw">May 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 ---
 # References
 [^1]: [Take A Peek Behind The Curtain At Rare With This New Exhibit - Feature - Nintendo Life](http://www.nintendolife.com/news/2018/08/feature_take_a_peek_behind_the_curtain_at_rare_with_this_new_exhibit)
