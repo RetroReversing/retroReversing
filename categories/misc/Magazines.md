@@ -431,5 +431,20 @@ Issue # | Category | Author | Title
 Web Designer issue 101 also had a behind the scenes look at the website for **Myst IV Revelation** which was implemented in Flash MX 2004 and provided a game-like experience.
 
 ---
+# General PC Magazines
+There are many magazines related to the PC both past and present, however only a few of them have interesting articles about game development, the ones we know about are listed in the table below.
+
+Title | Notes
+---|---
+PC Magazine | Occassionally had a few articles related to game development or programming
+
+## PC Magazine (UK)
+PC magazine called itself "the independent guide to IBM-standard personal computing" and was available from April 1992 until it ceased publication in 2002.
+
+Issue # | Title | Author | Notes
+---|---|---|---
+VOL 13; NUMBER 21 (1994) | Power Programming: Real Games for Windows | Thielen, D | Not available online
+
+---
 # References
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
