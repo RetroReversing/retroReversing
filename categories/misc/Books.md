@@ -81,12 +81,21 @@ Title | Author | Software | Notes
 Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
 ---
+## Books First Published in 1986
+This section will cover books related to game development published in the year 1986.
+
+Title | Author | Software | Notes
+---|---|---|---
+The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+
+---
 ## Books First Published in 1990
 This section will cover books related to game development published in the year 1990.
 
 Title | Author | Software | Notes
 ---|---|---|---
 The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
+
 
 ---
 ## Books First Published in 1992
