@@ -75,6 +75,13 @@ Title | Author | Software | Notes
 ---|---|---|---
 Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
+---
+## Books First Published in 1990
+This section will cover books related to game development published in the year 1990.
+
+Title | Author | Software | Notes
+---|---|---|---
+The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
 
 ---
 ## Books First Published in 1992
@@ -82,6 +89,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
 Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
@@ -91,7 +99,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
-Programming games for beginners | Christopher A Howard | | 
+Programming games for beginners | Christopher A Howard | Visual Basic | 
 Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland c++ | 
 The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
 QBasic games and more! | Fred Sexton | QBasic | 
