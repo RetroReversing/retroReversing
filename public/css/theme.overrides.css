@@ -147,6 +147,18 @@ overflow: scroll;
   padding-bottom: 0px;
 }
 
+/* Non-datatable tables styling */
+.row table {
+  margin-bottom: 40px;
+  margin-left: 5%;
+  margin-top: 20px;
+  max-width: 95%
+}
+
+.row thead {
+  background-color: white;
+}
+
 .row p {
   padding: 5px;
   font-family: roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
