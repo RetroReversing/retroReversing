@@ -36,3 +36,5 @@ Hopefully this will be the start of more Virtual museums that showcase 3d models
 Sadly due to the pandemic and the move to online downloads many of the excellent Specialist Video Game Stores have closed down. Many of us who grew up with them have nostalgic memories of their rows and rows of brand new boxed video games for whatever the current Sega/Nintendo/Sony/Microsoft console was hot at the time.
 
 A VR experience to simulate a Video Game shop with customisable games/posters/shelves/magazines/consoles would be a pretty relaxing experience, probably not exactly a big seller but would have its niche.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Found some more images &amp; information on the Blockbuster Games concept; and it&#39;s companion store (in the next post), Blockbuster Music, in &#39;Stores of the Year 9&#39; (1995)<br><br>It was located in Jacksonville, FL; designed by Fitch Inc. in 1994. <a href="https://t.co/TtUyUAw9r7">pic.twitter.com/TtUyUAw9r7</a></p>&mdash; Evan Collins | BLM 🏳️‍🌈 (@EvanCollins90) <a href="https://twitter.com/EvanCollins90/status/1279262774145605632?ref_src=twsrc%5Etfw">July 4, 2020</a></blockquote>
