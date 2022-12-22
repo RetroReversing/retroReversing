@@ -444,6 +444,7 @@ PC magazine called itself "the independent guide to IBM-standard personal comput
 Issue # | Title | Author | Notes
 ---|---|---|---
 VOL 13; NUMBER 21 (1994) | Power Programming: Real Games for Windows | Thielen, D | Not available online
+VOL 15; NUMBER 14 (1996) | Power Programming: Using Microsoft's high-speed Direct Draw API in an arcade-style action game | Grell, G. | 
 
 ---
 # References
