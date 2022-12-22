@@ -62,7 +62,12 @@ The Gamecube game **Fight Night Round 2** has a playable version of the SNES gam
 
 The cool thing about this is that the emulator was written by **Icer Addis** who was the co-creator of one of the first ever NES emulators known as **NESticle**. An easter egg of sorts can be found when looking at the strings inside the executable, they called the SNES emulator for gamecube **SNESticle**!
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fight Night Round 2 on GameCube comes with an archived Super Punch-Out! ROM from Nintendo with the filename left as is. <a href="https://t.co/LlOztgYf5t">pic.twitter.com/LlOztgYf5t</a></p>&mdash; Yakumono (@LuigiBlood) <a href="https://twitter.com/LuigiBlood/status/1255577237052686341?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Not only that but a project was launched to try to get other SNES ROMS to work with the emulator known as the **The SNESticle Liberation Project** which consisted of a Multi-ROM menu SNES Rom and a Python script to inject ROMS and put everything together (**fn22snesticle.py).
+
+The devlog is a very good read and is available here: [Devlog - The SNESticle Liberation Project](https://dataswamp.org/~josk/snesticle/devlog/)
+
+This drew the attention of Icer who decided to release the full source code for **SNESticle** (PS2 & Dreamcast):
+[iaddis/SNESticle: SNESticle source code (circa ~2004)](https://github.com/iaddis/SNESticle)
 
 ---
 # Reverse Engineering
