@@ -51,6 +51,20 @@ Prototype games are ideal targets for reverse engineering as many of them contai
 {% include link-to-other-site.html url="https://hiddenpalace.org/Prototypes_by_system/Nintendo_GameCube" description="Hidden Palace has the most complete list of released Gamecube Prototypes and Demos, check it out here." title="List of Nintendo Gamecube Prototypes - Hidden Palace" image="/public/consoles/Nintendo Gamecube.png"  %}
 
 ---
+## Games with Emulators ON Gamecube
+A few Gamecube games have emulator code built into them either as bonus content (Animal Crossing, Fight Night Round 2) or as the main game (Sonic Mega Collection).
+
+Here is a list of known games that have emulators built in:
+* Fight Night Round 2 (uses an emulator called **SNESticle** to play Super Punch Out, ROM file is called SNS4Q0.471 on the Disc, same filename as seen in Nintendo Lot-Check Leaks)
+
+### Fight Night Round 2
+The Gamecube game **Fight Night Round 2** has a playable version of the SNES game **Super Punch Out** on the Disc called **SNS4Q0.471**. This file must have come from Nintendo as it matches the Nintendo Lot-check naming scheme that Nintendo uses internally.
+
+The cool thing about this is that the emulator was written by **Icer Addis** who was the co-creator of one of the first ever NES emulators known as **NESticle**. An easter egg of sorts can be found when looking at the strings inside the executable, they called the SNES emulator for gamecube **SNESticle**!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fight Night Round 2 on GameCube comes with an archived Super Punch-Out! ROM from Nintendo with the filename left as is. <a href="https://t.co/LlOztgYf5t">pic.twitter.com/LlOztgYf5t</a></p>&mdash; Yakumono (@LuigiBlood) <a href="https://twitter.com/LuigiBlood/status/1255577237052686341?ref_src=twsrc%5Etfw">April 29, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 # Reverse Engineering
 
 ## File Formats
