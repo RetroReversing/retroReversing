@@ -328,6 +328,7 @@ Cover | Title | Author | Software | Notes
 | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
 | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
 | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
+| Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
 | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
 | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
 
@@ -341,6 +342,12 @@ This section will cover:
 * Code the Classics - 2019
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
 * Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
+
+---
+# Game Programming Starter Kit
+The Game Programming Starter Kit was software that was released in 6 different versions by 2 different publishers (Sams and then McMillan). It was one of the best ways for new developers to learn game development with industry standard technologies. It is one of the few products that could almost guarantee to put students on the right path for the games industry.
+
+The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. Not only that but it contained the full retail version of Microsoft Visual C++ 1.0 along with the eBook version of Teach Yourself Visual C++ in 21 Days. It also claims to have a 2D DOS game engine on the CDs but we don't know much information about it.
 
 ---
 # References
