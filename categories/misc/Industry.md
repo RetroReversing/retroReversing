@@ -4,6 +4,7 @@ permalink: /industry
 console: industry
 redirect_from:
  - /documentary
+ - /documentaries
 breadcrumbs:
   - name: Home
     url: /
