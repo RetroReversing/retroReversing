@@ -16,8 +16,8 @@ breadcrumbs:
   - name:  Game Boy Advance Software Development Kit
     url: #
 recommend: 
-- sdk
 - gba
+- sdk
 editlink: /gba/GBASDK.md
 updatedAt: '2021-05-09'
 ---
