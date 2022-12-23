@@ -35,8 +35,17 @@ Some of the most note-worthy publishers for game development related books on th
 * Prima Tech [^2]
 * Sams.net
 * Waite Group Press [^1]
+* Wrox Press
 
 
+## Books First Published in 1978
+This section will cover books related to game development published in the year 1978.
+
+Title | Author | Software | Notes
+---|---|---|---
+Zilog Z80-CPU Technical Manual | Zilog | Assembly | 
+
+---
 ## Books First Published in 1979
 This section will cover books related to game development published in the year 1979.
 
@@ -44,6 +53,14 @@ Title | Author | Software | Notes
 ---|---|---|---
 6502 Assembly language programming | Lance A. Leventhal | | 
 Electronic games : design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
+
+---
+## Books First Published in 1981
+This section will cover books related to game development published in the year 1981.
+
+Title | Author | Software | Notes
+---|---|---|---
+Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
 
 ---
 ## Books First Published in 1982
@@ -60,6 +77,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
+Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
 ---
 ## Books First Published in 1984
@@ -70,6 +88,7 @@ Title | Author | Software | Notes
 Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
 Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
+Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
 The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
@@ -86,7 +105,36 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Programming in C on the Amstrad | Ian Sinclair | C Programming | 
+The C++ programming language | Bjarne Stroustrup | C++ Programming | 
 The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+
+---
+## Books First Published in 1987
+This section will cover books related to game development published in the year 1987.
+
+Title | Author | Software | Notes
+---|---|---|---
+Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+
+---
+## Books First Published in 1988
+This section will cover books related to game development published in the year 1988.
+
+Title | Author | Software | Notes
+---|---|---|---
+Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
+The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
+
+---
+## Books First Published in 1989
+This section will cover books related to game development published in the year 1989.
+
+Title | Author | Software | Notes
+---|---|---|---
+Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | DOS programming bible
+Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
+Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
 
 ---
 ## Books First Published in 1990
@@ -94,8 +142,20 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Graphics programming with Microsoft C and Microsoft Quick C | Kris Jamsa | Microsoft C | 
+Graphics programming in C: a comprehensive resource for every C programmer | Roger T. Stevens | CGA, EGA, and VGA | 
+High-resolution computer graphics using C | Ian O. Angell | C Programming | 
 The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
 
+---
+## Books First Published in 1991
+This section will cover books related to game development published in the year 1991.
+
+Title | Author | Software | Notes
+---|---|---|---
+Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
+Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
+The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
 
 ---
 ## Books First Published in 1992
@@ -104,6 +164,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
+Assembly language for the PC | Peter Norton | Assembly language | 
 Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
@@ -139,6 +200,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
+| Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
 | Black art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
 | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
