@@ -1,12 +1,10 @@
 ---
 layout: post
 tags: 
-- tutorial
+- introduction
 - pc
 - nes
-- memory
 - n64
-- gc
 title: Emulator Game Memory corruption
 thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/articles/Emulator Memory Corruption.jpg
@@ -15,14 +13,13 @@ permalink: /emulator-game-memory-corruption
 breadcrumbs:
   - name: Home
     url: /
-  - name: Techniques & Tutorials
-    url: /tutorials
+  - name: Introduction
+    url: /introduction
   - name: Emulator Game Memory corruption
     url: #
 recommend: 
-- tutorial
-- memory
-editlink: /articles/TechniquesAndTutorials/MemoryCorruption.md
+- introduction
+editlink: /articles/Introduction/MemoryCorruption.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/sIELpn4-Umw/hqdefault.jpg
