@@ -1,10 +1,7 @@
 ---
 layout: post
 tags: 
-- general
-- psygnosis
-- ocean
-- commodore64
+- industry
 - documentary
 title: Imagine and Ocean Software Documentary
 youtube: "Yt9BsZCifgU"
@@ -17,9 +14,10 @@ breadcrumbs:
     url: #
 thumbnail: /public/consoles/Commodore 64.png
 recommend: 
+- industry
 - documentary
-- general
-editlink: /general/ImagineOceanDocumentary.md
 
+editlink: /general/ImagineOceanDocumentary.md
 ---
+
 Former programmers went on to establish Psygnosis, known for the Psy-Q development SDKs.
