@@ -347,7 +347,33 @@ This section will cover:
 # Game Programming Starter Kit
 The Game Programming Starter Kit was software that was released in 6 different versions by 2 different publishers (Sams and then McMillan). It was one of the best ways for new developers to learn game development with industry standard technologies. It is one of the few products that could almost guarantee to put students on the right path for the games industry.
 
-The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. Not only that but it contained the full retail version of Microsoft Visual C++ 1.0 along with the eBook version of Teach Yourself Visual C++ in 21 Days. It also claims to have a 2D DOS game engine on the CDs but we don't know much information about it.
+## Version 1.0
+The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. Not only that but it contained the full retail version of Microsoft Visual C++ 1.0 along with the eBook version of Teach Yourself Visual C++ in 21 Days. 
+
+It also claims to have a full 2D DOS game engine on the CDs but we don't know much information about it.
+
+## Version 2.0
+The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severly lacking.
+
+## Version 3.0
+The Third version was released in 1999 by Macmillan Digital Publishing and consisted of 3 CDs and the full physical copy of **Game Design Secrets of the Sages**! 
+It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
+Genesis 3D did come with its own level editor which supported Direct3D and 3Dfx Glide drivers.
+
+This time it contained three ebooks on the Disks:
+* C++ Unleashed
+* Teach Yourself Visual C++ 6 in 21 Days
+* Using Visual C++ 6
+
+## Version 4.0
+The Fourth version was released in 2000 by Macmillan Digital Publishing and only consisted of 2 CDs this time. On thoses 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was upated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
+
+This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
+* Teach Yourself Visual C++ 6 in 21 Days
+* Teach Yourself DirectX 7 in 24 Hours
+
+
+The physical book that was included this time was the Second Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book pulished by **BradyGames**.
 
 ---
 # References
