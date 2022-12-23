@@ -32,15 +32,16 @@ This page is split into the following categories:
 This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
 
 Some of the most note-worthy publishers for game development related books on this list are:
-* Charles River Media
-* Premier Press
-* Prima Tech (later became Premier Press) [^2]
-* Sams.net
-* Waite Group Press [^1]
-* Wrox Press
+* **Charles River Media**
+* **Premier Press**
+* **Prima Tech** (later became Premier Press) [^2]
+* **Sams.net**
+* **Waite Group Press** [^1]
+* **Wrox Press**
 
 Some of the most prolific authors in the game development genre were:
-* **Jonathan S. Harbour** - Wrtoe over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
+* **Andre LaMothe** - Celebrated Author and became Editor for the entire Prima Tech/Premier Press Game Developmenr Book Series
+* **Jonathan S. Harbour** - Wrote over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
 
 
 ## Books First Published in 1978
@@ -197,7 +198,7 @@ QBasic games and more! | Fred Sexton | QBasic |
 ## Books First Published in 1994
 This section will cover books related to game development published in the year 1994 when C and Assembly language were king.
 
-In books it was the year of Andre LaMothe who published multiple books that would become must-read for MSDOS game programmers.
+In books it was the year of **Andre LaMothe** who published multiple books that would become must-read for MSDOS game programmers.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
@@ -296,7 +297,7 @@ Game Programming Gems | Mark A. DeLoura | C/C++ Programming |
 ## Books First Published in 2001
 This section will cover books related to game development published in the year 2001.
 
-This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers.
+This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers. They were so successful that in August 2001 [^4] they got bought and changed their name to **Premier Press** and thankfully continued to churn out book after book on game development!
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -317,18 +318,18 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 2002
 This section will cover books related to game development published in the year 2002.
 
-Some time in 2002 **Prisma Tech** became known as **Premier Press** and continued to churn out book after book on game development!
-
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+| AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
 | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
-| Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ DirectX | 
-| Game programming tricks of the trade | Lorenzo D. Phillips | | 
+| Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
+| Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
+| Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
 | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
 | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
 | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
-| Real-time rendering tricks and techniques in DirectX | Kelly Dempski | DirectX | 
-| Special effects Game Programming with DirectX | Mason McCuskey | DirectX | 
+| Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
+| Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
 
 
 ---
@@ -346,3 +347,4 @@ This section will cover:
 [^1]: [Waite Group Press Subject Room](https://web.archive.org/web/19980202235710fw_/http://www.waite.com/books/subject.html)
 [^2]: [prima-tech.com:](https://web.archive.org/web/20011007072554/http://www.prima-tech.com/books/)
 [^3]: [Source Codes – Jon Harbour](http://jharbour.com/sources/)
+[^4]: [Prima Tech Becomes Premier Press, Inc](https://web.archive.org/web/20011204164449/http://premierpressbooks.com/about.asp)
