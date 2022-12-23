@@ -15,7 +15,7 @@ recommend: industry
 # Life in The Games Industry
 Have you ever wondered what it was like to be a developer in the games industry in the 80s/90s/00s? This page will try to collect all the information we know about to help paint a picture of what it must have been like.
 
-## Life in Imagine & Ocean Software in 1984
+## Life in Imagine & Ocean Software in 1984 (The Battle for Santa’s Software)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChmQBK_EaUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Commercial Breaks** was a 30 minute documentary series in the UK about buisnesses and one episode in particular from 1984 is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean, only one remained at the end of the show!
 
@@ -26,6 +26,8 @@ The documentary starts with Imagine Software looking great and antisipating the 
 Fortunetly former programmers at Imagine Software went on to establish **Psygnosis**, known for the Psy-Q development SDKs.
 
 On the other side was **Ocean Software** and David Ward who managed to survive the time it took to film the documentary and showed off some of their upcoming games for the festive period.
+
+You can find more information about this documentary over on **VHiStory**: [Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 | VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
 
 ---
 # Game Industry Materials
