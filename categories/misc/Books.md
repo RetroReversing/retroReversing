@@ -32,10 +32,14 @@ This page is split into the following categories:
 This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
 
 Some of the most note-worthy publishers for game development related books on this list are:
+* Charles River Media
 * Prima Tech [^2]
 * Sams.net
 * Waite Group Press [^1]
 * Wrox Press
+
+Some of the most prolific authors in the game development genre were:
+* **Jonathan S. Harbour** - Wrtoe over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
 
 
 ## Books First Published in 1978
@@ -61,6 +65,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
+The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
 ## Books First Published in 1982
@@ -86,6 +91,7 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
+Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
 Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
 Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
@@ -97,7 +103,10 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+48K Spectrum and Spectrum+ : Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
+Assembly language programming on the BBC and Acorn Electron | R B Coats | 
 Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
+
 
 ---
 ## Books First Published in 1986
@@ -105,9 +114,11 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
 Programming in C on the Amstrad | Ian Sinclair | C Programming | 
 The C++ programming language | Bjarne Stroustrup | C++ Programming | 
 The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+
 
 ---
 ## Books First Published in 1987
@@ -156,6 +167,8 @@ Title | Author | Software | Notes
 Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
 Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
 The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
+マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
+マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
 
 ---
 ## Books First Published in 1992
@@ -189,6 +202,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---
 | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
+| PC game programming explorer | Dave Roberts | C Programming for VGA | 
 | Sound Blaster the Official Book | | Sound Blaster | 
 | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
 | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
@@ -276,7 +290,28 @@ This year **Prima Tech** released tons of very specialised game development book
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
+Game design: the art & business of creating games | Bob Bates | Game Design | 
+Game Programming Gems 2 | Mark Deloura | C++ | 
 Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
+Java 2 game programming | Thomas Petchel | Java | 
+Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
+Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
+Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
+OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
+Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
+Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
+The zen of Direct3D game programming | Peter Walsh | Direct3D | 
+
+---
+## Books First Published in 2002
+This section will cover books related to game development published in the year 2002.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ DirectX | 
+Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
+Palm OS game programming | Nicholas Pleis | | 
 
 
 ---
@@ -293,3 +328,4 @@ This section will cover:
 # References
 [^1]: [Waite Group Press Subject Room](https://web.archive.org/web/19980202235710fw_/http://www.waite.com/books/subject.html)
 [^2]: [prima-tech.com:](https://web.archive.org/web/20011007072554/http://www.prima-tech.com/books/)
+[^3]: [Source Codes – Jon Harbour](http://jharbour.com/sources/)
