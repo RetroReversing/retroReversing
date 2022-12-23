@@ -1,28 +1,23 @@
 ---
 layout: post
 tags:
-- nes
-- snes
-- n64
-- gc
-- wii
-title: Nintendo Seal of Approval
-published: true
+- industry
+title: Indie Game Development
 thumbnail: /public/consoles/Nintendo 64.png
 image: /public/kCxNlbEqQBTmGsgDrzeh4w_img_0.png
-permalink: /nintendo-seal-of-approval/
+permalink: /indie
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo 64
-    url: /n64
-  - name: Nintendo Seal of Approval
+  - name: Industry
+    url: /industry
+  - name: Console Indie Game Development
     url: #
-recommend: n64
-source-id: 1GmYqqCbZu9liFZUhM6ASzJ6fA5ILUnN4ClmELoAe3Ak
-published: true
+recommend: industry
+editlink: ./industry/IndieDevelopment.md
 ---
-# Why Nintendo doesn't like 3rd party developers!
+
+# Why Nintendo doesn't like 3rd party developers?
 
 In 1986 the year in which many believed the video games industry was finished due to the Atari collapse (google for the ET situation..). Nintendo were doing well in Japan but they were worried about the collapsed video game market in the USA. They wanted to release their Famicom system in the US but due to what had just happened to Atari they were of course cautious. 
 
