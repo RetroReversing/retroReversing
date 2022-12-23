@@ -20,4 +20,8 @@ recommend:
 editlink: /general/ImagineOceanDocumentary.md
 ---
 
+
+
+**Commercial Breaks** was a 30 minute documentary series in the UK about buisnesses and one episode in particular is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean.
+
 Former programmers went on to establish Psygnosis, known for the Psy-Q development SDKs.
