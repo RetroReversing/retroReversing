@@ -2,10 +2,7 @@
 layout: post
 tags: 
 - introduction
-- tutorial
-- learningpath
 - ghidra
-- decompiling
 title: Introduction to Decompiling C++ with Ghidra
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/4v8WkHmSFUU/sddefault.jpg
@@ -17,9 +14,10 @@ breadcrumbs:
     url: /ghidra
   - name: Introduction to Decompiling C++ with Ghidra
     url: #
+redirect_from:
+ - /ghidra
 recommend: 
-- tutorial
-- tutorials
+- introduction
 - ghidra
 editlink: /articles/Ghidra/GhidraDecompilingIntroduction.md
 youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
