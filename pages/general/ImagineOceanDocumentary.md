@@ -22,6 +22,14 @@ editlink: /general/ImagineOceanDocumentary.md
 
 
 
-**Commercial Breaks** was a 30 minute documentary series in the UK about buisnesses and one episode in particular is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean.
+**Commercial Breaks** was a 30 minute documentary series in the UK about buisnesses and one episode in particular from 1984 is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean.
+
+Mark Butler was 23 when the documentary was filmed and it shows his extravegent lifestyle with his fast cars and sponsored motrobike teams.
+* 70 people working for them in May 1984
+* John Gibson only programmer over 30
+
+---
+Ocean Software David Ward
+Jonathan Smith Put Put £1000 and a job at Ocean.
 
 Former programmers went on to establish Psygnosis, known for the Psy-Q development SDKs.
