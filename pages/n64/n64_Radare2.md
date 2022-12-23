@@ -16,7 +16,7 @@ breadcrumbs:
     url: /n64
   - name: N64 Rom Analysis with Radare2
     url: #
-recommend: ps1
+recommend: n64
 editlink: /n64/n64_Radare2.md
 updatedAt: '2019-11-20'
 ---
