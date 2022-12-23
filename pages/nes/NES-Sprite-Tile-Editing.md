@@ -4,7 +4,6 @@ permalink: /nes-sprite-tile-editing/
 tags:
 - nes
 - gameboy
-source-id: 1vqXVCGLppP3JXa24JZjmxQ21pmxrLN-dQSbwqh1SlAg
 layout: post
 youtube: "iMACSQjyRDs"
 image: /public/QkyxcBhunP1JpTNuoeDIMw_img_0.png
@@ -16,7 +15,8 @@ breadcrumbs:
     url: /nes
   - name: NES Sprite Tile Editing
     url: #
-recommend: gameboy
+recommend: nes
+editlink: ./nes/NES-Sprite-Tile-Editing.md
 ---
 # NES Sprite Tile editing with Tile Layer Pro
 
