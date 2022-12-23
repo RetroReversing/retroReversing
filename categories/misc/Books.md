@@ -33,7 +33,8 @@ This section will cover books available at the time when retro games were being 
 
 Some of the most note-worthy publishers for game development related books on this list are:
 * Charles River Media
-* Prima Tech [^2]
+* Premier Press
+* Prima Tech (later became Premier Press) [^2]
 * Sams.net
 * Waite Group Press [^1]
 * Wrox Press
@@ -202,6 +203,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---
 | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
+| Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
 | PC game programming explorer | Dave Roberts | C Programming for VGA | 
 | Sound Blaster the Official Book | | Sound Blaster | 
 | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
@@ -259,11 +261,19 @@ Developing Java entertainment applets | John Withers | Java |
 OpenGL Reference Manual | | OpenGL API | 
 
 ---
+## Books First Published in 1998
+This section will cover books related to game development published in the year 1998.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img src="/public/images/books/VisualC++6StarterKit.jpg" /> | Visual C++ Programming Starter Kit | Macmillan Software | Visual C++ | 
+
+---
 ## Books First Published in 1999
 This section will cover books related to game development published in the year 1999
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
  | AI for computer games and animation : a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
@@ -290,28 +300,35 @@ This year **Prima Tech** released tons of very specialised game development book
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
-Game design: the art & business of creating games | Bob Bates | Game Design | 
-Game Programming Gems 2 | Mark Deloura | C++ | 
-Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
-Java 2 game programming | Thomas Petchel | Java | 
-Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
-Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
-Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
-OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
-Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
-Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
-The zen of Direct3D game programming | Peter Walsh | Direct3D | 
+ | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
+ | Game design: the art & business of creating games | Bob Bates | Game Design | 
+ | Game Programming Gems 2 | Mark Deloura | C++ | 
+ | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
+ | Java 2 game programming | Thomas Petchel | Java | 
+ | Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
+ | Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
+ | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
+ | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
+ | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
+ | Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
+ | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
 
 ---
 ## Books First Published in 2002
 This section will cover books related to game development published in the year 2002.
 
+Some time in 2002 **Prisma Tech** became known as **Premier Press** and continued to churn out book after book on game development!
+
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ DirectX | 
-Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
-Palm OS game programming | Nicholas Pleis | | 
+| Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
+| Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ DirectX | 
+| Game programming tricks of the trade | Lorenzo D. Phillips | | 
+| Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
+| Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
+| Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
+| Real-time rendering tricks and techniques in DirectX | Kelly Dempski | DirectX | 
+| Special effects Game Programming with DirectX | Mason McCuskey | DirectX | 
 
 
 ---
