@@ -366,14 +366,22 @@ This time it contained three ebooks on the Disks:
 * Using Visual C++ 6
 
 ## Version 4.0
-The Fourth version was released in 2000 by Macmillan Digital Publishing and only consisted of 2 CDs this time. On thoses 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was upated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
+The Fourth version was released in 2000 by **Macmillan Software** and only consisted of 2 CDs this time. On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was upated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
 
 This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
 * Teach Yourself Visual C++ 6 in 21 Days
 * Teach Yourself DirectX 7 in 24 Hours
 
 
-The physical book that was included this time was the Second Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book pulished by **BradyGames**.
+The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book pulished by **BradyGames**.
+
+## Version 5.0
+The Fifth version was released in 2001 by **Pearson Software** but we don't currently know what was on the CDs. We can presume it has Version 8 of DirectX and most likely the same Introductory Edition of Visual C++ 6.0 as the previous versions.
+
+We know that one of the eBooks included on the CDs was:
+* Tricks of the Windows Game Programming Gurus
+
+We do know however that the physical book that was included this time was the **Third** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman**. This books seems to be rather rare as I have never seen it for sale outside of this bundle.
 
 ---
 # References
