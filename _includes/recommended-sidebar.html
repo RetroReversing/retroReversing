@@ -16,9 +16,9 @@
                   <div class="widget-img">
                     <a href="{{ post.permalink }}" target="_blank">
                       {% if post.image %}
-                        <img src="{{ post.image }}" alt="">
+                        <img class="lazy-load" data-image="{{ post.image }}" alt="">
                       {% else if post.youtube %}
-                        <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                        <img class="lazy-load" data-image="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                       {% endif %}
                     </a>
                     <span>{{ recommend }}</span>
