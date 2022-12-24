@@ -37,6 +37,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Prima Tech** (later became Premier Press) [^2]
 * **Sams.net**
 * **Waite Group Press** [^1]
+* **Wordware Game Developer's Library**
 * **Wrox Press**
 
 Some of the most prolific authors in the game development genre were:
@@ -320,18 +321,31 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-| AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
-| Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
-| Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
-| Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
+ | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
+ | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
+ | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
+ | Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img src="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
-| Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
-| Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
-| Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
-| Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
-| Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
-| Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
+ | Mac Game Programming | Mark Szymczyk | C++ and QuickDraw | 
+ | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
+ | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
+ | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
+ | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
+ | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
+ | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
 
+
+---
+## Books First Published in 2002
+This section will cover books related to game development published in the year 2002.
+
+The year 2002 started to see a lot more game development books focussed on non-programming related topics such as production and Buisness.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+| The Indie game development survival guide | David Michael | | 
+| Game development and production | Erik Bethke | Project Management | 
+| Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
 
 ---
 
