@@ -344,6 +344,7 @@ Cover | Title | Author | Software | Notes
  | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
  | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
+ | Focus on photon mapping | Marlon John | C++ | 
  | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
  | Mac Game Programming | Mark Szymczyk | C++ and QuickDraw | 
@@ -359,14 +360,44 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 2003
 This section will cover books related to game development published in the year 2003.
 
-In the year 2003 started to see a lot more game development books focussed on non-programming related topics such as production and Buisness.
+In the year 2003 started to see a lot more game development books focussed on non-programming related topics such as production and Business.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-| The Indie game development survival guide | David Michael | | 
+<img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
+| Focus on curves and surfaces | Kelly Dempski | C++ | 
+| The Indie game development survival guide | David Michael | Soft Skills | 
 | Game development and production | Erik Bethke | Project Management | 
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
+| Postmortems from Game developer | Austin Grossman | | 
+<img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
+| Secrets of the Game Business | François Dominic Laramée | Soft Skills | 
 | Wireless game development in C/C++ with BREW | Ralph Barbagallo | C/C++ and BREW | 
+
+
+---
+## Books First Published in 2004
+This section will cover books related to game development published in the year 2004.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
+Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
+Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
+Mobile device game development | Clayton E. Crooks II | | 
+Object-oriented game development | Julian Gold | | 
+OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
+Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
+
+---
+## Books First Published in 2005
+This section will cover books related to game development published in the year 2005.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+OpenGL Game Development | Chris Seddon | | 
 
 ---
 
