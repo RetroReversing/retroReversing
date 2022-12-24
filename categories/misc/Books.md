@@ -284,16 +284,33 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Books First Published in 2000
-This section will cover books related to game development published in the year 2000
+This section will cover books related to game development published in the year 2000.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
+3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
 Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
 Developer's guide to computer game design | John Scott Lewinski | Game Design | 
 Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
 Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
+
+### 3D Games: Real-time Rendering and Software Technology
+There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter. 
+
+The book is split up into 6 sections each with their own chapters:
+* **Modeling and foundation maths** - This section deals with the basic mathematics required to handle objects in three-dimensional space and the theory of object representation.
+* **Classical 3D graphics** - Although much of the material in this section has migrated onto hardware, it is still necessary to have an appreciation of what
+the hardware does to be able to use it effectively.
+* **Real-time rendering** - This section deals with the technology developed by the games industry and the virtual reality industry which enables complex scenes to be rendered, to a reasonably high quality, in real time on a low-cost graphics processor.
+* **Control of objects** - Mainstream techniques used to control the movement of objects are described in this section. This ranges from simple low-level control through to behavioural animation using Al technology. Thematerial on Al is in the form of a debate concerning the potential use of the technology in the future.
+* **2D technology** - A potentially important solution to the complexity problem in 3D graphics, in terms of both the creation cost and the rendering cost, is the use of image-based rendering techniques.
+* **Software technology** - This section deals with the techniques needed to write a multi-player game using the currently popular first-person shooter genre as an example. We examine the software architecture of a games engine and look at the design of the engine. Finally a comprehensive reference manual for the engine is given.
+
+Although part of the book is taken up by the Fly3D SDK reference which was also on the CD (pages 617-749), this might have been useful as a physical reference in the past but not useful nowadays. 
+
+The Appendices have some tutorials for how to use the FlySDK including building levels with 3D Studio Max and exporting to the BSP format used by the engine. These appendices end with you having a controllable 3D model space ship driving around a map, they are the easiest to understand and the most enjoyable section of the book.
 
 ---
 ## Books First Published in 2001
