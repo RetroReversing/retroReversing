@@ -58,16 +58,16 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 6502 Assembly language programming | Lance A. Leventhal | | 
-Electronic games : design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
+Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
 ## Books First Published in 1981
 This section will cover books related to game development published in the year 1981.
 
-Title | Author | Software | Notes
----|---|---|---
-Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
-The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img src="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
+ | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
 ## Books First Published in 1982
@@ -105,7 +105,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
-48K Spectrum and Spectrum+ : Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
+48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
 Assembly language programming on the BBC and Acorn Electron | R B Coats | 
 Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
@@ -114,12 +114,12 @@ Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macint
 ## Books First Published in 1986
 This section will cover books related to game development published in the year 1986.
 
-Title | Author | Software | Notes
----|---|---|---
-68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
-Programming in C on the Amstrad | Ian Sinclair | C Programming | 
-The C++ programming language | Bjarne Stroustrup | C++ Programming | 
-The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+ | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
+<img src="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
+ | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
+ | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
 
 
 ---
@@ -304,12 +304,12 @@ Cover | Title | Author | Software | Notes
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
  | Game design: the art & business of creating games | Bob Bates | Game Design | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
- | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
+ <img src="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
  | Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
  | Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
- | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
- | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
+<img src="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
+<img src="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
  | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
  | Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
  | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
@@ -324,7 +324,7 @@ Cover | Title | Author | Software | Notes
 | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
 | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
 | Game programming all in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
-| Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
+<img src="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
 | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
 | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
 | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
