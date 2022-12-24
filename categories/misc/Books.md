@@ -382,12 +382,24 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+3D game engine programming | Stefan Zerbst with Oliver Düvel | | 
+Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | Rod Afshar, Duke Banerjee, Clifford Jones | | 
 AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
 Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
+Character development and storytelling for games | Lee Sheldon | | 
+Game development essentials: An Introduction | Jeannie Novak | | 
+Game development with Lua | Paul Schuytema, Mark Manyen | | 
+Game programming with Python | Sean Riley | Python | 
+Introduction to game development | Steve Rabin | | 
 Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
+Massively multiplayer game development 2 | Thor Alexander | | 
 Mobile device game development | Clayton E. Crooks II | | 
 Object-oriented game development | Julian Gold | | 
 OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
+Physics modeling for game programmers | David Conger | | 
+Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
+Programming believable characters for computer games | Penny Ballie-De Byl | | 
+The animator's motion capture guide : organizing, managing, and editing | Matthew Liverman | | 
 Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
@@ -397,7 +409,28 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-OpenGL Game Development | Chris Seddon | | 
+Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
+Cross-platform game programming | Steven Goodwin | | 
+Director MX 2004 games: game development with Director | Nik Lever | | 
+Game art: creation, direction, and careers | Riccard Linde | | 
+Game development essentials: video game art | Todd Gantzler | | 
+Game level design | Ed Byrne | | 
+Implementing a digital asset management system: for animation, computer games, and web development | Jens Jacobsen, Tilman Schlenker, and Lisa Edwards | | 
+OpenGL Game Development | Chris Seddon | OpenGL | 
+Patterns in game design | Staffan Bjork, Jussi Holopainen | | 
+Real-time cinematography for games | Brian Hawkins | | 
+Secrets of the game business | François Dominic Laramée | | 
+The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
+The game localization handbook | Heather Maxwell Chandler | | 
+
+---
+## Books First Published in 2006
+This section will cover books related to game development published in the year 2006.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
 ---
 
