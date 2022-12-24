@@ -280,7 +280,7 @@ Cover | Title | Author | Software | Notes
  | Computer Graphics & Geometric Modeling | | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
  | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
-<img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
+<img class="lazy-load" data-image-full="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
 ---
 ## Books First Published in 2000
@@ -321,14 +321,15 @@ This year **Prima Tech** released tons of very specialised game development book
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
+<img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
- <img src="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
+ <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
  | Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
  | Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
-<img src="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
-<img src="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
+<img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
+<img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
  | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
  | Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
  | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
@@ -365,6 +366,7 @@ Cover | Title | Author | Software | Notes
 | The Indie game development survival guide | David Michael | | 
 | Game development and production | Erik Bethke | Project Management | 
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
+| Wireless game development in C/C++ with BREW | Ralph Barbagallo | C/C++ and BREW | 
 
 ---
 
