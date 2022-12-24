@@ -321,6 +321,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+ | 2D Artwork and 3D Modeling for Game Artists | David Franson | 3DStudio Max and trueSpace  | 
  | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
  | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
