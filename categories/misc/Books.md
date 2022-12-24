@@ -279,6 +279,7 @@ Cover | Title | Author | Software | Notes
  | AI for computer games and animation : a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
+ | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
 <img src="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
 ---
