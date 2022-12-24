@@ -33,8 +33,8 @@ This section will cover books available at the time when retro games were being 
 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media**
-* **Premier Press**
-* **Prima Tech** (later became Premier Press) [^2]
+* **Premier Press** (Later became Thomson Course Technology PTR in October 2003 [^6])
+* **Prima Tech** (Later became Premier Press) [^2]
 * **Sams.net**
 * **Waite Group Press** [^1]
 * **Wordware Game Developer's Library**
@@ -415,3 +415,4 @@ Did it include a **Fourth** edition of **Game Design Secrets of the Sages**? Who
 [^3]: [Source Codes – Jon Harbour](http://jharbour.com/sources/)
 [^4]: [Prima Tech Becomes Premier Press, Inc](https://web.archive.org/web/20011204164449/http://premierpressbooks.com/about.asp)
 [^5]: [Game Programming Starter 5.0](https://www.gamedeveloper.com/pc/macmillan-software-releases-game-programming-starter-kit-5-0)
+[^6]: [Course PTR - Welcome!](https://web.archive.org/web/20031112011902/http://premierpressbooks.com/pressroom/ptr_launch.cfm)
