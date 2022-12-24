@@ -378,6 +378,8 @@ The physical book that was included this time was the **Second** Edition of **Ga
 ## Version 5.0
 The Fifth version was released in 2001 by **Pearson Software** but we don't currently know what was on the CDs. We can presume it has Version 8 of DirectX and most likely the same Introductory Edition of Visual C++ 6.0 as the previous versions.
 
+It also may have included software called **3D GameStudio Standard** version 5.12 but this is only confirmed by one source [^5].
+
 We know that one of the eBooks included on the CDs was:
 * Tricks of the Windows Game Programming Gurus
 
@@ -389,3 +391,4 @@ We do know however that the physical book that was included this time was the **
 [^2]: [prima-tech.com:](https://web.archive.org/web/20011007072554/http://www.prima-tech.com/books/)
 [^3]: [Source Codes – Jon Harbour](http://jharbour.com/sources/)
 [^4]: [Prima Tech Becomes Premier Press, Inc](https://web.archive.org/web/20011204164449/http://premierpressbooks.com/about.asp)
+[^5]: [Game Programming Starter 5.0](https://www.gamedeveloper.com/pc/macmillan-software-releases-game-programming-starter-kit-5-0)
