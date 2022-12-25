@@ -73,7 +73,7 @@ There were 10 volumes published from 2011 until 2021.
 
 Game | Platform | Issue # | Notes
 ---|---|---|---
-MDK | | 9 | 
+MDK | DOS, Windows and PS1 | 9 | 
 Icewind Dale | | 9 | 
 System Shock 2 | | 9 | 
 Duke Nukem 64 | | 9 | 
