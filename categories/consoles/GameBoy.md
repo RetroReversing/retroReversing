@@ -151,8 +151,12 @@ The Game Boy game **Alien 3** was written in only 5 weeks by legendary game prog
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Gameboy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
 
 ## R-Type
-One cool easter egg in the Game Boy game R-Type added by **Jas Austin** was an implementation of John Conway’s game of Life!
+The Game Boy classic **R-Type** was programmed by **Jas Austin** completely from Memory as he didn't have any code or assets from any other version of the game!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I agree, it&#39;s amazing some of the lengths we have to go to when we didn&#39;t have code or assets. For R-Type I did most of it from memory after visits to the Trocadero in London. And I didn&#39;t live in London.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1251581149643780097?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote>
+
+One cool easter egg he added to the game was an implementation of John Conway’s game of Life!
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway’s game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
+
 
 ---
 # Sound and Audio on the Game Boy
