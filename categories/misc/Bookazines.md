@@ -89,6 +89,7 @@ This may have got the meeting off to a rough start but in the end SEGA got **Joh
 
 Name | Company | Issue | Notes
 ---|---|---|---
+Steve Turner | Graftgold co-founder | 1 | Apparently SEGA systems used the same assemblers as the Amiga?! Maybe custom devkit?
 Tom Kalinske | CEO SEGA of America | 9 | 
 Jas Austin | | 9 | 
 Ninh Le | | 9 | 
