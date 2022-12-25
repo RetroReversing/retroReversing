@@ -69,6 +69,32 @@ The UK Magazine **GamesTM** had a section dedicated to retro games every month, 
 
 There were 10 volumes published from 2011 until 2021.
 
+### Behind The Scenes
+
+Game | Platform | Issue # | Notes
+---|---|---|---
+MDK | | 9 | 
+Icewind Dale | | 9 | 
+System Shock 2 | | 9 | 
+Duke Nukem 64 | | 9 | 
+Star Trek Voyager Elite Force | | 9 | 
+Ghostbusters 2 | | 9 | 
+
+### Interviews
+
+One of the most interesting interviews is with former SEGA of America CEO **Tom Kalinske** who was in charge when EA reverse-engineered the Sega Mega Drive. He was furious and famously said: 
+> "Trip [Hawkins], didn't your mother ever teach you the difference between right and wrong?"
+
+This may have got the meeting off to a rough start but in the end SEGA got **John Madden football** and EA got favoured licensing rights.
+
+Name | Company | Issue | Notes
+---|---|---|---
+Tom Kalinske | CEO SEGA of America | 9 | 
+Jas Austin | | 9 | 
+Ninh Le | | 9 | 
+Dave Grossman | | 9 | 
+Stuart Copeland | | 9 | 
+
 ---
 # Digital Art Bookazines
 
