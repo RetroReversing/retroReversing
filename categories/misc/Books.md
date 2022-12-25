@@ -9,7 +9,7 @@ breadcrumbs:
     url: /
 redirect_from:
   - /book
-editlink: ../categories/misc/Book.md
+editlink: ../categories/misc/Books.md
 recommend: industry
 image_: /public/images/categories/Games Industry Books.jpg
 twitterimage_: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
@@ -441,6 +441,9 @@ This section will cover:
 * Code the Classics - 2019
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
 * Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
+* The Making of Prince of Persia - 2020
+* The Making of Karateka - 2012
+* You: A Novel - 2012 (Fiction)
 
 ---
 # Game Programming Starter Kit
