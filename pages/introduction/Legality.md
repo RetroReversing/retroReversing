@@ -63,3 +63,16 @@ One way to make the work more transformative is to write it in a higher level la
 
 # Dirty Room Reversing
 The least legally sound method of reverse engineering (but arguably the most impressive) are reversing projects that have re-written the assembly into the original high-level language that the game was written in and are able to compile an almost byte-identical executable from it.
+
+---
+# History of Reverse engineering in the Games Industry
+Reverse engineering is nothing new in the games industry and can go all the way back to the first Arcade games, with developers trying to figure out how their competitors managed to pull off the seemingly impossible in their new games.
+
+## SEGA vs EA
+
+Former SEGA of America CEO **Tom Kalinske** was in charge when EA reverse-engineered the Sega Mega Drive. He was furious and famously said: 
+> "Trip [Hawkins], didn't your mother ever teach you the difference between right and wrong?"
+
+This may have got the meeting off to a rough start but in the end SEGA got **John Madden football** and EA got favoured licensing rights.
+
+So reverse engineering the Sega Mega Drive certainly brought benefits to both EA and SEGA at the time!
