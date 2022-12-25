@@ -51,6 +51,7 @@ Title | Publisher | Notes
 100 Games to Play before you Die | Future Publishing | Articles from Retro Gamer magazine
 Ninteno Archives | Future Publishing | 
 Retro Gamer Collection | Future Publishing | At least 7 Volumes
+Retro Micro Games Action |  Future Publishing | At least 10 Volumes from GamesTM Retro sections
 SEGA Archives | Future Publishing | 
 SNES The Complete Manual | Future Publishing | 
 The Atari Book | Future Publishing | At least 2 editions available, Articles from Retro Gamer magazine
