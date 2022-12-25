@@ -136,12 +136,23 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 <iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
 
 ---
-# Source Code
+# Game Boy Source Code
 
 ## Mr Do! For Original Game Boy
 The source code for the Game Boy classic `Mr Do!` has been kindly released by two of the original game developers and can provide an excellent reference for how retail Game Boy games were developed in 1990!
 
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
+
+---
+# Game Boy Games
+
+## Alien 3
+The Game Boy game **Alien 3** was written in only 5 weeks by legendary game programmer **Jas Austin**:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Gameboy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
+
+## R-Type
+One cool easter egg in the Game Boy game R-Type added by **Jas Austin** was an implementation of John Conway’s game of Life!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway’s game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
 
 ---
 # Sound and Audio on the Game Boy
@@ -164,7 +175,7 @@ There are a few different file formats that you will find relating to the GameBo
 
 If you backup your own games they will be created with a **.GB** or **.GBC** file extension along with most of the ROMS that can be found online. If the ROM was leaked from a first party developer such as Nintendo then they will likely be in **.ISX** format, this can easily be converted to **.GBC** with the tool **CVTISX** included in the Official GameBoy SDK.
 
-The emulator SameBoy recently added support to play ISX files due to the **2020 Nintendo Leaks**:
+The emulator **SameBoy** recently added support to play ISX files due to the **2020 Nintendo Leaks**:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 
 
