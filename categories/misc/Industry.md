@@ -29,6 +29,13 @@ On the other side was **Ocean Software** and David Ward who managed to survive t
 
 You can find more information about this documentary over on **VHiStory**: [Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 | VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
 
+## How did game programmers find work?
+Many Game Boy developers worked freelance and were contracted out by companies to work on a title with a harsh deadline of a couple of months or sometimes even just weeks! Others were hired full-time by companies and would work on a constant stream of new games.
+
+**Jas Austin** was one of the developers who started off freelance on the Game Boy version of **R-Type** but did such a good job that he accepted a full time job a **B.I.T.S** [^1].
+
+He heard about the job through his agent which was a common way for game programmers to find work in the late 80s to early 90s. But by the 2000s games had grown so much that they would require whole teams of developers and hiring freelances who worked from home became rarer.
+
 ---
 # Game Industry Materials
 
@@ -47,6 +54,10 @@ We have an entire page dedicated to just Bookazines related to game developement
 
 ## Books
 {% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
+
+---
+# References
+[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 
 ---
 # All Posts
