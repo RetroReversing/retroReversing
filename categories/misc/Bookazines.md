@@ -51,7 +51,7 @@ Title | Publisher | Notes
 100 Games to Play before you Die | Future Publishing | Articles from Retro Gamer magazine
 Ninteno Archives | Future Publishing | 
 Retro Gamer Collection | Future Publishing | At least 7 Volumes
-Retro Micro Games Action |  Future Publishing | At least 10 Volumes from GamesTM Retro sections
+Retro Micro Games Action | Imagine Publishing, Future Publishing | At least 10 Volumes from GamesTM Retro sections
 SEGA Archives | Future Publishing | 
 SNES The Complete Manual | Future Publishing | 
 The Atari Book | Future Publishing | At least 2 editions available, Articles from Retro Gamer magazine
@@ -62,6 +62,12 @@ The Playstation Book | Future Publishing |
 The Ultimate Guide to indie Games | Future Publishing | Contains articles from PC Gamer Magazine
 The ZX Spectrum Book | Future Publishing | Articles from Retro Gamer magazine
 Videogames Hardware Handbook | Future Publishing | Articles from Retro Gamer magazine
+
+
+## Retro Micro Games Action
+The UK Magazine **GamesTM** had a section dedicated to retro games every month, while it was only a small part of the magazine it had a wealth of interesting information, especially interesting for the topic of this site is the interviews with developers. While its sister magazine Retro Gamer focussed on much earlier retro gaming, the Retro section of GamesTM would go all the way up to PS2 and even PS3!
+
+There were 10 volumes published from 2011 until 2021.
 
 ---
 # Digital Art Bookazines
