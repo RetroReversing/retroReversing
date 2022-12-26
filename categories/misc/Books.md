@@ -343,6 +343,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | 2D Artwork and 3D Modeling for Game Artists | David Franson | 3DStudio Max and trueSpace  | 
  | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
+ | Direct3D ShaderX: Vertex and Pixel Shader Tips and Tricks | Wolfgang Engel | DirectX | 
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
  | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
  | Focus on photon mapping | Marlon John | C++ | 
