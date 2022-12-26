@@ -362,6 +362,7 @@ Cover | Title | Author | Software | Notes
  | 3D Math Primer for Graphics and Game Development | Fletcher Dunn | | 
  | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
  | Direct3D ShaderX: Vertex and Pixel Shader Tips and Tricks | Wolfgang Engel | DirectX | 
+ | ShaderX2: Introduction and tutorials with DirectX 9.0 | Wolfgang Engel | DirectX 9.0 | 
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
  | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
  | Focus on photon mapping | Marlon John | C++ | 
@@ -376,6 +377,7 @@ Cover | Title | Author | Software | Notes
  | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
  | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
  | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
+ | Vector Game Math Processors |  James Leiterman | | 
 
 
 ---
@@ -386,19 +388,24 @@ In the year 2003 started to see a lot more game development books focussed on no
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+| Advanced 3D Game Programming with DirectX 9.0 | Peter Walsh | DirectX 9.0 | 
 <img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
 | DirectX 9 Audio Exposed | Todd Fay  | Direct X 9.0 | 
 | Essential Lightwave 3D 7.5 | Timothy Albee | Lightwave 3D 7.5 | 
 | Focus on curves and surfaces | Kelly Dempski | C++ | 
+| Introduction to 3D Game Programming with DirectX 9.0 | Frank D. Luna | DirectX 9.0 | 
 | The Indie game development survival guide | David Michael | Soft Skills | 
 | Game Design Foundations | Roger E. Pedersen | | 
 | Game development and production | Erik Bethke | Project Management | 
+| Games That Sell! | Mark Walker | | 
+| Java 1.4 Game Programming | Andrew Mulholland and Glenn Murphy | Java 1.4 | 
 | Learn Vertex & Pixel Shader programming with DirectX | James Leiterman | Direct X | 
 | Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | Re-released as LightWave 3D 8 Lighting in 2004 and LightWave V9 Lighting in 2007
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
 | Postmortems from Game developer | Austin Grossman | | 
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
 | Secrets of the Game Business | François Dominic Laramée | Soft Skills | 
+| Strategy Game Programming With DirectX 9.0 | Todd Barron | DirectX 9.0 | 
 | Wireless game development in C/C++ with BREW | Ralph Barbagallo | C/C++ and BREW | 
 
 
