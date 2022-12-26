@@ -77,6 +77,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
 Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the ATARI Editor/Assembler cartridge
 
 ---
@@ -277,7 +278,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
- | AI for computer games and animation : a cognitive modeling approach | John David Funge. | | 
+ | AI for computer games and animation: a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
  | Developers guide to computer game design | John Scott Lewinski | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
@@ -293,8 +294,10 @@ Cover | Title | Author | Software | Notes
 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
+Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
 Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
 Developer's guide to computer game design | John Scott Lewinski | Game Design | 
+Learn Computer Game Programming with Directx 7.0 | Ian Parberry | DirectX 7.0 | 
 Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
 Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
 
@@ -324,10 +327,12 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
  | Computer Game Design: Theory and Practice | Richard Rouse III | | 
+ | Design Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
  | Game Developer's Guide to Cybiko | Ernest Pazera | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
+ | Introduction to Computer Game Programming with DirectX 8.0 | Ian Parberry | DirectX 8.0 |
  <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
  | Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
@@ -335,7 +340,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
 <img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
  | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
- | Swords & circuitry : a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
+ | Swords & circuitry: a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
  | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
 
 ---
@@ -436,6 +441,7 @@ Patterns in game design | Staffan Bjork, Jussi Holopainen | |
 Real-time cinematography for games | Brian Hawkins | | 
 Secrets of the game business | François Dominic Laramée | | 
 The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
+The game artist's guide to Maya | McKinley, Michael (Michael T.) | Maya | 
 The game localization handbook | Heather Maxwell Chandler | | 
 
 ---
