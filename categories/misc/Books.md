@@ -369,11 +369,14 @@ In the year 2003 started to see a lot more game development books focussed on no
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
+| DirectX 9 Audio Exposed | Todd Fay  | Direct X 9.0 | 
 | Essential Lightwave 3D 7.5 | Timothy Albee | Lightwave 3D 7.5 | 
 | Focus on curves and surfaces | Kelly Dempski | C++ | 
 | The Indie game development survival guide | David Michael | Soft Skills | 
 | Game Design Foundations | Roger E. Pedersen | | 
 | Game development and production | Erik Bethke | Project Management | 
+| Learn Vertex & Pixel Shader programming with DirectX | James Leiterman | Direct X | 
+| Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | 
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
 | Postmortems from Game developer | Austin Grossman | | 
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
