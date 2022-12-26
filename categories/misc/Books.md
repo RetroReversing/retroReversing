@@ -321,6 +321,7 @@ This year **Prima Tech** released tons of very specialised game development book
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
+ | Computer Game Design: Theory and Practice | Richard Rouse III | | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
  | Game Developer's Guide to Cybiko | Ernest Pazera | 
@@ -347,6 +348,7 @@ Cover | Title | Author | Software | Notes
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
  | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
  | Focus on photon mapping | Marlon John | C++ | 
+ | Game Development and Production | Erik Bethke | | 
  | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
  | Mac Game Programming | Mark Szymczyk | C++ and QuickDraw | 
@@ -367,8 +369,10 @@ In the year 2003 started to see a lot more game development books focussed on no
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
+| Essential Lightwave 3D 7.5 | Timothy Albee | Lightwave 3D 7.5 | 
 | Focus on curves and surfaces | Kelly Dempski | C++ | 
 | The Indie game development survival guide | David Michael | Soft Skills | 
+| Game Design Foundations | Roger E. Pedersen | | 
 | Game development and production | Erik Bethke | Project Management | 
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
 | Postmortems from Game developer | Austin Grossman | | 
@@ -386,6 +390,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 3D game engine programming | Stefan Zerbst with Oliver Düvel | | 
 Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | Rod Afshar, Duke Banerjee, Clifford Jones | | 
+Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
 AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
 Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 Character development and storytelling for games | Lee Sheldon | | 
@@ -398,6 +403,7 @@ Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Chur
 Massively multiplayer game development 2 | Thor Alexander | | 
 Mobile device game development | Clayton E. Crooks II | | 
 Object-oriented game development | Julian Gold | | 
+Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
 OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
 Physics modeling for game programmers | David Conger | | 
 Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
@@ -414,6 +420,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
 Cross-platform game programming | Steven Goodwin | | 
+Design First for 3D Artists | Geoffrey Kater | | 
 Director MX 2004 games: game development with Director | Nik Lever | | 
 Game art: creation, direction, and careers | Riccard Linde | | 
 Game development essentials: video game art | Todd Gantzler | | 
