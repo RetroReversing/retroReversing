@@ -387,6 +387,7 @@ Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | 
 AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
 Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 Character development and storytelling for games | Lee Sheldon | | 
+Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
 Game development essentials: An Introduction | Jeannie Novak | | 
 Game development with Lua | Paul Schuytema, Mark Manyen | | 
 Game programming with Python | Sean Riley | Python | 
