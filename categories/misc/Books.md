@@ -459,7 +459,27 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+Creating game art for 3D engines | Brad Strong | | 
+Emergence in games | Penny Sweetser | | 
 Game character development | Antony Ward | | 
+Game design workshop: a playcentric approach to creating innovative games | Tracy Fullerton | | 
+Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
+
+---
+## Books First Published in 2009
+This section will cover books related to game development published in the year 2009.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
+Artificial intelligence for games | Ian Millington and John Funge | | 
+Game audio development | Aaron Marks, Jeannie Novak | | 
+Game engine architecture | Jason Gregory | | 
+Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
+Unity game development essentials | Will Goldstone | Unity | 
+
+
 
 ---
 
