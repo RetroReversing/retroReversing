@@ -36,7 +36,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **New Riders Games** 
 * **Premier Press** (Later became Thomson Course Technology PTR in October 2003 [^6])
 * **Prima Tech** (Later became Premier Press) [^2]
-* **Sams.net**
+* **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
 * **Waite Group Press** [^1]
 * **Wordware Game Developer's Library** - From 1999 to 2009
 * **Wrox Press**
@@ -499,7 +499,7 @@ Game writing: narrative skills for videogames | Chris Bateman | |
 Introduction to Game Programming with C++ | Alan Thorn | C++ | 
 Macromedia Flash professional 8 game development | Glen Rhodes | | 
 Macromedia Flash Professional 8 game graphics | Robert Firebaugh | | 
-Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | | 
+Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | XNA | 
 
 ---
 ## Books First Published in 2008
@@ -508,12 +508,17 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+3ds Max Modeling: Bots, Mechs and Droids | Jon Weimer | 3DS Max | 
 Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
 Creating game art for 3D engines | Brad Strong | | 
+Cross Platform Game Development: Make PC Games for Windows, Linux and Mac | Alan Thorn | C, SDL, Director, Novashell, Ogre3D | 
 Emergence in games | Penny Sweetser | | 
+Essential XNA Game Studio 2.0 Programming | Jim Perry | XNA | 
+Essential Zbrush | Wayne Robson | Zbrush | 
 Game character development | Antony Ward | | 
 Game design workshop: a playcentric approach to creating innovative games | Tracy Fullerton | | 
 Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
+Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
 
 ---
 ## Books First Published in 2009
@@ -525,9 +530,12 @@ Cover | Title | Author | Software | Notes
 3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
 Artificial intelligence for games | Ian Millington and John Funge | | 
 Game audio development | Aaron Marks, Jeannie Novak | | 
+Game Design Foundations | Roger Pedersen | | 
 Game engine architecture | Jason Gregory | | 
 Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
+RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
 Unity game development essentials | Will Goldstone | Unity | 
+
 
 
 
