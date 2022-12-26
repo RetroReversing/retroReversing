@@ -38,7 +38,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Prima Tech** (Later became Premier Press) [^2]
 * **Sams.net**
 * **Waite Group Press** [^1]
-* **Wordware Game Developer's Library**
+* **Wordware Game Developer's Library** - From 1999 to 2009
 * **Wrox Press**
 
 Some of the most prolific authors in the game development genre were:
@@ -276,7 +276,7 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 1999
 This section will cover books related to game development published in the year 1999.
 
-This year kicked off the **Wordware Game Developer's Library** with the release of **Real Time Strategy Game Programming Using DirectX**.
+This year kicked off the **Wordware Game Developer's Library** with the release of **Real Time Strategy Game Programming Using DirectX** which lasted all the way up to the last book published in the series in 2009.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -422,6 +422,7 @@ Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | |
 AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
 Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 Character development and storytelling for games | Lee Sheldon | | 
+DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
 Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
 Game development essentials: An Introduction | Jeannie Novak | | 
 Game development with Lua | Paul Schuytema, Mark Manyen | | 
@@ -435,11 +436,14 @@ Massively multiplayer game development 2 | Thor Alexander | |
 Mobile device game development | Clayton E. Crooks II | | 
 Object-oriented game development | Julian Gold | | 
 Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
+OpenGL Game Development | Chris Seddon | OpenGL | 
 OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
 Physics modeling for game programmers | David Conger | | 
 Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
+Programming Game AI by Example | Mat Buckland | | 
+Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
 Programming believable characters for computer games | Penny Ballie-De Byl | | 
-The animator's motion capture guide : organizing, managing, and editing | Matthew Liverman | | 
+The animator's motion capture guide: organizing, managing, and editing | Matthew Liverman | | 
 Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
@@ -457,8 +461,10 @@ Game art: creation, direction, and careers | Riccard Linde | |
 Game development essentials: video game art | Todd Gantzler | | 
 Game level design | Ed Byrne | | 
 Implementing a digital asset management system: for animation, computer games, and web development | Jens Jacobsen, Tilman Schlenker, and Lisa Edwards | | 
+Making a game demo: from concept to demo gold | Chad Walker | | 
 OpenGL Game Development | Chris Seddon | OpenGL | 
 Patterns in game design | Staffan Bjork, Jussi Holopainen | | 
+Polygonal Modeling: Basic and Advanced Techniques | Mario Russo | 3DS Max and Maya | 
 Real-time cinematography for games | Brian Hawkins | | 
 Secrets of the game business | François Dominic Laramée | | 
 The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
@@ -472,6 +478,8 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
+Modeling, UV Mapping, and Texturing 3D Game Weapons | Christian Chang | Maya |
 Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
 ---
@@ -488,6 +496,7 @@ Game development essentials: Game Project Management | John Hight, Jeannie Novak
 Game Physics Engine Development | Ian Millington | | 
 Game writing handbook | Rafael Chandler | | 
 Game writing: narrative skills for videogames | Chris Bateman | | 
+Introduction to Game Programming with C++ | Alan Thorn | C++ | 
 Macromedia Flash professional 8 game development | Glen Rhodes | | 
 Macromedia Flash Professional 8 game graphics | Robert Firebaugh | | 
 Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | | 
@@ -499,6 +508,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
 Creating game art for 3D engines | Brad Strong | | 
 Emergence in games | Penny Sweetser | | 
 Game character development | Antony Ward | | 
