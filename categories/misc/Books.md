@@ -33,6 +33,7 @@ This section will cover books available at the time when retro games were being 
 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media**
+* **New Riders Games** 
 * **Premier Press** (Later became Thomson Course Technology PTR in October 2003 [^6])
 * **Prima Tech** (Later became Premier Press) [^2]
 * **Sams.net**
@@ -278,6 +279,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | AI for computer games and animation : a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
+ | Developers guide to computer game design | John Scott Lewinski | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
  | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
 <img class="lazy-load" data-image-full="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
