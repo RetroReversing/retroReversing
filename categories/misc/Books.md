@@ -274,7 +274,9 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Books First Published in 1999
-This section will cover books related to game development published in the year 1999
+This section will cover books related to game development published in the year 1999.
+
+This year kicked off the **Wordware Game Developer's Library** with the release of **Real Time Strategy Game Programming Using DirectX**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -289,6 +291,8 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 2000
 This section will cover books related to game development published in the year 2000.
 
+This year started to see books covering **Direct X 7.0**.
+
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
@@ -296,6 +300,7 @@ Cover | Title | Author | Software | Notes
 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
 Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
 Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
+Designing Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
 Developer's guide to computer game design | John Scott Lewinski | Game Design | 
 Learn Computer Game Programming with Directx 7.0 | Ian Parberry | DirectX 7.0 | 
 Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
@@ -321,22 +326,26 @@ The Appendices have some tutorials for how to use the FlySDK including building 
 ## Books First Published in 2001
 This section will cover books related to game development published in the year 2001.
 
-This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers. They were so successful that in August 2001 [^4] they got bought and changed their name to **Premier Press** and thankfully continued to churn out book after book on game development!
+This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers. They were so successful that in August 2001 [^4] they got sold and changed their name to **Premier Press** and thankfully continued to churn out book after book on game development!
+
+This year started to see books covering **DirectX 8.0**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+ | Advanced 3D Game Programming using DirectX 8.0 | Peter Walsh and Adrian Perez | DirectX 8.0 | 
+ | Advanced Linux 3D Graphics Programming | Norman Lin | | 
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
  | Computer Game Design: Theory and Practice | Richard Rouse III | | 
- | Design Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
- | Game Developer's Guide to Cybiko | Ernest Pazera | 
+ | Game Developer's Guide to Cybiko | Ernest Pazera | | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
  | Introduction to Computer Game Programming with DirectX 8.0 | Ian Parberry | DirectX 8.0 |
  <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
  | Linux game programming | Mark "Nurgle" Collins | C and OpenGL |
  | Macromedia director game development from concept to creation | Epic Software | Macromedia Director | 
+ | Modeling a Character in 3DS Max | Paul Steed | 3DS Max | 
 <img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
 <img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
  | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
@@ -350,6 +359,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | 2D Artwork and 3D Modeling for Game Artists | David Franson | 3DStudio Max and trueSpace  | 
+ | 3D Math Primer for Graphics and Game Development | Fletcher Dunn | | 
  | AI techniques for game programming | Mat Buckland | | Genetic Algorithms and Neural Networks
  | Direct3D ShaderX: Vertex and Pixel Shader Tips and Tricks | Wolfgang Engel | DirectX | 
  | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
@@ -358,6 +368,7 @@ Cover | Title | Author | Software | Notes
  | Game Development and Production | Erik Bethke | | 
  | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
+ | Lightwave 3D 7 Character Animation | Timothy Albee | Lightwave 3D 7.0 | 
  | Mac Game Programming | Mark Szymczyk | C++ and QuickDraw | 
  | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
  | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
@@ -383,7 +394,7 @@ Cover | Title | Author | Software | Notes
 | Game Design Foundations | Roger E. Pedersen | | 
 | Game development and production | Erik Bethke | Project Management | 
 | Learn Vertex & Pixel Shader programming with DirectX | James Leiterman | Direct X | 
-| Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | 
+| Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | Re-released as LightWave 3D 8 Lighting in 2004 and LightWave V9 Lighting in 2007
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
 | Postmortems from Game developer | Austin Grossman | | 
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
@@ -409,6 +420,9 @@ Game development essentials: An Introduction | Jeannie Novak | |
 Game development with Lua | Paul Schuytema, Mark Manyen | | 
 Game programming with Python | Sean Riley | Python | 
 Introduction to game development | Steve Rabin | | 
+LightWave 3D 8 Texturing | Leigh Van Der Byl | LightWave 3D 8.0 | Re-released as LightWave V9 Texturing in 2007
+LightWave 3D 8 Cartoon Character Creation: Modeling and Texturing | Jonny Gorden  | LightWave 3D 8.0 | 
+LightWave 3D 8 Cartoon Character Creation: Rigging and Animation | Jonny Gorden  | LightWave 3D 8.0 | 
 Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
 Massively multiplayer game development 2 | Thor Alexander | | 
 Mobile device game development | Clayton E. Crooks II | | 
