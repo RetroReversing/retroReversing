@@ -323,6 +323,7 @@ Cover | Title | Author | Software | Notes
  | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
+ | Game Developer's Guide to Cybiko | Ernest Pazera | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
  <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
@@ -441,6 +442,24 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 Business & legal primer for game development | S. Gregory Boyd | Business | 
+Fundamentals of game design | Ernest Adams, Andrew Rollings | | 
+Game development essentials: Game interface design | Kevin Saunders, Jeannie Novak | | 
+Game development essentials: Game Project Management | John Hight, Jeannie Novak | | 
+Game Physics Engine Development | Ian Millington | | 
+Game writing handbook | Rafael Chandler | | 
+Game writing: narrative skills for videogames | Chris Bateman | | 
+Macromedia Flash professional 8 game development | Glen Rhodes | | 
+Macromedia Flash Professional 8 game graphics | Robert Firebaugh | | 
+Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | | 
+
+---
+## Books First Published in 2008
+This section will cover books related to game development published in the year 2008.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+Game character development | Antony Ward | | 
 
 ---
 
