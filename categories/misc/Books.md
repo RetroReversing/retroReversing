@@ -434,6 +434,15 @@ Cover | Title | Author | Software | Notes
 Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
 ---
+## Books First Published in 2007
+This section will cover books related to game development published in the year 2007.
+
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+Business & legal primer for game development | S. Gregory Boyd | Business | 
+
+---
 
 # Books about Retro Game Development with Modern Tools
 This section will cover:
