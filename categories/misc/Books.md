@@ -226,7 +226,7 @@ Cover | Title | Author | Software | Notes
 This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the Saturn and Playstation were released in the US & Europe.
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
 | Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
 | Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
@@ -267,10 +267,11 @@ Win95 graphics programming | Mathias Rasch | WinG API |
 ## Books First Published in 1997
 This section will cover books related to game development published in the year 1997.
 
-Title | Author | Software | Notes
----|---|---|---
-Developing Java entertainment applets | John Withers | Java | 
-OpenGL Reference Manual | | OpenGL API | 
+Cover | Title | Author | Publisher | Software | Notes
+---|---|---|---|---|---
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/71S9Y9T36GL._SX379_BO1,204,203,200_.gif" /> | 3D Graphics and Animation: From Starting Up to Standing Out | Mark Giambruno | New Riders | | 
+| Developing Java entertainment applets | John Withers | | Java | 
+| OpenGL Reference Manual | | | OpenGL API | 
 
 ---
 ## Books First Published in 1998
@@ -405,16 +406,23 @@ The year 2003 was the start of **New Riders Games (NRG)** a subset of New Riders
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 | Advanced 3D Game Programming with DirectX 9.0 | Peter Walsh | DirectX 9.0 | 
+| Ai Game Development: Synthetic Creatures With Learning and Reactive Behaviors | Alex J. Champandard  | C++ | 
+| Andrew Rollings and Ernest Adams on Game Design | Andrew Rollings and Ernest Adams | Game Design | 
+| Chris Crawford on Game Design | Chris Crawford | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41uR2OAoJoL._SX402_BO1,204,203,200_.jpg" /> | Core Techniques and Algorithms in Game Programming | Daniel Sanchez-Crespo Dalmau | C++ with OpenGL and DirectX
+| Creating Emotion in Games: The Craft and Art of Emotioneering | David Freeman and Will Wright | Game Design | 
 <img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
+| Designing Virtual Worlds | Richard A. Bartle | Game Design | 
+| Developing Games in Java | David Brackeen, Bret Barker , et al. | Java | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/514997RQAVL._SX402_BO1,204,203,200_.jpg" /> | Developing Online Games: An Insiders Guide | Jessica Mulligan and Bridgette Patrovsky | Game Design | 
 | DirectX 9 Audio Exposed | Todd Fay  | Direct X 9.0 | 
 | Essential Lightwave 3D 7.5 | Timothy Albee | Lightwave 3D 7.5 | 
 | Focus on curves and surfaces | Kelly Dempski | C++ | 
 | Introduction to 3D Game Programming with DirectX 9.0 | Frank D. Luna | DirectX 9.0 | 
 | The Indie game development survival guide | David Michael | Soft Skills | 
-| Game Design Foundations | Roger E. Pedersen | | 
+| Game Design Foundations | Roger E. Pedersen | Game Design | 
 | Game development and production | Erik Bethke | Project Management | 
-| Games That Sell! | Mark Walker | | 
+| Games That Sell! | Mark Walker | Game Design | 
 | Java 1.4 Game Programming | Andrew Mulholland and Glenn Murphy | Java 1.4 | 
 | Learn Vertex & Pixel Shader programming with DirectX | James Leiterman | Direct X | 
 | Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | Re-released as LightWave 3D 8 Lighting in 2004 and LightWave V9 Lighting in 2007
