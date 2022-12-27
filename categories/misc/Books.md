@@ -447,9 +447,12 @@ Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | 
 Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
 AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
 Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
+Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
 Character development and storytelling for games | Lee Sheldon | | 
+Creating the Art of the Game | Matthew Omernick | Maya, 3ds Max | 
 DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
 Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
+Game Character Development with Maya | Antony Ward | Maya | 
 Game development essentials: An Introduction | Jeannie Novak | | 
 Game development with Lua | Paul Schuytema, Mark Manyen | | 
 Game programming with Python | Sean Riley | Python | 
@@ -479,7 +482,9 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+3ds Max 7 Fundamentals | Ted Boardman | 3ds Max 7 | Re-released as 3ds Max 8 Fundamentals in 2008
 Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
+Chris Crawford On Interactive Storytelling | Chris Crawford | Game Design | 
 Cross-platform game programming | Steven Goodwin | | 
 Design First for 3D Artists | Geoffrey Kater | | 
 Director MX 2004 games: game development with Director | Nik Lever | | 
@@ -505,6 +510,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
+Level Design for Games: Creating Compelling Game Experiences | Phil Co  | Game Design | 
 Modeling, UV Mapping, and Texturing 3D Game Weapons | Christian Chang | Maya |
 Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
@@ -516,6 +522,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 Business & legal primer for game development | S. Gregory Boyd | Business | 
+Creating Games In C++: A Step-By-Step Guide | David Conger and Ron Little | C++ and LlamaWorks2D | 
 Fundamentals of game design | Ernest Adams, Andrew Rollings | | 
 Game development essentials: Game interface design | Kevin Saunders, Jeannie Novak | | 
 Game development essentials: Game Project Management | John Hight, Jeannie Novak | | 
@@ -553,21 +560,23 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
-Artificial intelligence for games | Ian Millington and John Funge | | 
-Game audio development | Aaron Marks, Jeannie Novak | | 
-Game Design Foundations | Roger Pedersen | | 
-Game engine architecture | Jason Gregory | | 
-Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
-RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
-Unity game development essentials | Will Goldstone | Unity | 
-
-
-
+| 3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
+| ActionScript for Multiplayer Games and Virtual Worlds | Jobe Makar | Flash | 
+| Artificial intelligence for games | Ian Millington and John Funge | | 
+| Game audio development | Aaron Marks, Jeannie Novak | | 
+| Game Design Foundations | Roger Pedersen | | 
+| Game engine architecture | Jason Gregory | | 
+| Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
+| RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
+| Unity game development essentials | Will Goldstone | Unity | 
 
 ---
 
 # Books about Retro Game Development with Modern Tools
+We tend to only cover retro games on this site and although the term retro means different things to different people, we have decided not to list game development books from 2010 and beyond. However we would like to list books published after 2010 if they are about Retro Game Development, that is what this section is for.
+
+Most of these books employ modern tools to create games for retro hardware such as the ZX Spectrum or Commodore 64 through emulators which is a lot more accessible than using hardware and software from the time period.
+
 This section will cover:
 * Retro Game Dev - Commodore 64
 * ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
