@@ -447,38 +447,39 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-3D game engine programming | Stefan Zerbst with Oliver Düvel | | 
-Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | Rod Afshar, Duke Banerjee, Clifford Jones | | 
-Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
-AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
-Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
-Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
-Character development and storytelling for games | Lee Sheldon | | 
-Creating the Art of the Game | Matthew Omernick | Maya, 3ds Max | 
-DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
-Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
-Game Character Development with Maya | Antony Ward | Maya | 
-Game development essentials: An Introduction | Jeannie Novak | | 
-Game development with Lua | Paul Schuytema, Mark Manyen | | 
-Game programming with Python | Sean Riley | Python | 
-Introduction to game development | Steve Rabin | | 
-LightWave 3D 8 Texturing | Leigh Van Der Byl | LightWave 3D 8.0 | Re-released as LightWave V9 Texturing in 2007
-LightWave 3D 8 Cartoon Character Creation: Modeling and Texturing | Jonny Gorden  | LightWave 3D 8.0 | 
-LightWave 3D 8 Cartoon Character Creation: Rigging and Animation | Jonny Gorden  | LightWave 3D 8.0 | 
-Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
-Massively multiplayer game development 2 | Thor Alexander | | 
-Mobile device game development | Clayton E. Crooks II | | 
-Object-oriented game development | Julian Gold | | 
-Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
-OpenGL Game Development | Chris Seddon | OpenGL | 
-OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
-Physics modeling for game programmers | David Conger | | 
-Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
-Programming Game AI by Example | Mat Buckland | | 
-Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
-Programming believable characters for computer games | Penny Ballie-De Byl | | 
-The animator's motion capture guide: organizing, managing, and editing | Matthew Liverman | | 
-Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
+<img class="lazy-load" data-image-full="" /> | 3D game engine programming | Stefan Zerbst with Oliver Düvel | | 
+<img class="lazy-load" data-image-full="" /> | Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | Rod Afshar, Duke Banerjee, Clifford Jones | | 
+<img class="lazy-load" data-image-full="" /> | Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
+<img class="lazy-load" data-image-full="" /> | AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
+<img class="lazy-load" data-image-full="" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41X27dRWptL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginning C++ Game Programming (Game Development Series) | Michael Dawson | C++ | 
+<img class="lazy-load" data-image-full="" /> | Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
+<img class="lazy-load" data-image-full="" /> | Character development and storytelling for games | Lee Sheldon | | 
+<img class="lazy-load" data-image-full="" /> | Creating the Art of the Game | Matthew Omernick | Maya, 3ds Max | 
+<img class="lazy-load" data-image-full="" /> | DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
+<img class="lazy-load" data-image-full="" /> | Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
+<img class="lazy-load" data-image-full="" /> | Game Character Development with Maya | Antony Ward | Maya | 
+<img class="lazy-load" data-image-full="" /> | Game development essentials: An Introduction | Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game development with Lua | Paul Schuytema, Mark Manyen | | 
+<img class="lazy-load" data-image-full="" /> | Game programming with Python | Sean Riley | Python | 
+<img class="lazy-load" data-image-full="" /> | Introduction to game development | Steve Rabin | | 
+<img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Texturing | Leigh Van Der Byl | LightWave 3D 8.0 | Re-released as LightWave V9 Texturing in 2007
+<img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Cartoon Character Creation: Modeling and Texturing | Jonny Gorden  | LightWave 3D 8.0 | 
+<img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Cartoon Character Creation: Rigging and Animation | Jonny Gorden  | LightWave 3D 8.0 | 
+<img class="lazy-load" data-image-full="" /> | Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
+<img class="lazy-load" data-image-full="" /> | Massively multiplayer game development 2 | Thor Alexander | | 
+<img class="lazy-load" data-image-full="" /> | Mobile device game development | Clayton E. Crooks II | | 
+<img class="lazy-load" data-image-full="" /> | Object-oriented game development | Julian Gold | | 
+<img class="lazy-load" data-image-full="" /> | Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
+<img class="lazy-load" data-image-full="" /> | OpenGL Game Development | Chris Seddon | OpenGL | 
+<img class="lazy-load" data-image-full="" /> | OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
+<img class="lazy-load" data-image-full="" /> | Physics modeling for game programmers | David Conger | | 
+<img class="lazy-load" data-image-full="" /> | Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
+<img class="lazy-load" data-image-full="" /> | Programming Game AI by Example | Mat Buckland | | 
+<img class="lazy-load" data-image-full="" /> | Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
+<img class="lazy-load" data-image-full="" /> | Programming believable characters for computer games | Penny Ballie-De Byl | | 
+<img class="lazy-load" data-image-full="" /> | The animator's motion capture guide: organizing, managing, and editing | Matthew Liverman | | 
+<img class="lazy-load" data-image-full="" /> | Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
 ## Books First Published in 2005
