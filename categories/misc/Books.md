@@ -288,10 +288,13 @@ This year kicked off the **Wordware Game Developer's Library** with the release 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+ | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
+ | 3D Studio MAX 3 Media Animation | John P. Chismar and John Chismar | 3D Sudio Max 3 | 
  | AI for computer games and animation: a cognitive modeling approach | John David Funge. | | 
  | Computer Graphics & Geometric Modeling | | | 
  | Developers guide to computer game design | John Scott Lewinski | | 
  | Game design: secrets of the sages | Marc Saltzman | Game Design | 
+ | Inside TrueSpace 4 | Frank Rivera | Truespace 4 | 
  | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
 <img class="lazy-load" data-image-full="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 
@@ -348,6 +351,7 @@ Cover | Title | Author | Software | Notes
  | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
  | Game Developer's Guide to Cybiko | Ernest Pazera | | 
  | Game Programming Gems 2 | Mark Deloura | C++ | 
+ | Inside Lightwave 7 | Dan Ablan | Lightwave 7 | 
  | Introduction to Computer Game Programming with DirectX 8.0 | Ian Parberry | DirectX 8.0 |
  <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
  | Java 2 game programming | Thomas Petchel | Java | 
@@ -377,11 +381,13 @@ Cover | Title | Author | Software | Notes
  | Game Development and Production | Erik Bethke | | 
  | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
+ | Get in the Game!: Careers in the Game Industry | Marc Mencher | | 
  | Lightwave 3D 7 Character Animation | Timothy Albee | Lightwave 3D 7.0 | 
  | Mac Game Programming | Mark Szymczyk | C++ and QuickDraw | 
  | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
  | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
  | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
+  | Pause & Effect: The Art of Interactive Narrative | Mark Stephen Meadows | Game Design | 
  | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
  | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
  | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
@@ -399,6 +405,7 @@ The year 2003 was the start of **New Riders Games (NRG)** a subset of New Riders
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 | Advanced 3D Game Programming with DirectX 9.0 | Peter Walsh | DirectX 9.0 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41uR2OAoJoL._SX402_BO1,204,203,200_.jpg" /> | Core Techniques and Algorithms in Game Programming | Daniel Sanchez-Crespo Dalmau | C++ with OpenGL and DirectX
 <img class="lazy-load" data-image-full="/public/images/books/Data structures for game programmers [2003].jpg" /> | Data structures for game programmers | Ron Penton | C++ | 
 | DirectX 9 Audio Exposed | Todd Fay  | Direct X 9.0 | 
 | Essential Lightwave 3D 7.5 | Timothy Albee | Lightwave 3D 7.5 | 
@@ -416,6 +423,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
 | Secrets of the Game Business | François Dominic Laramée | Soft Skills | 
 | Strategy Game Programming With DirectX 9.0 | Todd Barron | DirectX 9.0 | 
+| The Fat Man on Game Audio: Tasty Morsels of Sonic Goodness | George "Fat Man" Sanger | Audio/Music | 
 | Wireless game development in C/C++ with BREW | Ralph Barbagallo | C/C++ and BREW | 
 
 
