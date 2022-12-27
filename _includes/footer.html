@@ -63,6 +63,11 @@ $(function() {
 
     });
     
+    window.addEventListener('click', function() {
+      // Whenever the user clicks on something like the table page buttons, make sure to load any new images
+      setTimeout(lazyLoad, 1000);
+    });
+    
     function replaceAll(str, find, replace) {
   return str.replace(new RegExp(find, 'g'), replace);
 }
@@ -110,20 +115,11 @@ $(function() {
 
       // loop over each card image
       card_images.forEach(function(content_image) {
-        
-//         var content_image = card_image.querySelector('img');
-        var image_url = content_image.getAttribute('data-image-full');
+      var image_url = content_image.getAttribute('data-image-full');
 
         // change the src of the content image to load the new high res photo
         content_image.src = image_url;
-
-        // listen for load event when the new photo is finished loading
-        content_image.addEventListener('load', function() {
-          // swap out the visible background image with the new fully downloaded photo
-//           card_image.style.backgroundImage = 'url(' + image_url + ')';
-          // add a class to remove the blur filter to smoothly transition the image change
-//           card_image.className = card_image.className + ' is-loaded';
-        });
+        content_image.removeClass("lazy-load");
 
       });
 
