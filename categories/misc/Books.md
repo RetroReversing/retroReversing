@@ -383,7 +383,6 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Game Development and Production | Erik Bethke | | 
 <img class="lazy-load" data-image-full="" /> | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
 <img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
-
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51hqC58CUGL._AC_UY436_QL65_.jpg" /> | Game Scripting Mastery | Alex Varanese | | 
 <img class="lazy-load" data-image-full="" /> | Get in the Game!: Careers in the Game Industry | Marc Mencher | | 
 <img class="lazy-load" data-image-full="" /> | Lightwave 3D 7 Character Animation | Timothy Albee | Lightwave 3D 7.0 | 
