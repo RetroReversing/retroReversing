@@ -489,6 +489,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 3ds Max 7 Fundamentals | Ted Boardman | 3ds Max 7 | Re-released as 3ds Max 8 Fundamentals in 2008
 Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
+Beginning game graphics | Evry, Harry J | Caligari gameSpace | 
 Chris Crawford On Interactive Storytelling | Chris Crawford | Game Design | 
 Cross-platform game programming | Steven Goodwin | | 
 Design First for 3D Artists | Geoffrey Kater | | 
