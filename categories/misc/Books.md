@@ -33,12 +33,13 @@ This section will cover books available at the time when retro games were being 
 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media**
+* **Jones and Bartlett Publishers**
 * **New Riders Games** 
-* **Premier Press** (Later became Thomson Course Technology PTR in October 2003 [^6])
-* **Prima Tech** (Later became Premier Press) [^2]
+* **Premier Press** (Becomes Thomson Course Technology PTR in October 2003 [^6])
+* **Prima Tech** (Becomes Premier Press) [^2]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
 * **Waite Group Press** [^1]
-* **Wordware Game Developer's Library** - From 1999 to 2009
+* **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
 * **Wrox Press**
 
 Some of the most prolific authors in the game development genre were:
@@ -204,13 +205,14 @@ This section will cover books related to game development published in the year 
 In books it was the year of **Andre LaMothe** who published multiple books that would become must-read for MSDOS game programmers.
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
 | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
 | PC game programming explorer | Dave Roberts | C Programming for VGA | 
 | Sound Blaster the Official Book | | Sound Blaster | 
 | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
+| The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
 | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
 | Zen of Graphics | Michael Abrash | | 
 
