@@ -14,7 +14,7 @@
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
                   <div class="widget-img">
-                    <a href="{{ post.permalink }}" style="height:135px;" target="_blank">
+                    <a href="{{ post.permalink }}" style="height:135px; display: block;" target="_blank">
                       {% if post.image %}
                         <img class="lazy-load" data-image-full="{{ post.image }}" alt="">
                       {% else if post.youtube %}
@@ -35,7 +35,7 @@
           {% if post.tags contains page.recommend and post.title != page.title %}
             <li>
               <div class="widget-img">
-                <a href="{{ post.permalink }}" style="height:135px;" target="_blank">
+                <a href="{{ post.permalink }}" style="height:135px; display: block;" target="_blank">
                   {% if post.image %}
                     <img class="lazy-load" data-image-full="{{ post.image }}" alt="">
                   {% else if post.youtube %}
