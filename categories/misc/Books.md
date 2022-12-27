@@ -38,7 +38,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Premier Press** - From 2001 until they became **Thomson Course Technology PTR** in October 2003 [^6]
 * **Prima Tech** (Becomes Premier Press) [^2]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
-* **Thomson Course Technology PTR**
+* **Thomson Course Technology PTR** - Becomes Cengage Learning in July 2007
 * **Waite Group Press** - Published the Black art of game programming series of books and early books on 3D graphics [^1]
 * **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
 
@@ -478,6 +478,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
 <img class="lazy-load" data-image-full="" /> | Programming believable characters for computer games | Penny Ballie-De Byl | | 
 <img class="lazy-load" data-image-full="" /> | The animator's motion capture guide: organizing, managing, and editing | Matthew Liverman | | 
+<img class="lazy-load" data-image-full="" /> | The Dark Side of Game Texturing | David Franson | | 
 <img class="lazy-load" data-image-full="" /> | Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
