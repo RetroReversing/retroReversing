@@ -20,7 +20,7 @@
                       {% elsif post.youtube %}
                         <img class="lazy-load" style="height:135px;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                       {% else %}
-                        <div style="height:135px; background-color: lightgrey;" />
+                        <div style="background-color: lightgrey;" />
                       {% endif %}
                     </a>
                     <span>{{ recommend }}</span>
@@ -43,7 +43,7 @@
                   {% elsif post.youtube %}
                     <img class="lazy-load" style="height:135px;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                  {% else %}
-                    <div style="height:135px; background-color: lightgrey;" />
+                    <div style="background-color: lightgrey;" />
                  {% endif %}
                 </a>
                 <span>{{ page.recommend }}</span>
