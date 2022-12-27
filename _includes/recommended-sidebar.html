@@ -17,7 +17,7 @@
                     <a href="{{ post.permalink }}" style="height:135px; display: block;" target="_blank">
                       {% if post.image %}
                         <img class="lazy-load" data-image-full="{{ post.image }}" alt="">
-                      {% else if post.youtube %}
+                      {% elsif post.youtube %}
                         <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                       {% endif %}
                     </a>
@@ -38,7 +38,7 @@
                 <a href="{{ post.permalink }}" style="height:135px; display: block;" target="_blank">
                   {% if post.image %}
                     <img class="lazy-load" data-image-full="{{ post.image }}" alt="">
-                  {% else if post.youtube %}
+                  {% elsif post.youtube %}
                     <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                   {% endif %}
                 </a>
