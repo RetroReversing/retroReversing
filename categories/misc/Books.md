@@ -43,7 +43,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
 
 Some of the most prolific authors in the game development genre were:
-* **Andre LaMothe** - Celebrated Author and became Editor for the entire Prima Tech/Premier Press Game Developmenr Book Series
+* **Andre LaMothe** - Celebrated Author and became Editor for the entire Prima Tech/Premier Press Game Development Book Series
 * **Jonathan S. Harbour** - Wrote over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
 
 
@@ -245,7 +245,7 @@ This section will cover books related to game development published in the year 
 
 There were some excellent books released by **Waite Group Press** [^1] such as the **Black Art of Macintosh Game Programming** and the **OpenGL SuperBible** which were both cutting-edge at the time.
 
-Also the author **Joe Gradecki** released two books this year in the **NetWarriors** series, one an update to his book last yeae but this time in C++ and the other a guide to online resources, which would be very interesting to read now-adays, although most links would now be long dead.
+Also the author **Joe Gradecki** released two books this year in the **NetWarriors** series, one an update to his book last year but this time in C++ and the other a guide to online resources, which would be very interesting to read nowadays, although most links would now be long dead.
 
 Title | Author | Software | Notes
 ---|---|---|---
@@ -326,7 +326,7 @@ The book is split up into 6 sections each with their own chapters:
 * **Classical 3D graphics** - Although much of the material in this section has migrated onto hardware, it is still necessary to have an appreciation of what
 the hardware does to be able to use it effectively.
 * **Real-time rendering** - This section deals with the technology developed by the games industry and the virtual reality industry which enables complex scenes to be rendered, to a reasonably high quality, in real time on a low-cost graphics processor.
-* **Control of objects** - Mainstream techniques used to control the movement of objects are described in this section. This ranges from simple low-level control through to behavioural animation using Al technology. Thematerial on Al is in the form of a debate concerning the potential use of the technology in the future.
+* **Control of objects** - Mainstream techniques used to control the movement of objects are described in this section. This ranges from simple low-level control through to behavioural animation using Al technology. The material on Al is in the form of a debate concerning the potential use of the technology in the future.
 * **2D technology** - A potentially important solution to the complexity problem in 3D graphics, in terms of both the creation cost and the rendering cost, is the use of image-based rendering techniques.
 * **Software technology** - This section deals with the techniques needed to write a multi-player game using the currently popular first-person shooter genre as an example. We examine the software architecture of a games engine and look at the design of the engine. Finally a comprehensive reference manual for the engine is given.
 
@@ -603,7 +603,7 @@ The first version was released in 1994 by Andre LaMothe and published by Sams, i
 It also claims to have a full 2D DOS game engine on the CDs but we don't know much information about it.
 
 ## Version 2.0
-The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severly lacking.
+The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severely lacking.
 
 ## Version 3.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit3.0.jpg" />
@@ -618,14 +618,14 @@ This time it contained three ebooks on the Disks:
 
 ## Version 4.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit4.0.jpg" />
-The Fourth version was released in 2000 by **Macmillan Software** and only consisted of 2 CDs this time. On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was upated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
+The Fourth version was released in 2000 by **Macmillan Software** and only consisted of 2 CDs this time. On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was updated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
 
 This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
 * Teach Yourself Visual C++ 6 in 21 Days
 * Teach Yourself DirectX 7 in 24 Hours
 
 
-The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book pulished by **BradyGames**.
+The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book published by **BradyGames**.
 
 ## Version 5.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit5.0.jpg" />
@@ -639,7 +639,7 @@ We know that one of the eBooks included on the CDs was:
 We do know however that the physical book that was included this time was the **Third** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman**. This books seems to be rather rare as I have never seen it for sale outside of this bundle.
 
 ## Version 6.0
-The mythical sixth version may have released in 2002 but there is no photos of it existing at all online. One source claims it included **DarkBASIC SE** which is a large departure from the standard Visual C++ and DirectX of the previous versions.
+The mythical sixth version may have released in 2002 but there is no photos of it existing at all online. One source claims it included **DarkBASIC SE** which is a large departure from the standard Visual C++ and DirectX combo of the previous versions.
 
 Did it include a **Fourth** edition of **Game Design Secrets of the Sages**? Who Knows?
 
