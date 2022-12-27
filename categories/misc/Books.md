@@ -79,7 +79,9 @@ This section will cover books related to game development published in the year 
 Title | Author | Software | Notes
 ---|---|---|---
 Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
-Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the ATARI Editor/Assembler cartridge
+Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
+Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
+Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
 ## Books First Published in 1983
@@ -87,6 +89,8 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Compute!'s Second Book of Atari Graphics | COMPUTE | | 
+Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
 Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
 Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
@@ -121,6 +125,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
+ | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
 <img src="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
  | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
  | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
@@ -132,6 +137,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg | Advanced Graphics in C | Nelson Johnson | C Programming | 
 Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
@@ -140,6 +146,7 @@ This section will cover books related to game development published in the year 
 
 Title | Author | Software | Notes
 ---|---|---|---
+Graphics Programming in C | Roger T. Stevens | C Programming | 
 Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
 The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
 
@@ -152,6 +159,7 @@ Title | Author | Software | Notes
 Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | DOS programming bible
 Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
 Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
+SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
 
 ---
 ## Books First Published in 1990
@@ -431,6 +439,7 @@ Cover | Title | Author | Software | Notes
 | Learn Vertex & Pixel Shader programming with DirectX | James Leiterman | Direct X | 
 | Lightwave 3D 7.5 Lighting | Nicholas Boughen | Lightwave 7.5 | Re-released as LightWave 3D 8 Lighting in 2004 and LightWave V9 Lighting in 2007
 | Massively multiplayer Game Development | Thor Alexander | C++ and Python | Borrow on Archive.org 
+| Online game interactivity theory | Friedl, Markus | Game Design | 
 | Postmortems from Game developer | Austin Grossman | | 
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
 | Secrets of the Game Business | François Dominic Laramée | Soft Skills | 
@@ -488,26 +497,26 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-3ds Max 7 Fundamentals | Ted Boardman | 3ds Max 7 | Re-released as 3ds Max 8 Fundamentals in 2008
-Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
-Beginning game graphics | Evry, Harry J | Caligari gameSpace | 
-Chris Crawford On Interactive Storytelling | Chris Crawford | Game Design | 
-Cross-platform game programming | Steven Goodwin | | 
-Design First for 3D Artists | Geoffrey Kater | | 
-Director MX 2004 games: game development with Director | Nik Lever | | 
-Game art: creation, direction, and careers | Riccard Linde | | 
-Game development essentials: video game art | Todd Gantzler | | 
-Game level design | Ed Byrne | | 
-Implementing a digital asset management system: for animation, computer games, and web development | Jens Jacobsen, Tilman Schlenker, and Lisa Edwards | | 
-Making a game demo: from concept to demo gold | Chad Walker | | 
-OpenGL Game Development | Chris Seddon | OpenGL | 
-Patterns in game design | Staffan Bjork, Jussi Holopainen | | 
-Polygonal Modeling: Basic and Advanced Techniques | Mario Russo | 3DS Max and Maya | 
-Real-time cinematography for games | Brian Hawkins | | 
-Secrets of the game business | François Dominic Laramée | | 
-The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
-The game artist's guide to Maya | McKinley, Michael (Michael T.) | Maya | 
-The game localization handbook | Heather Maxwell Chandler | | 
+<img class="lazy-load" data-image-full="" /> | 3ds Max 7 Fundamentals | Ted Boardman | 3ds Max 7 | Re-released as 3ds Max 8 Fundamentals in 2008
+<img class="lazy-load" data-image-full="" /> | Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
+<img class="lazy-load" data-image-full="" /> | Beginning game graphics | Evry, Harry J | Caligari gameSpace | 
+<img class="lazy-load" data-image-full="" /> | Chris Crawford On Interactive Storytelling | Chris Crawford | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Cross-platform game programming | Steven Goodwin | | 
+<img class="lazy-load" data-image-full="" /> | Design First for 3D Artists | Geoffrey Kater | | 
+<img class="lazy-load" data-image-full="" /> | Director MX 2004 games: game development with Director | Nik Lever | | 
+<img class="lazy-load" data-image-full="" /> | Game art: creation, direction, and careers | Riccard Linde | | 
+<img class="lazy-load" data-image-full="" /> | Game development essentials: video game art | Todd Gantzler | | 
+<img class="lazy-load" data-image-full="" /> | Game level design | Ed Byrne | | 
+<img class="lazy-load" data-image-full="" /> | Implementing a digital asset management system: for animation, computer games, and web development | Jens Jacobsen, Tilman Schlenker, and Lisa Edwards | | 
+<img class="lazy-load" data-image-full="" /> | Making a game demo: from concept to demo gold | Chad Walker | | 
+<img class="lazy-load" data-image-full="" /> | OpenGL Game Development | Chris Seddon | OpenGL | 
+<img class="lazy-load" data-image-full="" /> | Patterns in game design | Staffan Bjork, Jussi Holopainen | | 
+<img class="lazy-load" data-image-full="" /> | Polygonal Modeling: Basic and Advanced Techniques | Mario Russo | 3DS Max and Maya | 
+<img class="lazy-load" data-image-full="" /> | Real-time cinematography for games | Brian Hawkins | | 
+<img class="lazy-load" data-image-full="" /> | Secrets of the game business | François Dominic Laramée | | 
+<img class="lazy-load" data-image-full="" /> | The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
+<img class="lazy-load" data-image-full="" /> | The game artist's guide to Maya | McKinley, Michael (Michael T.) | Maya | 
+<img class="lazy-load" data-image-full="" /> | The game localization handbook | Heather Maxwell Chandler | | 
 
 ---
 ## Books First Published in 2006
@@ -516,10 +525,10 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
-Level Design for Games: Creating Compelling Game Experiences | Phil Co  | Game Design | 
-Modeling, UV Mapping, and Texturing 3D Game Weapons | Christian Chang | Maya |
-Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
+<img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
+<img class="lazy-load" data-image-full="" /> | Level Design for Games: Creating Compelling Game Experiences | Phil Co  | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Modeling, UV Mapping, and Texturing 3D Game Weapons | Christian Chang | Maya |
+<img class="lazy-load" data-image-full="" /> | Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
 ---
 ## Books First Published in 2007
@@ -528,18 +537,20 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-Business & legal primer for game development | S. Gregory Boyd | Business | 
-Creating Games In C++: A Step-By-Step Guide | David Conger and Ron Little | C++ and LlamaWorks2D | 
-Fundamentals of game design | Ernest Adams, Andrew Rollings | | 
-Game development essentials: Game interface design | Kevin Saunders, Jeannie Novak | | 
-Game development essentials: Game Project Management | John Hight, Jeannie Novak | | 
-Game Physics Engine Development | Ian Millington | | 
-Game writing handbook | Rafael Chandler | | 
-Game writing: narrative skills for videogames | Chris Bateman | | 
-Introduction to Game Programming with C++ | Alan Thorn | C++ | 
-Macromedia Flash professional 8 game development | Glen Rhodes | | 
-Macromedia Flash Professional 8 game graphics | Robert Firebaugh | | 
-Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | XNA | 
+<img class="lazy-load" data-image-full="" /> | Business & legal primer for game development | S. Gregory Boyd | Business | 
+<img class="lazy-load" data-image-full="" /> | Creating Games In C++: A Step-By-Step Guide | David Conger and Ron Little | C++ and LlamaWorks2D | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/516joGKPmmL._AC_UY436_FMwebp_QL65_.jpg" /> | Creating Casual Games for Profit and Fun | Allen Partridge | | 
+<img class="lazy-load" data-image-full="" /> | Fundamentals of game design | Ernest Adams, Andrew Rollings | | 
+<img class="lazy-load" data-image-full="" /> | Game development essentials: Game interface design | Kevin Saunders, Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game development essentials: Game Project Management | John Hight, Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game Physics Engine Development | Ian Millington | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51oLyqJ5KrL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Writing handbook | Rafael Chandler | | 
+<img class="lazy-load" data-image-full="" /> | Game writing: narrative skills for videogames | Chris Bateman | | 
+<img class="lazy-load" data-image-full="" /> | Introduction to Game Programming with C++ | Alan Thorn | C++ | 
+<img class="lazy-load" data-image-full="" /> | Macromedia Flash professional 8 game development | Glen Rhodes | | 
+<img class="lazy-load" data-image-full="" /> | Macromedia Flash Professional 8 game graphics | Robert Firebaugh | | 
+<img class="lazy-load" data-image-full="" /> | Microsoft XNA Game Studio Express creator's guide: an introduction to XNA game programming | Stephen Cawood and Pat McGee | XNA | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Sj9ocYPrL._AC_UY436_FMwebp_QL65_.jpg" /> | Mobile 3d Game Development: From Start to Market | Carlos Morales and David Nelson | JavaME | 
 
 ---
 ## Books First Published in 2008
@@ -548,17 +559,18 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-3ds Max Modeling: Bots, Mechs and Droids | Jon Weimer | 3DS Max | 
-Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
-Creating game art for 3D engines | Brad Strong | | 
-Cross Platform Game Development: Make PC Games for Windows, Linux and Mac | Alan Thorn | C, SDL, Director, Novashell, Ogre3D | 
-Emergence in games | Penny Sweetser | | 
-Essential XNA Game Studio 2.0 Programming | Jim Perry | XNA | 
-Essential Zbrush | Wayne Robson | Zbrush | 
-Game character development | Antony Ward | | 
-Game design workshop: a playcentric approach to creating innovative games | Tracy Fullerton | | 
-Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
-Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/419cCNRww-L._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Games Programming: Using Directx 10 and Open GL | Pierre Rautenbach  | DirectX, OpenGL | 
+<img class="lazy-load" data-image-full="" /> | 3ds Max Modeling: Bots, Mechs and Droids | Jon Weimer | 3DS Max | 
+<img class="lazy-load" data-image-full="" /> | Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
+<img class="lazy-load" data-image-full="" /> | Creating game art for 3D engines | Brad Strong | | 
+<img class="lazy-load" data-image-full="" /> | Cross Platform Game Development: Make PC Games for Windows, Linux and Mac | Alan Thorn | C, SDL, Director, Novashell, Ogre3D | 
+<img class="lazy-load" data-image-full="" /> | Emergence in games | Penny Sweetser | | 
+<img class="lazy-load" data-image-full="" /> | Essential XNA Game Studio 2.0 Programming | Jim Perry | XNA | 
+<img class="lazy-load" data-image-full="" /> | Essential Zbrush | Wayne Robson | Zbrush | 
+<img class="lazy-load" data-image-full="" /> | Game character development | Antony Ward | | 
+<img class="lazy-load" data-image-full="" /> | Game design workshop: a playcentric approach to creating innovative games | Tracy Fullerton | | 
+<img class="lazy-load" data-image-full="" /> | Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
+<img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
 
 ---
 ## Books First Published in 2009
