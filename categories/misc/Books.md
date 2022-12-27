@@ -34,7 +34,7 @@ This section will cover books available at the time when retro games were being 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media**
 * **Jones and Bartlett Publishers**
-* **New Riders Games** 
+* **New Riders Games (NRG)** - From 2003 to 2014
 * **Premier Press** (Becomes Thomson Course Technology PTR in October 2003 [^6])
 * **Prima Tech** (Becomes Premier Press) [^2]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
@@ -393,6 +393,8 @@ Cover | Title | Author | Software | Notes
 This section will cover books related to game development published in the year 2003.
 
 In the year 2003 started to see a lot more game development books focussed on non-programming related topics such as production and Business.
+
+The year 2003 was the start of **New Riders Games (NRG)** a subset of New Riders Publishing purely focussed on Game Development topics. While **New Riders Pub** had dabbled with a game development book in the form of **Get in the Game!** from 2002 along with previous books on software such as Photoshop and 3D Studio, this year they jumped all in with a series that would last more than a decade until 2014!
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
