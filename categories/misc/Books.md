@@ -38,7 +38,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Premier Press** (Becomes Thomson Course Technology PTR in October 2003 [^6])
 * **Prima Tech** (Becomes Premier Press) [^2]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
-* **Waite Group Press** [^1]
+* **Waite Group Press** - Published the Black art of game programming series of books and early books on 3D graphics [^1]
 * **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
 * **Wrox Press**
 
@@ -194,7 +194,8 @@ Title | Author | Software | Notes
 ---|---|---|---
 Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
 Programming games for beginners | Christopher A Howard | Visual Basic | 
-Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland c++ | 
+Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland C++ | 
+Ray Tracing Creations: Generate Photorealistic Images on the PC | Drew Wells, Chris Young  | | 
 The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
 QBasic games and more! | Fred Sexton | QBasic | 
 
@@ -206,9 +207,13 @@ In books it was the year of **Andre LaMothe** who published multiple books that 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+| 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
+| Animation how-to CD | Jeff Bowermaster | MS-DOS | 
 | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
 | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
+| Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
+| Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
 | PC game programming explorer | Dave Roberts | C Programming for VGA | 
 | Sound Blaster the Official Book | | Sound Blaster | 
 | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
@@ -223,7 +228,8 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---
 | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
-| Black art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
+| Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
+| Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
 | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
 | The Doom game editor | Joe Pantuso | DOOM Editor | [The Doom Game Editor | Doom Wiki | Fandom](https://doom.fandom.com/wiki/The_Doom_Game_Editor) [Doom Game Editor CD-ROM](https://archive.org/details/cdrom-doom-game-editor) 
