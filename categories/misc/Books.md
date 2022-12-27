@@ -352,14 +352,17 @@ This year started to see books covering **DirectX 8.0**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51EA2QF1FFL._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Game Creation | Luke Ahearn | The Games Factory, Pie 3D Game Creation System  | 
 <img class="lazy-load" data-image-full="" /> | Advanced 3D Game Programming using DirectX 8.0 | Peter Walsh and Adrian Perez | DirectX 8.0 | 
 <img class="lazy-load" data-image-full="" /> | Advanced Linux 3D Graphics Programming | Norman Lin | | 
 <img class="lazy-load" data-image-full="" /> | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
 <img class="lazy-load" data-image-full="" /> | Computer Game Design: Theory and Practice | Richard Rouse III | | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
-<img class="lazy-load" data-image-full="" /> | Game design: The Art & Business of creating games | Bob Bates | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Game Design: The Art & Business of creating games | Bob Bates | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game Developer's Guide to Cybiko | Ernest Pazera | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51w1S7Np+TL._AC_UY436_QL65_.jpg" /> | Game Modeling Using Low Polygon Techniques | Chad Walker and Eric Walker | | 
 <img class="lazy-load" data-image-full="" /> | Game Programming Gems 2 | Mark Deloura | C++ | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/4164FDHVRQL._AC_UY436_FMwebp_QL65_.jpg" /> | Infinite Game Universe: Mathematical Techniques | Guy W. Lecky-Thompson | | 
 <img class="lazy-load" data-image-full="" /> | Inside Lightwave 7 | Dan Ablan | Lightwave 7 | 
 <img class="lazy-load" data-image-full="" /> | Introduction to Computer Game Programming with DirectX 8.0 | Ian Parberry | DirectX 8.0 |
  <img class="lazy-load" data-image-full="/public/images/books/Isometric Game Programming With DirectX 7 [2001].jpg" /> | Isometric Game Programming with Directx 7.0 | Ernest Pazera | C++ and DirectX 7.0 | 
@@ -381,16 +384,19 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51psqXTsVvL._AC_UY436_QL65_.jpg" /> | 2D Artwork and 3D Modeling for Game Artists | David Franson | 3DStudio Max and trueSpace  | 
 <img class="lazy-load" data-image-full="" /> | 3D Math Primer for Graphics and Game Development | Fletcher Dunn | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51-9go5Qn8L._AC_UY436_QL65_.jpg" /> | AI Game Programming Wisdom | Steve Rabin | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/519gPHWXUeL._AC_UY436_QL65_.jpg" /> | AI techniques for Game Programming | Mat Buckland | | Genetic Algorithms and Neural Networks
 <img class="lazy-load" data-image-full="" /> | Direct3D ShaderX: Vertex and Pixel Shader Tips and Tricks | Wolfgang Engel | DirectX | 
 <img class="lazy-load" data-image-full="" /> | ShaderX2: Introduction and tutorials with DirectX 9.0 | Wolfgang Engel | DirectX 9.0 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51HpPCgEKaS._AC_UY436_QL65_.jpg" /> | Focus on 2D in Direct3D | Ernest Pazera | Direct3D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/5109tbRwhBL._AC_UY436_QL65_.jpg" /> | Focus on Mod programming for Quake III arena | Shawn Holmes | C/C++ | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/511FQTQVE1L._AC_UY436_FMwebp_QL65_.jpg" /> | Infinite Game Universe: Level Design, Terrain, And Sound | Guy W. Lecky-Thompson | C++ | 
 <img class="lazy-load" data-image-full="" /> | Focus on photon mapping | Marlon John | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51qTNakojaL._AC_UY436_QL65_.jpg" /> | Focus on SDL | Ernest Pazera | C++, SDL | 
 <img class="lazy-load" data-image-full="" /> | Game Development and Production | Erik Bethke | | 
-<img class="lazy-load" data-image-full="" /> | Game programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
-<img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
+<img class="lazy-load" data-image-full="" /> | Game Programming All in one | Bruno Miguel Teixeira de Sousa. | C++ and DirectX | 
+<img class="lazy-load" data-image-full="" /> | Game Programming Gems 3 | Dante Treglia | | 
+<img class="lazy-load" data-image-full="/public/images/books/Game Programming Tricks of the Trade [2002].jpg" /> | Game Programming tricks of the trade | Lorenzo D. Phillips | C++, DirectX and OpenGL | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51hqC58CUGL._AC_UY436_QL65_.jpg" /> | Game Scripting Mastery | Alex Varanese | | 
 <img class="lazy-load" data-image-full="" /> | Get in the Game!: Careers in the Game Industry | Marc Mencher | | 
 <img class="lazy-load" data-image-full="" /> | Lightwave 3D 7 Character Animation | Timothy Albee | Lightwave 3D 7.0 | 
@@ -398,7 +404,8 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Micro Java game development | David Fox and Roman Verhovsek | J2ME MIDP | 
 <img class="lazy-load" data-image-full="" /> | Microsoft Visual Basic game programming with DirectX | Jonathan S. Harbour | Visual Basic | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51R1yJNHvGL._AC_UY436_QL65_.jpg" /> | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
-<img class="lazy-load" data-image-full="" />  | Pause & Effect: The Art of Interactive Narrative | Mark Stephen Meadows | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Pause & Effect: The Art of Interactive Narrative | Mark Stephen Meadows | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Programming Dynamic Character Animation | David Paull | C++, DirectX, OpenGL | 
 <img class="lazy-load" data-image-full="" /> | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51O06j6UDVL._AC_UY436_QL65_.jpg" /> | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
