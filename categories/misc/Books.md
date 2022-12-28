@@ -241,7 +241,7 @@ On the Windows front, for graphics programming the API **WinG** was released by 
 Although the API was short lived as it was replaced by the **Windows Games SDK** in 1995 and later renamed to **DirectX**.
 
 <section class="postSection">
-    <img src="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" class="wow slideInLeft postImage" />
+    <img data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
 Imagine being a book author during this time frame when **WinG** was only really applicable for about a year, replaced with the Windows Game SDK which was then renamed to DirectX. This happened to the author **Clayton Walnum** who released **Dungeons of Discovery: Writing Dazzling Windows Games With WinG** in 1995 only for it to be deprecated. He then released **Windows 95 Game Sdk Strategy Guide** just as it got renamed to DirectX!
