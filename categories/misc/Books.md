@@ -342,7 +342,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
 <img class="lazy-load" data-image-full="" /> | 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
-<img class="lazy-load" data-image-full="" /> | 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg" /> | 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
 <img class="lazy-load" data-image-full="" /> | Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
 <img class="lazy-load" data-image-full="" /> | Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Designing Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
@@ -352,7 +352,14 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
 
 ### 3D Games: Real-time Rendering and Software Technology
-There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter. 
+<section class="postSection">
+    <img data-image-full="[/public/images/engines/image.jpg](https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg)" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter.
+ </div>
+</section> 
+ 
 
 The book is split up into 6 sections each with their own chapters:
 * **Modeling and foundation maths** - This section deals with the basic mathematics required to handle objects in three-dimensional space and the theory of object representation.
