@@ -29,7 +29,9 @@ This page is split into the following categories:
 ---
 # Books published around the same time as retro games
 
-This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time.
+This section will cover books available at the time when retro games were being created, for added context this section is broken down by year. 
+
+The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time. We only list the book based on its first edition date in order to keep the lists a bit cleaner.
 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media**
@@ -47,12 +49,14 @@ Some of the most prolific authors in the game development genre were:
 * **Jonathan S. Harbour** - Wrote over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
 
 
-## Books First Published in 1978
-This section will cover books related to game development published in the year 1978.
+## Books First Published in 1976
+This section will cover books related to game development published in the year 1976.
 
-Title | Author | Software | Notes
----|---|---|---
-Zilog Z80-CPU Technical Manual | Zilog | Assembly | 
+We start with the Z80-CPU Technical Manual from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for Game Boy/Master System/Game Gear/AmstradCPC/MSX/ZX Spectrum.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="Z80-CPU Technical Manual [1976].png" /> | Z80-CPU Technical Manual [1976].png | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
 
 ---
 ## Books First Published in 1979
@@ -69,7 +73,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img src="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
+<img class="lazy-load" data-image-full="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
  | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
@@ -126,7 +130,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
  | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
  | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
-<img src="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
+<img class="lazy-load" data-image-full="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
  | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
  | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
 
