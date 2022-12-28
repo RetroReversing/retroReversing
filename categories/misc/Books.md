@@ -56,7 +56,7 @@ We start with the Z80-CPU Technical Manual from Zilog as it was used in so many 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="Z80-CPU Technical Manual [1976].png" /> | Z80-CPU Technical Manual [1976].png | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
+<img class="lazy-load" data-image-full="Z80-CPU Technical Manual [1976].jpg" /> | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
 
 ---
 ## Books First Published in 1979
