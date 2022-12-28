@@ -89,6 +89,15 @@ Of course by the time those consoles came out there were newer editions of the b
  </div>
 </section> 
 
+---
+## Published in 1978
+This section will cover books related to game development published in the year 1978.
+
+The **Atari 2600 VCS** had just been released in the previous year (September 1977) which was using a variant of the popular 6502 CPU (6507) and books were starting to spring up on the topic of programming for this family of chips.
+
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Programming the 6502 | Zaks, Rodnay | 
 
 ---
 ## Published in 1979
