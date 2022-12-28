@@ -240,17 +240,6 @@ This section will cover books related to game development published in the year 
 On the Windows front, for graphics programming the API **WinG** was released by Microsoft in 1994 so in 1995 we started to see our first books about programming games in this API. 
 Although the API was short lived as it was replaced by the **Windows Games SDK** in 1995 and later renamed to **DirectX**.
 
-<section class="postSection">
-    <img data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" class="lazy-load wow slideInLeft postImage" />
-
- <div markdown="1" class="rr-post-markdown">
-Imagine being a book author during this time frame when **WinG** was only really applicable for about a year, replaced with the Windows Game SDK which was then renamed to DirectX. This happened to the author **Clayton Walnum** who released **Dungeons of Discovery: Writing Dazzling Windows Games With WinG** in 1995 only for it to be deprecated. He then released **Windows 95 Game Sdk Strategy Guide** just as it got renamed to DirectX!
- </div>
-</section> 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How well do you remember your 90s Windows game programming books? <a href="https://t.co/k2LRpzLDkN">pic.twitter.com/k2LRpzLDkN</a></p>&mdash; 𝔸𝕟𝕒𝕥𝕠𝕝𝕪 𝕊𝕙𝕒𝕤𝕙𝕜𝕚𝕟💾 (@dosnostalgic) <a href="https://twitter.com/dosnostalgic/status/1489032479252041736?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
@@ -268,6 +257,17 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 <img src="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
 <img class="lazy-load" data-image-full="" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
+
+### Dungeons of Discovery
+<section class="postSection">
+    <img data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+Imagine being a book author during this time frame when **WinG** was only really applicable for about a year, replaced with the Windows Game SDK which was then renamed to DirectX. This happened to the author **Clayton Walnum** who released **Dungeons of Discovery: Writing Dazzling Windows Games With WinG** in 1995 only for it to be deprecated. He then released **Windows 95 Game Sdk Strategy Guide** just as it got renamed to DirectX!
+ </div>
+</section> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">How well do you remember your 90s Windows game programming books? <a href="https://t.co/k2LRpzLDkN">pic.twitter.com/k2LRpzLDkN</a></p>&mdash; 𝔸𝕟𝕒𝕥𝕠𝕝𝕪 𝕊𝕙𝕒𝕤𝕙𝕜𝕚𝕟💾 (@dosnostalgic) <a href="https://twitter.com/dosnostalgic/status/1489032479252041736?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote>
 
 ---
 ## Books First Published in 1996
