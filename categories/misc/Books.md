@@ -246,6 +246,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 <img class="lazy-load" data-image-full="" /> | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
 <img class="lazy-load" data-image-full="" /> | The Doom game editor | Joe Pantuso | DOOM Editor | [The Doom Game Editor | Doom Wiki | Fandom](https://doom.fandom.com/wiki/The_Doom_Game_Editor) [Doom Game Editor CD-ROM](https://archive.org/details/cdrom-doom-game-editor) 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" /> | Dungeons of Discovery: Writing Dazzling Windows Games With WinG | Clayton Walnum | WinG API | 
 <img class="lazy-load" data-image-full="Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
 <img class="lazy-load" data-image-full="" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
 <img class="lazy-load" data-image-full="" /> | Graphics Gems V | Alan W. Paeth | | 
