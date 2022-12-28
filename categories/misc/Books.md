@@ -135,10 +135,10 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 1987
 This section will cover books related to game development published in the year 1987.
 
-Title | Author | Software | Notes
----|---|---|---
-https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg | Advanced Graphics in C | Nelson Johnson | C Programming | 
-Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
+| Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
 ## Books First Published in 1988
@@ -241,6 +241,7 @@ Cover | Title | Author | Software | Notes
 | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
 | The Doom game editor | Joe Pantuso | DOOM Editor | [The Doom Game Editor | Doom Wiki | Fandom](https://doom.fandom.com/wiki/The_Doom_Game_Editor) [Doom Game Editor CD-ROM](https://archive.org/details/cdrom-doom-game-editor) 
+<img class="lazy-load" data-image-full="Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
 | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
 | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
 | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
