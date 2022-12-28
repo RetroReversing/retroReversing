@@ -56,16 +56,16 @@ We start with the Z80-CPU Technical Manual from Zilog as it was used in so many 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="Z80-CPU Technical Manual [1976].jpg" /> | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
+<img class="lazy-load" data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" /> | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
 
 ---
 ## Books First Published in 1979
 This section will cover books related to game development published in the year 1979.
 
-Title | Author | Software | Notes
----|---|---|---
-6502 Assembly language programming | Lance A. Leventhal | | 
-Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | 6502 Assembly language programming | Lance A. Leventhal | | 
+<img class="lazy-load" data-image-full="" /> | Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
 ## Books First Published in 1981
@@ -74,52 +74,52 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
- | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
+<img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
 ## Books First Published in 1982
 This section will cover books related to game development published in the year 1982.
 
-Title | Author | Software | Notes
----|---|---|---
-Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
-Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
-Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
-Understanding Atari Graphics | Michael Boom | Atari BASIC | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
+<img class="lazy-load" data-image-full="" /> | Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
+<img class="lazy-load" data-image-full="" /> | Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
+<img class="lazy-load" data-image-full="" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
 ## Books First Published in 1983
 This section will cover books related to game development published in the year 1983.
 
-Title | Author | Software | Notes
----|---|---|---
-Compute!'s Second Book of Atari Graphics | COMPUTE | | 
-Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
-Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
-Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Compute!'s Second Book of Atari Graphics | COMPUTE | | 
+<img class="lazy-load" data-image-full="" /> | Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
+<img class="lazy-load" data-image-full="" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
+<img class="lazy-load" data-image-full="" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
 ---
 ## Books First Published in 1984
 This section will cover books related to game development published in the year 1984.
 
-Title | Author | Software | Notes
----|---|---|---
-Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
-Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
-Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
-Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
-Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
-The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
+<img class="lazy-load" data-image-full="" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
+<img class="lazy-load" data-image-full="" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
+<img class="lazy-load" data-image-full="" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
+<img class="lazy-load" data-image-full="" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
+<img class="lazy-load" data-image-full="" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
 ## Books First Published in 1985
 This section will cover books related to game development published in the year 1985.
 
-Title | Author | Software | Notes
----|---|---|---
-48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
-Assembly language programming on the BBC and Acorn Electron | R B Coats | 
-Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | 48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
+<img class="lazy-load" data-image-full="" /> | Assembly language programming on the BBC and Acorn Electron | R B Coats | 
+<img class="lazy-load" data-image-full="" /> | Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
 
 ---
@@ -148,68 +148,68 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 1988
 This section will cover books related to game development published in the year 1988.
 
-Title | Author | Software | Notes
----|---|---|---
-Graphics Programming in C | Roger T. Stevens | C Programming | 
-Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
-The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Graphics Programming in C | Roger T. Stevens | C Programming | 
+<img class="lazy-load" data-image-full="" /> | Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
+<img class="lazy-load" data-image-full="" /> | The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
 
 ---
 ## Books First Published in 1989
 This section will cover books related to game development published in the year 1989.
 
-Title | Author | Software | Notes
----|---|---|---
-Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | DOS programming bible
-Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
-Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
-SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | DOS programming bible
+<img class="lazy-load" data-image-full="" /> | Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
+<img class="lazy-load" data-image-full="" /> | Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
+<img class="lazy-load" data-image-full="" /> | SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
 
 ---
 ## Books First Published in 1990
 This section will cover books related to game development published in the year 1990.
 
-Title | Author | Software | Notes
+Cover | Title | Author | Software | Notes
 ---|---|---|---
-Graphics programming with Microsoft C and Microsoft Quick C | Kris Jamsa | Microsoft C | 
-Graphics programming in C: a comprehensive resource for every C programmer | Roger T. Stevens | CGA, EGA, and VGA | 
-High-resolution computer graphics using C | Ian O. Angell | C Programming | 
-The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
+<img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C and Microsoft Quick C | Kris Jamsa | Microsoft C | 
+<img class="lazy-load" data-image-full="" /> | Graphics programming in C: a comprehensive resource for every C programmer | Roger T. Stevens | CGA, EGA, and VGA | 
+<img class="lazy-load" data-image-full="" /> | High-resolution computer graphics using C | Ian O. Angell | C Programming | 
+<img class="lazy-load" data-image-full="" /> | The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
 
 ---
 ## Books First Published in 1991
 This section will cover books related to game development published in the year 1991.
 
-Title | Author | Software | Notes
+Cover | Title | Author | Software | Notes
 ---|---|---|---
-Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
-Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
-The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
-マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
-マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
+<img class="lazy-load" data-image-full="" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
+<img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
+<img class="lazy-load" data-image-full="" /> | The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
+<img class="lazy-load" data-image-full="" /> | マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
+<img class="lazy-load" data-image-full="" /> | マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
 
 ---
 ## Books First Published in 1992
 This section will cover books related to game development published in the year 1992.
 
-Title | Author | Software | Notes
----|---|---|---
-Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
-Assembly language for the PC | Peter Norton | Assembly language | 
-Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
+<img class="lazy-load" data-image-full="" /> | Assembly language for the PC | Peter Norton | Assembly language | 
+<img class="lazy-load" data-image-full="" /> | Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
 ## Books First Published in 1993
 This section will cover books related to game development published in the year 1993.
 
-Title | Author | Software | Notes
----|---|---|---
-Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
-Programming games for beginners | Christopher A Howard | Visual Basic | 
-Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland C++ | 
-Ray Tracing Creations: Generate Photorealistic Images on the PC | Drew Wells, Chris Young  | | 
-The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
-QBasic games and more! | Fred Sexton | QBasic | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
+<img class="lazy-load" data-image-full="" /> | Programming games for beginners | Christopher A Howard | Visual Basic | 
+<img class="lazy-load" data-image-full="" /> | Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland C++ | 
+<img class="lazy-load" data-image-full="" /> | Ray Tracing Creations: Generate Photorealistic Images on the PC | Drew Wells, Chris Young  | | 
+<img class="lazy-load" data-image-full="" /> | The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
+<img class="lazy-load" data-image-full="" /> | QBasic games and more! | Fred Sexton | QBasic | 
 
 ---
 ## Books First Published in 1994
