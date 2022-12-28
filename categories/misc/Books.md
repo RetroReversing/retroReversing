@@ -54,13 +54,41 @@ Some of the most prolific authors in the game development genre were:
 
 
 ## Published in 1976
-This section will cover books related to game development published in the year 1976.
-
-We start with the Z80-CPU Technical Manual from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for Game Boy/Master System/Game Gear/AmstradCPC/MSX/ZX Spectrum.
+This section will cover books related to game development published in the year 1976, the year when the home game console market was just starting to take off with the release of the **Channel F**. It was also the year that Zilog would launch their Z80 microchip which would be used in many consoles and home computers in the future. 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+<img class="lazy-load" data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" /> | F8 Guide to Programming | Fairchild | F8 Assembly | Official guide to programming the F8 cpu used in the Fairchild Channel F
 <img class="lazy-load" data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" /> | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
+
+### Fairchild Channel F
+<section class="postSection">
+    <img data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+This was the year the **Fairchild Channel F** was released, the first ever games console with interchangeable cartridges (ROMs) and the first to be based on a microprocessor (Fairchild F8).
+
+Fairchild released a development kit which came with a book titled **F8 Guide to Programming**, if you were a developer at the time who wanted to write games for the Channel F then this would be the go-to book!
+ </div>
+</section> 
+
+
+### Zilog Z80
+<section class="postSection">
+    <img data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+We start with the **Z80-CPU Technical Manual** from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for any of the following:
+* Game Boy
+* Master System/Game Gear
+* AmstradCPC
+* MSX
+* ZX Spectrum.
+
+Of course by the time those consoles came out there were newer editions of the book and a few people had written their own Z80 textbooks but it remains a very important book int he history of game development.
+ </div>
+</section> 
+
 
 ---
 ## Published in 1979
@@ -267,7 +295,11 @@ Cover | Title | Author | Software | Notes
     <img data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-Imagine being a book author during this time frame when **WinG** was only really applicable for about a year, replaced with the Windows Game SDK which was then renamed to DirectX. This happened to the author **Clayton Walnum** who released **Dungeons of Discovery: Writing Dazzling Windows Games With WinG** in 1995 only for it to be deprecated. He then released **Windows 95 Game Sdk Strategy Guide** just as it got renamed to DirectX!
+Imagine being a book author during this time frame when **WinG** was only really applicable for about a year, replaced with the Windows Game SDK which was then renamed to DirectX. 
+   
+   This happened to the author **Clayton Walnum** who released **Dungeons of Discovery: Writing Dazzling Windows Games With WinG** in 1995 only for it to be deprecated. 
+   
+   He then released **Windows 95 Game Sdk Strategy Guide** just as it got renamed to DirectX, how unfortunate!
  </div>
 </section> 
 
@@ -358,7 +390,7 @@ Cover | Title | Author | Software | Notes
 
 ### 3D Games: Real-time Rendering and Software Technology
 <section class="postSection">
-    <img data-image-full="[/public/images/engines/image.jpg](https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg)" class="lazy-load wow slideInLeft postImage" />
+    <img data-image-full="https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
 There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter.
@@ -528,16 +560,17 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | DirectX 9 User Interfaces: Design and Implementation | Alan Thorn | DirectX 9.0 | 
 <img class="lazy-load" data-image-full="" /> | Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
 <img class="lazy-load" data-image-full="" /> | Game Character Development with Maya | Antony Ward | Maya | 
-<img class="lazy-load" data-image-full="" /> | Game development essentials: An Introduction | Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game Development essentials: An Introduction | Jeannie Novak | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/518t526tMsL._AC_UY436_QL65_.jpg" /> | Game Programming Golden Rules | Martin Brownlow | C++ | 
-<img class="lazy-load" data-image-full="" /> | Game development with Lua | Paul Schuytema, Mark Manyen | | 
-<img class="lazy-load" data-image-full="" /> | Game programming with Python | Sean Riley | Python | 
+<img class="lazy-load" data-image-full="" /> | Game Development with Lua | Paul Schuytema, Mark Manyen | | 
+<img class="lazy-load" data-image-full="" /> | Game Programming with Python | Sean Riley | Python | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51HAmPgwpsL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 4 | Andrew Kirmse | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to Game Development | Steve Rabin | | 
 <img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Texturing | Leigh Van Der Byl | LightWave 3D 8.0 | Re-released as LightWave V9 Texturing in 2007
 <img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Cartoon Character Creation: Modeling and Texturing | Jonny Gorden  | LightWave 3D 8.0 | 
 <img class="lazy-load" data-image-full="" /> | LightWave 3D 8 Cartoon Character Creation: Rigging and Animation | Jonny Gorden  | LightWave 3D 8.0 | 
-<img class="lazy-load" data-image-full="" /> | Macromedia Flash MX 2004 game programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Avn-xJYTL._AC_UY436_FMwebp_QL65_.jpg" /> | Macromedia Flash MX 2004 Game Development | Glen Rhodes | Flash MX 2004 | 
+<img class="lazy-load" data-image-full="" /> | Macromedia Flash MX 2004 Game Programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wAQXHslqL._AC_UY436_QL65_.jpg" /> | Massively Multiplayer Game Development 2 | Thor Alexander | | 
 <img class="lazy-load" data-image-full="" /> | Massively multiplayer game development 2 | Thor Alexander | | 
 <img class="lazy-load" data-image-full="" /> | Mobile device game development | Clayton E. Crooks II | | 
@@ -574,7 +607,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Eo6p0U-dL._AC_UY436_FMwebp_QL65_.jpg" /> | Game art: creation, direction, and careers | Riccard Linde | | 
 <img class="lazy-load" data-image-full="" /> | Game development essentials: video game art | Todd Gantzler | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51MAamA5AEL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Development With Lua | Paul Schuytema and Mark Manyen | Lua | 
-<img class="lazy-load" data-image-full="" /> | Game level design | Ed Byrne | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51CqL1vJf+L._AC_UY436_FMwebp_QL65_.jpg" /> | Game level design | Ed Byrne | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51ddjkhVBNL._AC_UY436_QL65_.jpg" /> | Game Programming Gems 5 | Kim Pallister | |  
 <img class="lazy-load" data-image-full="" /> | Implementing a digital asset management system: for animation, computer games, and web development | Jens Jacobsen, Tilman Schlenker, and Lisa Edwards | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rotWW4kxL._AC_UY436_FMwebp_QL65_.jpg" /> | Introduction to Game Development | Steve Rabin | | 
@@ -583,7 +616,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/511Y832HPSL._SY300_.jpg" /> | MEL Scripting for Maya Animators | Mark R. Wilkins | Maya, MEL | 
 <img class="lazy-load" data-image-full="" /> | OpenGL Game Development | Chris Seddon | OpenGL | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51s5mM5PzTL._SX395_BO1,204,203,200_.jpg" /> | Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | C++ | 
-<img class="lazy-load" data-image-full="" /> | Patterns in game design | Staffan Bjork, Jussi Holopainen | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5135kW+kD6L._AC_UY436_FMwebp_QL65_.jpg" /> | Patterns in Game Design | Staffan Bjork, Jussi Holopainen | | 
 <img class="lazy-load" data-image-full="" /> | Polygonal Modeling: Basic and Advanced Techniques | Mario Russo | 3DS Max and Maya | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51qq-swygzL._AC_UY436_QL65_.jpg" /> | Real-time cinematography for games | Brian Hawkins | | 
 <img class="lazy-load" data-image-full="" /> | The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
