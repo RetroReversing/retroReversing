@@ -170,7 +170,7 @@ Cover | Title | Author | Software | Notes
 This section will cover books related to game development published in the year 1990.
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C and Microsoft Quick C | Kris Jamsa | Microsoft C | 
 <img class="lazy-load" data-image-full="" /> | Graphics programming in C: a comprehensive resource for every C programmer | Roger T. Stevens | CGA, EGA, and VGA | 
 <img class="lazy-load" data-image-full="" /> | High-resolution computer graphics using C | Ian O. Angell | C Programming | 
@@ -181,7 +181,7 @@ Cover | Title | Author | Software | Notes
 This section will cover books related to game development published in the year 1991.
 
 Cover | Title | Author | Software | Notes
----|---|---|---
+---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
 <img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
 <img class="lazy-load" data-image-full="" /> | The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
