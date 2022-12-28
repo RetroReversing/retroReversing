@@ -328,6 +328,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Developers guide to computer game design | John Scott Lewinski | | 
 <img class="lazy-load" data-image-full="" /> | Game design: secrets of the sages | Marc Saltzman | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Inside TrueSpace 4 | Frank Rivera | Truespace 4 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/714XPFXV23L._AC_UY436_QL65_.gif" /> | Real-Time Rendering | Tomas Akenine-Möller, Eric Haines |  | 
 <img class="lazy-load" data-image-full="" /> | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
 <img class="lazy-load" data-image-full="/public/images/books/WinGurus.jpg" />| Tricks of the Windows Game Programming Gurus | Andre LaMothe | C & C++ | 
 <img class="lazy-load" data-image-full="" /> | Understanding Motion Capture for Computer Animation and Video Games | Albert Menache | 
