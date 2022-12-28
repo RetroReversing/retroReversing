@@ -215,19 +215,19 @@ In books it was the year of **Andre LaMothe** who published multiple books that 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-| 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
-| Animation how-to CD | Jeff Bowermaster | MS-DOS | 
-| Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
+<img class="lazy-load" data-image-full="" /> | 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
+<img class="lazy-load" data-image-full="" /> | Animation how-to CD | Jeff Bowermaster | MS-DOS | 
+<img class="lazy-load" data-image-full="" /> | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
-| Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
-| Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
-| Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
-| PC game programming explorer | Dave Roberts | C Programming for VGA | 
-| Sound Blaster the Official Book | | Sound Blaster | 
-| Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
-| The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
-| Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
-| Zen of Graphics | Michael Abrash | | 
+<img class="lazy-load" data-image-full="" /> | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
+<img class="lazy-load" data-image-full="" /> | Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
+<img class="lazy-load" data-image-full="" /> | Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
+<img class="lazy-load" data-image-full="" /> | PC game programming explorer | Dave Roberts | C Programming for VGA | 
+<img class="lazy-load" data-image-full="" /> | Sound Blaster the Official Book | | Sound Blaster | 
+<img class="lazy-load" data-image-full="" /> | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
+<img class="lazy-load" data-image-full="" /> | The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
+<img class="lazy-load" data-image-full="" /> | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
+<img class="lazy-load" data-image-full="" /> | Zen of Graphics | Michael Abrash | | 
 
 ---
 ## Books First Published in 1995
@@ -235,18 +235,18 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-| Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
-| Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
-| Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
-| Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
-| C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
-| The Doom game editor | Joe Pantuso | DOOM Editor | [The Doom Game Editor | Doom Wiki | Fandom](https://doom.fandom.com/wiki/The_Doom_Game_Editor) [Doom Game Editor CD-ROM](https://archive.org/details/cdrom-doom-game-editor) 
+<img class="lazy-load" data-image-full="" /> | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
+<img class="lazy-load" data-image-full="" /> | Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
+<img class="lazy-load" data-image-full="" /> | Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
+<img class="lazy-load" data-image-full="" /> | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
+<img class="lazy-load" data-image-full="" /> | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
+<img class="lazy-load" data-image-full="" /> | The Doom game editor | Joe Pantuso | DOOM Editor | [The Doom Game Editor | Doom Wiki | Fandom](https://doom.fandom.com/wiki/The_Doom_Game_Editor) [Doom Game Editor CD-ROM](https://archive.org/details/cdrom-doom-game-editor) 
 <img class="lazy-load" data-image-full="Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
-| Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
-| NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
-| More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
+<img class="lazy-load" data-image-full="" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
+<img class="lazy-load" data-image-full="" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
+<img class="lazy-load" data-image-full="" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 <img src="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
-| Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
+<img class="lazy-load" data-image-full="" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
 
 ---
 ## Books First Published in 1996
@@ -256,21 +256,22 @@ There were some excellent books released by **Waite Group Press** [^1] such as t
 
 Also the author **Joe Gradecki** released two books this year in the **NetWarriors** series, one an update to his book last year but this time in C++ and the other a guide to online resources, which would be very interesting to read nowadays, although most links would now be long dead.
 
-Title | Author | Software | Notes
----|---|---|---
-3D game Alchemy for Doom, Doom II, Heretic and Hexen | Steve Benner, et al. | Doom Level Editor | Available on RetroMags.com
-Black art of Java game programming | Joel Fan, Eric Ries, Calin Tenitchi. | Java | 
-Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
-Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
-Developing games that learn | Leonard Dorfman, Narendra K. Ghosh. | C Programming | 
-Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
-The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
-Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
-NetWarriors in C++: programming multi-player games for Windows | Joe Gradecki | | 
-NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
-OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
-Spells of fury: building Windows 95 games using DirectX 2 | Michael J. Norton | VC++ 4.0 and DirectX |
-Win95 graphics programming | Mathias Rasch | WinG API | 
+Cover | Title | Author | Software | Notes
+---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | 3D game Alchemy for Doom, Doom II, Heretic and Hexen | Steve Benner, et al. | Doom Level Editor | Available on RetroMags.com
+<img class="lazy-load" data-image-full="" /> | Black art of Java game programming | Joel Fan, Eric Ries, Calin Tenitchi. | Java | 
+<img class="lazy-load" data-image-full="" /> | Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/21MD3hi7vJL.jpg" /> | Build your own Flight Simulator in C++ | Michael Radtke, Chris Lampton, Andrè LaMothe | C++ | 
+<img class="lazy-load" data-image-full="" /> | Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
+<img class="lazy-load" data-image-full="" /> | Developing games that learn | Leonard Dorfman, Narendra K. Ghosh. | C Programming | 
+<img class="lazy-load" data-image-full="" /> | Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
+<img class="lazy-load" data-image-full="" /> | The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
+<img class="lazy-load" data-image-full="" /> | Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
+<img class="lazy-load" data-image-full="" /> | NetWarriors in C++: programming multi-player games for Windows | Joe Gradecki | | 
+<img class="lazy-load" data-image-full="" /> | NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
+<img class="lazy-load" data-image-full="" /> | OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
+<img class="lazy-load" data-image-full="" /> | Spells of fury: building Windows 95 games using DirectX 2 | Michael J. Norton | VC++ 4.0 and DirectX |
+<img class="lazy-load" data-image-full="" /> | Win95 graphics programming | Mathias Rasch | WinG API | 
 
 ---
 ## Books First Published in 1997
@@ -279,8 +280,8 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Publisher | Software | Notes
 ---|---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/71S9Y9T36GL._SX379_BO1,204,203,200_.gif" /> | 3D Graphics and Animation: From Starting Up to Standing Out | Mark Giambruno | New Riders | | 
-| Developing Java entertainment applets | John Withers | | Java | 
-| OpenGL Reference Manual | | | OpenGL API | 
+<img class="lazy-load" data-image-full="" /> | Developing Java entertainment applets | John Withers | | Java | 
+<img class="lazy-load" data-image-full="" /> | OpenGL Reference Manual | | | OpenGL API | 
 
 ---
 ## Books First Published in 1998
@@ -316,16 +317,16 @@ This year started to see books covering **Direct X 7.0**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
-3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
-3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
-Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
-Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
-Designing Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
-Developer's guide to computer game design | John Scott Lewinski | Game Design | 
-Learn Computer Game Programming with Directx 7.0 | Ian Parberry | DirectX 7.0 | 
-Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
-Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
+<img class="lazy-load" data-image-full="" /> | 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
+<img class="lazy-load" data-image-full="" /> | 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
+<img class="lazy-load" data-image-full="" /> | 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
+<img class="lazy-load" data-image-full="" /> | Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
+<img class="lazy-load" data-image-full="" /> | Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
+<img class="lazy-load" data-image-full="" /> | Designing Arcade Computer Game Graphics | Ari Feldman | Pixel Art | 
+<img class="lazy-load" data-image-full="" /> | Developer's guide to computer game design | John Scott Lewinski | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Learn Computer Game Programming with Directx 7.0 | Ian Parberry | DirectX 7.0 | 
+<img class="lazy-load" data-image-full="" /> | Game Architecture and Design | Andrew Rollings, Dave Morris | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Game Programming Gems | Mark A. DeLoura | C/C++ Programming | 
 
 ### 3D Games: Real-time Rendering and Software Technology
 There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter. 
@@ -587,15 +588,15 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-| 3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
-| ActionScript for Multiplayer Games and Virtual Worlds | Jobe Makar | Flash | 
-| Artificial intelligence for games | Ian Millington and John Funge | | 
-| Game audio development | Aaron Marks, Jeannie Novak | | 
-| Game Design Foundations | Roger Pedersen | | 
-| Game engine architecture | Jason Gregory | | 
-| Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
-| RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
-| Unity game development essentials | Will Goldstone | Unity | 
+<img class="lazy-load" data-image-full="" /> | 3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
+<img class="lazy-load" data-image-full="" /> | ActionScript for Multiplayer Games and Virtual Worlds | Jobe Makar | Flash | 
+<img class="lazy-load" data-image-full="" /> | Artificial intelligence for games | Ian Millington and John Funge | | 
+<img class="lazy-load" data-image-full="" /> | Game audio development | Aaron Marks, Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game Design Foundations | Roger Pedersen | | 
+<img class="lazy-load" data-image-full="" /> | Game engine architecture | Jason Gregory | | 
+<img class="lazy-load" data-image-full="" /> | Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
+<img class="lazy-load" data-image-full="" /> | RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
+<img class="lazy-load" data-image-full="" /> | Unity game development essentials | Will Goldstone | Unity | 
 
 ---
 
