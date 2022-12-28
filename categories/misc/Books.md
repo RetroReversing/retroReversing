@@ -237,6 +237,9 @@ Cover | Title | Author | Software | Notes
 ## Books First Published in 1995
 This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the Saturn and Playstation were released in the US & Europe.
 
+On the Windows front, for graphics programming the API **WinG** was released by Microsoft in 1994 so in 1995 we started to see our first books about programming games in this API. 
+Although the API was short lived as it was replaced by the **Windows Games SDK** in 1995 and later renamed to **DirectX**.
+
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
