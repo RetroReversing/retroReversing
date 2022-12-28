@@ -394,6 +394,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Advanced Linux 3D Graphics Programming | Norman Lin | | 
 <img class="lazy-load" data-image-full="" /> | Beginning Direct3D game programming | Wolfgang F. Engel, Amir Geva | Direct3D | 
 <img class="lazy-load" data-image-full="" /> | Computer Game Design: Theory and Practice | Richard Rouse III | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51MGR4X8CTL._SX376_BO1,204,203,200_.jpg" /> | Designing 3D Games that Sell! | Luke Ahearn | Game Design | 
 <img class="lazy-load" data-image-full="/public/images/books/Developer's Guide to Multiplayer Games [2001].jpg" /> | Developer's Guide to Multiplayer Games | Andrew Mulholland, Teijo Hakala | | 
 <img class="lazy-load" data-image-full="" /> | Game Design: The Art & Business of creating games | Bob Bates | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game Developer's Guide to Cybiko | Ernest Pazera | | 
