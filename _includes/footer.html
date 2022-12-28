@@ -55,17 +55,6 @@ $(function() {
 
   <script>
     
-    // wait for the entire page to finish loading
-    window.addEventListener('load', function() {
-      // setTimeout to simulate the delay from a real page load
-      setTimeout(lazyLoad, 1000);
-    });
-    
-    window.addEventListener('click', function() {
-      // Whenever the user clicks on something like the table page buttons, make sure to load any new images
-      setTimeout(lazyLoad, 1000);
-    });
-    
     function replaceAll(str, find, replace) {
        return str.replace(new RegExp(find, 'g'), replace);
     }
@@ -217,6 +206,18 @@ try {
                   </div>`);
       })
     // END: changelog
+      
+    // Lazy Load Images
+//     window.addEventListener('load', function() {
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+//     });
+    
+    window.addEventListener('click', function() {
+      // Whenever the user clicks on something like the table page buttons, make sure to load any new images
+      setTimeout(lazyLoad, 100);
+    });
+      
       
       
     })(jQuery);
