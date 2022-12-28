@@ -49,7 +49,7 @@ Some of the most prolific authors in the game development genre were:
 * **Jonathan S. Harbour** - Wrote over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
 
 
-## Books First Published in 1976
+## Published in 1976
 This section will cover books related to game development published in the year 1976.
 
 We start with the Z80-CPU Technical Manual from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for Game Boy/Master System/Game Gear/AmstradCPC/MSX/ZX Spectrum.
@@ -59,7 +59,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" /> | Zilog Z80-CPU Technical Manual | Zilog | Z80 Assembly | 
 
 ---
-## Books First Published in 1979
+## Published in 1979
 This section will cover books related to game development published in the year 1979.
 
 Cover | Title | Author | Software | Notes
@@ -68,7 +68,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
-## Books First Published in 1981
+## Published in 1981
 This section will cover books related to game development published in the year 1981.
 
 Cover | Title | Author | Software | Notes
@@ -77,7 +77,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
-## Books First Published in 1982
+## Published in 1982
 This section will cover books related to game development published in the year 1982.
 
 Cover | Title | Author | Software | Notes
@@ -88,7 +88,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
-## Books First Published in 1983
+## Published in 1983
 This section will cover books related to game development published in the year 1983.
 
 Cover | Title | Author | Software | Notes
@@ -99,7 +99,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
 ---
-## Books First Published in 1984
+## Published in 1984
 This section will cover books related to game development published in the year 1984.
 
 Cover | Title | Author | Software | Notes
@@ -112,7 +112,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
-## Books First Published in 1985
+## Published in 1985
 This section will cover books related to game development published in the year 1985.
 
 Cover | Title | Author | Software | Notes
@@ -123,7 +123,7 @@ Cover | Title | Author | Software | Notes
 
 
 ---
-## Books First Published in 1986
+## Published in 1986
 This section will cover books related to game development published in the year 1986.
 
 Cover | Title | Author | Software | Notes
@@ -136,7 +136,7 @@ Cover | Title | Author | Software | Notes
 
 
 ---
-## Books First Published in 1987
+## Published in 1987
 This section will cover books related to game development published in the year 1987.
 
 Cover | Title | Author | Software | Notes
@@ -145,7 +145,7 @@ Cover | Title | Author | Software | Notes
 | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
-## Books First Published in 1988
+## Published in 1988
 This section will cover books related to game development published in the year 1988.
 
 Cover | Title | Author | Software | Notes
@@ -155,7 +155,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
 
 ---
-## Books First Published in 1989
+## Published in 1989
 This section will cover books related to game development published in the year 1989.
 
 Cover | Title | Author | Software | Notes
@@ -166,7 +166,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
 
 ---
-## Books First Published in 1990
+## Published in 1990
 This section will cover books related to game development published in the year 1990.
 
 Cover | Title | Author | Software | Notes
@@ -177,7 +177,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
 
 ---
-## Books First Published in 1991
+## Published in 1991
 This section will cover books related to game development published in the year 1991.
 
 Cover | Title | Author | Software | Notes
@@ -189,7 +189,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
 
 ---
-## Books First Published in 1992
+## Published in 1992
 This section will cover books related to game development published in the year 1992.
 
 Cover | Title | Author | Software | Notes
@@ -199,7 +199,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
-## Books First Published in 1993
+## Published in 1993
 This section will cover books related to game development published in the year 1993.
 
 Cover | Title | Author | Software | Notes
@@ -212,7 +212,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | QBasic games and more! | Fred Sexton | QBasic | 
 
 ---
-## Books First Published in 1994
+## Published in 1994
 This section will cover books related to game development published in the year 1994 when C and Assembly language were king.
 
 In books it was the year of **Andre LaMothe** who published multiple books that would become must-read for MSDOS game programmers.
@@ -234,7 +234,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Zen of Graphics | Michael Abrash | | 
 
 ---
-## Books First Published in 1995
+## Published in 1995
 This section will cover books related to game development published in the year 1995, which is the year the Virtual Boy was released in Japan and the Saturn and Playstation were released in the US & Europe.
 
 On the Windows front, for graphics programming the API **WinG** was released by Microsoft in 1994 so in 1995 we started to see our first books about programming games in this API. 
@@ -270,7 +270,7 @@ Imagine being a book author during this time frame when **WinG** was only really
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How well do you remember your 90s Windows game programming books? <a href="https://t.co/k2LRpzLDkN">pic.twitter.com/k2LRpzLDkN</a></p>&mdash; 𝔸𝕟𝕒𝕥𝕠𝕝𝕪 𝕊𝕙𝕒𝕤𝕙𝕜𝕚𝕟💾 (@dosnostalgic) <a href="https://twitter.com/dosnostalgic/status/1489032479252041736?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote>
 
 ---
-## Books First Published in 1996
+## Published in 1996
 This section will cover books related to game development published in the year 1996, which is the year the Nintendo 64 was released.
 
 There were some excellent books released by **Waite Group Press** [^1] such as the **Black Art of Macintosh Game Programming** and the **OpenGL SuperBible** which were both cutting-edge at the time.
@@ -296,7 +296,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Windows 95 Game Sdk Strategy Guide | Clayton Walnum |  Windows 95 Game SDK (DirectX) | 
 
 ---
-## Books First Published in 1997
+## Published in 1997
 This section will cover books related to game development published in the year 1997.
 
 Cover | Title | Author | Publisher | Software | Notes
@@ -306,7 +306,7 @@ Cover | Title | Author | Publisher | Software | Notes
 <img class="lazy-load" data-image-full="" /> | OpenGL Reference Manual | | | OpenGL API | 
 
 ---
-## Books First Published in 1998
+## Published in 1998
 This section will cover books related to game development published in the year 1998.
 
 Cover | Title | Author | Software | Notes
@@ -314,7 +314,7 @@ Cover | Title | Author | Software | Notes
 <img src="/public/images/books/VisualC++6StarterKit.jpg" /> | Visual C++ Programming Starter Kit | Macmillan Software | Visual C++ | 
 
 ---
-## Books First Published in 1999
+## Published in 1999
 This section will cover books related to game development published in the year 1999.
 
 This year kicked off the **Wordware Game Developer's Library** with the release of **Real Time Strategy Game Programming Using DirectX** which lasted all the way up to the last book published in the series in 2009.
@@ -334,7 +334,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Understanding Motion Capture for Computer Animation and Video Games | Albert Menache | 
 
 ---
-## Books First Published in 2000
+## Published in 2000
 This section will cover books related to game development published in the year 2000.
 
 This year started to see books covering **Direct X 7.0**.
@@ -376,7 +376,7 @@ Although part of the book is taken up by the Fly3D SDK reference which was also 
 The Appendices have some tutorials for how to use the FlySDK including building levels with 3D Studio Max and exporting to the BSP format used by the engine. These appendices end with you having a controllable 3D model space ship driving around a map, they are the easiest to understand and the most enjoyable section of the book.
 
 ---
-## Books First Published in 2001
+## Published in 2001
 This section will cover books related to game development published in the year 2001.
 
 This year **Prima Tech** released tons of very specialised game development books all aimed at Indie game developers. They were so successful that in August 2001 [^4] they got sold and changed their name to **Premier Press** and thankfully continued to churn out book after book on game development!
@@ -410,7 +410,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
 
 ---
-## Books First Published in 2002
+## Published in 2002
 This section will cover books related to game development published in the year 2002.
 
 Cover | Title | Author | Software | Notes
@@ -449,7 +449,7 @@ Cover | Title | Author | Software | Notes
 
 
 ---
-## Books First Published in 2003
+## Published in 2003
 This section will cover books related to game development published in the year 2003.
 
 In the year 2003 started to see a lot more game development books focussed on non-programming related topics such as production and Business.
@@ -491,7 +491,7 @@ Cover | Title | Author | Software | Notes
 
 
 ---
-## Books First Published in 2004
+## Published in 2004
 This section will cover books related to game development published in the year 2004.
 
 
@@ -534,7 +534,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
-## Books First Published in 2005
+## Published in 2005
 This section will cover books related to game development published in the year 2005.
 
 
@@ -565,7 +565,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | The game localization handbook | Heather Maxwell Chandler | | 
 
 ---
-## Books First Published in 2006
+## Published in 2006
 This section will cover books related to game development published in the year 2006.
 
 
@@ -577,7 +577,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Open source game development: QT games for KDE, PDAs, and Windows | Martin Heni, Andreas Beckermann | | 
 
 ---
-## Books First Published in 2007
+## Published in 2007
 This section will cover books related to game development published in the year 2007.
 
 
@@ -600,7 +600,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Sj9ocYPrL._AC_UY436_FMwebp_QL65_.jpg" /> | Mobile 3d Game Development: From Start to Market | Carlos Morales and David Nelson | JavaME | 
 
 ---
-## Books First Published in 2008
+## Published in 2008
 This section will cover books related to game development published in the year 2008.
 
 
@@ -620,7 +620,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
 
 ---
-## Books First Published in 2009
+## Published in 2009
 This section will cover books related to game development published in the year 2009.
 
 
