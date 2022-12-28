@@ -38,7 +38,7 @@ Some of the most note-worthy publishers for game development related books on th
 * **Jones and Bartlett Publishers**
 * **New Riders Games (NRG)** - From 2003 to 2014
 * **Premier Press** - From 2001 until they became **Thomson Course Technology PTR** in October 2003 [^6]
-* **Prima Tech** (Becomes Premier Press) [^2]
+* **Prima Tech**[^2] - Becomes Premier Press in 2001 [^4]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
 * **Thomson Course Technology PTR** - Becomes Cengage Learning in July 2007
 * **Waite Group Press** - Published the Black art of game programming series of books and early books on 3D graphics [^1]
