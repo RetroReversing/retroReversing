@@ -129,7 +129,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="/public/images/books/Apple Graphics & Arcade Game Design [1982].jpg" /> | Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31NXnrnJYuL._SX350_BO1,204,203,200_.jpg" /> | Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51h+I-YYvZL._SX373_BO1,204,203,200_.jpg" /> | Games for the Atari 400/800: or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
-<img class="lazy-load" data-image-full="" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
+<img class="lazy-load" data-image-full="/public/images/books/Understanding Atari Graphics [1982].jpg" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
 ## Published in 1983
@@ -152,7 +152,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Assembly language for arcade games and other fast Spectrum programs. | Stuart Nicholls | Z80 Assembly | 
+<img class="lazy-load" data-image-full="" /> | Assembly language for arcade games and other fast Spectrum programs | Stuart Nicholls | Z80 Assembly | 
 <img class="lazy-load" data-image-full="" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
 <img class="lazy-load" data-image-full="" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 <img class="lazy-load" data-image-full="" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
@@ -176,11 +176,11 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
- | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
- | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
+<img class="lazy-load" data-image-full="" /> | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
+<img class="lazy-load" data-image-full="" /> | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
 <img class="lazy-load" data-image-full="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
- | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
- | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+<img class="lazy-load" data-image-full="" /> | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
+<img class="lazy-load" data-image-full="" /> | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
 
 
 ---
@@ -190,7 +190,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
-| Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+<img class="lazy-load" data-image-full="" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
 ## Published in 1988
@@ -263,7 +263,7 @@ Cover | Title | Author | Software | Notes
 ## Published in 1994
 This section will cover books related to game development published in the year 1994 when C and Assembly language were king.
 
-In books it was the year of **Andre LaMothe** who published multiple books that would become must-read for MSDOS game programmers.
+In books it was the year of **Andre LaMothe** who published multiple books that would become must-read for MS-DOS game programmers.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
