@@ -101,7 +101,7 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Published in 1979
-This section will cover books related to game development published in the year 1979.
+This section will cover books related to game development published in the year 1979. This was the year that the **Intellivision** was released from **Mattel** which used the **CP1600** CPU from **General Instrument**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
