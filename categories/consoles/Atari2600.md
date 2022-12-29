@@ -25,10 +25,18 @@ The Atari 2600 was released in 1977 and sold more than 30 million consoles in th
 # Development Kit
 
 ## JOLT
+<section class="postSection">
+    <img data-image-full="/public/images/Atari/Atari 2600 VCS prototype.jpg" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
 The first games for the Atari 2600 were developed on the **JOLT** which was a low-cost 6502 computer, in fact the original prototype for the Atari 2600 was based on a Jolt computer with hand wired modification and joysticks from the arcade version of the TANK arcade game [^1].
 
 For more information about the JOLT check out this page:
 [Jolt – Retro Computing](http://retro.hansotten.nl/6502-sbc/jolt-and-super-jolt/jolt/)
+ </div>
+</section> 
+
+
 
 ---
 # References
