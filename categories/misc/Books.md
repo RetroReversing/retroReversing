@@ -101,7 +101,9 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Published in 1979
-This section will cover books related to game development published in the year 1979. This was the year that the **Intellivision** was released from **Mattel** which used the **CP1600** CPU from **General Instrument**.
+This section will cover books related to game development published in the year 1979. This was the year that the **Intellivision** was released from **Mattel** which used the **CP-1600** CPU from **General Instrument**.
+
+The Intellivision was the only production use for the **CP-1600** CPU and thus as far as we can tell no books were released on developing for the Intellivision or its CPU. Although there were a few strategy books about playing Intellivision games and a few modern books have been released about Intellivision game development.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -736,13 +738,15 @@ Most of these books employ modern tools to create games for retro hardware such 
 
 This section will cover:
 * Retro Game Dev - Commodore 64
-* ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
-* Code the Classics - 2019
-* Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
-* Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
-* The Making of Prince of Persia - 2020
 * The Making of Karateka - 2012
 * You: A Novel - 2012 (Fiction)
+* ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
+* Programming Games for Intellivision - 2018
+* Code the Classics - 2019
+* The Making of Prince of Persia - 2020
+* Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
+* Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
+* Advanced Game Programming for Intellivision - 2021
 
 ---
 # Game Programming Starter Kit
