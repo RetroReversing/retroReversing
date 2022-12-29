@@ -113,27 +113,31 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Published in 1981
-This section will cover books related to game development published in the year 1981.
+This section will cover books related to game development published in the year 1981. This was the year that the **SINCLAIR ZX81** was released which used the Zilog Z80 microprocessor. It was the go to choice for bedroom programmers as it was very cheap and games could be written to cassete tapes and distributed. Towards the end of the year the ** BBC MICRO** was released in the UK and became hugely successful and was one of the first computers for many future programmers in the UK Games Industry.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer : design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
+<img class="lazy-load" data-image-full="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer: design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
 <img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
 ---
 ## Published in 1982
-This section will cover books related to game development published in the year 1982.
+This section will cover books related to game development published in the year 1982. The year that Sinclair released the **ZX spectrum**, CBM released the **Commodore 64** along with the **Dragon 32** which came with **Microsoft BASIC**.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
 <img class="lazy-load" data-image-full="" /> | Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
-<img class="lazy-load" data-image-full="" /> | Games for the Atari 400/800 : or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
+<img class="lazy-load" data-image-full="" /> | Games for the Atari 400/800: or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
 <img class="lazy-load" data-image-full="" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
 ## Published in 1983
-This section will cover books related to game development published in the year 1983.
+This section will cover books related to game development published in the year 1983, the year that the **Vectrex** was released worldwide based on the **Motorola 6809** cpu. 
+
+It was also a big year for Japan with the release of the **MSX** which for many was their first expeirence having a programmable home computer. With a Zilog Z80 cpu and a variant of BASIC (MSX BASIC) it was ideal for bedroom game development in Japan.
+
+As for consoles it was also the year that Nintendo released their **Famicom** based on a 6502 CPU, but Nintendo has strict licensing agreements which limited third party development. Despite this famous developers such as **Satoshi Tajiri** of Pokemonfam cobbled together his own Famicom development kit from old circuit boards obtained in Akihabara junk shops [^7].
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -808,3 +812,4 @@ Did it include a **Fourth** edition of **Game Design Secrets of the Sages**? Who
 [^4]: [Prima Tech Becomes Premier Press, Inc](https://web.archive.org/web/20011204164449/http://premierpressbooks.com/about.asp)
 [^5]: [Game Programming Starter 5.0](https://www.gamedeveloper.com/pc/macmillan-software-releases-game-programming-starter-kit-5-0)
 [^6]: [Course PTR - Welcome!](https://web.archive.org/web/20031112011902/http://premierpressbooks.com/pressroom/ptr_launch.cfm)
+[^7]: Videogames Hardware Handbook Volume 1 (2016) - Page 100
