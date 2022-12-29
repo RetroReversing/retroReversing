@@ -93,7 +93,7 @@ Of course by the time those consoles came out there were newer editions of the b
 ## Published in 1978
 This section will cover books related to game development published in the year 1978.
 
-The **Atari 2600 VCS** had just been released in the previous year (September 1977) which was using a variant of the popular 6502 CPU (6507) and books were starting to spring up on the topic of programming for this family of chips.
+The **Apple II** and **Atari 2600 VCS** had just been released in the previous year (September 1977) which was using a variant of the popular 6502 CPU (6507) and books were starting to spring up on the topic of programming for this family of chips.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -126,9 +126,9 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
-<img class="lazy-load" data-image-full="" /> | Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
-<img class="lazy-load" data-image-full="" /> | Games for the Atari 400/800: or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
+<img class="lazy-load" data-image-full="/public/images/books/Apple Graphics & Arcade Game Design [1982].jpg" /> | Apple Graphics & Arcade Game Design | Jeffrey Stanton | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31NXnrnJYuL._SX350_BO1,204,203,200_.jpg" /> | Fundamentals of Interactive Computer Graphics | James D. Foley and A.Van Dam | Pascal | Uses Core System of standard graphics subroutines from ACM SIGGRAPH 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51h+I-YYvZL._SX373_BO1,204,203,200_.jpg" /> | Games for the Atari 400/800: or how to program your own games | S. Roberts | Atari BASIC and 6502 Assembly | Only has one game in assembly called Gunfight which requires the Atari Editor/Assembler cartridge
 <img class="lazy-load" data-image-full="" /> | Understanding Atari Graphics | Michael Boom | Atari BASIC | 
 
 ---
@@ -746,6 +746,7 @@ This section will cover:
 * The Making of Karateka - 2012
 * You: A Novel - 2012 (Fiction)
 * ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
+* Making Games for the Atari 2600 - 2016
 * Programming Games for Intellivision - 2018
 * Code the Classics - 2019
 * The Making of Prince of Persia - 2020
