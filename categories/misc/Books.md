@@ -97,7 +97,8 @@ The **Atari 2600 VCS** had just been released in the previous year (September 19
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Programming the 6502 | Zaks, Rodnay | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51T+cX9MqNL._SX328_BO1,204,203,200_.jpg" /> | Programming the 6502 | Zaks, Rodnay | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51GWas-gWPL._SX357_BO1,204,203,200_.jpg" /> | The Z-80 Microcomputer Handbook | William J. Barden | 
 
 ---
 ## Published in 1979
@@ -107,8 +108,8 @@ The Intellivision was the only production use for the **CP-1600** CPU and thus a
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 6502 Assembly language programming | Lance A. Leventhal | | 
-<img class="lazy-load" data-image-full="" /> | Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
+<img class="lazy-load" data-image-full="/public/images/books/6502 Assembly Language Programming.jpg" /> | 6502 Assembly language programming | Lance A. Leventhal | | 
+<img class="lazy-load" data-image-full="/public/images/books/Electronic games - design, programming and troubleshooting.jpg" /> | Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
 
 ---
 ## Published in 1981
