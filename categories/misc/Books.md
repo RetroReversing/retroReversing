@@ -16,14 +16,19 @@ twitterimage_: https://www.retroreversing.com/public/images/categories/Games Ind
 tags:
  - industry
 ---
-
+<style>
+  td img {
+    width: 198px;
+  }
+</style>
 One of the best ways to get an insight into the games industry is to look at the books that were available to developers at the time, both game-specific books, programming books and digital/creative books have a wealth of information.
 
-As this is a site about retro games we are mainly aiming to add books that were released around the time of retro consoles **or** books about retro game development.
+As this is a site about retro games, we are mainly aiming to add books that were published around the time of retro consoles **or** books about retro game development.
 
 This page is split into the following categories:
-* Books about Retro Game Development with Modern Tools
 * Books published around the same time as retro games
+* Books about Retro Game Development with Modern Tools
+
 
 
 ---
@@ -113,7 +118,8 @@ Cover | Title | Author | Software | Notes
 
 ---
 ## Published in 1981
-This section will cover books related to game development published in the year 1981. This was the year that the **SINCLAIR ZX81** was released which used the Zilog Z80 microprocessor. It was the go to choice for bedroom programmers as it was very cheap and games could be written to cassete tapes and distributed. Towards the end of the year the ** BBC MICRO** was released in the UK and became hugely successful and was one of the first computers for many future programmers in the UK Games Industry.
+This section will cover books related to game development published in the year 1981. This was the year that the **SINCLAIR ZX81** was released which used the Zilog Z80 microprocessor. 
+It was the go to choice for bedroom programmers as it was very cheap and games could be written to cassette tapes and distributed. Towards the end of the year the **BBC MICRO** was released in the UK and became hugely successful and was one of the first computers for many future programmers in the UK Games Industry.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -135,9 +141,9 @@ Cover | Title | Author | Software | Notes
 ## Published in 1983
 This section will cover books related to game development published in the year 1983, the year that the **Vectrex** was released worldwide based on the **Motorola 6809** cpu. 
 
-It was also a big year for Japan with the release of the **MSX** which for many was their first expeirence having a programmable home computer. With a Zilog Z80 cpu and a variant of BASIC (MSX BASIC) it was ideal for bedroom game development in Japan.
+It was also a big year for Japan with the release of the **MSX** which for many was their first experience having a programmable home computer. With a Zilog Z80 cpu and a variant of BASIC (MSX BASIC) it was ideal for bedroom game development in Japan.
 
-As for consoles it was also the year that Nintendo released their **Famicom** based on a 6502 CPU, but Nintendo has strict licensing agreements which limited third party development. Despite this famous developers such as **Satoshi Tajiri** of Pokemonfam cobbled together his own Famicom development kit from old circuit boards obtained in Akihabara junk shops [^7].
+As for consoles it was also the year that Nintendo released their **Famicom** based on a 6502 CPU, but Nintendo has strict licensing agreements which limited third-party development. Despite this famous developers such as **Satoshi Tajiri** of Pokemon fame cobbled together his own Famicom development kit from old circuit boards obtained in Akihabara junk shops [^7].
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -389,7 +395,7 @@ Cover | Title | Author | Software | Notes
 ## Published in 2000
 This section will cover books related to game development published in the year 2000.
 
-This year started to see books covering **Direct X 7.0** and it would also be the start of the very succesful **Game Programming Gems** series of books which would result in 8 sequels!
+This year started to see books covering **Direct X 7.0** and it would also be the start of the very successful **Game Programming Gems** series of books which would result in 8 sequels!
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
@@ -409,12 +415,11 @@ Cover | Title | Author | Software | Notes
     <img data-image-full="https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**. Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter.
- </div>
-</section> 
- 
-
-The book is split up into 6 sections each with their own chapters:
+There were a few books on 3D game programming released in 2000, one of the best has to be **3D Games: Real-time Rendering and Software Technology**.
+   
+Although not an easy read and fairly Maths heavy, it is very in-depth and shows some very advanced concepts, even shows SIMD assembly programming in the first chapter.
+   
+   The book is split up into 6 sections each with their own chapters:
 * **Modeling and foundation maths** - This section deals with the basic mathematics required to handle objects in three-dimensional space and the theory of object representation.
 * **Classical 3D graphics** - Although much of the material in this section has migrated onto hardware, it is still necessary to have an appreciation of what
 the hardware does to be able to use it effectively.
@@ -426,6 +431,8 @@ the hardware does to be able to use it effectively.
 Although part of the book is taken up by the Fly3D SDK reference which was also on the CD (pages 617-749), this might have been useful as a physical reference in the past but not useful nowadays. 
 
 The Appendices have some tutorials for how to use the FlySDK including building levels with 3D Studio Max and exporting to the BSP format used by the engine. These appendices end with you having a controllable 3D model space ship driving around a map, they are the easiest to understand and the most enjoyable section of the book.
+ </div>
+</section> 
 
 ---
 ## Published in 2001
