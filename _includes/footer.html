@@ -46,7 +46,7 @@
 <!-- End GeoPattern -->
 <script async src="/public/js/main.js"></script>
 
-  <script>
+<script>
     
     function replaceAll(str, find, replace) {
        return str.replace(new RegExp(find, 'g'), replace);
@@ -106,16 +106,9 @@
       });
 
     }
-    
-    (function($) {
-      handle_tab_groups();
-    })(jQuery);
-    
-    
-    (function($) {
-      "use strict";
-      
-      var items = 1;
+  
+  function setupCarousel() {
+    var items = 1;
 //       if ($(window).width() > 600) {
 //         items=2;
 //       }
@@ -155,29 +148,44 @@
 //           }
 //         }
 //       });
-      
-      
-// Table Handling
-try {      
-      // Make markdown tables have the bootstrap table class to look pretty
-      $('table').addClass('table');
+  }
   
-      // We only want striped tables if the table has more than one element
-      function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
-      $('table').filter(onlyRowsGreaterThanTwo).addClass('table-striped');
+  function setupDataTables() {
+    // Table Handling
+    try {      
+          // Make markdown tables have the bootstrap table class to look pretty
+          $('table').addClass('table');
+
+          // We only want striped tables if the table has more than one element
+          function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
+          $('table').filter(onlyRowsGreaterThanTwo).addClass('table-striped');
+
+          // Only use the fancy table if elements greater than minimum
+          function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length > 11 }
+
+
+          $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
+    } catch (e) {
+      console.error("Exception with table handling:", e);
+    }
+    //  End Table Handling
+    
+  }
+    
+    (function($) {
+      handle_tab_groups();
+    })(jQuery);
+    
+    
+    (function($) {
+      "use strict";
       
-      // Only use the fancy table if elements greater than minimum
-      function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length > 11 }
-  
-     
-      $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
-} catch (e) {
-  console.error("Exception with table handling:", e);
-}
-//  End Table Handling
+     $(document).ready(function() {
+      setupCarousel();
+      setupDataTables();
 
       // lightbox
-//       $('[data-lightbox]').lightbox();
+      // $('[data-lightbox]').lightbox();
       
       // scroll animations
       new WOW().init();
@@ -209,17 +217,17 @@ try {
       // end geopattern
       
     // Lazy Load Images
-//     window.addEventListener('load', function() {
+    //     window.addEventListener('load', function() {
       // setTimeout to simulate the delay from a real page load
       setTimeout(lazyLoad, 1000);
-//     });
+    //     });
     
     window.addEventListener('click', function() {
       // Whenever the user clicks on something like the table page buttons, make sure to load any new images
       setTimeout(lazyLoad, 100);
     });
       
-      
+    }); // end ready function
       
     })(jQuery);
     
