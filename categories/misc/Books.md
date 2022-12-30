@@ -270,7 +270,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
 <img class="lazy-load" data-image-full="" /> | Animation how-to CD | Jeff Bowermaster | MS-DOS | 
 <img class="lazy-load" data-image-full="" /> | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
-<img src="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
+<img class="lazy-load" data-image-full="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
 <img class="lazy-load" data-image-full="" /> | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
 <img class="lazy-load" data-image-full="" /> | Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
 <img class="lazy-load" data-image-full="" /> | Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
@@ -303,7 +303,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Graphics Gems V | Alan W. Paeth | | 
 <img class="lazy-load" data-image-full="" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
 <img class="lazy-load" data-image-full="" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
-<img src="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
+<img class="lazy-load" data-image-full="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
 <img class="lazy-load" data-image-full="" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
 
 ### Dungeons of Discovery
@@ -363,7 +363,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img src="/public/images/books/VisualC++6StarterKit.jpg" /> | Visual C++ Programming Starter Kit | Macmillan Software | Visual C++ | 
+<img class="lazy-load" data-image-full="/public/images/books/VisualC++6StarterKit.jpg" /> | Visual C++ Programming Starter Kit | Macmillan Software | Visual C++ | 
 
 ---
 ## Published in 1999
