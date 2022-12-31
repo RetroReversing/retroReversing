@@ -756,10 +756,21 @@ This section will cover:
 * Making Games for the Atari 2600 - 2016
 * Programming Games for Intellivision - 2018
 * Code the Classics - 2019
+* Candid Conversations in Code
 * The Making of Prince of Persia - 2020
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
 * Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
 * Advanced Game Programming for Intellivision - 2021
+
+## Candid Conversations in Code (2020)
+In Ethan Johnson's excellent book **Candid Conversations in Code** he interviews eight talented game programmer from the 1970s;
+* **Gregory Cox** - Programmer for Cyan Engineering March 4 1974 to August 16 1974
+* **David Shepperd** - Programmer for Atari, Inc. and Atari Games 1976-2003
+* **Rich Moore** - Programmer and Manager for Atari, Inc. and Atari Games 1978-1993
+* **Tom McHugh** - Programmer for Dave Nutting Associates 1975-1982 and Action Graphics 1982-1985
+* **Jamie Fenton** - Programmer for Dave Nutting Associates 1975-1982
+* **Mark Lesser** - Programmer for Rockwell 1976-1978, Mattel 1978-1982, Parker Brothers 1982-1984, Microsmiths 1987-1992, Electronic Arts 1992-2000
+* **Vic Tolomei** - Programmer and Game Designer for Exidy Inc. 1979-1987
 
 ---
 # Game Programming Starter Kit
