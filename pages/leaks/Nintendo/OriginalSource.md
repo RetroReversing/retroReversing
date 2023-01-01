@@ -52,7 +52,7 @@ This folder also contains the following sub-directories:
 * **source** - 
 * **EFFDATA** - 
 * **Document** - 
-* **MAPDATA** - 
+* **MAPDATA** - Files which specify which graphic tile goes where on each of the maps
 * **DATA** - Static data like graphics and boss statistics
 * **SXY** - NPC data
 * **MONSDATA** - 
@@ -594,7 +594,15 @@ TURI | .DAT |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MAPDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains all the layout tiles for each of the maps.
+ This folder contains all the layout tiles for each of the maps. They are assembly files using Define Byte (db) for each of the graphic tiles in the map, for example:
+
+```
+; Map size	X = 10  Y = 9
+; Page size	PX = 1  PY = 1
+	db	016h,06bh,06ah,017h
+	db	002h,009h,008h,001h
+	db	018h,06ch,069h,019h
+```
 
   </div>
 </section>  
