@@ -48,7 +48,7 @@ Assembler used: isdmg - DMG Relocatable Macro Assembler  Version 1.21f
 Linker used: islink - ISASM Linker  Version 1.20e
 
 This folder also contains the following sub-directories:
-* **検索** - search
+* **検索** - unknown, translates to "search", Just contains one txt file with embedded messages in it in japanese
 * **source** - 
 * **EFFDATA** - Sound effect data
 * **Document** - Translation documents from Japanese to English
@@ -2415,16 +2415,10 @@ common | .dmg |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/検索</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains just a single file called **埋め込みメッセージ.txt** which seems to list each bank along with some define byte assembly instructions beside source file line numbers. It is unclear the purpose of this file.
 
   </div>
 </section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-埋め込みメッセージ | .txt | 
 
 
 ---
@@ -2432,7 +2426,7 @@ File Name | Extension | Description
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/yellow</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the source code to Pokemon Yellow, in this seciton we will only cover the differences between Pokemon Yellow and Blue, so new files added or modified so as not to repeat the content from above.
 
 This folder also contains the following sub-directories:
 * **test** - 
