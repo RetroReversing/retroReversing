@@ -242,7 +242,7 @@ font_us | .dat |
 
 
 ---
-## Document (/blue8M/blue8M/Document)
+## Document (/blue8M/Document)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Document</div>
   <div markdown="1" class="rr-post-markdown">
@@ -299,7 +299,7 @@ water_enc | .txt | Japanese document describing where to capture pokemon in the 
 
 
 ---
-### Translation (/blue8M/blue8M/Document/translation)
+### Translation (/blue8M/Document/translation)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/translation</div>
   <div markdown="1" class="rr-post-markdown">
@@ -330,7 +330,7 @@ err | .txt |
 
 
 ---
-#### Old (/blue8M/blue8M/Document/translation/old)
+#### Old translation documents (/blue8M/Document/translation/old)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/old</div>
   <div markdown="1" class="rr-post-markdown">
@@ -552,7 +552,7 @@ zukan-2 | .txt |
 
 
 ---
-## Sound Effect Data (/blue8M/blue8M/EFFDATA)
+## Sound Effect Data (/blue8M/EFFDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/EFFDATA</div>
   <div markdown="1" class="rr-post-markdown">
@@ -604,7 +604,7 @@ TURI | .DAT |
 
 
 ---
-## Map Data (/blue8M/blue8M/MAPDATA)
+## Map Data (/blue8M/MAPDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MAPDATA</div>
   <div markdown="1" class="rr-post-markdown">
@@ -936,7 +936,7 @@ YDUN_1 | .MAP |
 
 
 ---
-## Monsdata (/blue8M/blue8M/MONSDATA)
+## Monsdata (/blue8M/MONSDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MONSDATA</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1303,7 +1303,7 @@ PUTEBONE | .DAT |
 
 
 ---
-## Sxy (/blue8M/blue8M/SXY)
+## NPC Scripts (/blue8M/SXY)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1612,15 +1612,15 @@ TOWN11NO | .SXY |
 
 
 ---
-## Source (/blue8M/blue8M/source)
+## Source (/blue8M/source)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/source</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the z80 assembly code for the game.
 
 This folder also contains the following sub-directories:
 * **Temp** - 
-* **Debug** - 
+* **Debug** - Cotnains the compiled object files for each of the .DMG files
   </div>
 </section>  
 
@@ -2017,11 +2017,11 @@ pmcom | .dmg |
 
 
 ---
-### Debug (/blue8M/blue8M/source/Debug)
+### Debug (/blue8M/source/Debug)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Debug</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains compiled object code files for each of the .DMG source code files in the parent folder.
 
   </div>
 </section>  
@@ -2396,7 +2396,7 @@ ZUKAN | .ISO |
 
 
 ---
-### Temp (/blue8M/blue8M/source/Temp)
+### Temp (/blue8M/source/Temp)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Temp</div>
   <div markdown="1" class="rr-post-markdown">
@@ -2414,7 +2414,7 @@ common | .dmg |
 
 
 ---
-## 検索 (/blue8M/blue8M/検索)
+## 検索 (/blue8M/検索)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/検索</div>
   <div markdown="1" class="rr-post-markdown">
