@@ -1304,7 +1304,7 @@ PUTEBONE | .DAT |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the movement data of all the NPC data for each of the maps.
+ This folder contains the scripting (movement data) of all the NPC data for each of the maps.
     
 The files are named in a specic way:
 * First character is the type
@@ -1312,6 +1312,13 @@ The files are named in a specic way:
   - D for Dungeon
   - R for Route?
 * Second and third characters are the number of that specifc type
+    - T01 is Pallet Town
+    - T02 is Viridian City
+    - T03 is Pewter City
+    - T04 is Cerulean City
+    - T05 is Lavender Town
+    - T06 is Vermillion City
+    - T07 is Celadon City
     - T08 is Fuchsia City
     - T09 is Cinnabar Island
     - T10 is Indigo Plateau
@@ -1328,7 +1335,7 @@ D01R0101 | .SXY |
 D02R0101 | .SXY | 
 D02R0102 | .SXY | 
 D02R0103 | .SXY | 
-D03R0101 | .SXY | 
+D03R0101 | .SXY | S.S. Anne
 D03R0102 | .SXY | 
 D03R0103 | .SXY | 
 D03R0104 | .SXY | 
@@ -1338,7 +1345,7 @@ D03R0107 | .SXY |
 D03R0108 | .SXY | 
 D03R0109 | .SXY | 
 D03R0110 | .SXY | 
-D03R0111 | .SXY | 
+D03R0111 | .SXY | S.S. Anne Cabins
 D03R0112 | .SXY | 
 D03R0113 | .SXY | 
 D03R0114 | .SXY | 
@@ -1351,7 +1358,7 @@ D03R0120 | .SXY |
 D03R0121 | .SXY | 
 D03R0122 | .SXY | 
 D03R0123 | .SXY | 
-D03R0124 | .SXY | 
+D03R0124 | .SXY | S.S. Anne Cabins
 D04R0101 | .SXY | 
 D05R0101 | .SXY | 
 D06R0101 | .SXY | 
@@ -1455,38 +1462,38 @@ R22R0101 | .SXY |
 R23R0101 | .SXY | 
 R23R0201 | .SXY | 
 R25R0101 | .SXY | 
-ROAD01 | .SXY | 
-ROAD02 | .SXY | 
-ROAD03 | .SXY | 
-ROAD04 | .SXY | 
-ROAD05 | .SXY | 
-ROAD06 | .SXY | 
-ROAD07 | .SXY | 
-ROAD08 | .SXY | 
-ROAD09 | .SXY | 
-ROAD10 | .SXY | 
-ROAD11 | .SXY | 
-ROAD12 | .SXY | 
-ROAD13 | .SXY | 
-ROAD14 | .SXY | 
-ROAD15 | .SXY | 
-ROAD16 | .SXY | 
-ROAD17 | .SXY | 
-ROAD18 | .SXY | 
-ROAD19 | .SXY | 
-ROAD20 | .SXY | 
-ROAD21 | .SXY | 
-ROAD22 | .SXY | 
-ROAD23 | .SXY | 
-ROAD24 | .SXY | 
-ROAD25 | .SXY | 
+ROAD01 | .SXY | Route 1 (Pallet to Viridian)
+ROAD02 | .SXY | Route 2
+ROAD03 | .SXY | Route 3
+ROAD04 | .SXY | Route 4
+ROAD05 | .SXY | Route 5
+ROAD06 | .SXY | Route 6
+ROAD07 | .SXY | Route 7
+ROAD08 | .SXY | Route 8
+ROAD09 | .SXY | Route 9
+ROAD10 | .SXY | Route 10
+ROAD11 | .SXY | Route 11
+ROAD12 | .SXY | Route 12
+ROAD13 | .SXY | Route 13
+ROAD14 | .SXY | Route 14
+ROAD15 | .SXY | Route 15
+ROAD16 | .SXY | Route 16
+ROAD17 | .SXY | Route 17
+ROAD18 | .SXY | Route 18
+ROAD19 | .SXY | Route 19
+ROAD20 | .SXY | Route 20
+ROAD21 | .SXY | Route 21
+ROAD22 | .SXY | Route 22
+ROAD23 | .SXY | Route 23
+ROAD24 | .SXY | Route 24
+ROAD25 | .SXY | Route 25
 T00R0101 | .SXY | 
 T00R0102 | .SXY | 
-T01R0101 | .SXY | 
+T01R0101 | .SXY | Pallet Town
 T01R0102 | .SXY | 
 T01R0201 | .SXY | 
 T01R0301 | .SXY | 
-T02R0101 | .SXY | 
+T02R0101 | .SXY | Viridian City
 T02R0201 | .SXY | 
 T02R0301 | .SXY | 
 T02R0401 | .SXY | 
@@ -1498,7 +1505,7 @@ T03R0301 | .SXY |
 T03R0401 | .SXY | 
 T03R0501 | .SXY | 
 T03R0601 | .SXY | 
-T04R0101 | .SXY | 
+T04R0101 | .SXY | Cerulean City
 T04R0102 | .SXY | 
 T04R0201 | .SXY | 
 T04R0301 | .SXY | 
