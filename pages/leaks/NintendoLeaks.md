@@ -28,14 +28,17 @@ twitterimage: https://www.retroreversing.com/public/images/leaks/All Nintendo Le
 updatedAt: '2020-10-03'
 ---
 
-Nintendo has has many data leaks in the past, but none as huge as the original Oman Archive of the late 90s or the Gigaleaks of 2020. This post is a reference point to help people catch up on any content they might have missed, each leak has its own page with much more detail about the contents of the archives. 
+Nintendo has has many data leaks in the past, but none as huge as the original **Oman Archive** of the late 90s or the **Gigaleaks** of 2020. This post is a reference point to help people catch up on any content they might have missed, each leak has its own page with much more detail about the contents of the archives. 
 
 We only list leaks that have development related content, mainly source code as that is the main focus of this site.
+
+If you are interested in the full timeline of everything that has been ever released check out the **Gigaleak Timeline** on Protocrystal:
+[Gigaleak Timeline](https://protocrystal.neocities.org/timeline)
 
 # Oman Archive (1999)
 The "Oman Archive" was a leak of Nintendo Technical documents from a source inside SGI in late 1999. It was uploaded to the internet under the name `oman.rar` but has since been repackaged into multiple other archive formats.
 
-An updated version of the Oman Archive was released in 2020 at the same time as the Gigaleak, another Nintendo Leak which includes N64 content.
+An updated version of the **Oman Archive** was released in 2020 at the same time as the Gigaleak, another Nintendo Leak which includes N64 content.
 
 Files Leaked:
 * oman.rar
@@ -47,8 +50,8 @@ Files Leaked:
 In April 2020 the source code for Generation one and two of the Pokemon games was released. A Page discussing this leak will be available some time in the future.
 
 Files Leaked:
-* OriginalSouce.zip   (password: poke1024) 
-* Gen2.7z
+* **OriginalSouce.zip** - Pokemon Blue and Yellow source code (password: poke1024) (also released in a file called **osrc.zip** 
+* **Gen2.7z** - Source code for Pokemon Gold/Silver, released on 24th April 2020
 
 ---
 # BroadOn Archive (2nd May 2020)
