@@ -53,7 +53,7 @@ This folder also contains the following sub-directories:
 * **EFFDATA** - 
 * **Document** - 
 * **MAPDATA** - 
-* **DATA** - 
+* **DATA** - Static data like graphics and boss statistics
 * **SXY** - 
 * **MONSDATA** - 
   </div>
@@ -81,7 +81,12 @@ readme | .txt | Short text file that explains DMY_MAP2_EXRAM in Japanese
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains static data like graphics, pokemon and boss statistics.
+    
+    They are all technically assembly files but they just use DefineByte (db) with data in hex format for example:
+    ```
+    db	001h,002h,003h,004h,005h,006h,007h,008h	; 
+    ```
 
   </div>
 </section>  
