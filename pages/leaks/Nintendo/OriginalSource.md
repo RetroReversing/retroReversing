@@ -54,8 +54,9 @@ This folder also contains the following sub-directories:
 * **Document** - 
 * **MAPDATA** - 
 * **DATA** - Static data like graphics and boss statistics
-* **SXY** - 
+* **SXY** - NPC data
 * **MONSDATA** - 
+
   </div>
 </section>  
 
@@ -81,12 +82,12 @@ readme | .txt | Short text file that explains DMY_MAP2_EXRAM in Japanese
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains static data like graphics, pokemon and boss statistics.
+This folder contains static data like graphics, pokemon and boss statistics.
     
-    They are all technically assembly files but they just use DefineByte (db) with data in hex format for example:
-    ```
-    db	001h,002h,003h,004h,005h,006h,007h,008h	; 
-    ```
+They are all technically assembly files but they just use DefineByte (db) with data in hex format for example:
+```
+db	001h,002h,003h,004h,005h,006h,007h,008h	; 
+```
 
   </div>
 </section>  
@@ -1279,7 +1280,7 @@ PUTEBONE | .DAT |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the X,Y coordinates of all the NPC data for each of the maps.
 
   </div>
 </section>  
@@ -1534,7 +1535,7 @@ T09R0401 | .SXY |
 T09R0501 | .SXY | 
 T09R0601 | .SXY | 
 T0TR0101 | .SXY | 
-T0TR0201 | .SXY | 
+T0TR0201 | .SXY | Fighting Dojo
 T0TR0301 | .SXY | 
 T0TR0501 | .SXY | 
 T0TR0601 | .SXY | 
@@ -1543,7 +1544,7 @@ T0TR0801 | .SXY |
 T10R0101 | .SXY | 
 T11R0101 | .SXY | 
 T11R0102 | .SXY | 
-T11R0201 | .SXY | 
+T11R0201 | .SXY | Fighting Dojo
 T11R0301 | .SXY | 
 T11R0401 | .SXY | 
 T11R0501 | .SXY | 
