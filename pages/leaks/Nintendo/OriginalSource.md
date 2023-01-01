@@ -33,6 +33,8 @@ When extracted the **OriginalSouce.zip** file contains the following folders:
 * **blue8M** - Source code for Pokemon Blue
 * **yellow** - Source code for Pokemon Yellow
 
+The next section will talk about Pokemon Blue.
+
 ---
 # Blue8m (/blue8M)
 <section class="postSection">
@@ -87,6 +89,8 @@ They are all technically assembly files but they just use DefineByte (db) with d
 ```
 db	001h,002h,003h,004h,005h,006h,007h,008h	; 
 ```
+    
+Note that whenever the files mention the word "Dealer" they mean "Pokemon Trainer".
 
   </div>
 </section>  
