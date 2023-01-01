@@ -55,8 +55,7 @@ This folder also contains the following sub-directories:
 * **MAPDATA** - Files which specify which graphic tile goes where on each of the maps
 * **DATA** - Static data like graphics and boss statistics
 * **SXY** - NPC data
-* **MONSDATA** - 
-
+* **MONSDATA** - Pokemon Data (graphics?)
   </div>
 </section>  
 
