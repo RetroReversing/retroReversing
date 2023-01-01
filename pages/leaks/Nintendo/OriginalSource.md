@@ -618,7 +618,7 @@ The **.MAP** files contain the layout of each of the screens and are actually ju
 ```
     
 This folder contains **.CEL** files that contain the character tile graphics. Presumably the C stands for Character but we are unsure what the E and L stands for in the extension.
-The **.CHR** files are ?
+The **.CHR** files are character file graphics too?
 
   </div>
 </section>  
@@ -670,14 +670,14 @@ DGN04 | .MAP |
 DGN05 | .MAP | 
 DGN06 | .MAP | 
 DOJO | .MAP | 
-DOJO_01 | .MAP | 
-DOJO_02 | .MAP | 
-DOJO_03 | .MAP | 
-DOJO_04 | .MAP | 
-DOJO_05 | .MAP | 
-DOJO_06 | .MAP | 
-DOJO_07 | .MAP | 
-DOJO_08 | .MAP | 
+DOJO_01 | .MAP | Early Gym 1
+DOJO_02 | .MAP | Early Gym 2
+DOJO_03 | .MAP | Early Gym 3
+DOJO_04 | .MAP | Early Gym 4
+DOJO_05 | .MAP | Early Gym 5
+DOJO_06 | .MAP | Early Gym 6
+DOJO_07 | .MAP | Early Gym 7
+DOJO_08 | .MAP | Early Gym 8
 DONATA | .MAP | 
 DUN02 | .CEL | 
 END01 | .MAP | 
@@ -688,14 +688,14 @@ GATE | .CEL, .DAT |
 GATE2F | .MAP | 
 GATEHAKU | .CEL, .DAT | 
 GYM | .CEL, .DAT | 
-GYM_01 | .MAP | 
-GYM_02 | .MAP | 
-GYM_03 | .MAP | 
-GYM_04 | .MAP | 
-GYM_05 | .MAP | 
-GYM_06 | .MAP | 
-GYM_07 | .MAP | 
-GYM_08 | .MAP | 
+GYM_01 | .MAP | Gym 1
+GYM_02 | .MAP | Gym 2
+GYM_03 | .MAP | Gym 3
+GYM_04 | .MAP | Gym 4
+GYM_05 | .MAP | Gym 5
+GYM_06 | .MAP | Gym 6
+GYM_07 | .MAP | Gym 7
+GYM_08 | .MAP | Gym 8
 HAKUBU1F | .MAP | 
 HAKUBU2F | .MAP | 
 HAKUBUTU | .DAT | 
@@ -710,7 +710,7 @@ IWA_1F | .MAP |
 IWA_2F | .MAP | 
 JIMKYOK | .MAP | 
 JIMSHO | .MAP | 
-JISAN | .MAP | 
+JISAN | .MAP | Unused Grandpa's House
 KAICHO_5 | .MAP | 
 KENKYU | .CEL, .DAT, .MAP | 
 KENKYU_1 | .MAP | 
@@ -745,7 +745,7 @@ NEND03 | .MAP |
 NEW_IWA1 | .MAP | 
 NEW_IWA2 | .MAP | 
 NHOTEL | .MAP | 
-NIWA | .MAP | 
+NIWA | .MAP | Unused test map
 NROAD_01 | .DAT, .MAP | 
 NROAD_02 | .DAT, .MAP | 
 NROAD_03 | .DAT, .MAP | 
@@ -844,10 +844,10 @@ ROAD6 | .DAT |
 ROAD7 | .DAT | 
 ROAD8 | .DAT | 
 ROAD9 | .DAT | 
-ROOM | .CEL, .DAT | 
-ROOM1F | .CEL, .DAT, .MAP | 
+ROOM | .CEL, .DAT | Player's House
+ROOM1F | .CEL, .DAT, .MAP | Downstairs of the Player's House
 ROOM1~00 | .ORG | 
-ROOM2F | .CEL, .DAT, .MAP | 
+ROOM2F | .CEL, .DAT, .MAP | Upstairs of the Player's House
 ROOM2~00 | .ORG | 
 ROOMCELL | .DAT | 
 ROOMIMG | .DAT | 
@@ -868,7 +868,7 @@ SHOP | .CHR, .MAP |
 SHOP1 | .DAT | 
 SHOPCELL | .DAT | 
 SHOPIMG | .DAT | 
-SHOP~~00 | .ORG | 
+`SHOP~~00` | .ORG | 
 SHROOM1 | .MAP | 
 SHROOM2 | .MAP | 
 SHROOM3 | .MAP | 
@@ -890,8 +890,8 @@ SILF_B5 | .MAP |
 SILF_B6 | .MAP | 
 SILF_B7 | .MAP | 
 SILF_B8 | .MAP | 
-SKOYA_1 | .MAP | 
-SKOYA_2 | .MAP | 
+SKOYA_1 | .MAP | Safari Zone rest house
+SKOYA_2 | .MAP | Unused Safari Zone rest house
 STANNU | .CEL, .DAT | 
 STANNU01 | .MAP | 
 STANNU02 | .MAP | 
@@ -926,7 +926,7 @@ TOWNCELL | .DAT |
 TOWNIMG2 | .DAT | 
 TOWN_B1 | .CEL, .DAT | 
 TRADE | .MAP | 
-TRAINING | .CEL, .MAP | 
+TRAINING | .CEL, .MAP | Unused Broken room
 TURI | .MAP | 
 UMIIE | .MAP | 
 YDUN_1 | .MAP | 
@@ -1305,7 +1305,18 @@ PUTEBONE | .DAT |
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains the movement data of all the NPC data for each of the maps.
-
+    
+The files are named in a specic way:
+* First character is the type
+  - T for Town
+  - D for Dungeon
+  - R for Route?
+* Second and third characters are the number of that specifc type
+    - T08 is Fuchsia City
+    - T09 is Cinnabar Island
+    - T10 is Indigo Plateau
+    - T11 is Saffron City
+* Fourth character is R presumable standing for Room
   </div>
 </section>  
 
@@ -1494,7 +1505,7 @@ T04R0301 | .SXY |
 T04R0401 | .SXY | 
 T04R0501 | .SXY | 
 T04R0601 | .SXY | 
-T04R0701 | .SXY | 
+T04R0701 | .SXY | Cerulean Cave 1F
 T04R0801 | .SXY | 
 T05R0101 | .SXY | 
 T05R0201 | .SXY | 
@@ -1504,7 +1515,7 @@ T05R0204 | .SXY |
 T05R0205 | .SXY | 
 T05R0206 | .SXY | 
 T05R0207 | .SXY | 
-T05R0208 | .SXY | 
+T05R0208 | .SXY | Pokemon Tower Elevator (unused)
 T05R0301 | .SXY | 
 T05R0401 | .SXY | 
 T05R0501 | .SXY | 
