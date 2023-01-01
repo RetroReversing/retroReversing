@@ -48,10 +48,10 @@ Assembler used: isdmg - DMG Relocatable Macro Assembler  Version 1.21f
 Linker used: islink - ISASM Linker  Version 1.20e
 
 This folder also contains the following sub-directories:
-* **検索** - 
+* **検索** - search
 * **source** - 
-* **EFFDATA** - 
-* **Document** - 
+* **EFFDATA** - Sound effect data
+* **Document** - Translation documents from Japanese to English
 * **MAPDATA** - Files which specify which graphic tile goes where on each of the maps
 * **DATA** - Static data like graphics and boss statistics
 * **SXY** - NPC data
@@ -243,7 +243,18 @@ font_us | .dat |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Document</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains documentation related to translation of the game into english and also general data on bugs found during development.
+    
+The **.dmg0** files are not assembly code but seem to be a custom scripting language for dialog, where each message has a unique id and a end of message character (`{EOMeom}`), for example;
+```
+message_id:msg1_0_R06R0201
+//ちかつうろは　うすぐらいから{home@}
+//おとしもの　おおいんですって{EOMeom}
+
+People often lose{home@}
+things in that{gyo3@}
+UNDERGROUND PATH.{EOMeom}
+```
 
 This folder also contains the following sub-directories:
 * **translation** - 
@@ -254,34 +265,34 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-POFINAL | .XLS | 
+POFINAL | .XLS | Final version of tranlation of Pokemon names from japanese to English
 POKEMO10 | .DOC | 
-bugs | .txt | 
-err | .txt | 
-fontdef | .xls | 
-i_msg2_0 | .dmg0 | 
-i_msg2_1 | .dmg0 | 
-i_msg2_2 | .dmg0 | 
-i_msg2_3 | .dmg0 | 
-i_msg2_4 | .dmg0 | 
-i_msg2_5 | .dmg0 | 
-i_msg2_6 | .dmg0 | 
-i_msg2_7 | .dmg0 | 
-i_msg2_8 | .dmg0 | 
-i_msg2_9 | .dmg0 | 
-i_msg2_a | .dmg0 | 
-logo | .txt | 
-pmfile | .dat0 | 
-poke_ram | .xls | 
+bugs | .txt | Talks about bugs such as the save data being corrupted when the user turns off the Game Boy before finishing save
+err | .txt | The terminal output of comparing the two files i_msg2_2.dmg0 and 2-2-33.txt which seem to be identical.
+fontdef | .xls | Contains two tables with 256 cells, one for the japanese font and the other for the english includng all the special characters like PKMN
+i_msg2_0 | .dmg0 | English translations for phrases like "Not even a nibble!" and more
+i_msg2_1 | .dmg0 | English translations for dialog on Sylph Corporation 6th floor and more
+i_msg2_2 | .dmg0 | English translations for dialog outside hotel and more
+i_msg2_3 | .dmg0 | English translations for dialog 
+i_msg2_4 | .dmg0 | English translations for dialog
+i_msg2_5 | .dmg0 | English translations for dialog
+i_msg2_6 | .dmg0 | English translations for dialog
+i_msg2_7 | .dmg0 | English translations for dialog
+i_msg2_8 | .dmg0 | English translations for dialog
+i_msg2_9 | .dmg0 | English translations for dialog
+i_msg2_a | .dmg0 | English translations for dialog
+logo | .txt | Seems to be an Adobe Illustrator file for the logo but with .txt extension for some reason
+pmfile | .dat0 | Pokedex data such as height/weight and english text (japanese text as comments)
+poke_ram | .xls | Contains tables showing the layout in ram for the pokemon data, like name, status (sleeping, poisoned etc)
 pokemon_map | .txt | 
 pokescript | .txt | 
 readme | .txt | 
 schedule | .txt | 
-water_enc | .txt | 
-その他テキスト | .txt | 
-その他テキスト2 | .txt | 
-その他テキスト3 | .txt | 
-英語メッセージ未入力 | .txt | 
+water_enc | .txt | Japanese document describing where to capture pokemon in the water with the Fishing rod 
+その他テキスト | .txt | Translations for pokemon types and dialogs
+その他テキスト2 | .txt | List of all the pokemon types (e.g water,fire etc) in Japanese
+その他テキスト3 | .txt | Talks about the different states a pokemon can be in like sleeping
+英語メッセージ未入力 | .txt | Talks about garbase data where the english text is missing
 
 
 ---
@@ -538,11 +549,11 @@ zukan-2 | .txt |
 
 
 ---
-## Effdata (/blue8M/blue8M/EFFDATA)
+## Sound Effect Data (/blue8M/blue8M/EFFDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/EFFDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains all the sounds and music for the game, along with the Super Game Boy border data.
 
   </div>
 </section>  
@@ -594,7 +605,9 @@ TURI | .DAT |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MAPDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains all the layout tiles for each of the maps. They are assembly files using Define Byte (db) for each of the graphic tiles in the map, for example:
+ This folder contains all the character tiles for each of the maps along with the actual layouts of the maps.. 
+    
+The **.MAP** files contain the layout of each of the screens and are actually just assembly files using Define Byte (db) for each of the graphic tiles in the map, for example:
 
 ```
 ; Map size	X = 10  Y = 9
@@ -603,6 +616,9 @@ TURI | .DAT |
 	db	002h,009h,008h,001h
 	db	018h,06ch,069h,019h
 ```
+    
+This folder contains **.CEL** files that contain the character tile graphics. Presumably the C stands for Character but we are unsure what the E and L stands for in the extension.
+The **.CHR** files are ?
 
   </div>
 </section>  
@@ -611,7 +627,7 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-1 | .CEL | 
+1 | .CEL | Character Tiles for ?
 11_18GAT | .MAP | 
 12GATE | .MAP | 
 16_GATE | .MAP | 
