@@ -21,7 +21,7 @@ recommend:
 - gba
 - ds
 - 3ds
-editlink: /leaks/Paladin.md
+editlink: /leaks/Nintendo/Paladin.md
 twitterimage: https://www.retroreversing.com/public/images/leaks/PaladinLeak.jpg
 updatedAt: '2020-10-03'
 ---
