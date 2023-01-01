@@ -590,11 +590,11 @@ TURI | .DAT |
 
 
 ---
-## Mapdata (/blue8M/blue8M/MAPDATA)
+## Map Data (/blue8M/blue8M/MAPDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MAPDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains all the layout tiles for each of the maps.
 
   </div>
 </section>  
@@ -744,7 +744,7 @@ NROAD_19 | .DAT, .MAP |
 NROAD_20 | .DAT, .MAP | 
 NROAD_21 | .DAT, .MAP | 
 NROAD_22 | .DAT, .MAP | 
-NROAD_23 | .DAT, .MAP | 
+NROAD_23 | .DAT, .MAP | Route 23
 NROAD_24 | .DAT, .MAP | 
 NROAD_25 | .DAT, .MAP | 
 NSILF_1 | .MAP | 
@@ -1280,7 +1280,7 @@ PUTEBONE | .DAT |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the X,Y coordinates of all the NPC data for each of the maps.
+ This folder contains the movement data of all the NPC data for each of the maps.
 
   </div>
 </section>  
@@ -1523,7 +1523,7 @@ T08R0801 | .SXY |
 T08R0901 | .SXY | 
 T08R1001 | .SXY | 
 T08R1101 | .SXY | 
-T08R1201 | .SXY | 
+T08R1201 | .SXY | Unused Cage map
 T08R1301 | .SXY | 
 T09R0101 | .SXY | 
 T09R0201 | .SXY | 
@@ -2835,11 +2835,11 @@ TURI | .DAT |
 
 
 ---
-## Mapdata (/yellow/MAPDATA)
+## Map Data (/yellow/MAPDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/MAPDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains all the tile data for each of the maps.
 
   </div>
 </section>  
@@ -2992,7 +2992,7 @@ NROAD_19 | .DAT, .MAP |
 NROAD_20 | .DAT, .MAP | 
 NROAD_21 | .DAT, .MAP | 
 NROAD_22 | .DAT, .MAP | 
-NROAD_23 | .DAT, .MAP | 
+NROAD_23 | .DAT, .MAP | Route 23
 NROAD_24 | .DAT, .MAP | 
 NROAD_25 | .DAT, .MAP | 
 NSILF_1 | .MAP | 
@@ -3932,7 +3932,7 @@ T08R0801 | .SXY |
 T08R0901 | .SXY | 
 T08R1001 | .SXY | 
 T08R1101 | .SXY | 
-T08R1201 | .SXY | 
+T08R1201 | .SXY | Unused Cage map
 T08R1301 | .SXY | 
 T09R0101 | .SXY | 
 T09R0201 | .SXY | 
