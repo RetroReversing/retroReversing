@@ -27,14 +27,25 @@ This zip archive contained a password protected zip file called **OriginalSouce.
 This post will cover the contents of the leaked source code.
 
 # Files Leaked
-* **OriginalSouce.zip** (24.6MB)
+* **OriginalSouce.zip** - 24.6 MB
+
+When extracted the **OriginalSouce.zip** file contains the following folders:
+* **blue8M** - Source code for Pokemon Blue
+* **yellow** - Source code for Pokemon Yellow
 
 ---
-# Blue8m (/blue8M/blue8M)
+# Blue8m (/blue8M)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/blue8M</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the entire source code for Pokemon Blue, the files directly in this folder are for assembling the source code into a ROM and even includes a pre-built ROM file (**BLUEMONS.ISX**). 
+    
+Nintendo used .ISX as the extension for GameBoy ROM files, presumably standing for **Intelligent Systems eXecutable** as they are built using the Intelligent systems Game Boy development kit.
+    
+You will also find files with the .ISO extension, these are **Intelligent System Object** files that are the assembled output of the assembly source code.
+    
+Assembler used: isdmg - DMG Relocatable Macro Assembler  Version 1.21f
+Linker used: islink - ISASM Linker  Version 1.20e
 
 This folder also contains the following sub-directories:
 * **検索** - 
@@ -52,21 +63,21 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-BLUEMONS | .ISX | 
+BLUEMONS | .ISX | Pre-built Pokemon Blue ROM
 DMGFUNC | .TB0 | 
-bluemons | .sdb | 
-depends | .bat, .mak, .mak0 | 
-err | .txt | 
-link | .lnk | 
+bluemons | .sdb | Debug Symbols for the Blue ROM file, contains offsets of each function in the ROM
+depends | .bat, .mak, .mak0 | Lists all of the dependencies for each file
+err | .txt | Terminal output of runnking assemble/link on the source code
+link | .lnk | Link file to tell the Linker how to link everything together into the final ROM
 makefile | N/A | Used to build the source code in the folder (run make)
 makerom | .bat | Windows Batch file for running 
-mssccprj | .scc | 
+mssccprj | .scc | Microsoft Visual Studio Source Control config file
 mvmsg | .bat | Windows Batch file for running 
-readme | .txt | 
+readme | .txt | Short text file that explains DMY_MAP2_EXRAM in Japanese
 
 
 ---
-## Data (/blue8M/blue8M/DATA)
+## Data (/blue8M/DATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DATA</div>
   <div markdown="1" class="rr-post-markdown">
