@@ -40,7 +40,7 @@ The next section will talk about Pokemon Blue.
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/blue8M</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the entire source code for Pokemon Blue, the files directly in this folder are for assembling the source code into a ROM and even includes a pre-built ROM file (**BLUEMONS.ISX**). 
+This folder contains the entire source code for Pokemon Blue, the files directly in this folder are for assembling the source code into a ROM and even includes a pre-built ROM file (**BLUEMONS.ISX**). 
     
 Nintendo used .ISX as the extension for GameBoy ROM files, presumably standing for **Intelligent Systems eXecutable** as they are built using the Intelligent systems Game Boy development kit.
     
@@ -51,17 +51,18 @@ Linker used: islink - ISASM Linker  Version 1.20e
 
 This folder also contains the following sub-directories:
 * **検索** - unknown, translates to "search", Just contains one txt file with embedded messages in it in japanese
-* **source** - 
+* **source** - The z80 Assembly source code for the game
 * **EFFDATA** - Sound effect data
 * **Document** - Translation documents from Japanese to English
 * **MAPDATA** - Files which specify which graphic tile goes where on each of the maps
 * **DATA** - Static data like graphics and boss statistics
-* **SXY** - NPC data
+* **SXY** - Structure data for each map (NPCs etc)
 * **MONSDATA** - Pokemon Data (graphics?)
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -83,7 +84,7 @@ readme | .txt | Short text file that explains DMY_MAP2_EXRAM in Japanese
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DATA</div>
   <div markdown="1" class="rr-post-markdown">
-This folder contains static data like graphics, pokemon and boss statistics.
+This folder contains static data like tables that can be looked up to get specific pokemon and boss statistics.
     
 They are all technically assembly files but they just use DefineByte (db) with data in hex format for example:
 ```
@@ -287,10 +288,10 @@ i_msg2_a | .dmg0 | English translations for dialog
 logo | .txt | Seems to be an Adobe Illustrator file for the logo but with .txt extension for some reason
 pmfile | .dat0 | Pokedex data such as height/weight and english text (japanese text as comments)
 poke_ram | .xls | Contains tables showing the layout in ram for the pokemon data, like name, status (sleeping, poisoned etc)
-pokemon_map | .txt | 
-pokescript | .txt | 
-readme | .txt | 
-schedule | .txt | 
+pokemon_map | .txt | Very useful document describing each of the maps
+pokescript | .txt | Describes the dialog scripting format called pokescript and special variables such as `{gyo3@}` or `{cr@}` (carriage return)
+readme | .txt | Same as pokescript.txt
+schedule | .txt | The planned release schedule for releasing Pokemon to the US market
 water_enc | .txt | Japanese document describing where to capture pokemon in the water with the Fishing rod 
 その他テキスト | .txt | Translations for pokemon types and dialogs
 その他テキスト2 | .txt | List of all the pokemon types (e.g water,fire etc) in Japanese
@@ -552,11 +553,11 @@ zukan-2 | .txt |
 
 
 ---
-## Sound Effect Data (/blue8M/EFFDATA)
+## Effect Data (/blue8M/EFFDATA)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/EFFDATA</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains all the sounds and music for the game, along with the Super Game Boy border data.
+ This folder contains all the Super Game Boy data and possibly sound effect data?
 
   </div>
 </section>  
@@ -576,16 +577,16 @@ EF1 | .DAT |
 FLAME1 | .DAT | 
 HYDRO1 | .DAT | 
 MARUMARU | .DAT | 
-MIZU | .DAT | 
+MIZU | .DAT | Water?
 MUSI | .DAT | 
 PF_BLUE | .CGX, .MAP | 
 PF_COL | .COL | 
 PF_COLOR | .COX | 
-PF_GRE | .CGX, .MAP | 
-PF_GRE2 | .CGX, .COL, .MAP | 
-PF_GREEN | .MAP | 
-PF_RED | .CGX, .COL, .MAP | 
-PF_RED2 | .CGX, .COL, .MAP | 
+PF_GRE | .CGX, .MAP | Super GameBoy Data
+PF_GRE2 | .CGX, .COL, .MAP | Super GameBoy Data
+PF_GREEN | .MAP | Super GameBoy Data
+PF_RED | .CGX, .COL, .MAP | Super GameBoy Data
+PF_RED2 | .CGX, .COL, .MAP | Super GameBoy Data
 PICT_F | .DAT | 
 RYDEEN1 | .DAT | 
 SGB_PF | .CGX, .COL, .MAP | 
@@ -631,28 +632,28 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 1 | .CEL | Character Tiles for ?
-11_18GAT | .MAP | 
-12GATE | .MAP | 
-16_GATE | .MAP | 
-22GATE | .MAP | 
-5_6GATE | .MAP | 
-7_8GATE | .MAP | 
+11_18GAT | .MAP | Gate on route 11 and 18? 
+12GATE | .MAP | Gate on route 12
+16_GATE | .MAP | Gate on route 16
+22GATE | .MAP | Pokémon League Reception Gate 
+5_6GATE | .MAP | Gate between Lavender Town and Vermillion City
+7_8GATE | .MAP | Gate between 
 ARASARE | .CEL, .CHR, .MAP | 
-AZITO_B1 | .MAP | 
-AZITO_B2 | .MAP | 
-AZITO_B3 | .MAP | 
-AZITO_B4 | .MAP | 
-AZITO_EL | .MAP | 
-AZITO_R1 | .MAP | 
-AZITO_R2 | .MAP | 
-AZITO_R3 | .MAP | 
+AZITO_B1 | .MAP | Rocket HQ Basement 1
+AZITO_B2 | .MAP | Rocket HQ Basement 2
+AZITO_B3 | .MAP | Rocket HQ Basement 3
+AZITO_B4 | .MAP | Rocket HQ Basement 4
+AZITO_EL | .MAP | Rocket HQ ?
+AZITO_R1 | .MAP | Rocket HQ ?
+AZITO_R2 | .MAP | Rocket HQ ?
+AZITO_R3 | .MAP | Rocket HQ ?
 BILDING | .CEL | 
 BOSSDOJO | .MAP | 
 BTOWN_B1 | .DAT | 
 BUILDING | .CEL, .DAT | 
 BULDING | .CEL | 
 CHAMPCUP | .CEL, .CHR, .MAP | 
-CICLE | .CEL, .DAT, .MAP | 
+CICLE | .CEL, .DAT, .MAP | Bicycle Shop
 COLOSEUM | .MAP | 
 CYCLE | .CEL, .DAT, .MAP | 
 DAIMANIA | .CEL, .DAT | 
@@ -660,19 +661,19 @@ DAISUKI | .MAP |
 DENDOU | .MAP | 
 DENDOU2 | .MAP | 
 DEPELV | .MAP | 
-DEPT | .CEL, .DAT | 
-DEPT1F | .MAP | 
-DEPT2F | .MAP | 
-DEPT3F | .MAP | 
-DEPT4F | .MAP | 
-DEPT5F | .MAP | 
-DEPT6F | .MAP | 
+DEPT | .CEL, .DAT | Celadon Department Store Graphics
+DEPT1F | .MAP | Celadon Department Store 1F
+DEPT2F | .MAP | Celadon Department Store 2F
+DEPT3F | .MAP | Celadon Department Store 3F
+DEPT4F | .MAP | Celadon Department Store 4F
+DEPT5F | .MAP | Celadon Department Store 5F
+DEPT6F | .MAP | Celadon Department Store 6F
 DGN01 | .CEL, .DAT, .MAP | 
 DGN02 | .CEL, .DAT, .MAP | 
 DGN04 | .MAP | 
 DGN05 | .MAP | 
 DGN06 | .MAP | 
-DOJO | .MAP | 
+DOJO | .MAP | Gym Graphics
 DOJO_01 | .MAP | Early Gym 1
 DOJO_02 | .MAP | Early Gym 2
 DOJO_03 | .MAP | Early Gym 3
@@ -690,7 +691,7 @@ FIRE_DUN | .MAP |
 GATE | .CEL, .DAT | 
 GATE2F | .MAP | 
 GATEHAKU | .CEL, .DAT | 
-GYM | .CEL, .DAT | 
+GYM | .CEL, .DAT | Gym graphics
 GYM_01 | .MAP | Gym 1
 GYM_02 | .MAP | Gym 2
 GYM_03 | .MAP | Gym 3
@@ -699,13 +700,13 @@ GYM_05 | .MAP | Gym 5
 GYM_06 | .MAP | Gym 6
 GYM_07 | .MAP | Gym 7
 GYM_08 | .MAP | Gym 8
-HAKUBU1F | .MAP | 
-HAKUBU2F | .MAP | 
+HAKUBU1F | .MAP | Science Museum 1F
+HAKUBU2F | .MAP | Science Museum 2F
 HAKUBUTU | .DAT | 
-HONBU1 | .MAP | 
-HONBU2 | .MAP | 
-HONBU3 | .MAP | 
-HOTEL | .CEL, .CHR, .DAT, .MAP | 
+HONBU1 | .MAP | Headquarters 1
+HONBU2 | .MAP | Headquarters 2
+HONBU3 | .MAP | Headquarters 3
+HOTEL | .CEL, .CHR, .DAT, .MAP | Standard Pokemon Center map
 HYOUSIKI | .DAT | 
 IWAMIN | .MAP | 
 IWANUKE_ | .MAP | 
@@ -737,48 +738,48 @@ MDUN_3 | .MAP |
 MDUN_4 | .CEL, .MAP | 
 MDUN_5 | .MAP | 
 MDUN_6 | .MAP | 
-MINKA_A | .CEL, .DAT, .MAP | 
-MINKA_B | .CEL, .MAP | 
-MINKA_C | .MAP | 
-MINKA_D | .MAP | 
+MINKA_A | .CEL, .DAT, .MAP | Minka is a japanese house
+MINKA_B | .CEL, .MAP | House
+MINKA_C | .MAP | House destroyed by pokemon
+MINKA_D | .MAP | House
 MISEYADO | .CEL, .DAT | 
-NEND01 | .MAP | 
+NEND01 | .MAP | Forgotten Cave
 NEND02 | .MAP | 
 NEND03 | .MAP | 
 NEW_IWA1 | .MAP | 
 NEW_IWA2 | .MAP | 
-NHOTEL | .MAP | 
+NHOTEL | .MAP | New version of Pokemon Center
 NIWA | .MAP | Unused test map
-NROAD_01 | .DAT, .MAP | 
-NROAD_02 | .DAT, .MAP | 
-NROAD_03 | .DAT, .MAP | 
-NROAD_04 | .DAT, .MAP | 
-NROAD_05 | .DAT, .MAP | 
-NROAD_06 | .DAT, .MAP | 
-NROAD_07 | .DAT, .MAP | 
-NROAD_08 | .DAT, .MAP | 
-NROAD_09 | .DAT, .MAP | 
-NROAD_10 | .DAT, .MAP | 
-NROAD_11 | .DAT, .MAP | 
-NROAD_12 | .DAT, .MAP | 
-NROAD_13 | .DAT, .MAP | 
-NROAD_14 | .DAT, .MAP | 
-NROAD_15 | .DAT, .MAP | 
-NROAD_16 | .DAT, .MAP | 
-NROAD_17 | .DAT, .MAP | 
-NROAD_18 | .DAT, .MAP | 
-NROAD_19 | .DAT, .MAP | 
-NROAD_20 | .DAT, .MAP | 
-NROAD_21 | .DAT, .MAP | 
-NROAD_22 | .DAT, .MAP | 
+NROAD_01 | .DAT, .MAP | Route 1
+NROAD_02 | .DAT, .MAP | Route 2
+NROAD_03 | .DAT, .MAP | Route 3
+NROAD_04 | .DAT, .MAP | Route 4
+NROAD_05 | .DAT, .MAP | Route 5
+NROAD_06 | .DAT, .MAP | Route 6
+NROAD_07 | .DAT, .MAP | Route 7
+NROAD_08 | .DAT, .MAP | Route 8
+NROAD_09 | .DAT, .MAP | Route 9
+NROAD_10 | .DAT, .MAP | Route 10
+NROAD_11 | .DAT, .MAP | Route 11
+NROAD_12 | .DAT, .MAP | Route 12
+NROAD_13 | .DAT, .MAP | Route 13
+NROAD_14 | .DAT, .MAP | Route 14
+NROAD_15 | .DAT, .MAP | Route 15
+NROAD_16 | .DAT, .MAP | Route 16
+NROAD_17 | .DAT, .MAP | Route 17
+NROAD_18 | .DAT, .MAP | Route 18
+NROAD_19 | .DAT, .MAP | Route 19
+NROAD_20 | .DAT, .MAP | Route 20
+NROAD_21 | .DAT, .MAP | Route 21
+NROAD_22 | .DAT, .MAP | Route 22
 NROAD_23 | .DAT, .MAP | Route 23
-NROAD_24 | .DAT, .MAP | 
-NROAD_25 | .DAT, .MAP | 
-NSILF_1 | .MAP | 
-NSILF_2 | .MAP | 
-NSILF_3 | .MAP | 
-NSILF_4 | .MAP | 
-NSILF_5 | .MAP | 
+NROAD_24 | .DAT, .MAP | Route 24
+NROAD_25 | .DAT, .MAP | Route 25
+NSILF_1 | .MAP | Silph Co. 1
+NSILF_2 | .MAP | Silph Co. 2
+NSILF_3 | .MAP | Silph Co. 3
+NSILF_4 | .MAP | Silph Co. 4
+NSILF_5 | .MAP | Silph Co. 5
 NTOWER | .CEL, .DAT | 
 NTOWN_01 | .CEL, .DAT, .MAP | 
 NTOWN_02 | .MAP | 
@@ -867,7 +868,7 @@ SCLIMG | .DAT |
 SEKISHO | .CEL, .DAT, .MAP | 
 SHIP | .CEL, .DAT | 
 SHOKUDO | .MAP | 
-SHOP | .CHR, .MAP | 
+SHOP | .CHR, .MAP | PokeMart map
 SHOP1 | .DAT | 
 SHOPCELL | .DAT | 
 SHOPIMG | .DAT | 
@@ -1303,11 +1304,11 @@ PUTEBONE | .DAT |
 
 
 ---
-## NPC Scripts (/blue8M/SXY)
+## Map Structure (/blue8M/SXY)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SXY</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the scripting (movement data) of all the NPC data for each of the maps.
+ This folder contains the map stucture data such as the locations of NPCs and signs.
     
 The files are named in a specic way:
 * First character is the type
@@ -1492,11 +1493,11 @@ ROAD24 | .SXY | Route 24
 ROAD25 | .SXY | Route 25
 T00R0101 | .SXY | 
 T00R0102 | .SXY | 
-T01R0101 | .SXY | Pallet Town
-T01R0102 | .SXY | 
-T01R0201 | .SXY | 
-T01R0301 | .SXY | 
-T02R0101 | .SXY | Viridian City
+T01R0101 | .SXY | Player's house F01
+T01R0102 | .SXY | Player's house F02
+T01R0201 | .SXY | Rival's house
+T01R0301 | .SXY | Professor Oak's Lab
+T02R0101 | .SXY | Viridian City Pokemon Center
 T02R0201 | .SXY | 
 T02R0301 | .SXY | 
 T02R0401 | .SXY | 
@@ -1508,7 +1509,7 @@ T03R0301 | .SXY |
 T03R0401 | .SXY | 
 T03R0501 | .SXY | 
 T03R0601 | .SXY | 
-T04R0101 | .SXY | Cerulean City
+T04R0101 | .SXY | 
 T04R0102 | .SXY | 
 T04R0201 | .SXY | 
 T04R0301 | .SXY | 
@@ -1596,18 +1597,18 @@ T11R0501 | .SXY |
 T11R0601 | .SXY | 
 T11R0701 | .SXY | 
 T11R0801 | .SXY | 
-TOWN01 | .SXY | 
-TOWN02 | .SXY | 
-TOWN03 | .SXY | 
-TOWN04 | .SXY | 
-TOWN05 | .SXY | 
-TOWN06 | .SXY | 
-TOWN07 | .SXY | 
-TOWN08 | .SXY | 
-TOWN09 | .SXY | 
+TOWN01 | .SXY | Pallet Town
+TOWN02 | .SXY | Viridian City
+TOWN03 | .SXY | Pewter City
+TOWN04 | .SXY | Cerulean City
+TOWN05 | .SXY | Lavender Town
+TOWN06 | .SXY | Vermillion City
+TOWN07 | .SXY | Celadon City
+TOWN08 | .SXY | Fuchsia City
+TOWN09 | .SXY | Cinnabar Island
 TOWN0T | .SXY | 
-TOWN10 | .SXY | 
-TOWN11 | .SXY | 
+TOWN10 | .SXY | Indigo Plateau
+TOWN11 | .SXY | Saffron City
 TOWN11NO | .SXY | 
 
 
@@ -1616,7 +1617,7 @@ TOWN11NO | .SXY |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/source</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the z80 assembly code for the game.
+ This folder contains the z80 assembly code for the game in .DMG files (DMG is the shorthand for Dot Matrix Game, the original name for the GameBoy).
 
 This folder also contains the following sub-directories:
 * **Temp** - 
