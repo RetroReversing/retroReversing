@@ -574,8 +574,9 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | 3D game engine programming | Stefan Zerbst with Oliver Düvel | | 
 <img class="lazy-load" data-image-full="" /> | Advergaming developer's guide: using Macromedia Flash MX 2004 and Director MX | Rod Afshar, Duke Banerjee, Clifford Jones | | 
 <img class="lazy-load" data-image-full="" /> | Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
-<img class="lazy-load" data-image-full="" /> | AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | | 
-<img class="lazy-load" data-image-full="" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
+<img class="lazy-load" data-image-full="" /> | AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | |
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FvWheSzmL._AC_UY436_FMwebp_QL65_.jpg" /> | AI Game Engine Programming | Brian Schwab | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/513gVsR0noL._AC_UY436_FMwebp_QL65_.jpg" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41X27dRWptL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginning C++ Game Programming (Game Development Series) | Michael Dawson | C++ | 
 <img class="lazy-load" data-image-full="" /> | Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
 <img class="lazy-load" data-image-full="" /> | Character development and storytelling for games | Lee Sheldon | | 
@@ -584,8 +585,8 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Game Console Hacking: Xbox, PlayStation, Nintendo, Game Boy, Atari and Sega | Joe Grand, Albert Yarusso | Hardware | 
 <img class="lazy-load" data-image-full="" /> | Game Character Development with Maya | Antony Ward | Maya | 
 <img class="lazy-load" data-image-full="" /> | Game Development essentials: An Introduction | Jeannie Novak | | 
+<img class="lazy-load" data-image-full="" /> | Game Development with Lua | Paul Schuytema, Mark Manyen | Lua | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/518t526tMsL._AC_UY436_QL65_.jpg" /> | Game Programming Golden Rules | Martin Brownlow | C++ | 
-<img class="lazy-load" data-image-full="" /> | Game Development with Lua | Paul Schuytema, Mark Manyen | | 
 <img class="lazy-load" data-image-full="" /> | Game Programming with Python | Sean Riley | Python | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51HAmPgwpsL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 4 | Andrew Kirmse | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to Game Development | Steve Rabin | | 
@@ -595,20 +596,24 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Avn-xJYTL._AC_UY436_FMwebp_QL65_.jpg" /> | Macromedia Flash MX 2004 Game Development | Glen Rhodes | Flash MX 2004 | 
 <img class="lazy-load" data-image-full="" /> | Macromedia Flash MX 2004 Game Programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wAQXHslqL._AC_UY436_QL65_.jpg" /> | Massively Multiplayer Game Development 2 | Thor Alexander | | 
-<img class="lazy-load" data-image-full="" /> | Massively multiplayer game development 2 | Thor Alexander | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wAQXHslqL._AC_UY436_QL65_.jpg" /> | Massively multiplayer game development 2 | Thor Alexander | | 
 <img class="lazy-load" data-image-full="" /> | Mobile device game development | Clayton E. Crooks II | | 
 <img class="lazy-load" data-image-full="" /> | Object-oriented game development | Julian Gold | | 
 <img class="lazy-load" data-image-full="" /> | Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
 <img class="lazy-load" data-image-full="" /> | OpenGL Game Development | Chris Seddon | OpenGL | 
 <img class="lazy-load" data-image-full="" /> | OpenGL ES game development | Dave Astle, Dave Durnil. | OpenGL ES | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5135kW+kD6L._AC_UY436_FMwebp_QL65_.jpg" /> | Patterns In Game Design |  Staffan Bjork and Jussi Holopainen | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Physics modeling for game programmers | David Conger | | 
-<img class="lazy-load" data-image-full="" /> | Practical Java game programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51cRFmty2bL._AC_UY436_FMwebp_QL65_.jpg" /> | Practical Java Game Programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
 <img class="lazy-load" data-image-full="" /> | Programming Game AI by Example | Mat Buckland | | 
+<img class="lazy-load" data-image-full="https://www.amazon.com/Programming-Mutliplayer-Direct-Game-Development/dp/1584503637/ref=sr_1_132?keywords=%22charles+river+media%22&qid=1672267076&s=books&sr=1-132" /> | Programming Mutliplayer FPS Direct X | Vaughan Young | C++, DirectX | 
 <img class="lazy-load" data-image-full="" /> | Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51oyiCBex+L._AC_UY436_QL65_.jpg" /> | Programming Believable Characters for Computer Games | Penny Ballie-De Byl | | 
 <img class="lazy-load" data-image-full="" /> | Real-Time Shader Programming |  Ron Fosner | DirectX 8/9 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51LPE74hEfL._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX3 Advanced Rendering with DirectX and OpenGL | Wolfgang Engel | DirectX, OpenGL |
 <img class="lazy-load" data-image-full="" /> | The animator's motion capture guide: organizing, managing, and editing | Matthew Liverman | | 
 <img class="lazy-load" data-image-full="" /> | The Dark Side of Game Texturing | David Franson | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51TSGRKRXrL._AC_UY436_FMwebp_QL65_.jpg" /> | The Game Localization Handbook | Heather Chandler | Localization | 
 <img class="lazy-load" data-image-full="" /> | Wireless game development in Java with MIDP 2.0 | Ralph Barbagallo | Java and MIDP 2.0 | 
 
 ---
@@ -653,7 +658,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | AI Game Programming Wisdom 3 | Steve Rabin | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Cb07B3fJL._AC_UY436_FMwebp_QL65_.jpg" /> | AI Game Programming Wisdom 3 | Steve Rabin | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/510Nyjh91VL._AC_UY436_FMwebp_QL65_.jpg" /> | Artificial Life Possibilities: A Star Trek Perspective | Penny Baillie-de Byl | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/511TbvxTilL._AC_UY436_QL65_.jpg" /> | Basic Game Design & Creation for Fun & Learning | Nanu Swamy and Naveena Swamy | GameMaker 6.1 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rKviSFgDL._AC_UY436_FMwebp_QL65_.jpg" /> | Business & Legal Primer for Game Development | S. Gregory Boyd and Brian Green | | 
@@ -680,11 +685,13 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Business & legal primer for game development | S. Gregory Boyd | Business | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51DZTsb5zML._SY300_.jpg" /> | Computer Animation: Algorithms and Techniques |  Rick Parent | Maya, C++ | 
-<img class="lazy-load" data-image-full="" /> | Creating Games In C++: A Step-By-Step Guide | David Conger and Ron Little | C++ and LlamaWorks2D | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/518FELvueXL._AC_UY436_QL65_.jpg" /> | Creating Game Art for 3D Engines | Brad Strong | 3ds Max | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/310HF-DKWnL._BO1,204,203,200_.jpg" /> | Creating Games In C++: A Step-By-Step Guide | David Conger and Ron Little | C++ and LlamaWorks2D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/516joGKPmmL._AC_UY436_FMwebp_QL65_.jpg" /> | Creating Casual Games for Profit and Fun | Allen Partridge | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51A-Tzz6VwL._AC_UY436_FMwebp_QL65_.jpg" /> | Data Structures and Algorithms for Game Developers | Allen Sherrod | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51rz-pjba4L._AC_UY436_QL65_.jpg" /> | Designing Character-Based Console Games | Mark Davies | Game Design | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41FSE8KkvNL._AC_UY436_QL65_.jpg" /> | Emergence in Games | Penny Sweetser | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Fundamentals of Game Design | Ernest Adams, Andrew Rollings | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game development essentials: Game interface design | Kevin Saunders, Jeannie Novak | | 
 <img class="lazy-load" data-image-full="" /> | Game development essentials: Game Project Management | John Hight, Jeannie Novak | | 
@@ -705,13 +712,12 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/419cCNRww-L._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Games Programming: Using Directx 10 and Open GL | Pierre Rautenbach  | DirectX, OpenGL | 
-<img class="lazy-load" data-image-full="" /> | 3ds Max Modeling: Bots, Mechs and Droids | Jon Weimer | 3DS Max | 
-<img class="lazy-load" data-image-full="" /> | Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
-<img class="lazy-load" data-image-full="" /> | AI and Artificial Life in Video Games | Guy W. Lecky-Thompson | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Dndts5bZL._AC_UY436_FMwebp_QL65_.jpg" /> | 3ds Max Modeling: Bots, Mechs and Droids | Jon Weimer | 3DS Max | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51yqTdfPXGL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced 3D Game Programming with DirectX 10.0 | Peter Walsh | DirectX 10.0 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51C0m6jybzL._AC_UY436_QL65_.jpg" /> | AI and Artificial Life in Video Games | Guy W. Lecky-Thompson | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51glp8m-g8L._AC_UY436_FMwebp_QL65_.jpg" /> | AI Game Programming Wisdom 4 | Steve Rabin | | 
-<img class="lazy-load" data-image-full="" /> | Best of Game Programming Gems | Mark DeLoura | 
-<img class="lazy-load" data-image-full="" /> | Creating game art for 3D engines | Brad Strong | | 
-<img class="lazy-load" data-image-full="" /> | Cross Platform Game Development: Make PC Games for Windows, Linux and Mac | Alan Thorn | C, SDL, Director, Novashell, Ogre3D | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/513Kgc2ay7L._AC_UY436_QL65_.jpg" /> | Best of Game Programming Gems | Mark DeLoura | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Z-WrTZskL._AC_UY436_FMwebp_QL65_.jpg" /> | Cross Platform Game Development: Make PC Games for Windows, Linux and Mac | Alan Thorn | C, SDL, Director, Novashell, Ogre3D | 
 <img class="lazy-load" data-image-full="" /> | Emergence in games | Penny Sweetser | | 
 <img class="lazy-load" data-image-full="" /> | Essential XNA Game Studio 2.0 Programming | Jim Perry | XNA | 
 <img class="lazy-load" data-image-full="" /> | Essential Zbrush | Wayne Robson | Zbrush | 
@@ -734,11 +740,16 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | 3D game development with Microsoft Silverlight 3: beginner's guide | Gastón C. Hillar | | creating real-time responsive online 3D games in Siliverlight 3 using C#, XBAP WPF, XAML, Balder, and Farseer Physics Engine
 <img class="lazy-load" data-image-full="" /> | ActionScript for Multiplayer Games and Virtual Worlds | Jobe Makar | Flash | 
 <img class="lazy-load" data-image-full="" /> | Artificial intelligence for games | Ian Millington and John Funge | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51KNCjiHrVL._AC_UY436_QL65_.jpg" /> | Character Animation With Direct3D | Carl Granberg | DirectX | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51MBR+1KcAL._AC_UY436_FMwebp_QL65_.jpg" /> | Collaborative Online Game Creation | Nanu Swamy and Naveena Swamy | Flash | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51PESIxa2eL._AC_UY436_FMwebp_QL65_.jpg" /> | David Perry on Game Design: A Brainstorming ToolBox | David Perry and Rusel DeMaria | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game audio development | Aaron Marks, Jeannie Novak | | 
 <img class="lazy-load" data-image-full="" /> | Game Design Foundations | Roger Pedersen | | 
 <img class="lazy-load" data-image-full="" /> | Game engine architecture | Jason Gregory | | 
 <img class="lazy-load" data-image-full="" /> | Microsoft XNA game studio creator's guide | Stephen Cawood, Pat McGee | | 
 <img class="lazy-load" data-image-full="" /> | RPG Programming with XNA Game Studio 3.0 | Jim Perry | XNA | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71xyFLBFFAL._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX7: Advanced Rendering Techniques | Wolfgang Engel | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51HG1l5z0sL._AC_UY436_FMwebp_QL65_.jpg" /> | Ultimate Game Programming with DirectX | Allen Sherrod | 
 <img class="lazy-load" data-image-full="" /> | Unity game development essentials | Will Goldstone | Unity | 
 
 ---
