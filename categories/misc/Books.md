@@ -580,6 +580,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FvWheSzmL._AC_UY436_FMwebp_QL65_.jpg" /> | AI Game Engine Programming | Brian Schwab | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/513gVsR0noL._AC_UY436_FMwebp_QL65_.jpg" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41X27dRWptL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginning C++ Game Programming (Game Development Series) | Michael Dawson | C++ | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/412ZHMQ786L._SX383_BO1,204,203,200_.jpg" /> | Beginning Game Boy Advance Programming | Jonathan Harbour | C Programming, GBA | 
 <img class="lazy-load" data-image-full="" /> | Beginning Math and Physics for Game Programmers | Wendy Stahler , Dustin Clingman, et al. | C++ | 
 <img class="lazy-load" data-image-full="" /> | Character development and storytelling for games | Lee Sheldon | | 
 <img class="lazy-load" data-image-full="" /> | Creating the Art of the Game | Matthew Omernick | Maya, 3ds Max | 
@@ -731,6 +732,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51OiEeyGWSL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 7 | Scott Jacobs | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51ikJvGzsuL.jpg" /> | Nintendo Wii Flash Game Creator's Guide: Design, Develop, and Share Your Games Online | Todd Perkins | Flash | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rHYE6fuAL._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX6: Advanced Rendering Techniques | Wolfgang Engel | | 
 
 ---
@@ -766,8 +768,11 @@ This section will cover:
 * Retro Game Dev - Commodore 64
 * The Making of Karateka - 2012
 * You: A Novel - 2012 (Fiction)
+* Programming the Nintendo Game Boy Advance - 2012
+* Behind the Scenes at Sega: The Making of a Video Game - 2015
 * ZX Spectrum Games Code Club: Twenty fun games to code and learn - 2015
-* Making Games for the Atari 2600 - 2016
+* * Making Games for the Atari 2600 - 2016
+* I Am Error: The Nintendo Family Computer / Entertainment System Platform - 2017
 * Programming Games for Intellivision - 2018
 * Code the Classics - 2019
 * Candid Conversations in Code
@@ -775,6 +780,7 @@ This section will cover:
 * Modern MSX BASIC Game Development: Build retro games in MSX BASIC using modern tools - 2021
 * Bare-Metal Amiga Programming: For OCS, ECS and AGA - 2021
 * Advanced Game Programming for Intellivision - 2021
+* Game Boy Coding Adventure: A complete, practical, timeless programming guide - 2022
 
 ## Candid Conversations in Code (2020)
 In Ethan Johnson's excellent book **Candid Conversations in Code** he interviews eight talented game programmer from the 1970s;
