@@ -12,11 +12,11 @@ permalink: /ps2-demos/
 breadcrumbs:
   - name: Home
     url: /
-  - name: Ps2
+  - name: Sony PS2
     url: /ps2
   - name: PS2 Demo Disks with Debug Symbols
     url: #
-recommend: symbols
+recommend: ps2
 editlink: /ps2/PS2DemoDisks.md
 ---
 This page is dedicated to listing PS2 Demo Discs that contain developer debug symbols, either embedded inside the executable or as seperate .map or .sym files.

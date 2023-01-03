@@ -1,26 +1,22 @@
 ---
 layout: post
 tags: 
-- howitworked
+- introduction
 - pc
 - nes
-- appleII
-- graphics
-- commodore
-- atari
-title: How Retro Graphics worked
+title: Introduction to Retro Game Graphics
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg
 permalink: /how-retro-graphics-worked
 breadcrumbs:
   - name: Home
     url: /
-  - name: How it Works
-    url: /howitworks
-  - name: How Retro Graphics worked
+  - name: Introduction
+    url: /introduction
+  - name: Introduction to Retro Game Graphics
     url: #
-recommend: dos
-editlink: /articles/HowItWorks/RetroGraphics.md
+recommend: introduction
+editlink: /articles/Introduction/RetroGraphics.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg
@@ -30,7 +26,7 @@ videocarousel:
     youtube: '_rsycfDliZU'
 ---
 
-The 8-bit Guy on youtube has an excellent series of videos covering how early computer graphics were implemented with the limitations of the hardware in mind.
+The **8-bit Guy** on Youtube has an excellent series of videos covering how early computer graphics were implemented with the limitations of the hardware in mind.
 
 # Memory
 Previously graphics chips didn't have their own memory (e.g VRAM) so they had to share Ram with he CPU.

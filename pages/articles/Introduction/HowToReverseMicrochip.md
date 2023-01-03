@@ -1,9 +1,8 @@
 ---
 layout: post
 tags: 
-- tutorial
+- introduction
 - hardware
-- microchip
 title: How to reverse engineer a microchip
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/r8Vq5NV4Ens/sddefault.jpg
@@ -11,14 +10,13 @@ permalink: /how-to-reverse-microchip
 breadcrumbs:
   - name: Home
     url: /
-  - name: Techniques & Tutorials
-    url: /tutorials
+  - name: Introduction
+    url: /introduction
   - name: How to reverse engineer a microchip
     url: #
 recommend: 
-- howitworked
-- tutorial
-editlink: /articles/TechniquesAndTutorials/HowToReverseMicrochip.md
+- introduction
+editlink: /articles/Introduction/HowToReverseMicrochip.md
 videocarousel:
   - title: Part 1 Decapping
     image: https://i.ytimg.com/vi/wnQ8Td1y_dM/sddefault.jpg

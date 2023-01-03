@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: 
+- industry
 - documentary
 - megadrive
 - sega
@@ -11,11 +12,12 @@ permalink: /sega-documentary
 breadcrumbs:
   - name: Home
     url: /
-  - name: SEGA
-    url: /sega
+  - name: Industry
+    url: /industry
   - name: Working at SEGA Documentary 
     url: #
 recommend: 
+- industry
 - documentary
 - sega
 videocarousel:

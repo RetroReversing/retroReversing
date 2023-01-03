@@ -42,11 +42,22 @@ For an in-depth look at the SNES Retail hardware architecture check out the exce
 In 1993 Nintendo introduced an in-flight entertainment system called the Gateway, this system allowed passengers to play SNES games for about 4 USD an hour.
 
 The Journalist **Ernie Smith** has written an excellent article on his site which you can access at [Will the In-Flight Entertainment System Survive COVID-19?](https://tedium.co/2020/06/19/in-flight-entertainment-system-covid-19-impact-history/) and also tweeted out the Nintendo Power article which talks about it: 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Remember when you could play Super NES games on a plane? That was awesome. Nintendo Power, circa Feb. &#39;94: <a href="https://t.co/iKm6mLB8Us">pic.twitter.com/iKm6mLB8Us</a></p>&mdash; Ernie Smith (@ShortFormErnie) <a href="https://twitter.com/ShortFormErnie/status/834989238810775552?ref_src=twsrc%5Etfw">February 24, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Remember when you could play Super NES games on a plane? That was awesome. Nintendo Power, circa Feb. &#39;94: <a href="https://t.co/iKm6mLB8Us">pic.twitter.com/iKm6mLB8Us</a></p>&mdash; Ernie Smith (@ShortFormErnie) <a href="https://twitter.com/ShortFormErnie/status/834989238810775552?ref_src=twsrc%5Etfw">February 24, 2017</a></blockquote>
 
 Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has created an excellent video on the subject:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+ ## Satellaview
+ The **Satellaview** was a satelite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
+ 
+ The sad thing about the Satellaview is due to the nature of the technology most of the content has been lost to time and has only been partially preserved by finding old recordings on people's Satellaview cartridges. Some content was broadcast but never downloaded, or soon overwritten with newer content so there is no other way to obtain the data.
+ 
+ In 2020 Luigiblood did a presentation to the **AirGap2020** conference about **Satellaview Reverse Engineering** which can be watched below:
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/qUAmk8dYmrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ The **Satellaview** has little Memory Packs with only 1MB (8 MegaBit) of flash storage space that would slot into the BSX Satellaview cartridges, it was a cartridge that had a smaller cartirdge slot on top. Note that there was one other game that supported these Memory Packs, it was a game creator called **RPG Maker**.
+ 
 ---
 # Games
 The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.

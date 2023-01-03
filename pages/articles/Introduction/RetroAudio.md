@@ -1,36 +1,30 @@
 ---
 layout: post
 tags: 
-- howitworks
+- introduction
 - pc
 - nes
-- appleII
-- audio
-- commodore
-- atari
-title: How Retro Sound/Music work
+title: Introduction to Audio Programming of Retro Games
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
 permalink: /how-retro-audio-worked
 breadcrumbs:
   - name: Home
     url: /
-  - name: How it Works
-    url: /howitworks
-  - name: How Retro Audio worked
+  - name: Introduction
+    url: /introduction
+  - name: Introduction to Audio Programming of Retro Games
     url: #
 recommend: 
-- howitworks
-- audio
-- nes
-editlink: /articles/HowItWorks/RetroAudio.md
+- introduction
+editlink: /articles/Introduction/RetroAudio.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
     youtube: 'q_3d1x2VPxk'
 ---
 
-The 8-bit Guy on youtube has an excellent video covering how early computers and game consoles played sound and music [^1].
+The **8-bit Guy** on Youtube has an excellent video covering how early computers and game consoles played sound and music [^1].
 
 He has split up his video into 3 sections:
 * Beeper Speakers
@@ -84,4 +78,4 @@ Audio would be built up of small audio clips called "samples". The concept of a 
 
 # References
 [^1]: [How Oldschool Sound/Music worked](https://www.youtube.com/watch?v=q_3d1x2VPxk)
-[^2]: [(403) NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)
+[^2]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)

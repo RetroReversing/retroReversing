@@ -51,6 +51,25 @@ Prototype games are ideal targets for reverse engineering as many of them contai
 {% include link-to-other-site.html url="https://hiddenpalace.org/Prototypes_by_system/Nintendo_GameCube" description="Hidden Palace has the most complete list of released Gamecube Prototypes and Demos, check it out here." title="List of Nintendo Gamecube Prototypes - Hidden Palace" image="/public/consoles/Nintendo Gamecube.png"  %}
 
 ---
+## Games with Emulators ON Gamecube
+A few Gamecube games have emulator code built into them either as bonus content (Animal Crossing, Fight Night Round 2) or as the main game (Sonic Mega Collection).
+
+Here is a list of known games that have emulators built in:
+* Fight Night Round 2 (uses an emulator called **SNESticle** to play Super Punch Out, ROM file is called SNS4Q0.471 on the Disc, same filename as seen in Nintendo Lot-Check Leaks)
+
+### Fight Night Round 2
+The Gamecube game **Fight Night Round 2** has a playable version of the SNES game **Super Punch Out** on the Disc called **SNS4Q0.471**. This file must have come from Nintendo as it matches the Nintendo Lot-check naming scheme that Nintendo uses internally.
+
+The cool thing about this is that the emulator was written by **Icer Addis** who was the co-creator of one of the first ever NES emulators known as **NESticle**. An easter egg of sorts can be found when looking at the strings inside the executable, they called the SNES emulator for gamecube **SNESticle**!
+
+Not only that but a project was launched to try to get other SNES ROMS to work with the emulator known as the **The SNESticle Liberation Project** which consisted of a Multi-ROM menu SNES Rom and a Python script to inject ROMS and put everything together (**fn22snesticle.py).
+
+The devlog is a very good read and is available here: [Devlog - The SNESticle Liberation Project](https://dataswamp.org/~josk/snesticle/devlog/)
+
+This drew the attention of Icer who decided to release the full source code for **SNESticle** (PS2 & Dreamcast):
+[iaddis/SNESticle: SNESticle source code (circa ~2004)](https://github.com/iaddis/SNESticle)
+
+---
 # Reverse Engineering
 
 ## File Formats

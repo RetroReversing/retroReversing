@@ -160,6 +160,10 @@ strings yourfilename
 </div>
 </section> 
 
+## Game Audio and Music
+A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a seperate post covering Game Audio and Music reversing and file format information.
+{% include link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
+
 ---
 # Lesson 3 - Executables, CPU & Assembly Code
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.

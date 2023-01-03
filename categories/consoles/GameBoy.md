@@ -1,9 +1,9 @@
 ---
 permalink: /gameboy/
 layout: post
-title: Nintendo Game Boy (DMG & GBC)
+title: Nintendo Game Boy (DMG & GBC) Reversing
 recommend: gameboy
-recommendTitle: All GB Posts
+recommendTitle: All GameBoy Posts
 editlink: ../categories/consoles/GameBoy.md
 console: gameboy
 consoleimage: /public/NintendoGameBoyThumb.png
@@ -75,9 +75,6 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 ## Looney Tunes: Carrot Crazy
 {% include link-to-other-site.html url="https://www.huderlem.com/blog/posts/carrot-crazy-1/" description="Find out how to reverse engineer Looney Tunes: Carrot Crazy for the GBC" image="https://www.huderlem.com/blog/posts/carrot-crazy-1/password-entry-screen.png" title="Reverse Engineering Carrot Crazy"  %}
 
-## Crystalis
-<iframe width="560" height="420" src="https://www.youtube.com/embed/whgbxtBAnPw"></iframe>
-
 ---
 # Game Boy Development
 
@@ -114,6 +111,7 @@ Here is the link: [Tetsuji: Remote Code Execution on a GameBoy Colour 22 Years L
 
 ---
 ## Super GameBoy
+The Super GameBoy was a Super Nintendo Cartridge that allowed you to play Original GameBoy (DMG) games on the big screen (TV Monitor). It did this by including all the hardware a normal GameBoy has (a z80 cpu etc) minus the screen and the buttons:
 <iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
 
 ---
@@ -125,7 +123,7 @@ For more information:
 - https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
 
 ## Wide Boy 64
-Official device to play gameboy (including gba) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
+Official device to play gameboy (including GBA) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
 <iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
 
 ---
@@ -138,7 +136,7 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 <iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
 
 ---
-# Source Code
+# Game Boy Source Code
 
 ## Mr Do! For Original Game Boy
 The source code for the Game Boy classic `Mr Do!` has been kindly released by two of the original game developers and can provide an excellent reference for how retail Game Boy games were developed in 1990!
@@ -146,11 +144,52 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 {% include link-to-other-post.html post="/mrdo" description="For more information about the source code check out this post." %}
 
 ---
-# Misc
+# Game Boy Games
+
+## Alien 3
+The Game Boy game **Alien 3** was written in only 5 weeks by legendary game programmer **Jas Austin**:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Gameboy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
+
+## R-Type
+The Game Boy classic **R-Type** was programmed by **Jas Austin** completely from Memory as he didn't have any code or assets from any other version of the game!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I agree, it&#39;s amazing some of the lengths we have to go to when we didn&#39;t have code or assets. For R-Type I did most of it from memory after visits to the Trocadero in London. And I didn&#39;t live in London.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1251581149643780097?ref_src=twsrc%5Etfw">April 18, 2020</a></blockquote>
+
+The company **B.I.T.S** obtained the license to develop the Game Boy version of the game but required a programmer to work on the title. **Jas Austin** heard about this through his agency and travelled to London to meet up, he impressed them so much that he was given a development kit and a deadline of a week to come up with a demo! He did such a good job he got a permanent job at **B.I.T.S** [^1].
+
+One cool easter egg he added to the game was an implementation of John Conway’s game of Life!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway’s game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Source graphics for Gameboy R-Type Lv3 ship. By Mark Jones... <a href="https://twitter.com/hashtag/ScreenshotSaturday24YearsAgo?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday24YearsAgo</a> <a href="http://t.co/RsKlc0rQOE">pic.twitter.com/RsKlc0rQOE</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/591964228053016577?ref_src=twsrc%5Etfw">April 25, 2015</a></blockquote>
+
+
+
+---
+# Sound and Audio on the Game Boy
+
+## Game Boy Color Audio Chip Reversing (AMP MGB)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I reverse-engineered the audio chip in the <a href="https://twitter.com/hashtag/Nintendo?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo</a> Game Boy Color. It contains three power op-amps for the speaker and headphone channels. This 1998 chip is built from about 100 NPN and PNP transistors. Die photo from <a href="https://twitter.com/johndmcmaster?ref_src=twsrc%5Etfw">@johndmcmaster</a>. Article &amp; schematic:<a href="https://t.co/EhsVogAJPl">https://t.co/EhsVogAJPl</a> <a href="https://t.co/J6CYPsOdaz">pic.twitter.com/J6CYPsOdaz</a></p>&mdash; Ken Shirriff (@kenshirriff) <a href="https://twitter.com/kenshirriff/status/1256631240838361088?ref_src=twsrc%5Etfw">May 2, 2020</a></blockquote>
+
+If you are interested in low-level hardware details about the Game Boy then this is a must read article: [Reverse-engineering the audio amplifier chip in the Nintendo Game Boy Color](http://www.righto.com/2020/05/reverse-engineering-audio-chip-in.html)
 
 ## Synthic: Automatically generate gameboy music using machine learning
 This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
 [jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
+
+---
+# File Formats
+There are a few different file formats that you will find relating to the GameBoy which are listed below:
+* **.ISX** Official Nintendo ROM file (compiled by the assembler **ISAS**) (contains debug symbols)
+* **.GB** Original GameBoy ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
+* **.GBC** Original GameBoy Color ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
+
+If you backup your own games they will be created with a **.GB** or **.GBC** file extension along with most of the ROMS that can be found online. If the ROM was leaked from a first party developer such as Nintendo then they will likely be in **.ISX** format, this can easily be converted to **.GBC** with the tool **CVTISX** included in the Official GameBoy SDK.
+
+The emulator **SameBoy** recently added support to play ISX files due to the **2020 Nintendo Leaks**:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
+
+---
+# References
+[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 
 ---
 # All Posts tagged with GameBoy

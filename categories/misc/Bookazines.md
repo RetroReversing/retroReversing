@@ -51,6 +51,7 @@ Title | Publisher | Notes
 100 Games to Play before you Die | Future Publishing | Articles from Retro Gamer magazine
 Ninteno Archives | Future Publishing | 
 Retro Gamer Collection | Future Publishing | At least 7 Volumes
+Retro Micro Games Action | Imagine Publishing, Future Publishing | At least 10 Volumes from GamesTM Retro sections
 SEGA Archives | Future Publishing | 
 SNES The Complete Manual | Future Publishing | 
 The Atari Book | Future Publishing | At least 2 editions available, Articles from Retro Gamer magazine
@@ -61,6 +62,54 @@ The Playstation Book | Future Publishing |
 The Ultimate Guide to indie Games | Future Publishing | Contains articles from PC Gamer Magazine
 The ZX Spectrum Book | Future Publishing | Articles from Retro Gamer magazine
 Videogames Hardware Handbook | Future Publishing | Articles from Retro Gamer magazine
+
+
+## Retro Micro Games Action
+The UK Magazine **GamesTM** had a section dedicated to retro games every month, while it was only a small part of the magazine it had a wealth of interesting information, especially interesting for the topic of this site is the interviews with developers. While its sister magazine Retro Gamer focussed on much earlier retro gaming, the Retro section of GamesTM would go all the way up to PS2 and even PS3!
+
+There were 10 volumes published from 2011 until 2021.
+
+### Behind The Scenes
+
+Game | Platform | Issue # | Notes
+---|---|---|---
+Robotron: 2084 | Arcade | 2 | Interview with Eugene Jarvis
+Shadow of the Beast | Amiga | 2 | 
+Xybots | Arcade | 2 | 
+MDK | DOS, Windows and PS1 | 9 | 
+Icewind Dale | | 9 | 
+System Shock 2 | | 9 | 
+Duke Nukem 64 | | 9 | 
+Star Trek Voyager Elite Force | | 9 | 
+Ghostbusters 2 | | 9 | 
+
+### Interviews
+
+Name | Company | Issue | Notes
+---|---|---|---
+Steve Turner | Graftgold co-founder | 1 | Apparently SEGA systems used the same assemblers as the Amiga?! Maybe custom devkit?
+Raff Cecco | | 2 | Spectrum games such as Cybernoid, Stormlord
+Geoff Crammond | Firebird, Microprose | 2 | BBC Micro titles such as Aviator, C64, AMIGA, ATARI ST and PC
+David Braben | Frontier Developments | 2 | 
+Ben Daglish | W.E.M.U.S.I.C. | 2 | Musician for games such as The Last Ninja
+The Pickford Brothers | Zippo, Rare Manchester, Software Creations | 2 | Worked on Wetrix for N64, Solstice 2 for NES and many many more
+David Anderson | Platinum Productions | 2 | Worked on tons of Spectrum conversions!
+Tom Kalinske | CEO SEGA of America | 9 | 
+Jas Austin | | 9 | 
+Ninh Le | | 9 | 
+Dave Grossman | | 9 | 
+Stuart Copeland | | 9 | 
+
+#### Tom Kalinske Interview
+One of the most interesting interviews is with former SEGA of America CEO **Tom Kalinske** who was in charge when EA reverse-engineered the Sega Mega Drive. He was furious and famously said: 
+> "Trip [Hawkins], didn't your mother ever teach you the difference between right and wrong?"
+
+This may have got the meeting off to a rough start but in the end SEGA got **John Madden football** and EA got favoured licensing rights.
+
+#### Pickford Brothers Interview
+The interview with the Pickford Brothers was also facinating and mentioned that they were one of the first studios to get NES development kits outside of Japan and one of the first Game Boy developers outside of Japan. I wonder which development kits they were given for NES and Game Boy... it would have been great to ask them more details about the development kits.
+
+They also managed to play around with one of the first SNES development kits in Europe when they worked at Software Creations. It would have been great to ask them what they remember about these development kits!
 
 ---
 # Digital Art Bookazines

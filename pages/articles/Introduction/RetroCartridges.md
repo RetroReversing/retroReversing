@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: 
-- howitworks
+- introduction
 - pc
 - nes
 - snes
@@ -15,14 +15,13 @@ permalink: /how-retro-cartridges-roms-worked
 breadcrumbs:
   - name: Home
     url: /
-  - name: How it Works
-    url: /howitworks
+  - name: Introduction
+    url: /introduction
   - name: How Retro Cartridges/ROMS worked
     url: #
 recommend: 
-- howitworks
-- nes
-editlink: /articles/HowItWorks/RetroCartridges.md
+- introduction
+editlink: /articles/Introduction/RetroCartridges.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/NLEMsw1SjDY/sddefault.jpg

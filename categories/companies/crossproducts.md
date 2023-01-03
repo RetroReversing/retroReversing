@@ -2,7 +2,11 @@
 layout: post
 permalink: /companies/crossproducts/
 console: crossproducts
-recommend: crossproducts
+tags:
+ - industry
+recommend: 
+ - industry
+ - crossproducts
 recommendTitle: All CrossProducts Posts
 title: Cross Products (Creator of Development Tools)
 image: /public/images/companies/Cross Product - Company.jpg

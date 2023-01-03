@@ -1,26 +1,28 @@
 ---
 layout: post
 tags: 
-- howitworks
+- introduction
 - gameboy
 - 3ds
-title: How does Twitch Play Emulators?
+title: How does Twitch Play Pokemon? (Emulation through Twitch)
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "qQrQcyDZydY?time_continue=41"
 image: /public/images/howitworks/How does twitch play pokemon.jpg
 twitterimage: https://www.retroreversing.com/public/images/howitworks/How does twitch play pokemon.jpg
-permalink: /twitchpokemonhack
+permalink: /how-does-twitch-play-pokemon
+redirect_from:
+- /twitchpokemonhack
 breadcrumbs:
   - name: Home
     url: /
-  - name: How it Works
-    url: /howitworks
-  - name: How does Twitch Play Emulators?
+  - name: Introduction
+    url: /introduction
+  - name: How does Twitch Play Pokemon? (Emulation through Twitch)
     url: #
 recommend: 
-- howitworks
+- introduction
 - gameboy
-editlink: /gameboy/twitchplaysemulators.md
+editlink: /articles/Introduction/twitchplaysemulators.md
 updatedAt: '2017-12-28'
 ---
 

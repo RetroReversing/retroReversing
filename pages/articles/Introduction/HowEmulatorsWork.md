@@ -1,9 +1,8 @@
 ---
 layout: post
 tags: 
-- howitworks
-- emulator
-title: How Emulators work
+- introduction
+title: How do Emulators work? A Deep-dive into emulator design
 thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/articles/How Emulators Work.jpg
 twitterimage: /public/images/articles/How Emulators Work.jpg
@@ -11,17 +10,18 @@ permalink: /how-emulators-work
 breadcrumbs:
   - name: Home
     url: /
-  - name: How it Works
-    url: /howitworks
-  - name: How Emulators Work
+  - name: Introduction
+    url: /introduction
+  - name: How do Emulators work? A Deep-dive into emulator design
     url: #
 recommend: 
-- howitworks
-- nes
-editlink: /articles/HowItWorks/HowEmulatorsWork.md
+- introduction
+editlink: /articles/Introduction/HowEmulatorsWork.md
 updatedAt: '2022-10-09'
 ---
-# Introduction to How Emulators Work
+Have you ever wondered how emulators work? This post aims to go through the technical details for how most open source and commercial emulators work.
+
+# Introduction to Emulators
 Emulators are computer programs that run on one system such as a PC or games console but pretend to be another system such as retro console like the NES or GameBoy.
 
 But how do they work? How would you implement an Emulator? Where should you start if you are interested in Emulator development? This post attempts to answer all those questions.

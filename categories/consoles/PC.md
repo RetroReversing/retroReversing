@@ -22,11 +22,19 @@ breadcrumbs:
 The Youtuber **Displaced Gamers** has an excellent video explaining the common DOS aspect ratio:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YvckyWxHAIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+---
 ## DOS Game Modding
 
 ### DOS Game Corruption
 If You are using a browser-based DOSBox emulator to run your games you can add this bookmarklet to your browser for it to automatically corrupt random memory addresses inside the DOS game:
 [jsRTC/jsRTC_for_js-dosbox.txt at master · redscientistlabs/jsRTC](https://github.com/redscientistlabs/jsRTC/blob/master/jsRTC_for_js-dosbox.txt)
+
+---
+## DOS Game Reverse Engineering
+
+### REVERSE ENGINEERING STRIKE COMMANDER
+Fabien Sanglard has an excellent series iof articles on how he reverse engineered the classic flight simuator **Strike Commander**:
+[Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
 
 ---
 # MSX

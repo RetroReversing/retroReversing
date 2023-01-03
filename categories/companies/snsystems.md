@@ -2,7 +2,12 @@
 permalink: /companies/snsystems/
 layout: post
 console: snsystems
-recommend: snsystems
+recommend: 
+- industry
+- snsystems
+tags:
+- industry
+- snsystems
 recommendTitle: All SN Systems Posts
 title: SN Systems (Creator of Development Tools)
 image: /public/images/companies/SN Systems - Company.jpg

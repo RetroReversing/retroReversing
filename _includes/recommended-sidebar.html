@@ -16,9 +16,11 @@
                   <div class="widget-img">
                     <a href="{{ post.permalink }}" target="_blank">
                       {% if post.image %}
-                        <img src="{{ post.image }}" alt="">
-                      {% else if post.youtube %}
-                        <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                        <img class="lazy-load" style="height:135px; display: block;" data-image-full="{{ post.image }}" alt="">
+                      {% elsif post.youtube %}
+                        <img class="lazy-load" style="height:135px;display: block;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                      {% else %}
+                        <div style="height:135px; background-color: lightgrey; display: block;" />
                       {% endif %}
                     </a>
                     <span>{{ recommend }}</span>
@@ -37,10 +39,12 @@
               <div class="widget-img">
                 <a href="{{ post.permalink }}" target="_blank">
                   {% if post.image %}
-                    <img src="{{ post.image }}" alt="">
-                  {% else if post.youtube %}
-                    <img src="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
-                  {% endif %}
+                    <img class="lazy-load" style="height:135px; display:block;" data-image-full="{{ post.image }}" alt="">
+                  {% elsif post.youtube %}
+                    <img class="lazy-load" style="height:135px; display:block;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+                 {% else %}
+                    <div style="background-color: lightgrey; height:135px; display:block;" />
+                 {% endif %}
                 </a>
                 <span>{{ page.recommend }}</span>
               </div>

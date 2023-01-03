@@ -1,3 +1,8 @@
+/* Remove default bootstrap padding for containers */
+.container {
+  padding: 0px;
+}
+
 /* hide scrollbar on webkit */
 ::-webkit-scrollbar {
     display: none;
@@ -145,6 +150,18 @@ overflow: scroll;
   display:flex;
   padding: 10px;
   padding-bottom: 0px;
+}
+
+/* Non-datatable tables styling */
+.row table {
+  margin-bottom: 40px;
+  margin-left: 5%;
+  margin-top: 20px;
+  max-width: 95%
+}
+
+.table > thead > tr > th {
+  color: #0085b6
 }
 
 .row p {
