@@ -455,7 +455,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Game Design: The Art & Business of creating games | Bob Bates | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game Developer's Guide to Cybiko | Ernest Pazera | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51w1S7Np+TL._AC_UY436_QL65_.jpg" /> | Game Modeling Using Low Polygon Techniques | Chad Walker and Eric Walker | | 
-<img class="lazy-load" data-image-full="" /> | Game Programming Gems 2 | Mark Deloura | C++ | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41zo5mj1VAL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 2 | Mark Deloura | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/4164FDHVRQL._AC_UY436_FMwebp_QL65_.jpg" /> | Infinite Game Universe: Mathematical Techniques | Guy W. Lecky-Thompson | | 
 <img class="lazy-load" data-image-full="" /> | Inside Lightwave 7 | Dan Ablan | Lightwave 7 | 
 <img class="lazy-load" data-image-full="" /> | Introduction to Computer Game Programming with DirectX 8.0 | Ian Parberry | DirectX 8.0 |
@@ -528,6 +528,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Ai Game Development: Synthetic Creatures With Learning and Reactive Behaviors | Alex J. Champandard  | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51FcLMYi4UL._AC_UY436_QL65_.jpg" /> | AI Game Programming Wisdom 2 | Steve Rabin | | 
 <img class="lazy-load" data-image-full="" /> | Andrew Rollings and Ernest Adams on Game Design | Andrew Rollings and Ernest Adams | Game Design | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51xxfOzpJwL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginner's Guide to DarkBASIC Game Programming | Jonathan S. Harbour and Joshua Smith | DarkBASIC | 
 <img class="lazy-load" data-image-full="" /> | Chris Crawford on Game Design | Chris Crawford | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41uR2OAoJoL._SX402_BO1,204,203,200_.jpg" /> | Core Techniques and Algorithms in Game Programming | Daniel Sanchez-Crespo Dalmau | C++ with OpenGL and DirectX
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qpoeehxFL._AC_UY436_FMwebp_QL65_.jpg" /> | C++ For Game Programmers | Noel Llopis | C++ | 
@@ -544,6 +545,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with DirectX 9.0 | Frank D. Luna | DirectX 9.0 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51emXn09b9L._AC_UY436_FMwebp_QL65_.jpg" /> | Introduction to Level Design for PC Games | Andrew Charles Clayton | gMax, Photoshop | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51-t7J2PiRL._AC_UY436_QL65_.jpg" /> | The Indie game development survival guide | David Michael | Soft Skills | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51zy1vEAltL._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg" /> | Game Coding Complete | Mike McShaffry | C++ DirectX | 
 <img class="lazy-load" data-image-full="" /> | Game Design Foundations | Roger E. Pedersen | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Game development and production | Erik Bethke | Project Management | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51BhPxL7zXL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 3 | Dante Treglia | |
@@ -665,6 +667,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51X7V2vYBUL._AC_UY436_FMwebp_QL65_.jpg" /> | Developing Serious Games | Bryan Bergeron | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41GAacienAL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Design: A Practical Approach | Paul Schuytema | Game Design |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51mGZghu6hL._AC_UY436_QL65_.jpg" /> | Game Developer's Open Source Handbook | Steven Goodwin | SDL, ODE | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41wv1643vsL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg" /> | Game Engine Toolset Development | Graham Wihlidal | C# | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51uwKf5fgJL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Production Handbook | Heather M Chandler | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51VuI9eJZGL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming in C++: Start to Finish | Erik Yuzwa | C++, SDL, OpenGL | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51D3ctXQ5LL._AC_UY436_QL65_.jpg" /> | Game Programming Gems 6 | Mike Dickheiser | | 
