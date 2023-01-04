@@ -177,6 +177,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/MonsterDruide1/OdysseyDecomp" description="Initial decompilation of the Nintendo switch game Super Mario Odyssey" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
 
 ---
+
 # Nintendo Handhelds
 
 ## Game Boy
@@ -356,6 +357,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
 
 ---
+
 ## PlayStation 2
 
 ### Fatal Frame 2: Crimson Butterfly  
@@ -368,6 +370,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/a/a4/Sly_Cooper_and_the_Thievius_Raccoonus_Coverart.png" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
 
 ---
+
 # Microsoft Systems
 There are only a handful of reverse engineered games for Microsoft game consoles.
 ## MSX
@@ -409,7 +412,6 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 
 ---
 
----
 # Atari Systems
 
 ## Atari 2600
@@ -425,6 +427,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 {% include link-to-other-site.html url="https://atariage.com/forums/topic/229669-colecovision-donkey-kong-disassembly/" description="" image="https://i.pinimg.com/originals/28/db/53/28db5343d4801e9c10cbb4e7a91e3317.jpg" title="Donkey Kong for ColecoVision Disassembly" %}
 
 ---
+
 # NEC Systems
 
 ## PC-9801
@@ -434,6 +437,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 {% include link-to-other-site.html url="https://github.com/nmlgc/ReC98" description="This project aims to perfectly reconstruct the source code of the first five Touhou Project games by ZUN Soft (now Team Shanghai Alice), which were originally released exclusively for the NEC PC-9801 system." image="https://static.wikia.nocookie.net/touhou/images/f/f3/Th01Cover.jpg" title="The Touhou PC-98 Restoration Project" %}
 
 ---
+
 # Mobile games
 Mobile games are a special case that weren't initially going to be included, but we have included a few games that are based on console games.
 
@@ -443,6 +447,7 @@ Mobile games are a special case that weren't initially going to be included, but
 {% include link-to-other-site.html url="https://github.com/Iso-Kilo/Sonic-1-J2ME-Decompilation" description="A decompilation of the 2005 Java mobile port of Sonic the Hedgehog (1991). This decompilation focuses on the 240x320 resolution version, of part 1 as it uses the original game's graphics. However, there are lower resolutions that function similarily. And part 2 consists of the largest available resolution; 208x208. Part 1 was created by iFone, and 2 by Glu." image="https://repository-images.githubusercontent.com/254218052/8e42f080-7f34-11ea-9261-3e534fe23726" title="Decompile of the 2005 mobile port of Sonic 1" %}
 
 ---
+
 ## Android
 
 ### Sonic 1 & 2 Classic (2013)
