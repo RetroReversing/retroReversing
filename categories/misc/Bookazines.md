@@ -127,7 +127,7 @@ The Sci-fi & Fantasy Art Book | Future Publishing | at least 4 editions publishe
 The Ultimate Guide to Graphic Design | Dennis Publishing | contains articles from MacUser magazine
 
 ---
-## Get Started in 3D
+## Get Started in 3D (2014-2021)
 First published in 2014 by **Future** this Bookazine has been republished at least 4 times with almost identical content. It contains 180 pages of pure content with no Advertisements, honestly if you can find a copy in your local newsagents then I would reccomend picking it up as it is well worth the money.
 
 ### Contents of Get Started in 3D
@@ -137,6 +137,7 @@ The Bookazine is split into the following sections:
 * **Theory** - 5 Articles on theory by Denis Kozlov
 * **Tutorials** - 14 articles written for specific software
 
+#### Showcase
 The table below shows the pieces features in the Bookazine along with their artists and the software used to create them.
 
 Name of Piece | Artist Name | Software used
@@ -152,6 +153,7 @@ BingBing | Nianzu Zhang | 3ds Max 2012, ZBrush, Photoshop, mental ray, Hairfarm
 [Valhalla](https://www.rochr.com/Valhalla.html) | Rudolf Herczog | Cinema 4D, Maxwell Render, Photoshop
 The Pirate | [Pietro Licini](https://pietrolicini.com/) | Maya, ZBrush, Mudbox, Arnold, Photoshop
 
+#### Fundamentals
 The **Fundamentals** section is a series of 19 articles all written by **Mike Griggs** and previously featured in the monthly 3D World Magazine, the table below lists the articles along with the original magazine they were featured in (if known).
 
 Name | Tag Line | Original Issue
@@ -176,19 +178,7 @@ FLUID DYNAMICS | Understand fluid dynamics systems |
 SUB-SURFACE SCATTERING | Create convincing interactions with this technique | Issue 172 (September 2013)
 MEDICAL GRAPHICS | This niche world can really influence your work | 
 
-The **Questions and Answers** section contains 6 of the most popular Q&A sections from the monthly magazine.
-
-Name | Tag Line | Original Issue
----|---|---
-QUESTIONS AND ANSWERS 1 | Your problems solved by our experts | 
-QUESTIONS AND ANSWERS 2 | More 3D problems solved | 
-QUESTIONS AND ANSWERS 3 | Modelling dinosaurs and more! | 
-QUESTIONS AND ANSWERS 4 | Includes a mech design masterclass | 
-QUESTIONS AND ANSWERS 5 | Global illumination in C4D and more | 
-QUESTIONS AND ANSWERS 6 | Includes how to create realistic materials | 
-PORTFOLIOS | The pro’s guide to building a better portfolio by Andrew Gordon | 
-PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job by Ian Dean | 
-
+#### Theory
 The **Theory** section contains an in-depth look at the theoretical concepts that make 3D graphics work, all written by **Denis Kozlov**.
 
 Name | Tag Line | Original issue
@@ -199,7 +189,8 @@ PARTICLE SYSTEMS: PART 1 | Part one of two looking at particle systems |
 PARTICLE SYSTEMS: PART 2 |  Further advice on particle systems | 
 DEPTH OF COLOUR |  The basics of colour depth of raster images | 
 
-The **Tutorials** section contains 14 articles written for specific software such as 3ds Max, Photoshop and ZBrush.
+#### Tutorials
+The **Tutorials** section contains 14 articles written for specific software such as 3ds Max, Photoshop and ZBrush. The later editions have replaced some of the older tutorials with newer tutorials from the 3DWorld magazine, the table below contains both the older and newer content found in the first three editions.
 
 Name | Tag Line | Author | Original issue
 ---|---|---|---
@@ -217,3 +208,19 @@ CHARACTER CONCEPTS | Successful character concepts in 15 stages | Dan Mason |
 SCI-FI RACING | Create futurist racing machines in 3ds Max 2015 | Al Brady | 
 REALISTIC ENVIRONMENTS |  Build your own cityscape in fantastic detail (3ds max, photoshop) | Anthony Eftekhari | 
 PHOTOSHOP TEXTURES |  10 top tips for better textures in Photoshop | Leigh van der Byl  | Issue 167 (April 2013)
+Model Characters | Design and Model a Video Game Character | Marat "Flamm" Latypov | Issue 229 (Jan 2018) [ArtStation - ReY](https://www.artstation.com/artwork/YyavV)
+Shoot Like You Mean It | A primer of Filmn Grammer | Dora R. Fitzgerald | Issue 231 (March 2018)
+
+#### Q&A
+The **Questions and Answers** section contains 6 of the most popular Q&A sections from the monthly magazine.
+
+Name | Tag Line | Original Issue
+---|---|---
+QUESTIONS AND ANSWERS 1 | Your problems solved by our experts | 
+QUESTIONS AND ANSWERS 2 | More 3D problems solved | 
+QUESTIONS AND ANSWERS 3 | Modelling dinosaurs and more! | 
+QUESTIONS AND ANSWERS 4 | Includes a mech design masterclass | 
+QUESTIONS AND ANSWERS 5 | Global illumination in C4D and more | 
+QUESTIONS AND ANSWERS 6 | Includes how to create realistic materials | 
+PORTFOLIOS | The pro’s guide to building a better portfolio by Andrew Gordon | 
+PUT YOURSELF IN THE FRAME | Follow these tips to land your dream job by Ian Dean | 
