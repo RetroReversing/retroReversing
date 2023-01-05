@@ -177,7 +177,9 @@ Games built using this development system include but is not limited to:
 <div markdown="1">
 HAL Laboratory, Inc. who are best known for creating the Kirby and Mother series of games were very early NES developers. Like many other developers they did not have an official development kits available so took a rather unique approach to developing games on the system. They used the retail Twin Famicom System with an added trackball mouse along with a tool they created that had a virtual keyboard [^7].
 
-Development data was written and read from the floppy disc and they created some software that ran on the cartridge port that allowed them to edit code or sprite data. This was during the development of their game `Metal Slader Glory` [^11]
+Development data was written and read from the floppy disc and they created some software that ran on the cartridge port that allowed them to edit code or sprite data. This was during the development of their game **Metal Slader Glory**[^11].
+  
+This system was also used in the development of HALs most famous creation **Kirby's Adventure**[^25].
 </div>
 </section>
 
@@ -345,3 +347,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^22]: [Interview with Alberto González (composer) – VGArc](http://www.vgarc.org/vgarc-originals/interview-with-alberto-gonzalez/)
 [^23]: [N2G](https://web.archive.org/web/20170415132556/http://nintendoage.com/forum/messageview.cfm?catid=56&threadid=69249)
 [^24]: [Nintendo Entertainment System/NES (1985-1995) – History of Console Gaming](https://hiscoga.wordpress.com/nintendo-entertainment-systemnes-1985-1995/)
+[^25]: [Beta64 - Kirby's Adventure & Kirby's Dream Land - YouTube](https://www.youtube.com/watch?v=I9cgjj5Yezk&list=WL&index=16)
