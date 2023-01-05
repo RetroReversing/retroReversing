@@ -97,6 +97,7 @@ O.D.T. | Euro Demo 28 (France) | /ODT/MOVIES.SYM ODT.SYM
 SCARS | PlayStation Zone CD Vol. 8 (Germany) | SCARSPAL.SYM
 TH Pro Skater | Euro Demo 07-00 (Germany) | PROSKATE/MAIN.SYM
 UEFA EURO 2000 | Euro Demo 07-00 (Germany) | EURODEMO/BECODE_Z.SYM E2000_Z.SYM FECODE_Z.SYM
+Sled Storm | USA Demo Disc 24 | DEBUG/MAIN.MAP
 Soul reaver | Soul reaver (SLES-02024) | /DEBUG/NTSC/KAIN2.SYM
 Wipeout XL | Wipeout XL (USA) (Beta) | NTSC.SYM
 DemoDemo Vol. 12 (Japan) | DemoDemo Vol. 12 (Japan) | MAIN.SYM
