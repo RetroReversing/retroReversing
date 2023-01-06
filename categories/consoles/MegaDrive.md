@@ -33,6 +33,14 @@ In order for game developers to create software for the SEGA Mega Drive, they ha
 
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
+## Code Your Own SONIC Game
+The Youtuber **Game Hut** has a series of tutorials on Sega Mega drive programming.
+Part 1:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PSYhSmXBgIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Part 2:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tdjVfl_YWd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 # All Posts
 <div>
