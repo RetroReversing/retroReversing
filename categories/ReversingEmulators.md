@@ -40,6 +40,13 @@ Version 0.1 is only available for MacOSX and you need RetroArch pre-installed, y
 
 Extract the zip file and drag and drop a GB/NES/SNES/GG/SMS ROM file on to the application called **run_macosx.app** and it should open the interface in your default web browser.
 
+To run a GameBoy game, open a terminal in the directory you extracted and run:
+```
+/Applications/RetroArch.app/Contents/MacOS/RetroArch -L sameboy_libretro.dylib yourgame.gb
+```
+
+It will open a new tab in your default browser pointing to "http://localhost:1234/#/", Click on Resume in the top Header and then click Run to start the game.
+
 ---
 # libRetroReversing
 In order to provide a consistent user experience and shared functionality across different console generations a new library was created to encapsulate common functionality.
