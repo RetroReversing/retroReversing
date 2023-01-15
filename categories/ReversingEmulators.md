@@ -23,7 +23,7 @@ updatedAt: '2020-10-17'
 # What is a Reversing Emulator?
 To put it simply a Reversing emulator is a standard emulator that has been modified to add additional debugging and tracing functionality useful for reverse engineers.
 
-# Why use a Reversing Emulator?
+## Why use a Reversing Emulator?
 There are a few use cases where you would want to use a reversing emulator rather than a standard emulator, these include:
 * Cheat creation (e.g Game genie/Action replay codes)
 * Creating Tool-Assisted-Superplays (TASing)
@@ -34,6 +34,11 @@ There are a few use cases where you would want to use a reversing emulator rathe
 * Learning how a feature in a game was implemented
 * Asset ripping (exporting images/sounds/models etc from a game)
 * Re-mastering games with higher quality assets
+
+# Where do I download?
+Version 0.1 is only available for MacOSX and you need RetroArch pre-installed, you can get version 0.1 here: https://www.mediafire.com/file/jd2oe9x7o9n715v/release-0.1-mac.zip/file
+
+Extract the zip file and drag and drop a GB/NES/SNES/GG/SMS ROM file on to the application called **run_macosx.app** and it should open the interface in your default web browser.
 
 ---
 # libRetroReversing
