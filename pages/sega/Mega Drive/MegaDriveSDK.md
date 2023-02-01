@@ -106,3 +106,12 @@ It looks like it would be for DOS and It mentions that it has a few files:
 * **asm68k** - Assembler for the main Mega Drive 68k CPU
 * **lnk68k** - Linker to link together assembled object code into a single executable/ROM
 * **TestC68K.bat** - Seems to be an example of using the C programming language on the Mega Drive!
+
+---
+# SOUND-SORCE - Japanese Sound Driver for the Mega Drive
+The source code to the Japan-only sound driver that was called **SOUND-SORCE** (incorrect spelling probably due to filename limits?) and was leaked online by Hidden Palace:
+* [News/Sega of Japan Sound Documents and Source Code - Hidden Palace](https://hiddenpalace.org/News/Sega_of_Japan_Sound_Documents_and_Source_Code)
+
+This leak suggests that development in Sega of Japan was done on **NEC PC-9801** DOS based workstations and since these PCs were only popular in Japan it wouldn't make sense to send the sound driver source code over to the Sega of America development team.
+
+As for building the Z80 assembly code it required the **X68K assembler** and the **ERX68K** simulator environment which would be connected to a ZAX ICD-series in-circuit emulator which could be controlled with a program called **ZICE** on the **NEC PC-9801**.
