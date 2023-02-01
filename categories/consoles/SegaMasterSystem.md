@@ -32,6 +32,12 @@ For development hardware they used an ordinary PC with Z80 assembler connected t
 You can read it here:
 * [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)
 
+---
+# Hardware
+
+## Development Kit Hardware
+{% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
+
 
 ---
 # All Posts
