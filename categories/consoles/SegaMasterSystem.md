@@ -42,6 +42,12 @@ You can read it here:
 For an in-depth look at the SMS Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/master-system/" description="Copetti.org has an excellent tear down of the SMS Hardware and how it works" image="/public/consoles/Sega Master System.png" title="Sega Master System (SMS) Architecture - A Practical Analysis" %}
 
+---
+# Software Development Kit
+Officially SEGA didn't provide much to game developers and expected them to create their own development toolchain, however they did provide the following documentation:
+* **Sega Mk3 Hardware Reference Manual (Rev1)** - The Official Sega Mark III Reference Manual, it contains code snippets for accessing the hardware including add-ons such as the Gun controller
+
+It would be up to the game developers to find their own Z80 Assembler and Linker and write any common library routines for drawing graphics or reading input.
 
 ---
 # All Posts
