@@ -41,7 +41,9 @@ You can read it here:
 
 ---
 # All Posts
+
 <div>
 
 {% include console.html %}
+  
 </div>
