@@ -60,20 +60,24 @@ The GBA was the first Nintendo portable to have most of its games written in the
 ## Nintendo Entertainment System
 Games for Nintendo's first console was almost exclusivly written in 6502 assembly language as anything higher level would simply be too slow due to early compilers producing less efficient code than human programmers.
 
-### Magician
-{% include link-to-other-site.html url="https://github.com/makiten/Magician-NES" description="Source Code officially released by developers" image="https://upload.wikimedia.org/wikipedia/en/5/5d/Magician_Cover.jpg" title="Magician"  %}
-
 ### Captain Comic
 {% include link-to-other-site.html url="https://archive.org/details/CaptainComicSourceCode" description="Source code for the unlicensed NES game Captain Comic by Color Dreams" image="https://upload.wikimedia.org/wikipedia/en/9/99/CaptainComicBoxart.jpg" title="Captain Comic"  %}
+
+### Hero Quest
+{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/HeroQuest" description="Unreleased NES game" image="https://upload.wikimedia.org/wikipedia/en/9/9e/Heroquest_C64_boxart.jpeg" title="Hero Quest"  %}
 
 ### Home Alone 2
 {% include link-to-other-post.html post="/home-alone-2-nes-source-code/" description="For more information on the Home Alone Famicom source code check out this post." %}
 
+### John Smith Special Agent (aka James Bond Jr.`)
+{% include link-to-other-site.html url="https://shrigley.com/source_code_archive/" description="Source Code officially released by the developer Chris Shrigley" image="https://www.giantbomb.com/a/uploads/scale_medium/9/93770/2361885-nes_jamesbondjr.jpg" title="James Bond Jr"  %}
+
+### Magician
+{% include link-to-other-site.html url="https://github.com/makiten/Magician-NES" description="Source Code officially released by the developer Chris Shrigley" image="https://upload.wikimedia.org/wikipedia/en/5/5d/Magician_Cover.jpg" title="Magician"  %}
+
 ### Raid 2020
 {% include link-to-other-site.html url="https://archive.org/details/gamesourcecode" description="" image="https://upload.wikimedia.org/wikipedia/en/6/68/Raid_2020_Cover.jpg" title="Raid 2020"  %}
 
-### Hero Quest
-{% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/HeroQuest" description="Unreleased NES game" image="https://upload.wikimedia.org/wikipedia/en/9/9e/Heroquest_C64_boxart.jpeg" title="Hero Quest"  %}
 
 ---
 ## Super Nintendo Entertainment System
@@ -117,9 +121,18 @@ Games with Source Code Leaked:
 
 ---
 # Sega Systems
-Finding source code for SEGA systems is many times scarcer than their rival Nintendo.
+Finding source code for SEGA systems is many times harder than finding code from their rival Nintendo.
 
 ## Sega Mega Drive
+
+### Cliff Hanger
+[Source Code Archive : The Chris Shrigley Page](https://shrigley.com/source_code_archive/)
+
+### Ex-Mutants
+[Source Code Archive : The Chris Shrigley Page](https://shrigley.com/source_code_archive/)
+
+### Gargoyles
+[Source Code Archive : The Chris Shrigley Page](https://shrigley.com/source_code_archive/)
 
 ### Mr Nutz 2 - Hoppin Mad
 {% include link-to-other-site.html url="https://tcrf.net/Mr._Nutz:_Hoppin%27_Mad_(Genesis)" description="Source code leaked for Mr Nutz 2 - Hoppin Mad on the Sega Mega Drive" image="https://cdn.thegamesdb.net/images/original/boxart/front/33723-1.jpg" title="Mr Nutz 2 - Hoppin Mad"  %}
