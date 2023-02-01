@@ -38,6 +38,10 @@ You can read it here:
 ## Development Kit Hardware
 {% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
 
+## Retail SMS Hardware
+For an in-depth look at the SMS Retail hardware architecture check out the excellent post by **Copetti.org**:
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/master-system/" description="Copetti.org has an excellent tear down of the SMS Hardware and how it works" image="/public/consoles/Sega Master System.png" title="Sega Master System (SMS) Architecture - A Practical Analysis" %}
+
 
 ---
 # All Posts
