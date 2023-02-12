@@ -162,23 +162,23 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51cg7gcq+GL._SX324_BO1,204,203,200_.jpg" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
 <img class="lazy-load" data-image-full="/images/books/Commodore 64 game construction kit.jpg" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51jaM1NtwAL._AC_UY436_QL65_.jpg" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
-<img class="lazy-load" data-image-full="/images/books/etting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
+<img class="lazy-load" data-image-full="/images/books/Getting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
 <img class="lazy-load" data-image-full="/images/books/The art of computer game design.jpg" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
 ## Published in 1985
-This section will cover books related to game development published in the year 1985.
+This section will cover books related to game development published in the year 1985. This year the **Sega Mark III** was released in Japan which used a Zilog Z80A CPU.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
-<img class="lazy-load" data-image-full="" /> | Assembly language programming on the BBC and Acorn Electron | R B Coats | 
-<img class="lazy-load" data-image-full="" /> | Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
+<img class="lazy-load" data-image-full="/images/books/48K Spectrum and Spectrum+: Assembly language course.jpg" /> | 48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51vxvvtXJ2L._SX299_BO1,204,203,200_.jpg" /> | Assembly language programming on the BBC and Acorn Electron | R B Coats | Assembly | 
+<img class="lazy-load" data-image-full="/images/books/Macintosh Game Animation.jpg" /> | Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
 
 ---
 ## Published in 1986
-This section will cover books related to game development published in the year 1986.
+This section will cover books related to game development published in the year 1986. It is notable for one of the first books on the C++ programming language, even although C++ wouldn't be used in the games industry until nearly a decade later.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
