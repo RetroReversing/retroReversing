@@ -296,10 +296,10 @@ Although the API was short lived as it was replaced by the **Windows Games SDK**
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51ZFZ2X45YL._AC_UY436_FMwebp_QL65_.jpg" /> | Assembly language master class | Wrox Press | Intel Assembly (Pentium) | 
-<img class="lazy-load" data-image-full="" /> | Black Art of 3D Game Programming | Andre LaMothè | C Programming | 
-<img class="lazy-load" data-image-full="" /> | Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
-<img class="lazy-load" data-image-full="" /> | Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
-<img class="lazy-load" data-image-full="" /> | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61A4940D75L._AC_UY436_QL65_.jpg" /> | Black Art of 3D Game Programming | Andre LaMothè | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61ASVW02VZL._AC_UY436_QL65_.jpg" /> | Black Art of Visual Basic Game Programming | Mark Pruett | Visual Basic | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Tpr8id5zL._AC_UY436_QL65_.jpg" /> | Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51NSXWZ22WL._AC_UY436_QL65_.jpg" /> | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 <img class="lazy-load" data-image-full="" /> | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
 <img class="lazy-load" data-image-full="" /> | The Doom game editor | Joe Pantuso | DOOM Editor | Software: https://doom.fandom.com/wiki/The_Doom_Game_Editor CD: https://archive.org/details/cdrom-doom-game-editor
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" /> | Dungeons of Discovery: Writing Dazzling Windows Games With WinG | Clayton Walnum | WinG API | 
