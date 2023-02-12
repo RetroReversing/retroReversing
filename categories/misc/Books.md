@@ -147,23 +147,23 @@ As for consoles it was also the year that Nintendo released their **Famicom** ba
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Compute!'s Second Book of Atari Graphics | COMPUTE | | 
-<img class="lazy-load" data-image-full="" /> | Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
-<img class="lazy-load" data-image-full="" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
-<img class="lazy-load" data-image-full="" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51W3xS++PfL._SX341_BO1,204,203,200_.jpg" /> | Compute!'s Second Book of Atari Graphics | COMPUTE | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51QDk6ovQES._SY291_BO1,204,203,200_QL40_ML2_.jpg" /> | Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
+<img class="lazy-load" data-image-full="/images/books/Programming the Dragon for games and graphics.jpg" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wprJ9e2RL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
 ---
 ## Published in 1984
-This section will cover books related to game development published in the year 1984.
+This section will cover books related to game development published in the year 1984. This was the year that we started to see books about programming the **Commodore 64** which was the second best selling console worldwide in 1984.
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Assembly language for arcade games and other fast Spectrum programs | Stuart Nicholls | Z80 Assembly | 
-<img class="lazy-load" data-image-full="" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
-<img class="lazy-load" data-image-full="" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
-<img class="lazy-load" data-image-full="" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
-<img class="lazy-load" data-image-full="" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
-<img class="lazy-load" data-image-full="" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
+<img class="lazy-load" data-image-full="/images/books/Assembly language for arcade games and other fast Spectrum programs.jpg" /> | Assembly language for arcade games and other fast Spectrum programs | Stuart Nicholls | Z80 Assembly | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51cg7gcq+GL._SX324_BO1,204,203,200_.jpg" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
+<img class="lazy-load" data-image-full="/images/books/Commodore 64 game construction kit.jpg" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51jaM1NtwAL._AC_UY436_QL65_.jpg" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
+<img class="lazy-load" data-image-full="/images/books/etting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
+<img class="lazy-load" data-image-full="/images/books/The art of computer game design.jpg" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
 ## Published in 1985
