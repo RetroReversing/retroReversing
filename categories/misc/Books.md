@@ -103,6 +103,7 @@ The **Apple II** and **Atari 2600 VCS** had just been released in the previous y
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51T+cX9MqNL._SX328_BO1,204,203,200_.jpg" /> | Programming the 6502 | Zaks, Rodnay | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41NH37S7YRL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51GWas-gWPL._SX357_BO1,204,203,200_.jpg" /> | The Z-80 Microcomputer Handbook | William J. Barden | 
 
 ---
@@ -123,6 +124,7 @@ It was the go to choice for bedroom programmers as it was very cheap and games c
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+<img class="lazy-load" data-image-full="/public/images/68000 assembly language programming.jpg" /> | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
 <img class="lazy-load" data-image-full="/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer: design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
 <img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
 
@@ -182,11 +184,10 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
-<img class="lazy-load" data-image-full="" /> | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51EC5BaPQ+L._SX373_BO1,204,203,200_.jpg" /> | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
 <img class="lazy-load" data-image-full="/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
-<img class="lazy-load" data-image-full="" /> | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
-<img class="lazy-load" data-image-full="" /> | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41WDru3BaHL._AC_UY436_QL65_.jpg" /> | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
+<img class="lazy-load" data-image-full="/public/books/The Magic Of Macintosh Programming Graphics and Sound.jpg" /> | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
 
 
 ---
@@ -196,7 +197,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
-<img class="lazy-load" data-image-full="" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
 ## Published in 1988
@@ -204,9 +205,8 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Graphics Programming in C | Roger T. Stevens | C Programming | 
-<img class="lazy-load" data-image-full="" /> | Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
-<img class="lazy-load" data-image-full="" /> | The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Ou2SfQkaL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Graphics Programming in C | Roger T. Stevens | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31nXJhAWSWL._BO1,204,203,200_.jpg" /> | Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
 
 ---
 ## Published in 1989
@@ -214,10 +214,10 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | DOS programming bible
-<img class="lazy-load" data-image-full="" /> | Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
-<img class="lazy-load" data-image-full="" /> | Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
-<img class="lazy-load" data-image-full="" /> | SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/91EjsPJd-QL._AC_UY436_QL65_.jpg" /> | Advanced MS-DOS programming: the Microsoft guide for assembly language and C programmers | Ray Duncan | Assembly and C | The DOS programming bible
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/510VK6fPLiL._AC_UY436_QL65_.jpg" /> | Fractal programming in C | Roger T., Stevens | C Programming on MS-DOS | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/21B0PGP927L._BO1,204,203,200_.jpg" /> | Graphics programming with Turbo C 2.0 | Ben Ezzell | Turbo C | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51yqonzXVAL._SX387_BO1,204,203,200_.jpg" /> | SIGGRAPH 1989 Conference Proceedings: Computer Graphics Annual Conference Series | ACM | | 
 
 ---
 ## Published in 1990
