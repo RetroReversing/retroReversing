@@ -197,6 +197,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31E9zTSTzXL._AC_UY218_.jpg" /> | Peter Norton's Assembly Language Book for the IBM PC | Peter Norton | Assembly language | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 
 ---
@@ -205,7 +206,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Ou2SfQkaL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Graphics Programming in C | Roger T. Stevens | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Ou2SfQkaL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Graphics Programming in C | Roger T. Stevens | C Programming | CGA, EGA, and VGA
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31nXJhAWSWL._BO1,204,203,200_.jpg" /> | Microprocessor programming, troubleshooting and interfacing: the Z80, 8080 and 8085 | James W. Coffron | Assembly Language | 
 
 ---
@@ -226,8 +227,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C and Microsoft Quick C | Kris Jamsa | Microsoft C | 
-<img class="lazy-load" data-image-full="" /> | Graphics programming in C: a comprehensive resource for every C programmer | Roger T. Stevens | CGA, EGA, and VGA | 
-<img class="lazy-load" data-image-full="" /> | High-resolution computer graphics using C | Ian O. Angell | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31HXYaWtPaL._AC_UY436_QL65_.jpg" /> | High-resolution computer graphics using C | Ian O. Angell | C Programming | 
 <img class="lazy-load" data-image-full="" /> | The game maker's manual : Atari ST and STOS BASIC | Stephen Hill | BASIC | 
 
 ---
@@ -236,11 +236,11 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
+<img class="lazy-load" data-image-full="/public/images/books/Advanced graphics programming in C and C++.jpg" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
 <img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
-<img class="lazy-load" data-image-full="" /> | The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
-<img class="lazy-load" data-image-full="" /> | マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
-<img class="lazy-load" data-image-full="" /> | マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41ZbQuOc-nL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
+<img class="lazy-load" data-image-full="/public/images/books/Machine language game programming - PC-9801 series.jpg" /> | マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
+<img class="lazy-load" data-image-full="/public/images/books/Machine language game graphic - PC-9801 series.jpg" /> | マシン語ゲームグラフィックス : PC-9801シリーズ (Machine language game graphics: PC-9801 series) | Tooru Hidaka; Manabu Aoyama | PC-98 GDC and EGC Programming | Japanese Book (Available on Archive.org)
 
 ---
 ## Published in 1992
@@ -248,9 +248,8 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
-<img class="lazy-load" data-image-full="" /> | Assembly language for the PC | Peter Norton | Assembly language | 
-<img class="lazy-load" data-image-full="" /> | Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
+<img class="lazy-load" data-image-full="/public/images/books/Archimedes game maker's manual.jph" /> | Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51aWrjugUqL._AC_UY436_QL65_.jpg" /> | Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
 ## Published in 1993
@@ -259,11 +258,11 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/518ev8sErCL._AC_UY436_FMwebp_QL65_.jpg" /> | Flights of Fantasy: Programming 3D Video Games in C++ | Christopher Lampton | Borland C++ |
-<img class="lazy-load" data-image-full="" /> | Programming games for beginners | Christopher A Howard | Visual Basic | 
-<img class="lazy-load" data-image-full="" /> | Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland C++ | 
-<img class="lazy-load" data-image-full="" /> | Ray Tracing Creations: Generate Photorealistic Images on the PC | Drew Wells, Chris Young  | | 
+<img class="lazy-load" data-image-full="/public/images/books/Programming games for beginners - Chris Howard.jpg" /> | Programming games for beginners | Christopher A Howard | Visual Basic | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/71ZYV9TYEDL._SX384_BO1,204,203,200_.gif" /> | Programming Windows games with Borland C++ | Nabajyoti Barkakati | Borland C++ | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/A1rH-5QpfrL._AC_UY436_QL65_.jpg" /> | Ray Tracing Creations: Generate Photorealistic Images on the PC | Drew Wells, Chris Young  | | 
 <img class="lazy-load" data-image-full="" /> | The Commercial Games Programmer's Guide: Guide to Working for the Games Industry as Either an Artist, Musician, Designer or Programmer | David Gibbon | | 
-<img class="lazy-load" data-image-full="" /> | QBasic games and more! | Fred Sexton | QBasic | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/71FFTB2XMDL._AC_UY436_QL65_.gif" /> | QBasic games and more! | Fred Sexton Jr | QBasic | 
 
 ---
 ## Published in 1994
@@ -273,7 +272,7 @@ In books it was the year of **Andre LaMothe** who published multiple books that 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51LnJ-M0YcL._AC_UY436_QL65_.jpg" /> | 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
 <img class="lazy-load" data-image-full="" /> | Animation how-to CD | Jeff Bowermaster | MS-DOS | 
 <img class="lazy-load" data-image-full="" /> | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img class="lazy-load" data-image-full="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
