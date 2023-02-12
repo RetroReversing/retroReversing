@@ -283,6 +283,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/A1skrLlqQQL._AC_UY436_QL65_.jpg" /> | Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/91GTNXlD+iL._AC_UY436_QL65_.jpg" /> | PC game programming explorer | Dave Roberts | C Programming for VGA | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/510PF0KJ3QL._AC_UY436_QL65_.jpg" /> | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51A1TpLFBAL._SY300_.jpg" /> | Texturing and Modeling: A Procedural Approach | David Ebert, Ken Perlin et al | Renderman Shading Language | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51QMFWFDXTL._AC_UY436_QL65_.jpg" /> | The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51BV72HY2KL._AC_UY436_QL65_.jpg" /> | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/318RKD9jt1L._AC_UY218_.jpg" /> | Zen of Graphics | Michael Abrash | | 
@@ -307,8 +308,8 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="/public/images/books/Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31gYhOaK9CL._AC_UY218_.jpg" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61oZhj-WwDL._AC_UY436_QL65_.jpg" /> | Graphics Gems V | Alan W. Paeth | | Two editions available one for Mac and other other for IBM PC
-<img class="lazy-load" data-image-full="" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
-<img class="lazy-load" data-image-full="" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51WGS1THSSL._AC_UY436_QL65_.jpg" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61YVD0ZXB8L._AC_UY436_QL65_.jpg" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 <img class="lazy-load" data-image-full="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61769MX4NXL._AC_UY436_QL65_.jpg" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
 
@@ -341,17 +342,17 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51TP7N1J2VL._AC_UY436_FMwebp_QL65_.jpg" /> | Black art of Java game programming | Joel Fan, Eric Ries, Calin Tenitchi. | Java | 
 <img class="lazy-load" data-image-full="" /> | Black art of Macintosh game programming | Kevin Tieskoetter | Macintosh C | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/21MD3hi7vJL.jpg" /> | Build your own Flight Simulator in C++ | Michael Radtke, Chris Lampton, Andrè LaMothe | C++ | 
-<img class="lazy-load" data-image-full="" /> | Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
-<img class="lazy-load" data-image-full="" /> | Developing games that learn | Leonard Dorfman, Narendra K. Ghosh. | C Programming | 
-<img class="lazy-load" data-image-full="" /> | Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
-<img class="lazy-load" data-image-full="" /> | The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
-<img class="lazy-load" data-image-full="" /> | Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
-<img class="lazy-load" data-image-full="" /> | NetWarriors in C++: programming multi-player games for Windows | Joe Gradecki | | 
-<img class="lazy-load" data-image-full="" /> | NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
-<img class="lazy-load" data-image-full="" /> | OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
-<img class="lazy-load" data-image-full="" /> | Spells of fury: building Windows 95 games using DirectX 2 | Michael J. Norton | VC++ 4.0 and DirectX |
-<img class="lazy-load" data-image-full="" /> | Win95 graphics programming | Mathias Rasch | WinG API | 
-<img class="lazy-load" data-image-full="" /> | Windows 95 Game Sdk Strategy Guide | Clayton Walnum |  Windows 95 Game SDK (DirectX) | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41SHfQ9NceL._AC_UY436_QL65_.jpg" /> | Build your own PC game in seven easy steps using Visual BASIC | Scott Palmer | Visual BASIC | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/518H49Y159L._AC_UY436_QL65_.jpg" /> | Developing games that learn | Leonard Dorfman, Narendra K. Ghosh. | C Programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/6111XSYJ5JL._AC_UY436_QL65_.jpg" /> | Inside electronic game design | Arnie Katz with Laurie Yates | Game Design | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51RF95GDQZL._AC_UY436_QL65_.jpg" /> | The Duke Nukem 3D level design handbook | Matt Tagliaferri. | Duke Nukem 3D level Editor | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61VP4BPSD4L._AC_UY436_QL65_.jpg" /> | Teach yourself Internet game programming with Java in 21 days | Michael Morrison | Java Applets | Very early book excited about the world of Java Applets for Game development
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81Slz2CMwjL._AC_UY436_QL65_.jpg" /> | NetWarriors in C++: programming multi-player games for Windows | Joe Gradecki | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51PWhJ2924L._AC_UY436_QL65_.jpg" /> | NetWarriors Online: The game developer's guide to online resources | Joe Gradecki | | Very little information about this online
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51CGRAETH6L._AC_UY436_QL65_.jpg" /> | OpenGL SuperBible | Richard S. Wright, Jr. | Michael Sweet | OpenGL API | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/5156TJ9EK6L._AC_UY436_QL65_.jpg" /> | Spells of fury: building Windows 95 games using DirectX 2 | Michael J. Norton | VC++ 4.0 and DirectX |
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51K12NMZGZL._AC_UY436_QL65_.jpg" /> | Win95 graphics programming | Mathias Rasch | WinG API | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/71SBYKX8P6L._AC_UY436_QL65_.gif" /> | Windows 95 Game Sdk Strategy Guide | Clayton Walnum |  Windows 95 Game SDK (DirectX) | 
 
 ---
 ## Published in 1997
@@ -379,7 +380,8 @@ This year kicked off the **Wordware Game Developer's Library** with the release 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
+<img class="lazy-load" data-image-full="https://www.amazon.com/Studio-Fundamentals-Michael-Todd-Peterson/dp/0735700494/ref=sr_1_2?crid=MU0EW41GBVOK&keywords=3D+Studio+MAX+3+Fundamentals&qid=1676220648&s=digital-text&sprefix=3d+studio+max+3+fundamentals%2Cdigital-text%2C165&sr=1-2![image](https://user-images.githubusercontent.com/40120498/218324857-bffbe82f-ba7f-4762-9636-62f8b797344e.png)
+" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
 <img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Media Animation | John P. Chismar and John Chismar | 3D Sudio Max 3 | 
 <img class="lazy-load" data-image-full="" /> | AI for computer games and animation: a cognitive modeling approach | John David Funge. | | 
 <img class="lazy-load" data-image-full="" /> | Computer Graphics & Geometric Modeling | | | 
