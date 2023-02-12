@@ -249,6 +249,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="/public/images/books/Archimedes game maker's manual.jph" /> | Archimedes game maker's manual | Terry Blunt | Archimedes BASIC | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/313VYu60MwL._AC_UY218_.jpg" /> | Sound Blaster the Official Book | | Sound Blaster | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51aWrjugUqL._AC_UY436_QL65_.jpg" /> | Visual basic game programming for Windows | Michael J. Young | Visual BASIC | 
 
 ---
@@ -273,18 +274,17 @@ In books it was the year of **Andre LaMothe** who published multiple books that 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51LnJ-M0YcL._AC_UY436_QL65_.jpg" /> | 3D Modeling Lab - Create Beautiful 3D Photorealistic Models On Your PC | Philip Shaddock | Imagine 3D Modeller | 
-<img class="lazy-load" data-image-full="" /> | Animation how-to CD | Jeff Bowermaster | MS-DOS | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51HntBRIMHL._AC_UY436_QL65_.jpg" /> | Animation how-to CD | Jeff Bowermaster | MS-DOS | 
 <img class="lazy-load" data-image-full="" /> | Arcade games programming (for IBM compatible PC's) | Shaun Herd | MS-DOS | Very little information about this book on the web
 <img class="lazy-load" data-image-full="/public/images/books/GraphicsGems.jpg" /> | Graphics Gems | Andrew S. Glassne | C Programming | 
-<img class="lazy-load" data-image-full="" /> | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
-<img class="lazy-load" data-image-full="" /> | Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
-<img class="lazy-load" data-image-full="" /> | Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
-<img class="lazy-load" data-image-full="" /> | PC game programming explorer | Dave Roberts | C Programming for VGA | 
-<img class="lazy-load" data-image-full="" /> | Sound Blaster the Official Book | | Sound Blaster | 
-<img class="lazy-load" data-image-full="" /> | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
-<img class="lazy-load" data-image-full="" /> | The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
-<img class="lazy-load" data-image-full="" /> | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
-<img class="lazy-load" data-image-full="" /> | Zen of Graphics | Michael Abrash | | 
+<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit1.0.jpg" /> | Game Programming Starter Kit | Sams Publishing | Visual C++ | Contains the eBooks Teach yourself Game Programming in 21 Days and Teach Yourself Visual C++ in 21 Days along with a 2D Game engine and a copy of Visual C++ 1.0
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61roh4lvaKL._AC_UY436_QL65_.jpg" /> | Gardens of imagination: Programming 3D Maze Games in C/C++ | C/C++ |  
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/A1skrLlqQQL._AC_UY436_QL65_.jpg" /> | Modeling the Dream Cd: Walkthroughs and Flybys II | Phil Shatz | Autodesk 3d studio | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/91GTNXlD+iL._AC_UY436_QL65_.jpg" /> | PC game programming explorer | Dave Roberts | C Programming for VGA | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/510PF0KJ3QL._AC_UY436_QL65_.jpg" /> | Teach yourself Game Programming in 21 days | Andre LaMothe | C Programming for MS-DOS | [lagdotcom/tygpi21d: Teach Yourself Game Programming in 21 Days](https://github.com/lagdotcom/tygpi21d)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51QMFWFDXTL._AC_UY436_QL65_.jpg" /> | The Revolutionary Guide to Bit Mapped Graphics | Efin Podvoisky and Julian Dobson | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51BV72HY2KL._AC_UY436_QL65_.jpg" /> | Tricks of the Game Programming Gurus | Andre LaMothe | C & x86 Assembly for MS-DOS | [Tricks of the Game-Programming Gurus - The Doom Wiki at DoomWiki.org](https://doomwiki.org/wiki/Tricks_of_the_Game-Programming_Gurus)
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/318RKD9jt1L._AC_UY218_.jpg" /> | Zen of Graphics | Michael Abrash | | 
 
 ---
 ## Published in 1995
@@ -301,15 +301,15 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51Tpr8id5zL._AC_UY436_QL65_.jpg" /> | Black Art of Windows Game Programming | Eric R. Lyons | C/C++, WinG and Cartoon Engine | Has chapters on WinToon and OpenGL! (Windows 3.1, Windows NT and Windows 95)
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51NSXWZ22WL._AC_UY436_QL65_.jpg" /> | Building a 3D game engine in C++ | Brian Hook (@HookTM) | Borland/Watcom C++ and AST3D library | Also contains Thrust Master drivers programming information
 <img class="lazy-load" data-image-full="" /> | C++ games programming | Al Stevens, Stan Trujillo | C++, MS-DOS and Theatrix | 
-<img class="lazy-load" data-image-full="" /> | The Doom game editor | Joe Pantuso | DOOM Editor | Software: https://doom.fandom.com/wiki/The_Doom_Game_Editor CD: https://archive.org/details/cdrom-doom-game-editor
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/718F2VV5RHL._AC_UY436_QL65_.gif" /> | The Doom game editor | Joe Pantuso | DOOM Editor | Software: https://doom.fandom.com/wiki/The_Doom_Game_Editor CD: https://archive.org/details/cdrom-doom-game-editor
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" /> | Dungeons of Discovery: Writing Dazzling Windows Games With WinG | Clayton Walnum | WinG API | 
-<img class="lazy-load" data-image-full="Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
-<img class="lazy-load" data-image-full="" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
-<img class="lazy-load" data-image-full="" /> | Graphics Gems V | Alan W. Paeth | | 
+<img class="lazy-load" data-image-full="/public/images/books/Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31gYhOaK9CL._AC_UY218_.jpg" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61oZhj-WwDL._AC_UY436_QL65_.jpg" /> | Graphics Gems V | Alan W. Paeth | | Two editions available one for Mac and other other for IBM PC
 <img class="lazy-load" data-image-full="" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
 <img class="lazy-load" data-image-full="" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
 <img class="lazy-load" data-image-full="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
-<img class="lazy-load" data-image-full="" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61769MX4NXL._AC_UY436_QL65_.jpg" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
 
 ### Dungeons of Discovery
 <section class="postSection">
