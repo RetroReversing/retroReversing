@@ -380,8 +380,7 @@ This year kicked off the **Wordware Game Developer's Library** with the release 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="https://www.amazon.com/Studio-Fundamentals-Michael-Todd-Peterson/dp/0735700494/ref=sr_1_2?crid=MU0EW41GBVOK&keywords=3D+Studio+MAX+3+Fundamentals&qid=1676220648&s=digital-text&sprefix=3d+studio+max+3+fundamentals%2Cdigital-text%2C165&sr=1-2![image](https://user-images.githubusercontent.com/40120498/218324857-bffbe82f-ba7f-4762-9636-62f8b797344e.png)
-" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
+<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
 <img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Media Animation | John P. Chismar and John Chismar | 3D Sudio Max 3 | 
 <img class="lazy-load" data-image-full="" /> | AI for computer games and animation: a cognitive modeling approach | John David Funge. | | 
 <img class="lazy-load" data-image-full="" /> | Computer Graphics & Geometric Modeling | | | 
