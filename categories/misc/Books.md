@@ -68,7 +68,7 @@ Cover | Title | Author | Software | Notes
 
 ### Fairchild Channel F
 <section class="postSection">
-    <img data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" class="lazy-load wow slideInLeft postImage" width="250px" />
+    <img data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" class="lazy-load wow slideInLeft postImage" style="width:250px" />
 
  <div markdown="1" class="rr-post-markdown">
 This was the year the **Fairchild Channel F** was released, the first ever games console with interchangeable cartridges (ROMs) and the first to be based on a microprocessor (Fairchild F8).
@@ -80,7 +80,7 @@ Fairchild released a development kit which came with a book titled **F8 Guide to
 
 ### Zilog Z80
 <section class="postSection">
-    <img data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" class="lazy-load wow slideInLeft postImage" width="250px" />
+    <img data-image-full="/public/images/books/Z80-CPU Technical Manual [1976].jpg" class="lazy-load wow slideInLeft postImage" style="width:250px" />
 
  <div markdown="1" class="rr-post-markdown">
 We start with the **Z80-CPU Technical Manual** from Zilog as it was used in so many early games consoles and home computers, it was very likely that you would have an iteration of this book if you were a developer for any of the following:
@@ -151,7 +151,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51W3xS++PfL._SX341_BO1,204,203,200_.jpg" /> | Compute!'s Second Book of Atari Graphics | COMPUTE | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51QDk6ovQES._SY291_BO1,204,203,200_QL40_ML2_.jpg" /> | Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/Programming the Dragon for games and graphics.jpg" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Programming the Dragon for games and graphics.jpg" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wprJ9e2RL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
 
 ---
@@ -160,12 +160,12 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/Assembly language for arcade games and other fast Spectrum programs.jpg" /> | Assembly language for arcade games and other fast Spectrum programs | Stuart Nicholls | Z80 Assembly | 
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Assembly language for arcade games and other fast Spectrum programs.jpg" /> | Assembly language for arcade games and other fast Spectrum programs | Stuart Nicholls | Z80 Assembly | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51cg7gcq+GL._SX324_BO1,204,203,200_.jpg" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/Commodore 64 game construction kit.jpg" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Commodore 64 game construction kit.jpg" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51jaM1NtwAL._AC_UY436_QL65_.jpg" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/Getting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/The art of computer game design.jpg" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Getting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/The art of computer game design.jpg" /> | The art of computer game design | Chris Crawford | Game Design | One of the all time great books on game design
 
 ---
 ## Published in 1985
@@ -173,9 +173,9 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/48K Spectrum and Spectrum+: Assembly language course.jpg" /> | 48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/48K Spectrum and Spectrum+: Assembly language course.jpg" /> | 48K Spectrum and Spectrum+: Assembly language course | M E Thompson | Z80 Assembly language | [Spectrum & Spectrum+ Assembly Language Course at Spectrum Computing - Sinclair ZX Spectrum games, software and hardware](https://spectrumcomputing.co.uk/entry/2000379/Book/Spectrum_Spectrum_Assembly_Language_Course)
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51vxvvtXJ2L._SX299_BO1,204,203,200_.jpg" /> | Assembly language programming on the BBC and Acorn Electron | R B Coats | Assembly | 
-<img class="lazy-load" data-image-full="https://www.retroreversing.com/images/books/Macintosh Game Animation.jpg" /> | Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
+<img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Macintosh Game Animation.jpg" /> | Macintosh Game Animation | Ron Person | Microsoft BASIC, Macintosh BASIC, Macintosh Pascal | 
 
 
 ---
