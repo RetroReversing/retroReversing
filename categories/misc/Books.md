@@ -41,6 +41,7 @@ The list of books in this section is not an exhaustive list and mainly includes 
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media** - Game Development series ran from 2002 to 2009
 * **Jones and Bartlett Publishers**
+* **Morgan Kaufmann** - The Morgan Kaufmann Series in Computer Graphics ran from 1989-2018
 * **New Riders Games (NRG)** - From 2003 to 2014
 * **Premier Press** - From 2001 until they became **Thomson Course Technology PTR** in October 2003 [^6]
 * **Prima Tech**[^2] - Becomes Premier Press in 2001 [^4]
@@ -557,6 +558,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qTxYaFaIL._AC_UY436_FMwebp_QL65_.jpg" /> | Mel Companion: Maya Scripting for 3D Artists | David Stripinis | Maya, MEL | 
 <img class="lazy-load" data-image-full="" /> | Online game interactivity theory | Friedl, Markus | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Postmortems from Game developer | Austin Grossman | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51MYF7N+bCL._SY300_.jpg" /> | Real-Time Shader Programming | Ron Fosner | DirectX 9.0 | 
 <img class="lazy-load" data-image-full="/public/images/books/Real-time 3D terrain engines using C++ and DirectX9 [2003].jpg" /> | Real-time 3D terrain engines using C++ and DirectX 9 | Greg Snook | C++ DirectX 9 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51W5526Q7JL._SX377_BO1,204,203,200_.jpg" /> | Secrets of the Game Business | François Dominic Laramée | Soft Skills | 
 <img class="lazy-load" data-image-full="" /> | Strategy Game Programming With DirectX 9.0 | Todd Barron | DirectX 9.0 | 
