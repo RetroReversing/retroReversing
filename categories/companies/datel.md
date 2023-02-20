@@ -21,6 +21,11 @@ Before the Pro Action Replay was released for the N64 Datel decided to release a
 So for example if you plugged in Mario 64 it would edit the save data to give you all the stars and 100% completion.
 Not as useful as Action Replay as it pretty much completes the game for you, hence the name “Game Killer”.
 
+One cool feature was that the cartridge has a card slot on it for “Killer cards” which were supposed to be cards that add support for other games but sadly none were ever released. This would be a cool reversing project to see if anyone can implement a working card for the Game Killer!
+
+For more information on the Game Killer and the 6 in built games:
+http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
+
 ---
 # All Posts
 
