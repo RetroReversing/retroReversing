@@ -859,8 +859,8 @@ Xenosaga Episode II - Jenseits von Gut und Boese (Europe) | `Monolith Soft` | 24
 # PS2 ELF Format
 Unlike most other games consoles, the PS2 executables are standard ELF files without any sort of encryption or compression. This means the format is very well documented around the web and also most tool that support ELF executables should work.
 
-## Segments
-The ELF file format contains a bunch of segments, most are common across different platforms.
+## Sections
+The ELF file format contains a bunch of sections, most are common across different platforms.
 
 Name | Description
 --- | ---
@@ -876,6 +876,12 @@ Name | Description
 .text | Contains the Code (functions)
 abs | Absolute Symbols
 extern | External Symbols
+
+## .mdebug Section
+
+Some PS2 executable files contain a .mdebug section, which is an extended symbol table intended for use with certain versions of gdb. It contains rich debugging information in the STABS format such as complete data type definitions, function information (parameters, local variables, the return type), global variables, and more.
+
+The [Chaos Compiler Collection](https://github.com/chaoticgd/ccc) can be used to extract this information, either as C++ code or as a JSON file that can then be imported into [Ghidra](https://ghidra-sre.org/) using the provided extension.
 
 ## .sndata Tool
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Woah! This is awesome, anyone interested in <a href="https://twitter.com/hashtag/Playstation2?src=hash&amp;ref_src=twsrc%5Etfw">#Playstation2</a> reversing should check this out <a href="https://t.co/W5WgaCbLgF">https://t.co/W5WgaCbLgF</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1307248565622845442?ref_src=twsrc%5Etfw">September 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
