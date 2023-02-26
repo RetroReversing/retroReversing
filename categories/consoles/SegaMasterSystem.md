@@ -29,7 +29,12 @@ Apparently Impossible Mission for the Sega Master System will be on a 128K cartr
 
 For development hardware they used an ordinary PC with Z80 assembler connected to a Sega Master System via a **Z80 Probe** which plugs into the CPU slot on the motherboard (instead of the CPU). It also mentions that they use RAM to hold the game data instead of a ROM Chip, so predumably there is some interface between the PC and the RAM chip to be able to write the game data to it. It mentions that this is fast but as as fast as PDS which is another Master System development kit.
 
-You can read it here:
+In this same interview they comment on Japanese Sega Game developers:
+> The often dubious quality of some of the Sega games is down to the strange programming habits of the Japanese. Generally there are around six people working on a game for a year. It's the way developers recruit programmers that is bizarre; they put an ad in the local rag asking for anyone interested in computing to contact them. The developers then train the new recruits and get them to join a team of novices to start work on a game. Established programmers aren't even considered.
+
+It is a rather odd statement to make, almost sounds like one of the developers was salty about not being recruited for a Japanese Game developer...
+
+You can read the full interview here:
 * [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)
 
 ---
