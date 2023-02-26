@@ -18,6 +18,7 @@ breadcrumbs:
 ---
 
 # Developer Interviews
+One of the best ways to find out what it was like developing games for the SEGA Master System is to look at old developer interviews from Games Magazines published in the 90s.
 
 ## US Gold Interview
 SMS Power has re-posted an interview from **Zero** magazine issue 7 where they interview the game developers at **US Gold** on developing the games Impossible Mission and Gauntlet.
@@ -36,6 +37,12 @@ It is a rather odd statement to make, almost sounds like one of the developers w
 
 You can read the full interview here:
 * [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)
+
+## MirrorSoft Interview
+One of the best interviews with Sega Master System Developers was in the UK Magazine called **S the Sega Magazine**, specifically issue 8 where they interview the programmers of MirrorSoft in Bath about their upcoming game **Speedball**.
+
+You can read the full interview here:
+[S the Sega Magazine - Issue 8 - Back to the Future - Articles - SMS Power](https://www.smspower.org/Articles/STheSegaMagazine-Issue8-BackToTheFuture)
 
 ---
 # Hardware
