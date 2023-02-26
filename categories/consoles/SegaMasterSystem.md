@@ -46,11 +46,21 @@ You can read the full interview here:
 
 ---
 # Hardware
+The Sega Master System has multiple hardware revisions in its life time along with many different development kits as SEGA themselves didn't produce an official one for developers to use.
 
 ## Development Kit Hardware
 {% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
 
 ## Retail SMS Hardware
+The main components of the retail Sega Master System are:
+* Clock Signal Generator - Quartz Crystal signal which is split up for timing of each of the individual processors
+* Zilog Z80A CPU - Same CPU as Sinclair Spectrum and Amstrad CPC
+* 131K Sony ROM Chip used for BIOS
+* 8K NEC RAM Chip - Used for game variables such as player score
+* VDP - Video Display Processor (sprites, tiles and scrolling)
+* SEGA Sound Chip ( 3 four-octave sound channels plus white noise generator) and I/O controller
+* Two NEC 8K RAM (16K total) chips which store the data for the video chip
+
 For an in-depth look at the SMS Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/master-system/" description="Copetti.org has an excellent tear down of the SMS Hardware and how it works" image="/public/consoles/Sega Master System.png" title="Sega Master System (SMS) Architecture - A Practical Analysis" %}
 
