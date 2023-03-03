@@ -324,7 +324,7 @@ The **MusiCart** was a custom made SNES cartridge that allowed audio engineers t
 [^3]: [Shiggsy's Place](https://web.archive.org/web/20110726073425/http://shiggsy.gbadev.org/section.php?s=snes)
 [^4]: [N-Force - No 2 (1992-08)(Europress Impact)(GB)](https://archive.org/stream/N-Force_No_2_1992-08_Europress_Impact_GB#page/n6/mode/1up)
 [^5]: [ACE Issues Oct 1987-April 1992](https://archive.org/stream/ACE35Aug90/ACE/ACE36-Sep90#page/n11/mode/2up/search/ramboy)
-[^6]: [Argonaut RAMBOY 5 - SNES Development Hardware circa 1992 — GoCollect Forum](https://connect.gocollect.com/discussion/184683/argonaut-ramboy-5-snes-development-hardware-circa-1992)
+[^6]: [Argonaut RAMBOY 5 - SNES Development Hardware circa 1992 — GoCollect Forum](https://web.archive.org/web/20210321044213/https://connect.gocollect.com/discussion/184683/argonaut-ramboy-5-snes-development-hardware-circa-1992)
 [^7]: [SNES - SF BOX-II with SA-1 EMULATOR - ObscureGamers - Prototopia](https://www.obscuregamers.com/threads/sf-box-ii-with-sa-1-emulator.146/)
 [^8]: [SF Box-II](https://archive.org/details/sfbox2sfd)
 [^9]: [How Games are Made -- Page 2](http://www.chrismcovell.com/secret/weekly/How_Games_Are_Made_DQVI_2.html)
