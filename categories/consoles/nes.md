@@ -88,11 +88,16 @@ He opens up the NES controller revealing the physical wires, traces (green lines
 
 ---
 # Software Development
-There was no official software development kit provided by Nintendo for the NES, instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
+There was an official software development kit provided by Nintendo/Intelligent Systems for the NES/Famicom but Nintendo didn't distribute it to third party developers. Instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
 
 Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
 
-## What is an emulator and how does it work?
+## What do we know about the Official Famicom SDK?
+The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game. 
+
+It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems between 1986-1989, which appears to read in three file formats: CHR (Character/Tile Data), SCR (Screen data or Source Data), and CGD (possibly standing for Character Graphic Designer, though this is uncertain).
+
+## What is an NES emulator and how does it work?
 We have a specific post covering exactly how emulators work including tips for writing your own emulators: 
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
