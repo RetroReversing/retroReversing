@@ -16,7 +16,10 @@ breadcrumbs:
     url: /sourcecode
   - name: Gigaleak - SNES Source Code Leak 
     url: #
-recommend: snes
+recommend: 
+ - snes
+ - leak
+ - sourcecode
 editlink: /leaks/Gigaleak.md
 updatedAt: '2020-09-03'
 twitterimage: https://www.retroreversing.com/public/N64/Gigaleak.jpg
@@ -35,7 +38,7 @@ Files Leaked:
 * **cgb_bootrom_trunk.zip** - Game Boy Color Boot ROM
 * **pokemon-checkout.7z**
 * **agb_bootrom_trunk.zip** - Game Boy Advance Boot ROM
-* **other.7z** - Source code for DMG, GBC, SNES games
+* **other.7z** - Source code for Game Boy (DMG), GBC, SNES games
 
 ---
 # Other (other.7z)
