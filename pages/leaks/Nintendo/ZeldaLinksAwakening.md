@@ -21,10 +21,10 @@ recommend:
  - leak
  - sourcecode
 editlink: /leaks/Nintendo/ZeldaLinksAwakening.md
-_updatedAt: '2023-04-08'
-
+updatedAt: '2023-04-09'
 ---
-# Root directory (/)
+
+
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
   <div markdown="1" class="rr-post-markdown">
@@ -33,22 +33,24 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 When extracted the root folder just contains the following sub-directories:
 * **DMG** - Contains the main Assembly source code
 * **その他** - Translates to Miscellaneous, it contains the IS-Character tiles/sprites
+
   </div>
 </section>  
 
 
 ---
-## DMG Source Code (/DMG)
+# DMG Source Code (/DMG)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
   <div markdown="1" class="rr-post-markdown">
 This folder just contains the following sub-directories:
 * **XXX__ゼルダの伝説 夢を見る島** - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"
+
   </div>
 </section>  
 
 ---
-### The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)
+## The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/XXX__ゼルダの伝説 夢を見る島</div>
   <div markdown="1" class="rr-post-markdown">
@@ -62,11 +64,12 @@ Which in turn contains the following sub-directories:
 * **DMG_Zelda_EN_v2_CFR_v1** - Version 1 of the English Translation and also contains Canadian French
 * **DMG_Zelda_JP_EN** - Original version of the English translation
 * **SRD_DMG_Zelda_JP_v0** - Original Source code from Systems Research and Development (SRD)
+
   </div>
 </section> 
 
 ---
-#### Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
+### Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SRD_DMG_Zelda_JP_v0</div>
   <div markdown="1" class="rr-post-markdown">
@@ -82,13 +85,14 @@ This folder contains the following sub-directories:
 * **3** - Disk 3 containing the enemy logic
 * **face** - 
 * **system** - Official Nintendo Game Boy SDK
+
   </div>
 </section>  
 
 
 
 ---
-###### Disk 1 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/1)
+### Disk 1 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/1)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/1</div>
   <div markdown="1" class="rr-post-markdown">
@@ -96,9 +100,6 @@ The first disk containes the files described in the table below:
 
   </div>
 </section>  
-
-
-
 
 File Name | Extension | Description
 ---|---|---
@@ -113,7 +114,7 @@ ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
 
 
 ---
-###### Disk 2 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/2)
+### Disk 2 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/2)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/2</div>
   <div markdown="1" class="rr-post-markdown">
@@ -145,7 +146,7 @@ ZVD | .DMG | Game Boy Z80 Assembly file for Demo Background VRAM Data
 
 
 ---
-###### Disk 3 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/3)
+### Disk 3 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/3)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/3</div>
   <div markdown="1" class="rr-post-markdown">
@@ -153,8 +154,6 @@ The third disk containes the files for enemy logic described in the table below:
   </div>
 </section>  
 
-
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -168,11 +167,11 @@ ZEN | .DMG | Game Boy Z80 Assembly file for Enemy Data 1
 
 
 ---
-###### Face (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/face)
+### Face Documentation (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/face)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/face</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ Not sure why this folder is called "FACE", it seems to contain misc documentation information for developers, even includes a document planning a fishing trip! I am not quite sure what the 21-48 DAT files are however.
 
   </div>
 </section>  
@@ -206,18 +205,18 @@ File Name | Extension | Description
 46 | .DAT | 
 47 | .DAT | 
 48 | .DAT | 
-BOM2 | .DAT | 
-BOM3 | .DAT | 
-BOM4 | .DAT | 
-BOMB | .DAT | 
-D1A0 | .DAT | 
-MRT | .DAT | A sort of Blog-post like piece of text titled "The Old Man with a Beard" about being an Older programmer by Kazuaki Morita
-MRT2 | .DAT | 
-MRTX | .DAT | 
-SA | .DAT | 
-SA2 | .DAT | 
-SA3 | .DAT | 
-SBA | .DAT | 
+BOM2 | .DAT | The game credits in French
+BOM3 | .DAT | Dungeon room list e.g Tail Cave
+BOM4 | .DAT | A lisgt of PC-98 games that it looks like they were going to share with each other (piracy?!)
+BOMB | .DAT | list of instructions for finding seashells in the game
+D1A0 | .DAT | List of all the Cave rooms e.g Fairy Fountain Cave, House of the Quadruplets
+MRT | .DAT | A note titled "The Old Man with a Beard" about being an Older programmer by Kazuaki Morita
+MRT2 | .DAT | Schedule for a 1993 Fishing Trip to **Nanakawa Dam** in Wakayama Prefecture
+MRTX | .DAT | French translations of some of the in-game dialog
+SA | .DAT | The game credits in English
+SA2 | .DAT | The game credits in German
+SA3 | .DAT | Code for special effects such as smoke and water splashes
+SBA | .DAT | List of convenient subroutines for enemy use
 SPECIAL | .TXT | Defines the Alphabet including German special characters
 TEST | N/A | Seems to be the same as ZMA.DMG but with a bunch of modifications
 ZCPG | .BAT | Not a real batch file its actually just text explaining the files for the German Translation
@@ -225,9 +224,19 @@ ZCPS | .BAT | Not a real batch file its actually just text explaining the files 
 ZE2 | .DMG | Game Boy Z80 Assembly file for Enemy 2
 ZED | .DMG | Game Boy Z80 Assembly file for Enemy set data
 
+### The Old Man with a Beard
+The file `MRT.DAT` is a note written by Kazuaki Morita about being an older programmer in the Industry:
+> When someone starts fishing, the first catch is said to be a memorable one regardless of its size. Similarly, there are irreplaceable works for game developers. For me, it's Super Mario Bros. 
+> The program area was a huge 32 kilobytes at the time, and I think I crammed a lot into it. If there were a few bytes of memory left, there would be an uproar. 
+> Then there were Mario's infinite replication and the secret world... I think that's when the term "cheat code" started to be used instead of "bug technique."
+>It has been about eight years since then, and I have been involved in various works, but as I age, I feel a decrease in my mental agility and memory. 
+> However, I think I have become more skilled at finding shortcuts. It is often said that a programmer's career lasts until they are 30 years old, but this is a social convention that says "you don't have to program anymore" rather than "you can't program anymore." 
+> If I feel like I have reached my limit, I will quit this job, because there is no such thing as a "programmer who doesn't program."
+> Programmer: Kazuaki Morita
+
 
 ---
-###### System Game Boy SDK (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/system)
+#### Game Boy SDK (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/system)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/system</div>
   <div markdown="1" class="rr-post-markdown">
@@ -297,8 +306,56 @@ The script assumes that the **FM-R50** file is inserted into Drive A of the comp
 
 This potentially means that developers for Nintendo were using the Fujitsu FM-R50 or a compatible system to develop Game Boy games and possibly NES and SNES games too.
 
+
 ---
-## その他 - Miscellaneous (/その他)
+#### English Version 0 and Japanese Version 0-1 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/DMG_Zelda_JP_EN)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_JP_EN</div>
+  <div markdown="1" class="rr-post-markdown">
+
+This folder contains the following sub-directories:
+* **JP_v0_01** - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/1)
+* **JP_v0_02** - Changes to ZBD/ZBN/ZDB/ZED/ZGD/ZTI/ZVD Compared to SPD Version
+* **JP_v0_03** - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/3)
+* **JP_v0_Character** - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP) but without the .ICE and .BAT file
+* **JP_v1_Character** - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)
+* **Jp_v1_01** - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to version 0
+* **Jp_v1_02** - Changes to ZBD/ZBN/ZCO/ZDB/ZED/ZGD/ZTI compared to version 0
+* **Jp_v1_03** - Changes to ZE2/ZE5/ZE6/ZE7 compared to version 0
+* **US_v0_01** - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to Japan version 0
+* **US_v0_02** - Changes to GBMSDT/ZBD/ZBN/ZDB/ZED/ZGD/ZMS/ZTI/ZVD compared to Japan version 0
+* **US_v0_03** - Changes to ZE2/ZE5/ZE6/ZE7 compared to Japan version 0
+* **US_v0_Character** - Contains changes to C1/C4/C5/C7 and GAL.BAT compared to Ver1JP
+  </div>
+</section>  
+
+
+---
+##### Japan Version 0 Disk 2 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/DMG_Zelda_JP_EN/JP_v0_02)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/JP_v0_02</div>
+  <div markdown="1" class="rr-post-markdown">
+ Since this is technically the second version of Disk 2 (with the SPD folder being the first version) we will only cover the changes made from SPD to save re-covering the same files.
+
+  </div>
+</section>  
+
+
+The changes made to this version are mainly small code comment changes and are described in the table below:
+
+File Name | Extension | Changes made comapred to previous version
+---|---|---
+ZBD | .DMG | Differences to BG Bank Data Comments for: Clerk 1/2, Boomerang, Rotating Turret, Test Marine, Fishing Clerk, Fishes
+ZBN | .DMG | Differences to two comments from "使ってねー" to "使ってねーよ" which both mean "Don't use it", the final particle "よ" adds a more forceful tone
+ZDB | .DMG | Change to one comment that reads "This is the entrance above! You baldy!" The Baldy part was added as an insult in this version
+ZED | .DMG | HART1 was commented out and a few code comments were changed such as saying "Mr. Noto can warp to the opposite platform at the Toba Kaido Station."
+ZGD | .DMG | Added a comment to BOMGZ to say "Fold in half to make an even number!"
+ZTI | .DMG | Just added a comment that says "Use Shibahara!"
+ZVD | .DMG | Just added a comment that says "Nausicaa Leaf"
+
+
+---
+# その他 - Miscellaneous (/その他)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/その他</div>
   <div markdown="1" class="rr-post-markdown">
@@ -313,7 +370,7 @@ This folder in turn just contains the following sub-directories:
 </section>  
 
 ---
-### Version 1 Japan Data (/その他/DMGZelda/Ver1JP)
+## Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Ver1JP</div>
   <div markdown="1" class="rr-post-markdown">
@@ -345,3 +402,4 @@ RZ | .ICE | File is related to the In-Circuit-Emulator used for debugging Game B
 The **GAL.BAT** script which is used for assembling the source code contains the comment "全アセンブル　ハイパ－森田スペシャ－－－－ル　スタ－ト" which roughly translates to "All Assemble! Hyper Morita Special Start!".
 
 This likely means that the script is initiating a build process that is optimized for speed or efficiency, and that it was written by **Kazuaki Morita**. 
+
