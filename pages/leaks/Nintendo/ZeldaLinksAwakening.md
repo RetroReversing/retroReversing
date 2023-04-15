@@ -35,8 +35,8 @@ When extracted the root folder just contains the following sub-directories:
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="dmg.7z" date="When extracted the root folder just contains the following sub-directories" ></div>
     <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="DMG" desc="Contains the main Assembly source code" >DMG - Contains the main Assembly source code</div>
-      <div class="rr-info-gen"> その他 - Translates to Miscellaneous, it contains the IS-Character tiles/sprites</div>
+      <li class="rr-info-gen">DMG - Contains the main Assembly source code</li>
+      <div class="rr-info-gen">その他 - Translates to Miscellaneous, it contains the IS-Character tiles/sprites</div>
     </ul>
 </div>
     
