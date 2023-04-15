@@ -6,8 +6,8 @@ tags:
 - sourcecode
 title: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
 thumbnail: /public/consoles/Game Boy.png
-_image: /public/images/
-_twitterimage: http://www.retroreversing.com/public/images/
+image: /public/images/leaks/Zelda Links Awakening Source Code.jpg
+twitterimage: http://www.retroreversing.com/public/images/leaks/Zelda Links Awakening Source Code.jpg
 permalink: /zelda-links-awakening
 breadcrumbs:
   - name: Home
@@ -33,6 +33,7 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 When extracted the root folder just contains the following sub-directories:
 * **DMG** - Contains the main Assembly source code
 * **その他** - Translates to Miscellaneous, it contains the IS-Character tiles/sprites
+
 
   </div>
 </section>  
@@ -65,6 +66,7 @@ Which in turn contains the following sub-directories:
 * **DMG_Zelda_JP_EN** - Original version of the English translation
 * **SRD_DMG_Zelda_JP_v0** - Original Source code from Systems Research and Development (SRD)
 
+
   </div>
 </section> 
 
@@ -83,8 +85,9 @@ This folder contains the following sub-directories:
 * **1** - Disk 1 of the Source code containing Main logic and Player control
 * **2** - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound
 * **3** - Disk 3 containing the enemy logic
-* **face** - 
+* **face** - Seems to be documentation
 * **system** - Official Nintendo Game Boy SDK
+
 
   </div>
 </section>  
@@ -104,13 +107,14 @@ The first disk containes the files described in the table below:
 File Name | Extension | Description
 ---|---|---
 ZE8 | .DMG | Game Boy Z80 Assembly file for Enemy Data (it is only here because it couldn't fit on Disk 3)
-ZEND | .DMG | Game Boy Z80 Assembly file for the Ending Sequence
+ZEND | .DMG | Game Boy Z80 Assembly file for the Ending Sequence, e.g Credits
 ZES | .DMG | Game Boy Z80 Assembly file for the Enemy main logic
 ZEX | .DMG | Game Boy Z80 Assembly file for extra subroutines
 ZMA | .DMG | Game Boy Z80 Assembly file for Main game loop
 ZPL | .DMG | Game Boy Z80 Assembly file for player control
 ZRAM | .DMG | Game Boy Z80 Assembly file for RAM handling
 ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
+
 
 
 ---
@@ -228,10 +232,13 @@ ZED | .DMG | Game Boy Z80 Assembly file for Enemy set data
 The file `MRT.DAT` is a note written by Kazuaki Morita about being an older programmer in the Industry:
 > When someone starts fishing, the first catch is said to be a memorable one regardless of its size. Similarly, there are irreplaceable works for game developers. For me, it's Super Mario Bros. 
 > The program area was a huge 32 kilobytes at the time, and I think I crammed a lot into it. If there were a few bytes of memory left, there would be an uproar. 
+>
 > Then there were Mario's infinite replication and the secret world... I think that's when the term "cheat code" started to be used instead of "bug technique."
 >It has been about eight years since then, and I have been involved in various works, but as I age, I feel a decrease in my mental agility and memory. 
+>
 > However, I think I have become more skilled at finding shortcuts. It is often said that a programmer's career lasts until they are 30 years old, but this is a social convention that says "you don't have to program anymore" rather than "you can't program anymore." 
 > If I feel like I have reached my limit, I will quit this job, because there is no such thing as a "programmer who doesn't program."
+>
 > Programmer: Kazuaki Morita
 
 
@@ -366,6 +373,8 @@ This folder just contains the following sub-directorie:
 
 This folder in turn just contains the following sub-directories:
 * **Ver1JP** - Graphics data for Version 1 of the Japanese ROM
+
+
   </div>
 </section>  
 
@@ -380,6 +389,7 @@ This folder just contains the following sub-directories:
  Which in turn just contains graphics data created using the IS-Character development kit which was the official development kit used for graphics development on the original Game Boy.
 
  All the `.chr` files can be opened in a tool like `Tile Molester` with the Codec set to `2bpp planar` (2-bit per pixel is Game Boy Tile format.)
+ 
   </div>
 </section>  
 
