@@ -427,3 +427,23 @@ When extracted the **CGB.7z** Archive contains two different games, **Zelda DX**
 This folder contains the following sub-directories:
 * **AZL__ゼルダの伝説 夢を見る島DX** - Source code for the Color Game Boy version of The Legend of Zelda: Link's Awakening DX
 * **B86__ハム太郎 2** - Hamtaro 2 Color Game Boy ROMs (no source code)
+
+---
+## Legend of Zelda: Dreaming Island DX (/CGB/AZL__ゼルダの伝説 夢を見る島DX)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/AZL__ゼルダの伝説 夢を見る島DX</div>
+  <div markdown="1" class="rr-post-markdown">
+The text "/AZL__ゼルダの伝説 夢を見る島DX" is a Japanese text string that roughly translates to "Legend of Zelda: Dreaming Island DX" in English.
+
+Here's a breakdown of the text:
+
+* "/AZL__" is likely an identifier, maybe Advanced Zelda?
+* "ゼルダの伝説" (Zeruda no Densetsu) means "Legend of Zelda."
+* "夢を見る島" (Yume wo Miru Shima) means "Dreaming Island."
+* "DX" likely stands for "Deluxe," which is a common suffix added to re-releases of games that include additional features or improvements.
+
+  </div>
+</section>  
+
+This folder just contains a single sub-directory:
+* **Source** - Contains the main assembly language source code for the game
