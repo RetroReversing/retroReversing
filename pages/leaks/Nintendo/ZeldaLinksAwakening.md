@@ -33,9 +33,9 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 When extracted the root folder just contains the following sub-directories:
     
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Normal" date="Unknown and sometimes empty" ></div>
+  <div class="rr-version-gen" version="dmg.7z" date="When extracted the root folder just contains the following sub-directories" ></div>
     <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="DMG" desc="Contains the main Assembly source code" ></div>
+      <div class="rr-info-gen" badge="DMG" desc="Contains the main Assembly source code" >Contains the main Assembly source code</div>
       <div class="rr-info-gen" badge="その他" desc="Translates to Miscellaneous, it contains the IS-Character tiles/sprites" ></div>
     </ul>
 </div>
