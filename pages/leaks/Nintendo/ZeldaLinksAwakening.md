@@ -24,24 +24,15 @@ editlink: /leaks/Nintendo/ZeldaLinksAwakening.md
 updatedAt: '2023-04-09'
 ---
 
-
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
-  <div markdown="1" class="rr-post-markdown">
 The Zelda Links Awakening source code was released in the original Gigaleak inside **dmg.7z** which was inside **Other.7z**.
-
-When extracted the root folder just contains the following sub-directories:
     
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="dmg.7z" date="" ></div>
+  <div class="rr-version-gen" version="dmg.7z" date="Contains two subdirectories" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">DMG - Contains the main Assembly source code</li>
       <li class="rr-info-gen">その他 - Translates to Miscellaneous, it contains the IS-Character tiles/sprites</li>
     </ul>
 </div>
-    
-  </div>
-</section>  
 
 ---
 # DMG Source Code (/DMG)
@@ -50,7 +41,7 @@ When extracted the root folder just contains the following sub-directories:
   <div markdown="1" class="rr-post-markdown">
 This folder just contains the following sub-directories:
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="" ></div>
+  <div class="rr-version-gen" version="/DMG" date="Only has one subdirectory" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
     </ul>
@@ -62,10 +53,10 @@ This folder just contains the following sub-directories:
 ## The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG/XXX__ゼルダの伝説 夢を見る島" date="" ></div>
+  <h2 class="rr-version-gen" version="/DMG/XXX__ゼルダの伝説 夢を見る島" date="" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</h2>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">Source - The main source code for the game</li>
-      <ul class="rr-changelog-more">
+      <ul>
          <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
       </ul>
     </ul>
