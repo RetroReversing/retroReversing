@@ -437,13 +437,13 @@ The text "/AZL__ゼルダの伝説 夢を見る島DX" is a Japanese text string 
 
 Here's a breakdown of the text:
 
+  </div>
+</section>  
+
 * "/AZL__" is likely an identifier, maybe Advanced Zelda?
 * "ゼルダの伝説" (Zeruda no Densetsu) means "Legend of Zelda."
 * "夢を見る島" (Yume wo Miru Shima) means "Dreaming Island."
 * "DX" likely stands for "Deluxe," which is a common suffix added to re-releases of games that include additional features or improvements.
-
-  </div>
-</section>  
 
 This folder contains the following sub-directories:
 <div class="rr-changelog-category">
@@ -453,7 +453,7 @@ This folder contains the following sub-directories:
        <ul class="rr-changelog-more">
         <li class="rr-info-gen">Disk1 - Contains the JP/US/EU source code</li>
         <ul class="rr-changelog-more">
-          <li class="rr-info-gen">ゼルダの伝説_JP3_US3_EU2 - ?</li>
+          <li class="rr-info-gen">ゼルダの伝説_JP3_US3_EU2 - Source code for Japan Version 3, USA Version 3 and Europe Version 2</li>
         </ul>
         <li class="rr-info-gen">Disk2 - ?</li>
         <li class="rr-info-gen">Disk3 - ?</li>
@@ -473,16 +473,16 @@ This folder contains the following sub-directories:
 </section>
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2" date="Folder Tree" ></div>
+  <div class="rr-version-gen" version="ゼルダの伝説_JP3_US3_EU2" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
-      <li class="rr-info-gen">CGB_zeldaDOITU - ?</li>
+      <li class="rr-info-gen">CGB_zeldaDOITU - German Version of the Source Code</li>
       <ul class="rr-changelog-more">
         <li class="rr-info-gen">cgb - ?</li>
         <li class="rr-info-gen">cgb_d - ?</li>
         <li class="rr-info-gen">gb - ?</li>
       </ul>
-      <li class="rr-info-gen">CGB_zeldaFRANCE - ?</li>
-      <li class="rr-info-gen">CGB_zeldaUSA - ?</li>
+      <li class="rr-info-gen">CGB_zeldaFRANCE - French Version of the Source Code</li>
+      <li class="rr-info-gen">CGB_zeldaUSA - English Version of the Source Code</li>
       <li class="rr-info-gen">DEMO_zelda - ?</li>
       <li class="rr-info-gen">SRAMデータ - Translates to "SRAM data"</li>
       <li class="rr-info-gen">azljsram - Save RAM data for Japanese Zelda split into 4</li>
@@ -522,7 +522,7 @@ The `修正.txt` file is interesting as it contains information on a few fixed b
 
 This folder contains the following sub-directories:
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb" date="Folder Tree" ></div>
+  <div class="rr-version-gen" version="Folder Tree" date="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">BACK - Contains the Assembler and Linker</li>
       <li class="rr-info-gen">cgx - Color Graphics/Tile data</li>
