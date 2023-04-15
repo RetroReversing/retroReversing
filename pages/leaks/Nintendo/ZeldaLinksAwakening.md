@@ -33,7 +33,7 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 When extracted the root folder just contains the following sub-directories:
     
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="dmg.7z" date="When extracted the root folder just contains the following sub-directories" ></div>
+  <div class="rr-version-gen" version="dmg.7z" date="" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">DMG - Contains the main Assembly source code</li>
       <div class="rr-info-gen">その他 - Translates to Miscellaneous, it contains the IS-Character tiles/sprites</div>
@@ -43,19 +43,18 @@ When extracted the root folder just contains the following sub-directories:
   </div>
 </section>  
 
-When extracted the root folder just contains the following sub-directories:
-* **DMG** - Contains the main Assembly source code
-* **その他** - Translates to Miscellaneous, it contains the IS-Character tiles/sprites
-
 ---
 # DMG Source Code (/DMG)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
   <div markdown="1" class="rr-post-markdown">
 This folder just contains the following sub-directories:
- * **XXX__ゼルダの伝説 夢を見る島** - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"
-
-The next section will cover this directory in detail.
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/DMG" date="" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
+    </ul>
+</div>
   </div>
 </section>  
 
