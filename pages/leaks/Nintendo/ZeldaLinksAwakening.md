@@ -53,15 +53,18 @@ This folder just contains the following sub-directories:
 <div class="rr-changelog-category">
   <h2 class="rr-version-gen" version="/DMG/XXX__ゼルダの伝説 夢を見る島" date="" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</h2>
     <ul class="rr-changelog-more">
-      <li class="rr-info-gen">Source - The main source code for the game</li>
+      <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
       <ul>
-         <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
-         <li class="rr-info-gen"> DMG_Zelda_DE_FR_v1 - Version 1 of German and French (Does not include Canadian French)</li>
-         <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English Translation and also contains Canadian French</li>
-         <li class="rr-info-gen">DMG_Zelda_JP_EN - Original version of the English translation</li>
-         <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original Source code from Systems Research and Development (SRD)</li>
+        <li class="rr-info-gen">Source - The main source code for the game</li>
+          <ul>
+             <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
+             <li class="rr-info-gen"> DMG_Zelda_DE_FR_v1 - Version 1 of German and French (Does not include Canadian French)</li>
+             <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English Translation and also contains Canadian French</li>
+             <li class="rr-info-gen">DMG_Zelda_JP_EN - Original version of the English translation</li>
+             <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original Source code from Systems Research and Development (SRD)</li>
+          </ul>
+        </ul>
       </ul>
-    </ul>
 </div>
 
 <section class="postSection">
