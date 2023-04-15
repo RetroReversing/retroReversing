@@ -8,6 +8,11 @@
     margin-top: 20px;
 }
 
+/* Spacing for nested ul */
+.post .rr-changelog-more ul {
+    padding-left: 0px;
+}
+
 /*  Top level change log category */
 .rr-changelog-category {
   margin-bottom: 10px;
