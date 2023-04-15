@@ -29,15 +29,12 @@ updatedAt: '2023-04-09'
   <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
   <div markdown="1" class="rr-post-markdown">
 The Zelda Links Awakening source code was released in the original Gigaleak inside **dmg.7z** which was inside **Other.7z**.
+  </div>
+</section>  
 
 When extracted the root folder just contains the following sub-directories:
 * **DMG** - Contains the main Assembly source code
 * **その他** - Translates to Miscellaneous, it contains the IS-Character tiles/sprites
-
-
-  </div>
-</section>  
-
 
 ---
 # DMG Source Code (/DMG)
@@ -45,8 +42,9 @@ When extracted the root folder just contains the following sub-directories:
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
   <div markdown="1" class="rr-post-markdown">
 This folder just contains the following sub-directories:
-* **XXX__ゼルダの伝説 夢を見る島** - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"
+ * **XXX__ゼルダの伝説 夢を見る島** - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"
 
+The next section will cover this directory in detail.
   </div>
 </section>  
 
