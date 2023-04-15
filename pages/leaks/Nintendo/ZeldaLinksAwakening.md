@@ -39,24 +39,20 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
   <div markdown="1" class="rr-post-markdown">
-This folder just contains the following sub-directories:
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="Only has one subdirectory" ></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
-    </ul>
-</div>
+The **DMG** folder is the main location for all the assembly language source code that makes up the original Game Boy version of The Legend of Zelda: Link's Awakening.
+    
+The folder tree is shown below:
+
   </div>
 </section>  
 
----
 <div class="rr-changelog-category">
-  <h2 class="rr-version-gen" version="/DMG/XXX__ゼルダの伝説 夢を見る島" date="" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</h2>
+  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
-      <ul>
+      <ul class="rr-changelog-more">
         <li class="rr-info-gen">Source - The main source code for the game</li>
-          <ul>
+          <ul class="rr-changelog-more">
              <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
              <li class="rr-info-gen"> DMG_Zelda_DE_FR_v1 - Version 1 of German and French (Does not include Canadian French)</li>
              <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English Translation and also contains Canadian French</li>
