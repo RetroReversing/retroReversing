@@ -222,7 +222,7 @@ Again Keeping the tradition with its DS predecessor the **IS-TWL-CAPTURE** is th
 
 
 ## IS-TWL-VSA
-Very little is known about the **IS-TWL-VSA** but it was briefly mentioned in a 2015 recruitment document and described as a "Integrated Development environment add in" [^6].
+The IS-TWL-VSA is a Visual Studio 2005 Add On meant to aid in DSi development, it was distributed in Japanese and English, however, only the Japanese version is known to still exist. it was briefly mentioned in a 2015 recruitment document and described as a "Integrated Development environment add in" [^6]. The IS-TWL-VSA was meant as a way for developers to move away from CodeWarrior and over to Visual Studio. It is capable of starting Nitro, Twilight, and Hybrid projects.
 
 ## IS-TWL-MIDI
 Noone has taken any photos of the **IS-TWL-VSA** but it was briefly mentioned in a 2015 Intelligent Systems recruitment document and described as a "Sound Development System" [^6]. It is presumably just a more up-to-date version of the **IS-NITRO-UIC**.
