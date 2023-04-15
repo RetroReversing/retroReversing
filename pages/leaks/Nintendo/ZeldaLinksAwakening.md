@@ -47,7 +47,7 @@ The folder tree is shown below:
 </section>  
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</div>
+  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" > DMG - The Legend of Zelda: Link's Awakening Source Code</div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
       <ul>
@@ -64,7 +64,7 @@ The folder tree is shown below:
 </div>
 
 ---
-### Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
+## Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SRD_DMG_Zelda_JP_v0</div>
   <div markdown="1" class="rr-post-markdown">
@@ -72,15 +72,19 @@ The folder tree is shown below:
 
  We are starting with this folder as it seems to be the original and the other folders are just localised changes to the files in this folder, so this is the most important folder in the whole leak.
 
- When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for something called **face**.
+ When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
 
-This folder contains the following sub-directories:
-* **1** - Disk 1 of the Source code containing Main logic and Player control
-* **2** - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound
-* **3** - Disk 3 containing the enemy logic
-* **face** - Seems to be documentation
-* **system** - Official Nintendo Game Boy SDK
-
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="dmg.7z" date="Contains two subdirectories" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
+      <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
+      <li class="rr-info-gen">3 - Disk 3 containing the enemy logic</li>
+      <li class="rr-info-gen">face - Documentation and other misc documents</li>
+      <li class="rr-info-gen">system - Official Nintendo Game Boy SDK</li>
+    </ul>
+</div>
+    
 
   </div>
 </section>  
