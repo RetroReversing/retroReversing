@@ -47,39 +47,21 @@ The folder tree is shown below:
 </section>  
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</>
+  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" >The Legend of Zelda: Link's Awakening Source Code (/DMG/XXX__ゼルダの伝説 夢を見る島)</div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
-      <ul class="rr-changelog-more">
+      <ul>
         <li class="rr-info-gen">Source - The main source code for the game</li>
-          <ul class="rr-changelog-more">
+          <ul>
              <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
              <li class="rr-info-gen"> DMG_Zelda_DE_FR_v1 - Version 1 of German and French (Does not include Canadian French)</li>
              <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English Translation and also contains Canadian French</li>
              <li class="rr-info-gen">DMG_Zelda_JP_EN - Original version of the English translation</li>
              <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original Source code from Systems Research and Development (SRD)</li>
           </ul>
-        </ul>
-      </ul>
+       </ul>
+     </ul>
 </div>
-
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/XXX__ゼルダの伝説 夢を見る島</div>
-  <div markdown="1" class="rr-post-markdown">
-
-This folder just contains the following sub-directories:
-* **Source** - The main source code for the game
-
-Which in turn contains the following sub-directories:
-* **DMG_Zelda_DE_FR** - Original German and French Translation (Also included Canadian French)
-* **DMG_Zelda_DE_FR_v1** - Version 1 of German and French (Does not include Canadian French)
-* **DMG_Zelda_EN_v2_CFR_v1** - Version 1 of the English Translation and also contains Canadian French
-* **DMG_Zelda_JP_EN** - Original version of the English translation
-* **SRD_DMG_Zelda_JP_v0** - Original Source code from Systems Research and Development (SRD)
-
-
-  </div>
-</section> 
 
 ---
 ### Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
