@@ -73,7 +73,7 @@ The **DMG** folder is the main location for all the assembly language source cod
  When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="dmg.7z" date="Folder Tree" ></div>
+  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="Folder Tree (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
       <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
