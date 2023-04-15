@@ -41,13 +41,11 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
   <div markdown="1" class="rr-post-markdown">
 The **DMG** folder is the main location for all the assembly language source code that makes up the original Game Boy version of The Legend of Zelda: Link's Awakening.
     
-The folder tree is shown below:
-
   </div>
 </section>  
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="The Legend of Zelda: Link's Awakening Source Code" > DMG - The Legend of Zelda: Link's Awakening Source Code</div>
+  <div class="rr-version-gen" version="/DMG" date="Folder Tree"></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
       <ul>
@@ -75,7 +73,7 @@ The folder tree is shown below:
  When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="dmg.7z" date="Contains two subdirectories" ></div>
+  <div class="rr-version-gen" version="dmg.7z" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
       <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
