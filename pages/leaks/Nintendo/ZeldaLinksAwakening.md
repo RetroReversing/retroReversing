@@ -29,6 +29,17 @@ updatedAt: '2023-04-09'
   <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
   <div markdown="1" class="rr-post-markdown">
 The Zelda Links Awakening source code was released in the original Gigaleak inside **dmg.7z** which was inside **Other.7z**.
+
+When extracted the root folder just contains the following sub-directories:
+    
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="Normal" date="Unknown and sometimes empty" ></div>
+    <ul class="rr-changelog-more">
+      <div class="rr-info-gen" badge="DMG" desc="Contains the main Assembly source code" ></div>
+      <div class="rr-info-gen" badge="その他" desc="Translates to Miscellaneous, it contains the IS-Character tiles/sprites" ></div>
+    </ul>
+</div>
+    
   </div>
 </section>  
 
