@@ -449,9 +449,9 @@ This folder contains the following sub-directories:
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
-      <li class="rr-info-gen">Source - ?</li>
+      <li class="rr-info-gen">Source - Contains the Source code for Zelda DX</li>
        <ul class="rr-changelog-more">
-        <li class="rr-info-gen">Disk1 - ?</li>
+        <li class="rr-info-gen">Disk1 - Contains the JP/US/EU source code</li>
         <ul class="rr-changelog-more">
           <li class="rr-info-gen">ゼルダの伝説_JP3_US3_EU2 - ?</li>
         </ul>
@@ -461,4 +461,46 @@ This folder contains the following sub-directories:
     </ul>
 </div>
 
+---
+### Disk 1 - ゼルダの伝説_jp3_us3_eu2 (/Source/Disk1/ゼルダの伝説_JP3_US3_EU2)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ゼルダの伝説_JP3_US3_EU2</div>
+  <div markdown="1" class="rr-post-markdown">
+  The Japanese text "ゼルダの伝説_jp3_us3_eu2" simply translates to "The Legend of Zelda_JP3_US3_EU2". Presumably this means it is Japan version 3, USA version 3 and Europe Version 2.
+
+ This folder contains the following sub-directories:
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2" date="Folder Tree" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">CGB_zeldaDOITU - ?</li>
+      <li class="rr-info-gen">CGB_zeldaFRANCE - ?</li>
+      <li class="rr-info-gen">CGB_zeldaUSA - ?</li>
+      <li class="rr-info-gen">DEMO_zelda - ?</li>
+      <li class="rr-info-gen">SRAMデータ - Translates to "SRAM data"</li>
+      <li class="rr-info-gen">azljsram - Save RAM data for Japanese Zelda split into 4</li>
+    </ul>
+</div>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+azljsram | .lzh | Compressed archive version of the azljsram folder
+修正 | .txt |  "修正.txt" translates to "Correction.txt" which contains a list of Bug Fixes
+
+The `修正.txt` file is interesting as it contains information on a few fixed bugs in the DX version of the game:
+>Bug fixes:
+>
+>In the demo where the fishing shop owner catches the photo shop owner under the bridge, if you press the START button while the photo is being displayed, >the bug that makes it look like you took a picture of the fishing shop owner drowning is fixed.
+>→ Commented out the last nine lines of the subroutine "GEKI_8MAIN" in the ZGEKI.s file.
+>
+>If the number of hearts is greater than the intended number for some reason, the bug fix that causes the game to crash or freeze when you go to the file select screen is fixed.
+>→ Added a limit check under the subroutines "HART1ST" and "SVDS010" in the ZTI.s file.
+>
+>The bug fix for the name registration issue where if the total of the inputted name's character data is 0, you can no longer copy the name.
+>→ Changed the addition of numbers in the subroutine "CP3070" in the ZTI.s file to check with an OR command whether the result is 0."
 
