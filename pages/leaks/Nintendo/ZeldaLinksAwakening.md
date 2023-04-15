@@ -445,5 +445,20 @@ Here's a breakdown of the text:
   </div>
 </section>  
 
-This folder just contains a single sub-directory:
-* **Source** - Contains the main assembly language source code for the game
+This folder contains the following sub-directories:
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX" date="Folder Tree" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">Source - ?</li>
+       <ul class="rr-changelog-more">
+        <li class="rr-info-gen">Disk1 - ?</li>
+        <ul class="rr-changelog-more">
+          <li class="rr-info-gen">ゼルダの伝説_JP3_US3_EU2 - ?</li>
+        </ul>
+        <li class="rr-info-gen">Disk2 - ?</li>
+        <li class="rr-info-gen">Disk3 - ?</li>
+      </ul>
+    </ul>
+</div>
+
+
