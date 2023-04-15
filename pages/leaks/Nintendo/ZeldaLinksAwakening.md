@@ -476,6 +476,11 @@ This folder contains the following sub-directories:
   <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">CGB_zeldaDOITU - ?</li>
+      <ul class="rr-changelog-more">
+        <li class="rr-info-gen">cgb - ?</li>
+        <li class="rr-info-gen">cgb_d - ?</li>
+        <li class="rr-info-gen">gb - ?</li>
+      </ul>
       <li class="rr-info-gen">CGB_zeldaFRANCE - ?</li>
       <li class="rr-info-gen">CGB_zeldaUSA - ?</li>
       <li class="rr-info-gen">DEMO_zelda - ?</li>
@@ -504,3 +509,68 @@ The `修正.txt` file is interesting as it contains information on a few fixed b
 >The bug fix for the name registration issue where if the total of the inputted name's character data is 0, you can no longer copy the name.
 >→ Changed the addition of numbers in the subroutine "CP3070" in the ZTI.s file to check with an OR command whether the result is 0."
 
+---
+#### Zelda Color Game Boy Source Code (ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/cgb</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains thr source code for the Color Game Boy version of Zelda DX, both source (.s) and compiled output (.o) are included here.
+
+  </div>
+</section>
+
+
+This folder contains the following sub-directories:
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb" date="Folder Tree" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">BACK - ?</li>
+      <li class="rr-info-gen">cgx - ?</li>
+      <li class="rr-info-gen">sound - ?</li>
+      <li class="rr-info-gen">すぐ消すふぉるだ - ?</li>
+    </ul>
+</div>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+C | .isx | Compiled Game Boy Color ROM file
+cgal | .bat | Windows Batch file for running ?
+clink | .bat | Windows Batch file for running ?
+ddd | N/A | 
+gbmsdt | .s | Assembly source file containing ?
+isdwdcmd | .dat | 
+isdwdrng | .dat | 
+isdwdsym | .dat | 
+zbd | .o, .s | 
+zbn | .s | Assembly source file containing ?
+zbs | .o, .s | 
+zchr | .o, .s | 
+zco | .o, .s | 
+zdb | .o, .s | 
+ze2 | .o, .s | 
+ze3 | .o, .s | 
+ze4 | .o, .s | 
+ze5 | .o, .s | 
+ze6 | .o, .s | 
+ze7 | .o, .s | 
+ze8 | .o, .s | 
+zed | .o, .s | 
+zen | .o, .s | 
+zend | .o, .s | 
+zes | .o, .s | 
+zex | .o, .s | 
+zgb | .o, .s | 
+zgd | .s | Assembly source file containing ?
+zma | .o, .s | 
+zms | .o, .s | 
+zpl | .o, .s | 
+zram | .s | Assembly source file containing ?
+zrom | .s | Assembly source file containing ?
+zrom1 | .s | Assembly source file containing ?
+zs1 | .o, .s | 
+zsd | .o, .s | 
+zti | .o, .prn, .s | 
+zvd | .s | Assembly source file containing ?
