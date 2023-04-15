@@ -10,7 +10,7 @@
 
 /* Spacing for nested ul */
 .post .rr-changelog-more ul {
-    padding-left: 0px;
+    padding-left: 0px !important;
 }
 
 /*  Top level change log category */
