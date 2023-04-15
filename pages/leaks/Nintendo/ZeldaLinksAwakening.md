@@ -525,9 +525,9 @@ This folder contains the following sub-directories:
   <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">BACK - ?</li>
-      <li class="rr-info-gen">cgx - ?</li>
-      <li class="rr-info-gen">sound - ?</li>
-      <li class="rr-info-gen">すぐ消すふぉるだ - ?</li>
+      <li class="rr-info-gen">cgx - Color Graphics/Tile data</li>
+      <li class="rr-info-gen">sound - Sound Effects and Background Music</li>
+      <li class="rr-info-gen">すぐ消すふぉるだ - Translates to "Folder to be deleted immediately." - It is empty</li>
     </ul>
 </div>
 
@@ -536,41 +536,44 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-C | .isx | Compiled Game Boy Color ROM file
-cgal | .bat | Windows Batch file for running ?
-clink | .bat | Windows Batch file for running ?
-ddd | N/A | 
-gbmsdt | .s | Assembly source file containing ?
-isdwdcmd | .dat | 
-isdwdrng | .dat | 
-isdwdsym | .dat | 
-zbd | .o, .s | 
-zbn | .s | Assembly source file containing ?
-zbs | .o, .s | 
-zchr | .o, .s | 
-zco | .o, .s | 
-zdb | .o, .s | 
-ze2 | .o, .s | 
-ze3 | .o, .s | 
-ze4 | .o, .s | 
-ze5 | .o, .s | 
-ze6 | .o, .s | 
-ze7 | .o, .s | 
-ze8 | .o, .s | 
-zed | .o, .s | 
-zen | .o, .s | 
-zend | .o, .s | 
-zes | .o, .s | 
-zex | .o, .s | 
-zgb | .o, .s | 
-zgd | .s | Assembly source file containing ?
-zma | .o, .s | 
-zms | .o, .s | 
-zpl | .o, .s | 
-zram | .s | Assembly source file containing ?
-zrom | .s | Assembly source file containing ?
+C | .isx | Game Boy Color ROM File
+cgal | .bat | Windows Batch file for assembling and linking all the assembly files together
+clink | .bat | Windows Batch file for running the linker to put all the compiled files together into a ROM
+ddd | N/A | A file used to pass arguments to the Game Boy Linker program `islk32`
+gbmsdt | .s | Assembly source file containing german translations for the in game dialog
+isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25
+isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19
+isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16
+zbd | .o, .s | Assembly source and compiled output for Background Character Bank Data
+zbn | .s | Assembly source file containing Background Character Number Data
+zbs | .o, .s | Assembly source and compiled output for Resident Subroutine 2
+zchr | .o, .s | Assembly source and compiled output for 
+zco | .o, .s | Assembly source and compiled output for Resident Subroutine 1
+zdb | .o, .s | Assembly source and compiled output for Dungeon Background Data
+ze2 | .o, .s | Assembly source and compiled output for Enemy Data2
+ze3 | .o, .s | Assembly source and compiled output for Enemy Data 3
+ze4 | .o, .s | Assembly source and compiled output for Enemy Data 4
+ze5 | .o, .s | Assembly source and compiled output for Enemy Data 5
+ze6 | .o, .s | Assembly source and compiled output for Enemy Data 6
+ze7 | .o, .s | Assembly source and compiled output for Enemy Data 7
+ze8 | .o, .s | Assembly source and compiled output for Enemy Data 8
+zed | .o, .s | Assembly source and compiled output for Enemy Set Data
+zen | .o, .s | Assembly source and compiled output for Enemy Data 1
+zend | .o, .s | Assembly source and compiled output for the Ending Sequence, e.g Credits
+zes | .o, .s | Assembly source and compiled output for Enemy Main Logic
+zex | .o, .s | Assembly source and compiled output for extra subroutines
+zgb | .o, .s | Assembly source and compiled output for Ground Background Data Address
+zgd | .s | Assembly source file containing Ground Background Data
+zma | .o, .s | Assembly source and compiled output for Main game loop
+zms | .o, .s | Assembly source and compiled output for Message Control Data
+zpl | .o, .s | Assembly source and compiled output for Player Control
+zram | .s | Assembly source file containing RAM handling code
+zrom | .s | Assembly source file containing ROM handling code
 zrom1 | .s | Assembly source file containing ?
-zs1 | .o, .s | 
-zsd | .o, .s | 
-zti | .o, .prn, .s | 
-zvd | .s | Assembly source file containing ?
+zs1 | .o, .s | Assembly source and compiled output for Title Sequence 2
+zsd | .o, .s | Assembly source and compiled output for Sound Control
+zti | .o, .prn, .s | Assembly source and compiled output for title sequence 1
+zvd | .s | Assembly source file containing Demo background VRAM Data
+
+What is the .prn file for?
+
