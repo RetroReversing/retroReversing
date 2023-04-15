@@ -524,7 +524,7 @@ This folder contains the following sub-directories:
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
-      <li class="rr-info-gen">BACK - ?</li>
+      <li class="rr-info-gen">BACK - Contains the Assembler and Linker</li>
       <li class="rr-info-gen">cgx - Color Graphics/Tile data</li>
       <li class="rr-info-gen">sound - Sound Effects and Background Music</li>
       <li class="rr-info-gen">すぐ消すふぉるだ - Translates to "Folder to be deleted immediately." - It is empty</li>
@@ -575,5 +575,58 @@ zsd | .o, .s | Assembly source and compiled output for Sound Control
 zti | .o, .prn, .s | Assembly source and compiled output for title sequence 1
 zvd | .s | Assembly source file containing Demo background VRAM Data
 
-What is the .prn file for?
+The `zti.prn` file contains a disassembly of the ZTI object file created during a debugging session.
 
+---
+##### SDK Executables (CGB_zeldaDOITU/cgb/BACK)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/BACK</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder just contains two executables from the GameBoy SDK, the Assembler and the Linker used to build the assembly source files. No idea why they called it **BACK** however.
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ISAS32 | .EXE | INTELLIGENT SYSTEMS Assembler Version 1.24.8
+ISLK32 | .EXE | INTELLIGENT SYSTEMS Linker Version 1.24.1
+
+
+
+---
+##### Color Graphics (Cgx) (CGB_zeldaDOITU/cgb/cgx)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/cgx</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the graphics/tiles created for the Game Boy Color version of Zelda DX.
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+C1 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C2 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C3 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C4 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C5 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C6 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C7 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C8 | .CHR | Sprite/Tile data created using the IS-Character development kit
+g1 | .bin | 
+g2 | .bin | 
+g3 | .bin | 
+g4 | .bin | 
+g5 | .bin | 
+g6 | .bin | 
+g7 | .bin | 
+g8 | .bin | 
+isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 by N.Nakano
+isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
+isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
