@@ -73,7 +73,7 @@ The **DMG** folder is the main location for all the assembly language source cod
  When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="(/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)" ></div>
+  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="Folder Tree" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
       <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
@@ -280,13 +280,13 @@ VUP | .EXE | Version UP Program  Version 2.09
 
 **Referenced File Formats**
 This SDK seems to use a number of different file formats, but it is not clear what exactly is the purpose of each:
-* .DMG - Assembly source code for the Dot Matrix Game (Game Boy)
-* .CGE - Character Graphics data (For famicom?)
-* .DCG - Character Graphics data (for DMG Game Boy?)
-* .CVT - Custom Conversion scripts that can be executed with FCV
-* .SCR - Screen file maybe containing location of character tiles in a level?
-* .X65 - Either Famicom or Super Famicom source code 
-* .COM - Unsure if this is a Windows Command File or something else
+* **.DMG** - Assembly source code for the Dot Matrix Game (Game Boy)
+* **.CGE** - Character Graphics data (For famicom?)
+* **.DCG** - Character Graphics data (for DMG Game Boy?)
+* **.CVT** - Custom Conversion scripts that can be executed with FCV
+* **.SCR** - Screen file maybe containing location of character tiles in a level?
+* **.X65** - Either Famicom or Super Famicom source code 
+* **.COM** - Unsure if this is a Windows Command File or something else
 
 **Famicom SDK Files**
 One interesting file is that `HDT.EXE` is included here which is the NES/Famicom Debugger, as far as I know this is the first time a file from the Famicom SDK has ever been leaked. As no other official NES/Famicom SDK had been leaked this is quite remarkable. It was written by Intelligent Systems between 1986-1989 and seems to read in three file formats: CHR (Character/Tile Data), SCR (Screen data? or Source Data?) and CGD (No Idea, maybe Character Graphic Designer?).
@@ -369,15 +369,15 @@ ZVD | .DMG | Just added a comment that says "Nausicaa Leaf"
   <div markdown="1" class="rr-post-markdown">
  "その他" (pronounced "sono ta") is a Japanese phrase that means "other" or "miscellaneous". It is often used to refer to something that does not fit into a specific category or is not included in a list of specified items.
 
-This folder just contains the following sub-directorie:
+  </div>
+</section>  
+
+This folder just contains the following sub-directories:
 * **DMGZelda** - Miscellaneous data for the original Game Boy Zelda (Only graphics data)
 
 This folder in turn just contains the following sub-directories:
 * **Ver1JP** - Graphics data for Version 1 of the Japanese ROM
 
-
-  </div>
-</section>  
 
 ---
 ## Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)
@@ -414,3 +414,16 @@ The **GAL.BAT** script which is used for assembling the source code contains the
 
 This likely means that the script is initiating a build process that is optimized for speed or efficiency, and that it was written by **Kazuaki Morita**. 
 
+---
+# CGB.7z Root directory (/CGB.7z)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Root Directory</div>
+  <div markdown="1" class="rr-post-markdown">
+When extracted the **CGB.7z** Archive contains two different games, **Zelda DX** and **Hamtaro 2**. Hamtaro 2 isn't related to Zelda and only contains a few pre-build ROM files for various regions (PAL, NTSC, JP).
+
+  </div>
+</section>  
+
+This folder contains the following sub-directories:
+* **AZL__ゼルダの伝説 夢を見る島DX** - Source code for the Color Game Boy version of The Legend of Zelda: Link's Awakening DX
+* **B86__ハム太郎 2** - Hamtaro 2 Color Game Boy ROMs (no source code)
