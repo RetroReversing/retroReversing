@@ -5,7 +5,7 @@ tags:
 - leak
 - sourcecode
 title: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
-thumbnail: /public/consoles/Game Boy.png
+thumbnail: /public/consoles/Nintendo Game Boy.png
 image: /public/images/leaks/Zelda Links Awakening Source Code.jpg
 twitterimage: http://www.retroreversing.com/public/images/leaks/Zelda Links Awakening Source Code.jpg
 permalink: /zelda-links-awakening
@@ -62,7 +62,7 @@ The **DMG** folder is the main location for all the assembly language source cod
 </div>
 
 ---
-## Original SRD Zelda Source code (Japan version 0) (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)
+## Original SRD Zelda Source code (Japan version 0) (SRD_DMG_Zelda_JP_v0)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SRD_DMG_Zelda_JP_v0</div>
   <div markdown="1" class="rr-post-markdown">
@@ -73,7 +73,7 @@ The **DMG** folder is the main location for all the assembly language source cod
  When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
 
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="Folder Tree (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)" ></div>
+  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="(/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0)" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
       <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
@@ -90,7 +90,7 @@ The **DMG** folder is the main location for all the assembly language source cod
 
 
 ---
-### Disk 1 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/1)
+### Disk 1 (SRD_DMG_Zelda_JP_v0/1)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/1</div>
   <div markdown="1" class="rr-post-markdown">
@@ -113,7 +113,7 @@ ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
 
 
 ---
-### Disk 2 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/2)
+### Disk 2 (SRD_DMG_Zelda_JP_v0/2)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/2</div>
   <div markdown="1" class="rr-post-markdown">
@@ -145,7 +145,7 @@ ZVD | .DMG | Game Boy Z80 Assembly file for Demo Background VRAM Data
 
 
 ---
-### Disk 3 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/3)
+### Disk 3 (SRD_DMG_Zelda_JP_v0/3)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/3</div>
   <div markdown="1" class="rr-post-markdown">
@@ -166,7 +166,7 @@ ZEN | .DMG | Game Boy Z80 Assembly file for Enemy Data 1
 
 
 ---
-### Face Documentation (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/face)
+### Face Documentation (SRD_DMG_Zelda_JP_v0/face)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/face</div>
   <div markdown="1" class="rr-post-markdown">
@@ -238,7 +238,7 @@ The file `MRT.DAT` is a note written by Kazuaki Morita about being an older prog
 
 
 ---
-#### Game Boy SDK (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/system)
+### Game Boy SDK (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/system)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/system</div>
   <div markdown="1" class="rr-post-markdown">
@@ -310,30 +310,36 @@ This potentially means that developers for Nintendo were using the Fujitsu FM-R5
 
 
 ---
-#### English Version 0 and Japanese Version 0-1 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/DMG_Zelda_JP_EN)
+## English Version 0 and Japanese Versions 0 and 1 (/Source/DMG_Zelda_JP_EN)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_JP_EN</div>
   <div markdown="1" class="rr-post-markdown">
 
 This folder contains the following sub-directories:
-* **JP_v0_01** - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/1)
-* **JP_v0_02** - Changes to ZBD/ZBN/ZDB/ZED/ZGD/ZTI/ZVD Compared to SPD Version
-* **JP_v0_03** - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/3)
-* **JP_v0_Character** - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP) but without the .ICE and .BAT file
-* **JP_v1_Character** - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)
-* **Jp_v1_01** - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to version 0
-* **Jp_v1_02** - Changes to ZBD/ZBN/ZCO/ZDB/ZED/ZGD/ZTI compared to version 0
-* **Jp_v1_03** - Changes to ZE2/ZE5/ZE6/ZE7 compared to version 0
-* **US_v0_01** - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to Japan version 0
-* **US_v0_02** - Changes to GBMSDT/ZBD/ZBN/ZDB/ZED/ZGD/ZMS/ZTI/ZVD compared to Japan version 0
-* **US_v0_03** - Changes to ZE2/ZE5/ZE6/ZE7 compared to Japan version 0
-* **US_v0_Character** - Contains changes to C1/C4/C5/C7 and GAL.BAT compared to Ver1JP
   </div>
 </section>  
 
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/Source/DMG_Zelda_JP_EN" date="subdirectories" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">JP_v0_01 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/1)</li>
+      <li class="rr-info-gen">JP_v0_02 - Changes to ZBD/ZBN/ZDB/ZED/ZGD/ZTI/ZVD Compared to SPD Version</li>
+      <li class="rr-info-gen">JP_v0_03 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/3)</li>
+      <li class="rr-info-gen">JP_v0_Character - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP) but without the .ICE and .BAT file</li>
+      <li class="rr-info-gen">JP_v1_Character - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)</li>
+      <li class="rr-info-gen">Jp_v1_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to version 0</li>
+      <li class="rr-info-gen">Jp_v1_02 - Changes to ZBD/ZBN/ZCO/ZDB/ZED/ZGD/ZTI compared to version 0</li>
+      <li class="rr-info-gen">Jp_v1_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to version 0</li>
+      <li class="rr-info-gen">US_v0_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to Japan version 0</li>
+      <li class="rr-info-gen">US_v0_02 - Changes to GBMSDT/ZBD/ZBN/ZDB/ZED/ZGD/ZMS/ZTI/ZVD compared to Japan version 0</li>
+      <li class="rr-info-gen">US_v0_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to Japan version 0</li>
+      <li class="rr-info-gen">US_v0_Character - Contains changes to C1/C4/C5/C7 and GAL.BAT compared to Ver1JP</li>
+    </ul>
+</div>
+
 
 ---
-##### Japan Version 0 Disk 2 (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/DMG_Zelda_JP_EN/JP_v0_02)
+### Japan Version 0 Disk 2 (DMG_Zelda_JP_EN/JP_v0_02)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/JP_v0_02</div>
   <div markdown="1" class="rr-post-markdown">
