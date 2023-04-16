@@ -859,3 +859,32 @@ gekigake1c | .cgx | Slightly different version of gekigake1.cgx
   </div>
 </section>
 
+---
+##### German Translation Documents (CGB_zeldaDOITU/cgb_d/TEXT)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/TEXT</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains documentation that was used to produced the German translation of tghe game. It also seems to contain some French documents so it may have initially been both French and German before the seperate French folder was created.
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Changes German | .doc, .txt | List of changes to the german dialog from December 7th, 1998
+Color GB German Trans Add | .doc | Small list of german tranaslations
+Color GB German Translation_new | .doc | Small list of german tranaslations
+D3_change | .doc | Minor change to Mr. Tanaka dialog
+G1_ 1208 | .doc, .txt | Changes as of December 8th, 1998
+MasterLog French | .xls | List of French translation bugs from 1998
+MasterLog French95 | .xls | Same as `MasterLog French.xls` no idea why they added the 95 suffix as it stil cotnains 1998 bugs
+Textbugs0712 | .doc, .txt | German translation bugs from December 7th, 1998
+chkText | .txt, .txt~ | List of Bug Fixes (in Japanese)
+chk_text | .txt | List of Bug Fixes (in Japanese)
+deutsch | .doc | Big list of German translations divided by bank
+gchanges | .doc | Short document on a minor german translation error
+
+
