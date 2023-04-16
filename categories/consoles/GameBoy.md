@@ -183,10 +183,11 @@ This is a very interesting project that played a large set of gameboy games in a
 # References
 [^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 
+
 ---
 # All Posts tagged with GameBoy
-<div>
 
+<div>
 {% include console.html %}
 </div>
 
