@@ -53,10 +53,16 @@ The archive mysteriously named **other.7z** actually contains a bunch of sub-arc
 ## Original Game Boy Source Code (dmg.7z)
 Contains the source code for the original version of The Legend of Zelda Links Awakening.
 
+{% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
+
+
+
 ## Game Boy Color Source Code (CGB.7z)
 Contains the source code for two games:
 * The Legend of Zelda: Links Awakening DX - (AZL__ゼルダの伝説 夢を見る島DX)
 * Hamtaro 2
+
+{% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
 
 ## Super Nintendo Source Code (SFC.7z)
 Contains the Source code for a number of Super Famicom (SNES) titles:
