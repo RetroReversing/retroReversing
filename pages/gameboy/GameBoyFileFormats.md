@@ -40,6 +40,7 @@ The emulator **SameBoy** recently added support to play ISX files due to the **2
 This SDK seems to use a number of different file formats, but it is not clear what exactly is the purpose of each.
 
 ### Game Boy Source Code File Formats
+In the Nintendo Gigaleak we found that the following file formats were used to store source code:
 * **.DMG** - Assembly source code for the Dot Matrix Game (Game Boy)
 * **.X65** - Either Famicom or Super Famicom source code 
 * **.S** - Game Boy Color assembly source code 
@@ -49,13 +50,26 @@ This SDK seems to use a number of different file formats, but it is not clear wh
 * **.COM** - Compiled Game Boy ROM file, unsure difference between this and ISX
 * **.O** - Assembled output of a .DMG/.S/.X65 Source code file
 * **.HEX** - Plain data file for including in the ROM - could be anything
+* **.BIN** - Binary file for including in the ROM - could be anything
 
 ### Graphics File Formats
+We know the following file formats are related to Graphics on the Game Boy (Color) but we are not sure tghe exact purpose of all of them (most were seen in Zedla DX source code):
 * **.CHR** - Character Graphics Data from Famicom and Game Boy (2 bits per pixel planar)
+* **.CGX** - Seems to be exactly the same as .CHR (2 bits per pixel planar)
 * **.CGE** - Character Graphics data (For famicom?)
 * **.DCG** - Character Graphics data (for DMG Game Boy?)
+* **.CCD** - ?
+* **.CSD** - Possibly compiled to .CGX
+* **.CDT** - Color Data Table? (related to CSD)
+* **.COL** - Color pallete? (Related to CDT)
 
 ### Unknown File Formats
+Most of these have been seen in the Zelda DX Gigaleak but we are unclear what exactly they are.
+
 * **.SCR** - Screen file maybe containing location of character tiles in a level?
 * **.ICE** - Something to do with the In-Circuit-Emulator?
+* **.MDT** - Map Data Table? (Something to do with Game Maps)
+* **.PDT** - Pattern Data Table?
+* **.PNL** - Pattern Number L ?
+
 
