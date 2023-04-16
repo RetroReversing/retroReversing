@@ -817,3 +817,45 @@ cgbzel_ger0820 | .com | MS-DOS Command File Executable for ?
 isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 
 isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
 isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
+
+---
+##### Geki Cutscene (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaDOITU/cgb_d/Geki)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Geki</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains Game Boy Color Graphic files (.cgx) for a cutscene.
+
+ "Gekigake" (激駆け) is a Japanese word that combines the characters "geki" (激), meaning "intense," "violent," or "passionate," and "kake" (駆け), meaning "dash," "rush," or "gallop." Together, the word can be translated as "intense rush" or "violent gallop." 
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+gekigake1 | .cgx | Color Tile Graphics for some sort of cutscene but hard to tell which one
+gekigake1c | .cgx | Slightly different version of gekigake1.cgx
+
+
+---
+##### Isx Game Boy ROM (CGB_zeldaDOITU/cgb_d/ISX)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ISX</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder just contains a pre-build Game Boy ROM file called **c_d1211.isx**. This is in the Intelligent Systems Executable format which is the same as a Game Boy ROM file that can be played in any GB emulator.
+
+  </div>
+</section>
+
+---
+##### Photo (CGB_zeldaDOITU/cgb_d/PHOTO)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/PHOTO</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains one single file called `album_gm.CSD`, it is unclear what this file actually is, it is only 720 bytes. Presumably it is related to the photographer feature that was added to the DX version of the game.
+
+  </div>
+</section>
+
