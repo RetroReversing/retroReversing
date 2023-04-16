@@ -5,8 +5,8 @@ tags:
 - fileformats
 title: Game Boy File Formats (DMG & GBC)
 thumbnail: /public/consoles/Nintendo Game Boy.png
-_image: /public/images/GameBoy/GameBoy File Formats.jpg
-_twitterimage: https://www.retroreversing.com/public/images/wii/Wii File Formats.jpg
+image: /public/images/GameBoy/GameBoy File Formats.jpg
+twitterimage: https://www.retroreversing.com/public/images/GameBoy/GameBoy File Formats.jpg
 permalink: /wii-file-formats
 breadcrumbs:
   - name: Home
@@ -19,7 +19,7 @@ recommend:
 - gameboy
 - fileformats
 editlink: ./gameboy/GameBoyFileFormats.md
-_updatedAt: '2023-04-14'
+updatedAt: '2023-04-16'
 excerpt: Find out about the most common Game Boy File formats in this post
 ---
 
