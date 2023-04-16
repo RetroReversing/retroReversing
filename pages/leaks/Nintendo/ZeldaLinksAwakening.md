@@ -887,4 +887,92 @@ chk_text | .txt | List of Bug Fixes (in Japanese)
 deutsch | .doc | Big list of German translations divided by bank
 gchanges | .doc | Short document on a minor german translation error
 
+---
+##### Color Graphics (Cgx) (CGB_zeldaDOITU/cgb_d/cgx)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/cgx</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains Game Boy Color Tile Graphic (.cgx)
 
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+gb_gm1 | .cgx | 
+gb_gm2 | .cgx | 
+gb_gm3 | .cgx | 
+gb_gm4 | .cgx | 
+gb_gm5 | .cgx | 
+gb_gm6 | .cgx | 
+gb_gm7 | .cgx | 
+gb_gm8 | .cgx | 
+gb_gm9 | .cgx | 
+gmcgb1 | .cgx | Similar to `gb_gm1.cgx` but contains changes
+gmcgb2 | .cgx | Similar to `gb_gm2.cgx` but contains changes
+gmcgb3 | .cgx | Similar to `gb_gm3.cgx` but contains changes
+gmcgb4 | .cgx | Similar to `gb_gm4.cgx` but contains changes
+gmcgb5 | .cgx | Similar to `gb_gm5.cgx` but contains changes
+gmcgb6 | .cgx | Similar to `gb_gm6.cgx` but contains changesSimilar to `gb_gm2.cgx` but contains changes
+gmcgb7 | .cgx | Similar to `gb_gm7.cgx` but contains changes
+gmcgb8 | .cgx | Similar to `gb_gm8.cgx` but contains changes
+gmcgb9 | .cgx | Similar to `gb_gm9.cgx` but contains changes
+gmcgba | .cgx | Contains some german text
+
+
+---
+##### Original Game Boy Version Source Code (CGB_zeldaDOITU/gb)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/gb</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the original Game Boy version of the source code translated to German. They included this here to be able to refer back to it as they were working on the DX version.
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BGM_1G | .HEX | Plain Data for Background Music 1 (German version)
+BGM_2 | .HEX | Plain Data for Background Music 2
+C1 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C2 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C3 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C4 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C5 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C6 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C7 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C8 | .CHR | Sprite/Tile data created using the IS-Character development kit
+GBMSDT | .DMG | Game Boy Z80 Assembly file for ?
+SE | .HEX | Plain Data for Sound Effects
+ZBD | .DMG | Game Boy Z80 Assembly file for ?
+ZBN | .DMG | Game Boy Z80 Assembly file for ?
+ZBS | .DMG | Game Boy Z80 Assembly file for ?
+ZCO | .DMG | Game Boy Z80 Assembly file for ?
+ZDB | .DMG | Game Boy Z80 Assembly file for ?
+ZE2 | .DMG | Game Boy Z80 Assembly file for Enemy Data 2
+ZE3 | .DMG | Game Boy Z80 Assembly file for Enemy Data 3
+ZE4 | .DMG | Game Boy Z80 Assembly file for Enemy Data 4
+ZE5 | .DMG | Game Boy Z80 Assembly file for Enemy Data 5
+ZE6 | .DMG | Game Boy Z80 Assembly file for Enemy Data 6
+ZE7 | .DMG | Game Boy Z80 Assembly file for Enemy Data 7
+ZE8 | .DMG | Game Boy Z80 Assembly file for Enemy Data 8
+ZED | .DMG | Game Boy Z80 Assembly file for ?
+ZEN | .DMG | Game Boy Z80 Assembly file for Enemy Data 1
+ZEND | .DMG | Game Boy Z80 Assembly file for ?
+ZES | .DMG | Game Boy Z80 Assembly file for ?
+ZEX | .DMG | Game Boy Z80 Assembly file for ?
+ZGB | .DMG | Game Boy Z80 Assembly file for ?
+ZGD | .DMG | Game Boy Z80 Assembly file for ?
+ZMA | .DMG | Game Boy Z80 Assembly file for ?
+ZMS | .DMG | Game Boy Z80 Assembly file for ?
+ZPL | .DMG | Game Boy Z80 Assembly file for ?
+ZRAM | .DMG | Game Boy Z80 Assembly file for ?
+ZROM | .DMG | Game Boy Z80 Assembly file for ?
+ZS1 | .DMG | Game Boy Z80 Assembly file for ?
+ZSD | .DMG | Game Boy Z80 Assembly file for ?
+ZTI | .DMG | Game Boy Z80 Assembly file for ?
+ZVD | .DMG | Game Boy Z80 Assembly file for ?
