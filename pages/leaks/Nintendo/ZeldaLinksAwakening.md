@@ -976,3 +976,606 @@ ZS1 | .DMG | Game Boy Z80 Assembly file for ?
 ZSD | .DMG | Game Boy Z80 Assembly file for ?
 ZTI | .DMG | Game Boy Z80 Assembly file for ?
 ZVD | .DMG | Game Boy Z80 Assembly file for ?
+
+---
+### USA Game Boy Color Source Code (ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/cgb_usa</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+This folder contains the following sub-directories:
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa" date="Folder Tree" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">ATR - ?</li>
+      <li class="rr-info-gen">ATR2 - ?</li>
+      <li class="rr-info-gen">CGX - Game Boy Color Tile Graphics</li>
+      <li class="rr-info-gen">COLOR - Possibly Pallete information?</li>
+      <li class="rr-info-gen">COLOR2 - ?</li>
+      <li class="rr-info-gen">COM - Compiled Output files from the build process</li>
+      <li class="rr-info-gen">ENDING - ?</li>
+      <li class="rr-info-gen">Geki - ?</li>
+      <li class="rr-info-gen">MAP - ?</li>
+      <li class="rr-info-gen">New_sound - Background and Sound Effect Audio files</li>
+      <li class="rr-info-gen">PHOTO - ?</li>
+      <li class="rr-info-gen">scr - ?</li>
+    </ul>
+</div>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+AZLE00-0 | .GB | 
+AZLE00-1 | .GB | 
+C | .map | 
+C_USA | .PIF | 
+c_usa | .com, .isx | 
+cgal | .bat | Windows Batch file for running ?
+ddd | N/A | 
+gbmsdt_usa | .s, .s~ | 
+isdwdcmd | .dat | 
+isdwdrng | .dat | 
+isdwdsym | .dat | 
+msg | .txt | 
+zatr_usa | .o, .s | Assembly source and compiled output for 
+zatrsub_usa | .o, .s | Assembly source and compiled output for 
+zchr | .o, .s | Assembly source and compiled output for 
+zcol_usa | .o, .s | Assembly source and compiled output for 
+zcolsub | .s | Assembly source file containing ?
+zcolsub_usa | .o, .s | Assembly source and compiled output for 
+zend_usa | .o, .s | Assembly source and compiled output for 
+zex | .o, .s | Assembly source and compiled output for 
+zma_usa | .o, .s | Assembly source and compiled output for 
+zms_usa | .o, .s | Assembly source and compiled output for 
+zmssub_usa | .o, .s, .s~ | 
+zpl | .o, .s | Assembly source and compiled output for 
+zpl1 | .o, .s | Assembly source and compiled output for 
+zplsub | .o, .s | Assembly source and compiled output for 
+zprsub_usa | .o, .s | Assembly source and compiled output for 
+zrom | .o, .s, .s~ | 
+zrom1 | .s | Assembly source file containing ?
+zs1sub_usa | .o, .s | Assembly source and compiled output for 
+zti_usa | .o, .prn, .s, .s~ | 
+zvd | .o | 
+zvd_usa | .o, .s | Assembly source and compiled output for 
+エンディング(NOA) | .txt | 
+新規英文テキスト | .txt | 
+
+
+---
+#### Atr (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/ATR)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ATR</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+T | .pdt, .pnl | 
+ajitopnl | .pdt, .pnl | 
+bg_4-0pn | .pdt, .pnl | 
+bg_4-4pn | .pdt, .pnl | 
+bg_4-8pn | .pdt, .pnl | 
+bg_6-4pn | .pdt, .pnl | 
+bg_6-9pn | .pdt, .pnl | 
+bg_7-9pn | .pdt, .pnl | 
+bg_8-0pn | .pdt, .pnl | 
+bg_8-1pn | .pdt, .pnl | 
+bg_8-2pn | .pdt, .pnl | 
+bg_8-3pn | .pdt, .pnl | 
+bg_8-6pn | .pdt, .pnl | 
+bg_8-8pn | .pdt, .pnl | 
+bg_8-apn | .pdt, .pnl | 
+bg_9-3pn | .pdt, .pnl | 
+bg_a-0pn | .pdt, .pnl | 
+bg_a-2pn | .pdt, .pnl | 
+bg_a-4pn | .pdt, .pnl | 
+bg_a-8pn | .pdt, .pnl | 
+bg_b-0pn | .pdt, .pnl | 
+bg_b-3pn | .pdt, .pnl | 
+bg_c-0pn | .pdt, .pnl | 
+bg_c-2pn | .pdt, .pnl | 
+bg_c-6pn | .pdt, .pnl | 
+bg_c-cpn | .pdt, .pnl | 
+bg_c-dpn | .pdt, .pnl | 
+bg_d-dpn | .pdt, .pnl | 
+bg_e-0pn | .pdt, .pnl | 
+bg_e-8pn | .pdt, .pnl | 
+camera | .pdt, .pnl | 
+cz_a-2pn | .pnl | 
+fukupnl | .dat, .pdt, .pnl | 
+ido | .pdt, .pnl | 
+idogata | .PNL, .pdt | 
+idogata1 | .PNL, .pdt | 
+ietype | .PNL, .pdt | 
+ietype_1 | .PNL, .pdt | 
+l2pnl | .pdt, .pnl | 
+l4pnl | .pdt, .pnl | 
+l6pnl | .pdt, .pnl | 
+l8pnl | .pdt, .pnl | 
+lv_1pnl | .pdt, .pnl | 
+lv_3pnl | .pdt, .pnl | 
+lv_5pnl | .pdt, .pnl | 
+lv_7pnl | .pdt, .pnl | 
+nzod1357 | .PNL, .pdt | 
+onemupnl | .pdt, .pnl | 
+pnl2c | .PNL, .pdt | 
+pnl4c | .PNL, .pdt | 
+pnl6c | .PNL, .pdt | 
+pnl8c | .PNL, .pdt | 
+shiropnl | .pdt, .pnl | 
+tamapnl | .pdt, .pnl | 
+turi_pnl | .pdt | 
+turitype | .pdt, .pnl | 
+
+
+---
+#### Atr2 (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/ATR2)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ATR2</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+00pnl | .pdt, .pnl | 
+06pnl | .pdt | 
+08pnl | .pdt, .pnl | 
+0epnl | .pdt, .pnl | 
+11pnl | .pdt, .pnl | 
+1apnl | .pdt, .pnl | 
+cz_2-2pn | .pdt, .pnl | 
+cz_2-8pn | .pdt, .pnl | 
+cz_2-fpn | .pdt | 
+cz_2-fqn | .pnl | 
+cz_3-0pn | .pdt, .pnl | 
+cz_3-7pn | .pdt, .pnl | 
+cz_4-0pn | .pdt, .pnl | 
+cz_4-4pn | .pdt, .pnl | 
+cz_4-6pn | .pdt, .pnl | 
+cz_4-8pn | .pdt, .pnl | 
+cz_4-cpn | .pdt, .pnl | 
+cz_6-8pn | .pdt, .pnl | 
+cz_6-apn | .pdt, .pnl | 
+cz_7-5pn | .pdt, .pnl | 
+cz_8-0pn | .pdt, .pnl | 
+cz_8-2pn | .pdt, .pnl | 
+cz_8-3pn | .pdt, .pnl | 
+cz_8-6pn | .pdt, .pnl | 
+cz_8-7pn | .pdt, .pnl | 
+cz_8-apn | .pdt, .pnl | 
+cz_8-cpn | .pdt, .pnl | 
+cz_8-epn | .pdt, .pnl | 
+cz_a-0pn | .pdt, .pnl | 
+cz_a-2pn | .pdt, .pnl | 
+cz_a-4pn | .pdt, .pnl | 
+cz_a-8pn | .pdt, .pnl | 
+cz_b-1pn | .pdt, .pnl | 
+cz_c-2pn | .pdt, .pnl | 
+cz_c-4pn | .pdt, .pnl | 
+cz_c-cpn | .pdt, .pnl | 
+cz_c-dpn | .pdt, .pnl | 
+cz_c-epn | .pdt, .pnl | 
+cz_d-dpn | .pdt, .pnl | 
+cz_e-0pn | .pdt, .pnl | 
+cz_e-8pn | .pdt, .pnl | 
+
+
+---
+#### Color Graphics (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/CGX)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/CGX</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+C1 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C2 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C3 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C4 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C5 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C6 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C7 | .CHR | Sprite/Tile data created using the IS-Character development kit
+C8 | .CHR | Sprite/Tile data created using the IS-Character development kit
+TEST_clz5 | .cgx | 
+camegake1 | .cgx | 
+camegake1c | .cgx | 
+cametori | .cgx | 
+clz1 | .cgx | 
+clz1_DEMO | .cgx | 
+clz2 | .cgx | 
+clz3 | .cgx | 
+clz3k | .cgx | 
+clz4_USA | .cgx | 
+clz4z | .cgx | 
+clz5 | .cgx | 
+clz5k | .cgx | 
+clz5z | .cgx | 
+clz6 | .cgx | 
+clz6k | .cgx | 
+clz7 | .cgx | 
+clz7k | .cgx | 
+clz8 | .cgx | 
+clz9 | .cgx | 
+clza | .cgx | 
+ctool | .cgx | 
+g1 | .cgx | 
+g2 | .cgx | 
+g3 | .cgx | 
+g4 | .cgx | 
+g5 | .cgx | 
+g6 | .cgx | 
+g7 | .cgx | 
+g8 | .cgx | 
+g9 | .cgx | 
+gekisiro | .cgx | 
+gekitori | .cgx | 
+gekitoric | .cgx | 
+gekituri | .cgx | 
+gekituric | .cgx | 
+gekizola | .cgx | 
+name.cgx | .bin | 
+phowan | .cgx | 
+ugb_1 | .cgx | 
+ugb_4 | .cgx | 
+ugb_5 | .cgx | 
+ugb_7 | .cgx | 
+ugb_9 | .cgx | 
+uscg1 | .cgx | 
+uscg4 | .cgx | 
+uscg5 | .cgx | 
+uscg7 | .cgx | 
+uscg9 | .cgx | 
+uscga | .cgx | 
+
+
+---
+#### Color (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/COLOR)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/COLOR</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains CDT files. Presumably these are 'Color Data Table" files that act as a pallete for the tile graphics.
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+2_room | .CDT | 
+5-room | .CDT | 
+7-room-0 | .CDT | 
+T | .isx | 
+ajitocol | .CDT | 
+arasi | .CDT | 
+bg_0 | .CDT | 
+bg_1 | .CDT | 
+bg_3 | .CDT | 
+bg_3a | .CDT | 
+bg_4 | .CDT | 
+bg_7 | .CDT | 
+bg_d | .CDT | 
+camera | .CDT | 
+fhoto | .CDT | 
+fukucol | .CDT, .col | 
+hekiga0c | .CDT | 
+heya-1 | .CDT | 
+heyall_a | .CDT | 
+heyall_b | .CDT | 
+heyall_c | .CDT | 
+ido | .CDT | 
+ido1 | .CDT | 
+idotype_0 | .CDT | 
+idotype_1 | .CDT | 
+idotype_2 | .CDT | 
+idotype_3 | .CDT | 
+idotype_4 | .CDT | 
+ietype_0 | .CDT | 
+ietype_1 | .CDT | 
+ietype_2 | .CDT | 
+ietype_3 | .CDT | 
+ietype_4 | .CDT | 
+ietype_5 | .CDT | 
+ietype_6 | .CDT | 
+ietype_7 | .CDT | 
+ietype_8 | .CDT | 
+ietype_9 | .CDT | 
+ietype_A | .CDT | 
+jyotyu | .CDT | 
+kaiga_0c | .CDT | 
+kyan2 | .CDT | 
+l2col | .CDT | 
+l4col | .CDT | 
+l6col | .CDT | 
+l8col | .CDT | 
+library2 | .CDT | 
+love | .CDT | 
+lv_1col | .CDT | 
+lv_3col | .CDT | 
+lv_5col | .CDT | 
+lv_7col | .CDT, .cdt~ | 
+map1 | .CDT | 
+marin2 | .CDT | 
+mori_1 | .CDT | 
+mori_2 | .CDT | 
+na-sa0c | .CDT | 
+nyan2 | .CDT | 
+objcol_c | .CDT | 
+objcol_oba | .CDT | 
+oc_hana | .CDT | 
+oc_pine | .CDT | 
+onemucol | .CDT | 
+open00c | .CDT | 
+open0c | .CDT | 
+open0kai | .CDT | 
+open1c | .CDT | 
+piti_0c | .CDT | 
+room1b | .CDT | 
+sel_obj | .CDT | 
+select_l | .CDT | 
+shiba2 | .CDT | 
+shirocol | .CDT | 
+shop2 | .CDT | 
+tamacol | .CDT | 
+tamesi50 | .CDT | 
+tele2 | .CDT | 
+toguru | .CDT | 
+tou_demo | .CDT | 
+turi_ol | .CDT | 
+turi_ol2 | .CDT | 
+unasare | .CDT | 
+ururira2 | .CDT | 
+zelda_dun2 | .CDT | 
+zelda_dun2c | .CDT | 
+zelda_dun4c | .CDT | 
+zelda_dun6c | .CDT | 
+zelda_dun8 | .CDT | 
+zelda_dun8c | .CDT | 
+zelda_obj_swim | .col | 
+
+
+---
+#### Color2 (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/COLOR2)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/COLOR2</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+00col | .CDT | 
+06col | .CDT | 
+07col | .CDT | 
+08col | .CDT | 
+0ecol | .CDT | 
+10col | .CDT | 
+2bcol | .CDT | 
+cz0 | .CDT | 
+cz1 | .CDT | 
+cz11 | .CDT | 
+cz2 | .CDT | 
+cz2a | .CDT | 
+cz3 | .CDT | 
+cz3a | .CDT | 
+cz4 | .CDT | 
+cz5 | .CDT | 
+cz6 | .CDT | 
+cz6a | .CDT | 
+cz7 | .CDT | 
+cz9 | .CDT | 
+czb | .CDT | 
+czc | .CDT | 
+czca | .CDT | 
+czd | .CDT | 
+
+
+---
+#### Compiled Output (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/COM)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/COM</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+AZLE20-0 | .GB, .com | Compiled GBC ROM
+AZLE20-C | .com | Compiled GBC ROM
+Azlp20-0 | .GB | Compiled GBC ROM
+cgbzel_usa0820 | .com | Compiled GBC ROM
+isdwdcmd | .dat | 
+isdwdrng | .dat | 
+isdwdsym | .dat | 
+
+
+---
+#### Ending (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/ENDING)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ENDING</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+kaiso_1 | .CDT, .CSD | 
+kaiso_2 | .CSD | 
+kaiso_3 | .CSD | 
+kaiso_4 | .CSD | 
+kaiso_5 | .CSD | 
+
+
+---
+#### Geki (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/Geki)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Geki</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains Game Boy Color Tile graphic for...
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+gekigake1 | .cgx | 
+gekigake1c | .cgx | 
+gekihaka | .cgx | 
+gekisiro | .cgx | 
+gekisiroc | .cgx | 
+gekitori | .cgx | 
+gekitoric | .cgx | 
+gekiwanc | .cgx | 
+shasinya | .cgx | 
+tenso | .cgx | 
+
+
+---
+#### Map (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/MAP)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/MAP</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+zel_map1 | .MDT | 
+zel_map2 | .MDT | 
+
+
+---
+#### New_sound (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/New_sound)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/New_sound</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+bgm_1 | .bin | Background Music 1
+bgm_2 | .bin | Background Music 2
+se | .bin | Sound Effects
+
+
+---
+#### Photo (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/PHOTO)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/PHOTO</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+camegake1 | .CSD, .cgx | 
+camegake2 | .CSD, .cgx | 
+camehaka | .CSD, .cgx | 
+camesiro | .CSD, .cgx | 
+cametori | .CSD, .cgx | 
+cameturi | .CSD, .cgx | 
+camezola | .CSD, .cgx | 
+camezolat | .cgx | 
+camezolata | .CSD | 
+fhoto | .CCD, .CSD | 
+hekiga | .CCD, .CSD, .cgx, .col, .scr | 
+himitsu | .cgx | 
+himitsu1 | .CSD | 
+himitsu10 | .CSD | 
+himitsu11 | .CSD | 
+himitsu2 | .CSD | 
+himitsu4 | .CSD | 
+himitsu7 | .CSD | 
+himitsu8 | .CSD | 
+himitsu9 | .CSD | 
+kaiga | .CCD, .CSD, .cgx, .col, .scr | 
+peach | .CCD, .CSD, .cgx, .col, .scr | 
+ph_4 | .CSD, .cgx | 
+ph_a1p | .CSD, .cgx | 
+ph_uru_p | .CSD, .cgx | 
+phodoro | .CSD, .cgx | 
+phoshasinya | .CSD, .cgx | 
+phoshasinya_P | .CSD | 
+phoshasinya_p | .cgx | 
+photori | .CSD, .cgx | 
+
+
+---
+#### Scr (/AZL__ゼルダの伝説 夢を見る島DX/Source/Disk1/ゼルダの伝説_JP3_US3_EU2/CGB_zeldaUSA/cgb_usa/scr)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/scr</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+name_1 | .scr | 
+name_2 | .scr | 
+
