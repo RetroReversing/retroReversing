@@ -400,8 +400,8 @@ The files in the **Character** folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 C1 | .CHR | Contains the tiles for the instruments and the numbers 0-9 and others like rupees
-C2 | .CHR | Contains the files used for the dungeons
-C3 | .CHR | Contains files but unclear exactly what they are
+C2 | .CHR | Contains the tiles used for the dungeons
+C3 | .CHR | Contains tiles but unclear exactly what they are
 C4 | .CHR | Contains tiles used for the Title Screen (Japanese)
 C5 | .CHR | Contains tiles used in the opening sequence
 C6 | .CHR | Contains Non Player Character sprites
@@ -601,7 +601,11 @@ ISLK32 | .EXE | INTELLIGENT SYSTEMS Linker Version 1.24.1
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/cgx</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the graphics/tiles created for the Game Boy Color version of Zelda DX.
+ This folder contains the graphics/tiles created for the Game Boy Color version of Zelda DX. 
+    
+The Sprite/Tile data created using the IS-Character development kit and are in the .CHR file format used for both NES and Game Boy tiles. In this file format, each tile is represented by an 8x8 pixel matrix, which is stored as a series of 64 bytes. These matrices are then combined to form sprites, backgrounds, and other graphical elements in the game.
+    
+    Note that these files differ slightly across regions (specifically the title sequence) but most of the tiles are the same across versions. Also these are the same as the DMG tilesets in the DMG.7z leak.
 
   </div>
 </section>
@@ -611,22 +615,22 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-C1 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C2 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C3 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C4 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C5 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C6 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C7 | .CHR | Sprite/Tile data created using the IS-Character development kit
-C8 | .CHR | Sprite/Tile data created using the IS-Character development kit
-g1 | .bin | 
-g2 | .bin | 
-g3 | .bin | 
-g4 | .bin | 
-g5 | .bin | 
-g6 | .bin | 
-g7 | .bin | 
-g8 | .bin | 
+C1 | .CHR | Contains the graphic tiles for the instruments and the numbers 0-9 and others like rupees
+C2 | .CHR | Contains the tiles used for the dungeons
+C3 | .CHR | Contains tiles but unclear exactly what they are
+C4 | .CHR | Contains tiles used for the Title Screen (German)
+C5 | .CHR | Contains tiles used in the opening sequence
+C6 | .CHR | Contains Non Player Character sprites
+C7 | .CHR | Unsure what these tiles are
+C8 | .CHR | Contains the tiles spelling out “PLAYER” and what could be water tiles
+g1 | .bin | Exactly the same as C1.CHR
+g2 | .bin | Exactly the same as C2.CHR
+g3 | .bin | Exactly the same as C3.CHR
+g4 | .bin | Exactly the same as C4.CHR
+g5 | .bin | Exactly the same as C5.CHR
+g6 | .bin | Exactly the same as C6.CHR
+g7 | .bin | Exactly the same as C7.CHR
+g8 | .bin | Exactly the same as C8.CHR
 isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 by N.Nakano
 isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
 isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
