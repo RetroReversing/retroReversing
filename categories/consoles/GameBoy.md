@@ -177,15 +177,7 @@ This is a very interesting project that played a large set of gameboy games in a
 
 ---
 # File Formats
-There are a few different file formats that you will find relating to the GameBoy which are listed below:
-* **.ISX** Official Nintendo ROM file (compiled by the assembler **ISAS**) (contains debug symbols)
-* **.GB** Original GameBoy ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
-* **.GBC** Original GameBoy Color ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
-
-If you backup your own games they will be created with a **.GB** or **.GBC** file extension along with most of the ROMS that can be found online. If the ROM was leaked from a first party developer such as Nintendo then they will likely be in **.ISX** format, this can easily be converted to **.GBC** with the tool **CVTISX** included in the Official GameBoy SDK.
-
-The emulator **SameBoy** recently added support to play ISX files due to the **2020 Nintendo Leaks**:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
+{% include link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
 
 ---
 # References
