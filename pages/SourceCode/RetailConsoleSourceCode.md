@@ -2,6 +2,7 @@
 permalink: /source-code/retail-console-source-code
 layout: post
 title: Retail Console Game Source code (C/C++)
+excerpt: Find out about leaked real retail game source code in this post
 thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/Retail Console Game Source code.jpg
 twitterimage: https://www.retroreversing.com/public/images/Retail Console Game Source code.jpg
@@ -21,6 +22,8 @@ tags:
 - games
 editlink: ../pages/SourceCode/RetailConsoleSourceCode.md
 updatedAt: '2022-04-09'
+redirect_from:
+  -  /sourcecode
 ---
 It is very rare that a commercial game releases its source code to the public, it is even rarer for that to be a console game, but there have been a few exciting cases in recent history which we will explore in this post.
 
