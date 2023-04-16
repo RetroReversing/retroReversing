@@ -674,7 +674,7 @@ This folder contains the following sub-directories:
       <li class="rr-info-gen">COM - Compiled output of the source code (including symbol files)</li>
       <li class="rr-info-gen">Geki - Cutscene tile graphics</li>
       <li class="rr-info-gen">ISX - Contains a Pre-build Game Boy ROM</li>
-      <li class="rr-info-gen">PHOTO - ?</li>
+      <li class="rr-info-gen">PHOTO - Maybe it contains the output of the photo feature in the game but unsure</li>
       <li class="rr-info-gen">TEXT - Documents related to translating the Dialog to German</li>
       <li class="rr-info-gen">cgx - Color Graphics/Tile Data</li>
       <li class="rr-info-gen">すぐ消すふぉるだ - Translates to "Folder to be deleted immediately." - It is empty</li>
@@ -777,3 +777,43 @@ zti_d | .o, .s, .s~ |
 zvd_d | .s | Assembly source file containing ?
 zwin | .o, .s, .s_BAK | 
 
+---
+##### Assembler and Linker (CGB_zeldaDOITU/cgb_d/BACK)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/BACK</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the Linker and Assembler from the Official Nintendo Game Boy SDK
+
+  </div>
+</section>
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ISAS32 | .EXE | INTELLIGENT SYSTEMS Assembler Version 1.24.8
+ISLK32 | .EXE | INTELLIGENT SYSTEMS Linker Version 1.24.1
+cgal | .bat | Windows Batch file for assembily and linking all the source code
+ddd | N/A | Text file containing parameters that get passed to islk32
+
+---
+##### Compiled Output (CGB_zeldaDOITU/cgb_d/COM)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/COM</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the compiled output created by the build process. I am not quite sure the difference between .GB and .COM files, they are similar but have some different bytes when comparing with a hex editor.
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+AZLD10-0 | .GB, .com | Compiled Game Boy ROM
+azld00-0 | .gb | Compiled Game Boy ROM
+cgbzel_ger0820 | .com | MS-DOS Command File Executable for ?
+isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 
+isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
+isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
