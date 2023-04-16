@@ -70,6 +70,6 @@ Most of these have been seen in the Zelda DX Gigaleak but we are unclear what ex
 * **.ICE** - Something to do with the In-Circuit-Emulator?
 * **.MDT** - Map Data Table? (Something to do with Game Maps)
 * **.PDT** - Pattern Data Table?
-* **.PNL** - Pattern Number L ?
+* **.PNL** - Pattern Number L ? (Has file header: NAK1989 S-CG-CAD Ver 1.23)
 
 
