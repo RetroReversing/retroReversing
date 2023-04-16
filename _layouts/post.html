@@ -13,6 +13,8 @@
   {% endif %}
   {% if page.description %}
     <meta name="twitter:title" content="{{page.description}}">
+   {% else if page.excerpt %}
+  <meta name="twitter:title" content="{{page.excerpt}}">
   {% else %}
     <meta name="twitter:title" content="Retro Reversing - Peek behind the curtain to see how your favourite video games were made.">
   {% endif %}
