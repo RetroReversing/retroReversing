@@ -634,3 +634,23 @@ g8 | .bin | Exactly the same as C8.CHR
 isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 by N.Nakano
 isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
 isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
+
+---
+##### Sound (CGB_zeldaDOITU/cgb/sound)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/sound</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the background music and sound effects data for the Game Boy Color version of Zelda DX.
+
+  </div>
+</section>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BGM_1G | .HEX | Hex version of bgm_1 specifically for German
+BGM_2 | .BIN, .HEX | Background Music 2
+SE | .BIN, .HEX | Sound Effect data
+bgm_1 | .bin | Background Music 1
