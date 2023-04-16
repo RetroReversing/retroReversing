@@ -654,3 +654,126 @@ BGM_1G | .HEX | Hex version of bgm_1 specifically for German
 BGM_2 | .BIN, .HEX | Background Music 2
 SE | .BIN, .HEX | Sound Effect data
 bgm_1 | .bin | Background Music 1
+
+---
+#### German Color Game Boy Source (CGB_zeldaDOITU/cgb_d)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/cgb_d</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder speciailly contains the source code modified for the German Localisation of the game.
+
+  </div>
+</section>
+
+
+This folder contains the following sub-directories:
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="CGB_zeldaDOITU/cgb_d" date="Folder Tree" ></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">BACK - SDK Assembler and Linker</li>
+      <li class="rr-info-gen">COM - Compiled output of the source code (including symbol files)</li>
+      <li class="rr-info-gen">Geki - Cutscene tile graphics</li>
+      <li class="rr-info-gen">ISX - Contains a Pre-build Game Boy ROM</li>
+      <li class="rr-info-gen">PHOTO - ?</li>
+      <li class="rr-info-gen">TEXT - Documents related to translating the Dialog to German</li>
+      <li class="rr-info-gen">cgx - Color Graphics/Tile Data</li>
+      <li class="rr-info-gen">すぐ消すふぉるだ - Translates to "Folder to be deleted immediately." - It is empty</li>
+    </ul>
+</div>
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+GEZELDAE | .TXT | 
+ZATRSUB_D | .o | 
+ZCOL | .o | 
+ZCOLSUB_D | .o | 
+ZDB2 | .o | 
+ZE9 | .o | 
+ZEND2 | .o | 
+ZFADE | .o, .s | Assembly source and compiled output for 
+ZGEKI | .o | 
+ZGKANM | .o | 
+ZGKDAT | .o | 
+ZGKSCR | .o | 
+ZJP | .o | 
+ZMAP | .o | 
+ZMSSUB_D | .o | 
+ZPLSUB | .o | 
+ZPR | .o | 
+ZPRSUB_D | .o | 
+ZS1SUB_D | .o | 
+ZVD_D | .o | 
+azld00-0 | .gb | 
+bug-e103 | .avi | Video showing a bug where ? 
+bug-e106 | .avi | Video showing a bug where ? 
+bug-e94 | .avi | Video showing a bug where ? 
+c_d | .isx, .ram | Compiled Game Boy ROM file
+c_d1211 | .GB, .com | Compiled Game Boy ROM file
+cgal | .bat | Windows Batch file for running ?
+clink | .bat | Windows Batch file for running ?
+ddd | N/A | 
+gbmsdt | .o, .s | Assembly source and compiled output for 
+gbmsdt_d | .s | Assembly source file containing ?
+geadd | .doc, .txt | 
+gezelda | .doc, .txt | 
+isdwdcmd | .dat | 
+isdwdrng | .dat | 
+isdwdsym | .dat | 
+messcorr | .txt | 
+shi | .txt | 
+zatr_d | .o, .s | Assembly source and compiled output for 
+zatrsub_d | .s | Assembly source file containing ?
+zbd | .o, .s | Assembly source and compiled output for 
+zbdatr | .o, .s | Assembly source and compiled output for 
+zbn | .s | Assembly source file containing ?
+zbs | .o, .s | Assembly source and compiled output for 
+zchr | .o, .s | Assembly source and compiled output for 
+zco | .o, .s | Assembly source and compiled output for 
+zcol | .s | Assembly source file containing ?
+zcolsub_d | .s | Assembly source file containing ?
+zdb | .o, .s | Assembly source and compiled output for 
+zdb2 | .s | Assembly source file containing ?
+ze2 | .o, .s | Assembly source and compiled output for Enemy code 2
+ze3 | .o, .s | Assembly source and compiled output for Enemy code 3
+ze4 | .o, .s | Assembly source and compiled output for Enemy code 4
+ze5 | .o, .s | Assembly source and compiled output for Enemy code 5
+ze6 | .o, .s | Assembly source and compiled output for Enemy code 6
+ze7 | .o, .s | Assembly source and compiled output for Enemy code 7
+ze8 | .o, .s | Assembly source and compiled output for Enemy code 8
+ze9 | .s | Assembly source file containing Enemy code 9
+zed | .o, .s | Assembly source and compiled output for 
+zen | .o, .s | Assembly source and compiled output for Enemy code 1
+zend2 | .s | Assembly source file containing ?
+zend_d | .o, .s, .s_BAK | 
+zes | .o, .s | Assembly source and compiled output for 
+zex | .o, .s | Assembly source and compiled output for 
+zgb | .o, .s | Assembly source and compiled output for 
+zgd | .s | Assembly source file containing ?
+zgeki | .s, .s~ | 
+zgkanm | .s | Assembly source file containing ?
+zgkdat | .s | Assembly source file containing ?
+zgkscr | .s | Assembly source file containing ?
+zjp | .s | Assembly source file containing ?
+zma | .o, .s | Assembly source and compiled output for 
+zmap | .s | Assembly source file containing ?
+zms_d | .o, .s | Assembly source and compiled output for 
+zmssub_d | .s | Assembly source file containing ?
+zpl | .o, .s | Assembly source and compiled output for 
+zplsub | .s | Assembly source file containing ?
+zpr | .s | Assembly source file containing ?
+zprsub_d | .s | Assembly source file containing ?
+zram | .o, .prn, .s | 
+zrom | .o, .s, .s~ | 
+zrom1 | .s | Assembly source file containing ?
+zs1 | .o, .s | Assembly source and compiled output for 
+zs1sub_d | .s | Assembly source file containing ?
+zsd | .o, .s | Assembly source and compiled output for 
+zsgb | .o, .s | Assembly source and compiled output for 
+zti | .prn | 
+zti_d | .o, .s, .s~ | 
+zvd_d | .s | Assembly source file containing ?
+zwin | .o, .s, .s_BAK | 
+
