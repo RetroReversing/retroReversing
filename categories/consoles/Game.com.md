@@ -21,6 +21,15 @@ editlink: ../categories/consoles/Game.com.md
 updatedAt_: '2022-12-08'
 ---
 
+# Introduction
+Welcome to our page dedicated to Tiger Game.com reverse engineering! The Tiger Game.com was a handheld gaming console that was released in 1997, and was notable for being one of the first gaming consoles to feature a touchscreen interface.
+
+ If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Game.com reverse engineering. 
+ 
+ Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+ 
+ So grab your Game.com and get ready to dive into the exciting world of Game com reverse engineering!
+
 # Games
 
 ## Castlevania Symphony of the Night
