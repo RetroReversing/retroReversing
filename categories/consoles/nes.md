@@ -2,7 +2,7 @@
 permalink: /nes/
 layout: post
 console: nes
-title: Nintendo Entertainment System Reverse Engineering
+title: Reverse Engineering NES Games: Uncovering the Secrets of Classic Gaming
 consoleimage: /public/consoles/Nintendo Entertainment System.png
 thumbnail: /public/consoles/Nintendo Entertainment System.png
 image: /public/images/nes/NES Reversing.jpg
@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Nintendo Entertainment System
+  - name: Reverse Engineering NES Games: Uncovering the Secrets of Classic Gaming
     url: #
 recommend: nes
 recommendTitle: All NES Posts
@@ -21,7 +21,9 @@ updatedAt: '2022-10-08'
 ---
 
 # Introduction
-Interested in learning more about the the NES? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to an introduction to reverse engineering your first game!
+Welcome to our guide to reverse engineering NES games! If you're a fan of classic video games, you may have wondered how those old 8-bit games were created and what secrets they hold. Reverse engineering is a process that can help uncover the inner workings of these games and reveal how they were programmed, designed, and even hacked by enthusiasts over the years.
+
+In this guide, we'll explore the basics of reverse engineering and how it can be applied to NES games. We'll cover the tools and techniques used to disassemble and analyze game code, as well as some of the challenges and rewards of this process. Whether you're a curious hobbyist or a seasoned game developer, we hope this guide will inspire you to explore the world of NES game reverse engineering and discover some of the hidden gems of classic gaming.
 
 ---
 # Games
@@ -58,6 +60,9 @@ You can find it on Github here:
 
 ---
 # Hardware
+In this section, we'll explore the hardware that powers the NES and how it can be reverse engineered. Understanding the hardware that drives the NES is key to unlocking its potential and gaining a deeper appreciation for the games that were developed for it.
+
+We'll take a closer look at the different components of the NES hardware, including the CPU, PPU, and APU, and discuss how they work together to create the unique gaming experience of the NES.
 
 ## Development Kit Hardware
 Since Nintendo were very new to the home video game market, they saw themselves as creating most of the software that will run on the NES. 
@@ -67,7 +72,8 @@ We have a specific post covering all the NES development kits that we know about
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## Retail NES Hardware
-For an in-depth look at the NES Retail hardware architecture check out the excellent post by **Copetti.org**:
+If you're interested in learning more about the hardware architecture of the NES, we highly recommend checking out the post on **Copetti.org**. This website is dedicated to exploring the technical details of the NES hardware, including the CPU, PPU, and APU, as well as other components that make up the console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the NES.
+
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.png" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
 
 ## Retail NES Controller Electronics
@@ -126,6 +132,7 @@ Then simply join the header with the content from address 0x747E67D6 and 0xC87FC
 
 ---
 # Game Modding
+Modding NES games can be a fun and rewarding way to explore the world of classic gaming and unleash your creativity. By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
 
 ## Cheat Cartridges (Game Genie)
 The main cheat cartridge available for the NES was the **Game Genie** created by **Codemasters** (Distributed by Galoob & Hornby Hobbies). This was a physical connector that would sit between the NES and the Game Cartridge you wanted to cheat on. It would alter the signals based on which memory addresses were being read/written to in real-time based on the Cheat code that was loaded into the system.
@@ -176,6 +183,7 @@ It covers the following topics related to NES Graphics:
 
 ---
 # Reverse Engineering
+If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed. In this tutorial, we'll provide an overview of the techniques used to reverse engineer NES games, including disassembly, debugging, and memory analysis
 
 ## File Formats
 When reversing NES games you will come across a variety of file formats, this section will try to cover all of the most common formats you will encounter.
