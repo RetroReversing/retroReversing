@@ -26,15 +26,17 @@ updatedAt_: '2022-12-29'
 ---
 
 # Introduction to Fairchild Channel F
+Welcome to our page dedicated to Fairchild Channel F reverse engineering! The Fairchild Channel F was the first video game console to use programmable cartridges, and was released in 1976. 
+
+If you're interested in learning more about the technical aspects of this groundbreaking console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Fairchild Channel F reverse engineering. 
+
+Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your joystick and get ready to dive into the exciting world of Fairchild Channel F reverse engineering!
+
+# Development Kit
 <section class="postSection">
     <img data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-This was the year the **Fairchild Channel F** was released, the first ever games console with interchangeable cartridges (ROMs) and the first to be based on a microprocessor (Fairchild F8).
-
-   
 Fairchild released a development kit which came with a book titled **F8 Guide to Programming**, if you were a developer at the time who wanted to write games for the Channel F then this would be the go-to book!
  </div>
 </section> 
-
-
