@@ -20,7 +20,13 @@ redirect_from:
   - /dc
 ---
 # Introduction to Hacking/Reversing the SEGA Dreamcast
-Interested in learning more about the the SEGA Dreamcast? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to an introduction to reverse engineering your first game!
+Welcome to our page dedicated to SEGA Dreamcast reverse engineering! The SEGA Dreamcast was a beloved gaming console that was first released in 1998, and has since gained a cult following among retro gaming enthusiasts. 
+
+If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to SEGA Dreamcast reverse engineering. 
+
+Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your VMU, fire up your Dreamcast, and get ready to dive into the exciting world of SEGA Dreamcast reverse engineering!
 
 ---
 # Hardware
