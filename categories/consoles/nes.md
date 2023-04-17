@@ -2,7 +2,7 @@
 permalink: /nes/
 layout: post
 console: nes
-title: Reverse Engineering NES Games: Uncovering the Secrets of Classic Gaming
+title: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
 consoleimage: /public/consoles/Nintendo Entertainment System.png
 thumbnail: /public/consoles/Nintendo Entertainment System.png
 image: /public/images/nes/NES Reversing.jpg
@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Reverse Engineering NES Games: Uncovering the Secrets of Classic Gaming
+  - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
 recommend: nes
 recommendTitle: All NES Posts
