@@ -5,7 +5,7 @@ recommend: wii
 recommendTitle: All Wii Posts
 editlink: ../categories/consoles/Wii.md
 console: 'wii'
-title: 'Nintendo Wii'
+title: Nintendo Wii Reverse Engineering
 consoleimage: /public/consoles/Nintendo Wii.png
 thumbnail: /public/consoles/Nintendo Wii.png
 breadcrumbs:
@@ -13,11 +13,15 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Nintendo Wii
+  - name: Nintendo Wii Reverse Engineering
     url: #
 ---
 # Introduction to Hacking the Nintendo Wii
-Interested in learning more about the the Nintendo Wii? Excellent! This section will guide you through the basics, starting from basic PowerPC assembly language all the way to an introduction to reverse engineering your first game!
+Welcome to our page dedicated to Wii reverse engineering! The Wii was a popular gaming console released by Nintendo in 2006, and it introduced several groundbreaking features to the gaming world, such as motion-based controls and online gameplay. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to Wii reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Wii remote, and get ready to dive into the exciting world of Wii reverse engineering!
 
 ---
 # Hardware
