@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Life in the Games Industry (Documentaries)
 permalink: /industry
 console: industry
 redirect_from:
