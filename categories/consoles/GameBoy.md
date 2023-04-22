@@ -24,8 +24,12 @@ redirect_from:
   -  /gameboy/hardware
   -  /ultimate-gameboy
 ---
-# Game Boy Basics
-Interested in learning more about the the original Game Boy or Game Boy Color? Excellent! This section will guide you through the basics, starting from basic assembly language all the way to reverse engineering your first game!
+# Introduction
+Welcome to our page dedicated to Game Boy reverse engineering! The Game Boy was a groundbreaking handheld gaming console that was released in 1989, and has since become an iconic symbol of the early days of portable gaming. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to Game Boy reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Game Boy and get ready to dive into the exciting world of Game Boy reverse engineering!
 
 ## Original GameBoy Dot Matrix Game (DMG) Specs 
 Main specs of the original GameBoy:
