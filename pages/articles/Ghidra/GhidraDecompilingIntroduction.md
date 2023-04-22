@@ -154,6 +154,140 @@ When we navigate to a function that uses a global variable or structure, we migh
 We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
 
 ---
+# C++ Classes
+
+# Friendly Tutorial: Analyzing and Identifying Classes in Ghidra
+
+Follow these easy steps to analyze and identify classes in Ghidra, a software reverse engineering tool.
+
+## Step 1: Set up an array and a structure
+
+First, let's set up an array and a structure in your code:
+
+1. Modify the function signature to populate it with more meaningful information.
+2. Obtain the current system time and use it as a seed for the random function.
+3. Call the random function, generate a random number, and pass it into the functions.
+
+## Step 2: Dive into the code
+
+Take a close look at the code and try to identify the class constructor and virtual function calls. This will help you understand the class structure better.
+
+## Step 3: Create a class in Ghidra
+
+Now that you have a better understanding of the code, let's create a class in Ghidra:
+
+1. Edit the function signature and select the calling convention as `thiscall`.
+2. Right-click on the function and choose "Auto Create Class" to create the class.
+3. Give the auto-generated class a more meaningful name, like "Derived".
+
+## Step 4: Give your class members meaningful names
+
+Take some time to identify the data types of the class members. Once you know what each member is, update their names to make your code easier to understand.
+
+## Step 5: Set up the virtual table for the base class
+
+It's time to identify the base class that your derived class is inheriting from:
+
+1. Rename the base class to a more meaningful name.
+2. Create a structure called "BaseVtable" with virtual function types.
+
+## Step 6: Create a virtual table for the derived class
+
+Now that you've identified the base class, let's create a virtual table for the derived class:
+
+1. Create a new structure for the derived class's virtual table.
+2. Add the inherited virtual functions and any new virtual functions to the derived class's virtual table.
+3. Replace the base class virtual table pointer with the derived class virtual table pointer.
+
+## Step 7: Analyze nested classes
+
+Finally, let's take a look at any nested classes:
+
+1. Identify any nested classes and their constructors.
+2. Analyze the nested class and update the class structure accordingly.
+
+That's it! You've successfully analyzed and identified classes in Ghidra. Keep practicing to improve your reverse engineering skills. Happy coding!
+
+---
+# Derived Class Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CKrKc3jMuR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+In this tutorial, we will learn how to analyze a derived class in C++ and rename its functions for better understanding. We will start by setting up the derived class and then analyze its functions one by one.
+
+## Setting up the Derived Class
+
+1. Rename the derived class to have a meaningful name.
+2. Analyze each function in the derived class to determine its purpose.
+3. Rename the functions accordingly and add them to the derived class.
+
+## Analyzing and Renaming Functions
+
+Let's analyze and rename the functions in the derived class step by step:
+
+### Count Function
+
+1. Identify the count function that has a virtual function call.
+2. Rename it to `derived_count`.
+3. Add it to the derived class.
+
+### Get Functions
+
+1. Identify the get functions that return an offset for the `this` pointer.
+2. Rename them to `derived_get_offset_8` and `derived_get_offset_C`.
+3. Add them to the derived class.
+
+### Switch Function
+
+1. Identify the switch function that doesn't return anything.
+2. Rename it to `derived_switch`.
+3. Add it to the derived class.
+
+### Deconstructors
+
+1. Identify the deconstructor functions.
+2. Rename them to `decon_1` and `decon_2`.
+3. (Optional) Add them to the derived class.
+
+## Analyzing the Constructor
+
+1. Identify the constructor function.
+2. Rename it to `derived_constructor`.
+3. Add it to the derived class.
+
+## Analyzing the Nested Class
+
+1. Identify the nested class and its functions.
+2. Rename the functions to `nest_constructor` and `nest_hello`.
+3. Create a structure for the nested class with the renamed functions and their corresponding offsets.
+
+## Analyzing the Derived Constructor
+
+1. Identify the derived constructor function.
+2. Rename it to `derived_constructor`.
+3. Add a `nest` pointer to the derived constructor.
+
+## Analyzing the Derived Class Members
+
+1. Analyze the derived class members and their types.
+2. Rename the members to have meaningful names.
+3. Add them to the derived class.
+
+## Updating the Virtual Table
+
+1. Edit the virtual table to better represent the discovered functions.
+2. Update the virtual table with the renamed functions.
+
+## Analyzing the Count Function
+
+1. Analyze the count function and its parameters.
+2. Rename the parameters to have meaningful names.
+3. Update the function name to reflect its purpose.
+
+By following these steps, you can analyze and rename functions in a derived class in C++ for better understanding. Remember to only assign names to members when you have meaningful information about their purpose.
+
+---
+
+---
 # References
 [^1]: [Software Reverse Engineering with Ghidra -- Setup and Installation - YouTube](https://www.youtube.com/watch?v=4v8WkHmSFUU)
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
