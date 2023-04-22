@@ -33,6 +33,14 @@ During development the Nintendo 3DS has the codename Project Citrus (CTR) which 
 The Youtube channel **Tech Rules** has made an excellent video explaining how the Nintendo 3DS was initially jailbroken, using a "terrible game".
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ImR-TdDAIJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
 
+# Hardware
+
+## Retail Nintendo 3DS Hardware
+
+If you're interested in learning more about the hardware architecture of the Nintendo 3DS, we highly recommend checking out the post on Copetti.org. This website is dedicated to exploring the technical details of the Nintendo 3DS hardware, including the CPU, GPU, and other components that make up the handheld console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the Nintendo 3DS.
+
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nintendo-3ds/" description="Copetti.org has an excellent tear down of the Nintendo 3DS Hardware and how it works" image="/public/consoles/Nintendo-3DS.png" title="Nintendo 3DS Architecture - A Practical Analysis" %}
+
 ---
 # All Posts
 <div>
