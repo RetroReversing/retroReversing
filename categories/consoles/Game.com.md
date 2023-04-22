@@ -49,6 +49,7 @@ This section of our guide will provide you with detailed information and resourc
 The only reference I can find about Tiger.com development hardware is on the following page: [Tiger Game.com 101: A Beginner's Guide - RetroGaming with Racketboy](https://www.racketboy.com/retro/tiger-game-com-101-a-beginners-guide)
 It says:
 > Matt Scott, the owner of Byte-Size Sound, was hired as a subcontractor to create audio for specific Game.com games. He later sold his development kit and software for around $700 on eBay in 2006. 
-> The buyer was Brandon Cobb from Super Fighter Team, who is believed to own the only remaining dev kit.
 
-But sadly no images of this development kit seem to be available and the eBay link will be long gone.
+The buyer was Brandon Cobb who has an excellent website on the Game.com: [The end of the game.com](https://www.diskman.com/presents/gamecom/index.html).
+
+But sadly no images of this development kit seem to be available on the site and the eBay link will be long gone by now.
