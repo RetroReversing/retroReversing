@@ -208,7 +208,7 @@ Finally, let's take a look at any nested classes:
 That's it! You've successfully analyzed and identified classes in Ghidra. Keep practicing to improve your reverse engineering skills. Happy coding!
 
 ---
-# Derived Class Tutorial
+# Derived Classes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKrKc3jMuR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 In this tutorial, we will learn how to analyze a derived class in C++ and rename its functions for better understanding. We will start by setting up the derived class and then analyze its functions one by one.
@@ -285,6 +285,91 @@ Let's analyze and rename the functions in the derived class step by step:
 By following these steps, you can analyze and rename functions in a derived class in C++ for better understanding. Remember to only assign names to members when you have meaningful information about their purpose.
 
 ---
+# Derived Class Constructors
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hVW4jCpuQwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+In this tutorial, we'll explore a derived class constructor and its associated members. We'll also create a virtual table pointer for better understanding of the virtual function calls.
+
+## Class Constructor Analysis
+
+### 1. Analyzing the Derived Class
+
+The derived class has a base class that it derives from, and it has a nested class that it points to at a particular offset. 
+
+```cpp
+class Derived : public Base {
+    Nested nested;
+    // ...
+};
+```
+
+### 2. Creating the Virtual Table Pointer
+
+We'll create a virtual table pointer to have a better view and understanding of the virtual function calls happening in the class.
+
+```cpp
+class Derived : public Base {
+    Nested nested;
+    virtual void* vtable[];
+    // ...
+};
+```
+
+### 3. Examining the Virtual Function Calls
+
+We can see that the derived class has various virtual function calls:
+
+- `count()` function, which is based on a random number being passed
+- `switch()` statement, switching on the value of the random number ended with `0xFFFF`
+- Printing random numbers
+- Printing public data types directly without calling a `get()` function
+- Calling and printing out strings, such as "Hello" and "This is only a test"
+- Printing the hash substring derived from the nested class
+
+### 4. Investigating the Destructors and Constructors
+
+At the end of the derived class, there is a call to the destructor. After the destructor, there is a new object allocation, which is passed into a constructor. This new object has a similar structure to the derived class but with different values.
+
+```cpp
+class Derived_1 : public Base {
+    Nested nested;
+    // ...
+};
+```
+
+## Finishing the Derived Classes
+
+### 1. Completing the Derived Class
+
+You can create a virtual table for the new derived class, `Derived_1`, and analyze its virtual function calls. Some functions may be similar to the original derived class but implemented differently.
+
+### 2. Comparing Derived Classes
+
+The derived classes have the same base class, but their implementations may differ. For example, the `count()` function in the first derived class takes a random number as input, while in the second derived class, the input is statically set to 42.
+
+## Conclusion
+
+In this tutorial, we analyzed a derived class constructor, created a virtual table pointer, and examined the virtual function calls. We also discussed the differences between two derived classes and how to complete their respective implementations.
+
+---
+# C++ Classes Stack and Global Classes
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VUokmWqCDnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Introduction
+
+If you've made it this far, then things are going to get a bit easier, probably a whole lot easier now, because the hard part is basically complete. In the last video, we finished talking about the derived class and how it was being set up. Now we can understand how it's getting used, how the members are getting used, and how the virtual function calls are getting used.
+
+## Setting up the Derived Object
+
+In the previous video, we talked about setting up the derived class. In this video, we can see that the function is doing a lot of the same things that our previous function did. Our derived constructor is being called, and our derived count is being directly called. This is because the object is being set up on the stack. Therefore, instead of these being virtual function calls, it's just calling it directly. However, the nested object is still a virtual function call, and the reason for that is that it is a pointer.
+
+## Using a Global Pointer
+
+In this section, we will talk about using a global pointer. We don't have a constructor here, so that means that it has to be constructed somewhere else. We know that it's not getting constructed in any of this. In one of the earlier videos, we talked about the entry function, and we see that it's calling the initializer function. This happens before the main function. Therefore, this is going to call this routine, and all of these functions are going to happen before the main function. This is a global derived object, so we can edit the function drive pointer to copy that, and then we can apply the derived structure over this.
+
+## Wrapping Things Up
+
+In this tutorial, we've walked through the steps of reverse engineering a program using Ghidra. Hopefully, you have gained a better understanding of Ghidra and how it can be used in your future endeavors. If there was something that I've done that was incorrect, or if you know of a better way to do some of this method ecology, then please reach out to me and let me know.
 
 ---
 # References
