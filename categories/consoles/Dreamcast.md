@@ -30,6 +30,9 @@ So grab your VMU, fire up your Dreamcast, and get ready to dive into the excitin
 
 ---
 # Hardware
+If you're keen on reverse engineering SEGA Dreamcast games, it's crucial to possess a strong comprehension of the hardware that fuels the gaming console. This knowledge will aid in understanding how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This segment of our guide furnishes you with comprehensive insights and resources on SEGA Dreamcast hardware, encompassing retail, prototype, and development hardware.
 
 ## Retail Hardware Architecture
 [Dreamcast Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/dreamcast/)
