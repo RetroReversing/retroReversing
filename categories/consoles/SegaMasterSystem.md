@@ -1,7 +1,7 @@
 ---
 permalink: /sms/
 layout: post
-title: Sega Master System
+title: Sega Master System Reverse Engineering
 recommend: sms
 recommendTitle: All SMS Posts
 editlink: ../categories/consoles/SegaMasterSystem.md
@@ -13,10 +13,21 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Sega Master System
+  - name: Sega Master System Reverse Engineering
     url: #
+redirect_from:
+  - /segamastersystem
+  - /sg1000 
 ---
 
+# Introduction
+Welcome to our page dedicated to Sega Master System reverse engineering! The Sega Master System was a popular gaming console released by Sega in 1985, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to Sega Master System reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Sega controller, and get ready to dive into the exciting world of Sega Master System reverse engineering!
+
+---
 # Developer Interviews
 One of the best ways to find out what it was like developing games for the SEGA Master System is to look at old developer interviews from Games Magazines published in the 90s.
 
