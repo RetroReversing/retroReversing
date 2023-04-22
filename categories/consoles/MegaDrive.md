@@ -22,6 +22,11 @@ redirect_from:
 ---
 
 # Introduction
+Welcome to our page dedicated to Sega Mega Drive reverse engineering! The Sega Mega Drive, also known as the Sega Genesis in North America, was a popular gaming console released by Sega in 1988, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Sega Mega Drive reverse engineering. 
+
+Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Sega controller, and get ready to dive into the exciting world of Sega Mega Drive reverse engineering!
 
 ## History of the Mega Drive
 Sega Retro has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly recommended that you read this before anything else:
