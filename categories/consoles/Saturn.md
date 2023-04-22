@@ -6,8 +6,8 @@ title: 'Sega Saturn (Hacking & Reversing)'
 consoleimage: /public/consoles/Sega Saturn.png
 thumbnail: /public/consoles/Sega Saturn.png
 recommend: saturn
-recommendTitle: All Saturn Posts
-editlink: ../categories/consoles/saturn.md
+recommendTitle: All Sega Saturn Posts
+editlink: ../categories/consoles/Saturn.md
 breadcrumbs:
   - name: Home
     url: /
@@ -21,10 +21,14 @@ redirect_from:
 ---
 
 # Introduction to Hacking/Modding/Reversing the Sega Saturn
-Interested in learning more about the the Saturn? Excellent! This section will guide you through the basics, starting from basic architecture all the way to an introduction to reverse engineering your first game!
+Welcome to our page dedicated to Sega Saturn reverse engineering! The Sega Saturn was a gaming console released by Sega in 1994, and it introduced several innovative features to the gaming world, such as the ability to play games on both CDs and cartridges. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to Sega Saturn reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Sega Saturn controller, and get ready to dive into the exciting world of Sega Saturn reverse engineering!
 
 {% include link-to-other-post.html post="/saturn-reversing" description="For an introduction on reverse engineering Sega Saturn games check out this post." %}
-
+---
 ## Sega Saturn Exclusives
 When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
 
@@ -48,6 +52,9 @@ This makes it slightly easier to do some basic modding of Saturn assets compared
 
 {% include link-to-other-post.html post="/sega-saturn-save-data/" description="For details on the Save Data file formats for Sega Saturn games check out this post." %}
 
+---
+# Sega Saturn Hardware
+
 ## Retail Sega Saturn hardware
 When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a facinating topic.
 
@@ -58,20 +65,19 @@ The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgAsiBv1TJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
----
-# Development Kits (Hardware)
+## Development Kits (Hardware)
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by nintendo as a few other publishers had their own versions of development hardware.
 
-## Official Development Kits
+### Official Development Kits
 The official development kit for the N64 was a partnership between SEGA and Sophia and the hardware evolved over time. The first development kit released was called the `Saturn Programming box` or `P-box` and evolved into the `Cart-Dev` system.
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For more information on the official Segas Saturn Devkit check out this post." %}
 
-## 3rd Party Development Kits
+### 3rd Party Development Kits
 There were a few third party developers who created their own custom development kits for the Sega Saturn. One of the main developers for 3rd party devkits was SN Systems with their PSYQ Saturn with a much cheaper price tag than an official Sega devkit.
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SN Systems PSYQ Saturn check out this post." %}
 
 ---
-# Software Development Kits
+# Sega Saturn Software Development Kits
 
 ## Official Software development kit
 The Official Software development kit was developed in-house by SEGA and was made up of multiple libraries and compiler toolchains. One was a fork of GCC built by `Cygnus Solutions` and the other was a custom compiler built by `Hitachi`.
