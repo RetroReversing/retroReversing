@@ -28,9 +28,15 @@ If you're interested in learning more about the technical aspects of this consol
 
 Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your joystick, fire up your Atari 2600, and get ready to dive into the exciting world of Atari 2600 reverse engineering!
 
-# Development Kit
+---
+# Hardware
+If you're interested in reverse engineering Atari 2600 software, it's crucial to have a solid understanding of the hardware that powers this classic gaming console. By understanding the inner workings of the Atari 2600 hardware, you can better comprehend how the software interacts with the hardware and how you can potentially modify or improve it.
 
-## JOLT
+In this section of our guide, we will provide you with detailed information and resources on the hardware of the Atari 2600, including its CPU, RAM, ROM, and other components that make up the console. We'll explore how each component works together to create the classic gaming experience that the Atari 2600 is known for, as well as provide links to other pages that go into greater detail about each component.
+
+## Development Kit
+
+### JOLT
 <section class="postSection">
     <img data-image-full="/public/images/Atari/Atari 2600 VCS prototype.jpg" class="lazy-load wow slideInLeft postImage" />
 
@@ -42,7 +48,7 @@ For more information about the JOLT check out this page:
  </div>
 </section> 
 
-## Atari 7800 Development kit
+### US Gold Atari 7800 Development kit
 In the UK magazine **Zero** issue 7 there is an interview with the game developer **US Gold** where it mentions they are working on Atari 7800 games such as Gauntlet and it gives a brief description of the Development Kit they are using:
 > The 7800 development kit comprises the following: a Mega ST running Atari's proprietary combination 6502/68000 assembler, lead from ST to 7800 RAM cartridge and downloading software [^2].
 
