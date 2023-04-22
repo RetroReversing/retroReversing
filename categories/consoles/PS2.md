@@ -17,6 +17,13 @@ breadcrumbs:
     url: #
 ---
 
+# Introduction
+Welcome to our page dedicated to PS2 reverse engineering! The PlayStation 2 was a gaming console released by Sony in 2000, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to PS2 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your DualShock controller, and get ready to dive into the exciting world of PS2 reverse engineering!
+
 # Hardware
 Similar to the original Playstation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the verticies were still being process by the CPU core rather than the GPU [^1].
 
