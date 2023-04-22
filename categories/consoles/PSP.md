@@ -16,7 +16,14 @@ breadcrumbs:
   - name: Sony Playstation Portable
     url: #
 ---
+# Introduction
+Welcome to our page dedicated to PSP reverse engineering! The PlayStation Portable, or PSP, was a popular handheld gaming console released by Sony in 2004. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
 
+On this page, we've compiled a list of links to other pages that cover various topics related to PSP reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your PSP, and get ready to dive into the exciting world of PSP reverse engineering!
+
+---
 # Hardware
 When announced the PSP was claimed to be as powerful as the PS2 and while it was certainly a very powerful system and the most impressive portable console on the market, it didn't quite reach the performance of it's home console sibling.
 
