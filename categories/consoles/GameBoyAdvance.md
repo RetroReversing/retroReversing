@@ -15,6 +15,13 @@ breadcrumbs:
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering
+Welcome to our page dedicated to Game Boy Advance reverse engineering! The Game Boy Advance was a popular handheld gaming console that was released in 2001, and has since become a favorite of gamers around the world. 
+
+If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Game Boy Advance reverse engineering.
+
+Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Game Boy Advance, and get ready to dive into the exciting world of Game Boy Advance reverse engineering!
 
 # Hardware Architecture
 **Copetti.org** has an excellent page on the hardware Architecture of the Game Boy Advance, it is also a great introduction to the system:
