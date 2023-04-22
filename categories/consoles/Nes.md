@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: nes
 recommendTitle: All NES Posts
-editlink: ../categories/consoles/nes.md
+editlink: ../categories/consoles/Nes.md
 updatedAt: '2022-10-08'
 ---
 
