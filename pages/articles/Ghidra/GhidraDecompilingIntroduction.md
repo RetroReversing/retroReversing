@@ -372,6 +372,63 @@ In this section, we will talk about using a global pointer. We don't have a cons
 In this tutorial, we've walked through the steps of reverse engineering a program using Ghidra. Hopefully, you have gained a better understanding of Ghidra and how it can be used in your future endeavors. If there was something that I've done that was incorrect, or if you know of a better way to do some of this method ecology, then please reach out to me and let me know.
 
 ---
+# Ghidra Shared Library Scripting and Headless Analysis
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ObLA0Za2PhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Reverse engineering on shared libraries can be a time-consuming task, especially when dealing with embedded systems. In this tutorial, we will explore the tools and capabilities available in native Linux, as well as the scripting interface and headless analysis tool that Ghidra offers. We will use a nonsensical example to show how to use Ghidra's headless analysis tool to scan multiple shared libraries in order to speed up your analysis.
+
+## Prerequisites
+
+Before starting, make sure that you have the following tools installed on your system:
+
+- `ldd` - to list shared library dependencies
+- `objdump` - to display information about object files
+- Ghidra
+
+You will also need a set of shared libraries to work with. You can download the example libraries from the author's [GitHub page](https://github.com/ctberthiaume/gr-example-shared-libs).
+
+## Analyzing Shared Libraries
+
+### Using `ldd` and `objdump`
+
+We can use the `ldd` command to list the shared library dependencies for a given binary. For example, running `ldd <binary>` will show which shared libraries the binary will try to pull in to execute.
+
+We can also use `objdump` to display information about object files. For example, running `objdump -T <binary>` will show the exported symbols from the binary.
+
+### Using Ghidra
+
+To use Ghidra for reverse engineering shared libraries, we first need to load the shared libraries into the project. We can do this by selecting "File > Import > External Libraries" and then selecting the shared libraries we want to load.
+
+We can then use Ghidra to analyze the shared libraries. For example, we can click on a function in the binary and Ghidra will automatically switch to the location of where that function lives inside of the shared library.
+
+However, if we have hundreds of binaries or shared libraries to analyze, this process can be time-consuming. In such cases, we can use Ghidra' headless analysis tool and scripting interface.
+
+## Using Ghidra' Headless Analysis Tool and Scripting Interface
+
+To use Ghidra' headless analysis tool, we need to use the `analyze-headless` script located in the `support` directory. We also need to create a script to perform our analysis. Here, we will create a script to extract the names of objects created by calling the `setname` function.
+
+```python
+for ins in f.instructions(f.start):
+    if ins.get_mnemonic() == "call":
+        call_addr = ins.get_operand_value(0)
+        func_name = f.get_function_at(call_addr).name
+        if func_name == "_ZN4Base7setNameESs":
+            string_addr = ins.get_operand_value(1)
+            obj_name = f.get_string_at(string_addr)
+            print(obj_name)
+```
+
+This script gets a list of all the instructions starting at the first instruction, then goes through each of those instructions and gets the mnemonic string. We only want it to print out the string whenever it's a call. We then get the address in which we are making a call to and walk backward from this call to get each instruction until we find an instruction that is loading a string. We print out that string value.
+
+We can then use this script with the `analyze-headless` tool to automate our analysis. For example, we can run the following command:
+
+```bash
+./analyze-headless.py -p $(pwd) -n my_repo --import-binaries ./build/**/*.so -s my_script.py
+```
+
+This command tells the `analyze-headless` script to import all of the
+
+---
 # References
 [^1]: [Software Reverse Engineering with Ghidra -- Setup and Installation - YouTube](https://www.youtube.com/watch?v=4v8WkHmSFUU)
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
