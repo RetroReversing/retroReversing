@@ -16,6 +16,13 @@ breadcrumbs:
     url: #
 ---
 
+# Introduction
+Welcome to our page dedicated to PC reverse engineering! PCs are some of the most versatile and widely-used computing platforms in the world, and there's no shortage of interesting and challenging reverse engineering topics to explore. If you're interested in learning more about the technical aspects of PCs and how they work, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to PC reverse engineering. Whether you're interested in understanding the hardware architecture of retro CPUs and GPUs, analyzing software at the binary level, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your keyboard and mouse, and get ready to dive into the exciting world of PC reverse engineering!
+
 # DOS
 
 ## DOS Gaming Aspect Ratio - 320x200
