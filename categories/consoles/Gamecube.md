@@ -1,7 +1,7 @@
 ---
 permalink: /gamecube/
 layout: post
-title: Nintendo Gamecube (Dolphin)
+title: Nintendo Gamecube (Dolphin) Reverse Engineering
 recommend: gamecube
 recommendTitle: All GC Posts
 editlink: ../categories/consoles/Gamecube.md
@@ -13,12 +13,17 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Nintendo Gamecube (Dolphin)
+  - name: Nintendo Gamecube (Dolphin) Reverse Engineering
     url: #
 redirect_from:
   - /gc
   - /dolphin
 ---
+Welcome to our page dedicated to Gamecube reverse engineering! The Gamecube was a popular gaming console released by Nintendo in 2001, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to Gamecube reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Gamecube controller, and get ready to dive into the exciting world of Gamecube reverse engineering!
 
 # Hardware
 The Nintendo Gamecube has fairly sophisticated hardware for the time, this was when Nintendo was still trying to compete with raw processing power. The hardware would then be used as a basis of both the Wii and Wii U consoles in the future.
