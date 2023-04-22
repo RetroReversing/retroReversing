@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Microsoft Xbox 360 Reverse Engineering
     url: #
 redirect_from:
-  - 360
+  - /360
 ---
 
 # Introduction
