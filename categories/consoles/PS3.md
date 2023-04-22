@@ -1,11 +1,11 @@
 ---
 permalink: /ps3/
 layout: post
-title: Sony Playstation 3
-recommend: vita
+title: Sony Playstation 3 Reverse Engineering
+recommend: ps3
 recommendTitle: All PS3 Posts
 editlink: ../categories/consoles/PS3.md
-console: 'vita'
+console: 'ps3'
 consoleimage: /public/consoles/Sony PS3.png
 thumbnail: /public/consoles/Sony PS3.png
 breadcrumbs:
@@ -13,10 +13,18 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Sony Playstation 3
+  - name: Sony Playstation 3 Reverse Engineering
     url: #
 ---
 
+# Introduction
+Welcome to our page dedicated to PS3 reverse engineering! The PlayStation 3 was a gaming console released by Sony in 2006, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to PS3 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your DualShock 3 controller, and get ready to dive into the exciting world of PS3 reverse engineering!
+
+---
 # Hardware
 
 ## Retail Hardware
