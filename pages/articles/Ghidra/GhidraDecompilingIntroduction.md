@@ -24,7 +24,8 @@ youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
 updatedAt: '2019-09-01'
 ---
 
-This tutorial will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
+# Introduction
+This tutorial series will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
 
 # Download & Run Ghidra
 You can download Ghidra from the official site: [Ghidra](https://ghidra-sre.org/)
@@ -79,6 +80,77 @@ yourStructName.field0x4._0_1_
 ```
 Then this means that at offset 0x4 in the struct we have an undefined field for the structure. 
 
+---
+# Using Structures in Ghidra
+
+In this tutorial, we will learn how to use structures in Ghidra by applying them to data and navigating through the program using cross-references. We will also learn how to change the function signature to improve data presentation and how to create an array and apply it to a global offset.
+
+## Setting Up Structures in Ghidra
+
+Before we can use structures in Ghidra, we need to set them up. To do this, we can follow these steps:
+
+1. Open the program in Ghidra and go to the Data Type Manager.
+2. Create a new structure and name it.
+3. Add fields to the structure and set their data types and offsets.
+4. Save the structure.
+
+Once we have set up the structure, we can apply it to data by following these steps:
+
+1. Highlight the data and right-click.
+2. Choose "Data Type" and select the structure we created.
+3. Click "Apply" to apply the structure to the data.
+
+## Navigating through the Program with Cross-References
+
+To navigate through the program using cross-references, we can follow these steps:
+
+1. Go to the listing view and look for the cross-references.
+2. Click on the cross-reference to go directly to the function.
+3. Look for the references to the global variable or structure and take note of their locations.
+
+## Changing Function Signatures
+
+To change the function signature in Ghidra, we can follow these steps:
+
+1. Highlight the function and right-click.
+2. Choose "Edit Function Signature".
+3. Change the data type to the correct type (in this case, a global structure pointer).
+4. Click "OK" to save the changes.
+
+## Naming Functions and Variables
+
+To name functions and variables in Ghidra, we can follow these steps:
+
+1. Highlight the function or variable and right-click.
+2. Choose "Rename".
+3. Type in the new name and press "Enter" to save the changes.
+
+## Creating Arrays
+
+To create an array in Ghidra, we can follow these steps:
+
+1. Highlight the data and right-click.
+2. Choose "Data Type" and select "Create Array".
+3. Choose the number of elements and the data type.
+4. Click "OK" to create the array.
+
+## Applying Arrays to Global Offsets
+
+To apply an array to a global offset in Ghidra, we can follow these steps:
+
+1. Go to the global offset and right-click.
+2. Choose "Data Type" and select the array we created.
+3. Click "Apply" to apply the array to the global offset.
+
+## Conclusion
+
+In this tutorial, we have learned how to use structures in Ghidra by applying them to data, navigating through the program using cross-references, changing function signatures, naming functions and variables, creating arrays, and applying arrays to global offsets. These skills will help us better understand the program and its data structures.
+
+---
+
+
+
+---
 # References
 [^1]: [Software Reverse Engineering with Ghidra -- Setup and Installation - YouTube](https://www.youtube.com/watch?v=4v8WkHmSFUU)
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
