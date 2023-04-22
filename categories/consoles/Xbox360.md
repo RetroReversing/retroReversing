@@ -1,11 +1,11 @@
 ---
 permalink: /xbox360/
 layout: post
-title: Microsoft Xbox 360
-recommend: xbox
+title: Microsoft Xbox 360 Reverse Engineering
+recommend: xbox360
 recommendTitle: All Xbox 360 Posts
 editlink: ../categories/consoles/Xbox360.md
-console: 'xbox'
+console: 'xbox360'
 consoleimage: /public/consoles/Microsoft Xbox 360.png
 thumbnail: /public/consoles/Microsoft Xbox 360.png
 breadcrumbs:
@@ -13,11 +13,20 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Microsoft Xbox 360
+  - name: Microsoft Xbox 360 Reverse Engineering
     url: #
+redirect_from:
+  - 360
 ---
 
+# Introduction
+Welcome to our page dedicated to Xbox 360 reverse engineering! The Xbox 360 was a popular gaming console released by Microsoft in 2005, and it introduced several new features to the gaming world, such as wireless controllers and online gameplay. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
 
+On this page, we've compiled a list of links to other pages that cover various topics related to Xbox 360 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your Xbox 360 controller, and get ready to dive into the exciting world of Xbox 360 reverse engineering!
+
+---
 # Games
 
 ## Dead Rising
