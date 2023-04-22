@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
   - name: Consoles
     url: /
-  - name: Fairchild Channel F
+  - name: Fairchild Channel F Reverse Engineering
     url: #
 tags:
  - console
@@ -32,7 +32,12 @@ If you're interested in learning more about the technical aspects of this ground
 
 Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your joystick and get ready to dive into the exciting world of Fairchild Channel F reverse engineering!
 
-# Development Kit
+# Hardware
+If you're interested in reverse engineering software for the Fairchild Channel F console, it's crucial to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Channel F hardware, you can better comprehend how the software interacts with the hardware and how you can potentially modify or improve it.
+
+In this section of our guide, we will provide you with comprehensive information and resources on the hardware of the Fairchild Channel F, including retail, prototype, and development hardware.
+
+## Development Kit Hardware
 <section class="postSection">
     <img data-image-full="/public/images/books/F8 Guide To Programming [1977].jpg" class="lazy-load wow slideInLeft postImage" />
 
