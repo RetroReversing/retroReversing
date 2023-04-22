@@ -27,7 +27,7 @@ updatedAt: '2019-09-01'
 # Introduction
 This tutorial series will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
 
-# Download & Run Ghidra
+## Download & Run Ghidra
 You can download Ghidra from the official site: [Ghidra](https://ghidra-sre.org/)
 
 You will also need a Java Development Kit (JDK) which you can download from the AdoptOpenDSK official site: [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot)
@@ -38,10 +38,10 @@ You can now run Ghidra from the extracted folder by running the main script
 ```
 It may ask you for your JDK path, enter where you installed your OpenJDK [^1].
 
-# Create a New project
+## Create a New project
 First of all you need a project in order to start reverse engineering a binary executable. To do this use `File -> New project`.
 
-# Import your binary executable
+## Import your binary executable
 To follow along in this tutorial you should compile the sample code provided:
 [GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource)
 
@@ -57,7 +57,7 @@ To do this click options and set the Library Paths in the dialog.
 
 It will now start importing the file and ask you if you want to analyse it, select yes and keep the default settings.
 
-# How to find the main function
+## How to find the main function
 If you have symbols you can use the `Go To..` menu and type main but if you don't have symbols then we will need to find it.
 
 To find it go to the `.text` section and it will take you to the `entry` function. If you are using the same example as the video tutorial then you will have a `__libc_start_main` function and its first parameter is a function pointer to the `main` function.
@@ -66,24 +66,10 @@ If you are using a different executable or compiled with a different compiler th
 
 When you have found what you believe to be the main method, right click on the auto generated function name and select rename function.
 
-# Creating a new Struct
-Go to the `Data Type Manager` and right click the executable name, select `New -> Structure`.
-
-Give the structure a useful name and assign the struct's fields by clicking the green plus icon and selecting the data type for each field [^3].
-
-## How to apply the struct to code
-You can right click the first global variable that you know is the first field in the struct and select `Data -> Choose Data Type` , it will then ask you which struct you want to use.
-
-Note that if you get something similar to:
-```
-yourStructName.field0x4._0_1_
-```
-Then this means that at offset 0x4 in the struct we have an undefined field for the structure. 
-
 ---
 # Using Structures in Ghidra
 
-In this tutorial, we will learn how to use structures in Ghidra by applying them to data and navigating through the program using cross-references. We will also learn how to change the function signature to improve data presentation and how to create an array and apply it to a global offset.
+In this tutorial, we will learn how to use structures in Ghidra by applying them to data and navigating through the program using cross-references. We will also learn how to change the function signature to improve data presentation and how to create an array and apply it to a global offset [^3].
 
 ## Setting Up Structures in Ghidra
 
@@ -99,6 +85,12 @@ Once we have set up the structure, we can apply it to data by following these st
 1. Highlight the data and right-click.
 2. Choose "Data Type" and select the structure we created.
 3. Click "Apply" to apply the structure to the data.
+
+Note that if you get something similar to:
+```
+yourStructName.field0x4._0_1_
+```
+Then this means that at offset 0x4 in the struct we have an undefined field for the structure. 
 
 ## Navigating through the Program with Cross-References
 
@@ -148,7 +140,18 @@ In this tutorial, we have learned how to use structures in Ghidra by applying th
 
 ---
 
+# Creating Arrays and Changing Function Signatures
 
+## Identifying Global Variables and Structures
+To identify global variables and structures, we need to navigate to the main function. We can see that whenever the name of the global variable is updated, it also updates in the space where it is being used. This makes it convenient to name variables as we move through a program.
+
+To see where the global structure is being used, we can go to the listing view and look at the cross-references. The cross-references show us everywhere in the program that is referencing that particular global variable. We can double-click on the cross-reference to quickly navigate to that location in the program.
+
+## Editing Function Signatures
+When we navigate to a function that uses a global variable or structure, we might need to edit the function signature to properly identify the type of the variable being used. We can do this by right-clicking on the function and selecting "Edit Function Signature". We can then change the type of the variable to match the global variable or structure being used.
+
+## Creating Arrays
+We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
 
 ---
 # References
