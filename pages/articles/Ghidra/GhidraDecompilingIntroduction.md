@@ -68,8 +68,8 @@ When you have found what you believe to be the main method, right click on the a
 
 ---
 # Using Structures in Ghidra
-
-In this tutorial, we will learn how to use structures in Ghidra by applying them to data and navigating through the program using cross-references. We will also learn how to change the function signature to improve data presentation and how to create an array and apply it to a global offset [^3].
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y-BhEfbg7C4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+In this section, we will learn how to use structures in Ghidra by applying them to data and navigating through the program using cross-references. We will also learn how to change the function signature to improve data presentation and how to create an array and apply it to a global offset [^3].
 
 ## Setting Up Structures in Ghidra
 
@@ -136,11 +136,12 @@ To apply an array to a global offset in Ghidra, we can follow these steps:
 
 ## Conclusion
 
-In this tutorial, we have learned how to use structures in Ghidra by applying them to data, navigating through the program using cross-references, changing function signatures, naming functions and variables, creating arrays, and applying arrays to global offsets. These skills will help us better understand the program and its data structures.
+In this section, we have learned how to use structures in Ghidra by applying them to data, navigating through the program using cross-references, changing function signatures, naming functions and variables, creating arrays, and applying arrays to global offsets. These skills will help us better understand the program and its data structures.
 
 ---
 
 # Creating Arrays and Changing Function Signatures
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xP6ddyVeUWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Identifying Global Variables and Structures
 To identify global variables and structures, we need to navigate to the main function. We can see that whenever the name of the global variable is updated, it also updates in the space where it is being used. This makes it convenient to name variables as we move through a program.
@@ -154,11 +155,9 @@ When we navigate to a function that uses a global variable or structure, we migh
 We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
 
 ---
-# C++ Classes
-
-# Friendly Tutorial: Analyzing and Identifying Classes in Ghidra
-
-Follow these easy steps to analyze and identify classes in Ghidra, a software reverse engineering tool.
+# Analyzing and Identifying C++ Classes in Ghidra
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gdrAlpkncuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Follow these easy steps to analyze and identify classes in Ghidra.
 
 ## Step 1: Set up an array and a structure
 
