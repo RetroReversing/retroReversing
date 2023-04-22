@@ -9,9 +9,11 @@ breadcrumbs:
 redirect_from:
   - /3d
 editlink: ../categories/misc/3DSoftware.md
+title: 3D Software used in Retro-era Game Development
 recommend: 3d
 ---
 
+# Introduction
 This post will focus on 3D software used to produce commercial video games in the 90s up until the 2010s due to the focus of this site being retro game development.
 
 The table below shows some of the most popular 3D software for the games industry along with who made them and the price they sold for:
