@@ -20,12 +20,16 @@ carousel:
     description: 'This episode with look at the PS1’s hardware and why Final Fantasy 7 was written the way that it was.'
     image: https://img.youtube.com/vi/MPXpH2hxuNc/maxresdefault.jpg
     link: /playStation-architecture
-editlink: ../categories/consoles/ps1.md
-updatedAt: 11th November 2019                                      
+editlink: ../categories/consoles/PS1.md
+updatedAt: '2019-11-11'                                     
 ---
 
-# Introduction to Hacking the Sony Playstation One
-Interested in learning more about the Sony Playstation? Excellent! This section will guide you through the basics, starting from basic 32-bit MIPS assembly language all the way to an introduction to reverse engineering your first game!
+# Introduction to Hacking the Sony PlayStation
+Welcome to our page dedicated to PS1 reverse engineering! The PlayStation 1, or simply the PS1, was a popular gaming console released by Sony in 1994, and it became a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+
+On this page, we've compiled a list of links to other pages that cover various topics related to PS1 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+
+So grab your DualShock controller, and get ready to dive into the exciting world of PS1 reverse engineering!
 
 ---
 # Retail Playstation hardware
