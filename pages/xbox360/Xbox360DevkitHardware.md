@@ -13,10 +13,11 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Microsoft Xbox 360
-    url: /xbox-360
+    url: /xbox360/
   - name: Microsoft Xbox 360 Development Kit Hardware
     url: #
 recommend: 
+- xbox360
 - devkit
 - xbox
 editlink: /xbox360/Xbox360DevkitHardware.md
