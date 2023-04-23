@@ -34,7 +34,17 @@ So grab your Xbox 360 controller, and get ready to dive into the exciting world 
 
 The Link to the Github for the Arc tool is here: [grimdoomer/DeadRisingArcTool: Modding tools for Dead Rising .arc files](https://github.com/grimdoomer/DeadRisingArcTool)
 
+---
+# Hardware
+If you're interested in reverse engineering software for the Xbox 360 gaming console, it's essential to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Xbox 360 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
 
+In this segment of our guide, we will provide you with comprehensive information and resources on the hardware of the Xbox 360, including retail, prototype, and development hardware.
+
+## Retail Hardware
+
+## Development Hardware
+
+---
 # All Posts
 <div>
 
