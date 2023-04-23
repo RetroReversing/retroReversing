@@ -5,7 +5,9 @@ console: 'saturn'
 title: 'Sega Saturn (Hacking & Reversing)'
 consoleimage: /public/consoles/Sega Saturn.png
 thumbnail: /public/consoles/Sega Saturn.png
-recommend: saturn
+recommend: 
+ - saturn
+ - dreamcast
 recommendTitle: All Sega Saturn Posts
 editlink: ../categories/consoles/Saturn.md
 breadcrumbs:
@@ -54,6 +56,9 @@ This makes it slightly easier to do some basic modding of Saturn assets compared
 
 ---
 # Sega Saturn Hardware
+If you're interested in reverse engineering software for the Sega Saturn gaming console, it's crucial to have a solid understanding of the hardware that powers it. By comprehending the inner workings of the Saturn hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Saturn, including retail, prototype, and development hardware.
 
 ## Retail Sega Saturn hardware
 When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a facinating topic.
@@ -70,10 +75,12 @@ Development kits are released to game developers before the launch of the system
 
 ### Official Development Kits
 The official development kit for the N64 was a partnership between SEGA and Sophia and the hardware evolved over time. The first development kit released was called the `Saturn Programming box` or `P-box` and evolved into the `Cart-Dev` system.
+
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For more information on the official Segas Saturn Devkit check out this post." %}
 
 ### 3rd Party Development Kits
 There were a few third party developers who created their own custom development kits for the Sega Saturn. One of the main developers for 3rd party devkits was SN Systems with their PSYQ Saturn with a much cheaper price tag than an official Sega devkit.
+
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SN Systems PSYQ Saturn check out this post." %}
 
 ---
