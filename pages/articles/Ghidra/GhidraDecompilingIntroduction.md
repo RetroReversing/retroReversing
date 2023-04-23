@@ -129,9 +129,15 @@ In this section, we will learn how to use structures in Ghidra by applying them 
 
 Before we can use structures in Ghidra, we need to set them up. To do this, we can follow these steps:
 
-1. Open the program in Ghidra and go to the Data Type Manager.
-2. Create a new structure and name it.
+1. Open the program in Ghidra and go to the Data Type Manager:
+![GhidraDataTypeManager](https://user-images.githubusercontent.com/40120498/233852800-747420e6-2045-404f-b54e-94cd3dc6fe1b.jpeg)
+
+2. Create a new structure and name it:
+![GhidraNewStructure](https://user-images.githubusercontent.com/40120498/233852854-c1813250-9d6e-4645-ac26-d385e742c1a4.jpeg)
+
 3. Add fields to the structure and set their data types and offsets.
+![GhidraCreateCharField](https://user-images.githubusercontent.com/40120498/233853020-444cafdd-33d2-46ad-8fb6-2f3e3c40d51a.jpeg)
+
 4. Save the structure.
 
 Once we have set up the structure, we can apply it to data by following these steps:
