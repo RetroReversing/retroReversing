@@ -86,10 +86,7 @@ This will open the import dialog. In this tutorial, we also want to load in the 
 To do this, click "Options" and set the Library Paths in the dialog.
 ![GhidraImportOptions](https://user-images.githubusercontent.com/40120498/233849225-33624daf-23d3-473a-b29f-615f78ae17c9.jpeg)
 
-
-
-It will show the Import Results dialog with a lot of interesting information it found about the binary:
-![GhidraImportResults](https://user-images.githubusercontent.com/40120498/233849289-48fbe02f-fa9e-490d-8902-92c48e6099a8.jpeg)
+It will show the Import Results dialog with a lot of interesting information it found about the binary.
 
 Now finally double click on the `example` executable to unleash the Ghidra!
 ![GhidraAfterImportExe](https://user-images.githubusercontent.com/40120498/233849438-10fb08f2-3871-415c-b127-f2cad0d7b379.jpeg)
