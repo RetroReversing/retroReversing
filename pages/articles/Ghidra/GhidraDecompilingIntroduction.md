@@ -175,23 +175,16 @@ To navigate through the program using cross-references, we can follow these step
 2. Click on the cross-reference to go directly to the function.
 3. Note the 'R' or 'W' beside the Cross Reference indicating whether the function Reads or Writes to it.
 
-## Changing Function Signatures
+## Changing Function Signatures and Naming
 
 To change the function signature in Ghidra, we can follow these steps:
 
 1. Highlight the function and right-click.
+![GhidraEditFunctionSignature](https://user-images.githubusercontent.com/40120498/233861985-552b8f50-8c76-4ece-a294-468beeb0e13d.jpeg)
 2. Choose "Edit Function Signature".
 3. Change the data type to the correct type (in this case, a global structure pointer).
+![GhidraEditFunctionDialog](https://user-images.githubusercontent.com/40120498/233862062-b7e49446-1d41-4134-9daf-dade181bc6a2.jpeg)
 4. Click "OK" to save the changes.
-
-## Naming Functions and Variables
-When we navigate to a function that uses a global variable or structure, we might need to edit the function signature to properly identify the type of the variable being used. We can do this by right-clicking on the function and selecting "Edit Function Signature". We can then change the type of the variable to match the global variable or structure being used.
-
-To name functions and variables in Ghidra, we can follow these steps:
-
-1. Highlight the function or variable and right-click.
-2. Choose "Rename".
-3. Type in the new name and press "Enter" to save the changes.
 
 ## Creating Arrays
 We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
