@@ -103,6 +103,7 @@ If you have symbols, you can use the `Navigation -> Go To...` menu and type "mai
 
 
 To find it manually, go to the `.text` section, and it will take you to the `entry` function. If you are using the same example as the video tutorial, then you will have a `__libc_start_main` function, and its first parameter is a function pointer to the `main` function.
+![GhidraStrippedLibCStartMain](https://user-images.githubusercontent.com/40120498/233852447-fe9db32b-bae8-4e22-a096-50ab171e4a79.jpeg)
 
 If you are using a different executable or compiled with a different compiler, this can be set up differently. But `entry` will call `main` somewhere, so it may require a bit of debugging with a debugger such as `gdb` or an emulator's built-in debugger.
 
@@ -111,6 +112,9 @@ When you have found what you believe to be the main method, right-click on the a
 ## Decompile the Main Function
 One of the main advantages of Ghidra is its free out of the box decompiler, now that you have found the main function it is easy to decompile it by going to `Window -> Decompile`.
 ![GhidraDecompileMain](https://user-images.githubusercontent.com/40120498/233852164-847a0031-80bb-41ed-8bab-d5f88cef501e.jpeg)
+
+If you have debug symbols in the executable then it will look very similar to the original source:
+![Ghidra Decompiled Output](https://user-images.githubusercontent.com/40120498/233852346-d8eb8cc7-0a52-43f4-b178-436d62b608cb.jpeg)
 
 
 
