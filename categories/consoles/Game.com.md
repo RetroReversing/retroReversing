@@ -2,7 +2,7 @@
 permalink: /gamecom
 layout: post
 console: gamecom
-title: Tiger Game.com Reverse Engineering
+title: Tiger Game (dot) com Reverse Engineering
 consoleimage: /public/consoles/Game.com.png
 thumbnail: /public/consoles/Game.com.png
 image_: /public/images/Game.com.jpg
@@ -16,13 +16,13 @@ breadcrumbs:
     url: #
 recommend: 
 - atari
-recommendTitle: All Game.com Posts
+recommendTitle: All Tiger Game (dot) com Posts
 editlink: ../categories/consoles/Game.com.md
 updatedAt_: '2022-12-08'
 ---
 
 # Introduction
-Welcome to our page dedicated to Tiger Game.com reverse engineering! The Tiger Game.com was a handheld gaming console that was released in 1997, and was notable for being one of the first gaming consoles to feature a touchscreen interface.
+Welcome to our page dedicated to Tiger Game.com reverse engineering! The Tiger Game com was a handheld gaming console that was released in 1997, and was notable for being one of the first gaming consoles to feature a touchscreen interface.
 
  If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Game.com reverse engineering. 
  
@@ -35,7 +35,7 @@ So grab your Game.com and get ready to dive into the exciting world of Game com 
 # Games
 
 ## Castlevania Symphony of the Night
-One of the best games, if not THE best game for the Tiger Game.com was Castlevania SotN but unfortunetly it was cancelled before official retail release. 
+One of the best games, if not THE best game for the Tiger Game com was Castlevania SotN but unfortunetly it was cancelled before official retail release. 
 Luckily a prototype was dumped in 2022 and it is fully playable. If you are looking for a game to reverse for the Tiger Game.com this one is probably the most interesting!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jwtM3EamcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -50,6 +50,6 @@ The only reference I can find about Tiger.com development hardware is on the fol
 It says:
 > Matt Scott, the owner of Byte-Size Sound, was hired as a subcontractor to create audio for specific Game.com games. He later sold his development kit and software for around $700 on eBay in 2006. 
 
-The buyer was Brandon Cobb who has an excellent website on the Game.com: [The end of the game.com](https://www.diskman.com/presents/gamecom/index.html).
+The buyer was Brandon Cobb who has an excellent website on the Game com: [The end of the game.com](https://www.diskman.com/presents/gamecom/index.html).
 
 But sadly no images of this development kit seem to be available on the site and the eBay link will be long gone by now.
