@@ -36,14 +36,26 @@ The first step, of course, is to download Ghidra if you haven't already, which y
 
 At the time of writing this tutorial, the version of Ghidra was 10.2.3.
 
-You will also need a Java Development Kit (JDK), which you can download from the **AdoptOpenSDK** official site: [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot).
+You will also need a Java Development Kit (JDK) version 17+, which you can download from the **AdoptOpenSDK** official site: [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot).
 
 You can now run Ghidra from the extracted folder by running the main script from bash (or double-clicking on it):
 
 ```bash
 ./ghidraRun
 ```
-It may ask you for your JDK path. Enter where you installed your OpenJDK. [^1]
+It may ask you for your JDK path. Enter where you installed your OpenJDK [^1] like so:
+```bash
+******************************************************************
+JDK 17+ (64-bit) could not be found and must be manually chosen!
+******************************************************************
+Enter path to JDK home directory: 
+```
+
+If you already hava Java installed and just need to find the JDK home directory you can execute the following:
+```bash
+> which javac # returns location of the java compiler
+> javac -version # returns the version of the java compiler
+```
 
 ## Create a New Project
 
