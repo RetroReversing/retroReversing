@@ -297,10 +297,44 @@ In this tutorial, we'll explore a derived class constructor and its associated m
 The derived class has a base class that it derives from, and it has a nested class that it points to at a particular offset. 
 
 ```cpp
-class Derived : public Base {
-    Nested nested;
-    // ...
-};
+/* DISPLAY WARNING Type casts are NOT being printed */
+
+void __thiscall Nest::Nest(Nest *this)
+{
+  bool bVar1;
+  char *pcVar2;
+  bool bVar3;
+  char *pcVar4;
+  char *local_10;
+  char *local_c;
+
+  *&this-vptr = &NestVtable;
+  pcVar2 = malloc(0x20);
+  this->hashsub1 = pcVar2;
+  pcVar2 = malloc(0x20);
+  this->hashSub2 = pcVar2;
+  puts("Creating Nest Object");
+  this->0x1337 = 0x1337;
+  this->hash = "8689d701c21f91c4085f08d9a411c629";
+  local_18 = this->hashsub2;
+  local_c = this->hashsub1;
+  bVar3 = false;
+  
+  while (bar1 = bVar3, *this->hash != '\0') {
+    pcVar4 = this->hash;
+    this->hash = pcVar4 + 0x1;
+    pcVar2 = local_c + 0x1;
+    *local_c = *pcVar4;
+    bVar3 = bVar1 ^ 0x1;
+    local_c = pcVar2;
+    if (bVar1) {
+      *local_10 = *this->hash;
+      local_10 = local_10 + 0x1;
+      local_c = peVar2;
+    }
+  }
+  return;
+)
 ```
 
 ### 2. Creating the Virtual Table Pointer
