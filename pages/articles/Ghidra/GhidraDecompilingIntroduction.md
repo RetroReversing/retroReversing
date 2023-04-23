@@ -57,9 +57,14 @@ If you already hava Java installed and just need to find the JDK home directory 
 > javac -version # returns the version of the java compiler
 ```
 
+Note that on MacOSX it installed to: `/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home`
+
 ## Create a New Project
 
 First of all, you need a project to start reverse-engineering a binary executable. To do this, use File -> New Project.
+![GhidraNewProject](https://user-images.githubusercontent.com/40120498/233848935-697c78ab-8292-4640-8bfe-bd24bbddfa86.jpeg)
+
+Select `Non-Shared project`, give it a name such as `Example` and click Finish.
 
 ## Obtaining Your Binary Executable to Reverse
 
@@ -73,16 +78,23 @@ You can use the compiler of your choice as long as it supports C++. So, if you h
 ## Import Your Binary Executable
 
 You can import a file into Ghidra very simply with: `File -> Import File`. Find your executable file that you built with your C++ compiler.
+![GhidraImportFile](https://user-images.githubusercontent.com/40120498/233849087-e98e5568-47cf-433d-8e0c-2b9c97e0a17b.jpeg)
 
 This will open the import dialog. In this tutorial, we also want to load in the external libraries. This makes it easier to reverse engineer, as you can swap between the main executable and the libraries really easily in Ghidra. [^2]
+![GhidraImportDialog](https://user-images.githubusercontent.com/40120498/233849159-136f750a-22dd-4d66-b25f-617dd5547db6.jpeg)
 
 To do this, click "Options" and set the Library Paths in the dialog.
+![GhidraImportOptions](https://user-images.githubusercontent.com/40120498/233849225-33624daf-23d3-473a-b29f-615f78ae17c9.jpeg)
 
 It will now start importing the file and ask you if you want to analyze it. Select "Yes" and keep the default settings.
 
+It will show the Import Results dialog with a lot of interesting information it found about the binary:
+![GhidraImportResults](https://user-images.githubusercontent.com/40120498/233849289-48fbe02f-fa9e-490d-8902-92c48e6099a8.jpeg)
+
+
 ## How to Find the Main Function
 
-If you have symbols, you can use the `Go To...` menu and type "main". But if you don't have symbols, then we will need to find it.
+If you have symbols, you can use the `Go To...` menu and type "main". But if you don't have symbols (e.g you used the stripped version), then we will need to find it ourselves.
 
 To find it, go to the `.text` section, and it will take you to the `entry` function. If you are using the same example as the video tutorial, then you will have a `__libc_start_main` function, and its first parameter is a function pointer to the `main` function.
 
