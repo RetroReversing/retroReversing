@@ -10,10 +10,15 @@ redirect_from:
 editlink: ../categories/companies/datel.md
 ---
 
+# Introduction
+<blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Let us take a moment to appreciate the work Datel did 20 years ago, reverse engineering and developing their own playable unofficial PS2 DVD discs which contained the watermark and decryption key required to boot code which could not be done with a consumer DVD burner. A 🧵… <a href="https://t.co/CP0NQORwwp">pic.twitter.com/CP0NQORwwp</a></p>&mdash; 🕹 RetroReversing - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1478163167335395331?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote>
+
+---
 # DOS PC Action Replay: The Ultimate Game Buster
 Infinite cheat codes, save states, memory monitoring, slow motion, and more! This 1993 ISA card version of the Datel Pro Action Replay for DOS computers is packed with odd features. Check it out in this episode of **LGR Oddware**:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/usaioMbE8EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
 # Nintendo 64
 
 ## Game Killer
