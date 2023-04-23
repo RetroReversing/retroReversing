@@ -26,9 +26,15 @@ So grab your Vita, and get ready to dive into the exciting world of Vita reverse
 
 ---
 # Hardware
+If you're interested in reverse engineering software for the PlayStation Vita handheld console, it's essential to have a solid understanding of the hardware that powers it. By comprehending the inner workings of the Vita hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This segment of our guide will provide you with detailed information and resources on the hardware of the PlayStation Vita, including retail, prototype, and development hardware.
 
 ## Retail Hardware
 The PS Vita took an off the shelf Quad core ARM CPU with a NEON coprocessor and combined it with a PowerVR GPU with dedicated video memory.
+
+## Development Hardware
+Post on this topic coming soon, currently researching all the information we can find.
 
 ---
 # All Posts
