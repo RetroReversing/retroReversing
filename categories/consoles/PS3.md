@@ -26,11 +26,15 @@ So grab your DualShock 3 controller, and get ready to dive into the exciting wor
 
 ---
 # Hardware
+If you're interested in reverse engineering software for the Sony PlayStation 3 gaming console, it's crucial to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the PS3 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This segment of our guide will provide you with comprehensive information and resources on the hardware of the Sony PS3, including retail, prototype, and development hardware.
 
 ## Retail Hardware
 The PS3 moved from a MIPS-based CPU to the PowerPC architecture and its CPU was known as the **Cell Broadband Engine**, it was 64bit and and 6 Synergistic Processing Units (SPUs).
 The GPU was built by Nvidia and was called the **RSX** it was as powerful as a DirectX9 class GPU.
 
+---
 # All Posts
 <div>
 
