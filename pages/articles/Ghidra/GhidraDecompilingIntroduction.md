@@ -25,55 +25,59 @@ updatedAt: '2019-09-01'
 ---
 
 # Introduction
-This tutorial series will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: 
-[James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
 
-## Download & Run Ghidra
-The first step of course is to download Ghidra if you haven't already which you can do from the official site:
+This tutorial series will guide you through the basics of decompiling a C++ executable, from setup all the way to reversing C++ classes. The video tutorial is created by James Tate over on his excellent YouTube channel, and it is highly recommended that you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w).
+
+## Download and Run Ghidra
+
+The first step, of course, is to download Ghidra if you haven't already, which you can do from the official site:
 
 {% include link-to-other-site.html url="https://ghidra-sre.org/" description="Download Ghidra from the Official Site" image="[.jpg](https://ghidra-sre.org/images/GHIDRA_1.png)" title="Download Ghidra"  %}
 
-At the time of writing this tutorial the version of Ghidra was 10.2.3.
+At the time of writing this tutorial, the version of Ghidra was 10.2.3.
 
-You will also need a Java Development Kit (JDK) which you can download from the **AdoptOpenSDK** official site: 
-[AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot)
+You will also need a Java Development Kit (JDK), which you can download from the **AdoptOpenSDK** official site: [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot).
 
-You can now run Ghidra from the extracted folder by running the main script from bash (or double clicking on it):
+You can now run Ghidra from the extracted folder by running the main script from bash (or double-clicking on it):
+
 ```bash
 ./ghidraRun
 ```
-It may ask you for your JDK path, enter where you installed your OpenJDK [^1].
+It may ask you for your JDK path. Enter where you installed your OpenJDK. [^1]
 
-## Create a New project
-First of all you need a project in order to start reverse engineering a binary executable. To do this use `File -> New project`.
+## Create a New Project
 
-## Obtaining your binary executable to reverse
-To follow along in this tutorial you can either compile the sample code provided or dow nload the pre-compiled executables, both are available on James's Github repository:
-[GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource)
+First of all, you need a project to start reverse-engineering a binary executable. To do this, use File -> New Project.
 
-Note that their are two pre-compiled executables in this repository, one is stripped (which means it doesn't have any debug symbols) and the other is standard.
+## Obtaining Your Binary Executable to Reverse
 
-You can use the compiler of your choice as long as it supports C++, so if you have a special compiler for PS2/Dreamcast/Xbox/Gamecube etc then feel free to use that but bear in mind importing executables for those systems will require a 3rd party plugin known as a `loader`.
+To follow along in this tutorial, you can either compile the sample code provided or download the pre-compiled executables. Both are available on James's GitHub repository: [GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource).
 
-## Import your binary executable
-You can import a file into Ghidra very simply with:
-```File -> Import File```
-Find your executable file that you build with your c++ compiler.
+Note that there are two pre-compiled executables in this repository: one is stripped (which means it doesn't have any debug symbols) and the other is standard.
 
-This will open the import dialog, in this tutorial we also want to load in the external libraries, this makes it easier to reverse engineer as you can swap between the main executable and the libraries really easily in Ghidra [^2].
+You can use the compiler of your choice as long as it supports C++. So, if you have a special compiler for PS2/Dreamcast/Xbox/Gamecube, etc., feel free to use that. But bear in mind that importing executables for those systems will require a third-party plugin known as a `loader`.
 
-To do this click options and set the Library Paths in the dialog.
 
-It will now start importing the file and ask you if you want to analyse it, select yes and keep the default settings.
+## Import Your Binary Executable
 
-## How to find the main function
-If you have symbols you can use the `Go To..` menu and type main but if you don't have symbols then we will need to find it.
+You can import a file into Ghidra very simply with: `File -> Import File`. Find your executable file that you built with your C++ compiler.
 
-To find it go to the `.text` section and it will take you to the `entry` function. If you are using the same example as the video tutorial then you will have a `__libc_start_main` function and its first parameter is a function pointer to the `main` function.
+This will open the import dialog. In this tutorial, we also want to load in the external libraries. This makes it easier to reverse engineer, as you can swap between the main executable and the libraries really easily in Ghidra. [^2]
 
-If you are using a different executable or compiled with a different compiler this can be setup differently, but entry will call main somewhere so it may require a bit of debugging with a debugger such as `gdb` or an emulators built-in debugger.
+To do this, click "Options" and set the Library Paths in the dialog.
 
-When you have found what you believe to be the main method, right click on the auto generated function name and select rename function.
+It will now start importing the file and ask you if you want to analyze it. Select "Yes" and keep the default settings.
+
+## How to Find the Main Function
+
+If you have symbols, you can use the `Go To...` menu and type "main". But if you don't have symbols, then we will need to find it.
+
+To find it, go to the `.text` section, and it will take you to the `entry` function. If you are using the same example as the video tutorial, then you will have a `__libc_start_main` function, and its first parameter is a function pointer to the `main` function.
+
+If you are using a different executable or compiled with a different compiler, this can be set up differently. But `entry` will call `main` somewhere, so it may require a bit of debugging with a debugger such as `gdb` or an emulator's built-in debugger.
+
+When you have found what you believe to be the main method, right-click on the auto-generated function name, and select "Rename Function".
+
 
 ---
 # Using Structures in Ghidra
