@@ -26,10 +26,16 @@ So grab your Vectrex controller, and get ready to dive into the exciting world o
 
 ---
 # Hardware
+If you're interested in reverse engineering software for the Vectrex gaming console, it's crucial to have a strong understanding of the hardware that powers it. By comprehending the inner workings of the Vectrex hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+In this section of our guide, we will provide you with comprehensive information and resources on the hardware of the Vectrex, including retail, prototype, and development hardware.
 
 ## Retail Hardware
 Check out this video by **The Science Elf** on Youtube which covers the rather unique details of this console [^1]:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kg6RwOVS334" title="GCE's Mad Hack of a Console" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Development Hardware
+If you have any information about a Vectrex Development Kit then please let us know, there is almost no information about it on the internet.
 
 ---
 # All Posts
