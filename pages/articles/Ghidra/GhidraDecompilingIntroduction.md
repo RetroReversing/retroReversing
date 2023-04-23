@@ -108,6 +108,8 @@ To find it manually, go to the `.text` section, and it will take you to the `ent
 If you are using a different executable or compiled with a different compiler, this can be set up differently. But `entry` will call `main` somewhere, so it may require a bit of debugging with a debugger such as `gdb` or an emulator's built-in debugger.
 
 When you have found what you believe to be the main method, right-click on the auto-generated function name, and select "Rename Function".
+![GhidraRenameFunction](https://user-images.githubusercontent.com/40120498/233852599-ebf7c684-aed3-41c8-9472-1bf3c1aae573.jpeg)
+
 
 ## Decompile the Main Function
 One of the main advantages of Ghidra is its free out of the box decompiler, now that you have found the main function it is easy to decompile it by going to `Window -> Decompile`.
