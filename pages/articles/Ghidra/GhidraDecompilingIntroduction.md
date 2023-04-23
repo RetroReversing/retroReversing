@@ -25,14 +25,20 @@ updatedAt: '2019-09-01'
 ---
 
 # Introduction
-This tutorial series will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
+This tutorial series will guide you through the basics of decompiling a c++ executable, from setup all the way to reversing c++ classes. The video tutorial is created by James Tate over on his excellent youtube channel, it is highly recommended you subscribe here: 
+[James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w)
 
 ## Download & Run Ghidra
-You can download Ghidra from the official site: [Ghidra](https://ghidra-sre.org/)
+The first step of course is to download Ghidra if you haven't already which you can do from the official site:
 
-You will also need a Java Development Kit (JDK) which you can download from the AdoptOpenDSK official site: [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot)
+{% include link-to-other-site.html url="https://ghidra-sre.org/" description="Download Ghidra from the Official Site" image="[.jpg](https://ghidra-sre.org/images/GHIDRA_1.png)" title="Download Ghidra"  %}
 
-You can now run Ghidra from the extracted folder by running the main script 
+At the time of writing this tutorial the version of Ghidra was 10.2.3.
+
+You will also need a Java Development Kit (JDK) which you can download from the **AdoptOpenSDK** official site: 
+[AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/index.html?variant=openjdk11&jvmVariant=hotspot)
+
+You can now run Ghidra from the extracted folder by running the main script from bash (or double clicking on it):
 ```bash
 ./ghidraRun
 ```
@@ -41,12 +47,15 @@ It may ask you for your JDK path, enter where you installed your OpenJDK [^1].
 ## Create a New project
 First of all you need a project in order to start reverse engineering a binary executable. To do this use `File -> New project`.
 
-## Import your binary executable
-To follow along in this tutorial you should compile the sample code provided:
+## Obtaining your binary executable to reverse
+To follow along in this tutorial you can either compile the sample code provided or dow nload the pre-compiled executables, both are available on James's Github repository:
 [GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource)
+
+Note that their are two pre-compiled executables in this repository, one is stripped (which means it doesn't have any debug symbols) and the other is standard.
 
 You can use the compiler of your choice as long as it supports C++, so if you have a special compiler for PS2/Dreamcast/Xbox/Gamecube etc then feel free to use that but bear in mind importing executables for those systems will require a 3rd party plugin known as a `loader`.
 
+## Import your binary executable
 You can import a file into Ghidra very simply with:
 ```File -> Import File```
 Find your executable file that you build with your c++ compiler.
