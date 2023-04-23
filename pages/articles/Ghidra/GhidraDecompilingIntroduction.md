@@ -81,7 +81,6 @@ You can import a file into Ghidra very simply with: `File -> Import File`. Find 
 ![GhidraImportFile](https://user-images.githubusercontent.com/40120498/233849087-e98e5568-47cf-433d-8e0c-2b9c97e0a17b.jpeg)
 
 This will open the import dialog. In this tutorial, we also want to load in the external libraries. This makes it easier to reverse engineer, as you can swap between the main executable and the libraries really easily in Ghidra. [^2]
-![GhidraImportDialog](https://user-images.githubusercontent.com/40120498/233849159-136f750a-22dd-4d66-b25f-617dd5547db6.jpeg)
 
 To do this, click "Options" and set the Library Paths in the dialog.
 ![GhidraImportOptions](https://user-images.githubusercontent.com/40120498/233849225-33624daf-23d3-473a-b29f-615f78ae17c9.jpeg)
