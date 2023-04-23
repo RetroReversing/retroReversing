@@ -139,12 +139,16 @@ Before we can use structures in Ghidra, we need to set them up. To do this, we c
 ![GhidraCreateCharField](https://user-images.githubusercontent.com/40120498/233853020-444cafdd-33d2-46ad-8fb6-2f3e3c40d51a.jpeg)
 
 4. Save the structure.
+![GhidraSaveStruct](https://user-images.githubusercontent.com/40120498/233853180-82ce838f-e5ff-4577-8885-55ae00638e4f.jpeg)
+
 
 Once we have set up the structure, we can apply it to data by following these steps:
 
 1. Highlight the data and right-click.
 2. Choose "Data Type" and select the structure we created.
 3. Click "Apply" to apply the structure to the data.
+![GhidraManuallySetDataType](https://user-images.githubusercontent.com/40120498/233853376-a4d177cc-2dcf-4e95-a822-97c43ba72baf.jpeg)
+
 
 Note that if you get something similar to:
 ```
@@ -152,7 +156,18 @@ yourStructName.field0x4._0_1_
 ```
 Then this means that at offset 0x4 in the struct we have an undefined field for the structure. 
 
+There is also a short cut for doing this directly from the decompile view by right clicking and selecting "Auto Create Structure".
+![GhidraAutoCreateStructure](https://user-images.githubusercontent.com/40120498/233853414-17e9ed98-bfb8-4211-a72d-d62fc6841539.jpeg)
+
+---
+
+# Creating Arrays and Changing Function Signatures
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xP6ddyVeUWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 ## Navigating through the Program with Cross-References
+To see where the global structure is being used, we can go to the listing view and look at the cross-references. The cross-references show us everywhere in the program that is referencing that particular global variable. We can double-click on the cross-reference to quickly navigate to that location in the program.
 
 To navigate through the program using cross-references, we can follow these steps:
 
@@ -170,6 +185,7 @@ To change the function signature in Ghidra, we can follow these steps:
 4. Click "OK" to save the changes.
 
 ## Naming Functions and Variables
+When we navigate to a function that uses a global variable or structure, we might need to edit the function signature to properly identify the type of the variable being used. We can do this by right-clicking on the function and selecting "Edit Function Signature". We can then change the type of the variable to match the global variable or structure being used.
 
 To name functions and variables in Ghidra, we can follow these steps:
 
@@ -178,6 +194,7 @@ To name functions and variables in Ghidra, we can follow these steps:
 3. Type in the new name and press "Enter" to save the changes.
 
 ## Creating Arrays
+We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
 
 To create an array in Ghidra, we can follow these steps:
 
@@ -194,25 +211,6 @@ To apply an array to a global offset in Ghidra, we can follow these steps:
 2. Choose "Data Type" and select the array we created.
 3. Click "Apply" to apply the array to the global offset.
 
-## Conclusion
-
-In this section, we have learned how to use structures in Ghidra by applying them to data, navigating through the program using cross-references, changing function signatures, naming functions and variables, creating arrays, and applying arrays to global offsets. These skills will help us better understand the program and its data structures.
-
----
-
-# Creating Arrays and Changing Function Signatures
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xP6ddyVeUWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-## Identifying Global Variables and Structures
-To identify global variables and structures, we need to navigate to the main function. We can see that whenever the name of the global variable is updated, it also updates in the space where it is being used. This makes it convenient to name variables as we move through a program.
-
-To see where the global structure is being used, we can go to the listing view and look at the cross-references. The cross-references show us everywhere in the program that is referencing that particular global variable. We can double-click on the cross-reference to quickly navigate to that location in the program.
-
-## Editing Function Signatures
-When we navigate to a function that uses a global variable or structure, we might need to edit the function signature to properly identify the type of the variable being used. We can do this by right-clicking on the function and selecting "Edit Function Signature". We can then change the type of the variable to match the global variable or structure being used.
-
-## Creating Arrays
-We can also use Ghidra to create arrays. To do this, we first need to identify the size of the elements in the array. In our example, we can see that the size of each element is 4 bytes. We can then right-click on the global variable and select "Create Array". We can then specify the number of elements we want to create, making sure not to create too many and overwrite existing data.
 
 ---
 # Analyzing and Identifying C++ Classes in Ghidra
