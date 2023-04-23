@@ -33,10 +33,20 @@ Sega Retro has an excellent page covering the history of the Sega Mega Drive in 
 
 {% include link-to-other-site.html url="https://segaretro.org/History_of_the_Sega_Mega_Drive" description="Find out about the history of the SEGA Mega Drive in this excellent post" image="/public/consoles/Sega Megadrive.png" title="History of the Sega Mega Drive - Sega Retro"  %}
 
+---
+
+# Hardware
+If you're interested in reverse engineering software for the Sega Mega Drive gaming console, it's essential to have a strong understanding of the hardware that powers it. By comprehending the inner workings of the Mega Drive hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+In this section of our guide, we will provide you with detailed information and resources on the hardware of the Sega Mega Drive, including retail, prototype, and development hardware.
+
 ## Development Hardware
 In order for game developers to create software for the SEGA Mega Drive, they had the choice of a number of different development hardware to purchase, or they could go it alone and create their own hardware. To find out more check out the post below.
 
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
+
+---
+# Mega Drive Game Development
 
 ## Code Your Own SONIC Game
 The Youtuber **Game Hut** has a series of tutorials on Sega Mega drive programming.
