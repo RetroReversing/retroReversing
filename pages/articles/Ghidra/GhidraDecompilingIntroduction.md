@@ -166,13 +166,14 @@ There is also a short cut for doing this directly from the decompile view by rig
 
 
 ## Navigating through the Program with Cross-References
-To see where the global structure is being used, we can go to the listing view and look at the cross-references. The cross-references show us everywhere in the program that is referencing that particular global variable. We can double-click on the cross-reference to quickly navigate to that location in the program.
+To see where the global structure or function is being used, we can go to the listing view and look at the cross-references. The cross-references show us everywhere in the program that is referencing that particular global variable. We can double-click on the cross-reference to quickly navigate to that location in the program.
 
 To navigate through the program using cross-references, we can follow these steps:
 
 1. Go to the listing view and look for the cross-references.
+![GhidraXRef](https://user-images.githubusercontent.com/40120498/233861646-c9728e88-0bb2-4e07-ae8f-62e34bf8eee8.jpeg)
 2. Click on the cross-reference to go directly to the function.
-3. Look for the references to the global variable or structure and take note of their locations.
+3. Note the 'R' or 'W' beside the Cross Reference indicating whether the function Reads or Writes to it.
 
 ## Changing Function Signatures
 
