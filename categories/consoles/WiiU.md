@@ -25,6 +25,16 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your Wii U gamepad, and get ready to dive into the exciting world of Wii U reverse engineering!
 
 ---
+# Hardware
+If you're interested in reverse engineering software for the Wii U gaming console, it's crucial to have a thorough understanding of the hardware that powers it. By comprehending the inner workings of the Wii U hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+In this section of our guide, we will provide you with comprehensive information and resources on the hardware of the Wii U, including retail, prototype, and development hardware.
+
+## Retail Hardware
+
+## Development Hardware
+
+---
 # All Posts
 <div>
 
