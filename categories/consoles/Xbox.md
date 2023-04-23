@@ -25,6 +25,16 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your Xbox controller, and get ready to dive into the exciting world of Xbox reverse engineering!
 
 ---
+# Hardware
+If you're interested in reverse engineering software for the Xbox gaming console, it's important to have a strong understanding of the hardware that powers it. By comprehending the inner workings of the Xbox hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This section of our guide will provide you with detailed information and resources on the hardware of the Xbox, including retail, prototype, and development hardware.
+
+## Retail Hardware
+
+## Development Hardware
+
+---
 # All Posts
 <div>
 
