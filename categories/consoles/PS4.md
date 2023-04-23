@@ -25,6 +25,9 @@ So grab your DualShock 4 controller, and get ready to dive into the exciting wor
 
 ---
 # Hardware
+If you're interested in reverse engineering software for the Sony PlayStation 4 gaming console, it's essential to have a strong understanding of the hardware that powers it. By comprehending the inner workings of the PS4 hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+In this section of our guide, we will provide you with detailed information and resources on the hardware of the Sony PS4, including retail, prototype, and development hardware.
 
 ## Retail Hardware
 The PS4 has an 8-core AMD x64 class CPU paired with a AMD DirectX 11 class GPU with a few DirectX 12 features built in.
