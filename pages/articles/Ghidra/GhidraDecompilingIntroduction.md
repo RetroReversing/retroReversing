@@ -159,38 +159,42 @@ We can also use Ghidra to create arrays. To do this, we first need to identify t
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gdrAlpkncuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 Follow these easy steps to analyze and identify classes in Ghidra.
 
-## Step 1: Set up an array and a structure
-
-First, let's set up an array and a structure in your code:
-
-1. Modify the function signature to populate it with more meaningful information.
-2. Obtain the current system time and use it as a seed for the random function.
-3. Call the random function, generate a random number, and pass it into the functions.
-
-## Step 2: Dive into the code
+## Step 1: Identify C++ Instance creation logic
+In the video the instructor show this code:
+```cpp
+ppcVar1 = operator.new(0x14);
+FUN_000111f4(ppcVar1);
+(***ppcVar1)(ppcVar1, ranNum);
+(**(*ppcVar1 + 0xc)) (ppcVar1, ranNum & Oxffff);
+```
 
 Take a close look at the code and try to identify the class constructor and virtual function calls. This will help you understand the class structure better.
 
-## Step 3: Create a class in Ghidra
+The variable `ppcVar1` can be renamed to `this` as it represents the this pointer of the class that was created with `operator.new`.
+
+The line `FUN_000111f4(ppcVar1);` is most likely a constructor call as it comes directly after the new call and also takes in the `this` pointer.
+
+## Step 2: Create a class in Ghidra
 
 Now that you have a better understanding of the code, let's create a class in Ghidra:
 
-1. Edit the function signature and select the calling convention as `thiscall`.
-2. Right-click on the function and choose "Auto Create Class" to create the class.
-3. Give the auto-generated class a more meaningful name, like "Derived".
+1. Edit the constructor function signature and select the calling convention as `thiscall` and save.
+2. Now when you right-click on the function you can choose "Auto Create Class" to create the class.
+3. Give the auto-generated class a more meaningful name.
 
-## Step 4: Give your class members meaningful names
+## Step 3: Give your class members meaningful names
 
 Take some time to identify the data types of the class members. Once you know what each member is, update their names to make your code easier to understand.
 
-## Step 5: Set up the virtual table for the base class
+## Step 4: Set up the virtual table for the base class
+You will notice that the constructor calls a function at the start, this is the constructor for the base class.
 
 It's time to identify the base class that your derived class is inheriting from:
+1. Change the function to `__thiscall` and right click and select create class
+2. Rename the base class to a more meaningful name.
+3. Create a new structure (New -> Structure) called "BaseVtable" with four virtual function types.
 
-1. Rename the base class to a more meaningful name.
-2. Create a structure called "BaseVtable" with virtual function types.
-
-## Step 6: Create a virtual table for the derived class
+## Step 5: Create a virtual table for the derived class
 
 Now that you've identified the base class, let's create a virtual table for the derived class:
 
@@ -198,7 +202,7 @@ Now that you've identified the base class, let's create a virtual table for the 
 2. Add the inherited virtual functions and any new virtual functions to the derived class's virtual table.
 3. Replace the base class virtual table pointer with the derived class virtual table pointer.
 
-## Step 7: Analyze nested classes
+## Step 6: Analyze nested classes
 
 Finally, let's take a look at any nested classes:
 
