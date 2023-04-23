@@ -108,6 +108,11 @@ If you are using a different executable or compiled with a different compiler, t
 
 When you have found what you believe to be the main method, right-click on the auto-generated function name, and select "Rename Function".
 
+## Decompile the Main Function
+One of the main advantages of Ghidra is its free out of the box decompiler, now that you have found the main function it is easy to decompile it by going to `Window -> Decompile`.
+![GhidraDecompileMain](https://user-images.githubusercontent.com/40120498/233852164-847a0031-80bb-41ed-8bab-d5f88cef501e.jpeg)
+
+
 
 ---
 # Using Structures in Ghidra
