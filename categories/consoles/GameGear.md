@@ -24,7 +24,11 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your Game Gear, and get ready to dive into the exciting world of Game Gear reverse engineering!
 
+---
 # Hardware
+If you're interested in reverse engineering software for the Sega Game Gear handheld console, it's crucial to have a solid understanding of the hardware that powers it. By comprehending the inner workings of the Game Gear hardware, you can better understand how the software interacts with the hardware and how you can potentially modify or enhance it.
+
+This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Game Gear, including retail, prototype, and development hardware.
 
 ## Official Development Hardware
 {% include link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
