@@ -100,9 +100,12 @@ It will now start importing the file and ask you if you want to analyze it. Sele
 
 ## How to Find the Main Function
 
-If you have symbols, you can use the `Go To...` menu and type "main". But if you don't have symbols (e.g you used the stripped version), then we will need to find it ourselves.
+If you have symbols, you can use the `Navigation -> Go To...` menu and type "main". But if you don't have symbols (e.g you used the stripped version), then we will need to find it ourselves.
+![GhidraGoTo](https://user-images.githubusercontent.com/40120498/233849786-e202b2aa-f998-4a97-a9f0-1d902eaeef3f.jpeg)
+![GhidraGoToMain](https://user-images.githubusercontent.com/40120498/233849850-2e6165fe-cdc9-4aef-92e9-273182e7f9b8.jpeg)
 
-To find it, go to the `.text` section, and it will take you to the `entry` function. If you are using the same example as the video tutorial, then you will have a `__libc_start_main` function, and its first parameter is a function pointer to the `main` function.
+
+To find it manually, go to the `.text` section, and it will take you to the `entry` function. If you are using the same example as the video tutorial, then you will have a `__libc_start_main` function, and its first parameter is a function pointer to the `main` function.
 
 If you are using a different executable or compiled with a different compiler, this can be set up differently. But `entry` will call `main` somewhere, so it may require a bit of debugging with a debugger such as `gdb` or an emulator's built-in debugger.
 
