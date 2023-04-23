@@ -290,11 +290,9 @@ By following these steps, you can analyze and rename functions in a derived clas
 
 In this tutorial, we'll explore a derived class constructor and its associated members. We'll also create a virtual table pointer for better understanding of the virtual function calls.
 
-## Class Constructor Analysis
+## Analyzing the Derived Class Constructor
 
-### 1. Analyzing the Derived Class
-
-The derived class has a base class that it derives from, and it has a nested class that it points to at a particular offset. 
+The derived class has the following decompilation after setting most of the variable names: 
 
 ```cpp
 /* DISPLAY WARNING Type casts are NOT being printed */
@@ -336,54 +334,6 @@ void __thiscall Nest::Nest(Nest *this)
   return;
 )
 ```
-
-### 2. Creating the Virtual Table Pointer
-
-We'll create a virtual table pointer to have a better view and understanding of the virtual function calls happening in the class.
-
-```cpp
-class Derived : public Base {
-    Nested nested;
-    virtual void* vtable[];
-    // ...
-};
-```
-
-### 3. Examining the Virtual Function Calls
-
-We can see that the derived class has various virtual function calls:
-
-- `count()` function, which is based on a random number being passed
-- `switch()` statement, switching on the value of the random number ended with `0xFFFF`
-- Printing random numbers
-- Printing public data types directly without calling a `get()` function
-- Calling and printing out strings, such as "Hello" and "This is only a test"
-- Printing the hash substring derived from the nested class
-
-### 4. Investigating the Destructors and Constructors
-
-At the end of the derived class, there is a call to the destructor. After the destructor, there is a new object allocation, which is passed into a constructor. This new object has a similar structure to the derived class but with different values.
-
-```cpp
-class Derived_1 : public Base {
-    Nested nested;
-    // ...
-};
-```
-
-## Finishing the Derived Classes
-
-### 1. Completing the Derived Class
-
-You can create a virtual table for the new derived class, `Derived_1`, and analyze its virtual function calls. Some functions may be similar to the original derived class but implemented differently.
-
-### 2. Comparing Derived Classes
-
-The derived classes have the same base class, but their implementations may differ. For example, the `count()` function in the first derived class takes a random number as input, while in the second derived class, the input is statically set to 42.
-
-## Conclusion
-
-In this tutorial, we analyzed a derived class constructor, created a virtual table pointer, and examined the virtual function calls. We also discussed the differences between two derived classes and how to complete their respective implementations.
 
 ---
 # C++ Classes Stack and Global Classes
