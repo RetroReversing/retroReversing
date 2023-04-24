@@ -192,7 +192,8 @@ We can also use Ghidra to create arrays. To do this, we first need to identify t
 To create an array in Ghidra, we can follow these steps:
 
 1. Highlight the data and right-click.
-2. Choose "Data Type" and select "Create Array".![GhidraCreateArray](https://user-images.githubusercontent.com/40120498/234082791-55044731-0dc2-4dd6-a403-9d20fa23035a.jpeg)
+2. Choose "Data Type" and select "Create Array".
+![GhidraCreateArray](https://user-images.githubusercontent.com/40120498/234082791-55044731-0dc2-4dd6-a403-9d20fa23035a.jpeg)
 3. Choose the number of elements and the data type.
 4. Click "OK" to create the array.
 
@@ -202,7 +203,7 @@ To create an array in Ghidra, we can follow these steps:
 Follow these easy steps to analyze and identify classes in Ghidra.
 
 ## Step 1: Identify C++ Instance creation logic
-In the video the instructor show this code:
+In the video the instructor show this code in the decompile window:
 ```cpp
 ppcVar1 = operator.new(0x14);
 FUN_000111f4(ppcVar1);
@@ -214,6 +215,8 @@ Take a close look at the code and try to identify the class constructor and virt
 
 The variable `ppcVar1` can be renamed to `this` as it represents the this pointer of the class that was created with `operator.new`.
 
+Note that `operator.new` only appears if you have added the external libC library that it was compiled with to the project. 
+
 The line `FUN_000111f4(ppcVar1);` is most likely a constructor call as it comes directly after the new call and also takes in the `this` pointer.
 
 ## Step 2: Create a class in Ghidra
@@ -221,6 +224,7 @@ The line `FUN_000111f4(ppcVar1);` is most likely a constructor call as it comes 
 Now that you have a better understanding of the code, let's create a class in Ghidra:
 
 1. Edit the constructor function signature and select the calling convention as `thiscall` and save.
+![GhidraThisCall](https://user-images.githubusercontent.com/40120498/234084458-881184c8-ef2b-44fb-bdee-c76514037bd3.jpeg)
 2. Now when you right-click on the function you can choose "Auto Create Class" to create the class.
 3. Give the auto-generated class a more meaningful name.
 
