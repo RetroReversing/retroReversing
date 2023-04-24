@@ -225,12 +225,15 @@ Now that you have a better understanding of the code, let's create a class in Gh
 
 1. Edit the constructor function signature and select the calling convention as `thiscall` and save.
 ![GhidraThisCall](https://user-images.githubusercontent.com/40120498/234084458-881184c8-ef2b-44fb-bdee-c76514037bd3.jpeg)
-2. Now when you right-click on the function you can choose "Auto Create Class" to create the class.
+2. Now when you right-click on the first parameter to the constructor function you can choose "Auto Create Class" to create the class.
+![GhidraAutoCreateClass](https://user-images.githubusercontent.com/40120498/234085183-2a6c8a3e-5808-4140-b607-172648e5c4fb.jpeg)
 3. Give the auto-generated class a more meaningful name.
 
 ## Step 3: Give your class members meaningful names
 
 Take some time to identify the data types of the class members. Once you know what each member is, update their names to make your code easier to understand.
+
+![GhidraRenameField](https://user-images.githubusercontent.com/40120498/234085780-391cbedb-82ce-453f-8475-166c2a5da347.jpeg)
 
 ## Step 4: Set up the virtual table for the base class
 You will notice that the constructor calls a function at the start, this is the constructor for the base class.
