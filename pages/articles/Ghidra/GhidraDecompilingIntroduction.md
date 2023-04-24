@@ -254,7 +254,7 @@ If you click on `PTR_FUN_000112a8+1_000117c` you will be taken to the listing vi
 You can change these all to `__thiscall` as they are all the functions that will go into the VTable.
 
 ---
-# Nested Classes
+# Destructors
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKrKc3jMuR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 In this tutorial, we will learn how to analyze a derived class in C++ and rename its functions for better understanding. We will start by setting up the derived class and then analyze its functions one by one.
