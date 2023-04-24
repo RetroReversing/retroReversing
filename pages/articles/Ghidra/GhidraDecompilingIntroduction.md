@@ -192,18 +192,9 @@ We can also use Ghidra to create arrays. To do this, we first need to identify t
 To create an array in Ghidra, we can follow these steps:
 
 1. Highlight the data and right-click.
-2. Choose "Data Type" and select "Create Array".
+2. Choose "Data Type" and select "Create Array".![GhidraCreateArray](https://user-images.githubusercontent.com/40120498/234082791-55044731-0dc2-4dd6-a403-9d20fa23035a.jpeg)
 3. Choose the number of elements and the data type.
 4. Click "OK" to create the array.
-
-## Applying Arrays to Global Offsets
-
-To apply an array to a global offset in Ghidra, we can follow these steps:
-
-1. Go to the global offset and right-click.
-2. Choose "Data Type" and select the array we created.
-3. Click "Apply" to apply the array to the global offset.
-
 
 ---
 # Analyzing and Identifying C++ Classes in Ghidra
