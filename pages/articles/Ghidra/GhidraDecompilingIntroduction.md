@@ -237,28 +237,16 @@ Take some time to identify the data types of the class members. Once you know wh
 
 ## Step 4: Set up the virtual table for the base class
 You will notice that the constructor calls a function at the start, this is the constructor for the base class.
+![GhidraDetectingInheritanceVPtr](https://user-images.githubusercontent.com/40120498/234086523-86209e20-d4a7-47be-81f9-908d096d3b91.jpeg)
 
-It's time to identify the base class that your derived class is inheriting from:
-1. Change the function to `__thiscall` and right click and select create class
-2. Rename the base class to a more meaningful name.
-3. Create a new structure (New -> Structure) called "BaseVtable" with four virtual function types.
+If you click on the `PTR___cxa_pure_virtual_000117ec` it will take you to the listing view where it shows three other virtual functions:
+![Ghidra4VirtualFunctions](https://user-images.githubusercontent.com/40120498/234086983-e9b11b80-d4a4-4274-99ef-c7bd19d9bb26.jpeg)
 
-## Step 5: Create a virtual table for the derived class
-
-Now that you've identified the base class, let's create a virtual table for the derived class:
-
-1. Create a new structure for the derived class's virtual table.
-2. Add the inherited virtual functions and any new virtual functions to the derived class's virtual table.
-3. Replace the base class virtual table pointer with the derived class virtual table pointer.
-
-## Step 6: Analyze nested classes
-
-Finally, let's take a look at any nested classes:
-
-1. Identify any nested classes and their constructors.
-2. Analyze the nested class and update the class structure accordingly.
-
-That's it! You've successfully analyzed and identified classes in Ghidra. Keep practicing to improve your reverse engineering skills. Happy coding!
+It's time to create a structure to represent the VTable for the Base class:
+1. Create a new structure (New -> Structure) called "BaseVtable" with a virtual function.
+![GhidraBaseVTableStructure](https://user-images.githubusercontent.com/40120498/234087693-cc502518-4c49-463f-9b72-568d10fd3b4b.jpeg)
+2. Add the other virtual functions in the same way (`func *`)
+3. Now do the same for the Derived class as it will override some of the virtual functions
 
 ---
 # Derived Classes
