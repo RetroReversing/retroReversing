@@ -248,82 +248,25 @@ It's time to create a structure to represent the VTable for the Base class:
 2. Add the other virtual functions in the same way (`func *`)
 3. Now do the same for the Derived class as it will override some of the virtual functions
 
+If you click on `PTR_FUN_000112a8+1_000117c` you will be taken to the listing view with 6 functions listed:
+![GhidraFunctionsThatMakeUpVTable](https://user-images.githubusercontent.com/40120498/234089886-a012dd6c-231d-4058-80ee-0b702a1d651f.jpeg)
+
+You can change these all to `__thiscall` as they are all the functions that will go into the VTable.
+
 ---
-# Derived Classes
+# Nested Classes
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CKrKc3jMuR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 In this tutorial, we will learn how to analyze a derived class in C++ and rename its functions for better understanding. We will start by setting up the derived class and then analyze its functions one by one.
 
-## Setting up the Derived Class
+### Detecting Destructors
+If we go through all of our virtual functions in the VTable you will eventually find the Destructor for the class, which calls `operator.delete` (if you have the libc library).
+![GhidraDestructor](https://user-images.githubusercontent.com/40120498/234090989-55711641-2978-4214-bcf3-a91520d2f161.jpeg)
 
-1. Rename the derived class to have a meaningful name.
-2. Analyze each function in the derived class to determine its purpose.
-3. Rename the functions accordingly and add them to the derived class.
+1. Set it to a `__thiscall`
+2. Rename them to a suitable deconstructor name `~ClassNameDestructor`
 
-## Analyzing and Renaming Functions
-
-Let's analyze and rename the functions in the derived class step by step:
-
-### Count Function
-
-1. Identify the count function that has a virtual function call.
-2. Rename it to `derived_count`.
-3. Add it to the derived class.
-
-### Get Functions
-
-1. Identify the get functions that return an offset for the `this` pointer.
-2. Rename them to `derived_get_offset_8` and `derived_get_offset_C`.
-3. Add them to the derived class.
-
-### Switch Function
-
-1. Identify the switch function that doesn't return anything.
-2. Rename it to `derived_switch`.
-3. Add it to the derived class.
-
-### Deconstructors
-
-1. Identify the deconstructor functions.
-2. Rename them to `decon_1` and `decon_2`.
-3. (Optional) Add them to the derived class.
-
-## Analyzing the Constructor
-
-1. Identify the constructor function.
-2. Rename it to `derived_constructor`.
-3. Add it to the derived class.
-
-## Analyzing the Nested Class
-
-1. Identify the nested class and its functions.
-2. Rename the functions to `nest_constructor` and `nest_hello`.
-3. Create a structure for the nested class with the renamed functions and their corresponding offsets.
-
-## Analyzing the Derived Constructor
-
-1. Identify the derived constructor function.
-2. Rename it to `derived_constructor`.
-3. Add a `nest` pointer to the derived constructor.
-
-## Analyzing the Derived Class Members
-
-1. Analyze the derived class members and their types.
-2. Rename the members to have meaningful names.
-3. Add them to the derived class.
-
-## Updating the Virtual Table
-
-1. Edit the virtual table to better represent the discovered functions.
-2. Update the virtual table with the renamed functions.
-
-## Analyzing the Count Function
-
-1. Analyze the count function and its parameters.
-2. Rename the parameters to have meaningful names.
-3. Update the function name to reflect its purpose.
-
-By following these steps, you can analyze and rename functions in a derived class in C++ for better understanding. Remember to only assign names to members when you have meaningful information about their purpose.
+![GhidraDecompileDestructure](https://user-images.githubusercontent.com/40120498/234092112-ac80ec5f-502d-4017-a1a5-26572ff8f86a.jpeg)
 
 ---
 # Derived Class Constructors
