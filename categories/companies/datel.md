@@ -13,10 +13,30 @@ editlink: ../categories/companies/datel.md
 # Introduction
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Let us take a moment to appreciate the work Datel did 20 years ago, reverse engineering and developing their own playable unofficial PS2 DVD discs which contained the watermark and decryption key required to boot code which could not be done with a consumer DVD burner. A 🧵… <a href="https://t.co/CP0NQORwwp">pic.twitter.com/CP0NQORwwp</a></p>&mdash; 🕹 RetroReversing - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1478163167335395331?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote>
 
-![DatelMaxPlay](https://user-images.githubusercontent.com/40120498/235313223-90c4633d-f51e-47b1-9305-b8d59d342124.jpeg)
+---
+# DOS PC
+
+## DOS PC Action Replay: The Ultimate Game Buster
+Infinite cheat codes, save states, memory monitoring, slow motion, and more! This 1993 ISA card version of the Datel Pro Action Replay for DOS computers is packed with odd features. Check it out in this episode of **LGR Oddware**:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/usaioMbE8EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
-# Action Replay PS2
+# Nintendo 64
+
+## Game Killer
+Before the Pro Action Replay was released for the N64 Datel decided to release a similar product but instead of allowing memory editing via cheat codes it had a few built in games and would write to the SRAM (Battery backed up save data inside the cartridge).
+So for example if you plugged in Mario 64 it would edit the save data to give you all the stars and 100% completion.
+Not as useful as Action Replay as it pretty much completes the game for you, hence the name “Game Killer”.
+
+One cool feature was that the cartridge has a card slot on it for “Killer cards” which were supposed to be cards that add support for other games but sadly none were ever released. This would be a cool reversing project to see if anyone can implement a working card for the Game Killer!
+
+For more information on the Game Killer and the 6 in built games:
+http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
+
+---
+# Playstation 2
+
+## Action Replay Max
 Of course they are most famous of their Action Replay (AR) cheat devices, which would have never have received approval from Sony. Modifying memory in the way AR does would be too much of a security risk in terms of piracy/exploits.
 ![PS2ActionReplayMax](https://user-images.githubusercontent.com/40120498/235313259-8880b0a6-d964-4158-9f42-c89c682ee723.jpeg)
 
@@ -35,24 +55,43 @@ One of the best examples is when they used their  technology to add official tea
 If you look at the Max Payne version, it is releasing the same day as the retail game which suggests Datel seem to have had early access to the final games before their release date. Other region versions wouldn't have all the same codes as they would have been re-compiled...
 ![ActionReplayMaxPayne](https://user-images.githubusercontent.com/40120498/235313476-209dfa62-56fe-4dae-b6fb-d8ac811bda7d.jpeg)
 
+One possibility is through their magazine subsidiary known as “Thin Ice Media” which published 3 retail magazines in the UK: GBX, G-force and PSi2. But would publishers really send preview copies to these magazines which were basically used as an advertising channel for Datel?
+![PSi2](https://user-images.githubusercontent.com/40120498/235313623-0cb22bca-2f21-451f-bd81-6296af62157b.jpeg)
+
+Although to be fair their magazines went on to be fairly successful with PSi2 having at least 38 issues (not sure if issue 39 exists or not). You see they had one advantage over the competition: the ability to burn playable PS2 cheat discs...
+
+Sony only allowed their Official magazine to have a playable demo disc attached to the front cover, so for unoffical magazines to compete they just included a standard DVD with Game Trailers. This gave Datel magazines a USP in the market.
+![PSi2PowerCheats](https://user-images.githubusercontent.com/40120498/235313671-7b1ebc6f-95fa-423c-8160-12f657753b5b.jpeg)
+
+### BlockBuster PowerPlay
+The cheap PS2 DVD creation meant that Datel could allow companies like Blockbuster to cheaply give their customers playable PS2 content while also advertising their Action Replay product. For example Power Play!
+![BlockBusterPowerPlay](https://user-images.githubusercontent.com/40120498/235313783-84824e39-f12c-45ce-92e9-4ce1f50052ab.jpeg)
+
+### DVD Region X
+Even although Action Replay V2/Max has the ability to play DVDs from any region, Datel decided to sell just that feature for half the price of AR and marketed it towards movie and anime fans.
+![DVDRegionX](https://user-images.githubusercontent.com/40120498/235313820-5346b990-6a72-47ef-b28b-bb8ad9dde08d.jpeg)
+
+### Karat Action Replay Crisps/Chips
+Side note: Action Replay was published by Karat in Japan and even had Potato Chips/Crisps to go along with the product.. ok back to the topic at hand..
+![KaratActionReplayCrisps](https://user-images.githubusercontent.com/40120498/235313876-9408c00f-cfaa-47f9-8774-c13a6554ab85.jpeg)
+
+### Karaoke Party
+But they didn’t just create standalone subsets of Action Replay functionality they also made entirely new software such as Karaoke Party! Which came with very popular pop songs at the time. I wonder did they license the music but not the game? or was it used without permission?
+![KaraokeParty](https://user-images.githubusercontent.com/40120498/235313914-ee6e7f37-e500-4a0d-b5db-ed288b626615.jpeg)
+
+### Dance Master
+In a similar vein comes Dance Master, which was basically just a Dance Mat accessory that can work with any PS2 dancing game, but unlike competitors Datel could include its own unlicensed “Dance Work Out Game” which must have given it an edge over other 3rd party Dance Mats.
+![DanceMaster](https://user-images.githubusercontent.com/40120498/235313929-a0387bd2-3dc8-4706-8d2d-d1aeab141aca.jpeg)
+
+### Eye Max
+Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known..
+![eyeMax](https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg)
+
 
 ---
-# DOS PC Action Replay: The Ultimate Game Buster
-Infinite cheat codes, save states, memory monitoring, slow motion, and more! This 1993 ISA card version of the Datel Pro Action Replay for DOS computers is packed with odd features. Check it out in this episode of **LGR Oddware**:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/usaioMbE8EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+# Nintendo Gamecube
+![DatelMaxPlay](https://user-images.githubusercontent.com/40120498/235313223-90c4633d-f51e-47b1-9305-b8d59d342124.jpeg)
 
----
-# Nintendo 64
-
-## Game Killer
-Before the Pro Action Replay was released for the N64 Datel decided to release a similar product but instead of allowing memory editing via cheat codes it had a few built in games and would write to the SRAM (Battery backed up save data inside the cartridge).
-So for example if you plugged in Mario 64 it would edit the save data to give you all the stars and 100% completion.
-Not as useful as Action Replay as it pretty much completes the game for you, hence the name “Game Killer”.
-
-One cool feature was that the cartridge has a card slot on it for “Killer cards” which were supposed to be cards that add support for other games but sadly none were ever released. This would be a cool reversing project to see if anyone can implement a working card for the Game Killer!
-
-For more information on the Game Killer and the 6 in built games:
-http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 
 ---
 # All Posts
