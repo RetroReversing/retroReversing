@@ -1,5 +1,6 @@
 ---
 permalink: /companies/datel/
+title: Datel
 layout: post
 console: datel
 breadcrumbs:
