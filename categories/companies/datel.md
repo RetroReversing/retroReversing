@@ -87,6 +87,29 @@ In a similar vein comes Dance Master, which was basically just a Dance Mat acces
 Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known..
 ![eyeMax](https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg)
 
+### Max Memory
+They also released their own memory cards with the rather useful functionality of being able to back them up to your PC and share them online, or download save files from other users. Then there was their compression technology which claims up to 10x more space for saves..
+![PS2MaxMemory](https://user-images.githubusercontent.com/40120498/235313991-83de2a7c-b639-4539-925d-3a6a7d740283.jpeg)
+
+### PS2 X-Drive
+Another product related to Memory Cards was the X-Drive, which allowed users to use actual Zip Discs for game saves, if Zip disks were cheaper this could have been a very popular product..
+![PS2X-Drive](https://user-images.githubusercontent.com/40120498/235314028-9d1973e1-9736-4cfd-8819-94c53ecc6adc.jpeg)
+
+### GameStudio (Game Boy Emulator on the PS2)
+But what else did they do with the Memory Card hardware? How about Game Studio a Game Boy Color emulator! The glorious sound is a complete lie as it has a very annoying hissing sound, but at least it is better than the version for the PS1 that just played a random annoying song…
+![PS2GameStudio](https://user-images.githubusercontent.com/40120498/235314077-b196320f-6cf4-477e-a80d-493bdc66f93c.jpeg)
+
+### Max Play
+Datel had the technology to produce unofficial PS2 discs and really made the most out of it apart from one area… games. There was no big unlicensed hits like CodeMasters Micro Machines was for the NES. The closest was called MaxPlay: 10 retro games like space invaders/Jetpack
+![PS2MaxPlay1](https://user-images.githubusercontent.com/40120498/235314122-43e34f19-df0a-41fa-bc97-f2ffa5f22156.jpeg)
+
+### How did they do it?
+CodeJunkies is still going today and have a few cheat devices for sale such as for 3DS and the PS2 version of Action Replay is under their Retro section but it has been sold out for a while, which begs the question: do they still have the ability to create more PS2 Discs?
+
+It is a shame that they never managed to figure out the #PS3 or PS4 Disc format as an Action Replay disc for those consoles would have been useful. Presumably the security of the Blu-ray Discs and upgradability of firmwares made it almost impossible to sell unofficial discs.
+
+I would love to know how Datel technology was developed and ideally in future I would love to see Physical PS2 Homebrew or re-releases like we have seen for cartridge based consoles in recent years such as from Limited Run Games.
+
 
 ---
 # Nintendo Gamecube
