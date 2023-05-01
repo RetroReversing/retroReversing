@@ -215,8 +215,11 @@ Then make sure to select the zip file that you downloaded previously:
 If you get the following screen then you will either need to build the plugin from source or use an older version of Ghidra:
 ![ErrorInstallingPlugin](https://user-images.githubusercontent.com/40120498/235519452-472736aa-fadf-4b20-9756-b7456c601cae.jpeg)
 
-WHen attempting to compile the plugin from source I normally get the error:
+When attempting to compile the plugin from source and linking the ghidra directory I normally get the error:
 > JavaModelException: Build path contains duplicate entry: '/ghidra_10.2.3_PUBLIC/Ghidra/Processors/68000/lib/68000.jar'for project 'Ghidra-Nes-Rom-Decompiler-Plugin'
+
+To fix this you need to right Click on the Project and select "Properties", go to the "Java Build Path" tab and then the Libraries tab and delete all the jars.
+
 
 ---
 # All Posts
