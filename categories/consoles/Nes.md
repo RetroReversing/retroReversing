@@ -225,6 +225,11 @@ When that is done you will be able to run the application in Eclipse by clicking
 
 Select "Ghidra" from this window.
 
+If you get an error such as:
+> Exception in thread "main" ghidra.util.exception.AssertException: Multiple modules collided with same name: Ghidra-Nes-Rom-Decompiler-Plugin
+
+THen you need to delete the `Ghidra-Nes-Rom-Decompiler-Plugin` folder from the global ghidra config file location e.g `~/.ghidra/Extensions`
+
 ---
 # All Posts
 <div>
