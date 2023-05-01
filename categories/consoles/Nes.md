@@ -220,6 +220,10 @@ When attempting to compile the plugin from source and linking the ghidra directo
 
 To fix this you need to right Click on the Project and select "Properties", go to the "Java Build Path" tab and then the Libraries tab and delete all the jars.
 
+When that is done you will be able to run the application in Eclipse by clicking the green play icon and the following window will pop up:
+![GhidraRunAsExtension](https://user-images.githubusercontent.com/40120498/235523073-0428ba75-ebab-40c0-91d8-72182a37a9b1.jpeg)
+
+Select "Ghidra" from this window.
 
 ---
 # All Posts
