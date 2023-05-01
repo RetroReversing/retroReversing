@@ -212,9 +212,11 @@ It will then open up the following window, click the green plus icon in the top 
 Then make sure to select the zip file that you downloaded previously:
 ![SelectExtensionZipFile](https://user-images.githubusercontent.com/40120498/235519239-7c4f2fec-daac-4e73-8d06-1f29dcf1e9b0.jpeg)
 
-If you get the following screen then you will need to build the plugin from source:
+If you get the following screen then you will either need to build the plugin from source or use an older version of Ghidra:
 ![ErrorInstallingPlugin](https://user-images.githubusercontent.com/40120498/235519452-472736aa-fadf-4b20-9756-b7456c601cae.jpeg)
 
+WHen attempting to compile the plugin from source I normally get the error:
+> JavaModelException: Build path contains duplicate entry: '/ghidra_10.2.3_PUBLIC/Ghidra/Processors/68000/lib/68000.jar'for project 'Ghidra-Nes-Rom-Decompiler-Plugin'
 
 ---
 # All Posts
