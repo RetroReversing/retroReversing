@@ -402,6 +402,10 @@ We also use this script with the `analyzeHeadless` tool to automate our analysis
 ```
 
 ---
+# Binary Diffing with Ghidra
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HCksnJB9cbA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
 # References
 [^1]: [Software Reverse Engineering with Ghidra -- Setup and Installation - YouTube](https://www.youtube.com/watch?v=4v8WkHmSFUU)
 [^2]: [Software Reverse Engineering with Ghidra -- How to import files and get started - YouTube](https://www.youtube.com/watch?v=OlWm9Oh9bj8)
