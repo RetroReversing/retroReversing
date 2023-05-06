@@ -339,7 +339,7 @@ Before starting, make sure that you have the following tools installed on your s
 - `objdump` - to display information about object files
 - Ghidra
 
-You will also need a set of shared libraries to work with. You can download the example libraries from the author's [GitHub page](https://github.com/ctberthiaume/gr-example-shared-libs).
+You will also need a set of shared libraries to work with. You can download the example libraries from the author's [GitHub page]([https://github.com/ctberthiaume/gr-example-shared-libs](https://github.com/james-tate/ghidra_headless_example)).
 
 ## Analyzing Shared Libraries
 
@@ -359,28 +359,47 @@ However, if we have hundreds of binaries or shared libraries to analyze, this pr
 
 ## Using Ghidra' Headless Analysis Tool and Scripting Interface
 
-To use Ghidra' headless analysis tool, we need to use the `analyze-headless` script located in the `support` directory. We also need to create a script to perform our analysis. Here, we will create a script to extract the names of objects created by calling the `setname` function.
+To use Ghidra' headless analysis tool, we need to create a python script using the python Ghidra `FlatProgramAPI` to perform our analysis. Here, we will create a script to extract the names of objects created by calling the `setname` function:
 
 ```python
-for ins in f.instructions(f.start):
-    if ins.get_mnemonic() == "call":
-        call_addr = ins.get_operand_value(0)
-        func_name = f.get_function_at(call_addr).name
-        if func_name == "_ZN4Base7setNameESs":
-            string_addr = ins.get_operand_value(1)
-            obj_name = f.get_string_at(string_addr)
-            print(obj_name)
+instructions = currentProgram.getListing().getInstructions(1)
+
+for instruction in instructions:
+	mnemonic = instruction.getMnemonicString()
+
+	if mnemonic == "CALL":
+		funcAddress = instruction.getOpObjects(0)[0]
+		func = getFunctionContaining(toAddr(funcAddress.getOffset()))
+		callingFunc = getFunctionContaining(instruction.getAddress())
+		if func is not None:
+			if func.getName() == "setName":
+				inst = instruction.getPrevious()
+				instAddr = inst.getAddress()
+				while(getFunctionContaining(instAddr) == callingFunc ):
+					numOps = getInstructionAt(instAddr).getNumOperands()
+					for i in range(numOps):
+						for op in getInstructionAt(instAddr).getOperandReferences(i):
+							if op.getReferenceType().isData():
+								data = getDataAt(op.getToAddress())
+								if data is not None:
+									if data.getDataType().toString() == "string":
+										print "Found name of the {}() to be {} in {}".format(
+											callingFunc, 
+											data,
+											currentProgram)
+					inst = inst.getPrevious()
+					instAddr = inst.getAddress()
 ```
 
-This script gets a list of all the instructions starting at the first instruction, then goes through each of those instructions and gets the mnemonic string. We only want it to print out the string whenever it's a call. We then get the address in which we are making a call to and walk backward from this call to get each instruction until we find an instruction that is loading a string. We print out that string value.
+This script gets a list of all the instructions starting at the first instruction, then goes through each of those instructions and gets the mnemonic string. We only want it to print out the string whenever it's a **CALL**. We then get the address in which we are making a call to and walk backward from this call to get each instruction until we find an instruction that is loading a string. We print out that string value.
 
-We can then use this script with the `analyze-headless` tool to automate our analysis. For example, we can run the following command:
+You can execute this script by importing it in the Ghidra **Script Manager**.
+
+We also use this script with the `analyzeHeadless` tool to automate our analysis. For example, we can run the following command:
 
 ```bash
-./analyze-headless.py -p $(pwd) -n my_repo --import-binaries ./build/**/*.so -s my_script.py
+./analyzeHeadless $(pwd) names --import $(pwd)/*.so -recursive -postScript my_script.py
 ```
-
-This command tells the `analyze-headless` script to import all of the
 
 ---
 # References
