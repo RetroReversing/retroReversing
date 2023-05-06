@@ -323,21 +323,7 @@ void __thiscall Nest::Nest(Nest *this)
 # C++ Classes Stack and Global Classes
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VUokmWqCDnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Introduction
-
-If you've made it this far, then things are going to get a bit easier, probably a whole lot easier now, because the hard part is basically complete. In the last video, we finished talking about the derived class and how it was being set up. Now we can understand how it's getting used, how the members are getting used, and how the virtual function calls are getting used.
-
-## Setting up the Derived Object
-
-In the previous video, we talked about setting up the derived class. In this video, we can see that the function is doing a lot of the same things that our previous function did. Our derived constructor is being called, and our derived count is being directly called. This is because the object is being set up on the stack. Therefore, instead of these being virtual function calls, it's just calling it directly. However, the nested object is still a virtual function call, and the reason for that is that it is a pointer.
-
-## Using a Global Pointer
-
-In this section, we will talk about using a global pointer. We don't have a constructor here, so that means that it has to be constructed somewhere else. We know that it's not getting constructed in any of this. In one of the earlier videos, we talked about the entry function, and we see that it's calling the initializer function. This happens before the main function. Therefore, this is going to call this routine, and all of these functions are going to happen before the main function. This is a global derived object, so we can edit the function drive pointer to copy that, and then we can apply the derived structure over this.
-
-## Wrapping Things Up
-
-In this tutorial, we've walked through the steps of reverse engineering a program using Ghidra. Hopefully, you have gained a better understanding of Ghidra and how it can be used in your future endeavors. If there was something that I've done that was incorrect, or if you know of a better way to do some of this method ecology, then please reach out to me and let me know.
+Global classes are setup before the main function is even called in a function called **init**.
 
 ---
 # Ghidra Shared Library Scripting and Headless Analysis
