@@ -55,6 +55,14 @@ DPMI stands for "DOS Protected Mode Interface" It is a specification that provid
 
 DPMI was created by Microsoft in the late 1980s as part of their work on the Windows 3.0 operating system. It was developed to standardize the use of DOS extenders and allow applications using them to run under the protected mode environment of Windows 3.0.
 
+#### Popular DOS Extenders
+Some popular DOS extenders include:
+* DOS4GW - bundled with the Watcom C/C++ compiler, and used by many popular games such as Doom and Duke Nukem 3D.
+* CauseWay - an open-source extender that was designed to be small and fast.
+* CWSDPMI - a DPMI implementation for use with the DJGPP compiler.
+* DOS/32A - an extender designed for use with the Borland C/C++ compiler.
+* DOS/4G - a commercial extender used by many games and applications.
+
 ---
 ## DOS Game Modding
 
