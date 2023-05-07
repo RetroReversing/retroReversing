@@ -41,6 +41,15 @@ Real mode is a processor mode in the x86 architecture where the CPU can directly
 ### Protected Mode
 Protected mode is another processor mode in the x86 architecture that allows the CPU to access more than 1MB of memory, up to 4GB. Protected mode uses a different memory addressing scheme, called linear addressing, where memory is addressed using 32-bit addresses. Protected mode also provides hardware-based memory protection and multitasking capabilities, which make it suitable for modern operating systems like Windows and Linux. Protected mode is used by modern operating systems, and it requires a transition from real mode to enter this mode of operation.
 
+### DOS Extenders
+DOS extenders work by extending the 16-bit real mode of the x86 architecture to allow 32-bit applications to run on the platform. In real mode, applications can only access up to 1MB of memory. DOS extenders enable applications to access more memory by running in protected mode, which allows them to use up to 4GB of memory.
+
+DOS extenders operate by adding an additional layer between the application and the operating system. This layer intercepts certain system calls made by the application and provides additional functionality. The extender provides a set of APIs that allow the application to access memory beyond the 1MB limit and other system services that are not available in real mode.
+
+The DOS extender typically consists of a small loader program and a runtime library that is linked with the application. When the application is launched, the loader program loads the extender and initializes it. The extender then sets up a protected mode environment and transfers control back to the application, which can now use 32-bit instructions and access more memory.
+
+The use of DOS extenders allows applications to take full advantage of the capabilities of the x86 architecture, and it played a crucial role in the development of early PC games. DOS extenders were particularly important for games that required a lot of memory and high-performance graphics, as they allowed developers to create games that pushed the limits of the platform.
+
 ---
 ## DOS Game Modding
 
