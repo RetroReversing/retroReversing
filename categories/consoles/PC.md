@@ -50,6 +50,11 @@ The DOS extender typically consists of a small loader program and a runtime libr
 
 The use of DOS extenders allows applications to take full advantage of the capabilities of the x86 architecture, and it played a crucial role in the development of early PC games. DOS extenders were particularly important for games that required a lot of memory and high-performance graphics, as they allowed developers to create games that pushed the limits of the platform.
 
+#### DPMI - DOS Protected Mode Interface
+DPMI stands for "DOS Protected Mode Interface" It is a specification that provides a way for DOS applications to run in protected mode, which allows them to access more memory and run more efficiently. DPMI was developed in the late 1980s and early 1990s, during a time when the transition from 16-bit to 32-bit computing was taking place. DPMI provides a set of services that allow DOS applications to run in a protected environment, including virtual memory management, task switching, and interrupt handling. It was used extensively in the development of DOS extenders, which allowed 32-bit applications to run on DOS systems. The DPMI specification was widely adopted and helped to extend the life of the DOS platform well into the 1990s.
+
+DPMI was created by Microsoft in the late 1980s as part of their work on the Windows 3.0 operating system. It was developed to standardize the use of DOS extenders and allow applications using them to run under the protected mode environment of Windows 3.0.
+
 ---
 ## DOS Game Modding
 
