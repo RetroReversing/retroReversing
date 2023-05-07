@@ -20,6 +20,7 @@ recommend:
 - introduction
 - tutorial
 editlink: /tutorials/CreateALibRetroFrontEndInRust.md
+updatedAt: '2023-05-07'
 ---
 Welcome to this comprehensive tutorial on creating a LibRetro Frontend using Rust! If you're passionate about retro gaming and interested in creating your very own emulation frontend from scratch, you've come to the right place. Rust, with its strong safety guarantees, performance, and concurrency support, makes it an ideal choice for developing such applications.
 
