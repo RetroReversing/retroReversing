@@ -1158,7 +1158,8 @@ unsafe extern "C" fn libretro_set_video_refresh_callback(frame_buffer_data: *con
 
 If you run the program now you will get something that looks like this:
 
-![Making progress](./screenshots/IncorrectDimensions.jpeg)
+![IncorrectDimensions](https://user-images.githubusercontent.com/40120498/236680105-e3c7113f-a5df-4010-9ae6-9311ea14c19d.jpeg)
+
 
 # Step 17 - Fixing display issues
 
@@ -1171,7 +1172,8 @@ const HEIGHT: usize = 140;
 
 Which will result in Tetris looking much nicer:
 
-![Tetris Running](./screenshots/TetrisRunning.jpeg "Tetris Running")
+![TetrisRunning](https://user-images.githubusercontent.com/40120498/236680095-2d56e924-8322-4a4a-987b-686c01bad6c0.jpeg)
+
 
 The 140 height is set to the height of the Game Boy screen, but the width is actually set to the `pitch` divded by 2, as the pitch value that comes back is actually the number of bytes for each row of pixels (not the number of actual pixels).
 
@@ -1321,7 +1323,8 @@ rand = "0.8.4"
 
 Success we now get past the main menu and since it is constantly pressing the start button on and off it will this constantly keep pausing and unpausing the game:
 
-![Constantly Pressing Start Button Start](./screenshots/ConstantlyPressingStart.jpeg)
+![ConstantlyPressingStart](https://user-images.githubusercontent.com/40120498/236680085-16dfc486-c8a1-48c4-8f6c-b2049047c05a.jpeg)
+
 
 Ok now we know the callback works lets properly handle the input, for this we need to get the list of `minifb` buttons that are currently pressed down, there is a nice example of this in their documentation:
 
