@@ -19,7 +19,7 @@
     
     .console-img {
       width: 45px;
-    margin-left: 10px;
+      margin-left: 10px;
     }
     .head-console-list {
       padding: 5px;
@@ -27,9 +27,11 @@
       height: 350px;
     }
     .head-console-item {
+      display: flex;
       padding: 10px;
       color: white;
       font-weight: bold;
+      justify-content: space-between;
     }
     .head-console-item:hover {
       background-color: rgba(255,255,255,0.1)
@@ -37,6 +39,19 @@
     .head-console-item strong {
         color:white;
       padding: 10px
+    }
+    
+    .console-post-numbers {
+      border-radius: 15px;
+      background-color: lightgrey;
+      padding: 5px;
+      margin-left: 20px;
+      font-size: small;
+      color: black;
+      text-align: end;
+      height: 30px;
+      min-width: 30px;
+      text-align: center;
     }
   </style>
 </head>
