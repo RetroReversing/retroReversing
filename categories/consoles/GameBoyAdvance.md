@@ -1,17 +1,21 @@
 ---
 permalink: /gba/
 layout: post
-title: Nintendo Game Boy Advance (GBA)
-recommend: gba
+title: Nintendo Game Boy Advance (GBA) Reverse Engineering
+recommend: 
+ - gba
+ - gb
 recommendTitle: All GBA Posts
 editlink: ../categories/consoles/GameBoyAdvance.md
 console: gba
-consoleimage: /public/ZAgzBlXrARIEyn2KnTa4g_img_1.png
+consoleimage: /public/consoles/Nintendo%20Game%20Boy%20Advance.png
 breadcrumbs:
   - name: Home
     url: /
   - name: Nintendo Gameboy Advance
     url: /gba
+tags:
+ - gba
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering
