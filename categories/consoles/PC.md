@@ -51,8 +51,8 @@ If You are using a browser-based DOSBox emulator to run your games you can add t
 ---
 ## DOS Game Reverse Engineering
 
-### REVERSE ENGINEERING STRIKE COMMANDER
-Fabien Sanglard has an excellent series iof articles on how he reverse engineered the classic flight simuator **Strike Commander**:
+### Reverse Engineering Strike Commander
+Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simuator **Strike Commander**:
 [Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
 
 ---
