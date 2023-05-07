@@ -43,19 +43,17 @@ Files Leaked:
 ---
 # Other (other.7z)
 The archive mysteriously named **other.7z** actually contains a bunch of sub-archives which are:
-* agb_bootrom.zip  - SVN repository for both GBA and GBC Boot ROMs
-* CGB.7z - Game Boy Color Source Code
-* dmg.7z - Original Game Boy Source Code 
-* Famicom_NES.7z - Full set of official JP/USA Famicom/NES ROMS
-* NEWS.7z - Not sure what this is, but contains a subset of SFC plus log files, some sort of Backup program?
-* SFC.7z - SNES Source Code
+* **agb_bootrom.zip**  - SVN repository for both GBA and GBC Boot ROMs
+* **CGB.7z** - Game Boy Color Source Code for Zelda and a build of Hamtaro 2
+* **dmg.7z** - Original Game Boy Source Code for Zelda
+* **Famicom_NES.7z** - Full set of official JP/USA Famicom/NES ROMS (Lot Check)
+* **NEWS.7z** - Not sure what this is, but contains a subset of SFC plus log files, some sort of Backup program?
+* **SFC.7z** - SNES Source Code
 
 ## Original Game Boy Source Code (dmg.7z)
 Contains the source code for the original version of The Legend of Zelda Links Awakening.
 
 {% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
-
-
 
 ## Game Boy Color Source Code (CGB.7z)
 Contains the source code for two games:
@@ -63,6 +61,10 @@ Contains the source code for two games:
 * Hamtaro 2
 
 {% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
+
+## Famicom (NES) Lot Check ROMS (Famicom_NES.7z)
+We have a post covering the Full set of official JP/USA Famicom/NES ROMS released in the **Famicom_NES.7z** archive along with other LotCheck releases:
+{% include link-to-other-post.html post="/nintendo-lot-check" description="For more information on the Famicom Lot Check ROMS check out this post." %}
 
 ## Super Nintendo Source Code (SFC.7z)
 Contains the Source code for a number of Super Famicom (SNES) titles:
