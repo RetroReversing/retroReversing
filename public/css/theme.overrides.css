@@ -397,3 +397,10 @@ border-bottom-right-radius: 8px;
 border-bottom-left-radius: 8px;
 }
 
+/* numbers beside console name on homepage */
+.console-post-numbers {
+  border-radius: 10px;
+  background-color: lightgrey;
+  padding: 5px;
+  margin-left: 20px;
+}
