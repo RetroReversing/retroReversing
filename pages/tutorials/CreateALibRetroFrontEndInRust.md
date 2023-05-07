@@ -5,8 +5,8 @@ tags:
 - tutorial
 - tools
 title: Creating a LibRetro Frontend in Rust
-_image: /public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
-_twitterimage: http://www.retroreversing.com/public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
+image: /public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
+twitterimage: http://www.retroreversing.com/public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
 thumbnail: /public/consoles/Tools.jpg
 permalink: /CreateALibRetroFrontEndInRust
 breadcrumbs:
@@ -21,6 +21,9 @@ recommend:
 - tutorial
 editlink: /tutorials/CreateALibRetroFrontEndInRust.md
 ---
+Welcome to this comprehensive tutorial on creating a LibRetro Frontend using Rust! If you're passionate about retro gaming and interested in creating your very own emulation frontend from scratch, you've come to the right place. Rust, with its strong safety guarantees, performance, and concurrency support, makes it an ideal choice for developing such applications.
+
+In this tutorial, we will walk you through the process of building a fully-functional LibRetro frontend from the ground up. We will start by introducing you to the basics of creating a graphical Rust application and the LibRetro API, then delve into essential concepts such as handling input, video, and audio. By the end of this tutorial, you'll have a solid understanding of the inner workings of a LibRetro frontend and the knowledge to create your own customized version to relive your favorite gaming memories.
 
 # Step 1 - Setup MiniFB
 
