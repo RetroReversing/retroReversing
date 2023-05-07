@@ -35,6 +35,12 @@ The Youtuber **Displaced Gamers** has an excellent video explaining the common D
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/EDl9qBZ9Bb0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 The video discusses the 640k memory limitation of DOS and why many DOS games require more than 1MB of memory. The 16-bit x86 architecture used a trick to address up to one megabyte of memory, which became a limitation as software became more complicated. DOS extenders were developed to allow 32-bit memory access with almost no performance penalty, enabling 32-bit games to run on 16-bit MS-DOS. DOS extenders were based on the DPMI specification, providing larger memory access and multitasking capabilities. Developers only needed to know how to use the correct DOS external functions when mode switching was necessary. The use of DOS extenders extended the lifespan of MS-DOS and its legacy is engraved into the memory of classic DOS games, which shaped the video game industry.
 
+### Real Mode
+Real mode is a processor mode in the x86 architecture where the CPU can directly access the first 1MB of memory. In real mode, the CPU uses 16-bit registers and addresses memory using 20-bit addresses that are formed by combining a 16-bit segment address with a 16-bit offset address. Real mode is the default mode of operation for the x86 CPU, and it was used in early versions of MS-DOS.
+
+### Protected Mode
+Protected mode is another processor mode in the x86 architecture that allows the CPU to access more than 1MB of memory, up to 4GB. Protected mode uses a different memory addressing scheme, called linear addressing, where memory is addressed using 32-bit addresses. Protected mode also provides hardware-based memory protection and multitasking capabilities, which make it suitable for modern operating systems like Windows and Linux. Protected mode is used by modern operating systems, and it requires a transition from real mode to enter this mode of operation.
+
 ---
 ## DOS Game Modding
 
