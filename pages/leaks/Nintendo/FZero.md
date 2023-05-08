@@ -64,13 +64,13 @@ calculate | .asm | Contains functions such as Calculate_score
 calculate_usa | .asm | Same as **calculate.asm** with a change to the Demo_stick_data variable
 car_control | .asm | Car movement functions such as Drift_ctrl
 control_data | .asm | Data for each of the cars such as maximum speed
-data-5 | .asm | 
-data-6 | .asm | 
-effect | .asm | 
-en-check | .asm | 
-en-data-1 | .asm | 
-en-data-2 | .asm | 
-en-drive | .asm | 
+data-5 | .asm | Contains Course (Track) data (no actual code)
+data-6 | .asm | Contains Rival speed data (no actual code)
+effect | .asm | Contains functions for special effects like shadows and lazers
+en-check | .asm | Contains enemy check functions such as if they are on screen
+en-data-1 | .asm | Contains enemy OAM data (no code)
+en-data-2 | .asm | Second part of enemy OAM data
+en-drive | .asm | Contains Ememy driving functions, controlling speed and acceleration
 en-init-1 | .asm | 
 en-init-3 | .asm | 
 en-init-4 | .asm | 
