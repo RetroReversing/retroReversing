@@ -109,6 +109,12 @@ They read and write a number of file formats:
  * .MAP - Game Map (Track?) data
  * .TBL - Possible Table data?
  * .SCR - Screen data
+ * .SLT - Slit data
+ * .CHR - Character data
+ * .CGX - 8-bit character data
+ * .PCK - Panel Check File
+ * .PNL - Panel Data file
+ * .WTB
 
 The files in this folder are described in the table below:
 
@@ -116,17 +122,17 @@ File Name | Extension | Description
 ---|---|---
 armap | .c | Map data archiver, seems to read a .MTB file and exports a .MAP file
 carmap | .c | Map data generator, seems to read a .TBL and .SCR file and exports a .MAP file
-chrar | .c | 
-cmpbuf | .s | Assembly source file containing ?
-cmppnl | .s | Assembly source file containing ?
-enemy | .c | 
-mkback | .c | 
-mkbgchr | .c | 
-mkenemy | .c | 
-mkmap | .c | 
-mkpanel | .c | 
-mkpers | .c | 
-mkrival | .c | 
+chrar | .c | Character data archiver, takes in a table (.TBL?) and CHR files and exports a ?
+cmpbuf | .s | Assembly source file containing an efficient buffer comparison routine
+cmppnl | .s | Assembly source file containing an implementation of a function int cmppnl( char* pnlbuf, char* panel, int pnlcnt )	, compare panels?
+enemy | .c | OBJ character data archiver, takes in a .TBL and writes to a .CHR file
+mkback | .c | Back screen data compress
+mkbgchr | .c | Convert 8bit mode file into screen mode 7 file, takes in a .CGX file and exports to a .CHR file
+mkenemy | .c | Enemy car character data archiver takes in a .TBL and exports to a .CHR file
+mkmap | .c | Map data generator takes in .PCK and .WTB files and exports to SLT and WLD files
+mkpanel | .c | Map panel data generator takes in a .TBL and generates a .PCK and .PNL file
+mkpers | .c | Demo pers data compress
+mkrival | .c | Rival car character data archiver, reads a .TBL file and exports a .CHR file
 mkselect | .c | 
 mkspchr | .c | 
 schpnl | .s | Assembly source file containing ?
