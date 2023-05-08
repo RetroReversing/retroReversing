@@ -303,14 +303,12 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
     <li><span>int</span> chrcnt</li> 
     <li><span>int</span> total</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
     <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(ss)char *ss</span></li> 
-    <li><span></span> archive<span>(wp,dat)FILE *wp</span></li> 
-    <li><span>char </span> dat</li> 
-    <li><span></span> getnum<span>(dat)char *dat</span></li> 
-    <li><span></span> readchar<span>(fname)char *fname</span></li> 
+    <li><span></span> set_cname<span>(char* ss)</span></li> 
+    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
+    <li><span></span> getnum<span>(char* dat)char *dat</span></li> 
+    <li><span></span> readchar<span>(char* fname)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">212</div>  </div>
  </div>
@@ -335,26 +333,24 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>int</span> errcnt</li> 
     <li><span>int</span> slttop</li> 
     <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> set_sname<span>(ss)char *ss</span></li> 
-    <li><span>int</span> getaddr<span>(str)char *str</span></li> 
-    <li><span></span> readpnl<span>(fname)char *fname</span></li> 
-    <li><span></span> makemap<span>(nn,fname)int nn</span></li> 
-    <li><span>char </span> fname</li> 
-    <li><span></span> chkclr<span>(buf)unchar *buf</span></li> 
-    <li><span></span> chkpnl<span>(pnl)unchar *pnl</span></li> 
-    <li><span></span> setslt<span>(slt)unshort *slt</span></li> 
-    <li><span></span> setroom<span>(rom)unshort *rom</span></li> 
-    <li><span></span> setwld<span>(wld)unshort wld</span></li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span></span> set_sname<span>(char* ss)</span></li> 
+    <li><span>int</span> getaddr<span>(char* str)</span></li> 
+    <li><span></span> readpnl<span>(char* fname)</span></li> 
+    <li><span></span> makemap<span>(int nn, char fname)</span></li> 
+    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
+    <li><span></span> chkpnl<span>(unchar *pnl)</span></li> 
+    <li><span></span> setslt<span>(unshort *slt)</span></li> 
+    <li><span></span> setroom<span>(unshort *rom)</span></li> 
+    <li><span></span> setwld<span>(unshort wld)</span></li> 
     <li><span></span> prsslt<span>()</span></li> 
-    <li><span></span> fit_slit<span>(ln,sc)int ln,sc</span></li> 
+    <li><span></span> fit_slit<span>(int ln, int sc)</span></li> 
     <li><span></span> int_slpt<span>()</span></li> 
     <li><span></span> st_slofs<span>()</span></li> 
-    <li><span></span> genmap<span>(wld_name,slt_name)char *wld_name,*slt_name</span></li> 
-    <li><span></span> genslt<span>(wp)FILE *wp</span></li> 
-    <li><span></span> genrom<span>(wp)FILE *wp</span></li> 
-    <li><span></span> genwld<span>(wp)FILE *wp</span></li> 
+    <li><span></span> genmap<span>(char* wld_name, char* slt_name)</span></li> 
+    <li><span></span> genslt<span>(FILE *wp)</span></li> 
+    <li><span></span> genrom<span>(FILE *wp)</span></li> 
+    <li><span></span> genwld<span>(FILE *wp)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">18</div>    <div class="rr-file-stat rr-file-stats-variables">18</div>    <div class="rr-file-stat rr-file-stats-lines">475</div>  </div>
  </div>
@@ -369,19 +365,17 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>int</span> pnllen</li> 
     <li><span>int</span> pnlcnt</li> 
     <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> set_sname<span>(ss)char *ss</span></li> 
-    <li><span></span> mkpanel<span>(nn,fname)int nn</span></li> 
-    <li><span>char </span> fname</li> 
-    <li><span></span> chkclr<span>(buf)unchar *buf</span></li> 
-    <li><span></span> setpnl<span>(pnl)unchar *pnl</span></li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span></span> set_sname<span>(char* ss)</span></li> 
+    <li><span></span> mkpanel<span>(int nn, char fname)</span></li> 
+    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
+    <li><span></span> setpnl<span>(unchar *pnl)</span></li> 
     <li><span></span> prspnl<span>()</span></li> 
-    <li><span></span> fit_panel<span>(ln,sc)int ln,sc</span></li> 
+    <li><span></span> fit_panel<span>(int ln, int sc)</span></li> 
     <li><span></span> int_pnpt<span>()</span></li> 
     <li><span></span> st_pnofs<span>()</span></li> 
-    <li><span></span> genpck<span>(fname)char *fname</span></li> 
-    <li><span></span> genpnl<span>(fname)char *fname</span></li> 
+    <li><span></span> genpck<span>(char *fname)</span></li> 
+    <li><span></span> genpnl<span>(char *fname)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">325</div>  </div>
  </div>
@@ -391,13 +385,10 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
   <h3>mkpers.c</h3>
   <ul>
     <li><span>int</span> bincnt</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span>void</span> make_data<span>(rp,wp)FILE *rp,*wp</span></li> 
-    <li><span></span> fgetnum<span>(num,rp)unshort *num</span></li> 
-    <li><span>FILE </span> rp</li> 
-    <li><span></span> fputnum<span>(num,wp)int num</span></li> 
-    <li><span>FILE </span> wp</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
+    <li><span></span> fgetnum<span>(unshort *num, FILE rp)</span></li> 
+    <li><span></span> fputnum<span>(int num, FILE wp)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">98</div>  </div>
  </div>
@@ -420,11 +411,10 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
     <li><span>int</span> chrcnt</li> 
     <li><span>int</span> total</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
+    <li><span></span> main<span>(int argc, char * argv)</span></li> 
     <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(ss)char *ss</span></li> 
-    <li><span></span> archive<span>(wp,dat)FILE *wp</span></li> 
+    <li><span></span> set_cname<span>(char* ss)</span></li> 
+    <li><span></span> archive<span>(FILE *wp,dat)</span></li> 
     <li><span>char </span> dat</li> 
     <li><span></span> getnum<span>(dat)char *dat</span></li> 
     <li><span></span> readchar<span>(fname)char *fname</span></li> 
