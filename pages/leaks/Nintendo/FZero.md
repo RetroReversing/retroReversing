@@ -6,8 +6,8 @@ tags:
 - sourcecode
 title: Gigaleak - Original F-Zero Source Code (SNES)
 thumbnail: /public/consoles/Nintendo Game Boy.png
-_image: /public/images/snes/SNES F-Zero Source Code.jpg
-_twitterimage: http://www.retroreversing.com/public/images/snes/SNES F-Zero Source Code.jpg
+image: /public/images/snes/SNES F-Zero Source Code.jpg
+twitterimage: http://www.retroreversing.com/public/images/snes/SNES F-Zero Source Code.jpg
 permalink: /f-zero-source-code
 breadcrumbs:
   - name: Home
@@ -21,7 +21,7 @@ recommend:
  - leak
  - sourcecode
 editlink: /leaks/Nintendo/FZero.md
-_updatedAt: '2023-05-08'
+updatedAt: '2023-05-08'
 
 ---
 # Root directory (SFC.7z/ソースデータ/FZERO)
@@ -255,11 +255,9 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>int</span> comcnt2</li> 
     <li><span>int</span> comcnt3</li> 
     <li><span>int</span> nulcnt</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span>void</span> make_data<span>(rp,wp)FILE *rp,*wp</span></li> 
-    <li><span></span> write_data<span>(code,cnt,wp)int code,cnt</span></li> 
-    <li><span>FILE </span> wp</li> 
+    <li><span></span> main<span>(int argc, char * argv)</span></li> 
+    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
+    <li><span></span> write_data<span>(int code, int cnt, FILE wp)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">127</div>  </div>
  </div>
@@ -270,17 +268,12 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
   <ul>
     <li><span>unchar</span> chrdat[DATSIZE]</li> 
     <li><span>unchar</span> chrbuf[BUFSIZE]</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> chread<span>(fname,buff,size)char *fname,*buff</span></li> 
-    <li><span>int</span> size</li> 
-    <li><span></span> chwrite<span>(fname,buff,size)char *fname,*buff</span></li> 
-    <li><span>int</span> size</li> 
-    <li><span></span> convert<span>(data,size)unchar *data</span></li> 
-    <li><span>int</span> size</li> 
-    <li><span></span> archive<span>(data,buff,size)unchar *data,*buff</span></li> 
-    <li><span>int</span> size</li> 
-    <li><span></span> getbnk<span>(data)unchar *data</span></li> 
+    <li><span></span> main<span>(int argc, char * argv)</span></li> 
+    <li><span></span> chread<span>(char *fname,*buff, int size)</span></li> 
+    <li><span></span> chwrite<span>(char *fname,*buff, int size)</span></li> 
+    <li><span></span> convert<span>(unchar *data,int size)</span></li> 
+    <li><span></span> archive<span>(unchar *data,*buff,int size)</span></li> 
+    <li><span></span> getbnk<span>(unchar *data)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">150</div>  </div>
  </div>
@@ -414,8 +407,7 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span></span> main<span>(int argc, char * argv)</span></li> 
     <li><span></span> init_ptr<span>()</span></li> 
     <li><span></span> set_cname<span>(char* ss)</span></li> 
-    <li><span></span> archive<span>(FILE *wp,dat)</span></li> 
-    <li><span>char </span> dat</li> 
+    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
     <li><span></span> getnum<span>(dat)char *dat</span></li> 
     <li><span></span> readchar<span>(fname)char *fname</span></li> 
   </ul>
@@ -432,12 +424,9 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>int</span> atrcnt</li> 
     <li><span></span> main<span>(argc,argv)int argc</span></li> 
     <li><span>char *</span> argv</li> 
-    <li><span>void</span> make_data<span>(rp,wp)FILE *rp,*wp</span></li> 
-    <li><span>int</span> write_char<span>(wp,len)FILE *wp</span></li> 
-    <li><span>int</span> len</li> 
-    <li><span>int</span> write_attr<span>(wp,len,buf)FILE *wp</span></li> 
-    <li><span>int</span> len</li> 
-    <li><span>unchar </span> buf</li> 
+    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
+    <li><span>int</span> write_char<span>(FILE *wp, int len)</span></li> 
+    <li><span>int</span> write_attr<span>(FILE *wp, int len, unchar buf)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">120</div>  </div>
  </div>
@@ -450,19 +439,13 @@ slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
     <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
     <li><span>int</span> chrcnt</li> 
     <li><span>int</span> bincnt</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span>void</span> make_data<span>(fp)FILE *fp</span></li> 
-    <li><span>int</span> make1<span>(fp,code,cnum,leng)FILE *fp</span></li> 
-    <li><span>int code,cnum</span> leng</li> 
-    <li><span>int</span> make2<span>(fp,code,cnum,leng)FILE *fp</span></li> 
-    <li><span>int code,cnum</span> leng</li> 
-    <li><span>int</span> make3<span>(fp,code,cnum,leng)FILE *fp</span></li> 
-    <li><span>int code,cnum</span> leng</li> 
-    <li><span>int</span> make4<span>(fp,code,cnum,leng)FILE *fp</span></li> 
-    <li><span>int code,cnum</span> leng</li> 
-    <li><span>int</span> wthalf<span>(buff,fp)char *buff</span></li> 
-    <li><span>FILE </span> fp</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span>void</span> make_data<span>(FILE *fp)</span></li> 
+    <li><span>int</span> make1<span>(FILE *fp, int code, int cnum, int leng)</span></li> 
+    <li><span>int</span> make2<span>(FILE *fp,int code, int cnum, int leng)</span></li> 
+    <li><span>int</span> make3<span>(FILE *fp, int code,int cnum, int leng)</span></li> 
+    <li><span>int</span> make4<span>(FILE *fp, int code,int cnum, int leng)</span></li> 
+    <li><span>int</span> wthalf<span>(char *buff, FILE fp)</span></li> 
     <li><span>int</span> read_char<span>(char* fname, int code, int size)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">234</div>  </div>
