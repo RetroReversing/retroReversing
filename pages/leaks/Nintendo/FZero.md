@@ -47,32 +47,29 @@ This folder contains the following sub-directories:
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Game</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the main game source code for the PAL version of F-Zero for the Super Nintendo which is also called **SFX CAR RACE** in some of the source files.
 
   </div>
 </section>
-
-
-
 
 The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-ALPHA | N/A | 
-ALPHA2 | N/A | 
-ANK | N/A | 
-ANK8 | N/A | 
-BUFFER | N/A | 
-RP5A22_ | N/A | 
-RP5C77_ | N/A | 
-TITLE | .DOC | 
-VARIABLE | N/A | 
-WORK | N/A | 
-calculate | .asm | 
-calculate_usa | .asm | 
-car_control | .asm | 
-control_data | .asm | 
+ALPHA | N/A | Header file defining Alpha constants SP,RO,QU etc, unsure of purpose (18th June 1990)
+ALPHA2 | N/A | Header file defining Alpha constants N0, N1 etc, unsure of purpose (5th December 1989)
+ANK | N/A | ANK character font graphics in assembly format
+ANK8 | N/A | Header file defining Alpha constants N0, N1 etc, unsure of purpose (5th December 1989)
+BUFFER | N/A | Header file defining the main game buffer variables such as car acceleration etc (24th July 1990)
+RP5A22_ | N/A | Header file defining SFX CPU registers
+RP5C77_ | N/A | Header file defining SFX PPU registers
+TITLE | .DOC | Just has some meta data information such as the dates this game was worked on, the programmers and copyright information
+VARIABLE | N/A | Header file defining the main game variables such as game_level (23rd April 1990)
+WORK | N/A |  Header file defining variables stored in WORK RAM
+calculate | .asm | Contains functions such as Calculate_score
+calculate_usa | .asm | Same as **calculate.asm** with a change to the Demo_stick_data variable
+car_control | .asm | Car movement functions such as Drift_ctrl
+control_data | .asm | Data for each of the cars such as maximum speed
 data-5 | .asm | 
 data-6 | .asm | 
 effect | .asm | 
