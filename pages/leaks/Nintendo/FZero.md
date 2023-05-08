@@ -6,8 +6,8 @@ tags:
 - sourcecode
 title: Gigaleak - Original F-Zero Source Code (SNES)
 thumbnail: /public/consoles/Nintendo Game Boy.png
-_image: /public/images/
-_twitterimage: http://www.retroreversing.com/public/images/
+_image: /public/images/snes/SNES F-Zero Source Code.jpg
+_twitterimage: http://www.retroreversing.com/public/images/snes/SNES F-Zero Source Code.jpg
 permalink: /f-zero-source-code
 breadcrumbs:
   - name: Home
@@ -25,17 +25,11 @@ _updatedAt: '2020-09-03'
 
 ---
 # Root directory (SFC.7z/ソースデータ/FZERO)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/Root Directory</div>
-  <div markdown="1" class="rr-post-markdown">
-
-  </div>
-</section>
-
+When the Gigaleak SFC.7z archive (located inside Other.7z) is extracted it contains the source code for a bunch of Super Nintendo games, F-Zero is one of them, this post will cover evertthing in the **FZERO** directory from the extracted archive.
 
 This folder contains the following sub-directories:
 <div class="rr-changelog-category">
-  <div class="rr-version-gen" version="" date="Folder Tree" ></div>
+  <div class="rr-version-gen" version="/" date="Root Folder Tree" ></div>
     <ul class="rr-changelog-more">
       <li class="rr-info-gen">Game - Assembly source code for the game</li>
       <li class="rr-info-gen">Tools - C Source code for the tools used to make the game</li>
