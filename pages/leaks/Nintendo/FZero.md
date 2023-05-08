@@ -110,11 +110,12 @@ They read and write a number of file formats:
  * .TBL - Possible Table data?
  * .SCR - Screen data
  * .SLT - Slit data
+ * .OBJ - Sprite character data
  * .CHR - Character data
  * .CGX - 8-bit character data
  * .PCK - Panel Check File
  * .PNL - Panel Data file
- * .WTB
+ * .WTB - World Table?
 
 The files in this folder are described in the table below:
 
@@ -133,11 +134,11 @@ mkmap | .c | Map data generator takes in .PCK and .WTB files and exports to SLT 
 mkpanel | .c | Map panel data generator takes in a .TBL and generates a .PCK and .PNL file
 mkpers | .c | Demo pers data compress
 mkrival | .c | Rival car character data archiver, reads a .TBL file and exports a .CHR file
-mkselect | .c | 
-mkspchr | .c | 
-schpnl | .s | Assembly source file containing ?
-setbomb | .c | 
-slitpress | .c | 
+mkselect | .c | Car select screen data compress
+mkspchr | .c | OBJ character data compress takes in OBJ and CHR files and creates a **OBJECT.CHR** file
+schpnl | .s | Assembly source file containing implementation for int schpnl(char* pnlofs, char* pnlbuf, char* panel, int pnlcnt )
+setbomb | .c | Set bomb data takes in a slit address and a Panel data file (.PNL), Map (.WLD) and a slit data file (.SLT)
+slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
 
 
 <div class="rr-source-code-title">Code Files</div>
@@ -234,14 +235,12 @@ slitpress | .c |
     <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
     <li><span>int</span> chrcnt</li> 
     <li><span>int</span> total</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
     <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(ss)char *ss</span></li> 
-    <li><span></span> archive<span>(wp,dat)FILE *wp</span></li> 
-    <li><span>char </span> dat</li> 
-    <li><span></span> getnum<span>(dat)char *dat</span></li> 
-    <li><span></span> readchar<span>(fname)char *fname</span></li> 
+    <li><span></span> set_cname<span>(char* ss)</span></li> 
+    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
+    <li><span></span> getnum<span>(char* dat)</span></li> 
+    <li><span></span> readchar<span>(char* fname)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">18</div>    <div class="rr-file-stat rr-file-stats-lines">221</div>  </div>
  </div>
@@ -473,8 +472,7 @@ slitpress | .c |
     <li><span>int code,cnum</span> leng</li> 
     <li><span>int</span> wthalf<span>(buff,fp)char *buff</span></li> 
     <li><span>FILE </span> fp</li> 
-    <li><span>int</span> read_char<span>(fname,code,size)char *fname</span></li> 
-    <li><span>int code</span> size</li> 
+    <li><span>int</span> read_char<span>(char* fname, int code, int size)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">234</div>  </div>
  </div>
@@ -494,17 +492,16 @@ slitpress | .c |
     <li><span>int</span> sltptr</li> 
     <li><span>int</span> pnlptr</li> 
     <li><span>int</span> sltofs</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
     <li><span></span> set_bomb<span>()</span></li> 
     <li><span></span> push_pos<span>()</span></li> 
-    <li><span></span> search<span>(loc_x,loc_y)int loc_x,loc_y</span></li> 
-    <li><span></span> sch_room<span>(loc_x,loc_y)int loc_x,loc_y</span></li> 
-    <li><span>int</span> getaddr<span>(str)char *str</span></li> 
-    <li><span></span> readpnl<span>(fname)char *fname</span></li> 
-    <li><span></span> readwld<span>(fname)char *fname</span></li> 
-    <li><span></span> readslt<span>(fname)char *fname</span></li> 
-    <li><span></span> makewld<span>(fname)char *fname</span></li> 
+    <li><span></span> search<span>(int loc_x, int loc_y)</span></li> 
+    <li><span></span> sch_room<span>(int loc_x, int loc_y)</span></li> 
+    <li><span>int</span> getaddr<span>(char *str)</span></li> 
+    <li><span></span> readpnl<span>(char *fname)</span></li> 
+    <li><span></span> readwld<span>(char *fname)</span></li> 
+    <li><span></span> readslt<span>(char *fname)</span></li> 
+    <li><span></span> makewld<span>(char *fname)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">12</div>    <div class="rr-file-stat rr-file-stats-lines">291</div>  </div>
  </div>
@@ -513,12 +510,10 @@ slitpress | .c |
   <img class="geopattern" data-title="slitpress.c" />
   <h3>slitpress.c</h3>
   <ul>
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span>void</span> press_slit<span>(rp,wp)FILE *rp,*wp</span></li> 
-    <li><span>void</span> fputw<span>(data,fp)int data</span></li> 
-    <li><span>FILE </span> fp</li> 
-    <li><span>int</span> fgetw<span>(fp)FILE *fp</span></li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span>void</span> press_slit<span>(FILE *rp, FILE *wp)</span></li> 
+    <li><span>void</span> fputw<span>(int data, FILE fp)</span></li> 
+    <li><span>int</span> fgetw<span>(FILE *fp)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">97</div>  </div>
  </div>
