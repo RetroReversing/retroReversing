@@ -99,20 +99,23 @@ title_main_usa | .asm |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Tools</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the source code for various C-program that were used to help develop the game, such as file format converters for maps.
 
   </div>
 </section>
 
-
-
+They read and write a number of file formats:
+ * .MTB - Possible Map Table?
+ * .MAP - Game Map (Track?) data
+ * .TBL - Possible Table data?
+ * .SCR - Screen data
 
 The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-armap | .c | 
-carmap | .c | 
+armap | .c | Map data archiver, seems to read a .MTB file and exports a .MAP file
+carmap | .c | Map data generator, seems to read a .TBL and .SCR file and exports a .MAP file
 chrar | .c | 
 cmpbuf | .s | Assembly source file containing ?
 cmppnl | .s | Assembly source file containing ?
