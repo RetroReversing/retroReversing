@@ -64,6 +64,16 @@ Although the C64 only had 3 voices, each one could use whatever waveform it want
 * Sawtooth
 * Noise
 
+### How the C64 Played Sound Samples
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0xWyLeVnxFU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+The C64's sound hardware was powered by the MOS Technologies 6581 SID chip, which was advanced for its time but not considered capable of outputting digitized speech or sound samples. However, two games, Impossible Mission and Ghostbusters, released in 1984, managed to include digitized speech, which was a groundbreaking achievement.
+
+The SID chip has three programmable oscillators but no concept of PCM audio, which is used to represent sampled audio signals. Digitized sound samples became possible on the C64 without additional hardware, thanks to a bug found on the 6581 SID chip. The speaker explains that adjusting the master volume affects the DC voltage on the volume register, which can be manipulated to create sound. By converting a sound sample to 4-bit unsigned mono and feeding it to the master volume register, it is possible to play a digitized sound sample on the C64. Modern Vintage Gamer
+ demonstrates this by playing a sample on the Commodore 64 using both BASIC and Assembly language.
+
+The original 6581 SID chip was replaced by the 8580 in the C64c, which fixed the issue with DC voltage offsets on the master volume register. This results in a significant difference in sound quality between the two chips. However, other methods for playing samples on the C64 have been discovered, allowing for higher-quality samples to be played using different techniques.
+
+---
 ## Sound cards for IBM-PC
 Here are a few of the sound cards developed for the IBM-PC:
 * Ad-lib  (Yamaha YM3812) - early audio card
