@@ -21,7 +21,7 @@ recommend:
  - leak
  - sourcecode
 editlink: /leaks/Nintendo/FZero.md
-_updatedAt: '2020-09-03'
+_updatedAt: '2023-05-08'
 
 ---
 # Root directory (SFC.7z/ソースデータ/FZERO)
@@ -71,28 +71,29 @@ en-check | .asm | Contains enemy check functions such as if they are on screen
 en-data-1 | .asm | Contains enemy OAM data (no code)
 en-data-2 | .asm | Second part of enemy OAM data
 en-drive | .asm | Contains Ememy driving functions, controlling speed and acceleration
-en-init-1 | .asm | 
-en-init-3 | .asm | 
-en-init-4 | .asm | 
-fzero_main | .asm | 
-fzero_main_pal | .asm | 
-fzero_main_usa2 | .asm | 
-fzero_pal | .make | 
-game_over | .asm | 
-game_over_usa | .asm | 
+en-init-1 | .asm | enemy car Initialize Routine
+en-init-3 | .asm | Open drive data sub routine
+en-init-4 | .asm | enemy car Initialize Routine
+fzero_main | .asm | Program entry for the game
+fzero_main_pal | .asm | Program entry for the PAL version of the game
+fzero_main_usa2 | .asm | Same as **fzero_main.asm** but fixes a few bugs
+fzero_pal | .make | Makefile for the PAL version of the game
+game_over | .asm | Contains game pause functions and the game over logic
+game_over_usa | .asm | Same as **game_over.asm** but changes the Roll Data
 makefile | N/A | Used to build the source code in the folder (run make)
-play_main | .asm | 
-play_main_pal | .asm | 
-player | .asm | 
-set-obj | .asm | 
-set_back | , .asm | 
-set_bg1 | .asm | 
-set_bg2 | .asm | 
-set_bg2_usa | .asm | 
-sound | .asm | 
-title_main | .asm | 
-title_main_usa | .asm | 
+play_main | .asm | Functions for screen select and initialization
+play_main_pal | .asm | Same as **play_main.asm** but changes the frame count timer logic (50hz)
+player | .asm | Player control functions such as **Player_explode**
+set-obj | .asm | Obj functions like Smoke and explosions
+set_back | , .asm | Background setup functions
+set_bg1 | .asm | functions for transferring world and slit data
+set_bg2 | .asm | functions for calculating perspective
+set_bg2_usa | .asm | Same as **set_bg1.asm** with slightly different title data
+sound | .asm | sound and music functions
+title_main | .asm | title and car select screens
+title_main_usa | .asm | same as **title_main.asm** with slightly different cusrsor values
 
+All the .asm files get assembled with the official SNES SDK assember (as65c) and then linked together with the **link** tool.
 
 ---
 ## Tools (/Tools)
