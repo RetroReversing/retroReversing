@@ -151,12 +151,10 @@ slitpress | .c |
     <li><span>int</span> counter</li> 
     <li><span>int</span> address</li> 
     <li><span>int</span> datasize</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> set_mapname<span>(ss)char *ss</span></li> 
-    <li><span></span> archive<span>(fname,wp)char *fname</span></li> 
-    <li><span>FILE </span> wp</li> 
-    <li><span></span> save_pointer<span>(fname)char *fname</span></li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span></span> set_mapname<span>(char* ss)</span></li> 
+    <li><span></span> archive<span>(char* fname, FILE wp)</span></li> 
+    <li><span></span> save_pointer<span>(char* fname)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">136</div>  </div>
  </div>
@@ -177,33 +175,25 @@ slitpress | .c |
     <li><span>int</span> wldcnt</li> 
     <li><span>int</span> sltlen</li> 
     <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> set_sname<span>(ss)char *ss</span></li> 
-    <li><span></span> makemap<span>(nn,fname)int nn</span></li> 
-    <li><span>char </span> fname</li> 
-    <li><span></span> chkclr<span>(buf)unchar *buf</span></li> 
-    <li><span></span> setpnl<span>(pnl)unchar *pnl</span></li> 
-    <li><span></span> setslt<span>(slt)unshort *slt</span></li> 
-    <li><span></span> setroom<span>(rom)unshort *rom</span></li> 
-    <li><span></span> setwld<span>(wld)unshort wld</span></li> 
-    <li><span></span> memcmp<span>(s1,s2,nn)register unchar *s1,*s2</span></li> 
-    <li><span>register int</span> nn</li> 
-    <li><span></span> memcpy<span>(dd,ss,nn)register unchar *dd,*ss</span></li> 
-    <li><span>register int</span> nn</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span></span> set_sname<span>(char* ss)</span></li> 
+    <li><span></span> makemap<span>(int nn, char fname)</span></li> 
+    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
+    <li><span></span> setpnl<span>(unchar *pnl)</span></li> 
+    <li><span></span> setslt<span>(unshort *slt)</span></li> 
+    <li><span></span> setroom<span>(unshort *rom)</span></li> 
+    <li><span></span> setwld<span>(unshort wld)</span></li> 
+    <li><span></span> memcmp<span>(register unchar *s1, register unchar *s2, register intnn)</span></li> 
+    <li><span></span> memcpy<span>(register unchar *dd, register unchar *ss, register int)</span></li> 
     <li><span></span> arslit<span>()</span></li> 
-    <li><span></span> fit_slit<span>(ln,sc)int ln,sc</span></li> 
+    <li><span></span> fit_slit<span>(int ln, int sc)</span></li> 
     <li><span></span> int_slpt<span>()</span></li> 
     <li><span></span> st_slofs<span>()</span></li> 
-    <li><span></span> genmap<span>(fname)char *fname</span></li> 
-    <li><span></span> genpnl<span>(wp,ad)FILE *wp</span></li> 
-    <li><span>int</span> ad</li> 
-    <li><span></span> genslt<span>(wp,ad)FILE *wp</span></li> 
-    <li><span>int</span> ad</li> 
-    <li><span></span> genrom<span>(wp,ad)FILE *wp</span></li> 
-    <li><span>int</span> ad</li> 
-    <li><span></span> genwld<span>(wp,ad)FILE *wp</span></li> 
-    <li><span>int</span> ad</li> 
+    <li><span></span> genmap<span>(char *fname)</span></li> 
+    <li><span></span> genpnl<span>(FILE *wp, int ad)</span></li> 
+    <li><span></span> genslt<span>(FILE *wp, int ad)</span></li> 
+    <li><span></span> genrom<span>(FILE *wp, int ad)</span></li> 
+    <li><span></span> genwld<span>(FILE *wp, int ad)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">20</div>    <div class="rr-file-stat rr-file-stats-lines">500</div>  </div>
  </div>
@@ -215,15 +205,11 @@ slitpress | .c |
     <li><span>int</span> chrlen[6]</li> 
     <li><span>int</span> chralc[6][40]</li> 
     <li><span>char</span> chrbuf[DSIZE][32]</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span></span> archive<span>(mo,tp,wp)int mo</span></li> 
-    <li><span>FILE *tp,</span> wp</li> 
-    <li><span></span> flip<span>(dat,buf,len)unchar *dat,*buf</span></li> 
-    <li><span>int</span> len</li> 
-    <li><span></span> getnum<span>(fp)FILE *fp</span></li> 
-    <li><span></span> readchar<span>(argc,argv,buf)int argc</span></li> 
-    <li><span>char **argv,</span> buf</li> 
+    <li><span></span> main<span>(int argc, char* argv)</span></li> 
+    <li><span></span> archive<span>(int mo,FILE *tp, FILE *wp)</span></li> 
+    <li><span></span> flip<span>(unchar *dat, *buf, int len)</span></li> 
+    <li><span></span> getnum<span>(FILE *fp)</span></li> 
+    <li><span></span> readchar<span>(int argc,char **argv, buf)</span></li> 
   </ul>
   <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">156</div>  </div>
  </div>
