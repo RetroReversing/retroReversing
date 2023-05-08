@@ -76,6 +76,9 @@ Contains the Source code for a number of Super Famicom (SNES) titles:
 * F-Zero
 * Super Mario All-Stars (マリオコレクション)
 
+We have a post specifically about the F-Zero source code leaked in SFC.7z here:
+{% include link-to-other-post.html post="/f-zero-source-code" description="For more information on the F-Zero Source Code check out this post." %}
+
 ---
 # Gameboy Color Boot ROM (cgb_bootrom_trunk)
 In the **cgb_bootrom_trunk.zip** archive you get a dump of the latest development version of the Game Boy Color Boot ROM, extracted from the SVN repository found in the `other.7z/agb_bootrom.zip` archive.
