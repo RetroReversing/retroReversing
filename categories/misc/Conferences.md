@@ -26,5 +26,8 @@ SEGA was instrumental to setting up E3, in an interview with **Tom Kalinske** (f
 > We set out to form our own show with favoured third-parties. It became E3.
 [^1]
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uMuJWADkMYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 # References
 [^1]: Tom Kalinske in RETRO volume 9 (page 25)
