@@ -149,6 +149,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png){:width="100"} [Super Smash Bros. Melee](https://fluentcoding.github.io/Melee-Decompilation-Website/)              | Decompilation | Active - 12% |
 |![](https://art.gametdb.com/wii/cover/US/GTYE69.png){:width="100"} [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Chibi_Robo.jpg/220px-Chibi_Robo.jpg){:width="100"} [Chibi-Robo: Plug into Adventure](https://github.com/eavpsp/cbr_decomp)              | Decompilation | Active - 5% |
+
+
 ---
 
 ## Nintendo Wii
