@@ -127,7 +127,7 @@ The kit comes with:
 * PS2 to VGA adapter
 * Hard Drive
 
-They sold many of these to universities to tech `console` development, but we use the word console lightly as it was basically just Linux game programming as control of the PS2 hardware was severely limited [^9].
+They sold many of these to universities to teach 'console' development, but we use the word console lightly as it was basically just Linux game programming, as control of the PS2 hardware was severely limited on the development kit [^9].
 </div>
 </section>
 
@@ -135,7 +135,7 @@ They sold many of these to universities to tech `console` development, but we us
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/ZnXpzczPc38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-Yabasic was released with every PAL Playstation 2 on the accompanying demo disc.
+Yabasic was released with every single PAL Playstation 2 on the accompanying free demo disc.
 
 It was offered as an attempt to clarify the Playstation 2 as a Home Computer in the European Union to avoid the game console tax which existed at the time [^10].
 
