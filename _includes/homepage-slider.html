@@ -1,56 +1,28 @@
 <style>
-  *,
-*:before,
-*:after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
-
-html {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+ html {
+/*   box-sizing: border-box; */
+/*   font-family: "Roboto", sans-serif; */
   font-size: 62.5%;
-}
-@media only screen and (max-width: 800px) {
-  html {
-    font-size: 57%;
-  }
+  width:1280px;
+  height:450px;
 }
 
-body {
-  background-color: #000;
-  color: #fff;
-  padding: 8rem;
-}
-@media only screen and (max-width: 1000px) {
-  body {
-    padding: 0;
-  }
-}
-
-.container {
+.homepage-slider-container {
   position: relative;
   overflow: hidden;
-  border-radius: 5rem;
+/*   border-radius: 5rem; */
+  color: #fff;
+  font-family: "Roboto", sans-serif;
 }
-@media only screen and (max-width: 1000px) {
-  .container {
-    border-radius: 0;
-  }
-}
+
 
 .slider {
   display: flex;
   width: 500%;
-  height: 55rem;
+  height:400px;
+/*   height: 55rem; */
   transition: all 0.25s ease-in;
   transform: translateX(0);
-}
-@media only screen and (max-width: 1000px) {
-  .slider {
-    height: 100vh;
-  }
 }
 .slider .box {
   height: 100%;
@@ -224,15 +196,7 @@ body {
   grid-row: 1/-1;
   justify-self: center;
 }
-@media only screen and (max-width: 650px) {
-  .slider .illustration {
-    grid-row: 1/span 1;
-    grid-column: 1/-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
+
 .slider .illustration div {
   height: 25rem;
   width: 18rem;
@@ -241,12 +205,7 @@ body {
   position: relative;
   transform: skewX(-10deg);
 }
-@media only screen and (max-width: 800px) {
-  .slider .illustration div {
-    height: 20rem;
-    width: 15rem;
-  }
-}
+
 .slider .illustration div::after, .slider .illustration div::before {
   content: "";
   position: absolute;
@@ -263,45 +222,45 @@ body {
   transform: translate(2rem, -2rem);
 }
 
-.prev,
-.next,
+.homepage-slider-prev,
+.homepage-slider-next,
 .trail {
   z-index: 10000;
   position: absolute;
 }
 
-.prev,
-.next {
+.homepage-slider-prev,
+.homepage-slider-next {
   width: 4rem;
   cursor: pointer;
   opacity: 0.2;
   transition: all 0.3s ease;
 }
 @media only screen and (max-width: 650px) {
-  .prev,
-.next {
+  .homepage-slider-prev,
+.homepage-slider-next {
     display: none;
   }
 }
-.prev:hover,
-.next:hover {
+.homepage-slider-prev:hover,
+.homepage-slider-next:hover {
   opacity: 1;
 }
 
-.prev {
+.homepage-slider-prev {
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
 }
 
-.next {
+.homepage-slider-next {
   top: 50%;
   right: 2%;
   transform: translateY(-50%);
 }
 
 .trail {
-  bottom: 5%;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   width: 60%;
@@ -337,17 +296,18 @@ body {
   opacity: 1 !important;
 }
 </style>
-        <div class="container"> 
+               
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+        <div class="homepage-slider-container"> 
             <div class="slider">
 
                 <div class="box1 box">
                     <div class="bg"></div>
                     <div class="details">
-                        <h1>I'm the first Box</h1>
+                        <h1>N64 Reversing</h1>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Integer lacinia dui lectus. Donec scelerisque ipsum
-                            diam, ac mattis orci pellentesque eget. 
+                            Learn how to reverse engineer games for Nintendo's 64-bit console. 
                         </p>
                         <button>Check Now</button>
                     </div>
@@ -418,8 +378,8 @@ body {
                                 
             </div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
-            <svg xmlns="http://www.w3.org/2000/svg" class="next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="homepage-slider-prev" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(0 91) rotate(-90)" fill="#fff"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="homepage-slider-next" width="56.898" height="91" viewBox="0 0 56.898 91"><path d="M45.5,0,91,56.9,48.452,24.068,0,56.9Z" transform="translate(56.898) rotate(90)" fill="#fff"/></svg>
             <div class="trail">
                     <div class="box1 active">1</div>
                     <div class="box2">2</div>
@@ -431,10 +391,8 @@ body {
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js"></script>
         
-
-        <script src="script.js"></script>
       <script>
-      // Slider(all Slides in a container)
+     // Slider(all Slides in a container)
 const slider = document.querySelector(".slider")
 // All trails 
 const trail = document.querySelector(".trail").querySelectorAll("div")
@@ -444,7 +402,7 @@ let value = 0
 // trail index number
 let trailValue = 0
 // interval (Duration)
-let interval = 4000
+let interval = 14000
 
 // Function to slide forward
 const slide = (condition) => {
@@ -506,18 +464,7 @@ const valueToTrailMapping = {
   80: 4
 }
 const trailUpdate = () => {
-  trailValue = valueToTrailMapping[value]
-    // if (value === 0) {
-    //     trailValue = 0
-    // } else if (value === 20) {
-    //     trailValue = 1
-    // } else if (value === 40) {
-    //     trailValue = 2
-    // } else if (value === 60) {
-    //     trailValue = 3
-    // } else {
-    //     trailValue = 4
-    // }
+  trailValue = value/20
 }   
 
 // Start interval for slides
@@ -526,7 +473,7 @@ let start = setInterval(() => slide("increase"), interval)
 // Next  and  Previous button function (SVG icon with different classes)
 document.querySelectorAll("svg").forEach(cur => {
     // Assign function based on the class Name("next" and "prev")
-    cur.addEventListener("click", () => cur.classList.contains("next") ? slide("increase") : slide("decrease"))
+    cur.addEventListener("click", () => cur.classList.contains("homepage-slider-next") ? slide("increase") : slide("decrease"))
 })
 
 // function to slide when trail is clicked
