@@ -55,8 +55,8 @@
   <!--   <link rel="canonical" href="{{ site.baseurl }}/{{ page.permalink }}" /> -->
 
   <!-- CSS -->
-  <!-- <link rel="stylesheet" href="{{ site.baseurl }}/public/css/main.css">-->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" as="style">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" as="style">  <!--  Font awesome is used for: edit button, twitter icon  -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" as="style">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" as="style">
   
@@ -75,8 +75,6 @@
 <!--  Site specific CSS  -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/theme.overrides.css" as="style" onload="this.rel='stylesheet'">
   
-<!--   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/mermaid.css" as="style"> -->
-  
 <!--  JSTree Folder view css  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" as="style" />
 
@@ -90,20 +88,12 @@
   
 <!--  Code Cards  -->
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/code-cards.css">
-
   
   <!-- RSS -->
-<link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
   
+  <!--  DataTables used for tables with search/sorting  -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.css"/>
- 
-
-  {% if site.mathjax %}
-<!--   <script async type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_SVG"> </script> -->
-<!--   <script type="text/x-mathjax-config">
-MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], processEscapes: true } });
-  </script> -->
-  {% endif %}
   
   <script type="application/ld+json">
       {
