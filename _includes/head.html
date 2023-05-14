@@ -14,7 +14,7 @@
   <meta charset="utf-8">
   <meta name="robots" content="index, follow" />
   <meta name="language" content="English" />
-  {% if post.excerpt %}
+  {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering enthusiasts." />
   {% else %}
   <meta name="description" content="Learn about RetroReversing, the home of retro game reverse engineering enthusiasts. Get resources, tutorials, and tools for analyzing vintage technology and join the community today!" />
@@ -28,7 +28,11 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.retroreversing.com/" />
   <meta property="og:image" content="https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png" />
+ {% if page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering enthusiasts." />
+ {% else %}
   <meta property="og:description" content="The home of reverse engineering enthusiasts. Learn about RetroReversing and join the community today!" />
+ {% endif %}
 
   <!--  Twitter Meta  -->
   <meta name="twitter:site" content="@RetroReversing">
