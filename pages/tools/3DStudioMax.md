@@ -92,6 +92,7 @@ Game Studios don't tend to advertise which 3D modeling program they used for the
 Game Name | Game Developer | Notes 
 ---|---|---
 Monopoly CD-ROM | Westwood Studios | Article from 1996 issue of CGW confirms this [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
+LEGO Racers | High Voltage Software | Found 3d files that use the .max extension [LEGO Research Realm](https://mega.nz/folder/LsFCzBjI#3L423HFnhifIYR39xUw2LA/folder/fk8FwYJD)
 
 If you know any games that used 3D Studio for asset creation and have a source to back it up, please contribute by editing this page!
 
