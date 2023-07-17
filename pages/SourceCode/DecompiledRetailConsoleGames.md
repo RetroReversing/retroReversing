@@ -113,7 +113,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/1/19/Marioparty3.jpg){:width="100"} [Mario Party 3](https://github.com/PartyPlanner64/mp3)              | Decompilation | Active, 5% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7e/Mario_Kart_64box.png){:width="100"} [Mario Kart 64](https://github.com/ProjectRevoTPP/mk64)              | Decompilation | Active, 52% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Neon_Genesis_Evangelion_64_Game_Box.jpg){:width="100"} [Neon Genesis Evangelion](https://github.com/farisawan-2000/evangelion)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg){:width="100"} [Paper Mario](https://github.com/pmret/papermario)              | Decompilation | Active, 96% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg){:width="100"} [Paper Mario](https://github.com/pmret/papermario)              | Decompilation | Active, Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg){:width="100"} [Perfect Dark](https://github.com/n64decomp/perfect_dark)              | Decompilation | Active, 97% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png){:width="100"} [Pokemon Snap](https://github.com/ethteck/pokemonsnap)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg){:width="100"} [Pokemon Stadium](https://github.com/ethteck/pokemonstadium)              | Decompilation | Inactive |
