@@ -30,6 +30,7 @@ Whether you're interested in understanding the hardware architecture of the cons
 
 ---
 # Games
+Their were 109 games released for the original Black and White Wonderswan and 91 for the newer Wonderswan Color console, both types play on the color and crystal versions. 
 
 ## Visual Novels
 
