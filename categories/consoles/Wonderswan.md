@@ -38,4 +38,8 @@ Unless you can read Japanese you will not get much out of the three Terrors game
 They are excellent and well worth a watch:
 - Terrors 01: [Ghost Inn](https://www.youtube.com/watch?v=vYsG_LdaIow)
 - Terrors 02: [Dear Friend](https://www.youtube.com/watch?v=7YwvOPcN2Jw)
-- Terrors 03:
+- Terrors 03: [The Tiny Haunted House][https://www.youtube.com/watch?v=XusAmjdHp_8]
+
+### Ring Infinity
+<iframe width="560" height="315" src="https://www.youtube.com/embed/57_TobJFzEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
