@@ -37,5 +37,5 @@ Whether you're interested in understanding the hardware architecture of the cons
 Unless you can read Japanese you will not get much out of the three Terrors games on the wonderswan, however **Tara A. Devlin** has uloaded and english read through of the complete games on youtube.
 They are excellent and well worth a watch:
 - Terrors 01: [Ghost Inn](https://www.youtube.com/watch?v=vYsG_LdaIow)
-- Terrors 02: Dear Friend
+- Terrors 02: [Dear Friend](https://www.youtube.com/watch?v=7YwvOPcN2Jw)
 - Terrors 03:
