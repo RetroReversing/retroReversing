@@ -123,7 +123,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg){:width="100"} [Perfect Dark](https://github.com/n64decomp/perfect_dark)              | Decompilation | Active, 99% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png){:width="100"} [Pokemon Puzzle League](https://github.com/angheloalf/puzzleleague64)              | Decompilation | Active, 5% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png){:width="100"} [Pokemon Snap](https://github.com/ethteck/pokemonsnap)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg){:width="100"} [Pokemon Stadium](https://github.com/pret/pokemonstadium)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg){:width="100"} [Pokemon Stadium](https://github.com/pret/pokestadium)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg){:width="100"} [Quest 64](https://github.com/Mallos31/Quest)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/9/90/Rocket_Robot_on_Wheels_Cover.jpg){:width="100"} [Rocket: Robot on Wheels](https://github.com/RocketRet/Rocket-Robot-On-Wheels)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/f/fa/Shadowgate64.jpg){:width="100"} [Shadowgate 64](https://github.com/rainchus/shadowgate64)              | Decompilation | Inactive |
