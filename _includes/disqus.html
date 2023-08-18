@@ -1,18 +1,18 @@
-{% if site.disqus_short_name %}
 <div class="comments">
-  <div id="disqus_thread"></div>
-  <script>
-var disqus_config = function () {
-  this.page.url = '{{ site.url }}{{ page.url }}'; // Replace PAGE_URL with your page's canonical URL variable
-  this.page.identifier = '{{ page.id }}'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-(function() {
-  var d = document, s = d.createElement('script');
-  s.src = '//{{ site.disqus_short_name }}.disqus.com/embed.js';
-  s.setAttribute('data-timestamp', +new Date());
-  (d.head || d.body).appendChild(s);
-})();
+ <script src="https://giscus.app/client.js"
+        data-repo="RetroReversing/retroReversing"
+        data-repo-id="MDEwOlJlcG9zaXRvcnk2NTY4MDg2Mg=="
+        data-category="Post Comments"
+        data-category-id="DIC_kwDOA-o13s4CYl6s"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
   </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
-{% endif %}
