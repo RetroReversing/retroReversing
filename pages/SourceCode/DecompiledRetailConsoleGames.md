@@ -415,7 +415,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png){:width="100"} [Cave Story](https://github.com/gameblabla/CSE2)              | Decompilation | Taken down by DMCA |
-|![](https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg){:width="100"} [Cosmo's Cosmic Adventure](https://github.com/gameblabla/CSE2)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg){:width="100"} [Cosmo's Cosmic Adventure](https://github.com/smitelli/cosmore)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/gameblabla/CSE2)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | N/A |
