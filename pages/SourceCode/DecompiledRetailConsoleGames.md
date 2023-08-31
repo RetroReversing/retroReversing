@@ -237,24 +237,24 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo Kazooie Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Inactive |
-|![](https://www.mobygames.com/images/covers/l/14074-breath-of-fire-game-boy-advance-front-cover.jpg){:width="100"} [Breath of Fire](https://github.com/Normmatt/bof)              | Disassembly | Inactive |
-|![](https://vgboxart.com/boxes/GBA/74706-fire-emblem-the-binding-blade.jpg){:width="100"} [Fire Emblem: The Binding Blade](https://github.com/FireEmblemUniverse/fireemblem8u)              | Decompilations | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Disassembly | N/A |
-|![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg){:width="100"} [Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)              | Disassembly | N/A |
-|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | N/A |
-|![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Disassembly | N/A |
-|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Decompilation | Active |
-|![](https://static.wikia.nocookie.net/earthbound/images/e/eb/Mother1%2B2_boxart.PNG){:width="100"} [Mother 1+2 (Japan)](https://github.com/Normmatt/m12)              | Disassembly | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo Kazooie Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Active, 28% Done |
+|![](https://www.mobygames.com/images/covers/l/14074-breath-of-fire-game-boy-advance-front-cover.jpg){:width="100"} [Breath of Fire](https://github.com/Normmatt/bof)              | Decompilation | Inactive |
+|![](https://vgboxart.com/boxes/GBA/74706-fire-emblem-the-binding-blade.jpg){:width="100"} [Fire Emblem: The Binding Blade](https://github.com/StanHash/fe6)              | Decompilations | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Decompilations | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)              | Decompilations | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg){:width="100"} [Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)              | Decompilations | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Inactive |
+|![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Decompilation | Active, 98% Done |
+|![](https://static.wikia.nocookie.net/earthbound/images/e/eb/Mother1%2B2_boxart.PNG){:width="100"} [Mother 1+2 (Japan)](https://github.com/Normmatt/m12)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/b/be/PokemonRubySapphireBox.jpg){:width="200"} [Pokemon Ruby & Sapphire](https://github.com/pret/pokeruby)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg){:width="100"} [Pokemon Emerald](https://github.com/pret/pokeemerald)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a7/Pokemon_LeafGreen_box.jpg){:width="100"} [Pokemon FireRed & LeafGreen](https://github.com/pret/pokefirered)              | Decompilation | Active |
 |![](https://images.nintendolife.com/3f3cb022ee63f/pokemon-mystery-dungeon-red-rescue-team-cover.cover_large.jpg){:width="100"} [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/82/Pokemonpinballrubyandsapphire.png){:width="100"} [Pokémon Pinball: Ruby & Sapphire](https://github.com/pret/pokepinballrs)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/freshollie/sa2)              | Disassembly | Active |
-|![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Disassembly | N/A |
-|![](https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Disassembly | N/A |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/freshollie/sa2)              | Decompilation | Active, 67% Done |
+|![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Active |
+|![](https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG){:width="100"} [The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)              | Decompilation | Active, 98% Done |
 |![](https://static.wikia.nocookie.net/yugioh/images/6/6f/Yu-Gi-Oh%21_Reshef_of_Destruction.jpg){:width="100"} [Yu-Gi-Oh! Reshef of Destruction](https://github.com/shinny456/ygodm8)              | Decompilation | Active |
 
