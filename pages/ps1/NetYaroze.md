@@ -23,6 +23,41 @@ editlink: /ps1/NetYaroze.md
 # Introduction to the Net Yaroze
 The Net Yaroze was a consumer development kit for the Playstation 1, it consisted of a customised retail console with the ability to connect to a developer PC. It cost about £550 in the UK [^1] was black in colour and was also used by various Universities to teach game development to their students.
 
+## What you get in the pack
+When you recieve a Net Yaroze directly from Sony it will contain the following items:
+* Start up Guide
+* Library Reference
+* User Guide
+* Net Yaroze Boot Disc
+* Net Yaroze Software Development Disc
+* Access card - Similar to a memory card but doesn't store data (for copy protection?)
+* Communication cable
+
+### Start up Guide
+![NetYarozeStartUpGuide](https://github.com/RetroReversing/retroReversing/assets/40120498/56f11d13-39dd-44b4-8a20-c751f6f0067b)
+
+The NetYaroze Start up Guide has 39 pages going through topics such as the members only website, the hardware and software included, getting set up and even writing a simple sample program!
+
+### Library Reference
+![NetYarozeLibraryReference](https://github.com/RetroReversing/retroReversing/assets/40120498/7fbd3ea7-2f97-4372-b727-d39ca674bb8e)
+
+### User Guide
+![NetYarozeUserGuide](https://github.com/RetroReversing/retroReversing/assets/40120498/2603d9fc-7be2-438d-ae7f-d9d4b776a3ac)
+
+### Net Yaroze Boot Disc
+![NetYarozeBootDisc](https://github.com/RetroReversing/retroReversing/assets/40120498/c220a5c1-1f47-446f-a7cb-03b6be724b04)
+
+### Net Yaroze Software Development Disc
+![NetYarozeSoftwareDevelopmentDisc](https://github.com/RetroReversing/retroReversing/assets/40120498/73f63a22-347d-4938-ada2-590319b0c2a9)
+
+### Net Yaroze Access card
+![NetYarozeAccessCard](https://github.com/RetroReversing/retroReversing/assets/40120498/de622a00-0573-4af6-a3e6-abef08621ae1)
+
+### Net Yaroze Communication cable
+![NetYarozeCommunicationCable](https://github.com/RetroReversing/retroReversing/assets/40120498/4037163b-3247-48f1-890c-f593bf4e7874)
+
+
+---
 # Net Yaroze in the media
 
 ## EDGE Article
