@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2021-05-31'
+updatedAt: '2023-09-06'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -416,10 +416,11 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png){:width="100"} [Cave Story](https://github.com/gameblabla/CSE2)              | Decompilation | Taken down by DMCA |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg){:width="100"} [Cosmo's Cosmic Adventure](https://github.com/smitelli/cosmore)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/gameblabla/CSE2)              | Decompilation | Completed |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/TheFlyingFoool/DuckGameRebuilt)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | N/A |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | N/A |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg){:width="100"} [Lego Island](https://github.com/isledecomp/isle)              | Decompilation | Active |
 |![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)              | Game Engine Reimplementation | Active, Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg){:width="100"} [Oregon Trail II](https://github.com/katstasaph/otii)              | Decompilation | Completed |
 |![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Completed |
