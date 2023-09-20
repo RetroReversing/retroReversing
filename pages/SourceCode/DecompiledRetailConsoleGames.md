@@ -40,6 +40,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg){:width="100"} [Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/3/31/Crazy_Castle_Cover.png){:width="100"} [Bugs Bunny Crazy Castle](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/0/02/NES_Double_Dragon_II_packaging_front.jpg){:width="100"} [Double Dragon II: The Revenge (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg){:width="100"} [Contra](https://github.com/vermiceli/nes-contra-us/)              | Disassembly | N/A and Documented
 |![](https://upload.wikimedia.org/wikipedia/en/9/9b/Crystalisboxart.jpg){:width="100"} [Crystalis](https://github.com/crystalisdisassembly/crystalisdisassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg){:width="100"} [Dragon Warrior](https://github.com/nmikstas/dragon-warrior-disassembly)               | Disassembly | N/A and Documented |
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Donald_land.jpg){:width="100"} [Donald Land](https://github.com/brunovalads/donald-land)              | Disassembly |  
