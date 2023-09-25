@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2023-09-06'
+updatedAt: '2023-09-22'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -372,7 +372,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active, 42% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/e/e2/NFS_High_Stakes_box.jpg){:width="100"} [Need for Speed: High Stakes](https://github.com/OpenNFS/NFSHSX)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg){:width="100"} [Need for Speed 1-6](https://github.com/OpenNFS/OpenNFS)              | Game Engine Reimplementation | Inactive |
-|![](https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg){:width="100"} [PSX DOOM](https://github.com/RetailGameSourceCode/PSXDOOM-RE)              | Decompilation | N/A |
+|![](https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg){:width="100"} [PSX DOOM](https://github.com/Erick194/PSXDOOM-RE)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
 |![](https://psxdatacenter.com/images/covers/U/T/SLUS-00437.jpg){:width="100"} [Tomb Raider II](https://github.com/Arsunt/TR2Main)              | Reimplementation | Active - v0.8.2 release |
@@ -427,12 +427,11 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | N/A |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg){:width="100"} [Lego Island](https://github.com/isledecomp/isle)              | Decompilation | Active |
 |![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)              | Game Engine Reimplementation | Active, Playable |
-|![](https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg){:width="100"} [Oregon Trail II](https://github.com/katstasaph/otii)              | Decompilation | Completed |
-|![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Completed |
-|![](https://images.pcgamingwiki.com/8/8f/Sonic_CD_1995_cover.jpg){:width="100"} [Sonic CD (1996)](https://github.com/sonicretro/scdpc_disasm)              | Disassembly | N/A |
-|![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | N/A |
-|![](https://static.wikia.nocookie.net/sonic/images/6/64/SKC_US_Boxart.jpg){:width="100"} [Sonic & Knuckles Collection (1997)](https://github.com/sonicretro/skc_disasm)              | Disassembly | N/A |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | N/A |
+|![](https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg){:width="100"} [Oregon Trail II](https://github.com/katstasaph/otii)              | Decompilation | Active |
+|![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Inactive |
+|![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg){:width="100"} [Touhou Koumakyou: The Embodiment of Scarlet Devil](https://github.com/happyhavoc/th06)              | Decompilation | Active |
 |![](https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg){:width="100"} [Twisted Metal 2](https://github.com/abelbriggs1/tm2pc-reveng)              | Decompilation | Inactive |
 
 ---
