@@ -26,7 +26,7 @@ editlink: ../categories/tutorials/Introduction.md
 updatedAt: '2020-03-29'
 ---
 
-This guide is for all beginners who are interesting in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.
+This guide is for all beginners who are interested in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.
 
 # Lesson 1 - What? Why? How?
 Many people are confused about what exactly is involved in reverse engineering or why exactly people would "waste their time" on such a task. Well lets find out...
