@@ -154,6 +154,8 @@ We will cover how to reverse engineer a custom file format in a later lesson, bu
 <section class="postSection">
 <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/V3_vc7BO9lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div markdown="1">
+   When looking at custom file formats or even just executables, one of the most valuable pieces of data in these files are Text Strings, especially if they are in standard ASCII or UTF-8 format.
+   There is a really way to dump out all the ASCII strings in a file using the **strings** command like so:
 ```
 strings yourfilename
 ```
