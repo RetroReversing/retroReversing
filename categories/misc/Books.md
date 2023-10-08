@@ -186,6 +186,7 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51EC5BaPQ+L._SX373_BO1,204,203,200_.jpg" /> | Computer Graphics | Donald Hearn, M. Pauline Baker | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31E9zTSTzXL._AC_UY218_.jpg" /> | Peter Norton's Assembly Language Book for the IBM PC | Peter Norton | Assembly language | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Programming in C on the AMSTRAD [1986].jpg" /> | Programming in C on the Amstrad | Ian Sinclair | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41WDru3BaHL._AC_UY436_QL65_.jpg" /> | The C++ programming language | Bjarne Stroustrup | C++ Programming | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/books/The Magic Of Macintosh Programming Graphics and Sound.jpg" /> | The Magic Of Macintosh Programming Graphics and Sound | William B Twitty | Pascal and QuickDraw | 
@@ -198,8 +199,8 @@ This section will cover books related to game development published in the year 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31E9zTSTzXL._AC_UY218_.jpg" /> | Peter Norton's Assembly Language Book for the IBM PC | Peter Norton | Assembly language | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
+ | Computer graphics - a programming approach | Steven Harrington | Language Independant (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
 
 ---
 ## Published in 1988
