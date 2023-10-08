@@ -125,7 +125,7 @@ So go on give it a try, open your favourite ROM in a Hex editor and see what you
  <div markdown="1">
 You will come across many different file formats on your travels but don't worry about learning specific formats, most are well documented online and you can get a cheat sheet of Magic headers if you are curious.
 
-There are so many file formats out there (and many variations) that you couldn't possibly know them all, so just learn what you need when you need it.
+There are so many file formats out there (and many variations) that you couldn't possibly know them all, so its best to just learn what you need when you need it.
 
  </div>
 </section> 
