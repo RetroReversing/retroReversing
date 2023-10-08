@@ -78,7 +78,7 @@ But what exactly are ROM files? How did that big plastic cartridge become a sing
 
 
 ## ISO files
-ISO files are sometimes called ROMs and technically they are a copy of data that was on a Read-Only memory format but there are some fundamental differences between them.
+ISO files are sometimes incorrectly called ROMs and technically they are a copy of data that was on a Read-Only memory format but there are some fundamental differences between them.
 
 If you are unaware ISO files are copies of the data on a CD, DVD or Blu-ray Disc. Thus one of the major differences between this and a ROM file is it actually is a standard file format that can be opened in a tool such as Windows Explorer or Apple Finder and you can explore all the sub files inside. 
 
