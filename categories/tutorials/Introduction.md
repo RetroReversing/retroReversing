@@ -107,7 +107,7 @@ Now that you know why the Hexadecimal notation is useful for developers to repre
 
 As we know a game is build up of either a single file (ROM) or multiple files, but at the end of the day they are all files and all contain bytes of data.
 
-So we know know that we can represent each byte as a HEX codes, why don't we open up some of those game files!
+So we know know that we can represent each byte as two Hexadecimal digits, why don't we open up some of those game files!
 
 Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
 * Hex Fiend (Mac OSX)
