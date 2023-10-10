@@ -11,8 +11,8 @@ redirect_from:
   - /book
 editlink: ../categories/misc/Books.md
 recommend: industry
-image_: /public/images/categories/Games Industry Books.jpg
-twitterimage_: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
+image: /public/images/categories/Games Industry Books.jpg
+twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
 tags:
  - industry
 ---
@@ -107,6 +107,8 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41NH37S7YRL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | The C programming language | Brian W. Kernighan, Dennis M. Ritchie | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51GWas-gWPL._SX357_BO1,204,203,200_.jpg" /> | The Z-80 Microcomputer Handbook | William J. Barden | 
 
+The book **Programming the 6502** was perfect for any new programmers who wanted to tap into the full potential of their Apple II or Atari 2600 as it introduced basic programming concepts and binary formats (e.g Two's compliment) in a very easy to understand way. It also contained a full reference for all of the assembly instructions and even diagrams explaining how they worked. If you are looking for a book to learn 6502 assembly in the same way most early game developers did then this is the book to choose.
+
 ---
 ## Published in 1979
 This section will cover books related to game development published in the year 1979. This was the year that the **Intellivision** was released from **Mattel** which used the **CP-1600** CPU from **General Instrument**.
@@ -117,6 +119,12 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/6502 Assembly Language Programming.jpg" /> | 6502 Assembly language programming | Lance A. Leventhal | | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Electronic games - design, programming and troubleshooting.jpg" /> | Electronic games: design, programming and troubleshooting | WALTER H. BUCHSBAUM | 8080 Assembly | 
+
+The book titled **Electronic games: design, programming and troubleshooting** is an absolute gem, it explains how all the components of a typical 1970s game console/arcade machine works, including how to interface with standard Color and B/W Televisions and an extensive section on microprocessors. It is a very low level book focusing on the elexctronics hardware and would still be worth reading today, sure some parts are out of date but the concepts are the same.
+
+It contains a section on programming and even although this book was published in 1979 the representation of an assembly program will still be very familiar to fellow reverse engineers:
+![image](https://github.com/RetroReversing/retroReversing/assets/40120498/1e645876-223b-4cb1-ad24-acf934d18790)
+
 
 ---
 ## Published in 1981
