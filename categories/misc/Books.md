@@ -122,6 +122,10 @@ Cover | Title | Author | Software | Notes
 
 The book titled **Electronic games: design, programming and troubleshooting** is an absolute gem, it explains how all the components of a typical 1970s game console/arcade machine works, including how to interface with standard Color and B/W Televisions and an extensive section on microprocessors. It is a very low level book focusing on the elexctronics hardware and would still be worth reading today, sure some parts are out of date but the concepts are the same.
 
+It contains a section on programming and even although this book was published in 1979 the representation of an assembly program will still be very familiar to fellow reverse engineers:
+![image](https://github.com/RetroReversing/retroReversing/assets/40120498/1e645876-223b-4cb1-ad24-acf934d18790)
+
+
 ---
 ## Published in 1981
 This section will cover books related to game development published in the year 1981. This was the year that the **SINCLAIR ZX81** was released which used the Zilog Z80 microprocessor. 
