@@ -136,6 +136,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/68000 assembly language programming.jpg" /> | 68000 assembly language programming | Osborne McGraw-Hill | Assembly | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Build Your Own Z80 [1981].jpg" /> | Build your own Z80 computer: design guidelines and application notes | Steve Ciarcia. | Assembly and Hardware | 
 <img class="lazy-load" data-image-full="" /> | The Dr. Watson book of assembly-language programming for Commodore PET | Peter Holmes | Assembly language | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61qRddsXbdL._AC_UY218_.jpg" /> | A Practical Introduction to Computer Graphics | Ian O. Angell | FORTRAN | Good introduction to the mathematics behind creating graphics using simple lines
 
 ---
 ## Published in 1982
