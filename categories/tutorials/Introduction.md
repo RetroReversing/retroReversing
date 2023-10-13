@@ -173,6 +173,8 @@ Instead of relying on an infinite number of random attempts to find hidden codes
 
 Knowing how data is structured in memory is a crucial skill to be able to tear apart how software works and ultimately learn about any hidden functionality, security issues or privacy violations.
 
+A practical example is the **Nokia 5210** cell phone's security code. While the manufacturer claimed it was unbreakable, memory dumps revealed a secret sequence (*3001#12345#) to unlock the phone. This discovery can be beneficial to end users who want to unlock their phone or even just for users to know htat its possible.
+
 ---
 # Lesson 3 - Executables, CPU & Assembly Code
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
