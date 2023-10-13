@@ -50,6 +50,8 @@ It is almost guaranteed to make you a better programmer, you are studying the co
 
 Not only that but you will start to understand in depth how computers work and it can help protect your own games from hackers and may even start you on a path learning about cyber security and malware protection.
 
+Consider this: There are many devices that you use daily, like physical gadgets or computer programs, but most people don't have the skill to look inside them to check if they might invade your privacy or have flaws that could make you less safe. Reverse engineering gives you the skill to be able to check for security flaws and tracking functionality that companies often don't disclose to the public.
+
 ## What is the benefit to having reversed a game?
 The most obvious benefit is to allow people to get more from their games, enjoy more hours in their favourite games, get that nostalgic buzz! 
 
