@@ -168,6 +168,11 @@ strings yourfilename
 A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a seperate post covering Game Audio and Music reversing and file format information.
 {% include link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
 
+## Memory Dumps
+Instead of relying on an infinite number of random attempts to find hidden codes or features, memory dumps provide an efficient way to access and analyze software. It allows for systematic reverse engineering (RE) of the software to uncover "secret" codes that may only be available in memory.
+
+Knowing how data is structured in memory is a crucial skill to be able to tear apart how software works and ultimately learn about any hidden functionality, security issues or privacy violations.
+
 ---
 # Lesson 3 - Executables, CPU & Assembly Code
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
