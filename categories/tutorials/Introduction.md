@@ -125,9 +125,10 @@ So go on give it a try, open your favourite ROM in a Hex editor and see what you
 <section class="postSection">
 <iframe  class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/KN8YgJnShPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div markdown="1">
-You will come across many different file formats on your travels but don't worry about learning specific formats, most are well documented online and you can get a cheat sheet of Magic headers if you are curious.
+   Files come in many different formats, for example an image format such as JPG is very different in structure from an executable file such as a Windows Executable. Files tend to have an extension such as **.jpg** or **.exe** but this does not always match what is actually contained inside the file.
 
-There are so many file formats out there (and many variations) that you couldn't possibly know them all, so its best to just learn what you need when you need it.
+
+There are so many file formats out there (and many variations) that you couldn't possibly know them all, so its best to just learn what you need when you need it. Most standard formats are well documented online and for the others that may be custom to a specific game or application we can reverse engineer the assembly code of how the software reads (or writes to) the file.
 
  </div>
 </section> 
@@ -135,10 +136,12 @@ There are so many file formats out there (and many variations) that you couldn't
 ## Magic Headers & the file command
 Now you know the basics of how data can be represented you can dive into many different file formats used in games. You can view them in Hexadecimal with a Hex Editor and you can spot the Magic Header (if the file has one). This can be very useful for looking at files in ISO files, especially if they do not have a file extension.
 
+
 The Magic Header for a file tends to be the first few bytes of the file, for example wav sound files start with the first 4 ASCII characters `WAVE`.
 
 Wikipedia has a useful table of the most common file formats and what their Magic headers are:
 [List of file signatures - Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
+
 
 So you could open your file in a Hex editor and search that page for what file type it is. But there exists an even easier solution, systems based on UNIX come pre-installed with a useful tool called `file` which can tell you what a file contains regardless of its extension.
 
