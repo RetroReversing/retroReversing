@@ -57,11 +57,11 @@ DPMI was created by Microsoft in the late 1980s as part of their work on the Win
 
 #### Popular DOS Extenders
 Some popular DOS extenders include:
-* DOS4GW - bundled with the Watcom C/C++ compiler, and used by many popular games such as Doom and Duke Nukem 3D.
-* CauseWay - an open-source extender that was designed to be small and fast.
-* CWSDPMI - a DPMI implementation for use with the DJGPP compiler.
-* DOS/32A - an extender designed for use with the Borland C/C++ compiler.
-* DOS/4G - a commercial extender used by many games and applications.
+* **DOS4GW** - bundled with the Watcom C/C++ compiler, and used by many popular games such as Doom and Duke Nukem 3D.
+* **CauseWay** - an open-source extender that was designed to be small and fast.
+* **CWSDPMI** - a DPMI implementation for use with the DJGPP compiler.
+* **DOS/32A** - an extender designed for use with the Borland C/C++ compiler.
+* **DOS/4G** - a commercial extender used by many games and applications.
 
 ---
 ## DOS Game Modding
@@ -105,11 +105,11 @@ The Windows platform offers backward compatibility for DOS games, allowing enthu
 Over the years there was a number of different file formats for storing executable programs, luckily unless you are dealing with Windows 3.1 games you can safely ignore them all apart from the most recent Portable Executable (PE) file format.
 
 The Executable file formats are: 
-* New Executable (NE) - Used in Windows 1.0 to Windows 3.1
+* **New Executable** (NE) - Used in Windows 1.0 to Windows 3.1
    - The NE format was the first executable file format used in the early versions of Windows. It was a 16-bit format and was primarily used for Windows 1.0, 2.x, and 3.0. NE files had the .exe extension and were limited to 16-bit code.
-* Linear Executable (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
+* **Linear Executable** (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
    - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
-* Portable Executable (PE) - Used in Windows NT3.1+
+* **Portable Executable** (PE) - Used in Windows NT3.1+
    - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
  
 ### New Executable Format
@@ -179,6 +179,18 @@ typedef struct _IMAGE_FILE_HEADER {
 
 You can also find out more about the Portable Executable format on the official Windows SDK Documentation site: [PE Format - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
 
+### How to dump a Windows executable?
+Dumping a Portable Executable (PE) file refers to extracting information from the file, such as its headers, sections, and other metadata. This process is often used for debugging and analysis. You can dump a PE file from the command line using either **Dumpbin** or **objdump**.
+
+**Dumpbin** (Microsoft SDK): If you have the Microsoft Visual Studio Development Tools installed, you can use the dumpbin utility to display information about a PE file. Open a Command Prompt and run the following command:
+```bash
+dumpbin /headers yourfile.exe
+```
+
+**objdump** (GNU Binutils): If you're using a Unix-like environment, the objdump tool from the GNU Binutils can be used to examine PE files. Run the following command:
+```bash
+objdump -x yourfile.exe
+```
 
 ---
 # All Posts
