@@ -165,7 +165,21 @@ typedef struct _IMAGE_NT_HEADERS {
   IMAGE_FILE_HEADER FileHeader;		/* 0x04 */
   IMAGE_OPTIONAL_HEADER32 OptionalHeader;	/* 0x18 */
 } IMAGE_NT_HEADERS32, *PIMAGE_NT_HEADERS32;
+
+typedef struct _IMAGE_FILE_HEADER {
+  WORD  Machine;
+  WORD  NumberOfSections;
+  DWORD TimeDateStamp;
+  DWORD PointerToSymbolTable;
+  DWORD NumberOfSymbols;
+  WORD  SizeOfOptionalHeader;
+  WORD  Characteristics;
+} IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;
 ```
+
+You can also find out more about the Portable Executable format on the official Windows SDK Documentation site: [PE Format - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
+
+
 ---
 # All Posts
 <div>
