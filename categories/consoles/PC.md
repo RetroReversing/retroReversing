@@ -106,11 +106,11 @@ Over the years there was a number of different file formats for storing executab
 
 The Executable file formats are: 
 * New Executable (NE) - Used in Windows 1.0 to Windows 3.1
- - The NE format was the first executable file format used in the early versions of Windows. It was a 16-bit format and was primarily used for Windows 1.0, 2.x, and 3.0. NE files had the .exe extension and were limited to 16-bit code.
+   - The NE format was the first executable file format used in the early versions of Windows. It was a 16-bit format and was primarily used for Windows 1.0, 2.x, and 3.0. NE files had the .exe extension and were limited to 16-bit code.
 * Linear Executable (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
- - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
+   - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
 * Portable Executable (PE) - Used in Windows NT3.1+
- - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
+   - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
 
 ---
 # All Posts
