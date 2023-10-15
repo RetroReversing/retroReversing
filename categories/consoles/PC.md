@@ -111,7 +111,61 @@ The Executable file formats are:
    - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
 * Portable Executable (PE) - Used in Windows NT3.1+
    - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
+ 
+### New Executable Format
+The following is the New Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
+```C
+/*
+ * This is the Windows executable (NE) header.
+ * the name IMAGE_OS2_HEADER is misleading, but in the SDK this way.
+ */
+#include <pshpack2.h>
+typedef struct
+{
+    WORD  ne_magic;             /* 00 NE signature 'NE' */
+    BYTE  ne_ver;               /* 02 Linker version number */
+    BYTE  ne_rev;               /* 03 Linker revision number */
+    WORD  ne_enttab;            /* 04 Offset to entry table relative to NE */
+    WORD  ne_cbenttab;          /* 06 Length of entry table in bytes */
+    LONG  ne_crc;               /* 08 Checksum */
+    WORD  ne_flags;             /* 0c Flags about segments in this file */
+    WORD  ne_autodata;          /* 0e Automatic data segment number */
+    WORD  ne_heap;              /* 10 Initial size of local heap */
+    WORD  ne_stack;             /* 12 Initial size of stack */
+    DWORD ne_csip;              /* 14 Initial CS:IP */
+    DWORD ne_sssp;              /* 18 Initial SS:SP */
+    WORD  ne_cseg;              /* 1c # of entries in segment table */
+    WORD  ne_cmod;              /* 1e # of entries in module reference tab. */
+    WORD  ne_cbnrestab;         /* 20 Length of nonresident-name table     */
+    WORD  ne_segtab;            /* 22 Offset to segment table */
+    WORD  ne_rsrctab;           /* 24 Offset to resource table */
+    WORD  ne_restab;            /* 26 Offset to resident-name table */
+    WORD  ne_modtab;            /* 28 Offset to module reference table */
+    WORD  ne_imptab;            /* 2a Offset to imported name table */
+    DWORD ne_nrestab;           /* 2c Offset to nonresident-name table */
+    WORD  ne_cmovent;           /* 30 # of movable entry points */
+    WORD  ne_align;             /* 32 Logical sector alignment shift count */
+    WORD  ne_cres;              /* 34 # of resource segments */
+    BYTE  ne_exetyp;            /* 36 Flags indicating target OS */
+    BYTE  ne_flagsothers;       /* 37 Additional information flags */
+    WORD  ne_pretthunks;        /* 38 Offset to return thunks */
+    WORD  ne_psegrefbytes;      /* 3a Offset to segment ref. bytes */
+    WORD  ne_swaparea;          /* 3c Reserved by Microsoft */
+    WORD  ne_expver;            /* 3e Expected Windows version number */
+} IMAGE_OS2_HEADER, *PIMAGE_OS2_HEADER;
+```
+ 
+### Portable Executable
+You can find the structure of the PE file format in the C Header file called `winnt.h` located in any Windows NT based Software Development Kit or from the open source MinGW (Minimalist GNU for Windows) collection.
 
+The following is the Portable Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
+```C
+typedef struct _IMAGE_NT_HEADERS {
+  DWORD Signature; /* "PE"\0\0 */	/* 0x00 */
+  IMAGE_FILE_HEADER FileHeader;		/* 0x04 */
+  IMAGE_OPTIONAL_HEADER32 OptionalHeader;	/* 0x18 */
+} IMAGE_NT_HEADERS32, *PIMAGE_NT_HEADERS32;
+```
 ---
 # All Posts
 <div>
