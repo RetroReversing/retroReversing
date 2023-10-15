@@ -180,10 +180,16 @@ The exact representation a game uses will vary based on the compiler used, syste
 
 Here are the most common data representations:
 * **Single Character** (e.g the letter A) - Single byte ASCII
-* **Text** (e.g the string 'Hello') - One Byte per character and normally ended with a Null Terminator **0x00**
+* **ASCII Text** (e.g the string 'Hello') - One Byte per character and normally ended with a Null Terminator **0x00**
+* **UTF-8 Text** (e.g the string 'Hello') - Two Bytes per character and normally ended with a Null Terminator **0x00**
 * **Boolean** - Either 1 Byte, 4 Bytes or occasionaly 1 Bit (along with 7 other boolean bits)
 * **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
 * **Long** - 4 Bytes
+
+## Memory Pointers
+When inspecting a game's memory it is important to know that the address where the data is stored will change from run to run. So for example if you know the lives is stored at a particular address in memory, if you restart the game you may find that it is stored in a completely different location. So how does the computer know where to look for the lives memory? The answer is simply using pointers.
+
+Pointers are simply variables that point to a specific memory address asnd they can be modified at runtime.
 
 ---
 # Lesson 3 - Executables, CPU & Assembly Code
