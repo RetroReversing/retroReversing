@@ -173,7 +173,17 @@ Instead of relying on an infinite number of random attempts to find hidden codes
 
 Knowing how data is structured in memory is a crucial skill to be able to tear apart how software works and ultimately learn about any hidden functionality, security issues or privacy violations.
 
-A practical example is the **Nokia 5210** cell phone's security code. While the manufacturer claimed it was unbreakable, memory dumps revealed a secret sequence (*3001#12345#) to unlock the phone. This discovery can be beneficial to end users who want to unlock their phone or even just for users to know htat its possible.
+A practical example is the **Nokia 5210** cell phone's security code. While the manufacturer claimed it was unbreakable, memory dumps revealed a secret sequence (*3001#12345#) to unlock the phone. This discovery can be beneficial to end users who want to unlock their phone or even just for users to know that its possible.
+
+## Data Representations
+The exact representation a game uses will vary based on the compiler used, system its developed for and even programmer preference. 
+
+Here are the most common data representations:
+* **Single Character** (e.g the letter A) - Single byte ASCII
+* **Text** (e.g the string 'Hello') - One Byte per character and normally ended with a Null Terminator **0x00**
+* **Boolean** - Either 1 Byte, 4 Bytes or occasionaly 1 Bit (along with 7 other boolean bits)
+* **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
+* **Long** - 4 Bytes
 
 ---
 # Lesson 3 - Executables, CPU & Assembly Code
