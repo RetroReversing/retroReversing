@@ -202,6 +202,16 @@ This section will start to look into reverse engineering the actual code that ma
 The Youtuber **Bisqwit** has created an excellent video on how executables work:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hhgxsrAFyz8" title="What are EXE files made of?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## What file format do executables have?
+Executable file formats are specific data structures used by operating systems to understand how to load and execute a program. These formats vary depending on the operating system and architecture, but the most common ones are:
+* **PE** - Portable Executable used in Microsoft Windows
+* **ELF** - Executable and Linkable Format used in Linux/Unix systems
+* **Mach-O** - Machintosh Object used in MacOSX and iOS
+* **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
+* **COM** - Used in DOS and early Windows
+
+Note that most executables don't have any file extension on Unix/MacOSX and many games consoles.
+
 ## What is an API?
 An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain  platform (e.g PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynanmically linked to at runtime from a common set of libraries. 
 
