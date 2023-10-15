@@ -94,6 +94,25 @@ While the MSX system is most famous for Konami games like Vampire Killer (Castle
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4R779hMGGC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
+# Windows
+Windows has played a significant role in the world of PC gaming, offering a vast and diverse library of video games spanning various genres and styles. 
+
+In the past, many classic video games were developed for and played on DOS-based PCs. With the introduction of the Windows operating system, gaming transitioned to a more user-friendly and graphical environment, but many DOS games continued to run using compatibility features provided by Windows. 
+
+The Windows platform offers backward compatibility for DOS games, allowing enthusiasts to relive the nostalgia of classic titles from the DOS era. This compatibility, along with the vast library of modern Windows-based games, showcases the ongoing role of Windows as a versatile and enduring platform for gamers.
+ 
+## Windows Executable File Formats (NE,LE and PE)
+Over the years there was a number of different file formats for storing executable programs, luckily unless you are dealing with Windows 3.1 games you can safely ignore them all apart from the most recent Portable Executable (PE) file format.
+
+The Executable file formats are: 
+* New Executable (NE) - Used in Windows 1.0 to Windows 3.1
+ - The NE format was the first executable file format used in the early versions of Windows. It was a 16-bit format and was primarily used for Windows 1.0, 2.x, and 3.0. NE files had the .exe extension and were limited to 16-bit code.
+* Linear Executable (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
+ - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
+* Portable Executable (PE) - Used in Windows NT3.1+
+ - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
+
+---
 # All Posts
 <div>
 
