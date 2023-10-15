@@ -192,6 +192,13 @@ dumpbin /headers yourfile.exe
 objdump -x yourfile.exe
 ```
 
+### What are Relative Virtual Addresses (RVAs)?
+RVA stands for "Relative Virtual Address." It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. RVAs are used to express positions or offsets relative to the base address of a module (executable or DLL) rather than as an absolute memory address.
+
+RVA helps programs find things in their memory without needing to know exactly where everything is stored in memory. It's like a helpful set of directions.
+
+RVA is a fundamental concept in Windows programming, as it allows for position-independent code and the ability to load modules at different base addresses in memory, enhancing the compatibility and flexibility of Windows applications.
+
 ---
 # All Posts
 <div>
