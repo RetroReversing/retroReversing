@@ -206,7 +206,7 @@ The Youtuber **Bisqwit** has created an excellent video on how executables work:
 Executable file formats are specific data structures used by operating systems to understand how to load and execute a program. These formats vary depending on the operating system and architecture, but the most common ones are:
 * **PE** - Portable Executable used in Microsoft Windows
 * **ELF** - Executable and Linkable Format used in Linux/Unix systems
-* **Mach-O** - Machintosh Object used in MacOSX and iOS
+* **Mach-O** - Mach Object used in MacOSX and iOS
 * **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
 * **COM** - Used in DOS and early Windows
 
@@ -228,6 +228,24 @@ A CPU for a game console or PC works by following a series of steps to process i
 * **Execute**: The CPU carries out the instructions. It makes the game characters move, calculates scores, and does other tasks as instructed.
 * **Repeat**: The CPU keeps fetching, decoding, and executing instructions one after the other, making the game run smoothly.
 The CPU also works with other parts of the console, like the graphics and sound chips, to create the game's visuals and sounds.
+
+### What is a CPU Instruction?
+An instruction is a basic operation or command that the CPU can execute. These instructions are written in a machine-readable form, usually in binary code, and are the fundamental building blocks of a computer program. Each CPU has its own specific set of instructions, known as its instruction set architecture (ISA).
+
+Instructions can perform various tasks, such as:
+1. **Arithmetic Operations**: These include instructions for addition, subtraction, multiplication, division, and other mathematical operations.
+2. **Data Movement**: Instructions for moving data between registers, memory, and other storage locations.
+3. **Control Flow**: Instructions that control the program's flow, such as branching (jumping to a different part of the program) or conditional execution (if-then-else).
+4. **Logical Operations**: Instructions for performing logical operations like AND, OR, XOR, and NOT.
+5. **Load and Store**: These instructions load data from memory into registers or store data from registers back into memory.
+6. **Input/Output**: Instructions that allow the CPU to interact with input and output devices like keyboards, displays, and storage devices.
+
+CPU instructions are executed sequentially, one after the other, according to the program's logic. The order and combination of these instructions determine the behavior of a computer program.
+
+### What is Assembly language?
+Assembly language is a low-level programming language that's a step above the binary machine language that computers understand. It uses human-readable mnemonics and symbols to represent the basic operations a computer's Central Processing Unit (CPU) can perform, like adding numbers, moving data, and making decisions.
+
+In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
 ### The No Operation Instruction (NOP)
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
@@ -255,6 +273,13 @@ You can think of the stack like a deck of cards, you can add new cards only to t
 Although unlike a deck of cards when you add more data the address of the data goes downwards instead of upwards, so if the first element in a stack is at position 10 then when you add another byte of data its address would be 9.
 
 In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
+
+### Random Number Generation (RNG)
+While a CPU diligently follows every instruction it receives, this unwavering predictability presents a challenge for game developers. Players crave the excitement of unpredictability to make each gaming experience unique. So, how can a CPU introduce randomness into the game world?
+
+One elegant solution involves a Random Number Generator (RNG) that relies on the timing of user input. The CPU continuously increments a counter until the player presses a button. With the timing of button presses being entirely unpredictable, the CPU uses this ever-evolving count to generate random numbers. This injects a vital element of surprise and distinctiveness into every gaming session.
+
+This technique is frequently employed in early games, especially when other random seeds, like the current time in milliseconds, which is guaranteed to be unique but somewhat predictable, are unavailable.
 
 ## What is an emulator and how does it work?
 We have a specific post covering exactly how emulators works including tips for writing your own emulators:
