@@ -221,11 +221,20 @@ API functions are very useful when reversing a game or application as they tend 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
 
+### The No Operation Instruction (NOP)
+In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
+
+While this might seem counterproductive, NOPs have their indispensable uses. One of their primary functions is to 'waste time' intentionally. CPUs operate relentlessly, executing instructions in rapid succession, and sometimes, you need the CPU to pause briefly, awaiting the readiness of another part of the system. In such cases, NOPs prove invaluable. They serve as a placeholder or a delay mechanism, ensuring that the CPU remains occupied without altering its state.
+
+Imagine a scenario where a CPU needs to synchronize with external hardware that operates at a different speed. By inserting NOPs strategically, you can create the necessary time gaps, allowing the CPU to align its actions with the external hardware's pace. This is just one example of how NOPs find practical application in assembly programming, despite their seemingly 'do-nothing' nature.
+
+Also NOP instructions can be used to insert empty space or "padding" in the code. This can be useful for aligning instructions in memory or adjusting the size of loops and branches. For example, if you want to ensure that a certain block of code is located at a specific memory address, you can insert NOP instructions to fill the gap between the end of the previous code and the desired location.
+
 ### CPU Registers
 In this video you will learn about registers, which it describes as global variables that the CPU accesses directly, which is a really nice way to think about them. 
 Each CPU has a number of built in registers which can each store a set number of Bytes, the number of bytes that they store is defined by the CPU, for example a 64-bit CPU will have 64-bits for each register.
 
-Almost all CPUs have special instructions that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
+Almost all CPUs have special registers that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
 
 ### The Stack
 But what happens when you want to store more data than the limited number of registers available on the CPU? 
