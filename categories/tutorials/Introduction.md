@@ -221,6 +221,14 @@ API functions are very useful when reversing a game or application as they tend 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
 
+A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. Here's a simple explanation:
+
+* **Fetch**: The CPU fetches (reads) instructions from the game's memory. These instructions are like the rules of the game.
+* **Decode**: The CPU figures out what each instruction means. It's like understanding the rules of the game, such as "move the character left" or "shoot the enemy."
+* **Execute**: The CPU carries out the instructions. It makes the game characters move, calculates scores, and does other tasks as instructed.
+* **Repeat**: The CPU keeps fetching, decoding, and executing instructions one after the other, making the game run smoothly.
+The CPU also works with other parts of the console, like the graphics and sound chips, to create the game's visuals and sounds.
+
 ### The No Operation Instruction (NOP)
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
 
