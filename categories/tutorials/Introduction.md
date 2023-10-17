@@ -204,13 +204,13 @@ The Youtuber **Bisqwit** has created an excellent video on how executables work:
 
 ## What file format do executables have?
 Executable file formats are specific data structures used by operating systems to understand how to load and execute a program. These formats vary depending on the operating system and architecture, but the most common ones are:
-* **PE** - Portable Executable used in Microsoft Windows
+* **PE** - Portable Executable used in Microsoft Windows and Xbox
 * **ELF** - Executable and Linkable Format used in Linux/Unix systems
 * **Mach-O** - Mach Object used in MacOSX and iOS
 * **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
 * **COM** - Used in DOS and early Windows
 
-Note that most executables don't have any file extension on Unix/MacOSX and many games consoles.
+Note that most executables don't have any file extension on Unix/MacOSX and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's "PS-EXE" format.
 
 ## What is an API?
 An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain  platform (e.g PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynanmically linked to at runtime from a common set of libraries. 
