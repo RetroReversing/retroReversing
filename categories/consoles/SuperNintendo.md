@@ -71,6 +71,17 @@ Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has c
 # Games
 The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.
 
+## How long did it take to develop games for the SNES back in the day?
+On average, SNES game development could take anywhere from several months to a couple of years. Some simpler or shorter games might be developed more quickly, while larger, more complex titles could take longer.
+
+Most game development teams only hand a handful of people working full time on the game, mostly programmers. Artists and Sound Engineers were often working on multiple projects at the same time. Music was usually created and added to the game near the end of the development process when the game was getting ready to be shipped.
+
+Some examples of the length of time it took to develop Super Nintendo games are:
+* **Spider Man & X-Men in Arcade's revenge** - Took roughly 6-7 months from start to final build using a team of 4 highly experienced game programmers, 2 talented musicians and 6 brilliant artists[^1]:
+  - Programmers:	Mike Follin, Kevin Edwards, Stephen Ruddy and Michael Webb
+  - Artwork:	Anthony Anderson, Craig Houston, David McLachlan, James Clarke, Jonathan M. Smith and Ste Pickford
+  - Music:	Geoff Follin and Tim Follin   
+
 ## Remakes for the GBA
 As soon as the Game Boy Advance (GBA) was annonced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
 
@@ -104,3 +115,7 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [Kevin Edwards ( Retro Videogame development ) on X: "@BananaBytesBr IIRC about 6-7 months from start to final build." / X](https://twitter.com/KevEdwardsRetro/status/1715423462066360653)
