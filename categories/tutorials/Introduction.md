@@ -310,14 +310,14 @@ This technique is frequently employed in early games, especially when other rand
 
 ### What Assembly language Should I learn?
 It depends on the platform (specifically CPU) that your game was built for, here are some examples:
-* Z80 Assembly Language - Game Boy, Sega Master System, Sega Game Gear
-* 6502 Assembly Language - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
-* Motorola 68000 Assembly Language - Sega Mega Drive
-* MIPS Assembly Language - Sony Playstation 1, Sony Playstation 2, Sony PSP, Nintendo 64
-* SuperH Assembly Language - Sega Saturn, Sega Dreamcast
-* ARM Assembly Language - Game Boy Advance, Nintendo DS, Nintendo 3DS, iPhone, Android
-* PowerPC Assembly Language - Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony Playstation 3
-* Intel x86 Assembly Language - Microsoft Xbox
+* **Z80 Assembly Language** - Game Boy, Sega Master System, Sega Game Gear
+* **6502 Assembly Language** - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
+* **Motorola 68000 Assembly Language** - Sega Mega Drive
+* **MIPS Assembly Language** - Sony Playstation 1, Sony Playstation 2, Sony PSP, Nintendo 64
+* **SuperH Assembly Language** - Sega Saturn, Sega Dreamcast
+* **ARM Assembly Language** - Game Boy Advance, Nintendo DS, Nintendo 3DS, iPhone, Android
+* **PowerPC Assembly Language** - Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony Playstation 3
+* **Intel x86 Assembly Language** - Microsoft Xbox
 
 Note that the above are the rough groups, some specific CPUs have more specialised instructions that are exclusive to that console, but mostly its the same programming language.
 
