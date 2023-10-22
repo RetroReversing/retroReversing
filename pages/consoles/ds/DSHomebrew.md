@@ -19,7 +19,7 @@ breadcrumbs:
 recommend:
 - ds
 - 3ds
-editlink: /ds/DSHomebrew.md
+editlink: /consoles/ds/DSHomebrew.md
 updatedAt: '2019-10-07'
 ---
 

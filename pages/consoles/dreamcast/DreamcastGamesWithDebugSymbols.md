@@ -19,7 +19,7 @@ breadcrumbs:
 recommend:
 - dreamcast
 - symbols
-editlink: /dreamcast/DreamcastGamesWithDebugSymbols.md
+editlink: /consoles/dreamcast/DreamcastGamesWithDebugSymbols.md
 updatedAt: '2019-10-19'
 ---
 <section class="postSection">

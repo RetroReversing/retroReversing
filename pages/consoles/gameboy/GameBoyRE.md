@@ -14,7 +14,7 @@ breadcrumbs:
   - name: Game Boy (DMG & GBC) Reversing Emulator
     url: #
 recommend: gameboy
-editlink: /gameboy/GameBoyRE.md
+editlink: /consoles/gameboy/GameBoyRE.md
 image: /public/images/gameboy/Game Boy Reversing Emulator.jpg
 twitterimage: https://www.retroreversing.com/public/images/gameboy/Game Boy Reversing Emulator.jpg
 updatedAt: '2020-10-17'

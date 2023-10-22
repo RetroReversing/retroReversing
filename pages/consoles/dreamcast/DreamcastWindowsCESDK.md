@@ -20,7 +20,7 @@ breadcrumbs:
 recommend:
 - dreamcast
 - sdk
-editlink: /dreamcast/DreamcastWindowsCESDK.md
+editlink: /consoles/dreamcast/DreamcastWindowsCESDK.md
 updatedAt: '2019-10-31'
 ---
 <section class="postSection">

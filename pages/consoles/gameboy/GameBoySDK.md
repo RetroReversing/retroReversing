@@ -18,7 +18,7 @@ breadcrumbs:
 recommend: 
 - gameboy
 - sdk
-editlink: /gameboy/GameBoySDK.md
+editlink: /consoles/gameboy/GameBoySDK.md
 updatedAt: '2020-01-11'
 ---
 

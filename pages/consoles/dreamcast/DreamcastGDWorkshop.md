@@ -19,7 +19,7 @@ breadcrumbs:
 recommend:
 - dreamcast
 - sdk
-editlink: /dreamcast/DreamcastGDWorkshop.md
+editlink: /consoles/dreamcast/DreamcastGDWorkshop.md
 updatedAt: '2019-10-31'
 ---	
 <section class="postSection">

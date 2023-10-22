@@ -10,7 +10,7 @@ tags:
 thumbnail: /public/NintendoGameBoyThumb.png
 image: /public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
-editlink: /gameboy/GameboyDevelopmentKitHardware.md
+editlink: /consoles/gameboy/GameboyDevelopmentKitHardware.md
 videocarousel:
   - title: GB Smart Development kit
     image: https://img.youtube.com/vi/GYwV4Y1t2sQ/hqdefault.jpg

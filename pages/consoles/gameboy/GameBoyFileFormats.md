@@ -18,7 +18,7 @@ breadcrumbs:
 recommend: 
 - gameboy
 - fileformats
-editlink: ./gameboy/GameBoyFileFormats.md
+editlink: /consoles/gameboy/GameBoyFileFormats.md
 updatedAt: '2023-04-16'
 excerpt: Find out about the most common Game Boy File formats in this post
 ---

@@ -19,7 +19,7 @@ breadcrumbs:
   - name: Mr Do! Source Code (Game Boy)
     url: #
 recommend: gameboy
-editlink: /gameboy/Mrdo.md
+editlink: /consoles/gameboy/Mrdo.md
 ---
 The source code for Ocean Software's Mr Do! port to the gameboy has been officially released by two of the original developers.
 Description from Paul Hughes [^1]

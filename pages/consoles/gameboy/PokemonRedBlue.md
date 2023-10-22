@@ -33,7 +33,7 @@ breadcrumbs:
   - name: Pokemon Red/Blue Assembly Code (Game Boy)
     url: #
 recommend: gameboy
-editlink: /gameboy/PokemonRedBlue.md
+editlink: /consoles/gameboy/PokemonRedBlue.md
 ---
 
 # Introduction

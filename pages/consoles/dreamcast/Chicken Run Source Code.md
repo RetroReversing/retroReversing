@@ -28,7 +28,7 @@ videocarousel:
 recommend: dreamcast
 references:
 - Dreamcast Hub
-editlink: dreamcast/Chicken Run Source Code.md
+editlink: /consoles/dreamcast/Chicken Run Source Code.md
 ---
 
 Developed by Blitz Games (formerly known as Interactive Studios Limited) in 2000 as a cross platform action adventure game based on the movie with the same name.

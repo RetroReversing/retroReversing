@@ -17,7 +17,7 @@ breadcrumbs:
 recommend: 
 - ds
 - fileformats
-editlink: /ds/DSFileFormats.md
+editlink: /consoles/ds/DSFileFormats.md
 ---
 
 The Nintendo DS (Codename **NITRO**) utilises a number of different file formats either created by Nintendo or a third party developer. If you are interested in reverse engineering a DS game then you will most likely come across these formats, so it is a good idea to have at least some knowledge of how they work.

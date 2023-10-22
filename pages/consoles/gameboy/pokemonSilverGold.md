@@ -16,7 +16,7 @@ breadcrumbs:
   - name: How Pokemon Gold/Silver Worked (Game Boy)
     url: #
 recommend: gameboy
-editlink: /gameboy/pokemonSilverGold.md
+editlink: /consoles/gameboy/pokemonSilverGold.md
 ---
 
 

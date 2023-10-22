@@ -27,7 +27,7 @@ recommend:
   - sega
 references:
 - MrMario2011
-editlink: dreamcast/How the Dreamcast's Security was Hacked.md
+editlink: /consoles/dreamcast/How the Dreamcast's Security was Hacked.md
 updatedAt: '2020-06-27'
 ---
 
