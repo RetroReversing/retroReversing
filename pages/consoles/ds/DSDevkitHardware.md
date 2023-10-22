@@ -20,7 +20,7 @@ breadcrumbs:
 recommend: 
 - devkit
 - ds
-editlink: /ds/DSDevkitHardware.md
+editlink: /consoles/ds/DSDevkitHardware.md
 redirect_from:
   - /official-ds-devkit/
 updatedAt: '2021-03-24'
