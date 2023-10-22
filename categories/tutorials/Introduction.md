@@ -217,6 +217,7 @@ An **Application Programming Interface** (API) is a collection of functions that
 
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
 
+---
 ## How a CPU Works
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
@@ -246,6 +247,14 @@ CPU instructions are executed sequentially, one after the other, according to th
 Assembly language is a low-level programming language that's a step above the binary machine language that computers understand. It uses human-readable mnemonics and symbols to represent the basic operations a computer's Central Processing Unit (CPU) can perform, like adding numbers, moving data, and making decisions.
 
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
+
+### Do I need to learn Assembly Language for reversing?
+You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
+For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
+
+The best way is to learn as you go and use the Internet as a reference when you need to know what an instruction does.
+
+However there are a few basics that you should know before getting your hands dirty and these apply to the Assembly language used in most retro video game consoles. These will be covered in the next few sections.
 
 ### The No Operation Instruction (NOP)
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
@@ -281,6 +290,14 @@ One elegant solution involves a Random Number Generator (RNG) that relies on the
 
 This technique is frequently employed in early games, especially when other random seeds, like the current time in milliseconds, which is guaranteed to be unique but somewhat predictable, are unavailable.
 
+### What Assembly language Should I learn?
+It depends on the platform (specifically CPU) that your game was built for, here are some examples:
+* Z80 Assembly Language - Game Boy, Sega Master System, Sega Game Gear
+* 6502 Assembly Language - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
+* Motorola 68000 Assembly Language - Sega Mega Drive
+* MIPS Assembly Language - Sony Playstation 1
+
+---
 ## What is an emulator and how does it work?
 We have a specific post covering exactly how emulators works including tips for writing your own emulators:
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
@@ -296,6 +313,7 @@ You may already have a game or console chosen that you would like to reverse, if
 ## Nintendo Consoles
 We have pages on each of the following **Nintendo** consoles:
 * [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
+* [Super Nintendo Entertainment System](https://www.retroreversing.com/snes/)
 * [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
 * [Nintendo 64](https://www.retroreversing.com/n64/)
 * [Nintendo Gamecube (Dolphin)](https://www.retroreversing.com/gamecube/)
