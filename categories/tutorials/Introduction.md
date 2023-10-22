@@ -321,6 +321,22 @@ It depends on the platform (specifically CPU) that your game was built for, here
 
 Note that the above are the rough groups, some specific CPUs have more specialised instructions that are exclusive to that console, but mostly its the same programming language.
 
+### How similar are Instruction Set Architectures
+Here is a simple comparison table that highlights some key differences between different CPU Instruction Set Architectures (ISA). Please note that this table is not exhaustive and focuses on high-level distinctions:
+
+| ISA         | Example Instructions | Number of Registers | Memory Addressing Modes | Complex Instructions | Endianness |
+|-------------|----------------------|---------------------|-------------------------|-----------------------|------------|
+| Z80         | ADD, SUB, MOV        | 8 General Purpose  | Immediate, Direct, Indexed, Register Indirect | Conditional Jumps, Bit Manipulation | Little-Endian |
+| 6502        | ADC, LDA, STA        | 3 General Purpose  | Zero Page, Absolute, Indexed, Indirect | None                  | Little-Endian |
+| 68K         | ADD, SUB, MOVE       | 16 General Purpose | Register Direct, Immediate, Memory Indirect | Multiply, Divide, Bit Manipulation | Big-Endian |
+| MIPS        | ADD, SUB, LW         | 32 General Purpose | Immediate, Register Direct, Base + Offset | Load/Store, Multiply, Divide | Big-Endian |
+| x86         | ADD, SUB, MOV        | 8 General Purpose  | Register Direct, Immediate, Memory Indirect | Complex Arithmetic, SIMD | Little-Endian |
+| ARM         | ADD, SUB, LDR        | 16 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Little-Endian |
+| SuperH      | ADD, SUB, MOV        | 16 General Purpose | Immediate, Register Direct, Memory Indirect | Multiply, Divide, Bit Manipulation | Little-Endian |
+| PowerPC     | ADD, SUB, LWZ        | 32 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Big-Endian |
+
+This table provides a broad overview of these architectures, but there are many more details and specific instructions within each ISA. The number of registers, addressing modes, and the availability of complex instructions can significantly vary even within a single architecture, and the choice of endianness (byte order) can have important implications for software compatibility. For a deep dive into any of these ISAs, you would typically need to consult the official documentation or specific resources for each architecture.
+
 ---
 ## What is an emulator and how does it work?
 We have a specific post covering exactly how emulators works including tips for writing your own emulators:
