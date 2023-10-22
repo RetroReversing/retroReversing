@@ -28,6 +28,11 @@ In this guide, we'll explore the basics of reverse engineering and how it can be
 ---
 # Games
 
+## Game Library
+Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry. 
+
+In 1993, a surprising 55 new NES titles were released[^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. These new NES titles provided a diverse array of gaming experiences, catering to a wide range of players and ensuring that the beloved NES had a lasting impact long after the arrival of its successor, the SNES.
+
 ## Official Retail NES Game Source Code
 If you are interested to see officially released or leaked source code check for the Nintendo Entertainment System check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
@@ -247,3 +252,4 @@ Now after import you should be able to decompile any function you want as long a
 ---
 # References
 [^1]: [ROM City Rampage](https://www.romhacking.net/forum/index.php?topic=15982.0)
+[^2]: Game Developer Magazine April 1994 Page 24
