@@ -189,6 +189,17 @@ Here are the most common data representations:
 * **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
 * **Long** - 4 Bytes
 
+## Endianness
+Endianness refers to the byte order or how multi-byte data is stored in memory. It's important to understand endianness because games often need to work with data structures that span multiple bytes, such as integers or color values. 
+
+There are two main types of endianness:
+* **Big-Endian** - In a big-endian system, the most significant byte (the "big end") of a data word is stored at the lowest memory address, and the least significant byte (the "little end") is stored at the highest memory address. It's like writing numbers from left to right, with the most significant digits on the left. This is the order you'd naturally expect when reading a number.
+* **Little-Endian** - In a little-endian system, it's the opposite. The least significant byte is stored at the lowest memory address, and the most significant byte is stored at the highest memory address. It's as if you were writing numbers from right to left, with the least significant digits on the right.
+
+If you're developing a game on a little-endian PC but targeting a big-endian games console, you'd need to swap the bytes when loading or saving data. This byte-swapping can be essential when working with things like color values, sound samples, or binary file formats that need to be read and written correctly.
+
+Additionally, some retro consoles, like the Sega Genesis, used a mixture of big-endian and little-endian data formats, adding another layer of complexity. Understanding the specific endianness of the target console and adapting your code accordingly is crucial for retro game development to ensure that data is interpreted correctly, graphics are displayed accurately, and sound is played as intended.
+
 ## Memory Pointers
 When inspecting a game's memory it is important to know that the address where the data is stored will change from run to run. So for example if you know the lives is stored at a particular address in memory, if you restart the game you may find that it is stored in a completely different location. So how does the computer know where to look for the lives memory? The answer is simply using pointers.
 
@@ -218,6 +229,13 @@ An **Application Programming Interface** (API) is a collection of functions that
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
 
 ---
+## Microprocessors (CPUs)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJh4BIujpHA?si=0OfwRXjM9JiWavqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Microprocessors provided a cost-effective way to access computing power. Before microprocessors, developing custom hardware for each game or gaming system was expensive and time-consuming. Microprocessors allowed for standardized, affordable, and flexible computing platforms.
+
+Microprocessors brought a level of standardization to the gaming industry. Instead of needing custom hardware for each game or console, developers could create games for a common microprocessor architecture (e.g., x86, ARM, or MIPS). This made it easier for developers to create games and for consumers to adopt new gaming systems.
+
 ## How a CPU Works
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
