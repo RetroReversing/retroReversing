@@ -80,7 +80,8 @@ Some examples of the length of time it took to develop Super Nintendo games are:
 * **Spider Man & X-Men in Arcade's revenge** - Took roughly 6-7 months from start to final build using a team of 4 highly experienced game programmers, 2 talented musicians and 6 brilliant artists[^1]:
   - Programmers:	Mike Follin, Kevin Edwards, Stephen Ruddy and Michael Webb
   - Artwork:	Anthony Anderson, Craig Houston, David McLachlan, James Clarke, Jonathan M. Smith and Ste Pickford
-  - Music:	Geoff Follin and Tim Follin   
+  - Music:	Geoff Follin and Tim Follin
+* **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.   
 
 ## Remakes for the GBA
 As soon as the Game Boy Advance (GBA) was annonced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
@@ -119,3 +120,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 ---
 # References
 [^1]: [Kevin Edwards ( Retro Videogame development ) on X: "@BananaBytesBr IIRC about 6-7 months from start to final build." / X](https://twitter.com/KevEdwardsRetro/status/1715423462066360653)
+[^2]: [Development:Super Mario World 2: Yoshi's Island - The Cutting Room Floor](https://tcrf.net/Development:Super_Mario_World_2:_Yoshi%27s_Island)
