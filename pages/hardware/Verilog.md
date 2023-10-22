@@ -20,7 +20,6 @@ recommend:
 - leak
 editlink: /hardware/Verilog.md
 updatedAt: '2020-05-08'
-twitterimage: https://www.retroreversing.com/public/Hardware/Verilog.jpg
 ---
 <section class="postSection">
     <img src="/public/images/hardware/Verilog Hardware Description Language.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
