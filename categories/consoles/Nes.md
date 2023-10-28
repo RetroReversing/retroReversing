@@ -33,7 +33,7 @@ In this guide, we'll explore the basics of reverse engineering and how it can be
 ## Game Library
 Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry. 
 
-In 1993, a surprising 55 new NES titles were released[^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. These new NES titles provided a diverse array of gaming experiences, catering to a wide range of players and ensuring that the beloved NES had a lasting impact long after the arrival of its successor, the SNES.
+In 1993, a surprising **55** new NES titles were released[^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. These new NES titles provided a diverse array of gaming experiences, catering to a wide range of players and ensuring that the beloved NES had a lasting impact long after the arrival of its successor, the SNES.
 
 ## Official Retail NES Game Source Code
 If you are interested to see officially released or leaked source code check for the Nintendo Entertainment System check out our other post:
@@ -100,7 +100,7 @@ He opens up the NES controller revealing the physical wires, traces (green lines
 </section>
 
 ---
-# Game Development
+# Game Software Development
 There was an official software development kit provided by Nintendo/Intelligent Systems for the NES/Famicom but Nintendo didn't distribute it to third party developers. Instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
 
 Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
@@ -116,7 +116,8 @@ Some examples of the length of time it took to develop Nintendo Entertainment Sy
 ## Who was the first NES game developers outside of Japan?
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
 
-It is unclear if Rare got their hands on official Nintendo Development Kits or if they used their reverse engineering skills to develop their own development kits, like they must have done for their "Slalom" demo.
+They created their own development kits based on the PDS and you can find out more about it in our post on the NES Development Hardware:
+{% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## What do we know about the Official Famicom SDK?
 The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game. 
