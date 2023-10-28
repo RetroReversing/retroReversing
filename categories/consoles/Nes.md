@@ -14,7 +14,9 @@ breadcrumbs:
     url: /
   - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
-recommend: nes
+recommend: 
+ - nes
+ - snes
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
 updatedAt: '2022-10-08'
@@ -98,10 +100,23 @@ He opens up the NES controller revealing the physical wires, traces (green lines
 </section>
 
 ---
-# Software Development
+# Game Development
 There was an official software development kit provided by Nintendo/Intelligent Systems for the NES/Famicom but Nintendo didn't distribute it to third party developers. Instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
 
 Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
+
+## How long did it take to develop games for the NES back in the day?
+On average, NES game development could take anywhere from several months to a couple of years. Some simpler or shorter games might be developed more quickly, while larger, more complex titles could take longer.
+
+Most game development teams only hand a handful of people working full time on the game, mostly programmers. Artists and Sound Engineers were often working on multiple projects at the same time. Music was usually created and added to the game near the end of the development process when the game was getting ready to be shipped.
+
+Some examples of the length of time it took to develop Nintendo Entertainment System games are:
+* **SOLAR JETMAN: HUNT FOR THE GOLDEN WARSHIP** - Took 1 year with 4 developers (but only 2 developers for 60% of development time) [^4].
+
+## Who was the first NES game developers outside of Japan?
+The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
+
+It is unclear if Rare got their hands on official Nintendo Development Kits or if they used their reverse engineering skills to develop their own development kits, like they must have done for their "Slalom" demo.
 
 ## What do we know about the Official Famicom SDK?
 The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game. 
@@ -253,3 +268,5 @@ Now after import you should be able to decompile any function you want as long a
 # References
 [^1]: [ROM City Rampage](https://www.romhacking.net/forum/index.php?topic=15982.0)
 [^2]: Game Developer Magazine April 1994 Page 24
+[^3]: Retro Gamer Issue 84 from December 2010 pages 34–35.
+[^4]: Retro Gamer Issue 96 page 55
