@@ -64,16 +64,21 @@ The Sega Master System has multiple hardware revisions in its life time along wi
 
 ## Retail SMS Hardware
 The main components of the retail Sega Master System are:
-* Clock Signal Generator - Quartz Crystal signal which is split up for timing of each of the individual processors
-* Zilog Z80A CPU - Same CPU as Sinclair Spectrum and Amstrad CPC
-* 131K Sony ROM Chip used for BIOS
-* 8K NEC RAM Chip - Used for game variables such as player score
-* VDP - Video Display Processor (sprites, tiles and scrolling)
-* SEGA Sound Chip ( 3 four-octave sound channels plus white noise generator) and I/O controller
-* Two NEC 8K RAM (16K total) chips which store the data for the video chip
+* **Clock Signal Generator** - Quartz Crystal signal which is split up for timing of each of the individual processors
+* **Zilog Z80A CPU** - Same CPU as Sinclair Spectrum and Amstrad CPC
+* **131K Sony ROM Chip** - used for BIOS
+* **8K NEC RAM Chip** - Used for game variables such as player score
+* **VDP** - Video Display Processor (sprites, tiles and scrolling)
+* **SEGA Sound Chip** ( 3 four-octave sound channels plus white noise generator) and I/O controller
+* **Two NEC 8K RAM** (16K total) chips which store the data for the video chip
 
 For an in-depth look at the SMS Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/master-system/" description="Copetti.org has an excellent tear down of the SMS Hardware and how it works" image="/public/consoles/Sega Master System.png" title="Sega Master System (SMS) Architecture - A Practical Analysis" %}
+
+## Zilog Z80 Microprocessor
+The Z80 processor was a common choice for many home computers and gaming consoles during the early 1980s. It provided the computational power necessary to run a variety of games and applications on the Sega Master System. The Z80's architecture made it a versatile and widely used processor at the time, allowing developers to create games and software for the console.
+
+{% include link-to-other-post.html post="/z80" description="For more information about the Z80 CPU used in the Sega Master System check out this post." %}
 
 ---
 # Software Development Kit

@@ -98,6 +98,11 @@ Along with the hardware, Nintendo also provided a fairly limited software develo
 We used to have a post on the hardware architecture of the Game Boy, but now we have replaced it for a link to the far superior page on **copetti.org**, it is a must read for any reverse engineer or beginner emulator developer.
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/game-boy/" description="This page on copetti.org has everything you need to know about the Game Boy Hardware, it is a must read!" image="/public/NintendoGameBoyThumb.png" title="Game boy Architecture - A Practical Analysis"  %}
 
+## Sharp LR35902 Microprocessor
+The CPU used in the original Game Boy was a custom Sharp LR35902, which is often considered similar to the Zilog Z80 but with some variations. While it was based on the Z80 architecture, it was not produced by Zilog.
+
+{% include link-to-other-post.html post="/z80" description="For more information about the Z80-based CPU used in the Game Boy check out this post." %}
+
 ## Game Boy Pocket Hardware Schematics
 If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Gameboy Circuit Schematics over on Github:
 [gb-schematics/MGB-xCPU.pdf at master · Gekkio/gb-schematics · GitHub](https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf)
