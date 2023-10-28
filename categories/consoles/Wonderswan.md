@@ -5,8 +5,8 @@ console: wonderswan
 title: Wonderswan Reverse Engineering
 consoleimage: /public/consoles/Wonderswan.png
 thumbnail: /public/consoles/Wonderswan.png
-image_: /public/images/nes/Wonderswan.jpg
-twitterimage_: https://www.retroreversing.com/public/images/atari/Wonderswan.jpg
+image_: /public/images/Wonderswan.jpg
+twitterimage_: https://www.retroreversing.com/public/images/Wonderswan.jpg
 breadcrumbs:
   - name: Home
     url: /
@@ -27,6 +27,12 @@ Welcome to our page dedicated to Bandai Wonderswan reverse engineering! The Wond
 If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Wonderswan reverse engineering. 
 
 Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. So grab your Wonderswan, and get ready to dive into the exciting world of reverse engineering!
+
+---
+# Hardware
+
+## CPU
+ The CPU used in the WonderSwan was the NEC V30MZ, which is a microprocessor based on the NEC V30 architecture. The NEC V30MZ CPU in the WonderSwan handheld console ran at a clock speed of approximately 3.072 MHz. The NEC V30 is an extended version of the Intel 8086 microprocessor, and it offered improved performance and compatibility.
 
 ---
 # Games
