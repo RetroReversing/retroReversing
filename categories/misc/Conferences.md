@@ -40,7 +40,37 @@ GDC stands for the "Game Developers Conference," which is an annual event held f
 ## CGDC 1988
 The first Computer Game Developers Conference (CGDC) was held in 1988. It was founded by Chris Crawford, a well-known game designer and developer, and it took place in his living room in San Jose, California. This initial gathering was relatively small and informal compared to the later iterations of GDC, but it marked the beginning of what would become one of the most significant annual events in the video game industry. Since that modest start, GDC has grown in size and importance, attracting game developers and industry professionals from around the world.
 
+## CGDC 2 - September 18th/19th 1988
+The second Computer Game Developers Conference (CGDC) was held later in the same year, on September 18th and 19th 1988. It was sponsored by Computer Gaming World and would be the first GDC with a pre-planned agenda.
+
+You can find the main talks and their authors in the table below:
+
+Title | Presenter | Notes
+---|---|---
+Interactive Story Making | Brian Moriarty | Creator of Loom
+Art and Animation Panel | Willie Aguilar, Paul Reiche | 
+Creativity and Game Design | Chris Crawford | 
+Legal Issues | Susan Nycum | 
+Playtesting and Q.A. | Dan Bunten, Cem Kaner, Dave Menconi | 
+Developing for the Macintosh | David Feldman | 
+Game Idea to Game Design | Kellyn Beeck |
+Sound and Music panel | Chris Grigg, David Thiel, Dave Warhol |
+Fantasy Role Playing Games | Brian Fargo |
+PR for Developers | Ed Niehaus | 
+Brining Characters to Life panel | Chris Crawford, David Graves, Brenda Laurel | 
+Market Trends panel | Bob Lindstrom, Scott Mace | 
+Simulations panel | Ned Lerner, Gilman Loule, Gordon Walton |
+From Proposal to Contract | Stephen Friendman | 
+Self-Publishing | Pete Antoniak | 
+Developing for MS-DOS | Evan and Nicky Robinson | 
+Sports and Action Games panel | Jordan Mechner, Scott Orr | 
+New Techniques in Theft Protection | Jeff Johannigman | 
+
+As far as we know all the content for these presentations have been lost to time, but please let us know if any slides or notes are available somewhere on the internet.
+
 The conference did not become an annual event until a few years later.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
