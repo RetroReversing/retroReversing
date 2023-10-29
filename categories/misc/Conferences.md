@@ -368,9 +368,8 @@ This is the last year before it was sold to Miller Freeman for about 3 million d
 
 Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
 
-The only talks we know tend to be through book references, here is a list of the known talks:
-* The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
-* A Story Wrapped Inside a Puzzle Wrapped Inside an Enigma: Designing Adventure Games by Steve Meretzky 
+
+There were at least 234 talks at CGDC 1996 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
 
 Title | Presenter | Notes
 ---|---|---
@@ -612,6 +611,10 @@ Music Roundtable | Donald Griffin | CGDC96-235
 BRender: The Real-time 3D Rendering System for Games | Jez San & Rich Seidner, Argonaut Technologies | CGDC96-236
 Demystifying Motion Editing | Bart Gawboy, Nichimen Graphics | CGDC96-237
 Banquet Speaker | Peter Bergman, Firesign Theatre | CGDC96-238
+
+Here are the talks that have slides available online:
+* The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
+
 
 ---
 ## CGDC 1997 - April 25th-29th
