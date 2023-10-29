@@ -222,7 +222,16 @@ Contract Negotiations: Issues & Strategy | Jeffery O'Connel |
 
 
 ## CGDC 1995
-CGDC 1995 was conference last with Chris Crawford.
+There were so many talks in CGDC 1995 year that the conference was split into a number of specialist "Tracks":
+* Audio
+* Business
+* Edutainment/Education
+* General Interest
+* Management
+* Online/Network
+* Special Interest
+* Technical
+* Visual Arts
 
 There were at least 128 talks at CGDC 1995 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
 
@@ -351,11 +360,11 @@ The Wannabe Roundtable | Neil Kirby | Special Interest | CGDC95-126
 Wargames | Don Griffin | Special Interest | CGDC95-127
 The Writers' Roundtable | C. Marx, Michele Em, K. Lawrence | General Interest | CGDC95-128
 
-This years show even had IBM tyring to get people to write games for OS/2 with their sponsored "OS/2 as a Viable PC Games Platform" sessions, I wonder how many developers were convinced because it certainly did not become a visable PC Games Platform and was competing with Windows 95 talks.
+This years show even had IBM trying to get people to write games for **OS/2** with their sponsored "OS/2 as a Viable PC Games Platform" sessions, I wonder how many developers were convinced because it certainly did not become a viable PC Games Platform and was competing with Windows 95 DirectX talks. I would love to see what content was presented at that, fantastic bit of game development history, what APIs were even shown off for OS/2?
 
 
 ## CGDC 1996
-This is the year it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4].
+This is the last year before it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4]. So this will be the last conference with a presentation by Chris Crawford.
 
 Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
 
