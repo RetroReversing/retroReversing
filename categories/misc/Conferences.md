@@ -34,6 +34,18 @@ At E3 1995, the gaming industry was undergoing significant changes, with the Sup
 
 E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
 
+# GDC - Game Developer's Conference
+GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+
+## CGDC 1988
+The first Computer Game Developers Conference (CGDC) was held in 1988. It was founded by Chris Crawford, a well-known game designer and developer, and it took place in his living room in San Jose, California. This initial gathering was relatively small and informal compared to the later iterations of GDC, but it marked the beginning of what would become one of the most significant annual events in the video game industry. Since that modest start, GDC has grown in size and importance, attracting game developers and industry professionals from around the world.
+
+The conference did not become an annual event until a few years later.
+
+## GDC 2001
+"Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 # References
 [^1]: Tom Kalinske in RETRO volume 9 (page 25)

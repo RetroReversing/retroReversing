@@ -32,7 +32,28 @@ Title | Publisher | Notes
 Develop | NewBayMedia | UK Magazine which was published from August 1996 Until November 2017
 Game Developer | UBM Tech | US Magazine which was published from March 1994 until July 2013
 GameMaker | Future Publishing | UK magazine dedicated to Game Modding and Development. Only 1 issue was published in October 2003 before it became a supplement for the **PC Format** magazine (which also didn't last long)
-Wireframe | Raspberry Pi Press | From November 2018 and still going strong in May 2022!
+Journal of Computer Game Design | Self Published | From June 1987 until 1993 when it rebranded to Interactive Entertainment Design
+Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 2023 (70 issues)
+
+---
+## Journal of Computer Game Design
+The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design.
+
+The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends.
+
+## Contributors
+The "Journal of Computer Game Design" attracted contributions from influential figures in the game industry, including both seasoned designers and emerging talents. It provided a platform for developers to share their knowledge and ideas with a growing community of game creators.
+
+## Educational Resource
+The journal served as an educational resource for aspiring game designers and developers. It offered insights into the game design process and helped establish a foundation for the formal study of game design.
+
+## Influence
+The journal was influential in shaping the early understanding of game design principles and the importance of player experience in video games. It played a role in advancing the field of game design and fostering a sense of community among game creators.
+
+## Discontinuation
+The "Journal of Computer Game Design" ceased publication in the early 1990s. While it had a significant impact during its existence, it was succeeded by other publications and academic efforts dedicated to game design and development.
+
+The "Journal of Computer Game Design" was an important early resource for the game development community, contributing to the growth and maturation of the video game industry. While it may no longer be in print, its legacy continues through the ongoing discussions and academic studies surrounding game design and development.
 
 ---
 ## Wireframe Magazine
@@ -460,3 +481,4 @@ ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of usefu
 ---
 # References
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
+[^2]: [The Journal of Computer Game Design - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)

@@ -24,6 +24,11 @@ The 3DO Interactive Multiplayer, commonly known as the 3DO, was developed by The
 # Development Hardware
 The 3DO offers a comprehensive development environment, even incorporating snippets from the extensive Time Warner movie library. It's designed to be user-friendly, particularly welcoming to those without extensive programming experience. The entire setup, including the Apple Quadra it operates on, comes to about $15,000 in cost [^1].
 
+## Apple Quandra
+The Apple Quadra was a series of personal computers produced by Apple Inc. during the late 1980s and early 1990s. These computers were part of Apple's Macintosh line and were known for their advanced features, processing power, and expansion options at the time. The "Quadra" name was used to indicate the 68040 processor that many of these computers were equipped with.
+
+The Apple Quadra series included various models with different specifications and capabilities. These computers were used for a wide range of tasks, including desktop publishing, graphic design, and software development. The Quadra series was part of Apple's efforts to provide high-performance computers to professional and power users.
+
 ---
 # References
 [^1]: Game Developer Magazine issue 1
