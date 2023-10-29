@@ -236,7 +236,7 @@ There were so many talks in CGDC 1995 year that the conference was split into a 
 There were at least 128 talks at CGDC 1995 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
 
 Title | Presenter | Track | Notes
----|---|---
+---|---|---|---
 Adding a New Dimension: Moving from 2D to 3D Animation | Vance Gloster | Visual Arts | CGDC95-001
 Ages, Stages, and Living Pages: Designing for Interactivity | Mark Schlichting | Edutainment/Education | CGDC95-002
 The Answer Is Money | Noah Falstein | General Interest | CGDC95-003
@@ -372,6 +372,247 @@ The only talks we know tend to be through book references, here is a list of the
 * The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
 * A Story Wrapped Inside a Puzzle Wrapped Inside an Enigma: Designing Adventure Games by Steve Meretzky 
 
+Title | Presenter | Notes
+---|---|---
+Don't Flip the Bozo Bit...and other Principles of Shipping Great Software on Time | Jim McCarthy CGDC96-001
+"Show, Don't Tell": Fundamentals of Interactive Design | Noah Falstein | CGDC96-002
+Design Errors of the Rich and Famous and How to Fix Them | Barbara A. Lanza | CGDC96-003
+Real AI, the Sequel: Pathfinding | Bryan Stout | CGDC96-004
+Legal Basics for the Game Development Business | Gene K. Landy | CGDC96-005
+Modern Development Strategies for On-line Gaming | James M. Turner | CGDC96-006
+Mathematics: The Soul of Puzzling in Games for Education and Exploration | Michael Fellows | CGDC96-007
+Hardware Innovation under DirectSound | Campbell Stras | CGDC96-008
+Software and Compatibility Testing | Megan Quattrocchi & Jeanne Collins | CGDC96-009
+The Hiring Process: How to Hire or be Hired | Kay Sloan | CGDC96-010
+Geeks vs. Suits | Anthony Farmer | CGDC96-011
+3D Art Tools | Josh White | CGDC96-012
+Developing Multilingual Products | Aric Wilmunder | CGDC96-013
+Voodoo Graphics by 3Dfx Interactive: Use the Hottest 3D Technology... | Andy Keane, 3Dfx | CGDC96-014
+Writing Applications for the Architecture | Intel | CGDC96-015
+Interactive 3D Audio: Coming to a PC Near You! | Tim Bratton & Bill Windsor, Spatializer | CGDC96-016
+The Point Is: The Social and Ontological Ramifications of the Web | Brian Moriarty | CGDC96-017
+Developing for the Sony Playstation | Steve Ackroyd | CGDC96-018
+The Basics of Interactive Drama | Ben Calica | CGDC96-019
+Improvisational Puppets, Actors, and Avatars | Barbara Hayes-Roth | CGDC96-020
+Software Maturity: Do Game Developers Really Need It? | Larry Constantine | CGDC96-021
+Strategies for Truly Interactive Animation Production | Mark Netter & Nicole Tostevin | CGDC96-022
+Managing the Complexity of the Interactive Entertainment Design Document | Jared Freedman | CGDC96-023
+Designing for Social Interaction | Danielle Berry | CGDC96-024
+The Changing Face of 3D Programming | Brian Hook | CGDC96-025
+Windows 95 Debate | Michael Sandige | CGDC96-026
+Product Development is from Jupiter, Marketing is from Uranus | Steve Peterson | CGDC96-027
+AI in Strategy & Military Games | Phil Steinmeyer | CGDC96-028
+Music Roundtable | Donald Griffin | CGDC96-029
+Multiplayer Games | Brian Hammerstein | CGDC96-030
+3D StudioMax: The Next Generation of Modeling & Animation Tools | Philp Miller, Autodesk | CGDC96-031
+Writing Applications for the Intel Architecture: Audio | Intel | CGDC96-032
+Animation Master | Jeff Bunker, Hash Inc. | CGDC96-033
+Windows Programming Fundamentals | | CGDC96-034
+Artificial Gossip | Chris Crawford | CGDC96-035
+Real AI for Real Games, Part 1: Technical Tutorial and Design Practice | Dr. Walter Alden Tackett | CGDC96-036
+Creating Dazzling Sound Effects | Rob Wallace | CGDC96-037
+The Emerging Design Grammar of VR Games | Mark Long & Joanna Alexander | CGDC96-038
+When Teams Work, When Teams Break | Don L. Daglow | CGDC96-039
+Riding the Speeding Train: Controlling the Design Process | Amanda Crispel | CGDC96-040
+Living in a 256 World | Merrill Nix | CGDC96-041
+Big Brother in the 21st Century | Kevin Cheung | CGDC96-042
+Financing Alternatives | Dean Gloster | CGDC96-043
+Developing for New Technologies | Theodore Beale & Andrew Lunstad | CGDC96-044
+Edutainment Design | Tom Guthery | CGDC96-045
+Writing Workshops for Computer Games | Katherine Lawrence | CGDC96-046
+Story vs. Gameplay | Raymond Benson | CGDC96-047
+DirectPlay: Protocol Independent Multiplayer Games | Donna Scott & G. Eric Engstrom, Microsoft | CGDC96-048
+Analog Devices | | CGDC96-049
+Writing Applications for the Intel Architecture: Video | Intel | CGDC96-050
+Using COM to Develop Games in Delphi and Borland C++ | Charles Calvert & Lar Mader, Borland Int | CGDC96-051
+Diamond Developer Relations Program | Gary Kinsey, Diamond Multimedia | CGDC96-052
+The Making of the 11th Hour | Robert Stein III & David Wheeler | CGDC96-053
+Current Issues in Licensing & Royalty Rates | Brian Napper | CGDC96-054
+Real AI for Real Games, Part 2: Design Practice and Demonstrations | Dr. Walter Alden Tackett | CGDC96-055
+The Nine Act Story Structure, Part 1 | David Siegel | CGDC96-056
+Female is a Six-letter Word | Laura Groppe | CGDC96-057
+Win 32 Game Development Under Win 95, Part 1 | Ed Averill | CGDC96-058
+Interactive Audio on the Bleeding Edge | Donald S. Griffin | CGDC96-059
+The Future of the Gaming Industry | Eric Pinnell | CGDC96-060
+Coin-Ops | Mark Pierce | CGDC96-061
+Strategic Business Models for Development on the Internet | Christopher Dean | CGDC96-062
+Adventure Building for On-line RPGs | Don McClure | CGDC96-063
+Pre-Production Art Prep | Arlin Robins | CGDC96-064
+Adventure Games | Hal Barwood | CGDC96-065
+DirectSound: Low-latency Sound Mixing for Windows | Bob Heddle & G. Eric Engstrom, Microsoft | CGDC96-066
+Writing Applications for the Intel Architecture:3D | Intel | CGDC96-067
+Transforming the PC | Ken Comstock, Diamond Multimedia | CGDC96-068
+In Praise of Sex and Violence | Ernest Adams | CGDC96-069
+Producing Compelling Film/Video for Interactive Products | Mark W. Day | CGDC96-070
+From Concept to Contract: Making A Successful Product Pitch | David Mullich | CGDC96-071
+The Nine Act Story Structure, Part 2 | David Siegel | CGDC96-072
+The Implications of Live-Action for On-line Interactive Games | John O'Neil | CGDC96-073
+Win 32 Game Development Under Win 95, Part 2 | Ed Averill | CGDC96-074
+Surviving as a Full-Time Freelancer | Mike Breault | CGDC96-075
+Collaborating in Game Design | Noah Falstein & David Fox | CGDC96-076
+Legal Problems | Charles Kramer | CGDC96-077
+Working with Hollywood Talent | Jim Bloom | CGDC96-078
+Audio Forum | Dominic Milano | CGDC96-079
+Managing Programmers and Game Development | Evan Robinson | CGDC96-080
+Authoring Tools Hits and Misses | Jamie Siglar | CGDC96-081
+Primary Education | Ann McCormick | CGDC96-082
+SoftImage for NT: Imaging Power on the Desktop PC | Microsoft | CGDC96-083
+GrIP - Stop Playing with Yourself | John Smith, Advanced Gravis | CGDC96-084
+Writing Applications for the Intel Architecture: Optmizing Apps | Intel | CGDC96-085
+The Mirage Universal CD Emulator | Guy Carpenter, Cross Products Ltd | CGDC96-086
+Developing Great Windows 95 Game with Diamond | Jon Burgstrom & Panel, Diamond Multimedia | CGDC96-087
+"Psychic Detective" Solves the Mystery of Making the Interactive Film into a Game | Michael Kaplan, John Sanborn & Jim Simmons | CGDC96-088
+Owning and Protecting Intellectual Property | Bruce Maximov | CGDC96-089
+General MIDI Sound Cards? OK, Let's Talk. | George Alistair Sanger | CGDC96-090
+3D & Video Asset Management: Establishing and Maintaining a Digital Prop Department | Mark Peasley | CGDC96-091
+Writing Bug-Free Games | David Thielen | CGDC96-092
+Marketing Slime: What Do They Want? | Rick Reynolds & Robin Harper | CGDC96-093
+Focused On-line Environments: The Next Experience | Hans Bukow | CGDC96-094
+Click-Smart: Some Considerations for the Design of Click-Ons in Educational Games | Marv Westrom & Doug Super | CGDC96-095
+Story vs. Gameplay | Raymond Benson | CGDC96-096
+Adventure Games | Hal Barwood | CGDC96-097
+Coin-Ops | Mark Pierce | CGDC96-098
+Developing for New Technologies | Theodore Beale & Andrew Lunstad | CGDC96-099
+Multiplayer Games | Brian Hammerstein | CGDC96-100
+Developing Multilingual Products | Aric Wilmunder | CGDC96-101
+Apple Game SDK, Part 1 - Intro, Overview and Future Directions | Ben Calica, Apple | CGDC96-102
+Advanced 3D-Interaction with the Spaceball Avenger (and Avenger II!) | Adam Bosnian, Spacetec IMC Corp. | CGDC96-103
+How to Bring your Games to the Internet, Via TEN | William Lipa, Dave King & Greg Harper | CGDC96-104
+3D Graphics - The Only Game in Town | Steve Mosher, Creative Labs | CGDC96-105
+Floating Point Performance Programming Techniques | Chris Hecker | CGDC96-106
+Building an On-line Gaming Service | G. Eric Engstrom | CGDC96-107
+Representing Human Characters in Interactive Games | Greg Pisanich & Michael Prevost | CGDC96-108
+Pixel Production: Pleasure or Pain? | Steve Snyder | CGDC96-109
+Keep 'em Laughin' AND Thinkin': How to Design Great Kids' Games | Annie Fox | CGDC96-110
+The Contractor-Publisher Relationship, From Both Sides | Ellen Guon & Gano Haine | CGDC96-111
+Developing Immersive Interfaces: Lessons Learned Outside of Games | David G. Shaw | CGDC96-112
+Designing for Social Interaction | Danielle Berry | CGDC96-113
+Strategic Alliances | Judy Lange | CGDC96-114
+3D Art Tools | Josh White | CGDC96-115
+Music Roundtable | Donald Griffin | CGDC96-116
+Geeks vs. Suits | Anthony Farmer | CGDC96-117
+Alternative Financing | Theodore Beale & Andrew Lunstad | CGDC96-118
+Managing Programmers and Game Development | Evan Robinson | CGDC96-119
+Apple Game SDK, Part 2 - RAVE | Mike Kelley, Apple | CGDC96-120
+Voodoo Graphics by 3Dfx Interactive: Use the Industry's Hottest 3D Technology... | Andy Keane, 3Dfx | CGDC96-121
+How to Bring your Games to the Internet, Via TEN | William Lipa, Dave King & Greg Harper | CGDC96-122
+PC Audio in the 90's What to Listen For | Dave Rossum & Eric Larsen, Creative Labs | CGDC96-123
+The Invasion of the Hollywood Talent Pool | Roger Holzberg & Howard Burkons | CGDC96-124
+How to Appeal to the On-line Gamer | Daniel Goldman | CGDC96-125
+The Expanding Job of the Game Artist | Leslie Pardew | CGDC96-126
+Developing for the PC CD | Guy Wright | CGDC96-127
+Exploring New Worlds with QuickTime VR | Peter Mackey | CGDC96-128
+Successful Planning to Get Your Business Funded | Gina Frye & Ann Winblad | CGDC96-129
+Hard-won Lessons of a Veteran Game Marketer | Michael Dornbrook | CGDC96-130
+El Mariachi on the Mac: Game Development on a Shoestring | Roger Kemper & Tom Kemper | CGDC96-131
+Writing Workshops for Computer Games | Katherine Lawrence | CGDC96-132
+AI in Strategy & Military Games | Phil Steinmeyer | CGDC96-133
+Edutainment Design | Tom Guthery | CGDC96-134
+The Changing Face of 3D Programming | Brian Hook | CGDC96-135
+Audio Forum | Dominic Milano | CGDC96-136
+Authoring Tools Hits and Misses | Jamie Siglar | CGDC96-137
+Apple Game SDK, Part 3 - PowerPlug, PowerAmp and Speech Input | Michael Evens & Dan Venolia, Apple | CGDC96-138
+Building the Game of the Future | ATI Technologies | CGDC96-139
+Activation - Real-time 3D Graphics Software for Game Prototyping | Bruce Sinclair, Coryphaeus | CGDC96-140
+PowerVR: A Revolution in 3D Graphics Technology | NEC Electronics | CGDC96-141
+Statistics and Predictions for the Interactive Entertainment Industry | Ruthann Quindlen | CGDC96-142
+Writing Multiplayer Games for the Internet | Jeffrey Rothschild | CGDC96-143
+Choice, Control, and Consequence in Interactive Comedy | Walter Freitag | CGDC96-144
+Software Project Management | C. Gordon Walton, Jr. | CGDC96-145
+Virtual Sets: Creating High Quality Video/3D Composites | Mark Giambruno | CGDC96-146
+Four Ways to Play: Piaget's Analysis of Common Childhood Games | Erik Strommen | CGDC96-147
+Getting the Most Out of 3D Accelerators | Robert Mullis | CGDC96-148
+Interactive 3D Audio: A New Dimension for Game Development | Toni Schneider | CGDC96-149
+The Hiring Process: How to Hire or be Hired | Kay Sloan | CGDC96-150
+Legal Problems | Charles Kramer | CGDC96-151
+Pre-Production Art Prep | Arlin Robins | CGDC96-152
+Financing Alternatives | Dean Gloster | CGDC96-153
+Software and Compatibility Testing | Megan Quattrocchi & Jeanne Collins | CGDC96-154
+Windows 95 Debate | Michael Sandige | CGDC96-155
+Apple Game SDK, Part 4 PowerPlay and PowerShow | Jamie Osborne & Cary Farrier, Apple | CGDC96-156
+Feel the RAGE: Experience ATI's New Mach64-based 3D Accelerator | ATI Technologies | CGDC96-157
+The Quake Graphics Engine | Michael Abrash | CGDC96-158
+Developing for the Sega Saturn | Marty Franz | CGDC96-159
+The Breakthroughs and Pitfalls of Developing Interactive Drama | Dexter Chow, Haney Armstrong & Ken Golfstein | CGDC96-160
+Seven Ways to Avoid Getting Screwed | Edward de Jong | CGDC96-161
+2D Animation in 3D Worlds | John Gaffey & Ray Manabe | CGDC96-162
+Digital Joystick Protocols and Gaming Devices | | CGDC96-163
+Distribution Options for Today's Market | Bryan Neider | CGDC96-164
+Some Design and Industry Pointers for Wannabe Coin-Op Developers | Jeff Brown | CGDC96-165
+Big Brother in the 21st Century | Kevin Cheung | CGDC96-166
+Adventure Building for On-line RPGs | Don McClure | CGDC96-167
+Product Development is from Jupiter, Marketing is from Uranus | Steve Peterson | CGDC96-168
+Working with Hollywood Talent | Jim Bloom | CGDC96-169
+Sports Games | Kevin Hogan | CGDC96-170
+Developing Multilingual Products | Aric Wilmunder | CGDC96-171
+The Business of Mac Games | Mark Gavini, Apple | CGDC96-172
+Firewalker Authoring System - Invent New Levels of 3D Interactivity | Jeff Benrey & Sheila Ward, Silicon Studio | CGDC96-173
+What Game Developers Need to Know About the New 3D Audio Paradigms | Win Craft, David Bates & Dales Gulick, Spatializer | CGDC96-174
+Interactive Movies Debate: Hot New Genre or Marketing Fluff? | Ernest Adams & Jim Simmons | CGDC96-175
+DOS Games in a Windows World | David Thielen | CGDC96-176
+Play & Learning: A Battle for Mindshare? | Ann McCormick | CGDC96-177
+Developing Windows Games for the Japanese Market | James Spahn | CGDC96-178
+Technical Aspects of On-line Development | Kevin Cheung | CGDC96-179
+Moving Mountains: Getting Animation and 3D Data into the Game Box | Peter Ryce | CGDC96-180
+Programming the M2 | David Maynard | CGDC96-181
+Audio Forum | Dominic Milano | CGDC96-182
+Sports Games | Kevin Hogan | CGDC96-183
+AI in Strategy & Military Games | Phil Steinmeyer | CGDC96-184
+Pre-Production Art Prep | Arlin Robins | CGDC96-185
+Geeks vs. Suits | Anthony Farmer | CGDC96-186
+Coin-Ops | Mark Pierce | CGDC96-187
+Voodoo Graphics by 3Dfx Interactive - Use the Industry's Hottest 3D Technology | Andy Keane, 3Dfx | CGDC96-188
+Thexder Meets Win 95 or Writing Great Games in the Win 95 Environment | Cheryl Makovsky | CGDC96-189
+PC Network Games for Nearly Everyone | Neil Kirby | CGDC96-190
+Aristotle's Dramatic Principles in the Interactive Medium | Jim Simmons | CGDC96-191
+Maximizing Shareware Success | Karen Crowther | CGDC96-192
+The Responsibility of the Author in Developing Storytelling Games | Bob Bates | CGDC96-193
+Breaking the Mold in Edutainment Design | David Katzner | CGDC96-194
+Tricks and Techniques for Sound Effect Design | Bobby Prince | CGDC96-195
+"Wargames Don't Sell" or How to Actually Write Successful Wargames | Mark Baldwin | CGDC96-196
+Strategic Business Models for Development on the Internet | Christopher Dean | CGDC96-197
+3D Art Tools | Josh White | CGDC96-198
+Edutainment Design | Tom Guthery | CGDC96-199
+Managing Programmers and Game Development | Evan Robinson | CGDC96-200
+The Changing Face of 3D Programming | Brian Hook | CGDC96-201
+Legal Problems | Charles Kramer | CGDC96-202
+Multi-Player On-Line Gaming - Who? What? Where? Why? How? When? | Konstantin Othmer, Catapult | CGDC96-203
+Building Games for ATI's 3D Rage | ATI Technologies | CGDC96-204
+Direct 3D: Device Independent Acceleration | Servan Keondjian & G. Eric Engstrom, Microsoft | CGDC96-205
+What is Interactive? A Rigorous Definition | Stuart Moulder | CGDC96-206
+Motion Capture: Replicating Reality | Ken Kline | CGDC96-207
+20th Century Scoring for Next Century Entertainment: A Call for Interactive Audio Design | Dave Javelosa | CGDC96-208
+Real-time 3D Modeling | Josh White | CGDC96-209
+The Art of the Deal | Dean M. Gloster | CGDC96-210
+Design Issues for On-line Virtual Communities and Playgrounds | Ben Calica | CGDC96-211
+A Nuts and Bolts Seminar on How To Direct and Help Actors | Jeanne Hartman | CGDC96-212
+Writing Workshops for Computer Games | Katherine Lawrence | CGDC96-213
+Adventure Building for On-line FRPGs | Don McClure | CGDC96-214
+Multiplayer Games | Brian Hammerstein | CGDC96-215
+Story vs. Gameplay | Raymond Benson | CGDC96-216
+Authoring Tools Hits and Misses | Jamie Siglar | CGDC96-217
+Working with Hollywood Talent | Jim Bloom | CGDC96-218
+Exporting Object and Animation Data to Multiple Platforms | Dave Aronson, Nichimen Graphics | CGDC96-219
+Optimizing Games for 3D Hardware | 3D Labs | CGDC96-220
+Five Simple Steps to the Perfect Model | Jonathan Houston, Faro Technologies | CGDC96-221
+DirectDraw: Highspeed BLTing in Windows | Craig Eisler & G. Eric Engstrom, Microsoft | CGDC96-222
+Developing a Cross-Platform Product Strategy | John Kavanagh | CGDC96-223
+3D Graphics and Animation for Real Time Games | Gregory Hammond | CGDC96-224
+The Evolving Internet: A Gaming Perspective | Phillip King | CGDC96-225
+A Story Wrapped Inside a Puzzle Wrapped Inside an Enigma: Designing Adventure Games | Steven Meretzky | CGDC96-226
+Utilizing Lawyers in Today's Deal-making Environment | Alisa Baker | CGDC96-227
+How to Make Your Games Sell Overseas | Juergen Egeling | CGDC96-228
+Use of Voice in Interactive Products | Wally Fields & Mike Bailey | CGDC96-229
+Windows95 Debate | Michael Sandige | CGDC96-230
+Product Development is from Jupiter, Marketing is from Uranus | Steve Peterson | CGDC96-231
+Big Brother in the 21st Century | Kevin Cheung | CGDC96-232
+Adventure Games | Hal Barwood | CGDC96-233
+Software and Compatibility Testing | Megan Quattrocchi & Jeanne Collins | CGDC96-234
+Music Roundtable | Donald Griffin | CGDC96-235
+BRender: The Real-time 3D Rendering System for Games | Jez San & Rich Seidner, Argonaut Technologies | CGDC96-236
+Demystifying Motion Editing | Bart Gawboy, Nichimen Graphics | CGDC96-237
+Banquet Speaker | Peter Bergman, Firesign Theatre | CGDC96-238
+
 ---
 ## CGDC 1997 - April 25th-29th
 The 1997 Computer Game Developers Conference was hosted in the Santa Clara Conference Center in Washington, D.C. It was much larger in scope than the previous years and in fact took five days instead of the usual two.
@@ -382,7 +623,7 @@ The first 2 days introducted two new sub-conferences:
 
 The Classic CGDC Conference would then take the next three days (27th-29th).
 
-The overall attendees was estimated to be over 6,300 by the July 2997 issue of Next Generation Magazine.
+The overall attendees was estimated to be over **6,300** by the July 2997 issue of Next Generation Magazine.
 
 ### Two Day Tutorials
 This conference introduced what they called the **Two Day Tutorials** which were tutorials on various software that would take up the full first two days of the conference, presumably for those uninterested in the other two sub-conferences going on at the same time.
