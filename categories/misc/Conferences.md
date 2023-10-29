@@ -11,11 +11,14 @@ redirect_from:
   - /conference
   - /conf
 editlink: ../categories/misc/Conferences.md
-recommend: industry
-image_: /public/images/categories/Games Industry Conferences.jpg
-twitterimage_: https://www.retroreversing.com/public/images/categories/Games Industry Conferences.jpg
+recommend: 
+ - industry
+ - introduction
+image: /public/images/categories/Games Industry Conferences.jpg
+twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Conferences.jpg
 tags:
  - industry
+updatedAt: '2023-10-29'
 ---
 
 # Introduction
@@ -32,6 +35,7 @@ Conference | Dates | Category | Notes
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase | 
 E3 | 1995-Ongoing | Showcase | 
+Digital World Conference | 1990-1995? | Development | 
 
 
 ---
