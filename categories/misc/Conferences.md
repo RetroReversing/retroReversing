@@ -94,15 +94,23 @@ The Fifth CGDC was the first to have been directed by Ernest Adams just before h
 
 We only know of a few talks that took place at this conference:
 * Intelligent Behavior Without AI: An Evolutionary Approach by Neil Kirby
+* Cyberspace: Lessons of Lucasfilm's Habitat by F. Randall Farmer, Chip Morningstar (CGDC91-003) [^7]
+
+Only the Cyberspace talk was recorded on Audio cassete by the KNOW-IT-ALL Audiovisual Library [^7].
 
 
 ## CGDC 1992 - April 25th-26th
 Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was attended by over 600 game industry professionals.
 
+We only know of a few talks that took place at this conference:
+* Artificial Personality by Jon Freeman (CGDC92-026)
+* Making It Real: Story & Characters by Ellen Guon, Katherine Lawrence (CGDC92-014)
+
+
 ## CGDC 1993
 Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
 
-The only talks we knew take place are the following:
+The only talks we know of that took place are the following:
 * Designing Fair Puzzles by Bob Bates
 * Legal Trends Affecting Computer Game Development by Alisa Baker
 * Characters  by Katherine Lawrence
@@ -167,7 +175,7 @@ This is the year it was sold to Miller Freeman for about 3 million dollars, now 
 Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
 
 The only talks we know tend to be through book references, here is a list of the known talks:
-* The Quake Graphics Engine by Michael Abrash
+* The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
 * A Story Wrapped Inside a Puzzle Wrapped Inside an Enigma: Designing Adventure Games by Steve Meretzky 
 
 ---
@@ -637,3 +645,4 @@ E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, th
 [^4]: [The History of Game Developers Conference (documentary, 2019/2020) - YouTube](https://www.youtube.com/watch?v=HqpzBzcvUdw)
 [^5]: [GDC 2000 - GameSpot](https://www.gamespot.com/articles/gdc-2000/1100-2451531/)
 [^6]: [Game Developers Conference 2000: Special Events](https://web.archive.org/web/20001117103000/http://www.gdconf.com/2000/directx.html)
+[^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
