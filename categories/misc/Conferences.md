@@ -36,6 +36,8 @@ Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase | 
 E3 | 1995-Ongoing | Showcase | 
 Digital World Conference | 1990-1995? | Development | 
+Intertainment | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 Intertainment Conference
+xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
 
 
 ---
@@ -489,6 +491,42 @@ The first Conference to be branded simply as GDC, loosing the Computer prefix an
 ## CGDC 1998 - May 4th-8th
 The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now replaced with GDC which had just been hosted 2 months earlier [^3].
 
+## GDC 1999
+The 1999 GDC had more than 9,500 attendees [^5].
+
+## GDC 2000 - March 8th-12th
+The 2000 GDC ticked off on March 8th with the tagline "Take your place in game history", it was attended by ? games industry professionals. 
+
+### Microsoft DirectX Developer Day (March 8th)
+It included a "Microsoft DirectX Developer Day" on the 8th of March held by Hicrosoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a  Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX8 but also an early build exclusive to atendees.
+
+It began with a speech by Chris Jones, about the current state and future of Windows games. Next, Brian Moran, program manager of the company's Windows Division, held a session on precautions in the production of Windows 2000 compatible game software.
+
+The lectures prepared at Microsoft DirectX Developer Day are divided into three areas: 
+* Graphics (DirectDraw, Direct3D)
+* Audio and Streaming (DirectSound, DirectShow)
+* Network and input (DirectPlay, DirectInput)
+
+There were 5 lectures for 1 hour in each field, so a total of 15 sessions were held.
+
+From the original website it looks like the sessions were roughly the following:
+* DirectX 8.0 Graphics Architecture - Faster and easier than ever!
+* Direct3D 8.0 Base Functionality - Where it all starts
+* Direct3D 8.0 Vertex Processing - Look what you can do with vertices now!
+* Direct3D 8.0 Pixel Processing - And you thought the vertex operations were cool...
+* High level technologies - Making things even easier to use
+* DirectX 8.0 Audio Architecture - Closer integration of DirectSound and DirectMusic for maximum flexibility
+* DirectX 8.0 Audio FX - Enrich your game audio environment
+* DirectX 8.0 Audio Scripting - Enable post-authoring of your game audio environment
+* DirectShow 8.0 - Movies, video editing, and using the new DirectX plug-in architecture
+* DirectPlay 8.0 Architecture - Designed for massive multiplayer online games
+* DirectPlay Voice - Take your online game to the next level!
+* DirectInput Mapper - Easily add device optimized support to your game
+* DirectInput Mapper CPL - How to use and customize to match your game UI
+* Application Manager - Turn your game into a drop-n-play experience!
+
+Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 | The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
+
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -549,3 +587,5 @@ E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, th
 [^2]: [Game Developers Conference (Concept) - Giant Bomb](https://www.giantbomb.com/game-developers-conference/3015-6699/)
 [^3]: [Game Developers Conference Online - Press Area](https://web.archive.org/web/19991004043939/http://www.gdconf.com/archive/)
 [^4]: [The History of Game Developers Conference (documentary, 2019/2020) - YouTube](https://www.youtube.com/watch?v=HqpzBzcvUdw)
+[^5]: [GDC 2000 - GameSpot](https://www.gamespot.com/articles/gdc-2000/1100-2451531/)
+[^6]: [Game Developers Conference 2000: Special Events](https://web.archive.org/web/20001117103000/http://www.gdconf.com/2000/directx.html)
