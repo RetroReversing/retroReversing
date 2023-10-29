@@ -34,6 +34,7 @@ At E3 1995, the gaming industry was undergoing significant changes, with the Sup
 
 E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
 
+---
 # GDC - Game Developer's Conference
 GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
 
@@ -81,8 +82,12 @@ For a brief insight into the fourth version of CGDC you can read Bill Pirkle's o
 
 It was hosted in Le Baron Hotel in San Jose and was atendeed by over 470 people.
 
-## CGDC 1991 - April?
+## CGDC 1991 - March
 The Fifth CGDC was the first to have been directed by Ernest Adams just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
+
+We only know of a few talks that took place at this conference:
+* Intelligent Behavior Without AI: An Evolutionary Approach by Neil Kirby
+
 
 ## CGDC 1992 - April 25th-26th
 Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was attended by over 600 game industry professionals.
@@ -90,13 +95,50 @@ Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was att
 ## CGDC 1993
 Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
 
+The only talks we knew take place are the following:
+* Designing Fair Puzzles by Bob Bates
+* Legal Trends Affecting Computer Game Development by Alisa Baker
+* Characters  by Katherine Lawrence
+* No Wine Before Its Time? by Michael Crick
+* Realistic Behavior for Animated Characters by David Joiner
+* Supervillains on the Loose Computer Opponents in Champions  by Evan Robinso
+* Writing Games for Microsoft Windows by Neil Kirby
+
+
 ## CGDC 1994
 Another hosted in Santa Clara California but this time reaching over the 1 thousand mark with 1250 atendees, it was the eighth CGDC.
 
+Google Books claims to have the proceesings of the Eighth Annual Computer Game Developers Conference Proceedings but it doesn't seem to be possible to read: [Eighth Annual Computer Game Developers Conference Proceedings: April 23 ... - Google Books](https://books.google.co.uk/books/about/Eighth_Annual_Computer_Game_Developers_C.html?id=YdcTAQAAIAAJ&redir_esc=y)
+
+All we know is that it contains these sections, but we don't know who presented the sessions or have the full list:
+* Alternative Marketing Methods
+* A Sermon
+* Computer Gaming in Russia
+* Interactive Directing
+* The Interface is the Game
+* Live Action Role Playing
+* Maximizing Windows Graphics Performance
+* Pixel Envy
+* Practical Tips for Protecting Intellectual Property
+* Programming as a Video Game
+* GameTree Search
+* Storybuilding 101
+* the 1994 CGDC Survey
+* Volpe Welty Company Estimates
+* Gaming and Wagering
+
+
 ## CGDC 1995
+We don't know anything about this mysterious conference...
 
 ## CGDC 1996
 This is the year it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4].
+
+Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
+
+The only talks we know tend to be through book references, here is a list of the known talks:
+* The Quake Graphics Engine by Michael Abrash
+* A Story Wrapped Inside a Puzzle Wrapped Inside an Enigma: Designing Adventure Games by Steve Meretzky 
 
 ---
 ## CGDC 1997 - April 25th-29th
@@ -120,13 +162,15 @@ There were four of them but no other details apart from their name remain online
 * Creating Online Games with Java
 
 ### One Day Tutorials
-The tutorials were:
+These tutorials only took a day to complete and were all on the 26th of April, they were:
 * Modeling, Texturing, and Animating in Alias Poweranimator for Real-Time Applications
 * The Producer's Tutorial: Bringing it All Together
 * Programming Games Under Windows
 * Writing for an Interactive Age
 * Using DeBabilizer for Processing Video Game Graphics
 * Writing Games with OpenGL
+
+Sadly the website didn't list who actually presented these tutorials but if you know please submit a Pull Request or leave a comment below.
 
 ### Game Marketing and Distribution Conference
 
@@ -447,6 +491,19 @@ The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention
 
 ## GDC 2005
 GDC 2005 was the first to be hosted in San Francisco and brought in  a record 12,000 attendees [^2].
+
+---
+# SIGGRAPH
+SIGGRAPH stands for "Special Interest Group on Computer Graphics and Interactive Techniques." It is an annual conference and organization that focuses on computer graphics, interactive technology, and various related fields. SIGGRAPH is highly regarded in the computer graphics and interactive technology industry and is known for its conferences and publications.
+
+SIGGRAPH is an interdisciplinary platform that covers a wide range of topics, including computer graphics, visual effects, gaming, virtual reality, computer-aided design, art, and more.
+
+The conference features technical paper presentations where researchers and experts share their latest findings and innovations in the field.
+SIGGRAPH publishes research papers, proceedings, and a variety of resources that contribute to the advancement of computer graphics and interactive techniques.
+
+The SIGGRAPH conference has a long history, dating back to the 1970s, and it continues to be a vital forum for sharing knowledge, showcasing innovations, and connecting professionals in the field of computer graphics and interactive technology.
+
+They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
 
 ---
 # References
