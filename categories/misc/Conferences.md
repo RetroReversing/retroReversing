@@ -17,22 +17,22 @@ twitterimage_: https://www.retroreversing.com/public/images/categories/Games Ind
 tags:
  - industry
 ---
-# E3
-SEGA was instrumental to setting up E3, in an interview with **Tom Kalinske** (former CEO of SEGA America) he had this to say about the formation of E3:
-> In the early Nineties, CES was huge but it treated the gaming industry poorly.
-> We were put in the back, past the new gadgets, computers and stereos and TVs.
-> One year, we were in a tent and it was raining. Out Genesis machines got wet and I said,
-> "That's it, we're not coming Back".
-> We set out to form our own show with favoured third-parties. It became E3.
-[^1]
 
-## E3 1995 - The First E3
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uMuJWADkMYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-E3 1995 marked the first E3 event, created as an alternative to the Consumer Electronics Show (CES) where the gaming industry was often overlooked.
+# Introduction
+When taking a historical look at the Games Industry one of the most important sources of information are the Conferences that were held to share information when the industry was fresh.
 
-At E3 1995, the gaming industry was undergoing significant changes, with the Super Nintendo still the most popular console in North America but with new hardware on the horizon, such as Sega Saturn, Sony PlayStation, and the yet-to-be-released Ultra 64 (later Nintendo 64). This event was mainly focused on the Sega-Sony rivalry, with Nintendo's console release delayed until the following year.
+This page will talk about the main Game-related conferences that took place over the period of time that we classify as "Retro", they roughly fit into two distinct categories:
+* **Development** - Conferences for Sharing Game Development Information (SIGGRAPH, GDC)
+* **Showcase** - Conferences for Showing off the latest Games and Gaming Hardware (CES, E3)
 
-E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
+This table below lists all the conferences that we are aware about taking place up until 2000:
+Conference | Dates | Category | Notes
+---|---|---|---
+3DO Developer Conference | 1992-1994 | Development |
+Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
+CES | 1967-Ongoing | Showcase | 
+E3 | 1995-Ongoing | Showcase | 
+
 
 ---
 # GDC - Game Developer's Conference
@@ -504,6 +504,40 @@ SIGGRAPH publishes research papers, proceedings, and a variety of resources that
 The SIGGRAPH conference has a long history, dating back to the 1970s, and it continues to be a vital forum for sharing knowledge, showcasing innovations, and connecting professionals in the field of computer graphics and interactive technology.
 
 They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
+
+---
+# Consumer Electronics Show (CES) 
+CES stands for the "Consumer Electronics Show." It is an annual trade show and convention that serves as a showcase for the latest consumer electronics and technology products. CES is one of the most significant and influential tech events globally, and it's where many companies, including industry giants and startups, unveil and demonstrate their innovative products and technologies.
+
+CES is known for its extensive exhibition of consumer electronics and technology products, ranging from smartphones and televisions to smart home devices, automotive technology, gaming hardware, and more.
+
+CES attracts a large number of journalists, bloggers, and media outlets from around the world, generating extensive press coverage and reviews of the showcased products.
+
+CES has played a crucial role in unveiling groundbreaking technologies and products that have subsequently shaped the consumer electronics and technology industries. It is a significant annual event for both industry professionals and tech enthusiasts interested in the latest advancements in the world of electronics and innovation.
+
+The first Consumer Electronics Show (CES) took place in 1967. CES was initially held in New York City and later moved to Las Vegas, Nevada. Although it features gaming products they have always brushed the games industry aside in favour of more mainstream consumer electronics.
+
+---
+# Electronic Entertainment Expo (E3)
+
+E3, which stands for the "Electronic Entertainment Expo," is one of the most prominent and anticipated events in the video game industry. It serves as a showcase for the latest video games, gaming hardware, and interactive entertainment. E3 brings together game developers, publishers, hardware manufacturers, and gamers to unveil and celebrate upcoming titles and innovations in the world of gaming.
+
+## Creation of E3
+SEGA was instrumental to setting up E3, in an interview with **Tom Kalinske** (former CEO of SEGA America) he had this to say about the formation of E3:
+> In the early Nineties, CES was huge but it treated the gaming industry poorly.
+> We were put in the back, past the new gadgets, computers and stereos and TVs.
+> One year, we were in a tent and it was raining. Out Genesis machines got wet and I said,
+> "That's it, we're not coming Back".
+> We set out to form our own show with favoured third-parties. It became E3.
+[^1]
+
+## E3 1995 - The First E3
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uMuJWADkMYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+E3 1995 marked the first E3 event, created as an alternative to the Consumer Electronics Show (CES) where the gaming industry was often overlooked.
+
+At E3 1995, the gaming industry was undergoing significant changes, with the Super Nintendo still the most popular console in North America but with new hardware on the horizon, such as Sega Saturn, Sony PlayStation, and the yet-to-be-released Ultra 64 (later Nintendo 64). This event was mainly focused on the Sega-Sony rivalry, with Nintendo's console release delayed until the following year.
+
+E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
 
 ---
 # References
