@@ -181,6 +181,12 @@ The Day 2 talks were:
 Pretty much nothing is available online about who gave these talks or what they contained.
 
 ### Classic CGDC Conference Day One
+Day one had 105 different sessions split up into the following four types:
+* Lectures - Typical Conference presentation format with Powerpoint Slides
+* Seminars - More hands on than Lectures
+* Roundtables - Panel of experts talking about a specific talking and maybe answering audience questions
+* Sponsored Sessions - Presumably lectures that were not voted on but instead paid to present
+
 All the talks from the first day of the "Classic" Computer Developers Conference are in the table below. If you know of any links to videos, slides, reviews or even notes from any of the sessions please add them to the Notes column in the table.
 
 Title | Presenter | Type | Notes
@@ -292,6 +298,141 @@ Creating Your Own Private Branded Online Gaming Service Around Your Content | Mp
 Working with Microsoft "In The Zone" | Microsoft (HW) | Sponsored Session |
 Total Exposure: Reaching Millions via One Company Partner| The ImagiNation Network | Sponsored Session |
 
+
+### Classic CGDC Conference Day Two
+Day two had 123 unique sessions in the same 4 types (Lectures, Seminars, Roundtables and Sponsored Sessions) which you can see the full list of in the table below:
+
+Title | Presenter | Type | Notes
+---|---|---|---
+The Best Kept Secrets of Digital Art | Dale Mauk, Patricia Pearson | Lecture | 
+Humor in Game Design | Steven Meretzky | Lecture | 
+Into the Grey Zone and Beyond: Protecting Your Legal Interests in the New Multimedia Environment | Alisa Baker | Lecture | 
+Merc 101: Sim Game Design - Features and Research | Arnold Hendrick | Lecture | 
+A Very Geeky Overview of TCP/IP Protocols | Zachary Simpson | Lecture | 
+VRML for Games? | Alan Wooton | Lecture | 
+Writing a Successful Business Plan |Anne Winblad | Lecture | 
+The Dirt on DVD | Guy Wright | Seminar | 
+Getting Started in Interactive Audio | Donald S. Griffin | Seminar | 
+How Not to do Videocompositing and Effects | Mark Christiansen | Seminar | 
+Mass Participation Games on the Web: Delivering Web Games that Support Thousands |Leonard Quam | Seminar | 
+Rules to Live By: Mantras for Software Producers | Martin Streicher | Seminar | 
+Art in Computer Games: Tools and Techniques |Denis Loubet | Roundtable | 
+Database Development for Real-Time 3D Games | Gjon Camaj | Roundtable | 
+Designing Multiplayer Games | Kevin Bentley | Roundtable | 
+Localization | Aric Wilmunder | Roundtable | 
+Getting Into the Game Industry | Darren Reid | Roundtable | 
+Puzzles in Adventure Games | Hal Barwood | Roundtable | 
+Real-Time Audience Feedback: What Should We Do With It? | Dr. Cat | Roundtable | 
+"Relevant" Music Scoring for Next Generation Games | Rich Goldman | Roundtable | 
+Programming for 3Dfx Interactive Voodoo | 3Dfx Interactive, Inc. | Sponsored Session |
+QMixer: A Highly Efficient 3D Audio SDK for Direct X and MacOS | QSound Labs | Sponsored Session |
+Optimizing 3D Geometry and Lighting Performance of PC's | Intel Corporation | Sponsored Session |
+Force Feedback - How to Add Another Dimension to Your Games by Microsoft Sidewinder Group | Microsoft (HW) | Sponsored Session |
+c:\media\games\online\bizmodels.exe or Online Games: Multiple Business Models | TEN | Sponsored Session |
+Metrowerks Game Programming Tools | Metrowerks Corporation | Sponsored Session |
+Cinematic Audio for Video |Tim Clarke , Christopher Stevens | Lecture | 
+The Little Four: Panel Discussion with Low Latency Gaming Networks | Dean Frost , Jack Heistand , Jeff Leibowitz , Paul Matteucci , John Taylor | Lecture | 
+Maintaining Developer-Media Relations through the Development Cycle | Mark Shander | Lecture | 
+Merc 201: Sim Game Design - Nuts and Bolts |Arnold Hendrick | Lecture | 
+Ritual Reality: The Social Aspects of Designing an Online Gaming Environment | Amy Jo Kim | Lecture | 
+Strategic Alliances | Jude Lange | Lecture | 
+The Talkies Are Coming! | William DeSmedt | Lecture | 
+Adding Extensible Custom Languages to Game Engines | Robert Huebner | Seminar | 
+Art Direction For Games | Isaac Kerlow | Seminar | 
+Cyberlife: A Biologically Inspired Architecture for Games | Toby Simpson | Seminar | 
+Physical Animation of Humans and Other Articulated Forms | Seamus Blackley | Seminar | 
+3D Acceleration, One Year After | Brian Hook | Roundtable | 
+Ask the Publisher | Ken Goldstein | Roundtable | 
+Directors Roundtable: What Do They Mean? What Do They Want? | Jeanne Hartman | Roundtable | 
+The Integration of Cinematic Elements Into Interactive Games | Jim Bloom | Roundtable | 
+The Interactive Storytelling Problem | Walt Freitag | Roundtable | 
+The Real Design: From Design Spec to Product | Christopher Thompson | Roundtable | 
+What Do Female Game Players Really Want? | Annie Fox | Roundtable | 
+What Makes Software Educational? | Channah Horst | Roundtable | 
+Windows 95: Stories from the Trenches |Jack Thornton | Roundtable | 
+Programming for 3Dfx Interactive Voodoo | 3Dfx Interactive, Inc. | Sponsored Session |
+Qsound 3D Audio Processing Tools | Schmidt Entertainment Technologies, Inc. | Sponsored Session |
+Scaleable 3D Sound Using MMX Technology | Intel Corporation | Sponsored Session |
+Working with Microsoft "In The Zone" | Microsoft (HW) | Sponsored Session |
+Implementing Compelling 3D Audio Today and Tomorrow | VLSI Technology, Inc. | Sponsored Session |
+Creating a Multiplayer Gaming Success | HEAT | Sponsored Session |
+Adapting Licensed Products to the Computer Medium | Micah Jackson | Lecture | 
+Communication Models for Internet Games | Jeffrey Rothschild | Lecture | 
+Distribution Options For Today's Market | Brian Neider | Lecture | 
+The Magic of Writing Kids' Games | Matthew Costello , Tony Perutz , Meryl Perutz , Deborah Todd | Lecture | 
+Making 3D Work for Social Environments | Rusty Dawe | Lecture | 
+Quake: A Post-Mortem and a Glimpse Into the Future | Michael Abrash | Lecture | 
+Raising the Bar | Leslie Pardew | Seminar | 
+Women In Interactive Entertainment | Deborah Cook, Annie Fox , Julie Marsh, Margo Nanny , Hilary Nation, Solange Van Der Moer | Seminar | 
+Business Models for Maximizing Revenue from Online Games | Kirk Owen | Roundtable | 
+Designing and Building Multiplayer Action Titles for Internet Play | Harald Seely | Roundtable | 
+Designing for Community: How to Handle the Problem Children of the Online World | Dave Weinstein | Roundtable | 
+Designing Games to Use 3D Audio | Brian Schmidt | Roundtable | 
+Directors Roundtable: What Do They Mean? What Do They Want? | Jeanne Hartman | Roundtable | 
+Environment vs. the Game: Is the Medium or the Content? What Keeps Them? | Susan Manley ,Jim Stern | Roundtable | 
+Good, Clean and Fun: How Can They All Go Together? | Brad Andrews | Roundtable | 
+Multiplayer Online Games | Carrie Washburn | Roundtable | 
+Original Content: R&D For The Breakthrough Title | Larry Tuch | Roundtable | 
+Shared Virtual Environments |David Rosenbloom | Roundtable | 
+Visceral Gaming: Should We Be Afraid? |Paul Schuytema | Roundtable | 
+Whither (or Wither) War Games |Mark Baldwin | Roundtable | 
+The Benefits of 3D Graphics By Using MMX Technology | Intel Corporation | Sponsored Session |
+Benchmarks: Do They Do Justice? | 3Dfx Interactive, Inc. | Sponsored Session |
+DirectDraw in DX5 | Microsoft | Sponsored Session |
+Video Reality Reality GC: Creating Navigable Feature Film Environments | SouthPeak Interactive | Sponsored Session |
+Quicktime for Windows as a Media Delivery Engine for Games | Apple Computer | Sponsored Session |
+Creating a Multiplayer Gaming Success | HEAT | Sponsored Session |
+Achieving New Levels of Realism with Image Based Modeling and Rendering | Paul Debevec | Lecture | 
+The Alchemy of Addiction: Creating Games that Keep People Playing | Mike Sellers | Lecture | 
+Color Reduction | TBA | Lecture | Did this go ahead? Who did it?
+Foundations and Empires |Mark Baldwin | Lecture | 
+Recovery Mode: Taking Control of an Out of Control Project | Evan Robinson | Lecture | 
+Revenue Models for Net-Based Games | Gene DeRose | Lecture | 
+Writing First Person Engines for 3D Hardware | Gary McTaggart | Lecture | 
+Dirty Little Programs: Installing and Removing Your Product | Andrew Megowan | Seminar | 
+Music Construction for Interactive Media | Donald S. Griffin | Seminar | 
+Designing Online Puzzle Games | Scott Kim | Roundtable | 
+Developing for New Technologies | Theodore Beale , Andrew Lunstad | Roundtable | 
+Discussion of Real-Time 3D Modeling | Josh White | Roundtable | 
+Discussion on Artificial Intelligence in Computer Games (Section 1) | Steve Woodcock | Roundtable | 
+Discussion on Artificial Intelligence in Computer Games (Section 2) | Eric Dybsand | Roundtable | 
+Discussion on Artificial Intelligence in Computer Games (Section 3) | Neil Kirby | Roundtable | 
+The Future of Strategy Games |Phil Steinmeyer | Roundtable | 
+How to Screw Up a Perfectly Good Production | Heather Chirtea | Roundtable | 
+New World, New Paradigms: The Frontier of Multiplayer Non Zero-Sum Entertainment |Sean Patrick Fannon | Roundtable | 
+Testing Roundtable | Jeanne Collins , Megan Quattrocchi | Roundtable | 
+Software Interfacing Techniques for Accelerated Graphics Port | Intel Corporation  | Sponsored Session |
+Next Generation PC Platforms: How to Leverage the Transition | Cirrus Logic  | Sponsored Session |
+Direct3D | Microsoft  | Sponsored Session |
+A3D: Interactive 3D Audio Workshop | Aureal Semiconductor  | Sponsored Session |
+POW! Adding Force-Feedback to Your Applications | Immersion Corp  | Sponsored Session |
+Implementing AGP Using ATI's RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
+Collaborating in Game Design |Noah Falstein, David Fox | Lecture | 
+From Spelling To Surfing: The Evolution of the Edutainment Industry |Joe Durrett , Dean Frost , Steve McBeth , Kevin O'Leary , Charlotte Walker | Lecture | 
+Grass Isn't <0,255,0>: Better Living Through Color Theory |John Edel | Lecture | 
+A Guided Tour through Hard Core Game Physics |Chris Hecker | Lecture | 
+Negotiating a Great Game Publishing or Distribution Deal |Dean Gloster | Lecture | 
+Worldwide Licensing and Funding of Titles | Jack Ghoulian | Lecture | 
+Designing for the Universal 2nd Grader | Michael Wyman | Seminar | 
+Forcing Interactions: How to? How much |Richard Aronson | Seminar | 
+User Intention as a Design Tool | Doug Church | Seminar | 
+Artists vs. Programmers | Dave Menconi | Roundtable | 
+Choosing an Authoring Tool | Jamie Siglar | Roundtable | 
+Coin Ops Roundtable |Mark Pierce | Roundtable | 
+The Future of Sports Game Development | Michael Meischeid | Roundtable | 
+Game Worlds: Slouching Toward a True Mass Audience | Jeff Gomez | Roundtable | 
+What Ever Happened to Role-Playing Games? | Anthony Farmer | Roundtable | 
+"Why Won't They Tell Me What They Want!" Real World Communication Between Musician and Producer |David Schultz | Roundtable | 
+How To Build Internet Hybrid Games | Intel Corporation  | Sponsored Session |
+Catering to the Sound Sense: How to Use DirectSound3D to Enhance a 2D or 3D Game | Cirrus Logic  | Sponsored Session |
+DirectSound | Microsoft  | Sponsored Session |
+Memory Efficient Color Mapping Techniques for Game Development | Nichimen Graphics  | Sponsored Session |
+ATI's Hi-Volume RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
+
+For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics I am looking at you).
+Microsoft had sessions advertising their DirectX technology (DirectPlay, DirectSound, Direct3D and DirectDraw) and even from their hardware division (Sidewinder Group).
+
+There was even a session by Apple on using Quicktime for Windows Game Development! Would love to get a hold of what was presented at that session.
 
 ---
 ## GDC 1998 - March 15h-19th
