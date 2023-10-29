@@ -110,15 +110,70 @@ We only know of a few talks that took place at this conference:
 ## CGDC 1993
 Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
 
-The only talks we know of that took place are the following:
-* Designing Fair Puzzles by Bob Bates
-* Legal Trends Affecting Computer Game Development by Alisa Baker
-* Characters  by Katherine Lawrence
-* No Wine Before Its Time? by Michael Crick
-* Realistic Behavior for Animated Characters by David Joiner
-* Supervillains on the Loose Computer Opponents in Champions  by Evan Robinso
-* Writing Games for Microsoft Windows by Neil Kirby
+All the talks that were recorded by **The KNOW-IT-ALL Audiovisual Library** are listed in the table below [^8]:
 
+Title | Presenter | Type | Notes
+---|---|---|---
+Asset Acquisition | Clarke-Willson, Shane, San | Lecture | CGDC93-025
+Distribution Realities and Workarounds | Gordon Walton |  Lecture | CGDC93-003
+Game Development for Windows | Sandige & Stafford |  Lecture | CGDC93-018
+How We Almost Didn't Make The Seventh Guest | Graeme Devine |  Lecture | CGDC93-006
+I Had A Dream | Chris Crawford |  Lecture | CGDC93-002
+Imitating Life: Perception, Evolution & Complexity | Wright, Rob Tow, Bergman, Brenda Laurel |  Lecture | CGDC93-026
+Interactive Entertainment Industry Report  | Lee Isgur |  Lecture | CGDC93-004
+Interactive Multimedia: Revolution or Crock?  | Baltcom & Walton |  Lecture | CGDC93-023
+Is A Picture Worth A Thousand Words?  | Paul Reiche |  Lecture | CGDC93-001
+ISDN Looms On The Horizon  | Bob Alexander |  Lecture | CGDC93-008
+Making It Real 2: Characters  | Katherine Lawrence |  Lecture | CGDC93-020
+The New Ergonomics: Design Beyond the Hardware  | Goldberg & Fox |  Lecture | CGDC93-024
+The New Jagged Edge: Multimedia & The Law  | Mark Radcliffe |  Lecture | CGDC93-022
+Paintbrushes to Pixels  | Johnson, McCaig, Michaud |  Lecture | CGDC93-009
+Please Don't Let Me Be Misunderstood  | Steve Cooke |  Lecture | CGDC93-010
+Producing Music with The Fat Man  | George Sanger |  Lecture | CGDC93-027
+Project Artificial Intelligence  | Baldwin & Rakosky |  Lecture | CGDC93-019
+3DO and the Future of Interactive Entertainment  | Bill Duvall, Bob Faber, David Maynard |  Lecture | CGDC93-007
+The Viability of Different CD Formats | Koffler & Wilmunder |  Lecture | CGDC93-021
+Where Have All the Chickens Gone?  | David Walker |  Lecture | CGDC93-005
+Adding Modem Play to Your Game  | Rakosky & Baldwin | Seminar | CGDC93-036
+Algorithmic Music  | David Rosenbloom | Seminar | CGDC93-031
+The Art of Game Balancing, Part II  | Roe Adams | Seminar | CGDC93-039
+Designing Multi-Player Games | Dani Bunten | Seminar |  CGDC93-034
+Designing the Puzzle: A Hands-On Seminar  | Bob Bates | Seminar | CGDC93-047
+From Linear to Non-Linear: Game Scripting  | Christy Marx | Seminar | CGDC93-038
+Hex, Bugs & Rock 'n' Roll: Powerful Debugging  | Dan Hite | Seminar | CGDC93-017
+Lite Gaming and the Mass Market  | Jeff Johannigman | Seminar | CGDC93-033
+Mystic Wisdom of the East  | Evan Robinson | Seminar | CGDC93-035
+New Software Methods for Sound Compression  | Brad Stewart | Seminar | CGDC93-012
+No C++ Required: Breaking In for Non-Techs  | Ellen Guon | Seminar | CGDC93-016
+Not Just Kid Stuff: Late Learning Software  | Marylyn Rosenblum | Seminar | CGDC93-015
+Object-Oriented Programming  | Neil Kirby, Glenn Tenney | Seminar | CGDC93-014
+Realistic Behavior for Animated Characters  | David Joiner | Seminar | CGDC93-029
+Rubbing the Lamp  | Robert Leyland | Seminar | CGDC93-011
+Smart, But Not Rich? Find Out Why!  | Ernest Adams | Seminar | CGDC93-037
+Stress Management for Game Designers  | Diane Escoffon | Seminar | CGDC93-028
+A Technical Overview of the Sega Genesis  | Dan Chang | Seminar | CGDC93-030
+13 Million Can't Be Wrong: Windows Games  | Neil Kirby | Seminar | CGDC93-046
+32-bit Programming: The Misunderstood Grail  | John Miles | Seminar | CGDC93-032
+Who Designed This Cover, Anyway?  | Davld Kessler | Seminar | CGDC93-013
+Adventure Game Design Roundtable  | R.J. Berg | Roundtable | CGDC93-041
+Audio Issues for Game Developers  | Tom Rettig | Roundtable | CGDC93-052
+Breaking In: the Wannabee Roundtable  | Guon & Robinson | Roundtable | CGDC93-050
+Educational Software for Kids Under Ten  | Leslie Grimm | Roundtable | CGDC93-051
+The Ethics of Game Design  | Corey Cole & Lori Cole | Roundtable | CGDC93-053
+For Art's Sake: A Roundtable  | Chris Crawford | Roundtable | CGDC93-043
+From the Dustbin of Game History  | Noah Falstein | Roundtable | CGDC93-042
+IBM PC & VGA Platform Issues  | Brengle & Robinson | Roundtable | CGDC93-054
+RPG Design Roundtable  | George MacDonald | Roundtable | CGDC93-049
+Skill & Action Game Design Roundtable  | Gregg Tavares | Roundtable | CGDC93-040
+Sports Game Roundtable  | Richard Hilleman | Roundtable | CGDC93-045
+Vehicle Simulations Roundtable | Edward Lerner | Roundtable | CGDC93-048
+Wargame Design Roundtable | Dave Menconi | Roundtable | CGDC93-044
+Which Company Should I Work For? | Ernest Adams | Roundtable | CGDC93-055
+
+
+Potentially not recorded were the following talks:
+* Legal Trends Affecting Computer Game Development by Alisa Baker
+* No Wine Before Its Time? by Michael Crick
 
 ## CGDC 1994
 Another hosted in Santa Clara California but this time reaching over the 1 thousand mark with 1250 atendees, it was the eighth CGDC.
@@ -646,3 +701,4 @@ E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, th
 [^5]: [GDC 2000 - GameSpot](https://www.gamespot.com/articles/gdc-2000/1100-2451531/)
 [^6]: [Game Developers Conference 2000: Special Events](https://web.archive.org/web/20001117103000/http://www.gdconf.com/2000/directx.html)
 [^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
+[^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
