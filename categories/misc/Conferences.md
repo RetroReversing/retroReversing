@@ -222,7 +222,135 @@ Contract Negotiations: Issues & Strategy | Jeffery O'Connel |
 
 
 ## CGDC 1995
-We don't know anything about this mysterious conference...
+CGDC 1995 was last last with Chris Crawford.
+
+Title | Presenter | Track
+---|---|---
+Adding a New Dimension: Moving from 2D to 3D Animation | Vance Gloster | Visual Arts [CGDC95-001]
+Ages, Stages, and Living Pages: Designing for Interactivity | Mark Schlichting | Edutainment/Education [CGDC95-002]
+The Answer Is Money | Noah Falstein | General Interest [CGDC95-003]
+Audio Community Forum | Tom Rettig, Bob Safir | Audio [CGDC95-004]
+Beyond Bootstrapping & Royalty Advances: Financing Alternatives | Dean Gloster, Mark Gorenberg | Business [CGDC95-005]
+CD-ROM Multimedia: Lessons & Issues from the Performing Arts | David Rosenbloom | General Interest [CGDC95-006]
+Can You Believe Families Hate Games? | Fred M. Abaroa | Business [CGDC95-007]
+The Challenge of the Interactive Movie | Ernest Adams | General Interest [CGDC95-008]
+Creating Interactive Drama for CD-ROM Using Outside Techniques | Pamela Douglas, John Spencer | General Interest [CGDC95-010]
+Cross-Platform Development: the 10 Key Criteria for Success | Sandy Montenegro, Don Rogal | Technical [CGDC95-011]
+Deal Breakers: The Most Critical Provisions in Your Contracts | Jeffrey A. O'Connell | (Business) [CGDC95-012]
+Design Documents that Work: Topiary for Fun and Profit | Matthew Stibbe | Special Interest [CGDC95-013]
+Designing a Space Camel: Exploring the Development of Alien Legacy | Michael Moore | Management [CGDC95-014]
+Developing Children's Educational Multimedia: Practical Tips | Debra Lieberman, Lynn Rosener | Edutainment/Education [CGDC95-015]
+Developing Digital Sets and Creative Animations (3D Studio) | Verin G. Lewis | Visual Arts [CGDC95-016]
+Developing Games Based on Licensed Properties | David Mullich | (Business) [CGDC95-017]
+Developing for the Sony Playstation | Mark Wozniak | (Business) [CGDC95-018]
+The Development Process: What Nobody Seems to Know | David Walker | Management [CGDC95-019]
+Directed Improvisation: A New Paradigm for Computer Games | Dr. Barbara Hayes-Roth | Special Interest [CGDC95-020]
+Educational Software Design: A Developmental Psychologist's View | C. Brannon, A.J. Lehrer | Edutainment/Education [CGDC95-022]
+Effective Software Testing v1.2 | Tom MacDevitt | Special Interest [CGDC95-023]
+Family Games: Something for the Rest of Us | Fabrice Florin, Peter Maresca | General Interest [CGDC95-024]
+Film & Video Production for Interactive Entertainment | Mark Day | Management [CGDC95-025]
+From Zork to Zillions: How to Fund, Value, and Sell a Company | Dean Frost, Ian Berman | Business [CGDC95-026]
+The Fun Factor | Lori and Corey Cole | General Interest [CGDC95-027]
+Game Trademarks: A Secret Weapon | Charles B. Kramer | Business [CGDC95-028]
+Gaming on the Internet | Glen Tenney | Online/Network [CGDC95-029]
+Gender Ghettos | Margy Hillman, Joanne Odenthal | General Interest [CGDC95-030]
+Graphics, Video, & Sound: An Overview of the Technologies | Eric Klein | Technical [CGDC95-031]
+Hot Content: Dealing with Controversial Material in Games | Daniel Greenberg | General Interest [CGDC95-032]
+Humor in Game Design | Steve Meretzky | General Interest [CGDC95-033]
+Intelligent Tutors & the Internet | Frederic Vincent Bien | Online/Network [CGDC95-034]
+The Interactive Story: Can It Work? | Jonathan Knight | General Interest [CGDC95-035]
+Interactive Storytelling | Chris Crawford | General Interest [CGDC95-036]
+Interfaces, Agents, and Game Design | Denis Dyack | General Interest [CGDC95-037]
+Machines of Loving Grace | Talin | General Interest [CGDC95-038]
+Making Music Motivate (without Sacrificing Your Soul or Sanity) | Judy Munsen | General Interest [CGDC95-039]
+Manhattan Graphic Engine | Eric Engstrom, Craig Eisler | Technical [CGDC95-040]
+Maximizing Windows Game Performance | Chris Hecker | Technical [CGDC95-041]
+Metaphor Design: A Case Study | Ken Kahn | General Interest [CGDC95-042]
+The Microsoft Speech API | Mike Rozak | Audio [CGDC95-043]
+Nine Routes to Climax: the Bases of Interactive Storytelling | Lawrence Schick | General Interest [CGDC95-045]
+Online vs. the Superhighway | Richard Mulligan | Online/Network [CGDC95-046]
+Pencils vs. Pixels: 2D Animation for Multimedia | Bridget Erdmann | Visual Arts [CGDC95-047]
+Programming the Sega 32X | Jesse Taylor | Technical [CGDC95-048]
+Programming the 3DO (Opera) | Al Chang | Technical [CGDC95-049]
+The Quest for Realism | Ned Lerner | General Interest [CGDC95-050]
+Realtime 3D on the PC: When? | Rob Glidden | Technical [CGDC95-051]
+Shoestring Marketing: Hard-Won Lessons | Mike Dornbrook | Business [CGDC95-052]
+Should I Design for ITV? | Sam Palahnuk | General Interest [CGDC95-053]
+Software Development Models | Leo Hourvitz | Management [CGDC95-054]
+The Status of the Industry: 1995 & 1996 | Lee Isgur | Business [CGDC95-056]
+3D Hardware Acceleration Standards | Michael Abrash | Technical [CGDC95-057]
+Traditional Animators in Game Industry: How to Find & Use Them | Pamela Kleibrink Thompson | Management [CGDC95-058]
+Treasures & Quagmires: The Internet as a Developer's Resource | Phillip King | Online/Network [CGDC95-059]
+Using DCI 2.0 for Fast Game Performance | Ken Rhodes | Technical [CGDC95-060]
+Using Illusion and Deception in Game Design | Walt Freitag | General Interest [CGDC95-061]
+Using the RSAC Rating System | Rec. Software Advisory Council | Special Interest [CGDC95-062]
+VR Development for Head-Mounted Displays | Joanna Alexander, Mark Long | Technical [CGDC95-063]
+Wannabe Seminar: Getting Inside while Staying Alive on the Outside | Neil Kirby | Special Interest [CGDC95-064]
+War Stories: The Making of Shock Wave | Michael Becker | General Interest [CGDC95-065]
+What the Hollywood Model Doesn't Tell Us about Interactive Video | Philip Bouchard | General Interest [CGDC95-066]
+When Teams Work, When Teams Break | Don Daglow | Management [CGDC95-067]
+Working with Talent Unions | Carol Contes | Business [CGDC95-068]
+The Writers' Panel | C. Marx, Michele Em, K. Lawrence | General Interest [CGDC95-069]
+Writing Great Windows 95 Games | A.St. John, G.Dahl, M.Van Flandern | Technical [CGDC95-070]
+Alias PowerPlay for Game Developers | Alias | Technical [CGDC95-071]
+The Battle beyond the Bits and Polygons | Trip Hawkins, 3DO | General Interest [CGDC95-072]
+BRender: The Realtime 3D Rendering System for Games | Jez San, Argonaut Technologies | Technical [CGDC95-073]
+BtV Multimedia Chipset from Brooktree | Brooktree Corporation | Technical [CGDC95-074]
+The Business of Macintosh Games | Eric Klein, Apple | Business [CGDC95-075]
+Create Windows Games under the Microsoft Home Brand | Stuart Moulder, Microsoft | Business [CGDC95-076]
+Developing and Debugging with the Windows 95 Game SDK | ATI Technologies | Technical [CGDC95-077]
+Developing Killer Games for PowerMacintosh | Eric Klein, Apple | Technical [CGDC95-078]
+Enhancing Audio: No Longer an Afterthought | Intel Corporation | Audio [CGDC95-079]
+Fast 3D Graphics on the PC | Dave Clark, Intel Corporation | Technical [CGDC95-080]
+Full-Screen Video on the PC | Intel Corporation | Technical [CGDC95-081]
+GamePC Consortium Meeting: the Windows 95 Game SDK | ATI Technologies | Special Interest [CGDC95-082]
+Hear the Difference! | ESS Technology, Inc. | Audio [CGDC95-083]
+High-End Computer Graphics Tools: Going Beyond Asset Creation | Wavefront Technologies | Technical [CGDC95-084]
+IBM Speech Recognition: How Does It Work? | IBM | Technical [CGDC95-085]
+IBM Speech Recognition: What Is It? | IBM | Audio [CGDC95-086]
+Interfacing to Virtual Reality Devices on the PC | Forte | Technical [CGDC95-087]
+An Introduction to Programming 3D Games | Criterion Software | Technical [CGDC95-088]
+Multimedia Technology from Yamaha | Yamaha | Technical [CGDC95-089]
+Network Gaming | Catapult Entertainment | Online/Network [CGDC95-090]
+Next-Generation Game Controllers | Advanced Gravis | Technical [CGDC95-092]
+Origin: Not Just Ultima and Wing Commander | Origin Systems | General Interest [CGDC95-093]
+OS/2 as a Viable PC Games Platform: Part 1 | IBM | Business [CGDC95-094]
+OS/2 as a Viable PC Games Platform: Part 2 | IBM | Technical [CGDC95-095]
+Realtime 3D Graphics Development on Multiple Platforms | Gemini Technology Corporation | Technical [CGDC95-096]
+Storytelling for the 21st Century | Silicon Studio, Inc. | Technical [CGDC95-097]
+3D Studio: The Latest Developments | Autodesk, Inc. | Visual Arts [CGDC95-099]
+Windows 95 and the Consumer Entertainment Market | Microsoft | Business [CGDC95-100]
+Windows 95 DirectSound APIs | Microsoft | Audio [CGDC95-101]
+Writing Network Games for Windows 95 | Microsoft | Online/Network [CGDC95-102]
+Adventure Games | Hal Barwood | Special Interest
+Caught between Two Shores | B. Bates, C. Cole, L. Cole | Management
+Coin-Ops | John Salwitz | Special Interest
+Designing by Committee | Raymond Benson | Management
+Digitizing Video: Technical Issues | Jerry L. Newton | Technical
+Fantasy Roleplaying Games | Cathryn Mataga | Special Interest
+Geeks vs. Suits, Round 1 | Anthony L. Farmer | General Interest
+Legal Problems | Charles Kramer | Business
+MUDs (MultiUser Dungeons) | Dr. Cat | Online/Network
+Multiplayer & Family Games | Danielle Berry | General Interest
+Multiplayer Modem Games | Dan Hite | Special Interest
+On-Line Multiplayer Games | Carrie Washburn | Online/Network
+Primary Education Software | Karen Crowther | Edutainment/Education
+Programming the 3DO (Opera) | Neil Cormia | Technical
+Puzzle Games | Michael Sandige | Special Interest
+Secondary Education Software | Rob Harris | Edutainment/Education
+Sex & Violence | Johnny Wilson | General Interest
+Simulations & Simulators | Gordon Walton | Special Interest
+Social Responsibility | Steve Peterson | General Interest
+Sports Games | Happy Keller | Special Interest
+Successful Game A. I. | Jon Freeman | Special Interest
+3D Modeling | Josh White | Visual Arts
+Too Valuable to Promote? | Kevin Furry | Management
+The Wannabe Roundtable | Neil Kirby | Special Interest
+Wargames | Don Griffin | Special Interest
+The Writers' Roundtable | C. Marx, Michele Em, K. Lawrence | General Interest
+
+This years show even had IBM tyring to get people to write games for OS/2 with their sponsored "OS/2 as a Viable PC Games Platform" sessions, I wonder how many developers were convinced because it certainly did not become a visable PC Games Platform and was competing with Windows 95 talks.
+
 
 ## CGDC 1996
 This is the year it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4].
