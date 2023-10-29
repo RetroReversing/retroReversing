@@ -29,6 +29,7 @@ This page will talk about the main Game-related conferences that took place over
 * **Showcase** - Conferences for Showing off the latest Games and Gaming Hardware (CES, E3)
 
 This table below lists all the conferences that we are aware about taking place up until 2000:
+
 Conference | Dates | Category | Notes
 ---|---|---|---
 3DO Developer Conference | 1992-1994 | Development |
@@ -525,7 +526,7 @@ From the original website it looks like the sessions were roughly the following:
 * DirectInput Mapper CPL - How to use and customize to match your game UI
 * Application Manager - Turn your game into a drop-n-play experience!
 
-Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 | The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
+Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 - The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
 
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
