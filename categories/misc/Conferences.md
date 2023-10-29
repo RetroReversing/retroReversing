@@ -50,12 +50,12 @@ Title | Presenter | Notes
 Interactive Story Making | Brian Moriarty | Creator of Loom
 Art and Animation Panel | Willie Aguilar, Paul Reiche | 
 Creativity and Game Design | Chris Crawford | 
-Legal Issues | Susan Nycum | 
+Legal Issues | Susan Nycum | Lawyer who specialises in computer security and intellectual property issues
 Playtesting and Q.A. | Dan Bunten, Cem Kaner, Dave Menconi | 
 Developing for the Macintosh | David Feldman | 
-Game Idea to Game Design | Kellyn Beeck |
+Game Idea to Game Design | Kellyn Beeck | Game Designer for Rocket Ranger 
 Sound and Music panel | Chris Grigg, David Thiel, Dave Warhol |
-Fantasy Role Playing Games | Brian Fargo |
+Fantasy Role Playing Games | Brian Fargo | Founder of Interplay and InXile
 PR for Developers | Ed Niehaus | 
 Brining Characters to Life panel | Chris Crawford, David Graves, Brenda Laurel | 
 Market Trends panel | Bob Lindstrom, Scott Mace | 
@@ -72,10 +72,57 @@ The conference did not become an annual event until a few years later.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## CGDC 3 - 1989
+Not much is known about the third version of the Computer Game Developers Conference (CGDC) hosted in 1989.
+
+## CGDC 1990 - April 1st-2nd
+For a brief insight into the fourth version of CGDC you can read Bill Pirkle's observations in the June 1990 issue of Journal of Computer Game Design here: 
+[Volume 3 Number 5. June 1990 ](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-3/volume-3-number-5-june-1990.html)
+
+## CGDC 1991 - April?
+The Fifth CGDC was the first to have been directed by Ernest Adams just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2].
+
+## CGDC 1992 - April 25th-26th
+Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was attended by many games industry legends.
+
+---
+## CGDC 1997 - April 25th-29th
+The 1997 Computer Game Developers Conference was hosted in the Santa Clara Conference Center in Washington, D.C. It was much larger in scope than the previous years and in fact took five days instead of the usual two.
+
+The first 2 days introducted two new sub-conferences:
+* Managing Game Development Conference (25th/26th)
+* Game Marketing and Distribution Conference (25th/26th)
+
+The Classic CGDC Conference would then take the next three days (27th-29th).
+
+The overall attendees was estimated to be over 6,300 by the July 2997 issue of Next Generation Magazine.
+
+
+### Two Day Tutorials
+This conference introduced what they called the **Two Day Tutorials** which were tutorials on various software that would take up the full first two days of the conference, presumably for those uninterested in the other two sub-conferences going on at the same time.
+
+There were four of them but no other details apart from their name remain online:
+* Softimage Game Development Tools and Techniques
+* Object Oriented Game Design in Lingo
+* 3D Studio Max
+* Creating Online Games with Java
+
+---
+## GDC 1998 - March 15h-19th
+The first Conference to be branded simply as GDC, loosing the Computer prefix and starting to appeal to console game developers was hosted in the San Jose Convention Center, Calefornia
+
+## CGDC 1998 - May 4th-8th
+The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now replaced with GDC which had just been hosted 2 months earlier [^3].
+
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## GDC 2005
+GDC 2005 was the first to be hosted in San Francisco and brought in  a record 12,000 attendees [^2].
+
 ---
 # References
 [^1]: Tom Kalinske in RETRO volume 9 (page 25)
+[^2]: [Game Developers Conference (Concept) - Giant Bomb](https://www.giantbomb.com/game-developers-conference/3015-6699/)
+[^3]: [Game Developers Conference Online - Press Area](https://web.archive.org/web/19991004043939/http://www.gdconf.com/archive/)
