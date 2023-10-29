@@ -119,11 +119,11 @@ Google Books claims to have the proceesings of the Eighth Annual Computer Game D
 
 All we know is that it contains these sections, but we don't know who presented the sessions or have the full list:
 * Alternative Marketing Methods
-* A Sermon
+* A Sermon - Ernest  Adams
 * Computer Gaming in Russia
-* Interactive Directing
+* Interactive Directing - Noah Falstein
 * The Interface is the Game
-* Live Action Role Playing
+* Live Action Role Playing - Walter Freitag
 * Maximizing Windows Graphics Performance
 * Pixel Envy
 * Practical Tips for Protecting Intellectual Property
@@ -133,6 +133,29 @@ All we know is that it contains these sections, but we don't know who presented 
 * the 1994 CGDC Survey
 * Volpe Welty Company Estimates
 * Gaming and Wagering
+
+A user over at archive.org managed to upload audio recordings of the 1994 conference, some of the titles match the above but others do not, they are available in the table below:
+
+Title | Presenter | Notes
+---|---|---
+Interactivity Revolution, And Pain | Chris Crawford | https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)
+Phillips Interactice Media Demo | Phillips | 
+Celluoid to Silicon: A Sermon | Ernest  Adams | http://www.designersnotebook.com/Lectures/Celluloid/celluloid.htm   
+How the other Half Plays | Barbara Lanza | https://archive.org/stream/Computer_Gaming_World_Issue_120/Computer_Gaming_World_Issue_120_djvu.txt    
+Friends In Game Software Sales |  Ann Stephens | 
+Business Plans for the Multimedia Company | G.Frye, J.Kalb & A.Ross | 
+Believable Interactive Characters | Joseph Bates | https://web.stanford.edu/dept/HPS/154/Workshop/Role%20of%20Emotion%20in%20Believable%20AgentsBATES.pdf  
+Legal Basics for the Game Development Business | Gene K. Landy | 
+Interactive Directing | Noah Falstein | https://www.reddit.com/r/IAmA/comments/6a5v6m/im_noah_falstein_ive_been_making_games/   
+Placeholder: Narrative Action | Brenda Laurel & Rob Tow | https://www.heathervescent.com/heathervescent/2015/07/brenda-laurel-and-rob-tow.html  
+Story Building: Creating Story & Character | Ellen Guon | https://www.fantasticfiction.com/g/ellen-guon/  
+3DO Platform profile | Trip Hawkins | https://www.interactive.org/news/hit_list_trip_hawkins.asp
+Status of the Industry | Lee Isgur Status of the Industry | Lee Isgur | 
+Meet the Press | Lindstrom, Nihei, Wilson & Lee-Merrow | 
+Kid Friendly Educational Games | Fox ,Goldstein, Haine & Goun | 
+Live Action Role Playing | Walter Freitag | https://www.mobygames.com/developer/sheet/view/developerId,39427/  
+Online Multiplayer Games | Carrie Washburn & Richard Mulligan | 
+Contract Negotiations: Issues & Strategy | Jeffery O'Connel | 
 
 
 ## CGDC 1995
@@ -497,6 +520,30 @@ The 1999 GDC had more than 9,500 attendees [^5].
 
 ## GDC 2000 - March 8th-12th
 The 2000 GDC ticked off on March 8th with the tagline "Take your place in game history", it was attended by ? games industry professionals. 
+
+There were so many talks that it was split into seven different tracks:
+* Programming
+* Game Design
+* Business & Legal
+* Production
+* Audio
+* Visual Arts
+* Level Design
+
+Title | Presenter | Track | Notes
+---|---|---|---
+Making Fun for the Masses: We've Just Scraped the Surface! | Tom Dusenberry | Business & Legal | 
+Mainting Your Vision and Consistency through the Hell of Production | Lorne Lanning | Production | 
+PlayStation Keynote | Phil Harrison | All | 
+Using the Evolution of Black & White As an Example of Next Generation Development Ethos | Peter Molyneux | Game Design | 
+New Pioneers at the Graphics Frontier | Kurt Akeley | Programming |
+Conference Keynote | Danny Hillis | All |  
+The Role of Reality in Epic Game Creation | Yu Suzuki | Game Design | 
+Designing Sound for Media and Designing Media for Sound | Randy Thom | Audio | 
+The Designs of Star Wars: Episode One | Doug Chiang | Visual Arts | 
+
+
+
 
 ### Microsoft DirectX Developer Day (March 8th)
 It included a "Microsoft DirectX Developer Day" on the 8th of March held by Hicrosoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a  Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX8 but also an early build exclusive to atendees.
