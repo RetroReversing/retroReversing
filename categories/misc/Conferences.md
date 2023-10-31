@@ -201,7 +201,7 @@ A user over at archive.org managed to upload audio recordings of the 1994 confer
 
 Title | Presenter | Notes
 ---|---|---
-Interactivity Revolution, And Pain | Chris Crawford | https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)
+Interactivity Revolution, And Pain | [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)) | 
 Phillips Interactice Media Demo | Phillips | 
 Celluoid to Silicon: A Sermon | Ernest  Adams | http://www.designersnotebook.com/Lectures/Celluloid/celluloid.htm   
 How the other Half Plays | Barbara Lanza | https://archive.org/stream/Computer_Gaming_World_Issue_120/Computer_Gaming_World_Issue_120_djvu.txt    
@@ -221,6 +221,64 @@ Online Multiplayer Games | Carrie Washburn & Richard Mulligan |
 Contract Negotiations: Issues & Strategy | Jeffery O'Connel | 
 
 
+There were at least 100+ talks at CGDC 1994 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
+
+Title | Presenter | Type | Notes
+---|---|---
+3DO, Cable, RBOCs: Who Wins? | Bob Alexander | Lecture | CGDC94-001
+Alternative Marketing Methods | Diana Gruber | Lecture | CGDC94-004
+Approaches to Funding Games | Steve Shannon | Lecture | CGDC94-005
+Audio Community Forum | Tom Rettig | Lecture | CGDC94-007
+Believable Interactive Characters | Joseph Bates | Lecture | CGDC94-011
+Business Plans for Multimedia Company | Gina Frye, John Kalb, Alison Ross | Lecture | CGDC94-013
+C++ Light: OOP is a Four- Letter Word | Stephen Beeman | Lecture | CGDC94-028
+CD-ROM Programming for the PC | Mark Manyen | Lecture | CGDC94-014
+Celluloid to Silicon: A Sermon | Ernest Adams | Lecture | CGDC94-016
+Code Optimization for Intel Pentium | Gary Carleton | Lecture | CGDC94-017
+Contract Negotiations: Issues & Strategy | Jeff O'Connell | Lecture | CGDC94-021
+Distribution Realities (and Workarounds) | Gordon Walton | Lecture | CGDC94-026
+Effective Quality Assurance | Tom Czarnik | Lecture | CGDC94-027
+Fantasy to Reality and Back Again | Michele Em | Lecture | CGDC94-030
+Fine Art of Data- Wrangler | Paul Reiche, Scott A. H. Ruggels | Lecture | CGDC94-031
+Games for Megamathematics | Michael Fellows | Lecture | CGDC94-033
+Getting a Job (For Technical Wannabes) | Kay Sloan | Lecture | CGDC94-034
+Hard Lessons in Program Design | John Miles | Lecture | CGDC94-036
+How the Other Half Plays | Barbara Lanza | Lecture | CGDC94-038
+Human Animation Techniques | Kendra Lammas | Lecture | CGDC94-041
+Industry Overview for Wannabes | Tim Brengle, Greg Johnson, Mark Voorsanger | Lecture | CGDC94-043
+Interactive Directing | Noah Falstein | Lecture | CGDC94-045
+Interactive Music: Why, How and Where | Donald S. Griffin | Lecture | CGDC94-046
+Interactivity Revolution, and Pain | Chris Crawford | Lecture | CGDC94-047
+Interface is the Game | William Volk | Lecture | CGDC94-048
+Kid Friendly: Educational Games | Annie Fox, Ken Goldstein, Gano Haine, Ellen Guon | Lecture | CGDC94-049
+Live Action Role Playing | Walt Freitag | Lecture | CGDC94-051
+Making Interactive Games for Both Genders | Heidi Dangelmaier | Lecture | CGDC94-052
+Meet the Press | Bob Lindstrom, Wes Nihei, Gina Smith, Johnny L. Wilson, Susan W. Lee-Merrow | Lecture | CGDC94-054
+Multimedia Versus Game Design | Chris Crawford, Sid Meier, Greg Roach | Lecture | CGDC94-057
+Music: The Heart of Interactivity | The Fat Man | Lecture | CGDC94-103
+Online Multiplayer Games | Carrie Washburn, Richard Mulligan | Lecture | CGDC94-059
+Overview of the Jaguar Game Machine | Bill Rehbock | Lecture | CGDC94-060
+PLACEHOLDER: Real Bodies in Virtual Worlds | Brenda Laurel, Rob Tow | Lecture | CGDC94-062
+Pixel Envy | Jenny Martin | Lecture | CGDC94-064
+Practical 3D Implementation (CGDC94-066) | Robert Zdybel | Lecture | CGDC94-066
+Programming for Commercial Virtual Reality Devices (CGDC94- 069) | David Whatley | Lecture | CGDC94-069
+Programming the VESA Audio Interface (CGDC94-071) | Doug Cody | Lecture | CGDC94-071
+Protecting the Intellectual Property in your Interactive Software (CGDC94-072) | Scott Pink | Lecture | CGDC94-072
+Puzzle Games and How to Design Them (CGDC94-074) | Scott Kim | Lecture | CGDC94-074
+Rapid Prototyping (CGDC94-075) | Nicole Lazzaro | Lecture | CGDC94-075
+Real AI, Part I: Game- Tree Search (CGDC94-076) | W. Bryan Stout | Lecture | CGDC94-076
+Software Ratings (CGDC94-085) | John (Jack) W. Heistand, Dr. Barbara Simons, Johnny L. Wilson, Steve Peterson | Lecture | CGDC94-085
+Speech Technology (CGDC94-087) | Gary Davenport | Lecture | CGDC94-087
+Status of the Interactive Entertainment Industry, 1994 (CGDC94-089) | Lee S. Isgur | Lecture | CGDC94-089
+Storybuilding: Creating Story & Character (CGDC94-090) | Ellen Guon | Lecture | CGDC94-090
+Surviving a Long Distance Relationship (CGDC94-091) | Bobby Prince | Lecture | CGDC94-091
+Trends in Game Software Sales (CGDC94-094) | Ann Stephens | Lecture | CGDC94-094
+Tricks for Designing Game Music (CGDC94-095) | Rob Wallace | Lecture | CGDC94-095
+Using Attorneys & Accountants (CGDC94-096) | Bruce Maximov, Paul J. Heiselmann | Lecture | CGDC94-096
+Windows Programming: A Beginner's View (CGDC94-092) | Nicky Robinson, Stephen Beeman | Lecture | CGDC94-092
+WinG: A DLL for Graphics (CGDC94-101) | Chris Hecker | Lecture | CGDC94-101
+
+---
 ## CGDC 1995
 There were so many talks in CGDC 1995 year that the conference was split into a number of specialist "Tracks":
 * Audio
