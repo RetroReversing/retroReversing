@@ -1016,20 +1016,38 @@ DirectSound | Microsoft  | Sponsored Session |
 Memory Efficient Color Mapping Techniques for Game Development | Nichimen Graphics  | Sponsored Session |
 ATI's Hi-Volume RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
 
+
 For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics I am looking at you).
+
 Microsoft had sessions advertising their DirectX technology (DirectPlay, DirectSound, Direct3D and DirectDraw) and even from their hardware division (Sidewinder Group).
 
-There was even a session by Apple on using Quicktime for Windows Game Development! Would love to get a hold of what was presented at that session.
+There was even a session by **Apple** on using Quicktime for Windows Game Development! Would love to get a hold of what was presented at that session.
 
----
-## GDC 1998 - March 15h-19th
-The first Conference to be branded simply as GDC, loosing the Computer prefix and starting to appeal to console game developers was hosted in the San Jose Convention Center, California
 
 ## CGDC 1998 - May 4th-8th
-The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now replaced with GDC which had just been hosted 2 months earlier [^3].
+The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
 
-## GDC 1999
-The 1999 GDC had more than 9,500 attendees [^5].
+The talks we know that were held at CGDC 1998 are in the table below:
+
+Title | Presenter | Track | Notes
+---|---|---|---
+"A Formula Is Worth a Thousand Keyframes" Mathematically Derived Real Time Character Animation | Peter Akemann | Programming | Lecture
+3D Controllers One Year Later: What Have Learned? What Have We Earned? | Tom Cmajdalka, Frank Evers, Jon Peddie, Jay Eishenlohr, Scott Sellers  | Programming | Lecture
+Blazing Fast Code | Jon Bentley | Programming | Keynote
+Bringing Engineering Discipline to Entertainment Development | Gordon Walton | Programming | Seminar
+Bringing Your Code Up to Speed | Ron Fosner | Programming | Lecture
+Building a Better Mouse: AI Lessons From Artificial Life | Robert Huebner | Programming | Lecture
+Building Advanced Autonomous AI Systems for Large Scale Real-Time Simulations | John Laird | Programming | Lecture
+Building Commercial Games in Java: How We Did It | Garner Halloran | Programming | Lecture (Tom Clancy's Politika)
+Coding the Ideal Direct3D Game | Richard Huddy | Programming | Sponsored
+Collecting Money on the Internet: Gameplay by the Click | Russ Jones | Programming | Sponsored
+Collision Detection in Pacman Ghost Zone: Collision Techniques in a 3D Environment for Man and Camera | Gilbert Colgate | Programming | Lecture
+
+There is even a session this year on building games in Java, which was not seen as a viable programming language for game development at the time due to it being an interpreted language with limited APIs for hardware acceleration. Garner Halloran talks about developing the game **Tom Clancy's Politika** in Java which was a virtual board game similar to Risk.
+
+
+## GDC 1999 - March 15th-19th
+The 1999 GDC had more than **9,500** attendees [^5].
 
 ## GDC 2000 - March 8th-12th
 The 2000 GDC ticked off on March 8th with the tagline "Take your place in game history", it was attended by ? games industry professionals. 
