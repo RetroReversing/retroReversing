@@ -1023,7 +1023,7 @@ Microsoft had sessions advertising their DirectX technology (DirectPlay, DirectS
 
 There was even a session by **Apple** on using Quicktime for Windows Game Development! Would love to get a hold of what was presented at that session.
 
-
+---
 ## CGDC 1998 - May 4th-8th
 The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
 
@@ -1042,13 +1042,32 @@ Building Commercial Games in Java: How We Did It | Garner Halloran | Programming
 Coding the Ideal Direct3D Game | Richard Huddy | Programming | Sponsored
 Collecting Money on the Internet: Gameplay by the Click | Russ Jones | Programming | Sponsored
 Collision Detection in Pacman Ghost Zone: Collision Techniques in a 3D Environment for Man and Camera | Gilbert Colgate | Programming | Lecture
+Creating Realistic Effects with OpenGL | Simon Hui | Programming | Lecture
+Cross Platform Development : Easier and Harder Than You Think | Eric Klein | Programming | Lecture
+Curved Surfaces vs. Discrete Multiresolution Models | Murali Sundaresan | Programming | Lecture
+Database Development for Real-Time 3D Games: A View From Both Sides | Gjon Camaj | Programming | Lecture
+Development Tools: Shines & Whines | David Gill | Programming | Sponsored
+DirectAnimation | Pablo Fernicola | Programming | Sponsored
+DirectShow | Kevin Larkin | Programming | Sponsored
+Display List Rendering | Marc Pinter-Krainer | Programming | Sponsored
 
+
+### Game Development in Java in 1998?!
 There is even a session this year on building games in Java, which was not seen as a viable programming language for game development at the time due to it being an interpreted language with limited APIs for hardware acceleration. Garner Halloran talks about developing the game **Tom Clancy's Politika** in Java which was a virtual board game similar to Risk.
 
-
+---
 ## GDC 1999 - March 15th-19th
 The 1999 GDC had more than **9,500** attendees [^5].
 
+GDC 1999 was split into six different tracks:
+* Audio
+* Business & Legal
+* Game Design
+* Production
+* Programming
+* Visual Arts
+
+---
 ## GDC 2000 - March 8th-12th
 The 2000 GDC ticked off on March 8th with the tagline "Take your place in game history", it was attended by ? games industry professionals. 
 
@@ -1061,6 +1080,8 @@ There were so many talks that it was split into seven different tracks:
 * Visual Arts
 * Level Design
 
+The sessions that we know about are listed in the table below:
+
 Title | Presenter | Track | Notes
 ---|---|---|---
 Making Fun for the Masses: We've Just Scraped the Surface! | Tom Dusenberry | Business & Legal | 
@@ -1072,7 +1093,6 @@ Conference Keynote | Danny Hillis | All |
 The Role of Reality in Epic Game Creation | Yu Suzuki | Game Design | 
 Designing Sound for Media and Designing Media for Sound | Randy Thom | Audio | 
 The Designs of Star Wars: Episode One | Doug Chiang | Visual Arts | 
-
 
 
 
