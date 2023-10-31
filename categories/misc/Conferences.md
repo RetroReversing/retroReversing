@@ -183,20 +183,8 @@ Google Books claims to have the proceesings of the Eighth Annual Computer Game D
 
 A user over at archive.org managed to upload audio recordings of the 1994 conference, some of the titles match the above but others do not, they are available in the table below:
 
-Title | Presenter | Notes
----|---|---
-Celluoid to Silicon: A Sermon | Ernest  Adams | http://www.designersnotebook.com/Lectures/Celluloid/celluloid.htm   
-How the other Half Plays | Barbara Lanza | https://archive.org/stream/Computer_Gaming_World_Issue_120/Computer_Gaming_World_Issue_120_djvu.txt    
-Believable Interactive Characters | Joseph Bates | https://web.stanford.edu/dept/HPS/154/Workshop/Role%20of%20Emotion%20in%20Believable%20AgentsBATES.pdf  
-Legal Basics for the Game Development Business | Gene K. Landy | 
-Interactive Directing | Noah Falstein | https://www.reddit.com/r/IAmA/comments/6a5v6m/im_noah_falstein_ive_been_making_games/   
-Placeholder: Narrative Action | Brenda Laurel & Rob Tow | https://www.heathervescent.com/heathervescent/2015/07/brenda-laurel-and-rob-tow.html  
-Story Building: Creating Story & Character | Ellen Guon | https://www.fantasticfiction.com/g/ellen-guon/  
-3DO Platform profile | Trip Hawkins | https://www.interactive.org/news/hit_list_trip_hawkins.asp
-Live Action Role Playing | Walter Freitag | https://www.mobygames.com/developer/sheet/view/developerId,39427/  
 
-
-There were at least 100+ talks at CGDC 1994 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
+There were at least 100 talks at CGDC 1994 that we know about, thanks to **The KNOW-IT-ALL Audiovisual Library** website, they are listed in the table below:
 
 Title | Presenter | Type | Notes
 ---|---|---
@@ -204,11 +192,11 @@ Title | Presenter | Type | Notes
 Alternative Marketing Methods | Diana Gruber | Lecture | CGDC94-004
 Approaches to Funding Games | Steve Shannon | Lecture | CGDC94-005
 Audio Community Forum | Tom Rettig | Lecture | CGDC94-007
-Believable Interactive Characters | Joseph Bates | Lecture | CGDC94-011 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+Believable Interactive Characters | Joseph Bates | Lecture | CGDC94-011 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994) [Slides](https://web.stanford.edu/dept/HPS/154/Workshop/Role%20of%20Emotion%20in%20Believable%20AgentsBATES.pdf)
 Business Plans for Multimedia Company | Gina Frye, John Kalb, Alison Ross | Lecture | CGDC94-013 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 C++ Light: OOP is a Four- Letter Word | Stephen Beeman | Lecture | CGDC94-028
 CD-ROM Programming for the PC | Mark Manyen | Lecture | CGDC94-014
-Celluloid to Silicon: A Sermon | Ernest Adams | Lecture | CGDC94-016 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+Celluloid to Silicon: A Sermon | Ernest Adams | Lecture | CGDC94-016 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994) [Slides](http://www.designersnotebook.com/Lectures/Celluloid/body_celluloid.htm)
 Code Optimization for Intel Pentium | Gary Carleton | Lecture | CGDC94-017
 Contract Negotiations: Issues & Strategy | Jeff O'Connell | Lecture | CGDC94-021 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Distribution Realities (and Workarounds) | Gordon Walton | Lecture | CGDC94-026
@@ -221,19 +209,19 @@ Hard Lessons in Program Design | John Miles | Lecture | CGDC94-036
 How the Other Half Plays | Barbara Lanza | Lecture | CGDC94-038 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Human Animation Techniques | Kendra Lammas | Lecture | CGDC94-041
 Industry Overview for Wannabes | Tim Brengle, Greg Johnson, Mark Voorsanger | Lecture | CGDC94-043
-Interactive Directing | Noah Falstein | Lecture | CGDC94-045 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+Interactive Directing | [Noah Falstein](https://www.reddit.com/r/IAmA/comments/6a5v6m/im_noah_falstein_ive_been_making_games/) | Lecture | CGDC94-045 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Interactive Music: Why, How and Where | Donald S. Griffin | Lecture | CGDC94-046
 Interactivity Revolution, and Pain | [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)) | Lecture | CGDC94-047 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Interface is the Game | William Volk | Lecture | CGDC94-048
 Kid Friendly: Educational Games | Annie Fox, Ken Goldstein, Gano Haine, Ellen Guon | Lecture | CGDC94-049 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
-Live Action Role Playing | Walt Freitag | Lecture | CGDC94-051 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+Live Action Role Playing | [Walt Freitag](https://www.mobygames.com/developer/sheet/view/developerId,39427/) | Lecture | CGDC94-051 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Making Interactive Games for Both Genders | Heidi Dangelmaier | Lecture | CGDC94-052
 Meet the Press | Bob Lindstrom, Wes Nihei, Gina Smith, Johnny L. Wilson, Susan W. Lee-Merrow | Lecture | CGDC94-054 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Multimedia Versus Game Design | Chris Crawford, Sid Meier, Greg Roach | Lecture | CGDC94-057
 Music: The Heart of Interactivity | The Fat Man | Lecture | CGDC94-103
 Online Multiplayer Games | Carrie Washburn, Richard Mulligan | Lecture | CGDC94-059 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Overview of the Jaguar Game Machine | Bill Rehbock | Lecture | CGDC94-060
-PLACEHOLDER: Real Bodies in Virtual Worlds | Brenda Laurel, Rob Tow | Lecture | CGDC94-062 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+PLACEHOLDER: Real Bodies in Virtual Worlds | [Brenda Laurel, Rob Tow](https://www.heathervescent.com/heathervescent/2015/07/brenda-laurel-and-rob-tow.html) | Lecture | CGDC94-062 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Pixel Envy | Jenny Martin | Lecture | CGDC94-064
 Practical 3D Implementation (CGDC94-066) | Robert Zdybel | Lecture | CGDC94-066
 Programming for Commercial Virtual Reality Devices (CGDC94- 069) | David Whatley | Lecture | CGDC94-069
@@ -245,7 +233,7 @@ Real AI, Part I: Game- Tree Search (CGDC94-076) | W. Bryan Stout | Lecture | CGD
 Software Ratings | John (Jack) W. Heistand, Dr. Barbara Simons, Johnny L. Wilson, Steve Peterson | Lecture | CGDC94-085
 Speech Technology | Gary Davenport | Lecture | CGDC94-087
 Status of the Interactive Entertainment Industry, 1994 | Lee S. Isgur | Lecture | CGDC94-089 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
-Storybuilding: Creating Story & Character | Ellen Guon | Lecture | CGDC94-090 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
+Storybuilding: Creating Story & Character | [Ellen Guon](https://www.fantasticfiction.com/g/ellen-guon/) | Lecture | CGDC94-090 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Surviving a Long Distance Relationship | Bobby Prince | Lecture | CGDC94-091
 Trends in Game Software Sales | Ann Stephens | Lecture | CGDC94-094 [Audio](https://archive.org/details/Computer_Game_Developers_Conference_Tapes_1994)
 Tricks for Designing Game Music | Rob Wallace | Lecture | CGDC94-095
