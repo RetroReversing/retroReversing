@@ -767,8 +767,8 @@ The Day 2 talks were:
 
 Pretty much nothing is available online about who gave these talks or what they contained.
 
-### Classic CGDC Conference Day One
-Day one had 105 different sessions split up into the following four types:
+### Classic CGDC Conference
+The Classic CGDC Conference had 200+ different sessions split up into the following four types:
 * Lectures - Typical Conference presentation format with Powerpoint Slides
 * Seminars - More hands on than Lectures
 * Roundtables - Panel of experts talking about a specific talking and maybe answering audience questions
@@ -884,13 +884,6 @@ Wavetable: Ubiquitous Platform?!? | Creative Labs | Sponsored Session |
 Creating Your Own Private Branded Online Gaming Service Around Your Content | Mpath Interactive | Sponsored Session |
 Working with Microsoft "In The Zone" | Microsoft (HW) | Sponsored Session |
 Total Exposure: Reaching Millions via One Company Partner| The ImagiNation Network | Sponsored Session |
-
-
-### Classic CGDC Conference Day Two
-Day two had 123 unique sessions in the same 4 types (Lectures, Seminars, Roundtables and Sponsored Sessions) which you can see the full list of in the table below:
-
-Title | Presenter | Type | Notes
----|---|---|---
 The Best Kept Secrets of Digital Art | Dale Mauk, Patricia Pearson | Lecture | 
 Humor in Game Design | Steven Meretzky | Lecture | 
 Into the Grey Zone and Beyond: Protecting Your Legal Interests in the New Multimedia Environment | Alisa Baker | Lecture | 
@@ -1065,7 +1058,7 @@ High Color, High Res: Graphics Programming in a Non-Palletized World | Wade Brai
 High Performance Game Programming in C++ | Paul Pedriana| Programming | Lecture | 
 How Bout Dem Bones: Creating a Bones-Based Animation System | Andrew Lunstad| Programming | Lecture | 
 How Shadows of the Empire Used the Force | Gary Brubaker| Programming | Lecture | 
-Improving Graphics Performance Using iPEAK | Herb Marsales | Sponsored | [iPeak](https://www.gamedeveloper.com/programming/profiling-data-analysis-scalability-and-magic-numbers-meeting-the-minimum-requirements-for-age-of-empires-ii-the-age-of-kings)
+Improving Graphics Performance Using iPEAK | Herb Marsales | Programming  | Sponsored | [iPeak](https://www.gamedeveloper.com/programming/profiling-data-analysis-scalability-and-magic-numbers-meeting-the-minimum-requirements-for-age-of-empires-ii-the-age-of-kings)
 Intel740 Graphics Accelerator Performance Tuning | Theodore Omtzigt, Jay Sturges | Sponsored | 
 Lies, Damn Lies, and ASR Statistics: A Voice Processing Primer | Neil Kirby  | Programming | Seminar | Slides on CD
 Low Cost 3D Graphics for Independent Game Developers | Caligari | Programming |	Sponsored | truespace4
@@ -1079,26 +1072,40 @@ Natural Language Processing in 55 Minutes or Less | John O'Neil | Programming | 
 Next Generation BSP Trees | Bruce Naylor | Programming | Lecture | 
 Next Generation Effects Using Multi-texture, Multi-pass Triangles | David Kirk | Programming | Lecture | Direct3D
 Optimizing 3D Performance with Direct3D | David Kirk | Programming | Sponsored | 
-Optimizing Games for the Real 3D Starfighter with Intel740 | Hadden Hoppert   Jeff Potter   Andy Thompson | Sponsored | Real3D
-Performance Tuning for Pentium II Processors with VTune 3.0 | Gary Carleton | Sponsored by Intel | Pentium II processor tuning
+Optimizing Games for the Real 3D Starfighter with Intel740 | Hadden Hoppert, Jeff Potter, Andy Thompson | Programming | Sponsored | Real3D
+Performance Tuning for Pentium II Processors with VTune 3.0 | Gary Carleton | Programming | Sponsored by Intel | Pentium II processor tuning
 Physical Modeling for Games | Michael Shantz | Programming | Lecture | 
-Physics Q&A | Chris Hecker, David Wu |  Programming |	Seminar | 
+Physics Q&A | Chris Hecker, David Wu | Programming |	Seminar | 
 Porting Flight Sim '98 to Direct3D: Dragging a 15 Year Old Graphics Engine Into the 90s | Todd Laney | Programming | Lecture | 
-PowerVR II Technology Overview | John Smith | Sponsored | Dreamcast and PC GPU
-Programming for PC-based Coin-Op and Arcade Games | Mark Atkins | Sponsored | 
-Programming with Glide | 3Dfx Interactive |	Sponsored |
+PowerVR II Technology Overview | John Smith | Programming | Sponsored | Dreamcast and PC GPU
+Programming for PC-based Coin-Op and Arcade Games | Mark Atkins | Programming | Sponsored | 
+Programming with Glide | 3Dfx Interactive | Programming |	Sponsored |
 Project AI | Mark Baldwin | Programming | Lecture | Used in Games: The Perfect General, Empire Deluxe and Empire II
-Quake2: A Study in Using OpenGL and Hardware Acceleration for the PC Platform  | Brian Hook | Programming | Lecture | 
-Real-Time Procedural Texturing | Haim Barad | Sponsored | MMX, fractional Brownian motion
+Quake2: A Study in Using OpenGL and Hardware Acceleration for the PC Platform | Brian Hook | Programming | Lecture | 
+Real-Time Procedural Texturing | Haim Barad | Programming | Sponsored | MMX, fractional Brownian motion
 State of the Art in 3D Real-Time Characters | Jeff Lander | Programming | Lecture
 Texture Caching | Jonathan Blow | Programming | Roundtable | Artistic styles in computer games
-The Art of Force Feedback: Adding Realism To Your Applications Using Force Feedback Sticks, Wheels, and Mice | Dean Chang | Sponsored | DirectInput
-The Future of Coin-Op Games | John Fowler, John Latta, Matt Saettler, Albert Teng, Tom Petit, Jeff Walker | Plenary | 
+The Art of Force Feedback: Adding Realism To Your Applications Using Force Feedback Sticks, Wheels, and Mice | Dean Chang  | Programming | Sponsored | DirectInput
+The Future of Coin-Op Games | John Fowler, John Latta, Matt Saettler, Albert Teng, Tom Petit, Jeff Walker | Programming | Plenary | 
 The Physics of Baseball 3D | Miguel Gomez | Programming | Lecture | Microsoft Baseball 3D
 Tips & Tricks of PowerVR's First & Second Generation | Kevin Kralian | Programming | Sponsored | Gremlin, Kalisto, Ion Storm, Acclaim, and others. 
-Triangle Strip Generation for Real-Time 3D Games | Michael Rosenzweig | Sponsored | 
-Vector Quantization Texture Compression, Hardware Bump Mapping, and Generalized Modifier Volumes | Mark Butler | Sponsored | 
-VR-1 Conductor: Creating a Standard Technology Platform for Online Gaming | Mark Vange | Sponsored | VR-1 Conductor SDK
+Triangle Strip Generation for Real-Time 3D Games | Programming | Michael Rosenzweig | Sponsored | 
+Vector Quantization Texture Compression, Hardware Bump Mapping, and Generalized Modifier Volumes | Programming | Mark Butler | Sponsored | 
+VR-1 Conductor: Creating a Standard Technology Platform for Online Gaming | Mark Vange | Programming | Sponsored | VR-1 Conductor SDK
+3D Character Modeling for Animation | Stefan Henry-Biskup | Visual Arts | Lecture | Spline-based modeling techniques
+Art Skills to Produce Superior Figurative Game Art | Don Seegmiller | Visual Arts | Lecture | 
+Artists And Game Design Documents: From Interpretation To Implementation | Joshua Gordon | Visual Arts | Lecture | 
+Building Tight Real-Time Models | Ocean Quigley | Visual Arts | Lecture | 
+Directing an Art Department | Glen Schofield | Visual Arts | Lecture | 
+Game Developer Magazine's Animation Confrontation | Sponsored by Game Developer | Visual Arts | Plenary | Participants include Kinetix, NewTek, and Softimage
+How to Break in as an Artist | Carrie Galbraith | Visual Arts | Seminar | 
+Killer Games with SOFTIMAGE3D | Softimage | Visual Arts |	Sponsored |  SOFTIMAGE GDK, Tantrum Entertainment
+Picture Imperfect: Common 3D Rendering Flaws | Brad Cain | Visual Arts | Lecture | 
+Planning and Directing Motion Capture for Games | Melianthe Kines | Visual Arts | Seminar
+Real-Time 3D Art Ideas from Online Applications | Stasia McGehee | Visual Arts | Lecture | Web-based low-poly 3D applications
+The Art of Low-Poly | Paul Steed | Visual Arts | Lecture | Quake II
+The Need for Renaissance Men and Women in this Digital Age of Art | Cyrus Lum | Visual Arts | Keynote | 3D Artist scripting languages
+You Want What? Scaleable Character Approaches for 3D Real-Time | Paul Lewis  | Visual Arts | Lecture | 
 
 
 ### Sponsored Sessions
