@@ -1116,13 +1116,12 @@ In the session **Programming for PC-based Coin-Op and Arcade Games** by Mark Atk
 
 He was not the only developer to propose a PC-based arcade as there was another session called **The Future of Coin-Op Games** by the Open Arcade Architecture (OAA) forum members who share their insights on what makes a great arcade game, understanding the differences in creating hit arcade games and hit home games, making money in the arcade market, and how to use arcade as a first-run theater for titles headed for the home. 
 
----
 ### Game Development in Java in 1998?!
 There is even a session this year on building games in Java, which was not seen as a viable programming language for game development at the time due to it being an interpreted language with limited APIs for hardware acceleration. Garner Halloran talks about developing the game **Tom Clancy's Politika** in Java which was a virtual board game similar to Risk.
 
 ---
 ## GDC 1999 - March 15th-19th
-The 1999 GDC had more than **9,500** attendees [^5].
+The 1999 GDC had more than **9,500** attendees [^5] and had **Shigeru Miyamoto** as a keynote speaker along with other keynotes from Sega and Sony.
 
 GDC 1999 was split into six different tracks:
 * Audio
@@ -1131,6 +1130,32 @@ GDC 1999 was split into six different tracks:
 * Production
 * Programming
 * Visual Arts
+
+The sessions that we know about are listed in the table below:
+
+Title | Presenter | Track | Type | Notes
+---|---|---|---
+Changing for the Better: Redefining Game and Hardware Development through Evolution (Sega's Console Keynote) | Bernie Stolar |	All | Keynote | 
+The Secret to Consistently Delivering Hit Titles	| Louis Castle | Production |	Keynote | Westwood Studios
+Surviving 15 Years on the Frontlines of the War	| Brian Fargo | Business & Legal |	Keynote | 
+The Future of Interactive Entertainment (Sony's Console Keynote)	| Phil Harrison | All |	Keynote | 
+New Players, New Games | Brenda Laurel | Game Design | Keynote | Diversity
+How To Render The World	| Andrew Glassner | Programming |	Keynote | Shading techniques, from direct illumination to ray-tracing and radiosity
+Music in Video Games: The Art of the Deal (How to Make Tons of Cash Writing Video Game Music!)	| Tommy Tallarico | Audio |	Keynote |
+Conference Keynote: Shigeru Miyamoto | Shigeru Miyamoto | All |	Keynote | 
+The Reality of Fantasy | Syd Mead | Visual Arts |	Keynote | 
+
+
+
+### Shigeru Miyamoto's 1999 GDC Keynote
+Shigeru Miyamoto discusses his creation of such worldwide recognized characters as Mario, Donkey Kong, Link, and Zelda. He also shares his vision of The Legend of Zelda: Ocarina of Time, the fastest-selling game in history, and looks into what the future holds for game developers in the new millenium.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a9DlhDRZ0yA?si=ItR3cSooTvgHatKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### Sega's 1999 GDC Keynote
+In this speech, Bernard Stolar, president and COO of Sega of America, addresses how the company is preparing for the new marketplace with its Dreamcast video game system. Dreamcast's unique architecture creates a machine that is up to 15 times more powerful than current consoles and can actually change and grow with the gamer. Stolar discusses the benefits of creating games for a platform that will actually evolve, not just with simple peripheral add-ons, but with significant technologies that keep the machine as fresh, current and competitive as the day it was purchased. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mf_bfLmoOcw?si=1BWX-c9SnLTirvkF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 ## GDC 2000 - March 8th-12th
@@ -1158,9 +1183,6 @@ Conference Keynote | Danny Hillis | All |
 The Role of Reality in Epic Game Creation | Yu Suzuki | Game Design | 
 Designing Sound for Media and Designing Media for Sound | Randy Thom | Audio | 
 The Designs of Star Wars: Episode One | Doug Chiang | Visual Arts | 
-
-### Shigeru Miyamoto's 1999 GDC Keynote
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a9DlhDRZ0yA?si=ItR3cSooTvgHatKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### Microsoft DirectX Developer Day (March 8th)
