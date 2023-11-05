@@ -774,7 +774,7 @@ The Classic CGDC Conference had 200+ different sessions split up into the follow
 * Roundtables - Panel of experts talking about a specific talking and maybe answering audience questions
 * Sponsored Sessions - Presumably lectures that were not voted on but instead paid to present
 
-All the talks from the first day of the "Classic" Computer Developers Conference are in the table below. If you know of any links to videos, slides, reviews or even notes from any of the sessions please add them to the Notes column in the table.
+All the talks from the two days of the "Classic" Computer Developers Conference are in the table below. If you know of any links to videos, slides, reviews or even notes from any of the sessions please add them to the Notes column in the table.
 
 Title | Presenter | Type | Notes
 ---|---|---|---
@@ -1220,7 +1220,7 @@ Note that although we don't have much details on the contents of each of the tal
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## GDC 2005
-GDC 2005 was the first to be hosted in San Francisco and brought in  a record 12,000 attendees [^2].
+GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
 
 ---
 # SIGGRAPH
