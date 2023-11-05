@@ -1019,39 +1019,97 @@ ATI's Hi-Volume RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
 
 For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics I am looking at you).
 
+### Microsoft DirectX Sessions
 Microsoft had sessions advertising their DirectX technology (DirectPlay, DirectSound, Direct3D and DirectDraw) and even from their hardware division (Sidewinder Group).
 
+### Apple back in the games industry in 1998?
 There was even a session by **Apple** on using Quicktime for Windows Game Development! Would love to get a hold of what was presented at that session.
 
 ---
-## CGDC 1998 - May 4th-8th
+## GDC 1998 - May 4th-8th
 The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
+
+Playstation Underground had a brief 3 minute look at CGDC 1998, it interviews Jennifer Pahlka who was a female director of the GDC, you can watch on Youtube:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jQwv7Cdvwas?si=ypsyyNPJsyLIayyH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The talks we know that were held at CGDC 1998 are in the table below:
 
-Title | Presenter | Track | Notes
----|---|---|---
-"A Formula Is Worth a Thousand Keyframes" Mathematically Derived Real Time Character Animation | Peter Akemann | Programming | Lecture
-3D Controllers One Year Later: What Have Learned? What Have We Earned? | Tom Cmajdalka, Frank Evers, Jon Peddie, Jay Eishenlohr, Scott Sellers  | Programming | Lecture
-Blazing Fast Code | Jon Bentley | Programming | Keynote
-Bringing Engineering Discipline to Entertainment Development | Gordon Walton | Programming | Seminar
-Bringing Your Code Up to Speed | Ron Fosner | Programming | Lecture
-Building a Better Mouse: AI Lessons From Artificial Life | Robert Huebner | Programming | Lecture
-Building Advanced Autonomous AI Systems for Large Scale Real-Time Simulations | John Laird | Programming | Lecture
-Building Commercial Games in Java: How We Did It | Garner Halloran | Programming | Lecture (Tom Clancy's Politika)
-Coding the Ideal Direct3D Game | Richard Huddy | Programming | Sponsored
-Collecting Money on the Internet: Gameplay by the Click | Russ Jones | Programming | Sponsored
-Collision Detection in Pacman Ghost Zone: Collision Techniques in a 3D Environment for Man and Camera | Gilbert Colgate | Programming | Lecture
-Creating Realistic Effects with OpenGL | Simon Hui | Programming | Lecture
-Cross Platform Development : Easier and Harder Than You Think | Eric Klein | Programming | Lecture
-Curved Surfaces vs. Discrete Multiresolution Models | Murali Sundaresan | Programming | Lecture
-Database Development for Real-Time 3D Games: A View From Both Sides | Gjon Camaj | Programming | Lecture
-Development Tools: Shines & Whines | David Gill | Programming | Sponsored
-DirectAnimation | Pablo Fernicola | Programming | Sponsored
-DirectShow | Kevin Larkin | Programming | Sponsored
-Display List Rendering | Marc Pinter-Krainer | Programming | Sponsored
+Title | Presenter | Track | Type | Notes
+---|---|---|---|---
+"A Formula Is Worth a Thousand Keyframes" Mathematically Derived Real Time Character Animation | Peter Akemann | Programming | Lecture | 
+3D Controllers One Year Later: What Have Learned? What Have We Earned? | Tom Cmajdalka, Frank Evers, Jon Peddie, Jay Eishenlohr, Scott Sellers  | Programming | Lecture | 
+Blazing Fast Code | Jon Bentley | Programming | Keynote | 
+Bringing Engineering Discipline to Entertainment Development | Gordon Walton | Programming | Seminar | 
+Bringing Your Code Up to Speed | Ron Fosner | Programming | Lecture | 
+Building a Better Mouse: AI Lessons From Artificial Life | Robert Huebner | Programming | Lecture | 
+Building Advanced Autonomous AI Systems for Large Scale Real-Time Simulations | John Laird | Programming | Lecture | 
+Building Commercial Games in Java: How We Did It | Garner Halloran | Programming | Lecture |  Tom Clancy's Politika
+Coding the Ideal Direct3D Game | Richard Huddy | Programming | Sponsored | 
+Collecting Money on the Internet: Gameplay by the Click | Russ Jones | Programming | Sponsored | 
+Collision Detection in Pacman Ghost Zone: Collision Techniques in a 3D Environment for Man and Camera | Gilbert Colgate | Programming | Lecture | 
+Creating Realistic Effects with OpenGL | Simon Hui | Programming | Lecture | 
+Cross Platform Development : Easier and Harder Than You Think | Eric Klein | Programming | Lecture | 
+Curved Surfaces vs. Discrete Multiresolution Models | Murali Sundaresan | Programming | Lecture | 
+Database Development for Real-Time 3D Games: A View From Both Sides | Gjon Camaj | Programming | Lecture | 
+Development Tools: Shines & Whines | David Gill | Programming | Sponsored | 
+DirectAnimation | Pablo Fernicola | Programming | Sponsored | 
+DirectShow | Kevin Larkin | Programming | Sponsored | 
+Display List Rendering | Marc Pinter-Krainer | Programming | Sponsored | 
+Efficient System Memory Texturing Architecture for Games |  John Brothers, Ray Koduri | Programming | Sponsored | 
+Engine Scalability and 3D Hardware |  Charlie Brown, Gary McTaggart | Programming | Lecture | 
+Exploiting Parallelism in 3D Games Using a Multithreaded Game Application Framework | Feng Xie | Programming | Sponsored | 
+Gaming and Multimedia Graphics on Windows CE: A Case Study | David Gould| Programming | Sponsored | 
+Getting the Most Out of 3D Accelerators | Greg Corson | Programming | Lecture | 
+Hardcore AI for the Computer Games of Tomorrow | John Funge| Programming | Lecture | 
+High Color, High Res: Graphics Programming in a Non-Palletized World | Wade Brainerd| Programming | Lecture | 
+High Performance Game Programming in C++ | Paul Pedriana| Programming | Lecture | 
+How Bout Dem Bones: Creating a Bones-Based Animation System | Andrew Lunstad| Programming | Lecture | 
+How Shadows of the Empire Used the Force | Gary Brubaker| Programming | Lecture | 
+Improving Graphics Performance Using iPEAK | Herb Marsales | Sponsored | [iPeak](https://www.gamedeveloper.com/programming/profiling-data-analysis-scalability-and-magic-numbers-meeting-the-minimum-requirements-for-age-of-empires-ii-the-age-of-kings)
+Intel740 Graphics Accelerator Performance Tuning | Theodore Omtzigt, Jay Sturges | Sponsored | 
+Lies, Damn Lies, and ASR Statistics: A Voice Processing Primer | Neil Kirby  | Programming | Seminar | Slides on CD
+Low Cost 3D Graphics for Independent Game Developers | Caligari | Programming |	Sponsored | truespace4
+Making the Play: Team Cooperation in Microsoft Baseball 3D | Steve Rabin | Programming | Lecture | 
+Maximizing Real-Time Game Performance | Robert "Dwango Bob" Huntley | Programming | Sponsored | 
+Messiah: What You May or May Not Believe | Michael "Saxs" Perrson, David Perry | Programming | Plenary
+Motivate - Intelligent Digital Actor System | Yotto Koga | Programming | Sponsored | Motion Factory
+Multiplayer Game Development: Networking SimCity | Jason Shankel | Programming | Lecture | 
+Multiresolution Meshes: A Solution for Creating Scalable 3D Games Stephen Junkins | Programming | Sponsored | 
+Natural Language Processing in 55 Minutes or Less | John O'Neil | Programming | Lecture | 
+Next Generation BSP Trees | Bruce Naylor | Programming | Lecture | 
+Next Generation Effects Using Multi-texture, Multi-pass Triangles | David Kirk | Programming | Lecture | Direct3D
+Optimizing 3D Performance with Direct3D | David Kirk | Programming | Sponsored | 
+Optimizing Games for the Real 3D Starfighter with Intel740 | Hadden Hoppert   Jeff Potter   Andy Thompson | Sponsored | Real3D
+Performance Tuning for Pentium II Processors with VTune 3.0 | Gary Carleton | Sponsored by Intel | Pentium II processor tuning
+Physical Modeling for Games | Michael Shantz | Programming | Lecture | 
+Physics Q&A | Chris Hecker, David Wu |  Programming |	Seminar | 
+Porting Flight Sim '98 to Direct3D: Dragging a 15 Year Old Graphics Engine Into the 90s | Todd Laney | Programming | Lecture | 
+PowerVR II Technology Overview | John Smith | Sponsored | Dreamcast and PC GPU
+Programming for PC-based Coin-Op and Arcade Games | Mark Atkins | Sponsored | 
+Programming with Glide | 3Dfx Interactive |	Sponsored |
+Project AI | Mark Baldwin | Programming | Lecture | Used in Games: The Perfect General, Empire Deluxe and Empire II
+Quake2: A Study in Using OpenGL and Hardware Acceleration for the PC Platform  | Brian Hook | Programming | Lecture | 
+Real-Time Procedural Texturing | Haim Barad | Sponsored | MMX, fractional Brownian motion
+State of the Art in 3D Real-Time Characters | Jeff Lander | Programming | Lecture
+Texture Caching | Jonathan Blow | Programming | Roundtable | Artistic styles in computer games
+The Art of Force Feedback: Adding Realism To Your Applications Using Force Feedback Sticks, Wheels, and Mice | Dean Chang | Sponsored | DirectInput
+The Future of Coin-Op Games | John Fowler, John Latta, Matt Saettler, Albert Teng, Tom Petit, Jeff Walker | Plenary | 
+The Physics of Baseball 3D | Miguel Gomez | Programming | Lecture | Microsoft Baseball 3D
+Tips & Tricks of PowerVR's First & Second Generation | Kevin Kralian | Programming | Sponsored | Gremlin, Kalisto, Ion Storm, Acclaim, and others. 
+Triangle Strip Generation for Real-Time 3D Games | Michael Rosenzweig | Sponsored | 
+Vector Quantization Texture Compression, Hardware Bump Mapping, and Generalized Modifier Volumes | Mark Butler | Sponsored | 
+VR-1 Conductor: Creating a Standard Technology Platform for Online Gaming | Mark Vange | Sponsored | VR-1 Conductor SDK
 
 
+### Sponsored Sessions
+This year had Sponsored sessions showing off how to program for the newly released **Intel740** GPU and a session from **3Dfx Interactive** on Programming with Glide for their Voodoo 2 hardware.
+
+### Arcade Game programming with PC Hardware
+In the session **Programming for PC-based Coin-Op and Arcade Games** by Mark Atkins, he proposes that arcade machines of the future will be PCs connected to esoteric input devices like motion chairs and thus will allow easy porting between arcade and home computer when using technologies like DirectX.
+
+He was not the only developer to propose a PC-based arcade as there was another session called **The Future of Coin-Op Games** by the Open Arcade Architecture (OAA) forum members who share their insights on what makes a great arcade game, understanding the differences in creating hit arcade games and hit home games, making money in the arcade market, and how to use arcade as a first-run theater for titles headed for the home. 
+
+---
 ### Game Development in Java in 1998?!
 There is even a session this year on building games in Java, which was not seen as a viable programming language for game development at the time due to it being an interpreted language with limited APIs for hardware acceleration. Garner Halloran talks about developing the game **Tom Clancy's Politika** in Java which was a virtual board game similar to Risk.
 
@@ -1094,6 +1152,8 @@ The Role of Reality in Epic Game Creation | Yu Suzuki | Game Design |
 Designing Sound for Media and Designing Media for Sound | Randy Thom | Audio | 
 The Designs of Star Wars: Episode One | Doug Chiang | Visual Arts | 
 
+### Shigeru Miyamoto's 1999 GDC Keynote
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a9DlhDRZ0yA?si=ItR3cSooTvgHatKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ### Microsoft DirectX Developer Day (March 8th)
