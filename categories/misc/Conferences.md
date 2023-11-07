@@ -1146,7 +1146,7 @@ Conference Keynote: Shigeru Miyamoto | Shigeru Miyamoto | All |	Keynote |
 The Reality of Fantasy | Syd Mead | Visual Arts |	Keynote | 
 Developing Environments for the Creation of Entertainment Software | Juan Carlos Arevalo-Baeza and Edward Kilham | Visual Arts | Lecture | 3301
 Glory and Shame | Jonathan Baron | Programming | Lecture | 3205
-The Freelance Life | Ellen Beeman | Programming | Business & Legal | 5110
+The Freelance Life | Ellen Beeman | Business & Legal | Lecture | 5110
 Using DirectMusic | Daniel Bernstein, Guy Whitmore, David Yackley and Jon Laff | Audio | Lecture | 4111
 Basics of Dynamic Audio Generation | Jonathan Blow |  Audio | Lecture | 
 Back to Basics: Better 3D through 2D | Adrian Bourne | Programming | Lecture | 5507
@@ -1169,6 +1169,59 @@ Every Byte Counts: Graphic Design for Online Games | Tracy Fullerton | Visual Ar
 Teaching an Old Dog New Bits: How Are Console Developers are Able to Improve Performance When Hardware Hasn't Changed | Andy Gavin and Stephen White | Programming | Lecture | 3202
 Painting with Light | Reid Gershbein | Programming | Lecture | 3507
 Arcade Game Psychology | Michael C. Getlan | Game Design | Lecture | 5306
+Tales from the Trenches of Coin-Op Audio | Chris Granner | Audio | Lecture | 5509
+The Gamer's Eye View | Charles D. Gray | Game Design | Lecture | 5305
+Negotiating a Great Advance and Royalty Deal | Dean Gloster | Programming | Lecture | 3310
+Networking Coin-Op Arcade Games: Technology and Economics | Michael J. Hanson | Programming | Lecture | 5109
+Creating Character Animation Assets | Jeff Hayes | Visual Arts | Lecture | 4107
+Manuals: They Can Be Good | Arnold Hendrick | Visual Arts | Lecture | 5304
+Controlling Simulated Characters | Jessica K. Hodgins and W.L. Wooten | Programming | Lecture | 3403
+Using Java as an Embedded Game Scripting Language | Robert Huebner | Programming | Lecture | 3501
+What's Love Got to Do With It? Exploring Consumers' Emotional Attachments to Products | Christopher Ireland | Game Design | Lecture | 4310
+C++ Optimization Strategies and Techniques | Peter Isensee | Programming | Lecture | 4103
+Distributed Liability: Emerging Legal Issues | Curtis Karnow | Programming | Lecture | 
+Creating Reflections and Shadows Using Stencil Buffers | Mark Kilgard | Programming | Lecture | 5102
+The Art of Puzzle Game Design | Scott Kim | Game Design | Lecture | 4407
+Directing Motion Capture Talent | Melianthe Kines | Visual Arts | Lecture | 3107
+Client/Server Design For Online Games | Andrew Kirmse | Programming | Lecture | 4104
+A Conversation about Alliances | Stuart Kliman | Business & Legal | Lecture | 3109
+File I/O Optimization: The Hidden Win | Eric Klein, John Newlin and Jason Regier | Programming | Lecture | 4404
+Developing an Artificial Intelligence Engine | John Laird and Michael van Lent | Programming | Lecture | 5503
+Reinventing the Wheel: Build 3D Tools or Buy Them | Jeff Lander | Programming | Lecture | 3201
+Rapid Prototyping: From The Pitch through Design to Final Sale | Nicole Lazzaro | Programming | Lecture | 3104
+Fast Collision Detection for Interactive Games | Ming C. Lin | Programming | Lecture | 3102
+The Internet Sucks: What I Learned Coding X-Wing vs. TIE Fighter | Peter Lincroft | Programming | Lecture | 3303
+Inspiration for the Design of Game Characters and Settings | Linda Lubken | Game Design | Lecture | 5108
+Don't Starve that CPU! Making the Best of Memory Bandwidth | Herbert Marselas | Programming | Lecture | 5103
+Principles of Believable 3D Character Animation | Chris Mead | Visual Arts | Lecture | 3508
+Applying the Technology of Distributed Training Simulations to Gaming | Larry Mellon and Jesse Aronson | Programming | Lecture | 5504
+Asset Management: Taming the Complexity | Daniel Miller | Visual Arts | Lecture | 5510
+Tools for Giant Robots: An Evolution from 1994 to 1999 | Tim Morten | Programming | Lecture | 3101
+What It Costs to Make a Game | Dr. Ray Muzyka | Business & Legal | Lecture | 4110
+Color Theory and Designing with Color Schemes | Eni Oken | Visual Arts | Lecture | 3307 and 3408
+Polygon Character Design Under Technical Constraints | Walter Park | Visual Arts | Lecture | 4109
+Funding Your Next Title Set: Choices, Not Guesses | Bruce Poitevin | Business & Legal | Lecture | 4208
+After the Shoot: Motion Capture Data | Greg Pyros | Visual Arts | Lecture | 3207
+The "Designed for Microsoft Windows" Logo Program: What it Means to Game Developers | Len Rehard | Business & Legal | Lecture | 3410
+Steering Behaviors for Autonomous Characters | Craig Reynolds | Programming | Lecture | 5101
+Designing Web-Based Games | Gary Rosenzweig | Game Design | Lecture | 5506
+The Game Developer's Legal Guide To Web Commerce | Ira Rothken | Business & Legal | Lecture | 4411
+Working with a Big Publisher | Matt Saettler | Business & Legal | Lecture | 3209
+Outcast: Programming Towards a Design Aesthetic | Franck Sauer, Olivier Masclef, Yann Robert, and Pierre Deltour | Programming | Lecture | 4405
+Empowering Constraint: Lessons from Industrial Design | Phil Saunders | Game Design | Lecture | 3108
+Introduction to Parametric Surfaces | Brian Sharp | Programming | Lecture | 3103
+Writing a Game Site in Java: Write Once, Test Everywhere | Matt Shea and Michael Bayne | Programming | Lecture | 5204
+Fundamental Principles of Modeling and Simulation | Roger Smith | Programming | Lecture | 3203
+Optimizing 3D Art: Less is Best | Paul Steed | Visual Arts | Lecture | 4408
+Extreme Detail Graphics | Jan Svarovsky | Programming | Lecture | 5501
+Getting Your Design Down on Paper | Chris Taylor | Game Design | Lecture | 4306
+Performance Optimization, Windows 2000, and DirectX | Phillip Taylor | Programming | Lecture | 3404
+How to Draw Monkeys the LucasArts Way: An Analysis of The Funny Pictures in the Curse of Monkey Island | William Tiller | Visual Arts | Lecture | 5207
+Optimizing Game Applications for the MIPS RISC Architecture | Michael Uhler | Programming | Lecture | 4205
+Top 10 Things Every Producer Should Know about Programming and Programmers | Gordon Walton | Business & Legal | Lecture | 3412
+Human Factors Engineering for Game Interface Design | Robert Warren | Programming | Lecture | 5402
+Designing Around Pitfalls of Game Al | Douglas Whatley | Game Design | Lecture | 5206
+Making the Message Fun: The LBE in Theme Parks and Trade Shows. | Todd Williams | Game Design | Lecture | 4206
 
 
 ### Shigeru Miyamoto's 1999 GDC Keynote
