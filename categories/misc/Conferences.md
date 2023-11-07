@@ -1134,7 +1134,7 @@ GDC 1999 was split into six different tracks:
 The sessions that we know about are listed in the table below:
 
 Title | Presenter | Track | Type | Notes
----|---|---|---
+---|---|---|---|---
 Changing for the Better: Redefining Game and Hardware Development through Evolution (Sega's Console Keynote) | Bernie Stolar |	All | Keynote | 
 The Secret to Consistently Delivering Hit Titles	| Louis Castle | Production |	Keynote | Westwood Studios
 Surviving 15 Years on the Frontlines of the War	| Brian Fargo | Business & Legal |	Keynote | 
@@ -1144,6 +1144,18 @@ How To Render The World	| Andrew Glassner | Programming |	Keynote | Shading tech
 Music in Video Games: The Art of the Deal (How to Make Tons of Cash Writing Video Game Music!)	| Tommy Tallarico | Audio |	Keynote |
 Conference Keynote: Shigeru Miyamoto | Shigeru Miyamoto | All |	Keynote | 
 The Reality of Fantasy | Syd Mead | Visual Arts |	Keynote | 
+Developing Environments for the Creation of Entertainment Software | Juan Carlos Arevalo-Baeza and Edward Kilham | Visual Arts | Lecture | 3301
+Glory and Shame | Jonathan Baron | Programming | Lecture | 3205
+The Freelance Life | Ellen Beeman | Programming | Business & Legal | 5110
+Using DirectMusic | Daniel Bernstein, Guy Whitmore, David Yackley and Jon Laff | Audio | Lecture | 4111
+Basics of Dynamic Audio Generation | Jonathan Blow |  Audio | Lecture | 
+Back to Basics: Better 3D through 2D | Adrian Bourne | Programming | Lecture | 5507
+Loading and Saving Game Objects: A Persistent Reusable Format | Michael Braley and Sandeep Kharkar | Programming | Lecture | 5502
+Can Educational Be Fun? | Amy Bruckman | Game Design | Lecture | 3106
+Advanced Multitexture Effects with Direct3D and OpenGL | Jim Bushnell and Jason L. Mitchell | Programming | Lecture | 5201
+Visual Level Design: Designing Machines for Playing In | Steve Chen | Game Design | Lecture | 5404
+Don't Be a Vidiot: What Computer Game Designers Can Learn from Paper Games | Greg Costikyan | Game Design | Lecture | 5505
+Win32 for Games | Tony Cox | Programming | Lecture | 4203
 
 
 
