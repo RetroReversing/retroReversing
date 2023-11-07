@@ -851,8 +851,8 @@ Designing and Building Multiplayer Action Titles for Internet Play |Harald Seely
 Designing Multiplayer Games | Kevin Bentley | Roundtable | 
 Developing for New Technologies | Theodore Beale , Andrew Lunstad | Roundtable | 
 Discussion of Real-Time 3D Modeling | Evan Fisher , Jordi Davis | Roundtable | 
-The Interactive Storytelling Problem |Walt Freitag | Roundtable | 
-Multiplayer Online Games |Carrie Washburn | Roundtable | 
+The Interactive Storytelling Problem |W alt Freitag | Roundtable | 
+Multiplayer Online Games | Carrie Washburn | Roundtable | 
 The Real Design: From Design Spec to Product | Christopher Thompson | Roundtable | 
 Real-Time Audience Feedback: What Should We Do With It? | Dr. Cat | Roundtable | 
 "Relevant" Music Scoring for Next Generation Games | Rich Goldman | Roundtable | 
@@ -989,12 +989,12 @@ POW! Adding Force-Feedback to Your Applications | Immersion Corp  | Sponsored Se
 Implementing AGP Using ATI's RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
 Collaborating in Game Design |Noah Falstein, David Fox | Lecture | 
 From Spelling To Surfing: The Evolution of the Edutainment Industry |Joe Durrett , Dean Frost , Steve McBeth , Kevin O'Leary , Charlotte Walker | Lecture | 
-Grass Isn't <0,255,0>: Better Living Through Color Theory |John Edel | Lecture | 
-A Guided Tour through Hard Core Game Physics |Chris Hecker | Lecture | 
+Grass Isn't <0,255,0>: Better Living Through Color Theory | John Edel | Lecture | 
+A Guided Tour through Hard Core Game Physics | Chris Hecker | Lecture | 
 Negotiating a Great Game Publishing or Distribution Deal |Dean Gloster | Lecture | 
 Worldwide Licensing and Funding of Titles | Jack Ghoulian | Lecture | 
 Designing for the Universal 2nd Grader | Michael Wyman | Seminar | 
-Forcing Interactions: How to? How much |Richard Aronson | Seminar | 
+Forcing Interactions: How to? How much | Richard Aronson | Seminar | 
 User Intention as a Design Tool | Doug Church | Seminar | 
 Artists vs. Programmers | Dave Menconi | Roundtable | 
 Choosing an Authoring Tool | Jamie Siglar | Roundtable | 
@@ -1067,7 +1067,7 @@ Maximizing Real-Time Game Performance | Robert "Dwango Bob" Huntley | Programmin
 Messiah: What You May or May Not Believe | Michael "Saxs" Perrson, David Perry | Programming | Plenary
 Motivate - Intelligent Digital Actor System | Yotto Koga | Programming | Sponsored | Motion Factory
 Multiplayer Game Development: Networking SimCity | Jason Shankel | Programming | Lecture | 
-Multiresolution Meshes: A Solution for Creating Scalable 3D Games Stephen Junkins | Programming | Sponsored | 
+Multiresolution Meshes: A Solution for Creating Scalable 3D Games | Stephen Junkins | Programming | Sponsored | 
 Natural Language Processing in 55 Minutes or Less | John O'Neil | Programming | Lecture | 
 Next Generation BSP Trees | Bruce Naylor | Programming | Lecture | 
 Next Generation Effects Using Multi-texture, Multi-pass Triangles | David Kirk | Programming | Lecture | Direct3D
