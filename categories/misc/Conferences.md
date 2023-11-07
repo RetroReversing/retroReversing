@@ -1156,7 +1156,19 @@ Advanced Multitexture Effects with Direct3D and OpenGL | Jim Bushnell and Jason 
 Visual Level Design: Designing Machines for Playing In | Steve Chen | Game Design | Lecture | 5404
 Don't Be a Vidiot: What Computer Game Designers Can Learn from Paper Games | Greg Costikyan | Game Design | Lecture | 5505
 Win32 for Games | Tony Cox | Programming | Lecture | 4203
-
+Schedules That Mean Something | Don Daglow | Business & Legal | Lecture | 5401
+Virtual Virtuality: Cheap Tricks for Immersive Worlds | Graeme Davis | Visual Arts | Lecture | 3506
+Designing Al Engines with Built-in Machine Learning Capabilities | Zhimin Ding | Programming | Lecture |  5303
+Making Packages Fun Again | Mike Dornbrook and Steve Meretzky | Programming | Lecture | 3110
+Building an LBE Attraction: Hercules in the Underworld, A Case Study | Noah Dudley and Joe Shochet | Programming | Lecture | 4305
+Console Audio Programming | Thomas Engel | Audio | Lecture | 3402
+A Grand Unified Game Theory | Noah Falstein | Game Design | Lecture | 3105
+Licensing Ins and Outs For Developers | Frederick U. Fierst | Business & Legal | Lecture | 4207
+How to Keep Internet Hackers Far, Far Away | Andrew Finkenstadt | Programming | Lecture | 4303
+Every Byte Counts: Graphic Design for Online Games | Tracy Fullerton | Visual Arts | Lecture | 5208
+Teaching an Old Dog New Bits: How Are Console Developers are Able to Improve Performance When Hardware Hasn't Changed | Andy Gavin and Stephen White | Programming | Lecture | 3202
+Painting with Light | Reid Gershbein | Programming | Lecture | 3507
+Arcade Game Psychology | Michael C. Getlan | Game Design | Lecture | 5306
 
 
 ### Shigeru Miyamoto's 1999 GDC Keynote
