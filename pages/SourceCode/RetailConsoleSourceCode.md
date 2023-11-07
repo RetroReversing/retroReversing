@@ -251,6 +251,12 @@ The original Xbox was a joy to program for, especially for PC developers who wer
 ### Jurassic Park: Trespasser
 {% include link-to-other-site.html url="https://github.com/OpenTrespasser/JurassicParkTrespasser" description="A git-based fork of the Jurassic Park: Trespasser source code." image="https://upload.wikimedia.org/wikipedia/en/3/3c/Jp-trespasser-cover.png" title="Jurassic Park: Trespasser"  %}
 
+### Sea Dogs / Pirates of the Caribbean
+{% include link-to-other-site.html url="https://github.com/storm-devs/storm-engine" description="A git-based fork of the officially released Storm Engine source code." image="https://upload.wikimedia.org/wikipedia/en/4/44/SeaDogsBox.jpg" title="Sea Dogs / Pirates of the Caribbean"  %}
+
+### Siege of Avalon
+{% include link-to-other-site.html url="https://bitbucket.org/rucksacksepp/siege-of-avalon-anthology-sourcecode" description="A git-based fork of the officially released Siege of Avalon source code." image="https://upload.wikimedia.org/wikipedia/en/7/74/Siege_of_Avalon.jpg" title="Siege of Avalon"  %}
+
 ---
 # References
 [^1]: [Mr. Nutz: Hoppin' Mad (Genesis) - The Cutting Room Floor](https://tcrf.net/Mr._Nutz:_Hoppin%27_Mad_(Genesis))
