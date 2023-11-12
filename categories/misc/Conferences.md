@@ -492,7 +492,7 @@ Analog Devices | | CGDC96-049
 Writing Applications for the Intel Architecture: Video | Intel | CGDC96-050
 Using COM to Develop Games in Delphi and Borland C++ | Charles Calvert & Lar Mader, Borland Int | CGDC96-051
 Diamond Developer Relations Program | Gary Kinsey, Diamond Multimedia | CGDC96-052
-The Making of the 11th Hour | Robert Stein III & David Wheeler | CGDC96-053
+The Making of the 11th Hour | Robert Stein III & David Wheeler | CGDC96-053 [Video](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
 Current Issues in Licensing & Royalty Rates | Brian Napper | CGDC96-054
 Real AI for Real Games, Part 2: Design Practice and Demonstrations | Dr. Walter Alden Tackett | CGDC96-055
 The Nine Act Story Structure, Part 1 | David Siegel | CGDC96-056
@@ -682,6 +682,10 @@ Banquet Speaker | Peter Bergman, Firesign Theatre | CGDC96-238
 Here are the talks that have slides available online:
 * The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
 * [1996 Computer Game Developer Conference The Making of the 11th Hour R. Stein and D. Weeler](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
+
+### Making of the 11th Hour
+They were in the beta program for 3D Studio 3.0 which allowed them to do duel texture maps to add dirt to the textures, the video shows footage from 3D Studio 3.0.
+
 
 ---
 ## CGDC 1997 - April 25th-29th
@@ -1260,6 +1264,37 @@ Conference Keynote | Danny Hillis | All |
 The Role of Reality in Epic Game Creation | Yu Suzuki | Game Design | 
 Designing Sound for Media and Designing Media for Sound | Randy Thom | Audio | 
 The Designs of Star Wars: Episode One | Doug Chiang | Visual Arts | 
+AI in Computer Games Roundtable | Eric Dybsand, Steven Woodcock and Neil Kirby | Programming | 
+The Benefits of a Microprogramable Graphics Architecture | Dominic Mallinson | Programming | 
+BOPS: Conquering the Geometry Pipeline | Marco Jacobs, Ivan Greenberg and Mike Strauss  | Programming | Sponsored Session
+Building Control Systems for Robot Locomotion | Jessica Hodgins | Programming | 
+Digital Scent: Revolution of the Senses | Jason Herskowitz, Ralph Cooksey Thomas | Programming | Sponsored Session
+Fast Proximity Queries for Large Game Environments | Ming Lin | Programming | 
+Half-Life and TeamFortress Networking: Closing the Loop on Scaleable Network Gaming Backend Services | Yahn Bernier | Programming | 
+The Heroes III Random Map Generator | Gus Smedstad | Programming | 
+Hidden Surface Reduction and Collision Detection Based on Oct Trees | Brent Pease | Programming | 
+How to Simulate a Ponytail: Implementing Open Loop Chains | Chris Hecker | Programming | 
+Open Architecture for Free Internet Gaming | David Wright and Bryan Gibson-Winge | Programming | 
+Interaction with Groups of Autonomous Characters | Craig Reynolds | Programming | 
+It's Great To Be Back! Fast Code, Game Programming, and Other Thoughts From 20 (Minus 2) Years in the Trenches | Mike Abrash | Programming | 
+It's Still Loading? | Scott Bilas | Programming | 
+Metrics for Level of Detail | Dave Eberly | Programming | 
+NetZ ­ Multiplayer Architecture for Online Games | Carl Dionne, Martin Lavoie, Kenneth Trueman | Programming | 
+Pawn Captures Wyvern: How Computer Chess Can Improve Your Pathfinding | Mark Brockington | Programming | 
+PC vs Console vs Embedded Game Development | Greg Corson | Programming | 
+Real-Time Cloth | Jason Weber | Programming | 
+Real-Time Continuous Level of Detail (LOD) for PCs and Consoles | Louis Castle, Jonathan Lanier, James McNeill | Programming | 
+Real-Time Statistics and In-Game Debugging, or How to Deal with Insubordinate Tools | John Olsen | Programming | 
+Run-Time Skin Deformation | Jason Weber | Programming | 
+Subdividing Reality: Employing Subdivision Surfaces for Real Time Scalable Photorealism | Stephen Junkins | Programming | 
+Taking Tiger Woods Java Golf Online | Robert Burnett, Phil Sorger | Programming | 
+Terrain Analysis for Realtime Strategy Games | Dave Pottinger | Programming | 
+The Tribes Engine Network Architecture | Mark Frohnmayer, Tim Gift | Programming | 
+Two Advanced Terrain Rendering Systems | Jonathan Blow, Seumas McNally | Programming | 
+Using Technology to Create Believable 3D Characters | Jeff Lander | Programming | 
+Vehicle Dynamics for Racing Games | Ted Zuvich | Programming | 
+Writing Portable Code | Didier Malenfant | Programming | 
+
 
 
 ### Microsoft DirectX Developer Day (March 8th)
