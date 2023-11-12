@@ -440,7 +440,7 @@ There were at least 234 talks at CGDC 1996 that to  **The KNOW-IT-ALL Audiovisua
 
 Title | Presenter | Notes
 ---|---|---
-Don't Flip the Bozo Bit...and other Principles of Shipping Great Software on Time | Jim McCarthy CGDC96-001
+Don't Flip the Bozo Bit...and other Principles of Shipping Great Software on Time | Jim McCarthy | CGDC96-001
 "Show, Don't Tell": Fundamentals of Interactive Design | Noah Falstein | CGDC96-002
 Design Errors of the Rich and Famous and How to Fix Them | Barbara A. Lanza | CGDC96-003
 Real AI, the Sequel: Pathfinding | Bryan Stout | CGDC96-004
@@ -681,7 +681,7 @@ Banquet Speaker | Peter Bergman, Firesign Theatre | CGDC96-238
 
 Here are the talks that have slides available online:
 * The Quake Graphics Engine by Michael Abrash (Slides: [CGDC Quake Talk](https://www.gamers.org/dEngine/quake/papers/mikeab-cgdc.html))
-
+* [1996 Computer Game Developer Conference The Making of the 11th Hour R. Stein and D. Weeler](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
 
 ---
 ## CGDC 1997 - April 25th-29th
