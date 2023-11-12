@@ -1309,7 +1309,49 @@ Implementing ZoomFX 3D Objects in 3D-space using DS3D | Mike Percy | Audio |
 Proposal for IA-SIG 3D Audio Rendering Guideline Level 3 (13DL3) | Jean-Marc Jot | Audio | 
 Retained Mode 3D Audio | Bo Gehring | Audio | 
 Top Down Bottom Up Game Audio: What I Learned from Ken Griffey Baseball | Michelle Sorger | Audio | 
-
+Asset Management: Problems and Solutions | Katy Franz | Production | Roundtable | Production | 
+The Brain Behind the Game: Media Asset Management For Your Project | Gregor vom Scheidt and Pascal Jarry | Production | Sponsored Session
+Data Wizards and Wands: Making Better Games More Quickly with Tools and Tool Experts | Steve Taylor | Production | 
+Developing Leadership and Management Skills in the Game Industry | Robert White | Production | 
+The Fourth Thread: Effectively Integrating Audio and New Audio Technology into the Game Development | Cycle Brett, Heather Sowards | Production | 
+A Monster in the Making: Creating Baldur's Gate | Ray Muzyka | Production | 
+New Tools for Task Communication | Torgier Hagland | Production | 
+Project Prototyping | oster? | Production | Roundtable
+Prototyping for Fun and Profit | Ed Nanale, Michael Wyman | Production | 
+Quantifying QA: A Stitch in Time | Patricia Pizer | Production | 
+Rollcage: A Post-Mortem of the Porting Process | Fred Gill | Production | 
+Schedules that Mean Something | Don Daglow | Production | 
+Working With Brands: A Post-mortem of Dune 2000 and LEGO Loco | Matthew Stibbe | Production | 
+Write is Might: Making Documentation Your Friend | Graeme Davis | Production | 
+Commencing the Developer/Publisher Relationship: Experiences in Pitching Summoner | Mike Kulas | Business & Legal | 
+European Market Opportunities | Torsten Oppermann | Business & Legal | 
+Internet Business Models: New Options for Game Developers | Scott Draker | Business & Legal | 
+Localizing for Japan: Wildroid 9 Case Study | Stuart Roch | Business & Legal | 
+The New Principles of Marketing | Christopher Ireland | Business & Legal | 
+Publishers Speak! What it Really Takes to Land a Publishing Deal | Dan Rogers | Business & Legal | 
+Taking the Mystery out of Starting Your Own Company | Stacy Hering Astor | Business & Legal | 
+Working with Licensors | Louis Castle | Business & Legal | 
+Your Ass, My Foot: Management Styles for the Next Century | Dave Timoney | Business & Legal | 
+The Art and Science of Level Design | Cliff Bleszinski | Game Design | 
+Children¹s Software: Past, Present and Future | Ken Kahn | Game Design | 
+Designing Web-Based Games | Gary Rosenzweig | Game Design | 
+Developing Software For Girls | Jesyca Durchin | Game Design | 
+Eurostylin¹: An American Game Designer in Europe | Ernest Adams | Game Design | 
+Everything But the Words: A Dramatic Writing Primer for Gamers | Hal Barwood | Game Design | 
+The Future of Strategy Games | Phil Steinmeyer | Game Design | 
+Game Character Creation | Paul Douglas, Toby Gard | Game Design | 
+Heat into Light: Community Generating Conflict in Online Multiplayer Games | Jonathan Baron | Game Design | 
+The In-Game Economics of Ultima Online | Zack Simpson | Game Design | 
+Interactive Toys: The Child as Programmer | Jonathon Ackley, Mike Dooley | Game Design | 
+Level Designers Brainstorm | David Chang | Game Design | 
+The Many Face of a Winning Design Team: Which Face is Yours? | Larry Hodgson | Game Design | 
+Metagames | Richard Garfield | Game Design | 
+Mostly Armless: Grabbing the 3D World | David Rees | Game Design | 
+Myth Adventures: How Games, Myth and Movies Team Up on the Path of Heroes | Christopher Vogler | Game Design | 
+Puzzle Game Design | Scott Kim, Alexey Pajitnov | Game Design | 
+The "Rules" Of Making Massively Multiplayer Persistent Worlds | Raph Koster, Rich Vogel | Game Design | 
+Smart Toys: Benefits of Technology-Enhanced Play | Amy Francetic, Helen Shwe | Game Design | 
+Storytelling in Action | Bob Bates | Game Design | 
 
 
 ### Microsoft DirectX Developer Day (March 8th)
