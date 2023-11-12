@@ -1294,6 +1294,21 @@ Two Advanced Terrain Rendering Systems | Jonathan Blow, Seumas McNally | Program
 Using Technology to Create Believable 3D Characters | Jeff Lander | Programming | 
 Vehicle Dynamics for Racing Games | Ted Zuvich | Programming | 
 Writing Portable Code | Didier Malenfant | Programming | 
+The Art of Empires: Lessons Learned from Age of Empires | Brad Crow, Mark Terrano, Scott Winsett | Visual Arts | 
+Cutting to the Chase: Cinematic Construction for Gamers | Hal Barwood | Visual Arts | 
+Digital Figure Painting | Don Seegmiller | Visual Arts | 
+From Aquilaris to Malastare, Making Worlds for Star Wars: Episode One Racer | Duncan Brown | Visual Arts | 
+Motion Editing: Principles and Practice | Susan Van Baerle | Visual Arts | 
+On the Future of Real-time Characters | Joby Otero | Visual Arts | 
+Pattern Reduction in Massively Tiled Scenes | Jason Waskey | Visual Arts | 
+Visual Storytelling through Lighting | Sudeep Rangaswamy | Visual Arts | 
+Advancing 3D Audio Through Acoustic Geometry Interface | Edward Riegelsberger, Micah Mason, and Suneil Mishra | Audio | 
+A Roadmap: Moving Beyond the Big Audio API¹s (Interactive Audio with Configurable Components) | Chris Grigg | Audio | 
+The Future of Interactive 3d Audio | Brian Schmidt and Conrad Maxwell | Audio | 
+Implementing ZoomFX 3D Objects in 3D-space using DS3D | Mike Percy | Audio | 
+Proposal for IA-SIG 3D Audio Rendering Guideline Level 3 (13DL3) | Jean-Marc Jot | Audio | 
+Retained Mode 3D Audio | Bo Gehring | Audio | 
+Top Down Bottom Up Game Audio: What I Learned from Ken Griffey Baseball | Michelle Sorger | Audio | 
 
 
 
