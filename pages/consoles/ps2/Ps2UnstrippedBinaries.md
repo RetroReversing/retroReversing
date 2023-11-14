@@ -828,6 +828,7 @@ Prototype games are even more likely to contain debug symbols as they are intend
 Game Name | Map File | Notes
 --- | --- | ---
 Resident Evil 4 (Review, Aug 27 2005) | SLPS_000.00 | .mdebug section includes functions/structures for the main executable.
+Silent Hill 2 (E3 prototype, May 1 2001) | SLPM_123.45 | .debug section includes functions/structures for both main executable & per-level overlays.
 Silent Hill 2 (0.10 prototype, Jul 13 2001) | SLUS_202.28 | .debug section includes functions/structures for both main executable & per-level overlays.
 Silent Hill 4 (E3 prototype, Apr 16 2004) | SLUS_208.73 | .debug section includes functions/structures for both main executable & per-level overlays.
 
