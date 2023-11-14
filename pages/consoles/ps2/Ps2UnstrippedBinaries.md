@@ -822,6 +822,16 @@ eJay ClubWorld - The Music Making Experience (Europe) | SLES-50933 | 2002-07-19 
 eJay Clubworld - The Music Making Experience (USA) | SLUS-20525 | 2002-12-11 | 
 
 ---
+# PS2 Prototypes with Debug Symbols
+Prototype games are even more likely to contain debug symbols as they are intended for either testing or journalistic usage, thus having the symbols available would help the developers fix bugs before the final retail release. The table below is an incomplete list of prototypes that have debug symbols, if you know any more please let us know!
+
+Game Name | Map File | Notes
+--- | --- | ---
+Resident Evil 4 (Review, Aug 27 2005) | SLPS_000.00 | .mdebug section includes functions/structures for the main executable.
+Silent Hill 2 (0.10 prototype, Jul 13 2001) | SLUS_202.28 | .debug section includes functions/structures for both main executable & per-level overlays.
+Silent Hill 4 (E3 prototype, Apr 16 2004) | SLUS_208.73 | .debug section includes functions/structures for both main executable & per-level overlays.
+
+---
 # PS2 Demos with Debug Symbols
 If your game is not listed in the retail game list above then fear not, there is still a chance that debug symbols are available for a demo of the game. We have a separate page listing all the PS2 Demos with Debug Symbols.
 
