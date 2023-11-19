@@ -1498,6 +1498,163 @@ If this session did take place, it is a great example of game developers reachin
 An American TV show called **Extended Play** had some brief coverage of GDC 2002 which is available to watch below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+The sessions that we know about are listed in the table below:
+
+Title | Presenter | Notes
+---|---|---
+Art Direction: The Employee, the Critique and the Axe | Reid | 
+Creating Characters with Dimension and Depth | Bates | 
+Effective Team Communication | Kelley | 
+Game Audio Network Guild Panel | 
+Hardware-Accelerated Procedural Texture Animation | James  | 
+How to Get Positive Coverage for Your Company | Bohle | 
+My Adventures With Inverse Kinematics | Hecker | 
+Optimizing Memory Bandwidth | Wall | 
+Scripting for Artists: Beyond the Basics | Versluis | 
+Why We Shouldn't Make Games | Adams | 
+American Mc Gee's Alice a Postmorten: Lessons Learned | Mc Gee | 
+Art Directors Panel | Herring, Lubken, Lum, Mauk & Petty | 
+Battling Level Design in Hardcore Genres for a Casual Audience | Longo | 
+Episodic Entertainment: Viva-La Evolution | Young | 
+Hardcore Character Modeling and Animation | Steed | 
+Mobile Phone Games: Where Are They Now and Where Are They Going? | Baverstock | 
+Of Internet Servers and SQL Databases:Designing the Backend for Power and Performance | Hallenberg  | 
+Parappa 2 and Vib Ribbon 2: Conflicts and Problems in Creating Sequels | Matsuura | 
+Rainbow Connection | DeSimmone & Lapin | 
+Taming a Wild River: 3D Fluid Simulation | Lander | 
+The Complete 5.1 Audio Experience for Video Games Panel | Allen, Kirschner, Staats & Tallarico  | 
+The Visual Engineering of SSX | Rayner | 
+Xbox Launch: Lessons Learned | Isensee | 
+Sony Computer Entertainment Research & Development | Okamoto | 
+Crossing Over to Film and Back Again | Chan | 
+Genre Specific World Building Methodology in SSX & SSX Tricky | Karolic | 
+Global IP Protection and Anti-Piracy Techniques | Chapin | 
+How to Manage a Large-Scale Online Gaming Community | Koster, Vogel | 
+Maintaining an Edge in this Increasingly Competitive Field | Schmidt | 
+Preproduction | Spector | 
+Pros and Cons of the Organic Design Process | Carter | 
+Real-Time Cloud Rendering for Games | Harris | 
+Real-Time Strategy Game Balance | Browder | 
+Social Activities: Implementing Wittgenstein | Barnet-Lamb & Evans | 
+Using a Webcam as a Game Controller | Blow | 
+What Worked: 10 Detailed Examples of Successful Character Action Design | Cerny  | 
+"The More Things Change..." | Colcord | 
+Character Animation for Videogames | Friedman | 
+Creating Great Games Within a Large Organization | Goodman | 
+In-Game Special Effects and Lighting | Arce & Wloka | 
+Innovation on Demand | Bachus | 
+Quality or Death: How the Business Model and Player Psychology Collide in For-Pay Online Games | Todd | 
+Realistic Deformation | O'Brien | 
+The Hook(s) of the Game | Perry | 
+The Player With a Thousand Faces: Measuring Fun and Adapting Difficulty | Arey & Wells  | 
+UI Case Study: This is Football 2002 | Hamilton & Ranyard | 
+Virtually Limitless: Virtual Memory on Nintendo GameCube | Engel | 
+A Data-Driven Game Object System | Bilas | 
+Beyond Psychological Theory: Getting Data that Improves Games | Fulton | 
+How to Organize and Run an IGDA Chapter | Meretzky | 
+Image-Based Rendering for Computer Games | Chen & Grzeszczuk | 
+Manhattan as Muse: New York City as a Conceptual Tool | Brown | 
+Nintendo GameCube Programming 101 | Ravanpey & Treglia | 
+Redefining the Business of Game Development | Newell | 
+Rez: The Synesthesia that Games Invite | Mizuguchi | 
+The Necessity of Character Design in Game Development | Rafei | 
+The Power of the High Pass Filter | Hajba | 
+Using a Live Orchestra in Game Soundtracks | Giacchino, Soule, Tallarico, Thomas & Wall  | 
+Vector Units and Quaternions | VanVerth | 
+Academia and Video Games: How to Build and Maintain a Relationship Between Two Different Worlds | Buchanan | 
+Incredibly Dense Meshes | Brickhill | 
+Interviewing Techniques | Baker | 
+Kids Communities: What Works, What Doesn't | Schell & Shochet | 
+Level Design in an Outdoor Environment | Leonard | 
+Online Anarchy: Massively Multiplayer from a Design and Architectural Point of View | Strand  | 
+Stories You Can't Tell | Crawford | 
+The Employment Lifecycle: Your Best Investment | Longoria | 
+The Physics that Brought Cel Damage to Life: A Case Study | Wu | 
+The Role of Technical Director at LucasArts | Brew | 
+Xbox Audio | Selfon | 
+22 Secrets for Creating Realistic Dialogue and Scene Flow | Freeman | 
+Afterthoughts - The Audio of Star Wars: Rogue Leader | Engel | 
+Another Five Years from Now: Future Technologies | Braben | 
+Fur Using Shells and Fins by Lengyel | 
+Games with Collectible Components by Garfield | 
+IGDA Whitepaper on Online Games by Estanislao, Ford, Jarett, MacLean, Vechey, Walton, Welch | 
+In-Depth 3D Exporter Design and Implementation by Muratori | 
+Intellectual Property: The Current Game of Swords and Shields by Rubin | 
+Modern Techniques in Creating Tile-Based Graphics for Game Boy Advance by Bala  | 
+Next Generation Console Development and Production in the Global Market: Opportunities and Challenges by Yoshida | 
+Systemic Level Design for Emergent Gameplay by Smith  | 
+The Making of Shrek by Walker | 
+When Maps Collide: A Conversation with Will Wright and Scott McCloud by Mcloud & Wright Adapting Cinematic Filmscores For Games by Abernethy & Adams | 
+Advancing a Franchise Through Design by Yamauchi | 
+Defense Against Service Theft, Internet Cheating and Denial of Service by Gray Digital Imagery and Level Design by Maatta | 
+Game Scripting in Python by Dawson | 
+Modeling Lush and Expansive External Environments by Dixon & Lovett | 
+Negotiating Contracts: Getting Developers What They Need While Giving Publishers What They Want by Camps | 
+PlayStation 2 Geometry Transform and Clipping Using Vector Unit Microprogramming by Hughes Rendering Outdoor Light Scattering in Real-Time by Hoffman & Preetham | 
+Toss it in the Blender: Non Linear Animation for Games by Theodore | 
+Tracking Assets in the Production of Final Fantasy: The Spirits Within by Kawai  | 
+Cinematic Lighting for 3D Graphics by Birn | 
+Dynamic Range in Games: An Overview for Sound Creators by Hays | 
+Examining the Production Process for the No One Lives Forever Franchise by Ryan  | 
+High Dynamic Range Imagery and Image-Based Lighting by Debevec | 
+Maximizing DMA Bandwidth on the PlayStation 2 by Omi | 
+More of the 400: Discovering Design Rules by Barwood & Falstein | 
+Online Game Design for Mobile Phones by Imai & Shimizu | 
+Realistic Expectations in Developer/Publisher Relations by Blackman, Frisina, Goodman, Keighley, Moulder, Raffel & Wilbur | 
+State Based System of Animation: Artfully Blending Animation with AI by Hirschmann & Thankamushy  | 
+The Relationship Between Background and Interface Design Procedures in Video Game Development by Nagoshi | 
+This is Not a Game: A Discussion on the Creation of the AI Web Experience by Lee & Weisman |
+Building a Third-Generation Online Persistant World Game by Koster, Lawrence, Mulligan & Walton  | 
+Complexity Demons: They're All Around Us by Leker | 
+Console Audio Panel by Engel, Schmidt & Vawter | 
+Distributed Area Lighting by Boyd | 
+Flight Simulator X-Plane - A Postmortem: Profiting on the Web by Meyer | 
+Getting Cinematic Quality from In-Game Cutscenes without a Hollywood Budget by Hancock | 
+Inverse Kinematics: Setup and Techniques by Coven | 
+Level-of-Detail Rigid Body Physics by Golding | 
+Sound Propagation in 3D Environments by Carollo | 
+Startup Horror Stories by Morten | 
+Business and Creative Aspects of Sequels by Muzyka, Smith, Smith, Spector & Zeschuk | 
+Creating Stars and Planets in Earth and Beyond by Wang | 
+Fundamentals of Lighting and Perception: The Rendering of Physically Accurate Images by Dutre, Pattanaik & Yee | 
+Game Boy Advance Networking by Mataga | 
+Multi-Scale Community Design for Games by Kim | 
+Publishers Speak 2002: What it Really Takes to Get a Publishing Deal by Rogers & Summers | 
+Seaman: Creating an Eccentric Title by Saito | 
+SoManyPolys,SoLittleTime:ModelingandTexturingRogueLeaderbyHoppe,Topolos&Wagner | 
+Staying on Time and on Budget: Processes, Milestones and Schedules by Daglow | 
+The Audio Production for Halo by O'Donnell | 
+Cloth Simulation in Final Fantasy: The Spirits Within for PlayStation 2 by Banel | 
+Design Fundamentals of Stealth Gameplay in the Thief Series by Smith | 
+Fun and Games by Conway | 
+Creating the Illusion of Intelligence: Where AI and Level Design Overlap in Halo's AI by Butcher & Griesemer | 
+Moving to Multiple Projects by Muzyka & Zeschuk | 
+MultiStream: Design and Implementation by Page | 
+Storytelling in the Online Medium by Koster & Vogel  | 
+The Quest for Pure Motion Capture by Washburn | 
+Two Dozen Ways to Screw Up a Perfectly Good Project by Rohrl | 
+Venture Capital Bootcamp for Game Startups by Long | 
+3D Performance and Optimizations for the ARM Architecture by Kolli | 
+Action-Based Discretization for AI Search by Neller | 
+Building a Data-Driven Game Engine: A Case Study from Age of Mythology by Fermier  | 
+Creating 3D Assets that Perform Well on 3D Hardware by Penttinen | 
+Game Audio Production: Process and Strategy by Bajakian | 
+Know Your Audience: Writing Design Documents That Get Read by Upton | 
+Managing Large-Volume Text Translations in Computer Games by Christou & Moar | 
+May Time Be with You: Level Designing Rogue Leader by Chen & Klie | 
+The Cultural Study of Games: More than Just Games by Southern | 
+The Secret Of Psalm 46 by Moriarty | 
+Creating Useful Technical Design Documents by Taylor | 
+Enter the Dragon: The Chinese Game Industry by Ye | 
+Negotiating the Best Deal Possible by Powell | 
+Polygon Soup for the Programmer's Soul: 3D Pathfinding by Hjelstrom & Smith | 
+Race Against Time: How to Build a Driving Game by Gabell | 
+Real-Time Hatching by Cebenoyan, Domine & Rege | 
+Supporting Scalability as Artists by Bradley, Burke & Seitz | 
+The Evolution of the Fantasy Role: Playing Genre using Project Ego as an Example by Molyneux  | 
+Why They Won't Let You Make Great Online Games by Baron | 
+
+
 ---
 ## GDC 2005+
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
