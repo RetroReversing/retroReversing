@@ -1469,6 +1469,21 @@ That Extra Dimension: Differences in Thinking Between 2D and 3D Animators | Brad
 Tools of the Trade: The Changing Nature of Design Tools | Barry | Visual Arts | 
 Fusing Traditional Computer Graphics with Game Development: ACM SIGGRAPH's Outreach to the Game Developer Community | Owen, Rhyne, Rockwood | IGDA | 
 "The Demo Scene, an Introduction" | Foo, Scheib | Special Session | 
+AI in Computer Games: AI for Beginners Discussion | Dybsand, Kirby, Woodcock | Game Design | Roundtable
+AI Roundtable Report | Woodcock | Game Design |  Roundtable
+Analyzing and Learning from Great Games | Falstein | Game Design |  Tutorial
+Applying Behavioral Psychology to Game Design | Tucker | Game Design | 
+Creating Emotional Involvement in Interactive Entertainment | Barrett | Game Design | Roundtable
+Designing Interactive Theme Park Rides: Lessons Learned Creating Disney's Pirates of the Caribbean: Battle for the Buccaneer Gold | Schell, Shochet | Game Design | 
+Designing Mobile Games for WAP | Seppanen | Game Design | 
+Designing Web Games that Make Business Sense | Kim | Game Design | 
+Shockwave Tutorial: Building Web Games in Flash | Kim | Game Design | Tutorial
+How to Balance a Real-Time Strategy Game: Lessons from the Age of Empires Series | Kidd, Petersen, Street | Game Design | 
+Interaction Design for Immersive Public Entertainment Spaces | Kaufman, Kline | Game Design | 
+Oddfellows: Character Design the Oddworld Way | O’Connor, Ulm, Varahramyan | Game Design | Panel
+Principles for Designing Successful Games | Shelley | Game Design | 
+Story: Writing Skills for Game Developers | Bates | Game Design | 
+Using Video Input for Games | Marks | Game Design | 
 
 
 ---
@@ -1477,8 +1492,11 @@ An American TV show called **Extended Play** had some brief coverage of GDC 2002
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-## GDC 2005
+## GDC 2005+
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
+
+Thankfully all the sessions for 2005 and onwards seems to have audio recordings (and some videos!) freely available on the **GDC Vault**: [GDC Vault](https://gdcvault.com/browse/gdc-05/)
+
 
 ---
 # SIGGRAPH
