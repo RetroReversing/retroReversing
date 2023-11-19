@@ -1653,66 +1653,6 @@ Real-Time Hatching | Cebenoyan, Domine & Rege |
 Supporting Scalability as Artists | Bradley, Burke & Seitz | 
 The Evolution of the Fantasy Role: Playing Genre using Project Ego as an Example | Molyneux  | 
 Why They Won't Let You Make Great Online Games | Baron | 
-How to Take Your Mobile Game to Market | John Chasey (FinBlade Ltd) | Business and Legal | 
-How to Write Good "Bad Dialogue": Cramming Storytelling Into an Action Game| Ryan Kaufman (Telltale Games) | Game Design |   
-Interactive Mixing | Scott Gershin (Soundelux Design Music Group) | Audio | 
-Korea, Where Multiplayer Gaming is King | Won Il Sue | Business and Legal | 
-Little to Big: What Changes? | Frederick Brooks, Jr.   | Programming |   
-Living in a Procedural World: Growing a Virtual Forest | | Programming |   
-Making Games More Fun: Methods for Playtesting Games | Bill Fulton | Game Design |   
-Making Sound Designers Independent: Techniques to Integrate Audio into G... | | Programming |   
-Memory Optimization | Christer Ericson | Programming |   
-Mobile Games: Japan and the Future | David Collier | Business and Legal | 
-Negotiating the Best Deal Possible | Jay Powell | Business and Legal | 
-Neverwinter Nights Client/Server Postmortem | Mark Brockington | Programming |   
-Old School: Arcade Games in the Golden Age | Mark Cerny | Game Design |   
-On All Levels | Dustin Browder (Blizzard) | Game Design |   
-Optimized Stenciled Shadow Volumes | Cass Everitt   | Programming |   
-Orthogonal Unit Design | Harvey Smith | Game Design |   
-Pathematics: Routing for Autonomous Agents | Alex Champandard (AiGameDev.com) | Programming |   
-PC to Console: Bringing Star Wars Jedi Knight II: Jedi Outcast to Xbox a...| Karthik Bala | Game Design |   
-Physics and Animation, Blending Kinetics and Kinematics in a 3rd Person ...| David Wu | Programming |   
-Physics-Based Synthesis of Sound Effects | | Audio |   
-Porting a PlayStation 2-Centric Game to the Xbox: A Case Study of State ... | | Programming |   
-Preserving the Past - The Panel | Greg Costikyan | IGDA | 
-Producing Orchestral Scores for Games | Daniel Irish (Threewave Software) | Audio | 
-Product Success in Online Software Distribution | John Vechey (PopCap Games) | Business and Legal | 
-Profiling the Female Gamer: A Look at How She Buys and Plays | Clarinda Merripen (Cryptic Studios| Game Design |   
-Proven Strategies for Self-Publishing on the Internet: Real-Life Storie... | John Vechey (PopCap Games) | Business and Legal | 
-Real-Time Fluid Dynamics for Games | | Programming |   
-Relinquishing Control: Giving Programmers Control of Your Animation Assets| David Stripinis | Visual Arts | 
-Representational AI Planning Techniques | | Programming |   
-Reputation Systems: Saving Your Service | | Game Design |   
-Sandbox Strategy Learning in Sports Games | | Programming |   
-Scaling the Software Development Process: Lessons Learned From The Sims ...| Larry Mellon | Programming |   
-Sequels and Adaptations: Design Innovation in a Risk-Averse World | Warren Spector (Ion Storm) | Game Design |   
-Show Me The Money! Revenue Models for Massively Multiplayer Online Games| Brian Green | Business and Legal | 
-Simulation and Animation with Hardware-Accelerated Procedural Textures| Mark Harris (NVIDIA) | Programming |   
-Small Worlds: Competitive and Cooperative Structures in Online Worlds| Raph Koster | Game Design |   
-Smartly Define and Use Your Audio Budget | | Audio  | 
-SOCOM: Bringing a Console Game Online| | Game Design |   
-Spherical Harmonic Lighting: The Gritty Details | Robin Green (Microsoft) | Programming |   
-Squeezing Every Last Drop Out of the PlayStation 2 | | Programming |   
-State of the Art: Building 3D Environments and Models Review Panel | Chris Williams (PlayFirst) | Visual Arts | 
-Stepping Away From the Pack: Resources and Methods for Developing Art St...| David Rose (Neversoft) | Visual Arts | 
-Story and Gameplay Are One | Jesse Schell | Game Design |   
-Story Summit | Patricia Pizer| Game Design |   
-Temptation and Consequence: Dilemmas in Videogames | Steve Bocska (Pug Pharm Productions Inc.| Game Design |   
-The 12 Principles of Traditional Character Animation Applied to 3D Compu... | Visual Arts | 
-The Continuous World of Dungeon Siege | Scott Bilas   | Programming |  
-The Good and the Bad: A Second Chance | Peter Molyneux (Lionhead Studios)| Game Design |   
-The Intellectual Property Realm: New Challenges for the Developer | Stephen Rubin (Law Office of Stephen Rubin) | Business and Legal | 
-The Puzzlemaker's Survival Kit: Principles, Case Studies and Design Process| Scott Kim | Game Design |   
-The Seven Secrets of Voiceover Production | | Audio  | 
-The Social Significance of Games: Killing our Monsters | | IGDA |
-The Technology of Jak & Daxter: Our Techniques for Realizing a Massively...| Stephen White   | Programming |   
-Three Great Mobile Games | Matthew Bellows | Game Design |   
-Toward Massively Responsive Conversations | Sheldon Pacotti | Game Design |   
-Towards Building a Fully Realized Interactive Drama | Andrew Stern | Game Design |   
-U.S. Immigration Issues for Game Developers | | Business and Legal | 
-What It Takes To Run a Successful Game Studio | Todd Hollenshead (ID SOFTWARE) | Business and Legal | 
-When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Business and Legal | 
-
 
 
 ---
@@ -1789,7 +1729,65 @@ Highly Detailed Continuous Worlds: Streaming Game Resources From Slow M... | | P
 How to Build a Better Cutscene | | Visual Arts | 
 How to Make Your Game Successful in Japan | Rio Hasegawa (Sony) | Game Design |  
 How to Mix Discrete Surround Sound for PlayStation 2 | Jason Page (SCEE R&D) | Audio  | 
-
+How to Take Your Mobile Game to Market | John Chasey (FinBlade Ltd) | Business and Legal | 
+How to Write Good "Bad Dialogue": Cramming Storytelling Into an Action Game| Ryan Kaufman (Telltale Games) | Game Design |   
+Interactive Mixing | Scott Gershin (Soundelux Design Music Group) | Audio | 
+Korea, Where Multiplayer Gaming is King | Won Il Sue | Business and Legal | 
+Little to Big: What Changes? | Frederick Brooks, Jr.   | Programming |   
+Living in a Procedural World: Growing a Virtual Forest | | Programming |   
+Making Games More Fun: Methods for Playtesting Games | Bill Fulton | Game Design |   
+Making Sound Designers Independent: Techniques to Integrate Audio into G... | | Programming |   
+Memory Optimization | Christer Ericson | Programming |   
+Mobile Games: Japan and the Future | David Collier | Business and Legal | 
+Negotiating the Best Deal Possible | Jay Powell | Business and Legal | 
+Neverwinter Nights Client/Server Postmortem | Mark Brockington | Programming |   
+Old School: Arcade Games in the Golden Age | Mark Cerny | Game Design |   
+On All Levels | Dustin Browder (Blizzard) | Game Design |   
+Optimized Stenciled Shadow Volumes | Cass Everitt   | Programming |   
+Orthogonal Unit Design | Harvey Smith | Game Design |   
+Pathematics: Routing for Autonomous Agents | Alex Champandard (AiGameDev.com) | Programming |   
+PC to Console: Bringing Star Wars Jedi Knight II: Jedi Outcast to Xbox a...| Karthik Bala | Game Design |   
+Physics and Animation, Blending Kinetics and Kinematics in a 3rd Person ...| David Wu | Programming |   
+Physics-Based Synthesis of Sound Effects | | Audio |   
+Porting a PlayStation 2-Centric Game to the Xbox: A Case Study of State ... | | Programming |   
+Preserving the Past - The Panel | Greg Costikyan | IGDA | 
+Producing Orchestral Scores for Games | Daniel Irish (Threewave Software) | Audio | 
+Product Success in Online Software Distribution | John Vechey (PopCap Games) | Business and Legal | 
+Profiling the Female Gamer: A Look at How She Buys and Plays | Clarinda Merripen (Cryptic Studios| Game Design |   
+Proven Strategies for Self-Publishing on the Internet: Real-Life Storie... | John Vechey (PopCap Games) | Business and Legal | 
+Real-Time Fluid Dynamics for Games | | Programming |   
+Relinquishing Control: Giving Programmers Control of Your Animation Assets| David Stripinis | Visual Arts | 
+Representational AI Planning Techniques | | Programming |   
+Reputation Systems: Saving Your Service | | Game Design |   
+Sandbox Strategy Learning in Sports Games | | Programming |   
+Scaling the Software Development Process: Lessons Learned From The Sims ...| Larry Mellon | Programming |   
+Sequels and Adaptations: Design Innovation in a Risk-Averse World | Warren Spector (Ion Storm) | Game Design |   
+Show Me The Money! Revenue Models for Massively Multiplayer Online Games| Brian Green | Business and Legal | 
+Simulation and Animation with Hardware-Accelerated Procedural Textures| Mark Harris (NVIDIA) | Programming |   
+Small Worlds: Competitive and Cooperative Structures in Online Worlds| Raph Koster | Game Design |   
+Smartly Define and Use Your Audio Budget | | Audio  | 
+SOCOM: Bringing a Console Game Online| | Game Design |   
+Spherical Harmonic Lighting: The Gritty Details | Robin Green (Microsoft) | Programming |   
+Squeezing Every Last Drop Out of the PlayStation 2 | | Programming |   
+State of the Art: Building 3D Environments and Models Review Panel | Chris Williams (PlayFirst) | Visual Arts | 
+Stepping Away From the Pack: Resources and Methods for Developing Art St...| David Rose (Neversoft) | Visual Arts | 
+Story and Gameplay Are One | Jesse Schell | Game Design |   
+Story Summit | Patricia Pizer| Game Design |   
+Temptation and Consequence: Dilemmas in Videogames | Steve Bocska (Pug Pharm Productions Inc.| Game Design |   
+The 12 Principles of Traditional Character Animation Applied to 3D Compu... | Visual Arts | 
+The Continuous World of Dungeon Siege | Scott Bilas   | Programming |  
+The Good and the Bad: A Second Chance | Peter Molyneux (Lionhead Studios)| Game Design |   
+The Intellectual Property Realm: New Challenges for the Developer | Stephen Rubin (Law Office of Stephen Rubin) | Business and Legal | 
+The Puzzlemaker's Survival Kit: Principles, Case Studies and Design Process| Scott Kim | Game Design |   
+The Seven Secrets of Voiceover Production | | Audio  | 
+The Social Significance of Games: Killing our Monsters | | IGDA |
+The Technology of Jak & Daxter: Our Techniques for Realizing a Massively...| Stephen White   | Programming |   
+Three Great Mobile Games | Matthew Bellows | Game Design |   
+Toward Massively Responsive Conversations | Sheldon Pacotti | Game Design |   
+Towards Building a Fully Realized Interactive Drama | Andrew Stern | Game Design |   
+U.S. Immigration Issues for Game Developers | | Business and Legal | 
+What It Takes To Run a Successful Game Studio | Todd Hollenshead (ID SOFTWARE) | Business and Legal | 
+When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Business and Legal | 
 
 
 
