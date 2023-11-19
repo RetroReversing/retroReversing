@@ -684,7 +684,9 @@ Here are the talks that have slides available online:
 * [1996 Computer Game Developer Conference The Making of the 11th Hour R. Stein and D. Weeler](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
 
 ### Making of the 11th Hour
-They were in the beta program for 3D Studio 3.0 which allowed them to do duel texture maps to add dirt to the textures, the video shows footage from 3D Studio 3.0.
+On Archive.org a video recording of the session **The Making of the 11th Hour by R. Stein and D. Weeler** is availabe to watch [here](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and). 
+
+It mentioned they were in the beta program for 3D Studio 3.0 which allowed them to do dual texture maps to add dirt to the textures, the video shows footage from 3D Studio 3.0.
 
 
 ---
@@ -1302,11 +1304,11 @@ Motion Editing: Principles and Practice | Susan Van Baerle | Visual Arts |
 On the Future of Real-time Characters | Joby Otero | Visual Arts | 
 Pattern Reduction in Massively Tiled Scenes | Jason Waskey | Visual Arts | 
 Visual Storytelling through Lighting | Sudeep Rangaswamy | Visual Arts | 
-Advancing 3D Audio Through Acoustic Geometry Interface | Edward Riegelsberger, Micah Mason, and Suneil Mishra | Audio | 
+Advancing 3D Audio Through Acoustic Geometry Interface | Edward Riegelsberger, Micah Mason, and Suneil Mishra | Audio | [Slides](https://web.archive.org/web/20010706104411/http%253A//www.gdconf.com%253A80/archives/proceedings/2000/riegels2.pdf)
 A Roadmap: Moving Beyond the Big Audio API¹s (Interactive Audio with Configurable Components) | Chris Grigg | Audio | 
 The Future of Interactive 3d Audio | Brian Schmidt and Conrad Maxwell | Audio | 
-Implementing ZoomFX 3D Objects in 3D-space using DS3D | Mike Percy | Audio | 
-Proposal for IA-SIG 3D Audio Rendering Guideline Level 3 (13DL3) | Jean-Marc Jot | Audio | 
+Implementing ZoomFX 3D Objects in 3D-space using DS3D | Mike Percy | Audio | [Slides](https://web.archive.org/web/20010706104855/http%253A//www.gdconf.com%253A80/archives/proceedings/2000/sensaura.pdf)
+Proposal for IA-SIG 3D Audio Rendering Guideline Level 3 (13DL3) | Jean-Marc Jot | Audio | [Slides](https://web.archive.org/web/20010706105224/http%253A//www.gdconf.com%253A80/archives/proceedings/2000/jeanmarc.pdf)
 Retained Mode 3D Audio | Bo Gehring | Audio | 
 Top Down Bottom Up Game Audio: What I Learned from Ken Griffey Baseball | Michelle Sorger | Audio | 
 Asset Management: Problems and Solutions | Katy Franz | Production | Roundtable | Production | 
@@ -1384,9 +1386,53 @@ From the original website it looks like the sessions were roughly the following:
 
 Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 - The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
 
+---
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The sessions that we know about are listed in the table below:
+
+Title | Presenter | Track | Notes
+---|---|---|---
+"1,500 Archers on a 28.8: Network Programming in Age of Empires and Beyond" | Bettner, Terrano | Programming |
+Advanced Character Physics | Jakobsen | Programming |
+Anybody Seen that Transform Node? Strategies to Better Link Animation Data in Games  | Engel  | Programming |
+The Basics of Team AI  | Gibson, O'Brien | Programming |
+Bringing Dr. Jones to the Infernal Machine --- Dealing with Memory Constraints  | Sauer | Programming |
+BSP Collision Detection As Used In MDK2 and NeverWinter Nights | Melax | Programming |
+Camera Techniques for Complex Environments  | James | Programming |
+Creature Smarts: The Art and Architecture of a Virtual Brain  | Burke, Isla | Programming |
+Experiences in Programming Maya 3.0  | Giberson | Programming |
+FuBi: Automatic Function Exporting for Scripting and Networking  | Bilas | Programming |
+Game Boy Advance Resource Managment | Baptista | Programming |
+Implementing Multicolored Volumetric Fog without Using Up Texture Stages  | Arevalo, Baeza | Programming |
+Latency Compensating Methods in Client/Server In-game Protocol Design and Optimization  | Bernier | Programming |
+Lessons Learned from a Year with Xbox | Abrash | Programming |
+Linux in Game Development | Strauss, Kreimeier, Vance, Packard, Lantinga | Programming | Tutorial
+Optimization Techniques for Hardware Transformation and Lighting Pipelines  | Ratcliff | Programming |
+Practical Implementation Techniques for Multiresolution Subdivision Surfaces  | Brickhill | Programming |
+Procedural Rendering on PlayStation 2  | Green | Programming |
+Proximity Queries and Penetration Depth Computations on 3D Game Objects | van den Bergen | Programming |
+Real-Time Full Scene Antialiasing for PCs and Consoles | Mitchell  | Programming |
+Real-Time Photorealism via Procedural Shaders | Baker, Boyd | Programming |
+Real-Time Photorealistic Terrain Lighting | Hoffman, Mitchell  | Programming |
+Real-Time Shadows | Haines, Moller | Programming |
+A Robot Soccer Simulator: A Case Study for Rigid-Body Contact | Larsen | Programming |
+Shading Languages for Graphics Hardware | Mark, Proudfoot | Programming |
+Simulation Level-Of-Detail and Culling | Chenney | Programming |
+Stable Rigid-Body Physics | Rhodes | Programming |
+Technology Five Years from Now | Braben | Programming |
+Terrain Reasoning for 3D Action Games  | van der Sterren | Programming |
+Using Windows To Create Palm Games  | Magerkurth | Programming |
+What Happened to My Colors? Displaying Console Computer Graphics on a Television | Dawson | Programming |
+
+
+---
+## GDC 2002
+An American TV show called **Extended Play** had some brief coverage of GDC 2002 which is available to watch below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## GDC 2005
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
