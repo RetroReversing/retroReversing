@@ -1590,7 +1590,8 @@ Defense Against Service Theft, Internet Cheating and Denial of Service | Gray Di
 Game Scripting in Python | Dawson | 
 Modeling Lush and Expansive External Environments | Dixon & Lovett | 
 Negotiating Contracts: Getting Developers What They Need While Giving Publishers What They Want | Camps | 
-PlayStation 2 Geometry Transform and Clipping Using Vector Unit Microprogramming | Hughes Rendering Outdoor Light Scattering in Real-Time | Hoffman & Preetham | 
+PlayStation 2 Geometry Transform and Clipping Using Vector Unit Microprogramming | Hughes | 
+Rendering Outdoor Light Scattering in Real-Time | Hoffman & Preetham | 
 Toss it in the Blender: Non Linear Animation for Games | Theodore | 
 Tracking Assets in the Production of Final Fantasy: The Spirits Within | Kawai  | 
 Cinematic Lighting for 3D Graphics | Birn | 
@@ -1621,7 +1622,7 @@ Game Boy Advance Networking | Mataga |
 Multi-Scale Community Design for Games | Kim | 
 Publishers Speak 2002: What it Really Takes to Get a Publishing Deal | Rogers & Summers | 
 Seaman: Creating an Eccentric Title | Saito | 
-SoManyPolys,SoLittleTime:ModelingandTexturingRogueLeade |Hoppe,Topolos&Wagner | 
+So Many Polys, So Little Time: Modeling and Texturing Rogue Leader |Hoppe,Topolos&Wagner | 
 Staying on Time and on Budget: Processes, Milestones and Schedules | Daglow | 
 The Audio Production for Halo | O'Donnell | 
 Cloth Simulation in Final Fantasy: The Spirits Within for PlayStation 2 | Banel | 
@@ -1665,19 +1666,19 @@ Title | Presenter | Notes
 ---|---|---
 10 Great Reasons You Don't Want to Make a Massively Multiplayer Game! | Gordon Walton | Business and Legal  |
 20/20 Design Vision  | Andrew Leker (Electrified Games, Inc.) | Game Design  |
-34 Ways to Create Emotions in Games: Parts 1 & 2  | David Freeman | Game Design | 
+34 Ways to Create Emotions in Games  | David Freeman | Game Design | 
 A Review of Current and Future Animation Issues  | Paul Steed | Visual Arts  |
 A Review of Funding Models for the Independent Developer and Their Impli... | Jeff Hilbert | Business and Legal | 
 Advanced Real-Time Illumination Techniques  | Nathaniel Hoffman | Programming  |
 Advanced Techniques in Creating Tile-Based Graphics for GameBoy Advance | Karthik Bala | Visual Arts  |
 Animation Blending: Achieving Inverse Kinematics and More | Programming  |
 Animation System Implementation: What Works and What Doesn't  | Jake Simpson | Programming  |
-Applying the Lessons Learned from Korea and Lineage to Today's and Tomor...| Business and Legal  |
+Applying the Lessons Learned from Korea and Lineage to Today's and Tomorrow's Online Games | Business and Legal  |
 Art Directors Panel: Aesthetics and the Almighty Dollar  | Cyrus Lum | Visual Arts  |
 Audio Programming for Very Large Projects  | David Ranyard (Sony) | Audio  |
 Aural Subjectivity: A Personal Perspective | | Audio  |
-Automated Testing of Massively Multiplayer Games: Lessons Learned from T... | Larry Mellon | Programming  |
-Beyond Bouncing Boxes: The Physics of Things That Bend and Break: Parts ... | John O'Brien | Programming  |
+Automated Testing of Massively Multiplayer Games: Lessons Learned from The Sims Online | Larry Mellon | Programming  |
+Beyond Bouncing Boxes: The Physics of Things That Bend and Break | John O'Brien | Programming  |
 Bossy Behavior: Patterns and Techniques in Boss Design  | Luis Barriga | Game Design  |
 Breaking the Rules of a Game  | Katie Salen | Game Design  |
 Building AI Sensory Systems  | Tom Leonard | Programming  |
@@ -1685,11 +1686,11 @@ Building An Object System: Features, Tradeoffs, and Pitfalls | Programming  |
 Casual Games Panel  | John Vechey (PopCap Games) | Game Design |
 Character Rigging and Animation: Parts 1 & 2  | Martin Coven | Visual Arts |
 Completion Bonding for Game Development Projects | | Business and Legal |
-Composing, Producing and Implementing an Interactive Music Soundtrack fo... | Chuck Doud | Audio  |
+Composing, Producing and Implementing an Interactive Music Soundtrack for a Video Game | Chuck Doud | Audio  |
 Control Where it Belongs: Latest Generation Audio Development for Xbox | Scott Selfon (Microsoft) | Audio  |
 Crack Character Creation: The Mad Puffer Fish Panel  | Scott Campbell | Visual Arts  |
 Creating a Cinematic Game Experience | | Game Design  |
-Creating Aesthetic 3D Organic Volumes and Using the Right Tools for the ...| | Visual Arts  |
+Creating Aesthetic 3D Organic Volumes and Using the Right Tools for the Project | | Visual Arts  |
 Creating Character Models: A Review of Current Techniques  | Stefan Henry-Biskup | Visual Arts  |
 Creating the Worlds of Dungeon Siege | | Game Design  |
 Custom STL Memory Allocators | | Programming  |
