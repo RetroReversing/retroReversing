@@ -1412,7 +1412,7 @@ Lessons Learned from a Year with Xbox | Abrash | Programming |
 Linux in Game Development | Strauss, Kreimeier, Vance, Packard, Lantinga | Programming | Tutorial
 Optimization Techniques for Hardware Transformation and Lighting Pipelines  | Ratcliff | Programming |
 Practical Implementation Techniques for Multiresolution Subdivision Surfaces  | Brickhill | Programming |
-Procedural Rendering on PlayStation 2  | Green | Programming |
+Procedural Rendering on PlayStation 2 | Green | Programming |
 Proximity Queries and Penetration Depth Computations on 3D Game Objects | van den Bergen | Programming |
 Real-Time Full Scene Antialiasing for PCs and Consoles | Mitchell  | Programming |
 Real-Time Photorealism via Procedural Shaders | Baker, Boyd | Programming |
@@ -1435,6 +1435,26 @@ Independent Development and Publishing: Case Study | Quirk | Business & Legal |
 Publisher Contracts That Protect Your Title and Team | Powell | Business & Legal | 
 Publishers Speak | Rogers | Business & Legal | 
 Why Cheating Matters | Davis | Business & Legal | 
+"Baldur's Gate II and Sequels: The Good, the Bad, and the Ugly" | Muzyka | Production | 
+Console Development Crash Course | Taylor | Production | 
+Designing Your Company Culture: Westwood Studios over 15 Years | Castle | Production | 
+Don't Ship it Yet: Why You Need Hardcore QA | Bryant | Production | 
+Effective Project Management | Angle, Dwyer | Production | 
+How to Kill Feature Creep Without Ever Saying No | Crabtree | Production | 
+Leveraging Middleware | Wofford | Production | 
+"Maintaining Your Budget by Organizing, Defining Milestones and Staying on Schedule" | Daglow | Production | 
+"Managing 40,000 Assets per Game (Hey, Where'd it Go? It was Just Here!)" | Marselas | Production | 
+The Mysteries of Multiplatform: Developing on Console and PC | Falkner, Zeschuk  | Production | 
+The Architecture of Level Design | Brown, Chen | Level Design | 
+Content Acquisition for Levels in The Getaway: London Wasn't Built in a Day | Coates | Level Design | 
+Current Architecture and Potential Approaches to Level Design | Brown | Level Design | 
+A Better Understanding of Audio and the Technical Design Process | Hubbard | Audio | 
+Beyond the Library: Applying Film Post-Production Techniques to Game Sound Design | Peck | Audio | 
+Diablo II Case Study | Uelmen | Audio | 
+Implementing an Audio Engine Using DirectX 8 | Geist | Audio | 
+Interactive Music Sequencer Design | Patterson | Audio | 
+
+
 
 
 ---
