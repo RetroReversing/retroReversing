@@ -1409,10 +1409,10 @@ Game Boy Advance Resource Managment | Baptista | Programming |
 Implementing Multicolored Volumetric Fog without Using Up Texture Stages  | Arevalo, Baeza | Programming |
 Latency Compensating Methods in Client/Server In-game Protocol Design and Optimization  | Bernier | Programming |
 Lessons Learned from a Year with Xbox | Abrash | Programming |
-Linux in Game Development | Strauss, Kreimeier, Vance, Packard, Lantinga | Programming | Tutorial
+Linux in Game Development | Strauss, Kreimeier, Vance, Packard, Lantinga | Programming | Tutorial [Content](https://web.archive.org/web/20011224063706/http://www.linuxgames.com/gdc2001/)
 Optimization Techniques for Hardware Transformation and Lighting Pipelines  | Ratcliff | Programming |
 Practical Implementation Techniques for Multiresolution Subdivision Surfaces  | Brickhill | Programming |
-Procedural Rendering on PlayStation 2 | Green | Programming |
+Procedural Rendering on PlayStation 2 | Green | Programming | [Content](https://www.gamedeveloper.com/production/procedural-rendering-on-playstation-2)
 Proximity Queries and Penetration Depth Computations on 3D Game Objects | van den Bergen | Programming |
 Real-Time Full Scene Antialiasing for PCs and Consoles | Mitchell  | Programming |
 Real-Time Photorealism via Procedural Shaders | Baker, Boyd | Programming |
@@ -1424,7 +1424,7 @@ Simulation Level-Of-Detail and Culling | Chenney | Programming |
 Stable Rigid-Body Physics | Rhodes | Programming |
 Technology Five Years from Now | Braben | Programming |
 Terrain Reasoning for 3D Action Games  | van der Sterren | Programming |
-Using Windows To Create Palm Games  | Magerkurth | Programming |
+Using Windows To Create Palm Games  | Magerkurth | Programming | [Audio](https://gdcvault.com/play/1013970/Using-Windows-To-Create-Palm)
 What Happened to My Colors? Displaying Console Computer Graphics on a Television | Dawson | Programming |
 Designing for the Internet Gamer | Gordon | Business & Legal | Keynote
 Financing a Game Development Company in Today's Market | Foster, Karlov, Kay, Thoma | Business & Legal | 
@@ -1491,7 +1491,7 @@ Using Video Input for Games | Marks | Game Design |
 An American TV show called **Extended Play** had some brief coverage of GDC 2002 which is available to watch below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-
+---
 ## GDC 2005+
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
 
@@ -1510,6 +1510,10 @@ SIGGRAPH publishes research papers, proceedings, and a variety of resources that
 The SIGGRAPH conference has a long history, dating back to the 1970s, and it continues to be a vital forum for sharing knowledge, showcasing innovations, and connecting professionals in the field of computer graphics and interactive technology.
 
 They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
+
+## SIGGRAPH 2000
+The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective)
+
 
 ---
 # Consumer Electronics Show (CES) 
