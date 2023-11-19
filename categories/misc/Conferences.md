@@ -1575,84 +1575,84 @@ Xbox Audio | Selfon |
 22 Secrets for Creating Realistic Dialogue and Scene Flow | Freeman | 
 Afterthoughts - The Audio of Star Wars: Rogue Leader | Engel | 
 Another Five Years from Now: Future Technologies | Braben | 
-Fur Using Shells and Fins by Lengyel | 
-Games with Collectible Components by Garfield | 
-IGDA Whitepaper on Online Games by Estanislao, Ford, Jarett, MacLean, Vechey, Walton, Welch | 
-In-Depth 3D Exporter Design and Implementation by Muratori | 
-Intellectual Property: The Current Game of Swords and Shields by Rubin | 
-Modern Techniques in Creating Tile-Based Graphics for Game Boy Advance by Bala  | 
-Next Generation Console Development and Production in the Global Market: Opportunities and Challenges by Yoshida | 
-Systemic Level Design for Emergent Gameplay by Smith  | 
-The Making of Shrek by Walker | 
-When Maps Collide: A Conversation with Will Wright and Scott McCloud by Mcloud & Wright Adapting Cinematic Filmscores For Games by Abernethy & Adams | 
-Advancing a Franchise Through Design by Yamauchi | 
-Defense Against Service Theft, Internet Cheating and Denial of Service by Gray Digital Imagery and Level Design by Maatta | 
-Game Scripting in Python by Dawson | 
-Modeling Lush and Expansive External Environments by Dixon & Lovett | 
-Negotiating Contracts: Getting Developers What They Need While Giving Publishers What They Want by Camps | 
-PlayStation 2 Geometry Transform and Clipping Using Vector Unit Microprogramming by Hughes Rendering Outdoor Light Scattering in Real-Time by Hoffman & Preetham | 
-Toss it in the Blender: Non Linear Animation for Games by Theodore | 
-Tracking Assets in the Production of Final Fantasy: The Spirits Within by Kawai  | 
-Cinematic Lighting for 3D Graphics by Birn | 
-Dynamic Range in Games: An Overview for Sound Creators by Hays | 
-Examining the Production Process for the No One Lives Forever Franchise by Ryan  | 
-High Dynamic Range Imagery and Image-Based Lighting by Debevec | 
-Maximizing DMA Bandwidth on the PlayStation 2 by Omi | 
-More of the 400: Discovering Design Rules by Barwood & Falstein | 
-Online Game Design for Mobile Phones by Imai & Shimizu | 
-Realistic Expectations in Developer/Publisher Relations by Blackman, Frisina, Goodman, Keighley, Moulder, Raffel & Wilbur | 
-State Based System of Animation: Artfully Blending Animation with AI by Hirschmann & Thankamushy  | 
-The Relationship Between Background and Interface Design Procedures in Video Game Development by Nagoshi | 
-This is Not a Game: A Discussion on the Creation of the AI Web Experience by Lee & Weisman |
-Building a Third-Generation Online Persistant World Game by Koster, Lawrence, Mulligan & Walton  | 
-Complexity Demons: They're All Around Us by Leker | 
-Console Audio Panel by Engel, Schmidt & Vawter | 
-Distributed Area Lighting by Boyd | 
-Flight Simulator X-Plane - A Postmortem: Profiting on the Web by Meyer | 
-Getting Cinematic Quality from In-Game Cutscenes without a Hollywood Budget by Hancock | 
-Inverse Kinematics: Setup and Techniques by Coven | 
-Level-of-Detail Rigid Body Physics by Golding | 
-Sound Propagation in 3D Environments by Carollo | 
-Startup Horror Stories by Morten | 
-Business and Creative Aspects of Sequels by Muzyka, Smith, Smith, Spector & Zeschuk | 
-Creating Stars and Planets in Earth and Beyond by Wang | 
-Fundamentals of Lighting and Perception: The Rendering of Physically Accurate Images by Dutre, Pattanaik & Yee | 
-Game Boy Advance Networking by Mataga | 
-Multi-Scale Community Design for Games by Kim | 
-Publishers Speak 2002: What it Really Takes to Get a Publishing Deal by Rogers & Summers | 
-Seaman: Creating an Eccentric Title by Saito | 
-SoManyPolys,SoLittleTime:ModelingandTexturingRogueLeaderbyHoppe,Topolos&Wagner | 
-Staying on Time and on Budget: Processes, Milestones and Schedules by Daglow | 
-The Audio Production for Halo by O'Donnell | 
-Cloth Simulation in Final Fantasy: The Spirits Within for PlayStation 2 by Banel | 
-Design Fundamentals of Stealth Gameplay in the Thief Series by Smith | 
-Fun and Games by Conway | 
-Creating the Illusion of Intelligence: Where AI and Level Design Overlap in Halo's AI by Butcher & Griesemer | 
-Moving to Multiple Projects by Muzyka & Zeschuk | 
-MultiStream: Design and Implementation by Page | 
-Storytelling in the Online Medium by Koster & Vogel  | 
-The Quest for Pure Motion Capture by Washburn | 
-Two Dozen Ways to Screw Up a Perfectly Good Project by Rohrl | 
-Venture Capital Bootcamp for Game Startups by Long | 
-3D Performance and Optimizations for the ARM Architecture by Kolli | 
-Action-Based Discretization for AI Search by Neller | 
-Building a Data-Driven Game Engine: A Case Study from Age of Mythology by Fermier  | 
-Creating 3D Assets that Perform Well on 3D Hardware by Penttinen | 
-Game Audio Production: Process and Strategy by Bajakian | 
-Know Your Audience: Writing Design Documents That Get Read by Upton | 
-Managing Large-Volume Text Translations in Computer Games by Christou & Moar | 
-May Time Be with You: Level Designing Rogue Leader by Chen & Klie | 
-The Cultural Study of Games: More than Just Games by Southern | 
-The Secret Of Psalm 46 by Moriarty | 
-Creating Useful Technical Design Documents by Taylor | 
-Enter the Dragon: The Chinese Game Industry by Ye | 
-Negotiating the Best Deal Possible by Powell | 
-Polygon Soup for the Programmer's Soul: 3D Pathfinding by Hjelstrom & Smith | 
-Race Against Time: How to Build a Driving Game by Gabell | 
-Real-Time Hatching by Cebenoyan, Domine & Rege | 
-Supporting Scalability as Artists by Bradley, Burke & Seitz | 
-The Evolution of the Fantasy Role: Playing Genre using Project Ego as an Example by Molyneux  | 
-Why They Won't Let You Make Great Online Games by Baron | 
+Fur Using Shells and Fins | Lengyel | 
+Games with Collectible Components | Garfield | 
+IGDA Whitepaper on Online Games | Estanislao, Ford, Jarett, MacLean, Vechey, Walton, Welch | 
+In-Depth 3D Exporter Design and Implementation | Muratori | 
+Intellectual Property: The Current Game of Swords and Shields | Rubin | 
+Modern Techniques in Creating Tile-Based Graphics for Game Boy Advance | Bala  | 
+Next Generation Console Development and Production in the Global Market: Opportunities and Challenges | Yoshida | 
+Systemic Level Design for Emergent Gameplay | Smith  | 
+The Making of Shrek | Walker | 
+When Maps Collide: A Conversation with Will Wright and Scott McCloud | Mcloud & Wright Adapting Cinematic Filmscores For Games | Abernethy & Adams | 
+Advancing a Franchise Through Design | Yamauchi | 
+Defense Against Service Theft, Internet Cheating and Denial of Service | Gray Digital Imagery and Level Design | Maatta | 
+Game Scripting in Python | Dawson | 
+Modeling Lush and Expansive External Environments | Dixon & Lovett | 
+Negotiating Contracts: Getting Developers What They Need While Giving Publishers What They Want | Camps | 
+PlayStation 2 Geometry Transform and Clipping Using Vector Unit Microprogramming | Hughes Rendering Outdoor Light Scattering in Real-Time | Hoffman & Preetham | 
+Toss it in the Blender: Non Linear Animation for Games | Theodore | 
+Tracking Assets in the Production of Final Fantasy: The Spirits Within | Kawai  | 
+Cinematic Lighting for 3D Graphics | Birn | 
+Dynamic Range in Games: An Overview for Sound Creators | Hays | 
+Examining the Production Process for the No One Lives Forever Franchise | Ryan  | 
+High Dynamic Range Imagery and Image-Based Lighting | Debevec | 
+Maximizing DMA Bandwidth on the PlayStation 2 | Omi | 
+More of the 400: Discovering Design Rules | Barwood & Falstein | 
+Online Game Design for Mobile Phones | Imai & Shimizu | 
+Realistic Expectations in Developer/Publisher Relations | Blackman, Frisina, Goodman, Keighley, Moulder, Raffel & Wilbur | 
+State Based System of Animation: Artfully Blending Animation with AI | Hirschmann & Thankamushy  | 
+The Relationship Between Background and Interface Design Procedures in Video Game Development | Nagoshi | 
+This is Not a Game: A Discussion on the Creation of the AI Web Experience | Lee & Weisman |
+Building a Third-Generation Online Persistant World Game | Koster, Lawrence, Mulligan & Walton  | 
+Complexity Demons: They're All Around Us | Leker | 
+Console Audio Panel | Engel, Schmidt & Vawter | 
+Distributed Area Lighting | Boyd | 
+Flight Simulator X-Plane - A Postmortem: Profiting on the Web | Meyer | 
+Getting Cinematic Quality from In-Game Cutscenes without a Hollywood Budget | Hancock | 
+Inverse Kinematics: Setup and Techniques | Coven | 
+Level-of-Detail Rigid Body Physics | Golding | 
+Sound Propagation in 3D Environments | Carollo | 
+Startup Horror Stories | Morten | 
+Business and Creative Aspects of Sequels | Muzyka, Smith, Smith, Spector & Zeschuk | 
+Creating Stars and Planets in Earth and Beyond | Wang | 
+Fundamentals of Lighting and Perception: The Rendering of Physically Accurate Images | Dutre, Pattanaik & Yee | 
+Game Boy Advance Networking | Mataga | 
+Multi-Scale Community Design for Games | Kim | 
+Publishers Speak 2002: What it Really Takes to Get a Publishing Deal | Rogers & Summers | 
+Seaman: Creating an Eccentric Title | Saito | 
+SoManyPolys,SoLittleTime:ModelingandTexturingRogueLeade |Hoppe,Topolos&Wagner | 
+Staying on Time and on Budget: Processes, Milestones and Schedules | Daglow | 
+The Audio Production for Halo | O'Donnell | 
+Cloth Simulation in Final Fantasy: The Spirits Within for PlayStation 2 | Banel | 
+Design Fundamentals of Stealth Gameplay in the Thief Series | Smith | 
+Fun and Games | Conway | 
+Creating the Illusion of Intelligence: Where AI and Level Design Overlap in Halo's AI | Butcher & Griesemer | 
+Moving to Multiple Projects | Muzyka & Zeschuk | 
+MultiStream: Design and Implementation | Page | 
+Storytelling in the Online Medium | Koster & Vogel  | 
+The Quest for Pure Motion Capture | Washburn | 
+Two Dozen Ways to Screw Up a Perfectly Good Project | Rohrl | 
+Venture Capital Bootcamp for Game Startups | Long | 
+3D Performance and Optimizations for the ARM Architecture | Kolli | 
+Action-Based Discretization for AI Search | Neller | 
+Building a Data-Driven Game Engine: A Case Study from Age of Mythology | Fermier  | 
+Creating 3D Assets that Perform Well on 3D Hardware | Penttinen | 
+Game Audio Production: Process and Strategy | Bajakian | 
+Know Your Audience: Writing Design Documents That Get Read | Upton | 
+Managing Large-Volume Text Translations in Computer Games | Christou & Moar | 
+May Time Be with You: Level Designing Rogue Leader | Chen & Klie | 
+The Cultural Study of Games: More than Just Games | Southern | 
+The Secret Of Psalm 46 | Moriarty | 
+Creating Useful Technical Design Documents | Taylor | 
+Enter the Dragon: The Chinese Game Industry | Ye | 
+Negotiating the Best Deal Possible | Powell | 
+Polygon Soup for the Programmer's Soul: 3D Pathfinding | Hjelstrom & Smith | 
+Race Against Time: How to Build a Driving Game | Gabell | 
+Real-Time Hatching | Cebenoyan, Domine & Rege | 
+Supporting Scalability as Artists | Bradley, Burke & Seitz | 
+The Evolution of the Fantasy Role: Playing Genre using Project Ego as an Example | Molyneux  | 
+Why They Won't Let You Make Great Online Games | Baron | 
 
 
 ---
