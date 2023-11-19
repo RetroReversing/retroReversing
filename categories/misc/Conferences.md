@@ -1453,8 +1453,22 @@ Beyond the Library: Applying Film Post-Production Techniques to Game Sound Desig
 Diablo II Case Study | Uelmen | Audio | 
 Implementing an Audio Engine Using DirectX 8 | Geist | Audio | 
 Interactive Music Sequencer Design | Patterson | Audio | 
-
-
+The 12 Principles of Classic Character Animation | Kerlow | Visual Arts | 
+Aesthetics Beyond Techology: Nonphotorealistic Rendering Art Styles | Snyder | Visual Arts | 
+Art Creation for a PlayStation 2 Launch Title - The Ups and Downs of Summoner | Pletcher | Visual Arts | 
+Art Management for Artists | Oglesby | Visual Arts |  Roundtable
+Conceptual Design: Understanding and Communicating Form | Saunders | Visual Arts | 
+Dealing with Artistic Limitations as a 3D Game Artist. PC vs. Consoles | Isaac | Visual Arts | 
+Exorcising Satan's Rotoscope: Motion Capture from an Animator's Perspective | Stripinis | Visual Arts | 
+From PC to TV | Nichols | Visual Arts | 
+Questions Artists Should Ask Programmers | Lubken | Visual Arts | 
+Realistic Inverse Kinematics: Set-Up and Techniques | Coven | Visual Arts | 
+Scripting for Artists | Versluis | Visual Arts | 
+Taking the Mental out of Environmental: Building a Beautiful World Without Going Crazy | Duvall | Visual Arts | 
+That Extra Dimension: Differences in Thinking Between 2D and 3D Animators | Bradrick | Visual Arts | 
+Tools of the Trade: The Changing Nature of Design Tools | Barry | Visual Arts | 
+Fusing Traditional Computer Graphics with Game Development: ACM SIGGRAPH's Outreach to the Game Developer Community | Owen, Rhyne, Rockwood | IGDA | 
+"The Demo Scene, an Introduction" | Foo, Scheib | Special Session | 
 
 
 ---
