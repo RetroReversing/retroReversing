@@ -1369,20 +1369,20 @@ The lectures prepared at Microsoft DirectX Developer Day are divided into three 
 There were 5 lectures for 1 hour in each field, so a total of 15 sessions were held.
 
 From the original website it looks like the sessions were roughly the following:
-* DirectX 8.0 Graphics Architecture - Faster and easier than ever!
-* Direct3D 8.0 Base Functionality - Where it all starts
-* Direct3D 8.0 Vertex Processing - Look what you can do with vertices now!
-* Direct3D 8.0 Pixel Processing - And you thought the vertex operations were cool...
-* High level technologies - Making things even easier to use
-* DirectX 8.0 Audio Architecture - Closer integration of DirectSound and DirectMusic for maximum flexibility
-* DirectX 8.0 Audio FX - Enrich your game audio environment
-* DirectX 8.0 Audio Scripting - Enable post-authoring of your game audio environment
-* DirectShow 8.0 - Movies, video editing, and using the new DirectX plug-in architecture
-* DirectPlay 8.0 Architecture - Designed for massive multiplayer online games
-* DirectPlay Voice - Take your online game to the next level!
-* DirectInput Mapper - Easily add device optimized support to your game
-* DirectInput Mapper CPL - How to use and customize to match your game UI
-* Application Manager - Turn your game into a drop-n-play experience!
+* **DirectX 8.0 Graphics Architecture** - Faster and easier than ever!
+* **Direct3D 8.0 Base Functionality** - Where it all starts
+* **Direct3D 8.0 Vertex Processing** - Look what you can do with vertices now!
+* **Direct3D 8.0 Pixel Processing** - And you thought the vertex operations were cool...
+* **High level technologies** - Making things even easier to use
+* **DirectX 8.0 Audio Architecture** - Closer integration of DirectSound and DirectMusic for maximum flexibility
+* **DirectX 8.0 Audio FX** - Enrich your game audio environment
+* **DirectX 8.0 Audio Scripting** - Enable post-authoring of your game audio environment
+* **DirectShow 8.0** - Movies, video editing, and using the new DirectX plug-in architecture
+* **DirectPlay 8.0 Architecture** - Designed for massive multiplayer online games
+* **DirectPlay Voice** - Take your online game to the next level!
+* **DirectInput Mapper** - Easily add device optimized support to your game
+* **DirectInput Mapper CPL** - How to use and customize to match your game UI
+* **Application Manager** - Turn your game into a drop-n-play experience!
 
 Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 - The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
 
@@ -1426,6 +1426,15 @@ Technology Five Years from Now | Braben | Programming |
 Terrain Reasoning for 3D Action Games  | van der Sterren | Programming |
 Using Windows To Create Palm Games  | Magerkurth | Programming |
 What Happened to My Colors? Displaying Console Computer Graphics on a Television | Dawson | Programming |
+Designing for the Internet Gamer | Gordon | Business & Legal | Keynote
+Financing a Game Development Company in Today's Market | Foster, Karlov, Kay, Thoma | Business & Legal | 
+Fun and Games in the Online Medium: Insights from the World's Largest Online Service | MacLean, Mills, Opas | Business & Legal | Panel
+Getting to the Next Level: All the Cheats on Employee Nirvana | Hering Astor, Rose | Business & Legal | 
+"How to Market in Korea: Small Country, Large Market for PC Games" | Park | Business & Legal | 
+Independent Development and Publishing: Case Study | Quirk | Business & Legal | 
+Publisher Contracts That Protect Your Title and Team | Powell | Business & Legal | 
+Publishers Speak | Rogers | Business & Legal | 
+Why Cheating Matters | Davis | Business & Legal | 
 
 
 ---
