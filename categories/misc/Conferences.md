@@ -1706,7 +1706,29 @@ Dynamics for Designers  | Will Wright (Stupid Fun Club) | Game Design  |
 Enabling Data Driven Design Tuning via Existing Tools | Programming  |
 Episodic Content: Here, Now & Next Month Too  | Chris Foster (Harmonix Music Systems) | Game Design  |
 Exploring the Fringes: Interactive Entertainment for the 21st Century  | Ernest Adams (International Hobo) | Game Design  |
-Extreme Character Rigging: When Less is More  | Steve Theodore (Undead Labs) | Visual Arts  
+Extreme Character Rigging: When Less is More  | Steve Theodore (Undead Labs) | Visual Arts |
+Facial Animation For Game Characters | | Visual Arts |
+Fast Proximity Queries for Large Game Environments | Ming Lin | Programming |   
+FilmGame: Adapting Lord of the Rings | Neil Young | Game Design |   
+Findings of IGDA's 2002/2003 Online Games Whitepaper | Jeferson Valadares (Playfish) | IGDA |  
+Five Physics Simulators for a Human Body | Chris Hecker | Programming |   
+Fooling All of the People All of the Time | Bill Kroyer | Visual Arts  
+Frame Buffer Postprocessing Effects in DOUBLE-S.T.E.A.L (Wreckless): Par... | Programming |   
+Freedom of Expression: Dealing with the Threat of Censorship | Jason Della Rocca | IGDA | 
+Game Audio : Coding Vs. Aesthetics | Leonard Paul | Audio  
+Game Design Patterns | |  Game Design |   
+Geometric Algebra: The Framework for Geometric Computations | | Programming |  
+Geometric Modeling of Sound Propagation | | Audio |   
+Going Global: Effective Strategies for Protecting Intellectual Property ... | | Business and Legal | 
+Great Game Graphics... Who Cares? | Jason Rubin (Naughty Dog) | Game Design |   
+Halo: Development Evolved | Marty O'Donnell (Bungie) | Game Design |   
+Hardware Shaders for the Artist | John Versluis | Visual Arts |
+High Dynamic Range Imagery and Image-Based Lighting | | Programming |   
+Highly Detailed Continuous Worlds: Streaming Game Resources From Slow M... | | Programming |   
+How to Build a Better Cutscene | | Visual Arts | 
+How to Make Your Game Successful in Japan | Rio Hasegawa (Sony) | Game Design |  
+How to Mix Discrete Surround Sound for PlayStation 2 | Jason Page (SCEE R&D) | Audio  | 
+
 
 
 
