@@ -1634,7 +1634,7 @@ Storytelling in the Online Medium | Koster & Vogel  |
 The Quest for Pure Motion Capture | Washburn | 
 Two Dozen Ways to Screw Up a Perfectly Good Project | Rohrl | 
 Venture Capital Bootcamp for Game Startups | Long | 
-3D Performance and Optimizations for the ARM Architecture | Kolli | 
+3D Performance and Optimizations for the ARM Architecture | Kolli | [Slides](https://web.archive.org/web/20030624121702/http%253A//gdconf.com/archives/2002/gopi_kolli.ppt)
 Action-Based Discretization for AI Search | Neller | 
 Building a Data-Driven Game Engine: A Case Study from Age of Mythology | Fermier  | 
 Creating 3D Assets that Perform Well on 3D Hardware | Penttinen | 
@@ -1653,6 +1653,61 @@ Real-Time Hatching | Cebenoyan, Domine & Rege |
 Supporting Scalability as Artists | Bradley, Burke & Seitz | 
 The Evolution of the Fantasy Role: Playing Genre using Project Ego as an Example | Molyneux  | 
 Why They Won't Let You Make Great Online Games | Baron | 
+
+---
+## GDC 2003
+
+
+The sessions that we know about are listed in the table below:
+
+Title | Presenter | Notes
+---|---|---
+10 Great Reasons You Don't Want to Make a Massively Multiplayer Game! | Gordon Walton | Business and Legal  |
+20/20 Design Vision  | Andrew Leker (Electrified Games, Inc.) | Game Design  |
+34 Ways to Create Emotions in Games: Parts 1 & 2  | David Freeman | Game Design | 
+A Review of Current and Future Animation Issues  | Paul Steed | Visual Arts  |
+A Review of Funding Models for the Independent Developer and Their Impli... | Jeff Hilbert | Business and Legal | 
+Advanced Real-Time Illumination Techniques  | Nathaniel Hoffman | Programming  |
+Advanced Techniques in Creating Tile-Based Graphics for GameBoy Advance | Karthik Bala | Visual Arts  |
+Animation Blending: Achieving Inverse Kinematics and More | Programming  |
+Animation System Implementation: What Works and What Doesn't  | Jake Simpson | Programming  |
+Applying the Lessons Learned from Korea and Lineage to Today's and Tomor...| Business and Legal  |
+Art Directors Panel: Aesthetics and the Almighty Dollar  | Cyrus Lum | Visual Arts  |
+Audio Programming for Very Large Projects  | David Ranyard (Sony) | Audio  |
+Aural Subjectivity: A Personal Perspective | | Audio  |
+Automated Testing of Massively Multiplayer Games: Lessons Learned from T... | Larry Mellon | Programming  |
+Beyond Bouncing Boxes: The Physics of Things That Bend and Break: Parts ... | John O'Brien | Programming  |
+Bossy Behavior: Patterns and Techniques in Boss Design  | Luis Barriga | Game Design  |
+Breaking the Rules of a Game  | Katie Salen | Game Design  |
+Building AI Sensory Systems  | Tom Leonard | Programming  |
+Building An Object System: Features, Tradeoffs, and Pitfalls | Programming  |
+Casual Games Panel  | John Vechey (PopCap Games) | Game Design |
+Character Rigging and Animation: Parts 1 & 2  | Martin Coven | Visual Arts |
+Completion Bonding for Game Development Projects | | Business and Legal |
+Composing, Producing and Implementing an Interactive Music Soundtrack fo... | Chuck Doud | Audio  |
+Control Where it Belongs: Latest Generation Audio Development for Xbox | Scott Selfon (Microsoft) | Audio  |
+Crack Character Creation: The Mad Puffer Fish Panel  | Scott Campbell | Visual Arts  |
+Creating a Cinematic Game Experience | | Game Design  |
+Creating Aesthetic 3D Organic Volumes and Using the Right Tools for the ...| | Visual Arts  |
+Creating Character Models: A Review of Current Techniques  | Stefan Henry-Biskup | Visual Arts  |
+Creating the Worlds of Dungeon Siege | | Game Design  |
+Custom STL Memory Allocators | | Programming  |
+Deathmatch: Ted Price vs. Jason Rubin  | Ted Price (Insomniac Games) | Game Design  |
+Design With Music In Mind: Integrating an Immersive Game Score With Your... | Guy Whitmore (PopCap) | Audio  |
+Designing a Portable Shader Library for Current and Future APIs  | Alex Vlachos (Valve) | Programming  |
+Designing a Ratchet & Clank Level  | Brian Allgeier | Game Design  |
+Designing Original Games Based on Licensed Properties  | Chris Charla (Microsoft Game Studios) | Game Design  |
+Designing Power-Ups for Action Games: Parts 1 & 2  | Randy Smith | Game Design  |
+Developing Wireless Games: From Idea to the Marketplace  | Oliver Miao (Pixelberry Studios) | Business and Legal  |
+Displacement Mapping  | Tom Forsyth | Programming  |
+Does Melody Matter?  | Rod Abernethy (Rednote Audio) | Audio  |
+Doing Business with the Telecom Industry: Understanding their Deal Terms... | Dan Scherlis (Sonamine) | Business and Legal  |
+Dynamics for Designers  | Will Wright (Stupid Fun Club) | Game Design  |
+Enabling Data Driven Design Tuning via Existing Tools | Programming  |
+Episodic Content: Here, Now & Next Month Too  | Chris Foster (Harmonix Music Systems) | Game Design  |
+Exploring the Fringes: Interactive Entertainment for the 21st Century  | Ernest Adams (International Hobo) | Game Design  |
+Extreme Character Rigging: When Less is More  | Steve Theodore (Undead Labs) | Visual Arts  
+
 
 
 ---
