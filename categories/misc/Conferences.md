@@ -1467,8 +1467,8 @@ Scripting for Artists | Versluis | Visual Arts |
 Taking the Mental out of Environmental: Building a Beautiful World Without Going Crazy | Duvall | Visual Arts | 
 That Extra Dimension: Differences in Thinking Between 2D and 3D Animators | Bradrick | Visual Arts | 
 Tools of the Trade: The Changing Nature of Design Tools | Barry | Visual Arts | 
-Fusing Traditional Computer Graphics with Game Development: ACM SIGGRAPH's Outreach to the Game Developer Community | Owen, Rhyne, Rockwood | IGDA | 
-"The Demo Scene, an Introduction" | Foo, Scheib | Special Session | 
+Fusing Traditional Computer Graphics with Game Development: ACM SIGGRAPH's Outreach to the Game Developer Community | Scott Owen, Theresa-Marie Rhyne, Alyn Rockwood | IGDA | 
+"The Demo Scene, an Introduction" | Foo, [Vincent Scheib](https://history.siggraph.org/person/vincent-scheib/) | Special Session | 
 AI in Computer Games: AI for Beginners Discussion | Dybsand, Kirby, Woodcock | Game Design | Roundtable
 AI Roundtable Report | Woodcock | Game Design |  Roundtable
 Analyzing and Learning from Great Games | Falstein | Game Design |  Tutorial
@@ -1485,6 +1485,13 @@ Principles for Designing Successful Games | Shelley | Game Design |
 Story: Writing Skills for Game Developers | Bates | Game Design | 
 Using Video Input for Games | Marks | Game Design | 
 
+
+### The Demo Scene, an Introduction
+There was a **special session** that didn't appear in the conference proceedings book which was presented by  [Vincent Scheib](https://history.siggraph.org/person/vincent-scheib/) and another unknown author simply known as **Foo** (surname or programming joke?). It is unclear if this session actually took place, it was listen on the GDC Website: [Game Developers Conference - Archives - 2001- Special Sessions Proceedings](https://web.archive.org/web/20020804123427/http://gdconf.com/archives/proceedings/2001/general_papers.html) with a Word document that was never backed up the the Wayback Machine. 
+
+This may be the same session also presented by Scheib at SIGGRAPH 2002 called [The Demo Scene](https://history.siggraph.org/learning/the-demo-scene-by-engell-nielsen-haines-lehtinen-scheib-and-taylor/).
+
+If this session did take place, it is a great example of game developers reaching out to the hobbiest Demoscene for very talented graphics programmers. 
 
 ---
 ## GDC 2002
