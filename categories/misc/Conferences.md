@@ -2035,6 +2035,31 @@ Pros and Cons of Developing Your Own Middleware | Andrew Oliver, Blitz Games  | 
 Shaders: The Sky is the Limit | Sébastien Dominé, NVIDIA & Richard Stenson, Sony Computer Entertainment America | Coding | 
 Software engineering: Games programming for large scale projects | Jeremy Chatelaine, Electronic Arts | Coding 
 Xbox Live: Now and in the Future | Jeff Sullivan, Microsoft Game Technology Group | Coding |
+ARG: immersive gaming for the mass market | Adam Martin, MindCandy | Game Design | 
+Design by democracy: How to keep your vision - while taking on board everyone else's | Peter Molyneux, Lionhead Studios  | Game Design | 
+Design DNA: 10 new game designs ideas from the past 12 months worth stealing | Margaret Robertson, Edge magazine  | Game Design | 
+Designing new kinds of games for the masses | David Amor, Paulina Bozek,  Rob Kay, Michael French | Game Design | 
+Everything you know is wrong: four new developments that will turn the MMOG world upside down | Janus Anderson & Thomas Bidaux | Game Design | 
+Games design room 101: Four designers each consign a game design horror to the dustbin | Mike Goldsmit, Jonathan Smith, Simon Byron, Barringon Harvey, Peter Molyneux | Game Design | 
+Hacking Through the Jungle: Interactive Storytelling Made Easy and Profitable | Ernest Adams | Game Design | 
+How to win battles and influence publishers | Chris Deering & Jamie Macdonald | Business | 
+Genre: dirty word or developer's friend? | Clive Fencott & Jo Clay, Strange Agency | Business | 
+Global Directions: A Holistic View of Game Development | Jason Della Rocca, IGDA | Business | 
+I’m with the brand: Developers as the stars | Alison Beasley, Miles Jacobson, Chris Lee, Mark Ward | Business | 
+Leveling the Playing Field | William Latham, Games Audit  | Business | 
+Money for Non-Suits | Jonathan Smith, TT Games Publishing & Nicholas Lovell, GameShadow | Business | 
+The Next Generation of Mobile Gaming | Kay Gruenwoldt, Nokia Multimedia  | Business | 
+Sega - UK's new Games Powerhouse | Mike Simpson, The Creative Assembly, Guy Wilday, Racing Studio, Miles Jacobson, Sports Interactive  | Business | 
+Towards an industry standard publishing agreement: the TIGA Model Contract | Vincent Scheurer  | Business | 
+Which Ferrari should I drive to work today? | Andrew Eades, Relentless Software  | Business | 
+Why good online games go bad | Frank Puranik, Director, Itheon Networks  | Business | 
+Audio Programming, Tools & Techniques For NexGen AAA Games | John Broomhall, Andy Mucho, Nick Wiswell, Nick Laviers | Audio | 
+Black: A Case Study | Steve Root, Electronic Arts UK | Audio | 
+Buy now, pay later! | Dave Ranyard, Sony Computer Entertainment Europe, Sergio Pimentel, Sony Computer Entertainment Europe  | Audio |  
+The Future of Audio in Interactive Entertainment: A Personal Vision | Marty O'Donnell  | Audio |  
+PS3 Audio: Meet The Team | Jason Page, Oliver Hume, Nik Kennedy, Paul Scargill, Sony Computer Entertainment Europe | Audio | 
+Recreating Reality | Kenny Young, Sony Computer Entertainment Europe | Audio | 
+Talking Sense: Raising The Bar For Speech In Games | Nick Laviers, Electronic Arts UK  | Audio | 
 
 
 ---
