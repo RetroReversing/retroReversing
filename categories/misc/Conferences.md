@@ -1792,7 +1792,16 @@ What It Takes To Run a Successful Game Studio | Todd Hollenshead (ID SOFTWARE) |
 When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Business and Legal | 
 
 ---
-## GDC 2004
+## GDC 2004 - Evolve
+The 2004 Game Developers Conference had the theme "Evolve," emphasizing the industry's shift towards middleware and robust production processes. The dominance of licensed titles and sequels was noted, with Dave Perry discussing these trends in his keynote.
+
+A session on building big licensed games highlighted the industry's evolution from smaller teams to larger projects with 25 to 75 people and budgets ranging from $3 to $40 million. The need for well-organized processes and formal development procedures was emphasized, posing a non-technical challenge of integrating these without stifling creativity.
+
+GDC 2004 highlights included: 
+* Programming Keynote by **John Carmack** on bleeding-edge engine development 
+* Visual Arts Keynote by **John Gaeta** called From Visual Anti-Establishment to Ubiquity and Back. 
+* Sony showcased the PSP as a powerful, easy-to-develop-for device. 
+* Microsoft unveiled XNA, a development framework for future platforms.
 
 Many of these sessions are freely available on the [GDC Vault](https://gdcvault.com/browse/gdc-04/) however bare in mind some of the meta data such as presenters are incorrect on their site and we have a cleaned up version in the table below:
 
@@ -1971,6 +1980,8 @@ GDC 2005 was the first to be hosted in San Francisco and brought in a record **1
 
 Thankfully all the sessions for 2005 and onwards seems to have audio recordings (and some videos!) freely available on the **GDC Vault**: [GDC Vault](https://gdcvault.com/browse/gdc-05/)
 
+### Satoru Iwata Keynote - Heart of a Gamer
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMrj8gdUfCU?si=ro-uTNmYG1SfHF4q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ---
 # SIGGRAPH
