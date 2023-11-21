@@ -1836,7 +1836,24 @@ Creating a Monster RPG: The Light and the Dark Side of Development on St... | Wi
 Creating the Right Mix of Static Versus Dynamic Content in a Massively... | Scott Anderson | Game Design | 
 Cross Platform User Interface Development | Tim Stellmach (Harmonix) | Game Design | 
 Cross-Platform Audio Using Interactive XMF | Jessica Bayliss  | Audio | 
-
+Deferred Shading on DX9 Class Hardware and the Xbox | Matt Pritchard  | Programming | 
+Designing an Interactive Music System | Jason Booth (Harmonix Music Systems)| Audio | 
+Designing Games for Coin-Op and Internet Gambling | | Game Design | 
+Destruction on a Diet | Paul Lindberg  | Programming |  
+Developing and Mastering 36 Different Sku's of One Title Simultaneously ... | Michael Corby  | Production | 
+Developing Wireless Location-Based Games | Programming |  
+Digital Painting, and The Narrowing Gap between Games and Film | Paula Moore | Visual Arts |   
+Doing Business with Europe: A Survivor's Guide | Vincent Scheurer  | Business and Legal | 
+Encouraging Innovation in Game Development | Rebecca Herold | General Interest |
+Entering the World: Cognitive Dissonance and Immersion in Electronic Games | Hal Barwood (Finite Arts) | Game Design | 
+Entertainment Experience First, Videogame Second: The Making of The Retu... | Scott Baker | Game Design | 
+ESRB Explained: Behind the Ratings | Robert Richardson | IGDA  
+Everything You Need to Know to Make Money in Coin-Op | | Business and Legal | 
+Experimental Gameplay Workshop | Daniel VanBelleghem | Game Design | 
+Fast Yet Realistic Deformation and Fracture | James O'Brien  | Programming |  
+Follow The Money: Understanding Console Publishers | | Business and Legal | 
+Four at a Time: Techniques for Maximizing Enemy and Object Placement | Chris Cross | Game Design | 
+From Script to Joystick: World-Building 101 | Sharon Ruckman | Game Design | 
 
 ---
 ## GDC 2005+
