@@ -2003,7 +2003,39 @@ The website **Gamasutra** (now Game Developer) posted an article about the 2000 
 
 ---
 # Develop (Brighton)
-The Develop conference, which is held in Brighton, UK, had its inaugural event in 2006. The conference focuses on the video game development industry and covers various aspects of game development, including programming, design, audio, and business. Since its inception, the Develop conference has become an annual event, providing a platform for professionals in the gaming industry to exchange ideas, share knowledge, and network. Keep in mind that conference details, such as specific tracks and events, may change from year to year.
+The Develop conference, which is held in Brighton, UK, had its inaugural event in 2006. The conference focuses on the video game development industry and covers various aspects of game development, including programming, design, audio, and business. Since its inception, the Develop conference has become an annual event, providing a platform for professionals in the gaming industry to exchange ideas, share knowledge, and network.
+
+## Develop 2006
+
+The first ever Develop conference was split into the following tracks:
+* Coding
+* Design
+* Production
+* Business
+* Art
+* Audio
+* The Next Wave
+
+The sessions from Develop 2006 that we know about are listed in the table below:
+
+Title | Presenter | Track | Notes
+---|---|---|---
+Advance Programming Techniques on PlayStation Portable | Igor Makaruks, Sony Computer Entertainment Europe | Coding | 
+Animating Emotion | Ken Perlin | Coding |  
+Connected mobile gaming on Java | Matt Levy, SNAP Mobile & Markus Huttunen, SNAP Mobile Manager  | Coding | 
+Developing with PSSG, a PlayStation 3 optimised cross platform engine | Richard Forster, Sony Computer Entertainment Europe  | Coding | 
+DirectX 10 for Techies | Nick Thibieroz, ATI | Coding | 
+Lost in translation: The coder’s guide to team communication | Jonathan Shaw & Tak Fung, Lionhead Studios  | Coding | 
+New Techniques for Lighting: From Theory to Practical Implementation | Chris Doran, Geomerics | Coding | 
+Next Generation Games with Direct3D10 | Miguel Sainz, Nvidia | Coding | 
+Optimize Your GPU with the Latest NVIDIA Performance Tools | Raúl Aguaviva, NVIDIA Developer Tools Engineer | Coding | 
+PlayStation 3: A Parallel Universe | István Fábián, Sony Computer Entertainment Europe  | Coding | 
+Profiling and Debugging Your Game with PIX on Xbox 360 | Bruce Dawson, Microsoft Game Technology Group | Coding | 
+Pros and Cons of Developing Your Own Middleware | Andrew Oliver, Blitz Games  | Coding | 
+Shaders: The Sky is the Limit | Sébastien Dominé, NVIDIA & Richard Stenson, Sony Computer Entertainment America | Coding | 
+Software engineering: Games programming for large scale projects | Jeremy Chatelaine, Electronic Arts | Coding 
+Xbox Live: Now and in the Future | Jeff Sullivan, Microsoft Game Technology Group | Coding |
+
 
 ---
 # Consumer Electronics Show (CES) 
