@@ -178,6 +178,7 @@ Potentially not recorded were the following talks:
 * Legal Trends Affecting Computer Game Development by Alisa Baker
 * No Wine Before Its Time? by Michael Crick
 
+---
 ## CGDC 1994
 Another hosted in Santa Clara California but this time reaching over the 1 thousand mark with 1250 atendees, it was the eighth CGDC.
 
@@ -187,7 +188,7 @@ Google Books claims to have the proceesings of the Eighth Annual Computer Game D
 A user over at archive.org managed to upload audio recordings of the 1994 conference, some of the titles match the above but others do not, they are available in the table below:
 
 
-There were at least 100 talks at CGDC 1994 that we know about, thanks to **The KNOW-IT-ALL Audiovisual Library** website, they are listed in the table below:
+There were at least 130 talks at CGDC 1994 that we know about, thanks to **The KNOW-IT-ALL Audiovisual Library** website, they are listed in the table below:
 
 Title | Presenter | Type | Notes
 ---|---|---
@@ -288,6 +289,11 @@ Vehicle Simulation | John Wheeler | Roundtable | CGDC94-097
 Violence in Interactive Entertainment | Johnny L. Wilson | Roundtable | CGDC94-098
 Wargame Design | Roger Keating | Roundtable | CGDC94-099
 When Teams Work, When Teams Break | Don Daglow | Roundtable | CGDC94-100
+
+One of the most notable talks from this conference was **WinG: A DLL for Graphics**, this was the introduction to what would become DirectX. Microsoft finally taking Game Development seriously and allowing full screen fast graphics rendering without having to go into MS-DOS!
+
+### Reception of CGDC 1994
+You can read Ross Erickson's review of this experience at CGDC 1994 in his article published in the Game Bytes Magazine online here: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html). he mentions his disappointment at some of the talks and where he was pleasently surprised.
 
 
 ---
@@ -2159,3 +2165,4 @@ Overall, he outlines the evolution of the Doom 3 graphics engine, addressing pas
 [^6]: [Game Developers Conference 2000: Special Events](https://web.archive.org/web/20001117103000/http://www.gdconf.com/2000/directx.html)
 [^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
+[^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
