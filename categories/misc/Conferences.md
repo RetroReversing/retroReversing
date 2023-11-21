@@ -35,11 +35,13 @@ Conference | Dates | Category | Notes
 3DO Developer Conference | 1992-1994 | Development |
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase | 
+Develop | 2006-Ongoing | Development | UK Game development Conference
 E3 | 1995-Ongoing | Showcase | 
 Digital World Conference | 1990-1995? | Development | 
 Intertainment | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 Intertainment Conference
 xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
 Quakecon | 1996-Ongoing | Development | ID Software
+Unite | 2007-Ongoing | Development | Unity Technologies
 
 
 ---
@@ -1999,6 +2001,9 @@ They are not always related to game development but many real time rendering tec
 ## SIGGRAPH 2000
 The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective)
 
+---
+# Develop (Brighton)
+The Develop conference, which is held in Brighton, UK, had its inaugural event in 2006. The conference focuses on the video game development industry and covers various aspects of game development, including programming, design, audio, and business. Since its inception, the Develop conference has become an annual event, providing a platform for professionals in the gaming industry to exchange ideas, share knowledge, and network. Keep in mind that conference details, such as specific tracks and events, may change from year to year.
 
 ---
 # Consumer Electronics Show (CES) 
