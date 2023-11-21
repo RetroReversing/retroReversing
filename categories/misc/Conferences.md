@@ -2060,6 +2060,17 @@ The Future of Audio in Interactive Entertainment: A Personal Vision | Marty O'Do
 PS3 Audio: Meet The Team | Jason Page, Oliver Hume, Nik Kennedy, Paul Scargill, Sony Computer Entertainment Europe | Audio | 
 Recreating Reality | Kenny Young, Sony Computer Entertainment Europe | Audio | 
 Talking Sense: Raising The Bar For Speech In Games | Nick Laviers, Electronic Arts UK  | Audio | 
+Creativity led production: How to bring new ideas into line | Tetsuya Mizuguchi, Q Entertainment | Next Wave | 
+Lights, Camera... Where Movies and Videogames Meet | Rob Fahey, GamesIndustry.biz & Andrew McDonald, DNA Films  | Next Wave | 
+The Opinion Jam: Twelve speakers. Three minutes each. One winner. | Ste Curran, Rob Kay, Ernest Adams, Ken Perlin, Dan Bardino | Next Wave | 
+Buy now, pay later! | Dave Ranyard, Sony Computer Entertainment Europe, Sergio Pimentel, Sony Computer Entertainment Europe | Production | 
+Gotham Racing 3: A Post Mortem on developing a XBOX 360 launch title | Gareth Wilson, Bizarre Creations | Production | 
+Working with Hollywood: The Storytelling Professionals Mark Green & Katie Ellwood, Sony Computer Entertainment Europe | Production | 
+Animating characters within Maya & showcasing the real-time workflow within MotionBuilder along with FBX | Nick Jovic, Autodesk | Art | 
+Bridging the Uncanny Valley: Style versus Realism in future games | Cumron Ashtiani,  Steve Boxer, Susie Green  Ben Lee  | Art | 
+Masterclass: Character Animation | Nick Jovic & Kevin Booth, Autodesk | Art | 
+Motion synthesis and unique game moments | Torsten Reil, NaturalMotion | Art | 
+Showcasing the interoperability between 3ds Max, Maya and MotionBuilder | Kevin Booth, Autodesk | Art | 
 
 
 ---
