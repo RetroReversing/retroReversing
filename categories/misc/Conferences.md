@@ -96,20 +96,38 @@ It was hosted in Le Baron Hotel in San Jose and was atendeed by over 470 people.
 The Fifth CGDC was the first to have been directed by Ernest Adams just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
 
 We only know of a few talks that took place at this conference:
-* Intelligent Behavior Without AI: An Evolutionary Approach by Neil Kirby
-* Cyberspace: Lessons of Lucasfilm's Habitat by F. Randall Farmer, Chip Morningstar (CGDC91-003) [^7]
+* **Intelligent Behavior Without AI: An Evolutionary Approach** by Neil Kirby
+* **Cyberspace: Lessons of Lucasfilm's Habitat** by F. Randall Farmer, Chip Morningstar (CGDC91-003) [^7]
+* **Evolution of Taste** by Chris Crawford
+
 
 Only the Cyberspace talk was recorded on Audio cassete by the KNOW-IT-ALL Audiovisual Library [^7].
 
+For a review of what it was like to go to the 1991 CGDC check out Chris Crawford's perspective: [Volume 4, Number 4, March 1991 - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-4/volume-4-number-4-march.html)
 
+---
 ## CGDC 1992 - April 25th-26th
-Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was attended by over 600 game industry professionals.
+Hosted in the DoubleTree Hotel in Santa Clara California, the sixth CGDC was attended by over **600** game industry professionals.
 
 We only know of a few talks that took place at this conference:
-* Artificial Personality by Jon Freeman (CGDC92-026)
-* Making It Real: Story & Characters by Ellen Guon, Katherine Lawrence (CGDC92-014)
+* **Artificial Personality** by Jon Freeman (CGDC92-026)
+* **Making It Real: Story & Characters** by Ellen Guon, Katherine Lawrence (CGDC92-014)
+* **Music, Art, and the Blue Sword of Gralfarniblurt** by The Fat Man
+* **Lessons From Patton Strikes Back** by Chris Crawford
+* **Analytical history of a critical phase in the development of the cinema** by Brian Moriarty (Actual title unknown)
+* **Virtual Reality Update** by Brenda Laurel
+* **Battle of the Multimedia Platforms** by Stewart Bonn, John Baker, Kelly Flock, and Bill Davis 
+* **Roundtable** by Sid Meier
+
+This list is incomplete, if you know of any more talks that took place at GDC 1992 then **please let us know**!.
+
+For a review of what it was like to go to the 1992 CGDC check out Chris Crawford's perspective: [1992 CGDC Report - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-5/1992-cgdc-report.html)
+
+### Chris Crawford's Dragon Speech
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VwZi58u1FjI?si=hdShaCr7SG10Am3X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+---
 ## CGDC 1993
 Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
 
