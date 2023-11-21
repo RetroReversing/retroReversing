@@ -1794,7 +1794,7 @@ When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Busine
 ---
 ## GDC 2004
 
-The sessions that we know about are listed in the table below:
+Many of these sessions are freely available on the **GDC Vault** however bare in mind some of the meta data such as presenters are incorrect and we have a cleaned up version in the table below:
 
 Title | Presenter | Track | Notes
 ---|---|---|---
@@ -1854,6 +1854,116 @@ Fast Yet Realistic Deformation and Fracture | James O'Brien  | Programming |
 Follow The Money: Understanding Console Publishers | | Business and Legal | 
 Four at a Time: Techniques for Maximizing Enemy and Object Placement | Chris Cross | Game Design | 
 From Script to Joystick: World-Building 101 | Sharon Ruckman | Game Design | 
+From Visual Anti-Establishment to Ubiquity and Back | John_Gaeta  | Visual Arts |  
+Game Design Challenge: The Love Story | David Lynas | Game Design | 
+Game Design Methods of ICO | Eamon Neary | Game Design | 
+Game Design: Risk and Return | Masahiro Sakurai (Sora Ltd.) | Game Design | 
+Game Development Modeling with 3ds Max | Fred Trickey | Visual Arts |   
+Game Mobility Requires Code Portability | Guido Henkel  | Programming |  
+Game Narrative: What Would Aristotle Do? | Tim McCarthy | Game Design | 
+Game Prototyping with 3ds Max | Zoe Strickland | Visual Arts |   
+Game Soundtracks: Structuring Your Deal Like the Movies | Fred Tompkins  | Audio | 
+GDC Programming Keynote: John Carmack | John Carmack (iD Software)| Programming |  
+Great Games in 50k: Three Addictive Mobile Phone Titles | Thomas Peltier | Game Design | 
+Growing a Dedicated Tools Programming Team: From Baldur's Gate to S...| Production | 
+Hi Res Modeling for Consoles in Maya | Wendi Rafferty | Visual Arts |   
+High Dynamic Range Lighting | John O'Leary  | Programming |  
+How to Budget Audio: 'What Am I Forgetting?' | Terry Gudaitis  | Audio | 
+How to Get More Coverage for Your Company and Titles | Sue Bohle  | Business and Legal | 
+HR in the Studio | Business and Legal | 
+IGDA Quality of Life White Paper Unveiling | Gregory Abrenio | IGDA |
+Immigration for Foreign Games Professionals in the Age of Homeland Sec... | Kevin Kingdon  | Business and Legal | 
+Industry & Government: Working Together | Rishi Bhattacharya  | Business and Legal | 
+Integrating Physics into a Modern Game Engine | Rishi Bhattacharya  | Programming |  
+Interfacing With Hollywood: Challenges and Opportunities | Harvey Smith  | Business and Legal | 
+Jak's Makeover for JakII : Why the Dramatic New Look for a Sequel? | | Visual Arts |   
+Learning by Design: Games as Learning Machines | Mark O'Neill | IGDA |  
+Lemke's Algorithm, The Hammer In Your Math Toolbox? | Chris Hecker (Formerly Technology Fellow at Maxis)| Programming |  
+Light Scattering: Oh, that Looks Cool! Can we Have it in the Game, Real ... | Derek Palmer  | Programming |  
+Make Better Criticism: A Mature Form of Cultural Analysis | J.R. Reagan | IGDA | 
+Managing the Hydra: Successfully Running Multiple Projects in a Videog... | Michael Corby  | Production | 
+Master Your Game's Domain: Data-Driven Asset Management | Warren Kruse  | Production | 
+Maya for Games - Tools & Pipelines in Maya | Matthew Luallen | Visual Arts |   
+Minefields in Videogame Intellectual Property Protection | Stephen Rubin (Law Office of Stephen Rubin)| Business and Legal | 
+Mixing and Mastering Music and Sound for Games | Scott Gershin (Soundelux Design Music Group)| Audio | 
+Mobile Games: Lessons from Online Games | Dan Scherlis (Sonamine)| Business and Legal | 
+Motion Capture-driven Simulation for Characters | Lisa Schlosser  | Programming |  
+Motion Synthesis | Terri Curran  | Programming |  
+Music Licensing for Videogames: How Popular Music and Artists Can Make ... | Victor Rodriguez (THQ)| Business and Legal | 
+Music Publishing: A Primer for Game Developers and Composers | Douglas Conorich  | Business and Legal | 
+Open Spaces and How to Find Them in New Game Ideas | Thomas Peltier | Game Design | 
+Outdoor Jungle Vegetation: Battlefield Vietnam | Rishi Bhattacharya | Visual Arts |   
+Pitching an Original IP: Notes from the Field | Chris Charla (Microsoft Game Studios)| Business and Legal | 
+Practical Implementation of High Dynamic Range Rendering | John Williams  | Programming |  
+Practical Physics for Articulated Characters | Rishi Bhattacharya  | Programming |  
+Practical Shadows: Out of the Demo and Into the Engine | Tom Forsyth  | Programming |  
+Prepping for the Transition: Will You Be Ready? | John Schappert (Zynga)| Business and Legal | 
+Procedural Shaders: A Feature Animation Perspective | Arcot Preetham (ATI)| Programming |  
+Producing Motion Capture and Animation | Paul Immo  | Production | 
+Producing Orchestral Scores for Games | John O'Leary  | Audio | 
+Producing Programmers: Strategies for Managing Technical Staff | Pierre-Luc REFALO  | Production | 
+Producing the Characters and Creatures of Ultima X Odyssey | Brenda Brathwaite | Visual Arts | 
+Through Collaboration: Escalating Demands on the Producer | Dave Perry  | Production | 
+Programming the PlayStation Portable (PSP) | Bryan Fletcher  | Programming |  
+Re-awakening a Classic: Prince of Persia: A Case Study | |  Production | 
+Real World Multi-Threading in PC Games | Arron Coday (Intel)| Programming |  
+Real-Time Global Illumination | Eskil Steenberg  | Programming | 
+Real-Time Translucent Animated Objects | Fred Trickey  | Programming |  
+Realistic and Fast Cloud Rendering in Computer Games | | Programming |  
+Requirements for a Next Generation Massively Multiplayer Online Game | Gordon Walton  | Production | 
+Reusing Shading for Interactive Global Illumination | Programming |  
+Revisiting the Standard Joint Hierarchy: Improving Realistic Modeling of... | | Programming |  
+SciFi MMPs: Lessons from Star Wars Galaxies and Earth and Beyond | Raph Koster (Independent) | Game Design | 
+Seven Years of Max Payne | | Production | 
+SOCOM II: Creating a Compelling Online Console Game | Richard Murphy | Game Design | 
+Sound Design: Strategies for Success | Thomas Rude  | Audio | 
+Spare No Expense: Starbucks and Aeron Chairs for Everyone | Business and Legal | 
+Starting a New Studio | John Hayes  | Business and Legal | 
+State of the Art: Anatomy of 3D Level Design | Herve Schmidt | Game Design | 
+Storytellers vs. Puzzle-Makers: New Traits of Successful Games | Kevin Bachus (Nival Interactive)| Business and Legal | 
+Storytelling in Earth & Beyond | | Game Design | 
+The Civilization Series: How to Maintain a Successful Franchise | Soren Johnson (Mohawk Games) | Game Design | 
+The Full Spectrum Warrior Camera System | Thomas Peltier  | Programming |  
+The Collection and Applications of Metrics in an MMP Game: Lessons Lea... |  Larry Mellon  | Programming |  
+The Easy Route To Console Online | Thomas Peltier  | Production | 
+The Emotional Heart of Art Direction | | Visual Arts |   
+The End Game: How Top Developers Sold Their Studios | Dan Rogers  | Business and Legal | 
+The Evolution of a Franchise: The Legend of Zelda | Eiji Aonuma (Nintendo Co., Ltd.) | Game Design | 
+The History of Animation | Paul Hormis | Visual Arts |   
+The I-Spy Book of Developer Contract Law | | Business and Legal | 
+The Impact of Middleware Technologies on Your Game Development | Thomas Peltier  | Production | 
+The Interesting Thing About Bishops: Simulation Boundaries in Splinter Cell | Clint Hocking | Game Design | 
+The Interface: How to Create an Effective Audio Schedule | Troy Larson  | Production | 
+The Making of the Official Counter-Strike Bot | Michael Booth (Valve)| Programming |  
+The Negotiation | Tom Buscaglia (Dev Biz, Inc.)| Business and Legal | 
+The Philosophical Roots of Computer Game Design | Ernest Adams (International Hobo) | Game Design | 
+The Physics-Sound System of Deus Ex: Invisible War and Thief 3 | Brian Sharp (Bungie, LLC)| Programming |  
+The Secret of Pac-Man 's Success: Making Fun First | Chris Cook | Game Design | 
+The Sound Design Methodology of Medal of Honor | Frank Butler  | Audio | 
+The State of Non-Linear Audio for Interactive Media | Pete Garza  | Audio | 
+The State of the Web and Downloadable Games Industry: A 2004 IGDA Online... | Derrick Morton (FlowPlay)| Business and Legal | 
+The Virtual and Mixed Media Orchestra for Game Music | | Audio |  
+The Well-Fed Freelancer: A Survival Guide in 24 Easy Lessons | Francois Dominic Laram'e  | Business and Legal | 
+Tips & Tricks for UV Mapping | Keith Self-Ballard | Visual Arts |   
+Tips and Tricks for 3ds max 6 in Games | Phillip Hallam-Baker | Visual Arts |   
+Towards Relevant Research: Collaboration 101 | Stephen Gantz | IGDA  
+Triangulation: A Schizophrenic Approach to Game Design | Will Wright (Stupid Fun Club) | Game Design | 
+True Crime: Streets of L.A.-Bringing Crime to the City of Angels | Rishi Bhattacharya  | Programming |  
+Turning Innovation into Impact | J Allard | Audio | 
+Understanding the Elements of Employee Compensation | | Business and Legal  
+User-testing in a Hostile Environment: Overcoming Apathy and Resistance ... | William Stackpole  | Production | 
+Using External Contractors Effectively | Jessica Bayliss  | Production | 
+Using Verlet Integration and Constraints in a Six Degree of Freedom Rigi...| Programming |  
+Visualizing Sly Cooper | Brad Smith | Visual Arts |   
+What Got Left out of Battlefield 1942 | Dennis Brixius | Game Design | 
+What Lies Ahead in the Ever-evolving Interactive Entertainment Industry? | Tim McCarthy | Game Design | 
+What to Do When it All Goes to Hell: Lessons Learned Shutting Down a G... | Cody Northrop  | Business and Legal | 
+Why We Play Games: The Four Keys to Player Experience | Nicole Lazzaro (XEODesign) | Game Design | 
+Winning the Race Against Pirates And Crackers: Next Generation Copy Pr... | Jeff Orkin  | Production | 
+Workflow Convergence: How Motion Picture Pipelines Are Merging With Game... | Robert J. Thornberry Jr | Visual Arts |   
+Would the Real Emergent Gameplay Please Stand Up? | Todd Fitzgerald | Game Design | 
+Zoological Gardens: The Science of Creature Design | Greg Gabet | Game Design | 
+
 
 ---
 ## GDC 2005+
