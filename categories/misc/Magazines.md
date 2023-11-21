@@ -96,6 +96,15 @@ PC Gamer | Long Running UK Magazine dedicated to PC Gaming, sometimes has game d
 PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
 Retro Gamer | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
 
+---
+## GameBytes (1992-1994)
+GameBytes was a very unique magazine as it wasn't published in a traditional sense, it was released for free online on **Bulletin Board Systems**, it was also unique in its format as it was an actual interactive MS-DOS Application!
+
+Over its relativly short life span it obtained some very interesting articles related to the Game development industry, including multiple reviewes of the **Computer Game Developers Conference** in 1994.
+
+You can experience the magazines online through an emulator on [DOSGames.com](https://www.dosgames.com/gamebytes.php).
+
+---
 ## EDGE Magazine
 The magazine **EDGE** is famous for hiring many of the engineers at Rare due to their advertisements (such as Dr Doak).
 
