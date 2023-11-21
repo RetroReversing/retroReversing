@@ -1796,8 +1796,47 @@ When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Busine
 
 The sessions that we know about are listed in the table below:
 
-Title | Presenter | Notes
----|---|---
+Title | Presenter | Track | Notes
+---|---|---|---
+"Port" is a Four-Letter Word: The Challenges of Redesigning The Sims fo... | Michael Perry (Electronic Arts, Inc.) | Game Design | 
+10 Tricks from Psychology for Making Better Characters | Katherine Isbister | Game Design | 
+14 Ways of Drawing Players in with an Opening Cinematic | David Freeman | Game Design | 
+Island Thunder and Raven Shield : Creating Believable Stories for R... | Richard Dansky (Red Storm Entertainment/Ubisoft) | Game Design | 
+Republic : Lessons Learned | Dave Dixon  | Production | 
+The Hobbit : A Case Study | Christopher Michael  | Audio | 
+Wallace and Gromit in Project Zoo : A Postmortem of a Licensed, Cross-... | Warren Kruse  | Production | 
+A Candid Look at the Issues and Rewards of Bleeding Edge Engine Development | Tom Peltier  | Programming |  
+A Peek Behind the Shoji: Japan's Videogame Market Today | Rio Hasegawa (Sony Computer Entertainment Japan) | Game Design | 
+A Road Map for Peace: Redefining the Publisher- Developer Relationship | Joe Minton  | Business and Legal |  
+Accurate Prediction and Other Organizational Myths | Starr Long  | Production | 
+Acting for Animators | Douglas Conorich | Visual Arts |   
+Adding Spherical Harmonic Lighting to the Sushi Engine | Leander Hasty  | Programming |  
+Advanced Real-Time Reflectance | Thomas Peltier  | Programming |  
+Adventures in Character Design | Tim Schafer | Game Design | 
+AI and Design: How AI Enables Designers | Rishi Bhattacharya  | Programming |  
+AI: Gameplay & Design: A Marriage of Heaven or Hell? | Michael Corby  | Programming |  
+Anatomy of a 2D Side-Scroller | Michael Rasmussen | Game Design | 
+Artificial Potential Fields for the Control of Navigation and Animation | Paula Moore  | Programming |  
+Artist Management in a Small Games Company | Production | 
+ArtModJam | Seth Fogie | Game Design | 
+Audio Asset Management for Large Projects | David Chan (Hinterland Studios)| Audio | 
+Audio Director to the Rescue | Andrew Boyd  | Audio | 
+Audio for Mobile Panel | James Doyle  | Audio | 
+Automation Recipes: Automation Ideas to Save Project Time and Money | Jennifer Boespflug  | Production | 
+Behavioral Game Design | John Hopson (Bungie Inc.)| Audio | 
+Beyond Finite State Machines: Managing Complex, Intermixing Behavior H... | Joseph W. Popinski III  | Programming |  
+Beyond Fun: Setting Aesthetic Goals and Sticking toThem | Tim Stellmach (Harmonix) | Game Design | 
+Building a Million Particle System | Cheryl Jackson  | Programming |  
+Building Big Licensed Games with Big Teams | Don Daglow (Daglow Entertainment LLC)| Production | 
+Building Value in Your Company: One Small Studio's Approach | Business and Legal | 
+Character Rigger's Cookbook | Steve Theodore (Undead Labs) | Visual Arts |   
+Common C++ Performance Mistakes in Games | Pete Isensee | Programming | Xbox
+Creating Water and Fluid Effects For Video Games | Cyrus Peikari | Visual Arts |   
+Creating a Monster RPG: The Light and the Dark Side of Development on St... | William Murray  | Production | 
+Creating the Right Mix of Static Versus Dynamic Content in a Massively... | Scott Anderson | Game Design | 
+Cross Platform User Interface Development | Tim Stellmach (Harmonix) | Game Design | 
+Cross-Platform Audio Using Interactive XMF | Jessica Bayliss  | Audio | 
+
 
 ---
 ## GDC 2005+
