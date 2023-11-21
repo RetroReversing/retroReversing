@@ -88,8 +88,10 @@ There are many magazines related to Gaming both past and present, however only a
 
 Title | Notes
 ---|---
+Computer Gaming World | USA Magazine that ran from 1981-2006
 EDGE | UK magazine that contained interviews with game developers and even adverts for Development Kits
 GamesTM | UK Magazine that contained interviews with Game developers
+GameBytes | MS-DOS based application for an interactive magazine released on BBS between 1992-1994 https://www.dosgames.com/gamebytes.php
 PC Gamer | Long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Published by Thin ice media (Datel) this occasionally contains top quality articles about Homebrew and Game Development for the Playstation 2
 Retro Gamer | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
