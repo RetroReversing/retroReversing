@@ -39,6 +39,7 @@ E3 | 1995-Ongoing | Showcase |
 Digital World Conference | 1990-1995? | Development | 
 Intertainment | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 Intertainment Conference
 xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
+Quakecon | 1996-Ongoing | Development | ID Software
 
 
 ---
@@ -1790,7 +1791,13 @@ U.S. Immigration Issues for Game Developers | | Business and Legal |
 What It Takes To Run a Successful Game Studio | Todd Hollenshead (ID SOFTWARE) | Business and Legal | 
 When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Business and Legal | 
 
+---
+## GDC 2004
 
+The sessions that we know about are listed in the table below:
+
+Title | Presenter | Notes
+---|---|---
 
 ---
 ## GDC 2005+
@@ -1849,6 +1856,19 @@ E3 1995 marked the first E3 event, created as an alternative to the Consumer Ele
 At E3 1995, the gaming industry was undergoing significant changes, with the Super Nintendo still the most popular console in North America but with new hardware on the horizon, such as Sega Saturn, Sony PlayStation, and the yet-to-be-released Ultra 64 (later Nintendo 64). This event was mainly focused on the Sega-Sony rivalry, with Nintendo's console release delayed until the following year.
 
 E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
+
+---
+# QuakeCon
+QuakeCon is an annual convention and gaming event that primarily focuses on the Quake series of video games, as well as other titles developed by id Software, the company behind Quake. The event has been held since 1996 and is known for its emphasis on competitive gaming, LAN parties, and the celebration of the gaming community.
+
+QuakeCon typically features a variety of activities, including tournaments, panel discussions, exhibitor booths, and opportunities for fans to meet and interact with game developers. It has become a significant event in the gaming calendar, attracting thousands of attendees from around the world.
+
+While QuakeCon started with a primary focus on the Quake series, it has expanded over the years to include other games, including those from Bethesda Softworks, which acquired id Software. The convention has also been a platform for showcasing new game releases, updates, and announcements, making it an exciting gathering for both fans and industry professionals.
+
+## Quakecon 2004
+John Carmack gave the Keynote speech at Quakecon 2004 on the DOOM 3 game engine, you can watch it on youtube below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OOVUZZr655o?si=_NP-ZaoE14TnSAqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ---
 # References
