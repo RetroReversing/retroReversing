@@ -1866,9 +1866,38 @@ QuakeCon typically features a variety of activities, including tournaments, pane
 While QuakeCon started with a primary focus on the Quake series, it has expanded over the years to include other games, including those from Bethesda Softworks, which acquired id Software. The convention has also been a platform for showcasing new game releases, updates, and announcements, making it an exciting gathering for both fans and industry professionals.
 
 ## Quakecon 2004
-John Carmack gave the Keynote speech at Quakecon 2004 on the DOOM 3 game engine, you can watch it on youtube below:
+John Carmack gave the Keynote speech at Quakecon 2004 where he reflects on Doom 3 Engine Decisions, you can watch it on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/OOVUZZr655o?si=_NP-ZaoE14TnSAqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+The key points from Keynote are as are as follows:
+
+1. **Evaluation of Doom 3 Engine Decisions:**
+   - He reflects on decisions made for the Doom 3 renderer over four years ago.
+   - Acknowledges some flaws, such as seams on character heads due to mirroring repeat in texturing.
+
+2. **Specularity and Lighting Improvements:**
+   - Talks about limitations in skin tone realism due to a single level of specularity.
+   - Introduces new technology for specular maps, allowing control over the breadth of specular highlights.
+   - Addresses issues with specularity on broad surfaces and introduces reflection vector calculation for more accurate highlights.
+   - Discusses the use of cubic environment maps and normalization for better quality highlights.
+
+3. **Anti-Aliasing Challenges:**
+   - Highlights the aliasing challenges in surfaces with normal maps and specular highlights.
+   - Mentions ongoing work to combat aliasing, considering the analysis of surface normals and specularity factors.
+
+4. **Multi-Channel Texture Considerations:**
+   - Discusses the complexity introduced when combining multiple maps (normal, diffuse, specular, etc.) and the need for coordinated adjustments.
+   - Notes potential challenges in scaling and rotating independent maps.
+
+5. **Quality Improvement through Renormalization:**
+   - Describes the benefits of renormalization of normal maps before lighting calculations for improved surface quality.
+   - Addresses the issue of denormalization in cases where normal vectors deviate significantly.
+
+6. **General Improvements and Considerations:**
+   - Mentions the need for reevaluation and development of a new rendering engine based on current hardware capabilities.
+   - Indicates ongoing efforts to enhance the Doom 3 graphics engine, considering issues like aliasing, specularity, and normal map quality.
+
+Overall, he outlines the evolution of the Doom 3 graphics engine, addressing past limitations and describing efforts to improve realism, lighting, and overall graphical quality in the context of current and future hardware capabilities.
 
 ---
 # References
