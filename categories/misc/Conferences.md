@@ -1794,20 +1794,20 @@ When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Busine
 ---
 ## GDC 2004
 
-Many of these sessions are freely available on the **GDC Vault** however bare in mind some of the meta data such as presenters are incorrect and we have a cleaned up version in the table below:
+Many of these sessions are freely available on the [GDC Vault](https://gdcvault.com/browse/gdc-04/) however bare in mind some of the meta data such as presenters are incorrect on their site and we have a cleaned up version in the table below:
 
 Title | Presenter | Track | Notes
 ---|---|---|---
 "Port" is a Four-Letter Word: The Challenges of Redesigning The Sims fo... | Michael Perry (Electronic Arts, Inc.) | Game Design | 
 10 Tricks from Psychology for Making Better Characters | Katherine Isbister | Game Design | 
 14 Ways of Drawing Players in with an Opening Cinematic | David Freeman | Game Design | 
-Island Thunder and Raven Shield : Creating Believable Stories for R... | Richard Dansky (Red Storm Entertainment/Ubisoft) | Game Design | 
+Island Thunder and Raven Shield : Creating Believable Stories for Realistic Games | Richard Dansky (Red Storm Entertainment/Ubisoft) | Game Design | 
 Republic : Lessons Learned | Dave Dixon  | Production | 
 The Hobbit : A Case Study | Christopher Michael  | Audio | 
-Wallace and Gromit in Project Zoo : A Postmortem of a Licensed, Cross-... | Warren Kruse  | Production | 
+Wallace and Gromit in Project Zoo: A Postmortem of a Licensed, Cross-Platform Game | Warren Kruse  | Production | 
 A Candid Look at the Issues and Rewards of Bleeding Edge Engine Development | Tom Peltier  | Programming |  
 A Peek Behind the Shoji: Japan's Videogame Market Today | Rio Hasegawa (Sony Computer Entertainment Japan) | Game Design | 
-A Road Map for Peace: Redefining the Publisher- Developer Relationship | Joe Minton  | Business and Legal |  
+A Road Map for Peace: Redefining the Publisher-Developer Relationship | Joe Minton  | Business and Legal |  
 Accurate Prediction and Other Organizational Myths | Starr Long  | Production | 
 Acting for Animators | Douglas Conorich | Visual Arts |   
 Adding Spherical Harmonic Lighting to the Sushi Engine | Leander Hasty  | Programming |  
@@ -1824,7 +1824,7 @@ Audio Director to the Rescue | Andrew Boyd  | Audio |
 Audio for Mobile Panel | James Doyle  | Audio | 
 Automation Recipes: Automation Ideas to Save Project Time and Money | Jennifer Boespflug  | Production | 
 Behavioral Game Design | John Hopson (Bungie Inc.)| Audio | 
-Beyond Finite State Machines: Managing Complex, Intermixing Behavior H... | Joseph W. Popinski III  | Programming |  
+Beyond Finite State Machines: Managing Complex, Intermixing Behavior Hierarchies | Joseph W. Popinski III  | Programming |  
 Beyond Fun: Setting Aesthetic Goals and Sticking toThem | Tim Stellmach (Harmonix) | Game Design | 
 Building a Million Particle System | Cheryl Jackson  | Programming |  
 Building Big Licensed Games with Big Teams | Don Daglow (Daglow Entertainment LLC)| Production | 
@@ -1840,14 +1840,14 @@ Deferred Shading on DX9 Class Hardware and the Xbox | Matt Pritchard  | Programm
 Designing an Interactive Music System | Jason Booth (Harmonix Music Systems)| Audio | 
 Designing Games for Coin-Op and Internet Gambling | | Game Design | 
 Destruction on a Diet | Paul Lindberg  | Programming |  
-Developing and Mastering 36 Different Sku's of One Title Simultaneously ... | Michael Corby  | Production | 
+Developing and Mastering 36 Different Sku's of One Title Simultaneously for the PS2 & Xbox | Michael Corby  | Production | 
 Developing Wireless Location-Based Games | Programming |  
 Digital Painting, and The Narrowing Gap between Games and Film | Paula Moore | Visual Arts |   
 Doing Business with Europe: A Survivor's Guide | Vincent Scheurer  | Business and Legal | 
 Encouraging Innovation in Game Development | Rebecca Herold | General Interest |
 Entering the World: Cognitive Dissonance and Immersion in Electronic Games | Hal Barwood (Finite Arts) | Game Design | 
-Entertainment Experience First, Videogame Second: The Making of The Retu... | Scott Baker | Game Design | 
-ESRB Explained: Behind the Ratings | Robert Richardson | IGDA  
+Entertainment Experience First, Videogame Second: The Making of The Return of the King | Scott Baker | Game Design | 
+ESRB Explained: Behind the Ratings | Robert Richardson | IGDA | 
 Everything You Need to Know to Make Money in Coin-Op | | Business and Legal | 
 Experimental Gameplay Workshop | Daniel VanBelleghem | Game Design | 
 Fast Yet Realistic Deformation and Fracture | James O'Brien  | Programming |  
@@ -1870,7 +1870,7 @@ Hi Res Modeling for Consoles in Maya | Wendi Rafferty | Visual Arts |
 High Dynamic Range Lighting | John O'Leary  | Programming |  
 How to Budget Audio: 'What Am I Forgetting?' | Terry Gudaitis  | Audio | 
 How to Get More Coverage for Your Company and Titles | Sue Bohle  | Business and Legal | 
-HR in the Studio | Business and Legal | 
+HR in the Studio | | Business and Legal | 
 IGDA Quality of Life White Paper Unveiling | Gregory Abrenio | IGDA |
 Immigration for Foreign Games Professionals in the Age of Homeland Sec... | Kevin Kingdon  | Business and Legal | 
 Industry & Government: Working Together | Rishi Bhattacharya  | Business and Legal | 
