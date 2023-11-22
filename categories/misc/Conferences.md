@@ -84,15 +84,26 @@ The conference did not become an annual event until a few years later.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+---
 ## CGDC 3 - 1989
 Not much is known about the third version of the Computer Game Developers Conference (CGDC) hosted in Sunnyvale California sometime in 1989 and managed to double the previous atendence from 150 to 300.
 
+If you know of any sessions that took place in the 1989 Computer Game Developer Conference then please let us know!
+
+---
 ## CGDC 1990 - April 1st-2nd
 For a brief insight into the fourth version of CGDC you can read Bill Pirkle's observations in the June 1990 issue of Journal of Computer Game Design here: 
 [Volume 3 Number 5. June 1990 ](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-3/volume-3-number-5-june-1990.html)
 
 It was hosted in Le Baron Hotel in San Jose and was atendeed by over 470 people.
 
+We only know of a few talks that took place at this conference:
+* **The Artistic C** by Jim Gasperini
+
+### The Artistic C
+The earliest known recording of a Game Developer COnference talk is called **The Artistic C** by Jim Gasperini. You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
+
+---
 ## CGDC 1991 - March
 The Fifth CGDC was the first to have been directed by Ernest Adams just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
 
