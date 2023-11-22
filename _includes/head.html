@@ -15,11 +15,11 @@
   <meta name="robots" content="index, follow" />
   <meta name="language" content="English" />
   {% if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering enthusiasts." />
+    <meta name="description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering" />
   {% else %}
-  <meta name="description" content="Learn about RetroReversing, the home of retro game reverse engineering enthusiasts. Get resources, tutorials, and tools for analyzing vintage technology and join the community today!" />
+  <meta name="description" content="RetroReversing, the home of retro game reverse engineering. Get resources, tutorials, and tools for analyzing video games and join the community today!" />
   {% endif %}
-  <meta name="keywords" content="RetroReversing, reverse engineering, reversing, resources, tutorials, tools, retro games, {{ page.tags | join: ',' }}" />
+  <meta name="keywords" content="reverse engineering, reversing, resources, leaks, source code, decompile, {{ page.tags | join: ',' }}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   
@@ -46,9 +46,9 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} &middot; {{ site.tagline }}
+      {{ site.title }} - {{ site.tagline }}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+      {{ page.title }} - Retro Reversing (Reverse Engineering)
     {% endif %}
   </title>
   
