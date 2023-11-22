@@ -8,6 +8,7 @@ editlink: ../categories/consoles/SegaMasterSystem.md
 console: 'sms'
 consoleimage: /public/consoles/Sega - Master System.png
 thumbnail: /public/consoles/Sega - Master System.png
+excerpt: Awesome list of SEGA Master System Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

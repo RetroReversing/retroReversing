@@ -8,6 +8,7 @@ editlink: ../categories/consoles/PS3.md
 console: 'ps3'
 consoleimage: /public/consoles/Sony PS3.png
 thumbnail: /public/consoles/Sony PS3.png
+excerpt: Awesome list of Sony Playstation 3 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

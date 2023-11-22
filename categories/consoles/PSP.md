@@ -8,6 +8,7 @@ editlink: ../categories/consoles/PSP.md
 console: 'psp'
 consoleimage: /public/consoles/Sony PSP.png
 thumbnail: /public/consoles/Sony PSP.png
+excerpt: Awesome list of Sony Playstation Portable Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

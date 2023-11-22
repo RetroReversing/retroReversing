@@ -8,6 +8,7 @@ editlink: ../categories/consoles/Gamecube.md
 console: 'gamecube'
 consoleimage: /public/consoles/Nintendo Gamecube.png
 thumbnail: /public/consoles/Nintendo Gamecube.png
+excerpt: Awesome list of Nintendo Gamecube Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

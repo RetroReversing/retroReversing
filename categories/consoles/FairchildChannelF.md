@@ -7,6 +7,7 @@ consoleimage: /public/consoles/Fairchild Channel F.png
 thumbnail: /public/consoles/Fairchild Channel F.png
 image_: /public/images/Fairchild Channel F.jpg
 twitterimage_: https://www.retroreversing.com/public/images/Fairchild Channel F.jpg
+excerpt: Awesome list of Fairchild Channel F Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

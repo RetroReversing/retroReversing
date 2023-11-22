@@ -8,6 +8,7 @@ editlink: ../categories/consoles/PS2.md
 console: 'ps2'
 consoleimage: /public/consoles/Sony PlayStation 2.png
 thumbnail: /public/consoles/Sony PlayStation 2.png
+excerpt: Awesome list of Sony Playstation 2 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

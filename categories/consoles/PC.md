@@ -7,6 +7,7 @@ recommendTitle: All PC Posts
 editlink: ../categories/consoles/PC.md
 console: 'pc'
 consoleimage: /public/consoles/Computer Old Design.png
+excerpt: Awesome list of IBM PC Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

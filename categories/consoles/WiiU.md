@@ -8,6 +8,7 @@ console: 'wiiU'
 title: Nintendo WiiU  Reverse Engineering
 consoleimage: /public/consoles/Nintendo WiiU.png
 thumbnail: /public/consoles/Nintendo WiiU.png
+excerpt: Awesome list of Nintendo WiiU Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

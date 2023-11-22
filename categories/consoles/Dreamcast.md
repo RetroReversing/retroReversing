@@ -8,6 +8,7 @@ editlink: ../categories/consoles/Dreamcast.md
 console: 'dreamcast'
 consoleimage: /public/consoles/Sega Dreamcast.png
 thumbnail: /public/consoles/Sega Dreamcast.png
+excerpt: Awesome list of Sega Dreamcast Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

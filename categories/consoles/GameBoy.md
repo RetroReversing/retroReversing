@@ -8,6 +8,7 @@ editlink: ../categories/consoles/GameBoy.md
 console: gameboy
 consoleimage: /public/NintendoGameBoyThumb.png
 thumbnail: /public/NintendoGameBoyThumb.png
+excerpt: Awesome list of Nintendo Game Boy Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

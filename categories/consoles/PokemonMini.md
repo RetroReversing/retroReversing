@@ -10,6 +10,7 @@ twitterimage: https://www.retroreversing.com/public/images/PokemonMini/Pokemon M
 recommend: PokemonMini
 recommendTitle: All Pokemon Mini Posts
 editlink: ../categories/consoles/PokemonMini.md
+excerpt: Awesome list of Nintendo Pokemon Mini Game Development and Reverse Engineering information
 videocarousel:
   - title: Nintendo's Forgotten Console
     image: https://img.youtube.com/vi/_Da5CfhH128/hqdefault.jpg

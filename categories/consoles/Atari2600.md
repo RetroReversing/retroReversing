@@ -7,6 +7,7 @@ consoleimage: /public/consoles/Atari 2600.png
 thumbnail: /public/consoles/Atari 2600.png
 image_: /public/images/nes/Atari 2600.jpg
 twitterimage_: https://www.retroreversing.com/public/images/atari/Atari 2600.jpg
+excerpt: Awesome list of Atari Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

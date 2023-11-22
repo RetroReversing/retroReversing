@@ -18,6 +18,7 @@ image: /public/images/categories/Games Industry Conferences.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Conferences.jpg
 tags:
  - industry
+excerpt: Awesome list of Historic Retro Games Industry Conferences including Audio and Video recordings
 updatedAt: '2023-10-29'
 ---
 

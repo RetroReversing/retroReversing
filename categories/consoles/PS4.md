@@ -8,6 +8,7 @@ editlink: ../categories/consoles/PS4.md
 console: 'vita'
 consoleimage: /public/consoles/Sony PS4.png
 thumbnail: /public/consoles/Sony PS4.png
+excerpt: Awesome list of Sony Playstation 4 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

@@ -14,6 +14,7 @@ editlink: ../categories/misc/Magazines.md
 recommend: industry
 image: /public/images/categories/Games Industry Magazines.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Magazines.jpg
+excerpt: Awesome list of Historic Retro Games Development Magazines and articles
 tags:
  - industry
 updatedAt: '2022-05-22'

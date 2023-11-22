@@ -8,6 +8,7 @@ editlink: ../categories/consoles/Xbox.md
 console: 'xbox'
 consoleimage: /public/consoles/Microsoft Xbox.png
 thumbnail: /public/consoles/Microsoft Xbox.png
+excerpt: Awesome list of Xbox Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

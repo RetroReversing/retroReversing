@@ -8,6 +8,7 @@ thumbnail: /public/consoles/Super Nintendo Entertainment System.png
 recommend: snes
 recommendTitle: All SNES Posts
 editlink: ../categories/consoles/SuperNintendo.md
+excerpt: Awesome list of Super Nintendo Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

@@ -8,6 +8,7 @@ thumbnail: /public/consoles/Sony Playstation.png
 twitterimage: https://www.retroreversing.com/public/consoles/Sony Playstation.png
 recommend: ps1
 recommendTitle: All PS1 Posts
+excerpt: Awesome list of Sony Playstation 1 Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

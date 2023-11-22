@@ -7,6 +7,7 @@ consoleimage: /public/consoles/Intellivision.png
 thumbnail: /public/consoles/Intellivision.png
 image_: /public/images/Intellivision.jpg
 twitterimage_: https://www.retroreversing.com/public/images/Intellivision.jpg
+excerpt: Awesome list of Intellivision Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

@@ -8,6 +8,7 @@ editlink: ../categories/consoles/GameGear.md
 console: 'gamegear'
 consoleimage: /public/consoles/Sega Game Gear.png
 thumbnail: /public/consoles/Sega Game Gear.png
+excerpt: Awesome list of Sega Game Gear Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

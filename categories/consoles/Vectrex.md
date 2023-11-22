@@ -8,6 +8,7 @@ editlink: ../categories/consoles/Vectrex.md
 console: 'ps2'
 consoleimage: /public/consoles/Vectrex.png
 thumbnail: /public/consoles/Vectrex.png
+excerpt: Awesome list of Vectrex Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

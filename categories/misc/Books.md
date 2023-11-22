@@ -13,6 +13,7 @@ editlink: ../categories/misc/Books.md
 recommend: industry
 image: /public/images/categories/Games Industry Books.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
+excerpt: Awesome list of Historic Retro Games Industry Books and their impact on the industry
 tags:
  - industry
 ---

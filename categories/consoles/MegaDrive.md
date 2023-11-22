@@ -8,6 +8,7 @@ editlink: ../categories/consoles/MegaDrive.md
 console: 'megadrive'
 consoleimage: /public/consoles/Sega Megadrive.png
 thumbnail: /public/consoles/Sega Megadrive.png
+excerpt: Awesome list of SEGA Mega Drive and Genesis Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

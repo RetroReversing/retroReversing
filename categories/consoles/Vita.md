@@ -8,6 +8,7 @@ editlink: ../categories/consoles/Vita.md
 console: 'vita'
 consoleimage: /public/consoles/Sony PSVita.png
 thumbnail: /public/consoles/Sony PSVita.png
+excerpt: Awesome list of Sony Playstation Vita Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /

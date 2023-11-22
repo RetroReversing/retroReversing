@@ -10,6 +10,7 @@ recommend:
  - dreamcast
 recommendTitle: All Sega Saturn Posts
 editlink: ../categories/consoles/Saturn.md
+excerpt: Awesome list of SEGA Saturn Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
     url: /
