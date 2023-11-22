@@ -22,14 +22,14 @@ excerpt: Awesome list of Historic Retro Games Industry Conferences including Aud
 updatedAt: '2023-10-29'
 ---
 
-# Introduction
-When taking a historical look at the Games Industry one of the most important sources of information are the Conferences that were held to share information when the industry was fresh.
+# Introduction to Retro Games Industry conferences
+When taking a historical look at the Games Industry one of the most important sources of information are the Conferences that were held to share information before the mainstream internet.
 
 This page will talk about the main Game-related conferences that took place over the period of time that we classify as "Retro", they roughly fit into two distinct categories:
-* **Development** - Conferences for Sharing Game Development Information (SIGGRAPH, GDC)
+* **Development** - Conferences for Sharing Game Development Information (SIGGRAPH, GDC, Develop)
 * **Showcase** - Conferences for Showing off the latest Games and Gaming Hardware (CES, E3)
 
-This table below lists all the conferences that we are aware about taking place up until 2000:
+This table below lists all the conferences that we are aware about taking place up until 2007:
 
 Conference | Dates | Category | Notes
 ---|---|---|---
@@ -44,10 +44,13 @@ xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
 Quakecon | 1996-Ongoing | Development | ID Software
 Unite | 2007-Ongoing | Development | Unity Technologies
 
+In the sections below we will try to list any audio or video recordings we can find for the sessions, but bare in mind many of the early sessions will now be regarded as lost media.
 
 ---
 # GDC - Game Developer's Conference
 GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## CGDC 1988
 The first Computer Game Developers Conference (CGDC) was held in 1988. It was founded by Chris Crawford, a well-known game designer and developer, and it took place in his living room in San Jose, California. This initial gathering was relatively small (27) and informal compared to the later iterations of GDC, but it marked the beginning of what would become one of the most significant annual events in the video game industry. Since that modest start, GDC has grown in size and importance, attracting game developers and industry professionals from around the world.
@@ -60,29 +63,31 @@ You can find the main talks and their authors in the table below:
 Title | Presenter | Notes
 ---|---|---
 Interactive Story Making | Brian Moriarty | Creator of Loom
-Art and Animation Panel | Willie Aguilar, Paul Reiche | 
-Creativity and Game Design | Chris Crawford | 
+Art and Animation Panel | Willie Aguilar, [Paul Reiche III](https://en.wikipedia.org/wiki/Paul_Reiche_III) | Star Control creator
+Creativity and Game Design | [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)) | 
 Legal Issues | Susan Nycum | Lawyer who specialises in computer security and intellectual property issues
 Playtesting and Q.A. | Dan Bunten, Cem Kaner, Dave Menconi | 
-Developing for the Macintosh | David Feldman | 
+Developing for the Macintosh | David Feldman | Shadowgate programmer?
 Game Idea to Game Design | Kellyn Beeck | Game Designer for Rocket Ranger 
 Sound and Music panel | Chris Grigg, David Thiel, Dave Warhol |
 Fantasy Role Playing Games | Brian Fargo | Founder of Interplay and InXile
 PR for Developers | Ed Niehaus | 
 Brining Characters to Life panel | Chris Crawford, David Graves, Brenda Laurel | 
-Market Trends panel | Bob Lindstrom, Scott Mace | 
+Market Trends panel | [Bob Lindstrom](https://www.mobygames.com/person/4317/bob-lindstrom/), Scott Mace | 
 Simulations panel | Ned Lerner, Gilman Loule, Gordon Walton |
-From Proposal to Contract | Stephen Friendman | 
-Self-Publishing | Pete Antoniak | 
-Developing for MS-DOS | Evan and Nicky Robinson | 
+From Proposal to Contract | [Stephen J. Friedman](https://www.mobygames.com/person/116383/stephen-j-friedman/) | Worked on Impossible Mission II
+Self-Publishing | Pete Antoniak | Templates of Doom creator? (edutainment)
+Developing for MS-DOS | Evan and Nicky Robinson | Star Control developers
 Sports and Action Games panel | Jordan Mechner, Scott Orr | 
-New Techniques in Theft Protection | Jeff Johannigman | 
+New Techniques in Theft Protection | [Jeff Johannigman](https://www.mobygames.com/person/2821/jeff-johannigman/) | Producer on games such as Ultima Worlds
 
 As far as we know all the content for these presentations have been lost to time, but please let us know if any slides or notes are available somewhere on the internet.
 
 The conference did not become an annual event until a few years later.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+### Developing for MS-DOS
+From a programming perspective the session **Developing for MS-DOS** would have been one of the highlights of the conference. Evan and Nicky Robinson were both programmers on hit games **Star Control** and **Mail Order Monsters**. So to hear their perspective on developing games for MS-DOS would have been incredible!
+
 
 ---
 ## CGDC 3 - 1989
@@ -110,12 +115,12 @@ The earliest known recording of a Game Developer Conference talk is called **The
 
 ---
 ## CGDC 1991 - March
-The Fifth CGDC was the first to have been directed by Ernest Adams just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
+The Fifth CGDC was the first to have been directed by **Ernest Adams** just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
 
 We only know of a few talks that took place at this conference:
 * **Intelligent Behavior Without AI: An Evolutionary Approach** by Neil Kirby
 * **Cyberspace: Lessons of Lucasfilm's Habitat** by F. Randall Farmer, Chip Morningstar (CGDC91-003) [^7]
-* **Evolution of Taste** by Chris Crawford
+* **Evolution of Taste** by  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer))
 
 
 Only the Cyberspace talk was recorded on Audio cassete by the KNOW-IT-ALL Audiovisual Library [^7].
@@ -130,7 +135,7 @@ We only know of a few talks that took place at this conference:
 * **Artificial Personality** by Jon Freeman (CGDC92-026)
 * **Making It Real: Story & Characters** by Ellen Guon, Katherine Lawrence (CGDC92-014)
 * **Music, Art, and the Blue Sword of Gralfarniblurt** by The Fat Man
-* **Lessons From Patton Strikes Back** by Chris Crawford
+* **Lessons From Patton Strikes Back** by  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer))
 * **Analytical history of a critical phase in the development of the cinema** by Brian Moriarty (Actual title unknown)
 * **Virtual Reality Update** by Brenda Laurel
 * **Battle of the Multimedia Platforms** by Stewart Bonn, John Baker, Kelly Flock, and Bill Davis 
@@ -148,7 +153,9 @@ For a review of what it was like to go to the 1992 CGDC check out Chris Crawford
 ## CGDC 1993
 Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
 
-All the talks that were recorded by **The KNOW-IT-ALL Audiovisual Library** are listed in the table below [^8]:
+All the talks that were recorded by **The KNOW-IT-ALL Audiovisual Library** are listed in the table below [^8].
+
+Note that each session was given a unique ID in the form of **CGDC93-0XX** which will be provided in the table if know. This is mainly useful for finding missing sessions that were not recorded.
 
 Title | Presenter | Type | Notes
 ---|---|---|---
@@ -198,7 +205,7 @@ Audio Issues for Game Developers  | Tom Rettig | Roundtable | CGDC93-052
 Breaking In: the Wannabee Roundtable  | Guon & Robinson | Roundtable | CGDC93-050
 Educational Software for Kids Under Ten  | Leslie Grimm | Roundtable | CGDC93-051
 The Ethics of Game Design  | Corey Cole & Lori Cole | Roundtable | CGDC93-053
-For Art's Sake: A Roundtable  | Chris Crawford | Roundtable | CGDC93-043
+For Art's Sake: A Roundtable  |  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)) | Roundtable | CGDC93-043
 From the Dustbin of Game History  | Noah Falstein | Roundtable | CGDC93-042
 IBM PC & VGA Platform Issues  | Brengle & Robinson | Roundtable | CGDC93-054
 RPG Design Roundtable  | George MacDonald | Roundtable | CGDC93-049
@@ -209,9 +216,10 @@ Wargame Design Roundtable | Dave Menconi | Roundtable | CGDC93-044
 Which Company Should I Work For? | Ernest Adams | Roundtable | CGDC93-055
 
 
-Potentially not recorded were the following talks:
-* Legal Trends Affecting Computer Game Development by Alisa Baker
-* No Wine Before Its Time? by Michael Crick
+Potentially not officialy recorded were the following talks:
+* **Legal Trends Affecting Computer Game Development** by Alisa Baker
+* **No Wine Before Its Time?** by Michael Crick
+
 
 ---
 ## CGDC 1994
