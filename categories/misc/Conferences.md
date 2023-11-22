@@ -99,9 +99,14 @@ It was hosted in Le Baron Hotel in San Jose and was atendeed by over 470 people.
 
 We only know of a few talks that took place at this conference:
 * **The Artistic C** by Jim Gasperini
+* **Artificial Opponent** by Dave Menconi
+* **A Competitive Analysis of Publishers** by Stephen Friedman
+* **Arcade Games: Their Promise and Their Failure** by Ed Rotberg
+* **Contracts: An Improvised Negotiation** by Stephen Friedman and Nick Le Febre
+
 
 ### The Artistic C
-The earliest known recording of a Game Developer COnference talk is called **The Artistic C** by Jim Gasperini. You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
+The earliest known recording of a Game Developer Conference talk is called **The Artistic C** by Jim Gasperini. This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he beleives it will evolve over time. You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
 
 ---
 ## CGDC 1991 - March
