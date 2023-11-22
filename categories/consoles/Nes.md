@@ -1,5 +1,5 @@
 ---
-permalink: /nes/
+permalink: /nes
 layout: post
 console: nes
 title: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming

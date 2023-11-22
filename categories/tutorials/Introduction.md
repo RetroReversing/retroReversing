@@ -352,7 +352,7 @@ You may already have a game or console chosen that you would like to reverse, if
 
 ## Nintendo Consoles
 We have pages on each of the following **Nintendo** consoles:
-* [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
+* [Nintendo Entertainment System](https://www.retroreversing.com/nes)
 * [Super Nintendo Entertainment System](https://www.retroreversing.com/snes/)
 * [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
 * [Nintendo 64](https://www.retroreversing.com/n64/)

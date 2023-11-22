@@ -16,7 +16,7 @@ https://www.retroreversing.com/
 # Consoles
 
 ## Nintendo
-* [Nintendo Entertainment System](https://www.retroreversing.com/nes/)
+* [Nintendo Entertainment System](https://www.retroreversing.com/nes)
 * [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
 * [Nintendo 64](https://www.retroreversing.com/n64/)
 * [Nintendo Gamecube (Dolphin)](https://www.retroreversing.com/gamecube/)
