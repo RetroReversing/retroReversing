@@ -161,9 +161,9 @@ Title | Presenter | Type | Notes
 ---|---|---|---
 Asset Acquisition | Clarke-Willson, Shane, San | Lecture | CGDC93-025
 Distribution Realities and Workarounds | Gordon Walton |  Lecture | CGDC93-003
-Game Development for Windows | Sandige & Stafford |  Lecture | CGDC93-018
-How We Almost Didn't Make The Seventh Guest | Graeme Devine |  Lecture | CGDC93-006
-I Had A Dream | Chris Crawford |  Lecture | CGDC93-002
+Game Development for Windows | Sandige & Stafford | Lecture | CGDC93-018
+How We Almost Didn't Make The Seventh Guest | Graeme Devine |  Lecture | [Similar Article](https://www.gameinformer.com/b/features/archive/2012/11/26/horror-story-an-oral-history-of-the-7th-guest.aspx) CGDC93-006
+I Had A Dream |  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)) |  Lecture | CGDC93-002
 Imitating Life: Perception, Evolution & Complexity | Wright, Rob Tow, Bergman, Brenda Laurel |  Lecture | CGDC93-026
 Interactive Entertainment Industry Report  | Lee Isgur |  Lecture | CGDC93-004
 Interactive Multimedia: Revolution or Crock?  | Baltcom & Walton |  Lecture | CGDC93-023
@@ -2024,6 +2024,16 @@ Workflow Convergence: How Motion Picture Pipelines Are Merging With Game... | Ro
 Would the Real Emergent Gameplay Please Stand Up? | Todd Fitzgerald | Game Design | 
 Zoological Gardens: The Science of Creature Design | Greg Gabet | Game Design | 
 
+### John Carmack Keynote
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MusKnL2GbQE?si=6nXzztPh3XWHkEfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+In his 2004 Game Developers Conference (GDC) keynote speech, John Carmack discussed the history of video games, the progress that has been made in the industry, and his predictions for the future.
+
+Carmack started by talking about his own experiences, recalling his first computer, a VIC-20 with 4 KB of RAM and a 1 MHz processor. He mentioned that the first commercial program he sold was developed on an Apple IIc with 128 KB of RAM and 8 KB of video memory.
+
+Carmack noted the progress in the video game industry since he started, with a factor of a million difference in power between the VIC-20 and today's computers. He also said that early computer games were very niche, while now we have things that can appeal to a wider audience.
+
+For the future, Carmack said he is confident that there will be more progress and hopes that there will be a place for innovative and exciting new things in the industry.
+Carmack concluded his speech by saying that he is very excited about the future of video games. He believes that the industry has the potential to do great things, and he is looking forward to seeing what the future holds. 
 
 ---
 ## GDC 2005+
@@ -2033,6 +2043,15 @@ Thankfully all the sessions for 2005 and onwards seems to have audio recordings 
 
 ### Satoru Iwata Keynote - Heart of a Gamer
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RMrj8gdUfCU?si=ro-uTNmYG1SfHF4q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Satoru Iwata was the president of Nintendo at the time of the 2005 Keynote, his speech titled "Heart of a Gamer" was about the history of Nintendo and his own experiences as a game developer.
+
+ Iwata begins by talking about his first experience with video games, playing Pong as a child. He then talks about his early days as a game developer, creating games for the Nintendo Entertainment System (NES). He discusses the importance of creating games that are fun and challenging for all players, regardless of their skill level.
+
+ Iwata also talks about the importance of innovation in the video game industry. He discusses Nintendo's efforts to create new and innovative gaming experiences, such as the Wii console and the Nintendo DS handheld system. He also talks about the importance of supporting third-party developers in order to create a diverse and vibrant gaming industry.
+
+ Finally, Iwata talks about his own personal philosophy as a game developer. He says that he believes that the most important thing is to create games that are fun and that bring joy to players. He also says that he believes that game developers should always be striving to create new and innovative experiences.
+
+ Overall, the video is a reflection on the history of Nintendo and the importance of innovation in the video game industry. It is also a personal story about Iwata's own experiences as a game developer. 
 
 ---
 # SIGGRAPH
@@ -2048,7 +2067,9 @@ The SIGGRAPH conference has a long history, dating back to the 1970s, and it con
 They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
 
 ## SIGGRAPH 2000
-The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective)
+The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective).
+
+It discusses the new hardware and software for game development shown off at SIGGRAPH 2000 such as Sony’s GScube and the Xbox. Improv Technologies also demoed their new products, Orchestrate3D and Catalyst. The conference also featured presentations on new shading languages and rendering techniques.
 
 ---
 # Develop (Brighton)
