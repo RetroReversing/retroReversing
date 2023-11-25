@@ -22,14 +22,51 @@ editlink: /articles/TechniquesAndTutorials/GDBReversing.md
 updatedAt: '2020-08-28'
 ---
 
+# Introduction
+
+## What is GDB?
 The GNU Debugger or GDB for short is a command line tool that allows you to disassemble and understand the code execution of a program. 
 
 If you have ever used a debugger built into an IDE then you should be familiar with breakpoints, watch points and code stepping. 
 
 GDB provides this functionality and is often used to implement the debugging features of IDEs.
 
+## GDB For Reverse Engineering
 GDB can thus be useful for reverse engineering as it can show and dynamically change the flow of the program, showing all state changes and code executed.
 
+One of the key benefits lies in GDB's ability to dynamically analyze the execution of retro game code. With GDB, reverse engineers can run retro games within the debugger, observing the program's behavior, and gaining insights into memory usage, register values, and the flow of execution. 
+
+Breakpoint support in GDB is particularly advantageous for reverse engineers dissecting retro games. By strategically placing breakpoints at critical points in the code, such as game state transitions, collision detection routines, or graphics rendering functions, analysts can pause the game at specific moments and meticulously inspect the program's state. This aids in understanding game mechanics, identifying graphical rendering processes, and uncovering the underlying algorithms governing gameplay. 
+
+---
+# GDB CheatSheet
+Here's a table format for some of the most commonly used GDB commands:
+
+| Command                       | Abbreviation | Description                                              |
+| ----------------------------- | ------------ | -------------------------------------------------------- |
+| `run`                         | `r`          | Start program execution from the beginning.              |
+| `break`                       | `b`          | Set a breakpoint at a specified location.                |
+| `continue`                    | `c`          | Continue program execution until the next breakpoint.    |
+| `step`                        | `s`          | Execute the current line and stop at the first instruction of called functions. |
+| `next`                        | `n`          | Execute the current line and stop at the next line in the same function. |
+| `finish`                      |              | Execute remaining lines of the current function and stop when the function returns. |
+| `list`                        | `l`          | Display source code around the current line.             |
+| `info breakpoints`            |              | Display information about set breakpoints.               |
+| `print`                       | `p`          | Print the value of a variable or expression.             |
+| `backtrace`                   | `bt`         | Display a backtrace of the call stack.                  |
+| `info locals`                 |              | Display values of local variables in the current stack frame. |
+| `info registers`              |              | Display values of CPU registers.                         |
+| `set variable`                |              | Set the value of a variable during debugging.           |
+| `display`                     |              | Display the value of an expression after each debugger command. |
+| `delete`                      |              | Delete a specific breakpoint or all breakpoints.         |
+| `watch`                       |              | Set a watchpoint on a variable.                          |
+| `info threads`                |              | Display information about threads in a multithreaded program. |
+| `thread`                      |              | Switch between threads in a multithreaded program.       |
+| `set pagination off`          |              | Disable pagination, allowing GDB to display long output without pausing. |
+| `quit`                        | `q`          | Exit GDB.                                                |
+
+
+---
 # Simple License Check Example
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VroEiMOJPm8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
