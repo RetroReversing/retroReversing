@@ -156,6 +156,35 @@ One thing to keep in mind is that you can't just use any GDB executable, it need
  * **GBA** - mgba (use -g flag) [mgba-emu/mgba: mGBA Game Boy Advance Emulator](https://github.com/mgba-emu/mgba)
  * **GBA/GB** - vba-m (use -G flag) [visualboyadvance-m/visualboyadvance-m: The continuing development of the legendary VBA gameboy advance emulator.](https://github.com/visualboyadvance-m/visualboyadvance-m)
 
+## gdb-multiarch
+`gdb-multiarch` is a variant of the GNU Debugger (GDB) designed to support multiple architectures, making it more convenient to work with executables targeting different instruction sets or CPU architectures within the same GDB instance.
+
+The primary motivation for using `gdb-multiarch` arises in situations where you need to debug binaries compiled for architectures other than the one on which GDB is running. It provides a single interface to handle debugging sessions for multiple architectures, allowing you to seamlessly switch between them without restarting GDB.
+
+This is very useful for connecting to game console emulator's that already contain a **GDB Stub** (covered in a future section).
+
+### Where to get gdb-multiarch
+On systems that support package managers, you can typically install `gdb-multiarch` alongside the standard GDB. For example, on Debian-based systems:
+     ```bash
+     sudo apt-get install gdb-multiarch
+     ```
+
+### How to use gdb-multiarch
+Once installed, you can use `gdb-multiarch` similarly to the standard `gdb`. The key difference is that `gdb-multiarch` allows you to specify the target architecture when loading an executable.
+     ```bash
+     gdb-multiarch -q -tui -ex "target sim" -ex "load" -ex "run" -ex "quit" my_program.elf
+     ```
+
+### How to change target architecture
+You can change the target architecture within the GDB session using the `set architecture` command.
+     ```bash
+     set architecture arm
+     ```
+
+This flexibility is particularly useful when working with cross-compilation environments or when dealing with software that supports multiple architectures.
+
+
+
 ---
 # GDB Frontends
 GDB frontends are graphical or text-based interfaces that provide a user-friendly way to interact with the GNU Debugger (GDB). These frontends simplify the debugging process by offering features like syntax highlighting, variable inspection, and breakpoint management. Here are some popular GDB frontends:
@@ -167,6 +196,11 @@ GDBGUI is a modern and browser-based graphical interface for GDB, providing a co
 
 ### DDD (Data Display Debugger)
 DDD is a popular graphical debugger front-end for GDB. It provides a visual representation of data structures, making it easier to inspect variables. DDD supports multiple programming languages and includes features such as source code highlighting, breakpoints, and a powerful interface for interacting with GDB.
+
+### Ghidra
+Newer versions of Ghidra also support GDB debugging, here is an article explaining how to set it up for Game Boy Advance: [A first look at Ghidra's Debugger - Game Boy Advance Edition | Wrongbaud's Blog](https://wrongbaud.github.io/posts/ghidra-debugger/)
+
+It uses the mGBA emulator as it provides a GDB stub which can be connected to Ghidra (through gdb-multiarch). The next session will explain what GDB stubs are and what they are used for.
 
 ---
 # GDB Stubs
