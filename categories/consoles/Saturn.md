@@ -66,6 +66,10 @@ When the Saturn was launched it brought incredible processing power into the hom
 
 {% include link-to-other-post.html post="/saturn-architecture" description="For more information on the Saturn hardware architecture check out this post." %}
 
+## Retail Saturn Disc Copy Protection 
+the user **jhl** on assemblergames has an excellent post on the inner workings of the Saturn DISC protection:
+https://web.archive.org/web/20170626013038/https://www.assemblergames.com/threads/saturn-copy-protection-and-cdrs-the-conclusive-end.50295/
+
 ## Saturn Hardware in the Arcade
 The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabinate, some of the games released for the ST-V were also available on the saturn but others remain exclusive to the aercade hardware.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgAsiBv1TJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
