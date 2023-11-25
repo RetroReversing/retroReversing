@@ -40,7 +40,7 @@ CES | 1967-Ongoing | Showcase |
 Develop | 2006-Ongoing | Development | UK Game development Conference
 Dreamcast Developer's Conference | 1999 | Development | [Dreamcast Developer's Conference - Sega Retro](https://segaretro.org/Dreamcast_Developer%27s_Conference)
 Saturn Developer’s Conference | May 1994 | Development | [DTS: The SEGA Developer’s ‘Game Mag’ – SHIRO Media Group](https://www.segasaturnshiro.com/2021/08/19/dts-the-sega-developers-game-mag/)
-Sega DevCon  | March 14-17 1995 | Development | First one in 1995?
+Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
 E3 | 1995-Ongoing | Showcase | 
 Digital World Conference | 1990-1995? | Development | 
 Intertainment | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 Intertainment Conference
