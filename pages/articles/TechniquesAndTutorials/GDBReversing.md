@@ -111,6 +111,27 @@ set $eax=0
 This will set the EAX register to 0, but you can set it to any value you want.
 
 ---
+# GDB for Console Game Development and Reversing
+One thing to keep in mind is that you can't just use any GDB executable, it needs to match the target CPU architecture, for example here is one for Z80:
+ * **Z80** - [legumbre/gdb-z80: GDB with Z80 target support](https://github.com/legumbre/gdb-z80)
+
+ Also some emulators have GDB support out of the box:
+ * **GBA** - mgba (use -g flag) [mgba-emu/mgba: mGBA Game Boy Advance Emulator](https://github.com/mgba-emu/mgba)
+ * **GBA/GB** - vba-m (use -G flag) [visualboyadvance-m/visualboyadvance-m: The continuing development of the legendary VBA gameboy advance emulator.](https://github.com/visualboyadvance-m/visualboyadvance-m)
+
+---
+# GDB Frontends
+GDB frontends are graphical or text-based interfaces that provide a user-friendly way to interact with the GNU Debugger (GDB). These frontends simplify the debugging process by offering features like syntax highlighting, variable inspection, and breakpoint management. Here are some popular GDB frontends:
+* **GDBGUI** - [gdbgui](https://www.gdbgui.com/)
+* **DDD** - [DDD - Data Display Debugger - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/ddd/)
+
+### GDBGUI
+GDBGUI is a modern and browser-based graphical interface for GDB, providing a convenient way to interact with the GNU Debugger. It allows developers to debug programs through a web-based interface, offering features like source code visualization, variable inspection, and breakpoint management.
+
+### DDD (Data Display Debugger)
+DDD is a popular graphical debugger front-end for GDB. It provides a visual representation of data structures, making it easier to inspect variables. DDD supports multiple programming languages and includes features such as source code highlighting, breakpoints, and a powerful interface for interacting with GDB.
+
+---
 # GDB Stubs
 GDB Stubs are components embedded within target programs to enable **remote debugging**, they form a crucial link between the GDB debugger and the running program, facilitating communication, control, and inspection of the target's runtime behavior. 
 
