@@ -1438,6 +1438,9 @@ From the original website it looks like the sessions were roughly the following:
 
 Note that although we don't have much details on the contents of each of the talks, there is a physical Binder available at the Museum of Play: [Microsoft DirectX Developer Day binder, 2000 - The Strong](https://archives.museumofplay.org/repositories/3/archival_objects/34613)
 
+### Microsoft Keynote (Xbox Unveiling)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iCj0OqZ8ByQ?si=jzBl4ABpkb0XH3PN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ---
 ## GDC 2001
 "Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:

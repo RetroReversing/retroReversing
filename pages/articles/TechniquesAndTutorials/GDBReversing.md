@@ -110,5 +110,31 @@ set $eax=0
 ```
 This will set the EAX register to 0, but you can set it to any value you want.
 
+---
+# GDB Stubs
+GDB Stubs are components embedded within target programs to enable **remote debugging**, they form a crucial link between the GDB debugger and the running program, facilitating communication, control, and inspection of the target's runtime behavior. 
+
+## What do GDB Stubs do?
+GDB Stubs interpret commands received from the GDB debugger, executing actions within the target program accordingly. Commands may include setting breakpoints, stepping through code, inspecting memory, and altering the program's state.
+
+GDB Stubs, developers gain fine-grained control over the execution of the target program. Breakpoints can be set, and program execution can be paused, allowing for detailed inspection and analysis of the program's runtime behavior.
+
+## How does it compare to using regular GDB on an executable?
+Regular GDB runs on the same system as the program being debugged, GDB Stubs however communicate over a network connection enabling bidirectional communication between the debugger and the target program running on another system. This remote connectivity is especially valuable in scenarios where physical access to the running program is limited.
+
+This is great for debugging software that don't have a debugging environment such as games consoles and other embedded systems.
+
+## What exactly are GDB stubs?
+GDB Stubs consist of a lightweight set of code seamlessly integrated into the binary of the target program. This embedded code is responsible for establishing a communication channel between the running program and the GDB debugger.
+
+## How does the stub communicate with the GDB debugger?
+Communication between the GDB debugger and GDB Stubs follows the **GDB Remote Serial Protocol**. This protocol defines a standardized format for messages exchanged between the debugger and the stub, allowing for coherent interaction during debugging sessions.
+
+You can find out more about the GDB Remote Serial Protocol on the official documentation website: [Remote Protocol (Debugging with GDB)](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Remote-Protocol.html#Remote-Protocol)
+
+## Security Implications
+As GDB Stubs provide a pathway for remote interaction with a program, developers must consider security implications and ensure proper safeguards to prevent unauthorized access. Software should not be released with the GDB stub embedded inside and proper network hygene is required between the two remote systems to prevent Man in the Middle attacks.
+
+---
 # References
 [^1]: [Reversing and Cracking first simple Program - bin 0x05 - YouTube](https://www.youtube.com/watch?v=VroEiMOJPm8&list=WL&index=40)
