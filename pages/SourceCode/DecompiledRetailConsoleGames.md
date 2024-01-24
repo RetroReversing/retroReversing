@@ -20,7 +20,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2023-10-13'
+updatedAt: '2024-01-16'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -267,7 +267,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Sonic_Advance_2_Coverart.png){:width="100"} [Sonic Advance 2](https://github.com/freshollie/sa2)              | Decompilation | Active, 67% Done |
 |![](https://static.wikia.nocookie.net/summonnight/images/0/0c/Hajimari_no_ishi.jpg){:width="100"} [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)              | Decompilation | Active |
 |![](https://mario.wiki.gallery/images/c/c7/Box_NA_-_Super_Mario_World_Super_Mario_Advance_2.png){:width="100"} [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG){:width="100"} [The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)              | Decompilation | Active, 98% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a5/The_Legend_of_Zelda_The_Minish_Cap_Game_Cover.JPG){:width="100"} [The Legend of Zelda: The Minish Cap](https://github.com/zeldaret/tmc)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/yugioh/images/6/6f/Yu-Gi-Oh%21_Reshef_of_Destruction.jpg){:width="100"} [Yu-Gi-Oh! Reshef of Destruction](https://github.com/shinny456/ygodm8)              | Decompilation | Active |
 
 ---
