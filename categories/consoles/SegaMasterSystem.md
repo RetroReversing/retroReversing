@@ -18,7 +18,6 @@ breadcrumbs:
     url: #
 redirect_from:
   - /segamastersystem
-  - /sg1000 
 ---
 
 # Introduction
