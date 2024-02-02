@@ -3,7 +3,7 @@ layout: post
 tags: 
 - gameboy
 - fileformats
-title: Game Boy File Formats (DMG & GBC)
+title: Game Boy File Formats (DMG, GBC)
 thumbnail: /public/consoles/Nintendo Game Boy.png
 image: /public/images/GameBoy/GameBoy File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/GameBoy File Formats.jpg
