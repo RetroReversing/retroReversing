@@ -404,7 +404,10 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/ethteck/kh1" description="We're currently just targeting the main game executable, which is an elf file SLPS_251.05 with sha1 9dabbf867a7ec2a030df99ba1ed969f2deef0488." image="https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg" title="Decompilation of the first japanese version of Kingdom Hearts for PS2"  %}
 
 ### Sly Cooper and the Thievius Raccoonus
-{% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/a/a4/Sly_Cooper_and_the_Thievius_Raccoonus_Coverart.png" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
+{% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
+
+### Klonoa 2: Lunatea's Veil
+{% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
 
 ---
 
