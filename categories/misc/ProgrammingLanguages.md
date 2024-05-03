@@ -1,0 +1,52 @@
+---
+layout: post
+permalink: /programming-languages
+thumbnail: /public/images/RetroReversingLogoSmall.png
+console: programming
+breadcrumbs:
+  - name: Home
+    url: /
+redirect_from:
+  - /languages
+editlink: ../categories/misc/ProgrammingLanguages.md
+title: Exploring Retro Game Programming Languages: From Assembly to higher level languages
+recommend: 
+ - programming
+ - software
+tags:
+ - programming
+---
+
+# Introduction
+Welcome to our journey through the fascinating world of programming lanugaes used to create retro games! 
+In the early days of video games, developers had to work with limited resources and hardware, pushing the boundaries of creativity and innovation. 
+One of the crucial aspects of game development during that era was the choice of programming language. 
+In this article, we'll delve into some of the most iconic languages used in creating retro games, from the low-level intricacies of Assembly to the user-friendly environments of more modern programming languages.
+
+# Assembly Language
+Assembly language is as low-level as it gets, offering direct control over a computer's hardware. 
+In the realm of retro game development, Assembly was the language of choice for squeezing every last drop of performance from early gaming consoles and home computers. 
+While notoriously difficult to master, it provided unparalleled speed and efficiency, making it ideal for crafting games that pushed hardware limits to the edge.
+However assembly language programs are written fro a specific CPU and not portable to different CPU architectures.
+
+---
+# C/C++
+C and C++ revolutionized game development by introducing a higher level of abstraction without sacrificing performance (when compilers became good enough between the Mega Drive and Saturn era). 
+Their versatility and efficiency allowed developers to create complex gameplay mechanics and stunning visuals while maintaining compatibility with a wide range of platforms.
+
+---
+# Basic Variants
+With Assembly having a reputation for being difficult to learn, many "simpler" programming languages were created with one of the most popular earlier languages simply being called "BASIC".
+Over the years many Badic varients were released tailored for hobbiest game programmers.
+
+## Blitz Basic
+Blitz Basic emerged as a game-changer for aspiring Amiga game developers in the 1990s. 
+With its simplified syntax and built-in libraries, Blitz Basic empowered enthusiasts to create games without the steep learning curve associated with traditional programming languages. 
+Its user-friendly interface and rapid development capabilities made it a popular choice for hobbyists and indie developers looking to bring their retro game ideas to life.
+
+## Dark Basic
+Dark Basic, a more modern version of Amiga tools such as Blitz Basic or AMOS, took simplicity to the next level by focusing specifically on game development. 
+Tailored for beginners and hobbyists, it provided a robust set of tools for creating 2D and 3D games with ease. Dark Basic's intuitive scripting language allowed developers to concentrate on game design without getting bogged down in technical details, making it an accessible gateway to the world of game development for hobbiest.
+However no popular or AAA games were ever commercially released with Dark Basic as far as we can see.
+
+
