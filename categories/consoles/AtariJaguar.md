@@ -25,7 +25,7 @@ updatedAt_: '2024-05-03'
 
 # Introduction
 Welcome to our page dedicated to Atari Jaguar reverse engineering! 
-The Atari Jaguar is a classic video game console that was first released in North America suring November 1993. 
+The Atari Jaguar is a classic video game console that was first released in North America during November 1993. 
 
 If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Atari Jaguar reverse engineering. 
 
