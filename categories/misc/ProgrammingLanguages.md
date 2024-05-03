@@ -67,8 +67,13 @@ However no popular commercial AAA games were ever developed with Dark Basic as f
 * **The 3D Game Maker** which was also written by the creators of Dark Basic (TheGameCreators) and sold reasonably well.
 * **Driving Test Success Practical** by Focus which sold over 100k units [^3]
 
+Dark Basic Professional was later released which was re-written from scratch and allowed plugins to be developed to extend the functionality.
+
+The FPS Creator (also by TheGameCreators) was written in Dark Basic Professional and its source code is now available on Github [^4].
+
 ---
 # References
 [^1]: [Scripting language: Blitz Basic - MobyGames](https://www.mobygames.com/group/11091/scripting-language-blitz-basic/)
 [^2]: [Quang Nguyen - Nintendo Game Boy Development - Media - Computing History](https://www.computinghistory.org.uk/det/56957/Quang-Nguyen-Nintendo-Game-Boy-Development/)
 [^3]: [The Game Creators Newsletter - Issue 50](https://www.thegamecreators.com/pages/newsletters/newsletter_issue_50.html)
+[^4]: [FPS-Creator-Classic/Dark Basic Pro Shared/Dark Basic Pro/Projects/FPSCREATOR at master · TheGameCreators/FPS-Creator-Classic](https://github.com/TheGameCreators/FPS-Creator-Classic/tree/master/Dark%20Basic%20Pro%20Shared/Dark%20Basic%20Pro/Projects/FPSCREATOR)
