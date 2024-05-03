@@ -109,7 +109,9 @@ You can experience the magazines online through an emulator on [DOSGames.com](ht
 
 ---
 ## EDGE Magazine
-The magazine **EDGE** published its first issue on August 19th 1993 with a focus on multiple platforms (Mega Drive, SNES, Amiga etc) and  is famous for hiring many of the engineers at **Rare** due to their advertisements (Dr Doak is one example of someone who applied thanks to an EDGE advertisement). For their news sections they would "borrow" from Japanese magazines such as "Weekly Famitsu" and US magazines such as "EGM" [^3].
+The magazine **EDGE** published its first issue on August 19th 1993 with a focus on going more in-depth on technical details such as how games are made, technical aspects and development issues [^3]. It targeted multiple console/PC platforms (Mega Drive, SNES, Amiga etc) and  is famous for hiring many of the engineers at **Rare** due to their advertisements (Dr Doak is one example of someone who applied thanks to an EDGE advertisement). 
+
+For their news sections they would "borrow" from Japanese magazines such as "Weekly Famitsu" and US magazines such as "EGM" [^3].
 
 ---
 ## PSi2 Magazine
