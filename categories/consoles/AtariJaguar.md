@@ -52,6 +52,9 @@ It comes with:
 * **ALN Linker** - 11 pages of linker documentation from 5th June 1995
 * Appendix A - Frequently AskedQuestions About Jaguar
 * Appendix B - Programming Guidelines
+* Appendix D - Jaguar Development Standards
+* Appendir E - Jaguar Software Experience Approved Manufacturer Production Guidelines
+* Appendix F - Additional Documentation - just mentioned DB the Atari debugger.
 
 ---
 # File Formats
@@ -80,6 +83,22 @@ Extension | Description
 .J3D | 3D object data in MADMAC assembler source format. Output from the 3DS2JAG utility. Must be compiled by MADMAC.
 .JAG | Jaguar JPEG compressed graphics image. Created by the JAGPEG utilities. Note that JAGPEG has been replaced by the BPEG package. Also, the 3DS2JAG utility that converts Autodesk 3D Studio into source code format for the Jaguar 3D libraries once also used the .JAG extension (it has since beenchanged to use .J3D).
 .LTX | GASM assembler output file. The GASM assembler does not output files that are compatible with the ALN linker, so LTX files must be converted using the **LTXCONV** utility.
+.LZJ | LZSS Compressed data file. This is a binary file containing raw LZsS-compressed data. It ix created by the **LZJAG** utility. This is linked into your program, and then decompressed using the DELZJAG routines.
+.MID | MIDI score file. This is a MIDI file output by a MIDI sequencer. You feed these files to the **PARSE** utility to create a musicscore usable by the Jaguar Synth & Music driver
+.O | 68000/mixed object module. Object file created after assembling a .S file with **MADMAC**. Some of the conversion utilities create MADMAC source code files that don't always end in filename extensions of .S, and they may also use the O. filename extension after being assembled.
+.OJ | DSP (JERRY) object module. Object file created after assembling a.DAS file with **MADMAC** (Note that GASM does not create standard object modules)
+.OD | Some older projects have used an extension of .OD for DSP object code. However, the .OJ extension is preferred.
+.OT | GPU (TOM) object code. Object file created after assembling a .GAS file with **MADMAC** (Note that GASM does not create standard object modules.)
+.OG | Some older projects have used an extension of .OG for GPU object code. However, the .OG extension is preferred.
+.OUT | 
+.PTC |
+.ROM |
+.S |
+.SCR |
+.SRG | Smooth format 16-bit RGB Cinepak film
+.SYM | Symbol Table File. Created by **FILEFIX** utility. This is the same basic format as an executable program file, except with empty TEXT and DATA sections. Only the symbol table has information in it.
+.TGA | Targa picture file. The Targa format is a popular format for 16-bit and 24-bit RGB true color graphics images. Can be converted into Jaguar CRY-format using the **TGA2CRY** utility.
+.TX/.TXT | Binary image of a program's TEXT segment. Created by the **FILEFIX** utility. The current version of FILEFIX produces files with a "TX" extension. However, older versions created files with the ."TXT" extension. Because the TXT extension is also used for ASCII text files, this was changed to avoid conflicts.
 .WAV | Waveform definition. Used by the Jaguar Synth & Music driver.
 
 
