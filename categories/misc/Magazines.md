@@ -68,7 +68,7 @@ The "Journal of Computer Game Design" was an important early resource for the ga
    
    They even release all the issues they make free on their website in pdf form for everyone (not just subscribers).
    
-Thankfully **Wireframe** magazine is still producing issues in 2022, we highly suggest you support the publication by subscribing to them, this isn't a sponsor slot honest, it is the only remaining print magazine related to Game Development!
+Sadly **Wireframe** magazine is no longer producing new magazines after issue 70.
  </div>
 </section> 
 
@@ -96,6 +96,30 @@ Issue | Name | Description
 4 | Source Code | How to recreate the thrust motion in Atari’s coin-op classic, Asteroids
 4 | Publishing on itch.io | Our step-by-step guide to publishing and selling your games
 4 | Getting into the industry | Some professional advice for anyone hoping to make games for a living
+5 | Design principles | Why being prepared to deviate from established design ideas is essential
+5 | CityCraft | Three ways of making a truly immersive video game city
+5 | Source Code | How to create your own arcade-style high-score table
+5 | Improving your Unity FPS | Part two of our guide to makinga first person shooter
+6 | CityCraft | The pitfalls to avoid when designing a game city
+6 | Source Code | How to recreate the whipping alien tail from R-Type
+6 | Localisation | Prepare your game for a global audience
+6 | Level design | Six tips to make your level designs shine
+7 | Design Principles | How economy and theatre make better games
+7 | CityCraft | Why a game city is only as good as its surroundings
+7 | Source Code | Recreate the jumping physics from Super Mario Bros.
+7 | Finalising your Unity FPS | Add menus, special effects, and more in the final part of our guide
+8 | CityCraft | Ways to make your horror game locations even scarier
+8 | Structurally Sound | How music and sound intertwine to create atmospheric game worlds
+8 | Source Code | The code behind Missile Command’s unforgettable vapour trails
+8 | Squeezing the Beeb | How to fit a 1kb􏰌score attack game onto the BBC􏰎Micro
+9 | Design Principles | The power of marketing – and a strong game title
+9 | CityCraft | Understanding the hierarchies of villages, towns, and cities
+9 | Source Code | Recreating the disintegrating shields from Space Invaders
+9 | Character building Import and animate a 3D character model in Unity
+10 | CityCraft | Must-read books for budding virtual city designers
+10 | Source Code | Recreate Pang’s evil bouncing balloons in Python
+10 | Get into Twine | A beginner’s guide to creating interactive fiction in Twine
+10 | Multiplayer detox | Ways to make safer, friendlier multiplayer games
 
 ---
 # Games Specific Magazines
