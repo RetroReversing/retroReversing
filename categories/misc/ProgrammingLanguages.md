@@ -63,9 +63,12 @@ BlitzBasic later evolved into **Blitz2D** which was for creating games for DOS/W
 Dark Basic, a more modern version of Amiga tools such as Blitz Basic or AMOS, took simplicity to the next level by focusing specifically on game development. 
 Tailored for beginners and hobbyists, it provided a robust set of tools for creating 2D and 3D games with ease. Dark Basic's intuitive scripting language allowed developers to concentrate on game design without getting bogged down in technical details, making it an accessible gateway to the world of game development for hobbiest.
 
-However no popular or AAA games were ever commercially released with Dark Basic as far as we can see, apart from the tool "The 3D Game Maker" which was also written by the creators of Dark Basic (TheGameCreators) and sold reasonably well.
+However no popular commercial AAA games were ever developed with Dark Basic as far as we can see, a few multimedia applications were created using Dark Basic:
+* **The 3D Game Maker** which was also written by the creators of Dark Basic (TheGameCreators) and sold reasonably well.
+* **Driving Test Success Practical** by Focus which sold over 100k units [^3]
 
 ---
 # References
 [^1]: [Scripting language: Blitz Basic - MobyGames](https://www.mobygames.com/group/11091/scripting-language-blitz-basic/)
 [^2]: [Quang Nguyen - Nintendo Game Boy Development - Media - Computing History](https://www.computinghistory.org.uk/det/56957/Quang-Nguyen-Nintendo-Game-Boy-Development/)
+[^3]: [The Game Creators Newsletter - Issue 50](https://www.thegamecreators.com/pages/newsletters/newsletter_issue_50.html)
