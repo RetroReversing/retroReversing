@@ -33,6 +33,8 @@ Whether you're interested in understanding the hardware architecture of the cons
 
 ---
 # Development Kit
+
+## Hardware used for Alien vs predator
 In an interview for Wireframe magazine **Jane Whittaker** talks about all the hardware sent over to her parents house in Yorkshire which gives us an insight into the hardware required to make Atari Jaguar games.
 
 They (Jane and Mike Beaton) moved from Atari's San Fransisco office back to the UK due to home sickness and Atari supported this by sending development hardware all the way to the UK to set up a make shift office in Jane's parents house.
@@ -40,6 +42,10 @@ They (Jane and Mike Beaton) moved from Atari's San Fransisco office back to the 
 They got sent **Atari TT** machines and monitors, prototype Atari Jaguars, a couple of PCs and presumably all the cables to fit everything together.
 
 This was how they developed Alien vs Predator for the Atari Jaguar.
+
+## Official Atari Jaguar Development Manual
+The official "Atari Jaguar Development Manual" is available over on **archive.org** with thanks to Lars Hannig for scanning:
+> After the demise of Atari and the declaration of the Jaguar as an open platform, Lars Hannig had the chance to acquire this piece of essential information and was kind enough to put many weeks into scanning page by page of the hundreads of pages you see in front of you. All this was done to support the Atari Jaguar community and give upcoming and current developers the one of a kind chance to get insight into the many unknown aspects of Atari Jaguar development. Essential information they would probably never get into their hands otherwise.
 
 ---
 # References
