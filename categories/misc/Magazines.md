@@ -79,11 +79,23 @@ You can view all the issues on their official website:
 ### Relevant Articles
 It is worth reading the entire Wireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
 
-Issue | Name
----|---
-1 | City Craft - The design Theory behind video game cities
-1 | Source Code - How particle physics turned Defender into a coin-op classic
-1 | Maths of balance - Examining the curves and formulae behind the games we play
+Issue | Name | Description
+---|---|---
+1 | City Craft | The design Theory behind video game cities
+1 | Source Code | How particle physics turned Defender into a coin-op classic
+1 | Maths of balance | Examining the curves and formulae behind the games we play
+2 | FPS level design | Learn the basics of shooter level design with Half-Life 2
+2 | CityCraft | How understanding city functions results in better game design
+2 | Source Code | The simple yet effective AI behind Galaxian’s angry aliens
+2 | Maths of balance part 2 | Exploring how maths governs matchmaking and economics
+3 | Design principles | What Yars’ Revenge can teach us about design goals and planning
+3 | CityCraft | The abstract models that will make your video game cities shine
+3 | Source Code | How parallax scrolling gives 2D games the illusion of depth
+3 | Build a shooter in Unity | Get to grips with Unity in our step- by-step guide to making an FPS
+4 | CityCraft | Clever tricks to make our video game cities seem bigger and busier
+4 | Source Code | How to recreate the thrust motion in Atari’s coin-op classic, Asteroids
+4 | Publishing on itch.io | Our step-by-step guide to publishing and selling your games
+4 | Getting into the industry | Some professional advice for anyone hoping to make games for a living
 
 ---
 # Games Specific Magazines
