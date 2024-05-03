@@ -115,11 +115,15 @@ Issue | Name | Description
 9 | Design Principles | The power of marketing – and a strong game title
 9 | CityCraft | Understanding the hierarchies of villages, towns, and cities
 9 | Source Code | Recreating the disintegrating shields from Space Invaders
-9 | Character building Import and animate a 3D character model in Unity
+9 | Character building | Import and animate a 3D character model in Unity
 10 | CityCraft | Must-read books for budding virtual city designers
 10 | Source Code | Recreate Pang’s evil bouncing balloons in Python
 10 | Get into Twine | A beginner’s guide to creating interactive fiction in Twine
 10 | Multiplayer detox | Ways to make safer, friendlier multiplayer games
+11 | Design Principles |􏰈Defining the difference between theme and design
+11 | CityCraft |􏰚Finding fantasy in medieval towns and cities
+11 | Source Code | Recreate the block􏰛smashing action of Breakout
+11 | Paper prototyping |􏰇How paper and card can help you make better games
 
 ---
 # Games Specific Magazines
