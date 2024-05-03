@@ -73,6 +73,9 @@ The FPS Creator (also by TheGameCreators) was written in Dark Basic Professional
 
 You can find the full source code to Dark Basic Professional including the compiler on github: [TheGameCreators/Dark-Basic-Pro: Dark Basic Pro is an open source BASIC programming language for creating Windows applications and games](https://github.com/TheGameCreators/Dark-Basic-Pro)
 
+You can find out more about all TheGameCreators products in this excellent documentary from **TannerProductions**:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H74kuD1g1wg?si=tnyV7nPXcb_MglSN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 # References
 [^1]: [Scripting language: Blitz Basic - MobyGames](https://www.mobygames.com/group/11091/scripting-language-blitz-basic/)
