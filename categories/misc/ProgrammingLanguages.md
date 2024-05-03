@@ -39,7 +39,7 @@ Their versatility and efficiency allowed developers to create complex gameplay m
 
 Most games post MegaDrive/SNES/Game Boy Color were written in C and many games post PS1 were written in C++.
 
-However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C.
+However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g Lego Stunt Rally).
 
 One good way to tell if a game uses C/C++ is to look for C-style strings in the disassembed code/memory.
 
