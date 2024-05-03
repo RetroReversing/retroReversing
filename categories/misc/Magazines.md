@@ -86,7 +86,8 @@ Issue | Name | Description
 1 | Design principles | An Atari veteran on the philosophy of game design (Howard Scott Warshaw)
 1 | City Craft | The design Theory behind video game cities (Konstantinos Dimopoulos)
 1 | Source Code | How particle physics turned Defender into a coin-op classic (Python/pygame) (Craig Grannell)
-1 | Maths of balance | Examining the curves and formulae behind the games we play
+1 | Maths of balance | Examining the curves and formulae behind the games we play (Will Luton)
+2 | Life in the trenches | interview with Jane Whittaker on Atari Jaguar development of Alien vs Predator
 2 | FPS level design | Learn the basics of shooter level design with Half-Life 2
 2 | CityCraft | How understanding city functions results in better game design
 2 | Source Code | The simple yet effective AI behind Galaxian’s angry aliens
