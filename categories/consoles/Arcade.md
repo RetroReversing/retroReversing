@@ -24,3 +24,21 @@ Taito put together a 250-page Hardware Manual for new developers who joined the 
 
 They used an In-Circuit Emulator to debug the programs they were creating as can be seen in this diagram:
 ![Alt text](/public/images/arcade/TaitoArcadeICE.png)
+
+---
+# Defender (1981 by Williams Electronics)
+The source code for the classic arcade game from 1981 **Defender** has been released on Github:
+[mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
+
+It is written in a variant of the Assembly language specifically for the Motorola 6809 CPU [^1].
+
+The physical board had 11 ROM chips on it that would need to be flashed with the assembled result of that source code [^1].
+
+Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers who utilized algorithms to great effect rather than relying on artists, one such example is the classic explosion particle effect. Defender became one of the highest grossing arcade games in history [^2].
+
+The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2].
+
+---
+# References
+[^1]: [mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
+[^2]: Wireframe Issue 01 page 33
