@@ -55,6 +55,22 @@ It comes with:
 * Appendix D - Jaguar Development Standards
 * Appendir E - Jaguar Software Experience Approved Manufacturer Production Guidelines
 * Appendix F - Additional Documentation - just mentioned DB the Atari debugger.
+* **The Jaguar CD-ROM** - 40 pages
+* **Cinepak For Jaguar** - 37 pages
+* **DB: The Atari Debugger** - 84 pages
+* **Getting Started** - 8 pages
+* **Hardware Bugs & Warnings** - 6 pages
+* **Libraries** - 65 pages
+* **Madmac Macro Assembler** - 39 pages
+* **QSound For Jaguar** - 8 pages
+* **Jaguar Sample Programs** - 13 pages
+* **Software Reference Manual - Tom & Jerry** - 103 Pages from 7th June 1995
+* **Software Reference Manual - Tom & Jerry Revision 8** - 141 Pages from 28th February 2001
+* **Overview of Jaguar Hardware & Architecture** - 15 pagea
+* **Technical Reference** - 31 pages
+* **Tools** - 21 pages
+* **Atari Jaguar Voice Modem** - 22 pages
+* **Jaguar Workshop Series** - 22 pages
 
 ---
 # File Formats
