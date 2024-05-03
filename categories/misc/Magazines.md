@@ -77,12 +77,15 @@ You can view all the issues on their official website:
 [Issues — Wireframe Magazine](https://wireframe.raspberrypi.com/issues)
 
 ### Relevant Articles
-It is worth reading the entire Wireframe issues cover-to-cover but here is a table of the articles most relevant to game development:
+It is worth reading the entire Wireframe issues cover-to-cover but the most important section for game development is the "Toolbox section of the magazine.
+
+Here is a table of the articles most relevant to both modern and retro game development:
 
 Issue | Name | Description
 ---|---|---
-1 | City Craft | The design Theory behind video game cities
-1 | Source Code | How particle physics turned Defender into a coin-op classic
+1 | Design principles | An Atari veteran on the philosophy of game design (Howard Scott Warshaw)
+1 | City Craft | The design Theory behind video game cities (Konstantinos Dimopoulos)
+1 | Source Code | How particle physics turned Defender into a coin-op classic (Python/pygame) (Craig Grannell)
 1 | Maths of balance | Examining the curves and formulae behind the games we play
 2 | FPS level design | Learn the basics of shooter level design with Half-Life 2
 2 | CityCraft | How understanding city functions results in better game design
