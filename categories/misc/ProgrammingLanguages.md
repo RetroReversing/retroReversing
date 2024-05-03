@@ -23,16 +23,25 @@ In the early days of video games, developers had to work with limited resources 
 One of the crucial aspects of game development during that era was the choice of programming language. 
 In this article, we'll delve into some of the most iconic languages used in creating retro games, from the low-level intricacies of Assembly to the user-friendly environments of more modern programming languages.
 
-# Assembly Language
+# Assembly Language (z80/6502/68000/x86/arm/sh2)
 Assembly language is as low-level as it gets, offering direct control over a computer's hardware. 
 In the realm of retro game development, Assembly was the language of choice for squeezing every last drop of performance from early gaming consoles and home computers. 
 While notoriously difficult to master, it provided unparalleled speed and efficiency, making it ideal for crafting games that pushed hardware limits to the edge.
+
 However assembly language programs are written fro a specific CPU and not portable to different CPU architectures.
+
+Mosy commercial games written for Game Boy/Game Boy Color/NES/SNES/SMS/MegaDrive are written in an Assembly language such as z80/6502/68000 as C compilers were generally not good enough at the time to create optimized code for those platforms.
 
 ---
 # C/C++
 C and C++ revolutionized game development by introducing a higher level of abstraction without sacrificing performance (when compilers became good enough between the Mega Drive and Saturn era). 
 Their versatility and efficiency allowed developers to create complex gameplay mechanics and stunning visuals while maintaining compatibility with a wide range of platforms.
+
+Most games post MegaDrive/SNES/Game Boy Color were written in C and many games post PS1 were written in C++.
+
+However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C.
+
+One good way to tell if a game uses C/C++ is to look for C-style strings in the disassembed code/memory.
 
 ---
 # Basic Variants
