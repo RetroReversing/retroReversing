@@ -115,7 +115,7 @@ Issue | Name | Description
 8 | CityCraft | Ways to make your horror game locations even scarier
 8 | Structurally Sound | How music and sound intertwine to create atmospheric game worlds
 8 | Source Code | The code behind Missile Command’s unforgettable vapour trails
-8 | Squeezing the Beeb | How to fit a 1kb􏰌score attack game onto the BBC􏰎Micro
+8 | Squeezing the Beeb | How to fit a 1KB score attack game onto the BBC􏰎Micro
 9 | Design Principles | The power of marketing – and a strong game title
 9 | CityCraft | Understanding the hierarchies of villages, towns, and cities
 9 | Source Code | Recreating the disintegrating shields from Space Invaders
@@ -125,9 +125,13 @@ Issue | Name | Description
 10 | Get into Twine | A beginner’s guide to creating interactive fiction in Twine
 10 | Multiplayer detox | Ways to make safer, friendlier multiplayer games
 11 | Design Principles |􏰈Defining the difference between theme and design
-11 | CityCraft |􏰚Finding fantasy in medieval towns and cities
+11 | CityCraft | Finding fantasy in medieval towns and cities
 11 | Source Code | Recreate the block􏰛smashing action of Breakout
-11 | Paper prototyping |􏰇How paper and card can help you make better games
+11 | Paper prototyping | How paper and card can help you make better games
+12 | CityCraft | Infrastructure fundamentals for virtual cities
+12 | Source Code | Recreate Bomberman’s four-way explosions
+12 | Making Snake | Code your own arcade game in JavaScript
+12 | Pushing PICO-8 | How to go beyond the virtual console’s memory limits
 
 ---
 # Games Specific Magazines
