@@ -38,6 +38,8 @@ Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 202
 
 ---
 ## Journal of Computer Game Design
+![Journal of Computer Game Design](https://github.com/RetroReversing/retroReversing/assets/40120498/83baa498-4507-4ff5-a4b7-ab4d59facbf3)
+
 The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design.
 
 The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends.
@@ -107,7 +109,7 @@ You can experience the magazines online through an emulator on [DOSGames.com](ht
 
 ---
 ## EDGE Magazine
-The magazine **EDGE** is famous for hiring many of the engineers at Rare due to their advertisements (such as Dr Doak).
+The magazine **EDGE** published its first issue on August 19th 1993 with a focus on multiple platforms (Mega Drive, SNES, Amiga etc) and  is famous for hiring many of the engineers at **Rare** due to their advertisements (Dr Doak is one example of someone who applied thanks to an EDGE advertisement). For their news sections they would "borrow" from Japanese magazines such as "Weekly Famitsu" and US magazines such as "EGM" [^3].
 
 ---
 ## PSi2 Magazine
@@ -494,3 +496,4 @@ ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of usefu
 # References
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
 [^2]: [The Journal of Computer Game Design - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)
+[^3]: Edge File Volume 1 Bookazine (2006)
