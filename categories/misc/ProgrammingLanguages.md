@@ -39,7 +39,7 @@ Their versatility and efficiency allowed developers to create complex gameplay m
 
 Most games post MegaDrive/SNES/Game Boy Color were written in C and many games post PS1 were written in C++.
 
-However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g Lego Stunt Rally).
+However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g Lego Stunt Rally [^2], Datel Rocket games).
 
 One good way to tell if a game uses C/C++ is to look for C-style strings in the disassembed code/memory.
 
@@ -68,3 +68,4 @@ However no popular or AAA games were ever commercially released with Dark Basic 
 ---
 # References
 [^1]: [Scripting language: Blitz Basic - MobyGames](https://www.mobygames.com/group/11091/scripting-language-blitz-basic/)
+[^2]: [Quang Nguyen - Nintendo Game Boy Development - Media - Computing History](https://www.computinghistory.org.uk/det/56957/Quang-Nguyen-Nintendo-Game-Boy-Development/)
