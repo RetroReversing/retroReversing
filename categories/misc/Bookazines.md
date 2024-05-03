@@ -49,6 +49,7 @@ Bookazines dedicated just to gaming also exist and can contain some articles rel
 Title | Publisher | Notes
 ---|---|---
 100 Games to Play before you Die | Future Publishing | Articles from Retro Gamer magazine
+EDGE File Volume 1-3 | Future Publishing | Articles from the first 36 issues of EDGE Magazine (2006-2007)
 Ninteno Archives | Future Publishing | 
 Retro Gamer Collection | Future Publishing | At least 7 Volumes
 Retro Micro Games Action | Imagine Publishing, Future Publishing | At least 10 Volumes from GamesTM Retro sections
