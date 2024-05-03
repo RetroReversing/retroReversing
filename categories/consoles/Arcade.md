@@ -36,7 +36,7 @@ The physical board had 11 ROM chips on it that would need to be flashed with the
 
 Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers who utilized algorithms to great effect rather than relying on artists, one such example is the classic explosion particle effect. Defender became one of the highest grossing arcade games in history [^2].
 
-The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2].
+The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py
 
 ---
 # References
