@@ -124,7 +124,7 @@ Issue | Name | Description
 10 | Source Code | Recreate Pang’s evil bouncing balloons in Python
 10 | Get into Twine | A beginner’s guide to creating interactive fiction in Twine
 10 | Multiplayer detox | Ways to make safer, friendlier multiplayer games
-11 | Design Principles |􏰈Defining the difference between theme and design
+11 | Design Principles | Defining the difference between theme and design
 11 | CityCraft | Finding fantasy in medieval towns and cities
 11 | Source Code | Recreate the block smashing action of Breakout
 11 | Paper prototyping | How paper and card can help you make better games
@@ -132,10 +132,14 @@ Issue | Name | Description
 12 | Source Code | Recreate Bomberman’s four-way explosions
 12 | Making Snake | Code your own arcade game in JavaScript
 12 | Pushing PICO-8 | How to go beyond the virtual console’s memory limits
-13 | Design Principles |􏰈Defining the meaning of the word 􏰤game’, and why it’s important
+13 | Design Principles |􏰈Defining the meaning of the word game’, and why it’s important
 13 | CityCraft | Bringing vibrancy and realism to your video game streets
 13 | Teleporting in Unity | Your guide to making an 􏰥Overwatch-inspired blink mechanic
-13 | Source Code |􏰉Recreate Gyruss’s zooming starfield effect
+13 | Source Code | Recreate Gyruss’s zooming starfield effect
+14 | CityCraft | Analysing the genius of City 17 and New Vegas
+14 | Art and commerce | Making creative games that actually sell
+14 | SIN made simple | Master the SIN function without all the fiddly maths
+14 | Source Code | Make a Donkey Kong-style animated walk cycle
 
 ---
 # Games Specific Magazines
