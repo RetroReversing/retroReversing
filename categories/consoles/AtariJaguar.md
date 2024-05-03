@@ -90,11 +90,11 @@ Extension | Description
 .OD | Some older projects have used an extension of .OD for DSP object code. However, the .OJ extension is preferred.
 .OT | GPU (TOM) object code. Object file created after assembling a .GAS file with **MADMAC** (Note that GASM does not create standard object modules.)
 .OG | Some older projects have used an extension of .OG for GPU object code. However, the .OG extension is preferred.
-.OUT | 
-.PTC |
-.ROM |
-.S |
-.SCR |
+.OUT | Parsed MIDI file, output by the **PARSE** and **MERGE** utilities.This is really a MADMAC source code file which is normally assembled into an object file using a .SCR extension
+.PTC | Jaguar Sound Tool Patch File. These are the binary patch files used by the Jaguar Sound Tool and the Jaguar Synth.
+.ROM | Alpine Board / ROM Image File. Created by **FILEFIX** utility, or saved from Alpine board using the debugger.
+.S | 68000/mixed assembly language source. This extension is used for files that contain source either exclusively for the 68000 or mixed source for any combination of 68000, GPU, and/or DSP.
+.SCR | Compiled MIDI score file. This is an object file, the same as .O files, except with a different extension to highlight the idea that they contain MUSIC score information. Files with an .SCR extension are to .MID files as .S files are to .O files. This file extension is also used for some Cinepak Movie Files (Smooth CRY-format)
 .SRG | Smooth format 16-bit RGB Cinepak film
 .SYM | Symbol Table File. Created by **FILEFIX** utility. This is the same basic format as an executable program file, except with empty TEXT and DATA sections. Only the symbol table has information in it.
 .TGA | Targa picture file. The Targa format is a popular format for 16-bit and 24-bit RGB true color graphics images. Can be converted into Jaguar CRY-format using the **TGA2CRY** utility.
