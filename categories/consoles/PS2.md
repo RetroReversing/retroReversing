@@ -46,6 +46,12 @@ Later in the PS2's lifetime SN Systems released a specific development kit for d
 
 {% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2/" description="For information about Network Development Kit development hardware check out this post." %}
 
+## Third Party Hardware
+
+### Playstation 2 Olympus Eye-Trek FMD-20 
+Olympus managed to get an official license for "VR goggles" specifically for the PS2 which were supposed to simulate a 52 inch tv floating in front of your eyes. Sounds like a great idea for a cheaper large screen tv without taking all the space, however prolonged use did cause headaches due to only having 180k pixels per eye, much lower than modern VR headsets.
+![Playstation 2 Olympus Eye-Trek FMD-20 ](https://github.com/RetroReversing/retroReversing/assets/40120498/0636ee9f-3b49-4e33-9648-533bb66e1c27)
+
 
 ---
 # Games
