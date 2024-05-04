@@ -198,6 +198,7 @@ Issue | Name | Description
 19 | Developer files; Europe | History of DMA Design (GTA 3), Lost Boys (Knights), Bizarre creations (Fur Fighters), Amuze (Headhunter), Criterion (Burnout)
 19 | Indie day | Interview with indie developer Runecraft founded in 1997 with 120 employees
 20 | One step beyond | Interview with Beyond games they mention they have a game engine called "Brainstom" which they used for Motor Mayhem and Hot Wheels which apparently has networking capabilities
+20 | A Week in the life of Runcraft | Lays out the day to day work of the art development of Runecraft while they develop games for the PS2 such as Premier manager. They use photoshop for tecturing but its unclear what software they use for 3D modelling as the screenshots are too low-res but possibly 3DS Max.
 
 
 ### PSi2 Magazine CDs
