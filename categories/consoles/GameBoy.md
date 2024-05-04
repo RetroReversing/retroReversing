@@ -142,8 +142,14 @@ Similar to the Super GameBoy but this is for the Sony Playstation!
 <iframe width="560" height="420" src="https://www.youtube.com/embed/SxF2e6DUMRo?color=white&theme=dark"></iframe>
 
 ---
-## GameBoy Printer
+## Game Boy Printer
+To go along with the Game Boy Camera Nintendo also releases a Game Boy Printer to print the photos you have taken, it also had integration with a couple of GB games such as Pokemon Yellow/Gold/Silver to print out Pokedex stickers [^2].
 <iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
+
+## Dance Dance Revolution Controller for GBC
+Konami came out with a custom "controller" for Dance Dance Revolution that goes on top of the Game Boy Color and maps the buttons, quite cool but a very cheap accessory.
+![Dance Dance Revolution Controller for GBC](https://github.com/RetroReversing/retroReversing/assets/40120498/5de18708-4006-471f-88f4-3864f6a7f34a)
+
 
 ---
 # Game Boy Source Code
@@ -190,14 +196,13 @@ This is a very interesting project that played a large set of gameboy games in a
 {% include link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
 
 ---
-# References
-[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
-
-
----
 # All Posts tagged with GameBoy
 
 <div>
 {% include console.html %}
 </div>
 
+---
+# References
+[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
+[^2]: [Game Boy Printer - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Printer)
