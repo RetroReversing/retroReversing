@@ -35,7 +35,7 @@ For more information on the Game Killer and the 6 in built games:
 http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 
 ---
-# Game Boy Color
+# Nintendo Game Boy Color
 
 ## Rocket Games
 Datel released a series of 10 Game Boy color games completely unlicensed by Nintendo that they called "Rocket Games".
@@ -52,6 +52,24 @@ Some of the games that were released are below:
 
 
 ![Painter - RocketGame](https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed)
+
+## Action Relay Extreme for Game Boy Color
+Datel were one of the only companies releasing cheat devices for the Game Boy Color, which were incredibly popular thanks to supporting the Pokemon Gold & Silver games!
+
+It contains a code generator to create your own codes (think of a limited version of Cheat Engine) along with a save state feature they called "freezing".
+
+![Action Relay Extreme for Game Boy Color](https://github.com/RetroReversing/retroReversing/assets/40120498/9c3fe851-8c97-474d-85e8-40c36ff9514a)
+
+
+---
+# Nintendo Game Boy Advance
+
+## Action Replay GBX
+Datel also released a version of their Action Replay line of cheat cartridges for the Game Boy Advance as can be seen in the Advertisement below:
+
+![Action Replay GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/8b589195-2a74-4363-be19-0d1825aada7a)
+
+
 
 ---
 # Playstation 2
