@@ -41,6 +41,8 @@ Most games post MegaDrive/SNES/Game Boy Color were written in C and many games p
 
 However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g Lego Stunt Rally [^2], Datel Rocket games).
 
+Also there is one known commerical Mega Drive game to be written in C, **Sonic Spinball** [^5]!
+
 One good way to tell if a game uses C/C++ is to look for C-style strings in the disassembed code/memory.
 
 ---
@@ -82,3 +84,4 @@ You can find out more about all TheGameCreators products in this excellent docum
 [^2]: [Quang Nguyen - Nintendo Game Boy Development - Media - Computing History](https://www.computinghistory.org.uk/det/56957/Quang-Nguyen-Nintendo-Game-Boy-Development/)
 [^3]: [The Game Creators Newsletter - Issue 50](https://www.thegamecreators.com/pages/newsletters/newsletter_issue_50.html)
 [^4]: [FPS-Creator-Classic/Dark Basic Pro Shared/Dark Basic Pro/Projects/FPSCREATOR at master · TheGameCreators/FPS-Creator-Classic](https://github.com/TheGameCreators/FPS-Creator-Classic/tree/master/Dark%20Basic%20Pro%20Shared/Dark%20Basic%20Pro/Projects/FPSCREATOR)
+[^5]: [Interview: Peter Morawiec (2007-04-20) by Sega-16 - Sega Retro](https://segaretro.org/Interview:_Peter_Morawiec_(2007-04-20)_by_Sega-16?rdfrom=https%3A%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DInterview%3A_Peter_Morawiec_%282007-04-20%29_by_Sega-16%26redirect%3Dno)
