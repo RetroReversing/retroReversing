@@ -205,6 +205,7 @@ Some of the Magazine CDs/DVDs contained Video content on behind the scenes infor
 Issue Number | Content
 ---|---
 19 | Yabasic Tetris by Marc Gale (Xalthorn)
+20 | Yabasic Asteriods Lab X by Christopher Rankine
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
 23 | Talking about the Mechanics of The Thing
