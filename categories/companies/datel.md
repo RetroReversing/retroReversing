@@ -47,9 +47,13 @@ A few of the features include:
 * Use as an Infra-red TV remote control (GBC only)
 * Send messages to other SmartCom devices via Intra-red (GBC only)
 
-It seems very similar to the "WorldPort" which was also by Datel.
+It seems very similar to the "WorldPort" but without the email sending functionality.
 
 ![SmartCom](https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace)
+
+## WorldPort
+Send and recieve emails on your Game Boy with World Port! It comes with a cable that goes from the cartridge directly into any UK phone socket and you get a free email address. However you need to pay per email which comes in the form of top-up cards you need to buy seperately.
+![WorldPort](https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2)
 
 
 ## Rocket Games (unlicenced game boy games)
