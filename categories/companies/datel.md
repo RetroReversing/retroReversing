@@ -40,7 +40,7 @@ http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 ## Rocket Games
 Datel released a series of 10 Game Boy color games completely unlicensed by Nintendo that they called "Rocket Games".
 
-Some of the games that were released are below:
+The 8 games that were released are below:
 * **Painter** - Arcade style puzzle game
 * **Fall Time & Hang Time** - Two sports games on the same cartridge
 * **Karate Joe**
@@ -56,6 +56,7 @@ Some of the games that were released are below:
 
 ![Rocket Games for GBC](https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3)
 
+The Rocket Games were also provided free as part of the Playstation 2 "GameStudio" product which was a GameBoy player for the PS2.
 
 ## Action Relay Extreme for Game Boy Color
 Datel were one of the only companies releasing cheat devices for the Game Boy Color, which were incredibly popular thanks to supporting the Pokemon Gold & Silver games!
