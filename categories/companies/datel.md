@@ -37,7 +37,22 @@ http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 ---
 # Nintendo Game Boy Color
 
-## Rocket Games
+## SmartCom
+You can turn your Game Boy into a PDA with Datel's "SmartCom" cartridge!
+
+A few of the features include:
+* Notepad that can write and even print out notes with Game Boy printer
+* Address Book feature
+* Auto-dial function - dial phone numbers that you typed into the SmartCom by holding the GB up to the phones mouthpiece (how does this work?!)
+* Use as an Infra-red TV remote control (GBC only)
+* Send messages to other SmartCom devices via Intra-red (GBC only)
+
+It seems very similar to the "WorldPort" which was also by Datel.
+
+![SmartCom](https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace)
+
+
+## Rocket Games (unlicenced game boy games)
 Datel released a series of 10 Game Boy color games completely unlicensed by Nintendo that they called "Rocket Games".
 
 The 8 games that were released are below:
