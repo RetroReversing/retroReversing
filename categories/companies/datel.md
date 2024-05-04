@@ -68,6 +68,7 @@ The 8 games that were released are below:
 * **Pocket Smash Out** - Arcade game
 * **Race Time** - Racing game
 
+![Karate Joe](https://github.com/RetroReversing/retroReversing/assets/40120498/1fb5b82b-67b0-496e-a1af-4514ea7b4045)
 
 ![Painter - RocketGame](https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed)
 
