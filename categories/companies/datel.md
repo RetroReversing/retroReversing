@@ -66,6 +66,11 @@ There was also a special Pokemon crystal version released in a crystal like colo
 ---
 # Nintendo Game Boy Advance
 
+## Body Shock GBX
+I can't believe this exists but a wearable vest that rumbles in certain GBA games to make it more "immersive".
+![Body Shock GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/e95570e5-c52c-43df-8971-dd29c60ad908)
+
+
 ## Action Replay GBX
 Datel also released a version of their Action Replay line of cheat cartridges for the Game Boy Advance as can be seen in the Advertisement below:
 
