@@ -194,6 +194,7 @@ Issue | Name | Description
 ---|---|---
 18 | Linux PS2 | PSi2 interviews developers such as Charles Cecil to find out if the PS2 Linux kit can revive the "bedroom coder". They are pretty harsh on the kit and outright say its only beneficial for people learning to porgram and that its better to learn on Windows with Visual Studio and DirectX
 18 | Yabasic Appeal | The editor asks for readers Yabasic games/programs to be put on next issues cover disk
+18 | Indie day | Interview with "indie" developer Vis entertainment who developed games like Tom & Jerry Fists of Fury on N64
 
 ### PSi2 Magazine CDs
 Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers.
