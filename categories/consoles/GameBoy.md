@@ -182,6 +182,11 @@ One cool easter egg he added to the game was an implementation of John Conway’
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Source graphics for Gameboy R-Type Lv3 ship. By Mark Jones... <a href="https://twitter.com/hashtag/ScreenshotSaturday24YearsAgo?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday24YearsAgo</a> <a href="http://t.co/RsKlc0rQOE">pic.twitter.com/RsKlc0rQOE</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/591964228053016577?ref_src=twsrc%5Etfw">April 25, 2015</a></blockquote>
 
+---
+# Game Boy Homebrew
+
+## Blem! Playstation Emulator for the GB
+Blem! was a prank ROM for the Game Boy which pretended to load up a playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstaiton emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (Septermber 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^11].
 
 
 ---
@@ -211,3 +216,4 @@ This is a very interesting project that played a large set of gameboy games in a
 # References
 [^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 [^2]: [Game Boy Printer - Bulbapedia, the community-driven Pokémon encyclopedia](https://bulbapedia.bulbagarden.net/wiki/Game_Boy_Printer)
+[^3]: GBX issue 3 (Septermber 2001) Page 11
