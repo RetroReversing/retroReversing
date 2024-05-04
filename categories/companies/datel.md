@@ -42,8 +42,7 @@ Datel released a series of 10 Game Boy color games completely unlicensed by Nint
 
 Some of the games that were released are below:
 * **Painter** - Arcade style puzzle game
-* **Fall Time**
-* **Hang Time**
+* **Fall Time & Hang Time** - Two sports games on the same cartridge
 * **Karate Joe**
 * **Space Invasion**
 * **ATV Racing**
@@ -59,6 +58,9 @@ Datel were one of the only companies releasing cheat devices for the Game Boy Co
 It contains a code generator to create your own codes (think of a limited version of Cheat Engine) along with a save state feature they called "freezing".
 
 ![Action Relay Extreme for Game Boy Color](https://github.com/RetroReversing/retroReversing/assets/40120498/9c3fe851-8c97-474d-85e8-40c36ff9514a)
+
+There was also a special Pokemon crystal version released in a crystal like colour, presumably it can use the same codes as the original but probably just has the Pokemon crystal codes built in instead of having to type them in manually:
+![Pokemon Crystal Action Relay Extreme](https://github.com/RetroReversing/retroReversing/assets/40120498/f6455193-5037-4331-b51e-95ae51c88263)
 
 
 ---
