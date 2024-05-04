@@ -184,6 +184,8 @@ One cool easter egg he added to the game was an implementation of John Conway’
 
 ---
 # Game Boy Homebrew
+If you are interested in reverse engineering Gamy Boy Homebrew you will want to check out the tool **gbtoolsid** which can give an indication of what tool was used to make the rom (e.g GBDK, GBStudio etc):
+[bbbbbr/gbtoolsid: A command line app for identifying tools used to build Game Boy ROMs](https://github.com/bbbbbr/gbtoolsid)
 
 ## Blem! Playstation Emulator for the GB
 Blem! was a prank ROM for the Game Boy which pretended to load up a playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstaiton emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (Septermber 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^11].
