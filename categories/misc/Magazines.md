@@ -197,6 +197,7 @@ Issue | Name | Description
 18 | Indie day | Interview with indie developer Vis entertainment who developed games like Tom & Jerry Fists of Fury on N64
 19 | Developer files; Europe | History of DMA Design (GTA 3), Lost Boys (Knights), Bizarre creations (Fur Fighters), Amuze (Headhunter), Criterion (Burnout)
 19 | Indie day | Interview with indie developer Runecraft founded in 1997 with 120 employees
+20 | One step beyond | Interview with Beyond games they mention they have a game engine called "Brainstom" which they used for Motor Mayhem and Hot Wheels which apparently has networking capabilities
 
 
 ### PSi2 Magazine CDs
