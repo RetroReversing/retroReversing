@@ -164,9 +164,16 @@ Datel also has the technology to create Gamecube discs and created a version of 
 ![DatelMaxPlay](https://user-images.githubusercontent.com/40120498/235313223-90c4633d-f51e-47b1-9305-b8d59d342124.jpeg)
 
 
+## MAX Drive Pro for Gamecube
+An 8MB Gamecube Memory card that allows loading homebrew applications without any modifications of the hardware [^1]! The memory card connects to a PC via a USB cable allowing easy loading of files onto the card.
+
 ---
 # All Posts
 
 <div>
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [MAX Drive Pro -A must for the homebrew programmer - run executable code on your GameCube.](https://web.archive.org/web/20040803173400/http://us.codejunkies.com/shop/product.asp?c=US&cr=USD&cs=$&r=0&l=1&ProdID=297)
