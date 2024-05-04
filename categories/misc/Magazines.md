@@ -199,7 +199,9 @@ Issue | Name | Description
 19 | Indie day | Interview with indie developer Runecraft founded in 1997 with 120 employees
 20 | One step beyond | Interview with Beyond games they mention they have a game engine called "Brainstom" which they used for Motor Mayhem and Hot Wheels which apparently has networking capabilities
 20 | A Week in the life of Runcraft | Lays out the day to day work of the art development of Runecraft while they develop games for the PS2 such as Premier manager. They use photoshop for tecturing but its unclear what software they use for 3D modelling as the screenshots are too low-res but possibly 3DS Max.
-20 | Indie day | Interview with Pivital games on their game Desert Storm
+20 | Indie day | Interview with Pivotal games on their game Desert Storm
+21 | A Week in the life of Kuju | 
+21 | Indie day | Interview with Argonaut games
 
 
 ### PSi2 Magazine CDs
@@ -209,6 +211,7 @@ Issue Number | Content
 ---|---
 19 | Yabasic Tetris by Marc Gale (Xalthorn)
 20 | Yabasic Asteriods Lab X by Christopher Rankine
+21 | Yabasic Bats in the Lab by Christopher Rankine
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
 23 | Talking about the Mechanics of The Thing
