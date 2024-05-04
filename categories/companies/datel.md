@@ -57,12 +57,12 @@ Datel released a series of 10 Game Boy color games completely unlicensed by Nint
 
 The 8 games that were released are below:
 * **Painter** - Arcade style puzzle game
-* **Fall Time & Hang Time** - Two sports games on the same cartridge
-* **Karate Joe**
-* **Space Invasion**
-* **ATV Racing**
-* **Pocket Smash Out**
-* **Race Time**
+* **Fall Time & Hang Time** - Two sports games on the same cartridge (Football and basketball)
+* **Karate Joe** - Arcade beat-em-up
+* **Space Invasion** - Arcade Shoot-em-up
+* **ATV Racing** - All Terrain vehicle racing
+* **Pocket Smash Out** - Arcade game
+* **Race Time** - Racing game
 
 
 ![Painter - RocketGame](https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed)
