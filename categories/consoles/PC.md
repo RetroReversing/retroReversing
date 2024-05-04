@@ -81,6 +81,9 @@ Fabien Sanglard has an excellent series of articles on how he reverse engineered
 ---
 # MSX
 The MSX was a standard introducted by **Microsoft Japan** to make sure no matter which manufacturer build the PC (e.g Sony, Panasonic, Philips) they would all be able to run the same software.
+
+The MSX has a version of BASIC built in which was an extended version of Microsoft Basic, hence the **MSX** name [^1].
+
 There were three different revisions of the MSX:
 * MSX
 * MSX2
@@ -93,6 +96,11 @@ The best video I have found on the MSX is by the Youtuber **Displaced Gamers** w
 ## MSX Games
 While the MSX system is most famous for Konami games like Vampire Killer (Castlevania) and Metal Gear there are quite a few games worth playing for the system. What better video to show off the MSX games than the **Game Sack** episode on the topic:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4R779hMGGC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Sony MSX Hardware
+Way before the playstation or even the Super nintendo CD, sony created hardware for playing games in the form of MSX computers [^1]. Sony released their HIT-BIT machines which started with the HB-10 which had 16KB of RAM and ranged all the way up to the MSX 2 compatible HB-T600 with 128kB RAM [^2].
+
+[All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
 
 ---
 # Windows
@@ -206,3 +214,8 @@ RVA is a fundamental concept in Windows programming, as it allows for position-i
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: PSi2 Issue 19
+[^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
