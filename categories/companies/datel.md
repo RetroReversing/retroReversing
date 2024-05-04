@@ -77,6 +77,8 @@ The 8 games that were released are below:
 
 The Rocket Games were also provided free as part of the Playstation 2 "GameStudio" product which was a GameBoy player for the PS2.
 
+Also one of the games was given away for free with every copy of the UK Magazine GBX issue 11, it advertises **Karate Joe** but just calls them **Rocket Games** so presumably it could have been any of them.
+
 ## Action Relay Extreme for Game Boy Color
 Datel were one of the only companies releasing cheat devices for the Game Boy Color, which were incredibly popular thanks to supporting the Pokemon Gold & Silver games!
 
