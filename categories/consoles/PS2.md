@@ -91,7 +91,7 @@ Similar to how the PS1 had Net Yaroze for consumers to develop small games for t
 ## Creative Software used to create PS2 Games
 
 ### 3d Studio Max
-3D Studio Max was used by Runecraft software to develop games such as Premier manager on the PS2[^3].
+3D Studio Max and Character Studio was used by Runecraft software to develop games such as Premier manager on the PS2[^3].
 
 We have a separate post on 3D studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3DStudio check out this post." %}
 
