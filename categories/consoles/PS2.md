@@ -88,6 +88,21 @@ The Playstation 2 Software Development kit included various statically compiled 
 Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of Linux. The software ran on consumer PS2 models and came with a PS2 hard-drive.
 
 ---
+## Creative Software used to create PS2 Games
+
+### 3d Studio Max
+3D Studio Max was used by Runecraft software to develop games such as Premier manager on the PS2[^3].
+
+We have a separate post on 3D studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3DStudio check out this post." %}
+
+### Photoshop for texturing
+3D Studio Max was used by Runecraft software to develop games such as Premier manager on the PS2.
+In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Runecraft where he talks about using photoshop for Premier manager on the PS2 along with a low-resolution screenshot you can see below [^3]:
+
+![Photoshop being used to create a PS2 game - PSi2 issue 20](https://github.com/RetroReversing/retroReversing/assets/40120498/eba8399a-56e7-4abd-90fe-5b9cf4d0eab9)
+
+
+---
 # Game Engines for the PS2
 Before Unity and Unreal dominated the scene it was common for developers to create their own in house game engine, or license a third party engine such as Renderware.
 
