@@ -125,26 +125,31 @@ The Super GameBoy was a Super Nintendo Cartridge that allowed you to play Origin
 <iframe width="560" height="420" src="https://www.youtube.com/embed/uaeLY441Fwc?color=white&theme=dark"></iframe>
 
 ---
-## GB Booster
+## Wide Boy 64
+Official device to play gameboy (including GBA) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
+<iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
+
+---
+## Game Boy Printer
+To go along with the Game Boy Camera Nintendo also releases a Game Boy Printer to print the photos you have taken, it also had integration with a couple of GB games such as Pokemon Yellow/Gold/Silver to print out Pokedex stickers [^2].
+<iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
+
+---
+## GB Booster (for N64)
 Similar to the Super GameBoy but this is for the Nintendo 64 and not licenced by Nintendo, I first saw this for sale in issue X of the UK Nintendo Official Magazine.
 <iframe width="560" height="420" src="https://www.youtube.com/embed/NiMx10PV_cw?color=white&theme=dark"></iframe>
 For more information: 
 - http://www.chrismcovell.com/gbbooster.html
 - https://gamehacking.org/wiki/Game_Booster_(Nintendo_64)
 
-## Wide Boy 64
-Official device to play gameboy (including GBA) games on the N64, but was not sold to the general public. You had to be a game developer or press in order to buy one from Intelligent Systems.
-<iframe width="560" height="420" src="https://www.youtube.com/embed/llIz6qjDfLc?color=white&theme=dark"></iframe>
-
 ---
 ## Datel Game Booster for Sony Playstation
 Similar to the Super GameBoy but this is for the Sony Playstation!
 <iframe width="560" height="420" src="https://www.youtube.com/embed/SxF2e6DUMRo?color=white&theme=dark"></iframe>
 
----
-## Game Boy Printer
-To go along with the Game Boy Camera Nintendo also releases a Game Boy Printer to print the photos you have taken, it also had integration with a couple of GB games such as Pokemon Yellow/Gold/Silver to print out Pokedex stickers [^2].
-<iframe width="560" height="420" src="https://www.youtube.com/embed/43FfJvd-YP4?color=white&theme=dark"></iframe>
+There was also one for PS2 that played Game Boy Color games called the **GameStudio**:
+![Datel game Studio](https://github.com/RetroReversing/retroReversing/assets/40120498/9026fc2e-7577-447d-94ee-e1643e97aa11)
+
 
 ## Dance Dance Revolution Controller for GBC
 Konami came out with a custom "controller" for Dance Dance Revolution that goes on top of the Game Boy Color and maps the buttons, quite cool but a very cheap accessory.
