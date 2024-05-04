@@ -97,6 +97,10 @@ Datel also released a version of their Action Replay line of cheat cartridges fo
 
 ![Action Replay GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/8b589195-2a74-4363-be19-0d1825aada7a)
 
+A Prototype version was shown in the UK Magazine GBX issue 2:
+![Prototype Action Replay GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/2d84e531-36ca-4462-ab85-0a64b3f2784a)
+
+
 ## X-port GBX
 The X-Port GBX allows you to upload and download saves from your GBA cartridges to allow you to share saves with friends or download saves (sometimes with cheats) from the internet.
 ![X-port GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/81040378-da3f-4c94-b701-15168fc05781)
