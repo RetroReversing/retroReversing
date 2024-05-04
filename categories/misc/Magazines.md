@@ -187,6 +187,13 @@ Whether it was always intended to be just another advertisement route for **Date
  </div>
 </section> 
 
+### Relevant Articles in PSi2
+As Psi2 was an unofficial magazine published by Datel it was a good magazine for news about development topics and homebrew along with general game reviews and news. Here is a table of the most relevant articles for the topic of the site (game development and homebrew)
+
+Issue | Name | Description
+---|---|---
+18 | Linux PS2 | PSi2 interviews developers such as Charles Cecil to find out if the PS2 Linux kit can revive the "bedroom coder". They are pretty harsh on the kit and outright say its only beneficial for people learning to porgram and that its better to learn on Windows with Visual Studio and DirectX
+18 | Yabasic Appeal | The editor asks for readers Yabasic games/programs to be put on next issues cover disk
 
 ### PSi2 Magazine CDs
 Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers.
