@@ -197,10 +197,11 @@ Issue | Name | Description
 18 | Indie day | Interview with "indie" developer Vis entertainment who developed games like Tom & Jerry Fists of Fury on N64
 
 ### PSi2 Magazine CDs
-Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers.
+Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers and even yabasic games with source code.
 
 Issue Number | Content
 ---|---
+19 | Yabasic Tetris by Marc Gale (Xalthorn)
 21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
 22 | Behind the Scenes of V-Rally 3
 23 | Talking about the Mechanics of The Thing
