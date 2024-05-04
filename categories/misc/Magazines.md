@@ -132,14 +132,18 @@ Issue | Name | Description
 12 | Source Code | Recreate Bomberman’s four-way explosions
 12 | Making Snake | Code your own arcade game in JavaScript
 12 | Pushing PICO-8 | How to go beyond the virtual console’s memory limits
-13 | Design Principles |􏰈Defining the meaning of the word game’, and why it’s important
+13 | Design Principles | Defining the meaning of the word game’, and why it’s important
 13 | CityCraft | Bringing vibrancy and realism to your video game streets
-13 | Teleporting in Unity | Your guide to making an 􏰥Overwatch-inspired blink mechanic
+13 | Teleporting in Unity | Your guide to making an Overwatch-inspired blink mechanic
 13 | Source Code | Recreate Gyruss’s zooming starfield effect
 14 | CityCraft | Analysing the genius of City 17 and New Vegas
 14 | Art and commerce | Making creative games that actually sell
 14 | SIN made simple | Master the SIN function without all the fiddly maths
 14 | Source Code | Make a Donkey Kong-style animated walk cycle
+15 | Design Principles | What video games say about their creators and players
+15 | Blasting off | Make a Jetpack feature in Unreal Engine 4
+15 | Source Code | Ant Attack-style isometric graphics explained
+15 | A new dev diary | Why the vertical slice is an indie dev’s best friend
 
 ---
 # Games Specific Magazines
