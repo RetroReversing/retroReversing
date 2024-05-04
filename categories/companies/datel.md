@@ -35,6 +35,25 @@ For more information on the Game Killer and the 6 in built games:
 http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 
 ---
+# Game Boy Color
+
+## Rocket Games
+Datel released a series of 10 Game Boy color games completely unlicensed by Nintendo that they called "Rocket Games".
+
+Some of the games that were released are below:
+* **Painter** - Arcade style puzzle game
+* **Fall Time**
+* **Hang Time**
+* **Karate Joe**
+* **Space Invasion**
+* **ATV Racing**
+* **Pocket Smash Out**
+* **Race Time**
+
+
+![Painter - RocketGame](https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed)
+
+---
 # Playstation 2
 
 ## Action Replay Max
