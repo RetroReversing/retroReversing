@@ -87,6 +87,12 @@ The Playstation 2 Software Development kit included various statically compiled 
 ## Consumer Development Kit
 Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of Linux. The software ran on consumer PS2 models and came with a PS2 hard-drive.
 
+---
+# Game Engines for the PS2
+Before Unity and Unreal dominated the scene it was common for developers to create their own in house game engine, or license a third party engine such as Renderware.
+
+## Brainstorm by BeyondGames (in-house)
+In issue 20 of PSi2 an interview with Clark Stacey revealed that they have an in-house game engine called "Brainstorm" which was used for racing games such as Motor Mayhem and Hot Wheels [^3]. It also mentioned that it in theory has support for other genres of games such as platformers and that it has built in networking support.
 
 ---
 # All Posts
@@ -99,3 +105,4 @@ Similar to how the PS1 had Net Yaroze for consumers to develop small games for t
 # References
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
 [^2]: Psi2 issue 18
+[^3]: Psi2 issue 20
