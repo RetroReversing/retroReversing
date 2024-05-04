@@ -93,8 +93,14 @@ Game Name | Game Developer | Notes
 ---|---|---
 Monopoly CD-ROM | Westwood Studios | Article from 1996 issue of CGW confirms this [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
 LEGO Racers | High Voltage Software | Found 3d files that use the .max extension [LEGO Research Realm](https://mega.nz/folder/LsFCzBjI#3L423HFnhifIYR39xUw2LA/folder/fk8FwYJD)
+Premier Manager (PS2) | Runecraft | Issue 20 of PSi2 Magazine shows very low resolution screenshots of 3d modelling the statium which looks very similar to 3ds Max. 
 
 If you know any games that used 3D Studio for asset creation and have a source to back it up, please contribute by editing this page!
+
+## Premier Manager and other games by Runecraft
+Based on issue 20 of PSi2 Magazine it looks like they use 3ds max for 3d modelling along with photoshop.
+![Upscaled screenshot of Runescape interview](https://github.com/RetroReversing/retroReversing/assets/40120498/9ba0f3f0-b1f7-4ffd-bae4-d4b511eea224)
+
 
 ---
 # Retro Movies that used 3DS Max
