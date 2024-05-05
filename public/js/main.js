@@ -343,18 +343,6 @@ function isInView(element) {
       lazyLoad();
     }
 
-function convertAllNonClassImagesToLazy() {
-  // By default make all images without classes lazy
-  var all_images = document.querySelectorAll('img');
-
-  all_images.forEach(function(img) {
-    if (!img.classList.length) { // Check if no classes are present
-       var image_url = img.getAttribute('src');
-      img.classList.add('lazy-load'); // Add the class only if no classes are present
-      img.setAttribute('data-image-full', image_url);
-    }
-  });
-}
     
     (function($) {
       "use strict";
@@ -362,9 +350,6 @@ function convertAllNonClassImagesToLazy() {
      $(document).ready(function() {
       setupCarousel();
       setupDataTables();
-
-       
-       convertAllNonClassImagesToLazy()
 
       // lightbox
       // $('[data-lightbox]').lightbox();
