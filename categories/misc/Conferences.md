@@ -38,6 +38,7 @@ Conference | Dates | Category | Notes
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase | 
 Develop | 2006-Ongoing | Development | UK Game development Conference
+D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and buisness topics, not programming or 3d content creation
 Dreamcast Developer's Conference | 1999 | Development | [Dreamcast Developer's Conference - Sega Retro](https://segaretro.org/Dreamcast_Developer%27s_Conference)
 Saturn Developer’s Conference | May 1994 | Development | [DTS: The SEGA Developer’s ‘Game Mag’ – SHIRO Media Group](https://www.segasaturnshiro.com/2021/08/19/dts-the-sega-developers-game-mag/)
 Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
@@ -2077,6 +2078,14 @@ They are not always related to game development but many real time rendering tec
 The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective).
 
 It discusses the new hardware and software for game development shown off at SIGGRAPH 2000 such as Sony’s GScube and the Xbox. Improv Technologies also demoed their new products, Orchestrate3D and Catalyst. The conference also featured presentations on new shading languages and rendering techniques.
+
+---
+# D.I.C.E Summit
+D.I.C.E stands for "Design, Innovate, Communicate, Entertain" and was first held in 2002 in Las Vegas, its main focus in game design topics along with business rather than game programming or asset creation. Its part of the Academy of Interactive Arts and Sciences and they record the presentations and in the early days they would sell this footage on DVD, but the modern conferences host the videos online for free.
+
+Here is an Advert for the DICE Summit DVD from issue 1 of the US magazine GMR from February 2003:
+![DICE Summit DVD from GMR_01](https://github.com/RetroReversing/retroReversing/assets/40120498/05787d2a-7bbc-4fd8-a60a-91a599d59bad)
+
 
 ---
 # Develop (Brighton)
