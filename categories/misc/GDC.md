@@ -475,6 +475,7 @@ The Writers' Roundtable | C. Marx, Michele Em, K. Lawrence | General Interest | 
 
 This years show even had IBM trying to get people to write games for **OS/2** with their sponsored "OS/2 as a Viable PC Games Platform" sessions, I wonder how many developers were convinced because it certainly did not become a viable PC Games Platform and was competing with Windows 95 DirectX talks. I would love to see what content was presented at that, fantastic bit of game development history, what APIs were even shown off for OS/2?
 
+---
 
 ## CGDC 1996
 This is the last year before it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4]. So this will be the last conference with a presentation by Chris Crawford.
@@ -819,6 +820,8 @@ The Day 2 talks were:
 
 Pretty much nothing is available online about who gave these talks or what they contained.
 
+---
+
 ### Classic CGDC Conference
 The Classic CGDC Conference had 200+ different sessions split up into the following four types:
 * Lectures - Typical Conference presentation format with Powerpoint Slides
@@ -1063,6 +1066,8 @@ ATI's Hi-Volume RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
 
 
 For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics I am looking at you).
+
+---
 
 ### Microsoft DirectX Sessions
 Microsoft had sessions advertising their DirectX technology (DirectPlay, DirectSound, Direct3D and DirectDraw) and even from their hardware division (Sidewinder Group).
@@ -1401,6 +1406,7 @@ The "Rules" Of Making Massively Multiplayer Persistent Worlds | Raph Koster, Ric
 Smart Toys: Benefits of Technology-Enhanced Play | Amy Francetic, Helen Shwe | Game Design | 
 Storytelling in Action | Bob Bates | Game Design | 
 
+---
 
 ### Microsoft DirectX Developer Day (March 8th)
 It included a "Microsoft DirectX Developer Day" on the 8th of March held by Hicrosoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a  Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX8 but also an early build exclusive to atendees.
@@ -1437,7 +1443,9 @@ Note that although we don't have much details on the contents of each of the tal
 
 ---
 ## GDC 2001
-"Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
+"Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. 
+
+They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The sessions that we know about are listed in the table below:
