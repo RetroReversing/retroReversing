@@ -6,9 +6,9 @@ tags:
 - tools
 - xbox
 - pc
-title: Using PDB files for Reverse Engineering
-image: /public/images/tools/Using PDB symbol files for Reversing.jpg
-twitterimage: http://www.retroreversing.com/public/images/tools/Using PDB files for Reversing.jpg
+title: PDB Files - Using PDB files for Reverse Engineering
+image_: /public/images/tools/Using PDB symbol files for Reversing.jpg
+twitterimage_: http://www.retroreversing.com/public/images/tools/Using PDB files for Reversing.jpg
 thumbnail: /public/consoles/Tools.jpg
 permalink: /PDBFileReversing
 breadcrumbs:
@@ -18,7 +18,9 @@ breadcrumbs:
     url: /introduction
   - name: Using PDB symbol files for Reverse Engineering
     url: #
-recommend: introduction
+recommend:
+ - introduction
+ - xbox
 editlink: /tutorials/PDBFilesForReverseEngineering.md
 ---
 
