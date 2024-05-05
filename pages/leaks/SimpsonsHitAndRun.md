@@ -7,8 +7,8 @@ tags:
 - leak
 title: The Simpsons Hit & Run Source Code Leak  
 thumbnail: /public/consoles/Sony PS2.png
-image: /public/images/leaks/SimpsonsHitAndRun.jpg
-twitterimage: https://www.retroreversing.com/public/images/leaks/SimpsonsHitAndRun.jpg
+image_: /public/images/leaks/SimpsonsHitAndRun.jpg
+twitterimage_: https://www.retroreversing.com/public/images/leaks/SimpsonsHitAndRun.jpg
 permalink: /simpsons-hit-and-run-source-code
 breadcrumbs:
   - name: Home
