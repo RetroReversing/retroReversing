@@ -26,10 +26,15 @@ updatedAt_: '2024-05-05'
 ---
 
 # Introduction
+Handheld consoles have been a significant part of the gaming industry for decades, offering portable gaming experiences that allow players to enjoy their favorite games on the go. These devices have evolved considerably over time, from simple LCD-based systems to sophisticated multimedia platforms.
+
+This page will cover not the obscure commerical handheld consoles that many people may have forgotten about. 
 
 ---
 # Game.com (Tiger Electronics)
 The Game.com (pronounced "game com") was a handheld game console released by Tiger Electronics in 1997. It was designed to compete with other handheld gaming devices of its time, such as the Nintendo Game Boy and the Sega Game Gear. However, despite some innovative features, the Game.com ultimately struggled to gain traction in the market.
+
+{% include link-to-other-post.html post="/gamecom" description="For more information about the Game.com check out this post." %}
 
 ---
 # GP32 (Game Park Holdings)
