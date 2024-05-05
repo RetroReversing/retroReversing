@@ -1,0 +1,33 @@
+<div class="col-12 col-sm-6 col-md-3">
+<!--               <div class="card card-video wow slideInUp"> -->
+              <div class="card card-video">
+                  <div class="card-img">
+                      <a href="{{ include.post.url }}" target="_blank">
+                        {% if include.post.image %}
+                            <img class="lazy-load" data-image-full="{{ include.post.image }}" alt="{{ include.post.title }}">
+                        {% elsif include.post.youtube %}
+                            <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ include.post.youtube }}" alt="{{ include.post.title }}">
+                        {% else %}
+                            {% include placeholder-post-image.html title=include.post.title %}
+                        {% endif %}
+                      </a>
+                      {% if include.post.recommend %}
+                        <div class="card-meta">
+                          {% if include.post.recommend.first %}
+                            <span>{{ include.post.recommend.first }}</span>
+                          {% else %}
+                            <span>{{ include.post.recommend }}</span>
+                          {% endif %}
+                        </div>
+                      {% endif %}
+                  </div>
+                  <div class="card-block">
+                       <h4 class="card-title"><a href="{{ include.post.url }}" target="_blank" >{{ include.post.title }}</a></h4>
+                       <div class="card-meta">
+                         {% if include.post.updatedAt %}
+                            <span><i class="fa fa-clock-o"></i> {{ include.post.updatedAt | date_to_long_string: "ordinal" }}</span>
+                         {% endif %}
+                       </div>      
+                  </div>
+              </div>
+        </div>
