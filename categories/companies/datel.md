@@ -53,11 +53,11 @@ A few of the features include:
 
 It seems very similar to the "WorldPort" but without the email sending functionality.
 
-![SmartCom](https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace)
+<img data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace" alt="SmartCom" class="lazy-load" />
 
 ## WorldPort
 Send and recieve emails on your Game Boy with World Port! It comes with a cable that goes from the cartridge directly into any UK phone socket and you get a free email address. However you need to pay per email which comes in the form of top-up cards you need to buy seperately.
-![WorldPort](https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2)
+<img data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2" alt="WorldPort" class="lazy-load" />
 
 
 ## Rocket Games (unlicenced game boy games)
