@@ -107,8 +107,8 @@
         {% for post in all_pages %}
         {% if post.layout == 'post' && post.permalink %}
         {% if forloop.index > 10 %}
-<!--         // We could make this even lazier after x elements
-        {% else %} -->
+            {% include home-card.html post=post %} 
+        {% else %}
 <!--         Start Card -->
             <div class="col-12 col-sm-6 col-md-3">
 <!--               <div class="card card-video wow slideInUp"> -->
