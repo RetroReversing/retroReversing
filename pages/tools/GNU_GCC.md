@@ -14,7 +14,7 @@ breadcrumbs:
     url: #
 recommend: tools
 editlink: /tools/GNU_GCC.md
-updatedAt: 31st August 2020
+updatedAt: '2020-08-31'
 ---
 
 When reverse engineering programs that have been compiled from C/C++ it is very likely that the toolchain was based on the GNU Compiler Collection (GCC).
