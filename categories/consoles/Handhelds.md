@@ -71,6 +71,10 @@ The Wonderswan is a classic video game console that was only ever released in Ja
 {% include link-to-other-post.html post="/wonderswan" description="For more information about the Bandai Wonderswan check out this post." %}
 
 ---
+# Lynx (Atari)
+The Atari Lynx is a handheld gaming console released by Atari Corporation in September 1989. One of the most significant features of the Atari Lynx was its color LCD screen compared to the Game Boy's monochrome screen.
+
+---
 # Game Gear (SEGA)
 The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games.
 
