@@ -107,8 +107,9 @@
         {% for post in all_pages %}
         {% if post.layout == 'post' && post.permalink %}
         {% if forloop.index > 10 %}
-        {{ forloop.index }}
-        {% endif %}
+        // We could make this even lezier after x elements
+        {% else %}
+<!--         Start Card -->
             <div class="col-12 col-sm-6 col-md-3">
 <!--               <div class="card card-video wow slideInUp"> -->
               <div class="card card-video">
@@ -143,6 +144,8 @@
                   </div>
               </div>
         </div>
+<!--   End Card        -->
+{% endif %}
         {% endif %}
         {% endfor %}     
       </div>
