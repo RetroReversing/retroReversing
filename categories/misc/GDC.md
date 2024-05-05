@@ -2030,3 +2030,16 @@ Satoru Iwata was the president of Nintendo at the time of the 2005 Keynote, his 
  Finally, Iwata talks about his own personal philosophy as a game developer. He says that he believes that the most important thing is to create games that are fun and that bring joy to players. He also says that he believes that game developers should always be striving to create new and innovative experiences.
 
  Overall, the video is a reflection on the history of Nintendo and the importance of innovation in the video game industry. It is also a personal story about Iwata's own experiences as a game developer. 
+
+ ---
+# References
+[^1]: Tom Kalinske in RETRO volume 9 (page 25)
+[^2]: [Game Developers Conference (Concept) - Giant Bomb](https://www.giantbomb.com/game-developers-conference/3015-6699/)
+[^3]: [Game Developers Conference Online - Press Area](https://web.archive.org/web/19991004043939/http://www.gdconf.com/archive/)
+[^4]: [The History of Game Developers Conference (documentary, 2019/2020) - YouTube](https://www.youtube.com/watch?v=HqpzBzcvUdw)
+[^5]: [GDC 2000 - GameSpot](https://www.gamespot.com/articles/gdc-2000/1100-2451531/)
+[^6]: [Game Developers Conference 2000: Special Events](https://web.archive.org/web/20001117103000/http://www.gdconf.com/2000/directx.html)
+[^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
+[^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
+[^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
+
