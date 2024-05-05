@@ -6,6 +6,7 @@ recommend:
 - industry
 - snsystems
 tags:
+- companies
 - industry
 - snsystems
 recommendTitle: All SN Systems Posts
@@ -16,7 +17,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Companies
-    url: /
+    url: /companies
   - name: SN Systems
     url: #
 redirect_from:
