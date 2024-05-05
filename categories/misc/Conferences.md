@@ -2081,11 +2081,29 @@ It discusses the new hardware and software for game development shown off at SIG
 
 ---
 # D.I.C.E Summit
-D.I.C.E stands for "Design, Innovate, Communicate, Entertain" and was first held in 2002 in Las Vegas, its main focus in game design topics along with business rather than game programming or asset creation. Its part of the Academy of Interactive Arts and Sciences and they record the presentations and in the early days they would sell this footage on DVD, but the modern conferences host the videos online for free.
+D.I.C.E stands for "Design, Innovate, Communicate, Entertain" and was first held from February 28th to March 1st, 2002 in the Hard Rock Hotel Las Vegas [^10]. The main focus is game design topics along with business rather than game programming or asset creation. 
 
-Here is an Advert for the DICE Summit DVD from issue 1 of the US magazine GMR from February 2003:
+It is part of the Academy of Interactive Arts and Sciences and they record the presentations which they would sell footage on DVD, but the modern conferences host the videos online for free.
+
+Here is an Advert for the DICE Summit DVD from issue 1 of the US magazine GMR from February 2003, it has 4 DVDs which has 9 hours of presentations:
 ![DICE Summit DVD from GMR_01](https://github.com/RetroReversing/retroReversing/assets/40120498/05787d2a-7bbc-4fd8-a60a-91a599d59bad)
 
+## D.I.C.E 2002
+
+Name | Presenter | Notes
+---|---|---
+"Laughing Matters" | Lorne Lanning - President & Creative Director, Oddworld Inhabitants |
+"Planning, Scheduling and Other Bad Habits of Game Development" | Mark Cerny - President, Cerny Games | 
+"The Games People Play...For Money" | Joe Kaminkow - Vice President, Engineering and Design, IGT |
+"Differentiate and Innovate, Don't Imitate" | Bruce Shelley - Senior Designer, Ensemble Games | 
+"The DINO Project: Three Glorious Failures" | Sid Meier - Chairman and Director of Creative Development, Firaxis Games |
+"Attack of the Killer Sequels" | Richard Garriott - CCO & Executive Producer, Destination Games | 
+"Designing for the Mass Market" | Jason Rubin - President & Co-Founder, Naughty Dog | 
+"Invoking Emotions through Gameplay - The Present and the Future" | David Freeman - Writer/Producer | 
+"Audience Developed Products - How to Involve the World" | Will Wright - Chief Designer, Maxis | 
+"Can Music Make or Break Your Game?" | Michael Giacchino - Edgewater Park Music | 
+"Games for the Rest of the World" (Roundtable) |  Bruno Bonnell, CEO, Infogrames; Larry Probst, CEO, Electronic Arts; and Brian Farrell, CEO, THQ | 
+"Is Corporate Creativity an Oxymoron?" (Roundtable) | Cliff Bleszinski, Chief Designer, Epic Games; Louis Castle, General Manager, Westwood Studios; and American McGee, Chief Creative Officer, Carbon6 Entertainment | 
 
 ---
 # Develop (Brighton)
@@ -2246,3 +2264,4 @@ Overall, he outlines the evolution of the Doom 3 graphics engine, addressing pas
 [^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
+[^10]: [D.I.C.E. Summit - February 28 March 1, 2002](https://web.archive.org/web/20011130014100/http://dicesummit.org/)
