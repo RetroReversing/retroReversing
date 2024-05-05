@@ -105,15 +105,17 @@
       <div class="row row-5">
         {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
         {% for post in all_pages %}
-        {% if post.image or post.youtube %}
+<!--         {% if post.image or post.youtube %} -->
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video wow slideInUp">
                   <div class="card-img">
                       <a href="{{ post.url }}" target="_blank">
                         {% if post.image %}
                             <img class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
-                        {% else if post.youtube %}
+                        {% elsif post.youtube %}
                             <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+                        {% else %}
+                            {% include placeholder-post-image.html title=post.title %}
                         {% endif %}
                       </a>
                       {% if post.recommend %}
@@ -137,7 +139,7 @@
                   </div>
               </div>
         </div>
-        {% endif %}
+<!--         {% endif %} -->
         {% endfor %}     
       </div>
       
