@@ -6,6 +6,10 @@ console: datel
 breadcrumbs:
   - name: Home
     url: /
+  - name: Notable Companies
+    url: /companies
+  - name: Datel
+    url: /datel
 redirect_from:
   - /datel
 editlink: ../categories/companies/datel.md
