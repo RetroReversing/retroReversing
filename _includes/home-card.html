@@ -1,3 +1,6 @@
+{% if include.hidden %}
+  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="include.post.image" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
+{% else %}
 <div class="col-12 col-sm-6 col-md-3 {{ classes }}">
     <div class="card card-video">
         <div class="card-img">
@@ -30,3 +33,4 @@
         </div>
     </div>
 </div>
+{% endif %}
