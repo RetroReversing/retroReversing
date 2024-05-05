@@ -105,44 +105,13 @@
       <div class="row row-5">
         {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
         {% for post in all_pages %}
-        {% if post.layout == 'post' && post.permalink %}
-        {% if forloop.index > 10 %}
-            {% include home-card.html post=post %} 
-        {% else %}
-            <div class="col-12 col-sm-6 col-md-3">
-              <div class="card card-video">
-                  <div class="card-img">
-                      <a href="{{ post.url }}" target="_blank">
-                        {% if post.image %}
-                            <img class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
-                        {% elsif post.youtube %}
-                            <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
-                        {% else %}
-                            {% include placeholder-post-image.html title=post.title %}
-                        {% endif %}
-                      </a>
-                      {% if post.recommend %}
-                        <div class="card-meta">
-                          {% if post.recommend.first %}
-                            <span>{{ post.recommend.first }}</span>
-                          {% else %}
-                            <span>{{ post.recommend }}</span>
-                          {% endif %}
-                        </div>
-                      {% endif %}
-                  </div>
-                  <div class="card-block">
-                       <h4 class="card-title"><a href="{{ post.url }}" target="_blank" >{{ post.title }}</a></h4>
-                       <div class="card-meta">
-                         {% if post.updatedAt %}
-                            <span><i class="fa fa-clock-o"></i> {{ post.updatedAt | date_to_long_string: "ordinal" }}</span>
-                         {% endif %}
-                       </div>      
-                  </div>
-              </div>
-        </div>
-  {% endif %}
-        {% endif %}
+          {% if post.layout == 'post' && post.permalink %}
+            {% if forloop.index > 10 %}
+                {% include home-card.html post=post display="hidden" %} 
+            {% else %}
+                {% include home-card.html post=post display="inline" %} 
+            {% endif %}
+          {% endif %}
         {% endfor %}     
       </div>
       
