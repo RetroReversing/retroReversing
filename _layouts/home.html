@@ -105,7 +105,7 @@
       <div class="row row-5">
         {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
         {% for post in all_pages %}
-        {% if post.layout == 'post' %}
+        {% if post.layout == 'post' && post.permalink %}
             <div class="col-12 col-sm-6 col-md-3">
               <div class="card card-video wow slideInUp">
                   <div class="card-img">
