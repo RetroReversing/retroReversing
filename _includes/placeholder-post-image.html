@@ -1,7 +1,7 @@
 {% if include.title %}
 <!--   Placeholder  -->
-<div style="position: relative; color: white; height:150px; background-color: lightgrey; display: block;" class="geopattern" data-title="{{ include.title }}">
-  <img class="lazy-load" style="max-height: 32% !important; min-height: 32% !important; height:32% !important; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.title }}">
+<div style="position: relative; color: white; height:150px; background-color: black; display: block;" class="geopattern" data-title="{{ include.title }}">
+  <img class="lazy-load" style="max-height: 32% !important; background-color: black; min-height: 32% !important; height:32% !important; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.title }}">
   <span style="max-width:85%; position: absolute; top:7%; left: 14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-weight: 900;">
     {{ include.title | split: '-' | first }}
   </span>
