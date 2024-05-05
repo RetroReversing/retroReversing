@@ -109,9 +109,7 @@
         {% if forloop.index > 10 %}
             {% include home-card.html post=post %} 
         {% else %}
-<!--         Start Card -->
             <div class="col-12 col-sm-6 col-md-3">
-<!--               <div class="card card-video wow slideInUp"> -->
               <div class="card card-video">
                   <div class="card-img">
                       <a href="{{ post.url }}" target="_blank">
@@ -143,8 +141,7 @@
                   </div>
               </div>
         </div>
-<!--   End Card        -->
-{% endif %}
+  {% endif %}
         {% endif %}
         {% endfor %}     
       </div>
