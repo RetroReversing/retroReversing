@@ -69,3 +69,10 @@ The Pokemon Mini was a low profile handheld games console developed by Nintendo'
 The Wonderswan is a classic video game console that was only ever released in Japan (on 4th March 1999).
 
 {% include link-to-other-post.html post="/wonderswan" description="For more information about the Bandai Wonderswan check out this post." %}
+
+---
+# Game Gear (SEGA)
+The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games.
+
+{% include link-to-other-post.html post="/gamegear/" description="For more information about the Sega Game Gear check out this post." %}
+
