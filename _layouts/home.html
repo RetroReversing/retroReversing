@@ -158,6 +158,12 @@
 
   {% include footer.html %}
 
+  <script>
+  var pageData = {{ page | jsonify | strip_newlines }};
+
+  console.log("TODO: Load the cards dynamically on scroll instead of all at once", pageData);
+</script>
+
  
 </body>
 </html>
