@@ -251,14 +251,9 @@ function isInView(element) {
         }
         var image_url = content_image.getAttribute('data-image-full');
 
-        if (image_url) {
           // change the src of the content image to load the new high res photo
           content_image.src = image_url;
-        }
-        else {
-          // otherwise we are a normal element
-          content_image.show();
-        }
+        
         try {
            $(content_image).removeClass("lazy-load");
         } catch (e) {
