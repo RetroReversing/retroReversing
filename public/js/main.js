@@ -190,3 +190,174 @@ function setModalMaxHeight(element) {
 		'overflow-y': 'auto'
 	});
 }
+
+function replaceAll(str, find, replace) {
+       return str.replace(new RegExp(find, 'g'), replace);
+    }
+    
+    function handle_tab_groups() {
+      var rr_tab_groups = $(".rr-tabs");
+
+      rr_tab_groups.each(function loop_tab_group(index, tab_group) {
+        var rr_tabs = $(tab_group).find('.rr-tab');
+
+        var li_tabs = rr_tabs.map(function mapTabsToHeaders(i,v) {
+          var title = $(v).attr('title'); 
+          var isdefault = $(v).attr('default') === "";
+          var classnames = "";
+          if (isdefault) {
+            classnames = "active"
+          }
+          var href_title=replaceAll(title,' ','___');
+          return '<li><a class="'+classnames+'" href="#/'+href_title+'">'+title+'</a></li>';
+        });
+        
+        var result_html = li_tabs.toArray().join('');
+        $(tab_group).prepend('<ul class="tabs group">'+result_html+'</ul>');
+
+        var tabs =  $(tab_group).find(".tabs li a");
+
+        $(tab_group).find('.rr-tab').hide();
+        $(tab_group).find('div[default]').show();
+
+        tabs.click(function() {
+          var content = this.hash.replace('/','').replace('#','');
+          tabs.removeClass("active");
+          $(this).addClass("active");
+          $(tab_group).find('.rr-tab').hide();
+          var href_content=replaceAll(content,'___',' ');
+
+          $('div[title|="'+href_content+'"]').show();
+        });
+
+      });
+    }
+
+    function lazyLoad() {
+      var card_images = document.querySelectorAll('.lazy-load');
+
+      // loop over each lazy loadable image
+      card_images.forEach(function(content_image) {
+        var image_url = content_image.getAttribute('data-image-full');
+        // change the src of the content image to load the new high res photo
+        content_image.src = image_url;
+        try {
+           $(content_image).removeClass("lazy-load");
+        } catch (e) {
+          console.error("error removing lazy-load class:", e);
+        }
+      });
+
+    }
+  
+  function setupCarousel() {
+    var items = 1;
+//       if ($(window).width() > 600) {
+//         items=2;
+//       }
+
+      // Full Width Carousel
+      $('.owl-slide-auto-play').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: true,
+        items: items
+      });
+      
+      $('.owl-slide-no-auto').owlCarousel({
+        nav: true,
+        loop: true,
+        autoplay: false,
+        items: 1
+      });
+  }
+  
+  function setupDataTables() {
+    // Table Handling
+    try {      
+          // Make markdown tables have the bootstrap table class to look pretty
+          $('table').addClass('table');
+
+          // We only want striped tables if the table has more than one element
+          function onlyRowsGreaterThanTwo(index) { return $( "tr", this ).length > 2 }
+          $('table').filter(onlyRowsGreaterThanTwo).addClass('table-striped');
+
+          // Only use the fancy table if elements greater than minimum
+          function onlyRowsGreaterThanMinimum(index) { return $( "tr", this ).length > 11 }
+
+
+          $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
+    } catch (e) {
+      console.error("Exception with table handling:", e);
+    }
+    //  End Table Handling
+    
+  }
+  
+  function generateChangelogs($) {
+        $('.rr-version-gen').each(function(index) {
+            $(this).replaceWith( `<div>
+                <div class="rr-changelog-version">`+$(this).attr('version')+`</div>
+                <div class="rr-changelog-date">`+$(this).attr('date')+`</div>
+        </div>
+            `);
+        });
+
+        $('.rr-info-gen').each(function(index) {
+          let childText = $(this).text();
+          let badge = $(this).attr('badge');
+          let description = childText || $(this).attr('desc');
+          let locationOfFirstDash = childText.indexOf(' - ');
+          if (locationOfFirstDash > 0) {
+            badge = childText.substr(0, locationOfFirstDash)
+            description = childText.substr(locationOfFirstDash+3) // get everything after the first " - ", plus the three characters that make up the deliminator
+          }
+          $(this).replaceWith(`<div class="rr-changelog rr-changelog-success">
+                        <div class="rr-changelog-badge">`+badge+`</div>
+                        <div class="rr-changelog-info">`+description+`</div>
+                    </div>`);
+        })
+     }
+    
+    (function($) {
+      handle_tab_groups();
+    })(jQuery);
+    
+    
+    (function($) {
+      "use strict";
+      
+     $(document).ready(function() {
+      setupCarousel();
+      setupDataTables();
+
+      // lightbox
+      // $('[data-lightbox]').lightbox();
+      
+      // scroll animations
+      new WOW().init();
+      
+       generateChangelogs($);
+      
+      // geopattern
+      $(function() {
+        $('.geopattern').each(function geoP() {
+          $(this).geopattern($(this).attr('data-title'));
+        })
+      });
+      // end geopattern
+      
+    // Lazy Load Images
+    //     window.addEventListener('load', function() {
+      // setTimeout to simulate the delay from a real page load
+      setTimeout(lazyLoad, 1000);
+    //     });
+    
+    window.addEventListener('click', function() {
+      // Whenever the user clicks on something like the table page buttons, make sure to load any new images
+      setTimeout(lazyLoad, 100);
+    });
+      
+    }); // end ready function
+      
+    })(jQuery);
