@@ -6,7 +6,8 @@ recommend:
 - leaks
 - leak
 recommendTitle: All Leaks
-title: Game Industry Source Code Leaks
+thumbnail: /public/images/RetroReversingLogoSmall.png
+title: Industry Leaks - Game Industry Source Code Leaks
 breadcrumbs:
   - name: Home
     url: /
