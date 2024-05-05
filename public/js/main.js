@@ -347,6 +347,17 @@ function isInView(element) {
       // This is called everytime the user scrolls so make sure not to do anything too heavy here
       lazyLoad();
     }
+
+function convertAllNonClassImagesToLazy() {
+  // By default make all images without classes lazy
+  var all_images = document.querySelectorAll('img');
+
+  all_images.forEach(function(img) {
+    if (!img.classList.length) { // Check if no classes are present
+      img.classList.add('lazy-load'); // Add the class only if no classes are present
+    }
+  });
+}
     
     (function($) {
       "use strict";
@@ -354,6 +365,9 @@ function isInView(element) {
      $(document).ready(function() {
       setupCarousel();
       setupDataTables();
+
+       
+       convertAllNonClassImagesToLazy()
 
       // lightbox
       // $('[data-lightbox]').lightbox();
