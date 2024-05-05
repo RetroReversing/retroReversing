@@ -7,6 +7,10 @@ thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /
+  - name: Conferences
+    url: /conferences
+  - name: Game Developers Conference
+    url: /gdc
 redirect_from:
   - /conference
   - /conf
@@ -23,12 +27,23 @@ updatedAt_: '2024-05-05'
 ---
 
 # GDC - Game Developer's Conference
-GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. 
+
+The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+
+
 
 ## CGDC 1988
-The first Computer Game Developers Conference (CGDC) was held in 1988. It was founded by Chris Crawford, a well-known game designer and developer, and it took place in his living room in San Jose, California. This initial gathering was relatively small (27) and informal compared to the later iterations of GDC, but it marked the beginning of what would become one of the most significant annual events in the video game industry. Since that modest start, GDC has grown in size and importance, attracting game developers and industry professionals from around the world.
+The first Computer Game Developers Conference (CGDC) was held in 1988. It was founded by Chris Crawford, a well-known game designer and developer, and it took place in his living room in San Jose, California. This initial gathering was relatively small (27) and informal compared to the later iterations of GDC, but it marked the beginning of what would become one of the most significant annual events in the video game industry. 
+
+Since that modest start, GDC has grown in size and importance, attracting game developers and industry professionals from around the world.
+
+The best source of information about the first few CGDC events is to watch this excellent documentary by **GamersGlobal** available below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HqpzBzcvUdw?si=9aO-rHICIZyv6Yni" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 ## CGDC 2 - September 18th/19th 1988
 The second Computer Game Developers Conference (CGDC) was held later in the same year, on September 18th and 19th 1988. It was sponsored by Computer Gaming World and would be the first GDC with a pre-planned agenda. It had about 150 atendees, a whole five times larger than the previous conference hosted earlier the same year.
@@ -86,7 +101,11 @@ We only know of a few talks that took place at this conference:
 
 
 ### The Artistic C
-The earliest known recording of a Game Developer Conference talk is called **The Artistic C** by Jim Gasperini. This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he beleives it will evolve over time. You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
+The earliest known recording of a Game Developer Conference talk is called **The Artistic C** by Jim Gasperini. 
+
+This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he beleives it will evolve over time. 
+
+You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
 
 ---
 ## CGDC 1991 - March
