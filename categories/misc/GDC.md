@@ -1,3 +1,26 @@
+---
+layout: post
+permalink: /gdc
+console: industry
+title: Game Developers Conference (GDC) - Full list of historical sessions
+thumbnail: /public/images/RetroReversingLogoSmall.png
+breadcrumbs:
+  - name: Home
+    url: /
+redirect_from:
+  - /conference
+  - /conf
+editlink: ../categories/misc/GDC.md
+recommend: 
+ - industry
+ - introduction
+image_: /public/images/categories/GDC.jpg
+twitterimage_: https://www.retroreversing.com/public/images/categories/GDC.jpg
+tags:
+ - industry
+excerpt: Awesome list of Historic GDC Conferences including Audio and Video recordings
+updatedAt_: '2024-05-05'
+---
 
 # GDC - Game Developer's Conference
 GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
