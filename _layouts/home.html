@@ -106,6 +106,9 @@
         {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
         {% for post in all_pages %}
         {% if post.layout == 'post' && post.permalink %}
+        {% if forloop.index > 10 %}
+        {{ forloop.index }}
+        {% endif %}
             <div class="col-12 col-sm-6 col-md-3">
 <!--               <div class="card card-video wow slideInUp"> -->
               <div class="card card-video">
