@@ -6,7 +6,7 @@ tags:
 - devkit
 title: Official PlayStation 4 Development Kit (Hardware)
 thumbnail: /public/consoles/Sony Playstation 4.png
-image: /public/images/ps3/Sony PS4 Devkit hardware.jpg
+image_: /public/images/ps3/Sony PS4 Devkit hardware.jpg
 permalink: /official-playStation4-devkit
 breadcrumbs:
   - name: Home
