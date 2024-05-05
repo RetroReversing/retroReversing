@@ -111,7 +111,7 @@
                       <a href="{{ post.url }}" target="_blank">
                         {% if post.image %}
                             <img class="lazy-load" data-image-full="{{ post.image }}" alt="{{ post.title }}">
-                        {% elif post.youtube %}
+                        {% elsif post.youtube %}
                             <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
                         {% else %}
                             {% include placeholder-post-image.html title=post.title %}
