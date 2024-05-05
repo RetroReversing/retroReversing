@@ -11,8 +11,8 @@ excerpt: Awesome list of Wonderswan Game Development and Reverse Engineering inf
 breadcrumbs:
   - name: Home
     url: /
-  - name: Consoles
-    url: /
+  - name: Handheld Consoles
+    url: /handhelds
   - name: Wonderswan
     url: #
 recommend: 
