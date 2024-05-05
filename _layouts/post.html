@@ -38,7 +38,11 @@
           <div class="post post-single">
             <div class="post-header">
               <div>
-                <img src="{{ page.thumbnail }}" alt="">
+                {% if page.thumbnail %}
+                  <img src="{{ page.thumbnail }}" alt="">
+                {% else %}
+                  <img src="/public/images/RetroReversingLogoSmall.png" alt="Retro reversing logo">
+                {% endif %}
               </div>
               <div>
                 <h2 class="post-title">{{ page.title }}</h2>             
