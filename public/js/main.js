@@ -233,11 +233,20 @@ function replaceAll(str, find, replace) {
       });
     }
 
+// isInView is used for lazy loading to check if we should load it or not
+function isInView(element) {
+    var scrollTop = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    var elementTop = $(element).offset().top;
+    return (elementTop >= scrollTop && elementTop <= scrollTop + windowHeight);
+  }
+
     function lazyLoad() {
       var card_images = document.querySelectorAll('.lazy-load');
 
       // loop over each lazy loadable image
       card_images.forEach(function(content_image) {
+        console.log("isInView?", isInView(content_image));
         var image_url = content_image.getAttribute('data-image-full');
         // change the src of the content image to load the new high res photo
         content_image.src = image_url;
@@ -318,11 +327,16 @@ function replaceAll(str, find, replace) {
                     </div>`);
         })
      }
+
+
     
     (function($) {
       handle_tab_groups();
     })(jQuery);
-    
+
+function onScroll() {
+  console.log("User has scrolled");
+}
     
     (function($) {
       "use strict";
@@ -336,6 +350,8 @@ function replaceAll(str, find, replace) {
       
       // scroll animations
       new WOW().init();
+
+       $(window).scroll(onScroll)
       
        generateChangelogs($);
       
