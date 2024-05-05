@@ -246,7 +246,9 @@ function isInView(element) {
 
       // loop over each lazy loadable image
       card_images.forEach(function(content_image) {
-        console.log("isInView?", isInView(content_image));
+        if (!isInView(content_image)) {
+          return;
+        }
         var image_url = content_image.getAttribute('data-image-full');
         // change the src of the content image to load the new high res photo
         content_image.src = image_url;
@@ -334,9 +336,10 @@ function isInView(element) {
       handle_tab_groups();
     })(jQuery);
 
-function onScroll() {
-  console.log("User has scrolled");
-}
+    function onScroll() {
+      // This is called everytime the user scrolls so make sure not to do anything too heavy here
+      lazyLoad();
+    }
     
     (function($) {
       "use strict";
