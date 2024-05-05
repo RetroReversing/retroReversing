@@ -107,9 +107,9 @@
         {% for post in all_pages %}
           {% if post.layout == 'post' && post.permalink %}
             {% if forloop.index > 12 %}
-                {% include home-card.html post=post display="none" classes="lazy-load" %} 
+                {% include home-card.html post=post classes="" hidden=true %} 
             {% else %}
-                {% include home-card.html post=post display="inline" classes="" %} 
+                {% include home-card.html post=post classes="" %} 
             {% endif %}
           {% endif %}
         {% endfor %}     
