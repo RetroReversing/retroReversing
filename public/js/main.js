@@ -349,7 +349,9 @@ function convertAllNonClassImagesToLazy() {
 
   all_images.forEach(function(img) {
     if (!img.classList.length) { // Check if no classes are present
+       var image_url = img.getAttribute('src');
       img.classList.add('lazy-load'); // Add the class only if no classes are present
+      img.setAttribute('data-image-full', image_url);
     }
   });
 }
