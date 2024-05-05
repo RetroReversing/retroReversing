@@ -2085,10 +2085,10 @@ D.I.C.E stands for "Design, Innovate, Communicate, Entertain" and was first held
 
 It is part of the Academy of Interactive Arts and Sciences and they record the presentations which they would sell footage on DVD, but the modern conferences host the videos online for free.
 
-Here is an Advert for the DICE Summit DVD from issue 1 of the US magazine GMR from February 2003, it has 4 DVDs which has 9 hours of presentations:
-![DICE Summit DVD from GMR_01](https://github.com/RetroReversing/retroReversing/assets/40120498/05787d2a-7bbc-4fd8-a60a-91a599d59bad)
-
 ## D.I.C.E 2002
+The first ever D.I.C.E Summit was held from February 28th to March 1st, 2002 in the Hard Rock Hotel Las Vegas [^10].
+
+The presentations that took place are listed in the table below:
 
 Name | Presenter | Notes
 ---|---|---
@@ -2104,6 +2104,12 @@ Name | Presenter | Notes
 "Can Music Make or Break Your Game?" | Michael Giacchino - Edgewater Park Music | 
 "Games for the Rest of the World" (Roundtable) |  Bruno Bonnell, CEO, Infogrames; Larry Probst, CEO, Electronic Arts; and Brian Farrell, CEO, THQ | 
 "Is Corporate Creativity an Oxymoron?" (Roundtable) | Cliff Bleszinski, Chief Designer, Epic Games; Louis Castle, General Manager, Westwood Studios; and American McGee, Chief Creative Officer, Carbon6 Entertainment | 
+
+
+The 2002 D.I.C.E. Summit DVD set was available for $250 to Academy members and $450 to non-members. The DVD was produced by Ziff Davis Media (who publish the GMR magazine).
+
+Here is an Advert for the DICE Summit DVD from issue 1 of the US magazine GMR from February 2003, it has 4 DVDs which has 9 hours of presentations:
+![DICE Summit DVD from GMR_01](https://github.com/RetroReversing/retroReversing/assets/40120498/05787d2a-7bbc-4fd8-a60a-91a599d59bad)
 
 ---
 # Develop (Brighton)
