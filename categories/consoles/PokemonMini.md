@@ -21,8 +21,8 @@ videocarousel:
 breadcrumbs:
   - name: Home
     url: /
-  - name: Consoles
-    url: /
+  - name: Handheld Consoles
+    url: /handhelds
   - name: Pokemon Mini
     url: #
 updatedAt: '2021-04-18'
