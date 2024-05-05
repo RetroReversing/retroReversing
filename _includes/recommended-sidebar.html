@@ -16,14 +16,14 @@
                   <div class="widget-img">
                     <a href="{{ post.permalink }}" target="_blank">
                       {% if post.image %}
-                        <img class="lazy-load" style="height:135px; display: block;" data-image-full="{{ post.image }}" alt="{{ page.title }}">
+                        <img class="lazy-load" style="height:135px; display: block;" data-image-full="{{ post.image }}" alt="{{ post.title }}">
                       {% elsif post.youtube %}
                         <img class="lazy-load" style="height:135px;display: block;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
                       {% else %}
                         <!--   Placeholder  -->
                       <div style="height:135px; background-color: lightgrey; display: block;">
-                       <img class="lazy-load" style="height:135px; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ page.title }}">
-                        <span style="position: absolute; top:10%; left: 10%; white-space: nowrap; text-overflow: ellipsis;">{{ page.title }}</span>
+                       <img class="lazy-load" style="height:135px; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ post.title }}">
+                        <span style="position: absolute; top:5%; left: 12%; white-space: nowrap; text-overflow: ellipsis;">{{ post.title }}</span>
                        </div>
                       {% endif %}
                     </a>
