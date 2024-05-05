@@ -52,7 +52,7 @@ There were 28 commercial games released for the GP32, Wikipedia has a page listi
 [List of commercial GP32 games - Wikipedia](https://en.wikipedia.org/wiki/List_of_commercial_GP32_games)
 
 ---
-## GP2X (Game Park Holdings)
+# GP2X (Game Park Holdings)
 The GP2X is a handheld gaming console developed by the South Korean company GamePark Holdings. It was released in 2005 as the successor to the GP32. The GP2X was notable for its open architecture and support for homebrew software, much like its predecessor.
 
 The GP2X ran on a Linux-based operating system, which provided a stable and customizable platform for developers
