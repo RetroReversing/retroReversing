@@ -33,8 +33,15 @@ It was founded by brothers Richard and David Darling in 1986.
 
 The company initially began by developing and publishing games for home computers of the era, such as the Commodore 64, ZX Spectrum, and Amstrad CPC.
 
+
 ---
 # Hardware
+
+## Game Genie
+
+Game Genie was a series of video game enhancement devices developed by Codemasters and distributed by Galoob (later acquired by Hasbro). It was first released in 1990 for various gaming consoles, including the Nintendo Entertainment System (NES), Sega Genesis/Mega Drive, Super Nintendo Entertainment System (SNES), Game Boy, and Sega Game Gear.
+
+The Game Genie allowed players to input special codes, known as "cheat codes," which modified the behavior of games. These codes could enable features like unlimited lives, infinite ammunition, invincibility, and other gameplay enhancements that were not normally available in the game. Players could enter these codes through a simple interface before starting their game, and the effects would take place during gameplay.
 
 ## CD-ROM for the Nintendo Entertainment System
 In issue 1 of the UK Magazine GamesX the following was printed:
