@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.container.post-container {
+  max-width: 90vw !important;
+  width: 90vw;
+}
+
 /* hide scrollbar on webkit */
 ::-webkit-scrollbar {
     display: none;
@@ -18,9 +23,7 @@ body {
   font-weight: 600;
 }
 
-.container .post-container {
-  max-width: 90vw;
-}
+
 
 .post strong {
   color: #2089b0;
