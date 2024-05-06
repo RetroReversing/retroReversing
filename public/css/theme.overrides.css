@@ -46,7 +46,7 @@ body {
 }
 
 /* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, .table img {
+.widget-img img, .post-header img, .table img, .rr-file-card img {
   width: unset;
   margin-left: unset;
   display: unset;
