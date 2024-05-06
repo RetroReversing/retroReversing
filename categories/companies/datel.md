@@ -56,11 +56,11 @@ A few of the features include:
 
 It seems very similar to the "WorldPort" but without the email sending functionality.
 
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace" alt="SmartCom" class="lazy-load" />
+<img width="50%" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace" alt="SmartCom" class="lazy-load" />
 
 ## WorldPort
 Send and recieve emails on your Game Boy with World Port! It comes with a cable that goes from the cartridge directly into any UK phone socket and you get a free email address. However you need to pay per email which comes in the form of top-up cards you need to buy seperately.
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2" alt="WorldPort" class="lazy-load" />
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2" alt="WorldPort" class="lazy-load" />
 
 
 ## Rocket Games (unlicenced game boy games)
@@ -75,10 +75,10 @@ The 8 games that were released are below:
 * **Pocket Smash Out** - Arcade game
 * **Race Time** - Racing game
 
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1fb5b82b-67b0-496e-a1af-4514ea7b4045" alt="Karate Joe - RocketGame" class="lazy-load" />
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed" alt="Painter - RocketGame" class="lazy-load" />
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/6fe71058-0b3a-460d-b987-221d669cd36b" alt="Space Invasion - Rocket Game" class="lazy-load" />
-<img width="822px" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3" alt="All Rocket Games for GBC" class="lazy-load" />
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1fb5b82b-67b0-496e-a1af-4514ea7b4045" alt="Karate Joe - RocketGame" class="lazy-load" />
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/ed746b50-d725-4043-a251-ddcfc67b47ed" alt="Painter - RocketGame" class="lazy-load" />
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/6fe71058-0b3a-460d-b987-221d669cd36b" alt="Space Invasion - Rocket Game" class="lazy-load" />
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3" alt="All Rocket Games for GBC" class="lazy-load" />
 
 The Rocket Games were also provided free as part of the Playstation 2 "GameStudio" product which was a GameBoy player for the PS2.
 
@@ -89,10 +89,11 @@ Datel were one of the only companies releasing cheat devices for the Game Boy Co
 
 It contains a code generator to create your own codes (think of a limited version of Cheat Engine) along with a save state feature they called "freezing".
 
-![Action Relay Extreme for Game Boy Color](https://github.com/RetroReversing/retroReversing/assets/40120498/9c3fe851-8c97-474d-85e8-40c36ff9514a)
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3" alt="Action Relay Extreme for Game Boy Color" class="lazy-load" />
 
 There was also a special Pokemon crystal version released in a crystal like colour, presumably it can use the same codes as the original but probably just has the Pokemon crystal codes built in instead of having to type them in manually:
-![Pokemon Crystal Action Relay Extreme](https://github.com/RetroReversing/retroReversing/assets/40120498/f6455193-5037-4331-b51e-95ae51c88263)
+
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/f6455193-5037-4331-b51e-95ae51c88263" alt="Pokemon Crystal Action Relay Extreme" class="lazy-load" />
 
 
 ---
