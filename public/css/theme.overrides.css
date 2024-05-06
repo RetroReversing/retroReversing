@@ -86,7 +86,16 @@ body {
   color: #333;
 }
 
-. widget-friends i {
+/* Youtube videos in posts  */
+.post iframe {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    margin-left: 5vw;
+}
+
+
+.widget-friends i {
   width:64px;
   height:64px;
   text-align: center;
