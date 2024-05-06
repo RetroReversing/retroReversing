@@ -6,6 +6,7 @@ thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/Decompiled Retail Console Games.jpg
 twitterimage: https://www.retroreversing.com/public/images/Decompiled Retail Console Games.jpg
 console: sourcecode
+priority: 1.0
 breadcrumbs:
   - name: Home
     url: /
@@ -15,7 +16,9 @@ breadcrumbs:
     url: #
 recommend: 
 - sourcecode
+- introduction
 - games
+- industry
 tags:
 - sourcecode
 - games
