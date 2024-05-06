@@ -18,7 +18,7 @@ layout: none
      {% if post.image %}
       <image:image>
          <image:loc>https://www.retroreversing.com{{ post.image }}</image:loc>
-         <image:caption>{{ post.title }} - RetroReversing</image:caption>
+         <image:caption>{{ post.title | escape }} - RetroReversing</image:caption>
       </image:image>
      {% endif %}
    </url>
