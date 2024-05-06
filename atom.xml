@@ -11,7 +11,7 @@ layout: none
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
-  <link href="https://www.retroreversing.com/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.retroreversing.com/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://www.retroreversing.com/" rel="alternate" type="text/html"/>
   <updated>{{ most_recent_page.updatedAt }}T00:00:00+00:00</updated>
   <id>https://www.retroreversing.com/atom.xml</id>
