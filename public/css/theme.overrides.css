@@ -41,6 +41,11 @@ body {
   text-decoration: underline ;
 }
 
+.post hr {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
 .post h1 {
   padding-top: 10px;
   color: #0085b6;
