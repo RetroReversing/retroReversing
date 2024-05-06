@@ -1,7 +1,7 @@
 # Site Info
 title: RetroReversing
 tagline: 'Retro Reversing'
-description: ' Retro Video Game Reverse Engineering.'
+description: 'Retro Video Game Reverse Engineering.'
 baseurl: "/"
 url: https://www.retroreversing.com
 logo: '/public/logo.png'
@@ -11,7 +11,7 @@ highlighter: rouge
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-sitemap
+# - jekyll-sitemap ( replaced with our own implementation)
 whitelist:
   - jekyll-redirect-from
 
@@ -33,16 +33,6 @@ version: 1.0.0
 nav:
   Home:           
     - '/'
-  Consoles:   
-    - '/gameboy/'
-    - {Gameboy: '/gameboy/' }
-    - {N64: '/n64/' }
-#    - { Categories: '/blog/categories/' }
-#    - { Tags: '/blog/tags/' }
-  About:          
-    - '/about/'
-  Github Project: 
-    - 'http://codinfox.github.io/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
