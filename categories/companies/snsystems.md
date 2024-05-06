@@ -3,6 +3,7 @@ permalink: /companies/snsystems/
 layout: post
 console: snsystems
 recommend: 
+- companies
 - industry
 - snsystems
 tags:
