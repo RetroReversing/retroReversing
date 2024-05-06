@@ -7,11 +7,18 @@ thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /
+  - name: Industry
+    url: /industry
+  - name: Game Development Magazines
+    url: /magazines
 redirect_from:
   - /industry-magazines
   - /magazine
 editlink: ../categories/misc/Magazines.md
-recommend: industry
+priority: 0.9
+recommend:
+ - industry
+ - introduction
 image: /public/images/categories/Games Industry Magazines.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Magazines.jpg
 excerpt: Awesome list of Historic Retro Games Development Magazines and articles
