@@ -44,6 +44,11 @@ body {
   display: unset;
 }
 
+.card-video, .card-video .card-img {
+  width: 320px;
+  height: auto;
+}
+
 .table img {
   max-width: 200px;
 }
