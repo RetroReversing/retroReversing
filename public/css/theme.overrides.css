@@ -135,6 +135,11 @@ body {
   max-width: 270px;
 }
 
+/* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
+table.dataTable {
+  min-height: 460px;
+}
+
 /*  ILBM Viewer */
 .draghint {
   display: table;
