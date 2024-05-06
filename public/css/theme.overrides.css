@@ -18,7 +18,7 @@ body {
   font-weight: 600;
 }
 
-container {
+.container .post-container {
   max-width: 90vw;
 }
 
