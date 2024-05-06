@@ -66,6 +66,7 @@ On your computer of choice tou would need:
 * Linker
 * Program to send the ROM data to the console
 * Program to flash a ROM image to an EEPROM.
+* Program to create/edit sounds (e.g SynthLab for music composition or Sound Shop [^4]) and program to convert sound to a SNES sound format
 
 ## What programming languages were used to write SNES games?
 At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
