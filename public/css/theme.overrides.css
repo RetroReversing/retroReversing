@@ -18,6 +18,10 @@ body {
   font-weight: 600;
 }
 
+container {
+  max-width: 90vw;
+}
+
 .post strong {
   color: #2089b0;
 }
@@ -50,20 +54,20 @@ body {
   padding-top: 10px;
   color: #0085b6;
   font-size: 30px;
-  margin-left: -4em;
+  margin-left: -1em;
 }
 
 .post h2, .post h3, .post h4, .post h5, .post h6 {
   color: #0085b6;
-  margin-left: -2em;
+  margin-left: 1em;
 }
 
 .post h3 {
-   margin-left: -1em;
+   margin-left: -2em;
 }
 
 .post h4 {
-   margin-left: 2em;
+   margin-left: 3em;
 }
 
 .post h5 {
