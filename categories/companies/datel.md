@@ -138,6 +138,8 @@ The X-Port GBX allows you to upload and download saves from your GBA cartridges 
 # Super Nintendo (SNES)
 
 ## Pro Action Replay for the SNES
+The Action Replay for the Super Nintendo wasn't just a cheat cartirdge, it also allow you to play games from other regions!
+
 ![Pro Action Replay for the SNES](https://github.com/RetroReversing/retroReversing/assets/40120498/c10ca399-aef6-4476-ac3e-677225d31588)
 
 
