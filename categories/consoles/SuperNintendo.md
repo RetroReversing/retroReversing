@@ -116,6 +116,11 @@ On your computer of choice tou would need:
 * Program to send the ROM data to the console
 * Program to flash a ROM image to an EEPROM.
 
+## Were there any IDEs for the SNES?
+Integrated Development Environments (IDEs) as we know them today were not as prevalent or sophisticated. However, there were some software tools and environments that provided integrated features for assembly language development back in the early 90s.
+
+**Merlin** was a popular assembly language development environment for the Apple II. It provided an integrated editor, assembler, and debugger, making it a comprehensive tool for writing and debugging assembly code. This was used to write a number of Super Nintendo games for Interplay such as **RPM Racing** and the SNES port of Out Of **This World**[^4].
+
 ## How would teams send their games to QA or to the press?
 FTP servers were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
 
