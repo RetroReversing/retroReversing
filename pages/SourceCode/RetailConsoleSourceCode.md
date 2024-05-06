@@ -7,6 +7,7 @@ thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/Retail Console Game Source code.jpg
 twitterimage: https://www.retroreversing.com/public/images/Retail Console Game Source code.jpg
 console: sourcecode
+priority: 1.0
 breadcrumbs:
   - name: Home
     url: /
