@@ -139,15 +139,17 @@ One of the best examples is when they used their  technology to add official tea
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313435-b0f3842d-18e9-4110-bc17-efc37af0af6e.jpeg" alt="Action Replay Pro Evolution Soccer" class="lazy-load" />
 
 If you look at the Max Payne version, it is releasing the same day as the retail game which suggests Datel seem to have had early access to the final games before their release date. Other region versions wouldn't have all the same codes as they would have been re-compiled...
-![ActionReplayMaxPayne](https://user-images.githubusercontent.com/40120498/235313476-209dfa62-56fe-4dae-b6fb-d8ac811bda7d.jpeg)
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313476-209dfa62-56fe-4dae-b6fb-d8ac811bda7d.jpeg" alt="Action Replay Max Payne" class="lazy-load" />
 
 One possibility is through their magazine subsidiary known as “Thin Ice Media” which published 3 retail magazines in the UK: GBX, G-force and PSi2. But would publishers really send preview copies to these magazines which were basically used as an advertising channel for Datel?
-![PSi2](https://user-images.githubusercontent.com/40120498/235313623-0cb22bca-2f21-451f-bd81-6296af62157b.jpeg)
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313623-0cb22bca-2f21-451f-bd81-6296af62157b.jpeg" alt="PSi2 Magazine" class="lazy-load" />
 
 Although to be fair their magazines went on to be fairly successful with PSi2 having at least 38 issues (not sure if issue 39 exists or not). You see they had one advantage over the competition: the ability to burn playable PS2 cheat discs...
 
-Sony only allowed their Official magazine to have a playable demo disc attached to the front cover, so for unoffical magazines to compete they just included a standard DVD with Game Trailers. This gave Datel magazines a USP in the market.
-![PSi2PowerCheats](https://user-images.githubusercontent.com/40120498/235313671-7b1ebc6f-95fa-423c-8160-12f657753b5b.jpeg)
+Sony only allowed their Official magazine to have a playable demo disc attached to the front cover, so for unoffical magazines to compete they just included a standard DVD with Game Trailers. This gave Datel magazines a Unique Selling Point in the market.
+
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313671-7b1ebc6f-95fa-423c-8160-12f657753b5b.jpeg" alt="PSi2 PowerCheats" class="lazy-load" />
+
 
 ## BlockBuster PowerPlay
 The cheap PS2 DVD creation meant that Datel could allow companies like Blockbuster to cheaply give their customers playable PS2 content while also advertising their Action Replay product. For example Power Play!
@@ -167,15 +169,18 @@ But they didn’t just create standalone subsets of Action Replay functionality 
 
 ## Dance Master
 In a similar vein comes Dance Master, which was basically just a Dance Mat accessory that can work with any PS2 dancing game, but unlike competitors Datel could include its own unlicensed “Dance Work Out Game” which must have given it an edge over other 3rd party Dance Mats.
-![DanceMaster](https://user-images.githubusercontent.com/40120498/235313929-a0387bd2-3dc8-4706-8d2d-d1aeab141aca.jpeg)
+<img width="50%"  data-image-full="[https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg](https://user-images.githubusercontent.com/40120498/235313929-a0387bd2-3dc8-4706-8d2d-d1aeab141aca.jpeg)" alt="DanceMaster" class="lazy-load" />
+
 
 ## Eye Max
 Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known..
-![eyeMax](https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg)
+
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg" alt="eyeMax" class="lazy-load" />
 
 ## Max Memory
 They also released their own memory cards with the rather useful functionality of being able to back them up to your PC and share them online, or download save files from other users. Then there was their compression technology which claims up to 10x more space for saves..
-![PS2MaxMemory](https://user-images.githubusercontent.com/40120498/235313991-83de2a7c-b639-4539-925d-3a6a7d740283.jpeg)
+
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313991-83de2a7c-b639-4539-925d-3a6a7d740283.jpeg" alt="PS2 Max Memory" class="lazy-load" />
 
 ## PS2 X-Drive
 Another product related to Memory Cards was the X-Drive, which allowed users to use actual Zip Discs for game saves, if Zip disks were cheaper this could have been a very popular product..
