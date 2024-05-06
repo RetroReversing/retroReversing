@@ -18,7 +18,7 @@ layout: none
     {% for post in all_pages limit:10 %}
       {% if post.image or post.youtube %}
         <entry>
-          <title type="html">{{ post.title }}</title>
+          <title type="html">{{ post.title | escape }}</title>
           <link href="https://www.retroreversing.com{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title }}"/>
           <published>{{ post.updatedAt }}T00:00:00+00:00</published>
           <updated>{{ post.updatedAt }}T00:00:00+00:00</updated>
