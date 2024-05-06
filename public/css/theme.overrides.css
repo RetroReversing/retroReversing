@@ -43,6 +43,7 @@ body {
 /* We don't want it to apply to certain images  */
 .widget-img img, .post-header img, table img {
   width: unset;
+  margin-left: unset;
 }
 
 
