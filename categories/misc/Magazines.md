@@ -45,6 +45,8 @@ Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 202
 
 ---
 ## GameMaker Magazine
+![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
+
 **GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public! 
 
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
