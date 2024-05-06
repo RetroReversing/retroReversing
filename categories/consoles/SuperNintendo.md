@@ -71,6 +71,8 @@ On your computer of choice tou would need:
 ## What programming languages were used to write SNES games?
 At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
 
+Once such game written in C for the SNES was **Super Noah's Ark 3D**, which although not licensed by Nintendo it was for sale in retail shops dueing the SNES lifespan [^7].
+
 Also **The Western Design Center** has documentation for its software devleopment platform called **Zardoz** that has a section called **Nintendo development** which has features specifically targetted for the SNES such as being able to assemble binaries into the ISX format [^6]!
 
 ## Were there any IDEs for the SNES?
@@ -173,3 +175,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^4]: [Sluggo III - Super Famicom Development Wiki](https://wiki.superfamicom.org/sluggo-iii)
 [^5]: [65C816 Cross Development Tools](https://groups.google.com/g/comp.sys.apple2/c/HVO_s48q7Kw/m/wcRA5s07jdoJ?pli=1)
 [^6]: https://www.westerndesigncenter.com/wdc/documentation/Assembler_Linker.pdf
+[^7]: [Super Noah's Ark 3D (USA) (Source Code) - elude visibility](https://eludevisibility.org/super-noahs-ark-3d-source-code)
