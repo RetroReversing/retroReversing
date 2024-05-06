@@ -130,13 +130,13 @@ However unlike cartridge based versions it didn’t have the Code Creation capab
 ![ActionReplayMaxUpgrade](https://user-images.githubusercontent.com/40120498/235313286-cea79b7d-783f-46db-a699-3746c07250c4.jpeg)
 
 But it didn’t stop there, the ability to print unofficial PS2 Discs was unique to Datel and thus they could sell products without giving a cut to Sony. So it was cheap for Datel to bring products to market, which allowed them to do cheaper per-game equivalents of Action Replay...
-![ActionReplaySoulCaliber](https://user-images.githubusercontent.com/40120498/235313335-2e17337e-898f-4298-9794-e861c7020ee2.jpeg)
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313335-2e17337e-898f-4298-9794-e861c7020ee2.jpeg" alt="Action Replay Soul Caliber" class="lazy-load" />
 
 There were many of these released for a third of the price of AR. However I believe the standard AR could do all the same cheats and would work out cheaper in the long run if you wanted to cheat in more than 3 games.
-![ActionReplayPS2UltimateCheats](https://user-images.githubusercontent.com/40120498/235313365-9f68f310-8e05-40d0-8d08-3a299cb15c26.jpeg)
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313365-9f68f310-8e05-40d0-8d08-3a299cb15c26.jpeg" alt="Action Replay PS2 Ultimate Cheats" class="lazy-load" />
 
 One of the best examples is when they used their  technology to add official team names into PES3 which  was not allowed to use the official FIFA names. AFAIK it was not possible to do with with just AR codes/saves so this product was required.
-![ActionReplayProEvo](https://user-images.githubusercontent.com/40120498/235313435-b0f3842d-18e9-4110-bc17-efc37af0af6e.jpeg)
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313435-b0f3842d-18e9-4110-bc17-efc37af0af6e.jpeg" alt="Action Replay Pro Evolution Soccer" class="lazy-load" />
 
 If you look at the Max Payne version, it is releasing the same day as the retail game which suggests Datel seem to have had early access to the final games before their release date. Other region versions wouldn't have all the same codes as they would have been re-compiled...
 ![ActionReplayMaxPayne](https://user-images.githubusercontent.com/40120498/235313476-209dfa62-56fe-4dae-b6fb-d8ac811bda7d.jpeg)
