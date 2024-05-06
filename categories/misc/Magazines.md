@@ -47,15 +47,16 @@ Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 202
 ## Journal of Computer Game Design
 ![Journal of Computer Game Design](https://github.com/RetroReversing/retroReversing/assets/40120498/83baa498-4507-4ff5-a4b7-ab4d59facbf3)
 
-The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design.
+The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design. 
 
-The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends.
+It cost $30 a year to subscribe and the journeals were released every other month, it was the first attempt to foster a community around game design [^4];
 
-## Contributors
-The "Journal of Computer Game Design" attracted contributions from influential figures in the game industry, including both seasoned designers and emerging talents. It provided a platform for developers to share their knowledge and ideas with a growing community of game creators.
+The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends. No programming or asset development articles were posted it was purley for game design.
 
-## Educational Resource
-The journal served as an educational resource for aspiring game designers and developers. It offered insights into the game design process and helped establish a foundation for the formal study of game design.
+
+## The Articles
+All the articles are now freely available on Chris Crawford's website in a well categorized manner so there is little benefit to repeating that work here, if you are interested in early articles about game design then [head over there now](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)!
+
 
 ## Influence
 The journal was influential in shaping the early understanding of game design principles and the importance of player experience in video games. It played a role in advancing the field of game design and fostering a sense of community among game creators.
@@ -585,3 +586,4 @@ ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of usefu
 [^1]: [Computer Arts Shuts Down - Aestetik](https://www.aestetikdesign.com/computer-arts-shuts-down/)
 [^2]: [The Journal of Computer Game Design - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)
 [^3]: Edge File Volume 1 Bookazine (2006)
+[^4]: [Volume 1 of JCGD](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-1/jcgd-volume-1-1-junejuly.html)
