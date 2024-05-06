@@ -35,6 +35,10 @@ body {
     width: 50%;
     margin-left: 20%;
 }
+.post img::before {
+    content: "\A";
+    white-space: pre; /* Ensures that \A is treated as a line break */
+}
 
 .post ul {
   list-style-type: initial;
