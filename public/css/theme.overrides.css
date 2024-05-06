@@ -55,23 +55,28 @@ container {
   color: #0085b6;
   font-size: 30px;
   margin-left: -1em;
+  margin-bottom: 15px;
 }
 
 .post h2, .post h3, .post h4, .post h5, .post h6 {
   color: #0085b6;
   margin-left: 1em;
+  margin-bottom: 10px;
 }
 
 .post h3 {
-   margin-left: -2em;
+   margin-left: 2em;
+   margin-bottom: 5px;
 }
 
 .post h4 {
    margin-left: 3em;
+   margin-bottom: 5px;
 }
 
 .post h5 {
    margin-left: 4em;
+   margin-bottom: 5px;
 }
 
 .post {
