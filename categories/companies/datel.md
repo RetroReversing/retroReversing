@@ -115,8 +115,8 @@ A Prototype version was shown in the UK Magazine GBX issue 2:
 
 ## X-port GBX
 The X-Port GBX allows you to upload and download saves from your GBA cartridges to allow you to share saves with friends or download saves (sometimes with cheats) from the internet.
-![X-port GBX](https://github.com/RetroReversing/retroReversing/assets/40120498/81040378-da3f-4c94-b701-15168fc05781)
 
+<img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/81040378-da3f-4c94-b701-15168fc05781" alt="X-port GBX" class="lazy-load" />
 
 
 ---
