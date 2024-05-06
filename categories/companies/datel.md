@@ -50,6 +50,14 @@ For more information on the Game Killer and the 6 in built games:
 http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 
 ---
+# Nintendo Game Boy Original (DMG)
+
+## Pro Action Replay for Game Boy
+Action Replay was released for the Game Boy with a unique fold over design to avoid the game sticking out too much from the top of the device.
+![Pro Action Replay](https://github.com/RetroReversing/retroReversing/assets/40120498/27682f3d-db97-4e9a-bfcb-015743f01e9f)
+
+
+---
 # Nintendo Game Boy Color
 
 ## SmartCom
@@ -125,6 +133,12 @@ A Prototype version was shown in the UK Magazine GBX issue 2:
 The X-Port GBX allows you to upload and download saves from your GBA cartridges to allow you to share saves with friends or download saves (sometimes with cheats) from the internet.
 
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/81040378-da3f-4c94-b701-15168fc05781" alt="X-port GBX" class="lazy-load" />
+
+---
+# Super Nintendo (SNES)
+
+## Pro Action Replay for the SNES
+![Pro Action Replay for the SNES](https://github.com/RetroReversing/retroReversing/assets/40120498/c10ca399-aef6-4476-ac3e-677225d31588)
 
 
 ---
