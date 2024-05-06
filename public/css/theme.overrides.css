@@ -40,6 +40,12 @@ body {
     white-space: pre; /* Ensures that \A is treated as a line break */
 }
 
+/* We don't want it to apply to certain images  */
+.widget-img img, .post-header img, table img {
+  width: unset;
+}
+
+
 .post ul {
   list-style-type: initial;
   padding-left: 5%;
