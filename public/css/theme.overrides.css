@@ -29,6 +29,13 @@ body {
   color: #2089b0;
 }
 
+
+/* Images inside posts should be 50% and look more centered  */
+.post img {
+    width: 50%;
+    margin-left: 20%;
+}
+
 .post ul {
   list-style-type: initial;
   padding-left: 5%;
