@@ -1,6 +1,7 @@
 /* Remove default bootstrap padding for containers */
 .container {
   padding: 0px;
+  max-width: 90vw;
 }
 
 .container.post-container {
