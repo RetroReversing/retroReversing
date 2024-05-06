@@ -44,6 +44,15 @@ Journal of Computer Game Design | Self Published | From June 1987 until 1993 whe
 Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 2023 (70 issues)
 
 ---
+## GameMaker Magazine
+**GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public! 
+
+Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
+
+If anyone has the 4 GameMaker supplement magazines from issue 161-164 then please get in contact we would love to see them!
+
+
+---
 ## Journal of Computer Game Design
 ![Journal of Computer Game Design](https://github.com/RetroReversing/retroReversing/assets/40120498/83baa498-4507-4ff5-a4b7-ab4d59facbf3)
 
@@ -53,18 +62,10 @@ It cost $30 a year to subscribe and the journeals were released every other mont
 
 The journal featured articles, essays, and discussions about various aspects of game design, development, and theory. It covered topics such as game mechanics, narrative design, player engagement, and industry trends. No programming or asset development articles were posted it was purley for game design.
 
-
-## The Articles
-All the articles are now freely available on Chris Crawford's website in a well categorized manner so there is little benefit to repeating that work here, if you are interested in early articles about game design then [head over there now](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)!
-
-
-## Influence
-The journal was influential in shaping the early understanding of game design principles and the importance of player experience in video games. It played a role in advancing the field of game design and fostering a sense of community among game creators.
-
-## Discontinuation
 The "Journal of Computer Game Design" ceased publication in the early 1990s. While it had a significant impact during its existence, it was succeeded by other publications and academic efforts dedicated to game design and development.
 
-The "Journal of Computer Game Design" was an important early resource for the game development community, contributing to the growth and maturation of the video game industry. While it may no longer be in print, its legacy continues through the ongoing discussions and academic studies surrounding game design and development.
+## Relevant Articles
+All the articles are now freely available on Chris Crawford's website in a well categorized manner so there is little benefit to repeating that work here, if you are interested in early articles about game design then [head over there now](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)!
 
 ---
 ## Wireframe Magazine
