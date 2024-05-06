@@ -42,12 +42,15 @@ If you're interested in reverse engineering software for the Super Nintendo gami
 This segment of our guide will provide you with detailed information and resources on the hardware of the Super Nintendo, including retail, prototype, and development hardware.
 
 ## Development Kit Hardware
+We have a post all about the hardware that was used to develop for the Super Nintendo:
 {% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the **Super Nintendo** development hardware check out this post" %}
 
+---
 ## Retail Console Hardware
 For an in-depth look at the SNES Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Super Nintendo Entertainment System.png" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
 
+---
 ## SNES in-flight Airplane hardware (Nintendo Gateway)
 In 1993 Nintendo introduced an in-flight entertainment system called the Gateway, this system allowed passengers to play SNES games for about 4 USD an hour.
 
@@ -57,7 +60,7 @@ The Journalist **Ernie Smith** has written an excellent article on his site whic
 Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has created an excellent video on the subject:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+---
  ## Satellaview
  The **Satellaview** was a satelite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
  
@@ -94,9 +97,13 @@ Some examples of the length of time it took to develop Super Nintendo games are:
   - Programmers:	Mike Follin, Kevin Edwards, Stephen Ruddy and Michael Webb
   - Artwork:	Anthony Anderson, Craig Houston, David McLachlan, James Clarke, Jonathan M. Smith and Ste Pickford
   - Music:	Geoff Follin and Tim Follin
-* **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers. 
+* **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.
+* **RPM Racing (Interplay)** - In an interview with SuperPlay (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
 
-## How did Game Development teams communicate?
+## How large were SNES game development teams?
+According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
+
+## How did SNES Game Development teams communicate?
 Back in 1992 the internet was still finding its footing in the games industry and much of the communication was done via Fax, here is one example of a Fax sent between the Acclaim production team presumably in the US and the game programmers in the UK.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">31 years ago we were working on SNES Spider-Man and the X-Men in Arcade&#39;s Revenge. We had very little time on for this project and had 3 experienced coders on-board to get it done. Here&#39;s a FAX from production at Acclaim to give you a flavour of the pressure we were under 1/2. <a href="https://t.co/FrJ6XDIGJu">pic.twitter.com/FrJ6XDIGJu</a></p>&mdash; Kevin Edwards ( Retro Videogame development ) (@KevEdwardsRetro) <a href="https://twitter.com/KevEdwardsRetro/status/1715387308600394213?ref_src=twsrc%5Etfw">October 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -132,3 +139,5 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 # References
 [^1]: [Kevin Edwards ( Retro Videogame development ) on X: "@BananaBytesBr IIRC about 6-7 months from start to final build." / X](https://twitter.com/KevEdwardsRetro/status/1715423462066360653)
 [^2]: [Development:Super Mario World 2: Yoshi's Island - The Cutting Room Floor](https://tcrf.net/Development:Super_Mario_World_2:_Yoshi%27s_Island)
+[^3]: Super Play issue 11 October 1993
+[^4]: [Sluggo III - Super Famicom Development Wiki](https://wiki.superfamicom.org/sluggo-iii)
