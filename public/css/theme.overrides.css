@@ -148,32 +148,13 @@ table.dataTable {
   min-height: 460px;
 }
 
-/*  ILBM Viewer */
-.draghint {
-  display: table;
-  box-sizing: border-box;
-  border-width: 10px;
-  border-style: dashed;
-  background-color: white;
-  border-color: #ccc;
-  width: 100%;
-}
-  
-.dragtext {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #999;
-}
-  
-.hover {
-  border-color: #333;
-}
+/* Post images that float ot the left or right  */
 
 .postImage {
   width:30vw;
   float: left;
   margin-right: 10px;
+  margin-left: unset;
 }
 
 .postImageRight {
@@ -203,6 +184,28 @@ overflow: scroll;
         background-color: rgba(0,0,0,.5);
         -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
     }
+}
+
+/*  ILBM Viewer */
+.draghint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+  width: 100%;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
 }
 
 /* padding-bottom and top for image */
