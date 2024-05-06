@@ -213,6 +213,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 # Nintendo Handhelds
 
 ## Game Boy
+The following table presents the latest updates on ongoing Game Boy reverse engineering projects.
 
 | Name | Project Type |
 | ---- | ---- | 
