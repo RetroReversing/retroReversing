@@ -13,7 +13,7 @@
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
-                  <div class="widget-img">
+<!--                   <div class="widget-img">
                     <a href="{{ post.permalink }}" target="_blank">
                       {% if post.image %}
                         <img class="lazy-load" style="height:135px; display: block;" data-image-full="{{ post.image }}" alt="{{ post.title }}">
@@ -25,7 +25,8 @@
                     </a>
                     <span>{{ recommend }}</span>
                   </div>
-                  <h4><a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a></h4> 
+                  <h4><a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a></h4>  -->
+                  {% include home-card.html post=post classes="" %} 
                   <hr />
                 </li>
               {% endif %}
