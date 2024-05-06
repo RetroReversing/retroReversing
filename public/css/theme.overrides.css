@@ -23,8 +23,16 @@ body {
   font-weight: 600;
 }
 
+/* Start of CSS related to the homepage  */
+.row-5 {
+  margin: unset;
+  padding: 30px;
+  justify-content: space-evenly;
+}
+/* End of Homepage css */
 
 
+/* Start of CSS related to posts  */
 .post strong {
   color: #2089b0;
 }
