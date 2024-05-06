@@ -71,6 +71,8 @@ On your computer of choice tou would need:
 ## What programming languages were used to write SNES games?
 At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
 
+Also **The Western Design Center** has documentation for its software devleopment platform that has a section called **Nintendo development** which has features specifically targetted for the SNES such as being able to assemble binaries into the ISX format [^6]!
+
 ## Were there any IDEs for the SNES?
 Integrated Development Environments (IDEs) as we know them today were not as prevalent or sophisticated. However, there were some software tools and environments that provided integrated features for assembly language development back in the early 90s.
 
@@ -170,3 +172,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^3]: Super Play issue 11 October 1993
 [^4]: [Sluggo III - Super Famicom Development Wiki](https://wiki.superfamicom.org/sluggo-iii)
 [^5]: [65C816 Cross Development Tools](https://groups.google.com/g/comp.sys.apple2/c/HVO_s48q7Kw/m/wcRA5s07jdoJ?pli=1)
+[^6]: https://www.westerndesigncenter.com/wdc/documentation/Assembler_Linker.pdf
