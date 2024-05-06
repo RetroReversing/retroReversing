@@ -93,6 +93,11 @@ body {
     padding-left: 40px;
 }
 
+/* Recommendation sidebad  */
+.widget-videos .widget-img {
+  width: 270px;
+  max-width: 270px;
+}
 
 /*  ILBM Viewer */
 .draghint {
