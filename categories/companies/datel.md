@@ -12,6 +12,14 @@ breadcrumbs:
     url: /datel
 redirect_from:
   - /datel
+recommend: 
+- companies
+- industry
+- datel
+tags:
+- companies
+- industry
+- datel
 editlink: ../categories/companies/datel.md
 ---
 
