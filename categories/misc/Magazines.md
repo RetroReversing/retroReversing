@@ -38,7 +38,7 @@ Unfortunately, most are now defunct but one excellent title remains until the ti
 Title | Publisher | Notes
 ---|---|---
 Develop | NewBayMedia | UK Magazine which was published from August 1996 Until November 2017
-Game Developer | UBM Tech | US Magazine which was published from March 1994 until July 2013
+Game Developer | UBM Tech | US Magazine which was published from March 1994 until July 2013 - Note that the free pdfs online do not have the full content such as adverts inside
 GameMaker | Future Publishing | UK magazine dedicated to Game Modding and Development. Only 1 issue was published in October 2003 before it became a supplement for the **PC Format** magazine (which also didn't last long)
 Journal of Computer Game Design | Self Published | From June 1987 until 1993 when it rebranded to Interactive Entertainment Design
 Wireframe | Raspberry Pi Press | From November 2018 and lasted until January 2023 (70 issues)
