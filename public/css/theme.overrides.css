@@ -41,8 +41,12 @@ body {
 .widget-img img, .post-header img, .table img {
   width: unset;
   margin-left: unset;
+  display: unset;
 }
 
+.table img {
+  max-width: 200px;
+}
 
 .post ul {
   list-style-type: initial;
