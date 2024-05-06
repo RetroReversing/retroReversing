@@ -169,6 +169,7 @@ GameBytes | | 1992-1994 | MS-DOS based application for an interactive magazine r
 PC Gamer | Future | 1993-present | Long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Thin Ice Media (Datel) | 2000-? | This occasionally contains top quality articles about **Homebrew** and **Game Development** for the Playstation 2
 Retro Gamer | Live/Imagine/Future | 2004-present | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
+Super Pro | Paragon Publishing | 1992-1994 | Super Nintendo Magazine that had some interviews related to game development such as the interview with Brain Fargo of Interplay
 
 ---
 ## GameBytes (1992-1994)
