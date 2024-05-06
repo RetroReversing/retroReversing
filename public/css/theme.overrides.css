@@ -34,14 +34,11 @@ body {
 .post img {
     width: 50%;
     margin-left: 20%;
-}
-.post img::before {
-    content: "\A";
-    white-space: pre; /* Ensures that \A is treated as a line break */
+    display:block;
 }
 
 /* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, table img {
+.widget-img img, .post-header img, .table img {
   width: unset;
   margin-left: unset;
 }
