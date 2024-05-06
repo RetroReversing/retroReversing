@@ -154,7 +154,7 @@ table.dataTable {
   width:30vw;
   float: left;
   margin-right: 10px;
-  margin-left: unset;
+  margin-left: unset !important;
 }
 
 .postImageRight {
