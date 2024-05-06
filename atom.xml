@@ -5,16 +5,19 @@ layout: none
 {% if page.xsl %}
   <?xml-stylesheet type="text/xml" href="{{ '/feed.xslt.xml' | absolute_url }}"?>
 {% endif %}
+
+{% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
+{% assign most_recent_page = all_pages | first %}
+
 <feed xmlns="http://www.w3.org/2005/Atom">
   <generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator>
   <link href="https://www.retroreversing.com/feed.xml" rel="self" type="application/atom+xml"/>
   <link href="https://www.retroreversing.com/" rel="alternate" type="text/html"/>
-  <updated>2020-12-19T14:45:09+00:00</updated>
-  <id>https://www.retroreversing.com/feed.xml</id>
+  <updated>{{ most_recent_page.updatedAt }}T00:00:00+00:00</updated>
+  <id>https://www.retroreversing.com/atom.xml</id>
   <title type="html">RetroReversing</title>
   <subtitle> Retro Video Game Reverse Engineering.</subtitle>
   
-  {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
     {% for post in all_pages limit:10 %}
       {% if post.image or post.youtube %}
         <entry>
