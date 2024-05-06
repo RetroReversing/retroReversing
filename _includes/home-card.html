@@ -1,7 +1,7 @@
 {% if include.hidden %}
   <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="include.post.image" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
 {% else %}
-<div class="{{ classes }}">
+<div class="{{ include.classes }}">
     <div class="card card-video">
         <div class="card-img">
             <a href="{{ include.post.url }}" target="_blank">
