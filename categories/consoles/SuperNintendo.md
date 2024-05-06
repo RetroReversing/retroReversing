@@ -100,6 +100,25 @@ Some examples of the length of time it took to develop Super Nintendo games are:
 * **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.
 * **RPM Racing (Interplay)** - In an interview with SuperPlay (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
 
+## What would you need to write SNES games?
+Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
+
+You would need thw following on your desk:
+* Computer to write the code on (e.g Apple II [^4])
+* Either a modified retail SNES or a development Kit
+* A CRT Monitor to connect to the SNES
+* Cables to connect the modified SNES cart (or devkit) to the computer
+
+On your computer of choice tou would need:
+* Text editor
+* Assembler (e.g Merlin on the Apple II[^4])
+* Linker
+* Program to send the ROM data to the console
+* Program to flash a ROM image to an EEPROM.
+
+## How would teams send their games to QA or to the press?
+FTP servers were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
+
 ## How large were SNES game development teams?
 According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
 
