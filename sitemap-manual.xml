@@ -1,0 +1,22 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
+  {% for post in all_pages limit:10 %}
+   <url>
+      <loc>https://www.retroreversing.com{{ post.url }}</loc>
+      <lastmod>{{ post.updatedAt }}</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+     {% if post.image %}
+      <image:image>
+         <image:loc>https://www.retroreversing.com/{{ post.image }}</image:loc>
+         <image:caption>{{ post.title }} - RetroReversing</image:caption>
+      </image:image>
+     {% endif %}
+   </url>
+  {% endfor %} 
+</urlset>
