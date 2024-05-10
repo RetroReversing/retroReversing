@@ -57,7 +57,7 @@ This talk attempts to communicate "everything about the Game Boy" to the listene
 ## Game Boy Assembly Language (Z80-like)
 The Game Boy has a variant of the Zilog Z80 processor, well technically it is a CPU between the `i8080` and the Z80, it is not binary compatible with either but there are similarities. You need a assembler that can handle the Game Boy specific opcodes in order to write functional code for the Game Boy in assembly language.
 
-{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language" image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
+{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language." image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
 
 ## Game Boy Boot ROM (Bootstrapping)
 Every game produced for the Game Boy required a little piece of code known as the "bootloader" or boot code to initialise the state of the console. You don't have to know anything about this, but it can be fascinating to find out what the Game Boy does as soon as you hit that power button.
@@ -188,7 +188,7 @@ If you are interested in reverse engineering Gamy Boy Homebrew you will want to 
 [bbbbbr/gbtoolsid: A command line app for identifying tools used to build Game Boy ROMs](https://github.com/bbbbbr/gbtoolsid)
 
 ## Blem! Playstation Emulator for the GB
-Blem! was a prank ROM for the Game Boy which pretended to load up a playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstaiton emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (Septermber 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^11].
+Blem! was a prank ROM for the Game Boy which pretended to load up a Playstation 1 emulator on the Game Boy. This is a reference to the Bleam! Playstation emulator released for Mac and Dreamcast. I doubt anyone really believed this prank but it was mentioned in the UK Magazine **GBX** issue 3 (Septermber 2001) when talking about Game Boy emulation for PC (NoCash) and Mac (Virtual Boy) [^11].
 
 
 ---
