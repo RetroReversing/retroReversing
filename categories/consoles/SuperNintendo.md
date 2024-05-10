@@ -28,7 +28,7 @@ So grab your SNES controller, and get ready to dive into the exciting world of S
 
 
 ## State of SNES Emulation
-Every three years **Near** created an excellent article on the current status of Super Nintento Emulation, the last version is from 2019, it covers both bsnes and higen.
+Every three years **Near** created an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen.
 
 {% include link-to-other-site.html url="https://near.sh/articles/emulation/state-of-emulation-v" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
 
@@ -54,13 +54,13 @@ Some examples of the length of time it took to develop Super Nintendo games are:
 ## What would you need to write SNES games?
 Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
 
-You would need thw following on your desk:
+You would need the following on your desk:
 * Computer to write the code on (e.g Apple II [^4])
 * Either a modified retail SNES or a development Kit
 * A CRT Monitor to connect to the SNES
 * Cables to connect the modified SNES cart (or devkit) to the computer
 
-On your computer of choice tou would need:
+On your computer of choice you would need:
 * Text editor
 * Assembler (e.g Merlin on the Apple II[^4])
 * Linker
@@ -71,9 +71,9 @@ On your computer of choice tou would need:
 ## What programming languages were used to write SNES games?
 At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
 
-Once such game written in C for the SNES was **Super Noah's Ark 3D**, which although not licensed by Nintendo it was for sale in retail shops dueing the SNES lifespan [^7].
+Once such game written in C for the SNES was **Super Noah's Ark 3D**, which although not licensed by Nintendo it was for sale in retail shops during the SNES lifespan [^7].
 
-Also **The Western Design Center** has documentation for its software devleopment platform called **Zardoz** that has a section called **Nintendo development** which has features specifically targetted for the SNES such as being able to assemble binaries into the ISX format [^6]!
+Also **The Western Design Center** has documentation for its software development platform called **Zardoz** that has a section called **Nintendo development** which has features specifically targeted for the SNES such as being able to assemble binaries into the ISX format [^6]!
 
 ## Were there any IDEs for the SNES?
 Integrated Development Environments (IDEs) as we know them today were not as prevalent or sophisticated. However, there were some software tools and environments that provided integrated features for assembly language development back in the early 90s.
@@ -126,14 +126,14 @@ Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has c
 
 ---
  ## Satellaview
- The **Satellaview** was a satelite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
+ The **Satellaview** was a satellite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
  
  The sad thing about the Satellaview is due to the nature of the technology most of the content has been lost to time and has only been partially preserved by finding old recordings on people's Satellaview cartridges. Some content was broadcast but never downloaded, or soon overwritten with newer content so there is no other way to obtain the data.
  
  In 2020 Luigiblood did a presentation to the **AirGap2020** conference about **Satellaview Reverse Engineering** which can be watched below:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/qUAmk8dYmrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
- The **Satellaview** has little Memory Packs with only 1MB (8 MegaBit) of flash storage space that would slot into the BSX Satellaview cartridges, it was a cartridge that had a smaller cartirdge slot on top. Note that there was one other game that supported these Memory Packs, it was a game creator called **RPG Maker**.
+ The **Satellaview** has little Memory Packs with only 1MB (8 MegaBit) of flash storage space that would slot into the BSX Satellaview cartridges, it was a cartridge that had a smaller cartridge slot on top. Note that there was one other game that supported these Memory Packs, it was a game creator called **RPG Maker**.
  
 ---
 # Games
