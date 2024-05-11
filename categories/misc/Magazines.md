@@ -53,6 +53,25 @@ Sadly the topic was deemed too niche and only one issue was ever published befor
 
 If anyone has the 4 GameMaker supplement magazines from issue 161-164 then please get in contact we would love to see them!
 
+Issue | Name | Description
+---|---|---
+1 | WARCRAFT 3 | The basics of creating a map in the Warcraft 3 Map Editor with a hero (Hercules) an enemy (Hydra) and victory conditions
+1 | UNREAL TOURNAMENT 2003 | Introduction to Unreal Editor 3.0, using brushes to carve out maps, adding textures, lighting and even creating moving platforms
+1 | MAKE A MOD | General advice from Kieron Gillen about modding games such as the scope of the project and how to recruit other modders
+1 | NEVERWINTER NIGHTS |
+1 | ADVENTURE GAME STUDIO |
+1 | THE SIMS |
+1 | HALF-LIFE/COUNTER-STRIKE |
+1 | THE GAME FACTORY PRO |
+1 | HISTORY OF MODDING |
+1 | GRAND THEFT AUTO: VICE CITY |
+1 | RAILROAD TYCOON 3 |
+1 | 3DS MAX AND UNREAL ED |
+1 | FLIGHT SIMULATOR 2004 |
+1 | NVIDIA CHARACTER DESIGN |
+1 | MILKSHAPE |
+1 | QUAKE III |
+1 | LOW POLY MODELLING |
 
 ---
 ## Journal of Computer Game Design
