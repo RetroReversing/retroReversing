@@ -48,14 +48,14 @@ In order for game developers to create software for the SEGA Mega Drive, they ha
 
 ---
 # Software Development
-Although almost all Mega Drive games were written in 68K assembly there is one known commerical Mega Drive game to be written in C, **Sonic Spinball** [^1]!
+Although almost all Mega Drive games were written in 68K assembly there is one known commercial Mega Drive game to be written in C, **Sonic Spinball** [^1]!
 
 
 ---
 # Mega Drive Game Development
 
 ## Code Your Own SONIC Game
-The Youtuber **Game Hut** has a series of tutorials on Sega Mega drive programming.
+The Youtuber **Game Hut** has a series of tutorials on Sega Mega Drive programming.
 Part 1:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PSYhSmXBgIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
