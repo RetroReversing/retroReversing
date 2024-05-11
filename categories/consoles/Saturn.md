@@ -38,12 +38,12 @@ When it comes to finding a game to reverse engineer it can be helpful to look at
 {% include link-to-other-post.html post="/sega-saturn-exclusives/" description="For a list of all the exclusive Sega Saturn games check out this post." %}
 
 ## Sega Saturn Graphics
-There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be preven false with some clever programming techniques.
+There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be proven false with some clever programming techniques.
 
 {% include link-to-other-post.html post="/saturn-transparency" description="For details on Transparency effects in Sega Saturn games check out this post." %}
 
 ## Sega File Formats
-The sega saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compred to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
+The Sega Saturn was the second released Sega console which used CD-ROM to distribute its games, one of the benefits of the CD-ROM format is many times more space than a cartridge. One of the downsides compared to cartridges however was the slower loading times as reading from a CD is much slower than reading from a ROM chip.
 
 Unlike most cartridge based ROM chips CDs have a standard File System to read files from and so instead of everything being in a giant blob of binary and burned to a chip, the game could be split into multiple files.
 
@@ -62,7 +62,7 @@ If you're interested in reverse engineering software for the Sega Saturn gaming 
 This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Saturn, including retail, prototype, and development hardware.
 
 ## Retail Sega Saturn hardware
-When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a facinating topic.
+When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a fascinating topic.
 
 {% include link-to-other-post.html post="/saturn-architecture" description="For more information on the Saturn hardware architecture check out this post." %}
 
@@ -71,7 +71,7 @@ the user **jhl** on assemblergames has an excellent post on the inner workings o
 https://web.archive.org/web/20170626013038/https://www.assemblergames.com/threads/saturn-copy-protection-and-cdrs-the-conclusive-end.50295/
 
 ## Saturn Hardware in the Arcade
-The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabinate, some of the games released for the ST-V were also available on the saturn but others remain exclusive to the aercade hardware.
+The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabinet, some of the games released for the ST-V were also available on the Saturn but others remain exclusive to the arcade hardware.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EgAsiBv1TJk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -97,7 +97,7 @@ The Official Software development kit was developed in-house by SEGA and was mad
 {% include link-to-other-post.html post="/sega-saturn-sdk/" description="For more information on Official SDK for the Saturn check out this post." %}
 
 ### Using the SDK - Compiling samples
-One of the best ways to get started understanding how games were made using the official SDK is to tinker with the samples that come packaged with the SDK. By compiling and running these on a saturn console you can start to understand how everything pieces together.
+One of the best ways to get started understanding how games were made using the official SDK is to tinker with the samples that come packaged with the SDK. By compiling and running these on a Saturn console you can start to understand how everything pieces together.
 
 {% include link-to-other-post.html post="/sega-saturn-compiling-samples/" description="For more information on Official SDK for the Saturn check out this post." %}
 
