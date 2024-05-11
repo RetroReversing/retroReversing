@@ -107,5 +107,5 @@ We only embed high-quality youtube videos related to the technical achievements 
 ## Palette 
 https://coolors.co/1b1c1e-1e5dd3-3f7cac-95afba-bdc4a7
 
-## Thumnail Creator
+## Thumbnail Creator
 https://www.canva.com
