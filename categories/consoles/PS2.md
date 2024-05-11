@@ -26,11 +26,11 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your DualShock controller, and get ready to dive into the exciting world of PS2 reverse engineering!
 
 # Hardware
-Similar to the original Playstation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the verticies were still being process by the CPU core rather than the GPU [^1].
+Similar to the original Playstation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
 
 The main parts of the PS2 hardware were:
 * Emotion Engine (64 bit MIPS processor + 2 vector processors)
-* Graphics Synthesiser (GS) - 4MB with features such as Z-buffer, trilinear texturing and gourard shading [^1]
+* Graphics Synthesiser (GS) - 4MB with features such as Z-buffer, trilinear texturing and Gourard shading [^1]
 * 48-Channel sound chip (SPU2)
 
 ## Retail Hardware
@@ -79,10 +79,10 @@ The Official Software development kit was developed by a partnership between SN 
 ### Emotion Engine Static Libraries
 The Playstation 2 Software Development kit included various statically compiled libraries that could be optionally included in your games, these ranged from vital (gcc runtime) to optional such as Multi-tap support.
 
-{% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post" %}
+{% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post." %}
 
 ### Dynamic Libraries (IRX files)
-{% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post" %}
+{% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
 
 ## Consumer Development Kit
 Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of Linux. The software ran on consumer PS2 models and came with a PS2 hard-drive.
@@ -90,10 +90,10 @@ Similar to how the PS1 had Net Yaroze for consumers to develop small games for t
 ---
 ## Creative Software used to create PS2 Games
 
-### 3d Studio Max
+### 3D Studio Max
 3D Studio Max and Character Studio was used by Runecraft software to develop games such as Premier manager on the PS2[^3].
 
-We have a separate post on 3D studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3DStudio check out this post." %}
+We have a separate post on 3D Studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio Max check out this post." %}
 
 ### Photoshop for texturing
 3D Studio Max was used by Runecraft software to develop games such as Premier manager on the PS2.
@@ -104,7 +104,7 @@ In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Ru
 
 ---
 # Game Engines for the PS2
-Before Unity and Unreal dominated the scene it was common for developers to create their own in house game engine, or license a third party engine such as Renderware.
+Before Unity and Unreal dominated the scene it was common for developers to create their own in-house game engine, or license a third party engine such as Renderware.
 
 ## Brainstorm by BeyondGames (in-house)
 In issue 20 of PSi2 an interview with Clark Stacey revealed that they have an in-house game engine called "Brainstorm" which was used for racing games such as Motor Mayhem and Hot Wheels [^3]. It also mentioned that it in theory has support for other genres of games such as platformers and that it has built in networking support.
