@@ -209,6 +209,17 @@ RVA helps programs find things in their memory without needing to know exactly w
 RVA is a fundamental concept in Windows programming, as it allows for position-independent code and the ability to load modules at different base addresses in memory, enhancing the compatibility and flexibility of Windows applications.
 
 ---
+## NVIDIA Tech Demos
+NVIDIA's first tech demo can be traced back to the early years of the company. One notable early demo was showcased in 1999, featuring the GeForce 256, which was NVIDIA's first GPU. This demo highlighted the advanced capabilities of the GeForce 256, such as hardware transform and lighting, which were groundbreaking features at the time. 
+
+Since then, NVIDIA has consistently released tech demos to showcase the capabilities of its new GPU architectures and technologies, these can be downloaded on their website and reverse engineered to see how they work [^3].
+
+If you don't want to download and run each one you can watch this video by **Game Evolutions** showing off every demo from 1999 to 2022:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jVoV2VysX3M?si=meImKQclk6YpLbOr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+The UK Magazine Game Maker has an interview with Daniel Hornick, Hubert Nguyen and Curtis Beeson which described the process of creating these demos from concept to 3D art (in Maya) to code (in C++ or MEL) which is worth reading if you can find a copy [^4]. It describes techniques used in the production of the demos **Time Machine**, **Last Chance Gas Ultra**, **Ogre**, **Toys** and **Vulkan**.
+
+---
 # All Posts
 <div>
 
@@ -219,3 +230,5 @@ RVA is a fundamental concept in Windows programming, as it allows for position-i
 # References
 [^1]: PSi2 Issue 19
 [^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
+[^3]: [Download NVIDIA Tech Demos - NVIDIA Cool Stuff](https://www.nvidia.com/en-gb/geforce/community/demos/)
+[^4]: GameMaker UK Magazine Issue 1 October 2003 by Future Publishing
