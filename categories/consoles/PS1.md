@@ -41,7 +41,7 @@ However don’t be disillusioned the PS1 was still a very powerful machine for i
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
 The main parts of the hardware are:
-* 32-bit MIPs CPU (33.96Mhz)
+* 32-bit MIPS CPU (33.96Mhz)
 * GPU - Unlike more modern GPUs it Only handled 2D Polygons (360k per second) [^1]
 * Geometry Transformation Engine (GTE) - 1.5M Vertices per second [^1]
 * 24 Channel sound chip (SPU)
@@ -72,7 +72,7 @@ An excellent way to start reverse engineering is to find games where the develop
 {% include link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
 
 ## Crash Bandicoot
-Crash bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. 
+Crash Bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. 
 
 It was created by Andy Gavin and Jason Rubin for release on the original Playstation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
 
@@ -89,7 +89,7 @@ Crash Team Racing | PS4, Switch, XboxOne | Remade in Alchemy Engine with additio
 Castlevania SOTN | Xbox360, PS4, iOS, Android | Re-Released in Castlevania Requiem compilation
 Final Fantasy 7-9 | PS4, Switch | 
 Legend of Mana | PS4, Switch, iOS, Android | Original engine but with higher resolution assets? (confirmation required)
-Medievil | PS4 | Remade in the Unreal Engine
+MediEvil | PS4 | Remade in the Unreal Engine
 Mega Man X 4 | PS4, Switch, XboxOne | Source Code Port of X4 Released in **Mega Man X Legacy Collection**
 Metal Gear Solid | Gamecube | Remade for Gamecube as **Metal Gear Solid: The Twin Snakes**
 PaRappa The Rapper | PSP, PS4 | The PS4 version is actually just a the PSP version emulated with higher resolution assets
