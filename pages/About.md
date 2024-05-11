@@ -52,8 +52,8 @@ That really depends on what you want to accomplish, but start at smallest most b
 Let's say you want to modify the Nintendo 64 game "Mario Kart 64" to give it 8 player online play support. 
 
 Thats quite a goal but just take a few small steps and learn everything along the way, for example:
-* Find out how Mario Kart takes controller input in 4 player mode
-* Find out how the emulator sends input to the running game
+* Find out how Mario Kart takes controller input in 4 player mode.
+* Find out how the emulator sends input to the running game.
 * How does the key presses impact the memory of the game?
 * Can you swap player 1 so that it controls player 3, or even a NPC?
 * Can you send button presses over TCP so that it controls an emulator on a different system?
@@ -86,7 +86,7 @@ How were the games made, what development kits, what 3D modelling tools, what 2D
 
 This is a site for:
 * Development kits (both software and hardware)
-* Source Code analysis and walkthoughs
+* Source Code analysis and walkthroughs
 * How specific game mechanics were implemented
 * How to extract and replace game assets (modding)
 * How to change game behaviour
@@ -99,7 +99,7 @@ This is not a site for:
 
 
 ## Site Architecture Advantages
-We are taking advantage of a few of Github's features such as being able to edit un a web browser without checking out the code and live preview before submitting.
+We are taking advantage of a few of Github's features such as being able to edit in a web browser without checking out the code and live preview before submitting.
 
 The advantages are:
 * Decentralised (anyone can fork and download a local copy of the entire website)
@@ -107,4 +107,4 @@ The advantages are:
 ## Examples of content not to post
 
 ### Unused Assets
-Do not post unused content, that is the domain of The Cutting Room Floor, a link should be made on each game page to Link to this, and any con tent found should be posted to TCRF page.
+Do not post unused content, that is the domain of The Cutting Room Floor, a link should be made on each game page to link to this, and any content found should be posted to TCRF page.
