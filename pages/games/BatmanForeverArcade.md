@@ -25,9 +25,9 @@ editlink: /games/BatmanForeverArcade.md
 youtube: WWz2nScv22g
 ---
 
-As the name suggests Batman Forever is originally an Arcade Game that got ported to MSDOS, the Playstation 1 and Sega Saturn by Iguana Entertainment (Acclaim Published).
+As the name suggests Batman Forever is originally an Arcade Game that got ported to MS-DOS, the Playstation 1 and Sega Saturn by Iguana Entertainment (Acclaim Published).
 
-The original arcade release was for the `ST-V` (Sega Titan Video Game System) arcade hardware which is what would eventually become the foundation of the32x/Sega Saturn hardware [^2].
+The original arcade release was for the `ST-V` (Sega Titan Video Game System) arcade hardware which is what would eventually become the foundation of the 32X/Sega Saturn hardware [^2].
 
 This article will cover interesting finding from both the original arcade version and the various home ports.
 
@@ -353,7 +353,7 @@ Also from the Sega Saturn version of the game we can see what libraries were lin
 
 
 ## libIguan.lib (Iguana Entertainment custom library)
-The sega saturn version of the game has a reference to a library file created by Iguana Entertainment (the developers of the port) called `c:\\igsatlib\\libiguan.lib`, it has the following symbols:
+The Sega Saturn version of the game has a reference to a library file created by Iguana Entertainment (the developers of the port) called `c:\\igsatlib\\libiguan.lib`, it has the following symbols:
 
 Symbol | Notes
 ---|---
@@ -836,7 +836,7 @@ The PS1 version has no references to "PSYQ" at all and all the file extensions a
 The main game executable `SLES_005.25` contains **318** functions when disassembling.
 
 ---
-# MSDos Version
+# MS-DOS Version
 Contains a few different executables:
 * `BM1.EXE` (**2677** functions) - Main game?
 * `DOS4GW.EXE` - DOS memory extender 
