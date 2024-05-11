@@ -39,7 +39,7 @@ Apparently Impossible Mission for the Sega Master System will be on a 128K cartr
 * 70K Graphics
 * 20K Sound
 
-For development hardware they used an ordinary PC with Z80 assembler connected to a Sega Master System via a **Z80 Probe** which plugs into the CPU slot on the motherboard (instead of the CPU). It also mentions that they use RAM to hold the game data instead of a ROM Chip, so predumably there is some interface between the PC and the RAM chip to be able to write the game data to it. It mentions that this is fast but as as fast as PDS which is another Master System development kit.
+For development hardware they used an ordinary PC with Z80 assembler connected to a Sega Master System via a **Z80 Probe** which plugs into the CPU slot on the motherboard (instead of the CPU). It also mentions that they use RAM to hold the game data instead of a ROM Chip, so presumably there is some interface between the PC and the RAM chip to be able to write the game data to it. It mentions that this is fast but as as fast as PDS which is another Master System development kit.
 
 In this same interview they comment on Japanese Sega Game developers:
 > The often dubious quality of some of the Sega games is down to the strange programming habits of the Japanese. Generally there are around six people working on a game for a year. It's the way developers recruit programmers that is bizarre; they put an ad in the local rag asking for anyone interested in computing to contact them. The developers then train the new recruits and get them to join a team of novices to start work on a game. Established programmers aren't even considered.
@@ -69,7 +69,7 @@ The main components of the retail Sega Master System are:
 * **131K Sony ROM Chip** - used for BIOS
 * **8K NEC RAM Chip** - Used for game variables such as player score
 * **VDP** - Video Display Processor (sprites, tiles and scrolling)
-* **SEGA Sound Chip** ( 3 four-octave sound channels plus white noise generator) and I/O controller
+* **SEGA Sound Chip** (3 four-octave sound channels plus white noise generator) and I/O controller
 * **Two NEC 8K RAM** (16K total) chips which store the data for the video chip
 
 For an in-depth look at the SMS Retail hardware architecture check out the excellent post by **Copetti.org**:
