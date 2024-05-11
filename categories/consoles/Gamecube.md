@@ -32,13 +32,13 @@ The Nintendo Gamecube has fairly sophisticated hardware for the time, this was w
 ## Retail Hardware
 Rodrigo Copetti has an excellent in-depth article about the hardware architecture of the Nintendo Gamecube, it is a must read for anyone wanting to reverse engineer Gamecube games as you will need to know all about the low level architecture.
 
-{% include link-to-other-site.html url="https://www.copetti.org/projects/consoles/gamecube/" description="The website by Rodrigo Copetti is required reading for any information you want to know about the Gamecube console hardware architecture" image="/public/consoles/Nintendo Gamecube.png" title="Rodrigo Copetti's Gamecube Hardware Architecture"  %}
+{% include link-to-other-site.html url="https://www.copetti.org/projects/consoles/gamecube/" description="The website by Rodrigo Copetti is required reading for any information you want to know about the Gamecube console hardware architecture." image="/public/consoles/Nintendo Gamecube.png" title="Rodrigo Copetti's Gamecube Hardware Architecture"  %}
 
 ## Development Hardware
 {% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
 
 ## Unreleased Hardware
-In China there were plans to release a version of the Gamecube with DVD playback functionality and additional security. This was to be a sequal to the iQue Player which was a Chinese only Nintendo 64 plug and play device. However half way through development the resources were moved to work on the Nintendo Wii instead.
+In China there were plans to release a version of the Gamecube with DVD playback functionality and additional security. This was to be a sequel to the iQue Player which was a Chinese only Nintendo 64 plug and play device. However half way through development the resources were moved to work on the Nintendo Wii instead.
 {% include link-to-other-post.html post="/ique-gamecube/" description="For information about iQue/BroadOn's prototype Chinese Gamecube hardware check out this post." %}
 
 
