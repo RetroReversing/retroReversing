@@ -58,20 +58,20 @@ Issue | Name | Description
 1 | WARCRAFT 3 | The basics of creating a map in the Warcraft 3 Map Editor with a hero (Hercules) an enemy (Hydra) and victory conditions
 1 | UNREAL TOURNAMENT 2003 | Introduction to Unreal Editor 3.0, using brushes to carve out maps, adding textures, lighting and even creating moving platforms
 1 | MAKE A MOD | General advice from Kieron Gillen about modding games such as the scope of the project and how to recruit other modders
-1 | NEVERWINTER NIGHTS |
-1 | ADVENTURE GAME STUDIO |
-1 | THE SIMS |
-1 | HALF-LIFE/COUNTER-STRIKE |
-1 | THE GAME FACTORY PRO |
-1 | HISTORY OF MODDING |
-1 | GRAND THEFT AUTO: VICE CITY |
-1 | RAILROAD TYCOON 3 |
-1 | 3DS MAX AND UNREAL ED |
-1 | FLIGHT SIMULATOR 2004 |
-1 | NVIDIA CHARACTER DESIGN |
-1 | MILKSHAPE |
-1 | QUAKE III |
-1 | LOW POLY MODELLING |
+1 | NEVERWINTER NIGHTS | Introduction to the BioWare Neverwinter Nights Toolset for creating a simple adventure game including scripting and adding factions
+1 | ADVENTURE GAME STUDIO | Introduction to AGS to create a simple point-and-click graphic adventure game with scripts and background music
+1 | THE SIMS | Briefly covers tools like SimShow, Facelift, HomeCrafter, Transmogrifier, Blueprint, Career Creator and how to replace the radio station MP3 files
+1 | HALF-LIFE/COUNTER-STRIKE | Brief introduction to the Value Hammer Editor
+1 | THE GAME FACTORY PRO | Create a very simple snowboarding game (similar to ski free) in The Game Factory Pro
+1 | HISTORY OF MODDING | Covers the history of game modding such as "Adventure", "Ms Pac-Man", "Castle Smurfenstein", "Team Fortress" etc
+1 | GRAND THEFT AUTO: VICE CITY | Introduction to modding GTA Vice City, using tools such as CROA, ZModeler, CarEd 1.4, IMG Tool 1.3, ViceTXD
+1 | RAILROAD TYCOON 3 | Create a very simple map in Railroad Tycoon 3 with the built-in editor including adding a volcano with the Paint Terrain tools
+1 | 3DS MAX AND UNREAL ED | Tutorial for getting a 3D Studio Max model into UT2003 including fixing textures with Photoshop rigging with Character Studio 3 and exporting with ActorX
+1 | FLIGHT SIMULATOR 2004 | Using GMax to create custom aircraft and scenery for Flight Simulator 2004
+1 | NVIDIA CHARACTER DESIGN | Article by Daniel Hornick, Hubert Nguyen and Curtis Beeson from Nvidia
+1 | MILKSHAPE | Tutorial for creating a 3d man with a gun that can be imported into Unreal Tournament
+1 | QUAKE III | Detailed guide for how to create a level in Quake 3 using Q3Map2Toolz
+1 | LOW POLY MODELLING | Creating a low poly model of a cartoon character in 3D Studio Max 5
 
 ---
 ## Journal of Computer Game Design
