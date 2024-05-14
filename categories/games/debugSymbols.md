@@ -17,7 +17,7 @@ redirect_from:
 Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.
 
 ## Where do debug symbols come from?
-Debug symbols are an atrifact of compiling a game from a higher level language (e.g C\C++) down to a lower level language such as Assembly code.
+Debug symbols are an artifact of compiling a game from a higher level language (e.g. C\C++) down to a lower level language such as Assembly code.
 
 ## What are debug symbols used for?
 They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names in tact.
@@ -28,7 +28,7 @@ Developers *should* remove the debug symbols before the release of the game, a p
 ## Which games are likely to contain debug symbols?
 Since these are artifacts of compilation it is very unlikely for a game on a platform earlier than the Playstation 1 to contain debug symbols as they tended to be hand written in assembly code.
 
-Also some platforms that used compiled code but were to be released on a small storage medium such as cartridge needed all the bytes they could get so it is very unlikely to get debug symbols on platforms such as Nintendo 64 or GameBoy Advance.
+Also some platforms that used compiled code but were to be released on a small storage medium such as cartridge needed all the bytes they could get so it is very unlikely to get debug symbols on platforms such as Nintendo 64 or Game Boy Advance.
 
 # Game by Platform with debug symbols 
 
@@ -41,21 +41,22 @@ Nintendo DS |
 Nintendo 64 | None due to limitations of cart size. But we do have part of Turok source code: [Turok 64 Official Source Code Analysis](https://www.retroreversing.com/turok64sourcecode)
 Nintendo GameCube | [Nintendo Gamecube Games with Debug Symbols](https://www.retroreversing.com/gamecube-debug-symbols)
 Nintendo Wii | [Wii Games with Debug Symbols](https://www.retroreversing.com/wii-debug-symbols/) (*Incomplete*)
-Nintendo Wii U | [WiiU Games with Debug Symbols](https://www.retroreversing.com/wii-u-unstripped/)
+Nintendo Wii U | [Wii U Games with Debug Symbols](https://www.retroreversing.com/wii-u-unstripped/)
 Nintendo Switch | N/A Not a retro console yet
 Sega Saturn |
 Sega Dreamcast | [Sega Dreamcast Games with Debug Symbols](https://www.retroreversing.com/sega-dreamcast-game-debug-symbols)
-Microsoft XBox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-game-debug-symbols)
-Microsoft XBox 360 | N/A Not a retro console yet
+Microsoft Xbox | [Original Xbox Games with Debug Symbols](https://www.retroreversing.com/xbox-game-debug-symbols)
+Microsoft Xbox 360 | N/A Not a retro console yet
 
 
 There are also a few platforms that may have games with debug symbols but it is currently unknown:
-* N-gauge
+* 3DO
 * Cybiko
 * GP32/GP2X/Pandora
+* N-Gage
 * Neo Geo X
 * Sega CD/Sega 32X
-* 3DO
+
 
 ---
 
