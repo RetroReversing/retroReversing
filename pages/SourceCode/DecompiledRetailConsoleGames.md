@@ -131,7 +131,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/c/cd/Marioparty1.jpg){:width="100"} [Mario Party](https://github.com/Rainchus/mp1)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/2/23/Marioparty2.jpg){:width="100"} [Mario Party 2](https://github.com/Rainchus/mp2)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/1/19/Marioparty3.jpg){:width="100"} [Mario Party 3](https://github.com/Rainchus/marioparty3)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/f/fa/Mario_Tennis_box.jpg){:width="100"} [Mario Tennis](https://github.com/dellm-79/mariotennis64)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/f/fa/Mario_Tennis_box.jpg){:width="100"} [Mario Tennis](https://github.com/dellm-79/mariotennisn64)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg){:width="100"} [Mystical Ninja Starring Goemon](https://github.com/fluvian/mnsg)              | Decompilation | Inaccessible |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Neon_Genesis_Evangelion_64_Game_Box.jpg){:width="100"} [Neon Genesis Evangelion](https://github.com/farisawan-2000/evangelion)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg){:width="100"} [Paper Mario](https://github.com/pmret/papermario)              | Decompilation | Completed |
