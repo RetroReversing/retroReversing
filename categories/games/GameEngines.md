@@ -17,12 +17,12 @@ redirect_from:
 <h1>Introduction to Game Engines & Middleware </h1>
 Game Engines are the foundation in which games are built, the contain all the logic to be able to show graphics, play audio, compute input etc without having any of the game specific assets such as sprites or music files.
 
-Middleware on the other hand has one specific goal in mind, for example a audio middle ware just plays sounds and you would not be able to display graphics with it.
+Middleware on the other hand has one specific goal in mind, for example an audio middleware just plays sounds and you would not be able to display graphics with it.
 
 So you can think of game engines as the combination of middleware.
 
 ## Who develops game engines?
-There are two type of game engines based on who developed them or rather who had access to them:
+There are two types of game engines based on who developed them or rather who has access to them:
 
   - In-house game engines - only available to one game development studio
   - Retail game engine - engines that are normally sold as a product and used by multiple game development studios
@@ -36,12 +36,12 @@ However with the Indie game revolution a number of free or cheap game engines be
 
 ---
 # Game Engines by Platform 
-Although game engines can be used across multiple games consoles or platforms, we have seperated the game engines by platform to make it easier to compare the features between engines of a given console generation.
+Although game engines can be used across multiple games consoles or platforms, we have separated the game engines by platform to make it easier to compare the features between engines of a given console generation.
 
 Platform Name | Game Engine List
 ---|---
-Microsoft XBox | [Original Xbox Game Engines](https://www.retroreversing.com/xbox-game-engines)
-Nintendo WiiU | [WiiU eShop Game Engines](https://www.retroreversing.com/WiiUeShopEngines) <br /> [Unity Game Engine Games on wiiU eShop](https://www.retroreversing.com/WiiUUnity) <br /> [Wii U Nintendo Web Framework](https://www.retroreversing.com/WiiUNWF)
+Microsoft Xbox | [Original Xbox Game Engines](https://www.retroreversing.com/xbox-game-engines)
+Nintendo Wii U | [Wii U eShop Game Engines](https://www.retroreversing.com/WiiUeShopEngines) <br /> [Unity Game Engine Games on Wii U eShop](https://www.retroreversing.com/WiiUUnity) <br /> [Wii U Nintendo Web Framework](https://www.retroreversing.com/WiiUNWF)
 
 
 <div>
