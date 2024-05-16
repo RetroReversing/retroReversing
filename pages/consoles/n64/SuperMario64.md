@@ -7,7 +7,7 @@ tags:
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:
-  - title: Did Nintendo really forget to Optimize Super Mario 64
+  - title: Did Nintendo really forget to optimize Super Mario 64
     image: https://img.youtube.com/vi/NKlbE2eROC0/0.jpg
     youtube: 'NKlbE2eROC0'
   - title: Loading custom levels
@@ -36,7 +36,7 @@ updatedAt: '2020-05-07'
 
 <div markdown="1">
 The Game was made by Nintendo EAD and was released in Europe on March 1st, 1997. 
-The development team consisted of 2 System programmers and 3 main programmers with additions from `Giles Goddard` responsible for the Mario face at the beginning and `Takumi Kawagoe` responsible for the camera programming [^1].
+The development team consisted of 2 system programmers and 3 main programmers with additions from `Giles Goddard` responsible for the Mario face at the beginning and `Takumi Kawagoe` responsible for the camera programming [^1].
 
 The source code is almost completely written in C and compiled with IDO C compiler 5.3.
 </div>
@@ -54,7 +54,7 @@ You can view his videos on his Twitch channel: [Salmence100's Videos - Twitch](h
 <img src="/public/fE8SrXMPgHkCwy4NDQWZQ_img_0.png" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-A newly imported object can appear very plain wthout any enemies or coins to collect, so lets add some objects!
+A newly imported object can appear very plain without any enemies or coins to collect, so lets add some objects!
 
 You can use the program called "Toad's Tool" to edit the objects for the level, It’s quite a simple tool, it allows you to view each world and edit the x,y,z coordinates of each object.
 
@@ -66,7 +66,7 @@ Also contains basic functionality for texture editing.
 <section class="postSection">
 <iframe height="315" src="https://www.youtube.com/embed/3HGrTUZxA6A" class="wow slideInLeft postImage" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div markdown="1">
-One thing you wil notice with your newly imported level is that it will still have the background image (skybox) of the level you replaced in the ROM. This can be easily changed to give your level a much more unique feeling to it.
+One thing you will notice with your newly imported level is that it will still have the background image (skybox) of the level you replaced in the ROM. This can be easily changed to give your level a much more unique feeling to it.
 </div>
 </section>
 
@@ -75,13 +75,13 @@ One thing you wil notice with your newly imported level is that it will still ha
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VX0NDhrIaIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <div markdown="1">
-Mario wouldn't be Mario without his pipes, lets add some that warp from one part of the level to another!
+Mario wouldn't be Mario without his pipes, let's add some that warp from one part of the level to another!
 </div>
 </section>
 
 ---
 # Ports
-Thanks to the 2 years of hard work by the Super Mario 64 decompilation team it is now possible to experience native ports of Sm64, no emulator required!
+Thanks to the 2 years of hard work by the Super Mario 64 decompilation team it is now possible to experience native ports of SM64, no emulator required!
 
 ## DirectX 12 (Windows)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XnxmbnYdFLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -101,7 +101,7 @@ You can find the source code for the Playstation 2 port here: [fgsfdsfgs/sm64-po
 
 ## Sony Playstation 3
 <iframe width="560" height="315" src="https://www.youtube.com/embed/avTl-CgjblA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-As you can see from the video, the sound and controller input has not been implemented yet but it is definetly a cool proof of concept!
+As you can see from the video, the sound and controller input has not been implemented yet but it is definitely a cool proof of concept!
 You can find the source code for the Playstation 3 port here: [Comparing mkst:3ds-port...fgsfdsfgs:ps3 · mkst/sm64-port](https://github.com/mkst/sm64-port/compare/3ds-port...fgsfdsfgs:ps3)
 
 ## DOS port (3dfx)
@@ -115,18 +115,18 @@ You can find the source code for the Dreamcast port here: [Comparing sm64-port:m
 
 ---
 # Decompilation
-Super Mario 64 was blown wide open when a full decompilation of the source code was acheived by a team of talented individuals.
+Super Mario 64 was blown wide open when a full decompilation of the source code was achieved by a team of talented individuals.
 
 The project can be rebuilt with the correct version of the IDO C compiler through QEMU-IRIX to produce a byte-identical ROM of the retail game for both North America and Japan. 
 
-This allows anyone with basic c-knowledge to hack around and change core gameplay elements, make the game easier/harder/add new mechanics etc.
+This allows anyone with basic C-knowledge to hack around and change core gameplay elements, make the game easier/harder/add new mechanics etc.
 
 ## Introduction to the Decompilation project
 Mountainflaw has released a tutorial that covers the basics of the Decompilation project and is the best way to get started for newcomers:
 [Introduction to Super Mario64 Decomp](https://mountainflaw.github.io/assets/page/intro.html)
 
 ## Checking out the Code
-The project is released on Github: [GitHub - n64decomp/sm64: A Super Mario 64 decompilation, brought to you by a bunch of clever folks.](https://github.com/n64decomp/sm64) and can be built on linux and windows but for mac you will need to use something like docker.
+The project is released on Github: [GitHub - n64decomp/sm64: A Super Mario 64 decompilation, brought to you by a bunch of clever folks.](https://github.com/n64decomp/sm64) and can be built on Linux and Windows but for macOS you will need to use something like docker.
 
 ```bash
 git clone https://github.com/n64decomp/sm64.git
@@ -3875,8 +3875,8 @@ git clone https://github.com/n64decomp/sm64.git
 {% include folder-browser.html selector="#filelist" %}
 
 ---
-# Official Source code
-The official source code for Super Mario 64 was leaked as part of the second Gigaleak which also contained source code for many other official N64 games including Mario Kart, Wave Race and both Zelda titles.
+# Official Source Code
+The official source code for Super Mario 64 was leaked as part of the second Gigaleak which also contained source code for many other official N64 games including Mario Kart 64, Wave Race 64 and both Zelda titles.
 
 {% include link-to-other-post.html post="/gigaleak2" description="For more information about Gigaleak 2 check out this post." %}
 
