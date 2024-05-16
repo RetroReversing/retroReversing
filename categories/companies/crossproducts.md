@@ -28,7 +28,7 @@ updatedAt: '2020-09-05'
 # History of Cross Products
 Cross Products is a company that specialised in development tools for game programming, located in the UK and founded in 1989 by by Ian Oliver and Andy Craven [^1].
 
-Cross Products had such a successful development kit that it was the industry standard during the Mega Drive era, this caused SEGA to purchase the company in 1994 for an undiscolves sum of money [^1].
+Cross Products had such a successful development kit that it was the industry standard during the Mega Drive era, this caused SEGA to purchase the company in 1994 for an undisclosed sum of money [^1].
 
 
 Archived Cross Products Official Website: https://web.archive.org/web/19970217093645/http://www.crossprod.co.uk/company.htm
@@ -39,7 +39,7 @@ Archived Cross Products Official Website: https://web.archive.org/web/1997021709
 # Products
 
 ## SNASM
-SNasm (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) in collaboration with the founders of Cross Products Ian Oliver and Andy Craven. It was licensed to Cross products for sale as paert of their first commercial development kit for the Atari ST and Amiga systems [^3].
+SNASM (Spiny Norman's Assembler) was developed by Martin Day (aka Spiny Norman) in collaboration with the founders of Cross Products Ian Oliver and Andy Craven. It was licensed to Cross Products for sale as part of their first commercial development kit for the Atari ST and Amiga systems [^3].
 
 Note that Spiny Norman (Martin Day) would go on to found a rival development tools company known as SN Systems (Spiny Norman Systems) but they did not distribute SNASM itself.
 
@@ -47,7 +47,7 @@ Note that Spiny Norman (Martin Day) would go on to found a rival development too
 
 SNASM was mentioned in **The Games Machine** UK magazine in issue 29 (April 1990) where it mentions that the development kit was still in Pre-release stage, cost £600 and runs on PC [^2]. 
 
-It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac. Unfortunetly the article fails to mention the other lead developer Martin Day, presumably because the issue was mainly focusing on both Realtime and Vektor development studios.
+It mentions that its developed as a collaboration between **Realtime Games** (Ian Oliver) and **Vektor Graphics** (Andy Craven) as a cross-platform development kit for the Atari ST, Amiga and Mac. Unfortunately the article fails to mention the other lead developer Martin Day, presumably because the issue was mainly focusing on both Realtime Games and Vektor Graphics development studios.
 
 It claims to compile 12K lines of source code in just 5 seconds, which was a huge benefit as compiling full games at the time could take upwards of 15 minutes, so the faster the compiler the less developer time wasted.
 
@@ -72,7 +72,7 @@ In the May 1995 Price List it mentions that SNASM2 was available to buy for the 
 * Sega 32X (SNASM68K)
 * Mega CD (SNASM68K)
 * Sega Saturn
-* Super Nintendo Entertainment system (SNASM658)
+* Super Nintendo Entertainment System (SNASM658)
 * Jaguar
 * Philips CDi
 
@@ -87,7 +87,7 @@ The SNASM658 was the Super Nintendo version of the SNASM2 development kit and ca
 ### SNASM for Atari ST
 The Atari ST was one of the first platforms supported by the original SNASM development kit, it allowed developing on a PC and debugging on an Atari ST, with the main benefit being that crashes on the Atari didn't affect development compared to editing on the Atari ST itself.
 
-{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM Devkit Box for the Atari ST at Computing History" title="SNASM Devkit Box for the Atart ST - Peripheral - Computing History]" image="https://www.computinghistory.org.uk/userdata/images/large/83/67/product-118367.jpg"  %}
+{% include link-to-other-site.html url="https://segaretro.org/SNASM68K" description="More information about SNASM Devkit Box for the Atari ST at Computing History." title="SNASM Devkit Box for the Atart ST - Peripheral - Computing History]" image="https://www.computinghistory.org.uk/userdata/images/large/83/67/product-118367.jpg"  %}
 
 ---
 # All Posts mentioning Cross Products
