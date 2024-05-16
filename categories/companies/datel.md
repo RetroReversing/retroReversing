@@ -24,7 +24,7 @@ editlink: ../categories/companies/datel.md
 ---
 
 # Introduction
-Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. They are one of the few companies who know how to press disks that run on PS1, PS2 and Gamecube without using an official disc pressing plant.
+Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. They are one of the few companies who know how to press disks that run on PS1, PS2 and GameCube without using an official disc pressing plant.
 
 This page is an extension of our post on twitter:
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Let us take a moment to appreciate the work Datel did 20 years ago, reverse engineering and developing their own playable unofficial PS2 DVD discs which contained the watermark and decryption key required to boot code which could not be done with a consumer DVD burner. A 🧵… <a href="https://t.co/CP0NQORwwp">pic.twitter.com/CP0NQORwwp</a></p>&mdash; 🕹 RetroReversing - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1478163167335395331?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote>
@@ -35,6 +35,14 @@ This page is an extension of our post on twitter:
 ## DOS PC Action Replay: The Ultimate Game Buster
 Infinite cheat codes, save states, memory monitoring, slow motion, and more! This 1993 ISA card version of the Datel Pro Action Replay for DOS computers is packed with odd features. Check it out in this episode of **LGR Oddware**:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/usaioMbE8EQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+# Super Nintendo (SNES)
+
+## Pro Action Replay for the SNES
+The Action Replay for the Super Nintendo wasn't just a cheat cartridge, it also allow you to play games from other regions!
+
+![Pro Action Replay for the SNES](https://github.com/RetroReversing/retroReversing/assets/40120498/c10ca399-aef6-4476-ac3e-677225d31588)
 
 ---
 # Nintendo 64
@@ -56,7 +64,6 @@ http://www.nesworld.com/article.php?system=n64&data=n64-gamekiller
 Action Replay was released for the Game Boy with a unique fold over design to avoid the game sticking out too much from the top of the device.
 ![Pro Action Replay](https://github.com/RetroReversing/retroReversing/assets/40120498/27682f3d-db97-4e9a-bfcb-015743f01e9f)
 
-
 ---
 # Nintendo Game Boy Color
 
@@ -67,24 +74,24 @@ A few of the features include:
 * Notepad that can write and even print out notes with Game Boy printer
 * Address Book feature
 * Auto-dial function - dial phone numbers that you typed into the SmartCom by holding the GB up to the phones mouthpiece (how does this work?!)
-* Use as an Infra-red TV remote control (GBC only)
-* Send messages to other SmartCom devices via Intra-red (GBC only)
+* Use as an Infrared TV remote control (GBC only)
+* Send messages to other SmartCom devices via Infrared (GBC only)
 
 It seems very similar to the "WorldPort" but without the email sending functionality.
 
 <img width="50%" data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/516d158e-d0dc-4696-9c45-d73aa2415ace" alt="SmartCom" class="lazy-load" />
 
 ## WorldPort
-Send and recieve emails on your Game Boy with World Port! It comes with a cable that goes from the cartridge directly into any UK phone socket and you get a free email address. However you need to pay per email which comes in the form of top-up cards you need to buy seperately.
+Send and receive emails on your Game Boy with World Port! It comes with a cable that goes from the cartridge directly into any UK phone socket and you get a free email address. However you need to pay per email which comes in the form of top-up cards you need to buy separately.
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/1a9b9c45-173e-4eee-9400-c9a04707afd2" alt="WorldPort" class="lazy-load" />
 
 
-## Rocket Games (unlicenced game boy games)
-Datel released a series of 10 Game Boy color games completely unlicensed by Nintendo that they called "Rocket Games".
+## Rocket Games (unlicenced Game Boy games)
+Datel released a series of 10 Game Boy Color games completely unlicenced by Nintendo that they called "Rocket Games".
 
 The 8 games that were released are below:
 * **Painter** - Arcade style puzzle game
-* **Fall Time & Hang Time** - Two sports games on the same cartridge (Football and basketball)
+* **Fall Time & Hang Time** - Two sports games on the same cartridge (Football and Basketball)
 * **Karate Joe** - Arcade beat-em-up
 * **Space Invasion** - Arcade Shoot-em-up
 * **ATV Racing** - All Terrain vehicle racing
@@ -96,7 +103,7 @@ The 8 games that were released are below:
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/6fe71058-0b3a-460d-b987-221d669cd36b" alt="Space Invasion - Rocket Game" class="lazy-load" />
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3" alt="All Rocket Games for GBC" class="lazy-load" />
 
-The Rocket Games were also provided free as part of the Playstation 2 "GameStudio" product which was a GameBoy player for the PS2.
+The Rocket Games were also provided free as part of the Playstation 2 "GameStudio" product which was a Game Boy player for the PS2.
 
 Also one of the games was given away for free with every copy of the UK Magazine GBX issue 11 (last issue before it became G-Force), it advertises **Karate Joe** but just calls them **Rocket Games** so presumably it could have been any of them.
 
@@ -107,10 +114,9 @@ It contains a code generator to create your own codes (think of a limited versio
 
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/52312f56-c947-4290-b416-4e23dd4a86a3" alt="Action Relay Extreme for Game Boy Color" class="lazy-load" />
 
-There was also a special Pokemon crystal version released in a crystal like colour, presumably it can use the same codes as the original but probably just has the Pokemon crystal codes built in instead of having to type them in manually:
+There was also a special Pokemon Crystal version released in a crystal-like colour, presumably it can use the same codes as the original but probably just has the Pokemon Crystal codes built in instead of having to type them in manually:
 
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/f6455193-5037-4331-b51e-95ae51c88263" alt="Pokemon Crystal Action Relay Extreme" class="lazy-load" />
-
 
 ---
 # Nintendo Game Boy Advance
@@ -135,15 +141,6 @@ The X-Port GBX allows you to upload and download saves from your GBA cartridges 
 <img width="50%"  data-image-full="https://github.com/RetroReversing/retroReversing/assets/40120498/81040378-da3f-4c94-b701-15168fc05781" alt="X-port GBX" class="lazy-load" />
 
 ---
-# Super Nintendo (SNES)
-
-## Pro Action Replay for the SNES
-The Action Replay for the Super Nintendo wasn't just a cheat cartirdge, it also allow you to play games from other regions!
-
-![Pro Action Replay for the SNES](https://github.com/RetroReversing/retroReversing/assets/40120498/c10ca399-aef6-4476-ac3e-677225d31588)
-
-
----
 # Playstation 2
 
 ## Action Replay Max
@@ -159,10 +156,10 @@ But it didn’t stop there, the ability to print unofficial PS2 Discs was unique
 There were many of these released for a third of the price of AR. However I believe the standard AR could do all the same cheats and would work out cheaper in the long run if you wanted to cheat in more than 3 games.
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313365-9f68f310-8e05-40d0-8d08-3a299cb15c26.jpeg" alt="Action Replay PS2 Ultimate Cheats" class="lazy-load" />
 
-One of the best examples is when they used their  technology to add official team names into PES3 which  was not allowed to use the official FIFA names. AFAIK it was not possible to do with with just AR codes/saves so this product was required.
+One of the best examples is when they used their technology to add official team names into PES3 which was not allowed to use the official FIFA names. AFAIK it was not possible to do with with just AR codes/saves so this product was required.
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313435-b0f3842d-18e9-4110-bc17-efc37af0af6e.jpeg" alt="Action Replay Pro Evolution Soccer" class="lazy-load" />
 
-If you look at the Max Payne version, it is releasing the same day as the retail game which suggests Datel seem to have had early access to the final games before their release date. Other region versions wouldn't have all the same codes as they would have been re-compiled...
+If you look at the Max Payne version, it is releasing the same day as the retail game which suggests Datel seem to have had early access to the final games before their release date. Other region versions wouldn't have all the same codes as they would have been recompiled...
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313476-209dfa62-56fe-4dae-b6fb-d8ac811bda7d.jpeg" alt="Action Replay Max Payne" class="lazy-load" />
 
 One possibility is through their magazine subsidiary known as “Thin Ice Media” which published 3 retail magazines in the UK: GBX, G-force and PSi2. But would publishers really send preview copies to these magazines which were basically used as an advertising channel for Datel?
@@ -170,13 +167,12 @@ One possibility is through their magazine subsidiary known as “Thin Ice Media�
 
 Although to be fair their magazines went on to be fairly successful with PSi2 having at least 38 issues (not sure if issue 39 exists or not). You see they had one advantage over the competition: the ability to burn playable PS2 cheat discs...
 
-Sony only allowed their Official magazine to have a playable demo disc attached to the front cover, so for unoffical magazines to compete they just included a standard DVD with Game Trailers. This gave Datel magazines a Unique Selling Point in the market.
+Sony only allowed their Official magazine to have a playable demo disc attached to the front cover, so for unoffical magazines to compete they just included a standard DVD with Game Trailers. This gave Datel magazines a unique Selling Point in the market.
 
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313671-7b1ebc6f-95fa-423c-8160-12f657753b5b.jpeg" alt="PSi2 PowerCheats" class="lazy-load" />
 
-
 ## BlockBuster PowerPlay
-The cheap PS2 DVD creation meant that Datel could allow companies like Blockbuster to cheaply give their customers playable PS2 content while also advertising their Action Replay product. For example Power Play!
+The cheap PS2 DVD creation meant that Datel could allow companies like Blockbuster to cheaply give their customers playable PS2 content while also advertising their Action Replay product. For example PowerPlay!
 ![BlockBusterPowerPlay](https://user-images.githubusercontent.com/40120498/235313783-84824e39-f12c-45ce-92e9-4ce1f50052ab.jpeg)
 
 ## DVD Region X
@@ -188,26 +184,25 @@ Side note: Action Replay was published by Karat in Japan and even had Potato Chi
 ![KaratActionReplayCrisps](https://user-images.githubusercontent.com/40120498/235313876-9408c00f-cfaa-47f9-8774-c13a6554ab85.jpeg)
 
 ## Karaoke Party
-But they didn’t just create standalone subsets of Action Replay functionality they also made entirely new software such as Karaoke Party! Which came with very popular pop songs at the time. I wonder did they license the music but not the game? or was it used without permission?
+But they didn’t just create standalone subsets of Action Replay functionality they also made entirely new software such as Karaoke Party! Which came with very popular pop songs at the time. I wonder did they license the music but not the game? Or was it used without permission?
 ![KaraokeParty](https://user-images.githubusercontent.com/40120498/235313914-ee6e7f37-e500-4a0d-b5db-ed288b626615.jpeg)
 
 ## Dance Master
 In a similar vein comes Dance Master, which was basically just a Dance Mat accessory that can work with any PS2 dancing game, but unlike competitors Datel could include its own unlicensed “Dance Work Out Game” which must have given it an edge over other 3rd party Dance Mats.
 <img width="50%"  data-image-full="[https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg](https://user-images.githubusercontent.com/40120498/235313929-a0387bd2-3dc8-4706-8d2d-d1aeab141aca.jpeg)" alt="DanceMaster" class="lazy-load" />
 
-
 ## Eye Max
-Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known..
+Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known...
 
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg" alt="eyeMax" class="lazy-load" />
 
 ## Max Memory
-They also released their own memory cards with the rather useful functionality of being able to back them up to your PC and share them online, or download save files from other users. Then there was their compression technology which claims up to 10x more space for saves..
+They also released their own memory cards with the rather useful functionality of being able to back them up to your PC and share them online, or download save files from other users. Then there was their compression technology which claims up to 10x more space for saves...
 
 <img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313991-83de2a7c-b639-4539-925d-3a6a7d740283.jpeg" alt="PS2 Max Memory" class="lazy-load" />
 
 ## PS2 X-Drive
-Another product related to Memory Cards was the X-Drive, which allowed users to use actual Zip Discs for game saves, if Zip disks were cheaper this could have been a very popular product..
+Another product related to Memory Cards was the X-Drive, which allowed users to use actual Zip disks for game saves, if Zip disks were cheaper this could have been a very popular product...
 ![PS2X-Drive](https://user-images.githubusercontent.com/40120498/235314028-9d1973e1-9736-4cfd-8819-94c53ecc6adc.jpeg)
 
 ## GameStudio (Game Boy Emulator on the PS2)
@@ -215,27 +210,25 @@ But what else did they do with the Memory Card hardware? How about Game Studio a
 ![PS2GameStudio](https://user-images.githubusercontent.com/40120498/235314077-b196320f-6cf4-477e-a80d-493bdc66f93c.jpeg)
 
 ## Max Play
-Datel had the technology to produce unofficial PS2 discs and really made the most out of it apart from one area… games. There was no big unlicensed hits like CodeMasters Micro Machines was for the NES. The closest was called MaxPlay: 10 retro games like space invaders/Jetpack
+Datel had the technology to produce unofficial PS2 discs and really made the most out of it apart from one area… games. There was no big unlicensed hits like CodeMasters Micro Machines was for the NES. The closest was called MaxPlay: 10 retro games like Space Invaders/Jetpack
 ![PS2MaxPlay1](https://user-images.githubusercontent.com/40120498/235314122-43e34f19-df0a-41fa-bc97-f2ffa5f22156.jpeg)
 
 ## How did they do it?
-CodeJunkies is still going today and have a few cheat devices for sale such as for 3DS and the PS2 version of Action Replay is under their Retro section but it has been sold out for a while, which begs the question: do they still have the ability to create more PS2 Discs?
+CodeJunkies is still going today and have a few cheat devices for sale such as for 3DS and the PS2 version of Action Replay is under their Retro section but it has been sold out for a while, which begs the question: Do they still have the ability to create more PS2 Discs?
 
 It is a shame that they never managed to figure out the #PS3 or PS4 Disc format as an Action Replay disc for those consoles would have been useful. Presumably the security of the Blu-ray Discs and upgradability of firmwares made it almost impossible to sell unofficial discs.
 
 I would love to know how Datel technology was developed and ideally in future I would love to see Physical PS2 Homebrew or re-releases like we have seen for cartridge based consoles in recent years such as from Limited Run Games.
 
-
 ---
-# Nintendo Gamecube
+# Nintendo GameCube
 
-## Max Play for Gamecube
-Datel also has the technology to create Gamecube discs and created a version of Max Play for the Nintendo Gamecube with the game 10 retro games as the PS2 version.
+## Max Play for GameCube
+Datel also has the technology to create GameCube discs and created a version of Max Play for the Nintendo GameCube with the game 10 retro games as the PS2 version.
 ![DatelMaxPlay](https://user-images.githubusercontent.com/40120498/235313223-90c4633d-f51e-47b1-9305-b8d59d342124.jpeg)
 
-
-## MAX Drive Pro for Gamecube
-An 8MB Gamecube Memory card that allows loading homebrew applications without any modifications of the hardware [^1]! The memory card connects to a PC via a USB cable allowing easy loading of files onto the card.
+## MAX Drive Pro for GameCube
+An 8MB GameCube Memory Card that allows loading homebrew applications without any modifications of the hardware [^1]! The Memory Card connects to a PC via a USB cable allowing easy loading of files onto the card.
 
 ---
 # All Posts
