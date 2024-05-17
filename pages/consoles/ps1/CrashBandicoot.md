@@ -27,7 +27,7 @@ references:
   - DevsPlay
 ---
 # Introduction to Crash Bandicoot
-Crash bandicoot was one of the first 3D Platform games that managed to deliver both quality gameplay and impressive graphics for its time. It was developed Naughty Dog for release on the original Playstation console with the aim for it to become the Mascot character for the console, this aim paid off for the creators.
+Crash Bandicoot was one of the first 3D Platform games that managed to deliver both quality gameplay and impressive graphics for its time. It was developed Naughty Dog for release on the original Playstation console with the aim for it to become the Mascot character for the console, this aim paid off for the creators.
 
 ## Development Team
 Naughty Dog started development of Crash Bandicoot with just Andy Gavin and Jason Rubin and later introduced the programmer Dave Baggett and Universal VP Mark Cerny. 
@@ -35,7 +35,7 @@ Naughty Dog started development of Crash Bandicoot with just Andy Gavin and Jaso
 They were one of the few developers to sign an agreement directly with Sony, most of the time it was the publisher who signed this agreement. This agreement was known as the "developers agreement" and was notoriously harsh on the developers as Sony wanted to keep strict control over who had access to develop for the platform [^4].
 
 ## Development Tools
-The team paid $35k for a development kit in 1994 which likely was the original prototype development kit known as the MW.3, this predated the PC-based SN Systems PSYQ development kit that used an ISA card that plugged directly into a development PC.
+The team paid $35k for a development kit in 1994 which likely was the original prototype development kit known as the MW.3, this predated the PC-based SN Systems PSY-Q Development Kit that used an ISA card that plugged directly into a development PC.
 
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the MW.3 and other official development kits please check out this post." %}
 
@@ -46,7 +46,7 @@ The team paid $35k for a development kit in 1994 which likely was the original p
 Technical limitations of the Sony Playstation 1 hardware and the limited small CRT's used to play games were a big part in shaping the game we know and love today.
 
 ### Crash's Design limitations
-The design of Crash bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^5].
+The design of Crash Bandicoot was described by Rubin as 51% technical and visual necessity and 49% inspiration. As for the technical reasons, his colours were chosen based on what would look good on a 90s CRT television and the choice of bright orange meant that lava levels could not be present in the game as it would be too similar to the players colour [^5].
 
 ### Use of Untextured Polygons for Crash
 It also turned out that the PlayStation was particularly good at rendering untextured but shaded polygons because of this it was decided that crash would be untextured which was a high enough polygon count that the details could be shown using just the colors of the polygons as well as rendering faster this had other advantages.
@@ -64,12 +64,12 @@ The levels ensured that there was never too much being shown on screen at once, 
 So if the developers ever had too many polygons on the screen they could actually just add in a bush to fix the problem [^1]! 
 
 The PlayStation could not handle showing many enemies on the screen at one time as they were composed of too many
-polygons so lots of woompa fruit was added as they are in fact 2d sprites so many of these could be rendered at once to make the levels a bit more interesting.
+polygons so lots of woompa fruit was added as they are in fact 2D sprites so many of these could be rendered at once to make the levels a bit more interesting.
 
 The Crates were also relatively low in terms of polygon count (6 if you only render what is facing the camera) so many could be added to make the levels feel more fleshed out [^1].
 
 ### Use of Fixed Camera Optimisations
-The in-game camera moves on a fixed path through each level so a lot of things could be pre calculated before putting the game on the disc.
+The in-game camera moves on a fixed path through each level so a lot of things could be pre-calculated before putting the game on the disc.
 
 3D games need to calculate the correct order in which to render polygons on the fly, but the PlayStation had no easy way to do that.
 
@@ -104,8 +104,7 @@ One of the main technical limitations was taking many megabytes of data and plac
 
 These techniques managed to compress levels that were 128 megabytes in size down to a measly 12 megabytes. While that is impressive, the levels however would then need to be dynamically loaded to fit into the Playstation's two megabytes of RAM.
 
-This would have to be done seamlessly to keep the frame-rate stable and the developers even went as far as controlling the physical layout of the bytes on the cd-rom a large file exists in the game that serves no purpose but to push the game's data to the outside of the disk since this area of the disk moves faster data here could be read quicker so that everything could
-be loaded by the time Crash ended up in those levels.
+This would have to be done seamlessly to keep the framerate stable and the developers even went as far as controlling the physical layout of the bytes on the CD-ROM a large file exists in the game that serves no purpose but to push the game's data to the outside of the disk since this area of the disk moves faster data here could be read quicker so that everything could be loaded by the time Crash ended up in those levels.
 
 Other optimisations such as re-using the same variables to save individual bytes in memory were used to great effect and in the end Crash Bandicoot used up almost all of the 2MB of RAM but with just four bytes to spare [^1].
 
@@ -114,14 +113,14 @@ Other optimisations such as re-using the same variables to save individual bytes
 ## Secret Code from Sony?
 Crash Bandicoot was a technical marvel boasting visuals so impressive that Naughty Dog were accused of being given secret libraries of code from Sony to make their game perform better than others [^1]!
 
-However this was not true, Naughty Dog would often break Sony's reccomended development process by not using their provided libraries and instead program their own bespoke more efficient libraries to push the hardware to its limits.
+However this was not true, Naughty Dog would often break Sony's recommended development process by not using their provided libraries and instead program their own bespoke more efficient libraries to push the hardware to its limits.
 
 
 ---
 # Unused content
 As with most games that have a rushed development cycle, there are assets available on the disc which are never actually used in the retail game. For Crash Bandicoot this includes a full level known as `Stormy Ascent` which was deemed too hard and too time consuming to fix up before the release date.
 
-{% include link-to-other-site.html url="https://tcrf.net/Crash_Bandicoot" description="The Cutting Room Floor has a very detailed page listing all of the unused assets available in the game and is highly recommended to check out" image="https://tcrf.net/images/e/e7/Crash1_-_GuardDog.png" title="Crash Bandicoot - The Cutting Room Floor"  %}
+{% include link-to-other-site.html url="https://tcrf.net/Crash_Bandicoot" description="The Cutting Room Floor has a very detailed page listing all of the unused assets available in the game and is highly recommended to check out." image="https://tcrf.net/images/e/e7/Crash1_-_GuardDog.png" title="Crash Bandicoot - The Cutting Room Floor"  %}
 
 ---
 # Other Games
@@ -132,7 +131,7 @@ The developer known as `ughman` has created a Crash 2 mini-decompilation project
 {% include link-to-other-site.html url="https://github.com/ughman/c2c" description="Github project for the decompilation of Crash 2 for PS1" image="" title="Crash 2 in C"  %}
 
 ## Crash Team Racing Modding Tools
-Another excellent Crash based game for the Playstation 1 was `Crash team Racing`, there are a few projects which have managed to create modding tools for this game, the most complete is known as `CTR-tools`.
+Another excellent Crash-based game for the Playstation 1 was `Crash Team Racing`, there are a few projects which have managed to create modding tools for this game, the most complete is known as `CTR-tools`.
 
 {% include link-to-other-site.html url="https://github.com/DCxDemo/CTR-tools" description="Github project for the Crash Team Racing (PS1) tools" image="" title="CTR-tools" image="https://github.com/DCxDemo/CTR-tools/raw/master/ctr-tools-logo.png"  %}
 
