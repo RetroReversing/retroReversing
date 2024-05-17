@@ -28,9 +28,9 @@ updatedAt: '2021-04-11'
 Games consoles required specialist hardware in order to develop for them as it was very rare for a PC of the time to be able to emulate newly released consoles.
 Programming would be done via a PC as normal but when it comes to debugging or testing the game it would need to be run on hardware similar to the retail console.
 
-This is where Game Console development Kit Hardware comes in, they are systems that norally connect to a PC but have the hardware of the target games console.
+This is where Game Console Development Kit Hardware comes in, they are systems that normally connect to a PC but have the hardware of the target games console.
 
-Game console development kits come in all shapes and sizes, some are built by the games console manufacture themselves and others are built by 3rd-party companies.
+Game Console Development Kits come in all shapes and sizes, some are built by the games console manufacturers themselves and others are built by 3rd-party companies.
 
 Development Kits offer a fascinating insight into the game development process, most come out before the specs for the console have even been finalised or announced to the public.
 
@@ -60,7 +60,7 @@ For Music creation, SN Systems created the Maestro64 development cartridge that 
 {% include link-to-other-post.html post="/maestro64/" description="For information about SN Systems's Maestro64 development cartridge check out this post." %}
 
 
-## Nintendo Gamecube (Dolphin)
+## Nintendo GameCube (Dolphin)
 {% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For information about Nintendo's Dolphin development hardware check out this post." %}
 
 ## Nintendo Wii
@@ -94,18 +94,18 @@ SEGA themselves tended to rely on third party hardware manufacturers to create t
 ## SEGA Saturn 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For information about SEGA's Saturn development hardware check out this post." %}
 
-There was also a third party development kit by SN Systems which was part of their multi-platform toolchain known as PsyQ.
+There was also a third party development kit by SN Systems which was part of their multi-platform toolchain known as PSY-Q.
 
-{% include link-to-other-post.html post="/psyq-sega-saturn/" description="For information about SN Systems's Saturn development hardware (PsyQ) check out this post." %}
+{% include link-to-other-post.html post="/psyq-sega-saturn/" description="For information about SN Systems's Saturn development hardware (PSY-Q) check out this post." %}
 
 ## SEGA Dreamcast
-The Dreamcast arguby had the best development kit that SEGA had ever sold for their consoles, it is just a shame the lifespan of the Dreamcast was cut short.
+The Dreamcast arguably had the best development kit that SEGA had ever sold for their consoles, it is just a shame the lifespan of the Dreamcast was cut short.
 
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
 
 ---
 # Sony Development Kit Hardware
-Sony have long been in the hardware development buisness and it shows with the quality of their development kits, they were fairly well-liked by the development community even if development for the later Sony systems sch as the PS3 was in general a pain.
+Sony have long been in the hardware development business and it shows with the quality of their development kits, they were fairly well-liked by the development community even if development for the later Sony systems as the PS3 was in general a pain.
 
 ## Sony Playstation Portable 
 {% include link-to-other-post.html post="/official-psp-devkit" description="For information about Sony's Playstation portable development hardware check out this post." %}
@@ -131,7 +131,7 @@ Compared to the other companies on this list Microsoft is the newest to the hard
 
 
 ## Microsoft Xbox 360
-We still need to create a page collecting all of the Xbox360 development kit hardware
+We still need to create a page collecting all of the Xbox360 Development Kit hardware
 
 ---
 # All Posts tagged with Development Kit
