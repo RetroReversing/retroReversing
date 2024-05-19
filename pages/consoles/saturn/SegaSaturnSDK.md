@@ -20,7 +20,7 @@ recommend: saturn
 editlink: /consoles/saturn/SegaSaturnSDK.md
 updatedAt: '2019-11-05'
 ---
-The Sega Saturn software development kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by sega and a few custom 3rd party.
+The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
 
@@ -30,7 +30,7 @@ There were multiple sets of compilers available to Sega Saturn developers, the m
 
 Cygnus Solutions were a company that sold GNU products with enterprise level support to make it easier for developers when they encountered compiler issues.
 
-Although the Cygnus Solutions compiler toolchain supports C++ it was reccomended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
+Although the Cygnus Solutions compiler toolchain supports C++ it was recommended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
 
 {% include link-to-other-post.html post="/sega-saturn-hitachi-compiler/" description="For more information on Hitachi Compiler for the Saturn check out this post." %}
 
@@ -59,7 +59,7 @@ The only output format it supports is SGA3 with or without header information.
 Created by Geoff Caras of `The Igneous Group` it is software with included source code to contact a Sega Saturn CartDev kit from a PC. 
 
 ### HSITool
-The HSITool is a command line program that runs on the PC to connect to the saturn development kit. It uses the SCSI and ASPI interface to control the CartDev hardware from the PC.
+The HSITool is a command line program that runs on the PC to connect to the Saturn Development Kit. It uses the SCSI and ASPI interface to control the CartDev hardware from the PC.
 
 You can do actions such as read memory or capture audio output. Very useful for debugging as you can get the current registers or even write new register values when at a breakpoint.
 
@@ -74,14 +74,14 @@ The source code of this tool is available in the `WINCOFF.ZIP` file.
 
 ---
 # Libraries
-There were two major libraries for sega saturn developement, the low level Sega Basic Library (SBL) and the high level Sega 3D Game Library (SGL).
+There were two major libraries for Sega Saturn development, the low level Sega Basic Library (SBL) and the high level Sega 3D Game Library (SGL).
 
 ## Sega Basic Library (SBL)
 Latest Known Version: **6.01**
 The Sega Basic Library is a low level API for as close to bare metal access to the hardware as you can get, it is ideal for 2D pixel based games.
 
 ### INTERRUPT example
-The Interrupt folder inside the Sega Basic library holds a sample of how to use interrupts called `testtim0`.
+The Interrupt folder inside the Sega Basic Library holds a sample of how to use interrupts called `testtim0`.
 
 The sample displays two timers and the Hblank interrupt count. It makes heavy use of the Scroll 2D library to display the text.
 
@@ -94,8 +94,8 @@ This includes pre-built executables for a range of PCs such as HP, SUN and Windo
 
 Name | Description
 ---|---
-BIN | WIndows Binaries
-BINCD | Windows binaries for CD management and emulation
+BIN | Windows Binaries
+BINCD | Windows Binaries for CD management and emulation
 BINHP | Unix Binaries for HP computers
 BINSUN | Unix Binaries for Sun Microsystems computers
 DGTTO3DT | Source code for the DGT to 3DTable converter
@@ -120,10 +120,10 @@ The SegaDat folder is well as the name suggests a folder with Sega Saturn data f
 Well it seems to be data that by default gets put on every disk, including the Sega "Warning Message" that plays when you try to put a game in an Audio CD player.
 Also it includes fonts used to display the warning message at the start of each game.
 
-It looks like the file `sega_wrn.da` is the audio file that plays when you put a sega saturn disc in an audio player.
+It looks like the file `sega_wrn.da` is the audio file that plays when you put a Sega Saturn disc in an audio player.
 
 ### SEGALIB (Libraries)
-One of the very nice things about the sega saturn SDK is that it actually contains the full source code to all the libraries that make up the SDK. The C and ASM source files are all located inside the SEGALIB folder seperated into folders based on the library name.
+One of the very nice things about the Sega Saturn SDK is that it actually contains the full source code to all the libraries that make up the SDK. The C and ASM source files are all located inside the SEGALIB folder separated into folders based on the library name.
 
 Each folder contains a:
 * .a library for GCC compiler linking
@@ -152,15 +152,15 @@ MEM | Memory library
 MPG | MPEG Video
 MTH | Math Library
 PCM | Audio PCM/AD-PCM playback
-SCL |  (VDP2 Library?)
+SCL | (VDP2 Library?)
 SDD | Sound Driver source code (assembly)
-SHC | Hitachi SH C compile library source, only seems to implement one function `__sftra`
+SHC | Hitachi SHC compile library source, only seems to implement one function `__sftra`
 SND | Sound Library
 SPR | Sprite Library
 STM | Stream System Library
 
 ### SEGASMP (Samples)
-This contains tons of great samples of how to use all the libraries in the Sega Saturn development kit.
+This contains tons of great samples of how to use all the libraries in the Sega Saturn Development Kit.
 
 The samples are pre-compiled in the `COF` folder as valid Sega Saturn executables.
 
@@ -201,7 +201,7 @@ V_BLANK | VBlank usage sample
 Latest Known Version: **3.02**
 The Sega 3D Game Library (SGL) is a high level API designed for creating 3D games. It does not provide as low-level access as the Sega Basic Library but the two can be used together.
 
-Note that this can also sometimes be called the Sega Graphics library, both are used throughout the official Sega documentation.
+Note that this can also sometimes be called the Sega Graphics Library, both are used throughout the official Sega documentation.
 
 ### GNU AWK/GAWK
 Contains builds of the GNU Free Software AWK for windows.
@@ -211,7 +211,7 @@ The GNU Assembler (GASM) uses the AWK files to help assemble source input, so th
 ### Documentation
 
 ### Demos
-The Demos folder Contains 4 Demos in source code form ready to be compiled using the GNU compiler toolchain for Sega Saturn.
+The Demos folder contains 4 Demos in source code form ready to be compiled using the GNU compiler toolchain for Sega Saturn.
 
 #### BiPlane Demo
 Compile with: GNU 2.7+ (GCC for SH2))
@@ -221,7 +221,7 @@ Written in: C
 CD Audio demo very simple with only one C source file.
 
 #### Chrome
-The Chrome demo shows various graphical effects such as gouraud shading, bump mapping and chrome finish for simple objects.
+The Chrome demo shows various graphical effects such as Gouraud shading, bump mapping and chrome finish for simple objects.
 
 #### Flying
 Compile with: GNU 2.7+ (GCC for SH2))
