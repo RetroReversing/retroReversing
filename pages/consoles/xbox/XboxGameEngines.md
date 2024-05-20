@@ -28,16 +28,16 @@ Game engines have always been used to a certain extent within the games industry
 
 These game engines were normally just distributed to developers in the same company and never released to other development studios therefore these are called 'in-house' game engines.
 
-However the xbox generation was the first to really take 3rd party game engines seriously. 
+However the Xbox generation was the first to really take 3rd party game engines seriously. 
 
-Full Commercial off-the-shelf game engines became much more popular such as Unreal Engine or GameBryo. 
+Full commercial off-the-shelf game engines became much more popular such as Unreal Engine or GameBryo. 
 
 But the real winners were the more specific middleware libraries such as the Havok Physics engine, Bink Video Playback engine and the Renderware Graphics engine.
 
-Most developers still wanted full control over their game engine but it was too costly to write a custom physics, audio or video engine for each game. In future console generations developers would move towards the full game engines, leaving some of the flexability behind.
+Most developers still wanted full control over their game engine but it was too costly to write a custom physics, audio or video engine for each game. In future console generations developers would move towards the full game engines, leaving some of the flexibility behind.
 
 ## Detecting middleware
-The games listed below each engine or middleware have been confirmed to use those engines by searching for common strings within the xbox executable themselves. 
+The games listed below each engine or middleware have been confirmed to use those engines by searching for common strings within the Xbox executable themselves. 
 
 If you would like to add a game to the list please make sure to check the executable for a trace of the code, sometimes developers aim to use a library but it never ends up in the final build.
 
@@ -54,15 +54,15 @@ The Unreal Engine was developed by [Epic Games](https://www.epicgames.com/) init
 To find out if your games uses this engine, look for a file with a .umd extension for example `xboxship.umd`. Or search the files for the string `UnrealEd`.
 
 Games:
-* America's Army - Rise Of Soldier
-* Brother in Arms - Earned in Blood
+* America's Army - Rise of a Soldier
 * Brother in Arms
+* Brother in Arms: Earned in Blood
 * Combat Task Force 121
 * Dead Man's Hand
 * Deus Ex Invisible War
 * Ghost Recon Advanced Warfighter
 * Land of the Dead
-* Magic the Gathering - Battlegrounds
+* Magic: The Gathering - Battlegrounds
 * Men of Valor
 * New Legends
 * Open Season
@@ -78,15 +78,15 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/ViciousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Vicious Engine was developed by Vicious Cycle Software and released late in the Xbox lifecycle in early 2005, thus very few 3rd party game developers used this engine for the Xbox but it was nevertheless available to them during the end of the xbox lifespan.
+The Vicious Engine was developed by Vicious Cycle Software and released late in the Xbox lifecycle in early 2005, thus very few 3rd party game developers used this engine for the Xbox but it was nevertheless available to them during the end of the Xbox lifespan.
   
 To find out if your games uses this engine, look for games that have `*.rgn` files, RGN stands for Region in this case which is the terminology Vicious Engine uses for Maps/Levels. Although other games that don't use this engine could also use .rgn for a filename such as `Star Wars - Obi Wan` so we will need a better method of detection.
 
 Games:
 * Curious George
-* Dinotopia - The Sunstone Odyssey [^6]
+* Dinotopia: The Sunstone Odyssey [^6]
 * Robotech Invasion [^6]
-* Spy vs Spy [^6]
+* Spy vs. Spy [^6]
 
 </div>
 </section>
@@ -106,11 +106,11 @@ Games:
 * Grooverider - Slot Car Thunder
 * IHRA Drag Racing 2005
 * Memorick - The Apprentice Knight
-* Morrowind Game of the Year
-* Oddworld - Munchs Oddysee
+* Oddworld: Munch's Oddysee
 * Playboy The Mansion
-* Sid Meiers Pirates!
+* Sid Meier's Pirates!
 * Stacked
+* The Elder Scrolls III: Morrowind - Game of the Year Edition
 
 </div>
 </section>
@@ -123,12 +123,12 @@ These game engines were not shared with any other developer and tend of be genre
 <section class="postSection">
 <img src="/public/images/engines/SourceEngine.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The GoldSrc engine was originally a modification of the Quake Engine created by Valve for Half-life and then re-used for other internal projects such as Counterstrike. This engine was later forked and mostly rewritten to become the basis of the new Half Life engine known as `Source` [^8].
+The GoldSrc engine was originally a modification of the Quake Engine created by Valve for Half-Life and then re-used for other internal projects such as Counter-Strike. This engine was later forked and mostly rewritten to become the basis of the new Half-Life engine known as `Source` [^8].
   
 To find out if your games uses this engine, look for references to `VEngine` in the main xbox executable.
 
 Games:
-* Counterstrike
+* Counter-Strike
 * Half-Life 2
 
 </div>
@@ -142,8 +142,8 @@ Games:
 To find out if your games uses this engine, look for games that have the `lua.dat` file.
 
 Games:
-* Far Cry - Instincts
-* Far Cry Instincts Evolution
+* Far Cry Instincts
+* Far Cry Instincts: Evolution
 
 </div>
 </section>
@@ -153,7 +153,7 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/ZAxislogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The NgEngine by Z-Axis games has very little information written about it just a few references to its name littlered throughout the main game executables.
+The NgEngine by Z-Axis games has very little information written about it just a few references to its name littered throughout the main game executables.
 
 To find out if your games uses this engine, search the executable for `/NgEngine`.
 
@@ -171,7 +171,7 @@ To find out if your games uses this engine, look for games that have a `*.bfs` f
 
 Games:
 * Flatout
-* Flatout2
+* Flatout 2
 
 ---
 ## Open Dynamics Engine
@@ -229,7 +229,7 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/SeriousEngineLogo.jpg" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-Developed by CroTeam for the Serious sam franchise [^1].
+Developed by CroTeam for the Serious Sam franchise [^1].
   
 To find out if your game was developed using this engine simply search for the engine name in the main game executable: `Serious Engine`.
 
@@ -262,17 +262,17 @@ Games:
 
 ---
 ## Glacier Engine
-The Glacier engine was developed by IO Interactive for their Hitman series of games, but was also used internally for a few other games such as Freedom Fighters on the xbox. It was initially built in 1999 for Hitman: Codename 47 and for subsequent games up to but not including Hitman Absolution which used Glacier 2 a complete rewrite of the engine [^7].
+The Glacier engine was developed by IO Interactive for their Hitman series of games, but was also used internally for a few other games such as Freedom Fighters on the Xbox. It was initially built in 1999 for Hitman: Codename 47 and for subsequent games up to but not including Hitman: Absolution which used Glacier 2 a complete rewrite of the engine [^7].
 
-For a great run down of the mian features offered by the engine checkout this GiantBomb article: [Glacier Engine 1 (Concept) - Giant Bomb](https://www.giantbomb.com/glacier-engine-1/3015-7220/)
+For a great run down of the main features offered by the engine checkout this GiantBomb article: [Glacier Engine 1 (Concept) - Giant Bomb](https://www.giantbomb.com/glacier-engine-1/3015-7220/)
 
 Games that are built on the glacier engine tend to include the following string inside the main executable:
 `Z:\\code\\engine\\SDL_Engine\\Glacier\\scriptdll.cpp` or `engine\\ScriptInterfaces
 `
 Games:
-* Hitman 2 Silent Assassin
-* Hitman Blood Money
-* Hitman Contracts
+* Hitman 2: Silent Assassin
+* Hitman: Blood Money
+* Hitman: Contracts
 * Freedom Fighters
 
 ---
@@ -292,7 +292,7 @@ Games:
 * Mortal Kombat Shaolin Monks
 
 Questionable Games:
-* Lord of the Rings Fellowship of the Rings (apparently this engine was used for PS2 and PC but it doesn't seem to be for the xbox version)
+* The Lord of the Rings: The Fellowship of the Rings (apparently this engine was used for PS2 and PC but it doesn't seem to be for the Xbox version)
 
 </div>
 </section>
@@ -317,16 +317,16 @@ Developed by UbiSoft initially for Beyond Good and Evil but also used for Prince
 `\\Jade
 
 Games:
-* Prince of Persia and the Sands of Time [^4] 
-* Prince of Persia Two Thrones
-* Prince of Persia Warrior Within [^4]
-* Beyond Good And Evil [^4]
+* Prince of Persia: The Sands of Time [^4] 
+* Prince of Persia: Two Thrones
+* Prince of Persia: Warrior Within [^4]
+* Beyond Good and Evil [^4]
 * King Kong
 
 
 ---
 ## The Snowblind engine
-Developed by Snowblind Studio used for there baldur's gate series. It Also referred to as the Dark Alliance game engine.
+Developed by Snowblind Studio used for there Baldur's Gate series. It also referred to as the Dark Alliance game engine.
 
 Games:
 * Baldur's Gate: Dark Alliance
@@ -344,9 +344,9 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/HavokLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Havok Physics engine was very popular with developers during the xbox era, with over 36 known games that use the middleware.
+The Havok Physics engine was very popular with developers during the Xbox era, with over 36 known games that use the middleware.
 
-To find out if a game uses Havok just search for the string `havok.com` in the main xbe executable file. Normally the havok libraries contain error messages redirecting to the havok.com website.
+To find out if a game uses Havok just search for the string `havok.com` in the main xbe executable file. Normally the Havok libraries contain error messages redirecting to the havok.com website.
 
 Games:
 * 007 - From Russia With Love
@@ -356,42 +356,42 @@ Games:
 * Backyard Wrestling 2
 * Crash Nitro Kart
 * Darkwatch
-* Destroy all humans
-* Destroy all humans 2
+* Destroy All Humans!
+* Destroy All Humans! 2
 * Deus Ex Invisible War
-* Ed Edd n Eddy The MIS-EDventures
+* Ed, Edd n Eddy: The Mis-Edventures
 * Evil Dead - Regeneration
-* Full spectrum warrior
-* Full Spectrum Warrior Ten Hammers
+* Full Spectrum Warrior
+* Full Spectrum Warrior: Ten Hammers
 * Gene Troopers
 * Ghost Recon 2
 * Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
-* Goldeneye Rogue Agent
+* GoldenEye: Rogue Agent
 * Halo 2
 * Harry Potter and the Goblet of Fire
 * IHRA Drag Racing 2005
 * IHRA Drag Racing Sportsman Edition
 * Just Cause
-* Lord of the Rings The Third Age
-* Marvel Nemesis - Rise Of The Imperfects
+* Marvel Nemesis: Rise Of The Imperfects
 * Max Payne 2
-* Medal of Honor European Assault
+* Medal of Honor: European Assault
 * Mercenaries
-* Mortal Kombat Shaolin Monks
+* Mortal Kombat: Shaolin Monks
 * Nickelodeon Party Blast
 * Over the Hedge
 * Painkiller Hell Wars
 * Pariah
-* Psi Ops - The Mindgate Conspiracy
-* Rainbow Six - Critical Hour
-* Rainbow Six - Lockdown
+* Psi-Ops: The Mindgate Conspiracy
+* Rainbow Six: Critical Hour
+* Rainbow Six: Lockdown
 * Robotech Invasion
 * Room Zoom - Race For Impact
 * Shrek Superslam
-* Splinter Cell - Chaos Theory
-* Splinter Cell - Double Agent
+* Splinter Cell: Chaos Theory
+* Splinter Cell: Double Agent
 * Starsky and Hutch
+* The Lord of the Rings: The Third Age
 </div>
 </section>
 
@@ -400,7 +400,7 @@ Games:
 <section class="postSection">
 <img src="/public/images/engines/RenderWareLogo.gif" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Renderware Engine can be used anywhere from a simple graphics middleware to a full fledged game engine. 
+The Renderware engine can be used anywhere from a simple graphics middleware to a full fledged game engine. 
 
 The Renderware engine provided graphics, audio, physics and AI modules. Most games only used a subset of the modules, with the graphics engine being the most popular.
 
@@ -415,12 +415,12 @@ Games:
 * Aquaman - Battle for Atlantis
 * Army Men - Sarge's War
 * Atari Anthology
-* Batman - Rise of Sin Tzu
-* Broken Sword - The Sleeping Dragon
+* Batman: Rise of Sin Tzu
+* Broken Sword: The Sleeping Dragon
 * Black
 * Burnout
-* Burnout 2 - Point of Impact
-* Burnout 3 Takedown
+* Burnout 2: Point of Impact
+* Burnout 3: Takedown
 * Burnout Revenge
 * Call of Duty - Finest Hour
 * Classified - Sentinel Crisis
@@ -453,23 +453,23 @@ Games:
 * Max Payne 2
 * MLB SlugFest 2006
 * MLB SlugFest Loaded
-* Mortal Kombat Armageddon
+* Mortal Kombat: Armageddon
 * Mortal Kombat: Deadly Alliance
-* Mortal Kombat Deception
-* Mx 2002
-* Mx Superfly
+* Mortal Kombat: Deception
+* MX 2002
+* MX Superfly
 * NBA Ballers
-* Need for Speed Underground 2
-* NFL Blitz 2k3
+* Need for Speed: Underground 2
+* NFL Blitz 2003
 * NFL Blitz PRO
 * NFL Blitz The League
 * Nickelodeon Party Blast
 * ObsCure
-* Outlaw Golf - 9 Holes of Xmas
+* Outlaw Golf: 9 Holes of X-Mas
 * Outlaw Golf 2
 * Outlaw Tennis
 * Outlaw Volleyball
-* Outlaw Volleyball - Red Hot
+* Outlaw Volleyball Red Hot
 * Puyo Puyo Fever
 * Redcard 2003
 * Robocop
@@ -491,7 +491,7 @@ Games:
 * The Incredibles
 * The Incredibles: Rise of the Underminer
 * The Warriors
-* Tony Hawks Pro Skater 3
+* Tony Hawk's Pro Skater 3
 * Tony Hawk's Pro Skater 4
 * Tony Hawk's Underground
 * Top Gear - RPM Tuning
