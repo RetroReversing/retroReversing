@@ -84,16 +84,21 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 | Name | Project Type |  
 | ---- | ---- |  
+|![](https://upload.wikimedia.org/wikipedia/en/2/21/Demonscrest_us.jpg){:width="100"} [Demon's Crest](https://github.com/fredyeye/various-game-disassembly)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png){:width="100"} [Donkey Kong Country](https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg){:width="100"} [Donkey Kong Country 2](https://github.com/p4plus2/DKC2-disassembly)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg){:width="100"} [Earthbound / Mother 2](https://github.com/Herringway/ebsrc)              | Disassembly 
+|![](https://upload.wikimedia.org/wikipedia/en/c/cc/Dkc3_snes_boxart.jpg){:width="100"} [Donkey Kong Country 3](https://github.com/Yoshifanatic1/Donkey-Kong-Country-3-Disassembly)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/1/1f/EarthBound_Box.jpg){:width="100"} [Earthbound / Mother 2](https://github.com/Herringway/ebsrc)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/9/90/Final_Fantasy_IV.jpg){:width="100"} [Final Fantasy IV](https://github.com/everything8215/ff4)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/0/00/Final_Fantasy_V_Box_JAP.jpg){:width="100"} [Final Fantasy V](https://www.ff6hacking.com/ff5wiki/images/0/00/Ff5j_asm_Squall.txt)              | Disassembly | 
-|![](https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg){:width="100"} [Final Fantasy VI](https://github.com/everything8215/ff6)              | Disassembly | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg){:width="100"} [Final Fantasy VI](https://github.com/everything8215/ff6)              | Disassembly | Active |  
+|![](https://upload.wikimedia.org/wikipedia/en/6/60/SNES_Goof_Troop_cover_art.jpg){:width="100"} [Goof Troop](https://github.com/Yoshifanatic1/Goof-Troop-Disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png){:width="100"} [Super Bomberman](https://github.com/LIJI32/superbomberman)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png){:width="100"} [Super Mario World](https://github.com/Dotsarecool/SMWDisX)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg){:width="100"} [Super Mario World 2: Yoshi's Island](https://github.com/Raidenthequick/yoshisisland-disassembly)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg){:width="100"} [Super Mario RPG](https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg){:width="100"} [Super Mario RPG](https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly)              | Disassembly |
+|![](https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png){:width="100"} [Super Mario World](https://github.com/IsoFrieze/SMWDisX)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg){:width="100"} [Super Mario World 2: Yoshi's Island](https://github.com/brunovalads/yoshisisland-disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg){:width="100"} [Super Metroid](https://github.com/strager/supermetroid)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/4/40/Superpunchoutbox.jpg){:width="100"} [Super Punch-Out!!](https://github.com/Yoshifanatic1/Super-Punch-Out-Disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg){:width="100"} [The Legend of Zelda: A Link to the Past](https://github.com/snesrev/zelda3)              | Reimplementation, PC Port | Active |
 
 ---
@@ -112,6 +117,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/5/5f/Bomberman_64.jpg){:width="100"} [Bomberman 64](https://github.com/bomberhackers/bm64)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/1/1c/Bomberman_Hero_box.jpg){:width="100"} [Bomberman Hero](https://github.com/bomberhackers/bmhero)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0b/Castlevania_%28Nintendo_64%29.jpg){:width="100"} [Castlevania 64](https://github.com/blazkowolf/cv64)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg){:width="100"} [Chameleon Twist](https://github.com/chameleontwistret/chameleontwistv1.0-jp)              | Decompilation | Active, 42% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/2/28/Chameleon_Twist_2_cover.jpg){:width="100"} [Chameleon Twist 2](https://github.com/chameleontwistret/chameleontwist2v1.0-jp)              | Decompilation | Active, 3% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg){:width="100"} [Conker's Bad Fur Day](https://github.com/mkst/conker)              | Decompilation | Inactive, 4% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg){:width="100"} [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)              | Decompilation | Active, 66% Done |
 |![](https://static.wikia.nocookie.net/starfox/images/1/1f/Dinosaur_planet_wallpaper.jpg){:width="100"} [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)              | Decompilation | Active, 2% Done |
@@ -130,7 +137,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg){:width="100"} [Mario Kart 64](https://github.com/n64decomp/mk64)              | Decompilation | Active, 93% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cd/Marioparty1.jpg){:width="100"} [Mario Party](https://github.com/Rainchus/mp1)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/2/23/Marioparty2.jpg){:width="100"} [Mario Party 2](https://github.com/Rainchus/mp2)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/1/19/Marioparty3.jpg){:width="100"} [Mario Party 3](https://github.com/Rainchus/marioparty3)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/1/19/Marioparty3.jpg){:width="100"} [Mario Party 3](https://github.com/zestydevy/marioparty3)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/f/fa/Mario_Tennis_box.jpg){:width="100"} [Mario Tennis](https://github.com/dellm-79/mariotennisn64)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/MysticalNinjaStarringGoemon.jpg){:width="100"} [Mystical Ninja Starring Goemon](https://github.com/fluvian/mnsg)              | Decompilation | Inaccessible |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Neon_Genesis_Evangelion_64_Game_Box.jpg){:width="100"} [Neon Genesis Evangelion](https://github.com/farisawan-2000/evangelion)              | Decompilation | Active |
@@ -196,8 +203,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ac/InazumaElevenStrikers.jpg){:width="100"} [Inazuma Eleven Strikers](https://github.com/SwareJonge/IEStrikers)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png){:width="100"} [Mario Party 8](https://github.com/Rainchus/marioparty8)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Mario Kart Wii](https://github.com/riidefi/mkw)              | Decompilation | Active, 11% |
+|![](https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png){:width="100"} [Mario Party 8](https://github.com/Rainchus/marioparty8)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png){:width="100"} [Pokemon Battle Revolution](https://github.com/pret/pokerevo)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3b/SonicRiders2.PNG){:width="100"} [Sonic Riders: Zero Gravity](https://github.com/m0ester/SRZGDecomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg){:width="100"} [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)              | Decompilation | Active |
