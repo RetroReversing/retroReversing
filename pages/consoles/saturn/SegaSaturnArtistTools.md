@@ -19,13 +19,13 @@ breadcrumbs:
 recommend: saturn
 editlink: /consoles/saturn/SegaSaturnArtistTools.md
 ---
-This post will cover the most commonly used tools by artists when developing assets for sega saturn games, including 2D, 3D and Video.
+This post will cover the most commonly used tools by artists when developing assets for Sega Saturn games, including 2D, 3D and Video.
 
 # 2D Art Software
 <section class="postSection">
 <img src="/public/images/saturn/SegaSaturnGraphicAndSoundTools.jpg" style="width:200px" class="wow slideInLeft postImage" />
 <div markdown="1">
-￼The Sega Saturn had multiple tools availble for 2D asset creation, most were third party but SEGA even created their own basic first party tools that they distributed to developers for the Apple Macintosh.
+￼The Sega Saturn had multiple tools available for 2D asset creation, most were third party but SEGA even created their own basic first party tools that they distributed to developers for the Apple Macintosh.
 </div>
 </section>
 
@@ -70,7 +70,7 @@ Latest Version: **1.0US**
 File Formats supported:
  - 2D (Sega2D)
 
-The Sega2DViewer is an application that only works with the CartDev development kit, it basically just displays the output of the MapEditor/ScreenEditor SEGA2D files on the Sega Saturn Hardware.
+The Sega2DViewer is an application that only works with the CartDev development kit, it basically just displays the output of the MapEditor/ScreenEditor Sega2D files on the Sega Saturn Hardware.
 </div>
 </section>
 
@@ -142,7 +142,7 @@ SegaRetro has an excellent article about Cinepak for Saturn including the list o
 
 ---
 # 3D Software
-In order to create 3D assets for the Sega Saturn there were multiple packages that developers could buy, the one Sega promoted was Softimage but N-world, 3DStudio and Alias/Wavefront PowerAnimator all supported exporting to the Sega Saturn 3d Model formats.
+In order to create 3D assets for the Sega Saturn there were multiple packages that developers could buy, the one Sega promoted was Softimage but N-World, 3DStudio and Alias/Wavefront PowerAnimator all supported exporting to the Sega Saturn 3D Model formats.
 
 ## Sega 3DEditor 
 <section class="postSection">
@@ -150,7 +150,7 @@ In order to create 3D assets for the Sega Saturn there were multiple packages th
 <div markdown="1">
 Latest Version: **1.72US**
 
-The Sega 3DEditor was a very simple 3D viewer which allowed some basic modifications to 3d models. Developers could use this software to add textures to their 3d models or use basic RGB colours to each quad.
+The Sega 3DEditor was a very simple 3D viewer which allowed some basic modifications to 3d models. Developers could use this software to add textures to their 3D models or use basic RGB colours to each quad.
 
 
 File Formats Supported:
@@ -166,10 +166,10 @@ Most games that use 3D models used an SGI workstation such as the SGI Indigo and
 
 Softimage was enhanced to allow exporting to the Sega Saturn 3d model formats.
 
-This console generation was interesting in terms of games companies choosing their prefered 3d modelling packages, Sega and Nintendo went for competing 3d modelling packages, so while Sega went with SoftImage, Nintendo went for Alias 3D modelling software [^4].
+This console generation was interesting in terms of games companies choosing their preferred 3D modelling packages, Sega and Nintendo went for competing 3D modelling packages, so while Sega went with SoftImage, Nintendo went for Alias 3D modelling software [^4].
 
 ## Saturn Express 3.0 (N-World)
-Saturn Express by `Nichimen Graphics` is a tool for their 3D modelling software known as `N-World` that allows viewing 3d models on the Saturn hardware itself. It is part of the `GameExpress` suite of tools which include Playstation and N64 versions of the same tools [^3].
+Saturn Express by `Nichimen Graphics` is a tool for their 3D modelling software known as `N-World` that allows viewing 3D models on the Saturn hardware itself. It is part of the `GameExpress` suite of tools which include Playstation and N64 versions of the same tools [^3].
 
 ## Alias|Wavefront Saturn Games tools
 In 1996 Alias|Wavefront announced support for PowerAnimator 7.5 exporters to the Sega Saturn 3D model formats, there were two known tools created for this:  
@@ -184,7 +184,7 @@ PowerAnimator eventually became known as Maya and owned by Autodesk. For more in
 <img src="/public/images/saturn/Interchange.gif" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-Interchange 4.0 is software for both PC and SGI workstations that simply converts 3d models from one format to another, it claimed to support over 50 file formats and was useful for developers when changing between software. It doesn't support Sega Saturn formats directly but it was advertised in the official Sega Developmental Newsletter.
+Interchange 4.0 is software for both PC and SGI workstations that simply converts 3D models from one format to another, it claimed to support over 50 file formats and was useful for developers when changing between software. It doesn't support Sega Saturn formats directly but it was advertised in the official Sega Developmental Newsletter.
 </div>
 </section>
 
@@ -193,7 +193,7 @@ GAMUT is a suite of software developed by Animetix for converting `3D Studio` fo
 
 There was a specific version for Sega Saturn developers called `GAMUT-SG` that could work with the CartDev of PsyQ development kits to preview the 3D models on the Sega Saturn, very useful for artists. 
 
-Especially since the Sega Saturn required geometry to be in Quads and not Polygons, so the artist would need to tweak the output to look better on Saturn hardware. The tweaks to the output were saved in the 3dStudio file format so it could be re-used for further exports [^6].
+Especially since the Sega Saturn required geometry to be in Quads and not Polygons, so the artist would need to tweak the output to look better on Saturn hardware. The tweaks to the output were saved in the 3DStudio file format so it could be re-used for further exports [^6].
 
 ---
 ## Shade III Light for Saturn
@@ -201,7 +201,7 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 
 ---
 # References
-[^1]: [How make 3d objects, for the Saturn, and what programs?](http://segasaturngroup.proboards.com/thread/7994/make-3d-objects-saturn-programs)
+[^1]: [How make 3D objects, for the Saturn, and what programs?](http://segasaturngroup.proboards.com/thread/7994/make-3d-objects-saturn-programs)
 [^2]: [History and Versions](https://softimage.fandom.com/wiki/History_and_Versions)
 [^3]: [Game Express](https://web.archive.org/web/19970716123150if_/http://www.nichimen.com/PRODUCT-INFO/nworld/game-express/saturn-express.html)
 [^4]: Game Developer Magazine June/July 1995
