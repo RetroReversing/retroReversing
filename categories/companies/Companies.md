@@ -40,3 +40,10 @@ There are a bunch of notable companies related to retro game development, many o
 SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for sega and nintendo consoles but is most famous for their Sony Playstation development tools like PSYQ.
 
 {% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems check out this post." %}
+
+---
+# Interviews with Game Developers
+
+## DMA Design (GTA, Lemmings)
+Interview by the BBC with DMA Design, excerpted from Working Lunch, originally aired on BBC Two on Thursday, May 16, 1996.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7vWSi44ZTSw?si=OHZ1gkfvvUTNeM7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
