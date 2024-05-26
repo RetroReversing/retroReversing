@@ -43,6 +43,20 @@ The image on the left is from the excellent Andrew Earley (@AndrewEarley7).
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Find of the week! Sega Game Gear Development Board!! There’s a lot of mystery with this board because there’s little to no info if it online and the cartridge port is for Master System carts. I’ll be mailing this to <a href="https://twitter.com/GerryRobotics?ref_src=twsrc%5Etfw">@GerryRobotics</a> to replace capacitors and get the unit working! <a href="https://t.co/SsV8OXdCs6">pic.twitter.com/SsV8OXdCs6</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1266102158614654976?ref_src=twsrc%5Etfw">May 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
+## Sega Game Gear with built-in Parallel Port
+Although no photo of this kit exists it is mentioned in the source code to the Game Gear Game **Barbie Super Model**. In the **INSTRUCT.DOC** file describing the Game Gear Character editor it states:
+> At the DOS PROMPT, type "GG nt", where 'n' is the number
+>	of the parallel port connected to the download cable of 
+>		your GameGear.  (e.g. "GG 2" specifies parallel port 2
+>		as the download port.)  And 't' is 0 if you are using
+>		a link cable and GameGear with a ROM card, or 1 if
+>		you are using the development GameGear with built in
+>		parallel port.
+
+This also mentions another Game Gear development method which is a ROM cartridge and sending data with "a link cable".
+
+Note that it is possible the development game gear they are talking about is just the **Sega Game Gear Development Board** but it is hard to tell.
+
 ## ZAX ICE Z80
 <section class="postSection">
     <img src="/public/images/gamegear/Sega ZAX ICE Z80.jpg" class="wow slideInLeft postImage" />
