@@ -27,6 +27,23 @@ So grab your keyboard and mouse, and get ready to dive into the exciting world o
 ---
 # DOS
 
+---
+## DOS Game Reverse Engineering
+
+## Reversing DOS games with CicoParser
+CicoParser is a tool that helps convert old DOS programs to run on modern computers. Instead of emulating the entire DOS system, it translates the program's assembly code into C code. This makes the program run much faster and allows for easier modification and improvement of the original application.
+
+You can find it on Github:
+[Education/2021/CicoParser at master · gabonator/Education](https://github.com/gabonator/Education/tree/master/2021/CicoParser)
+
+Here is a video from the author:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4fAeUx8A-OE?si=w45EcMxhSPX2rLi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Reverse Engineering Strike Commander
+Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simuator **Strike Commander**:
+[Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
+
+---
 ## DOS Gaming Aspect Ratio - 320x200
 The Youtuber **Displaced Gamers** has an excellent video explaining the common DOS aspect ratio:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YvckyWxHAIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -71,12 +88,7 @@ Some popular DOS extenders include:
 If You are using a browser-based DOSBox emulator to run your games you can add this bookmarklet to your browser for it to automatically corrupt random memory addresses inside the DOS game:
 [jsRTC/jsRTC_for_js-dosbox.txt at master · redscientistlabs/jsRTC](https://github.com/redscientistlabs/jsRTC/blob/master/jsRTC_for_js-dosbox.txt)
 
----
-## DOS Game Reverse Engineering
 
-### Reverse Engineering Strike Commander
-Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simuator **Strike Commander**:
-[Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
 
 ---
 # MSX
