@@ -210,7 +210,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
- | Computer graphics - a programming approach | Steven Harrington | Language Independant (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
+<img class="lazy-load" data-image-full="[https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://m.media-amazon.com/images/I/5140fiS5s4L._SX342_SY445_.jpg)" /> | Computer graphics - a programming approach | Steven Harrington | Language Independant (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
 
 ---
 ## Published in 1988
@@ -338,6 +338,15 @@ Imagine being a book author during this time frame when **WinG** was only really
 </section> 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">How well do you remember your 90s Windows game programming books? <a href="https://t.co/k2LRpzLDkN">pic.twitter.com/k2LRpzLDkN</a></p>&mdash; 𝔸𝕟𝕒𝕥𝕠𝕝𝕪 𝕊𝕙𝕒𝕤𝕙𝕜𝕚𝕟💾 (@dosnostalgic) <a href="https://twitter.com/dosnostalgic/status/1489032479252041736?ref_src=twsrc%5Etfw">February 3, 2022</a></blockquote>
+
+### Black Art of 3D Game Programming
+"Black Art of 3D Game Programming," authored by André LaMothe, is a seminal book in the field of game development, first published in 1995. It provides a comprehensive guide to the principles and techniques of 3D game programming, covering both theoretical concepts and practical implementation.
+
+The book is notable for its thorough exploration of the mathematical foundations required for 3D graphics, including vector and matrix operations, transformations, and perspective projections. It delves into the intricacies of 3D engines, discussing topics such as rendering pipelines, shading models, and texture mapping.
+
+You can find the source code ported to a modern toolchain (SDL + MacOS) here: [ciciplusplus/black_art_3d_revival: Ported source code from book "Black Art of 3D Game Programming"](https://github.com/ciciplusplus/black_art_3d_revival)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LMhrnuj01oY?si=7orEHKZ8cIsoG6V2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Published in 1996
