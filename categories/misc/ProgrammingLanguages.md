@@ -45,6 +45,11 @@ Also there is one known commercial Mega Drive game to be written in C, **Sonic S
 
 One good way to tell if a game uses C/C++ is to look for C-style strings in the disassembled code/memory.
 
+C/C++ Compilers:
+* GNU GCC
+* TurboC++
+* Microsoft Visual C++
+
 ---
 # BASIC Variants
 With Assembly having a reputation for being difficult to learn, many "simpler" programming languages were created with one of the most popular earlier languages simply being called "BASIC".
