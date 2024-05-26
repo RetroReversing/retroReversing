@@ -248,7 +248,7 @@ This section will cover books related to game development published in the year 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="/public/images/books/Advanced graphics programming in C and C++.jpg" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | 
+<img class="lazy-load" data-image-full="/public/images/books/Advanced graphics programming in C and C++.jpg" /> | Advanced graphics programming in C and C++ | Roger T. Stevens and Christopher D. Watkins | C/C++ | TurboC++, VGA graphics for IBM PC 
 <img class="lazy-load" data-image-full="" /> | Graphics programming with Microsoft C 6 | Mark Mallett | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/41ZbQuOc-nL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | The data compression book: featuring fast, efficient data compression techniques in C | Mark Nelson | C Programming | 
 <img class="lazy-load" data-image-full="/public/images/books/Machine language game programming - PC-9801 series.jpg" /> | マシン語ゲーム・プログラミング : PC-9801シリーズ (Machine language game programming: PC-9801 series) | Manabu Aoyama, Tooru Hidaka | Assembly Programming for PC-98 | Japanese Book (Available on Archive.org)
