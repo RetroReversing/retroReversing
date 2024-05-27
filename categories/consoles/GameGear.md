@@ -39,7 +39,9 @@ This section of our guide will provide you with comprehensive information and re
 
 ---
 # Software Development Kit
-Up until recently it was not known if SEGA ever released a software development kit for the Game Gear, as previous consoles such as the SEGA Master System only had a documentation of the hardware but no actual official SDK. So it was up to developers to "roll their own" software development kits for the Game Gear.
+Up until recently it was not known if SEGA ever released a software development kit for the Game Gear, as previous consoles such as the SEGA Master System only had a documentation manual of the hardware but no actual official SDK. 
+
+So it was up to developers to "roll their own" software development kits for the Game Gear.
 
 However thanks to the source code leak of the unreleased Game Gear game **Barbie Super Model** on both Romhacking.net: [Romhacking.net - Documents - Barbie Super Model Source Code](https://www.romhacking.net/documents/604/) and SMS Power: [Barbie Super Model - Development - SMS Power!](https://www.smspower.org/Development/BarbieSuperModel-GG). We now have at least some of the files that were sent out to Game Gear developers as an official SDK from SEGA. It is not clear who leaked the source code for the game, potentially an old **Hi-Tech Expressions** employee.
 
@@ -47,14 +49,24 @@ The files included in the leak which are believed to be part of the official SEG
 
 Name | Description
 ---|---
-ASM80 | Assembler by for DOS/16M Copyright (C) 1987-1990 by Rational Systems, Inc
-Bin2Hex | BIN2HEX Rev 1.00, copyright (c) 1989 by Lex Computer Services
-Bin2Page | BIN2PAGE: convert file into Intel Hex Pages
-BinToHex | Similar to Bin2Hex? 
-DB | Program to convert files from some format to another? (Define Byte?)
-DW | Program to convert files from some format to another? (Define Word?)
+ASM80.exe | Assembler for z80 by Microtech
+Bin2Hex.exe | BIN2HEX Rev 1.00, copyright (c) 1989 by Lex Computer Services
+Bin2Page.exe | BIN2PAGE: convert file into Intel Hex Pages
+BinToHex.exe | Similar to Bin2Hex? 
+DB.exe | Program to convert files from some format to another? (Define Byte?)
+DW.exe | Program to convert files from some format to another? (Define Word?)
+HexToBin.exe | opposite of the BinToHex program
+JoinBin.exe | Join two binary files together
+Lib80.exe | Copyright (c) 1985-1991 Microtec Research, Inc.
+Lnk180.exe | Linker by Microtec for Zilog Z180
+LnkZ80.exe | Linker by Microtec for standard Zilog Z80
+MIDI2GG.exe | Convert MIDI Music files to Game Gear format
+PP.exe | PROPACK Copyright (c) 1991,92 Rob Northen Computing - used for file compression
+PPV.exe | Maybe ProPack Verify?
 
-Key of terms:
+It looks like the assembler toolchain is made by **Microtech Research** from 1991 and supported the standard z80 and also the Hitachi 64180 processor (which is a Zilog Z180 processor). The game gear used the standard Z80 so the Z180 functionality was unused.
+
+Key of interesting terms that you will find in the SDK (and barbie source code) is available in the table below:
 
 Name | Description
 ---|---
@@ -62,6 +74,7 @@ MCH | Short for Matthew C. Harmon a developer at Tahoe Software Productions
 Tahoe Software Productions | Development company working on Barbie for the Game Gear
 Hi-Tech Expressions | Development company working on Barbie for the Game Gear
 Bill Oliver | Developer at Tahoe Software Productions
+Rational Systems | Developed the DOS/16M Extender used in the DOS SDK executables (not related to Game Gear development)
 
 
 ---
