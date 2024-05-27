@@ -45,7 +45,8 @@ So it was up to developers to "roll their own" software development kits for the
 
 However thanks to the source code leak of the unreleased Game Gear game **Barbie Super Model** on both Romhacking.net: [Romhacking.net - Documents - Barbie Super Model Source Code](https://www.romhacking.net/documents/604/) and SMS Power: [Barbie Super Model - Development - SMS Power!](https://www.smspower.org/Development/BarbieSuperModel-GG). We now have at least some of the files that were sent out to Game Gear developers as an official SDK from SEGA. It is not clear who leaked the source code for the game, potentially an old **Hi-Tech Expressions** employee.
 
-The files included in the leak which are believed to be part of the official SEGA Game Gear SDK are in the table below:
+## ASM80
+In the Barbie source code there is a folder called **ASM80** this is the assembler toolchain which is made by **Microtech Research** from 1991-1994, it is likely this is the recommended official SEGA Game Gear SDK, the main executables are listed in the table below:
 
 Name | Description
 ---|---
@@ -58,13 +59,13 @@ DW.exe | Program to convert files from some format to another? (Define Word?)
 HexToBin.exe | opposite of the BinToHex program
 JoinBin.exe | Join two binary files together
 Lib80.exe | Copyright (c) 1985-1991 Microtec Research, Inc.
-Lnk180.exe | Linker by Microtec for Zilog Z180
+Lnk180.exe | Linker by Microtec for Zilog Z180 (Version 6.0 from 1994)
 LnkZ80.exe | Linker by Microtec for standard Zilog Z80
 MIDI2GG.exe | Convert MIDI Music files to Game Gear format
 PP.exe | PROPACK Copyright (c) 1991,92 Rob Northen Computing - used for file compression
 PPV.exe | Maybe ProPack Verify?
 
-It looks like the assembler toolchain is made by **Microtech Research** from 1991 and supported the standard z80 and also the Hitachi 64180 processor (which is a Zilog Z180 processor). The game gear used the standard Z80 so the Z180 functionality was unused.
+The assembler toolchain is made by **Microtech Research** from 1991 and supported the standard z80 and also the **Hitachi 64180** processor (which is a Zilog Z180 processor). The game gear used the standard Z80 so the Z180 functionality was unused.
 
 Key of interesting terms that you will find in the SDK (and barbie source code) is available in the table below:
 
@@ -75,6 +76,7 @@ Tahoe Software Productions | Development company working on Barbie for the Game 
 Hi-Tech Expressions | Development company working on Barbie for the Game Gear
 Bill Oliver | Developer at Tahoe Software Productions
 Rational Systems | Developed the DOS/16M Extender used in the DOS SDK executables (not related to Game Gear development)
+erxz80 | A program that takes in erx files but not sure what it does
 
 
 ---
