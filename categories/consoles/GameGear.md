@@ -75,6 +75,8 @@ MCH | Short for Matthew C. Harmon a developer at Tahoe Software Productions
 Tahoe Software Productions | Development company working on Barbie for the Game Gear
 Hi-Tech Expressions | Development company working on Barbie for the Game Gear
 Bill Oliver | Developer at Tahoe Software Productions
+Joe Moses | Programmer at Tahoe Software Productions
+Joel Gressel | Developer at Tahoe Software Productions (Art?)
 Rational Systems | Developed the DOS/16M Extender used in the DOS SDK executables (not related to Game Gear development)
 erxz80 | A program that takes in erx files but not sure what it does
 
