@@ -25,7 +25,7 @@ editlink: /consoles/gamegear/GameGearDevKit.md
 ---
 
 # Official Sega Development Hardware
-The SEGA game gear was released in a time where official development kits were fairly rare and many third parties instead made their own using their existing Z80 knowledge and hardware. However a few official development kits have been found!
+The SEGA Game Gear was released in a time where official development kits were fairly rare and many third parties instead made their own using their existing Z80 knowledge and hardware. However a few official development kits have been found!
 
 ## Sega Game Gear Development Board
 <section class="postSection">
@@ -55,14 +55,14 @@ Although no photo of this kit exists it is mentioned in the source code to the G
 
 This also mentions another Game Gear development method which is a ROM cartridge and sending data with "a link cable".
 
-Note that it is possible the development game gear they are talking about is just the **Sega Game Gear Development Board** but it is hard to tell.
+Note that it is possible the development Game Gear they are talking about is just the **Sega Game Gear Development Board** but it is hard to tell.
 
 ## ZAX ICE Z80
 <section class="postSection">
     <img src="/public/images/gamegear/Sega ZAX ICE Z80.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-Although the original ebay link was never archived, it seems there was a ZAX ICE on sale that was used for Game Gear development [^4].
+Although the original eBay link was never archived, it seems there was a ZAX ICE on sale that was used for Game Gear development [^4].
 
 Sega also distributed these for Sega Mega Drive development due to the sound chip being a Z80 processor.
  </div>
@@ -75,7 +75,7 @@ Sega also distributed these for Sega Mega Drive development due to the sound chi
     <img src="/public/images/gamegear/Sega Wide Gear.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-Similar to the Nintendo Wide Boy, this was custom Game Gear hardware that could output to a standard Television. 
+Similar to the Nintendo Wide Boy, this was custom Game Gear hardware that could output to a standard television. 
 
 This was distributed to magazines and other media producers so that they could get good screenshot from the hardware.
 
@@ -101,10 +101,10 @@ The image to the left is from the excellent HandHeldMuseum.com website [^3].
 
 ---
 # Third Party Development Hardware
-As official SEGA development kits were pretty expensive for the average game development studio, many third parties created their own custom Game gear development kits. 
+As official SEGA development kits were pretty expensive for the average game development studio, many third parties created their own custom Game Gear development kits. 
 
 ## Krisalis Development Kit
-We have an entire page covering the Krisalis Development Kit which was used for both Game gear development along with Sega Master System development.
+We have an entire page covering the Krisalis Development Kit which was used for both Game Gear development along with Sega Master System development.
 
 {% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For more information on the Krisalis Development Kit check out this post." %}
 
