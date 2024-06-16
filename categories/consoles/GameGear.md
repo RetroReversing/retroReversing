@@ -59,7 +59,7 @@ MIDI2GG.exe | Convert MIDI Music files to Game Gear format
 PP.exe | PROPACK Copyright (c) 1991,92 Rob Northen Computing - used for file compression
 PPV.exe | Maybe ProPack Verify?
 
-The assembler toolchain is made by **Microtech Research** from 1991 and supported the standard z80 and also the **Hitachi 64180** processor (which is a Zilog Z180 processor). The game gear used the standard Z80 so the Z180 functionality was unused.
+The assembler toolchain is made by **Microtech Research** from 1991 and supported the standard Z80 and also the **Hitachi 64180** processor (which is a Zilog Z180 processor). The Game Gear used the standard Z80 so the Z180 functionality was unused.
 
 This folder also contains pre-compiled executables known as the **GGUtils** which were written by **Paul Hutchinson** with the source code available, they are in the table below:
 Name | Description
@@ -74,7 +74,7 @@ JoinBin.exe | Creates one binary file from two binary files
 The source code is also available under **/SEGA/GGUTILS** in the Barbie source code leak.
 
 ## /ZAXBIN - ZAX Z80 ICE Executables
-Binary exdecutables for communicating with the ZAX Z80 In-Circuit-Emulator (ICE), specifically the **ERX308 for Z80** Version 2.21 from February 19, 1993.
+Binary executables for communicating with the ZAX Z80 In-Circuit-Emulator (ICE), specifically the **ERX308 for Z80** Version 2.21 from February 19, 1993.
 
 Name | Description
 ---|---
@@ -88,10 +88,10 @@ In order to help developers manage sprites and tiles for Game Gear games SEGA de
 
 Name | Description
 ---|---
-GG.EXE | The main program, you need to pass the parallel port number of the connected Game Gear as an argument
-GGO.EXE | Basically the same as GGO.EXE but seems to have been modified slightly not sure if this is an official change or not
+GG.EXE | The main program, you need to pass the parallel port number of the connected Game Gear as an argument.
+GGO.EXE | Basically the same as GGO.EXE but seems to have been modified slightly not sure if this is an official change or not.
 INSERT.CMD | CUSTOM command whose purpose is to EASE the process of downloading sprites overtop of the background.
-Custom.inc | X86 Assembly file that can be assembled with MASM or TASM for communicating with GG.EXE in custom tools - Copyright Sega Of America 1991
+Custom.inc | X86 Assembly file that can be assembled with MASM or TASM for communicating with GG.EXE in custom tools. - Copyright Sega Of America 1991
 
 ---
 ## /SEGA - Sega provided executables
@@ -112,7 +112,7 @@ Name | Description
 .MAC | Macro File used with ERXZ80.exe
 .ABS | Object file (compile output of a source file)
 .PAL | Palette files used for graphics
-.GG | Game Gear file - saved and loaded by thre GG.EXE Character Editor
+.GG | Game Gear file - saved and loaded by the GG.EXE Character Editor
 .CFG | Binary file containing ?
 .LBM | Deluxe Paint Bitmap
 .ANM | Animated sprites
