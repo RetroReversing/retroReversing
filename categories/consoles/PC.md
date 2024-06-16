@@ -40,7 +40,7 @@ Here is a video from the author:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4fAeUx8A-OE?si=w45EcMxhSPX2rLi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Reverse Engineering Strike Commander
-Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simuator **Strike Commander**:
+Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simulator **Strike Commander**:
 [Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
 
 ---
@@ -110,7 +110,7 @@ While the MSX system is most famous for Konami games like Vampire Killer (Castle
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4R779hMGGC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Sony MSX Hardware
-Way before the playstation or even the Super nintendo CD, sony created hardware for playing games in the form of MSX computers [^1]. Sony released their HIT-BIT machines which started with the HB-10 which had 16KB of RAM and ranged all the way up to the MSX 2 compatible HB-T600 with 128kB RAM [^2].
+Way before the PlayStation or even the Super Nintendo CD, Sony created hardware for playing games in the form of MSX computers [^1]. Sony released their HIT-BIT machines which started with the HB-10 which had 16KB of RAM and ranged all the way up to the MSX 2 compatible HB-T600 with 128KB RAM [^2].
 
 [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
 
@@ -131,7 +131,7 @@ The Executable file formats are:
 * **Linear Executable** (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
    - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution. It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows. LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
 * **Portable Executable** (PE) - Used in Windows NT3.1+
-   - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems
+   - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables. The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems.
  
 ### New Executable Format
 The following is the New Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
@@ -214,7 +214,7 @@ objdump -x yourfile.exe
 ```
 
 ### What are Relative Virtual Addresses (RVAs)?
-RVA stands for "Relative Virtual Address." It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. RVAs are used to express positions or offsets relative to the base address of a module (executable or DLL) rather than as an absolute memory address.
+RVA stands for "Relative Virtual Address". It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. RVAs are used to express positions or offsets relative to the base address of a module (executable or DLL) rather than as an absolute memory address.
 
 RVA helps programs find things in their memory without needing to know exactly where everything is stored in memory. It's like a helpful set of directions.
 
