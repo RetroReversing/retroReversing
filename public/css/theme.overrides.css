@@ -1,6 +1,7 @@
 /* Remove default bootstrap padding for containers */
 .container {
   padding: 0px;
+  width: 80vw;
   max-width: 90vw;
 }
 
