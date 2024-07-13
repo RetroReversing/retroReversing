@@ -426,7 +426,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/ethteck/kh1" description="We're currently just targeting the main game executable, which is an elf file SLPS_251.05 with sha1 9dabbf867a7ec2a030df99ba1ed969f2deef0488." image="https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg" title="Decompilation of the first japanese version of Kingdom Hearts for PS2"  %}
 
 ### PaRappa the Rapper 2
-{% include link-to-other-site.html url="https://github.com/polybiusproxy/parappa2" description=We are currently targeting the July 12th NTSC-J prototype, but we aim to target the final NTSC-J/NTSC/PAL builds in the foreseeable future." image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation of PaRappa the Rapper 2 for the PS2"  %}
+{% include link-to-other-site.html url="https://github.com/polybiusproxy/parappa2" description="We are currently targeting the July 12th NTSC-J prototype, but we aim to target the final NTSC-J/NTSC/PAL builds in the foreseeable future." image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation of PaRappa the Rapper 2 for the PS2"  %}
 
 ### Sly Cooper and the Thievius Raccoonus
 {% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
