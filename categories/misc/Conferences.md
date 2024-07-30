@@ -38,7 +38,7 @@ Conference | Dates | Category | Notes
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase | 
 Develop | 2006-Ongoing | Development | UK Game development Conference
-D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and buisness topics, not programming or 3d content creation
+D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and buisness topics, not programming or 3D content creation
 Dreamcast Developer's Conference | 1999 | Development | [Dreamcast Developer's Conference - Sega Retro](https://segaretro.org/Dreamcast_Developer%27s_Conference)
 Saturn Developer’s Conference | May 1994 | Development | [DTS: The SEGA Developer’s ‘Game Mag’ – SHIRO Media Group](https://www.segasaturnshiro.com/2021/08/19/dts-the-sega-developers-game-mag/)
 Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
@@ -53,7 +53,7 @@ In the sections below we will try to list any audio or video recordings we can f
 
 ---
 # GDC - Game Developer's Conference
-GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
 
 We have so much content on the GDC that was had to split this section out into its own post you can find it below:
 {% include link-to-other-post.html post="/gdc" description="For more information about the Gamde Developers Conference check out this post." %}
@@ -72,7 +72,7 @@ The SIGGRAPH conference has a long history, dating back to the 1970s, and it con
 They are not always related to game development but many real time rendering techniques used in modern games were first presented at SIGGRAPH.
 
 ## SIGGRAPH 2000
-The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game develoer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective).
+The website **Gamasutra** (now Game Developer) posted an article about the 2000 version of the conference from a game developer perspective, you can read it online here: [Siggraph 2000 From a Game Development Perspective](https://www.gamedeveloper.com/programming/siggraph-2000-from-a-game-development-perspective).
 
 It discusses the new hardware and software for game development shown off at SIGGRAPH 2000 such as Sony’s GScube and the Xbox. Improv Technologies also demoed their new products, Orchestrate3D and Catalyst. The conference also featured presentations on new shading languages and rendering techniques.
 
@@ -182,7 +182,7 @@ Showcasing the interoperability between 3ds Max, Maya and MotionBuilder | Kevin 
 
 ---
 # Consumer Electronics Show (CES) 
-CES stands for the "Consumer Electronics Show." It is an annual trade show and convention that serves as a showcase for the latest consumer electronics and technology products. CES is one of the most significant and influential tech events globally, and it's where many companies, including industry giants and startups, unveil and demonstrate their innovative products and technologies.
+CES stands for the "Consumer Electronics Show". It is an annual trade show and convention that serves as a showcase for the latest consumer electronics and technology products. CES is one of the most significant and influential tech events globally, and it's where many companies, including industry giants and startups, unveil and demonstrate their innovative products and technologies.
 
 CES is known for its extensive exhibition of consumer electronics and technology products, ranging from smartphones and televisions to smart home devices, automotive technology, gaming hardware, and more.
 
@@ -195,7 +195,9 @@ The first Consumer Electronics Show (CES) took place in 1967. CES was initially 
 ---
 # Electronic Entertainment Expo (E3)
 
-E3, which stands for the "Electronic Entertainment Expo," is one of the most prominent and anticipated events in the video game industry. It serves as a showcase for the latest video games, gaming hardware, and interactive entertainment. E3 brings together game developers, publishers, hardware manufacturers, and gamers to unveil and celebrate upcoming titles and innovations in the world of gaming.
+E3, which stands for the "Electronic Entertainment Expo," was one of the most prominent and anticipated events in the video game industry. It served as a showcase for the latest video games, gaming hardware, and interactive entertainment. E3 brought together game developers, publishers, hardware manufacturers, and gamers to unveil and celebrate upcoming titles and innovations in the world of gaming.
+
+The last E3 took place in 2021. After cancellations of the E3 in 2022 and 2023, the discontinuation was announced.
 
 ## Creation of E3
 SEGA was instrumental to setting up E3, in an interview with **Tom Kalinske** (former CEO of SEGA America) he had this to say about the formation of E3:
