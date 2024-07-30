@@ -27,7 +27,7 @@ updatedAt_: '2024-05-05'
 ---
 
 # GDC - Game Developer's Conference
-GDC stands for the "Game Developers Conference," which is an annual event held for professionals in the video game industry. 
+GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. 
 
 GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. 
 
@@ -81,7 +81,7 @@ From a programming perspective the session **Developing for MS-DOS** would have 
 
 ---
 ## CGDC 3 - 1989
-Not much is known about the third version of the Computer Game Developers Conference (CGDC) hosted in Sunnyvale California sometime in 1989 and managed to double the previous atendence from 150 to 300.
+Not much is known about the third version of the Computer Game Developers Conference (CGDC) hosted in Sunnyvale California sometime in 1989 and managed to double the previous attendance from 150 to 300.
 
 If you know of any sessions that took place in the 1989 Computer Game Developer Conference then please let us know!
 
@@ -90,7 +90,7 @@ If you know of any sessions that took place in the 1989 Computer Game Developer 
 For a brief insight into the fourth version of CGDC you can read Bill Pirkle's observations in the June 1990 issue of Journal of Computer Game Design here: 
 [Volume 3 Number 5. June 1990 ](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-3/volume-3-number-5-june-1990.html)
 
-It was hosted in Le Baron Hotel in San Jose and was atendeed by over 470 people.
+It was hosted in Le Baron Hotel in San Jose and was attended by over 470 people.
 
 We only know of a few talks that took place at this conference:
 * **The Artistic C** by Jim Gasperini
@@ -103,13 +103,13 @@ We only know of a few talks that took place at this conference:
 ### The Artistic C
 The earliest known recording of a Game Developer Conference talk is called **The Artistic C** by Jim Gasperini. 
 
-This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he beleives it will evolve over time. 
+This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he believes it will evolve over time. 
 
 You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
 
 ---
 ## CGDC 1991 - March
-The Fifth CGDC was the first to have been directed by **Ernest Adams** just before his move to Electronic Arts where he would work on titles such as  John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 atendees.
+The Fifth CGDC was the first to have been directed by **Ernest Adams** just before his move to Electronic Arts where he would work on titles such as John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 attendees.
 
 We only know of a few talks that took place at this conference:
 * **Intelligent Behavior Without AI: An Evolutionary Approach** by Neil Kirby
@@ -117,7 +117,7 @@ We only know of a few talks that took place at this conference:
 * **Evolution of Taste** by  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer))
 
 
-Only the Cyberspace talk was recorded on Audio cassete by the KNOW-IT-ALL Audiovisual Library [^7].
+Only the Cyberspace talk was recorded on Audio cassette by the KNOW-IT-ALL Audiovisual Library [^7].
 
 For a review of what it was like to go to the 1991 CGDC check out Chris Crawford's perspective: [Volume 4, Number 4, March 1991 - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-4/volume-4-number-4-march.html)
 
@@ -145,7 +145,7 @@ For a review of what it was like to go to the 1992 CGDC check out Chris Crawford
 
 ---
 ## CGDC 1993
-Again hosted in Santa Clara California but this time reaching 900 atendees, the seventh CGDC was becoming incredibly well known within the industry.
+Again hosted in Santa Clara California but this time reaching 900 attendees, the seventh CGDC was becoming incredibly well known within the industry.
 
 All the talks that were recorded by **The KNOW-IT-ALL Audiovisual Library** are listed in the table below [^8].
 
@@ -210,14 +210,14 @@ Wargame Design Roundtable | Dave Menconi | Roundtable | CGDC93-044
 Which Company Should I Work For? | Ernest Adams | Roundtable | CGDC93-055
 
 
-Potentially not officialy recorded were the following talks:
+Potentially not officially recorded were the following talks:
 * **Legal Trends Affecting Computer Game Development** by Alisa Baker
 * **No Wine Before Its Time?** by Michael Crick
 
 
 ---
 ## CGDC 1994
-Another hosted in Santa Clara California but this time reaching over the 1 thousand mark with 1250 atendees, it was the eighth CGDC.
+Another hosted in Santa Clara California but this time reaching over the one thousand mark with 1250 attendees, it was the eighth CGDC.
 
 Google Books claims to have the proceesings of the Eighth Annual Computer Game Developers Conference Proceedings but it doesn't seem to be possible to read: [Eighth Annual Computer Game Developers Conference Proceedings: April 23 ... - Google Books](https://books.google.co.uk/books/about/Eighth_Annual_Computer_Game_Developers_C.html?id=YdcTAQAAIAAJ&redir_esc=y)
 
@@ -795,7 +795,7 @@ The second day talks were:
 * Working With Developers
 * Breaking into Latin American Markets
 * Retailers Talk Back
-* Brand Management: CD Rom into Film 
+* Brand Management: CD-ROM into Film 
 * Changing the Face of Interactive Entertainment
 * Shaping the Interactive Software Market for the New Millenium
 
@@ -1077,7 +1077,7 @@ There was even a session by **Apple** on using Quicktime for Windows Game Develo
 
 ---
 ## GDC 1998 - May 4th-8th
-The 1998 Computer Game Developers Conference was hosted in	Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
+The 1998 Computer Game Developers Conference was hosted in Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
 
 Playstation Underground had a brief 3 minute look at CGDC 1998, it interviews Jennifer Pahlka who was a female director of the GDC, you can watch on Youtube:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jQwv7Cdvwas?si=ypsyyNPJsyLIayyH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -1166,7 +1166,7 @@ You Want What? Scaleable Character Approaches for 3D Real-Time | Paul Lewis  | V
 
 
 ### Sponsored Sessions
-This year had Sponsored sessions showing off how to program for the newly released **Intel740** GPU and a session from **3Dfx Interactive** on Programming with Glide for their Voodoo 2 hardware.
+This year had Sponsored sessions showing off how to program for the newly released **Intel740** GPU and a session from **3dfx Interactive** on Programming with Glide for their Voodoo 2 hardware.
 
 ### Arcade Game programming with PC Hardware
 In the session **Programming for PC-based Coin-Op and Arcade Games** by Mark Atkins, he proposes that arcade machines of the future will be PCs connected to esoteric input devices like motion chairs and thus will allow easy porting between arcade and home computer when using technologies like DirectX.
@@ -1409,7 +1409,7 @@ Storytelling in Action | Bob Bates | Game Design |
 ---
 
 ### Microsoft DirectX Developer Day (March 8th)
-It included a "Microsoft DirectX Developer Day" on the 8th of March held by Hicrosoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a  Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX8 but also an early build exclusive to atendees.
+It included a "Microsoft DirectX Developer Day" on the 8th of March held by Microsoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX 8 but also an early build exclusive to atendees.
 
 It began with a speech by Chris Jones, about the current state and future of Windows games. Next, Brian Moran, program manager of the company's Windows Division, held a session on precautions in the production of Windows 2000 compatible game software.
 
@@ -1544,7 +1544,7 @@ Using Video Input for Games | Marks | Game Design |
 
 
 ### The Demo Scene, an Introduction
-There was a **special session** that didn't appear in the conference proceedings book which was presented by  [Vincent Scheib](https://history.siggraph.org/person/vincent-scheib/) and another unknown author simply known as **Foo** (surname or programming joke?). It is unclear if this session actually took place, it was listen on the GDC Website: [Game Developers Conference - Archives - 2001- Special Sessions Proceedings](https://web.archive.org/web/20020804123427/http://gdconf.com/archives/proceedings/2001/general_papers.html) with a Word document that was never backed up the the Wayback Machine. 
+There was a **special session** that didn't appear in the conference proceedings book which was presented by [Vincent Scheib](https://history.siggraph.org/person/vincent-scheib/) and another unknown author simply known as **Foo** (surname or programming joke?). It is unclear if this session actually took place, it was listen on the GDC Website: [Game Developers Conference - Archives - 2001- Special Sessions Proceedings](https://web.archive.org/web/20020804123427/http://gdconf.com/archives/proceedings/2001/general_papers.html) with a Word document that was never backed up the the Wayback Machine. 
 
 This may be the same session also presented by Scheib at SIGGRAPH 2002 called [The Demo Scene](https://history.siggraph.org/learning/the-demo-scene-by-engell-nielsen-haines-lehtinen-scheib-and-taylor/).
 
@@ -1849,12 +1849,12 @@ When the Site Hits the Fan: Wrangling Community Fansites | Elonka Dunin | Busine
 
 ---
 ## GDC 2004 - Evolve
-The 2004 Game Developers Conference had the theme "Evolve," emphasizing the industry's shift towards middleware and robust production processes. The dominance of licensed titles and sequels was noted, with Dave Perry discussing these trends in his keynote.
+The 2004 Game Developers Conference had the theme "Evolve", emphasizing the industry's shift towards middleware and robust production processes. The dominance of licensed titles and sequels was noted, with Dave Perry discussing these trends in his keynote.
 
 A session on building big licensed games highlighted the industry's evolution from smaller teams to larger projects with 25 to 75 people and budgets ranging from $3 to $40 million. The need for well-organized processes and formal development procedures was emphasized, posing a non-technical challenge of integrating these without stifling creativity.
 
 GDC 2004 highlights included: 
-* Programming Keynote by **John Carmack** on bleeding-edge engine development 
+* Programming Keynote by **John Carmack** on bleeding-edge engine development.
 * Visual Arts Keynote by **John Gaeta** called From Visual Anti-Establishment to Ubiquity and Back. 
 * Sony showcased the PSP as a powerful, easy-to-develop-for device. 
 * Microsoft unveiled XNA, a development framework for future platforms.
