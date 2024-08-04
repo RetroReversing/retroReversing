@@ -106,6 +106,7 @@ We only know of a few talks that took place at this conference:
 * **A Competitive Analysis of Publishers** by Stephen Friedman ([Recording](https://archive.org/details/04CGDC90StephenFriedman))
 * **Arcade Games: Their Promise and Their Failure** by Ed Rotberg ([Recording](https://archive.org/details/07CGDC90EdRotberg))
 * **Contracts: An Improvised Negotiation** by Stephen Friedman and Nick Le Febre ([Recording](https://archive.org/details/05CGDC90SteveAxelrodNickLeFebre))
+* **Self Publishing** by Jeff Braun and Jeff Tunnell ([Recording](https://archive.org/details/02CGDC90JeffBraunJeffTunnell))
 
 
 ### The Artistic C
