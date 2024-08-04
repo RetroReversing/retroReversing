@@ -33,6 +33,31 @@ Visual Reality 2.0 | Visual Software | very little information on this after 199
 Lightwave 3D 4.0 | DPS | £816.63 | 1995
 
 ---
+# How Were 3D Game Cut Scenes Developed?
+
+Before game engines were capable enough to be used for in-game cut scenes, game development studios would need to use software to render video files that would play back inside the game.
+
+Studios would either contract the job out to third-party animation studios, which normally did animation for TV and movies, or work on them in-house with specialized artists. These teams would be given the same concept art as the game artists but would have much more polygons and computing power to work with due to not having the limitations of real-time rendering.
+
+## What 3D Software Was Used to Create Cut Scenes in Retro Games?
+
+The most popular 3D software for developing retro game cutscenes included:
+* 3D Studio Max
+* Maya
+* SoftImage
+
+## What Compositing Software Was Used to Create Retro Game Cut Scenes?
+
+Most of the compositing software used for the VFX and animation industries was also used for game cut scenes. A few of these are listed below:
+* Combustion by Discreet Logic (Autodesk)
+* Henry by Quantel
+* After Effects by Adobe
+* Nuke by Foundry
+* Blackmagic Design's Fusion
+
+
+
+---
 #  3D Studio (Max)
 3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2022).
 
