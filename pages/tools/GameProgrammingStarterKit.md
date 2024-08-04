@@ -14,7 +14,7 @@ recommend:
  - industry
  - tools
  - books
-image:/public/images/books/GameProgrammingStarterKit4.0.jpg
+image: /public/images/books/GameProgrammingStarterKit4.0.jpg
 twitterimage: https://www.retroreversing.com/public/images/books/GameProgrammingStarterKit4.0.jpg
 excerpt: The Game Progrtamming Starter Kit was a product that aimed to provide professional level game development tools to the wider public
 updatedAt: '2024-08-04'
