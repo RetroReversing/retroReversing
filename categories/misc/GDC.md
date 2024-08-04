@@ -87,6 +87,10 @@ In the Journal for Computer Game Development December 1988 issue Eric Goldberg w
 ## CGDC 3 - 1989
 Not much is known about the third version of the Computer Game Developers Conference (CGDC) hosted in Sunnyvale California sometime in 1989 and managed to double the previous attendance from 150 to 300.
 
+Title | Presenter | Notes
+---|---|---
+Story vs Game: The Battle of Interactive Fiction | Doug Sharp | [Notes from the Talk](https://web.archive.org/web/20040404061317/http://www.channelzilch.com/doug/battle.htm)
+
 If you know of any sessions that took place in the 1989 Computer Game Developer Conference then please let us know!
 
 ---
