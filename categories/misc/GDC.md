@@ -104,7 +104,7 @@ We only know of a few talks that took place at this conference:
 * **The Artistic C** by Jim Gasperini
 * **Artificial Opponent** by Dave Menconi
 * **A Competitive Analysis of Publishers** by Stephen Friedman
-* **Arcade Games: Their Promise and Their Failure** by Ed Rotberg
+* **Arcade Games: Their Promise and Their Failure** by Ed Rotberg [Recording](https://archive.org/details/07CGDC90EdRotberg)
 * **Contracts: An Improvised Negotiation** by Stephen Friedman and Nick Le Febre
 
 
