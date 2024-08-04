@@ -42,6 +42,7 @@ This section will cover books available at the time when retro games were being 
 
 The list of books in this section is not an exhaustive list and mainly includes books that would have been notable at the time. We only list the book based on its first edition date in order to keep the lists a bit cleaner.
 
+## Notable Publishers
 Some of the most note-worthy publishers for game development related books on this list are:
 * **Charles River Media** - Game Development series ran from 2002 to 2009
 * **Jones and Bartlett Publishers**
@@ -62,6 +63,12 @@ Some of the most prolific authors in the game development genre are:
 * **Steve Rabin** - Specializes in Game AI books such as the Game AI Wisdom series.
 * **Wolfgang Engel** - Specializes in game graphics, specifically shader development, writing books such as the ShaderX series.
 
+## Notable Series
+We have a seperate post on the excellent "Game Programming Starter Kit" series. It was a very successful way to provide professional PC development software along with industry standard books to amateur developers. It even included Visual Studio and later on some other software such as Dark Basic.
+
+{% include link-to-other-post.html post="/GameProgrammingStarterKit" description="For more information about the Game Programming Starter Kit series check out this post." %}
+
+---
 
 ## Published in 1976
 This section will cover books related to game development published in the year 1976, the year when the home game console market was just starting to take off with the release of the **Channel F**. It was also the year that Zilog would launch their Z80 microchip which would be used in many consoles and home computers in the future. 
@@ -819,62 +826,10 @@ In Ethan Johnson's excellent book **Candid Conversations in Code** he interviews
 * **Vic Tolomei** - Programmer and Game Designer for Exidy Inc. 1979-1987
 
 ---
-# Game Programming Starter Kit
-The Game Programming Starter Kit was software that was released in 6 different versions by 2 different publishers (Sams and then McMillan). It was one of the best ways for new developers to learn game development with industry standard technologies. It is one of the few products that could almost guarantee to put students on the right path for the games industry.
-
-## Version 1.0
-<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit1.0.jpg" />
-The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. Not only that but it contained the full retail version of Microsoft Visual C++ 1.0 along with the eBook version of Teach Yourself Visual C++ in 21 Days. 
-
-It also claims to have a full 2D DOS game engine on the CDs but we don't know much information about it.
-
-## Version 2.0
-The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severely lacking.
-
-## Version 3.0
-<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit3.0.jpg" />
-The Third version was released in 1999 by Macmillan Digital Publishing and consisted of 3 CDs and the full physical copy of **Game Design Secrets of the Sages**! 
-It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
-Genesis 3D did come with its own level editor which supported Direct3D and 3Dfx Glide drivers.
-
-This time it contained three ebooks on the Disks:
-* C++ Unleashed
-* Teach Yourself Visual C++ 6 in 21 Days
-* Using Visual C++ 6
-
-## Version 4.0
-<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit4.0.jpg" />
-The Fourth version was released in 2000 by **Macmillan Software** and only consisted of 2 CDs this time. On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was updated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
-
-This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
-* Teach Yourself Visual C++ 6 in 21 Days
-* Teach Yourself DirectX 7 in 24 Hours
-
-
-The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book published by **BradyGames**.
-
-## Version 5.0
-<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit5.0.jpg" />
-The Fifth version was released in 2001 by **Pearson Software** but we don't currently know what was on the CDs. We can presume it has Version 8 of DirectX and most likely the same Introductory Edition of Visual C++ 6.0 as the previous versions.
-
-It also may have included software called **3D GameStudio Standard** version 5.12 but this is only confirmed by one source [^5].
-
-We know that one of the eBooks included on the CDs was:
-* Tricks of the Windows Game Programming Gurus
-
-We do know however that the physical book that was included this time was the **Third** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman**. This books seems to be rather rare as I have never seen it for sale outside of this bundle.
-
-## Version 6.0
-The mythical sixth version may have released in 2002 but there is no photos of it existing at all online. One source claims it included **DarkBASIC SE** which is a large departure from the standard Visual C++ and DirectX combo of the previous versions.
-
-Did it include a **Fourth** edition of **Game Design Secrets of the Sages**? Who Knows?
-
----
 # References
 [^1]: [Waite Group Press Subject Room](https://web.archive.org/web/19980202235710fw_/http://www.waite.com/books/subject.html)
 [^2]: [prima-tech.com:](https://web.archive.org/web/20011007072554/http://www.prima-tech.com/books/)
 [^3]: [Source Codes – Jon Harbour](http://jharbour.com/sources/)
 [^4]: [Prima Tech Becomes Premier Press, Inc](https://web.archive.org/web/20011204164449/http://premierpressbooks.com/about.asp)
-[^5]: [Game Programming Starter 5.0](https://www.gamedeveloper.com/pc/macmillan-software-releases-game-programming-starter-kit-5-0)
 [^6]: [Course PTR - Welcome!](https://web.archive.org/web/20031112011902/http://premierpressbooks.com/pressroom/ptr_launch.cfm)
 [^7]: Videogames Hardware Handbook Volume 1 (2016) - Page 100
