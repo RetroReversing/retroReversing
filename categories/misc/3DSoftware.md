@@ -6,6 +6,8 @@ console: 3d
 breadcrumbs:
   - name: Home
     url: /
+  - name: Development Tools
+    url: /
 redirect_from:
   - /3d
 editlink: ../categories/misc/3DSoftware.md
@@ -13,9 +15,11 @@ title: 3D Software used in Retro-era Game Development
 recommend: 
  - 3d
  - software
+ - tools
 tags:
  - 3d
  - software
+ - tools
 ---
 
 # Introduction
