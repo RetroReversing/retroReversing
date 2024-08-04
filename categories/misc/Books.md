@@ -55,12 +55,12 @@ Some of the most note-worthy publishers for game development related books on th
 * **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
 
 ## Notable Authors
-Some of the most prolific authors in the game development genre were:
-* **Andre LaMothe** - Celebrated Author and became Editor for the entire Prima Tech/Premier Press Game Development Book Series
-* **Jonathan S. Harbour** - Wrote over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language. 
-* **Mark DeLoura**
-* **Steve Rabin**
-* **Wolfgang Engel**
+Some of the most prolific authors in the game development genre are:
+* **Andre LaMothe** - Celebrated author and editor for the entire Prima Tech/Premier Press Game Development Book Series.
+* **Jonathan S. Harbour** - Authored over 20 programming books. Worked on the Sega Mega Drive version of "Wayne Gretzky Hockey" using a scripting language and Motorola 68K Assembly Language.
+* **Mark DeLoura** - Author of the first two Game Programming Gems books (along with the Best of version) and editor of Game Developer magazine.
+* **Steve Rabin** - Specializes in Game AI books such as the Game AI Wisdom series.
+* **Wolfgang Engel** - Specializes in game graphics, specifically shader development, writing books such as the ShaderX series.
 
 
 ## Published in 1976
