@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2024-07-08'
+updatedAt: '2024-08-03'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -146,8 +146,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Neon_Genesis_Evangelion_64_Game_Box.jpg){:width="100"} [Neon Genesis Evangelion](https://github.com/farisawan-2000/evangelion)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/61/Papermario.jpg){:width="100"} [Paper Mario](https://github.com/pmret/papermario)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Perfect_dark_box.jpg){:width="100"} [Perfect Dark](https://github.com/n64decomp/perfect_dark)              | Decompilation | Inactive, 99% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png){:width="100"} [Pokemon Puzzle League](https://github.com/angheloalf/puzzleleague64)              | Decompilation | Active, 26% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png){:width="100"} [Pokemon Snap](https://github.com/ethteck/pokemonsnap)              | Decompilation | Active, 63% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/b/b6/Pok%C3%A9mon_Puzzle_League_Coverart.png){:width="100"} [Pokemon Puzzle League](https://github.com/angheloalf/puzzleleague64)              | Decompilation | Active, 27% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/0/0a/Pok%C3%A9mon_Snap_Coverart.png){:width="100"} [Pokemon Snap](https://github.com/ethteck/pokemonsnap)              | Decompilation | Active, 68% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/70/Pokemonstadiumbox.jpg){:width="100"} [Pokemon Stadium](https://github.com/pret/pokestadium)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ae/Quest64_big.jpg){:width="100"} [Quest 64](https://github.com/Mallos31/Quest)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/9/90/Rocket_Robot_on_Wheels_Cover.jpg){:width="100"} [Rocket: Robot on Wheels](https://github.com/RocketRet/Rocket-Robot-On-Wheels)              | Decompilation | Inactive |
@@ -476,7 +476,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)              | Game Engine Reimplementation | Active, Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/7/77/Oregon_Trail_II_cover.jpg){:width="100"} [Oregon Trail II](https://github.com/katstasaph/otii)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9c/PlantsvsZombiesCoverArt.jpg){:width="100"} [Plants vs. Zombies GOTY Edition](https://github.com/Patoke/re-plants-vs-zombies)              | Decompilation | Active |
-|![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Inactive |
+|![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg){:width="100"} [Touhou Koumakyou: The Embodiment of Scarlet Devil](https://github.com/happyhavoc/th06)              | Decompilation | Active |
