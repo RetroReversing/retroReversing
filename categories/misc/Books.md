@@ -7,6 +7,8 @@ thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /
+  - name: Games Industry
+    url: /industry
 redirect_from:
   - /book
 editlink: ../categories/misc/Books.md
@@ -14,6 +16,7 @@ recommend: industry
 image: /public/images/categories/Games Industry Books.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Games Industry Books.jpg
 excerpt: Awesome list of Historic Retro Games Industry Books and their impact on the industry
+updatedAt: '2024-08-04'
 tags:
  - industry
 ---
