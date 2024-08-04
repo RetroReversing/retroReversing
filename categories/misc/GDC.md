@@ -101,11 +101,11 @@ For a brief insight into the fourth version of CGDC you can read Bill Pirkle's o
 It was hosted in Le Baron Hotel in San Jose and was attended by over 470 people.
 
 We only know of a few talks that took place at this conference:
-* **The Artistic C** by Jim Gasperini
+* **The Artistic C** by Jim Gasperini ([Recording](https://archive.org/details/03CGDC90JimGasperini_201805))
 * **Artificial Opponent** by Dave Menconi
-* **A Competitive Analysis of Publishers** by Stephen Friedman
-* **Arcade Games: Their Promise and Their Failure** by Ed Rotberg [Recording](https://archive.org/details/07CGDC90EdRotberg)
-* **Contracts: An Improvised Negotiation** by Stephen Friedman and Nick Le Febre
+* **A Competitive Analysis of Publishers** by Stephen Friedman ([Recording](https://archive.org/details/04CGDC90StephenFriedman))
+* **Arcade Games: Their Promise and Their Failure** by Ed Rotberg ([Recording](https://archive.org/details/07CGDC90EdRotberg))
+* **Contracts: An Improvised Negotiation** by Stephen Friedman and Nick Le Febre ([Recording](https://archive.org/details/05CGDC90SteveAxelrodNickLeFebre))
 
 
 ### The Artistic C
