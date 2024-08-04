@@ -66,6 +66,8 @@ Some of the most prolific authors in the game development genre are:
 ## Notable Series
 We have a separate post on the excellent "Game Programming Starter Kit" series. It was a very successful way to provide professional PC development software along with industry-standard books to amateur developers. It even included Visual Studio and, later on, some other software such as Dark Basic.
 
+{% include link-to-other-post.html post="/GameProgrammingStarterKit" description="For more information about the Game Programming Starter Kit series check out this post." %}
+
 ---
 
 ## Published in 1976
