@@ -78,6 +78,10 @@ The conference did not become an annual event until a few years later.
 ### Developing for MS-DOS
 From a programming perspective the session **Developing for MS-DOS** would have been one of the highlights of the conference. Evan and Nicky Robinson were both programmers on hit games **Star Control** and **Mail Order Monsters**. So to hear their perspective on developing games for MS-DOS would have been incredible!
 
+In the Journal for Computer Game Development December 1988 issue Eric Goldberg wrote the following about the session:
+> Evan and Nicky Robinson’s “Developing for MS-DOS” was praised by many attendees. While no one professed a desire to grapple with an operating system universally regarded as clunky, the Robinsons were given full marks for a concise explanation of how to get through the odious task of supporting all four of the CGA, EGA, VGA, and Hercules graphics standards. The IBM PC and clone family is clearly where the most money is to be made in games.
+[^10]
+
 
 ---
 ## CGDC 3 - 1989
@@ -2069,4 +2073,4 @@ Satoru Iwata was the president of Nintendo at the time of the 2005 Keynote, his 
 [^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
-
+[^10]: [JCGD Volume 2 Issue 1](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-2/volume-2-number-1-octoberno.html_
