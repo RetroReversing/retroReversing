@@ -56,10 +56,13 @@ Most of the compositing software used for the VFX and animation industries was a
 * Blackmagic Design's Fusion
 
 
-
 ---
 #  3D Studio (Max)
 3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2022).
 
 We have a separate post on 3D studio Max which you can find below:
 {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3DStudio check out this post." %}
+
+---
+# References
+[^1]: [Ask HN What software was used to make 90s cutscenes? ](https://news.ycombinator.com/item?id=34305515)
