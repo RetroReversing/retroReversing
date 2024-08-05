@@ -520,6 +520,27 @@ Issue | Free Product | Notes
 Published by Future in the UK, cre@teOnline was aa magazine dedicated to designing online content such as web sites or flash games.
 
 There was a preview issue provided free in issue 46 of Computer Arts (July 2000). It is unknown when the first issue was published but it lasted a good 37 issues before closing down in 2003 [^5].
+
+Issue Number | Focus of Issue
+---|---
+11 | Streaming Video
+14 | Flash
+15 | Where Next?
+16 | Client Relationships
+17 | Technology
+18 | The State of the Net
+19 | Ecommerce
+20 | XML
+21 | Offline
+23 | Interactive Tv
+24 | Flash MX
+25 | The Games Issue
+26 | Usability
+28 | New Talent
+30 | Motion Graphics
+
+The most relevant to this site are the games and flash issues, giving an insight into what it was like developing games for the web back in the early 2000s.
+
  </div>
 </section> 
 
