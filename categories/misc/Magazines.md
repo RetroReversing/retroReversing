@@ -260,6 +260,7 @@ Title | Notes
 Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
 Computer Graphics World | USA magazine from 1977 until 2022 published by PennWell Publishing Company
+Cre@teOnline | UK Magazine from 2000 until ?
 Digit | UK magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
 Digital Arts | UK magazine
 Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
@@ -508,6 +509,19 @@ Issue | Free Product | Notes
 122 | TaxCalc Lite | 
 123 | Cleanerzoomer 1.0.1 | PC only, removes artifacts from images
 136 | Bryce 5.0 | 
+
+---
+## Cre@teOnline Magazine
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/c687585d-9db0-4ef7-81d8-fecbdc7bb90b" class="wow slideInLeft postImage" style="width:200px" />
+
+ <div markdown="1" class="rr-post-markdown">
+
+Published by Future in the UK, cre@teOnline was aa magazine dedicated to designing online content such as web sites or flash games.
+
+There was a preview issue provided free in issue 46 of Computer Arts (July 2000). It is unknown when the first issue was published or when the last issue was published but it at least lasted until May 2002, possibly later.
+ </div>
+</section> 
 
 ---
 ## Web Designer Magazine (UK)
