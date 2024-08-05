@@ -519,7 +519,7 @@ Issue | Free Product | Notes
 
 Published by Future in the UK, cre@teOnline was aa magazine dedicated to designing online content such as web sites or flash games.
 
-There was a preview issue provided free in issue 46 of Computer Arts (July 2000). It is unknown when the first issue was published or when the last issue was published but it at least lasted until May 2002, possibly later.
+There was a preview issue provided free in issue 46 of Computer Arts (July 2000). It is unknown when the first issue was published but it lasted a good 37 issues before closing down in 2003 [^5].
  </div>
 </section> 
 
@@ -624,3 +624,4 @@ ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of usefu
 [^2]: [The Journal of Computer Game Design - Interactive Storytelling Tools for Writers - Chris Crawford](https://www.erasmatazz.com/library/the-journal-of-computer/index.html)
 [^3]: Edge File Volume 1 Bookazine (2006)
 [^4]: [Volume 1 of JCGD](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-1/jcgd-volume-1-1-junejuly.html)
+[^5]: [Create Online at Wayback Machine](https://web.archive.org/web/20030327071600/http://createonline.co.uk/)
