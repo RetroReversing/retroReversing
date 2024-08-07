@@ -38,6 +38,7 @@ Discover the programming languages that powered the classics. From the assembly 
 
 {% include link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
 
+---
 ### Assemblers & Compilers
 Learn about the assemblers and compilers that transformed code into playable games. 
 
@@ -47,6 +48,10 @@ Understand the role of early compilers and their impact on game performance and 
 
 - **Assemblers**: Programs like MASM and TASM that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
+
+{% include link-to-other-post.html post="/GNU-GCC" description="For more information on how GNU GCC was used in game development check out this post." %}
+
+---
 
 ### Game Development IDEs
 Explore the Integrated Development Environments (IDEs) that were instrumental in retro game development. 
