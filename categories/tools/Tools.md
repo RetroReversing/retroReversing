@@ -1,0 +1,111 @@
+---
+permalink: /tools
+layout: post
+console: tools
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Retro Game Development Tools
+    url: /tools
+redirect_from:
+  - /tooling
+  - /tutorial/tools
+  - /tutorials/tools
+---
+
+# Explore the Tools of the Trade
+
+Back in the day, game development was both an art and a science, involving a unique set of tools and technologies. On this site, you'll find comprehensive links and guides to the essential tools used during the golden era of video game creation. Here's a glimpse of what you can expect:
+
+## Programming
+
+### **Programming Languages**
+Discover the programming languages that powered the classics. From the assembly languages that squeezed every ounce of performance from early hardware to the C and C++ languages that enabled more complex game designs, we cover the essentials that brought pixels to life. Dive into the specifics of languages such as:
+
+- **Assembly**: The low-level language used for its unparalleled control over hardware.
+- **C**: The versatile language that struck a balance between performance and portability.
+- **C++**: The language that introduced object-oriented programming to game development.
+
+{% include link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
+
+
+### **Assemblers & Compilers**
+Learn about the assemblers and compilers that transformed code into playable games. These powerful tools were pivotal in optimizing and translating the developers' visions into the games we remember. Understand the role of early compilers and their impact on game performance and development workflows. Key tools include:
+
+- **Assemblers**: Programs like MASM and TASM that converted assembly code into machine code.
+- **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
+
+## Asset Development
+
+### **3D Modelling**
+Explore the evolution of 3D modeling tools that gave depth and realism to early 3D games. From primitive polygon editors to the pioneering software that laid the groundwork for today's sophisticated 3D graphics, get insights into the creative processes behind iconic game visuals. Essential tools and techniques include:
+
+- **Early Polygon Editors**: Basic tools for creating simple 3D models.
+- **Advanced Modelling Software**: Programs like 3D Studio, SoftImage and Maya that allowed for more detailed and complex designs.
+- **Texture Mapping**: Techniques for applying textures to 3D models to enhance visual realism.
+
+{% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
+
+
+
+### **Music Creation**
+Music has always been a cornerstone of the gaming experience. Uncover the music creation tools and techniques that produced the memorable soundtracks of retro games. Learn about the hardware limitations and ingenious methods composers used to create captivating game music. Important aspects include:
+
+- **Sound Chips**: Hardware like the SID chip in the Commodore 64 and the Yamaha YM2612 in the Sega Genesis that defined the sound of many classic games.
+- **Tracker Software**: Programs like FastTracker and ProTracker that allowed composers to create music with limited hardware capabilities.
+- **MIDI Composition**: The use of MIDI to sequence and control sound modules and synthesizers for richer game audio.
+
+
+---
+# Reverse Engineering Tools for Games
+
+Reverse engineering is a vital process for understanding and recreating the magic behind retro games. By dissecting and analyzing the original game code, assets, and mechanics, enthusiasts can learn how these classics were built and even modify or enhance them. Our site provides detailed information on the essential tools and techniques used in reverse engineering games. Here’s an overview of the key tools you'll need:
+
+## **Disassemblers**
+Disassemblers are crucial for breaking down compiled game code back into human-readable assembly language. These tools allow you to see the underlying instructions that the game uses to function, providing insight into the game's logic and structure.
+
+- **IDA Pro**: One of the most powerful disassemblers, supporting a wide range of processors and file formats.
+- **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
+- **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
+
+## **Debuggers**
+Debuggers are used to test and analyze game code in real-time, allowing you to track the execution of programs, inspect memory, and find bugs or glitches.
+
+- **OllyDbg**: A popular Windows debugger known for its strong analysis capabilities and ease of use.
+- **x64dbg**: An open-source debugger for Windows with modern features and an active development community.
+- **Cheat Engine**: While primarily known as a game cheating tool, Cheat Engine’s debugging features make it useful for reverse engineering.
+
+## **Hex Editors**
+Hex editors let you view and modify the raw binary data of game files. They are essential for making precise changes to game code and assets at the byte level.
+
+- **HxD**: A fast and efficient hex editor for Windows with features like file comparison and memory modification.
+- **Hex Fiend**: A powerful hex editor for macOS, capable of handling large files with ease.
+- **010 Editor**: A professional-grade hex editor with powerful scripting and parsing capabilities.
+
+## **Decompilers**
+Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
+
+- **Reko**: An open-source decompiler designed for multiple architectures and file formats.
+- **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
+- **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
+
+## **File Format Analyzers**
+Understanding game-specific file formats is crucial for modifying assets and extracting valuable information. These tools help analyze and manipulate proprietary file formats used in games.
+
+- **Game Extractor**: A tool for opening and modifying the archives used in many games.
+- **QuickBMS**: A universal script-based extractor that supports hundreds of game archive formats.
+- **TrID**: A utility for identifying file types and formats based on their binary signatures.
+
+## **Emulators**
+Emulators replicate the hardware of old gaming systems on modern computers, allowing you to run and test games in a controlled environment.
+
+- **MAME**: An emulator that supports a wide range of arcade and console systems.
+- **PCSX2**: A PlayStation 2 emulator that provides debugging features for reverse engineering.
+- **Dolphin**: A GameCube and Wii emulator known for its accuracy and debugging tools.
+
+
+
+---
+# Posts
+
+{% include console.html %}
