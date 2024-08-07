@@ -5,13 +5,17 @@ console: sdk
 breadcrumbs:
   - name: Home
     url: /
+  - name: Tools
+    url: /tools
   - name: Software Development Kits
     url: /sdks
 redirect_from:
   - /sdk
   - /softwaredevelopmentkit
-editlink: ../categories/tutorials/sdks.md
-recommend: sdk
+editlink: ../categories/tools/sdks.md
+recommend:
+ - sdk
+ - tools
 ---
 
 # Introduction to Software Development Kits (SDKs)
