@@ -5,7 +5,7 @@ console: 'ghidra'
 title: 'Ghidra Decompiler & Disassembler - Awesome List'
 recommend: ghidra
 recommendTitle: All Ghidra Posts
-editlink: ../categories/tutorials/Ghidra.md
+editlink: ../categories/tools/Ghidra.md
 breadcrumbs:
   - name: Home
     url: /
