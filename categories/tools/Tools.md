@@ -38,12 +38,30 @@ Discover the programming languages that powered the classics. From the assembly 
 
 {% include link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
 
-
 ### **Assemblers & Compilers**
-Learn about the assemblers and compilers that transformed code into playable games. These powerful tools were pivotal in optimizing and translating the developers' visions into the games we remember. Understand the role of early compilers and their impact on game performance and development workflows. Key tools include:
+Learn about the assemblers and compilers that transformed code into playable games. 
+
+These powerful tools were pivotal in optimizing and translating the developers' visions into the games we remember. 
+
+Understand the role of early compilers and their impact on game performance and development workflows. Key tools include:
 
 - **Assemblers**: Programs like MASM and TASM that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
+
+### **Game Development IDEs**
+Explore the Integrated Development Environments (IDEs) that were instrumental in retro game development. 
+
+These IDEs provided comprehensive toolsets for coding, debugging, and testing, streamlining the development process for many classic games. Key IDEs from this era include:
+
+- **Microsoft Visual Studio**: A powerful and versatile IDE that supported multiple programming languages, making it a favorite among game developers for its robust debugging tools and integrated development features.
+- **Borland C++**: Known for its speed and efficiency, Borland C++ was a popular choice for many game developers due to its advanced compiler technology and comprehensive library support.
+- **CodeWarrior**: Initially developed for Macintosh, CodeWarrior later expanded to support multiple platforms, offering a flexible environment for cross-platform development which was essential for many game studios.
+- **Turbo C++**: An early IDE by Borland, Turbo C++ was known for its simplicity and speed, providing a streamlined environment for writing and testing code quickly.
+
+These IDEs were pivotal in creating the games that defined a generation, providing the necessary tools and environments to bring imaginative worlds to life.
+
+{% include link-to-other-post.html post="/game-development-ides" description="For more information on Game Development IDEs used in the 90s and early 00s, check out this post." %}
+
 
 ---
 ## Asset Development
