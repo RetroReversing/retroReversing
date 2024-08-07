@@ -79,6 +79,9 @@ Disassemblers are crucial for breaking down compiled game code back into human-r
 - **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
 - **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
 
+{% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+
+---
 ## **Debuggers**
 Debuggers are used to test and analyze game code in real-time, allowing you to track the execution of programs, inspect memory, and find bugs or glitches.
 
