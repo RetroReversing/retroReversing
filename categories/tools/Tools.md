@@ -139,5 +139,6 @@ Emulators replicate the hardware of old gaming systems on modern computers, allo
 
 ---
 # Posts
+Here is a list of posts on the site that have been tagged as related to game development or reverse engineering tools.
 
 {% include console.html %}
