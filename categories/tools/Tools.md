@@ -135,6 +135,9 @@ Emulators replicate the hardware of old gaming systems on modern computers, allo
 - **PCSX2**: A PlayStation 2 emulator that provides debugging features for reverse engineering.
 - **Dolphin**: A GameCube and Wii emulator known for its accuracy and debugging tools.
 
+{% include link-to-other-post.html post="/Reversing-Emulators" description="For more information on Reversing Emulators check out this post." %}
+
+
 
 
 ---
