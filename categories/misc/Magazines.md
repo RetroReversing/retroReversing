@@ -616,6 +616,16 @@ Issue # | Category | Author | Title
 Web Designer issue 101 also had a behind the scenes look at the website for **Myst IV Revelation** which was implemented in Flash MX 2004 and provided a game-like experience.
 
 ---
+# Programming magazines
+There is a lot of overlap between game development and general programming, so many game programmers in the industry would have subscriptions to general programming magazines such as the ones we have in this section.
+
+Title | Notes
+---|---
+MSDN Journal | Windows Development Journal from Microsoft from March 2000 - November 2019
+Develop (The Apple Technical Journal) | Apple development journal from 1991-?
+OS2 Developer | IBM OS/2 Programming magazine from 1989-?
+
+---
 # General PC Magazines
 There are many magazines related to the PC both past and present, however only a few of them have interesting articles about game development, the ones we know about are listed in the table below.
 
