@@ -158,4 +158,6 @@ We have a post specifically about this software in the link below.
 # Posts
 Here is a list of posts on the site that have been tagged as related to game development or reverse engineering tools.
 
+<div>
 {% include console.html %}
+</div>
