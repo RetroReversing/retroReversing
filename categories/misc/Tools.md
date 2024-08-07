@@ -26,6 +26,9 @@ Discover the programming languages that powered the classics. From the assembly 
 - **C**: The versatile language that struck a balance between performance and portability.
 - **C++**: The language that introduced object-oriented programming to game development.
 
+{% include link-to-other-post.html post="/programming" description="For more information on Programming languages used for game development check out this post." %}
+
+
 ### **Assemblers & Compilers**
 Learn about the assemblers and compilers that transformed code into playable games. These powerful tools were pivotal in optimizing and translating the developers' visions into the games we remember. Understand the role of early compilers and their impact on game performance and development workflows. Key tools include:
 
@@ -40,6 +43,10 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 - **Early Polygon Editors**: Basic tools for creating simple 3D models.
 - **Advanced Modelling Software**: Programs like 3D Studio, SoftImage and Maya that allowed for more detailed and complex designs.
 - **Texture Mapping**: Techniques for applying textures to 3D models to enhance visual realism.
+
+{% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
+
+
 
 ### **Music Creation**
 Music has always been a cornerstone of the gaming experience. Uncover the music creation tools and techniques that produced the memorable soundtracks of retro games. Learn about the hardware limitations and ingenious methods composers used to create captivating game music. Important aspects include:
