@@ -8,7 +8,7 @@ breadcrumbs:
     url: /
 redirect_from:
   - /cracking
-editlink: ../categories/misc/GameCrackingSoftware.md
+editlink: ../categories/tools/GameCrackingSoftware.md
 title: Game Cracking Software used back in the day
 excerpt: A quick look at software used to crack early games industry titles such as SoftICE, W32Dasm and OllyDbg
 tags:
