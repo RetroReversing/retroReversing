@@ -25,7 +25,7 @@ tags:
 
 # Explore the Tools of the Trade
 
-Back in the day, game development was both an art and a science, involving a unique set of tools and technologies. On this site, you'll find comprehensive links and guides to the essential tools used during the golden era of video game creation. Here's a glimpse of what you can expect:
+Back in the day, game development was both an art and a science, involving a unique set of tools and technologies. On this site, you'll find comprehensive links and guides to the essential tools used during the golden era of video game creation.
 
 ## Programming
 
