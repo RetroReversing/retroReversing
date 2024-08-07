@@ -8,13 +8,16 @@ breadcrumbs:
     url: /
 redirect_from:
   - /languages
-editlink: '../categories/misc/ProgrammingLanguages.md'
+  - /programming
+editlink: '../categories/tools/ProgrammingLanguages.md'
 title: Exploring Retro Game Programming Languages - From Assembly to higher level languages
 recommend: 
  - programming
  - software
+ - tools
 tags:
  - programming
+ - tools
 ---
 
 # Introduction
