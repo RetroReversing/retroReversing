@@ -1,6 +1,7 @@
 ---
-permalink: /tools
 layout: post
+permalink: /tools
+thumbnail: /public/images/RetroReversingLogoSmall.png
 console: tools
 breadcrumbs:
   - name: Home
@@ -9,9 +10,18 @@ breadcrumbs:
     url: /tools
 redirect_from:
   - /tooling
-  - /tutorial/tools
   - /tutorials/tools
+  - /software
+editlink: ../categories/tools/Tools.md
+title: Retro Game Development and Reversing Tools of the Trade
+recommend: 
+ - tools
+ - software
+tags:
+ - tools
+ - software
 ---
+
 
 # Explore the Tools of the Trade
 
@@ -35,6 +45,7 @@ Learn about the assemblers and compilers that transformed code into playable gam
 - **Assemblers**: Programs like MASM and TASM that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
 
+---
 ## Asset Development
 
 ### **3D Modelling**
@@ -47,7 +58,7 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 {% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
 
 
-
+---
 ### **Music Creation**
 Music has always been a cornerstone of the gaming experience. Uncover the music creation tools and techniques that produced the memorable soundtracks of retro games. Learn about the hardware limitations and ingenious methods composers used to create captivating game music. Important aspects include:
 
