@@ -11,7 +11,7 @@ breadcrumbs:
   - name: Reversing Emulators
     url: #
 recommend: reversingEmulator
-editlink: ../categories/ReversingEmulators.md
+editlink: ../categories/tools/ReversingEmulators.md
 redirect_from:
   -  /reversingemulator
   -  /reversingEmulator
