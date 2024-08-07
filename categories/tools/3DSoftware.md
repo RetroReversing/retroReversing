@@ -10,7 +10,7 @@ breadcrumbs:
     url: /
 redirect_from:
   - /3d
-editlink: ../categories/misc/3DSoftware.md
+editlink: ../categories/tools/3DSoftware.md
 title: 3D Software used in Retro-era Game Development
 recommend: 
  - 3d
