@@ -67,6 +67,14 @@ These IDEs were pivotal in creating the games that defined a generation, providi
 
 {% include link-to-other-post.html post="/game-development-ides" description="For more information on Game Development IDEs used in the 90s and early 00s, check out this post." %}
 
+---
+### Software Development Kits
+Every platform had its own official Software Development Kit (SDK), so whether you were developing for the Playstation or the PC you would be interacting with different APIs. In addition there were third parties that created their own multi-platform SDKs which could be used on multiple games consoles or Operating Systems.
+
+We have a post specifically about all the different SDKs for each platform.
+
+{% include link-to-other-post.html post="/sdks" description="For more information on SDK used to create retro games, check out this post." %}
+
 
 ---
 ## Asset Development
