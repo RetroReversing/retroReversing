@@ -616,6 +616,20 @@ Issue # | Category | Author | Title
 Web Designer issue 101 also had a behind the scenes look at the website for **Myst IV Revelation** which was implemented in Flash MX 2004 and provided a game-like experience.
 
 ---
+## Web Techniques
+![Web Techniques Cover](https://github.com/user-attachments/assets/b6ff3f03-aacc-4817-a1f5-c7bc56d6d66b)
+**Web Techniques** was a US magazine that started in February 1996 and ran until February 2002 when it rebranded as **New Architect**. 
+
+### Relevant Articles
+
+Issue Date | Name | Author
+---|---|---
+March 1997 | An Internet Game Server In Java | Andy Wilson
+March 1997 | Programming Web Games in C | Andrew Davison
+March 1997 | A Java-Based High-Score Server | Neil Bartlett
+March 1997 | Extending VRML with Realspace | Sue Wilcox
+
+---
 # Programming magazines
 There is a lot of overlap between game development and general programming, so many game programmers in the industry would have subscriptions to general programming magazines such as the ones we have in this section.
 
