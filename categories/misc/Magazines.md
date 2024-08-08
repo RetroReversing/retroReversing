@@ -624,10 +624,10 @@ Web Designer issue 101 also had a behind the scenes look at the website for **My
 
 Issue Date | Name | Author
 ---|---|---
-March 1997 | An Internet Game Server In Java | Andy Wilson
-March 1997 | Programming Web Games in C | Andrew Davison
-March 1997 | A Java-Based High-Score Server | Neil Bartlett
-March 1997 | Extending VRML with Realspace | Sue Wilcox
+March 1997 | [An Internet Game Server In Java](https://web.archive.org/web/20020628075834/http://www.newarchitectmag.com/archives/1997/03/wilson/) | Andy Wilson
+March 1997 | [Programming Web Games in C](https://web.archive.org/web/20020624124104/http://www.newarchitectmag.com/archives/1997/03/davison/) | Andrew Davison
+March 1997 | [A Java-Based High-Score Server](https://web.archive.org/web/20020624123955/http://www.newarchitectmag.com/archives/1997/03/bartlett/) | Neil Bartlett
+March 1997 | [Extending VRML with Realspace](https://web.archive.org/web/20020624125905/http://www.newarchitectmag.com/archives/1997/03/wilcox/) | Sue Wilcox
 
 ---
 # Programming magazines
