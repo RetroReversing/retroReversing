@@ -14,8 +14,8 @@ recommend:
  - industry
  - tools
  - books
-image: /public/images/books/GameProgrammingStarterKit4.0.jpg
-twitterimage: https://www.retroreversing.com/public/images/books/GameProgrammingStarterKit4.0.jpg
+image: /public/images/tools/Game Programming Starter Kit.jpg
+twitterimage: https://www.retroreversing.com/public/images/tools/Game Programming Starter Kit.jpg
 excerpt: The Game Progrtamming Starter Kit was a product that aimed to provide professional level game development tools to the wider public
 updatedAt: '2024-08-04'
 tags:
@@ -35,9 +35,11 @@ It also claims to have a full 2D DOS game engine on the CDs but we don't know mu
 ## Version 2.0
 The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severely lacking.
 
+---
 ## Version 3.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit3.0.jpg" />
 The Third version was released in 1999 by Macmillan Digital Publishing and consisted of 3 CDs and the full physical copy of **Game Design Secrets of the Sages**! 
+
 It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
 Genesis 3D did come with its own level editor which supported Direct3D and 3Dfx Glide drivers.
 
@@ -46,9 +48,11 @@ This time it contained three ebooks on the Disks:
 * Teach Yourself Visual C++ 6 in 21 Days
 * Using Visual C++ 6
 
+---
 ## Version 4.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit4.0.jpg" />
 The Fourth version was released in 2000 by **Macmillan Software** and only consisted of 2 CDs this time. 
+
 On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was updated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
 
 This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
@@ -58,6 +62,7 @@ This time it only contained two ebooks but they were arguably better for game de
 
 The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book published by **BradyGames**.
 
+---
 ## Version 5.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit5.0.jpg" />
 The Fifth version was released in 2001 by **Pearson Software** but we don't currently know what was on the CDs. We can presume it has Version 8 of DirectX and most likely the same Introductory Edition of Visual C++ 6.0 as the previous versions.
@@ -70,6 +75,7 @@ We know that one of the eBooks included on the CDs was:
 We do know however that the physical book that was included this time was the **Third** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman**. 
 This books seems to be rather rare as I have never seen it for sale outside of this bundle.
 
+---
 ## Version 6.0
 The mythical sixth version may have released in 2002 but there is no photos of it existing at all online. One source claims it included **DarkBASIC SE** which is a large departure from the standard Visual C++ and DirectX combo of the previous versions.
 
