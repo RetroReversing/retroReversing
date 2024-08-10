@@ -6,7 +6,7 @@ console: disassemblers
 breadcrumbs:
   - name: Home
     url: /
-  - name: Disassemblers: A Deep Dive
+  - name: Disassemblers - A Deep Dive
     url: /disassemblers
 editlink: ../categories/tools/Disassemblers.md
 title: Disassemblers: A Deep Dive
@@ -53,24 +53,47 @@ This binary file is typically an executable or a compiled program that contains 
 The disassembler reads this file byte by byte, interpreting each byte as part of an instruction.
 
 ## Step 2 - Identifying Instruction Boundaries
-   CPUs execute instructions in sequence, with each instruction typically consisting of an operation code (opcode) and operands. 
-   However, machine code is just a stream of bytes, so the disassembler must identify where each instruction begins and ends. 
-   This can be challenging because instruction lengths can vary depending on the CPU architecture.
+CPUs execute instructions in sequence, with each instruction typically consisting of an operation code (opcode) and operands. 
 
-   Disassemblers use several techniques to identify instruction boundaries:
-   - **Linear Sweep**: The disassembler starts at the entry point of the program and reads instructions sequentially. This method assumes that all instructions are valid and contiguous, which is not always the case, especially with data interleaved in the code or with obfuscation techniques.
-   - **Recursive Descent**: Starting at the entry point, the disassembler follows control flow instructions (like jumps and calls) to identify the next instructions to decode. This method is more accurate for complex binaries with non-linear control flow but requires more computational effort.
+However, machine code is just a stream of bytes, so the disassembler must identify where each instruction begins and ends. 
 
+This can be challenging because instruction lengths can vary depending on the CPU architecture.
+
+Disassemblers use several techniques to identify instruction boundaries:
+   - **Linear Sweep**
+   - **Recursive Descent**
+
+### Linear Sweep
+The disassembler starts at the entry point of the program and reads instructions sequentially. 
+
+This method assumes that all instructions are valid and contiguous, which is not always the case, especially with data interleaved in the code or with obfuscation techniques.
+
+### Recursive Descent
+Starting at the entry point, the disassembler follows control flow instructions (like jumps and calls) to identify the next instructions to decode. 
+
+This method is more accurate for complex binaries with non-linear control flow but requires more computational effort.
+
+---
 ## Step 3 - Decoding Instructions
-   Once instruction boundaries are identified, the disassembler decodes the opcode and operands. Each opcode corresponds to a specific operation (like `MOV`, `ADD`, or `JMP`), and the operands specify the data or addresses involved in the operation.
+Once instruction boundaries are identified, the disassembler decodes the opcode and operands. 
+   
+Each opcode corresponds to a specific operation (like `MOV`, `ADD`, or `JMP`), and the operands specify the data or addresses involved in the operation.
 
-   The disassembler uses a CPU-specific instruction set to interpret the opcodes and operands. For example, the x86 architecture has a different set of opcodes compared to ARM, and the disassembler must know the specific architecture to decode the instructions correctly.
+The disassembler uses a CPU-specific instruction set to interpret the opcodes and operands. 
+
+For example, the x86 architecture has a different set of opcodes compared to ARM, and the disassembler must know the specific architecture to decode the instructions correctly.
 
 ## Step 4 - Mapping Addresses to Symbols
-   If available, the disassembler will map memory addresses to symbolic names (e.g., function names, variable names). This process involves cross-referencing the binary with debugging symbols (if they exist) or creating symbols based on patterns identified in the code. For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary.
+   If available, the disassembler will map memory addresses to symbolic names (e.g., function names, variable names). 
+   
+   This process involves cross-referencing the binary with debugging symbols (if they exist) or creating symbols based on patterns identified in the code. 
+   
+   For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary.
 
 ## Step 5 - Handling Data Sections
-   In addition to code, binaries contain data sections that store constants, strings, and other non-executable data. The disassembler must distinguish between code and data sections to avoid misinterpreting data as code. This distinction is critical in producing accurate assembly output.
+   In addition to code, binaries contain data sections that store constants, strings, and other non-executable data. 
+   
+   The disassembler must distinguish between code and data sections to avoid misinterpreting data as code. This distinction is critical in producing accurate assembly output.
 
    Advanced disassemblers use heuristics and pattern matching to identify common data structures, such as strings, arrays, and tables, ensuring they are correctly interpreted.
 
