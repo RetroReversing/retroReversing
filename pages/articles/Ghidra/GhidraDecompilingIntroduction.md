@@ -14,8 +14,6 @@ breadcrumbs:
     url: /ghidra
   - name: Introduction to Decompiling C++ with Ghidra
     url: #
-redirect_from:
- - /ghidra
 recommend: 
 - introduction
 - ghidra
