@@ -206,7 +206,7 @@ When inspecting a game's memory it is important to know that the address where t
 Pointers are simply variables that point to a specific memory address asnd they can be modified at runtime.
 
 ---
-# Lesson 3 - Executables
+# Lesson 3 - Executables & Libraries
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
 
 ## What is an executable and how does it work?
@@ -227,6 +227,41 @@ Note that most executables don't have any file extension on Unix/MacOSX and many
 An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain  platform (e.g PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynanmically linked to at runtime from a common set of libraries. 
 
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
+
+## How are APIs distributed?
+APIs are typically distributed in several ways to allow developers to integrate them into their applications:
+- **Static Libraries** - Provided as .lib (Windows) or .a (Unix-like systems) files that developers link to their applications at compile time.
+- **Dynamic Libraries** - Provided as .dll (Windows) or .so (Unix-like systems) files, which are linked at runtime.
+
+## What is a Static Library?
+A static library is a collection of precompiled code that is linked directly into a program during the build process. This means the code from the library becomes part of the final executable, allowing the program to run independently without needing the library files at runtime. Static libraries typically have file extensions like `.lib` on Windows and `.a` on Unix-like systems.
+
+## What is a Dynamic Library?
+A dynamic library is a file containing code and data that can be used by multiple programs simultaneously. Instead of including the code directly in each program, they load the library at runtime, saving memory and allowing updates without recompiling the programs. In Windows, these are called DLLs (Dynamic Link Libraries), while in Unix-like systems, they are often called shared objects (`.so` files).
+
+### Which DLLs are used by code compiled by versions of Microsoft Visual C++?
+Here's a table of Microsoft Visual C++ (MSVC) versions and their associated runtime DLLs that can be imported. This table provides a quick reference for understanding which runtime DLLs correspond to different versions of MSVC.
+
+| **MSVC Version** | **Runtime DLLs**                       | **DLL File Names**                              |
+|------------------|----------------------------------------|-------------------------------------------------|
+| **MSVC 6.0**     | Visual C++ 6.0 runtime                 | `MSVCRT.dll`                                    |
+| **MSVC 7.0**     | Visual Studio .NET 2002 (VC7)           | `MSVCRT.dll`, `MSVCP60.dll`                     |
+| **MSVC 7.1**     | Visual Studio .NET 2003 (VC7.1)         | `MSVCRT.dll`, `MSVCP71.dll`                     |
+| **MSVC 8.0**     | Visual Studio 2005 (VC8)                | `MSVCRT.dll`, `MSVCP80.dll`, `MSVCR80.dll`     |
+| **MSVC 9.0**     | Visual Studio 2008 (VC9)                | `MSVCRT.dll`, `MSVCP90.dll`, `MSVCR90.dll`     |
+| **MSVC 10.0**    | Visual Studio 2010 (VC10)               | `MSVCRT.dll`, `MSVCP100.dll`, `MSVCR100.dll`   |
+| **MSVC 11.0**    | Visual Studio 2012 (VC11)               | `MSVCRT.dll`, `MSVCP110.dll`, `MSVCR110.dll`   |
+| **MSVC 12.0**    | Visual Studio 2013 (VC12)               | `MSVCRT.dll`, `MSVCP120.dll`, `MSVCR120.dll`   |
+| **MSVC 14.0**    | Visual Studio 2015 (VC14)               | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
+| **MSVC 14.1**    | Visual Studio 2017 (VC14.1)             | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
+| **MSVC 14.2**    | Visual Studio 2019 (VC14.2)             | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
+| **MSVC 15.0**    | Visual Studio 2022 (VC15)               | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
+
+Notes:
+- **MSVCRT.dll** is the Microsoft C Runtime Library used across various versions.
+- **MSVCPxx.dll** refers to the Microsoft C++ Runtime Library, where `xx` denotes the version (e.g., `80` for Visual Studio 2005).
+- **MSVCRxx.dll** refers to the Microsoft C Runtime Library versioned similarly to the `MSVCPxx.dll`.
+
 
 ---
 # Lesson 4 - Assembly Language
