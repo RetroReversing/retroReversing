@@ -266,6 +266,25 @@ Notes:
 - **MSVCPxx.dll** refers to the Microsoft C++ Runtime Library, where `xx` denotes the version (e.g., `80` for Visual Studio 2005).
 - **MSVCRxx.dll** refers to the Microsoft C Runtime Library versioned similarly to the `MSVCPxx.dll`.
 
+### What tools are used to explore Executables and Compiled Libraries?
+Here's a table summarizing the tools for viewing the insides of executables and libraries:
+
+| **Tool**               | **Platform**                    | **Description**                                                                 | **Usage**                                                      |
+|------------------------|---------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------|
+| **objdump**            | Linux, Unix, macOS, Windows     | Disassembles and displays information about object files and executables.        | `objdump -d <file>` for disassembly, `objdump -t <file>` for symbols. |
+| **readelf**            | Linux, Unix                     | Displays detailed information about ELF files, including headers and segments.   | `readelf -h <file>` for headers, `readelf -s <file>` for symbols.       |
+| **nm**                 | Linux, Unix, macOS, Windows     | Lists symbols from object files, executables, and libraries.                     | `nm <file>`                                                    |
+| **gdb**                | Linux, Unix, macOS, Windows     | Debugger that can also inspect executable contents, disassemble code, and view symbols. | `gdb <file>`, then use commands like `info functions` or `disassemble`. |
+| **IDA Pro**            | Windows, Linux, macOS           | Commercial disassembler and debugger with interactive analysis capabilities.     | Load the executable into IDA Pro and use the GUI for exploration.       |
+| **Hex-Rays Decompiler**| Windows, Linux, macOS           | Converts disassembled code back to C-like pseudo code; an add-on for IDA Pro.    | Integrated within IDA Pro; select a function and decompile.    |
+| **Binary Ninja**       | Windows, Linux, macOS           | Modern binary analysis tool with disassembly, decompilation, and scripting.      | Load the binary and use the GUI or API for analysis.           |
+| **Radare2**            | Windows, Linux, macOS           | Open-source framework for reverse engineering, including disassembly and debugging. | `r2 <file>`, then use commands like `pdf` to disassemble functions.     |
+| **PE Explorer**        | Windows                         | Commercial tool for inspecting and editing Windows PE files.                     | Open the executable in PE Explorer and navigate through sections.       |
+| **CFF Explorer**       | Windows                         | Free tool for analyzing and editing PE files, with detailed views of file structure. | Open the PE file in CFF Explorer and explore different sections. |
+| **Dependency Walker**  | Windows                         | Analyzes dependencies of Windows executables and DLLs, showing imported/exported functions. | Load the executable or DLL in Dependency Walker and explore dependencies. |
+| **dumpbin**            | Windows (Visual Studio)         | Command-line tool for inspecting PE files, showing headers, symbols, imports, and more. | `dumpbin /all <file>` to view all available information.       |
+| **MachOView**          | macOS                           | Tool for viewing the structure of Mach-O binaries, native to macOS executables.  | Open the Mach-O binary in MachOView and browse its segments and sections. |
+
 
 ---
 # Lesson 4 - Assembly Language
