@@ -385,10 +385,48 @@ This allows you to dynamically allocate space when needed and release it when it
 Interacting with the heap in assembly language typically involves system calls or interrupts to request memory from the operating system. Unlike the stack, which is managed directly by the CPU with specific instructions, the heap requires explicit requests for memory allocation and deallocation. 
 
 ---
-## Function Prologue and Epilogue
+## Functions
+
+### Function Calling Convensions
+Function calling conventions are rules that define how functions receive parameters, return results, and manage memory during a call.
+
+Conventions specify whether function arguments are passed in registers (fast) or on the stack (slower) and decide which registers are used for passing parameters. Often, a special register (like eax in x86 architecture) is used to hold the return value.
+
+Conventions also decide who is responsible for cleaning up the stack after the function call either the caller of the function or the callee.
+
+#### cdecl (C Declaration)
+**cdecl** (short for **"C Declaration"**) is a calling convention used in C and C++ programming that specifies:
+- **Arguments**: Passed on the stack from right to left.
+- **Cleanup**: The caller cleans up the stack after the function returns.
+- **Return Value**: Typically returned in the `eax` register.
+
+#### stdcall
+**stdcall** is a calling convention used in Windows programming that specifies:
+
+- **Arguments**: Passed on the stack from right to left.
+- **Cleanup**: The callee (the called function) cleans up the stack after the function returns.
+- **Return Value**: Typically returned in the `eax` register.
+
+#### fastcall
+**fastcall** is a calling convention designed to improve the performance of function calls by reducing the overhead associated with passing arguments and handling stack operations.
+- **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g., ecx and edx on x86), with additional arguments on the stack.
+- **Cleanup**: The callee cleans up the stack.
+- **Return Value**: Typically returned in the eax register.
+
+#### thiscall
+thiscall is a calling convention used primarily for C++ member functions. It is designed to handle the specific needs of methods that operate on objects (i.e., functions that are part of a class).
+
+- **Arguments**: Used primarily for C++ member functions.
+- **First Argument**: The this pointer (the instance of the object) is passed in a specific register (ecx on x86).
+- **Additional Arguments**: Passed on the stack.
+- **Cleanup**: The callee cleans up the stack.
+- **Return Value**: Typically returned in the eax register.
+
+---
+### Function Prologue and Epilogue
 Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. These tend to be fairly standard as they are created by the compiler.
 
-### Function Prologue
+#### Function Prologue
 The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
 
   **Example (x86 Architecture)**:
@@ -398,7 +436,7 @@ The prologue is the sequence of instructions at the beginning of a function that
   sub esp, 0x10   ; Allocate 16 bytes of stack space for local variables
   ```
 
-### Function Epilogue
+#### Function Epilogue
 The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
 
   **Example (x86 Architecture)**:
