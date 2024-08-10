@@ -324,7 +324,8 @@ Imagine a scenario where a CPU needs to synchronize with external hardware that 
 Also NOP instructions can be used to insert empty space or "padding" in the code. This can be useful for aligning instructions in memory or adjusting the size of loops and branches. For example, if you want to ensure that a certain block of code is located at a specific memory address, you can insert NOP instructions to fill the gap between the end of the previous code and the desired location.
 
 ### CPU Registers
-In this video you will learn about registers, which it describes as global variables that the CPU accesses directly, which is a really nice way to think about them. 
+You can think of CPU Registers as small (64-bit/32-bit/16-bit) global variables that the CPU accesses directly. 
+
 Each CPU has a number of built in registers which can each store a set number of Bytes, the number of bytes that they store is defined by the CPU, for example a 64-bit CPU will have 64-bits for each register.
 
 Almost all CPUs have special registers that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
@@ -341,6 +342,31 @@ Although unlike a deck of cards when you add more data the address of the data g
 
 In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
+---
+### Function Prologue and Epilogue
+Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. These tend to be fairly standard as they are created by the compiler.
+
+#### Function Prologue
+The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
+
+  **Example (x86 Architecture)**:
+  ```assembly
+  push ebp        ; Save the old base pointer
+  mov ebp, esp    ; Set up the new base pointer
+  sub esp, 0x10   ; Allocate 16 bytes of stack space for local variables
+  ```
+
+#### Function Epilogue
+The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
+
+  **Example (x86 Architecture)**:
+  ```assembly
+  mov esp, ebp    ; Restore the stack pointer
+  pop ebp         ; Restore the base pointer
+  ret             ; Return to the caller
+  ```
+
+---
 ### Random Number Generation (RNG)
 While a CPU diligently follows every instruction it receives, this unwavering predictability presents a challenge for game developers. Players crave the excitement of unpredictability to make each gaming experience unique. So, how can a CPU introduce randomness into the game world?
 
