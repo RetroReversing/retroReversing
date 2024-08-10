@@ -60,18 +60,132 @@ However, machine code is just a stream of bytes, so the disassembler must identi
 This can be challenging because instruction lengths can vary depending on the CPU architecture.
 
 Disassemblers use several techniques to identify instruction boundaries:
-   - **Linear Sweep**
-   - **Recursive Descent**
+   - **Linear Sweep** - The disassembler starts at the entry point of the program and reads instructions sequentially. 
+   - **Recursive Descent** - Starting at the entry point, the disassembler follows control flow instructions (like jumps and calls) to identify the next instructions to decode. 
 
 ### Linear Sweep
 The disassembler starts at the entry point of the program and reads instructions sequentially. 
 
 This method assumes that all instructions are valid and contiguous, which is not always the case, especially with data interleaved in the code or with obfuscation techniques.
 
+A Javascript example of Linear sweep for a Z80 disassembler is shown below, it only has a few opcodes to show the main ideas:
+```js
+// Z80 opcode map (simplified)
+const z80Instructions = {
+    0x00: { mnemonic: 'NOP', size: 1 },
+    0x3E: { mnemonic: 'LD A,', size: 2 },  // 2-byte instruction
+    0x06: { mnemonic: 'LD B,', size: 2 },  // 2-byte instruction
+    0x0E: { mnemonic: 'LD C,', size: 2 },  // 2-byte instruction
+    0x76: { mnemonic: 'HALT', size: 1 },
+    // Add more opcodes as needed
+};
+
+// Sample Z80 binary data (machine code)
+const binaryData = new Uint8Array([0x3E, 0x12, 0x06, 0x34, 0x00, 0x76]);
+
+function disassembleZ80(binary) {
+    let pc = 0; // Program counter
+
+    while (pc < binary.length) {
+        const opcode = binary[pc];
+        const instruction = z80Instructions[opcode];
+
+        if (!instruction) {
+            console.log(`Unknown opcode: 0x${opcode.toString(16).toUpperCase()}`);
+            pc += 1;
+            continue;
+        }
+
+        const { mnemonic, size } = instruction;
+        let assemblyLine = mnemonic;
+
+        // Handle any additional bytes (operands)
+        if (size > 1) {
+            const operand = binary.slice(pc + 1, pc + size);
+            const operandHex = Array.from(operand).map(byte => `0x${byte.toString(16).toUpperCase()}`);
+            assemblyLine += operandHex.join(', ');
+        }
+
+        console.log(`0x${pc.toString(16).toUpperCase()}: ${assemblyLine}`);
+        pc += size;
+    }
+}
+
+disassembleZ80(binaryData);
+```
+
+
 ### Recursive Descent
-Starting at the entry point, the disassembler follows control flow instructions (like jumps and calls) to identify the next instructions to decode. 
+Recursive Descent is a more sophisticated disassembly technique than Linear Sweep.
+
+Instead of just reading the binary sequentially, it follows the flow of execution by interpreting control flow instructions like jumps and calls. 
+
+This approach allows it to handle non-linear code paths better and avoid disassembling data that might be interleaved with code.
 
 This method is more accurate for complex binaries with non-linear control flow but requires more computational effort.
+
+
+Here’s a simple JavaScript example demonstrating Recursive Descent disassembly for a Z80 CPU.
+```js
+// Simplified Z80 opcode map
+const z80Instructions = {
+    0x00: { mnemonic: 'NOP', size: 1 },
+    0x3E: { mnemonic: 'LD A,', size: 2 },  // 2-byte instruction
+    0x06: { mnemonic: 'LD B,', size: 2 },  // 2-byte instruction
+    0x0E: { mnemonic: 'LD C,', size: 2 },  // 2-byte instruction
+    0xC3: { mnemonic: 'JP', size: 3 },     // Unconditional jump (3 bytes)
+    0x76: { mnemonic: 'HALT', size: 1 },
+    // Add more opcodes as needed
+};
+
+// Sample Z80 binary data (machine code)
+const binaryData = new Uint8Array([0x3E, 0x12, 0xC3, 0x08, 0x00, 0x00, 0x76, 0x00, 0x06, 0x34]);
+
+// To keep track of visited addresses
+const visitedAddresses = new Set();
+
+function disassembleZ80Recursive(binary, pc = 0) {
+    while (pc < binary.length) {
+        if (visitedAddresses.has(pc)) {
+            return; // Already disassembled this part, avoid infinite loops
+        }
+
+        visitedAddresses.add(pc);
+
+        const opcode = binary[pc];
+        const instruction = z80Instructions[opcode];
+
+        if (!instruction) {
+            console.log(`Unknown opcode: 0x${opcode.toString(16).toUpperCase()} at address 0x${pc.toString(16).toUpperCase()}`);
+            pc += 1;
+            continue;
+        }
+
+        const { mnemonic, size } = instruction;
+        let assemblyLine = mnemonic;
+
+        // Handle any additional bytes (operands)
+        let operands = [];
+        if (size > 1) {
+            operands = binary.slice(pc + 1, pc + size);
+            const operandHex = Array.from(operands).map(byte => `0x${byte.toString(16).toUpperCase()}`);
+            assemblyLine += operandHex.join(', ');
+        }
+
+        console.log(`0x${pc.toString(16).toUpperCase()}: ${assemblyLine}`);
+
+        if (opcode === 0xC3) { // JP (unconditional jump)
+            const jumpAddress = operands[1] << 8 | operands[0];
+            disassembleZ80Recursive(binary, jumpAddress); // Follow the jump
+            return; // Stop linear disassembly and follow the jump
+        }
+
+        pc += size;
+    }
+}
+
+disassembleZ80Recursive(binaryData);
+```
 
 ---
 ## Step 3 - Decoding Instructions
@@ -84,24 +198,32 @@ The disassembler uses a CPU-specific instruction set to interpret the opcodes an
 For example, the x86 architecture has a different set of opcodes compared to ARM, and the disassembler must know the specific architecture to decode the instructions correctly.
 
 ## Step 4 - Mapping Addresses to Symbols
-   If available, the disassembler will map memory addresses to symbolic names (e.g., function names, variable names). 
+If available, the disassembler will map memory addresses to symbolic names (e.g., function names, variable names). 
    
-   This process involves cross-referencing the binary with debugging symbols (if they exist) or creating symbols based on patterns identified in the code. 
+This process involves cross-referencing the binary with debugging symbols (if they exist) or creating symbols based on patterns identified in the code. 
    
-   For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary.
+For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary.
 
 ## Step 5 - Handling Data Sections
-   In addition to code, binaries contain data sections that store constants, strings, and other non-executable data. 
+In addition to code, binaries contain data sections that store constants, strings, and other non-executable data. 
    
-   The disassembler must distinguish between code and data sections to avoid misinterpreting data as code. This distinction is critical in producing accurate assembly output.
+The disassembler must distinguish between code and data sections to avoid misinterpreting data as code. This distinction is critical in producing accurate assembly output.
 
-   Advanced disassemblers use heuristics and pattern matching to identify common data structures, such as strings, arrays, and tables, ensuring they are correctly interpreted.
+Advanced disassemblers use heuristics and pattern matching to identify common data structures, such as strings, arrays, and tables, ensuring they are correctly interpreted.
 
 ## Step 6 - Reconstructing Control Flow
-   Disassemblers often reconstruct the program's control flow to present a clearer picture of the program’s logic. This involves analyzing jump and call instructions to determine how different parts of the program interact. Some disassemblers can generate control flow graphs (CFGs) that visually represent the paths through the code.
+Disassemblers often reconstruct the program's control flow to present a clearer picture of the program’s logic. 
+
+This involves analyzing jump and call instructions to determine how different parts of the program interact. 
+
+Some disassemblers can generate control flow graphs (CFGs) that visually represent the paths through the code.
 
 ## Step 7 - Generating Human-Readable Assembly Code
-   The final step is to output the assembly code in a human-readable format. The disassembler converts the decoded instructions, mapped symbols, and reconstructed control flow into assembly code that closely mirrors the original source code (if it were written in assembly). This code can then be reviewed, analyzed, or modified by the user.
+The final step is to output the assembly code in a human-readable format. 
+
+The disassembler converts the decoded instructions, mapped symbols, and reconstructed control flow into assembly code that closely mirrors the original source code (if it were written in assembly). 
+
+This code can then be reviewed, analyzed, or modified by the user.
 
 ---
 # Types of Disassemblers
@@ -112,7 +234,7 @@ There are different types of disassemblers, each with its specific use cases and
 
 - **Dynamic Disassemblers**: These work alongside a debugger, disassembling code as it is executed. This approach allows the disassembler to handle dynamic code and provides insights into runtime behavior, like changes in control flow and data. However, it requires running the program, which might be risky if the program is malicious.
 
-- **Interactive Disassemblers**: Tools like IDA Pro fall into this category. They combine static and dynamic disassembly features, allowing users to interactively explore the code, modify the disassembly, and even execute the code in a controlled environment.
+- **Interactive Disassemblers**: Tools like Ghidra and IDA Pro fall into this category. They combine static and dynamic disassembly features, allowing users to interactively explore the code, modify the disassembly, and even execute the code in a controlled environment.
 
 ---
 # Challenges in Disassembly
