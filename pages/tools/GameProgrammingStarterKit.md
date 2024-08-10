@@ -51,11 +51,11 @@ This time it contained three ebooks on the Disks:
 * Using Visual C++ 6
 
 ### The CDs
-<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/cd684d17-8f15-42a7-b7ac-d002d5378e3a">
+<img alt="Disk1" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/5f4723fb-cdc8-48ac-915a-a6a0d178208a">
 
-<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/5f4723fb-cdc8-48ac-915a-a6a0d178208a">
+<img alt="Disk2" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/cd684d17-8f15-42a7-b7ac-d002d5378e3a">
 
-<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/c973474a-87c0-4980-b81f-b0ec516f3aac">
+<img alt="Disk3" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/c973474a-87c0-4980-b81f-b0ec516f3aac">
 
 You can download the contents of the three CDs on [Archive.org](https://archive.org/details/game-programming-starter-kit-3.0/Game%20Programming%20Starter%20Kit%203.0_back.jpg)
 
