@@ -197,13 +197,19 @@ The disassembler uses a CPU-specific instruction set to interpret the opcodes an
 
 For example, the x86 architecture has a different set of opcodes compared to ARM, and the disassembler must know the specific architecture to decode the instructions correctly.
 
+---
 ## Step 4 - Mapping Addresses to Symbols
 If available, the disassembler will map memory addresses to symbolic names (e.g., function names, variable names). 
    
 This process involves cross-referencing the binary with debugging symbols (if they exist) or creating symbols based on patterns identified in the code. 
    
-For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary.
+### Function Signatures
+For example, common library functions may be recognized by their binary signature, even if symbols are stripped from the binary:
 
+Disassemblers can use known function signatures (e.g., common library functions) to identify parts of the code. For instance, a call to a `printf` function might help the disassembler understand that the following bytes are format strings or arguments.
+
+
+---
 ## Step 5 - Handling Data Sections
 In addition to code, binaries contain data sections that store constants, strings, and other non-executable data. 
    
@@ -211,12 +217,49 @@ The disassembler must distinguish between code and data sections to avoid misint
 
 Advanced disassemblers use heuristics and pattern matching to identify common data structures, such as strings, arrays, and tables, ensuring they are correctly interpreted.
 
+### Heuristics in Disassembly
+Heuristics in disassembly refer to the use of rule-based methods and educated guesses to make decisions when the disassembler is not entirely sure about how to interpret a segment of code or data. These heuristics help in:
+- **Differentiating Code and Data**: In many binaries, code and data are intermixed. Heuristics help determine whether a sequence of bytes represents executable instructions or data. For example, if a segment of bytes doesn’t match known instruction patterns, it might be data.
+- **Identifying Data Structures**: Heuristics can analyze patterns to identify common data structures, like strings, arrays, or tables, by looking for sequences of bytes that match known characteristics (e.g., null-terminated strings).
+
+### Pattern Matching for Data Structures
+
+#### Strings
+- **Null-Terminated Strings**: Many disassemblers use pattern matching to identify strings by searching for sequences of printable ASCII characters followed by a null byte (`0x00`). For example, the bytes `0x48 0x65 0x6C 0x6C 0x6F 0x00` can be recognized as the string `"Hello"`.
+- **Length-Prefixed Strings**: Some strings are stored with a length prefix (e.g., Pascal strings). Disassemblers can be programmed to recognize a common length prefix followed by a sequence of characters.
+
+#### Arrays
+- **Homogeneous Arrays**: An array of integers or floats often appears as a sequence of similarly sized elements. Disassemblers can identify these patterns by looking for repeated sequences of bytes with the same size and spacing.
+- **Pattern Recognition**: In more advanced scenarios, disassemblers might recognize arrays by the access patterns in the code (e.g., loops that iterate over a sequence of memory addresses).
+
+#### Tables
+- **Jump Tables**: In compiled code, jump tables are often used for switch-case statements. These are sequences of addresses that the program jumps to based on a value. Disassemblers can identify these by looking for tables of addresses and recognizing the code that accesses them.
+- **Function Pointer Tables**: Similar to jump tables, function pointer tables are arrays of addresses where each entry points to a function. These are common in object-oriented code (e.g., virtual function tables in C++).
+  
+#### Type Propagation
+Some disassemblers use type propagation, where they infer the type of variables and structures based on how they are used. For example, if a certain memory address is accessed as a string in one part of the code, the disassembler might propagate this type information to other accesses of the same address.
+
+### Data Structure Signatures
+Certain data structures have known memory layouts (e.g., a struct with specific offsets for fields). Disassemblers use these patterns to recognize and label data structures in the binary.
+
+### User Interaction and Annotations
+- **User-Assisted Analysis**: Advanced disassemblers like Ghidra and IDA Pro allow users to interactively mark sections of the binary as code or data. They can also allow users to define custom data structures and apply them to memory regions.
+- **Annotations and Comments**: Users can add comments and annotations that help guide the disassembler in future analysis. For example, if a user recognizes a specific data structure, they can annotate it, and the disassembler may use this information to identify similar structures elsewhere in the binary.
+
+### Pattern Recognition with AI
+Some cutting-edge disassemblers are beginning to use machine learning models to recognize patterns in binaries. These models can be trained on large datasets of known binaries to improve their ability to recognize data structures and code patterns, even in obfuscated or packed executables.
+
+
+---
 ## Step 6 - Reconstructing Control Flow
 Disassemblers often reconstruct the program's control flow to present a clearer picture of the program’s logic. 
 
 This involves analyzing jump and call instructions to determine how different parts of the program interact. 
 
 Some disassemblers can generate control flow graphs (CFGs) that visually represent the paths through the code.
+
+### Control Flow Analysis
+Disassemblers analyze the control flow of the program to understand how different parts of the code are executed. By understanding loops, conditional branches, and jumps, they can predict which areas of the code are likely data and which are executable code.
 
 ## Step 7 - Generating Human-Readable Assembly Code
 The final step is to output the assembly code in a human-readable format. 
