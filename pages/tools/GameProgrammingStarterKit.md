@@ -57,6 +57,7 @@ This time it contained three ebooks on the Disks:
 
 <img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/c973474a-87c0-4980-b81f-b0ec516f3aac">
 
+You can download the contents of the three CDs on [Archive.org](https://archive.org/details/game-programming-starter-kit-3.0/Game%20Programming%20Starter%20Kit%203.0_back.jpg)
 
 ---
 ## Version 4.0
