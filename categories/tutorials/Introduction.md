@@ -363,6 +363,11 @@ When you need to store more data than the stack can handle or require memory tha
 
 You can think of the heap as a large pool of memory where you can request chunks of memory as needed. Unlike the stack, memory in the heap can be allocated and freed in any order, making it flexible but also more complex to manage.
 
+## Which systems had a heap?
+Early video game consoles typically did not have a heap due to their limited memory and lack of an operating system to manage dynamic memory allocation. However, as consoles evolved and gained more memory and complexity, the concept of a heap started to become relevant.
+
+Some heaps were handled by the Operating system (Xbox onwards) and others were handled by the game engines themselves (PS2, Gamecube).
+
 ## How does the Heap grow?
 
 The heap grows upwards, from lower to higher memory addresses. When you request more memory (for example, creating a new object or allocating an array), the heap expands towards higher addresses. This is in contrast to the stack, which grows downwards, ensuring that both areas can grow without quickly overlapping.
