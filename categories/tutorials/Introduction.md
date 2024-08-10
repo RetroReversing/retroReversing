@@ -206,7 +206,7 @@ When inspecting a game's memory it is important to know that the address where t
 Pointers are simply variables that point to a specific memory address asnd they can be modified at runtime.
 
 ---
-# Lesson 3 - Executables, CPU & Assembly Code
+# Lesson 3 - Executables
 This section will start to look into reverse engineering the actual code that makes the games run on the CPU.
 
 ## What is an executable and how does it work?
@@ -229,44 +229,14 @@ An **Application Programming Interface** (API) is a collection of functions that
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
 
 ---
-## Microprocessors (CPUs)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EJh4BIujpHA?si=0OfwRXjM9JiWavqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+# Lesson 4 - Assembly Language
 
-Microprocessors provided a cost-effective way to access computing power. Before microprocessors, developing custom hardware for each game or gaming system was expensive and time-consuming. Microprocessors allowed for standardized, affordable, and flexible computing platforms.
-
-Microprocessors brought a level of standardization to the gaming industry. Instead of needing custom hardware for each game or console, developers could create games for a common microprocessor architecture (e.g., x86, ARM, or MIPS). This made it easier for developers to create games and for consumers to adopt new gaming systems.
-
-## How a CPU Works
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-**LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
-
-A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. Here's a simple explanation:
-
-* **Fetch**: The CPU fetches (reads) instructions from the game's memory. These instructions are like the rules of the game.
-* **Decode**: The CPU figures out what each instruction means. It's like understanding the rules of the game, such as "move the character left" or "shoot the enemy."
-* **Execute**: The CPU carries out the instructions. It makes the game characters move, calculates scores, and does other tasks as instructed.
-* **Repeat**: The CPU keeps fetching, decoding, and executing instructions one after the other, making the game run smoothly.
-The CPU also works with other parts of the console, like the graphics and sound chips, to create the game's visuals and sounds.
-
-### What is a CPU Instruction?
-An instruction is a basic operation or command that the CPU can execute. These instructions are written in a machine-readable form, usually in binary code, and are the fundamental building blocks of a computer program. Each CPU has its own specific set of instructions, known as its instruction set architecture (ISA).
-
-Instructions can perform various tasks, such as:
-1. **Arithmetic Operations**: These include instructions for addition, subtraction, multiplication, division, and other mathematical operations.
-2. **Data Movement**: Instructions for moving data between registers, memory, and other storage locations.
-3. **Control Flow**: Instructions that control the program's flow, such as branching (jumping to a different part of the program) or conditional execution (if-then-else).
-4. **Logical Operations**: Instructions for performing logical operations like AND, OR, XOR, and NOT.
-5. **Load and Store**: These instructions load data from memory into registers or store data from registers back into memory.
-6. **Input/Output**: Instructions that allow the CPU to interact with input and output devices like keyboards, displays, and storage devices.
-
-CPU instructions are executed sequentially, one after the other, according to the program's logic. The order and combination of these instructions determine the behavior of a computer program.
-
-### What is Assembly language?
+## What is Assembly language?
 Assembly language is a low-level programming language that's a step above the binary machine language that computers understand. It uses human-readable mnemonics and symbols to represent the basic operations a computer's Central Processing Unit (CPU) can perform, like adding numbers, moving data, and making decisions.
 
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
-### Do I need to learn Assembly Language for reversing?
+## Do I need to learn Assembly Language for reversing?
 You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
 For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
 
@@ -275,7 +245,7 @@ The best way is to learn as you go and use the Internet as a reference when you 
 However there are a few basics that you should know before getting your hands dirty and these apply to the Assembly language used in most retro video game consoles. These will be covered in the next few sections.
 
 
-### What Assembly language Should I learn?
+## What Assembly language Should I learn?
 It depends on the platform (specifically CPU) that your game was built for, here are some examples:
 * **Z80 Assembly Language** - Game Boy, Sega Master System, Sega Game Gear
 * **6502 Assembly Language** - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
@@ -304,7 +274,7 @@ Here is a simple comparison table that highlights some key differences between d
 
 This table provides a broad overview of these architectures, but there are many more details and specific instructions within each ISA. The number of registers, addressing modes, and the availability of complex instructions can significantly vary even within a single architecture, and the choice of endianness (byte order) can have important implications for software compatibility. For a deep dive into any of these ISAs, you would typically need to consult the official documentation or specific resources for each architecture.
 
-### How do I convert my game into assembly language?
+## How do I convert my game into assembly language?
 The process of taking a final game executable/ROM and converting it into human readable Assembly language is called disassembling.
 
 You need to choose a Disassembler that works for your game's Instruction Set Architecture (ISA), this will depend on which console or PC your game is compiled for.
@@ -312,7 +282,42 @@ You need to choose a Disassembler that works for your game's Instruction Set Arc
 We have a seperate post covering how disassemblers work below:
 {% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
-## CPU Internals
+
+---
+# Lesson 5 - CPU
+When learning reverse engineering and assembly language programming it is vital to know how a CPU actually works, what are the major parts and how they interact, that is what this section will focus on.
+
+## What are Microprocessors (CPUs)?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJh4BIujpHA?si=0OfwRXjM9JiWavqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Microprocessors provided a cost-effective way to access computing power. Before microprocessors, developing custom hardware for each game or gaming system was expensive and time-consuming. Microprocessors allowed for standardized, affordable, and flexible computing platforms.
+
+Microprocessors brought a level of standardization to the gaming industry. Instead of needing custom hardware for each game or console, developers could create games for a common microprocessor architecture (e.g., x86, ARM, or MIPS). This made it easier for developers to create games and for consumers to adopt new gaming systems.
+
+## How a CPU Works
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
+
+A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. Here's a simple explanation:
+
+* **Fetch**: The CPU fetches (reads) instructions from the game's memory. These instructions are like the rules of the game.
+* **Decode**: The CPU figures out what each instruction means. It's like understanding the rules of the game, such as "move the character left" or "shoot the enemy."
+* **Execute**: The CPU carries out the instructions. It makes the game characters move, calculates scores, and does other tasks as instructed.
+* **Repeat**: The CPU keeps fetching, decoding, and executing instructions one after the other, making the game run smoothly.
+The CPU also works with other parts of the console, like the graphics and sound chips, to create the game's visuals and sounds.
+
+## What is a CPU Instruction?
+An instruction is a basic operation or command that the CPU can execute. These instructions are written in a machine-readable form, usually in binary code, and are the fundamental building blocks of a computer program. Each CPU has its own specific set of instructions, known as its instruction set architecture (ISA).
+
+Instructions can perform various tasks, such as:
+1. **Arithmetic Operations**: These include instructions for addition, subtraction, multiplication, division, and other mathematical operations.
+2. **Data Movement**: Instructions for moving data between registers, memory, and other storage locations.
+3. **Control Flow**: Instructions that control the program's flow, such as branching (jumping to a different part of the program) or conditional execution (if-then-else).
+4. **Logical Operations**: Instructions for performing logical operations like AND, OR, XOR, and NOT.
+5. **Load and Store**: These instructions load data from memory into registers or store data from registers back into memory.
+6. **Input/Output**: Instructions that allow the CPU to interact with input and output devices like keyboards, displays, and storage devices.
+
+CPU instructions are executed sequentially, one after the other, according to the program's logic. The order and combination of these instructions determine the behavior of a computer program.
 
 ### The No Operation Instruction (NOP)
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
@@ -323,19 +328,21 @@ Imagine a scenario where a CPU needs to synchronize with external hardware that 
 
 Also NOP instructions can be used to insert empty space or "padding" in the code. This can be useful for aligning instructions in memory or adjusting the size of loops and branches. For example, if you want to ensure that a certain block of code is located at a specific memory address, you can insert NOP instructions to fill the gap between the end of the previous code and the desired location.
 
-### CPU Registers
+## What is a CPU Register?
 You can think of CPU Registers as small (64-bit/32-bit/16-bit) global variables that the CPU accesses directly. 
 
 Each CPU has a number of built in registers which can each store a set number of Bytes, the number of bytes that they store is defined by the CPU, for example a 64-bit CPU will have 64-bits for each register.
 
 Almost all CPUs have special registers that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
 
-### The Stack
+---
+## The Stack
 But what happens when you want to store more data than the limited number of registers available on the CPU? 
 This is where the computers RAM comes in, no matter how simple your console or PC is it will have some sort of RAM available and is used to store data such as the players X and Y Position.
 
 So how do we read and write data to this RAM? One simple way of saving and loading data is with something called the Stack.
 
+### What is thr Stack?
 You can think of the stack like a deck of cards, you can add new cards only to the top of the deck which represents writing to the stack. For reading data from the stack you can only take the top most card, which is also the most recently written piece of data.
 
 Although unlike a deck of cards when you add more data the address of the data goes downwards instead of upwards, so if the first element in a stack is at position 10 then when you add another byte of data its address would be 9.
@@ -343,10 +350,10 @@ Although unlike a deck of cards when you add more data the address of the data g
 In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
 ---
-### Function Prologue and Epilogue
+## Function Prologue and Epilogue
 Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. These tend to be fairly standard as they are created by the compiler.
 
-#### Function Prologue
+### Function Prologue
 The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
 
   **Example (x86 Architecture)**:
@@ -356,7 +363,7 @@ The prologue is the sequence of instructions at the beginning of a function that
   sub esp, 0x10   ; Allocate 16 bytes of stack space for local variables
   ```
 
-#### Function Epilogue
+### Function Epilogue
 The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
 
   **Example (x86 Architecture)**:
@@ -367,7 +374,7 @@ The epilogue is the sequence of instructions at the end of a function that clean
   ```
 
 ---
-### Random Number Generation (RNG)
+## Random Number Generation (RNG)
 While a CPU diligently follows every instruction it receives, this unwavering predictability presents a challenge for game developers. Players crave the excitement of unpredictability to make each gaming experience unique. So, how can a CPU introduce randomness into the game world?
 
 One elegant solution involves a Random Number Generator (RNG) that relies on the timing of user input. The CPU continuously increments a counter until the player presses a button. With the timing of button presses being entirely unpredictable, the CPU uses this ever-evolving count to generate random numbers. This injects a vital element of surprise and distinctiveness into every gaming session.
