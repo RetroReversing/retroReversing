@@ -19,6 +19,8 @@ redirect_from:
   - /beginners-guide
   - /tutorial
   - /tutorials
+  - /tutorials/memory
+  - /memory
 recommend: 
 - introduction
 - tutorial
