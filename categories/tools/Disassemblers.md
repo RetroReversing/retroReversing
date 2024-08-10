@@ -272,12 +272,57 @@ This code can then be reviewed, analyzed, or modified by the user.
 # Types of Disassemblers
 
 There are different types of disassemblers, each with its specific use cases and features:
+* **Static Disassemblers** - analyze the binary without executing it
+* **Dynamic Disassemblers** - analyzes the machine code of a program during its execution
 
-- **Static Disassemblers**: These analyze the binary without executing it. They are faster and safer since they don’t run potentially harmful code. However, static disassemblers might struggle with dynamic features of the code, such as self-modifying code or obfuscation techniques.
+## Static Disassemblers
+These analyze the binary without executing it. They are faster and safer since they don’t run potentially harmful code. However, static disassemblers might struggle with dynamic features of the code, such as self-modifying code or obfuscation techniques.
 
-- **Dynamic Disassemblers**: These work alongside a debugger, disassembling code as it is executed. This approach allows the disassembler to handle dynamic code and provides insights into runtime behavior, like changes in control flow and data. However, it requires running the program, which might be risky if the program is malicious.
+## Dynamic Disassemblers
+A dynamic disassembler is a type of disassembler that analyzes the machine code of a program during its execution. Unlike static disassemblers, which analyze code without executing it, dynamic disassemblers observe the actual runtime behavior of the program, providing a real-time view of how instructions are executed, which code paths are taken, and how data is manipulated.
 
-- **Interactive Disassemblers**: Tools like Ghidra and IDA Pro fall into this category. They combine static and dynamic disassembly features, allowing users to interactively explore the code, modify the disassembly, and even execute the code in a controlled environment.
+This approach allows the disassembler to handle dynamic code and provides insights into runtime behavior, like changes in control flow and data. 
+ 
+However, it requires running the program, which might be risky if the program is malicious.
+
+### How Dynamic Disassemblers Work
+
+Dynamic disassemblers function by instrumenting the program as it runs. This can be done in several ways:
+
+- **Binary Instrumentation**: The disassembler inserts additional code (probes) into the binary to monitor the execution of instructions. This method allows the disassembler to collect data such as which instructions are executed, how often they are run, and how they interact with memory and registers.
+  
+- **Emulation**: In some cases, dynamic disassemblers use emulation to simulate the execution of the program in a controlled environment. The disassembler steps through the instructions as they would execute on the actual hardware, allowing for detailed observation of the program’s behavior.
+  
+- **Debugging Interface**: Some dynamic disassemblers leverage the debugging APIs provided by operating systems. By attaching to a running process or launching a program in a debug mode, the disassembler can intercept and analyze instructions as they are executed.
+
+### Advantages of Dynamic Disassemblers
+Dynamic Disassemblers have the following advantages:
+- **Accurate Code Coverage**: Dynamic disassemblers provide a precise view of which parts of the code are actually executed. This is particularly useful for identifying which parts of a binary are dead code (never executed) and which are critical paths.
+- **Handling Obfuscated Code**: Dynamic disassembly is especially effective against obfuscated binaries, where code might be encrypted or packed (compressed) and only revealed at runtime. Since the disassembler observes the code as it executes, it can bypass many obfuscation techniques that would stump a static analysis.
+- **Real-Time Data**: By observing the program in action, dynamic disassemblers can provide insights into how data flows through the program, what inputs lead to specific outputs, and how memory is allocated and accessed. This real-time analysis is invaluable for understanding complex behaviors like dynamic code generation or self-modifying code.
+- **Bypassing Anti-Analysis Techniques**: Some binaries include anti-analysis techniques such as anti-debugging or anti-disassembly measures. Dynamic disassemblers can sometimes bypass these defenses by observing the program after these protections have been deactivated or circumvented at runtime.
+
+---
+### Challenges of Dynamic Disassemblers
+Dynamic Disassemblers have the following challenges:
+- **Performance Overhead**: Because dynamic disassembly involves running the program and monitoring its behavior, it often incurs significant performance overhead. The process can be much slower than static analysis, especially if instrumentation or emulation is used.
+
+- **Partial Coverage**: Dynamic disassembly is dependent on the execution paths taken during analysis. If certain parts of the code are not triggered during the monitored execution, they will not be disassembled. This makes it crucial to ensure comprehensive coverage during analysis, which can be challenging.
+
+- **Complex Setup**: Setting up a dynamic disassembler can be more complex than using a static disassembler. It often requires a controlled environment, such as a sandbox, and careful management of the execution context to avoid unwanted side effects.
+
+---
+### Tools for Dynamic Disassembly
+Several tools offer dynamic disassembly capabilities, often integrating these features with other forms of analysis:
+- **Intel PIN**: A dynamic binary instrumentation framework that allows users to write custom tools (called “pintools”) to analyze programs as they run.
+- **DynamoRIO**: Another dynamic instrumentation framework similar to PIN, allowing for the creation of custom analysis tools.
+- **OllyDbg**: A popular debugger with dynamic analysis capabilities, commonly used for reverse engineering.
+- **Ghidra**: While primarily a static disassembler, Ghidra can be integrated with dynamic analysis tools and debuggers to provide dynamic disassembly capabilities.
+- **QEMU**: An open-source processor emulator that can be used for dynamic analysis by simulating the execution of binaries on various CPU architectures.
+
+
+## Interactive Disassemblers
+Tools like Ghidra and IDA Pro fall into this category. They combine static and dynamic disassembly features, allowing users to interactively explore the code, modify the disassembly, and even execute the code in a controlled environment.
 
 ---
 # Challenges in Disassembly
