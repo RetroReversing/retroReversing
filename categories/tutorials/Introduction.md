@@ -426,33 +426,33 @@ Instead of passing large arrays or structures to functions (which is slow), you 
 ---
 # Lesson 7 - Functions
 
-### Function Calling Convensions
+## Function Calling Convensions
 Function calling conventions are rules that define how functions receive parameters, return results, and manage memory during a call.
 
 Conventions specify whether function arguments are passed in registers (fast) or on the stack (slower) and decide which registers are used for passing parameters. Often, a special register (like eax in x86 architecture) is used to hold the return value.
 
 Conventions also decide who is responsible for cleaning up the stack after the function call either the caller of the function or the callee.
 
-#### cdecl (C Declaration)
+### cdecl (C Declaration)
 **cdecl** (short for **"C Declaration"**) is a calling convention used in C and C++ programming that specifies:
 - **Arguments**: Passed on the stack from right to left.
 - **Cleanup**: The caller cleans up the stack after the function returns.
 - **Return Value**: Typically returned in the `eax` register.
 
-#### stdcall
+### stdcall
 **stdcall** is a calling convention used in Windows programming that specifies:
 
 - **Arguments**: Passed on the stack from right to left.
 - **Cleanup**: The callee (the called function) cleans up the stack after the function returns.
 - **Return Value**: Typically returned in the `eax` register.
 
-#### fastcall
+### fastcall
 **fastcall** is a calling convention designed to improve the performance of function calls by reducing the overhead associated with passing arguments and handling stack operations.
 - **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g., ecx and edx on x86), with additional arguments on the stack.
 - **Cleanup**: The callee cleans up the stack.
 - **Return Value**: Typically returned in the eax register.
 
-#### thiscall
+### thiscall
 thiscall is a calling convention used primarily for C++ member functions. It is designed to handle the specific needs of methods that operate on objects (i.e., functions that are part of a class).
 
 - **Arguments**: Used primarily for C++ member functions.
@@ -462,10 +462,10 @@ thiscall is a calling convention used primarily for C++ member functions. It is 
 - **Return Value**: Typically returned in the eax register.
 
 ---
-### Function Prologue and Epilogue
+## Function Prologue and Epilogue
 Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. These tend to be fairly standard as they are created by the compiler.
 
-#### Function Prologue
+### Function Prologue
 The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
 
   **Example (x86 Architecture)**:
@@ -475,7 +475,7 @@ The prologue is the sequence of instructions at the beginning of a function that
   sub esp, 0x10   ; Allocate 16 bytes of stack space for local variables
   ```
 
-#### Function Epilogue
+### Function Epilogue
 The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
 
   **Example (x86 Architecture)**:
@@ -484,6 +484,114 @@ The epilogue is the sequence of instructions at the end of a function that clean
   pop ebp         ; Restore the base pointer
   ret             ; Return to the caller
   ```
+
+---
+## System Calls
+System calls are functions provided by the operating system that allow programs to interact with hardware and system resources, like reading files, creating processes, or communicating over networks. They act as a bridge between user-level applications and the core functions of the operating system.
+
+Here are simple examples of making a system call in assembly on Windows, Linux, and macOS.
+
+### Windows (x86) System Call Example
+In Windows, system calls can be made directly using two different methods depending on which version of windows:
+- **`int 0x2e`**: This interrupt vector was historically used to invoke system calls by placing the syscall number in `eax` and issuing the interrupt. This method is deprecated and replaced by `SYSENTER`.
+- **`SYSENTER`**: This instruction is optimized for making system calls on modern x86 processors. Windows sets up the MSRs (Model-Specific Registers) required for `SYSENTER` during boot, so user-mode applications don't need to manage them. However, this approach is not documented for use in applications and is generally intended for internal OS use.
+
+Directly invoking system calls using `int 0x2e` or `SYSENTER` is highly discouraged in normal application development due to the risk of instability and compatibility issues across different Windows versions. Instead, using the Windows API (like `ExitProcess`) is the recommended and supported approach.
+
+#### Using `int 0x2e` (pre-Windows XP)
+
+The `int 0x2e` interrupt was used in older versions of Windows (pre-Windows XP) to invoke system calls directly. Here's an example:
+
+```assembly
+section .data
+    ; No data needed for this simple example
+
+section .text
+    global _start
+
+_start:
+    ; System call: NtTerminateProcess (similar to ExitProcess)
+    ; System call number: 0x29 (varies by Windows version)
+    ; Parameters:
+    ;  - eax: system call number
+    ;  - ebx: handle to process (0 for current process)
+    ;  - ecx: exit code (0 for success)
+
+    mov eax, 0x29            ; system call number for NtTerminateProcess
+    xor ebx, ebx             ; current process
+    xor ecx, ecx             ; exit code 0
+    int 0x2e                 ; invoke system call
+```
+
+#### Using SYSENTER (Modern Method)
+
+`SYSENTER` is a fast system call instruction introduced with Intel's Pentium II processors and is used internally by Windows for system calls on newer systems. This approach requires setting up specific registers before the `SYSENTER` instruction is executed:
+
+```assembly
+section .data
+    ; No data needed for this simple example
+
+section .text
+    global _start
+
+_start:
+    ; System call: NtTerminateProcess (similar to ExitProcess)
+    ; System call number: 0x29 (varies by Windows version)
+    ; Parameters:
+    ;  - eax: system call number
+    ;  - edx: address of the system call table (set by the OS, usually in kernel mode)
+    ;  - ebx: handle to process (0 for current process)
+    ;  - ecx: exit code (0 for success)
+    
+    mov eax, 0x29            ; system call number for NtTerminateProcess
+    xor ebx, ebx             ; current process
+    xor ecx, ecx             ; exit code 0
+    mov edx, esp             ; load stack pointer into edx (just for demonstration)
+    sysenter                 ; fast system call entry
+```
+
+
+### Linux (x86) System Call Example
+Linux allows direct access to system calls using the `int 0x80` instruction:
+
+```assembly
+section .data
+    ; No data needed for this simple example
+
+section .text
+    global _start
+
+_start:
+    ; syscall: sys_exit
+    ; syscall number: 1
+    ; parameters:
+    ;  - ebx: exit code (0 for success)
+    
+    mov eax, 1               ; syscall number for sys_exit
+    xor ebx, ebx             ; exit code 0
+    int 0x80                 ; invoke system call
+```
+
+### macOSX (x86_64) System Call Example
+macOSX uses a different set of registers and the `syscall` instruction for system calls:
+
+```assembly
+section .data
+    ; No data needed for this simple example
+
+section .text
+    global _start
+
+_start:
+    ; syscall: exit
+    ; syscall number: 0x2000001
+    ; parameters:
+    ;  - rdi: exit code (0 for success)
+    
+    mov rax, 0x2000001       ; syscall number for exit
+    xor rdi, rdi             ; exit code 0
+    syscall                  ; invoke system call
+```
 
 ---
 ## Random Number Generation (RNG)
