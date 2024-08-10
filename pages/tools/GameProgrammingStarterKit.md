@@ -67,9 +67,11 @@ The physical book that was included this time was the **Second** Edition of **Ga
 ---
 ## Version 5.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit5.0.jpg" />
-The Fifth version was released in 2001 by **Pearson Software** but we don't currently know what was on the CDs. We can presume it has Version 8 of DirectX and most likely the same Introductory Edition of Visual C++ 6.0 as the previous versions.
+The Fifth version was released in 2001 by **Pearson Software** and thanks to someone scanning and uploading the User Manual for version 5.0 we know what was on the three CDs [^2]:
+* Microsoft Visual C++ Introductory Edition 6
+* Microsoft DirectX 8 SDK
+* **3D GameStudio Standard** version 5.12 [^1]
 
-It also may have included software called **3D GameStudio Standard** version 5.12 but this is only confirmed by one source [^1].
 
 We know that one of the eBooks included on the CDs was:
 * Tricks of the Windows Game Programming Gurus
@@ -86,3 +88,4 @@ Did it include a **Fourth** edition of **Game Design Secrets of the Sages**? Who
 ---
 # References
 [^1]: [Game Programming Starter 5.0](https://www.gamedeveloper.com/pc/macmillan-software-releases-game-programming-starter-kit-5-0)
+[^2]: [Starter Kit 5.0 user Manual](https://archive.org/details/game-programming-starter-kit-5.0-user-manual/page/n1/mode/2up)
