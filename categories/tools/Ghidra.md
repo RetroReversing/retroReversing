@@ -37,6 +37,8 @@ Nintendo 64 games can be slightly harder to reverse due to everything being bund
 ## Gamecube
 Download the Ghidra plugin from [Github](https://github.com/Cuyler36/Ghidra-GameCube-Loader/releases)
 
+## Wii
+A guide for using Ghidra on Wii games is available on [WiiBrew](https://wiibrew.org/wiki/Using_Ghidra_with_the_Wii)
 
 ---
 # All Ghidra Posts
