@@ -226,6 +226,52 @@ For example, common library functions may be recognized by their binary signatur
 
 Disassemblers can use known function signatures (e.g., common library functions) to identify parts of the code. For instance, a call to a `printf` function might help the disassembler understand that the following bytes are format strings or arguments.
 
+---
+### Function Prologue and Epilogue
+Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. Here’s how disassemblers use these elements:
+
+#### Function Prologue
+The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. 
+
+It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
+
+  **Example (x86 Architecture)**:
+  ```assembly
+  push ebp        ; Save the old base pointer
+  mov ebp, esp    ; Set up the new base pointer
+  sub esp, 0x10   ; Allocate 16 bytes of stack space for local variables
+  ```
+
+#### Function Epilogue
+The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
+
+  **Example (x86 Architecture)**:
+  ```assembly
+  mov esp, ebp    ; Restore the stack pointer
+  pop ebp         ; Restore the base pointer
+  ret             ; Return to the caller
+  ```
+
+### How Disassemblers Use Function Prologue
+- **Prologue Signatures**: Disassemblers use the common patterns found in function prologues as signatures to identify the start of functions. For instance, in x86 architecture, the sequence `push ebp` followed by `mov ebp, esp` is a strong indicator that a function begins at that point.
+- **Pattern Matching**: The disassembler scans through the binary looking for these common sequences of instructions. When it identifies a prologue, it marks the address as the start of a new function.
+- **Heuristics**: Some advanced disassemblers use heuristics to deal with variations in prologues. For example, compilers might optimize or slightly modify prologues, so the disassembler uses a combination of pattern matching and heuristics to accurately detect function starts.
+- **Dealing with Variations**: In cases where code is obfuscated or uses unconventional prologues (e.g., custom calling conventions, hand-optimized assembly), disassemblers might struggle to identify functions based on the prologue alone. In these situations, they might rely on additional information, such as function pointers or jump tables, to infer function boundaries.
+
+### How Disassemblers Use Function Epilogue
+- **Epilogue Patterns**: Like prologues, epilogues have typical patterns that disassemblers recognize. The presence of a `mov esp, ebp` followed by a `pop ebp` and `ret` is a strong indicator of the end of a function.
+- **Multiple Return Points**: Functions can have multiple exit points (e.g., due to early returns), so disassemblers look for any `ret` instructions within the function and consider them potential function ends. The disassembler might map multiple epilogues to the same function start, recognizing them as different branches of the same function.
+- **Verifying Function Boundaries**: By detecting epilogues, the disassembler can more accurately delineate where one function ends and another begins. This reduces the risk of incorrectly interpreting code sequences as part of the same function.
+- **Control Flow Graph (CFG) Construction**: Identifying epilogues helps in constructing accurate control flow graphs, as it allows the disassembler to correctly map out all the possible paths through a function, including all return points.
+- **Function Signature Matching**: Once a disassembler identifies function prologues and epilogues, it can match these functions against a database of known functions (e.g., from standard libraries). This is helpful in reverse engineering to recognize standard library functions or well-known algorithms.
+- - **Manual Disassembly and Correction**: In interactive disassemblers, users can manually adjust function boundaries if the disassembler’s automatic analysis fails, using their knowledge of prologue and epilogue patterns.
+
+#### Challenges with using Function Prologue and Epilogue
+- **Custom Calling Conventions**: In some cases, especially in hand-written assembly or highly optimized code, functions may not follow standard prologue/epilogue patterns. Disassemblers must use more sophisticated analysis, such as analyzing control flow or function call patterns, to identify these functions.
+- **Optimizations and Inlining**: Modern compilers often optimize code in ways that can obscure traditional prologue and epilogue patterns. For instance, a function might be inlined, meaning its code is inserted directly into the calling function without any prologue or epilogue. Disassemblers need to handle these cases carefully, often relying on other indicators to identify function boundaries.
+- **Inline Functions**: When functions are inlined by the compiler, the typical prologue and epilogue patterns are absent. Disassemblers need to recognize that certain code blocks belong to an inlined function, even if they lack the usual signatures.
+- **Tail Call Optimization (TCO)**: In TCO, the compiler replaces a function’s epilogue with a jump to another function, eliminating the `ret` instruction. Disassemblers must recognize this pattern to correctly identify the function boundary.
+
 
 ---
 ## Step 5 - Handling Data Sections
