@@ -32,7 +32,9 @@ The first version was released in 1994 by Andre LaMothe and published by Sams, i
 
 It also claims to have a full 2D DOS game engine on the CDs but we don't know much information about it.
 
+---
 ## Version 2.0
+<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit2.0.jpg" />
 The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severely lacking.
 
 ---
