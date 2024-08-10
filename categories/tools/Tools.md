@@ -110,7 +110,7 @@ Disassemblers are crucial for breaking down compiled game code back into human-r
 - **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
 - **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
 
-{% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+{% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
 ---
 ## Debuggers
@@ -133,6 +133,9 @@ Decompilers attempt to convert executable code back into a higher-level programm
 - **Reko**: An open-source decompiler designed for multiple architectures and file formats.
 - **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
 - **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
+
+{% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
+
 
 ## File Format Analyzers
 Understanding game-specific file formats is crucial for modifying assets and extracting valuable information. These tools help analyze and manipulate proprietary file formats used in games.
