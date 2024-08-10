@@ -336,6 +336,8 @@ Each CPU has a number of built in registers which can each store a set number of
 Almost all CPUs have special registers that are designated for a particular purpose, one common example is the Program Counter which basically stores the location of the next instruction to execute on the CPU.
 
 ---
+# Lesson 6 - Memory
+
 ## The Stack
 But what happens when you want to store more data than the limited number of registers available on the CPU? 
 This is where the computers RAM comes in, no matter how simple your console or PC is it will have some sort of RAM available and is used to store data such as the players X and Y Position.
@@ -354,7 +356,6 @@ The stack grows backwards (from high to low memory addresses) to efficiently sep
 The CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an additional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
 ---
-
 ## The Heap
 
 When you need to store more data than the stack can handle or require memory that persists longer than a single function call, the heap comes into play. The heap is another part of your computer's RAM, used for dynamic memory allocation, such as storing large objects, game assets, or variables that need to exist throughout the program's execution.
@@ -384,8 +385,11 @@ This allows you to dynamically allocate space when needed and release it when it
 
 Interacting with the heap in assembly language typically involves system calls or interrupts to request memory from the operating system. Unlike the stack, which is managed directly by the CPU with specific instructions, the heap requires explicit requests for memory allocation and deallocation. 
 
+## Pointers
+Instead of passing large arrays or structures to functions (which is slow), you can pass their address. This is faster and allows the function to modify the original data without needing to return the whole structure. That address when saved into a variable is called a pointer, as it points to data.
+
 ---
-## Functions
+# Lesson 7 - Functions
 
 ### Function Calling Convensions
 Function calling conventions are rules that define how functions receive parameters, return results, and manage memory during a call.
