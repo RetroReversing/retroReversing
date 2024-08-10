@@ -266,6 +266,15 @@ Assembly language is a low-level programming language that's a step above the bi
 
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
+### How do I convert my game into assembly language?
+The process of taking a final game executable/ROM and converting it into human readable Assembly language is called disassembling.
+
+You need to choose a Disassembler that works for your game's Instruction Set Architecture (ISA), this will depend on which console or PC your game is compiled for.
+
+We have a seperate post covering how disassemblers work below:
+{% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
+
+
 ### Do I need to learn Assembly Language for reversing?
 You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
 For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
