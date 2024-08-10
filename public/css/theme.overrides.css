@@ -54,6 +54,12 @@ body {
   display: unset;
 }
 
+/* Set width static to avoid page layout shifting */
+.widget-img img {
+  width: 260px;
+}
+  
+
 .card-video, .card-video .card-img {
   width: 320px;
   height: auto;
