@@ -39,7 +39,7 @@ The Second version was released in 1997 by Macmillan Digital Publishing but I ha
 
 ---
 ## Version 3.0
-<img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit3.0.jpg" />
+<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/9954b0f1-fa55-40ad-bebc-ac88e09a5096">
 The Third version was released in 1999 by Macmillan Digital Publishing and consisted of 3 CDs and the full physical copy of **Game Design Secrets of the Sages**! 
 
 It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
@@ -49,6 +49,14 @@ This time it contained three ebooks on the Disks:
 * C++ Unleashed
 * Teach Yourself Visual C++ 6 in 21 Days
 * Using Visual C++ 6
+
+### The CDs
+<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/cd684d17-8f15-42a7-b7ac-d002d5378e3a">
+
+<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/5f4723fb-cdc8-48ac-915a-a6a0d178208a">
+
+<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/c973474a-87c0-4980-b81f-b0ec516f3aac">
+
 
 ---
 ## Version 4.0
