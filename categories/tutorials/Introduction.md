@@ -354,9 +354,6 @@ The stack grows backwards (from high to low memory addresses) to efficiently sep
 The CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an additional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
 ---
-Sure, here’s a similar explanation for the heap:
-
----
 
 ## The Heap
 
@@ -381,10 +378,6 @@ Most programming languages provide functions or operators to allocate and free m
 This allows you to dynamically allocate space when needed and release it when it’s no longer required, making the heap a powerful tool for managing memory in complex programs.
 
 Interacting with the heap in assembly language typically involves system calls or interrupts to request memory from the operating system. Unlike the stack, which is managed directly by the CPU with specific instructions, the heap requires explicit requests for memory allocation and deallocation. 
-
----
-
-This explanation mirrors the style and structure of the information about the stack you provided, focusing on simplicity and clarity.
 
 ---
 ## Function Prologue and Epilogue
