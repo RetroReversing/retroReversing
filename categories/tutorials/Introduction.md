@@ -17,6 +17,8 @@ redirect_from:
   - /intro
   - /tutorial/intro
   - /beginners-guide
+  - /tutorial
+  - /tutorials
 recommend: 
 - introduction
 - tutorial
