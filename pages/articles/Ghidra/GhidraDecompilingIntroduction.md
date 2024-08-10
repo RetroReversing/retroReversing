@@ -26,7 +26,9 @@ updatedAt: '2019-09-01'
 
 # Introduction
 
-This tutorial series will guide you through the basics of decompiling a C++ executable, from setup all the way to reversing C++ classes. The video tutorial is created by James Tate over on his excellent YouTube channel, and it is highly recommended that you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w).
+This tutorial series will guide you through the basics of decompiling a C++ executable, from setup all the way to reversing C++ classes. 
+
+The video tutorial is created by James Tate over on his excellent YouTube channel, and it is highly recommended that you subscribe here: [James Tate - YouTube](https://www.youtube.com/channel/UCwSxJ5kXVFPWi6fYuj6o78w).
 
 ## Download and Run Ghidra
 
@@ -68,7 +70,9 @@ Select `Non-Shared project`, give it a name such as `Example` and click Finish.
 
 ## Obtaining Your Binary Executable to Reverse
 
-To follow along in this tutorial, you can either compile the sample code provided or download the pre-compiled executables. Both are available on James's GitHub repository: [GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource).
+To follow along in this tutorial, you can either compile the sample code provided or download the pre-compiled executables. 
+
+Both are available on James's GitHub repository: [GitHub - james-tate/ghidraExampleSource](https://github.com/james-tate/ghidraExampleSource).
 
 Note that there are two pre-compiled executables in this repository: one is stripped (which means it doesn't have any debug symbols) and the other is standard.
 
