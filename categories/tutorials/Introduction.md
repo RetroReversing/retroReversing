@@ -342,12 +342,16 @@ This is where the computers RAM comes in, no matter how simple your console or P
 
 So how do we read and write data to this RAM? One simple way of saving and loading data is with something called the Stack.
 
-### What is thr Stack?
+### What is the Stack?
 You can think of the stack like a deck of cards, you can add new cards only to the top of the deck which represents writing to the stack. For reading data from the stack you can only take the top most card, which is also the most recently written piece of data.
 
 Although unlike a deck of cards when you add more data the address of the data goes downwards instead of upwards, so if the first element in a stack is at position 10 then when you add another byte of data its address would be 9.
 
-In fact the CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
+### Why does the Stack grow backwards?
+The stack grows backwards (from high to low memory addresses) to efficiently separate it from the heap, which grows in the opposite direction. This allows both to expand without quickly running into each other, making better use of available memory.
+
+### How do you interact with the stack?
+The CPU has designated instructions to read and write from the stack, often called `push` and `pop`. Where push adds an aditional piece of data to the stack and pop removes the most recently added data from the stack of data.
 
 ---
 ## Function Prologue and Epilogue
