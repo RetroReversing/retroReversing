@@ -266,6 +266,44 @@ Assembly language is a low-level programming language that's a step above the bi
 
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
+### Do I need to learn Assembly Language for reversing?
+You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
+For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
+
+The best way is to learn as you go and use the Internet as a reference when you need to know what an instruction does.
+
+However there are a few basics that you should know before getting your hands dirty and these apply to the Assembly language used in most retro video game consoles. These will be covered in the next few sections.
+
+
+### What Assembly language Should I learn?
+It depends on the platform (specifically CPU) that your game was built for, here are some examples:
+* **Z80 Assembly Language** - Game Boy, Sega Master System, Sega Game Gear
+* **6502 Assembly Language** - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
+* **Motorola 68000 Assembly Language** - Sega Mega Drive
+* **MIPS Assembly Language** - Sony Playstation 1, Sony Playstation 2, Sony PSP, Nintendo 64
+* **SuperH Assembly Language** - Sega Saturn, Sega Dreamcast
+* **ARM Assembly Language** - Game Boy Advance, Nintendo DS, Nintendo 3DS, iPhone, Android
+* **PowerPC Assembly Language** - Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony Playstation 3
+* **Intel x86 Assembly Language** - Microsoft Xbox
+
+Note that the above are the rough groups, some specific CPUs have more specialised instructions that are exclusive to that console, but mostly its the same programming language.
+
+### How similar are Instruction Set Architectures
+Here is a simple comparison table that highlights some key differences between different CPU Instruction Set Architectures (ISA). Please note that this table is not exhaustive and focuses on high-level distinctions:
+
+| ISA         | Example Instructions | Number of Registers | Memory Addressing Modes | Complex Instructions | Endianness |
+|-------------|----------------------|---------------------|-------------------------|-----------------------|------------|
+| Z80         | ADD, SUB, MOV        | 8 General Purpose  | Immediate, Direct, Indexed, Register Indirect | Conditional Jumps, Bit Manipulation | Little-Endian |
+| 6502        | ADC, LDA, STA        | 3 General Purpose  | Zero Page, Absolute, Indexed, Indirect | None                  | Little-Endian |
+| 68K         | ADD, SUB, MOVE       | 16 General Purpose | Register Direct, Immediate, Memory Indirect | Multiply, Divide, Bit Manipulation | Big-Endian |
+| MIPS        | ADD, SUB, LW         | 32 General Purpose | Immediate, Register Direct, Base + Offset | Load/Store, Multiply, Divide | Big-Endian |
+| x86         | ADD, SUB, MOV        | 8 General Purpose  | Register Direct, Immediate, Memory Indirect | Complex Arithmetic, SIMD | Little-Endian |
+| ARM         | ADD, SUB, LDR        | 16 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Little-Endian |
+| SuperH      | ADD, SUB, MOV        | 16 General Purpose | Immediate, Register Direct, Memory Indirect | Multiply, Divide, Bit Manipulation | Little-Endian |
+| PowerPC     | ADD, SUB, LWZ        | 32 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Big-Endian |
+
+This table provides a broad overview of these architectures, but there are many more details and specific instructions within each ISA. The number of registers, addressing modes, and the availability of complex instructions can significantly vary even within a single architecture, and the choice of endianness (byte order) can have important implications for software compatibility. For a deep dive into any of these ISAs, you would typically need to consult the official documentation or specific resources for each architecture.
+
 ### How do I convert my game into assembly language?
 The process of taking a final game executable/ROM and converting it into human readable Assembly language is called disassembling.
 
@@ -274,14 +312,7 @@ You need to choose a Disassembler that works for your game's Instruction Set Arc
 We have a seperate post covering how disassemblers work below:
 {% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
-
-### Do I need to learn Assembly Language for reversing?
-You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
-For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
-
-The best way is to learn as you go and use the Internet as a reference when you need to know what an instruction does.
-
-However there are a few basics that you should know before getting your hands dirty and these apply to the Assembly language used in most retro video game consoles. These will be covered in the next few sections.
+## CPU Internals
 
 ### The No Operation Instruction (NOP)
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
@@ -316,35 +347,6 @@ While a CPU diligently follows every instruction it receives, this unwavering pr
 One elegant solution involves a Random Number Generator (RNG) that relies on the timing of user input. The CPU continuously increments a counter until the player presses a button. With the timing of button presses being entirely unpredictable, the CPU uses this ever-evolving count to generate random numbers. This injects a vital element of surprise and distinctiveness into every gaming session.
 
 This technique is frequently employed in early games, especially when other random seeds, like the current time in milliseconds, which is guaranteed to be unique but somewhat predictable, are unavailable.
-
-### What Assembly language Should I learn?
-It depends on the platform (specifically CPU) that your game was built for, here are some examples:
-* **Z80 Assembly Language** - Game Boy, Sega Master System, Sega Game Gear
-* **6502 Assembly Language** - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
-* **Motorola 68000 Assembly Language** - Sega Mega Drive
-* **MIPS Assembly Language** - Sony Playstation 1, Sony Playstation 2, Sony PSP, Nintendo 64
-* **SuperH Assembly Language** - Sega Saturn, Sega Dreamcast
-* **ARM Assembly Language** - Game Boy Advance, Nintendo DS, Nintendo 3DS, iPhone, Android
-* **PowerPC Assembly Language** - Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony Playstation 3
-* **Intel x86 Assembly Language** - Microsoft Xbox
-
-Note that the above are the rough groups, some specific CPUs have more specialised instructions that are exclusive to that console, but mostly its the same programming language.
-
-### How similar are Instruction Set Architectures
-Here is a simple comparison table that highlights some key differences between different CPU Instruction Set Architectures (ISA). Please note that this table is not exhaustive and focuses on high-level distinctions:
-
-| ISA         | Example Instructions | Number of Registers | Memory Addressing Modes | Complex Instructions | Endianness |
-|-------------|----------------------|---------------------|-------------------------|-----------------------|------------|
-| Z80         | ADD, SUB, MOV        | 8 General Purpose  | Immediate, Direct, Indexed, Register Indirect | Conditional Jumps, Bit Manipulation | Little-Endian |
-| 6502        | ADC, LDA, STA        | 3 General Purpose  | Zero Page, Absolute, Indexed, Indirect | None                  | Little-Endian |
-| 68K         | ADD, SUB, MOVE       | 16 General Purpose | Register Direct, Immediate, Memory Indirect | Multiply, Divide, Bit Manipulation | Big-Endian |
-| MIPS        | ADD, SUB, LW         | 32 General Purpose | Immediate, Register Direct, Base + Offset | Load/Store, Multiply, Divide | Big-Endian |
-| x86         | ADD, SUB, MOV        | 8 General Purpose  | Register Direct, Immediate, Memory Indirect | Complex Arithmetic, SIMD | Little-Endian |
-| ARM         | ADD, SUB, LDR        | 16 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Little-Endian |
-| SuperH      | ADD, SUB, MOV        | 16 General Purpose | Immediate, Register Direct, Memory Indirect | Multiply, Divide, Bit Manipulation | Little-Endian |
-| PowerPC     | ADD, SUB, LWZ        | 32 General Purpose | Immediate, Register Direct, Base + Offset | SIMD, Multiply, Divide | Big-Endian |
-
-This table provides a broad overview of these architectures, but there are many more details and specific instructions within each ISA. The number of registers, addressing modes, and the availability of complex instructions can significantly vary even within a single architecture, and the choice of endianness (byte order) can have important implications for software compatibility. For a deep dive into any of these ISAs, you would typically need to consult the official documentation or specific resources for each architecture.
 
 ---
 ## What is an emulator and how does it work?
