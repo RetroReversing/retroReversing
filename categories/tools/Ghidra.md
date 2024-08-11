@@ -53,6 +53,15 @@ Download the Ghidra plugin from [Github](https://github.com/VGKintsugi/Ghidra-Se
 Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_sdc_ldr)
 Also for GDI support in Ghidra: [Github](https://github.com/hazzaaclark/gdiGhidra)
 
+## Original Xbox
+Download the Ghidra plugin from [Github](https://github.com/XboxDev/ghidra-xbe)
+
+## Xbox 360
+Download the Ghidra plugin from [Github](https://github.com/zeroKilo/XEXLoaderWV)
+
+## Playstation 1
+Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_psx_ldr)
+
 ---
 # All Ghidra Posts
 <div>
