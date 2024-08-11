@@ -23,6 +23,19 @@ There is no better way to start out the hobby reverse engineering than learning 
 
 # Console Plugins
 
+## Nintendo Game Boy
+Download the Ghidra plugin from [Github](https://github.com/Gekkio/GhidraBoy)
+
+## Nintendo Game Boy Advance
+Download the Ghidra plugin from [Github](https://github.com/pudii/gba-ghidra-loader)
+
+An excellent guide for decompiling GBA games using Ghidra and mGBA is available on [Starcubelabs](https://www.starcubelabs.com/reverse-engineering-gba/)
+
+Another excellent guide is on [wrongbaud](https://wrongbaud.github.io/posts/ghidra-debugger/)
+
+## Nintendo DS
+Download the Ghidra plugin from [Github](https://github.com/pedro-javierf/NTRGhidra)
+
 ## Nintendo Entertainment System
 Download the Ghidra plugin from [Github](https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin/releases/tag/2021-09-23.3)
 
@@ -65,6 +78,12 @@ Also for a guide for using Ghidra for PS1 reversing: [tokimeki-memorial](https:/
 
 ## Playstation 2
 Download the Ghidra plugin from [Github](https://github.com/chaoticgd/ghidra-emotionengine-reloaded)
+
+## Playstation 3
+There are a few useful script for working with PS3 executables on [Github](https://github.com/clienthax/Ps3GhidraScripts)
+
+## Playstation Portable
+Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 
 ---
 # All Ghidra Posts
