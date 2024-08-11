@@ -40,6 +40,19 @@ Download the Ghidra plugin from [Github](https://github.com/Cuyler36/Ghidra-Game
 ## Wii
 A guide for using Ghidra on Wii games is available on [WiiBrew](https://wiibrew.org/wiki/Using_Ghidra_with_the_Wii)
 
+## Sega Master System/Game gear
+Download the Ghidra plugin from [Github](https://github.com/VGKintsugi/Ghidra-SegaMasterSystem-Loader)
+
+## Sega Mega Drive/Genesis
+Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_sega_ldr)
+
+## Sega Saturn
+Download the Ghidra plugin from [Github](https://github.com/VGKintsugi/Ghidra-SegaSaturn-Loader)
+
+## Sega Dreamcast
+Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_sdc_ldr)
+Also for GDI support in Ghidra: [Github](https://github.com/hazzaaclark/gdiGhidra)
+
 ---
 # All Ghidra Posts
 <div>
