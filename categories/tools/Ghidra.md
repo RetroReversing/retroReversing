@@ -50,6 +50,23 @@ Nintendo 64 games can be slightly harder to reverse due to everything being bund
 ## Gamecube
 Download the Ghidra plugin from [Github](https://github.com/Cuyler36/Ghidra-GameCube-Loader/releases)
 
+Note that to build the GameCubeLoader you will need to have gradle version 7 or below installed otherwise you will get an error similar to:
+```
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file './Ghidra-GameCube-Loader/build.gradle' line: 63
+
+* What went wrong:
+A problem occurred evaluating root project 'GameCubeLoader'.
+> Adding a Configuration as a dependency is no longer allowed as of Gradle 8.0.
+```
+
+On Mac OSX you can install an older version of Gradle using brew:
+```bash
+brew install gradle@7
+```
+
 ## Wii
 A guide for using Ghidra on Wii games is available on [WiiBrew](https://wiibrew.org/wiki/Using_Ghidra_with_the_Wii)
 
