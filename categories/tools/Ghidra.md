@@ -37,7 +37,11 @@ Another excellent guide is on [wrongbaud](https://wrongbaud.github.io/posts/ghid
 Download the Ghidra plugin from [Github](https://github.com/pedro-javierf/NTRGhidra)
 
 ## Nintendo Entertainment System
-Download the Ghidra plugin from [Github](https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin/releases/tag/2021-09-23.3)
+Download the Ghidra plugin from [Github]([https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin/releases/tag/2021-09-23.3](https://github.com/kylewlacy/GhidraNes/releases))
+
+It even has multiple builds setup for each Ghidra version via Github Workflows!
+
+Note that there was another older Ghidra plugin called **Ghidra-Nes-Rom-Decompiler-Plugin** however it failed to build against latest Ghidra (11.1.2).
 
 ## Super Nintendo
 There is only one Ghidra plugin for SNES but it is currently not under active development you can get it from [Github](https://github.com/achan1989/ghidra-snes-loader)
