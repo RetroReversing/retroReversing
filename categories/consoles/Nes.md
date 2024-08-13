@@ -221,6 +221,15 @@ The formats for NES ROMS (virtual cartridges) are:
 The website **Grid Bugs** has written an excellent article on reverse engineering the NES version of Tetris to add functionality to the game called a **Hard Drop**. Check it out here:
 [Reverse-Engineering NES Tetris to add Hard Drop](https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/)
 
+---
+## Emulating NES games in Ghidra with pCode
+Ghidra uses pcode as an intermediate representation of machine code, enabling more abstract analysis and manipulation of binary instructions across different processor architectures during the reverse engineering process.
+
+Ghidra provides a built-in emulator that can execute pcode, which has been put to good use in the [ghidra-plays-mario Github project](https://github.com/nevesnunes/ghidra-plays-mario?tab=readme-ov-file). Where they have taken the cpu emulation out of **smolnes** emulator and replaced it with the Ghidra pcode emulation and it plays the first level of Mario!
+
+This isn't a realistic way to play the game, it uses pre-recorded inputs, but it is an excellent want to test Ghidra's `pcode` emulation! Allowing bugs to be found which when fixed will benefit all NES reversing projects.
+
+---
 ## Opening NES ROMs with Ghidra
 Ghidra doesn't have support out of the box for NES ROM reverse engineering so we need to use a plugin created by **ilyakharlamov** available here:
 [ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin: Ghidra NES / Famicom ROM Decompiler Plugin](https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin)
