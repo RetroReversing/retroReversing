@@ -267,6 +267,17 @@ Now when you go to `Import File` and select a .nes ROM file you should get the f
 Now after import you should be able to decompile any function you want as long as the Mapper is supported in the NES Plugin (currently only Mapper 0):
 ![NESDecompile](https://user-images.githubusercontent.com/40120498/235525315-360f63fb-2203-41c2-bd95-9e1f68df8c6f.jpeg)
 
+---
+## Reversing Super Mario Bros with Ghidra
+Super Mario Bros is an excellent game to use to learn Ghidra and how to reverse NES roms, as there is already documentation and disassembly on the web. So you can practise using Ghidra and use the Mario Bros disassembly [here](https://gist.github.com/1wErt3r/4048722) to check your work!
+
+First make sure to open the Super Mario Bros. (World).nes rom (MD5: 811b027eaf99c2def7b933c5208636de) with Ghidra and the GhidraNes plugin as shown in the previous guide.
+
+Now you will notice that it has detected about 36 functions, along with some already named like reset and vblank:
+
+If you start at the top of the Ghidra Disassembly window you can start to name them based on the dissassembly file [here](https://gist.github.com/1wErt3r/4048722).
+
+Note that normally you won't have all the symbol names given to you like this for ROMS that have not yet been disassembled by the community, we are just using this as an example to teach the basics of Ghidra.
 
 ---
 # All Posts
