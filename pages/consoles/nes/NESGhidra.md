@@ -185,6 +185,9 @@ Now it will appear along side all its other friends in the function panel for ea
 You will also notice that after marking the bytes as disassemblable, Ghidra has managed to find even more functions by itself (up to 168 now).
 
 ---
+
+
+## Using the Kayboard Shortcuts
 At this point you should be able to go through the rest of the file and you can use the following table of keyboard shortcuts to save time:
 
 Keyboard Key | Purpose
@@ -192,3 +195,10 @@ Keyboard Key | Purpose
 F | Create a Function
 L | Name/Rename a Label or Function
 D | Disassemble
+[ | Create an Array
+
+This exercise will really make you appreciate how big a game disassembly is, how many labels need to be discovered and named.
+
+Bare in mind you need to find out what the code does in the first place to be able to name them!
+
+So its a very time consuming task starting a full disassembly project (never mind a decompilation).
