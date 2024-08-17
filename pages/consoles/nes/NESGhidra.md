@@ -97,5 +97,27 @@ You can leave this code as it is but if you want it to look like the original di
 You can Right click and select **Clear Code Bytes** or just press C, this will mark it back to data. Then right click 0x8223 and select **Disassemble** to see the LDY instruction. In the end it should look like this:
 ![image](https://github.com/user-attachments/assets/a761e376-0b05-4902-bbc5-166e31e51e06)
 
+## Defining Missing code and labels
+Keep going through the disassembly until after you have named **SprInitLoop** and you will notice that after the RTS Ghidra just thinks there is data:
+![image](https://github.com/user-attachments/assets/9a291e36-0cbe-4abf-804a-f8bec0cb03da)
+
+However the community disassembly knows this is a label called **TitleScreenMode** with some assembly code in it.
+
+It is easy to tell Ghidra that this is code in the same way you did above, by right clicking 0x8231 and select **Disassemble** or just **pressing D on the keyboard**.
+
+But you will notice that it didn't auto add a label to this code, because Ghidra has no idea it has been called and where it has been called.
+
+You can give the 0x8231 address a label by pressing L in the same way we have been renaming labels before.
+
+it should now look like this:
+![image](https://github.com/user-attachments/assets/9d35da14-df61-45cf-bbed-814d6b470737)
+
+
+## Defining data types
+Now you will notice that the [community disassembly](https://gist.github.com/1wErt3r/4048722) uses the Define Word (.dw) opcodeafter the JSR to join the bytes together into words (2 byte blocks).
+
+We can also do this in Ghidra by right clicking the first byte that you know is actually a Word and select Data -> Word like so:
+![image](https://github.com/user-attachments/assets/23a7fcfa-c4a1-44d3-8f63-1791af76a5ce)
+
 
 
