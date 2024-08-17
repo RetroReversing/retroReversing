@@ -5,9 +5,11 @@ permalink: /nes-ghidra
 tags:
 - nes
 - ghidra
-recommend: nes
+recommend:
+- nes
+- ghidra
 editlink: /consoles/nes/NESGhidra.md
-_updatedAt: '2024-08-17'
+updatedAt: '2024-08-17'
 ---
 
 
@@ -61,6 +63,7 @@ If you start at the top of the Ghidra Disassembly window you can start to name t
 
 Note that normally you won't have all the symbol names given to you like this for ROMS that have not yet been disassembled by the community, we are just using this as an example to teach the basics of Ghidra.
 
+## Renaming Functions and Labels
 Go to the first function at 0x8000 and you will notice it has already been named as "reset", in the disassembly we are using it was called start so we can rename this to match just for convenience. 
 
 To do this select the **reset** name and **Press the L key on the keyboard**, this will open a dialog asking for the name type in Start like so:
@@ -76,7 +79,23 @@ We can now start from the top of the Ghidra Listing and start re-naming the labe
 
 You now know how to rename a function/label, which will be used all the time when reverse engineering your own ROMS.
 
+## Fixing Incorrect Disassembly
 Now you can keep going down and naming until we get to **MoveAllSpritesOffscreen** where you will notice the community disassembly and the Ghidra auto disassembly listing don't match:
 ![image](https://github.com/user-attachments/assets/38f86f26-111c-4f69-81cd-fa98e2dbe6cd)
+
+We can tell this is wrong as Ghidra put a label 1 byte into what it thinks is the BIT instruction (LAB_8222+1) which should not be possible.
+
+The strange thing is that this doesn't look like valid 6502 assembly, the BIT instruction is normally more than just the opcode (has operands too), but the disassembly just has it as:
+```assembly
+.db $2c // Just the opcode for BIT instruction
+```
+
+This could be an optimisation to keep the number of bytes down, if the program comes from the **MoveAllSpritesOffscreen** label then it will indeed read it as a BIT instruction, however if they go to the **MoveSpritesOffscreen** (LAB_8222+1) label it will be read as a `ldy #$04` instruction.
+
+You can leave this code as it is but if you want it to look like the original disassembly you can use Ghidra features to change it.
+
+You can Right click and select **Clear Code Bytes** or just press C, this will mark it back to data. Then right click 0x8223 and select **Disassemble** to see the LDY instruction. In the end it should look like this:
+![image](https://github.com/user-attachments/assets/a761e376-0b05-4902-bbc5-166e31e51e06)
+
 
 
