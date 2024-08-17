@@ -274,10 +274,32 @@ Super Mario Bros is an excellent game to use to learn Ghidra and how to reverse 
 First make sure to open the Super Mario Bros. (World).nes rom (MD5: 811b027eaf99c2def7b933c5208636de) with Ghidra and the GhidraNes plugin as shown in the previous guide.
 
 Now you will notice that it has detected about 36 functions, along with some already named like reset and vblank:
+![image](https://github.com/user-attachments/assets/ed487352-eed1-4f19-881d-13ea7b021944)
 
 If you start at the top of the Ghidra Disassembly window you can start to name them based on the dissassembly file [here](https://gist.github.com/1wErt3r/4048722).
 
 Note that normally you won't have all the symbol names given to you like this for ROMS that have not yet been disassembled by the community, we are just using this as an example to teach the basics of Ghidra.
+
+Go to the first function at 0x8000 and you will notice it has already been named as "reset", in the disassembly we are using it was called start so we can rename this to match just for convenience. 
+
+To do this select the **reset** name and **Press the L key on the keyboard**, this will open a dialog asking for the name type in Start like so:
+![image](https://github.com/user-attachments/assets/005a86cc-a6d3-46ca-aa47-beecf1da8847)
+
+
+The reason we know this is called Start is because of the `.org $8000` just before the Start label, this means place that function at location 0x8000.
+
+We can now start from the top of the Ghidra Listing and start re-naming the labels to match the disassembly, starting with VBlank1 then VBlank2 etc by pressing L and typing in the name.
+
+![image](https://github.com/user-attachments/assets/0d2b8811-8712-4ffd-a43f-b89ec43b3910)
+
+
+You now know how to rename a function/label, which will be used all the time when reverse engineering your own ROMS.
+
+Now you can keep going down and naming until we get to **MoveAllSpritesOffscreen** where you wil notice the community disassembly and the Ghidra auto disassembly listing don't match:
+![image](https://github.com/user-attachments/assets/38f86f26-111c-4f69-81cd-fa98e2dbe6cd)
+
+
+
 
 ---
 # All Posts
