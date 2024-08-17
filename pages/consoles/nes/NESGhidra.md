@@ -172,5 +172,15 @@ One way is to define them as a Byte Array in Ghidra (Data -> Choose Data Type ->
 Which should result in:
 ![image](https://github.com/user-attachments/assets/ef78b5c0-d9cc-48f5-a244-2f859d30cb2a)
 
+## Defining Functions
+After **WSelectBufferTemplate** You will notice that Ghidra thinks there is just data but the disassembly knows that there should be a function there.
 
+So first at location 0x8245 tell Ghidra to disassemble it as we have done before, and then you will be able to right click the same address and a new option will appear to **Create Function**.
+
+Call the function **GameMenuRoutine** like so:
+![image](https://github.com/user-attachments/assets/483103a0-3b62-4c9f-9ec5-2e45b9ffafd3)
+
+Now it will appear along side all its other friends in the function panel for easy reference.
+
+You will also notice that after marking the bytes as disassemblable, Ghidra has managed to find even more functions by itself (up to 168 now).
 
