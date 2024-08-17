@@ -155,3 +155,22 @@ This means that the 2-Byte Words we are defining are actually locations to funct
 Ghidra's static disassembler was not smart enough to pick this up (would require dynamic disassmbler/runtime information). But we can use this information to tell Ghidra about functions it doesn't know about.
 
 This is why Ghidra only detected about 36 functions by itself, its not because Mario has been implemented in that few functions, it just didn't have enough information to find them.
+
+## Defining Blocks of data
+You will notice in the [community disassembly](https://gist.github.com/1wErt3r/4048722) there are blocks of named data such as WSelectBufferTemplate:
+```
+WSelectBufferTemplate:
+      .db $04, $20, $73, $01, $00, $00
+```
+
+We can name the first byte with a label like we have done previously, but how do we group these bytes together?
+
+One way is to define them as a Byte Array in Ghidra (Data -> Choose Data Type -> Type in `byte[6]`. Or by Data -> Create Array and type in 6 elements then choose the data type after.
+
+![image](https://github.com/user-attachments/assets/4cf8febf-6b22-479a-bff3-f66659eaa0cc)
+
+Which should result in:
+![image](https://github.com/user-attachments/assets/ef78b5c0-d9cc-48f5-a244-2f859d30cb2a)
+
+
+
