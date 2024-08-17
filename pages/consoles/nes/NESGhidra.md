@@ -119,5 +119,39 @@ Now you will notice that the [community disassembly](https://gist.github.com/1wE
 We can also do this in Ghidra by right clicking the first byte that you know is actually a Word and select Data -> Word like so:
 ![image](https://github.com/user-attachments/assets/23a7fcfa-c4a1-44d3-8f63-1791af76a5ce)
 
+## How JumpEngine works (Jump tables)
+Now this is where it is useful to know about one of the functions in the disassembly called **JumpEngine**.
 
+The code is here (copied from the community disassembly):
+```assembly
+;-------------------------------------------------------------------------------------
+;$04 - address low to jump address
+;$05 - address high to jump address
+;$06 - jump address low
+;$07 - jump address high
 
+JumpEngine:
+       asl          ;shift bit from contents of A
+       tay
+       pla          ;pull saved return address from stack
+       sta $04      ;save to indirect
+       pla
+       sta $05
+       iny
+       lda ($04),y  ;load pointer from indirect
+       sta $06      ;note that if an RTS is performed in next routine
+       iny          ;it will return to the execution before the sub
+       lda ($04),y  ;that called this routine
+       sta $07
+       jmp ($06)    ;jump to the address we loaded
+```
+
+This code implements a jump table mechanism using **indirect addressing** to determine which function to execute based on the contents of the accumulator (A), and perform a jump to that routine.
+
+Now remember all the DW (DefineWord) opcodes we just added, these are the functions that get executed by the JumpEngine function based on the Accumulator (A register).
+
+This means that the 2-Byte Words we are defining are actually locations to functions that get jumped to at runtime.
+
+Ghidra's static disassembler was not smart enough to pick this up (would require dynamic disassmbler/runtime information). But we can use this information to tell Ghidra about functions it doesn't know about.
+
+This is why Ghidra only detected about 36 functions by itself, its not because Mario has been implemented in that few functions, it just didn't have enough information to find them.
