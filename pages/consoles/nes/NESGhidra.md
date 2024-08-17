@@ -125,18 +125,18 @@ Now this is where it is useful to know about one of the functions in the disasse
 The code is here (copied from the community disassembly):
 ```assembly
 ;-------------------------------------------------------------------------------------
-;$04 - address low to jump address
-;$05 - address high to jump address
-;$06 - jump address low
-;$07 - jump address high
+;Memory address 0x04 - address low to jump address
+;Memory address 0x05 - address high to jump address
+;Memory address 0x06 - jump address low
+;Memory address 0x07 - jump address high
 
 JumpEngine:
-       asl          ;shift bit from contents of A
-       tay
-       pla          ;pull saved return address from stack
-       sta $04      ;save to indirect
-       pla
-       sta $05
+       asl          ;shift bit from contents of A (Multiply Accumulator by 2 due to 16-bit addressing (2 bytes for an address)
+       tay          ; Y = A
+       pla          ; pull saved return address from stack into Accumulator
+       sta $04      ; Store value of Accumulator at Memory location 0x04
+       pla          ; pull saved return address from stack into Accumulator
+       sta $05      ; Store value of Accumulator at Memory location 0x05
        iny
        lda ($04),y  ;load pointer from indirect
        sta $06      ;note that if an RTS is performed in next routine
