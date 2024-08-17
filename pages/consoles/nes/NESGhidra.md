@@ -1,4 +1,17 @@
-## Opening NES ROMs with Ghidra
+---
+title: Reversing Engineering a NES Game With Ghidra
+layout: post
+permalink: /nes-ghidra
+tags:
+- nes
+- ghidra
+recommend: nes
+editlink: /consoles/nes/NESGhidra.md
+_updatedAt: '2024-08-17'
+---
+
+
+# Opening NES ROMs with Ghidra
 Ghidra doesn't have support out of the box for NES ROM reverse engineering so we need to use a plugin created by **ilyakharlamov** available here:
 [ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin: Ghidra NES / Famicom ROM Decompiler Plugin](https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin)
 
@@ -36,7 +49,7 @@ Now after import you should be able to decompile any function you want as long a
 ![NESDecompile](https://user-images.githubusercontent.com/40120498/235525315-360f63fb-2203-41c2-bd95-9e1f68df8c6f.jpeg)
 
 ---
-## Reversing Super Mario Bros with Ghidra
+# Reversing Super Mario Bros with Ghidra
 Super Mario Bros is an excellent game to use to learn Ghidra and how to reverse NES roms, as there is already documentation and disassembly on the web. So you can practise using Ghidra and use the Mario Bros disassembly [here](https://gist.github.com/1wErt3r/4048722) to check your work!
 
 First make sure to open the Super Mario Bros. (World).nes rom (MD5: 811b027eaf99c2def7b933c5208636de) with Ghidra and the GhidraNes plugin as shown in the previous guide.
