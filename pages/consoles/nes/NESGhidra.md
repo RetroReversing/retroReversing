@@ -184,3 +184,11 @@ Now it will appear along side all its other friends in the function panel for ea
 
 You will also notice that after marking the bytes as disassemblable, Ghidra has managed to find even more functions by itself (up to 168 now).
 
+---
+At this point you should be able to go through the rest of the file and you can use the following table of keyboard shortcuts to save time:
+
+Keyboard Key | Purpose
+---|---
+F | Create a Function
+L | Name/Rename a Label or Function
+D | Disassemble
