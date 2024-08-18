@@ -12,7 +12,19 @@ editlink: /consoles/nes/NESGhidra.md
 updatedAt: '2024-08-17'
 ---
 
+# Introduction
+This pages walks you through using Ghidra to reverse engineer NES ROMs.
 
+## A Note on Mapper Support
+To reverse engineer a NES ROM with Ghidra you need the GhidraNES Plugin, but note that it only currently supports the following mappers:
+* Mapper 0 - NROM - [NES_games_using_mapper_number_0](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_0)
+* Mapper 1 - MMC1 - [NES_games_using_the_Nintendo_MMC1_mapper](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_the_Nintendo_MMC1_mapper)
+* Mapper 2 - UxROM
+* Mapper 7 -  AxROM - [NES_games_using_mapper_number_7](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_7)
+* Mapper 10 - MMC4
+* Mapper 19 - Namco 129/163  - [NES_games_using_mapper_number_19](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_19)
+
+---
 # Opening NES ROMs with Ghidra
 Ghidra doesn't have support out of the box for NES ROM reverse engineering so we need to use a plugin created by **ilyakharlamov** available here:
 [ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin: Ghidra NES / Famicom ROM Decompiler Plugin](https://github.com/ilyakharlamov/Ghidra-Nes-Rom-Decompiler-Plugin)
