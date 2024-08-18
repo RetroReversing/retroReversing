@@ -24,6 +24,22 @@ To reverse engineer a NES ROM with Ghidra you need the GhidraNES Plugin, but not
 * Mapper 10 - MMC4 - [NES games using mapper 10](https://nesdir.github.io/mapper10.html) (3 games, all Japanese)
 * Mapper 19 - Namco 129/163  - [NES games using mapper 19](https://nesdir.github.io/mapper19.html) (20 games, all Japanese)
 
+So make sure that your game is in one of those lists before continuing.
+
+### What about the other mappers?
+So it might look like there is not much mapper support in the list above, but remember not all mappers have been used, and many just for a single game.
+
+It is unlikely your game will be Mapper 6,8,12,14,15,17,27-31,35-47,49-63 as there was no official games released for them (pirate games and multi-carts only).
+
+* Mapper 9 was just used for Punch-Out.
+* Mapper 11 was for unlicensed religious games by Color Dreams.
+* Mapper 13 was only used for Videomation (a paint program for NES)
+* Mapper 16, 18-19, 21-26, 32-33,48 was only used for Japanese games
+* Mapper 20 was never actually used (intended for FDS games)
+* Mapper 34 was only used for 2 different games (Deadly Towers/Mashou and Impossible Mission-II)
+* Mapper 64 was only used for 5 TENGEN games in the USA 
+
+
 ---
 # Opening NES ROMs with Ghidra
 Ghidra doesn't have support out of the box for NES ROM reverse engineering so we need to use a plugin created by **ilyakharlamov** available here:
