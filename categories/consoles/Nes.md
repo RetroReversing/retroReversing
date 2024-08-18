@@ -84,6 +84,17 @@ If you're interested in learning more about the hardware architecture of the NES
 
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/nes/" description="Copetti.org has an excellent tear down of the NES Hardware and how it works" image="/public/consoles/Nintendo Entertainment System.png" title="Nintendo Entertainment System (NES) Architecture - A Practical Analysis" %}
 
+## Retail NES Cartridges (Custom chips, Mappers)
+Although all NES cartridges look similar from the outside apoart from a different sticker and maybe a different color cartridge casing, the internals can be vastly different from game to game.
+
+This is especially the case in Japan where Nintendo allowed third party developers to manufacture their own cartridges, which means they could add additional microchips inside, such as custom memory mappers.
+
+However the same wasn't the case in the west as described in this quote from [MobyGames](https://www.mobygames.com/game/17964/mr-gimmick/):
+> Nintendo didn't normally allow developers to use custom mapper chips in western releases, instead requiring them to reprogram their games for Nintendo's own MMC mappers. This is because Nintendo manufactured all cartridges in the west.
+> Mr. Gimmick and Batman:Return of the Joker (which uses the same FME-7 mapper chip) are the only two official western NES releases to use custom mapper chips.
+
+For emulators to support all the different cartirdge hardware, emulator authors came up with the concept of Mappers which are part of the **iNES Header** and are used by emulators to vary the emulation based on what Mapper the game ROM is defined as using.
+
 ## Retail NES Controller Electronics
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
