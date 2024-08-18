@@ -17,12 +17,12 @@ This pages walks you through using Ghidra to reverse engineer NES ROMs.
 
 ## A Note on Mapper Support
 To reverse engineer a NES ROM with Ghidra you need the GhidraNES Plugin, but note that it only currently supports the following mappers:
-* Mapper 0 - NROM - [NES_games_using_mapper_number_0](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_0)
-* Mapper 1 - MMC1 - [NES_games_using_the_Nintendo_MMC1_mapper](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_the_Nintendo_MMC1_mapper)
-* Mapper 2 - UxROM
-* Mapper 7 -  AxROM - [NES_games_using_mapper_number_7](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_7)
-* Mapper 10 - MMC4
-* Mapper 19 - Namco 129/163  - [NES_games_using_mapper_number_19](https://datacrystal.tcrf.net/wiki/Category:NES_games_using_mapper_number_19)
+* Mapper 0 - NROM - [NES games using mapper 0](https://nesdir.github.io/mapper0.html) (245 games including worldwide variants)
+* Mapper 1 - MMC1 - [NES games using mapper 1](https://nesdir.github.io/mapper1.html) (673 games including worldwide variants)
+* Mapper 2 - UxROM [NES games using mapper 2](https://nesdir.github.io/mapper2.html) (265 games including worldwide variants)
+* Mapper 7 -  AxROM - [NES games using mapper 7](https://nesdir.github.io/mapper7.html) (76 games including worldwide variants)
+* Mapper 10 - MMC4 - [NES games using mapper 10](https://nesdir.github.io/mapper10.html) (3 games, all Japanese)
+* Mapper 19 - Namco 129/163  - [NES games using mapper 19](https://nesdir.github.io/mapper19.html) (20 games, all Japanese)
 
 ---
 # Opening NES ROMs with Ghidra
