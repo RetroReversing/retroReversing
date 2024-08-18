@@ -29,13 +29,13 @@ So make sure that your game is in one of those lists before continuing.
 ### What about the other mappers?
 So it might look like there is not much mapper support in the list above, but remember not all mappers have been used, and many just for a single game.
 
-It is unlikely your game will be Mapper 6,8,12,14,15,17,27-31,35-47,49-63, 74, 81, 83-84, 90-91, 98-104, 106-117, 120-137 as there was no official games released for them (pirate games and multi-carts only).
+It is unlikely your game will be Mapper 6,8,12,14,15,17,27-31,35-47,49-63, 74, 81, 83-84, 90-91, 98-104, 106-117, 120-139, 141-143, 145-151, 153, 155-157, 160-179, 181-183, 186-205, 208-209, 211-231, 233-255 as there was no official games released for them (pirate games and multi-carts only).
 
 Notes on a couple of other mappers:
 * Mapper 9 was just used for Punch-Out.
 * Mapper 11 was for unlicensed religious games by Color Dreams.
 * Mapper 13 was only used for Videomation (a paint program for NES)
-* Mapper 16, 18-19, 21-26, 32-33,48, 65, 67, 70, 72-73, 75-78, 80, 82, 85-89, 92-97 was only used for Japanese games
+* Mapper 16, 18-19, 21-26, 32-33,48, 65, 67, 70, 72-73, 75-78, 80, 82, 85-89, 92-97, 140, 152, 154, 159, 180, 184-185, 207, 210 was only used for Japanese games
 * Mapper 20 was never actually used (intended for FDS games)
 * Mapper 34 was only used for 2 different games (Deadly Towers/Mashou and Impossible Mission-II)
 * Mapper 64 was used for 5 TENGEN games in the USA 
@@ -47,6 +47,12 @@ Notes on a couple of other mappers:
 * Mapper 105 was only used for the Nintendo World Championships 1990 cart
 * Mapper 118 was used for 6 games worldwide
 * Mapper 119 was only used in 2 games (High-Speed and PinBot)
+* Mapper 144 was only used for Death race
+* Mapper 158 was only used for the TENGEN game **Alien Syndrome** 
+* Mapper 205 was used for 41 games and is similar to MMC3
+* Mapper 232 was used for 3 Quattro games by Camerica
+
+So unless you are looking to reverse engineer Japanese, pirate or a few obscure games, the only mappers that need to be implemented to give access to the majority of the NES library are mappers 3-5 and maybe 205.
 
 ---
 # Opening NES ROMs with Ghidra
