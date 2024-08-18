@@ -244,3 +244,9 @@ This exercise will really make you appreciate how big a game disassembly is, how
 Bare in mind you need to find out what the code does in the first place to be able to name them!
 
 So its a very time consuming task starting a full disassembly project (never mind a decompilation).
+
+
+## Importing symbols
+Now I don't expect you to go throught he whole file and manually add all the functions/labels, there is a much easier way to do that by using some Ghidra scripts that we provide [here](https://github.com/RetroReversing/Nes-Game-Symbols/blob/main/README.md).
+
+Follow the instructions on that readme to import all the symbols for Super Mario into your Ghidra project.
