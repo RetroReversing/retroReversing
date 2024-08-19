@@ -47,36 +47,36 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://upload.wikimedia.org/wikipedia/en/9/9b/Crystalisboxart.jpg){:width="100"} [Crystalis](https://github.com/crystalisdisassembly/crystalisdisassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg){:width="100"} [Dragon Warrior](https://github.com/nmikstas/dragon-warrior-disassembly)               | Disassembly | N/A and Documented |
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Donald_land.jpg){:width="100"} [Donald Land](https://github.com/brunovalads/donald-land)              | Disassembly |  
-|![](https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG){:width="100"} [Donkey Kong](https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly)              | Disassembly |  
+|![](https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG){:width="100"} [Donkey Kong](https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/f/f8/Dr._Mario_box_art.jpg){:width="100"} [Dr. Mario](https://github.com/Nostaljipi/dr-mario-disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/b/be/Danny_Sullivan%27s_Indy_Heat_Coverart.png){:width="100"} [Dunny Sullivan's Indy Heat](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/f/f8/Excitebike_cover.jpg){:width="100"} [Excitebike](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/f/f8/Excitebike_cover.jpg){:width="100"} [Excitebike](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg){:width="100"} [Final Fantasy I](https://github.com/Entroper/FF1Disassembly)              | Disassembly | N/A and Documented |
 |![](https://www.mobygames.com/images/covers/l/110876-final-fantasy-ii-nes-front-cover.jpg){:width="100"} [Final Fantasy II](https://github.com/everything8215/ff2)              | Disassembly | 
 |![](https://www.mobygames.com/images/covers/l/159409-final-fantasy-iii-nes-front-cover.jpg){:width="100"} [Final Fantasy III](https://github.com/everything8215/ff3)              | Disassembly | 
-|![](https://upload.wikimedia.org/wikipedia/commons/b/b7/Game-Genie-NES.jpg){:width="100"} [Game Genie (Cheat Cartridge)](https://github.com/qalle2/nes-gg-disassembly)              | Disassembly |
-|![](https://upload.wikimedia.org/wikipedia/en/d/df/IceClimberboxartnes.jpg){:width="100"} [Ice Climber (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Ice%20Climber)              | Disassembly |    
+|![](https://upload.wikimedia.org/wikipedia/commons/b/b7/Game-Genie-NES.jpg){:width="100"} [Game Genie (Cheat Cartridge)](https://github.com/qalle2/nes-gg-disassembly)              | Disassembly | NROM
+|![](https://upload.wikimedia.org/wikipedia/en/d/df/IceClimberboxartnes.jpg){:width="100"} [Ice Climber (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Ice%20Climber)              | Disassembly | NROM 
 |![](https://static.wikia.nocookie.net/kuniokun/images/1/15/KKnNSL_JP.jpg){:width="100"} [*Kunio-kun no Nekketsu Soccer League*](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Kunio-kun%20no%20Nekketsu%20Soccer%20League)              | Disassembly |    
-|![](https://www.mobygames.com/images/covers/l/251123-mappy-nes-front-cover.jpg){:width="100"} [Mappy (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Mappy)              | Disassembly |    
+|![](https://www.mobygames.com/images/covers/l/251123-mappy-nes-front-cover.jpg){:width="100"} [Mappy (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Mappy)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/c/c1/MarioBros.boxart.png){:width="100"} [Mario Bros.](https://github.com/RussianManSMWC/Mario-Bros.-Dis)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg){:width="100"} [Mega Man 3](https://github.com/Raidenthequick/megaman3-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg){:width="100"} [Mega Man 4](https://github.com/Raidenthequick/megaman4-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg){:width="100"} [Mega Man 5](https://github.com/Raidenthequick/megaman5-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg){:width="100"} [Metroid](https://metroiddatabase.com/source-code/)              | Disassembly | 
 |![](https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG){:width="100"} [Mike Tyson's Punch Out](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)              | Disassembly | MMC2 
-|![](https://pbs.twimg.com/media/ELrst70WkAE4Eo-?format=jpg){:width="100"} [Nuts & Milk (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk)              | Disassembly |  
-|![](https://images.nintendolife.com/0122e34331721/pac-man-cover.cover_large.jpg){:width="100"} [Pac-Man (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man)              | Disassembly |  
+|![](https://pbs.twimg.com/media/ELrst70WkAE4Eo-?format=jpg){:width="100"} [Nuts & Milk (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk)              | Disassembly |  NROM
+|![](https://images.nintendolife.com/0122e34331721/pac-man-cover.cover_large.jpg){:width="100"} [Pac-Man (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Solstice_The_Quest_for_the_Staff_of_Demnos_Cover.jpg){:width="100"} [Solstice: The Quest for the Staff of Demnos](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice)              | Disassembly |  
-|![](http://www.hardcoregaming101.net/wp-content/uploads/2018/09/nintendo-nes-sonson.jpg){:width="100"} [SonSon](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Son%20Son)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png){:width="100"} [Super Mario Bros.](https://gist.github.com/1wErt3r/4048722)              | Disassembly |
+|![](http://www.hardcoregaming101.net/wp-content/uploads/2018/09/nintendo-nes-sonson.jpg){:width="100"} [SonSon](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Son%20Son)              | Disassembly | NROM 
+|![](https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png){:width="100"} [Super Mario Bros.](https://gist.github.com/1wErt3r/4048722)              | Disassembly | NROM
 |![](https://upload.wikimedia.org/wikipedia/en/b/b5/Mariobros2japanbox.jpg){:width="100"} [Super Mario Bros. 2 The Lost Levels (Japanese)](https://github.com/threecreepio/smb2j-disassembly )              | Disassembly | 
 |![](https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png){:width="100"} [Super Mario Bros. 3](https://github.com/captainsouthbird/smb3)              | Disassembly | 
 |![](https://images.igdb.com/igdb/image/upload/t_cover_big/js2ldjaxvwvvblwuvyep.png){:width="100"} [Tecmo World Cup Soccer (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tecmo%20World%20Cup%20Soccer)              | Disassembly |   
-|![](https://upload.wikimedia.org/wikipedia/en/9/98/Tennis_%28video_game%29.jpg){:width="100"} [Tennis](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis)              | Disassembly |   
+|![](https://upload.wikimedia.org/wikipedia/en/9/98/Tennis_%28video_game%29.jpg){:width="100"} [Tennis](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis)              | Disassembly | NROM  
 |![](https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg){:width="100"} [Tetris](https://github.com/CelestialAmber/TetrisNESDisasm)              | Disassembly |     
 |![](https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png){:width="100"} [The Legend of Zelda](https://github.com/aldonunez/zelda1-disassembly)              | Disassembly | N/A and Documented |   
 |![](https://upload.wikimedia.org/wikipedia/en/f/fc/Transformers_Mystery_of_Comvoy_Famicom_box.png){:width="100"} [Transformers: Mystery of Convoy](https://github.com/Fixatron/TFRom-Recreation)              | Disassembly | N/A and Documented |   
-|![](https://upload.wikimedia.org/wikipedia/en/b/ba/Yie_Ar_Kung-Fu_flyer.png){:width="100"} [Yie Ar Kung Fu](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu)              | Disassembly |    
+|![](https://upload.wikimedia.org/wikipedia/en/b/ba/Yie_Ar_Kung-Fu_flyer.png){:width="100"} [Yie Ar Kung Fu](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu)              | Disassembly | NROM   
 
 ---
 
