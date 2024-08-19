@@ -90,11 +90,11 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 
 ## 2D Images, Sprites and Textures
 Known software used in the creation of 2D Image asserts for retro video games include:
-* **DPaint** - Created by Electronic Arts
+* **Deluxe Paint** (aka DPaint) - Created by Electronic Arts
 * **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palettizing sprites for StarCraft [^1])
 
 ### 8-bit EGA Pixel art at LucasArts
-**Mark Ferrari** has an excellent GDC talk, in which he discussed some ofthe techniques for drawing 8-bit game graphics, including his celebrated methods for use of color cycling and pallet shifting to create complex and realistic background animation effects without frame-animation:
+**Mark Ferrari** has an excellent GDC talk, in which he discussed some ofthe techniques for drawing 8-bit game graphics, including  color cycling and pallet shifting in Deluxe Paint:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aMcJ1Jvtef0?si=rNd0Wo1EO2NwxCLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
