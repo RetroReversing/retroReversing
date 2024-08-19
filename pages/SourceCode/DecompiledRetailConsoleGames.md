@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2024-08-03'
+updatedAt: '2024-08-19'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -37,10 +37,10 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 
 ## Nintendo Entertainment System (NES)
 
-| Name | Project Type |  
-| ---- | ---- |   
-|![](https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg){:width="100"} [Baloon Fight](https://github.com/LuigiBlood/balloonfight_dis)              | Disassembly |  
-|![](https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg){:width="100"} [Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)              | Disassembly |  
+| Name | Project Type | Mapper
+| ---- | ---- | ---
+|![](https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg){:width="100"} [Balloon Fight](https://github.com/LuigiBlood/balloonfight_dis)              | Disassembly |  NROM
+|![](https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg){:width="100"} [Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)              | Disassembly | NROM
 |![](https://upload.wikimedia.org/wikipedia/en/3/31/Crazy_Castle_Cover.png){:width="100"} [Bugs Bunny Crazy Castle](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/0/02/NES_Double_Dragon_II_packaging_front.jpg){:width="100"} [Double Dragon II: The Revenge (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg){:width="100"} [Contra](https://github.com/vermiceli/nes-contra-us/)              | Disassembly | N/A and Documented
@@ -63,7 +63,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg){:width="100"} [Mega Man 4](https://github.com/Raidenthequick/megaman4-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg){:width="100"} [Mega Man 5](https://github.com/Raidenthequick/megaman5-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg){:width="100"} [Metroid](https://metroiddatabase.com/source-code/)              | Disassembly | 
-|![](https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG){:width="100"} [Mike Tyson's Punch Out](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)              | Disassembly |    
+|![](https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG){:width="100"} [Mike Tyson's Punch Out](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)              | Disassembly | MMC2 
 |![](https://pbs.twimg.com/media/ELrst70WkAE4Eo-?format=jpg){:width="100"} [Nuts & Milk (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk)              | Disassembly |  
 |![](https://images.nintendolife.com/0122e34331721/pac-man-cover.cover_large.jpg){:width="100"} [Pac-Man (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Solstice_The_Quest_for_the_Staff_of_Demnos_Cover.jpg){:width="100"} [Solstice: The Quest for the Staff of Demnos](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice)              | Disassembly |  
