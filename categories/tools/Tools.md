@@ -88,6 +88,10 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 
 {% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
 
+### 2D Images, Sprites and Textures
+Known software used in the creation of 2D Image asserts for retro video games include:
+* **DPaint** - Created by Electronic Arts
+* **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palettizing sprites for StarCraft [^1])
 
 ---
 ### Music Creation
@@ -172,3 +176,7 @@ Here is a list of posts on the site that have been tagged as related to game dev
 <div>
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [What did developers in the 90s use to create pixel graphics for their games r/gamedev](https://www.reddit.com/r/gamedev/comments/ygosp6/what_did_developers_in_the_90s_use_to_create/)
