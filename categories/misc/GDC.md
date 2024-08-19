@@ -756,6 +756,13 @@ The first 2 days introducted two new sub-conferences:
 The Classic CGDC Conference would then take the next three days (27th-29th).
 
 The overall attendees was estimated to be over **6,300** by the July 2997 issue of Next Generation Magazine.
+![The CGDC hosted an all-day class on Friday April 25 on managing game development. The classic conference classes (April 25 to 29) covered everything from programming and production to business concerns and legal issues pertinent to the industry. Also, several roundtables focused on issues of game design and the future direction of gaming. Keynote speakers at the show included John Romero, Chris Roberts, and Nolan Bushnell.
+Intensive two-day tutorials focused on object-oriented game design, creating online games with lavg.
+Softimage development tools and techniques, and 3D Studio Max. One-day tutorials covered OpenGL, windows programming, Debabelizer, and modeling.](https://github.com/user-attachments/assets/c471536a-b80f-44de-ad23-e8707a67fef0)
+
+![The CGDC show has been criticized since changing hands a year ago. Formerly put on by Computer Game Developers* Association (CGDA), the CDC was known as a small homegrown operation nurtured by the tight-knit game developer community. The first annual CDC was a group of 20 people (basically the CGDA) gathered in a living room. Although
+CGDA has always held and continues to hold a stake in the proceedings, in 1996 Miller Freeman Inc. took over the show. Many bemoaned the inevitable "growth" that MFI meant for the CDC, arguing that heavy traffic would ruin the independent feel that was once so integral to attendees' enjoyment of the show. The 1995 show (pre-MFI) saw 2,200 people, and MFI grew the 1996 show to 4,000.](https://github.com/user-attachments/assets/110c049a-0b02-48b1-a4dd-8370dcf1826a)
+
 
 ### Two Day Tutorials
 This conference introduced what they called the **Two Day Tutorials** which were tutorials on various software that would take up the full first two days of the conference, presumably for those uninterested in the other two sub-conferences going on at the same time.
