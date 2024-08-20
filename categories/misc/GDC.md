@@ -2056,6 +2056,33 @@ Carmack noted the progress in the video game industry since he started, with a f
 For the future, Carmack said he is confident that there will be more progress and hopes that there will be a place for innovative and exciting new things in the industry.
 Carmack concluded his speech by saying that he is very excited about the future of video games. He believes that the industry has the potential to do great things, and he is looking forward to seeing what the future holds. 
 
+### One Day Tutorial - OpenGL (Tuesday 23rd March 2004)
+Sponsored by both **NVIDIA** and **ATI** was a full day tutorial on OpenGL graphics programming, all the slides are available on NVIDIA's website - [GDC 2004 - NVIDIA Developer](https://developer.nvidia.com/gdc-2004) and you can see the schedule below:
+
+Time | Session Name
+---|---
+10:00 - 10:10 | Introduction – Simon Green
+10:10 - 11:00  | OpenGL Shading Language Overview – Bill Licea-Kane
+11:00 - 11:15  | Break
+11:15 – 11:30  | OpenGL Shading Language (continued)
+11:30 - 11:45  | NVIDIA OpenGL SL implementation + demos – Simon Green
+11:45 - 12:30 | OpenGL 2.0 proposed extensions – Cass Everrit
+12:30 - 2:00 | Lunch
+2:00 - 2:45  | New ATI extensions (“Uber” buffers) – Rob Mace
+2:45 - 3:30  | New NVIDIA extensions + demos – Simon Green
+3:30 - 4:00  |  Tools and Libraries – Sebastien Domine, Evan Hart
+4:00 - 4:15  | Break
+4:15 - 5:00  | Performance Optimization – Evan Hart
+5:00 - 5:45  | General Purpose Computation for Games in OpenGL – Mark Harris 
+5:45 - 6:00 | Conclusion, Q&A
+
+
+
+  
+
+
+
+
 ---
 ## GDC 2005+
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
