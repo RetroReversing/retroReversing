@@ -60,7 +60,7 @@ These IDEs provided comprehensive toolsets for coding, debugging, and testing, s
 
 - **Microsoft Visual Studio**: A powerful and versatile IDE that supported multiple programming languages, making it a favorite among game developers for its robust debugging tools and integrated development features.
 - **Borland C++**: Known for its speed and efficiency, Borland C++ was a popular choice for many game developers due to its advanced compiler technology and comprehensive library support.
-- **CodeWarrior**: Initially developed for Macintosh, CodeWarrior later expanded to support multiple platforms, offering a flexible environment for cross-platform development which was essential for many game studios.
+- **CodeWarrior**: Initially developed for Macintosh, CodeWarrior later expanded to support multiple platforms, offering a flexible environment for cross-platform development which was essential for many game studios. Had special versions for PS2 and Gamecube support [^2].
 - **Turbo C++**: An early IDE by Borland, Turbo C++ was known for its simplicity and speed, providing a streamlined environment for writing and testing code quickly.
 
 These IDEs were pivotal in creating the games that defined a generation, providing the necessary tools and environments to bring imaginative worlds to life.
@@ -184,3 +184,4 @@ Here is a list of posts on the site that have been tagged as related to game dev
 ---
 # References
 [^1]: [What did developers in the 90s use to create pixel graphics for their games r/gamedev](https://www.reddit.com/r/gamedev/comments/ygosp6/what_did_developers_in_the_90s_use_to_create/)
+[^2]: [GDC Evolve Page 36](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
