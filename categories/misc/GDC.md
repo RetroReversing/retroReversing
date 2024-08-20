@@ -2076,9 +2076,11 @@ Time | Session Name
 5:00 - 5:45  | General Purpose Computation for Games in OpenGL – Mark Harris 
 5:45 - 6:00 | Conclusion, Q&A
 
+### One Day Tutorial - DirectX (Monday 22nd March 2004)
+We don't have the schedule for the DirectX sessions that were sponsored by a number of companies (Microsoft, Nvidia, Valve, Ati, Sony and Climax) but we do have some of the slides available on NVIDIA's website - [GDC 2004 - NVIDIA Developer](https://developer.nvidia.com/gdc-2004).
 
-
-  
+### One Day Tutorial - Professional Java Game Development Techniques (Tuesday 23rd March 2004)
+Although there are no slides or videos available from this tutorial day, the exact same authors (Dustin Clingman, Shawn Kendall, Syrus Mesdaghi) wrote the book **Practical Java Game Development (Game Development Series)** which was published in 2004, so it is very likely that all the content used at this tutorial is available in the book.
 
 
 
