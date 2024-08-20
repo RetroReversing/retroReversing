@@ -81,7 +81,10 @@ The Playstation 2 Software Development kit included various statically compiled 
 
 {% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post." %}
 
-### Dynamic Libraries (IRX files)
+### Emotion Engine Relocatable Executable (.ERX) Files
+This was a newer format introduced by Sony which can be used to provide patches for online PS2 games according to e GDC advert from Metrowerks Codewarrior [^4].
+
+### IOP Relocatable Executable Executable (.IRX) Files
 {% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
 
 ## Consumer Development Kit
@@ -121,3 +124,4 @@ In issue 20 of PSi2 an interview with Clark Stacey revealed that they have an in
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
 [^2]: Psi2 issue 18
 [^3]: Psi2 issue 20
+[^4]: [GDC 2004 Evolve](https://ia803200.us.archive.org/11/items/evolveeventprogr2004unse/evolveeventprogr2004unse.pdf)
