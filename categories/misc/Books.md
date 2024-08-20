@@ -500,6 +500,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Modeling a Character in 3DS Max | Paul Steed | 3DS Max | 
 <img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
 <img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
+<img class="lazy-load" data-image-full=" /> | Practical Algorithms for Three-Dimensional Computer Graphics | R. Stuart Ferguson | Visual C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51N6hpNMhbL._AC_UY436_QL65_.jpg" /> | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
 <img class="lazy-load" data-image-full="" /> | Swords & circuitry: a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
 <img class="lazy-load" data-image-full="" /> | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
@@ -564,6 +565,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51xxfOzpJwL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginner's Guide to DarkBASIC Game Programming | Jonathan S. Harbour and Joshua Smith | DarkBASIC | 
 <img class="lazy-load" data-image-full="" /> | Chris Crawford on Game Design | Chris Crawford | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41uR2OAoJoL._SX402_BO1,204,203,200_.jpg" /> | Core Techniques and Algorithms in Game Programming | Daniel Sanchez-Crespo Dalmau | C++ with OpenGL and DirectX
+<img class="lazy-load" data-image-full="" /> | C# and Game Programming: A Beginners Guide | Salvatore Buono | C# | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qpoeehxFL._AC_UY436_FMwebp_QL65_.jpg" /> | C++ For Game Programmers | Noel Llopis | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51nACYy5EML._SY300_.jpg" /> | Complete Maya Programming: An Extensive Guide to MEL and C++ API | David Gould | MEL, C++ | 
 <img class="lazy-load" data-image-full="" /> | Creating Emotion in Games: The Craft and Art of Emotioneering | David Freeman and Will Wright | Game Design | 
