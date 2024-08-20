@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2024-08-19'
+updatedAt: '2024-08-20'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -40,16 +40,15 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 | Name | Project Type | Mapper | Status
 | ---- | ---- | --- | ---
 |![](https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg){:width="100"} [Balloon Fight](https://github.com/LuigiBlood/balloonfight_dis)              | Disassembly |  NROM
-|![](https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg){:width="100"} [Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)              | Disassembly | NROM
-|![](https://upload.wikimedia.org/wikipedia/en/3/31/Crazy_Castle_Cover.png){:width="100"} [Bugs Bunny Crazy Castle](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle)              | Disassembly | MMC1 
-|![](https://upload.wikimedia.org/wikipedia/en/0/02/NES_Double_Dragon_II_packaging_front.jpg){:width="100"} [Double Dragon II: The Revenge (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II)              | Disassembly |  
+|![](https://images.launchbox-app.com/e0510c38-b7f6-4cc0-b995-3d011941597d.jpg){:width="100"} [Battle City](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Battle%20City)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Contra_cover.jpg){:width="100"} [Contra](https://github.com/vermiceli/nes-contra-us/)              | Disassembly | N/A and Documented
 |![](https://upload.wikimedia.org/wikipedia/en/9/9b/Crystalisboxart.jpg){:width="100"} [Crystalis](https://github.com/crystalisdisassembly/crystalisdisassembly)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg){:width="100"} [Dragon Warrior](https://github.com/nmikstas/dragon-warrior-disassembly)               | Disassembly | MMC1 | N/A and Documented
+|![](https://upload.wikimedia.org/wikipedia/en/b/be/Danny_Sullivan%27s_Indy_Heat_Coverart.png){:width="100"} [Danny Sullivan's Indy Heat](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Donald_land.jpg){:width="100"} [Donald Land](https://github.com/brunovalads/donald-land)              | Disassembly | MMC1 
 |![](https://static.wikia.nocookie.net/nes/images/9/9f/Donkey_Kong.JPG){:width="100"} [Donkey Kong](https://github.com/RussianManSMWC/Donkey-Kong-NES-Disassembly)              | Disassembly | NROM 
+|![](https://upload.wikimedia.org/wikipedia/en/0/02/NES_Double_Dragon_II_packaging_front.jpg){:width="100"} [Double Dragon II: The Revenge (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Double%20Dragon%20II)              | Disassembly | 
 |![](https://upload.wikimedia.org/wikipedia/en/f/f8/Dr._Mario_box_art.jpg){:width="100"} [Dr. Mario](https://github.com/Nostaljipi/dr-mario-disassembly)              | Disassembly | MMC1 
-|![](https://upload.wikimedia.org/wikipedia/en/b/be/Danny_Sullivan%27s_Indy_Heat_Coverart.png){:width="100"} [Dunny Sullivan's Indy Heat](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Danny%20Sullivan's%20Indy%20Heat)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg){:width="100"} [Dragon Warrior](https://github.com/nmikstas/dragon-warrior-disassembly)               | Disassembly | MMC1 | N/A and Documented
 |![](https://upload.wikimedia.org/wikipedia/en/f/f8/Excitebike_cover.jpg){:width="100"} [Excitebike](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Excitebike)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/d/d8/FF1_USA_boxart.jpg){:width="100"} [Final Fantasy I](https://github.com/Entroper/FF1Disassembly)              | Disassembly | MMC1 | N/A and Documented
 |![](https://www.mobygames.com/images/covers/l/110876-final-fantasy-ii-nes-front-cover.jpg){:width="100"} [Final Fantasy II](https://github.com/everything8215/ff2)              | Disassembly | MMC1
@@ -63,7 +62,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg){:width="100"} [Mega Man 4](https://github.com/Raidenthequick/megaman4-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg){:width="100"} [Mega Man 5](https://github.com/Raidenthequick/megaman5-disassembly)              | Disassembly |    
 |![](https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg){:width="100"} [Metroid](https://metroiddatabase.com/source-code/)              | Disassembly | 
-|![](https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG){:width="100"} [Mike Tyson's Punch Out](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)              | Disassembly | MMC2 
+|![](https://upload.wikimedia.org/wikipedia/en/3/3d/Punch-out_mrdream_boxart.PNG){:width="100"} [Mike Tyson's Punch-Out!!](https://github.com/nmikstas/mike-tysons-punch-out-disassembly)              | Disassembly | MMC2 
 |![](https://pbs.twimg.com/media/ELrst70WkAE4Eo-?format=jpg){:width="100"} [Nuts & Milk (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Nuts%20%26%20Milk)              | Disassembly |  NROM
 |![](https://images.nintendolife.com/0122e34331721/pac-man-cover.cover_large.jpg){:width="100"} [Pac-Man (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Pac-Man)              | Disassembly | NROM 
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Solstice_The_Quest_for_the_Staff_of_Demnos_Cover.jpg){:width="100"} [Solstice: The Quest for the Staff of Demnos](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Solstice)              | Disassembly |  
@@ -73,7 +72,8 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png){:width="100"} [Super Mario Bros. 3](https://github.com/captainsouthbird/smb3)              | Disassembly | 
 |![](https://images.igdb.com/igdb/image/upload/t_cover_big/js2ldjaxvwvvblwuvyep.png){:width="100"} [Tecmo World Cup Soccer (Japanese)](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tecmo%20World%20Cup%20Soccer)              | Disassembly |   
 |![](https://upload.wikimedia.org/wikipedia/en/9/98/Tennis_%28video_game%29.jpg){:width="100"} [Tennis](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Tennis)              | Disassembly | NROM  
-|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg){:width="100"} [Tetris](https://github.com/CelestialAmber/TetrisNESDisasm)              | Disassembly | MMC1    
+|![](https://upload.wikimedia.org/wikipedia/en/7/7d/Tetris_NES_cover_art.jpg){:width="100"} [Tetris](https://github.com/CelestialAmber/TetrisNESDisasm)              | Disassembly | MMC1  
+|![](https://upload.wikimedia.org/wikipedia/en/3/31/Crazy_Castle_Cover.png){:width="100"} [The Bugs Bunny Crazy Castle](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Bugs%20Bunny%20Crazy%20Castle)              | Disassembly | MMC1 
 |![](https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png){:width="100"} [The Legend of Zelda](https://github.com/aldonunez/zelda1-disassembly)              | Disassembly | MMC1 | N/A and Documented  
 |![](https://upload.wikimedia.org/wikipedia/en/f/fc/Transformers_Mystery_of_Comvoy_Famicom_box.png){:width="100"} [Transformers: Mystery of Convoy](https://github.com/Fixatron/TFRom-Recreation)              | Disassembly | | N/A and Documented  
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/Yie_Ar_Kung-Fu_flyer.png){:width="100"} [Yie Ar Kung Fu](https://github.com/cyneprepou4uk/NES-Games-Disassembly/tree/main/Yie%20Ar%20Kung-Fu)              | Disassembly | NROM   
@@ -94,6 +94,7 @@ Nintendo systems are by far the most popular for reverse engineering projects, e
 |![](https://upload.wikimedia.org/wikipedia/en/0/05/Final_Fantasy_VI.jpg){:width="100"} [Final Fantasy VI](https://github.com/everything8215/ff6)              | Disassembly | Active |  
 |![](https://upload.wikimedia.org/wikipedia/en/6/60/SNES_Goof_Troop_cover_art.jpg){:width="100"} [Goof Troop](https://github.com/Yoshifanatic1/Goof-Troop-Disassembly)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/7/7a/Super.Bomberman.Box.Art.SNES.PAL.png){:width="100"} [Super Bomberman](https://github.com/LIJI32/superbomberman)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/3/35/GhoulsSNES_boxart.JPG){:width="100"} [Super Ghouls 'n Ghosts](https://github.com/fredyeye/super-ghouls-n-ghosts-disassembly)              | Disassembly |
 |![](https://upload.wikimedia.org/wikipedia/en/8/89/SuperMarioRPGSNESCoverArtUS.jpg){:width="100"} [Super Mario RPG](https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly)              | Disassembly |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png){:width="100"} [Super Mario World](https://github.com/IsoFrieze/SMWDisX)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg){:width="100"} [Super Mario World 2: Yoshi's Island](https://github.com/brunovalads/yoshisisland-disassembly)              | Disassembly |  
@@ -174,13 +175,13 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png){:width="100"} [Animal Crossing](https://github.com/prakxo/ac-decomp)              | Decompilation | Active, rel 43% Done, dol 21% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Chibi_Robo.jpg/220px-Chibi_Robo.jpg){:width="100"} [Chibi-Robo: Plug into Adventure](https://github.com/eavpsp/cbr_decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Chibi_Robo.jpg/220px-Chibi_Robo.jpg){:width="100"} [Chibi-Robo! Plug Into Adventure!](https://github.com/eavpsp/cbr_decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/5/59/Harvest_Moon_-_A_Wonderful_Life_Coverart.png){:width="100"} [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/49/Homeland_GC.jpg){:width="100"} [Homeland](https://github.com/bttrdrgn/homeland)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg){:width="100"} [Kirby Air Ride](https://github.com/doldecomp/kar)              | Decompilation | Inactive |
 |![](https://images.nintendolife.com/1d216696ec87d/luigis-mansion-cover.cover_300x.jpg){:width="100"} [Luigi's Mansion](https://github.com/Sage-of-Mirrors/zmansion)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg){:width="100"} [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)              | Decompilation | Active, 19% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg){:width="100"} [Mario Party 4](https://github.com/Rainchus/marioparty4)              | Decompilation | Active, 44% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg){:width="100"} [Mario Party 4](https://github.com/Rainchus/marioparty4)              | Decompilation | Active, 45% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG){:width="100"} [Mario Party 5](https://github.com/Rainchus/marioparty5)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png){:width="100"} [Mario Party 6](https://github.com/Rainchus/marioparty6)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/6/60/Mario_Party_7_Coverart.png){:width="100"} [Mario Party 7](https://github.com/Rainchus/marioparty7)              | Decompilation | Inactive |
@@ -193,7 +194,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg){:width="100"} [Pikmin 2](https://github.com/projectPiki/pikmin2)              | Decompilation | Active, 49% Done |
 |![](https://upload.wikimedia.org/wikipedia/it/7/7a/Sonic_Adventure_DX_Director%27s_Cut_logo.png){:width="100"} [Sonic Adventure DX](https://github.com/doldecomp/sadx)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/1/15/Sonic_Riders_Coverart.png){:width="100"} [Sonic Riders](https://github.com/doldecomp/sonicriders)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg){:width="100"} [Spongebob Squarepants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)              | Decompilation | Active, 19% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg){:width="100"} [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)              | Decompilation | Active, 19% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/78/Super_mario_sunshine.jpg){:width="100"} [Super Mario Sunshine](https://github.com/doldecomp/sms)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Super_Monkey_Ball_Coverart.png){:width="100"} [Super Monkey Ball](https://github.com/camthesaxman/smb-decomp/)              | Decompilation | Inactive, 59% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png){:width="100"} [Super Smash Bros. Melee](https://github.com/doldecomp/melee)              | Decompilation | Active, 17% Done |
@@ -213,9 +214,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png){:width="100"} [Mario Party 8](https://github.com/Rainchus/marioparty8)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png){:width="100"} [Pokemon Battle Revolution](https://github.com/pret/pokerevo)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3b/SonicRiders2.PNG){:width="100"} [Sonic Riders: Zero Gravity](https://github.com/m0ester/SRZGDecomp)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg){:width="100"} [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg){:width="100"} [Super Mario Galaxy (Korean)](https://github.com/SMGCommunity/Petari)              | Decompilation | [Progress](https://github.com/SMGCommunity/Petari/blob/master/docs/PROGRESS.md) |
 |![](https://upload.wikimedia.org/wikipedia/en/6/65/Super_Mario_Galaxy_2_Box_Art.jpg){:width="100"} [Super Mario Galaxy 2](https://github.com/SMGCommunity/SMG2-Decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/c/c9/Super_Paper_Mario_cover.jpg){:width="100"} [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/5/57/The_Legend_of_Zelda_Ocarina_of_Time.jpg){:width="100"} [The Legend of Zelda: Ocarina of Time (Virtual Console)](https://github.com/nim-ka/vc64-decomp)              | Decompilation | Active, 31% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/99/Legend_of_Zelda_Skyward_Sword_boxart.png){:width="100"} [The Legend of Zelda: Skyward Sword](https://github.com/zeldaret/ss)              | Decompilation | Active, 1% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg){:width="100"} [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)              | Decompilation | Active, 39% Done |
@@ -279,13 +280,13 @@ The following table presents the latest updates on ongoing Game Boy reverse engi
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo Kazooie Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Active, 28% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/f/ff/Bkgruntysrevengentsc.jpg){:width="100"} [Banjo-Kazooie: Grunty's Revenge](https://github.com/jellees/bkgr)              | Decompilation | Active, 28% Done |
 |![](https://www.mobygames.com/images/covers/l/14074-breath-of-fire-game-boy-advance-front-cover.jpg){:width="100"} [Breath of Fire](https://github.com/Normmatt/bof)              | Decompilation | Inactive |
 |![](https://vgboxart.com/boxes/GBA/74706-fire-emblem-the-binding-blade.jpg){:width="100"} [Fire Emblem: The Binding Blade](https://github.com/StanHash/fe6)              | Decompilations | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/1/1e/Fire_Emblem_The_Sacred_Stones.JPG){:width="100"} [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)              | Decompilations | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7a/Harvest_Moon-_FoMT.jpg){:width="100"} [Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)              | Decompilations | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0b/Kirby_%26_the_Amazing_Mirror.jpg){:width="100"} [Kirby & The Amazing Mirror](https://github.com/jiangzhengwenjz/katam)              | Decompilations | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/6/63/MarioAndLuigiSuperstarSagaGBACoverArtUS.jpg){:width="100"} [Mario & Luigi: Superstar Saga](https://github.com/nstearns96/MLSuperstarSaga)              | Disassembly | Inactive |
 |![](https://mario.wiki.gallery/images/9/9b/Mvd.jpg){:width="100"} [Mario VS Donkey Kong](https://github.com/camthesaxman/mariovsdk)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7d/Metroid_--_Zero_Mission_%28box_art%29.jpg){:width="100"} [Metroid: Zero Mission](https://github.com/YohannDR/mzm)              | Decompilation | Active, 98% Done |
 |![](https://static.wikia.nocookie.net/earthbound/images/e/eb/Mother1%2B2_boxart.PNG){:width="100"} [Mother 1+2 (Japan)](https://github.com/Normmatt/m12)              | Decompilation | Inactive |
@@ -356,7 +357,7 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 | Name | Project Type |
 | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/7/75/Kid_Chameleon_Coverart.png){:width="100"} [Kid Chameleon](https://github.com/sonicretro/kid-chameleon-disasm)              | Disassembly |  
-|![](https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg){:width="100"} [Knucles the Echidna in Sonic 2](https://github.com/sonicretro/ktes2)              | Disassembly |  
+|![](https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg){:width="100"} [Knuckles the Echidna in Sonic the Hedgehog 2](https://github.com/sonicretro/ktes2)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/d/d4/Phantasy_Star_II.jpg){:width="100"} [Phantasy Star II](https://github.com/lory90/ps2disasm)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/c/c9/Phantasy_Star_III_box_US.jpg){:width="100"} [Phantasy Star III](https://github.com/lory90/ps3disasm)              | Disassembly |  
 |![](https://upload.wikimedia.org/wikipedia/en/6/67/Phantasy_Star_EotM_cover.jpg){:width="100"} [Phantasy Star IV](https://github.com/lory90/ps4disasm)              | Disassembly |  
@@ -400,12 +401,13 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://sotn.xee.dev/)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, 78% functional |
-|![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot 2: Cortex Strikes Back](https://github.com/ughman/c2c)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg){:width="100"} [Crash Bandicoot 2: Cortex Strikes Back](https://github.com/ughman/c2c)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active, 14% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/9/9c/Croc_Legend_of_the_Gobbos.jpg){:width="100"} [Croc: Legend of the Gobbos](https://github.com/xeeynamo/croc)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | N/A, Fully Playable on PC |
 |![](https://upload.wikimedia.org/wikipedia/en/1/16/Froggercover.png){:width="100"} [Frogger: He's Back!](https://github.com/HighwayFrogs/frogger-psx)              | Decompilation | Inactive |
-|![](https://static.wikia.nocookie.net/legacyofkain_gamepedia/images/6/60/SR1-Cover-PS1.jpg){:width="100"} [Legacy of Kain: Soul Reaver](https://github.com/Gh0stBlade/KAIN2)              | Decompilation | Active, 71% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, 90% Done (First disk playable) |
+|![](https://static.wikia.nocookie.net/legacyofkain_gamepedia/images/6/60/SR1-Cover-PS1.jpg){:width="100"} [Legacy of Kain: Soul Reaver](https://github.com/federicomilesi/soul-re)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, 90% Done (First Disk Playable) |
 |![](https://www.mobygames.com/images/covers/l/83999-lunar-2-eternal-blue-complete-playstation-front-cover.jpg){:width="100"} [Lunar 2: Eternal Blue](https://github.com/Zackmon/lunar2-psx-decomp)              | Decompilation | Inactive, 12% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d3/Medievil_cover.jpg){:width="100"} [MediEvil](https://github.com/medievildecompilation/medievil-decomp)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png){:width="100"} [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)              | Decompilation | Active, SLPM_862.47, SLPM_862.48 and SLPM_862.49 Completed |
@@ -416,15 +418,19 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
 |![](https://psxdatacenter.com/images/covers/U/T/SLUS-00437.jpg){:width="100"} [Tomb Raider II](https://github.com/Arsunt/TR2Main)              | Reimplementation | Active - v0.8.2 release |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider 1-5](https://github.com/XProger/OpenLara)              | Game Engine  Reimplementation | First game fully playable |
+|![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider 1-5](https://github.com/XProger/OpenLara)              | Game Engine Reimplementation | First Game Fully Playable |
+|![](https://upload.wikimedia.org/wikipedia/en/3/3d/Twisted_Metal_cover.jpg){:width="100"} [Twisted Metal](https://github.com/abelbriggs1/tm1_decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
 
 ---
 
 ## PlayStation 2
 
+### Fatal Frame  
+{% include link-to-other-site.html url="https://github.com/Mikompilation/Himuro" description="Decompilation project for Fatal Frame 1." image="https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png" title="Decompilation project for Fatal Frame 1 for the PS2"  %}
+
 ### Fatal Frame 2: Crimson Butterfly  
-{% include link-to-other-site.html url="https://github.com/wagrenier/Mikompilation" description="Decompilation project for the Fatal Frame 2 : Crimson Butterfly game engine. Our goal is to have a fully playable port on PC and maybe on future platforms too." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for the Fatal Frame 2 : Crimson Butterfly"  %}
+{% include link-to-other-site.html url="https://github.com/Mikompilation/Mikompilation" description="Decompilation project for Fatal Frame 2 : Crimson Butterfly game engine. Our goal is to have a fully playable port on PC and maybe on future platforms too." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for Fatal Frame 2: Crimson Butterfly for the PS2"  %}
 
 ### Jak & Daxter 1-2
 {% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="This project is to port Jak 1 (NTSC, 'black label' version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
@@ -432,14 +438,20 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ### Kingdom Hearts
 {% include link-to-other-site.html url="https://github.com/ethteck/kh1" description="We're currently just targeting the main game executable, which is an elf file SLPS_251.05 with sha1 9dabbf867a7ec2a030df99ba1ed969f2deef0488." image="https://upload.wikimedia.org/wikipedia/en/8/85/Kingdom_Hearts.jpg" title="Decompilation of the first japanese version of Kingdom Hearts for PS2"  %}
 
+### Klonoa 2: Lunatea's Veil
+{% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
+
 ### PaRappa the Rapper 2
 {% include link-to-other-site.html url="https://github.com/polybiusproxy/parappa2" description="We are currently targeting the July 12th NTSC-J prototype, but we aim to target the final NTSC-J/NTSC/PAL builds in the foreseeable future." image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation of PaRappa the Rapper 2 for the PS2"  %}
+
+### Resident Evil - Code: Veronica X  
+{% include link-to-other-site.html url="https://github.com/federicomilesi/recvx2c" description="Decompilation project for Resident Evil - Code: Veronica X." image="https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg" title="Decompilation project for Resident Evil - Code: Veronica X for the PS2"  %}
 
 ### Sly Cooper and the Thievius Raccoonus
 {% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
 
-### Klonoa 2: Lunatea's Veil
-{% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
+### Twisted Metal: Black  
+{% include link-to-other-site.html url="https://github.com/abelbriggs1/tmb_decomp" description="Decompilation project for Twisted Metal: Black." image="https://upload.wikimedia.org/wikipedia/en/9/9e/Twisted_Metal_Black.jpg" title="Decompilation project for Twisted Metal: Black for the PS2"  %}
 
 ---
 
@@ -469,9 +481,9 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/8/83/Cave_Story_title_screen.png){:width="100"} [Cave Story](https://github.com/gameblabla/CSE2)              | Decompilation | Taken down by DMCA |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg){:width="100"} [Cosmo's Cosmic Adventure](https://github.com/smitelli/cosmore)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/TheFlyingFoool/DuckGameRebuilt)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | N/A |
+|![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/TheFlyingFoool/DuckGameRebuilt)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | N/A |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg){:width="100"} [Lego Island](https://github.com/isledecomp/isle)              | Decompilation | Active, LEGO1.DLL 2948/4252 Implemented |
 |![](https://www.oldgames.sk/images/oldgames/action/Oddworld.Abes.Oddysee/Covers/oddworld-abes-oddysee-windows-front-cover.jpg){:width="100"} [Oddworld 1-2](https://github.com/AliveTeam/alive_reversing)              | Game Engine Reimplementation | Active, Playable |
