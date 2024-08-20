@@ -565,6 +565,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/519TH8TS06L._AC_UY436_FMwebp_QL65_.jpg" /> | Andrew Rollings and Ernest Adams on Game Design | Andrew Rollings and Ernest Adams | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51xxfOzpJwL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginner's Guide to DarkBASIC Game Programming | Jonathan S. Harbour and Joshua Smith | DarkBASIC | 
 <img class="lazy-load" data-image-full="" /> | Chris Crawford on Game Design | Chris Crawford | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Collision Detection in Interactive 3D Environments | Gino van den Bergen | C++ |  
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41uR2OAoJoL._SX402_BO1,204,203,200_.jpg" /> | Core Techniques and Algorithms in Game Programming | Daniel Sanchez-Crespo Dalmau | C++ with OpenGL and DirectX
 <img class="lazy-load" data-image-full="" /> | C# and Game Programming: A Beginners Guide | Salvatore Buono | C# | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51qpoeehxFL._AC_UY436_FMwebp_QL65_.jpg" /> | C++ For Game Programmers | Noel Llopis | C++ | 
