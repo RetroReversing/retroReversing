@@ -44,6 +44,8 @@ The list of books in this section is not an exhaustive list and mainly includes 
 
 ## Notable Publishers
 Some of the most note-worthy publishers for game development related books on this list are:
+* **A. K. Peters Ltd** - Textbooks related to Computer Graphics and ran from 1992 to 2010 before being bought by **CRC Press**
+* **CRC Press** - Started Game development books in 2003 and still running until present day
 * **Charles River Media** - Game Development series ran from 2002 to 2009
 * **Jones and Bartlett Publishers**
 * **Morgan Kaufmann** - The Morgan Kaufmann Series in Computer Graphics ran from 1989-2018
