@@ -500,7 +500,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Modeling a Character in 3DS Max | Paul Steed | 3DS Max | 
 <img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
 <img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
-<img class="lazy-load" data-image-full=" /> | Practical Algorithms for Three-Dimensional Computer Graphics | R. Stuart Ferguson | Visual C++ | 
+<img class="lazy-load" data-image-full="" /> | Practical Algorithms for Three-Dimensional Computer Graphics | R. Stuart Ferguson | Visual C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51N6hpNMhbL._AC_UY436_QL65_.jpg" /> | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
 <img class="lazy-load" data-image-full="" /> | Swords & circuitry: a designer's guide to computer role playing games | Neal Halford, Jana Halford | Game Design | 
 <img class="lazy-load" data-image-full="" /> | The zen of Direct3D game programming | Peter Walsh | Direct3D | 
@@ -542,6 +542,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Programming Dynamic Character Animation | David Paull | C++, DirectX, OpenGL | 
 <img class="lazy-load" data-image-full="" /> | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
+<img class="lazy-load" data-image-full="" /> | Real Sound Synthesis for Interactive Applications | Perry R. Cook | |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51O06j6UDVL._AC_UY436_QL65_.jpg" /> | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Vector Game Math Processors |  James Leiterman | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51XKTDKnPHL._AC_UY436_QL65_.jpg" /> | Visual Basic Game Programming with DirectX |  Jonathan S. Harbour | Visual Basic, DirectX | 
