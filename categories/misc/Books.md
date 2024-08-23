@@ -708,6 +708,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/510Nyjh91VL._AC_UY436_FMwebp_QL65_.jpg" /> | Artificial Life Possibilities: A Star Trek Perspective | Penny Baillie-de Byl | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/511TbvxTilL._AC_UY436_QL65_.jpg" /> | Basic Game Design & Creation for Fun & Learning | Nanu Swamy and Naveena Swamy | GameMaker 6.1 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rKviSFgDL._AC_UY436_FMwebp_QL65_.jpg" /> | Business & Legal Primer for Game Development | S. Gregory Boyd and Brian Green | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61vI4YEJFWL._SL1208_.jpg" /> | COLLADA - sailing the gulf of 3D digital content creation | Rémi Arnaud, Mark C Barnes | COLLADA (XML) | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51X7V2vYBUL._AC_UY436_FMwebp_QL65_.jpg" /> | Developing Serious Games | Bryan Bergeron | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41GAacienAL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Design: A Practical Approach | Paul Schuytema | Game Design |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51mGZghu6hL._AC_UY436_QL65_.jpg" /> | Game Developer's Open Source Handbook | Steven Goodwin | SDL, ODE | 
