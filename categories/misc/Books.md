@@ -689,6 +689,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/5135kW+kD6L._AC_UY436_FMwebp_QL65_.jpg" /> | Patterns in Game Design | Staffan Bjork, Jussi Holopainen | | 
 <img class="lazy-load" data-image-full="" /> | Polygonal Modeling: Basic and Advanced Techniques | Mario Russo | 3DS Max and Maya | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51qq-swygzL._AC_UY436_QL65_.jpg" /> | Real-time cinematography for games | Brian Hawkins | | 
+<img class="lazy-load" data-image-full="" /> | Real-Time Collision Detection | Christer Ericson | C++ |
 <img class="lazy-load" data-image-full="" /> | The complete guide to game development, art and design | David McCarthy, Ste Curran and Simon Byron | | 
 <img class="lazy-load" data-image-full="" /> | The game artist's guide to Maya | McKinley, Michael (Michael T.) | Maya | 
 <img class="lazy-load" data-image-full="" /> | The game localization handbook | Heather Maxwell Chandler | | 
