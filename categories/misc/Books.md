@@ -172,7 +172,13 @@ As for consoles it was also the year that Nintendo released their **Famicom** ba
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
+<img class="lazy-load" data-image-full="" /> | Advanced programming techniques for your Atari including Graphics & Voice programs | Linda M. Schreiber | BASIC |  
+<img class="lazy-load" data-image-full="" /> | Compute!'s first book of Atari games | Compute! Publications, Inc | BASIC, MLX Machine language | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51W3xS++PfL._SX341_BO1,204,203,200_.jpg" /> | Compute!'s Second Book of Atari Graphics | COMPUTE | | 
+<img class="lazy-load" data-image-full="" /> | Designs from your mind with ATARI graphics | Tom Rowley | BASIC |
+<img class="lazy-load" data-image-full="" /> | Dr. C. Wacko's miracle guide to designing and programming | David L Heller, John F Johnson, Robert Kurcina | BASIC | 
+<img class="lazy-load" data-image-full="" /> | Instant arcade games for the Dragon 32 | Jean Frost | BASIC | 
+<img class="lazy-load" data-image-full="" /> | Invent And Write Games Programs For The Spectrum | Noel Williams | BASIC | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51QDk6ovQES._SY291_BO1,204,203,200_QL40_ML2_.jpg" /> | Microcomputer Graphics: Techniques and Applications | Donald Hearn  | | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Programming the Dragon for games and graphics.jpg" /> | Programming the Dragon for games and graphics | Geoff Phillips | BASIC | For the Dragon series of systems
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wprJ9e2RL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Z80 assembly language subroutines | Lance A. Leventhal, Winthrop Saville | Z80 Assembly | 
