@@ -435,6 +435,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41HQVGHPW1L._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Graphics programming: Games and beyond | Sergei Savchenko | C Programming and 3Dgpl | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51A75VXTEVL._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Game programming with C++ | John De Goes | C++ Programming and Direct3D | 
+<img class="lazy-load" data-image-full="" /> | 3D Game Engine Design: A Practical Approach to Real-Time Computer Graphics | David H. Eberly | Maths, Pseudo code |  
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51XAPYD6VQL._AC_UY436_QL65_.jpg" /> | 3D Games: Real-time Rendering and Software Technology, Volume 1 | Alan Watt, Fabio Policarpo | C++ and OpenGL | Fly3D Game Engine, shows how to use SIMD instructions for Maths
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/515JX12N26L._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced 3-D Game Programming With Directx 7.0 | Adrian Perez, Dan Royer  | DirectX 7.0 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/519GMY0BG3L._AC_UY436_FMwebp_QL65_.jpg" /> | Delphi graphics and game programming exposed! with DirectX for versions 5.0-7.0 | John Ayres | Delphi and DirectX | 
@@ -500,6 +501,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Qi5vzb1jL._AC_UY436_FMwebp_QL65_.jpg" /> | Mathematics for 3D Game Programming & Computer Graphics | Eric Lengyel | 
 <img class="lazy-load" data-image-full="" /> | Modeling a Character in 3DS Max | Paul Steed | 3DS Max | 
 <img class="lazy-load" data-image-full="/public/images/books/Multiplayer Game Programming.jpg" /> | Multiplayer game programming | Todd Barron | Visual C++ and Direct X 8 | 
+<img class="lazy-load" data-image-full="" /> | Practical Algorithms for 3D Computer Graphics | R. Stuart Ferguson | OpenGL |
 <img class="lazy-load" data-image-full="/public/images/books/OpenGL Game Programming [2001].jpg" /> | OpenGL game programming | Kevin Hawkins and Dave Astle | OpenGL | 
 <img class="lazy-load" data-image-full="" /> | Practical Algorithms for Three-Dimensional Computer Graphics | R. Stuart Ferguson | Visual C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51N6hpNMhbL._AC_UY436_QL65_.jpg" /> | Pocket PC game programming | Jonathan S. Harbour | Windows CE for Pocket PC | Compiles for MIPS, SH3 and ARM
@@ -541,10 +543,11 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51T6QWcjB2L._AC_UY436_FMwebp_QL65_.jpg" /> | Online Game Interactivity Theory | Markus Friedl | Game Design | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51R1yJNHvGL._AC_UY436_QL65_.jpg" /> | Palm OS game programming | Nicholas Pleis | C PalmOS API and CodeWarrior IDE | 
 <img class="lazy-load" data-image-full="" /> | Pause & Effect: The Art of Interactive Narrative | Mark Stephen Meadows | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Practical Parallel Rendering | Alan Chalmers, Timothy Davis, Erik Reinhard | Maths | 
 <img class="lazy-load" data-image-full="" /> | Programming Dynamic Character Animation | David Paull | C++, DirectX, OpenGL | 
 <img class="lazy-load" data-image-full="" /> | Programming role-playing games with DirectX | Jim Adams | C++ and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Real-time rendering tricks and techniques in DirectX | Kelly Dempski | C++ and DirectX | 
-<img class="lazy-load" data-image-full="" /> | Real Sound Synthesis for Interactive Applications | Perry R. Cook | |
+<img class="lazy-load" data-image-full="" /> | Real Sound Synthesis for Interactive Applications | Perry R. Cook | Maths |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51O06j6UDVL._AC_UY436_QL65_.jpg" /> | Special effects Game Programming with DirectX | Mason McCuskey | C++ and DirectX | 
 <img class="lazy-load" data-image-full="" /> | Vector Game Math Processors |  James Leiterman | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51XKTDKnPHL._AC_UY436_QL65_.jpg" /> | Visual Basic Game Programming with DirectX |  Jonathan S. Harbour | Visual Basic, DirectX | 
