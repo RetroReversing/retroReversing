@@ -223,6 +223,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
 <img class="lazy-load" data-image-full="[https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://m.media-amazon.com/images/I/5140fiS5s4L._SX342_SY445_.jpg)" /> | Computer graphics - a programming approach | Steven Harrington | Language Independant (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31nXJhAWSWL._BO1,204,203,200_.jpg" /> | Techniques for computer graphics | David F Rogers,  Rae A. Earnshaw | 
 
 ---
 ## Published in 1988
@@ -716,6 +717,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51uwKf5fgJL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Production Handbook | Heather M Chandler | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51VuI9eJZGL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming in C++: Start to Finish | Erik Yuzwa | C++, SDL, OpenGL | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51D3ctXQ5LL._AC_UY436_QL65_.jpg" /> | Game Programming Gems 6 | Mike Dickheiser | | 
+<img class="lazy-load" data-image-full="" /> | The Game Programmer’s Guide to Torque | Edward F. Maurina III | Torque Game Engine | 
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FvQYN3x3L._AC_UY436_FMwebp_QL65_.jpg" /> | Learn C++ By Making Games | Erik Yuzwa and Francois Dominic Laramee | C++, SDL | 
 <img class="lazy-load" data-image-full="" /> | Level Design for Games: Creating Compelling Game Experiences | Phil Co  | Game Design | 
@@ -776,8 +778,10 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Games on Symbian OS : a handbook for mobile development | Fadi Chehimi | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51OiEeyGWSL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming Gems 7 | Scott Jacobs | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with Direct 3D 10: A Shader Approach | Frank D. Luna | DirectX 10.0 |
+<img class="lazy-load" data-image-full="" /> | Multiplayer Gaming and Engine Coding for the Torque Game Engine | Edward F. Maurina III | Torque Game Engine | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51ikJvGzsuL.jpg" /> | Nintendo Wii Flash Game Creator's Guide: Design, Develop, and Share Your Games Online | Todd Perkins | Flash | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51rHYE6fuAL._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX6: Advanced Rendering Techniques | Wolfgang Engel | | 
+<img class="lazy-load" data-image-full="" /> | The Complete Guide to Torque X | John Kanalakis | XNA, Torque Game Engine | 
 
 ---
 ## Published in 2009
