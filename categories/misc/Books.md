@@ -718,6 +718,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51VuI9eJZGL._AC_UY436_FMwebp_QL65_.jpg" /> | Game Programming in C++: Start to Finish | Erik Yuzwa | C++, SDL, OpenGL | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51D3ctXQ5LL._AC_UY436_QL65_.jpg" /> | Game Programming Gems 6 | Mike Dickheiser | | 
 <img class="lazy-load" data-image-full="" /> | The Game Programmer’s Guide to Torque | Edward F. Maurina III | Torque Game Engine | 
+<img class="lazy-load" data-image-full="" /> | Geometric Data Structures for Computer Graphics | Elmar Langetepe, Gabriel Zachmann | | 
 <img class="lazy-load" data-image-full="" /> | Introduction to 3D Game Programming with DirectX 9.0c: A Shader Approach | Frank D. Luna | DirectX 9.0c | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FvQYN3x3L._AC_UY436_FMwebp_QL65_.jpg" /> | Learn C++ By Making Games | Erik Yuzwa and Francois Dominic Laramee | C++, SDL | 
 <img class="lazy-load" data-image-full="" /> | Level Design for Games: Creating Compelling Game Experiences | Phil Co  | Game Design | 
