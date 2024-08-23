@@ -515,6 +515,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Ddxd2CKiL._AC_UY436_FMwebp_QL65_.jpg" /> | 3D Math Primer for Graphics and Game Development | Fletcher Dunn | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51-9go5Qn8L._AC_UY436_QL65_.jpg" /> | AI Game Programming Wisdom | Steve Rabin | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/519gPHWXUeL._AC_UY436_QL65_.jpg" /> | AI techniques for Game Programming | Mat Buckland | | Genetic Algorithms and Neural Networks
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51psqXTsVvL._AC_UY436_QL65_.jpg" /> | Andrew Glassner's Other Notebook | Andrew Glassner | |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51slccngF1L._AC_UY436_FMwebp_QL65_.jpg" /> | Animating Real-Time Game Characters | Paul Steed | 3ds Max | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/61Aaej1lPfL._AC_UY436_FMwebp_QL65_.jpg" /> | Direct3D ShaderX: Vertex and Pixel Shader Tips and Tricks | Wolfgang Engel | DirectX | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51jhxrVY96L._AC_UY436_FMwebp_QL65_.jpg" /> | ShaderX2: Introduction and tutorials with DirectX 9.0 | Wolfgang Engel | DirectX 9.0 | 
@@ -617,6 +618,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Advanced Lighting and Materials with Shaders | Kelly Dempski, Emmanuel Viale | | 
 <img class="lazy-load" data-image-full="" /> | AI game development: synthetic creatures with learning and reactive behaviors | Alex J. Champandard | |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51FvWheSzmL._AC_UY436_FMwebp_QL65_.jpg" /> | AI Game Engine Programming | Brian Schwab | | 
+<img class="lazy-load" data-image-full="" /> | Artificial Intelligence for Computer Games: An Introduction | John David Funge | |  
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/513gVsR0noL._AC_UY436_FMwebp_QL65_.jpg" /> | Awesome 3D game development: no programming required | Clayton E. Crooks II | Multimedia Fusion, The 3D GameMaker and MilkShape 3D | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/41X27dRWptL._AC_UY436_FMwebp_QL65_.jpg" /> | Beginning C++ Game Programming (Game Development Series) | Michael Dawson | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/412ZHMQ786L._SX383_BO1,204,203,200_.jpg" /> | Beginning Game Boy Advance Programming | Jonathan Harbour | C Programming, GBA | 
