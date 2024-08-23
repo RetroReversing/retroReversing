@@ -560,6 +560,7 @@ The year 2003 was the start of **New Riders Games (NRG)** a subset of New Riders
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Z1AW095AL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced 3D Game Programming with DirectX 9.0 | Peter Walsh | DirectX 9.0 | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Z1AW095AL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Global Illumination | Philip Dutré, Philippe Bekaert, Kavita Bala | Maths |
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51J09Q9KS8L._AC_UY436_FMwebp_QL65_.jpg" /> | Ai Game Development: Synthetic Creatures With Learning and Reactive Behaviors | Alex J. Champandard  | C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51FcLMYi4UL._AC_UY436_QL65_.jpg" /> | AI Game Programming Wisdom 2 | Steve Rabin | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/519TH8TS06L._AC_UY436_FMwebp_QL65_.jpg" /> | Andrew Rollings and Ernest Adams on Game Design | Andrew Rollings and Ernest Adams | Game Design | 
