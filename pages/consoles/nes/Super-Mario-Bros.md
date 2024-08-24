@@ -23,7 +23,8 @@ This board was commonly used in early NES games and did not include any special 
 This board was a standard ROM-only (NROM) configuration, featuring 32 KB of PRG (Program) ROM and 8 KB of CHR (Character) ROM. The "256" in the name refers to the size of the PRG ROM in kilobits (32 KB = 256 kilobits).
 
 You can see the Board name clearly at the top of the circuit board in the photo below:
-![ea16e048938de741bfe5bc884a496ce0](https://github.com/user-attachments/assets/0b0facc7-be4f-4bf4-b3fc-593f9701e2c5)
+![NES-NROM-256-01](https://github.com/user-attachments/assets/2c0dd1e8-d809-4914-8b85-1aaa77fb868e)
+
 You can see that there are 3 main chips, from left to right:
 * The Lockout Chip - used for piracy prevention
 * The CHR ROM - used for art/graphic data
