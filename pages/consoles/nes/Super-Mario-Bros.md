@@ -146,7 +146,8 @@ If you open the NES ROM in Ghidra you will get an output in the decompilation wi
 
 // Global variables referenced in the code
 extern byte[5] TopScoreDisplay; // Location 0x07d7 - Holds the Top score
-extern byte WarmBootValidation; // Location 0x07ff - Whether we are warm boot or not. 
+extern byte WarmBootValidation; // Location 0x07ff - Whether we are warm boot or not.
+extern byte DisableScreenFlag; // Location 0x0773 - Whether the screen is enabled or not
 
 void Start() // By default its called reset because GhidraNes detected its the reset Vector
 {
@@ -186,23 +187,19 @@ do {
   }
 
 ColdBoot:
-  *(undefined2 *)(sVar4 + -1) = 0x802e;
-  OperMode = InitializeMemory((bootJumpPointer);
+  OperMode = InitializeMemory(bootJumpPointer);
   DMC_RAW = OperMode;
   WarmBootValidation = WARM_BOOT_FLAG;
   PseudoRandomBitReg = WARM_BOOT_FLAG;
-  SND_CHN = 0xf; // Enable all sound channels except dmc
-  PPUMASK = 6;
-  *(undefined2 *)(sVar4 + -1) = 0x8049;
+  SND_CHN = 0b00001111; // Enable all sound channels except dmc
+  PPUMASK = 0b00000110; // Turn off clipping for OAM and background
   MoveAllSpritesOffscreen(6);
-  *(undefined2 *)(sVar4 + -1) = 0x804c;
   InitializeNameTables();
-  DisableScreenFlag = DisableScreenFlag + '\x01';
-  bVar2 = Mirror_PPU_CTRL_REG1 | 0x80;
-  *(undefined2 *)(sVar4 + -1) = 0x8057;
-  WritePPUReg1(bVar2);
+  DisableScreenFlag += 1;
+  newPPURegister1Value = Mirror_PPU_CTRL_REG1 | 0x80; // Enable NMIs
+  WritePPUReg1(newPPURegister1Value);
   do {
-                    /* WARNING: Do nothing block with infinite loop */
+// infinite loop until the Non Maskable Interupt fires
   } while( true );
 }
 ```
