@@ -294,7 +294,7 @@ void InitializeMemory(byte bootJumpOffset)
 ```
 
 ---
-## The MoveAllSpritesOffscreen Function
+## The MoveAllSpritesOffscreen function
 This code is intended to manipulate the positions of sprites in NES game development by moving them off-screen. 
 
 The NES handles sprite data in an area of memory called the Object Attribute Memory (OAM). Each sprite's position, appearance, and other attributes are stored here.
@@ -322,3 +322,76 @@ void MoveAllSpritesOffscreen()
  This is because the Y position is the first byte in the 4 byte Sprite in OAM memory.
  
  The Y-coordinate of (0xF8) 248 is off-screen on the NES (as the visible Y-coordinate range is 0–239), effectively hiding the sprite
+
+---
+## The InitializeNameTables function
+The InitializeNameTables function sets up the name tables and attribute tables for rendering the background on the screen. 
+
+Name tables define the layout of background tiles on the screen, and attribute tables define the color properties for those tiles. The code prepares these tables by clearing them and setting them to a default state. 
+
+```c
+void InitializeNameTables()
+{
+  char cVar1;
+  byte currentPPUStatus;
+
+// Reading from PPU_STATUS ($2002) is a common practice to reset the PPU’s internal address latch (or flip-flop). This ensures that subsequent writes to the PPU address or data ports will work correctly.
+  currentPPUStatus = PPUSTATUS;
+
+// See section below explaining the changes to the PPU Bit flags (sprite and background data flags)
+  WritePPUReg1(Mirror_PPU_CTRL_REG1 & 0xf0 | 0x10);
+
+  PPUADDR = 0x24;
+  PPUADDR = 0;
+  VRAM_Buffer1_Offset = '\x04';
+  cVar1 = -0x40;
+  do {
+    do {
+      PPUDATA = 0x24;
+      cVar1 = cVar1 + -1;
+    } while (cVar1 != '\0');
+    VRAM_Buffer1_Offset = VRAM_Buffer1_Offset + -1;
+  } while (VRAM_Buffer1_Offset != '\0');
+  cVar1 = '@';
+  do {
+    PPUDATA = 0;
+    cVar1 = cVar1 + -1;
+  } while (cVar1 != '\0');
+  DAT_0301 = VRAM_Buffer1_Offset;
+  DAT_073f = VRAM_Buffer1_Offset;
+  DAT_0740 = VRAM_Buffer1_Offset;
+  InitScroll();
+  return;
+}
+```
+
+### Updating the PPU Control Register 1 to set Sprite and Background information
+Mario Bros sets up the PPU Control Register 1 with certain bits set to control functionality of the Picture Processing Unit (PPU).
+The following code is used:
+```c
+// Change the PPU Control Register 1 to:
+// * '| 0x10' - Bitwise OR to set Bit 4 which means it has sprites for first 4kb and background for second 4kb
+// * '& 0xf0' - Bitwise AND that clears rest of lower nybble, leave higher nybble alone
+  WritePPUReg1(Mirror_PPU_CTRL_REG1 & 0xf0 | 0x10);
+```
+This setup is common when the developer wants to separate sprite and background graphics into distinct sections of VRAM, simplifying sprite and background management.
+
+By setting bit 4 to 1 (0x10) (with `| 0x10`), the code configures the PPU to use the first 4 KB of pattern table memory for sprites and the second 4 KB for the background.
+
+#### Why Clear the Lower Nibble?
+By clearing the lower nibble (with `& 0xF0`), the code is explicitly resetting bits 0–3 to 0. This ensures that specific settings for nametable selection, VRAM increment, and pattern table addresses are cleared. This can be important if the code needs a clean slate, especially if these bits were previously set to something that could conflict with the desired behavior.
+
+* **Reset Specific Settings** - By clearing the lower nibble (`& 0xF0`), the code is explicitly resetting bits 0–3 to `0`. This ensures that specific settings for nametable selection, VRAM increment, and pattern table addresses are cleared. This can be important if the code needs a clean slate, especially if these bits were previously set to something that could conflict with the desired behavior.
+
+* **Avoid Unintended Behavior** - If the lower nibble were not cleared, any leftover settings in bits 0–3 could cause unintended changes in how the PPU handles background rendering or sprite patterns. For example, if bit 3 were set to `1` instead of `0`, the background would use the first 4 KB of the pattern table instead of the second 4 KB, which could result in incorrect graphics being displayed.
+
+* **Explicit Control** - Clearing the lower nibble provides explicit control over which bits are set in the `PPUCTRL` register. This is especially important in NES development, where fine control over the PPU is crucial for correct rendering.
+
+#### What are the Lower nibble bytes doing?
+**PPU Control Register 1** is an 8-bit register with various bits controlling different aspects of the NES's PPU operation. The bits in the lower nibble (bits 0–3) are particularly important for configuring background and sprite rendering:
+
+- **Bit 0** (`Base nametable address`): Controls which nametable (background map) is used as the base for the background.
+- **Bit 1** (`VRAM address increment`): Determines the increment value for the PPU's address after accessing its data.
+- **Bit 2** (`Sprite pattern table address for 8x8 sprites`): Selects which 4 KB of pattern table memory to use for sprites.
+- **Bit 3** (`Background pattern table address`): Selects which 4 KB of pattern table memory to use for the background.
+
