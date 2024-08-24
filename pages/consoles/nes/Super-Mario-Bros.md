@@ -12,6 +12,9 @@ editlink: /consoles/nes/Super-Mario-Bros.md
 _updatedAt: '2024-08-17'
 ---
 
+# Introduction
+This page will give a brief overview of how Super Mario Bros for the Nintendo Entertainment System (NES) works. This page wouldn't have been possible without the excellent work by **doppelganger** on their [Comprehensive Super Mario Bros. Disassembly](https://gist.github.com/1wErt3r/4048722).
+
 # Cartridge
 ![SuperMarioBrosNes](https://github.com/user-attachments/assets/ebc2b54b-9e71-451e-88c7-7d11c056e775)
 
@@ -87,4 +90,24 @@ The Reset Vector is called a "vector" because it acts as a pointer directing the
 
 The term **"Reset Vector"** refers to the memory location that the CPU is directed to when it undergoes a reset. The reason it's called a "vector" is due to the way computer architecture traditionally handles interrupts and resets.
 
+## Super Mario Bros Reset Vector
+If you scroll all the way to the bottom of the [Disassembly](https://gist.github.com/1wErt3r/4048722) you will see a section that looks like the following:
+```assembly
+;-------------------------------------------------------------------------------------
+;INTERRUPT VECTORS
 
+      .dw NonMaskableInterrupt
+      .dw Start
+      .dw $fff0  ;unused
+```
+In this you can see that there are three vectors defined, although the last one is unused. In order they are:
+* NMI Vector: $FFFA-$FFFB
+* Reset Vector: $FFFC-$FFFD
+* IRQ/BRK Vector: $FFFE-$FFFF
+
+The Non Maskable Interrupt (**NMI**) is crucial for synchronizing game logic with the display, as it occurs at a regular interval determined by the PPU.
+The IRQ/BRK Vector is not used in Mario Bros so it can be safely ignored.
+
+But we are first interested in the Reset Vector which is a 16bit (2 byte) pointer to the Subroutine/Function called helpfully called **Start**.
+
+Now its time to scroll all the way back to the top of the disasembly to find the definition of the **Start** function.
