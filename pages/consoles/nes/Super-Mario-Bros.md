@@ -17,10 +17,29 @@ _updatedAt: '2024-08-17'
 
 The original **Super Mario Bros.** cartridge for the NES used the **NES-NROM-256** board (**HVC-NROM-256K** in Japan). 
 
-This board was a standard ROM-only (NROM) configuration, featuring 32 KB of PRG (Program) ROM and 8 KB of CHR (Character) ROM. The "256" in the name refers to the size of the PRG ROM in kilobits (32 KB = 256 kilobits).
-
 This board was commonly used in early NES games and did not include any special memory mapping hardware, relying solely on the CPU's built-in capabilities to access the ROM data.
 
+## NROM-256
+This board was a standard ROM-only (NROM) configuration, featuring 32 KB of PRG (Program) ROM and 8 KB of CHR (Character) ROM. The "256" in the name refers to the size of the PRG ROM in kilobits (32 KB = 256 kilobits).
+
+You can see the Board name clearly at the top of the circuit board in the photo below:
+![ea16e048938de741bfe5bc884a496ce0](https://github.com/user-attachments/assets/0b0facc7-be4f-4bf4-b3fc-593f9701e2c5)
+You can see that there are 3 main chips, from left to right:
+* The Lockout Chip - used for piracy prevention
+* The CHR ROM - used for art/graphic data
+* The PRG ROM - used for program code and other data such as sound/music
+
+### Vertical Mirroring
+You can also see near the middle of the board is a gold circle with a V beside it, this means that the data is mirrored Vertical (if the circle was on the right beside the H symbol it would be Horizontal.
+
+In NES cartridges, the terms Vertical Mirroring and Horizontal Mirroring refer to how the PPU (Picture Processing Unit) maps the Name Tables in memory, which are used to store background tile data for rendering the game's screen. 
+
+The NES has the ability to display up to four different Name Tables, but with most games, only two are used due to memory limitations. Mirroring determines how these two Name Tables are mapped across the available memory space.
+
+Vertical Mirroring is best suited for **horizontally scrolling games** because it allows continuous horizontal scrolling without repeating the left and right edges. SO this is why its used in Super Mario Bros.
+
+
+## Cartridge Revisions
 The number at the end of the board designation, such as **NES-NROM-256-01**, typically refers to a specific version or revision of that particular board type. 
 
 In this case it was used for revisions based on region as can be seen in the table below:
