@@ -107,6 +107,22 @@ There are a few useful script for working with PS3 executables on [Github](https
 Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 
 ---
+# Ghidra decompiler macros
+WHen using the decompiler Ghidra spits out code which uses a number of macros which are not immedietly obvious of their function, we provide some of these below with our reccomendation of an easier to read version.
+
+## CONCAT11(x, y)
+In Ghidra, the CONCAT11(x, y) operation combines two 8-bit values (x and y) into a single 16-bit value. The operation is defined as:
+```c
+#define CONCAT11(x, y) = (((uint16_t)x) << 8) | ((uint8_t)y)
+```
+
+When cleaning up the deocmpiled code we suggest using the following replacement as it is more explicit about the purpose:
+```c
+// MergeBytesTo16Bit -  combines high and low bytes into a single 16bit value
+#define MergeBytesTo16Bit(highByte, lowByte) = (((uint16_t)highByte) << 8) | ((uint8_t)lowByte)
+```
+
+---
 # All Ghidra Posts
 <div>
 
