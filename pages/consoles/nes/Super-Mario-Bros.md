@@ -9,7 +9,7 @@ recommend:
 - nes
 - game
 editlink: /consoles/nes/Super-Mario-Bros.md
-updatedAt: '2024-08-17'
+_updatedAt: '2024-08-17'
 ---
 
 # Cartridge
