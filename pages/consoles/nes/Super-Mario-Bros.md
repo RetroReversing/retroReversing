@@ -43,7 +43,7 @@ The NES has the ability to display up to four different Name Tables, but with mo
 Vertical Mirroring is best suited for **horizontally scrolling games** because it allows continuous horizontal scrolling without repeating the left and right edges. SO this is why its used in Super Mario Bros.
 
 
-## Cartridge Revisions
+### Cartridge Revisions
 The number at the end of the board designation, such as **NES-NROM-256-01**, typically refers to a specific version or revision of that particular board type. 
 
 In this case it was used for revisions based on region as can be seen in the table below:
@@ -63,7 +63,7 @@ Note that the table above was provided thanks to the data available at [NesCartD
 
 Revisions might involve minor changes or improvements to the board's design, manufacturing process, or component layout, but they don't typically affect the overall functionality or behavior of the game.
 
-## The ROM
+### The ROM
 If you legally back up your Super Mario Bros NES ROM you will notice that the size of the ROM is about 41KB (40,976 bytes to be precise), this makes sense as the ROM file is based on the storage of the cartridge plus a 16 byte header of information about the cartridge:
 - **32 KB** (32,768 bytes) of Program Code (PRG) ROM
 - **8 KB** (8,192 bytes) of Graphics (CHR) ROM
@@ -73,9 +73,27 @@ The total of these is:
 
 > 32,768 bytes + 8,192 bytes + 16 bytes = 40,976 bytes
 
+### Limitations of the Cartridge Board
 Compared to modern games this is tiny, infact a screenshot Super Mario Bros could be bigger than 41KB! Every byte was valuable during the development of the game.
 
 This is why later games such as Mario Bros 2 and 3 would have more ROM data in the cartridge to give the programmers more room to work with all the new features.
+
+It also limits what ROM Hackers can do with the code, as they can't simply add a new level as there is not enough space (without deleting other levels or functionality). 
+
+This is where **Mapper Hacks** come in useful, they convert a game that was supposed to run on one Cartridge board (e.g Mario's NES-NROM-256-01) to another Cartirdge board with more Program and Character ROM available.
+
+---
+## The Mapper (Mapper 0)
+An **iNES Mapper** is a component of the iNES format, which is a standard for representing NES (Nintendo Entertainment System) game cartridges in digital form. The iNES Mapper system helps handle the various memory management and hardware features required by different NES cartridges.
+
+The iNES header is only used for emulators (and flash carts) because the same data is available in the game cartridge in physical hardware form (e.g the number of chips on the board or how they are wired together).
+
+Super Mario Bros. uses iNES Mapper 0. This is a simple and straightforward mapper configuration that doesn't involve advanced features like bank switching or additional memory management. The game’s ROM is directly mapped into the NES's memory space, which fits within the constraints of Mapper 0’s capabilities.
+
+### Mapper Hacks for Super Mario Bros
+So to extend Super Mario Bros. such as adding new levels you will need more space to work with, to do this you will need to modify the ROM to use a different mapper (such as Mapper 0) to give more bytes to play around with.
+
+One examable of Mario converted to run in the MMC01 Mapper is available on RomHacking: [SxROM Mario Bros.](https://www.romhacking.net/hacks/1000/)
 
 ---
 # Start of the game
