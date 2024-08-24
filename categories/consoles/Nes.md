@@ -52,6 +52,10 @@ If you are interested to see existing reversing projects for the NES check out o
 ## Super Mario Bros
 The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
 
+### Super Mario Bros Annotated Disassembly
+If you are interested in how Super Mario Bros works (or to really get an insight into how any NROM Mapper 0 game works) you need to check out
+[A Comprehensive Super Mario Bros. Disassembly](https://gist.github.com/1wErt3r/4048722) by **doppelganger**.
+
 ### Super Mario Compiler
 The website **neilb.net** has created what it calls a **Mario Compiler** which takes in the original Super Mario Bros ROM and disassembles it.
 The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM. All from within the web application!
@@ -65,6 +69,10 @@ You can also view the source code for the project here: [nbarkhina/MarioCompiler
 
 You can find it on Github here:
 [SuperMarioBros-C/README.md at master · MitchellSternke/SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C/blob/master/README.md)
+
+### Extracting Super Mario Bros levels in Python
+Matthew Earl has an excellent post on how he managed to extract the level data for Super Mario Bros using the disassembly project and python scripts:
+[Extracting Super Mario Bros levels with Python - Matt's Ramblings](http://matthewearl.github.io/2018/06/28/smb-level-extractor/)
 
 ---
 # Hardware
