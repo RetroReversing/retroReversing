@@ -73,3 +73,18 @@ The total of these is:
 Compared to modern games this is tiny, infact a screenshot Super Mario Bros could be bigger than 41KB! Every byte was valuable during the development of the game.
 
 This is why later games such as Mario Bros 2 and 3 would have more ROM data in the cartridge to give the programmers more room to work with all the new features.
+
+---
+# Start of the game
+The NES knows where to start executing code based on the **Reset Vector**, which is a specific memory address stored in the last two bytes of the Program (PRG) ROM. 
+
+When the NES is powered on (or **reset** button is pressed), the CPU (the Ricoh 2A03 or 2A07, depending on the region) automatically reads the Reset Vector to determine the starting point for execution. Without this vector, the CPU would not know where to start, leading to undefined behavior
+
+## Reset Vector
+The term "Reset Vector" refers to the memory location that the CPU is directed to when it undergoes a reset. 
+
+The Reset Vector is called a "vector" because it acts as a pointer directing the CPU to the starting address in memory where it should begin executing code after a reset. The term is consistent with other types of vectors in computer architecture that serve similar purposes for different types of system events.
+
+The term **"Reset Vector"** refers to the memory location that the CPU is directed to when it undergoes a reset. The reason it's called a "vector" is due to the way computer architecture traditionally handles interrupts and resets.
+
+
