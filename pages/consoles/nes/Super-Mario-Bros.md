@@ -110,7 +110,7 @@ But we are first interested in the Reset Vector which is a 16bit (2 byte) pointe
 
 ## The Start Function
 Now its time to scroll all the way back to the top of the disasembly to find the definition of the **Start** function.
-```
+```assembly
 ;-------------------------------------------------------------------------------------
 ;DIRECTIVES
 
@@ -151,18 +151,19 @@ extern byte DisableScreenFlag; // Location 0x0773 - Whether the screen is enable
 
 void Start() // By default its called reset because GhidraNes detected its the reset Vector
 {
+  SetInterruptDisable(); // Not a real Function, this is just to highlight the call to the SEI instruction to disable all interrupts while initializing the game
   PPUCTRL = 0x10; // Initialize PPU control register 1 to value of binary 00010000 ( See section below why this is the case)
 
   stackPointer = (uint8_t *) 0xff; // reset the stack pointer
 
-char currentPPUStatus;
+  char currentPPUStatus;
 
-// Wait for VBlank 1
-do {
+  // Wait for VBlank 1
+  do {
     currentPPUStatus = PPUSTATUS;
   } while (currentPPUStatus > -1);
 
-// Wait for VBlank 2
+  // Wait for VBlank 2
   do {
     currentPPUStatus = PPUSTATUS;
   } while (currentPPUStatus > -1);
