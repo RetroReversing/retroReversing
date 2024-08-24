@@ -187,11 +187,11 @@ do {
 
 ColdBoot:
   *(undefined2 *)(sVar4 + -1) = 0x802e;
-  OperMode = InitializeMemory(uVar3);
+  OperMode = InitializeMemory((bootJumpPointer);
   DMC_RAW = OperMode;
   WarmBootValidation = WARM_BOOT_FLAG;
-  DAT_07a7 = 0xa5;
-  SND_CHN = 0xf;
+  PseudoRandomBitReg = WARM_BOOT_FLAG;
+  SND_CHN = 0xf; // Enable all sound channels except dmc
   PPUMASK = 6;
   *(undefined2 *)(sVar4 + -1) = 0x8049;
   MoveAllSpritesOffscreen(6);
