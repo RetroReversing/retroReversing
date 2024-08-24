@@ -108,4 +108,86 @@ The IRQ/BRK Vector is not used in Mario Bros so it can be safely ignored.
 
 But we are first interested in the Reset Vector which is a 16bit (2 byte) pointer to the Subroutine/Function called helpfully called **Start**.
 
+## The Start Function
 Now its time to scroll all the way back to the top of the disasembly to find the definition of the **Start** function.
+```
+;-------------------------------------------------------------------------------------
+;DIRECTIVES
+
+       .index 8 ; This directive likely specifies that indexed operations should consider 8-bit addressing, aligning with the 6502 processor’s 8-bit index registers
+       .mem 8 ; This directive might dictate that memory operations or alignment should be based on 8-bit boundaries, ensuring proper data alignment or access.
+
+       .org $8000
+
+;-------------------------------------------------------------------------------------
+
+Start:
+             sei                          ;pretty standard 6502 type init here
+             cld
+             lda #%00010000               ;init PPU control register 1 
+             sta PPU_CTRL_REG1
+             ldx #$ff                     ;reset stack pointer
+             txs
+```
+You can ignore the .index and .mem directives these are just for the specific assembler that is used to build this specific disassembly. In this case it was for assembling in the old DOS-only x816 assembler which doesn't even run correctly in DOSBox, so it is unlikely you will be using that assembler.
+
+The `.org` directive is useful as it tells the assembler where to put the next block of code, in this case at location hex 0x8000 which is the starting address of the first PRG ROM bank that is mapped into the address space. So the Start function will be placed right at the start of **Program** memory and the NES can access it by using the address 0x8000.
+
+This address is exactly where the Reset Vector is pointing, so if you look at memory in a Hex editor it will have the byte 0x80 at the location 0xFFFC.
+
+### The Start Function decompiled
+If you open the NES ROM in Ghidra you will get an output in the decompilation window, we have tidied this up and added comments around the code to give a clearer idea of what is happening:
+```
+void Start() // By default its called reset because GhidraNes detected its the reset Vector
+{
+  char cVar1;
+  byte bVar2;
+  undefined uVar3;
+  short sVar4;
+
+// Setup the PPU control register 1
+// These bits in the PPU Control Register 1 are used to configure the NES's video hardware to control how sprites and backgrounds are rendered and how the PPU handles memory operations and interrupts. Properly setting these bits is crucial for correct graphics display and game functionality.
+
+  PPUCTRL = 0x10; // init PPU control register 1 to value of binary 00010000
+
+// We have now set the 5th Bit (from the left) to 1 which means we want to set the Increment Mode
+// In the NES's PPU (Picture Processing Unit), the "Increment Mode" setting determines how the address pointer for PPU memory operations (such as accessing the nametable, attribute tables, or pattern tables) is updated after each read or write operation.
+// This means the PPU will now Increment the address by 32 bytes after each operation. This is suitable for accessing memory in larger chunks, such as accessing an entire row of tiles or attributes in a nametable.
+
+  sVar4 = CONCAT11((char)((ushort)&stack0x0000 >> 8),0xff);
+  do {
+    cVar1 = PPUSTATUS;
+  } while (-1 < cVar1);
+  do {
+    cVar1 = PPUSTATUS;
+  } while (-1 < cVar1);
+  uVar3 = 0xfe;
+  bVar2 = 5;
+  do {
+    if (9 < (byte)(&DAT_07d7)[bVar2]) goto ColdBoot;
+    bVar2 = bVar2 - 1;
+  } while (-1 < (char)bVar2);
+  if (DAT_07ff == -0x5b) {
+    uVar3 = 0xd6;
+  }
+ColdBoot:
+  *(undefined2 *)(sVar4 + -1) = 0x802e;
+  OperMode = InitializeMemory(uVar3);
+  DMC_RAW = OperMode;
+  DAT_07ff = 0xa5;
+  DAT_07a7 = 0xa5;
+  SND_CHN = 0xf;
+  PPUMASK = 6;
+  *(undefined2 *)(sVar4 + -1) = 0x8049;
+  MoveAllSpritesOffscreen(6);
+  *(undefined2 *)(sVar4 + -1) = 0x804c;
+  InitializeNameTables();
+  DisableScreenFlag = DisableScreenFlag + '\x01';
+  bVar2 = Mirror_PPU_CTRL_REG1 | 0x80;
+  *(undefined2 *)(sVar4 + -1) = 0x8057;
+  WritePPUReg1(bVar2);
+  do {
+                    /* WARNING: Do nothing block with infinite loop */
+  } while( true );
+}
+```
