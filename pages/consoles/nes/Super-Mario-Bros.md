@@ -144,12 +144,19 @@ void Start() // By default its called reset because GhidraNes detected its the r
 
   stackPointer = (uint8_t *) 0xff; // reset the stack pointer
 
+char currentPPUStatus;
+
+// Wait for VBlank 1
 do {
-    cVar1 = PPUSTATUS;
-  } while (-1 < cVar1);
+    currentPPUStatus = PPUSTATUS;
+  } while (currentPPUStatus > -1);
+
+// Wait for VBlank 2
   do {
-    cVar1 = PPUSTATUS;
-  } while (-1 < cVar1);
+    currentPPUStatus = PPUSTATUS;
+  } while (currentPPUStatus > -1);
+
+
   uVar3 = 0xfe;
   bVar2 = 5;
   do {
