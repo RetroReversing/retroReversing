@@ -36,7 +36,8 @@ There are a few use cases where you would want to use a reversing emulator rathe
 * Re-mastering games with higher quality assets
 
 # Where do I download?
-Version 0.1 is only available for MacOSX and you need RetroArch pre-installed, you can get version 0.1 here: https://www.mediafire.com/file/jd2oe9x7o9n715v/release-0.1-mac.zip/file
+Version 0.1 is only available for MacOSX and you need RetroArch pre-installed, you can get version 0.1 [here](https://www.mediafire.com/file/jd2oe9x7o9n715v/release-0.1-mac.zip/file). 
+If you want other platforms you will need to midify the source code slightly.
 
 Extract the zip file and drag and drop a GB/NES/SNES/GG/SMS ROM file on to the application called **run_macosx.app** and it should open the interface in your default web browser.
 
@@ -46,6 +47,9 @@ To run a GameBoy game, open a terminal in the directory you extracted and run:
 ```
 
 It will open a new tab in your default browser pointing to "http://localhost:1234/#/", Click on Resume in the top Header and then click Run to start the game.
+
+![image](https://github.com/user-attachments/assets/6cb5c457-633f-48c3-9740-3526d97eec7d)
+
 
 ---
 # libRetroReversing
