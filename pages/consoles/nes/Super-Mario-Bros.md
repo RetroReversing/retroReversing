@@ -140,15 +140,11 @@ If you open the NES ROM in Ghidra you will get an output in the decompilation wi
 ```c
 void Start() // By default its called reset because GhidraNes detected its the reset Vector
 {
-  char cVar1;
-  byte bVar2;
-  undefined uVar3;
-  short sVar4;
-
   PPUCTRL = 0x10; // Initialize PPU control register 1 to value of binary 00010000 ( See section below why this is the case)
 
-  sVar4 = CONCAT11((char)((ushort)&stack0x0000 >> 8),0xff);
-  do {
+  stackPointer = (uint8_t *) 0xff; // reset the stack pointer
+
+do {
     cVar1 = PPUSTATUS;
   } while (-1 < cVar1);
   do {
@@ -205,4 +201,20 @@ This means the PPU will now Increment the address by 32 bytes after each operati
 For Background Tile Data: When using an increment mode of 32 bytes, you can more efficiently handle background tile data because a single increment operation advances you by an entire row of 32 bytes. For example, if you are writing tile data to a nametable, using a 32-byte increment means you can easily update an entire row of tiles in one go.
 
 For Attribute Tables: For attribute tables, which are used to define the properties of tiles (such as color and palette), using a 32-byte increment means you can move to the next row of attributes quickly, as each row is 32 bytes in size.
+
+### Reset the Stack Pointer
+The stack pointer on the NES starts at the high end of the stack area in memory. 
+
+By setting the stack pointer to 0xFF, you initialize it to the highest address of the stack segment.
+
+Note that this is not real C Code, it is imagining that the stackPointer could be changed by setting it as a variable:
+```
+  stackPointer = (uint8_t *) 0xff; // reset the stack pointer back to the top at location in memory 0xFF
+```
+
+The stack in the 6502 processor grows downwards, meaning it starts at the high end of the stack segment and grows towards lower memory addresses. 
+
+Setting the stack pointer to 0xFF prepares the stack for use by pushing data onto it.
+
+This is required because the player might have just been playing the game and press reset and the stack will be dirty with all the values that were placed on it during the last game. We need to make sure we are starting fresh!
 
