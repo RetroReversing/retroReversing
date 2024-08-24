@@ -343,23 +343,28 @@ void InitializeNameTables()
 
   PPUADDR = 0x24;
   PPUADDR = 0;
-  VRAM_Buffer1_Offset = '\x04';
-  cVar1 = -0x40;
+  VRAM_Buffer1_Offset = 4;
+  
+// Nametable loop (192 times)
+uint8_t i = 192;
   do {
     do {
-      PPUDATA = 0x24;
-      cVar1 = cVar1 + -1;
-    } while (cVar1 != '\0');
+      PPUDATA = 0x24; // Set to Blank tile 0x24
+      i = i - 1;
+    } while (i != 0);
     VRAM_Buffer1_Offset = VRAM_Buffer1_Offset + -1;
-  } while (VRAM_Buffer1_Offset != '\0');
-  cVar1 = '@';
+  } while (VRAM_Buffer1_Offset != 0);
+
+// Attribute Table Loop (64 times)
+  uint8_t j = 64;
   do {
-    PPUDATA = 0;
-    cVar1 = cVar1 + -1;
-  } while (cVar1 != '\0');
-  DAT_0301 = VRAM_Buffer1_Offset;
-  DAT_073f = VRAM_Buffer1_Offset;
-  DAT_0740 = VRAM_Buffer1_Offset;
+    PPUDATA = 0; // Reset Attribute to 0
+    j = j - 1;
+  } while (j != 0);
+
+  HorizontalScroll = 0;
+  VerticalScroll = 0;
+
   InitScroll();
   return;
 }
