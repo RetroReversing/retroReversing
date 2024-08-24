@@ -138,6 +138,16 @@ This address is exactly where the Reset Vector is pointing, so if you look at me
 ### The Start Function decompiled
 If you open the NES ROM in Ghidra you will get an output in the decompilation window, we have tidied this up and added comments around the code to give a clearer idea of what is happening:
 ```c
+
+// constants
+#define WARM_BOOT_FLAG 0xA5
+#define WarmBootOffset 0xd6
+#define ColdBootOffset 0xfe
+
+// Global variables referenced in the code
+extern byte[5] TopScoreDisplay; // Location 0x07d7 - Holds the Top score
+extern byte WarmBootValidation; // Location 0x07ff - Whether we are warm boot or not. 
+
 void Start() // By default its called reset because GhidraNes detected its the reset Vector
 {
   PPUCTRL = 0x10; // Initialize PPU control register 1 to value of binary 00010000 ( See section below why this is the case)
@@ -157,25 +167,29 @@ do {
   } while (currentPPUStatus > -1);
 
 
+ byte bootJumpPointer = 0xfe; // By default set the bootJumpPointer to ColdBootOffset, but we are just about to check if its a warm boot and override
+
 // Check if we are a Warm Boot or a Cold Boot
 // Warm Boot is when player pressed reset button as they had previously been playing the game
 // Todo this we just check if the Top Score has changed from the default value
-  uVar3 = 0xfe;
+ 
   char i = 5;
   do {
+// It is only possible for players to get the decimal digits 0->9 as a score so if the byte is higher (hex) then it must be default score which means we are a cold boot
     if (TopScoreDisplay[i] > 9) goto ColdBoot;
     i = i - 1;
   } while (i > -1);
 
-
-  if (DAT_07ff == -0x5b) {
-    uVar3 = 0xd6;
+// Second check for a ColdBoot
+  if (WarmBootValidation == WARM_BOOT_FLAG) {
+    bootJumpPointer = WarmBootOffset; // Set the bootJumpPointer to WarmBootOffset as the player has played the game previously
   }
+
 ColdBoot:
   *(undefined2 *)(sVar4 + -1) = 0x802e;
   OperMode = InitializeMemory(uVar3);
   DMC_RAW = OperMode;
-  DAT_07ff = 0xa5;
+  WarmBootValidation = WARM_BOOT_FLAG;
   DAT_07a7 = 0xa5;
   SND_CHN = 0xf;
   PPUMASK = 6;
@@ -220,7 +234,7 @@ The stack pointer on the NES starts at the high end of the stack area in memory.
 By setting the stack pointer to 0xFF, you initialize it to the highest address of the stack segment.
 
 Note that this is not real C Code, it is imagining that the stackPointer could be changed by setting it as a variable:
-```
+```c
   stackPointer = (uint8_t *) 0xff; // reset the stack pointer back to the top at location in memory 0xFF
 ```
 
