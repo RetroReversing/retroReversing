@@ -242,3 +242,28 @@ Setting the stack pointer to 0xFF prepares the stack for use by pushing data ont
 
 This is required because the player might have just been playing the game and press reset and the stack will be dirty with all the values that were placed on it during the last game. We need to make sure we are starting fresh!
 
+---
+## The InitializeMemory Function
+
+```
+// MergeBytesTo16Bit combines high and low bytes into a single 16-bit value value
+#define MergeBytesTo16Bit(highByte, lowByte) = (((uint16_t)highByte) << 8) | ((uint8_t)lowByte)
+
+void InitializeMemory(byte bootJumpOffset)
+
+{
+  byte initialHighByte = 0x7;
+  byte initialLowByte = 0;
+  do {
+    initialLowByte = MergeBytesTo16Bit(initialHighByte,initialLowByte);
+    do {
+      if ((initialHighByte != 1) || (bootJumpOffset < 0x60)) {
+        *(undefined *)(initialLowByte + (ushort)bootJumpOffset) = 0;
+      }
+      bootJumpOffset = bootJumpOffset - 1;
+    } while (bootJumpOffset != 0xff);
+    initialHighByte = initialHighByte - 1;
+  } while (-1 < (char)initialHighByte);
+  return;
+}
+```
