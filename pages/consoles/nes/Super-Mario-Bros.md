@@ -415,3 +415,107 @@ void InitScroll(byte param_1)
   return;
 }
 ```
+
+Now we have covered all the functions that get called during the starting initialization of the game. After all this code has executed the first Non Maskable Interrupt will be called, allowing us to start the main game loop which will be covered in the next section.
+
+---
+# NMI/VBlank - The main game loop
+The **NMI** is primarily used to handle the PPU (Picture Processing Unit) vblank (vertical blanking) period. 
+
+During vblank, the screen rendering is temporarily paused, and this is the ideal time to update graphics, handle game logic, and perform other tasks that should not interfere with the rendering process.
+
+```c
+byte vblank()
+{
+  byte bVar1;
+  byte bVar2;
+  byte bVar3;
+  undefined uVar4;
+  char cVar5;
+  byte bVar6;
+  byte bStack0000;
+  
+  PPUCTRL = Mirror_PPU_CTRL_REG1 & 0x7e;
+  bVar3 = DAT_0779 & 0xe6;
+  if (DisableScreenFlag == '\0') {
+    bVar3 = DAT_0779 | 0x1e;
+  }
+  PPUMASK = bVar3 & 0xe7;
+  uVar4 = PPUSTATUS;
+  Mirror_PPU_CTRL_REG1 = Mirror_PPU_CTRL_REG1 & 0x7f;
+  DAT_0779 = bVar3;
+  uVar4 = InitScroll(0,uVar4);
+  OAMADDR = uVar4;
+  OAMDMA = 2;
+  Parameter_0 = (&VRAM_AddrTable_Low)[DAT_0773];
+  Parameter_1 = (&VRAM_AddrTable_High)[DAT_0773];
+  UpdateScreen();
+  bVar3 = (&VRAM_Buffer_Offset)[DAT_0773 == 6];
+  *(undefined *)(bVar3 + 0x300) = 0;
+  (&DAT_0301)[bVar3] = 0;
+  DAT_0773 = 0;
+  PPUMASK = DAT_0779;
+  SoundEngine(DAT_0779);
+  ReadJoypads();
+  PauseRoutine();
+  UpdateTopScore();
+  if (!(bool)(DAT_0776 & 1)) {
+    if ((TimerControl == '\0') || (TimerControl = TimerControl + -1, TimerControl == '\0')) {
+      bVar3 = 0x14;
+      DAT_077f = DAT_077f + -1;
+      if (DAT_077f < '\0') {
+        DAT_077f = '\x14';
+        bVar3 = 0x23;
+      }
+      do {
+        if (*(char *)(bVar3 + 0x780) != '\0') {
+          *(char *)(bVar3 + 0x780) = *(char *)(bVar3 + 0x780) + -1;
+        }
+        bVar3 = bVar3 - 1;
+      } while (-1 < (char)bVar3);
+    }
+    FrameCounter = FrameCounter + '\x01';
+  }
+  bVar3 = 0;
+  cVar5 = '\a';
+  Parameter_0 = PseudoRandomBitReg & 2;
+  bVar6 = 0;
+  if ((DAT_07a8 & 2) != Parameter_0) {
+    bVar6 = 1;
+  }
+  do {
+    bVar2 = bVar6 << 7;
+    bVar1 = (&PseudoRandomBitReg)[bVar3];
+    bVar6 = bVar1 & 1;
+    (&PseudoRandomBitReg)[bVar3] = bVar1 >> 1 | bVar2;
+    bVar3 = bVar3 + 1;
+    cVar5 = cVar5 + -1;
+  } while (cVar5 != '\0');
+  if (DAT_0722 != '\0') {
+    do {
+      bVar3 = PPUSTATUS;
+    } while ((bVar3 & 0x40) != 0);
+    if (!(bool)(DAT_0776 & 1)) {
+      func_0x8223(DAT_0776 >> 1);
+      SpriteShuffler();
+    }
+    do {
+      bVar3 = PPUSTATUS;
+    } while ((bVar3 & 0x40) == 0);
+    cVar5 = '\x14';
+    do {
+      cVar5 = cVar5 + -1;
+    } while (cVar5 != '\0');
+  }
+  PPUSCROLL = HorizontalScroll;
+  PPUSCROLL = VerticalScroll;
+  bStack0000 = Mirror_PPU_CTRL_REG1;
+  PPUCTRL = Mirror_PPU_CTRL_REG1;
+  if (!(bool)(DAT_0776 & 1)) {
+    OperModeExecutionTree(DAT_0776 >> 1);
+  }
+  uVar4 = PPUSTATUS;
+  PPUCTRL = bStack0000 | 0x80;
+  return bStack0000 | 0x80;
+}
+```
