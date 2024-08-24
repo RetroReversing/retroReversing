@@ -26,7 +26,7 @@ You can see the Board name clearly at the top of the circuit board in the photo 
 ![NES-NROM-256-01](https://github.com/user-attachments/assets/2c0dd1e8-d809-4914-8b85-1aaa77fb868e)
 
 You can see that there are 3 main chips, from left to right:
-* The Lockout Chip - used for piracy prevention
+* The Lockout Chip or CIC (Checking Integrated Circuit) - used for piracy prevention and region checking (not present in Japanese cartridges)
 * The CHR ROM - used for art/graphic data
 * The PRG ROM - used for program code and other data such as sound/music
 
