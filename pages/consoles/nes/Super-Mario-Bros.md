@@ -345,14 +345,14 @@ void InitializeNameTables()
   PPUADDR = 0;
   VRAM_Buffer1_Offset = 4;
   
-// Nametable loop (192 times)
+// Nametable loop for 768 tiles (4 times 192)
 uint8_t i = 192;
   do {
     do {
       PPUDATA = 0x24; // Set to Blank tile 0x24
       i = i - 1;
     } while (i != 0);
-    VRAM_Buffer1_Offset = VRAM_Buffer1_Offset + -1;
+    VRAM_Buffer1_Offset = VRAM_Buffer1_Offset - 1;
   } while (VRAM_Buffer1_Offset != 0);
 
 // Attribute Table Loop (64 times)
@@ -362,10 +362,10 @@ uint8_t i = 192;
     j = j - 1;
   } while (j != 0);
 
-  HorizontalScroll = 0;
+  HorizontalScroll = 0; // reset our own scroll global variables to 0
   VerticalScroll = 0;
 
-  InitScroll();
+  InitScroll(); // reset the PPU scroll registers to 0
   return;
 }
 ```
@@ -400,3 +400,18 @@ By clearing the lower nibble (with `& 0xF0`), the code is explicitly resetting b
 - **Bit 2** (`Sprite pattern table address for 8x8 sprites`): Selects which 4 KB of pattern table memory to use for sprites.
 - **Bit 3** (`Background pattern table address`): Selects which 4 KB of pattern table memory to use for the background.
 
+---
+## The InitScroll function
+The InitScroll routine sets the NES background scroll position by writing to the **PPUSCROLL** register twice: 
+* first to set the horizontal scroll
+* second to set the vertical scroll.
+
+This sequence ensures that the background image is scrolled to the desired position on the screen, it can be expressed in C like the following:
+```c
+void InitScroll(byte param_1)
+{
+  PPUSCROLL = param_1;
+  PPUSCROLL = param_1;
+  return;
+}
+```
