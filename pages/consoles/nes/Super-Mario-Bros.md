@@ -292,3 +292,33 @@ void InitializeMemory(byte bootJumpOffset)
   return;
 }
 ```
+
+---
+## The MoveAllSpritesOffscreen Function
+This code is intended to manipulate the positions of sprites in NES game development by moving them off-screen. 
+
+The NES handles sprite data in an area of memory called the Object Attribute Memory (OAM). Each sprite's position, appearance, and other attributes are stored here.
+
+The OAM is 256 bytes in size. It stores data for up to 64 sprites, with each sprite taking **4 bytes**.
+Each sprite's data consists of:
+* **Y-coordinate** (1 byte): The vertical position of the sprite on the screen.
+* **Tile Index** (1 byte): The index of the sprite's graphic in the pattern table.
+* **Attributes** (1 byte): Contains various sprite properties like palette, flipping, and priority.
+* **X-coordinate** (1 byte): The horizontal position of the sprite on the screen.
+
+```c
+void MoveAllSpritesOffscreen()
+{  
+  byte spriteOffset = 0;
+  do {
+    *(undefined *)(spriteYPosition + 0x200) = 0xf8;
+    spriteOffset = spriteOffset + 4; // Add 4 bytes to get the next Y Position
+  } while (spriteOffset != 0); // Keep going until spriteOffset wraps around to 0 again (do all 64 sprites)
+  return;
+}
+```
+
+ This loops over all sprites and sets the Y value of each of the sprites in the OAM to 0xF8 (decimal 248).
+ This is because the Y position is the first byte in the 4 byte Sprite in OAM memory.
+ 
+ The Y-coordinate of (0xF8) 248 is off-screen on the NES (as the visible Y-coordinate range is 0–239), effectively hiding the sprite
