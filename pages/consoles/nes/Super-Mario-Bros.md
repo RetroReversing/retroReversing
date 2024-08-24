@@ -46,7 +46,7 @@ If you legally back up your Super Mario Bros NES ROM you will notice that the si
 
 The total of these is:
 
-\[ 32,768 \, \text{bytes} + 8,192 \, \text{bytes} + 16 \, \text{bytes} = 40,976 \, \text{bytes} \]
+> 32,768 bytes + 8,192 bytes + 16 bytes = 40,976 bytes
 
 Compared to modern games this is tiny, infact a screenshot Super Mario Bros could be bigger than 41KB! Every byte was valuable during the development of the game.
 
