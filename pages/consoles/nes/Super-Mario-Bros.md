@@ -88,8 +88,6 @@ The term "Reset Vector" refers to the memory location that the CPU is directed t
 
 The Reset Vector is called a "vector" because it acts as a pointer directing the CPU to the starting address in memory where it should begin executing code after a reset. The term is consistent with other types of vectors in computer architecture that serve similar purposes for different types of system events.
 
-The term **"Reset Vector"** refers to the memory location that the CPU is directed to when it undergoes a reset. The reason it's called a "vector" is due to the way computer architecture traditionally handles interrupts and resets.
-
 ## Super Mario Bros Reset Vector
 If you scroll all the way to the bottom of the [Disassembly](https://gist.github.com/1wErt3r/4048722) you will see a section that looks like the following:
 ```assembly
