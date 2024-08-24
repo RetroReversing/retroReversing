@@ -157,12 +157,17 @@ do {
   } while (currentPPUStatus > -1);
 
 
+// Check if we are a Warm Boot or a Cold Boot
+// Warm Boot is when player pressed reset button as they had previously been playing the game
+// Todo this we just check if the Top Score has changed from the default value
   uVar3 = 0xfe;
-  bVar2 = 5;
+  char i = 5;
   do {
-    if (9 < (byte)(&DAT_07d7)[bVar2]) goto ColdBoot;
-    bVar2 = bVar2 - 1;
-  } while (-1 < (char)bVar2);
+    if (TopScoreDisplay[i] > 9) goto ColdBoot;
+    i = i - 1;
+  } while (i > -1);
+
+
   if (DAT_07ff == -0x5b) {
     uVar3 = 0xd6;
   }
