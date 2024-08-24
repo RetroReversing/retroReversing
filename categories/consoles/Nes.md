@@ -75,6 +75,22 @@ Matthew Earl has an excellent post on how he managed to extract the level data f
 [Extracting Super Mario Bros levels with Python - Matt's Ramblings](http://matthewearl.github.io/2018/06/28/smb-level-extractor/)
 
 ---
+## ROM City Rampage (Grand Theftendo)
+The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is a good introduction to some of the limitations you need to think about when developing a NES game. 
+
+### How to get the ROM
+According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
+
+You need to use a tool called **BFP Extractor** to extract content from: the file **gamedata.bfp** at addresses 0x747E67D6 and 0xC87FC3A3 then create a iNES ROM Header for it with the following Hex values:
+```
+4E 45 53 1A 20 20 50 00 00 00 00 00 00 00 00 00
+```
+Then simply join the header with the content from address 0x747E67D6 and 0xC87FC3A3 together and name it as a .nes file.
+
+---
 # Hardware
 In this section, we'll explore the hardware that powers the NES and how it can be reverse engineered. Understanding the hardware that drives the NES is key to unlocking its potential and gaining a deeper appreciation for the games that were developed for it.
 
@@ -159,17 +175,8 @@ Here is a list of a few Open Source emulators that have some of these features:
 * **Mesen** - [SourMesen/Mesen: Mesen is a cross-platform (Windows & Linux) NES/Famicom emulator built in C++ and C#](https://github.com/SourMesen/Mesen)
 * **Nintendulator** - [quietust/nintendulator: NES emulator for Windows](https://github.com/quietust/nintendulator)
 
-## The Making of ROM City Rampage (Grand Theftendo)
-The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This is a good introduction to some of the limitations you need to think about when developing a NES game. According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
-
-You need to use a tool called **BFP Extractor** to extract content from: the file **gamedata.bfp** at addresses 0x747E67D6 and 0xC87FC3A3 then create a iNES ROM Header for it with the following Hex values:
-```
-4E 45 53 1A 20 20 50 00 00 00 00 00 00 00 00 00
-```
-Then simply join the header with the content from address 0x747E67D6 and 0xC87FC3A3 together and name it as a .nes file.
+## Writing 6502 NES Assembly
+The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
 
 ---
 # Game Modding
