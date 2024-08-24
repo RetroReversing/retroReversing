@@ -262,13 +262,18 @@ This is required because the player might have just been playing the game and pr
 
 ---
 ## The InitializeMemory Function
+This function does exactly what it says, it initializes memory with the byte 0. This is important as uninitilized memory can cause unexpected behaviour.
 
-```
+But we don't always want to reset all the data, for example if we are in a Warm Boot (the user pressed Reset after playing), they still want the game to store their high score. Also other variables might not need reset on a subsequent playthrough so it just wastes time setting them to 0.
+
+So this function takes in a parameter of the **bootJumpOffset** as to where to start setting memory to 0, it will change between a cold boot and a warm boot.
+```c
 // MergeBytesTo16Bit combines high and low bytes into a single 16-bit value value
 #define MergeBytesTo16Bit(highByte, lowByte) = (((uint16_t)highByte) << 8) | ((uint8_t)lowByte)
 
+// Note the parameter bootJumpOffset is set to 0xd6 for Warm Boot
+// Note the parameter bootJumpOffset is set to 0xfe for Cold Boot
 void InitializeMemory(byte bootJumpOffset)
-
 {
   byte initialHighByte = 0x7;
   byte initialLowByte = 0;
@@ -276,12 +281,14 @@ void InitializeMemory(byte bootJumpOffset)
     initialLowByte = MergeBytesTo16Bit(initialHighByte,initialLowByte);
     do {
       if ((initialHighByte != 1) || (bootJumpOffset < 0x60)) {
-        *(undefined *)(initialLowByte + (ushort)bootJumpOffset) = 0;
+        // set the memory to the value 0
+        *(byte *)(initialLowByte + (ushort)bootJumpOffset) = 0;
       }
       bootJumpOffset = bootJumpOffset - 1;
     } while (bootJumpOffset != 0xff);
+
     initialHighByte = initialHighByte - 1;
-  } while (-1 < (char)initialHighByte);
+  } while (initialHighByte > -1);
   return;
 }
 ```
