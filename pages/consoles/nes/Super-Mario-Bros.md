@@ -137,7 +137,7 @@ This address is exactly where the Reset Vector is pointing, so if you look at me
 
 ### The Start Function decompiled
 If you open the NES ROM in Ghidra you will get an output in the decompilation window, we have tidied this up and added comments around the code to give a clearer idea of what is happening:
-```
+```c
 void Start() // By default its called reset because GhidraNes detected its the reset Vector
 {
   char cVar1;
@@ -145,14 +145,7 @@ void Start() // By default its called reset because GhidraNes detected its the r
   undefined uVar3;
   short sVar4;
 
-// Setup the PPU control register 1
-// These bits in the PPU Control Register 1 are used to configure the NES's video hardware to control how sprites and backgrounds are rendered and how the PPU handles memory operations and interrupts. Properly setting these bits is crucial for correct graphics display and game functionality.
-
-  PPUCTRL = 0x10; // init PPU control register 1 to value of binary 00010000
-
-// We have now set the 5th Bit (from the left) to 1 which means we want to set the Increment Mode
-// In the NES's PPU (Picture Processing Unit), the "Increment Mode" setting determines how the address pointer for PPU memory operations (such as accessing the nametable, attribute tables, or pattern tables) is updated after each read or write operation.
-// This means the PPU will now Increment the address by 32 bytes after each operation. This is suitable for accessing memory in larger chunks, such as accessing an entire row of tiles or attributes in a nametable.
+  PPUCTRL = 0x10; // Initialize PPU control register 1 to value of binary 00010000 ( See section below why this is the case)
 
   sVar4 = CONCAT11((char)((ushort)&stack0x0000 >> 8),0xff);
   do {
@@ -191,3 +184,25 @@ ColdBoot:
   } while( true );
 }
 ```
+
+### Initialize PPU control Register 1
+The **PPU Control Register 1**, also known as 0x2000, is a crucial register in the NES that controls various aspects of the Picture Processing Unit (PPU). The register is an 8-bit value, and each bit or group of bits has a specific function that affects how the NES renders graphics.
+
+The first thing Super Mario does is set the value to 0x10 like so:
+```c
+PPUCTRL = 0x10; // init PPU control register 1 to value of binary 00010000
+```
+
+These bits in the PPU Control Register 1 are used to configure the NES's video hardware to control how sprites and backgrounds are rendered and how the PPU handles memory operations and interrupts. Properly setting these bits is crucial for correct graphics display and game functionality.
+
+We have now set the 5th Bit (from the left) to 1 which means we want to set the Increment Mode
+
+In the NES's PPU (Picture Processing Unit), the "Increment Mode" setting determines how the address pointer for PPU memory operations (such as accessing the nametable, attribute tables, or pattern tables) is updated after each read or write operation.
+
+This means the PPU will now Increment the address by 32 bytes after each operation. This is suitable for accessing memory in larger chunks, such as accessing an entire row of tiles or attributes in a nametable.
+
+#### Usage in Context
+For Background Tile Data: When using an increment mode of 32 bytes, you can more efficiently handle background tile data because a single increment operation advances you by an entire row of 32 bytes. For example, if you are writing tile data to a nametable, using a 32-byte increment means you can easily update an entire row of tiles in one go.
+
+For Attribute Tables: For attribute tables, which are used to define the properties of tiles (such as color and palette), using a 32-byte increment means you can move to the next row of attributes quickly, as each row is 32 bytes in size.
+
