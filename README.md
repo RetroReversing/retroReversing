@@ -81,8 +81,6 @@ If you are looking to contribute but don't know where to start here are a few ex
 ## Games
 * Jak and Daxter - http://www.codersnotes.com/notes/disassembling-jak/
 
-## Homebrew
-* UDK Ultimate - https://sites.google.com/view/udkultimate/
 ----
 # Quality Sources
 * Video game Science - https://www.reddit.com/r/videogamescience/
