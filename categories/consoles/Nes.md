@@ -178,6 +178,12 @@ Here is a list of a few Open Source emulators that have some of these features:
 ## Writing 6502 NES Assembly
 The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
 
+## How are games so small (40KB)?
+The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWQ0591PAxM?si=x6hKn2GerV5wqSSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing duplicates and using mirroring).
+
 ---
 # Game Modding
 Modding NES games can be a fun and rewarding way to explore the world of classic gaming and unleash your creativity. By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
