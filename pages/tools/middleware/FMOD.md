@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend:
 - middleware
-editlink: /middleware/FMOD.md
+editlink: /tools/middleware/FMOD.md
 ---
 
 The FMOD audio engine is a very common middleware used in modern games, starting with the PS1 generation of consoles.
