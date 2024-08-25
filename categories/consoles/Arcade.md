@@ -39,6 +39,12 @@ Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers 
 The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py
 
 ---
+# MAME
+Even as far back as June 2000 MAME was being advertised in Japanese magazines (Arcadia Issue 1):
+![AracadiaIssue1MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
+
+
+---
 # References
 [^1]: [mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
 [^2]: Wireframe Issue 01 page 33
