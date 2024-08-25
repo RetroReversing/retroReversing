@@ -56,6 +56,15 @@ Although almost all Mega Drive games were written in 68K assembly there is one k
 In an interview with **Computerphile** the Tanglewood developer **Matt Phillips** explains the basics of how assembly language programming works for creating Mega Drive games:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kalmryn9_sE?si=3GarbB4oJDhYoxLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+In the video he uses Windows 95 and Notepad++ to edit the assembly files, which are then assembled using the MS-DOS command:
+```bash
+snasm68k /sdb test.asm, test.cof
+```
+You can see it being assembled in the screenshot:
+![image](https://github.com/user-attachments/assets/1441632b-e33e-4bc8-bdd1-15954c7d1873)
+
+It is then loaded into the SNASM debugger (V2.0) on a SNASM Mega CD Development Kit, which connects to the PC via an ISA card and SCSI cable.
+
 ## Code Your Own SONIC Game
 The Youtuber **Game Hut** has a series of tutorials on Sega Mega Drive programming.
 Part 1:
