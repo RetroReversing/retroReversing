@@ -22,7 +22,7 @@ recommend:
 - tutorial
 - tutorials
 - ghidra
-editlink: /articles/Ghidra/GhidraN64.md
+editlink: /tools/Ghidra/GhidraN64.md
 youtube: "3d3a39LuCwc"
 ---
 
