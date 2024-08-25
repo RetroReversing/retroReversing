@@ -17,7 +17,7 @@ breadcrumbs:
 recommend: 
 - introduction
 - ghidra
-editlink: /articles/Ghidra/GhidraDecompilingIntroduction.md
+editlink: /tools/Ghidra/GhidraDecompilingIntroduction.md
 youtube: "4v8WkHmSFUU?list=PLRAe18TJ_NTE9cr18OPphn82WS8gVv-te"
 updatedAt: '2019-09-01'
 ---
