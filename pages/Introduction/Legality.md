@@ -13,7 +13,7 @@ breadcrumbs:
 recommend: 
   - introduction
 updatedAt: '2022-09-23'
-editlink: /introduction/Legality.md
+editlink: /Introduction/Legality.md
 ---
 Reverse Engineering of commercial Games and Applications straddles a fine line of legality. Whether a Reverse Engineering project is legal or not completely depends on how it was accomplished.
 
