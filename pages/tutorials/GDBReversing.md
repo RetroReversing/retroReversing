@@ -18,7 +18,7 @@ recommend:
 tags:
 - introduction
 - gdb
-editlink: /articles/TechniquesAndTutorials/GDBReversing.md
+editlink: /tutorials/GDBReversing.md
 updatedAt: '2020-08-28'
 ---
 
