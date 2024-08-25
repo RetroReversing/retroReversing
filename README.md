@@ -62,9 +62,6 @@ If you are looking to contribute but don't know where to start here are a few ex
 * SN64 DEV KIT - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/ Also - https://web.archive.org/web/19970709125031/http://www.snsys.com:80/
 * Neon64: NES emulator for N64! - https://hcs64.com/neon64.html
 
-## NES
-* How we fit an NES game into 40 Kilobytes - https://www.youtube.com/watch?v=ZWQ0591PAxM
-
 ## Playstation 3
 * Book review of "Programming the Cell Processor" and Comparison of open source tools to SN Systems sdk here - https://archive.org/stream/GDM_February_2009#page/n39/mode/2up/search/%22SN+Systems%22
 
@@ -98,9 +95,6 @@ We only embed high-quality youtube videos related to the technical achievements 
 * MrMario2011 - [MrMario2011 - YouTube](https://www.youtube.com/user/MrMario2011)
 * Hard4Games - [Hard4Games - YouTube](https://www.youtube.com/channel/UCacYHKoNLHrVoN1L9uup86A)
 * Video Game Story Time - https://www.youtube.com/channel/UCLWh30LMdJZam_4SKWuq0dA
-
-## Palette 
-https://coolors.co/1b1c1e-1e5dd3-3f7cac-95afba-bdc4a7
 
 ## Thumbnail Creator
 https://www.canva.com
