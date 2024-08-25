@@ -36,7 +36,8 @@ This section of our guide will provide you with comprehensive information and re
 
 ### Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
-![SEGA Digitizer](https://github.com/user-attachments/assets/f7385d60-5e16-4b58-b604-5ebc5719a66f)
+
+![SEGA Digitizer I with Pitfall II](https://github.com/user-attachments/assets/ff5816cc-66ef-4d4d-8299-5edfe3dd1eb9)
 
 You can see Pitfall II from 1985 in the photo above. It had a rudimentary touch screen with a pen allowing artists to "draw" pixels directly on the screen.
 
