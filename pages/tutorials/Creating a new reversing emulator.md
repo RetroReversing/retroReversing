@@ -14,7 +14,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /general/Creating a new reversing emulator.md
+editlink: /tutorials/Creating a new reversing emulator.md
 updatedAt: '2020-05-13'
 twitterimage: https://www.retroreversing.com/public/Articles/Creating a new reversing emulator.jpg
 ---
