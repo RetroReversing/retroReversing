@@ -46,6 +46,16 @@ In order for game developers to create software for the SEGA Mega Drive, they ha
 
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
+## Sega Digitizer System
+The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. It required a **NEC PC-98** for development which was the ideal choice for many game developers in japan.
+![SEGA Digitizer III](https://github.com/user-attachments/assets/11be3100-1e8e-4c53-b935-6ba691482687)
+
+It had a rudimentary touch screen with a pen allowing artists to "draw" pixels directly on the screen.
+
+This was not exclusive to Mega Drive development, it was also used in early sega arcade games, system 1 and system 16 (1986).
+
+You can find out more including lots of images on [Video Games Densetsu: The Sega Digitizer System, a tool used by graphic...](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic)
+
 ---
 # Game Software Development
 
