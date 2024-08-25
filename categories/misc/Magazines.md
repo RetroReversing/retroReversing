@@ -2,7 +2,7 @@
 layout: post
 permalink: /magazines
 console: magazines
-title: Magazines (Games Industry)
+title: Retro Gaming & Development Magazines (Games Industry)
 thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
@@ -256,6 +256,7 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 Title | Notes
 ---|---
 3D Artist | UK magazine published by Imagine Publishing from 2009 until December 2019
+3D Design | US Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
 3D World | Global magazine from ? and still going today
 Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK magazine from 1995 until 2020 but was also published globally
@@ -267,6 +268,22 @@ Linux User & Developer | UK magazine that was published for 19 years and reached
 Photoshop Creative | until September 2018
 Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
+
+---
+## 3D Design Magazine (USA) (?-1999)
+**3D Design** was a magazine published in the USA by Miller Freeman, we are unsure when it started (1997?) but it changed its name to just **3D** in the July 1999 issue.
+
+![3D Design Vol 5 Issue 4 - April 1999 ](https://github.com/user-attachments/assets/fef02646-f3d2-41a7-a468-6109fb25e091)
+
+Issue | Title | Author | Description
+---|---|---|---
+1997-06 | Inside The Sixth Man | Gretchen J. Bay | L.A.-based visual effects house Available Light pushes 3D to the limits as we look behind the scenes at the CG effects created for Disney's recent live-action release, The Sixth Man.
+1997-06 | Mastering the 3D Pipeline | Omid Rahmat | The Applications Programming Interface (API) affects everything from 3D performance to the actual look of the final image. If the ultimate ambition of your 3D design is real-time interaction, you better get a grip on the basics of 3D APIs because they may dictate how far your art can go.
+1997-06 | Accelerated 3D: Round One | Chris Tome | Do you really have to spend a lot of cash to get a 3D graphics board that is perfect for your needs? Not necessarily. Look here as the testing begins on nine 3D boards from ATI, Matrox, Intergraph, Diamond Multimedia, Dynamic Pictures, Accelgraphics, and Number 9, all of which retail for less than $1,000. 
+1997-06 | Plugged In | Dan Ablan | That Special Glow. From glowing-hot logos to the shimmering halos of heavenly creatures, Gaffer, Worley Lab's latest release for LightWave, lets animators pull out all the stops when creating shadows and light effects.
+1997-06 | Plug-ins on the Side | Gretchen J. Bay | We've rounded up five exciting new plug-ins for 3D Studio MAX, Softimage, and Photoshop that can add flare and finesse to your next design project.
+1997-06 | Lighting 3D Cinematically. | Don Schaab and Robert Nederhorst | Lighting is a critical part of any 3D scene, but the principles of lighting have been around a lot longer than any software package you may have. Take a look at some of the tried-and-true lighting concepts pioneered by the folks in the film industry, and see how things done in the movies apply to the computer screen. 
+1997-06 | Try to Maintain | Chris Tome | Managing all the resources for your creative endeavors can be a daunting task at best, particularly when they're stored in that silicon-based repository on your desk. Here are some helpful (and, of course, free) solutions to help you organize the plethora of files, data types, and projects cluttering up your hard drive.
 
 ---
 ## Computer Graphics World (USA)
