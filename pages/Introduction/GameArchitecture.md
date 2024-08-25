@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/GameArchitecture.md
+editlink: /Introduction/GameArchitecture.md
 _updatedAt: '2023-11-22'
 ---
 # Introduction

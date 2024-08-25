@@ -21,7 +21,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/RetroCartridges.md
+editlink: /Introduction/RetroCartridges.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/NLEMsw1SjDY/sddefault.jpg

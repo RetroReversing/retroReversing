@@ -16,7 +16,7 @@ breadcrumbs:
   - name: Introduction to Retro Game Graphics
     url: #
 recommend: introduction
-editlink: /articles/Introduction/RetroGraphics.md
+editlink: /Introduction/RetroGraphics.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg

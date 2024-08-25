@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/RetroAudio.md
+editlink: /Introduction/RetroAudio.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg

@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/HowToReverseMicrochip.md
+editlink: /Introduction/HowToReverseMicrochip.md
 videocarousel:
   - title: Part 1 Decapping
     image: https://i.ytimg.com/vi/wnQ8Td1y_dM/sddefault.jpg

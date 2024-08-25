@@ -22,7 +22,7 @@ breadcrumbs:
 recommend: 
 - introduction
 - gameboy
-editlink: /articles/Introduction/twitchplaysemulators.md
+editlink: /Introduction/TwitchPlaysEmulators.md
 updatedAt: '2017-12-28'
 ---
 

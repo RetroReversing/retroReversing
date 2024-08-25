@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/HowEmulatorsWork.md
+editlink: /Introduction/HowEmulatorsWork.md
 updatedAt: '2022-10-09'
 ---
 Have you ever wondered how emulators work? This post aims to go through the technical details for how most open source and commercial emulators work.

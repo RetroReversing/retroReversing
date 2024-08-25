@@ -19,7 +19,7 @@ breadcrumbs:
     url: #
 recommend: 
 - introduction
-editlink: /articles/Introduction/MemoryCorruption.md
+editlink: /Introduction/MemoryCorruption.md
 videocarousel:
   - title: Part 1
     image: https://i.ytimg.com/vi/sIELpn4-Umw/hqdefault.jpg
