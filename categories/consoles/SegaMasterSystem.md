@@ -62,6 +62,14 @@ The Sega Master System has multiple hardware revisions in its life time along wi
 ## Development Kit Hardware
 {% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
 
+### Sega Digitizer System
+The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
+![SEGA Digitizer I](https://github.com/user-attachments/assets/d915b94d-6116-4984-95ed-26621dd05129)
+
+This was not exclusive to Sega Master System development, it was also used in early sega arcade games, system 1 and system 16 (1986) and all the way up to Mega Drive (it had 3 different versions).
+
+You can find out more including lots of images on [Video Games Densetsu: The Sega Digitizer System, a tool used by graphic...](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic)
+
 ## Retail SMS Hardware
 The main components of the retail Sega Master System are:
 * **Clock Signal Generator** - Quartz Crystal signal which is split up for timing of each of the individual processors
