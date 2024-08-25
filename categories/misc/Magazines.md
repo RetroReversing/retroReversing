@@ -270,10 +270,12 @@ Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
 
 ---
-## 3D Design Magazine (USA) (?-1999)
-**3D Design** was a magazine published in the USA by Miller Freeman, we are unsure when it started (1997?) but it changed its name to just **3D** in the July 1999 issue.
+## 3D Design Magazine (USA) (1994?-1999)
+**3D Design** was a magazine published in the USA by Miller Freeman, we are unsure when it started (1994?) but it changed its name to just **3D** in the July 1999 issue.
 
 ![3D Design Vol 5 Issue 4 - April 1999 ](https://github.com/user-attachments/assets/fef02646-f3d2-41a7-a468-6109fb25e091)
+
+They also hosted an event called the **3D Design Conference & Exhibition** in 1997 and 1998 including what they called the **Big Kahuna Awards Ceremony**.
 
 Issue | Title | Author | Description
 ---|---|---|---
