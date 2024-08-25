@@ -34,6 +34,16 @@ This section of our guide will provide you with comprehensive information and re
 ## Official Development Hardware
 {% include link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
 
+### Sega Digitizer System
+The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
+![SEGA Digitizer](https://github.com/user-attachments/assets/f7385d60-5e16-4b58-b604-5ebc5719a66f)
+
+You can see Pitfall II from 1985 in the photo above. It had a rudimentary touch screen with a pen allowing artists to "draw" pixels directly on the screen.
+
+This was not exclusive to Game Gear development, it was also used in early sega arcade games, system 1 and system 16 (1986) and all the way up to Mega Drive (it had 3 different versions).
+
+You can find out more including lots of images on [Video Games Densetsu: The Sega Digitizer System, a tool used by graphic...](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic)
+
 ## Third Party Development Hardware
 {% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For information about the Krisalis 3rd party development hardware check out this post." %}
 
