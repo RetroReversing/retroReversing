@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend:
 - middleware
-editlink: /middleware/UDKUltimate.md
+editlink: /tools/middleware/UDKUltimate.md
 ---
 
 The Unreal Development Kit (UDK) was a free game engine based on Unreal Engine 3. It has now been deprecated and replaced by Unreal Engine 4, however there is one project that might make you interested in looking into the older UDK: Homebrew PS3 and Xbox 360 support!
