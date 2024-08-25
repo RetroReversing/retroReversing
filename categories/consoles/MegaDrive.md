@@ -61,9 +61,12 @@ In the video he uses Windows 95 and Notepad++ to edit the assembly files, which 
 snasm68k /sdb test.asm, test.cof
 ```
 You can see it being assembled in the screenshot:
-![image](https://github.com/user-attachments/assets/1441632b-e33e-4bc8-bdd1-15954c7d1873)
+![Assembled in SNASM68K](https://github.com/user-attachments/assets/1441632b-e33e-4bc8-bdd1-15954c7d1873)
 
 It is then loaded into the SNASM debugger (V2.0) on a SNASM Mega CD Development Kit, which connects to the PC via an ISA card and SCSI cable.
+
+![SNASM Debugger](https://github.com/user-attachments/assets/f5b11139-d39b-462f-a673-d57ee2f0f082)
+
 
 ## Code Your Own SONIC Game
 The Youtuber **Game Hut** has a series of tutorials on Sega Mega Drive programming.
