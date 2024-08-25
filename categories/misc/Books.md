@@ -66,6 +66,12 @@ Some of the most prolific authors in the game development genre are:
 * **Wolfgang Engel** - Specializes in game graphics, specifically shader development, writing books such as the ShaderX series.
 
 ## Notable Series
+Some publishers will group related books into a **series** which makes it easier to find titles that are of interest to a particular field. Some of the notable series of books include:
+* **Advances in computer graphics and game development** by Charles River Media contained books on game programming
+* **Graphics series** by Charles River Media contained books on 3D software such as Maya and Lightwave
+* **Programming Series** by Charles River Media contained books on more general programming and AI
+
+### Game Programming Starter Kit
 We have a separate post on the excellent "Game Programming Starter Kit" series. It was a very successful way to provide professional PC development software along with industry-standard books to amateur developers. It even included Visual Studio and, later on, some other software such as Dark Basic.
 
 {% include link-to-other-post.html post="/GameProgrammingStarterKit" description="For more information about the Game Programming Starter Kit series check out this post." %}
