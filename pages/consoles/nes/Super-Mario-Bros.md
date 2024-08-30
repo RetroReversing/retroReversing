@@ -459,7 +459,7 @@ void vblank()
   uint8_t addr_high = VRAM_AddrTable_High[index];
 
   // Update screen with buffer contents
-  UpdateScreen();
+  UpdateScreen(addr_low, addr_high);
 
   // Check for usage of $0341
   uint8_t y = 0x00;
@@ -539,50 +539,91 @@ void vblank()
 
 
 ## UpdateScreen function
+The UpdateScreen function is responsible for writing data from a buffer to the PPU's (Picture Processing Unit) VRAM (Video RAM) on the NES. This function involves setting up the PPU address, managing data writes, and handling special conditions like repeating bytes or adjusting the VRAM address increment.
+
 ```
-void UpdateScreen()
-{
-  undefined uVar1;
-  byte bVar2;
-  byte bVar3;
-  byte bVar4;
-  char cStack0000;
-  
-  while( true ) {
-    uVar1 = PPUSTATUS;
-    if (*_Parameter_0 == '\0') break;
-    PPUADDR = *_Parameter_0;
-    PPUADDR = _Parameter_0[1];
-    bVar4 = 2;
-    cStack0000 = _Parameter_0[2] << 1;
-    bVar2 = Mirror_PPU_CTRL_REG1 | 4;
-    if (!(bool)((byte)_Parameter_0[2] >> 7)) {
-      bVar2 = Mirror_PPU_CTRL_REG1 & 0xfb;
+// Simulate loading a byte from an indirect address
+uint8_t loadByteFromIndirect(uint8_t* lowByte, uint8_t* highByte, uint8_t offset) {
+    // Construct the full 16-bit address from the low and high bytes
+    uint16_t address = (*highByte << 8) | *lowByte;
+    // Return the byte from the computed address + offset
+    return *((uint8_t*)(address + offset));
+}
+
+void UpdateScreen(uint8_t* addr_low, uint8_t* addr_high) {
+    // Read PPU_STATUS to reset the PPU's flip-flop
+    volatile uint8_t status = PPU_STATUS;
+
+    // Set Y to 0 (represented as an offset in this case)
+    uint8_t y = 0x00;
+
+    // Load the byte from the memory address pointed to by ptrBufferAddrLow and ptrBufferAddrHigh
+    uint8_t byteToLoad = loadByteFromIndirect(addr_low, addr_high, y);
+
+    // If the byte is not zero, branch to WriteBufferToScreen
+    if (byteToLoad != 0x00) {
+        WriteBufferToScreen();
     }
-    WritePPUReg1(bVar2,uVar1);
-    bVar2 = cStack0000 << 1;
-    if (cStack0000 < '\0') {
-      bVar2 = bVar2 | 2;
-      bVar4 = bVar4 + 1;
+}
+
+void WriteBufferToScreen() {
+    uint8_t y = 0;  // Initialize Y register to zero
+    uint8_t temp, length, data;
+    
+    // Step 1: Set high byte of VRAM address
+    PPU_ADDRESS = *ptrBufferAddrHigh;
+    
+    // Step 2: Set low byte of VRAM address
+    y++;
+    PPU_ADDRESS = loadByteFromIndirect(ptrBufferAddrLow, ptrBufferAddrHigh, y);
+    
+    // Step 3: Load the next byte, perform shift and save to stack
+    y++;
+    temp = loadByteFromIndirect(ptrBufferAddrLow, ptrBufferAddrHigh, y);
+    uint8_t stackByte = temp << 1;
+    
+    // Step 4: Modify PPU control register based on the byte's value
+    uint8_t ctrlReg = Mirror_PPU_CTRL_REG1 | 0x04; // Set to increment by 32
+    if (temp & 0x80) {  // Check if d7 is clear
+        ctrlReg &= 0xFB; // Set to increment by 1
     }
-    bVar3 = bVar2 >> 2;
+    
+    WritePPUReg1(ctrlReg);
+    
+    // Step 5: Pull from stack and determine length/repetition
+    stackByte <<= 1;
+    if (!(stackByte & 0x40)) {  // Check if d6 is clear
+        length = stackByte >> 2; // Get the proper length
+    } else {
+        stackByte |= 0x02; // Set d1 for repetition
+        y++;
+        length = stackByte >> 2;
+    }
+    
+    // Step 6: Output to VRAM
     do {
-      if (!(bool)(bVar2 >> 1 & 1)) {
-        bVar4 = bVar4 + 1;
-      }
-      PPUDATA = _Parameter_0[bVar4];
-      bVar3 = bVar3 - 1;
-    } while (bVar3 != 0);
-    _Parameter_0 = (char *)CONCAT11(Parameter_1 + CARRY1(bVar4,Parameter_0),
-                                    bVar4 + Parameter_0 + '\x01');
-    PPUADDR = 0x3f;
-    PPUADDR = 0;
-    PPUADDR = 0;
-    PPUADDR = 0;
-  }
-  PPUSCROLL = 0;
-  PPUSCROLL = 0;
-  return;
+        if (!(stackByte & 0x02)) {
+            y++;  // Increment Y to load the next byte if not repeating
+        }
+        data = loadByteFromIndirect(ptrBufferAddrLow, ptrBufferAddrHigh, y);
+        PPU_DATA = data;
+        length--;
+    } while (length > 0);
+    
+    // Step 7: Update the buffer pointer
+    uint16_t ptr = ((uint16_t)*ptrBufferAddrHigh << 8) | *ptrBufferAddrLow;
+    ptr += (length + 1);
+    *ptrBufferAddrLow = ptr & 0xFF;
+    *ptrBufferAddrHigh = (ptr >> 8) & 0xFF;
+    
+    // Step 8: Set VRAM address to $3F00 and reinitialize
+    PPU_ADDRESS = 0x3F;
+    PPU_ADDRESS = 0x00;
+    PPU_ADDRESS = 0x00;
+    PPU_ADDRESS = 0x00;
+    
+    // Back to UpdateScreen loop
+    UpdateScreen();
 }
 ```
 
