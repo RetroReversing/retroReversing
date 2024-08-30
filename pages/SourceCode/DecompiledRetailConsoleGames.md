@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2024-08-20'
+updatedAt: '2024-08-31'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -111,7 +111,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/3/36/AeroGauge_Coverart.png){:width="100"} [AeroGauge](https://github.com/LLONSIT/AeroGauge)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/62/Aidyn_Chronicles-_The_First_Mage_game_cover.jpg){:width="100"} [Aidyn Chronicles: The First Mage](https://github.com/blackgamma7/Aidyn)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png){:width="100"} [Banjo-Kazooie](https://gitlab.com/banjo.decomp/banjo-kazooie)              | Decompilation | Active, 99% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/1/12/Banjo_Kazooie_Cover.png){:width="100"} [Banjo-Kazooie](https://gitlab.com/banjo.decomp/banjo-kazooie)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/4/41/Banjo-Tooie_Coverart.png){:width="100"} [Banjo-Tooie](https://github.com/mr-wiseguy/banjo-tooie)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/83/Blast_Corps_Coverart.png){:width="100"} [Blast Corps](https://github.com/retroplastic/blastcorps)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a3/Body_Harvest.jpg){:width="100"} [Body Harvest](https://github.com/jaytheham/body-harvest-decompilation)              | Decompilation | Inactive |
