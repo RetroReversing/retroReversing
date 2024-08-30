@@ -425,113 +425,118 @@ The **NMI** is primarily used to handle the PPU (Picture Processing Unit) vblank
 During vblank, the screen rendering is temporarily paused, and this is the ideal time to update graphics, handle game logic, and perform other tasks that should not interfere with the rendering process.
 
 ```c
-byte vblank()
+void vblank()
 {
-  byte bVar1;
-  byte bVar2;
-  char i;
-  byte bVar3;
-  byte bStack0000;
-  byte byteOffset;
-  undefined currentPPUStatus;
-  
-  PPUCTRL = Mirror_PPU_CTRL_REG1 & 0x7e;
-  byteOffset = Mirror_PPU_CTRL_REG2 & 0xe6;
-  if (DisableScreenFlag == 0) {
-    byteOffset = Mirror_PPU_CTRL_REG2 | 0b00011110;
+  // Disable NMIs in mirror register
+  uint8_t temp = PPU_CTRL_REG1 & 0x7F;
+  PPU_CTRL_REG1 = temp;
+  PPU_CTRL_REG1 = temp & 0x7E;  // Alter name table address to $2800
+
+  // Disable OAM and background display by default
+  temp = PPU_CTRL_REG2 & 0xE6;
+
+  // Check screen disable flag
+  if (DisableScreenFlag != 0) {
+      // If set, use bits as-is
+      PPU_CTRL_REG2 = temp & 0xE7;
+  } else {
+      // Otherwise re-enable bits and save them
+      temp |= 0x1E;
+      PPU_CTRL_REG2 = temp & 0xE7;
   }
-  PPUMASK = byteOffset & 0b11100111;
-  currentPPUStatus = PPUSTATUS;
-  Mirror_PPU_CTRL_REG1 = Mirror_PPU_CTRL_REG1 & 0b01111111;
-  Mirror_PPU_CTRL_REG2 = byteOffset;
-  currentPPUStatus = InitScroll(0,currentPPUStatus);
-  OAMADDR = currentPPUStatus;
-  OAMDMA = 2;
-  Parameter_0 = (&VRAM_AddrTable_Low)[VRAM_Buffer_AddrCtrl];
-  Parameter_1 = (&VRAM_AddrTable_High)[VRAM_Buffer_AddrCtrl];
+
+  // Reset flip-flop and reset scroll registers to zero
+  (void)PPU_STATUS;
+  InitScroll();
+
+  // Reset sprite-ram address register and perform DMA access
+  PPU_SPR_ADDR = 0x00;
+  PPU_SPR_DMA = 0x02;
+
+  // Load control for pointer to buffer contents
+  uint8_t index = VRAM_Buffer_AddrCtrl;
+  uint8_t addr_low = VRAM_AddrTable_Low[index];
+  uint8_t addr_high = VRAM_AddrTable_High[index];
+
+  // Update screen with buffer contents
   UpdateScreen();
-  byteOffset = (&VRAM_Buffer_Offset)[VRAM_Buffer_AddrCtrl == 6];
-  *(undefined *)(byteOffset + 0x300) = 0;
-  (&VRAM_Buffer1)[byteOffset] = 0;
-  VRAM_Buffer_AddrCtrl = 0;
-  PPUMASK = Mirror_PPU_CTRL_REG2;
-  SoundEngine(Mirror_PPU_CTRL_REG2);
+
+  // Check for usage of $0341
+  uint8_t y = 0x00;
+  if (index == 0x06) {
+      y = 0x01;  // Get offset based on usage
+  }
+
+  // Clear buffer header at last location
+  index = VRAM_Buffer_Offset[y];
+  VRAM_Buffer1_Offset[index] = 0x00;
+  VRAM_Buffer1[index] = 0x00;
+  VRAM_Buffer_AddrCtrl = 0x01;
+
+  // Copy mirror of $2001 to register
+  PPU_CTRL_REG2 = PPU_CTRL_REG2;
+
+  // Play sound, read joypads, handle pause, update top score
+  SoundEngine();
   ReadJoypads();
   PauseRoutine();
   UpdateTopScore();
-  if (!(bool)(GamePauseStatus & 1)) {
-    if ((TimerControl == 0) || (TimerControl = TimerControl + -1, TimerControl == '\0')) {
-      byteOffset = 0x14;
-      IntervalTimerControl = IntervalTimerControl + -1;
-      if (IntervalTimerControl < 0) {
-        IntervalTimerControl = 20;
-        byteOffset = 0x23;
+
+  // Check for pause status
+  if (!(GamePauseStatus & 0x01)) {
+      // If not paused, decrement timers
+      if (TimerControl == 0) {
+          for (int8_t x = 0x14; x >= 0x00; --x) {
+              if (Timers[x] != 0) {
+                  Timers[x]--;
+              }
+          }
+      } else {
+          TimerControl--;
       }
-      do {
-        if (*(char *)(byteOffset + 0x780) != 0) {
-          *(char *)(byteOffset + 0x780) = *(char *)(byteOffset + 0x780) + -1;
-        }
-        byteOffset = byteOffset - 1;
-      } while (-1 < (char)byteOffset);
-    }
-    FrameCounter = FrameCounter + '\x01';
-  }
-  byteOffset = 0;
-  i = 7;
-  Parameter_0 = PseudoRandomBitReg & 0b00000010;
-  bVar3 = 0;
-  if ((PseudoRandomBitReg2 & 0b00000010) != Parameter_0) {
-    bVar3 = 1;
   }
 
-  do {
-    bVar2 = bVar3 << 0b00000111;
-    bVar1 = (&PseudoRandomBitReg)[byteOffset];
-    bVar3 = bVar1 & 0b00000001;
-    (&PseudoRandomBitReg)[byteOffset] = bVar1 >> 1 | bVar2;
-    byteOffset = byteOffset + 1;
-    i = i + -1;
-  } while (i != 0);
+  // Increment frame counter
+  FrameCounter++;
 
-  if (Sprite0HitDetectFlag != 0) {
-    do {
-      byteOffset = PPUSTATUS;
-    } while ((byteOffset & 0x40) != 0);
-    if (!(bool)(GamePauseStatus & 1)) {
-      func_0x8223(GamePauseStatus >> 1);
+
+  // Rotate pseudo-random bits
+  for (uint8_t x = 0, y = 7; y > 0; --y) {
+      uint8_t temp1 = PseudoRandomBitReg[x] & 0b00000010;
+      uint8_t temp2 = PseudoRandomBitReg[x + 1] & 0b00000010;
+      uint8_t result = temp1 ^ temp2;
+      if (result != 0) {
+          PseudoRandomBitReg[x] |= 0x80;
+      } else {
+          PseudoRandomBitReg[x] &= 0x7F;
+      }
+      x++;
+  }
+
+  // Wait for sprite 0 flag to clear
+  if (Sprite0HitDetectFlag == 0) {
+      while (PPU_STATUS & 0x40) {}
+      MoveSpritesOffscreen();
       SpriteShuffler();
-    }
-    do {
-      byteOffset = PPUSTATUS;
-    } while ((byteOffset & 0x40) == 0);
-    i = 20;
-    do {
-      i = i + -1;
-    } while (i != 0);
   }
 
-  PPUSCROLL = HorizontalScroll;
-  PPUSCROLL = VerticalScroll;
-  bStack0000 = Mirror_PPU_CTRL_REG1;
-  PPUCTRL = Mirror_PPU_CTRL_REG1;
-  if (!(bool)(GamePauseStatus & 1)) {
-    OperModeExecutionTree(GamePauseStatus >> 1);
+  // Set scroll registers from variables
+  PPU_SCROLL_REG = HorizontalScroll;
+  PPU_SCROLL_REG = VerticalScroll;
+
+  // Copy mirror of $2000 to register and reactivate NMIs
+  temp = PPU_CTRL_REG1 | 0x80;
+  PPU_CTRL_REG1 = temp;
+
+  // Execute operation mode if not paused
+  if (!(GamePauseStatus & 0x01)) {
+      OperModeExecutionTree();
   }
-  currentPPUStatus = PPUSTATUS;
-  PPUCTRL = bStack0000 | 0x80;
-  return bStack0000 | 0x80;
+
+  
 }
 ```
 
-## InitScroll function
-```
-void InitScroll(byte newScrollValue)
-{
-  PPUSCROLL = newScrollValue;
-  PPUSCROLL = newScrollValue;
-  return;
-}
-```
 
 ## UpdateScreen function
 ```
