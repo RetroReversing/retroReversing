@@ -429,93 +429,156 @@ byte vblank()
 {
   byte bVar1;
   byte bVar2;
+  char i;
   byte bVar3;
-  undefined uVar4;
-  char cVar5;
-  byte bVar6;
   byte bStack0000;
+  byte byteOffset;
+  undefined currentPPUStatus;
   
   PPUCTRL = Mirror_PPU_CTRL_REG1 & 0x7e;
-  bVar3 = DAT_0779 & 0xe6;
-  if (DisableScreenFlag == '\0') {
-    bVar3 = DAT_0779 | 0x1e;
+  byteOffset = Mirror_PPU_CTRL_REG2 & 0xe6;
+  if (DisableScreenFlag == 0) {
+    byteOffset = Mirror_PPU_CTRL_REG2 | 0b00011110;
   }
-  PPUMASK = bVar3 & 0xe7;
-  uVar4 = PPUSTATUS;
-  Mirror_PPU_CTRL_REG1 = Mirror_PPU_CTRL_REG1 & 0x7f;
-  DAT_0779 = bVar3;
-  uVar4 = InitScroll(0,uVar4);
-  OAMADDR = uVar4;
+  PPUMASK = byteOffset & 0b11100111;
+  currentPPUStatus = PPUSTATUS;
+  Mirror_PPU_CTRL_REG1 = Mirror_PPU_CTRL_REG1 & 0b01111111;
+  Mirror_PPU_CTRL_REG2 = byteOffset;
+  currentPPUStatus = InitScroll(0,currentPPUStatus);
+  OAMADDR = currentPPUStatus;
   OAMDMA = 2;
-  Parameter_0 = (&VRAM_AddrTable_Low)[DAT_0773];
-  Parameter_1 = (&VRAM_AddrTable_High)[DAT_0773];
+  Parameter_0 = (&VRAM_AddrTable_Low)[VRAM_Buffer_AddrCtrl];
+  Parameter_1 = (&VRAM_AddrTable_High)[VRAM_Buffer_AddrCtrl];
   UpdateScreen();
-  bVar3 = (&VRAM_Buffer_Offset)[DAT_0773 == 6];
-  *(undefined *)(bVar3 + 0x300) = 0;
-  (&DAT_0301)[bVar3] = 0;
-  DAT_0773 = 0;
-  PPUMASK = DAT_0779;
-  SoundEngine(DAT_0779);
+  byteOffset = (&VRAM_Buffer_Offset)[VRAM_Buffer_AddrCtrl == 6];
+  *(undefined *)(byteOffset + 0x300) = 0;
+  (&VRAM_Buffer1)[byteOffset] = 0;
+  VRAM_Buffer_AddrCtrl = 0;
+  PPUMASK = Mirror_PPU_CTRL_REG2;
+  SoundEngine(Mirror_PPU_CTRL_REG2);
   ReadJoypads();
   PauseRoutine();
   UpdateTopScore();
-  if (!(bool)(DAT_0776 & 1)) {
-    if ((TimerControl == '\0') || (TimerControl = TimerControl + -1, TimerControl == '\0')) {
-      bVar3 = 0x14;
-      DAT_077f = DAT_077f + -1;
-      if (DAT_077f < '\0') {
-        DAT_077f = '\x14';
-        bVar3 = 0x23;
+  if (!(bool)(GamePauseStatus & 1)) {
+    if ((TimerControl == 0) || (TimerControl = TimerControl + -1, TimerControl == '\0')) {
+      byteOffset = 0x14;
+      IntervalTimerControl = IntervalTimerControl + -1;
+      if (IntervalTimerControl < 0) {
+        IntervalTimerControl = 20;
+        byteOffset = 0x23;
       }
       do {
-        if (*(char *)(bVar3 + 0x780) != '\0') {
-          *(char *)(bVar3 + 0x780) = *(char *)(bVar3 + 0x780) + -1;
+        if (*(char *)(byteOffset + 0x780) != 0) {
+          *(char *)(byteOffset + 0x780) = *(char *)(byteOffset + 0x780) + -1;
         }
-        bVar3 = bVar3 - 1;
-      } while (-1 < (char)bVar3);
+        byteOffset = byteOffset - 1;
+      } while (-1 < (char)byteOffset);
     }
     FrameCounter = FrameCounter + '\x01';
   }
+  byteOffset = 0;
+  i = 7;
+  Parameter_0 = PseudoRandomBitReg & 0b00000010;
   bVar3 = 0;
-  cVar5 = '\a';
-  Parameter_0 = PseudoRandomBitReg & 2;
-  bVar6 = 0;
-  if ((DAT_07a8 & 2) != Parameter_0) {
-    bVar6 = 1;
+  if ((PseudoRandomBitReg2 & 0b00000010) != Parameter_0) {
+    bVar3 = 1;
   }
+
   do {
-    bVar2 = bVar6 << 7;
-    bVar1 = (&PseudoRandomBitReg)[bVar3];
-    bVar6 = bVar1 & 1;
-    (&PseudoRandomBitReg)[bVar3] = bVar1 >> 1 | bVar2;
-    bVar3 = bVar3 + 1;
-    cVar5 = cVar5 + -1;
-  } while (cVar5 != '\0');
-  if (DAT_0722 != '\0') {
+    bVar2 = bVar3 << 0b00000111;
+    bVar1 = (&PseudoRandomBitReg)[byteOffset];
+    bVar3 = bVar1 & 0b00000001;
+    (&PseudoRandomBitReg)[byteOffset] = bVar1 >> 1 | bVar2;
+    byteOffset = byteOffset + 1;
+    i = i + -1;
+  } while (i != 0);
+
+  if (Sprite0HitDetectFlag != 0) {
     do {
-      bVar3 = PPUSTATUS;
-    } while ((bVar3 & 0x40) != 0);
-    if (!(bool)(DAT_0776 & 1)) {
-      func_0x8223(DAT_0776 >> 1);
+      byteOffset = PPUSTATUS;
+    } while ((byteOffset & 0x40) != 0);
+    if (!(bool)(GamePauseStatus & 1)) {
+      func_0x8223(GamePauseStatus >> 1);
       SpriteShuffler();
     }
     do {
-      bVar3 = PPUSTATUS;
-    } while ((bVar3 & 0x40) == 0);
-    cVar5 = '\x14';
+      byteOffset = PPUSTATUS;
+    } while ((byteOffset & 0x40) == 0);
+    i = 20;
     do {
-      cVar5 = cVar5 + -1;
-    } while (cVar5 != '\0');
+      i = i + -1;
+    } while (i != 0);
   }
+
   PPUSCROLL = HorizontalScroll;
   PPUSCROLL = VerticalScroll;
   bStack0000 = Mirror_PPU_CTRL_REG1;
   PPUCTRL = Mirror_PPU_CTRL_REG1;
-  if (!(bool)(DAT_0776 & 1)) {
-    OperModeExecutionTree(DAT_0776 >> 1);
+  if (!(bool)(GamePauseStatus & 1)) {
+    OperModeExecutionTree(GamePauseStatus >> 1);
   }
-  uVar4 = PPUSTATUS;
+  currentPPUStatus = PPUSTATUS;
   PPUCTRL = bStack0000 | 0x80;
   return bStack0000 | 0x80;
 }
 ```
+
+## InitScroll function
+```
+void InitScroll(byte newScrollValue)
+{
+  PPUSCROLL = newScrollValue;
+  PPUSCROLL = newScrollValue;
+  return;
+}
+```
+
+## UpdateScreen function
+```
+void UpdateScreen()
+{
+  undefined uVar1;
+  byte bVar2;
+  byte bVar3;
+  byte bVar4;
+  char cStack0000;
+  
+  while( true ) {
+    uVar1 = PPUSTATUS;
+    if (*_Parameter_0 == '\0') break;
+    PPUADDR = *_Parameter_0;
+    PPUADDR = _Parameter_0[1];
+    bVar4 = 2;
+    cStack0000 = _Parameter_0[2] << 1;
+    bVar2 = Mirror_PPU_CTRL_REG1 | 4;
+    if (!(bool)((byte)_Parameter_0[2] >> 7)) {
+      bVar2 = Mirror_PPU_CTRL_REG1 & 0xfb;
+    }
+    WritePPUReg1(bVar2,uVar1);
+    bVar2 = cStack0000 << 1;
+    if (cStack0000 < '\0') {
+      bVar2 = bVar2 | 2;
+      bVar4 = bVar4 + 1;
+    }
+    bVar3 = bVar2 >> 2;
+    do {
+      if (!(bool)(bVar2 >> 1 & 1)) {
+        bVar4 = bVar4 + 1;
+      }
+      PPUDATA = _Parameter_0[bVar4];
+      bVar3 = bVar3 - 1;
+    } while (bVar3 != 0);
+    _Parameter_0 = (char *)CONCAT11(Parameter_1 + CARRY1(bVar4,Parameter_0),
+                                    bVar4 + Parameter_0 + '\x01');
+    PPUADDR = 0x3f;
+    PPUADDR = 0;
+    PPUADDR = 0;
+    PPUADDR = 0;
+  }
+  PPUSCROLL = 0;
+  PPUSCROLL = 0;
+  return;
+}
+```
+
+
