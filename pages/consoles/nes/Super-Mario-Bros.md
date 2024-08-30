@@ -541,7 +541,7 @@ void vblank()
 ## UpdateScreen function
 The UpdateScreen function is responsible for writing data from a buffer to the PPU's (Picture Processing Unit) VRAM (Video RAM) on the NES. This function involves setting up the PPU address, managing data writes, and handling special conditions like repeating bytes or adjusting the VRAM address increment.
 
-```
+```c
 // Simulate loading a byte from an indirect address
 uint8_t loadByteFromIndirect(uint8_t* lowByte, uint8_t* highByte, uint8_t offset) {
     // Construct the full 16-bit address from the low and high bytes
@@ -625,6 +625,62 @@ void WriteBufferToScreen() {
     // Back to UpdateScreen loop
     UpdateScreen();
 }
+```
+
+## SpriteShuffler function
+The **SpriteShuffler** function is responsible for adjusting the sprite data offsets in Object Attribute Memory (OAM) to shuffle or randomize the order in which sprites are drawn on the screen. This can help in achieving effects like flickering to avoid sprite limitations, managing sprite priorities, or updating sprite positions based on certain gameplay mechanics. The function involves manipulating a preset sprite offset and adjusting it based on shuffle amounts to create a new order or position for the sprites.
+
+```c
+uint8_t AreaType;                     // Placeholder for the level type
+uint8_t SprDataOffset[16];            // Array representing sprite data offsets in OAM
+uint8_t SprShuffleAmtOffset;          // Offset to the shuffle amount
+uint8_t SprShuffleAmt[4];             // Array of shuffle amounts
+uint8_t Misc_SprDataOffset[9];        // Array for miscellaneous sprite data offsets
+
+void SpriteShuffler() {
+    uint8_t presetValue = 0x28;       // Preset value for comparison
+    uint8_t tempX = 0x0e;             // Start at the end of sprite data offsets
+
+    // ShuffleLoop: iterate over sprite data offsets
+    do {
+        uint8_t currentOffset = SprDataOffset[tempX];  // Get current sprite data offset
+        
+        if (currentOffset >= presetValue) {
+            // If the current offset is greater than or equal to presetValue
+            uint8_t shuffleAmount = SprShuffleAmt[SprShuffleAmtOffset];  // Get shuffle amount
+            currentOffset += shuffleAmount;                             // Add shuffle amount to offset
+            
+            if (currentOffset < presetValue) { // Check if overflow occurred
+                currentOffset += presetValue;  // Add presetValue if overflow occurred
+            }
+            
+            SprDataOffset[tempX] = currentOffset; // Store new offset back in array
+        }
+        
+        tempX--;  // Decrement X to move to the next offset
+    } while (tempX >= 0); // Continue until all offsets are processed
+
+    // Update the shuffle amount offset
+    SprShuffleAmtOffset++;
+    if (SprShuffleAmtOffset >= 3) {
+        SprShuffleAmtOffset = 0;  // Reset to 0 if it reaches 3
+    }
+
+    // Set Miscellaneous Sprite Data Offsets
+    uint8_t miscX = 8;
+    uint8_t miscY = 2;
+
+    do {
+        // Load, modify and store miscellaneous sprite data offsets
+        Misc_SprDataOffset[miscX - 2] = SprDataOffset[5 + miscY];    // Store unmodified
+        Misc_SprDataOffset[miscX - 1] = SprDataOffset[5 + miscY] + 8; // Add 8 to the second
+        Misc_SprDataOffset[miscX] = SprDataOffset[5 + miscY] + 16;   // Add 16 to the third
+        
+        miscX -= 3;  // Decrement miscX by 3 (equivalent to `dex dex dex` in assembly)
+        miscY--;     // Decrement miscY by 1
+    } while (miscY >= 0);  // Continue until all miscellaneous offsets are loaded
+}
+
 ```
 
 
