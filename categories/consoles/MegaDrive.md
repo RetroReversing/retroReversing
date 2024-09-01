@@ -59,18 +59,33 @@ You can find out more including lots of images on [Video Games Densetsu: The Seg
 ---
 # Mega Drive Game Software Development
 
-## What programming languages were used to create games for the Sega Mega Drive?
+## The Mega Drive Game development process 
+
+### What programming languages were used to create games for the Sega Mega Drive?
 Although almost all Mega Drive games were written in 68K assembly there is one known commercial Mega Drive game to be written in C, **Sonic Spinball** [^1]!
 
-## How large were Mega Drive game development teams?
+### What computers were used to write Mega Drive games?
+Popular choices for computers for writing Mega Drive games in Japan were the **Sharp X68000** (it shared the same processor) and the Intel 8086 based **NEC PC-9801**.
+
+The **Sharp X68000** is known to have been used at **Game Arts** [^3] and is a smart choice as the assembly code can be tested out on the hardware directly and only required the Mega Drive development kit for testing the graphics and sound capabilities. So game logic could be tested more efficiently.
+
+The **NEC PC-9801** is known to have been used at SEGA of Japan thanks to the **Sound-Source leak** [^4].
+
+### How large were Mega Drive game development teams?
 The development of the game **Alien Soldier** and other games by **Treasure** had only 4 people working on it, 2 programmers and 2 game designers which we found out in a translated interview with **Masato Maegawa**[^2]:
 > In the early 90s, for our Megadrive developments, all our developments were done with 2 programmers and 2 designers max. Alien Soldier, in fact, started out with just one person, NAMI, who took on the role of both designer and programmer.
 
-## How long did it take to develop games for the Mega Drice back in the day?
+### How long did it take to develop games for the Mega Drive back in the day?
 At **Treasure** (e.g Alien Soldier) **Masato Maegawa** reveals that it takes around about 10 months but that more complicated games could last 2 years [^2]:
 > In the Megadrive days we took about 10 months for a game; now it’s about 15 months. There were some titles that took us a full 2 years, though.
 Although he also revealed that there was a tight development cycle for Alien Solider as the deadline was January 3rd 1995 and they were working through the New Year switch.
 
+---
+## Software Development Kit
+To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:
+{% include link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
+
+---
 ## In-House Development Software
 It was common in the industry to development software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.
 
@@ -88,7 +103,9 @@ In the image below you can see Main Programmer **Naozumi Honma** on the left and
 
 
 ---
-## Basics of 68K Assembly
+## Assembly Language programming
+
+### Basics of 68K Assembly
 In an interview with **Computerphile** the Tanglewood developer **Matt Phillips** explains the basics of how assembly language programming works for creating Mega Drive games:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kalmryn9_sE?si=3GarbB4oJDhYoxLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -104,7 +121,7 @@ It is then loaded into the SNASM debugger (V2.0) on a SNASM Mega CD Development 
 ![SNASM Debugger](https://github.com/user-attachments/assets/f5b11139-d39b-462f-a673-d57ee2f0f082)
 
 
-## Code Your Own Sonic Game
+### Code Your Own Sonic Game
 The Youtuber **Game Hut** has a series of tutorials on Sega Mega Drive programming.
 Part 1:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PSYhSmXBgIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -124,4 +141,4 @@ Part 2:
 [^1]: [Interview: Peter Morawiec (2007-04-20) by Sega-16 - Sega Retro](https://segaretro.org/Interview:_Peter_Morawiec_(2007-04-20)_by_Sega-16?rdfrom=https%3A%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DInterview%3A_Peter_Morawiec_%282007-04-20%29_by_Sega-16%26redirect%3Dno)
 [^2]: [Alien Soldier – 1995 Developer Interview - shmuplations.com](https://shmuplations.com/aliensoldier/)
 [^3]: [Alisia Dragoon – 1992 Developer Interview - shmuplations.com](https://shmuplations.com/alisiadragoon/)
-
+[^4]: [News/Sega of Japan Sound Documents and Source Code - Hidden Palace](https://hiddenpalace.org/News/Sega_of_Japan_Sound_Documents_and_Source_Code)
