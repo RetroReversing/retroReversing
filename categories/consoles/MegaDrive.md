@@ -71,6 +71,23 @@ At **Treasure** (e.g Alien Soldier) **Masato Maegawa** reveals that it takes aro
 > In the Megadrive days we took about 10 months for a game; now it’s about 15 months. There were some titles that took us a full 2 years, though.
 Although he also revealed that there was a tight development cycle for Alien Solider as the deadline was January 3rd 1995 and they were working through the New Year switch.
 
+## In-House Development Software
+It was common in the industry to development software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.
+
+### DARI and KETCHUP (Game Arts)
+For the development of the Mega Drive game **Alisia Dragoon**, Game Arts created some in-house development software called KETCHUP and DARI:
+- **KETCHUP** was used for editing maps and defining the pattern of enemy movements by configuring basic curves in the editor, as can be seen in the image below [^3].
+![KETCHUP Development Software](https://github.com/user-attachments/assets/da139574-dc3a-47b9-8590-efeda984bb39)
+- **DARI** was used for editing animated Sprites for games targetting both Mega Drive and Sharp X68000 systems:
+![DARI development software](https://github.com/user-attachments/assets/95868040-6b64-4ac3-b289-398d1fd50c30)
+
+
+In the image below you can see Main Programmer **Naozumi Honma** on the left and Assistant Programmer Osamu Harada on the right along with their **Sharp X68000** development computers (and Mega Drive controller presumably hooked up to a development kit) [^3]:
+![image](https://github.com/user-attachments/assets/ea1b6728-814a-4075-ace2-414e976cacdc)
+
+
+
+---
 ## Basics of 68K Assembly
 In an interview with **Computerphile** the Tanglewood developer **Matt Phillips** explains the basics of how assembly language programming works for creating Mega Drive games:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Kalmryn9_sE?si=3GarbB4oJDhYoxLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -106,3 +123,5 @@ Part 2:
 # References
 [^1]: [Interview: Peter Morawiec (2007-04-20) by Sega-16 - Sega Retro](https://segaretro.org/Interview:_Peter_Morawiec_(2007-04-20)_by_Sega-16?rdfrom=https%3A%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DInterview%3A_Peter_Morawiec_%282007-04-20%29_by_Sega-16%26redirect%3Dno)
 [^2]: [Alien Soldier – 1995 Developer Interview - shmuplations.com](https://shmuplations.com/aliensoldier/)
+[^3]: [Alisia Dragoon – 1992 Developer Interview - shmuplations.com](https://shmuplations.com/alisiadragoon/)
+
