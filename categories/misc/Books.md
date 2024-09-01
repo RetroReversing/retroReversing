@@ -47,15 +47,15 @@ Some of the most note-worthy publishers for game development related books on th
 * **A. K. Peters Ltd** - Textbooks related to Computer Graphics and ran from 1992 to 2010 before being bought by **CRC Press**
 * **CRC Press** - Started Game development books in 2003 and still running until present day
 * **Charles River Media** - Game Development series ran from 2002 to 2009
-* **Jones and Bartlett Publishers**
+* **Jones and Bartlett Publishers** - Books on C++ from 2001 then bought Wordware in 2008 and started Game development books such as the Game Engine gems series
 * **Morgan Kaufmann** - The Morgan Kaufmann Series in Computer Graphics ran from 1989-2018
 * **New Riders Games (NRG)** - From 2003 to 2014
 * **Premier Press** - From 2001 until they became **Thomson Course Technology PTR** in October 2003 [^6]
 * **Prima Tech**[^2] - Becomes Premier Press in 2001 [^4]
 * **Sams** - Famous for the Sams teach yourself series but not many game specific books (1988-Present)
-* **Thomson Course Technology PTR** - Becomes Cengage Learning in July 2007
+* **Thomson Course Technology PTR** - Becomes **Cengage Learning** in July 2007
 * **Waite Group Press** - Published the Black art of game programming series of books and early books on 3D graphics [^1]
-* **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes Jones and Bartlett Publishers)
+* **Wordware Game Developer's Library** - From 1999 to 2009 (Becomes **Jones and Bartlett** Publishers)
 
 ## Notable Authors
 Some of the most prolific authors in the game development genre are:
