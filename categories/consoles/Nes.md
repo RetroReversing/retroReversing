@@ -148,6 +148,7 @@ Most game development teams only hand a handful of people working full time on t
 
 Some examples of the length of time it took to develop Nintendo Entertainment System games are:
 * **SOLAR JETMAN: HUNT FOR THE GOLDEN WARSHIP** - Took 1 year with 4 developers (but only 2 developers for 60% of development time) [^4].
+* **The Portopia Serial Murder Case** and other ports by **Chunsoft** took about 4 months with a team of about 5-6 people [^5].
 
 ## Who was the first NES game developers outside of Japan?
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
@@ -280,3 +281,4 @@ We have moved this section to its own post which you can view here:
 [^2]: Game Developer Magazine April 1994 Page 24
 [^3]: Retro Gamer Issue 84 from December 2010 pages 34–35.
 [^4]: Retro Gamer Issue 96 page 55
+[^5]: [Chunsoft 30th Anniversary – 2014 Developer Interview - shmuplations.com](https://shmuplations.com/chunsoft30th/)
