@@ -8,9 +8,9 @@ tags:
 - snsystems
 title: Sega Mega Drive (Genesis)  Software Development Kit (SDK)
 thumbnail: /public/consoles/Sega Megadrive.png
-image: /public/images/megadrive/Sega Mega Drive Genesis SDK.jpg
-twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis SDK.jpg
-permalink: /sega-mega-drive-genesis-sdk/
+_image: /public/images/megadrive/Sega Mega Drive Genesis SDK.jpg
+_twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis SDK.jpg
+permalink: /sega-mega-drive-genesis-sdk
 breadcrumbs:
   - name: Home
     url: /
