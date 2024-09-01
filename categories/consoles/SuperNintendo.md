@@ -114,6 +114,10 @@ We have a post all about the hardware that was used to develop for the Super Nin
 For an in-depth look at the SNES Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/snes/" description="Copetti.org has an excellent tear down of the SNES Hardware and how it works" image="/public/consoles/Super Nintendo Entertainment System.png" title="Super Nintendo Entertainment System (SNES) Architecture - A Practical Analysis" %}
 
+### Was the SNES backwards compatible with the NES?
+No, but it was intended to be during early development of the SNES which we found out thanks to an interview with **Masayuki Uemura** [^8]:
+> In truth, we actually wanted the Super Famicom to be able to play Famicom games too. We used a CPU that’s equipped with a 6502 emulation mode and everything. However, the sheer amount of games released for the Famicom, plus the fact that they often used different types of ROMs and chips made it too difficult to produce a perfect conversion.
+
 ---
 ## SNES in-flight Airplane hardware (Nintendo Gateway)
 In 1993 Nintendo introduced an in-flight entertainment system called the Gateway, this system allowed passengers to play SNES games for about 4 USD an hour.
@@ -176,3 +180,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^5]: [65C816 Cross Development Tools](https://groups.google.com/g/comp.sys.apple2/c/HVO_s48q7Kw/m/wcRA5s07jdoJ?pli=1)
 [^6]: https://www.westerndesigncenter.com/wdc/documentation/Assembler_Linker.pdf
 [^7]: [Super Noah's Ark 3D (USA) (Source Code) - elude visibility](https://eludevisibility.org/super-noahs-ark-3d-source-code)
+[^8]: [Masayuki Uemura – The Creator of the Famicom - shmuplations.com](https://shmuplations.com/masayukiuemura/) 
