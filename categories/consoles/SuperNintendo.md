@@ -86,12 +86,18 @@ FTP servers were setup for sending builds across the world but for local testing
 ## How large were SNES game development teams?
 According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
 
+In an interview with **Shigeru Miyamoto** he states that development takes can get up to about 20 or so people in the later half of the development cycle [^9]:
+> For our development teams, for the beginning of the first year its usually comprised of 3 to 4 people, then about half a year in we start adding people until about the 8 month mark, where we reach a team of 20 or so. A new game system determines about 60% of the game creation process. In my case I work on that nucleus of the game first. The maps, story, etc are all about 10 or 20%.
+
 ## How did SNES Game Development teams communicate?
 Back in 1992 the internet was still finding its footing in the games industry and much of the communication was done via Fax, here is one example of a Fax sent between the Acclaim production team presumably in the US and the game programmers in the UK.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">31 years ago we were working on SNES Spider-Man and the X-Men in Arcade&#39;s Revenge. We had very little time on for this project and had 3 experienced coders on-board to get it done. Here&#39;s a FAX from production at Acclaim to give you a flavour of the pressure we were under 1/2. <a href="https://t.co/FrJ6XDIGJu">pic.twitter.com/FrJ6XDIGJu</a></p>&mdash; Kevin Edwards ( Retro Videogame development ) (@KevEdwardsRetro) <a href="https://twitter.com/KevEdwardsRetro/status/1715387308600394213?ref_src=twsrc%5Etfw">October 20, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">31 years ago we were working on SNES Spider-Man and the X-Men in Arcade&#39;s Revenge. We had very little time on for this project and had 3 experienced coders on-board to get it done. Here&#39;s a FAX from production at Acclaim to give you a flavour of the pressure we were under 1/2. <a href="https://t.co/FrJ6XDIGJu">pic.twitter.com/FrJ6XDIGJu</a></p>&mdash; Kevin Edwards ( Retro Videogame development ) (@KevEdwardsRetro) <a href="https://twitter.com/KevEdwardsRetro/status/1715387308600394213?ref_src=twsrc%5Etfw">October 20, 2023</a></blockquote>
 
 Although note that in the Fax they mention sending a build of the game to Nintendo via Modem for sound testing so the Internet was in use.
+
+Email was also in use, even amongst japanese game developers such as Square as can be seen in an interview with **Hironobu Sakaguchi** who worked on Final Fantasy [^9]:
+> I use a Macintosh to make the tools we use at Squaresoft, and I also use it when making SFC games. Our team is also connected on the local network, and we pass ideas around via e-mail. This way when one person has an idea, it can be shared with everyone.
 
 ---
 # Sound and Music
@@ -181,3 +187,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^6]: https://www.westerndesigncenter.com/wdc/documentation/Assembler_Linker.pdf
 [^7]: [Super Noah's Ark 3D (USA) (Source Code) - elude visibility](https://eludevisibility.org/super-noahs-ark-3d-source-code)
 [^8]: [Masayuki Uemura – The Creator of the Famicom - shmuplations.com](https://shmuplations.com/masayukiuemura/) 
+[^9]: [1994 Game Developers – Interview Collection - shmuplations.com](https://shmuplations.com/1994gamedevs/)
