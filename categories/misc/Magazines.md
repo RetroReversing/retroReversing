@@ -197,6 +197,8 @@ GameBytes | | 1992-1994 | MS-DOS based application for an interactive magazine r
 Mean Machines Sega | EMAP | 1992-1997 | UK Sega Magazine that has 53 issues
 MEGA | Future | 1992-1995 | UK based Sega magazine with 38 issues
 Mega Action | Europress | 1993-1994 | UK Sega Mega Drvie Magazine with 11 issues 
+Mega Machines | Impact | 1993-1994 | UK Sega Magazine with 5 issues
+Mega Play | Sendai | 1990-1995 | US Sega Magazine
 PC Gamer | Future | 1993-present | Long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Thin Ice Media (Datel) | 2000-? | This occasionally contains top quality articles about **Homebrew** and **Game Development** for the Playstation 2
 Retro Gamer | Live/Imagine/Future | 2004-present | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
