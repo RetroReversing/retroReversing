@@ -189,7 +189,8 @@ Dreamcast Official Magazine (UK) | Dennis Publishing | 1999-2001 | UK Dreamcast 
 Dreamcast Official Magazine (USA) | Imagine Media | 1999-2001 | USA Dreamcast Magazine with 13 issues
 Dreamcast Solutions | Paragon | 1999-2001 | UK Dreamcast Magazine
 Dreamcast Strategies | Quay Publishing | 1999 | UK Dreamcast Magazine
-DC-Tips/Dreamcast Tips | Future | 2000 | UK Dreamcast Magazine
+DC-Tips | Future | 2000 | UK Dreamcast Magazine Spin off of DC-UK
+Dreamcast Tips | LCD | 1999 | UK Dreamcast Magazine with only 1 issue ever published
 EDGE | Future | | UK magazine that contained interviews with game developers and even adverts for Development Kits
 GamesTM | Highbury | 2002-2018 | UK Magazine that contained interviews with Game developers reached 213 issues
 GameBytes | | 1992-1994 | MS-DOS based application for an interactive magazine released on BBS between 1992-1994 https://www.dosgames.com/gamebytes.php
