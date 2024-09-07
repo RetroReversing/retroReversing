@@ -182,6 +182,14 @@ There are many magazines related to Gaming both past and present, however only a
 Title | Publisher | Run | Notes
 ---|---|---|---
 Computer Gaming World | |  1981-2006 | USA Magazine that ran from 1981-2006
+DC-UK | Future | 1999-2001 | Short lived UK Dreamcast magazine
+Dreamcast Magazine | Paragon | 1999-2002 | UK Dreamcast Magazine (34 issues)
+Dreamcast Monthly | Quay Publishing | 1999-2001? | UK Dreamcast Magazine (17 issues?)
+Dreamcast Official Magazine (UK) | Dennis Publishing | 1999-2001 | UK Dreamcast Magazine (23 issues including specials)
+Dreamcast Official Magazine (USA) | Imagine Media | 1999-2001 | USA Dreamcast Magazine with 13 issues
+Dreamcast Solutions | Paragon | 1999-2001 | UK Dreamcast Magazine
+Dreamcast Strategies | Quay Publishing | 1999 | UK Dreamcast Magazine
+DC-Tips/Dreamcast Tips | Future | 2000 | UK Dreamcast Magazine
 EDGE | Future | | UK magazine that contained interviews with game developers and even adverts for Development Kits
 GamesTM | Highbury | 2002-2018 | UK Magazine that contained interviews with Game developers reached 213 issues
 GameBytes | | 1992-1994 | MS-DOS based application for an interactive magazine released on BBS between 1992-1994 https://www.dosgames.com/gamebytes.php
