@@ -268,6 +268,27 @@ Issue Number | Content
 29 | The Making of Tomb Raider: Angel of Darkness
 
 ---
+## Retro Gamer Magazine
+
+### Interviews with Game Developers
+
+Issue Number | Interview Name | Description |
+---|---|---|
+| 2 | Graham Goring | Goring is a member of Retrospec, a group that remakes classic games. The interview does not specify which games Goring has worked on or for which platforms. |
+| 2 | Andy Hewitt | Hewitt discusses his work with the game developer group Ovine by Design, including the group's history and their use of game development tools like Jamagic. The interview mentions that Ovine by Design's latest game, **_Imogen_**, is a platform game for the **ZX Spectrum**. |
+| 3 | Simon Ullyatt & Jonathan Cauldwell | Ullyatt and Cauldwell are members of Cronosoft, a group that develops new games for older platforms. The interview mentions several of Cronosoft's games, including **_Egghead in Space_** (for the **ZX Spectrum**) and **_Plan 9 Channel 7_**, **_More Tea, Vicar?_**, and **_Reaxion_** (all for the **Commodore 64**). The interview also mentions that Cronosoft was considering making a **BBC Micro** version of **_Egghead in Space_**. |
+| 5 | Protovision | The members of Protovision discuss their work developing games for the **Commodore 64**. The interview mentions several of their games, including **_Metal Dust_**, **_Tanks 3000_**, and **_Pac It_**. |
+| 5 | Stuart Fotheringham | Fotheringham discusses his work on games like **_Mega-tree_**, **_Heartland_**, and **_Nodes of Yesod_**. **_Mega-Tree_** was in development for the **Commodore 64**, but never released. The interview mentions that the **ZX Spectrum** and **Commodore 64** versions of **_Heartland_** shared the same map data. **_Nodes of Yesod_** was released for the **ZX Spectrum** and the **Commodore 64**. The interview also discusses Fotheringham's work on an unreleased version of **_Star Raiders_** for the **Commodore 64**. |
+| 6 | Nick Harlow | Harlow discusses the history of 1632 Systems, which started as a Public Domain library for the **Atari ST**. |
+| 8 | Nolan Bushnell | Bushnell is known for his work on games like **_Pac-Man_**, **_Breakout_**, and for founding Atari. |
+| 9 | David Doak | Doak is known for his work on **_GoldenEye 007_** for the **Nintendo 64**. |
+| 10 | Steve Meretzky | Meretzky is known for his work on text adventures such as **_Planetfall_**, **_Sorcerer_**, and **_The Hitchhiker's Guide to the Galaxy_**. The interview does not specify which platforms these games were developed for. |
+| 11 | Malcolm Evans | Evans is known for his work on games such as **_3D Monster Maze_** (for the **ZX81**), **_Trashman_**, and **_The Ishar_** trilogy. |
+| 11 | Color Dreams/Wisdom Tree | This interview features developers from Color Dreams/Wisdom Tree, discussing their unlicensed, religious-themed **NES** games. |
+| 11 | Francois Lionet | Lionet discusses his work on the game development tools **_AMOS_** (for the **Amiga**) and **_Klik & Play_** (for the **PC**). |
+
+
+---
 # Creative Magazines
 Creative Magazines related to topics such as art/3d graphics and even web development are just as valuable a source as gaming magazines for the time as they would often talk about industry events and software that were often used by game developers.
 
