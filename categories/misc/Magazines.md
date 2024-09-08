@@ -201,7 +201,8 @@ Mega Machines | Impact | 1993-1994 | UK Sega Magazine with 5 issues
 Mega Play | Sendai | 1990-1995 | US Sega Magazine
 Mega Power | Paragon | 1993-1995 | UK Sega Mega Drive Magazine
 MegaTech | EMAP | 1991-1995 | UK Sega Mega Drive Magazine (43 issues)
-Megazone | Megazone Publications | 1990-1994 | Australian Sega Magazine had a regular section called "Pirates Cave" where crackers could write in and share their thoughts on software piracy
+Megazone | Megazone Publications | 1990-1994 | Australian Amiga & Sega Magazine had a regular section called "Pirates Cave" where crackers could write in and share their thoughts on software piracy
+Mr Dreamcast | Magical Media | 2000 | Only 2 issues were published of this UK Dreamcast magazine
 PC Gamer | Future | 1993-present | Long Running UK Magazine dedicated to PC Gaming, sometimes has game developer and modding content
 PSi2 | Thin Ice Media (Datel) | 2000-? | This occasionally contains top quality articles about **Homebrew** and **Game Development** for the Playstation 2
 Retro Gamer | Live/Imagine/Future | 2004-present | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
