@@ -280,6 +280,7 @@ Issue Number | Interview Name | Description |
 | 5 | Protovision | The members of Protovision discuss their work developing games for the **Commodore 64**. The interview mentions several of their games, including **_Metal Dust_**, **_Tanks 3000_**, and **_Pac It_**. |
 | 5 | Stuart Fotheringham | Fotheringham discusses his work on games like **_Mega-tree_**, **_Heartland_**, and **_Nodes of Yesod_**. **_Mega-Tree_** was in development for the **Commodore 64**, but never released. The interview mentions that the **ZX Spectrum** and **Commodore 64** versions of **_Heartland_** shared the same map data. **_Nodes of Yesod_** was released for the **ZX Spectrum** and the **Commodore 64**. The interview also discusses Fotheringham's work on an unreleased version of **_Star Raiders_** for the **Commodore 64**. |
 | 6 | Nick Harlow | Harlow discusses the history of 1632 Systems, which started as a Public Domain library for the **Atari ST**. |
+| 7 | Matthew Smith | This issue contains an interview with **Matthew Smith**, creator of **Manic Miner** and **Jet Set Willy**, for the **ZX Spectrum**.  |
 | 8 | Nolan Bushnell | Bushnell is known for his work on games like **_Pac-Man_**, **_Breakout_**, and for founding Atari. |
 | 9 | David Doak | Doak is known for his work on **_GoldenEye 007_** for the **Nintendo 64**. |
 | 10 | Steve Meretzky | Meretzky is known for his work on text adventures such as **_Planetfall_**, **_Sorcerer_**, and **_The Hitchhiker's Guide to the Galaxy_**. The interview does not specify which platforms these games were developed for. |
@@ -294,6 +295,8 @@ Issue Number | Interview Name | Description |
 | 13 | Jeff Kunkel | Jeff Kunkel was a game developer who worked on arcade games, including *Dragon's Lair*. One of his personal projects was adding a "freeplay mode" to his copy of the arcade game *Frogger*. |
 | 13 | Ben Heckendorn | Ben Heckendorn was a console modder who, by 2004, had created portable versions of the Virtual Boy, PlayStation, Super Nintendo Entertainment System, Atari 2600, and PlayStation 2. His "dream project" was to create a laptop that could play Atari 800 games. |
 | 13 | Steve Wilcox | Steve Wilcox was a game developer who worked with Elite. One of the company's notable releases was *Battle Command* for the Commodore 64, a game that impressed with its use of 3D graphics despite the technical limitations of the Commodore 64. |
+| 14 | Jon Ritman | This issue contains an interview with **Jon Ritman**, the developer behind **Match Day** and **Head Over Heels** for the **ZX Spectrum**. The article also touches on his work on **Batman**.  |
+| 14 | Dino Dini | This issue features an interview with **Dino Dini**, creator of **Kick Off** and **Goal!**. **Kick Off** was originally developed for the **Atari ST** and later ported to the **Amiga**. **Goal!** was released on the **Sega Megadrive** as **Dino Dini's Soccer**. |
 | 15 | Walter Ginner | Walter Ginner was a competitive gamer in the 1980s. |
 | 15 | Fergus McNeil | Fergus McNeil was the founder of the software company Delta 4. One of the company's games, *Quest for the Holy Joystick*, was a text-based adventure game that parodied the software industry and contained references to contemporary gaming magazines. |
 | 15 | Keith Hughes | Keith Hughes was a game developer who, as of 2005, worked at Kuju. |
