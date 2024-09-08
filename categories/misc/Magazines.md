@@ -286,6 +286,32 @@ Issue Number | Interview Name | Description |
 | 11 | Malcolm Evans | Evans is known for his work on games such as **_3D Monster Maze_** (for the **ZX81**), **_Trashman_**, and **_The Ishar_** trilogy. |
 | 11 | Color Dreams/Wisdom Tree | This interview features developers from Color Dreams/Wisdom Tree, discussing their unlicensed, religious-themed **NES** games. |
 | 11 | Francois Lionet | Lionet discusses his work on the game development tools **_AMOS_** (for the **Amiga**) and **_Klik & Play_** (for the **PC**). |
+| 12 | Vicky Carne | Vicky Carne was the founder of 8-bit software house Mosaic Publishing. Mosaic Publishing was responsible for bringing the "amazingly original titles" [*Hover Bovver* and *Revenge of the Mutant Camels*] to the Commodore 64. One of the company's more notable releases was *Battle Command*, a tank game for the Commodore 64 that was lauded for its "fast-filled 3D graphics". |
+| 12 | Jeff Minter | Jeff Minter is a game developer known for his work with Llamasoft. Some of his more popular games, such as *Gridrunner++* for PC and Mac, are known for their "diversity and humour", containing enemies that range from "footballs to giant Mutley heads". |
+| 12 | Albert Yarusso | Albert Yarusso was the chief maintainer of the AtariAge website in 2005. |
+| 13 | Jamie Fenton | Jamie Fenton was one half of the duo, with partner Dennis Koble, who created the game *Sea Wolf*, released in 1976. |
+| 13 | Julian Golop | Julian Golop was a game developer who worked on games such as *Lords of Chaos* and *X-Com*. *Lords of Chaos* was released on an unspecified platform, but was designed to be a combination of "the best bits of *Chaos* and *Laser Squad*", with additional RPG elements. The first *X-Com* game was programmed for the PC because it was "the most popular platform for strategy games" at the time. |
+| 13 | Jeff Kunkel | Jeff Kunkel was a game developer who worked on arcade games, including *Dragon's Lair*. One of his personal projects was adding a "freeplay mode" to his copy of the arcade game *Frogger*. |
+| 13 | Ben Heckendorn | Ben Heckendorn was a console modder who, by 2004, had created portable versions of the Virtual Boy, PlayStation, Super Nintendo Entertainment System, Atari 2600, and PlayStation 2. His "dream project" was to create a laptop that could play Atari 800 games. |
+| 13 | Steve Wilcox | Steve Wilcox was a game developer who worked with Elite. One of the company's notable releases was *Battle Command* for the Commodore 64, a game that impressed with its use of 3D graphics despite the technical limitations of the Commodore 64. |
+| 15 | Walter Ginner | Walter Ginner was a competitive gamer in the 1980s. |
+| 15 | Fergus McNeil | Fergus McNeil was the founder of the software company Delta 4. One of the company's games, *Quest for the Holy Joystick*, was a text-based adventure game that parodied the software industry and contained references to contemporary gaming magazines. |
+| 15 | Keith Hughes | Keith Hughes was a game developer who, as of 2005, worked at Kuju. |
+| 16 | Mr Biffo and Mr Hairs | Mr Biffo and Mr Hairs were the pseudonyms of the creators of *Digitiser*, a Teletext gaming section that ran on Channel 4. |
+| 16 | The guys behind Gilsoft | Gilsoft was a company best known for their game creation software *The Quill*, which allowed users to create text-based adventure games. |
+| 17 | Paul Carruthers | Paul Carruthers is a programmer best known for his work on the game *Xor*, which was originally released in 1987 for the BBC Micro. *Xor* was later ported to the Electron, Spectrum, Commodore 64, Amstrad, Amiga, and Atari ST. |
+| 17 | Dave Reidy and Keith Warrington | Dave Reidy and Keith Warrington were the creators of the game *Skool Daze*. *Skool Daze* was programmed for the ZX Spectrum. |
+| 18 | Tim Skelly | Tim Skelly was a programmer best known for his work on the arcade game *Reactor*. *Reactor* was the first arcade game to include the programmer's name on-screen. |
+| 18 | Dave Needle and R.J. Mical | Dave Needle and R.J. Mical were the engineers behind the Atari Lynx, released in 1989. The Lynx was notable for being the world's first colour handheld games console. |
+| 18 | David Crane | David Crane was the programmer behind *Little Computer People*. *Little Computer People* allowed the player to interact with a virtual person who lived in their computer. |
+| 18 | Mark Cale | Mark Cale was the co-founder of System 3, the company that developed the *Last Ninja* series. The first *Last Ninja* was released for the Commodore 64 and a few other platforms. The second game in the series was released for almost every gaming platform available at the time. |
+| 18 | John Twiddy | John Twiddy was a programmer who worked on all three of the *Last Ninja* games. The first *Last Ninja* game was programmed for the Commodore 64. The second game in the series introduced a new setting (New York) because it allowed for more varied environments compared to the first game, which took place in a garden. The Atari ST and Amiga versions of *Last Ninja 2* were outsourced to external programmers. |
+| 19 | John and Ste Pickford | John and Ste Pickford were brothers who worked together in the games industry for many years. Their first game together was the Spectrum game *Zub*. They later worked on the NES at Rare. One of the games they worked on at Rare was a Game Boy wrestling game that won a "Best Game Boy Game" award at CES, despite only featuring four frames of animation per wrestler. |
+| 20 | Chris Roper | Chris Roper won the Oliver Twins' remake competition at Retro Ball 2005. The game he created for the competition was a remake of the ZX Spectrum game *Horace and the Spiders*. |
+| 20 | Stephen Robertson | Stephen Robertson was a graphic artist best known for creating loading screens for the Commodore 64. One of the games he worked on was *Cybernoid*, a game known for its side-scrolling shoot 'em up gameplay. |
+| 20 | Staff at Technos Japan and American Technos | Technos Japan was a company best known for their work on the *Kunio-Kun* series of games. *Double Dragon* was one of their most commercially successful games. *WWF Superstars* (1989) and *WWF Wrestlefest* (1991) were two of their licensed games. |
+
+
 
 
 ---
