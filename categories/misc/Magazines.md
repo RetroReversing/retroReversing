@@ -310,8 +310,51 @@ Issue Number | Interview Name | Description |
 | 20 | Chris Roper | Chris Roper won the Oliver Twins' remake competition at Retro Ball 2005. The game he created for the competition was a remake of the ZX Spectrum game *Horace and the Spiders*. |
 | 20 | Stephen Robertson | Stephen Robertson was a graphic artist best known for creating loading screens for the Commodore 64. One of the games he worked on was *Cybernoid*, a game known for its side-scrolling shoot 'em up gameplay. |
 | 20 | Staff at Technos Japan and American Technos | Technos Japan was a company best known for their work on the *Kunio-Kun* series of games. *Double Dragon* was one of their most commercially successful games. *WWF Superstars* (1989) and *WWF Wrestlefest* (1991) were two of their licensed games. |
-
-
+| 21 | Nolan Bushnell | The interview is about Bushnell bringing gaming to the masses. He is the creator of electronic gaming, designer of Pong, and founder of Atari. |
+| 22 | Tim Schafer | In this interview, Schafer discusses how he got his start in the gaming industry. He worked on games such as *The Secret of Monkey Island*, *Grim Fandango*, *Indiana Jones and the Fate of Atlantis*, and the *Sam & Max* series, across platforms like PC, Amiga, Mac, and Sega CD. |
+| 22 | Gary Liddon | In this interview, Liddon discusses his career and games such as *Delta*, the sequel to *Sanxion*. |
+| 23 | Andy Davidson | This interview focuses on Davidson and how his game *Total Wormage* turned into Team 17's successful franchise, *Worms*. |
+| 24 | Trip Hawkins | Hawkins discusses the forming of EA, one of gaming's biggest empires. He also talks about *M.U.L.E*, a game whose origins can be traced to Strategic Simulations Inc., for the Atari 800. He shares his thoughts on the gaming industry. |
+| 24 | Eugene Jarvis | The source mentions that Jarvis is the creator of several arcade games. |
+| 26 | Yuji Naka | Naka avoids answering most questions in this interview. He is asked about his time working for Sonic Team and about his work on an emulator that allows Famicom games to be played on the Mega Drive. |
+| 27 | Dale DeSharone | In this interview, DeSharone discusses his work on games such as *Below the Root* for the Commodore 64 and the *Zelda* games for the CD-i. |
+| 28 | Dave Grossman | This interview focuses on Grossman's work on the *Monkey Island* series. He has also worked on *Sam & Max Hit the Road*, the *Pajama Sam* series, *Freddi Fish 4*, *Ollo, Moop and Dreadly*, and other games for Humongous Entertainment and Tell Tale Games. |
+| 30 | Steve Ellis | Ellis discusses his work as Director of Free Radical Design, where he develops games for the PlayStation 3. |
+| 32 | Mark Cale | Discusses the development of **Impossible Mission** for **DS** and **PSP**, noting the effective use of the touch screen in the **DS** version and the superior visuals of the **PSP** version. |
+| 32 | Martyn Brown | Known for co-founding **Team 17**, creators of the **Worms** series and other **Amiga** classics |
+| 33 | Satoshi Tajiri | Discusses the development of **Pokémon** for the **Game Boy**, mentioning his mentorship under Shigeru Miyamoto and the naming of characters Ash and Shigeru after himself and Miyamoto. |
+| 33 | Dr Peter Favaro | Discusses the development of **Alter Ego**, a 'life simulator' released by **Activision** in **1986**. |
+| 34 | Jon Ritman | Discusses his isometric adventure game **Head Over Heels**. |
+| 34 | Ron Gilbert | Discusses the creation of **Monkey Island**, including the game's development process and his collaboration with Tim Schafer and Dave Grossman |
+| 34 | Mark Cale | Discusses the history of **System 3**, including their past titles and plans for the future. The company is known for titles like **Impossible Mission** and **The Last Ninja** |
+| 35 | Steve Wright | Discusses his time at **Atari** |
+| 35 | John Wilson | Discusses his work at **Zenobi**, a company he founded to create text-based adventure games, including **Arrival on the Atari ST**, **An Everyday Tale Of A Seeker Of Gold**, and **Fuddo And Slam**. |
+| 36 | Jonathan Thompson | Discusses a new retro game competition he is involved in, seeking new ideas inspired by classic titles like **Pac-Man**, **Space Invaders**, and **Tank Wars**. |
+| 37 | David Crane | Discusses the making of **Pitfall II: Lost Caverns** |
+| 38 | Developers at System 3 | Discuss their updated version of **California Games**, which includes **Summer Games 1 and 2** |
+| 39 | Developers of **Lemmings** | Discuss the creation of **Lemmings** |
+| 39 | Developers at Rare | Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade** |
+| 40 | Developers of **Libble Rabble** | Discuss the development of **Libble Rabble** |
+| 40 | John Romero | Discusses his time at **id Software** and the development of **Quake**, including his design philosophy and his eventual departure from the company to form **Ion Storm**. |
+| 41 | Andy Walker | Discusses his work on **Cad Cam Warrior** and **Super Pipeline 2** |
+| 41 | Kelvin Aston | Discusses his entry into the gaming industry as a QA tester for **Team17** on **Worms**, and his eventual role as lead producer on **Worms: Open Warfare 2** |
+| 42 | Alexey Pajitnov | Discusses the creation of **Tetris** |
+| 42 | Developers at **NG:DEV.TEAM** | Discuss what inspired them to create a shoot ‘em up game like **Söldner-X** for the **PlayStation 3** |
+| 42 | Jeff Minter and Giles Williams | Discuss their work at **Llamasoft**, including the development of **Space Giraffe** for **Xbox Live Arcade** and their plans for future titles like **Sheep in Space** and **Ancipital** |
+| 43 | Jon Hare | Discusses the creation of **Sensible Soccer** for the **Amiga** |
+| 44 | Developers of **Fort Apocalypse** | Discuss the development of **Fort Apocalypse** |
+| 45 | Philip Oliver | Discusses the creation of **Treasure Island Dizzy** |
+| 45 | Yuji Naka and Takashi Izuka | Discuss the making of **NiGHTS into Dreams** and its sequel, **Journey of Dreams** for the **Wii** |
+| 46 | Developers of **California Games** | Discuss the creation of **California Games** |
+| 46 | Brian Moriarty | Discusses his adventure game **Loom** |
+| 47 | Will Wright | Discusses his contributions to the gaming industry, including his work on simulation games like **SimCity** and **The Sims** |
+| 48 | Matthew Smith | Discusses the making of his seminal platformer **Manic Miner** |
+| 48 | Matthew Smith | Discusses his type-in game, **Andre’s Night Off**, which he coded in BASIC for **Computer & Video Games** magazine, and mentions his work on **Manic Miner**, **Jet Set Willy**, and **Styx** |
+| 49 | Developers at **Vectordean** | Discuss their game **Tavern RPG** |
+| 50 | Martyn Carroll | Discusses the creation of **Retro Gamer** magazine |
+| 50 | Various Developers | Discuss the games that changed their lives, including **Tir Na Nog** and **Jet Set Willy** |
+| 51 | Developers of **R-Type Delta** | Discuss the making of **R-Type Delta** for the original **PlayStation** |
+| 52 | Chris Wilkins | Discusses the upcoming **Retro Fusion** event and the guests who will be in attendance, including **Archer MacLean, Andy Nuttal, Jon Hare, Martin Hollis, Alex Trowers, Simon Goodwin**, and **Ste Pickford**. |
 
 
 ---
