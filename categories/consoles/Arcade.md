@@ -19,6 +19,11 @@ breadcrumbs:
 
 # Development of Arcade Games
 
+## What programming languages were used to create Arcade games?
+Since every Arcade board is different it can depend on the power of the system, some less powerful boards used pure assembly to write the game code and others used a higher level language such as C.
+For example Klax was written in C according to Greg Omi who was sent the source code for his Atari Lynx port of the game [^4].
+
+
 ## Game Development at Taito
 Taito put together a 250-page Hardware Manual for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
 
@@ -68,3 +73,4 @@ Even as far back as June 2000 MAME was being advertised in Japanese magazines (A
 [^1]: [mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
 [^2]: Wireframe Issue 01 page 33
 [^3]: Retro Gamer Issue 28
+[^4]: Retro Gamer Issue 97 page 57
