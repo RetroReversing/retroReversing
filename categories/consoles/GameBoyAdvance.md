@@ -45,11 +45,20 @@ The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz k
 ---
 # Software Development Kits (SDK)
 
+## Official SDK
+{% include link-to-other-post.html post="/game-boy-advance-sdk/" description="For more information on the Official GBA SDK check out this post." %}
+
 ## Music Library (M4A)
 {% include link-to-other-post.html post="/game-boy-advance-sdk-m4a/" description="For more information on the GBA Music SDK check out this post." %}
 
 ## SDK Demos
 {% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information on the GBA SDK Demo games check out this post." %}
+
+---
+# Emulation
+Much to the annoyance of Nintendo, Game Boy Advance emulators were released before the console was even launched! Developers managed to get their hands on early development kits and managed to build and release the first known GBA emulator known as **GBAEmu** in September 2000 [^1]! It was able to play the official SDK Demo's such as Yoshi's Island [^2].
+
+Nowadays GBA emulators have such high compatibility that pretty much all commercial games work without much trouble even on low end hardware.
 
 ---
 
@@ -58,3 +67,8 @@ The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz k
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: Retro Gamer Issue 01 page 62
+[^2]: [emulator](https://www.zophar.net/gba/gbaemu.html)
