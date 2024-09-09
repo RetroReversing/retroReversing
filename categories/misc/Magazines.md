@@ -358,78 +358,79 @@ Issue Number | Interview Name | Description |
 | 50 | Various Developers | Discuss the games that changed their lives, including **Tir Na Nog** and **Jet Set Willy** |
 | 51 | Developers of **R-Type Delta** | Discuss the making of **R-Type Delta** for the original **PlayStation** |
 | 52 | Chris Wilkins | Discusses the upcoming **Retro Fusion** event and the guests who will be in attendance, including **Archer MacLean, Andy Nuttal, Jon Hare, Martin Hollis, Alex Trowers, Simon Goodwin**, and **Ste Pickford**. |
-| 055 | Chris Gibbs | Chris Gibbs was one of the founding members of Attention To Detail, a game development company. He worked with Jon Steele and Martin on a conversion of *Super Sprint* for the Atari ST. After this project, they were commisioned by LucasArts to make PC, Atari ST, Amiga, Commodore 64, Spectrum, and Amstrad versions of *Night Shift*. |
-| 055 | Jon Dean | Jon Dean was a producer for Activision. While there, he met Chris Gibbs, Fred Gill, and Jon Steele. They created a conversion of *Super Sprint* for the Atari ST. Dean proposed the group start a company called Attention To Detail that would work exclusively with PMC. |
-| 055 | Fred Gill | Fred Gill was one of the founding members of Attention To Detail. Before forming the company with Chris Gibbs, Jon Steele, and Jon Dean, his Spectrum shooter *Octan* was published by Firebird. |
-| 055 | Jon Steele | Jon Steele was one of the founding members of Attention To Detail. He worked with Chris Gibbs and Martin on a conversion of *Super Sprint* for the Atari ST. |
-| 056 | Hideo Kojima | Hideo Kojima is a game designer known for his work on the *Metal Gear* series. He has stated a desire to direct a film. |
-| 057 | Eugene Lacey | Eugene Lacey was involved with *Computer & Video Games* magazine during the 1980s. |
-| 058 | Jim Levy | Jim Levy was involved with the founding of Activision. He understood the desire among developers to receive credit for their work. |
-| 059 | Jon Hare | Jon Hare co-founded Sensible Software, the company behind *Sensible Soccer*. He has also worked at Argonaut Games. |
-| 060 | Trevor Storey | Issue 60 of *Retro Gamer* featured an interview with Trevor Storey. |
-| 061 | Toru Iwatani | Toru Iwatani is the creator of *Pac-Man*. In this issue, he discusses rebooting the franchise for Xbox Live Arcade. |
-| 061 | Tony Crowther | Tony Crowther developed the games *Blagger* and *Burnout Paradise*. |
-| 061 | Matthew Smith | Matthew Smith was a game developer. |
-| 061 | Jeff Minter | Jeff Minter is a game developer. |
-| 062 | Trip Hawkins | Trip Hawkins is the founder Electronic Arts (EA). He discusses EA's role in the success of the Sega Mega Drive. |
-| 062 | Tomohiro Nishikado | Tomohiro Nishikado is the creator of *Space Invaders*. |
-| 063 | Charles Cecil | Charles Cecil co-founded Revolution Software. He discusses the founding of the studio and how the Wii and DS were revitalizing point-and-click games. |
-| 063 | Archer MacLean | Archer Maclean developed *Dropzone*, which he showed to Atari UK in 1982. |
-| 063 | Harri Tikkanen | Harri Tikkanen created the *Super Stardust* series, including *Super Stardust HD* for the PS3. |
-| 063 | Kevin Toms | Kevin Toms created the *Football Manager* series. |
-| 064 | Ally Noble | Ally Noble worked at Denton Designs on a game about the pop band Frankie Goes To Hollywood. |
-| 064 | Simon Goodwin | Simon Goodwin worked at Ocean, Denton Designs, and Beyond Software. |
-| 064 | John Twiddy | John Twiddy developed *Last Ninja* and *Putty Squad*. He also worked on the Konix Multisystem. |
-| 064 | Mev Dinc | Mev Dinc created the Spectrum version of *The Last Ninja*. |
-| 064 | Jamie Woodhouse | Jamie Woodhouse is a game developer who worked on *Qwak* for Team 17 and *Nitro* for Psygnosis. |
-| 066 | Trip Hawkins | Issue 66 of *Retro Gamer* featured an interview with Trip Hawkins. He talked about his game *Crazy Penguin Catapult*. |
-| 067 | Charles Cecil | Charles Cecil co-founded Revolution Software and talked about their work on *Lure Of The Temptress* and *Broken Sword: Director's Cut*. |
-| 067 | Jon Hare | Jon Hare co-founded Sensible Software. He discussed the development of *Shoot-'Em-Up Construction Kit* for the C64. |
-| 068 |  Hideo Kojima | Issue 68 of *Retro Gamer* featured an interview with Hideo Kojima. |
-| 068 | Gary Bracey | Gary Bracey worked at Ocean Software, where he oversaw more than 104 games. Notable releases he worked on include *Batman: The Movie* and *Head Over Heels*. |
-| 069 | Takeshi Arakawa | Takeshi Arakawa is the game director of *Dissidia: Final Fantasy*. |
-| 069 | Simon Pick | Simon Pick worked at The Sales Curve, Probe Entertainment, and Digital Integration. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. |
-| 069 | James | James worked at Digital Integration and NovaLogic. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. This was his first published game. |
-| 069 | Geoff Crammond | Geoff Crammond developed *Super Invaders*, *Aviator*, *Revs*, *The Sentinel*, and *Stunt Car Racer*. His *Grand Prix* series is his most notable work. |
-| 070 | Jon Hare | Issue 70 of *Retro Gamer* featured an interview with Jon Hare of Sensible Software. |
-| 071 | Jeff Minter | Jeff Minter discussed his work on games including *Defender 2000*, *Revenge Of The Mutant Camels*, and *Trip-A-Tron*. He also mentioned disliking working on *Defender 2000*. |
-| 071 | N/A | Issue 71 of *Retro Gamer* featured an interview with an unnamed developer who converted *After Burner* to the Commodore 64. |
-| 071 | Peter Molyneux | Peter Molyneux worked on *Castle Crashers* and *Braid*. |
-| 072 | Philip Oliver | Philip Oliver is the co-creator of the *Dizzy* series. |
-| 072 | Tony Oakden | Tony Oakden worked as the lead programmer on *Driver*. |
-| 072 | John Gibson | John Gibson worked at Imagine, where he was involved with the *Bandersnatch* project. |
-| 072 | Stephen Crow | Stephen Crow created the game *Starquake*. |
-| 073 | Martin Hollis | Issue 73 of *Retro Gamer* featured an interview with Martin Hollis, the director and producer of *GoldenEye 007* and *Perfect Dark*. |
-| 074 | Jon Hare | Jon Hare co-founded Sensible Software, the company that developed *Sensible World of Soccer*, *Cannon Fodder*, *Mega Lo Mania*, *Wizball*, and *Wizkid*. |
-| 074 | Jon Burton | Jon Burton designed and programmed the game *Leander*. He was also involved in the development of the *LEGO* games, *Sonic the Hedgehog*, and *Crash Bandicoot*. |
-| 075 | Dave Grossman | Dave Grossman co-created *The Secret of Monkey Island* and *Day of the Tentacle*. |
-| 075 | Robert Weatherby | Robert Weatherby was involved with the development of *RoadBlasters*. |
-| 075 | Steve Bristow | Steve Bristow was involved in the development of *Pong*, *Tank*, and *Computer Space*. |
-| 076 | John Romero | John Romero worked at id Software on *Wolfenstein 3D* and *Doom*. He was responsible for programming many of the interactive elements in *Doom*. |
-| 077 | Ste Pickford | Ste Pickford worked on the game *Zub* with his brother, Jon. |
-| 077 | Dave Lebling | Dave Lebling co-created the text adventure, *Zork*. |
-| 078 | Steve Lycett | Steve Lycett worked on *Sega All-Stars Racing*. |
-| 078 | Yu Suzuki | Issue 78 of *Retro Gamer* featured an interview with Yu Suzuki. |
-| 078 | Roland Perry | Roland Perry worked for Tynesoft, where he designed the motherboard for the Amstrad CPC. |
-| 079 | Alex Trowers | Alex Trowers worked at Bullfrog on games such as *Populous* and *Theme Park*. He also worked at Black Rock Studio on *Split/Second*. |
-| 079 | Richard Hanson | Richard Hanson co-founded Superior Software. |
-| 079 | David Crane | David Crane co-founded Activision. |
-| 080 | Eric Schwartz | Eric Schwartz created public domain cartoons for the Amiga. |
-| 080 | Violet Berlin | Violet Berlin was a presenter on the video game TV shows *Bad Influence* and *Gamepad*. |
-| 080 | Larry DeMar | Larry DeMar was involved in the development of *Robotron: 2084* and *Defender*. |
-| 082 | Jamie | Jamie developed the arcade game *Gorf*. |
-| 086 | Ste Pickford | Ste Pickford co-developed the game *Zub* with his brother, Jon. He has also worked on titles in the *Plok!* series. |
-| 086 | Andrew | Andrew developed the game *Druid*. |
-| 086 | Jez San | Jez San founded Argonaut Software and worked on the game *Starglider*. |
-| 089 | Lyle Rains and Dennis Koble | Issue 89 of *Retro Gamer* features an interview with the developers of *Sprint 2*, Lyle Rains and Dennis Koble. |
-| 089 | John Szczepaniak | Issue 89 of *Retro Gamer* includes an interview with John Szczepaniak about the creation of *Resident Evil* for the Game Boy Advance. |
-| 092 | Steve Turner | Steve Turner worked for Graftgold and was involved in the creation of several ZX80, Dragon 32, Commodore 64, and Atari ST games. |
-| 094 | Nick Humphries | Issue 94 of *Retro Gamer* contains an interview with Nick Humphries, the creator of *Your Sinclair: Rock 'N' Roll Years*. |
-| 095 |  Matthew Smith | Issue 95 of *Retro Gamer* includes an interview with Matthew Smith about the creation of *Alien Trilogy*. |
-| 095 | Shaun Hollingworth | Shaun Hollingworth worked at Teque London and developed the Commodore 64 game *Firelord*. |
-| 095 | Slvye Ybarra | Issue 95 of *Retro Gamer* features an interview with Slvye Ybarra, who discusses his time working on *Project Firestart*. |
-| 096 | N/A | Issue 96 of *Retro Gamer* includes an interview with the developers of *Radiant Silvergun*. |
-| 096 | David Leitch | David Leitch worked for The Stamper brothers and was involved in the development of games for the Spectrum, such as *Double Dragon*. He also completed freelance work for Tiertex and converted *Rainbow Islands* for them. |
+| 55 | Chris Gibbs | Chris Gibbs was one of the founding members of Attention To Detail, a game development company. He worked with Jon Steele and Martin on a conversion of *Super Sprint* for the Atari ST. After this project, they were commisioned by LucasArts to make PC, Atari ST, Amiga, Commodore 64, Spectrum, and Amstrad versions of *Night Shift*. |
+| 55 | Jon Dean | Jon Dean was a producer for Activision. While there, he met Chris Gibbs, Fred Gill, and Jon Steele. They created a conversion of *Super Sprint* for the Atari ST. Dean proposed the group start a company called Attention To Detail that would work exclusively with PMC. |
+| 55 | Fred Gill | Fred Gill was one of the founding members of Attention To Detail. Before forming the company with Chris Gibbs, Jon Steele, and Jon Dean, his Spectrum shooter *Octan* was published by Firebird. |
+| 55 | Jon Steele | Jon Steele was one of the founding members of Attention To Detail. He worked with Chris Gibbs and Martin on a conversion of *Super Sprint* for the Atari ST. |
+| 56 | Hideo Kojima | Hideo Kojima is a game designer known for his work on the *Metal Gear* series. He has stated a desire to direct a film. |
+| 57 | Eugene Lacey | Eugene Lacey was involved with *Computer & Video Games* magazine during the 1980s. |
+| 58 | Jim Levy | Jim Levy was involved with the founding of Activision. He understood the desire among developers to receive credit for their work. |
+| 59 | Jon Hare | Jon Hare co-founded Sensible Software, the company behind *Sensible Soccer*. He has also worked at Argonaut Games. |
+| 60 | Trevor Storey | Issue 60 of *Retro Gamer* featured an interview with Trevor Storey. |
+| 61 | Toru Iwatani | Toru Iwatani is the creator of *Pac-Man*. In this issue, he discusses rebooting the franchise for Xbox Live Arcade. |
+| 61 | Tony Crowther | Tony Crowther developed the games *Blagger* and *Burnout Paradise*. |
+| 61 | Matthew Smith | Matthew Smith was a game developer. |
+| 61 | Jeff Minter | Jeff Minter is a game developer. |
+| 62 | Trip Hawkins | Trip Hawkins is the founder Electronic Arts (EA). He discusses EA's role in the success of the Sega Mega Drive. |
+| 62 | Tomohiro Nishikado | Tomohiro Nishikado is the creator of *Space Invaders*. |
+| 63 | Charles Cecil | Charles Cecil co-founded Revolution Software. He discusses the founding of the studio and how the Wii and DS were revitalizing point-and-click games. |
+| 63 | Archer MacLean | Archer Maclean developed *Dropzone*, which he showed to Atari UK in 1982. |
+| 63 | Harri Tikkanen | Harri Tikkanen created the *Super Stardust* series, including *Super Stardust HD* for the PS3. |
+| 63 | Kevin Toms | Kevin Toms created the *Football Manager* series. |
+| 64 | Ally Noble | Ally Noble worked at Denton Designs on a game about the pop band Frankie Goes To Hollywood. |
+| 64 | Simon Goodwin | Simon Goodwin worked at Ocean, Denton Designs, and Beyond Software. |
+| 64 | John Twiddy | John Twiddy developed *Last Ninja* and *Putty Squad*. He also worked on the Konix Multisystem. |
+| 64 | Mev Dinc | Mev Dinc created the Spectrum version of *The Last Ninja*. |
+| 64 | Jamie Woodhouse | Jamie Woodhouse is a game developer who worked on *Qwak* for Team 17 and *Nitro* for Psygnosis. |
+| 66 | Trip Hawkins | Issue 66 of *Retro Gamer* featured an interview with Trip Hawkins. He talked about his game *Crazy Penguin Catapult*. |
+| 67 | Charles Cecil | Charles Cecil co-founded Revolution Software and talked about their work on *Lure Of The Temptress* and *Broken Sword: Director's Cut*. |
+| 67 | Jon Hare | Jon Hare co-founded Sensible Software. He discussed the development of *Shoot-'Em-Up Construction Kit* for the C64. |
+| 68 |  Hideo Kojima | Issue 68 of *Retro Gamer* featured an interview with Hideo Kojima. |
+| 68 | Gary Bracey | Gary Bracey worked at Ocean Software, where he oversaw more than 104 games. Notable releases he worked on include *Batman: The Movie* and *Head Over Heels*. |
+| 69 | Takeshi Arakawa | Takeshi Arakawa is the game director of *Dissidia: Final Fantasy*. |
+| 69 | Simon Pick | Simon Pick worked at The Sales Curve, Probe Entertainment, and Digital Integration. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. |
+| 69 | James | James worked at Digital Integration and NovaLogic. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. This was his first published game. |
+| 69 | Geoff Crammond | Geoff Crammond developed *Super Invaders*, *Aviator*, *Revs*, *The Sentinel*, and *Stunt Car Racer*. His *Grand Prix* series is his most notable work. |
+| 70 | Jon Hare | Issue 70 of *Retro Gamer* featured an interview with Jon Hare of Sensible Software. |
+| 71 | Jeff Minter | Jeff Minter discussed his work on games including *Defender 2000*, *Revenge Of The Mutant Camels*, and *Trip-A-Tron*. He also mentioned disliking working on *Defender 2000*. |
+| 71 | N/A | Issue 71 of *Retro Gamer* featured an interview with an unnamed developer who converted *After Burner* to the Commodore 64. |
+| 71 | Peter Molyneux | Peter Molyneux worked on *Castle Crashers* and *Braid*. |
+| 72 | Philip Oliver | Philip Oliver is the co-creator of the *Dizzy* series. |
+| 72 | Tony Oakden | Tony Oakden worked as the lead programmer on *Driver*. |
+| 72 | John Gibson | John Gibson worked at Imagine, where he was involved with the *Bandersnatch* project. |
+| 72 | Stephen Crow | Stephen Crow created the game *Starquake*. |
+| 73 | Martin Hollis | Issue 73 of *Retro Gamer* featured an interview with Martin Hollis, the director and producer of *GoldenEye 007* and *Perfect Dark*. |
+| 74 | Jon Hare | Jon Hare co-founded Sensible Software, the company that developed *Sensible World of Soccer*, *Cannon Fodder*, *Mega Lo Mania*, *Wizball*, and *Wizkid*. |
+| 74 | Jon Burton | Jon Burton designed and programmed the game *Leander*. He was also involved in the development of the *LEGO* games, *Sonic the Hedgehog*, and *Crash Bandicoot*. |
+| 75 | Dave Grossman | Dave Grossman co-created *The Secret of Monkey Island* and *Day of the Tentacle*. |
+| 75 | Robert Weatherby | Robert Weatherby was involved with the development of *RoadBlasters*. |
+| 75 | Steve Bristow | Steve Bristow was involved in the development of *Pong*, *Tank*, and *Computer Space*. |
+| 76 | John Romero | John Romero worked at id Software on *Wolfenstein 3D* and *Doom*. He was responsible for programming many of the interactive elements in *Doom*. |
+| 77 | Ste Pickford | Ste Pickford worked on the game *Zub* with his brother, Jon. |
+| 77 | Dave Lebling | Dave Lebling co-created the text adventure, *Zork*. |
+| 78 | Steve Lycett | Steve Lycett worked on *Sega All-Stars Racing*. |
+| 78 | Yu Suzuki | Issue 78 of *Retro Gamer* featured an interview with Yu Suzuki. |
+| 78 | Roland Perry | Roland Perry worked for Tynesoft, where he designed the motherboard for the Amstrad CPC. |
+| 79 | Alex Trowers | Alex Trowers worked at Bullfrog on games such as *Populous* and *Theme Park*. He also worked at Black Rock Studio on *Split/Second*. |
+| 79 | Richard Hanson | Richard Hanson co-founded Superior Software. |
+| 79 | David Crane | David Crane co-founded Activision. |
+| 80 | Eric Schwartz | Eric Schwartz created public domain cartoons for the Amiga. |
+| 80 | Violet Berlin | Violet Berlin was a presenter on the video game TV shows *Bad Influence* and *Gamepad*. |
+| 80 | Larry DeMar | Larry DeMar was involved in the development of *Robotron: 2084* and *Defender*. |
+| 82 | Jamie | Jamie developed the arcade game *Gorf*. |
+| 86 | Ste Pickford | Ste Pickford co-developed the game *Zub* with his brother, Jon. He has also worked on titles in the *Plok!* series. |
+| 86 | Andrew | Andrew developed the game *Druid*. |
+| 86 | Jez San | Jez San founded Argonaut Software and worked on the game *Starglider*. |
+| 89 | Lyle Rains and Dennis Koble | Issue 89 of *Retro Gamer* features an interview with the developers of *Sprint 2*, Lyle Rains and Dennis Koble. |
+| 89 | John Szczepaniak | Issue 89 of *Retro Gamer* includes an interview with John Szczepaniak about the creation of *Resident Evil* for the Game Boy Advance. |
+| 92 | Steve Turner | Steve Turner worked for Graftgold and was involved in the creation of several ZX80, Dragon 32, Commodore 64, and Atari ST games. |
+| 94 | Nick Humphries | Issue 94 of *Retro Gamer* contains an interview with Nick Humphries, the creator of *Your Sinclair: Rock 'N' Roll Years*. |
+| 95 |  Matthew Smith | Issue 95 of *Retro Gamer* includes an interview with Matthew Smith about the creation of *Alien Trilogy*. |
+| 95 | Shaun Hollingworth | Shaun Hollingworth worked at Teque London and developed the Commodore 64 game *Firelord*. |
+| 95 | Slvye Ybarra | Issue 95 of *Retro Gamer* features an interview with Slvye Ybarra, who discusses his time working on *Project Firestart*. |
+| 96 | N/A | Issue 96 of *Retro Gamer* includes an interview with the developers of *Radiant Silvergun*. |
+| 96 | David Leitch | David Leitch worked for The Stamper brothers and was involved in the development of games for the Spectrum, such as *Double Dragon*. He also completed freelance work for Tiertex and converted *Rainbow Islands* for them. |
+| 97 | Greg Omi | Greg Omi reveals how he ported Klax from the Arcade to the Atari Lynx
 
 ---
 # Creative Magazines
