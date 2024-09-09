@@ -431,6 +431,7 @@ Issue Number | Interview Name | Description |
 | 96 | N/A | Issue 96 of *Retro Gamer* includes an interview with the developers of *Radiant Silvergun*. |
 | 96 | David Leitch | David Leitch worked for The Stamper brothers and was involved in the development of games for the Spectrum, such as *Double Dragon*. He also completed freelance work for Tiertex and converted *Rainbow Islands* for them. |
 | 97 | Greg Omi | Greg Omi reveals how he ported Klax from the Arcade to the Atari Lynx
+| 97 | Paul Norman | Paul Norman discusses the making of Aztec Challenge for the Commodore 64
 
 ---
 # Creative Magazines
