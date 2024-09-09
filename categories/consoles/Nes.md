@@ -161,7 +161,7 @@ The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986
 
 It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems between 1986-1989, which appears to read in three file formats: CHR (Character/Tile Data), SCR (Screen data or Source Data), and CGD (possibly standing for Character Graphic Designer, though this is uncertain).
 
-## What is an NES emulator and how does it work?
+## What is a NES emulator and how does it work?
 We have a specific post covering exactly how emulators work including tips for writing your own emulators: 
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
