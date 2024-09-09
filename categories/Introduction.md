@@ -26,7 +26,7 @@ recommend:
 - tutorial
 tags:
 - introduction
-editlink: ../categories/tutorials/Introduction.md
+editlink: ../categories/Introduction.md
 updatedAt: '2020-03-29'
 ---
 
