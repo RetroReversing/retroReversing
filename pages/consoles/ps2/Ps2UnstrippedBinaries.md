@@ -679,6 +679,7 @@ Street Fighter EX3 (Japan) (Taikenban) | SLPM-60105 | 2000-02-07 |
 Street Fighter EX3 (Japan) | SLPS-20003 | 2000-02-17 | 
 Street Fighter EX3 (USA) | SLUS-20130 | 2000-08-31 | 
 Stunt GP (Europe) | SLES-50064 | 2001-10-04 | 
+Stunt GP (Japan) | SLPS-20152 | 2001-11-13 |
 Stunt GP (USA) | SLUS-20218 | 2001-08-21 | 
 Sub Rebellion (Europe) | SLES-51160 | 2002-08-28 | 
 Sub Rebellion (USA) | SLUS-20548 | 2002-08-16 | 
