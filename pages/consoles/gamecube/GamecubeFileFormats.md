@@ -20,6 +20,16 @@ editlink: /consoles/gamecube/GamecubeFileFormats.md
 updatedAt: '2020-04-25'
 ---
 
+## Emulation File Formats
+
+Extension | Description
+--- | ---
+rvz | Compressed ISO Format (Dolphin)
+iso | Disc Image (Uncompressed)
+
+
+## Formats Used on Disc
+
 Extension | Description
 --- | ---
 .GSF | Sound File
