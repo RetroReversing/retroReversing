@@ -169,11 +169,23 @@ On systems that support package managers, you can typically install `gdb-multiar
      sudo apt-get install gdb-multiarch
      ```
 
+However on MacOS there is no such build in brew or other package managers so you may want to run a docker image with a linux distro in it to use it.
+
 ### How to use gdb-multiarch
 Once installed, you can use `gdb-multiarch` similarly to the standard `gdb`. The key difference is that `gdb-multiarch` allows you to specify the target architecture when loading an executable.
      ```bash
      gdb-multiarch -q -tui -ex "target sim" -ex "load" -ex "run" -ex "quit" my_program.elf
      ```
+
+### How to see what architectures are available
+You can see what target architectures are available simply by using the following command in gdb:
+```bash
+set architecture
+```
+It will print out something like this:
+```
+Requires an argument. Valid arguments are i386, i386:x86-64, i386:x64-32, i8086, i386:intel, i386:x86-64:intel, i386:x64-32:intel, i386:nacl, i386:x86-64:nacl, i386:x64-32:nacl, auto.
+```
 
 ### How to change target architecture
 You can change the target architecture within the GDB session using the `set architecture` command.
@@ -182,6 +194,8 @@ You can change the target architecture within the GDB session using the `set arc
      ```
 
 This flexibility is particularly useful when working with cross-compilation environments or when dealing with software that supports multiple architectures.
+
+
 
 
 
