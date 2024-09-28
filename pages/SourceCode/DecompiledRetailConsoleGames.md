@@ -492,6 +492,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://images.igdb.com/igdb/image/upload/t_cover_big/co2hi5.png){:width="100"} [SkiFree](https://github.com/yuv422/skifree_decomp)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/sonic/images/d/d9/CD2011Art.jpg){:width="100"} [Sonic CD (2011)](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d2/Sonic_Mania_%28artwork%29.jpg){:width="100"} [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)              | Decompilation | Active |
+|![](https://github.com/user-attachments/assets/3619edef-95e1-466a-9596-bc74c7252e18){:width="100"} [ShortLine railroad (DOS)](https://github.com/konovalov-aleks/reSL)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8b/Th06cover.jpg){:width="100"} [Touhou Koumakyou: The Embodiment of Scarlet Devil](https://github.com/happyhavoc/th06)              | Decompilation | Active |
 |![](https://images.pcgamingwiki.com/c/cb/Twisted_Metal_2_cover.jpg){:width="100"} [Twisted Metal 2](https://github.com/abelbriggs1/tm2pc-reveng)              | Decompilation | Inactive |
 
