@@ -137,7 +137,7 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 # Download & Source Code
 
 You can get a pre-built MacOSX binary for intel Mac's only here:
-https://www.mediafire.com/file_premium/qf0niik9ebb5rzh/mupen64RERelease0.1.zip/file
+[MACOSX Release](https://www.mediafire.com/file_premium/sxuwpv43vaufaqr/mupen64RERelease0.2.zip/file)
 
 Or you can build it yourself by cloning the github repository: [RetroReversing/mupen64plus-core: Core module of the Mupen64Plus Reversing Emulator](https://github.com/RetroReversing/mupen64plus-core)
 
