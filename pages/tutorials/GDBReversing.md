@@ -262,6 +262,20 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 ```
 Which may or may not be intentional to start the tutorial. However switching to the final branch did at least listen for gdb on port 2424.
 
+If you load up standard GDB and type the following command in:
+```gdb
+target remote localhost:2424
+```
+
+The GDB server will output the following:
+```bash
+Listening on port 2424
+Got connection
+Connection closed
+```
+
+This is probably because GDB only has the target architecture that your CPU has (probably either x64 or arm) but requires mips support. This is where **gdb-multiarch** comes in useful as it is a build of GDB with all the architectures enabled. However the problem is there doesn't seem to be any release of it for MacOS, so if you are on Linux you should be fine but for MacOS we will need to build GDB ourselves.
+
 ---
 # References
 [^1]: [Reversing and Cracking first simple Program - bin 0x05 - YouTube](https://www.youtube.com/watch?v=VroEiMOJPm8&list=WL&index=40)
