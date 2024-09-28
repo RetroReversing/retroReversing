@@ -228,5 +228,32 @@ You can find out more about the GDB Remote Serial Protocol on the official docum
 As GDB Stubs provide a pathway for remote interaction with a program, developers must consider security implications and ensure proper safeguards to prevent unauthorized access. Software should not be released with the GDB stub embedded inside and proper network hygene is required between the two remote systems to prevent Man in the Middle attacks.
 
 ---
+# Adding GDB to existing emulators/software
+Not all emulators have support for GDB out of the box, which is a shame as it is an incredibly useful feature for reverse engineering. Luckily most good emulators are open source so we can in theory add GDB support ourselves!
+
+## Using Rust and *rust-gdb-remote-protocol
+**Marcin Mikołajczyk** has a good tutorial on how to add GDB support to a dummy MIPS CPU emulator using Rust and specifically the **rust-gdb-remote-protocol** available to read online [here](https://medium.com/virtuslab/integrating-gdb-support-in-an-emulator-ef41ff13f301).
+
+Note that if you are using MacOS you will need to get the MIPS compiler **mipsel-unknown-linux-gnu** using the folowing custom homebrew tap:
+```bash
+brew tap messense/macos-cross-toolchains
+brew install mipsel-unknown-linux-gnu
+```
+It will install to a path similar to `/usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin` which you can either add to PATH or just run directly:
+```bash
+/usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin/mipsel-unknown-linux-gnu-gcc --version
+
+/usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin/mipsel-unknown-linux-gnu-gcc -nostdlib -march=r3000 -Wl,--section-start=.text=0xbfc00000 hello_mips.c
+```
+This will give you a.out to use with the emulator
+
+To run the rust program itself you can simple do:
+```
+cargo build
+cargo run a.out
+```
+
+
+---
 # References
 [^1]: [Reversing and Cracking first simple Program - bin 0x05 - YouTube](https://www.youtube.com/watch?v=VroEiMOJPm8&list=WL&index=40)
