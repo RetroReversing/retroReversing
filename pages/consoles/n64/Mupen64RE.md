@@ -135,10 +135,23 @@ One effective way to find out what to name certain areas of a rom is to corrupt 
 ￼
 ---
 # Download & Source Code
-Currently there are no pre-built binaries yet but you can build it yourself by cloning the github repository: [RetroReversing/mupen64plus-core: Core module of the Mupen64Plus Reversing Emulator](https://github.com/RetroReversing/mupen64plus-core)
+
+You can get a pre-built MacOSX binary for intel Mac's only here:
+https://www.mediafire.com/file_premium/qf0niik9ebb5rzh/mupen64RERelease0.1.zip/file
+
+Or you can build it yourself by cloning the github repository: [RetroReversing/mupen64plus-core: Core module of the Mupen64Plus Reversing Emulator](https://github.com/RetroReversing/mupen64plus-core)
 
 ## Running
 when you have compiled the code you will get a dynamic library file (*.dylib on mac, *.so on linux and *.dll on windows) you can run mupen using this core like so:
 ```bash
 ./mupen64plus --corelib ./libmupen64plus.dylib --gfx ./mupen64plus-video-glide64mk2.dylib --noosd ./example.v64
 ```
+
+The easiest way to to change the `runme.sh` script in the pre-built binaries to the ROM you want and to copy the rom into the same folder.
+
+e.g edit runme.sh to the following:
+```
+./mupen64plus --corelib ./libmupen64plus.dylib --input ./mupen64plus-input-sdl.dylib --gfx ./mupen64plus-video-glide64mk2.dylib --noosd --emumode 0 "./YOUR_ROM_FILE.v64"
+```
+
+This will create a few files while running the game, a .yaml and a .json based on the game name of the ROM.
