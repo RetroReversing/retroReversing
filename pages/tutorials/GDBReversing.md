@@ -244,13 +244,15 @@ It will install to a path similar to `/usr/local/Cellar/mipsel-unknown-linux-gnu
 /usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin/mipsel-unknown-linux-gnu-gcc --version
 
 /usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin/mipsel-unknown-linux-gnu-gcc -nostdlib -march=r3000 -Wl,--section-start=.text=0xbfc00000 hello_mips.c
+
+/usr/local/Cellar/mipsel-unknown-linux-gnu/13.3.0/bin/mipsel-linux-gnu-objcopy -O binary -j .text a.out a.bin
 ```
 This will give you a.out to use with the emulator
 
 To run the rust program itself you can simple do:
 ```
 cargo build
-cargo run a.out
+cargo run a.bin
 ```
 
 
