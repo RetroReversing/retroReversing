@@ -231,7 +231,7 @@ As GDB Stubs provide a pathway for remote interaction with a program, developers
 # Adding GDB to existing emulators/software
 Not all emulators have support for GDB out of the box, which is a shame as it is an incredibly useful feature for reverse engineering. Luckily most good emulators are open source so we can in theory add GDB support ourselves!
 
-## Using Rust and *rust-gdb-remote-protocol
+## Using Rust and rust-gdb-remote-protocol
 **Marcin Mikołajczyk** has a good tutorial on how to add GDB support to a dummy MIPS CPU emulator using Rust and specifically the **rust-gdb-remote-protocol** available to read online [here](https://medium.com/virtuslab/integrating-gdb-support-in-an-emulator-ef41ff13f301).
 
 Note that if you are using MacOS you will need to get the MIPS compiler **mipsel-unknown-linux-gnu** using the folowing custom homebrew tap:
@@ -255,6 +255,12 @@ cargo build
 cargo run a.bin
 ```
 
+Initially it give the output:
+```
+thread 'main' panicked at 'index out of bounds: the len is 80 but the index is 384', src/cpu.rs:28:19
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
+Which may or may not be intentional to start the tutorial. However switching to the final branch did at least listen for gdb on port 2424.
 
 ---
 # References
