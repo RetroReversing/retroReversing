@@ -275,7 +275,7 @@ First lets do some initial setup by creating the project folder and going inside
    }
    ```
 
-### Compile and Run:
+### Compile and Run
    Compile and run the program again:
    ```bash
    gcc -o gdb_stub gdb_stub.c
@@ -285,16 +285,141 @@ First lets do some initial setup by creating the project folder and going inside
 ---
 
 ## Step 5: Sending a Response Back to GDB
+The main function is getting a bit large so lets create some new functions for the next part of the functionality, we won't keep posting the full code for every step.
 
-### Sending Data
-   Add functionality to send a response back to GDB:
+### Refactoring the message handling
+To reduce the code in the main function lets move all the code after the folloing line into its own function called **handle_client** :
    ```c
-   const char *response = "Hello from GDB Stub";
-   send(client_sock, response, strlen(response), 0);
+   printf("GDB connected from %s\n", inet_ntoa(client_addr.sin_addr));
+```
+After that line replace the contents with the following:
+```c
+       // Receive data from GDB client
+        handle_client(client_sock);
    ```
 
-### Full Code
-   Update your `gdb_stub.c`:
+### Creating the handle_client function
+Now we need to create the handle_client function after the main function:
+```c
+// Handle communication with the GDB client
+void handle_client(int client_sock) {
+    char packet_buffer[4096];
+    uint8_t received_checksum;
+
+    while (1) {
+        // Receive packet from GDB
+        char *packet = recv_packet(client_sock, packet_buffer, sizeof(packet_buffer), &received_checksum);
+        if (!packet) {
+            printf("Connection closed or packet error.\n");
+            break;
+        }
+
+      printf("Received packet from GDB client: %s\n", packet);
+      send_packet(client_sock, ""); // Send blank data back
+  }
+}
+```
+
+### Sending Data
+We can now create the function that sends data back to the GDB client like so:
+```c
+// Send a packet to GDB
+void send_packet(int client_sock, const char *data) {
+    char packet[4096];
+    uint8_t cksum = 0; // We will implement this in the next step: calculate_checksum(data);
+
+    // Format the packet: $<data>#<checksum>
+    snprintf(packet, sizeof(packet), "$%s#%02x", data, cksum);
+
+    // Send the packet
+    ssize_t sent = send(client_sock, packet, strlen(packet), 0);
+    if (sent < 0) {
+        perror("Failed to send packet");
+    } else {
+        // Debug: Print sent packet
+        printf("Sent packet: %s\n", packet);
+    }
+}
+```
+
+### Compile and Run
+   Compile and run the program again:
+   ```bash
+   gcc -o gdb_stub gdb_stub.c
+   ./gdb_stub
+   ```
+
+But this time also open gdb in a new terminal like so:
+```
+gdb
+```
+Now in GDB you can connect to your stub like so:
+```gdb
+(gdb) target remote localhost:1234
+```
+
+Go back to the terminal with your gdb_stub and you will notice GDB client will start sending you messages that will be logged for example:
+```
+GDB Stub listening on port 1234...
+GDB connected from 127.0.0.1
+Received packet from GDB client: qSupported:multiprocess+;swbreak+;hwbreak+;qRelocInsn+;fork-events+;vfork-events+;exec-events+;vContSupported+;QThreadEvents+;QThreadOptions+;no-resumed+;memory-tagging+;xmlRegisters=i386
+```
+We are making great progress!
+
+---
+## Step 6: Checksums and acknowledgements
+The GDB Remote Protocol is fault tolerant which means we need to support message checksums, these make sure that the messages were all sent uncorrupted through TCP stack and we can send back acknowledgement so that the client knows we got the message successfully.
+
+### Calculating the Checksum of a message
+```c
+// Calculate checksum for GDB packet
+uint8_t calculate_checksum(const char *data) {
+    uint8_t sum = 0;
+    while (*data) {
+        sum += (uint8_t)*data++;
+    }
+    return sum;
+}
+```
+
+You can now fix the line in the **send_packet** function to actual calculate the checksum:
+```c
+void send_packet(int client_sock, const char *data) {
+    char packet[4096];
+    uint8_t cksum = calculate_checksum(data);
+   ...
+```
+
+### Sending acknowledgements to the client
+```c
+// Send acknowledgment ('+' or '-')
+void send_ack(int client_sock, char ack) {
+    char ack_packet[2] = {ack, '\0'};
+    ssize_t sent = send(client_sock, &ack_packet[0], 1, 0);
+    if (sent < 0) {
+        perror("Failed to send acknowledgment");
+    } else {
+        printf("Sent acknowledgment: %c\n", ack);
+    }
+}
+```
+
+Lets now call the **send_ack** function inside the **handle_client** after we have checked that the checksum is correct:
+```c
+        printf("Received packet from GDB client: %s\n", packet); // This line was existing, new code is below it
+
+        // Calculate checksum
+        uint8_t calculated_checksum = calculate_checksum(packet);
+        if (calculated_checksum != received_checksum) {
+            printf("Checksum mismatch: calculated %02x, received %02x\n", calculated_checksum, received_checksum);
+            send_ack(client_sock, '-'); // Negative acknowledgment
+            continue;
+        } else {
+            send_ack(client_sock, '+'); // Positive acknowledgment
+        }
+```
+
+---
 
 
 
