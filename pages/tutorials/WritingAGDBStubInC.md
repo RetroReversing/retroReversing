@@ -318,6 +318,40 @@ void handle_client(int client_sock) {
       send_packet(client_sock, ""); // Send blank data back
   }
 }
+
+// Receive a packet from GDB
+char *recv_packet(int client_sock, char *buffer, size_t buffer_size, uint8_t *received_checksum) {
+    ssize_t n;
+    char c;
+    size_t idx = 0;
+    int reading = 0;
+
+    while ((n = recv(client_sock, &c, 1, 0)) > 0) {
+        if (c == '$') {
+            // Start of a packet
+            reading = 1;
+            idx = 0;
+        } else if (reading && c == '#') {
+            // End of packet, read checksum
+            char checksum_str[3] = {0};
+            if (recv(client_sock, &checksum_str[0], 2, 0) != 2) {
+                return NULL; // Failed to read checksum
+            }
+            *received_checksum = (uint8_t)strtol(checksum_str, NULL, 16);
+            buffer[idx] = '\0'; // Null-terminate the packet
+            return buffer;
+        } else if (reading) {
+            if (idx < buffer_size - 1) {
+                buffer[idx++] = c;
+            } else {
+                // Buffer overflow, invalid packet
+                return NULL;
+            }
+        }
+    }
+
+    return NULL; // Connection closed or error
+}
 ```
 
 ### Sending Data
@@ -419,8 +453,152 @@ Lets now call the **send_ack** function inside the **handle_client** after we ha
         }
 ```
 
----
 
+### Compile and Run
+   Compile and run the program again, along with starting gdb in the same way as the last step:
+   ```bash
+   gcc -o gdb_stub gdb_stub.c && ./gdb_stub
+   ```
+You will now notice that we have the following output when the checksums match:
+```
+Sent acknowledgment: +
+```
+
+---
+## Step 7 - Handling GDB Commands
+Now its time to actually parse and return useful information based on the GDB commands the client is sending us.
+
+### Update the handle_client function
+At the end of the **handle_client** function add the following code:
+```c
+       // Handle GDB commands
+        handle_gdb_command(client_sock, packet);
+```
+
+### Handle_GDB_Command function
+Here is a dummy example of how you can handle some of the commands, but this will need to be personalised to your specific emulator:
+```c
+#define MEMORY_SIZE 1024 // Define the size of your memory array in your emulator
+char memory_array[MEMORY_SIZE]; // Memory array for demonstration replace with your emulators memory
+
+// Function to handle GDB commands
+void handle_gdb_command(int client_sock, const char *packet) {
+    if (strcmp(packet, "g") == 0) {
+        // Return the general registers (dummy response)
+        send_packet(client_sock, "00000000");  // Example: 4 bytes for simplicity
+    } else if (packet[0] == 'm') {
+        // Memory read command, format: m<addr>,<length>
+        unsigned long addr, length;
+        if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        if (addr + length > MEMORY_SIZE) {
+            send_packet(client_sock, "E01"); // Error: Out of bounds
+            return;
+        }
+
+        // Convert memory to hex string
+        char mem_data[length * 2 + 1];
+        for (unsigned long i = 0; i < length; i++) {
+            sprintf(mem_data + i * 2, "%02x", memory_array[addr + i]);
+        }
+        mem_data[length * 2] = '\0'; // Null-terminate
+
+        send_packet(client_sock, mem_data);
+    } else if (packet[0] == 'M') {
+        // Memory write command, format: M<addr>,<length>:<data>
+        unsigned long addr, length;
+        char data[4096]; // Buffer for the data
+
+        // Split the packet into address,length and data
+        char *colon = strchr(packet, ':');
+        if (!colon) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        // Parse address and length
+        if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        // Extract data
+        strcpy(data, colon + 1);
+
+        // Validate data length
+        if (strlen(data) != length * 2) {
+            send_packet(client_sock, "E00"); // Data length mismatch
+            return;
+        }
+
+        if (addr + length > MEMORY_SIZE) {
+            send_packet(client_sock, "E01"); // Error: Out of bounds
+            return;
+        }
+
+        // Convert hex data to binary and write to memory
+        for (unsigned long i = 0; i < length; i++) {
+            unsigned int byte;
+            if (sscanf(&data[i * 2], "%2x", &byte) != 1) {
+                send_packet(client_sock, "E00"); // Invalid hex
+                return;
+            }
+            memory_array[addr + i] = (uint8_t)byte;
+        }
+
+        // Send OK if successful
+        send_packet(client_sock, "OK");
+    } else if (strcmp(packet, "?") == 0) {
+        // Signal reporting (dummy response)
+        send_packet(client_sock, "S05");  // Example: Signal 5 (SIGTRAP)
+    } else if (strcmp(packet, "k") == 0) {
+        // Kill command, send OK and terminate
+        send_packet(client_sock, "OK");
+    } else if (packet[0] == 'q') {
+        // Handle queries
+        handle_query(client_sock, packet);
+    } else if (packet[0] == 'v') {
+        // Handle extended commands
+        handle_v_command(client_sock, packet);
+    } else {
+        // Unknown command, send empty response
+        send_packet(client_sock, "");
+    }
+}
+```
+
+Also a few helped functions:
+```c
+// Handle 'q' queries
+void handle_query(int client_sock, const char *packet) {
+    if (strcmp(packet, "qSupported") == 0) {
+        // Respond with supported features
+        // Example: "PacketSize=4000"
+        send_packet(client_sock, "PacketSize=4000");
+    } else if (strncmp(packet, "qSupported+", 11) == 0) {
+        // Handle specific supported queries if needed
+        // For simplicity, respond with empty
+        send_packet(client_sock, "");
+    } else {
+        // Unknown query, respond with empty
+        send_packet(client_sock, "");
+    }
+}
+
+// Handle 'v' extended commands
+void handle_v_command(int client_sock, const char *packet) {
+    if (strcmp(packet, "vMustReplyEmpty") == 0) {
+        // According to GDB RSP, reply with empty packet
+        send_packet(client_sock, "");
+    } else {
+        // Unknown 'v' command, respond with empty
+        send_packet(client_sock, "");
+    }
+}
+```
 
 
 ---
@@ -452,68 +630,135 @@ void send_ack(int client_sock, char ack);
 void handle_query(int client_sock, const char *packet);
 void handle_v_command(int client_sock, const char *packet);
 
-// Entry point
 int main() {
-    int server_sock, client_sock;
-    struct sockaddr_in server_addr, client_addr;
-    socklen_t addr_len = sizeof(client_addr);
+       int server_sock, client_sock;
+       struct sockaddr_in server_addr, client_addr;
+       socklen_t addr_len = sizeof(client_addr);
+       char buffer[256]; // Buffer to store incoming data
+       // Create a socket
+       if ((server_sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+           perror("Socket creation failed");
+           exit(EXIT_FAILURE);
+       }
+       // Set up the server address
+       server_addr.sin_family = AF_INET;
+       server_addr.sin_addr.s_addr = INADDR_ANY;
+       server_addr.sin_port = htons(PORT);
+       // Bind the socket
+       if (bind(server_sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
+           perror("Bind failed");
+           close(server_sock);
+           exit(EXIT_FAILURE);
+       }
+       // Listen for incoming connections
+       if (listen(server_sock, 1) < 0) {
+           perror("Listen failed");
+           close(server_sock);
+           exit(EXIT_FAILURE);
+       }
+       printf("GDB Stub listening on port %d...\n", PORT);
+       // Accept a client connection
+       if ((client_sock = accept(server_sock, (struct sockaddr *)&client_addr, &addr_len)) < 0) {
+           perror("Accept failed");
+           close(server_sock);
+           exit(EXIT_FAILURE);
+       }
+       printf("GDB connected from %s\n", inet_ntoa(client_addr.sin_addr));
 
-    // Initialize memory (for demonstration)
-    memset(memory_array, 0x00, sizeof(memory_array));
+       // Receive data from GDB client
+        handle_client(client_sock);
 
-    // Create a socket
-    if ((server_sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
-        perror("Socket creation failed");
-        exit(EXIT_FAILURE);
+       close(client_sock); // Close client socket
+       close(server_sock); // Close server socket
+       return 0;
+   }
+
+// Function to handle GDB commands
+void handle_gdb_command(int client_sock, const char *packet) {
+    if (strcmp(packet, "g") == 0) {
+        // Return the general registers (dummy response)
+        send_packet(client_sock, "00000000");  // Example: 4 bytes for simplicity
+    } else if (packet[0] == 'm') {
+        // Memory read command, format: m<addr>,<length>
+        unsigned long addr, length;
+        if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        if (addr + length > MEMORY_SIZE) {
+            send_packet(client_sock, "E01"); // Error: Out of bounds
+            return;
+        }
+
+        // Convert memory to hex string
+        char mem_data[length * 2 + 1];
+        for (unsigned long i = 0; i < length; i++) {
+            sprintf(mem_data + i * 2, "%02x", memory_array[addr + i]);
+        }
+        mem_data[length * 2] = '\0'; // Null-terminate
+
+        send_packet(client_sock, mem_data);
+    } else if (packet[0] == 'M') {
+        // Memory write command, format: M<addr>,<length>:<data>
+        unsigned long addr, length;
+        char data[4096]; // Buffer for the data
+
+        // Split the packet into address,length and data
+        char *colon = strchr(packet, ':');
+        if (!colon) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        // Parse address and length
+        if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
+            send_packet(client_sock, "E00"); // Invalid format
+            return;
+        }
+
+        // Extract data
+        strcpy(data, colon + 1);
+
+        // Validate data length
+        if (strlen(data) != length * 2) {
+            send_packet(client_sock, "E00"); // Data length mismatch
+            return;
+        }
+
+        if (addr + length > MEMORY_SIZE) {
+            send_packet(client_sock, "E01"); // Error: Out of bounds
+            return;
+        }
+
+        // Convert hex data to binary and write to memory
+        for (unsigned long i = 0; i < length; i++) {
+            unsigned int byte;
+            if (sscanf(&data[i * 2], "%2x", &byte) != 1) {
+                send_packet(client_sock, "E00"); // Invalid hex
+                return;
+            }
+            memory_array[addr + i] = (uint8_t)byte;
+        }
+
+        // Send OK if successful
+        send_packet(client_sock, "OK");
+    } else if (strcmp(packet, "?") == 0) {
+        // Signal reporting (dummy response)
+        send_packet(client_sock, "S05");  // Example: Signal 5 (SIGTRAP)
+    } else if (strcmp(packet, "k") == 0) {
+        // Kill command, send OK and terminate
+        send_packet(client_sock, "OK");
+    } else if (packet[0] == 'q') {
+        // Handle queries
+        handle_query(client_sock, packet);
+    } else if (packet[0] == 'v') {
+        // Handle extended commands
+        handle_v_command(client_sock, packet);
+    } else {
+        // Unknown command, send empty response
+        send_packet(client_sock, "");
     }
-
-    // Set socket options to allow reuse of address and port
-    int opt = 1;
-    if (setsockopt(server_sock, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt)) < 0) {
-        perror("setsockopt failed");
-        close(server_sock);
-        exit(EXIT_FAILURE);
-    }
-
-    // Set up the server address
-    server_addr.sin_family = AF_INET;
-    server_addr.sin_addr.s_addr = INADDR_ANY; // Listen on all interfaces
-    server_addr.sin_port = htons(PORT);
-
-    // Bind the socket to the port
-    if (bind(server_sock, (struct sockaddr *)&server_addr, sizeof(server_addr)) < 0) {
-        perror("Bind failed");
-        close(server_sock);
-        exit(EXIT_FAILURE);
-    }
-
-    // Listen for incoming connections
-    if (listen(server_sock, 1) < 0) {
-        perror("Listen failed");
-        close(server_sock);
-        exit(EXIT_FAILURE);
-    }
-
-    printf("GDB Stub listening on port %d...\n", PORT);
-
-    // Accept a client connection
-    if ((client_sock = accept(server_sock, (struct sockaddr *)&client_addr, &addr_len)) < 0) {
-        perror("Accept failed");
-        close(server_sock);
-        exit(EXIT_FAILURE);
-    }
-
-    printf("GDB connected from %s\n", inet_ntoa(client_addr.sin_addr));
-
-    // Handle the client
-    handle_client(client_sock);
-
-    // Close the client socket
-    close(client_sock);
-    // Close the server socket
-    close(server_sock);
-
-    return 0;
 }
 
 // Handle communication with the GDB client
@@ -529,6 +774,8 @@ void handle_client(int client_sock) {
             break;
         }
 
+        printf("Received packet from GDB client: %s\n", packet);
+
         // Calculate checksum
         uint8_t calculated_checksum = calculate_checksum(packet);
         if (calculated_checksum != received_checksum) {
@@ -539,97 +786,8 @@ void handle_client(int client_sock) {
             send_ack(client_sock, '+'); // Positive acknowledgment
         }
 
-        // Debug: Print received packet
-        printf("Received packet: %s\n", packet);
-
-        // Handle GDB commands (basic handling)
-        if (strcmp(packet, "g") == 0) {
-            // Return the general registers (dummy response)
-            // Typically, registers are sent as a hex string, e.g., "00000000" for each register
-            // Adjust the number of registers as needed
-            send_packet(client_sock, "00000000");  // Example: 4 bytes for simplicity
-        } else if (packet[0] == 'm') {
-            // Memory read command, format: m<addr>,<length>
-            unsigned long addr, length;
-            if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
-                send_packet(client_sock, "E00"); // Invalid format
-                continue;
-            }
-
-            if (addr + length > MEMORY_SIZE) {
-                send_packet(client_sock, "E01"); // Error: Out of bounds
-                continue;
-            }
-
-            // Convert memory to hex string
-            char mem_data[length * 2 + 1];
-            for (unsigned long i = 0; i < length; i++) {
-                sprintf(mem_data + i * 2, "%02x", memory_array[addr + i]);
-            }
-            mem_data[length * 2] = '\0'; // Null-terminate
-
-            send_packet(client_sock, mem_data);
-        } else if (packet[0] == 'M') {
-            // Memory write command, format: M<addr>,<length>:<data>
-            unsigned long addr, length;
-            char data[4096]; // Buffer for the data
-
-            // Split the packet into address,length and data
-            char *colon = strchr(packet, ':');
-            if (!colon) {
-                send_packet(client_sock, "E00"); // Invalid format
-                continue;
-            }
-
-            // Parse address and length
-            if (sscanf(packet + 1, "%lx,%lx", &addr, &length) != 2) {
-                send_packet(client_sock, "E00"); // Invalid format
-                continue;
-            }
-
-            // Extract data
-            strcpy(data, colon + 1);
-
-            // Validate data length
-            if (strlen(data) != length * 2) {
-                send_packet(client_sock, "E00"); // Data length mismatch
-                continue;
-            }
-
-            if (addr + length > MEMORY_SIZE) {
-                send_packet(client_sock, "E01"); // Error: Out of bounds
-                continue;
-            }
-
-            // Convert hex data to binary and write to memory
-            for (unsigned long i = 0; i < length; i++) {
-                unsigned int byte;
-                if (sscanf(&data[i * 2], "%2x", &byte) != 1) {
-                    send_packet(client_sock, "E00"); // Invalid hex
-                    break;
-                }
-                memory_array[addr + i] = (uint8_t)byte;
-            }
-
-            // Send OK if successful
-            send_packet(client_sock, "OK");
-        } else if (strcmp(packet, "?") == 0) {
-            // Signal reporting (dummy response)
-            send_packet(client_sock, "S05");  // Example: Signal 5 (SIGTRAP)
-        } else if (strcmp(packet, "k") == 0) {
-            // Kill command, send OK and terminate
-            send_packet(client_sock, "OK");
-            break;
-        } else if (packet[0] == 'q') {
-            // Handle queries
-            handle_query(client_sock, packet);
-        } else if (packet[0] == 'v') {
-            // Handle extended commands
-            handle_v_command(client_sock, packet);
-        } else {
-            // Unknown command, send empty response
-            send_packet(client_sock, "");
-        }
+        // Handle GDB commands
+        handle_gdb_command(client_sock, packet);
     }
 }
 
