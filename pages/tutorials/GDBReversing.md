@@ -169,7 +169,13 @@ On systems that support package managers, you can typically install `gdb-multiar
      sudo apt-get install gdb-multiarch
      ```
 
-However on MacOS there is no such build in brew or other package managers so you may want to run a docker image with a linux distro in it to use it.
+For MacOS we have created a custom homebrew tap for easy installation available [here](https://github.com/RetroReversing/homebrew-gdb-multiarch)
+You can use it like so:
+```bash
+brew tap RetroReversing/gdb-multiarch
+brew install gdb-multiarch
+/usr/local/Cellar/gdb-multiarch/15.1/bin/gdb-multiarch
+```
 
 ### How to use gdb-multiarch
 Once installed, you can use `gdb-multiarch` similarly to the standard `gdb`. The key difference is that `gdb-multiarch` allows you to specify the target architecture when loading an executable.
