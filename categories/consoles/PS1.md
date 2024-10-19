@@ -140,12 +140,7 @@ In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tool
 Also provided was the **3D Graphics Tools manual** with tutorials on how to use the provided software.
 
 ## PS1 File formats
-
-Format | Description
----|---
-DXF | **Drawing Exchange Format**, Standard 3D model format used in a variety of 3D software such as AutoCAD and 3D Studio
-RSD | Format used in the 3D Graphics Tools
-TMD | Format used by the game itself, MD is Modelling Data (What does the T stand for?)
+{% include link-to-other-post.html post="/ps1-file-formats" description="For more information on PS1 File Formats check out this post." %}
 
 ---
 # Game Asset Creation Tools
