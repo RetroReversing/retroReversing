@@ -125,11 +125,36 @@ The official development kit for the PS1 was only available for licensed game de
 # Software Development Kits
 
 ## Official Software development kit
-The Official Software development kit was developed by a partnership between `SN Systems` who are known for excellent 3rd party development kits and the Game Studio Psygnosis who are known for excellent quality games. 
+The Official Software development kit was developed by a partnership between **SN Systems** who are known for excellent 3rd party development kits and the Game Studio **Psygnosis** who are known for excellent quality games. 
 
-It was called PSY-Q and even although it was owned by Sony it was actually a cross-platform development kit which included support for the Sega Saturn!
+It was initially called **PSY-Q** and even although it was owned by Sony it was actually a cross-platform development kit which included support for the Sega Saturn!
+
+Sony later rebranded the SDK to **SDevTC** at some point in 1998(?).
 
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the Playstation 1 check out this post." %}
+
+## Official 3D Graphics Tools (DTL-S220A)
+In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tools[^2] such as:
+* Meditor - Material Editor
+
+Also provided was the **3D Graphics Tools manual** with tutorials on how to use the provided software.
+
+## PS1 File formats
+
+Format | Description
+---|---
+DXF | **Drawing Exchange Format**, Standard 3D model format used in a variety of 3D software such as AutoCAD and 3D Studio
+RSD | Format used in the 3D Graphics Tools
+TMD | Format used by the game itself, MD is Modelling Data (What does the T stand for?)
+
+---
+# Game Asset Creation Tools
+
+## What software was used to create 3D models for PS1 games?
+To create 3D models for Playstation 1 games the following tools are known to have been used:
+* **trueSpace for PlayStation** - Directly reads the PS1 RSD format rather than going through the standard DXF [^2]
+* **3D Studio**
+* **AutoCAD**
 
 ---
 # All Posts
@@ -140,3 +165,4 @@ It was called PSY-Q and even although it was owned by Sony it was actually a cro
 ---
 # References
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
+[^2]: 3D Graphics Tools manual from August 1998
