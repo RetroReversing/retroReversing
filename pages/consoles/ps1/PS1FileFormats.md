@@ -29,6 +29,8 @@ Extension | Description
 .BIN | A BIN file needs a .CUE file in order to be useful, it is the raw binary contents of a PS1 disc
 .CUE | A CUE sheet describes a .BIN file and can be `mounted` on a pc to reveal the file system of the disc
 .ISO | A ISO file can be `mounted` on a pc to reveal the file system of the disc
+.CHD | **Compressed Hunks of Data** (CHD) format intiially created by MAME can be used in most PS1 emulators
+.PBP | **Playstation Boot Package** - PS1 games that run on the PSP (and also PS Classic)
 
 ---
 
@@ -59,3 +61,22 @@ Extension | Description
 .VAB | Audio Source Data
 .DA | CD-DA Data
 .FAT | Memory Card File
+
+---
+# 3D Model Formats
+These formats tend to be only available in source code and relate to 3D models.
+
+Format | Description
+---|---
+DXF | **Drawing Exchange Format**, Standard 3D model format used in a variety of 3D software such as AutoCAD and 3D Studio
+RSD | Format used in the 3D Graphics Tools while artists are editing
+PLY | Polygon vertices information (coordinates)
+MAT | Material (Texture) Information
+GRP | Group of Polygon information
+MSH | Mesh, information on how polygons are linked together
+PVT | Pivot file used for rotation information
+COD | Coordinate for Vertex data
+MOT | Animation information
+OGP | Vertex grouping information
+TMD | Format used by the game itself, MD is Modelling Data (What does the T stand for?)
+
