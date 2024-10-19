@@ -28,10 +28,11 @@ Whether you're interested in understanding the hardware architecture of the cons
 
 So grab your DS, and get ready to dive into the exciting world of DS reverse engineering!
 
+---
 # Hardware Architecture
 **Copetti.org** has an excellent page on the hardware Architecture of the DS it is also a great introduction to the system:
 
-{% include link-to-other-site-text.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/nintendo-ds/" word1="DS" word2="Architecture" color1="wisteria" color2="midnight" description="Check out this excellent introduction to the DS hardware" %}
+{% include link-to-other-site.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/nintendo-ds/" word1="DS" word2="Architecture" color1="wisteria" color2="midnight" description="Check out this excellent introduction to the DS hardware" %}
 
 ---
 # Development Kits (Hardware)
@@ -41,16 +42,24 @@ So grab your DS, and get ready to dive into the exciting world of DS reverse eng
 # Software Development Kits (SDK)
 
 ## Official SDK
-{% include link-to-other-post.html post="/DS-NITRO-SDK" description="For more information on the Official GBA SDK check out this post." %}
+{% include link-to-other-post.html post="/DS-NITRO-SDK" description="For more information on the Official DS SDK check out this post." %}
+
+## File Formats
+{% include link-to-other-post.html post="/DSFileFormats" description="For more information on the DS File formats check out this post." %}
+
+---
+
+# Homebrew
+{% include link-to-other-post.html post="/nintendo-ds-homebrew" description="For more information on DS Homebrew check out this post." %}
+
 
 ---
 
 # All Posts Tagged with DS
+
 <div>
 
 {% include console.html %}
-</div>
 
----
-# References
+</div>
 
