@@ -23,28 +23,25 @@ editlink: /tutorials/libRetro.md
 _updatedAt: '2024-10-20'
 ---
 
-# Understanding libRetro: An Internal Look for Programmers
-
+# Introduction
 libRetro is a versatile framework designed to facilitate the development of emulators and games through a unified interface. 
 
 This post explores the internal workings of libRetro, providing insights tailored for programmers interested in understanding how libRetro cores and frontends operate.
 
 ## What is libRetro?
-
 libRetro is an API that enables developers to create emulators (referred to as "cores") for various retro gaming platforms. 
 
 It abstracts the complexity of different systems, allowing cores to be easily integrated into different frontends. 
 
 The framework supports a wide array of platforms (e.g Win, Mac, Linux and even games consoles), making it a popular choice for both developers and users.
 
-## Architecture Overview
-
+---
+# Architecture Overview
 libRetro consists of two main components: the core and the frontend. 
 
 The core is the actual emulator, while the frontend provides the user interface and additional features.
 
-### Cores
-
+## Cores
 Each core implements the libRetro API, which includes functions for:
 
 - Initialization
@@ -58,8 +55,7 @@ They take care of processing the game code, rendering graphics, and managing aud
 
 They are based on standalone emulators modified to conform to the libRetro API specification.
 
-### Frontends
-
+## Frontends
 Frontends are the user-facing applications that utilize the cores. 
 
 They provide a graphical interface for users to load games, configure settings, and interact with the emulator. 
@@ -78,22 +74,21 @@ This architecture allows for a seamless experience, where the frontend can manag
 The libRetro API is composed of several key functions that facilitate communication between the frontend and the core:
 
 ### retro_init
-
 This function initializes the core and prepares it for execution. It sets up the necessary resources and state required for the emulator to run.
 
 ### retro_run
-
 The retro_run function is called in a loop during the emulation process. It processes a single frame of the game, handling input, updating the state, and rendering graphics. 
 This function is crucial for maintaining the flow of the game.
 
-### retro_set_input_poll and retro_set_input_state
-
-These functions handle input from the user. retro_set_input_poll is called to poll the input devices, while retro_set_input_state allows the core to access the current state of the input devices.
-
 ### retro_deinit
-
 Once the emulation session is over, the retro_deinit function cleans up resources allocated by the core. 
 This function ensures that the emulator can terminate gracefully.
+
+### retro_api_version
+The retro_api_version function returns the version of the libRetro API that the core supports. It allows the frontend to check which version of the API the core is using, ensuring compatibility between the core and the frontend. The function typically returns an unsigned integer representing the API version number.
+
+### retro_get_system_info
+**retro_get_system_info** is a function that provides information about the core being used. It fills in a retro_system_info structure with details such as the core's name, version, the file types it supports (e.g., ROM formats), and whether the core requires a full path for loading content. This allows the frontend to gather essential data about the core for proper integration.
 
 ---
 ## Callbacks
@@ -148,35 +143,29 @@ The following is an explanation of the key callback functions that are initializ
 
 
 ### retro_set_environment
-
 `retro_set_environment(retro_environment_t)` is the first function to be called, guaranteed to be invoked before `retro_init()`. This function sets the environment callbacks that allow the core to communicate with the frontend.
 
 The environment callback provides information about the system environment, handles features like saving and loading states, and can also communicate core options to the frontend. This function is essential for configuring the core to work properly with the frontend, ensuring that the core can query the frontend for various functionalities.
 
 ### retro_set_video_refresh
-
 `retro_set_video_refresh(retro_video_refresh_t)` is responsible for rendering the video frames. It registers the callback that will be used by the core to provide the video data to the frontend.
 
 The frontend then takes care of displaying the frame on the screen. This function must be set before the first call to `retro_run()` since it's critical for handling the visual output of the emulation.
 
 ### retro_set_audio_sample
-
 `retro_set_audio_sample(retro_audio_sample_t)` registers the callback for audio output. This function handles individual audio samples, allowing the core to pass sound data to the frontend.
 
 It’s useful when the core outputs audio on a per-sample basis, and the frontend is responsible for processing these audio samples to ensure they are played in sync with the video.
 
 ### retro_set_audio_sample_batch
-
 `retro_set_audio_sample_batch(retro_audio_sample_batch_t)` is similar to `retro_set_audio_sample`, but instead of handling individual samples, it handles batches of audio samples at once. This is typically more efficient and commonly used by cores that generate a larger number of audio samples in one go.
 
 This function also needs to be set before `retro_run()` is called to ensure that the frontend can properly handle audio during the emulation.
 
 ### retro_set_input_poll
-
 `retro_set_input_poll(retro_input_poll_t)` sets the callback for polling input devices. This function is responsible for detecting user input, such as controller or keyboard actions, before each frame is processed. The core uses this to query the current state of the input devices to update the game state accordingly.
 
 ### retro_set_input_state
-
 `retro_set_input_state(retro_input_state_t)` works in conjunction with `retro_set_input_poll`. After polling the input devices, this function allows the core to access the specific state of each input device (e.g., which buttons are pressed). It is crucial for managing user interactions during gameplay.
 
 
