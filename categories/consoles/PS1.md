@@ -142,6 +142,10 @@ Also provided was the **3D Graphics Tools manual** with tutorials on how to use 
 ## PS1 File formats
 {% include link-to-other-post.html post="/ps1-file-formats" description="For more information on PS1 File Formats check out this post." %}
 
+## PS1 Executable Format
+The PS1-EXE (executable) format is detailed in the post below:
+{% include link-to-other-post.html post="/ps1-exe" description="For more information on PS1 EXE File Format check out this post." %}
+
 ---
 # Game Asset Creation Tools
 
