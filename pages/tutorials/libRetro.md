@@ -103,6 +103,50 @@ These callback functions play a vital role in the core's ability to interface wi
 
 The following is an explanation of the key callback functions that are initialized before the emulation starts.
 
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Frontend -->
+  <rect x="50" y="50" width="300" height="400" style="fill:#e0e0e0;stroke:#000;stroke-width:2" />
+  <text x="175" y="80" font-family="Verdana" font-size="18" text-anchor="middle">Frontend</text>
+  <rect x="100" y="120" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="145" font-family="Verdana" font-size="14" text-anchor="middle">User Interface</text>
+  <rect x="100" y="180" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="205" font-family="Verdana" font-size="14" text-anchor="middle">Game Loader</text>
+  <rect x="100" y="240" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="265" font-family="Verdana" font-size="14" text-anchor="middle">Settings</text>
+
+  <!-- Core -->
+  <rect x="450" y="50" width="300" height="400" style="fill:#e0e0e0;stroke:#000;stroke-width:2" />
+  <text x="600" y="80" font-family="Verdana" font-size="18" text-anchor="middle">Core</text>
+  <rect x="500" y="120" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="145" font-family="Verdana" font-size="14" text-anchor="middle">Emulation</text>
+  <rect x="500" y="180" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="205" font-family="Verdana" font-size="14" text-anchor="middle">Video</text>
+  <rect x="500" y="240" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="265" font-family="Verdana" font-size="14" text-anchor="middle">Audio</text>
+  <rect x="500" y="300" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="325" font-family="Verdana" font-size="14" text-anchor="middle">Input</text>
+
+  <!-- Arrows for communication -->
+  <line x1="350" y1="140" x2="450" y2="140" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="130" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_environment</text>
+
+  <line x1="350" y1="200" x2="450" y2="200" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="190" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_video_refresh</text>
+
+  <line x1="350" y1="260" x2="450" y2="260" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="250" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_audio_sample</text>
+
+  <line x1="350" y1="320" x2="450" y2="320" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="310" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_audio_sample_batch</text>
+
+  <line x1="350" y1="380" x2="450" y2="380" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="370" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_input_poll</text>
+
+  <line x1="350" y1="440" x2="450" y2="440" style="stroke:#000;stroke-width:2" />
+  <text x="400" y="430" font-family="Verdana" font-size="12" text-anchor="middle">retro_set_input_state</text>
+</svg>
+
+
 ### retro_set_environment
 
 `retro_set_environment(retro_environment_t)` is the first function to be called, guaranteed to be invoked before `retro_init()`. This function sets the environment callbacks that allow the core to communicate with the frontend.
