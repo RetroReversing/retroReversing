@@ -4,7 +4,7 @@ tags:
 - introduction
 - tutorial
 - tools
-title: Understanding libRetro: An Internal Look for Programmers
+title: Understanding libRetro - An Internal Look for Programmers
 _image: /public/images/tutorials/libRetro.jpg
 _twitterimage: http://www.retroreversing.com/public/images/tutorials/libRetro.jpg
 thumbnail: /public/consoles/Tools.jpg
@@ -14,7 +14,7 @@ breadcrumbs:
     url: /
   - name: Tutorials
     url: /tutorials
-  - name: Understanding libRetro: An Internal Look for Programmers
+  - name: Understanding libRetro - An Internal Look for Programmers
     url: #
 recommend: 
 - introduction
