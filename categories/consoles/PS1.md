@@ -57,8 +57,9 @@ One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so p
 # Unofficial Hardware Add-ons
 
 ## Sony PlayStation VCD Player Add-On Card
-The Youtuber **Scarlet Sprites** has a good overview of this rather rare unofficial PS1 add-on which allowed playing the rather obscure Video CD (VCD) format on retail Playstation 1 consoles:
+The Youtuber **Scarlet Sprites** has a good overview of this rather rare unofficial Chinese PS1 add-on which allowed playing the rather obscure Video CD (VCD) format on retail Playstation 1 consoles:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gcdxsV0Qo0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+It plugged into the back of the console via the IO and AV ports without any need for additional power and has a switch on the top to switch between VCD mode and game mode. This suggests that the playstation first boots into the IO port before running the game disc.
 
 Also note that there was an official PS1 model released in Japan that played Video CDs called the **SCPH-5903 VideoCD** which has additional hardware inside the console.
 
