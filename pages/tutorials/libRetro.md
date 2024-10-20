@@ -41,6 +41,43 @@ libRetro consists of two main components: the core and the frontend.
 
 The core is the actual emulator, while the frontend provides the user interface and additional features.
 
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Frontends -->
+  <rect x="50" y="50" width="300" height="400" style="fill:#e0e0e0;stroke:#000;stroke-width:2" />
+  <text x="200" y="80" font-family="Verdana" font-size="18" text-anchor="middle">Frontends</text>
+  
+  <rect x="100" y="140" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="165" font-family="Verdana" font-size="14" text-anchor="middle">RetroArch</text>
+  
+  <rect x="100" y="200" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="225" font-family="Verdana" font-size="14" text-anchor="middle">Junie</text>
+  
+  <rect x="100" y="260" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="200" y="285" font-family="Verdana" font-size="14" text-anchor="middle">RustroArch</text>
+
+  <!-- Cores -->
+  <rect x="450" y="50" width="300" height="400" style="fill:#e0e0e0;stroke:#000;stroke-width:2" />
+  <text x="600" y="80" font-family="Verdana" font-size="18" text-anchor="middle">Cores</text>
+  
+  <rect x="500" y="140" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="165" font-family="Verdana" font-size="14" text-anchor="middle">Gambatte</text>
+
+  <rect x="500" y="200" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="225" font-family="Verdana" font-size="14" text-anchor="middle">Snes9x</text>
+  
+  <rect x="500" y="260" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="285" font-family="Verdana" font-size="14" text-anchor="middle">Beetle PSX</text>
+
+  <rect x="500" y="320" width="200" height="40" style="fill:#ffffff;stroke:#000;stroke-width:1" />
+  <text x="600" y="345" font-family="Verdana" font-size="14" text-anchor="middle">Mupen64Plus</text>
+
+  <!-- Communication Line -->
+  <line x1="350" y1="150" x2="450" y2="150" style="stroke:#000;stroke-width:2" />
+  <line x1="350" y1="210" x2="450" y2="210" style="stroke:#000;stroke-width:2" />
+  <line x1="350" y1="270" x2="450" y2="270" style="stroke:#000;stroke-width:2" />
+</svg>
+
+
 ## Cores
 Each core implements the libRetro API, which includes functions for:
 
