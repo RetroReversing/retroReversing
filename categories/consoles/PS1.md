@@ -135,7 +135,8 @@ Sony later rebranded the SDK to **SDevTC** at some point in 1998(?).
 
 ## Official 3D Graphics Tools (DTL-S220A)
 In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tools[^2] such as:
-* Meditor - Material Editor
+* **Meditor** - Material Editor
+* BMP2TIM, PICT2TIM, RGB2TIM, TIMUTIL.EXE - Tools to convert image formats into the PS1 texture image format TIM
 
 Also provided was the **3D Graphics Tools manual** with tutorials on how to use the provided software.
 
@@ -154,6 +155,10 @@ To create 3D models for Playstation 1 games the following tools are known to hav
 * **trueSpace for PlayStation** - Directly reads the PS1 RSD format rather than going through the standard DXF [^2]
 * **3D Studio**
 * **AutoCAD**
+
+## What software was used to create 2D Textures and Sprites for PS1 games?
+To create textures (and therefore sprites) the following tools are known to have been used:
+* **Adobe Photoshop** - A plugin was available to directly edit Playstation TIM files without requiring conversion [^2].
 
 ---
 # All Posts
