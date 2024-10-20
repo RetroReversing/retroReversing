@@ -33,7 +33,7 @@ So grab your DS, and get ready to dive into the exciting world of DS reverse eng
 
 ## Tinke DS File Explorer
 Tinke is an open source application that can be used to open Nintendo DS games and the various file formats that are inside. You can view and edit textures, sound files, compressed archives and even a few game specific formats, it is well worth a look!
-{% include link-to-other-site.html title=Tinke - NDS File Viewer and Editor" url="https://github.com/pleonex/tinke?tab=readme-ov-file"description="Check out the Tinke DS file viewer and editor" %}
+{% include link-to-other-site.html title=Tinke - NDS File Viewer and Editor" url="https://github.com/pleonex/tinke?tab=readme-ov-file" description="Check out the Tinke DS file viewer and editor" %}
 
 
 
