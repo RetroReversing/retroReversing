@@ -29,10 +29,19 @@ Whether you're interested in understanding the hardware architecture of the cons
 So grab your DS, and get ready to dive into the exciting world of DS reverse engineering!
 
 ---
+# Reverse Engineering
+
+## Tinke DS File Explorer
+Tinke is an open source application that can be used to open Nintendo DS games and the various file formats that are inside. You can view and edit textures, sound files, compressed archives and even a few game specific formats, it is well worth a look!
+{% include link-to-other-site.html title=Tinke - NDS File Viewer and Editor" url="https://github.com/pleonex/tinke?tab=readme-ov-file"description="Check out the Tinke DS file viewer and editor" %}
+
+
+
+---
 # Hardware Architecture
 **Copetti.org** has an excellent page on the hardware Architecture of the DS it is also a great introduction to the system:
 
-{% include link-to-other-site.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/nintendo-ds/" word1="DS" word2="Architecture" color1="wisteria" color2="midnight" description="Check out this excellent introduction to the DS hardware" %}
+{% include link-to-other-site.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/nintendo-ds/" description="Check out this excellent introduction to the DS hardware" %}
 
 ---
 # Development Kits (Hardware)
