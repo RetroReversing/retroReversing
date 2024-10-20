@@ -69,8 +69,12 @@ Frontends can vary widely in features and design, but they all communicate with 
 The most popular frontend is **RetroArch**.
 
 ---
-## Key Functions in libRetro
+# How Cores Communicate with Frontends
+Communication between the core and frontend is achieved through a series of function calls defined in the libRetro API. 
+When a user interacts with the frontend, it translates those actions into function calls that the core understands. 
+This architecture allows for a seamless experience, where the frontend can manage user interactions while the core focuses on emulation.
 
+## Key Functions in libRetro
 The libRetro API is composed of several key functions that facilitate communication between the frontend and the core:
 
 ### retro_init
@@ -92,8 +96,44 @@ Once the emulation session is over, the retro_deinit function cleans up resource
 This function ensures that the emulator can terminate gracefully.
 
 ---
-## How Cores Communicate with Frontends
+## Callbacks
+In libRetro, several functions must be set up before the emulation process begins. These functions are responsible for handling various aspects of the emulation, such as video rendering, audio output, and input management. T
 
-Communication between the core and frontend is achieved through a series of function calls defined in the libRetro API. 
-When a user interacts with the frontend, it translates those actions into function calls that the core understands. 
-This architecture allows for a seamless experience, where the frontend can manage user interactions while the core focuses on emulation.
+These callback functions play a vital role in the core's ability to interface with the frontend. By setting these functions before the first call to `retro_run()`, libRetro ensures that the necessary resources—video rendering, audio playback, and input handling—are properly configured.
+
+The following is an explanation of the key callback functions that are initialized before the emulation starts.
+
+### retro_set_environment
+
+`retro_set_environment(retro_environment_t)` is the first function to be called, guaranteed to be invoked before `retro_init()`. This function sets the environment callbacks that allow the core to communicate with the frontend.
+
+The environment callback provides information about the system environment, handles features like saving and loading states, and can also communicate core options to the frontend. This function is essential for configuring the core to work properly with the frontend, ensuring that the core can query the frontend for various functionalities.
+
+### retro_set_video_refresh
+
+`retro_set_video_refresh(retro_video_refresh_t)` is responsible for rendering the video frames. It registers the callback that will be used by the core to provide the video data to the frontend.
+
+The frontend then takes care of displaying the frame on the screen. This function must be set before the first call to `retro_run()` since it's critical for handling the visual output of the emulation.
+
+### retro_set_audio_sample
+
+`retro_set_audio_sample(retro_audio_sample_t)` registers the callback for audio output. This function handles individual audio samples, allowing the core to pass sound data to the frontend.
+
+It’s useful when the core outputs audio on a per-sample basis, and the frontend is responsible for processing these audio samples to ensure they are played in sync with the video.
+
+### retro_set_audio_sample_batch
+
+`retro_set_audio_sample_batch(retro_audio_sample_batch_t)` is similar to `retro_set_audio_sample`, but instead of handling individual samples, it handles batches of audio samples at once. This is typically more efficient and commonly used by cores that generate a larger number of audio samples in one go.
+
+This function also needs to be set before `retro_run()` is called to ensure that the frontend can properly handle audio during the emulation.
+
+### retro_set_input_poll
+
+`retro_set_input_poll(retro_input_poll_t)` sets the callback for polling input devices. This function is responsible for detecting user input, such as controller or keyboard actions, before each frame is processed. The core uses this to query the current state of the input devices to update the game state accordingly.
+
+### retro_set_input_state
+
+`retro_set_input_state(retro_input_state_t)` works in conjunction with `retro_set_input_poll`. After polling the input devices, this function allows the core to access the specific state of each input device (e.g., which buttons are pressed). It is crucial for managing user interactions during gameplay.
+
+
+
