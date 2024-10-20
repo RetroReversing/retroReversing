@@ -1,3 +1,28 @@
+---
+layout: post
+tags: 
+- introduction
+- tutorial
+- tools
+title: Understanding libRetro: An Internal Look for Programmers
+_image: /public/images/tutorials/libRetro.jpg
+_twitterimage: http://www.retroreversing.com/public/images/tutorials/libRetro.jpg
+thumbnail: /public/consoles/Tools.jpg
+permalink: /libRetro
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Tutorials
+    url: /tutorials
+  - name: Understanding libRetro: An Internal Look for Programmers
+    url: #
+recommend: 
+- introduction
+- tutorial
+editlink: /tutorials/libRetro.md
+_updatedAt: '2024-10-20'
+---
+
 # Understanding libRetro: An Internal Look for Programmers
 
 libRetro is a versatile framework designed to facilitate the development of emulators and games through a unified interface. 
