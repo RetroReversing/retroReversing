@@ -41,34 +41,34 @@ libRetro consists of two main components: the core and the frontend.
 
 The core is the actual emulator, while the frontend provides the user interface and additional features.
 
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
   <!-- Frontends -->
-  <rect x="50" y="50" width="300" height="400" style="fill:#0085b6;stroke:#0085b6;stroke-width:2" />
+  <rect x="50" y="50" width="300" height="400" rx="15" ry="15" style="fill:#0085b6;stroke:#0085b6;stroke-width:2" />
   <text x="200" y="90" font-family="Verdana" font-size="24" text-anchor="middle" fill="#fff">Frontends</text>
   
-  <rect x="100" y="140" width="200" height="40" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
+  <rect x="100" y="140" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="200" y="165" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">RetroArch</text>
   
-  <rect x="100" y="200" width="200" height="40" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
+  <rect x="100" y="200" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="200" y="225" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">Junie</text>
   
-  <rect x="100" y="260" width="200" height="40" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
+  <rect x="100" y="260" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="200" y="285" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">RustroArch</text>
 
   <!-- Cores -->
-  <rect x="450" y="50" width="300" height="400" style="fill:#0085b6;stroke:#0085b6;stroke-width:2" />
+  <rect x="450" y="50" width="300" height="400" rx="15" ry="15" style="fill:#0085b6;stroke:#0085b6;stroke-width:2" />
   <text x="600" y="90" font-family="Verdana" font-size="24" text-anchor="middle" fill="#fff">Cores</text>
   
-  <rect x="500" y="140" width="200" height="40" style="fill:#fff;stroke:#0085b6;stroke-width:1" />
+  <rect x="500" y="140" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="600" y="165" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">Gambatte</text>
 
-  <rect x="500" y="200" width="200" height="40" style="fill:#fff;stroke:#0085b6;stroke-width:1" />
+  <rect x="500" y="200" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="600" y="225" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">Snes9x</text>
   
-  <rect x="500" y="260" width="200" height="40" style="fill:#fff;stroke:#0085b6;stroke-width:1" />
+  <rect x="500" y="260" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="600" y="285" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">Beetle PSX</text>
 
-  <rect x="500" y="320" width="200" height="40" style="fill:#fff;stroke:#0085b6;stroke-width:1" />
+  <rect x="500" y="320" width="200" height="40" rx="10" ry="10" style="fill:#ffffff;stroke:#0085b6;stroke-width:1" />
   <text x="600" y="345" font-family="Verdana" font-size="14" text-anchor="middle" fill="#0085b6">Mupen64Plus</text>
 
   <!-- Communication Line -->
