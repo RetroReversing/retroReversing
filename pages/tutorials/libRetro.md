@@ -216,5 +216,18 @@ This function also needs to be set before `retro_run()` is called to ensure that
 ### retro_set_input_state
 `retro_set_input_state(retro_input_state_t)` works in conjunction with `retro_set_input_poll`. After polling the input devices, this function allows the core to access the specific state of each input device (e.g., which buttons are pressed). It is crucial for managing user interactions during gameplay.
 
+---
+# Tool Assisted Speed Run Support
+Most people use an emulator such as Bizhawk for creating Tool Assisted Speedruns (TAS), however RetroArch supports more platforms than Bizhawk (e.g MacOSX, Android, iOS, consoles) so I wanted to investigate what would be required to do a basic TAS with libRetro/RetroArch.
 
+It seems Bizhawk has experimental support for libRetro cores as can be seen on [this page](https://tasvideos.org/Bizhawk/Libretro), however it is unclear why it is marked as experimental or why someone would choose to use the libRetro cores for certain systems over Bizhawks standard cores. But this still requires a platform that Bizhawk currently supports.
+
+## BSV support in RetroArch
+RetroArch can be compiled with a flag to enable BSV support which captures all the input data (button presses, joypad movement etc) during a game session, allowing playback of the game as it was originally played during the recording.
+
+This sounds ideal for creating a TAS right? So what is the catch?
+
+Well if you try recording a BSV file and playing it back for any length of time you will notice that the game gets completely out of sync, the playback no longer acts like the original recording. 
+
+This is because BSV support in RetroArch doesn't have any **coherency checking**, so the question is how does Bizhawk do coherency checking and can we modify a libRetro frontend to do the same?
 
