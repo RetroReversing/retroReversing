@@ -150,12 +150,13 @@ The PS1-EXE (executable) format is detailed in the post below:
 
 ---
 # Game Asset Creation Tools
+Ever wondered how your favourite game artists made assets for Playstation 1? Although the exact software used for most games are still a secret, we have managed to piece together what we know so far about how 3D models and 2D Images were created.
 
 ## What software was used to create 3D models for PS1 games?
 To create 3D models for Playstation 1 games the following tools are known to have been used:
 * **trueSpace for PlayStation** - Directly reads the PS1 RSD format rather than going through the standard DXF [^2]
-* **3D Studio**
-* **AutoCAD**
+* **3D Studio** - Exports to DXF format
+* **AutoCAD** - Exports to DXF format but not really made for game development
 
 ## What software was used to create 2D Textures and Sprites for PS1 games?
 To create textures (and therefore sprites) the following tools are known to have been used:
