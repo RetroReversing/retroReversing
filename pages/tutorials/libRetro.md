@@ -231,3 +231,14 @@ Well if you try recording a BSV file and playing it back for any length of time 
 
 This is because BSV support in RetroArch doesn't have any **coherency checking**, so the question is how does Bizhawk do coherency checking and can we modify a libRetro frontend to do the same?
 
+### What is in a BSV file?
+A BSV file contains a 4-word header, a save state that stores the initial game state and then contains the buttons pressed down for each frame of the game. So to play it back the emulator would first load the state and then replay all the buttons in the same order.
+
+### How to record a BSV file with RetroArch
+Use the -R command line option like so:
+```
+retroarch -R "myTAS.bsv" -L core.dylib -v game.rom
+```
+
+If that doesn't work you will need to make sure RetroArch is compiled with `-DHAVE_BSV_MOVIE=1` define enabled.
+
