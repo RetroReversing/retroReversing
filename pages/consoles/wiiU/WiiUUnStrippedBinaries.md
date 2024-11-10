@@ -35,7 +35,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  (Event Preview) Runbow | 
  (Event Preview) Soul Axiom | 
  (Event Preview) Typoman | 
- 1001 Spikes | 
+ 1001 Spikes | 6,491 Named Procedures
  140 | 
  153 Hand Video Poker | 
  360 Breakout | 
