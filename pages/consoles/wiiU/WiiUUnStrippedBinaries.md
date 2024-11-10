@@ -457,6 +457,12 @@ As far as I can see that downloads all eShop titles from Nintendo Update Server 
 Another interesting tool, this time developed in python is RPXTools symbols.py which can get the debug symbols from an RPX file: 
 [https://github.com/NWPlayer123/WiiUTools/blob/master/RPXTools/symbols.py](https://github.com/NWPlayer123/WiiUTools/blob/master/RPXTools/symbols.py)
 
+---
+# How to use the debug symbols
+The best way is to convert the RPX file to an ELF using a tool such as **rpl2elf** which can be found on github:
+[Relys/rpl2elf: Small utility to convert Wii U RPL/RPX files to standard ELF format](https://github.com/Relys/rpl2elf)
+
+---
 
 # References
 [^1]: BullyWiiPlaza https://www.youtube.com/watch?v=bl55B1cvLUA
