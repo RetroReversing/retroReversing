@@ -31,10 +31,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
 
  Game | No of Debug Symbols
  ---|---
- (Event Preview) Freedom Planet | 
- (Event Preview) Runbow | 
- (Event Preview) Soul Axiom | 
- (Event Preview) Typoman | 
  1001 Spikes | 6,491 Named Procedures
  140 | 
  153 Hand Video Poker | 
@@ -156,6 +152,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Frankenstein - Master of Death | 
  Free Balling | 
  Freedom Planet | 
+ Freedom Planet (Event Preview) | 
  FreezeME | 
  Frenchy Bird | 
  FullBlast | 
@@ -283,6 +280,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Rubik's® Cube | 
  Run Run and Die | 
  Runbow | 
+ Runbow (Event Preview) | 
  RUSH | 
  Sanatory Hallways | 
  Severed | 
@@ -301,6 +299,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Sonic & All-Stars Racing Transformed | 
  Sonic Lost World | 
  Soul Axiom | 
+ Soul Axiom (Event Preview) | 
  SPACE HULK | 
  SphereZor | 
  Spheroids | 
@@ -368,7 +367,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Turtle Tale | 
  Twin Robots | 
  Typoman | 
- Typoman Event Preview | 
+ Typoman (Event Preview) | 
  Ultratron | 
  Unepic | 
  Uplay | 
