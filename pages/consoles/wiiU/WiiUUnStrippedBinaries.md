@@ -29,119 +29,116 @@ The code shown in the video seems to just load a pre-existing list of IDs that a
 # WiiU games with debug symbols
 A list of all the WiiU games that are known to have debug symbols are listed in the table below, eventually we want to have the count of the number of debug symbols as an easy way to see how complete the symbols are (some games may only have debug symbols for a part of it, such as a single library).
 
- Game | No of Debug Symbols
- ---|---
- 1001 Spikes | 6,491 Named Procedures
- 140 | 
- 153 Hand Video Poker | 
- 360 Breakout | 
- 6-Hand Video Poker | 
- 6180 the moon | 
- 8Bit Hero | 
- 99Moves | 
- 99Seconds | 
- A World of Keflings | 
- Abyss | 
- ACT IT OUT! A Game of Charades | 
- Advance Wars: Dual Strike | 
- Adventure Time: Finn & Jake Investigations | 
- Adventure Time: Finn and Jake Investigations | 
- Adventure Time: Explore the Dungeon Because I DON’T KNOW! | 
- Adventures of Pip | 
- Affordable Space Adventures | 
- Alphadia Genesis™ | 
- Angry Birds Star Wars | 
- Angry Birds Trilogy | 
- Angry Bunnies: Colossal Carrot Crusade | 
- Angry Video Game Nerd Adventures | 
- Animal Crossing: Wild World | 
- Another World - 20th Anniversary Edition | 
- Aqua TV | 
- Armikrog | 
- Armillo | 
- Art Academy: Home Studio | 
- Art Academy: SketchPad | 
- Art Academy™ Atelier | 
- Art Academy™: SketchPad | 
- Asdivine Hearts | 
- Axiom Verge | 
- B3 Game Expo For Bees | 
- Back to Bed | 
- Baila Latino | 
- Ballpoint Universe: Infinite | 
- Batman: Arkham Origins Blackgate Deluxe Edition | 
- Batman™: Arkham Origins Blackgate - Deluxe Edition | 
- Beatbuddy | 
- Ben 10 Omniverse | 
- Ben 10 Omniverse™ 2 | 
- Big Brain Academy |
- Bike Rider UltraDX - WORLD TOUR | 
- Bird Mania Party | 
- Bit Dungeon+ | 
- BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien | 
- Blackjack 21 | 
- Blasting Agent: Ultimate Edition | 
- Blek | 
- Blocky Bot | 
- Bombing Bastards | 
- Brain Age: Train Your Brain in Minutes a Day! | 
- Brick Breaker | 
- BRICK RACE | 
- Bridge Constructor Playground | 
- Bubble Gum Popper | 
- Buddy & Me: Dream Edition | 
- Cake Ninja 3: The Legend Continues | 
- Candy Hoarder | 
- Chariot | 
- Chasing Dead | 
- Chimpuzzle Pro | 
- Chompy Chomp Chomp Party | 
- Chroma Blast | 
- Citizens of Earth | 
- Cloudberry Kingdom | 
- Cloudberry Kingdom™ | 
- Coaster Crazy Deluxe© | 
- COLOR CUBES | 
- Color Zen | 
- Color Zen Kids | 
- Cosmophony | 
- Cube Life: Island Survival | 
- Cubemen 2 | 
- CUP CRITTERS | 
- Darksiders II | 
- Darts Up | 
- Defend Your Crypt | 
- Devil’s Third | 
- Dinox | 
- Disney Epic Mickey 2: The Power of Two | 
- Disney Infinity | 
- Disney Infinity 2.0 : Play without limits | 
- Disney Infinity 3.0 : Play without limits | 
- DK™ Jungle Climber | 
- Donkey Kong Country: Tropical Freeze | 
- Dr Kawashima’s BRAIN TRAINING™: How Old is Your Brain? | 
- Dr. Luigi™ | 
-
-  Game | No of Debug Symbols
- ---|---
- Dr.LUIGI & 細菌撲滅 | 
- Dracula's Legacy | 
- Dragon Fantasy: The Black Tome of Ice | 
- Dragon Fantasy: The Volumes of Westeria | 
- Dragon Skills | 
- Dreamals | 
- DREAMALS: DREAM QUEST | 
- DuckTales: Remastered | 
- Dungeons & Dragons: Chronicles of Mystara | 
- Ectoplaza | 
- EDGE | 
- Electronic Super Joy | 
- Electronic Super Joy: Groove City | 
- Epic Dumpster Bear | 
- Event Preview Version Lovely P | 
- Evofish | 
- Exile's End | 
- Extreme Exorcism | 
+ Game | No of Debug Symbols | Notes
+ ---|---|---
+ 1001 Spikes | 6,491 Named Procedures | 
+ 140 |  | Unity, Also on Switch, Xbox, PS4
+ 153 Hand Video Poker |  | 
+ 360 Breakout |  | 
+ 6-Hand Video Poker |  | 
+ 6180 the moon |  | 
+ 8Bit Hero |  | 
+ 99Moves |  | 
+ 99Seconds |  | 
+ A World of Keflings |  | 
+ Abyss |  | 
+ ACT IT OUT! A Game of Charades |  | 
+ Advance Wars: Dual Strike |  | 
+ Adventure Time: Finn & Jake Investigations |  | 
+ Adventure Time: Finn and Jake Investigations |  | 
+ Adventure Time: Explore the Dungeon Because I DON’T KNOW! |  | 
+ Adventures of Pip |  | 
+ Affordable Space Adventures |  | 
+ Alphadia Genesis™ |  | 
+ Angry Birds Star Wars |  | 
+ Angry Birds Trilogy |  | 
+ Angry Bunnies: Colossal Carrot Crusade |  | 
+ Angry Video Game Nerd Adventures |  | 
+ Animal Crossing: Wild World |  | 
+ Another World - 20th Anniversary Edition |  | 
+ Aqua TV |  | 
+ Armikrog |  | 
+ Armillo |  | 
+ Art Academy: Home Studio |  | 
+ Art Academy: SketchPad |  | 
+ Art Academy™ Atelier |  | 
+ Art Academy™: SketchPad |  | 
+ Asdivine Hearts |  | 
+ Axiom Verge |  | 
+ B3 Game Expo For Bees |  | 
+ Back to Bed |  | 
+ Baila Latino |  | 
+ Ballpoint Universe: Infinite |  | 
+ Batman: Arkham Origins Blackgate Deluxe Edition |  | 
+ Batman™: Arkham Origins Blackgate - Deluxe Edition |  | 
+ Beatbuddy |  | 
+ Ben 10 Omniverse |  | 
+ Ben 10 Omniverse™ 2 |  | 
+ Big Brain Academy | | 
+ Bike Rider UltraDX - WORLD TOUR |  | 
+ Bird Mania Party |  | 
+ Bit Dungeon+ |  | 
+ BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien |  | 
+ Blackjack 21 |  | 
+ Blasting Agent: Ultimate Edition |  | 
+ Blek |  | 
+ Blocky Bot |  | 
+ Bombing Bastards |  | 
+ Brain Age: Train Your Brain in Minutes a Day! |  | 
+ Brick Breaker |  | 
+ BRICK RACE |  | 
+ Bridge Constructor Playground |  | 
+ Bubble Gum Popper |  | 
+ Buddy & Me: Dream Edition |  | 
+ Cake Ninja 3: The Legend Continues |  | 
+ Candy Hoarder |  | 
+ Chariot |  | 
+ Chasing Dead |  | 
+ Chimpuzzle Pro |  | 
+ Chompy Chomp Chomp Party |  | 
+ Chroma Blast |  | 
+ Citizens of Earth |  | 
+ Cloudberry Kingdom |  | 
+ Cloudberry Kingdom™ |  | 
+ Coaster Crazy Deluxe© |  | 
+ COLOR CUBES |  | 
+ Color Zen |  | 
+ Color Zen Kids |  | 
+ Cosmophony |  | 
+ Cube Life: Island Survival |  | 
+ Cubemen 2 |  | 
+ CUP CRITTERS |  | 
+ Darksiders II |  | 
+ Darts Up |  | 
+ Defend Your Crypt |  | 
+ Devil’s Third |  | 
+ Dinox |  | 
+ Disney Epic Mickey 2: The Power of Two |  | 
+ Disney Infinity |  | 
+ Disney Infinity 2.0 : Play without limits |  | 
+ Disney Infinity 3.0 : Play without limits |  | 
+ DK™ Jungle Climber |  | 
+ Donkey Kong Country: Tropical Freeze |  | 
+ Dr Kawashima’s BRAIN TRAINING™: How Old is Your Brain? |  | 
+ Dr. Luigi™ |  | 
+ Dr.LUIGI & 細菌撲滅 |  | 
+ Dracula's Legacy |  | 
+ Dragon Fantasy: The Black Tome of Ice |  | 
+ Dragon Fantasy: The Volumes of Westeria |  | 
+ Dragon Skills |  | 
+ Dreamals |  | 
+ DREAMALS: DREAM QUEST |  | 
+ DuckTales: Remastered |  | 
+ Dungeons & Dragons: Chronicles of Mystara |  | 
+ Ectoplaza |  | 
+ EDGE |  | 
+ Electronic Super Joy |  | 
+ Electronic Super Joy: Groove City |  | 
+ Epic Dumpster Bear |  | 
+ Event Preview Version Lovely P |  | 
+ Evofish |  | 
+ Exile's End |  | 
+ Extreme Exorcism |  | 
  Extreme Exorcism (Event Preview Version) | 
  F1 RACE STARS™ POWERED UP EDITION | 
  Family Party: 30 Great Games® Obstacle Arcade | 
