@@ -34,8 +34,8 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  1001 Spikes | 6,491 | 
  140 |  | Unity, Also on Switch, Xbox, PS4
  153 Hand Video Poker | 77,781 | Unity, WiiU Exclusive
- 360 Breakout |  | Unity
- 6-Hand Video Poker |  | Unity
+ 360 Breakout | 140,399  | Unity
+ 6-Hand Video Poker | 77,781 | Unity
  6180 the moon |  | Unity
  8Bit Hero |  | Unity
  99Moves |  | Unity
@@ -43,7 +43,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  A World of Keflings |  | 
  Abyss |  | 
  ACT IT OUT! A Game of Charades |  | 
- Advance Wars: Dual Strike |  | 
+ Advance Wars: Dual Strike | 7,067 | DS Emulation
  Adventure Time: Finn & Jake Investigations |  | 
  Adventure Time: Explore the Dungeon Because I DON’T KNOW! |  | 
  Adventures of Pip |  | 
