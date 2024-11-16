@@ -34,12 +34,12 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  1001 Spikes | 6,491 | 
  140 |  | Unity, Also on Switch, Xbox, PS4
  153 Hand Video Poker | 77,781 | Unity, WiiU Exclusive
- 360 Breakout |  | 
- 6-Hand Video Poker |  | 
- 6180 the moon |  | 
- 8Bit Hero |  | 
- 99Moves |  | 
- 99Seconds |  | 
+ 360 Breakout |  | Unity
+ 6-Hand Video Poker |  | Unity
+ 6180 the moon |  | Unity
+ 8Bit Hero |  | Unity
+ 99Moves |  | Unity
+ 99Seconds |  | Unity
  A World of Keflings |  | 
  Abyss |  | 
  ACT IT OUT! A Game of Charades |  | 
@@ -308,9 +308,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Spy Chameleon | 
  Squids Odyssey | 
  Star Fox™ Command | 
-
-  Game | No of Debug Symbols
- ---|---
  Star Ghost | 
  STARWHAL | 
  Stealth Inc 2: A Game of Clones | 
@@ -432,6 +429,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  三國志12 | 
  仮面ライダー バトライド･ウォーⅡ | 
  太鼓の達人 Wii Uば～じょん! | 
+ 
+  Game | No of Debug Symbols
+ ---|---
  太鼓の達人 あつめて★ともだち大作戦! | 
  太鼓の達人 特盛り! | 
  怪盗ワリオ･ザ･セブン | 
