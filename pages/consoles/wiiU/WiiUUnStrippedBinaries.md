@@ -29,11 +29,11 @@ The code shown in the video seems to just load a pre-existing list of IDs that a
 # WiiU games with debug symbols
 A list of all the WiiU games that are known to have debug symbols are listed in the table below, eventually we want to have the count of the number of debug symbols as an easy way to see how complete the symbols are (some games may only have debug symbols for a part of it, such as a single library).
 
- Game | No of Debug Symbols | Notes
+ Game | No of Named Procedures | Notes
  ---|---|---
- 1001 Spikes | 6,491 Named Procedures | 
+ 1001 Spikes | 6,491 | 
  140 |  | Unity, Also on Switch, Xbox, PS4
- 153 Hand Video Poker | 77,781 | WiiU Exclusive
+ 153 Hand Video Poker | 77,781 | Unity, WiiU Exclusive
  360 Breakout |  | 
  6-Hand Video Poker |  | 
  6180 the moon |  | 
@@ -210,9 +210,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Luv Me Buddies Wonderland | 
  M & S at the Rio 2016 Olympic Games | 
  Mahjong | 
-
-  Game | No of Debug Symbols
- ---|---
  Mario & Luigi: Partners in Time | 
  Mario & Sonic at the Rio 2016 Olympic Games™ | 
  Mario & Sonic at the Sochi 2014 Olympic Winter Games | 
@@ -359,9 +356,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  The Swapper | 
  The Swindle | 
  Thomas Was Alone | 
-
-  Game | No of Debug Symbols
- ---|---
  TNT Racers - Nitro Machines Edition | 
  Toby: The Secret Mine | 
  Toki Tori | 
@@ -425,6 +419,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  タッチ!カービィ スーパーレインボー | 
  チャリ走 Ultra DX - 世界ツアー | 
  ドンキーコング トロピカルフリーズ | 
+
+  Game | No of Debug Symbols
+ ---|---
  ニコニコ | 
  ぷよぷよテトリス | 
  ポッ拳 POKKÉN TOURNAMENT | 
