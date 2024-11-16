@@ -45,7 +45,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  ACT IT OUT! A Game of Charades |  | 
  Advance Wars: Dual Strike |  | 
  Adventure Time: Finn & Jake Investigations |  | 
- Adventure Time: Finn and Jake Investigations |  | 
  Adventure Time: Explore the Dungeon Because I DON’T KNOW! |  | 
  Adventures of Pip |  | 
  Affordable Space Adventures |  | 
@@ -62,18 +61,17 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Art Academy: Home Studio |  | 
  Art Academy: SketchPad |  | 
  Art Academy™ Atelier |  | 
- Art Academy™: SketchPad |  | 
  Asdivine Hearts |  | 
  Axiom Verge |  | 
  B3 Game Expo For Bees |  | 
  Back to Bed |  | 
  Baila Latino |  | 
- Ballpoint Universe: Infinite |  | 
+ Ballpoint Universe: Infinite |  | Also on PC
  Batman: Arkham Origins Blackgate Deluxe Edition |  | 
  Batman™: Arkham Origins Blackgate - Deluxe Edition |  | 
  Beatbuddy |  | 
  Ben 10 Omniverse |  | 
- Ben 10 Omniverse™ 2 |  | 
+ Ben 10 Omniverse 2 |  | 
  Big Brain Academy | | 
  Bike Rider UltraDX - WORLD TOUR |  | 
  Bird Mania Party |  | 
