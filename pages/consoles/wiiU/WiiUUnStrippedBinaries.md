@@ -33,7 +33,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  ---|---|---
  1001 Spikes | 6,491 Named Procedures | 
  140 |  | Unity, Also on Switch, Xbox, PS4
- 153 Hand Video Poker |  | 
+ 153 Hand Video Poker | 77,781 | WiiU Exclusive
  360 Breakout |  | 
  6-Hand Video Poker |  | 
  6180 the moon |  | 
