@@ -434,6 +434,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  太鼓の達人 特盛り! | 
  怪盗ワリオ･ザ･セブン | 
  星のカービィ 参上！ドロッチェ団 | 
+
+   Game | No of Debug Symbols
+ ---|---
  東北大学未来科学技術共同研究センター川島隆太教授監修 脳を鍛える大人のDSトレーニング | 
  絵心教室 スケッチ | 
  零 ～濡鴉ノ巫女～ | 
@@ -466,6 +469,22 @@ Another interesting tool, this time developed in python is RPXTools symbols.py w
 # How to use the debug symbols
 The best way is to convert the RPX file to an ELF using a tool such as **rpl2elf** which can be found on github:
 [Relys/rpl2elf: Small utility to convert Wii U RPL/RPX files to standard ELF format](https://github.com/Relys/rpl2elf)
+
+## Unity Games
+Alot of the games in the list above are Unity games with debug symbols for the engine itself rather than the specific game logic. Here are a few of the files and their purpose:
+* Unity_full.master.rpx - Main engine executable including networking
+* WiiUNexPlugin.rpl - (7,854 symbols)
+* System_dll.rpl - Core .net dll (11,349 symbols)
+* Assembly-CSharp_dll.rpl - Compiled project scripts (Number of symbols varies based on game)
+* Assembly-CSharp-firstpass_dll.rpl - Compiled built in scripts from standard assets and plugins (Number of symbols varies based on game)
+* Mono_Security_dll.rpl
+* Assembly-UnityScript-firstpass_dll.rpl
+* mscorlib_dll.rpl
+* System_Core_dll.rpl
+* UnityEngine_dll.rpl
+* UnityScript_Lang_dll.rpl
+* Boo_Lang_dll.rpl
+
 
 ---
 
