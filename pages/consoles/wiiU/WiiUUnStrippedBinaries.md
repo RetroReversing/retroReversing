@@ -37,24 +37,24 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  360 Breakout | 
  6-Hand Video Poker | 
  6180 the moon | 
- 8Bit Hero™ | 
+ 8Bit Hero | 
  99Moves | 
  99Seconds | 
  A World of Keflings | 
  Abyss | 
  ACT IT OUT! A Game of Charades | 
- Advance Wars™: Dual Strike | 
+ Advance Wars: Dual Strike | 
  Adventure Time: Finn & Jake Investigations | 
  Adventure Time: Finn and Jake Investigations | 
- Adventure Time™: Explore the Dungeon Because I DON’T KNOW! | 
- Adventures of Pip™ | 
+ Adventure Time: Explore the Dungeon Because I DON’T KNOW! | 
+ Adventures of Pip | 
  Affordable Space Adventures | 
  Alphadia Genesis™ | 
  Angry Birds Star Wars | 
  Angry Birds Trilogy | 
  Angry Bunnies: Colossal Carrot Crusade | 
  Angry Video Game Nerd Adventures | 
- Animal Crossing™: Wild World | 
+ Animal Crossing: Wild World | 
  Another World - 20th Anniversary Edition | 
  Aqua TV | 
  Armikrog | 
@@ -74,7 +74,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Beatbuddy | 
  Ben 10 Omniverse | 
  Ben 10 Omniverse™ 2 | 
- Big Brain Academy™ | 
+ Big Brain Academy |
  Bike Rider UltraDX - WORLD TOUR | 
  Bird Mania Party | 
  Bit Dungeon+ | 
@@ -84,7 +84,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Blek | 
  Blocky Bot | 
  Bombing Bastards | 
- Brain Age™: Train Your Brain in Minutes a Day! | 
+ Brain Age: Train Your Brain in Minutes a Day! | 
  Brick Breaker | 
  BRICK RACE | 
  Bridge Constructor Playground | 
@@ -121,6 +121,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Donkey Kong Country: Tropical Freeze | 
  Dr Kawashima’s BRAIN TRAINING™: How Old is Your Brain? | 
  Dr. Luigi™ | 
+
+  Game | No of Debug Symbols
+ ---|---
  Dr.LUIGI & 細菌撲滅 | 
  Dracula's Legacy | 
  Dragon Fantasy: The Black Tome of Ice | 
@@ -171,14 +174,14 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  How To Survive | 
  Human Resource Machine | 
  Humanitarian Helicopter | 
- Hyrule Warriors™ | 
+ Hyrule Warriors | 
  I C REDD | 
  Ice Cream Surfer | 
  Infinity Runner | 
  Island Flight Simulator | 
  Ittle Dew | 
- JEOPARDY!™ | 
- Jett Tailfin© | 
+ JEOPARDY! | 
+ Jett Tailfin | 
  Joe's Diner | 
  Jones on Fire | 
  Jotun: Valhalla Edition | 
@@ -194,7 +197,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Kirby™ Mass Attack | 
  Kirby™ Squeak Squad | 
  Kirby™: Mouse Attack | 
- Knytt Underground™ | 
+ Knytt Underground | 
  Koi DX | 
  Kung Fu FIGHT! | 
  Kung Fu Panda: Showdown of Legendary Legends | 
@@ -210,7 +213,10 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Luv Me Buddies Wonderland | 
  M & S at the Rio 2016 Olympic Games | 
  Mahjong | 
- Mario & Luigi™: Partners in Time | 
+
+  Game | No of Debug Symbols
+ ---|---
+ Mario & Luigi: Partners in Time | 
  Mario & Sonic at the Rio 2016 Olympic Games™ | 
  Mario & Sonic at the Sochi 2014 Olympic Winter Games | 
  Mario Kart™ DS | 
@@ -308,15 +314,18 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Spy Chameleon | 
  Squids Odyssey | 
  Star Fox™ Command | 
+
+  Game | No of Debug Symbols
+ ---|---
  Star Ghost | 
  STARWHAL | 
  Stealth Inc 2: A Game of Clones | 
  STEEL RIVALS | 
  Stick it to the Man™ | 
  Stone Shire | 
- Style Savvy™ | 
+ Style Savvy | 
  Sudoku and Permudoku | 
- Super Mario 64™ DS | 
+ Super Mario 64 DS | 
  Super Toy Cars | 
  Suspension Railroad Simulator | 
  Swap Fire | 
@@ -331,7 +340,7 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Teslagrad | 
  Teslapunk | 
  Tetrobot & Co. | 
- The Amazing Spider-Man 2™ | 
+ The Amazing Spider-Man 2 | 
  The Amazing Spider-Man™ Ultimate Edition | 
  The Beggar's Ride | 
  The Binding of Isaac: Rebirth | 
@@ -342,9 +351,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  The Fall | 
  The First Skunk Bundle | 
  The Gem Collector | 
- The Legend of Zelda™: Hyrule Historia | 
- The Legend of Zelda™: Phantom Hourglass | 
- The Legend of Zelda™: Spirit Tracks | 
+ The Legend of Zelda: Hyrule Historia | 
+ The Legend of Zelda: Phantom Hourglass | 
+ The Legend of Zelda: Spirit Tracks | 
  The Letter | 
  The Mysterious Cities of Gold: Secret Paths | 
  The Peanuts Movie: Snoopy's Grand Adventure | 
@@ -353,6 +362,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  The Swapper | 
  The Swindle | 
  Thomas Was Alone | 
+
+  Game | No of Debug Symbols
+ ---|---
  TNT Racers - Nitro Machines Edition | 
  Toby: The Secret Mine | 
  Toki Tori | 
@@ -398,6 +410,9 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Yoshi™ Touch & Go | 
  Ziggurat | 
  Zombie Defense | 
+
+  Game | No of Debug Symbols
+ ---|---
  あつめて！カービィ | 
  がんばれゴエモン! からくり道中 | 
  クニットアンダーグラウンド | 
@@ -435,9 +450,8 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
 
 ## How the list was generated
 
-this is then dumped out to a text file which you can see here:
-```
 Here is the full list in text form:
+```
 https://pastebin.com/vRPFwNW4 (updates)
 https://pastebin.com/a2x19WBA (titles)
 ```
@@ -446,7 +460,7 @@ All thanks to **BullyWiiPlaza** on youtube for searching through all the Wii eSh
 
 A post on GBATemp forums by BullyWiiPlaza mentions how it was accomplished, he downloaded all the available eShop titles (RPL and RPX) and used a script to check if they have debug symbols left in them or not [^3]. 
 
-He mentions that he used the library JNUSLib which is a Java library for parsing Nintendo's Update Servers and bases it on Java code found in another github repository called nn_nex_logging_and_research.
+He mentions that he used the library **JNUSLib** which is a Java library for parsing Nintendo's Update Servers and bases it on Java code found in another github repository called nn_nex_logging_and_research.
 
 This is a tool created by Maschell called `RPX Non-Stripped Downloader` and the source code can be found here:
 [https://github.com/Maschell/nn_nex_logging_and_research/blob/master/PC/function_finder/src/main/java/de/mas/wiiu/tools/rpxnonstrippeddownloader/StarterDownloader.java](https://github.com/Maschell/nn_nex_logging_and_research/blob/master/PC/function_finder/src/main/java/de/mas/wiiu/tools/rpxnonstrippeddownloader/StarterDownloader.java)
