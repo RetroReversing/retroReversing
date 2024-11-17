@@ -29,19 +29,21 @@ The code shown in the video seems to just load a pre-existing list of IDs that a
 # WiiU games with debug symbols
 A list of all the WiiU games that are known to have debug symbols are listed in the table below, eventually we want to have the count of the number of debug symbols as an easy way to see how complete the symbols are (some games may only have debug symbols for a part of it, such as a single library).
 
+In the table below the number of symbols is based on the main executable (RPX) except for unirty games where it is based on **Assembly-CSharp_dll.rpl** instead.
+
  Game | No of Named Procedures | Notes
  ---|---|---
  1001 Spikes | 6,491 | 
- 140 |  | Unity, Also on Switch, Xbox, PS4
- 153 Hand Video Poker | 77,781 | Unity, WiiU Exclusive
- 360 Breakout | 140,399  | Unity
+ 140 | 7,063 | Unity, Also on Switch, Xbox, PS4
+ 153 Hand Video Poker | 179 | Unity, WiiU Exclusive
+ 360 Breakout | 521  | Unity
  6-Hand Video Poker | 77,781 | Unity
- 6180 the moon |  | Unity
- 8Bit Hero |  | Unity
- 99Moves |  | Unity
- 99Seconds |  | Unity
- A World of Keflings |  | 
- Abyss |  | 
+ 6180 the moon | 152 | Unity
+ 8Bit Hero | 1,306 | Unity
+ 99Moves | 25,373 | Unity
+ 99Seconds | 25,370 | Unity
+ A World of Keflings | 9,893 | Cafe SDK
+ Abyss | 5,623 | Unity
  ACT IT OUT! A Game of Charades |  | 
  Advance Wars: Dual Strike | 7,067 | DS Emulation
  Adventure Time: Finn & Jake Investigations |  | 
@@ -421,21 +423,12 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  三國志12 | 
  仮面ライダー バトライド･ウォーⅡ | 
  太鼓の達人 Wii Uば～じょん! | 
- 
-  Game | No of Debug Symbols
- ---|---
  太鼓の達人 あつめて★ともだち大作戦! | 
  太鼓の達人 特盛り! | 
  怪盗ワリオ･ザ･セブン | 
  星のカービィ 参上！ドロッチェ団 | 
-
-   Game | No of Debug Symbols
- ---|---
  東北大学未来科学技術共同研究センター川島隆太教授監修 脳を鍛える大人のDSトレーニング | 
  絵心教室 スケッチ | 
-
-  Game | No of Debug Symbols
- ---|---
  零 ～濡鴉ノ巫女～ | 
  龍が如く 1&2 HD for Wii U | 
 
@@ -469,18 +462,19 @@ The best way is to convert the RPX file to an ELF using a tool such as **rpl2elf
 
 ## Unity Games
 Alot of the games in the list above are Unity games with debug symbols for the engine itself rather than the specific game logic. Here are a few of the files and their purpose:
-* Unity_full.master.rpx - Main engine executable including networking
-* WiiUNexPlugin.rpl - (7,854 symbols)
-* System_dll.rpl - Core .net dll (11,349 symbols)
-* Assembly-CSharp_dll.rpl - Compiled project scripts (Number of symbols varies based on game)
-* Assembly-CSharp-firstpass_dll.rpl - Compiled built in scripts from standard assets and plugins (Number of symbols varies based on game)
-* Mono_Security_dll.rpl
-* Assembly-UnityScript-firstpass_dll.rpl
-* mscorlib_dll.rpl
-* System_Core_dll.rpl
-* UnityEngine_dll.rpl
-* UnityScript_Lang_dll.rpl
-* Boo_Lang_dll.rpl
+* **Unity_full.master.rpx**/**Unity_nonetwork.master.rpx** - Main engine executable excluding networking (77,462 symbols)
+* **Unity-master.rpx** - Main engine executable including networking (137,196 symbols)
+* **WiiUNexPlugin.rpl** - WiiU Unity plugin (7,854 symbols)
+* **Assembly-CSharp_dll.rpl** - Compiled project scripts (Number of symbols varies based on game)
+* **Assembly-CSharp-firstpass_dll.rpl** - Compiled built in scripts from standard assets and plugins (Number of symbols varies based on game)
+* **Assembly-UnityScript-firstpass_dll.rpl** - (Number of symbols varies based on game)
+* **System_dll.rpl** - Core .net dll (11,349 symbols)
+* **Mono_Security_dll.rpl** - (2,956 symbols) 
+* **mscorlib_dll.rpl** - (25,216)
+* **System_Core_dll.rpl** - (5,073)
+* **UnityEngine_dll.rpl** - (16,474)
+* **UnityScript_Lang_dll.rpl** (245)
+* **Boo_Lang_dll.rpl** - (1514)
 
 
 ---
