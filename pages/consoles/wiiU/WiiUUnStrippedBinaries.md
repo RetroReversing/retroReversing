@@ -396,9 +396,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  Yoshi™ Touch & Go | 
  Ziggurat | 
  Zombie Defense | 
-
-  Game | No of Debug Symbols
- ---|---
  あつめて！カービィ | 
  がんばれゴエモン! からくり道中 | 
  クニットアンダーグラウンド | 
@@ -414,9 +411,6 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  タッチ!カービィ スーパーレインボー | 
  チャリ走 Ultra DX - 世界ツアー | 
  ドンキーコング トロピカルフリーズ | 
-
-  Game | No of Debug Symbols
- ---|---
  ニコニコ | 
  ぷよぷよテトリス | 
  ポッ拳 POKKÉN TOURNAMENT | 
@@ -439,8 +433,11 @@ A list of all the WiiU games that are known to have debug symbols are listed in 
  ---|---
  東北大学未来科学技術共同研究センター川島隆太教授監修 脳を鍛える大人のDSトレーニング | 
  絵心教室 スケッチ | 
+
+  Game | No of Debug Symbols
+ ---|---
  零 ～濡鴉ノ巫女～ | 
- 龍が如く 1&2 HD for Wii U
+ 龍が如く 1&2 HD for Wii U | 
 
 
 ## How the list was generated
