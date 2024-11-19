@@ -285,7 +285,7 @@ function isInView(element) {
       });
   }
   
-  function setupDataTables() {
+  function setupDataTables(retryCount) {
     // Table Handling
     try {      
           // Make markdown tables have the bootstrap table class to look pretty
@@ -301,7 +301,11 @@ function isInView(element) {
 
           $('table').filter(onlyRowsGreaterThanMinimum).DataTable();
     } catch (e) {
-      console.error("Exception with table handling:", e);
+      console.error("Exception with table handling:", e, retryCount);
+      if (retryCount < 5) {
+        // Try again after 10seconds
+        setTimeout(setupDataTables.bind(null, retryCount+1), 10000);
+      }
     }
     //  End Table Handling
     
@@ -349,7 +353,7 @@ function isInView(element) {
       
      $(document).ready(function() {
       setupCarousel();
-      setupDataTables();
+      setupDataTables(0);
 
       // lightbox
       // $('[data-lightbox]').lightbox();
