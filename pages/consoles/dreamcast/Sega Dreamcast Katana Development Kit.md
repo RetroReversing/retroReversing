@@ -65,6 +65,9 @@ It also had a unique boot animation:
 ## Controller Box (HKT-0200)
 The **Set 4** and below didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into with four slots on top for prototype VMUs [^5].
 
+---
+## Katana Midi Sound Box (HKT-0300)
+
 
 ---
 ## GD-Writer (HKT-0400)
@@ -78,15 +81,25 @@ In order to use the GD-Writer hardware you would need to run a program called GD
 {% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
 
 ---
-## GD-X Duplicator (HKT-0500)
+## Cross Products Dreamcast GD-ROM Duplicator GD-X (HKT-0500)
 Hardware unit to duplicate GD-ROMs, not used for development but useful for duplicating discs for testers.
 
 You can see a video of the GD-X Duplicator by Adam Koralik here [^3]:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rszqxcnOmCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## GD-R (HKT-0600)
+![Dreamcast HKT-0600](https://github.com/user-attachments/assets/0c9edb14-155e-4df5-bcdb-b7c4f0883f03)
+The GD-R was a writable Gigabyte dreamcast disc and came in two colors blue and orange, many prototype Dreamcast games are found on this format.
 
 ---
-## System Disk 2
+## Sega Katana C1/C2 Checker (HKT-0700)
+![Sega C1/C2 Checker](https://github.com/user-attachments/assets/fa023215-1446-4c5f-a08e-73da3fe77011)
+The HKT-0700 Sega Katana C1/C2 Checker is a peripheral device for the Sega Dreamcast Hard C1-Checker & the Sega Dreamcast Development Box, and it served as an address checker. 
+
+The Hard-C1 Checker looks very similar to a retail Dreamcast unit. The only differences are that it has a switch and light on the top of the unit, as well as a serial port on the front.
+
+---
+## System Disk 2 (HKT-0900)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TL0VCLGev7A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In order to help prevent alpha and beta games being leaked to the public, Sega made sure that an additional disc was required to run developer burned GD-Rs [^2].
