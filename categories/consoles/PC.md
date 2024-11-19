@@ -29,6 +29,29 @@ Note that if you are interested in the MSX PC we have a seperate post on that to
 {% include link-to-other-post.html post="/msx" description="For more information on the MSX check out this post." %}
 
 ---
+# Hardware
+
+## Graphics Hardware
+
+### How does the industry make sure there is compatibility between different manufactures of Graphics hardware?
+This is where the The **Video Electronics Standards Association** (VESA) comes in, VESA's primary mission is to develop and promote open standards for the display industry, ensuring interoperability and enhancing the user experience across various devices. Without their standards your PC wouldn't even boot if it wasn't compatible with the motherboard.
+
+### What are the different Graphics/Video Card ports?
+Over the years there have been a few different standard ports for Video cards:
+* **Industry Standard Architecture** (ISA) port - 1981+ Available as 8-bit PC Bus and 16-bit AT Bus
+  ![ISA 16-Bit AT Bus](https://github.com/user-attachments/assets/cd6a9e7d-84b1-4ccc-bb05-8882bd9ad7b2)
+  ![ISA 8-Bit PC Bus](https://github.com/user-attachments/assets/d2ac4f52-e189-4b45-8468-af2d63f05b6e)
+* **VESA Local Bus** (VLB) - 1992+
+  ![VLB](https://github.com/user-attachments/assets/0fb24a12-088b-49b4-8aac-efbf369981a9)
+* **Peripheral Component Interconnect** (PCI) port - 1992+
+* **Accelerated Graphics Port** (AGP) - 1997+
+* **PCI Express** (PCIe) - 2004+
+
+There were many motherboards that supported multiple different ports at once such as ISA 16-bit, 8-bit and VLB, thanks to [Juan Linietsky on Twitter
+](https://x.com/reduzio/status/1832339488611107221)!
+
+
+---
 # DOS Game Reverse Engineering
 
 ## Reversing DOS games with CicoParser
@@ -130,3 +153,4 @@ The UK Magazine Game Maker has an interview with Daniel Hornick, Hubert Nguyen a
 [^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
 [^3]: [Download NVIDIA Tech Demos - NVIDIA Cool Stuff](https://www.nvidia.com/en-gb/geforce/community/demos/)
 [^4]: GameMaker UK Magazine Issue 1 October 2003 by Future Publishing
+[^5]: [Juan Linietsky](https://x.com/reduzio/status/1832339488611107221)
