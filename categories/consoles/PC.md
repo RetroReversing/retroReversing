@@ -29,10 +29,7 @@ Note that if you are interested in the MSX PC we have a seperate post on that to
 {% include link-to-other-post.html post="/msx" description="For more information on thr MSX check out this post." %}
 
 ---
-# DOS
-
----
-## DOS Game Reverse Engineering
+# DOS Game Reverse Engineering
 
 ## Reversing DOS games with CicoParser
 CicoParser is a tool that helps convert old DOS programs to run on modern computers. Instead of emulating the entire DOS system, it translates the program's assembly code into C code. This makes the program run much faster and allows for easier modification and improvement of the original application.
@@ -43,9 +40,13 @@ You can find it on Github:
 Here is a video from the author:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4fAeUx8A-OE?si=w45EcMxhSPX2rLi-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### Reverse Engineering Strike Commander
+## Reverse Engineering Strike Commander
 Fabien Sanglard has an excellent series of articles on how he reverse engineered the classic flight simulator **Strike Commander**:
 [Reverse Engineering Strike Commander](https://fabiensanglard.net/reverse_engineering_strike_commander/index.php)
+
+## Carmageddon 
+Thanks to debug symbols being found in the **Carmageddon Splat Pack** expansion and the amazing work of the community there is now a reversing project for Carmageddon called **Dethrace**.
+[dethrace-labs/dethrace: Reverse engineering the 1997 game "Carmageddon"](https://github.com/dethrace-labs/dethrace?tab=readme-ov-file)
 
 ---
 ## DOS Gaming Aspect Ratio - 320x200
