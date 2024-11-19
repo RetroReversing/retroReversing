@@ -107,6 +107,14 @@ There are a few useful script for working with PS3 executables on [Github](https
 Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 
 ---
+# Feature Plugins
+While Ghidra has a large number of features built in, there are a number of features missing that are thankfully available due to community plugins, this section will cover some of the most useful for game reversing.
+
+## CodeCut
+CodeCut allows a user to assign functions to object files in Ghidra, and then interact with the binary at the object file level. Functions are assigned to object files by setting the Namespace field in the Ghidra database. DeepCut attempts to establish initial object file boundaries which the user can then adjust using the CodeCut Table window.
+[https://github.com/jhuapl/codecut](https://github.com/jhuapl/codecut)
+
+---
 # Ghidra decompiler macros
 WHen using the decompiler Ghidra spits out code which uses a number of macros which are not immedietly obvious of their function, we provide some of these below with our reccomendation of an easier to read version.
 
