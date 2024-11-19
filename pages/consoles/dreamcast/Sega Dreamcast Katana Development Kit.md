@@ -77,6 +77,8 @@ The GD-R discs are writeable versions of GD-ROMs and are burned by developers us
 
 ---
 ## Set 4 Development hardware
+![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/87518135-e472-41e2-a007-a44fa41c2def)
+
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is a Set4 <a href="https://twitter.com/hashtag/SegaDreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#SegaDreamcast</a> development kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface... <a href="https://t.co/PSGpdyeztc">pic.twitter.com/PSGpdyeztc</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1313840041219637252?ref_src=twsrc%5Etfw">October 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 To keep prototyping costs down, they built the system to an ATX form factor, and used a standard ATX power supply, it is presumed that only 1000 Set 4 F3 kits were made [^4].
