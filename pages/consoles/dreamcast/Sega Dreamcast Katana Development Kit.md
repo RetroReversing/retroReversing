@@ -41,15 +41,33 @@ editlink: /consoles/dreamcast/Sega Dreamcast Katana Development Kit.md
 ---
 
 # Official Sega Development hardware
-
-## GD-X Duplicator (HKT-01)
-Hardware unit to duplicate GD-ROMs, not used for development but useful for duplicating discs for testers.
-
-You can see a video of the GD-X Duplicator by Adam Koralik here [^3]:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rszqxcnOmCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In Sega's internal model numbering system for the Dreamcast, the prefix "HKT" is consistently used across various hardware components and peripherals. While the exact meaning of "HKT" has not been officially disclosed by Sega, it's widely believed that "KT" stands for "Katana," the codename for the Dreamcast during its development phase. The "H" could plausibly represent "Hardware," indicating that "HKT" denotes "Hardware Katana." This interpretation aligns with Sega's practice of using specific prefixes to categorize their hardware products systematically. For instance, the Dreamcast's development kit was known as the "Katana Development Kit," and its model number was HKT-01.
 
 ---
-## GD-Writer (HKT-04)
+## Sega Katana Development Box (HKT-0100)
+
+### Set 4 Development hardware
+This is a Set4 evelopment kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface...[^6]
+![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/8c9e31fc-ff0a-47f6-998b-dc4f419c8234)
+
+Here is an example up and running from Shane Battye, the host PC (out of frame) contains an Adaptec 2940 SCSI adapter and runs Win95/98 compatible SDK:
+![Set 4 Dreamcast Teapot Demo with Saturn Controller](https://github.com/user-attachments/assets/f22cbe5a-6a34-4d01-adaf-e235e818cac8)
+
+To keep prototyping costs down, they built the system to an ATX form factor, and used a standard ATX power supply, it is presumed that only 1000 Set 4 F3 kits were made [^4].
+
+### Set 5 Katana Development Hardware (HKT-0120)
+The Set 5 Dreamcast Development  Hardware was the most common seen the in the wild and came with a GD-ROM Drive:
+![image](https://github.com/user-attachments/assets/3a0b4e3f-ed5e-4829-9b57-ec2b02250c55)
+
+It also had a unique boot animation:
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">Sega <a href="https://twitter.com/hashtag/Dreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#Dreamcast</a> <a href="https://t.co/bkqq4OInS8">https://t.co/bkqq4OInS8</a> HKT-0120 boot animation <a href="https://t.co/1l96Ze6w2s">pic.twitter.com/1l96Ze6w2s</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1104989541188874241?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Controller Box (HKT-0200)
+The **Set 4** and below didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into with four slots on top for prototype VMUs [^5].
+
+
+---
+## GD-Writer (HKT-0400)
 The GD-Writer is used by developers to burn GD-R discs which are a writable version of the Dreamcast GD-ROMs.
 
 You can see the GD-Writer in action in this video by Adam Koralik [^1]:
@@ -58,6 +76,14 @@ You can see the GD-Writer in action in this video by Adam Koralik [^1]:
 In order to use the GD-Writer hardware you would need to run a program called GD Workshop on your dreamcast DEV.BOX.
 
 {% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
+
+---
+## GD-X Duplicator (HKT-0500)
+Hardware unit to duplicate GD-ROMs, not used for development but useful for duplicating discs for testers.
+
+You can see a video of the GD-X Duplicator by Adam Koralik here [^3]:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rszqxcnOmCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 ## System Disk 2
@@ -75,26 +101,7 @@ The GD-R discs are writeable versions of GD-ROMs and are burned by developers us
 
 {% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="You can find out about the GD Workshop in this post." %}
 
----
-## Set 4 Development hardware
-This is a Set4 evelopment kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface...[^6]
-![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/8c9e31fc-ff0a-47f6-998b-dc4f419c8234)
 
-Here is an example up and running from Shane Battye, the host PC (out of frame) contains an Adaptec 2940 SCSI adapter and runs Win95/98 compatible SDK:
-![Set 4 Dreamcast Teapot Demo with Saturn Controller](https://github.com/user-attachments/assets/f22cbe5a-6a34-4d01-adaf-e235e818cac8)
-
-To keep prototyping costs down, they built the system to an ATX form factor, and used a standard ATX power supply, it is presumed that only 1000 Set 4 F3 kits were made [^4].
-
-The **Set 4** didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into with four slots on top for prototype VMUs [^5].
-
-
----
-## Set 5 Katana Development Hardware (HKT-0120)
-The Set 5 Dreamcast Development  Hardware was the most common seen the in the wild and came with a GD-ROM Drive:
-![image](https://github.com/user-attachments/assets/3a0b4e3f-ed5e-4829-9b57-ec2b02250c55)
-
-It also had a unique boot animation:
-<blockquote class="twitter-tweet"><p lang="et" dir="ltr">Sega <a href="https://twitter.com/hashtag/Dreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#Dreamcast</a> <a href="https://t.co/bkqq4OInS8">https://t.co/bkqq4OInS8</a> HKT-0120 boot animation <a href="https://t.co/1l96Ze6w2s">pic.twitter.com/1l96Ze6w2s</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1104989541188874241?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 # References
