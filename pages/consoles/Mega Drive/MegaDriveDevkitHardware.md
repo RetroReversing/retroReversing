@@ -248,7 +248,7 @@ Nicholas Cottrill has some excellent photos of the Psy-Q Mega Drive hardware on 
 # In-House development Kits
 Even with the wide variety of development kits on the market for the SEGA Genesis some companies prefered to create their own development kits.
 
-## SPROBE (EA)
+## SPROBE by Electronic Arts (EA)
 <section class="postSection">
       <img src="/public/images/megadrive/EA-mega-drive-devkit-sprobe.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
@@ -260,6 +260,13 @@ This hardware is one of the reasons for EA's early dominance in Sega Genesis gam
 There used to be a video showing off this hardware on Youtube by AssemblerGames, however it has since been deleted.
 </div>
 </section>
+
+There is an **EA SPROBE** development kit in the Museum of Play collection:
+![Museum of Play SPROBE](https://github.com/user-attachments/assets/aaa75b8b-8b85-46e1-994f-43288f8b2484)
+
+You can see the inside of the **SPROBE** development kit below:
+![Inside of the EA SPROBE](https://github.com/user-attachments/assets/9efee17d-82eb-4ab9-bf06-b60acdd48fc0)
+
 
 
 ---
