@@ -6,7 +6,7 @@ recommend:
  - msx
  - pc
 recommendTitle: All MSX Posts
-editlink: ../categories/consoles/M<SX.md
+editlink: ../categories/consoles/MSX.md
 console: 'msx'
 consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of MSX Game Development and Reverse Engineering information
@@ -28,14 +28,15 @@ So grab your keyboard and mouse, and get ready to dive into the exciting world o
 
 ---
 # MSX
-The MSX was a standard introducted by **Microsoft Japan** to make sure no matter which manufacturer build the PC (e.g Sony, Panasonic, Philips) they would all be able to run the same software.
+The MSX was a standard introduced by **Microsoft Japan** to make sure no matter which manufacturer build the PC (e.g Sony, Panasonic, Philips) they would all be able to run the same software.
 
 The MSX has a version of BASIC built in which was an extended version of Microsoft Basic, hence the **MSX** name [^1].
 
 There were three different revisions of the MSX:
-* MSX
-* MSX2
-* MSX Turbo R
+* **MSX** (October 21st 1983[^3])
+* **MSX2** (1985)
+* **MSX2+** (1988)
+* **MSX Turbo R** (1990)
 
 ## Introduction to the technology of the MSX
 The best video I have found on the MSX is by the Youtuber **Displaced Gamers** where he goes through all the variations of the MSX (MSX2 etc) and explains the hardware limitations and the impressive feats developers managed to accomplish on the systems:
@@ -62,3 +63,4 @@ Sony released their HIT-BIT machines which started with the HB-10 which had 16KB
 # References
 [^1]: PSi2 Issue 19
 [^2]: [All Sony hardware that they developed - Generation MSX](https://www.generation-msx.nl/company/sony/14/hardware/)
+[^3]: [Release date of MSX](https://www.osnews.com/story/137650/a-quick-look-back-at-the-msx-pc-platform-including-microsofts-role-on-its-40th-birthday/)
