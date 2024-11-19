@@ -77,13 +77,16 @@ The GD-R discs are writeable versions of GD-ROMs and are burned by developers us
 
 ---
 ## Set 4 Development hardware
-![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/87518135-e472-41e2-a007-a44fa41c2def)
+This is a Set4 evelopment kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface...[^6]
+![Set 4 Dreamcast Hardware](https://github.com/user-attachments/assets/8c9e31fc-ff0a-47f6-998b-dc4f419c8234)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is a Set4 <a href="https://twitter.com/hashtag/SegaDreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#SegaDreamcast</a> development kit. It preceded the more familiar Set5 (HKT-0120) units and shipped in this rudimentary beige PC ATX mini tower. There is no GD-ROM drive but a GD-M emulator board is inside as well as a 4GB HDD and SCSI interface... <a href="https://t.co/PSGpdyeztc">pic.twitter.com/PSGpdyeztc</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1313840041219637252?ref_src=twsrc%5Etfw">October 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+Here is an example up and running from Shane Battye, the host PC (out of frame) contains an Adaptec 2940 SCSI adapter and runs Win95/98 compatible SDK:
+![Set 4 Dreamcast Teapot Demo with Saturn Controller](https://github.com/user-attachments/assets/f22cbe5a-6a34-4d01-adaf-e235e818cac8)
 
 To keep prototyping costs down, they built the system to an ATX form factor, and used a standard ATX power supply, it is presumed that only 1000 Set 4 F3 kits were made [^4].
 
-The **Set 4** didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into [^5].
+The **Set 4** didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into with four slots on top for prototype VMUs [^5].
+
 
 ---
 ## Set 5 Katana Development Hardware (HKT-0120)
@@ -100,3 +103,4 @@ It also had a unique boot animation:
 [^3]: [Keep Dreaming - Sega Dreamcast GD-X Duplicator HKT-01 - Adam Koralik - YouTube](https://www.youtube.com/watch?v=rszqxcnOmCA)
 [^4]: [Dreamcast - Sega Dreamcast SET4 F3 Development Kit - ObscureGamers - Prototopia](https://web.archive.org/web/20190923150812/https://www.obscuregamers.com/threads/sega-dreamcast-set4-f3-development-kit.336/)
 [^5]: [HKT-0200 - Sega Katana Controller Box - SegaXtreme](https://segaxtreme.net/threads/hkt-0200-sega-katana-controller-box.15500/)
+[^6]: [Shane Battye🎄 🎮 (@shanebattye)](https://web.archive.org/web/20201007141308/https://twitter.com/shanebattye/status/1313840041219637252)
