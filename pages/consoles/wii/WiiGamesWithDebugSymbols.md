@@ -599,7 +599,14 @@ Name | Notes
  uDraw Studio - Instant Artist (USA) (En,Fr,Es) |  
 
 ---
+# Unconfirmed Games
+The list above is all the games we know so far but it is not a complete list, so this section will contain some reports which have not yet been verified and added to the list. If you have any then please contribute!
 
+## Sonic Unleashed
+Thanks to **Alex Field** on Twitter who submitted evidence that Sonic Unleashed may contain debug symbols. We need to extract the WAD file and investigate how complete the debug symbols are!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">@RetroReversing</a> Sonic Unleashed for the Wii (NTSC-U) might have shipped with debug symbols, as a lot of internal stuff can be found in the main executable. <a href="https://t.co/iZyGbmfr3z">pic.twitter.com/iZyGbmfr3z</a></p>&mdash; Alex Field 🇦🇺 (@AlexFie90350682) <a href="https://twitter.com/AlexFie90350682/status/1850159181443252476?ref_src=twsrc%5Etfw">October 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+---
 # How to find out if your WAD has debug symbols
 In order to detect if your Wii game has debug symbols we will need to extract the ELF executable from all the archives that the Wii packages its games in. 
 
