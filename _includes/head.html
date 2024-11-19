@@ -24,10 +24,14 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   
 <!--  Open Graph  -->
-  <meta property="og:title" content="RetroReversing - The Home of Reverse Engineering Enthusiasts" />
+  {% if !page.title %}
+    <meta property="og:title" content="RetroReversing - The Home of Reverse Engineering Enthusiasts" />
+    <meta property="og:image" content="https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png" />
+    <!--   If it does have a title it will be handled in the post layout -->
+  {% endif %}
+  
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.retroreversing.com/" />
-  <meta property="og:image" content="https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png" />
  {% if page.excerpt %}
   <meta property="og:description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering enthusiasts." />
  {% else %}
