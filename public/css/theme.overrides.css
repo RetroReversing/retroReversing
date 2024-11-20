@@ -1,3 +1,5 @@
+/* For phone screen overrides see bottom of this file  */
+
 /* Remove default bootstrap padding for containers */
 .container {
   padding: 0px;
@@ -479,4 +481,21 @@ border-top-right-radius: 8px;
 -moz-border-radius-bottomleft: 8px;
 border-bottom-right-radius: 8px;
 border-bottom-left-radius: 8px;
+}
+
+/* Phone screen overrides  */
+@media (max-width: 768px) {
+  .post {
+    h1 {
+      font-size: 20px;
+      margin-left: unset;
+    }
+  }
+  #follow-retro-reversing {
+    margin-left: -25px;
+    margin-right: -25px;
+    .follow-text {
+      font-size: unset;
+    }
+  }
 }
