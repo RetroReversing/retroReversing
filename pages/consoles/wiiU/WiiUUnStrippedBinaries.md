@@ -6,7 +6,8 @@ tags:
 - games
 title: Wii U Games with Debug symbols (UnStripped Binaries)
 thumbnail: /public/consoles/Nintendo WiiU.png
-_image: https://img.youtube.com/vi/bl55B1cvLUA/maxresdefault.jpg
+image: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
+twitterimage: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
 permalink: /wii-u-unstripped/
 breadcrumbs:
   - name: Home
@@ -21,11 +22,9 @@ references:
   - youtube
 ---
 
-In the youtube video above you can see the list of Un-stripped WiiU binaries being processed from a list of IDs. 
-
-The code shown in the video seems to just load a pre-existing list of IDs that are known un-stripped binaries and matches them to their actual game title. 
-
 # Wii U games with debug symbols
+![WiiU Games with debug symbols](https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0)
+
 A list of all the WiiU games that are known to have debug symbols are listed in the table below, eventually we want to have the count of the number of debug symbols as an easy way to see how complete the symbols are (some games may only have debug symbols for a part of it, such as a single library).
 
 In the table below the number of symbols is based on the main executable (RPX) except for unirty games where it is based on **Assembly-CSharp_dll.rpl** instead.
