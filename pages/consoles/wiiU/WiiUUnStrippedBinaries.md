@@ -6,8 +6,7 @@ tags:
 - games
 title: Wii U Games with Debug symbols (UnStripped Binaries)
 thumbnail: /public/consoles/Nintendo WiiU.png
-youtube: "bl55B1cvLUA"
-image: https://img.youtube.com/vi/bl55B1cvLUA/maxresdefault.jpg
+_image: https://img.youtube.com/vi/bl55B1cvLUA/maxresdefault.jpg
 permalink: /wii-u-unstripped/
 breadcrumbs:
   - name: Home
@@ -26,7 +25,7 @@ In the youtube video above you can see the list of Un-stripped WiiU binaries bei
 
 The code shown in the video seems to just load a pre-existing list of IDs that are known un-stripped binaries and matches them to their actual game title. 
 
-# WiiU games with debug symbols
+# Wii U games with debug symbols
 A list of all the WiiU games that are known to have debug symbols are listed in the table below, eventually we want to have the count of the number of debug symbols as an easy way to see how complete the symbols are (some games may only have debug symbols for a part of it, such as a single library).
 
 In the table below the number of symbols is based on the main executable (RPX) except for unirty games where it is based on **Assembly-CSharp_dll.rpl** instead.
@@ -435,11 +434,7 @@ In the table below the number of symbols is based on the main executable (RPX) e
 
 ## How the list was generated
 
-Here is the full list in text form:
-```
-https://pastebin.com/vRPFwNW4 (updates)
-https://pastebin.com/a2x19WBA (titles)
-```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bl55B1cvLUA?si=RumVBcCoBbOKIiLH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 All thanks to **BullyWiiPlaza** on youtube for searching through all the Wii eShop games to find the unstripped binaries and dumping them to a text file [^1]. Also he thanks **Maschell** the developer of JNUSLib who does a lot of WiiU homebrew coding on github and whose Java code was the basis of this project [^2].
 
@@ -470,15 +465,14 @@ Alot of the games in the list above are Unity games with debug symbols for the e
 * **Assembly-UnityScript-firstpass_dll.rpl** - (Number of symbols varies based on game)
 * **System_dll.rpl** - Core .net dll (11,349 symbols)
 * **Mono_Security_dll.rpl** - (2,956 symbols) 
-* **mscorlib_dll.rpl** - (25,216)
-* **System_Core_dll.rpl** - (5,073)
-* **UnityEngine_dll.rpl** - (16,474)
-* **UnityScript_Lang_dll.rpl** (245)
-* **Boo_Lang_dll.rpl** - (1514)
+* **mscorlib_dll.rpl** - (25,216 symbols)
+* **System_Core_dll.rpl** - (5,073 symbols)
+* **UnityEngine_dll.rpl** - (16,474 symbols)
+* **UnityScript_Lang_dll.rpl** (245 symbols)
+* **Boo_Lang_dll.rpl** - (1514 symbols)
 
 
 ---
-
 # References
 [^1]: BullyWiiPlaza https://www.youtube.com/watch?v=bl55B1cvLUA
 [^2]: Maschell Github https://github.com/Maschell
