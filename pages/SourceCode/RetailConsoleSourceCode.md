@@ -258,6 +258,10 @@ The original Xbox was a joy to program for, especially for PC developers who wer
 ### Siege of Avalon
 {% include link-to-other-site.html url="https://bitbucket.org/rucksacksepp/siege-of-avalon-anthology-sourcecode" description="A git-based fork of the officially released Siege of Avalon source code." image="https://upload.wikimedia.org/wikipedia/en/7/74/Siege_of_Avalon.jpg" title="Siege of Avalon"  %}
 
+### Rogue Legacy 1
+{% include link-to-other-site.html url="https://github.com/flibitijibibo/RogueLegacy1/" description="This is the source code for Rogue Legacy - more specifically, it is only the code, and only the FNA build. The assets and contentproj are not included." image="https://upload.wikimedia.org/wikipedia/en/e/ef/Rogue_Legacy_cover_art.jpg" title="Rogue Legacy 1"  %}
+
+
 ---
 # References
 [^1]: [Mr. Nutz: Hoppin' Mad (Genesis) - The Cutting Room Floor](https://tcrf.net/Mr._Nutz:_Hoppin%27_Mad_(Genesis))
