@@ -2451,6 +2451,28 @@ fieldset[disabled]
   border-color: #ff5700;
 }
 
+.btn-bluesky {
+  color: #fff;
+  background-color: #1185fe;
+  font-weight: 500;
+}
+
+.btn-bluesky:hover, .btn-bluesky:focus, .btn-bluesky:active {
+  color: #fff;
+  background: #1185ff;
+}
+
+.btn-bluesky.btn-link:focus, .btn-bluesky.btn-link:hover {
+  color: #ff5700;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-bluesky.btn-default:focus, .btn-bluesky.btn-default:hover {
+  background-color: #1185fe;
+  border-color: #1185fe;
+}
+
 .btn-pinterest {
   color: #fff;
   background-color: #bd081c;
