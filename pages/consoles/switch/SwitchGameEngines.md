@@ -139,6 +139,7 @@ Undertale | string in main executable: `SDK MW+YoYoGames+GameMaker_Studio_2-11.1
 There is only one Switch game so far that uses the Haxe engine and it is the excellent **Dead Cells**, well worth a purchase whenever it is on sale! 
 
 ## Games
+
 Game Name | Proof of engine
 ---|---
 Dead Cells | contains string `C:/Projects/haxeTools/lib/hashlink/src/alloc.c`
@@ -149,9 +150,11 @@ Dead Cells | contains string `C:/Projects/haxeTools/lib/hashlink/src/alloc.c`
 It is relatively rare to find a Switch game created with MonoGame but they do exist and you can find a few in the table below.
 
 ## Games
+
 Game Name | Proof of engine
 ---|---
 Timespinner | contains string: `D:/Projects/Switch/MonoGame.`
+
 
 ---
 # Unreal Engine 4
