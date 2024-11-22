@@ -2,6 +2,8 @@
 title: Reversing Engineering a NES Game With Ghidra
 layout: post
 permalink: /nes-ghidra
+image: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+twitterimage: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
 tags:
 - nes
 - ghidra
@@ -13,44 +15,45 @@ updatedAt: '2024-08-17'
 ---
 
 # Introduction
-This pages walks you through using Ghidra to reverse engineer NES ROMs.
+![NES ROMs in Ghidra](https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b)
+This page walks you through using Ghidra to reverse engineer NES ROMs using the **Ghidra-Nes-Rom-Decompiler-Plugin**. This plugin currently only supports a handful of the most common mappers but it adds up to quite a large number of games supported.
 
 ## A Note on Mapper Support
-To reverse engineer a NES ROM with Ghidra you need the GhidraNES Plugin, but note that it only currently supports the following mappers:
-* Mapper 0 - NROM - [NES games using mapper 0](https://nesdir.github.io/mapper0.html) (245 games including worldwide variants)
-* Mapper 1 - MMC1 - [NES games using mapper 1](https://nesdir.github.io/mapper1.html) (673 games including worldwide variants)
-* Mapper 2 - UxROM [NES games using mapper 2](https://nesdir.github.io/mapper2.html) (265 games including worldwide variants)
-* Mapper 7 -  AxROM - [NES games using mapper 7](https://nesdir.github.io/mapper7.html) (76 games including worldwide variants)
-* Mapper 10 - MMC4 - [NES games using mapper 10](https://nesdir.github.io/mapper10.html) (3 games, all Japanese)
-* Mapper 19 - Namco 129/163  - [NES games using mapper 19](https://nesdir.github.io/mapper19.html) (20 games, all Japanese)
+To reverse engineer a NES ROM with Ghidra you need the GhidraNES Plugin, but note that it only currently supports the following mappers so far:
+* **Mapper 0 - NROM** - [NES games using mapper 0](https://nesdir.github.io/mapper0.html) (245 games including worldwide variants)
+* **Mapper 1 - MMC1** - [NES games using mapper 1](https://nesdir.github.io/mapper1.html) (673 games including worldwide variants)
+* **Mapper 2 - UxROM** [NES games using mapper 2](https://nesdir.github.io/mapper2.html) (265 games including worldwide variants)
+* **Mapper 7 -  AxROM** - [NES games using mapper 7](https://nesdir.github.io/mapper7.html) (76 games including worldwide variants)
+* **Mapper 10 - MMC4** - [NES games using mapper 10](https://nesdir.github.io/mapper10.html) (3 games, all Japanese)
+* **Mapper 19 - Namco 129/163**  - [NES games using mapper 19](https://nesdir.github.io/mapper19.html) (20 games, all Japanese)
 
 So make sure that your game is in one of those lists before continuing.
 
 ### What about the other mappers?
 So it might look like there is not much mapper support in the list above, but remember not all mappers have been used, and many just for a single game.
 
-It is unlikely your game will be Mapper 6,8,12,14,15,17,27-31,35-47,49-63, 74, 81, 83-84, 90-91, 98-104, 106-117, 120-139, 141-143, 145-151, 153, 155-157, 160-179, 181-183, 186-205, 208-209, 211-231, 233-255 as there was no official games released for them (pirate games and multi-carts only).
+It is unlikely your game will be using Mappers: `6,8,12,14,15,17,27-31,35-47,49-63, 74, 81, 83-84, 90-91, 98-104, 106-117, 120-139, 141-143, 145-151, 153, 155-157, 160-179, 181-183, 186-205, 208-209, 211-231, 233-255` as there was no official games released for them (pirate games and multi-carts only).
 
 Notes on a couple of other mappers:
-* Mapper 9 was just used for Punch-Out.
-* Mapper 11 was for unlicensed religious games by Color Dreams.
-* Mapper 13 was only used for Videomation (a paint program for NES)
-* Mapper 16, 18-19, 21-26, 32-33,48, 65, 67, 70, 72-73, 75-78, 80, 82, 85-89, 92-97, 140, 152, 154, 159, 180, 184-185, 207, 210 was only used for Japanese games
-* Mapper 20 was never actually used (intended for FDS games)
-* Mapper 34 was only used for 2 different games (Deadly Towers/Mashou and Impossible Mission-II)
-* Mapper 64 was used for 5 TENGEN games in the USA 
-* Mapper 66 (GxROM) was used for 11 unique games worldwide
-* Mapper 68 was used for 3 games (After Burner and 2 Japanese games)
-* Mapper 69 was used for 10 Sunsoft games
-* Mapper 71 was used for Camerica/Codemasters games
-* Mapper 79 was used for 15 American Video Entertainment games
-* Mapper 105 was only used for the Nintendo World Championships 1990 cart
-* Mapper 118 was used for 6 games worldwide
-* Mapper 119 was only used in 2 games (High-Speed and PinBot)
-* Mapper 144 was only used for Death race
-* Mapper 158 was only used for the TENGEN game **Alien Syndrome** 
-* Mapper 205 was used for 41 games and is similar to MMC3
-* Mapper 232 was used for 3 Quattro games by Camerica
+* **Mapper 9** was just used for Punch-Out.
+* **Mapper 11** was for unlicensed religious games by Color Dreams.
+* **Mapper 13** was only used for Videomation (a paint program for NES)
+* **Mappers** 16, 18-19, 21-26, 32-33,48, 65, 67, 70, 72-73, 75-78, 80, 82, 85-89, 92-97, 140, 152, 154, 159, 180, 184-185, 207, 210 was only used for Japanese games
+* **Mapper 20** was never actually used (intended for FDS games)
+* **Mapper 34** was only used for 2 different games (Deadly Towers/Mashou and Impossible Mission-II)
+* **Mapper 64** was used for 5 TENGEN games in the USA 
+* **Mapper 66 (GxROM)** was used for 11 unique games worldwide
+* **Mapper 68** was used for 3 games (After Burner and 2 Japanese games)
+* **Mapper 69** was used for 10 Sunsoft games
+* **Mapper 71** was used for Camerica/Codemasters games
+* **Mapper 79** was used for 15 American Video Entertainment games
+* **Mapper 105** was only used for the Nintendo World Championships 1990 cart
+* **Mapper 118** was used for 6 games worldwide
+* **Mapper 119** was only used in 2 games (High-Speed and PinBot)
+* **Mapper 144** was only used for Death race
+* **Mapper 158** was only used for the TENGEN game **Alien Syndrome** 
+* **Mapper 205** was used for 41 games and is similar to MMC3
+* **Mapper 232** was used for 3 Quattro games by Camerica
 
 So unless you are looking to reverse engineer Japanese, pirate or a few obscure games, the only mappers that need to be implemented to give access to the majority of the NES library are mappers 3-5 and maybe 205.
 
