@@ -16,7 +16,7 @@ updatedAt: '2024-08-17'
 
 # Introduction
 <section class="postSection">
-    <img data-image-full="[/public/images/engines/image.jpg](https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b)" class="lazy-load wow slideInLeft postImage" />
+    <img data-image-full="[https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
 This page walks you through using Ghidra to reverse engineer NES ROMs using the **Ghidra-Nes-Rom-Decompiler-Plugin**. This plugin currently only supports a handful of the most common mappers but it adds up to quite a large number of games supported.
