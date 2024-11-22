@@ -17,18 +17,46 @@
   {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt }} - RetroReversing, the home of retro game reverse engineering" />
   {% else %}
-  <meta name="description" content="RetroReversing, the home of retro game reverse engineering. Get resources, tutorials, and tools for analyzing video games and join the community today!" />
+    <meta name="description" content="RetroReversing, the home of retro game reverse engineering. Get resources, tutorials, and tools for analyzing video games and join the community today!" />
   {% endif %}
   <meta name="keywords" content="reverse engineering, reversing, resources, leaks, source code, decompile, {{ page.tags | join: ',' }}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   
 <!--  Open Graph  -->
-  {% if !page.title %}
+  {% if page.title %}
+    <meta name="twitter:title" content="{{page.title}}">
+    <meta name="og:title" content="{{page.title}}">
+  {% else %}
     <meta property="og:title" content="RetroReversing - The Home of Reverse Engineering Enthusiasts" />
     <meta property="og:image" content="https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png" />
     <!--   If it does have a title it will be handled in the post layout -->
   {% endif %}
+  
+  
+  {% if page.twitterimage %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{page.twitterimage}}">
+    <meta name="og:image" content="{{page.twitterimage}}">
+  {% else if page.image %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{page.image}}">
+    <meta name="og:image" content="{{page.image}}">
+  {% else %}
+    <meta name="twitter:image" content="https://www.retroreversing.com/{{page.thumbnail}}">
+  {% endif %}
+  
+  {% if page.description %}
+    <meta name="twitter:description" content="{{page.description}}">
+    <meta name="og:description" content="{{page.description}}">
+   {% else if page.excerpt %}
+    <meta name="twitter:description" content="{{page.excerpt}}">
+    <meta name="og:description" content="{{page.excerpt}}">
+  {% else %}
+    <meta name="twitter:description" content="Retro Reversing - Peek behind the curtain to see how your favourite video games were made.">
+  {% endif %}
+  
+  
   
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.retroreversing.com/" />
