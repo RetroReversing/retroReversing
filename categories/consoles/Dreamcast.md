@@ -44,11 +44,29 @@ The Dreamcast arguably had the best development kit that SEGA had ever sold for 
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
 
 ---
+# Game Software Development
+
+## Official Dreamcast Windows CE SDK
+{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For information about SEGA's Dreamcast Windows CE SDK check out this post." %}
+
+## GD Workshop
+{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about the Dreamcast GD Workshop check out this post." %}
+
+---
 # Games
+
+## Chicken Run
+The full source code for the Dreamcast port of **Chicken Run** was released and we have a seperate post covering the code:
+{% include link-to-other-post.html post="/Chicken-Run-Source-Code" description="For information about Chicken Run source code check out this post." %}
+
 
 ## Official Retail Dreamcast Game Source Code
 If you are interested to see officially released or leaked source code check for the Dreamcast check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+
+## Dreamcast games with Debug Symbols
+{% include link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="For a list of dreamcast games with debug symbols check out this post." %}
+
 
 ---
 # Reverse Engineering
