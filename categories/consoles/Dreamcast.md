@@ -44,9 +44,16 @@ The Dreamcast arguably had the best development kit that SEGA had ever sold for 
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
 
 ---
+# Games
+
+## Official Retail Dreamcast Game Source Code
+If you are interested to see officially released or leaked source code check for the Dreamcast check out our other post:
+{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+
+---
 # Reverse Engineering
 
-## Reverse Engineering Ecco the Dolphin
+## Reverse Engineering Ecco the Dolphin with Ghidra
 There is an excellent article by **Rings of Saturn** on reverse engineering Ecco the Dolphin for the Dreamcast, specifically how the cheat codes work via save names:
 [Under the microscope: Ecco the Dolphin — Defender of the Future](https://32bits.substack.com/p/under-the-microscope-ecco-the-dolphin)
 
