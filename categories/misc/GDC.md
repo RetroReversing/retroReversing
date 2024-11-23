@@ -154,6 +154,8 @@ For a review of what it was like to go to the 1992 CGDC check out Chris Crawford
 
 ---
 ## CGDC 1993
+![CGDC 1993 Proceedings Cover](https://github.com/user-attachments/assets/0cd0b132-5159-4583-b742-a68012ca5a44)
+
 Again hosted in Santa Clara California but this time reaching 900 attendees, the seventh CGDC was becoming incredibly well known within the industry.
 
 All the talks that were recorded by **The KNOW-IT-ALL Audiovisual Library** are listed in the table below [^8].
@@ -226,6 +228,7 @@ Potentially not officially recorded were the following talks:
 
 ---
 ## CGDC 1994
+
 Another hosted in Santa Clara California but this time reaching over the one thousand mark with 1250 attendees, it was the eighth CGDC.
 
 Google Books claims to have the proceesings of the Eighth Annual Computer Game Developers Conference Proceedings but it doesn't seem to be possible to read: [Eighth Annual Computer Game Developers Conference Proceedings: April 23 ... - Google Books](https://books.google.co.uk/books/about/Eighth_Annual_Computer_Game_Developers_C.html?id=YdcTAQAAIAAJ&redir_esc=y)
@@ -344,6 +347,8 @@ You can read Ross Erickson's review of this experience at CGDC 1994 in his artic
 
 ---
 ## CGDC 1995
+![CGDC 1995 Proceedings](https://github.com/user-attachments/assets/36230338-99ba-4a18-b285-38d9d6b33151)
+
 There were so many talks in CGDC 1995 year that the conference was split into a number of specialist "Tracks":
 * Audio
 * Business
@@ -487,6 +492,8 @@ This years show even had IBM trying to get people to write games for **OS/2** wi
 ---
 
 ## CGDC 1996
+![ CGDC 1996](https://github.com/user-attachments/assets/300ca4a6-6c79-40ff-88cb-cddd12f95665)
+
 This is the last year before it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4]. So this will be the last conference with a presentation by Chris Crawford.
 
 Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
