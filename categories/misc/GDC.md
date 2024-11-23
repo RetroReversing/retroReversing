@@ -23,7 +23,7 @@ twitterimage: https://github.com/user-attachments/assets/d3665255-3b43-4787-819f
 tags:
  - industry
 excerpt: Awesome list of Historic GDC Conferences including Audio and Video recordings
-updatedAt_: '2024-05-05'
+updatedAt: '2024-11-23'
 ---
 
 # GDC - Game Developer's Conference
