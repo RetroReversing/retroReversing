@@ -499,11 +499,12 @@ border-bottom-left-radius: 8px;
   }
 
   .rr-head-hero {
-    display:none;
+    display:none !important;
   }
 
   .rr-home-section .container {
     padding-left: 0px !important;
+    padding: 0px !important;
     margin-left: 0px !important;
     width: 100vw;
   }
