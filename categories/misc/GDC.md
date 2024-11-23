@@ -18,8 +18,8 @@ editlink: ../categories/misc/GDC.md
 recommend: 
  - industry
  - introduction
-image_: /public/images/categories/GDC.jpg
-twitterimage_: https://www.retroreversing.com/public/images/categories/GDC.jpg
+image: https://github.com/user-attachments/assets/d3665255-3b43-4787-819f-92a49fcd1030
+twitterimage: https://github.com/user-attachments/assets/d3665255-3b43-4787-819f-92a49fcd1030
 tags:
  - industry
 excerpt: Awesome list of Historic GDC Conferences including Audio and Video recordings
@@ -27,11 +27,21 @@ updatedAt_: '2024-05-05'
 ---
 
 # GDC - Game Developer's Conference
+<section class="postSection">
+    <img data-image-full="https://github.com/user-attachments/assets/d3665255-3b43-4787-819f-92a49fcd1030" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
+
 GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. 
+
+Originally it was called the  "Computer Game Developers Conference" but the Computer was dropped to focus on video games as a whole rather than just 'Computer Games".
 
 GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. 
 
 The event includes a wide range of sessions, panels, workshops, and networking opportunities.
+ </div>
+</section> 
+
 
 
 
