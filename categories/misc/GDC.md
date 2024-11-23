@@ -228,6 +228,7 @@ Potentially not officially recorded were the following talks:
 
 ---
 ## CGDC 1994
+![CGDC 1994 Proceedings](https://github.com/user-attachments/assets/36230338-99ba-4a18-b285-38d9d6b33151)
 
 Another hosted in Santa Clara California but this time reaching over the one thousand mark with 1250 attendees, it was the eighth CGDC.
 
@@ -240,7 +241,7 @@ A user over at archive.org managed to upload audio recordings of the 1994 confer
 There were at least 130 talks at CGDC 1994 that we know about, thanks to **The KNOW-IT-ALL Audiovisual Library** website, they are listed in the table below:
 
 Title | Presenter | Type | Notes
----|---|---
+---|---|---|---
 3DO, Cable, RBOCs: Who Wins? | Bob Alexander | Lecture | CGDC94-001
 Alternative Marketing Methods | Diana Gruber | Lecture | CGDC94-004
 Approaches to Funding Games | Steve Shannon | Lecture | CGDC94-005
@@ -347,7 +348,7 @@ You can read Ross Erickson's review of this experience at CGDC 1994 in his artic
 
 ---
 ## CGDC 1995
-![CGDC 1995 Proceedings](https://github.com/user-attachments/assets/36230338-99ba-4a18-b285-38d9d6b33151)
+![CGDC 1995](https://github.com/user-attachments/assets/300ca4a6-6c79-40ff-88cb-cddd12f95665)
 
 There were so many talks in CGDC 1995 year that the conference was split into a number of specialist "Tracks":
 * Audio
@@ -492,7 +493,7 @@ This years show even had IBM trying to get people to write games for **OS/2** wi
 ---
 
 ## CGDC 1996
-![ CGDC 1996](https://github.com/user-attachments/assets/300ca4a6-6c79-40ff-88cb-cddd12f95665)
+![CGDC 1996](https://github.com/user-attachments/assets/f171d6a3-2725-43c9-9840-8875ede96bda)
 
 This is the last year before it was sold to Miller Freeman for about 3 million dollars, now being run by a company many developers could feel the change in the conference becoming more corporate [^4]. So this will be the last conference with a presentation by Chris Crawford.
 
@@ -754,6 +755,8 @@ It mentioned they were in the beta program for 3D Studio 3.0 which allowed them 
 
 ---
 ## CGDC 1997 - April 25th-29th
+![CGDC 1997](https://github.com/user-attachments/assets/5842bfd7-c05a-47ac-a425-35037ff9de08)
+
 The 1997 Computer Game Developers Conference was hosted in the Santa Clara Conference Center in Washington, D.C. It was much larger in scope than the previous years and in fact took five days instead of the usual two.
 
 The first 2 days introducted two new sub-conferences:
@@ -762,7 +765,7 @@ The first 2 days introducted two new sub-conferences:
 
 The Classic CGDC Conference would then take the next three days (27th-29th).
 
-The overall attendees was estimated to be over **6,300** by the July 2997 issue of Next Generation Magazine.
+The overall attendees was estimated to be over **6,300** by the July 1997 issue of Next Generation Magazine.
 ![The CGDC hosted an all-day class on Friday April 25 on managing game development. The classic conference classes (April 25 to 29) covered everything from programming and production to business concerns and legal issues pertinent to the industry. Also, several roundtables focused on issues of game design and the future direction of gaming. Keynote speakers at the show included John Romero, Chris Roberts, and Nolan Bushnell.
 Intensive two-day tutorials focused on object-oriented game design, creating online games with lavg.
 Softimage development tools and techniques, and 3D Studio Max. One-day tutorials covered OpenGL, windows programming, Debabelizer, and modeling.](https://github.com/user-attachments/assets/c471536a-b80f-44de-ad23-e8707a67fef0)
@@ -1100,6 +1103,8 @@ There was even a session by **Apple** on using Quicktime for Windows Game Develo
 
 ---
 ## GDC 1998 - May 4th-8th
+![GDC 1998](https://github.com/user-attachments/assets/af8f7754-a880-4972-bb19-ea122bd464c1)
+
 The 1998 Computer Game Developers Conference was hosted in Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
 
 Playstation Underground had a brief 3 minute look at CGDC 1998, it interviews Jennifer Pahlka who was a female director of the GDC, you can watch on Youtube:
@@ -1201,6 +1206,8 @@ There is even a session this year on building games in Java, which was not seen 
 
 ---
 ## GDC 1999 - March 15th-19th
+![GDC 1999](https://github.com/user-attachments/assets/3d3b6bf1-44c6-4857-b0b0-36ed7d5a622d)
+
 The 1999 GDC had more than **9,500** attendees [^5] and had **Shigeru Miyamoto** as a keynote speaker along with other keynotes from Sega and Sony.
 
 GDC 1999 was split into six different tracks:
@@ -1316,6 +1323,8 @@ In this speech, Bernard Stolar, president and COO of Sega of America, addresses 
 
 ---
 ## GDC 2000 - March 8th-12th
+![GDC 2000](https://github.com/user-attachments/assets/c95f1f00-da6e-42e0-8b2c-529f2866efcb)
+
 The 2000 GDC ticked off on March 8th with the tagline "Take your place in game history", it was attended by ? games industry professionals. 
 
 There were so many talks that it was split into seven different tracks:
@@ -1466,7 +1475,9 @@ Note that although we don't have much details on the contents of each of the tal
 
 ---
 ## GDC 2001
-"Electric Playground" is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. 
+![GDC 2001](https://github.com/user-attachments/assets/aa852a36-1639-4d6a-834d-2f9c6b1f63b5)
+
+**Electric Playground** is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. 
 
 They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -1575,8 +1586,17 @@ If this session did take place, it is a great example of game developers reachin
 
 ---
 ## GDC 2002
+![Outside of GDC 2002](https://github.com/user-attachments/assets/46311f37-90c9-4e9d-9fea-7e47187b18c1)
+
 An American TV show called **Extended Play** had some brief coverage of GDC 2002 which is available to watch below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l6he8GFGPzU?si=7Rv0YPS3HLCz9xdl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+There is also coverage on the GameDev.net archive, which has everything from lectures to "booth babes": 
+[Inside the 2002 Game Developers Conference](http://archive.gamedev.net/archive/columns/events/gdc2002/index.html)
+
+There was a CD produced that had 65 papers and presentations from the 2002 Game Developers Conference on one CD-ROM.
+![GDC 2002 Proceedings](https://github.com/user-attachments/assets/542ff24b-93ad-4226-851b-1e71657a45ec)
+
 
 The sessions that we know about are listed in the table below:
 
