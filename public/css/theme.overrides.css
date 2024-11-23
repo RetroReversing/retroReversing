@@ -497,6 +497,17 @@ border-bottom-left-radius: 8px;
       margin-left: -20px;
     }
   }
+
+  .rr-head-hero {
+    display:none;
+  }
+
+  .rr-home-section .container {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    width: 100vw;
+  }
+  
   #follow-retro-reversing {
     margin-left: -25px;
     margin-right: -25px;
