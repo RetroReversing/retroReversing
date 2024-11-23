@@ -1758,6 +1758,7 @@ Why They Won't Let You Make Great Online Games | Baron |
 
 ---
 ## GDC 2003
+![GDC 2003](https://github.com/user-attachments/assets/b7a37493-bb7b-421c-8148-cd25111f7e7b)
 
 
 The sessions that we know about are listed in the table below:
@@ -2110,10 +2111,10 @@ We don't have the schedule for the DirectX sessions that were sponsored by a num
 Although there are no slides or videos available from this tutorial day, the exact same authors (Dustin Clingman, Shawn Kendall, Syrus Mesdaghi) wrote the book **Practical Java Game Development (Game Development Series)** which was published in 2004, so it is very likely that all the content used at this tutorial is available in the book.
 
 
-
-
 ---
 ## GDC 2005+
+![GDC 2005](https://github.com/user-attachments/assets/793d25a9-71b6-40e9-b91c-0111d27f98d9)
+
 GDC 2005 was the first to be hosted in San Francisco and brought in a record **12,000** attendees [^2].
 
 Thankfully all the sessions for 2005 and onwards seems to have audio recordings (and some videos!) freely available on the **GDC Vault**: [GDC Vault](https://gdcvault.com/browse/gdc-05/)
