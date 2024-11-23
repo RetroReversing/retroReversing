@@ -11,9 +11,6 @@ breadcrumbs:
     url: /conferences
   - name: Game Developers Conference
     url: /gdc
-redirect_from:
-  - /conference
-  - /conf
 editlink: ../categories/misc/GDC.md
 recommend: 
  - industry
@@ -34,7 +31,7 @@ updatedAt: '2024-11-23'
 
 GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. 
 
-Originally it was called the  "Computer Game Developers Conference" but the Computer was dropped to focus on video games as a whole rather than just 'Computer Games".
+Originally it was called the **Computer Game Developers Conference** but the Computer was dropped to focus on video games as a whole rather than just "Computer Games".
 
 GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. 
 
