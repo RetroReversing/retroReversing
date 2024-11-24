@@ -203,7 +203,7 @@ But they didn’t just create standalone subsets of Action Replay functionality 
 
 ## Dance Master
 In a similar vein comes Dance Master, which was basically just a Dance Mat accessory that can work with any PS2 dancing game, but unlike competitors Datel could include its own unlicensed “Dance Work Out Game” which must have given it an edge over other 3rd party Dance Mats.
-<img width="50%"  data-image-full="[https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg](https://user-images.githubusercontent.com/40120498/235313929-a0387bd2-3dc8-4706-8d2d-d1aeab141aca.jpeg)" alt="DanceMaster" class="lazy-load" />
+<img width="50%"  data-image-full="https://user-images.githubusercontent.com/40120498/235313961-0d197cb3-2d79-443b-82dc-7a0016e11f05.jpeg" alt="DanceMaster" class="lazy-load" />
 
 ## Eye Max
 Another is eyeMax which builds of the craze that was the eyeToy and turns it into a video messaging service where you can create short video content to share with friends or the “global community”. It could have been the TikTok of its day, just a shame it wasn’t very well known...
