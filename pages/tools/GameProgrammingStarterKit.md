@@ -72,7 +72,7 @@ Authored by **Namir Clement Shammas**, this edition introduces readers to C++ an
 
 It follows the "Teach Yourself in 21 Days" format, covering the complete Visual C++ environment and providing an overview of object-oriented programming
 
-it is unclear if this is the original version or 1.5, I can only find details of version 1.5 of the book online.
+This is the original Version 1.0 of the book, but I can only find details of version 1.5 of the book online, not even the cover is available.
 
 ---
 ## Version 2.0
@@ -87,7 +87,7 @@ The Third version was released in 1999 by Macmillan Digital Publishing and consi
 It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
 Genesis 3D did come with its own level editor which supported Direct3D and 3Dfx Glide drivers.
 
-This time it contained three ebooks on the Disks:
+This time it contained three ebooks on the CDs:
 * C++ Unleashed
 * Teach Yourself Visual C++ 6 in 21 Days
 * Using Visual C++ 6
