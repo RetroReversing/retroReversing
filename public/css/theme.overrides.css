@@ -504,6 +504,10 @@ border-bottom-left-radius: 8px;
     }
   }
 
+  .toolbar .toolbar-links {
+    min-width: 55px !important;
+  }
+
   .rr-head-hero-container {
    display:none !important;
   }
