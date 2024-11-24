@@ -3,6 +3,8 @@ permalink: /companies/datel/
 title: Datel
 layout: post
 console: datel
+image: https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461
+twitterimage: https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461
 breadcrumbs:
   - name: Home
     url: /
@@ -21,10 +23,18 @@ tags:
 - industry
 - datel
 editlink: ../categories/companies/datel.md
+updatedAt: '2024-11-24'
 ---
 
 # Introduction
+<section class="postSection">
+    <img data-image-full="https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461" class="lazy-load wow slideInLeft postImage" />
+
+ <div markdown="1" class="rr-post-markdown">
 Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. They are one of the few companies who know how to press disks that run on PS1, PS2 and GameCube without using an official disc pressing plant.
+ </div>
+</section> 
+
 
 This page is an extension of our post on twitter:
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">Let us take a moment to appreciate the work Datel did 20 years ago, reverse engineering and developing their own playable unofficial PS2 DVD discs which contained the watermark and decryption key required to boot code which could not be done with a consumer DVD burner. A 🧵… <a href="https://t.co/CP0NQORwwp">pic.twitter.com/CP0NQORwwp</a></p>&mdash; 🕹 RetroReversing - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1478163167335395331?ref_src=twsrc%5Etfw">January 4, 2022</a></blockquote>
