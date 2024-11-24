@@ -43,15 +43,15 @@ The Book is split into 21 Chapters, one for each of the days, you can see the ta
 
 | Day  | Description                                                                                       |
 |------|---------------------------------------------------------------------------------------------------|
-| Day 1  | Today you learn about all the components that make up a complete video game—and probably get a workout lifting this book! |
-| Day 2  | Today you see a complete game called Mech War and learn what went into making it.              |
-| Day 3  | Today you learn everything you ever wanted to know about the VGA card. You also learn about the 320x200 256-color mode. |
-| Day 4  | Today you learn about little elven creatures called sprites and how to force them to participate in your games. |
-| Day 5  | Today is a long one. The world of polygon-based graphics and all its related math is laid out in gruesome detail. |
-| Day 6  | Today you learn about advanced topics in bitmapped animation and graphics, and how a video-game display is rendered flicker-free! |
-| Day 7  | Today you learn how all the input devices, such as the keyboard, joystick, and mouse, really work. |
-| Day 8  | Today moves really fast because it’s about optimization techniques. So, put on some hard rock music and get moving. |
-| Day 9  | Today you’re introduced to computer sound and music. You learn how to play digitized FX with the Sound Blaster, and more. |
+| Day 01  | Today you learn about all the components that make up a complete video game—and probably get a workout lifting this book! |
+| Day 02  | Today you see a complete game called Mech War and learn what went into making it.              |
+| Day 03  | Today you learn everything you ever wanted to know about the VGA card. You also learn about the 320x200 256-color mode. |
+| Day 04  | Today you learn about little elven creatures called sprites and how to force them to participate in your games. |
+| Day 05  | Today is a long one. The world of polygon-based graphics and all its related math is laid out in gruesome detail. |
+| Day 06  | Today you learn about advanced topics in bitmapped animation and graphics, and how a video-game display is rendered flicker-free! |
+| Day 07  | Today you learn how all the input devices, such as the keyboard, joystick, and mouse, really work. |
+| Day 08  | Today moves really fast because it’s about optimization techniques. So, put on some hard rock music and get moving. |
+| Day 09  | Today you’re introduced to computer sound and music. You learn how to play digitized FX with the Sound Blaster, and more. |
 | Day 10 | Today you learn how to implement synthetic intelligence algorithms for video games.             |
 | Day 11 | Today the mystery behind interrupts, real-time programming, and multitasking are uncovered, and a complete multitasking kernel is presented for DOS. |
 | Day 12 | Today you learn about all the different ways the virtual game universe can be represented in the computer. |
