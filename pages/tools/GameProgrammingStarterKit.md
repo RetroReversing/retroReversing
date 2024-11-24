@@ -28,9 +28,51 @@ The Game Programming Starter Kit was software that was released in 6 different v
 
 ## Version 1.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit1.0.jpg" />
-The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. Not only that but it contained the full retail version of Microsoft Visual C++ 1.0 along with the eBook version of Teach Yourself Visual C++ in 21 Days. 
+The first version was released in 1994 by Andre LaMothe and published by Sams, it consisted of 2 CDs and a full 900 page physical copy of Teach Yourself Game Programming in 21 Days. 
+
+Not only that but it contained the full retail version of **Microsoft Visual C++ 1.0** along with the eBook version of Teach Yourself Visual C++ in 21 Days. 
 
 It also claims to have a full 2D DOS game engine on the CDs but we don't know much information about it.
+
+### The Book - Teach Yourself Visual C++ in 21 Days
+<img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/80ccdb08-f3c7-4c7d-bedd-c36675eb40bb" />
+
+**Teach Yourself Game Programming in 21 Days** is a comprehensive guide authored by **André LaMothe**, published in 1994. This book is designed to introduce readers to the fundamentals of game development, particularly within a DOS environment using the C programming language.
+
+The Book is split into 21 Chapters, one for each of the days, you can see the table of contents in the table below:
+
+| Day  | Description                                                                                       |
+|------|---------------------------------------------------------------------------------------------------|
+| Day 1  | Today you learn about all the components that make up a complete video game—and probably get a workout lifting this book! |
+| Day 2  | Today you see a complete game called Mech War and learn what went into making it.              |
+| Day 3  | Today you learn everything you ever wanted to know about the VGA card. You also learn about the 320x200 256-color mode. |
+| Day 4  | Today you learn about little elven creatures called sprites and how to force them to participate in your games. |
+| Day 5  | Today is a long one. The world of polygon-based graphics and all its related math is laid out in gruesome detail. |
+| Day 6  | Today you learn about advanced topics in bitmapped animation and graphics, and how a video-game display is rendered flicker-free! |
+| Day 7  | Today you learn how all the input devices, such as the keyboard, joystick, and mouse, really work. |
+| Day 8  | Today moves really fast because it’s about optimization techniques. So, put on some hard rock music and get moving. |
+| Day 9  | Today you’re introduced to computer sound and music. You learn how to play digitized FX with the Sound Blaster, and more. |
+| Day 10 | Today you learn how to implement synthetic intelligence algorithms for video games.             |
+| Day 11 | Today the mystery behind interrupts, real-time programming, and multitasking are uncovered, and a complete multitasking kernel is presented for DOS. |
+| Day 12 | Today you learn about all the different ways the virtual game universe can be represented in the computer. |
+| Day 13 | Today you learn about physics modeling, which is very useful when you try to simulate the motion and interactions between game objects. |
+| Day 14 | Today you see all the tools used by a video-game programmer, as well as some of the price tags for them! |
+| Day 15 | Today you learn gaming details, such as scoring, introductions, saving the game, and demo modes. |
+| Day 16 | Today things start getting fun. You get to play and analyze the first full game you make, called Sea Shark. |
+| Day 17 | Today you take a look at a more complex adventure game named Venture. It has scrolling, cool creatures, and a real plot! |
+| Day 18 | Today I hope you’re hungry because you play Sim-Pizza—a pizza delivery simulator—that teaches that crime doesn’t pay! |
+| Day 19 | Today the book changes gears and covers text-based games, and the basic parsing techniques and data structures used to create them. |
+| Day 20 | Today you learn about the world of 3-D games, ray casting, polygon engines, and voxel graphics.  |
+| Day 21 | Today it’s time to make some money. You learn how to market and distribute your games.           |
+
+
+
+### The eBook - Teach Yourself Visual C++ in 21 Days
+Authored by **Namir Clement Shammas**, this edition introduces readers to C++ and Windows application programming using Visual C++. 
+
+It follows the "Teach Yourself in 21 Days" format, covering the complete Visual C++ environment and providing an overview of object-oriented programming
+
+it is unclear if this is the original version or 1.5, I can only find details of version 1.5 of the book online.
 
 ---
 ## Version 2.0
