@@ -22,8 +22,12 @@ recommend:
  - sourcecode
 editlink: /leaks/Nintendo/FZero.md
 updatedAt: '2023-05-08'
-
 ---
+
+As part of the July 2020 Giga leak, the source code for the Super Nintendo game F-Zero was leaked, this post covers all the files related to F-Zero with a brief explanation of the purpose. If you know of any interesting finds from the **F-Zero** source code please get in touch!
+
+{% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+
 # Root directory (SFC.7z/ソースデータ/FZERO)
 When the Gigaleak SFC.7z archive (located inside Other.7z) is extracted it contains the source code for a bunch of Super Nintendo games, F-Zero is one of them, this post will cover evertthing in the **FZERO** directory from the extracted archive.
 
