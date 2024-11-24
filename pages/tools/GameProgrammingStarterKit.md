@@ -77,27 +77,35 @@ This is the original Version 1.0 of the book, but I can only find details of ver
 ---
 ## Version 2.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit2.0.jpg" />
+
 The Second version was released in 1997 by Macmillan Digital Publishing but I have never seen a copy to be able to detail what it contained and information online is severely lacking.
 
 ---
 ## Version 3.0
 <img class="lazy-load" data-image-full="https://github.com/user-attachments/assets/9954b0f1-fa55-40ad-bebc-ac88e09a5096">
+
 The Third version was released in 1999 by Macmillan Digital Publishing and consisted of 3 CDs and the full physical copy of **Game Design Secrets of the Sages**! 
 
 It also includes the DirectX 6.1 SDK and an SDK called **Genesis 3D** but only included the Introductory Edition of Visual C++ 6.0. 
 Genesis 3D did come with its own level editor which supported Direct3D and 3Dfx Glide drivers.
 
 This time it contained three ebooks on the CDs:
-* C++ Unleashed
-* Teach Yourself Visual C++ 6 in 21 Days
-* Using Visual C++ 6
+* **C++ Unleashed**
+* **Teach Yourself Visual C++ 6 in 21 Days** - Davis Chapman
+* **Using Visual C++ 6** (Special Edition) - Kate Gregory
 
 ### The CDs
 <img alt="Disk1" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/5f4723fb-cdc8-48ac-915a-a6a0d178208a">
 
+The first CD contains **Genesis3D** along with the 3 ebooks.
+
 <img alt="Disk2" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/cd684d17-8f15-42a7-b7ac-d002d5378e3a">
 
+The Second CD contains **Introductory Edition of Visual C++ 6.0**.
+
 <img alt="Disk3" class="lazy-load" data-image-full="https://github.com/user-attachments/assets/c973474a-87c0-4980-b81f-b0ec516f3aac">
+
+The third CD contains **DirectX 6.1 SDK**.
 
 You can download the contents of the three CDs on [Archive.org](https://archive.org/details/game-programming-starter-kit-3.0/Game%20Programming%20Starter%20Kit%203.0_back.jpg)
 
@@ -109,8 +117,8 @@ The Fourth version was released in 2000 by **Macmillan Software** and only consi
 On those 2 CDs was the same Introductory Edition of Visual C++ 6.0 as the previous version and version 3.1 of the Genesis 3D SDK. The DirectX SDK was updated to version 7.0 and it came with a new 3D animation tool called **Shadow Realm Model Animator**.
 
 This time it only contained two ebooks but they were arguably better for game development as it now includes DirectX:
-* Teach Yourself Visual C++ 6 in 21 Days
-* Teach Yourself DirectX 7 in 24 Hours
+* **Teach Yourself Visual C++ 6 in 21 Days**
+* **Teach Yourself DirectX 7 in 24 Hours**
 
 
 The physical book that was included this time was the **Second** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman** which is a really interesting book published by **BradyGames**.
@@ -119,13 +127,13 @@ The physical book that was included this time was the **Second** Edition of **Ga
 ## Version 5.0
 <img class="lazy-load" data-image-full="/public/images/books/GameProgrammingStarterKit5.0.jpg" />
 The Fifth version was released in 2001 by **Pearson Software** and thanks to someone scanning and uploading the User Manual for version 5.0 we know what was on the three CDs [^2]:
-* Microsoft Visual C++ Introductory Edition 6
-* Microsoft DirectX 8 SDK
+* **Microsoft Visual C++ Introductory Edition 6**
+* **Microsoft DirectX 8 SDK**
 * **3D GameStudio Standard** version 5.12 [^1]
 
 
 We know that one of the eBooks included on the CDs was:
-* Tricks of the Windows Game Programming Gurus
+* **Tricks of the Windows Game Programming Gurus**
 
 We do know however that the physical book that was included this time was the **Third** Edition of **Game Design Secrets of the Sages** by **Marc Saltzman**. 
 This books seems to be rather rare as I have never seen it for sale outside of this bundle.
