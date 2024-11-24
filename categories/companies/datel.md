@@ -31,7 +31,11 @@ updatedAt: '2024-11-24'
     <img data-image-full="https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461" class="lazy-load wow slideInLeft postImage" />
 
  <div markdown="1" class="rr-post-markdown">
-Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. They are one of the few companies who know how to press disks that run on PS1, PS2 and GameCube without using an official disc pressing plant.
+  Datel Design & Development Ltd., commonly known as Datel, was founded in 1980. 
+   
+   They are known for producing unlicenced video game peripherals, cheat devices, homebrew enablers and other gaming accessories much to the annoyance of console manufacturers. 
+   
+   They are one of the few companies who know how to press disks that run on PS1, PS2 and GameCube without using an official disc pressing plant.
  </div>
 </section> 
 
