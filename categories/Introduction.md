@@ -616,6 +616,13 @@ _start:
     syscall                  ; invoke system call
 ```
 
+## Finding Common Functions
+When reverse engineering an executable, identifying common library functions can significantly simplify the analysis by allowing you to focus on application-specific code.
+
+Here are some resources:
+* FLIRT (Fast Library Identification and Recognition Technology) - [FLIRT | Hex-Rays Docs](https://docs.hex-rays.com/user-guide/signatures/flirt)
+* [Is Function Similarity Over-Engineered? Building a Benchmark](https://arxiv.org/abs/2410.22677)
+
 ---
 ## Random Number Generation (RNG)
 While a CPU diligently follows every instruction it receives, this unwavering predictability presents a challenge for game developers. Players crave the excitement of unpredictability to make each gaming experience unique. So, how can a CPU introduce randomness into the game world?
