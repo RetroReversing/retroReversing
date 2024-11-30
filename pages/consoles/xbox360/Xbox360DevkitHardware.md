@@ -117,11 +117,12 @@ This was the standard Xbox 360 Development kit and was available with either a X
 Announced at the Game Developers Conference from 2009 the XNA "tribal" blue version is probably the most attractive of all the development kits, equipped with double the RAM of the standard XDK (from 512MB to 1GB) it even has a custom blue ring on the power button:
 * RAM: 1GB
 * Sidecar color: Chrome Blue
+* Ring Glow color: Blue
+
 ![Jasper XNA](https://github.com/user-attachments/assets/7fcd1df3-72f5-49c2-995c-90b236451a1a)
 ![Jasper Back](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
 
-The first variant of these kits are known as the Expo edition and contail the XNA Logo on the faceplate (under the power button):
-![XNA Faceplate](https://github.com/user-attachments/assets/4026ac0f-24d3-4c70-ac25-f73ac650c6ca)
+The first variant of these kits are known as the **Expo** edition and contail the XNA Logo on the faceplate (under the power button).
 
 
 Video of it in action:
@@ -160,11 +161,15 @@ The test kits can be distinguised from the development kits by their color, they
 ![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
 
 ## XNA Tribal Test Kit
-The green version of the XNA Tribal Development Kit is a Test Kit, apparently the ring glows green instead of orange but this is unconfirmed.
+The green version of the XNA Tribal Development Kit is a Test Kit, the ring glows green instead of orange.
 * RAM: 1GB [^8]
 * Sidecar color: Chrome Green
-* Console color: dark purple
+* Console color: Dark Purple
+* Ring Glow color: Green
 ![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
+
+The first variant of these kits are known as the **Expo** edition and contail the XNA Logo on the faceplate (under the power button):
+![XNA Faceplate](https://github.com/user-attachments/assets/4026ac0f-24d3-4c70-ac25-f73ac650c6ca)
 
 ---
 # Stress Kits
