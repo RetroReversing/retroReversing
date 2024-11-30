@@ -96,11 +96,11 @@ The second Beta version was very similar to the first however it has the huge ad
 ---
 # Final XDK Development Kits
 
-There were multiple motherboard variations of the final development kits:
-* Xenon (2005) - First 360 motherboard [^6]
+There were multiple motherboard variations of the final development kits, to match the retail Xbox 360 which had the same motherboards:
+* Xenon (2005) - First 360 motherboard, similar to the XeDK Alpha and Beta [^6]
 * Zephyr(2007) - Introduced with the Xbox 360 Elite [^6]
-* Jasper (2010)
-* Tonasket
+* Jasper (late 2008)
+* Tonasket (late 2009) - Final Motherboard also known as Kronos [^7]
 
 ## Xenon (2005)
 ![Xenon](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
@@ -139,3 +139,4 @@ The Test Kits are green rather than blue.
 [^4]: [Even Microsoft wants G5s – Eclecticism](https://michaelhans.com/eclecticism/2003/10/23/even-microsoft-wants-g5s/)
 [^5]: [Development Kit - XenonLibrary](https://xenonlibrary.com/wiki/Development_Kit)
 [^6]: [Xbox 360 Revisions - ivc wiki](https://beta.ivc.no/wiki/index.php/Xbox_360_Revisions)
+[^7]: [Tonasket - XenonLibrary](https://xenonlibrary.com/wiki/Tonasket)
