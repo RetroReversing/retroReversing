@@ -94,7 +94,14 @@ The second Beta version was very similar to the first however it has the huge ad
 ---
 # Final XeDK Development Kits
 
+There were multiple motherboard variations of the final development kits:
+* Xenon
+* Zephyr
+* Jasper (2010)
+* Tonasket
 
+## Xenon
+![Xenon](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
 
 
 ## Jasper (2010)
