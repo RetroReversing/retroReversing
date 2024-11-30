@@ -132,7 +132,15 @@ The Sidecar for the Xbox 360 S Development kit is optional, and when not present
 ![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
 
 ## With Sidecar
+With the sidecar it became a full development kit:
 ![Xbox 360 S Development Kit With Sidecar](https://github.com/user-attachments/assets/7206f1e4-9235-4981-853d-b2b0f4360544)
+
+## Sidecar
+Here are photos of the Sidecar on its own:
+![Slim Sidecar](https://github.com/user-attachments/assets/f6062f8c-8c14-45d0-afea-9cf078aaafb2)
+
+![Slim Sidecar bottom](https://github.com/user-attachments/assets/a7ae873b-0bba-41e2-b13a-636faeb2643c)
+
 
 
 ---
