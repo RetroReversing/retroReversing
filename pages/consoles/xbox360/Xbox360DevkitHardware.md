@@ -108,7 +108,13 @@ There were multiple motherboard variations of the final development kits, to mat
 
 ## Jasper (2010)
 ![Jasper](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
+
+### XNA Blue
 ![Jasper XNA](https://github.com/user-attachments/assets/7fcd1df3-72f5-49c2-995c-90b236451a1a)
+
+
+### Grey (No XNA)
+![Jasper Grey](https://github.com/user-attachments/assets/739015ee-dd51-4ef4-8e61-f3a8ec0f1be5)
 
 
 ---
