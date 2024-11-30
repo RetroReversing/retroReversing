@@ -108,6 +108,7 @@ There were multiple motherboard variations of the final development kits, to mat
 This was the standard Xbox 360 Development kit and was available with either a Xenon, Zephyr, or Jasper Motherboard. 
 * RAM: 512MB
 * PSU: 213W
+* Years produced: 2007 (+others?)
 
 ![Jasper Grey](https://github.com/user-attachments/assets/739015ee-dd51-4ef4-8e61-f3a8ec0f1be5)
 
