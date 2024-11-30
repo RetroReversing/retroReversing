@@ -108,6 +108,7 @@ There were multiple motherboard variations of the final development kits, to mat
 This was the standard Xbox 360 Development kit and was available with either a Xenon, Zephyr, or Jasper Motherboard. 
 * RAM: 512MB
 * PSU: 213W
+* Sidecar color: Grey
 * Years produced: 2007 (+others?)
 
 ![Jasper Grey](https://github.com/user-attachments/assets/739015ee-dd51-4ef4-8e61-f3a8ec0f1be5)
@@ -121,6 +122,7 @@ Announced at the Game Developers Conference from 2009 the XNA "tribal" blue vers
 * RAM: 1GB
 * Sidecar color: Chrome Blue
 * Ring Glow color: Blue
+* Years produced: 2010 (XNA variant 1)
 
 ![Jasper XNA](https://github.com/user-attachments/assets/7fcd1df3-72f5-49c2-995c-90b236451a1a)
 ![Jasper Back](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
@@ -168,7 +170,7 @@ The test kits can be distinguised from the development kits by their color, they
 
 
 ## XNA Tribal Test Kit
-The green version of the XNA Tribal Development Kit is a Test Kit, the ring glows green instead of orange and it doesn't contain the PIX port at all.
+The green version of the XNA Tribal Development Kit is a Test Kit, the ring glows green instead of the develompent blue and it doesn't contain the PIX port at all.
 * RAM: 1GB [^8]
 * Sidecar color: Chrome Green
 * Console color: Dark Purple
@@ -189,7 +191,7 @@ This Test kit doesn't contain the XNA Tribal branding and the sidecar is just pl
 ![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
 
 ---
-# Stress Kits (SSKs)
+# Stress Kits
 Xbox 360 Stress Kits were used to test the hardware under stress, changing voltage, temperature and other factors to see how well the hardware would perform. Note that Stress kits can be prototype. But, not all stress kits are prototypes! [^10].
 
 ## Zephyr Stress Kit
@@ -200,6 +202,8 @@ Thanks to **ICollectBro** on Reddit we have an image of what the Zephyr stress k
 In the video below **XboxSurgeon** shows off a prototype version of the slim Xbox 360 stress testing console, including a prototype hard drive:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DSSqRckYPPU?si=rCUxqqBbRYerj9Kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Sentinel Stress kits (SSKs)
+SSK or Sentinel Stress kits are used for XGD2 (Xbox Game Disc 2) Testing.
 
 
 ---
