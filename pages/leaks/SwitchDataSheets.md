@@ -46,7 +46,7 @@ This folder contains two sub-folders, one for each console:
 # Lotus3 (Switch Gamecard Interface) (/Lotus3)
 The **Lotus3** folder contains hardware specifications for the chips that allow the Switch to read their custom Game Card format.
 
-The Bridge Application Specific Integrated Circuit (ASIC) is the hardware inside the switch console that reads the Game Card, so you can think of it as a bridge between the console and the game. It has been designed by the combination of MegaChips Corporation and Macronix International.
+The **Bridge Application Specific Integrated Circuit (ASIC)** is the hardware inside the switch console that reads the Game Card, so you can think of it as a bridge between the console and the game. It has been designed by the combination of MegaChips Corporation and Macronix International.
 
 The ASIC has two interfaces the eMMC interface for connecting to the console and the Nintendo Game Memory Interface connects to the Card.
 
@@ -77,11 +77,15 @@ The GC folder contains specifications for each of the different Manufacturers of
 * **MXIC** - Macronix make 8/16/32/64/128/256 GB Game Cards
 
 ## Lapis Game Cards (/GC/Lapis)
-The **Lapis** folder just contains two specifications for the Game Cards manufactured by the Lapis company:
+![Lapis](https://github.com/user-attachments/assets/b243054d-30ad-4e7e-a88d-2b2317ac2c7f)
+
+The **Lapis** folder just contains two specifications for the Game Cards manufactured by the Lapis company, they seem to only make the smaller sized cards up to 4GB:
 * **16GB_ROM.pdf** - Specification of the 16GB (MR20RG4410E) from January 15th 2016
 * **4GB_ROM.pdf** - Specification of the 4GB (MR20RG2410D) from January 15th 2016
 
 ## Macronix Game Cards (/GC/MXIC)
+![Macronix](https://github.com/user-attachments/assets/1f257663-e237-4d60-901c-8e0a3a2e837e)
+
 The **MXIC** folder contains specifications for the Game Cards developed by Macronix. There are two sub-folders **ES** and **CS**, the ES folder contains the same specifications but from an earlier date. The CS folder is the more up-to-date information and also has additional card types.
 
 Each of the documents is available in both PDF and GNU Privacy Guard (GPG) format. You can ignore the GPG files as the PDFs are un-encrypted.
