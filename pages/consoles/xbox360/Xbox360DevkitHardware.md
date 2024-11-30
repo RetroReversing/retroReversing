@@ -157,19 +157,26 @@ The test kits can be distinguised from the development kits by their color, they
 ![Standard Test Kit Front](https://github.com/user-attachments/assets/a0352aff-f96d-47fd-b898-5e1976b41eb9)
 
 
-## Microsoft Xbox 360 XNA Final Test Kit Prototype
-![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
-
 ## XNA Tribal Test Kit
-The green version of the XNA Tribal Development Kit is a Test Kit, the ring glows green instead of orange.
+The green version of the XNA Tribal Development Kit is a Test Kit, the ring glows green instead of orange and it doesn't contain the PIX port at all.
 * RAM: 1GB [^8]
 * Sidecar color: Chrome Green
 * Console color: Dark Purple
 * Ring Glow color: Green
+
 ![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
 
 The first variant of these kits are known as the **Expo** edition and contail the XNA Logo on the faceplate (under the power button):
 ![XNA Faceplate](https://github.com/user-attachments/assets/4026ac0f-24d3-4c70-ac25-f73ac650c6ca)
+
+## Microsoft Xbox 360 XNA Final Test Kit
+This Test kit doesn't contain the XNA Tribal branding and the sidecar is just plain chrome green.
+* RAM: 1GB [^8]
+* Sidecar color: Chrome Green
+* Console color: Dark Purple
+* Ring Glow color: Green
+
+![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
 
 ---
 # Stress Kits
