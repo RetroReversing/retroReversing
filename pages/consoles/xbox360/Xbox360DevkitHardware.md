@@ -38,7 +38,7 @@ The image on the left shows a rather large delivery of PowerMac G5s that was del
 
 But why would Microsoft buy so many of their competitors flagship product? Well to turn them into Xbox 360 development kits of course!
 
-The Powermac G5 was an ideal candidate for an early Xbox 360 development kit as it uses the same PowerPC chip destined for the Xbox 360, when fitted with the **ATI Radeon 9800 Pro** (128MB) graphics card it turned it from a Mac into a **Xbox 360 Alpha 1 XeDK**.
+The Powermac G5 was an ideal candidate for an early Xbox 360 development kit as it uses the same PowerPC chip destined for the Xbox 360, when fitted with the **ATI Radeon 9800 Pro** (ATI R300 [^10]) (128MB) graphics card it turned it from a Mac into a **Xbox 360 Alpha 1 XeDK**.
 
 These were used by only the earliest of 360 game developers and were used between October 2003 and some time in Autumn 2004 [^2].
 
@@ -58,6 +58,8 @@ The CPU for this unit was only dual core 2GHz compared to the retail units three
 
 These were used at E3 2005 to showcase the upcoming Xbox 360 games [^1].
 
+The difference between Alpha 1 and 2 is that Microsoft upgraded the graphics card from ATI R300 to ATI R420 [^10].
+
 One very interesting fact about this unit is that it came with an early build of the Fusion Emulator which played original Xbox games on the 360!
  </div>
 </section> 
@@ -70,7 +72,7 @@ Sometime during late 2004 and early 2005 Microsoft started sending out the Beta 
 
 Note that the labels Beta 1 and Beta 2 were given by the community and not their official titles inside Microsoft.
 
-## Xbox 360 XeDK Beta 1
+## Xbox 360 XeDK Beta 1 (X801054)
 
 <section class="postSection">
     <img src="/public/images/xbox360/Xbox 360 XeDK Beta 1.jpg" class="wow slideInLeft postImage" />
@@ -80,11 +82,11 @@ The first Beta development kit wasn't shipped for very long before it got replac
 
 The development hardware board in the first Beta is called the **Titan Kernel debugging board** and it comes with **Krypton** prototype controllers [^2].
 
-One major difference between this one and version 2 is that it can only play XEX1 format executables and thus is very limited in what it can play as most 360 games and application are in XEX2 format [^2].
+One major difference between this one and version 2 is that it can only play **XEX1** format executables and thus is very limited in what it can play as most 360 games and application are in XEX2 format [^2].
  </div>
 </section> 
 
-## Xbox 360 XeDK Beta 2
+## Xbox 360 XeDK Beta 2 (X803600)
 <section class="postSection">
     <img src="/public/images/xbox360/Xbox 360 XeDK Beta 2.jpg" class="wow slideInLeft postImage" />
 
@@ -187,7 +189,7 @@ This Test kit doesn't contain the XNA Tribal branding and the sidecar is just pl
 
 ---
 # Stress Kits (SSKs)
-Xbox 360 Stress Kits were used to test the hardware under stress, changing voltage, temperature and other factors to see how well the hardware would perform.
+Xbox 360 Stress Kits were used to test the hardware under stress, changing voltage, temperature and other factors to see how well the hardware would perform. Note that Stress kits can be prototype. But, not all stress kits are prototypes! [^10].
 
 ## Zephyr Stress Kit
 Thanks to **ICollectBro** on Reddit we have an image of what the Zephyr stress kit looks like:
@@ -210,3 +212,4 @@ In the video below **XboxSurgeon** shows off a prototype version of the slim Xbo
 [^7]: [Tonasket - XenonLibrary](https://xenonlibrary.com/wiki/Tonasket)
 [^8]: [Test Kit - XenonLibrary](https://xenonlibrary.com/wiki/Test_Kit)
 [^9]: [EBAY Deal Xbox 360 Slim XDK - YouTube](https://www.youtube.com/watch?v=uZvMXw1_Opk)
+[^10]: [Brief Phat XDK History - ASSEMbler - Home of the obscure](https://web.archive.org/web/20190407213904/http://assemblergames.com/threads/brief-phat-xdk-history.66728/)
