@@ -154,7 +154,8 @@ The test kits can be distinguised from the development kits by their color, they
 ## Microsoft Xbox 360 XNA Final Test Kit Prototype
 ![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
 
-## XNA Tribal Test Kit (2005)
+## XNA Tribal Test Kit
+The green version of the XNA Tribal Development Kit is a Test Kit, apparently the ring glows green instead of orange but this is unconfirmed.
 ![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
 
 ---
