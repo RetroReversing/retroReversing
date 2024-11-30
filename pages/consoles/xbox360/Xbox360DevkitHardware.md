@@ -102,6 +102,14 @@ There were multiple motherboard variations of the final development kits, to mat
 * Jasper (late 2008)
 * Tonasket (late 2009) - Final Motherboard also known as Kronos [^7]
 
+## Standard Grey (No XNA branding)
+This was the standard Xbox 360 Development kit and was available with either a Xenon, Zephyr, or Jasper Motherboard. 
+RAM: 512MB
+PSU: 213W
+
+![Jasper Grey](https://github.com/user-attachments/assets/739015ee-dd51-4ef4-8e61-f3a8ec0f1be5)
+
+
 ## Xenon (2005)
 ![Xenon](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
 
@@ -113,8 +121,6 @@ There were multiple motherboard variations of the final development kits, to mat
 ![Jasper XNA](https://github.com/user-attachments/assets/7fcd1df3-72f5-49c2-995c-90b236451a1a)
 
 
-### Grey (No XNA)
-![Jasper Grey](https://github.com/user-attachments/assets/739015ee-dd51-4ef4-8e61-f3a8ec0f1be5)
 
 
 ---
