@@ -134,6 +134,7 @@ Video of it in action:
 # Xbox 360 Slim Development Kit
 
 The Sidecar for the Xbox 360 S Development kit is optional, and when not present it is a Test Kit instead [^5], which is an efficient way to produce both test and development kits, and allows game studios to upgrade test kits when needed.
+Some units are dated from 2011.
 
 ![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
 
@@ -208,3 +209,4 @@ In the video below **XboxSurgeon** shows off a prototype version of the slim Xbo
 [^6]: [Xbox 360 Revisions - ivc wiki](https://beta.ivc.no/wiki/index.php/Xbox_360_Revisions)
 [^7]: [Tonasket - XenonLibrary](https://xenonlibrary.com/wiki/Tonasket)
 [^8]: [Test Kit - XenonLibrary](https://xenonlibrary.com/wiki/Test_Kit)
+[^9]: [EBAY Deal Xbox 360 Slim XDK - YouTube](https://www.youtube.com/watch?v=uZvMXw1_Opk)
