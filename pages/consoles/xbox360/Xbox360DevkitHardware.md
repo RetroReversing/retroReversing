@@ -151,6 +151,8 @@ The Test Kits are green rather than blue.
 The test kits can be distinguised from the development kits by their color, they are white and the PIX port is covered (since it is used for debugging).
 ![Standard Test Kit](https://github.com/user-attachments/assets/cdc1b463-415c-48bc-aaf7-c755812f8cc3)
 
+![Standard Test Kit Front](https://github.com/user-attachments/assets/a0352aff-f96d-47fd-b898-5e1976b41eb9)
+
 
 ## Microsoft Xbox 360 XNA Final Test Kit Prototype
 ![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
