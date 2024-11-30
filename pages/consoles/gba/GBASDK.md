@@ -39,7 +39,7 @@ This was distributed to developers as a windows installer called **AGBSetup.exe*
 ## Japanese SDK
 As Nintendo is a Japanese company the SDK was originally created in Japanese and localised to English, however there are a few differences between the development kits.
 
-The Japanese version include the **Mobile System GB** SDK which was a Japanese only accessory to link gameboys together via a mobile phone interface.
+The Japanese version also includes the **Mobile System GB** SDK which was a Japanese only accessory to link gameboys together via a mobile phone interface.
 
 ---
 # Tools (/bin folder)
