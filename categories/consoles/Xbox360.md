@@ -48,6 +48,16 @@ The Xbox 360 development hardware is particularly intriguing for those intereste
 
 {% include link-to-other-post.html post="/microsoft-xbox-360-development-kit/" description="For information about Microsoft's Xbox development hardware check out this post." %}
 
+## Piracy Hardware
+
+### Xecuter Blaster 360
+The Xecuter Blaster 360 was a permanent install that allows you to flash your drive freely as many times as you need. It had an external switching device when, once fitted, allows you to flash your DVD Firmware without ever having to open up your Xbox 360 case ever again.
+
+![CK3](https://github.com/user-attachments/assets/498cffe1-1467-4ee1-9656-d117e33dfe90)
+![image](https://github.com/user-attachments/assets/ad9b08a0-b7a0-45a8-b465-9b136fb4578e)
+
+
+
 ---
 # All Posts
 <div>
