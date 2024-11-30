@@ -111,6 +111,7 @@ This was the standard Xbox 360 Development kit and was available with either a X
 
 ![Grey Ports on Back](https://github.com/user-attachments/assets/2a47f746-70d8-40b0-83ef-056930276543)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/teXPRJhOD74?si=zElq37Wqk5Pz32uj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Xenon (2005)
 ![Xenon](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
