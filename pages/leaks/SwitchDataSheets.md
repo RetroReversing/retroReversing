@@ -44,6 +44,8 @@ This folder contains two sub-folders, one for each console:
 * **GC** - Gamecube Datasheets
 
 # Lotus3 (Switch Gamecard Interface) (/Lotus3)
+![Cartridge Board](https://github.com/user-attachments/assets/ebf81d89-2d49-408d-bf8a-050298ce8d6c)
+
 The **Lotus3** folder contains hardware specifications for the chips that allow the Switch to read their custom Game Card format.
 
 The **Bridge Application Specific Integrated Circuit (ASIC)** is the hardware inside the switch console that reads the Game Card, so you can think of it as a bridge between the console and the game. It has been designed by the combination of MegaChips Corporation and Macronix International.
