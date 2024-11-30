@@ -156,6 +156,9 @@ The test kits can be distinguised from the development kits by their color, they
 
 ## XNA Tribal Test Kit
 The green version of the XNA Tribal Development Kit is a Test Kit, apparently the ring glows green instead of orange but this is unconfirmed.
+* RAM: 1GB [^8]
+* Sidecar color: Chrome Green
+* Console color: dark purple
 ![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
 
 ---
@@ -177,3 +180,4 @@ Thanks to **ICollectBro** on Reddit we have an image of what the Zephyr stress k
 [^5]: [Development Kit - XenonLibrary](https://xenonlibrary.com/wiki/Development_Kit)
 [^6]: [Xbox 360 Revisions - ivc wiki](https://beta.ivc.no/wiki/index.php/Xbox_360_Revisions)
 [^7]: [Tonasket - XenonLibrary](https://xenonlibrary.com/wiki/Tonasket)
+[^8]: [Test Kit - XenonLibrary](https://xenonlibrary.com/wiki/Test_Kit)
