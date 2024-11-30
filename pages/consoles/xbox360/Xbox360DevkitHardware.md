@@ -125,7 +125,7 @@ Video of it in action:
 
 
 ---
-# Xbox 360 S Development Kit
+# Xbox 360 Slim Development Kit
 
 The Sidecar for the Xbox 360 S Development kit is optional, and when not present it is a Test Kit instead [^5], which is an efficient way to produce both test and development kits, and allows game studios to upgrade test kits when needed.
 ![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
@@ -133,7 +133,6 @@ The Sidecar for the Xbox 360 S Development kit is optional, and when not present
 ## With Sidecar
 With the sidecar it became a full development kit:
 ![Xbox 360 S Development Kit With Sidecar](https://github.com/user-attachments/assets/7206f1e4-9235-4981-853d-b2b0f4360544)
-![White Model](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
 
 ## Sidecar
 Here are photos of the Sidecar on its own:
