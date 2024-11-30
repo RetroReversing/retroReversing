@@ -91,6 +91,15 @@ The second Beta version was very similar to the first however it has the huge ad
  </div>
 </section> 
 
+---
+# Final XeDK Development Kits
+
+![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
+
+
+## Jasper (2010)
+![Jasper](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
+
 
 ---
 # Test Kits
