@@ -129,6 +129,14 @@ The Test Kits are green rather than blue.
 ## XNA Tribal Test Kit (2005)
 ![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
 
+---
+# Stress Kits
+Xbox 360 Stress Kits were used to test the hardware under stress, changing voltage, temperature and other factors to see how well the hardware would perform.
+
+## Zephyr Stress Kit
+Thanks to **ICollectBro** on Reddit we have an image of what the Zephyr stress kit looks like:
+![Zephyr Stress Kit](https://github.com/user-attachments/assets/4c571354-2471-438d-8df3-9a438a7f47b6)
+
 
 
 ---
