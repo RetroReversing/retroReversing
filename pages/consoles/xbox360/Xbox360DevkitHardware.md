@@ -27,6 +27,8 @@ updatedAt: '2022-01-14'
 # Xbox 360 Alpha Development Kits
 The first development kits for the 360 available were created before the final Xbox retail hardware had been finalised as as such it has a few differences and is considerably weaker than what became the retail unit. There were two Alpha development kits before they moved on to the Beta versions.
 
+XeDK stands for Xenon Development Kit since Xenon was the name of the first Xbox 360 Motherboard.
+
 ## Xbox 360 Alpha 1 XeDK
 <section class="postSection">
     <img src="/public/images/xbox360/Michael Hanscom-Xbox360-devkits.jpg" class="wow slideInLeft postImage" />
@@ -92,15 +94,15 @@ The second Beta version was very similar to the first however it has the huge ad
 </section> 
 
 ---
-# Final XeDK Development Kits
+# Final XDK Development Kits
 
 There were multiple motherboard variations of the final development kits:
-* Xenon
+* Xenon (2005)
 * Zephyr
 * Jasper (2010)
 * Tonasket
 
-## Xenon
+## Xenon (2005)
 ![Xenon](https://github.com/user-attachments/assets/9be5b871-2a8a-47f5-9e13-33de5e4b74fd)
 
 
