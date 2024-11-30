@@ -91,6 +91,19 @@ The second Beta version was very similar to the first however it has the huge ad
  </div>
 </section> 
 
+
+---
+# Test Kits
+The Test Kits are green rather than blue.
+
+## Microsoft Xbox 360 XNA Final Test Kit Prototype
+![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
+
+## XNA Tribal Test Kit (2005)
+![image](https://github.com/user-attachments/assets/2a2276e6-9bfe-4fc7-80ee-dd923c2c978f)
+
+
+
 ---
 # References
 [^1]: [The Xbox 360 Alpha 2 XeDK - How does it compare to the Xbox 360?! - MR RATCHET - YouTube](https://www.youtube.com/watch?v=B9MXxtd2WVs)
