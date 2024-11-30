@@ -114,10 +114,15 @@ This was the standard Xbox 360 Development kit and was available with either a X
 <iframe width="560" height="315" src="https://www.youtube.com/embed/teXPRJhOD74?si=zElq37Wqk5Pz32uj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### XNA Blue
-Announced at the Game Developers Conference from 2009 the XNA "tribal" blue version is probably the most attractive of all the development kits, equipped with double the RAM of the standard XDK (from 512MB to 1GB) it even has a custom blue ring on the pwoer button:
+Announced at the Game Developers Conference from 2009 the XNA "tribal" blue version is probably the most attractive of all the development kits, equipped with double the RAM of the standard XDK (from 512MB to 1GB) it even has a custom blue ring on the power button:
 * RAM: 1GB
+* Sidecar color: Chrome Blue
 ![Jasper XNA](https://github.com/user-attachments/assets/7fcd1df3-72f5-49c2-995c-90b236451a1a)
 ![Jasper Back](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
+
+The first variant of these kits are known as the Expo edition and contail the XNA Logo on the faceplate (under the power button):
+![XNA Faceplate](https://github.com/user-attachments/assets/4026ac0f-24d3-4c70-ac25-f73ac650c6ca)
+
 
 Video of it in action:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j9vkbLJEGOM?si=zGH-14kOzFmbrggI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
