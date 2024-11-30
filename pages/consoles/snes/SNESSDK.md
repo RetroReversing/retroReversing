@@ -92,6 +92,8 @@ The conversion tools such as **LHCHG** suggest also having **.B** or **.WB** fil
 
 ---
 ## IS-SPC - Intelligent Systems Sound PC Interface
+![Sony SPC700](https://github.com/user-attachments/assets/e46a03f8-176e-4fa6-9092-17291cf82d5a)
+
 The Audio processor on the SNES is the **Sony SPC700**, so in order to make music development easier Intelligent Systems (IS) created a few tools and hardware. 
 
 One of these pieces of hardware was known as the **IS-SOUND** which can be used to play and debug audio assembly running on the **Sony SPC700**.
