@@ -94,11 +94,20 @@ The second Beta version was very similar to the first however it has the huge ad
 ---
 # Final XeDK Development Kits
 
-![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
+
 
 
 ## Jasper (2010)
 ![Jasper](https://github.com/user-attachments/assets/e4c33698-79fd-4cda-a1f1-2a5223162ea1)
+
+---
+# Xbox 360 S Development Kit
+
+The Sidecar for the Xbox 360 S Development kit is optional, and when not present it is a Test Kit instead [^5], which is an efficient way to produce both test and development kits, and allows game studios to upgrade test kits when needed.
+![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
+
+## With Sidecar
+![Xbox 360 S Development Kit With Sidecar](https://github.com/user-attachments/assets/7206f1e4-9235-4981-853d-b2b0f4360544)
 
 
 ---
@@ -119,3 +128,4 @@ The Test Kits are green rather than blue.
 [^2]: [Tutorial - The Updated "Wiki"/Guide For The Xbox 360 XDK (Xbox Development Kit) - Se7enSins Gaming Community](https://www.se7ensins.com/forums/threads/the-updated-wiki-guide-for-the-xbox-360-xdk-xbox-development-kit.1807200/)
 [^3]: [Alpha - Xenon Wiki](https://www.xenonwiki.com/Alpha#Alpha_1)
 [^4]: [Even Microsoft wants G5s – Eclecticism](https://michaelhans.com/eclecticism/2003/10/23/even-microsoft-wants-g5s/)
+[^5]: [Development Kit - XenonLibrary](https://xenonlibrary.com/wiki/Development_Kit)
