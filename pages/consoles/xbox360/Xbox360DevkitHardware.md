@@ -185,12 +185,16 @@ This Test kit doesn't contain the XNA Tribal branding and the sidecar is just pl
 ![image](https://github.com/user-attachments/assets/a76810b2-05b7-4241-86c6-14ec2b83288b)
 
 ---
-# Stress Kits
+# Stress Kits (SSKs)
 Xbox 360 Stress Kits were used to test the hardware under stress, changing voltage, temperature and other factors to see how well the hardware would perform.
 
 ## Zephyr Stress Kit
 Thanks to **ICollectBro** on Reddit we have an image of what the Zephyr stress kit looks like:
 ![Zephyr Stress Kit](https://github.com/user-attachments/assets/4c571354-2471-438d-8df3-9a438a7f47b6)
+
+## Slim Stress Kit
+In the video below **XboxSurgeon** shows off a prototype version of the slim Xbox 360 stress testing console, including a prototype hard drive:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DSSqRckYPPU?si=rCUxqqBbRYerj9Kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 
