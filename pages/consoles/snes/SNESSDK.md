@@ -48,6 +48,8 @@ The known scanned in files that we have from Nintendo are:
 
 ---
 ## Intelligent Systems SDK
+![Fujitsu FMR](https://github.com/user-attachments/assets/000f62c4-bb90-466b-ad83-28b7a06b4747)
+
 The Intelligent Systems SDK would have been installed in `C:\issys` on the developers DOS PC and contained a few tools such as assemblers and linkers.
 
 The SDK has mentions of both the **NEC PC90** and the **Fujitsu FMR** series PCs so it is likely that most of the development was achieved on this machine.
@@ -56,8 +58,9 @@ However DOS was not the only Operating system used by SNES developers on the PC 
 
 The documentation for the **HEX2ISX** tool mentions that it supports the **Sony NEWS** assembler called **asm816**, this tool assembles to 65816 machine code which is the Main SNES CPU.
  
-This suggests that SNES development at Nintendo was split between the IBM-PC compatibles and the Unix-based Sony NEWS workstation!
+This suggests that SNES development at Nintendo was split between the **IBM-PC** compatibles and the Unix-based Sony NEWS workstation!
 
+---
 ## SNES SDK File Formats
 There are a number of common file formats that you will find throughout the Super Nintendo SDK files.
 
