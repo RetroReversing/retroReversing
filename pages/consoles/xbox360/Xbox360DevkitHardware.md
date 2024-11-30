@@ -24,6 +24,18 @@ editlink: /consoles/xbox360/Xbox360DevkitHardware.md
 updatedAt: '2022-01-14'
 ---
 
+# Introduction
+This page aims to collect all the information that is known about the Xbox 260 development hardware, if you know of anything missing please let us know!
+
+By development kit hardware we mean any non-retail Xbox 360 hardware that was either used officially by Microsoft or by licensed third party game studios.
+
+## A Note on Board IDs
+The AssemblerGames user **Lehvak Kal** has an excellent chart for the different board IDs for the Phat xbox development consoles available below:
+![Phat](https://github.com/user-attachments/assets/e1690a45-4f5d-450c-96cb-00870eb54a3a)
+
+
+
+---
 # Xbox 360 Alpha Development Kits
 The first development kits for the 360 available were created before the final Xbox retail hardware had been finalised as as such it has a few differences and is considerably weaker than what became the retail unit. There were two Alpha development kits before they moved on to the Beta versions.
 
