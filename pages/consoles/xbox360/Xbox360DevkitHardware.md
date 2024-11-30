@@ -134,7 +134,13 @@ Video of it in action:
 # Xbox 360 Slim Development Kit
 
 The Sidecar for the Xbox 360 S Development kit is optional, and when not present it is a Test Kit instead [^5], which is an efficient way to produce both test and development kits, and allows game studios to upgrade test kits when needed.
+
 ![DevKit Boxes](https://github.com/user-attachments/assets/8141faaf-0f2d-4dce-84e1-d4cb225fc94d)
+
+The official PR statement from Microsoft states:
+> Microsoft has released a brand new Xbox Development Kit that is designed to increase efficiency and reduce cost for Xbox 360 development teams of all sizes. It will feature additional RAM for development purposes, built-in flash memory, larger hard disk drives and a smaller form factor at a significantly reduced price from its predecessor.
+
+> The new XDK console gives developers the option to license a Sidecar attachment that enables debugging and disc emulation. Not all members of a development team need these capabilities, so this new Sidecar option offers greater flexibility for studios. The Sidecar can be shared among multiple XDK consoles, removing the need to license additional higher cost debugging consoles. These changes will reduce the overall price to create, test, debug, and release an Xbox 360 or Xbox LIVE Arcade game.
 
 ## With Sidecar
 With the sidecar it became a full development kit:
