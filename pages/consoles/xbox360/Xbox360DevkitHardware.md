@@ -137,7 +137,7 @@ With the sidecar it became a full development kit:
 
 ## Sidecar
 Here are photos of the Sidecar on its own:
-![Slim Sidecar](https://github.com/user-attachments/assets/f6062f8c-8c14-45d0-afea-9cf078aaafb2)
+![Slim Sidecar Top](https://github.com/user-attachments/assets/5a35383a-e4df-49b7-9879-ad40274cd441)
 
 ![Slim Sidecar bottom](https://github.com/user-attachments/assets/a60cf654-93cc-41e8-a470-4a5aaddb3735)
 
