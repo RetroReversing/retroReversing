@@ -36,6 +36,10 @@ In Youtube footage from **Pernoelle**[^33], we can see a programmer working on t
 
 I believe you can see an In-Circuit-Emulator (ICE) connected on the board but the image is very blurry so its hard to tell. The ICE would connect to the development PC to allow the programmer to step though code one assembly instruction at a time.
 
+You can also see that he is using a Sony NEWS workstation thanks to the logo on the keyboard:
+![Sony NEWS keyboard](https://github.com/user-attachments/assets/6c78e37b-5989-4955-a2bb-142c0116b68f)
+
+
 ## Intelligent Systems SHVC Development System
 <section class="postSection">
 <img src="/public/images/snes/Intelligent Systems SHVC Development System.jpg" class="wow slideInLeft postImage" />
