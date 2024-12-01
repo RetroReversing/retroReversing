@@ -27,8 +27,14 @@ redirect_from:
 updatedAt: '2020-06-26'
 ---
 
-# Official Nintendo in-house development kit
-Unusually there are actually multiple development kits that could be seen as "official", one by Nintendo's Intelligent Systems company and the other by Ricoh who was the creator of the SNES CPU.
+# Official Nintendo Development kits
+Unusually there are actually multiple development kits that could be seen as "official", one by Nintendo's Intelligent Systems company and the other by Ricoh who was the creator of the SNES CPU. Nintendo also seems to have used modified SNES hardware directly when working on in-house games like Pilotwings.
+
+## In-House Development Hardware
+In Youtube footage from **Pernoelle**[^33], we can see a programmer working on the Super Nintendo game **Pilotwings** back in 1990, but you can see that he is using what looks like a custom Super Nitnendo Board mounted vertically:
+![image](https://github.com/user-attachments/assets/165fa1bf-cb61-4860-930f-473aa3fee9af)
+
+I believe you can see an In-Circuit-Emulator (ICE) connected on the board but the image is very blurry so its hard to tell. The ICE would connect to the development PC to allow the programmer to step though code one assembly instruction at a time.
 
 ## Intelligent Systems SHVC Development System
 <section class="postSection">
@@ -351,3 +357,4 @@ The **MusiCart** was a custom made SNES cartridge that allowed audio engineers t
 [^30]: [GlitchedHeart (@glitchedheart) / Twitter](https://twitter.com/glitchedheart)
 [^31]: [where can I get a Romulator and how much?](http://strangetextsbutcher.blogspot.com/2019/08/where-can-i-get-romulator-and-how-much.html)
 [^32]: [dforce3000 Sculptured Software](http://ultra16.dforce3000.de/index.php?p=news)
+[^33]: [Footage Inside 1990 Nintendo Headquarters in Kyoto - YouTube](https://www.youtube.com/watch?v=FlOAd81a1aI)
