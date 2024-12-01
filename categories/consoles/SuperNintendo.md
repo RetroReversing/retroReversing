@@ -55,7 +55,7 @@ Some examples of the length of time it took to develop Super Nintendo games are:
 Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
 
 You would need the following on your desk:
-* Computer to write the code on (e.g Apple II [^4])
+* Computer to write the code on (e.g Apple II [^4], Sony NEWS workstation)
 * Either a modified retail SNES or a development Kit
 * A CRT Monitor to connect to the SNES
 * Cables to connect the modified SNES cart (or devkit) to the computer
@@ -80,8 +80,10 @@ Integrated Development Environments (IDEs) as we know them today were not as pre
 
 **Merlin** was a popular assembly language development environment for the Apple II. It provided an integrated editor, assembler, and debugger, making it a comprehensive tool for writing and debugging assembly code. This was used to write a number of Super Nintendo games for Interplay such as **RPM Racing** and the SNES port of **Out Of This World**[^4].
 
-In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE back in 1990, but it is unclear which IDE is being used or what computer/OS it is running on:
+In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE back in 1990, but it is unclear which IDE is being used:
 ![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
+
+However looking closly at the keyboard the the PC we can see its a Sony NEWS workstation, so it must have been an IDE that supported that platform.
 
 
 ## How would teams send their games to QA or to the press?
