@@ -43,6 +43,10 @@ You can find more information about this documentary over on **VHiStory**:
 We have a separate post all about the SEGA documentary from 1993-1995:
 {% include link-to-other-post.html post="/sega-documentary" description="For more information on working at sega check out this post." %}
 
+## Commercial Documentaries
+So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out IMDB's list:
+[Video game documentaries](https://www.imdb.com/list/ls079153183/)
+
 
 ## How did game programmers find work?
 Many Game Boy developers worked freelance and were contracted out by companies to work on a title with a harsh deadline of a couple of months or sometimes even just weeks! Others were hired full-time by companies and would work on a constant stream of new games.
