@@ -19,9 +19,19 @@ updatedAt: '2024-12-01'
 ---
 
 # Life in The Games Industry
-![Life in the games industry](https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463)
+<section class="postSection">
+    <img data-image-full="https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463" class="lazy-load wow slideInLeft postImage" />
 
-Have you ever wondered what it was like to be a developer in the games industry in the 80s/90s/00s? This page will try to collect all the information we know about to help paint a picture of what it must have been like.
+ <div markdown="1" class="rr-post-markdown">
+Have you ever wondered what it was like to be a developer in the games industry in the 80s/90s/00s? 
+   
+This page will try to collect all the information we know about to help paint a picture of what it must have been like.
+
+If you know of any other footage or information that should be added to this page please get in touch, there must be more out there!
+ </div>
+</section> 
+
+
 
 ## Life in Imagine & Ocean Software in 1984 (The Battle for Santa’s Software)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChmQBK_EaUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -42,6 +52,7 @@ You can find more information about this documentary over on **VHiStory**:
 ## Working at SEGA Documentary (Careers for the 21st Century)
 We have a separate post all about the SEGA documentary from 1993-1995:
 {% include link-to-other-post.html post="/sega-documentary" description="For more information on working at sega check out this post." %}
+
 
 ## GRAND THEFT AUTO 1996 Making Of - GTA
 From the BBC show **Working Lunch** the reporter **Rory Cellan Jones** visits the Dundee studios of **DMA Design** in 1996 as they are working on the Original Grand Theft Auto:
