@@ -189,7 +189,17 @@ It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing dupli
 # Game Modding
 Modding NES games can be a fun and rewarding way to explore the world of classic gaming and unleash your creativity. By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
 
-## Cheat Cartridges (Game Genie)
+## Tonkachi Editor (Hammer Editor)
+![Tonkachi Editor](https://github.com/user-attachments/assets/4b346317-a9fb-4236-9d75-1535f7a920ec)
+
+Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a Famicom Disk System Disk which allowed editing of other Famicom Disk System games. This is the earliest ROM Hacking software we are aware of and was sold in retail stores in Japan.
+
+This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
+
+Despite its success no other companies created competitors, the only thing that came close was the **Quick Hunter** Famicom parameter software [^6].
+
+---
+## Game Genie Cheat Cartridges (1990+)
 The main cheat cartridge available for the NES was the **Game Genie** created by **Codemasters** (Distributed by Galoob & Hornby Hobbies). This was a physical connector that would sit between the NES and the Game Cartridge you wanted to cheat on. It would alter the signals based on which memory addresses were being read/written to in real-time based on the Cheat code that was loaded into the system.
 
 ### Game Genie Code Format
@@ -200,6 +210,7 @@ The Game Genie used a special encoding format for its codes which can be encoded
 If you want to permanently modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
 [Romhacking.net - Utilities - Permanent Game Genie](https://www.romhacking.net/utilities/784/)
 
+---
 ## NES Memory Corruption
 Corrupting the memory of a ROM has become very popular over on Youtube with creators such as **Vinesauce** regularly using ROM corruptors on popular games to produce some interesting results.
 
@@ -282,3 +293,4 @@ We have moved this section to its own post which you can view here:
 [^3]: Retro Gamer Issue 84 from December 2010 pages 34–35.
 [^4]: Retro Gamer Issue 96 page 55
 [^5]: [Chunsoft 30th Anniversary – 2014 Developer Interview - shmuplations.com](https://shmuplations.com/chunsoft30th/)
+[^6]: [Hammer Editor (Eye-2) Famicom modification tool code page](https://k1ilove.yu-nagi.com/diskto10.html)
