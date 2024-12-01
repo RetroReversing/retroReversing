@@ -80,6 +80,10 @@ Integrated Development Environments (IDEs) as we know them today were not as pre
 
 **Merlin** was a popular assembly language development environment for the Apple II. It provided an integrated editor, assembler, and debugger, making it a comprehensive tool for writing and debugging assembly code. This was used to write a number of Super Nintendo games for Interplay such as **RPM Racing** and the SNES port of **Out Of This World**[^4].
 
+In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE, but it is unclear which IDE is being used or what computer/OS it is running on:
+![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
+
+
 ## How would teams send their games to QA or to the press?
 FTP servers were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
 
@@ -188,3 +192,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^7]: [Super Noah's Ark 3D (USA) (Source Code) - elude visibility](https://eludevisibility.org/super-noahs-ark-3d-source-code)
 [^8]: [Masayuki Uemura – The Creator of the Famicom - shmuplations.com](https://shmuplations.com/masayukiuemura/) 
 [^9]: [1994 Game Developers – Interview Collection - shmuplations.com](https://shmuplations.com/1994gamedevs/)
+[^10]: [Footage Inside 1990 Nintendo Headquarters in Kyoto - YouTube](https://www.youtube.com/watch?v=FlOAd81a1aI)
