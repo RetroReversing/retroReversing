@@ -3,6 +3,8 @@ layout: post
 title: Life in the Games Industry (Documentaries)
 permalink: /industry
 console: industry
+image: https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463
+twitterimage: https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463
 redirect_from:
  - /documentary
  - /documentaries
@@ -10,10 +12,15 @@ breadcrumbs:
   - name: Home
     url: /
 editlink: ../categories/misc/Industry.md
-recommend: industry
+recommend:
+ - industry
+ - introduction
+updatedAt: '2024-12-01'
 ---
 
 # Life in The Games Industry
+![Life in the games industry](https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463)
+
 Have you ever wondered what it was like to be a developer in the games industry in the 80s/90s/00s? This page will try to collect all the information we know about to help paint a picture of what it must have been like.
 
 ## Life in Imagine & Ocean Software in 1984 (The Battle for Santa’s Software)
