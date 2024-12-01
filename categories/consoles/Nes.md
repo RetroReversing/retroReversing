@@ -198,18 +198,21 @@ Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a 
 
 This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
 
-### How did it work?
+### How did Tonkachi Editor work?
 Since Famicom Disk system games were written on re-writeable **Quick Disks** all the software needed to do was load itself into memory, ask the user to put the game they want to modify in and then allow the user to change bytes in HEX or ASCII format before writing the game out to a free slot on the card.
 
 Although it was quite cumbersome as in order to test out the changes you would need to write the card and reboot the system into the written game. So some people used multiple Disk systems, so they could keep the Tonkachi Editor editor running on one of them and test out the changes on the other, without the constant restarting [^6].
 
-### What documentation did it come with?
+### What documentation did Tonkachi Editor come with?
 It came with a rather beefy 63 page manual in A5 format, printed in black and white. Apparently it even teaches some basic 6502 assembly language [^6]! It even documented how the original Super Mario Bros worked (although it is inaccurate), that would become the basis of our deep understanding of the game to this day.
 
-### Did it come with any ROM Hacks built in?
+### Did Tonkachi Editor come with any ROM Hacks built in?
 Yes there was a ROM hack of the original Super Mario Bros called **Hammer Mario** which may be one of the first ROM hacks ever created! [^6].
 
-### The magazines/news
+### Did Tonkachi Editor support cartridge based games?
+Yes cartridge games were supported (on the twin fami) but only up to 320kb could be transfered on to the disk cards so when Nintendo started releasing larger cartridge based games they could not be edited [^8].
+
+### The Tonkachi Editor magazines/news/booklets
 ![Hammer News](https://github.com/user-attachments/assets/ad3976c9-c001-4649-ad28-adbd87bbcf7b)
 
 Similar to cheat books that were published for cheat cartridges there was a magazine produced called the **Hammer News**, it had 6 volumes and was created by users writing in to **i2** with their own findings modifying Famicom Disk System (and even ROM cartridges).
@@ -327,3 +330,4 @@ We have moved this section to its own post which you can view here:
 [^5]: [Chunsoft 30th Anniversary – 2014 Developer Interview - shmuplations.com](https://shmuplations.com/chunsoft30th/)
 [^6]: [Hammer Editor (Eye-2) Famicom modification tool code page](https://k1ilove.yu-nagi.com/diskto10.html)
 [^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
+[^8]: [Hammer News Hammer Editor (Eye-2) Famicom Modification Tool Code Page](https://k1ilove.yu-nagi.com/diskto14.html)
