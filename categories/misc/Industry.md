@@ -33,7 +33,7 @@ If you know of any other footage or information that should be added to this pag
 
 
 
-## Life in Imagine & Ocean Software in 1984 (The Battle for Santa’s Software)
+## 1984 - Life in Imagine & Ocean Software (The Battle for Santa’s Software)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChmQBK_EaUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Commercial Breaks** was a 30 minute documentary series in the UK about buisnesses and one episode in particular from 1984 is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean, only one remained at the end of the show!
 
@@ -48,13 +48,15 @@ On the other side was **Ocean Software** and David Ward who managed to survive t
 You can find more information about this documentary over on **VHiStory**: 
 [Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 - VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
 
+## 1993 - A Visit to id Software (November 1993)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HpEBUV_g9vU?si=dRFGtTx7VXNOzYsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Working at SEGA Documentary (Careers for the 21st Century)
+## 1993-1995 - Working at SEGA Documentary (Careers for the 21st Century)
 We have a separate post all about the SEGA documentary from 1993-1995:
 {% include link-to-other-post.html post="/sega-documentary" description="For more information on working at sega check out this post." %}
 
 
-## GRAND THEFT AUTO 1996 Making Of - GTA
+## 1996 - GRAND THEFT AUTO - Making Of - GTA
 From the BBC show **Working Lunch** the reporter **Rory Cellan Jones** visits the Dundee studios of **DMA Design** in 1996 as they are working on the Original Grand Theft Auto:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7vWSi44ZTSw?si=_QcOERTiK1P1pDy3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
