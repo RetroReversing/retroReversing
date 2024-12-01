@@ -197,9 +197,11 @@ Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a 
 This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
 
 ## Quick Hunter Parameter Software
+![Quick Hunter Box](https://github.com/user-attachments/assets/8de9d460-c9ae-457f-8f0b-fcd625850c7e)
+
 Despite the success of **Tonkachi Editor** no other companies created competitors, the only thing that came close was the **Quick Hunter Parameter software** for the Famicom Disk System [^6].
 
-![Quick Hunter](https://github.com/user-attachments/assets/7c1928ce-d315-499c-a5d4-daf59a6a48af)
+![Quick Hunter Menu](https://github.com/user-attachments/assets/7c1928ce-d315-499c-a5d4-daf59a6a48af)
 
 It's not quite clear what the Quick Hunter parameter software actually did, but since Quik Hunter itself was a illegal Disk copier, presumably the parameter Disk allowed some minor modifications such as a cheat code to be inserted.
 
