@@ -78,6 +78,9 @@ Books were a must have for any game developers getting started in the industry, 
 ---
 # All Posts
 
+
 <div>
+  
 {% include console.html %}
+
 </div>
