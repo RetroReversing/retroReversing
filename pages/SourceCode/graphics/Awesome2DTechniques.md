@@ -3,17 +3,19 @@ layout: post
 tags: 
 - 2d
 - graphics
-title: Post
+title: 2D Graphics Techniques
 thumbnail: /public/images/RetroReversingLogoSmall.png
 permalink: /2d-graphics
 breadcrumbs:
   - name: Home
     url: /
 recommend: 
-  - 2d
+  - introduction
   - graphics
-editlink: /articles/graphics/Awesome2DTechniques.md
+editlink: /pages/SourceCode/graphics/Awesome2DTechniques.md
 ---
+
+This is a Work in progress page to list interesting articles on 2D graphics techniques to create cool effects.
 
 # Screen Transitions
 
