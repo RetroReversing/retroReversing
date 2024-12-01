@@ -186,8 +186,10 @@ The game developer **Morphcat Games** has released a video on how they created a
 It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing duplicates and using mirroring).
 
 ---
-# Game Modding
-Modding NES games can be a fun and rewarding way to explore the world of classic gaming and unleash your creativity. By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
+# Game Modding and ROM Hacking
+By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. 
+
+Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
 
 ## Tonkachi Editor (Hammer Editor)
 ![Tonkachi Editor](https://github.com/user-attachments/assets/4b346317-a9fb-4236-9d75-1535f7a920ec)
@@ -196,14 +198,31 @@ Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a 
 
 This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
 
-## Quick Hunter Parameter Software
+### How did it work?
+Since Famicom Disk system games were written on re-writeable **Quick Disks** all the software needed to do was load itself into memory, ask the user to put the game they want to modify in and then allow the user to change bytes in HEX or ASCII format before writing the game out to a free slot on the card.
+
+Although it was quite cumbersome as in order to test out the changes you would need to write the card and reboot the system into the written game. So some people used multiple Disk systems, so they could keep the Tonkachi Editor editor running on one of them and test out the changes on the other, without the constant restarting [^6].
+
+### What documentation did it come with?
+it came with a rather beefy 63 page manual in A5 format, printed in black and white. Apparently it even teaches some basic 6502 assembly language [^6]! It even documented how the original Super Mario Bros worked (although it is inaccurate), that would become the basis of our deep understanding of the game to this day.
+
+### Did it come with any ROM Hacks built in?
+Yes there was a ROM hack of the original Super Mario Bros called **Hammer Mario** which may be one of the first ROM hacks ever created! [^6].
+
+### The magazines/news
+![Hammer News](https://github.com/user-attachments/assets/ad3976c9-c001-4649-ad28-adbd87bbcf7b)
+
+Similar to cheat books that were published for cheat cartridges there was a magazine produced called the **Hammer News**, it had 6 volumes and was created by users writing in to **i2** with their own findings modifying Famicom Disk System (and even ROM cartridges).
+
+---
+## Quick Hunter Parameter Software (Game Analyzer Group Club)
 ![Quick Hunter Box](https://github.com/user-attachments/assets/8de9d460-c9ae-457f-8f0b-fcd625850c7e)
 
-Despite the success of **Tonkachi Editor** no other companies created competitors, the only thing that came close was the **Quick Hunter Parameter software** for the Famicom Disk System [^6].
+Despite the success of **Tonkachi Editor** no other companies created competitors, the only thing that came close was the **Quick Hunter Parameter software** (クイックハンター) for the Famicom Disk System [^6].
 
 ![Quick Hunter Menu](https://github.com/user-attachments/assets/7c1928ce-d315-499c-a5d4-daf59a6a48af)
 
-It's not quite clear what the Quick Hunter parameter software actually did, but since Quik Hunter itself was a illegal Disk copier, presumably the parameter Disk allowed some minor modifications such as a cheat code to be inserted.
+It's not quite clear what the **Quick Hunter Parameter software** actually did, but since Quick Hunter itself was a illegal Disk copier, presumably the **Parameter Disks** allowed some minor modifications such as a cheat code to be inserted.
 
 There was at least 3 Parameter software disks released in japan [^7].
 
