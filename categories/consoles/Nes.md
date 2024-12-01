@@ -196,7 +196,14 @@ Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a 
 
 This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
 
-Despite its success no other companies created competitors, the only thing that came close was the **Quick Hunter** Famicom parameter software [^6].
+## Quick Hunter Parameter Software
+Despite the success of **Tonkachi Editor** no other companies created competitors, the only thing that came close was the **Quick Hunter Parameter software** for the Famicom Disk System [^6].
+
+![Quick Hunter](https://github.com/user-attachments/assets/7c1928ce-d315-499c-a5d4-daf59a6a48af)
+
+It's not quite clear what the Quick Hunter parameter software actually did, but since Quik Hunter itself was a illegal Disk copier, presumably the parameter Disk allowed some minor modifications such as a cheat code to be inserted.
+
+There was at least 3 Parameter software disks released in japan [^7].
 
 ---
 ## Game Genie Cheat Cartridges (1990+)
@@ -294,3 +301,4 @@ We have moved this section to its own post which you can view here:
 [^4]: Retro Gamer Issue 96 page 55
 [^5]: [Chunsoft 30th Anniversary – 2014 Developer Interview - shmuplations.com](https://shmuplations.com/chunsoft30th/)
 [^6]: [Hammer Editor (Eye-2) Famicom modification tool code page](https://k1ilove.yu-nagi.com/diskto10.html)
+[^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
