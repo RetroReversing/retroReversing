@@ -35,7 +35,9 @@ Fortunetly former programmers at Imagine Software went on to establish **Psygnos
 
 On the other side was **Ocean Software** and David Ward who managed to survive the time it took to film the documentary and showed off some of their upcoming games for the festive period.
 
-You can find more information about this documentary over on **VHiStory**: [Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 | VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
+You can find more information about this documentary over on **VHiStory**: 
+[Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 - VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
+
 
 ## Working at SEGA Documentary (Careers for the 21st Century)
 We have a separate post all about the SEGA documentary from 1993-1995:
