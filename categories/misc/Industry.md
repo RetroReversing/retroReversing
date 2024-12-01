@@ -30,6 +30,11 @@ On the other side was **Ocean Software** and David Ward who managed to survive t
 
 You can find more information about this documentary over on **VHiStory**: [Commercial Breaks – Film 84 – Tomorrow’s World – Micro Live – tape 1 | VHiStory](https://vhistory.wordpress.com/2022/12/10/commercial-breaks-film-84-tomorrows-world-micro-live-tape-1/)
 
+## Working at SEGA Documentary (Careers for the 21st Century)
+We have a separate post all about the SEGA documentary from 1993-1995:
+{% include link-to-other-post.html post="/sega-documentary" description="For more information on working at sega check out this post." %}
+
+
 ## How did game programmers find work?
 Many Game Boy developers worked freelance and were contracted out by companies to work on a title with a harsh deadline of a couple of months or sometimes even just weeks! Others were hired full-time by companies and would work on a constant stream of new games.
 
@@ -41,6 +46,7 @@ He heard about the job through his agent which was a common way for game program
 # Game Industry Materials
 
 ## Magazines
+Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
 {% include link-to-other-post.html post="/magazines" description="For more information on all the Game development magazines check out this post." %}
 
 ## Bookazines
@@ -51,9 +57,11 @@ We have an entire page dedicated to just Bookazines related to game developement
 {% include link-to-other-post.html post="/bookazines" description="For more information on all the Game development Bookazines check out this post." %}
 
 ## Conferences
+One of the main ways for different game developers to speak to each other was at yearly conferences such as GDC or Siggraph:
 {% include link-to-other-post.html post="/conferences" description="For more information on all the Game industry Conferences check out this post." %}
 
 ## Books
+Books were a must have for any game developers getting started in the industry, from teaching the basics of assembler/C to more advanced topics such as 3D rendering:
 {% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
 
 ---
