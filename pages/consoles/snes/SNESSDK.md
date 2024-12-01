@@ -36,7 +36,7 @@ There are still Super Famicom SDK files that have never been archived or release
 The following files have been released to the internet over time:
 * **SNES.7z** - Archive distributed by EmuParadise containing Misc SNES SDK Files (SSBUG, SNES Dev book 1 & 2)
 * **SNESDEV.rar** - Archive distributed by users on ObscureGamers (SNES Dev book 1 & 2, isspc, TUME, Virtual Boy SDK)
-* **SFC_SNES .rar** - Virtual Boy SDK that was forked from the SNES SDK
+* **SFC_SNES.rar** - Virtual Boy SDK that was forked from the SNES SDK
 
 
 ## Official Documentation
@@ -52,13 +52,16 @@ The known scanned in files that we have from Nintendo are:
 
 The Intelligent Systems SDK would have been installed in `C:\issys` on the developers DOS PC and contained a few tools such as assemblers and linkers.
 
-The SDK has mentions of both the **NEC PC90** and the **Fujitsu FMR** series PCs so it is likely that most of the development was achieved on this machine.
+The SDK has mentions of both the **NEC PC90** and the **Fujitsu FMR** series PCs so it is likely that most of the development was achieved on one of these machines.
 
 However DOS was not the only Operating system used by SNES developers on the PC side.
 
 The documentation for the **HEX2ISX** tool mentions that it supports the **Sony NEWS** assembler called **asm816**, this tool assembles to 65816 machine code which is the Main SNES CPU.
+
+In fact we can see Youtube footage from **Pernoelle** [^10], that shows a programmer working on the Super Nintendo game Pilotwings using an **Sony NEWS** workstation (and IDE) back in 1990, but it is unclear which IDE is being used:
+![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
  
-This suggests that SNES development at Nintendo was split between the **IBM-PC** compatibles and the Unix-based Sony NEWS workstation!
+This suggests that SNES development at Nintendo was split between the **IBM-PC** compatibles and the Unix-based **Sony NEWS** workstation!
 
 ---
 ## SNES SDK File Formats
