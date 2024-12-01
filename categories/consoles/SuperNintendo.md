@@ -55,18 +55,18 @@ Some examples of the length of time it took to develop Super Nintendo games are:
 Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
 
 You would need the following on your desk:
-* Computer to write the code on (e.g Apple II [^4], Sony NEWS workstation)
+* Computer to write the code on (e.g **Apple II** [^4], **Sony NEWS** workstation)
 * Either a modified retail SNES or a development Kit
 * A CRT Monitor to connect to the SNES
 * Cables to connect the modified SNES cart (or devkit) to the computer
 
 On your computer of choice you would need:
 * Text editor
-* Assembler (e.g Merlin on the Apple II[^4])
+* Assembler (e.g **Merlin** on the Apple II[^4], **asm816** on a **Sony NEWS** workstation)
 * Linker
 * Program to send the ROM data to the console
 * Program to flash a ROM image to an EEPROM.
-* Program to create/edit sounds (e.g SynthLab for music composition or Sound Shop [^4]) and program to convert sound to a SNES sound format
+* Program to create/edit sounds (e.g **SynthLab** for music composition or **Sound Shop** [^4]) and program to convert sound to a SNES sound format
 
 ## What programming languages were used to write SNES games?
 At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
@@ -83,11 +83,14 @@ Integrated Development Environments (IDEs) as we know them today were not as pre
 In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE back in 1990, but it is unclear which IDE is being used:
 ![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
 
-However looking closly at the keyboard the the PC we can see its a Sony NEWS workstation, so it must have been an IDE that supported that platform.
+However looking closly at the keyboard the the PC we can see its a **Sony NEWS** workstation, so it must have been an IDE that supported that platform.
 
+## Was there an official SDK?
+Yes, we have a seperate page for the Official Super Nintendo Software Development kits:
+{% include link-to-other-post.html post="/super-famicom-snes-sdk/" description="For more information about the **Super Nintendo** software development kit check out this post" %}
 
 ## How would teams send their games to QA or to the press?
-FTP servers were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
+**FTP servers** were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
 
 ## How large were SNES game development teams?
 According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
