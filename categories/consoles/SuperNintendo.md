@@ -164,6 +164,7 @@ If you are interested to see existing reversing projects for the SNES check out 
 {% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
 
 ## The Polygons of Another World
+For an in-depth look at how the game **Another World** was ported to the Super Nintendo check out this article:
 {% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
 
 ## Remakes for the GBA
