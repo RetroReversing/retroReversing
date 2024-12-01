@@ -32,9 +32,6 @@ Every three years **Near** created an excellent article on the current status of
 
 {% include link-to-other-site.html url="https://near.sh/articles/emulation/state-of-emulation-v" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
 
-## The Polygons of Another World
-{% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
-
 ---
 # SNES Game Development
 
@@ -157,6 +154,17 @@ Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has c
 ---
 # Games
 The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.  
+
+## Official Retail SNES Game Source Code
+If you are interested to see officially released or leaked source code check for the Super Nintendo Entertainment System check out our other post:
+{% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
+
+## Reverse Engineered SNES Games
+If you are interested to see existing reversing projects for the SNES check out our other post specifically on this topic:
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+
+## The Polygons of Another World
+{% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
 
 ## Remakes for the GBA
 As soon as the Game Boy Advance (GBA) was annonced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
