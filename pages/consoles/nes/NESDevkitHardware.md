@@ -76,6 +76,14 @@ In the photograph on the left you can see a custom EEPROM cartridge inside the r
 </div>
 </section>
 
+In the American TV staion **PBS** there was a 9 minute segment broadcast on **December 30th, 1988** from MacNeil/Lehrer "NewsHour" [^26] which gave a very brief look inside the Nintendo Research and Development office and shows an EEPROM chip being written to on a system called either **PRO5-80** or **PROS-80** (the font isn't clear) :
+![Pro5-80](https://github.com/user-attachments/assets/ab110bb9-0e46-4734-8325-e4244d0a4d16)
+
+This chip is then transferred over to a custom cartridge:
+![Custom Cartridge](https://github.com/user-attachments/assets/0da909c3-b45c-4c4b-9678-ee36656c3093)
+
+
+
 ## Graphic Artist hardware
 
 <section class="postSection">
@@ -348,3 +356,4 @@ Some sources such as [^3] suggest that there was an official Nintendo assembler 
 [^23]: [N2G](https://web.archive.org/web/20170415132556/http://nintendoage.com/forum/messageview.cfm?catid=56&threadid=69249)
 [^24]: [Nintendo Entertainment System/NES (1985-1995) – History of Console Gaming](https://hiscoga.wordpress.com/nintendo-entertainment-systemnes-1985-1995/)
 [^25]: [Beta64 - Kirby's Adventure & Kirby's Dream Land - YouTube](https://www.youtube.com/watch?v=I9cgjj5Yezk&list=WL&index=16)
+[^26]: [News Report: Nintendo's Revival of the Video Game Industry. December 1988 - YouTube](https://www.youtube.com/watch?v=59JesM8mIFQ)
