@@ -204,7 +204,7 @@ Since Famicom Disk system games were written on re-writeable **Quick Disks** all
 Although it was quite cumbersome as in order to test out the changes you would need to write the card and reboot the system into the written game. So some people used multiple Disk systems, so they could keep the Tonkachi Editor editor running on one of them and test out the changes on the other, without the constant restarting [^6].
 
 ### What documentation did it come with?
-it came with a rather beefy 63 page manual in A5 format, printed in black and white. Apparently it even teaches some basic 6502 assembly language [^6]! It even documented how the original Super Mario Bros worked (although it is inaccurate), that would become the basis of our deep understanding of the game to this day.
+It came with a rather beefy 63 page manual in A5 format, printed in black and white. Apparently it even teaches some basic 6502 assembly language [^6]! It even documented how the original Super Mario Bros worked (although it is inaccurate), that would become the basis of our deep understanding of the game to this day.
 
 ### Did it come with any ROM Hacks built in?
 Yes there was a ROM hack of the original Super Mario Bros called **Hammer Mario** which may be one of the first ROM hacks ever created! [^6].
@@ -225,6 +225,10 @@ Despite the success of **Tonkachi Editor** no other companies created competitor
 It's not quite clear what the **Quick Hunter Parameter software** actually did, but since Quick Hunter itself was a illegal Disk copier, presumably the **Parameter Disks** allowed some minor modifications such as a cheat code to be inserted.
 
 There was at least 3 Parameter software disks released in japan [^7].
+
+Although I can only find photos of the main software and two parameter disks:
+![Parameter Disks](https://github.com/user-attachments/assets/2cfd0c4a-b97a-4451-9c9d-3ec9e1008e61)
+
 
 ---
 ## Game Genie Cheat Cartridges (1990+)
