@@ -94,16 +94,15 @@ One of the main ways for different game developers to speak to each other was at
 Books were a must have for any game developers getting started in the industry, from teaching the basics of assembler/C to more advanced topics such as 3D rendering:
 {% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
 
----
-# References
-[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
 
 ---
 # All Posts
 
-
 <div>
-  
 {% include console.html %}
-
 </div>
+
+
+---
+# References
+[^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)
