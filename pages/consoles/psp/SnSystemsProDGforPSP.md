@@ -110,7 +110,25 @@ The Common Folder contains two sub folders;
 * bin - Contains the two executables **SNLauncher.exe** and **snclm.exe**
 * help - Documentation about the Client License Manager in both English and Japanese in PDF and CHM formats
 
+The Client license manager needs to be run as Administrator **SNLauncher.exe** giving the following screen: 
+![Error with SNLauncher](https://github.com/user-attachments/assets/db9e3126-9e4f-4fdc-b6f1-c5d0da11ba6e)
 
+When run it gives the following screen:
+![SNLauncher.exe](https://github.com/user-attachments/assets/ad3d9bde-62ce-4b66-a6ce-bef03cf4ab22)
+
+The **snclm.exe** executable opens the following window:
+![snclm](https://github.com/user-attachments/assets/f7c2957f-48f4-4bc3-b2ef-24d42c681cf2)
+
+Its not particularly interesting, but I was surprised that it was still bundled with the latest version of the Official SDK as the license registeration is very SN Systems specific.
+
+## PSP Folder
+
+### /PSP/bin Folder
+The PSP Target Manager (**psptm.exe**):
+<img width="783" alt="image" src="https://github.com/user-attachments/assets/a0a1f329-adb8-4a90-bdaa-6e42e16d2287">
+
+The PSP Debugger:
+<img width="1324" alt="image" src="https://github.com/user-attachments/assets/af2b8201-109d-4856-a1c7-ec9a5fae13e0">
 
 
 
