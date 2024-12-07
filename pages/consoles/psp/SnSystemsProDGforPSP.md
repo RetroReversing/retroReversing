@@ -344,6 +344,7 @@ tex_pfidx8 | .h | Include file for declaring
 
 ---
 ## SN Build Samples
+The **SN Build Samples** folder just contains some really bare bones examples of projects that can be built, it is mainly used for the Visial Studio project files.
 
 ### Helloworld (hw) (/SN Build Samples/HelloWorld (hw))
 <section class="postSection">
@@ -359,20 +360,24 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 Makefile | N/A | Used to build the source code in the folder (run make)
-PrxPreloads | .txt | 
-ReadMe_GP | .txt | 
+PrxPreloads | .txt | Blank file
+ReadMe_GP | .txt | Information about how to enable GP optimizations
 hello_world | .c, .sln, .vcproj |  Visual Studio project files and a really basic Hello World example
 
+The **ReadMeGP.exe file suggests enabling GP optimizations in the PRX project, then you need to use the following declaration on your entry point:
+```c
+int main() __attribute__((gp_safe));
+```
 
 ---
 ### Resident library example (/SN Build Samples/Resident Library Example)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Resident Library Example</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains and example of a resident library  which refers to a system library that is preloaded into the PSP's memory and remains resident during runtime.
 
 This folder also contains the following sub-directories:
-* **ResidentLibExample** - 
+* **ResidentLibExample** - Just contains the Visual Studio config needed to build both cllaer and calee
   </div>
 </section>  
 
@@ -381,73 +386,16 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 Makefile | N/A | Used to build the source code in the folder (run make)
-callee | .c | 
-caller | .c | 
+callee | .c | This file compiles to the resident library. It contains exported functions and variables.
+caller | .c | This file compiles to a caller module and relies on exported variables and functions in the callee module.
 
 
 ---
-#### Residentlibexample (/SN Build Samples/Resident Library Example/ResidentLibExample)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/ResidentLibExample</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-This folder also contains the following sub-directories:
-* **Callee** - 
-* **Caller** - 
-  </div>
-</section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-ResidentLibExample | .sln |  Visual Studio solution file
-
-
----
-#### Callee (/SN Build Samples/Resident Library Example/ResidentLibExample/Callee)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/Callee</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-Callee | .vcproj |  Visual Studio project file
-ReadMe_GP | .txt | 
-
-
----
-#### Caller (/SN Build Samples/Resident Library Example/ResidentLibExample/Caller)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/Caller</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-Caller | .vcproj |  Visual Studio project file
-PrxPreloads | .txt | 
-ReadMe_GP | .txt | 
-
-
----
-### Snmathlib (/SN Build Samples/VFPU examples/SnMathLib)
+### SN Math library (/SN Build Samples/VFPU examples/SnMathLib)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SnMathLib</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains example code for using the SN Systems Math library, the header files are menat to be copied and pasted and modified into the intended purpose.
 
   </div>
 </section>  
@@ -456,17 +404,26 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-SnMathLibDef | .h | Include file for declaring 
-SnMathLibGeneric | .h | Include file for declaring 
-SnMathLibVFPU | .h | Include file for declaring 
+SnMathLibDef | .h | Include file for declaring VFPU vector math class sample class definition
+SnMathLibGeneric | .h | VFPU vector math class sample class definition, generic implementation. Intended as a reference and for use in tools.
+SnMathLibVFPU | .h | Include file for declaring VFPU vector math class sample class definition vfpu implementation
 
 
 ---
-## Snc vsi projects for sce psp hardware examples (/SNC VSI Projects for SCE PSP Hardware Examples)
+## SNC VSI projects for sce psp hardware examples (/SNC VSI Projects for SCE PSP Hardware Examples)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SNC VSI Projects</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains zip files that contain a Visual Studio .NET solution, and project configurations for six of the SCE PSP samples:
+
+* graphics\balloon
+* graphics\cube
+* kernelutils\exitgame
+* mpeg\mpegstr
+* net\adhoc\pdp_echo
+* sound\at3doubleplay
+
+These are intended to be unzipped over the top of the SCE PSP hardware sample directory.
 
   </div>
 </section>  
@@ -475,19 +432,19 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-PSP_hw_1.0.3_VSI_samples | .txt, .zip | 
-PSP_hw_1.5.0_VSI_samples | .txt, .zip | 
-PSP_hw_2.5.0_VSI_samples | .txt, .zip | 
-PSP_hw_3.9.5_VSI_samples | .txt, .zip | 
-PSP_hw_5.0.0_VSI_samples | .txt, .zip | 
+PSP_hw_1.0.3_VSI_samples | .txt, .zip | VS Project files for Kernel version 1.0.3
+PSP_hw_1.5.0_VSI_samples | .txt, .zip | The VSI projects have been tested with version 1.5.0 of the SCE PSP hardware runtime libraries and VSI .NET v 1.3.0.
+PSP_hw_2.5.0_VSI_samples | .txt, .zip | VSI projects for samples from v2.5.0 of the SCE runtime libraries for PSP hardware. 
+PSP_hw_3.9.5_VSI_samples | .txt, .zip | VSI projects for samples from v3.8.0 of the SCE runtime libraries for PSP hardware. 
+PSP_hw_5.0.0_VSI_samples | .txt, .zip | VSI projects for samples from v3.8.0 to v5.0.0 of the SCE runtime libraries for PSP hardware
 
 
 ---
-## Tty echo (/TTY Echo)
+## TTY echo (/TTY Echo)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/TTY Echo</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains a program that opens a number of TTY devices and waits for data to appear and then writes it back to the same TTY device to demonstrate the new console input function of Target Manager for PSP (V1.3.1 or above).
 
   </div>
 </section>  
@@ -497,7 +454,7 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 TTY Echo | .vcproj | Visual Studio project file
-main | .c | 
+main | .c | Example calling sceIoOpen, sceIoWrite etc
 
 ---
 # ProView for PSP 1.2.1 (ProViewforPSPv1.2.1.exe)
