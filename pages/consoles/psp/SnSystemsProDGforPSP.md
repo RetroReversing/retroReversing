@@ -128,7 +128,7 @@ Its not particularly interesting, but I was surprised that it was still bundled 
 
 
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/bin</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains all the compiled executables for compiling with the Sn Systems Pro DG SDK.
 
@@ -147,14 +147,14 @@ pspas | .exe | PSP Assembler (pspas 1.1.1737.0 (dev,main @52548 #265261 ))
 pspcfe | .exe | 
 pspcor | .exe | Takes in a .B file
 pspcq | .exe | 
-pspdemangle | .dll | 
+pspdemangle | .dll | Used in pspname.exe
 pspipa | .exe | 
-pspld | .exe | 
-pspname | .exe | 
-pspprxgen | .exe | 
-psprun | .exe | 
-pspsnc | .exe | 
-psptm | .exe | 
+pspld | .exe | Linker (pspld version 2.7.63.0)
+pspname | .exe | Takes a mangled (compiled) name and demangles it (pspname 1.0.37.0 (dev,main @17121 #37834 ))
+pspprxgen | .exe | PSP PRX utility - pspprxgen v1.7.174.0
+psprun | .exe | PSP Target Manager Command Line Tool - PSPRUN v1.8.5.0 (Apr 15 2010)
+pspsnc | .exe | The main C/C++ Compiler from SN Systems
+psptm | .exe | The PSP Target Manager GUI
 psptmapi | .dll | 
 psptmapix64 | .dll | 
 sn_autoexp | .dat | 
@@ -176,10 +176,25 @@ Features include:
 * copying sections to a binary file
 * renaming sections
 
-### PSP Target Manager
-The PSP Target Manager (**psptm.exe**):
+---
+### PSP Target Manager (psptm.exe)
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/a0a1f329-adb8-4a90-bdaa-6e42e16d2287">
 
+The ProDG Target Manager (**psptm.exe**) is used to control access to any development hardware (targets) connected to your host PC, or remotely on your LAN. 
+
+Target Manager must be installed and running in order that other SN Systems applications can communicate with the development hardware.
+
+Target Manager allows you to connect to the target, load and run executable files, send TTY input to the target, and view TTY output from the target.
+
+Target Manager can be used with a range of SCE development hardware.
+
+Target Manager is provided with the following SN Systems products:   
+* ProDG
+ * ProView/ProView-LE
+ * Tuner
+
+---
+### PSP Debugger
 The PSP Debugger:
 <img width="1324" alt="image" src="https://github.com/user-attachments/assets/af2b8201-109d-4856-a1c7-ec9a5fae13e0">
 
