@@ -35,7 +35,18 @@ The PSP was made up of:
 
 ## Retail Hardware
 For an in-depth look at the Playstation Portable's Retail hardware architecture check out the excellent post by **Copetti.org**:
-[PlayStation Portable Architecture | A Practical Analysis](https://www.copetti.org/writings/consoles/playstation-portable/)
+
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.png" title="PlayStation Portable Architecture - A Practical Analysis"  %}
+
+
+
+---
+# PSP Game Software Devleopment
+
+## SN Systems ProDG SDK
+There was a custom Software Development kit that was created by **SN Systems** before they got bought by Sony in 2005. It was later included in the official SDK when Sony bought the company.
+
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the SN Systems SDK check out this post." %}
 
 ---
 # All Posts
