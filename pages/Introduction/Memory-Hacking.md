@@ -80,5 +80,10 @@ For example if you look for a life cheat code for **Action Replay** it will have
 Memory Hacking is not exclusive to Emulators or cheat cartridges, the PC gaming community has been using these methods for many years. One very popular tool is known as **Cheat Engine** and it performs the same functions but for any PC program.
 
 ---
+# iHaxGames - Cheat Engine for mac!
+
+Source code: [https://github.com/rwilfong50401/iHaxGamez](https://github.com/rwilfong50401/iHaxGamez) 
+
+---
 # References
 [^1]: [Hacking Nintendo 64 ROMs - Memory Hacking Software MHS - YouTube](https://www.youtube.com/watch?v=AxRmQ3bbe1Q)
