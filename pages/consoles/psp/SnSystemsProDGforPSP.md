@@ -155,12 +155,13 @@ pspprxgen | .exe | PSP PRX utility - pspprxgen v1.7.174.0
 psprun | .exe | PSP Target Manager Command Line Tool - PSPRUN v1.8.5.0 (Apr 15 2010)
 pspsnc | .exe | The main C/C++ Compiler from SN Systems
 psptm | .exe | The PSP Target Manager GUI
-psptmapi | .dll | 
-psptmapix64 | .dll | 
+psptmapi | .dll | PSP Target Manager API DLL
+psptmapix64 | .dll | 64bit version of psptmapi.dll
 sn_autoexp | .dat | 
 snarl | .exe | The SN ARchive Librarian (snarl) follows the same usage as GNU ar (archive for static libraries).
 snbin | .exe | The SN binary utilities program snbin.exe is a tool for manipulating ELF/PRX files and library/archive files.
 
+We are not really sure the purpose of **pspipa.exe**, **pspcfe.exe** or **pspcq.exe**, if you know the purpose of these executables then please let us know.
 
 ### BlankElf - Used to submitting bug reports to SN System
 The purpose of blankelf is to fill the code sections with zero within an ELF file. 
@@ -171,10 +172,10 @@ You can use blankelf to zero all the code, which renders the ELF useless. Howeve
 ### Snbin - Binary utilities
 The SN binary utilities program **snbin.exe** is a tool for manipulating ELF/PRX files and library/archive files.
 Features include: 
-* stripping of sections, symbols and debug data
-* dumping of section headers, symbol tables and program headers
-* copying sections to a binary file
-* renaming sections
+* Stripping of sections, symbols and debug data
+* Dumping of section headers, symbol tables and program headers
+* Dopying sections to a binary file
+* Renaming sections
 
 ---
 ### PSP Target Manager (psptm.exe)
