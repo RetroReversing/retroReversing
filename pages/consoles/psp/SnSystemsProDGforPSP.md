@@ -30,15 +30,17 @@ SN Systems were in the business of creating excellent 3rd party development tool
 
 {% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems check out this post." %}
 
-Although SN Systems were later bought by Sony in 2005, the pre-2005 version of the SDKs are a true third party SDk competing with the official Sony software development kit.
+Although SN Systems were later bought by Sony in 2005, the 2004 version of the SDKs are a true third party SDk competing with the official Sony software development kit [^4].
+
+The SN Systems ProDG tools were later incorporated into the official Sony PSP SDK, the first version that did this is unknown but it was present in the 6.6.0 release from 2011.
 
 ## What was contained in the SDK?
 The SDK contained the SN Systems Compilers (SNC C/C++) which were optimised specifically for the handheld's cpu architecture, allowing faster assembly code to be generated compared to Sony's standard SDK.
 
 The SDK contained a few main parts:
-* **ProDG Tuner** - Game optimization
-* **Target Manager** - Development Kit managment interface
-* **Proview** - Artist preview tool
+* **ProDG Tuner** (TunerforPSPv1.6.0.exe) - Game optimization
+* **Target Manager** (ProDGforPSPv1.4.1.exe) - Development Kit managment interface
+* **Proview** (ProViewforPSPv1.2.1.exe) - Artist preview tool
 
 ### ProDG Tuner
 The SDK also contained the ProDG Tuner (Tuner-LE) which was used to for game optimization by visualising code and providing information about where the main bottlenecks are [^2].
@@ -54,12 +56,16 @@ So far we only know of one versions to exist:
 * 2.7.1 - used in Need for Speed
 
 ## Have any versions of the SDK been leaked?
-No versions of the ProDG SDK for the PSP have currently been leaked to the internet, although a photo of it had been shared to Andrew Borman's Twitter:
+No versions of the original third party 2004 ProDG SDK for the PSP have currently been leaked to the internet, although a photo of it had been shared to Andrew Borman's Twitter:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">When you know, you know <a href="https://t.co/23r0yLiAd1">pic.twitter.com/23r0yLiAd1</a></p>&mdash; Andrew Borman (@Borman18) <a href="https://twitter.com/Borman18/status/1375240658533900289?ref_src=twsrc%5Etfw">March 26, 2021</a></blockquote> 
 
-
 ![SN Systems C/C++ Compiler](https://github.com/user-attachments/assets/36139fbc-280d-4e8d-9ab3-3e9e22ebe6b9)
+
+However version 6.6.0 of the official SDK does contains the ProDG installers from 2011:
+* ProDGforPSPv1.4.1.exe
+* ProViewforPSPv1.2.1.exe
+* TunerforPSPv1.6.0.exe
 
 ---
 # Usage
@@ -198,3 +204,4 @@ This is all we currently know about this SDK, if you have any more information t
 [^1]: [PSP Dev Tool Success For UK Firm News](https://archive.ph/20130630110629/http://www.totalvideogames.com/PSP/news/PSP-Dev-Tool-Success-For-UK-Firm-6919.html)
 [^2]: [SN Systems new product – Tuner-LE for PSP™ - GamesIndustry.biz](https://www.gamesindustry.biz/articles/sn-systems-new-product-tuner-le-for-psp)
 [^3]: [SN Products Home Page](http://web.archive.org/web/20050908160005/http://www.snsystems.com/Products/)
+[^4]: [ProDG for PSP™](https://web.archive.org/web/20040411183416/http://www.snsys.com/PSP/ProDG.htm)
