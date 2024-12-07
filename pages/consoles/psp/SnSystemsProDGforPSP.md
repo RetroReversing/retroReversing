@@ -188,10 +188,10 @@ Target Manager allows you to connect to the target, load and run executable file
 
 Target Manager can be used with a range of SCE development hardware.
 
-Target Manager is provided with the following SN Systems products:   
+Target Manager is provided with the following SN Systems products:
 * ProDG
- * ProView/ProView-LE
- * Tuner
+* ProView/ProView-LE
+* Tuner
 
 ---
 ### PSP Debugger
