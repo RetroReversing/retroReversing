@@ -121,9 +121,62 @@ The **snclm.exe** executable opens the following window:
 
 Its not particularly interesting, but I was surprised that it was still bundled with the latest version of the Official SDK as the license registeration is very SN Systems specific.
 
+---
 ## PSP Folder
 
 ### /PSP/bin Folder
+
+
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains all the compiled executables for compiling with the Sn Systems Pro DG SDK.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BlankElf | .exe | BlankElf version 1.2 used for submitting bug reports to SN Systems without leaking code
+PSPDebugger | .exe | Connects to the PSP development hardware and allows breakpoints and memory editing
+demangle | .dll | 
+make | .exe | GNU Make 3.80 SN Build 1.17
+pspas | .exe | PSP Assembler (pspas 1.1.1737.0 (dev,main @52548 #265261 ))
+pspcfe | .exe | 
+pspcor | .exe | Takes in a .B file
+pspcq | .exe | 
+pspdemangle | .dll | 
+pspipa | .exe | 
+pspld | .exe | 
+pspname | .exe | 
+pspprxgen | .exe | 
+psprun | .exe | 
+pspsnc | .exe | 
+psptm | .exe | 
+psptmapi | .dll | 
+psptmapix64 | .dll | 
+sn_autoexp | .dat | 
+snarl | .exe | The SN ARchive Librarian (snarl) follows the same usage as GNU ar (archive for static libraries).
+snbin | .exe | The SN binary utilities program snbin.exe is a tool for manipulating ELF/PRX files and library/archive files.
+
+
+### BlankElf - Used to submitting bug reports to SN System
+The purpose of blankelf is to fill the code sections with zero within an ELF file. 
+The ELF file will then have only debug and symbol information. It is used when customers want to send SN Systems an ELF file that has something wrong with its debug or symbol data, but they don't want to let a fully working ELF out of the office. 
+
+You can use blankelf to zero all the code, which renders the ELF useless. However, even with no runnable code, the SN Systems support team can load the ELF and see what is wrong with its debug or symbol data.
+
+### Snbin - Binary utilities
+The SN binary utilities program **snbin.exe** is a tool for manipulating ELF/PRX files and library/archive files.
+Features include: 
+* stripping of sections, symbols and debug data
+* dumping of section headers, symbol tables and program headers
+* copying sections to a binary file
+* renaming sections
+
+### PSP Target Manager
 The PSP Target Manager (**psptm.exe**):
 <img width="783" alt="image" src="https://github.com/user-attachments/assets/a0a1f329-adb8-4a90-bdaa-6e42e16d2287">
 
