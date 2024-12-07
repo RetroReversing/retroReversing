@@ -72,7 +72,7 @@ However version 6.6.0 of the official SDK does contains the ProDG installers fro
 * **TunerforPSPv1.6.0.exe** - The Performance optimizer
 
 ---
-# ProDGforPSPv1.4.1.exe Install Process
+# Pro DG for PSP 1.4.1 (ProDGforPSPv1.4.1.exe)
 
 The **ProDGforPSPv1.4.1.exe** installer is the last version we are aware of for the PRODG SDK and was released in the official Sony SDK version 6.6.0 in 2011. 
 
@@ -130,6 +130,33 @@ The PSP Target Manager (**psptm.exe**):
 The PSP Debugger:
 <img width="1324" alt="image" src="https://github.com/user-attachments/assets/af2b8201-109d-4856-a1c7-ec9a5fae13e0">
 
+---
+# ProView for PSP 1.2.1 (ProViewforPSPv1.2.1.exe)
+
+The installer executable contains the following files:
+* Target Manager v1.8.4
+* Target Manager SDK
+* Files to create a bootable ProView disc image
+* Command-line utility: psprun.exe
+* Documentation in CHM and PDF format
+
+## Install Process
+
+It installs into **C:\Program Files\SN Systems\PSP\**:
+<img width="495" alt="image" src="https://github.com/user-attachments/assets/9bd979bd-9542-4afa-833e-38cc756128b9">
+
+## Installed Files
+After the ProDG installer has run it will have created two new folders in **C:\Program Files\SN Systems\PSP\** :
+* drivers - folder with Driver Package Install (dpinst.exe)
+* target - folder with different Kernel DiscImages, 1.5.2->6.0.0
+* examples/proview - folder with proview example projects
+* help/ProViewRelease Notes
+* include/sn_proview.h
+* lib/snproview.a
+* legal/ProView_PSP_SUL.txt
+
+When running dpinst.exe you get:
+<img width="498" alt="image" src="https://github.com/user-attachments/assets/7154c8de-d5bb-48c3-bf6a-bb405673b954">
 
 
 ---
