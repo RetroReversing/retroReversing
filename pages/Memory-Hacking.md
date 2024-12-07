@@ -20,13 +20,13 @@ recommend:
 - n64
 - memory
 - introduction
-editlink: /consoles/n64/N64-Rom-Memory-Hacking.md
+editlink: /Memory-Hacking.md
 updatedAt: '2021-03-24'
 ---
 # Memory Hacking
 One excellent way to get started modifying your favourite game is to use memory hacking techniques. By learning what memory locations are used for specific functions you can perform all sorts of crazy cheats and start to get an understanding of how the game works internally.
 
-You can even use a tool like **Cheat Engine** to inspect memory of an emulator such as Mupen64 to modify the contents of N64 game memory!
+You can even use a tool like **Cheat Engine** to inspect memory of an emulator such as **Mupen64** to modify the contents of N64 game memory!
 
 ## How it works
 <section class="postSection">
