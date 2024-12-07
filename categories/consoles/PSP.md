@@ -38,6 +38,9 @@ For an in-depth look at the Playstation Portable's Retail hardware architecture 
 
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.png" title="PlayStation Portable Architecture - A Practical Analysis"  %}
 
+## Development Hardware
+
+{% include link-to-other-post.html post="/official-psp-devkit" description="For more information on the development hardware check out this post." %}
 
 
 ---
