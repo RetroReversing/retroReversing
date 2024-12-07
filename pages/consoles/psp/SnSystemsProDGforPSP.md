@@ -52,8 +52,12 @@ Similar to the ProDG SDKs for other consoles this SDK included the **Target Mana
 Proview is an optional part of the SDK tailored to artists, this allows them to test how their assets look and run on the PSP hardware without having to create a new build of the game. This can be run through the previously discussed Target Manager meaning any artist PC could connect to it similar to a shared network printer.
 
 ## What are the known versions of the SDK?
-So far we only know of one versions to exist:
+The first version of the Client License Manager was from **October 2004** (according to the CLM pdf documentation.)
+
+So far we only know of one version number to exist:
 * 2.7.1 - used in Need for Speed
+
+But we are not sure if the 2.7.1 is the version number for the whole ProDG SDK or something else, each part e.g ProView, ProDG etc has their own version number with max being 1.6.0 for the Tuner so it is possible that the 2.7.1 is unrelated to ProDG completely.
 
 ## Have any versions of the SDK been leaked?
 No versions of the original third party 2004 ProDG SDK for the PSP have currently been leaked to the internet, although a photo of it had been shared to Andrew Borman's Twitter:
@@ -63,26 +67,56 @@ No versions of the original third party 2004 ProDG SDK for the PSP have currentl
 ![SN Systems C/C++ Compiler](https://github.com/user-attachments/assets/36139fbc-280d-4e8d-9ab3-3e9e22ebe6b9)
 
 However version 6.6.0 of the official SDK does contains the ProDG installers from 2011:
-* ProDGforPSPv1.4.1.exe
-* ProViewforPSPv1.2.1.exe
-* TunerforPSPv1.6.0.exe
+* **ProDGforPSPv1.4.1.exe** - The main SDK including the Target Manager
+* **ProViewforPSPv1.2.1.exe** - The Artist development tool
+* **TunerforPSPv1.6.0.exe** - The Performance optimizer
 
 ---
 # ProDGforPSPv1.4.1.exe Install Process
-The **ProDGforPSPv1.4.1.exe** is a windows setup executable thats checks for any versions of Visual Studio:
+
+The **ProDGforPSPv1.4.1.exe** installer is the last version we are aware of for the PRODG SDK and was released in the official Sony SDK version 6.6.0 in 2011. 
+
+It is a windows setup executable thats installs the main SDK to **C:\Program Files\SN Systems\PSP\** but not the Artist tools (ProView) or the performance optimizer (Tuner).
+
+The 1.4.1 release contained the following development tools:
+* Assembler v1.1.1737.0
+* SNC PSP C/C++ Compiler v1.2.7503.0
+* Linker v2.7.63.0
+* PRX tool v1.7.174.0
+* Debugger v2.9.9
+* Target Manager v1.8.5
+* Target Manager SDK
+* Libraries
+* Utilities
+* Visual Studio Integration v1.8.7
+
+## Installation process
+checks for any versions of Visual Studio:
 ![Installer](https://github.com/user-attachments/assets/e31b8473-e087-4f61-87a4-b40afcf38a0d)
 
-It installs into **C:\Program Files\SN Systems\PSP\**:
+It installs into **C:\Program Files\SN Systems\PSP\** :
 ![Installer](https://github.com/user-attachments/assets/24fb4a4a-f79e-4d72-a346-dc794e875f85)
 
-It requires the PSP Hardware SDK (SCE_PSP_HW_ROOT) to be chosen e.g **C:\usr\local\PSP\devkit**:
+It requires the PSP Hardware SDK (SCE_PSP_HW_ROOT) to be chosen e.g **C:\usr\local\PSP\devkit** this should have alreadsy been installed:
 ![SCE_PSP_HW_ROOT](https://github.com/user-attachments/assets/17cfbb2c-5e77-4912-aab8-e95b70fe0392)
+
+## Installed Files
+After the ProDG installer has run it will have created two new folders in **C:\Program Files\SN Systems\PSP\** :
+* Common - Client License Manager
+* PSP
+
+### Common Folder
+The Common Folder contains two sub folders;
+* bin - Contains the two executables **SNLauncher.exe** and **snclm.exe**
+* help - Documentation about the Client License Manager in both English and Japanese in PDF and CHM formats
+
+
 
 
 
 ---
-# Usage
-Although the SDK was third party it was extremely popular among PSP development studios and many games used the SDK's excellent compilers and debug functionality.
+# Usage in Games
+Although the SDK was (initially) third party it was extremely popular among PSP development studios and many games used the SDK's excellent compilers and debug functionality.
 
 ## What games used the ProDg PSP SDK?
 As this is a third party optional SDK not all PSP games would have used it as it is not a requirement and some just used the standard official Sony SDK.
