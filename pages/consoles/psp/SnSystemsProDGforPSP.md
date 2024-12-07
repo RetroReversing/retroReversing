@@ -268,7 +268,7 @@ VSI_OverlaySamples | .zip |
  This folder contains...
 
 This folder also contains the following sub-directories:
-* **balloon** - 
+* **balloon** - The Standard Sony Balloon demo from the official PSP SDK
   </div>
 </section>  
 
@@ -308,7 +308,7 @@ timer | .c |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/balloon</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the original baloon demo that is available in the Official PSP SDK from Sony, modified for the SN Systems Pro DG development kit.
 
   </div>
 </section>  
@@ -355,7 +355,7 @@ File Name | Extension | Description
 Makefile | N/A | Used to build the source code in the folder (run make)
 PrxPreloads | .txt | 
 ReadMe_GP | .txt | 
-hello_world | .c, .sln, .vcproj | 
+hello_world | .c, .sln, .vcproj |  Visual Studio project files and a really basic Hello World example
 
 
 ---
@@ -396,11 +396,11 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-ResidentLibExample | .sln | 
+ResidentLibExample | .sln |  Visual Studio solution file
 
 
 ---
-##### Callee (/SN Build Samples/Resident Library Example/ResidentLibExample/Callee)
+#### Callee (/SN Build Samples/Resident Library Example/ResidentLibExample/Callee)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Callee</div>
   <div markdown="1" class="rr-post-markdown">
@@ -413,12 +413,12 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Callee | .vcproj | 
+Callee | .vcproj |  Visual Studio project file
 ReadMe_GP | .txt | 
 
 
 ---
-##### Caller (/SN Build Samples/Resident Library Example/ResidentLibExample/Caller)
+#### Caller (/SN Build Samples/Resident Library Example/ResidentLibExample/Caller)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Caller</div>
   <div markdown="1" class="rr-post-markdown">
@@ -431,13 +431,13 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Caller | .vcproj | 
+Caller | .vcproj |  Visual Studio project file
 PrxPreloads | .txt | 
 ReadMe_GP | .txt | 
 
 
 ---
-#### Snmathlib (/SN Build Samples/VFPU examples/SnMathLib)
+### Snmathlib (/SN Build Samples/VFPU examples/SnMathLib)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SnMathLib</div>
   <div markdown="1" class="rr-post-markdown">
@@ -458,7 +458,7 @@ SnMathLibVFPU | .h | Include file for declaring
 ---
 ## Snc vsi projects for sce psp hardware examples (/SNC VSI Projects for SCE PSP Hardware Examples)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/SNC VSI Projects for SCE PSP Hardware Examples</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/SNC VSI Projects</div>
   <div markdown="1" class="rr-post-markdown">
  This folder contains...
 
@@ -490,7 +490,7 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-TTY Echo | .vcproj | 
+TTY Echo | .vcproj | Visual Studio project file
 main | .c | 
 
 ---
