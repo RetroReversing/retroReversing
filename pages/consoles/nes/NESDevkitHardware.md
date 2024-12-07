@@ -76,8 +76,12 @@ In the photograph on the left you can see a custom EEPROM cartridge inside the r
 </div>
 </section>
 
-In the American TV staion **PBS** there was a 9 minute segment broadcast on **December 30th, 1988** from MacNeil/Lehrer "NewsHour" [^26] which gave a very brief look inside the Nintendo Research and Development office and shows an EEPROM chip being written to on a system called either **PRO5-80** or **PROS-80** (the font isn't clear) :
+In the American TV staion **PBS** there was a 9 minute segment broadcast on **December 30th, 1988** from MacNeil/Lehrer "NewsHour" [^26] which gave a very brief look inside the Nintendo Research and Development office and shows an EEPROM chip being written to on a system called the **PROS-80** by **IWASAKI**:
 ![Pro5-80](https://github.com/user-attachments/assets/ab110bb9-0e46-4734-8325-e4244d0a4d16)
+
+Since the image is a bit blurry here is an image of a slightly different unit (PROS-80F):
+![IWASAKI PROS-80F](https://github.com/user-attachments/assets/da68e670-72fd-4029-a48e-9782450e23a6)
+
 
 This chip is then transferred over to a custom NES cartridge by **Masahiro Ishizuka** and an unknown developer:
 ![Custom Cartridge](https://github.com/user-attachments/assets/0da909c3-b45c-4c4b-9678-ee36656c3093)
