@@ -20,7 +20,7 @@ recommend:
 - n64
 - memory
 - introduction
-editlink: /Memory-Hacking.md
+editlink: /Introduction/Memory-Hacking.md
 updatedAt: '2021-03-24'
 ---
 # Memory Hacking
