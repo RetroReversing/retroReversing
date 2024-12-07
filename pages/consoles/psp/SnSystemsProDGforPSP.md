@@ -247,7 +247,7 @@ It contains a few headers and Visual Studio project files but the main code is i
 
 This folder also contains the following sub-directories:
 * **SN Build Samples** - 
-* **Debuggerv2.Xscripting** - 
+* **Debuggerv2.Xscripting** - Examples of PSP Debugger Scripts
 * **SNC VSI Projects for SCE PSP Hardware Examples** - 
 * **TTY Echo** - 
   </div>
@@ -265,7 +265,11 @@ VSI_OverlaySamples | .zip |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Debuggerv2.Xscripting</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains examples for scripting with the PSP Debugger. 
+    
+The script view allows you to execute your own ANSI-C programs to perform complex debugger operations including send/receive data to/from memory. Start or stop execution, set breakpoints, load executable files, customize debugger shortcut menus, draw text and graphics, manipulate files, change the way watches are displayed, execute other programs, etc. 
+
+Scripts are plain text files but are compiled at run-time for very fast execution. Scripts can also be auto-loaded at debugger startup and custom script views can be saved and reloaded when you exit and restart the debugger.
 
 This folder also contains the following sub-directories:
 * **balloon** - The Standard Sony Balloon demo from the official PSP SDK
@@ -276,31 +280,31 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-BinFiles | .c | 
-BrokenMenu | .c | 
-IsRunning | .c | 
-Menu | .c | 
-Menu2 | .c | 
-Menu3 | .c | 
-RunToAddr | .c | 
-SetMem | .c | 
-StartStop | .c | 
-StartStopBroken | .c | 
-addrlookup | .c | 
-autoexec | .eic | 
-balloonProfile | .c | 
-balloonTool | .c | 
-balloonTool2 | .c | 
-breakpoints | .c | 
-drawModes | .c | 
-dumpmem | .c | 
-endianSwap | .c | 
-eval | .c | 
-font | .c | 
-notifications | .c | 
-step | .c | 
-test | .bin | 
-timer | .c | 
+BinFiles | .c | BinFiles.c shows how to save and load .bin files.  To ensure there is always a .bin file to load, the save .bin file runs first.
+BrokenMenu | .c | BrokenMenu.c is the example used in the documentation to show that it is important to break associations between menu item IDs and the code when adding and removing them. 
+IsRunning | .c | IsRunning.c is a short script demonstrating the use of the UnitIsRunning command.
+Menu | .c | Menu.c demonstrates a simple menu example.
+Menu2 | .c | Menu2.c is an example of using menus without interfering with the main program flow (in this case, repeatedly printing a number to the screen).
+Menu3 | .c | Menu3.c is a larger example of menus and notifications.
+RunToAddr | .c | RunToAddr.c shows how the UnitRunToAddress function should best be run in order to ensure that it has completed successfully.
+SetMem | .c |  SetMem.c shows how to set a block of memory directly from the debugger on to the target device.
+StartStop | .c | StartStop.c demonstrates the safe use of the UnitStop function.
+StartStopBroken | .c |  StartStopBroken.c demonstrates the incorrect use of the UnitStop function.
+addrlookup | .c | AddrLookup.c demonstrates the use of the UnitAddressToLabel and UnitAddressToLine functions and the NT_UNITSTOP notification event.
+autoexec | .eic | autoexec.eic is an example of a startup script.  This script loads into the Immediate Mode Script Engine and remains resident.
+balloonProfile | .c | BalloonProfile.c is an example of a simple method of profiling a program.  This example has been written to work with the PSP Graphic Library sample "balloon" and measures the amount of time between frames.
+balloonTool | .c | This demonstrates how information about a program can be extracted using the UnitEvaluateExpression in conjunction with the UnitGetMemory command
+balloonTool2 | .c | BalloonTool2.c is an extension of balloonTool.c script that  displays graphical output when run in conjunction with the PSP Graphics Sample "balloon".
+breakpoints | .c | Breakpoints.c demonstrates the ability to add and remove breakpoints.
+drawModes | .c |  DrawModes.c is used to demonstrate all of the possible draw modes available for combining graphical and text output to the screen.
+dumpmem | .c | DumpMem.c shows how to use scripts to fetch memory from the target.
+endianSwap | .c | EndianSwap.c demonstrates the endianSwap functions available in the scripting language.
+eval | .c |  Eval.c shows an example of the use of the builtin function UnitEvaluateExpression() to evaluate expressions in the context of the target CPU.
+font | .c |  Font.c shows how to retrieve and parse a font list from your system.
+notifications | .c | Notifications.c demonstrates how to use notifications by using RequestNotification, GetNotification, CheckNotification and CancelNotification.
+step | .c | Step.c gives an example of the stepping functionality available in the scripting language.  This version is a trivial example as the same result could be achieved using the debugger's built-in functionality.
+test | .bin | written by the BinFiles.c example
+timer | .c | imer.c shows how to use the Notify system to handle custom timer events.
 
 
 ---
@@ -328,7 +332,7 @@ main | .c |
 mssccprj | .scc | 
 pole | .c | 
 readme_e | .txt | 
-readme_j | .txt | 
+readme_j | .txt | Japanese version of the readme
 sphere | .c | 
 tex_pf4444 | .h | Include file for declaring 
 tex_pf5551 | .h | Include file for declaring 
@@ -339,6 +343,8 @@ tex_pfidx8 | .h | Include file for declaring
 
 
 ---
+## SN Build Samples
+
 ### Helloworld (hw) (/SN Build Samples/HelloWorld (hw))
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/HelloWorld (hw)</div>
