@@ -150,6 +150,7 @@ libsnoverlay | .a | Static Library archive of functions like load_psp_overlay
 libstl | .a | Static Library archive of STL (STLPort presumably?)
 psp | .ld | Linker script
 
+---
 ### /PSP/bin Folder
 
 <section class="postSection">
@@ -223,6 +224,18 @@ Target Manager is provided with the following SN Systems products:
 ### PSP Debugger
 The PSP Debugger:
 <img width="1324" alt="image" src="https://github.com/user-attachments/assets/af2b8201-109d-4856-a1c7-ec9a5fae13e0">
+
+### /PSP/sdk Folder - Example of Target Manager SDK
+
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/sdk</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the source code for the **psprun.exe** command line program to gives developers an example of how to use the ProDG Target manager SDK.
+
+It contains a few headers and Visual Studio project files but the main code is in a 1.5K source file called **psprun.cpp**.
+
+  </div>
+</section>  
 
 ---
 # ProView for PSP 1.2.1 (ProViewforPSPv1.2.1.exe)
