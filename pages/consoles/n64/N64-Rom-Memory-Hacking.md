@@ -3,7 +3,8 @@ layout: post
 tags: 
 - n64
 - memory
-title: N64 Rom Memory Hacking (Paper Mario)
+- introduction
+title: Memory Hacking
 thumbnail: /public/consoles/Nintendo 64.png
 image: /public/images/n64/N64 Memory Editing.jpg
 twitterimage: https://www.retroreversing.com/public/images/n64/N64 Memory Editing.jpg
@@ -13,11 +14,12 @@ breadcrumbs:
     url: /
   - name: Nintendo 64
     url: /n64
-  - name: N64 Rom Memory Hacking (Paper Mario)
+  - name: Memory Hacking
     url: #
 recommend: 
 - n64
 - memory
+- introduction
 editlink: /consoles/n64/N64-Rom-Memory-Hacking.md
 updatedAt: '2021-03-24'
 ---
