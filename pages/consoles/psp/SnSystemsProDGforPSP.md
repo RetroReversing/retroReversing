@@ -123,9 +123,34 @@ Its not particularly interesting, but I was surprised that it was still bundled 
 
 ---
 ## PSP Folder
+The PSP Folder contains the main ProDG SDK files, with the compilers in the ./bin folder and the include files in the ./include folder.
+
+This SDK also includes version 4.6.2 of **STL Port**, which is a multiplatform ANSI C++ Standard Library implementation.
+
+### /PSP/lib Folder
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the static libraries that make up the ProDG SDK pre-compiled for PSP. You will need to include these in your build if you use the SN Systems C/C++ compiler.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+COPYING | , .NEWLIB | 
+libc | .a | Static Library archive of the standard C library
+libgcs | .a | Static Library archive of Internal compiler functions
+libm | .a | Static Library archive of Math functions sin, cos etc
+libsn | .a | Static Library archive of SN Systems helper functions such as snNotifyDebugger
+libsncpp | .a | Static Library archive of libCPP run time support for C++ code. If you write any C++ code then you must link this library. It provides C++ functionality that is automatically used by the code generated from the compiler.
+libsnoverlay | .a | Static Library archive of functions like load_psp_overlay
+libstl | .a | Static Library archive of STL (STLPort presumably?)
+psp | .ld | Linker script
 
 ### /PSP/bin Folder
-
 
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin</div>
