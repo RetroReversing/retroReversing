@@ -68,6 +68,19 @@ However version 6.6.0 of the official SDK does contains the ProDG installers fro
 * TunerforPSPv1.6.0.exe
 
 ---
+# ProDGforPSPv1.4.1.exe Install Process
+The **ProDGforPSPv1.4.1.exe** is a windows setup executable thats checks for any versions of Visual Studio:
+![Installer](https://github.com/user-attachments/assets/e31b8473-e087-4f61-87a4-b40afcf38a0d)
+
+It installs into **C:\Program Files\SN Systems\PSP\**:
+![Installer](https://github.com/user-attachments/assets/24fb4a4a-f79e-4d72-a346-dc794e875f85)
+
+It requires the PSP Hardware SDK (SCE_PSP_HW_ROOT) to be chosen e.g **C:\usr\local\PSP\devkit**:
+![SCE_PSP_HW_ROOT](https://github.com/user-attachments/assets/17cfbb2c-5e77-4912-aab8-e95b70fe0392)
+
+
+
+---
 # Usage
 Although the SDK was third party it was extremely popular among PSP development studios and many games used the SDK's excellent compilers and debug functionality.
 
