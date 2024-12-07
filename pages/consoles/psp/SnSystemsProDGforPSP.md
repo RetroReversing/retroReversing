@@ -146,7 +146,7 @@ It installs into **C:\Program Files\SN Systems\PSP\**:
 <img width="495" alt="image" src="https://github.com/user-attachments/assets/9bd979bd-9542-4afa-833e-38cc756128b9">
 
 ## Installed Files
-After the ProDG installer has run it will have created two new folders in **C:\Program Files\SN Systems\PSP\** :
+After the ProView installer has run it will have created two new folders in **C:\Program Files\SN Systems\PSP\** :
 * drivers - folder with Driver Package Install (dpinst.exe)
 * target - folder with different Kernel DiscImages, 1.5.2->6.0.0
 * examples/proview - folder with proview example projects
@@ -158,6 +158,30 @@ After the ProDG installer has run it will have created two new folders in **C:\P
 When running dpinst.exe you get:
 <img width="498" alt="image" src="https://github.com/user-attachments/assets/7154c8de-d5bb-48c3-bf6a-bb405673b954">
 
+---
+# Tuner for PSP 1.6.0 (TunerforPSPv1.6.0.exe)
+Tuner is designed to work with **SCE PSP development hardware DTP-T1000A**. It does not work with the SCE PSP Testing Tool or the PSP emulator. 
+
+Tuner for PSP version 1.6.0 contains:
+* Tuner (psptuner.exe)
+* Target Manager (psptm.exe)
+* Demangler (pspdemangle.dll) 
+
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/926c1281-79f6-44e5-b217-a8b32783ed3f">
+
+## Installed Files
+After the Tuner installer has run it will have created two new folders in **C:\Program Files\SN Systems\PSP\** :
+* /bin/PSPTuner.exe
+* /help/Tuner-PSP-E (pdf and chm) Also contains a Japanese version (-J)
+* /help/Tuner_Release Notes-E.htm Also contains a Japanese version (-J)
+* /include/SNTuner.h
+* /legal/Tuner-PSP_SUL.txt
+* lib/SNTuner.a
+
+The **PSPTuner.exe** opens the following window:
+<img width="1004" alt="image" src="https://github.com/user-attachments/assets/a6f37546-643f-4b94-97c7-66e690000e0a">
+
+It can open **.SNT** Sn Systems Tuner files.
 
 ---
 # Usage in Games
