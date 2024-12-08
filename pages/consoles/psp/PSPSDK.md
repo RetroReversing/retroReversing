@@ -37,3 +37,32 @@ Later versions of the SDK included the ProDG development kit provided by SN Syst
 
 For information on the ProDG SDK we have a seperate post:
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
+
+---
+# Documentation (/Docs)
+
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Docs</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **SNTools** - Documentation on SN Systems ProDG Tools
+* **ConferenceContent** - Password protected slides from conferences in 2005 in both English and Japanese
+* **TRC** - Technical Requirements Checklist - It contains important rules and restrictions for creating master discs for PSP games
+  </div>
+</section>  
+
+
+The contents of the **SNTools** folder will not be discussed in this post as we have a sepeate page for all the SN Systems ProDG SDk information:
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
+
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+PSP_Setup_Guide-English | .pdf | 40 page guide on setting up the SDK on both windows and linux and connecting to the development hardware
+PSP_Setup_Guide-Japanese | .pdf | Japanese Version
+PSP_Setup_Guide-Korean | .pdf | Korean Version
+
