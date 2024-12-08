@@ -114,7 +114,7 @@ Seminar2005-07_update-Japanese | .pps |
  It also has a document of all the test cases that each game goes through before mastering.
 
 This folder also contains the following sub-directories:
-* **Logo** - 
+* **Logo** - Adobe Illustrator (.ai) vector images of the allowed Sony logos
   </div>
 </section>  
 
@@ -153,3 +153,42 @@ psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that ar
 psptestcases_forTRC50-Japanese | .pdf | Japanese version of all the test cases
 ptrc52-English | .doc, .pdf | TRC for PSPTM Software, Version 5.2, including information on how to submit the TRC form
 ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
+
+---
+---
+# PSP PGF Fonts  (pgf_archives_1.0.0)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains infromation on the officially supported fonts for PSP.
+
+ They are mainly:
+ * FTT-Matisse Pro Latin - serif font
+ * FTT-NewRodin Pro Latin - san serif font
+ * AsiaKNHH-SONY-uni - Korean font
+
+In various different combinations such as bold italic etc
+
+This folder also contains the following sub-directories for each size of the font, containing all the .pgf files for each variant (korean, japanese etc):
+* **org** - the original version of the font
+* **6pt** -  6 point version of the font
+* **8pt** -  8 point version of the font
+* **10pt** - 10 point version of the font
+* **14pt** - 14 point version of the font
+* **18pt** - 18 point version of the font
+* **22pt** - 22 point version of the font
+  </div>
+</section>  
+
+Developers were free to use all the PGF files that are contained in this archive file via "libfont," which is included in PSP Runtime Library 2.0.0 or later.
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+PgfContentsTable-English | .pdf | A single page table of the details of fonts for distribution (1.0.0), NewRodin Pro Latin and Matisse Pro Latin
+PgfContentsTable-Japanese | .pdf | Japanese version
+PgfContentsTable-Korean | .pdf | Korean version
+Readme_PgfArchives-English | .txt | Brief details on the files located in this folder
+Readme_PgfArchives-Japanese | .txt | Japanese version
+Readme_PgfArchives-Korean | .txt | Korean version
