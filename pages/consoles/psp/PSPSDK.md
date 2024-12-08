@@ -154,7 +154,7 @@ psptestcases_forTRC50-Japanese | .pdf | Japanese version of all the test cases
 ptrc52-English | .doc, .pdf | TRC for PSPTM Software, Version 5.2, including information on how to submit the TRC form
 ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
 
----
+
 ---
 # PSP PGF Fonts  (pgf_archives_1.0.0)
 <section class="postSection">
@@ -204,48 +204,49 @@ Readme_PgfArchives-Korean | .txt | Korean version
 
 This folder also contains the following sub-directories:
 * **1st_read** - The initial documentation to be read first
-* **bin** - Binary Executables for compiling/building in both cygwin and linux
+* **bin** - Binary Executables for compiling/building in both cygwin and linux (also known as psp-utils)
 * **bin.windows** - Windows version of the build tools such as compilers
 * **bin.linux** - Linux version of the build tools such as compilers
-* **htool_updater** - Update for the PSP Tool hardware
-* **module** - 
-* **include** - SDK header files
-* **setup** - 
 * **document** - Main Documentation
+* **module** - Compiled PRX modules
+* **include** - SDK header files
+* **lib** - SDK Static Library files
+* **src** - Source code to the libraries
 * **contrib** - A Photoshop plugin for the GIM texture format
 * **flash** - 
 * **sample** - 
 * **tips** - 
-* **lib** - SDK Static Library files
 * **tool_flash** - 
+* **htool_updater** - Update for the PSP Tool hardware
 * **data** - 
 * **tool** - 
-* **src** - 
+* **setup** - Hardware Tool instruction manual
   </div>
 </section>  
 
-The files in this folder are described in the table below:
+The files in this folder are described in the table below, I have removed the japanese and korean versions to avoid duplication:
 
 File Name | Extension | Description
 ---|---|---
-Install_e | .bat | Windows Batch file for running 
-Install_j | .bat | Windows Batch file for running 
-Install_k | .bat | Windows Batch file for running 
-Readme-English | .txt | 
-Readme-Hardware_tool_Kernel_Update_Binary-English | .txt | 
-Readme-Hardware_tool_Kernel_Update_Binary-Japanese | .txt | Japanese version
-Readme-Hardware_tool_Kernel_Update_Binary-Korean | .txt | Korean version
-Readme-Japanese | .txt | Japanese version of the readme
-Readme-PSP_Supplement_Font-English | .txt | 
-Readme-PSP_Supplement_Font-Japanese | .txt | Japanese version
-Readme-PSP_Supplement_Font-Korean | .txt | Korean version
-Readme-PSP_Utils_Windows-English | .txt | 
-Readme-PSP_Utils_Windows-Japanese | .txt | Japanese version
-Readme-PSP_Utils_Windows-Korean | .txt | Korean version
-Readme-Testing_tool_Kernel_Update_Binary-English | .txt | 
-Readme-Testing_tool_Kernel_Update_Binary-Japanese | .txt | Japanese version
-Readme-Testing_tool_Kernel_Update_Binary-Korean | .txt | Korean version
+Install_e | .bat | Windows Batch file for moving the bin.windows exe files into the bin directory 
+Readme-English | .txt | Brief description of the Contents of the devkit directory
+Readme-Hardware_tool_Kernel_Update_Binary-English | .txt | Changelog for htool_updater folder
+Readme-PSP_Supplement_Font-English | .txt | Limited explanations of some font related files
+Readme-PSP_Utils_Windows-English | .txt | Lists all the files in bin.windows (psp-utils) and a changelog
+Readme-Testing_tool_Kernel_Update_Binary-English | .txt | List of files in the flash folder and a changelog
 
+## Install instructions
+When first recieving the devkit the developers had to run a few commands to install the SDK.
+
+```
+    Cygwin > cd /usr/local/psp
+    Cygwin > unzip psp-utils-x.x.x-windows.zip
+    Cygwin > cd ./devkit
+    Cygwin > ./Install_e.bat
+```
+
+This will move the Linux commands in **/usr/local/psp/devkit/bin** to **/usr/local/psp/devkit/bin.linux** and will install commands for Windows XP.
+After installation, /usr/local/psp/devkit/bin.linux and /usr/local/psp/devkit/bin.windows may be deleted.
 
 ---
 ## Initial documentation (/1st_read)
@@ -261,22 +262,13 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Changes-English | .txt | 
-Changes-Japanese | .txt | 
+Changes-English | .txt | History of changes
 Flash_Update_Instruction_H1500-English | .txt | 
-Flash_Update_Instruction_H1500-Japanese | .txt | Japanese version
-Flash_Update_Instruction_H1500-Korean | .txt | Korean version
 Flash_Update_Instruction_T1000-English | .txt | 
-Flash_Update_Instruction_T1000-Japanese | .txt | Japanese version
-Flash_Update_Instruction_T1000-Korean | .txt | Korean version
 Hardware-Restriction-English | .pdf | 
-Hardware-Restriction-Japanese | .pdf | Japanese version
 Important_notice-English | .txt | 
-Important_notice-Japanese | .txt | Japanese version
 PSP_Setup_Guide-English | .pdf | 
-PSP_Setup_Guide-Japanese | .pdf | Japanese version
 Sample_List-English | .txt | 
-Sample_List-Japanese | .txt | Japanese version
 
 
 ---
