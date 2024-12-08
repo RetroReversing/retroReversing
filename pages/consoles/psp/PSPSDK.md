@@ -186,21 +186,17 @@ This folder also contains the following sub-directories for each size of the fon
 * **22pt** - 22 point version of the font
 
 
+Developers were free to use all the PGF files that are contained in this archive file via "libfont," which is included in PSP Runtime Library 2.0.0 or later.
   </div>
 </section>  
 
-Developers were free to use all the PGF files that are contained in this archive file via "libfont," which is included in PSP Runtime Library 2.0.0 or later.
 
 The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
 PgfContentsTable-English | .pdf | A single page table of the details of fonts for distribution (1.0.0), NewRodin Pro Latin and Matisse Pro Latin
-PgfContentsTable-Japanese | .pdf | Japanese version
-PgfContentsTable-Korean | .pdf | Korean version
 Readme_PgfArchives-English | .txt | Brief details on the files located in this folder
-Readme_PgfArchives-Japanese | .txt | Japanese version
-Readme_PgfArchives-Korean | .txt | Korean version
 
 ---
 # Cygwin Software Development Kit (/devkit)
@@ -338,7 +334,7 @@ psp-nm | N/A | Outputs a list of symbols in an object
 psp-objcopy | N/A | Converts the format of an object file 
 psp-objdump | N/A | Displays information about an object file
 psp-path-setup | N/A | PSP compiler path search and setup
-psp-prver | N/A | ommand for confirming the version of the static library
+psp-prver | N/A | Command for confirming the version of the static library
 psp-prx-strip | N/A | Deletes symbol information from a PSP relocatable execution format (.prx) object.
 psp-ranlib | N/A | Generates index information for an archive
 psp-readelf | N/A | 
@@ -370,32 +366,32 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-binary2elf | .exe | 
-dsbloadp | .exe | 
-dsdcons | .exe | 
-dspcons | .exe | 
-dspkill | .exe | 
-dspmcons | .exe | 
-dspreset | .exe | 
-dspstat | .exe | 
-dstdb | .exe | 
-dsxlist | .exe | 
-dsxping | .exe | 
-dsxstart | .exe | 
+binary2elf | .exe | binary2elf creates an elf file for PSP when no specification is made on the command line
+dsbloadp | .exe | dsbloadp is a client program for sending the PSP boot code to the target.
+dsdcons | .exe | dsdcons is a console program that is the companion to dstdb's remote console input/output function.
+dspcons | .exe | dspcons is a console program that is the destination of TTYP input/output of the target program.
+dspkill | .exe | dspkill is a program for forcibly disconnecting a client that is connected to a specific protocol from the client programs that are connected to the entire target.
+dspmcons | .exe | dspmcons is a dedicated console program for running the dsnetm_psp debug console, which runs as CP on the PSP TOOL.
+dspreset | .exe | dsbloadp is a client program for sending the PSP boot code to the target.
+dspstat | .exe | dspstat is a client program for displaying a list of client programs that are connected to the entire target.
+dstdb | .exe | dstdb is a source-level/instruction-level debugger.
+dsxlist | .exe | dsxlist is a client program for displaying a list of modules that are loaded on the target.
+dsxping | .exe | dsxping is a client program for diagnosing whether or not there is a response from the target program.
+dsxstart | .exe | dsxstart is a client program for loading modules on the target.
 enlargeprx | .exe | 
 prx-version-off | .exe | 
-prxinfo | .exe | 
+prxinfo | .exe | Displays information about PSP relocatable execution format (.prx) objects.
 psp-ar-util | .exe | 
-psp-prver | .exe | 
-psp-prx-strip | .exe | 
-psp_boot_packager | .exe | 
-pspbin2elf | .exe | 
-pspexportpickup | .exe | 
-pspfixup | .exe | 
-pspgcsection | .exe | 
-psplibgen | .exe | 
-pspprofutil | .exe | 
-pspsplitoverlay | .exe | 
+psp-prver | .exe | Command for confirming the version of the static library
+psp-prx-strip | .exe | Deletes symbol information from a PSP relocatable execution format (.prx) object.
+psp_boot_packager | .exe | The psp_boot_packager tool is used for packaging.
+pspbin2elf | .exe | same as binary2elf
+pspexportpickup | .exe | The pspexportpickup command is used to find mangled symbols in an object file that correspond to exported functions and variables previously specified in SCE_LIB_EXPORTPICKUP_*() macros and generates a library definition file in C source code.
+pspfixup | .exe | Converts an elf-format relocatable object to the PSP relocatable execution format (.prx).
+pspgcsection | .exe | An internal auxiliary tool
+psplibgen | .exe | Generates stub information required for linking objects.
+pspprofutil | .exe | Same as psp-gprof but for prx files
+pspsplitoverlay | .exe | This command separates the overlay file off the PSP ELF that is generated with an overlay segment attached. 
 pspuidfnkeygen | .exe | 
 
 ---
@@ -412,9 +408,13 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-GIM_Photoshop_Plugin_Overview-English | .pdf | 
-readme_e | .txt | 
-tgGimFormat | .8bi | 
+GIM_Photoshop_Plugin_Overview-English | .pdf | 6 page PDF explaining how to use the photoshop plugin
+readme_e | .txt | Brief explanation and changelog for the photoshop plugin
+tgGimFormat | .8bi | The Photoshop 6.0 Plugin for GIM image format
+
+When running the plugin in Photoshop 6.0 you get the following dialog to save to GIM format:
+<img width="562" alt="GIM Photoshop Plugin" src="https://github.com/user-attachments/assets/ff3d1a81-e27c-4c2a-927e-dfb78c90e0f2">
+
 
 ---
 ## Data (/data)
