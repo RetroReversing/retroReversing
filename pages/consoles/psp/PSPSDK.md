@@ -39,7 +39,7 @@ For information on the ProDG SDK we have a seperate post:
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
 
 ---
-# Documentation (/Docs)
+# High Level Documentation (/Docs)
 
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Docs</div>
@@ -286,7 +286,9 @@ Sample_List-English | .txt | Description of all the samples included in the samp
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin.linux</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains all the command line programs to build and debug PSP games in a Linux environment.
+
+ The executables that start with "ds" are part of "dsnet for PSP" which is a debugging environment that uses the **DECI2P** protocol. It enables the host and the PSP tool to work together so that applications that will run on the target can be developed more efficiently.
 
   </div>
 </section>  
@@ -295,19 +297,19 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-binary2elf | N/A | 
-dsdcons | N/A | 
-dspcons | N/A | 
-dspkill | N/A | 
-dspmcons | N/A | 
-dspreset | N/A | 
-dspstat | N/A | 
-dsptun | N/A | 
-dstdb | N/A | 
-dsxfilesv | N/A | 
-dsxlist | N/A | 
-dsxping | N/A | 
-dsxstart | N/A | 
+binary2elf | N/A | pspbin2elf creates an elf file for PSP when no specification is made on the command line
+dsdcons | N/A | dsdcons is a console program that is the companion to dstdb's remote console input/output function. dstdb opens a DTTYP protocol server on the specified port number so that it can be used by the remote console
+dspcons | N/A | dspcons is a console program that is the destination of TTYP input/output of the target program
+dspkill | N/A | dspkill is a program for forcibly disconnecting a client that is connected to a specific protocol from the client programs that are connected to the entire target
+dspmcons | N/A | dspmcons is a dedicated console program for running the dsnetm_psp debug console, which runs as CP on the PSP TOOL
+dspreset | N/A | dspreset is a client program for resetting the entire target.
+dspstat | N/A | dspstat is a client program for displaying a list of client programs that are connected to the entire target. It is used to identify people who are currently using the target.
+dsptun | N/A | dsptun is a program that relays packets wrapped in the ETHERP protocol from the target to a linux tun device, when the Ether over DECI2p feature is enabled by setting bit 15 of the boot parameter.
+dstdb | N/A | dstdb is a source-level/instruction-level debugger.
+dsxfilesv | N/A | dsxfilesv is a file server program for processing Remote File Access requests that are sent from the target program.
+dsxlist | N/A | dsxlist is a client program for displaying a list of modules that are loaded on the target.
+dsxping | N/A | dsxping is a client program for diagnosing whether or not there is a response from the target program. Normally, this client program need not be used.
+dsxstart | N/A | dsxstart is a client program for loading modules on the target. It operates in a similar manner as dstdb's mstart command.
 enlargeprx | N/A | 
 prx-version-off | N/A | 
 prxinfo | N/A | 
