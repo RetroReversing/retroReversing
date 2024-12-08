@@ -51,6 +51,12 @@ There was a custom Software Development kit that was created by **SN Systems** b
 
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the SN Systems SDK check out this post." %}
 
+## File Formats
+
+Some file formats used in the creation of PSP games:
+* GIM - 2D Image Texture format similar to TIM on PS1
+* GMO - 3D model format
+
 ---
 # All Posts
 <div>
