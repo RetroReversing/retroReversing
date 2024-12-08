@@ -162,6 +162,8 @@ ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
   <div markdown="1" class="rr-post-markdown">
  This folder contains infromation on the officially supported fonts for PSP.
 
+The PGF font format is a proprietary font format developed by Sony specifically for the PlayStation Portable (PSP). It is used to render text in PSP applications and games efficiently, taking into account the constraints of the PSP hardware. PGF stands for PlayStation Game Font, and it is part of the PSP's system libraries.
+
  They are mainly:
  * FTT-Matisse Pro Latin - serif font
  * FTT-NewRodin Pro Latin - san serif font
