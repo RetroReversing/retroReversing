@@ -208,13 +208,13 @@ This folder also contains the following sub-directories:
 * **bin.windows** - Windows version of the build tools such as compilers
 * **bin.linux** - Linux version of the build tools such as compilers
 * **document** - Main Documentation
-* **module** - Compiled PRX modules
 * **include** - SDK header files
 * **lib** - SDK Static Library files
+* **module** - Compiled PRX modules
 * **src** - Source code to the libraries
+* **sample** - Examples for using the PSP SDK, e.g for playing sound or displaying graphics on the PSP
 * **contrib** - A Photoshop plugin for the GIM texture format
 * **flash** - 
-* **sample** - 
 * **tips** - 
 * **tool_flash** - 
 * **htool_updater** - Update for the PSP Tool hardware
@@ -262,85 +262,27 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Changes-English | .txt | History of changes
-Flash_Update_Instruction_H1500-English | .txt | 
-Flash_Update_Instruction_T1000-English | .txt | 
-Hardware-Restriction-English | .pdf | 
-Important_notice-English | .txt | 
-PSP_Setup_Guide-English | .pdf | 
-Sample_List-English | .txt | 
+Changes-English | .txt | History of changes to the whole devkit going all the way back to 0.5.0
+Flash_Update_Instruction_H1500-English | .txt | A note on updating the DTP-H2500/DTP-H1500 (A) firmware
+Flash_Update_Instruction_T1000-English | .txt | A note on updating the DTP-T2000/DTP-T1000 (A) firmware
+Hardware-Restriction-English | .pdf | 16 page PDF on low level restrictions on assembly instructions on both the CPU and VFPU
+Important_notice-English | .txt |  A note on providing a system update with your game due to operation of titles created with the new version of Runtime Library will not be guaranteed on the old PSP system software.
+PSP_Setup_Guide-English | .pdf | 40 page PDF on setting everything up
+Sample_List-English | .txt | Description of all the samples included in the sample folder
 
 
 ---
-## Bin (/bin)
+## Psp-utils binaries (/bin)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ The /bin folder is the result of running the **Install_e.bat** install script, and copies the windows version of psp-utils into the /bin folder, where the linux versions are their by default. As such the contents of this folder will not be documented as they are the same as the contents in **bin.linux** and **bin.windows** folders.
 
   </div>
 </section>  
 
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-binary2elf | .exe | 
-dsbloadp | .exe | 
-dsdcons | .exe | 
-dspcons | .exe | 
-dspkill | .exe | 
-dspmcons | .exe | 
-dspreset | .exe | 
-dspstat | .exe | 
-dsptun | N/A | 
-dstdb | .exe | 
-dsxfilesv | N/A | 
-dsxlist | .exe | 
-dsxping | .exe | 
-dsxstart | .exe | 
-enlargeprx | .exe | 
-kbooti | .bin | 
-make_package_npdrm | , .exe | 
-prx-version-off | .exe | 
-prxinfo | .exe | 
-psp-addr2line | N/A | 
-psp-ar | N/A | 
-psp-ar-util | .exe | 
-psp-as | N/A | 
-psp-c++ | N/A | 
-psp-c++filt | N/A | 
-psp-cpp | N/A | 
-psp-g++ | N/A | 
-psp-gcc | N/A | 
-psp-gcov | N/A | 
-psp-gnu-strip | N/A | 
-psp-gprof | N/A | 
-psp-ld | N/A | 
-psp-nm | N/A | 
-psp-objcopy | N/A | 
-psp-objdump | N/A | 
-psp-path-setup | N/A | 
-psp-prver | .exe | 
-psp-prx-strip | .exe | 
-psp-ranlib | N/A | 
-psp-readelf | N/A | 
-psp-selcomment | .rb | 
-psp-size | N/A | 
-psp-strings | N/A | 
-psp_boot_packager | .exe | 
-pspbin2elf | .exe | 
-pspexportpickup | .exe | 
-pspfixup | .exe | 
-pspgcsection | .exe | 
-psplibgen | .exe | 
-pspprofutil | .exe | 
-pspsplitoverlay | .exe | 
-pspuidfnkeygen | .exe | 
-
-
 ---
-## Bin.linux (/bin.linux)
+### Linux psp-utils (/bin.linux)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin.linux</div>
   <div markdown="1" class="rr-post-markdown">
@@ -405,7 +347,7 @@ pspuidfnkeygen | N/A |
 
 
 ---
-## Bin.windows (/bin.windows)
+### Windows psp-utils (/bin.windows)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin.windows</div>
   <div markdown="1" class="rr-post-markdown">
@@ -461,11 +403,7 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 GIM_Photoshop_Plugin_Overview-English | .pdf | 
-GIM_Photoshop_Plugin_Overview-Japanese | .pdf | 
-GIM_Photoshop_Plugin_Overview-Korean | .pdf | 
 readme_e | .txt | 
-readme_j | .txt | 
-readme_k | .txt | 
 tgGimFormat | .8bi | 
 
 ---
@@ -492,16 +430,9 @@ The files in this folder are described in the table below:
 File Name | Extension | Description
 ---|---|---
 Readme_English | .txt | 
-Readme_Japanese | .txt | 
-Readme_Korean | .txt | 
 Readme_Sample_Code_Data-Graphics-English | .txt | 
-Readme_Sample_Code_Data-Graphics-Japanese | .txt | 
 Readme_Sample_Code_Data-Movie-English | .txt | 
-Readme_Sample_Code_Data-Movie-Japanese | .txt | 
-Readme_Sample_Code_Data-Movie-Korean | .txt | 
 Readme_Sample_Code_Data-Sound-English | .txt | 
-Readme_Sample_Code_Data-Sound-Japanese | .txt | 
-Readme_Sample_Code_Data-Sound-Korean | .txt | 
 
 ---
 ## Documentation (/document)
