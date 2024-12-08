@@ -7,7 +7,7 @@ title: Official Sony PSP SDK
 thumbnail: /public/consoles/Sony PSP.png
 _image: /public/images/psp/SN Systems ProDG PSP.jpg
 _twitterimage: https://www.retroreversing.com/public/images/psp/SN Systems ProDG PSP.jpg
-permalink: /sn-systems-pro-dg-psp-sdk/
+permalink: /pspsdk
 breadcrumbs:
   - name: Home
     url: /
@@ -36,4 +36,4 @@ Wheras the more complete version also contains the ProDG installers and addition
 Later versions of the SDK included the ProDG development kit provided by SN Systems, which provided a way to compile PSP games using Visual Studio 2005/2008/.NET as an alternative to the Cygwin (unix like) development environment provided in the rest of the SDK.
 
 For information on the ProDG SDK we have a seperate post:
-{% include link-to-other-post.html post="//" description="For more information check out this post." %}
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
