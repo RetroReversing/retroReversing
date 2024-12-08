@@ -439,18 +439,17 @@ Readme_Sample_Code_Data-Sound-English | .txt |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/document</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains all the main documentation for the Software Development Kit
 
 This folder also contains the following sub-directories:
-* **PSP_DevKit_6.6.0_Doc_Index_j** - 
-* **pdf** - 
-* **html** - 
-* **PSP_DevKit_6.6.0_Doc_Index_e** - 
-* **chm** - 
-* **format** - 
-* **sound** - 
-* **hardware_manual** - 
-* **tool** - 
+* **chm** - CHM version of the documentation in both english and japanese (PSP™ Programmer Tool Runtime Library)
+* **html** - HTML version of the documentation in both english and japanese (PSP™ Programmer Tool Runtime Library)
+* **pdf** - PDF version of the documentation
+* **PSP_DevKit_6.6.0_Doc_Index_e** - Index (.idx) files
+* **format** - GIM, GMO and GSO format information in PDF format
+* **sound** - PHD/PBD Format documentation in PDF format
+* **hardware_manual** - Hardware Manual Release 1.0.0 (2006)
+* **tool** - PDF Tool documentation
   </div>
 </section>  
 
@@ -458,17 +457,118 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-PSP_DevKit_6.6.0_Doc_Index_e | .pdx | 
-PSP_DevKit_6.6.0_Doc_Index_j | .pdx | Japanese version
-Readme-CHM-English | .txt | 
-Readme-CHM-Japanese | .txt | Japanese version
-Readme-HTML-English | .txt | 
-Readme-HTML-Japanese | .txt | Japanese version
-Readme-NP_Dev-Users_Guide-English | .txt | 
-Readme-NP_Dev-Users_Guide-Japanese | .txt | Japanese version
-Readme-NP_Dev-Users_Guide-Korean | .txt | 
-Readme-PDF-English | .txt | 
-Readme-PDF-Japanese | .txt | Japanese version
+PSP_DevKit_6.6.0_Doc_Index_e | .pdx | Adobe Acrobat Portable Document Index file, index of the other PDF files
+Readme-CHM-English | .txt | Lists the documentation available in CHM format
+Readme-HTML-English | .txt | Lists the documentation available in HTML format
+Readme-NP_Dev-Users_Guide-English | .txt | It contains documents that describe necessary information to develop a PlayStation Network enabled application
+Readme-PDF-English | .txt | Change log of pdf document changes and how t use the .PDX file
+
+We will only document the PDF version of the documentation files in this post as they are equal to the CHM and HTML versions.
+
+### Format (/document/format)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/format</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+GIM_Format-Overview-English | .pdf | 
+GMO_Format-Overview-English | .pdf | 
+GMO_Format-Reference-English | .pdf | 
+GSO_Format-Overview-English | .pdf | 
+GSO_Format-Reference-English | .pdf | 
+
+
+---
+### Hardware_manual (/document/hardware_manual)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/hardware_manual</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **Graphics_Engine** - 
+* **VFPU** - 
+* **ALLEGREX** - 
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Hardware-Restriction-English | .pdf | 
+Readme-English | .txt | 
+
+
+---
+### Allegrex Hardware Documentation (/document/hardware_manual/ALLEGREX)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/ALLEGREX</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **Instruction_list** - Just contains one file **ALLEGREX_FPU-Instruction_List-English.pdf** that...
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ALLEGREX-Instruction_Manual-English | .pdf | 
+ALLEGREX-Users_Manual-English | .pdf | 
+FPU-Instruction_Manual-English | .pdf | 
+FPU-Users_Manual-English | .pdf | 
+
+
+---
+### Graphics Engine Documentation (/document/hardware_manual/Graphics_Engine)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Graphics_Engine</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **Command_list** - Japanese and Korean version of Graphics_Engine-Command_List
+* **Graphics_Engine-Command_list** - Just contains one file **Graphics_Engine-Command_List-English.pdf** that...
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Graphics_Engine-Command_Reference_Manual-English | .pdf | 
+Graphics_Engine-Users_Manual-English | .pdf | 
+
+---
+### VFPU Documentation (/document/hardware_manual/VFPU)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/VFPU</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **VFPU-Instruction_list** - Just contains one file **VFPU-Instruction_List-English.pdf** that... 
+* **Instruction_list** - Japanese and korean version of Vfpu-instruction_list
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+VFPU-Instruction_Manual-English | .pdf | 
+VFPU-Users_Manual-English | .pdf | 
+
 
 ---
 ## Flash (/flash)
