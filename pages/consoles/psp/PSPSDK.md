@@ -465,6 +465,560 @@ Readme-PDF-English | .txt | Change log of pdf document changes and how t use the
 
 We will only document the PDF version of the documentation files in this post as they are equal to the CHM and HTML versions.
 
+### PDF Documentation (/document/pdf)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/pdf</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+This folder also contains the following sub-directories:
+* **movie** - 
+* **debug_support** - 
+* **network** - 
+* **others** - 
+* **fpu-vfpu** - 
+* **guideline** - 
+* **image_recognition** - 
+* **still** - 
+* **peripheral** - 
+* **graphics** - 
+* **overview** - 
+* **sound** - 
+* **kernel** - 
+* **tool** - 
+* **utility** - 
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+NP-Product_Management_Guide_e | .pdf | 
+NP_SMT_Matching2-Users_Guide_e | .pdf | 
+NP_SMT_Portal-Users_Guide_e | .pdf | 
+NP_SMT_TPPS-Users_Guide_e | .pdf | 
+NP_SMT_TSSS-Users_Guide_e | .pdf | 
+
+
+---
+#### Debug_support (/document/pdf/debug_support)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/debug_support</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BSOD-Overview-English | .pdf | 
+Dsnet-Client-English | .pdf | 
+Dsnet_Command_Reference-English | .pdf | 
+GPI_GPO-Reference-English | .pdf | 
+Profiler-Reference-English | .pdf | 
+USB_Serial-Overview-English | .pdf | 
+USB_Serial-Reference-English | .pdf | 
+
+
+---
+#### Fpu-vfpu (/document/pdf/fpu-vfpu)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/fpu-vfpu</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+ALLEGREX-Builtin_Function-Reference-English | .pdf | 
+VFPU_Intrinsics-Overview-English | .pdf | 
+VFPU_Intrinsics-Reference-English | .pdf | 
+VFPU_Macro-Overview-English | .pdf | 
+VFPU_Macro-Reference-English | .pdf | 
+libfpu-Reference-English | .pdf | 
+libvfpu-Overview-English | .pdf | 
+libvfpu-Reference-English | .pdf | 
+
+
+---
+#### Graphics (/document/pdf/graphics)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/graphics</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+GE-Overview-English | .pdf | 
+GE-Reference-English | .pdf | 
+Graphics-Overview-English | .pdf | 
+libgim_Picture-Overview-English | .pdf | 
+libgim_Picture-Reference-English | .pdf | 
+libgiq_Picture-Overview-English | .pdf | 
+libgiq_Picture-Reference-English | .pdf | 
+libgmo_Model-Overview-English | .pdf | 
+libgmo_Model-Reference-English | .pdf | 
+libgmq_Model-Overview-English | .pdf | 
+libgmq_Model-Reference-English | .pdf | 
+libgso_Scene-Overview-English | .pdf | 
+libgso_Scene-Reference-English | .pdf | 
+libgu-Overview-English | .pdf | 
+libgu-Reference-English | .pdf | 
+libgum-Overview-English | .pdf | 
+libgum-Reference-English | .pdf | 
+libgup-Reference-English | .pdf | 
+libgxp_Packet-Reference-English | .pdf | 
+
+
+---
+#### Guideline (/document/pdf/guideline)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/guideline</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+CustomTheme-Packaging-English | .pdf | 
+Custom_Theme-English | .pdf | 
+InternetBrowser_ContentGuideline_Dev-English | .pdf | 
+NP_Dev-Users_Guide_e | .pdf | 
+PSN_Avatar-Guidelines_e | .pdf | 
+PSP_PlayStation_Store_Content-Guidelines-English | .pdf | 
+Readme-CustomTheme-Packaging-English | .txt | 
+Readme-CustomTheme_CreationGuideline-English | .txt | 
+Readme-InternetBrowser_ContentGuideline_Dev-English | .txt | 
+Readme-PlayStation_Store_ContentGuideline-English | .txt | 
+
+
+---
+#### Image Recognition (/document/pdf/image_recognition)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/image_recognition</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+libface-Overview-English | .pdf | 
+libface-Reference-English | .pdf | 
+
+
+---
+#### Kernel (/document/pdf/kernel)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/kernel</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Cache-Overview-English | .pdf | 
+Cache-Reference-English | .pdf | 
+IO_File_Manager-Reference-English | .pdf | 
+Interrupt_Manager-Reference-English | .pdf | 
+Kernel-Overview-English | .pdf | 
+Loadexec-Reference-English | .pdf | 
+Module_Manager-Reference-English | .pdf | 
+Stdio-Reference-English | .pdf | 
+System_Memory_Manager-Reference-English | .pdf | 
+Thread_Manager-Reference-English | .pdf | 
+Types-Reference-English | .pdf | 
+libheap-Overview-English | .pdf | 
+libheap-Reference-English | .pdf | 
+
+
+---
+#### Movie (/document/pdf/movie)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/movie</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+AVIenc-Overview-English | .pdf | 
+AVIenc-Reference-English | .pdf | 
+Movie-Overview-English | .pdf | 
+libmp4-Overview-English | .pdf | 
+libmp4-Reference-English | .pdf | 
+libmpeg-Overview-English | .pdf | 
+libmpeg-Reference-English | .pdf | 
+libpsmf-Overview-English | .pdf | 
+libpsmf-Reference-English | .pdf | 
+libpsmfplayer-Overview-English | .pdf | 
+libpsmfplayer-Reference-English | .pdf | 
+
+
+---
+#### Network (/document/pdf/network)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/network</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Game_Sharing-Authoring-English | .pdf | 
+Game_Sharing-Overview-English | .pdf | 
+HTTPS-Overview-English | .pdf | 
+HTTPS-Reference-English | .pdf | 
+Ifhandle-Overview-English | .pdf | 
+Ifhandle-Reference-English | .pdf | 
+NP-Overview-English | .pdf | 
+NP-Reference-English | .pdf | 
+NPDRM-Overview-English | .pdf | 
+NPDRM-Reference-English | .pdf | 
+NP_Account-Overview-English | .pdf | 
+NP_Auth-Reference-English | .pdf | 
+NP_Commerce-Overview-English | .pdf | 
+NP_Commerce_Programming_Guide-English | .pdf | 
+NP_Common-Reference-English | .pdf | 
+NP_Communication-Overview-English | .pdf | 
+NP_In_Game_Commerce2-Overview-English | .pdf | 
+NP_In_Game_Commerce2-Reference-English | .pdf | 
+NP_Lookup-Overview-English | .pdf | 
+NP_Lookup-Reference-English | .pdf | 
+NP_Matching2-Overview-English | .pdf | 
+NP_Matching2-Reference-English | .pdf | 
+NP_Matching2_System-Overview-English | .pdf | 
+NP_Roster-Reference-English | .pdf | 
+NP_Service-Reference-English | .pdf | 
+Network-Overview-English | .pdf | 
+Network_Infrastructure_Mode-Overview-English | .pdf | 
+PSPNET-Overview-English | .pdf | 
+PSPNET_Adhoc-Reference-English | .pdf | 
+PSPNET_Adhoc_Discover-Overview-English | .pdf | 
+PSPNET_Adhoc_Discover-Reference-English | .pdf | 
+PSPNET_Adhoc_Matching-Overview-English | .pdf | 
+PSPNET_Adhoc_Matching-Reference-English | .pdf | 
+PSPNET_Adhocctl-Reference-English | .pdf | 
+PSPNET_Ap_Dialog_Dummy-Reference-English | .pdf | 
+PSPNET_Apctl-Reference-English | .pdf | 
+PSPNET_Core-Reference-English | .pdf | 
+PSPNET_Error-Reference-English | .pdf | 
+PSPNET_Inet-Reference-English | .pdf | 
+PSPNET_Resolver-Overview-English | .pdf | 
+PSPNET_Resolver-Reference-English | .pdf | 
+PSP_Boot_Binary-Overview-English | .pdf | 
+Wlan-Overview-English | .pdf | 
+Wlan-Reference-English | .pdf | 
+libbase16-Overview-English | .pdf | 
+libbase16-Reference-English | .pdf | 
+libbase32-Overview-English | .pdf | 
+libbase32-Reference-English | .pdf | 
+libbase64-Overview-English | .pdf | 
+libbase64-Reference-English | .pdf | 
+libgameupdate-Overview-English | .pdf | 
+libgameupdate-Reference-English | .pdf | 
+libhttp-Overview-English | .pdf | 
+libhttp-Reference-English | .pdf | 
+libparse_HTTP-Overview-English | .pdf | 
+libparse_HTTP-Reference-English | .pdf | 
+libparse_URI-Overview-English | .pdf | 
+libparse_URI-Reference-English | .pdf | 
+libqpcode-Overview-English | .pdf | 
+libqpcode-Reference-English | .pdf | 
+libssl-Overview-English | .pdf | 
+libssl-Reference-English | .pdf | 
+
+
+---
+#### Others (/document/pdf/others)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/others</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+GameData-Authoring-English | .pdf | 
+GameData-Reference-English | .pdf | 
+OpenPSID-Overview-English | .pdf | 
+OpenPSID-Reference-English | .pdf | 
+libadler-Overview-English | .pdf | 
+libadler-Reference-English | .pdf | 
+libccc-Reference-English | .pdf | 
+libdeflt-Overview-English | .pdf | 
+libdeflt-Reference-English | .pdf | 
+libfont-Overview-English | .pdf | 
+libfont-Reference-English | .pdf | 
+libmd5-Overview-English | .pdf | 
+libmd5-Reference-English | .pdf | 
+libmt19937-Overview-English | .pdf | 
+libmt19937-Reference-English | .pdf | 
+libpuny-Overview-English | .pdf | 
+libpuny-Reference-English | .pdf | 
+libsfmt11213-Overview-English | .pdf | 
+libsfmt11213-Reference-English | .pdf | 
+libsfmt1279-Overview-English | .pdf | 
+libsfmt1279-Reference-English | .pdf | 
+libsfmt132049-Overview-English | .pdf | 
+libsfmt132049-Reference-English | .pdf | 
+libsfmt19937-Overview-English | .pdf | 
+libsfmt19937-Reference-English | .pdf | 
+libsfmt216091-Overview-English | .pdf | 
+libsfmt216091-Reference-English | .pdf | 
+libsfmt2281-Overview-English | .pdf | 
+libsfmt2281-Reference-English | .pdf | 
+libsfmt4253-Overview-English | .pdf | 
+libsfmt4253-Reference-English | .pdf | 
+libsfmt44497-Overview-English | .pdf | 
+libsfmt44497-Reference-English | .pdf | 
+libsfmt607-Overview-English | .pdf | 
+libsfmt607-Reference-English | .pdf | 
+libsfmt86243-Overview-English | .pdf | 
+libsfmt86243-Reference-English | .pdf | 
+libsha0-Overview-English | .pdf | 
+libsha0-Reference-English | .pdf | 
+libsha1-Overview-English | .pdf | 
+libsha1-Reference-English | .pdf | 
+libsha224-Overview-English | .pdf | 
+libsha224-Reference-English | .pdf | 
+libsha256-Overview-English | .pdf | 
+libsha256-Reference-English | .pdf | 
+libsha384-Overview-English | .pdf | 
+libsha384-Reference-English | .pdf | 
+libsha512-Overview-English | .pdf | 
+libsha512-Reference-English | .pdf | 
+
+
+---
+#### Overview (/document/pdf/overview)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/overview</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Additional_Game_Data-Packaging-English | .pdf | 
+Compiler-Overview-English | .pdf | 
+ContentInformation-Check-English | .pdf | 
+Downloadable_Game-Notes-English | .pdf | 
+Downloadable_Game-Packaging-English | .pdf | 
+Game_MasterDisc-Users_Manual-English | .pdf | 
+PSP_Setup_Guide-English | .pdf | 
+PSP_System_Overview-English | .pdf | 
+Patch-Overview-English | .pdf | 
+Patch-Packaging-English | .pdf | 
+Programming-Overview-English | .pdf | 
+
+
+---
+#### Peripheral (/document/pdf/peripheral)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/peripheral</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BatteryIcon-Overview-English | .pdf | 
+Controller-Overview-English | .pdf | 
+Controller-Reference-English | .pdf | 
+DMAC-Overview-English | .pdf | 
+DMAC-Reference-English | .pdf | 
+Display-Overview-English | .pdf | 
+Display-Reference-English | .pdf | 
+FATMS-Overview-English | .pdf | 
+FATMS-Reference-English | .pdf | 
+HeadphoneRemote-Overview-English | .pdf | 
+HeadphoneRemote-Reference-English | .pdf | 
+ISO9660-Reference-English | .pdf | 
+Impose-Reference-English | .pdf | 
+Power-Overview-English | .pdf | 
+Power-Reference-English | .pdf | 
+RTC-Overview-English | .pdf | 
+RTC-Reference-English | .pdf | 
+UMD-Overview-English | .pdf | 
+UMD-Reference-English | .pdf | 
+UMD_Block-Reference-English | .pdf | 
+UMD_Cache-Overview-English | .pdf | 
+USB_Camera-Overview-English | .pdf | 
+USB_Camera-Reference-English | .pdf | 
+USB_Driver-Overview-English | .pdf | 
+USB_Driver-Reference-English | .pdf | 
+USB_Gps-Overview-English | .pdf | 
+USB_Gps-Reference-English | .pdf | 
+USB_Mic-Overview-English | .pdf | 
+USB_Mic-Reference-English | .pdf | 
+USB_PSPComm-Overview-English | .pdf | 
+USB_PSPComm-Reference-English | .pdf | 
+fmacvideo-Overview-English | .pdf | 
+fmacvideo-Reference-English | .pdf | 
+
+
+---
+#### Sound (/document/pdf/sound)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/sound</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+AudioInput-Overview-English | .pdf | 
+AudioInput-Reference-English | .pdf | 
+AudioRouting-Reference-English | .pdf | 
+PHD_PBD_Format-English | .pdf | 
+Sas-Overview-English | .pdf | 
+SimpleAudio-Overview-English | .pdf | 
+SimpleAudio-Reference-English | .pdf | 
+Sound-Overview-English | .pdf | 
+VAG_Format-English | .pdf | 
+Vaudio-Overview-English | .pdf | 
+Vaudio-Reference-English | .pdf | 
+libaac-Overview-English | .pdf | 
+libaac-Reference-English | .pdf | 
+libatrac3plus-Overview-English | .pdf | 
+libatrac3plus-Reference-English | .pdf | 
+libg729-Overview-English | .pdf | 
+libg729-Reference-English | .pdf | 
+libmp3-Overview-English | .pdf | 
+libmp3-Reference-English | .pdf | 
+libp3da-Overview-English | .pdf | 
+libp3da-Reference-English | .pdf | 
+libsas-Overview-English | .pdf | 
+libsas-Reference-English | .pdf | 
+libsndp-Overview-English | .pdf | 
+libsndp-Reference-English | .pdf | 
+libulaw-Overview-English | .pdf | 
+libulaw-Reference-English | .pdf | 
+libwave-Overview-English | .pdf | 
+libwave-Reference-English | .pdf | 
+
+
+---
+#### Still (/document/pdf/still)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/still</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+JPEGDEC-Overview-English | .pdf | 
+JPEGDEC-Reference-English | .pdf | 
+SCEJPEGENC-Overview-English | .pdf | 
+SCEJPEGENC-Reference-English | .pdf | 
+scepng-Overview-English | .pdf | 
+scepng-Reference-English | .pdf | 
+
+
+---
+#### Tool (/document/pdf/tool)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/tool</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+PSMF_Composer-Tool-English | .pdf | 
+PSMF_Encoder-Tool-English | .pdf | 
+PSPhtool_Updater-English | .pdf | 
+Readme-Stream_Composer_Doc-English | .txt | 
+Stream_Composer-Tool-English | .pdf | 
+
+
+---
+#### Utility (/document/pdf/utility)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/utility</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Utility-Overview-English | .pdf | 
+Utility-Reference-English | .pdf | 
+Utility_Gamedata_Install-Overview-English | .pdf | 
+Utility_Gamedata_Install-Reference-English | .pdf | 
+Utility_InternetBrowser-Overview-English | .pdf | 
+Utility_InternetBrowser-Reference-English | .pdf | 
+Utility_RssChannelSubscriber-Overview-English | .pdf | 
+Utility_RssReader-Overview-English | .pdf | 
+Utility_RssReader-Reference-English | .pdf | 
+Utility_Savedata-Overview-English | .pdf | 
+Utility_Savedata-Reference-English | .pdf | 
+Utility_Savedata-Reference-Member-English | .pdf | 
+
+
+
 ### Format (/document/format)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/format</div>
