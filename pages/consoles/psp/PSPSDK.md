@@ -50,6 +50,8 @@ This folder also contains the following sub-directories:
 * **SNTools** - Documentation on SN Systems ProDG Tools
 * **ConferenceContent** - Password protected slides from conferences in 2005 in both English and Japanese
 * **TRC** - Technical Requirements Checklist - It contains important rules and restrictions for creating master discs for PSP games
+
+
   </div>
 </section>  
 
@@ -115,6 +117,8 @@ Seminar2005-07_update-Japanese | .pps |
 
 This folder also contains the following sub-directories:
 * **Logo** - Adobe Illustrator (.ai) vector images of the allowed Sony logos
+
+
   </div>
 </section>  
 
@@ -179,6 +183,8 @@ This folder also contains the following sub-directories for each size of the fon
 * **14pt** - 14 point version of the font
 * **18pt** - 18 point version of the font
 * **22pt** - 22 point version of the font
+
+
   </div>
 </section>  
 
@@ -198,9 +204,9 @@ Readme_PgfArchives-Korean | .txt | Korean version
 ---
 # Cygwin Software Development Kit (/devkit)
 <section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/</div>
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/devkit</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the main software development kit for both Window and Linux.
 
 This folder also contains the following sub-directories:
 * **1st_read** - The initial documentation to be read first
@@ -221,10 +227,11 @@ This folder also contains the following sub-directories:
 * **data** - 
 * **tool** - 
 * **setup** - Hardware Tool instruction manual
+
+The files in this folder are described in the table below, I have removed the japanese and korean versions to avoid duplication:
   </div>
 </section>  
 
-The files in this folder are described in the table below, I have removed the japanese and korean versions to avoid duplication:
 
 File Name | Extension | Description
 ---|---|---
