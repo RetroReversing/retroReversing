@@ -150,6 +150,6 @@ psp_nc_ru_3_10 | .pdf | PSP Naming Convensions for Russian
 psp_nc_zh-Hans_3_10 | .pdf | PSP Naming Convensions for Chinese Simplified
 psp_nc_zh-Hant_3_10 | .pdf | PSP Naming Convensions for Chinese Traditional
 psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that are done on every game when the master copy is recieved by Sony
-psptestcases_forTRC50-Japanese | .pdf | Japanese version
-ptrc52-English | .doc, .pdf | 
-ptrc52-Japanese | .doc, .pdf | Japanese version
+psptestcases_forTRC50-Japanese | .pdf | Japanese version of all the test cases
+ptrc52-English | .doc, .pdf | TRC for PSPTM Software, Version 5.2, including information on how to submit the TRC form
+ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
