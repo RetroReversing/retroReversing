@@ -118,6 +118,12 @@ This folder also contains the following sub-directories:
   </div>
 </section>  
 
+One of the test cases makes sure that all games that get published do not contain debug symbols unfortunetly:
+
+> It is forbidden to include the following types of files in the master in any form, even in archive format.
+> - Data and files used only for development and debugging purposes such as program source files, executable files with symbols, map files, and driver modules used in title development
+> - Data and files designed only for use on other platforms such as Windows wallpaper and screensavers
+
 The files in this folder are described in the table below:
 
 File Name | Extension | Description
