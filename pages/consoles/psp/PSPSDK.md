@@ -66,3 +66,41 @@ PSP_Setup_Guide-English | .pdf | 40 page guide on setting up the SDK on both win
 PSP_Setup_Guide-Japanese | .pdf | Japanese Version
 PSP_Setup_Guide-Korean | .pdf | Korean Version
 
+## Conference Content
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Conference</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains Powerpoint files from Sony seminars hosted in both February 2005 and July 2005, with the February content only being in Japanese but the July content being in both English and Japanese. 
+
+ We casn't open these files as they are protected by a password and thus can't describe what is in them.
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Seminar2005-02_GRAPHICS-Japanese | .pps | 
+Seminar2005-02_KERNEL-Japanese | .pps | 
+Seminar2005-02_MASTER-Japanese | .pps | 
+Seminar2005-02_MPEG-Japanese | .pps | 
+Seminar2005-02_NETWORK-Japanese | .pps | 
+Seminar2005-02_SOUND-Japanese | .pps | 
+Seminar2005-02_Utility-Japanese | .pps | 
+Seminar2005-02_VFPU-Japanese | .pps | 
+Seminar2005-07_browser-English | .pps | 
+Seminar2005-07_graphics-English | .pps | 
+Seminar2005-07_network-English | .pps | 
+Seminar2005-07_savedata-English | .pps | 
+Seminar2005-07_sound-English | .pps | 
+Seminar2005-07_umd-English | .pps | 
+Seminar2005-07_update-English | .pps | 
+Seminar2005-07_browser-Japanese | .pps | 
+Seminar2005-07_graphics-Japanese | .pps | 
+Seminar2005-07_network-Japanese | .pps | 
+Seminar2005-07_savedata-Japanese | .pps | 
+Seminar2005-07_sound-Japanese | .pps | 
+Seminar2005-07_umd-Japanese | .pps | 
+Seminar2005-07_update-Japanese | .pps | 
+
