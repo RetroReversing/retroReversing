@@ -104,3 +104,46 @@ Seminar2005-07_sound-Japanese | .pps |
 Seminar2005-07_umd-Japanese | .pps | 
 Seminar2005-07_update-Japanese | .pps | 
 
+---
+# Technical Requirements Checklist (/TRC)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/TRC</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains the Technical Requirements Checklist that need to be followed in order to get Sony to green light a PSP game. It has strict brand guidelines on how to use the Sony and Playstation branding along with all the naming conventions in all the different langauges and PSP versions.
+
+ It also has a document of all the test cases that each game goes through before mastering.
+
+This folder also contains the following sub-directories:
+* **Logo** - 
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+BrandGuideline_E_100729L | .pdf | 
+BrandGuideline_J_101112L | .pdf | Japanese version of the Brand Guidelines
+Frequency_Specification-Guideline-English | .pdf | 138 page brand guidlines on how to use the Playstation brands (including PsOne, Ps3 etc)
+Frequency_Specification-Guideline-Japanease | .pdf | Japanese version of the brand guidelines
+Frequency_Specification-Guideline-Korean | .pdf | Korean version f the brand guidelines
+PSP_NC_E1000_WW_temp_20111005 | .pdf | PSP Naming Convensions for PSP-E1000 series - Temporary release from October 5, 2011
+PSP_NC_N1000_WW_temp_1.01 | .pdf | PSP Naming Convensions for PSP-N1000 series - Temporary release 1.01 August 2009
+PSP_NC_v200_WW_temp | .pdf | PSP Naming Convensions for PSP-2000
+PSP_NC_v3.00_WW_temp_1.01 | .pdf | PSP Naming Convensions for PSP-3000 series - Temporary release 1.01 January 2009
+psp_nc_de_3_10 | .pdf | PSP Naming Convensions for German
+psp_nc_en_3_10 | .pdf | PSP Naming Convensions for English
+psp_nc_es_3_10 | .pdf | PSP Naming Convensions for Spanish
+psp_nc_fr_3_10 | .pdf | PSP Naming Convensions for French
+psp_nc_it_3_10 | .pdf | PSP Naming Convensions for Italian
+psp_nc_ja_3_10 | .pdf | PSP Naming Convensions for Japanese
+psp_nc_ko_3_10 | .pdf | PSP Naming Convensions for Korean
+psp_nc_nl_3_10 | .pdf | PSP Naming Convensions for Dutch
+psp_nc_pt-PT_3_10 | .pdf | PSP Naming Convensions for Portugese
+psp_nc_ru_3_10 | .pdf | PSP Naming Convensions for Russian
+psp_nc_zh-Hans_3_10 | .pdf | PSP Naming Convensions for Chinese Simplified
+psp_nc_zh-Hant_3_10 | .pdf | PSP Naming Convensions for Chinese Traditional
+psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that are done on every game when the master copy is recieved by Sony
+psptestcases_forTRC50-Japanese | .pdf | Japanese version
+ptrc52-English | .doc, .pdf | 
+ptrc52-Japanese | .doc, .pdf | Japanese version
