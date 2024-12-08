@@ -421,17 +421,17 @@ When running the plugin in Photoshop 6.0 you get the following dialog to save to
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/data</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains data used for the samples to keep them seperate from the actual source code.
 
 This folder also contains the following sub-directories:
-* **or_dict** - 
-* **movie** - 
-* **picture** - 
-* **ccc** - 
-* **model** - 
-* **scene** - 
-* **sound** - 
-* **dvdumd** -
+* **ccc** - libccc Data File
+* **dvdumd** - DVD/UMD(TM) Image File for the dvdumd sample (sample/dvdumd)
+* **model** - Model Data File for GMO
+* **movie** - PSMF Stream File and MP4 Stream File
+* **or_dict** - libface data
+* **picture** - Image Data File for GIM
+* **scene** - A sample scene
+* **sound** - Data File for libsndp for the playsmf sample (sample/sound/playsmf)
 
 The files in this folder are described in the table below:
   </div>
@@ -440,10 +440,10 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Readme_English | .txt | 
-Readme_Sample_Code_Data-Graphics-English | .txt | 
-Readme_Sample_Code_Data-Movie-English | .txt | 
-Readme_Sample_Code_Data-Sound-English | .txt | 
+Readme_English | .txt | brief description of all the folders in the data folder an a changelog
+Readme_Sample_Code_Data-Graphics-English | .txt | Changelog for the Graphics samples
+Readme_Sample_Code_Data-Movie-English | .txt | Changelog for the Movie samples
+Readme_Sample_Code_Data-Sound-English | .txt | Changelog for the Sound samples
 
 ---
 ## Documentation (/document)
