@@ -319,39 +319,39 @@ dsxping | N/A | dsxping is a client program for diagnosing whether or not there 
 dsxstart | N/A | dsxstart is a client program for loading modules on the target. It operates in a similar manner as dstdb's mstart command.
 enlargeprx | N/A | 
 prx-version-off | N/A | 
-prxinfo | N/A | 
+prxinfo | N/A | Displays information about PSP relocatable execution format (.prx) objects.
 psp-addr2line | N/A | 
-psp-ar | N/A | 
+psp-ar | N/A | Archiver
 psp-ar-util | N/A | 
-psp-as | N/A | 
+psp-as | N/A | Assembler
 psp-c++ | N/A | 
 psp-c++filt | N/A | 
 psp-cpp | N/A | 
-psp-g++ | N/A | 
-psp-gcc | N/A | 
-psp-gcov | N/A | 
-psp-gnu-strip | N/A | 
-psp-gprof | N/A | 
-psp-ld | N/A | 
-psp-nm | N/A | 
-psp-objcopy | N/A | 
-psp-objdump | N/A | 
-psp-path-setup | N/A | 
-psp-prver | N/A | 
-psp-prx-strip | N/A | 
-psp-ranlib | N/A | 
+psp-g++ | N/A | C++ compiler
+psp-gcc | N/A | C compiler
+psp-gcov | N/A | Coverage collects the number of times each line of source code is executed in terms of basic blocks.
+psp-gnu-strip | N/A | Deletes symbol information from an elf-format relocatable object.
+psp-gprof | N/A | Profile calculates the number of times the routines in a module are executed and how long it takes to execute each routine.
+psp-ld | N/A | Linker
+psp-nm | N/A | Outputs a list of symbols in an object
+psp-objcopy | N/A | Converts the format of an object file 
+psp-objdump | N/A | Displays information about an object file
+psp-path-setup | N/A | PSP compiler path search and setup
+psp-prver | N/A | ommand for confirming the version of the static library
+psp-prx-strip | N/A | Deletes symbol information from a PSP relocatable execution format (.prx) object.
+psp-ranlib | N/A | Generates index information for an archive
 psp-readelf | N/A | 
-psp-selcomment | .rb | 
-psp-size | N/A | 
-psp-strings | N/A | 
-psp_boot_packager | N/A | 
-pspbin2elf | N/A | 
-pspexportpickup | N/A | 
-pspfixup | N/A | 
-pspgcsection | N/A | 
-psplibgen | N/A | 
-pspprofutil | N/A | 
-pspsplitoverlay | N/A | 
+psp-selcomment | .rb | Comment language filter, e.g only including english comments
+psp-size | N/A | Displays the size of each section in an object
+psp-strings | N/A | Gets the ASCII strings from an ELF
+psp_boot_packager | N/A | The psp_boot_packager tool is used for packaging.
+pspbin2elf | N/A | same as binary2elf
+pspexportpickup | N/A | The pspexportpickup command is used to find mangled symbols in an object file that correspond to exported functions and variables previously specified in SCE_LIB_EXPORTPICKUP_*() macros and generates a library definition file in C source code.
+pspfixup | N/A | Converts an elf-format relocatable object to the PSP relocatable execution format (.prx).
+pspgcsection | N/A | An internal auxiliary tool
+psplibgen | N/A | Generates stub information required for linking objects.
+pspprofutil | N/A | Same as psp-gprof but for prx files
+pspsplitoverlay | N/A | This command separates the overlay file off the PSP ELF that is generated with an overlay segment attached. 
 pspuidfnkeygen | N/A | 
 
 
