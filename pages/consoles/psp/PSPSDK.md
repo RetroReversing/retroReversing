@@ -44,19 +44,20 @@ For information on the ProDG SDK we have a seperate post:
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/Docs</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains documentation for the Technical Requirementments Checklist and some conference slides, along with the SN Systems ProDG documentation.
 
 This folder also contains the following sub-directories:
 * **SNTools** - Documentation on SN Systems ProDG Tools
 * **ConferenceContent** - Password protected slides from conferences in 2005 in both English and Japanese
 * **TRC** - Technical Requirements Checklist - It contains important rules and restrictions for creating master discs for PSP games
 
+The contents of the **SNTools** folder will not be discussed in this post as we have a sepeate page for all the SN Systems ProDG SDk information:
+
 
   </div>
 </section>  
 
 
-The contents of the **SNTools** folder will not be discussed in this post as we have a sepeate page for all the SN Systems ProDG SDk information:
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
 
 
@@ -74,7 +75,7 @@ PSP_Setup_Guide-Korean | .pdf | Korean Version
   <div markdown="1" class="rr-post-markdown">
  This folder contains Powerpoint files from Sony seminars hosted in both February 2005 and July 2005, with the February content only being in Japanese but the July content being in both English and Japanese. 
 
- We casn't open these files as they are protected by a password and thus can't describe what is in them.
+ **We can't open these files as they are protected by a password and thus can't describe what is in them.**
 
   </div>
 </section>  
@@ -119,10 +120,10 @@ This folder also contains the following sub-directories:
 * **Logo** - Adobe Illustrator (.ai) vector images of the allowed Sony logos
 
 
+One of the test cases makes sure that all games that get published do not contain debug symbols unfortunetly:
   </div>
 </section>  
 
-One of the test cases makes sure that all games that get published do not contain debug symbols unfortunetly:
 
 > It is forbidden to include the following types of files in the master in any form, even in archive format.
 > - Data and files used only for development and debugging purposes such as program source files, executable files with symbols, map files, and driver modules used in title development
@@ -260,7 +261,7 @@ After installation, /usr/local/psp/devkit/bin.linux and /usr/local/psp/devkit/bi
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/1st_read</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains the bare bones documentation that should be read as soon as recieveing the development kit, such as setting up the system.
 
   </div>
 </section>  
@@ -360,7 +361,7 @@ pspuidfnkeygen | N/A |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin.windows</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains thw windows compiled versions of the build utilities.
 
   </div>
 </section>  
@@ -430,11 +431,12 @@ This folder also contains the following sub-directories:
 * **model** - 
 * **scene** - 
 * **sound** - 
-* **dvdumd** - 
+* **dvdumd** -
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -459,10 +461,11 @@ This folder also contains the following sub-directories:
 * **sound** - PHD/PBD Format documentation in PDF format
 * **hardware_manual** - Hardware Manual Release 1.0.0 (2006)
 * **tool** - PDF Tool documentation
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -496,10 +499,10 @@ This folder also contains the following sub-directories:
 * **kernel** - 
 * **tool** - 
 * **utility** - 
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1058,11 +1061,12 @@ GSO_Format-Reference-English | .pdf |
 This folder also contains the following sub-directories:
 * **Graphics_Engine** - 
 * **VFPU** - 
-* **ALLEGREX** - 
+* **ALLEGREX** -
+
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1079,10 +1083,10 @@ Readme-English | .txt |
 
 This folder also contains the following sub-directories:
 * **Instruction_list** - Just contains one file **ALLEGREX_FPU-Instruction_List-English.pdf** that...
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1102,10 +1106,10 @@ FPU-Users_Manual-English | .pdf |
 This folder also contains the following sub-directories:
 * **Command_list** - Japanese and Korean version of Graphics_Engine-Command_List
 * **Graphics_Engine-Command_list** - Just contains one file **Graphics_Engine-Command_List-English.pdf** that...
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1122,10 +1126,10 @@ Graphics_Engine-Users_Manual-English | .pdf |
 This folder also contains the following sub-directories:
 * **VFPU-Instruction_list** - Just contains one file **VFPU-Instruction_List-English.pdf** that... 
 * **Instruction_list** - Japanese and korean version of Vfpu-instruction_list
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
