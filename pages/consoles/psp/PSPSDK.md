@@ -485,21 +485,21 @@ We will only document the PDF version of the documentation files in this post as
  This folder contains...
 
 This folder also contains the following sub-directories:
+* **overview** - General overview o topics such as the compiler toolchain
 * **movie** - Documentation on Movie playback such as AVI Encoding, MP4 Playback
 * **debug_support** - Documentation related to debugging PSP software
-* **network** - 
-* **others** - 
-* **fpu-vfpu** - 
-* **guideline** - 
-* **image_recognition** - 
-* **still** - 
-* **peripheral** - 
-* **graphics** - 
-* **overview** - 
-* **sound** - 
-* **kernel** - 
-* **tool** - 
-* **utility** - 
+* **network** - Documentation on the networking libraries such as **pspnet**
+* **others** - Misc documentation on libraries like Adler and Game authoring
+* **fpu-vfpu** - Low level FPU and VFPU SDK documentation
+* **guideline** - General guidelines for tasks such as creating a custom PSP system theme
+* **image_recognition** - Documentation for libface, which is a library for analyzing grayscale images and recognizing the faces of people whose pictures appear in those images
+* **still** - JPEG and PNG Library documentation
+* **peripheral** - References for APIs such as Battery, Storage and UMD
+* **graphics** - References for the APIs for graphics such as 3D models (GMOs) and graphics engine
+* **sound** - References for the Sound APIs for MP3/VOB, sound input etc
+* **kernel** - Low level kernel information like threading a cache
+* **tool** - Documentation on software related to the Hardware Tool
+* **utility** - Documentation on Browser, RSS Reader utilities
 
 The files in this folder are described in the table below, they are mainly related to the **Network Platform (NP)**, specifically the PlayStation Network **Server Management Tools** or SMT for short:
   </div>
@@ -522,6 +522,31 @@ The **SMT Portal** is a portal site for connecting to the various SMT tools and 
 
 The "administrator", the user who registered the NP Communication IDs and title IDs (product codes) for an organization, can set the access privileges for the organization and the organization's users using the SMT Portal.
 
+---
+#### Overview (/document/pdf/overview)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/overview</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+File Name | Extension | Description
+---|---|---
+Additional_Game_Data-Packaging-English | .pdf | 
+Compiler-Overview-English | .pdf | 
+ContentInformation-Check-English | .pdf | 
+Downloadable_Game-Notes-English | .pdf | 
+Downloadable_Game-Packaging-English | .pdf | 
+Game_MasterDisc-Users_Manual-English | .pdf | 
+PSP_Setup_Guide-English | .pdf | 
+PSP_System_Overview-English | .pdf | 
+Patch-Overview-English | .pdf | 
+Patch-Packaging-English | .pdf | 
+Programming-Overview-English | .pdf | 
 
 ---
 #### Debug_support (/document/pdf/debug_support)
@@ -552,7 +577,7 @@ USB_Serial-Reference-English | .pdf | USB Serial Driver Reference, low level API
 It enables the values of registers and of the program counter, the state of threads, and the state of the synchronization primitives such as semaphores and event flags, to be observed as they were at the time when the crash occurred.
 
 ---
-#### Fpu-vfpu (/document/pdf/fpu-vfpu)
+#### FPU and VFPU (/document/pdf/fpu-vfpu)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/fpu-vfpu</div>
   <div markdown="1" class="rr-post-markdown">
@@ -580,7 +605,10 @@ libvfpu-Reference-English | .pdf |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/graphics</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains documentation related to 3D gaphics such as the GMO 3d Model API and how the Graphics engine works.
+
+ The **Graphics Engine manager (geman)** is a service for controlling the Graphics Engine, which is the drawing engine of the PSPTM.
+geman provides functions for managing display lists (sequences of commands that are transferred to the Graphics Engine) as a queue. By using geman, an application can create and transfer display lists without being concerned with when drawing actually ends.
 
   </div>
 </section>  
@@ -854,33 +882,6 @@ libsha512-Reference-English | .pdf |
 
 
 ---
-#### Overview (/document/pdf/overview)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/overview</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-Additional_Game_Data-Packaging-English | .pdf | 
-Compiler-Overview-English | .pdf | 
-ContentInformation-Check-English | .pdf | 
-Downloadable_Game-Notes-English | .pdf | 
-Downloadable_Game-Packaging-English | .pdf | 
-Game_MasterDisc-Users_Manual-English | .pdf | 
-PSP_Setup_Guide-English | .pdf | 
-PSP_System_Overview-English | .pdf | 
-Patch-Overview-English | .pdf | 
-Patch-Packaging-English | .pdf | 
-Programming-Overview-English | .pdf | 
-
-
----
 #### Peripheral (/document/pdf/peripheral)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/peripheral</div>
@@ -1098,6 +1099,7 @@ Readme-English | .txt |
 
 This folder also contains the following sub-directories:
 * **Instruction_list** - Just contains one file **ALLEGREX_FPU-Instruction_List-English.pdf** that...
+
 The files in this folder are described in the table below:
   </div>
 </section>  
@@ -1162,10 +1164,10 @@ VFPU-Users_Manual-English | .pdf |
 This folder also contains the following sub-directories which each just contain a single **EBOOT.PBP** file :
 * **downgrade_DTP_H1500** - 
 * **update_DTP_H1500** - 
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1182,10 +1184,10 @@ Korean-Notes_on_using_the_updater | .txt | Korean version of the notes
 
 This folder also contains the following sub-directories:
 * **license** - contains a single text file per langauge (English, Japanese, Korean) for the license file **psptool_license_e.txt**
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1210,10 +1212,10 @@ This folder also contains the following sub-directories:
 * **gmo** - 
 * **np** - 
 * **utility** - 
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
