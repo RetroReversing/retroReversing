@@ -1634,7 +1634,7 @@ utility_sysparam | .h | Include file for declaring
 
 
 ---
-## Static Libraries (/lib)
+# Static Libraries (/lib)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/lib</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1642,10 +1642,10 @@ utility_sysparam | .h | Include file for declaring
 
 This folder also contains the following sub-directories:
 * **ldscripts** - 
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
@@ -1874,7 +1874,7 @@ wlan_stub | .a | Static Library archive of
 
 
 ---
-### Linker (ld) Scripts (/lib/ldscripts)
+## Linker (ld) Scripts (/lib/ldscripts)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/ldscripts</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1892,7 +1892,7 @@ prx | .xr |
 
 
 ---
-## Module (/module)
+# Module (/module)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/module</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1943,7 +1943,7 @@ show_macaddr | .prx |
 
 
 ---
-## Sample (/sample)
+# Samples (/sample)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/sample</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1976,10 +1976,10 @@ This folder also contains the following sub-directories:
 * **tool** - 
 * **player** - 
 * **utility** - 
+The files in this folder are described in the table below:
   </div>
 </section>  
 
-The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
