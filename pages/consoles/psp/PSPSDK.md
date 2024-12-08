@@ -623,9 +623,9 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-GE-Overview-English | .pdf | 
-GE-Reference-English | .pdf | 
-Graphics-Overview-English | .pdf | 
+GE-Overview-English | .pdf | 21 page Graphics Engine Manager (geman) Overview
+GE-Reference-English | .pdf | Graphics Engine Manager (geman) Reference for functions such as sceGeListEnQueue
+Graphics-Overview-English | .pdf | High level overview of the Graphics Processing Flow
 libgim_Picture-Overview-English | .pdf | 
 libgim_Picture-Reference-English | .pdf | 
 libgiq_Picture-Overview-English | .pdf | 
