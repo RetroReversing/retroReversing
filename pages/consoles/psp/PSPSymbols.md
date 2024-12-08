@@ -23,6 +23,12 @@ updatedAt: '2020-06-04'
 
 The Sony Playstation portable used encrypted executables known as `EBOOT.BIN`, these are basically just an encrypted ELF file and it is possible to decrypt them with the correct tools. Some games also ship with unencrypted executables in `BOOT.BIN`
 
+Finding Debug symbols in retail PSP games is very rare as one of the test cases in the Sony TRC (Technical Requirements Checklist) makes sure that all games that get published do not contain debug symbols:
+
+> It is forbidden to include the following types of files in the master in any form, even in archive format:
+> - Data and files used only for development and debugging purposes such as program source files, executable files with symbols, map files, and driver modules used in title development
+> - Data and files designed only for use on other platforms such as Windows wallpaper and screensavers
+
 ---
 # Types of PSP Symbol files
 
