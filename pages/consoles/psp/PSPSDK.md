@@ -216,12 +216,12 @@ This folder also contains the following sub-directories:
 * **module** - Compiled PRX modules
 * **src** - Source code to the libraries
 * **sample** - Examples for using the PSP SDK, e.g for playing sound or displaying graphics on the PSP
+* **data** - Data used in the sample applications
 * **contrib** - A Photoshop plugin for the GIM texture format
+* **htool_updater** - Update for the PSP Tool hardware
 * **flash** - 
 * **tips** - 
 * **tool_flash** - 
-* **htool_updater** - Update for the PSP Tool hardware
-* **data** - 
 * **tool** - 
 * **setup** - Hardware Tool instruction manual
 
@@ -477,6 +477,7 @@ Readme-PDF-English | .txt | Change log of pdf document changes and how t use the
 
 We will only document the PDF version of the documentation files in this post as they are equal to the CHM and HTML versions.
 
+---
 ### PDF Documentation (/document/pdf)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/pdf</div>
@@ -484,8 +485,8 @@ We will only document the PDF version of the documentation files in this post as
  This folder contains...
 
 This folder also contains the following sub-directories:
-* **movie** - 
-* **debug_support** - 
+* **movie** - Documentation on Movie playback such as AVI Encoding, MP4 Playback
+* **debug_support** - Documentation related to debugging PSP software
 * **network** - 
 * **others** - 
 * **fpu-vfpu** - 
@@ -499,18 +500,27 @@ This folder also contains the following sub-directories:
 * **kernel** - 
 * **tool** - 
 * **utility** - 
-The files in this folder are described in the table below:
+
+The files in this folder are described in the table below, they are mainly related to the **Network Platform (NP)**, specifically the PlayStation Network **Server Management Tools** or SMT for short:
   </div>
 </section>  
 
 
 File Name | Extension | Description
 ---|---|---
-NP-Product_Management_Guide_e | .pdf | 
-NP_SMT_Matching2-Users_Guide_e | .pdf | 
-NP_SMT_Portal-Users_Guide_e | .pdf | 
-NP_SMT_TPPS-Users_Guide_e | .pdf | 
-NP_SMT_TSSS-Users_Guide_e | .pdf | 
+NP-Product_Management_Guide_e | .pdf | NP Product Management Guide
+NP_SMT_Matching2-Users_Guide_e | .pdf | PlayStation Network SMT - NP Matching 2 Tools User's Guide
+NP_SMT_Portal-Users_Guide_e | .pdf | PlayStation Network SMT - Portal User's Guide
+NP_SMT_TPPS-Users_Guide_e | .pdf | PlayStation Network SMT - Title Patch Publishing System User's Guide
+NP_SMT_TSSS-Users_Guide_e | .pdf | PlayStation Network SMT - Title Small Storage Service User's Guide
+
+**SMT** are a group of web-based tools that support the development of applications with respect to the various PlayStation®Network communication services. 
+
+In the course of testing the behavior of applications in the communication services (such as the NP score ranking service, NP matching 2 service, and patch distribution service), SMT functions can be used to modify PlayStation®Network server settings and to obtain registered data.
+
+The **SMT Portal** is a portal site for connecting to the various SMT tools and for managing all the user and organization privileges for the tools. 
+
+The "administrator", the user who registered the NP Communication IDs and title IDs (product codes) for an organization, can set the access privileges for the organization and the organization's users using the SMT Portal.
 
 
 ---
@@ -518,7 +528,7 @@ NP_SMT_TSSS-Users_Guide_e | .pdf |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/debug_support</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains information on debugging PSP software with Dsnet. **Dsnet** is a debugging environment that uses the **DECI2P** protocol. It enables the host and the PSPTM tool to work together so that applications that will run on the target can be developed more efficiently.
 
   </div>
 </section>  
@@ -527,14 +537,19 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-BSOD-Overview-English | .pdf | 
-Dsnet-Client-English | .pdf | 
-Dsnet_Command_Reference-English | .pdf | 
-GPI_GPO-Reference-English | .pdf | 
-Profiler-Reference-English | .pdf | 
-USB_Serial-Overview-English | .pdf | 
-USB_Serial-Reference-English | .pdf | 
+BSOD-Overview-English | .pdf | Blue Screen of Death module documentation that saves the state when a crash occurs.
+Dsnet-Client-English | .pdf | dsnet for PSP Overview
+Dsnet_Command_Reference-English | .pdf | dstdb source-level/instruction-level debugger Command Reference
+GPI_GPO-Reference-English | .pdf | 6 page GPI / GPO Manipulation Utility Reference
+Profiler-Reference-English | .pdf | Profiler Operation Utility Reference, documentation for the low level profiling API
+USB_Serial-Overview-English | .pdf | USB Serial Driver Overview, The USB serial driver enables the TOOL (DTP-T1000 / DTP-H1500) to communicate with a PC via serial communication over USB using the Abstract Control Model (ACM) of the USB Communication Device Class (CDC).
+USB_Serial-Reference-English | .pdf | USB Serial Driver Reference, low level API documentation
 
+
+
+**BSOD** is a module which, when erroneous processing occurs in a program on the DTP-H1500, if possible halts the program in that state and allows the conditions in which the error occurred to be observed. 
+
+It enables the values of registers and of the program counter, the state of threads, and the state of the synchronization primitives such as semaphores and event flags, to be observed as they were at the time when the crash occurred.
 
 ---
 #### Fpu-vfpu (/document/pdf/fpu-vfpu)
