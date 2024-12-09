@@ -693,7 +693,7 @@ libface-Reference-English | .pdf | libface reference api with functions such as 
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/kernel</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains low level documentation on how the PSP Kernel works.
+ This folder contains low level documentation on how the PSP Kernel works for example details of the cache inside the .
 
   </div>
 </section>  
@@ -702,19 +702,19 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-Cache-Overview-English | .pdf | 
-Cache-Reference-English | .pdf | 
-IO_File_Manager-Reference-English | .pdf | 
-Interrupt_Manager-Reference-English | .pdf | 
-Kernel-Overview-English | .pdf | 
-Loadexec-Reference-English | .pdf | 
-Module_Manager-Reference-English | .pdf | 
-Stdio-Reference-English | .pdf | 
-System_Memory_Manager-Reference-English | .pdf | 
-Thread_Manager-Reference-English | .pdf | 
-Types-Reference-English | .pdf | 
-libheap-Overview-English | .pdf | 
-libheap-Reference-English | .pdf | 
+Cache-Overview-English | .pdf | 14 page ALLEGREX CPU Cache Overview
+Cache-Reference-English | .pdf | Cache Manipulation Utilities Reference
+IO_File_Manager-Reference-English | .pdf | Reference for IO file functions such as SceIoStat
+Interrupt_Manager-Reference-English | .pdf | intrman (PSP Interrupt Manager) Reference
+Kernel-Overview-English | .pdf | 24 page PSP Kernel Overview
+Loadexec-Reference-English | .pdf | Restarting the PSP and Starting Applications (loadexec) Reference
+Module_Manager-Reference-English | .pdf | PSP Module Manager Reference
+Stdio-Reference-English | .pdf | Reference for functions such as sceKernelRegisterStdoutPipe
+System_Memory_Manager-Reference-English | .pdf | PSP System Memory Manager Reference
+Thread_Manager-Reference-English | .pdf | PSP Thread Manager Specifications Reference
+Types-Reference-English | .pdf | Common Type Definitions Reference
+libheap-Overview-English | .pdf | libheap is a library for managing in smaller chunks, memory that is first allocated using the fixed-length memory pool (FPL) of the thread manager. libheap is useful when you want to perform malloc()/free()-like memory management without depending on libc. It can also be used when you want to allocate multiple independent heaps.
+libheap-Reference-English | .pdf | libheap Reference for functions such as sceHeapAllocHeapMemory
 
 
 ---
