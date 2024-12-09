@@ -649,7 +649,7 @@ libgxp_Packet-Reference-English | .pdf | libgxp_packet Reference
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/guideline</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains documents on misc topics such as creating custom system themes or creating content for the internet browser, including the PSP Flash player plugin.
 
   </div>
 </section>  
@@ -658,16 +658,16 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-CustomTheme-Packaging-English | .pdf | 
-Custom_Theme-English | .pdf | 
-InternetBrowser_ContentGuideline_Dev-English | .pdf | 
-NP_Dev-Users_Guide_e | .pdf | 
-PSN_Avatar-Guidelines_e | .pdf | 
-PSP_PlayStation_Store_Content-Guidelines-English | .pdf | 
-Readme-CustomTheme-Packaging-English | .txt | 
-Readme-CustomTheme_CreationGuideline-English | .txt | 
-Readme-InternetBrowser_ContentGuideline_Dev-English | .txt | 
-Readme-PlayStation_Store_ContentGuideline-English | .txt | 
+CustomTheme-Packaging-English | .pdf | Custom Theme Package Creation Guide
+Custom_Theme-English | .pdf | Custom Theme Creation Guidelines
+InternetBrowser_ContentGuideline_Dev-English | .pdf | 53 page Guidelines for Creating Content for the PSP Internet Browser
+NP_Dev-Users_Guide_e | .pdf | 21 page Network Platform for Development User's Guide
+PSN_Avatar-Guidelines_e | .pdf | PlayStation®Network Avatar Guidelines, including premium paid for avatars (also mentions vita and PS3)
+PSP_PlayStation_Store_Content-Guidelines-English | .pdf | 25 page document explains how to create system files, gives precautions when creating content information, and provides notes that should be followed when creating user programs and data.
+Readme-CustomTheme-Packaging-English | .txt | Changelog for the Custom_Theme-English document
+Readme-CustomTheme_CreationGuideline-English | .txt | Changelog for the CustomTheme-Packaging-English.pdf
+Readme-InternetBrowser_ContentGuideline_Dev-English | .txt | Changelog for the InternetBrowser_ContentGuideline_Dev-English.pdf
+Readme-PlayStation_Store_ContentGuideline-English | .txt | Changelog for the PSP_PlayStation_Store_Content-Guideline-English.pdf
 
 
 ---
@@ -675,7 +675,7 @@ Readme-PlayStation_Store_ContentGuideline-English | .txt |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/image_recognition</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains documentation on the Face recognition API provided by the PSP SDK.
 
   </div>
 </section>  
@@ -684,8 +684,8 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-libface-Overview-English | .pdf | 
-libface-Reference-English | .pdf | 
+libface-Overview-English | .pdf | libface is a library for analyzing grayscale images and recognizing the faces of people whose pictures appear in those images
+libface-Reference-English | .pdf | libface reference api with functions such as sceFaceDetection
 
 
 ---
@@ -693,7 +693,7 @@ libface-Reference-English | .pdf |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/kernel</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains...
+ This folder contains low level documentation on how the PSP Kernel works.
 
   </div>
 </section>  
