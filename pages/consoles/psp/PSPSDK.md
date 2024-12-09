@@ -25,8 +25,8 @@ _updatedAt: '2024-12-06'
 # Introduction 
 
 ## What versions of the SDK have been leaked?
-* Version 1.5.0 (psp_full_sdk_JSR) from 2005
-* Version 6.6.0 (psp_sdk_660) from 2011
+* **Version 1.5.0** (psp_full_sdk_JSR) from 2005
+* **Version 6.6.0** (psp_sdk_660) from 2011
 
 This page will document the latest release version 6.6.0 as it is the most complete. The 1.5.0 JSR version only contains the files that get installed to **C:\usr\local\psp\devkit** on windows. 
 
@@ -626,22 +626,22 @@ File Name | Extension | Description
 GE-Overview-English | .pdf | 21 page Graphics Engine Manager (geman) Overview
 GE-Reference-English | .pdf | Graphics Engine Manager (geman) Reference for functions such as sceGeListEnQueue
 Graphics-Overview-English | .pdf | High level overview of the Graphics Processing Flow
-libgim_Picture-Overview-English | .pdf | 
-libgim_Picture-Reference-English | .pdf | 
-libgiq_Picture-Overview-English | .pdf | 
-libgiq_Picture-Reference-English | .pdf | 
-libgmo_Model-Overview-English | .pdf | 
-libgmo_Model-Reference-English | .pdf | 
-libgmq_Model-Overview-English | .pdf | 
-libgmq_Model-Reference-English | .pdf | 
-libgso_Scene-Overview-English | .pdf | 
-libgso_Scene-Reference-English | .pdf | 
-libgu-Overview-English | .pdf | 
-libgu-Reference-English | .pdf | 
-libgum-Overview-English | .pdf | 
-libgum-Reference-English | .pdf | 
-libgup-Reference-English | .pdf | 
-libgxp_Packet-Reference-English | .pdf | 
+libgim_Picture-Overview-English | .pdf | libgim_picture is a library for handling 2D graphics data that are to be used as textures. It provides functions for parsing 2D graphics data files into picture structures having image and palette subblocks, functions for animating picture structures, and functions for setting textures in conjunction with libgu by creating display lists based on picture structures.
+libgim_Picture-Reference-English | .pdf | libgim_picture Reference
+libgiq_Picture-Overview-English | .pdf | libgiq_picture is a lightweight version of libgim_picture. It provides an almost identical API as libgim_picture but can display GIM files with less CPU load.
+libgiq_Picture-Reference-English | .pdf | libgiq_picture Reference
+libgmo_Model-Overview-English | .pdf | libgmo is a library for handling 3D model data. It provides functions for parsing 3D model data files into model structures having bone, part, and material subblocks, functions for animating model structures, and functions for creating display lists based on model structures in conjunction with libgu.
+libgmo_Model-Reference-English | .pdf | libgmo_model Reference
+libgmq_Model-Overview-English | .pdf | libgmq_model is a lightweight version of libgmo_model. It provides an almost identical API as libgmo_model but can display GMO files with less CPU load.
+libgmq_Model-Reference-English | .pdf | libgmq_model Reference
+libgso_Scene-Overview-English | .pdf | libgso is a library which handles 3D scene data. libgso provides structure definitions and macro definitions for the 3D scene format. Using these, information on lights, cameras, etc. declared in the 3D scene format can be obtained.
+libgso_Scene-Reference-English | .pdf | libgso_scene Reference
+libgu-Overview-English | .pdf | libgu is a basic library that uses the Graphics Engine to draw graphics. It is primarily used to create display lists (sequences of drawing parameters and drawing commands) that are used by the Graphics Engine to perform the actual drawing. The library also provides functions for starting, interrupting, and synchronizing drawing operations.
+libgu-Reference-English | .pdf | libgu Reference
+libgum-Overview-English | .pdf | libgum is a library for supporting 3D operations. It has functions for performing matrix calculations such as rotation, scaling, and perspective projection as well as functions for reflecting the calculation result matrix in a display list that was created using libgu.
+libgum-Reference-English | .pdf | libgum Reference
+libgup-Reference-English | .pdf | libgup Reference
+libgxp_Packet-Reference-English | .pdf | libgxp_packet Reference
 
 
 ---
