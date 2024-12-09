@@ -77,8 +77,14 @@ PSP_Setup_Guide-Korean | .pdf | Korean Version
 
  **We can't open these files as they are protected by a password and thus can't describe what is in them.**
 
+One of the files was unencrypted (**Seminar2005-02_VFPU-Japanese**) and it's from the **Sony software development seminar**  that took place on 28th February 2005.
+
   </div>
 </section>  
+
+The VFPU session has this cool screenshot of a dragon example to show that the VFPU is suitable for real-time transformations of 3D models, such as animations:
+<img width="317" alt="Dragon PSP example" src="https://github.com/user-attachments/assets/01245a44-ec09-4e55-a22c-6990576a2dcc">
+
 
 The files in this folder are described in the table below:
 
@@ -91,7 +97,7 @@ Seminar2005-02_MPEG-Japanese | .pps |
 Seminar2005-02_NETWORK-Japanese | .pps | 
 Seminar2005-02_SOUND-Japanese | .pps | 
 Seminar2005-02_Utility-Japanese | .pps | 
-Seminar2005-02_VFPU-Japanese | .pps | 
+Seminar2005-02_VFPU-Japanese | .pps | 19 slides that talks about how to Utilize the VFPU Effectively (libvfpu) and Key Considerations.
 Seminar2005-07_browser-English | .pps | 
 Seminar2005-07_graphics-English | .pps | 
 Seminar2005-07_network-English | .pps | 
