@@ -282,7 +282,7 @@ Sample_List-English | .txt | Description of all the samples included in the samp
 
 
 ---
-## Psp-utils binaries (/bin)
+# PSP Utils Binary Toolchain (/bin)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/bin</div>
   <div markdown="1" class="rr-post-markdown">
@@ -401,7 +401,7 @@ pspsplitoverlay | .exe | This command separates the overlay file off the PSP ELF
 pspuidfnkeygen | .exe | 
 
 ---
-## GIM Photoshop Plugin (/contrib/tool/gimPhotoshopPlugin)
+# GIM Photoshop Plugin (/contrib/tool/gimPhotoshopPlugin)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/gimPhotoshopPlugin</div>
   <div markdown="1" class="rr-post-markdown">
@@ -423,7 +423,7 @@ When running the plugin in Photoshop 6.0 you get the following dialog to save to
 
 
 ---
-## Data (/data)
+# Data (/data)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/data</div>
   <div markdown="1" class="rr-post-markdown">
@@ -452,7 +452,62 @@ Readme_Sample_Code_Data-Movie-English | .txt | Changelog for the Movie samples
 Readme_Sample_Code_Data-Sound-English | .txt | Changelog for the Sound samples
 
 ---
-## Documentation (/document)
+
+---
+# Module (/module)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/module</div>
+  <div markdown="1" class="rr-post-markdown">
+ This folder contains...
+
+  </div>
+</section>  
+
+The files in this folder are described in the table below:
+
+| File Name                 | Extension | Description                                             |
+|---------------------------|-----------|---------------------------------------------------------|
+| libadler                  | .prx      | Implements Adler-32 checksum computation.              |
+| libbase16                 | .prx      | Provides Base16 (hexadecimal) encoding and decoding.    |
+| libbase32                 | .prx      | Provides Base32 encoding and decoding functionality.    |
+| libbase64                 | .prx      | Implements Base64 encoding and decoding.               |
+| libccc                    | .prx      | Character Code Conversion utilities  |
+| libdeflt                  | .prx      | libdeflt is a library for expanding data in zlib format, deflate format, gzip format, and PK0304 zip format which are defined in RFC 1950, RFC 1951, and RFC 1952.        |
+| libface                   | .prx      | Manages face detection or recognition utilities.        |
+| libfont                   | .prx      | Handles font rendering and manipulation.               |
+| libfpu                    | .prx      | FPU functions |
+| libheap                   | .prx      | Provides heap memory management functionality.          |
+| libmd5                    | .prx      | Implements the MD5 hashing algorithm.                  |
+| libmt19937                | .prx      | Mersenne Twister random number generator (MT19937).     |
+| libpsmfplayer             | .prx      | Plays PSP Motion Format (PSMF) video files.            |
+| libpuny                   | .prx      | Handles Punycode encoding for internationalized domain names. |
+| libqpcode                 | .prx      | Encodes and decodes Quoted-Printable format.            |
+| libsfmt11213              | .prx      | SIMD-oriented Fast Mersenne Twister (11213 parameters). |
+| libsfmt1279               | .prx      | SIMD-oriented Fast Mersenne Twister (1279 parameters).  |
+| libsfmt132049             | .prx      | SIMD-oriented Fast Mersenne Twister (132049 parameters).|
+| libsfmt19937              | .prx      | SIMD-oriented Fast Mersenne Twister (19937 parameters). |
+| libsfmt216091             | .prx      | SIMD-oriented Fast Mersenne Twister (216091 parameters).|
+| libsfmt2281               | .prx      | SIMD-oriented Fast Mersenne Twister (2281 parameters).  |
+| libsfmt4253               | .prx      | SIMD-oriented Fast Mersenne Twister (4253 parameters).  |
+| libsfmt44497              | .prx      | SIMD-oriented Fast Mersenne Twister (44497 parameters). |
+| libsfmt607                | .prx      | SIMD-oriented Fast Mersenne Twister (607 parameters).   |
+| libsfmt86243              | .prx      | SIMD-oriented Fast Mersenne Twister (86243 parameters). |
+| libsha0                   | .prx      | Implements the SHA-0 hashing algorithm.                |
+| libsha1                   | .prx      | Implements the SHA-1 hashing algorithm.                |
+| libsha224                 | .prx      | Implements the SHA-224 hashing algorithm.              |
+| libsha256                 | .prx      | Implements the SHA-256 hashing algorithm.              |
+| libsha384                 | .prx      | Implements the SHA-384 hashing algorithm.              |
+| libsha512                 | .prx      | Implements the SHA-512 hashing algorithm.              |
+| psmf                      | .prx      | Provides core functionality for handling PSP Motion Format headers. |
+| pspnet_ap_dialog_dummy    | .prx      | Dummy module for PSP network access point dialogs.      |
+| scan                      | .prx      |  |
+| show_macaddr              | .prx      | Displays the device's MAC address.                     |
+
+
+
+
+---
+# Documentation (/document)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/document</div>
   <div markdown="1" class="rr-post-markdown">
@@ -1897,55 +1952,6 @@ elf32elmip | .x, .xbn, .xc, .xn |
 prx | .xr | 
 
 
----
-# Module (/module)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/module</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains...
-
-  </div>
-</section>  
-
-The files in this folder are described in the table below:
-
-File Name | Extension | Description
----|---|---
-libadler | .prx | 
-libbase16 | .prx | 
-libbase32 | .prx | 
-libbase64 | .prx | 
-libccc | .prx | 
-libdeflt | .prx | 
-libface | .prx | 
-libfont | .prx | 
-libfpu | .prx | 
-libheap | .prx | 
-libmd5 | .prx | 
-libmt19937 | .prx | 
-libpsmfplayer | .prx | 
-libpuny | .prx | 
-libqpcode | .prx | 
-libsfmt11213 | .prx | 
-libsfmt1279 | .prx | 
-libsfmt132049 | .prx | 
-libsfmt19937 | .prx | 
-libsfmt216091 | .prx | 
-libsfmt2281 | .prx | 
-libsfmt4253 | .prx | 
-libsfmt44497 | .prx | 
-libsfmt607 | .prx | 
-libsfmt86243 | .prx | 
-libsha0 | .prx | 
-libsha1 | .prx | 
-libsha224 | .prx | 
-libsha256 | .prx | 
-libsha384 | .prx | 
-libsha512 | .prx | 
-psmf | .prx | 
-pspnet_ap_dialog_dummy | .prx | 
-scan | .prx | 
-show_macaddr | .prx | 
 
 
 ---
