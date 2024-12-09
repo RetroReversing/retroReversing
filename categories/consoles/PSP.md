@@ -38,8 +38,22 @@ For an in-depth look at the Playstation Portable's Retail hardware architecture 
 
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.png" title="PlayStation Portable Architecture - A Practical Analysis"  %}
 
-## Development Hardware
+### ALLEGREX CPU
+The main CPU in the PSP was the ALLEGREX.
 
+### VFPU - Vector Floating-point processor
+The VFPU operates as a coprocessor for ALLEGREX it is a 128-bit vector floating-point processor.
+
+Operates synchronously with ALLEGREX's clock (However, the write buffer operates at the bus clock speed.)
+
+Equipped with 32 **128-bit** matrix registers
+Designed for vector and matrix calculations (The minimum access unit is 32 bits.)
+
+Capable of high-speed processing for geometry calculations, audio processing, and more.
+
+---
+## Development Hardware
+We have a seperate post all about the development hardware used to make PSP games:
 {% include link-to-other-post.html post="/official-psp-devkit" description="For more information on the development hardware check out this post." %}
 
 
