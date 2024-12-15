@@ -46,7 +46,7 @@ Some examples of the length of time it took to develop Super Nintendo games are:
   - Artwork:	Anthony Anderson, Craig Houston, David McLachlan, James Clarke, Jonathan M. Smith and Ste Pickford
   - Music:	Geoff Follin and Tim Follin
 * **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.
-* **RPM Racing (Interplay)** - In an interview with SuperPro (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
+* **RPM Racing (Interplay)** - In an interview with SuperPro (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
 
 ## What would you need to write SNES games?
 Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
