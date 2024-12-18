@@ -1,3 +1,18 @@
+---
+title: The History of NES Emulation
+layout: post
+permalink: /nes-emulation
+image: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+twitterimage: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+tags:
+- nes
+- emulation
+recommend:
+- nes
+- emulation
+editlink: /consoles/nes/NESEmulation.md
+_updatedAt: '2024-12-18'
+---
 # The History of NES Emulation
 
 ## The Birth of Emulation and the NES
