@@ -2,8 +2,15 @@
 title: The History of NES Emulation
 layout: post
 permalink: /nes-emulation
-image: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
-twitterimage: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+_image: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+_twitterimage: https://github.com/user-attachments/assets/096a3d2c-ad64-47b3-9671-687b138c146b
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Nintendo Entertainment System
+    url: /nes
+  - name: The History of NES Emulation
+    url: #
 tags:
 - nes
 - emulation
