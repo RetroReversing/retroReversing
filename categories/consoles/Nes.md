@@ -165,6 +165,11 @@ It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems be
 We have a specific post covering exactly how emulators work including tips for writing your own emulators: 
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
+## When was the first NES emulator?
+We have a specific post on the history of NES emulation:
+{% include link-to-other-post.html post="/nes-emulation" description="For more information on the history of NES emulators check out this post." %}
+
+
 ## NES Emulators with Debugging Functionality
 When reversing or developing NES games it is vital to use a good emulator which has debugging support such as:
 * **BreakPoints** - e.g can create a breakpoint at a specific code or memory location and execution will stop at that place
