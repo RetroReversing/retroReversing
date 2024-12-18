@@ -23,3 +23,10 @@ This is a Work in progress page to list interesting articles on 2D graphics tech
 The Youtuber **decino** has created an excellent video explaining how the 2d melting screen transition works in the original Doom. It is well worth a watch!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lUsCXSNhHmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+# Others
+
+## Pseudo 3d Roads
+For information on how to create 2D games that look pseudo 3d (e.g outrun) Check out:
+[Lou's Pseudo 3d Page](http://www.extentofthejam.com/pseudo/)
