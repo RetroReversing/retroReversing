@@ -59,7 +59,12 @@ It was available on the **FM Towns Freeware Collection 3** CD (which is availabl
 You can see a video of version Ver 0.45 of it here running in the FM Towns emulator **Tsugaru** by **bcc2528**:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xcyF4jqAyFg?si=4q9vLKxeNH7McMKD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-### NESticle
+### iNES (1996)
+The iNES emulator is a significant piece of NES emulation history, developed by Marat Fayzullin in 1996. 
+
+One of iNES's lasting contributions was the introduction of the iNES file format for ROMs. This format (.nes file extension) became the de facto standard for NES ROM images and is still widely used today. The format includes a small header containing metadata about the ROM, such as the mapper type, mirroring, and other technical details.
+
+### NESticle (1997)
 A significant breakthrough came in 1997 with the release of **NESticle**, a Windows-based NES emulator created by programmer Icer Addis of Bloodlust Software. 
 
 NESticle was revolutionary: it could play many NES games at full speed on common PCs of the era and featured debugging tools, save states, and graphical enhancements. 
