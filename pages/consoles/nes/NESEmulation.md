@@ -60,7 +60,8 @@ You can see a video of version Ver 0.45 of it here running in the FM Towns emula
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xcyF4jqAyFg?si=4q9vLKxeNH7McMKD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### iNES (1996)
-The iNES emulator is a significant piece of NES emulation history, developed by Marat Fayzullin in 1996. 
+The iNES emulator is a significant piece of NES emulation history, developed by **Marat Fayzullin** in 1996. 
+![iNES](https://github.com/user-attachments/assets/1ff95a08-324d-4829-9295-9717a71dcb2f)
 
 One of iNES's lasting contributions was the introduction of the iNES file format for ROMs. This format (.nes file extension) became the de facto standard for NES ROM images and is still widely used today. The format includes a small header containing metadata about the ROM, such as the mapper type, mirroring, and other technical details.
 
