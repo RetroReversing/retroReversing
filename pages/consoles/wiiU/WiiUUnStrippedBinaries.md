@@ -42,15 +42,15 @@ In the table below the number of symbols is based on the main executable (RPX) e
  99Seconds | 25,370 | Unity
  A World of Keflings | 9,893 | Cafe SDK
  Abyss | 5,623 | Unity
- ACT IT OUT! A Game of Charades |  | 
+ ACT IT OUT! A Game of Charades | 14,582 | Unity
  Advance Wars: Dual Strike | 7,067 | DS Emulation
- Adventure Time: Finn & Jake Investigations |  | 
- Adventure Time: Explore the Dungeon Because I DON’T KNOW! |  | 
- Adventures of Pip |  | 
- Affordable Space Adventures |  | 
- Alphadia Genesis™ |  | 
- Angry Birds Star Wars |  | 
- Angry Birds Trilogy |  | 
+ Adventure Time: Finn & Jake Investigations | 14,973 | 
+ Adventure Time: Explore the Dungeon Because I DON’T KNOW! | 33,058 | 
+ Adventures of Pip | 35,849 | Unity
+ Affordable Space Adventures | 18,552 | Unity
+ Alphadia Genesis™ | 3,986 | Unity
+ Angry Birds Star Wars | 13,468 | 
+ Angry Birds Trilogy | 37,551 | 
  Angry Bunnies: Colossal Carrot Crusade |  | 
  Angry Video Game Nerd Adventures |  | 
  Animal Crossing: Wild World |  | 
@@ -463,13 +463,26 @@ Alot of the games in the list above are Unity games with debug symbols for the e
 * **Assembly-CSharp-firstpass_dll.rpl** - Compiled built in scripts from standard assets and plugins (Number of symbols varies based on game)
 * **Assembly-UnityScript-firstpass_dll.rpl** - (Number of symbols varies based on game)
 * **System_dll.rpl** - Core .net dll (11,349 symbols)
+* **System_Core_dll.rpl** - (5,073 symbols)
+* **System_Xml_dll.rpl** - (10,953 symbols)
 * **Mono_Security_dll.rpl** - (2,956 symbols) 
 * **mscorlib_dll.rpl** - (25,216 symbols)
-* **System_Core_dll.rpl** - (5,073 symbols)
 * **UnityEngine_dll.rpl** - (16,474 symbols)
+* **UnityEngine_Networking_dll.rpl** - (8,088 symbols)
 * **UnityScript_Lang_dll.rpl** (245 symbols)
 * **Boo_Lang_dll.rpl** - (1514 symbols)
 
+Common plugins:
+* **AccountSystemPlugin.rpl** - (144 symbols)
+* **CloneFinalMixAudio.rpl** - (20 symbols)
+* **DownsamplerPlugin.rpl** - (109 symbols)
+* **DOTween46_dll.rpl** - (206 symbols)
+* **Fabric_Core_dll.rpl** - (3,790 symbols)
+* **Fabric_AudioSpline_dll.rpl** - (125 symbols)
+* **Miiverse.rpl** - (48 symbols)
+* **SonyPS4CommonDialog_dll.rpl** (211 symbols)
+* **SonyPS4SavedGames_dll.rpl** (212)
+* **SpectrumAnalyzerPlugin.rpl** - (140 symbols)
 
 ---
 # References
