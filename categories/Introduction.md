@@ -188,7 +188,7 @@ The exact representation a game uses will vary based on the compiler used, syste
 Here are the most common data representations:
 * **Single Character** (e.g the letter A) - Single byte ASCII
 * **ASCII Text** (e.g the string 'Hello') - One Byte per character and normally ended with a Null Terminator **0x00**
-* **UTF-8 Text** (e.g the string 'Hello') - Two Bytes per character and normally ended with a Null Terminator **0x00**
+* **UTF-8 Text** (e.g the string 'Hello') - A variable number of Bytes (1 to 4) per character and normally ended with a Null Terminator **0x00**
 * **Boolean** - Either 1 Byte, 4 Bytes or occasionaly 1 Bit (along with 7 other boolean bits)
 * **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
 * **Long** - 4 Bytes
