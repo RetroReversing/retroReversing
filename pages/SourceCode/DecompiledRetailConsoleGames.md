@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2024-12-03'
+updatedAt: '2025-01-04'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -487,6 +487,7 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 |![](https://upload.wikimedia.org/wikipedia/en/c/c9/Cosmoscosmicadventurecover.jpg){:width="100"} [Cosmo's Cosmic Adventure](https://github.com/smitelli/cosmore)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/0/06/Deus_Ex_Human_Revolution_cover.jpg){:width="100"} [Deus Ex: Human Revolution](https://github.com/rrika/cdcEngineDXHR)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3a/Diablo_Coverart.png){:width="100"} [Diablo](https://github.com/diasurgical/devilution)              | Decompilation | N/A |
+|![](https://upload.wikimedia.org/wikipedia/fr/3/3c/Diablo_II_Logo.png){:width="100"} [Diablo II](https://github.com/ThePhrozenKeep/D2MOO/)              | Decompilation | Active, >50% |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d4/Duck_Game_Logo.jpg){:width="100"} [Duck Game](https://github.com/TheFlyingFoool/DuckGameRebuilt)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9e/Duke_Nukem_II_Cover.jpg){:width="100"} [Duke Nukem II (DOS)](https://github.com/lethal-guitar/Duke2Reconstructed)              | Reimplementation | N/A |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Lego-island.jpg){:width="100"} [Lego Island](https://github.com/isledecomp/isle)              | Decompilation | Active, LEGO1.DLL 2948/4252 Implemented |
