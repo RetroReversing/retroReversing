@@ -89,6 +89,11 @@ it was either sponsored by Amiqus or just an entire Advert by them, but either w
 
 ---
 ## The Develop Industry Excellence Awards
-Develop hosted an annual game development awards ceremony which was highly coveted in the industry, especially in europe but was also known worldwide. From 2003 until the present day the awards were judged by a panel of 50+ industry professionals across a laerge number of categories (18 in 2005) [^6].
+Develop hosted an annual game development awards ceremony which was highly coveted in the industry, especially in europe but was also known worldwide. From 2003 until the present day the awards were judged by a panel of 50+ industry professionals across a laerge number of categories (18 in 2005) [^1].
 
-It is held in London every year and the first was at the Royal Garden Hotel in Kensington on August 27th 2003 [^7].
+It is held in London every year and the first was at the Royal Garden Hotel in Kensington on August 27th 2003 [^2].
+
+---
+# References
+[^1]: [Develop Industry Excellence Awards Announced](https://www.gamedeveloper.com/game-platforms/develop-industry-excellence-awards-announced)
+[^2]: [Climax Nominated For Five Develop Industry Excellence Awards - IGN](https://www.ign.com/articles/2003/07/04/climax-nominated-for-five-develop-industry-excellence-awards)
