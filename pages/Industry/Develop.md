@@ -31,6 +31,7 @@ _updatedAt: '2025-02-15'
 # Develop
 **Develop** was a UK magazine dedicated to game developers in the industry similar to the US magazine **Game Developer**, it published 11 issues a year, one a month except December and January where there was one issue for both months. After 188 issues it was merged with its sister title **MCV** to become **MCV/Develop** but it kept the MCV issue numbering.
 
+## Contents
 For most of its run the magazine was divided into the following 3 sections:
 * **Alpha** - News and views on game development
 * **Beta** - Development features, Interviews, essays and more
@@ -39,6 +40,18 @@ For most of its run the magazine was divided into the following 3 sections:
 Other subsections included:
 * **Develop Jobs** - Your monthly guide to the best career opportunities in games development worldwide
 * **Directory** - The world’s premier listing of games development studios, tools, outsourcing specialists, services and courses
+
+## Circulation information
+The information we have about the circulation (number of magazines sold) are listed below:
+* In 2001 it was 5,000
+* In 2004 it was 8,263
+
+## Publishers
+During its run it went through a number of different publishers:
+* Intent Media
+* New Bay Media
+* MCV Media
+* Future Publishing
 
 ---
 ## Interviews with Game Developers
@@ -95,6 +108,18 @@ It is held in London every year and the first was at the Royal Garden Hotel in K
 
 ## The Website
 From 2001 Develop had a website at the url **http://www.developmag.com** which later changed to **http://www.develop-online.net/** in July 2009.
+
+It was initially a very basic website with a very brief description of the main articles, circulation information and a **media pack** containing circulation information to attract advertisers.
+
+## Cover Art
+The Develop magazine had some great cover art throughout the years, we will list a couple of our favourites below. We don't have all the issues so apologies if your favourite is missing.
+
+Issue 37 advertises "Vivarin" a game development supplement to help with Game Crunches (for PS2, Xbox or Gamecube developers):
+![Issue 37](https://github.com/user-attachments/assets/93b26572-9fd3-46e8-80ec-58657ca83283)
+
+Issue 40 shows the dream 'Superstar developer" who makes millions:
+![Issue 40](https://github.com/user-attachments/assets/4e2703c3-4e56-4bee-b620-43dd37080492)
+
 
 ---
 # References
