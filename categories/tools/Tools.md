@@ -67,6 +67,10 @@ These IDEs were pivotal in creating the games that defined a generation, providi
 
 {% include link-to-other-post.html post="/game-development-ides" description="For more information on Game Development IDEs used in the 90s and early 00s, check out this post." %}
 
+An advert for attracting game developers to use **Microsoft Visual Studio** from the September 2007 issue of **Develop** magazine:
+![Microsoft Visual Studio](https://github.com/user-attachments/assets/290b146d-d4ef-411c-93cb-64cb4b8c8b74)
+
+
 ---
 ## Software Development Kits
 Every platform had its own official Software Development Kit (SDK), so whether you were developing for the Playstation or the PC you would be interacting with different APIs. In addition there were third parties that created their own multi-platform SDKs which could be used on multiple games consoles or Operating Systems.
