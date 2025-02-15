@@ -56,12 +56,12 @@ During its run it went through a number of different publishers:
 ---
 ## Interviews with Game Developers
 
-Some of the interviews were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
+In 2007 some of the interviews from the magazine were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
 
 Issue Number | Interview Name | Description
 ---|---|---
-75 | John Romero | Design Doc - Emotion in games
-75 | Gordon Hall | [Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.](https://web.archive.org/web/20070819215849/http://www.developmag.com/interviews/55/Rockstar-Leads)
+075 | John Romero | Design Doc - Emotion in games
+075 | Gordon Hall | [Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.](https://web.archive.org/web/20070819215849/http://www.developmag.com/interviews/55/Rockstar-Leads)
 163 | Sam Barlow | Following the runaway success of his first indie release **Her Story**, Sam Barlow discusses why he left triple-A to develop on his unique vision for the game
 
 ---
@@ -70,6 +70,13 @@ The Build section of the magazine is the most relevant to the purpose of this si
 
 Issue | Article | Topic | Description
 ---|---|---|---
+075 | Rethinking game AI | AI | What are the implications of **AI.implant’s** new no-costing licensing model?
+075 | Build The Online Planet | Engine | When it comes to MMOGs, at least there’s plenty of middleware to choose from
+075 | ARCADE FIRE | Stainless Games’ **Ben Gunstone** offers up some key advice on making games for **Xbox Live Arcade**...
+075 | Heavenly Sword | Audio | John Broomhall talks to Ninja Theory’s **Tom Colvin** and SCEE’s **Garry Taylor** about the audio production of a PlayStation 3 epic...
+075 | Epic Diaries | Unreal | Another fantastic E3 for Unreal Engine 3
+075 | Championship Management | Production | Managing a next-gen project can feel like trying to tame Godzilla, but there are software solutions and
+fashionable paradigms that claim to make your life easier, discovers **Ed Fear**.
 163 | AI’s next frontier | AI | With all the advances already made in video games AI, where is there left to go? **Craig Chapple** asks the experts where the technology goes next
 163 | Creating Believable AI | AI | Experts pitch in with their top tips, tricks and things to consider when creating AI
 163 | Keeping your game on track | Production | Developing a video game is no small endeavour, and tracking its progress is essential. We find out how version management tools can help
@@ -86,6 +93,7 @@ Issue | Article | Topic | Description
 Every month in the directory section of the magazine one specific tool is given a brief review
 Issue | Tool
 ---|---
+075 | Autodesk (3D Studio Max 9, Maya 8, MotionBuilder 7, HumanIK)
 163 | Haxe
 
 ### Studio Spotlight
@@ -93,6 +101,7 @@ Every month a game development studio is profiled with interviews and photos, gi
 
 Issue | Studio | Games
 ---|---|---
+075 | 3D CREATION STUDIO | Project Gotham Racing 4 (Bizarre Creations), The Club (Bizarre Creations)
 163 | Roll7 | OlliOlli 2 and Not A Hero
 
 ---
