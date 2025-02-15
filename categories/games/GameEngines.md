@@ -47,6 +47,10 @@ As far as we know it wasn't used in any commercial games but it a custom version
 
 The website was "http://www.instinct-tech.com/", it was created in 2006 and lasted until 2009.
 
+It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
+![Code Shop EDGE 169](https://github.com/user-attachments/assets/9ddbe96a-1f56-4ab0-83be-a61cb90f16c9)
+
+
 ---
 # Game Engines by Platform 
 Although game engines can be used across multiple games consoles or platforms, we have separated the game engines by platform to make it easier to compare the features between engines of a given console generation.
