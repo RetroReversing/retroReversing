@@ -106,6 +106,12 @@ There was also a version of ProDG available for the Game Boy Advance released in
 {% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For more information on the GBA version of ProDG check out this post." %}
 
 ---
+## Distributed Build System (SN-DBS)
+In Develop issue 78 it was announced that version 2 of SN-DBS would be free for all developers on PS2, PS3 and PSP:
+![image](https://github.com/user-attachments/assets/b75cb8d5-09b0-4db6-8651-a094fdac5de7)
+
+
+---
 # References
 [^1]: https://web.archive.org/web/19970521224105/http://www.snsys.com:80/
 [^2]: Next Generation Magazine June 1995 issue
