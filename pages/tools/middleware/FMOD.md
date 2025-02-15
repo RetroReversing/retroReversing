@@ -19,11 +19,28 @@ recommend:
 editlink: /tools/middleware/FMOD.md
 ---
 
-The FMOD audio engine is a very common middleware used in modern games, starting with the PS1 generation of consoles.
+The FMOD audio engine is a very common middleware used in modern games, starting with the PS1 generation of consoles. It was developed by **Firelight Technologies** and the first release was on 6th March 1995. It is still commonly used in the industry to this very day and has become an industry standard for audio.
 
-# Source Code
-You can download FMOD for yourself here: https://www.fmod.com/download 
+In Uk magazine Develop issue 79 they give a short review of **FMOD** back in 2007:
+![Develop 79](https://github.com/user-attachments/assets/9699b116-081a-47a3-bef8-f102feed2d38)
 
+You can download the FMOD source code for yourself here but note that it is not open source so it requires a license to use commerically: 
+[https://www.fmod.com/download](https://www.fmod.com/download)
+
+---
+# Games using FMOD
+FMOD is used in so many games that creating comprehensive a list would be a time consuming process, but some of the major titles include:
+* Guitar Hero III
+* BioShock
+* Metroid Prime 3
+* Heavenly Sword
+* Call of Duty 4
+* Starcraft II
+
+We have also created a list of the Xbox games we know are using FMOD for sound:
+[Xbox Games using FMOD · RetroReversing](https://www.retroreversing.com/xbox-game-engines#fmod-sound-and-music-middleware)
+
+---
 # Reverse Engineering games with FMOD
 If you know your game uses FMOD for audio then it can make the job a lot easier as you have the source code available to you. 
 
@@ -31,11 +48,7 @@ Plus any reversing work you make on another games fmod module you can apply to y
 
 Each platform that FMOD supports uses a slightly different implementation tailored to that platform so this post will try to list what we know about fmod compiled for other platforms such as different games consoles.
 
-# Games using FMOD
-We have created a list per platform of the games we know are using FMOD for sound:
-[Xbox Games using FMOD · RetroReversing](https://www.retroreversing.com/xbox-game-engines#fmod-sound-and-music-middleware)
-
-# Known Files used on Xbox
+## Known Files used on Xbox
 These files are listed as leftover strings in xbox compiled binaries:, it means that they are being used by Xbox games:
 ```
 fmod\\src\\sound_software.c
@@ -56,13 +69,11 @@ fmod\\src\\music_formatxm.c
 fmod\\src\\music_formats3m.c
 fmod\\src\\music_formatfsb.c
 
-
 fmod\\src\\format_oggvorbis.c
 fmod\\src\\format_it.c
 fmod\\src\\format_mpeg.c
 fmod\\src\\format_fsb.c
 fmod\\src\\format_wav.c
-
 
 fmod\\ogg_vorbis\\ogg\\src\\framing.c
 fmod\\ogg_vorbis\\vorbis\\lib\\vorbisfile.c
@@ -79,3 +90,7 @@ fmod\\ogg_vorbis\\vorbis\\lib\\res0.c
 fmod\\ogg_vorbis\\vorbis\\lib\\floor1.c
 fmod\\ogg_vorbis\\vorbis\\lib\\floor0.c
 ```
+
+---
+# References
+[^1]: Develop issue 79 page 67
