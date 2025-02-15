@@ -111,6 +111,25 @@ Music has always been a cornerstone of the gaming experience. Uncover the music 
 
 
 ---
+# Production
+The tools used by producers for project management are much harder to find information on as no details will leak into the source code or compiled game binaries, however we know of a few thanks to articles in magazines such as **Develop**.
+
+## DevTrack by TechExcel
+DevTrack is TechExcel’s project issue-tracking tool, comprehensively managing issues as far reaching as new features, QA reports and IT activities. Clients include Activision, Electronic Arts, Sammy Studios, Sony Online Entertainment, Vivendi Universal.
+
+The reason we know about this tool is thanks to issue 78 of the UK game development magazine **Develop** which had a brief section on it:
+![TECHEXCEL DEVTRACK](https://github.com/user-attachments/assets/0789c549-0dce-4838-9c22-500b0aa35285)
+
+It was previously known as **PowerTrack** but rebranded to **DevTrack** in 1999 to focus on software development specifically.
+
+In the February 1999 issue of EXE magazine it mentions the rebrand was at version 3.0: 
+![PowerTrack rebrand](https://github.com/user-attachments/assets/059f454d-af29-4ffb-bb71-9183f7fb871a)
+
+
+The product is still going strong in 2025!
+
+
+---
 # Reverse Engineering Tools for Games
 
 Reverse engineering is a vital process for understanding and recreating the magic behind retro games. By dissecting and analyzing the original game code, assets, and mechanics, enthusiasts can learn how these classics were built and even modify or enhance them. Our site provides detailed information on the essential tools and techniques used in reverse engineering games. Here’s an overview of the key tools you'll need:
