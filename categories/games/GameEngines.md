@@ -55,9 +55,10 @@ It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 
 ---
 # Unity
-Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However over its lifetime it has grown to support not just PC but also many games consoles (Wii, XBox 360, PS3) and mobile platforms (iOS, Android).
+Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However over its lifetime it has grown to support not just PC but also many games consoles (Wii, XBox 360, PS3) and mobile platforms (iOS, Android). It was developed by the Danish vendor **OTEE**
 
 Key milestones include:
+* **Unity 1.0** first version that even included a full version of the physics engine Ageia physX (8th June 2005)
 * **Unity 1.1** introduced Windows deployment support on August 23rd 2005, but there was no support for editing on Windows yet.
 * **Unity 1.5** introduced the cross platform web-player via the The **Unity Web Player browser plugin** (June 16th 2006)
 * **Unity 2.0** introduced new features like the Terrain Rendering Engine, DirectX 9 Renderer for Windows, Built-in Networked Multiplayer Support, Web Player Streaming and Improved Web Player Compression. Along with a new companion product, the Unity Asset Server!
