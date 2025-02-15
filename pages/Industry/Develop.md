@@ -93,6 +93,9 @@ Develop hosted an annual game development awards ceremony which was highly covet
 
 It is held in London every year and the first was at the Royal Garden Hotel in Kensington on August 27th 2003 [^2].
 
+## The Website
+From 2001 Develop had a website at the url **http://www.developmag.com** which later changed to **http://www.develop-online.net/** in July 2009.
+
 ---
 # References
 [^1]: [Develop Industry Excellence Awards Announced](https://www.gamedeveloper.com/game-platforms/develop-industry-excellence-awards-announced)
