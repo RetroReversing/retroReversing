@@ -35,7 +35,7 @@ This was due to the limited audience of game engines at the time, you would have
 However with the Indie game revolution a number of free or cheap game engines became available but tended still to charge much more for console development.
 
 ---
-# Obscure Commercial Game Engines
+# Commercial Game Engines
 
 ## Instinct Studio
 Instinct Studio was a rather obscure a software suite by the Ireland based company **Instinct Technology**. It claimed to combine a complete set of game development tools with an array of 'best in class' middleware plug-ins, giving game developers the power and flexibility to create state-of-the-art productions within realistic budgets.
@@ -52,6 +52,19 @@ The website had a screenshot of what the editor interface was like, it is very m
 
 It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 ![Code Shop EDGE 169](https://github.com/user-attachments/assets/9ddbe96a-1f56-4ab0-83be-a61cb90f16c9)
+
+---
+# Unity
+Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However over its lifetime it has grown to support not just PC but also many games consoles (Wii, XBox 360, PS3) and mobile platforms (iOS, Android).
+
+Key milestones include:
+* **Unity 1.1** introduced Windows deployment support on August 23rd 2005, but there was no support for editing on Windows yet.
+* **Unity 1.5** introduced the cross platform web-player via the The **Unity Web Player browser plugin** (June 16th 2006)
+* **Unity 2.0** introduced new features like the Terrain Rendering Engine, DirectX 9 Renderer for Windows, Built-in Networked Multiplayer Support, Web Player Streaming and Improved Web Player Compression. Along with a new companion product, the Unity Asset Server!
+* **Unity 2.5** introduced **Windows support** for the Unity development environment so games can be created on both Windows and MacOSX
+* **Unity iPhone** was introduced on October 22, 2008
+
+The first ever unity developer conference **Unite** was held in the two days between October 10-12th 2007.
 
 
 ---
