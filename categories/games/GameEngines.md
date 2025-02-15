@@ -47,6 +47,9 @@ As far as we know it wasn't used in any commercial games but it a custom version
 
 The website was "http://www.instinct-tech.com/", it was created in 2006 and lasted until 2009.
 
+The website had a screenshot of what the editor interface was like, it is very mid-2000s Microsoft:
+![Instinct Studio Interface](https://github.com/user-attachments/assets/3995f8b4-b2e8-45dd-94ec-4d2be7d30e1f)
+
 It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 ![Code Shop EDGE 169](https://github.com/user-attachments/assets/9ddbe96a-1f56-4ab0-83be-a61cb90f16c9)
 
