@@ -54,7 +54,7 @@ During its run it went through a number of different publishers:
 * Future Publishing
 
 ---
-## Interviews with Game Developers
+## Beta Articles
 
 In 2007 some of the interviews from the magazine were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
 
@@ -63,6 +63,9 @@ Issue Number | Interview Name | Description
 075 | John Romero | Design Doc - Emotion in games
 075 | Gordon Hall | [Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.](https://web.archive.org/web/20070819215849/http://www.developmag.com/interviews/55/Rockstar-Leads)
 163 | Sam Barlow | Following the runaway success of his first indie release **Her Story**, Sam Barlow discusses why he left triple-A to develop on his unique vision for the game
+076 | Torsten Reil | Procedural | Michael French speaks to **NaturalMotion** CEO Torsten Reil about the company’s decision to move into full game production and how procedural content is helping its small development team build a new IP...
+076 | Chris Ambler | QA teams across the industry need to focus on professionalism, says **Electronic Arts** UK’s testing boss Chris Ambler...
+076 | Serkan Hassan | Black Rock Studio’s Serkan Hassan provides an invaluable glimpse into how the team behind critically-praised franchise MotoGP recently aimed to please both casual and hardcore players with its latest release...
 
 ---
 ## Build Articles
@@ -72,11 +75,15 @@ Issue | Article | Topic | Description
 ---|---|---|---
 075 | Rethinking game AI | AI | What are the implications of **AI.implant’s** new no-costing licensing model?
 075 | Build The Online Planet | Engine | When it comes to MMOGs, at least there’s plenty of middleware to choose from
-075 | ARCADE FIRE | Stainless Games’ **Ben Gunstone** offers up some key advice on making games for **Xbox Live Arcade**...
+075 | Arcade Fire | Stainless Games’ **Ben Gunstone** offers up some key advice on making games for **Xbox Live Arcade**...
 075 | Heavenly Sword | Audio | John Broomhall talks to Ninja Theory’s **Tom Colvin** and SCEE’s **Garry Taylor** about the audio production of a PlayStation 3 epic...
 075 | Epic Diaries | Unreal | Another fantastic E3 for Unreal Engine 3
 075 | Championship Management | Production | Managing a next-gen project can feel like trying to tame Godzilla, but there are software solutions and
 fashionable paradigms that claim to make your life easier, discovers **Ed Fear**.
+076 | Emergent emerges | Engine | The final pieces of **Emergent**’s online game technology puzzle are soon to be announced, but that’s not all...
+076 | Harry Potter and the Order of the Phoenix | Audio | John Broomhall talks to Electronic Arts UK’s Adele Cutting about the audio production for Harry Potter and the Order of the Pheonix...
+076 | Life in the engine room | Engine | More and more studios are looking towards licensing existing technology to help them produce their game. But, asks Ed Fear, how do you choose which engine, and is it really the panacea it may seem?
+076 | The door is OpenKODE | Mobile | Mobile developers now have a way to sidestep tricky platform fragmentation, says **Ideaworks3D**’s Tim Closs...
 163 | AI’s next frontier | AI | With all the advances already made in video games AI, where is there left to go? **Craig Chapple** asks the experts where the technology goes next
 163 | Creating Believable AI | AI | Experts pitch in with their top tips, tricks and things to consider when creating AI
 163 | Keeping your game on track | Production | Developing a video game is no small endeavour, and tracking its progress is essential. We find out how version management tools can help
@@ -91,10 +98,12 @@ fashionable paradigms that claim to make your life easier, discovers **Ed Fear**
 
 ### Tools Spotlight
 Every month in the directory section of the magazine one specific tool is given a brief review
-Issue | Tool
----|---
-075 | Autodesk (3D Studio Max 9, Maya 8, MotionBuilder 7, HumanIK)
-163 | Haxe
+
+Issue | Tool | Description
+---|---|---
+075 | Autodesk | Mentions 3D Studio Max 9, Maya 8, MotionBuilder 7, HumanIK
+076 | PROFX | Described simply, ProFX is a middleware solution for generating and rendering procedural textures – but such a description belies the technology that powers it.
+163 | Haxe | Game Engine
 
 ### Studio Spotlight
 Every month a game development studio is profiled with interviews and photos, giving an excellent insight into both AAA and indie studios!
@@ -102,6 +111,7 @@ Every month a game development studio is profiled with interviews and photos, gi
 Issue | Studio | Games
 ---|---|---
 075 | 3D CREATION STUDIO | Project Gotham Racing 4 (Bizarre Creations), The Club (Bizarre Creations)
+076 | SIDE UK | Heavenly Sword, Dragon Quest VIII
 163 | Roll7 | OlliOlli 2 and Not A Hero
 
 ---
