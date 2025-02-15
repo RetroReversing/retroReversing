@@ -56,10 +56,12 @@ During its run it went through a number of different publishers:
 ---
 ## Interviews with Game Developers
 
+Some of the interviews were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
+
 Issue Number | Interview Name | Description
 ---|---|---
 75 | John Romero | Design Doc - Emotion in games
-75 | Gordon Hall | Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.
+75 | Gordon Hall | [Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.](https://web.archive.org/web/20070819215849/http://www.developmag.com/interviews/55/Rockstar-Leads)
 163 | Sam Barlow | Following the runaway success of his first indie release **Her Story**, Sam Barlow discusses why he left triple-A to develop on his unique vision for the game
 
 ---
@@ -109,7 +111,9 @@ It is held in London every year and the first was at the Royal Garden Hotel in K
 ## The Website
 From 2001 Develop had a website at the url **http://www.developmag.com** which later changed to **http://www.develop-online.net/** in July 2009.
 
-It was initially a very basic website with a very brief description of the main articles, circulation information and a **media pack** containing circulation information to attract advertisers.
+It was initially (2001-2004) a very basic website with a very brief description of the main articles, circulation information and a **media pack** containing circulation information to attract advertisers.
+
+In July 2005 they redesigned their website to include much more information including news which mostly linked to gamasutra articles before switching briefly to Next generation and theneventually posting news articles of their own. A PDF download of the latest issue was available but only after filling in a form to get it emailed to you.
 
 ## Cover Art
 The Develop magazine had some great cover art throughout the years, we will list a couple of our favourites below. We don't have all the issues so apologies if your favourite is missing.
