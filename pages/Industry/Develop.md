@@ -102,14 +102,24 @@ Issue | Article | Topic | Description
 078 | Heard About: The Club | Audio | John Broomhall talks to **Bizarre Creations**’ lead audio designer Mathias Grunwaldt about the sound production on a new IP for Sega...
 078 | The Brain Drain | AI | Ed Fear looks at the field and sees what today’s consoles can do to train our games’ brains...
 079 | MULTITALENTED | Programming |  Ed Fear looks at how the increasingly contradictory nature of development – with studios asked to make one game for a variety of different machines – has impacted the industry...
+079 | All part of the process | Production | As projects get bigger, more complex and distributed around the globe, making sure your production and asset management tools are as sharp as possible is becoming critically important, says Jon Jordan...
+079 | Out-the-box town planning | Engine | French middleware company **Gamr7** is aiming for automatic city generation...
+079 | HDFILMS signs UE3 for animated series | Unreal | HDFilms has selected Unreal Engine 3 to develop Chadam, its new short- form 3D animated Web series to be distributed by Studio 2.0
+079 | Heard About: 2008 – BRING IT ON | Audio | John Broomhall toasts the past year of game audio and looks forward to 2008...
+079 | Killer Characters | Art | Develop offers an overview of the character animation tool market
 163 | AI’s next frontier | AI | With all the advances already made in video games AI, where is there left to go? **Craig Chapple** asks the experts where the technology goes next
 163 | Creating Believable AI | AI | Experts pitch in with their top tips, tricks and things to consider when creating AI
 163 | Keeping your game on track | Production | Developing a video game is no small endeavour, and tracking its progress is essential. We find out how version management tools can help
 163 | DAW of a new era | Audio | With 2015.1, **Wwise** is striving to bridge the gap between video games and digital audio workstations
-163 | The sound of No Man’s Sky | Audio | **John Broomhall** speaks to Earcom’s **Paul Weir** about the excitement surrounding Hello Games’ intriguing title
+163 | The sound of No Man’s Sky | Audio | John Broomhall speaks to Earcom’s **Paul Weir** about the excitement surrounding Hello Games’ intriguing title
 163 | Preparing for Windows 10 | Engine | We look at how **Marmalade** has worked with Microsoft to introduce Windows 10 support to its popular tools
 163 | Unreal Engine 4 mods take off | Unreal | Million-selling indie game Ark: Survival Evolved opens up new commercial opportunities for modders. Epic Games tells us more
 163 | A recipe for greatness | Unity | We catch up with Bossa Studios to find out the origins of its wacky new IP, I Am Bread (Unity)
+
+Recurring journalists include:
+* **John Broomhall** has a monthly section called **Heard About** specifically about Game Audio
+* **Ed Fear** writes multiple articles about a wide range of topics from motion capture to AI
+* **Jon Jordan** writes a wide range of articles from project management software to DRM
 
 ---
 ## Directory Articles
@@ -135,6 +145,7 @@ Issue | Studio | Location | Games
 077 | LOCALSOFT | Marbella, Spain | WiiSports (Wii), Final Fantasy IV (GBA)
 078 | MILESTONE | Milan, Italy | Evolution GT (PS2, PC), SCAR - Squadra Corse Alfa Romeo (Xbox, PC, PS2)
 078 | SPECIALMOVE | Glasgow, UK | Recruiter
+079 | PEPPERMINT P | Surrey UK | PR agency for studios: Firebrand Games, Rovio Mobile, Rockpool Games
 163 | Roll7 | UK | OlliOlli 2, Not A Hero
 
 ---
