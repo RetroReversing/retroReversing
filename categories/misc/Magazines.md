@@ -850,6 +850,7 @@ Title | Notes
 ---|---
 MSDN Journal | Windows Development Journal from Microsoft from March 2000 - November 2019
 Develop (The Apple Technical Journal) | Apple development journal from 1991-?
+EXE | UK Magazine for Software developers from 1986-2000 (old website: www.exe.co.uk)
 OS2 Developer | IBM OS/2 Programming magazine from 1989-?
 
 ---
