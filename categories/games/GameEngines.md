@@ -77,7 +77,20 @@ Platform Name | Game Engine List
 Microsoft Xbox | [Original Xbox Game Engines](https://www.retroreversing.com/xbox-game-engines)
 Nintendo Wii U | [Wii U eShop Game Engines](https://www.retroreversing.com/WiiUeShopEngines) <br /> [Unity Game Engine Games on Wii U eShop](https://www.retroreversing.com/WiiUUnity) <br /> [Wii U Nintendo Web Framework](https://www.retroreversing.com/WiiUNWF)
 
+---
+# Commercial Middleware
+
+## Ageia PhysX SDK
+Originally known as NovodeX (by swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in Nvidia bought Ageiaand continued to support the SDK even releasing it as open source in December 2018. 
+Although the source code was tehcnically available for free before that as long as you reginered on the Nvidia website (2015-2017).
+
+PhysX under Ageia allowed the SDK binaries to be offered royalty free but access to the source code is **$50,000** per application.
+
+**Unity** announced that they would be including the full version of Ageia PhysX on March 4th 2005 which was before version 1.0 was released, which means many Unity games are using the SDK.
 
 <div>
 {% include console.html %}
 </div>
+
+# References
+[^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
