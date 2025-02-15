@@ -88,9 +88,16 @@ PhysX under Ageia allowed the SDK binaries to be offered royalty free but access
 
 **Unity** announced that they would be including the full version of Ageia PhysX on March 4th 2005 which was before version 1.0 was released, which means many Unity games are using the SDK.
 
+## Menus Master (by omegame)
+**Menus Master** was a middleware specifically for creating game Menu interfaces it was first released April 15th 2005 [^2]. It has an interface to create the menus along with a C++ SDK that is compatible with the PS2, Xbox, GameCube, and PC.
+
+It was used by **Delphine Software** in the **Moto Racer** series to great success!
+
+
 <div>
 {% include console.html %}
 </div>
 
 # References
 [^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
+[^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
