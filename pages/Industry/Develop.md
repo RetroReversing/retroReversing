@@ -20,12 +20,12 @@ recommend:
  - magazines
  - industry
  - introduction
-_image: /public/images/industry/Develop Magazines.jpg
-_twitterimage: https://www.retroreversing.com/public/images/industry/Develop Magazines.jpg
+image: /public/images/magazines/Develop UK Magazine.jpg
+twitterimage: https://www.retroreversing.com/public/images/magazines/Develop UK Magazine.jpg
 tags:
  - industry
  - magazines
-_updatedAt: '2025-02-15'
+updatedAt: '2025-02-15'
 ---
 
 # Develop
