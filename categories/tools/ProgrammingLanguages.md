@@ -54,6 +54,15 @@ C/C++ Compilers:
 * Microsoft Visual C++
 
 ---
+# Shader Languages
+Shaders are tiny programs that run on GPUs and thus have their own category of programming languages more suited to the task, as general purpose programming languages are too bloated and  contain too many concepts that would not work on a GPU.
+
+## Nvidia Cg
+Nvidia’s Cg (C for Graphics) is a high-level C-like graphics programming language first released in 2002, with the second version being released in 2007 [^6].
+
+The language is part of the Cg Toolkit which consists of a compiler, runtime libraries for both DirectX and OpenGL and a standalone shader viewer for testing.
+
+---
 # BASIC Variants
 With Assembly having a reputation for being difficult to learn, many "simpler" programming languages were created with one of the most popular earlier languages simply being called "BASIC".
 Over the years many BASIC variants were released tailored for hobbiest game programmers.
@@ -93,3 +102,4 @@ You can find out more about all The Game Creators products in this excellent doc
 [^3]: [The Game Creators Newsletter - Issue 50](https://www.thegamecreators.com/pages/newsletters/newsletter_issue_50.html)
 [^4]: [FPS-Creator-Classic/Dark Basic Pro Shared/Dark Basic Pro/Projects/FPSCREATOR at master · TheGameCreators/FPS-Creator-Classic](https://github.com/TheGameCreators/FPS-Creator-Classic/tree/master/Dark%20Basic%20Pro%20Shared/Dark%20Basic%20Pro/Projects/FPSCREATOR)
 [^5]: [Interview: Peter Morawiec (2007-04-20) by Sega-16 - Sega Retro](https://segaretro.org/Interview:_Peter_Morawiec_(2007-04-20)_by_Sega-16?rdfrom=https%3A%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DInterview%3A_Peter_Morawiec_%282007-04-20%29_by_Sega-16%26redirect%3Dno)
+[^6]: Develop issue 79 page 46
