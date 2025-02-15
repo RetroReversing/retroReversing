@@ -14,7 +14,7 @@ redirect_from:
   - /games/gameengines
   - /game-engines
 ---
-<h1>Introduction to Game Engines & Middleware </h1>
+# Introduction to Game Engines & Middleware
 Game Engines are the foundation in which games are built, the contain all the logic to be able to show graphics, play audio, compute input etc without having any of the game specific assets such as sprites or music files.
 
 Middleware on the other hand has one specific goal in mind, for example an audio middleware just plays sounds and you would not be able to display graphics with it.
@@ -33,6 +33,19 @@ This really depends on the engine, it could have been anywhere between a licensi
 This was due to the limited audience of game engines at the time, you would have to pay an entire development team to work on a game engine (not cheap) and you would only be able to sell to about a dozen companies.
 
 However with the Indie game revolution a number of free or cheap game engines became available but tended still to charge much more for console development.
+
+---
+# Obscure Commercial Game Engines
+
+## Instinct Studio
+Instinct Studio was a rather obscure a software suite by the Ireland based company **Instinct Technology**. It claimed to combine a complete set of game development tools with an array of 'best in class' middleware plug-ins, giving game developers the power and flexibility to create state-of-the-art productions within realistic budgets.
+
+![Instinct Studio Screenshots](https://github.com/user-attachments/assets/c332f749-9442-4ec1-abd4-64f35a015957)
+
+
+As far as we know it wasn't used in any commercial games but it a custom version of the engine was created specifically for the University of Abertay in Scotland. Also they had a playable demo of a game called **Dreadnought** on their website in 2007.
+
+The website was "http://www.instinct-tech.com/", it was created in 2006 and lasted until 2009.
 
 ---
 # Game Engines by Platform 
