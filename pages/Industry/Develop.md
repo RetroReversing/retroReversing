@@ -62,10 +62,14 @@ Issue Number | Interview Name | Description
 ---|---|---
 075 | John Romero | Design Doc - Emotion in games
 075 | Gordon Hall | [Michael French talks to **Rockstar Leeds** boss Gordon Hall to find out more about the Develop Award-winning team’s first ten years of business, and plans for the future.](https://web.archive.org/web/20070819215849/http://www.developmag.com/interviews/55/Rockstar-Leads)
-163 | Sam Barlow | Following the runaway success of his first indie release **Her Story**, Sam Barlow discusses why he left triple-A to develop on his unique vision for the game
 076 | Torsten Reil | Procedural | Michael French speaks to **NaturalMotion** CEO Torsten Reil about the company’s decision to move into full game production and how procedural content is helping its small development team build a new IP...
 076 | Chris Ambler | QA teams across the industry need to focus on professionalism, says **Electronic Arts** UK’s testing boss Chris Ambler...
 076 | Serkan Hassan | Black Rock Studio’s Serkan Hassan provides an invaluable glimpse into how the team behind critically-praised franchise MotoGP recently aimed to please both casual and hardcore players with its latest release...
+077 | David Edery | With **Xbox Live Arcade**’s three-year anniversary nearing, Michael French spoke to the platform’s Worldwide Games Portfolio Planner, David Edery, to get an update on what the service can offer developers...
+077 | Tony Beckwith | A year after acquisition, how is **Black Rock Studio** changing under the guidance of Disney and how does that play into House of Mouse’s plans for games? Michael French spoke to Tony Beckwith, studio chief, and Disney’s VP of European production Ed Bainbridge to find out...
+077 | Keita Takahashi | In this extract from his book Inside Game Design, Iain Simons talks to **Katamari Damacy** creator Keita Takahashi about his work ethic, how he comes up with ideas, and his thoughts on the video games medium...
+077 | Paul Sheppard| ITI Techmedia’s Paul Sheppard says that developers need to improve their game design process at pre-production stage and offers a up a more methodological approach...
+163 | Sam Barlow | Following the runaway success of his first indie release **Her Story**, Sam Barlow discusses why he left triple-A to develop on his unique vision for the game
 
 ---
 ## Build Articles
@@ -78,13 +82,16 @@ Issue | Article | Topic | Description
 075 | Arcade Fire | Stainless Games’ **Ben Gunstone** offers up some key advice on making games for **Xbox Live Arcade**...
 075 | Heavenly Sword | Audio | John Broomhall talks to Ninja Theory’s **Tom Colvin** and SCEE’s **Garry Taylor** about the audio production of a PlayStation 3 epic...
 075 | Epic Diaries | Unreal | Another fantastic E3 for Unreal Engine 3
-075 | Championship Management | Production | Managing a next-gen project can feel like trying to tame Godzilla, but there are software solutions and
-fashionable paradigms that claim to make your life easier, discovers **Ed Fear**.
+075 | Championship Management | Production | Managing a next-gen project can feel like trying to tame Godzilla, but there are software solutions and fashionable paradigms that claim to make your life easier, discovers **Ed Fear**.
 076 | Emergent emerges | Engine | The final pieces of **Emergent**’s online game technology puzzle are soon to be announced, but that’s not all...
 076 | Harry Potter and the Order of the Phoenix | Audio | John Broomhall talks to Electronic Arts UK’s Adele Cutting about the audio production for Harry Potter and the Order of the Pheonix...
-
 076 | Life in the engine room | Engine | More and more studios are looking towards licensing existing technology to help them produce their game. But, asks Ed Fear, how do you choose which engine, and is it really the panacea it may seem?
 076 | The door is OpenKODE | Mobile | Mobile developers now have a way to sidestep tricky platform fragmentation, says **Ideaworks3D**’s Tim Closs...
+077 | Lets get connected | Networking | Most games offer some sort of online features but, surprisingly, there's less traditional networking middleware available than ever before, discovers Jon Jordan
+077 | Parallel Lines | Hardware | Multicore architectures are everywhere but it’s proving difficult to make them sing. Scottish middleware company Codeplay has an idea
+077 | Virtual Heroes are Serious about games | Unreal | Mark Rein profiles a new Unreal Engine 3 customer...
+077 | Sega Rally | Audio | John Broomhall talks to audio director **Tim Bartlett** on the rebirth of **Sega**’s racer...
+077 | Poetry in motion | Motion Capture | It might have been around for a relatively long time, but that doesn’t necessarily mean that the motion capture industry is slowing down as it reaches maturity. Ed Fear takes a look at the latest movements in the field...
 163 | AI’s next frontier | AI | With all the advances already made in video games AI, where is there left to go? **Craig Chapple** asks the experts where the technology goes next
 163 | Creating Believable AI | AI | Experts pitch in with their top tips, tricks and things to consider when creating AI
 163 | Keeping your game on track | Production | Developing a video game is no small endeavour, and tracking its progress is essential. We find out how version management tools can help
@@ -104,16 +111,18 @@ Issue | Tool | Description
 ---|---|---
 075 | Autodesk | Mentions 3D Studio Max 9, Maya 8, MotionBuilder 7, HumanIK
 076 | PROFX | Described simply, ProFX is a middleware solution for generating and rendering procedural textures – but such a description belies the technology that powers it.
+077 | SILO 2.0 | Organic sculpting applications are all the rage these days, but it’s fair to say that few can offer the value-for-money that Silo does at $150
 163 | Haxe | Game Engine
 
 ### Studio Spotlight
 Every month a game development studio is profiled with interviews and photos, giving an excellent insight into both AAA and indie studios!
 
-Issue | Studio | Games
----|---|---
-075 | 3D CREATION STUDIO | Project Gotham Racing 4 (Bizarre Creations), The Club (Bizarre Creations)
-076 | SIDE UK | Heavenly Sword, Dragon Quest VIII
-163 | Roll7 | OlliOlli 2 and Not A Hero
+Issue | Studio | Location | Games
+---|---|---|---
+075 | 3D CREATION STUDIO | UK | Project Gotham Racing 4 (Bizarre Creations), The Club (Bizarre Creations)
+076 | SIDE | UK | Heavenly Sword, Dragon Quest VIII
+077 | LOCALSOFT | Marbella, Spain | WiiSports (Wii), Final Fantasy IV (GBA)
+163 | Roll7 | UK | OlliOlli 2, Not A Hero
 
 ---
 ## Game Dev Family Tree
