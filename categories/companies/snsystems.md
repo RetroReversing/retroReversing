@@ -105,6 +105,12 @@ There was also a version of ProDG available for the Game Boy Advance released in
 
 {% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For more information on the GBA version of ProDG check out this post." %}
 
+### ProDG for PSP
+ProDG was the third party SDK developed by SN Systems and later incorporated into the official PSP SDK when they got bought by Sony. 
+
+We have a post specifically about this SDK:
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
+
 ---
 ## Distributed Build System (SN-DBS)
 In Develop issue 78 it was announced that version 2 of SN-DBS would be free for all developers on PS2, PS3 and PSP:
