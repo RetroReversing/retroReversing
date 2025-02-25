@@ -55,6 +55,8 @@ Most of the compositing software used for the VFX and animation industries was a
 * Nuke by Foundry
 * Blackmagic Design's Fusion
 
+## What Animation Software was used?
+* morpheme by Natural Motion (PS3, Xbox360, PC)
 
 ---
 # Popular 3D Art Software
