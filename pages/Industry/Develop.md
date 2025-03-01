@@ -15,7 +15,7 @@ breadcrumbs:
 redirect_from:
   - /industry-magazines
   - /magazine
-editlink: ../pages/industry/Develop.md
+editlink: ../pages/Industry/Develop.md
 recommend:
  - magazines
  - industry
@@ -29,7 +29,11 @@ updatedAt: '2025-02-15'
 ---
 
 # Develop
-**Develop** was a UK magazine dedicated to game developers in the industry similar to the US magazine **Game Developer**, it published 11 issues a year, one a month except December and January where there was one issue for both months. After 188 issues it was merged with its sister title **MCV** to become **MCV/Develop** but it kept the MCV issue numbering.
+**Develop** was a UK magazine dedicated to game developers in the industry similar to the US magazine **Game Developer**, it published 11 issues a year, one a month except December and January where there was one issue for both months. 
+
+After 188 issues it was merged with its sister title **MCV** to become **MCV/Develop** but it kept the MCV issue numbering.
+
+As of 2025 MCV/Develop is still being published and is free online, go and show your support: [MCV/DEVELOP - Video games industry news, events, research and jobs](https://mcvuk.com/)
 
 ## Contents
 For most of its run the magazine was divided into the following 3 sections:
@@ -41,20 +45,27 @@ Other subsections included:
 * **Develop Jobs** - Your monthly guide to the best career opportunities in games development worldwide
 * **Directory** - The world’s premier listing of games development studios, tools, outsourcing specialists, services and courses
 
+---
 ## Circulation information
 The information we have about the circulation (number of magazines sold) are listed below:
 * In 2001 it was 5,000
 * In 2004 it was 8,263
 
+Most of the information above came from their **Media packs** that they used to send to advertising agencies. Most adverts published in the magazine were highly tageted for Games indsutry professionals, such as for game engines, middleware, jobs and more, so it blended in well with the rest of the content.
+
+---
 ## Publishers
 During its run it went through a number of different publishers:
-* Intent Media
-* New Bay Media
-* MCV Media
-* Future Publishing
+* **Intent Media** - 1996-1998 - Also Published **MCV**, **ToyNews**, **PC Retail** and **Mobile Entertainment** magazines
+* **MCV Media** - 1998-2012 - Rebrand of Intent Media [^4], but some titles continued to use the Intent Media brand
+* **New Bay Media** - 2012-2017 - Acquired **Intent Media** in 2012 including all their titles [^3]
+* **Future Publishing** - 2018-Present - Acquired New Bay Media (This was after Develop merged with MCV)
+
+Note that since all the Publisher changes were acquisitions, the magazine continued to use the previous publisher name on the cover.
 
 ---
 ## Beta Articles
+Beta was the main section that contained interviews with industry professionals about specific topics releated to the games industry as a whole.
 
 In 2007 some of the interviews from the magazine were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
 
@@ -77,7 +88,7 @@ Issue Number | Interview Name | Description
 
 ---
 ## Build Articles
-The Build section of the magazine is the most relevant to the purpose of this site as it covers the technology of how games were made at the time.
+The Build section of the magazine is the most relevant to the purpose of this site as it covers the technology of how games were made at the time and covered a wide range to technical topics such as game AI, audio and game engine development.
 
 Issue | Article | Topic | Description
 ---|---|---|---
@@ -125,7 +136,7 @@ Recurring journalists include:
 ## Directory Articles
 
 ### Tools Spotlight
-Every month in the directory section of the magazine one specific tool is given a brief review
+Every month in the directory section of the magazine one specific tool is given a brief review, in this section we will list the tool covered in each issue of the magazines we have access to.
 
 Issue | Tool | Description
 ---|---|---
@@ -135,6 +146,7 @@ Issue | Tool | Description
 078 | TECHEXCEL DEVTRACK | DevTrack is TechExcel’s project issue-tracking tool, comprehensively managing issues as far reaching as: new features, QA reports and IT activities. (Clients include Activision, Electronic Arts, Sammy Studios, Sony Online Entertainment, Vivendi Universal)
 163 | Haxe | Game Engine
 
+---
 ### Studio Spotlight
 Every month a game development studio is profiled with interviews and photos, giving an excellent insight into both AAA and indie studios!
 
@@ -161,6 +173,7 @@ Develop hosted an annual game development awards ceremony which was highly covet
 
 It is held in London every year and the first was at the Royal Garden Hotel in Kensington on August 27th 2003 [^2].
 
+---
 ## The Website
 From 2001 Develop had a website at the url **http://www.developmag.com** which later changed to **http://www.develop-online.net/** in July 2009.
 
@@ -182,3 +195,5 @@ Issue 40 shows the dream 'Superstar developer" who makes millions:
 # References
 [^1]: [Develop Industry Excellence Awards Announced](https://www.gamedeveloper.com/game-platforms/develop-industry-excellence-awards-announced)
 [^2]: [Climax Nominated For Five Develop Industry Excellence Awards - IGN](https://www.ign.com/articles/2003/07/04/climax-nominated-for-five-develop-industry-excellence-awards)
+[^3]: [Intent Media acquired](https://www.gamesindustry.biz/intent-media-acquired-by-newbay-media)
+[^4]: [MCV MEDIA UK LIMITED overview GOV.UK](https://find-and-update.company-information.service.gov.uk/company/03537416)
