@@ -98,7 +98,7 @@ Known software used in the creation of 2D Image asserts for retro video games in
 * **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palettizing sprites for StarCraft [^1])
 
 ### 8-bit EGA Pixel art at LucasArts
-**Mark Ferrari** has an excellent GDC talk, in which he discussed some ofthe techniques for drawing 8-bit game graphics, including  color cycling and pallet shifting in Deluxe Paint:
+**Mark Ferrari** has an excellent GDC talk, in which he discussed some of the techniques for drawing 8-bit game graphics, including color cycling and palette shifting in Deluxe Paint:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aMcJ1Jvtef0?si=rNd0Wo1EO2NwxCLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
@@ -112,7 +112,7 @@ Music has always been a cornerstone of the gaming experience. Uncover the music 
 
 ---
 # Production
-The tools used by producers for project management are much harder to find information on as no details will leak into the source code or compiled game binaries, however we know of a few thanks to articles in magazines such as **Develop**.
+The tools used by producers for project management are much harder to find information on as no details will leak into the source code or compiled game binaries, however, we know of a few thanks to articles in magazines such as **Develop**.
 
 ## DevTrack by TechExcel
 DevTrack is TechExcel’s project issue-tracking tool, comprehensively managing issues as far reaching as new features, QA reports and IT activities. Clients include Activision, Electronic Arts, Sammy Studios, Sony Online Entertainment, Vivendi Universal.
