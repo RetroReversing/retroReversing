@@ -15,7 +15,7 @@ redirect_from:
   - /game-engines
 ---
 # Introduction to Game Engines & Middleware
-Game Engines are the foundation in which games are built, the contain all the logic to be able to show graphics, play audio, compute input etc without having any of the game specific assets such as sprites or music files.
+Game Engines are the foundation in which games are built, they contain all the logic to be able to show graphics, play audio, compute input, etc. without having any of the game specific assets such as sprites or music files.
 
 Middleware on the other hand has one specific goal in mind, for example an audio middleware just plays sounds and you would not be able to display graphics with it.
 
@@ -24,8 +24,8 @@ So you can think of game engines as the combination of middleware.
 ## Who develops game engines?
 There are two types of game engines based on who developed them or rather who has access to them:
 
-  - In-house game engines - only available to one game development studio
-  - Retail game engine - engines that are normally sold as a product and used by multiple game development studios
+  - In-house game engines - Only available to one game development studio.
+  - Retail game engine - Engines that are normally sold as a product and used by multiple game development studios.
 
 ## How much did game engines cost?
 This really depends on the engine, it could have been anywhere between a licensing fee per game sold or a one time fee of thousands of dollars for console games.
@@ -55,17 +55,17 @@ It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 
 ---
 # Unity
-Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However over its lifetime it has grown to support not just PC but also many games consoles (Wii, XBox 360, PS3) and mobile platforms (iOS, Android). It was developed by the Danish vendor **OTEE**
+Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However, over its lifetime it has grown to support not just PC but also many games consoles (Wii, Xbox 360, PS3) and mobile platforms (iOS, Android). It was developed by the Danish vendor **OTEE**.
 
 Key milestones include:
-* **Unity 1.0** first version that even included a full version of the physics engine Ageia physX (8th June 2005)
+* **Unity 1.0** first version that even included a full version of the physics engine Ageia PhysX (8th June 2005).
 * **Unity 1.1** introduced Windows deployment support on August 23rd 2005, but there was no support for editing on Windows yet.
-* **Unity 1.5** introduced the cross platform web-player via the The **Unity Web Player browser plugin** (June 16th 2006)
+* **Unity 1.5** introduced the cross platform web-player via the The **Unity Web Player browser plugin** (June 16th 2006).
 * **Unity 2.0** introduced new features like the Terrain Rendering Engine, DirectX 9 Renderer for Windows, Built-in Networked Multiplayer Support, Web Player Streaming and Improved Web Player Compression. Along with a new companion product, the Unity Asset Server!
-* **Unity 2.5** introduced **Windows support** for the Unity development environment so games can be created on both Windows and MacOSX
-* **Unity iPhone** was introduced on October 22, 2008
+* **Unity 2.5** introduced **Windows support** for the Unity development environment so games can be created on both Windows and Mac OS X.
+* **Unity iPhone** was introduced on October 22, 2008.
 
-The first ever unity developer conference **Unite** was held in the two days between October 10-12th 2007.
+The first ever Unity developer conference **Unite** was held in the two days between October 10-12th 2007.
 
 
 ---
@@ -81,15 +81,15 @@ Nintendo Wii U | [Wii U eShop Game Engines](https://www.retroreversing.com/WiiUe
 # Commercial Middleware
 
 ## Ageia PhysX SDK
-Originally known as NovodeX (by swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in Nvidia bought Ageiaand continued to support the SDK even releasing it as open source in December 2018. 
-Although the source code was tehcnically available for free before that as long as you reginered on the Nvidia website (2015-2017).
+Originally known as NovodeX (by Swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in 2008, Nvidia bought Ageia and continued to support the SDK even releasing it as open source in December 2018. 
+Although the source code was technically available for free before that as long as you registered on the Nvidia website (2015-2017).
 
 PhysX under Ageia allowed the SDK binaries to be offered royalty free but access to the source code is **$50,000** per application.
 
 **Unity** announced that they would be including the full version of Ageia PhysX on March 4th 2005 which was before version 1.0 was released, which means many Unity games are using the SDK.
 
 ## Menus Master (by omegame)
-**Menus Master** was a middleware specifically for creating game Menu interfaces it was first released April 15th 2005 [^2]. It has an interface to create the menus along with a C++ SDK that is compatible with the PS2, Xbox, GameCube, and PC.
+**Menus Master** was a middleware specifically for creating game menu interfaces it was first released April 15th 2005 [^2]. It has an interface to create the menus along with a C++ SDK that is compatible with the PS2, Xbox, GameCube, and PC.
 
 It was used by **Delphine Software** in the **Moto Racer** series to great success!
 
