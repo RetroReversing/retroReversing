@@ -53,7 +53,7 @@ The best source of information about the first few CGDC events is to watch this 
 
 
 ## CGDC 2 - September 18th/19th 1988
-The second Computer Game Developers Conference (CGDC) was held later in the same year, on September 18th and 19th 1988. It was sponsored by Computer Gaming World and would be the first GDC with a pre-planned agenda. It had about 150 atendees, a whole five times larger than the previous conference hosted earlier the same year.
+The second Computer Game Developers Conference (CGDC) was held later in the same year, on September 18th and 19th 1988. It was sponsored by Computer Gaming World and would be the first GDC with a pre-planned agenda. It had about 150 attendees, a whole five times larger than the previous conference hosted earlier the same year.
 
 You can find the main talks and their authors in the table below:
 
@@ -119,18 +119,18 @@ We only know of a few talks that took place at this conference:
 ### The Artistic C
 The earliest known recording of a Game Developer Conference talk is called **The Artistic C** by Jim Gasperini. 
 
-This was when he was a creative director for Maxis while working on the simulation game Sim City. He talks about Computer Games as Art and how he believes it will evolve over time. 
+This was when he was a creative director for Maxis while working on the simulation game SimCity. He talks about Computer Games as Art and how he believes it will evolve over time. 
 
 You can listen to it online on **Archive.org**: [CGDC 90 Jim Gasperini - GDC Jim Gasperini](https://archive.org/details/03CGDC90JimGasperini_201805)
 
 ---
 ## CGDC 1991 - March
-The Fifth CGDC was the first to have been directed by **Ernest Adams** just before his move to Electronic Arts where he would work on titles such as John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and recieved 550 attendees.
+The Fifth CGDC was the first to have been directed by **Ernest Adams** just before his move to Electronic Arts where he would work on titles such as John Madden Football [^2]. It was again hosted in San Jose this time in the Hyatt Hotel and received 550 attendees.
 
 We only know of a few talks that took place at this conference:
 * **Intelligent Behavior Without AI: An Evolutionary Approach** by Neil Kirby
 * **Cyberspace: Lessons of Lucasfilm's Habitat** by F. Randall Farmer, Chip Morningstar (CGDC91-003) [^7]
-* **Evolution of Taste** by  [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer))
+* **Evolution of Taste** by [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer))
 
 
 Only the Cyberspace talk was recorded on Audio cassette by the KNOW-IT-ALL Audiovisual Library [^7].
@@ -350,7 +350,7 @@ When Teams Work, When Teams Break | Don Daglow | Roundtable | CGDC94-100
 One of the most notable talks from this conference was **WinG: A DLL for Graphics**, this was the introduction to what would become DirectX. Microsoft finally taking Game Development seriously and allowing full screen fast graphics rendering without having to go into MS-DOS!
 
 ### Reception of CGDC 1994
-You can read Ross Erickson's review of this experience at CGDC 1994 in his article published in the Game Bytes Magazine online here: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html). he mentions his disappointment at some of the talks and where he was pleasently surprised.
+You can read Ross Erickson's review of this experience at CGDC 1994 in his article published in the Game Bytes Magazine online here: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html). He mentions his disappointment at some of the talks and where he was pleasantly surprised.
 
 
 ---
@@ -507,7 +507,7 @@ This is the last year before it was sold to Miller Freeman for about 3 million d
 Google Books claims to have the proceedings of the 1996 Computer Game Developers Conference in its library but it doesn't seem to be possible to access its contents: [Computer Game Developers' Conference Conference Proceedings: March 30-April ... - Google Books](https://books.google.co.uk/books/about/Computer_Game_Developers_Conference_Conf.html?id=bdgTAQAAIAAJ&redir_esc=y)
 
 
-There were at least 234 talks at CGDC 1996 that to  **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
+There were at least 234 talks at CGDC 1996 that to **The KNOW-IT-ALL Audiovisual Library** page on the audio recordings, they are listed in the table below:
 
 Title | Presenter | Notes
 ---|---|---
@@ -1098,7 +1098,7 @@ Memory Efficient Color Mapping Techniques for Game Development | Nichimen Graphi
 ATI's Hi-Volume RAGE PRO Graphics Chip | ATI Technologies  | Sponsored Session |
 
 
-For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics I am looking at you).
+For me some of the most interesting sessions from this day were the **Sponsored Sessions** presented by Industry Heavyweights that are still household gaming names today and others who have fallen by the wayside (Nichimen Graphics, I am looking at you!).
 
 ---
 
@@ -1448,7 +1448,7 @@ Storytelling in Action | Bob Bates | Game Design |
 ---
 
 ### Microsoft DirectX Developer Day (March 8th)
-It included a "Microsoft DirectX Developer Day" on the 8th of March held by Microsoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX 8 but also an early build exclusive to atendees.
+It included a "Microsoft DirectX Developer Day" on the 8th of March held by Microsoft who presented multiple lectures explaining how to use the new functions of the DirectX 8 SDK. The knowledge about DirectX 8 was so cutting-edge that it required a Non-Disclosure Agreement (NDA) to be signed to even attend [^6]! But you would walk out not just having the knowledge of DirectX 8 but also an early build exclusive to attendees.
 
 It began with a speech by Chris Jones, about the current state and future of Windows games. Next, Brian Moran, program manager of the company's Windows Division, held a session on precautions in the production of Windows 2000 compatible game software.
 
@@ -1910,7 +1910,7 @@ GDC 2004 highlights included:
 * Sony showcased the PSP as a powerful, easy-to-develop-for device. 
 * Microsoft unveiled XNA, a development framework for future platforms.
 
-Many of these sessions are freely available on the [GDC Vault](https://gdcvault.com/browse/gdc-04/) however bare in mind some of the meta data such as presenters are incorrect on their site and we have a cleaned up version in the table below:
+Many of these sessions are freely available on the [GDC Vault](https://gdcvault.com/browse/gdc-04/). However, bear in mind that some of the metadata such as presenters are incorrect on their site and we have a cleaned up version in the table below:
 
 Title | Presenter | Track | Notes
 ---|---|---|---
@@ -2112,7 +2112,7 @@ Time | Session Name
 5:45 - 6:00 | Conclusion, Q&A
 
 ### One Day Tutorial - DirectX (Monday 22nd March 2004)
-We don't have the schedule for the DirectX sessions that were sponsored by a number of companies (Microsoft, Nvidia, Valve, Ati, Sony and Climax) but we do have some of the slides available on NVIDIA's website - [GDC 2004 - NVIDIA Developer](https://developer.nvidia.com/gdc-2004).
+We don't have the schedule for the DirectX sessions that were sponsored by a number of companies (Microsoft, Nvidia, Valve, ATI, Sony and Climax) but we do have some of the slides available on Nvidia's website - [GDC 2004 - NVIDIA Developer](https://developer.nvidia.com/gdc-2004).
 
 ### One Day Tutorial - Professional Java Game Development Techniques (Tuesday 23rd March 2004)
 Although there are no slides or videos available from this tutorial day, the exact same authors (Dustin Clingman, Shawn Kendall, Syrus Mesdaghi) wrote the book **Practical Java Game Development (Game Development Series)** which was published in 2004, so it is very likely that all the content used at this tutorial is available in the book.
@@ -2149,4 +2149,4 @@ Satoru Iwata was the president of Nintendo at the time of the 2005 Keynote, his 
 [^7]: [Computer Game Developers Conference 1991 audiotape catalog](https://web.archive.org/web/19980709193751/http://vwtapes.com/cgdc/cgdc91.shtml)
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
-[^10]: [JCGD Volume 2 Issue 1](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-2/volume-2-number-1-octoberno.html_
+[^10]: [JCGD Volume 2 Issue 1](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-2/volume-2-number-1-octoberno.html)
