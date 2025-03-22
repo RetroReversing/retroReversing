@@ -51,7 +51,7 @@ The information we have about the circulation (number of magazines sold) are lis
 * In 2001 it was 5,000
 * In 2004 it was 8,263
 
-Most of the information above came from their **Media packs** that they used to send to advertising agencies. Most adverts published in the magazine were highly tageted for Games indsutry professionals, such as for game engines, middleware, jobs and more, so it blended in well with the rest of the content.
+Most of the information above came from their **Media packs** that they used to send to advertising agencies. Most adverts published in the magazine were highly targeted for Games industry professionals, such as for game engines, middleware, jobs and more, so it blended in well with the rest of the content.
 
 ---
 ## Publishers
@@ -65,7 +65,7 @@ Note that since all the Publisher changes were acquisitions, the magazine contin
 
 ---
 ## Beta Articles
-Beta was the main section that contained interviews with industry professionals about specific topics releated to the games industry as a whole.
+Beta was the main section that contained interviews with industry professionals about specific topics related to the games industry as a whole.
 
 In 2007 some of the interviews from the magazine were also posted on the website, for those we will provide a link in the table below of all the interviews we know about:
 
@@ -165,11 +165,11 @@ Issue | Studio | Location | Games
 One of the sections I love about the magazine was the interesting "Family Tree" diagrams that focussed on one city every month, here is an example of Liverpool:
 ![Liverpool Game Dev Family Tree](https://github.com/user-attachments/assets/3539dfa9-5480-4774-8a69-192a14834609)
 
-it was either sponsored by Amiqus or just an entire Advert by them, but either way it provided very interesting information as the games industry is full of mergers, aquisitions and new studios being formed by former employees of other studios.
+It was either sponsored by Amiqus or just an entire advert by them, but either way it provided very interesting information as the games industry is full of mergers, acquisitions and new studios being formed by former employees of other studios.
 
 ---
 ## The Develop Industry Excellence Awards
-Develop hosted an annual game development awards ceremony which was highly coveted in the industry, especially in europe but was also known worldwide. From 2003 until the present day the awards were judged by a panel of 50+ industry professionals across a laerge number of categories (18 in 2005) [^1].
+Develop hosted an annual game development awards ceremony which was highly coveted in the industry, especially in europe but was also known worldwide. From 2003 until the present day the awards were judged by a panel of 50+ industry professionals across a large number of categories (18 in 2005) [^1].
 
 It is held in London every year and the first was at the Royal Garden Hotel in Kensington on August 27th 2003 [^2].
 
@@ -179,7 +179,7 @@ From 2001 Develop had a website at the url **http://www.developmag.com** which l
 
 It was initially (2001-2004) a very basic website with a very brief description of the main articles, circulation information and a **media pack** containing circulation information to attract advertisers.
 
-In July 2005 they redesigned their website to include much more information including news which mostly linked to gamasutra articles before switching briefly to Next generation and theneventually posting news articles of their own. A PDF download of the latest issue was available but only after filling in a form to get it emailed to you.
+In July 2005 they redesigned their website to include much more information including news which mostly linked to gamasutra articles before switching briefly to Next generation and then eventually posting news articles of their own. A PDF download of the latest issue was available but only after filling in a form to get it emailed to you.
 
 ## Cover Art
 The Develop magazine had some great cover art throughout the years, we will list a couple of our favourites below. We don't have all the issues so apologies if your favourite is missing.
