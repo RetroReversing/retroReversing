@@ -45,7 +45,7 @@ SN Systems were themselves bought by Sony in 2005 to exclusively create developm
 ---
 # Products
 
-According to the Official SN Systems "PC Development System for the Nintendo 64" guide (Thanks to Ultra64.ca), the list of SN systems development kits are as follows:
+According to the Official SN Systems "PC Development System for the Nintendo 64" guide (Thanks to Ultra64.ca), the list of SN Systems development kits are as follows:
 * Sony PlayStation (PSY-Q -> SDevTC)
 * SEGA Saturn (PSY-Q)
 * SEGA 32X
@@ -57,9 +57,9 @@ According to the Official SN Systems "PC Development System for the Nintendo 64"
 * Nintendo 64 (SN64 -> ProDG)
 
 ## SNASM (SN Systems Assembler)
-The original SNASM was a custom assembler written by SN Systems to target multple CPU architectures in a similar way. 
+The original SNASM was a custom assembler written by SN Systems to target multiple CPU architectures in a similar way. 
 
-It was such a useful product that **Cross Products** licensed it and distrubuted it with their development toolkits, which helped make it the most popular Mega Drive Assembler available.
+It was such a useful product that **Cross Products** licensed it and distrubuted it with their development toolkits, which helped make it the most popular Mega Drive assembler available.
 
 Cross Products then built upon the product and released their own version called SNASM2, which would later become a competitor for SN Systems next development kit known as PSY-Q.
 
@@ -67,19 +67,19 @@ Cross Products then built upon the product and released their own version called
 PSY-Q was a development kit born from an agreement between popular UK-based game developer Psygnosis and SN Systems to develop a state-of-the-art development kit based on the C-programming language.
 
 ### PSY-Q for Super Nintendo
-The PSY-Q Development kit was available for a wide range of platforms including the Super Nintendo where it was distributed with a custom development cartridge similar to a flash cartridge.
+The PSY-Q development kit was available for a wide range of platforms including the Super Nintendo where it was distributed with a custom development cartridge similar to a flash cartridge.
 
 {% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information on the Super Nintendo version of PSY-Q check out this post." %}
 
 ### PSY-Q for Sony Playstation 1
-The Psy-Q development was such a success for Sony PS1 development that it actually became the officially licensed development kit for the platform. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
+The PSY-Q development was such a success for Sony PS1 development that it actually became the officially licensed development kit for the platform. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
 
 {% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony Playstation 1 version of PSY-Q check out this post." %}
 
 Note that PSY-Q for PS1 was later rebranded as **SDevTC** (Sony Developer Toolchain) sometime before August 1999 as it is mentioned the rebranding in the Official **Run-Time Library Overview** from August 1999.
 
 ### PSY-Q for SEGA Saturn
-Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q branding), it supported a competing platform also under the Psy-Q branding, the Sega Saturn!
+Even although Psygnosis were bought by Sony in 1993 (which held the Psy-Q branding), it supported a competing platform also under the PSY-Q branding, the Sega Saturn!
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SEGA Saturn version of PSY-Q check out this post." %}
 
@@ -96,7 +96,7 @@ ProDG was the next step for SN Systems and provided development kits for both th
 Although the name ProDG was originally used to refer to the SN Systems IDE that supported PS1 & N64 development back in 1998 (released JUNE 1998 [^4]), it seems they re-used this brand to refer to the whole development kit and not just the IDE [^3].
 
 ### ProDG for GameCube
-Sn Systems released their ProDG development kit for GameCube in 2001 and worked alongside the official Nintendo Gamecube development kit (NR-Reader) by providing a **SN-TDEV** that was used for efficient debugging on the system.
+SN Systems released their ProDG development kit for GameCube in 2001 and worked alongside the official Nintendo GameCube development kit (NR-Reader) by providing a **SN-TDEV** that was used for efficient debugging on the system.
 
 {% include link-to-other-post.html post="/prodg-gamecube" description="For more information on the GameCube version of ProDG check out this post." %}
 
