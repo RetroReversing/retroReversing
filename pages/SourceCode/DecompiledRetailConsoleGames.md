@@ -452,7 +452,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 {% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
 
 ### PaRappa the Rapper 2
-{% include link-to-other-site.html url="https://github.com/polybiusproxy/parappa2" description="We are currently targeting the July 12th NTSC-J prototype, but we aim to target the final NTSC-J/NTSC/PAL builds in the foreseeable future." image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation of PaRappa the Rapper 2 for the PS2"  %}
+{% include link-to-other-site.html url="https://github.com/parappadev/parappa2" description="Decompilation project for PaRappa the Rapper 2 (NTSC-J). " image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation project for PaRappa the Rapper 2 for the PS2"  %}
 
 ### Resident Evil - Code: Veronica X  
 {% include link-to-other-site.html url="https://github.com/federicomilesi/recvx2c" description="Decompilation project for Resident Evil - Code: Veronica X." image="https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg" title="Decompilation project for Resident Evil - Code: Veronica X for the PS2"  %}
