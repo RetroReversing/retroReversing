@@ -54,7 +54,7 @@ It was also featured in **EDGE** magazine issue 169 in their CodeShop Section:
 ![Code Shop EDGE 169](https://github.com/user-attachments/assets/9ddbe96a-1f56-4ab0-83be-a61cb90f16c9)
 
 ---
-# Unity
+## Unity
 Unless you have been living under a rock you will have heard about Unity3D, it was originally released the 8th of June 2005 as a MacOSX only engine. However, over its lifetime it has grown to support not just PC but also many games consoles (Wii, Xbox 360, PS3) and mobile platforms (iOS, Android). It was developed by the Danish vendor **OTEE**.
 
 Key milestones include:
@@ -67,9 +67,38 @@ Key milestones include:
 
 The first ever Unity developer conference **Unite** was held in the two days between October 10-12th 2007.
 
+---
+## Game Maker
+Game Maker is a popular 2D game development tool originally called **Animo** and developed by Professor **Mark Overmars**.
+
+Version 1.0 was released some time in 1998-1999 for students of Utrecht University and on the 15th November 1999 it was released to the public as version 1.1.
+
+Early versions of game maker (1.0->?) exported games in .gmr format that required the **Game Maker Runner** to execute, later versions allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
+
+Key milestones include:
+* **Version 1.1** first public version of Game Maker (15th November 1999)
+* **Version 1.2**
+* **Version 1.3** - Added support for larger images and importing/exporting games (7th January 2000) [^3]
+* **Version 2.0** - Added DirectSound support, added object depth support (8th September 2000)
+* **Version 3.0** - Full Screen DirectX support and new Game Maker File (*.gmf) format (Beta release on 6th November 2000 then final on 23rd November 2000)
+* **Version 3.1** - DirectX in windowed mode and removal of Exclusive mode
+* **Version 3.2** - New room options have been added: more background options, multiple views, and transitions between rooms (27th January 27 2001)
+* **Version 3.3** - (4th April 2001)
+* **Version 4.0** - (16th July 2001)
+* **Version 4.2** - (9th May 2002)
+
+Mark Overmars also released some companion software to Game Maker:
+* **Background Maker 1.0** - Tool for combining tiles into a single background image (7th December 2000)
+* **Image Maker 1.0** - Tool for creating animated gifs for Game Maker
+* **Child Proof 1.0** - Sandbox environment for children using PCs
+
+### Game Maker Community
+One of the strongest parts of Game Maker was its community, first started on 9th November 2000 and simply called **Game Maker Forum** (gamemaking.community.everyone.net)[^4].
+
+It then moved to EZboard (pub58.ezboard.com/bgamemakercommunity) on the 16th March 2001 and finally to IPB where it has now lasted over 25 years!
 
 ---
-# Game Engines by Platform 
+# Game Engines by Platform
 Although game engines can be used across multiple games consoles or platforms, we have separated the game engines by platform to make it easier to compare the features between engines of a given console generation.
 
 Platform Name | Game Engine List
@@ -81,7 +110,7 @@ Nintendo Wii U | [Wii U eShop Game Engines](https://www.retroreversing.com/WiiUe
 # Commercial Middleware
 
 ## Ageia PhysX SDK
-Originally known as NovodeX (by Swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in 2008, Nvidia bought Ageia and continued to support the SDK even releasing it as open source in December 2018. 
+Originally known as NovodeX (by Swiss company of the same name) the technology was bought by Ageia in 2004 and rebranded to PhysX. Later in 2008, Nvidia bought Ageia and continued to support the SDK even releasing it as open source in December 2018.
 Although the source code was technically available for free before that as long as you registered on the Nvidia website (2015-2017).
 
 PhysX under Ageia allowed the SDK binaries to be offered royalty free but access to the source code is **$50,000** per application.
@@ -101,3 +130,5 @@ It was used by **Delphine Software** in the **Moto Racer** series to great succe
 # References
 [^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
 [^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
+[^3]: [Game Maker 1.3](https://web.archive.org/web/20000229113403/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
+[^4]: [Game Maker Pages](https://web.archive.org/web/20001110011300/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
