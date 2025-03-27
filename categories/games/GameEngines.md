@@ -71,16 +71,20 @@ The first ever Unity developer conference **Unite** was held in the two days bet
 ## Game Maker
 Game Maker is a popular 2D game development tool originally called **Animo** and developed by Professor **Mark Overmars**.
 
-Version 1.0 was released some time in 1998-1999 for students of Utrecht University and on the 15th November 1999 it was released to the public as version 1.1.
+Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
 
 Early versions of game maker (1.0->?) exported games in .gmr format that required the **Game Maker Runner** to execute, later versions allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
-Game Maker was written in Delphi (version 5), The IDE was slightly over 25,000 lines of code in 2003 with the runner part similar in size [^5].
+Development History:
+* 2003 - Game Maker was written in Delphi (version 5), The IDE was slightly over 25,000 lines of code in 2003 with the runner part similar in size [^5].
+* 2004 - Delphi version 7. The IDE source code is now over 40.000 lines of code. The source code for the runner part is similar in size [^6]
+
 It was later rewritten by YoYoGames with the runner now being written in C++.
 
 
 Key milestones include:
-* **Version 1.1** first public version of Game Maker (15th November 1999)
+* **Version 1.0** - Never released to the public (Called Animo)
+* **Version 1.1** - First public version of Game Maker (15th November 1999)
 * **Version 1.2**
 * **Version 1.3** - Added support for larger images and importing/exporting games (7th January 2000) [^3]
 * **Version 2.0** - Added DirectSound support, added object depth support (8th September 2000)
@@ -91,6 +95,12 @@ Key milestones include:
 * **Version 4.0** - Complete rewrite that was not backwards compatible - logo changed from blue to red to signify this change (16th July 2001)
 * **Version 4.1** - (12th January 2002)
 * **Version 4.2** - (9th May 2002)
+* **Version 4.3** - (18th November 2002)
+* **Version 4.3a** - Bugfix release for 4.3 (25th November 2002)
+* **Version 5.0** - (12th April 2003)
+* **Version 5.1** - (14th September 2003)
+* **Version 5.2** - (15th December 2003)
+* **Version 6.0** - (2nd October 2004)
 
 Mark Overmars also released some companion software to Game Maker:
 * **Background Maker 1.0** - Tool for combining tiles into a single background image (7th December 2000)
@@ -101,8 +111,10 @@ Mark Overmars also released some companion software to Game Maker:
 One of the strongest parts of Game Maker was its community, first started on 9th November 2000 and simply called **Game Maker Forum** (gamemaking.community.everyone.net)[^4].
 
 Key milestones for the GMC:
-**Ezboard** - It then moved to EZboard (pub58.ezboard.com/bgamemakercommunity) on the 16th March 2001
-**Invision Board 1.1** - Invision Power Board on 6th October 2002 (gmcommunity.edgehost.com/forums/) but it only lasted until 8th January 2003due to server problems (so they went back to Ezboard).
+* **gamemaking.community.everyone.net** - Single board simply called **Game Maker Forum**
+* **pub58.ezboard.com/bgamemakercommunity** - It then moved to EZboard on the 16th March 2001
+* **gmcommunity.edgehost.com/forums/** - Invision Power Board v 1.1 on 6th October 2002 but it only lasted until 8th January 2003 due to server problems (so they went back to Ezboard).
+* **forums.gamemaker.nl** - Started on 26th October 2003 another self-hosted Invision Power Board v1.3 this one was much more successful and they never went back to Ezboard
 
 The Game Maker Community has now lasted over 25 years!
 
@@ -142,3 +154,4 @@ It was used by **Delphine Software** in the **Moto Racer** series to great succe
 [^3]: [Game Maker 1.3](https://web.archive.org/web/20000229113403/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
 [^4]: [Game Maker Pages](https://web.archive.org/web/20001110011300/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
 [^5]: [Game Maker History](https://web.archive.org/web/20021212194534if_/http://www.cs.uu.nl/people/markov/gmaker/history.html)
+[^6]: [Game Maker Facts](https://web.archive.org/web/20041012165649if_/http://www.cs.uu.nl/people/markov/gmaker/facts.html)
