@@ -75,6 +75,10 @@ Version 1.0 was released some time in 1998-1999 for students of Utrecht Universi
 
 Early versions of game maker (1.0->?) exported games in .gmr format that required the **Game Maker Runner** to execute, later versions allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
+Game Maker was written in Delphi (version 5), The IDE was slightly over 25,000 lines of code in 2003 with the runner part similar in size [^5].
+It was later rewritten by YoYoGames with the runner now being written in C++.
+
+
 Key milestones include:
 * **Version 1.1** first public version of Game Maker (15th November 1999)
 * **Version 1.2**
@@ -84,7 +88,8 @@ Key milestones include:
 * **Version 3.1** - DirectX in windowed mode and removal of Exclusive mode
 * **Version 3.2** - New room options have been added: more background options, multiple views, and transitions between rooms (27th January 27 2001)
 * **Version 3.3** - (4th April 2001)
-* **Version 4.0** - (16th July 2001)
+* **Version 4.0** - Complete rewrite that was not backwards compatible - logo changed from blue to red to signify this change (16th July 2001)
+* **Version 4.1** - (12th January 2002)
 * **Version 4.2** - (9th May 2002)
 
 Mark Overmars also released some companion software to Game Maker:
@@ -95,7 +100,11 @@ Mark Overmars also released some companion software to Game Maker:
 ### Game Maker Community
 One of the strongest parts of Game Maker was its community, first started on 9th November 2000 and simply called **Game Maker Forum** (gamemaking.community.everyone.net)[^4].
 
-It then moved to EZboard (pub58.ezboard.com/bgamemakercommunity) on the 16th March 2001 and finally to IPB where it has now lasted over 25 years!
+Key milestones for the GMC:
+**Ezboard** - It then moved to EZboard (pub58.ezboard.com/bgamemakercommunity) on the 16th March 2001
+**Invision Board 1.1** - Invision Power Board on 6th October 2002 (gmcommunity.edgehost.com/forums/) but it only lasted until 8th January 2003due to server problems (so they went back to Ezboard).
+
+The Game Maker Community has now lasted over 25 years!
 
 ---
 # Game Engines by Platform
@@ -132,3 +141,4 @@ It was used by **Delphine Software** in the **Moto Racer** series to great succe
 [^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
 [^3]: [Game Maker 1.3](https://web.archive.org/web/20000229113403/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
 [^4]: [Game Maker Pages](https://web.archive.org/web/20001110011300/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
+[^5]: [Game Maker History](https://web.archive.org/web/20021212194534if_/http://www.cs.uu.nl/people/markov/gmaker/history.html)
