@@ -1,6 +1,6 @@
 ---
 permalink: /games/engines
-layout: blog-cards
+layout: post
 console: gameengines
 breadcrumbs:
   - name: Home
