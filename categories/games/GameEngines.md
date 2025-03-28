@@ -1,4 +1,5 @@
 ---
+title: Introduction to Game Engines & Middleware
 permalink: /games/engines
 layout: post
 console: gameengines
@@ -13,6 +14,9 @@ redirect_from:
   - /engines
   - /games/gameengines
   - /game-engines
+tags:
+  - gameengines
+  - introduction
 ---
 # Introduction to Game Engines & Middleware
 Game Engines are the foundation in which games are built, they contain all the logic to be able to show graphics, play audio, compute input, etc. without having any of the game specific assets such as sprites or music files.
