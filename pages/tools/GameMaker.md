@@ -36,6 +36,12 @@ It was later rewritten by YoYoGames with the runner now being written in C++ and
 ## Game Runner
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
+### Decompilers
+There were a few decompilers released for specific versions of Game Maker created executables (*.exe):
+* GM 4.3 -> 5.3a - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
+* GM 5.3a -> 7.0 - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
+* GM 8.0 -> 8.1 - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
+
 ---
 ## File Formats
 Over the years there have been multiple different file formats used by Game Maker, as the tool was enhanced it required expansions of the format, here are editable formats used in each version:
