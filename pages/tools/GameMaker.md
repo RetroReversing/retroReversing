@@ -52,8 +52,9 @@ Other formats created for Game Maker include:
 
 ### File Format Parsing
 If you are interested in parsing some of the older Game maker files formats, there are a few Github projects that may be of interest:
-* [node-gmk-parser: Node.js based Game Maker file parser](https://github.com/gm-archive/node-gmk-parser)
-* [Gmk: C++ GMK Api](https://github.com/gm-archive/Gmk)
+* [node-gmk-parser: Node.js based Game Maker file parser](https://github.com/gm-archive/node-gmk-parser) Javascript .GMK parser
+* [Gmk: C++ GMK Api](https://github.com/gm-archive/Gmk) C++ .GMK parser
+* [LibMaker/org/lateralgm/libmaker/file/LibReader.java](https://github.com/gm-archive/LibMaker/blob/master/org/lateralgm/libmaker/file/LibReader.java) - Java .LIB parser
 
 ---
 ## Companion Software
