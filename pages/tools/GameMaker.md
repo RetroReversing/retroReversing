@@ -27,7 +27,7 @@ Version 1.0 was built some time in 1998-1999 but never released publicly but on 
 Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
 
 ## Source Code
-Both the IDE and runner were written in Delphi, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
+Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
 * **2003** - Delphi version 5. The IDE was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
 * **2004** - Delphi version 7. The IDE source code is now over **40.000** lines of code. The source code for the runner part is similar in size [^11]
 
@@ -41,6 +41,8 @@ There were a few decompilers released for specific versions of Game Maker create
 * GM 4.3 -> 5.3a - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
 * GM 5.3a -> 7.0 - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
 * GM 8.0 -> 8.1 - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
+
+When each of these decompilers were released to the public they created quite a stir in the community, e.g: [First person caught using Game Maker Decompiler? - GameMakerBlog](https://gamemakerblog.com/2009/05/02/first-person-caught-using-game-maker-decompiler/)
 
 ---
 ## File Formats
