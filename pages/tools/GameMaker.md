@@ -33,16 +33,36 @@ Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10
 
 It was later rewritten by YoYoGames with the runner now being written in C++ and the IDE in C#.
 
+---
 ## Game Runner
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
-### Decompilers
+### Executable Decompilers
 There were a few decompilers released for specific versions of Game Maker created executables (*.exe):
 * GM 4.3 -> 5.3a - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
 * GM 5.3a -> 7.0 - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
 * GM 8.0 -> 8.1 - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
 
 When each of these decompilers were released to the public they created quite a stir in the community, e.g: [First person caught using Game Maker Decompiler? - GameMakerBlog](https://gamemakerblog.com/2009/05/02/first-person-caught-using-game-maker-decompiler/)
+
+### Executable Converters
+New versions of Windows have occasionally broken Game Maker executables, these converters are used to upgrade old Game Maker executable files to run on newer versions of windows:
+* [GM6Vista: Patches for GameMaker 6 to run on Modern versions of Microsoft Windows (Vista to 11)](https://github.com/LiEnby/GM6Vista)
+* [GM Convert Game by Mark Overmars](https://archive.org/details/gm-convert-game) - Official tool by Mark Overmars to fix games on Windows Vista
+
+### G-Java - Java Game Maker Runner
+G-Java was an attempt to create a Game Maker Runner in Java to provide cross platform game development and embedded games inside **Java Applets**. It was never finished and ended up becoming Abandonware.
+
+G-Java was created some time before October 2004 according to the old [G-java.uni.cc Website](https://web.archive.org/web/20041101041551if_/http://www.g-java.uni.cc/home.htm), it later changed to [G-Java.com](https://web.archive.org/web/20061108075638/http://www.g-java.com/) in November 2006. There seems to have also been a G-Java.tk but it was never archived on the Wayback machine.
+
+It was originally written in Visual Basic 6 on top of a GMD parser implemented by VBGamer45 (best known for creating the first Game Maker Decompiler), but the source code for that was apparently lost.
+
+### GMbed - Embedded Game Maker Executables
+GMbed was software which embedded Game maker executables in websites using windows specific features to embed a window handle (hwnd) into a Java Applet.
+
+Originally it would split apart the Runner part of the executable from the game data part, but this was quickly put a stop to at a request from **Mark Overmars** [^13].
+
+A website was created to make the process as easy as possible [GMbed.com](https://web.archive.org/web/20090621083403/http://www.gmbed.com/) which was later hacked by an Indonesian hacking group.
 
 ---
 ## File Formats
@@ -63,6 +83,11 @@ If you are interested in parsing some of the older Game maker files formats, the
 * [node-gmk-parser: Node.js based Game Maker file parser](https://github.com/gm-archive/node-gmk-parser) Javascript .GMK parser
 * [Gmk: C++ GMK Api](https://github.com/gm-archive/Gmk) C++ .GMK parser
 * [LibMaker/org/lateralgm/libmaker/file/LibReader.java](https://github.com/gm-archive/LibMaker/blob/master/org/lateralgm/libmaker/file/LibReader.java) - Java .LIB parser
+
+### File Format Converters
+Whenever a new version of Game Maker was released there would always be people wanting to continue using a previous version, this was especially the case when Game Maker started charging for more advanced features which were free in the previous version (GM 6.x, GM 7.x), so a few converters were created by the community:
+* [GM6 to GMD converter](https://web.archive.org/web/20070111012215/http://www.g-java.com/forums/index.php?dlcategory=5) - 1.0 Released 26th July 2005 with the final version 2.1 being released 29th December 2005.
+
 
 ---
 ## Companion Software
@@ -298,3 +323,4 @@ The Game Maker Community has now lasted over 25 years!
 [^10]: [Game Maker History 2002](https://web.archive.org/web/20021212194534if_/http://www.cs.uu.nl/people/markov/gmaker/history.html)
 [^11]: [Game Maker Facts 2004](https://web.archive.org/web/20041012165649if_/http://www.cs.uu.nl/people/markov/gmaker/facts.html)
 [^12]: [GameMaker Versions - GameMaker Wiki](http://game-maker.wikidot.com/game-maker-versions)
+[^13]: [Dreamland: Home of Josh](http://dreamland.im/about.php)
