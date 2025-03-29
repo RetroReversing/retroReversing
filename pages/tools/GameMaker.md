@@ -37,12 +37,17 @@ It was later rewritten by YoYoGames with the runner now being written in C++ and
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
 ## Companion Software
+![Background Maker](https://github.com/user-attachments/assets/bc5e065d-f170-44f6-a6a8-8f92f4d39cfe)
+
 Mark Overmars also released some companion software to Game Maker:
 * **Background Maker 1.0** - Tool for combining tiles into a single background image (7th December 2000)
 * **Image Maker 1.0** - Tool for creating animated GIFs for Game Maker
 
-mark Overmars also released some software unrelated to Game Maker:
+![Drawing for Children](https://github.com/user-attachments/assets/da597d9d-96fe-4ec7-aaca-719743bc737c)
+
+Mark Overmars also released some software unrelated to Game Maker:
 * **Child Proof 1.0** - Sandbox environment for children using PCs
+* **Drawing for Children** - Drawing program
 
 ---
 # Game Maker Version History (Versions 1.1 through 8.0)
@@ -54,6 +59,8 @@ The software’s version numbering skipped a non-public 1.0 (due to its origins 
 Mark Overmars originally developed *Game Maker* as a program called **“Animo”** in 1999, intended for creating 2D animations. This version 1.0 was never publicly released – the software was renamed and first launched publicly as **Game Maker 1.1** later that year [^10]. In other words, there is **no public Game Maker 1.0**; Overmars skipped directly to 1.1 for the debut, reflecting the shift in focus from a simple animation tool to a game creation software [^10].
 
 ## Version 1.1 (November 15th 1999) – First Public Release
+![Game Maker 1.1 IDE](https://github.com/user-attachments/assets/1d3797a9-89d3-4c81-9dc8-d7afdaf71937)
+
 Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
 
 - **Basic Game Creation Interface:** Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the IDE [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
@@ -90,6 +97,8 @@ Notably, **Game Maker 1.4 was still limited to the same feature set scope of the
 *(With the 1.x series completed, Game Maker had proven the viability of an easy, drag-and-drop game creation tool. The stage was set for bigger changes – notably, improved performance and distribution capabilities – in version 2.0 and beyond.)*
 
 ## Version 2.0 (2000) – Interface Overhaul and Growing Popularity
+![Game Maker 2.0 IDE](https://github.com/user-attachments/assets/cd4037cf-8b7d-4806-aa1f-50f9458e38fa)
+
 Released on the 8th September 2000, **Game Maker 2.0** was the first major version number change for the software. This update brought a **redesigned interface and significant usability improvements**, making game development easier and more powerful for users who had outgrown the 1.x features. Key aspects of version 2.0 include:
 
 - **Improved UI and Workflow:** Overmars refined the Game Maker IDE in 2.0, reorganizing how resources (sprites, sounds, rooms, etc.) were managed. The interface became more intuitive than the 1.x series, addressing some limitations of the earlier design. According to later retrospectives, each major release around this time introduced a new file format or layout; Game Maker 2.0 was no exception, likely switching to a new project file structure as part of the overhaul [^2]. The overall look-and-feel moved closer to what modern Game Maker versions would use, with more dialogs and organizational panels for different resource types.
@@ -103,6 +112,8 @@ Released on the 8th September 2000, **Game Maker 2.0** was the first major versi
 During the year 2000, Game Maker’s popularity started to rise rapidly. By the end of that year, the program had been downloaded tens of thousands of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. In summary, **Game Maker 2.0** modernized the tool’s interface and expanded its feature set, making it a more robust platform for game creation. It set the foundation upon which the crucial technical upgrades of versions 3 and 4 would soon build.
 
 ## Version 3.0 (2001) – First Use of DirectX
+![Game Maker 3.3beta](https://github.com/user-attachments/assets/5a59d096-8534-42e1-b60b-44f9a63ae2bd)
+
 On the 23rd November 2001, Overmars released **Game Maker 3.0**, which was a milestone for the software’s graphics and performance. The hallmark of version 3.0 was the introduction of **DirectX support** for the first time [^5]. This had several important effects:
 
 - **Hardware-Accelerated Graphics:** By leveraging Microsoft DirectX (likely DirectDraw at this stage), Game Maker could now render graphics more efficiently. Games ran faster and could use full-screen modes and graphical effects that were not feasible under the old software-based renderer. This was a significant step up in capability, as it unlocked the potential for smoother animations and richer visuals.
@@ -118,6 +129,8 @@ Overall, **Game Maker 3.x** dramatically improved the engine’s under-the-hood 
 This helped Game Maker’s community grow even more, as the quality and smoothness of games made in GM started to increase. Version 3.0’s success set the stage for an even more comprehensive overhaul in the next major release.
 
 ## Version 4.0 (2001) – Major Rewrite and New Capabilities
+![Game Maker 4 IDE](https://github.com/user-attachments/assets/1bd5a517-ceb5-40d2-84c8-dfda23125f71)
+
 **Game Maker 4.0**, released on the 16th July 2001, was a complete overhaul of the software. Mark Overmars rewrote large portions of Game Maker from scratch for this version [^5], making sweeping changes to the interface, architecture, and capabilities. Important highlights of version 4.0 include:
 
 - **Entirely New Interface:** The IDE in Game Maker 4 was significantly redesigned. The layout and organization of resources were improved, giving the tool a more professional and user-friendly feel. In fact, the Game Maker 4.3 interface (the final revision of this line) looks very *familiar* even to users of much later versions – it established the general design paradigm that persisted in subsequent releases [^2]. This means that by 4.x, Game Maker had a resource tree, event selectors, and editors that resemble those used for years to come.
@@ -135,6 +148,8 @@ This helped Game Maker’s community grow even more, as the quality and smoothne
 In summary, **Game Maker 4.0 was a landmark release**. It delivered a modernized, rewritten IDE, support for networking play, and the much-demanded ability to compile games into executables [^5] [^7]. The engine had matured considerably, and by the end of the 4.x cycle Game Maker was a robust tool for 2D game development. These changes propelled Game Maker into the “prominence” phase – the user community greatly expanded around this time, thanks in part to the newfound ease of sharing completed games.
 
 ## Version 5.0 (2003) – Extensions and Paid Registration
+![Game Maker 5.0 IDE](https://github.com/user-attachments/assets/83d98882-3145-40d9-81a8-d07c9068c9ed)
+
 Released in **April 2003**, **Game Maker 5.0** built upon the solid foundation of the 4.x series and introduced a couple of notable new features. It also marked a shift in Game Maker’s distribution model from freeware to a shareware/registration model. Key points for version 5.0 include:
 
 - **External Files and Custom Data:** Game Maker 5 added support for using external files in games [^5]. This meant games could read and write files (such as saving custom data, configurations, or high scores to an external text file) more easily, and could include external resources. This opened the door for more complex game behavior (for example, loading level data from files, or modifiable content). Essentially, GM5 introduced new functions to handle files and perhaps binary data, giving developers more flexibility beyond the fixed resources in the editor.
@@ -150,6 +165,8 @@ Released in **April 2003**, **Game Maker 5.0** built upon the solid foundation o
 In essence, **Game Maker 5.0** was an evolutionary update that extended the engine’s functionality into new areas like file I/O and event scheduling (timelines) [^5]. It also marked Game Maker’s transition to a partly commercial product with the introduction of a registration fee [^2]. Despite some initial community resistance to paying for previously free software, the modest price and the promise of continued improvements kept Game Maker’s user base growing. GM5’s enhancements were particularly welcomed by more advanced users, as they allowed for games with persistent data and more complex scripted sequences.
 
 ## Version 6.0 (2004) – New 3D Graphics Engine
+![Game Maker 6.0 IDE](https://github.com/user-attachments/assets/c509c5de-b7d2-4dbd-abbc-dbb5a28ec677)
+
 **Game Maker 6.0** was released in October 2004 and represented another major technological upgrade for the engine. The most significant change was a **completely rewritten graphics engine using Direct3D** (part of DirectX) as the new backend [^5]. This brought substantial new graphical capabilities to Game Maker:
 
 - **3D Graphics Functions:** For the first time, Game Maker had built-in support for **3D graphics**. Using Direct3D allowed Overmars to expose functions for drawing 3D primitives, textured shapes, and basic 3D models. Version 6 introduced a set of GML functions (and possibly drag-and-drop actions) that let users create simple 3D scenes – for example, drawing 3D boxes, floors, walls, and even applying textures to them [^2]. This was a *big* change; while GM6 was still primarily a 2D game engine, adventurous users could now experiment with 3D (for instance, making simple first-person or 3D racing games). Many users remember seeing demo projects of 3D spinning cubes and primitive 3D engines soon after GM6’s release.
