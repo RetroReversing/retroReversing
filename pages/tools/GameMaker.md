@@ -203,6 +203,20 @@ In summary, **Game Maker 7.0** didn’t radically change what you could make wit
 
 As the final version developed under Mark Overmars, **Game Maker 8.0** was a polished and user-friendly culmination of a decade of development. It **did not radically change the types of games one could make** (the engine was still 2D-focused with optional simple 3D, and used Direct3D8 for rendering just like GM7). However, it significantly refined the development experience — coding, painting sprites, and managing game assets became easier and more efficient in GM8 [^5]. The community received GM8 very positively; it became a stable workhorse for many hobbyist and educational projects in the early 2010s. (An update *Game Maker 8.1* would later be released in 2011 by YoYo Games, primarily to improve Windows Vista/7 compatibility and add minor features, but 8.0 was the last version where Overmars was deeply involved in the design.)
 
+## The GM8.2 Project
+The GM 8.2 Project is an open-source community-driven fork of Game Maker 8.0, aiming to enhance and extend the original software's capabilities. Hosted on GitHub, the project encompasses multiple repositories focusing on various improvements and new features.​
+
+One of the core components is **gm82core**, a quality-of-life extension that introduces helper functions, precise timing, global variables, and utility constants to Game Maker 8.2. This extension serves as a foundation for many other modules within the GM 8.2 ecosystem.
+GITHUB
+
+Other notable modules include **gm82room**, a revamped Room Editor module, and **gm82dx9**, which provides a DirectX9 interface extension, enhancing the graphical capabilities of Game Maker 8.2.
+
+By building upon the original Game Maker 8.0, the GM 8.2 Project aims to modernize the software, incorporating new features and improvements that cater to the evolving needs of game developers without switching to GameMaker Studio line of products.​
+
+Find out more on the official website:
+[GM 8.2 Project](https://gm82.cherry-treehouse.com/#News)
+
+---
 # Game Maker Community
 One of the strongest parts of Game Maker was its community, first started on 9th November 2000 and simply called **Game Maker Forum** (gamemaking.community.everyone.net)[^8].
 
