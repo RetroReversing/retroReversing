@@ -36,6 +36,26 @@ It was later rewritten by YoYoGames with the runner now being written in C++ and
 ## Game Runner
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
+---
+## File Formats
+Over the years there have been multiple different file formats used by Game Maker, as the tool was enhanced it required expansions of the format, here are editable formats used in each version:
+* **.GMF** - Game Maker File (1.1->3.x)
+* **.GMD** - Game Maker Design (4.x->5.x)
+* **.GM6** - Game Maker 6 editable (6.x)
+* **.GMK** - Encrypted Game Maker file (7.x->8.x) - Encrypted to prevent tools such as **G-Java** and **LateralGM**.
+
+For the runner formats, it started with .GMR and then moved to a proper executable (.exe) file in Game Maker 4.0+.
+
+Other formats created for Game Maker include:
+* **.GEX** - Game Maker Extension format
+* **.LIB** - Game Maker Drag and Drop Library format
+
+### File Format Parsing
+If you are interested in parsing some of the older Game maker files formats, there are a few Github projects that may be of interest:
+* [node-gmk-parser: Node.js based Game Maker file parser](https://github.com/gm-archive/node-gmk-parser)
+* [Gmk: C++ GMK Api](https://github.com/gm-archive/Gmk)
+
+---
 ## Companion Software
 ![Background Maker](https://github.com/user-attachments/assets/bc5e065d-f170-44f6-a6a8-8f92f4d39cfe)
 
@@ -48,6 +68,12 @@ Mark Overmars also released some companion software to Game Maker:
 Mark Overmars also released some software unrelated to Game Maker:
 * **Child Proof 1.0** - Sandbox environment for children using PCs
 * **Drawing for Children** - Drawing program
+
+## Community additions to Game Maker
+Over the years there have been many open source projects that aimed to enhance Game maker in a certain way, from cross platform IDEs such as **LateralGM**, software to convert games to Java (**G-Java**) and even multiple open source re-implementations of the Game Maker Runner (**ENIGMA**).
+
+Many of these projects are available on Github:
+[GameMaker Engineering Archive - GitHub](https://github.com/gm-archive)
 
 ---
 # Game Maker Version History (Versions 1.1 through 8.0)
