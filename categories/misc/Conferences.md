@@ -38,7 +38,7 @@ Conference | Dates | Category | Notes
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase |
 Develop | 2006-Ongoing | Development | UK Game development Conference
-D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and buisness topics, not programming or 3D content creation
+D.I.C.E. Summit | 2002-Ongoing | Development | Stands for: "Design, Innovate, Communicate, Entertain", mainly game design and business topics, not programming or 3D content creation
 Dreamcast Developer's Conference | 1999 | Development | [Dreamcast Developer's Conference - Sega Retro](https://segaretro.org/Dreamcast_Developer%27s_Conference)
 Saturn Developer’s Conference | May 1994 | Development | [DTS: The SEGA Developer’s ‘Game Mag’ – SHIRO Media Group](https://www.segasaturnshiro.com/2021/08/19/dts-the-sega-developers-game-mag/)
 Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
@@ -55,12 +55,12 @@ In the sections below we will try to list any audio or video recordings we can f
 # GDC - Game Developer's Conference
 GDC stands for the "Game Developers Conference", which is an annual event held for professionals in the video game industry. GDC serves as a hub for game developers, publishers, artists, programmers, designers, and other industry experts to come together to discuss, share, and learn about the latest trends, technologies, and practices in game development. The event includes a wide range of sessions, panels, workshops, and networking opportunities.
 
-We have so much content on the GDC that was had to split this section out into its own post you can find it below:
-{% include link-to-other-post.html post="/gdc" description="For more information about the Gamde Developers Conference check out this post." %}
+We have so much content on the GDC that we had to split this section out into its **own post** you can find it below:
+{% include link-to-other-post.html post="/gdc" description="For more information about the Game Developers Conference check out this post." %}
 
 ---
 # SIGGRAPH
-SIGGRAPH stands for "Special Interest Group on Computer Graphics and Interactive Techniques." It is an annual conference and organization that focuses on computer graphics, interactive technology, and various related fields. SIGGRAPH is highly regarded in the computer graphics and interactive technology industry and is known for its conferences and publications.
+SIGGRAPH stands for "Special Interest Group on Computer Graphics and Interactive Techniques." It is an annual conference and organization that focuses on computer graphics, interactive technology, and various related fields. **SIGGRAPH** is highly regarded in the computer graphics and interactive technology industry and is known for its conferences and publications.
 
 SIGGRAPH is an interdisciplinary platform that covers a wide range of topics, including computer graphics, visual effects, gaming, virtual reality, computer-aided design, art, and more.
 
@@ -260,6 +260,7 @@ Overall, he outlines the evolution of the Doom 3 graphics engine, addressing pas
 
 ---
 # 3D Design Conference
+![3DShow 1997](https://github.com/user-attachments/assets/eb5b7b33-88ab-42cb-a6e1-3962986fc74f)
 
 The US magazine **3D Design** played an active role in the 3D graphics community during the 1990s. **Miller Freeman** leveraged the magazine’s brand to host the annual 3D Design Conference & Exhibition in San Francisco (starting in 1996). By 1997–98, this event offered “the most targeted technical education available for advanced graphics professionals” and included four days of intensive classes on animation, modeling, lighting, and more​
 

@@ -1,6 +1,6 @@
 ---
 permalink: /games/sourcecode
-layout: blog-cards
+layout: post
 console: sourcecode
 breadcrumbs:
   - name: Home

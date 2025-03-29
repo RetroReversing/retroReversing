@@ -57,7 +57,7 @@ The post contains everything we know about the interviews and articles published
 ## GameMaker Magazine
 ![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
 
-**GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public! 
+**GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public!
 
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
@@ -87,7 +87,7 @@ Issue | Name | Description
 ## Journal of Computer Game Design
 ![Journal of Computer Game Design](https://github.com/RetroReversing/retroReversing/assets/40120498/83baa498-4507-4ff5-a4b7-ab4d59facbf3)
 
-The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design. 
+The "Journal of Computer Game Design" was founded by Chris Crawford, a well-known game designer and developer, in June 1987 [^2]. The journal's primary focus was on computer and video game design. It was one of the first publications to provide insights and discussions on the art and science of game design.
 
 It cost $30 a year to subscribe and the journeals were released every other month, it was the first attempt to foster a community around game design [^4];
 
@@ -105,12 +105,12 @@ All the articles are now freely available on Chris Crawford's website in a well 
 
  <div markdown="1" class="rr-post-markdown">
    Wireframe is an excellent magazine that blends developer interviews with practical tutorials such as how to implement various game mechanics in programming languages such as python or even **C programming** for the original Game Boy!
-   
+
    They even release all the issues they make free on their website in pdf form for everyone (not just subscribers).
-   
+
 Sadly **Wireframe** magazine is no longer producing new magazines after issue 70.
  </div>
-</section> 
+</section>
 
 
 You can view all the issues on their official website:
@@ -206,7 +206,7 @@ GamesTM | Highbury | 2002-2018 | UK Magazine that contained interviews with Game
 GameBytes | | 1992-1994 | MS-DOS based application for an interactive magazine released on BBS between 1992-1994 https://www.dosgames.com/gamebytes.php
 Mean Machines Sega | EMAP | 1992-1997 | UK Sega Magazine that has 53 issues
 MEGA | Future | 1992-1995 | UK based Sega magazine with 38 issues
-Mega Action | Europress | 1993-1994 | UK Sega Mega Drvie Magazine with 11 issues 
+Mega Action | Europress | 1993-1994 | UK Sega Mega Drvie Magazine with 11 issues
 Mega Machines | Impact | 1993-1994 | UK Sega Magazine with 5 issues
 Mega Play | Sendai | 1990-1995 | US Sega Magazine
 Mega Power | Paragon | 1993-1995 | UK Sega Mega Drive Magazine
@@ -228,7 +228,7 @@ You can experience the magazines online through an emulator on [DOSGames.com](ht
 
 ---
 ## EDGE Magazine
-The magazine **EDGE** published its first issue on August 19th 1993 with a focus on going more in-depth on technical details such as how games are made, technical aspects and development issues [^3]. It targeted multiple console/PC platforms (Mega Drive, SNES, Amiga etc) and  is famous for hiring many of the engineers at **Rare** due to their advertisements (Dr Doak is one example of someone who applied thanks to an EDGE advertisement). 
+The magazine **EDGE** published its first issue on August 19th 1993 with a focus on going more in-depth on technical details such as how games are made, technical aspects and development issues [^3]. It targeted multiple console/PC platforms (Mega Drive, SNES, Amiga etc) and  is famous for hiring many of the engineers at **Rare** due to their advertisements (Dr Doak is one example of someone who applied thanks to an EDGE advertisement).
 
 For their news sections they would "borrow" from Japanese magazines such as "Weekly Famitsu" and US magazines such as "EGM" [^3].
 
@@ -238,13 +238,13 @@ For their news sections they would "borrow" from Japanese magazines such as "Wee
     <img src="/public/images/magazines/PSi2.jpg" class="wow slideInLeft postImage" style="width:200px" />
 
  <div markdown="1" class="rr-post-markdown">
-Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue. 
+Published by **Thin-Ice Media** (Owned by Datel) it was the only non-official Playstation 2 magazine to include a playable CD every issue.
 
 Each CD would contain a few Action Replay Cheats and save games that can be applied to a few select games, it formed as a good advertisement to Datel's Action Replay product.
-   
+
 Whether it was always intended to be just another advertisement route for **Datel** or not, it ended up having a good run of 38 issues or just over 3 years on High Street shelves!
  </div>
-</section> 
+</section>
 
 ### Relevant Articles in PSi2
 As Psi2 was an unofficial magazine published by Datel it was a good magazine for news about development topics and homebrew along with general game reviews and news. Here is a table of the most relevant articles for the topic of the site (game development and homebrew)
@@ -259,7 +259,7 @@ Issue | Name | Description
 20 | One step beyond | Interview with Beyond games they mention they have a game engine called "Brainstom" which they used for Motor Mayhem and Hot Wheels which apparently has networking capabilities
 20 | A Week in the life of Runcraft | Lays out the day to day work of the art development of Runecraft while they develop games for the PS2 such as Premier manager. They use photoshop for tecturing but its unclear what software they use for 3D modelling as the screenshots are too low-res but possibly 3DS Max.
 20 | Indie day | Interview with Pivotal games on their game Desert Storm
-21 | A Week in the life of Kuju | 
+21 | A Week in the life of Kuju |
 21 | Indie day | Interview with Argonaut games
 
 
@@ -466,11 +466,11 @@ Web Desginer | UK | |  magazine from 2004 until ?
 ---
 ## 3D Design Magazine (USA) (1995-2000) (ISSN 1083-5288)
 ![3D Design Vol 5 Issue 4 - April 1999 ](https://github.com/user-attachments/assets/fef02646-f3d2-41a7-a468-6109fb25e091)
-3D Design was a US magazine devoted to 3D graphics and design, published by **Miller Freeman** in San Francisco. It launched around 1995, with Allison Arden credited as its National Sales Manager who helped start the magazine and its website in 1995​ [^6]. 
+3D Design was a US magazine devoted to 3D graphics and design, published by **Miller Freeman** in San Francisco. It launched around 1995, with Allison Arden credited as its National Sales Manager who helped start the magazine and its website in 1995​ [^6].
 
 It was typically issued monthly for example, Volume 2, No. 9 corresponds to September 1996​ but it is unclear when the first issue was published.
 
-In mid-1999, Miller Freeman announced that 3D Design would be rebranded as simply “3D” – the change took effect with the July 1999 issue​. 
+In mid-1999, Miller Freeman announced that 3D Design would be rebranded as simply “3D” – the change took effect with the July 1999 issue​.
 
 After a brief run under the name 3D, the publication was eventually closed by **CMP Media** (which by then owned Miller Freeman’s titles) around late 1999 or 2000​ [^7].
 
@@ -487,17 +487,26 @@ Other columnists and contributors (like Barry Fox, who also served as a technica
 They also hosted an event called the **3D Design Conference & Exhibition** in 1996 to at least 1998 including what they called the **Big Kahuna Awards Ceremony**.
 In 1998 it took place on the 19th-22nd of May at the Moscone Center in San Francisco and is credited as the third event which presumably means it started in 1996 [^8].
 
-### Issue Contents
+### 3D Design Magazine Article Index (1996–1999)
+Below is a compiled editorial index of selected articles from *3D Design* magazine (Miller Freeman, Inc.), covering various issues from 1996 through 1999. Each entry lists the issue (YYYY-MM), article title, author, and a brief description as originally indicated in the magazine’s contents or summary.
 
 Issue | Title | Author | Description
 ---|---|---|---
+1996-12  | Year in Review, Wired for 3D: Best of ’96 | Kelly Dove | A retrospective of the year’s top developments in 3D graphics and design, highlighting 1996’s “best of” moments and achievements in the industry.
 1997-06 | Inside The Sixth Man | Gretchen J. Bay | L.A.-based visual effects house Available Light pushes 3D to the limits as we look behind the scenes at the CG effects created for Disney's recent live-action release, The Sixth Man.
 1997-06 | Mastering the 3D Pipeline | Omid Rahmat | The Applications Programming Interface (API) affects everything from 3D performance to the actual look of the final image. If the ultimate ambition of your 3D design is real-time interaction, you better get a grip on the basics of 3D APIs because they may dictate how far your art can go.
-1997-06 | Accelerated 3D: Round One | Chris Tome | Do you really have to spend a lot of cash to get a 3D graphics board that is perfect for your needs? Not necessarily. Look here as the testing begins on nine 3D boards from ATI, Matrox, Intergraph, Diamond Multimedia, Dynamic Pictures, Accelgraphics, and Number 9, all of which retail for less than $1,000. 
+1997-06 | Accelerated 3D: Round One | Chris Tome | Do you really have to spend a lot of cash to get a 3D graphics board that is perfect for your needs? Not necessarily. Look here as the testing begins on nine 3D boards from ATI, Matrox, Intergraph, Diamond Multimedia, Dynamic Pictures, Accelgraphics, and Number 9, all of which retail for less than $1,000.
 1997-06 | Plugged In | Dan Ablan | That Special Glow. From glowing-hot logos to the shimmering halos of heavenly creatures, Gaffer, Worley Lab's latest release for LightWave, lets animators pull out all the stops when creating shadows and light effects.
 1997-06 | Plug-ins on the Side | Gretchen J. Bay | We've rounded up five exciting new plug-ins for 3D Studio MAX, Softimage, and Photoshop that can add flare and finesse to your next design project.
-1997-06 | Lighting 3D Cinematically. | Don Schaab and Robert Nederhorst | Lighting is a critical part of any 3D scene, but the principles of lighting have been around a lot longer than any software package you may have. Take a look at some of the tried-and-true lighting concepts pioneered by the folks in the film industry, and see how things done in the movies apply to the computer screen. 
+1997-06 | Lighting 3D Cinematically. | Don Schaab and Robert Nederhorst | Lighting is a critical part of any 3D scene, but the principles of lighting have been around a lot longer than any software package you may have. Take a look at some of the tried-and-true lighting concepts pioneered by the folks in the film industry, and see how things done in the movies apply to the computer screen.
 1997-06 | Try to Maintain | Chris Tome | Managing all the resources for your creative endeavors can be a daunting task at best, particularly when they're stored in that silicon-based repository on your desk. Here are some helpful (and, of course, free) solutions to help you organize the plethora of files, data types, and projects cluttering up your hard drive.
+1997-08  | Big Kahuna Awards 1997    | Kelly Dove  | Coverage of the *3D Design* Conference’s inaugural “Big Kahuna” award winners for 1997 – showcasing the year’s most outstanding 3D design projects and innovators.
+1997-10  | Let Bones Be the Backbone: Animation in Imagine | John Jackman | A practical look at character animation in Imagine 3D software, focusing on using bone structures to drive complex animations and bring 3D characters to life.
+1998-08  | The Best 3D of the Year: Big Kahuna Winners 1998 | Kelly Dove | An overview of the top 3D projects of 1998, honoring the winners of the 2nd annual Big Kahuna Awards. This feature celebrates the year’s most impressive work in 3D modeling, animation, and visual effects. |
+1999-04  | Wing Commander – From CD to Silver Screen | *Undisclosed* | “Digital Anvil’s popular computer game **Wing Commander** is winging its way to the big screen – join us behind the scenes as we look at the transition from desktop to feature film.” (Behind-the-scenes on the making of the **Wing Commander** movie’s CGI effects.)
+1999-04  | Don’t Bug Out!** *(Animating Arthropods in 3D Studio MAX)* | Undisclosed | Techniques for bringing creepy-crawlies to life: this tutorial-style article explains how to realistically model and animate insects and other arthropods using **3D Studio MAX**, from wing flaps to skittering legs (as hinted by the cover tagline).
+
+
 
 ---
 ## Computer Graphics World (USA)
@@ -507,13 +516,13 @@ Issue | Title | Author | Description
  <div markdown="1" class="rr-post-markdown">
 Computer Graphics World (CGW) is one of the longest running magazines dedicated to computer graphics, published initially in the late 70s right up to the present day (2022+).
 
-One of the good things about **CGW** is that they have articles from each issue available on their web page, going all the way back to 1999. 
-   
+One of the good things about **CGW** is that they have articles from each issue available on their web page, going all the way back to 1999.
+
    However one of the bad things is that they seem to **actively take down** PDFs of pre-1999 issues from sites such as Archive.org. This really is a shame as they are one of the best resources to see the state of the art in 3D graphics at a particular point in time.
 
 Since this website is dedicated to real-time applications of computer graphics the most useful years are from the 90s onwards when colourful 2D and 3D graphics become possible on consumer hardware.
  </div>
-</section> 
+</section>
 
 
 The magazine is formed of 80+ pages of content, some of which are adverts (interesting CG tool adverts however!) and the following main content sections:
@@ -538,29 +547,29 @@ Issue | Title | Author | Notes
 1991-05 | 3D from the Ground Up | Unknown | Might have interesting technical details
 1991-06 | Algorithmic Advancements | Peter Sorensen | These algorithms influenced CG and game developers
 1991-10 | Painting in 3D | Barbara Robertson | Early 3D painting technology
-1992-03 | Virtual Reality | Arielle Emmett | 
+1992-03 | Virtual Reality | Arielle Emmett |
 1992-03 | Multimedia Development | Unknown | Games are multimedia so might be an interesting article for a 1992 perspective
 1992-05 | Let the Games Begin | Diana Phillips Mahoney |
 1992-05 | The market for virtual reality | Unknown | Early VR tech
 1992-07 | SIGGRAPH '92 Preview | Unknown | Would be good to see what was shown at SIGGRAPH 1992
 1992-11 | Modeling Made Easy | Caren D. Potter |
 1992-12 | Galactic Graphics | Patricia Barnes-Svarney |
-1993-01 | Prime-Time Proving Ground for 3D Graphics | Barbara Robertson |  
-1993-06 | Kicking the Tires of VR Software | Louis M. Brill | 
-1993-07 | Hell-Bent on Adventure | Gaye L. Graves | 
-1993-08 | The Amiga: Is it Time You Took a Second Look? | Rick Cook | 
-1993-09 | Terrain Modeling | Laura Lang | 
-1993-10 | Evaluating 3D on the High End | Tim Forcade | 
-1993-12 | The Games People Play | Laureen Belleville | 
-1994-09 | Interacting With the Gods | T. Reveaux | 
-1994-10 | Inside the Game Developer's Toolbox | D. Coco | 
-1994-11 | Exploring the Options Beyond 3D Studio | D. Pope | 
-1994-12 | Fresh Paint: Like word processing, page-layout, and image-editing programs, 3D painting software-which enables artists to paint texture maps directly and interactively onto 3D models-is one of those technologies that seems impossible to imagine ever having been without | B. Robertson | 
-1995-02 | 3D conquers the PC | Donna Coco | 
-1995-04 | User Snapshots - Animations help sell cereal. Creating cartoon characters for new CD-ROM game. | Unknown | 
-1995-05 | Driving VR | Diana Phillips Mahoney | 
-1995-05 | Plug-Ins Electrify 3D Studio | Barbara Robertson | 
-1995-05 | Model Shop - Designing a watch with Alias Studio | Unknown | 
+1993-01 | Prime-Time Proving Ground for 3D Graphics | Barbara Robertson |
+1993-06 | Kicking the Tires of VR Software | Louis M. Brill |
+1993-07 | Hell-Bent on Adventure | Gaye L. Graves |
+1993-08 | The Amiga: Is it Time You Took a Second Look? | Rick Cook |
+1993-09 | Terrain Modeling | Laura Lang |
+1993-10 | Evaluating 3D on the High End | Tim Forcade |
+1993-12 | The Games People Play | Laureen Belleville |
+1994-09 | Interacting With the Gods | T. Reveaux |
+1994-10 | Inside the Game Developer's Toolbox | D. Coco |
+1994-11 | Exploring the Options Beyond 3D Studio | D. Pope |
+1994-12 | Fresh Paint: Like word processing, page-layout, and image-editing programs, 3D painting software-which enables artists to paint texture maps directly and interactively onto 3D models-is one of those technologies that seems impossible to imagine ever having been without | B. Robertson |
+1995-02 | 3D conquers the PC | Donna Coco |
+1995-04 | User Snapshots - Animations help sell cereal. Creating cartoon characters for new CD-ROM game. | Unknown |
+1995-05 | Driving VR | Diana Phillips Mahoney |
+1995-05 | Plug-Ins Electrify 3D Studio | Barbara Robertson |
+1995-05 | Model Shop - Designing a watch with Alias Studio | Unknown |
 1995-12 | Real-Time 3D Games Take Off | Donna Coco | [CGW: Feature: Real-Time 3D Games Take Off (12.95)](https://web.archive.org/web/19970617220208/http://www.cgw.com/cgw/Archives/1995/12/12stry1.html)
 1995-12 | Capturing Motion | George Maestri | Only in Physical Magazine
 1995-12 | Architecture for the Fun of It | Diana Phillips Mahoney | Only in Physical Magazine
@@ -568,7 +577,7 @@ Issue | Title | Author | Notes
 1996-03 | Graphics for Games - Workstation | Laureen Belleville | [CGW: Products: Graphics for Games - Workstation (03.96)](https://web.archive.org/web/19961207184103/http://www.cgw.com/cgw/Archives/1996/03/03prod2_02.html)
 1996-04 | A Window of Opportunity? | George Maestri | Takes a look at the three Windows NT compatible 3D animation suites (Softimage, Lightwave and 3DS Max)
 1996-12 | New Tools for 3D Gamers | Donna Coco | [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
-2006-12 | Middle Ground - The use of third-party middleware within the entertainment realm is expanding | Michael Arrington | 
+2006-12 | Middle Ground - The use of third-party middleware within the entertainment realm is expanding | Michael Arrington |
 
 
 ---
@@ -602,10 +611,10 @@ Issue | Article Title
 
  <div markdown="1" class="rr-post-markdown">
 **Computer Arts** was a popular UK magazine dedicated to 2D and 3D creation on PC/Mac, it contained a wealth of information related to asset creation for game development.
-   
+
 It lasted 305 issues before the pandemic in 2020 stopped production of the magazine, if you can find back issues of this magazines they are well worth picking up [^1].
  </div>
-</section> 
+</section>
 
 
 ### Computer Arts Issues
@@ -623,7 +632,7 @@ Number | Date | Title
 8 | 1997-07 | Increase your Photoshop Skills
 9 | 1997-09 | Develop your 3D Skills with Extreme 3D
 10 | 1997-10 | Compositing with xRes
-13 | 1997-Winter | 
+13 | 1997-Winter |
 121 | 2006-04 | Design Hotspots
 122 | 2006-05 | The Money Issue
 123 | 2006-06 | 50 Ways to Become a Better Designer
@@ -635,40 +644,40 @@ Number | Date | Title
 141 | 2007-10 | The Inspiration Issue - Young Guns
 143 | 2007-12 | Logo Secrets
 148 | 2008-05 |
-150 | 2008-07 | 
-151 | 2008-08 | 
-152 | 2008-Summer | 
-153 | 2008-09 | 
-154 | 2008-10 | 
-155 | 2008-11 | 
-156 | 2008-12 | 
-157 | 2009-01 | 
+150 | 2008-07 |
+151 | 2008-08 |
+152 | 2008-Summer |
+153 | 2008-09 |
+154 | 2008-10 |
+155 | 2008-11 |
+156 | 2008-12 |
+157 | 2009-01 |
 162 | 2009-06 |
-168 | 2009-11 | 
-172 | 2010-03 | 
-173 | 2010-04 | 
-175 | 2010-06 | 
-177 | 2010-08 | 
-178 | 2010-Summer | 
-179 | 2010-09 | 
-180 | 2010-10 | 
-181 | 2010-11 | 
-182 | 2010-12 | 
+168 | 2009-11 |
+172 | 2010-03 |
+173 | 2010-04 |
+175 | 2010-06 |
+177 | 2010-08 |
+178 | 2010-Summer |
+179 | 2010-09 |
+180 | 2010-10 |
+181 | 2010-11 |
+182 | 2010-12 |
 
 ### Free Book Extracts
 The accompanying CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
 
 Issue | Book Name | Notes
 ---|---|---
-130 | Reinventing Music Video | 
-130 | Advertising is Dead: Long live Advertising | 
+130 | Reinventing Music Video |
+130 | Advertising is Dead: Long live Advertising |
 137 | ESSENCE: The Face | Chapter on simulating tissue damage for Face Textures by Paul Fedor. Pages 142-150
 137 | Character Animation: 2D Skills for Better 3D | Extract for taking a 2D Dog walking animation and turning it into a 3D animation. Pages 152-157
 137 | Sticker City: Paper Graffiti Art | Pages 118-119, 130-131, 142-143, 147-147
 140 | Adobe Photoshop CS3 One-on-One | Pages 302-355 but it's missing the actual images!!
 140 | Painter X Creativity: Digital Artists Handbook | Pages 19-34 and 229-248
-141 | EXPOSE 5 | 
-141 | Secrets of Digital Illustration |  
+141 | EXPOSE 5 |
+141 | Secrets of Digital Illustration |
 143 | Choosing and Using Paper | Book by RotoVision, free pages 0-21
 143 | How to Cheat in Adobe Flash | Pages 2-5 and page 33
 143 | The Adobe photoshop Layers Book | Pages 1-5
@@ -683,39 +692,39 @@ Issue | Free Resource | Notes
 1 | Adobe Premiere 4.0 | Save disabled version of the movie editor
 1 | Calamus 95 | Windows 95 version of the popular Atari ST Desktop Publishing (DTP) package, save-disabled demo version
 1 | Photoshop 3.0 | Fully featured demo version of photoshop but save is disabled
-121 | 50 photoshop plugins for Digital Darkroom | 
-121 | Pentagram documentary | 
-121 | Lynda.com Dreamweaver 8 Essential Training | 
-121 | 50 iStockphoto images | 
-121 | 16 Typephases fonts | 
+121 | 50 photoshop plugins for Digital Darkroom |
+121 | Pentagram documentary |
+121 | Lynda.com Dreamweaver 8 Essential Training |
+121 | 50 iStockphoto images |
+121 | 16 Typephases fonts |
 122 | MyPictureMarc | Freeware
-122 | Lynda.com Flash 8 Professional Essential Training | 
-122 | 4 Fontoville fonts | 
-122 | 3 Media Artist Secrets podcasts | 
+122 | Lynda.com Flash 8 Professional Essential Training |
+122 | 4 Fontoville fonts |
+122 | 3 Media Artist Secrets podcasts |
 123 | Maxdox Mobile Publisher Personal Edition | Freeware mobile publishing software
 123 | 5 ShowStoppersFX motion backgrounds | 5 Royalty-free videos
-123 | Lynda.com After Effects 6 Essential Training | 
+123 | Lynda.com After Effects 6 Essential Training |
 123 | 30 PhotoObjects images | 30 Royalty free images used in the tutorial for Adobe Bridge
 123 | Issue 100 PDF | PDF for each page of the 100th Issue of Computer Arts
-130 | 50 Fotolia images | 
-130 | The Designer Series Three: Studio Output | 
-130 | Lynda.com Illustrator CS2 and Flash 8 Integration training | 
-130 | 10 Icon Republic icons | 
+130 | 50 Fotolia images |
+130 | The Designer Series Three: Studio Output |
+130 | Lynda.com Illustrator CS2 and Flash 8 Integration training |
+130 | 10 Icon Republic icons |
 130 | Jeremyville videos |
 136 | Issue 113 PDF | PDF for each page of the 113 Issue of Computer Arts from September 2005
-136 | 100 royalty-free Fotolia images | 
-136 | Ten Project Dogwaffle tutorials | 
-136 | Lynda.com After Effects 7 Essential Training | 
+136 | 100 royalty-free Fotolia images |
+136 | Ten Project Dogwaffle tutorials |
+136 | Lynda.com After Effects 7 Essential Training |
 137 | Issue 114 PDF | PDF for each page of the 114 Issue of Computer Arts from October 2005
 137 | Lynda.com Flash CS3 Professional Essential Training | 1 hour 13 minutes of content (chapters 2-4) from Lynda.com's 8 hour Flash training course [Flash CS3 Professional Essential Training - lynda.com Online Training Library®](https://web.archive.org/web/20071228024218/http://movielibrary.lynda.com/html/modPage.asp?ID=353)
 137 | FlashVillage.com Flash Template | Free Television Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | FlashVillage.com Flash Template | Orbital Template, this was also free on their website: [FlashVillage.com - FREE Flash Templates](https://web.archive.org/web/20071226055701/http://www.flashvillage.com/)
 140 | Issue 117 PDFs | PDF for each page of the 114 Issue of Computer Arts from Christmas 2005
 140 | Lynda.com Adobe Photoshop CS3 One-on-One: Advanced Techniques |  1 hour of content from Smart Objects (chapter 21) of the 9.5 hour training course
-141 | 26 Diomedia royalty-free photos | 
-141 | CG Wallpapers | 
+141 | 26 Diomedia royalty-free photos |
+141 | CG Wallpapers |
 141 | Issue 118 PDF | PDF for each page of the 118th Issue of Computer Arts
-141 | Lynda.com Actionscript in Flash CS3 professional Essential Training | 
+141 | Lynda.com Actionscript in Flash CS3 professional Essential Training |
 143 | Free CG Wallpapers | 4 Desktop Wallpapers from CGWallpapers.com in different resolutions
 143 | Issue 120 PDF | PDF for each page of the 120th Issue of Computer Arts
 143 | 50 Free Fonts | Free Fonts available on the web from: ultimatefontdownload.com, haroldsfonts.com, iconian.com, larabiefonts.com
@@ -735,11 +744,11 @@ Issue | Free Product | Notes
 1 | Picture Publisher 3.1 | 2D Image editor by MicroGrafx
 1 | WinImages: Morph V1 | Tool by Black Belt that allows you to morph a 2D image into an animation as a standard .AVI movie or .FLC file that can be played with **AAPLAY**
 1 | Imagine 3.0 | Complete 3D program worth £500
-121 | Shade 7 Designer LE | 
+121 | Shade 7 Designer LE |
 122 | Carrara Studio 2.1 |
-122 | TaxCalc Lite | 
+122 | TaxCalc Lite |
 123 | Cleanerzoomer 1.0.1 | PC only, removes artifacts from images
-136 | Bryce 5.0 | 
+136 | Bryce 5.0 |
 
 ---
 ## Cre@teOnline Magazine
@@ -773,7 +782,7 @@ Issue Number | Focus of Issue
 The most relevant to this site are the games and flash issues, giving an insight into what it was like developing games for the web back in the early 2000s.
 
  </div>
-</section> 
+</section>
 
 ---
 ## Web Designer Magazine (UK)
@@ -785,14 +794,14 @@ Web Designer Magazine was a popular UK magazine purely dedicated to Web developm
 
 It was initially published by **Highbury House** until they went into receivership on January 20th 2006 where it was bought by Imagine Publishing, which eventually it was sold to Future Publishing and then discontinued at issue 293 [confirmation required].
  </div>
-</section> 
+</section>
 
 
 ### Total-Web-Design
 Strangely for a magazine dedicated to Web Development, there was no website for the magazine or even its sister title **Practical Web Projects**. This changed in mid-late 2004 when they bought the domain **www.Total-Web-Design.com** to represent both magazines.
 
-Web Designer issue number 97 (from August 2004) had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website which you can view here: 
-[Total Web Design](https://web.archive.org/web/20040730202310/http://www.total-web-design.com/) 
+Web Designer issue number 97 (from August 2004) had a behind the scenes look at the creation of the website, Luckily the Wayback machine has an archive of the website which you can view here:
+[Total Web Design](https://web.archive.org/web/20040730202310/http://www.total-web-design.com/)
 
 ### Editors
 It was edited by Thomas Watson from the rename of Practical Internet in 2003 until issue 101 where it was taken over by **Mark Hattersley** in issue 104. Issue 102-103 did not have a named editor and was simply signed off by **The Web Designer Team**.
@@ -830,7 +839,7 @@ Number | Date | Title
 
 
 ## WD Game Related Tutorials
-The magazine had plenty of interesting web programming and graphic creation content, but as the focus of this site is on games development here is a list of the Game related tutorials. 
+The magazine had plenty of interesting web programming and graphic creation content, but as the focus of this site is on games development here is a list of the Game related tutorials.
 
 Most of these are for Flash game development but there are also a few Pixel Art tutorials for photoshop mixed in for good measure.
 
@@ -839,7 +848,7 @@ Issue # | Category | Author | Title
 95 | Flash | Lee Groombridge | Create a cool games console interface
 95 | Flash | Robert Firebaugh | Learn how to animate characters in flash
 95 | Flash | Mark Shufflebottom | Create an intro animation with Flash MX 2004
-96 | Photoshop | Andy Stewart | Create A Perfect Pixel Art House In Photoshop 
+96 | Photoshop | Andy Stewart | Create A Perfect Pixel Art House In Photoshop
 96 | Photoshop | Zooey Ball | Build An Animated Pixel Art Cityscape
 97 | Flash | Darren Richardson | Create an interactive animated flash quiz
 101 | Flash | Mark Shufflebottom | Create a stunning flash animation with Swift 3D
@@ -849,7 +858,7 @@ Web Designer issue 101 also had a behind the scenes look at the website for **My
 ---
 ## Web Techniques
 ![Web Techniques Cover](https://github.com/user-attachments/assets/b6ff3f03-aacc-4817-a1f5-c7bc56d6d66b)
-**Web Techniques** was a US magazine that started in February 1996 and ran until February 2002 when it rebranded as **New Architect**. 
+**Web Techniques** was a US magazine that started in February 1996 and ran until February 2002 when it rebranded as **New Architect**.
 
 ### Relevant Articles
 
@@ -886,13 +895,13 @@ PC magazine called itself "the independent guide to IBM-standard personal comput
 Issue # | Title | Author | Notes
 ---|---|---|---
 VOL 13; NUMBER 21 (1994) | Power Programming: Real Games for Windows | Thielen, D | Not available online
-VOL 15; NUMBER 14 (1996) | Power Programming: Using Microsoft's high-speed Direct Draw API in an arcade-style action game | Grell, G. | 
+VOL 15; NUMBER 14 (1996) | Power Programming: Using Microsoft's high-speed Direct Draw API in an arcade-style action game | Grell, G. |
 
 ## PC Plus
 
 Issue # | Title | Author | Notes
 ---|---|---|---
-ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN | 
+ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN |
 
 
 ---

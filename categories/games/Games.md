@@ -1,6 +1,6 @@
 ---
 permalink: /games/
-layout: blog-cards
+layout: post
 console: games
 breadcrumbs:
   - name: Home

@@ -75,57 +75,11 @@ The first ever Unity developer conference **Unite** was held in the two days bet
 ## Game Maker
 Game Maker is a popular 2D game development tool originally called **Animo** and developed by Professor **Mark Overmars**.
 
-Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
+Version 1.0 was built some time in 1998-1999 and never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
 
-Early versions of game maker (1.0->?) exported games in .gmr format that required the **Game Maker Runner** to execute, later versions allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
+We have so much content on Game Maker that we had to split this section out into its **own post** you can find it below:
+{% include link-to-other-post.html post="/game-maker" description="For more information about the Game Maker check out this post." %}
 
-Development History:
-* 2003 - Game Maker was written in Delphi (version 5), The IDE was slightly over 25,000 lines of code in 2003 with the runner part similar in size [^5].
-* 2004 - Delphi version 7. The IDE source code is now over 40.000 lines of code. The source code for the runner part is similar in size [^6]
-
-It was later rewritten by YoYoGames with the runner now being written in C++.
-
-
-Key milestones include:
-* **Version 1.0** - Never released to the public (Called Animo)
-* **Version 1.1** - First public version of Game Maker (15th November 1999)
-* **Version 1.2**
-* **Version 1.3** - Added support for larger images and importing/exporting games (7th January 2000) [^3]
-* **Version 2.0** - Added DirectSound support, added object depth support (8th September 2000)
-* **Version 3.0** - Full Screen DirectX support and new Game Maker File (*.gmf) format (Beta release on 6th November 2000 then final on 23rd November 2000)
-* **Version 3.1** - DirectX in windowed mode and removal of Exclusive mode
-* **Version 3.2** - New room options have been added: more background options, multiple views, and transitions between rooms (27th January 27 2001)
-* **Version 3.3** - (4th April 2001)
-* **Version 4.0** - Complete rewrite that was not backwards compatible - logo changed from blue to red to signify this change (16th July 2001)
-* **Version 4.1** - (12th January 2002)
-* **Version 4.2** - (9th May 2002)
-* **Version 4.3** - (18th November 2002)
-* **Version 4.3a** - Bugfix release for 4.3 (25th November 2002)
-* **Version 5.0** - (12th April 2003)
-* **Version 5.1** - (14th September 2003)
-* **Version 5.2** - (15th December 2003)
-* **Version 6.0** - (2nd October 2004)
-
-Mark Overmars also released some companion software to Game Maker:
-* **Background Maker 1.0** - Tool for combining tiles into a single background image (7th December 2000)
-* **Image Maker 1.0** - Tool for creating animated gifs for Game Maker
-* **Child Proof 1.0** - Sandbox environment for children using PCs
-
-### Game Maker Community
-One of the strongest parts of Game Maker was its community, first started on 9th November 2000 and simply called **Game Maker Forum** (gamemaking.community.everyone.net)[^4].
-
-Key milestones for the GMC:
-
-Image | Host | Description
----|---|---|
-None | gamemaking.community.everyone.net | Single board simply called **Game Maker Forum**
- ![pub58.ezboard.com/bgamemakercommunity](https://github.com/user-attachments/assets/b1938ad5-2496-4ef3-93e2-1aceb8ce07fd) | pub58.ezboard.com/bgamemakercommunity | It then moved to EZboard on the 16th March 2001
-![gmcommunity.edgehost.com](https://github.com/user-attachments/assets/c4198059-b7a2-45a8-add1-34cfc864edaf) | gmcommunity.edgehost.com/forums/ | Invision Power Board v 1.1 on 6th October 2002 but it only lasted until 8th January 2003 due to server problems (so they went back to Ezboard).
-![forums.gamemaker.nl](https://github.com/user-attachments/assets/6483e04f-d798-4213-9de0-91e2c6046968) | forums.gamemaker.nl | Started on 26th October 2003 another self-hosted Invision Power Board v1.3 this one was much more successful and they never went back to Ezboard
-![gmc.yoyogames.com](https://github.com/user-attachments/assets/7554b893-b65a-4da0-b032-b9ed6ac79f14) | gmc.yoyogames.com | Started 8th May 2007
-
-
-The Game Maker Community has now lasted over 25 years!
 
 ---
 # Game Engines by Platform
@@ -160,7 +114,4 @@ It was used by **Delphine Software** in the **Moto Racer** series to great succe
 # References
 [^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
 [^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
-[^3]: [Game Maker 1.3](https://web.archive.org/web/20000229113403/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
-[^4]: [Game Maker Pages](https://web.archive.org/web/20001110011300/http://www.cs.uu.nl/people/markov/kids/gmaker/index.html)
-[^5]: [Game Maker History](https://web.archive.org/web/20021212194534if_/http://www.cs.uu.nl/people/markov/gmaker/history.html)
-[^6]: [Game Maker Facts](https://web.archive.org/web/20041012165649if_/http://www.cs.uu.nl/people/markov/gmaker/facts.html)
+
