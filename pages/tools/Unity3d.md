@@ -28,6 +28,8 @@ Unity 1.x represents the earliest iterations of the Unity game engine, laying th
 Below is a version-by-version breakdown of major changes in Unity 1.0 through 1.6, focusing on engine-level features, Editor UI/UX enhancements, and other developer-facing improvements.
 
 ## Unity 1.0 (June 2005) – Initial Launch on Mac OS X
+![Unity 1.0](https://github.com/user-attachments/assets/ba40f015-1774-486f-bf97-25a33a63684f)
+
 - **Platform Support:** Unity 1.0 launched as a Mac OS X-exclusive engine, with the Unity Editor running only on Mac. It could publish games as standalone Mac OS X applications, as web-embedded applets (via a Mac-only browser plugin), or even as Dashboard Widgets for OS X Tiger [^1] [^2]. (At release, there was **no ability to build Windows executables** – that came later with Unity 1.1 [^2].)
 - **Editor and Workflow:** Unity’s design was *editor-first* with a focus on ease of use. The Editor featured a GUI reminiscent of familiar content-creation tools (inspired by apps like Photoshop/Final Cut) to allow drag-and-drop asset import and WYSIWYG scene editing (“What You See Is What You Play” real-time preview) [^3]. This approach – editing in a unified viewport with immediate play testing – set Unity apart from other engines of the time which often lacked an integrated editor.
 - **Scripting:** Unity 1.0 included an embedded **Mono runtime**, supporting **C# 1.1** and a custom JavaScript-like language (UnityScript) for game scripting [^1]. (Support for a Python-inspired language called **Boo** was also available in early Unity for .NET enthusiasts [^4].) Scripts were component-based and attached to GameObjects in the Editor. Developers could quickly iterate on gameplay using these high-level languages, which was a major selling point.
