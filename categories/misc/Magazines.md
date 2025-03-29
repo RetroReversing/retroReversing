@@ -464,12 +464,31 @@ Web Desginer | UK magazine from 2004 until ?
 .net | UK magazine published until May 2020
 
 ---
-## 3D Design Magazine (USA) (1994?-1999)
-**3D Design** was a magazine published in the USA by Miller Freeman, we are unsure when it started (1994?) but it changed its name to just **3D** in the July 1999 issue.
-
+## 3D Design Magazine (USA) (1995?-1999)
 ![3D Design Vol 5 Issue 4 - April 1999 ](https://github.com/user-attachments/assets/fef02646-f3d2-41a7-a468-6109fb25e091)
+3D Design was a US magazine devoted to 3D graphics and design, published by **Miller Freeman** in San Francisco. It launched around 1995, with Allison Arden credited as its National Sales Manager who helped start the magazine and its website in 1995​ [^6]. 
 
-They also hosted an event called the **3D Design Conference & Exhibition** in 1997 and 1998 including what they called the **Big Kahuna Awards Ceremony**.
+It was typically issued monthly for example, Volume 2, No. 9 corresponds to September 1996​ but it is unclear when the first issue was published.
+
+In mid-1999, Miller Freeman announced that 3D Design would be rebranded as simply “3D” – the change took effect with the July 1999 issue​. 
+
+After a brief run under the name 3D, the publication was eventually closed by **CMP Media** (which by then owned Miller Freeman’s titles) around late 1999 or 2000​ [^7].
+
+### Editorial Team
+The magazine’s editorial team included industry veterans. Ted Greenwald served as an early Editor-in-Chief, and Kelly Dove was Senior Editor from 1995 to 1998 (later becoming Editor-in-Chief)​ [^8].
+
+Under their direction, 3D Design focused on the rapidly evolving field of 3D graphics. Technical editor Bill McCloskey, for example, wrote a monthly column on emerging web-3D technologies – he was among the first to cover VRML (Virtual Reality Modeling Language) for the Web​ [^9].
+
+Other columnists and contributors (like Barry Fox, who also served as a technical editor) kept readers informed on cutting-edge tools such as VRML, 3D web animation, and hardware acceleration.
+
+
+
+### 3D Design Conference & Exhibition
+
+They also hosted an event called the **3D Design Conference & Exhibition** in 1996 to at least 1998 including what they called the **Big Kahuna Awards Ceremony**.
+In 1998 it took place on the 19th-22nd of May at the Moscone Center in San Francisco and is credited as the third event which presumably means it started in 1996 [^8].
+
+### Issue Contents
 
 Issue | Title | Author | Description
 ---|---|---|---
@@ -884,4 +903,7 @@ ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of usefu
 [^3]: Edge File Volume 1 Bookazine (2006)
 [^4]: [Volume 1 of JCGD](https://www.erasmatazz.com/library/the-journal-of-computer/jcgd-volume-1/jcgd-volume-1-1-junejuly.html)
 [^5]: [Create Online at Wayback Machine](https://web.archive.org/web/20030327071600/http://createonline.co.uk/)
-
+[^6]: [Allison Arden - AAF](https://www.aaf.org/Public/Public/Bios/AHOA_Members/A-B/Arden_Allison.aspx#)
+[^7]: [SRDS. - Free Online Library](https://www.thefreelibrary.com/SRDS.-a067316906#)
+[^8]: [Computer underground Digest Sun May 17, 1998 Volume 10 : Issue 30](https://gopherproxy.meulie.net/srcr.nl/0/CuD/cud1030.txt#)
+[^9]: [My Life as an Email Entrepreneur: My Final Article. - Only Influencers](https://www.onlyinfluencers.com/email-marketing-blog-posts/best-practice-email-strategy/entry/my-life-as-an-email-entrepreneur-my-final-article#)
