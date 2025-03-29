@@ -5,7 +5,6 @@ tags:
 - middleware
 title: Game Maker - History and Technology behind the engine
 thumbnail: /public/images/RetroReversingLogoSmall.png
-image: /public/images/RetroReversingLogoSmall.png
 permalink: /game-maker
 breadcrumbs:
   - name: Home

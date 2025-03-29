@@ -6,7 +6,6 @@ tags:
 - unity3d
 title: Unity3d - History and Technology behind the engine
 thumbnail: /public/images/RetroReversingLogoSmall.png
-image: /public/images/RetroReversingLogoSmall.png
 permalink: /unity3d
 breadcrumbs:
   - name: Home
