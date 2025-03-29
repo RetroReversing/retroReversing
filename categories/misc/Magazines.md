@@ -447,24 +447,24 @@ Issue Number | Interview Name | Description |
 # Creative Magazines
 Creative Magazines related to topics such as art/3d graphics and even web development are just as valuable a source as gaming magazines for the time as they would often talk about industry events and software that were often used by game developers.
 
-Title | Notes
----|---
-3D Artist | UK magazine published by Imagine Publishing from 2009 until December 2019
-3D Design | US Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
-3D World | Global magazine from ? and still going today
-Computer Artist | USA magazine From 1994 until at least 1997 published by PennWell Publishing Company
-Computer Arts | UK magazine from 1995 until 2020 but was also published globally
-Computer Graphics World | USA magazine from 1977 until 2022 published by PennWell Publishing Company
-Cre@teOnline | UK Magazine from 2000 until ?
-Digit | UK magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
-Digital Arts | UK magazine
-Linux User & Developer | UK magazine that was published for 19 years and reached issue 196
-Photoshop Creative | until September 2018
-Web Desginer | UK magazine from 2004 until ?
-.net | UK magazine published until May 2020
+Title | Country | ISSN | Notes
+---|---|---|---
+3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
+3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
+3D World | Global | |  magazine from ? and still going today
+Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
+Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
+Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
+Cre@teOnline | UK | | Magazine from 2000 until ?
+Digit | UK | | magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
+Digital Arts | UK | | magazine
+Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
+Photoshop Creative | UK | | Published until September 2018
+Web Desginer | UK | |  magazine from 2004 until ?
+.net | UK | | magazine published until May 2020
 
 ---
-## 3D Design Magazine (USA) (1995?-1999)
+## 3D Design Magazine (USA) (1995-2000) (ISSN 1083-5288)
 ![3D Design Vol 5 Issue 4 - April 1999 ](https://github.com/user-attachments/assets/fef02646-f3d2-41a7-a468-6109fb25e091)
 3D Design was a US magazine devoted to 3D graphics and design, published by **Miller Freeman** in San Francisco. It launched around 1995, with Allison Arden credited as its National Sales Manager who helped start the magazine and its website in 1995​ [^6]. 
 
@@ -481,9 +481,8 @@ Under their direction, 3D Design focused on the rapidly evolving field of 3D gra
 
 Other columnists and contributors (like Barry Fox, who also served as a technical editor) kept readers informed on cutting-edge tools such as VRML, 3D web animation, and hardware acceleration.
 
-
-
 ### 3D Design Conference & Exhibition
+![3DShow 1997](https://github.com/user-attachments/assets/eb5b7b33-88ab-42cb-a6e1-3962986fc74f)
 
 They also hosted an event called the **3D Design Conference & Exhibition** in 1996 to at least 1998 including what they called the **Big Kahuna Awards Ceremony**.
 In 1998 it took place on the 19th-22nd of May at the Moscone Center in San Francisco and is credited as the third event which presumably means it started in 1996 [^8].
