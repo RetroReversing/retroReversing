@@ -20,7 +20,7 @@ recommend:
 - sdk
 - psp
 editlink: /consoles/psp/SnSystemsProDGforPSP.md
-updatedAt: '2021-03-26'
+updatedAt: '2025-04-04'
 ---
 
 # Introduction 
@@ -35,7 +35,7 @@ Although SN Systems were later bought by Sony in 2005, the 2004 version of the S
 The SN Systems ProDG tools were later incorporated into the official Sony PSP SDK, the first version that did this is unknown but it was present in the 6.6.0 release from 2011.
 
 ## What was contained in the SDK?
-The SDK contained the SN Systems Compilers (SNC C/C++), which unlike their previous SDKs, was a new compiler toolchain not based on GCC. It was optimized specifically for the handheld’s CPU architecture, allowing it to generate faster assembly code compared to Sony’s standard SDK.
+The SDK contained the SN Systems Compilers (SNC C/C++), which unlike their previous SDKs, was a new compiler toolchain not based on GCC. It was optimized specifically for the handheld's CPU architecture, allowing it to generate faster assembly code compared to Sony's standard SDK.
 
 The SDK contained a few main parts:
 * **ProDG Tuner** (TunerforPSPv1.6.0.exe) - Game optimization
