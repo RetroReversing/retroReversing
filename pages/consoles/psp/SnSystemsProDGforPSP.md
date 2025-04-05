@@ -20,7 +20,7 @@ recommend:
 - sdk
 - psp
 editlink: /consoles/psp/SnSystemsProDGforPSP.md
-updatedAt: '2021-03-26'
+updatedAt: '2025-04-04'
 ---
 
 # Introduction 
@@ -35,7 +35,7 @@ Although SN Systems were later bought by Sony in 2005, the 2004 version of the S
 The SN Systems ProDG tools were later incorporated into the official Sony PSP SDK, the first version that did this is unknown but it was present in the 6.6.0 release from 2011.
 
 ## What was contained in the SDK?
-The SDK contained the SN Systems Compilers (SNC C/C++) which were optimised specifically for the handheld's cpu architecture, allowing faster assembly code to be generated compared to Sony's standard SDK.
+The SDK contained the SN Systems Compilers (SNC C/C++), which unlike their previous SDKs, was a new compiler toolchain not based on GCC. It was optimized specifically for the handheld's CPU architecture, allowing it to generate faster assembly code compared to Sony's standard SDK.
 
 The SDK contained a few main parts:
 * **ProDG Tuner** (TunerforPSPv1.6.0.exe) - Game optimization
@@ -167,27 +167,25 @@ File Name | Extension | Description
 ---|---|---
 BlankElf | .exe | BlankElf version 1.2 used for submitting bug reports to SN Systems without leaking code
 PSPDebugger | .exe | Connects to the PSP development hardware and allows breakpoints and memory editing
-demangle | .dll | 
+demangle | .dll | SN style symbol demangling library, used in snbin's --dem option
 make | .exe | GNU Make 3.80 SN Build 1.17
 pspas | .exe | PSP Assembler (pspas 1.1.1737.0 (dev,main @52548 #265261 ))
-pspcfe | .exe | 
-pspcor | .exe | Takes in a .B file
-pspcq | .exe | 
-pspdemangle | .dll | Used in pspname.exe
-pspipa | .exe | 
+pspcfe | .exe | C/C++ Compiler Front End (CFE) parses C/C++ code and emits Intermediate Representation (IR) files for the COR and IPA engines to consume
+pspcor | .exe | Compiler Optimization Runtime? (COR), this is the compiler's backend it consumes pspcfe's generated files, performs the requested optimizations and produces an assembly file for the assembler
+pspcq | .exe | C/C++ Compiler, it runs instead of pspcfe at -O0 and -O1, directly producing assembly files from C/C++ sources
+pspdemangle | .dll | GNUv3 style symbol demangling library, used in pspname.exe
+pspipa | .exe | Compiler IPA (Interprocedural Analysis) backend, used at optimization levels -O4 and -O5
 pspld | .exe | Linker (pspld version 2.7.63.0)
-pspname | .exe | Takes a mangled (compiled) name and demangles it (pspname 1.0.37.0 (dev,main @17121 #37834 ))
+pspname | .exe | Takes a mangled (compiled) name in GNUv3 format and demangles it (pspname 1.0.37.0 (dev,main @17121 #37834 ))
 pspprxgen | .exe | PSP PRX utility - pspprxgen v1.7.174.0
 psprun | .exe | PSP Target Manager Command Line Tool - PSPRUN v1.8.5.0 (Apr 15 2010)
-pspsnc | .exe | The main C/C++ Compiler from SN Systems
+pspsnc | .exe | SN Systems' PSP compiler driver (pspsnc 1.2.7503.0 (dev,main @83716 #346325 ))
 psptm | .exe | The PSP Target Manager GUI
 psptmapi | .dll | PSP Target Manager API DLL
 psptmapix64 | .dll | 64bit version of psptmapi.dll
 sn_autoexp | .dat | 
 snarl | .exe | The SN ARchive Librarian (snarl) follows the same usage as GNU ar (archive for static libraries).
 snbin | .exe | The SN binary utilities program snbin.exe is a tool for manipulating ELF/PRX files and library/archive files.
-
-We are not really sure the purpose of **pspipa.exe**, **pspcfe.exe** or **pspcq.exe**, if you know the purpose of these executables then please let us know.
 
 ### BlankElf - Used to submitting bug reports to SN System
 The purpose of blankelf is to fill the code sections with zero within an ELF file. 
@@ -202,6 +200,7 @@ Features include:
 * Dumping of section headers, symbol tables and program headers
 * Dopying sections to a binary file
 * Renaming sections
+* Demangling SN-styled mangled symbols
 
 ---
 ### PSP Target Manager (psptm.exe)
@@ -520,9 +519,18 @@ However the SDK was still very popular and according to TotalVideoGames.com 20 o
 
 Known games include:
 * Need for Speed games
+* Tales of Phantasia: Narikiri Dungeon X (just the Narikiri Dungeon X game, Phantasia X uses CodeWarrior)
+* Queen's Gate: Spiral Chaos
+* Weiss Schwarz Portable: Boost Weiss
+* Weiss Schwarz Portable: Boost Schwarz
+* Fate/Extra
+* Kamigami no Asobi
+* Baka to Test to Shoukanjuu Portable
 
 ## How do I find out if a game uses the PRODG SDK?
-If you are interested to find out if a certain game used this SDK then you can run the **strings** command on the main game executable.
+The SN compiler toolchain has its own way of calling C++ global constructors, while the GCC based official toolchain makes use of the standard **ctor** section for this purpose, pspsnc uses a custom section called **cplinit** (short for C Plus Init) alongside this a function (called **__snmain**) will be injected into the game's regular **main** function in order to call the constructors inside the section, which makes for an easy way to tell pspsnc was used for a game.
+
+Another way would be to run the **strings** command on the main game executable.
 
 Below is an example of strings that hint at the use of the SN Systems SDK:
 ```
