@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2025-04-05'
+updatedAt: '2025-04-08'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -168,7 +168,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/7/7f/Turok_3_-_Shadow_of_Oblivion_Coverart.png){:width="100"} [Turok 3: Shadow of Oblivion](https://github.com/Drahsid/turok3)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/d/de/Virtual_Pool_64_for_N64%2C_Front_Cover.jpg){:width="100"} [Virtual Pool 64](https://github.com/LLONSIT/virtualpool64)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/7/75/Virtualprowrestling2.jpg){:width="100"} [Virtual Pro Wrestling 2: Ōdō Keishō](https://github.com/aki-club/vpw2)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png){:width="100"} [Wave Race 64](https://github.com/LLONSIT/Wave-Race-64)              | Decompilation | Active, 17% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/e/e6/Wave_Race_64_Coverart.png){:width="100"} [Wave Race 64](https://github.com/LLONSIT/Wave-Race-64)              | Decompilation | Active, 29% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4b/Yoshi%27s_Story.jpg){:width="100"} [Yoshi's Story](https://github.com/decompals/yoshis-story)              | Decompilation | Active, 13% Done |
 
 ---
@@ -216,6 +216,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/e/e3/Kirby%27s_Epic_Yarn_Title.png){:width="100"} [Kirby's Epic Yarn](https://github.com/swiftshine/key)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d6/Mario_Kart_Wii.png){:width="100"} [Mario Kart Wii](https://github.com/riidefi/mkw)              | Decompilation | Inactive, 11% |
 |![](https://upload.wikimedia.org/wikipedia/en/b/b2/Mario_Party_8_NA_Box_Art.png){:width="100"} [Mario Party 8](https://github.com/mariopartyrd/marioparty8)              | Decompilation | Inactive |
+|![](https://upload.wikimedia.org/wikipedia/en/f/f0/Mario_Party_9_US_cover.jpg){:width="100"} [Mario Party 9](https://github.com/mariopartyrd/marioparty9)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/9/94/Pok%C3%A9mon_Battle_Revolution_Coverart.png){:width="100"} [Pokemon Battle Revolution](https://github.com/pret/pokerevo)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3b/Rock_Band_3_Game_Cover.jpg){:width="100"} [Rock_Band_3](https://github.com/DarkRTA/rb3)              | Decompilation | Active, 50% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3b/SonicRiders2.PNG){:width="100"} [Sonic Riders: Zero Gravity](https://github.com/m0ester/SRZGDecomp)              | Decompilation | Active |
@@ -238,7 +239,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 {% include link-to-other-site.html url="https://github.com/3DWCommunity/3dcomp" description="Active, 1% Done" image="https://upload.wikimedia.org/wikipedia/en/5/5e/Super_Mario_3D_World_box_art.jpg" title="A decompilation of Super Mario 3D World + Bowser's Fury"  %}
 
 ### Super Mario Odyssey
-{% include link-to-other-site.html url="https://github.com/MonsterDruide1/OdysseyDecomp" description="Active, 10% Done" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
+{% include link-to-other-site.html url="https://github.com/MonsterDruide1/OdysseyDecomp" description="Active, 11% Done" image="https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg" title="A decompilation of Super Mario Odyssey"  %}
 
 ### The Legend of Zelda: Breath of the Wild
 {% include link-to-other-site.html url="https://github.com/zeldaret/botw" description="Active, 16% Done" image="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg" title="A decompilation of The Legend of Zelda: Breath of the Wild"  %}
@@ -411,11 +412,11 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://sotn.xee.dev/)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, 78% functional |
 |![](https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg){:width="100"} [Crash Bandicoot 2: Cortex Strikes Back](https://github.com/ughman/c2c)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK#CTR-in-C)              | Decompilation | Active, 14% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK)              | Decompilation | Active, 73% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/9c/Croc_Legend_of_the_Gobbos.jpg){:width="100"} [Croc: Legend of the Gobbos](https://github.com/xeeynamo/croc)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | N/A, Fully Playable on PC |
 |![](https://upload.wikimedia.org/wikipedia/en/1/16/Froggercover.png){:width="100"} [Frogger: He's Back!](https://github.com/HighwayFrogs/frogger-psx)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/8/86/Legacy_Of_Kain-_Soul_Reaver_Cover.jpg){:width="100"} [Legacy of Kain: Soul Reaver](https://github.com/federicomilesi/soul-re)              | Decompilation | Inactive, 68% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/8/86/Legacy_Of_Kain-_Soul_Reaver_Cover.jpg){:width="100"} [Legacy of Kain: Soul Reaver](https://github.com/fmil95/soul-re)              | Decompilation | Active, 77% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, 90% Done (First Disk Playable) |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a9/LSD_Coverart.png){:width="100"} [LSD Dream Emulator](https://github.com/FirecatFG/lsddecomp)              | Decompilation | Active |
 |![](https://www.mobygames.com/images/covers/l/83999-lunar-2-eternal-blue-complete-playstation-front-cover.jpg){:width="100"} [Lunar 2: Eternal Blue](https://github.com/Zackmon/lunar2-psx-decomp)              | Decompilation | Inactive, 12% Done |
@@ -425,6 +426,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/7/7b/NFS_II_%28PC%2C_US%29_cover_art.jpg){:width="100"} [Need for Speed 1-6](https://github.com/OpenNFS/OpenNFS)              | Game Engine Reimplementation | Inactive |
 |![](https://doomwiki.org/w/images/0/0a/PSXDoomBoxArt.jpg){:width="100"} [PSX DOOM](https://github.com/Erick194/PSXDOOM-RE)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png){:width="100"} [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg){:width="100"} [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)              | Decompilation | Active, 48% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider](https://github.com/rr-/Tomb1Main)              | Reimplementation | PC Port Fully Playable |
 |![](https://psxdatacenter.com/images/covers/U/T/SLUS-00437.jpg){:width="100"} [Tomb Raider II](https://github.com/Arsunt/TR2Main)              | Reimplementation | Active - v0.8.2 release |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3f/Tomb_Raider_-_Chronicles.png){:width="100"} [Tomb Raider: Chronicles](https://github.com/TOMB5/TOMB5)              | Decompilation | Inactive |
@@ -451,11 +453,14 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ### Klonoa 2: Lunatea's Veil
 {% include link-to-other-site.html url="https://github.com/entriphy/kl2_lv_decomp" description="Targeting SLUS_201.51. Structs, classes, and function names are taken from decompiling the C# assembly of Klonoa Phantasy Reverie Series." image="https://upload.wikimedia.org/wikipedia/en/f/f5/Klonoa2.jpg" title="Decompilation project for Klonoa 2: Lunatea's Veil for the PS2"  %}
 
+### Metal Gear Solid 2: Sons of Liberty  
+{% include link-to-other-site.html url="https://github.com/GirianSeed/mgs2" description="Decompilation project for Metal Gear Solid 2: Sons of Liberty." image="https://upload.wikimedia.org/wikipedia/en/6/6a/Metalgear2boxart.jpg" title="Decompilation project for Metal Gear Solid 2: Sons of Liberty for the PS2"  %}
+
 ### PaRappa the Rapper 2
 {% include link-to-other-site.html url="https://github.com/parappadev/parappa2" description="Decompilation project for PaRappa the Rapper 2 (NTSC-J). " image="https://cdn.mobygames.com/covers/3891875-parappa-the-rapper-2-playstation-2-front-cover.jpg" title="Decompilation project for PaRappa the Rapper 2 for the PS2"  %}
 
 ### Resident Evil - Code: Veronica X  
-{% include link-to-other-site.html url="https://github.com/federicomilesi/recvx2c" description="Decompilation project for Resident Evil - Code: Veronica X." image="https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg" title="Decompilation project for Resident Evil - Code: Veronica X for the PS2"  %}
+{% include link-to-other-site.html url="https://github.com/fmil95/recvx-decomp" description="Decompilation project for Resident Evil - Code: Veronica X." image="https://upload.wikimedia.org/wikipedia/en/4/44/RECV_boxart.jpg" title="Decompilation project for Resident Evil - Code: Veronica X for the PS2"  %}
 
 ### Sly Cooper and the Thievius Raccoonus
 {% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
