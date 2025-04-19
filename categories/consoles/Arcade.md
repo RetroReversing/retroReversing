@@ -21,8 +21,35 @@ breadcrumbs:
 
 ## What programming languages were used to create Arcade games?
 Since every Arcade board is different it can depend on the power of the system, some less powerful boards used pure assembly to write the game code and others used a higher level language such as C.
-For example Klax was written in C according to Greg Omi who was sent the source code for his Atari Lynx port of the game [^4].
 
+For example the 1990 game **Klax** was written in C according to **Greg Omi** who was sent the source code for his Atari Lynx port of the game [^4].
+
+This is further confirmed in a 1990 interview with Atari developer **Mark Stephen Pierce**[^5]:
+> "All Atari coin‑ops today are written in C ‑ that's the most popular language with the programmers here, I guess. The actual programming work is carried out on standard terminals, and then transferred into our VAX machines where it's compiled and compressed.  Finally it's downloaded from there through an EPROM burner and onto the hardware for the game that the engineer has put together. Every coin‑op's hardware is different partly because each game is different, and partly as a form of copy protection.
+
+
+## What tools were used to create the art for Arcade games?
+In the 1990 interview with **Mark Stephen Pierce** the following was published (in "The One" magazine) [^5]:
+> Mark's graphics are produced on a PC ‑ but using Atari's own specially written utility: RAD (Rendering and Animation Design). "It's basically a standard paint tool with some animation facilities. I design and draw on the PC before uploading everything to the VAX to be compressed."
+
+
+## What did a Typical Arcade Game Development Team Look Like?
+
+In the early days of arcade gaming, development teams needed to be highly specialized. Unlike today’s streamlined development environments, both **hardware and software** had to be built **from scratch** for each new game. This required expertise across a wide range of disciplines, from custom chip design to game logic and audiovisual presentation.
+
+As arcade hardware evolved and became more standardized—often borrowing from or influencing console architectures—the **hardware workload** decreased slightly. However, the **software and design** demands increased, calling for larger, more diverse teams to handle game mechanics, visual design, sound, and player experience.
+
+A great example is Taito’s groundbreaking 1987 arcade title, **Darius**, which employed a team with clearly defined roles:
+- **Sound Designer** – Yasuhiko Tanaka
+- **Composer** – Hisayoshi “OGR” Ogura
+- **Cabinet Designer** – Natsuki Hirosawa
+- **Game Designer** – Junji Yarita
+- **Planner** – Akira Fujita
+- **Programmer** – Toru Sagawara
+- **Hardware Engineer** – Takeki Nakamura
+
+For a deeper look into the development of *Darius*, check out this excellent translated interview on **shmuplations**:  
+[Darius I & II – 1986/89 Developer Interviews – shmuplations.com](https://shmuplations.com/dariusii/)
 
 ## Game Development at Taito
 Taito put together a 250-page Hardware Manual for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
@@ -74,3 +101,4 @@ Even as far back as June 2000 MAME was being advertised in Japanese magazines (A
 [^2]: Wireframe Issue 01 page 33
 [^3]: Retro Gamer Issue 28
 [^4]: Retro Gamer Issue 97 page 57
+[^5]: Inside Atari Games ("The One" Magazine 1990) and on http://www.atari-explorer.com/articles/articles-atari-games.html
