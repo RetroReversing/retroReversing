@@ -54,6 +54,11 @@ For a deeper look into the development of *Darius*, check out this excellent tra
 In 1990 Atari developer **Mark Stephen Pierce** had the following to say about the length of time for developing an Arcade game:
 > An Atari game takes, on average, around a year to produce ‑ but then an average can come from two extremes, which is certainly in Mark's case - Escape took over two years to put together, whereas Klax was written in just four months!
 
+## How were Arcade games tested?
+The challenge with Arcade games is they are expensive to produce and need to be visually appealing, easy to grasp, and have a carefully balanced difficulty level. Challenging enough to be engaging but not so hard that it drives players away or so easy that it allows endless play on a single coin.
+
+So prototype Arcade games were placed into various arcades and player behaviour was closely monitored to strike the right balance of difficulty and engagement. The Atari games even had a video recorder built in so that the development team could watch how players played the game, along with a computer that tracked the money made for the game [^5]. 
+
 ---
 # Arcade Development Hardware
 
