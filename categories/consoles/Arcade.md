@@ -1,13 +1,13 @@
 ---
 permalink: /arcade/
 layout: post
-title: Arcade
+title: Arcade - How retro arcade games were made
 recommend: arcade
 recommendTitle: All Arcade Posts
 editlink: ../categories/consoles/Arcade.md
 console: 'arcade'
 consoleimage: /public/consoles/Arcade.png
-excerpt: Awesome list of Arcade Game Development and Reverse Engineering information
+excerpt: Awesome list of Arcade Game Development information
 breadcrumbs:
   - name: Home
     url: /
@@ -50,31 +50,20 @@ A great example is Taito’s groundbreaking 1987 arcade title, **Darius**, which
 For a deeper look into the development of *Darius*, check out this excellent translated interview on **shmuplations**:  
 [Darius I & II – 1986/89 Developer Interviews – shmuplations.com](https://shmuplations.com/dariusii/)
 
-## How long did it take to develop and Arcade game?
+## How long did it take to develop an Arcade game?
 In 1990 Atari developer **Mark Stephen Pierce** had the following to say about the length of time for developing an Arcade game:
 > An Atari game takes, on average, around a year to produce ‑ but then an average can come from two extremes, which is certainly in Mark's case - Escape took over two years to put together, whereas Klax was written in just four months!
 
 ---
+# Arcade Development Hardware
+
 ## Game Development at Taito
 Taito put together a **250-page Hardware Manual** for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">With the Taito Hardware Manual for reference, new engineers were sent out to Akihabara to get some ROM and RAM chips and a CPU, solder them all together onto a test PCB, then write a brick breaker game.<a href="https://t.co/huXblA0rv4">https://t.co/huXblA0rv4</a><a href="https://t.co/CXlnKUPHkH">https://t.co/CXlnKUPHkH</a> <a href="https://t.co/Yip45KbLIE">pic.twitter.com/Yip45KbLIE</a></p>&mdash; Taito Corporation (@TaitoCorp) <a href="https://twitter.com/TaitoCorp/status/1748438175977226708?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">With the Taito Hardware Manual for reference, new engineers were sent out to Akihabara to get some ROM and RAM chips and a CPU, solder them all together onto a test PCB, then write a brick breaker game.<a href="https://t.co/huXblA0rv4">https://t.co/huXblA0rv4</a><a href="https://t.co/CXlnKUPHkH">https://t.co/CXlnKUPHkH</a> <a href="https://t.co/Yip45KbLIE">pic.twitter.com/Yip45KbLIE</a></p>&mdash; Taito Corporation (@TaitoCorp) <a href="https://twitter.com/TaitoCorp/status/1748438175977226708?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote>
 
 They used an In-Circuit Emulator to debug the programs they were creating as can be seen in this diagram:
 ![Alt text](/public/images/arcade/TaitoArcadeICE.png)
-
----
-## Defender (1981 by Williams Electronics)
-The source code for the classic arcade game from 1981 **Defender** has been released on Github:
-[mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
-
-It is written in a variant of the Assembly language specifically for the Motorola 6809 CPU [^1].
-
-The physical board had 11 ROM chips on it that would need to be flashed with the assembled result of that source code [^1].
-
-Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers who utilized algorithms to great effect rather than relying on artists, one such example is the classic explosion particle effect. Defender became one of the highest grossing arcade games in history [^2].
-
-The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: [https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py](https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py)
 
 ---
 ## Development of RoboTron (1981)
@@ -93,6 +82,22 @@ than one floppy, and yet there were no multi-floppy code-linkers so he devised t
 > Then he described how he had to write ‘utilities’ to edit tiny bitmaps drawn on graph paper and entered as hex,
 > and how to get around the one hour compile times by editing memory directly and disassembling in your head,
 > and how to make interesting sounds from 30 bytes of data, and how to write ultra-tight optimised machine code to move small bitmaps around a screen fast, and off course, cram it all into a 32k ROM.
+
+---
+# Arcade Game Source Code
+
+## Defender (1981 by Williams Electronics)
+The source code for the classic arcade game from 1981 **Defender** has been released on Github:
+[mwenge/defender: Defender(1981) by Eugene Jarvis and Sam Dicker](https://github.com/mwenge/defender)
+
+It is written in a variant of the Assembly language specifically for the Motorola 6809 CPU [^1].
+
+The physical board had 11 ROM chips on it that would need to be flashed with the assembled result of that source code [^1].
+
+Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers who utilized algorithms to great effect rather than relying on artists, one such example is the classic explosion particle effect. Defender became one of the highest grossing arcade games in history [^2].
+
+The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: [https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py](https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py)
+
 
 ---
 # MAME
