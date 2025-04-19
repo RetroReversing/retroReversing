@@ -24,7 +24,7 @@ Since every Arcade board is different it can depend on the power of the system, 
 
 For example the 1990 game **Klax** was written in C according to **Greg Omi** who was sent the source code for his Atari Lynx port of the game [^4].
 
-This is further confirmed in a 1990 interview with Atari developer **Mark Stephen Pierce**[^5]:
+This is further confirmed in a 1990 interview with original designer of Klax **Mark Stephen Pierce**[^5]:
 > "All Atari coin‑ops today are written in C ‑ that's the most popular language with the programmers here, I guess. The actual programming work is carried out on standard terminals, and then transferred into our VAX machines where it's compiled and compressed.  Finally it's downloaded from there through an EPROM burner and onto the hardware for the game that the engineer has put together. Every coin‑op's hardware is different partly because each game is different, and partly as a form of copy protection.
 
 
@@ -34,7 +34,6 @@ In the 1990 interview with **Mark Stephen Pierce** the following was published (
 
 
 ## What did a Typical Arcade Game Development Team Look Like?
-
 In the early days of arcade gaming, development teams needed to be highly specialized. Unlike today’s streamlined development environments, both **hardware and software** had to be built **from scratch** for each new game. This required expertise across a wide range of disciplines, from custom chip design to game logic and audiovisual presentation.
 
 As arcade hardware evolved and became more standardized—often borrowing from or influencing console architectures—the **hardware workload** decreased slightly. However, the **software and design** demands increased, calling for larger, more diverse teams to handle game mechanics, visual design, sound, and player experience.
@@ -51,8 +50,13 @@ A great example is Taito’s groundbreaking 1987 arcade title, **Darius**, which
 For a deeper look into the development of *Darius*, check out this excellent translated interview on **shmuplations**:  
 [Darius I & II – 1986/89 Developer Interviews – shmuplations.com](https://shmuplations.com/dariusii/)
 
+## How long did it take to develop and Arcade game?
+In 1990 Atari developer **Mark Stephen Pierce** had the following to say about the length of time for developing an Arcade game:
+> An Atari game takes, on average, around a year to produce ‑ but then an average can come from two extremes, which is certainly in Mark's case - Escape took over two years to put together, whereas Klax was written in just four months!
+
+---
 ## Game Development at Taito
-Taito put together a 250-page Hardware Manual for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
+Taito put together a **250-page Hardware Manual** for new developers who joined the team to learn how to create an Arcade game from scratch using RAM/ROM/CPU chips and a standard TV. This was before the internet and even before there were many books on the topic when the industry was very new and companies didn't want to share their "trade secrets".
 
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">With the Taito Hardware Manual for reference, new engineers were sent out to Akihabara to get some ROM and RAM chips and a CPU, solder them all together onto a test PCB, then write a brick breaker game.<a href="https://t.co/huXblA0rv4">https://t.co/huXblA0rv4</a><a href="https://t.co/CXlnKUPHkH">https://t.co/CXlnKUPHkH</a> <a href="https://t.co/Yip45KbLIE">pic.twitter.com/Yip45KbLIE</a></p>&mdash; Taito Corporation (@TaitoCorp) <a href="https://twitter.com/TaitoCorp/status/1748438175977226708?ref_src=twsrc%5Etfw">January 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -70,13 +74,14 @@ The physical board had 11 ROM chips on it that would need to be flashed with the
 
 Defender was developed by **Eugene Jarvis** and **Larry DeMar** two programmers who utilized algorithms to great effect rather than relying on artists, one such example is the classic explosion particle effect. Defender became one of the highest grossing arcade games in history [^2].
 
-The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py
+The first issue of the Magazine Wireframe contains a python (pygame) code snippet to re-create the classic particle explosion from Defender [^2]. You can find that code on github too: [https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py](https://github.com/Wireframe-Magazine/Wireframe-1/blob/master/explosion.py)
 
-## RoboTron (1981)
+---
+## Development of RoboTron (1981)
 At GDC 2014 **Eugene Jarvis** gives an excellent presentation about the development of Robotron:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8AbiBOK8jZ0?si=1ftjO79ry3ld1i6u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-They used the Gimix 6809 as their development system:
+They used the **Gimix 6809** as their development system:
 ![image](https://github.com/user-attachments/assets/2677fd5b-8cba-4ca2-94ec-cf0bf58fbee1)
 
 As for the software side, they had to write their own text editor and assembler, they didn't comment or use tabs as every byte that was used in memory was precious:
