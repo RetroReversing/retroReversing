@@ -50,7 +50,7 @@ Such copying was common in the young arcade industry, with many companies produc
     <a href="https://www.mobygames.com/game/138/pac-man/">Pac-Man (1980) - Commodore 64 Cover</a>
   </figcaption>
 </figure>
-Pac-Man (Namco, 1980) becomes a global phenomenon, and an explosion of unauthorized clones follows.
+**Pac-Man** (Namco, 1980) becomes a global phenomenon, and an explosion of unauthorized clones follows.
 
 Small manufacturers hacked or re-skinned Pac-Man into games like Mighty Mouth and Piranha, which were nearly identical in maze layout and character design. 
 By 1981, dozens of Pac-Man knock-offs appeared across arcades and home systems.
@@ -64,13 +64,13 @@ In one case, a judge described **Mighty Mouth** as “for all practical purposes
 <figure>
   <img src="https://www.mobygames.com/images/covers/l/84474-k-c-munchkin-odyssey-2-front-cover.jpg" alt="K.C. Munchkin! Odyssey 2 Cover" width="300">
   <figcaption>
-    <a href="https://www.mobygames.com/game/27443/kc-munchkin/">K.C. Munchkin! (1981) - Odyssey 2 Cover</a>
+    <a href="https://www.mobygames.com/game/27443/kc-munchkin/">K.C. Munchkin! (1981) - Odyssey 2</a>
   </figcaption>
 </figure>
-K.C. Munchkin! for the Odyssey² console (Philips) became a landmark in clone litigation.
+**K.C. Munchkin!** for the Odyssey² console (Philips) became a landmark in clone litigation.
 The maze-chase game was so similar to Pac-Man that Atari (which had console rights to Pac-Man) sued. 
 
-In 1982, the U.S. Seventh Circuit court ruled that **K.C. Munchkin!** infringed Pac-Man’s copyrighted characters and maze design, ordering the clone off the market [^4]. 
+In 1982, the U.S. Seventh Circuit court ruled that K.C. Munchkin! **infringed** Pac-Man’s copyrighted characters and maze design, ordering the clone off the market [^4]. 
 
 This case – **Atari, Inc. v. Philips** – was among the first to affirm that a video game’s audiovisual “look and feel” could be protected by copyright law.
 
