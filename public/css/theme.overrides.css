@@ -580,4 +580,7 @@ border-bottom-left-radius: 8px;
     background-color: #111;
     color: white;
   }
+  h1, h2, h3, h4, h5, h6, hr, span, strong, b {
+    color: white;
+  }
 }
