@@ -52,20 +52,18 @@ RetroSpark on SMSPower.org has the following to say on the comparison:
 > 
 > In fact, we discussed the possibility that this box is ESYS. Matt mentioned that Krisalis wrote the software for ESYS - perhaps they were also subcontracted to build the hardware. However, there is at least one difference between this box and Matt's - this box does not appear to have a battery backup for the SRAM. 
 
+---
 ## ESYS Development Kit
 
 Matt Taylor mentions the similar ESYS development tool used in-house at rival software company Spidersoft:
 
-```
+> Spidersoft designed and built its own development system called ESYS. This was a ROM emulator box about the size of house brick containing 512Kb of RAM connected to a PC via a parallel cable. 
+>
+> Several were in use at Spidersoft at any one time and they were also sold to other developers. The beauty of the system was that different cartridge interface cards were produced for different consoles, meaning that the same ESYS box could be used for Game Boy, Game Gear, Master System, Megadrive, SNES, NES, and even Jaguar. 
+>
+> The ESYS box also had battery backup meaning that ROM images downloaded to it could be retained even when removed from a PC, making demonstrating work to publishers very easy. Spidersoft also produced a modified Game Gear and interface board that allowed video output from a Game Gear to be put onto a monitor or television, which was useful during development.
 
-Spidersoft designed and built its own development system called ESYS. This was a ROM emulator box about the size of house brick containing 512Kb of RAM connected to a PC via a parallel cable. 
-
-Several were in use at Spidersoft at any one time and they were also sold to other developers. The beauty of the system was that different cartridge interface cards were produced for different consoles, meaning that the same ESYS box could be used for Game Boy, Game Gear, Master System, Megadrive, SNES, NES, and even Jaguar. 
-
-The ESYS box also had battery backup meaning that ROM images downloaded to it could be retained even when removed from a PC, making demonstrating work to publishers very easy. Spidersoft also produced a modified Game Gear and interface board that allowed video output from a Game Gear to be put onto a monitor or television, which was useful during development.
-
-```
-
+---
 ## Development Kit BIOS
 
 The BIOS for this development kit has been dumped by the talented people over at SMSPower.org and it runs out that you can run it in an emulator as either a Master System ROM OR a Game Gear ROM! The Bootup screen shows a different image depending on if its being run as a Master System game or Game Gear as can be seen in the screenshots below.
