@@ -60,7 +60,7 @@
   h2 + figure {
     float: left;
     margin-right: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
   }
   
   h2 + figure img {
@@ -69,8 +69,15 @@
     display: block;
   }
 
-  h1,h2,h3,h4,h5 {
+  h1,h2,h3,h4,h5,hr {
 /*  The clear property tells the browser that the element should not be positioned next to floated elements both is left and right floats    */
     clear: both;
+  }
+
+  h2::before {
+    content: "";
+    display: block;
+    border-top: 1px solid #ccc;
+    margin: 2rem 0 1rem;
   }
 }
