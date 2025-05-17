@@ -64,9 +64,11 @@
   }
   
   h2 + figure img {
-    max-width: 150px;
+    max-width: 250px;
     height: auto;
     display: block;
+    float:left;
+    margin-left: 0px;
   }
 
   h1,h2,h3,h4,h5,hr {
