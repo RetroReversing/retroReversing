@@ -1,5 +1,4 @@
 /* For phone screen overrides see bottom of this file  */
-@import "./blockquotes.css"
 
 /* Remove default bootstrap padding for containers */
 .container {
@@ -563,5 +562,12 @@ border-bottom-left-radius: 8px;
     .follow-text {
       font-size: unset;
     }
+  }
+}
+
+.dark {
+  body, section, .post-card {
+    background-color: #111;
+    color: white;
   }
 }
