@@ -109,12 +109,15 @@ Gargoyle Software used to use Amstrad PCW8512's to write ZX Spectrum games accor
 ---
 ## Was There an Official SDK?
 
-In the modern sense of a comprehensive SDK (Software Development Kit) from the platform owner, no, Sinclair did not provide an official SDK for Spectrum game development in the early 1980s. 
-Unlike a contemporary console (e.g., Nintendo or Sega) which might have licensed dev kits, the Spectrum was a open consumer product and developers were expected to use either the built-in BASIC or their own tools to create software. 
+In the modern sense of a comprehensive SDK (Software Development Kit) from the platform owner, no, Sinclair did not provide an official SDK for Spectrum game development in the early 1980s.
+
+Unlike a contemporary console (e.g., Nintendo or Sega) which might have licensed dev kits, the Spectrum was a open consumer product and developers were expected to use either the built-in BASIC or their own tools to create software.
 
 The primary “official” documentation was the BASIC programming manual and later the Spectrum Technical Guide (which covered hardware specifics and ROM routines). Sinclair’s focus was on selling hardware; they relied on third-party software houses to produce games without much centralized support.
 
 ### Official Documentation
+![ZXSpectrum+ User Guide](https://github.com/user-attachments/assets/5485d118-4e77-4c9d-a56f-1642265bf023)
+
 That said, Sinclair did endorse or distribute certain development tools. Notably, Sinclair’s ZX Spectrum+ (and later models) were often bundled with documentation that included memory maps and assembly programming tips, acknowledging the shift toward machine code development. 
 
 ### Crystal toolkit
