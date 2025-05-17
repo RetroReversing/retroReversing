@@ -79,14 +79,21 @@ This case – **Atari, Inc. v. Philips** – was among the first to affirm that 
 <figure>
   <img src="https://cdn.mobygames.com/3b60bde6-aba2-11ed-9201-02420a00019c.webp" alt="Ms. Pac-Man (1982) - Atari 2600" width="300">
   <figcaption>
-    <a href="https://www.mobygames.com/game/576/ms-pac-man/"Ms. Pac-Man (1982) - Atari 2600</a>
+    <a href="https://www.mobygames.com/game/576/ms-pac-man/">Ms. Pac-Man (1982) - Atari 2600</a>
   </figcaption>
 </figure>
 
 One of the era’s most famous clones actually became an official sequel. **Ms. Pac-Man** began as an unauthorized enhancement kit called **Crazy Otto**, created by **General Computer Corp.** (GCC), a group of MIT dropouts who hacked existing arcade games [^5].
 
-GCC had made a business of **reverse engineering** popular games and selling upgrade kits (they even modded Atari’s Missile Command into Super Missile Attack and made **$250k in profit**!).
-After legal pressure from Atari, GCC was forced to pitch Crazy Otto to Midway (Namco’s American partner) instead of releasing it illicitly.
+Before Crazy Otto GCC had made a business of **reverse engineering** popular games and selling upgrade kits, they modded Atari’s Missile Command into Super Missile Attack and made **$250k in profit**!. 
+
+They used expensive hardware such as the **GenRad 6502 microprocessor emulator** from their dorm rooms in MIT and manually typed each screen of assembly that they got from the disassembler on to their TRS-80.
+
+After a brief legal enounter with Atari over their **Super Missile Attack** upgrade kit, they agreed a settlement where Atari would pay GCC $50k per month over two years for them to make games for Atari. They agreed not to market arcade enhancement kits without the original manufacturer's approval.
+
+So next they started on the most popular game in arcades - Pac Man, which was based on a Z80 microprocessor so they bought a **Tektronix 8550** as it has a Z80 emulator and a line printer to print the disassembled code.
+
+After the previous legal pressure from Atari, GCC decided to pitch Crazy Otto to Midway (Namco’s American partner) instead of releasing it illicitly.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rhM8NAMW_VQ?si=nPI579gERugGDvP1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
