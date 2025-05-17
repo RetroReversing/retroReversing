@@ -31,7 +31,7 @@
   
   h2 + figure {
     float: left;
-    margin-right: -3%;
+    margin-right: -4rem;
     margin-bottom: 2rem;
     display: flex;
   }
