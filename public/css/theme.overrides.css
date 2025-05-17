@@ -88,6 +88,11 @@ body {
   margin-left: 4%;
 }
 
+.post .footnotes ol {
+  padding-left: 4%;
+  margin-left: 0px;
+}
+
 .post a {
   text-decoration: underline ;
 }
@@ -101,7 +106,7 @@ body {
   padding-top: 10px;
   color: #0085b6;
   font-size: 25px;
-  margin-left: -0.5em;
+/*   margin-left: -0.4em; */
   margin-bottom: 15px;
 }
 
@@ -256,8 +261,8 @@ overflow: scroll;
 .row p {
   padding: 5px;
   font-family: roboto,-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
-  line-height: 1.5em;
-  letter-spacing: -.01em;
+/*   line-height: 1.5em;
+  letter-spacing: -.01em; */
   font-size: 16px;
 /*   line-height: 23px;
   font-family: graphik,Arial,sans-serif; */
