@@ -149,6 +149,7 @@ Most game development teams only hand a handful of people working full time on t
 Some examples of the length of time it took to develop Nintendo Entertainment System games are:
 * **SOLAR JETMAN: HUNT FOR THE GOLDEN WARSHIP** - Took 1 year with 4 developers (but only 2 developers for 60% of development time) [^4].
 * **The Portopia Serial Murder Case** and other ports by **Chunsoft** took about 4 months with a team of about 5-6 people [^5].
+* **Guevara/Guerrilla War** by SNK was ported from the arcade original in just two months by the main programmer Yukio Kaneda. This was an agreement in which he would accept the short deadline in return for being allowed to add a hidden minigame based on the orignal SNK game **Sasuke vs. Commander** [^9]
 
 ## Who was the first NES game developers outside of Japan?
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
@@ -336,3 +337,4 @@ We have moved this section to its own post which you can view here:
 [^6]: [Hammer Editor (Eye-2) Famicom modification tool code page](https://k1ilove.yu-nagi.com/diskto10.html)
 [^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
 [^8]: [Hammer News Hammer Editor (Eye-2) Famicom Modification Tool Code Page](https://k1ilove.yu-nagi.com/diskto14.html)
+[^9]: [Ikari Warriors, Guerilla War, and The SNK Golden Age - shmuplations.com](https://shmuplations.com/snkgoldenage/)
