@@ -68,4 +68,9 @@
     height: auto;
     display: block;
   }
+
+  h1,h2,h3,h4,h5 {
+/*  The clear property tells the browser that the element should not be positioned next to floated elements both is left and right floats    */
+    clear: both;
+  }
 }
