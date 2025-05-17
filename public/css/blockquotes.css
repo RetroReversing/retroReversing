@@ -39,10 +39,16 @@
 /* Now figures  */
 .post {
   figcaption {
-    text-align: center;
+/*     text-align: center; */
     a {
       text-decoration: none 
     }
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color: #555;
   }
   
 /*   h2 + figure + p {
@@ -61,6 +67,7 @@
     float: left;
     margin-right: 1rem;
     margin-bottom: 1rem;
+    display: flex;
   }
   
   h2 + figure img {
