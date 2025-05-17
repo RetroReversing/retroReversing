@@ -29,17 +29,17 @@ Shaun Hollingworth and Matt Furniss are credited with creation of the kits hardw
 
 It seems to be very similar to Spidersofts own in-house dev kit (called ESYS) and it seems they worked quite closely on it. They also shared development software between the two software houses such as the Krisalis Assembler (KASM).
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
+![ESYS Hardware](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
 
 ## Gear Video Decoder
 
 The Gear Video decoder was a board created by Shaun Hollingworth, which presumably is the board that connects the Game Gear to the TV monitor or development system. 
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_1.jpg)
+![Gear Video Decoder](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_1.jpg)
 
 Games World magazine even featured a version of this hardware (which they called ESYS-RGB) in the first issue dated July 1994, which was sold to other games studios or press outlets rather than to the general public. Presumably this is the hardware they used to provide screenshots for the Game Gear games published in the magazine.
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
+![Game Gear on TV article](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
 
 ## Krisalis and Spidersoft collaboration
 
