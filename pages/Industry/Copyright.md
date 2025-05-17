@@ -30,6 +30,7 @@ This timeline charts key instances of companies reverse-engineering or copying e
 
 # Late 1970s–Early 1980s: The Dawn of Arcade Clones
 
+
 ## 1978–1979: Taito’s hit Space Invaders (1978) sparks a wave of imitators
 <figure>
   <img src="https://cdn.mobygames.com/screenshots/16412297-space-fever-arcade-your-ship-turns-red-when-you-fire.png" alt="Space Fever Screenshot" width="300">
@@ -38,8 +39,10 @@ This timeline charts key instances of companies reverse-engineering or copying e
   </figcaption>
 </figure>
 Even **Nintendo** entered the fray, releasing **Space Fever** in 1979 – a clear Space Invaders clone – to capitalize on the alien-shooting craze [^2]. 
+
 Such copying was common in the young arcade industry, with many companies producing their own versions of successful games.
 
+---
 ## 1980–1981: Pac-Man Clones
 <figure>
   <img src="https://www.mobygames.com/images/covers/l/20333-pac-man-commodore-64-front-cover.jpg" alt="Pac-Man Commodore 64 Cover" width="300">
@@ -53,8 +56,10 @@ Small manufacturers hacked or re-skinned Pac-Man into games like Mighty Mouth an
 By 1981, dozens of Pac-Man knock-offs appeared across arcades and home systems.
 
 This prompted Pac-Man’s U.S. distributor, Midway, and rights-holder Atari to aggressively defend the IP in court. 
-In one case, a judge described Mighty Mouth as “for all practical purposes, identical” to Pac-Man [^3], leading Midway to win a 1983 summary judgment for copyright and trademark infringement.
 
+In one case, a judge described **Mighty Mouth** as “for all practical purposes, identical” to Pac-Man [^3], leading Midway to win a 1983 summary judgment for copyright and trademark infringement.
+
+---
 ## 1981–1982: K.C. Munchkin (Philips) sued by Atari
 <figure>
   <img src="https://www.mobygames.com/images/covers/l/84474-k-c-munchkin-odyssey-2-front-cover.jpg" alt="K.C. Munchkin! Odyssey 2 Cover" width="300">
@@ -64,13 +69,10 @@ In one case, a judge described Mighty Mouth as “for all practical purposes, id
 </figure>
 K.C. Munchkin! for the Odyssey² console (Philips) became a landmark in clone litigation.
 The maze-chase game was so similar to Pac-Man that Atari (which had console rights to Pac-Man) sued. 
-In 1982, the U.S. Seventh Circuit court ruled that K.C. Munchkin! infringed Pac-Man’s copyrighted characters and maze design, ordering the clone off the market [^4]. 
 
-This case – Atari, Inc. v. Philips – was among the first to affirm that a video game’s audiovisual “look and feel” could be protected by copyright law.
+In 1982, the U.S. Seventh Circuit court ruled that **K.C. Munchkin!** infringed Pac-Man’s copyrighted characters and maze design, ordering the clone off the market [^4]. 
 
-
-
-
+This case – **Atari, Inc. v. Philips** – was among the first to affirm that a video game’s audiovisual “look and feel” could be protected by copyright law.
 
 
 ---
