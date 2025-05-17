@@ -13,6 +13,14 @@
   width: 95vw;
 }
 
+blockquote {
+  border-left-color: #0085b6;
+}
+
+.post blockquote {
+  margin-left: 5%
+}
+
 /* hide scrollbar on webkit */
 ::-webkit-scrollbar {
     display: none;
@@ -336,9 +344,7 @@ section {
   list-style: none;
 }
 
-blockquote {
-  border-left-color: #0085b6;
-}
+
 
 .dataTable a {
   color: #007bff !important;
