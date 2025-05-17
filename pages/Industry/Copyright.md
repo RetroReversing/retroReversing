@@ -34,7 +34,7 @@ This timeline charts key instances of companies reverse-engineering or copying e
 <figure>
   <img src="https://cdn.mobygames.com/screenshots/16412297-space-fever-arcade-your-ship-turns-red-when-you-fire.png" alt="Space Fever Screenshot" width="300">
   <figcaption>
-    <a href="https://www.mobygames.com/game/63045/space-fever/">Space Fever (1979) - Arcade Cover</a>
+    <a href="https://www.mobygames.com/game/63045/space-fever/">Space Fever (1979) - Arcade</a>
   </figcaption>
 </figure>
 Even **Nintendo** entered the fray, releasing **Space Fever** in 1979 – a clear Space Invaders clone – to capitalize on the alien-shooting craze [^2]. 
