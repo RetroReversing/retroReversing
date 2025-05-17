@@ -54,6 +54,6 @@ This case – Atari, Inc. v. Philips – was among the first to affirm that a vi
 ---
 # References
 [^1]: [Ikari Warriors, Guerilla War, and The SNK Golden Age - shmuplations.com](https://shmuplations.com/snkgoldenage/#:~:text=Which%20is%20ironic%20considering%20that,begin%20with%20copyright%20infringement)
-[^2]: [Space Fever Color | Space Invaders Wiki - Fandom](https://spaceinvaders.fandom.com/wiki/Space_Fever_Color)
+[^2]: [Space Fever Color - Space Invaders Wiki - Fandom](https://spaceinvaders.fandom.com/wiki/Space_Fever_Color)
 [^3]: [Midway Mfg. Co. v. Dirkschneider, 543 F. Supp. 466 (D. Neb. 1981) :: Justia](https://law.justia.com/cases/federal/district-courts/FSupp/543/466/1460981/#:~:text=The%20defendants%27%20Mighty%20Mouth%20game%20is%2C%20for%20all%20practical%20purposes%2C%20identical%20to%20the%20plaintiff%27s%20Pac%2DMan%20game.%20A%20few%20of%20the%20specific%20similarities%20between%20the%20games%20are%20discussed%20below%20to%20illustrate%20the%20extent%20to%20which%20the%20games%20are%20the%20same.)
 [^4]: [Atari, Inc. v. North American Philips Consumer Electronics Corp., 672 F.2d 607 (7th Cir. 1982) :: Justia](https://law.justia.com/cases/federal/appellate-courts/F2/672/607/331150/)
