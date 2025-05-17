@@ -31,12 +31,13 @@
   
   h2 + figure {
     float: left;
-    margin-right: -4rem;
+/*     margin-right: -4rem; */
     margin-bottom: 2rem;
     display: flex;
   }
   
   h2 + figure img {
+    width:100%;
     max-width: 250px;
     height: auto;
     display: block;
