@@ -129,14 +129,15 @@ body {
   margin-bottom: 1em;
 }
 
-.post {
+/* The following automatically applied an HR effect but it was too troublesome  */
+/* .post {
   h1::before, h2::before {
       content: "";
       display: block;
       border-top: 1px solid #ccc;
       margin: 2rem 0 1rem;
   }
-}
+} */
 
 .post h1 {
   padding-top: 10px;
