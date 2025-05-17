@@ -38,6 +38,13 @@
 
 /* Now figures  */
 .post {
+  figcaption {
+    text-align: center;
+    a {
+      text-decoration: none 
+    }
+  }
+  
   h2 + figure + p {
     display: flex;
     gap: 1rem;
