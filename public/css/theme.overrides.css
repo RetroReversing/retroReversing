@@ -42,6 +42,25 @@ body {
   padding: 30px;
   justify-content: space-evenly;
 }
+.owl-carousel .owl-stage-outer {
+	max-height: 65vh;
+}
+@media (min-width: 576px) {
+
+  .rr-home-section {
+    display: flex;
+  }
+
+  .rr-twitter {
+    width:20vw;
+    margin-top:-100px;
+    background-color: #292F33;
+    margin-bottom: -30px;
+    padding-left: 45px;
+  }
+}
+
+
 /* End of Homepage css */
 
 
@@ -163,7 +182,7 @@ body {
     padding-left: 40px;
 }
 
-/* Recommendation sidebad  */
+/* Recommendation sidebar  */
 .widget-videos .widget-img {
   width: 270px;
   max-width: 270px;
