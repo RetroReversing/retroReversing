@@ -102,6 +102,10 @@ Gargoyle Software used to use Amstrad PCW8512's to write ZX Spectrum games accor
 > At Gargoyle, 99% of all game development is done on Amstrad PCW8512's, with the object code being ported to the target machine via an RS232 or Centronics interface.
 > All development, that is, except for the images for the poor old Spectrum - no matter how much we try to emulate the Spectrum's visual 'capabilities' on other machines, we can't quite capture the unique feel of the original. Therefore, all Spectrum artwork is executed directly onto an old 48k Speccy (we like our rubber keys) and stored on a microdrive.
 
+
+![An AI image of what it thinks Gargoyle game development looked like](https://github.com/user-attachments/assets/afd5624b-89cc-47af-b082-9b677689d0c0)
+
+
 ---
 ## Was There an Official SDK?
 
