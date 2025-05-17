@@ -35,3 +35,30 @@
       background-color: currentColor;
     }
 }
+
+/* Now figures  */
+.post {
+  h2 + figure + p {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  h2 + figure + p::before {
+    content: '';
+    display: block;
+    width: 0; /* placeholder to ensure the layout works */
+  }
+  
+  h2 + figure {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 0;
+  }
+  
+  h2 + figure img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+  }
+}
