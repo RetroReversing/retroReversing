@@ -74,7 +74,8 @@ body {
 /* Images inside posts should be 50% and look more centered  */
 .post img {
     width: 50%;
-    margin-left: 20%;
+/*     margin-left: 20%; */
+    margin-left: 2rem;
     display:block;
 }
 
@@ -160,12 +161,12 @@ body {
 }
 
 .post h4 {
-   margin-left: 3em;
+   margin-left: 2.5em;
    margin-bottom: 5px;
 }
 
 .post h5 {
-   margin-left: 3.5em;
+   margin-left: 3em;
    margin-bottom: 5px;
 }
 
