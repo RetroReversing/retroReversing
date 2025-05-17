@@ -74,6 +74,28 @@ In 1982, the U.S. Seventh Circuit court ruled that K.C. Munchkin! **infringed** 
 
 This case – **Atari, Inc. v. Philips** – was among the first to affirm that a video game’s audiovisual “look and feel” could be protected by copyright law.
 
+---
+## 1982: Ms. Pac-Man – From Bootleg to Blockbuster
+<figure>
+  <img src="https://cdn.mobygames.com/3b60bde6-aba2-11ed-9201-02420a00019c.webp" alt="Ms. Pac-Man (1982) - Atari 2600" width="300">
+  <figcaption>
+    <a href="https://www.mobygames.com/game/576/ms-pac-man/"Ms. Pac-Man (1982) - Atari 2600</a>
+  </figcaption>
+</figure>
+
+One of the era’s most famous clones actually became an official sequel. **Ms. Pac-Man** began as an unauthorized enhancement kit called **Crazy Otto**, created by **General Computer Corp.** (GCC), a group of MIT dropouts who hacked existing arcade games [^5].
+
+GCC had made a business of **reverse engineering** popular games and selling upgrade kits (they even modded Atari’s Missile Command into Super Missile Attack and made **$250k in profit**!).
+After legal pressure from Atari, GCC was forced to pitch Crazy Otto to Midway (Namco’s American partner) instead of releasing it illicitly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rhM8NAMW_VQ?si=nPI579gERugGDvP1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Midway enthusiastically bought the project as a way to quickly follow up Pac-Man’s success.
+Working with Namco, they reskinned the characters and released it as Ms. Pac-Man.
+The game – built on Pac-Man’s underlying code – became a smash hit!
+
+Ms. Pac-Man’s unusual origin blurs the line between cloning and innovation: a bootleg mod was absorbed into official canon when the rights holders saw its value.
+
 
 ---
 # References
@@ -81,3 +103,4 @@ This case – **Atari, Inc. v. Philips** – was among the first to affirm that 
 [^2]: [Space Fever Color - Space Invaders Wiki - Fandom](https://spaceinvaders.fandom.com/wiki/Space_Fever_Color)
 [^3]: [Midway Mfg. Co. v. Dirkschneider, 543 F. Supp. 466 (D. Neb. 1981) :: Justia](https://law.justia.com/cases/federal/district-courts/FSupp/543/466/1460981/#:~:text=The%20defendants%27%20Mighty%20Mouth%20game%20is%2C%20for%20all%20practical%20purposes%2C%20identical%20to%20the%20plaintiff%27s%20Pac%2DMan%20game.%20A%20few%20of%20the%20specific%20similarities%20between%20the%20games%20are%20discussed%20below%20to%20illustrate%20the%20extent%20to%20which%20the%20games%20are%20the%20same.)
 [^4]: [Atari, Inc. v. North American Philips Consumer Electronics Corp., 672 F.2d 607 (7th Cir. 1982) :: Justia](https://law.justia.com/cases/federal/appellate-courts/F2/672/607/331150/)
+[^5]: [How an arcade classic broke all the rules - Polygon](https://www.polygon.com/2016/3/25/11287572/ms-pac-man-story)
