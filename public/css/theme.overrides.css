@@ -1,4 +1,5 @@
 /* For phone screen overrides see bottom of this file  */
+@import "./blockquotes.css"
 
 /* Remove default bootstrap padding for containers */
 .container {
