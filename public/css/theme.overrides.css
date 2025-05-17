@@ -97,6 +97,10 @@ body {
   height: auto;
 }
 
+.card-title h4 {
+  margin-top: 0px;
+}
+
 .table img {
   max-width: 200px;
 }
