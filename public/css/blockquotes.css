@@ -45,11 +45,11 @@
     }
   }
   
-  h2 + figure + p {
+/*   h2 + figure + p {
     display: flex;
     gap: 1rem;
     align-items: flex-start;
-  }
+  } */
   
   h2 + figure + p::before {
     content: '';
