@@ -9,8 +9,8 @@
 }
 
 .container.post-container {
-  max-width: 90vw !important;
-  width: 90vw;
+  max-width: 100vw !important;
+  width: 95vw;
 }
 
 /* hide scrollbar on webkit */
@@ -39,7 +39,8 @@ body {
 
 /* Start of CSS related to posts  */
 .post strong {
-  color: #2089b0;
+/*   color: #2089b0; */
+  color: #1c789b
 }
 
 
@@ -105,7 +106,8 @@ body {
 }
 
 .post h2, .post h3, .post h4, .post h5, .post h6 {
-  color: #0085b6;
+/*   color: #0085b6; */
+  color: #848484;
   margin-left: 1em;
   margin-bottom: 10px;
 }
@@ -121,7 +123,7 @@ body {
 }
 
 .post h5 {
-   margin-left: 4em;
+   margin-left: 3.5em;
    margin-bottom: 5px;
 }
 
