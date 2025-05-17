@@ -5,6 +5,7 @@
   padding: 0px;
   width: 80vw;
   max-width: 90vw;
+  margin-left: 2%;
 }
 
 .container.post-container {
@@ -98,8 +99,8 @@ body {
 .post h1 {
   padding-top: 10px;
   color: #0085b6;
-  font-size: 30px;
-  margin-left: -1em;
+  font-size: 25px;
+  margin-left: -0.5em;
   margin-bottom: 15px;
 }
 
