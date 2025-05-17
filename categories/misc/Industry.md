@@ -76,6 +76,7 @@ He heard about the job through his agent which was a common way for game program
 
 ---
 # Game Industry Materials
+When researching a video game, for reverse engineering or otherwise it can be tricky to find all the relevant sources due to most development being done behind closed doors in a time before the internet was the force it is today. So it is important to keep track of the physical media such as magazines, books and conference proceedings as they contain many information that has never been released to the internet.
 
 ## Magazines
 Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
@@ -96,13 +97,17 @@ One of the main ways for different game developers to speak to each other was at
 Books were a must have for any game developers getting started in the industry, from teaching the basics of assembler/C to more advanced topics such as 3D rendering:
 {% include link-to-other-post.html post="/books" description="For more information on all the Game development Books check out this post." %}
 
+## Museums
+Museums about video games and game development are rare but they are becoming more popular, some are physical and others might be virtual experiences, but they are all important for preserving the history of video games:
+{% include link-to-other-post.html post="/museums" description="For more information on all the Game related Museums check out this post." %}
+
 
 ---
 # All Posts
 
-<div>
+
 {% include console.html %}
-</div>
+
 
 
 ---
