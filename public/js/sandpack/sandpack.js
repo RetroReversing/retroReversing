@@ -44,16 +44,35 @@ class RRSandpack extends HTMLElement {
   constructor() {
     super();
     this._container = document.createElement("div");
-    this.appendChild(this._container);
+    this._placeholder = document.createElement("div");
+    this._placeholder.textContent = "Loading interactive example...";
+    this.appendChild(this._placeholder);
+    this._observer = null;
   }
 
-  async connectedCallback() {
+  connectedCallback() {
+    this._observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          this._observer.disconnect();
+          this._initSandpack();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    this._observer.observe(this);
+  }
+
+  async _initSandpack() {
     const [React, ReactDOM, { Sandpack }, { nightOwl }] = await Promise.all([
-    import(reactUrl),
-    import(reactDomUrl),
-    import(sandpackUrl),
-    import(themeUrl),
-  ]);
+      import(reactUrl),
+      import(reactDomUrl),
+      import(sandpackUrl),
+      import(themeUrl),
+    ]);
+
+    const templateAttr = this.getAttribute("template") || "react-ts";
+    const showTabsAttr = this.hasAttribute("show-tabs");
 
     let userFiles = {};
     const tpl = this.querySelector("template");
@@ -75,7 +94,6 @@ class RRSandpack extends HTMLElement {
     // Merge user files over defaults
     const combinedFiles = { ...defaultFiles, ...userFiles };
 
-    // Resolve fetches
     const files = {};
     await Promise.all(
       Object.entries(combinedFiles).map(async ([filename, value]) => {
@@ -94,18 +112,17 @@ class RRSandpack extends HTMLElement {
       })
     );
 
-    const template = this.getAttribute("template") || "react-ts";
-    const showTabs = this.getAttribute("show-tabs") || false;
-
+    this.removeChild(this._placeholder);
+    this.appendChild(this._container);
 
     const root = ReactDOM.createRoot(this._container);
     root.render(
       React.createElement(Sandpack, {
-        template,
+        template: templateAttr,
         theme: nightOwl,
         files,
         options: {
-          showTabs,
+          showTabs: showTabsAttr,
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
