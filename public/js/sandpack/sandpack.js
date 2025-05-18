@@ -122,6 +122,7 @@ class RRSandpack extends HTMLElement {
         theme: nightOwl,
         files,
         options: {
+          externalResources: ["https://cdn.tailwindcss.com"]
           showTabs: showTabsAttr,
           showLineNumbers: true,
           showConsoleButton: true,
