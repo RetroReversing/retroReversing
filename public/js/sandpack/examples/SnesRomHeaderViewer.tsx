@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import FileUpload from './FileUpload';
 
 interface RomHeader {
   title: string;
@@ -43,22 +44,10 @@ function SnesRomHeaderViewer() {
     };
   }
 
-  function handleFile(e: React.ChangeEvent<HTMLInputElement>) {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    const reader = new FileReader();
-    reader.onload = () => {
-      const buffer = new Uint8Array(reader.result as ArrayBuffer);
-      const parsed = parseHeader(buffer);
-      setHeader(parsed);
-    };
-    reader.readAsArrayBuffer(file);
-  }
-
   return (
-    <div className="p-4 space-y-4">
-      <input type="file" accept=".sfc,.smc" onChange={handleFile} />
+    <div className="w-full p-4 space-y-4">
+      <h3>Load your SNES ROM below to see the headers:</h3>
+      <FileUpload accept=".sfc,.smc" onLoad={(buffer) => setHeader(parseHeader(buffer))} />
       {header && (
         <table className="table-auto border-collapse border border-gray-400 w-full">
           <tbody>
