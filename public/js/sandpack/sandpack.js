@@ -120,10 +120,11 @@ class RRSandpack extends HTMLElement {
       React.createElement(Sandpack, {
         template: templateAttr,
         //theme: nightOwl,
-        theme="auto",
+        theme:"auto",
         files,
         options: {
           externalResources: ["https://cdn.tailwindcss.com"],
+          initMode: "user-visible",
           showTabs: showTabsAttr,
           showLineNumbers: true,
           showConsoleButton: true,
