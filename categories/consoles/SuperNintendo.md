@@ -26,12 +26,6 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your SNES controller, and get ready to dive into the exciting world of Super Nintendo reverse engineering!
 
-
-## State of SNES Emulation
-Every three years **Near** created an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen.
-
-{% include link-to-other-site.html url="https://near.sh/articles/emulation/state-of-emulation-v" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
-
 ---
 # SNES Game Development
 
@@ -175,6 +169,14 @@ During this process a lot of changes were made to fit the much smaller non-backl
 
 The Youtuber **CaptRobau** has an excellent video showing off the graphical differences between all 48 games that were remade for the GBA:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xurqNOafU6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+---
+# SNES Emulation
+
+## State of SNES Emulation
+Every three years **Near/Byuu** wrote an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen. Sadly with the passing of Near this is the last state of emulation, however it still still very much worth a read, and to **remember how much they contributed** to the SNES emulation scene.
+
+{% include link-to-other-site.html url="https://saveweb.github.io/near.sh/articles/emulation/state-of-emulation-v.html" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
 
 ---
 # Game Modification and ROM Hacking
