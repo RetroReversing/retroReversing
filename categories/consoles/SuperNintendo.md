@@ -162,7 +162,7 @@ The ROM header comprises several fields that define the cartridge's characterist
   <template>
   {
     "/App.js": {
-      "code": "export default function App() { return <h1>SNES Header</h1>; }"
+      "file": "/public/js/sandpack/examples/SnesRomHeaderViewer.tsx"
     }
   }
   </template>
