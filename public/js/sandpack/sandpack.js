@@ -29,6 +29,9 @@ const defaultFiles = {
   "/App.tsx": {
     code: `export default function App() { return <h1>Default Example</h1>; }`
   },
+  "/FileUpload.tsx": {
+    file: '/public/js/sandpack/common/FileUpload.tsx'
+  },
   "/index.js": {
     code: `import App from './App';\nimport { createRoot } from 'react-dom/client';\ncreateRoot(document.getElementById('root')).render(<App />);`
   },
