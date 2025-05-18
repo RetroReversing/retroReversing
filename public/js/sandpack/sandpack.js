@@ -119,7 +119,8 @@ class RRSandpack extends HTMLElement {
     root.render(
       React.createElement(Sandpack, {
         template: templateAttr,
-        theme: nightOwl,
+        //theme: nightOwl,
+        theme="auto",
         files,
         options: {
           externalResources: ["https://cdn.tailwindcss.com"],
