@@ -129,6 +129,8 @@ class RRSandpack extends HTMLElement {
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
+          editorHeight: 400, // default was 300
+          editorWidthPercentage: 60
         },
       })
     );
