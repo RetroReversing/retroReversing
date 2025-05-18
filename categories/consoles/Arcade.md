@@ -105,8 +105,55 @@ The first issue of the Magazine Wireframe contains a python (pygame) code snippe
 
 
 ---
+# Speed Up Kits
+Speed-up kits, also known as **enhancement kits**, were aftermarket hardware modifications designed to alter the behavior of arcade games. These kits typically increased game speed, introduced new features, or adjusted difficulty levels. By modifying the original game code or hardware, speed-up kits aimed to rejuvenate player interest and extend the commercial lifespan of arcade cabinets.
+
+## Purpose and Impact of Speed Up Kits
+The primary motivations for implementing speed-up kits included:
+- **Increased Revenue**: Faster gameplay reduced session times, allowing more players per hour and increasing coin drop rates.
+- **Extended Cabinet Life**: By refreshing game mechanics, operators could delay purchasing new machines.
+- **Enhanced Player Engagement**: New challenges and features kept experienced players interested.
+
+For example, the original **Asteroids** game allowed skilled players to play indefinitely on a single credit. A speed-up kit made the game more challenging, thereby reducing playtime per credit and increasing revenue .
+
+---
+## Notable Examples
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rhM8NAMW_VQ?si=hHhQDzRVGSHGOtsp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Some of the most famous examples of speed up kits are:
+- **Super Missile Attack**: Developed by General Computer Corporation (GCC), this kit modified Atari's *Missile Command*, adding new enemies and increasing difficulty. Its success led to legal action from Atari, which was eventually settled when Atari hired GCC to develop games .
+- **Ms Pac Man**: Another GCC project, this kit transformed Namco's **Pac-Man** into **Crazy Otto**, introducing new mazes and improved AI. Midway licensed and released it as an official sequel called **Ms Pac Man** [^6].
+
+---
+## How were Speed Up Kits implemented?
+Speed-up kits were typically implemented through reverse engineering the original game and modifying it using:
+
+- **Daughterboards**: Additional circuit boards that modified signals or data paths.
+- **ROM Replacements**: Swapping out original ROM chips with modified versions containing new code.
+- **Clock Modifications**: Altering the system clock to increase CPU speed, thus speeding up gameplay .
+
+---
+## Legal and Ethical Considerations
+While speed-up kits offered benefits to arcade operators, they raised legal and ethical questions:
+
+- **Intellectual Property**: Modifying and distributing altered versions of games without permission infringed on the original developers' rights.
+- **Quality Control**: Unauthorized modifications could lead to inconsistent gameplay experiences and potential hardware issues.
+
+The legal dispute between Atari and GCC over **Super Missile Attack** highlighted these concerns. The settlement resulted in GCC ceasing unauthorized modifications and instead developing licensed content resulting in **Ms Pac Man** [^6].
+
+---
+## Legacy of Speed Up Kits
+Speed-up kits played a significant role in the arcade industry's evolution:
+
+- **Innovation Catalyst**: They demonstrated the demand for game enhancements, influencing official sequels and updates.
+- **Technical Advancement**: The reverse engineering skills developed during kit creation contributed to advancements in game development and hardware understanding.
+- **Preservation Challenges**: Today, original speed-up kits are valuable to collectors and historians but pose challenges for preservation due to their unofficial nature.
+
+
+---
 # MAME
-Even as far back as June 2000 MAME was being advertised in Japanese magazines (Arcadia Issue 1):
+Even as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
 ![AracadiaIssue1MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
 
@@ -117,3 +164,4 @@ Even as far back as June 2000 MAME was being advertised in Japanese magazines (A
 [^3]: Retro Gamer Issue 28
 [^4]: Retro Gamer Issue 97 page 57
 [^5]: Inside Atari Games ("The One" Magazine 1990) and on http://www.atari-explorer.com/articles/articles-atari-games.html
+[^6]: [Upgrade kits, lawsuits and Lite-Brite: How Ms. Pac-Man was made](https://www.gamedeveloper.com/business/upgrade-kits-lawsuits-and-lite-brite-how-i-ms-pac-man-i-was-made?utm_source=chatgpt.com)
