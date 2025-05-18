@@ -6,7 +6,7 @@ const sandpackUrl = `https://esm.sh/@codesandbox/sandpack-react@2.2.0${deps}`;
 const themeUrl = `https://esm.sh/@codesandbox/sandpack-themes@2.0.21${deps}`;
 
 const defaultFiles = {
-  "/App.js": {
+  "/App.tsx": {
     code: `export default function App() { return <h1>Default Example</h1>; }`
   },
   "/index.js": {
