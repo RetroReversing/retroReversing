@@ -194,6 +194,12 @@ blockquote {
     margin-left: 5vw;
 }
 
+/* iFrame used in sandpack  */
+.post .sp-preview-container iframe {
+  width: 100%;
+  margin: 0px;
+}
+
 
 .widget-friends i {
   width:64px;
