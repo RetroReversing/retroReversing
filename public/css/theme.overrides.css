@@ -537,6 +537,12 @@ border-bottom-left-radius: 8px;
   height:350px;
 }
 
+/* Sandpack is the code editor/live preview  */
+rr-sandpack {
+  display: block;
+  margin: 2rem 0;
+}
+
 /* Phone screen overrides  */
 @media (max-width: 768px) {
   .post {
