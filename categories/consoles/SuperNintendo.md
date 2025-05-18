@@ -157,17 +157,13 @@ The ROM header comprises several fields that define the cartridge's characterist
 
 <script type="module" src="/public/js/sandpack/sandpack.js"></script>
 <rr-sandpack template="react">
-{
-  "/App.js": {
-    "code": "export default function App() { return <h1>SNES header Example</h1>; }"
-  },
-  "/index.js": {
-    "code": "import App from './App';\nimport { createRoot } from 'react-dom/client';\ncreateRoot(document.getElementById('root')).render(<App />);"
-  },
-  "/index.html": {
-    "code": "<div id='root'></div>"
+  <template>
+  {
+    "/App.js": {
+      "code": "export default function App() { return <h1>Safe Render</h1>; }"
+    }
   }
-}
+  </template>
 </rr-sandpack>
 
 ---
