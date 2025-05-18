@@ -155,16 +155,20 @@ The ROM header comprises several fields that define the cartridge's characterist
 - **0xFFDC–0xFFDD**: Checksum Complement  
 - **0xFFDE–0xFFDF**: Checksum  
 
+<div>
+
 <script type="module" src="/public/js/sandpack/sandpack.js"></script>
 <rr-sandpack template="react">
   <template>
   {
     "/App.js": {
-      "code": "export default function App() { return <h1>Safe Render</h1>; }"
+      "code": "export default function App() { return <h1>SNES Header</h1>; }"
     }
   }
   </template>
 </rr-sandpack>
+
+</div>
 
 ---
 # Sound and Music
