@@ -154,6 +154,26 @@ As the industry matured, some companies formed larger teams, but even then, team
 This small-scale development fostered a culture of innovation and personal expression in game design.
 
 ---
+# Games
+
+## R-Type (1988) ZX Spectrum Port
+
+The ZX Spectrum port of **R-Type** represents a pinnacle of technical ingenuity within the constraints of 8-bit hardware.
+Developed by Bob Pape, the game pushed the 48K Spectrum to its limits through cycle-accurate Z80 assembly and extensive memory optimization.
+
+To replicate the horizontally scrolling arcade visuals, Pape implemented custom raster-based background rendering and sprite management routines entirely in software, bypassing the lack of hardware scrolling.
+Sprite **multiplexing** techniques were employed to manage on-screen entities with minimal flicker and optimal CPU usage.
+
+The entire development was done **directly on Spectrum hardware** using a combination of bespoke tools and modified assemblers, including a monitor ROM from the +3 model and routines adapted from **Spectrum Machine Language** by Steven Vickers.
+
+Real-time debugging was achieved through on-screen memory and register introspection routines.
+
+Audio was handled via the built-in beeper, using pulse-width modulation to simulate multiple sound channels, which was a significant technical feat on such limited hardware.
+
+For a comprehensive breakdown of the development process and the technical strategies used, Bob Pape’s own retrospective memoir **It's Behind You** is available online:  
+[https://www.bizzley.com](https://www.bizzley.com)
+
+---
 # References
 [^1]: [history - Back in the late 1980s, how was commercial software for 8-bit home computers developed? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/9006/back-in-the-late-1980s-how-was-commercial-software-for-8-bit-home-computers-dev#:~:text=,file%20on%20that%20distant%20mainframe)
 [^2]: [Sinclair User](https://worldofspectrum.org/archive/magazines/pages/sinclair-user/61/44) and [User john_e - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/users/1912/john-e)
