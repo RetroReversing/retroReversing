@@ -3,7 +3,7 @@ const reactDomUrl = "https://esm.sh/react-dom@18/client";
 const sandpackUrl = "https://esm.sh/@codesandbox/sandpack-react@2.7.2";
 const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.7.2";
 
-class Sandpack extends HTMLElement {
+class RRSandpack extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -14,11 +14,38 @@ class Sandpack extends HTMLElement {
       import(reactUrl),
       import(reactDomUrl),
       import(sandpackUrl),
-      import(themeUrl),
+      import(themeUrl)
     ]);
 
-    const code = this.getAttribute("code") || `document.body.innerHTML = "<h1>Hello Sandpack</h1>";`;
-    const template = this.getAttribute("template") || "vanilla";
+    const rawContent = this.textContent.trim();
+    let parsedFiles;
+
+    try {
+      parsedFiles = JSON.parse(rawContent);
+    } catch (err) {
+      console.error("Invalid JSON inside <rr-sandpack>", err);
+      return;
+    }
+
+    const files = {};
+    await Promise.all(
+      Object.entries(parsedFiles).map(async ([filename, value]) => {
+        if (value.code) {
+          files[filename] = { code: value.code };
+        } else if (value.file) {
+          try {
+            const res = await fetch(value.file);
+            if (!res.ok) throw new Error(`Failed to fetch ${value.file}`);
+            const content = await res.text();
+            files[filename] = { code: content };
+          } catch (err) {
+            files[filename] = { code: `// Error loading ${value.file}\n${err.message}` };
+          }
+        }
+      })
+    );
+
+    const template = this.getAttribute("template") || "react";
 
     const container = document.createElement("div");
     this.shadowRoot.appendChild(container);
@@ -28,9 +55,7 @@ class Sandpack extends HTMLElement {
       React.createElement(Sandpack, {
         template,
         theme: githubLight,
-        files: {
-          "/index.js": { code },
-        },
+        files,
         options: {
           showTabs: true,
           showLineNumbers: true,
@@ -42,4 +67,4 @@ class Sandpack extends HTMLElement {
   }
 }
 
-customElements.define("sandpack", Sandpack);
+customElements.define("rr-sandpack", RRSandpack);
