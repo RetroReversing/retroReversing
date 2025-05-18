@@ -165,6 +165,11 @@ The ROM header comprises several fields that define the cartridge's characterist
   </template>
 </rr-sandpack>
 
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx">
+</rr-sandpack>
+
 ---
 # Sound and Music
 
