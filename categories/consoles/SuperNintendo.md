@@ -158,10 +158,10 @@ The ROM header comprises several fields that define the cartridge's characterist
 <div>
 
 <script type="module" src="/public/js/sandpack/sandpack.js"></script>
-<rr-sandpack template="react">
+<rr-sandpack template="react-ts">
   <template>
   {
-    "/App.tsx": {
+    "/App.js": {
       "file": "/public/js/sandpack/examples/SnesRomHeaderViewer.tsx"
     }
   }
