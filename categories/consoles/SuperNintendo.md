@@ -155,15 +155,6 @@ The ROM header comprises several fields that define the cartridge's characterist
 - **0xFFDC–0xFFDD**: Checksum Complement  
 - **0xFFDE–0xFFDF**: Checksum  
 
-<rr-sandpack template="react-ts">
-  <template>
-  {
-    "/App.tsx": {
-      "file": "/public/js/sandpack/examples/SnesRomHeaderViewer.tsx"
-    }
-  }
-  </template>
-</rr-sandpack>
 
 <rr-sandpack
   template="react-ts"
