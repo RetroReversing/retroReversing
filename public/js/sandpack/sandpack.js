@@ -1,7 +1,7 @@
 const reactUrl = "https://esm.sh/react@18";
 const reactDomUrl = "https://esm.sh/react-dom@18/client";
 const sandpackUrl = "https://esm.sh/@codesandbox/sandpack-react@2.2.0";
-const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.2.0";
+const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.0.21";
 
 const defaultFiles = {
   "/App.js": {
