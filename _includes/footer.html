@@ -40,9 +40,11 @@
 <!-- End GeoPattern -->
 <script defer src="/public/js/main.js"></script>
 
-<script>
-    
-    
-  </script>
+<!-- Only include certain scripts when specific custom elements are used  -->
+<script type="module">
+  if (!customElements.get("rr-sandpack")) {
+    import("/public/js/sandpack/sandpack.js");
+  }
+</script>
 
 <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
