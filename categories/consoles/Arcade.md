@@ -166,7 +166,7 @@ MAME version 0.1 was released on February 5, 1997, by Italian programmer **Nicol
 * Frogger
 
 ### MAME32 first release
-The first release of MAME32 occurred on July 18, 1997, with version 0.26.1. This marked the debut of a Windows-based version of the Multiple Arcade Machine Emulator (MAME), featuring a graphical user interface (GUI) that simplified the process of loading and managing arcade ROMs. 
+The first release of MAME32 occurred on **July 18, 1997**, with version 0.26.1. This marked the debut of a Windows-based version of MAME, featuring a graphical user interface (GUI) that simplified the process of loading and managing arcade ROMs. 
 
 Developed by **Chris Kirmse**, MAME32 made arcade emulation more accessible to a broader audience by eliminating the need for command-line operations required in the original MS-DOS version of MAME.
 
