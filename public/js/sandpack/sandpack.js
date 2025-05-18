@@ -1,7 +1,9 @@
-const reactUrl = "https://esm.sh/react@18";
-const reactDomUrl = "https://esm.sh/react-dom@18/client";
-const sandpackUrl = "https://esm.sh/@codesandbox/sandpack-react@2.2.0";
-const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.0.21";
+const deps = "?deps=react@18,react-dom@18";
+
+const reactUrl = `https://esm.sh/react@18${deps}`;
+const reactDomUrl = `https://esm.sh/react-dom@18/client${deps}`;
+const sandpackUrl = `https://esm.sh/@codesandbox/sandpack-react@2.2.0${deps}`;
+const themeUrl = `https://esm.sh/@codesandbox/sandpack-themes@2.0.21${deps}`;
 
 const defaultFiles = {
   "/App.js": {
@@ -18,16 +20,17 @@ const defaultFiles = {
 class RRSandpack extends HTMLElement {
   constructor() {
     super();
-    this.attachShadow({ mode: "open" });
+    this._container = document.createElement("div");
+    this.appendChild(this._container);
   }
 
   async connectedCallback() {
-    const [React, ReactDOM, { Sandpack }, { githubLight }] = await Promise.all([
-      import(reactUrl),
-      import(reactDomUrl),
-      import(sandpackUrl),
-      import(themeUrl)
-    ]);
+    const [React, ReactDOM, { Sandpack }, { nightOwl }] = await Promise.all([
+  import(reactUrl),
+  import(reactDomUrl),
+  import(sandpackUrl),
+  import(themeUrl),
+]);
 
     let userFiles = {};
     const rawContent = this.textContent.trim();
@@ -62,17 +65,15 @@ class RRSandpack extends HTMLElement {
 
     const template = this.getAttribute("template") || "react";
 
-    const container = document.createElement("div");
-    this.shadowRoot.appendChild(container);
 
-    const root = ReactDOM.createRoot(container);
+    const root = ReactDOM.createRoot(this._container);
     root.render(
       React.createElement(Sandpack, {
         template,
-        theme: githubLight,
+        theme: nightOwl,
         files,
         options: {
-          showTabs: true,
+          showTabs: false,
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
