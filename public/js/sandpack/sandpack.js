@@ -44,17 +44,6 @@ class RRSandpack extends HTMLElement {
       }
     }
 
-    try {
-      userFiles = rawContent ? JSON.parse(rawContent) : {};
-        [...this.childNodes].forEach((node) => {
-      if (node.nodeType === Node.TEXT_NODE) {
-        this.removeChild(node);
-      }
-    });
-    } catch (err) {
-      console.error("Invalid JSON inside <rr-sandpack>", err);
-    }
-
     // Merge user files over defaults
     const combinedFiles = { ...defaultFiles, ...userFiles };
 
