@@ -66,7 +66,7 @@ class RRSandpack extends HTMLElement {
       })
     );
 
-    const template = this.getAttribute("template") || "react";
+    const template = this.getAttribute("template") || "react-ts";
 
 
     const root = ReactDOM.createRoot(this._container);
@@ -76,7 +76,7 @@ class RRSandpack extends HTMLElement {
         theme: nightOwl,
         files,
         options: {
-          showTabs: false,
+          showTabs: true,
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
