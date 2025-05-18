@@ -10,9 +10,15 @@ interface RomHeaderField {
 function SnesRomHeaderViewer() {
   const [fields, setFields] = useState<RomHeaderField[] | null>(null);
 
+  // Parse the SNES ROM Header
+  // buffer is the full SNES ROM file
   function parseHeader(buffer: Uint8Array): RomHeaderField[] | null {
-    const offset = buffer[0x7FD5] === 0x33 ? 0x7FC0 : 0x81C0;
-    if (buffer.length < offset + 0x20) return null;
+  // Heuristic: if the value at 0x7FD5 is 0x33, assume a valid LoROM header at 0x7FC0 (extended maker code);
+  // otherwise default to 0x81C0 (crude HiROM fallback). For production use, prefer checksum-based mapping detection.
+  const offset = buffer[0x7FD5] === 0x33 ? 0x7FC0 : 0x81C0;
+
+  // If the ROM is too small to contain a full header at the detected offset, abort.
+  if (buffer.length < offset + 0x20) return null;
 
     const getString = (start: number, len: number) =>
       new TextDecoder().decode(buffer.slice(offset + start, offset + start + len)).trim();
@@ -23,7 +29,8 @@ function SnesRomHeaderViewer() {
         .join('');
 
     return [
-      { label: 'Title', hex: getString(0, 21), readable: '' },
+      { label: 'Title', hex: getString(0, 0x15), readable: '' },
+      { label: 'ROM Mapping Mode', hex: getHex(0x15), readable: decodeRomMappingMode(getHex(0x15)) },
       { label: 'ROM Type', hex: getHex(0x16), readable: decodeRomType(getHex(0x16)) },
       { label: 'ROM Size', hex: getHex(0x17), readable: decodeRomSize(getHex(0x17)) },
       { label: 'SRAM Size', hex: getHex(0x18), readable: decodeSramSize(getHex(0x18)) },
@@ -291,4 +298,20 @@ export function decodeLicenseCode(hex: string): string {
   };
 
   return map[code] || `Unknown (0x${hex})`;
+}
+
+function decodeRomMappingMode(hex: string): string {
+  const val = parseInt(hex, 16);
+  const map: Record<number, string> = {
+    0x20: 'LoROM',
+    0x21: 'LoROM + FastROM',
+    0x30: 'HiROM',
+    0x31: 'HiROM + FastROM',
+    0x32: 'ExHiROM',
+    0x35: 'ExHiROM + FastROM',
+    0x40: 'SA-1',
+    0x43: 'SA-1 + FastROM',
+    0x50: 'S-DD1',
+  };
+  return map[val] || `Unknown (0x${hex})`;
 }
