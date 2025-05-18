@@ -24,10 +24,10 @@ function SnesRomHeaderViewer() {
 
     return [
       { label: 'Title', hex: getString(0, 21), readable: '' },
-      { label: 'ROM Type', hex: getHex(0x15), readable: decodeRomType(getHex(0x15)) },
-      { label: 'ROM Size', hex: getHex(0x16), readable: decodeRomSize(getHex(0x16)) },
-      { label: 'SRAM Size', hex: getHex(0x17), readable: decodeSramSize(getHex(0x17)) },
-      { label: 'Country', hex: getHex(0x18), readable: decodeCountry(getHex(0x18)) },
+      { label: 'ROM Type', hex: getHex(0x16), readable: decodeRomType(getHex(0x16)) },
+      { label: 'ROM Size', hex: getHex(0x17), readable: decodeRomSize(getHex(0x17)) },
+      { label: 'SRAM Size', hex: getHex(0x18), readable: decodeSramSize(getHex(0x18)) },
+      { label: 'Country', hex: getHex(0x19), readable: decodeCountry(getHex(0x19)) },
       { label: 'License Code', hex: getHex(0x19), readable: decodeLicenseCode(getHex(0x19)) },
       { label: 'Version', hex: getHex(0x1B), readable: `1.${getHex(0x1B)}` },
       { label: 'Checksum Complement', hex: getHex(0x1C, 2), readable: '' },
@@ -121,6 +121,15 @@ export function decodeCountry(hex: string): string {
     0x0A: 'Italy',
     0x0B: 'China',
     0x0C: 'Indonesia',
+    0x0D: 'South Korea',
+    0x0E: 'Other (Asia)',
+    0x0F: 'Other (World)',
+    0x10: 'Canada',
+    0x11: 'Brazil',
+    0x12: 'Australia',
+    0x13: 'Other (PAL)',
+    0x14: 'Other (NTSC)',
+    0x15: 'Other (Unified)',
   };
   return map[parseInt(hex, 16)] || 'Unknown';
 }
