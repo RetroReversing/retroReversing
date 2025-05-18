@@ -1,3 +1,23 @@
+// Example Usage with full control of multiple files:
+// <rr-sandpack template="react-ts" show-tabs>
+//   <template>
+//   {
+//     "/App.tsx": {
+//       "file": "/public/js/sandpack/examples/SnesRomHeaderViewer.tsx"
+//     }
+//     "/code.ts": {
+//       "code": "console.log('hello world')"
+//     }
+//   }
+//   </template>
+// </rr-sandpack>
+
+//  Simple example usage that only overrides the App.tsx
+// <rr-sandpack
+//   template="react-ts"
+//   app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx">
+// </rr-sandpack>
+
 const deps = "?deps=react@18,react-dom@18";
 
 const reactUrl = `https://esm.sh/react@18${deps}`;
@@ -72,6 +92,7 @@ class RRSandpack extends HTMLElement {
     );
 
     const template = this.getAttribute("template") || "react-ts";
+    const showTabs = this.getAttribute("show-tabs") || false;
 
 
     const root = ReactDOM.createRoot(this._container);
@@ -81,7 +102,7 @@ class RRSandpack extends HTMLElement {
         theme: nightOwl,
         files,
         options: {
-          showTabs: true,
+          showTabs,
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
