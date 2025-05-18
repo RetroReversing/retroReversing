@@ -1,7 +1,19 @@
 const reactUrl = "https://esm.sh/react@18";
 const reactDomUrl = "https://esm.sh/react-dom@18/client";
-const sandpackUrl = "https://esm.sh/@codesandbox/sandpack-react@2.7.2";
-const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.7.2";
+const sandpackUrl = "https://esm.sh/@codesandbox/sandpack-react@2.2.0";
+const themeUrl = "https://esm.sh/@codesandbox/sandpack-themes@2.2.0";
+
+const defaultFiles = {
+  "/App.js": {
+    code: `export default function App() { return <h1>Default Example</h1>; }`
+  },
+  "/index.js": {
+    code: `import App from './App';\nimport { createRoot } from 'react-dom/client';\ncreateRoot(document.getElementById('root')).render(<App />);`
+  },
+  "/index.html": {
+    code: `<div id='root'></div>`
+  }
+};
 
 class RRSandpack extends HTMLElement {
   constructor() {
@@ -17,19 +29,22 @@ class RRSandpack extends HTMLElement {
       import(themeUrl)
     ]);
 
+    let userFiles = {};
     const rawContent = this.textContent.trim();
-    let parsedFiles;
 
     try {
-      parsedFiles = JSON.parse(rawContent);
+      userFiles = rawContent ? JSON.parse(rawContent) : {};
     } catch (err) {
       console.error("Invalid JSON inside <rr-sandpack>", err);
-      return;
     }
 
+    // Merge user files over defaults
+    const combinedFiles = { ...defaultFiles, ...userFiles };
+
+    // Resolve fetches
     const files = {};
     await Promise.all(
-      Object.entries(parsedFiles).map(async ([filename, value]) => {
+      Object.entries(combinedFiles).map(async ([filename, value]) => {
         if (value.code) {
           files[filename] = { code: value.code };
         } else if (value.file) {
