@@ -33,10 +33,24 @@ class RRSandpack extends HTMLElement {
 ]);
 
     let userFiles = {};
-    const rawContent = this.textContent.trim();
+    const tpl = this.querySelector("template");
+
+    if (tpl) {
+      try {
+        const raw = tpl.innerHTML.trim();
+        userFiles = JSON.parse(raw);
+      } catch (err) {
+        console.error("Invalid JSON inside <template>", err);
+      }
+    }
 
     try {
       userFiles = rawContent ? JSON.parse(rawContent) : {};
+        [...this.childNodes].forEach((node) => {
+      if (node.nodeType === Node.TEXT_NODE) {
+        this.removeChild(node);
+      }
+    });
     } catch (err) {
       console.error("Invalid JSON inside <rr-sandpack>", err);
     }
