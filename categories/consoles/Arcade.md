@@ -152,7 +152,28 @@ Speed-up kits played a significant role in the arcade industry's evolution:
 
 
 ---
-# MAME
+# MAME: The Multiple Arcade Machine Emulator
+MAME (Multiple Arcade Machine Emulator) is a free and open-source project that emulates the hardware of arcade systems, allowing classic games to run on modern platforms. Its primary goal is to preserve decades of software history by accurately documenting and replicating the behavior of original arcade hardware.
+
+## History of MAME
+![MAME32](https://github.com/user-attachments/assets/63931c3c-1316-4c15-ba2b-e90dd137d698)
+
+MAME version 0.1 was released on February 5, 1997, by Italian programmer **Nicola Salmoria**. This first version was a command-line application for MS-DOS and supported five games: ￼ ￼
+* Pac-Man
+* Pengo
+* Phoenix
+* Pleiads
+* Frogger
+
+### MAME32 first release
+The first release of MAME32 occurred on July 18, 1997, with version 0.26.1. This marked the debut of a Windows-based version of the Multiple Arcade Machine Emulator (MAME), featuring a graphical user interface (GUI) that simplified the process of loading and managing arcade ROMs. 
+
+Developed by **Chris Kirmse**, MAME32 made arcade emulation more accessible to a broader audience by eliminating the need for command-line operations required in the original MS-DOS version of MAME.
+
+### MAME Merge with MESS
+In 2015, MAME merged with **MESS** (Multi Emulator Super System), expanding its scope to include home consoles, computers, and calculators.
+
+### MAME In the Press
 Even as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
 ![AracadiaIssue1MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
@@ -165,3 +186,4 @@ Even as far back as June 2000 **MAME** was being advertised in Japanese magazine
 [^4]: Retro Gamer Issue 97 page 57
 [^5]: Inside Atari Games ("The One" Magazine 1990) and on http://www.atari-explorer.com/articles/articles-atari-games.html
 [^6]: [Upgrade kits, lawsuits and Lite-Brite: How Ms. Pac-Man was made](https://www.gamedeveloper.com/business/upgrade-kits-lawsuits-and-lite-brite-how-i-ms-pac-man-i-was-made?utm_source=chatgpt.com)
+[^7]: [MAMEdev.org - Home of The MAME Project](https://www.mamedev.org/?utm_source=chatgpt.com)
