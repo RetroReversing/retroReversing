@@ -26,11 +26,11 @@ class RRSandpack extends HTMLElement {
 
   async connectedCallback() {
     const [React, ReactDOM, { Sandpack }, { nightOwl }] = await Promise.all([
-  import(reactUrl),
-  import(reactDomUrl),
-  import(sandpackUrl),
-  import(themeUrl),
-]);
+    import(reactUrl),
+    import(reactDomUrl),
+    import(sandpackUrl),
+    import(themeUrl),
+  ]);
 
     let userFiles = {};
     const tpl = this.querySelector("template");
@@ -42,6 +42,11 @@ class RRSandpack extends HTMLElement {
       } catch (err) {
         console.error("Invalid JSON inside <template>", err);
       }
+    }
+
+    const appFileUrl = this.getAttribute("app");
+    if (appFileUrl) {
+      userFiles["/App.tsx"] = { file: appFileUrl };
     }
 
     // Merge user files over defaults
