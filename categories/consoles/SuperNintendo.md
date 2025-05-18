@@ -155,6 +155,12 @@ The ROM header comprises several fields that define the cartridge's characterist
 - **0xFFDC–0xFFDD**: Checksum Complement  
 - **0xFFDE–0xFFDF**: Checksum  
 
+<script type="module" src="/public/js/sandpack/sandpack.js"></script>
+<sandpack
+  template="vanilla"
+  code='document.body.innerHTML = "<h2>SNES Header Example</h2>";'
+></sandpack>
+
 ---
 # Sound and Music
 
