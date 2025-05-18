@@ -156,6 +156,7 @@ Speed-up kits played a significant role in the arcade industry's evolution:
 MAME (Multiple Arcade Machine Emulator) is a free and open-source project that emulates the hardware of arcade systems, allowing classic games to run on modern platforms. Its primary goal is to preserve decades of software history by accurately documenting and replicating the behavior of original arcade hardware.
 
 ## History of MAME
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mse3Wo0hbLE?si=8otkKlDYUzI7koyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 MAME version 0.1 was released on February 5, 1997, by Italian programmer **Nicola Salmoria**. This first version was a command-line application for MS-DOS and supported five games: ￼ ￼
 * Pac-Man
 * Pengo
