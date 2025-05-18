@@ -155,9 +155,6 @@ The ROM header comprises several fields that define the cartridge's characterist
 - **0xFFDC–0xFFDD**: Checksum Complement  
 - **0xFFDE–0xFFDF**: Checksum  
 
-<div>
-
-<script type="module" src="/public/js/sandpack/sandpack.js"></script>
 <rr-sandpack template="react-ts">
   <template>
   {
@@ -167,8 +164,6 @@ The ROM header comprises several fields that define the cartridge's characterist
   }
   </template>
 </rr-sandpack>
-
-</div>
 
 ---
 # Sound and Music
