@@ -15,7 +15,9 @@
 //  Simple example usage that only overrides the App.tsx
 // <rr-sandpack
 //   template="react-ts"
-//   app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx">
+//   app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx"
+//   editor-height="500"
+//   editor-width="70">
 // </rr-sandpack>
 
 const deps = "?deps=react@18,react-dom@18";
@@ -36,7 +38,10 @@ const defaultFiles = {
     code: `import App from './App';\nimport { createRoot } from 'react-dom/client';\ncreateRoot(document.getElementById('root')).render(<App />);`
   },
   "/index.html": {
-    code: `<div id='root'></div>`
+    code: `<link href="/index.css" rel="stylesheet">\n<div id='root'></div>`
+  },
+  "/index.css": {
+    code: `.w-full { width: 100%; }\n.px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }\n.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }\n.font-medium { font-weight: 500; }\n.capitalize { text-transform: capitalize; }`
   }
 };
 
@@ -73,6 +78,9 @@ class RRSandpack extends HTMLElement {
 
     const templateAttr = this.getAttribute("template") || "react-ts";
     const showTabsAttr = this.hasAttribute("show-tabs");
+
+    const editorHeight = parseInt(this.getAttribute("editor-height") || "400", 10);
+    const editorWidth = parseInt(this.getAttribute("editor-width") || "60", 10);
 
     let userFiles = {};
     const tpl = this.querySelector("template");
@@ -119,8 +127,7 @@ class RRSandpack extends HTMLElement {
     root.render(
       React.createElement(Sandpack, {
         template: templateAttr,
-        //theme: nightOwl,
-        theme:"auto",
+        theme: "auto",
         files,
         options: {
           externalResources: ["https://cdn.tailwindcss.com"],
@@ -129,8 +136,8 @@ class RRSandpack extends HTMLElement {
           showLineNumbers: true,
           showConsoleButton: true,
           wrapContent: true,
-          editorHeight: 400, // default was 300
-          editorWidthPercentage: 60
+          editorHeight,
+          editorWidthPercentage: editorWidth,
         },
       })
     );
