@@ -198,11 +198,13 @@ At CppCon 2016 **Miodrag Milanović** gave a fantastic talk about how MAME moved
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAUnUWYaA5s?si=zhEr2jsf42yx0Hr-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
-## MAME In the Press
-Even as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
-![Aracadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
+## MAME in the Press
+MAME was first mentioned in issue 45 of EDGE magazine back in May 1997, only a few months afte the first release, ever since then it has been mentioned in hundreds of magazines, books and newspapers.
 
-MAME was featured in Edge magazine in **October 2002**, where it was described as "by far the greatest and most important piece of videogaming code ever written"[^11].
+It wasn't just western media either, as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
+![Arcadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
+
+MAME was again featured in EDGE magazine in **October 2002**, where it was described as "by far the greatest and most important piece of videogaming code ever written"[^11].
 
 ---
 # References
