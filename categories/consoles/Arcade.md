@@ -197,11 +197,12 @@ In 2015, MAME merged with **MESS** (Multi Emulator Super System), expanding its 
 At CppCon 2016 **Miodrag Milanović** gave a fantastic talk about how MAME moved from C to modern C++, which helped with better compatibility, portability, and overall better code, you can watch it on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAUnUWYaA5s?si=zhEr2jsf42yx0Hr-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-
-### MAME In the Press
+---
+## MAME In the Press
 Even as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
 ![Aracadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
+MAME was featured in Edge magazine in **October 2002**, where it was described as "by far the greatest and most important piece of videogaming code ever written"[^11].
 
 ---
 # References
@@ -215,3 +216,4 @@ Even as far back as June 2000 **MAME** was being advertised in Japanese magazine
 [^8]: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates?utm_source=chatgpt.com)
 [^9]: [The Internet Arcade – Internet Archive Help Center](https://help.archive.org/help/the-internet-arcade/)
 [^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
+[^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)
