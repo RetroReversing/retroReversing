@@ -173,23 +173,34 @@ All of the first games used a Z80 CPU, the first non-z80 game was Centipede whic
 
 For a full release history of MAME check out: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates?utm_source=chatgpt.com)
 
-### MAME32 first release
+### 1997 July - MAME32 first release
 ![MAME32](https://github.com/user-attachments/assets/63931c3c-1316-4c15-ba2b-e90dd137d698)
 The first release of MAME32 occurred on **July 18, 1997**, with version 0.26.1 [^8]. This marked the debut of a Windows-based version of MAME, featuring a graphical user interface (GUI) that simplified the process of loading and managing arcade ROMs. 
 
 Developed by **Chris Kirmse**, MAME32 made arcade emulation more accessible to a broader audience by eliminating the need for command-line operations required in the original MS-DOS version of MAME.
 
-### MAME Merge with MESS
+---
+### 2014 - The Internet Arcade
+The Internet Arcade was first launched in early November 2014, it enables users to play classic arcade games directly in their web browser by leveraging **JSMESS**, a JavaScript port of the MAME emulator [^9].
+
+JSMESS was created by cross-compiling the original C/C++ codebase into JavaScript using **Emscripten**, a toolchain that translates C/C++ code into asm.js or WebAssembly for high-performance execution in browsers.
+
+The original source code for JSMESS, is still available on [JSMESS original Github](https://github.com/jsmess/jsmess). But please note that it has now been integrated into the **main MAME repository**, so this repository is now **archived** and no longer actively maintained, but the source remains accessible for historical and reference purposes.
+
+For an up-to-date build of JSMESS you can follow the Emscripten part of the guide here: [Compiling MAME — MAME Documentation 0.278 documentation](https://docs.mamedev.org/initialsetup/compilingmame.html#emscripten-javascript-and-html)
+
+---
+### 2015 - MAME merges with MESS
 In 2015, MAME merged with **MESS** (Multi Emulator Super System), expanding its scope to include home consoles, computers, and calculators.
 
-### CppCon 2016 - The MAME story: From C to Modern C++
+### 2016 - CppCon The MAME story: From C to Modern C++
 At CppCon 2016 **Miodrag Milanović** gave a fantastic talk about how MAME moved from C to modern C++, which helped with better compatibility, portability, and overall better code, you can watch it on youtube below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wAUnUWYaA5s?si=zhEr2jsf42yx0Hr-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### MAME In the Press
 Even as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
-![AracadiaIssue1MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
+![Aracadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
 
 ---
@@ -202,3 +213,5 @@ Even as far back as June 2000 **MAME** was being advertised in Japanese magazine
 [^6]: [Upgrade kits, lawsuits and Lite-Brite: How Ms. Pac-Man was made](https://www.gamedeveloper.com/business/upgrade-kits-lawsuits-and-lite-brite-how-i-ms-pac-man-i-was-made?utm_source=chatgpt.com)
 [^7]: [MAMEdev.org - Home of The MAME Project](https://www.mamedev.org/?utm_source=chatgpt.com)
 [^8]: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates?utm_source=chatgpt.com)
+[^9]: [The Internet Arcade – Internet Archive Help Center](https://help.archive.org/help/the-internet-arcade/)
+[^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
