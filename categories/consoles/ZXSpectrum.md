@@ -16,8 +16,8 @@ breadcrumbs:
   - name: Reverse Engineering Sinclair ZX Spectrum Games
     url: #
 recommend: 
+ - zxspectrum
  - nes
- - snes
 recommendTitle: All ZX Spectrum Posts
 editlink: ../categories/consoles/ZXSpectrum.md
 _updatedAt: '2025-05-17'
@@ -25,13 +25,16 @@ _updatedAt: '2025-05-17'
 The Sinclair ZX Spectrum, launched in 1982, was a pivotal 8-bit home computer that democratized computing and game development in the UK. 
 Its affordability and accessibility spurred a generation of bedroom coders and laid the groundwork for the British games industry.
 
+---
 # Hardware
 
 ## Retail Hardware
+The ZX Spectrum line went through several hardware iterations during the 1980s, all centered on the same basic architecture (**Zilog Z80A CPU** running at **3.5 MHz**, ZX Spectrum ULA chip, with models offering either 16KB, 48KB, 128KB of RAM.
 
-The original ZX Spectrum featured a **Zilog Z80A CPU** running at **3.5 MHz**, with models offering either 16KB or 48KB of RAM.
+* **ZX Spectrum 16K/48K (1982)**: The original Spectrum was released in two memory variants – one with 16 KB RAM and one with 48 KB RAM
+* **ZX Spectrum 128 (1985/86)**: The first major upgrade came with the Spectrum 128K nicknamed "Toastrack", it doubled the ROM (32 KB) and expanded RAM to 128 KB! It also introduced an actual sound chip – the General Instrument AY-3-8912, providing 3-channel, multi-voice sound output.
 
-It utilized a membrane keyboard and output video through an RF modulator, supporting a **256×192** pixel resolution with a palette of 15 colors. 
+They utilized a membrane keyboard and output video through an RF modulator, supporting a **256×192** pixel resolution with a palette of 15 colors. 
 
 However, due to memory constraints, color information was stored separately in a 32×24 grid, leading to the infamous "attribute clash" where only two colors could be displayed per 8×8 pixel block.
 
