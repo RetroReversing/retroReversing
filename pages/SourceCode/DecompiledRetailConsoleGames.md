@@ -184,7 +184,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/5/59/Harvest_Moon_-_A_Wonderful_Life_Coverart.png){:width="100"} [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/49/Homeland_GC.jpg){:width="100"} [Homeland](https://github.com/bttrdrgn/homeland)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg){:width="100"} [Kirby Air Ride](https://github.com/doldecomp/kar)              | Decompilation | Inactive |
-|![](https://images.weserv.nl/?url=art.gametdb.com/wii/coverfullHQ/JA/GLMJ01.png&cx=548&cy=0&cw=512&ch=680){:width="100"} [Luigi's Mansion](https://github.com/Moddimation/Yasiki)              | Decompilation | Active |
+|![](https://images.weserv.nl/?url=art.gametdb.com/wii/coverfullHQ/JA/GLMJ01.png&cx=548&cy=0&cw=512&ch=680){:width="100"} [Luigi's Mansion](https://github.com/Moddimation/Yasiki)              | Decompilation | Active, 6% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg){:width="100"} [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)              | Decompilation | Active, 34% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg){:width="100"} [Mario Party 4](https://github.com/mariopartyrd/marioparty4)              | Decompilation | Active, 99% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG){:width="100"} [Mario Party 5](https://github.com/mariopartyrd/marioparty5)              | Decompilation | Active, 8% Done |
@@ -193,6 +193,8 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg){:width="100"} [Mario Superstar Baseball](https://github.com/roeming/mssbdecomp)              | Decompilation | Active, 7% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg){:width="100"} [Metroid Prime](https://github.com/PrimeDecomp/prime)              | Decompilation | Active, 22% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/6/6e/Echoesboxart_%28Large%29.jpg){:width="100"} [Metroid Prime 2: Echoes](https://github.com/PrimeDecomp/echoes)              | Decompilation | Active, 1% Done |
+|![](https://static.wikia.nocookie.net/nintendo/images/7/73/Need_for_Speed_Most_Wanted_%28GC%29_%28NA%29.jpg){:width="100"} [Need for Speed: Most Wanted](https://github.com/dbalatoni13/nfsmw)              | Decompilation | Active |
+|![](https://static.wikia.nocookie.net/nintendo/images/c/c1/Need_For_Speed_Underground_%28GC%29_%28NA%29.jpg){:width="100"} [Need for Speed: Underground](https://github.com/dbalatoni13/nfsug)              | Decompilation | Active |
 |![](https://static.wikia.nocookie.net/naruto/images/d/de/Clash_4.jpg){:width="100"} [Naruto: Gekitō Ninja Taisen! 4](https://github.com/doldecomp/gnt4)              | Decompilation | Inactive |
 |![](https://mario.wiki.gallery/images/c/c4/PMTTYD.jpg){:width="100"} [Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd)              | Decompilation | Active, 14% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg){:width="100"} [Pikmin](https://github.com/projectPiki/pikmin)              | Decompilation | Active, 50% Done |
@@ -316,6 +318,9 @@ The following table presents the latest updates on ongoing Game Boy reverse engi
 
 ## Nintendo DS
 
+### Castlevania: Order of Ecclesia
+{% include link-to-other-site.html url="https://github.com/lagolunatic/ooe" description="This is a decompilation of Castlevania: Order of Ecclesia." image="https://static.wikia.nocookie.net/nintendo/images/b/ba/Castlevania_Order_of_Ecclesia_%28NA%29.jpg" title="Decompilation of Castlevania: Order of Ecclesia"  %}
+
 ### Mario & Luigi - Partners in Time
 {% include link-to-other-site.html url="https://github.com/rainchus/partnersintime-decomp" description="This is a decompilation of Mario & Luigi - Partners in Time." image="https://static.wikia.nocookie.net/nintendo/images/c/c3/Mario_%26_Luigi_-_Partners_in_Time_%28NA%29.png" title="Decompilation of Mario & Luigi - Partners in Time"  %}
 
@@ -333,6 +338,9 @@ The following table presents the latest updates on ongoing Game Boy reverse engi
 
 ### The Legend of Zelda: Phantom Hourglass
 {% include link-to-other-site.html url="https://github.com/zeldaret/ph" description="This is a decompilation of The Legend of Zelda: Phantom Hourglass." image="https://static.wikia.nocookie.net/nintendo/images/6/6b/Legend_of_Zelda_Phantom_Hourglass_%28NA%29.jpg" title="Decompilation of The Legend of Zelda: Phantom Hourglass"  %}
+
+### The Legend of Zelda: Spirit Tracks
+{% include link-to-other-site.html url="https://github.com/yanis002/st" description="This is a decompilation of The Legend of Zelda: Spirit Tracks." image="https://static.wikia.nocookie.net/nintendo/images/0/0f/Legend_of_Zelda_Spirit_Tracks_%28NA%29.png" title="Decompilation of The Legend of Zelda: Spirit Tracks"  %}
 
 ---
 
