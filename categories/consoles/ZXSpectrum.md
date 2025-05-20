@@ -108,6 +108,8 @@ Gargoyle Software used to use Amstrad PCW8512's to write ZX Spectrum games accor
 
 ![An AI image of what it thinks Gargoyle game development looked like](https://github.com/user-attachments/assets/afd5624b-89cc-47af-b082-9b677689d0c0)
 
+### HexLoader
+The original Hex Loader, first published in **Your Spectrum** issue 8 (October 1984), was designed to facilitate the manual entry of machine code programs printed in hexadecimal format within the magazine. These listings typically consisted of 8 bytes per line, each followed by a checksum. The loader allowed users to input these hex codes directly into memory, verifying each line's integrity via the checksum [^4].
 
 ---
 ## Was There an Official SDK?
@@ -181,3 +183,4 @@ For a comprehensive breakdown of the development process and the technical strat
 [^1]: [history - Back in the late 1980s, how was commercial software for 8-bit home computers developed? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/9006/back-in-the-late-1980s-how-was-commercial-software-for-8-bit-home-computers-dev#:~:text=,file%20on%20that%20distant%20mainframe)
 [^2]: [Sinclair User](https://worldofspectrum.org/archive/magazines/pages/sinclair-user/61/44) and [User john_e - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/users/1912/john-e)
 [^3]: [history - How were the first ZX Spectrum games written? - Retrocomputing Stack Exchange](https://retrocomputing.stackexchange.com/questions/3314/how-were-the-first-zx-spectrum-games-written#:~:text=Zeus%20could%20be%20used%20stand,the%20market%20via%20retail%20outlets)
+[^4]: [Hex Loader](https://worldofspectrum.org/archive/software/utilities/hex-loader-your-sinclair)
