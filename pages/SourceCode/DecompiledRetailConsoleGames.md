@@ -462,7 +462,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider 1-5](https://github.com/XProger/OpenLara)              | Game Engine Reimplementation | First Game Fully Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3d/Twisted_Metal_cover.jpg){:width="100"} [Twisted Metal](https://github.com/abelbriggs1/tm1_decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg){:width="100"} [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg){:width="100"} [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)              | Decompilation | Active, 6% Done |
 
 ---
 
