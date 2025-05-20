@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2025-05-17'
+updatedAt: '2025-05-20'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -122,6 +122,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg){:width="100"} [Chameleon Twist](https://github.com/chameleontwistret/chameleontwistv1.0-jp)              | Decompilation | Active, 44% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/2/28/Chameleon_Twist_2_cover.jpg){:width="100"} [Chameleon Twist 2](https://github.com/chameleontwistret/chameleontwist2v1.0-jp)              | Decompilation | Active, 3% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg){:width="100"} [Conker's Bad Fur Day](https://github.com/mkst/conker)              | Decompilation | Inactive, 4% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/8/84/Darkrift.jpg){:width="100"} [Dark Rift](https://github.com/unnunu/darkrift)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg){:width="100"} [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)              | Decompilation | Active, 87% Done |
 |![](https://static.wikia.nocookie.net/starfox/images/1/1f/Dinosaur_planet_wallpaper.jpg){:width="100"} [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)              | Decompilation | Active, 8% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg){:width="100"} [Donkey Kong 64](https://gitlab.com/dk64_decomp/dk64)              | Decompilation | Active, 56% Done |
@@ -139,6 +140,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg){:width="100"} [GoldenEye 007](https://github.com/n64decomp/007)              | Decompilation | Active, 71% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png){:width="100"} [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp)              | Decompilation | Active, 67% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c1/Kirby64_box.jpg){:width="100"} [Kirby 64: The Crystal Shards](https://github.com/kirby64ret/kirby64)              | Decompilation | Active, 12% Done |
+|![](https://static.wikia.nocookie.net/nintendo/images/0/01/LEGO_Racer_%28NA%29.jpg){:width="100"} [Lego Racers](https://github.com/marijnvdwerf/lego-racers)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/66/Mario_Golf_box.jpg){:width="100"} [Mario Golf](https://github.com/monde-lointain/mariogolf64)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a1/Mario_Kart_64.jpg){:width="100"} [Mario Kart 64](https://github.com/n64decomp/mk64)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cd/Marioparty1.jpg){:width="100"} [Mario Party](https://github.com/mariopartyrd/marioparty)              | Decompilation | Active |
@@ -184,7 +186,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/5/59/Harvest_Moon_-_A_Wonderful_Life_Coverart.png){:width="100"} [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/49/Homeland_GC.jpg){:width="100"} [Homeland](https://github.com/bttrdrgn/homeland)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg){:width="100"} [Kirby Air Ride](https://github.com/doldecomp/kar)              | Decompilation | Inactive |
-|![](https://images.weserv.nl/?url=art.gametdb.com/wii/coverfullHQ/JA/GLMJ01.png&cx=548&cy=0&cw=512&ch=680){:width="100"} [Luigi's Mansion](https://github.com/Moddimation/Yasiki)              | Decompilation | Active, 6% Done |
+|![](https://static.wikia.nocookie.net/nintendo/images/5/5d/Luigi%27s_Mansion_Japan.jpg){:width="100"} [Luigi's Mansion](https://github.com/Moddimation/Yasiki)              | Decompilation | Active, 6% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/7/78/Mario_Kart_Double_Dash.jpg){:width="100"} [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)              | Decompilation | Active, 34% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/5/58/Mario_Party_4.jpg){:width="100"} [Mario Party 4](https://github.com/mariopartyrd/marioparty4)              | Decompilation | Active, 99% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG){:width="100"} [Mario Party 5](https://github.com/mariopartyrd/marioparty5)              | Decompilation | Active, 8% Done |
@@ -346,6 +348,9 @@ The following table presents the latest updates on ongoing Game Boy reverse engi
 
 ## Nintendo 3DS
 
+### Paper Mario: Sticker Star
+{% include link-to-other-site.html url="https://github.com/darxoon/leaflitter" description="This is a decompilation of Paper Mario: Sticker Star." image="https://static.wikia.nocookie.net/nintendo/images/7/7c/Paper_Mario_Sticker_Star_%28NA%29.png" title="Paper Mario: Sticker Star Decompilation"  %}
+
 ### Super Mario 3D Land (EU)
 {% include link-to-other-site.html url="https://github.com/3dsdecomp/RedPepper" description="This is a decompilation of the EU version of Super Mario 3D Land." image="https://upload.wikimedia.org/wikipedia/en/4/42/Super-Mario-3D-Land-Logo.jpg" title="Super Mario 3D Land EU Decompilation"  %}
 
@@ -412,7 +417,10 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 ## Sega Dreamcast (DC)
 
 ### Sonic Adventure (DC)
-{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast" image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+
+### Tokyo Bus Guide
+{% include link-to-other-site.html url="https://github.com/lhsazevedo/tbg-decomp" description="This is a decompilation of Tokyo Bus Guide for the Dreamcast." image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/dreamcast/dc_tokyobusguide_jp_thumb.jpg" title="Tokyo Bus Guide Decompilation"  %}
 
 ---
 
@@ -454,6 +462,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png){:width="100"} [Tomb Raider 1-5](https://github.com/XProger/OpenLara)              | Game Engine Reimplementation | First Game Fully Playable |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3d/Twisted_Metal_cover.jpg){:width="100"} [Twisted Metal](https://github.com/abelbriggs1/tm1_decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/2/26/Vandal_Hearts_Coverart.png){:width="100"} [Vandal Hearts](https://github.com/shao113/vh)              | Decompilation | Active |
+|![](https://upload.wikimedia.org/wikipedia/en/6/6f/Xenogears_box.jpg){:width="100"} [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)              | Decompilation | Active |
 
 ---
 
@@ -462,8 +471,8 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ### Fatal Frame  
 {% include link-to-other-site.html url="https://github.com/Mikompilation/Himuro" description="Decompilation project for Fatal Frame 1." image="https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png" title="Decompilation project for Fatal Frame 1 for the PS2"  %}
 
-### Fatal Frame 2: Crimson Butterfly  
-{% include link-to-other-site.html url="https://github.com/Mikompilation/Mikompilation" description="Decompilation project for Fatal Frame 2 : Crimson Butterfly game engine. Our goal is to have a fully playable port on PC and maybe on future platforms too." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for Fatal Frame 2: Crimson Butterfly for the PS2"  %}
+### Fatal Frame 2  
+{% include link-to-other-site.html url="https://github.com/Mikompilation/Minakami" description="Decompilation project for Fatal Frame 2." image="https://upload.wikimedia.org/wikipedia/en/a/af/Fatal_Frame_II_-_Crimson_Butterfly.jpg" title="Decompilation project for Fatal Frame 2: Crimson Butterfly for the PS2"  %}
 
 ### Jak & Daxter 1-2
 {% include link-to-other-site.html url="https://github.com/open-goal/jak-project" description="This project is to port Jak 1 (NTSC, 'black label' version) to PC. Over 98% of this game is written in GOAL, a custom Lisp language developed by Naughty Dog." image="https://upload.wikimedia.org/wikipedia/en/b/b6/Jak_and_Daxter_-_The_Precursor_Legacy_Coverart.png" title="Jak Project: Reviving the language that brought us the Jak & Daxter Series"  %}
@@ -485,6 +494,9 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 
 ### Sly Cooper and the Thievius Raccoonus
 {% include link-to-other-site.html url="https://github.com/TheOnlyZac/sly1" description="This is a work-in-progress, experimental decompilation of Sly Cooper and the Thievius Raccoonus for the PlayStation 2. It is based on the NTSC-U version of the game (SCUS-971.98)" image="https://upload.wikimedia.org/wikipedia/en/8/8e/SlyCooper2002cover.jpg" title="Decompilation of Sly Cooper and the Thievius Raccoonus for the PS2"  %}
+
+### Street Fighter III: 3rd Strike  
+{% include link-to-other-site.html url="https://github.com/apstygo/sfiii-decomp" description="This is a decompilation project for Street Fighter III: 3rd Strike for the PS2." image="https://upload.wikimedia.org/wikipedia/fr/c/c2/Street_Fighter_III_3rd_Strike_Fight_for_the_Future_Logo.png" title="Decompilation project for Street Fighter III: 3rd Strike for the PS2"  %}
 
 ### Twisted Metal: Black  
 {% include link-to-other-site.html url="https://github.com/abelbriggs1/tmb_decomp" description="This is a decompilation project for Twisted Metal: Black for the PS2." image="https://upload.wikimedia.org/wikipedia/en/9/9e/Twisted_Metal_Black.jpg" title="Decompilation project for Twisted Metal: Black for the PS2"  %}
