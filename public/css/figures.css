@@ -1,0 +1,51 @@
+
+/* Now figures  */
+.post {
+  figcaption {
+/*     text-align: center; */
+    a {
+      text-decoration: none 
+    }
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+    color: #555;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+/*   h2 + figure + p {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  } */
+  
+  h2 + figure + p::before {
+    content: '';
+    display: block;
+    width: 0; /* placeholder to ensure the layout works */
+  }
+  
+  h2 + figure {
+    float: left;
+/*     margin-right: -4rem; */
+    margin-bottom: 2rem;
+    display: flex;
+  }
+  
+  h2 + figure img {
+    width:100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    float:left;
+  }
+
+  h1,h2,h3,h4,h5,hr {
+/*  The clear property tells the browser that the element should not be positioned next to floated elements both is left and right floats    */
+    clear: both;
+  }
+}

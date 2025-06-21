@@ -26,14 +26,8 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your SNES controller, and get ready to dive into the exciting world of Super Nintendo reverse engineering!
 
-
-## State of SNES Emulation
-Every three years **Near** created an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen.
-
-{% include link-to-other-site.html url="https://near.sh/articles/emulation/state-of-emulation-v" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
-
 ---
-# SNES Game Development
+# SNES Game Development Process
 
 ## How long did it take to develop games for the SNES back in the day?
 On average, SNES game development could take anywhere from several months to a couple of years. Some simpler or shorter games might be developed more quickly, while larger, more complex titles could take longer.
@@ -47,6 +41,31 @@ Some examples of the length of time it took to develop Super Nintendo games are:
   - Music:	Geoff Follin and Tim Follin
 * **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.
 * **RPM Racing (Interplay)** - In an interview with SuperPro (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
+
+---
+## How would teams send their games to QA or to the press?
+**FTP servers** were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
+
+---
+## How large were SNES game development teams?
+According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
+
+In an interview with **Shigeru Miyamoto** he states that development takes can get up to about 20 or so people in the later half of the development cycle [^9]:
+> For our development teams, for the beginning of the first year its usually comprised of 3 to 4 people, then about half a year in we start adding people until about the 8 month mark, where we reach a team of 20 or so. A new game system determines about 60% of the game creation process. In my case I work on that nucleus of the game first. The maps, story, etc are all about 10 or 20%.
+
+---
+## How did SNES Game Development teams communicate?
+Back in 1992 the internet was still finding its footing in the games industry and much of the communication was done via Fax, here is one example of a Fax sent between the Acclaim production team presumably in the US and the game programmers in the UK.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">31 years ago we were working on SNES Spider-Man and the X-Men in Arcade&#39;s Revenge. We had very little time on for this project and had 3 experienced coders on-board to get it done. Here&#39;s a FAX from production at Acclaim to give you a flavour of the pressure we were under 1/2. <a href="https://t.co/FrJ6XDIGJu">pic.twitter.com/FrJ6XDIGJu</a></p>&mdash; Kevin Edwards ( Retro Videogame development ) (@KevEdwardsRetro) <a href="https://twitter.com/KevEdwardsRetro/status/1715387308600394213?ref_src=twsrc%5Etfw">October 20, 2023</a></blockquote>
+
+Although note that in the Fax they mention sending a build of the game to Nintendo via Modem for sound testing so the Internet was in use.
+
+Email was also in use, even amongst japanese game developers such as Square as can be seen in an interview with **Hironobu Sakaguchi** who worked on Final Fantasy [^9]:
+> I use a Macintosh to make the tools we use at Squaresoft, and I also use it when making SFC games. Our team is also connected on the local network, and we pass ideas around via e-mail. This way when one person has an idea, it can be shared with everyone.
+
+---
+# SNES Game Programming
 
 ## What would you need to write SNES games?
 Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
@@ -80,30 +99,67 @@ Integrated Development Environments (IDEs) as we know them today were not as pre
 In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE back in 1990, but it is unclear which IDE is being used:
 ![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
 
-However looking closly at the keyboard the the PC we can see its a **Sony NEWS** workstation, so it must have been an IDE that supported that platform.
+However looking closly at the keyboard and the PC we can see its a **Sony NEWS** workstation, so it must have been an IDE that supported that platform.
 
+---
 ## Was there an official SDK?
-Yes, we have a seperate page for the Official Super Nintendo Software Development kits:
+**Yes**, we have a seperate page for the Official Super Nintendo Software Development kits:
+
 {% include link-to-other-post.html post="/super-famicom-snes-sdk/" description="For more information about the **Super Nintendo** software development kit check out this post" %}
 
-## How would teams send their games to QA or to the press?
-**FTP servers** were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
+---
+## ROM and RAM Mapping on the SNES
 
-## How large were SNES game development teams?
-According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
+The Super Nintendo (SNES) features a **24-bit address space** split into 256 banks of **64KB** each.  
+However, only select banks are addressable via the SNES's CPU at any given time, necessitating careful mapping of ROM, RAM, and I/O registers.  
 
-In an interview with **Shigeru Miyamoto** he states that development takes can get up to about 20 or so people in the later half of the development cycle [^9]:
-> For our development teams, for the beginning of the first year its usually comprised of 3 to 4 people, then about half a year in we start adding people until about the 8 month mark, where we reach a team of 20 or so. A new game system determines about 60% of the game creation process. In my case I work on that nucleus of the game first. The maps, story, etc are all about 10 or 20%.
+### What is LoROM and HiROM?
+The **LoROM** and **HiROM** define how cartridges interface with this segmented memory model.
+* In **LoROM**, ROM data is mapped in 32KB chunks to the lower half of each bank (0x8000–0xFFFF), starting from bank 0x00. This allows for faster access and compatibility with 8-bit address registers but limits addressable space per bank.  
+* **HiROM** maps 64KB ROM blocks starting from bank 0xC0 at address 0x0000, offering contiguous addressing at the cost of more complex bank switching.  
 
-## How did SNES Game Development teams communicate?
-Back in 1992 the internet was still finding its footing in the games industry and much of the communication was done via Fax, here is one example of a Fax sent between the Acclaim production team presumably in the US and the game programmers in the UK.
+**FastROM** variants allow for **3.58MHz** access speeds over specific regions, compared to the standard 2.68 MHz, enhancing performance under HiROM configurations.  
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">31 years ago we were working on SNES Spider-Man and the X-Men in Arcade&#39;s Revenge. We had very little time on for this project and had 3 experienced coders on-board to get it done. Here&#39;s a FAX from production at Acclaim to give you a flavour of the pressure we were under 1/2. <a href="https://t.co/FrJ6XDIGJu">pic.twitter.com/FrJ6XDIGJu</a></p>&mdash; Kevin Edwards ( Retro Videogame development ) (@KevEdwardsRetro) <a href="https://twitter.com/KevEdwardsRetro/status/1715387308600394213?ref_src=twsrc%5Etfw">October 20, 2023</a></blockquote>
+### What is WRAM?
+Internal Work RAM (WRAM) occupies **128KB**, mirrored throughout banks 0x7E–0x7F.  
 
-Although note that in the Fax they mention sending a build of the game to Nintendo via Modem for sound testing so the Internet was in use.
+For more information The [SNESdev Wiki Memory Map](https://snes.nesdev.org/wiki/Memory_map) provides the most authoritative breakdown of the SNES memory architecture.  
 
-Email was also in use, even amongst japanese game developers such as Square as can be seen in an interview with **Hironobu Sakaguchi** who worked on Final Fantasy [^9]:
-> I use a Macintosh to make the tools we use at Squaresoft, and I also use it when making SFC games. Our team is also connected on the local network, and we pass ideas around via e-mail. This way when one person has an idea, it can be shared with everyone.
+### What is MMIO? (0x2100–0x21FF)
+Memory-mapped I/O (**MMIO**) registers control graphics (PPU), audio (APU), and DMA are primarily located in bank 0x00 and 0x80 from **0x2100** to **0x21FF**.  
+
+The [Tale of LoROM and MMIO Emudev article](https://emudev.de/q00-snes/memory-mapping-the-tale-of-lorom-and-mmio) dives into the specifics of LoROM mapping and memory-mapped I/O access.
+
+### What is the ROM Header? (0xFFC0–0xFFDF)
+The ROM header is used to convey metadata about the cartridge, including its memory mapping configuration, it is essential for proper ROM emulation but ignored on the SNES hardware itself. 
+
+It is typically just before the interrupt vector table but its physical location within the ROM file varies based on the memory mapping mode:
+- **LoROM**: Header at offset 0x7FC0 in the ROM file.  
+- **HiROM**: Header at offset 0xFFC0 in the ROM file.  
+- **ExHiROM**: Header at offset 0x40FFC0 in the ROM file.  
+
+These mappings align the header to $00:FFC0 in the SNES memory map, ensuring consistent access across different ROM configurations[^11].
+
+#### What is the format of the ROM Header?
+
+The ROM header comprises several fields that define the cartridge's characteristics:
+
+- **0xFFC0–0xFFD4**: Game Title (21 bytes, ASCII)  
+- **0xFFD5**: ROM Speed and Mapping Mode (e.g speeds: 2.68 MHz/3.58 MHz, modes: LoROM/HiROM)
+- **0xFFD6**: Cartridge Type (e.g., presence of coprocessors, SRAM)  
+- **0xFFD7**: ROM Size (encoded as 2^n KB)  
+- **0xFFD8**: SRAM Size (encoded as 2^n KB)  
+- **0xFFD9**: Region Code (e.g., NTSC, PAL)  
+- **0xFFDA**: Developer ID  
+- **0xFFDB**: ROM Version  
+- **0xFFDC–0xFFDD**: Checksum Complement  
+- **0xFFDE–0xFFDF**: Checksum  
+
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx">
+</rr-sandpack>
 
 ---
 # Sound and Music
@@ -177,6 +233,14 @@ The Youtuber **CaptRobau** has an excellent video showing off the graphical diff
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xurqNOafU6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 ---
+# SNES Emulation
+
+## State of SNES Emulation
+Every three years **Near/Byuu** wrote an excellent article on the current status of Super Nintendo Emulation, the last version is from 2019, it covers both bsnes and higen. Sadly with the passing of Near this is the last state of emulation, however it still still very much worth a read, and to **remember how much they contributed** to the SNES emulation scene.
+
+{% include link-to-other-site.html url="https://saveweb.github.io/near.sh/articles/emulation/state-of-emulation-v.html" description="The latest status of Super Nintendo emulation, including new and upcoming features for bsnes and higen" image="https://near.sh/images/articles/emulation/state-of-emulation-v/bsnes-widescreen.png" title="SNES Emulation Status 2019"  %}
+
+---
 # Game Modification and ROM Hacking
 
 ## SNES Save Editing with Link to the Past
@@ -207,3 +271,4 @@ Excellent video by **Displaced Gamers** on how to edit SRAM saves for a Link to 
 [^8]: [Masayuki Uemura – The Creator of the Famicom - shmuplations.com](https://shmuplations.com/masayukiuemura/) 
 [^9]: [1994 Game Developers – Interview Collection - shmuplations.com](https://shmuplations.com/1994gamedevs/)
 [^10]: [Footage Inside 1990 Nintendo Headquarters in Kyoto - YouTube](https://www.youtube.com/watch?v=FlOAd81a1aI)
+[^11]: [SNESdev Wiki - ROM Header](https://snes.nesdev.org/wiki/ROM_header) 

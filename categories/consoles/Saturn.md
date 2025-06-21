@@ -37,6 +37,15 @@ When it comes to finding a game to reverse engineer it can be helpful to look at
 
 {% include link-to-other-post.html post="/sega-saturn-exclusives/" description="For a list of all the exclusive Sega Saturn games check out this post." %}
 
+## Reverse Engineering the Password System in *The Lost World: Jurassic Park*
+
+In May 2025, reverse engineer Bo Bayles published an in-depth analysis of the password system used in the Sega Saturn version of *The Lost World: Jurassic Park*. By examining the game's code with Ghidra, Bayles uncovered previously undocumented cheat codes that unlock features such as invincibility, a stage select screen, and two hidden arcade galleries. These discoveries shed light on the game's internal mechanics and offer new ways to experience the title nearly three decades after its release.
+
+For a detailed breakdown of the password system and the newly discovered codes, refer to Bayles' full article:
+
+> [Under the Microscope: The Lost World – Jurassic Park](https://32bits.substack.com/p/under-the-microscope-the-lost-world)
+
+
 ## Sega Saturn Graphics
 There are some myths around the Sega Saturn's graphical abilities, such as the lack of transparency support, that can be proven false with some clever programming techniques.
 
@@ -62,12 +71,12 @@ If you're interested in reverse engineering software for the Sega Saturn gaming 
 This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Saturn, including retail, prototype, and development hardware.
 
 ## Retail Sega Saturn hardware
-When the Saturn was launched it brought incredible processing power into the home with two SH2 processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a fascinating topic.
+When the Saturn was launched it brought incredible processing power into the home with two SH-2 Hitachi processors. The hardware was state of the art but also very complex and hard to program but exploring how it was developed is a fascinating topic.
 
 {% include link-to-other-post.html post="/saturn-architecture" description="For more information on the Saturn hardware architecture check out this post." %}
 
 ## Retail Saturn Disc Copy Protection 
-the user **jhl** on assemblergames has an excellent post on the inner workings of the Saturn DISC protection:
+The user **jhl** on assemblergames has an excellent post on the inner workings of the Saturn DISC protection:
 https://web.archive.org/web/20170626013038/https://www.assemblergames.com/threads/saturn-copy-protection-and-cdrs-the-conclusive-end.50295/
 
 ## Saturn Hardware in the Arcade
@@ -84,7 +93,7 @@ The official development kit for the N64 was a partnership between SEGA and Soph
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For more information on the official Segas Saturn Devkit check out this post." %}
 
 ### 3rd Party Development Kits
-There were a few third party developers who created their own custom development kits for the Sega Saturn. One of the main developers for 3rd party devkits was SN Systems with their PSYQ Saturn with a much cheaper price tag than an official Sega devkit.
+There were a few third party developers who created their own custom development kits for the Sega Saturn. One of the main developers for 3rd party devkits was SN Systems with their Psy-Q Saturn with a much cheaper price tag than an official Sega devkit.
 
 {% include link-to-other-post.html post="/psyq-sega-saturn/" description="For more information on the SN Systems PSYQ Saturn check out this post." %}
 

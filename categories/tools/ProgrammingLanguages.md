@@ -78,7 +78,9 @@ Popular games made using Blitz Basic:
 
 Blitz BASIC later evolved into **Blitz2D** which was for creating games for DOS/Windows and has continued to evolve into future products such as **Blitz3D** [^1].
 
+---
 ## DarkBASIC
+<img src="https://m.media-amazon.com/images/I/51TBHVEJXYL._AC_UF894,1000_QL80_.jpg" />
 DarkBASIC, a more modern version of Amiga tools such as Blitz BASIC or AMOS, took simplicity to the next level by focusing specifically on game development. 
 Tailored for beginners and hobbyists, it provided a robust set of tools for creating 2D and 3D games with ease. DarkBASIC's intuitive scripting language allowed developers to concentrate on game design without getting bogged down in technical details, making it an accessible gateway to the world of game development for hobbyists.
 
