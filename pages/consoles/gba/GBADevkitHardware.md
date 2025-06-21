@@ -77,21 +77,18 @@ A custom GBA controller is attacted to the **IS-AGB-EMULATOR** to play the games
 ---
 ## IS-AGB-MIDI
 <section class="postSection">
-    <img src="https://github.com/user-attachments/assets/42ea34a2-9491-4a06-844a-36df0068ea90" class="wow slideInLeft postImage" />
+    <img src="https://github.com/user-attachments/assets/f9263fbb-6f8c-4f70-bc33-a493c8296f22" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-For sound developers, Intelligent Systems created the **IS-AGB-MIDI** which is a cartridge that plugs into the `IS-AGB-EMULATOR` [^4], not the GBA cartirdge itself [^12].
-
-All of the information and images related to **IS-AGB-MIDI** are thanks to long term friend of the site, **Gerry** who runs his own website with all sorts of retro game development goodness [https://www.behindthecode.ca/is-agb-midi-music-dev-cart/](Behind The Code with Gerry). If you are interested in more information about game development hardware, his site is a must visit! 
-
-![image](https://github.com/user-attachments/assets/f9263fbb-6f8c-4f70-bc33-a493c8296f22)
+For sound developers, Intelligent Systems created the **IS-AGB-MIDI** which is a cartridge that plugs into the **IS-AGB-EMULATOR** [^4], not the GBA cartridge itself [^12].
 
 You then connect the cartridge to a MIDI device such as a keyboard via the 5-PIN DIN connector MIDI port, and you have the ability to test sounds and music to hear what they would sound like on real GBA hardware!
 
-![image](https://github.com/user-attachments/assets/ea94e04b-c4dd-4f2b-b42d-9019f206222e)
+![The Printed Circuit Board](https://github.com/user-attachments/assets/ea94e04b-c4dd-4f2b-b42d-9019f206222e)
 
+All of the information and images related to **IS-AGB-MIDI** are thanks to long term friend of the site, **Gerry** who runs his own website with all sorts of retro game development goodness [https://www.behindthecode.ca/is-agb-midi-music-dev-cart/](Behind The Code with Gerry). If you are interested in more information about game development hardware, his site is a must visit! 
 
-![image](https://github.com/user-attachments/assets/4d4ba8f0-4412-42c9-a1aa-051f37f295ab)
+![Back of the Board](https://github.com/user-attachments/assets/4d4ba8f0-4412-42c9-a1aa-051f37f295ab)
 
 Gerry also shows the device in his excellent video about the **IS-AGB-EMULATOR** below:
 
