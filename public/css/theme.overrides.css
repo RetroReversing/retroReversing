@@ -86,6 +86,8 @@ blockquote {
 /*     margin-left: 20%; */
     margin-left: 2rem;
     display:block;
+/*   Clear both means the images won't be put on the same line as a floating element */
+  clear: both;
 }
 
 /* We don't want it to apply to certain images  */
