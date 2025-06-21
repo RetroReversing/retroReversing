@@ -84,10 +84,10 @@ For sound developers, Intelligent Systems created the **IS-AGB-MIDI** which is a
 
 You then connect the cartridge to a MIDI device such as a keyboard via the 5-PIN DIN connector MIDI port, and you have the ability to test sounds and music to hear what they would sound like on real GBA hardware!
 
-![The Printed Circuit Board](https://github.com/user-attachments/assets/ea94e04b-c4dd-4f2b-b42d-9019f206222e)
 
 All of the information and images related to **IS-AGB-MIDI** are thanks to long term friend of the site, **Gerry** who runs his own website with all sorts of retro game development goodness [https://www.behindthecode.ca/is-agb-midi-music-dev-cart/](Behind The Code with Gerry). If you are interested in more information about game development hardware, his site is a must visit! 
 
+![The Printed Circuit Board](https://github.com/user-attachments/assets/ea94e04b-c4dd-4f2b-b42d-9019f206222e)
 ![Back of the Board](https://github.com/user-attachments/assets/4d4ba8f0-4412-42c9-a1aa-051f37f295ab)
 
 Gerry also shows the device in his excellent video about the **IS-AGB-EMULATOR** below:
