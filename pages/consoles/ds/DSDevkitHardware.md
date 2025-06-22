@@ -216,18 +216,19 @@ There was also these ones which were very long:
  <div markdown="1">
 But what about saved game data? Not all retail cartridges have the same amount of Save RAM on them and so the development cartridges should have a configurable amount of Save RAM right?
 
-Right! So this was achieved using "sub-cards" which you can get access to and swap out very easily by opening the top half of the cartridge.
+This was achieved using **Sub Cards** which you can get access to and swap out very easily by opening the top half of the main cartridge.
 
 This allows game developers to test their games with the exact right amount of Save RAM and the specific type of Save RAM (EEPROM or FLASH) [^3]. 
 
-Here is an photo of the board of a Sub card:
+Here is an photo of the board of a Sub Card [^7]:
 <img width="536" alt="DSSubCartBoard" src="https://github.com/user-attachments/assets/61073e2a-63b8-42a7-9dff-f44735d65b58" />
 
-And the connection on the main cartridge:
-![DSCardWithoutSaveSubCard](https://github.com/user-attachments/assets/b6930cb2-c642-4716-9d7c-28aefb4a2738)
+And the connection on the main cartridge [^7]:
+![DS Card Without Save Sub Card](https://github.com/user-attachments/assets/b6930cb2-c642-4716-9d7c-28aefb4a2738)
 
+Both Images are thanks to **Dirbaio's** post on the **The NSMB Hacking Domain** here [Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/)
 
-They have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main cartridge.
+The Sub Cards have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main cartridge.
 Known part numbers:
 * **E202650** - DS Sub Card 64K EEPROM1
 * **E202809** - DS Sub Card 64K EEPROM1 (Note: This may be wrong as it is the same as the main cartridge)
@@ -326,3 +327,4 @@ Datel are a very talented company when to comes to by-passing security and doing
 [^4]: [Gamasutra - SN Systems and Hudson Announce DS Tools Project](https://www.gamasutra.com/view/news/96005/SN_Systems_and_Hudson_Announce_DS_Tools_Project.php)
 [^5]: [Nintendo DS IS TWL Debugger from Retrogames](https://www.retrogames.co.uk/044754/Nintendo/Nintendo-DS-IS-TWL-Debugger)
 [^6]: [Intelligent Systems Recruitment 2015](https://intsys.co.jp/recruit/requirement/pamphlet2015.pdf)
+[^7]: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/)
