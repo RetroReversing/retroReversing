@@ -176,6 +176,63 @@ Elliot from **The Retro Future** has a video showing off the Panda Development C
  Aside from the case color and a “NOT FOR RESALE” type markings, they look nearly identical to a normal 3DS. (Notably, the term “Panda” was also used for the DSi debug units, continuing the animal-themed dev kit nicknames.)
 
 ---
+## Rewritable 3DS Development Cartridges
+ Like past Nintendo systems, the 3DS uses special **re-writable flash cartridges** to load in-development games. The official **CTR flash cards** resem
+ble slightly thicker 3DS game cards with generic labels.
+
+![tumblr_lhm5ydfjMO1qzp9weo4_1280](https://github.com/user-attachments/assets/2e18b6d8-34f4-45a6-be57-162e347df272)
+
+ One common model has a 16 Gbit (2 GB) capacity, and larger versions up to 4 GB (32 Gbit) were produced as well. These dev carts have no region lock and are reprogrammable – developers can flash their compiled game builds onto the cart and run them on Panda units or Partner-CTR kits. The cartridges do not have the physical write-protect notch that retail game cards have, and they are usually colored dark gray or other non-standard colors to avoid confusion with retail games. Inside, they contain flash memory for game content and **no built-in save memory**, unlike retail carts.
+
+<img width="490" alt="CTR-Flash-Card" src="https://github.com/user-attachments/assets/f3ff420e-f9a4-42d3-b448-3a67dae547d0" />
+
+ Instead, the dev cartridges support external **backup memory** modules for game save data. The flash media can be erased and written thousands of times; developers noted they were “easily re-flashed… allowing for easy re-use” during the iteration process.
+
+ Some flash carts used by Nintendo at trade shows were shorter (the size of a normal cart) and preloaded with specific demo software, but the **taller** official dev cartridges (approximately double height) allow inserting different capacity backup-memory boards and possibly contained additional debugging interfaces.
+
+---
+### Backup Save Memory Modules
+ To accommodate various save sizes and types during development, Nintendo provided **removable save flash chips** for the dev cartridges instead of fixed internal save RAM. These are similar to how Sub Cards worked on the official Nintendo DS flash cards.
+
+These were often referred to as **Backup Memory (Flash) for CTR** and came in at least two sizes: **1 Mbit (128 KB)** and **4 Mbit (512 KB)**, corresponding to the typical save sizes of retail 3DS games. Developers could purchase these backup flash modules for only a few dollars each and use them in conjunction with the dev cart.
+
+ The tall CTR dev cartridge has a compartment or socket to insert the backup flash (similar in concept to the DS “sub card” system). This design let teams test their game’s save behavior with different memory sizes or technologies ( EEPROM vs. flash ) by swapping the backup chip.
+
+ If a game needed, say, 512KB of save data, the corresponding 4Mbit module could be used to ensure the game functioned within that limit. **Save Data Filer** tools in the 3DS SDK allowed managing the contents of this save memory during testing. (On dev units, saves could also optionally be redirected to the SD card for convenience, but the physical backup flash was used to mimic the exact retail scenario.)
+
+---
+## Other Hardware Accessories
+The 3DS development kits largely did not require the elaborate “gang writers” of older systems, since the Partner-CTR hardware and PC software could directly flash dev cartridges over USB.
+
+For example, the **Host I/O (HIO)** feature in the dev menu allowed installing game builds to a connected dev kit without manual cartridge writing. However, a few miscellaneous hardware tools were used in the 3DS dev pipeline:
+
+* **Debug and Link Cables:** The Partner-CTR kits shipped with proprietary dual-cables for the controller hookup, as well as USB cables for PC connectivity and optionally extension cables for video output. Standard Wii **AV cables** could be used in the multi-out port of the capture unit for analog output. The dev kits did **not** use normal Wi-Fi for debugging; instead, they relied on USB or wired links for stability.
+* **Power Supplies:** The Partner-CTR and IS-CTR-BOX units use external power adapters rather than the small 3DS AC adapter. In fact, similar to earlier dev kits, the IS-CTR-BOX was reported to use a GameCube-style 12V power supply, and the Partner-CTR may use a custom PSU (development units often had robust power requirements). Some kiosk demo 3DS units (CTR-001-05) even used a modified HDMI-like power cable for security in retail displays, but those were not used in development labs.
+* **Firmware Update Tools:** To keep dev hardware updated with the latest system software and SDK, Nintendo provided **development unit system updater cartridges/applications**. Specifically, a **“CTR System Updater” (CSU)** was used for original 3DS-based units, and a **“SNAKE System Updater”** for New 3DS units, which install the latest dev firmware, OS, and tools onto the device. These updater programs (distributed as encrypted CIAs or carts) would bring a Panda unit’s system software in line with the SDK version target. Developers would run these periodically, as the dev OS included debug versions of the Home Menu, DevMenu, and other system applets with extra logging and features (for example, the dev Home Menu can display CPU/GPU usage and allows screenshot capture).
+
+## New 3DS “Snake” Dev Kits
+ When the New Nintendo 3DS was introduced (with upgraded CPU, additional RAM, and new functions), Nintendo also updated the dev hardware. Revised development kits code-named **“SNAKE”** were offered, incorporating the New 3DS’s improved specs.
+
+ These were essentially Partner-CTR Debugger/Capture devices with upgraded internals to match the new model’s faster processor and added features. For instance, the SNAKE kits allowed testing the extra CPU core and extended memory mode available to New 3DS titles.
+
+ The overall form and function remained the same (tethered New 3DS unit and dev box). This ensured backward compatibility while enabling development of exclusive New 3DS software and performance tuning on the new hardware revision. The SNAKE name appears in update tools and documentation, but the hardware was still generally referred to under the CTR Partner branding by developers.
+
+ By late in the 3DS’s life, tools like Unity and other middleware also supported the hardware, but these were software-side improvements.
+
+---
+# Third-Party and Partner Development Tools
+
+Unlike the DS era, no separate third-party commercial dev kit (such as SN Systems’ ProDG) came to market for the 3DS – the **Partner-CTR** series effectively *was* the standard. (SN Systems had announced DS support years prior, but by the 3DS launch SN Systems was owned by Sony and did not provide a 3DS solution.)
+
+Instead, licensed developers all used Nintendo’s provided SDK and hardware kits. The SDK included compiler toolchains, debugger software for the Partner-CTR, and even a Visual Studio 2010 integration plugin for coding on 3DS. Some studios did employ additional tools in their pipeline: for example, **Proprietary analyzers and profilers** (like SN Systems Tuner or homegrown performance tools) could be used on the output from the dev kit to optimize code.
+
+But the core development and debugging always revolved around the Nintendo-provided hardware. Nintendo also had an online platform (NintendoWare/NW4C) for developers to download sample code, libraries, and documentation throughout the 3DS’s life. In summary, the 3DS did not see any alternative dev units from third parties; the official Partner-CTR debugger/capture and Panda units were the universal solution for 3DS game development.
+
+One notable third-party contribution was the **middleware and engine support** that grew later in the 3DS lifecycle. For instance, **Unity for New 3DS** was released as an add-on, allowing developers to use the Unity engine and deploy to 3DS hardware. Similarly, other engines (Unreal Engine variants, etc.) and tools (like audio and physics libraries) were made compatible with Nintendo’s hardware, but those were purely software.
+
+On the hardware side, companies like **Kyoto Microcomputer** were essentially acting as a contractor for Nintendo – the Partner-CTR units are sometimes branded with KMC’s logo and they handled distribution in some regions. Nintendo’s close control over 3DS development meant unofficial hardware was not really seen in studios.
+
+---
 # References
 [^1]: [IQGamer: 3DS Development / Test Hardware Revealed?](http://imagequalitymatters.blogspot.com/2010/05/3ds-development-test-hardware-revealed.html#)
 [^2]: [SimonMK7 on X: Here are some images of the IS-CTR-Box/Debugger](https://x.com/SimonOrtizBrian/status/1464387089718382594)
