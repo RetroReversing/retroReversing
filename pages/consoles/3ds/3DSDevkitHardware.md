@@ -37,11 +37,11 @@ The earliest known 3DS dev kit was a bare-bones prototype board used during deve
 
 An FCC filing in 2010 revealed a **Nintendo CTR Target Board** test kit consisting of two attached screens (a widescreen 3D top panel and a 4:3 bottom panel) mounted on a circuit board [^1].
 
-![Closeup of CTR-TEG2 K-10-3628](https://github.com/user-attachments/assets/79aee07b-1b86-46ae-b8da-c0f95c310b3d)
-
 This board included a Nintendo DS cartridge slot and SD card slot, indicating backward compatibility and storage, and was used to validate new components like the Wi-Fi module prior to the 3DS’s release [^8].
 
 This early dev hardware made it clear that only the top screen would have **Sharp’s auto-stereoscopic 3D capability**, while the bottom screen was a standard LCD [^1].
+
+![Closeup of CTR-TEG2 K-10-3628](https://github.com/user-attachments/assets/79aee07b-1b86-46ae-b8da-c0f95c310b3d)
 
 The CTR Target Board allowed first-party developers to begin building 3DS software on prototype hardware months before the retail units were finalized, but as far as we know it was never used outside of Nintendo.
  </div>
@@ -122,6 +122,9 @@ Internally, the Capture unit is similar to the Debugger but with additional vide
 
  </div>
 </section> 
+
+**Linus Tech Tips** has a video showing the Partner-CTR Debugger/Capture kit in detail:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4YpRJtvFmP8?si=3RZk_BGkBWT99Uw0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The Photo below was posted by **moreretrograde** on Reddit:
 ![Partner-CTR Capture Unit](https://github.com/user-attachments/assets/0df5de96-2d8e-4180-abca-d4ddd2dc0e85)
