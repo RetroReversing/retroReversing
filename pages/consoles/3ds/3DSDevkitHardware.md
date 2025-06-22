@@ -48,9 +48,10 @@ The CTR Target Board allowed first-party developers to begin building 3DS softwa
 ---
 ## IS-CTR-BOX Development Unit
 <section class="postSection">
-    <img src="https://github.com/user-attachments/assets/02e585d2-e0e4-4cf3-bd65-45940aaae78f" alt="IS-CTR-BOX" class="wow slideInLeft postImage" />
+    <img src="https://github.com/user-attachments/assets/0bda5f5b-7678-4fe7-a53c-5e715575744b" alt="IS-CTR-BOX" class="wow slideInLeft postImage" />
 
  <div markdown="1">
+   
  Nintendo initially produced a large "big box" 3DS dev kit known as the **IS-CTR-BOX**, designed by Intelligent Systems. The photo on the left is by **SimonMK7** on twitter [^2].
 
  This kit consists of a teal-blue external unit ("the box") and a tethered 3DS-like controller. Notably, in this early design the *handheld controller contained the main 3DS hardware* (CPU/GPU), while the external box acted primarily as a “card emulator” for loading game code.
