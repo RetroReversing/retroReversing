@@ -177,28 +177,32 @@ Elliot from **The Retro Future** has a video showing off the Panda Development C
 
 ---
 ## Rewritable 3DS Development Cartridges
- Like past Nintendo systems, the 3DS uses special **re-writable flash cartridges** to load in-development games. The official **CTR flash cards** resem
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/2e18b6d8-34f4-45a6-be57-162e347df272" alt="CTR-001-01 Panda" class="wow slideInLeft postImage" />
+<div markdown="1">
+
+Like past Nintendo systems, the 3DS uses special **re-writable flash cartridges** to load in-development games. The official **CTR flash cards** resem
 ble slightly thicker 3DS game cards with generic labels.
 
-![tumblr_lhm5ydfjMO1qzp9weo4_1280](https://github.com/user-attachments/assets/2e18b6d8-34f4-45a6-be57-162e347df272)
+One common model has a 16 Gbit (2 GB) capacity, and larger versions up to 4 GB (32 Gbit) were produced as well. These dev carts have no region lock and are reprogrammable – developers can flash their compiled game builds onto the cart and run them on Panda units or Partner-CTR kits. The cartridges do not have the physical write-protect notch that retail game cards have, and they are usually colored dark gray or other non-standard colors to avoid confusion with retail games. Inside, they contain flash memory for game content and **no built-in save memory**, unlike retail carts.
 
- One common model has a 16 Gbit (2 GB) capacity, and larger versions up to 4 GB (32 Gbit) were produced as well. These dev carts have no region lock and are reprogrammable – developers can flash their compiled game builds onto the cart and run them on Panda units or Partner-CTR kits. The cartridges do not have the physical write-protect notch that retail game cards have, and they are usually colored dark gray or other non-standard colors to avoid confusion with retail games. Inside, they contain flash memory for game content and **no built-in save memory**, unlike retail carts.
+Instead, the dev cartridges support external **backup memory** modules for game save data. The flash media can be erased and written thousands of times; developers noted they were “easily re-flashed… allowing for easy re-use” during the iteration process.
 
-<img width="490" alt="CTR-Flash-Card" src="https://github.com/user-attachments/assets/f3ff420e-f9a4-42d3-b448-3a67dae547d0" />
-
- Instead, the dev cartridges support external **backup memory** modules for game save data. The flash media can be erased and written thousands of times; developers noted they were “easily re-flashed… allowing for easy re-use” during the iteration process.
-
- Some flash carts used by Nintendo at trade shows were shorter (the size of a normal cart) and preloaded with specific demo software, but the **taller** official dev cartridges (approximately double height) allow inserting different capacity backup-memory boards and possibly contained additional debugging interfaces.
+Some flash carts used by Nintendo at trade shows were shorter (the size of a normal cart) and preloaded with specific demo software, but the **taller** official dev cartridges (approximately double height) allow inserting different capacity backup-memory boards and possibly contained additional debugging interfaces.
+ </div>
+</section> 
 
 ---
 ### Backup Save Memory Modules
- To accommodate various save sizes and types during development, Nintendo provided **removable save flash chips** for the dev cartridges instead of fixed internal save RAM. These are similar to how Sub Cards worked on the official Nintendo DS flash cards.
+<img width="490" alt="CTR-Flash-Card" src="https://github.com/user-attachments/assets/f3ff420e-f9a4-42d3-b448-3a67dae547d0" />
+
+To accommodate various save sizes and types during development, Nintendo provided **removable save flash chips** for the dev cartridges instead of fixed internal save RAM. These are similar to how Sub Cards worked on the official Nintendo DS flash cards.
 
 These were often referred to as **Backup Memory (Flash) for CTR** and came in at least two sizes: **1 Mbit (128 KB)** and **4 Mbit (512 KB)**, corresponding to the typical save sizes of retail 3DS games. Developers could purchase these backup flash modules for only a few dollars each and use them in conjunction with the dev cart.
 
- The tall CTR dev cartridge has a compartment or socket to insert the backup flash (similar in concept to the DS “sub card” system). This design let teams test their game’s save behavior with different memory sizes or technologies ( EEPROM vs. flash ) by swapping the backup chip.
+The tall CTR dev cartridge has a compartment or socket to insert the backup flash (similar in concept to the DS “sub card” system). This design let teams test their game’s save behavior with different memory sizes or technologies ( EEPROM vs. flash ) by swapping the backup chip.
 
- If a game needed, say, 512KB of save data, the corresponding 4Mbit module could be used to ensure the game functioned within that limit. **Save Data Filer** tools in the 3DS SDK allowed managing the contents of this save memory during testing. (On dev units, saves could also optionally be redirected to the SD card for convenience, but the physical backup flash was used to mimic the exact retail scenario.)
+If a game needed, say, 512KB of save data, the corresponding 4Mbit module could be used to ensure the game functioned within that limit. **Save Data Filer** tools in the 3DS SDK allowed managing the contents of this save memory during testing. (On dev units, saves could also optionally be redirected to the SD card for convenience, but the physical backup flash was used to mimic the exact retail scenario.)
 
 ---
 ## Other Hardware Accessories
@@ -211,7 +215,7 @@ For example, the **Host I/O (HIO)** feature in the dev menu allowed installing g
 * **Firmware Update Tools:** To keep dev hardware updated with the latest system software and SDK, Nintendo provided **development unit system updater cartridges/applications**. Specifically, a **“CTR System Updater” (CSU)** was used for original 3DS-based units, and a **“SNAKE System Updater”** for New 3DS units, which install the latest dev firmware, OS, and tools onto the device. These updater programs (distributed as encrypted CIAs or carts) would bring a Panda unit’s system software in line with the SDK version target. Developers would run these periodically, as the dev OS included debug versions of the Home Menu, DevMenu, and other system applets with extra logging and features (for example, the dev Home Menu can display CPU/GPU usage and allows screenshot capture).
 
 ## New 3DS “Snake” Dev Kits
- When the New Nintendo 3DS was introduced (with upgraded CPU, additional RAM, and new functions), Nintendo also updated the dev hardware. Revised development kits code-named **“SNAKE”** were offered, incorporating the New 3DS’s improved specs.
+ When the New Nintendo 3DS was introduced (with upgraded CPU, additional RAM, and new functions), Nintendo also updated the dev hardware. Revised development kits code-named **SNAKE** were offered, incorporating the New 3DS’s improved specs.
 
  These were essentially Partner-CTR Debugger/Capture devices with upgraded internals to match the new model’s faster processor and added features. For instance, the SNAKE kits allowed testing the extra CPU core and extended memory mode available to New 3DS titles.
 
