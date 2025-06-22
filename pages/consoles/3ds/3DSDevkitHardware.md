@@ -98,8 +98,27 @@ It is hard to find good images for the non-capture version of the Partner-CTR-De
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d2PfyEvWycY?si=y1mPcRqQ9T__cpxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
+## Partner-CTR Capture Unit
+The **Partner-CTR Capture** device is a variant of the dev kit focused on video output and capture for testing or demonstration.
+
+It adds high-resolution video output capabilities, allowing the 3DS’s dual screens to be displayed on external monitors or capture equipment. The capture unit’s external box provides multiple output ports: 
+ - **two DVI-D outputs** (one for each screen) for digital display
+ - A **Nintendo Wii AV multi-out** for analog video (composite/component).
+
+  It also includes a **USB output** interface for direct capture to a PC. Using these, developers or QA staff could mirror the 3DS screens on large displays (up to 720p signal for each screen) or record gameplay footage, which was invaluable for preview events and creating game trailers.
+
+The tethered 3DS controller remains wired to the capture box, so a tester can play normally on the handheld while others view the action on big screens.
+
+Internally, the Capture unit is similar to the Debugger but with additional video encoder hardware. Nintendo offered a combined **Partner-CTR Debugger/Capture** kit at a higher price (\~**\$3,905 USD** for the dual-function model). These capture-enabled kits were rare and typically reserved for larger studios and events due to their cost and Nintendo’s strict licensing.
+
+The Photo below was posted by **moreretrograde** on Reddit:
+![Partner-CTR Capture Unit](https://github.com/user-attachments/assets/0df5de96-2d8e-4180-abca-d4ddd2dc0e85)
+
+
+---
 # References
 [^1]: [IQGamer: 3DS Development / Test Hardware Revealed?](http://imagequalitymatters.blogspot.com/2010/05/3ds-development-test-hardware-revealed.html#)
 [^2]: [SimonMK7 on X: Here are some images of the IS-CTR-Box/Debugger](https://x.com/SimonOrtizBrian/status/1464387089718382594)
 [^3]: [Nintendo 3DS IS-CTR-BOX - Consolevariations](https://consolevariations.com/collectibles/nintendo-3ds-is-ctr-box)
 [^4]: [Planet 3DS - Exclusive: Nintendo 3DS Dev Kit prices leaked](https://web.archive.org/web/20110219025126/http://www.planet3ds.net/news/nintendo-3ds-dev-kit-prices-leaked/)
+[^5]: [Got my grail this week. The PARTNER-CTR Capture Debugger! : r/nds](https://www.reddit.com/r/nds/comments/1hg0mro/got_my_grail_this_week_the_partnerctr_capture/)
