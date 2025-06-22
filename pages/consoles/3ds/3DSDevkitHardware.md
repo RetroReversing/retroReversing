@@ -77,6 +77,8 @@ The handheld portion connects to the debugger box via a pair of proprietary high
 
 The tethered 3DS serves as the input controller and display, allowing developers to interact using the real 3DS buttons and touch screen while their code runs on the dev kit hardware in the external box.
 
+![Partner-CTR-Debugger](https://github.com/user-attachments/assets/13d8b280-6df6-4f91-bea1-e8434282f72d)
+
 The Partner-CTR Debugger box features USB connectivity to the development PC for deploying games and debugging, as well as connectors for the wired controller and other I/O (front panel slots exist for dev cartridges and SD cards, plus indicator LEDs and an IR port).
 
 This kit enables setting breakpoints, inspecting memory, and other runtime debugging on actual 3DS hardware.
@@ -134,6 +136,19 @@ The wired controller has a reduced internal board and is lighter, since many com
 Nintendo continued this approach of a wired dev-unit controller from the DS era (e.g. the IS-NITRO-Emulator’s DS controller) because it effectively emulates the user experience while enabling full debugging on the PC.
  </div>
 </section> 
+
+---
+## CTR-001-01 - Panda Development Consoles
+In addition to the full debugger boxes, Nintendo provided simpler **development consoles**, nicknamed **Panda** units, for teams to test games in a more portable, retail-like environment. 
+A Panda unit is essentially a modified 3DS handheld that can run unsigned code and dev cartridges but lacks advanced debugging or video-out capabilities.
+
+Panda units use a unique colored shell (often white, silver or black mixes) and contain special boot ROMs and NAND software (Dev Menu, etc.), but otherwise are similar in specs to a retail 3DS. They can boot games from any region and from SD card or dev flashcards, bypassing the normal Home Menu for direct launch of software under development.
+
+ However, they will **not run standard retail cartridges** (the keys differ) and cannot access online services like eShop in retail mode.
+
+ These units were relatively inexpensive (\~**\$324 USD** each) compared to the full debugger kits, so studios would buy multiple Panda consoles for QA testers and developers to multiplayer test or continue work off-site.
+
+ Aside from the case color and a “NOT FOR RESALE” type markings, they look nearly identical to a normal 3DS. (Notably, the term “Panda” was also used for the DSi debug units, continuing the animal-themed dev kit nicknames.)
 
 ---
 # References
