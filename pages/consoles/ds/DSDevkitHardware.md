@@ -223,6 +223,9 @@ This allows game developers to test their games with the exact right amount of S
 Here is an photo of the board of a Sub card:
 <img width="536" alt="DSSubCartBoard" src="https://github.com/user-attachments/assets/61073e2a-63b8-42a7-9dff-f44735d65b58" />
 
+And the connection on the main cartridge:
+![DSCardWithoutSaveSubCard](https://github.com/user-attachments/assets/b6930cb2-c642-4716-9d7c-28aefb4a2738)
+
 
 They have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main cartridge.
 Known part numbers:
