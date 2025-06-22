@@ -138,12 +138,12 @@ There is another version without the MIDI interface which relies on sending all 
 The hardware would be connected to a developer's PC via USB, and using the provided software the sound engineer could send MIDI files that would play back on the device's speakers.
 
 Here is a view from the side showing the USB and the MIDI ports:
-<img src="/public/images/ds/IS-NITRO-UIC_side.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/ds/IS-NITRO-UIC_side.jpg" class="wow slideInLeft" />
 
 
 The MIDI version of this hardware could also be connected to any MIDI instrument directly via the MIDI interface which can be seen in the diagram below.
    
-<img src="/public/images/ds/IS-NITRO-UIC-DIAGRAM.jpg" class="wow slideInLeft postImage" />
+<img src="/public/images/ds/IS-NITRO-UIC-DIAGRAM.jpg" class="wow slideInLeft" />
 
 Also here is an image from [Behind The Code with Gerry](https://www.behindthecode.ca/is-nitro-uicmidi/) as to what it looks like when a DS is running the software and waiting for messages: 
 ![Found IS-NITRO-UIC Screen](https://github.com/user-attachments/assets/baf7fd71-cb52-4d86-98e3-f9cdab7cec27)
