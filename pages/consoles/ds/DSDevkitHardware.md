@@ -185,6 +185,15 @@ Many of these have the japanese text written on them: `DSフラッシュカー�
 
 They also have Part numbers of the form: `(E202650) E4`, the E4 at the end may indicate a revision or version code.
 
+Then the label mentions the Slide‑switch settings, which can be in one of two positions On (A) and Off (B). Which I believe allows two pieces of software to be installed on the same cartridge and switched between easily without having to constantly rewrite the cartridge.
+
+The rest of the text is standard warnings, so the translation would be:
+```
+* Do not use with the cover open.
+* If you touch the circuit board directly with your hands, be careful of static electricity.
+* To avoid damage, switch the slide‑switch using tweezers or similar tools.
+```
+
 So how does the Rom get written to the cartridge? The answer is above you, well above you on this page, the **IS-NITRO-EMULATOR** and the **IS-NITRO-WRITER** can both write to these game cartridges.
 
 Known part numbers:
