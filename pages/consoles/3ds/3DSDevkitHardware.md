@@ -130,7 +130,6 @@ The Photo below was posted by **moreretrograde** on Reddit:
 ## CTR-001-02 Partner-CTR Tethered Controller (Wired 3DS)
 <section class="postSection">
     <img src="https://github.com/user-attachments/assets/343da3f9-5fa1-4ae9-b891-69dc7bc18016" alt="CTR-001-02" class="wow slideInLeft postImage" />
-
 <div markdown="1">
    
 The **Partner-CTR development** kits all use a special modified 3DS unit (model CTR-001-02) as the input device [^6]. 
@@ -149,6 +148,10 @@ Nintendo continued this approach of a wired dev-unit controller from the DS era 
 
 ---
 ## CTR-001-01 - Panda Development Consoles
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/66ee1c3a-d8a8-4f75-8127-108a2fdf9122" alt="CTR-001-01 Panda" class="wow slideInLeft postImage" />
+<div markdown="1">
+  
 In addition to the full debugger boxes, Nintendo provided simpler **development consoles**, nicknamed **Panda** units, for teams to test games in a more portable, retail-like environment. 
 A Panda unit is essentially a modified 3DS handheld that can run unsigned code and dev cartridges but lacks advanced debugging or video-out capabilities.
 
@@ -158,9 +161,13 @@ They can boot games from any region and from SD card or dev flashcards, bypassin
 
  However, they will **not run standard retail cartridges** (the keys differ) and cannot access online services like eShop in retail mode.
 
- These units were relatively inexpensive (\~**\$324 USD** each) compared to the full debugger kits, so studios would buy multiple Panda consoles for QA testers and developers to multiplayer test or continue work off-site.
+![Panda in box](https://github.com/user-attachments/assets/eec61cd2-4eec-41e0-b9ed-3b3e1b4c441e)
 
-Elliot from The Retro Future has a video showing off the Panda Development Console:
+ These units were relatively inexpensive (\~**\$324 USD** each) compared to the full debugger kits, so studios would buy multiple Panda consoles for QA testers and developers to multiplayer test or continue work off-site.
+ </div>
+</section> 
+
+Elliot from **The Retro Future** has a video showing off the Panda Development Console:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JvMQs0fnhE4?si=qwBvvWgo4wRLZkbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
  Aside from the case color and a “NOT FOR RESALE” type markings, they look nearly identical to a normal 3DS. (Notably, the term “Panda” was also used for the DSi debug units, continuing the animal-themed dev kit nicknames.)
