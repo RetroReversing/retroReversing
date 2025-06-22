@@ -176,22 +176,47 @@ For more information about the Writer and a teardown: [The NSMB Hacking Domain �
 
 ## DS Rewritable development Cartridge
 <section class="postSection">
-    <img src="/public/images/ds/DS Development Cartridge.jpg" class="wow slideInLeft postImage" />
+    <img src="https://github.com/user-attachments/assets/61be7e6c-1b3f-4a70-abda-2a7aedc48da2" class="wow slideInLeft postImage" />
 
  <div markdown="1">
 Similar to most console development kits, there are official development flash cartridges for the DS. These are similar to the standard game cartridge but are re-writeable and thus can be used for any game.
 
+Many of these have the japanese text written on them: `DSフラッシュカードSP512M`. Which translates to DS Flash Card SP512M, 512M being the size in Megabytes. 
+
+They also have Part numbers of the form: `(E202650) E4`, the E4 at the end may indicate a revision or version code.
+
 So how does the Rom get written to the cartridge? The answer is above you, well above you on this page, the **IS-NITRO-EMULATOR** and the **IS-NITRO-WRITER** can both write to these game cartridges.
 
+Known part numbers:
+* **E202809** - 512M
+
+
+ </div>
+</section> 
+
+There was also these ones which were very long:
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: These Nintendo DS development cartridges really existed. <a href="https://t.co/Tp8A0tGvL6">pic.twitter.com/Tp8A0tGvL6</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1337742223744495619?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> 
+
+
+
+### DS Sub Cards (Save Game Cards)
+<section class="postSection">
+    <img src="/public/images/ds/DS Development Cartridge.jpg" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
 But what about saved game data? Not all retail cartridges have the same amount of Save RAM on them and so the development cartridges should have a configurable amount of Save RAM right?
 
 Right! So this was achieved using "sub-cards" which you can get access to and swap out very easily by opening the top half of the cartridge.
 
 This allows game developers to test their games with the exact right amount of Save RAM [^3]. 
+
+Known part numbers:
+* **E202650** - DS Sub Card 64K EEPROM1
+
  </div>
 </section> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Reminder: These Nintendo DS development cartridges really existed. <a href="https://t.co/Tp8A0tGvL6">pic.twitter.com/Tp8A0tGvL6</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1337742223744495619?ref_src=twsrc%5Etfw">December 12, 2020</a></blockquote> 
+
 ---
 
 ## IS-TWL-DEBUGGER
