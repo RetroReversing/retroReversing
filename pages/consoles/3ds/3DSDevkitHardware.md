@@ -160,6 +160,9 @@ They can boot games from any region and from SD card or dev flashcards, bypassin
 
  These units were relatively inexpensive (\~**\$324 USD** each) compared to the full debugger kits, so studios would buy multiple Panda consoles for QA testers and developers to multiplayer test or continue work off-site.
 
+Elliot from The Retro Future has a video showing off the Panda Development Console:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JvMQs0fnhE4?si=qwBvvWgo4wRLZkbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
  Aside from the case color and a “NOT FOR RESALE” type markings, they look nearly identical to a normal 3DS. (Notably, the term “Panda” was also used for the DSi debug units, continuing the animal-themed dev kit nicknames.)
 
 ---
