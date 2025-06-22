@@ -138,6 +138,10 @@ The hardware would be connected to a developers PC via USB, and using the provid
 The MIDI version of this hardware could also be connected to any MIDI instrument directly via the MIDI interface which can be seen in the diagram below.
    
 <img src="/public/images/ds/IS-NITRO-UIC-DIAGRAM.jpg" class="wow slideInLeft postImage" />
+
+Also here is an image from [Behind The Code with Gerry](https://www.behindthecode.ca/is-nitro-uicmidi/) as to what it looks like when a DS is running the software and waiting for messages: 
+![Found IS-NITRO-UIC Screen](https://github.com/user-attachments/assets/baf7fd71-cb52-4d86-98e3-f9cdab7cec27)
+
    
 Thank you to **@DarkainMX** for tracking down both the information and photo of this rare piece of hardware!
  </div>
