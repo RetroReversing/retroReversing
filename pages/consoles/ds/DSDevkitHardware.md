@@ -198,6 +198,7 @@ So how does the Rom get written to the cartridge? The answer is above you, well 
 
 Known part numbers:
 * **E202809** - 512M
+* **E202668** - 1G
 
 
  </div>
@@ -217,10 +218,16 @@ But what about saved game data? Not all retail cartridges have the same amount o
 
 Right! So this was achieved using "sub-cards" which you can get access to and swap out very easily by opening the top half of the cartridge.
 
-This allows game developers to test their games with the exact right amount of Save RAM [^3]. 
+This allows game developers to test their games with the exact right amount of Save RAM and the specific type of Save RAM (EEPROM or FLASH) [^3]. 
 
+Here is an photo of the board of a Sub card:
+<img width="536" alt="DSSubCartBoard" src="https://github.com/user-attachments/assets/61073e2a-63b8-42a7-9dff-f44735d65b58" />
+
+
+They have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main cartridge.
 Known part numbers:
 * **E202650** - DS Sub Card 64K EEPROM1
+* **E202809** - DS Sub Card 64K EEPROM1 (Note: This may be wrong as it is the same as the main cartridge)
 
  </div>
 </section> 
