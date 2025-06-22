@@ -162,9 +162,11 @@ Thank you to **@DarkainMX** for tracking down both the information and photo of 
  <div markdown="1">
 The **IS-NITRO-Writer** is used to flash a ROM image to multiple flash cartridges at once!  intelligent Systems developed one of these units for most Nintendo consoles including the Nintendo 64 and Game Boy.
 
-One of the slots holds the master cartridge that will be copied to all the 7 other cartridges. Alternatively it can connect to the PC via USB and take a ROM from the PC and flash to 8 cartridges at once (the Master slot is used to flash an extra one).
+One of the slots holds the master game card that will be copied to all the 7 other rewritable flash game cards. 
 
-it has a bunch of DIP switches for configuration, a USB type-B port and uses the same power supply as a Nintendo Gamecube!
+**Alternatively** it can connect to the PC via USB and take a ROM from the PC and flash to 8 cards at once (the Master slot is used to flash an extra one).
+
+It has a bunch of DIP switches for configuration, a USB type-B port and uses the same power supply as a Nintendo Gamecube!
  </div>
 </section> 
 
@@ -174,18 +176,20 @@ it has a bunch of DIP switches for configuration, a USB type-B port and uses the
 
 For more information about the Writer and a teardown: [The NSMB Hacking Domain » Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/?from=20)
 
-## DS Rewritable development Cartridge
+## DS Rewritable development Card
 <section class="postSection">
     <img src="https://github.com/user-attachments/assets/61be7e6c-1b3f-4a70-abda-2a7aedc48da2" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-Similar to most console development kits, there are official development flash cartridges for the DS. These are similar to the standard game cartridge but are re-writeable and thus can be used for any game.
+Similar to most console development kits, there are official development flash card for the DS. These are similar to the standard game card but are re-writeable and thus can be used for any game.
 
 Many of these have the japanese text written on them: `DSフラッシュカードSP512M`. Which translates to DS Flash Card SP512M, 512M being the size in Megabytes. 
 
 They also have Part numbers of the form: `(E202650) E4`, the E4 at the end may indicate a revision or version code.
 
-Then the label mentions the Slide‑switch settings, which can be in one of two positions On (A) and Off (B). Which I believe allows two pieces of software to be installed on the same cartridge and switched between easily without having to constantly rewrite the cartridge.
+Then the label mentions the Slide‑switch settings, which can be in one of two positions On (A) and Off (B). 
+
+Which I originally believed allows two pieces of software to be installed on the same card and switched between easily without having to constantly rewrite the card. However the documentation appears to contradict this by saying it is setup during programming and debugging and it should be kept to the ON value.
 
 The rest of the text is standard warnings, so the translation would be:
 ```
@@ -194,7 +198,23 @@ The rest of the text is standard warnings, so the translation would be:
 * To avoid damage, switch the slide‑switch using tweezers or similar tools.
 ```
 
-So how does the Rom get written to the cartridge? The answer is above you, well above you on this page, the **IS-NITRO-EMULATOR** and the **IS-NITRO-WRITER** can both write to these game cartridges.
+So how does the Rom get written to the cartridge? The answer is above you, well above you on this page, the **IS-NITRO-EMULATOR** and the **IS-NITRO-WRITER** can both write to these game cards.
+
+Although only specific versions of these supported specific cards as is mentioned in the brief documentation paper that comes with the cards:
+```
+About the switch
+Switches the CARD-ID value. It can be confirmed during programming or debugging. Normally, please keep it set to ON.
+
+About capacity settings
+When operating, the DS Flash Card emulates the device capacity based on the recorded data. Always select the “device capacity” according to the registered data in the ROM.
+
+About IS-NITRO-WRITER
+Use version 1.12 or later of IS-NITRO-WRITER.
+For [flash memory], select [automatic] for [type].
+
+About IS-NITRO-DEBUGGER
+Use version 1.59 or later of IS-NITRO-DEBUGGER.
+```
 
 Known part numbers:
 * **E202809** - 512M
@@ -209,18 +229,18 @@ There was also these ones which were very long:
 
 
 
-### DS Sub Cards (Save Game Cards)
+### NTR-SUB02-1 - DS Sub Cards (Save Game Cards)
 <section class="postSection">
     <img src="/public/images/ds/DS Development Cartridge.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
 But what about saved game data? Not all retail cartridges have the same amount of Save RAM on them and so the development cartridges should have a configurable amount of Save RAM right?
 
-This was achieved using **Sub Cards** which you can get access to and swap out very easily by opening the top half of the main cartridge.
+This was achieved using **Sub Cards** which you can get access to and swap out very easily by opening the top half of the main card.
 
 This allows game developers to test their games with the exact right amount of Save RAM and the specific type of Save RAM (EEPROM or FLASH) [^3]. 
 
-Here is an photo of the board of a Sub Card [^7]:
+Here is an photo of the board of a Sub Card, note the part ID which was **NTR-SUB02-1** [^7]:
 <img width="536" alt="DSSubCartBoard" src="https://github.com/user-attachments/assets/61073e2a-63b8-42a7-9dff-f44735d65b58" />
 
 And the connection on the main cartridge [^7]:
@@ -228,10 +248,13 @@ And the connection on the main cartridge [^7]:
 
 Both Images are thanks to **Dirbaio's** post on the **The NSMB Hacking Domain** here [Nintendo DS dev hardware! IS-NITRO-EMULATOR & co.](https://nsmbhd.net/thread/4438-nintendo-ds-dev-hardware-is-nitro-emulator-and-co/)
 
-The Sub Cards have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main cartridge.
+The Sub Cards have part numbers in brackets but I am not sure if it is the actual part number of the subcard or if its the main card its compatible with, as I have seen a cartridge with ID E202809 which is the same as the main card.
 Known part numbers:
+* **E202387** - DS Sub Card 4K EEPROM
 * **E202650** - DS Sub Card 64K EEPROM1
-* **E202809** - DS Sub Card 64K EEPROM1 (Note: This may be wrong as it is the same as the main cartridge)
+* **E202809** - DS Sub Card 64K EEPROM1 (Note: This may be wrong as it is the same as the main card)
+
+Note some are EEPROM and others are EEPROM1, not sure what the difference was, but the EEPROM1 also have E4 in the bottom right hand corner.
 
  </div>
 </section> 
