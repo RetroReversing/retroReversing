@@ -105,7 +105,7 @@ Note that it did not support original GB and GBC games unlike the retail Nintend
  <div markdown="1">
 The **IS-NITRO-HUB** is a piece of development hardware that was used to connect multiple development units (e.g IS-NITRO-EMULATOR) together using standard ethernet cables.
 
-This was very useful for testing multi-player comes or software that communicated with other devices such as Pictochat.
+This was very useful for testing multi-player games or software that communicated with other devices such as Pictochat.
  </div>
 </section> 
 
