@@ -114,6 +114,26 @@ Internally, the Capture unit is similar to the Debugger but with additional vide
 The Photo below was posted by **moreretrograde** on Reddit:
 ![Partner-CTR Capture Unit](https://github.com/user-attachments/assets/0df5de96-2d8e-4180-abca-d4ddd2dc0e85)
 
+---
+## CTR-001-02 Partner-CTR Tethered Controller (Wired 3DS)
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/343da3f9-5fa1-4ae9-b891-69dc7bc18016" alt="CTR-001-02" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+   
+The **Partner-CTR development** kits all use a special modified 3DS unit (model CTR-001-02) as the input device [^6]. 
+
+Instead of a functional game cartridge slot, the unit has a panel with two locked cable connectors that attach to the dev kit box.
+
+Through these cables, the handheld’s screens and input are linked to the main dev hardware (video data is sent to the monitors/PC, and input is sent back to the game).
+
+The handheld itself is a **dummy terminal** containing only the LCD displays, speakers, and input controls – most processing and storage are handled by the external Partner box. This design lets developers experience the game on an actual 3DS form-factor (e.g. to test 3D effect using the real screen and to use the touch interface) while still benefiting from debugging and capture features in the host unit.
+
+The wired controller has a reduced internal board and is lighter, since many components (CPU, RAM, etc.) are relocated to the dev kit box. 
+ 
+Nintendo continued this approach of a wired dev-unit controller from the DS era (e.g. the IS-NITRO-Emulator’s DS controller) because it effectively emulates the user experience while enabling full debugging on the PC.
+ </div>
+</section> 
 
 ---
 # References
@@ -122,3 +142,4 @@ The Photo below was posted by **moreretrograde** on Reddit:
 [^3]: [Nintendo 3DS IS-CTR-BOX - Consolevariations](https://consolevariations.com/collectibles/nintendo-3ds-is-ctr-box)
 [^4]: [Planet 3DS - Exclusive: Nintendo 3DS Dev Kit prices leaked](https://web.archive.org/web/20110219025126/http://www.planet3ds.net/news/nintendo-3ds-dev-kit-prices-leaked/)
 [^5]: [Got my grail this week. The PARTNER-CTR Capture Debugger! : r/nds](https://www.reddit.com/r/nds/comments/1hg0mro/got_my_grail_this_week_the_partnerctr_capture/)
+[^6]: [3DS Hardware](https://www.lucklessheaven.com/nintendo-3ds-hardware)
