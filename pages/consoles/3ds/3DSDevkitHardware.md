@@ -27,9 +27,9 @@ _updatedAt: '2025-06-22'
 # Official Development kits
 Nintendo’s official 3DS development hardware was created in collaboration with **Intelligent Systems (IS)** and **Kyoto Microcomputer Co.**.
 
-## CTR Target Board - Prototype Hardware
+## CTR-TEG2 - CTR Target Board - Prototype Hardware
 <section class="postSection">
-    <img src="https://github.com/user-attachments/assets/98180b1a-d88d-49ae-973e-a02dd5faed23" alt="CTR Target Board" class="wow slideInLeft postImage" />
+    <img src="https://github.com/user-attachments/assets/7b4afde2-f9e4-4458-803a-7006f6b04011" alt="CTR Target Board" class="wow slideInLeft postImage" />
 
  <div markdown="1">
 
@@ -37,7 +37,9 @@ The earliest known 3DS dev kit was a bare-bones prototype board used during deve
 
 An FCC filing in 2010 revealed a **Nintendo CTR Target Board** test kit consisting of two attached screens (a widescreen 3D top panel and a 4:3 bottom panel) mounted on a circuit board [^1].
 
-This board included a Nintendo DS cartridge slot and SD card slot, indicating backward compatibility and storage, and was used to validate new components like the Wi-Fi module prior to the 3DS’s release.
+![Closeup of CTR-TEG2 K-10-3628](https://github.com/user-attachments/assets/79aee07b-1b86-46ae-b8da-c0f95c310b3d)
+
+This board included a Nintendo DS cartridge slot and SD card slot, indicating backward compatibility and storage, and was used to validate new components like the Wi-Fi module prior to the 3DS’s release [^8].
 
 This early dev hardware made it clear that only the top screen would have **Sharp’s auto-stereoscopic 3D capability**, while the bottom screen was a standard LCD [^1].
 
@@ -168,3 +170,5 @@ They can boot games from any region and from SD card or dev flashcards, bypassin
 [^4]: [Planet 3DS - Exclusive: Nintendo 3DS Dev Kit prices leaked](https://web.archive.org/web/20110219025126/http://www.planet3ds.net/news/nintendo-3ds-dev-kit-prices-leaked/)
 [^5]: [Got my grail this week. The PARTNER-CTR Capture Debugger! : r/nds](https://www.reddit.com/r/nds/comments/1hg0mro/got_my_grail_this_week_the_partnerctr_capture/)
 [^6]: [3DS Hardware](https://www.lucklessheaven.com/nintendo-3ds-hardware)
+[^7]: [3DS Development Hardware - GBAtemp.net](https://gbatemp.net/threads/3ds-development-hardware.327858/)
+[^8]: [CTR-TEG2 (3DS Devkit from 2009) - All Known Media - Internet Archive](https://archive.org/details/CTR-TEG2/K-10-3628/nintendo-ctr-target-board-detail-1678569419-91.jpg)
