@@ -56,7 +56,10 @@ The CTR Target Board allowed first-party developers to begin building 3DS softwa
 
  This kit consists of a teal-blue external unit ("the box") and a tethered 3DS-like controller. Notably, in this early design the *handheld controller contained the main 3DS hardware* (CPU/GPU), while the external box acted primarily as a “card emulator” for loading game code.
 
-  The IS-CTR-BOX couldn't operate with the controller unplugged (running on its own like a portable unit) because the "brains" were inside the handheld, unlike later units where the box housed the processing hardware.
+  The IS-CTR-BOX couldn't operate with the controller unplugged because the "brains" were inside the handheld, unlike later units where the box housed the processing hardware. But the controller could be used without plugging it into the IS-CTR-BOX allowing for more portable testing!
+
+![Packaging of the IS-CTR-BOX](https://github.com/user-attachments/assets/8ea66bb4-7415-4405-8d03-9471dca1eff2)
+
 
   This dev kit was released around 2011 in limited quantities (estimated only a few hundred) before Nintendo quickly phased it out in favor of the **Partner-CTR** series, which offered greater functionality and a more standard setup [^3].
  </div>
