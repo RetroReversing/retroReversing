@@ -46,5 +46,25 @@ The CTR Target Board allowed first-party developers to begin building 3DS softwa
 </section> 
 
 ---
+## IS-CTR-BOX Development Unit
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/02e585d2-e0e4-4cf3-bd65-45940aaae78f" alt="IS-CTR-BOX" class="wow slideInLeft postImage" />
+
+ <div markdown="1">
+ Nintendo initially produced a large "big box" 3DS dev kit known as the **IS-CTR-BOX**, designed by Intelligent Systems. The photo on the left is by **SimonMK7** on twitter [^2].
+
+ This kit consists of a teal-blue external unit ("the box") and a tethered 3DS-like controller. Notably, in this early design the *handheld controller contained the main 3DS hardware* (CPU/GPU), while the external box acted primarily as a “card emulator” for loading game code.
+
+  The IS-CTR-BOX couldn't operate with the controller unplugged (running on its own like a portable unit) because the "brains" were inside the handheld, unlike later units where the box housed the processing hardware.
+
+  This dev kit was released around 2011 in limited quantities (estimated only a few hundred) before Nintendo quickly phased it out in favor of the **Partner-CTR** series, which offered greater functionality and a more standard setup [^3].
+ </div>
+</section> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Looks like this finally arrived today. This is the IS-CTR-Debugger. Created by Intelligent Systems, this piece of hardware was used to help developers test &amp; debug their games for the Nintendo 3DS. It includes the IS-CTR-Box, the SPR for Emulator unit &amp; a Wii ac adaptor + cables. <a href="https://t.co/SX1VWcMfHs">pic.twitter.com/SX1VWcMfHs</a></p>&mdash; SimonMK7 (@SimonOrtizBrian) <a href="https://twitter.com/SimonOrtizBrian/status/1464382922778050560?ref_src=twsrc%5Etfw">November 26, 2021</a></blockquote>
+
+---
 # References
 [^1]: [IQGamer: 3DS Development / Test Hardware Revealed?](http://imagequalitymatters.blogspot.com/2010/05/3ds-development-test-hardware-revealed.html#)
+[^2]: [SimonMK7 on X: Here are some images of the IS-CTR-Box/Debugger](https://x.com/SimonOrtizBrian/status/1464387089718382594)
+[^3]: [Nintendo 3DS IS-CTR-BOX - Consolevariations](https://consolevariations.com/collectibles/nintendo-3ds-is-ctr-box)
