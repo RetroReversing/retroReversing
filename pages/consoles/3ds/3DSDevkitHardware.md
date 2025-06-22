@@ -213,9 +213,13 @@ For example, the **Host I/O (HIO)** feature in the dev menu allowed installing g
 * **Debug and Link Cables:** The Partner-CTR kits shipped with proprietary dual-cables for the controller hookup, as well as USB cables for PC connectivity and optionally extension cables for video output. Standard Wii **AV cables** could be used in the multi-out port of the capture unit for analog output. The dev kits did **not** use normal Wi-Fi for debugging; instead, they relied on USB or wired links for stability.
 * **Power Supplies:** The Partner-CTR and IS-CTR-BOX units use external power adapters rather than the small 3DS AC adapter. In fact, similar to earlier dev kits, the IS-CTR-BOX was reported to use a GameCube-style 12V power supply, and the Partner-CTR may use a custom PSU (development units often had robust power requirements). Some kiosk demo 3DS units (CTR-001-05) even used a modified HDMI-like power cable for security in retail displays, but those were not used in development labs.
 * **Firmware Update Tools:** To keep dev hardware updated with the latest system software and SDK, Nintendo provided **development unit system updater cartridges/applications**. Specifically, a **“CTR System Updater” (CSU)** was used for original 3DS-based units, and a **“SNAKE System Updater”** for New 3DS units, which install the latest dev firmware, OS, and tools onto the device. These updater programs (distributed as encrypted CIAs or carts) would bring a Panda unit’s system software in line with the SDK version target. Developers would run these periodically, as the dev OS included debug versions of the Home Menu, DevMenu, and other system applets with extra logging and features (for example, the dev Home Menu can display CPU/GPU usage and allows screenshot capture).
-* **Gyro Sensor Calibration CTR** Used at Foxconn to test the hardware gyroscope.
 
+### Gyro Sensor Calibration CTR
+The 3DS Gyro Sensor Calibration CTR hardware refers to a specialized software and hardware setup used during the manufacturing process of Nintendo 3DS systems, specifically at Foxconn. 
 ![Gyro Sensor Calibration CTR](https://github.com/user-attachments/assets/0c059cab-0974-4f35-966a-35a4dad244e6)
+This calibration tool ensures the correct operation of the gyroscope sensor within the 3DS units. 
+
+The calibration process involves measuring the gyroscope’s zero-rate offset, which is the sensor’s output when it is stationary and should ideally be zero. This offset arises due to manufacturing variances and sensor imperfections. The calibration software collects multiple readings to determine this offset and adjust the sensor’s output accordingly, ensuring accurate motion sensing during normal use.
 
 
 ---
@@ -227,8 +231,6 @@ These were essentially Partner-CTR Debugger/Capture devices with upgraded intern
 The overall form and function remained the same (tethered New 3DS unit and dev box). This ensured backward compatibility while enabling development of exclusive New 3DS software and performance tuning on the new hardware revision. The SNAKE name appears in update tools and documentation, but the hardware was still generally referred to under the CTR Partner branding by developers.
 
 By late in the 3DS’s life, tools like Unity and other middleware also supported the hardware, but these were software-side improvements.
-
-
 
 ---
 # Third-Party and Partner Development Tools
