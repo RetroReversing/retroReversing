@@ -42,7 +42,7 @@
 
 <script>
   $(document).ready(function() {
-    $("img.postImage",".post p img").each(function() {
+    $("img.postImage").each(function() {
         $(this).wrap($("<a/>", {
             href: $(this).attr("src"),
             "data-lightbox": '{"gallery": "page-images"}'
