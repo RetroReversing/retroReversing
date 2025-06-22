@@ -70,7 +70,7 @@
 	      $('body').find("[data-lightbox*='\"gallery\": \"" + option.gallery + "\"']").each(function() {
 	        $('.lightbox ul').append(
 	          '<li>' +
-	            '<img src="' + $(this).attr('src') + '">' +
+	            '<img src="' + $(this).attr('href') + '">' +
 	          '</li>'
 	        );
 	      });
