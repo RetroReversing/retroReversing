@@ -101,17 +101,25 @@ It is hard to find good images for the non-capture version of the Partner-CTR-De
 
 ---
 ## Partner-CTR Capture Unit
+<section class="postSection">
+    <img src="https://github.com/user-attachments/assets/492c6e6f-032d-4b2c-9a9e-627bf8226ab3" alt="CTR-001-02" class="wow slideInLeft postImage" />
+
+<div markdown="1">
+   
 The **Partner-CTR Capture** device is a variant of the dev kit focused on video output and capture for testing or demonstration.
 
 It adds high-resolution video output capabilities, allowing the 3DS’s dual screens to be displayed on external monitors or capture equipment. The capture unit’s external box provides multiple output ports: 
  - **two DVI-D outputs** (one for each screen) for digital display
  - A **Nintendo Wii AV multi-out** for analog video (composite/component).
 
-  It also includes a **USB output** interface for direct capture to a PC. Using these, developers or QA staff could mirror the 3DS screens on large displays (up to 720p signal for each screen) or record gameplay footage, which was invaluable for preview events and creating game trailers.
+It also includes a **USB output** interface for direct capture to a PC. Using these, developers or QA staff could mirror the 3DS screens on large displays (up to 720p signal for each screen) or record gameplay footage, which was invaluable for preview events and creating game trailers.
 
 The tethered 3DS controller remains wired to the capture box, so a tester can play normally on the handheld while others view the action on big screens.
 
 Internally, the Capture unit is similar to the Debugger but with additional video encoder hardware. Nintendo offered a combined **Partner-CTR Debugger/Capture** kit at a higher price (\~**\$3,905 USD** for the dual-function model). These capture-enabled kits were rare and typically reserved for larger studios and events due to their cost and Nintendo’s strict licensing.
+
+ </div>
+</section> 
 
 The Photo below was posted by **moreretrograde** on Reddit:
 ![Partner-CTR Capture Unit](https://github.com/user-attachments/assets/0df5de96-2d8e-4180-abca-d4ddd2dc0e85)
@@ -142,7 +150,9 @@ Nintendo continued this approach of a wired dev-unit controller from the DS era 
 In addition to the full debugger boxes, Nintendo provided simpler **development consoles**, nicknamed **Panda** units, for teams to test games in a more portable, retail-like environment. 
 A Panda unit is essentially a modified 3DS handheld that can run unsigned code and dev cartridges but lacks advanced debugging or video-out capabilities.
 
-Panda units use a unique colored shell (often white, silver or black mixes) and contain special boot ROMs and NAND software (Dev Menu, etc.), but otherwise are similar in specs to a retail 3DS. They can boot games from any region and from SD card or dev flashcards, bypassing the normal Home Menu for direct launch of software under development.
+Panda units use a unique colored shell (often white, silver or black mixes) and contain special boot ROMs and NAND software (Dev Menu, etc.), but otherwise are similar in specs to a retail 3DS. 
+
+They can boot games from any region and from SD card or dev flashcards, bypassing the normal Home Menu for direct launch of software under development.
 
  However, they will **not run standard retail cartridges** (the keys differ) and cannot access online services like eShop in retail mode.
 
