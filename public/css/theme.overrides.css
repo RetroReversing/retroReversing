@@ -83,11 +83,14 @@ blockquote {
 /* Images inside posts should be 50% and look more centered  */
 .post img {
     width: 50%;
-/*     margin-left: 20%; */
     margin-left: 2rem;
     display:block;
 /*   Clear both means the images won't be put on the same line as a floating element */
   clear: both;
+/*   The next is experimental */
+  max-height: 50vh;
+  max-width: 25vw;
+  width: auto;
 }
 
 /* We don't want it to apply to certain images  */
