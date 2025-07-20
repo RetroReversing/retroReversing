@@ -196,6 +196,39 @@ Inside the game specific folder all the game resources were available:
 <img alt="objects are saved in plain text" src="https://github.com/user-attachments/assets/481cd50d-4496-4537-9b96-2d87de3d51cb" />
 Objects are stored in a plain text format which is fairly easy to read, with helpful comments about each section.
 
+ Here is an example objects file for the **Creating Stars** Demo in the Game Maker 1.1 format, annotations have been added in the form of comments (//) to the end of each line but note these are not part of the format:
+```bash
+3                    // Total Number of Objects (3)
+=== OBJECT ===       // Start of an Object
+creator              // Name of object (creator)
+    0    1           // Solid=False, Active=True
+=== CREATE ACTIONS   // Start of Create Event
+1                    // Number of actions in event (1)
+  201  -1  1         // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+5                    // Set alarm clock to 5
+
+0                    // Number of actions in left in event (0)
+=== DESTROY ACTIONS  // Start of Destroy event
+0                    // Number of actions in event (0)
+=== ALARM ACTIONS    // Start of Alarm event
+3                    // Number of actions in event (3)
+  311  -1  1         // actionID = 311 (Create instance at postion); appliesTo = -1 (self); numberOfParameters = 1
+0                    // X = 0
+0                    // Y = 0
+2                    // Number of actions left in event (2)
+  401  -1  1         // actionID = 401(Play a sound); appliesTo = -1 (self); numberOfParameters = 1
+1                    // sound ID to play: 1
+
+1                    // Number of actions left in event (1)
+  201  -1  1         // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+15                   // Set alarm clock to 15
+
+0                    // Number of actions in left in event (0)
+=== STEP ACTIONS
+```
+
+Note that this format is more verbose than later formats by explicitly saying which event it is defining in the text file alone with including events that have 0 actions, this will be optimized in future versions to be less verbose and only include events that are being used.
+
 ---
 ### Emulating Game Maker 1.1
 The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
