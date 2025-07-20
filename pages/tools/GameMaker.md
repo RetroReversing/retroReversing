@@ -55,12 +55,19 @@ There is currently no decompiler for versions 4.0 -> 4.2, although games made in
 
 For GameMaker Studio decompilation there are a number of tools such as **UndertaleModTool** which will be covered in another post.
 
-#### Game Maker 4.3 -> 5.3a Decompiler
+#### GMD-Recovery - Game Maker 4.3 -> 5.3a Decompiler
 <img width="1749" height="363" alt="image" src="https://github.com/user-attachments/assets/bdccf03e-d27d-48f0-b7d0-098fc9dcdddd" style="max-width: 65vw; margin-left: 0px;" />
 The first Game Maker Decompiler was created by **VBGamer45** in Visual Basic 6.0. 
 It worked by allowing you to select a Game maker executable, it would then run the executable and you were prompted to choose the process that was run. It would then dump the memory of that process and try to brute force the decryption key from it. 
 
 After Game Maker 5.3a it was not updated to support the changes in that version so can only be used to decompile games made between 4.3 and 5.3a. But later on a new decompiler would be released which supported from 5.3a all the way up to 7.0.
+
+The source code for **GMD-Recovery** is available on Github: [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
+
+#### GMDecompiler - Game Maker 5.3a -> 7.0 Decompiler
+<img width="325" height="354" alt="image" src="https://github.com/user-attachments/assets/464f3d8d-1915-4e0b-8746-9d9005e1eab2" />
+GMDecompiler (gmdecompiler_v2_1.jar) was a closed source Game Maker decompiler written in Java that supported Game Maker games made between versions 5.3a and 7.0. It is unknown who created the decompiler, only that it was leaked at some point during the Game Maker 7.0 timeframe (2007-2008). 
+
 
 
 ---
