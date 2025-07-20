@@ -181,6 +181,79 @@ Game Maker 1.3 provided a few games and non-interactive demos to both showcase t
 
 After version 1.1 the game Sokoban seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
 
+### How were games saved?
+<img width="942" height="438" alt="Folder structure of saved games" src="https://github.com/user-attachments/assets/9a08b832-10ac-4271-95f1-8c3682be3360" />
+Games were saved into a specific folder "C:\Program Files\Game_Maker\Games", with each game having its own sub folder. 
+Inside the game specific folder all the game resources were available:
+* Images as BMP/GIF files, named like so: image1.bmp, image2.bmp
+* Audio as .WAV files, named with free text so *.wav 
+* Help documentation is saved as HELP.RTF
+* Objects - Object data stored as plain text
+* Rooms - Metadata
+* Sounds - Metadata
+
+#### Object format
+A few notes about the format:
+* Newline seperated - Uses the DOS/Windows standard newline sequence for seperation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
+* Values on the same line seem to be seperated by 4 spaces
+* The number 1 is used for true (e.g checkbox on in the IDE) and 0 for false.
+* We know we are at the end of a Object by the `--------------------------------------------` string.
+
+Here is an example Objects file for the Creating Stars Demo, the comments at the end are not part of the format they have been added for annotation, note that the annotations are incomplete:
+```
+version 1.3 // Version of Game Maker this was saved in
+3              // Number of Objects (3)
+creator        // Name of Object "creator"
+    0    1     // Solid=False, Active=True
+    2 3        // eventID = 2 (Alarm event); numberOfActions = 3
+  311   -1    1 // actionID = 311 (Create instance at postion); appliesTo = -1 (self); numberOfParameters = 1
+0               // X coordinate of instance
+0               // Y Coordinate of instance
+2               // Object ID of instance to create (or is this the actionsLeft?) if so where is the objectID stored
+  401   -1    1 // actionID = 401 (Play a sound); appliesTo = -1 (self); numberOfParameters = 1
+1               // SoundID to play
+                // Newline to signify end of action?
+1               // actionsLeft = 1
+  201   -1    1 // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+15              // Set alarm clock to 15
+                // Newline to signify end of action?
+0               // 0 to signify end of event?
+    0 1         // eventId = 0 (Create); numberOfActions = 1 
+  201   -1    1 // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+5               // Set alarm clock to 5
+                // Newline to signify end of action
+0               // 0 to signify end of event
+-1
+-------------------------------------------- // Signifies end of Object
+star // Object name "star"
+    0    1       // Solid=False, Active=True
+  142 1          // eventID = 142 (?); numberOfActions = 1
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action?
+0                // 0 to signify end of event?
+    4 1          // eventId = 4 (Collision); numberOfActions = 1
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1 
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action
+0                // 0 to signify end of event
+    0 1          // eventId=0 (Create); numberOfActions = 1 
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action
+0                // 0 to signify end of event
+-1
+-------------------------------------------- // End of Object
+muur // Object name "muur" (muur is the dutch for wall)
+    1    0 // Solid=True; Active=False
+-------------------------------------------- // End of Object (no events on the muur/wall object since its not Active)
+```
+
+The annotations above are incomplete:
+* it is unclear currently if 0 signifies the end of the event or if it just counts down to how many actions are left to parse.
+* numberOfParameters looks to be incorrect as it is always 1 even for the "Create instance at postion" action.
+
+
 ### Emulating Game Maker 1.1
 The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
 One way to run it is you can use a browser based Windows 95 Emulator such as v86 [Windows 95 - v86](https://copy.sh/v86/?profile=windows95) and create a CD Rom image ISO of the extracted **gmaker11.zip** setup files and **mount** it in the emulator as a CD.
