@@ -160,6 +160,21 @@ Despite being primitive by later standards, it laid the groundwork for Game Make
 - **Introductory Scripting (GML)** Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
 - **No DirectX or Stand-alone Export** Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
 
+
+### Included example games and demoa
+<img width="767" height="534" alt="image" src="https://github.com/user-attachments/assets/a324c734-9e21-4f98-9e8c-4a83d1d15545" />
+Game Maker 1.3 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
+* **DEMO Creating Stars** - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
+* **GAME Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
+* **GAME Breakout**
+* **GAME Catch the Dog**
+* **GAME Pacman**
+* **GAME Peg Game**
+* **GAME Sokoban** - Sokoban is an old Japanse games. The goal is to move the objects (the balls) to the goal positions (the blue holes). You operate the mover using the arrow keys on your keyboard. You can only push a ball to the next position if that position is empty. You have solved the puzzle when all balls lie on holes.
+
+After version 1.1 the game sokoban seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
+
+### Reaching 1k downloads
 <img alt="Game Maker 1.1 Installer" src="https://github.com/user-attachments/assets/38d474c2-94fc-4c45-8de7-871ffef926a8" />
 
 By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3].
@@ -204,13 +219,8 @@ Games created in 1.3 were still run from within the Game Maker environment, and 
 
 ### Included example games and demos
 <img alt="image" src="https://github.com/user-attachments/assets/94829354-a067-4287-ba34-368b2b4acbf0" />
-Game Maker 1.3 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
-* **DEMO Creating Stars** - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
+Game Maker 1.3 introduced a new space game, renamed Falling Balls to be a Demo and also removed the Sokoban game:
 * **DEMO Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
-* **GAME Breakout**
-* **GAME Catch the Dog**
-* **GAME Pacman**
-* **GAME Peg Game**
 * **GAME Space Trip**
 
 ---
