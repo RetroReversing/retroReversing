@@ -20,13 +20,20 @@ editlink: /tools/GameMaker.md
 
 Game Maker is a popular 2D game development tool originally called **Animo** and developed by Professor **Mark Overmars**.
 
-Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
+Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1. Game Maker is still alive today in the form of the newly rebranded GameMaker Studio series. 
+
+This post will cover the history and technology of the pre-studio versions of Game Maker with a focus on more low level details such as decompiling and how the technology worked.
 
 ---
 # Technology behind Game Maker
-Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
+The technology behind Game Maker is really interested from a reverse engineering point of view, specifically how games were "compiled" into executables and how the game runner technology worked.
 
-## Source Code
+You can think of Game Maker as being made up of two main parts:
+* **Game Maker IDE** - This is where the games are made, with editors for sprites, sounds, objects, rooms and for programming scripts using the Game Maker Langauge (GML)
+* **Game Maker Runner** - This is the engine that takes the data exported by the IDE and allows it to be playable as a standard windows executable (and later on PSP, MacOS and others)
+
+## Original Source Code
+Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
 Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
 * **2003** - Delphi version 5. The IDE was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
 * **2004** - Delphi version 7. The IDE source code is now over **40,000** lines of code. The source code for the runner part is similar in size [^11]
@@ -45,6 +52,7 @@ Up until the newer rebrand of Game Maker into GameMaker Studio it has always sto
 Thus when a decompiler is made available, everyone has access to be able to read the code and create game mods for any game made in the compatible versions of game maker.
 
 There were a few decompilers released for specific versions of Game Maker created executables (*.exe):
+* **Game Maker 4.0 -> 4.3 Decompiler** - [Python 3 version of gm4dec.py](https://gist.github.com/windwakr/8abe5f39c6ce987bd770fc33945abdd9)
 * **Game Maker 4.3 -> 5.3a Decompiler** - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
 * **Game Maker 5.3a -> 7.0 Decompiler** - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
 * **Game Maker 8.0 -> 8.1 Decompiler** - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
@@ -68,14 +76,13 @@ The source code for **GMD-Recovery** is available on Github: [VBGAMER45/GMD-Reco
 <img width="325" height="354" alt="image" src="https://github.com/user-attachments/assets/464f3d8d-1915-4e0b-8746-9d9005e1eab2" />
 GMDecompiler (gmdecompiler_v2_1.jar) was a closed source Game Maker decompiler written in Java that supported Game Maker games made between versions 5.3a and 7.0. It is unknown who created the decompiler, only that it was leaked at some point during the Game Maker 7.0 timeframe (2007-2008). 
 
-
-
 ---
 ### Executable Converters
 New versions of Windows have occasionally broken Game Maker executables, these converters are used to upgrade old Game Maker executable files to run on newer versions of windows:
 * [GM6Vista: Patches for GameMaker 6 to run on Modern versions of Microsoft Windows (Vista to 11)](https://github.com/LiEnby/GM6Vista)
 * [GM Convert Game by Mark Overmars](https://archive.org/details/gm-convert-game) - Official tool by Mark Overmars to fix games on Windows Vista
 
+---
 ### G-Java - Java Game Maker Runner
 G-Java was an attempt to create a Game Maker Runner in Java to provide cross platform game development and embedded games inside **Java Applets**. It was never finished and ended up becoming Abandonware.
 
