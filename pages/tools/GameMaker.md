@@ -139,8 +139,7 @@ Mark Overmars also released some software unrelated to Game Maker:
 ## Community additions to Game Maker
 Over the years there have been many open source projects that aimed to enhance Game maker in a certain way, from cross platform IDEs such as **LateralGM**, software to convert games to Java (**G-Java**) and even multiple open source re-implementations of the Game Maker Runner (**ENIGMA**).
 
-Many of these projects are available on Github:
-[GameMaker Engineering Archive - GitHub](https://github.com/gm-archive)
+Many of these projects are available on Github via the [GameMaker Engineering Archive - GitHub](https://github.com/gm-archive)
 
 ---
 # Game Maker Version History (Versions 1.1 through 8.0)
@@ -149,18 +148,19 @@ Game Maker versions 1.1 through 8.0 trace the evolution of a simple 2D game desi
 The software’s version numbering skipped a non-public 1.0 (due to its origins as “Animo”), and each subsequent release brought meaningful enhancements – from the foundational changes in 4.0 to the quality-of-life improvements in 8.0.
 
 ## Version 1.0 (Unreleased “Animo”)
-Mark Overmars originally developed *Game Maker* as a program called **“Animo”** in 1999, intended for creating 2D animations. This version 1.0 was never publicly released – the software was renamed and first launched publicly as **Game Maker 1.1** later that year [^10]. In other words, there is **no public Game Maker 1.0**; Overmars skipped directly to 1.1 for the debut, reflecting the shift in focus from a simple animation tool to a game creation software [^10].
+Mark Overmars originally developed *Game Maker* as a program called **“Animo”** in 1999, intended for creating 2D animations. This version 1.0 was **never publicly released** – the software was renamed and first launched publicly as **Game Maker 1.1** later that year [^10]. In other words, there is **no public Game Maker 1.0**; Overmars skipped directly to 1.1 for the debut, reflecting the shift in focus from a simple animation tool to a game creation software [^10].
 
 ## Version 1.1 (November 15th 1999) – First Public Release
 ![Game Maker 1.1 IDE](https://github.com/user-attachments/assets/1d3797a9-89d3-4c81-9dc8-d7afdaf71937)
 
-Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
+Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. 
+Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
 
-- **Basic Game Creation Interface:** Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the IDE [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
-- **Introductory Scripting (GML):** Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
-- **No DirectX or Stand-alone Export:** Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
+- **Basic Game Creation Interface** Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the IDE [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
+- **Introductory Scripting (GML)** Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
+- **No DirectX or Stand-alone Export** Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
 
-*Outcome:* By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3]. However, it was clear that many features (graphics acceleration, game packaging, etc.) were yet to be implemented.
+By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3].
 
 ---
 ## Version 1.2 (2000) – Early Improvements
@@ -178,7 +178,8 @@ Game Maker 1.2 made the editor more user-friendly. It became possible to **copy 
 ### Miscellaneous Fixes
 Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
 
-However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online.
+### Lost Media
+However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online. Mark Overmars used to keep historical versions on his site but only ever included 1.1 and 1.4 of the 1.x series, so it is possible he doesn't have version 1.2 [^14].
 
 ---
 ## Version 1.3 (2000) – Minor Enhancements
@@ -425,3 +426,4 @@ The Game Maker Community has now lasted over 25 years!
 [^11]: [Game Maker Facts 2004](https://web.archive.org/web/20041012165649if_/http://www.cs.uu.nl/people/markov/gmaker/facts.html)
 [^12]: [GameMaker Versions - GameMaker Wiki](http://game-maker.wikidot.com/game-maker-versions)
 [^13]: [Dreamland: Home of Josh](http://dreamland.im/about.php)
+[^14]: [Game Maker Pages Old Downloads](https://web.archive.org/web/20050830103832if_/http://www.gamemaker.nl:80/old.html)
