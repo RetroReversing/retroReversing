@@ -156,9 +156,16 @@ Mark Overmars originally developed *Game Maker* as a program called **“Animo�
 Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. 
 Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
 
-- **Basic Game Creation Interface** Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the IDE [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
-- **Introductory Scripting (GML)** Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
-- **No DirectX or Stand-alone Export** Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
+## Basic Game Creation Interface
+<img alt="Game Maker 1.1 Object Editor" src="https://github.com/user-attachments/assets/59aca33f-a864-420a-bfd0-da09c7e111b2" />
+
+Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the Object Editor window [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
+
+## Introductory Scripting (GML) 
+Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
+
+## No DirectX or Stand-alone Export
+Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
 
 
 ### Included example games and demoa
