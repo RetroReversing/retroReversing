@@ -285,6 +285,12 @@ Here's a table summarizing the tools for viewing the insides of executables and 
 | **dumpbin**            | Windows (Visual Studio)         | Command-line tool for inspecting PE files, showing headers, symbols, imports, and more. | `dumpbin /all <file>` to view all available information.       |
 | **MachOView**          | macOS                           | Tool for viewing the structure of Mach-O binaries, native to macOS executables.  | Open the Mach-O binary in MachOView and browse its segments and sections. |
 
+### How do I find out what compiler/linker was used to build an executable?
+<img width="799" height="524" alt="Detect It Easy showing the Compile and Linker for Game Maker 1.1 executable" src="https://github.com/user-attachments/assets/5b9e294f-48b4-4c80-9159-324c9230e774" />
+When decompiling it can be incredible useful to know the exact version of the compiler and linker toolchain was used to build an executable so that the correct decompilation settings can be applied.
+
+The best tool to detect which compiler and linker was used is **Detect It Easy** (DIE), it is open source and has pre-build binaries available for Win/Mac and linux: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file)
+
 
 ---
 # Lesson 4 - Assembly Language
