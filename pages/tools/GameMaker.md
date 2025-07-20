@@ -162,33 +162,62 @@ Released on November 15th, 1999, **Game Maker 1.1** was the first version availa
 
 *Outcome:* By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3]. However, it was clear that many features (graphics acceleration, game packaging, etc.) were yet to be implemented.
 
+---
 ## Version 1.2 (2000) – Early Improvements
 Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12]. Notable changes and additions in version 1.2 include:
 
-- **Performance and Language Enhancements:** Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
+### Performance and Language Enhancements
+Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
 
-- **Backgrounds and Sound Control:** *Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
+### Backgrounds and Sound Control
+*Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
 
-- **Editing and Interface Features:** Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
+### Editing and Interface Features
+Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
 
-- **Miscellaneous Fixes:** Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
+### Miscellaneous Fixes
+Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
 
-Overall, **Game Maker 1.2** significantly polished the initial release by boosting performance, expanding the feature set (especially in graphics and editing capabilities). It set the stage for Game Maker’s evolution, although it still had the same fundamental limitations as 1.1 (no hardware acceleration and no stand-alone game export yet).
+However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online.
 
+---
 ## Version 1.3 (2000) – Minor Enhancements
-Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. There is little official documentation on this version’s specific changes, indicating that **no dramatic new features** were introduced beyond what 1.2 had added. Instead, version 1.3 likely brought **additional minor improvements and bug fixes** to ensure stability. For example, Overmars continued to tweak the user interface and GML based on user feedback, and possibly added a few more drag-and-drop actions or options.
+<img alt="Game Maker 1.3" src="https://github.com/user-attachments/assets/8b0010ca-450b-4965-ac81-fd9f1626e146" />
 
-Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
+Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. 
 
-*(By the end of the 1.x series, Game Maker had a small but growing community of users. The continuous 1.1→1.4 updates through 1999–2000 established the core functionality and reliability of the program, paving the way for the more substantial feature jumps in later versions.)*
+Version 1.3 brought **additional minor improvements and bug fixes** to ensure stability:
+* Enhanced image loading, allowing arbitrary sized images (also large ones) for the objects
+* Support for Animated GIFS
+* Now possible to draw shapes rather than just images
+* Ability to export a game as a zip file and re-imported for sharing editable games online
+* `forall` statement introducted to GML programming language (can execute a piece of code for all instances of a particular object)
+* Internals have been refactored to be more efficient, use less memory and no more limits on the number of objects or variables
 
+
+Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. 
+
+Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
+
+### Included example games and demos
+<img alt="image" src="https://github.com/user-attachments/assets/94829354-a067-4287-ba34-368b2b4acbf0" />
+Game Maker 1.3 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
+* **DEMO Creating Stars** - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
+* **DEMO Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
+* **GAME Breakout**
+* **GAME Catch the Dog**
+* **GAME Pacman**
+* **GAME Peg Game**
+* **GAME Space Trip**
+
+---
 ## Version 1.4 (2000) – Final 1.x Release
 Version 1.4 was the last update of the 1.x series, released toward the end of 2000. Like version 1.3, it was primarily aimed at final polishing and stability. According to community recollections, 1.4 fixed remaining bugs and fine-tuned the features introduced in 1.2/1.3. There were **no major new features** added in 1.4 – instead, Overmars ensured that the existing features (objects, events, basic GML, etc.) all worked as expected in preparation for a major overhaul with version 2.0.
 
-Notably, **Game Maker 1.4 was still limited to the same feature set scope of the 1.x line**. It did **not** incorporate hardware-accelerated graphics or allow standalone game compilation. Like its predecessors, it relied on the user’s PC to run games through the editor, and graphics were drawn without DirectX support [^5]. Version 1.4 can be seen as the stable culmination of the initial Game Maker prototype—by this point, the software was relatively robust in its original feature domain, and the user base was primed for the more **“substantial new features”** promised in the next major version [^5].
+Version 1.4 can be seen as the stable culmination of the initial Game Maker prototype—by this point, the software was relatively robust in its original feature domain, and the user base was primed for the more **“substantial new features”** promised in the next major version [^5].
 
-*(With the 1.x series completed, Game Maker had proven the viability of an easy, drag-and-drop game creation tool. The stage was set for bigger changes – notably, improved performance and distribution capabilities – in version 2.0 and beyond.)*
 
+---
 ## Version 2.0 (2000) – Interface Overhaul and Growing Popularity
 ![Game Maker 2.0 IDE](https://github.com/user-attachments/assets/cd4037cf-8b7d-4806-aa1f-50f9458e38fa)
 
@@ -230,15 +259,8 @@ According to the Game Maker 2.0 installer the system requirements for 2.0 were a
 ### Included example games and demos
 <img alt="Game Maker 2.0 Game List" src="https://github.com/user-attachments/assets/da6db47b-3b10-488e-8582-4bfc6011f1b2" />
 
-Game Maker 2.0 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
-* DEMO Creating Stars - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
-* DEMO Falling Balls
-* GAME Breakout
-* GAME Catch the Dog
+Game Maker 2.0 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, they are the same as 1.3 listed above but with the additoon of:
 * GAME Maze
-* GAME Pacman
-* GAME Peg Game
-* GAME Space Trip
 
 ### Sharp rise in Game Maker's popularity
 <img alt="Game Maker 2.0 Installer Screen" src="https://github.com/user-attachments/assets/c13e9f8d-754a-4dc5-9d17-e60bae85da89" />
