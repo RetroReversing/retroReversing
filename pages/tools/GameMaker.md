@@ -179,13 +179,88 @@ Game Maker 1.3 provided a few games and non-interactive demos to both showcase t
 * **GAME Peg Game**
 * **GAME Sokoban** - Sokoban is an old Japanse games. The goal is to move the objects (the balls) to the goal positions (the blue holes). You operate the mover using the arrow keys on your keyboard. You can only push a ball to the next position if that position is empty. You have solved the puzzle when all balls lie on holes.
 
-After version 1.1 the game Sokoban seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
+After version 1.1 the game **Sokoban** seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
 
-### How were games saved?
-<img width="942" height="438" alt="Folder structure of saved games" src="https://github.com/user-attachments/assets/9a08b832-10ac-4271-95f1-8c3682be3360" />
+### How were games stored?
+<img alt="Folder structure of saved games" src="https://github.com/user-attachments/assets/9a08b832-10ac-4271-95f1-8c3682be3360" />
 Games were saved into a specific folder "C:\Program Files\Game_Maker\Games", with each game having its own sub folder. 
 Inside the game specific folder all the game resources were available:
-* Images as BMP/GIF files, named like so: image1.bmp, image2.bmp
+* Images as .BMP files, named like so: image1.bmp, image2.bmp
+* Audio as .WAV files, named with free text so *.wav 
+* Help documentation is saved as HELP.RTF
+* Objects - Object data stored as plain text
+* Rooms - Metadata
+* Sounds - Metadata
+
+#### Object format
+<img alt="objects are saved in plain text" src="https://github.com/user-attachments/assets/481cd50d-4496-4537-9b96-2d87de3d51cb" />
+Objects are stored in a plain text format which is fairly easy to read, with helpful comments about each section.
+
+---
+### Emulating Game Maker 1.1
+The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
+One way to run it is you can use a browser based Windows 95 Emulator such as v86 [Windows 95 - v86](https://copy.sh/v86/?profile=windows95) and create a CD Rom image ISO of the extracted **gmaker11.zip** setup files and **mount** it in the emulator as a CD.
+
+To create a CD ISO that works in Windows 95 from MacOS you can run:
+```bash
+hdiutil makehybrid -o ~/Desktop/gmaker11.iso ./gmaker11 -iso -joliet
+```
+
+### Reaching 1k downloads
+<img alt="Game Maker 1.1 Installer" src="https://github.com/user-attachments/assets/38d474c2-94fc-4c45-8de7-871ffef926a8" />
+
+By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3].
+
+---
+## Version 1.2 (2000) – Early Improvements
+Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12]. Notable changes and additions in version 1.2 include:
+
+### Performance and Language Enhancements
+Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
+
+### Backgrounds and Sound Control
+*Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
+
+### Editing and Interface Features
+Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
+
+### Miscellaneous Fixes
+Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
+
+### Lost Media
+However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online. Mark Overmars used to keep historical versions on his site but only ever included 1.1 and 1.4 of the 1.x series, so it is possible he doesn't have version 1.2 [^14].
+
+---
+## Version 1.3 (2000) – Minor Enhancements
+<img alt="Game Maker 1.3" src="https://github.com/user-attachments/assets/8b0010ca-450b-4965-ac81-fd9f1626e146" />
+
+Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. 
+
+Version 1.3 brought **additional minor improvements and bug fixes** to ensure stability:
+* Enhanced image loading, allowing arbitrary sized images (also large ones) for the objects
+* Support for Animated GIFS
+* Now possible to draw shapes rather than just images
+* Ability to export a game as a zip file and re-imported for sharing editable games online
+* `forall` statement introducted to GML programming language (can execute a piece of code for all instances of a particular object)
+* Internals have been refactored to be more efficient, use less memory and no more limits on the number of objects or variables
+
+
+Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. 
+
+Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
+
+### Included example games and demos
+<img alt="image" src="https://github.com/user-attachments/assets/94829354-a067-4287-ba34-368b2b4acbf0" />
+Game Maker 1.3 introduced a new space game, renamed Falling Balls to be a Demo and also removed the Sokoban game:
+* **DEMO Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
+* **GAME Space Trip**
+
+
+### How were games stored?
+Games were stored in the same location as previous versions of Game Maker ("C:\Program Files\Game_Maker\Games"), but the format of the plain text metadata (e.g objects) changed to be a little more cryptic. Also images were now saved as GIF instead of BMP format to allow for animated sprites to be stored in a single file.
+
+Inside the game specific folder all the game resources were available:
+* Images as .GIF files, named like so: image1.gif, image2.gif
 * Audio as .WAV files, named with free text so *.wav 
 * Help documentation is saved as HELP.RTF
 * Objects - Object data stored as plain text
@@ -252,65 +327,6 @@ muur // Object name "muur" (muur is the dutch for wall)
 The annotations above are incomplete:
 * it is unclear currently if 0 signifies the end of the event or if it just counts down to how many actions are left to parse.
 * numberOfParameters looks to be incorrect as it is always 1 even for the "Create instance at postion" action.
-
-
-### Emulating Game Maker 1.1
-The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
-One way to run it is you can use a browser based Windows 95 Emulator such as v86 [Windows 95 - v86](https://copy.sh/v86/?profile=windows95) and create a CD Rom image ISO of the extracted **gmaker11.zip** setup files and **mount** it in the emulator as a CD.
-
-To create a CD ISO that works in Windows 95 from MacOS you can run:
-```bash
-hdiutil makehybrid -o ~/Desktop/gmaker11.iso ./gmaker11 -iso -joliet
-```
-
-### Reaching 1k downloads
-<img alt="Game Maker 1.1 Installer" src="https://github.com/user-attachments/assets/38d474c2-94fc-4c45-8de7-871ffef926a8" />
-
-By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3].
-
----
-## Version 1.2 (2000) – Early Improvements
-Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12]. Notable changes and additions in version 1.2 include:
-
-### Performance and Language Enhancements
-Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
-
-### Backgrounds and Sound Control
-*Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
-
-### Editing and Interface Features
-Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
-
-### Miscellaneous Fixes
-Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
-
-### Lost Media
-However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online. Mark Overmars used to keep historical versions on his site but only ever included 1.1 and 1.4 of the 1.x series, so it is possible he doesn't have version 1.2 [^14].
-
----
-## Version 1.3 (2000) – Minor Enhancements
-<img alt="Game Maker 1.3" src="https://github.com/user-attachments/assets/8b0010ca-450b-4965-ac81-fd9f1626e146" />
-
-Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. 
-
-Version 1.3 brought **additional minor improvements and bug fixes** to ensure stability:
-* Enhanced image loading, allowing arbitrary sized images (also large ones) for the objects
-* Support for Animated GIFS
-* Now possible to draw shapes rather than just images
-* Ability to export a game as a zip file and re-imported for sharing editable games online
-* `forall` statement introducted to GML programming language (can execute a piece of code for all instances of a particular object)
-* Internals have been refactored to be more efficient, use less memory and no more limits on the number of objects or variables
-
-
-Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. 
-
-Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
-
-### Included example games and demos
-<img alt="image" src="https://github.com/user-attachments/assets/94829354-a067-4287-ba34-368b2b4acbf0" />
-Game Maker 1.3 introduced a new space game, renamed Falling Balls to be a Demo and also removed the Sokoban game:
-* **DEMO Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
-* **GAME Space Trip**
 
 ---
 ## Version 1.4 (2000) – Final 1.x Release
