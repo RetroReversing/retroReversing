@@ -190,14 +190,26 @@ Inside the game specific folder all the game resources were available:
 * Help documentation is saved as HELP.RTF
 * Objects - Object data stored as plain text
 * Rooms - Metadata
-* Sounds - Metadata
+* Sounds - Plain text file just called **sounds** with no file extension that maps the sound name to the .wav file on the file system.
 
-#### Object format
+### Sounds file format
+<img alt="Game Maker 1.1 with Sound Editor open" src="https://github.com/user-attachments/assets/1f3f6529-3b7a-49c3-a33d-0e7edc814f56" />
+
+The **sounds** file stores metadata to map the name of the sound in the game to the .wav file on the filesystem, the format is plain text and it is pretty straightforward:
+```js
+1            // number of sounds in file
+
+create       // name of the sound
+bleep11.wav  // filename of the sound
+0            // number of sounds left
+```
+
+#### Objects file format
 <img alt="objects are saved in plain text" src="https://github.com/user-attachments/assets/481cd50d-4496-4537-9b96-2d87de3d51cb" />
 Objects are stored in a plain text format which is fairly easy to read, with helpful comments about each section.
 
  Here is an example objects file for the **Creating Stars** Demo in the Game Maker 1.1 format, annotations have been added in the form of comments (//) to the end of each line but note these are not part of the format:
-```bash
+```c
 3                    // Total Number of Objects (3)
 === OBJECT ===       // Start of an Object
 creator              // Name of object (creator)
