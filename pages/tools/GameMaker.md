@@ -194,16 +194,47 @@ Notably, **Game Maker 1.4 was still limited to the same feature set scope of the
 
 Released on the 8th September 2000, **Game Maker 2.0** was the first major version number change for the software. This update brought a **redesigned interface and significant usability improvements**, making game development easier and more powerful for users who had outgrown the 1.x features. Key aspects of version 2.0 include:
 
-- **Improved UI and Workflow:** Overmars refined the Game Maker IDE in 2.0, reorganizing how resources (sprites, sounds, rooms, etc.) were managed. The interface became more intuitive than the 1.x series, addressing some limitations of the earlier design. According to later retrospectives, each major release around this time introduced a new file format or layout; Game Maker 2.0 was no exception, likely switching to a new project file structure as part of the overhaul [^2]. The overall look-and-feel moved closer to what modern Game Maker versions would use, with more dialogs and organizational panels for different resource types.
+### Improved UI and Workflow
+Mark Overmars refined the Game Maker IDE in 2.0, reorganizing how resources (sprites, sounds, rooms, etc.) were managed. 
+The interface became more intuitive than the 1.x series, addressing some limitations of the earlier design. 
+According to later retrospectives, each major release around this time introduced a new file format or layout; Game Maker 2.0 was no exception, likely switching to a new project file structure as part of the overhaul [^2]. 
+The overall look-and-feel moved closer to what modern Game Maker versions would use, with more dialogs and organizational panels for different resource types.
 
-- **More Actions and Functions:** Version 2.0 added **many new drag-and-drop icons and functions** to broaden the range of possible game mechanics without coding [^2]. Users now had access to more pre-built actions for things like advanced object movement, basic drawing, and control structures, which reduced the need to write GML for common tasks. This expansion of the drag-and-drop system made Game Maker more accessible to beginners and allowed more complex games to be made visually.
+### More Actions and Functions
+<img alt="Object Editor (objects were all in a single window)" src="https://github.com/user-attachments/assets/5407365c-0455-4194-9e46-a8dca535d48f" />
 
-- **Continued Script Language Support:** The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 continued to support mixing code with drag-and-drop, giving experienced users the ability to do more. However, it still lacked some advanced constructs that would appear in later versions.
+Version 2.0 added **many new drag-and-drop icons and functions** to broaden the range of possible game mechanics without coding [^2]. 
 
-- **No DirectX or EXEs Yet:** Importantly, **Game Maker 2.0 still did *not*** introduce DirectX acceleration or the ability to compile stand-alone executables. The rendering engine remained software-based (using the Windows GDI), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. These features were on the horizon (DirectX would come in the next version), but in 2.0 the focus was on improving usability and adding content creation features rather than low-level technical changes.
+Users now had access to more pre-built actions for things like advanced object movement, basic drawing, and control structures, which reduced the need to write GML for common tasks. This expansion of the drag-and-drop system made Game Maker more accessible to beginners and allowed more complex games to be made visually.
 
+### Continued Script Language Support
+The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 continued to support mixing code with drag-and-drop, giving experienced users the ability to do more. However, it still lacked some advanced constructs that would appear in later versions.
+
+### No DirectX or EXEs Yet
+Importantly, **Game Maker 2.0 still did *not*** introduce DirectX acceleration or the ability to compile stand-alone executables. The rendering engine remained software-based (using the **Windows GDI**), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. These features were on the horizon (DirectX would come in the next version), but in 2.0 the focus was on improving usability and adding content creation features rather than low-level technical changes.
+
+### System Requirements
+According to the Game Maker 2.0 installer the system requirements for 2.0 were as follows:
+> A modern PC (preferably a Pentium) running Windows'95,'98, 2000 or NT 4 is required.
+> After installation the program uses about 3 MB disk space.
+> The program requires at least 65000 colors (high color, 16-bit).
+> It requires at least 800x600 screen resolution.
+
+### Included example games and demos
+<img alt="Game Maker 2.0 Game List" src="https://github.com/user-attachments/assets/da6db47b-3b10-488e-8582-4bfc6011f1b2" />
+
+Game Maker 2.0 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
+* DEMO Creating Stars - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
+* DEMO Falling Balls
+* GAME Breakout
+* GAME Catch the Dog
+* GAME Maze
+* GAME Pacman
+* GAME Peg Game
+* GAME Space Trip
+
+### Sharp rise in Game Maker's popularity
 <img alt="Game Maker 2.0 Installer Screen" src="https://github.com/user-attachments/assets/c13e9f8d-754a-4dc5-9d17-e60bae85da89" />
-
 During the year 2000, Game Maker’s popularity started to rise rapidly. 
 
 By the end of that year, the program had been downloaded **tens of thousands** of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. 
