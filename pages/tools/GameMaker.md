@@ -29,7 +29,7 @@ Only a few details are known about the source code behind Game Maker, but over t
 ## Source Code
 Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
 * **2003** - Delphi version 5. The IDE was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
-* **2004** - Delphi version 7. The IDE source code is now over **40.000** lines of code. The source code for the runner part is similar in size [^11]
+* **2004** - Delphi version 7. The IDE source code is now over **40,000** lines of code. The source code for the runner part is similar in size [^11]
 
 It was later rewritten by YoYoGames with the runner now being written in C++ and the IDE in C#.
 
@@ -38,7 +38,11 @@ It was later rewritten by YoYoGames with the runner now being written in C++ and
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
 ### Game Maker Executable Decompilers (.exe into gmd/gm6/gmk)
+Ever since Game Maker first allowed exporting of games into executables (.exe) files, people have searched for a way to convert the game back to an editable format! 
 
+Up until the newer rebrand of Game Maker into GameMaker Studio it has always stored the full editable game data, including comments and unused resources, as encrypted data inside the executables.
+
+Thus when a decompiler is made available, everyone has access to be able to read the code and create game mods for any game made in the compatible versions of game maker.
 
 There were a few decompilers released for specific versions of Game Maker created executables (*.exe):
 * **Game Maker 4.3 -> 5.3a Decompiler** - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
@@ -49,10 +53,10 @@ When each of these decompilers were released to the public they created quite a 
 
 There is currently no decompiler for versions 4.0 -> 4.2, although games made in these versions are incredibly rare as it was a short period between summer 2001 and end of the same year. Many games who may have started development in these versions would have upgraded to 4.3+.
 
-For Game Maker Studio decompilation there are a number of tools such as **UndertaleModTool** which will be covered in another post.
+For GameMaker Studio decompilation there are a number of tools such as **UndertaleModTool** which will be covered in another post.
 
 #### Game Maker 4.3 -> 5.3a Decompiler
-<img width="1749" height="363" alt="image" src="https://github.com/user-attachments/assets/bdccf03e-d27d-48f0-b7d0-098fc9dcdddd" />
+<img width="1749" height="363" alt="image" src="https://github.com/user-attachments/assets/bdccf03e-d27d-48f0-b7d0-098fc9dcdddd" style="max-width: 65vw; margin-left: 0px;" />
 The first Game Maker Decompiler was created by **VBGamer45** in Visual Basic 6.0. 
 It worked by allowing you to select a Game maker executable, it would then run the executable and you were prompted to choose the process that was run. It would then dump the memory of that process and try to brute force the decryption key from it. 
 
