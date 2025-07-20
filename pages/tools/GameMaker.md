@@ -179,7 +179,16 @@ Game Maker 1.3 provided a few games and non-interactive demos to both showcase t
 * **GAME Peg Game**
 * **GAME Sokoban** - Sokoban is an old Japanse games. The goal is to move the objects (the balls) to the goal positions (the blue holes). You operate the mover using the arrow keys on your keyboard. You can only push a ball to the next position if that position is empty. You have solved the puzzle when all balls lie on holes.
 
-After version 1.1 the game sokoban seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
+After version 1.1 the game Sokoban seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
+
+### Emulating Game Maker 1.1
+The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
+One way to run it is you can use a browser based Windows 95 Emulator such as v86 [Windows 95 - v86](https://copy.sh/v86/?profile=windows95) and create a CD Rom image ISO of the extracted **gmaker11.zip** setup files and **mount** it in the emulator as a CD.
+
+To create a CD ISO that works in Windows 95 from MacOS you can run:
+```bash
+hdiutil makehybrid -o ~/Desktop/gmaker11.iso ./gmaker11 -iso -joliet
+```
 
 ### Reaching 1k downloads
 <img alt="Game Maker 1.1 Installer" src="https://github.com/user-attachments/assets/38d474c2-94fc-4c45-8de7-871ffef926a8" />
