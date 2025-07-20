@@ -174,6 +174,7 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 - **Game Extractor**: A tool for opening and modifying the archives used in many games.
 - **QuickBMS**: A universal script-based extractor that supports hundreds of game archive formats.
 - **TrID**: A utility for identifying file types and formats based on their binary signatures.
+- **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
 
 ## Emulators
 Emulators replicate the hardware of old gaming systems on modern computers, allowing you to run and test games in a controlled environment.
