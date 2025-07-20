@@ -278,7 +278,7 @@ By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 10
 
 ---
 ## Version 1.2 (2000) – Early Improvements
-Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12]. Notable changes and additions in version 1.2 include:
+Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12].
 
 ### Performance and Language Enhancements
 Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
@@ -299,7 +299,12 @@ However **Game Maker 1.2** is currently considered **Lost Media** as no versions
 ## Version 1.3 (2000) – Minor Enhancements
 <img alt="Game Maker 1.3" src="https://github.com/user-attachments/assets/8b0010ca-450b-4965-ac81-fd9f1626e146" />
 
-Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. 
+Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further.
+
+Information on the main IDE executable (Game Maker.exe):
+* **File size** - 850KB
+* **Compiler** - Borland Delphi 5 Professional
+* **Linker** - Turbo Linker 2.25
 
 Version 1.3 brought **additional minor improvements and bug fixes** to ensure stability:
 * Enhanced image loading, allowing arbitrary sized images (also large ones) for the objects
