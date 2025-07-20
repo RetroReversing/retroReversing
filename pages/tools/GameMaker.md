@@ -202,8 +202,15 @@ Released on the 8th September 2000, **Game Maker 2.0** was the first major versi
 
 - **No DirectX or EXEs Yet:** Importantly, **Game Maker 2.0 still did *not*** introduce DirectX acceleration or the ability to compile stand-alone executables. The rendering engine remained software-based (using the Windows GDI), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. These features were on the horizon (DirectX would come in the next version), but in 2.0 the focus was on improving usability and adding content creation features rather than low-level technical changes.
 
-During the year 2000, Game Maker’s popularity started to rise rapidly. By the end of that year, the program had been downloaded tens of thousands of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. In summary, **Game Maker 2.0** modernized the tool’s interface and expanded its feature set, making it a more robust platform for game creation. It set the foundation upon which the crucial technical upgrades of versions 3 and 4 would soon build.
+<img alt="Game Maker 2.0 Installer Screen" src="https://github.com/user-attachments/assets/c13e9f8d-754a-4dc5-9d17-e60bae85da89" />
 
+During the year 2000, Game Maker’s popularity started to rise rapidly. 
+
+By the end of that year, the program had been downloaded **tens of thousands** of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. 
+
+In summary, **Game Maker 2.0** modernized the tool’s interface and expanded its feature set, making it a more robust platform for game creation. It set the foundation upon which the crucial technical upgrades of versions 3 and 4 would soon build.
+
+---
 ## Version 3.0 (2001) – First Use of DirectX
 ![Game Maker 3.3beta](https://github.com/user-attachments/assets/5a59d096-8534-42e1-b60b-44f9a63ae2bd)
 
