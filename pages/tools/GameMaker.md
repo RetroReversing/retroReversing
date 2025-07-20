@@ -203,15 +203,22 @@ The overall look-and-feel moved closer to what modern Game Maker versions would 
 ### More Actions and Functions
 <img alt="Object Editor (objects were all in a single window)" src="https://github.com/user-attachments/assets/5407365c-0455-4194-9e46-a8dca535d48f" />
 
-Version 2.0 added **many new drag-and-drop icons and functions** to broaden the range of possible game mechanics without coding [^2]. 
+Version 2.0 added **many new drag-and-drop actions** to broaden the range of possible game mechanics without coding [^2]. 
 
 Users now had access to more pre-built actions for things like advanced object movement, basic drawing, and control structures, which reduced the need to write GML for common tasks. This expansion of the drag-and-drop system made Game Maker more accessible to beginners and allowed more complex games to be made visually.
 
 ### Continued Script Language Support
-The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 continued to support mixing code with drag-and-drop, giving experienced users the ability to do more. However, it still lacked some advanced constructs that would appear in later versions.
+<img width="766" height="520" alt="image" src="https://github.com/user-attachments/assets/c3f33957-2b11-4dba-a5f6-f523d569959d" />
 
-### No DirectX or EXEs Yet
-Importantly, **Game Maker 2.0 still did *not*** introduce DirectX acceleration or the ability to compile stand-alone executables. The rendering engine remained software-based (using the **Windows GDI**), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. These features were on the horizon (DirectX would come in the next version), but in 2.0 the focus was on improving usability and adding content creation features rather than low-level technical changes.
+The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 improved file handling functions, more sound control functions, ability to rotate text and more control over the way images are displayed, etc. 
+GML script was still only available in the Object Editor as an action so stand alone "scripts" were not available until a later version.
+
+### First DirectX support (DirectSound)
+This was the first version to introduce functionality based on the DirectX SDK, specifically **DirectSound**, Game Maker would check if DirectX 5.0 or higher is installed on the target PC and if so would allow higher quality audio playback and introduced sound effects.
+Importantly, Game Maker 2.0 still did **not** introduce DirectX acceleration for graphics this would come in the next version (3.0).
+
+The rendering engine remained software-based (using the **Windows GDI**), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. 
+
 
 ### System Requirements
 According to the Game Maker 2.0 installer the system requirements for 2.0 were as follows:
@@ -245,7 +252,7 @@ In summary, **Game Maker 2.0** modernized the tool’s interface and expanded it
 ## Version 3.0 (2001) – First Use of DirectX
 ![Game Maker 3.3beta](https://github.com/user-attachments/assets/5a59d096-8534-42e1-b60b-44f9a63ae2bd)
 
-On the 23rd November 2001, Overmars released **Game Maker 3.0**, which was a milestone for the software’s graphics and performance. The hallmark of version 3.0 was the introduction of **DirectX support** for the first time [^5]. This had several important effects:
+On the 23rd November 2001, Overmars released **Game Maker 3.0**, which was a milestone for the software’s graphics and performance. The hallmark of version 3.0 was the introduction of **DirectX rendering support** for the first time [^5]. This had several important effects:
 
 - **Hardware-Accelerated Graphics:** By leveraging Microsoft DirectX (likely DirectDraw at this stage), Game Maker could now render graphics more efficiently. Games ran faster and could use full-screen modes and graphical effects that were not feasible under the old software-based renderer. This was a significant step up in capability, as it unlocked the potential for smoother animations and richer visuals.
 
