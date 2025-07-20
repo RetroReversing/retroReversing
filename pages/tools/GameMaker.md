@@ -241,6 +241,26 @@ creator              // Name of object (creator)
 
 Note that this format is more verbose than later formats by explicitly saying which event it is defining in the text file alone with including events that have 0 actions, this will be optimized in future versions to be less verbose and only include events that are being used.
 
+#### Rooms file format
+<img alt="Game Maker 1.1 room editor with rooms file in background" src="https://github.com/user-attachments/assets/50b7d450-9fab-4965-bbb4-bf25a4254e87" />
+Similar to Objects and Sounds files, the rooms data is stored in plain text and can be easily understood when matched against the room editor.
+
+It follows the same format of counting down the rooms until the end of the file, it splits up the room into a specific Cell Size, to define the specific rows and columns in the room, so you can't have instances of objects at an arbitrary x,y coordinate, it has to be a specific row,column position.
+
+Here is a snippet from the **Creating Stars** example:
+```js
+1              // Number of Rooms in the file
+Creating Stars // Name of the Room
+255            // Possibly background color?
+Back3.bmp      // Background Image
+1              // Tiled background image?
+0
+    15    15   // Width (15) and Height (15)
+32             // Cell Size (32 pixels)
+57             // Number of object instances in the room
+    0  0  3    // row=0; column=0; objectId=3 (wall)
+```
+
 ---
 ### Emulating Game Maker 1.1
 The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
