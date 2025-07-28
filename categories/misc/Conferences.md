@@ -223,8 +223,14 @@ E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, th
 
 Notable highlights include the first public showings of the **Nintendo 64**, **GameCube**, and **Game Boy Advance**, as well as prototype games and hardware that sometimes never saw official release. Space World became legendary in the retro gaming and reverse engineering communities due to the early builds, beta content, and rare hardware exhibited—some of which have since surfaced in the form of leaked ROMs and development documents.
 
-## Prototype and Unreleased Content
-Space world is famous for prototype and unreleased content, there is an excellent page over at **The Cutting Room Floor** to find out more: [Unreleased Space World Demos (TCRF)](https://tcrf.net/Category:Nintendo_Space_World_Demos)
+## 1989 – Shoshinkai Debut
+<img width="1574" height="930" alt="Photo from 1989 Shoshinkai all about the Super Famicom" src="https://github.com/user-attachments/assets/fdd49846-9f23-4943-be7e-faa45a467852" />
+
+On the 28th July 1989 Nintendo launched its first ever in-house trade show called Shoshinkai in Kyoto, it was a private in-house event for members of the Japanese press [^11]. It was an early look at the Super Famicom as it would be released in November 1990, over a year away at this point. 
+
+The magazines **Famitsu** and **Famimaga** published photos taken from the projector screen showing an early version of Super Mario World for the SNES.
+
+For more information check out Chris Covell's excellent page on the 1989 conference: [Japanese Secrets!](https://www.chrismcovell.com/secret/SFC_1989Q3.html)
 
 
 ---
@@ -353,3 +359,4 @@ The table below lists all presentations from the 3D Design Conference (June 3–
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
 [^10]: [D.I.C.E. Summit - February 28 March 1, 2002](https://web.archive.org/web/20011130014100/http://dicesummit.org/)
+[^11]: [Japanese Secrets!](https://www.chrismcovell.com/secret/SFC_1989Q3.html)
