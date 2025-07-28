@@ -27,7 +27,7 @@ tags:
 updatedAt: '2022-05-22'
 ---
 
-One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information.
+One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information that is not currently available on the internet. This post provides details on some of the best magazine sources to help with retro game development research.
 
 ---
 # Games Industry Magazines
@@ -903,6 +903,106 @@ Issue # | Title | Author | Notes
 ---|---|---|---
 ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN |
 
+---
+# Translating Foreign magazines
+In the age of AI it should be easier than ever to research using non-english magazines, providing rare interviews with early game developers which never made it to english speaking countries.
+
+If you just want to be able to read the content in Text form, ChatGPT 4o (other providers are available) is fairly accurate, just take a screenshot of a page and ask it to translate it to english and you get the basic text content in Markdown format.
+
+However while translating the content of an image of a single page is very easy and accurate with ChatGPT, if you want to be able to read using the original magazine layout but with english text it is very hard to find a tool good enough to do the job. 
+
+This section of the page will review the tools I have tried so far to translate Japanese magazine pages to english while keeping the format of the original image. 
+
+Here is the page that I have used for all of the tests, it is a fairly simple layout and its from the August 1989 issue of Famitsu (issue 80/81) which is an interview with Alexey Pajitnov, the creator of Tetris:
+![Tetris](https://github.com/user-attachments/assets/e9c08921-5833-49db-b0c3-771e731bf315)
+
+## ChatGPT 4o
+ChatGPT 4o does a great job of translating the text but cannot generate an image in the same format as the original magazine, the text content is placed here to help compare the other providers text translation:
+```
+# Tetris Lawsuit, Soviet Game Affairs...
+
+# Direct Interview with the Creator of "TETRIS"!!
+
+From fanbooks to international bestsellers—TETRIS is a global phenomenon!
+We met up with the creator, Alexey Pajitnov, in Tokyo for this exclusive interview! A genius from the Soviet Union has gifted the world one of the greatest puzzle games ever made.
+
+Meeting Alexey in person, we asked about the Tetris copyright battle, the Soviet game industry, and more.
+
+## Interviewer:
+
+Let’s get straight to the point—who actually owns the rights to Tetris?
+
+## Alexey:
+
+Originally, the rights to Tetris were owned entirely by the Soviet government. Everything I developed was government property, as I was working at a computer research institute at the time. So the rights belonged to the USSR, not to me personally.
+
+## Interviewer:
+
+So when did you first hear that the game had become a global hit?
+
+## Alexey:
+
+In February, I came to the U.S. for the first time and saw the Famicom version. I was shocked! There were so many versions—arcade, home console, PC... I had no idea.
+
+## Interviewer:
+
+What do you think of the home console and arcade versions of Tetris?
+
+## Alexey:
+
+Honestly, I’m thrilled. I created Tetris as a simple computer puzzle, and to see it now in so many forms is overwhelming. As a game designer, it’s a dream come true.
+
+## Interviewer:
+
+What do you think of Japanese developers' interpretations of Tetris?
+
+## Alexey:
+
+Japanese versions are amazing. They’ve taken my simple idea and turned it into something truly spectacular. The arcade version especially is so polished. The sprite movement is clean and fast—it’s very impressive.
+
+## Interviewer:
+
+What was it like working as a game designer in the Soviet Union?
+
+## Alexey:
+
+In the USSR, there wasn’t really a profession like "game designer." I was working with computer logic and AI studies. Game design was just something I did on the side. The concept of making games professionally didn’t exist in the Soviet Union.
+
+## Interviewer:
+
+Do you have any plans for future games?
+
+## Alexey:
+
+Yes, I'm involved in a few other projects besides Tetris. But they’re not quite ready yet. I hope one day people around the world will play those too.
+
+---
+
+### Caption Highlights:
+
+* "The Tetris games taking the world by storm!"
+* “This is the man behind the worldwide Tetris sensation—Alexey Pajitnov!”
+* “Pajitnov, originally a computer scientist, speaks softly but has a passionate love for puzzles.”
+* "In Japan, Tetris even came out on the Famicom, and seeing it for the first time brought a huge smile to his face."
+* Bottom right photo: "Soviet Tetris team visiting Japan—Pajitnov laughs as he tries Japanese versions of his own game!"
+```
+
+## Slider.ai - Missing text
+Slider came up at the top of a google search and offered to "translate images and photos online into 50+ languages with precision and ease.". It certainly does it with ease but the results were far from precise:
+![sliderai](https://github.com/user-attachments/assets/48b9308a-c594-42e5-bafe-dc87686e9155)
+
+## Mangaaday.ai - Messy text
+Magazines are rather obscure, not many people are looking to translate them, manga on the other hand have a huge community of people who want to translate from japanese to english so I was excited to try Mangaaday, the results were not the best of quality:
+![magaaday](https://github.com/user-attachments/assets/6d64001e-15fc-4207-809f-e433b27976ca)
+
+## kling.ai
+Kling.ai is not a translator but it does offer image-to-image transformation so I thought I would try it with the prompt "Keep the image exactly the same but translate the text to English". Sadly although the result is cute it is completely unusable.
+<img width="447" height="550" alt="image" src="https://github.com/user-attachments/assets/1975ddca-7518-49b7-982b-d3edbb29424d" />
+
+
+## Transmonkey - best so far
+Another online service that advertises its ability to translate Manga is Transmonkey, it provided the best result so far but its not quite perfect, it has a very manga-like font (unsurprisingly) which takes away points from the quality of the output:
+![Tetris-transmonkey](https://github.com/user-attachments/assets/473eceb2-8eb2-47f6-9e63-79fde3aaa255)
 
 ---
 # References
