@@ -217,6 +217,17 @@ At E3 1995, the gaming industry was undergoing significant changes, with the Sup
 E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
 
 ---
+# Nintendo Space World (Shoshinkai) (1989-2001)
+
+**Nintendo Space World** (originally known as Shoshinkai) was Nintendo’s annual trade show held in Japan, running from **1989** to **2001**. The event was a major showcase for Nintendo’s upcoming hardware and software, often featuring world premieres, tech demos, and exclusive reveals.
+
+Notable highlights include the first public showings of the **Nintendo 64**, **GameCube**, and **Game Boy Advance**, as well as prototype games and hardware that sometimes never saw official release. Space World became legendary in the retro gaming and reverse engineering communities due to the early builds, beta content, and rare hardware exhibited—some of which have since surfaced in the form of leaked ROMs and development documents.
+
+## Prototype and Unreleased Content
+Space world is famous for prototype and unreleased content, there is an excellent page over at **The Cutting Room Floor** to find out more: [Unreleased Space World Demos (TCRF)](https://tcrf.net/Category:Nintendo_Space_World_Demos)
+
+
+---
 # QuakeCon
 QuakeCon is an annual convention and gaming event that primarily focuses on the Quake series of video games, as well as other titles developed by id Software, the company behind Quake. The event has been held since 1996 and is known for its emphasis on competitive gaming, LAN parties, and the celebration of the gaming community.
 
