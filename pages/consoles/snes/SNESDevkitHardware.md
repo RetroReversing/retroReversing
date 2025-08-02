@@ -48,12 +48,16 @@ You can also see that he is using a Sony NEWS workstation thanks to the logo on 
 Intelligent systems is often in charge of Nintendo's official development kit that get sold to game studios and the Super Famicom was no exception. There are a number of different versions of the development kit but they mainly contain the same hardware.
 
 There are multiple versions of the development kit:
-* IS-Sound (Sound development kit)
-* IS-Debugger (Programmers development kit)
-* IS-Character (Graphics development kit)
-* Emulator SE is the US version and has all 3 in once case [^11]
+* **IS-Sound** (Sound development kit)
+* **IS-Debugger** (Programmers development kit)
+* **IS-Character** (Graphics development kit)
+* **Emulator SE** is the US version and has all 3 in once case [^11]
 
-The `IS-Debugger` is aimed at programmers and has functionality to inspect memory and VRAM, along with breakpoints and debugging symbols [^12].
+The **IS-Debugger** is aimed at programmers and has functionality to inspect memory and VRAM, along with breakpoints and debugging symbols [^12].
+
+You can see a SHVC in use at Nintendo in 1994 thanks to a photo published in the May 1994 issue of the UK **Super Play** magazine, apparently being used for Metroid development, from the lighting of the sticker color its hard to tell if its the IS-Debugger or IS-Sound, but presumably it is an IS-Debugger due to the lack of Sound equipment:
+<img width="1316" height="741" alt="Nintendo Office May 1994" src="https://github.com/user-attachments/assets/850d6ad7-01b5-4f26-8d79-27fef586bed9" />
+
 </div>
 </section>
 
