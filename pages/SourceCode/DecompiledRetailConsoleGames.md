@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2025-07-25'
+updatedAt: '2025-08-28'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -194,7 +194,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/d/d0/Mario_Party_5_Box_Art.JPG){:width="100"} [Mario Party 5](https://github.com/mariopartyrd/marioparty5)              | Decompilation | Active, 8% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c6/Mario_Party_6_Coverart.png){:width="100"} [Mario Party 6](https://github.com/mariopartyrd/marioparty6)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/6/60/Mario_Party_7_Coverart.png){:width="100"} [Mario Party 7](https://github.com/mariopartyrd/marioparty7)              | Decompilation | Active |
-|![](https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg){:width="100"} [Mario Superstar Baseball](https://github.com/roeming/mssbdecomp)              | Decompilation | Active, 7% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/2/2f/Mario_Superstar_Baseball.jpg){:width="100"} [Mario Superstar Baseball](https://github.com/roeming/mssb-dtk)              | Decompilation | Active, 7% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/MetroidPrimebox.jpg){:width="100"} [Metroid Prime](https://github.com/PrimeDecomp/prime)              | Decompilation | Active, 22% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/6/6e/Echoesboxart_%28Large%29.jpg){:width="100"} [Metroid Prime 2: Echoes](https://github.com/PrimeDecomp/echoes)              | Decompilation | Active, 1% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/7/73/Need_for_Speed_Most_Wanted_%28GC%29_%28NA%29.jpg/revision/latest?cb=20200820062015&path-prefix=en){:width="100"} [Need for Speed: Most Wanted](https://github.com/dbalatoni13/nfsmw)              | Decompilation | Active |
@@ -208,6 +208,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/it/7/7a/Sonic_Adventure_DX_Director%27s_Cut_logo.png){:width="100"} [Sonic Adventure DX](https://github.com/doldecomp/sadx)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/1/15/Sonic_Riders_Coverart.png){:width="100"} [Sonic Riders](https://github.com/doldecomp/sonicriders)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg){:width="100"} [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)              | Decompilation | Active, 29% Done |
+|![](https://static.wikia.nocookie.net/nintendo/images/9/9c/Star_Fox_Adventures_%28NA%29.jpg/revision/latest?cb=20120404131112&path-prefix=en){:width="100"} [Star Fox Adventures](https://github.com/renakunisaki/sfadebug)              | Decompilation | Active |
 |![](https://static.wikia.nocookie.net/nintendo/images/a/a8/Summoner_A_Goddess_Reborn.jpg/revision/latest?cb=20200906044342&path-prefix=en){:width="100"} [Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr))              | Decompilation | Active, 5% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg){:width="100"} [Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/0/05/Super_Mario_Sunshine_Box_Art.png){:width="100"} [Super Mario Sunshine](https://github.com/doldecomp/sms)              | Decompilation | Active, 22% Done |
@@ -476,6 +477,9 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 ---
 
 ## PlayStation 2
+
+### Dark Cloud
+{% include link-to-other-site.html url="https://github.com/adubbz/dcdecomp" description="Decompilation project for Dark Cloud." image="https://static.wikia.nocookie.net/darkcloud/images/b/b1/Dark_Cloud_front_cover.png/revision/latest?cb=20190201005021" title="Decompilation project for Dark Cloud for the PS2"  %}
 
 ### Fatal Frame
 {% include link-to-other-site.html url="https://github.com/Mikompilation/Himuro" description="Decompilation project for Fatal Frame 1." image="https://upload.wikimedia.org/wikipedia/en/b/b7/Fatal_Frame_Coverart.png" title="Decompilation project for Fatal Frame 1 for the PS2"  %}
