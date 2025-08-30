@@ -27,7 +27,7 @@ recommend:
 tags:
 - introduction
 editlink: ../categories/Introduction.md
-updatedAt: '2020-03-29'
+updatedAt: '2025-08-28'
 ---
 
 This guide is for all beginners who are interested in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.
@@ -118,6 +118,7 @@ So we know know that we can represent each byte as two Hexadecimal digits, why d
 Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
 
 * ImHex (Windows / macOS / Linux) (Free and open source) (Website: https://imhex.werwolv.net/)
+* rehex (Windows / macOS / Linux / BSD) (Free and open source) (Website: https://rehex.solemnwarning.net/)
 * GNU Emacs (Windows / macOS / Linux) (Free and open source) (Website: https://www.gnu.org/software/emacs/)
 * 010 Editor (Windows / macOS / Linux) (Proprietary and closed source) (Website: https://www.sweetscape.com/)
 * WinHex (Windows) (Proprietary and closed source) (Website: https://www.x-ways.net/winhex/index-m.html)
