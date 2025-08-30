@@ -22,13 +22,6 @@ jobs:
       with:
         node-version: '18'
 
-    - name: Generate current tags export
-      id: generate-tags
-      run: |
-        echo "📊 Generating current tags report..."
-        node scripts/extract-tags.js
-        echo "✅ Tags report generated"
-
     - name: Check metadata completeness
       id: check-metadata
       run: |
@@ -62,6 +55,16 @@ jobs:
         else
           echo "validation_status=failed" >> $GITHUB_OUTPUT
           echo "❌ Tag validation failed"
+          
+          # Extract invalid tags for summary
+          invalid_tags=$(grep -A 1000 "INVALID TAGS SUMMARY" tag-validation-report.txt | grep "❌" | head -5 | sed 's/❌ //' || echo "See detailed report for invalid tags")
+          
+          # Save invalid tags to output (escape for GitHub Actions)
+          {
+            echo 'invalid_tags<<EOF'
+            echo "$invalid_tags"
+            echo 'EOF'
+          } >> $GITHUB_OUTPUT
         fi
 
     - name: Generate detailed reports
@@ -147,7 +150,7 @@ jobs:
             statusEmoji = '⚠️';
           }
           
-          const comment = `${statusEmoji} **Markdown Content Validation ${overallStatus}**
+          let comment = `${statusEmoji} **Markdown Content Validation ${overallStatus}**
 
           ${summary}
 
@@ -156,10 +159,29 @@ jobs:
           ${tagStatus === 'failed' ? '- ❌ **Fix invalid tags** before merging' : '- ✅ All tags are valid'}
           - 📈 **Consider adding missing metadata fields** to improve content completeness
           - 📥 **Download detailed reports** from the workflow artifacts
+          `;
+          
+          // Add specific invalid tags if validation failed
+          if (tagStatus === 'failed') {
+            const invalidTags = `${{ steps.validate-tags.outputs.invalid_tags }}`;
+            if (invalidTags && invalidTags.trim() !== '' && !invalidTags.includes('See detailed report')) {
+              comment += `
+
+          ## ❌ Invalid Tags Found
+
+          The following tags are not in the approved list:
+          ${invalidTags}
+
+          **Fix Required**: Please remove these invalid tags or add them to the approved tags list before merging.
+              `;
+            }
+          }
+          
+          comment += `
           
           ---
           
-          💡 **Tip**: Run \`node scripts/check-metadata.js\` locally to see which files need attention.
+          💡 **Tip**: Run \`node scripts/validate-tags.js\` locally to see detailed validation results.
           `;
           
           // Find existing comment
