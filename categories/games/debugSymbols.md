@@ -2,6 +2,7 @@
 permalink: /games/symbols
 layout: post
 console: symbols
+title: Introduction to Debug Symbols in Game Development
 breadcrumbs:
   - name: Home
     url: /
@@ -13,14 +14,14 @@ redirect_from:
   - /games/debugsymbols
   - /unstrippedbinaries
 ---
-<h1>Introduction to Debug Symbols</h1>
+# Introduction to Debug Symbols
 Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.
 
 ## Where do debug symbols come from?
-Debug symbols are an artifact of compiling a game from a higher level language (e.g. C\C++) down to a lower level language such as Assembly code.
+Debug symbols are an artifact of compiling a game from a higher level language (e.g. C/C++) down to a lower level language such as Assembly code.
 
 ## What are debug symbols used for?
-They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names in tact.
+They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names intact.
 
 ## Why are debug symbols only in some games?
 Developers *should* remove the debug symbols before the release of the game, a process called `stripping executables`, but due to the high pressures of development and last-minute bugs they can be left in.
@@ -35,7 +36,7 @@ Also some platforms that used compiled code but were to be released on a small s
 Platform Name | List of games that still contain debug symbols
 ---|---
 Sony Playstation 1 | [Playstation 1 Games with Debug Symbols](https://www.retroreversing.com/ps1-debug-symbols)
-Sony Playstation 2 | [PS2 Demo Discs](https://www.retroreversing.com/ps2-demos/) && [PS2 Retail Games](https://www.retroreversing.com/ps2-unstripped/)
+Sony Playstation 2 | [PS2 Demo Discs](https://www.retroreversing.com/ps2-demos/) and [PS2 Retail Games](https://www.retroreversing.com/ps2-unstripped/)
 Sony Playstation Portable | [Playstation Portable Games with Debug Symbols](https://www.retroreversing.com/psp-debug-symbols)
 Nintendo DS |
 Nintendo 64 | None due to limitations of cart size. But we do have part of Turok source code: [Turok 64 Official Source Code Analysis](https://www.retroreversing.com/turok64sourcecode)

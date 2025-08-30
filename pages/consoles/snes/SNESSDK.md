@@ -3,7 +3,6 @@ layout: post
 tags: 
 - snes
 - sdk
-- intelligentsystems
 title: SNES (Super Famicom) Software Development Kit (SDK)
 thumbnail: /public/consoles/Super Nintendo Entertainment System.png
 image: /public/images/snes/Super Nintendo SDK.jpg

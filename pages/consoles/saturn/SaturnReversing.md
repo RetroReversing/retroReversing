@@ -5,7 +5,6 @@ tags:
 - saturn
 - sega
 - ss
-- reversing
 title: Reversing Sega Saturn Games
 thumbnail: /public/consoles/Sega Saturn.png
 image: /public/images/saturn/Sega Saturn Reversing Games.jpg

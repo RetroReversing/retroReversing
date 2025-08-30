@@ -1,6 +1,7 @@
 ---
 permalink: /hardware/devkits/
 layout: post
+title: Introduction to Development Kits (Hardware)
 console: devkit
 image: /public/images/categories/Console Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Console Development Kit Hardware.jpg
@@ -114,7 +115,7 @@ Sony have long been in the hardware development business and it shows with the q
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For information about Sony's Playstation One development hardware check out this post." %}
 
 Sony also officially supported a consumer development kit known as Net Yaroze, which was limited compared to the full development kit but some excellent games were created with it!
-{% include link-to-other-post.html post="/net-yaroze" description="For information about Sonys consumer development hardware known as Net Yaroze development hardware check out this post." %}
+{% include link-to-other-post.html post="/net-yaroze" description="For information about Sony's consumer development hardware known as Net Yaroze development hardware check out this post." %}
 
 ## Sony Playstation 2 
 {% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}

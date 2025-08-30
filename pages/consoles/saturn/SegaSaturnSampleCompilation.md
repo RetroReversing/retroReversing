@@ -2,7 +2,6 @@
 layout: post
 tags:
 - sdk
-- samples
 - saturn
 - sega
 title: Compiling an Official Sega Saturn Sample (SDK)
