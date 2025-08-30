@@ -1,0 +1,1208 @@
+{
+  "summary": {
+    "totalFiles": 275,
+    "filesWithTags": 226,
+    "uniqueTags": 111,
+    "generatedAt": "2025-08-30T17:17:08.591Z"
+  },
+  "tags": {
+    "introduction": 24,
+    "companies": 3,
+    "industry": 16,
+    "datel": 2,
+    "snsystems": 11,
+    "ds": 9,
+    "console": 2,
+    "gba": 9,
+    "gameengines": 10,
+    "bookazines": 1,
+    "magazines": 2,
+    "books": 2,
+    "3d": 3,
+    "software": 4,
+    "tools": 14,
+    "disassemblers": 1,
+    "programming": 2,
+    "reversingemulator": 5,
+    "legal": 1,
+    "copyright": 1,
+    "documentary": 1,
+    "megadrive": 5,
+    "sega": 24,
+    "hardware": 38,
+    "n64": 31,
+    "memory": 3,
+    "pc": 9,
+    "nes": 14,
+    "snes": 6,
+    "mastersystem": 1,
+    "gameboy": 12,
+    "3ds": 6,
+    "sourcecode": 11,
+    "games": 20,
+    "2d": 1,
+    "graphics": 1,
+    "devkit": 25,
+    "fileformats": 9,
+    "crossproducts": 3,
+    "sdk": 39,
+    "32x": 1,
+    "dreamcast": 6,
+    "dc": 3,
+    "ps1": 17,
+    "symbols": 13,
+    "debug": 5,
+    "microsoft": 1,
+    "security": 1,
+    "nds": 1,
+    "homebrew": 2,
+    "nintendo": 2,
+    "opensource": 2,
+    "assembly": 4,
+    "gamecube": 6,
+    "reverseengineering": 7,
+    "projects": 2,
+    "idtech3": 1,
+    "gc": 4,
+    "leak": 23,
+    "gamegear": 2,
+    "gg": 1,
+    "sms": 2,
+    "demos": 1,
+    "sound": 1,
+    "cheatcartridge": 1,
+    "worldeditor": 2,
+    "consolearchitecture": 4,
+    "tutorial": 7,
+    "mips": 1,
+    "ique": 2,
+    "radare2": 1,
+    "emulation": 1,
+    "ghidra": 3,
+    "game": 1,
+    "dos": 1,
+    "msdos": 2,
+    "port": 1,
+    "pokemonmini": 1,
+    "ps2": 12,
+    "ps3": 4,
+    "featured": 2,
+    "ps4": 2,
+    "fileformat": 1,
+    "psp": 5,
+    "beta": 1,
+    "prototype": 1,
+    "exclusives": 1,
+    "segasaturn": 7,
+    "saturn": 17,
+    "psyq": 2,
+    "ss": 3,
+    "switch": 3,
+    "sony": 3,
+    "vita": 4,
+    "android": 2,
+    "wii": 10,
+    "wiiu": 7,
+    "middleware": 5,
+    "unity": 1,
+    "xbox": 6,
+    "engines": 1,
+    "xbox360": 1,
+    "news": 1,
+    "proposal": 1,
+    "maths": 3,
+    "cpu": 4,
+    "atari": 1,
+    "incomplete": 1,
+    "decompiling": 1,
+    "unity3d": 1,
+    "gdb": 2
+  },
+  "fileTagMap": {
+    "categories/Introduction.md": [
+      "introduction"
+    ],
+    "categories/companies/Codemasters.md": [
+      "companies",
+      "industry"
+    ],
+    "categories/companies/crossproducts.md": [
+      "industry"
+    ],
+    "categories/companies/datel.md": [
+      "companies",
+      "industry",
+      "datel"
+    ],
+    "categories/companies/snsystems.md": [
+      "companies",
+      "industry",
+      "snsystems"
+    ],
+    "categories/consoles/DS.md": [
+      "ds"
+    ],
+    "categories/consoles/FairchildChannelF.md": [
+      "console"
+    ],
+    "categories/consoles/GameBoyAdvance.md": [
+      "gba"
+    ],
+    "categories/consoles/Intellivision.md": [
+      "console"
+    ],
+    "categories/games/GameEngines.md": [
+      "gameengines",
+      "introduction"
+    ],
+    "categories/misc/Bookazines.md": [
+      "bookazines",
+      "magazines",
+      "books",
+      "industry"
+    ],
+    "categories/misc/Books.md": [
+      "industry"
+    ],
+    "categories/misc/Conferences.md": [
+      "industry"
+    ],
+    "categories/misc/GDC.md": [
+      "industry"
+    ],
+    "categories/misc/Hacking.md": [
+      "industry"
+    ],
+    "categories/misc/Magazines.md": [
+      "industry"
+    ],
+    "categories/misc/Museums.md": [
+      "industry"
+    ],
+    "categories/tools/3DSoftware.md": [
+      "3d",
+      "software",
+      "tools"
+    ],
+    "categories/tools/Disassemblers.md": [
+      "disassemblers",
+      "tools",
+      "software"
+    ],
+    "categories/tools/GameCrackingSoftware.md": [
+      "software",
+      "industry"
+    ],
+    "categories/tools/ProgrammingLanguages.md": [
+      "programming",
+      "tools"
+    ],
+    "categories/tools/ReversingEmulators.md": [
+      "reversingemulator"
+    ],
+    "categories/tools/Tools.md": [
+      "tools",
+      "software"
+    ],
+    "pages/About.md": [
+      "introduction"
+    ],
+    "pages/Industry/Copyright.md": [
+      "industry",
+      "legal",
+      "copyright"
+    ],
+    "pages/Industry/Develop.md": [
+      "industry",
+      "magazines"
+    ],
+    "pages/Industry/IndieDevelopment.md": [
+      "industry"
+    ],
+    "pages/Industry/WorkingAtSega.md": [
+      "industry",
+      "documentary",
+      "megadrive",
+      "sega"
+    ],
+    "pages/Introduction/GameArchitecture.md": [
+      "introduction"
+    ],
+    "pages/Introduction/HowEmulatorsWork.md": [
+      "introduction"
+    ],
+    "pages/Introduction/HowToReverseMicrochip.md": [
+      "introduction",
+      "hardware"
+    ],
+    "pages/Introduction/Legality.md": [
+      "introduction"
+    ],
+    "pages/Introduction/Memory-Hacking.md": [
+      "n64",
+      "memory",
+      "introduction"
+    ],
+    "pages/Introduction/MemoryCorruption.md": [
+      "introduction",
+      "pc",
+      "nes",
+      "n64"
+    ],
+    "pages/Introduction/RetroAudio.md": [
+      "introduction",
+      "pc",
+      "nes"
+    ],
+    "pages/Introduction/RetroCartridges.md": [
+      "introduction",
+      "pc",
+      "nes",
+      "snes",
+      "n64",
+      "megadrive",
+      "mastersystem"
+    ],
+    "pages/Introduction/RetroGraphics.md": [
+      "introduction",
+      "pc",
+      "nes"
+    ],
+    "pages/Introduction/TwitchPlaysEmulators.md": [
+      "introduction",
+      "gameboy",
+      "3ds"
+    ],
+    "pages/SourceCode/DecompiledRetailConsoleGames.md": [
+      "sourcecode",
+      "games"
+    ],
+    "pages/SourceCode/RetailConsoleSourceCode.md": [
+      "sourcecode",
+      "games"
+    ],
+    "pages/SourceCode/graphics/Awesome2DTechniques.md": [
+      "2d",
+      "graphics"
+    ],
+    "pages/consoles/3ds/3DSDevkitHardware.md": [
+      "3ds",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/3ds/3DSFileFormats.md": [
+      "3ds",
+      "fileformats"
+    ],
+    "pages/consoles/Mega Drive/MegaDriveDevkitHardware.md": [
+      "devkit",
+      "hardware",
+      "megadrive",
+      "crossproducts",
+      "snsystems"
+    ],
+    "pages/consoles/Mega Drive/MegaDriveSDK.md": [
+      "sdk",
+      "megadrive",
+      "32x",
+      "crossproducts",
+      "snsystems"
+    ],
+    "pages/consoles/dreamcast/Chicken Run Source Code.md": [
+      "dreamcast",
+      "dc",
+      "ps1",
+      "pc",
+      "games",
+      "sourcecode"
+    ],
+    "pages/consoles/dreamcast/DreamcastGDWorkshop.md": [
+      "sega",
+      "dreamcast",
+      "sdk"
+    ],
+    "pages/consoles/dreamcast/DreamcastGamesWithDebugSymbols.md": [
+      "sega",
+      "dreamcast",
+      "symbols",
+      "debug"
+    ],
+    "pages/consoles/dreamcast/DreamcastWindowsCESDK.md": [
+      "sega",
+      "dreamcast",
+      "sdk",
+      "microsoft"
+    ],
+    "pages/consoles/dreamcast/How the Dreamcast's Security was Hacked.md": [
+      "dreamcast",
+      "dc",
+      "hardware",
+      "security",
+      "sega"
+    ],
+    "pages/consoles/dreamcast/Sega Dreamcast Katana Development Kit.md": [
+      "dreamcast",
+      "dc",
+      "hardware",
+      "devkit",
+      "sega"
+    ],
+    "pages/consoles/ds/DSDevkitHardware.md": [
+      "ds",
+      "devkit",
+      "hardware",
+      "snsystems"
+    ],
+    "pages/consoles/ds/DSFileFormats.md": [
+      "ds",
+      "fileformats"
+    ],
+    "pages/consoles/ds/DSHomebrew.md": [
+      "ds",
+      "nds",
+      "homebrew"
+    ],
+    "pages/consoles/ds/DSOfficialSDK.md": [
+      "ds",
+      "sdk"
+    ],
+    "pages/consoles/gameboy/GameBoyFileFormats.md": [
+      "gameboy",
+      "fileformats"
+    ],
+    "pages/consoles/gameboy/GameBoyRE.md": [
+      "gameboy",
+      "reversingemulator"
+    ],
+    "pages/consoles/gameboy/GameBoySDK.md": [
+      "gameboy",
+      "sdk"
+    ],
+    "pages/consoles/gameboy/GameboyDevelopmentKitHardware.md": [
+      "gameboy",
+      "nintendo",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/gameboy/Mrdo.md": [
+      "gameboy",
+      "games",
+      "sourcecode",
+      "opensource"
+    ],
+    "pages/consoles/gameboy/PokemonRedBlue.md": [
+      "gameboy",
+      "games",
+      "assembly"
+    ],
+    "pages/consoles/gameboy/pokemonSilverGold.md": [
+      "gameboy",
+      "introduction"
+    ],
+    "pages/consoles/gamecube/007 Agent Under Fire.md": [
+      "gamecube",
+      "symbols",
+      "debug",
+      "reverseengineering",
+      "games",
+      "projects",
+      "idtech3"
+    ],
+    "pages/consoles/gamecube/GCDevelopmentKitHardware.md": [
+      "gamecube",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/gamecube/GamecubeDebugSymbols.md": [
+      "gamecube",
+      "symbols",
+      "debug",
+      "reverseengineering"
+    ],
+    "pages/consoles/gamecube/GamecubeFileFormats.md": [
+      "gamecube",
+      "gc",
+      "reverseengineering"
+    ],
+    "pages/consoles/gamecube/iQueGamecube.md": [
+      "gamecube",
+      "leak"
+    ],
+    "pages/consoles/gamegear/GameGearDevKit.md": [
+      "gamegear",
+      "sega",
+      "gg",
+      "devkit"
+    ],
+    "pages/consoles/gamegear/Krisalis-Development-Kit-(Sega).md": [
+      "devkit",
+      "hardware",
+      "gamegear",
+      "sms",
+      "sega"
+    ],
+    "pages/consoles/gba/GBADevkitHardware.md": [
+      "gba",
+      "devkit",
+      "hardware",
+      "snsystems"
+    ],
+    "pages/consoles/gba/GBASDK.md": [
+      "gba",
+      "sdk"
+    ],
+    "pages/consoles/gba/GBASDKDemos.md": [
+      "gba",
+      "sdk",
+      "demos"
+    ],
+    "pages/consoles/gba/GBASDKMusic.md": [
+      "gba",
+      "sdk",
+      "sound"
+    ],
+    "pages/consoles/gba/GBASDKSamples.md": [
+      "gba",
+      "sdk"
+    ],
+    "pages/consoles/gba/GBAToolSourceCode.md": [
+      "gba",
+      "sdk"
+    ],
+    "pages/consoles/n64/Bung-Doctor-v64.md": [
+      "n64",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/n64/Datel-Action-Replay-Professional.md": [
+      "n64",
+      "memory",
+      "cheatcartridge",
+      "datel"
+    ],
+    "pages/consoles/n64/Gigaleak2.md": [
+      "n64",
+      "sdk",
+      "leak"
+    ],
+    "pages/consoles/n64/Maestro64.md": [
+      "n64",
+      "devkit",
+      "hardware",
+      "snsystems"
+    ],
+    "pages/consoles/n64/Mario-Kart-64.md": [
+      "n64",
+      "worldeditor"
+    ],
+    "pages/consoles/n64/Mupen64RE.md": [
+      "n64",
+      "reversingemulator"
+    ],
+    "pages/consoles/n64/Mupen64SourceCodeAnalysis.md": [
+      "n64"
+    ],
+    "pages/consoles/n64/Mystical-Ninja-N64-Memory-Rom-Editing.md": [
+      "n64",
+      "memory"
+    ],
+    "pages/consoles/n64/N64BootCode.md": [
+      "n64",
+      "assembly"
+    ],
+    "pages/consoles/n64/N64HardwareArchitecture.md": [
+      "n64",
+      "hardware",
+      "consolearchitecture"
+    ],
+    "pages/consoles/n64/N64MipsAssembly.md": [
+      "n64",
+      "tutorial",
+      "assembly",
+      "mips"
+    ],
+    "pages/consoles/n64/N64RDP.md": [
+      "n64"
+    ],
+    "pages/consoles/n64/N64RSP.md": [
+      "n64"
+    ],
+    "pages/consoles/n64/N64ReversingIntroduction.md": [
+      "n64",
+      "introduction"
+    ],
+    "pages/consoles/n64/N64SDK.md": [
+      "n64",
+      "sdk"
+    ],
+    "pages/consoles/n64/N64Sound.md": [
+      "n64"
+    ],
+    "pages/consoles/n64/N64_3DModellingSoftware.md": [
+      "n64",
+      "3d",
+      "tools"
+    ],
+    "pages/consoles/n64/OfficialN64Devkit.md": [
+      "n64",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/n64/OmanArchive.md": [
+      "n64",
+      "sdk",
+      "leak"
+    ],
+    "pages/consoles/n64/SN64_SDK.md": [
+      "n64",
+      "sdk",
+      "snsystems"
+    ],
+    "pages/consoles/n64/SuperMario64.md": [
+      "n64",
+      "worldeditor",
+      "games"
+    ],
+    "pages/consoles/n64/Turok64SourceCode.md": [
+      "n64",
+      "games",
+      "sourcecode"
+    ],
+    "pages/consoles/n64/iQueSDK.md": [
+      "ique",
+      "n64",
+      "sdk"
+    ],
+    "pages/consoles/n64/n64SDKSetup.md": [
+      "n64",
+      "introduction",
+      "sdk",
+      "tutorial"
+    ],
+    "pages/consoles/n64/n64_Radare2.md": [
+      "n64",
+      "radare2",
+      "tools"
+    ],
+    "pages/consoles/nes/Home-Alone-2-NES-Source-Code.md": [
+      "nes",
+      "games",
+      "sourcecode"
+    ],
+    "pages/consoles/nes/NES-Sprite-Tile-Editing.md": [
+      "nes",
+      "gameboy"
+    ],
+    "pages/consoles/nes/NESDevkitHardware.md": [
+      "nes",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/nes/NESEmulation.md": [
+      "nes",
+      "emulation"
+    ],
+    "pages/consoles/nes/NESGhidra.md": [
+      "nes",
+      "ghidra"
+    ],
+    "pages/consoles/nes/NesProgrammingIntro.md": [
+      "nes",
+      "introduction"
+    ],
+    "pages/consoles/nes/Super-Mario-Bros.md": [
+      "nes",
+      "game"
+    ],
+    "pages/consoles/nes/WritingNESGamesWithAssembly.md": [
+      "nes",
+      "programming"
+    ],
+    "pages/consoles/pc/PlanetX3.md": [
+      "dos",
+      "pc",
+      "msdos",
+      "sourcecode",
+      "games"
+    ],
+    "pages/consoles/pc/Postal.md": [
+      "pc",
+      "games",
+      "opensource"
+    ],
+    "pages/consoles/pc/RetroCityRampage.md": [
+      "pc",
+      "port",
+      "msdos"
+    ],
+    "pages/consoles/pokemonMini/OfficialPokeMiniSDK.md": [
+      "pokemonmini",
+      "sdk"
+    ],
+    "pages/consoles/ps1/CrashBandicoot.md": [
+      "ps1",
+      "games"
+    ],
+    "pages/consoles/ps1/Evolution of Playstation Games.md": [
+      "ps1",
+      "ps2",
+      "ps3",
+      "games"
+    ],
+    "pages/consoles/ps1/GTE.md": [
+      "ps1",
+      "hardware",
+      "sdk"
+    ],
+    "pages/consoles/ps1/NetYaroze.md": [
+      "ps1",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/ps1/PS1 PsyQ Linker.md": [
+      "ps1",
+      "sdk",
+      "assembly"
+    ],
+    "pages/consoles/ps1/PS1FileFormats.md": [
+      "ps1",
+      "reverseengineering",
+      "fileformats"
+    ],
+    "pages/consoles/ps1/PS1Symbols.md": [
+      "ps1",
+      "reverseengineering",
+      "symbols"
+    ],
+    "pages/consoles/ps1/PS1_PsyQ_Libs.md": [
+      "ps1",
+      "sdk",
+      "symbols"
+    ],
+    "pages/consoles/ps1/PS1_Radare2.md": [
+      "ps1",
+      "sdk",
+      "symbols"
+    ],
+    "pages/consoles/ps1/PSYQSDKSetup.md": [
+      "ps1",
+      "reverseengineering",
+      "sdk",
+      "tutorial"
+    ],
+    "pages/consoles/ps1/PlayStation Hardware Architecture.md": [
+      "ps1",
+      "hardware",
+      "featured",
+      "consolearchitecture"
+    ],
+    "pages/consoles/ps1/PlayStationDevelopmentSystem.md": [
+      "ps1",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/ps1/PlaystationEvolution.md": [
+      "ps1",
+      "ps2",
+      "ps3",
+      "ps4",
+      "hardware",
+      "featured"
+    ],
+    "pages/consoles/ps1/psx-exe.md": [
+      "ps1",
+      "sdk",
+      "fileformat"
+    ],
+    "pages/consoles/ps2/EEStaticLibraries.md": [
+      "ps2",
+      "sdk"
+    ],
+    "pages/consoles/ps2/PS2 Hardware Architecture.md": [
+      "ps2",
+      "hardware",
+      "consolearchitecture"
+    ],
+    "pages/consoles/ps2/PS2DemoDisks.md": [
+      "ps2",
+      "symbols",
+      "games"
+    ],
+    "pages/consoles/ps2/PS2SDK.md": [
+      "ps2",
+      "symbols",
+      "sdk"
+    ],
+    "pages/consoles/ps2/PlayStation2DevelopmentHardware.md": [
+      "ps2",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/ps2/Ps2UnstrippedBinaries.md": [
+      "ps2",
+      "symbols",
+      "games"
+    ],
+    "pages/consoles/ps2/SN-Systems-Network-Development-Kit-for-PS2.md": [
+      "ps2",
+      "snsystems",
+      "sdk"
+    ],
+    "pages/consoles/ps2/irxFiles.md": [
+      "ps2",
+      "sdk"
+    ],
+    "pages/consoles/ps3/PlayStation3DevelopmentSystem.md": [
+      "ps3",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/ps4/PlayStation4DevelopmentSystem.md": [
+      "ps4",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/psp/PSPDevKit.md": [
+      "psp",
+      "hardware",
+      "devkit"
+    ],
+    "pages/consoles/psp/PSPSDK.md": [
+      "psp",
+      "sdk"
+    ],
+    "pages/consoles/psp/PSPSaintsRowUndercover.md": [
+      "psp",
+      "beta",
+      "prototype",
+      "games"
+    ],
+    "pages/consoles/psp/PSPSymbols.md": [
+      "psp",
+      "reverseengineering",
+      "symbols"
+    ],
+    "pages/consoles/psp/SnSystemsProDGforPSP.md": [
+      "psp",
+      "sdk",
+      "snsystems"
+    ],
+    "pages/consoles/saturn/ExclusiveSegaSaturnGames.md": [
+      "exclusives",
+      "segasaturn",
+      "saturn",
+      "sega",
+      "games"
+    ],
+    "pages/consoles/saturn/PSYQSaturn.md": [
+      "devkit",
+      "hardware",
+      "saturn",
+      "sega",
+      "snsystems",
+      "psyq"
+    ],
+    "pages/consoles/saturn/SaturnLibraryFormats.md": [
+      "sdk",
+      "saturn",
+      "sega",
+      "psyq"
+    ],
+    "pages/consoles/saturn/SaturnReversing.md": [
+      "segasaturn",
+      "saturn",
+      "sega",
+      "ss"
+    ],
+    "pages/consoles/saturn/SaturnTransparencyEffects.md": [
+      "segasaturn",
+      "hardware",
+      "saturn",
+      "sega",
+      "ss"
+    ],
+    "pages/consoles/saturn/SegaSaturnArtistTools.md": [
+      "tools",
+      "segasaturn",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnFileFormats.md": [
+      "fileformats",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnHardware.md": [
+      "consolearchitecture",
+      "segasaturn",
+      "hardware",
+      "saturn",
+      "sega",
+      "ss"
+    ],
+    "pages/consoles/saturn/SegaSaturnHitachiToolchain.md": [
+      "sdk",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnHomebrewDevelopment.md": [
+      "homebrew",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnIP.BIN.md": [
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnProgrammingBox.md": [
+      "devkit",
+      "hardware",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnRE.md": [
+      "saturn",
+      "reversingemulator"
+    ],
+    "pages/consoles/saturn/SegaSaturnSDK.md": [
+      "sdk",
+      "segasaturn",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnSampleCompilation.md": [
+      "sdk",
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/saturn/SegaSaturnSaveData.md": [
+      "saturn",
+      "sega"
+    ],
+    "pages/consoles/snes/SNESDevkitHardware.md": [
+      "snes",
+      "devkit",
+      "hardware",
+      "crossproducts",
+      "snsystems"
+    ],
+    "pages/consoles/snes/SNESSDK.md": [
+      "snes",
+      "sdk"
+    ],
+    "pages/consoles/switch/SwitchFileFormats.md": [
+      "switch",
+      "fileformats"
+    ],
+    "pages/consoles/switch/SwitchGameEngines.md": [
+      "switch",
+      "gameengines"
+    ],
+    "pages/consoles/vita/DecompilePlaystationMobile.md": [
+      "sony",
+      "vita",
+      "android"
+    ],
+    "pages/consoles/vita/OfficialSonyVitaSDK.md": [
+      "vita",
+      "sdk"
+    ],
+    "pages/consoles/vita/PlaystationMobile.md": [
+      "sony",
+      "vita",
+      "android"
+    ],
+    "pages/consoles/vita/VitaFileFormats.md": [
+      "fileformats",
+      "vita",
+      "sony"
+    ],
+    "pages/consoles/wii/AtiLowLevelSDK.md": [
+      "wii",
+      "sdk",
+      "leak",
+      "gc"
+    ],
+    "pages/consoles/wii/BroadOnArchive.md": [
+      "n64",
+      "sdk",
+      "leak",
+      "wii",
+      "ique"
+    ],
+    "pages/consoles/wii/WiiDevkitHardware.md": [
+      "wii",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/wii/WiiDiagnosticDisc.md": [
+      "wii",
+      "sdk",
+      "leak",
+      "gc"
+    ],
+    "pages/consoles/wii/WiiFileFormats.md": [
+      "wii",
+      "fileformats"
+    ],
+    "pages/consoles/wii/WiiGamesWithDebugSymbols.md": [
+      "wii",
+      "symbols",
+      "games"
+    ],
+    "pages/consoles/wiiU/WiiUFileFormats.md": [
+      "wiiu",
+      "fileformats"
+    ],
+    "pages/consoles/wiiU/WiiUGameEngines.md": [
+      "wiiu",
+      "gameengines"
+    ],
+    "pages/consoles/wiiU/WiiUNAND.md": [
+      "wiiu"
+    ],
+    "pages/consoles/wiiU/WiiUNWF.md": [
+      "wiiu",
+      "middleware",
+      "gameengines"
+    ],
+    "pages/consoles/wiiU/WiiUUnStrippedBinaries.md": [
+      "wiiu",
+      "symbols",
+      "games"
+    ],
+    "pages/consoles/wiiU/WiiUUnity.md": [
+      "wiiu",
+      "gameengines",
+      "unity"
+    ],
+    "pages/consoles/wiiU/WiiUVirtualConsole.md": [
+      "wiiu"
+    ],
+    "pages/consoles/xbox/OfficialXboxSDK.md": [
+      "xbox",
+      "sdk"
+    ],
+    "pages/consoles/xbox/XboxDevkitHardware.md": [
+      "xbox",
+      "devkit",
+      "hardware"
+    ],
+    "pages/consoles/xbox/XboxGameEngines.md": [
+      "xbox",
+      "gameengines",
+      "engines"
+    ],
+    "pages/consoles/xbox/XboxGamesWithDebugSymbols.md": [
+      "xbox",
+      "symbols",
+      "debug"
+    ],
+    "pages/consoles/xbox360/Xbox360DevkitHardware.md": [
+      "xbox360",
+      "devkit",
+      "hardware"
+    ],
+    "pages/games/BatmanForeverArcade.md": [
+      "sega",
+      "segasaturn",
+      "saturn",
+      "ps1",
+      "games",
+      "projects"
+    ],
+    "pages/general/2020.md": [
+      "news"
+    ],
+    "pages/general/Reversing Game Jam Proposal.md": [
+      "proposal"
+    ],
+    "pages/general/maths/Matrix.md": [
+      "maths"
+    ],
+    "pages/general/maths/Quaternions.md": [
+      "maths"
+    ],
+    "pages/general/maths/Vectors.md": [
+      "maths"
+    ],
+    "pages/hardware/Verilog.md": [
+      "hardware",
+      "n64",
+      "leak"
+    ],
+    "pages/hardware/cpu/6502.md": [
+      "hardware",
+      "nes",
+      "snes",
+      "cpu"
+    ],
+    "pages/hardware/cpu/68k.md": [
+      "hardware",
+      "megadrive",
+      "atari",
+      "cpu"
+    ],
+    "pages/hardware/cpu/powerpc.md": [
+      "hardware",
+      "wii",
+      "ps3",
+      "cpu"
+    ],
+    "pages/hardware/cpu/z80.md": [
+      "hardware",
+      "gameboy",
+      "sms",
+      "cpu"
+    ],
+    "pages/leaks/CapcomLeaks.md": [
+      "leak",
+      "ps1",
+      "ps2",
+      "wii"
+    ],
+    "pages/leaks/DsiWare.md": [
+      "ds",
+      "leak",
+      "debug"
+    ],
+    "pages/leaks/Emerald.md": [
+      "wii",
+      "leak"
+    ],
+    "pages/leaks/Gigaleak.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/HidemaruMailLeak.md": [
+      "leak"
+    ],
+    "pages/leaks/Ninja.md": [
+      "leak",
+      "ds",
+      "3ds"
+    ],
+    "pages/leaks/Nintendo/FZero.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/OriginalSource.md": [
+      "leak",
+      "gameboy"
+    ],
+    "pages/leaks/Nintendo/Paladin.md": [
+      "leak",
+      "ds",
+      "3ds",
+      "gba"
+    ],
+    "pages/leaks/Nintendo/ZeldaLinksAwakening.md": [
+      "gameboy",
+      "leak",
+      "sourcecode",
+      "incomplete"
+    ],
+    "pages/leaks/NintendoLeaks.md": [
+      "leak",
+      "nintendo",
+      "3ds",
+      "gba"
+    ],
+    "pages/leaks/NintendoLotCheck.md": [
+      "leak",
+      "nes"
+    ],
+    "pages/leaks/Platinum.md": [
+      "ds",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/SimpsonsHitAndRun.md": [
+      "ps2",
+      "xbox",
+      "gamecube",
+      "leak"
+    ],
+    "pages/leaks/SwitchDataSheets.md": [
+      "leak",
+      "switch"
+    ],
+    "pages/leaks/Unexpected2021Leak.md": [
+      "leak",
+      "wii",
+      "gc"
+    ],
+    "pages/tools/3DStudioMax.md": [
+      "3d",
+      "tools"
+    ],
+    "pages/tools/Diaphora.md": [
+      "tools"
+    ],
+    "pages/tools/GNU_GCC.md": [
+      "tools"
+    ],
+    "pages/tools/GameMaker.md": [
+      "gameengines",
+      "middleware"
+    ],
+    "pages/tools/GameProgrammingStarterKit.md": [
+      "tools",
+      "books"
+    ],
+    "pages/tools/Ghidra/GhidraDecompilingIntroduction.md": [
+      "introduction",
+      "ghidra"
+    ],
+    "pages/tools/Ghidra/GhidraN64.md": [
+      "introduction",
+      "tutorial",
+      "n64",
+      "ghidra",
+      "decompiling"
+    ],
+    "pages/tools/Unity3d.md": [
+      "gameengines",
+      "middleware",
+      "unity3d"
+    ],
+    "pages/tools/middleware/FMOD.md": [
+      "middleware",
+      "gameengines"
+    ],
+    "pages/tools/middleware/UDKUltimate.md": [
+      "middleware",
+      "gameengines"
+    ],
+    "pages/tutorials/CreateALibRetroFrontEndInRust.md": [
+      "introduction",
+      "tutorial",
+      "tools"
+    ],
+    "pages/tutorials/Creating a new reversing emulator.md": [
+      "reversingemulator",
+      "introduction"
+    ],
+    "pages/tutorials/GDBReversing.md": [
+      "introduction",
+      "gdb"
+    ],
+    "pages/tutorials/PDBFilesForReverseEngineering.md": [
+      "introduction",
+      "tutorial",
+      "tools",
+      "xbox",
+      "pc"
+    ],
+    "pages/tutorials/WritingAGDBStubInC.md": [
+      "gdb"
+    ],
+    "pages/tutorials/libRetro.md": [
+      "introduction",
+      "tutorial",
+      "tools"
+    ]
+  }
+}
