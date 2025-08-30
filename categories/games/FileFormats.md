@@ -17,6 +17,8 @@ redirect_from:
 recommend:
  - fileformats
 editlink: ../categories/games/FileFormats.md
+tags:
+  - fileformats
 ---
 
 # Introduction to Game File Formats

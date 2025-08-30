@@ -21,6 +21,8 @@ breadcrumbs:
 redirect_from:
   - /segasaturn
   - /ss
+tags:
+  - saturn
 ---
 
 # Introduction to Hacking/Modding/Reversing the Sega Saturn

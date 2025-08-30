@@ -11,6 +11,9 @@ breadcrumbs:
 redirect_from:
   - /datel
 editlink: ../categories/companies/Companies.md
+tags:
+  - companies
+  - industry
 ---
 
 # Game Hacking

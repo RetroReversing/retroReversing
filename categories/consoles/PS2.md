@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Sony Playstation 2
     url: #
+tags:
+  - ps2
 ---
 
 # Introduction

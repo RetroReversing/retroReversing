@@ -14,6 +14,9 @@ redirect_from:
   - /games/debugsymbols
   - /unstrippedbinaries
 editlink: ../categories/games/debugSymbols.md
+tags:
+  - symbols
+  - debug
 ---
 # Introduction to Debug Symbols
 Finding Debug Symbols when reverse engineering a game is the equivalent of buying a Strategy Guide, all the secrets are unlocked which is awesome but it also removes part of the fun of discovering what each part of the game does.

@@ -19,6 +19,8 @@ breadcrumbs:
 redirect_from:
   - /dreamcast
   - /dc
+tags:
+  - dreamcast
 ---
 # Introduction to Hacking/Reversing the SEGA Dreamcast
 Welcome to our page dedicated to SEGA Dreamcast reverse engineering! The SEGA Dreamcast was a beloved gaming console that was first released in 1998, and has since gained a cult following among retro gaming enthusiasts. 

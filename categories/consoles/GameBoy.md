@@ -24,6 +24,8 @@ videocarousel:
 redirect_from:
   -  /gameboy/hardware
   -  /ultimate-gameboy
+tags:
+  - gameboy
 ---
 # Introduction
 Welcome to our page dedicated to Game Boy reverse engineering! The Game Boy was a groundbreaking handheld gaming console that was released in 1989, and has since become an iconic symbol of the early days of portable gaming. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 

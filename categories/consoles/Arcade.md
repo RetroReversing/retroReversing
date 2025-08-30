@@ -15,6 +15,8 @@ breadcrumbs:
     url: /
   - name: Arcade
     url: #
+tags:
+  - arcade
 ---
 
 # Development of Arcade Games

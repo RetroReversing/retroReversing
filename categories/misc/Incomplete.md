@@ -7,9 +7,11 @@ breadcrumbs:
     url: /
 editlink: ../categories/misc/Incomplete.md
 title: Incomplete Reversing Pages
-recommend: 
+recommend:
  - incomplete
  - leaks
+tags:
+  - incomplete
 ---
 
 # Incomplete pages

@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Nintendo Wii Reverse Engineering
     url: #
+tags:
+  - wii
 ---
 # Introduction to Hacking the Nintendo Wii
 Welcome to our page dedicated to Wii reverse engineering! The Wii was a popular gaming console released by Nintendo in 2006, and it introduced several groundbreaking features to the gaming world, such as motion-based controls and online gameplay. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
