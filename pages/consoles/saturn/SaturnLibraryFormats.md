@@ -5,7 +5,6 @@ tags:
 - saturn
 - sega
 - psyq
-- hitachi
 title: Sega Saturn Library Formats
 image: /public/images/saturn/Sega Saturn Library Formats.jpg
 thumbnail: /public/consoles/Sega Saturn.png

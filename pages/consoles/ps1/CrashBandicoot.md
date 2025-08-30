@@ -3,7 +3,6 @@ layout: post
 tags: 
 - ps1
 - games
-- crashbandicoot
 title: Crash Bandicoot
 thumbnail: /public/consoles/Sony Playstation.png
 image: https://img.youtube.com/vi/0HwvAjELuuM/hqdefault.jpg

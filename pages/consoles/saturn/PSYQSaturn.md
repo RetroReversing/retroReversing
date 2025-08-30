@@ -7,7 +7,6 @@ tags:
 - sega
 - snsystems
 - psyq
-- psygnosis
 title: Psy-Q Sega Saturn Development Kit
 image: /public/images/saturn/Sega Saturn PSYQ Development Kit.jpg
 thumbnail: /public/consoles/Sega Saturn.png
