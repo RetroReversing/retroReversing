@@ -1,30 +1,32 @@
 {
   "summary": {
     "totalFiles": 275,
-    "filesWithTags": 271,
-    "uniqueTags": 125,
-    "generatedAt": "2025-08-30T17:50:38.449Z"
+    "filesWithTags": 275,
+    "uniqueTags": 126,
+    "generatedAt": "2025-08-30T21:51:02.196Z"
   },
   "tags": {
     "introduction": 36,
     "tutorial": 10,
-    "companies": 3,
-    "industry": 19,
+    "companies": 4,
+    "industry": 20,
     "crossproducts": 5,
     "datel": 2,
     "snsystems": 11,
     "3do": 1,
     "3ds": 8,
     "arcade": 1,
-    "atari": 4,
+    "atari": 3,
     "jaguar": 1,
     "ds": 11,
     "gba": 11,
     "dreamcast": 8,
     "console": 2,
     "devkit": 29,
-    "gameboy": 14,
+    "handhelds": 2,
+    "gameboy": 15,
     "gamegear": 4,
+    "sega": 26,
     "gamecube": 7,
     "gbc": 1,
     "gamecom": 1,
@@ -39,21 +41,25 @@
     "ps3": 5,
     "ps4": 3,
     "psp": 6,
-    "pokemonmini": 2,
+    "pokemonmini": 3,
     "sg1000": 1,
     "saturn": 18,
     "sms": 3,
     "vectrex": 1,
     "vita": 5,
     "wii": 11,
-    "wiiu": 8,
+    "wiiu": 9,
     "wonderwan": 1,
     "xbox": 8,
     "xbox360": 2,
     "zxspectrum": 1,
     "fileformats": 10,
     "gameengines": 10,
-    "hardware": 39,
+    "games": 22,
+    "sourcecode": 12,
+    "symbols": 14,
+    "debug": 6,
+    "hardware": 41,
     "consolearchitecture": 5,
     "bookazines": 1,
     "magazines": 2,
@@ -64,7 +70,7 @@
     "maths": 4,
     "3d": 4,
     "software": 5,
-    "tools": 15,
+    "tools": 16,
     "disassemblers": 1,
     "cracking": 1,
     "ghidra": 4,
@@ -74,17 +80,12 @@
     "legal": 1,
     "copyright": 1,
     "documentary": 1,
-    "sega": 24,
     "memory": 3,
     "mastersystem": 1,
-    "sourcecode": 11,
-    "games": 20,
     "2d": 1,
     "graphics": 1,
     "32x": 1,
     "dc": 3,
-    "symbols": 13,
-    "debug": 5,
     "microsoft": 1,
     "security": 1,
     "nds": 1,
@@ -141,6 +142,10 @@
       "companies",
       "industry"
     ],
+    "categories/companies/Companies.md": [
+      "companies",
+      "industry"
+    ],
     "categories/companies/crossproducts.md": [
       "industry",
       "crossproducts"
@@ -184,7 +189,8 @@
       "devkit"
     ],
     "categories/consoles/Game.com.md": [
-      "atari"
+      "handhelds",
+      "gameboy"
     ],
     "categories/consoles/GameBoy.md": [
       "gameboy"
@@ -194,7 +200,8 @@
       "gameboy"
     ],
     "categories/consoles/GameGear.md": [
-      "gamegear"
+      "gamegear",
+      "sega"
     ],
     "categories/consoles/Gamecube.md": [
       "gamecube"
@@ -203,7 +210,8 @@
       "gba",
       "gbc",
       "gamecom",
-      "gamegear"
+      "gamegear",
+      "handhelds"
     ],
     "categories/consoles/Intellivision.md": [
       "console",
@@ -215,7 +223,8 @@
       "pc"
     ],
     "categories/consoles/MegaDrive.md": [
-      "megadrive"
+      "megadrive",
+      "sega"
     ],
     "categories/consoles/N64.md": [
       "n64"
@@ -243,6 +252,7 @@
       "psp"
     ],
     "categories/consoles/PokemonMini.md": [
+      "pokemonmini",
       "pokemonmini"
     ],
     "categories/consoles/SG1000.md": [
@@ -268,6 +278,7 @@
       "wii"
     ],
     "categories/consoles/WiiU.md": [
+      "wiiu",
       "wiiu"
     ],
     "categories/consoles/Wonderswan.md": [
@@ -290,14 +301,27 @@
       "gameengines",
       "introduction"
     ],
+    "categories/games/Games.md": [
+      "games"
+    ],
+    "categories/games/SourceCode.md": [
+      "sourcecode",
+      "games"
+    ],
+    "categories/games/debugSymbols.md": [
+      "symbols",
+      "debug"
+    ],
     "categories/hardware/CheatCartridges.md": [
       "hardware"
     ],
     "categories/hardware/GameConsoleHardware.md": [
+      "hardware",
       "consolearchitecture"
     ],
     "categories/hardware/devkits.md": [
-      "devkit"
+      "devkit",
+      "hardware"
     ],
     "categories/misc/Bookazines.md": [
       "bookazines",
@@ -358,7 +382,8 @@
       "3d"
     ],
     "categories/tools/Ghidra.md": [
-      "ghidra"
+      "ghidra",
+      "tools"
     ],
     "categories/tools/ProgrammingLanguages.md": [
       "programming",
