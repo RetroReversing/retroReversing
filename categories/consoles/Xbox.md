@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Microsoft Xbox
     url: #
+tags:
+  - xbox
 ---
 
 # Introduction

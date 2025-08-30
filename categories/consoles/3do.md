@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: 3DO Interactive Multiplayer
     url: #
+tags:
+  - 3do
 ---
 
 # Introduction

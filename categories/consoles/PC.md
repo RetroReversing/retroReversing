@@ -15,6 +15,8 @@ breadcrumbs:
     url: /
   - name: PC
     url: #
+tags:
+  - pc
 ---
 
 # Introduction

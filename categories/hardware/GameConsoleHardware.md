@@ -20,6 +20,8 @@ redirect_from:
   - /consolehardware
   - /games/console
   - /hardware-architecture
+tags:
+  - hardware
 ---
 
 <h1>Introduction to Game Console Hardware Architecture </h1>

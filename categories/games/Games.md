@@ -10,6 +10,9 @@ breadcrumbs:
     url: /games
 redirect_from:
   - /games/all
+editlink: ../categories/games/Games.md
+tags:
+  - games
 ---
 This page collects all the posts that are related to reverse engineering a specific game rather than an entire console or platform.
 

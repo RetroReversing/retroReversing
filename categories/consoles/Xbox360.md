@@ -18,6 +18,8 @@ breadcrumbs:
     url: #
 redirect_from:
   - /360
+tags:
+  - xbox360
 ---
 
 # Introduction

@@ -18,6 +18,8 @@ breadcrumbs:
     url: #
 redirect_from:
   - /supernintendo
+tags:
+  - snes
 ---
 # Introduction
 Welcome to our page dedicated to Super Nintendo reverse engineering! The Super Nintendo Entertainment System, or SNES, was a popular gaming console released by Nintendo in 1990. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 

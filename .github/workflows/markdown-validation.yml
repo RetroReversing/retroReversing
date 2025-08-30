@@ -28,7 +28,7 @@ jobs:
         echo "🔍 Checking metadata completeness..."
         
         # Run metadata check and capture output
-        if node scripts/check-metadata.js editlink title > metadata-report.txt 2>&1; then
+        if node scripts/check-metadata.js editlink title tags > metadata-report.txt 2>&1; then
           echo "metadata_status=success" >> $GITHUB_OUTPUT
         else
           echo "metadata_status=failed" >> $GITHUB_OUTPUT

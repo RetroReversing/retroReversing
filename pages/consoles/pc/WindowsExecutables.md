@@ -16,6 +16,8 @@ breadcrumbs:
     url: /pc
   - name: Windows Executables
     url: #
+tags:
+  - pc
 ---
 
 # Introduction

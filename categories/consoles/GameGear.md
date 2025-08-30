@@ -16,6 +16,9 @@ breadcrumbs:
     url: /
   - name: Sega Game Gear Reverse Engineering
     url: #
+tags:
+  - gamegear
+  - sega
 ---
 
 # Introduction

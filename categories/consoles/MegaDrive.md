@@ -20,6 +20,9 @@ redirect_from:
   - /megadrive
   - /mega-drive
   - /genesis
+tags:
+  - megadrive
+  - sega
 ---
 
 # Introduction

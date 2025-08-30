@@ -16,6 +16,8 @@ recommend:
  - industry
  - introduction
 updatedAt: '2025-05-19'
+tags:
+  - industry
 ---
 
 # Life in The Games Industry

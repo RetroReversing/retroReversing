@@ -22,6 +22,8 @@ videocarousel:
     youtube: 'ImR-TdDAIJE'
 redirect_from:
   -  /EarlyDaysOf3DSHacking
+tags:
+  - 3ds
 ---
 
 # Introduction

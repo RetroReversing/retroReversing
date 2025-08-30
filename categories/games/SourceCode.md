@@ -13,6 +13,10 @@ redirect_from:
   - /code
   - /games/source
   - /retailsourcecode
+editlink: ../categories/games/SourceCode.md
+tags:
+  - sourcecode
+  - games
 ---
 This page collects all the posts that are related to source code, either officially released or leaked, for retail games (not homebrew or open source games).
 

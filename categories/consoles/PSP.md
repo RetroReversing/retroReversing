@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Sony Playstation Portable
     url: #
+tags:
+  - psp
 ---
 # Introduction
 Welcome to our page dedicated to PSP reverse engineering! The PlayStation Portable, or PSP, was a popular handheld gaming console released by Sony in 2004. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 

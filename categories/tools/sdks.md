@@ -17,6 +17,9 @@ editlink: ../categories/tools/sdks.md
 recommend:
  - sdk
  - tools
+tags:
+  - sdk
+  - tools
 ---
 
 # Introduction to Software Development Kits (SDKs)

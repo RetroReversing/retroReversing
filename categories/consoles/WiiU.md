@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Nintendo WiiU Reverse Engineering
     url: #
+tags:
+  - wiiu
 ---
 
 # Introduction

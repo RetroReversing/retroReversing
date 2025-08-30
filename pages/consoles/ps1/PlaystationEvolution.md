@@ -20,6 +20,6 @@ breadcrumbs:
   - name: Evolution Of PlayStation Hardware
     url: #
 recommend: ps1
-editlint: /consoles/ps1/PlaystationEvolution.md
+editlink: /consoles/ps1/PlaystationEvolution.md
 ---
 Sony's PlayStation has quite the history. It's biggest changes through the years were in console hardware updates. Let's break them down! 

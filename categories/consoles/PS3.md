@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Sony Playstation 3 Reverse Engineering
     url: #
+tags:
+  - ps3
 ---
 
 # Introduction
