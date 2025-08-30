@@ -14,8 +14,9 @@ redirect_from:
   - /gamefiles
   - /fileformat
   - /game-file-formats
-recommend: 
+recommend:
  - fileformats
+editlink: ../categories/games/FileFormats.md
 ---
 
 # Introduction to Game File Formats

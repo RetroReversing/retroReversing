@@ -111,28 +111,45 @@ function readMarkdownFile(filePath) {
 }
 
 /**
- * Extract and normalize tags from metadata
+ * Extract and normalize tags from metadata (from both 'tags' and 'recommend' fields)
  * @param {Object} metadata - Parsed frontmatter metadata
  * @returns {string[]} Array of normalized tags
  */
 function extractTags(metadata) {
-    if (!metadata.tags) {
-        return [];
-    }
-
-    let tags = [];
+    let allTags = [];
     
-    // Handle both array and single string tags
-    if (Array.isArray(metadata.tags)) {
-        tags = metadata.tags;
-    } else if (typeof metadata.tags === 'string') {
-        // Handle comma-separated tags in a single string
-        tags = metadata.tags.split(',').map(tag => tag.trim());
+    // Extract tags from 'tags' field
+    if (metadata.tags) {
+        let tags = [];
+        
+        if (Array.isArray(metadata.tags)) {
+            tags = metadata.tags;
+        } else if (typeof metadata.tags === 'string') {
+            // Handle comma-separated tags in a single string
+            tags = metadata.tags.split(',').map(tag => tag.trim());
+        }
+        
+        allTags.push(...tags);
     }
     
-    // Clean and filter tags
-    return tags.filter(tag => tag && tag.length > 0)
-              .map(tag => tag.toLowerCase().trim());
+    // Extract tags from 'recommend' field
+    if (metadata.recommend) {
+        let recommendTags = [];
+        
+        if (Array.isArray(metadata.recommend)) {
+            recommendTags = metadata.recommend;
+        } else if (typeof metadata.recommend === 'string') {
+            // Handle comma-separated tags in a single string
+            recommendTags = metadata.recommend.split(',').map(tag => tag.trim());
+        }
+        
+        allTags.push(...recommendTags);
+    }
+    
+    // Clean, filter, and deduplicate tags
+    const uniqueTags = [...new Set(allTags)];
+    return uniqueTags.filter(tag => tag && tag.length > 0)
+                    .map(tag => tag.toLowerCase().trim());
 }
 
 /**

@@ -1,55 +1,88 @@
 {
   "summary": {
     "totalFiles": 275,
-    "filesWithTags": 226,
-    "uniqueTags": 111,
-    "generatedAt": "2025-08-30T17:17:08.591Z"
+    "filesWithTags": 271,
+    "uniqueTags": 125,
+    "generatedAt": "2025-08-30T17:50:38.449Z"
   },
   "tags": {
-    "introduction": 24,
+    "introduction": 36,
+    "tutorial": 10,
     "companies": 3,
-    "industry": 16,
+    "industry": 19,
+    "crossproducts": 5,
     "datel": 2,
     "snsystems": 11,
-    "ds": 9,
+    "3do": 1,
+    "3ds": 8,
+    "arcade": 1,
+    "atari": 4,
+    "jaguar": 1,
+    "ds": 11,
+    "gba": 11,
+    "dreamcast": 8,
     "console": 2,
-    "gba": 9,
+    "devkit": 29,
+    "gameboy": 14,
+    "gamegear": 4,
+    "gamecube": 7,
+    "gbc": 1,
+    "gamecom": 1,
+    "msx": 1,
+    "pc": 12,
+    "megadrive": 6,
+    "n64": 32,
+    "nes": 16,
+    "snes": 8,
+    "ps1": 18,
+    "ps2": 13,
+    "ps3": 5,
+    "ps4": 3,
+    "psp": 6,
+    "pokemonmini": 2,
+    "sg1000": 1,
+    "saturn": 18,
+    "sms": 3,
+    "vectrex": 1,
+    "vita": 5,
+    "wii": 11,
+    "wiiu": 8,
+    "wonderwan": 1,
+    "xbox": 8,
+    "xbox360": 2,
+    "zxspectrum": 1,
+    "fileformats": 10,
     "gameengines": 10,
+    "hardware": 39,
+    "consolearchitecture": 5,
     "bookazines": 1,
     "magazines": 2,
     "books": 2,
-    "3d": 3,
-    "software": 4,
-    "tools": 14,
+    "incomplete": 2,
+    "leaks": 3,
+    "leak": 24,
+    "maths": 4,
+    "3d": 4,
+    "software": 5,
+    "tools": 15,
     "disassemblers": 1,
+    "cracking": 1,
+    "ghidra": 4,
     "programming": 2,
     "reversingemulator": 5,
+    "sdk": 41,
     "legal": 1,
     "copyright": 1,
     "documentary": 1,
-    "megadrive": 5,
     "sega": 24,
-    "hardware": 38,
-    "n64": 31,
     "memory": 3,
-    "pc": 9,
-    "nes": 14,
-    "snes": 6,
     "mastersystem": 1,
-    "gameboy": 12,
-    "3ds": 6,
     "sourcecode": 11,
     "games": 20,
     "2d": 1,
     "graphics": 1,
-    "devkit": 25,
-    "fileformats": 9,
-    "crossproducts": 3,
-    "sdk": 39,
     "32x": 1,
-    "dreamcast": 6,
     "dc": 3,
-    "ps1": 17,
     "symbols": 13,
     "debug": 5,
     "microsoft": 1,
@@ -59,75 +92,58 @@
     "nintendo": 2,
     "opensource": 2,
     "assembly": 4,
-    "gamecube": 6,
     "reverseengineering": 7,
     "projects": 2,
     "idtech3": 1,
     "gc": 4,
-    "leak": 23,
-    "gamegear": 2,
     "gg": 1,
-    "sms": 2,
     "demos": 1,
     "sound": 1,
     "cheatcartridge": 1,
     "worldeditor": 2,
-    "consolearchitecture": 4,
-    "tutorial": 7,
     "mips": 1,
     "ique": 2,
     "radare2": 1,
     "emulation": 1,
-    "ghidra": 3,
     "game": 1,
     "dos": 1,
     "msdos": 2,
     "port": 1,
-    "pokemonmini": 1,
-    "ps2": 12,
-    "ps3": 4,
     "featured": 2,
-    "ps4": 2,
     "fileformat": 1,
-    "psp": 5,
     "beta": 1,
     "prototype": 1,
     "exclusives": 1,
     "segasaturn": 7,
-    "saturn": 17,
     "psyq": 2,
     "ss": 3,
     "switch": 3,
     "sony": 3,
-    "vita": 4,
     "android": 2,
-    "wii": 10,
-    "wiiu": 7,
     "middleware": 5,
     "unity": 1,
-    "xbox": 6,
     "engines": 1,
-    "xbox360": 1,
     "news": 1,
+    "devkits": 1,
     "proposal": 1,
-    "maths": 3,
     "cpu": 4,
-    "atari": 1,
-    "incomplete": 1,
     "decompiling": 1,
+    "tutorials": 1,
     "unity3d": 1,
     "gdb": 2
   },
   "fileTagMap": {
     "categories/Introduction.md": [
-      "introduction"
+      "introduction",
+      "tutorial"
     ],
     "categories/companies/Codemasters.md": [
       "companies",
       "industry"
     ],
     "categories/companies/crossproducts.md": [
-      "industry"
+      "industry",
+      "crossproducts"
     ],
     "categories/companies/datel.md": [
       "companies",
@@ -139,21 +155,149 @@
       "industry",
       "snsystems"
     ],
+    "categories/consoles/3do.md": [
+      "3do"
+    ],
+    "categories/consoles/3ds.md": [
+      "3ds"
+    ],
+    "categories/consoles/Arcade.md": [
+      "arcade"
+    ],
+    "categories/consoles/Atari2600.md": [
+      "atari"
+    ],
+    "categories/consoles/AtariJaguar.md": [
+      "atari",
+      "jaguar"
+    ],
     "categories/consoles/DS.md": [
-      "ds"
-    ],
-    "categories/consoles/FairchildChannelF.md": [
-      "console"
-    ],
-    "categories/consoles/GameBoyAdvance.md": [
+      "ds",
       "gba"
     ],
+    "categories/consoles/Dreamcast.md": [
+      "dreamcast"
+    ],
+    "categories/consoles/FairchildChannelF.md": [
+      "console",
+      "introduction",
+      "devkit"
+    ],
+    "categories/consoles/Game.com.md": [
+      "atari"
+    ],
+    "categories/consoles/GameBoy.md": [
+      "gameboy"
+    ],
+    "categories/consoles/GameBoyAdvance.md": [
+      "gba",
+      "gameboy"
+    ],
+    "categories/consoles/GameGear.md": [
+      "gamegear"
+    ],
+    "categories/consoles/Gamecube.md": [
+      "gamecube"
+    ],
+    "categories/consoles/Handhelds.md": [
+      "gba",
+      "gbc",
+      "gamecom",
+      "gamegear"
+    ],
     "categories/consoles/Intellivision.md": [
-      "console"
+      "console",
+      "introduction",
+      "devkit"
+    ],
+    "categories/consoles/MSX.md": [
+      "msx",
+      "pc"
+    ],
+    "categories/consoles/MegaDrive.md": [
+      "megadrive"
+    ],
+    "categories/consoles/N64.md": [
+      "n64"
+    ],
+    "categories/consoles/Nes.md": [
+      "nes",
+      "snes"
+    ],
+    "categories/consoles/PC.md": [
+      "pc"
+    ],
+    "categories/consoles/PS1.md": [
+      "ps1"
+    ],
+    "categories/consoles/PS2.md": [
+      "ps2"
+    ],
+    "categories/consoles/PS3.md": [
+      "ps3"
+    ],
+    "categories/consoles/PS4.md": [
+      "ps4"
+    ],
+    "categories/consoles/PSP.md": [
+      "psp"
+    ],
+    "categories/consoles/PokemonMini.md": [
+      "pokemonmini"
+    ],
+    "categories/consoles/SG1000.md": [
+      "sg1000"
+    ],
+    "categories/consoles/Saturn.md": [
+      "saturn",
+      "dreamcast"
+    ],
+    "categories/consoles/SegaMasterSystem.md": [
+      "sms"
+    ],
+    "categories/consoles/SuperNintendo.md": [
+      "snes"
+    ],
+    "categories/consoles/Vectrex.md": [
+      "vectrex"
+    ],
+    "categories/consoles/Vita.md": [
+      "vita"
+    ],
+    "categories/consoles/Wii.md": [
+      "wii"
+    ],
+    "categories/consoles/WiiU.md": [
+      "wiiu"
+    ],
+    "categories/consoles/Wonderswan.md": [
+      "wonderwan"
+    ],
+    "categories/consoles/Xbox.md": [
+      "xbox"
+    ],
+    "categories/consoles/Xbox360.md": [
+      "xbox360"
+    ],
+    "categories/consoles/ZXSpectrum.md": [
+      "zxspectrum",
+      "nes"
+    ],
+    "categories/games/FileFormats.md": [
+      "fileformats"
     ],
     "categories/games/GameEngines.md": [
       "gameengines",
       "introduction"
+    ],
+    "categories/hardware/CheatCartridges.md": [
+      "hardware"
+    ],
+    "categories/hardware/GameConsoleHardware.md": [
+      "consolearchitecture"
+    ],
+    "categories/hardware/devkits.md": [
+      "devkit"
     ],
     "categories/misc/Bookazines.md": [
       "bookazines",
@@ -165,16 +309,34 @@
       "industry"
     ],
     "categories/misc/Conferences.md": [
-      "industry"
+      "industry",
+      "introduction"
     ],
     "categories/misc/GDC.md": [
-      "industry"
+      "industry",
+      "introduction"
     ],
     "categories/misc/Hacking.md": [
       "industry"
     ],
+    "categories/misc/Incomplete.md": [
+      "incomplete",
+      "leaks"
+    ],
+    "categories/misc/Industry.md": [
+      "industry",
+      "introduction"
+    ],
+    "categories/misc/Leaks.md": [
+      "leaks",
+      "leak"
+    ],
     "categories/misc/Magazines.md": [
-      "industry"
+      "industry",
+      "introduction"
+    ],
+    "categories/misc/Maths.md": [
+      "maths"
     ],
     "categories/misc/Museums.md": [
       "industry"
@@ -191,11 +353,17 @@
     ],
     "categories/tools/GameCrackingSoftware.md": [
       "software",
-      "industry"
+      "industry",
+      "cracking",
+      "3d"
+    ],
+    "categories/tools/Ghidra.md": [
+      "ghidra"
     ],
     "categories/tools/ProgrammingLanguages.md": [
       "programming",
-      "tools"
+      "tools",
+      "software"
     ],
     "categories/tools/ReversingEmulators.md": [
       "reversingemulator"
@@ -204,17 +372,23 @@
       "tools",
       "software"
     ],
+    "categories/tools/sdks.md": [
+      "sdk",
+      "tools"
+    ],
     "pages/About.md": [
       "introduction"
     ],
     "pages/Industry/Copyright.md": [
       "industry",
       "legal",
-      "copyright"
+      "copyright",
+      "introduction"
     ],
     "pages/Industry/Develop.md": [
       "industry",
-      "magazines"
+      "magazines",
+      "introduction"
     ],
     "pages/Industry/IndieDevelopment.md": [
       "industry"
@@ -275,7 +449,9 @@
     ],
     "pages/SourceCode/DecompiledRetailConsoleGames.md": [
       "sourcecode",
-      "games"
+      "games",
+      "introduction",
+      "industry"
     ],
     "pages/SourceCode/RetailConsoleSourceCode.md": [
       "sourcecode",
@@ -283,12 +459,14 @@
     ],
     "pages/SourceCode/graphics/Awesome2DTechniques.md": [
       "2d",
-      "graphics"
+      "graphics",
+      "introduction"
     ],
     "pages/consoles/3ds/3DSDevkitHardware.md": [
       "3ds",
       "devkit",
-      "hardware"
+      "hardware",
+      "ds"
     ],
     "pages/consoles/3ds/3DSFileFormats.md": [
       "3ds",
@@ -360,7 +538,8 @@
     "pages/consoles/ds/DSHomebrew.md": [
       "ds",
       "nds",
-      "homebrew"
+      "homebrew",
+      "3ds"
     ],
     "pages/consoles/ds/DSOfficialSDK.md": [
       "ds",
@@ -426,7 +605,8 @@
     ],
     "pages/consoles/gamecube/iQueGamecube.md": [
       "gamecube",
-      "leak"
+      "leak",
+      "sdk"
     ],
     "pages/consoles/gamegear/GameGearDevKit.md": [
       "gamegear",
@@ -635,6 +815,9 @@
       "port",
       "msdos"
     ],
+    "pages/consoles/pc/WindowsExecutables.md": [
+      "pc"
+    ],
     "pages/consoles/pokemonMini/OfficialPokeMiniSDK.md": [
       "pokemonmini",
       "sdk"
@@ -806,7 +989,8 @@
       "sdk",
       "saturn",
       "sega",
-      "psyq"
+      "psyq",
+      "devkit"
     ],
     "pages/consoles/saturn/SaturnReversing.md": [
       "segasaturn",
@@ -858,7 +1042,8 @@
       "devkit",
       "hardware",
       "saturn",
-      "sega"
+      "sega",
+      "crossproducts"
     ],
     "pages/consoles/saturn/SegaSaturnRE.md": [
       "saturn",
@@ -1001,7 +1186,8 @@
     "pages/consoles/xbox360/Xbox360DevkitHardware.md": [
       "xbox360",
       "devkit",
-      "hardware"
+      "hardware",
+      "xbox"
     ],
     "pages/games/BatmanForeverArcade.md": [
       "sega",
@@ -1012,10 +1198,13 @@
       "projects"
     ],
     "pages/general/2020.md": [
-      "news"
+      "news",
+      "introduction",
+      "devkits"
     ],
     "pages/general/Reversing Game Jam Proposal.md": [
-      "proposal"
+      "proposal",
+      "introduction"
     ],
     "pages/general/maths/Matrix.md": [
       "maths"
@@ -1108,7 +1297,8 @@
       "leak",
       "nintendo",
       "3ds",
-      "gba"
+      "gba",
+      "ds"
     ],
     "pages/leaks/NintendoLotCheck.md": [
       "leak",
@@ -1117,7 +1307,8 @@
     "pages/leaks/Platinum.md": [
       "ds",
       "leak",
-      "sourcecode"
+      "sourcecode",
+      "leaks"
     ],
     "pages/leaks/SimpsonsHitAndRun.md": [
       "ps2",
@@ -1150,7 +1341,8 @@
     ],
     "pages/tools/GameProgrammingStarterKit.md": [
       "tools",
-      "books"
+      "books",
+      "industry"
     ],
     "pages/tools/Ghidra/GhidraDecompilingIntroduction.md": [
       "introduction",
@@ -1161,7 +1353,8 @@
       "tutorial",
       "n64",
       "ghidra",
-      "decompiling"
+      "decompiling",
+      "tutorials"
     ],
     "pages/tools/Unity3d.md": [
       "gameengines",
@@ -1187,7 +1380,8 @@
     ],
     "pages/tutorials/GDBReversing.md": [
       "introduction",
-      "gdb"
+      "gdb",
+      "tutorial"
     ],
     "pages/tutorials/PDBFilesForReverseEngineering.md": [
       "introduction",
@@ -1197,7 +1391,8 @@
       "pc"
     ],
     "pages/tutorials/WritingAGDBStubInC.md": [
-      "gdb"
+      "gdb",
+      "tutorial"
     ],
     "pages/tutorials/libRetro.md": [
       "introduction",

@@ -17,6 +17,7 @@ redirect_from:
 tags:
   - gameengines
   - introduction
+editlink: ../categories/games/GameEngines.md
 ---
 # Introduction to Game Engines & Middleware
 Game Engines are the foundation in which games are built, they contain all the logic to be able to show graphics, play audio, compute input, etc. without having any of the game specific assets such as sprites or music files.

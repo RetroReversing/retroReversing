@@ -47,6 +47,55 @@ class TagValidator {
     }
 
     /**
+     * Extract tags with their source field information
+     */
+    extractTagsWithSource(metadata) {
+        const tagsWithSource = [];
+        
+        // Extract tags from 'tags' field
+        if (metadata.tags) {
+            let tags = [];
+            
+            if (Array.isArray(metadata.tags)) {
+                tags = metadata.tags;
+            } else if (typeof metadata.tags === 'string') {
+                tags = metadata.tags.split(',').map(tag => tag.trim());
+            }
+            
+            tags.forEach(tag => {
+                if (tag && tag.length > 0) {
+                    tagsWithSource.push({
+                        tag: tag.toLowerCase().trim(),
+                        source: 'tags'
+                    });
+                }
+            });
+        }
+        
+        // Extract tags from 'recommend' field
+        if (metadata.recommend) {
+            let recommendTags = [];
+            
+            if (Array.isArray(metadata.recommend)) {
+                recommendTags = metadata.recommend;
+            } else if (typeof metadata.recommend === 'string') {
+                recommendTags = metadata.recommend.split(',').map(tag => tag.trim());
+            }
+            
+            recommendTags.forEach(tag => {
+                if (tag && tag.length > 0) {
+                    tagsWithSource.push({
+                        tag: tag.toLowerCase().trim(),
+                        source: 'recommend'
+                    });
+                }
+            });
+        }
+        
+        return tagsWithSource;
+    }
+
+    /**
      * Validate tags in a single markdown file
      */
     validateFile(filePath) {
@@ -56,14 +105,15 @@ class TagValidator {
             return; // Error already logged by readMarkdownFile
         }
 
-        const tags = extractTags(metadata);
+        const tagsWithSource = this.extractTagsWithSource(metadata);
+        const allTags = extractTags(metadata); // For backward compatibility
         
-        if (tags.length > 0) {
+        if (tagsWithSource.length > 0) {
             // Check each tag against valid tags
             const invalidTagsInFile = [];
-            tags.forEach(tag => {
+            tagsWithSource.forEach(({ tag, source }) => {
                 if (!this.validTags.has(tag)) {
-                    invalidTagsInFile.push(tag);
+                    invalidTagsInFile.push({ tag, source });
                 }
             });
 
@@ -72,7 +122,8 @@ class TagValidator {
                 this.invalidTags.push({
                     file: filePath,
                     invalidTags: invalidTagsInFile,
-                    allTags: tags
+                    allTags: allTags,
+                    tagsWithSource: tagsWithSource
                 });
                 this.filesWithErrors++;
             }
@@ -100,7 +151,7 @@ class TagValidator {
         // Group invalid tags by tag name for summary
         const invalidTagCounts = new Map();
         this.invalidTags.forEach(({ invalidTags }) => {
-            invalidTags.forEach(tag => {
+            invalidTags.forEach(({ tag }) => {
                 invalidTagCounts.set(tag, (invalidTagCounts.get(tag) || 0) + 1);
             });
         });
@@ -118,8 +169,20 @@ class TagValidator {
         console.log('\n--- DETAILED VALIDATION ERRORS ---');
         this.invalidTags.forEach(({ file, invalidTags, allTags }) => {
             console.log(`\n📄 ${file}`);
-            console.log(`   Invalid tags: ${invalidTags.map(tag => `"${tag}"`).join(', ')}`);
-            console.log(`   All tags: ${allTags.map(tag => `"${tag}"`).join(', ')}`);
+            
+            // Group invalid tags by source field
+            const tagsBySource = {};
+            invalidTags.forEach(({ tag, source }) => {
+                if (!tagsBySource[source]) tagsBySource[source] = [];
+                tagsBySource[source].push(`"${tag}"`);
+            });
+            
+            // Display invalid tags by source field
+            Object.entries(tagsBySource).forEach(([source, tags]) => {
+                console.log(`   Invalid in ${source} field: ${tags.join(', ')}`);
+            });
+            
+            console.log(`   All tags found: ${allTags.map(tag => `"${tag}"`).join(', ')}`);
         });
 
         // Suggestions
