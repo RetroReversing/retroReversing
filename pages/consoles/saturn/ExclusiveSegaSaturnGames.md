@@ -97,7 +97,7 @@ Games:
 * World Series Baseball
 * World Series Baseball II
 
-
+---
 # Games that were re-released
 * Athlete Kings (PS2)
 * D&D Collection (PS3)
@@ -116,6 +116,7 @@ Games:
 * Virtua Cop 2 (Dreamcast, PS2)
 * Virtua Fighter 2 (PS2 3D Ages)
 
+---
 # Games that were also on PC
 These games are exclusive to the Saturn in terms of games consoles but were also released on PC:
 * Amok
@@ -144,9 +145,11 @@ These games are exclusive to the Saturn in terms of games consoles but were also
 * Virtua Cop 2
 * Virtua Fighter 2
 
+---
 # Japanese Exclusives
-This post only covers the english exclusive Sega Saturn games, the Saturn was much more popular in Japan so you can view a list of Japan Sega Saturn Exclusives here: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
+This post only covers the English exclusive Sega Saturn games, the Saturn was much more popular in Japan so you can view a list of Japan Sega Saturn Exclusives here: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
 
+---
 # References
 [^1]: [List of Sega Saturn Exclusives The Sega Saturn Forum - セガサターン - SegaSaturn.co.uk](http://segasaturngroup.proboards.com/thread/6820/list-sega-saturn-exclusives)
 [^2]: [(432) Sega Saturn 32-bit Era Console Exclusives - Part 1 - YouTube](https://www.youtube.com/watch?v=Z-A-hUbGHeQ)

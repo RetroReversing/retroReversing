@@ -26,6 +26,7 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your Gamecube controller, and get ready to dive into the exciting world of Gamecube reverse engineering!
 
+---
 # Hardware
 The Nintendo Gamecube has fairly sophisticated hardware for the time, this was when Nintendo was still trying to compete with raw processing power. The hardware would then be used as a basis of both the Wii and Wii U consoles in the future.
 
@@ -51,6 +52,12 @@ If you are interested in reverse engineering a Gamecube game, the first step is 
 
 {% include link-to-other-post.html post="/gamecube-debug-symbols" description="Check out this post for a list of Gamecube games with debug symbols." %}
 
+## Gamecube Exclusives
+The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
+
+Wikipedia maintains a list of Gamecube exclusives - [GameCube-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:GameCube-only_games)
+
+
 ## Prototype Games
 Prototype games are ideal targets for reverse engineering as many of them contain developer information inside them and some games never got a retail release, making them even more interesting!
 
@@ -68,7 +75,7 @@ The Gamecube game **Fight Night Round 2** has a playable version of the SNES gam
 
 The cool thing about this is that the emulator was written by **Icer Addis** who was the co-creator of one of the first ever NES emulators known as **NESticle**. An easter egg of sorts can be found when looking at the strings inside the executable, they called the SNES emulator for gamecube **SNESticle**!
 
-Not only that but a project was launched to try to get other SNES ROMS to work with the emulator known as the **The SNESticle Liberation Project** which consisted of a Multi-ROM menu SNES Rom and a Python script to inject ROMS and put everything together (**fn22snesticle.py).
+Not only that but a project was launched to try to get other SNES ROMS to work with the emulator known as the **The SNESticle Liberation Project** which consisted of a Multi-ROM menu SNES Rom and a Python script to inject ROMS and put everything together (**fn22snesticle.py**).
 
 The devlog is a very good read and is available here: [Devlog - The SNESticle Liberation Project](https://dataswamp.org/~josk/snesticle/devlog/)
 
