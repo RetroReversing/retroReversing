@@ -26,7 +26,7 @@ So grab your Wii remote, and get ready to dive into the exciting world of Wii re
 
 ---
 # Hardware
-The Hardware of the Wii is what really made it stand out from the crowd with its unique motion controllers that allowed players to take actions with their hands such as swinging the wii Remote like a tennis racket or golf club. The processor and graphics were just more powerful versions of the Gamecube's chips, as Nintendo was not trying to compete graphically with the Playstation 3 or Xbox 360.
+The Hardware of the Wii is what really made it stand out from the crowd with its unique motion controllers that allowed players to take actions with their hands such as swinging the Wii Remote like a tennis racket or golf club. The processor and graphics were just more powerful versions of the Gamecube's chips, as Nintendo was not trying to compete graphically with the Playstation 3 or Xbox 360.
 
 ## Retail Hardware
 We highly suggest you take a look at this article by **Rodrigo Copetti** which introduces how the Wii hardware works and explains everything from the **Broadway** CPU to the **Hollywood** Graphics processor: 
@@ -43,6 +43,12 @@ What would the Nintendo Wii be without its excellent line-up of games? It was th
 An excellent way to start reverse engineering is to find games where the developers accidentally left the **Debug symbols** in the retail release of the game. While this is not very common it has happened for a few games released for the Wii. This gives you access to all the original function and variables names that were used in the original source code!
 
 {% include link-to-other-post.html post="/wii-debug-symbols/" description="For a list of Wii games that have debug symbols available check out this post." %}
+
+## Wii Exclusives
+The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
+
+Wikipedia maintains a list of Wii exclusives - [Wii-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Wii-only_games)
+
 
 
 ---

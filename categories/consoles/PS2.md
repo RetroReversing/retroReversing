@@ -25,6 +25,7 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your DualShock controller, and get ready to dive into the exciting world of PS2 reverse engineering!
 
+---
 # Hardware
 Similar to the original Playstation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
 
@@ -57,7 +58,7 @@ Review from PSi2 magazine issue 18:
 
 ---
 # Games
-What would the Sony Playstation 2 be without its excellent line-up of games? It was huge line up of third party the games that attracted many people away from the Nintendo Gamecube and Microsoft Xbox.
+What would the Sony Playstation 2 be without its excellent line-up of games? It was huge line up of third party games that attracted many people away from the Nintendo Gamecube and Microsoft Xbox.
 
 ## Playstation 2 Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the Debug symbols in the retail release of the game. This was surprisingly common in early PS2 games as the SDK didn't remove them when building the final executables. 
@@ -67,6 +68,11 @@ These gives you access to all the original function and variables names that wer
 
 ## Playstation 2 Demos with Debug Symbols
 {% include link-to-other-post.html post="/ps2-demos/" description="For a full list of PS2 games that have debug symbols check out this post." %}
+
+## Playstation 2 Exclusives
+The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
+
+Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStation 2-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_2-only_games)
 
 ---
 # Software Development Kits
@@ -82,7 +88,7 @@ The Playstation 2 Software Development kit included various statically compiled 
 {% include link-to-other-post.html post="/static-libraries-ps2" description="For a list of all the static libraries inside the PS2 SDK check out this post." %}
 
 ### Emotion Engine Relocatable Executable (.ERX) Files
-This was a newer format introduced by Sony which can be used to provide patches for online PS2 games according to e GDC advert from Metrowerks Codewarrior [^4].
+This was a newer format introduced by Sony which can be used to provide patches for online PS2 games according to a GDC advert from Metrowerks Codewarrior [^4].
 
 ### IOP Relocatable Executable Executable (.IRX) Files
 {% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
