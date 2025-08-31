@@ -322,7 +322,7 @@ async function fetchYouTubeMetadata(videoId) {
 /**
  * Enrich YouTube data with metadata for videos missing title/author
  */
-async function enrichYouTubeMetadata(youtubeData, maxFetch = 500) {
+async function enrichYouTubeMetadata(youtubeData, maxFetch = 25) {
     const videosToEnrich = [];
     
     // Find videos that need metadata
@@ -549,65 +549,74 @@ async function exportToJson(results, summary, outputPath, existingData = null) {
 }
 
 /**
- * Export results to CSV
+ * Export enriched JSON data to CSV
  */
-function exportToCsv(results, outputPath) {
+function exportToCsv(jsonData, outputPath) {
     const csvRows = [];
     
     // CSV Header
-    csvRows.push('File,Link Type,URL,Alt Text,Context,Error');
+    csvRows.push('File,Link Type,URL,Alt Text,Fetched At,Error');
     
-    results.forEach(result => {
-        if (result.error) {
-            csvRows.push(`"${result.file}","ERROR","","","","${result.error}"`);
-            return;
-        }
-        
-        // YouTube links
-        result.youtube_links.forEach(link => {
+    // Export errors first
+    if (jsonData.errors && jsonData.errors.length > 0) {
+        jsonData.errors.forEach(error => {
+            csvRows.push(`"${error.file}","ERROR","","","","${error.error}"`);
+        });
+    }
+    
+    // Export YouTube links
+    Object.keys(jsonData.youtube || {}).forEach(videoId => {
+        const video = jsonData.youtube[videoId];
+        video.files.forEach(file => {
             csvRows.push([
-                `"${result.file}"`,
-                `"youtube_${link.type}"`,
-                `"${link.url}"`,
+                `"${file}"`,
+                `"youtube_${video.type}"`,
+                `"${video.url}"`,
                 '""', // No alt text for YouTube
-                `"${link.context}"`,
+                `"${video.fetched_at || ''}"`,
                 '""'
             ].join(','));
         });
-        
-        // Twitter links
-        result.twitter_links.forEach(link => {
+    });
+    
+    // Export Twitter links
+    Object.keys(jsonData.twitter || {}).forEach(tweetId => {
+        const tweet = jsonData.twitter[tweetId];
+        tweet.files.forEach(file => {
             csvRows.push([
-                `"${result.file}"`,
-                `"twitter_${link.type}"`,
-                `"${link.url}"`,
+                `"${file}"`,
+                `"twitter_${tweet.type}"`,
+                `"${tweet.url}"`,
                 '""', // No alt text for Twitter
-                `"${link.context}"`,
+                `"${tweet.fetched_at || ''}"`,
                 '""'
             ].join(','));
         });
-        
-        // Image links
-        result.image_links.forEach(link => {
+    });
+    
+    // Export Image links
+    Object.keys(jsonData.images || {}).forEach(imageId => {
+        const image = jsonData.images[imageId];
+        image.files.forEach(file => {
             csvRows.push([
-                `"${result.file}"`,
-                `"image_${link.type}"`,
-                `"${link.url}"`,
-                `"${link.alt_text || ''}"`,
-                `"${link.context}"`,
+                `"${file}"`,
+                `"image_${image.type || 'markdown_image'}"`,
+                `"${image.url}"`,
+                `"${image.alt_text || ''}"`,
+                `"${image.fetched_at || ''}"`, // Images don't currently have fetched_at, but structure is ready
                 '""'
             ].join(','));
         });
     });
     
     fs.writeFileSync(outputPath, csvRows.join('\n'));
-    console.log(`CSV results exported to: ${outputPath}`);
+    console.log(`📊 CSV results exported to: ${outputPath}`);
 }
 
 /**
  * Main function
  */
-function main() {
+async function main() {
     const args = process.argv.slice(2);
     const options = {
         format: 'json', // default format
@@ -688,17 +697,96 @@ Note: JSON format uses persistent external-links.json to preserve manual metadat
     console.log(`  External images found: ${summary.total_image_links}`);
     console.log(`  Unique domains found: ${summary.unique_domains.length}`);
     
-    // Export results with persistent file support
+    // Always create enriched JSON data for potential CSV export
+    const jsonPath = options.output && options.format === 'json' ? options.output : 'external-links.json';
+    const existingData = loadExistingData(jsonPath);
+    
+    // Export JSON format
     if (options.format === 'json' || options.format === 'both') {
-        const jsonPath = options.output || 'external-links.json';
-        const existingData = loadExistingData(jsonPath);
-        exportToJson(results, summary, jsonPath, existingData);
+        await exportToJson(results, summary, jsonPath, existingData);
+    } else {
+        // Create enriched data in memory for CSV export (don't save to file)
+        const tempData = {
+            generated_at: new Date().toISOString(),
+            summary: summary,
+            youtube: {},
+            twitter: {},
+            images: {},
+            errors: []
+        };
+        
+        results.forEach(result => {
+            if (result.error) {
+                tempData.errors.push({
+                    file: result.file,
+                    error: result.error
+                });
+                return;
+            }
+            
+            // Process YouTube links
+            result.youtube_links.forEach(link => {
+                const id = extractYouTubeId(link.url);
+                if (!tempData.youtube[id]) {
+                    tempData.youtube[id] = {
+                        url: link.url,
+                        type: link.type,
+                        files: []
+                    };
+                }
+                if (!tempData.youtube[id].files.includes(result.file)) {
+                    tempData.youtube[id].files.push(result.file);
+                }
+            });
+            
+            // Process Twitter links
+            result.twitter_links.forEach(link => {
+                const id = extractTwitterId(link.url);
+                if (!tempData.twitter[id]) {
+                    tempData.twitter[id] = {
+                        url: link.url,
+                        type: link.type,
+                        files: []
+                    };
+                }
+                if (!tempData.twitter[id].files.includes(result.file)) {
+                    tempData.twitter[id].files.push(result.file);
+                }
+            });
+            
+            // Process image links
+            result.image_links.forEach(link => {
+                const id = createImageId(link.url);
+                if (!tempData.images[id]) {
+                    tempData.images[id] = {
+                        url: link.url,
+                        alt_text: link.alt_text,
+                        files: []
+                    };
+                }
+                if (!tempData.images[id].files.includes(result.file)) {
+                    tempData.images[id].files.push(result.file);
+                }
+            });
+        });
+        
+        // Merge with existing data
+        const enrichedData = existingData ? mergeWithExistingData(tempData, existingData) : tempData;
+        
+        // Use the enriched data for CSV export
+        if (options.format === 'csv') {
+            const timestamp = new Date().toISOString().slice(0, 19).replace(/[T:]/g, '-');
+            const csvPath = options.output || `external-links-${timestamp}.csv`;
+            exportToCsv(enrichedData, csvPath);
+        }
     }
     
-    if (options.format === 'csv' || options.format === 'both') {
+    if (options.format === 'both') {
+        // Read the JSON file that was just created for CSV export
+        const enrichedJsonData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
         const timestamp = new Date().toISOString().slice(0, 19).replace(/[T:]/g, '-');
         const csvPath = options.output || `external-links-${timestamp}.csv`;
-        exportToCsv(results, csvPath);
+        exportToCsv(enrichedJsonData, csvPath);
     }
     
     console.log('\n🎉 Extraction completed successfully!');
