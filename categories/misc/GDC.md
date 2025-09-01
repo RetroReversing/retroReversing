@@ -1115,7 +1115,7 @@ There was even a session by **Apple** on using Quicktime for Windows Game Develo
 The 1998 Computer Game Developers Conference was hosted in Long Beach Convention Center on Long Beach, California. This would be the last one under the CGDC name as it was now rebranded to just GDC [^3].
 
 Playstation Underground had a brief 3 minute look at CGDC 1998, it interviews Jennifer Pahlka who was a female director of the GDC, you can watch on Youtube:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jQwv7Cdvwas?si=ypsyyNPJsyLIayyH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9K6SzgIfiq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The talks we know that were held at CGDC 1998 are in the table below:
 
@@ -1487,7 +1487,7 @@ Note that although we don't have much details on the contents of each of the tal
 **Electric Playground** is a Canadian television show and digital media platform focused on video games, technology, and the gaming industry. 
 
 They had a whole episode where they visted the 2001 Game Developer's Conference which you can watch on youtube below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/uFawiEumVLM?si=EzOeek5JpprN6Uhd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FKDuesSYuQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The sessions that we know about are listed in the table below:
 
