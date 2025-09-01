@@ -82,6 +82,7 @@ Maya's rapid update cadence in this era reflected Alias|Wavefront's push to sati
 
 ---
 ## Maya 2.0 (1999)
+<img width="420" height="360" alt="image" src="https://github.com/user-attachments/assets/eac66b80-3dfa-47b7-8a26-d135e12558e6" />
 
 Maya 2.0, released in mid-1999, was a significant leap forward that addressed many of 1.x's limitations and firmly established Maya as a top-tier 3D package. This version was released simultaneously on IRIX and Windows NT, signalling equal commitment to both platforms (critical for game studios transitioning to Windows-based pipelines). 
 
@@ -98,6 +99,7 @@ Reviewers noted that Maya 2.0 “puts more power in the hands of the artist” a
 
 ---
 ## Maya 2.5 (1999)
+<img width="525" height="323" alt="image" src="https://github.com/user-attachments/assets/542ba0cf-ba5d-43fe-930b-925c70035381" />
 
 Released in November 1999, Maya 2.5 was a mid-cycle upgrade building on 2.0's foundation. It delivered further refinements and optimizations just in time for the year 2000. 
 
@@ -109,6 +111,7 @@ In games, Maya 2.5 and 2.x in general were being tested in R&D teams, its strong
 
 ---
 ## Maya 3.0 (2000)
+<img width="600" height="420" alt="image" src="https://github.com/user-attachments/assets/e2b6f2d5-c6dd-4426-8aba-1a760dbfbfec" />
 
 Maya 3.0 arrived in early 2000 (with a 3.0.1 update in January 2001) and marked another step in Maya's evolution.
 
@@ -128,6 +131,7 @@ With stability improvements and cross-platform support, Maya 3.x was increasingl
 
 ---
 ## Maya 3.5 (2001)
+<img width="600" height="420" alt="image" src="https://github.com/user-attachments/assets/c82c0a0a-12bd-453a-ba8d-40aa5d35d32c" />
 
 Maya 3.5 was a special release in late 2001 that for the first time brought Maya to Apple's Mac OS X platform. 
 
