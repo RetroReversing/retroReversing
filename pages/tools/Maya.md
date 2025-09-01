@@ -52,10 +52,11 @@ Other titles like Wing Commander III/IV, Oddworld: Abe's Oddysee, and Quake also
 
 ---
 ## Maya 1.0 (1998)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C1VZXyAkLVU?si=VgeqcjX28llhC0Ai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/8264e21b-977d-40c6-933c-ec9eb0a3270d" />
 
 Maya 1.0 was released in February 1998, developed by **Alias|Wavefront** (a merger of Alias Research and Wavefront Technologies under SGI). Maya's codebase merged the best of PowerAnimator and Wavefront's tools into a new unified application.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C1VZXyAkLVU?si=VgeqcjX28llhC0Ai" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Disney collaborated during Maya's development, with the Disney's Dinosaur (2000) team influencing Maya's UI customization features. 
 
