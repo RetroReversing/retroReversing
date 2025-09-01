@@ -38,6 +38,8 @@ For more information on the early history of Alias check out: [8.3 Alias Researc
 
 ## Alias PowerAnimator (1988–1990s)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pCVUOxvQWaU?si=zLBaHV9LphqCzTtr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Before Maya, Alias PowerAnimator (also just "Alias") was Alias Research's flagship 3D software from 1988 through the 1990s. PowerAnimator was a fully integrated 3D modeling and animation suite and became a de facto industry standard in its time, widely used in high-end film VFX and game development. 
 
 Notably, it was used to create groundbreaking effects like the water pseudopod in **The Abyss** (1989) and the liquid-metal T-1000 in **Terminator 2** [^3].
