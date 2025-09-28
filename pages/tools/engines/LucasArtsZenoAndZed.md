@@ -68,24 +68,29 @@ ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving
 
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
 
+---
 ## Integration with multiple programs
 Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface [^1].
 
 Zeno was designed with live links to **Maya** and **Photoshop** – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble **Maya’s Outliner** to ease adoption [^1]. 
 
+![Maya 7.0 Outliner inspired the Zeno UI](https://github.com/user-attachments/assets/f564e4d6-c05a-4c28-b59a-fd3aff88da55)
+
+
 Zeno was used in ILM along with to their usual **compositing tools** [^1]: 
-* Apple’s Shake
-* ILM’s Saber (based on Autodesk Media and Entertainment’s Inferno)
-* ILM’s CompTime
+* **Apple’s Shake**
+* **ILM’s Saber** (based on Autodesk Media and Entertainment’s Inferno)
+* **ILM’s CompTime**
 
 Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
 
-Python scripting was supported so TDs could write custom operators [^1].
+Python scripting was also supported so developers could write custom operators for Zeno [^1].
 
 ### Integration with Maya
 **Curt Miyashiro**, digital production supervisor has the following to say about the benefits of Zeno's integration with Maya [^1]:
 > Modelers built the tripods and the aliens in Maya using subdivision surfaces. The animators worked in Maya and then transferred the animation to Zeno. Before, the animation was cached; now TDs can tweak the animation in Zeno. Before if we had wanted to change the headlights on the tripod, we would have had to go back to the animators or go into Maya. With this film we could change the direction of the headlights in Zeno while we were working on lighting the shot.
 
+---
 ## MARS - Camera Tracking System
 One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
 
