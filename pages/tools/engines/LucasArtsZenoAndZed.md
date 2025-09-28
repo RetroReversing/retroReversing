@@ -27,7 +27,11 @@ This changed in **2003**, when a LucasArts engineer **Nick Porcino** attended an
 Zeno was a modular, ILM-wide hub for 3D content creation and digital asset management that has been in use at ILM since at least 1997 but has never been used in the games industry before.
 
 ## Bringing the Games and Film industries together
+![LDAC - Presidio Campus](https://github.com/user-attachments/assets/c5109988-c0f0-4daf-a1e0-530200ab0100)
+
 By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
+
+One way to do this was physically bringing the two companies closer together, by moving the ILM and LucasArts offices to inside the Letterman Digital Arts Center (LDAC) in Presidio. This move was a driving force behind the Zeno pipeline, as it was much easier to collaborate between the two companies.
 
 LucasArts president **Jim Ward** stated the following in **Computer Graphics World Magazine** [^11]:
 >In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself," says LucasArts president Jim Ward. "And it’s key to rebooting our game studio."
@@ -36,9 +40,11 @@ It then goes on to mention the Indiana Jones game that would later be cancelled:
 >To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its Zeno Game Editor, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
 
 ## Zed - The Zeno Game Editor (2004)
+![GDC 2006 - LucasArts and ILM: A Case Study in the Convergence of Game and Films](https://github.com/user-attachments/assets/bed57a7a-8efa-4a67-bd95-e9d911ecae4c)
+
 After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^5].
 
-The result was a new project codenamed **Ronin** [^4] which would become **Zed** (Zeno Editor) in 2004, it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects. 
+The result was a new project in 2004 known as **Zed** (Zeno Editor), it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
 
 These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
@@ -49,10 +55,18 @@ In 2005, ILM CTO **Cliff Plumer** explained:
 
 It was designed by **Tim Ramsay**, **Eric Johnston**, **Nick Porcino**, and **Nick Pavis** as a modular engine so **both LucasArts and ILM developers could work on it simultaneously**[^4]. 
 
-### Middleware in Zed/Ronin
-Middleware like Havok, DMM, and Euphoria were integrated into Ronin [^4].
+## The Ronin Engine - Star Wars: The Force Unleashed
+While Zed was the game editor software used for building the game, to actually execute the scenes created in Zed on the PS3 or Xbox 360 would require a game engine.
 
-As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as does ILM’s custom software”* [^2].
+Thanks to **The Art and Making of Star Wars The Force Unleashed** from 2008 we learn that the game engine is called **Ronin** and although it was only used for the 1 game it was intended to be used as the basis for multiple including a cancelled Indiana Jones title [^13].
+
+In this article we will use **Zed** to refer to the game development tooling based on Zeno and **Ronin** to refer to the game engine which ran on PS3 and Xbox 360 and was used for **Star Wars: The Force Unleashed**.
+
+### Middleware in Ronin
+The Ronin game engine had the following middleware integrated [^4]:
+* Havok [^4]
+* DMM [^4]
+* Euphoria  [^4]
 
 ---
 # The Zeno Toolset
@@ -80,15 +94,15 @@ ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simula
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
 
 Modules included:
-  * Camera Tracking - MARS
-  * Camera projection - Zenviro
-  * Facial animation - Caricature (Cari)
-  * Lighting - Lux
-  * Sculpting
-  * Particles
-  * Rotoscoping
-  * Match-moving
-  * Painting
+  * **Camera Tracking** - MARS
+  * **Camera projection** - Zenviro
+  * **Facial animation** - Caricature (Cari)
+  * **Lighting** - Lux
+  * **Sculpting**
+  * **Particles**
+  * **Rotoscoping**
+  * **Match-moving**
+  * **Painting**
 
 ---
 ## Integration with multiple programs
@@ -209,3 +223,4 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^10]: [GDC Vault - LucasArts and ILM: a Case Study of the Convergence of Games and Film](https://gdcvault.com/play/1013242/LucasArts-and-ILM-a-Case)
 [^11]: [Game Films - Computer Graphics World](https://www.cgw.com/Publications/CGW/2007/Volume-30-Issue-2-Feb-2007-/Game-Films.aspx)
 [^12]: [War of the Worlds - Retro Articles - DIGITAL PRODUCTION](https://digitalproduction.com/2023/02/08/krieg-der-welten-retro-artikel/)
+[^13]: The Art and Making of Star Wars The Force Unleashed (2008)
