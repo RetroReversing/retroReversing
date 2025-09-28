@@ -115,18 +115,22 @@ Zeno was designed with live links to **Maya** and **Photoshop** – an artist co
 
 ![Maya 7.0 Outliner inspired the Zeno UI](https://github.com/user-attachments/assets/f564e4d6-c05a-4c28-b59a-fd3aff88da55)
 
+Zeno was made to be modular, with modules easily written in Python for tasks such as converting between 3D file formats [^1].
 
 Zeno was used in ILM along with to their usual **compositing tools** [^1]: 
 * **Apple’s Shake**
 * **ILM’s Saber** (based on Autodesk Media and Entertainment’s Inferno)
 * **ILM’s CompTime**
 
-<img width="640" height="512" alt="ILM's CompTime" src="https://github.com/user-attachments/assets/f3b8f902-9e7b-4a71-bfcd-533725540cba" />
-
 
 Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
 
-Python scripting was also supported so developers could write custom operators for Zeno [^1].
+### Integration with CompTime
+Zeno has first class support for woroking the the proprietary compositor developed in-house at ILM known as **CompTime**.
+
+<img width="640" height="512" alt="ILM's CompTime" src="https://github.com/user-attachments/assets/f3b8f902-9e7b-4a71-bfcd-533725540cba" />
+
+In the July 2002 issue of Linux Journel Technical Directory **Robert Weaver** notes that ILM's compositing software, CompTime was ported over to Linux and the plugins for the compositor were all written in Python [^5]. 
 
 ### Integration with Maya
 **Curt Miyashiro**, digital production supervisor has the following to say about the benefits of Zeno's integration with Maya [^1]:
