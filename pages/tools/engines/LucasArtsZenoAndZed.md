@@ -88,7 +88,8 @@ In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cl
 
 ---
 ## Simulation engine
-ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1].
+ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. In 2008 he won an Academy Award for Technical Achievement for the fluid simulation system [^14].
+
 
 ## Module system
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
@@ -207,7 +208,7 @@ ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) a
 LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like *Star Wars 1313* were developed on Unreal Engine 3 [^9]. 
 *1313* was cancelled after Disney shut down LucasArts in 2013 [^9].
 
-**Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like *Vader Immortal* and powering ILM’s StageCraft for *The Mandalorian*[^9].
+**Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like *Vader Immortal* and powering ILM’s StageCraft for *The Mandalorian* [^9].
 
 ---
 # References
@@ -224,3 +225,4 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^11]: [Game Films - Computer Graphics World](https://www.cgw.com/Publications/CGW/2007/Volume-30-Issue-2-Feb-2007-/Game-Films.aspx)
 [^12]: [War of the Worlds - Retro Articles - DIGITAL PRODUCTION](https://digitalproduction.com/2023/02/08/krieg-der-welten-retro-artikel/)
 [^13]: The Art and Making of Star Wars The Force Unleashed (2008)
+[^14]: [Professor Ron Fedkiw shares Academy Award for software to digitize destruction - Stanford University School of Engineering](https://engineering.stanford.edu/news/professor-ron-fedkiw-shares-academy-award-software-digitize-destruction)
