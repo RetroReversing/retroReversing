@@ -35,51 +35,77 @@ LucasArts president Jim Ward stated the following in **Computer Graphics World M
 It then goes on to mention the Indiana Jones game that would later be cancelled:
 >To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its Zeno Game Editor, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
 
-## Zed - The Zeno Game Editor
-The result was **Zed** (Zeno Editor), also known as **Ronin** it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at Industrial Light & Magic, supporting rapid iteration and collaborative workflows in large-scale projects. 
+## Zed - The Zeno Game Editor (2004)
+After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^5].
+
+The result was a new proct codenamed **Ronin** [^4] which would become **Zed** (Zeno Editor) in 2004, it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects. 
+
 These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
 It played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
 
+In 2005, ILM CTO **Cliff Plumer** explained: 
+> We’ve been working on collaborative tools with LucasArts for 18 months…"Zed", which is LucasArts’ game engine, will have a live connection to Zeno [^1].
 
+It was designed by **Tim Ramsay**, **Eric Johnston**, **Nick Porcino**, and **Nick Pavis** as a modular engine so **both LucasArts and ILM developers could work on it simultaneously**[^4]. 
+
+### Middleware in Zed/Ronin
+Middleware like Havok, DMM, and Euphoria were integrated into Ronin [^4].
+
+As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as does ILM’s custom software”* [^2].
 
 ---
 # The Zeno Toolset
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 
-Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. 
+Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1].
+
+In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cliff Plumer** Chief Technology Officer discusses the motivation for the new Zeno toolset: 
+> "Our first goal was to manage large scenes, It was driven by the pod race in Star Wars: Episode I." Thus, at its core, Zeno manages scene data. "The old pipeline used the old Softimage scene file, Building our own gave us control."
 
 ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving them full control over scene data management and tool integration [^1]. 
 
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
 
+## Integration with multiple programs
 Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface [^1].
 
-It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the SciTech Awards [^1].
+Zeno was designed with live links to **Maya** and **Photoshop** – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble **Maya’s Outliner** to ease adoption [^1]. 
 
-The impetus came from challenges on *Star Wars: Episode I – The Phantom Menace* (1999) – for example, the large-scale pod race sequence pushed ILM’s old pipeline (built around legacy Softimage scene files) to its limits. 
+Zeno was used in ILM along with to their usual **compositing tools** [^1]: 
+* Apple’s Shake
+* ILM’s Saber (based on Autodesk Media and Entertainment’s Inferno)
+* ILM’s CompTime
 
-## Early Development 
+Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
+
+Python scripting was supported so TDs could write custom operators [^1].
+
+## MARS - Camera Tracking System
 One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
 
-This module was so effective it earned an Academy Scientific & Technical Award[^1]. Throughout the early 2000s, ILM gradually replaced dozens of older, disconnected tools with new Zeno-based modules[^1].
+This module was so effective it earned an **Academy Scientific & Technical Award**. Throughout the early 2000s, ILM gradually replaced dozens of older, disconnected tools with new Zeno-based modules [^1].
 
-ILM also collaborated with Stanford’s Ron Fedkiw to build a unified simulation engine in Zeno for hair, cloth, skin and fluids[^1]. 
-By 2004, Zeno had matured enough that ILM could **fully retire its old pipeline**[^1].
+## Zenviro - camera projection module
+The camera projection module in Zeno was called **Zenviro** and was used to great effect in the **War of the Worlds** (2005), as it allowed ILM compositors to project 2D photographic plates of buildings onto simple 3D geometry to animate destruction effects. They could add cracks, falling debris, and damage progression directly in Zeno [^2].
 
-Zeno was designed with live links to Maya and Photoshop – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble Maya’s Outliner to ease adoption[^1]. 
+In the july 2005 issue of CGW compositing supervisor **Marshall Krasser** discusses the destruction sequence creation for War of the Worlds:
+> The sequence was crafted with a mixture of effects-from particle simulations for the cracking pavement to practical elements-often with the help of Zenviro, the camera projection module in Zeno. You see a pickup truck that gets rotated around. We lifted it out of the plate, took it into the 3D realm, projected it onto 3D geometry in Zenviro, animated the geometry to rotate it, and composited it back into the plate. [^1]
 
+---
+
+## Hair, cloth, skin and fluid modules 
+ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. 
+
+---
+## The SceneGraph
 Under the hood, Zeno’s core was a **proprietary scene-graph “shot file” system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected[^1]. 
 
-Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. As Dennis Muren put it, *“Artists shouldn’t have to be bookkeepers”*[^1].
+Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. 
+As Dennis Muren put it, *"Artists shouldn’t have to be bookkeepers"*[^1].
 
-## Integration and Workflow
-Zeno natively interfaced with compositing packages like Apple Shake and Autodesk Inferno[^1]. Final renders from RenderMan or Mental Ray could round-trip back into Zeno’s compositing module for finishing[^1]. 
-Python scripting was supported so TDs could write custom operators[^1]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline**[^1]. 
-
-Many of Zeno’s architects (Florian Kainz, Jeff Yost, Phil Hubbard, and others) were later honored with an Academy Sci-Tech Award for the system’s development[^6].
-
-## Caricature (Cari) Facial Animation System
+---
+## Caricature (Cari) - Facial Animation System
 <img width="640" height="512" alt="Yoda in Cari" src="https://github.com/user-attachments/assets/e54ff7aa-27ed-42bf-8e45-33047be9d193" />
 
 For **Dragonheart** (1996), ILM created a specialized in-house tool called Caricature (nicknamed "Cari") to enable animators to work interactively on Draco’s face, with sliders and real-time feedback.
@@ -97,12 +123,7 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 **Cary Phillips** was awarded a 1998 Academy Technical Achievement Award for the development of Caricature.
 
 ---
-## Zeno in ILM’s Film Productions
-
-In *War of the Worlds* (2005), Zeno’s new **“Zenviro”** tool allowed ILM compositors to project 2D photographic plates of buildings onto simple 3D geometry to animate destruction effects[^2]. 
-
-They could add cracks, falling debris, and damage progression directly in Zeno[^2].
-
+## Lux - Zeno’s interactive lighting tool
 Zeno’s interactive lighting tool **“Lux”** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback[^2]. 
 
 TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface[^2].
@@ -110,23 +131,10 @@ TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights duri
 By 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that *benefited from Zeno* [^6].
 
 ---
-## Collaboration with LucasArts: Birth of Zed
+## The Success of Zeno
+> Seven years in the making, Zeno, ILM’s new tool set, has redefined the studio’s pipeline, opened the production process to all the artists on the crew, and positioned the studio to create future forms of entertainment [^1]
 
-In 2003, LucasArts engineer **Nick Porcino** attended an ILM R&D open house and realized Zeno’s potential for game development[^5]. 
-
-He and Steve Sullivan envisioned a **Virtual Studio** integrating LucasArts and ILM pipelines [^5].
-
-By 2004, LucasArts was developing the *Zeno Editor* or **“Zed”**[^5]. 
-In 2005, ILM CTO Cliff Plumer explained: *“We’ve been working on collaborative tools with LucasArts for 18 months…‘Zed’, which is LucasArts’ game engine, will have a live connection to Zeno”*[^1].
-
-LucasArts’ engine, codenamed **Ronin**, was also referred to internally as Zed[^4]. 
-
-It was designed by Tim Ramsay, Eric Johnston, Nick Porcino, and Nick Pavis as a modular engine so **both LucasArts and ILM developers could work on it simultaneously**[^4]. 
-
-### Middleware in Zed/Ronin
-Middleware like Havok, DMM, and Euphoria were integrated into Ronin [^4].
-
-As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as does ILM’s custom software”*[^2].
+It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the Academy SciTech Awards [^6].
 
 ---
 ## Zeno and Zed in Action: Projects and Impact
