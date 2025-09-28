@@ -46,11 +46,34 @@ This module was so effective it earned an Academy Scientific & Technical Award[^
 ILM also collaborated with Stanford’s Ron Fedkiw to build a unified simulation engine in Zeno for hair, cloth, skin and fluids[^1]. 
 By 2004, Zeno had matured enough that ILM could **fully retire its old pipeline**[^1].
 
-Zeno was designed with live links to Maya and Photoshop – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble Maya’s Outliner to ease adoption[^1]. Under the hood, Zeno’s core was a **proprietary scene-graph “shot file” system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected[^1]. Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. As Dennis Muren put it, *“Artists shouldn’t have to be bookkeepers”*[^1].
+Zeno was designed with live links to Maya and Photoshop – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble Maya’s Outliner to ease adoption[^1]. 
+
+Under the hood, Zeno’s core was a **proprietary scene-graph “shot file” system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected[^1]. 
+
+Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. As Dennis Muren put it, *“Artists shouldn’t have to be bookkeepers”*[^1].
 
 ### Integration and Workflow
-Zeno natively interfaced with compositing packages like Apple Shake and Autodesk Inferno[^1]. Final renders from RenderMan or Mental Ray could round-trip back into Zeno’s compositing module for finishing[^1]. Python scripting was supported so TDs could write custom operators[^1]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline**[^1]. 
+Zeno natively interfaced with compositing packages like Apple Shake and Autodesk Inferno[^1]. Final renders from RenderMan or Mental Ray could round-trip back into Zeno’s compositing module for finishing[^1]. 
+Python scripting was supported so TDs could write custom operators[^1]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline**[^1]. 
+
 Many of Zeno’s architects (Florian Kainz, Jeff Yost, Phil Hubbard, and others) were later honored with an Academy Sci-Tech Award for the system’s development[^6].
+
+### Caricature (Cari) Facial Animation System
+<img width="640" height="512" alt="Yoda in Cari" src="https://github.com/user-attachments/assets/e54ff7aa-27ed-42bf-8e45-33047be9d193" />
+
+For **Dragonheart** (1996), ILM created a specialized in-house tool called Caricature (nicknamed "Cari") to enable animators to work interactively on Draco’s face, with sliders and real-time feedback.
+
+Before Cari, facial animation at ILM was handled by hand-writing text commands in files to load shapes over time — effectively like stop-motion animation via scripts.
+
+Animators used body motion data from Softimage (the conventional pipeline) then opened that into Caricature just for the facial animation part. 
+Caricature allowed animators to hide the rest of the dragon model and focus solely on facial expressions, making high-iteration tweaking possible (e.g. combining phoneme shapes, sneers, eyebrow movement).
+
+Later, Caricature added model correctives, a system allowing artists to fix imperfections in geometry (like a "3D-Photoshop" for sculpted surfaces) inline. 
+
+#### Integration into Zeno
+Cari was later integrated into Zeno as stated on the official Lucasfilm website [ILM's Dragonheart Crew Looks Back - Lucasfilm.com](https://www.lucasfilm.com/news/digital-road-dragonheart/) "the techniques in Caricature were integrated into ILM’s current Zeno system in the 2000s."
+
+**Cary Phillips** was awarded a 1998 Academy Technical Achievement Award for the development of Caricature.
 
 ---
 ## Zeno in ILM’s Film Productions
@@ -117,4 +140,5 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^5]: [You’ve Seen the Movie, Now Play the Video Game: Recoding the Cinematic in Digital Media – M. L. McCracken, Bowling Green State University (2010)](https://rave.ohiolink.edu/etdc/view?acc_num=bgsu1277041634)
 [^6]: [ILM’s Scientific Solutions – fxguide (Feb 2014)](https://www.fxguide.com/fxfeatured/ilms-scientific-solutions/)
 [^7]: [Star Wars: The Force Unleashed – Wookieepedia (Behind the Scenes)](https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed#Behind_the_scenes)
+[^8]: [ILM's Dragonheart Crew Looks Back - Lucasfilm.com](https://www.lucasfilm.com/news/digital-road-dragonheart/)
 [^9]: [Star Wars 1313 – Wikipedia](https://en.wikipedia.org/wiki/Star_Wars_1313)
