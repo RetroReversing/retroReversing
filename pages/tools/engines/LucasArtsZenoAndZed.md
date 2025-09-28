@@ -29,8 +29,8 @@ Zeno was a modular, ILM-wide hub for 3D content creation and digital asset manag
 ## Bringing the Games and Film industries together
 By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
 
-LucasArts president Jim Ward stated the following in **Computer Graphics World Magazine** [^11]:
->In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s Presidio campus. "[The idea] came from George himself," says LucasArts president Jim Ward. "And it’s key to rebooting our game studio."
+LucasArts president **Jim Ward** stated the following in **Computer Graphics World Magazine** [^11]:
+>In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself," says LucasArts president Jim Ward. "And it’s key to rebooting our game studio."
 
 It then goes on to mention the Indiana Jones game that would later be cancelled:
 >To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its Zeno Game Editor, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
@@ -38,7 +38,7 @@ It then goes on to mention the Indiana Jones game that would later be cancelled:
 ## Zed - The Zeno Game Editor (2004)
 After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^5].
 
-The result was a new proct codenamed **Ronin** [^4] which would become **Zed** (Zeno Editor) in 2004, it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects. 
+The result was a new project codenamed **Ronin** [^4] which would become **Zed** (Zeno Editor) in 2004, it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects. 
 
 These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
@@ -63,22 +63,18 @@ As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as d
 The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** and was primarily designed to produce living creatures rather than entire movies [^12]. 
 
 ## Initial Development
-Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1]. 
-Then by 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that benefited from Zeno [^6].
+Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6].
+
+Early work on the new ILM pipeline had been in development since the pre-production of **Star Wars: Episode I** in 1998 and 1999, such as the camera tracking software for the pod race which later became part of Zeno called **MARS** and then the new the camera projection mapping software **Zenviro** [^12].
+
+However, the actual development of the new, standardised toolset took place in the previous two years, triggered by the planned move to new premises at the **Presidio campus** and then a further push for the **War of the Worlds** movie [^12].
 
 In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cliff Plumer** Chief Technology Officer discusses the motivation for the new Zeno toolset: 
-> "Our first goal was to manage large scenes, It was driven by the pod race in Star Wars: Episode I." Thus, at its core, Zeno manages scene data. "The old pipeline used the old Softimage scene file, Building our own gave us control."
+> Our first goal was to manage large scenes, It was driven by the pod race in Star Wars: Episode I. Thus, at its core, Zeno manages scene data. The old pipeline used the old Softimage scene file, Building our own gave us control.
 
-ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving them full control over scene data management and tool integration [^1]. 
-
+---
 ## Simulation engine
-ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. 
-
-There was a core simiulation engine in Zeno which handled:
-* hair
-* skin
-* cloth
-* fluids
+ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1].
 
 ## Module system
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
@@ -88,11 +84,11 @@ Modules included:
   * Camera projection - Zenviro
   * Facial animation - Caricature (Cari)
   * Lighting - Lux
-  * sculpting
-  * particles
-  * rotoscoping
-  * match-moving
-  * painting
+  * Sculpting
+  * Particles
+  * Rotoscoping
+  * Match-moving
+  * Painting
 
 ---
 ## Integration with multiple programs
@@ -166,6 +162,11 @@ Technical Directors in Zeno adjusted the direction and flicker of the Tripods’
 
 ---
 ## The Success of Zeno
+
+By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1]. 
+
+Then by 2006–2007, **Pirates of the Caribbean: Dead Man’s Chest** and **At World’s End** benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that benefited from Zeno [^6].
+
 > Seven years in the making, Zeno, ILM’s new tool set, has redefined the studio’s pipeline, opened the production process to all the artists on the crew, and positioned the studio to create future forms of entertainment [^1]
 
 It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the Academy SciTech Awards [^6].
@@ -173,9 +174,9 @@ It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Phili
 ---
 ## Zeno and Zed in Action: Projects and Impact
 
-ILM’s new pre-visualization tool, built on Zed, allowed directors to *“access the entire production pipeline”* in real time, with photogrammetry, live camera tracking, and interactive scene assembly [^2].
+ILM’s new pre-visualization tool, built on Zed, allowed directors to *access the entire production pipeline* in real time, with photogrammetry, live camera tracking, and interactive scene assembly [^2].
 
-On the game side, the **first title to fully use Zed** was *Star Wars: The Force Unleashed* (2008) [^3].
+On the game side, the **first title to fully use Zed** was **Star Wars: The Force Unleashed** (2008) [^3].
 
 * ILM animators created about 60 minutes of cinematics for the game, using their **CloneCam** performance capture system (developed for *Pirates of the Caribbean*) [^7].
 * Zed integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Zed’s real-time physics [^7].
