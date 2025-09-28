@@ -3,7 +3,7 @@ layout: post
 tags: 
 - middleware
 - gameengines
-title: Zeno and Zed - LucasArts & ILM’s Unified Production Pipeline
+title: Zeno and Zed - LucasArts & ILM's Unified Production Pipeline
 thumbnail: /public/consoles/Tools.jpg
 image: /public/consoles/Tools.jpg
 permalink: /lucasarts-zino-and-zed
@@ -12,7 +12,7 @@ breadcrumbs:
     url: /
   - name: Game Engines & Middleware
     url: /engines
-  - name: Zeno and Zed: LucasArts & ILM’s Unified Production Pipeline
+  - name: Zeno and Zed - LucasArts & ILM's Unified Production Pipeline
     url: #
 recommend:
 - middleware
