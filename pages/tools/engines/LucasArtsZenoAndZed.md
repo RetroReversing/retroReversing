@@ -32,15 +32,16 @@ These tools formed the backbone of the pipeline that linked LucasArts and ILM, e
 
 ---
 ## Origins of ILM’s Zeno Toolset
+<img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 
-Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s as an in-house content creation framework to unify their visual effects pipeline[^6]. 
+Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. The developers Florian Kainz, Jeffery Yost, Philip Hubbard and Jim Hourihan were honoured for the architecture and development of the Zeno application framework in the SciTech Awards [^1].
 
-The impetus came from challenges on *Star Wars: Episode I – The Phantom Menace* (1999) – for example, the large-scale pod race sequence pushed ILM’s old pipeline (built around legacy Softimage scene files) to its limits[^1]. 
+The impetus came from challenges on *Star Wars: Episode I – The Phantom Menace* (1999) – for example, the large-scale pod race sequence pushed ILM’s old pipeline (built around legacy Softimage scene files) to its limits. 
 
-ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving them full control over scene data management and tool integration[^1]. Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow[^1]. Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface[^1].
+ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving them full control over scene data management and tool integration[^1]. Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface[^1].
 
 ### Early Development 
-One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates[^1]. 
+One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
 This module was so effective it earned an Academy Scientific & Technical Award[^1]. Throughout the early 2000s, ILM gradually replaced dozens of older, disconnected tools with new Zeno-based modules[^1].
 ILM also collaborated with Stanford’s Ron Fedkiw to build a unified simulation engine in Zeno for hair, cloth, skin and fluids[^1]. 
 By 2004, Zeno had matured enough that ILM could **fully retire its old pipeline**[^1].
@@ -48,7 +49,8 @@ By 2004, Zeno had matured enough that ILM could **fully retire its old pipeline*
 Zeno was designed with live links to Maya and Photoshop – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble Maya’s Outliner to ease adoption[^1]. Under the hood, Zeno’s core was a **proprietary scene-graph “shot file” system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected[^1]. Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. As Dennis Muren put it, *“Artists shouldn’t have to be bookkeepers”*[^1].
 
 ### Integration and Workflow
-Zeno natively interfaced with compositing packages like Apple Shake and Autodesk Inferno[^1]. Final renders from RenderMan or Mental Ray could round-trip back into Zeno’s compositing module for finishing[^1]. Python scripting was supported so TDs could write custom operators[^1]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline**[^1]. Many of Zeno’s architects (Florian Kainz, Jeff Yost, Phil Hubbard, and others) were later honored with an Academy Sci-Tech Award for the system’s development[^6].
+Zeno natively interfaced with compositing packages like Apple Shake and Autodesk Inferno[^1]. Final renders from RenderMan or Mental Ray could round-trip back into Zeno’s compositing module for finishing[^1]. Python scripting was supported so TDs could write custom operators[^1]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline**[^1]. 
+Many of Zeno’s architects (Florian Kainz, Jeff Yost, Phil Hubbard, and others) were later honored with an Academy Sci-Tech Award for the system’s development[^6].
 
 ---
 ## Zeno in ILM’s Film Productions
@@ -61,7 +63,7 @@ Zeno’s interactive lighting tool **“Lux”** enabled artists to place and ad
 
 TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface[^2].
 
-By 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that *“benefited from Zeno”*[^6].
+By 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that *benefited from Zeno* [^6].
 
 ---
 ## Collaboration with LucasArts: Birth of Zed
