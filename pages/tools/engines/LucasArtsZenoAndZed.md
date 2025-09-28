@@ -42,7 +42,7 @@ It then goes on to mention the Indiana Jones game that would later be cancelled:
 ## Zed - The Zeno Game Editor (2004)
 ![GDC 2006 - LucasArts and ILM: A Case Study in the Convergence of Game and Films](https://github.com/user-attachments/assets/bed57a7a-8efa-4a67-bd95-e9d911ecae4c)
 
-After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^5].
+After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^10].
 
 The result was a new project in 2004 known as **Zed** (Zeno Editor), it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
 
@@ -65,7 +65,7 @@ In this article we will use **Zed** to refer to the game development tooling bas
 There was also a Wii and PS2 version developed but it is unclear how much of the Ronin game engine code they used, they are known to use their own in-house physics engine instead of Havok [^3].
 
 ### Middleware in Ronin
-The Ronin game engine had the following middleware integrated [^4]:
+Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Ronin's real-time physics [^7] along with the following middleware:
 * Havok [^4]
 * DMM - Pixelux Entertainment's Digital Molecular Matter [^4]
 * Euphoria  [^4]
@@ -180,6 +180,10 @@ Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust l
 
 Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
 
+## CloneCam - Performance Capture System
+ILM animators created about 60 minutes of cinematics for the game **Star Wars The Force Unleashed**, using their **CloneCam** performance capture system originally developed for **Pirates of the Caribbean** [^7].
+
+
 ---
 ## The Success of Zeno
 
@@ -195,25 +199,17 @@ As of 2011, the system is now in major version 3.0, having experienced a major r
 
 It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the 2013 Academy SciTech Awards [^6].
 
----
-## Zeno and Zed in Action: Projects and Impact
-
 ILM’s new pre-visualization tool, built on Zed, allowed directors to *access the entire production pipeline* in real time, with photogrammetry, live camera tracking, and interactive scene assembly [^2].
-
-* ILM animators created about 60 minutes of cinematics for the game, using their **CloneCam** performance capture system (developed for *Pirates of the Caribbean*) [^7].
-* Zed integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Zed’s real-time physics [^7].
-
-As Jim Ward (LucasArts president) put it, *“Zeno’s impact at LucasArts will be seen as games roll out on the next-generation consoles”*[^2]. 
 
 ---
 ## Later Developments and Legacy
 
 ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
 
-LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like *Star Wars 1313* were developed on Unreal Engine 3 [^9]. 
-*1313* was cancelled after Disney shut down LucasArts in 2013 [^9].
+LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like **Star Wars 1313** were developed on Unreal Engine 3 [^9]. 
+Although the **1313** project was cancelled after Disney shut down LucasArts in 2013.
 
-**Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like *Vader Immortal* and powering ILM’s StageCraft for *The Mandalorian* [^9].
+**Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like **Vader Immortal** and powering ILM’s StageCraft for **The Mandalorian** [^9].
 
 ---
 # References
@@ -221,7 +217,7 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^2]: [Lucasfilm CTO Cliff Plumer Talks Technology - VFXWorld](https://web.archive.org/web/20071016225310/http://vfxworld.com/?sa=adv&code=1e242f07&atype=articles&id=2608)
 [^3]: [Star Wars: The Force Unleashed – Wikipedia (Development section)](https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Unleashed#Development)
 [^4]: [The Art and Making of Star Wars: The Force Unleashed – Insight Editions (2008), cited via Wookieepedia](https://starwars.fandom.com/wiki/Ronin_%28engine%29)
-[^5]: [You’ve Seen the Movie, Now Play the Video Game: Recoding the Cinematic in Digital Media – M. L. McCracken, Bowling Green State University (2010)](https://rave.ohiolink.edu/etdc/view?acc_num=bgsu1277041634)
+[^5]: [Industrial Light and Magic](https://linuxjournal.rubdos.be/ljarchive/LJ/099/6011.html)
 [^6]: [ILM’s Scientific Solutions – fxguide (Feb 2014)](https://www.fxguide.com/fxfeatured/ilms-scientific-solutions/)
 [^7]: [Star Wars: The Force Unleashed – Wookieepedia (Behind the Scenes)](https://starwars.fandom.com/wiki/Star_Wars:_The_Force_Unleashed#Behind_the_scenes)
 [^8]: [ILM's Dragonheart Crew Looks Back - Lucasfilm.com](https://www.lucasfilm.com/news/digital-road-dragonheart/)
