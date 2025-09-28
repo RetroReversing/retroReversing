@@ -19,16 +19,29 @@ recommend:
 editlink: /tools/engines/LucasArtsZenoAndZed.md
 ---
 
-# The Zed Game Engine
+# Introduction to the Zeno software and the Zed Game Editor
 Back in 2004 George Lucas owned the film company **Industrial Light & Magic** (ILM) along with the games company **LucasArts**, both companies were pioneering in the field of 3D graphics but they didn't directly work with each other.
 
-This changed in 2003, when a LucasArts engineer **Nick Porcino** attended an ILM R&D open house and witnessed the power of ILM's in-house **Zeno** 3D pipline software and immedietly thought of the potential for game development [^5]. Zeno was a modular, ILM-wide hub for 3D content creation and digital asset management that has been in use since at least 1997.
+This changed in **2003**, when a LucasArts engineer **Nick Porcino** attended an ILM R&D open house and witnessed the power of ILM's in-house **Zeno** 3D pipline software and immedietly thought of the potential for game development [^5]. 
 
+Zeno was a modular, ILM-wide hub for 3D content creation and digital asset management that has been in use at ILM since at least 1997 but has never been used in the games industry before.
+
+## Bringing the Games and Film industries together
 By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
 
-The result was **Zed** (Zeno Editor), also known as **Ronin** it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at Industrial Light & Magic, supporting rapid iteration and collaborative workflows in large-scale projects. These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
+LucasArts president Jim Ward stated the following in **Computer Graphics World Magazine** [^11]:
+>In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s Presidio campus. "[The idea] came from George himself," says LucasArts president Jim Ward. "And it’s key to rebooting our game studio."
+
+It then goes on to mention the Indiana Jones game that would later be cancelled:
+>To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its Zeno Game Editor, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
+
+## Zed - The Zeno Game Editor
+The result was **Zed** (Zeno Editor), also known as **Ronin** it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at Industrial Light & Magic, supporting rapid iteration and collaborative workflows in large-scale projects. 
+These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
 It played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
+
+
 
 ---
 # The Zeno Toolset
@@ -40,7 +53,7 @@ ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving
 
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
 
-Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface[^1].
+Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface [^1].
 
 It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the SciTech Awards [^1].
 
@@ -151,3 +164,4 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^8]: [ILM's Dragonheart Crew Looks Back - Lucasfilm.com](https://www.lucasfilm.com/news/digital-road-dragonheart/)
 [^9]: [Star Wars 1313 – Wikipedia](https://en.wikipedia.org/wiki/Star_Wars_1313)
 [^10]: [GDC Vault - LucasArts and ILM: a Case Study of the Convergence of Games and Film](https://gdcvault.com/play/1013242/LucasArts-and-ILM-a-Case)
+[^11]: [Game Films - Computer Graphics World](https://www.cgw.com/Publications/CGW/2007/Volume-30-Issue-2-Feb-2007-/Game-Films.aspx)
