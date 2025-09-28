@@ -58,7 +58,8 @@ As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as d
 # The Zeno Toolset
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 
-Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1].
+Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1]. 
+Then by 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that benefited from Zeno [^6].
 
 In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cliff Plumer** Chief Technology Officer discusses the motivation for the new Zeno toolset: 
 > "Our first goal was to manage large scenes, It was driven by the pod race in Star Wars: Episode I." Thus, at its core, Zeno manages scene data. "The old pipeline used the old Softimage scene file, Building our own gave us control."
@@ -128,11 +129,11 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 
 ---
 ## Lux - Zeno’s interactive lighting tool
-Zeno’s interactive lighting tool **“Lux”** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback[^2]. 
+Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
 
 TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
 
-By 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that *benefited from Zeno* [^6].
+
 
 ---
 ## The Success of Zeno
