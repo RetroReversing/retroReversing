@@ -66,7 +66,28 @@ In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cl
 
 ILM’s R&D team decided to build a new 64-bit architecture from scratch, giving them full control over scene data management and tool integration [^1]. 
 
+## Simulation engine
+ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. 
+
+There was a core simiulation engine in Zeno which handled:
+* hair
+* skin
+* cloth
+* fluids
+
+## Module system
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
+
+Modules included:
+  * Camera Tracking - MARS
+  * Camera projection - Zenviro
+  * Facial animation - Caricature (Cari)
+  * Lighting - Lux
+  * sculpting
+  * particles
+  * rotoscoping
+  * match-moving
+  * painting
 
 ---
 ## Integration with multiple programs
@@ -102,10 +123,6 @@ The camera projection module in Zeno was called **Zenviro** and was used to grea
 In the July 2005 issue of CGW compositing supervisor **Marshall Krasser** discusses the destruction sequence creation for War of the Worlds:
 > The sequence was crafted with a mixture of effects-from particle simulations for the cracking pavement to practical elements-often with the help of Zenviro, the camera projection module in Zeno. You see a pickup truck that gets rotated around. We lifted it out of the plate, took it into the 3D realm, projected it onto 3D geometry in Zenviro, animated the geometry to rotate it, and composited it back into the plate. [^1]
 
----
-
-## Hair, cloth, skin and fluid modules 
-ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. 
 
 ---
 ## The SceneGraph
@@ -138,8 +155,6 @@ Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust l
 
 TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
 
-
-
 ---
 ## The Success of Zeno
 > Seven years in the making, Zeno, ILM’s new tool set, has redefined the studio’s pipeline, opened the production process to all the artists on the crew, and positioned the studio to create future forms of entertainment [^1]
@@ -163,9 +178,9 @@ George Lucas praised it as *“a great collaboration”* that yielded film-quali
 ---
 ## Later Developments and Legacy
 
-ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award[^6].
+ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
 
-LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like *Star Wars 1313* were developed on Unreal Engine 3[^9]. 
+LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like *Star Wars 1313* were developed on Unreal Engine 3 [^9]. 
 *1313* was cancelled after Disney shut down LucasArts in 2013 [^9].
 
 **Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like *Vader Immortal* and powering ILM’s StageCraft for *The Mandalorian*[^9].
