@@ -58,6 +58,11 @@ As one article put it, *“LucasArts’ game engine, Zed, now runs on Zeno, as d
 # The Zeno Toolset
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 
+**Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
+
+The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** and was primarily designed to produce living creatures rather than entire movies [^12]. 
+
+## Initial Development
 Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6]. By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1]. 
 Then by 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that benefited from Zeno [^6].
 
@@ -123,13 +128,16 @@ The camera projection module in Zeno was called **Zenviro** and was used to grea
 In the July 2005 issue of CGW compositing supervisor **Marshall Krasser** discusses the destruction sequence creation for War of the Worlds:
 > The sequence was crafted with a mixture of effects-from particle simulations for the cracking pavement to practical elements-often with the help of Zenviro, the camera projection module in Zeno. You see a pickup truck that gets rotated around. We lifted it out of the plate, took it into the 3D realm, projected it onto 3D geometry in Zenviro, animated the geometry to rotate it, and composited it back into the plate. [^1]
 
+**Alan Trombla** was one of the brains behind the Zenviro camera project module at ILM who then went on to found **Tweak Software** known for its RV software that was also in use by ILM.
+
 
 ---
-## The SceneGraph
-Under the hood, Zeno’s core was a **proprietary scene-graph "shot file" system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected [^1]. 
+## The Scene Graph
+Zeno handles the entire collection of assets, animations, lighting setups, and other data that make up a scene, offering tools like a **timeline** (to manage animation over time), a **scene graph** (a hierarchical structure organizing scene elements), and a **curve editor** (for controlling animation curves and other parameter changes) [^12].
 
-Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. 
-As Dennis Muren put it, *"Artists shouldn’t have to be bookkeepers"*[^1].
+Under the hood, Zeno's core was a **proprietary scene-graph** file format developed and controlled by ILM, that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected.
+
+Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top [^1]. 
 
 ---
 ## Caricature (Cari) - Facial Animation System
@@ -153,7 +161,8 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 ## Lux - Zeno’s interactive lighting tool
 Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
 
-TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
+
+Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
 
 ---
 ## The Success of Zeno
@@ -198,3 +207,4 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 [^9]: [Star Wars 1313 – Wikipedia](https://en.wikipedia.org/wiki/Star_Wars_1313)
 [^10]: [GDC Vault - LucasArts and ILM: a Case Study of the Convergence of Games and Film](https://gdcvault.com/play/1013242/LucasArts-and-ILM-a-Case)
 [^11]: [Game Films - Computer Graphics World](https://www.cgw.com/Publications/CGW/2007/Volume-30-Issue-2-Feb-2007-/Game-Films.aspx)
+[^12]: [War of the Worlds - Retro Articles - DIGITAL PRODUCTION](https://digitalproduction.com/2023/02/08/krieg-der-welten-retro-artikel/)
