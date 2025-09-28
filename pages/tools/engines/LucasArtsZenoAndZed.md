@@ -62,10 +62,12 @@ Thanks to **The Art and Making of Star Wars The Force Unleashed** from 2008 we l
 
 In this article we will use **Zed** to refer to the game development tooling based on Zeno and **Ronin** to refer to the game engine which ran on PS3 and Xbox 360 and was used for **Star Wars: The Force Unleashed**.
 
+There was also a Wii and PS2 version developed but it is unclear how much of the Ronin game engine code they used, they are known to use their own in-house physics engine instead of Havok [^3].
+
 ### Middleware in Ronin
 The Ronin game engine had the following middleware integrated [^4]:
 * Havok [^4]
-* DMM [^4]
+* DMM - Pixelux Entertainment's Digital Molecular Matter [^4]
 * Euphoria  [^4]
 
 ---
@@ -118,6 +120,9 @@ Zeno was used in ILM along with to their usual **compositing tools** [^1]:
 * **Apple’s Shake**
 * **ILM’s Saber** (based on Autodesk Media and Entertainment’s Inferno)
 * **ILM’s CompTime**
+
+<img width="640" height="512" alt="ILM's CompTime" src="https://github.com/user-attachments/assets/f3b8f902-9e7b-4a71-bfcd-533725540cba" />
+
 
 Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
 
@@ -184,6 +189,8 @@ Then by 2006–2007, **Pirates of the Caribbean: Dead Man’s Chest** and **At W
 
 > Seven years in the making, Zeno, ILM’s new tool set, has redefined the studio’s pipeline, opened the production process to all the artists on the crew, and positioned the studio to create future forms of entertainment [^1]
 
+As of 2011, the system is now in major version 3.0, having experienced a major re-tooling of its interface around the time of **Transformers: Dark of the Moon** [^6].
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dY5VF_B1Irc?si=XNntrcz3YYWfXmur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the 2013 Academy SciTech Awards [^6].
@@ -193,14 +200,10 @@ It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Phili
 
 ILM’s new pre-visualization tool, built on Zed, allowed directors to *access the entire production pipeline* in real time, with photogrammetry, live camera tracking, and interactive scene assembly [^2].
 
-On the game side, the **first title to fully use Zed** was **Star Wars: The Force Unleashed** (2008) [^3].
-
 * ILM animators created about 60 minutes of cinematics for the game, using their **CloneCam** performance capture system (developed for *Pirates of the Caribbean*) [^7].
 * Zed integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Zed’s real-time physics [^7].
 
 As Jim Ward (LucasArts president) put it, *“Zeno’s impact at LucasArts will be seen as games roll out on the next-generation consoles”*[^2]. 
-
-George Lucas praised it as *“a great collaboration”* that yielded film-quality artistry in games[^3].
 
 ---
 ## Later Developments and Legacy
@@ -215,7 +218,7 @@ LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects
 ---
 # References
 [^1]: [Acts of War – Computer Graphics World (July 2005)](https://www.cgw.com/Publications/CGW/2005/Volume-28-Issue-7-July-2005-/Acts-of-War.aspx)
-[^2]: [ILM’s Game Theory: Games and Movies Share One VFX Pipeline – StudioDaily (Dec 2005), archived on Nick Porcino’s site](http://www.tinmith.net/porcino/game_theory.htm)
+[^2]: [Lucasfilm CTO Cliff Plumer Talks Technology - VFXWorld](https://web.archive.org/web/20071016225310/http://vfxworld.com/?sa=adv&code=1e242f07&atype=articles&id=2608)
 [^3]: [Star Wars: The Force Unleashed – Wikipedia (Development section)](https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Unleashed#Development)
 [^4]: [The Art and Making of Star Wars: The Force Unleashed – Insight Editions (2008), cited via Wookieepedia](https://starwars.fandom.com/wiki/Ronin_%28engine%29)
 [^5]: [You’ve Seen the Movie, Now Play the Video Game: Recoding the Cinematic in Digital Media – M. L. McCracken, Bowling Green State University (2010)](https://rave.ohiolink.edu/etdc/view?acc_num=bgsu1277041634)
