@@ -81,6 +81,10 @@ Then final renders from **RenderMan** or **Mental Ray** could round-trip back in
 
 Python scripting was supported so TDs could write custom operators [^1].
 
+### Integration with Maya
+**Curt Miyashiro**, digital production supervisor has the following to say about the benefits of Zeno's integration with Maya [^1]:
+> Modelers built the tripods and the aliens in Maya using subdivision surfaces. The animators worked in Maya and then transferred the animation to Zeno. Before, the animation was cached; now TDs can tweak the animation in Zeno. Before if we had wanted to change the headlights on the tripod, we would have had to go back to the animators or go into Maya. With this film we could change the direction of the headlights in Zeno while we were working on lighting the shot.
+
 ## MARS - Camera Tracking System
 One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
 
@@ -89,7 +93,7 @@ This module was so effective it earned an **Academy Scientific & Technical Award
 ## Zenviro - camera projection module
 The camera projection module in Zeno was called **Zenviro** and was used to great effect in the **War of the Worlds** (2005), as it allowed ILM compositors to project 2D photographic plates of buildings onto simple 3D geometry to animate destruction effects. They could add cracks, falling debris, and damage progression directly in Zeno [^2].
 
-In the july 2005 issue of CGW compositing supervisor **Marshall Krasser** discusses the destruction sequence creation for War of the Worlds:
+In the July 2005 issue of CGW compositing supervisor **Marshall Krasser** discusses the destruction sequence creation for War of the Worlds:
 > The sequence was crafted with a mixture of effects-from particle simulations for the cracking pavement to practical elements-often with the help of Zenviro, the camera projection module in Zeno. You see a pickup truck that gets rotated around. We lifted it out of the plate, took it into the 3D realm, projected it onto 3D geometry in Zenviro, animated the geometry to rotate it, and composited it back into the plate. [^1]
 
 ---
@@ -99,7 +103,7 @@ ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simula
 
 ---
 ## The SceneGraph
-Under the hood, Zeno’s core was a **proprietary scene-graph “shot file” system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected[^1]. 
+Under the hood, Zeno’s core was a **proprietary scene-graph "shot file" system** that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected [^1]. 
 
 Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top[^1]. 
 As Dennis Muren put it, *"Artists shouldn’t have to be bookkeepers"*[^1].
@@ -126,7 +130,7 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 ## Lux - Zeno’s interactive lighting tool
 Zeno’s interactive lighting tool **“Lux”** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback[^2]. 
 
-TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface[^2].
+TDs in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
 
 By 2006–2007, *Pirates of the Caribbean: Dead Man’s Chest* and *At World’s End* benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that *benefited from Zeno* [^6].
 
