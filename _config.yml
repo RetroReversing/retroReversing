@@ -18,14 +18,15 @@ whitelist:
 markdown: kramdown
 kramdown:
   input: GFM
-excerpt_separator: "<!-- more -->"
+
+# To manually control the end of the excerpt uncomment:
+# excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
-
 
 version: 1.0.0
 
@@ -164,6 +165,4 @@ references:
     link: https://www.segaretro.org
     image: https://segaretro.org/skins/foreground/assets/img/segaretro_logo.png
     
-    
-
     
