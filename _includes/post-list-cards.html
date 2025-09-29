@@ -9,19 +9,18 @@
               <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
             {% endif %}
           </a>
-        </div>
-  
-        {% if post.excerpt %}
-          <p>
-              {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
-          </p>
-        {% else %}
-          <p>
-            {{ post.content | markdownify | strip_html | truncatewords: 40 }}
-            Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a>
-          </p>
-        {% endif %}
-            
+
+          {% if post.excerpt %}
+            <p>
+                {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+            </p>
+          {% else %}
+            <p>
+              {{ post.content | markdownify | strip_html | truncatewords: 80 }}
+              <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+            </p>
+          {% endif %}
+        </div>       
 
         <div class="post-footer">
           
