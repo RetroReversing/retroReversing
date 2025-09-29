@@ -157,6 +157,8 @@ These would be placed on the original model which was built in **Autodesk Maya**
 Animators then added details such as twigs and branches on the Scrunt's face using **Pixologic’s Zbrush** along with adding  additional woody material around its nose.
 
 ### Plume - GPU fire simulation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TEd510_imQ8?si=UqYY3NfNV0wleplU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
 
 ---
@@ -182,6 +184,8 @@ Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions 
 There were also command line tools such as Ishade, Repo, iComp and somthing called "CBal" used at ILM over 30 years ago in 1995 based on this new employee handbook:
 <img width="1280" height="1707" alt="Ishade, repo and other ILM tools" src="https://github.com/user-attachments/assets/b239d773-bdb7-49e2-a90a-296d4407d997" />
 These were most likely the precursors for Zeno but some of them may have still been in use.
+
+Also ILM has a Maya-based character building system known as **Blockparty** due to it feeling like creating characters out of bulding blocks [^20].
 
 ### Tentacle Zeno Plugin
 For the film **Pirates of the Caribbean Dead Man's Chest**, **David Meny** designed a Zeno plug-in that allowed animators and technical directors to randomize sucker placement based on a library of sucker variations. The sucker variations were modelled by **Frank Gravatt**, 16 variations in total allowing a lot of visual variation really quickly thanks to Zeno's modular system [^20]. 
