@@ -126,7 +126,6 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 # The Zeno Application Framework
 ![Zeno 3.9.7 from September 13th 2013](https://github.com/user-attachments/assets/63219e5f-8877-4725-b1b7-4fdbbfdd5308)
 
-<img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 To find out more about Zed we need to take a look at the underlying foundation - the Zeno Application Framework. As ILM are very secrative, very few details or screenshots are available online about Zeno so some of the information may be incorrect.
 
 Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
@@ -193,16 +192,18 @@ Modules included:
   * **Sculpting** - Isculpt [^19]
   * **Animation** - Zeno Poseur [^19]
   * **Painting** - Viewpaint integration with Zeno? [For more information about check out Viewpaint: ILM’s secret weapon on Jurassic Park from vfxblog](https://vfxblog.com/viewpaint/)
-  * **Particles**
+  * **Particles** - Plume
   * **Rotoscoping**
 
 According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
+### Zeno Commodore?
 Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called **Zeno Commodore**, but not sure what it is [^19].
 
+---
+### Zeno Tentacle Plugin
+<img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 
-
-### Tentacle Zeno Plugin
 For the film **Pirates of the Caribbean Dead Man's Chest**, **David Meny** designed a Zeno plug-in that allowed animators and technical directors to randomize sucker placement based on a library of sucker variations. The sucker variations were modelled by **Frank Gravatt**, 16 variations in total allowing a lot of visual variation really quickly thanks to Zeno's modular system [^20]. 
 
 ---
@@ -297,8 +298,14 @@ Then by 2006–2007, **Pirates of the Caribbean: Dead Man’s Chest** and **At W
 
 > Seven years in the making, Zeno, ILM’s new tool set, has redefined the studio’s pipeline, opened the production process to all the artists on the crew, and positioned the studio to create future forms of entertainment [^1]
 
-As of 2011, the Zeno system is now in major version **3.0**, having experienced a major re-tooling of its interface around the time of **Transformers: Dark of the Moon** [^6].
+### Version History of Zeno
+It would be interesting to find out the version history of Zeno, all we know about so far is that in 2011 Zeno reached major version **3.0**, having experienced a major re-tooling of its interface around the time of **Transformers: Dark of the Moon** [^6].
 
+We also know that in September 2013 the current version of Zeno was 3.9.7.
+
+It is unclear if Zeno is still in use at ILM today and what version number it has reached, or if it has undergone any major re-writes.
+
+### 2013 Academy SciTech Awards
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dY5VF_B1Irc?si=XNntrcz3YYWfXmur" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Zeno was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the **2013 Academy SciTech Awards** [^6].
