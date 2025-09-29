@@ -93,6 +93,8 @@ In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cl
 ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. In 2008 he won an Academy Award for Technical Achievement for the fluid simulation system [^14].
 
 ### Zeno Hair simulation in action
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kBQtgmiChZw?si=WtVQV28sROgAX2ox" title="The Making of the Scrunt - YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 In the September 2006 issue of **Animation Magazine** there is an interview with the Digital Production Supervisor **Doug Smythe** about the work ILM did on **Lady in the Water** in which he states that he modified the hair simulation system in Zeno to output blades of grass rather than hairs for the "Scrunt" creature.
 
 Allowing him to define hundreds of specific "guide hairs" in the Zeno simulation that would be used to generate the tens of thousands of simulated grass-like hairs on the scrunt. Instead of outputting a hair cylinder or curve, Zeno would output polygon meshes that were shaped like blades of grass. 
