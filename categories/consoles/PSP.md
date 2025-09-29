@@ -90,6 +90,10 @@ Specifically, the DAX ISO compressor was created by Dark_AleX as a solution to t
 
 However more recently users found it more convenient to convert DAX files to the more popular compressed **CSO** format, which offers better compression and compatibility with almost all emulators unlike DAX.
 
+---
+## Common PSP Files
+There are some files that are common to almost all PSP games, they are often found in an extracted PSP game, this section will describe the purpose of each of them.
+
 ### UMD_DATA.BIN
 **UMD_DATA.BIN** is a small binary file found inside PSP game disc images (UMD ISOs). 
 It essentially contains header data about the UMD disc, mainly including the disc ID and partition information. 
@@ -104,6 +108,26 @@ It usually contains the following metadata seperated by the pipe "|" (0x7C) char
 * Additional flags or markers (e.g "G") - unsure what other values are valid, does G mean game?
 
 Tools like **UMDGen**, commonly used for creating and editing PSP UMD ISO files, can generate or edit UMD_DATA.BIN as part of managing the overall disc image
+
+---
+### PARAM.SFO
+**PARAM.SFO** is a small but critical metadata file used by the PSP (and also PS3/PS4/PS5 with different schema). It’s stored in the root of the **PSP_GAME** folder and sometimes inside the **SYSDIR**/**UPDATE** folders too.
+
+The purpose of the file is to **describes the game** (or update package) to the PSP system, so that the XMB had the data for displaying the game icon, title, version, and other details. It also tells the firmware what minimum system software version is required to run.
+
+Typical Fields (for a PSP game):
+* **TITLE** - Human-readable game title (what you see on XMB).
+* **DISC_ID** - Unique identifier (e.g., ULUS-10409).
+* **CATEGORY** - Type (e.g., MG for game, UG for update).
+* **BOOTABLE** - Whether the package can be launched.
+* **PSP_SYSTEM_VER** - Minimum firmware version required.
+* **PARENTAL_LEVEL** - Restriction flag for parental controls.
+* **REGION** - Sometimes embedded to limit compatibility.
+
+The PSP will refuse to boot the game if PARAM.SFO is missing or corrupted, so make sure that when modding or trimming ISOs, PARAM.SFO must stay intact in the root!
+The update folder’s PARAM.SFO is only used if you try to run the included firmware updater.
+
+It can be edited (with tools like **PSP SFO Editor**) to spoof firmware requirements, useful for running older ISOs on newer/different firmware.
 
 ---
 ## PSP Development Formats
