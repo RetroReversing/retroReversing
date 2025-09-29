@@ -179,6 +179,10 @@ According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel 
 
 Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called **Zeno Commodore**, but not sure what it is [^19].
 
+There were also command line tools such as Ishade, Repo, iComp and somthing called "CBal" used at ILM over 30 years ago in 1995 based on this new employee handbook:
+<img width="1280" height="1707" alt="Ishade, repo and other ILM tools" src="https://github.com/user-attachments/assets/b239d773-bdb7-49e2-a90a-296d4407d997" />
+These were most likely the precursors for Zeno but some of them may have still been in use.
+
 ### Tentacle Zeno Plugin
 For the film **Pirates of the Caribbean Dead Man's Chest**, **David Meny** designed a Zeno plug-in that allowed animators and technical directors to randomize sucker placement based on a library of sucker variations. The sucker variations were modelled by **Frank Gravatt**, 16 variations in total allowing a lot of visual variation really quickly thanks to Zeno's modular system [^20]. 
 
@@ -225,9 +229,13 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 
 ---
 ## Lux - Zeno’s interactive lighting tool
-Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
+Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. 
+
+Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
 
 Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an "organic" glow in the alien windows — all without leaving the lighting interface [^2].
+
+In the book **Cinefex** from 2006 **Tom Fejes** is creditied as "setting up" the Lux tool, not sure if that means he was the creator of Lux or if he was the one that set it up for the Pirates movie that the book covers [^20].
 
 ## CloneCam - Performance Capture System
 ILM animators created about 60 minutes of cinematics for the game **Star Wars The Force Unleashed**, using their **CloneCam** performance capture system originally developed for **Pirates of the Caribbean** [^7].
