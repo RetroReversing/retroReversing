@@ -92,7 +92,16 @@ In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cl
 ## Simulation engine
 ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. In 2008 he won an Academy Award for Technical Achievement for the fluid simulation system [^14].
 
+### Zeno Hair simulation in action
+In the September 2006 issue of **Animation Magazine** there is an interview with the Digital Production Supervisor **Doug Smythe** about the work ILM did on **Lady in the Water** in which he states that he modified the hair simulation system in Zeno to output blades of grass rather than hairs for the "Scrunt" creature.
 
+Allowing him to define hundreds of specific "guide hairs" in the Zeno simulation that would be used to generate the tens of thousands of simulated grass-like hairs on the scrunt. Instead of outputting a hair cylinder or curve, Zeno would output polygon meshes that were shaped like blades of grass. 
+
+These would be placed on the original model which was built in **Autodesk Maya** along with the face shapes built using Zeno's **Cart** facial animation system. Zeno was also used to place lights in the scene and the shot was finally rendered out in Pixar's RenderMan.
+
+Animators then added details such as twigs and branches on the Scrunt's face using **Pixologic’s Zbrush** along with adding  additional woody material around its nose.
+
+---
 ## Module system
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, **timeline**, **curve editor**, and **module system** – all centered on efficient workflow [^1]. 
 
@@ -110,40 +119,12 @@ Modules included:
 According to **Chris Evans** who used to work at ILM [^15] Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
 ---
-## Integration with multiple programs
-Rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface [^1].
-
-Zeno was designed with live links to **Maya** and **Photoshop** – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble **Maya’s Outliner** to ease adoption [^1]. 
-
-![Maya 7.0 Outliner inspired the Zeno UI](https://github.com/user-attachments/assets/f564e4d6-c05a-4c28-b59a-fd3aff88da55)
-
-Zeno was made to be modular, with modules easily written in Python for tasks such as converting between 3D file formats [^1].
-
-Zeno was used in ILM along with to their usual **compositing tools** [^1]: 
-* **Apple’s Shake**
-* **ILM’s Saber** (based on Autodesk Media and Entertainment’s Inferno)
-* **ILM’s CompTime**
-
-
-Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
-
-### Integration with CompTime
-Zeno has first class support for woroking the the proprietary compositor developed in-house at ILM known as **CompTime**.
-
-<img width="640" height="512" alt="ILM's CompTime" src="https://github.com/user-attachments/assets/f3b8f902-9e7b-4a71-bfcd-533725540cba" />
-
-In the July 2002 issue of Linux Journel Technical Directory **Robert Weaver** notes that ILM's compositing software, CompTime was ported over to Linux and the plugins for the compositor were all written in Python [^5]. 
-
-### Integration with Maya
-**Curt Miyashiro**, digital production supervisor has the following to say about the benefits of Zeno's integration with Maya [^1]:
-> Modelers built the tripods and the aliens in Maya using subdivision surfaces. The animators worked in Maya and then transferred the animation to Zeno. Before, the animation was cached; now TDs can tweak the animation in Zeno. Before if we had wanted to change the headlights on the tripod, we would have had to go back to the animators or go into Maya. With this film we could change the direction of the headlights in Zeno while we were working on lighting the shot.
-
----
-## MARS - Camera Tracking System
-One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed *MARS*), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
+## MARS - Camera Tracking System module
+One of the first applications built on the Zeno framework was ILM’s new camera tracking system (codenamed **MARS**), which successfully leveraged Zeno’s scene graph to integrate 3D matchmoving data with film plates [^1]. 
 
 This module was so effective it earned an **Academy Scientific & Technical Award**. Throughout the early 2000s, ILM gradually replaced dozens of older, disconnected tools with new Zeno-based modules [^1].
 
+---
 ## Zenviro - camera projection module
 The camera projection module in Zeno was called **Zenviro** and was used to great effect in the **War of the Worlds** (2005), as it allowed ILM compositors to project 2D photographic plates of buildings onto simple 3D geometry to animate destruction effects. They could add cracks, falling debris, and damage progression directly in Zeno [^2].
 
@@ -151,7 +132,6 @@ In the July 2005 issue of CGW compositing supervisor **Marshall Krasser** discus
 > The sequence was crafted with a mixture of effects-from particle simulations for the cracking pavement to practical elements-often with the help of Zenviro, the camera projection module in Zeno. You see a pickup truck that gets rotated around. We lifted it out of the plate, took it into the 3D realm, projected it onto 3D geometry in Zenviro, animated the geometry to rotate it, and composited it back into the plate. [^1]
 
 **Alan Trombla** was one of the brains behind the Zenviro camera project module at ILM who then went on to found **Tweak Software** known for its RV software that was also in use by ILM.
-
 
 ---
 ## The Scene Graph
@@ -184,15 +164,41 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
 
 
-Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an “organic” glow in the alien windows — all without leaving the lighting interface [^2].
+Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an "organic" glow in the alien windows — all without leaving the lighting interface [^2].
 
 ## CloneCam - Performance Capture System
 ILM animators created about 60 minutes of cinematics for the game **Star Wars The Force Unleashed**, using their **CloneCam** performance capture system originally developed for **Pirates of the Caribbean** [^7].
 
+---
+## Integrations
+One of the main benefits of Zeno was the integrations with industry standard software, rather than a collection of siloed programs for modeling, animation, rendering, etc., Zeno could load whatever tools an artist needed into one unified interface [^1].
+
+Zeno was build from the ground up to be modular, with modules easily written in Python for tasks such as converting between 3D file formats or integrating 3rd party software tools seamlessly [^1].
+
+### Integration with Maya
+Zeno was designed with live links to **Maya** and **Photoshop** – an artist could copy and paste data or edits between Maya and Zeno in real time – and its UI was made to resemble **Maya’s Outliner** to ease adoption [^1]. 
+
+![Maya 7.0 Outliner inspired the Zeno UI](https://github.com/user-attachments/assets/f564e4d6-c05a-4c28-b59a-fd3aff88da55)
+**Curt Miyashiro**, digital production supervisor has the following to say about the benefits of Zeno's integration with Maya [^1]:
+> Modelers built the tripods and the aliens in Maya using subdivision surfaces. The animators worked in Maya and then transferred the animation to Zeno. Before, the animation was cached; now TDs can tweak the animation in Zeno. Before if we had wanted to change the headlights on the tripod, we would have had to go back to the animators or go into Maya. With this film we could change the direction of the headlights in Zeno while we were working on lighting the shot.
+
+### Integration with Compositing tools
+Zeno was used in ILM along with to their usual **compositing tools** which included [^1]: 
+* **Apple’s Shake**
+* **ILM’s Saber** (based on Autodesk Media and Entertainment's Inferno)
+* **ILM’s CompTime** - In House compositor
+
+Then final renders from **RenderMan** or **Mental Ray** could round-trip back into Zeno’s compositing module for finishing [^1]. 
+
+#### Integration with CompTime
+Zeno has first class support for woroking the the proprietary compositor developed in-house at ILM known as **CompTime**.
+
+<img width="640" height="512" alt="ILM's CompTime" src="https://github.com/user-attachments/assets/f3b8f902-9e7b-4a71-bfcd-533725540cba" />
+
+In the July 2002 issue of Linux Journel Technical Directory **Robert Weaver** notes that ILM's compositing software, CompTime was ported over to Linux and the plugins for the compositor were all written in Python [^5]. 
 
 ---
 ## The Success of Zeno
-
 By the mid-2000s, Zeno had become the **heart of ILM’s pipeline** and by 2004, Zeno had matured enough that ILM could **fully retire its old pipeline** [^1]. 
 
 Then by 2006–2007, **Pirates of the Caribbean: Dead Man’s Chest** and **At World’s End** benefited from Zeno; the CGI character **Davy Jones** was one high-profile creation that benefited from Zeno [^6].
@@ -234,3 +240,4 @@ Although the **1313** project was cancelled after Disney shut down LucasArts in 
 [^13]: The Art and Making of Star Wars The Force Unleashed (2008)
 [^14]: [Professor Ron Fedkiw shares Academy Award for software to digitize destruction - Stanford University School of Engineering](https://engineering.stanford.edu/news/professor-ron-fedkiw-shares-academy-award-software-digitize-destruction)
 [^15]: [Stumbling Toward 'Awesomeness'Geodesic Voxel Binding in Maya 2015 - Stumbling Toward 'Awesomeness'](http://www.chrisevans3d.com/pub_blog/geodesic-voxel-binding-maya-2015/)
+[^16]: [Animation Magazine September 2006](https://archive.org/details/Animation_Magazine_September_2006/page/52/mode/2up?q=ilm+Zeno)
