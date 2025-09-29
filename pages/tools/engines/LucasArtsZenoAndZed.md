@@ -134,6 +134,8 @@ Essentially **Zeno** is a powerful digital content creation pipeline used for ma
 The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** (.zshot extension?) and was primarily designed to produce living creatures rather than entire movies [^12]. 
 
 ## Initial Development
+<img width="1200" height="675" alt="ILM office - Unknown year" src="https://github.com/user-attachments/assets/3db4a6b4-f5af-44ae-939c-e44aae304725" />
+
 Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6].
 
 Early work on the new ILM pipeline had been in development since the pre-production of **Star Wars: Episode I** in 1998 and 1999, such as the camera tracking software for the pod race which later became part of Zeno called **MARS** and then the new the camera projection mapping software **Zenviro** [^12].
