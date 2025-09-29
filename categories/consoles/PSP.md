@@ -71,7 +71,7 @@ There was a custom Software Development kit that was created by **SN Systems** b
 This section lists all the file formats that are useful to know about for reverse engineering or developing PSP games.
 
 ## PSP Executable Formats
-On official PSP discs, there are actually two executables included in the SYSDIR folder: **BOOT.BIN** and **EBOOT.BIN** the former is uncompressed/unencrypted and suitable for reverse engineering and the latter is the encrypted version that is loaded by the PSP retail firmware.
+On official PSP discs, there are actually two executables included in the **SYSDIR** folder: **BOOT.BIN** and **EBOOT.BIN** the former is uncompressed/unencrypted and suitable for reverse engineering and the latter is the encrypted version that is loaded by the PSP retail firmware.
 
 * **BOOT.BIN** - uncompressed, unencrypted executable, typically used during development and debugging.
 * **EBOOT.BIN** - encrypted, compressed version of the same executable. Sony’s encryption prevents casual tampering and reverse engineering.
@@ -136,7 +136,7 @@ Typical Fields (for a PSP game):
 * **PARENTAL_LEVEL** - Restriction flag for parental controls.
 * **REGION** - Sometimes embedded to limit compatibility.
 
-The PSP will refuse to boot the game if PARAM.SFO is missing or corrupted, so make sure that when modding or trimming ISOs, PARAM.SFO must stay intact in the root!
+The PSP will **refuse to boot the game** if PARAM.SFO is missing or corrupted, so make sure that when modding or trimming ISOs, PARAM.SFO must stay intact in the root!
 The update folder’s PARAM.SFO is only used if you try to run the included firmware updater.
 
 It can be edited (with tools like **PSP SFO Editor**) to spoof firmware requirements, useful for running older ISOs on newer/different firmware.
@@ -156,6 +156,16 @@ Internally, PMF files are very similar to MPEG-4 video with H.264-like video and
 They are typically played with the **psmf.prx** and **libpsmfplayer.prx** modules.
 
 They are not essential to gameplay itself so they can be removed and the game usually still runs, but it may crash when trying to load the missing FMV unless the executable is patched. So its best to replace them with 0 byte files if you want to save space or skip cutscenes.
+
+---
+# Reverse Engineering PSP Games with Ghidra
+
+First step is to find your **BOOT.BIN** file, normally in the **PSP_GAME/SYSDIR** folder of the extracted game ISO. If you only have an EBOOT.BIN file you will need to convert it to a BOOT.BIN with a tool such as **PRXDecrypter**.
+
+Since **BOOT.BIN** files are standard ELF executables compiled for the **MIPS R4000** (little-endian) instruction set you can import directly into Ghidra without any plugins!
+
+![Importing BOOT.BIN into Ghidra](https://github.com/user-attachments/assets/47509766-9b30-4385-993b-30cde0597c71)
+
 
 ---
 # All Posts
