@@ -103,13 +103,18 @@ blockquote {
 /*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
 .post.post-header-icon {
   min-height: 50px
+  max-height: 75px
 }
 
 /* Set width static to avoid page layout shifting */
 .widget-img img {
   width: 260px;
 }
-  
+
+/* The post-thumbnail is the Preview image of a post in a list of post */
+.post .post-thumbnail {
+  display: flex;
+}
 
 .card-video, .card-video .card-img {
   width: 320px;
