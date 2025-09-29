@@ -92,8 +92,9 @@ Zed played a major role in the development of games like **Star Wars: The Force 
 
 Zed was intended not just for star wars but also a future Indiana Jones game that would later be cancelled:
 >To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its **Zeno Game Editor**, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
-LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like **Star Wars 1313** were developed on Unreal Engine 3 [^9]. 
-Although the **1313** project was cancelled after Disney shut down LucasArts in 2013.
+
+LucasArts used Zed/Ronin for **The Force Unleashed II** (2010), but later projects like **Star Wars 1313** were developed on Unreal Engine 3 [^9]. 
+Although sadly the **Star Wars 1313** project was cancelled after Disney shut down LucasArts in 2013.
 
 ### Later Developments and Legacy of Zed
 After the collapse of LucasArts, Zed would live on in the real-time rendering feature of Zeno which is still in use by ILM today.
@@ -117,9 +118,9 @@ There was also a Wii and PS2 version developed but it is unclear how much of the
 
 ## Middleware in Ronin
 Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Ronin's real-time physics [^7] along with the following middleware:
-* Havok [^4]
-* DMM - Pixelux Entertainment's Digital Molecular Matter [^4]
-* Euphoria  [^4]
+* **Havok** - Physics engine [^4]
+* **Digital Molecular Matter (DMM)** - Pixelux Entertainment's Digital Molecular Matter [^4]
+* **Euphoria**  [^4]
 
 ---
 # The Zeno Application Framework
