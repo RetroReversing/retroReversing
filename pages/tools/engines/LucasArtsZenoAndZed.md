@@ -44,18 +44,48 @@ At roughly the same time as the Zed project was taking off, George Lucas wanted 
 This accellerated development of both Zeno and Zed and was praised by the LucasArts president **Jim Ward** in **Computer Graphics World Magazine** [^11]:
 >In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself, and it’s key to rebooting our game studio."
 
+On what was a former Presidio military base, the new 6 acre facility claimed to have the industries largest computer network, designed to accommodate 4K images via 300 10GB and 1,500 1GB ports. It was surrounded by 17 acres of public park including a creek and even a Yoda fountain! 
+
+There is a very good reason why the move to the new premisis keeps getting mentioned in articles about Zeno and Zed, it really was the catazlyst that allowed not only knowledge to flow freely but also assets from both movies and games could be shared on the  600 miles of high speed network cable within the facility!
+
+The designer of the Zeno interface **Dennis Muren** has the following to say about the move and its impact on the Zeno pipeline: 
+> The move opened the opportunity to re-invent the pipeline, with the Star Wars movies ending, we’re going to get down to a more realistic number of shots. So we’ve given the artists the opportunity to do practically anything if they want to. [^18]
+
+In the September 2005 issue of 3D World magazine [^18], they had some interesting statistics in their coverage of the move to the new building:
+![Letterman Digital Arts Center Statistics](https://github.com/user-attachments/assets/281b5020-16d5-4837-abc6-c67373ff1b65)
+
+---
 ## Zed - The Zeno Game Editor (2004)
 ![GDC 2006 - LucasArts and ILM: A Case Study in the Convergence of Game and Films](https://github.com/user-attachments/assets/bed57a7a-8efa-4a67-bd95-e9d911ecae4c)
 
 We learn more about the birth of the Zeno Game Editor (Zed) in a 2006 **Game Developer Conference** (GDC) Talk titled "LucasArts and ILM: A Case Study in the Convergence of Game and Films".
 
-The story goes that after attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^10].
+The story goes that after attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a "Virtual Studio" integrating **LucasArts** and **ILM pipelines** together [^10].
 
-The result known as **Zed** (Zeno Editor), provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
+The result of the "Virtual Studio" became known as **Zed** (Zeno Editor), it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered in Zeno at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
+
+### Goal of Zed
+The goal of Zed according to **Cliff Plumer**, Chief Technical Officer of ILM, was to enable multiple users to collaborate in real-time, both LucasArts and ILM employees. So that assets sculpted in ILM could simply be dropped into Zed and used in LucasArts projects, allowing an efficient sharing of resources [^18].
 
 These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
-It was designed by **Tim Ramsay**, **Eric Johnston**, **Nick Porcino**, and **Nick Pavis** as a modular engine so **both LucasArts and ILM developers could work on it simultaneously** [^4]. 
+### Features of Zed/Zeno
+Where Zeno ends and Zed begins is a little hard to follow from the outside so the following list of features may apply to either zed and/or zeno (hard to tell from sources, which feature belonged to which software):
+* **Consistent user interface** - One UI pattern to learn rather than learning hundreds of different UI tools [^18]
+* **Modular** - modules could be loaded and unloaded when needed [^4]
+* **Multi-user editing** - Concurrent editing of assets so artists didn't need to wait for each other [^18]
+* **Revision control** - Stroing previous versions of assets [^18]
+* **Asset Mangement** - Easy access to all assets in a project/scene [^18]
+
+### Contributers to Zed
+We don't know all the contributers to Zeno/Zed as there is very little information available about it online but these are people that have been mentioned in relation to developing it:
+*  **Nick Porcino** - co-founder of Zed
+*  **Steve Sullivan** - co-founder of Zed
+*  **Dennis Muren** - Designer of Zeno interface [^18]
+*  **Cliff Plumer** - CTO of ILM
+*  **Tim Ramsay**
+*  **Eric Johnston**
+*  **Nick Pavis**
 
 ### Games built with Zed
 Zed played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
@@ -259,3 +289,4 @@ ILM’s new pre-visualization tool, built on Zed, allowed directors to *access t
 [^15]: [Stumbling Toward 'Awesomeness'Geodesic Voxel Binding in Maya 2015 - Stumbling Toward 'Awesomeness'](http://www.chrisevans3d.com/pub_blog/geodesic-voxel-binding-maya-2015/)
 [^16]: [Animation Magazine September 2006](https://archive.org/details/Animation_Magazine_September_2006/page/52/mode/2up?q=ilm+Zeno)
 [^17]: [Game Developer Magazine March 2007](https://archive.org/details/GDM_March_2007/mode/2up?q=ilm+Zeno)
+[^18]: 3D World Magazine September 2005
