@@ -62,6 +62,13 @@ Zed played a major role in the development of games like **Star Wars: The Force 
 
 Zed was intended not just for star wars but also a future Indiana Jones game that would later be cancelled:
 >To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its **Zeno Game Editor**, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
+LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like **Star Wars 1313** were developed on Unreal Engine 3 [^9]. 
+Although the **1313** project was cancelled after Disney shut down LucasArts in 2013.
+
+### Later Developments and Legacy of Zed
+After the collapse of LucasArts, Zed would live on in the real-time rendering feature of Zeno which is still in use by ILM today.
+
+The spirit of Zed extended into **ILMxLAB** (founded in 2015) but used the **Unreal Engine** directly instead of Zed, producing projects like **Vader Immortal** and powering ILM’s StageCraft for **The Mandalorian** [^9]. It is currently unknown if they have an integration between Unreal Engine and Zeno, if so then you could say parts of Zed are still alive and well in the games industry.
 
 ---
 # The Ronin Engine - Star Wars: The Force Unleashed
@@ -87,7 +94,7 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 ---
 # The Zeno Application Framework
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
-To find out more about Zed and Ronin we need to take a look at the underlying foundation - the Zeno Application Framework, also known as the Zeno development environment.
+To find out more about Zed we need to take a look at the underlying foundation - the Zeno Application Framework. As ILM are very secrative, very few details or screenshots are available online about Zeno so some of the information may be incorrect.
 
 Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
 
@@ -117,6 +124,9 @@ Allowing him to define hundreds of specific "guide hairs" in the Zeno simulation
 These would be placed on the original model which was built in **Autodesk Maya** along with the face shapes built using Zeno's **Cart** facial animation system. Zeno was also used to place lights in the scene and the shot was finally rendered out in Pixar's RenderMan.
 
 Animators then added details such as twigs and branches on the Scrunt's face using **Pixologic’s Zbrush** along with adding  additional woody material around its nose.
+
+### Plume - GPU fire simulation
+ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
 
 ---
 ## Module system
@@ -229,16 +239,6 @@ As of 2011, the system is now in major version 3.0, having experienced a major r
 It was so successful The developers **Florian Kainz**, **Jeffery Yost**, **Philip Hubbard** and **Jim Hourihan** were honoured for the architecture and development of the Zeno application framework in the 2013 Academy SciTech Awards [^6].
 
 ILM’s new pre-visualization tool, built on Zed, allowed directors to *access the entire production pipeline* in real time, with photogrammetry, live camera tracking, and interactive scene assembly [^2].
-
----
-## Later Developments and Legacy
-
-ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
-
-LucasArts used Zed/Ronin for *The Force Unleashed II* (2010), but later projects like **Star Wars 1313** were developed on Unreal Engine 3 [^9]. 
-Although the **1313** project was cancelled after Disney shut down LucasArts in 2013.
-
-**Post-LucasArts Influence:** ILMxLAB (founded 2015) extended the Zeno/Zed spirit into VR/AR using Unreal, producing projects like **Vader Immortal** and powering ILM’s StageCraft for **The Mandalorian** [^9].
 
 ---
 # References
