@@ -1,15 +1,15 @@
 <div class="post post-card">
-          <div class="post-header">
-            <div>
-              <img src="{{ post.thumbnail }}" alt="">
-            </div>
-              <div>
-                <h2 class="post-title">
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                </h2>
-              </div>
-            
+        <div class="post-header">
+          <div>
+            <img src="{{ post.thumbnail }}" alt="{{ post.title }} Thumbnail">
           </div>
+            <div>
+              <h2 class="post-title">
+                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+              </h2>
+            </div>
+        </div>
+  
         <div class="post-thumbnail">
           <a href="{{ site.baseurl }}{{ post.url }}">
             {% if post.image %}
@@ -41,7 +41,7 @@
                 {% endfor %}
               </div>
            {% endif %}
-          <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
+          <!-- <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a> -->
           
         </div>
 </div>
