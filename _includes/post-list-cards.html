@@ -1,7 +1,7 @@
 <div class="post post-card">
         <div class="post-header">
           <div>
-            <img src="{{ post.thumbnail }}" alt="{{ post.title }} Thumbnail">
+            <img class="post-header-icon" src="{{ post.thumbnail }}" alt="{{ post.title }} Icon">
           </div>
             <div>
               <h2 class="post-title">
@@ -14,7 +14,7 @@
           <a href="{{ site.baseurl }}{{ post.url }}">
             {% if post.image %}
               <img src="{{ post.image }}" alt="{{ post.title }}">
-            {% else if post.youtube %}
+            {% elif post.youtube %}
               <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
             {% else %}
               <img src="{{ page.consoleimage }}" alt="{{ post.title }}">
