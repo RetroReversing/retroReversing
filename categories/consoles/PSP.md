@@ -6,7 +6,7 @@ recommend: psp
 recommendTitle: All PSP Posts
 editlink: ../categories/consoles/PSP.md
 console: 'psp'
-consoleimage: /public/consoles/Sony PSP.png
+consoleimage: /public/consoles/psp.svg
 thumbnail: /public/consoles/Sony PSP.png
 excerpt: Awesome list of Sony Playstation Portable Game Development and Reverse Engineering information
 breadcrumbs:
