@@ -166,6 +166,10 @@ Since **BOOT.BIN** files are standard ELF executables compiled for the **MIPS R4
 
 ![Importing BOOT.BIN into Ghidra](https://github.com/user-attachments/assets/47509766-9b30-4385-993b-30cde0597c71)
 
+Now double click on **BOOT.BIN** in the Ghidra tree view and Ghidra will then ask you if you want to analyze the imported binary, say yes and keep the default settings for now.
+![Analyze the imported executable in Ghidra](https://github.com/user-attachments/assets/05af9cd2-a88a-4cee-a7c9-b2d642038bda)
+
+Give it some time to analyze, depending on the size of the executable it could take up to 10 or 20 minutes.
 
 ---
 # All Posts
