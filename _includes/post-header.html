@@ -1,0 +1,15 @@
+<!-- This is used in each post layout and also the console page list -->
+<div class="post-header">
+  <div>
+    {% if page.console %}
+      <img class="post-header-icon" src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
+    {% elsif post.thumbnail %}
+      <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
+    {% endif %}
+  </div>
+  <div>
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+  </div>
+</div>
