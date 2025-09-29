@@ -48,6 +48,9 @@ mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
 
+category_images:
+  psp: /public/consoles/psp.svg
+
 references: 
   - title: Behind The Screens
     name: BehindTheScreens 
