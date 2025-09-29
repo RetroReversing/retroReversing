@@ -130,6 +130,30 @@ To find out more about Zed we need to take a look at the underlying foundation -
 
 Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
 
+## The Interface
+The Interface for Zeno is heavily inspired by Maya with a shelf at the top and outliners for hierarchical views.
+
+Based on the screenshot we can presume the following shelves are available:
+
+Shelf Name | Description
+---|---
+default | Presumably basic tools?
+Alembic | ILM Alembic is a computer graphics interchange file format developed jointly by Industrial Light & Magic (ILM) and Sony Pictures Imageworks. It was created to efficiently store and share complex animated geometry and visual effects data across different software platforms and production facilities
+Dynamics | Particles and other simulations?
+Facial Capture | Cari Facial animation tools?
+ILM_TFM | Transformation tools?
+ILM_anim | Animation tools
+ILM_asset | Asset modification including Plume
+ILM_comp | Compositing tools (integration with Comptime?)
+ILM_crdev | Creature Development tools?
+ILM_crdev_retired | Old Creature Development tools?
+ILM_dm | deformation tools?
+ILM_dms | deformation and mesh simulation tools?
+ILM_face | Cari Facial animation tools?
+ILM_Mesh | Mesh editing tools
+ILM_frac | Fracturing tools?
+
+---
 ## Initial Development
 <img width="1200" height="675" alt="ILM office - Unknown year" src="https://github.com/user-attachments/assets/3db4a6b4-f5af-44ae-939c-e44aae304725" />
 
@@ -152,6 +176,23 @@ There were also command line tools such as Ishade, Repo, iComp and somthing call
 These were most likely the precursors for Zeno but some of them may have still been in use.
 
 Also ILM has a Maya-based character building system known as **Blockparty** due to it feeling like creating characters out of bulding blocks, but not sure it it was integrated with Zeno [^20].
+
+---
+### The Scene Graph (Shot files)
+Zeno handles the entire collection of assets, animations, lighting setups, and other data that make up a scene, offering tools like a **timeline** (to manage animation over time), a **scene graph** (a hierarchical structure organizing scene elements), and a **curve editor** (for controlling animation curves and other parameter changes) [^12].
+
+Under the hood, Zeno's core was a **proprietary scene-graph** file format developed and controlled by ILM, that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected.
+
+Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top [^1].
+
+#### Zeno Visual Effect Shot File format (.zshot)
+Based on the one screenshot of Zeno we have, it looks like the scene graph file format had a **.zshot** file extension, presumably standing for Zeno Shot (as in a camera 'shot') but this is just based on the toolbar and may be incorrect.
+
+These files represent the complex scene graph data and networks of operators, data objects (called Oids), and relationships that make up a shot in the VFX pipeline [^6].
+
+Zeno manages massive amounts of scene data and allows artists from various disciplines to work and exchange data collaboratively. 
+
+The .zshot files store arbitrary units of a scene, enabling work to be split among artists and passed along efficiently, while maintaining dependencies and non-destructive overrides in versioned files.
 
 ---
 ## Simulation engine
@@ -221,15 +262,6 @@ In the July 2005 issue of CGW compositing supervisor **Marshall Krasser** discus
 
 **Alan Trombla** was one of the brains behind the Zenviro camera project module at ILM who then went on to found **Tweak Software** known for its RV software that was also in use by ILM.
 
----
-### The Scene Graph
-Zeno handles the entire collection of assets, animations, lighting setups, and other data that make up a scene, offering tools like a **timeline** (to manage animation over time), a **scene graph** (a hierarchical structure organizing scene elements), and a **curve editor** (for controlling animation curves and other parameter changes) [^12].
-
-Under the hood, Zeno's core was a **proprietary scene-graph** file format developed and controlled by ILM, that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected.
-
-Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top [^1]. 
-
-Based on the one screenshot of Zeno we have, it looks like the scene graph file format had a **.zshot** file extension, but this is just based on the toolbar and may be incorrect.
 
 ---
 ### Caricature (Cari) - Facial Animation System
