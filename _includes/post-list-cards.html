@@ -21,15 +21,15 @@
             {% endif %}
           </a>
         </div>
+  
         {% if post.excerpt %}
-            <p>
+          <p>
               {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
-            <p>
+          </p>
         {% else %}
-              <p>Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a></p>
+          <p>Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a> </p>
         {% endif %}
             
-        
 
         <div class="post-footer">
           
@@ -42,10 +42,6 @@
               </div>
            {% endif %}
           <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
-          {% if site.disqus_short_name %}
-<!--               <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span> -->
-          {% endif %}
-          
           
         </div>
-      </div>
+</div>
