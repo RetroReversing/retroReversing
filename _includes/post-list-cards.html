@@ -16,7 +16,7 @@
             </p>
           {% else %}
             <p>
-              {{ post.content | markdownify | truncatewords: 80 }}
+              {{ post.content | markdownify | strip_html | truncatewords: 30 }}
               <a href="{{ site.baseurl }}{{ post.url }}">...</a>
             </p>
           {% endif %}
