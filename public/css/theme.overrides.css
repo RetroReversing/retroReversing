@@ -94,7 +94,7 @@ blockquote {
 }
 
 /* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, .table img, .rr-file-card img {
+.widget-img img, .post-header img, .table img, .rr-file-card img, .post-header-icon img {
   width: unset;
   margin-left: unset;
   display: unset;
