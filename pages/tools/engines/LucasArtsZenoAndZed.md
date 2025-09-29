@@ -125,6 +125,20 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 * **Euphoria**  [^4]
 
 ---
+## PS2/PSP and Wii Version
+The PS2, PSP and Wii versions of "Star Wars: The Force Unleashed" are not build by **LucasArts** and thus are not using their proprietary **Ronin** engine. Instead they were developed by **Krome Studios**, a completely seperate studio known for action-platformers and movie tie-in games. 
+
+Krome developed these versions with a separate engine tailored for the older hardware and with unique content and gameplay elements. It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used by a third party developer, so we presume these versions were not made using Zed and any assets were either sent over manually to the studio or made custom by **Krome**.
+
+The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than Havok due to the performance constraints of the PS2/PSP and Wii.
+
+---
+## iOS and N-Gage Version
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nD6-8NRrBf0?si=PL8eFICLN32JX_u6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+There was a very simple version released in 2008 for both **iOS** and **N-Gage**, developed by Finnish based developer **Universomo**, it is neither the LucasArts Ronin engine game nor the **Krome Studio** game, instead it is a unique experience which has very simple swipe-based controls and only takes about an hour and a half to complete.
+
+---
 # The Zeno Application Framework
 ![Zeno 3.9.7 from September 13th 2013](https://github.com/user-attachments/assets/63219e5f-8877-4725-b1b7-4fdbbfdd5308)
 
