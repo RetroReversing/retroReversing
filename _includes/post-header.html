@@ -1,4 +1,4 @@
-<!-- This is used in each post layout and also the console page list -->
+<!-- This is used in the console page list of posts but not in the post layout as its a different header and uses "page" not "post" -->
 <div class="post-header">
   <div>
     {% if page.console %}
@@ -12,6 +12,7 @@
   
   <div>
     <h2 class="post-title">
+     <!--  Note: use post NOT page for each title -->
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
   </div>
