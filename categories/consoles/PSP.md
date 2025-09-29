@@ -82,6 +82,15 @@ Officially the PSP either used physical Universal Media Discs (UMD) or PBP files
 
 Additionally, compressed zip and rar archives can sometimes be used by PSP emulators like **PPSSPP** run games without extracting.
 
+#### DAX - Dark_AleX's compressed File Format
+The DAX file format is named after **Dark_AleX**, the pseudonym of a famous Spanish programmer who was a key figure in the PSP hacking and homebrew community. 
+
+Dark_AleX developed custom firmware and various tools that enabled compressed PSP game images, including the DAX format, to overcome storage limitations of early PSP memory sticks.
+
+Specifically, the DAX ISO compressor was created by Dark_AleX as a solution to the small storage sizes of Memory Stick PRO Duo cards available at the time. His work allowed users to compress PSP game images into smaller files (DAX files) for easier storage and use on PSP devices with limited storage capacity.
+
+However more recently users found it more convenient to convert DAX files to the more popular compressed **CSO** format, which offers better compression and compatibility with almost all emulators unlike DAX.
+
 ### PSP Development Formats
 Some file formats used in the creation of PSP games:
 * **GIM** - 2D Image Texture format similar to the PS1 **TIM** image format
