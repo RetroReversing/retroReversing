@@ -16,7 +16,10 @@
               {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
           </p>
         {% else %}
-          <p>Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a> </p>
+          <p>
+            {{ post.content | markdownify | strip_html | truncatewords: 40 }}
+            Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a>
+          </p>
         {% endif %}
             
 
