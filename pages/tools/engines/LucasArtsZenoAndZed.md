@@ -175,7 +175,7 @@ Plume has been used in many blockbuster films, earning a 2018 **Sci-Tech Award**
 Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, **timeline**, **curve editor**, and **module system** – all centered on efficient workflow [^1]. 
 
 Modules included:
-  * **Camera Tracking** - MARS
+  * **Match-moving/Camera Tracking** - M.A.R.S
   * **Camera projection** - Zenviro
   * **Facial animation** - Caricature (Cari)
   * **Lighting** - Lux
@@ -183,8 +183,7 @@ Modules included:
   * **Animation** - Zeno Poseur [^19]
   * **Particles**
   * **Rotoscoping**
-  * **Match-moving**
-  * **Painting**
+  * **Painting** - Viewpaint?
 
 According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
