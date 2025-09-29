@@ -156,10 +156,14 @@ These would be placed on the original model which was built in **Autodesk Maya**
 
 Animators then added details such as twigs and branches on the Scrunt's face using **Pixologic’s Zbrush** along with adding  additional woody material around its nose.
 
-### Plume - GPU fire simulation
+### Plume - GPU fluid/fire dynamics simulation module
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TEd510_imQ8?si=UqYY3NfNV0wleplU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-ILM expanded Zeno with simulation modules like **Plume** (GPU fire simulation) and continued to use it on blockbuster films, earning a 2018 Sci-Tech Award [^6].
+ILM **Plume** module was added to Zeno roughly around 2010 for **The Last Airbender** TV Show, Plume is an internal GPU-based fluid simulation tool developed in-house by ILM specifically for high-performance visual effects work. Plume was showcased in technical VFX presentations and is designed to handle complex fluid dynamics simulations, such as smoke, fire, and gaseous effects, using efficient GPU processing (NVIDIA’s CUDA) to enable rapid iteration, preview, and rendering. 
+
+Plume was implemented as a **ray-marching renderer**, where rays are cast from the camera into a 3D scene and iteratively advanced (marched) step-by-step until they reach the surface of an object.
+
+Plume has been used in many blockbuster films, earning a 2018 **Sci-Tech Award**, although nowadays it has mostly been replaced with industry standard software such as **Houdini** [^6].
 
 ---
 ## Module system
