@@ -70,6 +70,18 @@ There was a custom Software Development kit that was created by **SN Systems** b
 # File Formats
 This section lists all the file formats that are useful to know about for reverse engineering or developing PSP games.
 
+## PSP Executable Formats
+On official PSP discs, there are actually two executables included in the SYSDIR folder: **BOOT.BIN** and **EBOOT.BIN** the former is uncompressed/unencrypted and suitable for reverse engineering and the latter is the encrypted version that is loaded by the PSP retail firmware.
+
+* **BOOT.BIN** - uncompressed, unencrypted executable, typically used during development and debugging.
+* **EBOOT.BIN** - encrypted, compressed version of the same executable. Sony’s encryption prevents casual tampering and reverse engineering.
+
+If you only have an **EBOOT.BIN** don't worry there are tools that can decrypt it back into a **BOOT.BIN** such as **PRXDecrypter**.
+
+On retail discs, games almost always ship with both executables, even though only **EBOOT.BIN** is guaranteed to be used by official firmware.
+
+Homebrew/custom firmware can be configured to load either, which is why BOOT.BIN remains useful for modders.
+
 ## PSP Game File Formats
 Officially the PSP either used physical Universal Media Discs (UMD) or PBP files to distrubte games, but there are a variety of formats available for storing PSP games:
 *	**ISO** - The most common format for PSP game files, an ISO is a disc image containing all the game disc’s data, essentially a copy of the Universal Media Disc (UMD) used by the PSP console.
