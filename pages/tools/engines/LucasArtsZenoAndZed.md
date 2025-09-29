@@ -132,7 +132,7 @@ Krome developed these versions with a separate engine tailored for the older har
 
 The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than Havok due to the performance constraints of the PS2/PSP and Wii.
 
-### Files in the PSP Version
+### Files in the PSP Version (Merkury engine)
 If you extract the files from the UMD disc you will get the following file structure:
 * **./PSP_GAME**
   * **ICON0.PNG** – Main XMB game icon (21 KB)  
@@ -165,6 +165,10 @@ If you extract the files from the UMD disc you will get the following file struc
 The main executables are **EBOOT.BIN** and **BOOT.BIN**, it contains the standard firmware update files directory, XMB metadata for the game, some standard **PRX** modules (think DLLs but for the PSP) and there are some PlayStation Media Format (.pmf) videos used for cutscenes and studio logos. 
 
 So it is all pretty standard PSP files apart from the **RKV** archives, these are where all the game data is stored, so any game modding or asset extraction takes places using these files.
+
+Briefly looking at the **BOOT.BIN** executable it looks like it is using the **Merkury** engine which was indeed built by **Krome Studios** and used in other games such as **Star Wars: The Clone Wars - Republic Heroes**. 
+
+This confirms that it is not using the Ronin engine, but in the future it would be good to do further analysis to check if there are any references to Zed, Zeno or even some shared Ronin code in the game.
 
 ---
 ## iOS and N-Gage Version
