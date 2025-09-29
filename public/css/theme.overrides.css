@@ -94,10 +94,10 @@ blockquote {
 }
 
 /* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, .table img, .rr-file-card img, .post-header-icon img {
-  width: unset;
-  margin-left: unset;
-  display: unset;
+.widget-img img, .post-header img, .table img, .rr-file-card img, .post.post-header-icon {
+  width: unset !important;
+  margin-left: unset !important;
+  display: unset !important;
 }
 
 /* Set width static to avoid page layout shifting */
