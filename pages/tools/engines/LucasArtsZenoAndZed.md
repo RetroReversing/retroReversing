@@ -132,6 +132,40 @@ Krome developed these versions with a separate engine tailored for the older har
 
 The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than Havok due to the performance constraints of the PS2/PSP and Wii.
 
+### Files in the PSP Version
+If you extract the files from the UMD disc you will get the following file structure:
+* **./PSP_GAME**
+  * **ICON0.PNG** – Main XMB game icon (21 KB)  
+  * **PARAM.SFO** – Game metadata: title, version, firmware (472 B)  
+  * **PIC0.PNG** – XMB front image (12 KB)  
+  * **PIC1.PNG** – XMB background image (151 KB)  
+  * **SND0.AT3** – Background audio (XMB menu music) (131 KB)  
+  * **SYSDIR**
+    * **BOOT.BIN** – Main game executable (uncompressed) (5.4 MB)  
+    * **EBOOT.BIN** – Main game executable (encrypted/compressed) (5.4 MB)  
+    * **UPDATE**
+      * **DATA.BIN** – Firmware update installer data (19 MB)  
+      * **EBOOT.BIN** – Firmware updater executable (5.4 MB)  
+      * **PARAM.SFO** – Update metadata (2.0 KB)  
+  * **USRDIR**
+    * **PIC1.PNG** – Duplicate XMB background image (150 KB)  
+    * **Attract01_60.pmf** – In-game cutscene/attract video (4.7 MB)  
+    * **Attract02_60.pmf** – In-game cutscene/attract video (2.7 MB)  
+    * **KromeLogo_60.pmf** – Krome Studios logo video (1.2 MB)  
+    * **LucasLogo_60.pmf** – LucasArts logo video (406 KB)  
+    * **LngEN_pp.rkv** – English language archive (55 MB)  
+    * **LngFR_pp.rkv** – French language archive (52 MB)  
+    * **data_pp.rkv** – Main game data archive (models, textures, scripts) (892 MB)  
+    * **audiocodec.prx** – Audio codec module (3.2 KB)  
+    * **libatrac3plus.prx** – ATRAC3+ audio codec library (19 KB)  
+    * **libpsmfplayer.prx** – Video playback module (32 KB)  
+    * **psmf.prx** – Video parser module (6.9 KB)  
+    * **sc_sascore.prx** – Audio library module (5.8 KB)  
+
+The main executables are **EBOOT.BIN** and **BOOT.BIN**, it contains the standard firmware update files directory, XMB metadata for the game, some standard **PRX** modules (think DLLs but for the PSP) and there are some PlayStation Media Format (.pmf) videos used for cutscenes and studio logos. 
+
+So it is all pretty standard PSP files apart from the **RKV** archives, these are where all the game data is stored, so any game modding or asset extraction takes places using these files.
+
 ---
 ## iOS and N-Gage Version
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nD6-8NRrBf0?si=PL8eFICLN32JX_u6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
