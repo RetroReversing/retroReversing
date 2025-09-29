@@ -1,13 +1,17 @@
 <div class="post post-card">
         <div class="post-header">
           <div>
-            <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
+            {% if page.console %}
+              <img class="post-header-icon" src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
+            {% elsif post.thumbnail %}
+              <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
+            {% endif %}
           </div>
-            <div>
-              <h2 class="post-title">
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-              </h2>
-            </div>
+          <div>
+            <h2 class="post-title">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+          </div>
         </div>
   
         <div class="post-thumbnail">
