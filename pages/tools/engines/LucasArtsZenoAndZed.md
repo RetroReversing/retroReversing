@@ -168,7 +168,7 @@ Modules included:
   * **Camera projection** - Zenviro
   * **Facial animation** - Caricature (Cari)
   * **Lighting** - Lux
-  * **Sculpting** - ISulpt [^19]
+  * **Sculpting** - Isculpt [^19]
   * **Animation** - Zeno Poseur [^19]
   * **Particles**
   * **Rotoscoping**
@@ -177,7 +177,10 @@ Modules included:
 
 According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
-Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called Zeno Commodore, but not sure what it is [^19].
+Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called **Zeno Commodore**, but not sure what it is [^19].
+
+### Tentacle Zeno Plugin
+For the film **Pirates of the Caribbean Dead Man's Chest**, **David Meny** designed a Zeno plug-in that allowed animators and technical directors to randomize sucker placement based on a library of sucker variations. The sucker variations were modelled by **Frank Gravatt**, 16 variations in total allowing a lot of visual variation really quickly thanks to Zeno's modular system [^20]. 
 
 ---
 ## MARS - Camera Tracking System module
@@ -294,3 +297,4 @@ ILM’s new pre-visualization tool, built on Zed, allowed directors to *access t
 [^17]: [Game Developer Magazine March 2007](https://archive.org/details/GDM_March_2007/mode/2up?q=ilm+Zeno)
 [^18]: 3D World Magazine September 2005
 [^19]: [Electronic art and animation catalog : SIGGRAPH (Conference) (2004)](https://archive.org/details/electronicartani0000sigg_x6q3/page/194/mode/2up?q=ilm+Zeno)
+[^20]: Cinefex (2006)
