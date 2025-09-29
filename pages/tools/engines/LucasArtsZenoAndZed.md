@@ -77,6 +77,7 @@ Where Zeno ends and Zed begins is a little hard to follow from the outside so th
 * **Revision control** - Stroing previous versions of assets [^18]
 * **Asset Mangement** - Easy access to all assets in a project/scene [^18]
 
+---
 ### Contributers to Zed
 We don't know all the contributers to Zeno/Zed as there is very little information available about it online but these are people that have been mentioned in relation to developing it:
 *  **Nick Porcino** - co-founder of Zed
@@ -87,6 +88,7 @@ We don't know all the contributers to Zeno/Zed as there is very little informati
 *  **Eric Johnston**
 *  **Nick Pavis**
 
+---
 ### Games built with Zed
 Zed played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
 
@@ -178,14 +180,14 @@ These were most likely the precursors for Zeno but some of them may have still b
 Also ILM has a Maya-based character building system known as **Blockparty** due to it feeling like creating characters out of bulding blocks, but not sure it it was integrated with Zeno [^20].
 
 ---
-### The Scene Graph (Shot files)
+## The Zeno Scene Graph (Shot files)
 Zeno handles the entire collection of assets, animations, lighting setups, and other data that make up a scene, offering tools like a **timeline** (to manage animation over time), a **scene graph** (a hierarchical structure organizing scene elements), and a **curve editor** (for controlling animation curves and other parameter changes) [^12].
 
 Under the hood, Zeno's core was a **proprietary scene-graph** file format developed and controlled by ILM, that allowed complex scenes to be broken into many referenced files while remaining seamlessly connected.
 
 Edits could be layered non-destructively: for instance, a technical director could paint a bullet hole decal onto a model in their own layer, and later if a texture artist updated the base texture, the bullet hole would still remain applied on top [^1].
 
-#### Zeno Visual Effect Shot File format (.zshot)
+### Zeno Visual Effect Shot File format (.zshot)
 Based on the one screenshot of Zeno we have, it looks like the scene graph file format had a **.zshot** file extension, presumably standing for Zeno Shot (as in a camera 'shot') but this is just based on the toolbar and may be incorrect.
 
 These files represent the complex scene graph data and networks of operators, data objects (called Oids), and relationships that make up a shot in the VFX pipeline [^6].
@@ -199,6 +201,7 @@ The .zshot files store arbitrary units of a scene, enabling work to be split amo
 ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simulation engine in Zeno for hair, cloth, skin and fluids [^1]. In 2008 he won an Academy Award for Technical Achievement for the fluid simulation system [^14].
 
 ### Zeno Hair simulation in action
+You can see the animatronic Scrunt being made in the youtube video below for the movie **Lady in the Water**, this required compositing for the grass-like hairs on the creature, Zeno's existing hair simulation was used for the task.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kBQtgmiChZw?si=WtVQV28sROgAX2ox" title="The Making of the Scrunt - YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In the September 2006 issue of **Animation Magazine** there is an interview with the Digital Production Supervisor **Doug Smythe** about the work ILM did on **Lady in the Water** in which he states that he modified the hair simulation system in Zeno to output blades of grass rather than hairs for the "Scrunt" creature.
@@ -239,7 +242,20 @@ Modules included:
 According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
 ### Zeno Commodore?
-Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called **Zeno Commodore**, but not sure what it is [^19].
+In the **Electronic art and animation** catalog from SIGGRAPH 2004 it mentions a tool called **Zeno Commodore**, but not sure what it is [^19].
+
+### ILM Dynamic Rigging
+ILM’s Dynamic Rigging system, often associated with their **BlockParty** tool, is an advanced rigging framework designed to streamline the creation of rigged characters and assets for animation and visual effects. It was created by **Jason Smith** for the Transformers movie [^22].
+
+This system allows artists to build detailed, flexible, and reusable rigs that can animate complex creatures as well as mechanical objects like spaceships.
+
+Key features of ILM’s Dynamic Rigging include:
+	*	A comprehensive connection framework that integrates various rigging components consistently.
+	*	A novel graphical user interface and volumetric rig transfer to improve workflow speed and artist productivity.
+	*	The ability to reuse rig components and focus more on the artistic aspects of rigging rather than technical challenges.
+	*	Support for both organic and mechanical rigging needs, treating animateable objects with the same pipeline workflow whether they are living creatures or metallic spaceships.
+
+This rigging system has been recognized for its innovation, earning ILM Scientific and Technical Awards for facilitating rich, complex rigs to be developed more efficiently, supporting the production of high-quality creature animation and effects in major films.
 
 ---
 ### Zeno Tentacle Plugin
@@ -384,3 +400,4 @@ ILM's Zviz previsualization tool was actively used and developed around the earl
 [^19]: [Electronic art and animation catalog : SIGGRAPH (Conference) (2004)](https://archive.org/details/electronicartani0000sigg_x6q3/page/194/mode/2up?q=ilm+Zeno)
 [^20]: Cinefex (2006)
 [^21]: [Zviz: ILM Goes Interactive with Previs - Animation World Network](https://www.awn.com/vfxworld/zviz-ilm-goes-interactive-previs)
+[^22]: [The Rookies - Rookie Awards 2020 Judge - Jason Smith](https://www.therookies.co/contests/groups/rookie-awards-2020/judges/92)
