@@ -68,10 +68,10 @@ There was a custom Software Development kit that was created by **SN Systems** b
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the SN Systems SDK check out this post." %}
 
 ---
-## File Formats
+# File Formats
 This section lists all the file formats that are useful to know about for reverse engineering or developing PSP games.
 
-### PSP Game File Formats
+## PSP Game File Formats
 Officially the PSP either used physical Universal Media Discs (UMD) or PBP files to distrubte games, but there are a variety of formats available for storing PSP games:
 *	**ISO** - The most common format for PSP game files, an ISO is a disc image containing all the game disc’s data, essentially a copy of the Universal Media Disc (UMD) used by the PSP console.
 *	**CSO** - A compressed version of an ISO file that reduces file size for storage and sharing but might result in slightly longer load times during gameplay.
@@ -82,7 +82,7 @@ Officially the PSP either used physical Universal Media Discs (UMD) or PBP files
 
 Additionally, compressed zip and rar archives can sometimes be used by PSP emulators like **PPSSPP** run games without extracting.
 
-#### DAX - Dark_AleX's compressed File Format
+### DAX - Dark_AleX's compressed File Format
 The DAX file format is named after **Dark_AleX**, the pseudonym of a famous Spanish programmer who was a key figure in the PSP hacking and homebrew community. 
 
 Dark_AleX developed custom firmware and various tools that enabled compressed PSP game images, including the DAX format, to overcome storage limitations of early PSP memory sticks.
@@ -91,7 +91,23 @@ Specifically, the DAX ISO compressor was created by Dark_AleX as a solution to t
 
 However more recently users found it more convenient to convert DAX files to the more popular compressed **CSO** format, which offers better compression and compatibility with almost all emulators unlike DAX.
 
-### PSP Development Formats
+### UMD_DATA.BIN
+**UMD_DATA.BIN** is a small binary file found inside PSP game disc images (UMD ISOs). 
+It essentially contains header data about the UMD disc, mainly including the disc ID and partition information. 
+This file helps the PSP or emulators identify and manage the game data on the UMD image correctly.
+
+In the structure of a dumped PSP game ISO, UMD_DATA.BIN serves as metadata that references the partitions (numbered typically 0001 and 0002) and the disc identity. It is crucial for proper loading and launching of the game when the ISO is used on the PSP system or emulators.
+
+It usually contains the following metadata seperated by the pipe (|) character:
+* Game disc ID (e.g "ULUS-10345")
+* Unique disc hash or identifier (e.g "E93842F88AADAA8C")
+* Partition number (e.g 0001) - often partition 0001 for the game data and 0002 for updates or extras
+* additional flags or markers (e.g "G").
+
+Tools like **UMDGen**, commonly used for creating and editing PSP UMD ISO files, can generate or edit UMD_DATA.BIN as part of managing the overall disc image
+
+---
+## PSP Development Formats
 Some file formats used in the creation of PSP games:
 * **GIM** - 2D Image Texture format similar to the PS1 **TIM** image format
 * **GMO** - 3D model format
