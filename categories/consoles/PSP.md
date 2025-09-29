@@ -26,6 +26,8 @@ On this page, we've compiled a list of links to other pages that cover various t
 
 So grab your PSP, and get ready to dive into the exciting world of PSP reverse engineering!
 
+{{ site.category_images[page.console] }}
+
 ---
 # Hardware
 When announced the PSP was claimed to be as powerful as the PS2 and while it was certainly a very powerful system and the most impressive portable console on the market, it didn't quite reach the performance of it's home console sibling.
