@@ -19,52 +19,66 @@ recommend:
 editlink: /tools/engines/LucasArtsZenoAndZed.md
 ---
 
-# Introduction to the Zeno software and the Zed Game Editor
-Back in 2004 George Lucas owned the film company **Industrial Light & Magic** (ILM) along with the games company **LucasArts**, both companies were pioneering in the field of 3D graphics but they didn't directly work with each other.
+# Introduction to Zeno and the Zed Game Editor
+Back in 2004/2005 engineers at **LucasArts** were on a mission to find the best technology for the new "next-generation" consoles (Xbox 360, PS3), they travelled the world assessing various middleware and proprietary game engines [^17]. Unbenounst to them, they would actually find an ideal solution sitting in their own backyard.
 
-This changed in **2003**, when a LucasArts engineer **Nick Porcino** attended an ILM R&D open house and witnessed the power of ILM's in-house **Zeno** 3D pipline software and immedietly thought of the potential for game development [^5]. 
+At that time **George Lucas** owned the film company **Industrial Light & Magic** (ILM) along with the games company **LucasArts**, both companies were pioneering in the field of 3D graphics but they didn't directly work with each other.
 
-Zeno was a modular, ILM-wide hub for 3D content creation and digital asset management that has been in use at ILM since at least 1997 but has never been used in the games industry before.
+This changed when the LucasArts engineer **Nick Porcino** attended an ILM R&D "open house" and witnessed the power of ILM's in-house **Zeno** 3D application framework and immedietly thought of the potential for game development [^5]. 
+
+Zeno helps ILM build and populate digital stages for their films. It contains texture controls, particle generators, and systems for digital actors. Its only drawback is that it's rooted in rendering; each frame is rendered individually in a timeconsuming process, so making changes is very slow going.
+
+Zeno was a modular framework that was used throughout the whole of the ILM studio since at least 1997, to build and populate digital stages for their films. It contained modules for modifying textures, parciles and digital actors. However as Zeno was made for the film industry it was not build for real-time 3D pipelines and this making changes in Zeno was a very time consuming process [^17].
+
+So LucasArts wondered, what if they could modify Zeno to add real-time viewing of assets at runtime using game engine technology, this would not only benefit LucasArts but the whole of ILM would benefit from being able to view assets in real-time. 
+
+By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
+
+Thus the real time Zeno Editor known as **Zed** was born and was slowly gaining more and more collaborators in both LucasArts and ILM!
 
 ## Bringing the Games and Film industries together
 ![LDAC - Presidio Campus](https://github.com/user-attachments/assets/c5109988-c0f0-4daf-a1e0-530200ab0100)
 
-By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
+At roughly the same time as the Zed project was taking off, George Lucas wanted to bring ILM and LucasArts even closer together, pjysically this time. He consolidated the offices and moved both LucasArts and ILM to the **Letterman Digital Arts Center** (LDAC) in Presidio California. 
 
-One way to do this was physically bringing the two companies closer together, by moving the ILM and LucasArts offices to inside the Letterman Digital Arts Center (LDAC) in Presidio. This move was a driving force behind the Zeno pipeline, as it was much easier to collaborate between the two companies.
-
-LucasArts president **Jim Ward** stated the following in **Computer Graphics World Magazine** [^11]:
->In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself," says LucasArts president Jim Ward. "And it’s key to rebooting our game studio."
-
-It then goes on to mention the Indiana Jones game that would later be cancelled:
->To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its Zeno Game Editor, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
+This accellerated development of both Zeno and Zed and was praised by the LucasArts president **Jim Ward** in **Computer Graphics World Magazine** [^11]:
+>In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself, and it’s key to rebooting our game studio."
 
 ## Zed - The Zeno Game Editor (2004)
 ![GDC 2006 - LucasArts and ILM: A Case Study in the Convergence of Game and Films](https://github.com/user-attachments/assets/bed57a7a-8efa-4a67-bd95-e9d911ecae4c)
 
-After attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^10].
+We learn more about the birth of the Zeno Game Editor (Zed) in a 2006 **Game Developer Conference** (GDC) Talk titled "LucasArts and ILM: A Case Study in the Convergence of Game and Films".
 
-The result was a new project in 2004 known as **Zed** (Zeno Editor), it provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
+The story goes that after attending the ILM Open House and witnessing Zeno for the first time **Nick Porcino** and **Steve Sullivan** together envisioned a **Virtual Studio** integrating **LucasArts** and **ILM pipelines** together [^10].
+
+The result known as **Zed** (Zeno Editor), provided a direct link between the game production process and the sophisticated asset management, lighting, animation, and physics tools pioneered at **Industrial Light & Magic**, supporting rapid iteration and collaborative workflows in large-scale projects.
 
 These tools formed the backbone of the pipeline that linked LucasArts and ILM, ensuring assets and scenes could be collaboratively developed and transferred in real-time.
 
-It played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
+It was designed by **Tim Ramsay**, **Eric Johnston**, **Nick Porcino**, and **Nick Pavis** as a modular engine so **both LucasArts and ILM developers could work on it simultaneously** [^4]. 
 
-In 2005, ILM CTO **Cliff Plumer** explained: 
-> We’ve been working on collaborative tools with LucasArts for 18 months…"Zed", which is LucasArts’ game engine, will have a live connection to Zeno [^1].
+### Games built with Zed
+Zed played a major role in the development of games like **Star Wars: The Force Unleashed**, allowing seamless coordination between game asset creation and in-engine testing.
 
-It was designed by **Tim Ramsay**, **Eric Johnston**, **Nick Porcino**, and **Nick Pavis** as a modular engine so **both LucasArts and ILM developers could work on it simultaneously**[^4]. 
+Zed was intended not just for star wars but also a future Indiana Jones game that would later be cancelled:
+>To create its upcoming Indiana Jones 2007 and next-gen Star Wars titles, LucasArts will also be using its **Zeno Game Editor**, which is incorporated into ILM’s Zeno Development Environment, allowing both film and game artists access to the same tools. LucasArts can now use ILM’s high-end art creation software, while ILM can tap into LucasArts’ real-time technology, which underlies their previsualization tools [^11]
 
-## The Ronin Engine - Star Wars: The Force Unleashed
-While Zed was the game editor software used for building the game, to actually execute the scenes created in Zed on the PS3 or Xbox 360 would require a game engine.
+---
+# The Ronin Engine - Star Wars: The Force Unleashed
+In 2005, ILM Chief Technology Officer **Cliff Plumer** called Zed the LucasArts Game Engine: 
+> We’ve been working on collaborative tools with LucasArts for 18 months… Zed, which is LucasArts’ game engine, will have a live connection to Zeno [^1].
 
-Thanks to **The Art and Making of Star Wars The Force Unleashed** from 2008 we learn that the game engine is called **Ronin** and although it was only used for the 1 game it was intended to be used as the basis for multiple including a cancelled Indiana Jones title [^13].
+Which is somewhat true as it provided real time rendering to the Zeno platform as a sort of PC game engine, however its not to be confused with the actual game engine that ran Zed games on consumer hardware such as the Xbox 360 and PS3. So as to avoid confusion this article will call Zed the Game editor (think IDE) and Ronin the Game Engine.
+
+So while Zed was the game editor software used for building the game, to actually execute the scenes created in Zed on the PS3 or Xbox 360 would require a game engine.
+
+Thanks to **The Art and Making of Star Wars The Force Unleashed** from 2008 we learn that the game engine is called **Ronin** and although it was only used for the one game it was intended to be used as the basis for multiple including a cancelled Indiana Jones title [^13].
 
 In this article we will use **Zed** to refer to the game development tooling based on Zeno and **Ronin** to refer to the game engine which ran on PS3 and Xbox 360 and was used for **Star Wars: The Force Unleashed**.
 
 There was also a Wii and PS2 version developed but it is unclear how much of the Ronin game engine code they used, they are known to use their own in-house physics engine instead of Havok [^3].
 
-### Middleware in Ronin
+## Middleware in Ronin
 Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physics; an E3 2006 demo compared throwing R2-D2 at wood in a traditional engine vs. Ronin's real-time physics [^7] along with the following middleware:
 * Havok [^4]
 * DMM - Pixelux Entertainment's Digital Molecular Matter [^4]
@@ -73,8 +87,9 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 ---
 # The Zeno Application Framework
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
+To find out more about Zed and Ronin we need to take a look at the underlying foundation - the Zeno Application Framework, also known as the Zeno development environment.
 
-**Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
+Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
 
 The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** and was primarily designed to produce living creatures rather than entire movies [^12]. 
 
@@ -243,3 +258,4 @@ Although the **1313** project was cancelled after Disney shut down LucasArts in 
 [^14]: [Professor Ron Fedkiw shares Academy Award for software to digitize destruction - Stanford University School of Engineering](https://engineering.stanford.edu/news/professor-ron-fedkiw-shares-academy-award-software-digitize-destruction)
 [^15]: [Stumbling Toward 'Awesomeness'Geodesic Voxel Binding in Maya 2015 - Stumbling Toward 'Awesomeness'](http://www.chrisevans3d.com/pub_blog/geodesic-voxel-binding-maya-2015/)
 [^16]: [Animation Magazine September 2006](https://archive.org/details/Animation_Magazine_September_2006/page/52/mode/2up?q=ilm+Zeno)
+[^17]: [Game Developer Magazine March 2007](https://archive.org/details/GDM_March_2007/mode/2up?q=ilm+Zeno)
