@@ -94,18 +94,20 @@ ILM also collaborated with Stanford’s **Ron Fedkiw** to build a unified simula
 
 
 ## Module system
-Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, timeline, curve editor, and module system – all centered on efficient workflow [^1]. 
+Zeno was envisioned as a **fundamental VFX toolset** – essentially an extensible framework with a **scene graph**, **timeline**, **curve editor**, and **module system** – all centered on efficient workflow [^1]. 
 
 Modules included:
   * **Camera Tracking** - MARS
   * **Camera projection** - Zenviro
   * **Facial animation** - Caricature (Cari)
   * **Lighting** - Lux
-  * **Sculpting**
+  * **Sculpting** - Zeno Sulpt?
   * **Particles**
   * **Rotoscoping**
   * **Match-moving**
   * **Painting**
+
+According to **Chris Evans** who used to work at ILM [^15] Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
 
 ---
 ## Integration with multiple programs
@@ -231,3 +233,4 @@ Although the **1313** project was cancelled after Disney shut down LucasArts in 
 [^12]: [War of the Worlds - Retro Articles - DIGITAL PRODUCTION](https://digitalproduction.com/2023/02/08/krieg-der-welten-retro-artikel/)
 [^13]: The Art and Making of Star Wars The Force Unleashed (2008)
 [^14]: [Professor Ron Fedkiw shares Academy Award for software to digitize destruction - Stanford University School of Engineering](https://engineering.stanford.edu/news/professor-ron-fedkiw-shares-academy-award-software-digitize-destruction)
+[^15]: [Stumbling Toward 'Awesomeness'Geodesic Voxel Binding in Maya 2015 - Stumbling Toward 'Awesomeness'](http://www.chrisevans3d.com/pub_blog/geodesic-voxel-binding-maya-2015/)
