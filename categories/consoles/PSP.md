@@ -6,7 +6,6 @@ recommend: psp
 recommendTitle: All PSP Posts
 editlink: ../categories/consoles/PSP.md
 console: 'psp'
-consoleimage: /public/consoles/psp.svg
 thumbnail: /public/consoles/psp.svg
 excerpt: Awesome list of Sony Playstation Portable Game Development and Reverse Engineering information
 breadcrumbs:
@@ -109,8 +108,18 @@ Tools like **UMDGen**, commonly used for creating and editing PSP UMD ISO files,
 ---
 ## PSP Development Formats
 Some file formats used in the creation of PSP games:
-* **GIM** - 2D Image Texture format similar to the PS1 **TIM** image format
-* **GMO** - 3D model format
+* **.GIM** - 2D Image Texture format similar to the PS1 **TIM** image format
+* **.GMO** - 3D model format
+* **.PMF** - PlayStation Media Format used for full-motion video in games
+
+### .PMF - PlayStation Media Format
+On the PSP, .pmf files are PlayStation Media Format containers. They are a proprietary Sony format used mainly for full-motion video (FMV) in games e.g for logos, intro movies, attract/demo sequences, cutscenes and credits.
+
+Internally, PMF files are very similar to MPEG-4 video with H.264-like video and ATRAC3+ audio.
+
+They are typically played with the **psmf.prx** and **libpsmfplayer.prx** modules.
+
+They are not essential to gameplay itself so they can be removed and the game usually still runs, but it may crash when trying to load the missing FMV unless the executable is patched. So its best to replace them with 0 byte files if you want to save space or skip cutscenes.
 
 ---
 # All Posts
