@@ -31,7 +31,7 @@ So grab your PSP, and get ready to dive into the exciting world of PSP reverse e
 When announced the PSP was claimed to be as powerful as the PS2 and while it was certainly a very powerful system and the most impressive portable console on the market, it didn't quite reach the performance of it's home console sibling.
 
 The PSP was made up of:
-* Dual Core MIPS 32bit CPU with SIMD Matrix coprocessor
+* Dual Core MIPS 32-bit CPU with SIMD Matrix coprocessor
 * GPU with embedded memory (Fixed Function Pipeline)
 * Sound processing on second CPU core
 
@@ -41,7 +41,7 @@ For an in-depth look at the Playstation Portable's Retail hardware architecture 
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-portable/" description="Check out the page on Copetti.org" image="/public/consoles/Sony PSP.png" title="PlayStation Portable Architecture - A Practical Analysis"  %}
 
 ### ALLEGREX CPU
-The main CPU in the PSP was the ALLEGREX.
+The main CPU in the PSP was the **ALLEGREX**.
 
 ### VFPU - Vector Floating-point processor
 The VFPU operates as a coprocessor for ALLEGREX it is a 128-bit vector floating-point processor.
@@ -67,15 +67,27 @@ There was a custom Software Development kit that was created by **SN Systems** b
 
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the SN Systems SDK check out this post." %}
 
+---
 ## File Formats
+This section lists all the file formats that are useful to know about for reverse engineering or developing PSP games.
 
+### PSP Game File Formats
+Officially the PSP either used physical Universal Media Discs (UMD) or PBP files to distrubte games, but there are a variety of formats available for storing PSP games:
+*	**ISO** - The most common format for PSP game files, an ISO is a disc image containing all the game disc’s data, essentially a copy of the Universal Media Disc (UMD) used by the PSP console.
+*	**CSO** - A compressed version of an ISO file that reduces file size for storage and sharing but might result in slightly longer load times during gameplay.
+*	**PBP** - Used for official PSP game files downloaded from the PlayStation Network, this format contains multiple compressed files such as the game executable, data, and media.
+*	**CHD** - Another compressed and compact format supported by many PSP emulators.
+*	**DAX** - An older compressed game file format used with early custom firmware.
+*	**ELF** - Contains the executable code of a PSP game and is usually associated with homebrew applications.
+
+Additionally, compressed zip and rar archives can sometimes be used by PSP emulators like **PPSSPP** run games without extracting.
+
+### PSP Development Formats
 Some file formats used in the creation of PSP games:
-* GIM - 2D Image Texture format similar to TIM on PS1
-* GMO - 3D model format
+* **GIM** - 2D Image Texture format similar to the PS1 **TIM** image format
+* **GMO** - 3D model format
 
 ---
 # All Posts
-<div>
 
 {% include console.html %}
-</div>
