@@ -168,13 +168,16 @@ Modules included:
   * **Camera projection** - Zenviro
   * **Facial animation** - Caricature (Cari)
   * **Lighting** - Lux
-  * **Sculpting** - Zeno Sulpt?
+  * **Sculpting** - ISulpt [^19]
+  * **Animation** - Zeno Poseur [^19]
   * **Particles**
   * **Rotoscoping**
   * **Match-moving**
   * **Painting**
 
-According to **Chris Evans** who used to work at ILM [^15] Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
+According to **Chris Evans** who used to work at ILM, Zeno had **Geodesic Voxel Binding** before it was introduced in Maya 2015, which used mesh normals to eliminate crosstalk between manifold parts like fingers [^15].
+
+Also in the Electronic art and animation catalog from SIGGRAPH 2004 it mentions a tool called Zeno Commodore, but not sure what it is [^19].
 
 ---
 ## MARS - Camera Tracking System module
@@ -220,7 +223,6 @@ Cari was later integrated into Zeno as stated on the official Lucasfilm website 
 ---
 ## Lux - Zeno’s interactive lighting tool
 Zeno’s interactive lighting tool **Lux** enabled artists to place and adjust lights in a true 3D context while seeing immediate feedback [^2]. Lux is true 3D lighting for particles and creatures that brings match-moving, interactive lighting, and texture painting together. The shots were later rendered with Pixar’s **RenderMan** and Mental Images’ **Mental Ray** [^1].
-
 
 Technical Directors in Zeno adjusted the direction and flicker of the Tripods’ headlights during lighting, and applied procedural 2D noise to create an "organic" glow in the alien windows — all without leaving the lighting interface [^2].
 
@@ -291,3 +293,4 @@ ILM’s new pre-visualization tool, built on Zed, allowed directors to *access t
 [^16]: [Animation Magazine September 2006](https://archive.org/details/Animation_Magazine_September_2006/page/52/mode/2up?q=ilm+Zeno)
 [^17]: [Game Developer Magazine March 2007](https://archive.org/details/GDM_March_2007/mode/2up?q=ilm+Zeno)
 [^18]: 3D World Magazine September 2005
+[^19]: [Electronic art and animation catalog : SIGGRAPH (Conference) (2004)](https://archive.org/details/electronicartani0000sigg_x6q3/page/194/mode/2up?q=ilm+Zeno)
