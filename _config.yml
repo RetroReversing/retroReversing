@@ -56,8 +56,8 @@ category_images:
   atari_5200: /public/consoles/Atari 5200.png
   atari_7800: /public/consoles/Atari 7800.png
   atari_800: /public/consoles/Atari 800.png
-  atari_jaguar: /public/consoles/Atari Jaguar.png
-  atari_lynx: /public/consoles/Atari Lynx.png
+  jaguar: /public/consoles/Atari Jaguar.png
+  lynx: /public/consoles/Atari Lynx.png
   atari_st: /public/consoles/Atari ST.png
   colecovision: /public/consoles/Colecovision.png
   commodore_64: /public/consoles/Commodore 64.png
@@ -65,17 +65,17 @@ category_images:
   commodore_cdtv: /public/consoles/Commodore CDTV.png
   computer_modern: /public/consoles/Computer Modern.png
   computer_old_design: /public/consoles/Computer Old Design.png
-  gce_vectrex: /public/consoles/GCE Vectrex.png
+  vectrex: /public/consoles/GCE Vectrex.png
   magnavox_odyssey_2: /public/consoles/Magnavox Odyssey 2.png
   magnavox_odyssey: /public/consoles/Magnavox Odyssey.png
   matell_intellivision: /public/consoles/Matell Intellivision.png
-  microsoft_xbox_360: /public/consoles/Microsoft Xbox 360.png
-  microsoft_xbox: /public/consoles/Microsoft Xbox.png
+  360: /public/consoles/Microsoft Xbox 360.png
+  xbox: /public/consoles/Microsoft Xbox.png
   nec_pc_engine_cd: /public/consoles/Nec PC Engine CD.png
   nec_pc_engine: /public/consoles/Nec PC Engine.png
   nec_pc_fx: /public/consoles/Nec PC FX.png
   nec_turbografx16_cd: /public/consoles/Nec TurboGrafx16 CD.png
-  nintendo_3ds: /public/consoles/Nintendo 3DS.png
+  3ds: /public/consoles/Nintendo 3DS.png
   n64: /public/consoles/Nintendo 64.png
   nds: /public/consoles/Nintendo DS.png
   nes: /public/consoles/Nintendo Entertainment System.png
@@ -87,29 +87,29 @@ category_images:
   gamecube: /public/consoles/Nintendo Gamecube.png
   satellaview: /public/consoles/Nintendo Satellaview.png
   switch: /public/consoles/Nintendo Switch.png
-  nintendo_virtual_boy: /public/consoles/Nintendo Virtual Boy.png
-  nintendo_wii: /public/consoles/Nintendo Wii.png
-  nintendo_wiiu: /public/consoles/Nintendo WiiU.png
+  virtualboy: /public/consoles/Nintendo Virtual Boy.png
+  wii: /public/consoles/Nintendo Wii.png
+  wiiu: /public/consoles/Nintendo WiiU.png
   pc_engine_supergrafx: /public/consoles/PC Engine SuperGrafx.png
-  panasonic_3do: /public/consoles/Panasonic 3DO.png
+  3do: /public/consoles/Panasonic 3DO.png
   philips_cdi: /public/consoles/Philips CD-i.png
   pinball: /public/consoles/Pinball.png
   pokemonmini: /public/consoles/PokemonMini.png
-  sega_cd: /public/consoles/SEGA CD.png
+  segacd: /public/consoles/SEGA CD.png
   snk_neo_geo_pocket_color: /public/consoles/SNK Neo Geo Pocket Color.png
   snk_neo_geo_pocket: /public/consoles/SNK Neo Geo Pocket.png
   snk_neo_geo_cd: /public/consoles/SNK Neo-Geo CD.png
-  snk_neo_geo: /public/consoles/SNK Neo-Geo.png
-  sega_master_system: /public/consoles/Sega - Master System.png
-  sega_32x: /public/consoles/Sega 32X.png
-  sega_dreamcast: /public/consoles/Sega Dreamcast.png
+  neogeo: /public/consoles/SNK Neo-Geo.png
+  mastersystem: /public/consoles/Sega - Master System.png
+  32x: /public/consoles/Sega 32X.png
+  dreamcast: /public/consoles/Sega Dreamcast.png
   gamegear: /public/consoles/Sega Game Gear.png
-  sega_genesis: /public/consoles/Sega Genesis.png
+  genesis: /public/consoles/Sega Genesis.png
   sega_mark_iii: /public/consoles/Sega Mark lll.png
-  sega_megadrive: /public/consoles/Sega Megadrive.png
+  megadrive: /public/consoles/Sega Megadrive.png
   sega_sc3000: /public/consoles/Sega SC-3000.png
-  sega_sg1000: /public/consoles/Sega SG-1000.png
-  sega_saturn: /public/consoles/Sega Saturn.png
+  sg1000: /public/consoles/Sega SG-1000.png
+  saturn: /public/consoles/Sega Saturn.png
   sinclair_zx_spectrum: /public/consoles/Sinclair ZX Spectrum.png
   psp: /public/consoles/psp.svg
   sony_psvita: /public/consoles/Sony PSVita.png
