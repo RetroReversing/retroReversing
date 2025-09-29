@@ -7,7 +7,6 @@ recommendTitle: All 3DO Posts
 editlink: ../categories/consoles/3ds.md
 console: '3do'
 excerpt: Awesome list of 3DO Game Development and Reverse Engineering information
-consoleimage: /public/consoles/3DO.png
 thumbnail: /public/consoles/3DO.png
 breadcrumbs:
   - name: Home
