@@ -124,12 +124,14 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 
 ---
 # The Zeno Application Framework
+![Zeno 3.9.7 from September 13th 2013](https://github.com/user-attachments/assets/63219e5f-8877-4725-b1b7-4fdbbfdd5308)
+
 <img width="800" height="608" alt="Davy Jones in Zeno" src="https://github.com/user-attachments/assets/d3fd187c-e072-47ee-9d24-c063c4224c29" />
 To find out more about Zed we need to take a look at the underlying foundation - the Zeno Application Framework. As ILM are very secrative, very few details or screenshots are available online about Zeno so some of the information may be incorrect.
 
 Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
 
-The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** and was primarily designed to produce living creatures rather than entire movies [^12]. 
+The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. The second was based on **Softimage scene files** (.zshot extension?) and was primarily designed to produce living creatures rather than entire movies [^12]. 
 
 ## Initial Development
 Industrial Light & Magic (ILM) began developing **Zeno** in the late 1990s (~1997) as an in-house content creation framework to unify their visual effects pipeline [^6].
@@ -156,10 +158,13 @@ These would be placed on the original model which was built in **Autodesk Maya**
 
 Animators then added details such as twigs and branches on the Scrunt's face using **Pixologic’s Zbrush** along with adding  additional woody material around its nose.
 
-### Plume - GPU fluid/fire dynamics simulation module
+### Plume - GPU fluid/fire dynamics simulation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TEd510_imQ8?si=UqYY3NfNV0wleplU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-ILM **Plume** module was added to Zeno roughly around 2010 for **The Last Airbender** TV Show, Plume is an internal GPU-based fluid simulation tool developed in-house by ILM specifically for high-performance visual effects work. Plume was showcased in technical VFX presentations and is designed to handle complex fluid dynamics simulations, such as smoke, fire, and gaseous effects, using efficient GPU processing (NVIDIA’s CUDA) to enable rapid iteration, preview, and rendering. 
+ILM **Plume** module was added to Zeno roughly around 2009 for **The Last Airbender** TV Show, Plume is an internal GPU-based fluid simulation tool developed in-house by ILM specifically for high-performance visual effects work. Plume was showcased in technical VFX presentations and is designed to handle complex fluid dynamics simulations, such as smoke, fire, and gaseous effects, using efficient GPU processing (NVIDIA’s CUDA) to enable rapid iteration, preview, and rendering. 
+
+![Plume screenshot](https://github.com/user-attachments/assets/9277f5e5-1ec4-49d1-bd85-571544c2b699)
+
 
 Plume was implemented as a **ray-marching renderer**, where rays are cast from the camera into a 3D scene and iteratively advanced (marched) step-by-step until they reach the surface of an object.
 
