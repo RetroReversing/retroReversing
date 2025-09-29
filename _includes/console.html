@@ -1,5 +1,9 @@
-  {% for post in site.pages %}
+<div class="console-pages">
+{% for post in site.pages %}
     {% if post.tags contains page.console %}
+  <div>
       {% include post-list-cards.html %}
+  </div>
     {% endif %}
   {% endfor %}
+</div>
