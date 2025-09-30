@@ -9,108 +9,115 @@ breadcrumbs:
     url: /gameengines
   - name: Krome Studios Merkury Engine
     url: #
-tags: 
-- middleware
-- gameengines
+tags:
+  - middleware
+  - gameengines
 recommend:
-- middleware
-- gameengines
+  - middleware
+  - gameengines
 editlink: /tools/engines/KromeMerkuryEngine.md
 _image: /public/consoles/Tools.jpg
 ---
 
 ## Introduction
-The **Merkury** game engine is a proprietary game engine developed by **Krome Studios** and is known to run on PS2, PSP and Wii. 
-It is most famous for their custom versions of **Star Wars: The Force Unleashed** for the less powerful consoles, as the LucasArts version for Xbox 360 and PS3 was too power hungry to run on the PS2, PSP and Wii.
-There were still many gamers who had these less powerful consoles and so was a lucrative market to tap into and thus a custom version of the game was born on an existing engine built by Krome Studios for past games: **Merkury**.
 
-## Known Merkury Engine games
-Based on our analysis of the game files, the games we are confident are definitely using the Merkury engine are the following:
-* **Star Wars: The Force Unleashed** - only the PS2, PSP and Wii versions of the game
-* **Star Wars: The Clone Wars - Republic Heroes**
+The **Merkury** engine is a proprietary game engine developed by **Krome Studios**, known to run on PS2, PSP, and Wii.  
+It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP, or Wii.  
+Because a significant installed base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**.
 
-Although not confirmed using game file analysis it is claimed that the following are also using the Merkury Engine:
-* **Star Wars: The Force Unleashed** - Switch version (apparently its a port of the wii version rather than the Xbox 360/PS3 Ronin engine versions)
+## Known Merkury Engine Games
+
+From our analysis of game files, we are confident that the following titles use the Merkury engine:
+
+* **Star Wars: The Force Unleashed** — PS2, PSP, and Wii versions
+* **Star Wars: The Clone Wars – Republic Heroes**
+
+Although not confirmed via file analysis, the following is often claimed:
+
+* **Star Wars: The Force Unleashed** — Switch version (reportedly a port of the Wii version rather than the Ronin‑based Xbox 360/PS3 version)
 
 ---
-## Possible Merkury engine games
-Since we don't yet know all the games that used the Merkury engine, here is a table of the major games developed by Krome Studios, spanning various platforms since their founding:
+
+## Possible Merkury Engine Titles
+
+Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
 | Game Title                                         | Platform(s)                                             | Year         |
 |----------------------------------------------------|---------------------------------------------------------|--------------|
-| Mike Stewart's Pro Bodyboarding                    | Windows                                                | 1999         |
-| Championship Surfer                                | Windows, PlayStation, Dreamcast                        | 2000         |
-| Barbie Beach Vacation                              | Windows                                                | 2001         |
-| Disney's Extremely Goofy Skateboarding             | Windows                                                | 2001         |
-| Sunny Garcia Surfing                               | PlayStation 2                                          | 2001         |
-| Barbie: Sparkling Ice Show                         | Windows                                                | 2002         |
-| Ty the Tasmanian Tiger                             | PlayStation 2, Xbox, GameCube, Windows, HD Remasters   | 2002         |
-| The Adventures of Jimmy Neutron: Jet Fusion        | PlayStation 2, GameCube                                | 2003         |
-| Ty the Tasmanian Tiger 2: Bush Rescue              | PlayStation 2, Xbox, GameCube, Windows, HD Remasters   | 2004         |
-| King Arthur                                        | PlayStation 2, Xbox, GameCube                          | 2004         |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan     | PlayStation 2, Xbox, GameCube, Windows, HD Remasters   | 2005         |
-| The Legend of Spyro: A New Beginning               | PS2, Xbox, GameCube, GBA                               | 2006         |
-| The Legend of Spyro: The Eternal Night             | PS2, Wii                                               | 2007         |
-| Viva Piñata: Party Animals                         | Xbox 360                                               | 2007         |
-| Hellboy: The Science of Evil                       | PS3, Xbox 360, PSP                                     | 2008         |
-| Star Wars: The Force Unleashed                     | PS2, PSP, Wii, Nintendo Switch                         | 2008, 2022   |
-| Star Wars: The Clone Wars – Lightsaber Duels       | Wii                                                    | 2008         |
-| Scene It? Box Office Smash                         | Xbox 360                                               | 2008         |
-| Star Wars: The Clone Wars – Republic Heroes        | PS3, Xbox 360, Wii, PS2, PSP, Windows                  | 2009         |
-| Transformers: Revenge of the Fallen                | PS2, Wii                                               | 2009         |
-| Game Room                                          | Xbox 360, Windows, Windows Phone 7                     | 2010         |
-| Blade Kitten                                       | PlayStation 3, Xbox 360, Windows                       | 2010, 2012   |
-| Legend of the Guardians: The Owls of Ga'Hoole      | Xbox 360, PS3, Wii                                     | 2010         |
-| Full House Poker                                   | Xbox 360, Windows Phone 7                              | 2011         |
-| Backyard Sports Basketball 2015                    | iOS, Android, Windows                                  | 2015         |
-| Ty the Tasmanian Tiger 4                           | Windows                                                | 2015         |
-| Ty the Tasmanian Tiger HD                          | Xbox One, Series X/S, Switch, PS4, Windows             | 2016, 2020   |
-| Ty the Tasmanian Tiger 2: Bush Rescue HD           | Xbox One, Series X/S, Switch, PS4, Windows             | 2017, 2021   |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows                                                | 2018         |
-| The Bard's Tale Trilogy                            | Windows, Xbox One                                      | 2018, 2019   |
-| Wasteland Remastered                               | Windows, Xbox One                                      | 2020         |
-| Ty the Tasmanian Tiger 4: Bush Rescue Returns      | Nintendo Switch                                        | 2023         |
-| Monster Dash                                       | iOS, Android                                           | 2016/ongoing |
-| Gizmotablet (Kid World, Verizon)                   | Android Tablet (EdTech)                                | 2018         |
+| Mike Stewart's Pro Bodyboarding                    | Windows                                                 | 1999         |
+| Championship Surfer                                | Windows, PlayStation, Dreamcast                         | 2000         |
+| Barbie Beach Vacation                              | Windows                                                 | 2001         |
+| Disney's Extremely Goofy Skateboarding             | Windows                                                 | 2001         |
+| Sunny Garcia Surfing                               | PlayStation 2                                           | 2001         |
+| Barbie: Sparkling Ice Show                         | Windows                                                 | 2002         |
+| Ty the Tasmanian Tiger                             | PS2, Xbox, GameCube, Windows, HD Remasters              | 2002         |
+| The Adventures of Jimmy Neutron: Jet Fusion        | PS2, GameCube                                            | 2003         |
+| Ty the Tasmanian Tiger 2: Bush Rescue              | PS2, Xbox, GameCube, Windows, HD Remasters              | 2004         |
+| King Arthur                                        | PS2, Xbox, GameCube                                     | 2004         |
+| Ty the Tasmanian Tiger 3: Night of the Quinkan     | PS2, Xbox, GameCube, Windows, HD Remasters              | 2005         |
+| The Legend of Spyro: A New Beginning               | PS2, Xbox, GameCube, GBA                                | 2006         |
+| The Legend of Spyro: The Eternal Night             | PS2, Wii                                                | 2007         |
+| Viva Piñata: Party Animals                         | Xbox 360                                                 | 2007         |
+| Hellboy: The Science of Evil                       | PS3, Xbox 360, PSP                                       | 2008         |
+| Star Wars: The Force Unleashed                     | PS2, PSP, Wii, Nintendo Switch                          | 2008, 2022    |
+| Star Wars: The Clone Wars – Lightsaber Duels       | Wii                                                     | 2008         |
+| Scene It? Box Office Smash                         | Xbox 360                                                 | 2008         |
+| Star Wars: The Clone Wars – Republic Heroes        | PS3, Xbox 360, Wii, PS2, PSP, Windows                   | 2009         |
+| Transformers: Revenge of the Fallen                | PS2, Wii                                                 | 2009         |
+| Game Room                                          | Xbox 360, Windows, Windows Phone 7                      | 2010         |
+| Blade Kitten                                       | PS3, Xbox 360, Windows                                  | 2010, 2012    |
+| Legend of the Guardians: The Owls of Ga'Hoole      | Xbox 360, PS3, Wii                                       | 2010         |
+| Full House Poker                                   | Xbox 360, Windows Phone 7                               | 2011         |
+| Backyard Sports Basketball 2015                    | iOS, Android, Windows                                   | 2015         |
+| Ty the Tasmanian Tiger 4                           | Windows                                                 | 2015         |
+| Ty the Tasmanian Tiger HD                          | Xbox One, Series X/S, Switch, PS4, Windows              | 2016, 2020    |
+| Ty the Tasmanian Tiger 2: Bush Rescue HD           | Xbox One, Series X/S, Switch, PS4, Windows              | 2017, 2021    |
+| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows                                                 | 2018         |
+| The Bard’s Tale Trilogy                            | Windows, Xbox One                                       | 2018, 2019    |
+| Wasteland Remastered                               | Windows, Xbox One                                       | 2020         |
+| Ty the Tasmanian Tiger 4: Bush Rescue Returns      | Nintendo Switch                                         | 2023         |
+| Monster Dash                                       | iOS, Android                                            | 2016 / ongoing |
+| Gizmotablet (Kid World, Verizon)                   | Android Tablet (EdTech)                                 | 2018         |
 
 ---
-# Star Wars: The Force Unleashed (PS2, PSP and Wii Version)
-The PS2, PSP and Wii versions of "Star Wars: The Force Unleashed" are not built by **LucasArts** like the Xbox 360 and PS3 versions of the same game and thus are not using the proprietary LucasArts **Ronin** engine. 
+
+## Star Wars: The Force Unleashed (PS2, PSP, Wii Versions)
+Unlike the Xbox 360 and PS3 versions of **Star Wars: The Force Unleashed** the PS2, PSP and Wii versions were not built by **LucasArts** or use the **Ronin** engine.
 Instead they were developed by **Krome Studios**, a completely separate studio known for action-platformers and movie tie-in games.
 
 Krome developed these versions with a separate engine tailored for the older hardware and with unique content and gameplay elements. It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used by a third party developer, so we presume these versions were not made using Zed and any assets were either sent over manually to the studio or made custom by **Krome**.
 
-The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than **Havok** (which was used in PS3/Xbox 360 versions) due to the performance constraints of the PS2, PSP and Wii.
+Because of hardware constraints, these versions use the **Open Dynamics Engine (ODE)** for physics, rather than **Havok**, which powers the Xbox 360 / PS3 versions.
 
 ## Files in the PSP Version (UMD Disc contents)
 If you extract the files from the UMD disc you will get the following file structure:
-* **./PSP_GAME**
-  * **ICON0.PNG** – Main XMB game icon (21 KB)  
-  * **PARAM.SFO** – Game metadata: title, version, firmware (472 B)  
-  * **PIC0.PNG** – XMB front image (12 KB)  
-  * **PIC1.PNG** – XMB background image (151 KB)  
-  * **SND0.AT3** – Background audio (XMB menu music) (131 KB)  
-  * **SYSDIR**
-    * **BOOT.BIN** – Main game executable (uncompressed) (5.4 MB)  
-    * **EBOOT.BIN** – Main game executable (encrypted/compressed) (5.4 MB)  
-    * **UPDATE**
-      * **DATA.BIN** – Firmware update installer data (19 MB)  
-      * **EBOOT.BIN** – Firmware updater executable (5.4 MB)  
-      * **PARAM.SFO** – Update metadata (2.0 KB)  
-  * **USRDIR**
-    * **PIC1.PNG** – Duplicate XMB background image (150 KB)  
-    * **Attract01_60.pmf** – In-game cutscene/attract video (4.7 MB)  
-    * **Attract02_60.pmf** – In-game cutscene/attract video (2.7 MB)  
-    * **KromeLogo_60.pmf** – Krome Studios logo video (1.2 MB)  
-    * **LucasLogo_60.pmf** – LucasArts logo video (406 KB)  
-    * **LngEN_pp.rkv** – English language archive (55 MB)  
-    * **LngFR_pp.rkv** – French language archive (52 MB)  
-    * **data_pp.rkv** – Main game data archive (models, textures, scripts) (892 MB)  
-    * **audiocodec.prx** – Audio codec module (3.2 KB)  
-    * **libatrac3plus.prx** – ATRAC3+ audio codec library (19 KB)  
-    * **libpsmfplayer.prx** – Video playback module (32 KB)  
-    * **psmf.prx** – Video parser module (6.9 KB)  
-    * **sc_sascore.prx** – Audio library module (5.8 KB)  
+**./PSP_GAME**
+* **ICON0.PNG** – Main XMB game icon (21 KB)  
+* **PARAM.SFO** – Game metadata: title, version, firmware (472 B)  
+* **PIC0.PNG** – XMB front image (12 KB)  
+* **PIC1.PNG** – XMB background image (151 KB)  
+* **SND0.AT3** – Background audio (XMB menu music) (131 KB)  
+* **SYSDIR**
+  * **BOOT.BIN** – Main game executable (uncompressed) (5.4 MB)  
+  * **EBOOT.BIN** – Main game executable (encrypted/compressed) (5.4 MB)  
+  * **UPDATE**
+    * **DATA.BIN** – Firmware update installer data (19 MB)  
+    * **EBOOT.BIN** – Firmware updater executable (5.4 MB)  
+    * **PARAM.SFO** – Update metadata (2.0 KB)  
+* **USRDIR**
+  * **PIC1.PNG** – Duplicate XMB background image (150 KB)  
+  * **Attract01_60.pmf** – In-game cutscene/attract video (4.7 MB)  
+  * **Attract02_60.pmf** – In-game cutscene/attract video (2.7 MB)  
+  * **KromeLogo_60.pmf** – Krome Studios logo video (1.2 MB)  
+  * **LucasLogo_60.pmf** – LucasArts logo video (406 KB)  
+  * **LngEN_pp.rkv** – English language archive (55 MB)  
+  * **LngFR_pp.rkv** – French language archive (52 MB)  
+  * **data_pp.rkv** – Main game data archive (models, textures, scripts) (892 MB)  
+  * **audiocodec.prx** – Audio codec module (3.2 KB)  
+  * **libatrac3plus.prx** – ATRAC3+ audio codec library (19 KB)  
+  * **libpsmfplayer.prx** – Video playback module (32 KB)  
+  * **psmf.prx** – Video parser module (6.9 KB)  
+  * **sc_sascore.prx** – Audio library module (5.8 KB)  
 
 The main executables are **EBOOT.BIN** and **BOOT.BIN**, it contains the standard firmware update files directory, XMB metadata for the game, some standard **PRX** modules (think DLLs but for the PSP) and there are some PlayStation Media Format (.pmf) videos used for cutscenes and studio logos. 
 
