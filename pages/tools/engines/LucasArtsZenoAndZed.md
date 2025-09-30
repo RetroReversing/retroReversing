@@ -211,6 +211,96 @@ Possible cutscene codes are presented in the table below
 | **csos001**                 | ? Ossus                                      | “os” could be Ossus (Jedi world); unconfirmed. |
 
 
+#### SBK File Format
+After some initial analysis it seems the .SBK (header: SB01) files contained in the RKV archives are a small custom container that wraps a mono **PSX-ADPCM** stream. The container adds a fixed header (magic/version/size/name/flags) and stores raw ADPCM frames **without a VAGp/RIFF wrapper**.
+
+Here are the header Metadata fields, numbers are all 32bit Little Endian:
+* **Magic** - Always "SB01" (ASCII) at 0x00
+* **Version** - e.g 0x00000001 at 0x04
+* **File size** - e.g 0x000029D0 (= 10704) at 0x08
+* **Name** -  e.g "CSZZ001_00_00_P01ZZEN" (ASCII, 32 bytes, NUL-padded) at 0x10
+* **Header size** - e.g 0x50 (= 80 bytes) at 0x30
+* **Data size** - 0x2980 (= 10624 = file_size − header_size)  at 0x34
+* **Flags/SampleRate** - e.g 0x80004A38; low bits 0x4A38 = 19000 Hz, high bit likely a format flag at 0x38
+* **Audio payload offset** - e.g 0x50 (immediately after the header)
+
+The rest of the file is consistent with PSX ADPCM (a.k.a. VAG): 
+* 16-byte frames with pattern 0x0C 0x00 ... repeated
+* mono frames (1-byte predictor/shift, 1-byte flags, 14 data bytes → 28 PCM samples/frame).
+
+Here is a Python3 script to convert the .SBK files to WAV:
+```python
+# Convert .SBK (Merkury Engine Sound Bank, Star Wars Force Unleashed) to WAV
+import os, struct, wave, re
+
+src = "./output/csch001_13_03_p01hten.sbk"
+with open(src, "rb") as f:
+    blob = f.read()
+
+# Basic SB01 parse
+magic = blob[0:4]
+version = int.from_bytes(blob[4:8], "little")
+total_size = int.from_bytes(blob[8:12], "little")
+name = blob[0x10:0x30].split(b"\x00",1)[0].decode("ascii", "replace")
+hdr_size = int.from_bytes(blob[0x30:0x34], "little")   # typically 0x50
+data_size = int.from_bytes(blob[0x34:0x38], "little")  # total_size - hdr_size
+flags_sr  = int.from_bytes(blob[0x38:0x3C], "little")  # 0x80000000 | sample_rate
+audio = blob[hdr_size:hdr_size+data_size]
+
+# Extract sample rate from low 16/32 bits; keep high bit as a flag
+sample_rate = flags_sr & 0x7FFFFFFF  # remove 0x80000000
+if sample_rate == 0 or sample_rate > 192000:
+    # fallback if the high bit wasn't just a flag
+    sample_rate = flags_sr & 0xFFFF
+
+# Minimal PSX ADPCM (VAG) decoder (mono). Each frame is 16 bytes -> 28 samples.
+COEFFS = [
+    (0.0, 0.0),
+    (60.0/64.0, 0.0),
+    (115.0/64.0, -52.0/64.0),
+    (98.0/64.0, -55.0/64.0),
+    (122.0/64.0, -60.0/64.0),
+]
+
+def decode_frame(frame, p1, p2):
+    shift = frame[0] & 0x0F
+    filt  = frame[0] >> 4
+    flags = frame[1]
+    a1,a2 = COEFFS[filt] if 0 <= filt < len(COEFFS) else (0.0,0.0)
+    out = []
+    for i in range(2,16):
+        b = frame[i]
+        for nib in (b & 0x0F, (b >> 4) & 0x0F):
+            s = nib if nib < 8 else nib - 16
+            sample = (s << 12) >> shift
+            sample = int(sample + p1*a1 + p2*a2)
+            sample = max(min(sample, 32767), -32768)
+            p2, p1 = p1, sample
+            out.append(sample)
+    return out, p1, p2, flags
+
+pcm = []
+p1=p2=0
+i=0
+# Skip any leading 0x00 frames (padding)
+while i+16 <= len(audio):
+    frame = audio[i:i+16]
+    if frame == b"\x00"*16:
+        i += 16
+        continue
+    batch, p1, p2, fl = decode_frame(frame, p1, p2)
+    pcm.extend(batch)
+    i += 16
+
+dst = f"./{name}.wav"
+with wave.open(dst, "wb") as w:
+    w.setnchannels(1)
+    w.setsampwidth(2)
+    w.setframerate(sample_rate if 8000 <= sample_rate <= 96000 else 19000)
+    w.writeframes(b"".join(struct.pack("<h", s) for s in pcm))
+
+print ("Success:", dst, len(pcm), sample_rate, magic, version, total_size, hdr_size, data_size)
+```
 
 ### Source file references in the PSP version
 For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system and all have the path prefix **d:/starwars/src/StarWars/Source/** :
