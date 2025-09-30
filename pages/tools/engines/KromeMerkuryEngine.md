@@ -19,7 +19,7 @@ editlink: /tools/engines/KromeMerkuryEngine.md
 _image: /public/consoles/Tools.jpg
 ---
 
-# Introduction
+## Introduction
 The **Merkury** game engine is a proprietary game engine developed by **Krome Studios** and is known to run on PS2, PSP and Wii. 
 It is most famous for their custom versions of **Star Wars: The Force Unleashed** for the less powerful consoles, as the LucasArts version for Xbox 360 and PS3 was too power hungry to run on the PS2, PSP and Wii.
 There were still many gamers who had these less powerful consoles and so was a lucrative market to tap into and thus a custom version of the game was born on an existing engine built by Krome Studios for past games: **Merkury**.
@@ -30,7 +30,7 @@ Based on our analysis of the game files, the games we are confident are definetl
 * **Star Wars: The Clone Wars - Republic Heroes**
 
 Although not confirmed using game file analysis it is claimed that the following are also using the Merkury Engine:
-* **Star Wars: The Force Unleashed** - switch version (apparently its a port of the wii version rather than the Xbox 360/PS3 Ronin engine versions)
+* **Star Wars: The Force Unleashed** - Switch version (apparently its a port of the wii version rather than the Xbox 360/PS3 Ronin engine versions)
 
 ---
 ## Possible Merkury engine games
@@ -142,7 +142,8 @@ Likely naming format breakdown:
 * **dv** — Character anchors e.g dv is Darth Vader
 * **en** — Audio Language (Known values: en, fr)
 
-Possible cutscene codes are presented in the table below
+Possible cutscene codes are presented in the table below:
+
 | Cutscene ID                      | Likely scene                           | Rationale (where applicable)   |
 | --------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **csdv001**                 | Darth Vader prologue (Kashyyyk)              | “DV” = Darth Vader; prologue is a Vader mission.|
@@ -168,6 +169,7 @@ Possible cutscene codes are presented in the table below
 | **csfd001**                 | ? Felucia derivative                         | “fd” could be Felucia boss/dialogue beat. |
 | **csil101**                 | ? Imperial Laboratory/Library                | “il” ambiguous; story contains Imperial facilities. |
 | **csos001**                 | ? Ossus                                      | “os” could be Ossus (Jedi world); unconfirmed. |
+
 
 
 #### SBK File Format
