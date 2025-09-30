@@ -42,42 +42,42 @@ Although not confirmed via file analysis, the following is often claimed:
 
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
-| Game Title                                         | Platform(s)                                             | Year         |
+| Game Title | Platform(s)| Year    |
 |----------------------------------------------------|---------------------------------------------------------|--------------|
-| Mike Stewart's Pro Bodyboarding                    | Windows                                                 | 1999         |
-| Championship Surfer                                | Windows, PlayStation, Dreamcast                         | 2000         |
-| Barbie Beach Vacation                              | Windows                                                 | 2001         |
-| Disney's Extremely Goofy Skateboarding             | Windows                                                 | 2001         |
-| Sunny Garcia Surfing                               | PlayStation 2                                           | 2001         |
-| Barbie: Sparkling Ice Show                         | Windows                                                 | 2002         |
-| Ty the Tasmanian Tiger                             | PS2, Xbox, GameCube, Windows, HD Remasters              | 2002         |
-| The Adventures of Jimmy Neutron: Jet Fusion        | PS2, GameCube                                            | 2003         |
-| Ty the Tasmanian Tiger 2: Bush Rescue              | PS2, Xbox, GameCube, Windows, HD Remasters              | 2004         |
-| King Arthur                                        | PS2, Xbox, GameCube                                     | 2004         |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan     | PS2, Xbox, GameCube, Windows, HD Remasters              | 2005         |
-| The Legend of Spyro: A New Beginning               | PS2, Xbox, GameCube, GBA                                | 2006         |
-| The Legend of Spyro: The Eternal Night             | PS2, Wii                                                | 2007         |
-| Viva Piñata: Party Animals                         | Xbox 360                                                 | 2007         |
-| Hellboy: The Science of Evil                       | PS3, Xbox 360, PSP                                       | 2008         |
-| Star Wars: The Force Unleashed                     | PS2, PSP, Wii, Nintendo Switch                          | 2008, 2022    |
-| Star Wars: The Clone Wars – Lightsaber Duels       | Wii                                                     | 2008         |
-| Scene It? Box Office Smash                         | Xbox 360                                                 | 2008         |
-| Star Wars: The Clone Wars – Republic Heroes        | PS3, Xbox 360, Wii, PS2, PSP, Windows                   | 2009         |
-| Transformers: Revenge of the Fallen                | PS2, Wii                                                 | 2009         |
-| Game Room                                          | Xbox 360, Windows, Windows Phone 7                      | 2010         |
-| Blade Kitten                                       | PS3, Xbox 360, Windows                                  | 2010, 2012    |
-| Legend of the Guardians: The Owls of Ga'Hoole      | Xbox 360, PS3, Wii                                       | 2010         |
-| Full House Poker                                   | Xbox 360, Windows Phone 7                               | 2011         |
-| Backyard Sports Basketball 2015                    | iOS, Android, Windows                                   | 2015         |
-| Ty the Tasmanian Tiger 4                           | Windows                                                 | 2015         |
-| Ty the Tasmanian Tiger HD                          | Xbox One, Series X/S, Switch, PS4, Windows              | 2016, 2020    |
-| Ty the Tasmanian Tiger 2: Bush Rescue HD           | Xbox One, Series X/S, Switch, PS4, Windows              | 2017, 2021    |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows                                                 | 2018         |
-| The Bard’s Tale Trilogy                            | Windows, Xbox One                                       | 2018, 2019    |
-| Wasteland Remastered                               | Windows, Xbox One                                       | 2020         |
-| Ty the Tasmanian Tiger 4: Bush Rescue Returns      | Nintendo Switch                                         | 2023         |
-| Monster Dash                                       | iOS, Android                                            | 2016 / ongoing |
-| Gizmotablet (Kid World, Verizon)                   | Android Tablet (EdTech)                                 | 2018         |
+| Mike Stewart's Pro Bodyboarding| Windows    | 1999    |
+| Championship Surfer  | Windows, PlayStation, Dreamcast| 2000    |
+| Barbie Beach Vacation| Windows    | 2001    |
+| Disney's Extremely Goofy Skateboarding   | Windows    | 2001    |
+| Sunny Garcia Surfing | PlayStation 2   | 2001    |
+| Barbie: Sparkling Ice Show| Windows    | 2002    |
+| Ty the Tasmanian Tiger    | PS2, Xbox, GameCube, Windows, HD Remasters    | 2002    |
+| The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube    | 2003    |
+| Ty the Tasmanian Tiger 2: Bush Rescue    | PS2, Xbox, GameCube, Windows, HD Remasters    | 2004    |
+| King Arthur| PS2, Xbox, GameCube  | 2004    |
+| Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters    | 2005    |
+| The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006    |
+| The Legend of Spyro: The Eternal Night   | PS2, Wii   | 2007    |
+| Viva Piñata: Party Animals| Xbox 360    | 2007    |
+| Hellboy: The Science of Evil   | PS3, Xbox 360, PSP    | 2008    |
+| Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022    |
+| Star Wars: The Clone Wars – Lightsaber Duels  | Wii   | 2008    |
+| Scene It? Box Office Smash| Xbox 360    | 2008    |
+| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows    | 2009    |
+| Transformers: Revenge of the Fallen | PS2, Wii    | 2009    |
+| Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010    |
+| Blade Kitten    | PS3, Xbox 360, Windows    | 2010, 2012    |
+| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii    | 2010    |
+| Full House Poker| Xbox 360, Windows Phone 7 | 2011    |
+| Backyard Sports Basketball 2015| iOS, Android, Windows| 2015    |
+| Ty the Tasmanian Tiger 4  | Windows    | 2015    |
+| Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows    | 2016, 2020    |
+| Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows    | 2017, 2021    |
+| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows    | 2018    |
+| The Bard’s Tale Trilogy   | Windows, Xbox One    | 2018, 2019    |
+| Wasteland Remastered | Windows, Xbox One    | 2020    |
+| Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023    |
+| Monster Dash    | iOS, Android    | 2016 / ongoing |
+| Gizmotablet (Kid World, Verizon)    | Android Tablet (EdTech)   | 2018    |
 
 ---
 
@@ -146,40 +146,42 @@ The **data_pp.rkv** file has **23,934** files in the PSP version, which seems to
 
 Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in the table below:
 
-Extension  | Number of Files | Description                                   
+Extension  | Number of Files | Description
 ---------- | --------------- | ---------------------------------------------
-BPK        | 451             | Likely a binary package or game resource file 
-FontInfo   | 3               | Font metadata or font descriptor file         
-ang        | 1682            | Possibly animation or angle data file          
-anm        | 1682            | Animation file                                 
-at3        | 230             | ATRAC3 compressed audio format used in PSP     
-bbi        | 1688            | Binary index or custom binary data file        
-bin        | 11              | Generic binary data file                        
-bmfc       | 2               | Possibly custom file with material or font info
-bni        | 2605            | Similar to bbi, a custom binary index file     
-cgr        | 692             | Character graphics or 3D model data             
-csv        | 1               | Comma-separated values text file                
-fnb        | 2               | Font binary file                                
-fnt        | 5               | Font file, often bitmap or vector font          
-inc        | 1               | Include file, likely script or code include     
-mcd        | 66              | Mission/cutscene data or custom game data       
-mdb        | 1               | Possibly model data or database file             
-mdd        | 1               | Model animation or motion data                   
-mdg        | 2832            | Model geometry or mesh data                       
-mdl        | 2832            | 3D model file                                    
-min        | 3644            | Minimal index or metadata file                    
-mine       | 1               | Might be minefield or map-related file            
-pkg        | 775             | Package file containing grouped assets           
-pmd        | 180             | Polygon model data (often used in games)          
-psb        | 88              | PlayStation bitmap or proprietary sprite sheet   
-r11913     | 1               | Numeric/custom named data file, unknown format    
-r11979     | 1               | Numeric/custom named data file, unknown format    
-sbk        | 278             | Sound bank file (see format below)               
-tex        | 4112            | Texture image file                                
-tmp        | 1               | Temporary file                                    
-txt        | 65              | Plain text file                                  
-xls        | 1               | Excel spreadsheet file                           
+BPK   | 451   | Likely a binary package or game resource file 
+FontInfo | 3 | Font metadata or font descriptor file    
+ang   | 1682  | Possibly animation or angle data file
+anm   | 1682  | Animation file   
+at3   | 230   | ATRAC3 compressed audio format used in PSP
+bbi   | 1688  | Binary index or custom binary data file   
+bin   | 11 | Generic binary data file    
+bmfc  | 2 | Possibly custom file with material or font info?
+bni   | 2605 | Similar to bbi, a custom binary index file
+cgr   | 692 | Character graphics or 3D model data   
+csv   | 1 | Comma-separated values text file 
+fnb   | 2 | Font binary file  
+fnt   | 5 | Font file, often bitmap or vector font
+inc   | 1 | Include file, likely script or code include
+mcd   | 66 | Mission/cutscene data or custom game data  
+mdb   | 1 | Possibly model data or database file?   
+mdd   | 1 | Model animation or motion data?    
+mdg   | 2832 | Model geometry or mesh data   
+mdl   | 2832 | 3D model file 
+min   | 3644 | Minimal index or metadata file?
+pkg   | 775 | Package file containing grouped assets 
+pmd   | 180 | Polygon model data
+psb   | 88 | PlayStation bitmap or proprietary sprite sheet   
+mine, r11913, r11979 | 3 | Version Control files left over from a merge of the `global.lv3.bni` file (revision r11913 and r11979) 
+sbk   | 278   | Sound bank file (see format below)
+tex   | 4112  | Texture image file (Magic header: `TEX` )   
+tmp   | 1 | Temporary file storing metadata, only used for one file called `[_lastupdate_].tmp`  
+txt   | 65 | Plain text file mostly used for Locale string definitions per game platform e.g Xbox, PS2, Wii    
+xls   | 1 | Excel spreadsheet file for translations (`Translations.xls`)   
 
+#### Left-over development content
+The **.mine**, **.r11913**, **.r11979** files suggest use of the RCS (Revision Control System) version control system as it uses these extensions to manage file revisions and resolve conflicts locally.
+
+Also it also highlights that the RKV files have a lot of files that are not required by the game at runtime, these version control files and also the translation Excel spreadsheet `Translations.xls`. it looks like they just archive a certain folder and distribute it with the game. Unfortunetly for us they didn't accidently also include any debug symbols or source code in the archives.
 
 ---
 ### Language Specific Sound Bank Archives (LngEN_pp.rkv and LngFR_pp.rkv)
@@ -197,29 +199,29 @@ Possible cutscene codes are presented in the table below:
 
 | Cutscene ID | Likely scene | Rationale (where applicable) |
 |---|---|---|
-| **csdv001**                 | Darth Vader prologue (Kashyyyk)              | "DV" = Darth Vader; prologue is a Vader mission.|
-| **cska2xx**                 | Kashyyyk                                     | "ka" matches planet.                      |
-| **csfe1xx/2xx/20x/205**     | Felucia                                      | "fe" = Felucia.                          |
-| **csrp1xx/2xx**             | Raxus Prime                                  | "rp" = Raxus Prime.                       |
-| **csjt1xx/2xx**             | Jedi Temple (trials)                         | "jt" = Jedi Temple.                       |
-| **csmu001**                 | Mustafar (historic mission)                  | "mu" = Mustafar.                          |
-| **csns201**                 | Nar Shaddaa                                  | "ns" = Nar Shaddaa.                       |
-| **cstc001/101**             | TIE Construction Facility                    | "tc" = TIE Construction; early game mission.                     |
-| **csds201**                 | The Dune Sea (Tatooine historic mission)     | "ds" = Dune Sea; appears as historic mission.                                 |
+| **csdv001**  | Darth Vader prologue (Kashyyyk)    | "DV" = Darth Vader; prologue is a Vader mission.|
+| **cska2xx**  | Kashyyyk  | "ka" matches planet.  |
+| **csfe1xx/2xx/20x/205**| Felucia   | "fe" = Felucia. |
+| **csrp1xx/2xx**   | Raxus Prime    | "rp" = Raxus Prime.   |
+| **csjt1xx/2xx**   | Jedi Temple (trials)| "jt" = Jedi Temple.   |
+| **csmu001**  | Mustafar (historic mission)   | "mu" = Mustafar. |
+| **csns201**  | Nar Shaddaa    | "ns" = Nar Shaddaa.   |
+| **cstc001/101**   | TIE Construction Facility| "tc" = TIE Construction; early game mission. |
+| **csds201**  | The Dune Sea (Tatooine historic mission)| "ds" = Dune Sea; appears as historic mission.   |
 | **cscc001/201/202/204/205** | Carbonite Chamber (Bespin historic mission)  | "cc" = Carbonite Chamber.|
-| **cscg001**                 | Geonosis Colosseum (historic mission)        | "cg" = Colosseum Geonosis. |
-| **csdq001**                 | Dooku’s Quarters (Geonosis historic mission) | "dq" = Dooku’s Quarters.  |
-| **csvo001**                 | Vader’s Observatory/Vessel?                  | "vo" ambiguous; likely Vader-related interstitial.                          |
-| **csvf101/102/104**         | Vader’s Flagship/Facility?                   | "vf" ambiguous; Vader-adjacent (briefings/bridges).                         |
-| **csqg001**                 | ? Geonosis-related (Qui-Gon is unlikely)     | "qg" unclear; could be internal codename. |
-| **cspl001**                 | ? Palace (Jabba’s)                           | "pl" plausible "(Jabba’s) Palace" historic. |
-| **csps001**                 | ? Palace/Cantina sequence                    | "ps" ambiguous; may be Tatooine set-piece.|
-| **csrg001**                 | ? Raxus (Gateway)/Royal Guard                | "rg" unclear; could be encounter beat.    |
-| **csrh201**                 | ? Raxus H— (Hub/Hangar/Holo)                 | "rh" unclear; grouped with Raxus arc number. |
-| **csrs001**                 | ? Raxus Scrap (yard)                         | "rs" plausible for "scrapyard".           |
-| **csfd001**                 | ? Felucia derivative                         | "fd" could be Felucia boss/dialogue beat. |
-| **csil101**                 | ? Imperial Laboratory/Library                | "il" ambiguous; story contains Imperial facilities. |
-| **csos001**                 | ? Ossus                                      | "os" could be Ossus (Jedi world); unconfirmed. |
+| **cscg001**  | Geonosis Colosseum (historic mission)   | "cg" = Colosseum Geonosis. |
+| **csdq001**  | Dooku’s Quarters (Geonosis historic mission) | "dq" = Dooku’s Quarters.  |
+| **csvo001**  | Vader’s Observatory/Vessel?   | "vo" ambiguous; likely Vader-related interstitial. |
+| **csvf101/102/104**    | Vader’s Flagship/Facility?    | "vf" ambiguous; Vader-adjacent (briefings/bridges).|
+| **csqg001**  | ? Geonosis-related (Qui-Gon is unlikely)| "qg" unclear; could be internal codename. |
+| **cspl001**  | ? Palace (Jabba’s)  | "pl" plausible "(Jabba’s) Palace" historic. |
+| **csps001**  | ? Palace/Cantina sequence| "ps" ambiguous; may be Tatooine set-piece.|
+| **csrg001**  | ? Raxus (Gateway)/Royal Guard | "rg" unclear; could be encounter beat.    |
+| **csrh201**  | ? Raxus H— (Hub/Hangar/Holo)  | "rh" unclear; grouped with Raxus arc number. |
+| **csrs001**  | ? Raxus Scrap (yard)| "rs" plausible for "scrapyard". |
+| **csfd001**  | ? Felucia derivative| "fd" could be Felucia boss/dialogue beat. |
+| **csil101**  | ? Imperial Laboratory/Library | "il" ambiguous; story contains Imperial facilities. |
+| **csos001**  | ? Ossus   | "os" could be Ossus (Jedi world); unconfirmed. |
 
 Although these are a guess, proper analysis including playing each of the SBK files while playing the game would be required to give more concrete information.
 
@@ -283,14 +285,14 @@ def decode_frame(frame, p1, p2):
     a1,a2 = COEFFS[filt] if 0 <= filt < len(COEFFS) else (0.0,0.0)
     out = []
     for i in range(2,16):
-        b = frame[i]
-        for nib in (b & 0x0F, (b >> 4) & 0x0F):
-            s = nib if nib < 8 else nib - 16
-            sample = (s << 12) >> shift
-            sample = int(sample + p1*a1 + p2*a2)
-            sample = max(min(sample, 32767), -32768)
-            p2, p1 = p1, sample
-            out.append(sample)
+   b = frame[i]
+   for nib in (b & 0x0F, (b >> 4) & 0x0F):
+  s = nib if nib < 8 else nib - 16
+  sample = (s << 12) >> shift
+  sample = int(sample + p1*a1 + p2*a2)
+  sample = max(min(sample, 32767), -32768)
+  p2, p1 = p1, sample
+  out.append(sample)
     return out, p1, p2, flags
 
 pcm = []
@@ -300,8 +302,8 @@ i=0
 while i+16 <= len(audio):
     frame = audio[i:i+16]
     if frame == b"\x00"*16:
-        i += 16
-        continue
+   i += 16
+   continue
     batch, p1, p2, fl = decode_frame(frame, p1, p2)
     pcm.extend(batch)
     i += 16
