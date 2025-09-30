@@ -43,7 +43,7 @@ Although not confirmed via file analysis, the following is often claimed:
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
 | Game Title | Platform(s)| Year | Merkury?
-|----------------------------------------------------|---------------------------------------------------------|--------------|
+|---|---|---|---
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
 | Championship Surfer  | Windows, PlayStation, Dreamcast| 2000 |
 | Barbie Beach Vacation| Windows | 2001 |
