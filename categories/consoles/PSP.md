@@ -76,12 +76,15 @@ On official PSP discs, there are actually two executables included in the **SYSD
 * **BOOT.BIN** - uncompressed, unencrypted executable, typically used during development and debugging.
 * **EBOOT.BIN** - encrypted, compressed version of the same executable. Sony’s encryption prevents casual tampering and reverse engineering.
 
+Sometimes the **BOOT.BIN** file is filled with zero bytes, this was more common with later PSP games, in which case you will need to decrypt **EBOOT.BIN** manually instead.
+
 If you only have an **EBOOT.BIN** don't worry there are tools that can decrypt it back into a **BOOT.BIN** such as **PRXDecrypter**.
 
 On retail discs, games almost always ship with both executables, even though only **EBOOT.BIN** is guaranteed to be used by official firmware.
 
-Homebrew/custom firmware can be configured to load either, which is why BOOT.BIN remains useful for modders.
+Homebrew/custom firmware can be configured to load either, which is why **BOOT.BIN** remains useful for modders.
 
+---
 ## PSP Game File Formats
 Officially the PSP either used physical Universal Media Discs (UMD) or PBP files to distrubte games, but there are a variety of formats available for storing PSP games:
 *	**ISO** - The most common format for PSP game files, an ISO is a disc image containing all the game disc’s data, essentially a copy of the Universal Media Disc (UMD) used by the PSP console.
