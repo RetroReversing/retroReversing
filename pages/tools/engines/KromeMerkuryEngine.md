@@ -1,6 +1,26 @@
+---
+layout: post
+title: Krome Studios Merkury Engine
+permalink: /krome-merkury-engine
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Game Engines & Middleware
+    url: /gameengines
+  - name: Krome Studios Merkury Engine
+    url: #
+tags: 
+- middleware
+- gameengines
+recommend:
+- middleware
+- gameengines
+editlink: /tools/engines/KromeMerkuryEngine.md
+_image: /public/consoles/Tools.jpg
+---
 
 # Introduction
-The Merkury game engine is a proprietary game engine developed by **Krome Studios** and is known to run on PS2, PSP and Wii. 
+The **Merkury** game engine is a proprietary game engine developed by **Krome Studios** and is known to run on PS2, PSP and Wii. 
 It is most famous for their custom versions of **Star Wars: The Force Unleashed** for the less powerful consoles, as the LucasArts version for Xbox 360 and PS3 was too power hungry to run on the PS2, PSP and Wii.
 There were still many gamers who had these less powerful consoles and so was a lucrative market to tap into and thus a custom version of the game was born on an existing engine built by Krome Studios for past games: **Merkury**.
 
