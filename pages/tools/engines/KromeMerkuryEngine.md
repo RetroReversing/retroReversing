@@ -20,12 +20,16 @@ _image: /public/consoles/Tools.jpg
 ---
 
 ## Introduction
-The **Merkury** engine is a proprietary game engine developed by **Krome Studios**, known to run on PS2, PSP, and Wii.
+The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for  Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
 
-It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP, or Wii.
+The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
+* **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
+* **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
+* **Tony Ball** - Also credited as engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
+
+It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii.
 
 Because a significant installed base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**.
-
 
 ## Known Merkury Engine Games
 
@@ -48,7 +52,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Championship Surfer  | Windows, PlayStation, Dreamcast| 2000 |
 | Barbie Beach Vacation| Windows | 2001 |
 | Disney's Extremely Goofy Skateboarding   | Windows | 2001 |
-| Sunny Garcia Surfing | PlayStation 2   | 2001 |
+| Sunny Garcia Surfing | PlayStation 2   | 2001 | Yes
 | Barbie: Sparkling Ice Show| Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 |
 | The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
@@ -66,7 +70,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
 | Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010 |
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
-| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 |
+| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes Merkury 3
 | Full House Poker| Xbox 360, Windows Phone 7 | 2011 |
 | Backyard Sports Basketball 2015| iOS, Android, Windows| 2015 |
 | Ty the Tasmanian Tiger 4  | Windows | 2015 |
@@ -343,3 +347,20 @@ The 2003 game **The Adventures of Jimmy Neutron: Jet Fusion** is confirmed to us
 A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
 
 It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
+
+---
+# Merkury 3 - Xbox 360, PS3 and Wii
+
+Lead Environment Artist at Krome Studios **Brent Waller** posted a video showing off the new Merkury 3 engine in action which was built for the Xbox 360, Playstation 3 and Wii Title: **The Legend of the Guardians: The Owls of Ga'hoole**. 
+
+To quote Brent [^2]:
+> The engine has such features as large scale (16 square kilometres) terrain rendering and LODing, grass and forest LODing and placement tools and real-time day and night cycles.
+
+You can watch the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s-s-kXb5Yqs?si=bz95c4x2tUtr7dIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+# References
+[^1]: Sunny Garcia Surfing PS2 Manual
+[^2]: [Merkury 3 Engine Showcase - YouTube](https://www.youtube.com/watch?v=s-s-kXb5Yqs)
+[^3]: Star Wars: The Force Unleashed PS2 Manual
