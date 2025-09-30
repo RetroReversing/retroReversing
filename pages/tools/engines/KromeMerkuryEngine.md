@@ -75,10 +75,10 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
 | Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
 | Star Wars: The Clone Wars - Lightsaber Duels  | Wii | 2008 |
-| Scene It? Box Office Smash| Xbox 360 | 2008 |
+| Scene It? Box Office Smash | Xbox 360 | 2008 |
 | Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
-| Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010 |
+| Game Room | Xbox 360, Windows, Windows Phone 7  | 2010 | Yes (RKV files present in windows version)
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
 | Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
 | Full House Poker | Xbox 360, Windows Phone 7 | 2011 |
