@@ -173,6 +173,17 @@ This confirms that it is not using the Ronin engine, but in the future it would 
 ### Game Data Archives - .RKV files
 The game uses RKV version 2 archive files, these can be exteacted with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
 
+#### Language Sound Bank Files (LngEN_pp.rkv and LngFR_pp.rkv)
+**LngEN_pp.rkv** and **LngFR_pp.rkv** contain sound bank files (.sbk) for their respective languages, presumably all the voiced dialog in the game is contained in these and they have the file name format like **cscc001_01_00_p01dven.sbk**.
+
+Likely Naming Format Breakdown:
+* **cscg001**: Likely a code for a scene, mission, area, or character group within the game.
+* **01_00**: Major/minor numbers w.g for scene/area, event, sequence, or version
+* **p01** — Possibly part 1/phase 1 or referencing a specific voice/group.
+* **cd** — Could stand for character dialogue, cutscene dialogue or a code for a character or event type?
+* **en** — Audio Language (Known values: en,fr)
+
+
 ### Source file references in the PSP version
 For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system:
 * d:/starwars/src/StarWars/Source/Ai/PathMap.cpp
