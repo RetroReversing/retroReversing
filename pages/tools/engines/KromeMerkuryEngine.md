@@ -144,41 +144,41 @@ The game uses RKV archive format, specifically version 2 of the format, these ca
 
 The **data_pp.rkv** file has **23,934** files in the PSP version, which seems to be unoptimized as it also contains assets with the **Wii** prefix such as **Wii_Controller.tex** and **Wii_Vader_Gloves.min**.
 
-Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in thr table below.
+Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in the table below:
 
-| Extension  | Description                                   |
-|------------|-----------------------------------------------|
-| BPK        | Likely a binary package or game resource file |
-| FontInfo   | Font metadata or font descriptor file         |
-| ang        | Possibly animation or angle data file          |
-| anm        | Animation file                                 |
-| at3        | ATRAC3 compressed audio format used in PSP     |
-| bbi        | Binary index or custom binary data file        |
-| bin        | Generic binary data file                        |
-| bmfc       | Possibly custom file with material or font info|
-| bni        | Similar to bbi, a custom binary index file     |
-| cgr        | Character graphics or 3D model data             |
-| csv        | Comma-separated values text file                |
-| fnb        | Font binary file                                |
-| fnt        | Font file, often bitmap or vector font          |
-| inc        | Include file, likely script or code include     |
-| mcd        | Mission/cutscene data or custom game data       |
-| mdb        | Possibly model data or database file             |
-| mdd        | Model animation or motion data                   |
-| mdg        | Model geometry or mesh data                       |
-| mdl        | 3D model file                                    |
-| min        | Minimal index or metadata file                    |
-| mine       | Might be minefield or map-related file            |
-| pkg        | Package file containing grouped assets           |
-| pmd        | Polygon model data (often used in games)          |
-| psb        | PlayStation bitmap or proprietary sprite sheet   |
-| r11913     | Numeric/custom named data file, unknown format    |
-| r11979     | Numeric/custom named data file, unknown format    |
-| sbk        | Sound bank file (see below for the format spec)             |
-| tex        | Texture image file                                |
-| tmp        | Temporary file                                    |
-| txt        | Plain text file                                  |
-| xls        | Excel spreadsheet file                           |
+Extension  | Number of Files | Description                                   
+---------- | --------------- | ---------------------------------------------
+BPK        | 451             | Likely a binary package or game resource file 
+FontInfo   | 3               | Font metadata or font descriptor file         
+ang        | 1682            | Possibly animation or angle data file          
+anm        | 1682            | Animation file                                 
+at3        | 230             | ATRAC3 compressed audio format used in PSP     
+bbi        | 1688            | Binary index or custom binary data file        
+bin        | 11              | Generic binary data file                        
+bmfc       | 2               | Possibly custom file with material or font info
+bni        | 2605            | Similar to bbi, a custom binary index file     
+cgr        | 692             | Character graphics or 3D model data             
+csv        | 1               | Comma-separated values text file                
+fnb        | 2               | Font binary file                                
+fnt        | 5               | Font file, often bitmap or vector font          
+inc        | 1               | Include file, likely script or code include     
+mcd        | 66              | Mission/cutscene data or custom game data       
+mdb        | 1               | Possibly model data or database file             
+mdd        | 1               | Model animation or motion data                   
+mdg        | 2832            | Model geometry or mesh data                       
+mdl        | 2832            | 3D model file                                    
+min        | 3644            | Minimal index or metadata file                    
+mine       | 1               | Might be minefield or map-related file            
+pkg        | 775             | Package file containing grouped assets           
+pmd        | 180             | Polygon model data (often used in games)          
+psb        | 88              | PlayStation bitmap or proprietary sprite sheet   
+r11913     | 1               | Numeric/custom named data file, unknown format    
+r11979     | 1               | Numeric/custom named data file, unknown format    
+sbk        | 278             | Sound bank file (see format below)               
+tex        | 4112            | Texture image file                                
+tmp        | 1               | Temporary file                                    
+txt        | 65              | Plain text file                                  
+xls        | 1               | Excel spreadsheet file                           
 
 
 ---
