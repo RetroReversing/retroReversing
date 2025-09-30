@@ -59,7 +59,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
-| Championship Surfer  | Windows, PlayStation, Dreamcast | 2000 |
+| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes (RKV files present in windows version)
 | Barbie Beach Vacation| Windows | 2001 |
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes
