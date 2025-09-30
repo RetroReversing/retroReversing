@@ -19,17 +19,25 @@ editlink: /tools/engines/KromeMerkuryEngine.md
 _image: /public/consoles/Tools.jpg
 ---
 
-## Introduction
 The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for  Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
 
+It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
+
+---
+## Origin of the engine
 The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
 * **Tony Ball** - Also credited as engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
 
-It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii.
+---
+## Programming the Merkury engine
+The Merkury was built in C++ with a few modules written in Assembler, with simultation development of the engine on multiple consoles at once (PS2, GameCube and Xbox) [^4].
 
-Because a significant installed base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**.
+On the port of the Merkury engine to GameCube for Ty the Tasmanian Tiger, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
+>In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
+>
+> Within a couple of weeks, **Tony Ball**, our GameCube engine lead, had the character animating and drawing and doing most of what was doing in the PS2 version. A couple of months went by and by that point the GameCube version of the Merkury engine was pretty much inline with the PS2 version, so from then on development was simultaneous between the PS2 and GameCube, and later Xbox versions of the game.
 
 ## Known Merkury Engine Games
 
@@ -349,6 +357,12 @@ A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41)
 It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
 
 ---
+# Star Wars Lightsaber Duels for the Wii
+![Interview with lead programmer Chris Lacey at Krome](https://github.com/user-attachments/assets/06fb402d-f9e3-49b1-9c07-94afc2247a53)
+There is a video on youtube of a quick behind the scenes route of the Krome offices back in 2008 where they interview the lead programmer of Star Wars Lightsaber Duels **Chris Lacey** (The Shak EP454)?
+
+
+---
 # Merkury 3 - Xbox 360, PS3 and Wii
 
 Lead Environment Artist at Krome Studios **Brent Waller** posted a video showing off the new Merkury 3 engine in action which was built for the Xbox 360, Playstation 3 and Wii Title: **The Legend of the Guardians: The Owls of Ga'hoole**. 
@@ -364,3 +378,4 @@ You can watch the video below:
 [^1]: Sunny Garcia Surfing PS2 Manual
 [^2]: [Merkury 3 Engine Showcase - YouTube](https://www.youtube.com/watch?v=s-s-kXb5Yqs)
 [^3]: Star Wars: The Force Unleashed PS2 Manual
+[^4]: [Chris Lacy of Krome Studios talks to PGC! - Interview - Nintendo World Report](https://www.nintendoworldreport.com/interview/2083/chris-lacy-of-krome-studios-talks-to-pgc)
