@@ -88,7 +88,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 |
 | Wasteland Remastered | Windows, Xbox One | 2020 |
 | Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 |
-| Monster Dash | iOS, Android | 2016 / ongoing |
+| Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
 ---
