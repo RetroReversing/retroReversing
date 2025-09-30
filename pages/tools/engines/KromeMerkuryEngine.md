@@ -145,7 +145,6 @@ The **data_pp.rkv** file has **23,934** files in the PSP version, which seems to
 
 Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in the table below:
 
-```
 Extension  | Number of Files | Description
 ---|---|---
 tex   | 4112  | Texture image file (Magic header: TEX)
@@ -160,7 +159,7 @@ pkg   | 775 | Package file containing grouped assets
 cgr   | 692 | Character graphics or 3D model data   
 BPK   | 451 | Likely a binary package or game resource file 
 sbk   | 278 | Sound bank file (see format below)
-at3   | 230   | ATRAC3 compressed audio format used in PSP
+at3   | 230 | ATRAC3 compressed audio format used in PSP
 pmd   | 180 | Polygon model data
 psb   | 88 | PlayStation bitmap or proprietary sprite sheet
 mcd   | 66 | Mission/cutscene data or custom game data  
@@ -174,10 +173,10 @@ inc   | 1 | Include file, likely script or code include
 mdb   | 1 | Possibly model data or database file?
 mdd   | 1 | Model animation or motion data?    
 mine, r11913, r11979 | 3 | Version Control files left over from a merge of the global.lv3.bni file (revision r11913 and r11979) 
-tmp   | 1 | Temporary file storing metadata, only used for one file called lastupdate.tmp 
+tmp   | 1 | Temporary file storing metadata, only used for one file called `lastupdate.tmp` 
 csv   | 1 | Comma-separated values text file 
-xls   | 1 | Excel spreadsheet file for translations (Translations.xls)
-```
+xls   | 1 | Excel spreadsheet file for translations (`Translations.xls`)
+
 
 #### Left-over development content
 The **.mine**, **.r11913**, **.r11979** files suggest use of the RCS (Revision Control System) version control system as it uses these extensions to manage file revisions and resolve conflicts locally.
