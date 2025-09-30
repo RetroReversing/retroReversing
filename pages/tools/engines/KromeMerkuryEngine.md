@@ -61,7 +61,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
 | Championship Surfer  | Windows, PlayStation, Dreamcast | 2000 |
 | Barbie Beach Vacation| Windows | 2001 |
-| Disney's Extremely Goofy Skateboarding | Windows | 2001 |
+| Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2   | 2001 | Yes
 | Barbie: Sparkling Ice Show | Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
