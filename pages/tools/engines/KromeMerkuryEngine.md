@@ -22,22 +22,20 @@ _image: /public/consoles/Tools.jpg
 ## Introduction
 
 The **Merkury** engine is a proprietary game engine developed by **Krome Studios**, known to run on PS2, PSP, and Wii.  
-It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP, or Wii.  
+It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP, or Wii.
+
 Because a significant installed base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**.
 
 ## Known Merkury Engine Games
 
 From our analysis of game files, we are confident that the following titles use the Merkury engine:
-
 * **Star Wars: The Force Unleashed** — PS2, PSP, and Wii versions
 * **Star Wars: The Clone Wars – Republic Heroes**
 
 Although not confirmed via file analysis, the following is often claimed:
-
 * **Star Wars: The Force Unleashed** — Switch version (reportedly a port of the Wii version rather than the Ronin‑based Xbox 360/PS3 version)
 
 ---
-
 ## Possible Merkury Engine Titles
 
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
@@ -80,7 +78,6 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Gizmotablet (Kid World, Verizon)    | Android Tablet (EdTech)   | 2018    |
 
 ---
-
 ## Star Wars: The Force Unleashed (PS2, PSP, Wii Versions)
 Unlike the Xbox 360 and PS3 versions of **Star Wars: The Force Unleashed** the PS2, PSP and Wii versions were not built by **LucasArts** or use the **Ronin** engine.
 Instead they were developed by **Krome Studios**, a completely separate studio known for action-platformers and movie tie-in games.
@@ -89,6 +86,7 @@ Krome developed these versions with a separate engine tailored for the older har
 
 Because of hardware constraints, these versions use the **Open Dynamics Engine (ODE)** for physics, rather than **Havok**, which powers the Xbox 360 / PS3 versions.
 
+---
 ## Files in the PSP Version (UMD Disc contents)
 If you extract the files from the UMD disc you will get the following file structure:
 **./PSP_GAME**
@@ -141,7 +139,6 @@ The game uses RKV archive format, specifically version 2 of the format, these ca
 
 ---
 ### Main Game Data Archive (data_pp.rkv)
-
 The **data_pp.rkv** file has **23,934** files in the PSP version, which seems to be unoptimized as it also contains assets with the **Wii** prefix such as **Wii_Controller.tex** and **Wii_Vader_Gloves.min**.
 
 Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in the table below:
