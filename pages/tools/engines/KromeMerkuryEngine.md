@@ -56,7 +56,7 @@ Although not confirmed via file analysis, the following is often claimed:
 
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
-| Game Title | Platform(s)| Year | Merkury?
+| Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
 | Championship Surfer  | Windows, PlayStation, Dreamcast| 2000 |
@@ -70,7 +70,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | King Arthur| PS2, Xbox, GameCube  | 2004 |
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
 | The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
-| The Legend of Spyro: The Eternal Night   | PS2, Wii   | 2007 |
+| The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
 | Viva Piñata: Party Animals| Xbox 360 | 2007 |
 | Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
 | Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
@@ -81,14 +81,14 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010 |
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
 | Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
-| Full House Poker| Xbox 360, Windows Phone 7 | 2011 |
-| Backyard Sports Basketball 2015| iOS, Android, Windows| 2015 |
+| Full House Poker | Xbox 360, Windows Phone 7 | 2011 |
+| Backyard Sports Basketball 2015 | iOS, Android | 2015 |
 | Ty the Tasmanian Tiger 4  | Windows | 2015 | No (Unity)
-| Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows | 2016, 2020 |
-| Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows | 2017, 2021 |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 |
-| The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 |
-| Wasteland Remastered | Windows, Xbox One | 2020 |
+| Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows | 2016, 2020 | Yes (RKV files present)
+| Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows | 2017, 2021 | Yes (RKV files present)
+| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 | Yes (RKV files present)
+| The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 | No (Unity)
+| Wasteland Remastered | Windows, Xbox One | 2020 | No (Unity)
 | Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 |
 | Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
