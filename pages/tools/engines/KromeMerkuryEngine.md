@@ -409,6 +409,53 @@ The copyright messages hint at a few things:
 * **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
 * **Tal Nevo** is possibly related to executable compression but this is a guess
 
+## Asset Archive - data0.pkg
+
+Since the data0.pkg format is just simple zip compression, it is very easy to extract and modify the assets, so lets take a look at what it contains, there are 1,207 files so we will group files by their extension in the table below:
+
+Extension | Number of Files | Description
+--- | --- | ---
+wav | 463 | Waveform audio file, uncompressed sound effects or music
+tga | 343 | Targa image file, common raster graphic format supporting alpha channels
+bmp | 131 | Bitmap image file (case variant)
+ase | 101 | 3DS MAX ASCII EXPORT for the 3D models
+rpl | 49 | resource package file?
+bad | 32 | Basic Animation Descriptor - plain text files for animations that link a mesh (.ase) with a skeleton (.ase) and a vertex animation (.vat)
+bmp | 27 | Bitmap image file, uncompressed raster graphics
+mp3 | 15 | Audio file in MPEG Layer-3 format, compressed music or sound effects
+lvl | 15 | Level data file in XML format, stores game level layouts
+mad | 15 | Material Data - Plain text file setting key value pairs for values such as "color .5 .5 1 .8"
+vat | 11 | Vertex Animation in VAT2 format (Linked Vertex Information File ver 2), used for complex mesh animations in games
+lang | 2 | Language or localization resource file
+txt | 2 | Plain text file, often for logs, documentation, or configs
+cfg | 1 | Configuration file, plain text settings
+
+The ASE files confirm that the game's 3d models were creating using 3D Studio Max 3 or 4 back in 2001, but not sure the exact version of 3ds Max (does AsciiExport Version  2.00 narrow it down?).
+
+They show how the 3D artists named their 3ds max scene files:
+* beach_boardwalk_sign_nobase.max
+* beach_1375_7_00_2001_JC1003_JC_TB.max
+
+It also shows the organised folder structure used during development of the game:
+* `G:\Goofy Skateboarding\data\Models\Textures\badge.tga`
+* `\\Krome-fs4\data12\Goofy\Goofy Skateboarding\data\Models\Textures\ramp2.tga` - Shared Network drive?
+* `\\Krome-fs4\data12\Goofy\Graphics\Screens\S08_Beach\S08_03_BoardWalk\textures\jetty.bmp` - I wonder why screen graphics were kept seperate?
+
+### Level files - .lvl
+The level files are plain text XML data which links together all the other files, it is extremely modder friendly, here is an example:
+```xml
+<LEVEL NAME="Downtown" MESH="riverbend.ase" ENV="Cloud_Blue_env.ASE" MATERIAL="riverbend.mad" ENVROT="0" MUSIC="SUBURB_2.mp3" AMBIENT="ambience_centralpark_01.wav">
+  <CLIP NEAR="100.00" FAR="8000.00" FOG="7000.00" COLOR="0.72,0.86,0.85">
+  <OBJECTIVES TYPE="SHRED" DATA1="23,7" DATA2="1,70" DATA3="24,7">
+  <OBJECTIVES TYPE="AGILITY" DATA1="3,7000" DATA2="4,7" DATA3="5,7" TIME="120">
+  <TRIGGER POS="355.37,-3350.55,6692.30" SIZE="100.00,100.00,100.00" TYPE="spawn" ID="0" DATA="0" ENTER="none" EXIT="none">
+  <OBJECT POS="4483.87,-3353.96,9730.11" ROT="0.00,0.00,0.00" SCALE="1.00" MESH="coin.ase" TYPE="collectible" UNIQUE="0" ID="1" DATA="0" FLAGS="4" SPEED="1.00">
+  <OBJECT POS="7183.09,-3706.17,11404.25" ROT="0.00,-90.00,0.00" SCALE="0.60" MESH="critter_duckling.bad" TYPE="duckling" UNIQUE="0" ID="0" DATA="0" FLAGS="31" SPEED="1.00">
+</LEVEL>
+```
+
+As far as I know this is a custom format made for this game and not an industry standard.
+
 ---
 # References
 [^1]: Sunny Garcia Surfing PS2 Manual
