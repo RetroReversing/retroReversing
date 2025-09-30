@@ -137,9 +137,52 @@ For fun here is a list of unique strings that reference some of the original sou
 
 ---
 ## Game Data Archives - .RKV files
-The game uses RKV version 2 archive files, these can be extraced with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
+The game uses RKV archive format, specifically version 2 of the format, these can be extraced with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
 
-### Language Sound Bank Files (LngEN_pp.rkv and LngFR_pp.rkv)
+---
+### Main Game Data Archive (data_pp.rkv)
+
+The **data_pp.rkv** file has **23,934** files in the PSP version, which seems to be unoptimized as it also contains assets with the **Wii** prefix such as **Wii_Controller.tex** and **Wii_Vader_Gloves.min**.
+
+Due to the huge amount of files in the archive, we are not going to list them out in this page, but the file extensions used for all of the files are in thr table below.
+
+| Extension  | Description                                   |
+|------------|-----------------------------------------------|
+| BPK        | Likely a binary package or game resource file |
+| FontInfo   | Font metadata or font descriptor file         |
+| ang        | Possibly animation or angle data file          |
+| anm        | Animation file                                 |
+| at3        | ATRAC3 compressed audio format used in PSP     |
+| bbi        | Binary index or custom binary data file        |
+| bin        | Generic binary data file                        |
+| bmfc       | Possibly custom file with material or font info|
+| bni        | Similar to bbi, a custom binary index file     |
+| cgr        | Character graphics or 3D model data             |
+| csv        | Comma-separated values text file                |
+| fnb        | Font binary file                                |
+| fnt        | Font file, often bitmap or vector font          |
+| inc        | Include file, likely script or code include     |
+| mcd        | Mission/cutscene data or custom game data       |
+| mdb        | Possibly model data or database file             |
+| mdd        | Model animation or motion data                   |
+| mdg        | Model geometry or mesh data                       |
+| mdl        | 3D model file                                    |
+| min        | Minimal index or metadata file                    |
+| mine       | Might be minefield or map-related file            |
+| pkg        | Package file containing grouped assets           |
+| pmd        | Polygon model data (often used in games)          |
+| psb        | PlayStation bitmap or proprietary sprite sheet   |
+| r11913     | Numeric/custom named data file, unknown format    |
+| r11979     | Numeric/custom named data file, unknown format    |
+| sbk        | Sound bank file (see below for the format spec)             |
+| tex        | Texture image file                                |
+| tmp        | Temporary file                                    |
+| txt        | Plain text file                                  |
+| xls        | Excel spreadsheet file                           |
+
+
+---
+### Language Specific Sound Bank Archives (LngEN_pp.rkv and LngFR_pp.rkv)
 **LngEN_pp.rkv** and **LngFR_pp.rkv** contain sound bank files (.sbk) for their respective languages, presumably all the voiced dialog in the game is contained in these and they have the file name format like **cscc001_01_00_p01dven.sbk**.
 
 Likely naming format breakdown:
