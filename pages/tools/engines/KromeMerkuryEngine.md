@@ -178,6 +178,20 @@ csv   | 1 | Comma-separated values text file
 xls   | 1 | Excel spreadsheet file for translations (`Translations.xls`)
 
 
+#### BNI Files?
+Not quite sure what *.BNI files are, they always start with the ASCII string "D:\starwars\data\RKVs\..\Common", but I presume they are an archive, possibly compressed (but there is a lot of strings so maybe not).
+
+They also have a wide variety of names:
+* global.lv3.bni - contain the string "Sire version 2.70  Data File version 3.0", but not sure if Sire is an in-house tool or a third party software.
+* global.sound.bni - contains strings like "swfx_RA_canon_ball_fire"
+* GE.model.bni
+
+The lvl files contain strings such as:
+* **PQuakePos** - Also has **QuakeRot** Was this a quake format?
+* **GameDefaultCamera** - camera settings such as nearPlane and farPlane
+* **=BOUNDING_REGION** - Bounding Box information
+
+
 #### Left-over development content
 The **.mine**, **.r11913**, **.r11979** files suggest use of the RCS (Revision Control System) version control system as it uses these extensions to manage file revisions and resolve conflicts locally.
 
