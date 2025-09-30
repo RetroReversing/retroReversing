@@ -62,7 +62,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Championship Surfer  | Windows, PlayStation, Dreamcast | 2000 |
 | Barbie Beach Vacation| Windows | 2001 |
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
-| Sunny Garcia Surfing | PlayStation 2   | 2001 | Yes
+| Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes
 | Barbie: Sparkling Ice Show | Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
@@ -374,6 +374,19 @@ To quote Brent [^2]:
 
 You can watch the video below:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/s-s-kXb5Yqs?si=bz95c4x2tUtr7dIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+# Pre-Merkury - Disney's Extremely Goofy Skateboarding
+The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
+
+Although it doesn't use Merkury it would be interesting to see if any code from this game made it into early versions of the Merkury engine.
+
+The 3D Engine programmer for the Goofy game, **Tony Ball** was also one of the founding developers of the Merkury engine, so it is likely some of the code was re-used in Merkury or it at least helped shape the design decisions made in the engine.
+
+Differences from the Merkury engine:
+* **Asset archives** - Instead of the RKV format, the game bundles its assets into a file called **data0.pkg**, this is simply a Zip file, so its very easy to extract the contents by adding the .zip extention to the end.
+* **Images** - It stores images directly as .BMP and textures as .TGA in the archive
+* **Sounds** - It stores sounds directly as .WAV and .MP3 files
 
 ---
 # References
