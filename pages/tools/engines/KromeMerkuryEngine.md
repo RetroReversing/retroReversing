@@ -369,7 +369,7 @@ There is a video on youtube of a quick behind the scenes route of the Krome offi
 
 Lead Environment Artist at Krome Studios **Brent Waller** posted a video showing off the new Merkury 3 engine in action which was built for the Xbox 360, Playstation 3 and Wii Title: **The Legend of the Guardians: The Owls of Ga'hoole**. 
 
-To quote Brent [^2]:
+To quote Brent Waller [^2]:
 > The engine has such features as large scale (16 square kilometres) terrain rendering and LODing, grass and forest LODing and placement tools and real-time day and night cycles.
 
 You can watch the video below:
@@ -409,6 +409,16 @@ The copyright messages hint at a few things:
 * **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
 * **Tal Nevo** is possibly related to executable compression but this is a guess
 
+The executable also has a few file paths left in which give a hint about the folder structure:
+* D:\Src\Skating\Source\Character.cpp
+* D:\Src\Skating\Source\Object.cpp
+* D:\Src\Skating\Source\Main.cpp - Contained WinMain
+* D:\Src\Skating\Source\GameData.cpp - Save Data
+
+Other interesting strings in the executable include:
+* `BLASTGRAPHICS Build Date : %s ` 
+
+---
 ## Asset Archive - data0.pkg
 
 Since the data0.pkg format is just simple zip compression, it is very easy to extract and modify the assets, so lets take a look at what it contains, there are 1,207 files so we will group files by their extension in the table below:
