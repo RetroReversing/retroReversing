@@ -59,15 +59,15 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
-| Championship Surfer  | Windows, PlayStation, Dreamcast| 2000 |
+| Championship Surfer  | Windows, PlayStation, Dreamcast | 2000 |
 | Barbie Beach Vacation| Windows | 2001 |
-| Disney's Extremely Goofy Skateboarding   | Windows | 2001 |
+| Disney's Extremely Goofy Skateboarding | Windows | 2001 |
 | Sunny Garcia Surfing | PlayStation 2   | 2001 | Yes
-| Barbie: Sparkling Ice Show| Windows | 2002 |
-| Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 |
+| Barbie: Sparkling Ice Show | Windows | 2002 |
+| Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
-| Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 |
-| King Arthur| PS2, Xbox, GameCube  | 2004 |
+| Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
+| King Arthur | PS2, Xbox, GameCube | 2004 |
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
 | The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
 | The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
@@ -79,7 +79,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
 | Game Room | Xbox 360, Windows, Windows Phone 7  | 2010 | Yes (RKV files present in windows version)
-| Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
+| Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 | Yes (RKV files present)
 | Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
 | Full House Poker | Xbox 360, Windows Phone 7 | 2011 |
 | Backyard Sports Basketball 2015 | iOS, Android | 2015 | No (Unity)
