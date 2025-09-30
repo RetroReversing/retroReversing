@@ -132,6 +132,8 @@ Krome developed these versions with a separate engine tailored for the older har
 
 The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than Havok due to the performance constraints of the PS2/PSP and Wii.
 
+{% include link-to-other-post.html post="/krome-merkury-engine" description="For more information on the Merkury engine by Krome Studios check out this post." %}
+
 ### Files in the PSP Version (Merkury engine)
 If you extract the files from the UMD disc you will get the following file structure:
 * **./PSP_GAME**
