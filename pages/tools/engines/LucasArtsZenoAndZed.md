@@ -170,6 +170,9 @@ Briefly looking at the **BOOT.BIN** executable it looks like it is using the **M
 
 This confirms that it is not using the Ronin engine, but in the future it would be good to do further analysis to check if there are any references to Zed, Zeno or even some shared Ronin code in the game.
 
+### Game Data Archives - .RKV files
+The game uses RKV version 2 archive files, these can be exteacted with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
+
 ### Source file references in the PSP version
 For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system:
 * d:/starwars/src/StarWars/Source/Ai/PathMap.cpp
