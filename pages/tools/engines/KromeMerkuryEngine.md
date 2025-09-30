@@ -32,6 +32,7 @@ Because a significant installed base remained for those consoles, LucasArts opte
 From our analysis of game files, we are confident that the following titles use the Merkury engine:
 * **Star Wars: The Force Unleashed** — PS2, PSP, and Wii versions
 * **Star Wars: The Clone Wars – Republic Heroes**
+* **The Adventures of Jimmy Neutron: Jet Fusion** - PS2 version confirmed
 
 Although not confirmed via file analysis, the following is often claimed:
 * **Star Wars: The Force Unleashed** — Switch version (reportedly a port of the Wii version rather than the Ronin‑based Xbox 360/PS3 version)
@@ -41,7 +42,7 @@ Although not confirmed via file analysis, the following is often claimed:
 
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
-| Game Title | Platform(s)| Year |
+| Game Title | Platform(s)| Year | Merkury?
 |----------------------------------------------------|---------------------------------------------------------|--------------|
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
 | Championship Surfer  | Windows, PlayStation, Dreamcast| 2000 |
@@ -50,7 +51,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Sunny Garcia Surfing | PlayStation 2   | 2001 |
 | Barbie: Sparkling Ice Show| Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 |
-| The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 |
+| The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 |
 | King Arthur| PS2, Xbox, GameCube  | 2004 |
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
@@ -58,10 +59,10 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | The Legend of Spyro: The Eternal Night   | PS2, Wii   | 2007 |
 | Viva Piñata: Party Animals| Xbox 360 | 2007 |
 | Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
-| Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 |
-| Star Wars: The Clone Wars – Lightsaber Duels  | Wii   | 2008 |
+| Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
+| Star Wars: The Clone Wars - Lightsaber Duels  | Wii | 2008 |
 | Scene It? Box Office Smash| Xbox 360 | 2008 |
-| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 |
+| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
 | Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010 |
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
@@ -79,7 +80,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
 ---
-## Star Wars: The Force Unleashed (PS2, PSP, Wii Versions)
+# Star Wars: The Force Unleashed (PS2, PSP, Wii Versions)
 Unlike the Xbox 360 and PS3 versions of **Star Wars: The Force Unleashed** the PS2, PSP and Wii versions were not built by **LucasArts** or use the **Ronin** engine.
 Instead they were developed by **Krome Studios**, a completely separate studio known for action-platformers and movie tie-in games.
 
@@ -166,7 +167,7 @@ mcd   | 66 | Mission/cutscene data or custom game data
 txt   | 65 | Plain text file mostly used for Locale string definitions per game platform e.g Xbox, PS2, Wii    
 bin   | 11 | Generic binary data file    
 fnt   | 5 | Font file, often bitmap or vector font
-FontInfo | 3 | Font metadata or font descriptor file    
+FontInfo | 3 | Plain text Font metadata containing a simple script setting variables like CharMap, AspectRatio, CharSpacing, FontXScale and FontYScale    
 bmfc  | 2 | Possibly custom file with material or font info?
 fnb   | 2 | Font binary file  
 inc   | 1 | Include file, likely script or code include
@@ -331,3 +332,14 @@ with wave.open(dst, "wb") as w:
 
 print ("Success:", dst, len(pcm), sample_rate, magic, version, total_size, hdr_size, data_size)
 ```
+
+---
+# The Adventures of Jimmy Neutron: Jet Fusion
+The 2003 game **The Adventures of Jimmy Neutron: Jet Fusion** is confirmed to use the Merkury engine (it uses RKV archives).
+
+## Prototype version for PS2
+<img width="1752" height="1240" alt="image" src="https://github.com/user-attachments/assets/10884f1d-86d5-4f4f-b2a6-81ff1b532452" />
+
+A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
+
+It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
