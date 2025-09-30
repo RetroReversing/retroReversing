@@ -25,7 +25,7 @@ It is most famous for their custom versions of **Star Wars: The Force Unleashed*
 There were still many gamers who had these less powerful consoles and so was a lucrative market to tap into and thus a custom version of the game was born on an existing engine built by Krome Studios for past games: **Merkury**.
 
 ## Known Merkury Engine games
-Based on our analysis of the game files, the games we are confident are definetly using the Merkury engine are the following:
+Based on our analysis of the game files, the games we are confident are definitely using the Merkury engine are the following:
 * **Star Wars: The Force Unleashed** - only the PS2, PSP and Wii versions of the game
 * **Star Wars: The Clone Wars - Republic Heroes**
 
@@ -34,7 +34,7 @@ Although not confirmed using game file analysis it is claimed that the following
 
 ---
 ## Possible Merkury engine games
-Since we don't yet know all the games that used thew Merkury engine, here is a table of the major games developed by Krome Studios, spanning various platforms since their founding:
+Since we don't yet know all the games that used the Merkury engine, here is a table of the major games developed by Krome Studios, spanning various platforms since their founding:
 
 | Game Title                                         | Platform(s)                                             | Year         |
 |----------------------------------------------------|---------------------------------------------------------|--------------|
@@ -75,8 +75,8 @@ Since we don't yet know all the games that used thew Merkury engine, here is a t
 
 ---
 # Star Wars: The Force Unleashed (PS2, PSP and Wii Version)
-The PS2, PSP and Wii versions of "Star Wars: The Force Unleashed" are not build by **LucasArts** like the Xbox 360 and PS3 versions of the same game and thus are not using the proprietary LucasArts **Ronin** engine. 
-Instead they were developed by **Krome Studios**, a completely seperate studio known for action-platformers and movie tie-in games.
+The PS2, PSP and Wii versions of "Star Wars: The Force Unleashed" are not built by **LucasArts** like the Xbox 360 and PS3 versions of the same game and thus are not using the proprietary LucasArts **Ronin** engine. 
+Instead they were developed by **Krome Studios**, a completely separate studio known for action-platformers and movie tie-in games.
 
 Krome developed these versions with a separate engine tailored for the older hardware and with unique content and gameplay elements. It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used by a third party developer, so we presume these versions were not made using Zed and any assets were either sent over manually to the studio or made custom by **Krome**.
 
@@ -130,7 +130,7 @@ For fun here is a list of unique strings that reference some of the original sou
 
 ---
 ## Game Data Archives - .RKV files
-The game uses RKV version 2 archive files, these can be exteacted with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
+The game uses RKV version 2 archive files, these can be extraced with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
 
 ### Language Sound Bank Files (LngEN_pp.rkv and LngFR_pp.rkv)
 **LngEN_pp.rkv** and **LngFR_pp.rkv** contain sound bank files (.sbk) for their respective languages, presumably all the voiced dialog in the game is contained in these and they have the file name format like **cscc001_01_00_p01dven.sbk**.
@@ -175,9 +175,9 @@ Although these are a guess, proper analysis including playing each of the SBK fi
 
 ---
 ### SBK - Sound Bank File Format
-After some initial analysis it seems the .SBK (header: SB01) files contained in the RKV archives are a small custom container that wraps a mono **PSX-ADPCM** stream. The container adds a fixed header (magic/version/size/name/flags) and stores raw ADPCM frames **without a VAGp/RIFF wrapper**.
+After some initial analysis it seems the .SBK (header: SB01) files contained in the RKV archives is a small custom container that wraps a mono **PSX-ADPCM** stream. The container adds a fixed header (magic/version/size/name/flags) and stores raw ADPCM frames **without a VAGp/RIFF wrapper**.
 
-Here are the header Metadata fields, numbers are all 32bit Little Endian:
+Here are the header Metadata fields, numbers are all 32-bit Little Endian:
 * **Magic** - Always "SB01" (ASCII) at 0x00
 * **Version** - e.g 0x00000001 at 0x04
 * **File size** - e.g 0x000029D0 (= 10704) at 0x08
