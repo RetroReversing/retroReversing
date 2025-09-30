@@ -388,6 +388,27 @@ Differences from the Merkury engine:
 * **Images** - It stores images directly as .BMP and textures as .TGA in the archive
 * **Sounds** - It stores sounds directly as .WAV and .MP3 files
 
+## Skating.exe executable
+If you run the `binwalk` command on the **Skating.exe** executable you find that it actually has a few embeded executables too:
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0                                  0x0                                Windows PE binary, machine type: Intel x86
+510344                             0x7C988                            Copyright text: "Copyright 1998 Gilles Vollant "
+510760                             0x7CB28                            CRC32 polynomial table, little endian
+518636                             0x7E9EC                            Copyright text: "Copyright (C) 1996, Thomas G. Lane"
+862766                             0xD2A2E                            Copyright text: "Copyright (c) 1993 Tal Nevo."
+872435                             0xD4FF3                            Windows PE binary, machine type: Intel x86
+889647                             0xD932F                            Windows PE binary, machine type: Intel x86
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
+The copyright messages hint at a few things:
+* **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
+* **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
+* **Tal Nevo** is possibly related to executable compression but this is a guess
+
 ---
 # References
 [^1]: Sunny Garcia Surfing PS2 Manual
