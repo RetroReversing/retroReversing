@@ -21,6 +21,8 @@ _image: /public/consoles/Tools.jpg
 
 The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for  Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
 
+Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasmanian Tiger 4) rather than the Merkury engine, but remaster of older games are still being relased based on the Merkury engine so Krome Studios are still activly developing with it.
+
 It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
 
 ---
@@ -78,10 +80,10 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
 | Game Room  | Xbox 360, Windows, Windows Phone 7  | 2010 |
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 |
-| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes Merkury 3
+| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
 | Full House Poker| Xbox 360, Windows Phone 7 | 2011 |
 | Backyard Sports Basketball 2015| iOS, Android, Windows| 2015 |
-| Ty the Tasmanian Tiger 4  | Windows | 2015 |
+| Ty the Tasmanian Tiger 4  | Windows | 2015 | No (Unity)
 | Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows | 2016, 2020 |
 | Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows | 2017, 2021 |
 | Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 |
