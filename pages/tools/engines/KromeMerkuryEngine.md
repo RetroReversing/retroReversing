@@ -142,37 +142,39 @@ Likely naming format breakdown:
 * **dv** — Character anchors e.g dv is Darth Vader
 * **en** — Audio Language (Known values: en, fr)
 
+#### SNK Cutscene Codes
 Possible cutscene codes are presented in the table below:
 
-| Cutscene ID                      | Likely scene                           | Rationale (where applicable)   |
-| --------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **csdv001**                 | Darth Vader prologue (Kashyyyk)              | “DV” = Darth Vader; prologue is a Vader mission.|
-| **cska2xx**                 | Kashyyyk                                     | “ka” matches planet.                      |
-| **csfe1xx/2xx/20x/205**     | Felucia                                      | “fe” = Felucia.                          |
-| **csrp1xx/2xx**             | Raxus Prime                                  | “rp” = Raxus Prime.                       |
-| **csjt1xx/2xx**             | Jedi Temple (trials)                         | “jt” = Jedi Temple.                       |
-| **csmu001**                 | Mustafar (historic mission)                  | “mu” = Mustafar.                          |
-| **csns201**                 | Nar Shaddaa                                  | “ns” = Nar Shaddaa.                       |
-| **cstc001/101**             | TIE Construction Facility                    | “tc” = TIE Construction; early game mission.                                                                              |
-| **csds201**                 | The Dune Sea (Tatooine historic mission)     | “ds” = Dune Sea; appears as historic mission.                                                              |
-| **cscc001/201/202/204/205** | Carbonite Chamber (Bespin historic mission)  | “cc” = Carbonite Chamber.|
-| **cscg001**                 | Geonosis Colosseum (historic mission)        | “cg” = Colosseum Geonosis. |
-| **csdq001**                 | Dooku’s Quarters (Geonosis historic mission) | “dq” = Dooku’s Quarters.  |
-| **csvo001**                 | Vader’s Observatory/Vessel?                  | “vo” ambiguous; likely Vader-related interstitial.                                                                        |
-| **csvf101/102/104**         | Vader’s Flagship/Facility?                   | “vf” ambiguous; Vader-adjacent (briefings/bridges).                                                                       |
-| **csqg001**                 | ? Geonosis-related (Qui-Gon is unlikely)     | “qg” unclear; could be internal codename. |
-| **cspl001**                 | ? Palace (Jabba’s)                           | “pl” plausible “(Jabba’s) Palace” historic.                                                                               |
-| **csps001**                 | ? Palace/Cantina sequence                    | “ps” ambiguous; may be Tatooine set-piece.|
-| **csrg001**                 | ? Raxus (Gateway)/Royal Guard                | “rg” unclear; could be encounter beat.    |
-| **csrh201**                 | ? Raxus H— (Hub/Hangar/Holo)                 | “rh” unclear; grouped with Raxus arc number. |
-| **csrs001**                 | ? Raxus Scrap (yard)                         | “rs” plausible for “scrapyard”.           |
-| **csfd001**                 | ? Felucia derivative                         | “fd” could be Felucia boss/dialogue beat. |
-| **csil101**                 | ? Imperial Laboratory/Library                | “il” ambiguous; story contains Imperial facilities. |
-| **csos001**                 | ? Ossus                                      | “os” could be Ossus (Jedi world); unconfirmed. |
+| Cutscene ID | Likely scene | Rationale (where applicable) |
+|---|---|---|
+| **csdv001**                 | Darth Vader prologue (Kashyyyk)              | "DV" = Darth Vader; prologue is a Vader mission.|
+| **cska2xx**                 | Kashyyyk                                     | "ka" matches planet.                      |
+| **csfe1xx/2xx/20x/205**     | Felucia                                      | "fe" = Felucia.                          |
+| **csrp1xx/2xx**             | Raxus Prime                                  | "rp" = Raxus Prime.                       |
+| **csjt1xx/2xx**             | Jedi Temple (trials)                         | "jt" = Jedi Temple.                       |
+| **csmu001**                 | Mustafar (historic mission)                  | "mu" = Mustafar.                          |
+| **csns201**                 | Nar Shaddaa                                  | "ns" = Nar Shaddaa.                       |
+| **cstc001/101**             | TIE Construction Facility                    | "tc" = TIE Construction; early game mission.                     |
+| **csds201**                 | The Dune Sea (Tatooine historic mission)     | "ds" = Dune Sea; appears as historic mission.                                 |
+| **cscc001/201/202/204/205** | Carbonite Chamber (Bespin historic mission)  | "cc" = Carbonite Chamber.|
+| **cscg001**                 | Geonosis Colosseum (historic mission)        | "cg" = Colosseum Geonosis. |
+| **csdq001**                 | Dooku’s Quarters (Geonosis historic mission) | "dq" = Dooku’s Quarters.  |
+| **csvo001**                 | Vader’s Observatory/Vessel?                  | "vo" ambiguous; likely Vader-related interstitial.                          |
+| **csvf101/102/104**         | Vader’s Flagship/Facility?                   | "vf" ambiguous; Vader-adjacent (briefings/bridges).                         |
+| **csqg001**                 | ? Geonosis-related (Qui-Gon is unlikely)     | "qg" unclear; could be internal codename. |
+| **cspl001**                 | ? Palace (Jabba’s)                           | "pl" plausible "(Jabba’s) Palace" historic. |
+| **csps001**                 | ? Palace/Cantina sequence                    | "ps" ambiguous; may be Tatooine set-piece.|
+| **csrg001**                 | ? Raxus (Gateway)/Royal Guard                | "rg" unclear; could be encounter beat.    |
+| **csrh201**                 | ? Raxus H— (Hub/Hangar/Holo)                 | "rh" unclear; grouped with Raxus arc number. |
+| **csrs001**                 | ? Raxus Scrap (yard)                         | "rs" plausible for "scrapyard".           |
+| **csfd001**                 | ? Felucia derivative                         | "fd" could be Felucia boss/dialogue beat. |
+| **csil101**                 | ? Imperial Laboratory/Library                | "il" ambiguous; story contains Imperial facilities. |
+| **csos001**                 | ? Ossus                                      | "os" could be Ossus (Jedi world); unconfirmed. |
 
+Although these are a guess, proper analysis including playing each of the SBK files while playing the game would be required to give more concrete information.
 
-
-#### SBK File Format
+---
+### SBK - Sound Bank File Format
 After some initial analysis it seems the .SBK (header: SB01) files contained in the RKV archives are a small custom container that wraps a mono **PSX-ADPCM** stream. The container adds a fixed header (magic/version/size/name/flags) and stores raw ADPCM frames **without a VAGp/RIFF wrapper**.
 
 Here are the header Metadata fields, numbers are all 32bit Little Endian:
@@ -189,6 +191,7 @@ The rest of the file is consistent with PSX ADPCM (a.k.a. VAG):
 * 16-byte frames with pattern 0x0C 0x00 ... repeated
 * mono frames (1-byte predictor/shift, 1-byte flags, 14 data bytes → 28 PCM samples/frame).
 
+### Script to convert .SBK to WAV
 Here is a Python3 script to convert the .SBK files to WAV:
 ```python
 # Convert .SBK (Merkury Engine Sound Bank, Star Wars Force Unleashed) to WAV
