@@ -148,22 +148,35 @@ Due to the huge amount of files in the archive, we are not going to list them ou
 ```
 Extension  | Number of Files | Description
 ---|---|---
-BPK   | 451   | Likely a binary package or game resource file 
-FontInfo | 3 | Font metadata or font descriptor file    
+tex   | 4112  | Texture image file (Magic header: TEX)
+min   | 3644 | Minimal index or metadata file?
+mdg   | 2832 | Model geometry or mesh data   
+mdl   | 2832 | 3D model file 
+bni   | 2605 | Similar to bbi, a custom binary index file
+bbi   | 1688  | Binary index or custom binary data file   
 ang   | 1682  | Possibly animation or angle data file
 anm   | 1682  | Animation file   
-at3   | 230   | ATRAC3 compressed audio format used in PSP
-bbi   | 1688  | Binary index or custom binary data file   
-bin   | 11 | Generic binary data file    
-bmfc  | 2 | Possibly custom file with material or font info?
-bni   | 2605 | Similar to bbi, a custom binary index file
+pkg   | 775 | Package file containing grouped assets 
 cgr   | 692 | Character graphics or 3D model data   
-csv   | 1 | Comma-separated values text file 
-fnb   | 2 | Font binary file  
-fnt   | 5 | Font file, often bitmap or vector font
-inc   | 1 | Include file, likely script or code include
+BPK   | 451 | Likely a binary package or game resource file 
+sbk   | 278 | Sound bank file (see format below)
+at3   | 230   | ATRAC3 compressed audio format used in PSP
+pmd   | 180 | Polygon model data
+psb   | 88 | PlayStation bitmap or proprietary sprite sheet
 mcd   | 66 | Mission/cutscene data or custom game data  
+txt   | 65 | Plain text file mostly used for Locale string definitions per game platform e.g Xbox, PS2, Wii    
+bin   | 11 | Generic binary data file    
+fnt   | 5 | Font file, often bitmap or vector font
+FontInfo | 3 | Font metadata or font descriptor file    
+bmfc  | 2 | Possibly custom file with material or font info?
+fnb   | 2 | Font binary file  
+inc   | 1 | Include file, likely script or code include
 mdb   | 1 | Possibly model data or database file?
+mdd   | 1 | Model animation or motion data?    
+mine, r11913, r11979 | 3 | Version Control files left over from a merge of the global.lv3.bni file (revision r11913 and r11979) 
+tmp   | 1 | Temporary file storing metadata, only used for one file called lastupdate.tmp 
+csv   | 1 | Comma-separated values text file 
+xls   | 1 | Excel spreadsheet file for translations (Translations.xls)
 ```
 
 #### Left-over development content
