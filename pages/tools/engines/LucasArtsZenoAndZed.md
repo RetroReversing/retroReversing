@@ -170,6 +170,18 @@ Briefly looking at the **BOOT.BIN** executable it looks like it is using the **M
 
 This confirms that it is not using the Ronin engine, but in the future it would be good to do further analysis to check if there are any references to Zed, Zeno or even some shared Ronin code in the game.
 
+### Source file references in the PSP version
+For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system:
+* d:/starwars/src/StarWars/Source/Ai/PathMap.cpp
+* d:/starwars/src/StarWars/Source/Ai/Goals/AI_FollowEntityGoal.cpp
+* d:/starwars/src/StarWars/Source/Ai/Goals/AI_OrganisedRetreatGoal.cpp
+* d:/starwars/src/StarWars/Source/Ai/Goals/ScriptGoal.cpp
+* d:/starwars/src/StarWars/Source/Brains/AIBrain.cpp (AIBrain.h)
+* d:\starwars\src\StarWars\Source\Entity\Humanoid\Humanoid.cpp
+* d:/starwars/src/StarWars/Source/Props/CustomizeCostumeProp.cpp
+
+It would be interesting to see if the PS2 or Wii versions have more source file references, or maybe one of them has debug symbols?
+
 ---
 ## iOS and N-Gage Version
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nD6-8NRrBf0?si=PL8eFICLN32JX_u6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
