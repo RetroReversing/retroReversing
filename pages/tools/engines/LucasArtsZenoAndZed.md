@@ -176,23 +176,51 @@ The game uses RKV version 2 archive files, these can be exteacted with [Luigi Au
 #### Language Sound Bank Files (LngEN_pp.rkv and LngFR_pp.rkv)
 **LngEN_pp.rkv** and **LngFR_pp.rkv** contain sound bank files (.sbk) for their respective languages, presumably all the voiced dialog in the game is contained in these and they have the file name format like **cscc001_01_00_p01dven.sbk**.
 
-Likely Naming Format Breakdown:
-* **cscg001**: Likely a code for a scene, mission, area, or character group within the game.
+Likely naming format breakdown:
+* **cscg001**: Likely an ID for a cutscene, always prefixed with "cs" presumably standing for cutscene.
 * **01_00**: Major/minor numbers w.g for scene/area, event, sequence, or version
 * **p01** — Possibly part 1/phase 1 or referencing a specific voice/group.
-* **cd** — Could stand for character dialogue, cutscene dialogue or a code for a character or event type?
-* **en** — Audio Language (Known values: en,fr)
+* **dv** — Character anchors e.g dv is Darth Vader
+* **en** — Audio Language (Known values: en, fr)
+
+Possible cutscene codes are presented in the table below
+| Cutscene ID                      | Likely scene                           | Rationale (where applicable)   |
+| --------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **csdv001**                 | Darth Vader prologue (Kashyyyk)              | “DV” = Darth Vader; prologue is a Vader mission.|
+| **cska2xx**                 | Kashyyyk                                     | “ka” matches planet.                      |
+| **csfe1xx/2xx/20x/205**     | Felucia                                      | “fe” = Felucia.                          |
+| **csrp1xx/2xx**             | Raxus Prime                                  | “rp” = Raxus Prime.                       |
+| **csjt1xx/2xx**             | Jedi Temple (trials)                         | “jt” = Jedi Temple.                       |
+| **csmu001**                 | Mustafar (historic mission)                  | “mu” = Mustafar.                          |
+| **csns201**                 | Nar Shaddaa                                  | “ns” = Nar Shaddaa.                       |
+| **cstc001/101**             | TIE Construction Facility                    | “tc” = TIE Construction; early game mission.                                                                              |
+| **csds201**                 | The Dune Sea (Tatooine historic mission)     | “ds” = Dune Sea; appears as historic mission.                                                              |
+| **cscc001/201/202/204/205** | Carbonite Chamber (Bespin historic mission)  | “cc” = Carbonite Chamber.|
+| **cscg001**                 | Geonosis Colosseum (historic mission)        | “cg” = Colosseum Geonosis. |
+| **csdq001**                 | Dooku’s Quarters (Geonosis historic mission) | “dq” = Dooku’s Quarters.  |
+| **csvo001**                 | Vader’s Observatory/Vessel?                  | “vo” ambiguous; likely Vader-related interstitial.                                                                        |
+| **csvf101/102/104**         | Vader’s Flagship/Facility?                   | “vf” ambiguous; Vader-adjacent (briefings/bridges).                                                                       |
+| **csqg001**                 | ? Geonosis-related (Qui-Gon is unlikely)     | “qg” unclear; could be internal codename. |
+| **cspl001**                 | ? Palace (Jabba’s)                           | “pl” plausible “(Jabba’s) Palace” historic.                                                                               |
+| **csps001**                 | ? Palace/Cantina sequence                    | “ps” ambiguous; may be Tatooine set-piece.|
+| **csrg001**                 | ? Raxus (Gateway)/Royal Guard                | “rg” unclear; could be encounter beat.    |
+| **csrh201**                 | ? Raxus H— (Hub/Hangar/Holo)                 | “rh” unclear; grouped with Raxus arc number. |
+| **csrs001**                 | ? Raxus Scrap (yard)                         | “rs” plausible for “scrapyard”.           |
+| **csfd001**                 | ? Felucia derivative                         | “fd” could be Felucia boss/dialogue beat. |
+| **csil101**                 | ? Imperial Laboratory/Library                | “il” ambiguous; story contains Imperial facilities. |
+| **csos001**                 | ? Ossus                                      | “os” could be Ossus (Jedi world); unconfirmed. |
+
 
 
 ### Source file references in the PSP version
-For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system:
-* d:/starwars/src/StarWars/Source/Ai/PathMap.cpp
-* d:/starwars/src/StarWars/Source/Ai/Goals/AI_FollowEntityGoal.cpp
-* d:/starwars/src/StarWars/Source/Ai/Goals/AI_OrganisedRetreatGoal.cpp
-* d:/starwars/src/StarWars/Source/Ai/Goals/ScriptGoal.cpp
-* d:/starwars/src/StarWars/Source/Brains/AIBrain.cpp (AIBrain.h)
-* d:\starwars\src\StarWars\Source\Entity\Humanoid\Humanoid.cpp
-* d:/starwars/src/StarWars/Source/Props/CustomizeCostumeProp.cpp
+For fun here is a list of unique strings that reference some of the original source code file names from inside the **BOOT.BIN** executable, they all seem to be related to the Ai system and all have the path prefix **d:/starwars/src/StarWars/Source/** :
+* Ai/PathMap.cpp
+* Ai/Goals/AI_FollowEntityGoal.cpp
+* Ai/Goals/AI_OrganisedRetreatGoal.cpp
+* Ai/Goals/ScriptGoal.cpp
+* Brains/AIBrain.cpp (AIBrain.h)
+* Entity/Humanoid/Humanoid.cpp
+* Props/CustomizeCostumeProp.cpp
 
 It would be interesting to see if the PS2 or Wii versions have more source file references, or maybe one of them has debug symbols?
 
