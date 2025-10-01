@@ -348,34 +348,6 @@ print ("Success:", dst, len(pcm), sample_rate, magic, version, total_size, hdr_s
 ```
 
 ---
-# The Adventures of Jimmy Neutron: Jet Fusion
-The 2003 game **The Adventures of Jimmy Neutron: Jet Fusion** is confirmed to use the Merkury engine (it uses RKV archives).
-
-## Prototype version for PS2
-<img width="1752" height="1240" alt="image" src="https://github.com/user-attachments/assets/10884f1d-86d5-4f4f-b2a6-81ff1b532452" />
-
-A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
-
-It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
-
----
-# Star Wars Lightsaber Duels for the Wii
-![Interview with lead programmer Chris Lacey at Krome](https://github.com/user-attachments/assets/06fb402d-f9e3-49b1-9c07-94afc2247a53)
-There is a video on youtube of a quick behind the scenes route of the Krome offices back in 2008 where they interview the lead programmer of Star Wars Lightsaber Duels **Chris Lacey** (The Shak EP454)?
-
-
----
-# Merkury 3 - Xbox 360, PS3 and Wii
-
-Lead Environment Artist at Krome Studios **Brent Waller** posted a video showing off the new Merkury 3 engine in action which was built for the Xbox 360, Playstation 3 and Wii Title: **The Legend of the Guardians: The Owls of Ga'hoole**. 
-
-To quote Brent Waller [^2]:
-> The engine has such features as large scale (16 square kilometres) terrain rendering and LODing, grass and forest LODing and placement tools and real-time day and night cycles.
-
-You can watch the video below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/s-s-kXb5Yqs?si=bz95c4x2tUtr7dIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
----
 # Pre-Merkury - Disney's Extremely Goofy Skateboarding
 The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
 
@@ -467,11 +439,24 @@ The level files are plain text XML data which links together all the other files
 As far as I know this is a custom format made for this game and not an industry standard.
 
 ---
-# Championship Surfer
-In the windows version of Championship software seems to be the first game that uses the RKV format (still never found out what it stands for), so we can class this as the first of the Merkury engine games.
-Need to check the PS1 and Dreamcast versions to see if they are the same.
+# Championship Surfer (2001)
+Championship Surfer is a 2001 game available for Windows, PS1 and Dreamcast, the Windows version is the **first game credite**d as using the **Merkury** engine, with no mention of the engine for the PS1 release. However it is presumed some of the code was re-used between the Windows and PS1 games so it is likely that even the PS1 version is using some Merkury engine code.
 
-Here is a quickBMS script to extract the data from **Surf_PC.rkv**
+## Windows version of Championship Surfer
+The Windows version of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits. 
+It is also the first game that uses the RKV archive format (still never found out what it stands for).
+
+## Early RKV Archive format
+The RKV archive format differs from the one used in the more modern games such as Star Wars, but this same format was also used in early PS2 games running on the Merkury engine such as Jimmy Neutron: Jet Fusion!
+
+It seems to be the first game that introduced the naming convention for the RKV archives which all have a 2 character suffix based on the platform the assets are for:
+* **Surf_PC.rkv** - Championship Surfer for PC assets
+* **DATA_P2.RKV** - Jimmy Neutron for PS2 assets
+* **data_pp.rkv** - Star Wars: The Force Unleashed for PSP assets
+
+### RKV Version 0 QuickBMS extract script
+Since there is already both an `RKV.bms` and `RKV2.bms` script to extract RKV files with the **QuickBMS** tool, I have decided to call the BMS script to extract the early version of the RKV format **RKV0.bms**, here is a version that works with **Surf_PC.rkv** and some early PS2 games:
+
 ```python
 # QuickBMS: Old version of Merkury engine games such as Championship Surfing and PS2 games like Jimmy Neutron
 get FILESIZE asize
@@ -556,6 +541,45 @@ for i = 0 < NUM_FILES
     endif
 next i
 ```
+
+## PS1 version of Championship Surfer
+
+However the PS1 version (**SLUS_012.16**) does not use RKV archive format and instead has files seperately on the disc in various PS1 optimized file formats (e.g TIM).
+This is common with PS1 games as they all use a standard ISO 9660 filesystem, allowing individual files (textures, models, audio, maps, scripts, etc.) to be stored as separate, accessible files. This makes it easy for the game executable to read specific assets directly from the disc and was practical considering memory limits and the way the PS1’s BIOS exposed disc access.
+
+
+Need to check the Dreamcast versions to see if they are the same.
+
+
+
+---
+# The Adventures of Jimmy Neutron: Jet Fusion (2003)
+The 2003 game **The Adventures of Jimmy Neutron: Jet Fusion** is confirmed to use the Merkury engine (it uses RKV archives).
+
+## Prototype version for PS2
+<img width="1752" height="1240" alt="image" src="https://github.com/user-attachments/assets/10884f1d-86d5-4f4f-b2a6-81ff1b532452" />
+
+A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
+
+It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
+
+---
+# Star Wars Lightsaber Duels for the Wii
+![Interview with lead programmer Chris Lacey at Krome](https://github.com/user-attachments/assets/06fb402d-f9e3-49b1-9c07-94afc2247a53)
+There is a video on youtube of a quick behind the scenes route of the Krome offices back in 2008 where they interview the lead programmer of Star Wars Lightsaber Duels **Chris Lacey** (The Shak EP454)?
+
+
+---
+# Merkury 3 - Xbox 360, PS3 and Wii
+
+Lead Environment Artist at Krome Studios **Brent Waller** posted a video showing off the new Merkury 3 engine in action which was built for the Xbox 360, Playstation 3 and Wii Title: **The Legend of the Guardians: The Owls of Ga'hoole**. 
+
+To quote Brent Waller [^2]:
+> The engine has such features as large scale (16 square kilometres) terrain rendering and LODing, grass and forest LODing and placement tools and real-time day and night cycles.
+
+You can watch the video below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/s-s-kXb5Yqs?si=bz95c4x2tUtr7dIG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ---
 # References
