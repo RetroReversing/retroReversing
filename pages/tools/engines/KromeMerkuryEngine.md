@@ -466,6 +466,13 @@ The Windows and Dreamcast versions of Championship Surfer (2001) is the first ga
 It is also the first game that uses the RKV archive format (still never found out what it stands for).
 
 The executable has a few paths left in tact which give a hint as to the folder structure:
+* C:\Src\beast98\animscript.cpp
+* C:\Src\beast98\gamecode\arcade.cpp
+* C:\Src\beast98\gamecode\championship.cpp
+* C:\Src\beast98\gamecode\credits.cpp
+* C:\Src\beast98\gamecode\duck.cpp
+* C:\Src\beast98\gamecode\elimination.cpp
+* C:\Src\beast98\gamecode\freesurf.cpp
 * C:\Src\beast98\gamecode\game.cpp
 * C:\Src\beast98\gamecode\mainmenu.cpp
 * C:\Src\beast98\gamecode\Replay.cpp
@@ -486,6 +493,23 @@ The executable has a few paths left in tact which give a hint as to the folder s
 * C:\Src\beast98\gamecode\world.cpp
 * C:\Src\beast98\gamecode\TextureMatrix.cpp
 * C:\Src\beast98\beast98.cpp
+
+### Frontend Menu Library
+A few paths in the dreamcast version hint at there being a menu library for the main screens (frontend) with the following source files:
+* C:\src\FrontEnd\Source\KMenuResources.cpp
+* C:\src\FrontEnd\Source\KMenuWinner.cpp
+* C:\src\FrontEnd\Source\ktile.cpp - contained KTile class
+* C:\src\FrontEnd\Source\ktilescreen.cpp - contained KTextureTile, KTextTile and KTextBoxTile
+* C:\src\FrontEnd\Source\KMenuCredits.cpp - Credits screen
+* C:\src\FrontEnd\Source\KMenuSelectBeach.cpp - Beach Selection screen
+* C:\src\FrontEnd\Source\TestGameScoresScreen.cpp
+* C:\src\FrontEnd\Source\LanguageScreen.cpp - Language selection screen
+* C:\src\FrontEnd\Source\Shine.cpp
+* C:\src\FrontEnd\Source\FrontEndTileScreen.cpp - contained KMenuItemTile, KShadowTextBoxTile, KOutlineTextTile
+
+
+### Standard Platform Library
+A few paths in the dreamcast version hint at there being a standard platform library with the following source files:
 * C:\src\StdPlatform\DataInputStream.cpp
 * C:\src\StdPlatform\FileInputStream.cpp
 * C:\src\StdPlatform\IncludeFilterStream.cpp
@@ -495,10 +519,26 @@ The executable has a few paths left in tact which give a hint as to the folder s
 * C:\src\StdPlatform\StdProfiler.cpp
 * C:\src\StdPlatform\FileSystemTOC.cpp
 * C:\src\StdPlatform\FileArchive.cpp
-* C:\src\Bg\bg.cpp
-* C:\src\Bg\system.cpp
 
-Also a few things related to BG (Blast Graphics?) Related to DirectX7
+
+### Krome's Dreamcast Blast Graphics (BG) library
+Also a few file paths are related to **BG** (possibly named Blast Graphics?) which I believe is the main game engine code which uses DirectX 7 on Dreamcast:
+* C:\src\Bg\bg.cpp
+* C:\src\Bg\bgsound.cpp
+* C:\src\Bg\system.cpp
+* C:\src\Bg\animate.cpp
+* C:\src\Bg\colormap.cpp
+* C:\src\Bg\camera.cpp
+* C:\src\Bg\vmu.cpp
+* C:\src\Bg\PlayVideo.cpp
+* C:\src\Bg\waves.cpp - functions like BG_Wave_Create, very specific to surfing games!
+* C:\src\Bg\Rain.cpp
+* C:\src\Bg\SimpleObject.cpp - looks like the base object for a bit of Object Oriented Programming in the game engine!
+* C:\src\Bg\collisions.cpp - presumably collision detection functions
+* C:\src\Bg\bmp.cpp - contains LoadBMP function
+* C:\src\Bg\loadvq.cpp - Loads VQ texture files with LoadVQ()
+
+Based on other debug strings from error messages we know that the BG library contained the following functions:
 * BG_GetHardware()
 * BG_AllocObject()
 * BG_FreeObject()
@@ -508,7 +548,32 @@ Also a few things related to BG (Blast Graphics?) Related to DirectX7
 * BG_Exit()
 * BG_CreateFont()
 * BG_LoadMatProperties()
+* BS_AllocSound()
+* BG_LoadAnimation() - takes in object, skeleton and vat filenames
+* BG_LoadColorMap() - takes in a filename to load
+* BG_LoadCameraTrack() - takes in a filename to load
+* BG_Wave_Create()
+* BG_Wave_LoadAnimation() - loads ASE files
+* BG_WaveSetControlPoints()
 
+### Sound engine - CRI Middleware's Sound Factory
+The dreamcast version uses **CRI Middleware's Sound Factory** version 1.51 (built in December 1999) for its audio processing, thanks to this information being left in the built executable.
+
+Specifically we know it uses the following builds (all from December 8th 1999):
+* **CRI_RNV** - Ver.0.70(DRAGON) Build: Dec 8 1999 12:10:29
+* **CRI_VFD** - Ver.0.99 Build: Dec 8 1999 12:10:55
+* **SJ** - Ver.5.50 Build: Dec 8 1999 12:11:38
+* **mwRna** - Ver.1.20 Build: Dec 8 1999 10:41:29
+* **mwSnd(DS)** - Ver.1.20 Build: Dec 8 1999 10:41:37
+* **SFD** - Version 1.21 1999-07-22 (SofdecStream)
+* MPV Version 1.21 1999-07-22
+* MPS Version 1.21 1999-07-22
+* ADXENC Ver.1.00 Build:Dec  8 1999 10:48:12
+* ADXENC.DLL Ver.1.00 Dec  8 1999
+
+
+Other notes:
+* Uses .vqf textures in dreamcast version
 
 
 The windows version was also released in a collection called **Crazy Fun Games** by a french company called **fun radio** and **Ubisoft**, but it is currently unknown if it contains any differences or debug symbols present [^5].
