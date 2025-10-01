@@ -467,6 +467,97 @@ The level files are plain text XML data which links together all the other files
 As far as I know this is a custom format made for this game and not an industry standard.
 
 ---
+# Championship Surfer
+In the windows version of Championship software seems to be the first game that uses the RKV format (still never found out what it stands for), so we can class this as the first of the Merkury engine games.
+Need to check the PS1 and Dreamcast versions to see if they are the same.
+
+Here is a quickBMS script to extract the data from **Surf_PC.rkv**
+```python
+# QuickBMS: Old version of Merkury engine games such as Championship Surfing and PS2 games like Jimmy Neutron
+get FILESIZE asize
+if FILESIZE < 8
+    print "File too small"
+    cleanexit
+endif
+
+goto -8
+get NUM_FILES long
+get NUM_DIRS long
+
+# directories block (NUM_DIRS * 256) ends at EOF-8
+math DIRS_SIZE = NUM_DIRS
+math DIRS_SIZE *= 256
+math DIRS_START = FILESIZE
+math DIRS_START -= 8
+math DIRS_START -= DIRS_SIZE
+
+print "Number of directories: %NUM_DIRS%"
+print "Number of file entries: %NUM_FILES%"
+print "Reading %DIRS_SIZE% bytes of directory entries starting at 0x%DIRS_START|X%"
+
+# read and store dir names by index
+goto DIRS_START
+for i = 0 < NUM_DIRS
+    getdstring DIR_NAME 256
+    print "DIR[%i%]: %DIR_NAME%"
+    putarray 0 i DIR_NAME
+next i
+
+# files block (NUM_FILES * 64) is before directories
+math FILES_SIZE = NUM_FILES
+math FILES_SIZE *= 64
+math FILES_START = DIRS_START
+math FILES_START -= FILES_SIZE
+
+print "Reading %FILES_SIZE% bytes of file entries starting at 0x%FILES_START|X%"
+
+goto FILES_START
+for i = 0 < NUM_FILES
+    getdstring FILE_NAME 32
+    get FOLDER_ID  long
+    get FILE_SIZE  long
+    get FILE_ZERO  long
+    get FILE_OFFSET long
+    get FILE_META3 long
+    getdstring FILE_RESERVED 12
+
+    # resolve folder name if valid
+    set MATCH_DIR string ""
+    if FOLDER_ID >= 0
+        if FOLDER_ID < NUM_DIRS
+            getarray MATCH_DIR 0 FOLDER_ID
+        endif
+    endif
+
+    # build output path
+    strlen DIRLEN MATCH_DIR
+    set FULL_NAME string FILE_NAME
+    if DIRLEN > 0
+        set FULL_NAME string MATCH_DIR
+        string FULL_NAME + /
+        string FULL_NAME + FILE_NAME
+    endif
+
+    print "FILE[%i%] name: %FULL_NAME|S% is located at %FILE_OFFSET|X% with size: %FILE_SIZE|X%"
+
+    if FILE_ZERO != 0
+        print "FILE[%i%] Normally this is zero: %FILE_ZERO|X%"
+    endif
+
+    strlen RLEN FILE_RESERVED
+    if RLEN != 0
+        # Not Sure what this data is (CRC? Timestamps?)
+        # print "FILE[%i%] reserved: %FILE_RESERVED|X%"
+    endif
+
+    # extract
+    if FILE_OFFSET != -1
+      log FULL_NAME FILE_OFFSET FILE_SIZE
+    endif
+next i
+```
+
+---
 # References
 [^1]: Sunny Garcia Surfing PS2 Manual
 [^2]: [Merkury 3 Engine Showcase - YouTube](https://www.youtube.com/watch?v=s-s-kXb5Yqs)
