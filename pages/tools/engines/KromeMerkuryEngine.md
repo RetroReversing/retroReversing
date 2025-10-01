@@ -463,9 +463,12 @@ This makes it easy for the game executable to read specific assets directly from
 ## Windows, Dreamcast versions of Championship Surfer (2001)
 The Windows and Dreamcast versions of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits.
 
-It is also the first game that uses the RKV archive format (still never found out what it stands for).
+It is also the first game that uses the RKV archive format (still never found out what it stands for) in both the Dreamcast and Windows versions, see the section below for the format of these archives as they differ from later Merkury engine games that use the same file extension (.rkv).
 
-The executable has a few paths left in tact which give a hint as to the folder structure:
+### Beast98 and HotWaves
+Thanks to strings left in the Dreamcast version of the game we know that the main game specific code was in a folder called **beast98**, which was presumably the codename given to the project early on in development. Interestingly they also use an alternative codename which is even cooler **HotWaves** which is a nice nod to Mattel who own the Hot wheels franchise and were also the publisher for this game!
+
+The executable has a few paths left intact which give a hint as to the folder structure:
 * C:\Src\beast98\animscript.cpp
 * C:\Src\beast98\gamecode\arcade.cpp
 * C:\Src\beast98\gamecode\championship.cpp
@@ -493,6 +496,13 @@ The executable has a few paths left in tact which give a hint as to the folder s
 * C:\Src\beast98\gamecode\world.cpp
 * C:\Src\beast98\gamecode\TextureMatrix.cpp
 * C:\Src\beast98\beast98.cpp
+
+The PC version also used the Beast98 code even although the strings above were stripped from the binary, we know this as there was a `crash.log` file left in the **Surf_PC.rkv** archive:
+```markdown
+("C:\src\beast98\PCRelease\Hotwaves.exe" -windowed -lang=2 -nomusic)
+ > Exception !!
+C:\src\beast98\gamecode\game.cpp @ 3055
+```
 
 ### Frontend Menu Library
 A few paths in the dreamcast version hint at there being a menu library for the main screens (frontend) with the following source files:
@@ -674,11 +684,6 @@ for i = 0 < NUM_FILES
     endif
 next i
 ```
-
-
-
-
-
 
 
 ---
