@@ -465,6 +465,52 @@ The Windows and Dreamcast versions of Championship Surfer (2001) is the first ga
 
 It is also the first game that uses the RKV archive format (still never found out what it stands for).
 
+The executable has a few paths left in tact which give a hint as to the folder structure:
+* C:\Src\beast98\gamecode\game.cpp
+* C:\Src\beast98\gamecode\mainmenu.cpp
+* C:\Src\beast98\gamecode\Replay.cpp
+* C:\Src\beast98\gamecode\Rumble.cpp
+* C:\Src\beast98\gamecode\rumbleicon.cpp
+* C:\Src\beast98\gamecode\settings.cpp
+* C:\Src\beast98\gamecode\wavegen.cpp
+* C:\Src\beast98\gamecode\surfdude.cpp
+* C:\Src\beast98\gamecode\dolphin.cpp
+* C:\Src\beast98\gamecode\photoman.cpp
+* C:\Src\beast98\gamecode\islandboy.cpp
+* C:\Src\beast98\gamecode\diver.cpp
+* C:\Src\beast98\gamecode\lifeguard.cpp
+* C:\Src\beast98\gamecode\femaleswimmer.cpp
+* C:\Src\beast98\gamecode\helicopter.cpp
+* C:\Src\beast98\gamecode\seagull.cpp
+* C:\Src\beast98\gamecode\shark.cpp
+* C:\Src\beast98\gamecode\world.cpp
+* C:\Src\beast98\gamecode\TextureMatrix.cpp
+* C:\Src\beast98\beast98.cpp
+* C:\src\StdPlatform\DataInputStream.cpp
+* C:\src\StdPlatform\FileInputStream.cpp
+* C:\src\StdPlatform\IncludeFilterStream.cpp
+* C:\src\StdPlatform\StdString.cpp
+* C:\src\StdPlatform\StringXlat.cpp
+* C:\src\StdPlatform\DirectXConsoleInput.cpp
+* C:\src\StdPlatform\StdProfiler.cpp
+* C:\src\StdPlatform\FileSystemTOC.cpp
+* C:\src\StdPlatform\FileArchive.cpp
+* C:\src\Bg\bg.cpp
+* C:\src\Bg\system.cpp
+
+Also a few things related to BG (Blast Graphics?) Related to DirectX7
+* BG_GetHardware()
+* BG_AllocObject()
+* BG_FreeObject()
+* BG_LoadObject()
+* BG_Init()
+* BG_PushBkg()
+* BG_Exit()
+* BG_CreateFont()
+* BG_LoadMatProperties()
+
+
+
 The windows version was also released in a collection called **Crazy Fun Games** by a french company called **fun radio** and **Ubisoft**, but it is currently unknown if it contains any differences or debug symbols present [^5].
 
 ## Early RKV Archive format
