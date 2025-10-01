@@ -59,7 +59,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
 | Mike Stewart's Pro Bodyboarding| Windows | 1999 |
-| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes (RKV files present in windows version)
+| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
 | Barbie Beach Vacation| Windows | 2001 |
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes
@@ -440,17 +440,37 @@ As far as I know this is a custom format made for this game and not an industry 
 
 ---
 # Championship Surfer (2001)
-Championship Surfer is a 2001 game available for Windows, PS1 and Dreamcast, the Windows version is the **first game credite**d as using the **Merkury** engine, with no mention of the engine for the PS1 release. However it is presumed some of the code was re-used between the Windows and PS1 games so it is likely that even the PS1 version is using some Merkury engine code.
+Championship Surfer is a 2001 game available for Windows, Dreamcast and PS1, the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
+However it is presumed some of the code was re-used between the Windows and PS1 games so it is likely that even the PS1 version is using some Merkury engine code.
 
-## Windows version of Championship Surfer
-The Windows version of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits. 
+## PS1 version of Championship Surfer
+![PS1 Manual cover of Championship Surfer](https://github.com/user-attachments/assets/14623b40-2a6f-42eb-ae5f-88610faacb53)
+
+The PS1 version of Championship Surfer (**SLUS_012.16**) has no mention of the Merkury engine and it was developed by a **compeltely different set of programmers** at Krome:
+* **Tyrone McAuley** - Lead programmer
+* **Daniel Sewell**
+* **Craig Herring**
+* **David Gilligan**
+
+### Assets in the PS1 version
+The PS1 version **does not use** the RKV archive format and instead has files seperately on the disc in various PS1 optimized file formats (e.g TIM).
+
+This is common with PS1 games as they all use a standard ISO 9660 filesystem, allowing individual files (textures, models, audio, maps, scripts, etc.) to be stored as separate, accessible files. 
+
+This makes it easy for the game executable to read specific assets directly from the disc and was practical considering memory limits and the way the PS1’s BIOS exposed disc access.
+
+---
+## Windows, Dreamcast versions of Championship Surfer (2001)
+The Windows and Dreamcast versions of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits.
+
 It is also the first game that uses the RKV archive format (still never found out what it stands for).
 
 ## Early RKV Archive format
 The RKV archive format differs from the one used in the more modern games such as Star Wars, but this same format was also used in early PS2 games running on the Merkury engine such as Jimmy Neutron: Jet Fusion!
 
-It seems to be the first game that introduced the naming convention for the RKV archives which all have a 2 character suffix based on the platform the assets are for:
+It seems to be the first game that introduced the naming convention for the RKV archives which all have a 2-3 character suffix based on the platform the assets are for:
 * **Surf_PC.rkv** - Championship Surfer for PC assets
+* **SURF_DCP.RKV** - Championship Surfer for Dreamcast assets
 * **DATA_P2.RKV** - Jimmy Neutron for PS2 assets
 * **data_pp.rkv** - Star Wars: The Force Unleashed for PSP assets
 
@@ -542,13 +562,9 @@ for i = 0 < NUM_FILES
 next i
 ```
 
-## PS1 version of Championship Surfer
-
-However the PS1 version (**SLUS_012.16**) does not use RKV archive format and instead has files seperately on the disc in various PS1 optimized file formats (e.g TIM).
-This is common with PS1 games as they all use a standard ISO 9660 filesystem, allowing individual files (textures, models, audio, maps, scripts, etc.) to be stored as separate, accessible files. This makes it easy for the game executable to read specific assets directly from the disc and was practical considering memory limits and the way the PS1’s BIOS exposed disc access.
 
 
-Need to check the Dreamcast versions to see if they are the same.
+
 
 
 
