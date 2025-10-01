@@ -26,11 +26,55 @@ Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasma
 It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
 
 ---
+## Origin of Krome Studios
+Krome Studios was founded on the 1st November 1999 [^6].
+
+---
 ## Origin of the engine
 The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
 * **Tony Ball** - Also credited as engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
+
+It would have been used in the cancelled **Kat Burglar** game that Krome Studios was working on in late 2000, which even advertised on their official website about the use of their proprietary Merkury engine [^7]:
+```markdown
+Kat Burglar is a 3rd person action-adventure game set in the swinging 60's. Katherine Kelly is a millionaire playgirl by day and a Robin Hood style thief by night. Katherine ("Kat" to her friends) specializes in stealing hard to get items from museums and fortified storehouses.
+
+But she doesn't steal for the money…
+
+Of course we're not going to give it all away just yet. We are keeping a few things under our hat - Kat Burglar is full of secrets and surprises. What we can tell you is that Kat is being developed for next generation console platforms and uses our proprietary 3D graphics engine Merkury.
+
+Kat Burglar focuses heavily on characters and storyline. This game isn't a shooter. While there will be occasions where Kat won't be able to avoid a fight, more emphasis is placed on stealth. As Kat Burglar, the player will be part of the story that unfolds on the island of Mont-St-Michel. Kat will also come across many characters in the game, some friends, some enemies and some she's just not sure about.
+```
+
+The official website even had a page dedicated to the Merkury game engine, this was archived on the wayback machine on March 3rd 2001 [^8]:
+```markdown
+Krome Studios' proprietary 3D game engine Merkury was developed entirely in house over a period of 3 years. The modular construction and versatility of this technology enables Krome to continually update the engine with new and innovative features that position Merkury as a world-class 3D game engine. Merkury is suitable for a wide variety of applications and platforms.
+
+Feature List
+* Soft-Skinned Skeletal Animation System
+* Simultaneous Independent Animations
+* Mesh Morphing and Animation Morphing
+* Full Support For implementation Of 3D Studio MAX Meshes And Animation
+* Support For Hardware Transformation And Lighting
+* Real-time Shadows
+* Full Particle Library Using Realistic Motion Simulation.
+* Advance Material Management System
+* Real-time Collision System
+* Indoor And Outdoor Environments
+* Multi-Platform
+* Multi-Genre
+* Multiple Field Of View
+ 	 	 
+# Powered by MerKury 
+The Merkury engine currently powers a large number of titles including:
+* Championship Surfer
+* Kat Burglar
+* Mike Stewart's Pro Bodyboarding
+* Chronicles of Jaru Tenk
+* Spirit Board
+* Gruesome Castle
+```
 
 ---
 ## Programming the Merkury engine
@@ -722,3 +766,6 @@ You can watch the video below:
 [^3]: Star Wars: The Force Unleashed PS2 Manual
 [^4]: [Chris Lacy of Krome Studios talks to PGC! - Interview - Nintendo World Report](https://www.nintendoworldreport.com/interview/2083/chris-lacy-of-krome-studios-talks-to-pgc)
 [^5]: [Crazy Fun Games (2001) - MobyGames](https://www.mobygames.com/game/73374/crazy-fun-games/)
+[^6]: [PC Powerplay Issue 062 - July 2001 - Next Publishing Pty Ltd](https://archive.org/details/PCPowerplay-062-2001-07/page/n57/mode/2up?q=Krome+Studios)
+[^7]: [Kat Burgler on the official kromestudios.com website fetched on Dec 12th 2000](https://web.archive.org/web/20001212222800/http://www.kromestudios.com/games_02.htm)
+[^8]: [Merkury  on the official kromestudios.com website](https://web.archive.org/web/20010303010913/http://www.kromestudios.com/merkury.htm)
