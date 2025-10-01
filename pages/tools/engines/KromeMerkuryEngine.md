@@ -465,6 +465,8 @@ The Windows and Dreamcast versions of Championship Surfer (2001) is the first ga
 
 It is also the first game that uses the RKV archive format (still never found out what it stands for).
 
+The windows version was also released in a collection called **Crazy Fun Games** by a french company called **fun radio** and **Ubisoft**, but it is currently unknown if it contains any differences or debug symbols present [^5].
+
 ## Early RKV Archive format
 The RKV archive format differs from the one used in the more modern games such as Star Wars, but this same format was also used in early PS2 games running on the Merkury engine such as Jimmy Neutron: Jet Fusion!
 
@@ -603,3 +605,4 @@ You can watch the video below:
 [^2]: [Merkury 3 Engine Showcase - YouTube](https://www.youtube.com/watch?v=s-s-kXb5Yqs)
 [^3]: Star Wars: The Force Unleashed PS2 Manual
 [^4]: [Chris Lacy of Krome Studios talks to PGC! - Interview - Nintendo World Report](https://www.nintendoworldreport.com/interview/2083/chris-lacy-of-krome-studios-talks-to-pgc)
+[^5]: [Crazy Fun Games (2001) - MobyGames](https://www.mobygames.com/game/73374/crazy-fun-games/)
