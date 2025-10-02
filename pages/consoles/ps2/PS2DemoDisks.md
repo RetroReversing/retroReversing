@@ -28,6 +28,39 @@ The Official Playstation 2 Magazine in the UK often had a playable PS2 Demo free
 
 You can find out more about these Demo Discs over at crimson-ceremony.net: [demo pals - OPS2M Demo UK](https://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140).
 
+Here is a table for reference if you are looking for which demo disc contained which playable demos:
+| Demo Name |  SCED Code |  Playable Game Names |   
+| --- | --- | --- |
+| OPS2M Demo 01 |  SCED-50065 | International Superstar Soccer, Wild Wild Racing | 
+| OPS2M Demo 02 |  SCED-50066 | Dynasty Warriors 2, NHL 2001 | 
+| OPS2M Demo 03 |  SCED-50067 | Dynasty Warriors 2, International Superstar Soccer, Moto GP, NHL 2001, Wild Wild Racing |  
+| OPS2M Demo 05 |  SCED-50140 | Gran Turismo 3 A-spec |  
+| OPS2M Demo 06 |  SCED-50141 | Dead Or Alive 2, Zone of the Enders |  
+| OPS2M Demo 07 |  SCED-50142 | Sky Odyssey, Star Wars Starfighter, Warriors of Might and Magic |   
+| OPS2M Demo 08 |  SCED-50143 | Moto GP, MTV Music Generator 2 |  
+| OPS2M Demo 09 |  SCED-50144 | Formula 1 2001, Rugby, Wacky Races | 
+| OPS2M Demo 10 |  SCED-50145 | Gauntlet: Dark Legacy, Le Mans 24 Hours, Star Wars: Super Bombad Racing | 
+| OPS2M Demo 11 |  SCED-50146 | Lotus Challenge, World Championship Snooker 2002 | 
+| OPS2M Demo 12 |  SCED-50147 | MX Rider, Portal Runner, Soul Reaver 2, Spy Hunter, This Is Football 2 |  
+| OPS2M Demo 12 |  SCED-50543 | Portal Runner, Soul Reaver 2, Spy Hunter, This Is Football 2002 |   
+| OPS2M Demo 13 |  SCED-50148 | Driven, Klonoa 2: Lunatea's Veil, MX 2002 Featuring Ricky Carmichael, NBA Street, Rayman M, Silent Scope 2, Time Crisis 2 |   
+| OPS2M Demo 14 |  SCED-50149 | Airblade, Baldur's Gate 2: Dark Alliance, Dark Cloud, Silent Hill 2, Tarzan Freeride, Wipeout Fusion, World Rally Championship, WWF Smackdown! Just Bring It |  
+| OPS2M Demo 15 |  SCED-50150 | Burnout, Dropship: United Peace Force, ESPN X Games Skateboarding, Extreme G-3, Formula One 2001, G-Surfers, GTC Africa, Jak & Daxter, Lotus Challenge, Project Eden, Thunderhawk: Operation Phoenix, Top Gun: Combat Zones |
+| OPS2M Demo 16 |  SCED-50151 | Ace Combat 4, Dropship: United Peace Force, Ecco The Dolphin: Defender Of The Future, FIFA 2002, Headhunter, MotoGP 2, Pro Evolution Soccer, Shaun Palmer's Pro Snowboarder, Twisted Metal: Black, Wipeout Fusion | 
+| OPS2M Demo 17 |  SCED-50152 | Crash Bandicoot: The Wrath of Cortex, Metal Gear Solid 2: Sons of Liberty, Parappa the Rapper 2, Rez, Robot Wars, Soul Reaver 2, Wipeout Fusion | 
+| OPS2M Demo 18 |  SCED-50153 | Drakan: The Ancients' Gates, Dynasty Warriors 3, Godai: Elemental Force, Half-Life, Herdy Gerdy, Maximo | 
+| OPS2M Demo 19 |  SCED-50154 | Dead or Alive 2, Formula One 2001, Ico, Mike Tyson Heavyweight Boxing, Vampire Night |  
+| OPS2M Demo 20 | SCED-50743 | Final Fantasy X, Moto GP, Rally Championship, Space Race, Taz Wanted | 
+| OPS2M Demo 21 | SCED-50742 | Frequency, Medal of Honor: Frontline, Peter Pan: Return to Never Land, Redcard, Smash Court Tennis Pro Tournament, Star Wars: Jedi Starfighter, Super Trucks, This is Football 2002, Tiger Woods PGA Tour 2002 | 
+| OPS2M Demo 22 | SCED-50744 | 2002 FIFA World Cup, Britney's Dance Beat, Formula One 2002, Gitaroo Man, MTV Music Generator, Time Crisis 2 | 
+| OPS2M Demo 23 | SCED-50745 | Army Men: Real Time Strategy, Fireblade, Men In Black II: Alien Escape, Project Zero, Stuntman | 
+| OPS2M Demo 24 | SCED-50746 | Aggressive Inline Skating, Conflict: Desert Storm, Downforce, Jak & Daxter: The Precursor Legacy, Need for Speed Hot Pursuit 2, TOCA Race Driver, World Rally Championship |   
+| OPS2M Demo 25 | SCED-50747 | Disney's Stitch: Experiment 626, Ninja Assault, This is Football 2003, Timesplitters 2, WWE Smackdown! Just Bring It!, X-Men Next Dimension |  
+| OPS2M Demo 26 | SCED-50748 | Burnout 2: Point of Impact, Crash Bandicoot: The Wrath of Cortex, Ferrari F355 Challenge, Hitman 2: Silent Assassin, Micro Machines, Ratchet & Clank, Red Faction 2, Summoner 2, Superman: Shadow of Apokolips, Tekken 4 |   
+| OPS2M Demo 27 | SCED-50749 | Alpine Racer 3, Colin McRae Rally 3, Heaven: Call of the King, Reign of Fire, Twin Caliber, Ty the Tasmanian Tiger, WRC II Extreme |  
+| OPS2M Demo 28 | SCED-50750 | Battle Engine Aquila, MX Superfly, The Getaway, Treasure Planet, V-Rally 3 | 
+
+
 ## Searching Demo Progress
 We have only managed to search OPS2M Demo Disc 10->31 for debug symbols, if you have unsearched demos please help by contributing to this list!
 
