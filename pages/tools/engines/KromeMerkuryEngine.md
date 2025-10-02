@@ -178,7 +178,7 @@ As facinating as the JASPAR engine is, this page is about Merkury and none of th
 In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released the following games:
 * **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
 * **Mike Stewart's Pro Bodyboarding** - February 1999 on Windows
-* **The Chronicles of Jaruu Tenk** - 1999 on Windows (sold via ScreenOpera)
+* **The Chronicles of Jaruu Tenk** - October 1999 on Windows (sold via ScreenOpera)
 * **Halloween Spirit Board** - October 1999 on Windows (sold via ScreenOpera)
 
 The original Gee Wizz! entertainment site from back in March 1997 has the following to say about each of the original team members [^10]:
@@ -221,6 +221,7 @@ Many of the games listed on the official website in 2001 as being Merkury engine
 The following games have references to Blast graphics in their executables or contain the windows dynamic library **bg.dll**:
 * **Gruesome Castle Demo** - bg.dll dated 12th January 1998
 * **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999
+* **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
 * **The Chronicles of Jaruu Tenk** - bg.dll with unknown date
 * **Halloween Spirit Board** - bg.dll with unknown date
 
@@ -419,6 +420,10 @@ entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 |
 Mike Stewart's Pro Bodyboarding was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year.
 
 The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
+
+It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`, is this related to **Beast98** that was mentioned in the 2000 game **Championship Surfer**? and is it the same Mind Mechanics that made **Rapid Glider The Race to Galamax**?
+
+It is likely they shared a lot of code between this bodyboarding game and a surfing game so its possible that the codename for this was beast and then beast98 was the codename for **Championship Surfer**.
 
 ---
 # The Chronicles of Jaruu Tenk (October 1999)
