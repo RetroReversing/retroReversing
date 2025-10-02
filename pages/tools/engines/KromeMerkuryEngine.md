@@ -220,10 +220,10 @@ Many of the games listed on the official website in 2001 as being Merkury engine
 
 The following games have references to Blast graphics in their executables or contain the windows dynamic library **bg.dll**:
 * **Gruesome Castle Demo** - bg.dll dated 12th January 1998 (361 functions)
-* **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999
+* **Halloween Spirit Board** - bg.dll dated 12th September 1999 (1018 functions)
+* **The Chronicles of Jaruu Tenk** - bg.dll dated 8th Oct 1999 (1020 functions)
+* **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (1019 functions)
 * **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
-* **The Chronicles of Jaruu Tenk** - bg.dll with unknown date
-* **Halloween Spirit Board** - bg.dll with unknown date
 
 ## Blast Graphics windows library (bg.dll)
 The Blast Graphics engine/library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
