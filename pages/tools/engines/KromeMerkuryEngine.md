@@ -827,14 +827,15 @@ The Merkury Engine programming for the game is credited to the following program
 
 ---
 # Ty the Tasmanian Tiger (2002)
+Ty the Tasmanian Tiger was released in 2002 for PS2, Gamecube and Xbox.
 
 ## Gamecube release of Ty (2002)
 
-The Gamecube release of **Ty the Tasmanian Tiger** contains not only debug symbols but also 364 references to the names of the C++ source code files used to build the game, all in the main executable **TY_REL.elf**.
+The Gamecube release of **Ty the Tasmanian Tiger** contains not only debug symbols but also 364 references to the names of the C++ source code files used to build the game, all in the main executable **TY_REL.elf**. Most of the strings are located in the string table section (**.strtab**) of the GameCube ELF file and thus the location in that section may not indicate anything about the location of the functions that were contained in that source file.
 
 You can find the Source file names in the table below, any descriptions added are a guess at the purpose of the file by us:
 
-Location | Source File Name | Description
+Location (.strtab) | Source File Name | Description
 ---|---|---
 0x00018ab2	| ZoneBlockerProp.cpp | 
 0x00018979	| Z1_RainbowScales.cpp | 
