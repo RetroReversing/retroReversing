@@ -30,8 +30,10 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 
 The company was originally founded as **Interactive Binary Illusions** in 1993 [^11], then renamed **Gee Wizz! entertainment** in 1996 on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 merging with Robert Walsh's **Pacific Interactive Entertainment** [^6].
 
+Despite all the evolution, the studio continued to be based in Brisbane, Australia.
+
 ### Interactive Binary Illusions
-Interactive Binary Illusions (IBI) released their first game all the way back in 1993 called **Alien Carnage** (also known as Halloween Harry), followed by the graphic adventure **Flight of the Amazon Queen** in 1995 [^11].
+Interactive Binary Illusions (IBI) released their first game all the way back in 1993 called **Alien Carnage** (also known as **Halloween Harry**), followed by the graphic adventure **Flight of the Amazon Queen** in 1995 [^11].
 
 They were working on a third title called **Stereo Jack** for planned release in 1996, however due to lack of funding it has to be cancelled and the pair instead formed a new company called **Gee Wizz! entertainment**.
 
@@ -61,10 +63,18 @@ Robert is a 24 year old programmer who spent his whole life dedicated to the cau
 Tony has worked on many games, some of which actually made it onto the shelves, including Halloween Harry, Alien Carnage and Flight of the Amazon Queen. He specializes in 'C' and Intel Assembly, particularly graphics code, and is currently working on some really cool stuff with Gee Whiz! Entertainment.
 ```
 
-Despite all the evolution, the studio continued to be based in Brisbane, Australia.
+During their run as **Gee Wizz! entertainment** they released two games:
+* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
+* **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
+
+**Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
+> Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
+>
+> Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
+
 
 ---
-## Origin of the engine
+## Origin of the Merkury Engine
 The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
@@ -1001,3 +1011,4 @@ You can watch the video below:
 [^10]: [Gee Whiz! Meet The Gang - archived March 27th 1997](https://web.archive.org/web/19970327033216/http://www.geewhiz.com.au/gwabout.html)
 [^11]: [Interactive Binary Illusions - MobyGames](https://www.mobygames.com/company/226/interactive-binary-illusions/)
 [^12]: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
+[^13]: [Gee Whiz! Labs - - archived March 27th 1997](https://web.archive.org/web/19970327033524/http://www.geewhiz.com.au/gwdev.html)
