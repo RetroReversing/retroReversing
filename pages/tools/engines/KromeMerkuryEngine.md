@@ -108,10 +108,12 @@ Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delp
 
 Sadly they found that reverse engineering an old Delphi executable is not easy with most modern tools. It is likely build using a very early version of Delphi such as 1.0 (1995) and their are tools that can help recovering the source files for Delphi 2.0/3.0 from compiled executables such as **EXE2DPR - Delphi project sources Rescuer**, but I don't know of any software that works on 1.0 executables unfortunetly.
 
-It was built using the Microsoft WinG library, which was the original name for DirectX. It also uses a library from **SubZero Software**  with a build date of 4th December 1995.
+It was built using the **Microsoft WinG** library, which was the original name for DirectX. It also uses a library from **SubZero Software**  with a build date of 4th December 1995.
 
-#### Delphi Programming
-**Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
+For the limited analysis of the binary I can do there doesn't seem to be any connection between the game and what would become the Merkury engine or its pre-cursor Blast graphics) and it was written in a completely different programming language so it is unlikely there is a strong connection.
+
+### Delphi Programming
+**Robert Crane** was a big fan of the **Delphi** programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
