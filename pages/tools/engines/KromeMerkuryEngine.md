@@ -79,7 +79,7 @@ As facinating as the JASPAR engine is, this page is about Merkury and none of th
 ## Gee Wizz! entertainment (1996-1999)
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
 
-In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released two games:
+In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released the following games:
 * **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
 * **Mike Stewart's Pro Bodyboarding** - February 1999 on Windows
 * **The Chronicles of Jaruu Tenk** - 1999 on Windows (sold via ScreenOpera)
@@ -120,26 +120,9 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 
 ---
 # Origin of the Merkury Engine
-The Merkury engine is first listed on the official Krome Studios website
+The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999.
 
-with **Tony Ball** being listed as the Merkury engine programmer in the credits.
-
-It would have been used in the cancelled **Kat Burglar** game that Krome Studios was working on in late 2000, which even advertised on their official website about the use of their proprietary Merkury engine [^7]:
-```markdown
-Kat Burglar is a 3rd person action-adventure game set in the swinging 60's. Katherine Kelly is a millionaire playgirl by day and a Robin Hood style thief by night. Katherine ("Kat" to her friends) specializes in stealing hard to get items from museums and fortified storehouses.
-
-But she doesn't steal for the money…
-
-Of course we're not going to give it all away just yet. We are keeping a few things under our hat - Kat Burglar is full of secrets and surprises. What we can tell you is that Kat is being developed for next generation console platforms and uses our proprietary 3D graphics engine Merkury.
-
-Kat Burglar focuses heavily on characters and storyline. This game isn't a shooter. While there will be occasions where Kat won't be able to avoid a fight, more emphasis is placed on stealth. As Kat Burglar, the player will be part of the story that unfolds on the island of Mont-St-Michel. Kat will also come across many characters in the game, some friends, some enemies and some she's just not sure about.
-```
-
-The official website even had a page dedicated to the Merkury game engine, this was archived on the wayback machine on March 3rd 2001 [^8]:
-```markdown
-Krome Studios' proprietary 3D game engine Merkury was developed entirely in house over a period of 3 years. The modular construction and versatility of this technology enables Krome to continually update the engine with new and innovative features that position Merkury as a world-class 3D game engine. Merkury is suitable for a wide variety of applications and platforms.
-
-Feature List
+On the official website archived on March 3rd 2001, it called Merkury a "world-class 3D game engine" [^8] and it listed the featues of the engine as:
 * Soft-Skinned Skeletal Animation System
 * Simultaneous Independent Animations
 * Mesh Morphing and Animation Morphing
@@ -153,20 +136,9 @@ Feature List
 * Multi-Platform
 * Multi-Genre
 * Multiple Field Of View
-```
 
-GamesOnNet a site that now seems to be defunct had the following to say about Kat Burglar [^17]:
-```markdown
-One of the games that came closest to making it was Kat Burglar, an action-stealth game that began life in late 1998 during Steve’s time at Gee Whiz! Entertainment with John Passfield. A light-hearted game with a James Bond-style 60’s flair, Steve recalls that they encountered some difficulty selling their prototype to publishers in 2000. “It was about the same time that No One Lives Forever was being shown around. And the problem we were running into when we were showing publishers, was ‘Monolith is showing this game where they have this 60’s female spy, and you’re showing us this game with a 60’s female thief, you can’t have two games set in the 60’s with a female character in them! That’s the same thing!’. And we were like ‘Wait, what?’”
+The first game that is credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits.
 
-Recounting with a touch of bitterness that it was apparently okay to have a dozen identical “muscular space marine” games on the market at the same time, Steve and the team were forced to shelve the game. “They just weren’t getting it, even if they did like the characters”, says Steve, remembering failed deals with partners like Mattel. “I’ll always remember the guys came back from one meeting with a publisher, and the publishers said ‘We’re pretty sure there’s already a 60’s female thief game with a character that has red hair’, and I’m standing there going 'Are they... talking about our game?'”.
-
-Set on the island of Mont-St. Michael, Kat Burglar featured a number of adventure-game driven mechanics similar to those found in Flight of the Amazon Queen, as well as AI sidekicks who you could give orders to through hand gestures. The intent was to have a Zelda-style unlockable open world, with the island opening up to you as you progressed. Despite the game being developed to a playable state through one prototyped level, they were unable to secure a publisher. Opportunity did come knocking later in the year, as Sony expressed a desire to publish a cartoony platformer on their PS2 - a desire that Krome were only too happy to help fulfill. That game that would later go on to become TY The Tasmanian Tiger, and one of the company’s most iconic franchises.
-
-Many of the ideas and concepts of Kat Burglar were eventually carried over into one of Krome’s last published titles, Blade Kitten - including a strong resemblance between Katherine Kelly of Kat Burglar and the pink-haired Kit Ballard of Blade Kitten. “I had all these elements I wanted to use but we apparently couldn’t do a 60’s game,” says Steve, “so I went and turned it into a sci-fi, anime game instead”.
-```
-
-More information on Kat Burglar can be found on Unseen64 [Kat Burglar- Unseen64](https://www.unseen64.net/2012/01/11/kat-burglar-krome-studios-cancelled/) 
 
 ---
 ## Programming the Merkury engine
@@ -461,96 +433,6 @@ Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Boar
 Although it is odd that both Jaruu Tenk and Halloween Spirit Board were released in exactly the same month but that is what their official press releases say [^19].
 
 ---
-# Disney's Extremely Goofy Skateboarding (September 2001)
-The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
-
-Although it doesn't use Merkury it would be interesting to see if any code from this game made it into early versions of the Merkury engine.
-
-The 3D Engine programmer for the Goofy game, **Tony Ball** was also one of the founding developers of the Merkury engine, so it is likely some of the code was re-used in Merkury or it at least helped shape the design decisions made in the engine.
-
-Differences from the Merkury engine:
-* **Asset archives** - Instead of the RKV format, the game bundles its assets into a file called **data0.pkg**, this is simply a Zip file, so its very easy to extract the contents by adding the .zip extention to the end.
-* **Images** - It stores images directly as .BMP and textures as .TGA in the archive
-* **Sounds** - It stores sounds directly as .WAV and .MP3 files
-
-## Skating.exe executable
-If you run the `binwalk` command on the **Skating.exe** executable you find that it actually has a few embeded executables too:
-```
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-DECIMAL                            HEXADECIMAL                        DESCRIPTION
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-0                                  0x0                                Windows PE binary, machine type: Intel x86
-510344                             0x7C988                            Copyright text: "Copyright 1998 Gilles Vollant "
-510760                             0x7CB28                            CRC32 polynomial table, little endian
-518636                             0x7E9EC                            Copyright text: "Copyright (C) 1996, Thomas G. Lane"
-862766                             0xD2A2E                            Copyright text: "Copyright (c) 1993 Tal Nevo."
-872435                             0xD4FF3                            Windows PE binary, machine type: Intel x86
-889647                             0xD932F                            Windows PE binary, machine type: Intel x86
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-```
-
-The copyright messages hint at a few things:
-* **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
-* **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
-* **Tal Nevo** is possibly related to executable compression but this is a guess
-
-The executable also has a few file paths left in which give a hint about the folder structure:
-* D:\Src\Skating\Source\Character.cpp
-* D:\Src\Skating\Source\Object.cpp
-* D:\Src\Skating\Source\Main.cpp - Contained WinMain
-* D:\Src\Skating\Source\GameData.cpp - Save Data
-
-Other interesting strings in the executable include `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
-
----
-## Asset Archive - data0.pkg
-
-Since the data0.pkg format is just simple zip compression, it is very easy to extract and modify the assets, so lets take a look at what it contains, there are 1,207 files so we will group files by their extension in the table below:
-
-Extension | Number of Files | Description
---- | --- | ---
-wav | 463 | Waveform audio file, uncompressed sound effects or music
-tga | 343 | Targa image file, common raster graphic format supporting alpha channels
-bmp | 131 | Bitmap image file (case variant)
-ase | 101 | 3DS MAX ASCII EXPORT for the 3D models
-rpl | 49 | resource package file?
-bad | 32 | Basic Animation Descriptor - plain text files for animations that link a mesh (.ase) with a skeleton (.ase) and a vertex animation (.vat)
-bmp | 27 | Bitmap image file, uncompressed raster graphics
-mp3 | 15 | Audio file in MPEG Layer-3 format, compressed music or sound effects
-lvl | 15 | Level data file in XML format, stores game level layouts
-mad | 15 | Material Data - Plain text file setting key value pairs for values such as "color .5 .5 1 .8"
-vat | 11 | Vertex Animation in VAT2 format (Linked Vertex Information File ver 2), used for complex mesh animations in games
-lang | 2 | Language or localization resource file
-txt | 2 | Plain text file, often for logs, documentation, or configs
-cfg | 1 | Configuration file, plain text settings
-
-The ASE files confirm that the game's 3d models were creating using 3D Studio Max 3 or 4 back in 2001, but not sure the exact version of 3ds Max (does AsciiExport Version  2.00 narrow it down?).
-
-They show how the 3D artists named their 3ds max scene files:
-* beach_boardwalk_sign_nobase.max
-* beach_1375_7_00_2001_JC1003_JC_TB.max
-
-It also shows the organised folder structure used during development of the game:
-* `G:\Goofy Skateboarding\data\Models\Textures\badge.tga`
-* `\\Krome-fs4\data12\Goofy\Goofy Skateboarding\data\Models\Textures\ramp2.tga` - Shared Network drive?
-* `\\Krome-fs4\data12\Goofy\Graphics\Screens\S08_Beach\S08_03_BoardWalk\textures\jetty.bmp` - I wonder why screen graphics were kept seperate?
-
-### Level files - .lvl
-The level files are plain text XML data which links together all the other files, it is extremely modder friendly, here is an example:
-```xml
-<LEVEL NAME="Downtown" MESH="riverbend.ase" ENV="Cloud_Blue_env.ASE" MATERIAL="riverbend.mad" ENVROT="0" MUSIC="SUBURB_2.mp3" AMBIENT="ambience_centralpark_01.wav">
-  <CLIP NEAR="100.00" FAR="8000.00" FOG="7000.00" COLOR="0.72,0.86,0.85">
-  <OBJECTIVES TYPE="SHRED" DATA1="23,7" DATA2="1,70" DATA3="24,7">
-  <OBJECTIVES TYPE="AGILITY" DATA1="3,7000" DATA2="4,7" DATA3="5,7" TIME="120">
-  <TRIGGER POS="355.37,-3350.55,6692.30" SIZE="100.00,100.00,100.00" TYPE="spawn" ID="0" DATA="0" ENTER="none" EXIT="none">
-  <OBJECT POS="4483.87,-3353.96,9730.11" ROT="0.00,0.00,0.00" SCALE="1.00" MESH="coin.ase" TYPE="collectible" UNIQUE="0" ID="1" DATA="0" FLAGS="4" SPEED="1.00">
-  <OBJECT POS="7183.09,-3706.17,11404.25" ROT="0.00,-90.00,0.00" SCALE="0.60" MESH="critter_duckling.bad" TYPE="duckling" UNIQUE="0" ID="0" DATA="0" FLAGS="31" SPEED="1.00">
-</LEVEL>
-```
-
-As far as I know this is a custom format made for this game and not an industry standard.
-
----
 # Championship Surfer (November 2000)
 Championship Surfer is a 2000 game available for Windows, Dreamcast (2001) and PS1 (2001), the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
 
@@ -797,6 +679,124 @@ for i = 0 < NUM_FILES
     endif
 next i
 ```
+
+---
+# Kat Burglar (Cancelled late 2000)
+
+It would have been used in the cancelled **Kat Burglar** game that Krome Studios was working on in late 2000, which even advertised on their official website about the use of their proprietary Merkury engine [^7]:
+```markdown
+Kat Burglar is a 3rd person action-adventure game set in the swinging 60's. Katherine Kelly is a millionaire playgirl by day and a Robin Hood style thief by night. Katherine ("Kat" to her friends) specializes in stealing hard to get items from museums and fortified storehouses.
+
+But she doesn't steal for the money…
+
+Of course we're not going to give it all away just yet. We are keeping a few things under our hat - Kat Burglar is full of secrets and surprises. What we can tell you is that Kat is being developed for next generation console platforms and uses our proprietary 3D graphics engine Merkury.
+
+Kat Burglar focuses heavily on characters and storyline. This game isn't a shooter. While there will be occasions where Kat won't be able to avoid a fight, more emphasis is placed on stealth. As Kat Burglar, the player will be part of the story that unfolds on the island of Mont-St-Michel. Kat will also come across many characters in the game, some friends, some enemies and some she's just not sure about.
+```
+
+GamesOnNet a site that now seems to be defunct had the following to say about Kat Burglar [^17]:
+```markdown
+One of the games that came closest to making it was Kat Burglar, an action-stealth game that began life in late 1998 during Steve’s time at Gee Whiz! Entertainment with John Passfield. A light-hearted game with a James Bond-style 60’s flair, Steve recalls that they encountered some difficulty selling their prototype to publishers in 2000. “It was about the same time that No One Lives Forever was being shown around. And the problem we were running into when we were showing publishers, was ‘Monolith is showing this game where they have this 60’s female spy, and you’re showing us this game with a 60’s female thief, you can’t have two games set in the 60’s with a female character in them! That’s the same thing!’. And we were like ‘Wait, what?’”
+
+Recounting with a touch of bitterness that it was apparently okay to have a dozen identical “muscular space marine” games on the market at the same time, Steve and the team were forced to shelve the game. “They just weren’t getting it, even if they did like the characters”, says Steve, remembering failed deals with partners like Mattel. “I’ll always remember the guys came back from one meeting with a publisher, and the publishers said ‘We’re pretty sure there’s already a 60’s female thief game with a character that has red hair’, and I’m standing there going 'Are they... talking about our game?'”.
+
+Set on the island of Mont-St. Michael, Kat Burglar featured a number of adventure-game driven mechanics similar to those found in Flight of the Amazon Queen, as well as AI sidekicks who you could give orders to through hand gestures. The intent was to have a Zelda-style unlockable open world, with the island opening up to you as you progressed. Despite the game being developed to a playable state through one prototyped level, they were unable to secure a publisher. Opportunity did come knocking later in the year, as Sony expressed a desire to publish a cartoony platformer on their PS2 - a desire that Krome were only too happy to help fulfill. That game that would later go on to become TY The Tasmanian Tiger, and one of the company’s most iconic franchises.
+
+Many of the ideas and concepts of Kat Burglar were eventually carried over into one of Krome’s last published titles, Blade Kitten - including a strong resemblance between Katherine Kelly of Kat Burglar and the pink-haired Kit Ballard of Blade Kitten. “I had all these elements I wanted to use but we apparently couldn’t do a 60’s game,” says Steve, “so I went and turned it into a sci-fi, anime game instead”.
+```
+
+More information on Kat Burglar can be found on Unseen64 [Kat Burglar- Unseen64](https://www.unseen64.net/2012/01/11/kat-burglar-krome-studios-cancelled/) 
+
+---
+# Disney's Extremely Goofy Skateboarding (September 2001)
+The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
+
+Although it doesn't use Merkury it would be interesting to see if any code from this game made it into early versions of the Merkury engine.
+
+The 3D Engine programmer for the Goofy game, **Tony Ball** was also one of the founding developers of the Merkury engine, so it is likely some of the code was re-used in Merkury or it at least helped shape the design decisions made in the engine.
+
+Differences from the Merkury engine:
+* **Asset archives** - Instead of the RKV format, the game bundles its assets into a file called **data0.pkg**, this is simply a Zip file, so its very easy to extract the contents by adding the .zip extention to the end.
+* **Images** - It stores images directly as .BMP and textures as .TGA in the archive
+* **Sounds** - It stores sounds directly as .WAV and .MP3 files
+
+## Skating.exe executable
+If you run the `binwalk` command on the **Skating.exe** executable you find that it actually has a few embeded executables too:
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DECIMAL                            HEXADECIMAL                        DESCRIPTION
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0                                  0x0                                Windows PE binary, machine type: Intel x86
+510344                             0x7C988                            Copyright text: "Copyright 1998 Gilles Vollant "
+510760                             0x7CB28                            CRC32 polynomial table, little endian
+518636                             0x7E9EC                            Copyright text: "Copyright (C) 1996, Thomas G. Lane"
+862766                             0xD2A2E                            Copyright text: "Copyright (c) 1993 Tal Nevo."
+872435                             0xD4FF3                            Windows PE binary, machine type: Intel x86
+889647                             0xD932F                            Windows PE binary, machine type: Intel x86
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
+The copyright messages hint at a few things:
+* **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
+* **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
+* **Tal Nevo** is possibly related to executable compression but this is a guess
+
+The executable also has a few file paths left in which give a hint about the folder structure:
+* D:\Src\Skating\Source\Character.cpp
+* D:\Src\Skating\Source\Object.cpp
+* D:\Src\Skating\Source\Main.cpp - Contained WinMain
+* D:\Src\Skating\Source\GameData.cpp - Save Data
+
+Other interesting strings in the executable include `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
+
+---
+## Asset Archive - data0.pkg
+
+Since the data0.pkg format is just simple zip compression, it is very easy to extract and modify the assets, so lets take a look at what it contains, there are 1,207 files so we will group files by their extension in the table below:
+
+Extension | Number of Files | Description
+--- | --- | ---
+wav | 463 | Waveform audio file, uncompressed sound effects or music
+tga | 343 | Targa image file, common raster graphic format supporting alpha channels
+bmp | 131 | Bitmap image file (case variant)
+ase | 101 | 3DS MAX ASCII EXPORT for the 3D models
+rpl | 49 | resource package file?
+bad | 32 | Basic Animation Descriptor - plain text files for animations that link a mesh (.ase) with a skeleton (.ase) and a vertex animation (.vat)
+bmp | 27 | Bitmap image file, uncompressed raster graphics
+mp3 | 15 | Audio file in MPEG Layer-3 format, compressed music or sound effects
+lvl | 15 | Level data file in XML format, stores game level layouts
+mad | 15 | Material Data - Plain text file setting key value pairs for values such as "color .5 .5 1 .8"
+vat | 11 | Vertex Animation in VAT2 format (Linked Vertex Information File ver 2), used for complex mesh animations in games
+lang | 2 | Language or localization resource file
+txt | 2 | Plain text file, often for logs, documentation, or configs
+cfg | 1 | Configuration file, plain text settings
+
+The ASE files confirm that the game's 3d models were creating using 3D Studio Max 3 or 4 back in 2001, but not sure the exact version of 3ds Max (does AsciiExport Version  2.00 narrow it down?).
+
+They show how the 3D artists named their 3ds max scene files:
+* beach_boardwalk_sign_nobase.max
+* beach_1375_7_00_2001_JC1003_JC_TB.max
+
+It also shows the organised folder structure used during development of the game:
+* `G:\Goofy Skateboarding\data\Models\Textures\badge.tga`
+* `\\Krome-fs4\data12\Goofy\Goofy Skateboarding\data\Models\Textures\ramp2.tga` - Shared Network drive?
+* `\\Krome-fs4\data12\Goofy\Graphics\Screens\S08_Beach\S08_03_BoardWalk\textures\jetty.bmp` - I wonder why screen graphics were kept seperate?
+
+### Level files - .lvl
+The level files are plain text XML data which links together all the other files, it is extremely modder friendly, here is an example:
+```xml
+<LEVEL NAME="Downtown" MESH="riverbend.ase" ENV="Cloud_Blue_env.ASE" MATERIAL="riverbend.mad" ENVROT="0" MUSIC="SUBURB_2.mp3" AMBIENT="ambience_centralpark_01.wav">
+  <CLIP NEAR="100.00" FAR="8000.00" FOG="7000.00" COLOR="0.72,0.86,0.85">
+  <OBJECTIVES TYPE="SHRED" DATA1="23,7" DATA2="1,70" DATA3="24,7">
+  <OBJECTIVES TYPE="AGILITY" DATA1="3,7000" DATA2="4,7" DATA3="5,7" TIME="120">
+  <TRIGGER POS="355.37,-3350.55,6692.30" SIZE="100.00,100.00,100.00" TYPE="spawn" ID="0" DATA="0" ENTER="none" EXIT="none">
+  <OBJECT POS="4483.87,-3353.96,9730.11" ROT="0.00,0.00,0.00" SCALE="1.00" MESH="coin.ase" TYPE="collectible" UNIQUE="0" ID="1" DATA="0" FLAGS="4" SPEED="1.00">
+  <OBJECT POS="7183.09,-3706.17,11404.25" ROT="0.00,-90.00,0.00" SCALE="0.60" MESH="critter_duckling.bad" TYPE="duckling" UNIQUE="0" ID="0" DATA="0" FLAGS="31" SPEED="1.00">
+</LEVEL>
+```
+
+As far as I know this is a custom format made for this game and not an industry standard.
+
 
 ---
 # Sunny Garcia Surfing (October 2001)
