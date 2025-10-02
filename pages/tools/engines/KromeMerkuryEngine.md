@@ -44,7 +44,6 @@ They were working on a third title called **Stereo Jack** for planned release in
 John Passfield's site has **Alien Carnage** (Halloween Harry) on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
 
 ---
-
 ### Flight of the Amazon Queen (1995) - JASPER engine
 <img width="710" height="456" alt="image" src="https://github.com/user-attachments/assets/6a933b55-21ca-433d-a677-9f74d348e875" />
 
@@ -105,6 +104,8 @@ Tony has worked on many games, some of which actually made it onto the shelves, 
 ### Zombie Wars (1996)
 Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delphi.
 
+**Pratik Anand** has reverse engineered Zombie wars and has an excellent write up, we recommend reading their write up rather than listing the details here:  [Detective work on Reverse Engineering obscure 16-bit Windows game (Zombie Wars) · Pratik Anand](https://pratikone.github.io/gaming/2021/09/02/reverse-engineer-zombiewars.html)
+
 #### Delphi Programming
 **Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
@@ -113,10 +114,9 @@ Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delp
 
 ---
 # Origin of the Merkury Engine
-The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
-* **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
-* **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
-* **Tony Ball** - Also credited as engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
+The Merkury engine is first listed on the official Krome Studios website
+
+with **Tony Ball** being listed as the Merkury engine programmer in the credits.
 
 It would have been used in the cancelled **Kat Burglar** game that Krome Studios was working on in late 2000, which even advertised on their official website about the use of their proprietary Merkury engine [^7]:
 ```markdown
@@ -147,15 +147,6 @@ Feature List
 * Multi-Platform
 * Multi-Genre
 * Multiple Field Of View
- 	 	 
-# Powered by MerKury 
-The Merkury engine currently powers a large number of titles including:
-* Championship Surfer
-* Kat Burglar
-* Mike Stewart's Pro Bodyboarding
-* Chronicles of Jaru Tenk
-* Spirit Board
-* Gruesome Castle
 ```
 
 GamesOnNet a site that now seems to be defunct had the following to say about Kat Burglar [^17]:
@@ -182,13 +173,15 @@ On the port of the Merkury engine to GameCube for Ty the Tasmanian Tiger, **Chri
 
 ## Known Merkury Engine Games
 
-From our analysis of game files, we are confident that the following titles use the Merkury engine:
-* **Star Wars: The Force Unleashed** — PS2, PSP, and Wii versions
-* **Star Wars: The Clone Wars – Republic Heroes**
-* **The Adventures of Jimmy Neutron: Jet Fusion** - PS2 version confirmed
+The original **Krome Studios** website archived back in March 2001 has the following games as using the Merkury engine [^8]:
+* **Mike Stewart's Pro Bodyboarding** - Released in  February 1999 for Windows
+* **Chronicles of Jaru Tenk** - Released in 1999 sold as shareware via ScreenOpera
+* **Spirit Board** - Released in 1999 sold as shareware via ScreenOpera
+* **Championship Surfer** - Released in 2000 for Windows
+* **Kat Burglar** - Never released
+* **Gruesome Castle** - Never released ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
 
-Although not confirmed via file analysis, the following is often claimed:
-* **Star Wars: The Force Unleashed** — Switch version (reportedly a port of the Wii version rather than the Ronin‑based Xbox 360/PS3 version)
+However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
 
 ---
 ## Possible Merkury Engine Titles
@@ -197,11 +190,13 @@ Because not all uses of Merkury are documented, below is a table of major titles
 
 | Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
-| Mike Stewart's Pro Bodyboarding| Windows | 1999 |
+| Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as Blast Graphics
+| The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
+| Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
 | Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
 | Barbie Beach Vacation| Windows | 2001 |
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
-| Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes
+| Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
 | Barbie: Sparkling Ice Show | Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
@@ -232,36 +227,12 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
----
-# Pre-Merkury - The Chronicles of Jaruu Tenk (1999)
-<img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
-
-On 10th of September 1998, Gee Whiz! Entertainment released a press release announcing that they were working on a new 3D title called **The Chronicles of Jaruu Tenk** with a planned release date of 4th Quarter 1998, hwoever like most ambitious game project it was actually released later on 4th October 1999.
-
-It was so unique that they coined their own genre: "Screen Opera" and it was followed by another game in the same genre very shortly after called Halloween Spirit Board.
-
-It was inspired by David Crane’s Little Computer People and then sold on their own [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website [^18].
-
-**The Chronicles of Jaruu Tenk** was later released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). 
-
-## Game engine - Merkury or Blast Graphics?
-The was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
-
-The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine!
-
-Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
-
-Some notes about Jaruu:
-* It uses MAD files for Material Data same as other early Merkury engine games
 
 ---
-# Pre-Merkury - Halloween Spirit Board (October 1999)
-Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html).
+# Mike Stewart's Pro Bodyboarding (February 1999)
+Mike Stewart's Pro Bodyboarding was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year.
 
-
----
-# Pre-Merkury - Mike Stewart's Pro Bodyboarding (February 1999)
-Mike Stewart's Pro Bodyboarding was actually built by **Gee Whiz! Entertainment**, the studio that would then go on to become **Krome Studios**. The official Krome Studio's website from 2001 claimed that it was using the Merkury engine, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
+The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
 ## Blast Graphics engine (bg.dll)
 The Blast Graphics engine/library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
@@ -454,7 +425,37 @@ entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 |
 
 
 ---
-# Pre-Merkury - Disney's Extremely Goofy Skateboarding
+# The Chronicles of Jaruu Tenk (October 1999)
+<img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
+
+On 10th of September 1998, **Gee Whiz! Entertainment** released a press release announcing that they were working on a new 3D title called **The Chronicles of Jaruu Tenk** with a planned release date of 4th Quarter 1998, however like most ambitious game project it was actually released later on 4th October 1999 [^20].
+
+It was later released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) and is still available to this day for everyone to enjoy! 
+
+## Screen Opera
+It was so unique that they coined their own genre: "Screen Opera" and it was followed by another game in the same genre very shortly after called Halloween Spirit Board. They also planned a third "Screen Opera" game called Star Date but it was never released.
+
+It was inspired by David Crane’s Little Computer People and then sold on their own [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website [^18].
+
+
+## Game engine - Merkury or Blast Graphics?
+The was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+
+The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine!
+
+Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
+
+Some notes about Jaruu:
+* It uses MAD files for Material Data same as other early Merkury engine games
+
+---
+# Halloween Spirit Board (October 1999)
+Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html).
+
+Although it is odd that both Jaruu Tenk and Halloween Spirit Board were released in exactly the same month but that is what their official press releases say [^19].
+
+---
+# Disney's Extremely Goofy Skateboarding (September 2001)
 The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
 
 Although it doesn't use Merkury it would be interesting to see if any code from this game made it into early versions of the Merkury engine.
@@ -493,8 +494,7 @@ The executable also has a few file paths left in which give a hint about the fol
 * D:\Src\Skating\Source\Main.cpp - Contained WinMain
 * D:\Src\Skating\Source\GameData.cpp - Save Data
 
-Other interesting strings in the executable include:
-* `BLASTGRAPHICS Build Date : %s ` 
+Other interesting strings in the executable include `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
 
 ---
 ## Asset Archive - data0.pkg
@@ -545,8 +545,9 @@ The level files are plain text XML data which links together all the other files
 As far as I know this is a custom format made for this game and not an industry standard.
 
 ---
-# Championship Surfer (2001)
-Championship Surfer is a 2001 game available for Windows, Dreamcast and PS1, the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
+# Championship Surfer (November 2000)
+Championship Surfer is a 2000 game available for Windows, Dreamcast (2001) and PS1 (2001), the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
+
 However it is presumed some of the code was re-used between the Windows and PS1 games so it is likely that even the PS1 version is using some Merkury engine code.
 
 ## PS1 version of Championship Surfer
@@ -566,8 +567,8 @@ This is common with PS1 games as they all use a standard ISO 9660 filesystem, al
 This makes it easy for the game executable to read specific assets directly from the disc and was practical considering memory limits and the way the PS1’s BIOS exposed disc access.
 
 ---
-## Windows, Dreamcast versions of Championship Surfer (2001)
-The Windows and Dreamcast versions of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits.
+## Windows, Dreamcast versions of Championship Surfer
+The **Windows** and **Dreamcast** versions of Championship Surfer (2001) is the first game credited as using the **Merkury** engine, with **Tony Ball** being listed as the Merkury engine programmer in the credits.
 
 It is also the first game that uses the RKV archive format (still never found out what it stands for) in both the Dreamcast and Windows versions, see the section below for the format of these archives as they differ from later Merkury engine games that use the same file extension (.rkv).
 
@@ -791,6 +792,14 @@ for i = 0 < NUM_FILES
 next i
 ```
 
+---
+# Sunny Garcia Surfing (October 2001)
+Sunny Garcia Surfing was released on the PS2 in October 2001 in which Krome clearly listed the Merkury engine in the game credits.
+
+The Merkury Engine programming for the game is credited to the following programmers in the manual for the game [^1]: 
+* **Tony Ball** - The main 3D developer behind the Blast Graphics engine used in prior titles [^3]
+* **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
+* **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
 
 ---
 # The Adventures of Jimmy Neutron: Jet Fusion (2003)
@@ -1097,3 +1106,4 @@ You can watch the video below:
 [^17]: [Games On Net - The Unreleased Games of Krome Studios](https://web.archive.org/web/20120126203545/http://www.games.on.net/article/13364/The_Unreleased_Games_of_Krome_Studios)
 [^18]: [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/)
 [^19]: [Screen Opera Press Release for Halloween Spirit Board](https://web.archive.org/web/20010310080446/http://www.screenopera.com/press991026.html)
+[^20]: [Screen Opera Press release for Jaruu on 4th October 1999](https://web.archive.org/web/20010310081520/http://www.screenopera.com/press991001.html)
