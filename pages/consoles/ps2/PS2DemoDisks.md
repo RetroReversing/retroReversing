@@ -29,6 +29,7 @@ The Official Playstation 2 Magazine in the UK often had a playable PS2 Demo free
 You can find out more about these Demo Discs over at crimson-ceremony.net: [demo pals - OPS2M Demo UK](https://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140).
 
 Here is a table for reference if you are looking for which demo disc contained which playable demos:
+
 | Demo Name |  SCED Code |  Playable Game Names |   
 | --- | --- | --- |
 | OPS2M Demo 01 |  SCED-50065 | International Superstar Soccer, Wild Wild Racing | 
@@ -59,6 +60,27 @@ Here is a table for reference if you are looking for which demo disc contained w
 | OPS2M Demo 26 | SCED-50748 | Burnout 2: Point of Impact, Crash Bandicoot: The Wrath of Cortex, Ferrari F355 Challenge, Hitman 2: Silent Assassin, Micro Machines, Ratchet & Clank, Red Faction 2, Summoner 2, Superman: Shadow of Apokolips, Tekken 4 |   
 | OPS2M Demo 27 | SCED-50749 | Alpine Racer 3, Colin McRae Rally 3, Heaven: Call of the King, Reign of Fire, Twin Caliber, Ty the Tasmanian Tiger, WRC II Extreme |  
 | OPS2M Demo 28 | SCED-50750 | Battle Engine Aquila, MX Superfly, The Getaway, Treasure Planet, V-Rally 3 | 
+| OPS2M Demo 29 | SCED-51384 | Ape Escape 2, Eggo Mania, FIFA 2003, Formula One 2002, Pro Evolution Soccer 2, Rocky |
+| OPS2M Demo 29 | SCED-51440 | Ape Escape 2, Eggo Mania, FIFA 2003, Formula One 2002, Pro Evolution Soccer 2, Rocky |
+| OPS2M Demo 30 | SCED-51457 | ATV2: Quad Power Racing, Crashed, Mortal Kombat: Deadly Alliance, NBA Live 2003, Primal, Sly Raccoon, Space Channel 5 v2, Tiger Woods PGA Tour 2003, Tom Clancy's Ghost Recon, WWE Smackdown! Shut Your Mouth |
+| OPS2M Demo 30 | SCED-51489 | ATV Quad Power Racing 2, Crashed, Mortal Combat Deadly Alliance, NBA Live 2003, Primal, Sly Raccoon, Space Channel 5: Part 2, Tiger Wood's PGA Tour 2003, Tom Clancy's Ghost Recon, WWE Smackdown: Shut Your Mouth! |
+| OPS2M Demo 31 | SCED-51529 | Dr Muto, Grand Prix Challenge, Rayman 3: Hoodlum Havoc, Splinter Cell, The Mark of Kri, Timesplitters 2, Wakeboarding Unleashed, War of the Monsters, Zapper |
+| OPS2M Demo 31 | SCED-51556 | Dr. Muto, Grand Prix Challenge, Rayman 3 Hoodlum Havoc, The Mark Of Kri, Timesplitters 2, Tom Clancy's Splinter Cell, War Of The Monsters, Wakeboarding Unleashed Featuring Shaun Murray, Zapper |
+| OPS2M Demo 32 | SCED-51530 | Ape Escape 2, Dakar 2, Mobile Suit Gundam: Federation Vs Zeon, Silent Hill 2, Spy Hunter, Techu: Wrath Of Heaven, Scorpion King, Splinter Cell, Vexx, Zone Of The Enders |
+| OPS2M Demo 32 | SCED-51558 | Ape Escape 2, Dakar 2, Mobile Suit Gundam Fed Vs Zeon, Silent Hill 2, Splinter Cell, Spy Hunter, Tenchu, The Scorpion King, Vexx, Zone Of The Enders The 2nd Runner |
+| OPS2M Demo 33 | SCED-51531 | Conflict: Desert Storm, Dynasty Warriors 3, Evolution Skateboarding, Herdy Gerdy, Moto GP3, Pride FC, Project Eden, Shinobi, WRC II Extreme |
+| OPS2M Demo 33 | SCED-51559 | Conflict Desert Storm, Dynasty Warriors 3, Evolution Skateboarding, Herdy Gerdy, Moto GP3, Pride FC, Primal, Project Eden, Shinobi, WRC II Extreme (Challenge Demo) |
+| OPS2M Demo 34 | SCED-51532 | Airblade, Baldur's Gate: Dark Alliance, Burnout 2, Def Jam Vendetta, Rygar, Silent Hill 3, Virtua Fighter 4, Wipeout Fusion  |
+| OPS2M Demo 34 | SCED-51560 | Airblade, Baldur's Gate, Burnout 2 Point Of Impact, Def Jam Vendetta, Gunfighter 2, Rygar, Silent Hill 3, Virtua Figther 4 Evo, Wipeout Fusion  |
+| OPS2M Demo 35 | SCED-51533 | Alter Echo, Gunfighter II, Hitman 2: Silent Assassin, Ico, Jak & Daxter, Ratchet & Clank, Socom: US Navy Seals, Twisted Metal: Black, WWE Smackdown! Shut Your Mouth    |
+| OPS2M Demo 35 | SCED-51561 | Gunfighter 2, Hitman 2, Ico, Jak & Daxter, Ratchet & Clank, SOCOM: US Navy Seals, Twisted Metal Black, WWE Smackdown: Shut Your Mouth!    |
+| OPS2M Demo 36 | SCED-51534 | Final Fantasy X, Futurama, Headhunter, Mace Griffin Bounty Hunter, Starsky & Hutch, Tekken 4, This is Football 2003, Tiger Woods PGA Tour 2003, Zone of the Enders |
+| OPS2M Demo 37 | SCED-51537 | Alter Echo, Ape Escape 2, Die Hard Vendetta, Dynasty Warriors 3, Metal Gear Solid 2, Ratchet & Clank, Return to Castle Wolfenstein, Splashdown 2: Rides Gone Wild, Splinter Cell, The Great Escape, WRC II Extreme |
+| OPS2M Demo 37 | SCED-51563 | Alter Echo, Ape Escape 2, Die Hard Vendetta, Dynasty Warriors 3, Metal Gear Solid 2, Ratchet & Clank, Return To Castle Wolfenstein, Splashdown 2 Rides, Splinter Cell, The Great Escape, WRC II Extreme |
+| OPS2M Demo 38 | SCED-51538 | Amplitude, Chaos Legion, Colin McRae Rally 4, Finding Nemo, Formula One 2003, Freedom Fighters, Metal Gear Solid 3 Snake Eater, Perfect Ace, Rugby 2004, Soul Calibur 2, Sphinx And The Shadow Of Set, Summer Heat Beach Volleyball, True Crime: Streets Of LA, Warhammer 40K: Firewarrior, Zone Of The Enders The 2nd Runner |
+| OPS2M Demo 39 | SCED-51540 | Beyond Good & Evil, Conflict: Desert Storm II, Extreme Skate Adventure, Freestyle Metal X, Ironstorm: World War Zero, Jak II: Renegade, Judge Dredd: Dredd Vs Death, My Street, Prince of Persia: The Sands of Time, Rolling, The Italian Job: LA Heist (Curcuit), The Italian Job: LA Heist (Stunt)  |
+| OPS2M Demo 40 | SCED-51535 | Destruction Derby Arenas, Dog's Life, Freaky Flyers, Ghosthunter, Gladius, James Bond 007: Everything or Nothing, Need for Speed Underground, Ratchet & Clank 2: Locked and Loaded, Tiger Woods PGA Tour 2004, Time Crisis 3, Wallace & Gromit in Project Zoo |
+
 
 
 ## Searching Demo Progress
