@@ -27,11 +27,26 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 
 ---
 ## Origin of Krome Studios
+
+The company was originally founded as **Interactive Binary Illusions** in 1993 [^11], then renamed **Gee Wizz! entertainment** in 1996 on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 merging with Robert Walsh's **Pacific Interactive Entertainment** [^6].
+
+### Interactive Binary Illusions
+Interactive Binary Illusions (IBI) released their first game all the way back in 1993 called **Alien Carnage** (also known as Halloween Harry), followed by the graphic adventure **Flight of the Amazon Queen** in 1995 [^11].
+
+They were working on a third title called **Stereo Jack** for planned release in 1996, however due to lack of funding it has to be cancelled and the pair instead formed a new company called **Gee Wizz! entertainment**.
+
+Since the company was so small the copyright for these games is owned by the two co-founders of IBI and **John Passfield** has generously uploaded the original version of **Flight of the Amazon Queen** to his personal website which you can download **completely free** from his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page! 
+
+We also highly recommend you buy the **recent iOS re-release** of the game on the App Store as its incredibly cheap and a great game to play on the go, along with supporting that amazing industry veteren Mr Passfield, a link to it is also available on his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page.
+
+His site also has **Alien Carnage** on the Free Stuff page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
+
+---
+### Gee Wizz! entertainment (1996-1999)
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
+In 1996 **Gee Wizz! entertainment** was born
 
-Originally known as **Interactive Binary Illusions** and then renamed **Gee Wizz! entertainment** on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 [^6].
-
-The original Gee Wizz! entertainment site from beck in March 1997 has the following to say about each of the original team members [^10]:
+The original Gee Wizz! entertainment site from back in March 1997 has the following to say about each of the original team members [^10]:
 ```markdown
 # Steve Stamatiadis
 Steve started out working in the comics field before he got into computer game design and graphics. After studying animation he worked on comics like The Statlight agency, Markam and even a did a short stint on From Hell as a background artist. In 1991 he worked on the movie Fortress after which he and John began work on Flight of the Amazon queen (which was done on a lowly Amiga). Today at Age 27 he is responsible for the look of Gee whiz! games and gets to work with more powerful machines and software to create really cool stuff.
@@ -984,3 +999,5 @@ You can watch the video below:
 [^8]: [Merkury  on the official kromestudios.com website](https://web.archive.org/web/20010303010913/http://www.kromestudios.com/merkury.htm)
 [^9]: [RGB Classic Games - Company info for Gee Whiz! Entertainment](https://www.classicdosgames.com/company/geewhiz.html)
 [^10]: [Gee Whiz! Meet The Gang - archived March 27th 1997](https://web.archive.org/web/19970327033216/http://www.geewhiz.com.au/gwabout.html)
+[^11]: [Interactive Binary Illusions - MobyGames](https://www.mobygames.com/company/226/interactive-binary-illusions/)
+[^12]: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
