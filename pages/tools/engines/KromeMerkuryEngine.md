@@ -170,7 +170,7 @@ More information on Kat Burglar can be found on Unseen64 [Kat Burglar- Unseen64]
 
 ---
 ## Programming the Merkury engine
-The Merkury engine was built in C++ with a few modules written in Assembler, with simultation development of the engine on multiple consoles at once (PS2, GameCube and Xbox) [^4].
+The Merkury engine was built in C++ with a few modules written in Assembler, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
 
 On the port of the Merkury engine to GameCube for Ty the Tasmanian Tiger, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
 >In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
@@ -205,7 +205,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
 | Barbie: Sparkling Ice Show | Windows | 2002 |
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
-| The Adventures of Jimmy Neutron: Jet Fusion   | PS2, GameCube | 2003 | Yes
+| The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
 | King Arthur | PS2, Xbox, GameCube | 2004 |
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
