@@ -113,11 +113,20 @@ Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delp
 ### The Chronicles of Jaruu Tenk (1999)
 <img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
 
-**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was never intended to be a commercial project as it was simply built as a labour of love inspired by David Crane’s Little Computer People. It was written in either C or C++ and it is built using Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was built as a labour of love inspired by David Crane’s Little Computer People and then sold on the [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website since at least February 2000 (oldest archive on wayback) [^18]. It was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
 
 The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine.
 
 Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
+
+Some notes about Jaruu:
+* It uses MAD files for Material Data same as other early Merkury engine games
+
+---
+### Halloween Spirit Board (1999)
+Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
+
+
 
 ---
 # Origin of the Merkury Engine
@@ -1077,3 +1086,5 @@ You can watch the video below:
 [^15]: [Flight of the Amazon Queen (1995) - MobyGames](https://www.mobygames.com/game/352/flight-of-the-amazon-queen/)
 [^16]: [Queen - ScummVM Wiki](https://wiki.scummvm.org/index.php/Queen)
 [^17]: [Games On Net - The Unreleased Games of Krome Studios](https://web.archive.org/web/20120126203545/http://www.games.on.net/article/13364/The_Unreleased_Games_of_Krome_Studios)
+[^18]: [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/)
+[^19]: [Screen Opera Press Release for Halloween Spirit Board](https://web.archive.org/web/20010310080446/http://www.screenopera.com/press991026.html)
