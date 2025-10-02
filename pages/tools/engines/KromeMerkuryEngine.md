@@ -767,6 +767,8 @@ A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41)
 
 It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
 
+As usual you can find out about all the interesting cut content that was available in the prototype version at The Cutting Room Floor: [Proto:The Adventures of Jimmy Neutron Boy Genius: Jet Fusion (GameCube, PlayStation 2) - The Cutting Room Floor](https://tcrf.net/Proto:The_Adventures_of_Jimmy_Neutron_Boy_Genius:_Jet_Fusion_(GameCube,_PlayStation_2))
+
 ---
 # Star Wars: The Force Unleashed for PS2, PSP and Wii (2008)
 Unlike the Xbox 360 and PS3 versions of **Star Wars: The Force Unleashed** the PS2, PSP and Wii versions were not built by **LucasArts** or use the **Ronin** engine.
