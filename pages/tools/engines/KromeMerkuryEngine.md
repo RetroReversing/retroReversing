@@ -26,7 +26,102 @@ Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasma
 It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
 
 ---
-# Origin of Krome Studios
+# Origin of the Merkury Engine
+The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999.
+
+There are at least three known major versions of the Merkury engine:
+* **Version 1 (1998/1999)** - Originally called Blast Graphics created around 1998 or 1999
+* **Version 2 (2004)** - Created for **Ty the Tasmanian Tiger 2**
+* **Version 3 (2010)** - Created for **The Legend of the Guardians: The Owls of Ga'hoole** around 2010
+
+## Merkury Engine 1.0 features
+On the official website archived on March 3rd 2001, it called Merkury a "world-class 3D game engine" [^8] and it listed the featues of the engine as:
+* Soft-Skinned Skeletal Animation System
+* Simultaneous Independent Animations
+* Mesh Morphing and Animation Morphing
+* Full Support For implementation Of 3D Studio MAX Meshes And Animation
+* Support For Hardware Transformation And Lighting
+* Real-time Shadows
+* Full Particle Library Using Realistic Motion Simulation.
+* Advance Material Management System
+* Real-time Collision System
+* Indoor And Outdoor Environments
+* Multi-Platform
+* Multi-Genre
+* Multiple Field Of View
+
+The first game that is credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits.
+
+
+---
+## Programming the Merkury engine
+The Merkury engine was built in C++ with a few modules written in Assembler, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
+
+On the port of the Merkury engine to GameCube for **Ty the Tasmanian Tiger**, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
+>In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
+>
+> Within a couple of weeks, **Tony Ball**, our GameCube engine lead, had the character animating and drawing and doing most of what was doing in the PS2 version. A couple of months went by and by that point the GameCube version of the Merkury engine was pretty much inline with the PS2 version, so from then on development was simultaneous between the PS2 and GameCube, and later Xbox versions of the game.
+
+## Known Merkury Engine Games
+
+The original **Krome Studios** website archived back in March 2001 has the following games as using the Merkury engine [^8]:
+* **Mike Stewart's Pro Bodyboarding** - Released in  February 1999 for Windows
+* **Chronicles of Jaru Tenk** - Released in 1999 sold as shareware via ScreenOpera
+* **Spirit Board** - Released in 1999 sold as shareware via ScreenOpera
+* **Championship Surfer** - Released in 2000 for Windows
+* **Kat Burglar** - Never released
+* **Gruesome Castle** - Never released ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
+
+However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
+
+---
+## Krome Studios games and either engines
+
+Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
+
+| Game Title | Platform(s)| Year | Using Merkury Engine?
+|---|---|---|---
+| Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as Blast Graphics
+| The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
+| Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
+| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
+| Barbie Beach Vacation| Windows | 2001 |
+| Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
+| Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
+| Barbie: Sparkling Ice Show | Windows | 2002 |
+| Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
+| The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
+| Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
+| King Arthur | PS2, Xbox, GameCube | 2004 |
+| Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
+| The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
+| The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
+| Viva Piñata: Party Animals| Xbox 360 | 2007 |
+| Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
+| Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
+| Star Wars: The Clone Wars - Lightsaber Duels  | Wii | 2008 |
+| Scene It? Box Office Smash | Xbox 360 | 2008 |
+| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
+| Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
+| Game Room | Xbox 360, Windows, Windows Phone 7  | 2010 | Yes (RKV files present in windows version)
+| Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 | Yes (RKV files present)
+| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
+| Full House Poker | Xbox 360, Windows Phone 7 | 2011 |
+| Backyard Sports Basketball 2015 | iOS, Android | 2015 | No (Unity)
+| Ty the Tasmanian Tiger 4  | Windows | 2015 | No (Unity)
+| Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows | 2016, 2020 | Yes (RKV files present)
+| Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows | 2017, 2021 | Yes (RKV files present)
+| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 | Yes (RKV files present)
+| The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 | No (Unity)
+| Wasteland Remastered | Windows, Xbox One | 2020 | No (Unity)
+| Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 |
+| Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
+| Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
+
+
+
+---
+# History of Krome Studios
 
 The company was originally founded as **Interactive Binary Illusions** in 1993 [^11], then renamed **Gee Wizz! entertainment** in 1996 on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 merging with Robert Walsh's **Pacific Interactive Entertainment** [^6].
 
@@ -117,93 +212,6 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
-
----
-# Origin of the Merkury Engine
-The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999.
-
-On the official website archived on March 3rd 2001, it called Merkury a "world-class 3D game engine" [^8] and it listed the featues of the engine as:
-* Soft-Skinned Skeletal Animation System
-* Simultaneous Independent Animations
-* Mesh Morphing and Animation Morphing
-* Full Support For implementation Of 3D Studio MAX Meshes And Animation
-* Support For Hardware Transformation And Lighting
-* Real-time Shadows
-* Full Particle Library Using Realistic Motion Simulation.
-* Advance Material Management System
-* Real-time Collision System
-* Indoor And Outdoor Environments
-* Multi-Platform
-* Multi-Genre
-* Multiple Field Of View
-
-The first game that is credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits.
-
-
----
-## Programming the Merkury engine
-The Merkury engine was built in C++ with a few modules written in Assembler, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
-
-On the port of the Merkury engine to GameCube for Ty the Tasmanian Tiger, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
->In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
->
-> Within a couple of weeks, **Tony Ball**, our GameCube engine lead, had the character animating and drawing and doing most of what was doing in the PS2 version. A couple of months went by and by that point the GameCube version of the Merkury engine was pretty much inline with the PS2 version, so from then on development was simultaneous between the PS2 and GameCube, and later Xbox versions of the game.
-
-## Known Merkury Engine Games
-
-The original **Krome Studios** website archived back in March 2001 has the following games as using the Merkury engine [^8]:
-* **Mike Stewart's Pro Bodyboarding** - Released in  February 1999 for Windows
-* **Chronicles of Jaru Tenk** - Released in 1999 sold as shareware via ScreenOpera
-* **Spirit Board** - Released in 1999 sold as shareware via ScreenOpera
-* **Championship Surfer** - Released in 2000 for Windows
-* **Kat Burglar** - Never released
-* **Gruesome Castle** - Never released ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
-
-However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
-
----
-## Possible Merkury Engine Titles
-
-Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
-
-| Game Title | Platform(s)| Year | Using Merkury Engine?
-|---|---|---|---
-| Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as Blast Graphics
-| The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
-| Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
-| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
-| Barbie Beach Vacation| Windows | 2001 |
-| Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
-| Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
-| Barbie: Sparkling Ice Show | Windows | 2002 |
-| Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
-| The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
-| Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
-| King Arthur | PS2, Xbox, GameCube | 2004 |
-| Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
-| The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
-| The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
-| Viva Piñata: Party Animals| Xbox 360 | 2007 |
-| Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
-| Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
-| Star Wars: The Clone Wars - Lightsaber Duels  | Wii | 2008 |
-| Scene It? Box Office Smash | Xbox 360 | 2008 |
-| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
-| Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
-| Game Room | Xbox 360, Windows, Windows Phone 7  | 2010 | Yes (RKV files present in windows version)
-| Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 | Yes (RKV files present)
-| Legend of the Guardians: The Owls of Ga'Hoole | Xbox 360, PS3, Wii | 2010 | Yes (Merkury 3)
-| Full House Poker | Xbox 360, Windows Phone 7 | 2011 |
-| Backyard Sports Basketball 2015 | iOS, Android | 2015 | No (Unity)
-| Ty the Tasmanian Tiger 4  | Windows | 2015 | No (Unity)
-| Ty the Tasmanian Tiger HD | Xbox One, Series X/S, Switch, PS4, Windows | 2016, 2020 | Yes (RKV files present)
-| Ty the Tasmanian Tiger 2: Bush Rescue HD | Xbox One, Series X/S, Switch, PS4, Windows | 2017, 2021 | Yes (RKV files present)
-| Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 | Yes (RKV files present)
-| The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 | No (Unity)
-| Wasteland Remastered | Windows, Xbox One | 2020 | No (Unity)
-| Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 |
-| Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
-| Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
 
 ---
