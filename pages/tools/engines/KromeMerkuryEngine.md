@@ -89,7 +89,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Barbie Beach Vacation| Windows | 2001 | No not a 3D game so neither Blast Graphics or Merkury
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | Yes (Blast graphics, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
-| Barbie: Sparkling Ice Show | Windows | 2002 | Yes (DATA_PC.rkv)
+| Barbie: Sparkling Ice Show | Windows | 2002 | Yes (DATA_PC.rkv), DirectX8, fmod, bink
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
@@ -824,12 +824,16 @@ As far as I know this is a custom format made for this game and not an industry 
 
 ---
 # Sunny Garcia Surfing (October 2001)
-Sunny Garcia Surfing was released on the PS2 in October 2001 in which Krome clearly listed the Merkury engine in the game credits.
+Sunny Garcia Surfing was released on the PS2 in October 2001 in which Krome clearly listed the Merkury engine in the game credits. It has no mentions of Blast Graphics which makes sense as this is the first PS2 game they have released which would have required a complete re-write of the graphics engine to make the most out of the hardware.
 
 The Merkury Engine programming for the game is credited to the following programmers in the manual for the game [^1]: 
 * **Tony Ball** - The main 3D developer behind the Blast Graphics engine used in prior titles [^3]
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
+
+---
+# Barbie: Sparkling Ice Show (2002)
+Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics and instead had strings related to Merkury in the game executable such as `Merkury Options`.
 
 ---
 # Ty the Tasmanian Tiger (2002)
