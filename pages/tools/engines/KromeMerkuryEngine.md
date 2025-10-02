@@ -219,7 +219,7 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 Many of the games listed on the official website in 2001 as being Merkury engine games rafer to the engine under a different name **Blast graphics**.
 
 The following games have references to Blast graphics in their executables or contain the windows dynamic library **bg.dll**:
-* **Gruesome Castle Demo** - bg.dll dated 12th January 1998
+* **Gruesome Castle Demo** - bg.dll dated 12th January 1998 (361 functions)
 * **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999
 * **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
 * **The Chronicles of Jaruu Tenk** - bg.dll with unknown date
