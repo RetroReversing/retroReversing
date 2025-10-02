@@ -27,7 +27,7 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 
 ---
 # Origin of the Merkury Engine
-The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999.
+The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999, depending on when the text was written on the website.
 
 There are at least three known major versions of the Merkury engine:
 * **Version 1 (1998/1999)** - Originally called Blast Graphics created around 1998 or 1999
@@ -55,14 +55,15 @@ The first game that is credited as using the engine is the Windows version of **
 
 ---
 ## Programming the Merkury engine
-The Merkury engine was built in C++ with a few modules written in Assembler, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
+The Merkury engine was built in **C++** with a few modules written in **Assembler**, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
 
 On the port of the Merkury engine to GameCube for **Ty the Tasmanian Tiger**, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
 >In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
 >
 > Within a couple of weeks, **Tony Ball**, our GameCube engine lead, had the character animating and drawing and doing most of what was doing in the PS2 version. A couple of months went by and by that point the GameCube version of the Merkury engine was pretty much inline with the PS2 version, so from then on development was simultaneous between the PS2 and GameCube, and later Xbox versions of the game.
 
-## Known Merkury Engine Games
+---
+## Early Merkury Engine Games
 
 The original **Krome Studios** website archived back in March 2001 has the following games as using the Merkury engine [^8]:
 * **Mike Stewart's Pro Bodyboarding** - Released in  February 1999 for Windows
@@ -75,7 +76,7 @@ The original **Krome Studios** website archived back in March 2001 has the follo
 However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
 
 ---
-## Krome Studios games and either engines
+## Krome Studios games and their engines
 
 Because not all uses of Merkury are documented, below is a table of major titles developed by Krome Studios across platforms. This is a reference for potential engine use, not confirmation of Merkury integration.
 
