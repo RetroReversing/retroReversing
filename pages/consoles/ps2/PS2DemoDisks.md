@@ -156,10 +156,12 @@ Demo Disc | Game | PS2 SDK | Debug Info?
 31 - March 2003 SCED_51529 | Grand Prix Challenge | 2.5.4 | **14,342** Debug Symbols
 31 - March 2003 SCED_51529 | The Mark of Kri | 2.5.4 | **7,387** Debug Symbols plus .MAP file!
 31 - March 2003 SCED_51529 | Wakeboarding Unleashed | 2.4.3 | Debug Symbols split over 3 elfs
+55 - January 2005 SCED_52170 | Rumble Roses | PS2SDK 3.0.1 | Contains Map file
+56 - February 2005 SCED_53122 | Athens 2004 | PS2SDK 3.0.0 | Contains .MAP file
 57 - March 2005 SCED_53160 | Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
 
 ---
-## List of games without debug symbols byt with interesting data
+## List of games without debug symbols but with interesting data
 The following is a list of games that while they don't contain debug symbols, during analysis we did find they countained some interesting information that may be worth looking into:
 
 Demo Disc | Game | PS2 SDK | Debug Info?
@@ -168,53 +170,18 @@ Demo Disc | Game | PS2 SDK | Debug Info?
 53 - January 2005 SCED_52168 | Driver 3 | PS2SDK 2.7.0 | Contains animation Data in DRIVER3.IMG
 53 - January 2005 SCED_52168 | Sega Superstars | PS2SDK 3.0.0 | Uses boost libraries
 54 - January 2005 SCED_52169 | EyeToy: Play 2 | 3.0.0 | Has .lua script files but no symbols in main elf 
-
-
----
-## Demo Disc 55 - January 2005 SCED_52170
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Mashed | PS2SDK 3.0.1 | **No symbols**, but contains some strings related to C source file location (Physics/Rwp37Active/src/core/context/src/RwpObj.c)
-Mercenaries | PS2SDK 2.7.1 | **No Symbols**, Mentions Indiana Jones as unlockable character in config
-Pro Evolution Soccer 4 | PS2SDK 3.0.1 | **No Symbols**, mentions `ADXT`
-Rumble Roses | PS2SDK 3.0.1 | Contains Map file
-Splinter Cell Pandora Tommorrow | PS2 SDK 3.0.0 | **No Symbols**, but contains a few symbol-like strings
-
----
-## Demo Disc 56 - February 2005 SCED_53122
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Athens 2004 | PS2SDK 3.0.0 | Contains .MAP file
-Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
+55 - January 2005 SCED_52170 | Mashed | PS2SDK 3.0.1 | contains some strings related to C source file location (Physics/Rwp37Active/src/core/context/src/RwpObj.c)
+55 - January 2005 SCED_52170 | Mercenaries | PS2SDK 2.7.1 | Mentions Indiana Jones as unlockable character in config
+55 - January 2005 SCED_52170 | Pro Evolution Soccer 4 | PS2SDK 3.0.1 | mentions `ADXT`
+55 - January 2005 SCED_52170 | Splinter Cell Pandora Tommorrow | PS2 SDK 3.0.0 | contains a few symbol-like strings
+56 - February 2005 SCED_53122 | Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
+59 - May 2005 SCED_53162 | Enthusia | 3.0.0 | Symbols in segment names
+65 - November 2005 SCED_53186 | Need for Speed: Most Wanted | 2.8.0 | Some function and class names in uncommon format
+65 - November 2005 SCED_53186 | NHL 06 | 2.8.0 | `FontFusion 2.4.1-nhl` `APT 0.18.06-nhl` `RealCore 6.25.00-nhl` `RealGraph 6.11.01-nhl` `Reveal 1.4.0` `Mudlark 1.1.6`
+65 - November 2005 SCED_53186 | Wallace & Gromit: The Curse of the Were-Rabbit | ? | Uses same engine as Project Zoo `fgdk3` (Frontier Game Development Kit 3?)
+72 - May 2006 SCED_54044 | Driver 4 | 3.0.0 | Contains .MAP files in DRIVER4.IMG [^1]
+72 - May 2006 SCED_54044 | TOCA Race Driver 3 | 3.0.2 | a few references to cpp files and a small .sndata section
 
 ---
-## Demo Disc 59 - May 2005 SCED_53162
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Enthusia | 3.0.0 | Symbols in segment names
-
----
-## Demo Disc 65 - November 2005 SCED_53186
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Need for Speed: Most Wanted | 2.8.0 | Some function and class names in uncommon format
-NHL 06 | 2.8.0 | `FontFusion 2.4.1-nhl` `APT 0.18.06-nhl` `RealCore 6.25.00-nhl` `RealGraph 6.11.01-nhl` `Reveal 1.4.0` `Mudlark 1.1.6`
-Wallace & Gromit: The Curse of the Were-Rabbit | ? | Uses same engine as Project Zoo `fgdk3` (Frontier Game Development Kit 3?)
-
-
-## Demo Disc 72 - May 2006 SCED_54044
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Driver 4 | 3.0.0 | Contains .MAP files in DRIVER4.IMG [^1]
-TOCA Race Driver 3 | 3.0.2 | Not much a few references to cpp files and a small .sndata section
-
-
----
-
 # References
 [^1]: Driver: Parallel Lines with MAP files in it - https://assemblergames.com/threads/ops2m-demo-disc-72-driver-parallel-lines-late-05-beta-demo-download.66661/
