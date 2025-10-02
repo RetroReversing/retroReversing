@@ -95,14 +95,14 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
 | King Arthur | PS2, Xbox, GameCube | 2004 | 
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
-| The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
-| The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
-| Viva Piñata: Party Animals| Xbox 360 | 2007 |
-| Hellboy: The Science of Evil   | PS3, Xbox 360, PSP | 2008 |
+| The Legend of Spyro: A New Beginning | PS2, Xbox, GameCube, GBA | 2006 |
+| The Legend of Spyro: The Eternal Night | PS2, Wii | 2007 |
+| Viva Piñata: Party Animals | Xbox 360 | 2007 |
+| Hellboy: The Science of Evil | PS3, Xbox 360, PSP | 2008 |
 | Star Wars: The Force Unleashed | PS2, PSP, Wii, Nintendo Switch | 2008, 2022 | Yes
 | Star Wars: The Clone Wars - Lightsaber Duels  | Wii | 2008 |
 | Scene It? Box Office Smash | Xbox 360 | 2008 |
-| Star Wars: The Clone Wars – Republic Heroes   | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
+| Star Wars: The Clone Wars – Republic Heroes | PS3, Xbox 360, Wii, PS2, PSP, Windows | 2009 | Yes
 | Transformers: Revenge of the Fallen | PS2, Wii | 2009 |
 | Game Room | Xbox 360, Windows, Windows Phone 7  | 2010 | Yes (RKV files present in windows version)
 | Blade Kitten | PS3, Xbox 360, Windows | 2010, 2012 | Yes (RKV files present)
@@ -115,7 +115,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Ty the Tasmanian Tiger 3: Night of the Quinkan HD  | Windows | 2018 | Yes (RKV files present)
 | The Bard’s Tale Trilogy   | Windows, Xbox One | 2018, 2019 | No (Unity)
 | Wasteland Remastered | Windows, Xbox One | 2020 | No (Unity)
-| Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 |
+| Ty the Tasmanian Tiger 4: Bush Rescue Returns | Nintendo Switch | 2023 | No (Unity)
 | Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
