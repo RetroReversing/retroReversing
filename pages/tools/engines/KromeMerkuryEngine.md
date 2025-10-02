@@ -19,7 +19,7 @@ editlink: /tools/engines/KromeMerkuryEngine.md
 _image: /public/consoles/Tools.jpg
 ---
 
-The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for  Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
+The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
 
 Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasmanian Tiger 4) rather than the Merkury engine, but remaster of older games are still being relased based on the Merkury engine so Krome Studios are still activly developing with it.
 
@@ -29,7 +29,22 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 ## Origin of Krome Studios
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
 
-Originally known as **Interactive Binary Illusions** and then renamed **Gee Wizz! entertainment** on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis**. It later became Krome Studios on the 1st November 1999 [^6].
+Originally known as **Interactive Binary Illusions** and then renamed **Gee Wizz! entertainment** on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 [^6].
+
+The original Gee Wizz! entertainment site from beck in March 1997 has the following to say about each of the original team members [^10]:
+```markdown
+# Steve Stamatiadis
+Steve started out working in the comics field before he got into computer game design and graphics. After studying animation he worked on comics like The Statlight agency, Markam and even a did a short stint on From Hell as a background artist. In 1991 he worked on the movie Fortress after which he and John began work on Flight of the Amazon queen (which was done on a lowly Amiga). Today at Age 27 he is responsible for the look of Gee whiz! games and gets to work with more powerful machines and software to create really cool stuff.
+
+# John Passfield
+John had his first computer game published in 1985 at the ripe old age of 17. He later studied computer science and worked as a programmer for a telecommunications company before co-founding Gee Whiz! Entertainment. John prefers to think of himself as a member of the "Star Wars Generation" rather then "Generation X". John likes to write comic books - his credits include a two year stint writing Dingo Boy and Vixen Rangers for one of Australia's largest selling magazines, Stereo Jack for Issue One Comics and Jace Riegel for Dark Horse Comics.
+
+# Robert Crane
+Robert is a 24 year old programmer who spent his whole life dedicated to the cause of proving that Pascal is every bit as good as "C" as a programming language. In the process he has developed an install program for DOS that games publisher Apogee picked up and uses for its shareware titles. He is also an acknowledged database programmer but likes to keep that secret. His strongest point is doing graphics tools like game systems and sprite editors. Being around so much graphics, he also likes to dabble in 3d modeling.
+
+# Tony Ball
+Tony has worked on many games, some of which actually made it onto the shelves, including Halloween Harry, Alien Carnage and Flight of the Amazon Queen. He specializes in 'C' and Intel Assembly, particularly graphics code, and is currently working on some really cool stuff with Gee Whiz! Entertainment.
+```
 
 Despite all the evolution, the studio continued to be based in Brisbane, Australia.
 
@@ -968,3 +983,4 @@ You can watch the video below:
 [^7]: [Kat Burgler on the official kromestudios.com website fetched on Dec 12th 2000](https://web.archive.org/web/20001212222800/http://www.kromestudios.com/games_02.htm)
 [^8]: [Merkury  on the official kromestudios.com website](https://web.archive.org/web/20010303010913/http://www.kromestudios.com/merkury.htm)
 [^9]: [RGB Classic Games - Company info for Gee Whiz! Entertainment](https://www.classicdosgames.com/company/geewhiz.html)
+[^10]: [Gee Whiz! Meet The Gang - archived March 27th 1997](https://web.archive.org/web/19970327033216/http://www.geewhiz.com.au/gwabout.html)
