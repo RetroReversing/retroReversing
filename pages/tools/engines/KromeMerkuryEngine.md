@@ -102,9 +102,13 @@ Tony has worked on many games, some of which actually made it onto the shelves, 
 
 ---
 ### Zombie Wars (1996)
-Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delphi.
+Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delphi, it has the codename **Harry95** left in the executable.
 
-**Pratik Anand** has reverse engineered Zombie wars and has an excellent write up, we recommend reading their write up rather than listing the details here:  [Detective work on Reverse Engineering obscure 16-bit Windows game (Zombie Wars) · Pratik Anand](https://pratikone.github.io/gaming/2021/09/02/reverse-engineer-zombiewars.html)
+**Pratik Anand** has reverse engineered the assets for Zombie wars and has an excellent write up here:  [Detective work on Reverse Engineering obscure 16-bit Windows game (Zombie Wars) · Pratik Anand](https://pratikone.github.io/gaming/2021/09/02/reverse-engineer-zombiewars.html)
+
+Sadly they found that reverse engineering an old Delphi executable is not easy with most modern tools. It is likely build using a very early version of Delphi such as 1.0 (1995) and their are tools that can help recovering the source files for Delphi 2.0/3.0 from compiled executables such as **EXE2DPR - Delphi project sources Rescuer**, but I don't know of any software that works on 1.0 executables unfortunetly.
+
+It was built using the Microsoft WinG library, which was the original name for DirectX. It also uses a library from **SubZero Software**  with a build date of 4th December 1995.
 
 #### Delphi Programming
 **Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
