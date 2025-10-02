@@ -161,19 +161,26 @@ The Mark of Kri | 2.5.4 | **7,387** Debug Symbols plus .MAP file!
 Wakeboarding Unleashed | 2.4.3 | Debug Symbols split over 3 elfs
 
 ---
-
 ## Demo Disc 53 - January 2005 SCED_52168
+The January 2005 Issue of the OPM2 had 2 games with somewhat interesting debug data, but sadly no debug symbols.
+
 Game | PS2 SDK | Debug Info?
+---|---|---
 Driver 3 | PS2SDK 2.7.0 | Contains animation Data in DRIVER3.IMG
 Sega Superstars | PS2SDK 3.0.0 | Uses boost libraries
 
+
 ## Demo Disc 54 - January 2005 SCED_52169
+
+Issue 54 has some interesting LUA scripts but sadly no debug symbols on the disc.
+
 Game | PS2 SDK | Debug Info?
+---|---|---
 EyeToy: Play 2 | 3.0.0 | Has .lua script files but no symbols in main elf 
 
-<iframe src="https://archive.org/embed/PlayStation_2_Demo_Disc_SCED-52169_PAL" width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-
+---
 ## Demo Disc 55 - January 2005 SCED_52170
+
 Game | PS2 SDK | Debug Info?
 --- | --- | ---
 Mashed | PS2SDK 3.0.1 | **No symbols**, but contains some strings related to C source file location (Physics/Rwp37Active/src/core/context/src/RwpObj.c)
@@ -182,7 +189,7 @@ Pro Evolution Soccer 4 | PS2SDK 3.0.1 | **No Symbols**, mentions `ADXT`
 Rumble Roses | PS2SDK 3.0.1 | Contains Map file
 Splinter Cell Pandora Tommorrow | PS2 SDK 3.0.0 | **No Symbols**, but contains a few symbol-like strings
 
-
+---
 ## Demo Disc 56 - February 2005 SCED_53122
 
 Game | PS2 SDK | Debug Info?
@@ -197,17 +204,18 @@ Game | PS2 SDK | Debug Info?
 --- | --- | ---
 Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
 
+---
 ## Demo Disc 58 - April 2005 SCED_53161
 I can't find any debug information on this Disc.
 
-
+---
 ## Demo Disc 59 - May 2005 SCED_53162
 
 Game | PS2 SDK | Debug Info?
 --- | --- | ---
 Enthusia | 3.0.0 | Symbols in segment names
 
-
+---
 ## Demo Disc 65 - November 2005 SCED_53186
 
 Game | PS2 SDK | Debug Info?
