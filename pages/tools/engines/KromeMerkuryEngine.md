@@ -26,13 +26,13 @@ Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasma
 It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
 
 ---
-## Origin of Krome Studios
+# Origin of Krome Studios
 
 The company was originally founded as **Interactive Binary Illusions** in 1993 [^11], then renamed **Gee Wizz! entertainment** in 1996 on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis** [^10]. It later became Krome Studios on the 1st November 1999 merging with Robert Walsh's **Pacific Interactive Entertainment** [^6].
 
 Despite all the evolution, the studio continued to be based in Brisbane, Australia.
 
-### Interactive Binary Illusions
+## Interactive Binary Illusions
 Interactive Binary Illusions (IBI) released their first game all the way back in 1993 called **Alien Carnage** (also known as **Halloween Harry**), followed by the graphic adventure **Flight of the Amazon Queen** in 1995 [^11].
 
 They were working on a third title called **Stereo Jack** for planned release in 1996, however due to lack of funding it has to be cancelled and the pair instead formed a new company called **Gee Wizz! entertainment**.
@@ -63,7 +63,7 @@ For more information, you absolutely **must read** John's blog post on the makin
 What I also thought was super cool was at the end of John's 2015 blog post he teased an Apple Watch version of the game with this screenshot:
 <img width="399" height="408" alt="Apple Watch Version of Flight of the Amazon Queen" src="https://github.com/user-attachments/assets/b170ef25-28b9-4e62-884c-f549bc00f20e" />
 
-However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see.
+However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see in the market.
 
 ---
 ### Halloween Harry (1993) - Alien Carnage
@@ -72,7 +72,7 @@ However it was never released due to John  realizing that [there’s no market o
 John Passfield's site also has **Alien Carnage** on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
 
 ---
-### Gee Wizz! entertainment (1996-1999)
+## Gee Wizz! entertainment (1996-1999)
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
 
 In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released two games:
@@ -94,7 +94,7 @@ Robert is a 24 year old programmer who spent his whole life dedicated to the cau
 Tony has worked on many games, some of which actually made it onto the shelves, including Halloween Harry, Alien Carnage and Flight of the Amazon Queen. He specializes in 'C' and Intel Assembly, particularly graphics code, and is currently working on some really cool stuff with Gee Whiz! Entertainment.
 ```
 
-#### Delphi Programming
+### Delphi Programming
 **Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
@@ -102,7 +102,7 @@ Tony has worked on many games, some of which actually made it onto the shelves, 
 
 
 ---
-## Origin of the Merkury Engine
+# Origin of the Merkury Engine
 The creation of Merkury Engine is credited to the following programmers in the manual for the 2001 PS2 game **Sunny Garcia Surfing** [^1]: 
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
@@ -148,9 +148,22 @@ The Merkury engine currently powers a large number of titles including:
 * Gruesome Castle
 ```
 
+GamesOnNet a site that now seems to be defunct had the following to say about Kat Burglar [^17]:
+```markdown
+One of the games that came closest to making it was Kat Burglar, an action-stealth game that began life in late 1998 during Steve’s time at Gee Whiz! Entertainment with John Passfield. A light-hearted game with a James Bond-style 60’s flair, Steve recalls that they encountered some difficulty selling their prototype to publishers in 2000. “It was about the same time that No One Lives Forever was being shown around. And the problem we were running into when we were showing publishers, was ‘Monolith is showing this game where they have this 60’s female spy, and you’re showing us this game with a 60’s female thief, you can’t have two games set in the 60’s with a female character in them! That’s the same thing!’. And we were like ‘Wait, what?’”
+
+Recounting with a touch of bitterness that it was apparently okay to have a dozen identical “muscular space marine” games on the market at the same time, Steve and the team were forced to shelve the game. “They just weren’t getting it, even if they did like the characters”, says Steve, remembering failed deals with partners like Mattel. “I’ll always remember the guys came back from one meeting with a publisher, and the publishers said ‘We’re pretty sure there’s already a 60’s female thief game with a character that has red hair’, and I’m standing there going 'Are they... talking about our game?'”.
+
+Set on the island of Mont-St. Michael, Kat Burglar featured a number of adventure-game driven mechanics similar to those found in Flight of the Amazon Queen, as well as AI sidekicks who you could give orders to through hand gestures. The intent was to have a Zelda-style unlockable open world, with the island opening up to you as you progressed. Despite the game being developed to a playable state through one prototyped level, they were unable to secure a publisher. Opportunity did come knocking later in the year, as Sony expressed a desire to publish a cartoony platformer on their PS2 - a desire that Krome were only too happy to help fulfill. That game that would later go on to become TY The Tasmanian Tiger, and one of the company’s most iconic franchises.
+
+Many of the ideas and concepts of Kat Burglar were eventually carried over into one of Krome’s last published titles, Blade Kitten - including a strong resemblance between Katherine Kelly of Kat Burglar and the pink-haired Kit Ballard of Blade Kitten. “I had all these elements I wanted to use but we apparently couldn’t do a 60’s game,” says Steve, “so I went and turned it into a sci-fi, anime game instead”.
+```
+
+More information on Kat Burglar can be found on Unseen64 [Kat Burglar- Unseen64](https://www.unseen64.net/2012/01/11/kat-burglar-krome-studios-cancelled/) 
+
 ---
 ## Programming the Merkury engine
-The Merkury was built in C++ with a few modules written in Assembler, with simultation development of the engine on multiple consoles at once (PS2, GameCube and Xbox) [^4].
+The Merkury engine was built in C++ with a few modules written in Assembler, with simultation development of the engine on multiple consoles at once (PS2, GameCube and Xbox) [^4].
 
 On the port of the Merkury engine to GameCube for Ty the Tasmanian Tiger, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
 >In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
@@ -214,8 +227,8 @@ Because not all uses of Merkury are documented, below is a table of major titles
 # Pre-Merkury - Mike Stewart's Pro Bodyboarding
 Mike Stewart's Pro Bodyboarding was actually built by **Gee Whiz! Entertainment**, the studio that would then go on to become **Krome Studios**. The official Krome Studio's website from 2001 claimed that it was using the Merkury engine, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
-## Blast Graphics (bg.dll)
-The Blast Graphics library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
+## Blast Graphics engine (bg.dll)
+The Blast Graphics engine/library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
 
 Name | Location | Function Signature | Function Size (bytes) | Description
 ---|---|---|---|---
@@ -1043,3 +1056,4 @@ You can watch the video below:
 [^14]: [Flight Of The Amazon Queen / Flug Der Amazon Queen - Hall Of Light - The database of Amiga games](https://amiga.abime.net/games/view/flight-of-the-amazon-queen)
 [^15]: [Flight of the Amazon Queen (1995) - MobyGames](https://www.mobygames.com/game/352/flight-of-the-amazon-queen/)
 [^16]: [Queen - ScummVM Wiki](https://wiki.scummvm.org/index.php/Queen)
+[^17]: [Games On Net - The Unreleased Games of Krome Studios](https://web.archive.org/web/20120126203545/http://www.games.on.net/article/13364/The_Unreleased_Games_of_Krome_Studios)
