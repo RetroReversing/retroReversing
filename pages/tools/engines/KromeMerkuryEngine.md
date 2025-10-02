@@ -236,9 +236,18 @@ Because not all uses of Merkury are documented, below is a table of major titles
 # Pre-Merkury - The Chronicles of Jaruu Tenk (1999)
 <img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
 
-**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was built as a labour of love inspired by David Crane’s Little Computer People and then sold on the [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website since at least February 2000 (oldest archive on wayback) [^18]. It was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+On 10th of September 1998, Gee Whiz! Entertainment released a press release announcing that they were working on a new 3D title called **The Chronicles of Jaruu Tenk** with a planned release date of 4th Quarter 1998, hwoever like most ambitious game project it was actually released later on 4th October 1999.
 
-The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine.
+It was so unique that they coined their own genre: "Screen Opera" and it was followed by another game in the same genre very shortly after called Halloween Spirit Board.
+
+It was inspired by David Crane’s Little Computer People and then sold on their own [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website [^18].
+
+**The Chronicles of Jaruu Tenk** was later released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). 
+
+## Game engine - Merkury or Blast Graphics?
+The was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+
+The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine!
 
 Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
 
@@ -247,7 +256,7 @@ Some notes about Jaruu:
 
 ---
 # Pre-Merkury - Halloween Spirit Board (October 1999)
-Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
+Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html).
 
 
 ---
