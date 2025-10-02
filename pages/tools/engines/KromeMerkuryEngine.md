@@ -47,12 +47,12 @@ Since the company was so small the copyright for these games is owned by the two
 We also highly recommend you buy the **recent iOS re-release** of the game on the App Store as its incredibly cheap and a great game to play on the go, along with supporting that amazing industry veteren Mr Passfield, a link to it is also available on his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page.
 
 #### JASPAR (Queen) game engine
-The game was built with a custom game engine called **JASPAR** (John And Steve's Programmable Adventure Resource) and John even write some game editor tools [^14]:
-* **JOKER** - Game Editor for building rooms (laying out of objects and actors and walk paths, etc)
-* **ACE** - Game cutscene editor
-* **DOG** - Conversation tree editor
+The game was built with a custom game engine called **JASPAR** (John And Steve's Programmable Adventure Resource) and John even wrote some game editor tools [^14]:
+* **JOKER** - JASPAR Object Kernel Editor Resource - Game Editor for building rooms (laying out of objects and actors and walk paths, etc)
+* **CUTS** - Game cutscene editor (it was also called ASE in [Flight Of The Amazon Queen - Hall Of Light](https://amiga.abime.net/games/view/flight-of-the-amazon-queen) not sure if this is a typo or an alternative name) 
+* **DOG** - Dialogue Object Generation System - Conversation tree editor works with .DOG files
 
-The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14].
+The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14]. It was compiled using the **WATCOM C** toolchain accorsing to strings in the Queen.exe file.
 
 In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
 
@@ -64,6 +64,8 @@ What I also thought was super cool was at the end of John's 2015 blog post he te
 <img width="399" height="408" alt="Apple Watch Version of Flight of the Amazon Queen" src="https://github.com/user-attachments/assets/b170ef25-28b9-4e62-884c-f549bc00f20e" />
 
 However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see in the market.
+
+As facinating as the JASPAR engine is, this page is about Merkury so lets keep going.
 
 ---
 ### Halloween Harry (1993) - Alien Carnage
