@@ -32,10 +32,18 @@ The company was originally founded as **Interactive Binary Illusions** in 1993 [
 
 Despite all the evolution, the studio continued to be based in Brisbane, Australia.
 
-## Interactive Binary Illusions
+## Interactive Binary Illusions (1993-1996)
 Interactive Binary Illusions (IBI) released their first game all the way back in 1993 called **Alien Carnage** (also known as **Halloween Harry**), followed by the graphic adventure **Flight of the Amazon Queen** in 1995 [^11].
 
 They were working on a third title called **Stereo Jack** for planned release in 1996, however due to lack of funding it has to be cancelled and the pair instead formed a new company called **Gee Wizz! entertainment**.
+
+---
+### Halloween Harry (1993) - Alien Carnage
+<img width="320" height="200" alt="Halloween Harry title screen" src="https://github.com/user-attachments/assets/56925b9b-e1f0-4a60-9b1d-61068470983e" />
+
+John Passfield's site has **Alien Carnage** (Halloween Harry) on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
+
+---
 
 ### Flight of the Amazon Queen (1995) - JASPER engine
 <img width="710" height="456" alt="image" src="https://github.com/user-attachments/assets/6a933b55-21ca-433d-a677-9f74d348e875" />
@@ -48,8 +56,8 @@ We also highly recommend you buy the **recent iOS re-release** of the game on th
 
 #### JASPAR (Queen) game engine
 The game was built with a custom game engine called **JASPAR** (John And Steve's Programmable Adventure Resource) and John even wrote some game editor tools [^14]:
-* **JOKER** - JASPAR Object Kernel Editor Resource - Game Editor for building rooms (laying out of objects and actors and walk paths, etc)
-* **CUTS** - Game cutscene editor (it was also called ASE in [Flight Of The Amazon Queen - Hall Of Light](https://amiga.abime.net/games/view/flight-of-the-amazon-queen) not sure if this is a typo or an alternative name) 
+* **JOKER** - JASPAR Object Kernel Editor Resource - Game Editor for building rooms (laying out of objects and actors and walk paths, etc) - may have worked with .JAS files
+* **CUTS** - Game cutscene editor (it was also called ASE in [Flight Of The Amazon Queen - Hall Of Light](https://amiga.abime.net/games/view/flight-of-the-amazon-queen) not sure if this is a typo or an alternative name)  worked with .CUT files
 * **DOG** - Dialogue Object Generation System - Conversation tree editor works with .DOG files
 
 The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14]. It was compiled using the **WATCOM C** toolchain accorsing to strings in the Queen.exe file.
@@ -65,21 +73,16 @@ What I also thought was super cool was at the end of John's 2015 blog post he te
 
 However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see in the market.
 
-As facinating as the JASPAR engine is, this page is about Merkury so lets keep going.
+As facinating as the JASPAR engine is, this page is about Merkury and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
 
----
-### Halloween Harry (1993) - Alien Carnage
-<img width="320" height="200" alt="Halloween Harry title screen" src="https://github.com/user-attachments/assets/56925b9b-e1f0-4a60-9b1d-61068470983e" />
-
-John Passfield's site also has **Alien Carnage** on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
 
 ---
 ## Gee Wizz! entertainment (1996-1999)
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
 
 In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released two games:
-* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
 * **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
+* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
 
 The original Gee Wizz! entertainment site from back in March 1997 has the following to say about each of the original team members [^10]:
 ```markdown
@@ -96,12 +99,25 @@ Robert is a 24 year old programmer who spent his whole life dedicated to the cau
 Tony has worked on many games, some of which actually made it onto the shelves, including Halloween Harry, Alien Carnage and Flight of the Amazon Queen. He specializes in 'C' and Intel Assembly, particularly graphics code, and is currently working on some really cool stuff with Gee Whiz! Entertainment.
 ```
 
-### Delphi Programming
+---
+### Zombie Wars (1996)
+Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delphi.
+
+#### Delphi Programming
 **Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
 
+---
+### The Chronicles of Jaruu Tenk (1999)
+<img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
+
+**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was never intended to be a commercial project as it was simply built as a labour of love inspired by David Crane’s Little Computer People. It was written in either C or C++ and it is built using Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+
+The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine.
+
+Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
 
 ---
 # Origin of the Merkury Engine
