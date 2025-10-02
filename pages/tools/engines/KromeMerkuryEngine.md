@@ -37,16 +37,47 @@ Interactive Binary Illusions (IBI) released their first game all the way back in
 
 They were working on a third title called **Stereo Jack** for planned release in 1996, however due to lack of funding it has to be cancelled and the pair instead formed a new company called **Gee Wizz! entertainment**.
 
+### Flight of the Amazon Queen (1995) - JASPER engine
+<img width="710" height="456" alt="image" src="https://github.com/user-attachments/assets/6a933b55-21ca-433d-a677-9f74d348e875" />
+
+Flight of the Amazon Queen was released for **DOS** and **Amiga** in 1995 and then later Windows (2004), iPhone (2009), Mac (2013) and even Linux in 2021! [^15].
+
 Since the company was so small the copyright for these games is owned by the two co-founders of IBI and **John Passfield** has generously uploaded the original version of **Flight of the Amazon Queen** to his personal website which you can download **completely free** from his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page! 
 
 We also highly recommend you buy the **recent iOS re-release** of the game on the App Store as its incredibly cheap and a great game to play on the go, along with supporting that amazing industry veteren Mr Passfield, a link to it is also available on his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page.
 
-His site also has **Alien Carnage** on the Free Stuff page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
+#### JASPAR (Queen) game engine
+The game was built with a custom game engine called **JASPAR** (John And Steve's Programmable Adventure Resource) and John even write some game editor tools [^14]:
+* **JOKER** - Game Editor for building rooms (laying out of objects and actors and walk paths, etc)
+* **ACE** - Game cutscene editor
+* **DOG** - Conversation tree editor
+
+The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14].
+
+In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
+
+The engine was the second non-LucasArts engine added to **ScummVM** on **September 28th 2003** in version 0.6.0 where they called it the **Queen** engine due to the only game that used it was the Flight of the Amazon Queen and they possibly didn't know about it being called JASPER at the time.  The engine supports all known DOS and Amiga versions of the game, including multiple languages and demos [^16].
+
+For more information, you absolutely **must read** John's blog post on the making of the game [Game Musings: Making of Flight of the Amazon Queen - A 20th Anniversary Retrospective](https://passfieldgames.blogspot.com/2015/05/making-of-flight-of-amazon-queen-20th.html)
+
+What I also thought was super cool was at the end of John's 2015 blog post he teased an Apple Watch version of the game with this screenshot:
+<img width="399" height="408" alt="Apple Watch Version of Flight of the Amazon Queen" src="https://github.com/user-attachments/assets/b170ef25-28b9-4e62-884c-f549bc00f20e" />
+
+However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see.
+
+---
+### Halloween Harry (1993) - Alien Carnage
+<img width="320" height="200" alt="Halloween Harry title screen" src="https://github.com/user-attachments/assets/56925b9b-e1f0-4a60-9b1d-61068470983e" />
+
+John Passfield's site also has **Alien Carnage** on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
 
 ---
 ### Gee Wizz! entertainment (1996-1999)
 <img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
-In 1996 **Gee Wizz! entertainment** was born
+
+In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released two games:
+* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
+* **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
 
 The original Gee Wizz! entertainment site from back in March 1997 has the following to say about each of the original team members [^10]:
 ```markdown
@@ -63,10 +94,7 @@ Robert is a 24 year old programmer who spent his whole life dedicated to the cau
 Tony has worked on many games, some of which actually made it onto the shelves, including Halloween Harry, Alien Carnage and Flight of the Amazon Queen. He specializes in 'C' and Intel Assembly, particularly graphics code, and is currently working on some really cool stuff with Gee Whiz! Entertainment.
 ```
 
-During their run as **Gee Wizz! entertainment** they released two games:
-* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
-* **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
-
+#### Delphi Programming
 **Robert Crane** was a big fan of the Delphi programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
@@ -1012,3 +1040,6 @@ You can watch the video below:
 [^11]: [Interactive Binary Illusions - MobyGames](https://www.mobygames.com/company/226/interactive-binary-illusions/)
 [^12]: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
 [^13]: [Gee Whiz! Labs - - archived March 27th 1997](https://web.archive.org/web/19970327033524/http://www.geewhiz.com.au/gwdev.html)
+[^14]: [Flight Of The Amazon Queen / Flug Der Amazon Queen - Hall Of Light - The database of Amiga games](https://amiga.abime.net/games/view/flight-of-the-amazon-queen)
+[^15]: [Flight of the Amazon Queen (1995) - MobyGames](https://www.mobygames.com/game/352/flight-of-the-amazon-queen/)
+[^16]: [Queen - ScummVM Wiki](https://wiki.scummvm.org/index.php/Queen)
