@@ -82,7 +82,9 @@ As facinating as the JASPAR engine is, this page is about Merkury and none of th
 
 In 1996 **Gee Wizz! entertainment** was born and during their run until they become **Krome Studios** in 1999 they released two games:
 * **Zombie Wars** - 1996 on Windows, a sequal to Alien Carnage/Halloween Harry written in **Delphi**
-* **Mike Stewart's Pro Bodyboarding** - 1999 on Windows
+* **Mike Stewart's Pro Bodyboarding** - February 1999 on Windows
+* **The Chronicles of Jaruu Tenk** - 1999 on Windows (sold via ScreenOpera)
+* **Halloween Spirit Board** - October 1999 on Windows (sold via ScreenOpera)
 
 The original Gee Wizz! entertainment site from back in March 1997 has the following to say about each of the original team members [^10]:
 ```markdown
@@ -108,25 +110,6 @@ Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delp
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
-
----
-### The Chronicles of Jaruu Tenk (1999)
-<img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
-
-**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was built as a labour of love inspired by David Crane’s Little Computer People and then sold on the [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website since at least February 2000 (oldest archive on wayback) [^18]. It was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
-
-The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine.
-
-Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
-
-Some notes about Jaruu:
-* It uses MAD files for Material Data same as other early Merkury engine games
-
----
-### Halloween Spirit Board (1999)
-Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
-
-
 
 ---
 # Origin of the Merkury Engine
@@ -249,9 +232,26 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Monster Dash | iOS, Android | 2016 / ongoing | No (Unity)
 | Gizmotablet (Kid World, Verizon) | Android Tablet (EdTech)   | 2018 |
 
+---
+# Pre-Merkury - The Chronicles of Jaruu Tenk (1999)
+<img width="630" height="157" alt="Logo for  The Chronicles of Jaruu Tenk" src="https://github.com/user-attachments/assets/48e8c12f-f0d1-48f5-8728-3c46ad641421" />
+
+**The Chronicles of Jaruu Tenk** was released for free by John Passfield on his site [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html). It was built as a labour of love inspired by David Crane’s Little Computer People and then sold on the [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website since at least February 2000 (oldest archive on wayback) [^18]. It was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+
+The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine.
+
+Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
+
+Some notes about Jaruu:
+* It uses MAD files for Material Data same as other early Merkury engine games
 
 ---
-# Pre-Merkury - Mike Stewart's Pro Bodyboarding
+# Pre-Merkury - Halloween Spirit Board (October 1999)
+Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html)
+
+
+---
+# Pre-Merkury - Mike Stewart's Pro Bodyboarding (February 1999)
 Mike Stewart's Pro Bodyboarding was actually built by **Gee Whiz! Entertainment**, the studio that would then go on to become **Krome Studios**. The official Krome Studio's website from 2001 claimed that it was using the Merkury engine, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
 ## Blast Graphics engine (bg.dll)
