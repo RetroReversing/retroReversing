@@ -392,6 +392,200 @@ print ("Success:", dst, len(pcm), sample_rate, magic, version, total_size, hdr_s
 ```
 
 ---
+# Pre-Merkury - Mike Stewart's Pro Bodyboarding
+Mike Stewart's Pro Bodyboarding was actually built by **Gee Whiz! Entertainment**, the studio that would then go on to become **Krome Studios**. The official Krome Studio's website from 2001 claimed that it was using the Merkury engine, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
+
+## Blast Graphics (bg.dll)
+The Blast Graphics library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
+
+Name | Location | Function Signature | Function Size (bytes) | Description
+---|---|---|---|---
+AVIFileExit | 0x10032f0a | AVIFileExit() | 6 | 
+AVIFileInit | 0x10032f34 | AVIFileInit() | 6 | 
+AVIStreamInfoA | 0x10032f1c | AVIStreamInfoA() | 6 | 
+AVIStreamLength | 0x10032f22 | AVIStreamLength() | 6 | 
+AVIStreamOpenFromFileA | 0x10032f2e | AVIStreamOpenFromFileA() | 6 | 
+AVIStreamRead | 0x10032f46 | AVIStreamRead() | 6 | 
+AVIStreamReadFormat | 0x10032f28 | AVIStreamReadFormat() | 6 | 
+AVIStreamRelease | 0x10032f10 | AVIStreamRelease() | 6 | 
+BG_AddObject | 0x1000d1f0 | BG_AddObject(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8) | 5127 | 
+BG_AddProjection | 0x10010380 | BG_AddProjection(param_1, param_2, param_3, param_4, param_5, param_6) | 835 | 
+BG_AddQuad | 0x1000eda0 | BG_AddQuad(param_1, param_2, param_3) | 5566 | 
+BG_AddSprite | 0x10008290 | BG_AddSprite(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10) | 5445 | 
+BG_AddSpriteSection | 0x10008240 | BG_AddSpriteSection(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10, param_11) | 78 | 
+BG_AddText | 0x10001aa0 | BG_AddText(param_1, param_2, param_3, param_4, param_5) | 1030 | 
+BG_AddText2 | 0x10001eb0 | BG_AddText2(param_1, param_2, param_3, param_4, param_5, param_6) | 1030 | 
+BG_AllocObject | 0x100028a0 | BG_AllocObject() | 43 | 
+BG_AlterVertice | 0x10005500 | BG_AlterVertice(param_1, param_2, param_3, param_4, param_5) | 93 | 
+BG_Animate | 0x100055e0 | BG_Animate(param_1, param_2) | 60 | 
+BG_AnimateCustom | 0x100056e0 | BG_AnimateCustom(param_1, param_2, param_3) | 683 | 
+BG_AnimateNode | 0x10005620 | BG_AnimateNode(param_1, param_2, param_3, param_4) | 177 | 
+BG_BeginFullscreen | 0x10012750 | BG_BeginFullscreen() | 6 | 
+BG_CallLogics | 0x10012370 | BG_CallLogics() | 198 | 
+BG_ChangeRes | 0x10023160 | BG_ChangeRes() | 1 | 
+BG_ClearObjects | 0x100231b0 | BG_ClearObjects() | 78 | 
+BG_ClearRGB | 0x1001e870 | BG_ClearRGB(param_1, param_2, param_3) | 861 | 
+BG_ClipOff | 0x10002490 | BG_ClipOff() | 28 | 
+BG_ClipOn | 0x1001f470 | BG_ClipOn(param_1, param_2, param_3, param_4) | 280 | 
+BG_CopyTexture | 0x1001d0c0 | BG_CopyTexture(param_1, param_2) | 345 | 
+BG_CreateFont | 0x1001ef40 | BG_CreateFont(param_1, param_2) | 1197 | 
+BG_DebugText | 0x10002430 | BG_DebugText(param_1) | 41 | 
+BG_Disable | 0x1001dfc0 | BG_Disable(param_1) | 52 | 
+BG_DisableOmni | 0x10009c20 | BG_DisableOmni(param_1) | 37 | 
+BG_DrawBkg | 0x1001fa40 | BG_DrawBkg(param_1) | 378 | 
+BG_DrawObjects | 0x10020c80 | BG_DrawObjects() | 6096 | 
+BG_DrawOverlay | 0x10020140 | BG_DrawOverlay(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10, param_11, param_12, param_13, param_14, param_15, param_16, param_17, param_18, param_19, param_20, param_21, param_22) | 2797 | 
+BG_DrawText | 0x100022c0 | BG_DrawText(param_1, param_2, param_3, param_4, param_5, param_6) | 359 | 
+BG_Enable | 0x1001df40 | BG_Enable(param_1) | 51 | 
+BG_EnableOmni | 0x10009c50 | BG_EnableOmni(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8) | 345 | 
+BG_EnableSub | 0x100016d0 | BG_EnableSub(param_1, param_2, param_3) | 50 | 
+BG_EnableVal | 0x1001df80 | BG_EnableVal(param_1, param_2) | 50 | 
+BG_EnumDirectSound | 0x10010b20 | BG_EnumDirectSound() | 5 | 
+BG_EnumerateModes | 0x1001f5f0 | BG_EnumerateModes() | 163 | 
+BG_EnumHardware | 0x1001dc10 | BG_EnumHardware() | 28 | 
+BG_EraseBkg | 0x1001e730 | BG_EraseBkg(param_1) | 91 | 
+BG_Exit | 0x1001e000 | BG_Exit() | 260 | 
+BG_Flip | 0x1001ebd0 | BG_Flip(param_1, param_2) | 742 | 
+BG_FPS | 0x10002480 | BG_FPS() | 7 | 
+BG_FrameUsed | 0x10012730 | BG_FrameUsed() | 3 | 
+BG_FreeObject | 0x100028d0 | BG_FreeObject(param_1) | 694 | 
+BG_GetCamera | 0x10011e40 | BG_GetCamera(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8) | 129 | 
+BG_GetCaps | 0x10023170 | BG_GetCaps(param_1) | 42 | 
+BG_GetDirectSound | 0x10010b30 | BG_GetDirectSound(param_1) | 14 | 
+BG_GetDriverID | 0x1001ffd0 | BG_GetDriverID() | 14 | 
+BG_GetFaceCount | 0x100076b0 | BG_GetFaceCount(param_1) | 22 | 
+BG_GetFile | 0x100019d0 | BG_GetFile(param_1) | 14 | 
+BG_GetFloor | 0x100065e0 | BG_GetFloor(param_1, param_2, param_3, param_4) | 363 | 
+BG_GetFontMat | 0x10002460 | BG_GetFontMat(param_1) | 32 | 
+BG_GetFrameCount | 0x10005990 | BG_GetFrameCount(param_1) | 40 | 
+BG_GetFrontFaces | 0x100076a0 | BG_GetFrontFaces() | 6 | 
+BG_GetFXPos | 0x10009b40 | BG_GetFXPos(param_1, param_2, param_3, param_4, param_5) | 174 | 
+BG_GetHardware | 0x100019e0 | BG_GetHardware(param_1) | 49 | 
+BG_GetInitError | 0x100024b0 | BG_GetInitError() | 14 | 
+BG_GetLastColor | 0x1000e740 | BG_GetLastColor(param_1, param_2, param_3) | 567 | 
+BG_GetLastMatNum | 0x1000ea30 | BG_GetLastMatNum() | 41 | 
+BG_GetLastPlane | 0x1000e980 | BG_GetLastPlane(param_1, param_2, param_3, param_4) | 176 | 
+BG_GetLastPoint | 0x1000e710 | BG_GetLastPoint(param_1, param_2, param_3) | 37 | 
+BG_GetLastVector | 0x1000e680 | BG_GetLastVector(param_1, param_2, param_3) | 136 | 
+BG_GetLocalNodePos | 0x10001950 | BG_GetLocalNodePos(param_1, param_2, param_3, param_4, param_5) | 113 | 
+BG_GetLogicMul | 0x10012360 | BG_GetLogicMul() | 7 | 
+BG_GetMatFaces | 0x100097e0 | BG_GetMatFaces(param_1, param_2, param_3, param_4, param_5) | 115 | 
+BG_GetMatID | 0x10002870 | BG_GetMatID(param_1) | 41 | 
+BG_GetMatNum | 0x1001ff80 | BG_GetMatNum(param_1) | 14 | 
+BG_GetNearestColor | 0x10012740 | BG_GetNearestColor() | 3 | 
+BG_GetNodeCount | 0x10001710 | BG_GetNodeCount(param_1) | 44 | 
+BG_GetNodeName | 0x10001740 | BG_GetNodeName(param_1, param_2) | 135 | 
+BG_GetNodeNum | 0x10001620 | BG_GetNodeNum(param_1, param_2) | 165 | 
+BG_GetNodePos | 0x100017d0 | BG_GetNodePos(param_1, param_2, param_3, param_4, param_5) | 370 | 
+BG_GetObjectBox | 0x100073e0 | BG_GetObjectBox(param_1, param_2, param_3, param_4, param_5, param_6, param_7) | 144 | 
+BG_GetVertice | 0x10005560 | BG_GetVertice(param_1, param_2, param_3, param_4, param_5) | 121 | 
+BG_GetVerticeCount | 0x100076d0 | BG_GetVerticeCount(param_1) | 21 | 
+BG_GetWorldFXPos | 0x10009860 | BG_GetWorldFXPos(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10, param_11, param_12) | 731 | 
+BG_GetYfromXZ | 0x10006420 | BG_GetYfromXZ(param_1, param_2, param_3) | 29 | 
+BG_GrabMaterial | 0x100234a0 | BG_GrabMaterial(param_1, param_2, param_3, param_4, param_5) | 126 | 
+BG_Init | 0x1001f6a0 | BG_Init(param_1, param_2) | 921 | 
+BG_InitGL | 0x10012760 | BG_InitGL(param_1, param_2, param_3) | 19 | 
+BG_KeyDown | 0x1001c590 | BG_KeyDown(param_1) | 17 | 
+BG_Line | 0x1001e110 | BG_Line(param_1, param_2, param_3, param_4, param_5, param_6, param_7) | 844 | 
+BG_LineIntersect | 0x1000ea90 | BG_LineIntersect(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10) | 423 | 
+BG_LineIntersectCircle | 0x1000ec40 | BG_LineIntersectCircle(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9) | 340 | 
+BG_LoadAnimation | 0x100041c0 | BG_LoadAnimation(param_1, param_2, param_3) | 4684 | 
+BG_LoadBkg | 0x1001e790 | BG_LoadBkg(param_1, param_2) | 222 | 
+BG_LoadCameraTrack | 0x10011910 | BG_LoadCameraTrack(param_1) | 1125 | 
+BG_LoadColorMap | 0x100059c0 | BG_LoadColorMap(param_1, param_2) | 712 | 
+BG_LoadMatProperties | 0x10022eb0 | BG_LoadMatProperties(param_1) | 679 | 
+BG_LoadObject | 0x10005cb0 | BG_LoadObject(param_1, param_2, param_3, param_4, param_5, param_6, param_7, param_8, param_9, param_10, param_11, undefined1 param_12, undefined1 param_13, undefined1 param_14, undefined1 param_15, undefined1 param_16, undefined1 param_17, undefined1 param_18, undefined1 param_19, undefined2 param_20) | 1904 | 
+BG_MatriceClear | 0x100076f0 | BG_MatriceClear() | 22 | 
+BG_MatriceCustom | 0x10007ae0 | BG_MatriceCustom(param_1) | 107 | 
+BG_MatricePoint | 0x10007b50 | BG_MatricePoint(param_1, param_2, param_3, param_4, param_5, param_6) | 151 | 
+BG_MatriceRotate | 0x10007710 | BG_MatriceRotate(param_1, param_2, param_3, param_4) | 464 | 
+BG_MatriceScale | 0x100079e0 | BG_MatriceScale(param_1, param_2, param_3) | 247 | 
+BG_MatriceTranslate | 0x100078e0 | BG_MatriceTranslate(param_1, param_2, param_3) | 247 | 
+BG_MatText | 0x1001d220 | BG_MatText(param_1) | 704 | 
+BG_MoveWindow | 0x1001f3f0 | BG_MoveWindow(param_1) | 119 | 
+BG_PageFlip | 0x1001eec0 | BG_PageFlip(param_1) | 90 | 
+BG_PageFlipDC | 0x1001ef20 | BG_PageFlipDC(param_1) | 19 | 
+BG_PlayAVI | 0x100011d0 | BG_PlayAVI(param_1, param_2, param_3, param_4) | 650 | 
+BG_PopBkg | 0x1001d050 | BG_PopBkg() | 112 | 
+BG_Profile | 0x10001570 | BG_Profile(param_1, param_2) | 168 | 
+BG_PushBkg | 0x1001cf20 | BG_PushBkg() | 299 | 
+BG_RestoreSurfaces | 0x1001ff90 | BG_RestoreSurfaces() | 49 | 
+BG_SaveBitmap | 0x1001dc30 | BG_SaveBitmap(param_1, param_2, param_3, param_4, param_5, param_6, param_7) | 771 | 
+BG_SaveObject | 0x10005c90 | BG_SaveObject(param_1, param_2) | 26 | 
+BG_SaveViewTransform | 0x10010360 | BG_SaveViewTransform(param_1) | 21 | 
+BG_ScreenPoint | 0x10007500 | BG_ScreenPoint(param_1, param_2, param_3, param_4, param_5) | 248 | 
+BG_ScreenPoint3D | 0x10007600 | BG_ScreenPoint3D(param_1, param_2, param_3, param_4, param_5, param_6) | 159 | 
+BG_SetAmbientLight | 0x100025f0 | BG_SetAmbientLight(param_1) | 10 | 
+BG_SetCamera | 0x10011ed0 | BG_SetCamera(param_1, param_2, param_3, param_4, param_5) | 283 | 
+BG_SetCameraTrack | 0x100118c0 | BG_SetCameraTrack(param_1) | 72 | 
+BG_SetCameraVector | 0x10011d80 | BG_SetCameraVector(param_1, param_2, param_3, param_4, param_5, param_6) | 184 | 
+BG_SetCameraZoom | 0x10011ff0 | BG_SetCameraZoom(param_1, param_2) | 86 | 
+BG_SetFarPlane | 0x1001ffe0 | BG_SetFarPlane(param_1, param_2) | 91 | 
+BG_SetFarPlaneEx | 0x10009bf0 | BG_SetFarPlaneEx(param_1, param_2, param_3) | 45 | 
+BG_SetFileCallback | 0x10012350 | BG_SetFileCallback(param_1) | 10 | 
+BG_SetFontHandle | 0x100231a0 | BG_SetFontHandle(param_1) | 10 | 
+BG_SetFOV | 0x1000e600 | BG_SetFOV(param_1) | 118 | 
+BG_SetHardware | 0x1001dbf0 | BG_SetHardware(param_1) | 24 | 
+BG_SetLightColor | 0x100025c0 | BG_SetLightColor(param_1, param_2, param_3) | 40 | 
+BG_SetLightVector | 0x10002540 | BG_SetLightVector(param_1, param_2, param_3) | 116 | 
+BG_SetMatColor | 0x10002770 | BG_SetMatColor(param_1, param_2, param_3, param_4) | 65 | 
+BG_SetMatColorA | 0x100027c0 | BG_SetMatColorA(param_1, param_2, param_3, param_4, param_5) | 65 | 
+BG_SetMatFrame | 0x1000ea60 | BG_SetMatFrame(param_1, param_2) | 42 | 
+BG_SetMatProperty | 0x100224c0 | BG_SetMatProperty(param_1, param_2) | 2544 | 
+BG_SetMatRotate | 0x10002680 | BG_SetMatRotate(param_1, param_2, param_3, param_4) | 73 | 
+BG_SetMatScroll | 0x100026d0 | BG_SetMatScroll(param_1, param_2, param_3) | 146 | 
+BG_SetNode | 0x1000a490 | BG_SetNode(param_1, param_2, param_3) | 99 | 
+BG_SetObjectLight | 0x10002600 | BG_SetObjectLight(param_1, param_2) | 49 | 
+BG_SetObjectLightA | 0x10002640 | BG_SetObjectLightA(param_1, param_2, param_3) | 49 | 
+BG_Status | 0x10002810 | BG_Status() | 95 | 
+BG_SurfaceHit | 0x10006750 | BG_SurfaceHit(param_1, param_2, param_3, param_4, param_5, param_6, param_7) | 3212 | 
+BG_Text | 0x1001e580 | BG_Text(param_1, param_2, param_3) | 419 | 
+BG_TextLen | 0x1001e460 | BG_TextLen(param_1) | 283 | 
+BG_TextLenFont | 0x10001a60 | BG_TextLenFont(param_1, param_2) | 59 | 
+BG_TweenObject | 0x10005410 | BG_TweenObject(param_1, param_2, param_3, param_4) | 230 | 
+BG_WaveAnimate | 0x10024c80 | BG_WaveAnimate(param_1) | 1257 | 
+BG_WaveCollide | 0x10025360 | BG_WaveCollide(param_1, param_2, param_3, param_4, param_5, param_6) | 501 | 
+BG_WaveCollidePost | 0x10025560 | BG_WaveCollidePost(param_1, param_2, param_3, param_4) | 880 | 
+BG_WaveCreate | 0x10024200 | BG_WaveCreate(param_1, param_2, param_3, param_4, param_5, param_6, param_7) | 1743 | 
+BG_WaveGetFX | 0x100258f0 | BG_WaveGetFX(param_1, param_2) | 23 | 
+BG_WaveGetLastFrame | 0x10024020 | BG_WaveGetLastFrame() | 7 | 
+BG_WaveGetPitch | 0x10025190 | BG_WaveGetPitch(param_1, param_2, param_3) | 320 | 
+BG_WaveGetPitchPost | 0x100252d0 | BG_WaveGetPitchPost() | 7 | 
+BG_WaveGetTime | 0x100252e0 | BG_WaveGetTime(param_1) | 30 | 
+BG_WaveGetTimeXZ | 0x10024130 | BG_WaveGetTimeXZ(param_1, param_2) | 194 | 
+BG_WaveHighestPoint | 0x100240f0 | BG_WaveHighestPoint(param_1, param_2, param_3) | 49 | 
+BG_WaveLoadAnimation | 0x10024910 | BG_WaveLoadAnimation(param_1) | 832 | 
+BG_WaveScale | 0x100248d0 | BG_WaveScale(param_1, param_2, param_3) | 20 | 
+BG_WaveScaleColumn | 0x10024c50 | BG_WaveScaleColumn(param_1, param_2, param_3) | 44 | 
+BG_WaveScroll | 0x10025300 | BG_WaveScroll(param_1, param_2) | 95 | 
+BG_WaveSetControlPoints | 0x100248f0 | BG_WaveSetControlPoints(param_1) | 31 | 
+BG_WaveSetLipZ | 0x10025920 | BG_WaveSetLipZ(param_1) | 10 | 
+BG_WaveSetTime | 0x10025170 | BG_WaveSetTime(param_1, param_2) | 27 | 
+BG_WaveSetValues | 0x100258d0 | BG_WaveSetValues(param_1) | 30 | 
+BG_WaveSmooth | 0x10025910 | BG_WaveSmooth(param_1) | 10 | 
+BG_WorldPoint | 0x10007470 | BG_WorldPoint(param_1, param_2, param_3, param_4, param_5, param_6) | 139 | 
+BS_AllocSound | 0x100109f0 | BS_AllocSound() | 40 | 
+BS_EnumDirectSound | 0x100107b0 | BS_EnumDirectSound() | 28 | 
+BS_Exit | 0x10010950 | BS_Exit() | 66 | 
+BS_FreeSound | 0x100109d0 | BS_FreeSound(param_1) | 28 | 
+BS_GetDirectSound | 0x100107d0 | BS_GetDirectSound(param_1) | 33 | 
+BS_Init | 0x10010800 | BS_Init(param_1, param_2) | 324 | 
+BS_IsSoundPlaying | 0x10010b00 | BS_IsSoundPlaying(param_1) | 30 | 
+BS_LoadSound | 0x100109a0 | BS_LoadSound(param_1, param_2, param_3) | 38 | 
+BS_PlaySound | 0x10010a20 | BS_PlaySound(param_1, param_2) | 41 | 
+BS_SetSoundFrequency | 0x10010aa0 | BS_SetSoundFrequency(param_1, param_2) | 33 | 
+BS_SetSoundPosition | 0x10010ad0 | BS_SetSoundPosition(param_1, param_2, param_3, param_4) | 43 | 
+BS_SetSoundVolume | 0x10010a70 | BS_SetSoundVolume(param_1, param_2) | 33 | 
+BS_StopSound | 0x10010a50 | BS_StopSound(param_1) | 28 | 
+Catch@10027184 | 0x10027184 | Catch@10027184() | 16 | 
+Catch@10027715 | 0x10027715 | Catch@10027715() | 29 | 
+DirectDrawCreate | 0x10025948 | DirectDrawCreate() | 6 | 
+DirectDrawCreateEx | 0x1002593c | DirectDrawCreateEx() | 6 | 
+DirectDrawEnumerateA | 0x10025942 | DirectDrawEnumerateA() | 6 | 
+entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 | 
+
+
+---
 # Pre-Merkury - Disney's Extremely Goofy Skateboarding
 The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine and was built to be windows-only, but it was released in 2001 the same year that they released **Sunny Garcia Surfing**  which did use the Merkury engine. Presumably they were working on a new PS2 engine for the surfing game while working on the Disney game for windows, so it would not be easy to just port the skateboarding game over to the new engine.
 
