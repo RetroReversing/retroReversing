@@ -27,7 +27,11 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 
 ---
 ## Origin of Krome Studios
-Krome Studios was founded on the 1st November 1999 [^6].
+<img width="503" height="190" alt="Gee Wizz! entertainment Logo" src="https://github.com/user-attachments/assets/a8a981fa-9636-4d97-a242-a874f8855620" />
+
+Originally known as **Interactive Binary Illusions** and then renamed **Gee Wizz! entertainment** on the release of their game Zombie Wars [^9], it was formed by partners **John Passfield** and **Steve Stamatiadis**. It later became Krome Studios on the 1st November 1999 [^6].
+
+Despite all the evolution, the studio continued to be based in Brisbane, Australia.
 
 ---
 ## Origin of the engine
@@ -963,3 +967,4 @@ You can watch the video below:
 [^6]: [PC Powerplay Issue 062 - July 2001 - Next Publishing Pty Ltd](https://archive.org/details/PCPowerplay-062-2001-07/page/n57/mode/2up?q=Krome+Studios)
 [^7]: [Kat Burgler on the official kromestudios.com website fetched on Dec 12th 2000](https://web.archive.org/web/20001212222800/http://www.kromestudios.com/games_02.htm)
 [^8]: [Merkury  on the official kromestudios.com website](https://web.archive.org/web/20010303010913/http://www.kromestudios.com/merkury.htm)
+[^9]: [RGB Classic Games - Company info for Gee Whiz! Entertainment](https://www.classicdosgames.com/company/geewhiz.html)
