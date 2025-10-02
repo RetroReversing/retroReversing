@@ -29,18 +29,18 @@ The Official Playstation 2 Magazine in the UK often had a playable PS2 Demo free
 You can find out more about these Demo Discs over at crimson-ceremony.net: [demo pals - OPS2M Demo UK](https://crimson-ceremony.net/demopals/ops2muk/index.php?img=uk005#SCED-50140).
 
 ## Searching Demo Progress
-We have only managed to search Demo Disc 10->31 for debug symbols, if you have unsearched demos please help by contributing to this list!
+We have only managed to search OPS2M Demo Disc 10->31 for debug symbols, if you have unsearched demos please help by contributing to this list!
 
-Also note the following discs have no debug information (as far as we know):
-* 58
+Also note the following demo discs have no debug information, as far as we can tell, some may be encrypted/compressed etc: 
+* 58 - April 2005 SCED_53161
 
 ## List of games available with debug symbols
+The table below has a list of all the playable game demos that we have confirmed have debug symbols inside them, although we have only managed to search Demo Disc 10->31 so far.
 
 Demo Disc | Game | PS2 SDK | Debug Info?
 --- | --- | --- | ---
 10 - August 2001, SCED_50145) | Le Mans 24 Hours | 2.1.4 | Full Debug Symbols! Plus a zip file that is multiple zips concatenated together
 10 - August 2001, SCED_50145) | Gauntlet Dark Legacy | 2.1.0 | Full Debug Symbols! 
-10 - August 2001, SCED_50145) | Star Wars Super Bomad Racing | 1.6.0 | None
 10 - August 2001, SCED_50145) | GT3 Quiz | 2.2.4 | Full Debug Symbols!
 11 - September 2001 SCED_50146 | Lotus Challenge | 2.1.4 | **2,837** Debug Symbols
 12 - October 2001 SCED_50147 | MX Rider | 2.1.0 | **10,586** Debug Symbols
@@ -78,105 +78,42 @@ Demo Disc | Game | PS2 SDK | Debug Info?
 21 - June 2002 SCED_50742 | Frequency | 2.3.2 | **13,890** Debug Symbols, uses python, uses EZMidi
 21 - June 2002 SCED_50742 | Peter Pan: Return to Never Land | 2.3.0 | **4,382** Debug Symbols
 21 - June 2002 SCED_50742 | Super Trucks | 2.4.3 | **2,990** Debug Symbols
-
-## Demo Disc 22 - July 2002 SCED_50744
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-F1 2002 | 2.4.0 | Debug Symbols in the .MAP file
-2002 FIFA World Cup | 2.3.4 | **9,823** Debug Symbols
-MTV Music Generator | 2.1.0 | **2,098** Debug Symbols
-
-
-## Demo Disc 23 - August 2002 SCED_50745
-This Demo came in a proper PS2 box rather than the standard DVD box used by the previous demo.
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Men in Black II: Alien Escape | 2.4.3 | **20,542** Debug Symbols, References to `Metrowerks SDK`
-Project Zero | 2.2.4 | **4,328** Debug Symbols
-
-
-## Demo Disc 24 - September 2002 SCED_50746
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Need for Speed: Hot Pursuit 2 | 2.4.3 | **8,341** Debug Symbols,  Plus .MAP file that contains filenames and library names, odd fact is that it contains 2 elfs, one with debug symbols and one without, why include the debug symbols version, was it a mistake?
-Jak and Daxter: The Precursor Legacy | 2.2.1 | **880** debug symbols plus interesting looking .CGO and .DGO files... 
-
-## Demo Disc 25 - October 2002 SCED_50747
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-X-Men: Next Dimension | 2.4.3 | **3,418** Debug Symbols
-
-
-## Demo Disc 26 - November 2002 SCED_50748
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Crash Bandicoot: The Wrath of Cortex | 2.4.0 | **3,817** Debug Symbols
-Summoner 2 | 2.4.0 | **5,647** Debug Symbols
-
-
-## Demo Disc 27 - December 2002 SCED_50749
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Colin McRae Rally 3 | 2.5.2 | **4,969** Debug Symbols
-Haven: Call of the King | 2.5.0 | Contains a RUNABOUT.EXE with debug symbols but it unpacks the actual elf from some data file
-Alpine Racer 3 | 2.4.2 | **3,916** Debug Symbols
-
-
-## Demo Disc 28 - Christmas 2002 SCED_50750
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-V-Rally 3 | 2.5.2 | **6,603** Debug Symbols
-MX Superfly | 2.5.0 | **6,115** Debug Symbols
-Treasure Planet | 2.5.0 | **4,519** Debug Symbols
-
-## Demo Disc 29 - January 2003 SCED_51384
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-FIFA 2003 | 2.3.4 | **12,074** Debug Symbols
-
-
-## Demo Disc 30 - February 2003 SCED_51457
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-NBA Live 2003 | 2.4.3 | **15,756** Debug Symbols
-Space Channel 5 V2 | 2.3.0 | **10,212** Debug Symbols
-Tom Clancy's Ghost Recon | 2.4.2 | **19,496** Debug Symbols
-
-
-## Demo Disc 31 - March 2003 SCED_51529
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Grand Prix Challenge | 2.5.4 | **14,342** Debug Symbols
-The Mark of Kri | 2.5.4 | **7,387** Debug Symbols plus .MAP file!
-Wakeboarding Unleashed | 2.4.3 | Debug Symbols split over 3 elfs
+22 - July 2002 SCED_50744 | F1 2002 | 2.4.0 | Debug Symbols in the .MAP file
+22 - July 2002 SCED_50744 | 2002 FIFA World Cup | 2.3.4 | **9,823** Debug Symbols
+22 - July 2002 SCED_50744 | MTV Music Generator | 2.1.0 | **2,098** Debug Symbols
+23 - August 2002 SCED_50745 | Men in Black II: Alien Escape | 2.4.3 | **20,542** Debug Symbols, References to `Metrowerks SDK`
+23 - August 2002 SCED_50745 | Project Zero | 2.2.4 | **4,328** Debug Symbols
+24 - September 2002 SCED_50746 | Need for Speed: Hot Pursuit 2 | 2.4.3 | **8,341** Debug Symbols,  Plus .MAP file that contains filenames and library names, odd fact is that it contains 2 elfs, one with debug symbols and one without, why include the debug symbols version, was it a mistake?
+24 - September 2002 SCED_50746 | Jak and Daxter: The Precursor Legacy | 2.2.1 | **880** debug symbols plus interesting looking .CGO and .DGO files... 
+25 - October 2002 SCED_50747 | X-Men: Next Dimension | 2.4.3 | **3,418** Debug Symbols
+26 - November 2002 SCED_50748 | Crash Bandicoot: The Wrath of Cortex | 2.4.0 | **3,817** Debug Symbols
+26 - November 2002 SCED_50748 | Summoner 2 | 2.4.0 | **5,647** Debug Symbols
+27 - December 2002 SCED_50749 | Colin McRae Rally 3 | 2.5.2 | **4,969** Debug Symbols
+27 - December 2002 SCED_50749 | Haven: Call of the King | 2.5.0 | Contains a RUNABOUT.EXE with debug symbols but it unpacks the actual elf from some data file
+27 - December 2002 SCED_50749 | Alpine Racer 3 | 2.4.2 | **3,916** Debug Symbols
+28 - Christmas 2002 SCED_50750 | V-Rally 3 | 2.5.2 | **6,603** Debug Symbols
+28 - Christmas 2002 SCED_50750 | MX Superfly | 2.5.0 | **6,115** Debug Symbols
+28 - Christmas 2002 SCED_50750 | Treasure Planet | 2.5.0 | **4,519** Debug Symbols
+29 - January 2003 SCED_51384 | FIFA 2003 | 2.3.4 | **12,074** Debug Symbols
+30 - February 2003 SCED_51457 | NBA Live 2003 | 2.4.3 | **15,756** Debug Symbols
+30 - February 2003 SCED_51457 | Space Channel 5 V2 | 2.3.0 | **10,212** Debug Symbols
+30 - February 2003 SCED_51457 | Tom Clancy's Ghost Recon | 2.4.2 | **19,496** Debug Symbols
+31 - March 2003 SCED_51529 | Grand Prix Challenge | 2.5.4 | **14,342** Debug Symbols
+31 - March 2003 SCED_51529 | The Mark of Kri | 2.5.4 | **7,387** Debug Symbols plus .MAP file!
+31 - March 2003 SCED_51529 | Wakeboarding Unleashed | 2.4.3 | Debug Symbols split over 3 elfs
+57 - March 2005 SCED_53160 | Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
 
 ---
-## Demo Disc 53 - January 2005 SCED_52168
-The January 2005 Issue of the OPM2 had 2 games with somewhat interesting debug data, but sadly no debug symbols.
+## List of games without debug symbols byt with interesting data
+The following is a list of games that while they don't contain debug symbols, during analysis we did find they countained some interesting information that may be worth looking into:
 
-Game | PS2 SDK | Debug Info?
----|---|---
-Driver 3 | PS2SDK 2.7.0 | Contains animation Data in DRIVER3.IMG
-Sega Superstars | PS2SDK 3.0.0 | Uses boost libraries
+Demo Disc | Game | PS2 SDK | Debug Info?
+---|---|---|---
+10 - August 2001, SCED_50145) | Star Wars Super Bomad Racing | 1.6.0 | No debug symbols but early version of SDK
+53 - January 2005 SCED_52168 | Driver 3 | PS2SDK 2.7.0 | Contains animation Data in DRIVER3.IMG
+53 - January 2005 SCED_52168 | Sega Superstars | PS2SDK 3.0.0 | Uses boost libraries
+54 - January 2005 SCED_52169 | EyeToy: Play 2 | 3.0.0 | Has .lua script files but no symbols in main elf 
 
-
-## Demo Disc 54 - January 2005 SCED_52169
-
-Issue 54 has some interesting LUA scripts but sadly no debug symbols on the disc.
-
-Game | PS2 SDK | Debug Info?
----|---|---
-EyeToy: Play 2 | 3.0.0 | Has .lua script files but no symbols in main elf 
 
 ---
 ## Demo Disc 55 - January 2005 SCED_52170
@@ -196,17 +133,6 @@ Game | PS2 SDK | Debug Info?
 --- | --- | ---
 Athens 2004 | PS2SDK 3.0.0 | Contains .MAP file
 Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
-
-
-## Demo Disc 57 - March 2005 SCED_53160
-
-Game | PS2 SDK | Debug Info?
---- | --- | ---
-Full Spectrum Warrior | PS2SDK 3.0.0 | Contains **19,690** symbols in .sndata segment
-
----
-## Demo Disc 58 - April 2005 SCED_53161
-I can't find any debug information on this Disc.
 
 ---
 ## Demo Disc 59 - May 2005 SCED_53162
