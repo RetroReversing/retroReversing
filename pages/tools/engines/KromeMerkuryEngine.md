@@ -85,15 +85,15 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as Blast Graphics
 | The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
 | Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
-| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
-| Barbie Beach Vacation| Windows | 2001 | 
-| Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
+| Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows (SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
+| Barbie Beach Vacation| Windows | 2001 | No not a 3D game so neither Blast Graphics or Merkury
+| Disney's Extremely Goofy Skateboarding | Windows | 2001 | Yes (Blast graphics, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
 | Barbie: Sparkling Ice Show | Windows | 2002 | Yes (DATA_PC.rkv)
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
-| King Arthur | PS2, Xbox, GameCube | 2004 |
+| King Arthur | PS2, Xbox, GameCube | 2004 | 
 | Ty the Tasmanian Tiger 3: Night of the Quinkan| PS2, Xbox, GameCube, Windows, HD Remasters | 2005 |
 | The Legend of Spyro: A New Beginning| PS2, Xbox, GameCube, GBA  | 2006 |
 | The Legend of Spyro: The Eternal Night   | PS2, Wii | 2007 |
