@@ -71,7 +71,7 @@ The original **Krome Studios** website archived back in March 2001 has the follo
 * **Spirit Board** - Released in 1999 sold as shareware via ScreenOpera
 * **Championship Surfer** - Released in 2000 for Windows
 * **Kat Burglar** - Never released
-* **Gruesome Castle** - Never released ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
+* **Gruesome Castle** - Never released but in development in 1998 ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
 
 However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
 
@@ -86,10 +86,10 @@ Because not all uses of Merkury are documented, below is a table of major titles
 | The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
 | Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
 | Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows(SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
-| Barbie Beach Vacation| Windows | 2001 |
+| Barbie Beach Vacation| Windows | 2001 | 
 | Disney's Extremely Goofy Skateboarding | Windows | 2001 | No (custom engine that predates Merkury, uses fmod, bink, zip files)
 | Sunny Garcia Surfing | PlayStation 2  | 2001 | Yes (Merkury creditied in game manual)
-| Barbie: Sparkling Ice Show | Windows | 2002 |
+| Barbie: Sparkling Ice Show | Windows | 2002 | Yes (DATA_PC.rkv)
 | Ty the Tasmanian Tiger | PS2, Xbox, GameCube, Windows, HD Remasters | 2002 | Yes
 | The Adventures of Jimmy Neutron: Jet Fusion | PS2, GameCube | 2003 | Yes
 | Ty the Tasmanian Tiger 2: Bush Rescue | PS2, Xbox, GameCube, Windows, HD Remasters | 2004 | Yes
@@ -214,14 +214,17 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
 
-
 ---
-# Mike Stewart's Pro Bodyboarding (February 1999)
-Mike Stewart's Pro Bodyboarding was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year.
+# Blast Graphics - The Original Merkury engine
+Many of the games listed on the official website in 2001 as being Merkury engine games rafer to the engine under a different name **Blast graphics**.
 
-The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
+The following games have references to Blast graphics in their executables or contain the windows dynamic library **bg.dll**:
+* **Gruesome Castle Demo** - bg.dll dated 12th January 1998
+* **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999
+* **The Chronicles of Jaruu Tenk** - bg.dll with unknown date
+* **Halloween Spirit Board** - bg.dll with unknown date
 
-## Blast Graphics engine (bg.dll)
+## Blast Graphics windows library (bg.dll)
 The Blast Graphics engine/library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
 
 Name | Location | Function Signature | Function Size (bytes) | Description
@@ -410,6 +413,12 @@ DirectDrawCreateEx | 0x1002593c | DirectDrawCreateEx() | 6 |
 DirectDrawEnumerateA | 0x10025942 | DirectDrawEnumerateA() | 6 | 
 entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 | 
 
+
+---
+# Mike Stewart's Pro Bodyboarding (February 1999)
+Mike Stewart's Pro Bodyboarding was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year.
+
+The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
 ---
 # The Chronicles of Jaruu Tenk (October 1999)
