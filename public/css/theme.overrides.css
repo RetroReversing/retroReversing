@@ -25,56 +25,6 @@ body {
   font-weight: 600;
 }
 
-/* ------------------------------------  */
-/* Start of CSS related to the homepage  */
-
-.owl-carousel .owl-stage-outer {
-	max-height: 65vh;
-}
-
-.rr-head-hero-container {
-  display:flex; 
-  width:100%; 
-  height:350px;
-}
-
-/* is row-5 just used for the posts on homepage? If so we should rename  */
-.row-5 {
-  margin: unset;
-  padding: 30px;
-  justify-content: space-evenly;
-}
-
-/* Desktop Homepage media query  */
-@media (min-width: 576px) {
-
-  .rr-home-section {
-    display: flex;
-  }
-
-  .rr-home-section-left {
-    width: 80vw;
-
-    .rr-post-playlist-posts {
-      overflow: scroll;
-      flex-wrap: nowrap;
-    }
-  }
-
-  .rr-twitter {
-    width:20vw;
-    /* margin-top:-100px; */
-    background-color: #292F33;
-    margin-bottom: -30px;
-    padding-right: 45px;
-    /* We set overflow hidden as other wise long urls on bluesky will cause the page to be scrollable to the right  */
-    overflow: hidden; 
-  }
-} 
-/* End of Desktop Homepage Media Query  */
-
-/* End of Homepage css */
-
 /* ------------------------------- */
 /* Start of CSS related to posts  */
 .container.post-container {
@@ -140,10 +90,6 @@ blockquote {
 
 .card-title h4 {
   margin-top: 0px;
-}
-
-.table img {
-  max-width: 200px;
 }
 
 .post ul {
@@ -250,11 +196,6 @@ blockquote {
   max-width: 270px;
 }
 
-/* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
-table.dataTable {
-  min-height: 460px;
-}
-
 /* Post images that float ot the left or right  */
 
 .postImage {
@@ -293,40 +234,14 @@ overflow: scroll;
     }
 }
 
-/*  ILBM Viewer */
-.draghint {
-  display: table;
-  box-sizing: border-box;
-  border-width: 10px;
-  border-style: dashed;
-  background-color: white;
-  border-color: #ccc;
-  width: 100%;
-}
-  
-.dragtext {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #999;
-}
-  
-.hover {
-  border-color: #333;
+/* Tables  */
+.table img {
+  max-width: 200px;
 }
 
-/* padding-bottom and top for image */
-.mfp-no-margins img.mfp-img {
-	padding: 0;
-}
-/* position of shadow behind the image */
-.mfp-no-margins .mfp-figure:after {
-	top: 0;
-	bottom: 0;
-}
-/* padding for main container */
-.mfp-no-margins .mfp-container {
-	padding: 0;
+table.dataTable {
+  /* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
+  min-height: 460px;
 }
 
 .dataTables_length label {
@@ -346,6 +261,8 @@ overflow: scroll;
 .table > thead > tr > th {
   color: #0085b6
 }
+
+/* End tables  */
 
 .row p {
   padding: 5px;
@@ -437,11 +354,21 @@ section {
   font-size:0.6em;
   list-style: none;
 }
-
-
+/* End table of contents  */
 
 .dataTable a {
   color: #007bff !important;
+}
+
+
+/* code blocks */
+p .language-plaintext, p .language-bash {
+/*   padding-left: 5%; We don't want the 5% as we sometimes use the code block for a couple of words */ 
+}
+
+.language-plaintext pre {
+  background-color: #333;
+  color: white;
 }
 
 /*           */
@@ -468,12 +395,15 @@ section {
   height: 100px !important;
 }
 
+
+
 /* Sandpack is the code editor/live preview  */
 rr-sandpack {
   display: block;
   margin: 2rem 0;
 }
 
+/* -------- */
 /*  JS Tree */
 .jstree-default .jstree-anchor {
   font-size: 14px !important;
@@ -488,19 +418,8 @@ rr-sandpack {
   padding-left: 0px !important;
 }
 
-/* code blocks */
-p .language-plaintext, p .language-bash {
-/*   padding-left: 5%; We don't want the 5% as we sometimes use the code block for a couple of words */ 
-}
-
-.language-plaintext pre {
-  background-color: #333;
-  color: white;
-}
-
-/*  */
+/* ---- */
 /* Tabs */
-/*  */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
 
 .rr-tabs ul.tabs {
@@ -591,17 +510,54 @@ border-top-right-radius: 8px;
 /*   height: 200px; */
   margin: 0 auto;
 /*   background: #545f60; */
--webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
-   	   -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
-   	        box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
   -webkit-border-bottom-right-radius: 8px;
--webkit-border-bottom-left-radius: 8px;
--moz-border-radius-bottomright: 8px;
--moz-border-radius-bottomleft: 8px;
-border-bottom-right-radius: 8px;
-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+/* End Tabs  */
+
+/*  ILBM Viewer */
+.draghint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+  width: 100%;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
 }
 
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+/* End ILM viewer  */
 
 
 /*  */
