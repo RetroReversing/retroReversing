@@ -4,7 +4,7 @@ Note: use post NOT page for each title BUT use page.console as page is the categ
 {%- endcomment -%}
 <div class="post-header">
   <div>
-    {% if page.console %}
+    {% if page.console and site.category_images[page.console] %}
       <img class="post-header-icon" src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
     {% elsif post.thumbnail %}
       <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
