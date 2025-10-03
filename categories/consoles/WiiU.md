@@ -1,12 +1,10 @@
 ---
-permalink: /wiiU/
+permalink: /wiiu
+title: Nintendo WiiU Reverse Engineering
 layout: post
-recommend: wiiU
 recommendTitle: All WiiU Posts
 editlink: ../categories/consoles/WiiU.md
-console: 'wiiU'
-title: Nintendo WiiU  Reverse Engineering
-consoleimage: /public/consoles/Nintendo WiiU.png
+console: 'wiiu'
 thumbnail: /public/consoles/Nintendo WiiU.png
 excerpt: Awesome list of Nintendo WiiU Game Development and Reverse Engineering information
 breadcrumbs:
@@ -18,6 +16,10 @@ breadcrumbs:
     url: #
 tags:
   - wiiu
+recommend:
+  - wiiu
+  - wii
+  - introduction
 ---
 
 # Introduction
