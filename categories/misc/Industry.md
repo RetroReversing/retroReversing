@@ -85,6 +85,11 @@ When researching a video game, for reverse engineering or otherwise it can be tr
 Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
 {% include link-to-other-post.html post="/magazines" description="For more information on all the Game development magazines check out this post." %}
 
+### Develop - UK Magazine dedicated to the games industry
+**Develop** was a magazine published in the UK targetted at games industry professionals, similar to the US magazine Game Developer it provides a unique insight into game engines, SDKs and other middleware which was never published online.
+{% include link-to-other-post.html post="/develop-magazine" description="For more information on the UK magazine Develop check out this post." %}
+
+---
 ## Bookazines
 Due to the sheer number of magazines being published in the late 2000s, Publishers realised they could collate all the material from their monthly magazines into yearly publication.
 This resulted in a rather thick magazine with no advertisements about the size of a book but with the print quality of a magazine, hence the industry dubbed them **bookazines**.
