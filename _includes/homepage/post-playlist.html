@@ -1,12 +1,13 @@
 {%- comment -%}
+  Show a playlist of pages (site.pages) with a heading, only show pages with a valid permalink and layout called "post"
   Usage:
   {% raw %}{% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}{% endraw %}
 
   Required Parameters:
-  * tag: Filter posts by this tag
+  * tag: Filter pages by this tag
   * heading: Heading to display above the playlist
   Optional parameters:
-  * limit: Number of posts to show (default: 10)
+  * limit: Number of pages to show (default: 10)
 {%- endcomment -%}
 {%- assign heading = include.heading | default: include.tag | default: "Interesting posts" -%}
 {%- assign limit = include.limit | default: 10 -%}
@@ -21,10 +22,10 @@
     {%- endcomment -%}
   </section>
   <div class="row row-5">
-    {%- assign filtered_posts = site.posts | where_exp: "post", "post.tags contains include.tag" | sort: "date" | reverse -%}
-    {%- for post in filtered_posts limit: limit -%}
-      {%- if post.layout == "post" and post.url -%}
-        {%- include home-card.html post=post classes="" -%}
+    {%- assign filtered_pages = site.page | where_exp: "page", "page.tags contains include.tag" | sort: "updatedAt" | reverse -%}
+    {%- for relevant_page in filtered_pages limit: limit -%}
+      {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
+        {%- include home-card.html post=relevant_page classes="" -%}
       {%- endif -%}
     {%- endfor -%}
   </div>
