@@ -92,15 +92,15 @@
     flex: 3;  /* first child grows 3 times as much */
   }
 
-  /* .rr-home-section-left {
-    width: 80vw;
+  .rr-home-section-left {
+    /* width: 80vw; */
 
     .rr-post-playlist-row-nowrap {
       /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
       overflow: scroll !important;
       flex-wrap: nowrap !important;
     }
-  } */
+  }
 
   .rr-twitter {
     /* width:20vw; */
