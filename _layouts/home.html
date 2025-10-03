@@ -92,7 +92,8 @@
 
   <section class="rr-home-section">
     <div class="rr-home-section-left">
-      <section class="toolbar toolbar-links">
+      {%- comment -%}
+      <!-- <section class="toolbar toolbar-links">
           <h5 style="margin-left: -10px">Recently Updated Posts</h5>
           <!-- <div class="container" style="width:80%">
             <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="#tutorials">Tutorials</a></li></ul>
@@ -108,10 +109,15 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-      </div>
+      </div> -->
+      {%- endcomment -%}
+  
       {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=6 %}
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
+
+      {%- comment -%}
+      <!-- {% include homepage/post-playlist.html heading="All Posts ({{site.pages | size}})" limit=site.pages %} -->
 
 
       <!-- <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
@@ -122,7 +128,7 @@
           {% endif %}
         {% endfor %}     
       </div> -->
-      
+      {%- endcomment -%}
    
     </div>
     
