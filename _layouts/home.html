@@ -56,8 +56,13 @@
       {% include homepage/post-playlist.html tag="ps1" heading="PlayStation One Reversing" limit=4 %}
       {% include homepage/post-playlist.html tag="saturn" heading="Sega Saturn Reversing" limit=4 %}
       {% include homepage/post-playlist.html tag="gba" heading="Game Boy Advance" limit=4 %}
+      {% include homepage/post-playlist.html tag="tools" heading="Tools" limit=4 %}
+      {% include homepage/post-playlist.html tag="middleware" heading="Middleware" limit=4 %}
+      {% include homepage/post-playlist.html tag="gameengines" heading="Game Engines" limit=4 %}
+      {% comment %}
       {% include homepage/post-playlist.html tag="psp" heading="Sony PSP Reversing" limit=4 %}
       {% include homepage/post-playlist.html tag="3d" heading="3D Software" limit=4 %}
+      {% endcomment %}
   
       {% assign total_number_of_pages = site.pages | size %}
       {% capture heading_with_total_number_of_pages %}
