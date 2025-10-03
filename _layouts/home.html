@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   {% include head.html %}
-  <style>
+  <!-- <style>
     .rr-head-hero {
       width: 80%; 
       display: list-item;
@@ -53,8 +53,8 @@
       text-align: center;
       margin-top: 5px;
     }
-  </style>
-  <!-- Homepgae specific css  -->
+  </style> -->
+  <!-- Homepage specific css  -->
   <link rel="stylesheet" href="{{ '/public/css/homepage.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 </head>
 <body class="fixed-header">
@@ -117,6 +117,8 @@
       {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=6 %}
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
+      {% include homepage/post-playlist.html tag="n64" heading="For Nintendo 64 fans" limit=6 %}
+      {% include homepage/post-playlist.html heading="All Posts" limit=500 %}
 
       {%- comment -%}
       <!-- {% include homepage/post-playlist.html heading="All Posts ({{site.pages | size}})" limit=site.pages %} -->
