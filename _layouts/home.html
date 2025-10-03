@@ -103,14 +103,14 @@
         {% for post in all_pages %}
           {% if post.layout == 'post' and post.permalink %}
             {% include home-card.html post=post classes="" %}
-            {% if forloop.index == 5 %}
+            {% if forloop.index == 6 %}
               {% break %}
             {% endif %}
           {% endif %}
         {% endfor %}
       </div>
 
-      {% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}
+      {% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" limit=6 %}
 
       <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
       <div class="row row-5">
