@@ -127,7 +127,7 @@ In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Ru
 
 ---
 # Game Engines for the PS2
-Before Unity and Unreal dominated the scene it was common for developers to create their own in-house game engine, or license a third party engine such as Renderware.
+Before **Unity** and the modern **Unreal Engine** dominated the scene it was common for developers to create their own **in-house** game engine, or license a third party engine such as Renderware.
 
 ## Brainstorm by BeyondGames (in-house)
 In issue 20 of PSi2 an interview with **Clark Stacey** revealed that they have an in-house game engine called **Brainstorm** which was used for racing games such as **Motor Mayhem** and **Hot Wheels** [^3]. 
