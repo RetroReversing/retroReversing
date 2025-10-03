@@ -46,6 +46,8 @@ body {
     background-color: #292F33;
     margin-bottom: -30px;
     padding-right: 45px;
+    /* We set overflow hidden as other wise long urls on bluesky will cause the page to be scrollable to the right  */
+    overflow: hidden; 
   }
 }
 
