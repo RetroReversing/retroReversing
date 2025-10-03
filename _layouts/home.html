@@ -43,7 +43,7 @@
   <section class="rr-home-section">
     <div class="rr-home-section-left">
   
-      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=8 %}
+      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=8 hide_show_all=true %}
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=8 %}
       {% include homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" limit=8 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=8 %}
@@ -56,7 +56,7 @@
       {% capture heading_with_total_number_of_pages %}
         All Posts ({{ total_number_of_pages }})
       {% endcapture %}
-      {% include homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages %}
+      {% include homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages hide_show_all=true %}
    
     </div>
     
