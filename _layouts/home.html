@@ -109,11 +109,11 @@
           {% endif %}
         {% endfor %}
       </div>
-      {% include homepage/post-playlist.html tag="" heading="Recently Updated Posts" limit=6 %}
+      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=6 %}
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
 
-      {% include homepage/post-playlist.html tag="" heading="All Posts ({{site.pages | size}})" limit=site.pages %}
+      {% include homepage/post-playlist.html heading="All Posts ({{site.pages | size}})" limit=site.pages %}
 
 
       <!-- <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
