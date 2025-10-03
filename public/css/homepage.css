@@ -11,10 +11,14 @@
   height:350px;
 }
 
-/* is row-5 just used for the posts on homepage? If so we should rename  */
-.row-5, .rr-post-playlist-row  {
-  margin: unset;
-  padding: 20px;
+.rr-home-section {
+  display: flex;
+  padding-top: 0px;
+}
+
+.rr-post-playlist-row  {
+  /* margin: unset; */
+  /* padding: 20px; */
   justify-content: space-evenly;
 }
 
@@ -79,9 +83,9 @@
 /* Desktop Homepage media query  */
 @media (min-width: 768px) {
 
-  .rr-home-section {
+  /* .rr-home-section {
     display: flex;
-  }
+  } */
 
   .rr-home-section > * {
     /* default smallest column is any child after the first, so flex 1 */
@@ -107,7 +111,7 @@
     /* margin-top:-50px; */
     background-color: #292F33;
     margin-bottom: -30px;
-    padding-right: 45px;
+    /* padding-right: 45px; */
     /* We set overflow hidden as other wise long urls on bluesky will cause the page to be scrollable to the right  */
     overflow: hidden; 
   }
