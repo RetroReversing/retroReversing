@@ -94,46 +94,15 @@
 
   <section class="rr-home-section">
     <div class="rr-home-section-left">
-      {%- comment -%}
-      <!-- <section class="toolbar toolbar-links">
-          <h5 style="margin-left: -10px">Recently Updated Posts</h5>
-          <!-- <div class="container" style="width:80%">
-            <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="#tutorials">Tutorials</a></li></ul>
-          </div> -->
-      </section>
-      <div class="row row-5">
-        {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
-        {% for post in all_pages %}
-          {% if post.layout == 'post' and post.permalink %}
-            {% include home-card.html post=post classes="" %}
-            {% if forloop.index == 6 %}
-              {% break %}
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-      </div> -->
-      {%- endcomment -%}
   
       {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=6 %}
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
       {% include homepage/post-playlist.html tag="n64" heading="For Nintendo 64 fans" limit=6 %}
+      {% include homepage/post-playlist.html tag="nes" heading="Original NES & Famicom Reversing" limit=6 %}
+  
       {% assign total_number_of_pages = site.pages | size %}
-      {% include homepage/post-playlist.html heading="All Posts" limit=total_number_of_pages %}
-
-      {%- comment -%}
-      <!-- {% include homepage/post-playlist.html heading="All Posts ({{site.pages | size}})" limit=site.pages %} -->
-
-
-      <!-- <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
-      <div class="row row-5">
-        {% for post in all_pages %}
-          {% if post.layout == 'post' && post.permalink %}
-                {% include home-card.html post=post classes="" %}
-          {% endif %}
-        {% endfor %}     
-      </div> -->
-      {%- endcomment -%}
+      {% include homepage/post-playlist.html heading="All Posts ({{ total_number_of_pages }})" limit=total_number_of_pages %}
    
     </div>
     
