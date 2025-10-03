@@ -1,3 +1,18 @@
+---
+layout: post
+hidden: true
+title: Post
+permalink: /contributing
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Contributing to RetroReversing
+    url: /contributing
+recommend: 
+  - introduction
+editlink: /CONTRIBUTING.md
+---
+
 # Contributing to RetroReversing
 
 Thank you for your interest in contributing to RetroReversing! This guide explains two important features—**Lazy Loading** and **Lightbox**—so you can use them correctly and know where to look if there are issues.
