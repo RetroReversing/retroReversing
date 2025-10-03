@@ -77,13 +77,8 @@ They interview people in the programming (David Kivlin), music (Craig Conner), s
 
 
 ---
-# Game Industry Materials
+# Game Industry Research Materials
 When researching a video game, for reverse engineering or otherwise it can be tricky to find all the relevant sources due to most development being done behind closed doors in a time before the internet was the force it is today. So it is important to keep track of the physical media such as magazines, books and conference proceedings as they contain many information that has never been released to the internet.
-
----
-## Commercial Documentaries on game development
-So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out **IMDB**'s list:
-[Video game documentaries](https://www.imdb.com/list/ls079153183/)
 
 ## Magazines
 Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
@@ -117,33 +112,42 @@ Museums about video games and game development are rare but they are becoming mo
 {% include link-to-other-post.html post="/museums" description="For more information on all the Game related Museums check out this post." %}
 
 ---
-# Companies
+## Commercial Documentaries on game development
+So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out **IMDB**'s list:
+[Video game documentaries](https://www.imdb.com/list/ls079153183/)
 
-## Game Development Tool Companies
-There are a bunch of notable companies related to retro game development, many of which specificaled in creating the Software Development Kits for popular consoles such as the Mega Drive (Cross Products) or Playstation 1 (SN Systems).
+---
+# Companies
+The games industry is made up of many companies, some as small as a single person and others so large they generate billions in revenue annually. 
+There are so many that have come and gone over the years that we can’t write about them all. Instead we focus on companies that pushed the boundaries in terms of the underlying technology, companies that most gamers may never have heard of but that made considerable technical achievements. 
+Companies that defined iconic game engines such as **Krome's Merkury**, others such as **SN Systems** or **Cross Products** that created the game development tools that were used by most of the industry. 
+
+Others who used their genius a little more on the unauthorized size by creating products that could allow unauthorized code to run on the hardware such as **Datel's Action Replay** line of cheat devices.
+
+## Game Development Tooling Companies
+There are a bunch of notable companies related to retro game development, many of which specificaled in creating the Software Development Kits for popular consoles such as the **Mega Drive** (Cross Products) or Playstation 1 (SN Systems).
 
 ### Cross Products
 Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and Vektor Grafix. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
 
 {% include link-to-other-post.html post="/companies/crossproducts/" description="For more information about Cross Products check out this post." %}
 
-
 ### SN Systems
 SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for sega and nintendo consoles but is most famous for their Sony Playstation development tools like PSYQ.
 
-{% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems check out this post." %}
+{% include link-to-other-post.html post="/companies/snsystems/" %}
 
 ---
 ## Game Hacking Companies
-There are a bunch of notable companies related to game hacking which not only worked on Cheat devices like the Game genie or Action Replay but also unlicenced products that allowed homebrew games consoles much to the annoyance of the console manufacturer.
+There are a bunch of notable companies related to game hacking which not only worked on Cheat devices like the **Game genie** or **Action Replay** but also unlicenced products that allowed homebrew games consoles much to the annoyance of the console manufacturer.
 
-## Datel
+### Datel
 **Datel** is most famous for their **Action Replay** line of products but also created homebrew enablers for the Gamecube and Nintendo DS along with tons of unlicensed games and applications for a wide range of home consoles and handhelds.
 
 {% include link-to-other-post.html post="/companies/datel/" description="For more information about Datel check out this post." %}
 
 
-## Codemasters
+### Codemasters
 
 {% include link-to-other-post.html post="/companies/codemasters" description="For more information about Codemasters check out this post." %}
 
