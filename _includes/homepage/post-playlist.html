@@ -1,16 +1,31 @@
 {%- comment -%}
-  Usage: 
-  {% raw %}{% include homepage/post-playlist.html %}{% endraw %}
-  
+  Usage:
+  {% raw %}{% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}{% endraw %}
+
+  Required Parameters:
+  * tag: Filter posts by this tag
+  * heading: Heading to display above the playlist
   Optional parameters:
-  - tag: Filter posts by this tag
-  - limit: Number of posts to show (default: 10)
+  * limit: Number of posts to show (default: 10)
 {%- endcomment -%}
-<div class="row row-5">
-  {% assign filtered_posts = all_pages | where_exp: "post", "post.tags contains include.tag" | sort: "updatedAt" | reverse %}
-  {% for post in filtered_posts limit:include.limit %}
-    {% if post.layout == "post" and post.permalink %}
-      {% include ../home-card.html post=post classes="" %}
-    {% endif %}
-  {% endfor %}
-</div>
+{%- assign heading = include.heading | default: include.tag | default: "Interesting posts" -%}
+{%- assign limit = include.limit | default: 10 -%}
+<section class="rr-post-playlist">
+  <section class="toolbar toolbar-links">
+    <h5 style="margin-left: -10px">{{ heading }}</h5>
+    {%- comment -%}
+      In future we can have links in here like so:
+      <!-- <div class="container" style="width:80%">
+        <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="#tutorials">Tutorials</a></li></ul>
+      </div> -->
+    {%- endcomment -%}
+  </section>
+  <div class="row row-5">
+    {%- assign filtered_posts = site.posts | where_exp: "post", "post.tags contains include.tag" | sort: "date" | reverse -%}
+    {%- for post in filtered_posts limit: limit -%}
+      {%- if post.layout == "post" and post.url -%}
+        {%- include home-card.html post=post classes="" -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
