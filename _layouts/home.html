@@ -89,19 +89,15 @@
     </div>
   </div>
 
-  <section class="toolbar toolbar-links">
-    <div class="container" style="width:80%">
-      <h5 style="margin-left: -10px">Latest Posts ({{site.pages | size}})</h5>
-      
-      <!--<ul class="toolbar-nav hidden-md-down m-r-25">
-        <li><a href="#tutorials">Tutorials</a></li>
-        <li class="active"><a href="#games">Games</a></li>
-      </ul>-->
-    </div>
-  </section>
 
   <section class="rr-home-section">
     <div class="container">
+      <section class="toolbar toolbar-links">
+          <h5 style="margin-left: -10px">Recently Updated Posts</h5>
+          <!-- <div class="container" style="width:80%">
+            <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="#tutorials">Tutorials</a></li></ul>
+          </div> -->
+      </section>
       <div class="row row-5">
         {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
         {% for post in all_pages %}
@@ -124,7 +120,7 @@
         {% endfor %}
       </div>
 
-      <h5 style="margin-left: -10px">All Posts</h5>
+      <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
       <div class="row row-5">
         {% for post in all_pages %}
           {% if post.layout == 'post' && post.permalink %}
