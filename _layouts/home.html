@@ -2,58 +2,6 @@
 <html lang="en">
 <head>
   {% include head.html %}
-  <!-- <style>
-    .rr-head-hero {
-      width: 80%; 
-      display: list-item;
-    }
-    @media screen and (max-width: 600px) {
-      .rr-head-consoles {
-        display: none;
-      }
-      .rr-head-hero {
-        width: 100%; 
-        display: list-item;
-      }
-    }
-    
-    .console-img {
-      width: 45px;
-      margin-left: 10px;
-    }
-    .head-console-list {
-      padding: 5px;
-      overflow: scroll;
-      height: 350px;
-    }
-    .head-console-item {
-      display: flex;
-      padding: 10px;
-      color: white;
-      font-weight: bold;
-      justify-content: space-between;
-    }
-    .head-console-item:hover {
-      background-color: rgba(255,255,255,0.1)
-    }
-    .head-console-item strong {
-        color:white;
-      padding: 10px
-    }
-    
-    .console-post-numbers {
-      border-radius: 15px;
-/*       background-color: #ffffffcc; */
-      padding: 5px;
-      margin-left: 20px;
-      font-size: small;
-/*       color: black; */
-      height: 30px;
-      min-width: 30px;
-      text-align: center;
-      margin-top: 5px;
-    }
-  </style> -->
   <!-- Homepage specific css  -->
   <link rel="stylesheet" href="{{ '/public/css/homepage.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 </head>
@@ -104,7 +52,9 @@
       {% include homepage/post-playlist.html tag="saturn" heading="Sega Saturn Posts" limit=8 %}
   
       {% assign total_number_of_pages = site.pages | size %}
-      {% assign heading_with_total_number_of_pages = "All Posts ({{ total_number_of_pages }})" %}
+      {% capture heading_with_total_number_of_pages %}
+        All Posts ({{ total_number_of_pages }})
+      {% endcapture %}
       {% include homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages %}
    
     </div>
