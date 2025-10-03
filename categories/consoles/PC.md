@@ -130,8 +130,13 @@ The Windows platform offers backward compatibility for DOS games, allowing enthu
 We have seperated out the information on Windows executable (exe) file formats into its own post:
 {% include link-to-other-post.html post="/WindowsExecutables" description="For more information on Windows Executables check out this post." %}
 
+## Finding other games using a similar dll
+Sometimes games have their engine code in a seperate dll file, in such cases it can be useful to find other games that use the same dll file as they might have additional debug information, one good way to find other games using: [Diskmaster search](https://discmaster.textfiles.com/search?q=bg.dll&extension=.dll&family=executable&sizeMin=1024&dedup=dedup&sortBy=ts&limit=10&showItemName=showItemName)
+
+It is a tool that mirrors various CD-ROM images uploaded by archive.org by users, allowing you to search by filenames and by contents inside disc images, unlike the default archive.org search!
+
 ---
-## Game Engines
+## Windows Game Engines
 The best way to see the wide range of game engines available for PC is to check out the SteamDB section which catalogs all the games by the game engines/libraries used to create them:
 [Technologies - SteamDB](https://steamdb.info/tech/)
 
