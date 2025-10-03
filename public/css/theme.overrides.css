@@ -42,7 +42,7 @@ body {
 
   .rr-twitter {
     width:20vw;
-    margin-top:-100px;
+    /* margin-top:-100px; */
     background-color: #292F33;
     margin-bottom: -30px;
     padding-right: 45px;
