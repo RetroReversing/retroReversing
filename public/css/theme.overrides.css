@@ -35,6 +35,7 @@ body {
 	max-height: 65vh;
 }
 
+/* Desktop Homepage media query  */
 @media (min-width: 576px) {
 
   .rr-home-section {
@@ -43,6 +44,11 @@ body {
 
   .rr-home-section-left {
     width: 80vw;
+
+    .rr-post-playlist-posts {
+      overflow: scroll;
+      flex-wrap: nowrap;
+    }
   }
 
   .rr-twitter {
@@ -54,7 +60,8 @@ body {
     /* We set overflow hidden as other wise long urls on bluesky will cause the page to be scrollable to the right  */
     overflow: hidden; 
   }
-}
+} 
+/* End of Desktop Homepage Media Query  */
 
 .rr-head-hero-container {
   display:flex; 
