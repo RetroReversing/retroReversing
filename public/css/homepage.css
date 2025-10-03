@@ -12,9 +12,9 @@
 }
 
 /* is row-5 just used for the posts on homepage? If so we should rename  */
-.row-5 {
+.row-5, .rr-post-playlist-row  {
   margin: unset;
-  padding: 30px;
+  padding: 20px;
   justify-content: space-evenly;
 }
 
@@ -86,9 +86,10 @@
   .rr-home-section-left {
     width: 80vw;
 
-    .rr-post-playlist-posts {
-      overflow: scroll;
-      flex-wrap: nowrap;
+    .rr-post-playlist-row-nowrap {
+      /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
+      overflow: scroll !important;
+      flex-wrap: nowrap !important;
     }
   }
 
