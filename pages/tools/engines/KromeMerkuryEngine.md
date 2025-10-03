@@ -216,10 +216,11 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 
 ---
 # Blast Graphics - The Original Merkury engine
-Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **Blast graphics**. Later on Krome would come to refer to these games as based on the Merkury engine.
+![BlastGraphics 3D engine in the about section of Gruesome Castle](https://github.com/user-attachments/assets/a59c1f52-09d6-4296-bf4e-352779dd8f6c)
+Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **Blast graphics**. Later on Krome would come to retroactivley refer to these games as based on the Merkury engine.
 
-The following games have references to Blast graphics in their executables or contain the windows dynamic library **bg.dll**:
-* **Gruesome Castle Demo** - bg.dll dated 12th January 1998 (361 functions)
+The following games have references to **Blast graphics** in their executables or contain the windows dynamic library **bg.dll**:
+* **Gruesome Castle Demo** - [bg.dll](https://discmaster.textfiles.com/view/17105/TEKNO%202-1998.iso/games/gcdemo.zip/GC_Demo/bg.dll) dated 12th January 1998 (96 KB, 361 functions) 
 * **Halloween Spirit Board** - bg.dll dated 12th September 1999 (1018 functions)
 * **The Chronicles of Jaruu Tenk** - bg.dll dated 8th Oct 1999 (1020 functions)
 * **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (1019 functions)
