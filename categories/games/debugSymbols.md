@@ -30,7 +30,7 @@ Finding Debug Symbols when reverse engineering a game is the equivalent of buyin
 
 ## Where do debug symbols come from?
 Debug symbols are an **artifact of compiling** a game from a higher level language (e.g. C/C++) down to a lower level language such as Assembly code. 
-They are similar to source maps in modern web development when using a langiage like typescript that compiles down to javascript, but instead of typescript think C or C++ and instead of javascript think raw machine code or assembly.
+They are similar to source maps in modern web development when using a language like typescript that compiles down to javascript, but instead of typescript think C or C++ and instead of javascript think raw machine code or assembly.
 
 ## What are debug symbols used for?
 They are used by developers to allow them to attach a debugger to the game and debug the code line-by-line with all the function and variable names intact. So you can think of debug symbols as meta data that maps the high level language to each assembly instruction so that developers can add breakpoints in their high level language and the system will know what to do. 
@@ -49,7 +49,7 @@ Also some platforms that used compiled code but were to be released on a small s
 # Games by Platform with debug symbols 
 
 ## Sony Consoles
-Sony consoles have the higest likelyhood of shipping with debug symbols, specifically due to the rather relaxed checking of Playstation 2 binaries based on version 2 of the official SDK, but there are also games for PS1 and PSP that have been released with debug symbols in tact.
+Sony consoles have the highest likelihood of shipping with debug symbols, specifically due to the rather relaxed checking of Playstation 2 binaries based on version 2 of the official SDK, but there are also games for PS1 and PSP that have been released with debug symbols in tact.
 
 ### Sony Playstation 1 
 We have a post specifically listing all the debug symbols for the PS1 here:
@@ -67,7 +67,7 @@ Plenty of retail games also has their debug symbols:
 
 ---
 ## Nintendo consoles
-Finding debug symbols on Nintendo consoles was like finding a needle in a haystack, one that did not even have a needle, ocassionaly you would find some of the developers memory left over in a SNES game, but that all changes with the Gamecube and its large storage space on the disc. Now it became common for developers to loose a tiny few MB file on a large 1GB disc, this trend continued into both the Wii and Wii U era too, with debug symbols even being found in modern switch games!
+Finding debug symbols on Nintendo consoles was like finding a needle in a haystack, one that did not even have a needle, occasionally you would find some of the developers memory left over in a SNES game, but that all changes with the Gamecube and its large storage space on the disc. Now it became common for developers to loose a tiny few MB file on a large 1GB disc, this trend continued into both the Wii and Wii U era too, with debug symbols even being found in modern switch games!
 
 ### Nintendo 64
 You will not find any debug symbols left in retail Nintendo 64 games due to limitations of cart size, developers has to squeeze out every last byte to avoid the more expensive cartridges so debug symbols were the first to go. 
