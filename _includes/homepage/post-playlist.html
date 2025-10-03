@@ -29,8 +29,11 @@ Usage:
 {%- endif -%}
 {%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
 <div class="rr-post-playlist">
-  <section class="toolbar toolbar-links">
+  <div class="toolbar toolbar-links">
     <h5>{{ heading }}</h5>
+    <div class="container" style="width:80%">
+        <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="/{{ include.tag }}">Show All</a></li></ul>
+    </div>
      {%- comment -%}
       Reminder: in future we can have links in here like so:
       <!-- <div class="container" style="width:80%">
