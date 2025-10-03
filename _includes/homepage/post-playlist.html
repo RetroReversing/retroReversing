@@ -39,7 +39,7 @@ Usage:
         <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="/{{ include.tag }}">Show All {{ filtered_pages | size }} Posts</a></li></ul>
     {%- endif -%}
   </div>
-  <div class="{{ playlist_classes }} row rr-post-playlist-row">
+  <div class="row rr-post-playlist-row {{ include.classes }}">
     {%- for relevant_page in filtered_pages limit: limit -%}
       {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
         {%- include home-card.html post=relevant_page classes="" -%}
