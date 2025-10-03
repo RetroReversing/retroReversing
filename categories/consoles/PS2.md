@@ -95,20 +95,32 @@ This was a newer format introduced by Sony which can be used to provide patches 
 ### IOP Relocatable Executable Executable (.IRX) Files
 {% include link-to-other-post.html post="/irx-ps2" description="For a list of all the dynamic libraries inside the PS2 SDK and from third parties check out this post." %}
 
-## Consumer Development Kit
-Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of Linux. The software ran on consumer PS2 models and came with a PS2 hard-drive.
+---
+## Consumer Development Kits
+
+### Playstation 2 Linux
+Similar to how the PS1 had Net Yaroze for consumers to develop small games for the Playstation, the PS2 had special software that ran a build of **Linux**. The software ran on consumer PS2 models and came with a PS2 hard-drive.
+
+---
+## Homebrew PS2 Software Development Kits
+
+### Athena - Javascript on the PS2
+Athena is an environment that acts as a native PS2 program (written in C) which embeds a modified version of the QuickJS engine to interpret and run JavaScript code on the console.
+
+**JSLegendDev** has a good video covering the basic of the engine, showing how to show a 2D Sonic sprite, move it around with the controller and text rendering:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QN8JmOpc9cE?si=vHUEM1QxeQnkH0LH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Creative Software used to create PS2 Games
 
 ### 3D Studio Max
-3D Studio Max and Character Studio was used by Runecraft software to develop games such as Premier manager on the PS2[^3].
+3D Studio Max and Character Studio was used by **Runecraft software** to develop games such as Premier manager on the PS2[^3].
 
 We have a separate post on 3D Studio Max which you can find below: {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio Max check out this post." %}
 
-### Photoshop for texturing
-3D Studio Max was used by Runecraft software to develop games such as Premier manager on the PS2.
-In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Runecraft where he talks about using photoshop for Premier manager on the PS2 along with a low-resolution screenshot you can see below [^3]:
+### Photoshop - industry standard for PS2 Texturing
+Photoshop was used by Runecraft software to develop games such as Premier manager on the PS2.
+In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Runecraft where he talks about using **Photoshop** for Premier manager on the PS2 along with a low-resolution screenshot you can see below [^3]:
 
 ![Photoshop being used to create a PS2 game - PSi2 issue 20](https://github.com/RetroReversing/retroReversing/assets/40120498/eba8399a-56e7-4abd-90fe-5b9cf4d0eab9)
 
@@ -118,7 +130,27 @@ In issue 20 of PSi2 magazine there is an interview with **Mark Edwards** from Ru
 Before Unity and Unreal dominated the scene it was common for developers to create their own in-house game engine, or license a third party engine such as Renderware.
 
 ## Brainstorm by BeyondGames (in-house)
-In issue 20 of PSi2 an interview with Clark Stacey revealed that they have an in-house game engine called "Brainstorm" which was used for racing games such as Motor Mayhem and Hot Wheels [^3]. It also mentioned that it in theory has support for other genres of games such as platformers and that it has built in networking support.
+In issue 20 of PSi2 an interview with **Clark Stacey** revealed that they have an in-house game engine called **Brainstorm** which was used for racing games such as **Motor Mayhem** and **Hot Wheels** [^3]. 
+It also mentioned that it in theory has support for other genres of games such as platformers and that it has built in networking support.
+
+---
+## Merkury engine by Krome Studios (in-house)
+Krome Studios used the **Merkury Engine** for many of its own titles, particularly on the PS2 and other last-generation systems:
+* **Ty the Tasmanian Tiger** (2002) - The first in the franchise and a flagship Merkury title.
+* **Sunny Garcia Surfing** (2001) - Credited engine programmers in the manual.
+* **The Adventures of Jimmy Neutron: Jet Fusion** (2003) - Confirmed via file analysis.
+* **King Arthur** (2004)
+* **Ty the Tasmanian Tiger 2: Bush Rescue** (2004)
+* **Ty the Tasmanian Tiger 3: Night of the Quinkan** (2005)
+* **The Legend of Spyro: A New Beginning** (2006) - Developed by Krome for the PS2, Xbox, GameCube, and GBA.
+* **The Legend of Spyro: The Eternal Night** (2007) - Developed by Krome for the PS2 and Wii.
+* **Star Wars: The Force Unleashed** (2008) - The PS2, PSP, and Wii versions were custom-built by Krome using Merkury.
+* **Star Wars: The Clone Wars – Republic Heroes** (2009) - Included a PS2 version.
+* **Transformers: Revenge of the Fallen** (2009) - The PS2 and Wii versions were developed by Krome Studios.
+
+If you are interested in learning more we have a specific post about the Merkury engine:
+{% include link-to-other-post.html post="/krome-merkury-engine" %}
+
 
 ---
 # All Posts
