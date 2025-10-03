@@ -68,12 +68,10 @@ blockquote {
 }
 
 /*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
-.post-header-icon img {
+.post-header-icon {
   min-height: 50px !important;
   max-height: 75px !important;
 }
-
-max-height: 64px;
 
 /* Set width static to avoid page layout shifting */
 .widget-img img {
@@ -453,14 +451,14 @@ rr-sandpack {
   background: #f6f6f6;
 /* 	background: #6edeef; */
 	-webkit-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	   -moz-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	        box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	        	border: 0px solid #000000;
+	-moz-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	border: 0px solid #000000;
 	-webkit-transition: padding 0.2s ease, margin 0.2s ease;
-       -moz-transition: padding 0.2s ease, margin 0.2s ease;
-         -o-transition: padding 0.2s ease, margin 0.2s ease;
-        -ms-transition: padding 0.2s ease, margin 0.2s ease;
-            transition: padding 0.2s ease, margin 0.2s ease;
+  -moz-transition: padding 0.2s ease, margin 0.2s ease;
+  -o-transition: padding 0.2s ease, margin 0.2s ease;
+  -ms-transition: padding 0.2s ease, margin 0.2s ease;
+  transition: padding 0.2s ease, margin 0.2s ease;
 }
 
 .rr-tabs .tabs li:first-child a {
