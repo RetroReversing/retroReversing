@@ -59,7 +59,6 @@ The most valuable reverse engineering projects tend to be the **platform exclusi
 
 Wikipedia maintains a list of Gamecube exclusives - [GameCube-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:GameCube-only_games)
 
-
 ## Prototype Games
 Prototype games are ideal targets for reverse engineering as many of them contain developer information inside them and some games never got a retail release, making them even more interesting!
 
@@ -85,9 +84,28 @@ This drew the attention of Icer who decided to release the full source code for 
 [iaddis/SNESticle: SNESticle source code (circa ~2004)](https://github.com/iaddis/SNESticle)
 
 ---
+# Game Engines for the Nintendo GameCube
+Before **Unity** and the modern **Unreal Engine** dominated the scene it was common for developers to create their own **in-house** game engine, or license a third party engine.
+
+## Merkury engine by Krome Studios (in-house)
+Krome Studios used the **Merkury Engine** for many of its own titles, particularly on the GameCube and other last-generation systems. A programmer for **Krome Studios**, Tony Ball managed to get the engine running on the GameCube hardware only took a couple of weeks, with development running simultaneously with the PlayStation 2 version.
+
+Here are the games that used the Merkury Engine for the GameCube:
+* **Ty the Tasmanian Tiger** (2002) - The first in the franchise and a flagship Merkury title.
+* **The Adventures of Jimmy Neutron: Jet Fusion** (2003) - Also released on PS2.
+* **Ty the Tasmanian Tiger 2: Bush Rescue** (2004)
+* **King Arthur** (2004)
+* **Ty the Tasmanian Tiger 3: Night of the Quinkan** (2005)
+* **The Legend of Spyro: A New Beginning** (2006) - Developed by Krome for the GameCube, PS2, Xbox, and GBA.
+
+If you are interested in learning more we have a specific post about the **Merkury** engine:
+{% include link-to-other-post.html post="/krome-merkury-engine" %}
+
+---
 # Reverse Engineering
 
-## File Formats
+## GameCube specific File Formats
+We have a specific post that covers all the file formats that can be found in gamecube games (or file formats used to store gamecube games) here:
 {% include link-to-other-post.html post="/gamecube-file-formats" description="Check out this post for a list of Gamecube file formats." %}
 
 
