@@ -34,10 +34,15 @@ body {
 .owl-carousel .owl-stage-outer {
 	max-height: 65vh;
 }
+
 @media (min-width: 576px) {
 
   .rr-home-section {
     display: flex;
+  }
+
+  .rr-home-section-left {
+    width: 80vw;
   }
 
   .rr-twitter {
@@ -59,9 +64,8 @@ body {
 
 /* End of Homepage css */
 
-/*  */
-/* Start of CSS related to POSTS  */
-/*  */
+/* ------------------------------- */
+/* Start of CSS related to posts  */
 .container.post-container {
   max-width: 100vw !important;
   width: 95vw;
