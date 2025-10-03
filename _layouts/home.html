@@ -118,7 +118,8 @@
       {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
       {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
       {% include homepage/post-playlist.html tag="n64" heading="For Nintendo 64 fans" limit=6 %}
-      {% include homepage/post-playlist.html heading="All Posts" limit=500 %}
+      {% assign total_number_of_pages = site.pages | size %}
+      {% include homepage/post-playlist.html heading="All Posts" limit=total_number_of_pages %}
 
       {%- comment -%}
       <!-- {% include homepage/post-playlist.html heading="All Posts ({{site.pages | size}})" limit=site.pages %} -->
