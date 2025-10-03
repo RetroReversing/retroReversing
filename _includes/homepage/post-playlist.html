@@ -1,15 +1,16 @@
 {%- comment -%}
   Show a playlist of pages (site.pages) with a heading, only show pages with a valid parmalink and layout "post".
-  Note: deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
   
 Usage:
   {% raw %}{% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}{% endraw %}
 
   Required Parameters:
-  * tag: Filter pages by this tag
-  * heading: Heading to display above the playlist
+   * heading: Heading to display above the playlist
   Optional parameters:
-  * limit: Number of pages to show (default: 10)
+   * tag: Filter pages by this tag (default is no filter)
+   * limit: Number of pages to show (default: 10)
+  Notes:
+   * deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
 {%- endcomment -%}
 {%- assign limit = include.limit | default: 10 -%}
 
@@ -21,9 +22,9 @@ Usage:
   {%- assign heading = "Interesting posts" -%}
 {%- endif -%}
 
-<section class="rr-post-playlist">
+<div class="rr-post-playlist">
   <section class="toolbar toolbar-links">
-    <h5 style="margin-left: -10px">{{ heading }}</h5>
+    <h5>{{ heading }}</h5>
      {%- comment -%}
       Reminder: in future we can have links in here like so:
       <!-- <div class="container" style="width:80%">
@@ -44,4 +45,4 @@ Usage:
       {%- endif -%}
     {%- endfor -%}
   </div>
-</section>
+</div>
