@@ -9,6 +9,7 @@ Usage:
   Optional parameters:
    * tag: Filter pages by this tag (default is no filter)
    * limit: Number of pages to show (default: 10)
+   * hide_show_all: Whether to hide the default show all button
   Notes:
    * deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
 {%- endcomment -%}
@@ -30,10 +31,12 @@ Usage:
 {%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
 <div class="rr-post-playlist">
   <div class="toolbar toolbar-links">
-    <h5>{{ heading }}</h5>
-    <div class="container" style="width:80%">
+    <h5>{{ heading }} ({{ filtered_pages | size }})</h5>
+    <!-- <div class="container" style="width:80%"> -->
+    {%- if include.hide_show_all != true -%}
         <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="/{{ include.tag }}">Show All</a></li></ul>
-    </div>
+    {%- endif -%}
+    <!-- </div> -->
   </div>
   <div class="{{ playlist_classes }} row rr-post-playlist-row">
     {%- for relevant_page in filtered_pages limit: limit -%}
