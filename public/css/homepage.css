@@ -81,11 +81,13 @@
 /* End of Homepage Console selector section */
 
 /* Toolbar overrides for Post playlist  */
-.rr-post-playlist.toolbar {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
-  padding-top: 0px;
-  padding-bottom: 0px
+.rr-post-playlist { 
+  .toolbar {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0px;
+    padding-bottom: 0px
+  } 
 }
 
 /* Desktop Homepage media query  */
