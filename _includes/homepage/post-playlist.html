@@ -9,17 +9,10 @@ Usage:
   Optional parameters:
    * tag: Filter pages by this tag (default is no filter)
    * limit: Number of pages to show (default: 10)
-   * multiline: Whether to wrap the cards to multiple lines or to scroll 
   Notes:
    * deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
 {%- endcomment -%}
 {%- assign limit = include.limit | default: 10 -%}
-
-{% if include.multiline == true %}
-  {% assign playlist_classes = "rr-post-playlist-posts rr-post-playlist-multiline" %}
-{% else %}
-  {% assign playlist_classes = "" %}
-{% endif %}
 
 {%- if include.heading and include.heading != "" -%}
   {%- assign heading = include.heading -%}
@@ -29,6 +22,12 @@ Usage:
   {%- assign heading = "Interesting posts" -%}
 {%- endif -%}
 
+{%- if include.tag and include.tag != "" -%}
+  {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
+{%- else -%}
+  {%- assign filtered_pages = site.pages -%}
+{%- endif -%}
+{%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
 <div class="rr-post-playlist">
   <section class="toolbar toolbar-links">
     <h5>{{ heading }}</h5>
@@ -39,13 +38,7 @@ Usage:
       </div> -->
     {%- endcomment -%}
   </section>
-  <div class="{{ playlist_classes }} row row-5">
-    {%- if include.tag and include.tag != "" -%}
-      {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
-    {%- else -%}
-      {%- assign filtered_pages = site.pages -%}
-    {%- endif -%}
-    {%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
+  <div class="{{ playlist_classes }} row rr-post-playlist-row">
     {%- for relevant_page in filtered_pages limit: limit -%}
       {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
         {%- include home-card.html post=relevant_page classes="" -%}
