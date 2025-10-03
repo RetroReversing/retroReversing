@@ -1,6 +1,14 @@
+{%- comment -%}
+  Usage: 
+  {% raw %}{% include homepage/post-playlist.html %}{% endraw %}
+  
+  Optional parameters:
+  - tag: Filter posts by this tag
+  - limit: Number of posts to show (default: 10)
+{%- endcomment -%}
 <div class="row row-5">
-  {% assign filtered_posts = all_pages | where_exp: "post", "post.tags contains 'introduction'" | sort: "updatedAt" | reverse %}
-  {% for post in filtered_posts limit:10 %}
+  {% assign filtered_posts = all_pages | where_exp: "post", "post.tags contains include.tag" | sort: "updatedAt" | reverse %}
+  {% for post in filtered_posts limit:include.limit %}
     {% if post.layout == "post" and post.permalink %}
       {% include ../home-card.html post=post classes="" %}
     {% endif %}
