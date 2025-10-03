@@ -110,8 +110,7 @@
         {% endfor %}
       </div>
 
-      <h5 style="margin-left: -10px">Introductory Posts</h5>
-      {% include homepage/post-playlist.html tag="introduction" limit=6 %}
+      {% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}
 
       <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
       <div class="row row-5">
