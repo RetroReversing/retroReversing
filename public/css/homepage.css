@@ -46,4 +46,60 @@
 } 
 /* End of Desktop Homepage Media Query  */
 
-/* End of Homepage css */
+/* Start of the Homepage Hero selectors  */
+    .rr-head-hero {
+      width: 80%; 
+      display: list-item;
+    }
+
+    @media screen and (max-width: 600px) {
+      .rr-head-consoles {
+        /* Hide console selectors on Mobile  */
+        display: none;
+      }
+      .rr-head-hero {
+        /* On mobile the head hero should be full size  */
+        width: 100%; 
+        display: list-item;
+      }
+    }
+
+/* Start of console selection in hero  */
+    .console-img {
+      width: 45px;
+      margin-left: 10px;
+    }
+
+    .head-console-list {
+      padding: 5px;
+      overflow: scroll;
+      height: 350px;
+    }
+    .head-console-item {
+      display: flex;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      justify-content: space-between;
+    }
+    .head-console-item:hover {
+      background-color: rgba(255,255,255,0.1)
+    }
+
+    .head-console-item strong {
+        color:white;
+      padding: 10px
+    }
+    
+    .console-post-numbers {
+      border-radius: 15px;
+      padding: 5px;
+      margin-left: 20px;
+      font-size: small;
+      height: 30px;
+      min-width: 30px;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+/* End of Homepage Console selector section */
