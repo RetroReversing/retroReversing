@@ -91,7 +91,7 @@
 
 
   <section class="rr-home-section">
-    <div class="container">
+    <div class="rr-home-section-left">
       <section class="toolbar toolbar-links">
           <h5 style="margin-left: -10px">Recently Updated Posts</h5>
           <!-- <div class="container" style="width:80%">
@@ -109,17 +109,21 @@
           {% endif %}
         {% endfor %}
       </div>
+      {% include homepage/post-playlist.html tag="" heading="Recently Updated Posts" limit=6 %}
+      {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
+      {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
 
-      {% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" limit=6 %}
+      {% include homepage/post-playlist.html tag="" heading="All Posts ({{site.pages | size}})" limit=site.pages %}
 
-      <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
+
+      <!-- <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
       <div class="row row-5">
         {% for post in all_pages %}
           {% if post.layout == 'post' && post.permalink %}
                 {% include home-card.html post=post classes="" %}
           {% endif %}
         {% endfor %}     
-      </div>
+      </div> -->
       
    
     </div>
