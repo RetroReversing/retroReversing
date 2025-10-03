@@ -2,3 +2,7 @@
 .clear-left {
   clear: left;
 }
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
