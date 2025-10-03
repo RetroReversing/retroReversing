@@ -1,6 +1,8 @@
 {%- comment -%}
-  Show a playlist of pages (site.pages) with a heading, only show pages with a valid permalink and layout called "post"
-  Usage:
+  Show a playlist of pages (site.pages) with a heading, only show pages with a valid parmalink and layout "post".
+  Note: deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
+  
+Usage:
   {% raw %}{% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}{% endraw %}
 
   Required Parameters:
@@ -9,20 +11,33 @@
   Optional parameters:
   * limit: Number of pages to show (default: 10)
 {%- endcomment -%}
-{%- assign heading = include.heading | default: include.tag | default: "Interesting posts" -%}
 {%- assign limit = include.limit | default: 10 -%}
+
+{%- if include.heading and include.heading != "" -%}
+  {%- assign heading = include.heading -%}
+{%- elsif include.tag and include.tag != "" -%}
+  {%- capture heading -%}Posts tagged with {{ include.tag }}{%- endcapture -%}
+{%- else -%}
+  {%- assign heading = "Interesting posts" -%}
+{%- endif -%}
+
 <section class="rr-post-playlist">
   <section class="toolbar toolbar-links">
     <h5 style="margin-left: -10px">{{ heading }}</h5>
-    {%- comment -%}
-      In future we can have links in here like so:
+     {%- comment -%}
+      Reminder: in future we can have links in here like so:
       <!-- <div class="container" style="width:80%">
         <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="#tutorials">Tutorials</a></li></ul>
       </div> -->
     {%- endcomment -%}
   </section>
   <div class="row row-5">
-    {%- assign filtered_pages = site.page | where_exp: "page", "page.tags contains include.tag" | sort: "updatedAt" | reverse -%}
+    {%- if include.tag and include.tag != "" -%}
+      {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
+    {%- else -%}
+      {%- assign filtered_pages = site.pages -%}
+    {%- endif -%}
+    {%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
     {%- for relevant_page in filtered_pages limit: limit -%}
       {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
         {%- include home-card.html post=relevant_page classes="" -%}
