@@ -11,6 +11,8 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: Games Industry Research Material
+    url: /#
 editlink: ../categories/misc/Industry.md
 recommend:
  - industry
