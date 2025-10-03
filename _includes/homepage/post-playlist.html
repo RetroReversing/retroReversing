@@ -32,7 +32,7 @@ Usage:
       </div> -->
     {%- endcomment -%}
   </section>
-  <div class="row row-5" style="overflow:scroll; flex-wrap: nowrap;">
+  <div class="rr-post-playlist-posts row row-5">
     {%- if include.tag and include.tag != "" -%}
       {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
     {%- else -%}
