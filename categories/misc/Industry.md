@@ -8,6 +8,8 @@ twitterimage: https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e
 redirect_from:
  - /documentary
  - /documentaries
+ - /sega
+ - /companies
 breadcrumbs:
   - name: Home
     url: /
@@ -16,11 +18,13 @@ breadcrumbs:
 editlink: ../categories/misc/Industry.md
 recommend:
  - industry
+ - companies
  - introduction
  - sdks
 updatedAt: '2025-05-19'
 tags:
   - industry
+  - companies
 ---
 
 <section class="postSection">
@@ -43,7 +47,7 @@ If you know of any other footage or information that should be added to this pag
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChmQBK_EaUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Commercial Breaks** was a 30 minute documentary series in the UK about businesses and one episode in particular from 1984 is of interest to this site, it was called "The Battle for Santa’s Software". It followed two British software companies, Imagine software and Ocean, only one remained at the end of the show!
 
-On the Imagine Software side Mark Butler was 23 when the documentary was filmed and it shows his extravagant lifestyle with his fast cars and sponsored motorbike teams. He had 70 people working for them in May 1984 and John Gibson was the only programmer over 30 (Known as Granddad).
+On the **Imagine Software** side Mark Butler was 23 when the documentary was filmed and it shows his extravagant lifestyle with his fast cars and sponsored motorbike teams. He had 70 people working for them in May 1984 and John Gibson was the only programmer over 30 (Known as Granddad).
 
 The documentary starts with Imagine Software looking great and antisipating the next big game, but sadly ends with bankruptcy. This documentary is great for showing the uncertainty in the early games industry, one minute you are on top and gone the next.
 
@@ -71,15 +75,15 @@ From the BBC show **Working Lunch** the reporter **Rory Cellan Jones** visits th
 
 They interview people in the programming (David Kivlin), music (Craig Conner), sound effects, QA (Gordon Ross and Fiona Robertson) and there is a brief view of the motion capture (Darren?) departments for a desperate game.
 
-## Commercial Documentaries
-So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out IMDB's list:
-[Video game documentaries](https://www.imdb.com/list/ls079153183/)
-
-
 
 ---
 # Game Industry Materials
 When researching a video game, for reverse engineering or otherwise it can be tricky to find all the relevant sources due to most development being done behind closed doors in a time before the internet was the force it is today. So it is important to keep track of the physical media such as magazines, books and conference proceedings as they contain many information that has never been released to the internet.
+
+---
+## Commercial Documentaries on game development
+So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out **IMDB**'s list:
+[Video game documentaries](https://www.imdb.com/list/ls079153183/)
 
 ## Magazines
 Before wide spread access to the internet was common, many game developers would buy magazines to keep up with the latest in the industry and development in general, we have a post covering the most relevant magazines:
@@ -111,6 +115,40 @@ Books were a must have for any game developers getting started in the industry, 
 ## Museums - Games Industry related Museums
 Museums about video games and game development are rare but they are becoming more popular, some are physical and others might be virtual experiences, but they are all important for preserving the history of video games:
 {% include link-to-other-post.html post="/museums" description="For more information on all the Game related Museums check out this post." %}
+
+---
+# Companies
+
+## Game Development Tool Companies
+There are a bunch of notable companies related to retro game development, many of which specificaled in creating the Software Development Kits for popular consoles such as the Mega Drive (Cross Products) or Playstation 1 (SN Systems).
+
+### Cross Products
+Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and Vektor Grafix. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
+
+{% include link-to-other-post.html post="/companies/crossproducts/" description="For more information about Cross Products check out this post." %}
+
+
+### SN Systems
+SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for sega and nintendo consoles but is most famous for their Sony Playstation development tools like PSYQ.
+
+{% include link-to-other-post.html post="/companies/snsystems/" description="For more information about SN Systems check out this post." %}
+
+---
+## Game Hacking Companies
+There are a bunch of notable companies related to game hacking which not only worked on Cheat devices like the Game genie or Action Replay but also unlicenced products that allowed homebrew games consoles much to the annoyance of the console manufacturer.
+
+## Datel
+**Datel** is most famous for their **Action Replay** line of products but also created homebrew enablers for the Gamecube and Nintendo DS along with tons of unlicensed games and applications for a wide range of home consoles and handhelds.
+
+{% include link-to-other-post.html post="/companies/datel/" description="For more information about Datel check out this post." %}
+
+
+## Codemasters
+
+{% include link-to-other-post.html post="/companies/codemasters" description="For more information about Codemasters check out this post." %}
+
+
+
 
 ---
 ## Recruitment in the games industry
