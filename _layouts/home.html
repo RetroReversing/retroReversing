@@ -111,14 +111,7 @@
       </div>
 
       <h5 style="margin-left: -10px">Introductory Posts</h5>
-      <div class="row row-5">
-        {% assign filtered_posts = all_pages | where_exp: "post", "post.tags contains 'introduction'" | sort: "updatedAt" | reverse %}
-        {% for post in filtered_posts limit:10 %}
-          {% if post.layout == "post" and post.permalink %}
-            {% include home-card.html post=post classes="" %}
-          {% endif %}
-        {% endfor %}
-      </div>
+      {% include homepage/post-playlist.html tag="introduction" limit=6 %}
 
       <h5 style="margin-left: -10px">All Posts ({{site.pages | size}})</h5>
       <div class="row row-5">
