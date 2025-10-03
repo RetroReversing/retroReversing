@@ -46,7 +46,7 @@ Since these are artifacts of compilation it is very unlikely for a game on a pla
 Also some platforms that used compiled code but were to be released on a small storage medium such as cartridge needed all the bytes they could get so it is very unlikely to get debug symbols on platforms such as Nintendo 64 or Game Boy Advance.
 
 ---
-# Game by Platform with debug symbols 
+# Games by Platform with debug symbols 
 
 ## Sony Consoles
 Sony consoles have the higest likelyhood of shipping with debug symbols, specifically due to the rather relaxed checking of Playstation 2 binaries based on version 2 of the official SDK, but there are also games for PS1 and PSP that have been released with debug symbols in tact.
