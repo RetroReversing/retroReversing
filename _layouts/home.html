@@ -95,14 +95,17 @@
   <section class="rr-home-section">
     <div class="rr-home-section-left">
   
-      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=6 %}
-      {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=6 %}
-      {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=6 %}
-      {% include homepage/post-playlist.html tag="n64" heading="For Nintendo 64 fans" limit=6 %}
-      {% include homepage/post-playlist.html tag="nes" heading="Original NES & Famicom Reversing" limit=6 %}
+      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=8 %}
+      {% include homepage/post-playlist.html tag="introduction" heading="For Beginners" limit=8 %}
+      {% include homepage/post-playlist.html tag="ps2" heading="For Playstation 2 fans" limit=8 %}
+      {% include homepage/post-playlist.html tag="n64" heading="For Nintendo 64 fans" limit=8 %}
+      {% include homepage/post-playlist.html tag="nes" heading="Original NES & Famicom Reversing" limit=8 %}
+      {% include homepage/post-playlist.html tag="ps1" heading="Playstation One Posts" limit=8 %}
+      {% include homepage/post-playlist.html tag="saturn" heading="Sega Saturn Posts" limit=8 %}
   
       {% assign total_number_of_pages = site.pages | size %}
-      {% include homepage/post-playlist.html heading="All Posts ({{ total_number_of_pages }})" limit=total_number_of_pages %}
+      {% assign heading_with_total_number_of_pages = "All Posts ({{ total_number_of_pages }})" %}
+      {% include homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages %}
    
     </div>
     
