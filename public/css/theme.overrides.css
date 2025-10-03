@@ -68,10 +68,12 @@ blockquote {
 }
 
 /*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
-.post.post-header-icon {
-  min-height: 50px
-  max-height: 75px
+.post-header-icon img {
+  min-height: 50px !important;
+  max-height: 75px !important;
 }
+
+max-height: 64px;
 
 /* Set width static to avoid page layout shifting */
 .widget-img img {
