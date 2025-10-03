@@ -1,7 +1,7 @@
 ---
 layout: post
 hidden: true
-title: Post
+title: Guide to contributing to RetroReversing
 permalink: /contributing
 breadcrumbs:
   - name: Home
