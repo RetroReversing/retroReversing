@@ -1,19 +1,23 @@
 ---
 layout: post
-tags: 
-- tools
-title: GNU Compiler Toolchain
-thumbnail: /public/consoles/Nintendo 64.png
-permalink: /GNU-GCC
+title: C/C++ Compiler Toolchains (Console & PC)
+permalink: /compilers
 breadcrumbs:
   - name: Home
     url: /
   - name: Tools
     url: /tools
-  - name: GNU Compiler Toolchain (GCC)
+  - name: C/C++ Compiler Toolchains (Console & PC)
     url: #
-recommend: tools
-editlink: /tools/GNU_GCC.md
+redirect_from:
+- /GNU-GCC
+tags:
+- sdk
+- tools
+recommend:
+- tools
+- sdk
+editlink: /tools/Compiler Toolchains.md
 updatedAt: '2020-08-31'
 ---
 
@@ -39,7 +43,7 @@ The following table will list the first major version released on the specific y
 | 1991 | 1.39      |  |
 | 1992 | 1.41      |  |
 | 1993 | 2.4.x     |  |
-| 1994 | 2.5.8     | **Saturn**: Sega/SN shipped a GNU C (SH-2) compiler with Psy-Q; Hitachi SH assembler also included. |
+| 1994 | 2.5.8     | **Saturn**: Sega/SN shipped a GNU C (SH-2) compiler with Psy-Q; Hitachi SH assembler also included. **Jaguar**: GCC was used in the Atari Jaguar SDK, specifically version 2.5.x |
 | 1995 | 2.7.0     | **PS1**: PSY-Q used a GNU C/C++–derived backend plus SN assemblers/linker (mid-90s). |
 | 1996 | 2.7.2     | **Saturn**: Cygnus GCC 2.7 build (Sep 1996) in circulation. |
 | 1997 | 2.7.2.2   | **Net Yaroze**: DJGPP-based GCC 2.7.2 toolchain (released mid-90s, kits shipped 1996–97). |
