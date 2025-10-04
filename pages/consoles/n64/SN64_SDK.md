@@ -184,11 +184,11 @@ Assembler options (first of +/- specified is default) :
           x-/+            assume xrefs are in the section they are declared in
 ```
 
-### ccn6432 - Psy-Q CC N64 version 3.01
-The SN Systems versions of the GNU C-compiler known as **Psy-Q CC** is **ccn6432.exe** (64KB), it was compiled using the Microsoft Visual C++ (uses the Runtime Library) on 29th November 1996. It is likely using a version of GCC between 2.5.x and 2.7.x but it is hard to tell, here is the usage information:
+### ccn6432 - Psy-Q CC N64 C compiler version 3.01
+The SN Systems C-compiler known as **Psy-Q CC** is the executable **ccn6432.exe** (64KB), it was compiled using the Microsoft Visual C++ (uses the Runtime Library) on 29th November 1996 and claims to be **N64 version 3.01**. 
 
+Here is the usage information:
 ```bash
-N64 version 3.01
 Usage: %s [options / files]
 Main options :
  -c          compile to object file
