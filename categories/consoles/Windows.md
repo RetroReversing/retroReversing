@@ -81,6 +81,9 @@ It is a tool that mirrors various CD-ROM images uploaded by archive.org by users
 The best way to see the wide range of game engines available for PC is to check out the SteamDB section which catalogs all the games by the game engines/libraries used to create them:
 [Technologies - SteamDB](https://steamdb.info/tech/)
 
+## Networking with winsock
+If you are looking to reverse games from the late 1990s then it can sometimes be useful to see tutorials that were posted online during that time, **flipCode** had a good multi-part series on writing networking code [flipCode - Network Game Programming](https://web.archive.org/web/19990909174312/http://www.flipcode.com/network/)
+
 ---
 ## NVIDIA Tech Demos
 NVIDIA's first tech demo can be traced back to the early years of the company. One notable early demo was showcased in 1999, featuring the GeForce 256, which was NVIDIA's first GPU. This demo highlighted the advanced capabilities of the GeForce 256, such as hardware transform and lighting, which were groundbreaking features at the time. 
