@@ -103,7 +103,7 @@ The Full List of files contained in the archive are included below:
 | ELFCONV.EXE   | 12/12/1996 | 57 KB  | Convert resulting ELF to N64 executable format |
 | PSYMAKE.COM   | 12/04/1995 | 19 KB  | Fork of Make by SN Systems known as PSYMake (runs makefiles) |
 | RUN.EXE       | 24/10/1996 | 5 KB   | Standard PSYQ program to load executables on to cartridge   |
-| CCNG6432.EXE  | 29/11/1996 | 64 KB  | N64 C compiler |
+| CCN6432.EXE  | 29/11/1996 | 64 KB  | N64 C compiler (N64 version 3.01) |
 | KANJI.COM     | 30/06/1995 | 512 B  | Program that converts Kanji from one format to another |
 | RUNCART.EXE   | 22/11/1996 | 12 KB  | Program that loads a bios on to the SN64 cartridge that plays the pass through game connected to the cartridge   |
 | PSYLINK32.EXE | 02/12/1996 | 70 KB  | PSYQ Linker |
@@ -129,6 +129,8 @@ Psy-Q ASN64 version 2.55
 Copyright (c) 1988-1996 S.N. Systems Software Limited,  all rights reserved
 usage : asn64 [-option ...] inputfile
 ```
+
+There is a reference to asn6432 inside the c-compiler **ccn6432.exe**.
 
 ### asmn64
 **asmn64** was built using the Watcom C/C++ compiler and its 32-bit runtime library, the usage information is below:
@@ -174,6 +176,46 @@ Assembler options (first of +/- specified is default) :
           ws-/+           allow white space in operands
           v-/+            write local labels to symbol file
           x-/+            assume xrefs are in the section they are declared in
+```
+
+### ccn6432 - Psy-Q CC N64 version 3.01
+The SN Systems versions of the GNU C-compiler known as **Psy-Q CC** is **ccn6432.exe** (64KB), it was compiled using the Microsoft Visual C++ (uses the Runtime Library) on 29th November 1996. It is likely using a version of GCC between 2.5.x and 2.7.x but it is hard to tell, here is the usage information:
+
+```bash
+N64 version 3.01
+Usage: %s [options / files]
+Main options :
+ -c          compile to object file
+ -S          compile to assembler source
+ -E          pre-process only
+ -v          print executed commands
+ -o FILE     specify output file
+ -l LIBRARY  specify library to link in
+ -L DIR      specify directory to search for libraries
+ -I DIR      specify directory to search for include files
+ -D NAME     define pre-processor macro
+ -D NAME=DEF define pre-processor macro to string DEF
+ -U NAME     undefine pre-processor macro
+ -g          generate debugging information
+ -ON         set optimisation level N : O0=none, O3=max
+ -f...       compiler option/optimisation - see compiler documentation
+ -m...       machine specific option - see compiler documentation
+ -ansi       check code for ANSI compliance
+ -Wall       enable all warnings
+ -w          disable all warnings
+ -W...       other warning control - see compiler documentation
+ -Wp,...     specify pre-processor option(s)
+ -Wa,...     specify assembler option(s)
+ -Wl,...     specify linker option(s)
+ -X...       specify linker option (same as -Wl,...)
+ -nostdlib   do not link in the standard libraries
+ -save-temps preserve intermediate temporary files
+Associated expected tools: 
+C preprocessor : %-10s (in PSYQ.INI 'compiler_path' directory)
+C compiler     : %-10s (in PSYQ.INI 'compiler_path' directory)
+C++ compiler   : %-10s (in PSYQ.INI 'compiler_path' directory)
+Assembler      : %-10s (in PSYQ.INI directory)
+Linker         : %-10s (in PSYQ.INI directory)
 ```
 
 
