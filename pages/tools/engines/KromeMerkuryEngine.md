@@ -50,7 +50,7 @@ On the official website archived on March 3rd 2001, it called Merkury a "world-c
 * Multi-Genre
 * Multiple Field Of View
 
-The first game that is credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits.
+The first game that is oficially credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits section of the manual.
 
 
 ---
@@ -419,13 +419,20 @@ entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 |
 
 ---
 # Mike Stewart's Pro Bodyboarding (February 1999)
-Mike Stewart's Pro Bodyboarding was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year.
+Mike Stewart's Pro Bodyboarding (MSPB) was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year. 
 
 The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
-It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`, is this related to **Beast98** that was mentioned in the 2000 game **Championship Surfer**? and is it the same Mind Mechanics that made **Rapid Glider The Race to Galamax**?
+It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`, Mind Mechanics were contractors working on the game along side Gee Whizz. They had previously worked on the game **Rapid Glider The Race to Galamax** and they had plans to work on Haloween Harry 3(D) along side Gee Whizz! [^21]. The name **BEAST** is interesting as the next game that used the same engine, **Championship Surfer** had the codename **Beast98** during development.
+
+```
+contracting our programming services along with GeeWhiz! Entertainment
+```
 
 It is likely they shared a lot of code between this bodyboarding game and a surfing game so its possible that the codename for this was beast and then beast98 was the codename for **Championship Surfer**.
+
+We at least know that the wave generation engine was used in three games, as on the website announcing their new PS2 game **Sunny Garcia Surfing** it proudly announces it :
+> Ground breaking, 3rd generation, proprietary wave generation engine, first seen in Mike Stewart's Pro Bodyboarding, then in Championship Surfer, creates stunningly realistic wave sets in full 3D.
 
 ---
 # The Chronicles of Jaruu Tenk (October 1999)
@@ -1519,3 +1526,4 @@ You can watch the video below:
 [^18]: [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/)
 [^19]: [Screen Opera Press Release for Halloween Spirit Board](https://web.archive.org/web/20010310080446/http://www.screenopera.com/press991026.html)
 [^20]: [Screen Opera Press release for Jaruu on 4th October 1999](https://web.archive.org/web/20010310081520/http://www.screenopera.com/press991001.html)
+[^21]: [Mind Mechanics - News archived April 1999](https://web.archive.org/web/19990422221509/http://www.mindmech.com/news.html)
