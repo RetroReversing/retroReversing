@@ -277,13 +277,13 @@ You have to slot a retail game cartridge in the back in order to pass the SNES r
 </div>
 </section>
 
-##  SNASM2 by Cross Products
+## SNASM2 by Cross Products
 <section class="postSection">
   <img src="/public/images/snes/Snasm658 SNES Development Kit.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
 SNASM2 was a third party development kit created by Cross Products which supported multiple consoles including the Super Nintendo. 
 
-The Super Nintendo version was called the `SNASM658` and cost £2,000 in May 1995 according to the official price List archived by `SegaRetro` [^24].
+The Super Nintendo version was called the **SNASM658** and cost **£2,000** in May 1995 according to the official price List archived by SegaRetro [^24].
 
 Not much information exists about the Super Nintendo version of this development kit but the site `SegaRetro` has in-depth information about the Sega Mega Drive version of the devkit, so for more details check out their website.
 
