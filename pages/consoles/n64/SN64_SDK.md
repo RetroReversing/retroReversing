@@ -36,7 +36,7 @@ This made it a really popular choice for 3rd party game developers as it was sli
 SN64 went under a multitude of different names as SN Systems were constantly re-branding it, these include:
 * **N64Win95** - Probably a popular name before the official PartnerN64 came out
 * **SN64** - Most common name
-* **Psy-Q N64** - Name in some of the development tools such as Assembler
+* **Psy-Q N64** - Name in some of the development tools such as Assembler **asmn64.exe** from December 1993
 * **Pro-DG** - To align with their other development tools late in the lifecycle of the N64.
 
 Images on the left of the Development kit hardware are courtesy of ChrisCor on Twitter who kindly gave permission for us to include his photos on this page you can check out his Twitter here: [ChrisCor (@Jackhead_ASG) / Twitter](https://twitter.com/Jackhead_ASG) [^1].
@@ -98,7 +98,7 @@ The Full List of files contained in the archive are included below:
 | Name          | Modified   | Size   | Description                            |
 | ------------- | ---------- | ------ | ------------------------------- |
 | TBIOS2.COM    | 28/11/1996 | 17 KB  | BIOS replacement for `psybios` for N64 version only  |
-| asmn6432.exe  | 12/12/1996 | 134 KB | 32bit N64 Assembler for windows   |
+| asmn6432.exe  | 12/12/1996 | 134 KB | 32bit N64 Assembler for windows `Psy-Q N64 Version 2.33`  |
 | asn6432.exe   | 12/12/1996 | 89 KB  | Another assembler `Psy-Q ASN64 version 2.55`   |
 | ELFCONV.EXE   | 12/12/1996 | 57 KB  | Convert resulting ELF to N64 executable format |
 | PSYMAKE.COM   | 12/04/1995 | 19 KB  | Fork of Make by SN Systems known as PSYMake (runs makefiles) |
@@ -114,6 +114,67 @@ The Full List of files contained in the archive are included below:
 | DBUNG64.EXE   | 20/11/1996 | 161 KB | ?   |
 | README.N64    | 25/11/1996 | 637 B  | Standard Readme with information about the files   |
 | test          | ---        | 23 KB  | Folder containing example project |
+
+
+There are two different assemblers in the same zip file:
+*  Psy-Q N64 Version 2.33
+*  Psy-Q ASN64 version 2.55
+
+Not quite sure what the difference is, but they are definetlky not just different versions of the same assembler, they have different functionality.
+
+### asn6432
+**asn6432.exe** was built using the Watcom C/C++ compiler and its 32-bit runtime library, the usage information is below:
+```
+Psy-Q ASN64 version 2.55
+Copyright (c) 1988-1996 S.N. Systems Software Limited,  all rights reserved
+usage : asn64 [-option ...] inputfile
+```
+
+### asmn64
+**asmn64** was built using the Watcom C/C++ compiler and its 32-bit runtime library, the usage information is below:
+
+```bash
+Psy-Q N64 version 2.33
+Copyright (c) 1988-1996 S.N. Systems Software Limited,  all rights reserved
+USAGE : asmn64 /options source,object,symbol,listing,temporary file
+Options : /c              enable listing of conditioned out lines
+          /d              debug mode - do not run
+          /e symb=value{;symb=value}   equate symbol(s)
+          /g              write non-global symbols to linker object file
+          /i              display information window
+          /j path         specify include file search path
+          /k              allow use of ifeq, etc.
+          /l              produce linkable output file
+          /m              expand macros in listing file
+          /o opts         set assembler options/optimisations
+          /p              produce pure binary output file
+          /ps             produce binary file in s-record format
+          /q              run quietly
+          /w              write equates to symbol/linker file
+          /x              treat undefined symbols as XREFs
+          /z              include line number info in linker file
+          /zd             generate source level debug info
+Assembler options (first of +/- specified is default) :
+          ae+/-           automatically align halfwords and words
+          an-/+           allow alternate number format
+          at+/-           allow assembler to use temp register
+          c-/+            case sensitivity
+          d-/+            descope local labels on equ, set, etc.
+          e+/-            print lines containing errors
+          f<name>         specify section to hold floating point constants
+          h-/+            automatic hazard removal (ISA 1 only)
+          l-/+            use '!' as leading character for local labels
+          l<char>         make <char> the local label character (not + or -)
+          m+/-            enable/disable macro instructions
+          n-/+            insert nop in branch delay slots
+          r-/+            allow $ prefixed register names
+          s-/+            treat equated symbols as labels
+          w+/-            print warnings
+          we-/+           treat warnings as errors
+          ws-/+           allow white space in operands
+          v-/+            write local labels to symbol file
+          x-/+            assume xrefs are in the section they are declared in
+```
 
 
 ### Test folder inside N6432.zip
