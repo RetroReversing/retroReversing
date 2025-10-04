@@ -41,6 +41,8 @@ it later became the de facto standard for Mega Drive Game Development around the
 
 In an interview with **ST NEWS Disk Magazine** in August 1989 (preserved thanks to SegaRetro [Sega Retro](https://segaretro.org/Interview:_Realtime_Games_Software_(1989-08-12)_by_ST_NEWS_Disk_Magazine) ) he claimed that **SNASM** was eight times faster than **Argasm** even when assembling on disk rather than directly like Argasm does [^6]. The interview goes on to say they will be showing it on a PC show in September 1989, not sure which PC show this was.
 
+The game **Cybercon III** (1991) has **The Snasm Cross Development Tools** in the credits and was programmed by **Andy Beveridge** along with **Martin Day** and **Adrian Stephens** [^7].
+
 The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
 
 
@@ -131,3 +133,4 @@ In issue 78 of the magazine **Develop** it was announced that version 2 of **SN-
 [^4]: [SN Systems](https://web.archive.org/web/19980523231210/http://www.snsys.com/snsys/feature.asp?id=5)
 [^5]: Official SN Systems "PC Development System for the Nintendo 64" guide (Thanks to Ultra64.ca)
 [^6]: [Interview: Realtime Games Software (1989-08-12) by ST NEWS Disk Magazine - Sega Retro](https://segaretro.org/Interview:_Realtime_Games_Software_(1989-08-12)_by_ST_NEWS_Disk_Magazine)
+[^7]: [Cybercon III (1991) - MobyGames](https://www.mobygames.com/game/12893/cybercon-iii/)
