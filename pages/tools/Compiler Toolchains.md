@@ -107,6 +107,15 @@ Here are some of the rules in the o32 ABI that the compiler needs to follow:
 ## Partner-N64PC - GCC Compiler for N64
 Nintendo’s **Partner-N64PC** packages shipped with a GCC bundle (e.g., `Debugger v1.08D + GCC v1.2`), used in Windows-hosted workflows that still linked against Nintendo’s libraries. Although bare in mind the v1.2 doesn't match to the official GNU releases in this case it was their own versioning system for their port of GCC.
 
+There are known versions of this SDK released in 1996 and 1997, distributed as **GNUN6432.zip** (GNU N64 for 32bit Windows) containing 3 files:
+* **CPPN64.exe** - C++ Compiler
+* **CC1N64.exe** - C compiler
+* **CC1PLN64.exe** - Linker
+
+For more information check out our post on this SDK:
+{% include link-to-other-post.html post="/sn64-sdk-sn-systems" %}
+
+
 ---
 ## Cygnus Experimental compiler (1998) - PS1 and N64
 
