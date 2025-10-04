@@ -29,29 +29,23 @@ editlink: ../categories/companies/snsystems.md
 updatedAt: '2020-08-31'
 ---
 
-# History of SN Systems
-SN Systems is a company that specialised in creating development tools for game developers in the UK, it was founded in 1988 by **Martin Day** and **Andy Beveridge** [^1].
+SN Systems is a company that specialised in creating development tools for game developers in the UK, it was founded in 1989 by **Martin Day** and **Andy Beveridge** [^1]. Martin Day has the nickname **Spiny Norman** which he used during the naming of their first development tool they wrote, an assembler called SNASM (Spiny Norman's Assembler) [^6].
 
-They were looking for good development tools for the **Atari ST** and **CBM Amiga** but as none met their criteria they decided to create their own, and thankfully they did as without this, game development would not be the same today.
+## History of SN Systems
+Back in 1989 they were looking for good development tools for the **Atari ST** and **CBM Amiga** but as none met their criteria, so they decided to create their own (SNASM), and thankfully they did as without this, game development would not be the same today. 
 
-The development kits they ended up building would span multiple console generations across all the different competitors, such as:
-* **Commodore Amiga 1200 and 600**
-* **Williams Phoenix Arcade Board** - Never seen any other reference to this development kit apart from it being listed in the SN64 Manual
-* **SEGA MegaDrive/Genesis** - SNASM65k
-* **SEGA 32X**
-* **SEGA Mega-CD** - SNASM2
-* **Super Nintendo Entertainment System** - PSY-Q
-* **Sony PlayStation** - PSY-Q -> SDevTC
-* **SEGA Saturn** - PSY-Q
-* **Nintendo 64** - SN64 -> ProDG
+### SNASM - Spiny Norman's Assembler
+Although they never actually sold SNASM under the name SN Systems, instead fellow British-based development tool creator **Cross Products** would license it and contribute to its development, selling it under their name.
 
-## SNASM - SN Systems Assembler
-Their first product was the **SN Systems Assembler** (SNASM) which was such a success that fellow British-based development tool creator **Cross Products** decided to license it and thus it became the de facto standard for Mega Drive Game Development around the world [^1]. 
+it later became the de facto standard for Mega Drive Game Development around the world according to the official SN Systems website (archived in 1997) [^1]
 
-The Sega Mega Drive version was known as **SNASM65k**, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
+In an interview with **ST NEWS Disk Magazine** in August 1989 (preserved thanks to SegaRetro [Sega Retro](https://segaretro.org/Interview:_Realtime_Games_Software_(1989-08-12)_by_ST_NEWS_Disk_Magazine) ) he claimed that **SNASM** was eight times faster than **Argasm** even when assembling on disk rather than directly like Argasm does [^6]. The interview goes on to say they will be showing it on a PC show in September 1989, not sure which PC show this was.
 
-### SNASM2
-Cross Products then built upon the product and released their own version called SNASM2, which would later become a competitor for SN Systems next development kit known as PSY-Q. They are also a company worth learning about, we have a seperate post on their development kit products such as **SNASM2**:
+The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
+
+
+### SNASM2 - Cross Products evolution of SNASM
+**Cross Products** then built upon the product and released their own version called SNASM2, which would later become a competitor for SN Systems next development kit known as **PSY-Q**. They are also a company worth learning about, we have a seperate post on their development kit products such as **SNASM2**:
 {% include link-to-other-post.html post="/companies/crossproducts/" description="For more information on Cross Products check out this post." %}
 
 ---
@@ -59,6 +53,15 @@ Cross Products then built upon the product and released their own version called
 **SN64** was a software development kit for the Nintendo 64 created by **SN Systems** and was especially popular with 3rd party game developers in the UK, but was never used by first or second party Nintendo 64 developers, so not many games were released that were built by it.
 
 {% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For more information on SN64 check out this post." %}
+
+In the 1997 manual for SN64 titled **PC Development System for the Nintendo 64** it references both the Cross products and original SNASM in what it calls **compatible development systems**:
+* **Commodore Amiga 1200 and 600** - Reference to original SNASM
+* **Williams Phoenix Arcade Board** - Never seen any other reference to this development kit apart from it being listed in the SN64 Manual so unsure what this was...
+* **SEGA MegaDrive/Genesis** - Likely referencing SNASM65k from Cross products
+* **SEGA 32X** / **SEGA Mega-CD** - Likely referencing SNASM2 from Cross Products 
+* **Super Nintendo Entertainment System** - Referencing PSY-Q for Super Nintendo
+* **SEGA Saturn** - Referencing PSY-Q Saturn version
+* **Sony PlayStation** - Referencing PSY-Q which later got rebranded to  SDevTC
 
 ---
 ## PSY-Q - SNES, Saturn and PS1
@@ -127,3 +130,4 @@ In issue 78 of the magazine **Develop** it was announced that version 2 of **SN-
 [^3]: [Various goodies for yall :) PlayStation Development Network](http://www.psxdev.net/forum/viewtopic.php?t=1563)
 [^4]: [SN Systems](https://web.archive.org/web/19980523231210/http://www.snsys.com/snsys/feature.asp?id=5)
 [^5]: Official SN Systems "PC Development System for the Nintendo 64" guide (Thanks to Ultra64.ca)
+[^6]: [Interview: Realtime Games Software (1989-08-12) by ST NEWS Disk Magazine - Sega Retro](https://segaretro.org/Interview:_Realtime_Games_Software_(1989-08-12)_by_ST_NEWS_Disk_Magazine)
