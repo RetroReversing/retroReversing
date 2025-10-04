@@ -88,43 +88,46 @@ Contains the PsyQ GNU C/C++ compiler toolchain for Nintendo 64:
 * CC1PLN64.exe - Linker?
 
 ## N6432.zip
-This archive contains the 32bit SN64 SDK from late 1996 that run under Windows 95. Many of these are the same as the files in the Windows Executables section but from a slightly earlier date.
+This archive contains the **32bit SN64 SDK** from December 1996 that run under **Windows 95**. Many of these are the same as the files in the Windows Executables section but from a slightly earlier date.
 
-These files would normally be located in the developers C:\ drive at location `c:\n64\bin32`.
+These files would normally be located in the developers **C:\** drive at location `c:\n64\bin32`.
 
 The Full List of files contained in the archive are included below:
 
-Name | Description
----|---
-TBIOS2.COM | BIOS replacement for `psybios` for N64 version only
-asmn6432.exe | 32bit N64 Assembler for windows
-ELFCONV.EXE | Convert resulting ELF to N64 executable format
-PSYMAKE.COM | Fork of Make by SN Systems known as PSYMake (runs makefiles)
-asn6432.exe | Another assembler `Psy-Q ASN64 version 2.55`
-RUN.EXE | Standard PSYQ program to load executables on to cartridge
-CCN6432.EXE | N64 C compiler
-KANJI.COM | Program that converts Kanji from one format to another
-RUNCART.EXE | Program that loads a bios on to the SN64 cartridge that plays the pass through game connected to the cartridge
-PSYLINK32.EXE | PSYQ Linker
-SETCSUM.EXE | Program to Set checksum and entry point for your ROM image
-LOADBIOS.EXE | Program to load BIOS to the SN64 cartridge
-PSYLIB2.EXE | PSYQ Librarian
-PSYQ.INI | Configuration file for the PSYQ SDK
-DBUGN64.EXE | 
-README.N64 | Standard Readme with information about the files
+| Name          | Modified   | Size   | Description                            |
+| ------------- | ---------- | ------ | ------------------------------- |
+| TBIOS2.COM    | 28/11/1996 | 17 KB  | BIOS replacement for `psybios` for N64 version only  |
+| asmn6432.exe  | 12/12/1996 | 134 KB | 32bit N64 Assembler for windows   |
+| asn6432.exe   | 12/12/1996 | 89 KB  | Another assembler `Psy-Q ASN64 version 2.55`   |
+| ELFCONV.EXE   | 12/12/1996 | 57 KB  | Convert resulting ELF to N64 executable format |
+| PSYMAKE.COM   | 12/04/1995 | 19 KB  | Fork of Make by SN Systems known as PSYMake (runs makefiles) |
+| RUN.EXE       | 24/10/1996 | 5 KB   | Standard PSYQ program to load executables on to cartridge   |
+| CCNG6432.EXE  | 29/11/1996 | 64 KB  | N64 C compiler |
+| KANJI.COM     | 30/06/1995 | 512 B  | Program that converts Kanji from one format to another |
+| RUNCART.EXE   | 22/11/1996 | 12 KB  | Program that loads a bios on to the SN64 cartridge that plays the pass through game connected to the cartridge   |
+| PSYLINK32.EXE | 02/12/1996 | 70 KB  | PSYQ Linker |
+| SETCSUM.EXE   | 28/11/1996 | 37 KB  | Program to Set checksum and entry point for your ROM image |
+| LOADBIOS.EXE  | 22/11/1996 | 14 KB  | Program to load BIOS to the SN64 cartridge |
+| PSYLIB2.EXE   | 03/12/1996 | 52 KB  | PSYQ Librarian |
+| PSYQ.INI      | 02/12/1996 | 132 B  | Configuration INI file for the PSYQ SDK |
+| DBUNG64.EXE   | 20/11/1996 | 161 KB | ?   |
+| README.N64    | 25/11/1996 | 637 B  | Standard Readme with information about the files   |
+| test          | ---        | 23 KB  | Folder containing example project |
+
 
 ### Test folder inside N6432.zip
 There is a folder inside the zip simply called `test` that contains a basic initialise example for N64.
 
 Name | Description
 ---|---
-TEST.LNK | Link file configuration for the order in which to link files into the final executable
-MAKEFILE.MAK | Makefile to run the example
-PSYQDBG.OBJ | Compiled Object file (debug version)
-PSYQ.H | Header file that only exports one function called `init_debug`
-PSYQ.OBJ | Compiled Object file
-SNMAIN.S | Assembly code for the entry point for the game
-TEST.C | Simple C code to initialise the N64
+| PSYQ.OBJ      | 26/11/1996 | 11 KB  | Compiled Object file |
+| PSYQ.H        | 29/11/1996 | 34 B   | Header file that only exports one function called `init_debug` |
+| TEST.LNK      | 29/11/1996 | 4000 B | Link file configuration for the order in which to link files into the final executable |
+| MAKEFILE.MAK  | 29/11/1996 | 294 B  | Makefile to run the example |
+| SNMAIN.S      | 29/11/1996 | 814 B  | Assembly code for the entry point for the game |
+| TEST.C        | 12/12/1996 | 805 B  | Simple C code to initialise the N64 |
+| PSYQDBG.OBJ   | 12/12/1996 | 9 KB   | Compiled Object file (debug version) |
+
 
 ---
 # References
