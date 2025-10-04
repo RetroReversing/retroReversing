@@ -90,6 +90,20 @@ The following table will list the first major version released on the specific y
 | 2009 | 4.4       |  |
 
 
+---
+## PS1 PSY-Q - GCC 2.7/2.8
+PSY-Q shipped with a customized GCC front end that emitted the original 32-bit **MIPS I** assembly consumed by SN Systems’ assembler/linker to produce a **PS-X EXE** PlayStation 1 executable. [^1]
+
+### MIPS I o32 Application Binary Interface (ABI)
+The o32 ABI is the convention used by classic MIPS I CPUs like the PlayStation 1’s R3000A, defining things like argument passing, stack layout, and binary object file format. It ensures that the assembly and binaries produced by the compiler/toolchain match what the hardware and system expect.
+
+Here are some of the rules in the o32 ABI that the compiler needs to follow:
+* Args in `a0..a3`, return in `v0` (and `v1` if needed)  
+* Callee-saved: `s0..s7`, `sp`, `ra`
+* Typical **16-byte outgoing arg area** reserved in frames
+
+
+---
 ## Partner-N64PC - GCC Compiler for N64
 Nintendo’s **Partner-N64PC** packages shipped with a GCC bundle (e.g., `Debugger v1.08D + GCC v1.2`), used in Windows-hosted workflows that still linked against Nintendo’s libraries. Although bare in mind the v1.2 doesn't match to the official GNU releases in this case it was their own versioning system for their port of GCC.
 
