@@ -136,6 +136,7 @@ They were working on a third title called **Stereo Jack** for planned release in
 ---
 ### Halloween Harry (1993) - Alien Carnage
 <img width="320" height="200" alt="Halloween Harry title screen" src="https://github.com/user-attachments/assets/56925b9b-e1f0-4a60-9b1d-61068470983e" />
+**Halloween Harry** was a join effort between **SubZero Software** (later became Mind Mechanics [^21]) and **Interactive Binary Illusions**, the game itself later got renamed to Alien Carnage to avoid the consumer thinking it was a game that could only be enjoyed on October 31st.
 
 John Passfield's site has **Alien Carnage** (Halloween Harry) on the [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page but there is no download link, presumably the copyright of the game is owned by **Apogee**.
 
@@ -423,7 +424,10 @@ Mike Stewart's Pro Bodyboarding (MSPB) was released to good reviews and would be
 
 The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
 
-It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`, Mind Mechanics were contractors working on the game along side Gee Whizz. They had previously worked on the game **Rapid Glider The Race to Galamax** and they had plans to work on Haloween Harry 3(D) along side Gee Whizz! [^21]. The name **BEAST** is interesting as the next game that used the same engine, **Championship Surfer** had the codename **Beast98** during development.
+It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`. The name **BEAST** is interesting as the next game that used the same engine, **Championship Surfer** had the codename **Beast98** during development. 
+
+As for Mind Mechanics, they were previously known as **SubZero software** and had worked on multiple games with Gee Whizz! in the past. Including the Halloween Harry series and their website talked about plans for a 3rd in the series that was 3D, until their site went down at the end of 1999 (when Krome Studios was formed). They are also known for their game **Rapid Glider The Race to Galamax** [^21]. 
+
 
 ```
 contracting our programming services along with GeeWhiz! Entertainment
