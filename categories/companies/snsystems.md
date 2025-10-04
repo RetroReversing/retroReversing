@@ -36,7 +36,7 @@ They were looking for good development tools for the **Atari ST** and **CBM Amig
 
 The development kits they ended up building would span multiple console generations across all the different competitors, such as:
 * **Commodore Amiga 1200 and 600**
-* **Williams Phoenix Arcade Board**
+* **Williams Phoenix Arcade Board** - Never seen any other reference to this development kit apart from it being listed in the SN64 Manual
 * **SEGA MegaDrive/Genesis** - SNASM65k
 * **SEGA 32X**
 * **SEGA Mega-CD** - SNASM2
