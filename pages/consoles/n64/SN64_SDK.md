@@ -81,14 +81,15 @@ N64104.exe |
 LOADBIOS.exe | Program to load BIOS on to Sn64 cartridge 
 
 ---
-## GNUN6432.zip
+## GNUN6432.zip - GNU GCC 2.7.2 for Nintendo 64
 The **GNUN6432.zip** archive contains the Psy-Q port of the GNU C/C++ compiler toolchain for Nintendo 64.
-It was based on **GCC 2.7.2** and this specific build from SN Systems was `2.7.2.SN32.3.7 Build 0001` and they were compiled on the **19th February 1997**. These are the files it contains:
-* **CC1N64.exe** - The actual GNU C compiler based on version **2.7.2**
-* **CC1PLN64.exe** (1.8MB) - The actual GNU C++ Compiler (2.7.2.SN32.3.7 Build 0001)
-* **CPPN64.exe** (115KB) - Its called GNU CPP version for Nintendo 64 but it doesn't seem to be an actual compiler
 
-Not exactly sure what the purpose of **CPPN64.exe** is is doesn't seem to be an actual compiler, far too small, maybe it just passes through options to the other 2 compilers?
+It was based on **GCC 2.7.2** and this specific build from SN Systems was `2.7.2.SN32.3.7 Build 0001` and they were compiled on the **19th February 1997**. 
+
+These are the files it contains:
+* **CC1N64.exe** (1.4MB) - The GNU C Compiler based on version **2.7.2**for Nintendo 64
+* **CC1PLN64.exe** (1.8MB) - The GNU C++ Compiler based on version **2.7.2** for Nintendo 64
+* **CPPN64.exe** (115KB) - The The C Preprocessor (GNU CPP) based on version **2.7.2** for Nintendo 64
 
 They all contain the string `[AL 1.1, MM 40]` near the version information just after **Nintendo 64**, but not quite sure what this means.
 
