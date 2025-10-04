@@ -34,10 +34,10 @@ It was inevitable that SN Systems would create a SDK for the newly announced Ult
 This made it a really popular choice for 3rd party game developers as it was slightly easier to port code between the consoles using the SDK.
 
 SN64 went under a multitude of different names as SN Systems were constantly re-branding it, these include:
-* N64Win95 - Probably a popular name before the official PartnerN64 came out
-* SN64 - Most common name
-* Psy-Q N64 - Name in some of the development tools such as Assembler
-* Pro-DG - To align with their other development tools late in the lifecycle of the N64.
+* **N64Win95** - Probably a popular name before the official PartnerN64 came out
+* **SN64** - Most common name
+* **Psy-Q N64** - Name in some of the development tools such as Assembler
+* **Pro-DG** - To align with their other development tools late in the lifecycle of the N64.
 
 Images on the left of the Development kit hardware are courtesy of ChrisCor on Twitter who kindly gave permission for us to include his photos on this page you can check out his Twitter here: [ChrisCor (@Jackhead_ASG) / Twitter](https://twitter.com/Jackhead_ASG) [^1].
 
@@ -83,11 +83,12 @@ LOADBIOS.exe | Program to load BIOS on to Sn64 cartridge
 ---
 ## GNUN6432.zip
 Contains the PsyQ GNU C/C++ compiler toolchain for Nintendo 64:
-* CPPN64.exe - C++ Compiler
-* CC1N64.exe - C compiler
-* CC1PLN64.exe - Linker?
+* **CPPN64.exe** - C++ Compiler
+* **CC1N64.exe** - C compiler
+* **CC1PLN64.exe** - Linker?
 
-## N6432.zip
+---
+## N6432.zip - SN64 SDK from December 1996
 This archive contains the **32bit SN64 SDK** from December 1996 that run under **Windows 95**. Many of these are the same as the files in the Windows Executables section but from a slightly earlier date.
 
 These files would normally be located in the developers **C:\** drive at location `c:\n64\bin32`.
@@ -118,8 +119,8 @@ The Full List of files contained in the archive are included below:
 ### Test folder inside N6432.zip
 There is a folder inside the zip simply called `test` that contains a basic initialise example for N64.
 
-Name | Description
----|---
+| Name          | Modified   | Size   | Description                            |
+| ------------- | ---------- | ------ | ------------------------------- |
 | PSYQ.OBJ      | 26/11/1996 | 11 KB  | Compiled Object file |
 | PSYQ.H        | 29/11/1996 | 34 B   | Header file that only exports one function called `init_debug` |
 | TEST.LNK      | 29/11/1996 | 4000 B | Link file configuration for the order in which to link files into the final executable |
