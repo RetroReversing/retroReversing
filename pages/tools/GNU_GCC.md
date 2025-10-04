@@ -17,13 +17,14 @@ editlink: /tools/GNU_GCC.md
 updatedAt: '2020-08-31'
 ---
 
-When reverse engineering programs that have been compiled from C/C++ it is very likely that the toolchain was based on the GNU Compiler Collection (GCC).
+When reverse engineering programs that have been compiled from **C/C++** it is possible that the toolchain was based on the **GNU Compiler Collection** (GCC).
 
 Most game consoles had some form of GCC toolchain specifically built for their architecture and released as an official SDK. This continues into this very day with support for PS4 and Switch using GCC toolchains.
 
 Consoles that did not have GCC-based compilers were mainly from Nintendo or Microsoft:
 * **Nintendo 64** - Official Nintendo 64 SDK did not use GCC but instead used **SGI MIPSpro**
 * **GameCube** - Official toolchain was Metrowerks CodeWarrior not GCC-based
+* **3DO** - Official SDKs used ARM SDT/ARM C++ (proprietary), not GCC.
 
 ---
 # GCC Releases by Year
@@ -38,7 +39,7 @@ The following table will list the first major version released on the specific y
 | 1991 | 1.39      |  |
 | 1992 | 1.41      |  |
 | 1993 | 2.4.x     |  |
-| 1994 | 2.5.8     | **Saturn**: Sega distributed Cygnus/GNU toolchain for SH-2 alongside Hitachi’s compiler. |
+| 1994 | 2.5.8     | **Saturn**: Sega/SN shipped a GNU C (SH-2) compiler with Psy-Q; Hitachi SH assembler also included. |
 | 1995 | 2.7.0     | **PS1**: PSY-Q used a GNU C/C++–derived backend plus SN assemblers/linker (mid-90s). |
 | 1996 | 2.7.2     | **Saturn**: Cygnus GCC 2.7 build (Sep 1996) in circulation. |
 | 1997 | 2.7.2.2   | **Net Yaroze**: DJGPP-based GCC 2.7.2 toolchain (released mid-90s, kits shipped 1996–97). |
@@ -52,15 +53,20 @@ The following table will list the first major version released on the specific y
 | 2005 | 4.0       | **PSP**: official SNC compiler (non-GCC); homebrew psptoolchain used GCC 4.x. |
 | 2006 | 4.1       | **PS3**: official SDKs shipped **SNC** and **SCE GCC** (ppu-gcc/spu-gcc). IBM Cell SDK on Linux used GCC too. |
 | 2007 | 4.2       |  |
-| 2008 | 4.3       | Wii homebrew (devkitPPC) widely GCC-based; official still CodeWarrior. |
+| 2008 | 4.3       | Wii homebrew (devkitPPC) widely GCC-based |
 | 2009 | 4.4       |  |
 
 
 ---
-# Playstation 1 and Nintendo64
-Note that the official Nintendo 64 SDK did not use GCC but instead used **SGI MIPSpro**, however the third party development tools such as compilers by **SN Systems** were forks of GCC.
+# Nintendo 64
+Note that the official Nintendo 64 SDK on **IRIX** did not use GCC but instead used **SGI MIPSpro**, however the third party development tools such as compilers by **SN Systems** were forks of GCC.
 
-## Cygnus Experimental compiler (1998)
+## Partner-N64PC 
+Nintendo’s **Partner-N64PC** packages shipped with a GCC bundle (e.g., `Debugger v1.08D + GCC v1.2`), used in Windows-hosted workflows that still linked against Nintendo’s libraries. Although bare in mind the v1.2 doesn't match to the official GNU releases in this case it was their own versioning system for their port of GCC.
+
+# SN Systems
+
+## Cygnus Experimental compiler (1998) - PS1 and N64
 
 The Cygnus Experimental compiler, often associated with the **EGCS** (Experimental/Enhanced GNU Compiler System) project, was a fork of the GNU Compiler Collection (GCC) initiated and maintained by Cygnus Solutions in the mid-1990s.
 
