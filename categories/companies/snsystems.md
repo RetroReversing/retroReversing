@@ -43,12 +43,13 @@ In an interview with **ST NEWS Disk Magazine** in August 1989 (preserved thanks 
 
 The game **Cybercon III** (1991) has **The Snasm Cross Development Tools** in the credits and was programmed by **Andy Beveridge** along with **Martin Day** and **Adrian Stephens** [^7].
 
-The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
 
 
 ### SNASM2 - Cross Products evolution of SNASM
 **Cross Products** then built upon the product and released their own version called SNASM2, which would later become a competitor for SN Systems next development kit known as **PSY-Q**. They are also a company worth learning about, we have a seperate post on their development kit products such as **SNASM2**:
 {% include link-to-other-post.html post="/companies/crossproducts/" description="For more information on Cross Products check out this post." %}
+
+The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products as part of **SNASM2**, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
 
 ---
 ## SN64 - Nintendo 64 Development Kit
@@ -61,7 +62,7 @@ In the 1997 manual for SN64 titled **PC Development System for the Nintendo 64**
 * **Williams Phoenix Arcade Board** - Never seen any other reference to this development kit apart from it being listed in the SN64 Manual so unsure what this was...
 * **SEGA MegaDrive/Genesis** - Likely referencing SNASM65k from Cross products
 * **SEGA 32X** / **SEGA Mega-CD** - Likely referencing SNASM2 from Cross Products 
-* **Super Nintendo Entertainment System** - Referencing PSY-Q for Super Nintendo
+* **Super Nintendo Entertainment System** - Referencing PSY-Q for Super Nintendo or SNASM658
 * **SEGA Saturn** - Referencing PSY-Q Saturn version
 * **Sony PlayStation** - Referencing PSY-Q which later got rebranded to  SDevTC
 
