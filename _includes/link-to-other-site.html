@@ -10,7 +10,7 @@
           {% if include.image %}
             <img style="max-width:200px" class="lazy-load otherPostImg" data-image-full="{{ include.image }}" alt="">
           {% else %}
-            <div style="max-width:200px" class="geopattern" />
+            <div style="max-width:200px" class="geopattern" data-title="{{ include.title }}" />
           {% endif %}
       </div>
       <div class="linkToOtherPostRight">
