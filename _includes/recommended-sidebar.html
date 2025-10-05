@@ -17,7 +17,6 @@
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
-                  <!-- {% include home-card.html post=post classes="" %}  -->
                   {% include post-discovery/post-card.html post=post classes="" %}
                   <hr />
                 </li>
@@ -33,7 +32,6 @@
         {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
           {% if post.tags contains page.recommend and post.title != page.title %}
             <li>
-              <!-- {% include home-card.html post=post classes="" %}  -->
               {% include post-discovery/post-card.html post=post classes="" %} 
               <hr />
             </li>
