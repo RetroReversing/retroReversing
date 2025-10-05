@@ -97,11 +97,23 @@ Issue 7 started tutorials **Call of Duty Mapping** and **Homeworld 2 The Basics*
 But it looked like they intended for there to be a GameMaker issue 8 as they advertised it at the end of 7, although issue 165 actually came with a Doom 3 supplement instead:
 ![Advert for an issue 8 of GameMaker which was to be included in PC FORMAT issue 165](https://github.com/user-attachments/assets/f90b0c35-31f6-448a-ab81-7d9338f6e457)
 
-### OddMods
-There was a short one page section at the back of the magazine where **Mark Holtham** would take a look at the weird PC game modes available at the time
+### Odd Mods - Weird PC Game Mods
+From issue 4 to 7 there was a short one page section at the back of the magazine where **Mark Holtham** would take a look at the weird PC game modes available at the time. For anyone looking to discover weird old game mods, the mods he looked at are listed in the table below along with a url which will most likely need to be fetched via the wayback machine:
 
 Issue | Mod Name | Game its a mod for | Description | URL
 ---|---|---|---|---
+4 | Sweet Dreams | Unreal Tournament 2003 | A surreal, psychedelic third-person mod inspired by Rayman, featuring bizarre environments and an interactive start sequence set in the player’s bedroom. | gamestudies.oslo.org/~sdreams
+4 | Jupiter Effect | Unreal Tournament 2003 | A futuristic city combat mod reminiscent of Sega’s Virtua On and Macross, featuring light-hearted deathmatch gameplay and destructible environments. | www.planetunreal.com/jei
+4 | Air Buccaneer | Unreal Tournament 2003 | A pirate-themed aerial combat mod focusing on teamwork and airship battles, combining fantasy and steampunk aesthetics. | ludocraft.oulu.fi/airbuccaneers
+4 | BiTurbo | Battlefield 1942 | A high-speed vehicle mod adding jet-like acceleration, visual effects, and new skins for planes and jeeps, designed for chaotic, fun LAN play. | www.hsilan.de/biturbo
+5 | Earth Special Forces | Half-Life | A third-person anime combat mod based on Dragonball Z, featuring playable characters like Goku with powerful energy attacks and team-based gameplay. | www.esforces.com
+5 | Mr. Pants Excessive Overkill | Unreal Tournament 2003 | A high-intensity mutator adding extreme weapon power and chaos to Unreal Tournament 2003, emphasizing fast-paced, large-map carnage. | www.planetquake.com/excessive/q3.shtml
+5 | Colosseum | Jedi Knight 2: Outcast | A gladiatorial combat mod featuring hand-to-hand melee fighting with cinematic execution and Roman-inspired arenas. | www.jakekeating.com/thesis/
+5 | Battlefield Pirates | Battlefield 1942 | A naval combat mod replacing armies with pirates, featuring ship-based battles, sea galleons, and humorous physics-driven pirate antics. | www.internempire.com/bfpirates
+6 | Resident Evil: The Awakening Part 1 | Half-Life | A survival-horror mod inspired by the console version of Resident Evil, featuring slow-paced gameplay, puzzles, and cooperative play via Sven Coop. | www.retheawakening.tk
+6 | Bumper Cars | Unreal Tournament 2003 | A humorous mod recreating fairground bumper car chaos where players slide and collide across multiple maps for light-hearted fun. | www.planethalflife.com/bumpercars/index.asp
+6 | Duffers Golf | Unreal Tournament 2004 | A golf simulation mod blending sports mechanics with Unreal combat physics, featuring a power bar, club selection, and bunkers. | duffers.beyondunreal.com
+6 | Fraghouse Invasion | Unreal Tournament 2004 | A large-scale Invasion mod focusing on cooperative play against waves of mutant enemies with vehicles and expansive custom maps. | fraghous.beyondunreal.com
 7 | Alien Swarm | Unreal Tournament 2004 | A top-down cooperative multiplayer mod inspired by Gauntlet, featuring class-based gameplay and team-based bug extermination missions. | www.blackcatgames.com/swarm
 7 | Hydro Racer | Battlefield 1942 | A water-based racing mod featuring boats with missiles, torpedoes, and machine guns for competitive and entertaining gameplay. | www.bf1942hq.com/hydroracers
 7 | Matrix Mod | Quake III | A slow-motion "Bullet Time" mod inspired by The Matrix, allowing cinematic firefights with realistic physics and time manipulation. | www.planetquake.com/matrixq3
