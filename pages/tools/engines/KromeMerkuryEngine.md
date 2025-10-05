@@ -30,7 +30,7 @@ It is best known for the custom versions of **Star Wars: The Force Unleashed** o
 The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999, depending on when the text was written on the website.
 
 There are at least three known major versions of the Merkury engine:
-* **Version 1 (1998/1999)** - Originally called Blast Graphics created around 1998 or 1999
+* **Version 1 (1998/1999)** - Originally called BEAST (and the 3d library Blast Graphics) created around 1998 or 1999
 * **Version 2 (2004)** - Created for **Ty the Tasmanian Tiger 2**
 * **Version 3 (2010)** - Created for **The Legend of the Guardians: The Owls of Ga'hoole** around 2010
 
@@ -73,7 +73,7 @@ The original **Krome Studios** website archived back in March 2001 has the follo
 * **Kat Burglar** - Never released
 * **Gruesome Castle** - Never released but in development in 1998 ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
 
-However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a library called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
+However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a game engine called **BEAST** and a 3D engine called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
 
 ---
 ## Krome Studios games and their engines
@@ -82,7 +82,7 @@ Because not all uses of Merkury are documented, below is a table of major titles
 
 | Game Title | Platform(s)| Year | Using Merkury Engine?
 |---|---|---|---
-| Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as Blast Graphics
+| Mike Stewart's Pro Bodyboarding | Windows | February 1999 | Yes but the engine was known as BEAST and Blast Graphics for 3D
 | The Chronicles of Jaru Tenk | Windows | October 1999 | Yes (Blast Graphics)
 | Halloween Spirit Board | Windows | October 1999 | Yes (Blast Graphics)
 | Championship Surfer | Windows, PlayStation, Dreamcast | 2000 | Yes for Windows (SURF_PC.rkv) and Dreamcast (SURF_DCP.rkv) but no for PS1
@@ -207,7 +207,7 @@ Sadly they found that reverse engineering an old Delphi executable is not easy w
 
 It was built using the **Microsoft WinG** library, which was the original name for DirectX. It also uses a library from **SubZero Software**  with a build date of 4th December 1995. Since its assets are all stored in **.SUB0** archives this hints at a library for packing game assets, **SubZero Software** are also listed as a join developer on the original Halloween Harry game.
 
-For the limited analysis of the binary I can do there doesn't seem to be any connection between the game and what would become the Merkury engine or its pre-cursor Blast Graphics) and it was written in a completely different programming language so it is unlikely there is a strong connection.
+For the limited analysis of the binary I can do there doesn't seem to be any connection between the game and what would become the Merkury engine or the 3d library Blast Graphics) and it was written in a completely different programming language so it is unlikely there is a strong connection.
 
 ### Delphi Programming
 **Robert Crane** was a big fan of the **Delphi** programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
@@ -216,9 +216,13 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
 
 ---
-# Blast Graphics - The Original Merkury engine
+# BEAST & Blast Graphics - The Original Merkury engine
 ![BlastGraphics 3D engine in the about section of Gruesome Castle](https://github.com/user-attachments/assets/a59c1f52-09d6-4296-bf4e-352779dd8f6c)
-Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **Blast graphics**. Later on Krome would come to retroactivley refer to these games as based on the Merkury engine.
+Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **BEAST** and **Blast graphics**. Later on Krome would come to retroactivley refer to these games as based on the Merkury engine.
+
+In the Help file for **Mike Stewart's Pro Bodyboarding** it lists two libraries used for making the game, **BEAST** and **Blast Graphics**:
+* **Beast Game Engine** Copyright &copy; 1999 Mind Mechanics
+* **Blast Graphics 3D Engine** Copyright &copy; 1999 Tony Ball
 
 The following games have references to **Blast graphics** in their executables or contain the windows dynamic library **bg.dll**:
 * **Gruesome Castle Demo** - [bg.dll](https://discmaster.textfiles.com/view/17105/TEKNO%202-1998.iso/games/gcdemo.zip/GC_Demo/bg.dll) dated 12th January 1998 (96 KB, 361 functions) 
@@ -226,10 +230,20 @@ The following games have references to **Blast graphics** in their executables o
 * **The Chronicles of Jaruu Tenk** - bg.dll dated 8th Oct 1999 (1020 functions)
 * **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (1019 functions)
 * **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
-* **Disney's Extremely Goofy Skateboarding** - Blast graphics is compiled statically in the executable, dated 23rd August 2001 
+* **Disney's Extremely Goofy Skateboarding** - Blast Graphics is compiled statically in the executable, dated 23rd August 2001 
 
+## BEAST Game Engine
+In Championship Surfer we can clearly see the engine was called **BEAST**: `// For use with the BEAST Game Engine` and contained a file called beast.cfg which is a plain text file with the text **BEAST Config File** at the top. 
+
+It was always compiled into the main game executable so unlike the Blast Graphics 3d library we don't have a lot of information on what functions it contained.
+
+What we do know is a few of the source file paths which were left in the Dreamcast version of championship surfer:
+* C:\Src\beast98\beast98.cpp
+* C:\Src\beast98\animscript.cpp
+
+---
 ## Blast Graphics windows library (bg.dll)
-The Blast Graphics engine/library, which is presumably the precursor to the Merkury engine is located in the **bg.dll** file, looking at the exports table we know it has the following functionality:
+The **Blast Graphics** 3d library, which is 3D library used in early Merkury engine games is either located in the **bg.dll** file or compiled statically in the executable, looking at the exports table we know it has the following functionality:
 
 Name | Location | Function Signature | Function Size (bytes) | Description
 ---|---|---|---|---
@@ -417,23 +431,17 @@ DirectDrawCreateEx | 0x1002593c | DirectDrawCreateEx() | 6 |
 DirectDrawEnumerateA | 0x10025942 | DirectDrawEnumerateA() | 6 | 
 entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 | 
 
+Although Blast Graphics was a 3D library it also contained alot of game engine functionality such as sound, keyboard input, AVI video playback, animation and more.
 
 ---
 # Mike Stewart's Pro Bodyboarding (February 1999)
 Mike Stewart's Pro Bodyboarding (MSPB) was released to good reviews and would become **Gee Whiz! Entertainment's** greatest accompllishment as a studio until they went on to become **Krome Studios** in November of the same year. 
 
-The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom **Blast Graphics** library that contained alot of game engine functionality such as keyboard input, AVI video playback, lighting, animation and more.
+The official Krome Studio's website from 2001 claimed that it **was using the Merkury engine**, but analysing the game files has no mention of the Merkury engine and instead seems to be using a custom engine called **BEAST** and **Blast Graphics** for the 3D. 
 
-It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`. The name **BEAST** is interesting as the next game that used the same engine, **Championship Surfer** had the codename **Beast98** during development. 
+It has a file called **beast.cfg** which has the following string at the top: `BEAST Config File (c) Copyright 1999 Mind Mechanics`. Note that the next game that used the same engine, **Championship Surfer** had the name of the engine as **Beast98** during development, the 1998 version of the BEAST game engine.
 
-As for Mind Mechanics, they were previously known as **SubZero software** and had worked on multiple games with Gee Whizz! in the past. Including the Halloween Harry series and their website talked about plans for a 3rd in the series that was 3D, until their site went down at the end of 1999 (when Krome Studios was formed). They are also known for their game **Rapid Glider The Race to Galamax** [^21]. 
-
-
-```
-contracting our programming services along with GeeWhiz! Entertainment
-```
-
-It is likely they shared a lot of code between this bodyboarding game and a surfing game so its possible that the codename for this was beast and then beast98 was the codename for **Championship Surfer**.
+As for Mind Mechanics, they were previously known as **SubZero software** and had worked on multiple games with Gee Whizz! in the past. Including the Halloween Harry series and their website talked about plans for a 3rd in the series that was 3D, until their site went down at the end of 1999 (when Krome Studios was formed). They are also known for their game **Rapid Glider The Race to Galamax** [^21].
 
 We at least know that the wave generation engine was used in three games, as on the website announcing their new PS2 game **Sunny Garcia Surfing** it proudly announces it :
 > Ground breaking, 3rd generation, proprietary wave generation engine, first seen in Mike Stewart's Pro Bodyboarding, then in Championship Surfer, creates stunningly realistic wave sets in full 3D.
@@ -457,10 +465,10 @@ The was written in either C or C++ and it is built using DirectX 7 and likely Vi
 
 The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine!
 
-Although I believe at the time the engine was actually called **Blast Graphics** rather than Merkury as it contains the **bg.dll**. See the Blast graphics section below for more information.
+Although the name "Merkury" wouldn't appear until the founding of **Krome Studios** so it used the name **Blast Graphics** for the 3D engine with the functionality contained in **bg.dll**. See the Blast graphics section for more information.
 
 Some notes about Jaruu:
-* It uses MAD files for Material Data same as other early Merkury engine games
+* It uses **.MAD** files for Material Data same as other early Merkury engine games
 
 ---
 # Halloween Spirit Board (October 1999)
@@ -469,8 +477,8 @@ Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Boar
 Although it is odd that both Jaruu Tenk and Halloween Spirit Board were released in exactly the same month but that is what their official press releases say [^19].
 
 ---
-# Championship Surfer (November 2000)
-Championship Surfer is a 2000 game available for Windows, Dreamcast (2001) and PS1 (2001), the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
+# Championship Surfer (November 2000) - First game to officially call the engine Merkury
+**Championship Surfer** is a 2000 game available for Windows, Dreamcast (2001) and PS1 (2001), the Windows and Dreamcast versions are the **first game credited** as using the **Merkury** engine, with no mention of the engine for the PS1 release. 
 
 However it is presumed some of the code was re-used between the Windows and PS1 games so it is likely that even the PS1 version is using some Merkury engine code.
 
@@ -497,36 +505,39 @@ The **Windows** and **Dreamcast** versions of Championship Surfer (2001) is the 
 It is also the first game that uses the RKV archive format (still never found out what it stands for) in both the Dreamcast and Windows versions, see the section below for the format of these archives as they differ from later Merkury engine games that use the same file extension (.rkv).
 
 ### Beast98 and HotWaves
-Thanks to strings left in the Dreamcast version of the game we know that the main game specific code was in a folder called **beast98**, which was presumably the codename given to the project early on in development. Interestingly they also use an alternative codename which is even cooler **HotWaves** which is a nice nod to Mattel who own the Hot wheels franchise and were also the publisher for this game!
+Thanks to strings left in the Dreamcast version of the game we know that the main game specific code was in a folder called gamecode under the 1998 Version of their BEAST game engine called **beast98**. Interestingly call the game **HotWaves** internally which is a nice nod to Mattel who own the Hot wheels franchise and were also the publisher for this game!
 
 The executable has a few paths left intact which give a hint as to the folder structure:
-* C:\Src\beast98\animscript.cpp
-* C:\Src\beast98\gamecode\arcade.cpp
-* C:\Src\beast98\gamecode\championship.cpp
-* C:\Src\beast98\gamecode\credits.cpp
-* C:\Src\beast98\gamecode\duck.cpp
-* C:\Src\beast98\gamecode\elimination.cpp
-* C:\Src\beast98\gamecode\freesurf.cpp
-* C:\Src\beast98\gamecode\game.cpp
-* C:\Src\beast98\gamecode\mainmenu.cpp
-* C:\Src\beast98\gamecode\Replay.cpp
-* C:\Src\beast98\gamecode\Rumble.cpp
-* C:\Src\beast98\gamecode\rumbleicon.cpp
-* C:\Src\beast98\gamecode\settings.cpp
-* C:\Src\beast98\gamecode\wavegen.cpp
-* C:\Src\beast98\gamecode\surfdude.cpp
-* C:\Src\beast98\gamecode\dolphin.cpp
-* C:\Src\beast98\gamecode\photoman.cpp
-* C:\Src\beast98\gamecode\islandboy.cpp
-* C:\Src\beast98\gamecode\diver.cpp
-* C:\Src\beast98\gamecode\lifeguard.cpp
-* C:\Src\beast98\gamecode\femaleswimmer.cpp
-* C:\Src\beast98\gamecode\helicopter.cpp
-* C:\Src\beast98\gamecode\seagull.cpp
-* C:\Src\beast98\gamecode\shark.cpp
-* C:\Src\beast98\gamecode\world.cpp
-* C:\Src\beast98\gamecode\TextureMatrix.cpp
-* C:\Src\beast98\beast98.cpp
+
+File Path | Description
+---|---
+C:\Src\beast98\beast98.cpp | 
+C:\Src\beast98\animscript.cpp | 
+C:\Src\beast98\gamecode\arcade.cpp | 
+C:\Src\beast98\gamecode\championship.cpp | 
+C:\Src\beast98\gamecode\credits.cpp | 
+C:\Src\beast98\gamecode\duck.cpp | 
+C:\Src\beast98\gamecode\elimination.cpp | 
+C:\Src\beast98\gamecode\freesurf.cpp | 
+C:\Src\beast98\gamecode\game.cpp | 
+C:\Src\beast98\gamecode\mainmenu.cpp | 
+C:\Src\beast98\gamecode\Replay.cpp | 
+C:\Src\beast98\gamecode\Rumble.cpp | 
+C:\Src\beast98\gamecode\rumbleicon.cpp | 
+C:\Src\beast98\gamecode\settings.cpp | 
+C:\Src\beast98\gamecode\wavegen.cpp | 
+C:\Src\beast98\gamecode\surfdude.cpp | 
+C:\Src\beast98\gamecode\dolphin.cpp | 
+C:\Src\beast98\gamecode\photoman.cpp | 
+C:\Src\beast98\gamecode\islandboy.cpp | 
+C:\Src\beast98\gamecode\diver.cpp | 
+C:\Src\beast98\gamecode\lifeguard.cpp | 
+C:\Src\beast98\gamecode\femaleswimmer.cpp | 
+C:\Src\beast98\gamecode\helicopter.cpp | 
+C:\Src\beast98\gamecode\seagull.cpp | 
+C:\Src\beast98\gamecode\shark.cpp | 
+C:\Src\beast98\gamecode\world.cpp | 
+C:\Src\beast98\gamecode\TextureMatrix.cpp | 
 
 The PC version also used the Beast98 code even although the strings above were stripped from the binary, we know this as there was a `crash.log` file left in the **Surf_PC.rkv** archive:
 ```markdown
@@ -563,7 +574,7 @@ A few paths in the dreamcast version hint at there being a standard platform lib
 
 
 ### Krome's Dreamcast Blast Graphics (BG) library
-Also a few file paths are related to **BG** (possibly named Blast Graphics?) which I believe is the main game engine code which uses DirectX 7 on Dreamcast:
+Also a few file paths are related to **Blast Graphics** which uses DirectX 7 on Dreamcast:
 * C:\src\Bg\bg.cpp
 * C:\src\Bg\bgsound.cpp
 * C:\src\Bg\system.cpp
@@ -749,7 +760,7 @@ The game **Disney's Extremely Goofy Skateboarding** pre-dates the Merkury engine
 
 Although it doesn't use Merkury it would be interesting to see if any code from this game made it into early versions of the Merkury engine.
 
-The 3D Engine programmer for the Goofy game, **Tony Ball** was also one of the founding developers of the Merkury engine, so it is likely some of the code was re-used in Merkury or it at least helped shape the design decisions made in the engine.
+The 3D Engine programmer for the Goofy game, **Tony Ball** was also one of the founding developers of the Merkury engine, for this game the Blast graphics engine was compiled statically inside the executable.
 
 Differences from the Merkury engine:
 * **Asset archives** - Instead of the RKV format, the game bundles its assets into a file called **data0.pkg**, this is simply a Zip file, so its very easy to extract the contents by adding the .zip extention to the end.
@@ -783,7 +794,7 @@ The executable also has a few file paths left in which give a hint about the fol
 * D:\Src\Skating\Source\Main.cpp - Contained WinMain
 * D:\Src\Skating\Source\GameData.cpp - Save Data
 
-Other interesting strings in the executable include `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
+The reason we know it uses Blast Graphics is due to the string `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
 
 ---
 ## Asset Archive - data0.pkg
@@ -833,19 +844,20 @@ The level files are plain text XML data which links together all the other files
 
 As far as I know this is a custom format made for this game and not an industry standard.
 
-
 ---
 # Sunny Garcia Surfing (October 2001)
 Sunny Garcia Surfing was released on the PS2 in October 2001 in which Krome clearly listed the Merkury engine in the game credits. It has no mentions of Blast Graphics which makes sense as this is the first PS2 game they have released which would have required a complete re-write of the graphics engine to make the most out of the hardware.
 
 The Merkury Engine programming for the game is credited to the following programmers in the manual for the game [^1]: 
-* **Tony Ball** - The main 3D developer behind the Blast Graphics engine used in prior titles [^3]
+* **Tony Ball** - The main 3D developer behind the Blast Graphics 3D engine used in prior titles [^3]
 * **James Podesta** - Also credited as Lead programmer on the game has been at Krome Studios since at least **Championship Surfer** back in 2000 and still there in 2023!
 * **Dave Pevreal** - Also credited as Lead engine programmer on the Merkury engine version of **Star Wars: The Force Unleashed** [^3]
 
 ---
 # Barbie: Sparkling Ice Show (2002)
-Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics and instead had strings related to Merkury in the game executable such as `Merkury Options`.
+Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics at all and instead had strings related to Merkury in the game executable such as `Merkury Options`.
+
+This hints that they never updated the Blast Graphics engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
 
 ---
 # Ty the Tasmanian Tiger (2002)
