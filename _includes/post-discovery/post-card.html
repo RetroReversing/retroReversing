@@ -15,7 +15,7 @@ Parameters:
 {% endcomment %}
 
 {% if include.hidden %}
-  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="include.post.image" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
+  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="{{ include.post.image }}" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
 {% else %}
   <div class="{{ include.classes }} card card-video">
       <div class="card-img">
@@ -40,7 +40,7 @@ Parameters:
       </div>
       <div class="card-block">
            <h4 class="card-title">
-             <a href="{{ include.post.url }}" aria-label="{{ include.post.permalink }}" target="_blank" >{{ include.post.title }}</a>
+             <a href="{{ include.post.url }}" aria-label="{{ site.baseurl }}{{ include.post.url }}" target="_blank" >{{ include.post.title }}</a>
            </h4>
            <div class="card-meta">
              {% if include.post.updatedAt %}
