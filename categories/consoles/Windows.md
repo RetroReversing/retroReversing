@@ -78,10 +78,15 @@ It is a tool that mirrors various CD-ROM images uploaded by archive.org by users
 
 ---
 ## Windows Game Engines
-The best way to see the wide range of game engines available for PC is to check out the SteamDB section which catalogs all the games by the game engines/libraries used to create them:
-[Technologies - SteamDB](https://steamdb.info/tech/)
+For modern games the best way to see the wide range of game engines available for PC is to check out the **SteamDB** tech section which catalogs all the games by the game engines/libraries used to create them:
+[Technologies - SteamDB](https://steamdb.info/tech/). But for earlier pre-steam titles it can be harder to track down information on their game engine, so this section will go through the most popular ones (there are too many PC game engines to list them all).
 
-## Networking with winsock
+### id Tech 3 engine
+The original PC version of **Call of Duty** (released in 2003) was built using a highly modified version of the id Tech 3 engine, which was originally used for games like **Quake III Arena**.
+This engine was adapted and enhanced by Infinity Ward to deliver distinctive features for Call of Duty, and while later games in the series would use the proprietary **IW engine** (a fork that diverged from id Tech 3), the original game remained fundamentally based on id Tech 3
+
+---
+## Retro Game Programming Tutorials
 If you are looking to reverse games from the late 1990s then it can sometimes be useful to see tutorials that were posted online during that time, **flipCode** had a good multi-part series on writing networking code [flipCode - Network Game Programming](https://web.archive.org/web/19990909174312/http://www.flipcode.com/network/)
 
 ---
