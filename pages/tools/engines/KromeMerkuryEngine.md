@@ -232,7 +232,10 @@ The following games have references to **Blast graphics** in their executables o
 * **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
 * **Disney's Extremely Goofy Skateboarding** - Blast Graphics is compiled statically in the executable, dated 23rd August 2001 
 
+---
 ## BEAST Game Engine
+The BEAST game engine was built by Mind Mechanics (SubZero Software) and was used for **Mike Stewart's Pro Bodyboarding** and the surfing games that used the same engine. 
+
 In Championship Surfer we can clearly see the engine was called **BEAST**: `// For use with the BEAST Game Engine` and contained a file called beast.cfg which is a plain text file with the text **BEAST Config File** at the top. 
 
 It was always compiled into the main game executable so unlike the Blast Graphics 3d library we don't have a lot of information on what functions it contained.
@@ -240,6 +243,18 @@ It was always compiled into the main game executable so unlike the Blast Graphic
 What we do know is a few of the source file paths which were left in the Dreamcast version of championship surfer:
 * C:\Src\beast98\beast98.cpp
 * C:\Src\beast98\animscript.cpp
+
+And from a crash log output found on the Russian Disc called [Classic Fond 58](http://discmaster.textfiles.com/browse/4370/ClassicFond58.iso/games/mspb.rar) we have:
+```
+BEAST::Timer1Timer
+ BEAST::RunHub
+  BEAST::DoLogics
+   GAME::Main
+    GAME::B4MainMenu
+     GAME::PlayASong
+      BEAST::vLoadSFX
+       BEAST::myhandler
+```
 
 ---
 ## Blast Graphics windows library (bg.dll)
