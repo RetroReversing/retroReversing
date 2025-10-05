@@ -36,13 +36,13 @@ Usage:
   <div class="toolbar toolbar-links">
     <h5>{{ heading }}</h5>
     {%- if include.hide_show_all != true -%}
-        <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="/{{ include.tag }}">Show All {{ filtered_pages | size }} Posts</a></li></ul>
+        <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="{{ site.baseurl }}{{ include.tag }}">Show All {{ filtered_pages | size }} Posts</a></li></ul>
     {%- endif -%}
   </div>
   <div class="row rr-post-playlist-row {{ include.classes }}">
     {%- for relevant_page in filtered_pages limit: limit -%}
       {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
-        {%- include home-card.html post=relevant_page classes="" -%}
+        {% include post-discovery/post-card.html post=post classes="" %}
       {%- endif -%}
     {%- endfor -%}
   </div>
