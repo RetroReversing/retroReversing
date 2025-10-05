@@ -1,15 +1,22 @@
-/* original Blockquote code still used for links to other posts  */
-
-blockquote, .post .link-blockquote {
+/* Original Blockquote code used for non-posts  */
+blockquote {
     padding: .5rem 1rem;
     margin: .8rem 0;
     color: #7a7a7a;
     border-left: .25rem solid #e5e5e5
 }
-
-blockquote p:last-child, .post .link-blockquote p:last-child {
+blockquote p:last-child {
     margin-bottom: 0
 }
+
+/* Blockquote code used for links to other posts  */
+.post .link-blockquote blockquote {
+    /* padding: .5rem 1rem;
+    margin: .8rem 0; */
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+}
+
 
 @media (min-width: 30em) {
     blockquote {
