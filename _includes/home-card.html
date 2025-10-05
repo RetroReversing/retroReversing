@@ -9,7 +9,7 @@
             {% elsif include.post.youtube %}
                 <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ include.post.youtube }}" alt="{{ include.post.title }}">
             {% else %}
-                {% include placeholder-post-image.html title=include.post.title %}
+                {% include placeholder-post-image.html title=include.post.title post=include.post %}
             {% endif %}
           </a>
           {% if include.post.recommend %}
