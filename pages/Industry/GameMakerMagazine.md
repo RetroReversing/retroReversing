@@ -27,13 +27,14 @@ tags:
 _updatedAt: '2025-02-15'
 ---
 
-![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
-
 **GameMaker** was a unique magazine first published by **Future PLC** in the UK in October 2003. It was a game development and modding magazine targeted at the general public!  
 It had the tagline "The world's only dedicated game modding magazine" and featured interviews with prominent members of the PC game modding scene along with industry professionals.
 
+## Short Run
+![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
 Sadly, the topic was deemed too niche and only **one standalone issue** was ever published before it became a section of **PC Format** magazine for two issues (159 & 160), and then a separate supplement distributed with the magazine for a further three issues, until it was replaced in issue 165 by a Doom 3 supplement instead.
 
+---
 # GameMaker Magazine Index of Articles
 Below is a table of all the articles known to have been included in **GameMaker** magazine’s short run. This includes when it was a standalone issue (1), when it was a section of **PC Format** (2–3), and when it was a separate supplement included with PC Format (4–7).
 
@@ -70,6 +71,7 @@ Issue 7 started tutorials **Call of Duty Mapping** and **Homeworld 2 The Basics*
 It appeared that a GameMaker issue 8 was planned, as it was advertised at the end of issue 7, although issue 165 instead came with a Doom 3 supplement:
 ![Advert for an issue 8 of GameMaker which was to be included in PC FORMAT issue 165](https://github.com/user-attachments/assets/f90b0c35-31f6-448a-ab81-7d9338f6e457)
 
+---
 ## Odd Mods - Weird PC Game Mods
 From issues 4 to 7, there was a one-page section at the back of the magazine where **Mark Holtham** explored the weird PC game mods available at the time. For anyone looking to discover unusual old game mods, the mods he covered are listed in the table below, along with URLs that will likely need to be accessed via the Wayback Machine:
 
