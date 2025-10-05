@@ -61,7 +61,8 @@ The post contains everything we know about the interviews and articles published
 
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
-If anyone has the 4 **GameMaker** supplement magazines from issue 161-164 then please get in contact we would love to see them!
+### GameMaker Magazine Index of Articles
+Below is a table of all the articles we know that were included in the **GameMaker** magazines short run, this includes when it was a standalone issue (1), when it was a section of **PC Format** (2-3) and when it was a seperate supplement included with PC Format (4-7).
 
 Issue | Name | Description
 ---|---|---
@@ -82,6 +83,30 @@ Issue | Name | Description
 1 | MILKSHAPE | Tutorial for creating a 3d man with a gun that can be imported into Unreal Tournament
 1 | QUAKE III | Detailed guide for how to create a level in Quake 3 using Q3Map2Toolz
 1 | LOW POLY MODELLING | Creating a low poly model of a cartoon character in 3D Studio Max 5
+7 | Heart of Battle | Interview with Mike Domenighin who is part of the 9 man team behind **Heart of Battle** a mod for Call of Duty
+7 | Ground Control II | Tutorial for creating a Map with the official XEd level editor released by Massive Entertainment
+7 | Advanced Techniques in Battlecraft | part 2 of the tutorial on the modding tool for Battlefield 1942 and Battlefield Vietnam
+7 | The Sims 2 Body shop | Try your hand at genetics and start creating life for the sims 2, months before the games release
+7 | Call of Dutry Mapping (Part 1) | 
+7 | What the Blender Saw (Part 2) | Interactive fiction
+7 | Homeworld 2 The Basics (Part 1) | Homeworld 2 Random Map editor
+7 | In Hindsight | Interview with the developer of **A tale in the desert** eGenesis
+
+Issue 7 started tutorials **Call of Duty Mapping** and **Homeworld 2 The Basics** but there was never an issue 8, so not sure if the Part 2 of these tutorials ever got published.
+
+But it looked like they intended for there to be a GameMaker issue 8 as they advertised it at the end of 7, although issue 165 actually came with a Doom 3 supplement instead:
+![Advert for an issue 8 of GameMaker which was to be included in PC FORMAT issue 165](https://github.com/user-attachments/assets/f90b0c35-31f6-448a-ab81-7d9338f6e457)
+
+### OddMods
+There was a short one page section at the back of the magazine where **Mark Holtham** would take a look at the weird PC game modes available at the time
+
+Issue | Mod Name | Game its a mod for | Description | URL
+---|---|---|---|---
+7 | Alien Swarm | Unreal Tournament 2004 | A top-down cooperative multiplayer mod inspired by Gauntlet, featuring class-based gameplay and team-based bug extermination missions. | www.blackcatgames.com/swarm
+7 | Hydro Racer | Battlefield 1942 | A water-based racing mod featuring boats with missiles, torpedoes, and machine guns for competitive and entertaining gameplay. | www.bf1942hq.com/hydroracers
+7 | Matrix Mod | Quake III | A slow-motion "Bullet Time" mod inspired by The Matrix, allowing cinematic firefights with realistic physics and time manipulation. | www.planetquake.com/matrixq3
+7 | Code Red | Quake III / Freeware | A single-player and freeware total conversion featuring Mars attacks-inspired levels, alien enemies, and large-scale combat environments. | www.planetquake.com/codered
+
 
 ---
 ## Journal of Computer Game Design
