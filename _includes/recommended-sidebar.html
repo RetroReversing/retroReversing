@@ -9,11 +9,16 @@
     
     <ul class="widget-list">
       {% if page.recommend.first %}
+       {% comment %}
+          This is for when the recommend IS AN array
+        {% endcomment %}
+      
         {% for recommend in page.recommend %}
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
-                  {% include home-card.html post=post classes="" %} 
+                  <!-- {% include home-card.html post=post classes="" %}  -->
+                  {% include post-discovery/post-card.html post=post classes="" %}
                   <hr />
                 </li>
               {% endif %}
@@ -21,23 +26,15 @@
         {% endfor %}
       {% else %}
       
+        {% comment %}
+          This is for when the recommend is NOT an array
+        {% endcomment %}
+      
         {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
           {% if post.tags contains page.recommend and post.title != page.title %}
             <li>
-<!--               <div class="widget-img">
-                <a href="{{ post.permalink }}" target="_blank">
-                  {% if post.image %}
-                    <img class="lazy-load" style="height:135px; display:block;" data-image-full="{{ post.image }}" alt="">
-                  {% elsif post.youtube %}
-                    <img class="lazy-load" style="height:135px; display:block;" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
-                 {% else %}
-                    <div style="background-color: lightgrey; height:135px; display:block;" />
-                 {% endif %}
-                </a>
-                <span>{{ page.recommend }}</span>
-              </div>
-              <h4><a href="{{ post.permalink }}" target="_blank">{{ post.title }}</a></h4>  -->
-              {% include home-card.html post=post classes="" %} 
+              <!-- {% include home-card.html post=post classes="" %}  -->
+              {% include post-discovery/post-card.html post=post classes="" %} 
               <hr />
             </li>
           {% endif %}
