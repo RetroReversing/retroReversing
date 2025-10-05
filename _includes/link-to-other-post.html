@@ -11,7 +11,7 @@
       {% elsif post.youtube %}
         <img style="min-width:200px; max-width:200px" class="lazy-load otherPostImg" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
       {% else %}
-        {% include placeholder-post-image.html title=post.title %}
+        {% include placeholder-post-image.html title=post.title post=post %}
       {% endif %}
     </a>
   </div>
