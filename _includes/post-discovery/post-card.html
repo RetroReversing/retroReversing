@@ -6,9 +6,12 @@ Some Notes:
 * It does not show posts with "hidden" in their front matter.
 * If there is no image for the page it will first check if it has a youtube and use that otherwise it will generate a fake preview using the placeholder-post-image.html include
 
+Usage:
+  {% raw %}{% include post-discovery/post-card.html post=post classes="" %}{% endraw %}
+
 Parameters:
-* post - the full page/post object (e.g from a loop of site.pages)
-* classes - optional classes to apply to the top level div
+  * post - the full page/post object (e.g from a loop of site.pages)
+  * classes - optional classes to apply to the top level div
 {% endcomment %}
 
 {% if include.hidden %}
@@ -37,7 +40,7 @@ Parameters:
       </div>
       <div class="card-block">
            <h4 class="card-title">
-             <a href="{{ include.post.url }}" target="_blank" >{{ include.post.title }}</a>
+             <a href="{{ include.post.url }}" aria-label="{{ include.post.permalink }}" target="_blank" >{{ include.post.title }}</a>
            </h4>
            <div class="card-meta">
              {% if include.post.updatedAt %}
