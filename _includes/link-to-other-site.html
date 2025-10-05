@@ -4,8 +4,8 @@
 
 <div class="linkToOtherPost">
 {% if include.url %}
-  <a href="{{ include.url }}" target="_blank">
-    <blockquote>
+  <blockquote class="link-blockquote">
+    <a href="{{ include.url }}" target="_blank">
       <div class="widget-img">
           {% if include.image %}
             <img style="max-width:200px" class="lazy-load otherPostImg" data-image-full="{{ include.image }}" alt="">
@@ -17,7 +17,7 @@
         <h3 style="margin-top:10px; margin-left: 10px"><a target="_blank" href="{{ include.url }}">{{ include.title }}</a></h3> 
         <p>{{ include.description }}</p>
       </div>
-    </blockquote>
-  </a>
+    </a>
+  </blockquote>
 {% endif %}
 </div>
