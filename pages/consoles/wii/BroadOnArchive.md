@@ -65,9 +65,11 @@ Whether you have the original or the NOCVS fixed version you will get 3 differen
 
 ---
 # Depot.tar - iQue specifications by RouteFree
-The name depot may be related to the network functionality of the iQue known as the iQue Depot. 
+<img width="375" height="394" alt="Image of the iQue Depot physical kiosk used in China" src="https://github.com/user-attachments/assets/855c0c43-38ab-4c9b-b21a-e81540f1c349" />
 
-The iQue Depot is the service that was later enchanted and used for the Nintendo Wii. 
+The name depot may be related to the network functionality of the iQue known as the **iQue Depot** [^3] which you can find more information on over at [iQue Depot - iQueBrew](http://www.iquebrew.org/index.php?title=IQue_Depot). 
+
+The iQue Depot is the service that was later enhanced and used for the Nintendo Wii.
 
 ## CVSROOT Folder
 As the name implies this folder is for the configuration of the Concurrent Versions System. You can think of this folder as similar to the `.git` folder in more modern projects. Nothing interesting to see here.
@@ -216,3 +218,4 @@ Both the resulting library files and tab files are used in the the Behavioural S
 # References
 [^1]: [Revision Control System - Wikipedia](https://en.wikipedia.org/wiki/Revision_Control_System#Second_generation)
 [^2]: Principles of Verilog PLI By Swapnajit Mittra page 6
+[^3]: [iQue Depot - iQueBrew](http://www.iquebrew.org/index.php?title=IQue_Depot)
