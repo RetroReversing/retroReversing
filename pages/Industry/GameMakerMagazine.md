@@ -24,7 +24,7 @@ _twitterimage: https://www.retroreversing.com/public/images/magazines/Develop UK
 tags:
  - industry
  - magazines
-updatedAt: '2025-02-15'
+_updatedAt: '2025-02-15'
 ---
 
 ![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
