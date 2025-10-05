@@ -224,14 +224,6 @@ In the Help file for **Mike Stewart's Pro Bodyboarding** it lists two libraries 
 * **Beast Game Engine** Copyright &copy; 1999 Mind Mechanics
 * **Blast Graphics 3D Engine** Copyright &copy; 1999 Tony Ball
 
-The following games have references to **Blast graphics** in their executables or contain the windows dynamic library **bg.dll**:
-* **Gruesome Castle Demo** - [bg.dll](https://discmaster.textfiles.com/view/17105/TEKNO%202-1998.iso/games/gcdemo.zip/GC_Demo/bg.dll) dated 12th January 1998 (96 KB, 361 functions) 
-* **Halloween Spirit Board** - bg.dll dated 12th September 1999 (1018 functions)
-* **The Chronicles of Jaruu Tenk** - bg.dll dated 8th Oct 1999 (1020 functions)
-* **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (1019 functions)
-* **Championship Surfer** - bg.dll dated 28th September 2000 (613 functions)
-* **Disney's Extremely Goofy Skateboarding** - Blast Graphics is compiled statically in the executable, dated 23rd August 2001 
-
 ---
 ## BEAST Game Engine
 The BEAST game engine was built by Mind Mechanics (SubZero Software) and was used for **Mike Stewart's Pro Bodyboarding** and the surfing games that used the same engine. 
@@ -257,8 +249,19 @@ BEAST::Timer1Timer
 ```
 
 ---
-## Blast Graphics windows library (bg.dll)
-The **Blast Graphics** 3d library, which is 3D library used in early Merkury engine games is either located in the **bg.dll** file or compiled statically in the executable, looking at the exports table we know it has the following functionality:
+## Blast Graphics 3D library (bg.dll)
+The **Blast Graphics** 3d library, which is 3D library used in early Merkury engine games is either located in the **bg.dll** file or compiled statically in the executable.
+
+The following games have references to **Blast graphics** in their executables or contain the windows dynamic library **bg.dll**:
+* **Gruesome Castle Demo** - [bg.dll](https://discmaster.textfiles.com/view/17105/TEKNO%202-1998.iso/games/gcdemo.zip/GC_Demo/bg.dll) dated 12th January 1998 (96 KB, 361 functions) 
+* **Mike Stewart's Pro Bodyboarding (Australian version)** - bg.dll dated 30th May 1999 (258KB, 489 functions)
+* **Halloween Spirit Board** - bg.dll dated 12th September 1999 (369KB, 1018 functions)
+* **The Chronicles of Jaruu Tenk** - bg.dll dated 8th Oct 1999 (360KB, 1020 functions)
+* **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (352KB, 1019 functions)
+* **Championship Surfer** - bg.dll dated 28th September 2000 (217KB, 613 functions)
+* **Disney's Extremely Goofy Skateboarding** - Blast Graphics is compiled statically in the executable, dated 23rd August 2001
+
+Looking at the exports table of one the the dlls we know it has the following functionality:
 
 Name | Location | Function Signature | Function Size (bytes) | Description
 ---|---|---|---|---
