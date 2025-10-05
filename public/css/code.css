@@ -32,7 +32,7 @@
     border-radius: 0
 }
 
-blockquote, .post .link-blockquote {
+/* blockquote, .post .link-blockquote {
     padding: .5rem 1rem;
     margin: .8rem 0;
     color: #7a7a7a;
@@ -48,7 +48,7 @@ blockquote p:last-child, .post .link-blockquote p:last-child {
         padding-right: 5rem;
         padding-left: 1.25rem
     }
-}
+} */
 
 code {
     color: #666
