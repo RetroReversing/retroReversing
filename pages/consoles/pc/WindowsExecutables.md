@@ -132,6 +132,8 @@ RVA is a fundamental concept in Windows programming, as it allows for position-i
 
 ## CodeView 
 
+The Microsoft CodeView debugger stores its debug symbols in different places (and formats) depending on the version of Microsoft Visual C was used, if you are lucky enough to find a windows game that has debug symbols it is possible that they are in a CodeView format. Depending on the age of the game (what version of Visual Studio was used) the debug symbols could either be stored embedded inside the executable itself or in a seperate .pdb file.
+
 You can find a table of the rough time frame when you can find each version of CodeView Debug symbols:
 
 | Era          | Toolchain            | CodeView Signature | Typical Year | PDB Reference     |
@@ -139,6 +141,38 @@ You can find a table of the rough time frame when you can find each version of C
 | CodeView 2.x | MS C 6.0             | `NB02`             | ~1990        | Inline            |
 | CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | `.pdb` path only  |
 | CodeView 7.0 | MSVC 7.0+ (.NET era) | `RSDS` (or `CV7`)  | 2002–present | GUID + Age + path |
+
+The easiest way for a quick check if you have a pre-2000 executable is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`
+
+If you a copy of **dumpbin.exe** from a version of Visual Studio you can run the following in either wine or windows: 
+```bash
+wine dumpbin.exe /headers mspb.exe
+```
+
+You will get a bunch of headers printed out, look for the `.rdata` section it will list any debug directories found in the section along with the format like so:
+```ruby
+SECTION HEADER #2
+  .rdata name
+    1DAE virtual size
+   21000 virtual address (00421000 to 00422DAD)
+    2000 size of raw data
+   21000 file pointer to raw data (00021000 to 00022FFF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40000040 flags
+         Initialized Data
+         Read Only
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    3751D21C misc         110 00000000    28000    Image Name: Release/beast98.exe
+    3751D21C fpo         1CD0 00000000    28110
+    3751D21C cv         30E7C 00000000    29DE0    Format: NB11
+```
 
 ### Embedded CodeView 4.x symbols
 The **CVTRES 5.x linker** (Visual Studio 6.0) often embedded CodeView 4 format directly into .`debug$S` and `.debug$T` sections of the PE. Many reverse engineering tools such as Ghidra and Binary Ninja will ignore this data, or even crsh while opening the executable.
