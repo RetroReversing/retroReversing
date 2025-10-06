@@ -142,7 +142,8 @@ You can find a table of the rough time frame when you can find each version of C
 | CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | `.pdb` path only  |
 | CodeView 7.0 | MSVC 7.0+ (.NET era) | `RSDS` (or `CV7`)  | 2002–present | GUID + Age + path |
 
-The easiest way for a quick check if you have a pre-2000 executable is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`
+### Checking for embedded CodeView symbols in an exe
+The easiest way for a quick check if you have a pre-2000 executable is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`. If this is the case then we just need a way to extract the information, as just running **strings** will miss out vital information such as how to link the function name to the actual function in assembly code and other debugging information such as line number to assembly mapping.
 
 If you a copy of **dumpbin.exe** from a version of Visual Studio you can run the following in either wine or windows: 
 ```bash
@@ -175,8 +176,15 @@ SECTION HEADER #2
 ```
 
 You can see that this executable has debug directories in the NB11 format!
-
 However **dumpbin.exe** does not emit the CodeView blob as binary and will not decode the NBxx format records. It can help you locate them, but you need to read the bytes yourself.
+
+First of all the file pointer to CV data is very useful, if you open the executable in a hex editor and jump to offset `0x29DE0` you will get to the start of the CodeView debugging section, it also lists the size so you could extract just this data like so:
+```bash
+dd if=mspb.exe of=debug-cv.bin bs=1 skip=$((0x29DE0)) count=$((0x30E7C))
+```
+
+But there is an even easier way with [microsoft-pdb/cvdump/cvdump.exe](https://github.com/microsoft/microsoft-pdb/blob/master/cvdump/cvdump.exe) you can give your executable directly to cvdump and it will tell you what all the debug information means.
+
 
 ### Embedded CodeView 4.x symbols
 The **CVTRES 5.x linker** (Visual Studio 6.0) often embedded CodeView 4 format directly into .`debug$S` and `.debug$T` sections of the PE. Many reverse engineering tools such as Ghidra and Binary Ninja will ignore this data, or even crsh while opening the executable.
