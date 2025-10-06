@@ -156,12 +156,15 @@ struct CV4Header {
 Also `NB11` (bytes 4E 42 31 31) marks a **CodeView database header** used inside PDB v4.x and inline CV4-style blocks.
 
 ```c
-struct CVSubsection {
-  char Signature[4];   // e.g. "NB11"
-  char SubType;        // e.g. 'P' for publics, T for Types etc see table below
-  uint32_t Length;     // length of data following
-  uint8_t Data[Length];
+struct NB11Header
+{
+    char Signature[0x4]; //  e.g. "NB11"
+    char SubType; // e.g. 'P' for publics, T for Types etc see table below
+    uint16_t dataLength; // length of data following
+    uint16_t Reserved1;
+    uint16_t Reserved2;
 };
+// there are now NB11Header.dataLength bytes here (e.g 2 in the executable I have)
 ```
 
 Table of the subtypes:
