@@ -174,6 +174,10 @@ SECTION HEADER #2
     3751D21C cv         30E7C 00000000    29DE0    Format: NB11
 ```
 
+You can see that this executable has debug directories in the NB11 format!
+
+However **dumpbin.exe** does not emit the CodeView blob as binary and will not decode the NBxx format records. It can help you locate them, but you need to read the bytes yourself.
+
 ### Embedded CodeView 4.x symbols
 The **CVTRES 5.x linker** (Visual Studio 6.0) often embedded CodeView 4 format directly into .`debug$S` and `.debug$T` sections of the PE. Many reverse engineering tools such as Ghidra and Binary Ninja will ignore this data, or even crsh while opening the executable.
 
