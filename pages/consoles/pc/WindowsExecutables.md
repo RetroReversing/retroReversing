@@ -109,7 +109,7 @@ You can also find out more about the Portable Executable format on the official 
 ## How to dump a Windows executable?
 Dumping a Portable Executable (PE) file refers to extracting information from the file, such as its headers, sections, and other metadata. This process is often used for debugging and analysis. You can dump a PE file from the command line using either **Dumpbin** or **objdump**.
 
-**Dumpbin** (Microsoft SDK): If you have the Microsoft Visual Studio Development Tools installed, you can use the dumpbin utility to display information about a PE file. Open a Command Prompt and run the following command:
+**Dumpbin** (Microsoft SDK): If you have the Microsoft Visual Studio Development Tools installed, you can use the **dumpbin** utility to display information about a PE file. Open a Command Prompt and run the following command:
 ```bash
 dumpbin /headers yourfile.exe
 ```
@@ -125,3 +125,17 @@ RVA stands for "Relative Virtual Address". It is a term commonly used in the con
 RVA helps programs find things in their memory without needing to know exactly where everything is stored in memory. It's like a helpful set of directions.
 
 RVA is a fundamental concept in Windows programming, as it allows for position-independent code and the ability to load modules at different base addresses in memory, enhancing the compatibility and flexibility of Windows applications.
+
+---
+
+## CodeView 
+
+You can find a table of the rough time frame when you can find each version of CodeView Debug symbols:
+
+| Era          | Toolchain            | CodeView Signature | Typical Year | PDB Reference     |
+| ------------ | -------------------- | ------------------ | ------------ | ----------------- |
+| CodeView 2.x | MS C 6.0             | `NB02`             | ~1990        | Inline            |
+| CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | `.pdb` path only  |
+| CodeView 7.0 | MSVC 7.0+ (.NET era) | `RSDS` (or `CV7`)  | 2002–present | GUID + Age + path |
+
+
