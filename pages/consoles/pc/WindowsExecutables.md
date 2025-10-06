@@ -2,8 +2,6 @@
 permalink: /WindowsExecutables
 layout: post
 title: Windows Executables (NE, LE and PE Files)
-recommend: 
- - pc
 recommendTitle: All PC Posts
 editlink: ../pages/consoles/pc/WindowsExecutables.md
 console: 'pc'
@@ -16,8 +14,12 @@ breadcrumbs:
     url: /pc
   - name: Windows Executables
     url: #
+recommend: 
+ - pc
+ - windows
 tags:
   - pc
+  - windows
 ---
 
 # Introduction
@@ -41,7 +43,7 @@ The Executable file formats are:
  
 ## New Executable Format
 The following is the New Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
-```C
+```cpp
 /*
  * This is the Windows executable (NE) header.
  * the name IMAGE_OS2_HEADER is misleading, but in the SDK this way.
@@ -86,7 +88,7 @@ typedef struct
 You can find the structure of the PE file format in the C Header file called `winnt.h` located in any Windows NT based Software Development Kit or from the open source MinGW (Minimalist GNU for Windows) collection.
 
 The following is the Portable Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
-```C
+```c
 typedef struct _IMAGE_NT_HEADERS {
   DWORD Signature; /* "PE"\0\0 */	/* 0x00 */
   IMAGE_FILE_HEADER FileHeader;		/* 0x04 */
@@ -138,4 +140,16 @@ You can find a table of the rough time frame when you can find each version of C
 | CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | `.pdb` path only  |
 | CodeView 7.0 | MSVC 7.0+ (.NET era) | `RSDS` (or `CV7`)  | 2002–present | GUID + Age + path |
 
+### Embedded CodeView 4.x symbols
+The **CVTRES 5.x linker** (Visual Studio 6.0) often embedded CodeView 4 format directly into .`debug$S` and `.debug$T` sections of the PE. Many reverse engineering tools such as Ghidra and Binary Ninja will ignore this data, or even crsh while opening the executable.
+
+You can find these blocks of data by looking for the "CV" string in a hex editor, for CodeView 4 it would then be followed by the version number `0x04`. So you can search for the Hex `43560400` to find the start of the data.
+
+```c
+struct CV4Header {
+  char Signature[4];   // "CV4\0"
+  uint32_t Offset;     // Offset to symbol or type records
+  // followed by compiler signature and variable-length symbol records
+};
+```
 
