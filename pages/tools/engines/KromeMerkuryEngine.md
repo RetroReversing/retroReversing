@@ -233,8 +233,9 @@ In Championship Surfer we can clearly see the engine was called **BEAST**: `// F
 It was always compiled into the main game executable so unlike the Blast Graphics 3d library we don't have a lot of information on what functions it contained.
 
 What we do know is a few of the source file paths which were left in the Dreamcast version of championship surfer:
-* C:\Src\beast98\beast98.cpp
-* C:\Src\beast98\animscript.cpp
+* C:\Src\beast98\beast98.cpp - Dreamcast version of championship surfer
+* C:\Src\beast98\animscript.cpp - Dreamcast version of championship surfer
+* d:\beast\FUNCDECS.CPP - Inside Mike Stewart's Pro Bodyboarding Dso.bnk
 
 And from a crash log output found on the Russian Disc called [Classic Fond 58](http://discmaster.textfiles.com/browse/4370/ClassicFond58.iso/games/mspb.rar) we have:
 ```
@@ -248,6 +249,355 @@ BEAST::Timer1Timer
        BEAST::myhandler
 ```
 
+```
+Release/beast98.exe
+NB11P
+.\Release\beast98.res
+.\Release\StdAfx.obj
+.\Release\INSIDEPOly.obj
+.\Release\Filebank.obj
+.\Release\dxinput.obj
+.\Release\diskio.obj
+.\Release\beast98.obj
+.\Release\animscript.obj
+
+Microsoft CVTRES 5.00.1720.1
+C:\beast\INSIDEPOly.CPP
+C:\bg\Filebank.cpp
+C:\beast\dxinput.cpp
+C:\beast\diskio.cpp
+C:\beast\beast98.cpp
+C:\beast\animscript.cpp
+```
+
+ Type | Address  | Demangled Name | Symbol Name                            | Segment
+ ---|---|---|---|---|
+0x0000 |  0x401000 | int __cdecl GetValidAnimStr(char *, char *, int) | ?GetValidAnimStr@@YAHPAD0H@Z | 0x100
+0x0000 |  0x401100 | int __cdecl DigitStr(char *, char *, int) | ?DigitStr@@YAHPAD0H@Z | 0x100
+0x0000 |  0x401190 | int __cdecl NonDigitStr(char *, char *, int) | ?NonDigitStr@@YAHPAD0H@Z | 0x100
+0x0000 |  0x401220 | void __cdecl ExtractFrameValues(char *, int &, int &, int &) | ?ExtractFrameValues@@YAXPADAAH11@Z | 0x100
+0x0000 |  0x401340 | public: void __thiscall ANIMATION::Reset(void) | ?Reset@ANIMATION@@QAEXXZ | 0x100
+0x0000 |  0x401360 | public: int __thiscall ANIMATION::GetFrameCount(void) | ?GetFrameCount@ANIMATION@@QAEHXZ | 0x100
+0x0000 |  0x401370 | public: int __thiscall ANIMATION::GetSpeed(void) | ?GetSpeed@ANIMATION@@QAEHXZ | 0x100
+0x0000 |  0x401380 | public: void __thiscall ANIMATION::NextFrame(void) | ?NextFrame@ANIMATION@@QAEXXZ | 0x100
+0x0000 |  0x401500 | public: int __thiscall ANIMATION::GetCurrFrameNr(void) | ?GetCurrFrameNr@ANIMATION@@QAEHXZ | 0x100
+0x0000 |  0x401510 | public: void __thiscall ANIMATION::SetCycle(int) | ?SetCycle@ANIMATION@@QAEXH@Z | 0x100
+0x0000 |  0x401520 | public: int __thiscall ANIMATION::GetCycle(void) | ?GetCycle@ANIMATION@@QAEHXZ | 0x100
+0x0000 |  0x401530 | public: void __thiscall ANIMATION::SetName(char *) | ?SetName@ANIMATION@@QAEXPAD@Z | 0x100
+0x0000 |  0x401560 | public: char * __thiscall ANIMATION::GetName(void) | ?GetName@ANIMATION@@QAEPADXZ | 0x100
+0x0000 |  0x401570 | public: void __thiscall ANIMATION::ProcessAnimData(char *) | ?ProcessAnimData@ANIMATION@@QAEXPAD@Z | 0x100
+0x0000 |  0x401620 | void __cdecl nonewline(char *) | ?nonewline@@YAXPAD@Z | 0x100
+0x0000 |  0x401640 | char * __cdecl StringRemainder(char *, int) | ?StringRemainder@@YAPADPADH@Z | 0x100
+0x0000 |  0x4016A0 | private: void __thiscall ANIMSCRIPT::ParseBadFile(struct _iobuf *) | ?ParseBadFile@ANIMSCRIPT@@AAEXPAU_iobuf@@@Z | 0x100
+0x0000 |  0x401B30 | public: void __thiscall ANIMSCRIPT::Load(char *) | ?Load@ANIMSCRIPT@@QAEXPAD@Z | 0x100
+0x0000 |  0x401B70 | public: int __thiscall ANIMSCRIPT::GetAnimNumber(char *) | ?GetAnimNumber@ANIMSCRIPT@@QAEHPAD@Z | 0x100
+0x0000 |  0x401BF0 | public: char * __thiscall ANIMSCRIPT::GetAnimName(int) | ?GetAnimName@ANIMSCRIPT@@QAEPADH@Z | 0x100
+0x0000 |  0x401C60 | public: int __thiscall ANIMSCRIPT::GetFPS(void) | ?GetFPS@ANIMSCRIPT@@QAEHXZ | 0x100
+0x0000 |  0x401C70 | public: int __thiscall ANIMSCRIPT::GetAnimCount(void) | ?GetAnimCount@ANIMSCRIPT@@QAEHXZ | 0x100
+0x0000 |  0x401C80 | public: void __thiscall ANIMSCRIPT::SetAnim(int) | ?SetAnim@ANIMSCRIPT@@QAEXH@Z | 0x100
+0x0000 |  0x401CD0 | public: int __thiscall ANIMSCRIPT::Animate(int) | ?Animate@ANIMSCRIPT@@QAEHH@Z | 0x100
+0x0000 |  0x401D30 | public: int __thiscall ANIMSCRIPT::GetCurrFrameNr(void) | ?GetCurrFrameNr@ANIMSCRIPT@@QAEHXZ | 0x100
+0x0000 |  0x401D50 | public: void __thiscall ANIMSCRIPT::Destroy(void) | ?Destroy@ANIMSCRIPT@@QAEXXZ | 0x100
+0x0000 |  0x401D60 | public: void __thiscall STRPACK::constructor(void) | ??0STRPACK@@QAE@XZ | 0x100
+0x0000 |  0x401D80 | public: void __thiscall STRPACK::LoadInto(char *) | ?LoadInto@STRPACK@@QAEXPAD@Z | 0x100
+0x0000 |  0x401E70 | public: char * __thiscall STRPACK::Get(int) | ?Get@STRPACK@@QAEPADH@Z | 0x100
+0x0000 |  0x401E80 | public: int __thiscall STRPACK::Count(void) | ?Count@STRPACK@@QAEHXZ | 0x100
+0x0000 |  0x401E90 | public: void __thiscall STRPACK::~destructor(void) | ??1STRPACK@@QAE@XZ | 0x100
+0x0000 |  0x401FA0 | int __cdecl RegisterItem(char *) | ?RegisterItem@@YAHPAD@Z | 0x100
+0x0000 |  0x402270 | struct _RegItem * __cdecl RegDelete(char *) | ?RegDelete@@YAPAU_RegItem@@PAD@Z | 0x100
+0x0000 |  0x402370 | void __cdecl BeastExit(void) | ?BeastExit@@YAXXZ | 0x100
+0x0000 |  0x402730 | int __cdecl CompStrI(char *, char *) | ?CompStrI@@YAHPAD0@Z | 0x100
+0x0000 |  0x402860 | void __cdecl PF(void) | ?PF@@YAXXZ | 0x100
+0x0000 |  0x4028E0 | void __cdecl myhandler(char *, char *) | ?myhandler@@YAXPAD0@Z | 0x100
+0x0000 |  0x4029D0 | char * __cdecl vSprintf(char *) | ?vSprintf@@YAPADPADZZ | 0x100
+0x0000 |  0x402A60 | int __cdecl vRandom(int) | ?vRandom@@YAHH@Z | 0x100
+0x0000 |  0x402AF0 | int __cdecl vRandom2(int, int) | ?vRandom2@@YAHHH@Z | 0x100
+0x0000 |  0x402B90 | void __cdecl vRandomize(int, int) | ?vRandomize@@YAXHH@Z | 0x100
+0x0000 |  0x402C10 | double __cdecl vFloor(float) | ?vFloor@@YANM@Z | 0x100
+0x0000 |  0x402C30 | int __cdecl vF2I(float) | ?vF2I@@YAHM@Z | 0x100
+0x0000 |  0x402C50 | int __cdecl vMAX(int, int) | ?vMAX@@YAHHH@Z | 0x100
+0x0000 |  0x402C60 | int __cdecl vMIN(int, int) | ?vMIN@@YAHHH@Z | 0x100
+0x0000 |  0x402C70 | int __cdecl vabs(int) | ?vabs@@YAHH@Z | 0x100
+0x0000 |  0x402C80 | float __cdecl vabsf(float) | ?vabsf@@YAMM@Z | 0x100
+0x0000 |  0x402CA0 | double __cdecl vSin(double) | ?vSin@@YANN@Z | 0x100
+0x0000 |  0x402CB0 | double __cdecl vCos(double) | ?vCos@@YANN@Z | 0x100
+0x0000 |  0x402CC0 | double __cdecl vATan2(double, double) | ?vATan2@@YANNN@Z | 0x100
+0x0000 |  0x402CF0 | double __cdecl vSqrt(double) | ?vSqrt@@YANN@Z | 0x100
+0x0000 |  0x402D10 | double __cdecl vACos(double) | ?vACos@@YANN@Z | 0x100
+0x0000 |  0x402D40 | void __cdecl vMove(void *, void *, int) | ?vMove@@YAXPAX0H@Z | 0x100
+0x0000 |  0x402DC0 | double __cdecl vatof(char *) | ?vatof@@YANPAD@Z | 0x100
+0x0000 |  0x402DD0 | int __cdecl vatoi(char *) | ?vatoi@@YAHPAD@Z | 0x100
+0x0000 |  0x402E10 | char * __cdecl vStrc(int) | ?vStrc@@YAPADH@Z | 0x100
+0x0000 |  0x402E30 | int __cdecl vStrl(char *) | ?vStrl@@YAHPAD@Z | 0x100
+0x0000 |  0x402E50 | int __cdecl vKey(int) | ?vKey@@YAHH@Z | 0x100
+0x0000 |  0x402E70 | void * __cdecl vGetMem(int) | ?vGetMem@@YAPAXH@Z | 0x100
+0x0000 |  0x402EF0 | void __cdecl vFreeMem(void *) | ?vFreeMem@@YAXPAX@Z | 0x100
+0x0000 |  0x402F60 | float __cdecl vGetObjYWidth(int, int) | ?vGetObjYWidth@@YAMHH@Z | 0x100
+0x0000 |  0x403000 | float __cdecl vGetObjXWidth(int, int) | ?vGetObjXWidth@@YAMHH@Z | 0x100
+0x0000 |  0x4030A0 | float __cdecl vGetObjZWidth(int, int) | ?vGetObjZWidth@@YAMHH@Z | 0x100
+0x0000 |  0x403140 | void __cdecl vBG_GetObjectBox(int, float *, float *, float *, float *, float *, float *) | ?vBG_GetObjectBox@@YAXHPAM00000@Z | 0x100
+0x0000 |  0x4031D0 | void __cdecl vBG_MatriceClear(void) | ?vBG_MatriceClear@@YAXXZ | 0x100
+0x0000 |  0x403270 | void __cdecl vDOUT(char *) | ?vDOUT@@YAXPADZZ | 0x100
+0x0000 |  0x403360 | void __cdecl vFreeSFX(int) | ?vFreeSFX@@YAXH@Z | 0x100
+0x0000 |  0x403430 | int __cdecl vLoadSFX(char *) | ?vLoadSFX@@YAHPAD@Z | 0x100
+0x0000 |  0x403600 | void __cdecl vPlaySFX(int, int, float, float, float, int) | ?vPlaySFX@@YAXHHMMMH@Z | 0x100
+0x0000 |  0x4036C0 | void __cdecl vSFXSetD(int, unsigned int, float, float, float) | ?vSFXSetD@@YAXHIMMM@Z | 0x100
+0x0000 |  0x4036D0 | void __cdecl vStopSFX(int) | ?vStopSFX@@YAXH@Z | 0x100
+0x0000 |  0x403770 | int __cdecl vPlayingSFX(int) | ?vPlayingSFX@@YAHH@Z | 0x100
+0x0000 |  0x403790 | void __cdecl vKillSFX(int) | ?vKillSFX@@YAXH@Z | 0x100
+0x0000 |  0x403830 | int __cdecl vJoyUp(int) | ?vJoyUp@@YAHH@Z | 0x100
+0x0000 |  0x403900 | int __cdecl vJoyDown(int) | ?vJoyDown@@YAHH@Z | 0x100
+0x0000 |  0x4039D0 | int __cdecl vJoyLeft(int) | ?vJoyLeft@@YAHH@Z | 0x100
+0x0000 |  0x403AA0 | int __cdecl vJoyRight(int) | ?vJoyRight@@YAHH@Z | 0x100
+0x0000 |  0x403B70 | int __cdecl vJoyFire(int, int) | ?vJoyFire@@YAHHH@Z | 0x100
+0x0000 |  0x403C40 | void __cdecl vFree3D(int) | ?vFree3D@@YAXH@Z | 0x100
+0x0000 |  0x403D00 | int __cdecl vLoad3D(char *) | ?vLoad3D@@YAHPADZZ | 0x100
+0x0000 |  0x403F10 | void __cdecl vKillObject(void *) | ?vKillObject@@YAXPAX@Z | 0x100
+0x0000 |  0x404020 | void * __cdecl vGetObj(int, int) | ?vGetObj@@YAPAXHH@Z | 0x100
+0x0000 |  0x404060 | void * __cdecl vGetPlayer(int) | ?vGetPlayer@@YAPAXH@Z | 0x100
+0x0000 |  0x404070 | void * __cdecl vGetInfo(int, int, int, int) | ?vGetInfo@@YAPAXHHHH@Z | 0x100
+0x0000 |  0x404270 | void __cdecl ReloadVALSettings(void) | ?ReloadVALSettings@@YAXXZ | 0x100
+0x0000 |  0x4042C0 | void __cdecl ReadandSpawn(void) | ?ReadandSpawn@@YAXXZ | 0x100
+0x0000 |  0x4042D0 | void __cdecl LoadSOLFile(char *) | ?LoadSOLFile@@YAXPAD@Z | 0x100
+0x0000 |  0x404640 | void __cdecl vLoad_LEV_File(char *) | ?vLoad_LEV_File@@YAXPADZZ | 0x100
+0x0000 |  0x4049E0 | int __cdecl vDSprite(struct _dsprite *) | ?vDSprite@@YAHPAU_dsprite@@@Z | 0x100
+0x0000 |  0x404B60 | void __cdecl vClearAllObjects(void) | ?vClearAllObjects@@YAXXZ | 0x100
+0x0000 |  0x404C40 | void __cdecl vLoadingScreen(char *) | ?vLoadingScreen@@YAXPAD@Z | 0x100
+0x0000 |  0x404D80 | void __cdecl vPushCameraState(void) | ?vPushCameraState@@YAXXZ | 0x100
+0x0000 |  0x404E40 | void __cdecl vBG_SetCamera(float, float, float, float, float) | ?vBG_SetCamera@@YAXMMMMM@Z | 0x100
+0x0000 |  0x404ED0 | void __cdecl vPopCameraState(void) | ?vPopCameraState@@YAXXZ | 0x100
+0x0000 |  0x405050 | void __cdecl vClearScreen(void) | ?vClearScreen@@YAXXZ | 0x100
+0x0000 |  0x405110 | void __cdecl vLoadObject0(char *) | ?vLoadObject0@@YAXPAD@Z | 0x100
+0x0000 |  0x405190 | void __cdecl vInitVALFile(char *) | ?vInitVALFile@@YAXPAD@Z | 0x100
+0x0000 |  0x405210 | char * __cdecl vGetStrValue(char *) | ?vGetStrValue@@YAPADPAD@Z | 0x100
+0x0000 |  0x405370 | int __cdecl vGetIntValue(char *) | ?vGetIntValue@@YAHPAD@Z | 0x100
+0x0000 |  0x405390 | double __cdecl vGetFloatValue(char *) | ?vGetFloatValue@@YANPAD@Z | 0x100
+0x0000 |  0x4053F0 | void __cdecl vOpenFile(char *) | ?vOpenFile@@YAXPADZZ | 0x100
+0x0000 |  0x4054A0 | char * __cdecl vReadFile(void) | ?vReadFile@@YAPADXZ | 0x100
+0x0000 |  0x4054B0 | void __cdecl vCloseFile(void) | ?vCloseFile@@YAXXZ | 0x100
+0x0000 |  0x4054C0 | double __cdecl vAngleDif(float, float) | ?vAngleDif@@YANMM@Z | 0x100
+0x0000 |  0x405560 | unsigned int __cdecl vLoadDLL(char *) | ?vLoadDLL@@YAIPAD@Z | 0x100
+0x0000 |  0x405720 | void * __cdecl vGetProcAddr(unsigned int, char *) | ?vGetProcAddr@@YAPAXIPAD@Z | 0x100
+0x0000 |  0x405800 | int __cdecl vAS_Load(char *) | ?vAS_Load@@YAHPAD@Z | 0x100
+0x0000 |  0x405A30 | int __cdecl vAS_GetAnim(int, char *) | ?vAS_GetAnim@@YAHHPAD@Z | 0x100
+0x0000 |  0x405A50 | void __cdecl vAS_SetAnim(int, int) | ?vAS_SetAnim@@YAXHH@Z | 0x100
+0x0000 |  0x405AD0 | int __cdecl vAS_Animate(int, int) | ?vAS_Animate@@YAHHH@Z | 0x100
+0x0000 |  0x405AF0 | char __cdecl vCompareStr(char *, char *) | ?vCompareStr@@YADPAD0@Z | 0x100
+0x0000 |  0x405B10 | void __cdecl vRunMenu(void) | ?vRunMenu@@YAXXZ | 0x100
+0x0000 |  0x405B80 | struct HINSTANCE__ * __cdecl LoadDLL(char *) | ?LoadDLL@@YAPAUHINSTANCE__@@PAD@Z | 0x100
+0x0000 |  0x405F30 | int __cdecl vBFileOpen(char *, char *) | ?vBFileOpen@@YAHPAD0@Z | 0x100
+0x0000 |  0x405FD0 | int __cdecl vBFileRead(void *, int) | ?vBFileRead@@YAHPAXH@Z | 0x100
+0x0000 |  0x406060 | void __cdecl vBFileWrite(void *, int) | ?vBFileWrite@@YAXPAXH@Z | 0x100
+0x0000 |  0x4060E0 | void __cdecl vBFileClose(void) | ?vBFileClose@@YAXXZ | 0x100
+0x0000 |  0x406160 | double __cdecl vA2F(char *) | ?vA2F@@YANPAD@Z | 0x100
+0x0000 |  0x406170 | int __cdecl vA2I(char *) | ?vA2I@@YAHPAD@Z | 0x100
+0x0000 |  0x406180 | char * __cdecl vI2A(int) | ?vI2A@@YAPADH@Z | 0x100
+0x0000 |  0x4061A0 | double __cdecl vI2F(int) | ?vI2F@@YANH@Z | 0x100
+0x0000 |  0x4061D0 | char * __cdecl vF2A(double) | ?vF2A@@YAPADN@Z | 0x100
+0x0000 |  0x406200 | int __cdecl vFileExists(char *) | ?vFileExists@@YAHPADZZ | 0x100
+0x0000 |  0x4062D0 | void __cdecl vFAIL(void) | ?vFAIL@@YAXXZ | 0x100
+0x0000 |  0x4062E0 | void __cdecl SetupCalls(void) | ?SetupCalls@@YAXXZ | 0x100
+0x0000 |  0x406670 | struct Object * __cdecl LoadObject(char *, char *) | ?LoadObject@@YAPAUObject@@PAD0@Z | 0x100
+0x0000 |  0x4066F0 | void * __cdecl vSpawnObject(int, float, float, float, void *) | ?vSpawnObject@@YAPAXHMMMPAX@Z | 0x100
+0x0000 |  0x406990 | void __cdecl Init(void) | ?Init@@YAXXZ | 0x100
+0x0000 |  0x406AC0 | void __cdecl DoLogics(void) | ?DoLogics@@YAXXZ | 0x100
+0x0000 |  0x406D30 | void __cdecl DoDraws(void) | ?DoDraws@@YAXXZ | 0x100
+0x0000 |  0x406F70 | void __cdecl GetDetailsfromINI(void) | ?GetDetailsfromINI@@YAXXZ | 0x100
+0x0000 |  0x407380 | int __cdecl GetKeyStr(int) | ?GetKeyStr@@YAHH@Z | 0x100
+0x0000 |  0x408250 | int __cdecl GetJoyStr(int) | ?GetJoyStr@@YAHH@Z | 0x100
+0x0000 |  0x408390 | void __cdecl Menu_Screen_DefineKeys(int) | ?Menu_Screen_DefineKeys@@YAXH@Z | 0x100
+0x0000 |  0x408C30 | void __cdecl Menu_Screen_DefineJoy(int) | ?Menu_Screen_DefineJoy@@YAXH@Z | 0x100
+0x0000 |  0x409900 | void __cdecl Menu_Screen_Controls(void) | ?Menu_Screen_Controls@@YAXXZ | 0x100
+0x0000 |  0x40A410 | void __cdecl Menu_Screen(void) | ?Menu_Screen@@YAXXZ | 0x100
+0x0000 |  0x40B120 | void __cdecl KillTempFiles(void) | ?KillTempFiles@@YAXXZ | 0x100
+0x0000 |  0x40B240 | void __cdecl RunHub(void) | ?RunHub@@YAXXZ | 0x100
+0x0000 |  0x40B500 | void __cdecl FreeDLLs(void) | ?FreeDLLs@@YAXXZ | 0x100
+0x0000 |  0x40B510 | void __cdecl RemoveAllTempFiles(void) | ?RemoveAllTempFiles@@YAXXZ | 0x100
+0x0000 |  0x40B520 | void __cdecl LoadAllDLLs(void) | ?LoadAllDLLs@@YAXXZ | 0x100
+0x0000 |  0x40B830 | void __cdecl RemoveAllDLLs(void) | ?RemoveAllDLLs@@YAXXZ | 0x100
+0x0000 |  0x40B8E0 | void __cdecl PrintOutAllStats(void) | ?PrintOutAllStats@@YAXXZ | 0x100
+0x0000 |  0x40BEC0 | void __cdecl Test4INIFile(void) | ?Test4INIFile@@YAXXZ | 0x100
+0x0000 |  0x40BF80 | void __cdecl LiftAndSeperate(void) | ?LiftAndSeperate@@YAXXZ | 0x100
+0x0000 |  0x40C0A0 | void __cdecl FormCreate(void) | ?FormCreate@@YAXXZ | 0x100
+0x0000 |  0x40C1E0 | void __cdecl ShowEntryScreens(void) | ?ShowEntryScreens@@YAXXZ | 0x100
+0x0000 |  0x40C3A0 | void __cdecl ShowExitScreens(void) | ?ShowExitScreens@@YAXXZ | 0x100
+0x0000 |  0x40C570 | void __cdecl ReadInBeastCFGValues(void) | ?ReadInBeastCFGValues@@YAXXZ | 0x100
+0x0000 |  0x40C980 | void __cdecl SaveOutBeastCFGValues(void) | ?SaveOutBeastCFGValues@@YAXXZ | 0x100
+0x0000 |  0x40CCD0 | void __cdecl Timer1Timer(void) | ?Timer1Timer@@YAXXZ | 0x100
+0x0000 |  0x40D040 | void __cdecl ExitGame(void) | ?ExitGame@@YAXXZ | 0x100
+0x0000 |  0x40D070 | void __cdecl CheckMessages(void) | ?CheckMessages@@YAXXZ | 0x100
+0x0000 |  0x40D230 | unsigned short int __cdecl MyRegisterClass(struct HINSTANCE__ *) | ?MyRegisterClass@@YAGPAUHINSTANCE__@@@Z | 0x100
+0x0000 |  0x40D2C0 | int __cdecl InitInstance(struct HINSTANCE__ *, int) | ?InitInstance@@YAHPAUHINSTANCE__@@H@Z | 0x100
+0x0000 |  0x40D330 | long int __stdcall WndProc(struct HWND__ *, unsigned int, unsigned int, long int) | ?WndProc@@YGJPAUHWND__@@IIJ@Z | 0x100
+0x0000 |  0x40D470 | _WinMain@16 | _WinMain@16 | 0x100
+0x0000 |  0x40D710 | public: void __thiscall BG::constructor(void) | ??0BG@@QAE@XZ | 0x100
+0x0000 |  0x40E2C0 | void __cdecl expand(struct _iobuf *) | ?expand@@YAXPAU_iobuf@@@Z | 0x100
+0x0000 |  0x40E420 | int __cdecl ExtractFromBank(char *, char *) | ?ExtractFromBank@@YAHPAD0@Z | 0x100
+0x0000 |  0x40E510 | unsigned char * __cdecl extract_file(char *, unsigned int *) | ?extract_file@@YAPAEPADPAI@Z | 0x100
+0x0000 |  0x40E640 | public: void __thiscall fileio::constructor(char *) | ??0fileio@@QAE@PAD@Z | 0x100
+0x0000 |  0x40E670 | public: void __thiscall fileio::open(char *) | ?open@fileio@@QAEXPAD@Z | 0x100
+0x0000 |  0x40E7C0 | public: void __thiscall fileio::close(void) | ?close@fileio@@QAEXXZ | 0x100
+0x0000 |  0x40E7F0 | public: void __thiscall fileio::~destructor(void) | ??1fileio@@QAE@XZ | 0x100
+0x0000 |  0x40E810 | public: void __thiscall fileio::reset(int) | ?reset@fileio@@QAEXH@Z | 0x100
+0x0000 |  0x40E830 | public: long int __thiscall fileio::size(void) | ?size@fileio@@QAEJXZ | 0x100
+0x0000 |  0x40E840 | public: long int __thiscall fileio::pos(void) | ?pos@fileio@@QAEJXZ | 0x100
+0x0000 |  0x40E850 | public: unsigned short int __thiscall fileio::getword(void) | ?getword@fileio@@QAEGXZ | 0x100
+0x0000 |  0x40E890 | public: unsigned char __thiscall fileio::getbyte(void) | ?getbyte@fileio@@QAEEXZ | 0x100
+0x0000 |  0x40E8B0 | public: long int __thiscall fileio::getlong(void) | ?getlong@fileio@@QAEJXZ | 0x100
+0x0000 |  0x40E900 | public: void __thiscall fileio::get(void *, int) | ?get@fileio@@QAEXPAXH@Z | 0x100
+0x0000 |  0x40E950 | public: unsigned char __thiscall fileio::eof(void) | ?eof@fileio@@QAEEXZ | 0x100
+0x0000 |  0x40E960 | public: long int __thiscall fileio::togo(void) | ?togo@fileio@@QAEJXZ | 0x100
+0x0000 |  0x40E970 | public: void __thiscall fileio::write(void *, int) | ?write@fileio@@QAEXPAXH@Z | 0x100
+0x0000 |  0x40E9D0 | public: void __thiscall fileio::writetofile(char *) | ?writetofile@fileio@@QAEXPAD@Z | 0x100
+0x0000 |  0x40EA60 | public: char * __thiscall fileio::readline(void) | ?readline@fileio@@QAEPADXZ | 0x100
+0x0000 |  0x40EB10 | unsigned int __cdecl joyGetOEMProductName(unsigned int, char *) | ?joyGetOEMProductName@@YAIIPAD@Z | 0x100
+0x0000 |  0x40ECB0 | int __cdecl DXI_Init(void) | ?DXI_Init@@YAHXZ | 0x100
+0x0000 |  0x40EE10 | void __cdecl DXI_Destroy(void) | ?DXI_Destroy@@YAXXZ | 0x100
+0x0000 |  0x40EE20 | int __cdecl DXI_Total(void) | ?DXI_Total@@YAHXZ | 0x100
+0x0000 |  0x40EE30 | char * __cdecl DXI_GetName(int) | ?DXI_GetName@@YAPADH@Z | 0x100
+0x0000 |  0x40EE50 | void __cdecl DXI_Update(void) | ?DXI_Update@@YAXXZ | 0x100
+0x0000 |  0x40EEB0 | int __cdecl DXI_Left(int) | ?DXI_Left@@YAHH@Z | 0x100
+0x0000 |  0x40EF10 | int __cdecl DXI_Right(int) | ?DXI_Right@@YAHH@Z | 0x100
+0x0000 |  0x40EF70 | int __cdecl DXI_Up(int) | ?DXI_Up@@YAHH@Z | 0x100
+0x0000 |  0x40EFD0 | int __cdecl DXI_Down(int) | ?DXI_Down@@YAHH@Z | 0x100
+0x0000 |  0x40F030 | int __cdecl DXI_Fire(int, int) | ?DXI_Fire@@YAHHH@Z | 0x100
+0x0000 |  0x40F070 | int __cdecl fexists(char *) | ?fexists@@YAHPAD@Z | 0x100
+0x0000 |  0x40F0A0 | public: void __thiscall FileBank::Init(char *) | ?Init@FileBank@@QAEXPAD@Z | 0x100
+0x0000 |  0x40F1A0 | void __cdecl BuildBank(char *, char *, char *) | ?BuildBank@@YAXPAD00@Z | 0x100
+0x0000 |  0x40F300 | public: char * __thiscall FileBank::Extract(char *) | ?Extract@FileBank@@QAEPADPAD@Z | 0x100
+0x0000 |  0x40F4D0 | public: int __thiscall FileBank::Exists(char *) | ?Exists@FileBank@@QAEHPAD@Z | 0x100
+0x0000 |  0x40F540 | int __cdecl insidepoly(float, float, int, struct insidepoint *) | ?insidepoly@@YAHMMHPAUinsidepoint@@@Z | 0x100
+0x0000 |  0x40F600 | _WinExec@8 | _WinExec@8 | 0x100
+0x0000 |  0x40F606 | _GetWindowsDirectoryA@8 | _GetWindowsDirectoryA@8 | 0x100
+0x0000 |  0x40F60C | _GetCommandLineA@0 | _GetCommandLineA@0 | 0x100
+0x0000 |  0x40F612 | _GetLastError@0 | _GetLastError@0 | 0x100
+0x0000 |  0x40F618 | _LoadLibraryA@4 | _LoadLibraryA@4 | 0x100
+0x0000 |  0x40F61E | _GetProcAddress@8 | _GetProcAddress@8 | 0x100
+0x0000 |  0x40F624 | _FreeLibrary@4 | _FreeLibrary@4 | 0x100
+0x0000 |  0x40F62A | _GetDriveTypeA@4 | _GetDriveTypeA@4 | 0x100
+0x0000 |  0x40F630 | _GetDiskFreeSpaceExA@16 | _GetDiskFreeSpaceExA@16 | 0x100
+0x0000 |  0x40F636 | _GlobalMemoryStatus@4 | _GlobalMemoryStatus@4 | 0x100
+0x0000 |  0x40F63C | _ExitProcess@4 | _ExitProcess@4 | 0x100
+0x0000 |  0x40F642 | _ClipCursor@4 | _ClipCursor@4 | 0x100
+0x0000 |  0x40F648 | _GetAsyncKeyState@4 | _GetAsyncKeyState@4 | 0x100
+0x0000 |  0x40F64E | _GetCursorPos@4 | _GetCursorPos@4 | 0x100
+0x0000 |  0x40F654 | _ShowCursor@4 | _ShowCursor@4 | 0x100
+0x0000 |  0x40F65A | _MessageBoxA@16 | _MessageBoxA@16 | 0x100
+0x0000 |  0x40F660 | _DestroyWindow@4 | _DestroyWindow@4 | 0x100
+0x0000 |  0x40F666 | _GetMessageA@16 | _GetMessageA@16 | 0x100
+0x0000 |  0x40F66C | _DispatchMessageA@4 | _DispatchMessageA@4 | 0x100
+0x0000 |  0x40F672 | _TranslateMessage@4 | _TranslateMessage@4 | 0x100
+0x0000 |  0x40F678 | _PeekMessageA@20 | _PeekMessageA@20 | 0x100
+0x0000 |  0x40F67E | _RegisterClassExA@4 | _RegisterClassExA@4 | 0x100
+0x0000 |  0x40F684 | _LoadCursorA@8 | _LoadCursorA@8 | 0x100
+0x0000 |  0x40F68A | _LoadIconA@8 | _LoadIconA@8 | 0x100
+0x0000 |  0x40F690 | _UpdateWindow@4 | _UpdateWindow@4 | 0x100
+0x0000 |  0x40F696 | _ShowWindow@8 | _ShowWindow@8 | 0x100
+0x0000 |  0x40F69C | _CreateWindowExA@48 | _CreateWindowExA@48 | 0x100
+0x0000 |  0x40F6A2 | _DefWindowProcA@16 | _DefWindowProcA@16 | 0x100
+0x0000 |  0x40F6A8 | _SetForegroundWindow@4 | _SetForegroundWindow@4 | 0x100
+0x0000 |  0x40F6AE | _LoadAcceleratorsA@8 | _LoadAcceleratorsA@8 | 0x100
+0x0000 |  0x40F6B4 | _LoadStringA@16 | _LoadStringA@16 | 0x100
+0x0000 |  0x40F6BA | _GetActiveWindow@0 | _GetActiveWindow@0 | 0x100
+0x0000 |  0x40F6C0 | _RegCloseKey@4 | _RegCloseKey@4 | 0x100
+0x0000 |  0x40F6C6 | _RegQueryValueExA@24 | _RegQueryValueExA@24 | 0x100
+0x0000 |  0x40F6CC | _RegOpenKeyExA@20 | _RegOpenKeyExA@20 | 0x100
+0x0000 |  0x40F6D2 | _timeGetTime@0 | _timeGetTime@0 | 0x100
+0x0000 |  0x40F6D8 | _joyGetDevCapsA@12 | _joyGetDevCapsA@12 | 0x100
+0x0000 |  0x40F6DE | _joyGetNumDevs@0 | _joyGetNumDevs@0 | 0x100
+0x0000 |  0x40F6E4 | _joyGetPosEx@8 | _joyGetPosEx@8 | 0x100
+0x0000 |  0x40F6EA | _isalpha | _isalpha | 0x100
+0x0000 |  0x40F718 | _isupper | _isupper | 0x100
+0x0000 |  0x40F740 | _islower | _islower | 0x100
+0x0000 |  0x40F768 | _isdigit | _isdigit | 0x100
+0x0000 |  0x40F790 | _isxdigit | _isxdigit | 0x100
+0x0000 |  0x40F7BD | _isspace | _isspace | 0x100
+0x0000 |  0x40F7E5 | _ispunct | _ispunct | 0x100
+0x0000 |  0x40F80D | _isalnum | _isalnum | 0x100
+0x0000 |  0x40F83B | _isprint | _isprint | 0x100
+0x0000 |  0x40F869 | _isgraph | _isgraph | 0x100
+0x0000 |  0x40F897 | _iscntrl | _iscntrl | 0x100
+0x0000 |  0x40F8BF | ___isascii | ___isascii | 0x100
+0x0000 |  0x40F8CC | ___toascii | ___toascii | 0x100
+0x0000 |  0x40F8D4 | ___iscsymf | ___iscsymf | 0x100
+0x0000 |  0x40F911 | ___iscsym | ___iscsym | 0x100
+0x0000 |  0x40F94E | _atol | _atol | 0x100
+0x0000 |  0x40F9D9 | _atoi | _atoi | 0x100
+0x0000 |  0x40F9E4 | __atoi64 | __atoi64 | 0x100
+0x0000 |  0x40FAA0 | _strncmp | _strncmp | 0x100
+0x0000 |  0x40FAD8 | _fgets | _fgets | 0x100
+0x0000 |  0x40FB3A | _fclose | _fclose | 0x100
+0x0000 |  0x40FB6B | __fclose_lk | __fclose_lk | 0x100
+0x0000 |  0x40FBB7 | __fsopen | __fsopen | 0x100
+0x0000 |  0x40FBE8 | _fopen | _fopen | 0x100
+0x0000 |  0x40FBFB | _sprintf | _sprintf | 0x100
+0x0000 |  0x40FC4D | void * __cdecl operator new(unsigned int) | ??2@YAPAXI@Z | 0x100
+0x0000 |  0x40FC5B | void __cdecl operator delete(void *) | ??3@YAXPAX@Z | 0x100
+0x0000 |  0x40FC66 | void __stdcall _JumpToContinuation(void *, struct EHRegistrationNode *) | ?_JumpToContinuation@@YGXPAXPAUEHRegistrationNode@@@Z | 0x100
+0x0000 |  0x40FC9A | void __stdcall _CallMemberFunction0(void *, void *) | ?_CallMemberFunction0@@YGXPAX0@Z | 0x100
+0x0000 |  0x40FCA1 | void __stdcall _CallMemberFunction1(void *, void *, void *) | ?_CallMemberFunction1@@YGXPAX00@Z | 0x100
+0x0000 |  0x40FCA8 | void __stdcall _CallMemberFunction2(void *, void *, void *, int) | ?_CallMemberFunction2@@YGXPAX00H@Z | 0x100
+0x0000 |  0x40FCAF | void __stdcall _UnwindNestedFrames(struct EHRegistrationNode *, struct EHExceptionRecord *) | ?_UnwindNestedFrames@@YGXPAUEHRegistrationNode@@PAUEHExceptionRecord@@@Z | 0x100
+0x0000 |  0x40FCFE | ___CxxFrameHandler | ___CxxFrameHandler | 0x100
+0x0000 |  0x40FD34 | ___CxxLongjmpUnwind@4 | ___CxxLongjmpUnwind@4 | 0x100
+0x0000 |  0x40FD4E | void * __cdecl _CallCatchBlock2(struct EHRegistrationNode *, struct _s_FuncInfo const *, void *, int, unsigned long int) | ?_CallCatchBlock2@@YAPAXPAUEHRegistrationNode@@PBU_s_FuncInfo@@PAXHK@Z | 0x100
+0x0000 |  0x40FDC7 | int __cdecl _CallSETranslator(struct EHExceptionRecord *, struct EHRegistrationNode *, void *, void *, struct _s_FuncInfo const *, int, struct EHRegistrationNode *) | ?_CallSETranslator@@YAHPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAX2PBU_s_FuncInfo@@H1@Z | 0x100
+0x0000 |  0x40FEF2 | struct _s_TryBlockMapEntry const * __cdecl _GetRangeOfTrysToCheck(struct _s_FuncInfo const *, int, int, unsigned int *, unsigned int *) | ?_GetRangeOfTrysToCheck@@YAPBU_s_TryBlockMapEntry@@PBU_s_FuncInfo@@HHPAI1@Z | 0x100
+0x0000 |  0x40FF70 | __global_unwind2 | __global_unwind2 | 0x100
+0x0000 |  0x40FFB2 | __local_unwind2 | __local_unwind2 | 0x100
+0x0000 |  0x41000A | __NLG_Return2 | __NLG_Return2 | 0x100
+0x0000 |  0x41001A | __abnormal_termination | __abnormal_termination | 0x100
+0x0000 |  0x41003D | __NLG_Notify1 | __NLG_Notify1 | 0x100
+0x0000 |  0x410046 | __NLG_Notify | __NLG_Notify | 0x100
+0x0000 |  0x410059 | __NLG_Dispatch | __NLG_Dispatch | 0x100
+0x0000 |  0x41005E | __onexit | __onexit | 0x100
+0x0000 |  0x4100DC | _atexit | _atexit | 0x100
+0x0000 |  0x4100EE | ___onexitinit | ___onexitinit | 0x100
+0x0000 |  0x41011D | _fprintf | _fprintf | 0x100
+0x0000 |  0x410159 | _vsprintf | _vsprintf | 0x100
+0x0000 |  0x4101AA | _srand | _srand | 0x100
+0x0000 |  0x4101B7 | _rand | _rand | 0x100
+0x0000 |  0x4101D9 | _floor | _floor | 0x100
+0x0000 |  0x4102A8 | __fpmath | __fpmath | 0x100
+0x0000 |  0x4102BF | __fpclear | __fpclear | 0x100
+0x0000 |  0x4102C0 | __cfltcvt_init | __cfltcvt_init | 0x100
+0x0000 |  0x4102F8 | ___setfflag | ___setfflag | 0x100
+0x0000 |  0x410308 | __ftol | __ftol | 0x100
+0x0000 |  0x410330 | __CIacos | __CIacos | 0x100
+0x0000 |  0x410344 | _acos | _acos | 0x100
+0x0000 |  0x4103FB | _atof | _atof | 0x100
+0x0000 |  0x410460 | _fmod | _fmod | 0x100
+0x0000 |  0x41046A | __CIfmod | __CIfmod | 0x100
+0x0000 |  0x410492 | __cinit | __cinit | 0x100
+0x0000 |  0x4104BF | _exit | _exit | 0x100
+0x0000 |  0x4104D0 | __exit | __exit | 0x100
+0x0000 |  0x4104E1 | __cexit | __cexit | 0x100
+0x0000 |  0x4104F0 | __c_exit | __c_exit | 0x100
+0x0000 |  0x4105A4 | __lockexit | __lockexit | 0x100
+0x0000 |  0x4105AD | __unlockexit | __unlockexit | 0x100
+0x0000 |  0x4105E0 | _strchr | _strchr | 0x100
+0x0000 |  0x4105E6 | ___from_strstr_to_strchr | ___from_strstr_to_strchr | 0x100
+0x0000 |  0x41069C | _sscanf | _sscanf | 0x100
+0x0000 |  0x4106D0 | _strstr | _strstr | 0x100
+0x0000 |  0x410750 | _fread | _fread | 0x100
+0x0000 |  0x41077F | __fread_lk | __fread_lk | 0x100
+0x0000 |  0x410867 | _fwrite | _fwrite | 0x100
+0x0000 |  0x410896 | __fwrite_lk | __fwrite_lk | 0x100
+0x0000 |  0x4109A0 | _rewind | _rewind | 0x100
+0x0000 |  0x410A04 | __findfirst | __findfirst | 0x100
+0x0000 |  0x410AD1 | __findnext | __findnext | 0x100
+0x0000 |  0x410B99 | __findclose | __findclose | 0x100
+0x0000 |  0x410BB9 | ___timet_from_ft | ___timet_from_ft | 0x100
+0x0000 |  0x410C1D | _remove | _remove | 0x100
+0x0000 |  0x410C47 | __unlink | __unlink | 0x100
+0x0000 |  0x410C52 | _calloc | _calloc | 0x100
+0x0000 |  0x410CDF | _time | _time | 0x100
+0x0000 |  0x410DBB | _fseek | _fseek | 0x100
+0x0000 |  0x410DE7 | __fseek_lk | __fseek_lk | 0x100
+0x0000 |  0x410E74 | _ftell | _ftell | 0x100
+0x0000 |  0x410E96 | __ftell_lk | __ftell_lk | 0x100
+0x0000 |  0x410FF7 | _realloc | _realloc | 0x100
+
 ---
 ## Blast Graphics 3D library (bg.dll)
 The **Blast Graphics** 3d library, which is 3D library used in early Merkury engine games is either located in the **bg.dll** file or compiled statically in the executable.
@@ -260,6 +610,12 @@ The following games have references to **Blast graphics** in their executables o
 * **Mike Stewart's Pro Bodyboarding** - bg.dll dated 26th October 1999 (352KB, 1019 functions)
 * **Championship Surfer** - bg.dll dated 28th September 2000 (217KB, 613 functions)
 * **Disney's Extremely Goofy Skateboarding** - Blast Graphics is compiled statically in the executable, dated 23rd August 2001
+
+### Known Blast Graphics Source files
+Thanks to compilers adding some additional metadata we know at least some of the file names that made up the source code for the Blast Graphics Library:
+* C:\bg\Bgunit.cpp - From MSPB (Aus) Along with .\Release\Bgunit.obj and C:\bg\bgunit.h
+
+### Known Blast Graphics functions
 
 Looking at the exports table of one the the dlls we know it has the following functionality:
 
