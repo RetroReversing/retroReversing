@@ -129,21 +129,39 @@ RVA helps programs find things in their memory without needing to know exactly w
 RVA is a fundamental concept in Windows programming, as it allows for position-independent code and the ability to load modules at different base addresses in memory, enhancing the compatibility and flexibility of Windows applications.
 
 ---
+# CodeView Debugging Symbols (1985-2025+)
+<img width="641" height="301" alt="CodeView 2.0 from 1987" src="https://github.com/user-attachments/assets/bb1d0c31-6464-4ee4-b16f-46aa2ce69e0b" />
 
-## CodeView 
+The **Microsoft CodeView** Debugger stores its debug symbols in different places (and formats) depending on the version of Microsoft Visual C was used, if you are lucky enough to find a windows game that has debug symbols it is possible that they are in a CodeView format. 
 
-The Microsoft CodeView debugger stores its debug symbols in different places (and formats) depending on the version of Microsoft Visual C was used, if you are lucky enough to find a windows game that has debug symbols it is possible that they are in a CodeView format. Depending on the age of the game (what version of Visual Studio was used) the debug symbols could either be stored embedded inside the executable itself or in a seperate .pdb file.
+Depending on the age of the game (what version of Visual Studio was used) the debug symbols could either be stored embedded inside the executable itself or in a seperate .pdb file.
 
 You can find a table of the rough time frame when you can find each version of CodeView Debug symbols:
 
-| Era          | Toolchain            | CodeView Signature | Typical Year | PDB Reference     |
+| Era          | Toolchain            | CodeView Signature | Typical Year | Debug Symbol Data Location     |
 | ------------ | -------------------- | ------------------ | ------------ | ----------------- |
-| CodeView 2.x | MS C 6.0             | `NB02`             | ~1990        | Inline            |
-| CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | `.pdb` path only  |
+| CodeView 2.x | MS C 6.0             | `NB02`             | ~1990        | Inside executable           |
+| CodeView 4.x | MSVC 4.x–6.0         | `NB09`             | ~1995–2000   | Inside executable or path to external `.pdb` file  |
 | CodeView 7.0 | MSVC 7.0+ (.NET era) | `RSDS` (or `CV7`)  | 2002–present | GUID + Age + path |
 
-### Checking for embedded CodeView symbols in an exe
-The easiest way for a quick check if you have a pre-2000 executable is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`. If this is the case then we just need a way to extract the information, as just running **strings** will miss out vital information such as how to link the function name to the actual function in assembly code and other debugging information such as line number to assembly mapping.
+If the executable is pre-1995 e.g **Microsoft C 6.0** and compiled with debug mode on then it is likely to contain debug symbols directly inside the executable in the **.rdata** section of the exe file.
+
+If the executable was built using **Visual C++ 4.x to 6.0** the symbols could be either inside the executable or as a seperate .PDB file, both using the same **CodeView** 4.x record format (`NB09`, `NB10`, `NB11`). 
+
+It all depended on the compile switch used for building the executable:
+
+| Compiler switch     | Where symbols end up                          | Typical header in EXE                         |
+| ------------------- | --------------------------------------------- | --------------------------------------------- |
+| `/Zi` + link /DEBUG | External `.pdb` file (partial info in .exe)   | `NB09` or `NB10` block with a path to the PDB |
+| `/Z7` (no /DEBUG)   | **Inline CodeView info inside the .obj/.exe** | `NB11` (sometimes `CV4`) directly embedded    |
+
+
+For example the game **Mike Stewart's Pro Bodyboarding** from 1999 has an australian build of the game that was compiled with the Inline CodeView information.
+
+
+
+## Checking for embedded CodeView symbols in an executable
+The easiest way for a quick check if you have any embedded debug symbols is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`. If this is the case then we just need a way to extract the information, as just running **strings** will miss out vital information such as how to link the function name to the actual function in assembly code and other debugging information such as line number to assembly mapping.
 
 If you a copy of **dumpbin.exe** from a version of Visual Studio you can run the following in either wine or windows: 
 ```bash
