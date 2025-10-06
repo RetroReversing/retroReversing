@@ -143,7 +143,7 @@ You can find a table of the rough time frame when you can find each version of C
 ### Embedded CodeView 4.x symbols
 The **CVTRES 5.x linker** (Visual Studio 6.0) often embedded CodeView 4 format directly into .`debug$S` and `.debug$T` sections of the PE. Many reverse engineering tools such as Ghidra and Binary Ninja will ignore this data, or even crsh while opening the executable.
 
-You can find these blocks of data by looking for the "CV" string in a hex editor, for CodeView 4 it would then be followed by the version number `0x04`. So you can search for the Hex `43560400` to find the start of the data.
+You can find these blocks of data by looking for the "CV" string in a hex editor, for CodeView 4 it would then be followed by the version number `0x04`. So you can search for the Hex `43 56 04 00` to find the start of the data.
 
 ```c
 struct CV4Header {
@@ -152,4 +152,26 @@ struct CV4Header {
   // followed by compiler signature and variable-length symbol records
 };
 ```
+
+Also `NB11` (bytes 4E 42 31 31) marks a **CodeView database header** used inside PDB v4.x and inline CV4-style blocks.
+
+```c
+struct CVSubsection {
+  char Signature[4];   // e.g. "NB11"
+  char SubType;        // e.g. 'P' for publics, T for Types etc see table below
+  uint32_t Length;     // length of data following
+  uint8_t Data[Length];
+};
+```
+
+Table of the subtypes:
+
+| Signature | Contents             |
+| --------- | -------------------- |
+| `NB11T`   | Type records         |
+| `NB11S`   | Symbol records       |
+| `NB11P`   | Public symbol table  |
+| `NB11M`   | Module info table    |
+| `NB11F`   | File/line info       |
+| `NB11`    | Generic header block |
 
