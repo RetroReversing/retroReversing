@@ -1229,78 +1229,53 @@ File formats used:
 * **.mdl** - Model Data (Used by `Model::Create`)
 * **.dat** - Replay Data (Used by `Replay` class)
 
-Source files:
+BarbieCommon Source files:
 
 Source File | Description
 ---|---
-barbiecommon\include\ptrlistdl.h | 
-barbiecommon\include\view.h | 
-D:\Src\IceSkating\BarbieCommon\PC\Blitter.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\DebugOptionsPC.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Blitter.cpp | Blitter_Image::Draw, Blitter_Line3D::Draw, Blitter_Particle::Draw, Blitter_TriFan::Draw2D, Blitter_TriStrip::Draw, Blitter_UntexturedImage::Draw, BlitterSphere::Draw
 D:\Src\IceSkating\BarbieCommon\PC\File.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\Image.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Image.cpp | Image::Copy, Image::Deinit, Image::Init, Image::LoadTGA
 D:\Src\IceSkating\BarbieCommon\PC\MKGrass_PC.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\MKSound_FMod.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\Model_DX8.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\Model_PC_Common.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\MKSound_FMod.cpp | Sound_IsVoicePlaying(), Sound_LoadBank(), Sound_PlayV(), Sound_SetVolume(), Sound_Stop(), Sound_UnloadBank()
 D:\Src\IceSkating\BarbieCommon\PC\System.cpp | 
-D:\Src\IceSkating\BarbieCommon\PC\Texture.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Texture.cpp | Texture::Create, Texture::Destroy, Texture::Find, Texture::InitFromImage
 D:\Src\IceSkating\BarbieCommon\PC\Video.cpp | 
 D:\Src\IceSkating\BarbieCommon\PC\View.cpp | 
 D:\Src\IceSkating\BarbieCommon\Source\Animation.cpp | 
 D:\Src\IceSkating\BarbieCommon\Source\BytePair.cpp | 
-D:\Src\IceSkating\BarbieCommon\Source\Camera.cpp | 
-D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\Camera.cpp | Camera::Reposition(), Camera::Update(), Camera::Reposition()
+D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp | Collision_Init(), Collision_AddStaticModel(),Collision_Grid, Collision_RayCollide, Collision_RayCollideDynamicModel, Collision_SphereCollide
 D:\Src\IceSkating\BarbieCommon\Source\DebugInfo.cpp | DebugInfo_Init()
+D:\Src\IceSkating\BarbieCommon\PC\DebugOptionsPC.cpp | DebugOptions_Create, DebugOptions_DrawDebugOptions
 D:\Src\IceSkating\BarbieCommon\Source\DebugOptions.cpp | DebugOptions_Create, DebugOptions_DrawDebugOptions
-D:\Src\IceSkating\BarbieCommon\Source\DirectLight.cpp
+D:\Src\IceSkating\BarbieCommon\Source\DirectLight.cpp | DirectLight::SetLight
 D:\Src\IceSkating\BarbieCommon\Source\FileSys.cpp
-D:\Src\IceSkating\BarbieCommon\Source\Font.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Font.cpp | Font::Create, Font::Destroy, Font::DrawText, Font::DrawText3d, Font::Find, Font::MakeFont
 D:\Src\IceSkating\BarbieCommon\Source\Heap.cpp
 D:\Src\IceSkating\BarbieCommon\Source\KromeIni.cpp
-D:\Src\IceSkating\BarbieCommon\Source\Material.cpp
-D:\Src\IceSkating\BarbieCommon\Source\Matrix.cpp
-D:\Src\IceSkating\BarbieCommon\Source\MKAnimScript.cpp
-D:\Src\IceSkating\BarbieCommon\Source\Model.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Material.cpp | Material::Create, Material::InitFromMatDefs
+D:\Src\IceSkating\BarbieCommon\Source\Matrix.cpp | Matrix::InverseSimple(), Matrix::Multiply3x3(), Matrix::Multiply4x4(), Matrix::RotatePYR(), Matrix::RotateYaw(), Matrix::Scale(), Matrix::SetRotationPYR(), Matrix::SetTranslation, Matrix::Translate(), Matrix::Transpose(), Matrix::Transpose3x3()
+D:\Src\IceSkating\BarbieCommon\Source\MKAnimScript.cpp | MKAnimScript::Init, MKAnimScript::GetAnim(char*), MKAnimScript::SetAnim, MKAnimScript::TweenAnim
+D:\Src\IceSkating\BarbieCommon\PC\Model_PC_Common.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Model_DX8.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\Model.cpp | Model_DeinitModule, Model_InitModule, Model::Create, Model::CreateIndexedTriangles, Model::Destroy, Model::Draw, Model::EnableSubObject, Model::GetRefPointIndex, Model::GetSubObjectIndex, Model::GetSubObjectMatrixIndex, Model::SetAnimation, Model::SubObjectExists
 D:\Src\IceSkating\BarbieCommon\Source\ParticleSystem.cpp
 D:\Src\IceSkating\BarbieCommon\Source\ParticleSystemManager.cpp
-D:\Src\IceSkating\BarbieCommon\Source\QuatRotation.cpp
-D:\Src\IceSkating\BarbieCommon\Source\StdMath.cpp
+D:\Src\IceSkating\BarbieCommon\Source\QuatRotation.cpp | QuatRotation::ConvertNormal(), QuatRotation::Multiply()
+D:\Src\IceSkating\BarbieCommon\Source\StdMath.cpp | Random(), Randomf()
 D:\Src\IceSkating\BarbieCommon\Source\Str.cpp
 D:\Src\IceSkating\BarbieCommon\Source\Translation.cpp
-D:\Src\IceSkating\BarbieCommon\Source\Vector.cpp
-D:\Src\IceSkating\Source\Button.cpp
-D:\Src\IceSkating\Source\ButtonManager.cpp
-D:\Src\IceSkating\Source\CharacterParticles.cpp
-D:\Src\IceSkating\Source\Confirmation.cpp
-D:\Src\IceSkating\source\Credits.cpp
-D:\Src\IceSkating\Source\EditBox.cpp
-D:\Src\IceSkating\Source\GameData.cpp
-D:\Src\IceSkating\Source\GameInterface.cpp
-D:\Src\IceSkating\Source\GameScreen.cpp
-D:\Src\IceSkating\Source\Introduction.cpp
-D:\Src\IceSkating\Source\LoadReplay.cpp
-D:\Src\IceSkating\Source\MainMenu.cpp
-D:\Src\IceSkating\Source\NameEntry.cpp
-D:\Src\IceSkating\Source\Object.cpp
-D:\Src\IceSkating\Source\ObjectManager.cpp
-D:\Src\IceSkating\Source\PauseMenu.cpp
-D:\Src\IceSkating\Source\Replay.cpp
-D:\Src\IceSkating\Source\SaveReplay.cpp
-D:\Src\IceSkating\Source\ScreenManager.cpp
-D:\Src\IceSkating\Source\screenmanager.h
-D:\Src\IceSkating\Source\ScrollBox.cpp
-D:\Src\IceSkating\Source\ScrollSystem.cpp
-D:\Src\IceSkating\Source\SelectionMenu.cpp
-D:\Src\IceSkating\Source\Skater.cpp
-D:\Src\IceSkating\Source\Spline.cpp | Spline::GetPosition
-D:\Src\IceSkating\Source\StateMachine.h
-include\DirectLight.h
-include\ParticleSystem.h
-include\PtrListDL.h
-include\View.h
+D:\Src\IceSkating\BarbieCommon\Source\Vector.cpp | Vector::ApplyQuaternion(), Vector::ApplyRotMatrix(), Vector::CClamp(), Vector::Cross(), Vector::InterpolateLinear(), Vector::Normalise()
 
-## Known Functions
+Include files:
+* include\DirectLight.h
+* include\ParticleSystem.h
+* barbiecommon\include\PtrListDL.h
+* barbiecommon\include\View.h
+
+
+### Colliection Functions
 
 The Collision functions would have been in `D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp` and the functions that we know about are in the table below:
 
@@ -1313,107 +1288,38 @@ Collision_RayCollide |
 Collision_RayCollideDynamicModel | 
 Collision_SphereCollide | 
 
-Math functions:
-* Random()
-* Randomf()
+## Barbie Source
+Barbie Source, the actual game code rather than the engine:
 
-Function Name | Source File | Description
----|---|---
-Sound_IsVoicePlaying()
-Sound_LoadBank()
-Sound_PlayV()
-Sound_SetVolume()
-Sound_Stop()
-Sound_UnloadBank()
+Source File | Description
+---|---
+D:\Src\IceSkating\Source\Button.cpp
+D:\Src\IceSkating\Source\ButtonManager.cpp
+D:\Src\IceSkating\Source\CharacterParticles.cpp
+D:\Src\IceSkating\Source\Confirmation.cpp
+D:\Src\IceSkating\source\Credits.cpp
+D:\Src\IceSkating\Source\EditBox.cpp
+D:\Src\IceSkating\Source\GameData.cpp
+D:\Src\IceSkating\Source\GameInterface.cpp
+D:\Src\IceSkating\Source\GameScreen.cpp
+D:\Src\IceSkating\Source\Introduction.cpp
+D:\Src\IceSkating\Source\MainMenu.cpp
+D:\Src\IceSkating\Source\NameEntry.cpp
+D:\Src\IceSkating\Source\Object.cpp
+D:\Src\IceSkating\Source\ObjectManager.cpp
+D:\Src\IceSkating\Source\PauseMenu.cpp
+D:\Src\IceSkating\Source\LoadReplay.cpp
+D:\Src\IceSkating\Source\Replay.cpp | Replay::GetNextPacket, Replay::SetNextPacket, Replay::GetAbsoluteSlot(), Replay::GetCurrentRelativeSlot(), Replay::SetCurrentSlot()
+D:\Src\IceSkating\Source\SaveReplay.cpp
+D:\Src\IceSkating\Source\ScreenManager.cpp |  Header: D:\Src\IceSkating\Source\screenmanager.h
+D:\Src\IceSkating\Source\ScrollBox.cpp
+D:\Src\IceSkating\Source\ScrollSystem.cpp
+D:\Src\IceSkating\Source\SelectionMenu.cpp
+D:\Src\IceSkating\Source\Skater.cpp
+D:\Src\IceSkating\Source\Spline.cpp | Spline::GetPosition
+D:\Src\IceSkating\Source\StateMachine.h
 
-## Other Interesting Strings
-```
-Blitter_Image::Draw: failed to lock pVerticeList
-Blitter_Line3D::Draw - too many vertices to fit in buffer
-Blitter_Particle::Draw: failed to lock pVerticeBuffer
-Blitter_TriFan::Draw2D - not enough vertices to draw a trifan
-Blitter_TriFan::Draw2D - too many vertices to fit in buffer
-Blitter_TriFan::Draw2D: failed to lock pVerticeList
-Blitter_TriStrip::Draw - too many vertices to fit in buffer
-Blitter_TriStrip::Draw: failed to lock pVerticeList
-Blitter_UntexturedImage::Draw: failed to lock pVerticeList
-BlitterSphere::Draw: failed to lock pVerticeList
-Font::Create: a map of the characters in this font was not given (pCharMap).
-Font::Create: aspectRatio must be a positive value greater than zero.
-Font::Create: module is uninitialised
-Font::Create: Only standard alphanumeric characters supported, from 0x33 to 0xff
-Font::Destroy - cannot destroy font before creation
-Font::DrawText: failed to lock pVerticeList
-Font::DrawText3d: failed to lock pVerticeList
-Font::Find - module is uninitialised
-Font::MakeFont: destination image is not large enough
-Font::MakeFont: failed to create material.
-Image::Copy
-Image::Deinit: Attempted deinit when module was not initialised
-Image::Init: Could not allocate memory for image data.
-Image::Init: Could not allocate memory for palette.
-Image::Init: file not found, or unsupported image type in file %s
-Image::Init: imageHeight is not valid
-Image::Init: imageWidth is not valid
-Image::Init: Module already in use
-Image::LoadTGA: Cannot open image %s
-Image::LoadTGA: Could not allocate memory for image palette
-Camera::Reposition()
-Camera::Update()
-DirectLight::SetLight
-Camera::Reposition()
-Matrix::InverseSimple()
-Matrix::Multiply3x3()
-Matrix::Multiply4x4()
-Matrix::RotatePYR()
-Matrix::RotateYaw()
-Matrix::Scale()
-Matrix::SetRotationPYR()
-Matrix::SetTranslation
-Matrix::Translate()
-Matrix::Transpose()
-Matrix::Transpose3x3()
-QuatRotation::ConvertNormal()
-QuatRotation::Multiply()
-Vector::ApplyQuaternion()
-Vector::ApplyRotMatrix()
-Vector::CClamp()
-Vector::Cross()
-Vector::InterpolateLinear()
-Vector::Normalise()
-Material::Create
-Material::InitFromMatDefs:
-MKAnimScript ::Init pFilename is NULL
-MKAnimScript::GetAnim(char*) passed a NULL
-MKAnimScript::SetAnim passed a NULL
-MKAnimScript::TweenAnim passed a NULL
-Model_DeinitModule: Module not initialised
-Model_InitModule: Module already initialised
-Model::Create: %s.mdl does not exist
-Model::CreateIndexedTriangles: failed to create Vertex Buffer
-Model::Destroy : invalid reference count %d
-Model::Draw: failed to lock pDX8VertexBuffer
-Model::EnableSubObject: index %d is invalid for model %s (%d subobjects)
-Model::GetRefPointIndex passed NULL pRefPointName
-Model::GetRefPointIndex: Reference point %s not found in model %s
-Model::GetSubObjectIndex passed NULL pSubObjectName
-Model::GetSubObjectIndex: SubObject %s does not exist in model %s
-Model::GetSubObjectMatrixIndex: invalid subobject index %d
-Model::SetAnimation: Animation %s has %d nodes, mesh %s expects animation with %d nodes
-Model::SetAnimation: Animation %s requires %d matrices, but model %s only has %d matrices
-Model::SubObjectExists passed NULL pSubObjectName
-Replay::GetNextPacket - maximum replay packets reached!
-Replay::GetNextPacket was passed a NULL packet pointer
-Replay::SetNextPacket - maximum replay packets reached!
-Replay::GetAbsoluteSlot()
-Replay::GetCurrentRelativeSlot()
-Replay::SetCurrentSlot()
-Replays/REPLAY%02d_%02d.DAT
-Texture::Create - out of texture slots
-Texture::Destroy: referenceCount <= 0
-Texture::Find - module is uninitialised
-Texture::InitFromImage
-```
+
 
 ---
 # Ty the Tasmanian Tiger (2002)
