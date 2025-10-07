@@ -1,35 +1,46 @@
 <div class="post post-card">
-          <div class="post-header">
-            <div>
-              <img src="{{ post.thumbnail }}" alt="">
-            </div>
-              <div>
-                <h2 class="post-title">
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                </h2>
-              </div>
-            
+        {%- comment -%}
+        <!-- This is used in the console page list of posts but not in the post layout as its a different header and uses "page" not "post" -->
+        Note: use post NOT page for each title BUT use page.console as page is the category containing the list of posts
+        {%- endcomment -%}
+        <div class="post-header">
+          <div>
+            {% if page.console and site.category_images[page.console] %}
+              <img class="post-header-icon" src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
+            {% elsif post.thumbnail %}
+              <img class="post-header-icon" src="{{ post.thumbnail }}" alt="">
+            {% else %}
+              <img src="/public/images/RetroReversingLogoSmall.png" alt="Retro reversing logo">
+            {% endif %}
           </div>
+          
+          <div>
+            <h2 class="post-title">
+              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+          </div>
+        </div>
+  
         <div class="post-thumbnail">
           <a href="{{ site.baseurl }}{{ post.url }}">
             {% if post.image %}
               <img src="{{ post.image }}" alt="{{ post.title }}">
-            {% else if post.youtube %}
+            {% elsif post.youtube %}
               <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
-            {% else %}
-              <img src="{{ page.consoleimage }}" alt="{{ post.title }}">
             {% endif %}
           </a>
-        </div>
-        {% if post.excerpt %}
+
+          {% if post.excerpt %}
             <p>
-              {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+                {{ post.excerpt | markdownify }} <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+            </p>
+          {% else %}
             <p>
-        {% else %}
-              <p>Read all about {{ post.title }} in this s<a href="{{ site.baseurl }}{{ post.url }}">...</a></p>
-        {% endif %}
-            
-        
+              {{ post.content | markdownify | strip_html | truncatewords: 30 }}
+              <a href="{{ site.baseurl }}{{ post.url }}">...</a>
+            </p>
+          {% endif %}
+        </div>       
 
         <div class="post-footer">
           
@@ -41,11 +52,7 @@
                 {% endfor %}
               </div>
            {% endif %}
-          <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a>
-          {% if site.disqus_short_name %}
-<!--               <span><a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"><i class="fa fa-comment-o"></i> 0 comments</a></span> -->
-          {% endif %}
-          
+          <!-- <a class="float-right p-t-10" href="#"><i class="fa fa-heart-o"></i> 2 likes</a> -->
           
         </div>
-      </div>
+</div>

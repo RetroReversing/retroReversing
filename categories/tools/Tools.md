@@ -67,6 +67,10 @@ These IDEs were pivotal in creating the games that defined a generation, providi
 
 {% include link-to-other-post.html post="/game-development-ides" description="For more information on Game Development IDEs used in the 90s and early 00s, check out this post." %}
 
+An advert for attracting game developers to use **Microsoft Visual Studio** from the September 2007 issue of **Develop** magazine:
+![Microsoft Visual Studio](https://github.com/user-attachments/assets/290b146d-d4ef-411c-93cb-64cb4b8c8b74)
+
+
 ---
 ## Software Development Kits
 Every platform had its own official Software Development Kit (SDK), so whether you were developing for the Playstation or the PC you would be interacting with different APIs. In addition there were third parties that created their own multi-platform SDKs which could be used on multiple games consoles or Operating Systems.
@@ -94,7 +98,7 @@ Known software used in the creation of 2D Image asserts for retro video games in
 * **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palettizing sprites for StarCraft [^1])
 
 ### 8-bit EGA Pixel art at LucasArts
-**Mark Ferrari** has an excellent GDC talk, in which he discussed some ofthe techniques for drawing 8-bit game graphics, including  color cycling and pallet shifting in Deluxe Paint:
+**Mark Ferrari** has an excellent GDC talk, in which he discussed some of the techniques for drawing 8-bit game graphics, including color cycling and palette shifting in Deluxe Paint:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aMcJ1Jvtef0?si=rNd0Wo1EO2NwxCLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
@@ -104,6 +108,25 @@ Music has always been a cornerstone of the gaming experience. Uncover the music 
 - **Sound Chips**: Hardware like the SID chip in the Commodore 64 and the Yamaha YM2612 in the Sega Genesis that defined the sound of many classic games.
 - **Tracker Software**: Programs like FastTracker and ProTracker that allowed composers to create music with limited hardware capabilities.
 - **MIDI Composition**: The use of MIDI to sequence and control sound modules and synthesizers for richer game audio.
+
+
+---
+# Production
+The tools used by producers for project management are much harder to find information on as no details will leak into the source code or compiled game binaries, however, we know of a few thanks to articles in magazines such as **Develop**.
+
+## DevTrack by TechExcel
+DevTrack is TechExcel’s project issue-tracking tool, comprehensively managing issues as far reaching as new features, QA reports and IT activities. Clients include Activision, Electronic Arts, Sammy Studios, Sony Online Entertainment, Vivendi Universal.
+
+The reason we know about this tool is thanks to issue 78 of the UK game development magazine **Develop** which had a brief section on it:
+![TECHEXCEL DEVTRACK](https://github.com/user-attachments/assets/0789c549-0dce-4838-9c22-500b0aa35285)
+
+It was previously known as **PowerTrack** but rebranded to **DevTrack** in 1999 to focus on software development specifically.
+
+In the February 1999 issue of EXE magazine it mentions the rebrand was at version 3.0: 
+![PowerTrack rebrand](https://github.com/user-attachments/assets/059f454d-af29-4ffb-bb71-9183f7fb871a)
+
+
+The product is still going strong in 2025!
 
 
 ---
@@ -151,6 +174,7 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 - **Game Extractor**: A tool for opening and modifying the archives used in many games.
 - **QuickBMS**: A universal script-based extractor that supports hundreds of game archive formats.
 - **TrID**: A utility for identifying file types and formats based on their binary signatures.
+- **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
 
 ## Emulators
 Emulators replicate the hardware of old gaming systems on modern computers, allowing you to run and test games in a controlled environment.

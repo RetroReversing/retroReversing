@@ -15,12 +15,14 @@ breadcrumbs:
     url: /
   - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
-recommend: 
+recommend:
  - nes
  - snes
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
 updatedAt: '2022-10-08'
+tags:
+  - nes
 ---
 
 # Introduction
@@ -32,7 +34,7 @@ In this guide, we'll explore the basics of reverse engineering and how it can be
 # Games
 
 ## Game Library
-Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry. 
+Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry.
 
 In 1993, a surprising **55** new NES titles were released[^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. These new NES titles provided a diverse array of gaming experiences, catering to a wide range of players and ensuring that the beloved NES had a lasting impact long after the arrival of its successor, the SNES.
 
@@ -79,7 +81,7 @@ Matthew Earl has an excellent post on how he managed to extract the level data f
 The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-This is a good introduction to some of the limitations you need to think about when developing a NES game. 
+This is a good introduction to some of the limitations you need to think about when developing a NES game.
 
 ### How to get the ROM
 According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
@@ -97,7 +99,7 @@ In this section, we'll explore the hardware that powers the NES and how it can b
 We'll take a closer look at the different components of the NES hardware, including the CPU, PPU, and APU, and discuss how they work together to create the unique gaming experience of the NES.
 
 ## Development Kit Hardware
-Since Nintendo were very new to the home video game market, they saw themselves as creating most of the software that will run on the NES. 
+Since Nintendo were very new to the home video game market, they saw themselves as creating most of the software that will run on the NES.
 So they did not make a public NES development kit, so most third parties has to roll their own development kits.
 
 We have a specific post covering all the NES development kits that we know about here:
@@ -123,14 +125,14 @@ For emulators to support all the different cartirdge hardware, emulator authors 
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
-Have you ever wondered about how a NES controller actually works, such as the circuits and electronic components used to physically create it? 
-  
+Have you ever wondered about how a NES controller actually works, such as the circuits and electronic components used to physically create it?
+
   Well you are in luck, the YouTuber **Displaced Gamers** explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
-  
+
 He opens up the NES controller revealing the physical wires, traces (green lines on the circuit), rubber membranes and the 8-bit shift register (HD14021BP).
-  
-  The Controller as with all electronics has both a Power (High) and Ground (Low) lines, with 5V used for Power. Ground is connected to all of the buttons including the 4 D-pad buttons, whereas the Power lines go straight to the Carbon Printed Pull-Up resistors which then in-turn goes to each of the buttons. 
-  
+
+  The Controller as with all electronics has both a Power (High) and Ground (Low) lines, with 5V used for Power. Ground is connected to all of the buttons including the 4 D-pad buttons, whereas the Power lines go straight to the Carbon Printed Pull-Up resistors which then in-turn goes to each of the buttons.
+
   When a button is pressed it completes the circuit at that point meaning it is pulled Low (Grounded) which allows the shift register to know that button is pressed. The resistors are used to make sure the power lines are always High, so we can ensure that when a pin is pulled low it has definitely been pressed.
 </div>
 </section>
@@ -149,6 +151,7 @@ Most game development teams only hand a handful of people working full time on t
 Some examples of the length of time it took to develop Nintendo Entertainment System games are:
 * **SOLAR JETMAN: HUNT FOR THE GOLDEN WARSHIP** - Took 1 year with 4 developers (but only 2 developers for 60% of development time) [^4].
 * **The Portopia Serial Murder Case** and other ports by **Chunsoft** took about 4 months with a team of about 5-6 people [^5].
+* **Guevara/Guerrilla War** by SNK was ported from the arcade original in just two months by the main programmer Yukio Kaneda. This was an agreement in which he would accept the short deadline in return for being allowed to add a hidden minigame based on the orignal SNK game **Sasuke vs. Commander** [^9]
 
 ## Who was the first NES game developers outside of Japan?
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
@@ -157,12 +160,12 @@ They created their own development kits based on the PDS and you can find out mo
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## What do we know about the Official Famicom SDK?
-The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game. 
+The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game.
 
 It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems between 1986-1989, which appears to read in three file formats: CHR (Character/Tile Data), SCR (Screen data or Source Data), and CGD (possibly standing for Character Graphic Designer, though this is uncertain).
 
 ## What is a NES emulator and how does it work?
-We have a specific post covering exactly how emulators work including tips for writing your own emulators: 
+We have a specific post covering exactly how emulators work including tips for writing your own emulators:
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
 ## When was the first NES emulator?
@@ -192,7 +195,7 @@ It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing dupli
 
 ---
 # Game Modding and ROM Hacking
-By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences. 
+By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences.
 
 Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
 
@@ -247,7 +250,7 @@ The Game Genie used a special encoding format for its codes which can be encoded
 [Game Genie Encoder/Decoder](https://games.technoplaza.net/ggencoder/js/)
 
 ### Making Game Genie Codes Permanent
-If you want to permanently modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**: 
+If you want to permanently modify one of your NES ROM files with a certain cheat code there is a Windows Only tool to do this created by **rdurbin**:
 [Romhacking.net - Utilities - Permanent Game Genie](https://www.romhacking.net/utilities/784/)
 
 ---
@@ -301,9 +304,16 @@ The formats for NES ROMS (virtual cartridges) are:
 * **.NSF** (NSF2/NSFe) - NES Sound Format for playing music ripped from NES games can be played back in some emulators and specific NSF tools.
 * **.TNES** - Official Format by Nintendo used on the 3DS Virtual Console and also supports Famicom Disc System games
 
+---
 ## Tutorial - Adding Hard Drops to NES Tetris
 The website **Grid Bugs** has written an excellent article on reverse engineering the NES version of Tetris to add functionality to the game called a **Hard Drop**. Check it out here:
 [Reverse-Engineering NES Tetris to add Hard Drop](https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/)
+
+---
+## Nestadia CTF - Reversing a Cloud-based NES Emulator
+The security blog **segfault.me** has an excellent write-up of a Capture The Flag (CTF) challenge called **Nestadia**. The challenge involved reverse engineering a cloud-based NES emulator to find a flag hidden inside a game's ROM. It is a fascinating read on a modern twist to classic NES hacking.
+{% include link-to-other-site.html url="https://segfault.me/2021/05/26/northsec-2021-writeup-nestadia-part-1/" description="Check out the Nestadia CTF Writeup here" image="" title="NorthSec 2021 Writeup: Nestadia Part 1"  %}
+
 
 ---
 ## Emulating NES games in Ghidra with pCode
@@ -336,3 +346,4 @@ We have moved this section to its own post which you can view here:
 [^6]: [Hammer Editor (Eye-2) Famicom modification tool code page](https://k1ilove.yu-nagi.com/diskto10.html)
 [^7]: [Buy Quick Hunter - Parameter Disk No. 3 (Unlicensed) Nintendo Famicom Disk System Video Games on the Store](https://www.satakore.com/nintendo-famicom-disk-system-video-game-store,,24,,298,,Quick-Hunter-Parameter-Disk-No.-3-JP-Unlicensed.html)
 [^8]: [Hammer News Hammer Editor (Eye-2) Famicom Modification Tool Code Page](https://k1ilove.yu-nagi.com/diskto14.html)
+[^9]: [Ikari Warriors, Guerilla War, and The SNK Golden Age - shmuplations.com](https://shmuplations.com/snkgoldenage/)

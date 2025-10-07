@@ -1,0 +1,153 @@
+/* ------------------------------------  */
+/* Start of CSS related to the homepage  */
+
+.owl-carousel .owl-stage-outer {
+	max-height: 65vh;
+}
+
+.rr-head-hero-container {
+  display:flex; 
+  width:100%; 
+  height:350px;
+}
+
+.rr-home-section {
+  display: flex;
+  padding-top: 0px;
+}
+
+.rr-post-playlist-row  {
+  /* margin: unset; */
+  /* padding: 20px; */
+  justify-content: space-evenly;
+}
+
+/* Start of the Homepage Hero selectors  */
+    .rr-head-hero {
+      width: 80%; 
+      display: list-item;
+    }
+
+    @media screen and (max-width: 600px) {
+      .rr-head-consoles {
+        /* Hide console selectors on Mobile  */
+        display: none;
+      }
+      .rr-head-hero {
+        /* On mobile the head hero should be full size  */
+        width: 100%; 
+        display: list-item;
+      }
+    }
+
+/* Start of console selection in hero  */
+    .console-img {
+      width: 45px;
+      margin-left: 10px;
+    }
+
+    .head-console-list {
+      padding: 5px;
+      overflow: scroll;
+      height: 350px;
+    }
+    .head-console-item {
+      display: flex;
+      padding: 10px;
+      color: white;
+      font-weight: bold;
+      justify-content: space-between;
+    }
+    .head-console-item:hover {
+      background-color: rgba(255,255,255,0.1)
+    }
+
+    .head-console-item strong {
+        color:white;
+      padding: 10px
+    }
+    
+    .console-post-numbers {
+      border-radius: 15px;
+      padding: 5px;
+      margin-left: 20px;
+      font-size: small;
+      height: 30px;
+      min-width: 30px;
+      text-align: center;
+      margin-top: 5px;
+    }
+
+/* End of Homepage Console selector section */
+
+/* Toolbar overrides for Post playlist  */
+.rr-post-playlist { 
+  .toolbar {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-top: 0px;
+    padding-bottom: 0px
+  } 
+}
+
+/* Desktop Homepage media query  */
+@media (min-width: 768px) {
+
+  /* .rr-home-section {
+    display: flex;
+  } */
+
+  .rr-home-section > * {
+    /* default smallest column is any child after the first, so flex 1 */
+    flex: 1; 
+  }
+  
+  .rr-home-section > *:first-child {
+    flex: 3;  /* first child grows 3 times as much */
+  }
+
+  .rr-home-section-left {
+    /* width: 80vw; */
+
+    .rr-post-playlist-row-nowrap {
+      /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
+      overflow: scroll !important;
+      flex-wrap: nowrap !important;
+    }
+  }
+
+  .rr-twitter {
+    /* width:20vw; */
+    /* margin-top:-50px; */
+    background-color: #292F33;
+    margin-bottom: -30px;
+    /* padding-right: 45px; */
+    /* We set overflow hidden as other wise long urls on bluesky will cause the page to be scrollable to the right  */
+    overflow: hidden; 
+  }
+} 
+/* End of Desktop Homepage Media Query  */
+
+
+/* Homepage Phone screen overrides  */
+@media (max-width: 768px) {
+  .toolbar .toolbar-links {
+    min-height: 55px !important;
+  }
+
+  .rr-head-hero-container {
+   display: none !important;
+  }
+
+  .rr-head-hero, .rr-twitter {
+    display:none !important;
+  }
+
+  .rr-home-section .container {
+    padding-left: 0px !important;
+    padding: 0px !important;
+    margin-left: 0px !important;
+    width: 100vw;
+  }
+}
+/* End of Movile Homepage Media Query  */

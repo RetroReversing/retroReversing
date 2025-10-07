@@ -4,11 +4,9 @@ layout: post
 console: codemasters
 recommend: 
 - industry
-- codemasters
 tags:
 - companies
 - industry
-- codemasters
 recommendTitle: All Codemasters Posts
 title: Codemasters (Creator of the Game Genie)
 image_: /public/images/companies/Codemasters - Company.jpg

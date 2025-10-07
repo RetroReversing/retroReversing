@@ -1,11 +1,6 @@
 ---
 layout: post
-tags: 
-- psp
-- reverseengineering
-- symbols
 title: Playstation Portable Games with Debug Symbols
-thumbnail: /public/consoles/Sony PSP.png
 image: /public/images/psp/PSP Games with Debug Symbols.jpg
 twitterimage: https://www.retroreversing.com/public/images/psp/PSP Games with Debug Symbols.jpg
 permalink: /psp-debug-symbols
@@ -16,7 +11,14 @@ breadcrumbs:
     url: /psp
   - name: PSP Games with Debug Symbols
     url: #
-recommend: psp
+tags: 
+- psp
+- symbols
+- games
+recommend:
+- psp
+- symbols
+- games
 editlink: /consoles/psp/PSPSymbols.md
 updatedAt: '2020-06-04'
 ---
@@ -53,6 +55,7 @@ Similar to .sym files but are created by the linker to document where each funct
 * Space Invaders - Galaxy Beat (Japan) (v1.02)
 * Yu-Gi-Oh! Duel Monsters GX - Tag Force (Japan) (En,Ja,Fr,De,Es,It) (v1.02)
 
+---
 # ViciousEngine
 Many games using the ViciousEngine actually came with both the .sym and .map files compressed inside the `DATA.PAK` file.
 ViciousEngine was one of the few game engines recommended officially by Sony, and in fact they offered a discount for the engine if it was used to create a PSP Mini [^1].
@@ -78,34 +81,34 @@ The `DATA.PAK` file normally contains some files with a name that is a variation
 ---
 
 # Games with PRX symbols
-Some games implement some major parts of the game logic in prx files rather than in the EBOOT executables. The PRX format contains lots of debug information as its basically a library.
-* Flowars (KOR) `/PSP_GAME/USRDIR/umodule/flowars.prx`
-* SSX On Tour (KOR) (PRX files with lots of debug symbols)
-* SOCOM US Navy Seals Portable (JPN) (/PSP_GAME/USRDIR/TACTICS.PRX)
+Some games implement some major parts of the game logic in prx files rather than in the EBOOT executables. The PRX format contains lots of debug information as its a dynamic library which requires the symbols to be exported (the same as a windows dll).
+* **Flowars** (KOR) `/PSP_GAME/USRDIR/umodule/flowars.prx`
+* **SSX On Tour** (KOR) (PRX files with lots of debug symbols)
+* **SOCOM US Navy Seals Portable** (JPN) (/PSP_GAME/USRDIR/TACTICS.PRX)
 
 
 # Other Retail Games with Debug Symbols
 Outside of games that use the Vicious Engine it is very rare to find games that bundled with their debug symbols, but there are a few games:
-* Need for Speed - ProStreet (Europe) (PSP) (PSN) (big files)
-* Chandragupta Warrior Prince (EUR) - mentions of C-like exports (infernal engine)
+* **Need for Speed - ProStreet** (Europe) (PSP) (PSN) (big files)
+* **Chandragupta Warrior Prince** (EUR) - mentions of C-like exports (infernal engine)
 
 ---
-# Games with Lua Scripting
+## Games with Lua Scripting
 While not quite debug symbols, these games contain unencrypted Lua scripts that can be modified
 * Pirates of the Caribbean - Dead Man's Chest (Europe) (PSN)
 
-# Games with Squirrel Scripting
+## Games with Squirrel Scripting
 [Squirrel - The Programming Language](http://squirrel-lang.org/)
 * The Mystery Team
 
-# Games with Makefiles
-* Circles, Circles, Circles (Europe) (minis) (PSN)
-* D-Cube Planet (Europe) (minis) (PSN)
+## Games with Makefiles
+* **Circles, Circles, Circles** (Europe) (minis) (PSN)
+* **D-Cube Planet (Europe)** (minis) (PSN)
 * Deflector (Europe) (minis) (PSN)
 * Route 66 (Europe) (minis) (PSN)
 
-# Other developer content
-* Death Jr II Root Of Evil (USA) has a bash script (/PSP_GAME/USRDIR/STREAMS/IGOR.SH)
+## Other developer content
+* **Death Jr II Root Of Evil** (USA) has a bash script (/PSP_GAME/USRDIR/STREAMS/IGOR.SH)
     * the bash script mentions SN Systems the company that created the ProDG SDK
 * Ghostbusters The Video Game (EUR)
     * Contains c-like extern statements
@@ -130,10 +133,11 @@ While not quite debug symbols, these games contain unencrypted Lua scripts that 
 * Need_For_Speed_Most_Wanted_USA_PSP-ARTiSAN
     * contains debug object files
 
-# Prototype Games
+---
+# Prototype Games - debug symbols
 Surprisingly the currently released prototypes have very little debug symbol information in them
 
-## Games with potential debug symbols
+## Prototype games with potential debug symbols
 * Melodie_(Sep_2,_2005_prototype) (looks like symbols in: `/USER_L0.IMG`)
 
 
@@ -181,4 +185,4 @@ These games have been checked and unfortunetely do not contain any symbols:
 
 ---
 # References
-[^1]- [Gamasutra - Vicious Engine To Support PSP Minis Program](https://www.gamasutra.com/view/news/116317/Vicious_Engine_To_Support_PSP_Minis_Program.php)
+[^1] - [Gamasutra - Vicious Engine To Support PSP Minis Program](https://www.gamasutra.com/view/news/116317/Vicious_Engine_To_Support_PSP_Minis_Program.php)

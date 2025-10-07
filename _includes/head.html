@@ -22,7 +22,7 @@
   <meta name="keywords" content="reverse engineering, reversing, resources, leaks, source code, decompile, {{ page.tags | join: ',' }}" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  
+
 <!--  Open Graph  -->
   {% if page.title %}
     <meta name="twitter:title" content="{{page.title}}">
@@ -32,8 +32,8 @@
     <meta property="og:image" content="https://www.retroreversing.com/public/images/RetroReversingLogoSmall.png" />
     <!--   If it does have a title it will be handled in the post layout -->
   {% endif %}
-  
-  
+
+
   {% if page.twitterimage %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{page.twitterimage}}">
@@ -45,7 +45,7 @@
   {% else %}
     <meta name="twitter:image" content="https://www.retroreversing.com/{{page.thumbnail}}">
   {% endif %}
-  
+
   {% if page.description %}
     <meta name="twitter:description" content="{{page.description}}">
     <meta name="og:description" content="{{page.description}}">
@@ -55,9 +55,9 @@
   {% else %}
     <meta name="twitter:description" content="Retro Reversing - Peek behind the curtain to see how your favourite video games were made.">
   {% endif %}
-  
-  
-  
+
+
+
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.retroreversing.com/" />
  {% if page.excerpt %}
@@ -69,12 +69,12 @@
   <!--  Twitter Meta  -->
   <meta name="twitter:site" content="@RetroReversing">
   <meta name="twitter:creator" content="@RetroReversing">
-  
+
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
-  
-  <link rel="shortcut icon" href="/public/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="/public/favicon.ico" type="image/x-icon">
+
+  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
 
   <title>
     {% if page.title == "Home" %}
@@ -83,7 +83,7 @@
       {{ page.title }} - Retro Reversing (Reverse Engineering)
     {% endif %}
   </title>
-  
+
   <!--   <link rel="canonical" href="{{ site.baseurl }}/{{ page.permalink }}" /> -->
 
   <!-- CSS -->
@@ -92,42 +92,48 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/brands.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">  <!--  Font awesome is used for: twitter icon, bluesky icon  -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400" rel="preload" as="style" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-  
+
 <!--  Vendor CSS  -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/bootstrap.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/animate.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-  <link href="/public/css/owl.carousel.min.css" rel="preload" as="style" onload="this.rel='stylesheet'">
-  
+  <link rel="stylesheet" href="{{ '/public/css/bootstrap.min.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/animate.min.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/owl.carousel.min.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+
 <!--  Game Forest CSS  -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/theme.css" as="style" onload="this.rel='stylesheet'">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/custom.css" as="style" onload="this.rel='stylesheet'">
-  
+  <link rel="stylesheet" href="{{ '/public/css/theme.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/custom.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+
 <!--  Code highlight css  -->
- <link rel="stylesheet" href="{{ site.baseurl }}/public/css/code.css" rel="preload" as="style" onload="this.rel='stylesheet'"> 
-  
+ <link rel="stylesheet" href="{{ '/public/css/code.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+
 <!--  Site specific CSS  -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/theme.overrides.css" as="style" onload="this.rel='stylesheet'">
-  
+  <link rel="stylesheet" href="{{ '/public/css/theme.overrides.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/blockquotes.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/figures.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/tailwind.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+
 <!--  JSTree Folder view css  -->
 <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" as="style" /> -->
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
-  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}">
+
 <!--  File Icons  -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/fileicon.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/cssfolder.css">
-  
+  <link rel="stylesheet" href="{{ '/public/css/fileicon.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/public/css/cssfolder.css' | relative_url }}">
+
 <!--  Code Cards  -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/code-cards.css">
-  
+  <link rel="stylesheet" href="{{ '/public/css/code-cards.css' | relative_url }}">
+
+<!--  Search CSS  -->
+  <link rel="stylesheet" href="{{ '/public/css/search.css' | relative_url }}">
+
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
-  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | relative_url }}">
+
   <!--  DataTables used for tables with search/sorting  -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.css"/>
-  
+
   <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -140,5 +146,5 @@
         ]
       }
     </script>
-  
+
 </head>

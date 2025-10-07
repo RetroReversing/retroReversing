@@ -2,6 +2,7 @@
 permalink: /sdks
 layout: post
 console: sdk
+title: Introduction to Software Development Kits (SDKs)
 breadcrumbs:
   - name: Home
     url: /
@@ -16,10 +17,13 @@ editlink: ../categories/tools/sdks.md
 recommend:
  - sdk
  - tools
+tags:
+  - sdk
+  - tools
 ---
 
 # Introduction to Software Development Kits (SDKs)
-Software Development Kits come in all shapes and sizes, some are built by the games console manufacture themselves and others are built by 3rd-party companies.
+Software Development Kits come in all shapes and sizes, some are built by the games console manufacturer themselves and others are built by 3rd-party companies.
 
 We have tried to document all the software development kits available for the most popular retro consoles, so hopefully you will find the posts below helpful.
 
@@ -29,7 +33,7 @@ We have tried to document all the software development kits available for the mo
 ## Nintendo Entertainment System (NES/Famicom)
 No information has been officially confirmed about whether an official NES SDK was sent out to developers, it may have just been documentation about the NES hardware given to developers and the companies themselves needed to pick their own tools.
 
-We do know that Official Famicom development of Mario Bros 3 took place on the **HP 64000 mainframe computers** which had an assember simply called **assemble** that when paired with a 6502 add-on board could have been the SDK used. However since most third party developers would not have these mainframe computers there was no point distributing tools for these computers. 
+We do know that Official Famicom development of Mario Bros 3 took place on the **HP 64000 mainframe computers** which had an assembler simply called **assemble** that when paired with a 6502 add-on board could have been the SDK used. However since most third party developers would not have these mainframe computers there was no point distributing tools for these computers.
 
 {% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For more information on the Nintendo Famicom development kit check out this page." %}
 
@@ -56,7 +60,7 @@ The Nintendo 64 SDK was leaked some time in the late 2000s and now can be easily
 From at least the Game Boy Advance Software development kits for Nintendo's handheld systems were often provided by Nintendo themselves via their online dev portal known as **WarioWorld**.
 
 ## Nintendo Game Boy (DMG & GBC)
-A few files were leaked from Nintendos development FTP server (WarioWorld?) in the early 2000s, this has allowed us to document some of the known tools that were found in the Game Boy Software development kit:
+A few files were leaked from Nintendo's development FTP server (WarioWorld?) in the early 2000s, this has allowed us to document some of the known tools that were found in the Game Boy Software development kit:
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information on the known Game Boy SDK files check out this post." %}
 
 ## Nintendo Game Boy Advance (GBA)
@@ -74,7 +78,7 @@ We are currently in the process of documenting the files found in the Official N
 # SEGA Software Development Kits
 
 ## SEGA Master System
-No information is known about an official SDK for the SEGA Master System or Mark-3 consoles, it is likely that SEGA relied on the hardware manufacturers and thrid parties to provide the tooling such as Assemblers and Linkers.
+No information is known about an official SDK for the SEGA Master System or Mark-3 consoles, it is likely that SEGA relied on the hardware manufacturers and third parties to provide the tooling such as Assemblers and Linkers.
 
 ## SEGA Game Gear
 Again no information is available about any Official Game Gear Software Development Kit
@@ -113,7 +117,7 @@ We are currently looking for information about the Sony Playstation 3 Software D
 
 ## Microsoft Xbox
 We are currently working on a post that will document the files in the Microsoft Xbox SDK here:
-{% include link-to-other-post.html post="/xbox-sdk-xdk" description="For more information on the files in the Official Sony Microsoft Xbox SDK check out this post." %}
+{% include link-to-other-post.html post="/xbox-sdk-xdk" description="For more information on the files in the Official Microsoft Xbox SDK check out this post." %}
 
 ## Microsoft Xbox 360
 We are still collecting information about the Xbox 360 software development kit provided by Microsoft, a post will become available in the future.

@@ -20,6 +20,8 @@ recommend:
 recommendTitle: All Wonderswan Posts
 editlink: ../categories/consoles/Wonderswan.md
 updatedAt_: '2023-07-21'
+tags:
+  - wonderwan
 ---
 
 # Introduction

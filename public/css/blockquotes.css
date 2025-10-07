@@ -1,0 +1,67 @@
+/* Original Blockquote code used for non-posts  */
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+}
+blockquote p:last-child {
+    margin-bottom: 0
+}
+
+/* Blockquote code used for links to other posts  */
+.post .link-blockquote blockquote {
+    /* padding: .5rem 1rem;
+    margin: .8rem 0; */
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+}
+
+
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem
+    }
+}
+
+/* 
+Beautiful Block quotes thanks to the amazing Catalin Rosu - https://codepen.io/catalinred/pen/YzBPadm  
+Used for default quotes from markdown in posts
+*/
+.post blockquote {
+  padding-left: 2rem;
+  position: relative;
+  overflow: hidden;
+  border:none;
+
+  &::before,
+  &::after{
+    position: absolute;
+    color: #777;
+  }   
+  
+  p {
+    margin: 0;
+    padding: 20px
+  }
+  
+  p + p {
+    margin-top: 1rem;
+  }
+  
+ 
+    &::before {
+      content:  url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='%23777777'><path d='M9.983 3v7.391C9.983 16.095 6.252 19.961 1 21l-.995-2.151C2.437 17.932 4 15.211 4 13H0V3h9.983zM24 3v7.391c0 5.704-3.748 9.571-9 10.609l-.996-2.151C16.437 17.932 18 15.211 18 13h-3.983V3H24z'/></svg>");
+      left: 0;
+    }   
+
+    &::after {
+      content: "";
+      left: 5px;
+      top: 25px;
+      width: 1px;
+      height: 100%;
+      background-color: currentColor;
+    }
+}

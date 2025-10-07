@@ -11,13 +11,17 @@
       {% elsif post.youtube %}
         <img style="min-width:200px; max-width:200px" class="lazy-load otherPostImg" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
       {% else %}
-        {% include placeholder-post-image.html title=post.title %}
+        {% include placeholder-post-image.html title=post.title post=post %}
       {% endif %}
     </a>
   </div>
   <div class="linkToOtherPostRight">
     <h3 style="margin-top:10px; margin-left: 10px"><a target="_blank" href="{{ post.permalink }}">{{ post.title }}</a></h3> 
-    <p>{{ include.description }}</p>
+    {% if include.description %}
+      <p>{{ include.description }}</p>
+    {% else %}
+      <p>{{ post.content | markdownify | strip_html | truncatewords: 30 }}</p>
+    {% endif %}
   </div>
 </blockquote>
 {% endif %}

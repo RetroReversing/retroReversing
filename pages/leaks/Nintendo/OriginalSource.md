@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - leak
-- gb
+- gameboy
 title: Pokemon Original Source Code Leak  
 thumbnail: /public/consoles/Nintendo GameBoy.png
 image_: /public/images/leaks/OriginalSource.jpg
@@ -16,7 +16,7 @@ breadcrumbs:
     url: #
 recommend: 
 - leak
-- gb
+- gameboy
 editlink: /leaks/Nintendo/OriginalSource.md
 twitterimage_: https://www.retroreversing.com/public/images/leaks/OriginalSource.jpg
 updatedAt: '2020-10-03'

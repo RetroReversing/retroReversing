@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - n64
-- intro
+- introduction
 - sdk
 - tutorial
 title: Official N64 SDK Setup (MacOSX/Linux/Win)

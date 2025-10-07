@@ -2,7 +2,6 @@
 layout: post
 tags:
 - sdk
-- compilers
 - saturn
 - sega
 title: Sega Saturn Hitachi Compiler Toolchain

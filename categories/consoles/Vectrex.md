@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Vectrex
     url: #
+tags:
+  - vectrex
 ---
 
 # Introduction

@@ -22,7 +22,9 @@ carousel:
     image: https://img.youtube.com/vi/MPXpH2hxuNc/maxresdefault.jpg
     link: /playStation-architecture
 editlink: ../categories/consoles/PS1.md
-updatedAt: '2019-11-11'                                     
+updatedAt: '2019-11-11'
+tags:
+  - ps1
 ---
 
 # Introduction to Hacking the Sony PlayStation
@@ -36,7 +38,7 @@ So grab your DualShock controller, and get ready to dive into the exciting world
 # Retail Playstation hardware
 The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
 
-However don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
+However, don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
 
 {% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
 
@@ -47,7 +49,7 @@ The main parts of the hardware are:
 * 24 Channel sound chip (SPU)
 
 ## Geometry Transformation Engine (GTE)
-The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playstation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
+The Geometry Transformation Engine or GTE was what allowed the Playstation to handle 3D graphics, it was specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the Playstation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
 
 {% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
 
@@ -78,6 +80,11 @@ Crash Bandicoot was one of the first 3d platformers that managed to deliver qual
 It was created by Andy Gavin and Jason Rubin for release on the original Playstation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
 
 {% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
+
+## PS1 Exclusives
+The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
+
+Wikipedia maintains a list of Playstation 1 exclusives - [PlayStation (console)-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_(console)-only_games)
 
 ## Remastered PS1 Games
 Some classic PS1 games have been remastered or remade for more modern consoles, if you are looking to reverse engineer one of these games it may help to look at the modern version to find additional information that may be relevant.

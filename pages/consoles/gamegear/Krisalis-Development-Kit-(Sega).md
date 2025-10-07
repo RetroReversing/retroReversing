@@ -29,17 +29,17 @@ Shaun Hollingworth and Matt Furniss are credited with creation of the kits hardw
 
 It seems to be very similar to Spidersofts own in-house dev kit (called ESYS) and it seems they worked quite closely on it. They also shared development software between the two software houses such as the Krisalis Assembler (KASM).
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
+![ESYS Hardware](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_0.jpg)
 
 ## Gear Video Decoder
 
 The Gear Video decoder was a board created by Shaun Hollingworth, which presumably is the board that connects the Game Gear to the TV monitor or development system. 
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_1.jpg)
+![Gear Video Decoder](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_1.jpg)
 
 Games World magazine even featured a version of this hardware (which they called ESYS-RGB) in the first issue dated July 1994, which was sold to other games studios or press outlets rather than to the general public. Presumably this is the hardware they used to provide screenshots for the Game Gear games published in the magazine.
 
-![image alt text]({{ site.url }}/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
+![Game Gear on TV article](https://retroreversing.com/public/nAxI7tmNzVZDcZMLzn8JA_img_2.jpg)
 
 ## Krisalis and Spidersoft collaboration
 
@@ -52,20 +52,18 @@ RetroSpark on SMSPower.org has the following to say on the comparison:
 > 
 > In fact, we discussed the possibility that this box is ESYS. Matt mentioned that Krisalis wrote the software for ESYS - perhaps they were also subcontracted to build the hardware. However, there is at least one difference between this box and Matt's - this box does not appear to have a battery backup for the SRAM. 
 
+---
 ## ESYS Development Kit
 
 Matt Taylor mentions the similar ESYS development tool used in-house at rival software company Spidersoft:
 
-```
+> Spidersoft designed and built its own development system called ESYS. This was a ROM emulator box about the size of house brick containing 512Kb of RAM connected to a PC via a parallel cable. 
+>
+> Several were in use at Spidersoft at any one time and they were also sold to other developers. The beauty of the system was that different cartridge interface cards were produced for different consoles, meaning that the same ESYS box could be used for Game Boy, Game Gear, Master System, Megadrive, SNES, NES, and even Jaguar. 
+>
+> The ESYS box also had battery backup meaning that ROM images downloaded to it could be retained even when removed from a PC, making demonstrating work to publishers very easy. Spidersoft also produced a modified Game Gear and interface board that allowed video output from a Game Gear to be put onto a monitor or television, which was useful during development.
 
-Spidersoft designed and built its own development system called ESYS. This was a ROM emulator box about the size of house brick containing 512Kb of RAM connected to a PC via a parallel cable. 
-
-Several were in use at Spidersoft at any one time and they were also sold to other developers. The beauty of the system was that different cartridge interface cards were produced for different consoles, meaning that the same ESYS box could be used for Game Boy, Game Gear, Master System, Megadrive, SNES, NES, and even Jaguar. 
-
-The ESYS box also had battery backup meaning that ROM images downloaded to it could be retained even when removed from a PC, making demonstrating work to publishers very easy. Spidersoft also produced a modified Game Gear and interface board that allowed video output from a Game Gear to be put onto a monitor or television, which was useful during development.
-
-```
-
+---
 ## Development Kit BIOS
 
 The BIOS for this development kit has been dumped by the talented people over at SMSPower.org and it runs out that you can run it in an emulator as either a Master System ROM OR a Game Gear ROM! The Bootup screen shows a different image depending on if its being run as a Master System game or Game Gear as can be seen in the screenshots below.

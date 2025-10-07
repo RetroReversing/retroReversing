@@ -10,14 +10,14 @@
                 <h4 class="footer-title">Help Us Provide the Correct Answer</h4>
                 <p>"The best way to get the right answer on the internet is not to ask a question; it's to post the wrong answer." - Cunningham's Law</p>
             </div>
-            
+
           </div>
           <div class="footer-bottom">
             <div class="footer-social">
               <a rel="noreferrer" href="https://twitter.com/RetroReversing" target="_blank" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
               <a rel="noreferrer" href="https://www.youtube.com/user/RetroReversing" target="_blank" data-toggle="tooltip" title="youtube"><i class="fa fa-youtube"></i></a>
               <a rel="noreferrer" href="/atom.xml" target="_blank" data-toggle="tooltip" title="rss"><i class="fa fa-rss"></i></a>
-               
+
             </div>
             <p>Copyright &copy; 2024 <a href="https://www.retroreversing.com/" target="_blank">Retro Reversing</a>. All rights reserved.</p>
           </div>
@@ -38,11 +38,31 @@
 <!-- GeoPattern generates a nice patten for any element that has class="geopatten" and data-title="whatever" -->
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js"></script>
 <!-- End GeoPattern -->
-<script defer src="/public/js/main.js"></script>
+<script defer src="{{ '/public/js/main.js' | relative_url }}"></script>
+
+<!-- Search functionality -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script defer src="{{ '/public/js/search.js' | relative_url }}"></script>
 
 <script>
-    
-    
-  </script>
+  $(document).ready(function() {
+    $("img.postImage").each(function() {
+        $(this).wrap($("<a/>", {
+            href: $(this).attr("src"),
+            "data-lightbox": '{"gallery": "page-images"}'
+        }));
+    });
+    $('[data-lightbox]').lightbox({
+      disqus: 'retro-reversing'
+    });
+  });
+</script>
+
+<!-- Only include certain scripts when specific custom elements are used  -->
+<script type="module">
+  if (!customElements.get("rr-sandpack")) {
+    import("{{ '/public/js/sandpack/sandpack.js' | relative_url }}");
+  }
+</script>
 
 <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

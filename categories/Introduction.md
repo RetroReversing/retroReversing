@@ -27,13 +27,13 @@ recommend:
 tags:
 - introduction
 editlink: ../categories/Introduction.md
-updatedAt: '2020-03-29'
+updatedAt: '2025-08-28'
 ---
 
 This guide is for all beginners who are interested in learning more about the technical details of their favourite consoles and games. The guide aims to be as console-agnostic as possible,  but after you have completed this you should look into the details of the specific console you are interested in.
 
 # Lesson 1 - What? Why? How?
-Many people are confused about what exactly is involved in reverse engineering or why exactly people would "waste their time" on such a task. Well lets find out...
+Many people are confused about what exactly is involved in reverse engineering or why exactly people would "waste their time" on such a task. Well, let's find out...
 
 ## What is Reverse engineering?
 Presumably by being on this page you at least have a slight idea about what reverse engineering is and may even have some pre-conceptions. 
@@ -43,7 +43,7 @@ At the end of the day it really is what it says on the tin, "Reverse engineering
 A reverse engineer is a scientist that studies man-made object rather than natural phenomena.
 
 ## Why reverse retro games?
-Ok but why exactly would people spend their time reverse engineering an old game instead of creating brand new games?
+OK, but why exactly would people spend their time reverse engineering an old game instead of creating brand new games?
 
 There are many reasons for this such as pure nostalgia and preservation of a part of our modern history, the same way people study traditional art, studying games is a rather obscure version of appreciating human history.
 
@@ -64,13 +64,13 @@ Whether that is translating a game into a new language, improving the sound or v
 It might not exactly be saving lives in the traditional sense, but the hours of joy you can bring to gamers old and new is priceless.
 
 ## Is reverse engineering legal?
-Yes, in fact there are many cases where the courts have sided with the reverse-engineer when it comes to anti-competitive practises.
+Yes, in fact there are many cases where the courts have sided with the reverse-engineer when it comes to anti-competitive practices.
 
 If you are interested there are a few court battles that are relevant:
 * [SEGA vs Accolade](https://en.wikipedia.org/wiki/Sega_v._Accolade#Settlement)
 * [Sony Computer Entertainment, Inc. v. Connectix Corp. - Wikipedia](https://en.wikipedia.org/wiki/Sony_Computer_Entertainment,_Inc._v._Connectix_Corp.)
 
-In fact reverse engineering already plays a vital role in ensuring your freedom in an increasingly more technological society. How do you know a voting machine is accurately counting your vote? Or how do you know if your computer is spying on you? You could reverse engineer it and find out.
+In fact, reverse engineering already plays a vital role in ensuring your freedom in an increasingly more technological society. How do you know a voting machine is accurately counting your vote? Or how do you know if your computer is spying on you? You could reverse engineer it and find out.
 
 ---
 # Lesson 2 - Introduction to Data Structures & Formats
@@ -84,9 +84,9 @@ But what exactly are ROM files? How did that big plastic cartridge become a sing
 
 
 ## ISO files
-ISO files are sometimes incorrectly called ROMs and technically they are a copy of data that was on a Read-Only memory format but there are some fundamental differences between them.
+ISO files are sometimes incorrectly called ROMs and technically they are a copy of data that was on a Read-only memory format but there are some fundamental differences between them.
 
-If you are unaware ISO files are copies of the data on a CD, DVD or Blu-ray Disc. Thus one of the major differences between this and a ROM file is it actually is a standard file format that can be opened in a tool such as Windows Explorer or Apple Finder and you can explore all the sub files inside. 
+If you are unaware ISO files are copies of the data on a CD, DVD or Blu-ray Disc. Thus one of the major differences between this and a ROM file is it actually is a standard file format that can be opened in a tool such as Windows Explorer or Apple Finder and you can explore all the subfiles inside. 
 
 It is generally easier to find graphics, sounds, maps, videos and such in ISO files as they tend to be individual files with a useful file extension. Although this is not always the case as many games engines like to pack up all their files into a single or multiple compressed files. 
 
@@ -99,7 +99,7 @@ It is generally easier to find graphics, sounds, maps, videos and such in ISO fi
  <div markdown="1">
 As we have said before games are just a series of 1's and 0's so we could look at your favourite ROM or favourite ISO file in this way and you could, with enough time, find out what each bit represents.
 
-However humans are not very good at distinguishing parents of bits, so we have a much easier way to view these files in a format called Hexadecimal! In Hexadecimal every single Byte in a ROM or well any file on a computer can be represented as 2 digits using the numbers 0->9 and the letters A->F.
+However, humans are not very good at distinguishing parents of bits, so we have a much easier way to view these files in a format called Hexadecimal! In Hexadecimal every single Byte in a ROM or well any file on a computer can be represented as 2 digits using the numbers 0->9 and the letters A->F.
 
 Don't worry you will not need to learn how to convert to Hexadecimal, there are plenty of tools for that, and you will pick up the most common Hex codes as you go along.
 
@@ -116,9 +116,13 @@ As we know a game is build up of either a single file (ROM) or multiple files, b
 So we know know that we can represent each byte as two Hexadecimal digits, why don't we open up some of those game files!
 
 Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
-* Hex Fiend (Mac OSX)
-* Win Hex (Windows)
-* Bless Hex Editor (Linux)
+
+* ImHex (Windows / macOS / Linux) (Free and open source) (Website: https://imhex.werwolv.net/)
+* rehex (Windows / macOS / Linux / BSD) (Free and open source) (Website: https://rehex.solemnwarning.net/)
+* GNU Emacs (Windows / macOS / Linux) (Free and open source) (Website: https://www.gnu.org/software/emacs/)
+* 010 Editor (Windows / macOS / Linux) (Proprietary and closed source) (Website: https://www.sweetscape.com/)
+* WinHex (Windows) (Proprietary and closed source) (Website: https://www.x-ways.net/winhex/index-m.html)
+* HIEW (Windows) (Proprietary and closed source) (Website: https://www.hiew.ru/)
 
 Some ROM hacks are done purely with a HEX editor and emulator so this is a powerful tool to get you started, but there are many other useful tools to learn along the way to make it even easier.
 
@@ -141,7 +145,7 @@ There are so many file formats out there (and many variations) that you couldn't
 Now you know the basics of how data can be represented you can dive into many different file formats used in games. You can view them in Hexadecimal with a Hex Editor and you can spot the Magic Header (if the file has one). This can be very useful for looking at files in ISO files, especially if they do not have a file extension.
 
 
-The Magic Header for a file tends to be the first few bytes of the file, for example wav sound files start with the first 4 ASCII characters `WAVE`.
+The Magic Header for a file tends to be the first few bytes of the file, for example WAV sound files start with the first 4 ASCII characters `WAVE`.
 
 Wikipedia has a useful table of the most common file formats and what their Magic headers are:
 [List of file signatures - Wikipedia](https://en.wikipedia.org/wiki/List_of_file_signatures)
@@ -172,7 +176,7 @@ strings yourfilename
 </section> 
 
 ## Game Audio and Music
-A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a seperate post covering Game Audio and Music reversing and file format information.
+A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a separate post covering Game Audio and Music reversing and file format information.
 {% include link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
 
 ## Memory Dumps
@@ -188,8 +192,8 @@ The exact representation a game uses will vary based on the compiler used, syste
 Here are the most common data representations:
 * **Single Character** (e.g the letter A) - Single byte ASCII
 * **ASCII Text** (e.g the string 'Hello') - One Byte per character and normally ended with a Null Terminator **0x00**
-* **UTF-8 Text** (e.g the string 'Hello') - Two Bytes per character and normally ended with a Null Terminator **0x00**
-* **Boolean** - Either 1 Byte, 4 Bytes or occasionaly 1 Bit (along with 7 other boolean bits)
+* **UTF-8 Text** (e.g the string 'Hello') - A variable number of Bytes (1 to 4) per character and normally ended with a Null Terminator **0x00**
+* **Boolean** - Either 1 Byte, 4 Bytes or occasionally 1 Bit (along with 7 other boolean bits)
 * **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
 * **Long** - 4 Bytes
 
@@ -221,14 +225,14 @@ The Youtuber **Bisqwit** has created an excellent video on how executables work:
 Executable file formats are specific data structures used by operating systems to understand how to load and execute a program. These formats vary depending on the operating system and architecture, but the most common ones are:
 * **PE** - Portable Executable used in Microsoft Windows and Xbox
 * **ELF** - Executable and Linkable Format used in Linux/Unix systems
-* **Mach-O** - Mach Object used in MacOSX and iOS
+* **Mach-O** - Mach Object used in macOS and iOS
 * **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
 * **COM** - Used in DOS and early Windows
 
-Note that most executables don't have any file extension on Unix/MacOSX and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's "PS-EXE" format.
+Note that most executables don't have any file extension on Unix/macOS and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's "PS-EXE" format.
 
 ## What is an API?
-An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain  platform (e.g PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynanmically linked to at runtime from a common set of libraries. 
+An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain platform (e.g. PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynamically linked to at runtime from a common set of libraries. 
 
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
 
@@ -249,17 +253,17 @@ Here's a table of Microsoft Visual C++ (MSVC) versions and their associated runt
 | **MSVC Version** | **Runtime DLLs**                       | **DLL File Names**                              |
 |------------------|----------------------------------------|-------------------------------------------------|
 | **MSVC 6.0**     | Visual C++ 6.0 runtime                 | `MSVCRT.dll`                                    |
-| **MSVC 7.0**     | Visual Studio .NET 2002 (VC7)           | `MSVCRT.dll`, `MSVCP60.dll`                     |
-| **MSVC 7.1**     | Visual Studio .NET 2003 (VC7.1)         | `MSVCRT.dll`, `MSVCP71.dll`                     |
-| **MSVC 8.0**     | Visual Studio 2005 (VC8)                | `MSVCRT.dll`, `MSVCP80.dll`, `MSVCR80.dll`     |
-| **MSVC 9.0**     | Visual Studio 2008 (VC9)                | `MSVCRT.dll`, `MSVCP90.dll`, `MSVCR90.dll`     |
-| **MSVC 10.0**    | Visual Studio 2010 (VC10)               | `MSVCRT.dll`, `MSVCP100.dll`, `MSVCR100.dll`   |
-| **MSVC 11.0**    | Visual Studio 2012 (VC11)               | `MSVCRT.dll`, `MSVCP110.dll`, `MSVCR110.dll`   |
-| **MSVC 12.0**    | Visual Studio 2013 (VC12)               | `MSVCRT.dll`, `MSVCP120.dll`, `MSVCR120.dll`   |
-| **MSVC 14.0**    | Visual Studio 2015 (VC14)               | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
-| **MSVC 14.1**    | Visual Studio 2017 (VC14.1)             | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
-| **MSVC 14.2**    | Visual Studio 2019 (VC14.2)             | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
-| **MSVC 15.0**    | Visual Studio 2022 (VC15)               | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`   |
+| **MSVC 7.0**     | Visual Studio .NET 2002 (VC7)          | `MSVCRT.dll`, `MSVCP60.dll`                     |
+| **MSVC 7.1**     | Visual Studio .NET 2003 (VC7.1)        | `MSVCRT.dll`, `MSVCP71.dll`                     |
+| **MSVC 8.0**     | Visual Studio 2005 (VC8)               | `MSVCRT.dll`, `MSVCP80.dll`, `MSVCR80.dll`      |
+| **MSVC 9.0**     | Visual Studio 2008 (VC9)               | `MSVCRT.dll`, `MSVCP90.dll`, `MSVCR90.dll`      |
+| **MSVC 10.0**    | Visual Studio 2010 (VC10)              | `MSVCRT.dll`, `MSVCP100.dll`, `MSVCR100.dll`    |
+| **MSVC 11.0**    | Visual Studio 2012 (VC11)              | `MSVCRT.dll`, `MSVCP110.dll`, `MSVCR110.dll`    |
+| **MSVC 12.0**    | Visual Studio 2013 (VC12)              | `MSVCRT.dll`, `MSVCP120.dll`, `MSVCR120.dll`    |
+| **MSVC 14.0**    | Visual Studio 2015 (VC14)              | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`    |
+| **MSVC 14.1**    | Visual Studio 2017 (VC14.1)            | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`    |
+| **MSVC 14.2**    | Visual Studio 2019 (VC14.2)            | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`    |
+| **MSVC 15.0**    | Visual Studio 2022 (VC15)              | `MSVCRT.dll`, `MSVCP140.dll`, `MSVCR140.dll`    |
 
 Notes:
 - **MSVCRT.dll** is the Microsoft C Runtime Library used across various versions.
@@ -269,21 +273,28 @@ Notes:
 ### What tools are used to explore Executables and Compiled Libraries?
 Here's a table summarizing the tools for viewing the insides of executables and libraries:
 
-| **Tool**               | **Platform**                    | **Description**                                                                 | **Usage**                                                      |
-|------------------------|---------------------------------|---------------------------------------------------------------------------------|----------------------------------------------------------------|
-| **objdump**            | Linux, Unix, macOS, Windows     | Disassembles and displays information about object files and executables.        | `objdump -d <file>` for disassembly, `objdump -t <file>` for symbols. |
-| **readelf**            | Linux, Unix                     | Displays detailed information about ELF files, including headers and segments.   | `readelf -h <file>` for headers, `readelf -s <file>` for symbols.       |
-| **nm**                 | Linux, Unix, macOS, Windows     | Lists symbols from object files, executables, and libraries.                     | `nm <file>`                                                    |
-| **gdb**                | Linux, Unix, macOS, Windows     | Debugger that can also inspect executable contents, disassemble code, and view symbols. | `gdb <file>`, then use commands like `info functions` or `disassemble`. |
-| **IDA Pro**            | Windows, Linux, macOS           | Commercial disassembler and debugger with interactive analysis capabilities.     | Load the executable into IDA Pro and use the GUI for exploration.       |
-| **Hex-Rays Decompiler**| Windows, Linux, macOS           | Converts disassembled code back to C-like pseudo code; an add-on for IDA Pro.    | Integrated within IDA Pro; select a function and decompile.    |
-| **Binary Ninja**       | Windows, Linux, macOS           | Modern binary analysis tool with disassembly, decompilation, and scripting.      | Load the binary and use the GUI or API for analysis.           |
-| **Radare2**            | Windows, Linux, macOS           | Open-source framework for reverse engineering, including disassembly and debugging. | `r2 <file>`, then use commands like `pdf` to disassemble functions.     |
-| **PE Explorer**        | Windows                         | Commercial tool for inspecting and editing Windows PE files.                     | Open the executable in PE Explorer and navigate through sections.       |
-| **CFF Explorer**       | Windows                         | Free tool for analyzing and editing PE files, with detailed views of file structure. | Open the PE file in CFF Explorer and explore different sections. |
-| **Dependency Walker**  | Windows                         | Analyzes dependencies of Windows executables and DLLs, showing imported/exported functions. | Load the executable or DLL in Dependency Walker and explore dependencies. |
-| **dumpbin**            | Windows (Visual Studio)         | Command-line tool for inspecting PE files, showing headers, symbols, imports, and more. | `dumpbin /all <file>` to view all available information.       |
-| **MachOView**          | macOS                           | Tool for viewing the structure of Mach-O binaries, native to macOS executables.  | Open the Mach-O binary in MachOView and browse its segments and sections. |
+| **Tool**                | **Platform**                    | **Description**                                                                               | **Usage**                                                                 |
+|-------------------------|---------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| **objdump**             | Linux, Unix, macOS, Windows     | Disassembles and displays information about object files and executables.                     | `objdump -d <file>` for disassembly, `objdump -t <file>` for symbols.     |
+| **readelf**             | Linux, Unix                     | Displays detailed information about ELF files, including headers and segments.                | `readelf -h <file>` for headers, `readelf -s <file>` for symbols.         |
+| **nm**                  | Linux, Unix, macOS, Windows     | Lists symbols from object files, executables, and libraries.                                  | `nm <file>`.                                                              |
+| **gdb**                 | Linux, Unix, macOS, Windows     | Debugger that can also inspect executable contents, disassemble code, and view symbols.       | `gdb <file>`, then use commands like `info functions` or `disassemble`.   |
+| **Ghidra**              | Windows, Linux, macOS           | Free and open source disassembler and debugger with interactive analysis capabilities.        | Load the executable into Ghidra and use the GUI for exploration.          |
+| **IDA Pro**             | Windows, Linux, macOS           | Commercial disassembler and debugger with interactive analysis capabilities.                  | Load the executable into IDA Pro and use the GUI for exploration.         |
+| **Hex-Rays Decompiler** | Windows, Linux, macOS           | Converts disassembled code back to C-like pseudo code; an add-on for IDA Pro.                 | Integrated within IDA Pro; select a function and decompile.               |
+| **Binary Ninja**        | Windows, Linux, macOS           | Modern binary analysis tool with disassembly, decompilation, and scripting.                   | Load the binary and use the GUI or API for analysis.                      |
+| **Radare2**             | Windows, Linux, macOS           | Open-source framework for reverse engineering, including disassembly and debugging.           | `r2 <file>`, then use commands like `pdf` to disassemble functions.       |
+| **PE Explorer**         | Windows                         | Commercial tool for inspecting and editing Windows PE files.                                  | Open the executable in PE Explorer and navigate through sections.         |
+| **CFF Explorer**        | Windows                         | Free tool for analyzing and editing PE files, with detailed views of file structure.          | Open the PE file in CFF Explorer and explore different sections.          |
+| **Dependency Walker**   | Windows                         | Analyzes dependencies of Windows executables and DLLs, showing imported/exported functions.   | Load the executable or DLL in Dependency Walker and explore dependencies. |
+| **dumpbin**             | Windows (Visual Studio)         | Command-line tool for inspecting PE files, showing headers, symbols, imports, and more.       | `dumpbin /all <file>` to view all available information.                  |
+| **MachOView**           | macOS                           | Tool for viewing the structure of Mach-O binaries, native to macOS executables.               | Open the Mach-O binary in MachOView and browse its segments and sections. |
+
+### How do I find out what compiler/linker was used to build an executable?
+<img width="799" height="524" alt="Detect It Easy showing the Compile and Linker for Game Maker 1.1 executable" src="https://github.com/user-attachments/assets/5b9e294f-48b4-4c80-9159-324c9230e774" />
+When decompiling it can be incredible useful to know the exact version of the compiler and linker toolchain was used to build an executable so that the correct decompilation settings can be applied.
+
+The best tool to detect which compiler and linker was used is **Detect It Easy** (DIE), it is open source and has pre-build binaries available for Win/Mac and linux: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file)
 
 
 ---
@@ -295,7 +306,7 @@ Assembly language is a low-level programming language that's a step above the bi
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
 ## Do I need to learn Assembly Language for reversing?
-You do not need to learn assembly language to reverse engineer retro games, however if you want to write your own games from scratch then it is reccomended. 
+You do not need to learn assembly language to reverse engineer retro games, however, if you want to write your own games from scratch then it is recommended. 
 For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
 
 The best way is to learn as you go and use the Internet as a reference when you need to know what an instruction does.
@@ -308,10 +319,10 @@ It depends on the platform (specifically CPU) that your game was built for, here
 * **Z80 Assembly Language** - Game Boy, Sega Master System, Sega Game Gear
 * **6502 Assembly Language** - Nintendo Entertainment System, SNES, PC Engine / TurboGrafx-16
 * **Motorola 68000 Assembly Language** - Sega Mega Drive
-* **MIPS Assembly Language** - Sony Playstation 1, Sony Playstation 2, Sony PSP, Nintendo 64
+* **MIPS Assembly Language** - Sony PlayStation 1, Sony PlayStation 2, Sony PSP, Nintendo 64
 * **SuperH Assembly Language** - Sega Saturn, Sega Dreamcast
 * **ARM Assembly Language** - Game Boy Advance, Nintendo DS, Nintendo 3DS, iPhone, Android
-* **PowerPC Assembly Language** - Nintendo Gamecube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony Playstation 3
+* **PowerPC Assembly Language** - Nintendo GameCube, Nintendo Wii, Nintendo Wii U, Microsoft Xbox 360, Sony PlayStation 3
 * **Intel x86 Assembly Language** - Microsoft Xbox
 
 Note that the above are the rough groups, some specific CPUs have more specialised instructions that are exclusive to that console, but mostly its the same programming language.
@@ -350,7 +361,7 @@ When learning reverse engineering and assembly language programming it is vital 
 
 Microprocessors provided a cost-effective way to access computing power. Before microprocessors, developing custom hardware for each game or gaming system was expensive and time-consuming. Microprocessors allowed for standardized, affordable, and flexible computing platforms.
 
-Microprocessors brought a level of standardization to the gaming industry. Instead of needing custom hardware for each game or console, developers could create games for a common microprocessor architecture (e.g., x86, ARM, or MIPS). This made it easier for developers to create games and for consumers to adopt new gaming systems.
+Microprocessors brought a level of standardization to the gaming industry. Instead of needing custom hardware for each game or console, developers could create games for a common microprocessor architecture (e.g. x86, ARM, or MIPS). This made it easier for developers to create games and for consumers to adopt new gaming systems.
 
 ## How a CPU Works
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -425,7 +436,7 @@ You can think of the heap as a large pool of memory where you can request chunks
 ## Which systems had a heap?
 Early video game consoles typically did not have a heap due to their limited memory and lack of an operating system to manage dynamic memory allocation. However, as consoles evolved and gained more memory and complexity, the concept of a heap started to become relevant.
 
-Some heaps were handled by the Operating system (Xbox onwards) and others were handled by the game engines themselves (PS2, Gamecube).
+Some heaps were handled by the operating system (Xbox onwards) and others were handled by the game engines themselves (PS2, GameCube).
 
 ## How does the Heap grow?
 
@@ -449,7 +460,7 @@ Instead of passing large arrays or structures to functions (which is slow), you 
 ---
 # Lesson 7 - Functions
 
-## Function Calling Convensions
+## Function Calling Conventions
 Function calling conventions are rules that define how functions receive parameters, return results, and manage memory during a call.
 
 Conventions specify whether function arguments are passed in registers (fast) or on the stack (slower) and decide which registers are used for passing parameters. Often, a special register (like eax in x86 architecture) is used to hold the return value.
@@ -458,6 +469,7 @@ Conventions also decide who is responsible for cleaning up the stack after the f
 
 ### cdecl (C Declaration)
 **cdecl** (short for **"C Declaration"**) is a calling convention used in C and C++ programming that specifies:
+
 - **Arguments**: Passed on the stack from right to left.
 - **Cleanup**: The caller cleans up the stack after the function returns.
 - **Return Value**: Typically returned in the `eax` register.
@@ -471,12 +483,13 @@ Conventions also decide who is responsible for cleaning up the stack after the f
 
 ### fastcall
 **fastcall** is a calling convention designed to improve the performance of function calls by reducing the overhead associated with passing arguments and handling stack operations.
-- **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g., ecx and edx on x86), with additional arguments on the stack.
+
+- **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g. ecx and edx on x86), with additional arguments on the stack.
 - **Cleanup**: The callee cleans up the stack.
 - **Return Value**: Typically returned in the eax register.
 
 ### thiscall
-thiscall is a calling convention used primarily for C++ member functions. It is designed to handle the specific needs of methods that operate on objects (i.e., functions that are part of a class).
+thiscall is a calling convention used primarily for C++ member functions. It is designed to handle the specific needs of methods that operate on objects (i.e. functions that are part of a class).
 
 - **Arguments**: Used primarily for C++ member functions.
 - **First Argument**: The this pointer (the instance of the object) is passed in a specific register (ecx on x86).
@@ -650,10 +663,10 @@ We have pages on each of the following **Nintendo** consoles:
 * [Super Nintendo Entertainment System](https://www.retroreversing.com/snes/)
 * [Nintendo Game Boy](https://www.retroreversing.com/gameboy)
 * [Nintendo 64](https://www.retroreversing.com/n64/)
-* [Nintendo Gamecube (Dolphin)](https://www.retroreversing.com/gamecube/)
+* [Nintendo GameCube (Dolphin)](https://www.retroreversing.com/gamecube/)
 * [Nintendo Wii](https://www.retroreversing.com/wii/)
 * [Nintendo 3DS](https://www.retroreversing.com/3ds/)
-* [Nintendo WiiU](https://www.retroreversing.com/wiiU/)
+* [Nintendo Wii U](https://www.retroreversing.com/wiiU/)
 
 ## SEGA Consoles
 We have pages on each of the following **SEGA** consoles:
@@ -665,9 +678,9 @@ We have pages on each of the following **SEGA** consoles:
 
 ## Sony Consoles
 We have pages on each of the following **Sony** consoles:
-* [Sony Playstation 1](https://www.retroreversing.com/ps1/)
-* [Sony Playstation 2](https://www.retroreversing.com/ps2)
-* [Sony Playstation Portable](https://www.retroreversing.com/psp/)
+* [Sony PlayStation 1](https://www.retroreversing.com/ps1/)
+* [Sony PlayStation 2](https://www.retroreversing.com/ps2)
+* [Sony PlayStation Portable](https://www.retroreversing.com/psp/)
 
 ## Microsoft Consoles & PC
 We have pages on each of the following **Microsoft** consoles along with a section of the IBM-PC:

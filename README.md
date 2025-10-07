@@ -98,3 +98,24 @@ We only embed high-quality youtube videos related to the technical achievements 
 
 ## Thumbnail Creator
 https://www.canva.com
+
+---
+# Running Locally
+
+## Update Ruby Version to 3.2.2
+e.g on MacOS:
+```bash
+brew install rbenv ruby-build
+rbenv install 3.2.2
+rbenv global 3.2.2
+```
+
+## Install the Gems
+```bash
+bundle install
+```
+
+## Run Locally
+To preview the site on your machine:
+* Run `jekyll serve --livereload` from the project root.
+* Open [http://localhost:4000](http://localhost:4000) in your browser.

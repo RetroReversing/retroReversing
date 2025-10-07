@@ -1,12 +1,10 @@
 ---
-permalink: /wiiU/
+permalink: /wiiu
+title: Nintendo WiiU Reverse Engineering
 layout: post
-recommend: wiiU
 recommendTitle: All WiiU Posts
 editlink: ../categories/consoles/WiiU.md
-console: 'wiiU'
-title: Nintendo WiiU  Reverse Engineering
-consoleimage: /public/consoles/Nintendo WiiU.png
+console: 'wiiu'
 thumbnail: /public/consoles/Nintendo WiiU.png
 excerpt: Awesome list of Nintendo WiiU Game Development and Reverse Engineering information
 breadcrumbs:
@@ -16,6 +14,12 @@ breadcrumbs:
     url: /
   - name: Nintendo WiiU Reverse Engineering
     url: #
+tags:
+  - wiiu
+recommend:
+  - wiiu
+  - wii
+  - introduction
 ---
 
 # Introduction
@@ -24,6 +28,8 @@ Welcome to our page dedicated to Wii U reverse engineering! The Wii U was a gami
 On this page, we've compiled a list of links to other pages that cover various topics related to Wii U reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
 
 So grab your Wii U gamepad, and get ready to dive into the exciting world of Wii U reverse engineering!
+
+{% comment %}
 
 ---
 # Hardware
@@ -34,6 +40,9 @@ In this section of our guide, we will provide you with comprehensive information
 ## Retail Hardware
 
 ## Development Hardware
+
+{% endcomment %}
+
 
 ---
 # All Posts

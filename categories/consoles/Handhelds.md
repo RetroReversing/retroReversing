@@ -23,6 +23,12 @@ recommend:
 recommendTitle: All Handheld Posts
 editlink: ../categories/consoles/Handhelds.md
 updatedAt_: '2024-05-05'
+tags:
+  - gba
+  - gbc
+  - gamecom
+  - gamegear
+  - handhelds
 ---
 
 # Introduction

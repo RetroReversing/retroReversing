@@ -42,7 +42,7 @@ Their versatility and efficiency allowed developers to create complex gameplay m
 
 Most games post MegaDrive/SNES/Game Boy Color were written in C and many games post PS1 were written in C++.
 
-However there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g. Lego Stunt Rally [^2], Datel Rocket games).
+However, there are some interesting exceptions to this rule such as commercial Game Boy Color games written in C (e.g. Lego Stunt Rally [^2], Datel Rocket games).
 
 Also there is one known commercial Mega Drive game to be written in C, **Sonic Spinball** [^5]!
 
@@ -50,8 +50,17 @@ One good way to tell if a game uses C/C++ is to look for C-style strings in the 
 
 C/C++ Compilers:
 * GNU GCC
-* TurboC++
+* Turbo C++
 * Microsoft Visual C++
+
+---
+# Shader Languages
+Shaders are tiny programs that run on GPUs and thus have their own category of programming languages more suited to the task, as general purpose programming languages are too bloated and contain too many concepts that would not work on a GPU.
+
+## Nvidia Cg
+Nvidia’s Cg (C for Graphics) is a high-level C-like graphics programming language first released in 2002, with the second version being released in 2007 [^6].
+
+The language is part of the Cg Toolkit which consists of a compiler, runtime libraries for both DirectX and OpenGL and a standalone shader viewer for testing.
 
 ---
 # BASIC Variants
@@ -69,7 +78,9 @@ Popular games made using Blitz Basic:
 
 Blitz BASIC later evolved into **Blitz2D** which was for creating games for DOS/Windows and has continued to evolve into future products such as **Blitz3D** [^1].
 
+---
 ## DarkBASIC
+<img src="https://m.media-amazon.com/images/I/51TBHVEJXYL._AC_UF894,1000_QL80_.jpg" />
 DarkBASIC, a more modern version of Amiga tools such as Blitz BASIC or AMOS, took simplicity to the next level by focusing specifically on game development. 
 Tailored for beginners and hobbyists, it provided a robust set of tools for creating 2D and 3D games with ease. DarkBASIC's intuitive scripting language allowed developers to concentrate on game design without getting bogged down in technical details, making it an accessible gateway to the world of game development for hobbyists.
 
@@ -93,3 +104,4 @@ You can find out more about all The Game Creators products in this excellent doc
 [^3]: [The Game Creators Newsletter - Issue 50](https://www.thegamecreators.com/pages/newsletters/newsletter_issue_50.html)
 [^4]: [FPS-Creator-Classic/Dark Basic Pro Shared/Dark Basic Pro/Projects/FPSCREATOR at master · TheGameCreators/FPS-Creator-Classic](https://github.com/TheGameCreators/FPS-Creator-Classic/tree/master/Dark%20Basic%20Pro%20Shared/Dark%20Basic%20Pro/Projects/FPSCREATOR)
 [^5]: [Interview: Peter Morawiec (2007-04-20) by Sega-16 - Sega Retro](https://segaretro.org/Interview:_Peter_Morawiec_(2007-04-20)_by_Sega-16?rdfrom=https%3A%2F%2Finfo.sonicretro.org%2Findex.php%3Ftitle%3DInterview%3A_Peter_Morawiec_%282007-04-20%29_by_Sega-16%26redirect%3Dno)
+[^6]: Develop issue 79 page 46

@@ -55,13 +55,32 @@ Most of the compositing software used for the VFX and animation industries was a
 * Nuke by Foundry
 * Blackmagic Design's Fusion
 
+## What Animation Software was used?
+* morpheme by Natural Motion (PS3, Xbox 360, PC)
 
 ---
-#  3D Studio (Max)
-3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2022).
+# Popular 3D Art Software
+The software in this section are used by hundreds if not thousands of games and could be considered the industry standard.
 
-We have a separate post on 3D studio Max which you can find below:
-{% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3DStudio check out this post." %}
+## 3D Studio (Max)
+3D Studio (later 3D Studio Max) is an incredibly popular 3D modeling software in the games industry and it is still going strong today (as of 2025).
+
+We have a separate post on 3D Studio Max which you can find below:
+{% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
+
+---
+# Obscure 3D Art Software
+The software in this section are more obscure and may have only been used for a handful of games, but they were viable choices for smaller studios due to their cheaper price.
+
+## 3D-Brush (Later 3DCoat)
+At only $70 3D-Brush was a very cheap alternative to Zbrush and Mudbox and was developed by Dmitriy Yanev’s, who was the former lead coder from the Ukraine based game development studio **GSC Gameworld** (Cossacks game series).
+
+It was later rebranded to **3D-Coat** in early 2008 and it is still a viable product in 2025! However it is unclear which commercial games, if any, used this during the development process.
+
+Here is a screenshot from the old **3d-brush.com** website showing the 1.82 Beta version interface:
+![3d-Brush 1.82](https://github.com/user-attachments/assets/6531ba92-5fed-4e49-9df3-4cf2172043ff)
+
+
 
 ---
 # References

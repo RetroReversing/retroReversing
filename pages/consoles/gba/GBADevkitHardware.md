@@ -74,14 +74,27 @@ If the `IS-AGB-DEBUGGER` label is checked on the unit then it also contains supp
 A custom GBA controller is attacted to the **IS-AGB-EMULATOR** to play the games, one of which has been documented by Developer Jeff on his Twitter:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Prototype Nintendo Gameboy Advanced in unreleased Lemon Yellow! <br><br>This system went with the IS CGB/AGB Emulator kit ver.1 and works as an controller unit for the device. <br><br>More photos &amp; a teardown coming soon of this unique rarity including its emulator box so stay tuned!<br><br>-Jeff <a href="https://t.co/B8F5zFOokc">pic.twitter.com/B8F5zFOokc</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1352523620015353856?ref_src=twsrc%5Etfw">January 22, 2021</a></blockquote>
 
+---
 ## IS-AGB-MIDI
 <section class="postSection">
-    <img src="/public/images/gba/IS-AGB-MIDI.png" class="wow slideInLeft postImage" />
+    <img src="https://github.com/user-attachments/assets/f9263fbb-6f8c-4f70-bc33-a493c8296f22" class="wow slideInLeft postImage" />
 
 <div markdown="1">
-For sound developers Intelligent Systems created the `IS-AGB-MIDI` which is a cartridge that plugs into the `IS-AGB-EMULATOR` [^4].
+For sound developers, Intelligent Systems created the **IS-AGB-MIDI** which is a cartridge that plugs into the **IS-AGB-EMULATOR** [^4], not the GBA cartridge itself [^12].
 
-You then connect the cartridge to the development PC via the MIDI port and you have the ability to test sounds and music on the GBA hardware directly!
+You then connect the cartridge to a MIDI device such as a keyboard via the 5-PIN DIN connector MIDI port, and you have the ability to test sounds and music to hear what they would sound like on real GBA hardware!
+
+
+All of the information and images related to **IS-AGB-MIDI** are thanks to long term friend of the site, **Gerry** who runs his own website with all sorts of retro game development goodness [https://www.behindthecode.ca/is-agb-midi-music-dev-cart/](Behind The Code with Gerry). If you are interested in more information about game development hardware, his site is a must visit! 
+
+![The Printed Circuit Board](https://github.com/user-attachments/assets/ea94e04b-c4dd-4f2b-b42d-9019f206222e)
+![Back of the Board](https://github.com/user-attachments/assets/4d4ba8f0-4412-42c9-a1aa-051f37f295ab)
+
+Gerry also shows the device in his excellent video about the **IS-AGB-EMULATOR** below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pHe2o2p_6AY?si=qS8DJyGxvnH5Fs4h&amp;start=808" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 </div>
 </section>
 
@@ -185,3 +198,4 @@ One cool feature of the cartridge for development was that it saved game states 
 [^9]: [Prodg Gameboy Advance - Nicholas Cottrill](https://www.flickr.com/photos/icarusnick/6096215559/in/photostream/)
 [^10]: [Nintendo Game Boy Advance ProDG Development Kit](http://devkits.handheldmuseum.com/GBC-ProDG/index.htm)
 [^11]: [Flash ROM Cartridge for Game Boy Advance](http://web.archive.org/web/20030811012110/http://www.snsystems.com/GameBoyAdvance/flashcart.htm)
+[^12]: [Behind The Code with Gerry IS-AGB-MIDI ](https://www.behindthecode.ca/is-agb-midi-music-dev-cart/)

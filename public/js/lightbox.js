@@ -70,7 +70,7 @@
 	      $('body').find("[data-lightbox*='\"gallery\": \"" + option.gallery + "\"']").each(function() {
 	        $('.lightbox ul').append(
 	          '<li>' +
-	            '<img src="' + $(this).attr('src') + '">' +
+	            '<img src="' + $(this).attr('href') + '">' +
 	          '</li>'
 	        );
 	      });
@@ -112,6 +112,15 @@ if (source) {
 	    $('.lightbox ul > li:eq(' + slideNum + ')').show();
 
 	    current = slideNum;
+
+	    $(document).on('keydown.lightbox', function(e) {
+        console.log('Keydown')
+	      if (e.key === "ArrowLeft" || e.keyCode === 37) {
+	        $('.lightbox-prev').click();
+	      } else if (e.key === "ArrowRight" || e.keyCode === 39) {
+	        $('.lightbox-next').click();
+	      }
+	    });
 	  });
 
 	  $('body').on('click', '.lightbox-overlay, .lightbox-close', function() {
@@ -128,6 +137,9 @@ if (source) {
 	  	setTimeout(function(){
 	      $('.lightbox').remove();
 	  	}, 600);
+
+	    $(document).off('keydown.lightbox');
+
 	    return false;
 	  });
 

@@ -6,8 +6,6 @@ recommend: 3ds
 recommendTitle: All 3DS Posts
 editlink: ../categories/consoles/3ds.md
 console: '3ds'
-consoleimage: /public/consoles/Nintendo 3DS.png
-thumbnail: /public/consoles/Nintendo 3DS.png
 excerpt: Awesome list of 3DS Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -22,6 +20,8 @@ videocarousel:
     youtube: 'ImR-TdDAIJE'
 redirect_from:
   -  /EarlyDaysOf3DSHacking
+tags:
+  - 3ds
 ---
 
 # Introduction

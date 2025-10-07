@@ -17,6 +17,9 @@ breadcrumbs:
     url: /
   - name: MSX
     url: #
+tags:
+  - msx
+  - pc
 ---
 
 # Introduction
