@@ -16,11 +16,12 @@ The search feature is a client-side, static search implementation that allows us
 - **Content**: 
   - Post title
   - Post URL
-  - Post content (stripped of HTML)
+  - Post content (stripped of HTML, with normalized whitespace)
   - Post excerpt (first 50 words)
-  - Tags
-  - Thumbnail/image
-  - Console category
+  - Tags (defaults to empty array if not present)
+  - Thumbnail/image (defaults to empty string if not present)
+  - Console category (defaults to empty string if not present)
+- **Character Handling**: Uses `normalize_whitespace` filter instead of `strip_newlines` for better handling of special characters and proper JSON escaping
 
 #### 2. Search JavaScript (`public/js/search.js`)
 - **Location**: `/public/js/search.js`
@@ -32,6 +33,8 @@ The search feature is a client-side, static search implementation that allows us
   - Real-time results as user types
   - XSS protection via HTML escaping
   - Displays up to 10 results
+  - Enhanced error handling with detailed logging
+  - Fetches JSON as text first for better error diagnostics
 
 #### 3. Search CSS (`public/css/search.css`)
 - **Location**: `/public/css/search.css`
@@ -159,14 +162,22 @@ Potential improvements:
 
 ### Search not working
 1. Check browser console for errors
-2. Verify `/search.json` is accessible
+2. Verify `/search.json` is accessible and valid JSON
 3. Verify Fuse.js CDN is loading
 4. Check if JavaScript is enabled
+
+### JSON parsing errors
+If you see "SyntaxError: The string did not match the expected pattern":
+1. Check the console for detailed error messages showing the problematic JSON
+2. Verify that post content doesn't contain unescaped special characters
+3. The search.json uses `normalize_whitespace` instead of `strip_newlines` to handle special characters better
+4. All optional fields have explicit defaults to prevent null values
 
 ### No results appearing
 1. Check if `/search.json` has content
 2. Verify Jekyll processed the search.json file correctly
 3. Check browser console for JavaScript errors
+4. Verify the search index loaded successfully (check console for "Search index loaded with X posts")
 
 ### Search bar not appearing
 1. Check if Font Awesome is loading (search icon uses FA)
