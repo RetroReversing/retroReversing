@@ -15,8 +15,23 @@
   function initSearch() {
     // Fetch the search index
     fetch('/search.json')
-      .then(response => response.json())
-      .then(data => {
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to fetch search index: ' + response.status);
+        }
+        return response.text();
+      })
+      .then(text => {
+        // Try to parse JSON with better error handling
+        let data;
+        try {
+          data = JSON.parse(text);
+        } catch (parseError) {
+          console.error('JSON Parse Error:', parseError);
+          console.error('Response text (first 500 chars):', text.substring(0, 500));
+          throw new Error('Invalid JSON in search index: ' + parseError.message);
+        }
+        
         searchIndex = data;
         
         // Configure Fuse.js options
