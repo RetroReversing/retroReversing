@@ -39,7 +39,7 @@ On the official website archived on March 3rd 2001, it called Merkury a "world-c
 * Soft-Skinned Skeletal Animation System
 * Simultaneous Independent Animations
 * Mesh Morphing and Animation Morphing
-* Full Support For implementation Of 3D Studio MAX Meshes And Animation
+* Full Support For implementation Of **3D Studio MAX** Meshes And Animation
 * Support For Hardware Transformation And Lighting
 * Real-time Shadows
 * Full Particle Library Using Realistic Motion Simulation.
@@ -71,7 +71,7 @@ The original **Krome Studios** website archived back in March 2001 has the follo
 * **Spirit Board** - Released in 1999 sold as shareware via ScreenOpera
 * **Championship Surfer** - Released in 2000 for Windows
 * **Kat Burglar** - Never released
-* **Gruesome Castle** - Never released but in development in 1998 ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
+* **Gruesome Castle** - Never officially released but in development in 1998 and a demo was leaked online ([Gruesome Castle - Unseen64](https://www.unseen64.net/2020/06/07/gruesome-castle-gee-whiz-mystery-club-cancelled/))
 
 However the only actual reference in the game files for the name **Merkury** was in the 2000 windows release of **Championship Surfer**. The rest of the games refer to a game engine called **BEAST** and a 3D engine called **Blast Graphics** which we believe was simply just renamed to **Merkury** sometime during the development of **Championship Surfer**.
 
@@ -236,18 +236,6 @@ What we do know is a few of the source file paths which were left in the Dreamca
 * C:\Src\beast98\beast98.cpp - Dreamcast version of championship surfer
 * C:\Src\beast98\animscript.cpp - Dreamcast version of championship surfer
 * d:\beast\FUNCDECS.CPP - Inside Mike Stewart's Pro Bodyboarding Dso.bnk
-
-And from a crash log output found on the Russian Disc called [Classic Fond 58](http://discmaster.textfiles.com/browse/4370/ClassicFond58.iso/games/mspb.rar) we have:
-```
-BEAST::Timer1Timer
- BEAST::RunHub
-  BEAST::DoLogics
-   GAME::Main
-    GAME::B4MainMenu
-     GAME::PlayASong
-      BEAST::vLoadSFX
-       BEAST::myhandler
-```
 
 ```
 Release/beast98.exe
@@ -834,10 +822,10 @@ It was so unique that they coined their own genre: "Screen Opera" and it was fol
 It was inspired by David Crane’s Little Computer People and then sold on their own [Screen Opera](https://web.archive.org/web/20010124005100/http://www.screenopera.com/) website [^18].
 
 
-## Game engine - Merkury or Blast Graphics?
-The was written in either C or C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
+## Game engine - Was Merkury based on BEAST or Blast Graphics?
+The was written in C++ and it is built using DirectX 7 and likely Visual C++ as it uses the **Microsoft Visual C++ Runtime Library**.
 
-The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. So if this was built in 1999 then it makes it one of the earliest games based on the Merkury engine!
+The interesting thing about the game is it was listed as a **Merkury engine game** on the official Krome Studios website back in 2001 [^8]. It uses Blast graphics 3D library as per the previous games, but it has no reference to the **BEAST** game engine or any of the beast config files, so it hints more at Blast Graphics being rebranded Merkury engine rather than **BEAST**.
 
 Although the name "Merkury" wouldn't appear until the founding of **Krome Studios** so it used the name **Blast Graphics** for the 3D engine with the functionality contained in **bg.dll**. See the Blast graphics section for more information.
 
@@ -848,7 +836,7 @@ Some notes about Jaruu:
 # Halloween Spirit Board (October 1999)
 Released on the 25th October 1999 for a price of $9.95 USD Halloween Spirit Board, it was the second game that Gee Wizz! created in a genre that they called "Screen Opera" [^19], the first being Jaruu Tenk. Similar to Jaruu Tenk, you can download the game for free on John Passfield's site: [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html).
 
-Although it is odd that both Jaruu Tenk and Halloween Spirit Board were released in exactly the same month but that is what their official press releases say [^19].
+Although it is odd that both **Jaruu Tenk** and Halloween Spirit Board were released in exactly the same month but that is what their official press releases say [^19].
 
 ---
 # Championship Surfer (November 2000) - First game to officially call the engine Merkury
@@ -1157,6 +1145,8 @@ DECIMAL                            HEXADECIMAL                        DESCRIPTIO
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
+This is likely because it was packed with the executable packer **PEtite**.
+
 The copyright messages hint at a few things:
 * **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
 * **Thomas G. Lane** is a principal author of the IJG’s widely used JPEG image compression software libraries, commonly known as **libjpeg**.
@@ -1168,7 +1158,7 @@ The executable also has a few file paths left in which give a hint about the fol
 * D:\Src\Skating\Source\Main.cpp - Contained WinMain
 * D:\Src\Skating\Source\GameData.cpp - Save Data
 
-The reason we know it uses Blast Graphics is due to the string `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
+The reason we know it uses **Blast Graphics** without it having the bg.dll file is due to the string `BLASTGRAPHICS Build Date : %s ` but not sure what the build date actually was for the **BlastGraphics** library for this game.
 
 ---
 ## Asset Archive - data0.pkg
@@ -1232,6 +1222,198 @@ The Merkury Engine programming for the game is credited to the following program
 Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics at all and instead had strings related to Merkury in the game executable such as `Merkury Options`.
 
 This hints that they never updated the Blast Graphics engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
+
+File formats used:
+* **.anm** - Animation data (Used by `Animation::Create`)
+* **.mad** - Material Data (Used by `Material::Create` or `Material::InitFromMatDefs`)
+* **.mdl** - Model Data (Used by `Model::Create`)
+* **.dat** - Replay Data (Used by `Replay` class)
+
+Source files:
+
+Source File | Description
+---|---
+barbiecommon\include\ptrlistdl.h | 
+barbiecommon\include\view.h | 
+D:\Src\IceSkating\BarbieCommon\PC\Blitter.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\DebugOptionsPC.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\File.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Image.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\MKGrass_PC.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\MKSound_FMod.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Model_DX8.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Model_PC_Common.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\System.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Texture.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\Video.cpp | 
+D:\Src\IceSkating\BarbieCommon\PC\View.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\Animation.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\BytePair.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\Camera.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp | 
+D:\Src\IceSkating\BarbieCommon\Source\DebugInfo.cpp | DebugInfo_Init()
+D:\Src\IceSkating\BarbieCommon\Source\DebugOptions.cpp | DebugOptions_Create, DebugOptions_DrawDebugOptions
+D:\Src\IceSkating\BarbieCommon\Source\DirectLight.cpp
+D:\Src\IceSkating\BarbieCommon\Source\FileSys.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Font.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Heap.cpp
+D:\Src\IceSkating\BarbieCommon\Source\KromeIni.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Material.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Matrix.cpp
+D:\Src\IceSkating\BarbieCommon\Source\MKAnimScript.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Model.cpp
+D:\Src\IceSkating\BarbieCommon\Source\ParticleSystem.cpp
+D:\Src\IceSkating\BarbieCommon\Source\ParticleSystemManager.cpp
+D:\Src\IceSkating\BarbieCommon\Source\QuatRotation.cpp
+D:\Src\IceSkating\BarbieCommon\Source\StdMath.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Str.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Translation.cpp
+D:\Src\IceSkating\BarbieCommon\Source\Vector.cpp
+D:\Src\IceSkating\Source\Button.cpp
+D:\Src\IceSkating\Source\ButtonManager.cpp
+D:\Src\IceSkating\Source\CharacterParticles.cpp
+D:\Src\IceSkating\Source\Confirmation.cpp
+D:\Src\IceSkating\source\Credits.cpp
+D:\Src\IceSkating\Source\EditBox.cpp
+D:\Src\IceSkating\Source\GameData.cpp
+D:\Src\IceSkating\Source\GameInterface.cpp
+D:\Src\IceSkating\Source\GameScreen.cpp
+D:\Src\IceSkating\Source\Introduction.cpp
+D:\Src\IceSkating\Source\LoadReplay.cpp
+D:\Src\IceSkating\Source\MainMenu.cpp
+D:\Src\IceSkating\Source\NameEntry.cpp
+D:\Src\IceSkating\Source\Object.cpp
+D:\Src\IceSkating\Source\ObjectManager.cpp
+D:\Src\IceSkating\Source\PauseMenu.cpp
+D:\Src\IceSkating\Source\Replay.cpp
+D:\Src\IceSkating\Source\SaveReplay.cpp
+D:\Src\IceSkating\Source\ScreenManager.cpp
+D:\Src\IceSkating\Source\screenmanager.h
+D:\Src\IceSkating\Source\ScrollBox.cpp
+D:\Src\IceSkating\Source\ScrollSystem.cpp
+D:\Src\IceSkating\Source\SelectionMenu.cpp
+D:\Src\IceSkating\Source\Skater.cpp
+D:\Src\IceSkating\Source\Spline.cpp | Spline::GetPosition
+D:\Src\IceSkating\Source\StateMachine.h
+include\DirectLight.h
+include\ParticleSystem.h
+include\PtrListDL.h
+include\View.h
+
+## Known Functions
+
+The Collision functions would have been in `D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp` and the functions that we know about are in the table below:
+
+Function Name | Description
+---|---
+Collision_Init() | 
+Collision_AddStaticModel() | 
+Collision_Grid |
+Collision_RayCollide | 
+Collision_RayCollideDynamicModel | 
+Collision_SphereCollide | 
+
+Math functions:
+* Random()
+* Randomf()
+
+Function Name | Source File | Description
+---|---|---
+Sound_IsVoicePlaying()
+Sound_LoadBank()
+Sound_PlayV()
+Sound_SetVolume()
+Sound_Stop()
+Sound_UnloadBank()
+
+## Other Interesting Strings
+```
+Blitter_Image::Draw: failed to lock pVerticeList
+Blitter_Line3D::Draw - too many vertices to fit in buffer
+Blitter_Particle::Draw: failed to lock pVerticeBuffer
+Blitter_TriFan::Draw2D - not enough vertices to draw a trifan
+Blitter_TriFan::Draw2D - too many vertices to fit in buffer
+Blitter_TriFan::Draw2D: failed to lock pVerticeList
+Blitter_TriStrip::Draw - too many vertices to fit in buffer
+Blitter_TriStrip::Draw: failed to lock pVerticeList
+Blitter_UntexturedImage::Draw: failed to lock pVerticeList
+BlitterSphere::Draw: failed to lock pVerticeList
+Font::Create: a map of the characters in this font was not given (pCharMap).
+Font::Create: aspectRatio must be a positive value greater than zero.
+Font::Create: module is uninitialised
+Font::Create: Only standard alphanumeric characters supported, from 0x33 to 0xff
+Font::Destroy - cannot destroy font before creation
+Font::DrawText: failed to lock pVerticeList
+Font::DrawText3d: failed to lock pVerticeList
+Font::Find - module is uninitialised
+Font::MakeFont: destination image is not large enough
+Font::MakeFont: failed to create material.
+Image::Copy
+Image::Deinit: Attempted deinit when module was not initialised
+Image::Init: Could not allocate memory for image data.
+Image::Init: Could not allocate memory for palette.
+Image::Init: file not found, or unsupported image type in file %s
+Image::Init: imageHeight is not valid
+Image::Init: imageWidth is not valid
+Image::Init: Module already in use
+Image::LoadTGA: Cannot open image %s
+Image::LoadTGA: Could not allocate memory for image palette
+Camera::Reposition()
+Camera::Update()
+DirectLight::SetLight
+Camera::Reposition()
+Matrix::InverseSimple()
+Matrix::Multiply3x3()
+Matrix::Multiply4x4()
+Matrix::RotatePYR()
+Matrix::RotateYaw()
+Matrix::Scale()
+Matrix::SetRotationPYR()
+Matrix::SetTranslation
+Matrix::Translate()
+Matrix::Transpose()
+Matrix::Transpose3x3()
+QuatRotation::ConvertNormal()
+QuatRotation::Multiply()
+Vector::ApplyQuaternion()
+Vector::ApplyRotMatrix()
+Vector::CClamp()
+Vector::Cross()
+Vector::InterpolateLinear()
+Vector::Normalise()
+Material::Create
+Material::InitFromMatDefs:
+MKAnimScript ::Init pFilename is NULL
+MKAnimScript::GetAnim(char*) passed a NULL
+MKAnimScript::SetAnim passed a NULL
+MKAnimScript::TweenAnim passed a NULL
+Model_DeinitModule: Module not initialised
+Model_InitModule: Module already initialised
+Model::Create: %s.mdl does not exist
+Model::CreateIndexedTriangles: failed to create Vertex Buffer
+Model::Destroy : invalid reference count %d
+Model::Draw: failed to lock pDX8VertexBuffer
+Model::EnableSubObject: index %d is invalid for model %s (%d subobjects)
+Model::GetRefPointIndex passed NULL pRefPointName
+Model::GetRefPointIndex: Reference point %s not found in model %s
+Model::GetSubObjectIndex passed NULL pSubObjectName
+Model::GetSubObjectIndex: SubObject %s does not exist in model %s
+Model::GetSubObjectMatrixIndex: invalid subobject index %d
+Model::SetAnimation: Animation %s has %d nodes, mesh %s expects animation with %d nodes
+Model::SetAnimation: Animation %s requires %d matrices, but model %s only has %d matrices
+Model::SubObjectExists passed NULL pSubObjectName
+Replay::GetNextPacket - maximum replay packets reached!
+Replay::GetNextPacket was passed a NULL packet pointer
+Replay::SetNextPacket - maximum replay packets reached!
+Replay::GetAbsoluteSlot()
+Replay::GetCurrentRelativeSlot()
+Replay::SetCurrentSlot()
+Replays/REPLAY%02d_%02d.DAT
+Texture::Create - out of texture slots
+Texture::Destroy: referenceCount <= 0
+Texture::Find - module is uninitialised
+Texture::InitFromImage
+```
 
 ---
 # Ty the Tasmanian Tiger (2002)
