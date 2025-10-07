@@ -7,11 +7,11 @@ layout: null
     {
       "title": {{ page.title | jsonify }},
       "url": {{ page.permalink | jsonify }},
-      "content": {{ page.content | strip_html | strip_newlines | jsonify }},
-      "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }},
-      "tags": {{ page.tags | jsonify }},
-      "image": {{ page.thumbnail | default: page.image | jsonify }},
-      "console": {{ page.console | jsonify }}
+      "content": {{ page.content | strip_html | normalize_whitespace | jsonify }},
+      "excerpt": {{ page.content | strip_html | truncatewords: 50 | normalize_whitespace | jsonify }},
+      "tags": {{ page.tags | default: empty | jsonify }},
+      "image": {{ page.thumbnail | default: page.image | default: "" | jsonify }},
+      "console": {{ page.console | default: "" | jsonify }}
     }{% unless forloop.last %},{% endunless %}
     {% endif %}
   {% endfor %}
