@@ -306,9 +306,24 @@
               </ul>
             </nav>
           </div>
-          
+          <div class="navbar-right">
+            <a href="#" data-toggle="search"><i class="fa fa-search"></i></a>
+          </div>
         </div>
       </div>
       
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="navbar-search">
+      <div class="container">
+        <form id="search-form" role="search" autocomplete="off">
+          <input type="text" class="form-control" id="search-input" placeholder="Search posts by title or content..." autocomplete="off">
+          <span class="close"><i class="fa fa-times"></i></span>
+        </form>
+        <div id="search-results" style="display: none;">
+          <div id="search-results-list"></div>
+        </div>
+      </div>
     </div>
   </header>
