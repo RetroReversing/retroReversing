@@ -84,7 +84,7 @@
       if (item.tags && item.tags.length > 0) {
         html += '<div class="search-result-tags">';
         item.tags.slice(0, 3).forEach(tag => {
-          html += '<span class="badge badge-secondary">' + escapeHtml(tag) + '</span> ';
+          html += '<a href="/'+ escapeHtml(tag) +'" class="badge badge-secondary">' + escapeHtml(tag) + '</a> ';
         });
         html += '</div>';
       }

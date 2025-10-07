@@ -44,11 +44,15 @@
 .search-result-image {
   flex-shrink: 0;
   margin-right: 15px;
+  width: 320px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .search-result-image img {
-  width: 80px;
-  height: 80px;
+  /* width: 80px; */
+  height: 150px;
   object-fit: cover;
   border-radius: 4px;
 }

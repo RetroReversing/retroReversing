@@ -1,18 +1,18 @@
 ---
 layout: null
 ---
-[
+[ {}
   {% for page in site.pages %}
     {% if page.layout == 'post' and page.title and page.permalink %}
-    {
+    ,{
       "title": {{ page.title | jsonify }},
       "url": {{ page.permalink | jsonify }},
       "content": {{ page.content | strip_html | strip_newlines | jsonify }},
       "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }},
       "tags": {{ page.tags | jsonify }},
-      "image": {{ page.thumbnail | default: page.image | jsonify }},
+      "image": {{ page.image | default: site.category_images[page.console] | default: page.thumbnail | default: "/public/images/RetroReversingLogoSmall.png" | jsonify }},
       "console": {{ page.console | jsonify }}
-    }{% unless forloop.last %},{% endunless %}
+    }
     {% endif %}
   {% endfor %}
 ]

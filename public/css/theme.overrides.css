@@ -5,7 +5,8 @@
   padding: 0px;
   width: 80vw;
   max-width: 90vw;
-  margin-left: 2%;
+  /* Margin left was causing the navbar to shift too much to the left on big screens, so disabled */
+  /* margin-left: 2%; */
 }
 
 
