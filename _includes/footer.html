@@ -40,6 +40,10 @@
 <!-- End GeoPattern -->
 <script defer src="{{ '/public/js/main.js' | relative_url }}"></script>
 
+<!-- Search functionality -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script defer src="{{ '/public/js/search.js' | relative_url }}"></script>
+
 <script>
   $(document).ready(function() {
     $("img.postImage").each(function() {
