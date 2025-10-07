@@ -1,0 +1,26 @@
+name: PR Preview
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+      - name: Deploy PR Preview
+        uses: EnricoMi/github-pages-preview@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          site_directory: _site
