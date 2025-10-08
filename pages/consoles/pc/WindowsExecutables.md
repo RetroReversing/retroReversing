@@ -17,17 +17,17 @@ breadcrumbs:
 recommend: 
  - pc
  - windows
+ - fileformats
 tags:
   - pc
   - windows
+  - fileformats
 ---
 
-# Introduction
-Windows has played a significant role in the world of PC gaming, offering a vast and diverse library of video games spanning various genres and styles. 
+In the past, many classic video games were developed for and played on DOS-based PCs. With the introduction of the Windows operating system, many DOS games continued to run using compatibility features provided by Windows. Since both DOS and Windows executables used the .EXE file extension, users would inevitabling get confused by trying to run a Windows executable on DOS. So the Windows executable format even to this very day still has a small DOS executable at the top to tell users that they need windows to run the executable. 
 
-In the past, many classic video games were developed for and played on DOS-based PCs. With the introduction of the Windows operating system, gaming transitioned to a more user-friendly and graphical environment, but many DOS games continued to run using compatibility features provided by Windows. 
+This would start a long line of backwards compatibility features built into the various windows executable formats that have evolved over the years.
 
-The Windows platform offers backward compatibility for DOS games, allowing enthusiasts to relive the nostalgia of classic titles from the DOS era. This compatibility, along with the vast library of modern Windows-based games, showcases the ongoing role of Windows as a versatile and enduring platform for gamers.
 
 ## How to dump a Windows executable?
 Dumping a Portable Executable (PE) file refers to extracting information from the file, such as its headers, sections, and other metadata. This process is often used for debugging and analysis. You can dump a PE file from the command line using either **Dumpbin** or **objdump**.
