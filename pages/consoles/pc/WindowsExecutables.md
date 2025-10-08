@@ -172,51 +172,54 @@ The Executable file formats for Windows are:
 * **Portable Executable** (PE) - Used in Windows NT3.1+
    - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables.
    - The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems.
- 
-## New Executable Format - Windows 1.0 to Windows 3.1
-The following is the New Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
-```cpp
-/*
- * This is the Windows executable (NE) header.
- * the name IMAGE_OS2_HEADER is misleading, but in the SDK this way.
- */
-#include <pshpack2.h>
-typedef struct
-{
-    WORD  ne_magic;             /* 00 NE signature 'NE' */
-    BYTE  ne_ver;               /* 02 Linker version number */
-    BYTE  ne_rev;               /* 03 Linker revision number */
-    WORD  ne_enttab;            /* 04 Offset to entry table relative to NE */
-    WORD  ne_cbenttab;          /* 06 Length of entry table in bytes */
-    LONG  ne_crc;               /* 08 Checksum */
-    WORD  ne_flags;             /* 0c Flags about segments in this file */
-    WORD  ne_autodata;          /* 0e Automatic data segment number */
-    WORD  ne_heap;              /* 10 Initial size of local heap */
-    WORD  ne_stack;             /* 12 Initial size of stack */
-    DWORD ne_csip;              /* 14 Initial CS:IP */
-    DWORD ne_sssp;              /* 18 Initial SS:SP */
-    WORD  ne_cseg;              /* 1c # of entries in segment table */
-    WORD  ne_cmod;              /* 1e # of entries in module reference tab. */
-    WORD  ne_cbnrestab;         /* 20 Length of nonresident-name table     */
-    WORD  ne_segtab;            /* 22 Offset to segment table */
-    WORD  ne_rsrctab;           /* 24 Offset to resource table */
-    WORD  ne_restab;            /* 26 Offset to resident-name table */
-    WORD  ne_modtab;            /* 28 Offset to module reference table */
-    WORD  ne_imptab;            /* 2a Offset to imported name table */
-    DWORD ne_nrestab;           /* 2c Offset to nonresident-name table */
-    WORD  ne_cmovent;           /* 30 # of movable entry points */
-    WORD  ne_align;             /* 32 Logical sector alignment shift count */
-    WORD  ne_cres;              /* 34 # of resource segments */
-    BYTE  ne_exetyp;            /* 36 Flags indicating target OS */
-    BYTE  ne_flagsothers;       /* 37 Additional information flags */
-    WORD  ne_pretthunks;        /* 38 Offset to return thunks */
-    WORD  ne_psegrefbytes;      /* 3a Offset to segment ref. bytes */
-    WORD  ne_swaparea;          /* 3c Reserved by Microsoft */
-    WORD  ne_expver;            /* 3e Expected Windows version number */
-} IMAGE_OS2_HEADER, *PIMAGE_OS2_HEADER;
-```
- 
-## Portable Executable - Windows NT3.1+
+
+---
+## New Executable Format (NE) - Windows 1.0 to Windows 3.1
+The **New Executable (NE)** format was introduced with 16-bit Windows (starting from Windows 1.0 and 2.0) and OS/2 1.x.
+It extended the earlier **MZ** DOS format to support multiple code and data segments, dynamic linking, and relocations suitable for protected-mode environments.
+
+### NE Executable Header
+An NE file still starts with an **MZ header** and **DOS stub**, followed by a pointer to the NE header.
+
+There is a lot of interesting metadata that you can use to learn about your executable in the header, such as the version of the linker used to produce it, the entry point for knowing where to start disassembling and all the offsets to the various interesting parts of the executable.
+
+Most offsets in the table below are from the "NE" header as the DOS stub could be of variable size, but some are offsets relative to the start of the file so be careful.
+
+| Offset (from NE header start) | Size (bytes) | Name | Description |
+|---|---|---|---|
+| 0x00 | 2 | Signature | Must be "NE" (0x4E, 0x45) |
+| 0x02 | 1 | Major Linker Version | Major version number of the linker used |
+| 0x03 | 1 | Minor Linker Version | Minor (revision) number of the linker |
+| 0x04 | 2 | Entry Table Offset | Offset (from start of NE header) to the **entry table** |
+| 0x06 | 2 | Entry Table Length | Length in bytes of the entry table |
+| 0x08 | 4 | File Load CRC | 32-bit CRC of the entire file (for integrity check) |
+| 0x0C | 2 | Flag Word | Bit flags describing module attributes (SINGLEDATA, MULTIPLEDATA, etc.) |
+| 0x0E | 2 | Auto Data Segment Index | Index of "auto data" segment (if present) |
+| 0x10 | 2 | Initial Heap Size | Initial heap (local data) size |
+| 0x12 | 2 | Initial Stack Size | Initial stack size |
+| 0x14 | 4 | Entry Point | CS:IP (segment index and offset) of entry point |
+| 0x18 | 4 | Initial Stack Pointer | SS:SP (segment index and offset) for initial stack pointer |
+| 0x1C | 2 | Segment Count | Number of segments in the segment table |
+| 0x1E | 2 | Module References Count | Number of module references (DLLs) |
+| 0x20 | 2 | Non Resident Name Table Size | Size in bytes of the nonresident names table |
+| 0x22 | 2 | Segment Table Offset | Offset (from NE header) of the segment table |
+| 0x24 | 2 | Resource Table Offset | Offset (from NE header) of the resource table |
+| 0x26 | 2 | Resident Name Table Offset | Offset (from NE header) of the resident names |
+| 0x28 | 2 | Module Reference Table Offset | Offset (from NE header) of the module reference table |
+| 0x2A | 2 | Imported Name Table Offset | Offset (from start of NE header) of imported names |
+| 0x2C | 4 | Non Resident Name Table Offset | Offset (from start of the **file**) to nonresident names |
+| 0x30 | 2 | Movable Entry Count | Number of movable entries in entry table |
+| 0x32 | 2 | Align Shift Count | Alignment shift count (for resource offsets) |
+| 0x34 | 2 | Count of resource segments | Offset after resources (or reserved) |
+| 0x36 | 1 | TargetOS | Operating system target / module flags (reserved) |
+| 0x37 | 1 | Other Flags     | Other EXE flags (e.g., long names support, protected mode). |
+| 0x38 | 2 | Misc (Reserved) | Reserved / additional flags or versioning |
+
+
+Here is the a C structure for the **New Executable** header from the MinGW version of **winnt.h** (Under GPL license): [File: winnt.h | Debian Sources](https://sources.debian.org/src/mingw-w64/5.0.1-1/mingw-w64-tools/widl/include/winnt.h/)
+
+--- 
+## Portable Executable - Windows NT3.1+ - The modern executable
 You can find the structure of the PE file format in the C Header file called `winnt.h` located in any Windows NT based Software Development Kit or from the open source MinGW (Minimalist GNU for Windows) collection.
 
 The following is the Portable Executable header structure from the MinGW version of **winnt.h** (Under GPL license):
