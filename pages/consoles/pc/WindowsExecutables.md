@@ -81,14 +81,29 @@ objdump -x yourfile.exe
   ```
 
   The output looks like this:
-  ```json
+  ```js
    {
     "dbg_file": "", // Could contain a reference to a .pdb file path
     "stripped": false, // Whether debug information was removed
     "linenum": true, // Whether it contains line number information
-    "lsyms": true // whether it contains symbol information
+    "lsyms": true // whether it contains local symbol information
   }
   ```
+
+  Note that just because stripped is false or linenum/lsyms is true does not mean you have access to the information, it may have been put in a external .pdb file which will likely not have been included with the game.
+
+  Note that if its not stripped and the dbg_file is a blank string then there is a good chance the debug symcols are embedded inside the executable in a section, see the CodeView section of this page.
+
+  Here is what each of these fields means and how **rabin2** got the value:
+
+| Field        | Meaning / Use                                                                             | PE Source / Structure                                                                                                                                                 |
+| ------------ | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **dbg_file** | If non-empty, often indicates a path or name of an external debug file (e.g. a `.pdb`)    | Found in the **IMAGE_DEBUG_DIRECTORY** (Data Directory entry 6). The record type `IMAGE_DEBUG_TYPE_CODEVIEW` contains the PDB path and GUID.                          |
+| **stripped** | `true` means debugging symbols or metadata have been removed                              | Determined by absence of a **COFF symbol table** (`PointerToSymbolTable` = 0) or missing **Debug Directory** entry in the optional header.                            |
+| **linenum**  | Indicates presence of **line number mapping** (address ↔ source line)                     | Derived from **section headers**: each `IMAGE_SECTION_HEADER` has `NumberOfLinenumbers` and `PointerToLinenumbers` fields; non-zero means line info is present.       |
+| **lsyms**    | Indicates presence of **local symbols**, e.g. function & variable names within the binary | Based on **COFF symbol table** in the PE header (`NumberOfSymbols` and `PointerToSymbolTable`). Non-zero values mean the table exists and local symbols are included. |
+
+  For more information on Debug Data inside PE executables please see the section below.
 
 ---
 ## Rich Header - Metadata on what tools were used to build the executable
