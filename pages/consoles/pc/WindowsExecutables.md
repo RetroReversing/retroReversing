@@ -175,6 +175,11 @@ If you are reversing a Windows PC game (not DOS) then the format you need to kno
 The **New Executable (NE)** format was introduced with 16-bit Windows (starting from Windows 1.0 and 2.0) and OS/2 1.x.
 It extended the earlier **MZ** DOS format to support multiple code and data segments, dynamic linking, and relocations suitable for protected-mode environments.
 
+### How many windows games use the New Executable format (NE)?
+Only 16-bit games from Windows 3.x that were not DOS executables (MZ format), so it is likely maybe just a couple thousand games, **MobyGames** lists about **2,236** titles on the the [List of all Windows 16-bit games - MobyGames](https://www.mobygames.com/platform/win3x/) page.
+
+Although a small subset of Windows 3.1x games were actually using **PE format** instead so not all games on that list will be NE format. 
+
 ### NE Executable Header
 An NE file still starts with an **MZ header** and **DOS stub**, followed by a pointer to the NE header.
 
