@@ -23,8 +23,9 @@ tags:
   - windows
   - fileformats
 ---
-This page provides a comprehensive guide to **reverse engineering** Windows executable files, focusing on the evolution from classic **New Executable (NE)** and **Linear Executable (LE)** formats to the modern **Portable Executable (PE)** format used in all current Windows systems. Whether you are interested in reverse engineering, game modding, or simply curious about how Windows programs work under the hood, you'll find practical information about:
+This page provides a comprehensive guide to **reverse engineering** Windows executable files, focusing on the evolution from classic **New Executable (NE)** and **Linear Executable (LE)** formats to the modern **Portable Executable (PE)** format used in all current Windows systems. 
 
+Whether you are interested in reverse engineering, game modding, or simply curious about how Windows programs work under the hood, you'll find practical information about:
 - Tools and techniques for dumping and inspecting Windows executable files.
 - How to extract and analyze metadata from Windows executables, including headers and sections.
 - Understanding the Rich Header and its significance for identifying compiler and linker toolchains.
@@ -372,3 +373,62 @@ Table of the subtypes:
 | `NB11F`   | File/line info       |
 | `NB11`    | Generic header block |
 
+---
+# Windows Object File Formats - The foundation of executables and libraries
+Before an executable file (`.exe` or `.dll`) is created, compilers first produce **object files**, typically one per source code file, for example a `main.obj` **object file** would be created from a `main.cpp` source file.
+
+## What is an Object file?
+An object file is an intermediate binary that contains machine code, data, relocation entries, and symbol information — but it is **not yet executable**. In order to make it executable it needs to be linked together with the other compiled translation units (objects) to become a single executable or library, this is what a **linker** does.
+
+## Why care about Object file formats?
+So you might wonder why you should care about the object file formats, as after all it is unlikely that the developers would distribute their intermediate .obj files along with a retail game, and that is true. 
+
+The reason is simple, executable formats are **based on** the object file format, for example the **Portable Executable (PE)** format was essentially built as an extension of the COFF object format. So to understand the executable formats you really need to understant the formats they are based on, this gives the added benefit of when you decide to do a full decompilation you understand how all the object files link together in the executable making it easier to re-compile into a near byte-accurate replica.
+
+## What file format do Object files use?
+Object files follow a defined **object format**, which specifies how sections, symbols, and relocations are stored on disk.  
+Different compilers and operating systems use different object formats, but their purpose is always the same: to provide the linker with everything needed to build a complete program or library.
+
+On Windows, several object formats have been used over time, reflecting the evolution of the platform and its toolchains:
+* **OMF** (Object Module Format) - used by early **DOS** and **16-bit Windows** compilers.  
+* **COFF** (Common Object File Format) - adopted for 32-bit and 64-bit Windows and still in use today.  
+
+Unless you are reverse engineering an early windows or DOS game, the format you will most likely encounter is **COFF**. Also a side note if you are compiling with **GCC** the intermedia object files are actually in ELF format and then when they are linked together they get converted to a COFF-based PE executable.
+
+---
+## COFF Object Files (1990s–present) - The foundation of PE executables
+**Common Object File Format** (COFF) is the object module format produced by Microsoft and LLVM toolchains on Windows before linking into a PE image.
+
+The **Portable Executable (PE)** and **Common Object File Format (COFF)** are directly related — the PE format is essentially an extension of COFF.
+Microsoft built PE on top of COFF to support Windows’ runtime loader while keeping compatibility with existing compiler and linker infrastructure.
+
+### What is in a COFF .obj?
+A COFF object contains the following data:
+* **COFF file header** - machine, number of sections, timestamp, pointer to symbol table, number of symbols, size of optional header, characteristics.
+* **Section headers** - name, virtual size/addr placeholders, size of raw data, pointer to raw data, pointer to relocations, pointer to line numbers (legacy), counts, flags.
+* **Section data** - bytes for `.text`, `.data`, `.rdata`, `.pdata` etc.
+* **Relocations** - per section, each relocation references a symbol table index and a relocation type such as `IMAGE_REL_I386_DIR32` or `IMAGE_REL_AMD64_REL32`.
+* **COFF symbol table** - array of `IMAGE_SYMBOL` entries with storage class, section number, and auxiliary records for functions, files, and COMDAT details.
+* **String table** - follows the symbol table for names longer than 8 bytes.
+
+For more information check out the official specification: [PE Format - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format#coff-file-header-object-and-image)
+
+---
+### Sections in COFF .obj files
+Section names and purposes are similar to PE images, but .obj sections are not yet assigned final RVAs and can include many small, tool-generated sections.
+
+Typical examples:
+* `.text` - code produced by the compiler.
+* `.rdata` - constants, jump tables, RTTI.
+* `.data`/`.bss` - initialized/uninitialized globals.
+* `.xdata`/`.pdata` - exception unwinding metadata on x64.
+* `.drectve` - linker directives emitted by the compiler, e.g. default libraries or section attributes.
+* `.debug*` - CodeView records when requested.
+
+Section flags in the header (e.g. `IMAGE_SCN_CNT_CODE`, `IMAGE_SCN_MEM_READ`) guide the linker when it merges or discards sections.
+
+---
+## COFF symbol table and auxiliary records
+Every .obj has a **COFF symbol table** describing external names, section definitions, functions, and compiler artifacts.
+
+This is information required to link all the objects together, and final executables only include a COFF symbol table if linked with `/DEBUG`; otherwise symbols are omitted from the PE.
