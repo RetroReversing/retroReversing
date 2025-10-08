@@ -49,6 +49,24 @@ dumpbin /headers yourfile.exe
 objdump -x yourfile.exe
 ```
 
+## How to check for interesting data
+Windows executables can sometimes contain hidden or unexpected data embedded within them. This can include debug symbols, developer notes, secret messages, copyright strings, easter eggs, or artifacts from the build process. This data can be extremely valuable for reverse engineering and game hacking as it can give clues as to what each function does or even what its original name might have been.
+
+### Checking for Plain Text Strings
+The simplest way to find hidden text is by scanning for printable ASCII or Unicode strings. This can reveal embedded messages, URLs, error messages, or even references to tools and libraries used during development.
+```bash
+strings your.exe > your.exe.txt
+```
+This command will print out all printable strings found in the binary to the text file, you can then open it to do a brief skip for any interesting looking strings.
+
+### Checking for embedded files
+Executables can also contain other files embedded inside them such as images, archives or even other executables, you can check with the **binwalk** command:
+```bash
+binwalk your.exe
+```
+
+If you did find data then you can extract with `-e`.
+
 ---
 ## Rich Header - Metadata on what tools were used to build the executable
 Executables produced by **Microsoft toolchains** (e.g Visual Studio) contain a hidden structure called the *Rich Header*, located between the DOS stub and the PE signature.  
