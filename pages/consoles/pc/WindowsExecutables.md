@@ -122,7 +122,7 @@ objdump -x yourfile.exe
 ```
 
 ---
-## Rich Header - Meta data on what tools were used to build the executable
+## Rich Header - Metadata on what tools were used to build the executable
 Executables produced by **Microsoft toolchains** (e.g Visual Studio) contain a hidden structure called the *Rich Header*, located between the DOS stub and the PE signature.  
 This header is added automatically by `link.exe` and provides a compact record of the toolchain components that contributed object files (`.obj`) to the final binary.  
 
@@ -150,7 +150,7 @@ Together, these entries form a fingerprint of the binary’s compilation lineage
 | **LibXXX**     | lib.exe            | Librarian-produced member objects pulled from static libraries                                           | few-dozens    |
 
 ### How do I extract the Rich Header Information?
-You can use **richprint** an open source tool by **dishather** than you can find here:
+You can use **richprint** an open source tool by **dishather** that you can find here:
 [dishather/richprint: Print compiler information stored in Rich Header of PE executables.](https://github.com/dishather/richprint)
 
 You can also use **rabin2**/**radare2** to get the information, and even export as JSON like so:
@@ -168,9 +168,13 @@ You will get output like:
 ]
 ```
 
+So from the above we can see that there are 17 .cpp source files compiled with Visual Studio 6.0. The Utc stands for **Universal Tool Compiler**, Microsoft’s internal codename for the MSVC C/C++ compiler front-end family and the 12 is likely a version number.
+
 ---
 ## What are Relative Virtual Addresses (RVAs)?
-RVA stands for "Relative Virtual Address". It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. RVAs are used to express positions or offsets relative to the base address of a module (executable or DLL) rather than as an absolute memory address.
+RVA stands for "Relative Virtual Address". It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. 
+
+RVAs are used to express positions or offsets relative to the base address of a module (executable or DLL) rather than as an absolute memory address.
 
 RVA helps programs find things in their memory without needing to know exactly where everything is stored in memory. It's like a helpful set of directions.
 
@@ -182,7 +186,7 @@ RVA is a fundamental concept in Windows programming, as it allows for position-i
 
 The **Microsoft CodeView** Debugger stores its debug symbols in different places (and formats) depending on the version of Microsoft Visual C was used, if you are lucky enough to find a windows game that has debug symbols it is possible that they are in a CodeView format. 
 
-Depending on the age of the game (what version of Visual Studio was used) the debug symbols could either be stored embedded inside the executable itself or in a seperate .pdb file.
+Depending on the age of the game (what version of Visual Studio was used) the debug symbols could either be stored embedded inside the executable itself or in a separate .pdb file.
 
 You can find a table of the rough time frame when you can find each version of CodeView Debug symbols:
 
@@ -194,7 +198,7 @@ You can find a table of the rough time frame when you can find each version of C
 
 If the executable is pre-1995 e.g **Microsoft C 6.0** and compiled with debug mode on then it is likely to contain debug symbols directly inside the executable in the **.rdata** section of the exe file.
 
-If the executable was built using **Visual C++ 4.x to 6.0** the symbols could be either inside the executable or as a seperate .PDB file, both using the same **CodeView** 4.x record format (`NB09`, `NB10`, `NB11`). 
+If the executable was built using **Visual C++ 4.x to 6.0** the symbols could be either inside the executable or as a separate .PDB file, both using the same **CodeView** 4.x record format (`NB09`, `NB10`, `NB11`). 
 
 It all depended on the compile switch used for building the executable:
 
@@ -204,7 +208,7 @@ It all depended on the compile switch used for building the executable:
 | `/Z7` (no /DEBUG)   | **Inline CodeView info inside the .obj/.exe** | `NB11` (sometimes `CV4`) directly embedded    |
 
 
-For example the game **Mike Stewart's Pro Bodyboarding** from 1999 has an australian build of the game that was compiled with the Inline CodeView information.
+For example the game **Mike Stewart's Pro Bodyboarding** from 1999 was compiled with the Inline CodeView information. However opening it in Ghidra or radare they are unable to do anything with this information so its very easy to miss if you don't know where to look. It if very common to just rely on reversing tools like Ghidra to look for debug symbols and presume they are not there if it doesn't find them, but this can miss vital information.
 
 
 
