@@ -171,15 +171,103 @@ Since the only time you will encounter LE executables is in DOS Extenders, we wi
 If you are reversing a Windows PC game (not DOS) then the format you need to know about is the  **Portable Executable (PE)** format.
 
 ---
+## MZ Executable Header - Common to all Windows executable formats
+All DOS and Windows executables start with an **MZ header**, named after **Mark Zbikowski**, who designed the format for **MS-DOS**.  
+It describes how to load the executable in real mode: how many bytes to load, where the program’s stack begins, and how much memory to reserve.
+
+Every NE, LE, and PE file also begins with an MZ header and a **DOS stub program** (usually printing "This program cannot be run in DOS mode"), followed by a pointer to the next header which will say what the rest of the exe format will be such as **NE** or **PE**.
+
+| Offset | Size (bytes) | Name | Description |
+|---|---:|---|---|
+| 0x00 | 2 | Signature | Must be "MZ" (0x4D, 0x5A). Identifies an MS-DOS executable. |
+| 0x02 | 2 | Bytes on Last Page | Number of bytes used on the last 512-byte page of the file. 0 means exactly 512 bytes. Used to compute the total image size. |
+| 0x04 | 2 | Pages in File | Total number of 512-byte pages in the file. Together with the previous field, gives total file size. |
+| 0x06 | 2 | Relocation Entries | Count of relocation records immediately following the header. Each relocation is a segment:offset pair that the loader adjusts to the program’s load address. |
+| 0x08 | 2 | Header Size (paragraphs) | Size of the header in 16-byte paragraphs. The loader skips this much before copying the program image into memory. |
+| 0x0A | 2 | Minimum Extra Paragraphs | Minimum additional memory (in 16-byte paragraphs) to allocate after the program image — similar to a heap. |
+| 0x0C | 2 | Maximum Extra Paragraphs | Maximum additional memory to allocate; the loader tries to give this amount if available. |
+| 0x0E | 2 | Initial SS | Initial value of the stack segment, relative to the program’s load segment. |
+| 0x10 | 2 | Initial SP | Initial stack pointer. Together with SS, defines the starting stack position. |
+| 0x12 | 2 | Checksum | Simple word checksum (two’s complement) over the file. Usually 0. |
+| 0x14 | 2 | Initial IP | Instruction pointer for program start (CS:IP). |
+| 0x16 | 2 | Initial CS | Code segment for program start, relative to load segment. |
+| 0x18 | 2 | Relocation Table Offset | File offset (in bytes) to the relocation table, which follows the header. |
+| 0x1A | 2 | Overlay Number | Overlay index; 0 for the main program. Used by old overlay managers. |
+| 0x1C | 8 | Reserved | Four 2-byte reserved words, not used by DOS. |
+| 0x24 | 2 | OEM Identifier | OEM ID value used by non-Microsoft tools (rarely used). |
+| 0x26 | 2 | OEM Information | OEM-specific information field. |
+| 0x28 | 20 | Reserved 2 | Ten more 2-byte reserved words. |
+| 0x3C | 4 | Pointer to New Header | File offset of the next header — for example, the **NE** or **PE** header. For pure DOS executables, this points past the file. |
+| 0x40+ | ... | Relocation Table | List of segment:offset pairs that need to be fixed to the program’s load segment. |
+| — | — | DOS Stub | Actual DOS code to run if executed under MS-DOS. In Windows executables, this typically prints "This program cannot be run in DOS mode." |
+
+Since the MZ format is for DOS and not Windows in will not be covered in this page.
+
+This structure is known as **IMAGE_DOS_HEADER** in Microsoft’s `WinNT.h` and can be seen on their official rust api docs here [IMAGE_DOS_HEADER](https://microsoft.github.io/windows-docs-rs/doc/windows/Win32/System/SystemServices/struct.IMAGE_DOS_HEADER.html)
+
+For a deep dive into the MZ header and the DOS stub check out **0xRick's** excellent page: [A dive into the PE file format - DOS Header, DOS Stub and Rich Header - 0xRick’s Blog](https://0xrick.github.io/win-internals/pe3/)
+
+---
 ## New Executable Format (NE) - Windows 1.0 to Windows 3.1
+<img width="560" height="369" alt="The NE exe format was used in Tetris for Windows" src="https://github.com/user-attachments/assets/cb2ebaec-7379-4a1b-8ac4-12b525308516" />
+
 The **New Executable (NE)** format was introduced with 16-bit Windows (starting from Windows 1.0 and 2.0) and OS/2 1.x.
 It extended the earlier **MZ** DOS format to support multiple code and data segments, dynamic linking, and relocations suitable for protected-mode environments.
 
 ### How many windows games use the New Executable format (NE)?
 Only 16-bit games from Windows 3.x that were not DOS executables (MZ format), so it is likely maybe just a couple thousand games, **MobyGames** lists about **2,236** titles on the the [List of all Windows 16-bit games - MobyGames](https://www.mobygames.com/platform/win3x/) page.
 
-Although a small subset of Windows 3.1x games were actually using **PE format** instead so not all games on that list will be NE format. 
+Some example games that use the NE executable format are:
+* Tetris for Windows
 
+Although a small subset of Windows 3.1x games were actually using **PE format** instead, so not all games on that list will be NE format but the vast majority will be. 
+
+### How to extract information for NE executable?
+You will notice that many reverse engineering tools don't have good support for NE format executables, they may load them but the analysis is very weak and often incorrect.
+
+Some tools such as **cvdump.exe** will refuse to work with such an old format:
+```
+CVDUMP : fatal error : Unknown executable signature
+```
+
+Other tools like **dumpbin.exe** will think its a MS DOS executable and refer you to **EXEHDR**:
+```
+TETRIS.EXE is an MS-DOS executable; use EXEHDR to dump it
+```
+
+### Are there embedded debug symbols?
+In NE format executables, there are typically no symbols in the traditional debugging sense.
+NE executables don't have a built-in debug symbol format like modern PE files (which can contain PDB references or COFF symbols). If you needed debug symbols for 16-bit Windows development, they were stored separately in a **.SYM** or **.MAP** file. 
+
+However all is not lost there are some exported functions inside the executable including both the name and module description. These map function names to ordinal numbers, which then map to entry points via the **Entry Table**
+Although local variables, function parameters, and internal function names are not stored in the executable.
+
+You can view any exported functions using the rabin2 command:
+```bash
+rabin2 -s TETRIS.EXE
+```
+In the game **Tetris for windows** it prints this:
+```ruby
+[Symbols]
+
+nth paddr       vaddr      bind   type size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x00006db1 0x00006db1 NONE   NONE 0        TETRIS
+1    0x000046c0 0x000046c0 GLOBAL NONE 0        ADDHIGHSCOREPROC
+2    0x000045d6 0x000045d6 GLOBAL NONE 0        HIGHSCOREDLGPROC
+3    0x00000c36 0x00000c36 GLOBAL NONE 0        SIMPLEWINPROC
+4    0x00004d46 0x00004d46 GLOBAL NONE 0        GAMEGRIDWNDPROC
+5    0x0000382c 0x0000382c GLOBAL NONE 0        SCOREWNDPROC
+6    0x000047d2 0x000047d2 GLOBAL NONE 0        BACKGROUNDDLGPROC
+7    0x00008b12 0x00008b12 GLOBAL NONE 0        ___EXPORTEDSTUB
+0    0x00006db1 0x00006db1 NONE   NONE 0        Damn Bitchin Tetris Game for Win3
+9    0x00000700 0x00000700 GLOBAL NONE 0        entry8
+10   0x00007eb2 0x00007eb2 GLOBAL NONE 0        entry9
+```
+
+So you can at least see the procedures such as **TETRIS**, **ADDHIGHSCOREPROC**, **HIGHSCOREDLGPROC** etc
+
+---
 ### NE Executable Header
 An NE file still starts with an **MZ header** and **DOS stub**, followed by a pointer to the NE header.
 
