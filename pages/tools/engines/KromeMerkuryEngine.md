@@ -1145,7 +1145,7 @@ DECIMAL                            HEXADECIMAL                        DESCRIPTIO
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
-This is likely because it was packed with the executable packer **PEtite**.
+This is because it was packed with the executable packer **PEtite**, which could potentially be unpacked with [unipacker/unipacker: Automatic and platform-independent unpacker for Windows binaries based on emulation](https://github.com/unipacker/unipacker).
 
 The copyright messages hint at a few things:
 * **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
@@ -1221,7 +1221,7 @@ The Merkury Engine programming for the game is credited to the following program
 # Barbie: Sparkling Ice Show (2002)
 Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics at all and instead had strings related to Merkury in the game executable such as `Merkury Options`.
 
-This hints that they never updated the Blast Graphics engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
+This hints that they never updated the **Blast Graphics** engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
 
 File formats used:
 * **.anm** - Animation data (Used by `Animation::Create`)
@@ -1229,9 +1229,21 @@ File formats used:
 * **.mdl** - Model Data (Used by `Model::Create`)
 * **.dat** - Replay Data (Used by `Replay` class)
 
-BarbieCommon Source files:
+## Source Code Structure
+There are strings in the executable that can shad some light on what the source code structure was like, it was very organised, split into the following main folders:
+* **BarbieCommon** - Common Game Engines files
+  - these files are not Barbie specific and most of them are also seen in other Merkury engine games
+  - Located at `D:\Src\IceSkating\BarbieCommon`
+  - Also contains a **PC** sub folder with PC specific implementations (the common folder aims to be cross platform)
+* **Source** - Game specific functionality
+  - Located at `D:\Src\IceSkating\Source\`
 
-Source File | Description
+There are other strings throughout the executable with class and method/function names so we can infer from the file names which functions were in each source file, however this is an estimate they may have actually been located in a different file that's path was not leaked in the exe.
+
+### BarbieCommon - Common Game Engine functionality
+You can find a list of the common source code files in the table below along with a description containing the functions that they would have contained:
+
+Source File | Function Names
 ---|---
 D:\Src\IceSkating\BarbieCommon\PC\Blitter.cpp | Blitter_Image::Draw, Blitter_Line3D::Draw, Blitter_Particle::Draw, Blitter_TriFan::Draw2D, Blitter_TriStrip::Draw, Blitter_UntexturedImage::Draw, BlitterSphere::Draw
 D:\Src\IceSkating\BarbieCommon\PC\File.cpp | 
@@ -1268,27 +1280,13 @@ D:\Src\IceSkating\BarbieCommon\Source\Str.cpp
 D:\Src\IceSkating\BarbieCommon\Source\Translation.cpp
 D:\Src\IceSkating\BarbieCommon\Source\Vector.cpp | Vector::ApplyQuaternion(), Vector::ApplyRotMatrix(), Vector::CClamp(), Vector::Cross(), Vector::InterpolateLinear(), Vector::Normalise()
 
-Include files:
-* include\DirectLight.h
-* include\ParticleSystem.h
+Also we know it contained the following include files:
+* barbiecommon\include\DirectLight.h
+* barbiecommon\include\ParticleSystem.h
 * barbiecommon\include\PtrListDL.h
 * barbiecommon\include\View.h
 
-
-### Colliection Functions
-
-The Collision functions would have been in `D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp` and the functions that we know about are in the table below:
-
-Function Name | Description
----|---
-Collision_Init() | 
-Collision_AddStaticModel() | 
-Collision_Grid |
-Collision_RayCollide | 
-Collision_RayCollideDynamicModel | 
-Collision_SphereCollide | 
-
-## Barbie Source
+### Source - Specific game related functionality
 Barbie Source, the actual game code rather than the engine:
 
 Source File | Description
