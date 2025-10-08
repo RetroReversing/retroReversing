@@ -49,23 +49,46 @@ dumpbin /headers yourfile.exe
 objdump -x yourfile.exe
 ```
 
+---
 ## How to check for interesting data
-Windows executables can sometimes contain hidden or unexpected data embedded within them. This can include debug symbols, developer notes, secret messages, copyright strings, easter eggs, or artifacts from the build process. This data can be extremely valuable for reverse engineering and game hacking as it can give clues as to what each function does or even what its original name might have been.
+  Windows executables can sometimes contain hidden or unexpected data embedded within them. This can include debug symbols, developer notes, secret messages, copyright strings, easter eggs, or artifacts from the build process. This data can be extremely valuable for reverse engineering and game hacking as it can give clues as to what each function does or even what its original name might have been.
 
 ### Checking for Plain Text Strings
-The simplest way to find hidden text is by scanning for printable ASCII or Unicode strings. This can reveal embedded messages, URLs, error messages, or even references to tools and libraries used during development.
-```bash
-strings your.exe > your.exe.txt
-```
-This command will print out all printable strings found in the binary to the text file, you can then open it to do a brief skip for any interesting looking strings.
+  The simplest way to find hidden text is by scanning for printable ASCII or Unicode strings. This can reveal embedded messages, URLs, error messages, or even references to tools and libraries used during development.
+  ```bash
+  strings your.exe > your.exe.txt
+  ```
+  This command will print out all printable strings found in the binary to the text file, you can then open it to do a brief skip for any interesting looking strings.
 
 ### Checking for embedded files
-Executables can also contain other files embedded inside them such as images, archives or even other executables, you can check with the **binwalk** command:
-```bash
-binwalk your.exe
-```
+  Executables can also contain other files embedded inside them such as images, archives or even other executables, you can check with the **binwalk** command:
+  ```bash
+  binwalk your.exe
+  ```
+  
+  If you did find data then you can extract with `-e`.
 
-If you did find data then you can extract with `-e`.
+### Checking for overlays
+  An overlay is data appended to the end of the executable, this command returns true if there is an overlay:
+  ```bash
+  rabin2 -Ij your.exe | jq '.info.overlay'
+  ```
+
+### Checking for Debug Data
+  The executable may have been built with debug information includes, one way to check is to use the **rabin2** command like so:
+  ```bash
+  rabin2 -Ij your.exe | jq '.info | {dbg_file, stripped, linenum, lsyms}'
+  ```
+
+  The output looks like this:
+  ```json
+   {
+    "dbg_file": "", // Could contain a reference to a .pdb file path
+    "stripped": false, // Whether debug information was removed
+    "linenum": true, // Whether it contains line number information
+    "lsyms": true // whether it contains symbol information
+  }
+  ```
 
 ---
 ## Rich Header - Metadata on what tools were used to build the executable
