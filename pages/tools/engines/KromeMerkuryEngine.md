@@ -158,7 +158,6 @@ The game was built with a custom game engine called **JASPAR** (John And Steve's
 
 The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14]. It was compiled using the **WATCOM C** toolchain accorsing to strings in the Queen.exe file.
 
-In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
 
 The engine was the second non-LucasArts engine added to **ScummVM** on **September 28th 2003** in version 0.6.0 where they called it the **Queen** engine due to the only game that used it was the Flight of the Amazon Queen and they possibly didn't know about it being called JASPER at the time.  The engine supports all known DOS and Amiga versions of the game, including multiple languages and demos [^16].
 
@@ -169,7 +168,19 @@ What I also thought was super cool was at the end of John's 2015 blog post he te
 
 However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see in the market.
 
-As facinating as the JASPAR engine is, this page is about Merkury and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
+
+#### JASPAR2 game engine
+<img width="320" height="240" alt="The Elf Lord's Bane Quest Saga" src="https://github.com/user-attachments/assets/b465632f-9525-46f9-b283-8a59cc99e10d" />
+
+In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/5ea1b3b7-c1dc-477a-afd0-c5ad42009398" />
+
+Which is a shame as the graphics were looking really nice for the prototype they showed off at E3:
+![image](https://github.com/user-attachments/assets/21cbc2c4-88e7-48a7-b34a-f79f927d90bd)
+
+You can find out more about Bane Quest on the wayback machine archive of the official website: [The Elf Lord's Bain Quest Saga](https://web.archive.org/web/19970327033850/http://www.geewhiz.com.au/gwelf.html)
+
+As facinating as the **JASPAR** engine is, this page is about **Merkury** and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
 
 
 ---
