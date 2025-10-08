@@ -170,7 +170,7 @@ You will get output like:
 
 So from the above we can see that there were **17 .cpp source files** compiled with Visual Studio 6.0 that made up the final executable.
 
-Not quite sure what Utc stands for, its possible an internal codename such as **Universal Tool Compiler** but this is not confirmed, the 12 is the version number which maps to Visual Studio 6.0, **Utc13_C** is for Visual Studio 2002 which was 7.0 of the Visual Studio IDE.
+Not quite sure what Utc stands for, its possible an internal codename such as **Universal Tool Compiler** but this is not confirmed, the 12 is the Microsoft C Version number (**_MSC_VER**) which maps to Visual Studio 6.0 the 12th release of Microsoft C.
 
 ---
 ## What are Relative Virtual Addresses (RVAs)?
