@@ -23,11 +23,18 @@ tags:
   - windows
   - fileformats
 ---
+This page provides a comprehensive guide to **reverse engineering** Windows executable files, focusing on the evolution from classic **New Executable (NE)** and **Linear Executable (LE)** formats to the modern **Portable Executable (PE)** format used in all current Windows systems. Whether you are interested in reverse engineering, game modding, or simply curious about how Windows programs work under the hood, you'll find practical information about:
 
-In the past, many classic video games were developed for and played on DOS-based PCs. With the introduction of the Windows operating system, many DOS games continued to run using compatibility features provided by Windows. Since both DOS and Windows executables used the .EXE file extension, users would inevitabling get confused by trying to run a Windows executable on DOS. So the Windows executable format even to this very day still has a small DOS executable at the top to tell users that they need windows to run the executable. 
+- Tools and techniques for dumping and inspecting Windows executable files.
+- How to extract and analyze metadata from Windows executables, including headers and sections.
+- Understanding the Rich Header and its significance for identifying compiler and linker toolchains.
+- Exploring debug symbols with a focus on CodeView formats and how to locate them in classic game executables.
+- The history and structure of NE, LE, and PE executable formats.
 
-This would start a long line of backwards compatibility features built into the various windows executable formats that have evolved over the years.
+By the end of this guide, you'll have a solid foundation for exploring and dissecting Windows executables, with resources and examples tailored for retro game reverse engineering and technical analysis.
 
+# Reverse Engineering Windows Executables
+This section focuses on the core information that you need to get started reversing a windows game or other windows software.
 
 ## How to dump a Windows executable?
 Dumping a Portable Executable (PE) file refers to extracting information from the file, such as its headers, sections, and other metadata. This process is often used for debugging and analysis. You can dump a PE file from the command line using either **Dumpbin** or **objdump**.
@@ -177,6 +184,14 @@ typedef struct _IMAGE_FILE_HEADER {
 You can also find out more about the Portable Executable format on the official Windows SDK Documentation site: [PE Format - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
 
 ---
+## DOS Compatibility
+In the past, many classic video games were developed for and played on DOS-based PCs. With the introduction of the Windows operating system, many DOS games continued to run using compatibility features provided by Windows.
+
+Since both DOS and Windows executables used the .EXE file extension, users would inevitabling get confused by trying to run a Windows executable on DOS. So the Windows executable format even to this very day still has a small DOS executable at the top to tell users that they need windows to run the executable. 
+
+This would start a long line of backwards compatibility features built into the various windows executable formats that have evolved over the years.
+
+---
 ## What are Relative Virtual Addresses (RVAs)?
 RVA stands for "Relative Virtual Address". It is a term commonly used in the context of Windows Portable Executable (PE) files and refers to the address of a particular location within the virtual address space of a program or a module. 
 
@@ -217,9 +232,10 @@ It all depended on the compile switch used for building the executable:
 For example the game **Mike Stewart's Pro Bodyboarding** from 1999 was compiled with the Inline CodeView information. However opening it in Ghidra or radare they are unable to do anything with this information so its very easy to miss if you don't know where to look. It if very common to just rely on reversing tools like Ghidra to look for debug symbols and presume they are not there if it doesn't find them, but this can miss vital information.
 
 
-
 ## Checking for embedded CodeView symbols in an executable
-The easiest way for a quick check if you have any embedded debug symbols is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`. If this is the case then we just need a way to extract the information, as just running **strings** will miss out vital information such as how to link the function name to the actual function in assembly code and other debugging information such as line number to assembly mapping.
+The easiest way for a quick check if you have any embedded debug symbols is just to run the **strings** command over the executable and look for any strings that look like mangled function names e.g `?GetValidAnimStr@@YAHPAD0H@Z`. 
+
+If this is the case then we just need a way to extract the information, as just running **strings** will miss out vital information such as how to link the function name to the actual function in assembly code and other debugging information such as line number to assembly mapping.
 
 If you a copy of **dumpbin.exe** from a version of Visual Studio you can run the following in either wine or windows: 
 ```bash
