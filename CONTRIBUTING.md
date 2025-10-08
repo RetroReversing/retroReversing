@@ -10,7 +10,7 @@ breadcrumbs:
     url: /contributing
 recommend: 
   - introduction
-editlink: /CONTRIBUTING.md
+editlink: ../../CONTRIBUTING.md
 ---
 
 Thank you for your interest in contributing to RetroReversing! This guide explains some of the formatting guidelines and features you can use to make the posts on the page more engaging.
