@@ -34,10 +34,11 @@ Whether you are interested in reverse engineering, game modding, or simply curio
 
 By the end of this guide, you'll have a solid foundation for exploring and dissecting Windows executables, with resources and examples tailored for retro game reverse engineering and technical analysis.
 
+---
 # Reverse Engineering Windows Executables
 This section focuses on the core information that you need to get started reversing a windows game or other windows software.
 
-## How to dump a Windows executable?
+## How to dump a Windows (PE) executable?
 Dumping a Portable Executable (PE) file refers to extracting information from the file, such as its headers, sections, and other metadata. This process is often used for debugging and analysis. You can dump a PE file from the command line using either **Dumpbin** or **objdump**.
 
 **Dumpbin** (Microsoft SDK): If you have the Microsoft Visual Studio Development Tools installed, you can use the **dumpbin** utility to display information about a PE file. Open a Command Prompt and run the following command:
@@ -75,7 +76,7 @@ objdump -x yourfile.exe
   rabin2 -Ij your.exe | jq '.info.overlay'
   ```
 
-### Checking for Debug Data
+### Checking for Debug Data in PE executables
   The executable may have been built with debug information includes, one way to check is to use the **rabin2** command like so:
   ```bash
   rabin2 -Ij your.exe | jq '.info | {dbg_file, stripped, linenum, lsyms}'
@@ -468,6 +469,8 @@ Table of the subtypes:
 | `NB11M`   | Module info table    |
 | `NB11F`   | File/line info       |
 | `NB11`    | Generic header block |
+
+You can find out more here: [DebugInfo.com - Matching debug information](https://www.debuginfo.com/articles/debuginfomatch.html)
 
 ---
 # Windows Object File Formats - The foundation of executables and libraries
