@@ -158,20 +158,17 @@ So from the above we can see that there were **17 .cpp source files** compiled w
 Not quite sure what Utc stands for, its possible an internal codename such as **Universal Tool Compiler** but this is not confirmed, the 12 is the Microsoft C Version number (**_MSC_VER**) which maps to Visual Studio 6.0 the 12th release of Microsoft C.
 
 ---
-# Windows Executable File Formats (NE,LE and PE)
+# Windows Executable File Formats (NE, LE and PE)
 Over the years there was a number of different file formats for storing executable programs, luckily unless you are dealing with Windows 3.1 games you can safely ignore them all apart from the most recent **Portable Executable (PE)** file format.
 
-The Executable file formats for Windows are: 
-* **New Executable** (NE) - Used in Windows 1.0 to Windows 3.1
-   - The NE format was the first executable file format used in the early versions of Windows.
-   - It was a 16-bit format and was primarily used for Windows 1.0, 2.x, and 3.0. NE files had the .exe extension and were limited to 16-bit code.
-* **Linear Executable** (LE) - Used in Windows 3.0 and Windows 3.1 (Win32s)
-   - The LE format was introduced with Windows 3.0, and it allowed for limited 32-bit code execution.
-   - It was used in conjunction with the Win32s extension to enable 32-bit Windows applications to run on 16-bit Windows.
-   - LE files had the .exe extension and were a transitional format during the move to 32-bit computing.
-* **Portable Executable** (PE) - Used in Windows NT3.1+
-   - The PE format was a significant advancement over the earlier New Executable (NE) and Linear Executable (LE) formats, as it allowed for 32-bit code and brought modern features and extensibility to Windows executables.
-   - The use of PE continued in subsequent versions of Windows NT, including Windows NT 3.5, 3.51, and subsequent releases, eventually becoming the standard format for Windows executables in all later Windows operating systems.
+The Executable file formats for **Windows** are: 
+* **New Executable (NE)** - 16-bit format used from Windows 1.0 to Windows 3.1
+* **Linear Executable (LE)** - 32-bit format used in Windows 3.0+ but only really used for games that use **DOS Extenders**
+* **Portable Executable (PE)** - 32-bit used in all modern windows games (Windows NT 3.1+)
+
+Since the only time you will encounter LE executables is in DOS Extenders, we will not take a deep dive into the format here, but it was based on the original NE format.
+
+If you are reversing a Windows PC game (not DOS) then the format you need to know about is the  **Portable Executable (PE)** format.
 
 ---
 ## New Executable Format (NE) - Windows 1.0 to Windows 3.1
@@ -186,37 +183,40 @@ There is a lot of interesting metadata that you can use to learn about your exec
 Most offsets in the table below are from the "NE" header as the DOS stub could be of variable size, but some are offsets relative to the start of the file so be careful.
 
 | Offset (from NE header start) | Size (bytes) | Name | Description |
-|---|---|---|---|
-| 0x00 | 2 | Signature | Must be "NE" (0x4E, 0x45) |
-| 0x02 | 1 | Major Linker Version | Major version number of the linker used |
-| 0x03 | 1 | Minor Linker Version | Minor (revision) number of the linker |
-| 0x04 | 2 | Entry Table Offset | Offset (from start of NE header) to the **entry table** |
-| 0x06 | 2 | Entry Table Length | Length in bytes of the entry table |
-| 0x08 | 4 | File Load CRC | 32-bit CRC of the entire file (for integrity check) |
-| 0x0C | 2 | Flag Word | Bit flags describing module attributes (SINGLEDATA, MULTIPLEDATA, etc.) |
-| 0x0E | 2 | Auto Data Segment Index | Index of "auto data" segment (if present) |
-| 0x10 | 2 | Initial Heap Size | Initial heap (local data) size |
-| 0x12 | 2 | Initial Stack Size | Initial stack size |
-| 0x14 | 4 | Entry Point | CS:IP (segment index and offset) of entry point |
-| 0x18 | 4 | Initial Stack Pointer | SS:SP (segment index and offset) for initial stack pointer |
-| 0x1C | 2 | Segment Count | Number of segments in the segment table |
-| 0x1E | 2 | Module References Count | Number of module references (DLLs) |
-| 0x20 | 2 | Non Resident Name Table Size | Size in bytes of the nonresident names table |
-| 0x22 | 2 | Segment Table Offset | Offset (from NE header) of the segment table |
-| 0x24 | 2 | Resource Table Offset | Offset (from NE header) of the resource table |
-| 0x26 | 2 | Resident Name Table Offset | Offset (from NE header) of the resident names |
-| 0x28 | 2 | Module Reference Table Offset | Offset (from NE header) of the module reference table |
-| 0x2A | 2 | Imported Name Table Offset | Offset (from start of NE header) of imported names |
-| 0x2C | 4 | Non Resident Name Table Offset | Offset (from start of the **file**) to nonresident names |
-| 0x30 | 2 | Movable Entry Count | Number of movable entries in entry table |
-| 0x32 | 2 | Align Shift Count | Alignment shift count (for resource offsets) |
-| 0x34 | 2 | Count of resource segments | Offset after resources (or reserved) |
-| 0x36 | 1 | TargetOS | Operating system target / module flags (reserved) |
-| 0x37 | 1 | Other Flags     | Other EXE flags (e.g., long names support, protected mode). |
-| 0x38 | 2 | Misc (Reserved) | Reserved / additional flags or versioning |
+|---|---:|---|---|
+| 0x00 | 2 | Signature | Must be "NE" (0x4E, 0x45).  |
+| 0x02 | 1 | Major Linker Version | Linker major version that produced the image.  |
+| 0x03 | 1 | Minor Linker Version | Linker minor revision.  |
+| 0x04 | 2 | Entry Table Offset | Offset to the **entry table** which maps ordinals to code entry points; used by the loader and by fixups that call exported ordinals.  |
+| 0x06 | 2 | Entry Table Length | Size of the entry table in bytes.  |
+| 0x08 | 4 | File Load CRC | 32-bit checksum of the whole file (often 0); the checksum field is treated as 0 during calculation.  |
+| 0x0C | 2 | Flag Word | Module attributes: data model, DLL bit, CPU/NPX usage, etc. Useful to spot DLLs and memory model.  |
+| 0x0E | 2 | Auto Data Segment Index | Segment number for the automatic data segment (0 if none).  |
+| 0x10 | 2 | Initial Heap Size | Extra local heap bytes added to the data segment at load time.  |
+| 0x12 | 2 | Initial Stack Size | Bytes reserved for the initial stack.  |
+| 0x14 | 4 | Entry Point | Initial CS:IP as a pair of segment number and offset where execution begins.  |
+| 0x18 | 4 | Initial Stack Pointer | Initial SS:SP as a pair of segment number and offset.  |
+| 0x1C | 2 | Segment Count | Number of entries in the **segment table**. Each segment entry describes where a code/data segment lives in the file, its length, flags (CODE/DATA, MOVEABLE, PRELOAD, RELOCINFO, discard priority), and its minimum allocation size.  |
+| 0x1E | 2 | Module Reference Count | Number of entries in the **module reference table** (imported modules).  |
+| 0x20 | 2 | Non-resident Name Table Size | Size in bytes of the **non-resident name table** (strings not kept resident in memory).  |
+| 0x22 | 2 | Segment Table Offset | Offset to the **segment table**. File offsets inside segment entries are stored in logical sectors, scaled by the header’s Align Shift Count.  |
+| 0x24 | 2 | Resource Table Offset | Offset to the **resource table**. Contains its own alignment count and records that group resources by type with per-resource location and size.  |
+| 0x26 | 2 | Resident Name Table Offset | Offset to the **resident name table**. Holds the module name and exported names that must stay in memory; names are length-prefixed and carry an ordinal.  |
+| 0x28 | 2 | Module Reference Table Offset | Offset to the **module reference table**. Each 2-byte entry points to a module name string in the Imported Names Table.  |
+| 0x2A | 2 | Imported Names Table Offset | Offset to the **imported names table** (Pascal-style strings for imported module and procedure names referenced by fixups).  |
+| 0x2C | 4 | Non-resident Name Table Offset (file) | Absolute file offset of the **non-resident name table**; contains the module description and additional exported names, not kept resident.  |
+| 0x30 | 2 | Movable Entry Count | Number of entry-table entries that refer to moveable segments (helps loader manage movable code).  |
+| 0x32 | 2 | Align Shift Count | Logical sector alignment for **segment table** offsets: file offsets are stored in units of 1 << count (default 9 = 512 bytes).  |
+| 0x34 | 2 | Resource Entry Count | Number of resource entries in the resource table (not bytes).  |
+| 0x36 | 1 | Target OS | Executable type used by the loader, e.g. 0x02 = Windows.  |
+| 0x37 | 1 | Other Flags | Additional compatibility flags; some toolchains set bits like "supports long names". Often 0 in practice.  |
+| 0x38 | 2 | Return Thunks Offset | Offset (from NE header) to return thunk data for mixed-mode thunking; commonly 0 for normal apps.  |
+| 0x3A | 2 | Segment Ref Bytes Offset | Offset (from NE header) to per-segment reference bytes used by the loader; commonly 0.  |
+| 0x3C | 2 | Minimum Code Swap Area | Minimum code swap area size; reserved by Microsoft in some docs.  |
+| 0x3E | 2 | Expected Windows Version | Expected Windows version as a WORD (major/minor packed). Used for runtime version checks.  |
 
 
-Here is the a C structure for the **New Executable** header from the MinGW version of **winnt.h** (Under GPL license): [File: winnt.h | Debian Sources](https://sources.debian.org/src/mingw-w64/5.0.1-1/mingw-w64-tools/widl/include/winnt.h/)
+Here is the a C structure for the **New Executable** header from the MinGW version of **winnt.h** (Under GPL license): [File: winnt.h - IMAGE_OS2_HEADER](https://sources.debian.org/src/mingw-w64/5.0.1-1/mingw-w64-tools/widl/include/winnt.h/#L1156)
 
 --- 
 ## Portable Executable - Windows NT3.1+ - The modern executable
