@@ -236,6 +236,16 @@ But what about timing? There is a risk that your emulated PPU will get out of sy
 The simplist way to solve this issue is to run both the PPU and CPU in the same thread and find out how many pixels are drawn to the screen per cpu-cycle. That means you can run 1 cpu-cycle then call the PPU to draw that number of pixels and so on in a infinite loop. The problem with this is that if the system you are emulating is more recent/powerful it you won't have enough GHz on your host machine to emulate that system.
 
 ---
+# Learning how to write your own emulators
+Now that you know the basics of how emulators work, you might be interested in writing your own. This section covers some good resources available on the web to help you get started.
+
+## Games and Interactive experiences on emulator development
+
+### EmuDevZ - A game that teaches you emulator development
+This is a very unique game, it teaches you the basics of emulator development in a fun way, a browser game! It is a very good way to learn the basics:
+[EmuDevz](https://afska.github.io/emudevz/#/)
+
+---
 # Videos on Emulator Development
 What better way to learn how to write your own emulator that watching people write one themselves. This section will link to video tutorials on emulator development, some are follow-along-at-home type and others are just mentioning the core concepts, but all are worth a watch if you are serious about emulator development.
 
