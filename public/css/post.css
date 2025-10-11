@@ -329,6 +329,11 @@ table.dataTable {
   padding-left: 5px;
 }
 
+h2 + iframe, h3 + iframe, h4 + iframe, h2 + img, h3 + img, h4 + img {
+  float: left;
+  margin-right: 10px;
+}
+
 /* #region emojis for under headings */
 .emoji {
   font-size: 4em;
@@ -352,6 +357,10 @@ h4 + .emoji {
 
 h5 + .emoji {
     margin-left: 2.5em;
+}
+
+.emoji + p {
+  padding-top: 15px;
 }
 /* #endregion emojis for under headings */
 

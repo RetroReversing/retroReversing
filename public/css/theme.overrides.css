@@ -21,12 +21,27 @@ body {
 }
 
 /* #region Nav Bar  */
-.container.navbar-container {
+.navbar-container {
   max-width: 95vw !important;
+  margin-right: 2vw;
+  margin-left: 2vw;
   width: 95vw;
   @media (min-width: 1300px) {
     /* larger desktop styles */
     width: 80vw !important;
+  }
+}
+
+#header .navbar {
+  justify-content: space-between;
+  display: flex;
+  min-width:95vw;
+}
+
+.nav {
+  justify-content: center;
+  @media (min-width: 1200px) {
+    min-width: 70vw;
   }
 }
 
@@ -302,13 +317,6 @@ border-top-right-radius: 8px;
 
   .rr-head-hero {
     display:none !important;
-  }
-
-  .rr-home-section .container {
-    padding-left: 0px !important;
-    padding: 0px !important;
-    margin-left: 0px !important;
-    width: 100vw;
   }
   
   #follow-retro-reversing {

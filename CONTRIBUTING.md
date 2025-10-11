@@ -135,6 +135,7 @@ You don't need to reference posts from RetroReversing.com. Instead, just link to
 For code that could be useful to run interactively in the browser, provide the example in TypeScript. Otherwise, use Python for any scripts intended to run locally.
 
 Keep code examples in the standard Markdown format, using backticks with the language name to apply syntax highlighting.
+For assembly language use `nasm` to get the correct syntax highlighting.
 
 ---
 # Tips for making the pages more visually engaging and readable

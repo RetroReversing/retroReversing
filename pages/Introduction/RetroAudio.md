@@ -4,7 +4,7 @@ tags:
 - introduction
 - pc
 - nes
-title: Introduction to Audio Programming of Retro Games
+title: Introduction to Audio/Music Programming of Retro Games
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
 permalink: /how-retro-audio-worked
