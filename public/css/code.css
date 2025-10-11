@@ -50,8 +50,24 @@ blockquote p:last-child, .post .link-blockquote p:last-child {
     }
 } */
 
+/* Custom language specific overrides */
+.language-markdown {
+    .highlight .gu {
+        font-weight: bold !important;
+    }
+}
+
+.highlight div {
+    background-color:unset;
+}
+
+.highlight pre {
+  color: #f8f8f2;
+  background-color: #49483e;
+}
+
 code {
-    color: #666
+    color: #666;
 }
 
 .highlight .hll {

@@ -18,7 +18,8 @@
 
 .rr-post-playlist-row  {
   display: flex;
-  /* margin: unset; */
+  flex-wrap: wrap;
+  margin: unset;
   /* padding: 20px; */
   justify-content: space-evenly;
 }

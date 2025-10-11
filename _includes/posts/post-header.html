@@ -1,0 +1,28 @@
+<div class="post-header">
+    <div>
+        {% if page.thumbnail %}
+        <img class="post-header-icon" src="{{ page.thumbnail }}" alt="Post thumbnail">
+        {% elsif site.category_images[page.console] %}
+        <img src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
+        {% else %}
+        <img src="/public/images/RetroReversingLogoSmall.png" alt="Retro reversing logo">
+        {% endif %}
+    </div>
+    <div>
+        <h1 class="post-title">{{ page.title }}</h1>             
+        {% if page.editlink %}
+        <a href="https://github.com/RetroReversing/retroReversing/edit/master/pages/{{page.editlink}}" class="post-edit-link"><i class="fa fa-edit" style="margin-right:5px"></i>Edit on Github</a>
+        {% else %}
+        <a href="https://github.com/RetroReversing/retroReversing/tree/master/pages" class="post-edit-link"><i class="fa fa-edit" style="margin-right:5px"></i>Edit on Github</a>
+        {% endif %}
+        | Updated:
+        <i> 
+            {% if page.updatedAt %}
+            {{page.updatedAt | date_to_long_string: "ordinal"}}
+            {% else %}
+            {{site.time | date_to_long_string: "ordinal"}}
+            {% endif %}
+        </i>
+        
+    </div>
+</div>

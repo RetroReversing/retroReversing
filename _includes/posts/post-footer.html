@@ -1,0 +1,21 @@
+<div class="post-footer">
+    <div class="post-actions">
+        {% if page.tags %}
+            <div class="post-tags">
+            {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
+            {% endfor %}
+            </div>
+        {% endif %}
+        
+        {% include social-share.html %}
+    </div>
+        
+    <div id="follow-retro-reversing" style="background-color:#242629; display: flex; justify-content: center;">
+        {% include followUs.html %}
+    </div>
+        
+    <div id="comments" class="comments anchor">
+        {% include disqus.html %}
+    </div>
+</div>
