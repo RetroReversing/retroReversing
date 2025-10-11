@@ -12,7 +12,7 @@
         </div>
         <div>
           {% assign filename = page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '.md' %}
-          <h4>Contribute to this page: <a href="{{filename}}">Edit on github</a></h4>
+          <h4>Contribute to this page: <a class="post-edit-link" href="{{filename}}">Edit on github</a></h4>
         </div>
         
       </div>

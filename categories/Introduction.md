@@ -57,6 +57,7 @@ Not only that but you will start to understand in depth how computers work and i
 Consider this: There are many devices that you use daily, like physical gadgets or computer programs, but most people don't have the skill to look inside them to check if they might invade your privacy or have flaws that could make you less safe. Reverse engineering gives you the skill to be able to check for security flaws and tracking functionality that companies often don't disclose to the public.
 
 ## What is the benefit to having reversed a game?
+<div class="emoji">🏆</div>
 The most obvious benefit is to allow people to get more from their games, enjoy more hours in their favourite games, get that nostalgic buzz! 
 
 Whether that is translating a game into a new language, improving the sound or visuals, or porting a classic game to a more modern system, you are bringing the enjoyment that this game gave to you to brand new audiences.
@@ -64,6 +65,7 @@ Whether that is translating a game into a new language, improving the sound or v
 It might not exactly be saving lives in the traditional sense, but the hours of joy you can bring to gamers old and new is priceless.
 
 ## Is reverse engineering legal?
+<div class="emoji">⚖️</div>
 Yes, in fact there are many cases where the courts have sided with the reverse-engineer when it comes to anti-competitive practices.
 
 If you are interested there are a few court battles that are relevant:
@@ -84,6 +86,7 @@ But what exactly are ROM files? How did that big plastic cartridge become a sing
 
 
 ## ISO files
+<div class="emoji">💿</div>
 ISO files are sometimes incorrectly called ROMs and technically they are a copy of data that was on a Read-only memory format but there are some fundamental differences between them.
 
 If you are unaware ISO files are copies of the data on a CD, DVD or Blu-ray Disc. Thus one of the major differences between this and a ROM file is it actually is a standard file format that can be opened in a tool such as Windows Explorer or Apple Finder and you can explore all the subfiles inside. 
@@ -109,6 +112,7 @@ In fact you may have already seen Hexadecimal if you have worked with Colours as
 </section> 
 
 ## Viewing files with a Hex editor
+<div class="emoji">📄</div>
 Now that you know why the Hexadecimal notation is useful for developers to represent bytes, let's use a tool that every reverse engineer has handy at all times, the HEX editor!
 
 As we know a game is build up of either a single file (ROM) or multiple files, but at the end of the day they are all files and all contain bytes of data.
@@ -116,13 +120,12 @@ As we know a game is build up of either a single file (ROM) or multiple files, b
 So we know know that we can represent each byte as two Hexadecimal digits, why don't we open up some of those game files!
 
 Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
-
-* ImHex (Windows / macOS / Linux) (Free and open source) (Website: https://imhex.werwolv.net/)
-* rehex (Windows / macOS / Linux / BSD) (Free and open source) (Website: https://rehex.solemnwarning.net/)
-* GNU Emacs (Windows / macOS / Linux) (Free and open source) (Website: https://www.gnu.org/software/emacs/)
-* 010 Editor (Windows / macOS / Linux) (Proprietary and closed source) (Website: https://www.sweetscape.com/)
-* WinHex (Windows) (Proprietary and closed source) (Website: https://www.x-ways.net/winhex/index-m.html)
-* HIEW (Windows) (Proprietary and closed source) (Website: https://www.hiew.ru/)
+* [ImHex](https://imhex.werwolv.net/) (Windows / macOS / Linux) – Free and open source  
+* [rehex](https://rehex.solemnwarning.net/) (Windows / macOS / Linux / BSD) – Free and open source  
+* [GNU Emacs](https://www.gnu.org/software/emacs/) (Windows / macOS / Linux) – Free and open source  
+* [010 Editor](https://www.sweetscape.com/) (Windows / macOS / Linux) – Proprietary and closed source  
+* [WinHex](https://www.x-ways.net/winhex/index-m.html) (Windows) – Proprietary and closed source  
+* [HIEW](https://www.hiew.ru/) (Windows) – Proprietary and closed source
 
 Some ROM hacks are done purely with a HEX editor and emulator so this is a powerful tool to get you started, but there are many other useful tools to learn along the way to make it even easier.
 
@@ -141,7 +144,9 @@ There are so many file formats out there (and many variations) that you couldn't
  </div>
 </section> 
 
+---
 ## Magic Headers & the file command
+<div class="emoji">🪄</div>
 Now you know the basics of how data can be represented you can dive into many different file formats used in games. You can view them in Hexadecimal with a Hex Editor and you can spot the Magic Header (if the file has one). This can be very useful for looking at files in ISO files, especially if they do not have a file extension.
 
 
@@ -154,39 +159,47 @@ Wikipedia has a useful table of the most common file formats and what their Magi
 So you could open your file in a Hex editor and search that page for what file type it is. But there exists an even easier solution, systems based on UNIX come pre-installed with a useful tool called `file` which can tell you what a file contains regardless of its extension.
 
 An example of using file:
-```
+```bash
 file unknownfile
 ```
 
+---
 ## Custom File formats
+<div class="emoji">📄</div>
 Many files used in games could be a custom format created specifically for that game (or engine), understanding how to decode these custom file formats is a vital skill that is worth learning.
 
 We will cover how to reverse engineer a custom file format in a later lesson, but for now you might be surprised how many games contain standard well-documented file formats on their CD's or Floppies.
 
+---
 ## Strings are your friend
 <section class="postSection">
 <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/V3_vc7BO9lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div markdown="1">
    When looking at custom file formats or even just executables, one of the most valuable pieces of data in these files are Text Strings, especially if they are in standard ASCII or UTF-8 format.
    There is a really easy way to dump out all the ASCII strings in a file using the **strings** command like so:
-```
+```bash
 strings yourfilename
 ```
 </div>
 </section> 
 
+---
 ## Game Audio and Music
+<div class="emoji">🎧</div>
 A core part of all video games is the Audio, whether as background music or sound effects, finding out how the sound system works for your chosen game can be fascinating. We have a separate post covering Game Audio and Music reversing and file format information.
 {% include link-to-other-post.html post="/how-retro-audio-worked" description="For more information about Game Audio check out this post." %}
 
 ## Memory Dumps
+<div class="emoji">🧠</div>
 Instead of relying on an infinite number of random attempts to find hidden codes or features, memory dumps provide an efficient way to access and analyze software. It allows for systematic reverse engineering (RE) of the software to uncover "secret" codes that may only be available in memory.
 
 Knowing how data is structured in memory is a crucial skill to be able to tear apart how software works and ultimately learn about any hidden functionality, security issues or privacy violations.
 
 A practical example is the **Nokia 5210** cell phone's security code. While the manufacturer claimed it was unbreakable, memory dumps revealed a secret sequence (*3001#12345#) to unlock the phone. This discovery can be beneficial to end users who want to unlock their phone or even just for users to know that its possible.
 
+---
 ## Data Representations
+<div class="emoji">🔣</div>
 The exact representation a game uses will vary based on the compiler used, system its developed for and even programmer preference. 
 
 Here are the most common data representations:
@@ -197,7 +210,9 @@ Here are the most common data representations:
 * **Integer/Short** - 2 Bytes (16Bit systems) or 4 Bytes (32Bit systems)
 * **Long** - 4 Bytes
 
+---
 ## Endianness
+<div class="emoji">🔀</div>
 Endianness refers to the byte order or how multi-byte data is stored in memory. It's important to understand endianness because games often need to work with data structures that span multiple bytes, such as integers or color values. 
 
 There are two main types of endianness:
@@ -208,7 +223,9 @@ If you're developing a game on a little-endian PC but targeting a big-endian gam
 
 Additionally, some retro consoles, like the Sega Genesis, used a mixture of big-endian and little-endian data formats, adding another layer of complexity. Understanding the specific endianness of the target console and adapting your code accordingly is crucial for retro game development to ensure that data is interpreted correctly, graphics are displayed accurately, and sound is played as intended.
 
+---
 ## Memory Pointers
+<div class="emoji">➡️</div>
 When inspecting a game's memory it is important to know that the address where the data is stored will change from run to run. So for example if you know the lives is stored at a particular address in memory, if you restart the game you may find that it is stored in a completely different location. So how does the computer know where to look for the lives memory? The answer is simply using pointers.
 
 Pointers are simply variables that point to a specific memory address asnd they can be modified at runtime.
@@ -229,9 +246,10 @@ Executable file formats are specific data structures used by operating systems t
 * **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
 * **COM** - Used in DOS and early Windows
 
-Note that most executables don't have any file extension on Unix/macOS and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's "PS-EXE" format.
+Note that most executables don't have any file extension on Unix/macOS and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's `PS-EXE` format.
 
 ## What is an API?
+<div class="emoji">🧩</div>
 An **Application Programming Interface** (API) is a collection of functions that are so common that they are provided to every programmer of a certain platform (e.g. PS1, Xbox 360, Windows). These functions can either by included in the executable directly or dynamically linked to at runtime from a common set of libraries. 
 
 API functions are very useful when reversing a game or application as they tend to have documentation associated with them and give hints as to what the code that calls them might be wanting to do. So they are a very good place to start when reverse engineering an executable.
@@ -241,10 +259,14 @@ APIs are typically distributed in several ways to allow developers to integrate 
 - **Static Libraries** - Provided as .lib (Windows) or .a (Unix-like systems) files that developers link to their applications at compile time.
 - **Dynamic Libraries** - Provided as .dll (Windows) or .so (Unix-like systems) files, which are linked at runtime.
 
+---
 ## What is a Static Library?
+<div class="emoji">🏛️</div>
 A static library is a collection of precompiled code that is linked directly into a program during the build process. This means the code from the library becomes part of the final executable, allowing the program to run independently without needing the library files at runtime. Static libraries typically have file extensions like `.lib` on Windows and `.a` on Unix-like systems.
 
+---
 ## What is a Dynamic Library?
+<div class="emoji">♻️</div>
 A dynamic library is a file containing code and data that can be used by multiple programs simultaneously. Instead of including the code directly in each program, they load the library at runtime, saving memory and allowing updates without recompiling the programs. In Windows, these are called DLLs (Dynamic Link Libraries), while in Unix-like systems, they are often called shared objects (`.so` files).
 
 ### Which DLLs are used by code compiled by versions of Microsoft Visual C++?
@@ -301,11 +323,13 @@ The best tool to detect which compiler and linker was used is **Detect It Easy**
 # Lesson 4 - Assembly Language
 
 ## What is Assembly language?
+<div class="emoji">🔢</div>
 Assembly language is a low-level programming language that's a step above the binary machine language that computers understand. It uses human-readable mnemonics and symbols to represent the basic operations a computer's Central Processing Unit (CPU) can perform, like adding numbers, moving data, and making decisions.
 
 In essence, assembly language is a way for humans to communicate with computers in a more understandable way, making it easier to write software that can perform specific tasks or functions on a computer's hardware.
 
 ## Do I need to learn Assembly Language for reversing?
+<div class="emoji">🤔</div>
 You do not need to learn assembly language to reverse engineer retro games, however, if you want to write your own games from scratch then it is recommended. 
 For reversing you might be dealing with multiple CPUs on a single console so learning the entire instruction set would be too time consuming and by the time you get to actually reversing you may have forgotten much of what you have just learned. 
 
@@ -376,6 +400,7 @@ A CPU for a game console or PC works by following a series of steps to process i
 The CPU also works with other parts of the console, like the graphics and sound chips, to create the game's visuals and sounds.
 
 ## What is a CPU Instruction?
+<div class="emoji">👣</div>
 An instruction is a basic operation or command that the CPU can execute. These instructions are written in a machine-readable form, usually in binary code, and are the fundamental building blocks of a computer program. Each CPU has its own specific set of instructions, known as its instruction set architecture (ISA).
 
 Instructions can perform various tasks, such as:
@@ -389,6 +414,7 @@ Instructions can perform various tasks, such as:
 CPU instructions are executed sequentially, one after the other, according to the program's logic. The order and combination of these instructions determine the behavior of a computer program.
 
 ### The No Operation Instruction (NOP)
+<div class="emoji">💤</div>
 In the world of assembly language programming, every Central Processing Unit (CPU) includes an instruction that accomplishes precisely nothing. These unassuming instructions are commonly referred to as 'No Operation' or NOPs. When a NOP is executed, the CPU undergoes a brief, yet essential, period of inactivity, ultimately ending up in the exact state it occupied before executing the instruction.
 
 While this might seem counterproductive, NOPs have their indispensable uses. One of their primary functions is to 'waste time' intentionally. CPUs operate relentlessly, executing instructions in rapid succession, and sometimes, you need the CPU to pause briefly, awaiting the readiness of another part of the system. In such cases, NOPs prove invaluable. They serve as a placeholder or a delay mechanism, ensuring that the CPU remains occupied without altering its state.
@@ -398,6 +424,7 @@ Imagine a scenario where a CPU needs to synchronize with external hardware that 
 Also NOP instructions can be used to insert empty space or "padding" in the code. This can be useful for aligning instructions in memory or adjusting the size of loops and branches. For example, if you want to ensure that a certain block of code is located at a specific memory address, you can insert NOP instructions to fill the gap between the end of the previous code and the desired location.
 
 ## What is a CPU Register?
+<div class="emoji">🔢</div>
 You can think of CPU Registers as small (64-bit/32-bit/16-bit) global variables that the CPU accesses directly. 
 
 Each CPU has a number of built in registers which can each store a set number of Bytes, the number of bytes that they store is defined by the CPU, for example a 64-bit CPU will have 64-bits for each register.
@@ -408,6 +435,7 @@ Almost all CPUs have special registers that are designated for a particular purp
 # Lesson 6 - Memory
 
 ## The Stack
+<div class="emoji">📚</div>
 But what happens when you want to store more data than the limited number of registers available on the CPU? 
 This is where the computers RAM comes in, no matter how simple your console or PC is it will have some sort of RAM available and is used to store data such as the players X and Y Position.
 
@@ -426,7 +454,7 @@ The CPU has designated instructions to read and write from the stack, often call
 
 ---
 ## The Heap
-
+<div class="emoji">🧱</div> 
 When you need to store more data than the stack can handle or require memory that persists longer than a single function call, the heap comes into play. The heap is another part of your computer's RAM, used for dynamic memory allocation, such as storing large objects, game assets, or variables that need to exist throughout the program's execution.
 
 ## What is the Heap?
@@ -434,7 +462,7 @@ When you need to store more data than the stack can handle or require memory tha
 You can think of the heap as a large pool of memory where you can request chunks of memory as needed. Unlike the stack, memory in the heap can be allocated and freed in any order, making it flexible but also more complex to manage.
 
 ## Which systems had a heap?
-Early video game consoles typically did not have a heap due to their limited memory and lack of an operating system to manage dynamic memory allocation. However, as consoles evolved and gained more memory and complexity, the concept of a heap started to become relevant.
+Early video game consoles typically **did not have a heap** due to their limited memory and lack of an operating system to manage dynamic memory allocation. However, as consoles evolved and gained more memory and complexity, the concept of a heap started to become relevant.
 
 Some heaps were handled by the operating system (Xbox onwards) and others were handled by the game engines themselves (PS2, GameCube).
 
@@ -455,12 +483,14 @@ This allows you to dynamically allocate space when needed and release it when it
 Interacting with the heap in assembly language typically involves system calls or interrupts to request memory from the operating system. Unlike the stack, which is managed directly by the CPU with specific instructions, the heap requires explicit requests for memory allocation and deallocation. 
 
 ## Pointers
+<div class="emoji">➡️</div>
 Instead of passing large arrays or structures to functions (which is slow), you can pass their address. This is faster and allows the function to modify the original data without needing to return the whole structure. That address when saved into a variable is called a pointer, as it points to data.
 
 ---
 # Lesson 7 - Functions
 
 ## Function Calling Conventions
+<div class="emoji">📞</div>
 Function calling conventions are rules that define how functions receive parameters, return results, and manage memory during a call.
 
 Conventions specify whether function arguments are passed in registers (fast) or on the stack (slower) and decide which registers are used for passing parameters. Often, a special register (like eax in x86 architecture) is used to hold the return value.
@@ -470,23 +500,23 @@ Conventions also decide who is responsible for cleaning up the stack after the f
 ### cdecl (C Declaration)
 **cdecl** (short for **"C Declaration"**) is a calling convention used in C and C++ programming that specifies:
 
-- **Arguments**: Passed on the stack from right to left.
-- **Cleanup**: The caller cleans up the stack after the function returns.
-- **Return Value**: Typically returned in the `eax` register.
+* **Arguments**: Passed on the stack from right to left.
+* **Cleanup**: The caller cleans up the stack after the function returns.
+* **Return Value**: Typically returned in the `eax` register.
 
 ### stdcall
-**stdcall** is a calling convention used in Windows programming that specifies:
+**stdcall** is a calling convention used in **Windows** programming that specifies:
 
-- **Arguments**: Passed on the stack from right to left.
-- **Cleanup**: The callee (the called function) cleans up the stack after the function returns.
-- **Return Value**: Typically returned in the `eax` register.
+* **Arguments**: Passed on the stack from right to left.
+* **Cleanup**: The callee (the called function) cleans up the stack after the function returns.
+* **Return Value**: Typically returned in the `eax` register.
 
 ### fastcall
 **fastcall** is a calling convention designed to improve the performance of function calls by reducing the overhead associated with passing arguments and handling stack operations.
 
-- **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g. ecx and edx on x86), with additional arguments on the stack.
-- **Cleanup**: The callee cleans up the stack.
-- **Return Value**: Typically returned in the eax register.
+* **Arguments**: Arguments: The first few arguments are passed in specific registers (e.g. ecx and edx on x86), with additional arguments on the stack.
+* **Cleanup**: The callee cleans up the stack.
+* **Return Value**: Typically returned in the eax register.
 
 ### thiscall
 thiscall is a calling convention used primarily for C++ member functions. It is designed to handle the specific needs of methods that operate on objects (i.e. functions that are part of a class).
@@ -502,6 +532,7 @@ thiscall is a calling convention used primarily for C++ member functions. It is 
 Disassemblers often rely on function prologues and epilogues as key indicators for identifying the boundaries of functions within a binary. These patterns help the disassembler understand where functions start and end, allowing it to organize the disassembled code into coherent blocks. These tend to be fairly standard as they are created by the compiler.
 
 ### Function Prologue
+<div class="emoji">🔜</div>
 The prologue is the sequence of instructions at the beginning of a function that prepares the stack and registers for the function’s execution. It typically includes saving the return address, preserving the base pointer (if used), and allocating space on the stack for local variables.
 
   **Example (x86 Architecture)**:
@@ -512,6 +543,7 @@ The prologue is the sequence of instructions at the beginning of a function that
   ```
 
 ### Function Epilogue
+<div class="emoji">🔚</div>
 The epilogue is the sequence of instructions at the end of a function that cleans up the stack and restores the saved registers. It usually includes restoring the base pointer and the stack pointer, and then returning control to the caller.
 
   **Example (x86 Architecture)**:
@@ -523,6 +555,7 @@ The epilogue is the sequence of instructions at the end of a function that clean
 
 ---
 ## System Calls
+<div class="emoji">⚙️</div>
 System calls are functions provided by the operating system that allow programs to interact with hardware and system resources, like reading files, creating processes, or communicating over networks. They act as a bridge between user-level applications and the core functions of the operating system.
 
 Here are simple examples of making a system call in assembly on Windows, Linux, and macOS.
@@ -629,15 +662,18 @@ _start:
     syscall                  ; invoke system call
 ```
 
+---
 ## Finding Common Functions
+<div class="emoji">🔎</div>
 When reverse engineering an executable, identifying common library functions can significantly simplify the analysis by allowing you to focus on application-specific code.
 
 Here are some resources:
-* FLIRT (Fast Library Identification and Recognition Technology) - [FLIRT | Hex-Rays Docs](https://docs.hex-rays.com/user-guide/signatures/flirt)
+* **FLIRT** (Fast Library Identification and Recognition Technology) - [FLIRT | Hex-Rays Docs](https://docs.hex-rays.com/user-guide/signatures/flirt)
 * [Is Function Similarity Over-Engineered? Building a Benchmark](https://arxiv.org/abs/2410.22677)
 
 ---
 ## Random Number Generation (RNG)
+<div class="emoji">🎲</div>
 While a CPU diligently follows every instruction it receives, this unwavering predictability presents a challenge for game developers. Players crave the excitement of unpredictability to make each gaming experience unique. So, how can a CPU introduce randomness into the game world?
 
 One elegant solution involves a Random Number Generator (RNG) that relies on the timing of user input. The CPU continuously increments a counter until the player presses a button. With the timing of button presses being entirely unpredictable, the CPU uses this ever-evolving count to generate random numbers. This injects a vital element of surprise and distinctiveness into every gaming session.
@@ -655,6 +691,7 @@ GDB is a very useful tool to debug through an application, with functionality to
 
 ---
 # Next Steps - Choosing your console
+<div class="emoji">🕹️</div>
 You may already have a game or console chosen that you would like to reverse, if not we would suggest you start with either Game Boy or the Nintendo Entertainment System as there are many tools and documentation available for these platforms.
 
 ## Nintendo Consoles

@@ -20,250 +20,34 @@ body {
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-/* Nav Bar  */
+/* #region Nav Bar  */
+.container.navbar-container {
+  max-width: 95vw !important;
+  width: 95vw;
+  @media (min-width: 1300px) {
+    /* larger desktop styles */
+    width: 80vw !important;
+  }
+}
+
 #header .logo {
   color: white;
   font-weight: 600;
 }
+/* #endregion */
 
-/* ------------------------------- */
-/* Start of CSS related to posts  */
-.container.post-container {
-  max-width: 100vw !important;
-  width: 95vw;
-}
-
-blockquote {
-  border-left-color: #0085b6;
-}
-
-.post blockquote {
-  margin-left: 5%
-}
-
-.post strong {
-/*   color: #2089b0; */
-/*   color: #1c789b */
-    color: #0085b6;
-}
-
-
-/* Images inside posts should be 50% and look more centered  */
-.post img {
-    width: 50%;
-    margin-left: 2rem;
-    display:block;
-/*   Clear both means the images won't be put on the same line as a floating element */
-  clear: both;
-/*   The next is experimental */
-  max-height: 50vh;
-  max-width: 25vw;
-  width: auto;
-}
-
-/* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, .table img, .rr-file-card img, .post.post-header-icon {
-  width: unset !important;
-  margin-left: unset !important;
-  display: unset !important;
-}
-
-/*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
-.post-header-icon {
-  min-height: 50px !important;
-  max-height: 75px !important;
-}
-
-/* Set width static to avoid page layout shifting */
-.widget-img img {
-  width: 260px;
-}
-
-/* The post-thumbnail is the Preview image of a post in a list of post */
-.post .post-thumbnail {
-  display: flex;
-}
+/* #region Cards */
 
 .card-video, .card-video .card-img {
   width: 320px;
   height: auto;
 }
 
-.card-title h4 {
+h4.card-title {
   margin-top: 0px;
 }
+/* #endregion Cards */
 
-.post ul {
-  list-style-type: initial;
-  padding-left: 5%;
-  margin: initial;
-  margin-top: 5px;
-  margin-left: 4%;
-}
-
-.post ol {
-  padding-left: 5%;
-  margin: initial;
-  margin-top: 5px;
-  margin-left: 4%;
-}
-
-.post .footnotes ol {
-  padding-left: 4%;
-  margin-left: 0px;
-}
-
-.post a {
-  text-decoration: underline ;
-}
-
-.post hr {
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
-/* The following automatically applied an HR effect but it was too troublesome  */
-/* .post {
-  h1::before, h2::before {
-      content: "";
-      display: block;
-      border-top: 1px solid #ccc;
-      margin: 2rem 0 1rem;
-  }
-} */
-
-.post h1 {
-  padding-top: 10px;
-  color: #0085b6;
-  font-size: 25px;
-/*   margin-left: -0.4em; */
-  margin-bottom: 15px;
-}
-
-.post h2, .post h3, .post h4, .post h5, .post h6 {
-  color: #0085b6;
-/*   color: #848484; */
-  margin-left: 1em;
-  margin-bottom: 10px;
-}
-
-.post h3 {
-   margin-left: 2em;
-   margin-bottom: 5px;
-}
-
-.post h4 {
-   margin-left: 2.5em;
-   margin-bottom: 5px;
-}
-
-.post h5 {
-   margin-left: 3em;
-   margin-bottom: 5px;
-}
-
-.post {
-  color: #333;
-}
-
-/* Youtube videos in posts  */
-.post iframe {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 50%;
-    margin-left: 5vw;
-}
-
-/* iFrame used in sandpack  */
-.post .sp-preview-container iframe {
-  width: 100%;
-  margin: 0px;
-}
-
-
-.widget-friends i {
-  width:64px;
-  height:64px;
-  text-align: center;
-}
-
-.rr-post-markdown {
-    padding-left: 40px;
-}
-
-/* Recommendation sidebar  */
-.widget-videos .widget-img {
-  width: 270px;
-  max-width: 270px;
-}
-
-/* Post images that float ot the left or right  */
-
-.postImage {
-  width:30vw;
-  float: left;
-  margin-right: 10px;
-  margin-left: unset !important;
-}
-
-.postImageRight {
-  width:30vw;
-  float: right;
-  margin-left: 10px;
-}
-
-.postImageRight + .rr-post-markdown {
-  padding-left: 5px;
-}
-
-.postSection {
-  line-height: 2;
-}
-
-.largeCode {
-max-height: 40vh;
-overflow: scroll;
-  
-  ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
-    ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: rgba(0,0,0,.5);
-        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-    }
-}
-
-/* Tables  */
-.table img {
-  max-width: 200px;
-}
-
-table.dataTable {
-  /* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
-  min-height: 460px;
-}
-
-.dataTables_length label {
-  display:flex;
-  padding: 10px;
-  padding-bottom: 0px;
-}
-
-/* Non-datatable tables styling */
-.row table {
-  margin-bottom: 40px;
-  margin-left: 5%;
-  margin-top: 20px;
-  max-width: 95%
-}
-
-.table > thead > tr > th {
-  color: #0085b6
-}
-
-/* End tables  */
 
 .row p {
   padding: 5px;
@@ -310,66 +94,8 @@ section {
   margin-bottom:1px;
 }
 
-/*                    */
-/*  Table of contents */
-/*                    */
-.jumper {
-  font-weight: 500;
-  color: #0085b6;
-  margin-bottom:5px;
-  margin-top:15px;
-}
-
-.jumper--H2, .jumper--H3, .jumper--H4, .jumper--H5, .jumper--H6 {
-  font-size:0.8em;
-}
-
-.jumper--H2 {
-  margin-left: 10px;
-  list-style: none;
-  margin-top: 5px;
-}
-
-.jumper--H3 {
-  margin-left: 25px;
-  font-weight: 200;
-  list-style: none;
-}
-
-.jumper--H4 {
-  margin-left: 20px;
-  font-weight: 100;
-  list-style: none;
-}
-
-.jumper--H5 {
-  margin-left: 25px;
-  font-weight: 50;
-  font-size:0.7em;
-  list-style: none;
-}
-
-.jumper--H6 {
-  margin-left: 30px;
-  font-weight: 25;
-  font-size:0.6em;
-  list-style: none;
-}
-/* End table of contents  */
-
 .dataTable a {
   color: #007bff !important;
-}
-
-
-/* code blocks */
-p .language-plaintext, p .language-bash {
-/*   padding-left: 5%; We don't want the 5% as we sometimes use the code block for a couple of words */ 
-}
-
-.language-plaintext pre {
-  background-color: #333;
-  color: white;
 }
 
 /*           */
@@ -378,14 +104,15 @@ p .language-plaintext, p .language-bash {
 /*  Link to other post */
 .linkToOtherPost {
   display: flex;
+  clear: both;
   .widget-img img {
     height: 100px !important;
   }
 }
-
+/* 
 .linkToOtherPost blockquote:hover {
     background: #0085b60d;
-}
+} */
 
 .linkToOtherPost blockquote {
   display:flex;
@@ -565,19 +292,6 @@ border-top-right-radius: 8px;
 /* Phone screen overrides  */
 /*  */
 @media (max-width: 768px) {
-  .post {
-    h1 {
-      font-size: 20px;
-      margin-left: unset;
-    }
-
-/*  You tube videos should be full width on phone    */
-    iframe {
-      width: 100vw;
-      margin-left: -20px;
-    }
-  }
-
   .toolbar .toolbar-links {
     min-height: 55px !important;
   }

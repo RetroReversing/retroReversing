@@ -6,6 +6,8 @@ baseurl: "/"
 url: https://www.retroreversing.com
 logo: '/public/logo.png'
 highlighter: rouge
+rouge:
+  theme: monokai
 
 # Site configurations
 plugins:
@@ -17,7 +19,13 @@ whitelist:
 
 markdown: kramdown
 kramdown:
-  input: GFM
+  input: GFM # GitHub Flavored Markdown
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
+    theme: monokai
+    css_class: highlight
 
 # To manually control the end of the excerpt uncomment:
 # excerpt_separator: "<!-- more -->"

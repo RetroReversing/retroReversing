@@ -17,9 +17,31 @@
 }
 
 .rr-post-playlist-row  {
-  /* margin: unset; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: unset;
+  gap: 40px;
   /* padding: 20px; */
   justify-content: space-evenly;
+  padding-left: 1em;
+}
+
+.rr-post-playlist-container {
+  overflow-x: scroll;
+  max-width: 75vw;
+}
+
+div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
+  /* applies if fewer than 5 children */
+  flex-wrap: nowrap !important;
+  overflow: hidden;
+  min-width: fit-content;
+}
+
+.rr-post-playlist-row-nowrap {
+  /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
+  overflow: scroll !important;
+  flex-wrap: nowrap !important;
 }
 
 /* Start of the Homepage Hero selectors  */
@@ -104,16 +126,6 @@
   
   .rr-home-section > *:first-child {
     flex: 3;  /* first child grows 3 times as much */
-  }
-
-  .rr-home-section-left {
-    /* width: 80vw; */
-
-    .rr-post-playlist-row-nowrap {
-      /* Override the default row so that it doesn't wrap and instead scrolls, but only on desktop  */
-      overflow: scroll !important;
-      flex-wrap: nowrap !important;
-    }
   }
 
   .rr-twitter {
