@@ -159,8 +159,8 @@ Wikipedia has a useful table of the most common file formats and what their Magi
 So you could open your file in a Hex editor and search that page for what file type it is. But there exists an even easier solution, systems based on UNIX come pre-installed with a useful tool called `file` which can tell you what a file contains regardless of its extension.
 
 An example of using file:
-```bash
-file unknownfile
+```ruby
+file ./folder/unknownfile.dat
 ```
 
 ---
@@ -391,7 +391,11 @@ Microprocessors brought a level of standardization to the gaming industry. Inste
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jSKldt7Eqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **LiveOverflow** has an excellent introduction video to how a CPU works and what exactly assembly language is. 
 
-A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. Here's a simple explanation:
+A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. 
+
+This is known as the Fetch-Decode-Execute-Repeat cycle and it continues indefinetly until the CPU looses power.
+
+Here's a simple explanation:
 
 * **Fetch**: The CPU fetches (reads) instructions from the game's memory. These instructions are like the rules of the game.
 * **Decode**: The CPU figures out what each instruction means. It's like understanding the rules of the game, such as "move the character left" or "shoot the enemy."
@@ -623,7 +627,7 @@ _start:
 ### Linux (x86) System Call Example
 Linux allows direct access to system calls using the `int 0x80` instruction:
 
-```assembly
+```nasm
 section .data
     ; No data needed for this simple example
 
@@ -644,7 +648,7 @@ _start:
 ### macOSX (x86_64) System Call Example
 macOSX uses a different set of registers and the `syscall` instruction for system calls:
 
-```assembly
+```nasm
 section .data
     ; No data needed for this simple example
 
@@ -668,7 +672,7 @@ _start:
 When reverse engineering an executable, identifying common library functions can significantly simplify the analysis by allowing you to focus on application-specific code.
 
 Here are some resources:
-* **FLIRT** (Fast Library Identification and Recognition Technology) - [FLIRT | Hex-Rays Docs](https://docs.hex-rays.com/user-guide/signatures/flirt)
+* **FLIRT** (Fast Library Identification and Recognition Technology) - [FLIRT - Hex-Rays Docs](https://docs.hex-rays.com/user-guide/signatures/flirt)
 * [Is Function Similarity Over-Engineered? Building a Benchmark](https://arxiv.org/abs/2410.22677)
 
 ---

@@ -14,6 +14,28 @@
 .rr-home-section {
   display: flex;
   padding-top: 0px;
+  padding-bottom: 0px;
+  justify-content: start;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.rr-home-section-left {
+  min-width: 320px;
+  max-width: 20vw;
+}
+
+.rr-home-section-right {
+  max-width: 80vw;
+}
+
+@media (max-width: 1200px) {
+  .rr-home-section-left {
+    display: none !important;
+  }
+  .rr-home-section-right {
+    max-width: 100vw !important;
+  }
 }
 
 .rr-post-playlist-row  {
@@ -26,9 +48,17 @@
   padding-left: 1em;
 }
 
+.rr-post-playlist-row .card {
+  margin-bottom: 0px !important;
+}
+
+.rr-post-playlist .toolbar { 
+  margin-bottom: 10px;
+}
+
 .rr-post-playlist-container {
   overflow-x: scroll;
-  max-width: 75vw;
+  /* max-width: 75vw; */
 }
 
 div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
@@ -46,7 +76,7 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
 
 /* Start of the Homepage Hero selectors  */
     .rr-head-hero {
-      width: 80%; 
+      /* width: 80%;  */
       display: list-item;
     }
 
@@ -112,21 +142,9 @@ div.rr-post-playlist-row:not(:has(> :nth-child(5))) {
   } 
 }
 
+
 /* Desktop Homepage media query  */
 @media (min-width: 768px) {
-
-  /* .rr-home-section {
-    display: flex;
-  } */
-
-  .rr-home-section > * {
-    /* default smallest column is any child after the first, so flex 1 */
-    flex: 1; 
-  }
-  
-  .rr-home-section > *:first-child {
-    flex: 3;  /* first child grows 3 times as much */
-  }
 
   .rr-twitter {
     /* width:20vw; */
