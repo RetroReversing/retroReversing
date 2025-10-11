@@ -158,7 +158,6 @@ The game was built with a custom game engine called **JASPAR** (John And Steve's
 
 The game was first written in **AMOS BASIC**, then converted to C code for the final Amiga build, then the PC version was a port of this C code by **Tony Ball**. According to John the C code contained a lot of emulated AMOS function calls and game was still edited on the AMIGA using JOKER as they were still all written in AMOS BASIC [^14]. It was compiled using the **WATCOM C** toolchain accorsing to strings in the Queen.exe file.
 
-In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
 
 The engine was the second non-LucasArts engine added to **ScummVM** on **September 28th 2003** in version 0.6.0 where they called it the **Queen** engine due to the only game that used it was the Flight of the Amazon Queen and they possibly didn't know about it being called JASPER at the time.  The engine supports all known DOS and Amiga versions of the game, including multiple languages and demos [^16].
 
@@ -169,7 +168,19 @@ What I also thought was super cool was at the end of John's 2015 blog post he te
 
 However it was never released due to John  realizing that [there’s no market on the watch for this kind of game.](https://romchip.org/index.php/romchip-journal/article/view/164), which is sad because I would love to have seen how well this works on a watch, maybe adverture games are the perfect candidate for watch games? Although to be honest although I own an apple watch I have never downloaded a game for it... maybe I need to be the change I want to see in the market.
 
-As facinating as the JASPAR engine is, this page is about Merkury and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
+
+#### JASPAR2 game engine
+<img width="320" height="240" alt="The Elf Lord's Bane Quest Saga" src="https://github.com/user-attachments/assets/b465632f-9525-46f9-b283-8a59cc99e10d" />
+
+In March 1997 they mentioned working on the new version of the engine **JASPAR2** for their new game **The Elf Lord's Bane Quest Saga** which sadly never got released [^13].
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/5ea1b3b7-c1dc-477a-afd0-c5ad42009398" />
+
+Which is a shame as the graphics were looking really nice for the prototype they showed off at E3:
+![image](https://github.com/user-attachments/assets/21cbc2c4-88e7-48a7-b34a-f79f927d90bd)
+
+You can find out more about Bane Quest on the wayback machine archive of the official website: [The Elf Lord's Bain Quest Saga](https://web.archive.org/web/19970327033850/http://www.geewhiz.com.au/gwelf.html)
+
+As facinating as the **JASPAR** engine is, this page is about **Merkury** and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
 
 
 ---
@@ -1145,7 +1156,7 @@ DECIMAL                            HEXADECIMAL                        DESCRIPTIO
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ```
 
-This is likely because it was packed with the executable packer **PEtite**.
+This is because it was packed with the executable packer **PEtite**, which could potentially be unpacked with [unipacker/unipacker: Automatic and platform-independent unpacker for Windows binaries based on emulation](https://github.com/unipacker/unipacker).
 
 The copyright messages hint at a few things:
 * **Gilles Vollant** is most likely related to **zlib** compression used for the asset archives. 
@@ -1221,7 +1232,7 @@ The Merkury Engine programming for the game is credited to the following program
 # Barbie: Sparkling Ice Show (2002)
 Barbie: Sparkling Ice Show was released in 2002 with support for **DirectX8**, it was the first game they released for windows that had no mentions of Blast Graphics at all and instead had strings related to Merkury in the game executable such as `Merkury Options`.
 
-This hints that they never updated the Blast Graphics engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
+This hints that they never updated the **Blast Graphics** engine to DirectX 8 and this was the first 3D game for Windows that was released without Blast graphics.
 
 File formats used:
 * **.anm** - Animation data (Used by `Animation::Create`)
@@ -1229,9 +1240,21 @@ File formats used:
 * **.mdl** - Model Data (Used by `Model::Create`)
 * **.dat** - Replay Data (Used by `Replay` class)
 
-BarbieCommon Source files:
+## Source Code Structure
+There are strings in the executable that can shad some light on what the source code structure was like, it was very organised, split into the following main folders:
+* **BarbieCommon** - Common Game Engines files
+  - these files are not Barbie specific and most of them are also seen in other Merkury engine games
+  - Located at `D:\Src\IceSkating\BarbieCommon`
+  - Also contains a **PC** sub folder with PC specific implementations (the common folder aims to be cross platform)
+* **Source** - Game specific functionality
+  - Located at `D:\Src\IceSkating\Source\`
 
-Source File | Description
+There are other strings throughout the executable with class and method/function names so we can infer from the file names which functions were in each source file, however this is an estimate they may have actually been located in a different file that's path was not leaked in the exe.
+
+### BarbieCommon - Common Game Engine functionality
+You can find a list of the common source code files in the table below along with a description containing the functions that they would have contained:
+
+Source File | Function Names
 ---|---
 D:\Src\IceSkating\BarbieCommon\PC\Blitter.cpp | Blitter_Image::Draw, Blitter_Line3D::Draw, Blitter_Particle::Draw, Blitter_TriFan::Draw2D, Blitter_TriStrip::Draw, Blitter_UntexturedImage::Draw, BlitterSphere::Draw
 D:\Src\IceSkating\BarbieCommon\PC\File.cpp | 
@@ -1268,27 +1291,13 @@ D:\Src\IceSkating\BarbieCommon\Source\Str.cpp
 D:\Src\IceSkating\BarbieCommon\Source\Translation.cpp
 D:\Src\IceSkating\BarbieCommon\Source\Vector.cpp | Vector::ApplyQuaternion(), Vector::ApplyRotMatrix(), Vector::CClamp(), Vector::Cross(), Vector::InterpolateLinear(), Vector::Normalise()
 
-Include files:
-* include\DirectLight.h
-* include\ParticleSystem.h
+Also we know it contained the following include files:
+* barbiecommon\include\DirectLight.h
+* barbiecommon\include\ParticleSystem.h
 * barbiecommon\include\PtrListDL.h
 * barbiecommon\include\View.h
 
-
-### Colliection Functions
-
-The Collision functions would have been in `D:\Src\IceSkating\BarbieCommon\Source\Collision.cpp` and the functions that we know about are in the table below:
-
-Function Name | Description
----|---
-Collision_Init() | 
-Collision_AddStaticModel() | 
-Collision_Grid |
-Collision_RayCollide | 
-Collision_RayCollideDynamicModel | 
-Collision_SphereCollide | 
-
-## Barbie Source
+### Source - Specific game related functionality
 Barbie Source, the actual game code rather than the engine:
 
 Source File | Description
