@@ -3,8 +3,9 @@
 :root {
 
   --color-bold: #0085b6; /* bold/strong */
+  /* --color-link: #00a3d9; */
+  --color-link: #0085b6; /* current the same as bold */
   --color-text: #333;
-  --color-link: #00a3d9;
   --color-link-hover: #006a91;
 }
 
@@ -87,12 +88,13 @@ blockquote {
     text-decoration: underline;
 }
 
-.post p a::before {
+.post p a::before, .post li a::before {
   content: "🔗 ";
-  font-size: 0.9em;
+  font-size: 0.8em;
   opacity: 0.8;
   display: inline-block;
   text-decoration: none;
+  padding-right: 3px;
 }
 
 .post h1 {
@@ -111,7 +113,7 @@ blockquote {
 }
 
 .post h2 ~ .highlighter-rouge {
-    margin-left: 1em;
+    margin-left: 2em;
 }
 
 .post h3 {
@@ -120,12 +122,16 @@ blockquote {
 }
 
 .post h3 ~ .highlighter-rouge {
-    margin-left: 2em;
+    margin-left: 3em;
 }
 
 .post h4 {
    margin-left: 2.5em;
    margin-bottom: 5px;
+}
+
+.post h3 ~ .highlighter-rouge {
+    margin-left: 3.5em;
 }
 
 .post h5 {
@@ -187,11 +193,17 @@ blockquote {
 /* single embedded code blocks, only one backtick */
 code.language-plaintext {
   font-family: "IBM Plex Mono", monospace;
-  background: #f6f8fa;
+  font-size: 80%;
+  background: none;
   color: #0a3069;
   border-radius: 3px;
   padding: 0.1em 0.35em;
-  border: 1px solid #d0d7de;
+}
+
+code.language-plaintext:hover {
+    border: 1px solid #d0d7de;
+    background: #f6f8fa;
+    cursor: default;
 }
 
 /* largeCode only use in Turok */

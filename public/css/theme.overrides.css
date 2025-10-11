@@ -36,15 +36,17 @@ body {
 }
 /* #endregion */
 
+/* #region Cards */
+
 .card-video, .card-video .card-img {
   width: 320px;
   height: auto;
 }
 
-.card-title h4 {
+h4.card-title {
   margin-top: 0px;
 }
-
+/* #endregion Cards */
 
 
 .row p {
@@ -96,31 +98,21 @@ section {
   color: #007bff !important;
 }
 
-
-/* code blocks */
-p .language-plaintext, p .language-bash {
-/*   padding-left: 5%; We don't want the 5% as we sometimes use the code block for a couple of words */ 
-}
-
-.language-plaintext pre {
-  background-color: #333;
-  color: white;
-}
-
 /*           */
 /* Includes  */
 /*           */
 /*  Link to other post */
 .linkToOtherPost {
   display: flex;
+  clear: both;
   .widget-img img {
     height: 100px !important;
   }
 }
-
+/* 
 .linkToOtherPost blockquote:hover {
     background: #0085b60d;
-}
+} */
 
 .linkToOtherPost blockquote {
   display:flex;
