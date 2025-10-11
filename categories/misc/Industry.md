@@ -20,7 +20,7 @@ recommend:
  - industry
  - companies
  - introduction
- - sdks
+ - sdk
 updatedAt: '2025-05-19'
 tags:
   - industry

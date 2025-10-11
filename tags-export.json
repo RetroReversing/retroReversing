@@ -131,7 +131,8 @@
     "decompiling": 1,
     "tutorials": 1,
     "unity3d": 1,
-    "gdb": 2
+    "gdb": 2,
+    "windows": 1
   },
   "fileTagMap": {
     "categories/Introduction.md": [
