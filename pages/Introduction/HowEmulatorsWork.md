@@ -44,6 +44,12 @@ Normally, when we are talking about a system such as a game console or PC, they 
 
 ## What types of emulation are there?
 There are two main categories of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
+* **Low-Level Emulation (LLE)** - maximizes accuracy by simulating each hardware component including timing behaviours but is computationally expensive.
+* **High-Level Emulation (HLE)** - Detects API functions and implements an alternative using modern APIs, rather than executing each instruction of the API function calls.
+
+Some modern emulators blend both approaches to balance compatibility and performance. For example, they might use LLE for the CPU and HLE for the graphics or audio subsystems.
+
+For a deeper dive into it check out [High and low-level emulation - Emulation General Wiki](https://emulation.gametechwiki.com/index.php/High_and_low-level_emulation)
 
 ---
 # Emulating The CPU
