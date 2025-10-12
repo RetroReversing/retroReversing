@@ -223,6 +223,9 @@ Some example games that use the NE executable format are:
 
 Although a small subset of Windows 3.1x games were actually using **PE format** instead, so not all games on that list will be NE format but the vast majority will be. 
 
+There are about **1,429** unique executables in the New Executable (NE) format in the [eXoWin3x Project](https://wiki.retro-exo.com/index.php/EXOWin3x) project so if you are interested in taking a look at the format that is a greak place to start: .
+
+---
 ### How to extract information for NE executable?
 You will notice that many reverse engineering tools don't have good support for NE format executables, they may load them but the analysis is very weak and often incorrect.
 
@@ -237,7 +240,8 @@ TETRIS.EXE is an MS-DOS executable; use EXEHDR to dump it
 ```
 
 ### Are there embedded debug symbols?
-In NE format executables, there are typically no symbols in the traditional debugging sense.
+In NE format executables, there are **typically no symbols** in the traditional debugging sense.
+
 NE executables don't have a built-in debug symbol format like modern PE files (which can contain PDB references or COFF symbols). If you needed debug symbols for 16-bit Windows development, they were stored separately in a **.SYM** or **.MAP** file. 
 
 However all is not lost there are some exported functions inside the executable including both the name and module description. These map function names to ordinal numbers, which then map to entry points via the **Entry Table**
