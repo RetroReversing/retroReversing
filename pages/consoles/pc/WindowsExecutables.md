@@ -339,7 +339,7 @@ typedef struct _IMAGE_FILE_HEADER {
 } IMAGE_FILE_HEADER, *PIMAGE_FILE_HEADER;
 ```
 
-You can also find out more about the Portable Executable format on the official Windows SDK Documentation site: [PE Format - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
+You can also find out more about the Portable Executable format on the official Windows SDK Documentation site: [PE Format - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/debug/pe-format)
 
 ---
 ## DOS Compatibility
