@@ -22,6 +22,7 @@ The following are the main principles of the site and can help decide not only h
 <div class="emoji">👥</div>
 The target audience for the site are technically literate readers who likely already know how to program with modern programming languages but may be beginners when it comes to reverse engineering or programming in older languages and environments such as DOS. Bear this in mind when writing posts and try to reference any sources to back up claims. 
 
+---
 ## The Content
 The content of the site focuses on the **development process** and **technology** of video games from the **1980s** until around **2010**, with reverse engineering as a core aspect of the site, being the cornerstone of **digital archaeology**.
 
@@ -56,7 +57,7 @@ However, please provide at least a brief description of the page you are linking
 We want to avoid spreading misinformation as much as possible, which can be tricky when researching old software tools since there can be conflicting information. Please reference sources so readers can verify whether the information is correct. You may use Wikipedia as a source but only as a last resort if no other websites have the information.
 
 ---
-## Formatting Guidelines
+# Formatting Guidelines
 Posts are written in [GitHub Flavored Markdown](https://github.github.com/gfm/) but also support additional Jekyll includes that can be used for more advanced components.
 
 ## Writing Style Rules
@@ -83,29 +84,35 @@ We try to maintain consistent characters here are the main rules:
 * **Dashes** - For dashes, always use `-` and never `—` (em dash).
 * **Standards only** - Don't use characters that are not on standard keyboards. 
 
-### List Rules
+## List Rules
 <div class="emoji">🔹</div>
 
-Lists can improve readability when used appropriately but should not be overused. We mainly use unordered lists (Markdown: `*`); only use ordered lists (Markdown: `-`) if there is a specific reason to do so.
+Lists can improve readability when used appropriately but should only be used when the context makes sense.
+We mainly use unordered lists (Markdown: `*`); only use ordered lists (Markdown: `-`) if there is a specific reason to do so.
 
-We have a preferred format for lists where each list item has a short bold part followed by a dash (-) and more information:
+If using a list, we have a preferred format for lists where each list item has a short bold part followed by a dash (-) and more information:
 ```markdown
-First we have a short sentence introducing the list:
+First we always have a short sentence introducing the list:
 * **Item title in bold** - More information about the item
 ````
 
+Always have a sentence before the list explaining the list, never just have a list after a heading.
+
 However, if the list is too long (e.g. more than 10 items), use a Markdown table instead. The site supports searching within Markdown tables, which is not useful for short lists but ideal for long ones.
 
-### Table Rules
+## Table Rules
 * NEVER use excessive spacing in Markdown tables.
 * Rows in Markdown tables should not start or end with `|` as Markdown handles this automatically.
 
-### Markdown Rules
+## Markdown Rules
 Our pages tend to be broken up into different sections based on headings, headings are used for the table of contents and can be treated as distinct sections.
 
 Here are some of the markdown rules:
 * **Don't bold headings** - In Markdown, never use `**` to make the text bold in H1–H5 headings, as CSS handles this.
-* **Use HR before major sections** - Add a Markdown HR (`---`) when starting a new major section.
+* **Don't use emoji's in headings** - Don't use emojis in headings themselves
+* **Use HR before major sections** - Add a Markdown HR (`---`) when starting a new major section, such as before an H1 or H2's that are not the first subheading under a H2, same for H3 etc.
+* **No line between HR and Heading** - the next line after a HR (`---`) should be the heading itself
+* **No line between heading and first paragraph** - the next line after a heading should always be the first paragraph of the section
 * **Never use numbered lists** - Just use `*` for all unordered lists.
 * **Short inline code** - If the code is short, wrap it with backticks (e.g. `eax, 0x00`).
 * **HR before H2/H3** - Have an HR before HR/H3 but only if its not the first sub heading under a heading
@@ -113,14 +120,19 @@ Here are some of the markdown rules:
 ---
 ## Referencing Format
 <div class="emoji">📚</div>
-We use the footnote Markdown format for references. If it's a link, ensure it's a valid Markdown link so it's clickable:
+We use the footnote Markdown format for references, all references should be at the end of the page under a H1 References heading. Each reference is numbered and can be references in multiple places throughout the page using that number like so: `[^1]`. 
+
+If it's a link, ensure it's a valid Markdown link so it's clickable:
 
 ```markdown
+---
+# References
 [^1]: [Reference Name](https://...)
+[^2]: Page X of Book Y
 ```
 
 ---
-## Linking to other RetroReversing pages
+### Linking to other RetroReversing pages
 <div class="emoji">🔗</div>
 You don't need to reference posts from RetroReversing.com. Instead, just link to the relevant page using the handy include (the permalink must match the post exactly or it will not display):
 
