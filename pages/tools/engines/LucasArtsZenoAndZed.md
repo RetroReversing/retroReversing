@@ -48,6 +48,8 @@ This accellerated development of both Zeno and Zed and was praised by the LucasA
 
 On what was a former Presidio military base, the new 6 acre facility claimed to have the industries largest computer network, designed to accommodate 4K images via 300 10GB and 1,500 1GB ports. It was surrounded by 17 acres of public park including a creek and even a Yoda fountain! 
 
+![Image of Zeno office from The Complete Digital Arts Creative Handbook](https://github.com/user-attachments/assets/eb676ec2-8f21-485e-9d67-3ed4c81815c0)
+
 There is a very good reason why the move to the new premisis keeps getting mentioned in articles about Zeno and Zed, it really was the catazlyst that allowed not only knowledge to flow freely but also assets from both movies and games could be shared on the  600 miles of high speed network cable within the facility!
 
 The designer of the Zeno interface **Dennis Muren** has the following to say about the move and its impact on the Zeno pipeline: 
