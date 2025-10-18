@@ -221,12 +221,54 @@ You can use stickers to break up long sections that don't have relevant images, 
 ```
 
 ---
+## Tabs
+You can use tabs to show different variations of the same content, for example if the post has a programming example you could have the Typescript source code example in one Tab and a Python source code example in another. Don't use it to contain important post information. 
+
+This is how you use tabs:
+```html
+{% raw %}
+<div class="rr-tabs">
+  <div class="rr-tab" title="Tab 1 Title" default>
+    <div markdown="1">
+      Contents of Tab 1
+    </div>
+  </div>
+  
+  <div class="rr-tab" title="Tab 2 Title">
+    <div markdown="1">
+      Contents of Tab 2
+    </div>
+  </div>
+</div>
+{% endraw %}
+```
+
+Here is an example of what it will render:
+
+{% raw %}
+<div class="rr-tabs">
+<div class="rr-tab" title="C Code Example" default markdown="1">
+
+# Heading
+**Default** - C Code would be here
+```c
+sleep(1);
+```  
+</div>
+  
+<div class="rr-tab" title="Assembly Code" markdown="1">
+   **Assembly** code would be here
+</div>
+</div>
+{% endraw %}
+
+---
 # Technical implementation
-This section is for lower level details about how some of the features on the site work.
+This section is for lower level programming details about how some of the features on the site work.
 
 ## _includes folder
 <div class="emoji">📁</div>
-The includes folder contains useful components that can be used in posts, this section talks about the style guides for contributing to them.
+The `_includes` folder contains useful components that can be used in posts, this section talks about the style guides for contributing to them.
 
 ### Using comments
 <div class="emoji">📝</div>

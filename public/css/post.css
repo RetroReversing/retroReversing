@@ -1,7 +1,7 @@
 /* Only CSS used in Post content should go here */
+/* Don't use nesting as it doesn't work in older browsers (pre: 2023) e.g .post { a { color: blue } } */
 
 :root {
-
   --color-bold: #0085b6; /* bold/strong */
   /* --color-link: #00a3d9; */
   --color-link: #0085b6; /* current the same as bold */
@@ -26,18 +26,16 @@
 /* Phone screen overrides  */
 /*  */
 @media (max-width: 768px) {
-  .post {
-    h1 {
+    .post h1 {
       font-size: 20px;
       margin-left: unset! important;
     }
 
     /* Youtube videos should be full width on phone */
-    iframe {
+    .post iframe {
       width: 100vw !important;
       margin-left: -20px !important;
     }
-  }
 }
 
 
@@ -51,6 +49,7 @@ blockquote {
 }
 
 
+/* rr-post-markdown is used in the post content directly in html to give an image on the left */
 .rr-post-markdown {
     padding-left: 40px;
 }
@@ -65,11 +64,11 @@ blockquote {
 
 .post {
   color: var(--color-text);
+}
 
-  .post-edit-link {
-    color: var(--color-text);
-    text-decoration: underline
-  }
+.post .post-edit-link {
+  color: var(--color-text);
+  text-decoration: underline
 }
 
 .post strong {
@@ -88,13 +87,24 @@ blockquote {
     text-decoration: underline;
 }
 
-.post p a::before, .post li a::before {
+.post p a:not(.reversefootnote)::before,
+.post li a:not(.reversefootnote)::before {
   content: "🔗 ";
   font-size: 0.8em;
   opacity: 0.8;
   display: inline-block;
   text-decoration: none;
   padding-right: 3px;
+}
+
+/* Override for links inside .rr-tab (tab names should not be prefixed with 🔗) */
+.post .rr-tabs ul li a::before {
+  content: none !important;
+  font-size: unset;
+  opacity: unset;
+  display: unset;
+  text-decoration: none;
+  padding-right: unset;
 }
 
 .post h1 {
@@ -151,11 +161,11 @@ blockquote {
     margin-left: 2rem;
     display:block;
 /*   Clear both means the images won't be put on the same line as a floating element */
-  clear: both;
+    clear: both;
 /*   The next is experimental */
-  max-height: 50vh;
-  max-width: 25vw;
-  width: auto;
+    max-height: 50vh;
+    max-width: 30vw;
+    width: auto;
 }
 
 /* We don't want it to apply to certain images  */
@@ -246,6 +256,12 @@ code.language-plaintext:hover {
 }
 
 /* References */
+/* footnotes is a class that is used in the generated html from the markdown posts so you won't find it manually but it is required */
+.post .footnotes p {
+  padding: 0px;
+  margin-bottom:1px;
+}
+
 .post .footnotes ol {
   padding-left: 4%;
   margin-left: 0px;
@@ -309,9 +325,9 @@ table.dataTable {
 
 /* #endregion Tables */
 
-/* #region Section Heading enhancements */
+/* #region Section enhancements */
 
-/* Post images that float ot the left or right  */
+/* #region Post images that float ot the left or right  */
 .postImage {
   width:30vw;
   float: left;
@@ -333,6 +349,7 @@ h2 + iframe, h3 + iframe, h4 + iframe, h2 + img, h3 + img, h4 + img {
   float: left;
   margin-right: 10px;
 }
+/* #endregion */
 
 /* #region emojis for under headings */
 .emoji {
@@ -470,47 +487,45 @@ h5 + .emoji {
 /* #region Includes  */
 
 /*  #region Link to other post */
-.post {
-  .linkToOtherPost {
-    display: flex;
-    clear: both;
-  }
-
-  .linkToOtherPostRight h3 {
-    margin-left: 20px;
-    margin-top: 10px;
-  }
-  
-  .linkToOtherPost a {
-    width:100%;
-  }
-
-  .linkToOtherPost a:hover {
-       text-decoration: none !important;
-  }
-
-  .linkToOtherPostRight p {
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .linkToOtherPost blockquote:hover {
-      /* background: #0085b60d; */
-      background: #e5e5e590;
-  }
-
-  .linkToOtherPost blockquote {
-    display:flex;
-    margin-left: 5%;
-  }
-
-  .otherPostImg {
-    min-width: 200px;
-    max-height: 150px;
-    max-width: 320px;
-  }
-
+.post .linkToOtherPost {
+  display: flex;
+  clear: both;
 }
+
+.post .linkToOtherPostRight h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.post .linkToOtherPost a {
+  width: 100%;
+}
+
+.post .linkToOtherPost a:hover {
+  text-decoration: none !important;
+}
+
+.post .linkToOtherPostRight p {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post .linkToOtherPost blockquote:hover {
+  /* background: #0085b60d; */
+  background: #e5e5e590;
+}
+
+.post .linkToOtherPost blockquote {
+  display: flex;
+  margin-left: 5%;
+}
+
+.post .otherPostImg {
+  min-width: 200px;
+  max-height: 150px;
+  max-width: 320px;
+}
+
 /* #endregion Link to other post */
 /* #endregion Includes  */

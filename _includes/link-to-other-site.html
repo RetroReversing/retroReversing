@@ -4,20 +4,22 @@
 
 {% if include.url %}
 <div class="linkToOtherPost">
+  <a href="{{ include.url }}" target="_blank">
   <blockquote>
-    <a href="{{ include.url }}" target="_blank">
       <div class="widget-img">
           {% if include.image %}
             <img style="max-width:200px" class="lazy-load otherPostImg" data-image-full="{{ include.image }}" alt="">
           {% else %}
-            <img style="max-width:200px; width:100px !important" class="geopattern" data-title="{{ include.title }}" />
+            <img style="max-width:200px; width:100px !important; height:100px !important;" class="geopattern" data-title="{{ include.title }}" />
           {% endif %}
       </div>
       <div class="linkToOtherPostRight">
-        <h3><a target="_blank" href="{{ include.url }}">{{ include.title }}</a></h3> 
+        <h3>
+            {{ include.title }}
+        </h3> 
         <p>{{ include.description }}</p>
       </div>
-    </a>
-  </blockquote>
+    </blockquote>
+  </a>
 </div>
 {% endif %}
