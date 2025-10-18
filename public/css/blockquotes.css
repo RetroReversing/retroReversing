@@ -10,11 +10,21 @@ blockquote p:last-child {
 }
 
 /* Blockquote code used for links to other posts  */
-.post .link-blockquote blockquote {
+.post {
+  .linkToOtherPost blockquote {
     /* padding: .5rem 1rem;
     margin: .8rem 0; */
     color: #7a7a7a;
     border-left: .25rem solid #e5e5e5
+  }
+
+  .linkToOtherPost blockquote::before {
+    content: "" !important;
+  }
+
+  .linkToOtherPost blockquote::after {
+    display: none !important;
+  }
 }
 
 

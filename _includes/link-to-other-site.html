@@ -2,9 +2,9 @@
 <!-- To use this: include link-to-other-site.html title=Title url=https://fullLink.etc -->
 {% endcomment %}
 
-<div class="linkToOtherPost">
 {% if include.url %}
-  <blockquote class="link-blockquote">
+<div class="linkToOtherPost">
+  <blockquote>
     <a href="{{ include.url }}" target="_blank">
       <div class="widget-img">
           {% if include.image %}
@@ -14,10 +14,10 @@
           {% endif %}
       </div>
       <div class="linkToOtherPostRight">
-        <h3 style="margin-top:10px; margin-left: 10px"><a target="_blank" href="{{ include.url }}">{{ include.title }}</a></h3> 
+        <h3><a target="_blank" href="{{ include.url }}">{{ include.title }}</a></h3> 
         <p>{{ include.description }}</p>
       </div>
     </a>
   </blockquote>
-{% endif %}
 </div>
+{% endif %}

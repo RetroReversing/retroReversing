@@ -137,6 +137,21 @@ For code that could be useful to run interactively in the browser, provide the e
 Keep code examples in the standard Markdown format, using backticks with the language name to apply syntax highlighting.
 For assembly language use `nasm` to get the correct syntax highlighting.
 
+### Interactive Code
+Sandpack can be used to run react/typescript:
+```html
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesRomHeaderViewer.tsx">
+</rr-sandpack>
+```
+
+### Binary Parser
+See []../tools/n64RomViewer.html](../tools/n64RomViewer.html)
+```
+file-parse.html include
+```
+
 ---
 # Tips for making the pages more visually engaging and readable
 <div class="emoji">💡</div>

@@ -465,3 +465,52 @@ h5 + .emoji {
   list-style: none;
 }
 /* #endregion Table of contents  */
+
+
+/* #region Includes  */
+
+/*  #region Link to other post */
+.post {
+  .linkToOtherPost {
+    display: flex;
+    clear: both;
+  }
+
+  .linkToOtherPostRight h3 {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .linkToOtherPost a {
+    width:100%;
+  }
+
+  .linkToOtherPost a:hover {
+       text-decoration: none !important;
+  }
+
+  .linkToOtherPostRight p {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .linkToOtherPost blockquote:hover {
+      /* background: #0085b60d; */
+      background: #e5e5e590;
+  }
+
+  .linkToOtherPost blockquote {
+    display:flex;
+    margin-left: 5%;
+  }
+
+  .otherPostImg {
+    min-width: 200px;
+    max-height: 150px;
+    max-width: 320px;
+  }
+
+}
+/* #endregion Link to other post */
+/* #endregion Includes  */
