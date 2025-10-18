@@ -1,5 +1,6 @@
 ---
 title: Introduction to Game Engines & Middleware
+shorttitle: Game Engines & Middleware
 permalink: /games/engines
 layout: post
 console: gameengines
