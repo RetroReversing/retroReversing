@@ -89,7 +89,7 @@ You can find out more information in this excellent overview by `SmokeMonster` o
 ### MiSTer Cores written in Verilog
 If you are interested in coding in Verilog for the MiSTer then you might want to check out some of the existing projects in the link below.
 
-{% include link-to-other-site-text.html title="Mister Cores written in Verilog" url="https://github.com/MiSTer-devel?language=verilog" word1="MiSTer-devel" word2="Verilog" color1="wisteria" color2="midnight" description="Click here to view all the projects written in Verilog for the MiSTer" %}
+{% include link-to-other-site.html title="Mister Cores written in Verilog" url="https://github.com/MiSTer-devel?language=verilog" description="Click here to view all the projects written in Verilog for the MiSTer" %}
 
 
 ---
