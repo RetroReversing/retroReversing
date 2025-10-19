@@ -123,7 +123,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/2/28/Chameleon_Twist_2_cover.jpg){:width="100"} [Chameleon Twist 2](https://github.com/chameleontwistret/chameleontwist2v1.0-jp)              | Decompilation | Active, 3% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg){:width="100"} [Conker's Bad Fur Day](https://github.com/mkst/conker)              | Decompilation | Active, 4% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/8/84/Darkrift.jpg){:width="100"} [Dark Rift](https://github.com/unnunu/darkrift)              | Decompilation | Active, 59% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg){:width="100"} [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)              | Decompilation | Active, 97% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg){:width="100"} [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)              | Decompilation | Completed |
 |![](https://static.wikia.nocookie.net/starfox/images/1/1f/Dinosaur_planet_wallpaper.jpg){:width="100"} [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)              | Decompilation | Active, 13% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg){:width="100"} [Donkey Kong 64](https://gitlab.com/dk64_decomp/dk64)              | Decompilation | Active, 57% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg){:width="100"} [Doom 64](https://github.com/Erick194/DOOM64-RE)              | Decompilation | Completed |
