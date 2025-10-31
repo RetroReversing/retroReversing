@@ -23,7 +23,7 @@ tags:
 - sourcecode
 - games
 editlink: ../pages/SourceCode/DecompiledRetailConsoleGames.md
-updatedAt: '2025-10-20'
+updatedAt: '2025-10-31'
 ---
 This post contains either decompiled or disassembled source code projects for console games that were sold at retail stores.
 
@@ -122,9 +122,9 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/1/1e/Chameleon_Twist_Cover_Art.jpg){:width="100"} [Chameleon Twist](https://github.com/chameleontwistret/chameleontwistv1.0-jp)              | Decompilation | Active, 44% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/2/28/Chameleon_Twist_2_cover.jpg){:width="100"} [Chameleon Twist 2](https://github.com/chameleontwistret/chameleontwist2v1.0-jp)              | Decompilation | Active, 3% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/9/99/Conkersbfdbox.jpg){:width="100"} [Conker's Bad Fur Day](https://github.com/mkst/conker)              | Decompilation | Active, 4% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/8/84/Darkrift.jpg){:width="100"} [Dark Rift](https://github.com/unnunu/darkrift)              | Decompilation | Active, 70% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/8/84/Darkrift.jpg){:width="100"} [Dark Rift](https://github.com/unnunu/darkrift)              | Decompilation | Active, 80% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/a/a0/DKRboxart.jpg){:width="100"} [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)              | Decompilation | Active, 97% Done |
-|![](https://static.wikia.nocookie.net/starfox/images/1/1f/Dinosaur_planet_wallpaper.jpg){:width="100"} [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)              | Decompilation | Active, 18% Done |
+|![](https://static.wikia.nocookie.net/starfox/images/1/1f/Dinosaur_planet_wallpaper.jpg){:width="100"} [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)              | Decompilation | Active, 23% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/a/ae/DonkeyKong64CoverArt.jpg){:width="100"} [Donkey Kong 64](https://gitlab.com/dk64_decomp/dk64)              | Decompilation | Active, 57% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/2/2b/Doom_64_box.jpg){:width="100"} [Doom 64](https://github.com/Erick194/DOOM64-RE)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/3/39/Doraemon_Nobita_to_Mittsu_no_Seireiseki_Game_Cover.jpg){:width="100"} [Doraemon: Nobita to Mittsu no Seireiseki](https://github.com/prakxo/doraemon1)              | Decompilation | Active |
@@ -133,13 +133,13 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://static.wikia.nocookie.net/nintendo/images/9/92/N64_DukeNukem64_NA1.png/revision/latest?cb=20110703215052&path-prefix=en){:width="100"} [Duke Nukem 64](https://github.com/nblood/duke64-re)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7e/Duke_Nukem_Zero_Hour_box.jpg){:width="100"} [Duke Nukem: Zero Hour](https://github.com/gillou68310/dukenukemzerohour)              | Decompilation | Completed |
 |![](https://upload.wikimedia.org/wikipedia/en/2/21/F-Zero_X_box_art.jpg){:width="100"} [F-Zero X](https://github.com/inspectredc/fzerox)              | Decompilation | Active, 95% Done |
-|![](https://static.wikia.nocookie.net/fzero/images/6/65/JapaneseBoxArt.jpg){:width="100"} [F-Zero X Expansion Kit](https://github.com/inspectredc/fzerox-expansion-kit)              | Decompilation | Active, 95% Done |
+|![](https://static.wikia.nocookie.net/fzero/images/6/65/JapaneseBoxArt.jpg){:width="100"} [F-Zero X Expansion Kit](https://github.com/inspectredc/fzerox-expansion-kit)              | Decompilation | Active, 96% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/6/6f/Gauntlet_Legends_Coverart.png){:width="100"} [Gauntlet Legends](https://github.com/Drahsid/gauntlet-legends)              | Decompilation | Inactive |
 |![](https://static.wikia.nocookie.net/nintendo/images/c/c4/Gex_Enter_the_Gecko_%28Nintendo_64%29_%28NA%29.jpg/revision/latest?cb=20110218174255&path-prefix=en){:width="100"} [Gex 64: Enter the Gecko](https://github.com/matbourgon/gex64decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c7/Glover_Nintendo_64_cover_art.jpg){:width="100"} [Glover](https://github.com/rainchus/glover)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/5/5b/Goemonsgreatadvbox.jpg){:width="100"} [Goemon's Great Adventure](https://github.com/Fluvian/gga)              | Decompilation | Inaccessible |
 |![](https://upload.wikimedia.org/wikipedia/en/3/36/GoldenEye007box.jpg){:width="100"} [GoldenEye 007](https://github.com/n64decomp/007)              | Decompilation | Active, 71% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png){:width="100"} [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp)              | Decompilation | Active, 80% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/6/6a/Harvest_Moon_64_Coverart.png){:width="100"} [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp)              | Decompilation | Active, 86% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/1/18/Jet_Force_Gemini_%28NA%29.png/revision/latest?cb=20141029030448&path-prefix=en){:width="100"} [Jet Force Gemini](https://github.com/ryan-myers/jet-force-gemini)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/c/c1/Kirby64_box.jpg){:width="100"} [Kirby 64: The Crystal Shards](https://github.com/kirby64ret/kirby64)              | Decompilation | Active, 12% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/0/01/LEGO_Racer_%28NA%29.jpg){:width="100"} [Lego Racers](https://github.com/marijnvdwerf/lego-racers)              | Decompilation | Active |
@@ -183,10 +183,11 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
-|![](https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png){:width="100"} [Animal Crossing](https://github.com/acreteam/ac-decomp)              | Decompilation | Active, 95% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/8/82/Animal_Crossing_Coverart.png){:width="100"} [Animal Crossing](https://github.com/acreteam/ac-decomp)              | Decompilation | Active, 97% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Chibi_Robo.jpg/220px-Chibi_Robo.jpg){:width="100"} [Chibi-Robo! Plug Into Adventure!](https://github.com/eavpsp/cbr_decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/7/7c/Doshin_the_Giant.gamecover.amazon.jpg){:width="100"} [Doshin the Giant](https://github.com/break-core/doshin-gc)              | Decompilation | Active |
 |![](https://static.wikia.nocookie.net/nintendo/images/8/83/D%C5%8Dbutsu_no_Mori_e_%28GC%29_%28JP%29.jpg/revision/latest?cb=20230228004425&path-prefix=en){:width="100"} [Dōbutsu no Mori e+](https://github.com/acreteam/afe-decomp)              | Decompilation | Active |
+|![](https://static.wikia.nocookie.net/nintendo/images/c/c7/Freedom_Fighters_%28NA%29.jpg/revision/latest?cb=20160507043912){:width="100"} [Freedom Fighters](https://github.com/andresj-sanchez/frfi-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/5/59/Harvest_Moon_-_A_Wonderful_Life_Coverart.png){:width="100"} [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/49/Homeland_GC.jpg){:width="100"} [Homeland](https://github.com/bttrdrgn/homeland)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/b/ba/Karbox.jpg){:width="100"} [Kirby Air Ride](https://github.com/doldecomp/kar)              | Decompilation | Inactive |
@@ -205,11 +206,11 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://static.wikia.nocookie.net/nintendo/images/b/b6/Paper_Mario_The_Thousand_Year_Door_%28NA%29.png/revision/latest?cb=20120523040020&path-prefix=en){:width="100"} [Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd)              | Decompilation | Active, 14% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/1/13/Pikmin_cover_art.jpg){:width="100"} [Pikmin](https://github.com/projectPiki/pikmin)              | Decompilation | Active, 89% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/3/38/Pikmin_2_Case.jpg){:width="100"} [Pikmin 2](https://github.com/projectPiki/pikmin2)              | Decompilation | Active, 84% Done |
-|![](https://static.wikia.nocookie.net/nintendo/images/b/b7/Ratatouille_GC.jpg/revision/latest?cb=20190824004133&path-prefix=en){:width="100"} [Ratatouille](https://github.com/zounadecomp/ratdecomp)              | Decompilation | Active, 2% Done |
+|![](https://static.wikia.nocookie.net/nintendo/images/b/b7/Ratatouille_GC.jpg/revision/latest?cb=20190824004133&path-prefix=en){:width="100"} [Ratatouille](https://github.com/zounadecomp/ratdecomp)              | Decompilation | Active, 3% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/2/20/Skies_of_Arcadia_Legends_box.jpg/revision/latest?cb=20140709200349&path-prefix=en){:width="100"} [Skies of Arcadia Legends](https://github.com/rainchus/skiesofarcadialegends)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/it/7/7a/Sonic_Adventure_DX_Director%27s_Cut_logo.png){:width="100"} [Sonic Adventure DX](https://github.com/doldecomp/sadx)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/1/15/Sonic_Riders_Coverart.png){:width="100"} [Sonic Riders](https://github.com/doldecomp/sonicriders)              | Decompilation | Inactive |
-|![](https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg){:width="100"} [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)              | Decompilation | Active, 30% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/c/c7/BattleForBikiniBottom.jpg){:width="100"} [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)              | Decompilation | Active, 31% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/9/9c/Star_Fox_Adventures_%28NA%29.jpg/revision/latest?cb=20120404131112&path-prefix=en){:width="100"} [Star Fox Adventures](https://github.com/renakunisaki/sfadebug)              | Decompilation | Active |
 |![](https://static.wikia.nocookie.net/nintendo/images/d/d7/Summoner_A_Goddess_Reborn_%28GC%29_%28NA%29.jpg/revision/latest?cb=20251008223123&path-prefix=en){:width="100"} [Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr))              | Decompilation | Active, 5% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/b/b3/Supermariostrikersbox.jpg){:width="100"} [Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp)              | Decompilation | Active, 21% Done |
@@ -218,7 +219,7 @@ Recently, mainly in thanks to the huge success of the Super Mario 64 project, th
 |![](https://upload.wikimedia.org/wikipedia/en/7/75/Super_Smash_Bros_Melee_box_art.png){:width="100"} [Super Smash Bros. Melee](https://github.com/doldecomp/melee)              | Decompilation | Active, 28% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/0/0b/The_Incredibles_%282004_video_game%29.png){:width="100"} [The Incredibles](https://github.com/seilweiss/incredibles)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/7/79/The_Legend_of_Zelda_The_Wind_Waker.jpg){:width="100"} [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)              | Decompilation | Active, 47% Done |
-|![](https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg){:width="100"} [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)              | Decompilation | Active, 87% Done |
+|![](https://upload.wikimedia.org/wikipedia/en/0/0e/The_Legend_of_Zelda_Twilight_Princess_Game_Cover.jpg){:width="100"} [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)              | Decompilation | Active, 89% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/a/a1/The_SpongeBob_SquarePants_Movie_GameCube.jpg/revision/latest?cb=20210822125016&path-prefix=en){:width="100"} [The SpongeBob SquarePants Movie](https://github.com/bfbbdecomp/tssm)              | Decompilation | Active, 5% Done |
 |![](https://static.wikia.nocookie.net/nintendo/images/c/c9/Ty_the_Tasmanian_Tiger_Box_Art_NA.jpg/revision/latest?cb=20200406031238&path-prefix=en){:width="100"} [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)              | Decompilation | Active, 24% Done |
 
@@ -427,8 +428,11 @@ The Sega Mega Drive was Sega's most popular console in terms of games developed,
 
 ## Sega Dreamcast (DC)
 
-### Sonic Adventure
-{% include link-to-other-site.html url="https://github.com/sonicretro/sad_disasm" description="Very early disassembly of Sonic Adventure for the Dreamcast." image="https://upload.wikimedia.org/wikipedia/en/6/60/Sonic_Adventure.PNG" title="Sonic Adventure (DC) Disassembly"  %}
+### Sonic Adventure 1
+{% include link-to-other-site.html url="https://github.com/exant64/sa1dc" description="This is a decompilation of Sonic Adventure 1 for the Dreamcast." image="https://static.wikia.nocookie.net/sonic/images/6/67/Sonic_Adventure_main_art.png/revision/latest?cb=20210819015445" title="Sonic Adventure 1 Decompilation"  %}
+
+### Sonic Adventure 2
+{% include link-to-other-site.html url="https://github.com/exant64/sa2dc" description="This is a decompilation of Sonic Adventure 2 for the Dreamcast." image="https://static.wikia.nocookie.net/sonic/images/6/6b/Sonic_Adventure_2_box_artwork.png/revision/latest/scale-to-width-down/1000?cb=20171201224617" title="Sonic Adventure 2 Decompilation"  %}
 
 ### Tokyo Bus Guide
 {% include link-to-other-site.html url="https://github.com/lhsazevedo/tbg-decomp" description="This is a decompilation of Tokyo Bus Guide for the Dreamcast." image="https://coverproject.sfo2.cdn.digitaloceanspaces.com/dreamcast/dc_tokyobusguide_jp_thumb.jpg" title="Tokyo Bus Guide Decompilation"  %}
@@ -450,6 +454,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 | Name | Project Type | Status |
 | ---- | ---- | ---- |
 |![](https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg){:width="100"} [Castlevania: Symphony of the Night](https://sotn.xee.dev/)              | Decompilation | Active |
+|![](https://static.wikia.nocookie.net/chrono/images/d/d6/Chrono_Cross_cover.jpg/revision/latest?cb=20090531235113){:width="100"} [Chrono Cross](https://github.com/jdperos/chrono-cross-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png){:width="100"} [Crash Bandicoot](https://github.com/wurlyfox/c1)              | Decompilation | Active, 78% functional |
 |![](https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg){:width="100"} [Crash Bandicoot 2: Cortex Strikes Back](https://github.com/ughman/c2c)              | Decompilation | Inactive |
 |![](https://upload.wikimedia.org/wikipedia/en/4/4f/CrashTeamRacingNACover.png){:width="100"} [Crash Team Racing](https://github.com/CTR-Tools/CTR-ModSDK)              | Decompilation | Active, 73% Done |
@@ -457,6 +462,7 @@ Compared to the other systems, Sony doesn't have many decompilation projects, ma
 |![](https://upload.wikimedia.org/wikipedia/en/8/8e/Driver_2_Coverart.jpg){:width="100"} [Driver 2](https://github.com/OpenDriver2/REDRIVER2)              | Decompilation | N/A, Fully Playable on PC |
 ![](https://upload.wikimedia.org/wikipedia/en/c/c2/Final_Fantasy_VII_Box_Art.jpg){:width="100"} [Final Fantasy VII](https://github.com/xeeynamo/ff7-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/1/16/Froggercover.png){:width="100"} [Frogger: He's Back!](https://github.com/HighwayFrogs/frogger-psx)              | Decompilation | Inactive |
+|![](https://static.wikia.nocookie.net/game-pedia/images/c/c2/Kula_World_PS_I.jpg/revision/latest?cb=20110117184517){:width="100"} [Kula World](https://github.com/dezgeg/kula-world-decomp)              | Decompilation | Active |
 |![](https://upload.wikimedia.org/wikipedia/en/8/86/Legacy_Of_Kain-_Soul_Reaver_Cover.jpg){:width="100"} [Legacy of Kain: Soul Reaver](https://github.com/fmil95/soul-re)              | Decompilation | Active, 80% Done |
 |![](https://upload.wikimedia.org/wikipedia/en/3/32/Legend_of_Dragoon.jpg){:width="100"} [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)              | Decompilation | Active, 90% Done (First Disk Playable) |
 |![](https://upload.wikimedia.org/wikipedia/en/3/3f/Legend_of_Legaia_cover.jpg){:width="100"} [Legend of Legaia](https://github.com/dacodechick/legaia-decomp)              | Decompilation | Active |
