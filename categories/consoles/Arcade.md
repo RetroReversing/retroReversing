@@ -29,6 +29,7 @@ For example the 1990 game **Klax** was written in C according to **Greg Omi** wh
 This is further confirmed in a 1990 interview with original designer of Klax **Mark Stephen Pierce**[^5]:
 > "All Atari coin‑ops today are written in C ‑ that's the most popular language with the programmers here, I guess. The actual programming work is carried out on standard terminals, and then transferred into our VAX machines where it's compiled and compressed.  Finally it's downloaded from there through an EPROM burner and onto the hardware for the game that the engineer has put together. Every coin‑op's hardware is different partly because each game is different, and partly as a form of copy protection.
 
+Early arcade games didnt use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
 
 ## What tools were used to create the art for Arcade games?
 In the 1990 interview with **Mark Stephen Pierce** the following was published (in "The One" magazine) [^5]:
