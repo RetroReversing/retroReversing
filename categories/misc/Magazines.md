@@ -430,6 +430,7 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 
 Title | Country | ISSN | Notes
 ---|---|---|---
+|![2D Artist]([https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg](https://github.com/user-attachments/assets/56251087-3262-4ced-96ab-810f2556759d)){:width="100"} 2D Artist | UK | N/A (online only) |  Online magazine by UK publisher Zoo Publishing dedicated to 2D Art
 3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
 3D World | Global | |  magazine from ? and still going today
