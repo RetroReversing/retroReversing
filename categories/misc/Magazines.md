@@ -430,8 +430,8 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 
 Title | Country | ISSN | Notes
 ---|---|---|---
-|![2D Artist]([https://upload.wikimedia.org/wikipedia/en/a/a8/BalloonFightnesboxart.jpg](https://github.com/user-attachments/assets/56251087-3262-4ced-96ab-810f2556759d)){:width="100"} 2D Artist | UK | N/A (online only) |  Online magazine by UK publisher Zoo Publishing dedicated to 2D Art
-3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
+![](https://github.com/user-attachments/assets/56251087-3262-4ced-96ab-810f2556759d){:width="100"} 2D Artist | UK | N/A (online only) |  Online magazine by UK publisher Zoo Publishing dedicated to 2D Art
+![](https://github.com/user-attachments/assets/0782d956-1697-491e-87c3-dd917cd64a60){:width="100"} 3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
 3D World | Global | |  magazine from ? and still going today
 Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
@@ -444,6 +444,8 @@ Linux User & Developer | UK | | magazine that was published for 19 years and rea
 Photoshop Creative | UK | | Published until September 2018
 Web Desginer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
+
+
 
 ---
 ## 3D Design Magazine (USA) (1995-2000) (ISSN 1083-5288)
