@@ -152,6 +152,48 @@ There are a bunch of notable companies related to game hacking which not only wo
 {% include link-to-other-post.html post="/companies/codemasters" description="For more information about Codemasters check out this post." %}
 
 
+---
+# Interviews with Game Developers (by platform)
+This is a collection of known interviews with game developers who developed retail (and sometimes unlicensed) games while the console was still on the market.
+
+
+## Commodore 64
+
+Source | Developer | Games | Description
+---|---|---|---
+Retro Gamer issue 5 | Protovision | Metal Dust, Tanks 3000, Pac It | The members of Protovision discuss their work developing games for the **Commodore 64**. The interview mentions several of their games. |
+Retro Gamer issue 95 | Shaun Hollingworth | Firelord | Shaun Hollingworth worked at Teque London and developed the Commodore 64 game **Firelord**. |
+
+
+---
+## Nintendo Entertainment System (NES)
+
+Source | Developer | Games  | Description
+---|---|---|---
+Retro Gamer issue 11 | Color Dreams/Wisdom Tree | Bible Adventures |	This interview features developers from Color Dreams/Wisdom Tree, discussing their unlicensed, religious-themed NES games.
+
+---
+## Nintendo 64
+
+Source | Developer | Games | Description
+---|---|---|---
+Retro Gamer issue 9 | David Doak | GoldenEye 007 | Doak is known for his work on **GoldenEye 007** for the **Nintendo 64**. |
+
+
+---
+## Nintendo Wii
+
+Source | Developer | Games | Description
+---|---|---|---
+Retro Gamer issue 45 | Yuji Naka and Takashi Izuka | NiGHTS into Dreams, Journey of Dreams | Discuss the making of **NiGHTS into Dreams** and its sequel, **Journey of Dreams** for the **Wii** |
+
+
+---
+## Xbox consoles
+
+Source | Developer | Games | Description
+---|---|---|---
+Retro Gamer issue 39 | Developers at Rare | Jetpac Refuelled | Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade** |
 
 
 ---
