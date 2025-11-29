@@ -431,9 +431,10 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 Title | Country | ISSN | Notes
 ---|---|---|---
 ![](https://github.com/user-attachments/assets/56251087-3262-4ced-96ab-810f2556759d){:width="100"} 2D Artist | UK | N/A (online only) |  Online magazine by UK publisher Zoo Publishing dedicated to 2D Art
-![](https://github.com/user-attachments/assets/0782d956-1697-491e-87c3-dd917cd64a60){:width="100"} 3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
-3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
-3D World | Global | |  magazine from ? and still going today
+![](https://github.com/user-attachments/assets/0782d956-1697-491e-87c3-dd917cd64a60){:width="100"} 3D Artist | UK | 1759-9636 | UK magazine published by Imagine Publishing from 2009 until December 2019
+![](https://github.com/user-attachments/assets/890bf7d8-216c-4332-94d7-b8f2db79b60d){:width="100"} 3D Art Direct | UK | N/A (online only) | Online magazine all about Fantasy & SCI-FI art interviews 
+![](https://github.com/user-attachments/assets/77d1b21d-9a71-4743-852d-6b6f8e0a0a3d){:width="100"} 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
+3D World | Global | 1470-4382 | Dedicated 3D Magazine from 2000 until October 2024
 Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
 Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
@@ -444,7 +445,6 @@ Linux User & Developer | UK | | magazine that was published for 19 years and rea
 Photoshop Creative | UK | | Published until September 2018
 Web Desginer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
-
 
 
 ---
