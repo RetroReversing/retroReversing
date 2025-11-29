@@ -434,9 +434,10 @@ Title | Country | ISSN | Notes
 ![](https://github.com/user-attachments/assets/0782d956-1697-491e-87c3-dd917cd64a60){:width="100"} 3D Artist | UK | 1759-9636 | UK magazine published by Imagine Publishing from 2009 until December 2019
 ![](https://github.com/user-attachments/assets/890bf7d8-216c-4332-94d7-b8f2db79b60d){:width="100"} 3D Art Direct | UK | N/A (online only) | Online magazine all about Fantasy & SCI-FI art interviews 
 ![](https://github.com/user-attachments/assets/77d1b21d-9a71-4743-852d-6b6f8e0a0a3d){:width="100"} 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
-3D World | Global | 1470-4382 | Dedicated 3D Magazine from 2000 until October 2024
+![](https://github.com/user-attachments/assets/bdaa7182-7f30-42b3-b097-524211f155a6){:width="100"} 3D World | Global | 1470-4382 | Dedicated 3D Magazine from 2000 until October 2024
 Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
 Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
+![](https://github.com/user-attachments/assets/5115fe6e-d8e4-48b2-aad0-68edd1ce0d89){:width="100"} Computer Arts Projects | UK | | Called Computer Arts Special until issue  
 Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
 Cre@teOnline | UK | | Magazine from 2000 until ?
 Digit | UK | | magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
