@@ -11,16 +11,13 @@ breadcrumbs:
     url: /magazines
   - name: GameMaker (PC Format)
     url: #
-redirect_from:
-  - /industry-magazines
-  - /magazine
 editlink: ../pages/Industry/GameMakerMagazine.md
 recommend:
  - magazines
  - industry
  - introduction
-_image: /public/images/magazines/Develop UK Magazine.jpg
-_twitterimage: https://www.retroreversing.com/public/images/magazines/Develop UK Magazine.jpg
+_image: /public/images/magazines/GameMaker Magazine.jpg
+_twitterimage: https://www.retroreversing.com/public/images/magazines/GameMaker Magazine.jpg
 tags:
  - industry
  - magazines
