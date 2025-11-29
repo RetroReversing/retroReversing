@@ -436,17 +436,16 @@ Title | Country | ISSN | Notes
 ![](https://github.com/user-attachments/assets/77d1b21d-9a71-4743-852d-6b6f8e0a0a3d){:width="100"} 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
 ![](https://github.com/user-attachments/assets/bdaa7182-7f30-42b3-b097-524211f155a6){:width="100"} 3D World | Global | 1470-4382 | Dedicated 3D Magazine from 2000 until October 2024
 Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
-Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
+![](https://www.retroreversing.com/public/images/magazines/Computer%20Arts.jpg){:width="100"} Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
 ![](https://github.com/user-attachments/assets/5115fe6e-d8e4-48b2-aad0-68edd1ce0d89){:width="100"} Computer Arts Projects | UK | | Called Computer Arts Special until issue  
-Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
+![](https://www.retroreversing.com/public/images/magazines/Computer%20Graphics%20World.jpg){:width="100"} Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
 Cre@teOnline | UK | | Magazine from 2000 until ?
-Digit | UK | | magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
-Digital Arts | UK | | magazine
+Digit | UK | | Published by IDG and lasted 112 issues until it got renamed into Digital Arts
+Digital Arts | UK | | UK magazine published from ? until ? previously called Digital Arts
 Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
 Photoshop Creative | UK | | Published until September 2018
-Web Desginer | UK | |  magazine from 2004 until ?
+![](https://www.retroreversing.com/public/images/magazines/Web%20Designer.jpg){:width="100"} Web Desginer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
-
 
 ---
 ## 3D Design Magazine (USA) (1995-2000) (ISSN 1083-5288)
