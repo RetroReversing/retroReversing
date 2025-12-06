@@ -161,6 +161,14 @@ They are typically played with the **psmf.prx** and **libpsmfplayer.prx** module
 They are not essential to gameplay itself so they can be removed and the game usually still runs, but it may crash when trying to load the missing FMV unless the executable is patched. So its best to replace them with 0 byte files if you want to save space or skip cutscenes.
 
 ---
+# Games
+
+## PSP Games with Debug Symbols
+An excellent way to start reverse engineering is to find games where the developers accidentally left the **Debug symbols** in the retail release of the game. While this is rare due to Sony's TRC requirements, it has happened for some PSP games. These gives you access to all the original function and variables names that were used in the retail source code so are very valuable for reversers!
+
+{% include link-to-other-post.html post="/psp-debug-symbols" description="For a list of PSP games that have debug symbols available check out this post." %}
+
+---
 # Reverse Engineering PSP Games with Ghidra
 
 First step is to find your **BOOT.BIN** file, normally in the **PSP_GAME/SYSDIR** folder of the extracted game ISO. If you only have an EBOOT.BIN file you will need to convert it to a BOOT.BIN with a tool such as **PRXDecrypter**.
