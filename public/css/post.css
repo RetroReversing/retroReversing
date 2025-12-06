@@ -333,6 +333,7 @@ table.dataTable {
   float: left;
   margin-right: 10px;
   margin-left: unset !important;
+  clear: right !important;
 }
 
 .postImageRight {
