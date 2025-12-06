@@ -100,7 +100,7 @@ You can read the full release notes thanks to the Wayback Machine:
 ### Blob Shadows
 <img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/6a3315ca-90a1-43ba-9e4c-984954776144" />
 
- Another new feature was *blob shadows* [^5]. This is a technique for inexpensive dynamic shadows – essentially a projected texture under a character to simulate a shadow. Blob shadows provided a performance-friendly way to have characters cast shadows before Unity had full real-time shadow mapping. This technique was used in the GooBall commerical game [^16].
+ Another new feature was *blob shadows* [^5]. This is a technique for inexpensive dynamic shadows – essentially a projected texture under a character to simulate a shadow. Blob shadows provided a performance-friendly way to have characters cast shadows before Unity had full real-time shadow mapping. This technique was used in the GooBall commercial game [^16].
 
 ### Physics and Animation - New Ragdoll Wizard
 <img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/ba551756-c499-4e03-93ff-0827c86bba20" />
