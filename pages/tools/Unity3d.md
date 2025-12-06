@@ -54,9 +54,13 @@ Strictly speaking, GooBall was a commercial game developed by Unity's founders (
 
 ---
 ## Unity 1.1 (August 2005) – Windows Publishing & Extensibility
+<img width="400" height="293" alt="image" src="https://github.com/user-attachments/assets/608c3390-dfb3-4b75-b67a-9f46c1d19dc9" />
+
 Released just a couple of months after 1.0, Unity 1.1 was a major update aimed at "democratizing" game deployment beyond the Mac:
 
 ### Windows Standalone Support
+<img width="769" height="314" alt="image" src="https://github.com/user-attachments/assets/b9880148-e7dd-4de6-a584-deabfdb446fd" />
+
  For the first time, developers could deploy Unity games to Windows PCs with a single click [^2]. This opened up the much larger Windows audience. (Notably, this feature was part of Unity “Pro” – the paid tier – along with other high-end features.)
 
 ### Rendering and Graphics
@@ -68,17 +72,15 @@ Introduced several “next-gen” rendering capabilities:
   - It introduced **better handling of large game projects** – the editor and engine were optimized so that even arbitrarily large scenes or games could be edited and tested entirely within Unity without splitting into external tools [^2]. This involved memory and performance tweaks enabling more complex scenes.
   - The PhysX integration was refined (e.g., stability fixes and possibly initial support for ragdoll creation, though full ragdoll wizards came slightly later).
 
-### Networking/Networking API
+### Networking/Networking API for fetching Data
  Unity 1.1 added an **Asynchronous WWW API** for internet access [^2]. This gave developers a simple way to fetch data from web servers (for example, to pull down asset bundles or high score tables) without blocking the game. 
  While full multiplayer networking would only arrive in Unity 2.0, the addition of `WWW` classes in 1.1 was important for online features.
 
 ### Extensibility – Plugin SDK
  A major addition was the introduction of a **C/C++ Plugin SDK** for Unity [^2] [^1]. This allowed developers to write native code plugins that could be called from Unity scripts. Through this, Unity games could interface with any hardware or libraries not supported out-of-the-box – a critical extension point for advanced developers (e.g., for VR hardware, custom device input, etc.).
 
-### Editor/UI Improvements
- Unity 1.1 improved overall usability and documentation:
-  - The **Unity Editor’s workflow** for large projects was enhanced (as noted above), which implicitly improved the UI responsiveness when dealing with many assets or big scenes.
-  - Documentation saw a boost – a new “30-page scripting tutorial” was included to help newcomers learn Unity’s API, and the manual/examples were greatly expanded [^2]. This was an important usability improvement for developer onboarding.
+### Documentation Improvements
+Documentation saw a boost – a new "30-page scripting tutorial" was included to help newcomers learn Unity’s API, and the manual/examples were greatly expanded [^2]. This was an important usability improvement for developer onboarding.
 
 
 ---
