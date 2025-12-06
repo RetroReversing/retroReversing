@@ -2,8 +2,7 @@
 layout: post
 tags:
   - pc
-  - port
-  - msdos
+  - dos
 title: Porting Retro City Rampage to MS-DOS From PS4 to 1.44MB Floppy
 image: https://img.youtube.com/vi/kSKeWH4TY9Y/0.jpg
 videocarousel:
@@ -19,7 +18,9 @@ breadcrumbs:
     url: /pc
   - name: Porting Retro City Rampage to MS-DOS From PS4 to 1.44MB Floppy
     url: #
-recommend: pc
+recommend: 
+- pc
+- dos
 editlink: /consoles/pc/RetroCityRampage.md
 updatedAt: '2020-06-27'
 ---

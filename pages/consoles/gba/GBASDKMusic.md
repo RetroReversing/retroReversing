@@ -3,7 +3,6 @@ layout: post
 tags: 
 - gba
 - sdk
-- sound
 title: M4A Music Library for Game Boy Advance (GBA)
 thumbnail: /public/consoles/Nintendo Game Boy Advance.png
 image: /public/images/gba/Game Boy Advance SDK M4A.jpg

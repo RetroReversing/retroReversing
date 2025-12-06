@@ -5,8 +5,12 @@ permalink: /writing-nes-games/
 image: https://i3.ytimg.com/vi/kXbMCKMJXXQ/hqdefault.jpg
 tags:
 - nes
-- programming
-recommend: nes
+- introduction
+- assembly
+recommend: 
+- nes
+- introduction
+- assembly
 youtube: kXbMCKMJXXQ
 editlink: /consoles/pages/nes/WritingNESGamesWithAssembly.md
 ---

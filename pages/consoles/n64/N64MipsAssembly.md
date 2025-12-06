@@ -2,9 +2,8 @@
 layout: post
 tags: 
 - n64
-- tutorial
 - assembly
-- mips
+- tutorial
 title: N64 MIPS Assembly Video Tutorials
 youtube: "m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA"
 image: /public/N64/N64LearnMIPSAssemblyLanguage.jpg
@@ -17,7 +16,10 @@ breadcrumbs:
     url: /n64
   - name: N64 MIPS Assembly Video Tutorials
     url: #
-recommend: n64
+recommend: 
+- n64
+- assembly
+- tutorial
 editlink: /consoles/n64/N64MipsAssembly.md
 ---
 

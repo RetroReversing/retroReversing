@@ -2,16 +2,17 @@
 layout: post
 tags: 
 - 2d
-- graphics
 title: 2D Graphics Techniques
 thumbnail: /public/images/RetroReversingLogoSmall.png
 permalink: /2d-graphics
 breadcrumbs:
   - name: Home
     url: /
+redirect_from:
+ - /2d
 recommend: 
+  - 2d
   - introduction
-  - graphics
 editlink: /pages/SourceCode/graphics/Awesome2DTechniques.md
 ---
 

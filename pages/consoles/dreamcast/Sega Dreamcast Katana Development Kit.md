@@ -2,7 +2,6 @@
 layout: post
 tags: 
 - dreamcast
-- dc
 - hardware
 - devkit
 - sega
@@ -14,7 +13,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Sega Dreamcast
-    url: /dc
+    url: /dreamcast
   - name: Sega Dreamcast Katana Development Kit
     url: #
 videocarousel:

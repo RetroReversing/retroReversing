@@ -15,6 +15,8 @@ breadcrumbs:
     url: /wii
   - name: iQue Gamecube Leak (BB2)
     url: #
+redirect_from:
+ - /ique
 recommend: 
 - gamecube
 - sdk

@@ -3,7 +3,9 @@ layout: post
 permalink: /companies/crossproducts/
 console: crossproducts
 tags:
+ - companies
  - industry
+ - crossproducts
 recommend: 
  - industry
  - crossproducts

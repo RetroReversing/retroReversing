@@ -4,7 +4,7 @@ tags:
 - wii
 - sdk
 - leak
-- gc
+- gamecube
 title: Nintendo Wii Diagnostic Disc Source Code
 thumbnail: /public/consoles/Nintendo Wii.png
 image: /public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
@@ -20,6 +20,7 @@ breadcrumbs:
 recommend: 
 - wii
 - sdk
+- gamecube
 editlink: /consoles/wii/WiiDiagnosticDisc.md
 ---
 In the Nintendo leak on 20th July 2021 an archive called **DIAG4RVL.7z** was released to the internet, this archive contains a CVS repository containing  3 different software development kits for the Wii (codename Revolution).

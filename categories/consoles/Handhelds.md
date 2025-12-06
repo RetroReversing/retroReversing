@@ -17,7 +17,7 @@ breadcrumbs:
     url: #
 recommend: 
 - gba
-- gbc
+- gameboy
 - gamecom
 - gamegear
 recommendTitle: All Handheld Posts
@@ -25,7 +25,7 @@ editlink: ../categories/consoles/Handhelds.md
 updatedAt_: '2024-05-05'
 tags:
   - gba
-  - gbc
+  - gameboy
   - gamecom
   - gamegear
   - handhelds

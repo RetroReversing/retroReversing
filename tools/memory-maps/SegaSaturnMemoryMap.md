@@ -2,13 +2,14 @@
 layout: post
 tags: 
 - tools
-- segasaturn
 - saturn
 - memorymap
 title: Sega Saturn Memory Map
 image: /public/images/saturn/Sega Saturn Memory Map.jpg
 permalink: /segaSaturnMemoryMap
-recommend: segasaturn
+recommend: 
+- saturn
+- tools
 editlink: ../tools/memory-maps/SegaSaturnMemoryMap.html
 ---
 

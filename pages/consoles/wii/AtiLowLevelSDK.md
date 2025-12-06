@@ -4,7 +4,7 @@ tags:
 - wii
 - sdk
 - leak
-- gc
+- gamecube
 title: ATI Low Level Wii SDK
 thumbnail: /public/consoles/Nintendo Wii.png
 image: /public/images/wii/ATI Low Level Wii SDK.jpg
@@ -20,7 +20,7 @@ breadcrumbs:
 recommend: 
 - wii
 - sdk
-- gc
+- gamecube
 editlink: /consoles/wii/AtiLowLevelSDK.md
 updatedAt: '2021-07-26'
 ---

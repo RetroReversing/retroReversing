@@ -3,7 +3,6 @@ layout: post
 tags: 
 - gba
 - sdk
-- demos
 title: Game Boy Advance SDK Demos
 thumbnail: /public/consoles/Nintendo Game Boy Advance.png
 image: /public/images/gba/Game Boy Advance SDK Demos.jpg
@@ -26,6 +25,7 @@ videocarousel:
 recommend: 
 - sdk
 - gba
+- introduction
 editlink: /consoles/gba/GBASDKDemos.md
 updatedAt: '2021-03-28'
 ---

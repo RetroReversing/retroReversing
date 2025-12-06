@@ -261,6 +261,8 @@ The original Xbox was a joy to program for, especially for PC developers who wer
 ### Rogue Legacy 1
 {% include link-to-other-site.html url="https://github.com/flibitijibibo/RogueLegacy1/" description="This is the source code for Rogue Legacy - more specifically, it is only the code, and only the FNA build. The assets and contentproj are not included." image="https://upload.wikimedia.org/wikipedia/en/e/ef/Rogue_Legacy_cover_art.jpg" title="Rogue Legacy 1"  %}
 
+### Postal 1
+You can get the official source code for the first Postal <a href="https://bitbucket.org/gopostal/postal-1-open-source/downloads/">Here</a>
 
 ---
 # References

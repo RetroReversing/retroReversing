@@ -6,8 +6,6 @@ tags:
 - debug
 - reverseengineering
 - games
-- projects
-- idtech3
 title: 007 Agent Under Fire for Nintendo Gamecube Reverse Engineering
 image: /public/images/gamecube/007 Agent Under Fire.jpg
 thumbnail: /public/consoles/Nintendo Gamecube.png

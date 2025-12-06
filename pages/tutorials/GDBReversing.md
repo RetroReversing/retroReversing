@@ -12,6 +12,8 @@ breadcrumbs:
     url: /tutorials
   - name:  Reverse Engineering with GDB
     url: #
+redirect_from:
+ - /gdb
 recommend: 
 - introduction
 - tutorial

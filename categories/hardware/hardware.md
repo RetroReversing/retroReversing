@@ -1,7 +1,8 @@
 ---
 permalink: /hardware/
-layout: blog-cards
+layout: post
 console: hardware
+title: Game Console Hardware
 breadcrumbs:
   - name: Home
     url: /
@@ -9,5 +10,9 @@ breadcrumbs:
     url: /hardware
 redirect_from:
   - /hardware
+  - /cpu
+recommend:
+- hardware
 ---
+
 {% include console.html %}

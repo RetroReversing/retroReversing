@@ -4,7 +4,7 @@ tags:
 - devkit
 - hardware
 - gamegear
-- sms
+- mastersystem
 - sega
 title: Krisalis Development Kit (Sega Master System/Game Gear)
 thumbnail: /public/consoles/Sega Game Gear.png
@@ -17,7 +17,10 @@ breadcrumbs:
     url: /devkit
   - name: Krisalis Development Kit (Sega Master System/Game Gear)
     url: #
-recommend: devkit
+recommend: 
+ - devkit
+ - mastersystem
+ - sega
 editlink: /consoles/gamegear/Krisalis-Development-Kit-(Sega).md
 ---
 

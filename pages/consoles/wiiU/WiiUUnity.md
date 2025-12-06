@@ -3,7 +3,7 @@ layout: post
 tags: 
 - wiiU
 - gameengines
-- unity
+- unity3d
 title: Unity Game Engine Games on wiiU eShop
 image:  /public/wiiU/WiiU_UnityEngine.jpg
 thumbnail: /public/consoles/Nintendo WiiU.png
@@ -18,7 +18,7 @@ breadcrumbs:
 recommend: 
   - wiiU
   - gameengines
-  - unity
+  - unity3d
 editlink: /consoles/wiiU/WiiUUnity.md
 ---
 

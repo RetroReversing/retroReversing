@@ -2,8 +2,6 @@
 layout: post
 tags: 
 - psp
-- beta
-- prototype
 - games
 title: PSP Saints Row Undercover Officially Released Prototype
 thumbnail: /public/consoles/Sony PSP.png
@@ -16,7 +14,10 @@ breadcrumbs:
     url: /psp
   - name: Saints Row Undercover Officially Released PSP Prototype
     url: #
-recommend: psp
+recommend: 
+- psp
+- games
+- introduction
 editlink: /consoles/psp/PSPSaintsRowUndercover.md
 videocarousel:
   - title: Inside Volition Saints Row Undercover

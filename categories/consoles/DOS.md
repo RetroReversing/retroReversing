@@ -7,6 +7,8 @@ editlink: ../categories/consoles/DOS.md
 console: 'dos'
 consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of DOS Game Development and Reverse Engineering information
+redirect_from:
+ - /msdos
 breadcrumbs:
   - name: Home
     url: /

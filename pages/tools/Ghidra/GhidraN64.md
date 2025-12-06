@@ -5,7 +5,6 @@ tags:
 - tutorial
 - n64
 - ghidra
-- decompiling
 title: N64 Decompiling with Ghidra
 thumbnail: /public/consoles/Nintendo 64.png
 image: https://i.ytimg.com/vi/3d3a39LuCwc/hqdefault.jpg

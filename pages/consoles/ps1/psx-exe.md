@@ -3,7 +3,7 @@ layout: post
 tags: 
 - ps1
 - sdk
-- fileformat
+- fileformats
 title: PSX-EXE Format
 thumbnail: /public/consoles/Sony Playstation.png
 image: /public/psx-exe.png
@@ -15,7 +15,9 @@ breadcrumbs:
     url: /ps1
   - name: PS1 Executable Binary Format
     url: #
-recommend: ps1
+recommend: 
+- ps1
+- fileformats
 editlink: /consoles/ps1/psx-exe.md
 ---
 

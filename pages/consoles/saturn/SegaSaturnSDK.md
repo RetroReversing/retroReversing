@@ -1,9 +1,8 @@
 ---
 layout: post
 tags:
-- sdk
-- segasaturn
 - saturn
+- sdk
 - sega
 title: Official Sega Saturn Software Development Kit (SDK)
 thumbnail: /public/consoles/Sega Saturn.png

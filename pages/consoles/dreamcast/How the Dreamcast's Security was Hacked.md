@@ -2,9 +2,8 @@
 layout: post
 tags: 
 - dreamcast
-- dc
 - hardware
-- security
+- cracking
 - sega
 title: How the Dreamcast's Security was Hacked (MIL-CD)
 thumbnail: /public/consoles/Sega Dreamcast.png
@@ -15,7 +14,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Sega Dreamcast
-    url: /dc
+    url: /dreamcast
   - name: How the Dreamcast's Security was Hacked (MIL-CD)
     url: #
 videocarousel:
