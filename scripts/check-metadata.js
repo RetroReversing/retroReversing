@@ -8,8 +8,10 @@ const { scanDirectories, readMarkdownFile } = require('./markdown-utils');
  * Example: node check-metadata.js editlink updatedAt
  */
 
+const DEFAULT_FIELDS = ['editlink', 'tags', 'permalink', 'layout', 'title'];
+
 class MarkdownMetadataChecker {
-    constructor(fieldsToCheck = ['editlink', 'updatedAt']) {
+    constructor(fieldsToCheck = DEFAULT_FIELDS) {
         this.fieldsToCheck = fieldsToCheck;
         this.results = {};
         this.processedFiles = 0;
@@ -105,7 +107,7 @@ class MarkdownMetadataChecker {
 // Main execution
 function main() {
     const args = process.argv.slice(2);
-    const fieldsToCheck = args.length > 0 ? args : ['editlink', 'updatedAt'];
+    const fieldsToCheck = args.length > 0 ? args : DEFAULT_FIELDS;
     
     console.log('Markdown Metadata Checker');
     console.log('========================');

@@ -155,14 +155,24 @@ Maya 3.5 on Mac effectively broadened Maya's user base, although in the long run
 
 Many influential games from the late 1990s and 2000s utilized Maya (or its predecessor PowerAnimator) in their development, the table below highlights a few notable examples of retro games and evidence of Maya's use in their creation:
 
-Game |	Developer |	Proof of Maya Usage
----|---|---
-MADDEN NFL 2001 | EA | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
-SSX: SNOWBOARD SUPERCROSS | EA | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
-TEKKEN TAG TOURNAMENT | Namco | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
+Game | Developer | Console | Proof of Maya Usage
+---|---|---|---
+MADDEN NFL 2001 | EA | PS2 | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
+SSX: SNOWBOARD SUPERCROSS | EA | PS2 | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
+TEKKEN TAG TOURNAMENT | Namco | PS2 | [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
+Heavenly Sword | Sony Cambridge Studios, Ninja Theory | PS3 | [SONY GAMES - Heavenly Sword with Autodesk Maya and MotionBuilder.flv - YouTube](https://www.youtube.com/watch?v=PrH3bdWPk9Y)
+
+## Heavenly Sword (2007)
+The PS3 game **Heavenly Sword** was featured in the November 2007 issue of 3D World magazine where it mentions Maya was used with a screenshot of what appears to be a Maya (2008?) interface [^4]:
+<img width="1045" height="940" alt="image" src="https://github.com/user-attachments/assets/5ca1f513-ff07-44bb-b50d-0f4622629322" />
+
+Autodesk also produced a marketing video where they show off the use of Maya in Sony Cambridge Studios while they were working on Heavenly Sword where they mention using Maya 2008 directly [^5]:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PrH3bdWPk9Y?si=rr7F_WZtXqHGN17f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 # References
 [^1]: [Maya 1.0 Qualification](https://download.autodesk.com/us/maya/qualcharts/maya_1_0.html?_gl=1*vnod1b*_ga*MTg4NzY1ODQ5MS4xNzU2NjQ5MzYx*_ga_NZSJ72N6RX*czE3NTY2NDkzNjEkbzEkZzEkdDE3NTY2NDkzNjEkajYwJGwwJGgw&_ga=2.174041635.1644627704.1756649362-1887658491.1756649361)
 [^2]: [Maya Used In Top 4 PlayStation 2 Titles - Animation World Network](https://www.awn.com/news/maya-used-top-4-playstation-2-titles)
 [^3]: [8.3 Alias Research – Computer Graphics and Computer Animation: A Retrospective Overview](https://ohiostate.pressbooks.pub/graphicshistory/chapter/8-3-alias-research/)
+[^4]: 3D World magazine Issue 96 from November 2007
+[^5]: [SONY GAMES - Heavenly Sword with Autodesk Maya and MotionBuilder.flv - YouTube](https://www.youtube.com/watch?v=PrH3bdWPk9Y)

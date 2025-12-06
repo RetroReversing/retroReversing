@@ -1,0 +1,28 @@
+---
+dictionaries:
+  - en
+  - en_GB
+
+# Any files/folders we should ignore?
+excluded_files:
+  - ".gitignore"
+  - "vendor/**/*"
+  - "node_modules/**/*"
+  - "public/**/*"
+  - "*.js.map"
+  - "*.json"
+  - "*.yml"
+  - "*.lock"
+  - ".typo-ci.yml"
+  - ".github/**/*"
+
+# Any words we should ignore?
+excluded_words:
+  - typoci
+  - NES
+  - Famicom
+  - Enix
+  - Namco
+
+# Would you like filenames to also be spellchecked?
+spellcheck_filenames: true
