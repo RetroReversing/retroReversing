@@ -69,7 +69,7 @@ Both systems typically include:
 * Handle errors inside their own virtual environment
 
 ### Differences between Emulators and Programming Language Interpreters
-Instead of interpreting source code an emulator operates on compiled (assembled) machine code intructions which are in a binary form.
+Instead of interpreting source code an emulator operates on compiled (assembled) machine code instructions which are in a binary form.
 
 Emulators must also model registers, memory buses, I/O devices, and the timing between these components, which has no analogue in most high level interpreters.
 
