@@ -104,7 +104,7 @@ Unity 1.6 was the last major update of the 1.x series, arriving just before Unit
 - **Performance and Usability:** Unity 1.6 brought **better performance optimizations** and editor usability tweaks:
   - The phrase “increased power, better usability” was used in the release notes [^7]. The engine was refined for speed – one example being more efficient web player download size or performance. It also likely optimized asset loading and memory use, given the push toward larger projects.
   - Usability improvements might have included Editor UI refinements in response to user feedback (e.g., more stable manipulation of objects, nicer gizmos, etc.). Although not a UI overhaul, 1.6 would smooth rough edges as the last 1.x version.
-- **Networking and Online:** While full networking was slated for 2.0, Unity 1.6.1 (a patch in early 2007) was dubbed “A Better Online Gaming Experience” – it improved on the foundation from 1.6. This suggests Unity 1.6 introduced groundwork for networking or online play improvements. For example, 1.6 may have improved latency/traffic handling for the web player or added features like automatic proxy detection for web builds. Essentially, Unity 1.6 targeted making web-deployed games more seamless for end users (important for adoption in the casual games boom of the time).
+- **Networking and Online:** While full networking was slated for 2.0, Unity 1.6.1 (a patch in early 2007) was dubbed "A Better Online Gaming Experience" – it improved on the foundation from 1.6. This suggests Unity 1.6 introduced groundwork for networking or online play improvements. For example, 1.6 may have improved latency/traffic handling for the web player or added features like automatic proxy detection for web builds. Essentially, Unity 1.6 targeted making web-deployed games more seamless for end users (important for adoption in the casual games boom of the time).
 - **Final 1.x Feature Set:** By 1.6, Unity’s engine featured:
   - Physics with character controllers, ragdolls, and vehicle support (fully leveraging PhysX 2.x capabilities).
   - A reliable graphics pipeline with support for multiple lights, basic shadows (blob shadows), lightmaps, and an array of shader effects.
@@ -114,6 +114,66 @@ Unity 1.6 was the last major update of the 1.x series, arriving just before Unit
 - **Legacy and Transition:** Unity 1.6 was offered with the promise that anyone who bought Unity 1.6 would get a free upgrade to the forthcoming Unity 2.0 [^7].
 
 It effectively wrapped up the 1.x line by adding the last set of “nice-to-have” features so that the engine was quite complete for its era. This ensured developers could comfortably finish projects on 1.x or smoothly transition to 2.0. In fact, some aspects of 1.6 (like the web integration and updated Mono runtime) were crucial stepping stones for the big 2.0 release which introduced things like a full terrain engine, real-time shadows, and a Windows version of the Editor.
+
+---
+# Unity 2.x Historical Overview (versions 2.0 - 2.6)
+
+## Unity 2.0 (2007)
+Unity 2.0 was released on the 10th October 2007 [^11] and claimed to have 50 new features including the introduction of **Web Player Streaming** and networked multiplayer support (UDP) [^12].
+
+For a full list of new features you can view the original 2007 site on the Wayback Machine:
+[What's new in Unity 2.0](https://web.archive.org/web/20071012120650/http://unity3d.com/unity/whats-new/unity-2.0)
+
+## Unity 2.1 (2008)
+Unity 2.1 was released on the 24th July 2008 [^11] which introduced features tailored to MMO games development such as **streaming asset bundles** and streaming terrains [^13].
+
+For a full list of new features you can view the original website thanks to the Wayback Machine:
+[UNITY: What's New in Unity 2.1](https://web.archive.org/web/20080730145031/http://unity3d.com/unity/whats-new/unity-2.1)
+
+## Unity 2.5 (2009)
+Unity 2.5 was released on the 18th March 2009 [^11] which introduced features such as a fully Windows-native editor, an overhauled interface with multi-window docking, improved asset workflow tools, and expanded API capabilities [^14].
+
+For a full list of new features you can view the original website thanks to the Wayback Machine:
+[UNITY: What's New in Unity 2.5](https://web.archive.org/web/20090327030530/http://unity3d.com/unity/whats-new/unity-2.5)
+
+## Unity 2.6 (2009)
+Unity 2.6 was released on the 28th October 2009 [^11] which improved build size optimization, enhanced import pipeline for assets (better mesh and texture handling), and more robust stability/performance improvements to the engine [^15].
+
+For a full list of new features you can view the original website thanks to the Wayback Machine:
+[UNITY: What's New in Unity 2.6](https://web.archive.org/web/20100102003726/http://unity3d.com/unity/whats-new/unity-2.6)
+
+---
+# Unity 3.x Historical Overview (versions 3.0 - 3.5)
+
+## Unity 3.0.0 (2010)
+Unity 3.0.0 was released on the 27th September 2010 [^11].
+
+## Unity 3.2.0 (2011)
+Unity 3.2.0 was released on the 10th February 2011 [^11].
+
+## Unity 3.3.0 (2011)
+Unity 3.3.0 was released on the 1st March 2011 [^11].
+
+## Unity 3.4.0 (2011)
+Unity 3.4.0 was released on the 26th July 2011 [^11].
+
+## Unity 3.5.0 (2012)
+Unity 3.5.0 was released on the 14th February 2012 [^11].
+
+---
+# Unity 4.x Historical Overview (versions 4.0.0 - 4.3.0)
+
+## Unity 4.0.0 (2012)
+Unity 4.0.0 was released on the 14th November 2012 [^11].
+
+## Unity 4.1.0 (2013)
+Unity 4.1.0 was released on the 14th March 2013 [^11].
+
+## Unity 4.2.0 (2013)
+Unity 4.2.0 was released on the 22nd July 2013 [^11].
+
+## Unity 4.3.0 (2013)
+Unity 4.3.0 was released on the 6th September 2013 [^11].
 
 ---
 ## References
@@ -127,3 +187,8 @@ It effectively wrapped up the 1.x line by adding the last set of “nice-to-have
 [^8]: [Unity 1.6 - Geero.net](https://www.geero.net/tag/unity/)
 [^9]: [Unity game engine adds new grass and tree effects - Macworld](https://www.macworld.com/article/181782/unity-11.html#:~:text=Unity%20can%20be%20used%20to,character%20animation%20and%20ragdoll%20physics)
 [^10]: [Unity 1.0.4 game engine released - Macworld](https://www.macworld.com/article/176326/unity-2.html#:~:text=Since%20Unity%201,there%E2%80%99s%20no%20need%20to%20update)
+[^11]: [Unity - Manual: Editor Version Release Dates](https://docs.unity3d.com/462/Documentation/Manual/ReleaseDates.html)
+[^12]: [Unity 2.0 game engine now available - Macworld](https://www.macworld.com/article/187693/unity-18.html)
+[^13]: [UNITY: What's New in Unity 2.1](https://web.archive.org/web/20080730145031/http://unity3d.com/unity/whats-new/unity-2.1)
+[^14]: [UNITY: What's New in Unity 2.5](https://web.archive.org/web/20090327030530/http://unity3d.com/unity/whats-new/unity-2.5)
+[^15]: [UNITY: What's New in Unity 2.6](https://web.archive.org/web/20100102003726/http://unity3d.com/unity/whats-new/unity-2.6)
