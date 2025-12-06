@@ -89,23 +89,25 @@ Documentation saw a boost – a new "30-page scripting tutorial" was included to
 ## Unity 1.2 (December 2005) – Graphics Enhancements & Stability
 Unity 1.2 arrived at the end of 2005, bringing a host of roughly "10 big new features" that further matured the engine’s graphics and usability.
 
+You can read the full release notes thanks to the Wayback Machine:
+[UNITY: Version History 1.2](https://web.archive.org/web/20060619181621/http://unity3d.com/whatsnew-1.2.html)
+
 ### Full-Screen Post-Processing Effects
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/0f217b69-9970-4cf9-9130-c9bfd121e733" />
+
  Notably, Unity 1.2 introduced **full-screen motion blur** as a built-in effect [^5]. This allowed developers to enable motion blur on the camera, enhancing the visual fidelity for fast-moving scenes. It was one of Unity’s first built-in post-processing effects, utilizing the render-to-texture infrastructure.
 
 ### Blob Shadows
- Another new feature was *blob shadows* [^5]. This is a technique for inexpensive dynamic shadows – essentially a projected texture under a character to simulate a shadow. Blob shadows provided a performance-friendly way to have characters cast shadows before Unity had full real-time shadow mapping. It was especially useful for older hardware or simple projects.
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/6a3315ca-90a1-43ba-9e4c-984954776144" />
 
-### Other Rendering Updates
- In addition to the above, Unity 1.2 likely expanded shader support and rendering options (though not explicitly named in press materials). Developers gained more control over materials and effects. For example, if not already present, **normal mapping** and better specular shading support were solidified in this era, making Unity more competitive in rendering quality for 2005 standards.
+ Another new feature was *blob shadows* [^5]. This is a technique for inexpensive dynamic shadows – essentially a projected texture under a character to simulate a shadow. Blob shadows provided a performance-friendly way to have characters cast shadows before Unity had full real-time shadow mapping. This technique was used in the GooBall commerical game [^16].
 
-### Physics and Animation
- Unity 1.2 continued improving physics stability. It also laid groundwork for better animation features (though the major overhaul came in 1.5). It’s around this time that features like a built-in **ragdoll construction wizard** might have been introduced, leveraging PhysX to create ragdoll joints easily (this is inferred since by 1.5–1.6 ragdoll and skinned animation features are mentioned as existing).
+### Physics and Animation - New Ragdoll Wizard
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/ba551756-c499-4e03-93ff-0827c86bba20" />
 
-### Editor/Workflow
-Focus in 1.2 was also on robustness:
-  - The editor became **more stable** and **extensible**. The release was described as “more extensible” than before [^5], which may refer to improvements in the newly added plugin API from 1.1 or perhaps internal editor extension points.
-  - Usability refinements: small editor UI improvements and bug fixes (for instance, fixes for widget deployment and browser issues were rolled into 1.0.3/1.0.4 updates prior to 1.2 [^10], and 1.2 continued in this vein).
-  - By now, Unity’s documentation and examples were growing, making the learning curve easier for new developers.
+ Unity 1.2 laid groundwork for better animation features (though the major overhaul came in 1.5). The built-in **ragdoll construction wizard** was introduced, leveraging PhysX to create ragdoll joints easily [^16].
+
+It added two new joint-types: a spring-joint, and a specialized character-joint which is especially useful for simulating limbs, along with several Physics Materials: Bouncy, Wood, Ice, Rubber and Metal. Finally the new 1st Person Controller uses a new collision system which is specialized for character-based gameplay.
 
 ---
 ## Unity 1.5 (June 2006) – Major Upgrade (Intel Mac Support, New Animation System)
@@ -278,3 +280,4 @@ Unity 4.3.0 was released on the 6th September 2013 [^11].
 [^13]: [UNITY: What's New in Unity 2.1](https://web.archive.org/web/20080730145031/http://unity3d.com/unity/whats-new/unity-2.1)
 [^14]: [UNITY: What's New in Unity 2.5](https://web.archive.org/web/20090327030530/http://unity3d.com/unity/whats-new/unity-2.5)
 [^15]: [UNITY: What's New in Unity 2.6](https://web.archive.org/web/20100102003726/http://unity3d.com/unity/whats-new/unity-2.6)
+[^16]: [UNITY: Version History 1.2](https://web.archive.org/web/20060619181621/http://unity3d.com/whatsnew-1.2.html)
