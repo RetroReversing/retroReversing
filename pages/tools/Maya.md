@@ -163,7 +163,7 @@ TEKKEN TAG TOURNAMENT | Namco | PS2 | [Maya Used In Top 4 PlayStation 2 Titles -
 Heavenly Sword | Sony Cambridge Studios, Ninja Theory | PS3 | [SONY GAMES - Heavenly Sword with Autodesk Maya and MotionBuilder.flv - YouTube](https://www.youtube.com/watch?v=PrH3bdWPk9Y)
 
 ## Heavenly Sword (2007)
-The PS3 game **Heavenly Sword** was featured in the November 2007 issue of 3D World magazine where it meantions Maya was used with a screenshot of what appears to be a Maya (2008?) interface [^4]:
+The PS3 game **Heavenly Sword** was featured in the November 2007 issue of 3D World magazine where it mentions Maya was used with a screenshot of what appears to be a Maya (2008?) interface [^4]:
 <img width="1045" height="940" alt="image" src="https://github.com/user-attachments/assets/5ca1f513-ff07-44bb-b50d-0f4622629322" />
 
 Autodesk also produced a marketing video where they show off the use of Maya in Sony Cambridge Studios while they were working on Heavenly Sword where they mention using Maya 2008 directly [^5]:

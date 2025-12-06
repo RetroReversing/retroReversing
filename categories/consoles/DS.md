@@ -66,7 +66,7 @@ We have a separate post on Homebrew developed for the Nintendo DS which you can 
 {% include link-to-other-post.html post="/nintendo-ds-homebrew" description="For more information on DS Homebrew check out this post." %}
 
 ---
-# Referneces
+# References
 [^1]: [Serially Loopy: ROM Hacking from the Ground Up - YouTube](https://www.youtube.com/watch?v=p3wq9NFU99c)
 
 ---
