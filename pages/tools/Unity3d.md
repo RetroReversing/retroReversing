@@ -181,6 +181,8 @@ For a full list of new features you can view the original website thanks to the 
 [UNITY: What's New in Unity 2.5](https://web.archive.org/web/20090327030530/http://unity3d.com/unity/whats-new/unity-2.5)
 
 ## Unity 2.6 (2009)
+<img width="847" height="406" alt="Unity 2.6 Release Image" src="https://github.com/user-attachments/assets/3b06fea5-7209-4254-a51f-84f6c1d96560" />
+
 Unity 2.6 was released on the 28th October 2009 [^11] which improved build size optimization, enhanced import pipeline for assets (better mesh and texture handling), and more robust stability/performance improvements to the engine [^15].
 
 For a full list of new features you can view the original website thanks to the Wayback Machine:
