@@ -163,13 +163,15 @@ It effectively wrapped up the 1.x line by adding the last set of “nice-to-have
 Unity 2.x introduced the engine's first built-in networking layer, asset streaming systems, significant editor upgrades, and improved cross-platform tooling. Across versions 2.0 to 2.6, the series expanded Unity's technical scope with features such as Web Player streaming, MMO-oriented asset pipelines, a Windows-native editor, and major workflow and performance enhancements.
 
 ## Unity 2.0 (2007)
+<img width="924" height="477" alt="Unity 2.0 Interface from 2007" src="https://github.com/user-attachments/assets/a0df8d0c-00ba-4b62-b888-c70292bde7b2" />
+
 Unity 2.0 was released on the 10th October 2007 [^11] and claimed to have 50 new features including the introduction of **Web Player Streaming** and **Networked multiplayer support** via UDP [^12].
 
 For a full list of new features you can view the original 2007 site on the Wayback Machine:
 [What's new in Unity 2.0](https://web.archive.org/web/20071012120650/http://unity3d.com/unity/whats-new/unity-2.0)
 
 ## Unity 2.1 (2008)
-https://web.archive.org/web/20100208230247im_/http://download.unity3d.com/unity/features/images/editor-broad.jpg<img width="614" height="312" alt="image" src="https://github.com/user-attachments/assets/2286c0cf-0fd6-4140-a85e-fb417d71e659" />
+<img width="614" height="312" alt="Unity 2.1 Interface from 2008" src="https://github.com/user-attachments/assets/2286c0cf-0fd6-4140-a85e-fb417d71e659" />
 
 Unity 2.1 was released on the 24th July 2008 [^11] which introduced features tailored to MMO games development such as **streaming asset bundles** and streaming terrains [^13].
 
@@ -178,7 +180,7 @@ For a full list of new features you can view the original website thanks to the 
 
 ---
 ## Unity 2.5 (2009)
-<img width="847" height="406" alt="image" src="https://github.com/user-attachments/assets/71b68ece-e9a5-48c7-8dc6-ba4ef2acd515" />
+<img width="847" height="406" alt="Unity 2.5 interface from 2009" src="https://github.com/user-attachments/assets/71b68ece-e9a5-48c7-8dc6-ba4ef2acd515" />
 
 Unity 2.5 was released on the 18th March 2009 [^11] which introduced features such as a fully Windows-native editor, an overhauled interface with multi-window docking, improved asset workflow tools, and expanded API capabilities [^14].
 
