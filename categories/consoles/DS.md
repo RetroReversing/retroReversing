@@ -31,11 +31,15 @@ So grab your DS, and get ready to dive into the exciting world of DS reverse eng
 ---
 # Reverse Engineering
 
+## Introduction to Nintendo DS ROM Hacking
+[Jonko the ROM Hacker](https://www.youtube.com/@jonko0493) has an excellent introduction to ROM hacking NDS games where he hacks Suzumiya Haruhi no Chokuretsu [^1]:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p3wq9NFU99c?si=294eLvLZCVyjUyb1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Tinke DS File Explorer
 Tinke is an open source application that can be used to open Nintendo DS games and the various file formats that are inside. You can view and edit textures, sound files, compressed archives and even a few game specific formats, it is well worth a look!
+
 {% include link-to-other-site.html title="Tinke - NDS File Viewer and Editor" url="https://github.com/pleonex/tinke?tab=readme-ov-file" description="Check out the Tinke DS file viewer and editor" %}
-
-
 
 ---
 # Hardware Architecture
@@ -57,13 +61,15 @@ Tinke is an open source application that can be used to open Nintendo DS games a
 {% include link-to-other-post.html post="/DSFileFormats" description="For more information on the DS File formats check out this post." %}
 
 ---
-
 # Homebrew
+We have a separate post on Homebrew developed for the Nintendo DS which you can find here:
 {% include link-to-other-post.html post="/nintendo-ds-homebrew" description="For more information on DS Homebrew check out this post." %}
 
+---
+# References
+[^1]: [Serially Loopy: ROM Hacking from the Ground Up - YouTube](https://www.youtube.com/watch?v=p3wq9NFU99c)
 
 ---
-
 # All Posts Tagged with DS
 
 <div>

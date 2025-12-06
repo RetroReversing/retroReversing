@@ -164,6 +164,10 @@ The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986
 
 It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems between 1986-1989, which appears to read in three file formats: CHR (Character/Tile Data), SCR (Screen data or Source Data), and CGD (possibly standing for Character Graphic Designer, though this is uncertain).
 
+## What did a NES/Famicom Design Document look like?
+**Hardcore Gaming 101** has a video showing the design document created for the Famicom game **Guardian Legend**:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hfKbDRJv9Y8?si=6vtfdgoJv9zuYaCq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## What is a NES emulator and how does it work?
 We have a specific post covering exactly how emulators work including tips for writing your own emulators:
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}

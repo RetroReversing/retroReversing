@@ -116,6 +116,20 @@ Museums about video games and game development are rare but they are becoming mo
 So far we have listed documentaries that are freely available on youtube, mostly from TV broadcasts, but for a list of video game industry documentaries that you can buy check out **IMDB**'s list:
 [Video game documentaries](https://www.imdb.com/list/ls079153183/)
 
+## Interviews
+One of the best sources of information for how retro games were developed are direct interviews with the programmers themselves. This section lists interviews available online, but for even more interviews check out the magazines section above.
+
+### The Untold History of Japanese Game Developers DVDs
+DVD produced for the Kickstarter for the book The Untold History of Japanese Game Developers back in 2013:
+[The Untold History of Japanese Game Developers DVD 1 - YouTube](https://www.youtube.com/watch?v=PmelLhMEpo4&t=29s)
+DVD 2:
+[The Untold History of Japanese Game Developers DVD 2 - YouTube](https://www.youtube.com/watch?v=wKbHimftRIA)
+
+Of particular note is in the second DVD:
+Enix programmer Toru Hidaka learned to program by reverse engineering the machine code of Cosmic Soldier, and went on to program games, create graphics, sound and compression utilities for Enix, write books on using machine code, and assist in teaching a new generation of programmers.
+
+Also shows of a development utility created to help designers create levels for Gandhara on the PC-88 the numbers are where the enemies appear
+
 ---
 # Companies
 The games industry is made up of many companies, some as small as a single person and others so large they generate billions in revenue annually. 
@@ -213,6 +227,6 @@ He heard about the job through his agent which was a common way for game program
 
 {% include console.html %}
 
-
+---
 # References
 [^1]: [Terminator 2, R-Type, Altered Beast with Jas Austin - The Retro Hour EP320 - YouTube](https://www.youtube.com/watch?v=5ilnsca4jYc)

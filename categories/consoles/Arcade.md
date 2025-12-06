@@ -174,7 +174,7 @@ mame pacman
 
 All of the first games used a Z80 CPU, the first non-z80 game was Centipede which was released in version 0.10	on the 13th March 1997 [^8].
 
-For a full release history of MAME check out: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates?utm_source=chatgpt.com)
+For a full release history of MAME check out: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates)
 
 ### 1997 July - MAME32 first release
 ![MAME32](https://github.com/user-attachments/assets/63931c3c-1316-4c15-ba2b-e90dd137d698)
@@ -216,9 +216,9 @@ MAME was again featured in EDGE magazine in **October 2002**, where it was descr
 [^3]: Retro Gamer Issue 28
 [^4]: Retro Gamer Issue 97 page 57
 [^5]: Inside Atari Games ("The One" Magazine 1990) and on http://www.atari-explorer.com/articles/articles-atari-games.html
-[^6]: [Upgrade kits, lawsuits and Lite-Brite: How Ms. Pac-Man was made](https://www.gamedeveloper.com/business/upgrade-kits-lawsuits-and-lite-brite-how-i-ms-pac-man-i-was-made?utm_source=chatgpt.com)
-[^7]: [MAMEdev.org - Home of The MAME Project](https://www.mamedev.org/?utm_source=chatgpt.com)
-[^8]: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates?utm_source=chatgpt.com)
+[^6]: [Upgrade kits, lawsuits and Lite-Brite: How Ms. Pac-Man was made](https://www.gamedeveloper.com/business/upgrade-kits-lawsuits-and-lite-brite-how-i-ms-pac-man-i-was-made)
+[^7]: [MAMEdev.org - Home of The MAME Project](https://www.mamedev.org/)
+[^8]: [MAME Release Dates - Retro Arcade Guides](https://pleasuredome.miraheze.org/wiki/MAME_Release_Dates)
 [^9]: [The Internet Arcade – Internet Archive Help Center](https://help.archive.org/help/the-internet-arcade/)
 [^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
 [^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)

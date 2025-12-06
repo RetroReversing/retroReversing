@@ -1,4 +1,4 @@
-<script type="application/javascript" src="/public/js/binary_parser.bundle.js"></script>
+<script type="application/javascript" src="{{ '/public/js/binary_parser.bundle.js' | relative_url }}"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.production.min.js"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.production.min.js"></script>
 <script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.6.2/prop-types.min.js"></script>
@@ -64,7 +64,7 @@
 </div>
 
 <script>
-  
+
   function parseFile(file, n64Header, n64HeaderUP, showJson, onParseCallback) {
   var reader = new FileReader();
   reader.onload = function () {
@@ -82,7 +82,7 @@
     React.createElement("section", {id: "mySection"}, " ", React.createElement("div", { id: "result" },
         reactResult),
       React.createElement("div", null,
-                (!showJson)? null:          
+                (!showJson)? null:
         ( React.createElement("textarea", { rows: 20, cols: 50, value: JSON.stringify(parsedResult, 4, 4) }) )
    )
     ),
@@ -93,8 +93,8 @@
 
   reader.readAsArrayBuffer(file);
 }
-  
-  
+
+
   var draghint = document.getElementById('draghint');
   window.addEventListener('dragover', function (event) {
     event.preventDefault();
