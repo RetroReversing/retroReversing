@@ -80,6 +80,11 @@ At **Treasure** (e.g Alien Soldier) **Masato Maegawa** reveals that it takes aro
 > In the Megadrive days we took about 10 months for a game; now it’s about 15 months. There were some titles that took us a full 2 years, though.
 Although he also revealed that there was a tight development cycle for Alien Solider as the deadline was January 3rd 1995 and they were working through the New Year switch.
 
+### What did a Mega Drive Design Document look like?
+**Hardcore Gaming 101** has a video showing the design document created for the Mega Drive game **MUSHA**:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hfKbDRJv9Y8?si=DlTc8-7eWCtAd4gp&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 ## Software Development Kit
 To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:

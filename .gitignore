@@ -37,9 +37,29 @@ nbproject
 validation-status.json
 validation-report.json
 
+# sass
+.sass-cache
+
+# The Ruby Lock file seems to include platform specific (e.g Darwin) native so ignoring
+Gemfile.lock
+
 # Folders to ignore
 node_modules
 bower_components
+.obsidian
 
-# sass
-.sass-cache
+# Obsidian Editor files to ignore, smart-env and copilot are plugins to try to help with spelling and auto formatting
+.smart-env
+copilot
+
+# Obsidian Templates
+templates
+# Obsidian specific file formats
+*.base
+*.canvas
+
+# Obsidian Daily Notes
+/202*-*.md
+# Obsidian auto adds pngs to the root...
+/*.png
+/*.jpeg
