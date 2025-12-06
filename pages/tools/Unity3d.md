@@ -169,17 +169,23 @@ For a full list of new features you can view the original 2007 site on the Wayba
 [What's new in Unity 2.0](https://web.archive.org/web/20071012120650/http://unity3d.com/unity/whats-new/unity-2.0)
 
 ## Unity 2.1 (2008)
+https://web.archive.org/web/20100208230247im_/http://download.unity3d.com/unity/features/images/editor-broad.jpg<img width="614" height="312" alt="image" src="https://github.com/user-attachments/assets/2286c0cf-0fd6-4140-a85e-fb417d71e659" />
+
 Unity 2.1 was released on the 24th July 2008 [^11] which introduced features tailored to MMO games development such as **streaming asset bundles** and streaming terrains [^13].
 
 For a full list of new features you can view the original website thanks to the Wayback Machine:
 [UNITY: What's New in Unity 2.1](https://web.archive.org/web/20080730145031/http://unity3d.com/unity/whats-new/unity-2.1)
 
+---
 ## Unity 2.5 (2009)
+<img width="847" height="406" alt="image" src="https://github.com/user-attachments/assets/71b68ece-e9a5-48c7-8dc6-ba4ef2acd515" />
+
 Unity 2.5 was released on the 18th March 2009 [^11] which introduced features such as a fully Windows-native editor, an overhauled interface with multi-window docking, improved asset workflow tools, and expanded API capabilities [^14].
 
 For a full list of new features you can view the original website thanks to the Wayback Machine:
 [UNITY: What's New in Unity 2.5](https://web.archive.org/web/20090327030530/http://unity3d.com/unity/whats-new/unity-2.5)
 
+---
 ## Unity 2.6 (2009)
 <img width="847" height="406" alt="Unity 2.6 Release Image" src="https://github.com/user-attachments/assets/3b06fea5-7209-4254-a51f-84f6c1d96560" />
 
