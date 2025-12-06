@@ -1,11 +1,14 @@
 ---
-permalink: /sms/
+permalink: /mastersystem
 layout: post
 title: Sega Master System Reverse Engineering
-recommend: sms
+recommend: 
+- mastersystem
+- sega
+- introduction
 recommendTitle: All SMS Posts
 editlink: ../categories/consoles/SegaMasterSystem.md
-console: 'sms'
+console: 'mastersystem'
 consoleimage: /public/consoles/Sega - Master System.png
 thumbnail: /public/consoles/Sega - Master System.png
 excerpt: Awesome list of SEGA Master System Game Development and Reverse Engineering information
@@ -18,8 +21,11 @@ breadcrumbs:
     url: #
 redirect_from:
   - /segamastersystem
+  - /mastersystem
+  - /sms/
 tags:
-  - sms
+  - mastersystem
+  - introduction
 ---
 
 # Introduction

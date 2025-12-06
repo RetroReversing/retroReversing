@@ -4,10 +4,10 @@ layout: post
 permalink: /super-mario-bros
 tags:
 - nes
-- game
+- games
 recommend:
 - nes
-- game
+- games
 editlink: /consoles/nes/Super-Mario-Bros.md
 _updatedAt: '2024-08-17'
 ---

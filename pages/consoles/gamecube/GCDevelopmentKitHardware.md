@@ -19,7 +19,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Nintendo Gamecube
-    url: /gc
+    url: /gamecube
   - name: Nintendo Gamecube (Dolphin) Development Kit Hardware
     url: #
 recommend: 

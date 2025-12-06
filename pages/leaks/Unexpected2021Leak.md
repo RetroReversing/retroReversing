@@ -3,7 +3,7 @@ layout: post
 tags: 
 - leak
 - wii
-- gc
+- gamecube
 title: The Unexpected 2021 Nintendo Leak  
 thumbnail: /public/consoles/Nintendo Gamecube.png
 image: /public/images/leaks/UnexpectedLeak.jpg
@@ -19,7 +19,7 @@ breadcrumbs:
 recommend: 
 - leak
 - wii
-- gc
+- gamecube
 editlink: /leaks/Unexpected2021Leak.md
 ---
 On the **20th July 2021** the Nintendo Leaks (aka Gigaleaks) continued after a long hiatus, the content was obtained by Zammis Clark and then leaked online by anonymous individuals. 

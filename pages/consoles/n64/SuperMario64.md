@@ -2,7 +2,6 @@
 layout: post
 tags: 
 - n64
-- worldeditor
 - games
 title: Super Mario 64
 thumbnail: /public/consoles/Nintendo 64.png
@@ -25,7 +24,9 @@ breadcrumbs:
     url: /n64
   - name: Super Mario 64
     url: #
-recommend: n64
+recommend: 
+- n64
+- games
 editlink: /consoles/n64/SuperMario64.md
 updatedAt: '2020-05-07'
 ---

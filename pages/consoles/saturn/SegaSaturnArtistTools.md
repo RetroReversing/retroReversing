@@ -2,7 +2,6 @@
 layout: post
 tags:
 - tools
-- segasaturn
 - saturn
 - sega
 title: Sega Saturn Artist Tools

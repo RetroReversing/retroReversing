@@ -3,7 +3,6 @@ permalink: /leaks
 layout: post
 console: leak
 recommend: 
-- leaks
 - leak
 recommendTitle: All Leaks
 thumbnail: /public/images/RetroReversingLogoSmall.png
@@ -17,7 +16,8 @@ redirect_from:
   -  /leak
 editlink: ../categories/misc/Leaks.md
 tags:
-  - leaks
+  - leak
+  - introduction
 ---
 
 The games industry has had its fair share of cyberattacks in the past decade and one of the main targets for hackers has always been source code. This post will cover all the major leaks that we are aware of for companies related to the games industry. Specifically focussing on programming related source code rather than assets or design documents, but many contain both types of content.

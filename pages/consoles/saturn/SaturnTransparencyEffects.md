@@ -1,11 +1,9 @@
 ---
 layout: post
 tags: 
-- segasaturn
 - hardware
 - saturn
 - sega
-- ss
 title: Sega Saturn Alpha Transparency Effects
 thumbnail: /public/consoles/Sega Saturn.png
 image: https://img.youtube.com/vi/FdD0GvVRSMc/hqdefault.jpg

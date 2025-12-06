@@ -2,8 +2,7 @@
 layout: post
 tags: 
 - gamecube
-- gc
-- reverseengineering
+- fileformats
 title: Nintendo Gamecube (Dolphin) File Formats
 thumbnail: /public/consoles/Nintendo Gamecube.png
 image: /public/N64/Gamecube File Formats.jpg

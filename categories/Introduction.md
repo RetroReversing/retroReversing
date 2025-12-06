@@ -711,7 +711,7 @@ We have pages on each of the following **Nintendo** consoles:
 
 ## SEGA Consoles
 We have pages on each of the following **SEGA** consoles:
-* [Sega Master System](https://www.retroreversing.com/sms/)
+* [Sega Master System](https://www.retroreversing.com/mastersystem)
 * [Sega Mega Drive (Genesis)](https://www.retroreversing.com/md/)
 * [Sega Saturn](https://www.retroreversing.com/saturn/)
 * [Sega Dreamcast](https://www.retroreversing.com/dreamcast/)

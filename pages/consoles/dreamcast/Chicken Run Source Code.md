@@ -2,7 +2,6 @@
 layout: post
 tags: 
 - dreamcast
-- dc
 - ps1
 - pc
 - games
@@ -15,7 +14,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Sega Dreamcast
-    url: /dc
+    url: /dreamcast
   - name: Chicken Run Source Code
     url: #
 videocarousel:
@@ -25,7 +24,10 @@ videocarousel:
   - title: Chicken Run
     image: https://img.youtube.com/vi/thRXO3YwOCg/0.jpg
     youtube: 'thRXO3YwOCg'
-recommend: dreamcast
+recommend: 
+- dreamcast
+- ps1
+- sega
 references:
 - Dreamcast Hub
 editlink: /consoles/dreamcast/Chicken Run Source Code.md

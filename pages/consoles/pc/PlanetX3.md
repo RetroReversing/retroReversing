@@ -3,7 +3,7 @@ layout: post
 tags: 
 - dos
 - pc
-- msdos
+- dos
 - sourcecode
 - games
 title: Planet X3 (2019 MS-DOS game)
@@ -17,7 +17,10 @@ breadcrumbs:
     url: /dos
   - name: Planet X3
     url: #
-recommend: dos
+recommend: 
+- dos
+- pc
+- games
 editlink: /consoles/pc/PlanetX3.md
 videocarousel:
   - title: Part 1

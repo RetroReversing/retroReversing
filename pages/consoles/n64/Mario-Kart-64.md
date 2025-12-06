@@ -2,7 +2,7 @@
 layout: post
 tags: 
 - n64
-- worldeditor
+- games
 title: Mario Kart 64
 published: true
 thumbnail: /public/consoles/Nintendo 64.png
@@ -15,7 +15,10 @@ breadcrumbs:
     url: /n64
   - name: Mario Kart 64
     url: #
-recommend: n64
+recommend: 
+- n64
+- games
+- introduction
 editlink: /consoles/n64/Mario-Kart-64.md
 ---
 

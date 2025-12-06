@@ -1,7 +1,6 @@
 ---
 layout: post
 tags:
-- sony
 - vita
 - android
 title: Playstation Mobile (Suite)
@@ -15,7 +14,9 @@ breadcrumbs:
     url: /vita
   - name: Sony Playstation Mobile (PSM)
     url: #
-recommend: vita
+recommend: 
+- vita
+- android
 editlink: /consoles/vita/PlaystationMobile.md
 ---
 

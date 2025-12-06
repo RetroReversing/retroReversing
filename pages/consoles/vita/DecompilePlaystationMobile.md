@@ -1,7 +1,6 @@
 ---
 layout: post
 tags:
-- sony
 - vita
 - android
 title: Decompiling Playstation Mobile Games
@@ -15,7 +14,9 @@ breadcrumbs:
     url: /vita
   - name: Decompiling Playstation Mobile Games
     url: #
-recommend: vita
+recommend: 
+- vita
+- android
 editlink: /consoles/vita/DecompilePlaystationMobile.md
 ---
 

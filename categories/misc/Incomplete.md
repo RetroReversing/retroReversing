@@ -9,7 +9,7 @@ editlink: ../categories/misc/Incomplete.md
 title: Incomplete Reversing Pages
 recommend:
  - incomplete
- - leaks
+ - leak
 tags:
   - incomplete
 ---

@@ -3,7 +3,6 @@ layout: post
 tags: 
 - gamegear
 - sega
-- gg
 - devkit
 title: Sega Game Gear Development Hardware
 thumbnail: /public/consoles/Sega Game Gear.png
@@ -14,12 +13,13 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Sega Game Gear
-    url: /gg
+    url: /gamegear
   - name: Sega Game Gear Development Hardware
     url: #
 recommend: 
-  - gg
+  - gamegear
   - sega
+  - devkit
 updatedAt: '2020-11-14'
 editlink: /consoles/gamegear/GameGearDevKit.md
 ---

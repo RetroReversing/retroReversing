@@ -2,7 +2,6 @@
 layout: home
 title: Retro Reverse Engineering
 permalink: /
-recommend: gameboy
 herocarousel:
   - herotitle: "Turok64 Source Code Analysis"
     image: https://www.retroreversing.com/public/games/turok/Turok%20-%20Dinosaur%20Hunter%20(USA)%20(Rev%20B)%203D.png
@@ -15,9 +14,9 @@ herocarousel:
   - herotitle: "Ultra 64"
     image: /public/hero/Nintendo 64 Hero.jpg
     herotext: "Reversing N64 games has never been so easy!"
-    herolink: /n64  
-    
+    herolink: /n64
 redirect_from:
   - /general
   - /featured
+  - /news
 ---

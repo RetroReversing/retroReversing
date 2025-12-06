@@ -15,6 +15,7 @@ redirect_from:
   - /engines
   - /games/gameengines
   - /game-engines
+  - /middleware
 tags:
   - gameengines
   - middleware

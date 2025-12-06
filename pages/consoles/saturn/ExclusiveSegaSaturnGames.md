@@ -1,8 +1,6 @@
 ---
 layout: post
 tags:
-- exclusives
-- segasaturn
 - saturn
 - sega
 - games
@@ -18,7 +16,9 @@ breadcrumbs:
     url: /saturn
   - name: Exclusive Sega Saturn Games & Re-releases
     url: #
-recommend: saturn
+recommend: 
+- saturn
+- games
 editlink: /consoles/saturn/ExclusiveSegaSaturnGames.md
 videocarousel:
   - title: Part 1

@@ -4,7 +4,6 @@ tags:
 - gameboy
 - games
 - sourcecode
-- opensource
 title: Mr Do! Source Code (Game Boy)
 thumbnail: /public/NintendoGameBoyThumb.png
 youtube: "qLtNkZ1GHh0"

@@ -1,12 +1,10 @@
 ---
 layout: post
 tags: 
-- sega
-- segasaturn
 - saturn
+- sega
 - ps1
 - games
-- projects
 title: Batman Forever - The Arcade Game (1996)
 thumbnail: /public/consoles/Sega Saturn.png
 image: https://i.ytimg.com/vi/WWz2nScv22g/hqdefault.jpg
@@ -19,7 +17,7 @@ breadcrumbs:
   - name: Batman Forever - The Arcade Game (1996)
     url: #
 recommend:
-- segasaturn
+- saturn
 - games
 editlink: /games/BatmanForeverArcade.md
 youtube: WWz2nScv22g

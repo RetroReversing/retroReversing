@@ -12,11 +12,11 @@ redirect_from:
 editlink: '../categories/tools/ProgrammingLanguages.md'
 title: Exploring Retro Game Programming Languages - From Assembly to higher level languages
 recommend: 
- - programming
+ - programming-languages
  - software
  - tools
 tags:
- - programming
+ - programming-languages
  - tools
 ---
 

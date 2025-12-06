@@ -4,7 +4,6 @@ tags:
 - sega
 - dreamcast
 - sdk
-- microsoft
 title: Sega Dreamcast Microsoft Windows CE SDK
 thumbnail: /public/consoles/Sega Dreamcast.png
 image: /public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg

@@ -3,7 +3,6 @@ layout: post
 tags:
 - fileformats
 - vita
-- sony
 title: Playstation Vita File Formats
 thumbnail: /public/consoles/Sony PSVita.png
 image: /public/images/vita/PSVita File Formats.jpg
@@ -16,7 +15,9 @@ breadcrumbs:
     url: /vita
   - name: Sony Playstation Vita File Formats
     url: #
-recommend: vita
+recommend: 
+- vita
+- fileformats
 editlink: /consoles/vita/VitaFileFormats.md
 ---
 When reverse engineering Playstation Vita games you will come across a number of different file formats, this post will explain all the file formats and how to use them.
