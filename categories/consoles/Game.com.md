@@ -26,6 +26,7 @@ tags:
 ---
 
 # Introduction
+<img width="1370" height="895" alt="Tiger Game.Com Handheld" src="https://github.com/user-attachments/assets/56f2f094-b159-4130-b5f0-8862087dd054" />
 Welcome to our page dedicated to Tiger Game(dot)com reverse engineering! The Tiger Game com was a handheld gaming console that was released in 1997, and was notable for being one of the first gaming consoles to feature a touchscreen interface.
 
  If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Game(dot)com reverse engineering. 
