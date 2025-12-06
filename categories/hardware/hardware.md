@@ -11,8 +11,11 @@ breadcrumbs:
 redirect_from:
   - /hardware
   - /cpu
+tags:
+- hardware
 recommend:
 - hardware
+editlink: ../categories/hardware/hardware.md
 ---
 
 {% include console.html %}

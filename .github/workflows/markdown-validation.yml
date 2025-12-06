@@ -28,10 +28,12 @@ jobs:
         echo "🔍 Checking metadata completeness..."
         
         # Run metadata check and capture output
-        if node scripts/check-metadata.js editlink title tags > metadata-report.txt 2>&1; then
+        if node scripts/check-metadata.js > metadata-report.txt 2>&1; then
           echo "metadata_status=success" >> $GITHUB_OUTPUT
+          echo "✅ Metadata validation succeeded"
         else
           echo "metadata_status=failed" >> $GITHUB_OUTPUT
+          echo "❌ Metadata validation failed"
         fi
         
         # Extract summary statistics
@@ -41,7 +43,7 @@ jobs:
         echo "editlink_coverage=$editlink_coverage" >> $GITHUB_OUTPUT
         echo "title_coverage=$title_coverage" >> $GITHUB_OUTPUT
         
-        echo "✅ Metadata check completed"
+        echo "Metadata check completed"
 
     - name: Validate tags
       id: validate-tags
@@ -77,8 +79,7 @@ jobs:
         
         ## Metadata Completeness
         
-        - **editlink field**: ${{ steps.check-metadata.outputs.editlink_coverage }}
-        - **title field**: ${{ steps.check-metadata.outputs.title_coverage }}
+        **Status**: ${{ steps.check-metadata.outputs.metadata_status == 'success' && '✅ Metadata validation succeeded' || '❌ Metadata validation failed' }}
         
         ## Tag Validation
         
