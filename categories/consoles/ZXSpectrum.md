@@ -21,6 +21,8 @@ recommend:
 recommendTitle: All ZX Spectrum Posts
 editlink: ../categories/consoles/ZXSpectrum.md
 _updatedAt: '2025-05-17'
+tags:
+  - zxspectrum
 ---
 The Sinclair ZX Spectrum, launched in 1982, was a pivotal 8-bit home computer that democratized computing and game development in the UK. 
 Its affordability and accessibility spurred a generation of bedroom coders and laid the groundwork for the British games industry.

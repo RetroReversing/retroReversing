@@ -1,11 +1,6 @@
 ---
 layout: post
-tags: 
-- introduction
-- pc
-- nes
-title: Introduction to Audio Programming of Retro Games
-thumbnail: /public/consoles/Computer Old Design.png
+title: Introduction to Audio/Music Programming of Retro Games
 image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
 permalink: /how-retro-audio-worked
 breadcrumbs:
@@ -15,29 +10,37 @@ breadcrumbs:
     url: /introduction
   - name: Introduction to Audio Programming of Retro Games
     url: #
+tags: 
+- introduction
+- pc
+- nes
 recommend: 
 - introduction
+- sdk
+- pc
+- nes
 editlink: /Introduction/RetroAudio.md
-videocarousel:
-  - title: Part 1
-    image: https://i.ytimg.com/vi/q_3d1x2VPxk/sddefault.jpg
-    youtube: 'q_3d1x2VPxk'
 ---
 
-The **8-bit Guy** on Youtube has an excellent video covering how early computers and game consoles played sound and music [^1].
+# Introduction
+To get started the **8-bit Guy** on Youtube has an excellent video covering how early computers and game consoles played sound and music [^1].
 
-He has split up his video into 3 sections:
-* Beeper Speakers
-* GM Synthesisers
-* PCM Samples
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q_3d1x2VPxk?si=EiN8a2g7nPkwg-GT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+The gives a good overview of the different types of Audio available in retro games:
+* **Beeper Speakers** - CPU driven clicking noises
+* **GM Synthesisers** - Dedicated Sound chips (No CPU load)
+* **PCM Samples**
+
+---
 # Beeper Speaker
 The beeper speaker is a very simple speaker controller by the CPU which can produce clicking noises. The CPU would have to time the clicking noises exactly right to produce the required tone. As it runs all the logic on the cpu it slows down the game and the audio produced is CPU limited.
 
 Used in:
-* Early IBM-PC
-* Apple II
+* **Early IBM-PC**
+* **Apple II**
 
+---
 # FM Synthesizer
 In the early 1980s computers started coming with dedicated audio chips to take away the load from the CPU.
 
@@ -76,16 +79,25 @@ The original 6581 SID chip was replaced by the 8580 in the C64c, which fixed the
 ---
 ## Sound cards for IBM-PC
 Here are a few of the sound cards developed for the IBM-PC:
-* Ad-lib  (Yamaha YM3812) - early audio card
-* SoundBlaster (Yamaha YM3812) - became more popular than Ad-Lib 
+* **Ad-lib**  (Yamaha YM3812) - early audio card
+* **SoundBlaster** (Yamaha YM3812) - became more popular than Ad-Lib 
 
 Notice that they both use the same audio chip inside (Yamaha YM3812).
 
 9 Voices were available in this chip and similar to the C64 they were independently programmable so each voice could have its own waveform. Unlike the NES where each voice could only use one waveform.
 
+---
 # PCM Samples
 Audio would be built up of small audio clips called "samples". The concept of a "Mod Tracker" was developed to take advantage of this capability.
 
+
+---
+# Audio Tools for Retro Games
+
+# VGMTrans
+[vgmtrans/vgmtrans: VGMTrans - a tool to convert proprietary, sequenced videogame music to industry-standard formats](https://github.com/vgmtrans/vgmtrans?tab=readme-ov-file#vgmtrans---video-game-music-translator--)
+
+---
 # References
 [^1]: [How Oldschool Sound/Music worked](https://www.youtube.com/watch?v=q_3d1x2VPxk)
 [^2]: [NES Memory Visualization: Super Mario Bros. 3 - YouTube](https://www.youtube.com/watch?v=xI3xZAn7r2A)

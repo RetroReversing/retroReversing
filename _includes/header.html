@@ -1,5 +1,5 @@
 <header id="header">
-    <div class="container">
+    <div class="container navbar-container">
       <div class="navbar-backdrop">
         <div class="navbar">
           <div class="navbar-left">
@@ -71,7 +71,7 @@
                 
                  <li class="has-dropdown mega-menu">
                   <a href="#">Reversing</a>
-                  <ul style="background-image: url('img/menu/mega-menu.png');">
+                  <ul>
                     <li>
                       <div class="container" style="width: 100vw;margin-left: auto;">
                         <div class="row">
@@ -112,7 +112,7 @@
                 
                  <li class="has-dropdown mega-menu">
                   <a href="#">Consoles</a>
-                  <ul style="background-image: url('img/menu/mega-menu.png');">
+                  <ul>
                     <li>
                       <div class="container">
                         <div class="row">
@@ -188,9 +188,6 @@
                     <li>          
                       <a href="/games/symbols">Games with Debug Symbols</a>                   
                     </li>
-                    <li>          
-                      <a href="/games/exclusives">Exclusive Games</a>                   
-                    </li>
                   </ul>
                 </li>
                 
@@ -214,7 +211,7 @@
 
                 <li class="has-dropdown mega-menu">
                   <a href="#">Hardware</a>
-                  <ul style="background-image: url('img/menu/mega-menu.png');">
+                  <ul>
                     <li>
                       <div class="container">
                         <div class="row">
@@ -271,7 +268,7 @@
 
                 <li class="has-dropdown mega-menu">
                   <a href="#">Industry</a>
-                  <ul style="background-image: url('img/menu/mega-menu.png');">
+                  <ul>
                     <li>
                       <div class="container">
                         <div class="row">
@@ -309,9 +306,24 @@
               </ul>
             </nav>
           </div>
-          
+          <div class="navbar-right">
+            <a href="#" data-toggle="search"><i class="fa fa-search"></i></a>
+          </div>
         </div>
       </div>
       
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="navbar-search">
+      <div class="container">
+        <form id="search-form" role="search" autocomplete="off">
+          <input type="text" class="form-control" id="search-input" placeholder="Search posts by title or content..." autocomplete="off">
+          <span class="close"><i class="fa fa-times"></i></span>
+        </form>
+        <div id="search-results" style="display: none;">
+          <div id="search-results-list"></div>
+        </div>
+      </div>
     </div>
   </header>

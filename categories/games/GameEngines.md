@@ -1,13 +1,14 @@
 ---
 title: Introduction to Game Engines & Middleware
+shorttitle: Game Engines & Middleware
 permalink: /games/engines
 layout: post
 console: gameengines
 breadcrumbs:
   - name: Home
     url: /
-  - name: Games
-    url: /games
+  - name: Game Engines and Middleware
+    url: /#
 redirect_from:
   - /gameengines
   - /gameengine
@@ -16,7 +17,15 @@ redirect_from:
   - /game-engines
 tags:
   - gameengines
+  - middleware
   - introduction
+  - sdk
+recommend:
+  - gameengines
+  - middleware
+  - introduction
+  - sdk
+editlink: ../categories/games/GameEngines.md
 ---
 # Introduction to Game Engines & Middleware
 Game Engines are the foundation in which games are built, they contain all the logic to be able to show graphics, play audio, compute input, etc. without having any of the game specific assets such as sprites or music files.
@@ -106,12 +115,15 @@ PhysX under Ageia allowed the SDK binaries to be offered royalty free but access
 
 It was used by **Delphine Software** in the **Moto Racer** series to great success!
 
-
-<div>
-{% include console.html %}
-</div>
-
+---
 # References
 [^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
 [^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
+
+---
+<div>
+  
+{% include console.html %}
+</div>
+
 

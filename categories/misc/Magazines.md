@@ -27,7 +27,7 @@ tags:
 updatedAt: '2022-05-22'
 ---
 
-One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information.
+One of the best ways to get an insight into the games industry is to look at the magazines that were available at the time, both game-specific magazines and digital/creative magazines have a wealth of information that is not currently available on the internet. This post provides details on some of the best magazine sources to help with retro game development research.
 
 ---
 # Games Industry Magazines
@@ -54,34 +54,15 @@ There is a wealth of relevant articles and information in this journal so we hav
 The post contains everything we know about the interviews and articles published every month along with additional information that may be relevant to game development history.
 
 ---
-## GameMaker Magazine
+## GameMaker Magazine (2003) - Magazine in the UK dedicated to Game Modding
 ![GameMaker Magazine](https://github.com/RetroReversing/retroReversing/assets/40120498/14c4a79d-0cf1-4c66-8f9e-82976d5e7751)
 
 **GameMaker** was a very unique magazine published in the UK on October 2003, it was a game development and modding magazine targetted at the general public!
 
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
-If anyone has the 4 **GameMaker** supplement magazines from issue 161-164 then please get in contact we would love to see them!
-
-Issue | Name | Description
----|---|---
-1 | WARCRAFT 3 | The basics of creating a map in the Warcraft 3 Map Editor with a hero (Hercules) an enemy (Hydra) and victory conditions
-1 | UNREAL TOURNAMENT 2003 | Introduction to Unreal Editor 3.0, using brushes to carve out maps, adding textures, lighting and even creating moving platforms
-1 | MAKE A MOD | General advice from Kieron Gillen about modding games such as the scope of the project and how to recruit other modders
-1 | NEVERWINTER NIGHTS | Introduction to the BioWare Neverwinter Nights Toolset for creating a simple adventure game including scripting and adding factions
-1 | ADVENTURE GAME STUDIO | Introduction to AGS to create a simple point-and-click graphic adventure game with scripts and background music
-1 | THE SIMS | Briefly covers tools like SimShow, Facelift, HomeCrafter, Transmogrifier, Blueprint, Career Creator and how to replace the radio station MP3 files
-1 | HALF-LIFE/COUNTER-STRIKE | Brief introduction to the Value Hammer Editor
-1 | THE GAME FACTORY PRO | Create a very simple snowboarding game (similar to ski free) in The Game Factory Pro
-1 | HISTORY OF MODDING | Covers the history of game modding such as "Adventure", "Ms Pac-Man", "Castle Smurfenstein", "Team Fortress" etc
-1 | GRAND THEFT AUTO: VICE CITY | Introduction to modding GTA Vice City, using tools such as CROA, ZModeler, CarEd 1.4, IMG Tool 1.3, ViceTXD
-1 | RAILROAD TYCOON 3 | Create a very simple map in Railroad Tycoon 3 with the built-in editor including adding a volcano with the Paint Terrain tools
-1 | 3DS MAX AND UNREAL ED | Tutorial for getting a 3D Studio Max model into UT2003 including fixing textures with Photoshop rigging with Character Studio 3 and exporting with ActorX
-1 | FLIGHT SIMULATOR 2004 | Using GMax to create custom aircraft and scenery for Flight Simulator 2004
-1 | NVIDIA CHARACTER DESIGN | Article by Daniel Hornick, Hubert Nguyen and Curtis Beeson from Nvidia
-1 | MILKSHAPE | Tutorial for creating a 3d man with a gun that can be imported into Unreal Tournament
-1 | QUAKE III | Detailed guide for how to create a level in Quake 3 using Q3Map2Toolz
-1 | LOW POLY MODELLING | Creating a low poly model of a cartoon character in 3D Studio Max 5
+We have a seperate page with an index of all the articles and other information about the magazine here:
+{% include link-to-other-post.html post="/gamemaker-magazine" %}
 
 ---
 ## Journal of Computer Game Design
@@ -279,169 +260,14 @@ Issue Number | Content
 
 ---
 ## Retro Gamer Magazine
+<img width="719" height="913" alt="Retro Gamer Magazine cover from issue 20" src="https://github.com/user-attachments/assets/d459864e-b961-47f7-8494-d21b0d19a190" />
 
-### Interviews with Game Developers
+Retro Gamer is widely considered one of the **single best sources** for interviews with classic game developers.
 
-Issue Number | Interview Name | Description |
----|---|---|
-| 2 | Graham Goring | Goring is a member of Retrospec, a group that remakes classic games. The interview does not specify which games Goring has worked on or for which platforms. |
-| 2 | Andy Hewitt | Hewitt discusses his work with the game developer group Ovine by Design, including the group's history and their use of game development tools like Jamagic. The interview mentions that Ovine by Design's latest game, **_Imogen_**, is a platform game for the **ZX Spectrum**. |
-| 3 | Simon Ullyatt & Jonathan Cauldwell | Ullyatt and Cauldwell are members of Cronosoft, a group that develops new games for older platforms. The interview mentions several of Cronosoft's games, including **_Egghead in Space_** (for the **ZX Spectrum**) and **_Plan 9 Channel 7_**, **_More Tea, Vicar?_**, and **_Reaxion_** (all for the **Commodore 64**). The interview also mentions that Cronosoft was considering making a **BBC Micro** version of **_Egghead in Space_**. |
-| 5 | Protovision | The members of Protovision discuss their work developing games for the **Commodore 64**. The interview mentions several of their games, including **_Metal Dust_**, **_Tanks 3000_**, and **_Pac It_**. |
-| 5 | Stuart Fotheringham | Fotheringham discusses his work on games like **_Mega-tree_**, **_Heartland_**, and **_Nodes of Yesod_**. **_Mega-Tree_** was in development for the **Commodore 64**, but never released. The interview mentions that the **ZX Spectrum** and **Commodore 64** versions of **_Heartland_** shared the same map data. **_Nodes of Yesod_** was released for the **ZX Spectrum** and the **Commodore 64**. The interview also discusses Fotheringham's work on an unreleased version of **_Star Raiders_** for the **Commodore 64**. |
-| 6 | Nick Harlow | Harlow discusses the history of 1632 Systems, which started as a Public Domain library for the **Atari ST**. |
-| 7 | Matthew Smith | This issue contains an interview with **Matthew Smith**, creator of **Manic Miner** and **Jet Set Willy**, for the **ZX Spectrum**.  |
-| 8 | Nolan Bushnell | Bushnell is known for his work on games like **_Pac-Man_**, **_Breakout_**, and for founding Atari. |
-| 9 | David Doak | Doak is known for his work on **_GoldenEye 007_** for the **Nintendo 64**. |
-| 10 | Steve Meretzky | Meretzky is known for his work on text adventures such as **_Planetfall_**, **_Sorcerer_**, and **_The Hitchhiker's Guide to the Galaxy_**. The interview does not specify which platforms these games were developed for. |
-| 11 | Malcolm Evans | Evans is known for his work on games such as **_3D Monster Maze_** (for the **ZX81**), **_Trashman_**, and **_The Ishar_** trilogy. |
-| 11 | Color Dreams/Wisdom Tree | This interview features developers from Color Dreams/Wisdom Tree, discussing their unlicensed, religious-themed **NES** games. |
-| 11 | Francois Lionet | Lionet discusses his work on the game development tools **_AMOS_** (for the **Amiga**) and **_Klik & Play_** (for the **PC**). |
-| 12 | Vicky Carne | Vicky Carne was the founder of 8-bit software house Mosaic Publishing. Mosaic Publishing was responsible for bringing the "amazingly original titles" [*Hover Bovver* and *Revenge of the Mutant Camels*] to the Commodore 64. One of the company's more notable releases was *Battle Command*, a tank game for the Commodore 64 that was lauded for its "fast-filled 3D graphics". |
-| 12 | Jeff Minter | Jeff Minter is a game developer known for his work with Llamasoft. Some of his more popular games, such as *Gridrunner++* for PC and Mac, are known for their "diversity and humour", containing enemies that range from "footballs to giant Mutley heads". |
-| 12 | Albert Yarusso | Albert Yarusso was the chief maintainer of the AtariAge website in 2005. |
-| 13 | Jamie Fenton | Jamie Fenton was one half of the duo, with partner Dennis Koble, who created the game *Sea Wolf*, released in 1976. |
-| 13 | Julian Golop | Julian Golop was a game developer who worked on games such as *Lords of Chaos* and *X-Com*. *Lords of Chaos* was released on an unspecified platform, but was designed to be a combination of "the best bits of *Chaos* and *Laser Squad*", with additional RPG elements. The first *X-Com* game was programmed for the PC because it was "the most popular platform for strategy games" at the time. |
-| 13 | Jeff Kunkel | Jeff Kunkel was a game developer who worked on arcade games, including *Dragon's Lair*. One of his personal projects was adding a "freeplay mode" to his copy of the arcade game *Frogger*. |
-| 13 | Ben Heckendorn | Ben Heckendorn was a console modder who, by 2004, had created portable versions of the Virtual Boy, PlayStation, Super Nintendo Entertainment System, Atari 2600, and PlayStation 2. His "dream project" was to create a laptop that could play Atari 800 games. |
-| 13 | Steve Wilcox | Steve Wilcox was a game developer who worked with Elite. One of the company's notable releases was *Battle Command* for the Commodore 64, a game that impressed with its use of 3D graphics despite the technical limitations of the Commodore 64. |
-| 14 | Jon Ritman | This issue contains an interview with **Jon Ritman**, the developer behind **Match Day** and **Head Over Heels** for the **ZX Spectrum**. The article also touches on his work on **Batman**.  |
-| 14 | Dino Dini | This issue features an interview with **Dino Dini**, creator of **Kick Off** and **Goal!**. **Kick Off** was originally developed for the **Atari ST** and later ported to the **Amiga**. **Goal!** was released on the **Sega Megadrive** as **Dino Dini's Soccer**. |
-| 15 | Walter Ginner | Walter Ginner was a competitive gamer in the 1980s. |
-| 15 | Fergus McNeil | Fergus McNeil was the founder of the software company Delta 4. One of the company's games, *Quest for the Holy Joystick*, was a text-based adventure game that parodied the software industry and contained references to contemporary gaming magazines. |
-| 15 | Keith Hughes | Keith Hughes was a game developer who, as of 2005, worked at Kuju. |
-| 16 | Mr Biffo and Mr Hairs | Mr Biffo and Mr Hairs were the pseudonyms of the creators of *Digitiser*, a Teletext gaming section that ran on Channel 4. |
-| 16 | The guys behind Gilsoft | Gilsoft was a company best known for their game creation software *The Quill*, which allowed users to create text-based adventure games. |
-| 17 | Paul Carruthers | Paul Carruthers is a programmer best known for his work on the game *Xor*, which was originally released in 1987 for the BBC Micro. *Xor* was later ported to the Electron, Spectrum, Commodore 64, Amstrad, Amiga, and Atari ST. |
-| 17 | Dave Reidy and Keith Warrington | Dave Reidy and Keith Warrington were the creators of the game *Skool Daze*. *Skool Daze* was programmed for the ZX Spectrum. |
-| 18 | Tim Skelly | Tim Skelly was a programmer best known for his work on the arcade game *Reactor*. *Reactor* was the first arcade game to include the programmer's name on-screen. |
-| 18 | Dave Needle and R.J. Mical | Dave Needle and R.J. Mical were the engineers behind the Atari Lynx, released in 1989. The Lynx was notable for being the world's first colour handheld games console. |
-| 18 | David Crane | David Crane was the programmer behind *Little Computer People*. *Little Computer People* allowed the player to interact with a virtual person who lived in their computer. |
-| 18 | Mark Cale | Mark Cale was the co-founder of System 3, the company that developed the *Last Ninja* series. The first *Last Ninja* was released for the Commodore 64 and a few other platforms. The second game in the series was released for almost every gaming platform available at the time. |
-| 18 | John Twiddy | John Twiddy was a programmer who worked on all three of the *Last Ninja* games. The first *Last Ninja* game was programmed for the Commodore 64. The second game in the series introduced a new setting (New York) because it allowed for more varied environments compared to the first game, which took place in a garden. The Atari ST and Amiga versions of *Last Ninja 2* were outsourced to external programmers. |
-| 19 | John and Ste Pickford | John and Ste Pickford were brothers who worked together in the games industry for many years. Their first game together was the Spectrum game *Zub*. They later worked on the NES at Rare. One of the games they worked on at Rare was a Game Boy wrestling game that won a "Best Game Boy Game" award at CES, despite only featuring four frames of animation per wrestler. |
-| 20 | Chris Roper | Chris Roper won the Oliver Twins' remake competition at Retro Ball 2005. The game he created for the competition was a remake of the ZX Spectrum game *Horace and the Spiders*. |
-| 20 | Stephen Robertson | Stephen Robertson was a graphic artist best known for creating loading screens for the Commodore 64. One of the games he worked on was *Cybernoid*, a game known for its side-scrolling shoot 'em up gameplay. |
-| 20 | Staff at Technos Japan and American Technos | Technos Japan was a company best known for their work on the *Kunio-Kun* series of games. *Double Dragon* was one of their most commercially successful games. *WWF Superstars* (1989) and *WWF Wrestlefest* (1991) were two of their licensed games. |
-| 21 | Nolan Bushnell | The interview is about Bushnell bringing gaming to the masses. He is the creator of electronic gaming, designer of Pong, and founder of Atari. |
-| 22 | Tim Schafer | In this interview, Schafer discusses how he got his start in the gaming industry. He worked on games such as *The Secret of Monkey Island*, *Grim Fandango*, *Indiana Jones and the Fate of Atlantis*, and the *Sam & Max* series, across platforms like PC, Amiga, Mac, and Sega CD. |
-| 22 | Gary Liddon | In this interview, Liddon discusses his career and games such as *Delta*, the sequel to *Sanxion*. |
-| 23 | Andy Davidson | This interview focuses on Davidson and how his game *Total Wormage* turned into Team 17's successful franchise, *Worms*. |
-| 24 | Trip Hawkins | Hawkins discusses the forming of EA, one of gaming's biggest empires. He also talks about *M.U.L.E*, a game whose origins can be traced to Strategic Simulations Inc., for the Atari 800. He shares his thoughts on the gaming industry. |
-| 24 | Eugene Jarvis | The source mentions that Jarvis is the creator of several arcade games. |
-| 26 | Yuji Naka | Naka avoids answering most questions in this interview. He is asked about his time working for Sonic Team and about his work on an emulator that allows Famicom games to be played on the Mega Drive. |
-| 27 | Dale DeSharone | In this interview, DeSharone discusses his work on games such as *Below the Root* for the Commodore 64 and the *Zelda* games for the CD-i. |
-| 28 | Dave Grossman | This interview focuses on Grossman's work on the *Monkey Island* series. He has also worked on *Sam & Max Hit the Road*, the *Pajama Sam* series, *Freddi Fish 4*, *Ollo, Moop and Dreadly*, and other games for Humongous Entertainment and Tell Tale Games. |
-| 30 | Steve Ellis | Ellis discusses his work as Director of Free Radical Design, where he develops games for the PlayStation 3. |
-| 32 | Mark Cale | Discusses the development of **Impossible Mission** for **DS** and **PSP**, noting the effective use of the touch screen in the **DS** version and the superior visuals of the **PSP** version. |
-| 32 | Martyn Brown | Known for co-founding **Team 17**, creators of the **Worms** series and other **Amiga** classics |
-| 33 | Satoshi Tajiri | Discusses the development of **Pokémon** for the **Game Boy**, mentioning his mentorship under Shigeru Miyamoto and the naming of characters Ash and Shigeru after himself and Miyamoto. |
-| 33 | Dr Peter Favaro | Discusses the development of **Alter Ego**, a 'life simulator' released by **Activision** in **1986**. |
-| 34 | Jon Ritman | Discusses his isometric adventure game **Head Over Heels**. |
-| 34 | Ron Gilbert | Discusses the creation of **Monkey Island**, including the game's development process and his collaboration with Tim Schafer and Dave Grossman |
-| 34 | Mark Cale | Discusses the history of **System 3**, including their past titles and plans for the future. The company is known for titles like **Impossible Mission** and **The Last Ninja** |
-| 35 | Steve Wright | Discusses his time at **Atari** |
-| 35 | John Wilson | Discusses his work at **Zenobi**, a company he founded to create text-based adventure games, including **Arrival on the Atari ST**, **An Everyday Tale Of A Seeker Of Gold**, and **Fuddo And Slam**. |
-| 36 | Jonathan Thompson | Discusses a new retro game competition he is involved in, seeking new ideas inspired by classic titles like **Pac-Man**, **Space Invaders**, and **Tank Wars**. |
-| 37 | David Crane | Discusses the making of **Pitfall II: Lost Caverns** |
-| 38 | Developers at System 3 | Discuss their updated version of **California Games**, which includes **Summer Games 1 and 2** |
-| 39 | Developers of **Lemmings** | Discuss the creation of **Lemmings** |
-| 39 | Developers at Rare | Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade** |
-| 40 | Developers of **Libble Rabble** | Discuss the development of **Libble Rabble** |
-| 40 | John Romero | Discusses his time at **id Software** and the development of **Quake**, including his design philosophy and his eventual departure from the company to form **Ion Storm**. |
-| 41 | Andy Walker | Discusses his work on **Cad Cam Warrior** and **Super Pipeline 2** |
-| 41 | Kelvin Aston | Discusses his entry into the gaming industry as a QA tester for **Team17** on **Worms**, and his eventual role as lead producer on **Worms: Open Warfare 2** |
-| 42 | Alexey Pajitnov | Discusses the creation of **Tetris** |
-| 42 | Developers at **NG:DEV.TEAM** | Discuss what inspired them to create a shoot ‘em up game like **Söldner-X** for the **PlayStation 3** |
-| 42 | Jeff Minter and Giles Williams | Discuss their work at **Llamasoft**, including the development of **Space Giraffe** for **Xbox Live Arcade** and their plans for future titles like **Sheep in Space** and **Ancipital** |
-| 43 | Jon Hare | Discusses the creation of **Sensible Soccer** for the **Amiga** |
-| 44 | Developers of **Fort Apocalypse** | Discuss the development of **Fort Apocalypse** |
-| 45 | Philip Oliver | Discusses the creation of **Treasure Island Dizzy** |
-| 45 | Yuji Naka and Takashi Izuka | Discuss the making of **NiGHTS into Dreams** and its sequel, **Journey of Dreams** for the **Wii** |
-| 46 | Developers of **California Games** | Discuss the creation of **California Games** |
-| 46 | Brian Moriarty | Discusses his adventure game **Loom** |
-| 47 | Will Wright | Discusses his contributions to the gaming industry, including his work on simulation games like **SimCity** and **The Sims** |
-| 48 | Matthew Smith | Discusses the making of his seminal platformer **Manic Miner** |
-| 48 | Matthew Smith | Discusses his type-in game, **Andre’s Night Off**, which he coded in BASIC for **Computer & Video Games** magazine, and mentions his work on **Manic Miner**, **Jet Set Willy**, and **Styx** |
-| 49 | Developers at **Vectordean** | Discuss their game **Tavern RPG** |
-| 50 | Martyn Carroll | Discusses the creation of **Retro Gamer** magazine |
-| 50 | Various Developers | Discuss the games that changed their lives, including **Tir Na Nog** and **Jet Set Willy** |
-| 51 | Developers of **R-Type Delta** | Discuss the making of **R-Type Delta** for the original **PlayStation** |
-| 52 | Chris Wilkins | Discusses the upcoming **Retro Fusion** event and the guests who will be in attendance, including **Archer MacLean, Andy Nuttal, Jon Hare, Martin Hollis, Alex Trowers, Simon Goodwin**, and **Ste Pickford**. |
-| 55 | Chris Gibbs | Chris Gibbs was one of the founding members of Attention To Detail, a game development company. He worked with Jon Steele and Martin on a conversion of *Super Sprint* for the Atari ST. After this project, they were commisioned by LucasArts to make PC, Atari ST, Amiga, Commodore 64, Spectrum, and Amstrad versions of *Night Shift*. |
-| 55 | Jon Dean | Jon Dean was a producer for Activision. While there, he met Chris Gibbs, Fred Gill, and Jon Steele. They created a conversion of *Super Sprint* for the Atari ST. Dean proposed the group start a company called Attention To Detail that would work exclusively with PMC. |
-| 55 | Fred Gill | Fred Gill was one of the founding members of Attention To Detail. Before forming the company with Chris Gibbs, Jon Steele, and Jon Dean, his Spectrum shooter *Octan* was published by Firebird. |
-| 55 | Jon Steele | Jon Steele was one of the founding members of Attention To Detail. He worked with Chris Gibbs and Martin on a conversion of *Super Sprint* for the Atari ST. |
-| 56 | Hideo Kojima | Hideo Kojima is a game designer known for his work on the *Metal Gear* series. He has stated a desire to direct a film. |
-| 57 | Eugene Lacey | Eugene Lacey was involved with *Computer & Video Games* magazine during the 1980s. |
-| 58 | Jim Levy | Jim Levy was involved with the founding of Activision. He understood the desire among developers to receive credit for their work. |
-| 59 | Jon Hare | Jon Hare co-founded Sensible Software, the company behind *Sensible Soccer*. He has also worked at Argonaut Games. |
-| 60 | Trevor Storey | Issue 60 of *Retro Gamer* featured an interview with Trevor Storey. |
-| 61 | Toru Iwatani | Toru Iwatani is the creator of *Pac-Man*. In this issue, he discusses rebooting the franchise for Xbox Live Arcade. |
-| 61 | Tony Crowther | Tony Crowther developed the games *Blagger* and *Burnout Paradise*. |
-| 61 | Matthew Smith | Matthew Smith was a game developer. |
-| 61 | Jeff Minter | Jeff Minter is a game developer. |
-| 62 | Trip Hawkins | Trip Hawkins is the founder Electronic Arts (EA). He discusses EA's role in the success of the Sega Mega Drive. |
-| 62 | Tomohiro Nishikado | Tomohiro Nishikado is the creator of *Space Invaders*. |
-| 63 | Charles Cecil | Charles Cecil co-founded Revolution Software. He discusses the founding of the studio and how the Wii and DS were revitalizing point-and-click games. |
-| 63 | Archer MacLean | Archer Maclean developed *Dropzone*, which he showed to Atari UK in 1982. |
-| 63 | Harri Tikkanen | Harri Tikkanen created the *Super Stardust* series, including *Super Stardust HD* for the PS3. |
-| 63 | Kevin Toms | Kevin Toms created the *Football Manager* series. |
-| 64 | Ally Noble | Ally Noble worked at Denton Designs on a game about the pop band Frankie Goes To Hollywood. |
-| 64 | Simon Goodwin | Simon Goodwin worked at Ocean, Denton Designs, and Beyond Software. |
-| 64 | John Twiddy | John Twiddy developed *Last Ninja* and *Putty Squad*. He also worked on the Konix Multisystem. |
-| 64 | Mev Dinc | Mev Dinc created the Spectrum version of *The Last Ninja*. |
-| 64 | Jamie Woodhouse | Jamie Woodhouse is a game developer who worked on *Qwak* for Team 17 and *Nitro* for Psygnosis. |
-| 66 | Trip Hawkins | Issue 66 of *Retro Gamer* featured an interview with Trip Hawkins. He talked about his game *Crazy Penguin Catapult*. |
-| 67 | Charles Cecil | Charles Cecil co-founded Revolution Software and talked about their work on *Lure Of The Temptress* and *Broken Sword: Director's Cut*. |
-| 67 | Jon Hare | Jon Hare co-founded Sensible Software. He discussed the development of *Shoot-'Em-Up Construction Kit* for the C64. |
-| 68 |  Hideo Kojima | Issue 68 of *Retro Gamer* featured an interview with Hideo Kojima. |
-| 68 | Gary Bracey | Gary Bracey worked at Ocean Software, where he oversaw more than 104 games. Notable releases he worked on include *Batman: The Movie* and *Head Over Heels*. |
-| 69 | Takeshi Arakawa | Takeshi Arakawa is the game director of *Dissidia: Final Fantasy*. |
-| 69 | Simon Pick | Simon Pick worked at The Sales Curve, Probe Entertainment, and Digital Integration. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. |
-| 69 | James | James worked at Digital Integration and NovaLogic. He developed the *Die Hard Trilogy* game, which was released for Playstation, Saturn, and PC. This was his first published game. |
-| 69 | Geoff Crammond | Geoff Crammond developed *Super Invaders*, *Aviator*, *Revs*, *The Sentinel*, and *Stunt Car Racer*. His *Grand Prix* series is his most notable work. |
-| 70 | Jon Hare | Issue 70 of *Retro Gamer* featured an interview with Jon Hare of Sensible Software. |
-| 71 | Jeff Minter | Jeff Minter discussed his work on games including *Defender 2000*, *Revenge Of The Mutant Camels*, and *Trip-A-Tron*. He also mentioned disliking working on *Defender 2000*. |
-| 71 | N/A | Issue 71 of *Retro Gamer* featured an interview with an unnamed developer who converted *After Burner* to the Commodore 64. |
-| 71 | Peter Molyneux | Peter Molyneux worked on *Castle Crashers* and *Braid*. |
-| 72 | Philip Oliver | Philip Oliver is the co-creator of the *Dizzy* series. |
-| 72 | Tony Oakden | Tony Oakden worked as the lead programmer on *Driver*. |
-| 72 | John Gibson | John Gibson worked at Imagine, where he was involved with the *Bandersnatch* project. |
-| 72 | Stephen Crow | Stephen Crow created the game *Starquake*. |
-| 73 | Martin Hollis | Issue 73 of *Retro Gamer* featured an interview with Martin Hollis, the director and producer of *GoldenEye 007* and *Perfect Dark*. |
-| 74 | Jon Hare | Jon Hare co-founded Sensible Software, the company that developed *Sensible World of Soccer*, *Cannon Fodder*, *Mega Lo Mania*, *Wizball*, and *Wizkid*. |
-| 74 | Jon Burton | Jon Burton designed and programmed the game *Leander*. He was also involved in the development of the *LEGO* games, *Sonic the Hedgehog*, and *Crash Bandicoot*. |
-| 75 | Dave Grossman | Dave Grossman co-created *The Secret of Monkey Island* and *Day of the Tentacle*. |
-| 75 | Robert Weatherby | Robert Weatherby was involved with the development of *RoadBlasters*. |
-| 75 | Steve Bristow | Steve Bristow was involved in the development of *Pong*, *Tank*, and *Computer Space*. |
-| 76 | John Romero | John Romero worked at id Software on *Wolfenstein 3D* and *Doom*. He was responsible for programming many of the interactive elements in *Doom*. |
-| 77 | Ste Pickford | Ste Pickford worked on the game *Zub* with his brother, Jon. |
-| 77 | Dave Lebling | Dave Lebling co-created the text adventure, *Zork*. |
-| 78 | Steve Lycett | Steve Lycett worked on *Sega All-Stars Racing*. |
-| 78 | Yu Suzuki | Issue 78 of *Retro Gamer* featured an interview with Yu Suzuki. |
-| 78 | Roland Perry | Roland Perry worked for Tynesoft, where he designed the motherboard for the Amstrad CPC. |
-| 79 | Alex Trowers | Alex Trowers worked at Bullfrog on games such as *Populous* and *Theme Park*. He also worked at Black Rock Studio on *Split/Second*. |
-| 79 | Richard Hanson | Richard Hanson co-founded Superior Software. |
-| 79 | David Crane | David Crane co-founded Activision. |
-| 80 | Eric Schwartz | Eric Schwartz created public domain cartoons for the Amiga. |
-| 80 | Violet Berlin | Violet Berlin was a presenter on the video game TV shows *Bad Influence* and *Gamepad*. |
-| 80 | Larry DeMar | Larry DeMar was involved in the development of *Robotron: 2084* and *Defender*. |
-| 82 | Jamie | Jamie developed the arcade game *Gorf*. |
-| 86 | Ste Pickford | Ste Pickford co-developed the game *Zub* with his brother, Jon. He has also worked on titles in the *Plok!* series. |
-| 86 | Andrew | Andrew developed the game *Druid*. |
-| 86 | Jez San | Jez San founded Argonaut Software and worked on the game *Starglider*. |
-| 89 | Lyle Rains and Dennis Koble | Issue 89 of *Retro Gamer* features an interview with the developers of *Sprint 2*, Lyle Rains and Dennis Koble. |
-| 89 | John Szczepaniak | Issue 89 of *Retro Gamer* includes an interview with John Szczepaniak about the creation of *Resident Evil* for the Game Boy Advance. |
-| 92 | Steve Turner | Steve Turner worked for Graftgold and was involved in the creation of several ZX80, Dragon 32, Commodore 64, and Atari ST games. |
-| 94 | Nick Humphries | Issue 94 of *Retro Gamer* contains an interview with Nick Humphries, the creator of *Your Sinclair: Rock 'N' Roll Years*. |
-| 95 |  Matthew Smith | Issue 95 of *Retro Gamer* includes an interview with Matthew Smith about the creation of *Alien Trilogy*. |
-| 95 | Shaun Hollingworth | Shaun Hollingworth worked at Teque London and developed the Commodore 64 game *Firelord*. |
-| 95 | Slvye Ybarra | Issue 95 of *Retro Gamer* features an interview with Slvye Ybarra, who discusses his time working on *Project Firestart*. |
-| 96 | N/A | Issue 96 of *Retro Gamer* includes an interview with the developers of *Radiant Silvergun*. |
-| 96 | David Leitch | David Leitch worked for The Stamper brothers and was involved in the development of games for the Spectrum, such as *Double Dragon*. He also completed freelance work for Tiertex and converted *Rainbow Islands* for them. |
-| 97 | Greg Omi | Greg Omi reveals how he ported Klax from the Arcade to the Atari Lynx
-| 97 | Paul Norman | Paul Norman discusses the making of Aztec Challenge for the Commodore 64
+So if you are looking for primary source information on how classic games were made, it is arguably the industry standard for print media.
+
+We have a seperate page with an index of all the interviews, articles and other information about the magazine here:
+{% include link-to-other-post.html post="/retro-gamer" %}
 
 ---
 # Creative Magazines
@@ -449,18 +275,21 @@ Creative Magazines related to topics such as art/3d graphics and even web develo
 
 Title | Country | ISSN | Notes
 ---|---|---|---
-3D Artist | UK | | UK magazine published by Imagine Publishing from 2009 until December 2019
-3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
-3D World | Global | |  magazine from ? and still going today
+![](https://github.com/user-attachments/assets/56251087-3262-4ced-96ab-810f2556759d){:width="100"} 2D Artist | UK | N/A (online only) |  Online magazine by UK publisher Zoo Publishing dedicated to 2D Art
+![](https://github.com/user-attachments/assets/0782d956-1697-491e-87c3-dd917cd64a60){:width="100"} 3D Artist | UK | 1759-9636 | UK magazine published by Imagine Publishing from 2009 until December 2019
+![](https://github.com/user-attachments/assets/890bf7d8-216c-4332-94d7-b8f2db79b60d){:width="100"} 3D Art Direct | UK | N/A (online only) | Online magazine all about Fantasy & SCI-FI art interviews 
+![](https://github.com/user-attachments/assets/77d1b21d-9a71-4743-852d-6b6f8e0a0a3d){:width="100"} 3D Design | US | 1083-5288 | Magazine published by Miller Freeman, changed its name to just 3D in July 1999 issue
+![](https://github.com/user-attachments/assets/bdaa7182-7f30-42b3-b097-524211f155a6){:width="100"} 3D World | Global | 1470-4382 | Dedicated 3D Magazine from 2000 until October 2024
 Computer Artist | USA | |  magazine From 1994 until at least 1997 published by PennWell Publishing Company
-Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
-Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
+![](https://www.retroreversing.com/public/images/magazines/Computer%20Arts.jpg){:width="100"} Computer Arts | UK | | magazine from 1995 until 2020 but was also published globally
+![](https://github.com/user-attachments/assets/5115fe6e-d8e4-48b2-aad0-68edd1ce0d89){:width="100"} Computer Arts Projects | UK | | Called Computer Arts Special until issue  
+![](https://www.retroreversing.com/public/images/magazines/Computer%20Graphics%20World.jpg){:width="100"} Computer Graphics World | USA | | magazine from 1977 until 2022 published by PennWell Publishing Company
 Cre@teOnline | UK | | Magazine from 2000 until ?
-Digit | UK | | magazine that was published by IDG and lasted 112 issues until it got renamed into Digital Arts
-Digital Arts | UK | | magazine
+Digit | UK | | Published by IDG and lasted 112 issues until it got renamed into Digital Arts
+Digital Arts | UK | | UK magazine published from ? until ? previously called Digital Arts
 Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
 Photoshop Creative | UK | | Published until September 2018
-Web Desginer | UK | |  magazine from 2004 until ?
+![](https://www.retroreversing.com/public/images/magazines/Web%20Designer.jpg){:width="100"} Web Desginer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
 
 ---
@@ -903,6 +732,106 @@ Issue # | Title | Author | Notes
 ---|---|---|---
 ISSUE 126 (1997) | Programmers World: Reviewed this month are a library of useful program source code for Delphi, a DirectX toolkit for VB game programmers, and MSDN |
 
+---
+# Translating Foreign magazines
+In the age of AI it should be easier than ever to research using non-english magazines, providing rare interviews with early game developers which never made it to english speaking countries.
+
+If you just want to be able to read the content in Text form, ChatGPT 4o (other providers are available) is fairly accurate, just take a screenshot of a page and ask it to translate it to english and you get the basic text content in Markdown format.
+
+However while translating the content of an image of a single page is very easy and accurate with ChatGPT, if you want to be able to read using the original magazine layout but with english text it is very hard to find a tool good enough to do the job. 
+
+This section of the page will review the tools I have tried so far to translate Japanese magazine pages to english while keeping the format of the original image. 
+
+Here is the page that I have used for all of the tests, it is a fairly simple layout and its from the August 1989 issue of Famitsu (issue 80/81) which is an interview with Alexey Pajitnov, the creator of Tetris:
+![Tetris](https://github.com/user-attachments/assets/e9c08921-5833-49db-b0c3-771e731bf315)
+
+## ChatGPT 4o
+ChatGPT 4o does a great job of translating the text but cannot generate an image in the same format as the original magazine, the text content is placed here to help compare the other providers text translation:
+```
+# Tetris Lawsuit, Soviet Game Affairs...
+
+# Direct Interview with the Creator of "TETRIS"!!
+
+From fanbooks to international bestsellers—TETRIS is a global phenomenon!
+We met up with the creator, Alexey Pajitnov, in Tokyo for this exclusive interview! A genius from the Soviet Union has gifted the world one of the greatest puzzle games ever made.
+
+Meeting Alexey in person, we asked about the Tetris copyright battle, the Soviet game industry, and more.
+
+## Interviewer:
+
+Let’s get straight to the point—who actually owns the rights to Tetris?
+
+## Alexey:
+
+Originally, the rights to Tetris were owned entirely by the Soviet government. Everything I developed was government property, as I was working at a computer research institute at the time. So the rights belonged to the USSR, not to me personally.
+
+## Interviewer:
+
+So when did you first hear that the game had become a global hit?
+
+## Alexey:
+
+In February, I came to the U.S. for the first time and saw the Famicom version. I was shocked! There were so many versions—arcade, home console, PC... I had no idea.
+
+## Interviewer:
+
+What do you think of the home console and arcade versions of Tetris?
+
+## Alexey:
+
+Honestly, I’m thrilled. I created Tetris as a simple computer puzzle, and to see it now in so many forms is overwhelming. As a game designer, it’s a dream come true.
+
+## Interviewer:
+
+What do you think of Japanese developers' interpretations of Tetris?
+
+## Alexey:
+
+Japanese versions are amazing. They’ve taken my simple idea and turned it into something truly spectacular. The arcade version especially is so polished. The sprite movement is clean and fast—it’s very impressive.
+
+## Interviewer:
+
+What was it like working as a game designer in the Soviet Union?
+
+## Alexey:
+
+In the USSR, there wasn’t really a profession like "game designer." I was working with computer logic and AI studies. Game design was just something I did on the side. The concept of making games professionally didn’t exist in the Soviet Union.
+
+## Interviewer:
+
+Do you have any plans for future games?
+
+## Alexey:
+
+Yes, I'm involved in a few other projects besides Tetris. But they’re not quite ready yet. I hope one day people around the world will play those too.
+
+---
+
+### Caption Highlights:
+
+* "The Tetris games taking the world by storm!"
+* “This is the man behind the worldwide Tetris sensation—Alexey Pajitnov!”
+* “Pajitnov, originally a computer scientist, speaks softly but has a passionate love for puzzles.”
+* "In Japan, Tetris even came out on the Famicom, and seeing it for the first time brought a huge smile to his face."
+* Bottom right photo: "Soviet Tetris team visiting Japan—Pajitnov laughs as he tries Japanese versions of his own game!"
+```
+
+## Slider.ai - Missing text
+Slider came up at the top of a google search and offered to "translate images and photos online into 50+ languages with precision and ease.". It certainly does it with ease but the results were far from precise:
+![sliderai](https://github.com/user-attachments/assets/48b9308a-c594-42e5-bafe-dc87686e9155)
+
+## Mangaaday.ai - Messy text
+Magazines are rather obscure, not many people are looking to translate them, manga on the other hand have a huge community of people who want to translate from japanese to english so I was excited to try Mangaaday, the results were not the best of quality:
+![magaaday](https://github.com/user-attachments/assets/6d64001e-15fc-4207-809f-e433b27976ca)
+
+## kling.ai
+Kling.ai is not a translator but it does offer image-to-image transformation so I thought I would try it with the prompt "Keep the image exactly the same but translate the text to English". Sadly although the result is cute it is completely unusable.
+<img width="447" height="550" alt="image" src="https://github.com/user-attachments/assets/1975ddca-7518-49b7-982b-d3edbb29424d" />
+
+
+## Transmonkey - best so far
+Another online service that advertises its ability to translate Manga is Transmonkey, it provided the best result so far but its not quite perfect, it has a very manga-like font (unsurprisingly) which takes away points from the quality of the output:
+![Tetris-transmonkey](https://github.com/user-attachments/assets/473eceb2-8eb2-47f6-9e63-79fde3aaa255)
 
 ---
 # References

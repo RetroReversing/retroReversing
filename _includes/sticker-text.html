@@ -1,49 +1,9 @@
-<!-- To Use add braces around: % include sticker-text.html text=""  %  -->
-<style>
-/* * {
-  box-sizing: border-box;
-} */
-
-.sticker {
-  --c1: #ef548f;
-  --c2: #ef8b6d;
-  --shine-angle: 15deg;
-  display: inline-grid;
-  grid-template-areas: "text";
-  place-items: center;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 900;
-/*   font-style: italic; */
-  font-size: clamp(3rem, 5vw, 10rem);
-  text-transform: uppercase;
-  color: var(--c2);
-}
-.sticker-lg {
-  font-size: clamp(6rem, 30vw, 20rem);
-}
-.sticker span {
-  background: -webkit-gradient(linear, left top, left bottom, from(var(--shine-angle)), color-stop(0%, rgba(255, 0, 0, 0)), color-stop(35%, rgba(255, 0, 0, 0)), color-stop(49.95%, rgba(255, 255, 255, 0.98)), color-stop(50.15%, rgba(255, 255, 255, 0.98)), color-stop(65%, rgba(255, 0, 0, 0)), to(rgba(255, 0, 0, 0))), -webkit-gradient(linear, left top, right top, from(var(--c1)), to(var(--c2)));
-  background: linear-gradient(var(--shine-angle), rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 35%, rgba(255, 255, 255, 0.98) 49.95%, rgba(255, 255, 255, 0.98) 50.15%, rgba(255, 0, 0, 0) 65%, rgba(255, 0, 0, 0)), linear-gradient(to right, var(--c1), var(--c2), var(--c2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 0.01em rgba(0, 0, 0, 0.6);
-}
-.sticker > *, .sticker::before, .sticker::after {
-  grid-area: text;
-}
-.sticker::before, .sticker::after {
-  content: attr(data-text);
-  color: #fff;
-}
-.sticker::before {
-  -webkit-text-stroke: 0.21em white;
-/*   background: no-repeat -webkit-gradient(linear, left top, left bottom, from(white), to(white)) 15% 50%/85% 60%;
-  background: no-repeat linear-gradient(white, white) 15% 50%/85% 60%; */
-}
-.sticker::after {
-  text-shadow: 0.07em 0.08em 0.05em rgba(0, 0, 0, 0.75), -0.07em -0.05em 0.05em rgba(0, 0, 0, 0.75);
-  z-index: -2;
-}
-</style>
-
-<span class="sticker wow slideInLeft" data-text="{{ include.text }}" style="--shine-angle: 8deg; width: 15vw; float: left;"><span>{{ include.text }}</span></span>
+{% comment %}
+  To Use in a Post: {% raw %} {% include sticker-text.html text=""  %} {% endraw %}
+  Css is in the post.css file
+{% endcomment %}
+<div class="sticker-container">
+  <span class="sticker wow slideInLeft" data-text="{{ include.text }}" style="--shine-angle: 8deg; --c1: {{ include.color1 }}; --c2: {{ include.color2 | default: include.color1 }};">
+    <span>{{ include.text }}</span>
+  </span>
+</div>

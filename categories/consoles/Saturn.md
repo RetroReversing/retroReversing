@@ -21,6 +21,8 @@ breadcrumbs:
 redirect_from:
   - /segasaturn
   - /ss
+tags:
+  - saturn
 ---
 
 # Introduction to Hacking/Modding/Reversing the Sega Saturn
@@ -31,6 +33,7 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your Sega Saturn controller, and get ready to dive into the exciting world of Sega Saturn reverse engineering!
 
 {% include link-to-other-post.html post="/saturn-reversing" description="For an introduction on reverse engineering Sega Saturn games check out this post." %}
+
 ---
 ## Sega Saturn Exclusives
 When it comes to finding a game to reverse engineer it can be helpful to look at games that are cross-platform to compare builds. But the most valuable reverse engineering projects tend to be the platform exclusives as these are games people can no longer play on modern consoles.
@@ -88,7 +91,7 @@ The Sega ST-V arcade board is basically a Sega Saturn located in an arcade cabin
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by nintendo as a few other publishers had their own versions of development hardware.
 
 ### Official Development Kits
-The official development kit for the N64 was a partnership between SEGA and Sophia and the hardware evolved over time. The first development kit released was called the `Saturn Programming box` or `P-box` and evolved into the `Cart-Dev` system.
+The official development kit for the Saturn was a partnership between SEGA and Sophia and the hardware evolved over time. The first development kit released was called the `Saturn Programming box` or `P-box` and evolved into the `Cart-Dev` system.
 
 {% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For more information on the official Segas Saturn Devkit check out this post." %}
 

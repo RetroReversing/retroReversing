@@ -85,6 +85,14 @@ You can view a product demo created by AutoDesk in 1996 [^6] below:
 
 The video even shows Character Studio which is a tool to help create 3D animated characters and has built in animations for common walk cycles.
 
+## 3D Studio Max 4 (2000)
+
+**3D Studio Max 4** was advertised at GDC 2001 including was a brief interview with Lance Alameda the Field Operations Manager at Discreet in the TV Show Electric Playground (Season 6 Episode 8) [^7]:
+<img width="1439" height="900" alt="Electric Playground - Still Frame" src="https://github.com/user-attachments/assets/adc798d8-80bb-40c3-ab57-0896c2630c95" />
+<img width="997" height="534" alt="Electric Playground - Showing Army Guy head being modelled in 3dsmax 4" src="https://github.com/user-attachments/assets/867d4f8e-6bbf-41f0-9527-336f22afe4a5" />
+
+
+
 ---
 # Retro Games that used 3DS Max
 Game Studios don't tend to advertise which 3D modeling program they used for the creation of specific games, and models tend to be compressed into game specific formats when released. So it can be hard to tell what games used 3D Studio (Max) but the games we know about will be placed in the table below.
@@ -93,7 +101,10 @@ Game Name | Game Developer | Notes
 ---|---|---
 Monopoly CD-ROM | Westwood Studios | Article from 1996 issue of CGW confirms this [CGW: Feature: New Tools for 3D Gamers (12.96)](https://web.archive.org/web/19970617215259/http://www.cgw.com/cgw/Archives/1996/12/12story1.html)
 LEGO Racers | High Voltage Software | Found 3d files that use the .max extension [LEGO Research Realm](https://mega.nz/folder/LsFCzBjI#3L423HFnhifIYR39xUw2LA/folder/fk8FwYJD)
+MechWarrior | Quantum Factory | Electric Playground (Season 6 Episode 8)
+Metal Gear Solid | Konami | Electric Playground (Season 6 Episode 8)
 Premier Manager (PS2) | Runecraft | Issue 20 of PSi2 Magazine shows very low resolution screenshots of 3d modelling the statium which looks very similar to 3ds Max. 
+Tomb Raider | Core Design | Electric Playground (Season 6 Episode 8)
 
 If you know any games that used 3D Studio for asset creation and have a source to back it up, please contribute by editing this page!
 
@@ -119,3 +130,4 @@ Jurassic Park: the Lost World | DreamWorks | Article from 1996 issue of CGW conf
 [^4]: [Autodesk 3D Studio R3 presentation (DOS, 1994) - YouTube](https://www.youtube.com/watch?v=72HjLrSzgRU)
 [^5]: [3D Studio 1994 - YouTube](https://www.youtube.com/watch?v=NnBDRqNOCl4)
 [^6]: [3D STUDIO MAX KINETIX DEMO 1996 - YouTube](https://www.youtube.com/watch?v=y8azQEceSJo)
+[^7]: Electric Playground (Season 6 Episode 8)

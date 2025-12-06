@@ -20,6 +20,8 @@ recommend:
 recommendTitle: All Atari 2600 Posts
 editlink: ../categories/consoles/Atari2600.md
 updatedAt_: '2022-12-08'
+tags:
+  - atari
 ---
 
 # Introduction

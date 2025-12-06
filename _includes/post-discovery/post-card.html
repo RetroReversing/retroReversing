@@ -1,0 +1,52 @@
+{% comment %}
+The post-card component is used to show a single post with the image, heading and last updated At time. 
+It is used in multiple places such as the homepage, in post playlists and the recommendation sidebar
+
+Some Notes:
+* It does not show posts with "hidden" in their front matter.
+* If there is no image for the page it will first check if it has a youtube and use that otherwise it will generate a fake preview using the placeholder-post-image.html include
+
+Usage:
+  {% raw %}{% include post-discovery/post-card.html post=post classes="" %}{% endraw %}
+
+Parameters:
+  * post - the full page/post object (e.g from a loop of site.pages)
+  * classes - optional classes to apply to the top level div
+{% endcomment %}
+
+{% if include.hidden %}
+  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="{{ include.post.image }}" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
+{% else %}
+  <div class="{{ include.classes }} card card-video">
+      <div class="card-img">
+          <a href="{{ include.post.url }}" target="_blank">
+            {% if include.post.image %}
+                <img class="lazy-load" data-image-full="{{ include.post.image }}" alt="{{ include.post.title }}">
+            {% elsif include.post.youtube %}
+                <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ include.post.youtube }}" alt="{{ include.post.title }}">
+            {% else %}
+                {% include placeholder-post-image.html title=include.post.title post=include.post %}
+            {% endif %}
+          </a>
+          {% if include.post.recommend %}
+            <div class="card-meta">
+              {% if include.post.recommend.first %}
+                <span>{{ include.post.recommend.first }}</span>
+              {% else %}
+                <span>{{ include.post.recommend }}</span>
+              {% endif %}
+            </div>
+          {% endif %}
+      </div>
+      <div class="card-block">
+           <h4 class="card-title">
+             <a href="{{ include.post.url }}" aria-label="{{ site.baseurl }}{{ include.post.url }}" target="_blank" >{{ include.post.title }}</a>
+           </h4>
+           <div class="card-meta">
+             {% if include.post.updatedAt %}
+                <span><i class="fa fa-clock"></i> {{ include.post.updatedAt | date_to_long_string: "ordinal" }}</span>
+             {% endif %}
+           </div>      
+      </div>
+  </div>
+{% endif %}

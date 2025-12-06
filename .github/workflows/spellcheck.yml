@@ -1,9 +1,11 @@
 name: Typo CI
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - 'categories/**/*.md'
+      - 'pages/**/*.md'
 jobs:
   spellcheck:
     name: Typo CI (GitHub Action)

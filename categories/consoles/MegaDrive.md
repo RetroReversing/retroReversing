@@ -20,6 +20,9 @@ redirect_from:
   - /megadrive
   - /mega-drive
   - /genesis
+tags:
+  - megadrive
+  - sega
 ---
 
 # Introduction
@@ -92,7 +95,7 @@ To find out about the Official SEGA Mega Drive Software development Kit check ou
 
 ---
 ## In-House Development Software
-It was common in the industry to development software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.
+It was common in the industry to develop custom software in-house to make the game development process easier not just for the current game but also future games targetting the same hardware.
 
 ### DARI and KETCHUP (Game Arts)
 For the development of the Mega Drive game **Alisia Dragoon**, Game Arts created some in-house development software called KETCHUP and DARI:
@@ -102,7 +105,7 @@ For the development of the Mega Drive game **Alisia Dragoon**, Game Arts created
 ![DARI development software](https://github.com/user-attachments/assets/95868040-6b64-4ac3-b289-398d1fd50c30)
 
 
-In the image below you can see Main Programmer **Naozumi Honma** on the left and Assistant Programmer Osamu Harada on the right along with their **Sharp X68000** development computers (and Mega Drive controller presumably hooked up to a development kit) [^3]:
+In the image below you can see the Main Programmer **Naozumi Honma** on the left and Assistant Programmer Osamu Harada on the right along with their **Sharp X68000** development computers (and Mega Drive controller presumably hooked up to a development kit) [^3]:
 ![image](https://github.com/user-attachments/assets/ea1b6728-814a-4075-ace2-414e976cacdc)
 
 
@@ -133,6 +136,19 @@ Part 1:
 
 Part 2:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tdjVfl_YWd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+# Games
+
+## Exclusives
+
+Platform Name | List of games exclusive to that Platform
+---|---
+Sega 32X | [Sega 32X-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_32X-only_games)
+Sega CD |[Sega CD-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_CD-only_games)
+Sega Mega Drive | [Sega Genesis-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_Genesis-only_games)
+
+
 
 ---
 # All Posts

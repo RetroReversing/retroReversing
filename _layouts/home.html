@@ -2,145 +2,85 @@
 <html lang="en">
 <head>
   {% include head.html %}
-  <style>
-    .rr-head-hero {
-      width: 80%; 
-      display: list-item;
-    }
-    @media screen and (max-width: 600px) {
-      .rr-head-consoles {
-        display: none;
-      }
-      .rr-head-hero {
-        width: 100%; 
-        display: list-item;
-      }
-    }
-    
-    .console-img {
-      width: 45px;
-      margin-left: 10px;
-    }
-    .head-console-list {
-      padding: 5px;
-      overflow: scroll;
-      height: 350px;
-    }
-    .head-console-item {
-      display: flex;
-      padding: 10px;
-      color: white;
-      font-weight: bold;
-      justify-content: space-between;
-    }
-    .head-console-item:hover {
-      background-color: rgba(255,255,255,0.1)
-    }
-    .head-console-item strong {
-        color:white;
-      padding: 10px
-    }
-    
-    .console-post-numbers {
-      border-radius: 15px;
-/*       background-color: #ffffffcc; */
-      padding: 5px;
-      margin-left: 20px;
-      font-size: small;
-/*       color: black; */
-      height: 30px;
-      min-width: 30px;
-      text-align: center;
-      margin-top: 5px;
-    }
-  </style>
+  <!-- Homepage specific css  -->
+  <link rel="stylesheet" href="{{ '/public/css/homepage.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 </head>
 <body class="fixed-header">
   <!-- header -->
   {% include header.html %}
   <!-- /header -->
 
-  <!-- main -->
-  <div class="rr-head-hero-container">
-    <div class="rr-head-hero">
-<!--       {% include hero.html %} -->
-      {% include homepage-slider.html %}
-    </div>
-    <div class="rr-head-consoles" style="width:20%; background-color: #292F33;">
-	    	<ul class="head-console-list">
-          <a href="/n64/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%2064.png" /> <strong>Nintendo 64</strong><span class="console-post-numbers">33</span></li></a>
-          <a href="/saturn/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Saturn.png" /> <strong>Sega Saturn</strong><span class="console-post-numbers">20</span></li></a>
-          <a href="/ps1/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sony%20Playstation.png" /> <strong>Sony Playstation</strong><span class="console-post-numbers">19</span></li></a>
-          <a href="/ps2" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sony%20PlayStation%202.png" /> <strong>Sony Playstation 2</strong><span class="console-post-numbers">12</span></li></a>  
-          <a href="/gameboy/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/NintendoGameBoyThumb.png" /> <strong>Nintendo GameBoy</strong><span class="console-post-numbers">10</span></li></a>
-          <a href="/nes/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo Entertainment System.png" /> <strong>Nintendo</strong> <span class="console-post-numbers">10</span></li></a>
-          <a href="/gba/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20Game%20Boy%20Advance.png" /> <strong>Nintendo GBA</strong><span class="console-post-numbers">8</span></li></a>
-          <a href="/wiiU/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20WiiU.png" /> <strong>Nintendo Wii U</strong><span class="console-post-numbers">7</span></li></a>
-          <a href="/dreamcast/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Dreamcast.png" /> <strong>Sega Dreamcast</strong><span class="console-post-numbers">6</span></li></a>
-          <a href="/xbox/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Microsoft%20Xbox.png" /> <strong>Microsoft Xbox</strong><span class="console-post-numbers">6</span></li></a>
-          <a href="/gamecube/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20Gamecube.png" /> <strong>Nintendo Gamecube</strong><span class="console-post-numbers">6</span></li></a>
-          <a href="/md/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Megadrive.png" /> <strong>Sega MegaDrive</strong><span class="console-post-numbers">5</span></li></a>
-          <a href="/snes/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Super Nintendo Entertainment System.png" /> <strong>Super Nintendo</strong><span class="console-post-numbers">4</span></li></a>
-          <a href="/gamegear/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Game%20Gear.png" /> <strong>Sega Game Gear</strong><span class="console-post-numbers">2</span></li></a>
-          <a href="/PokemonMini/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/PokemonMini.png" /> <strong>Pokemon Mini</strong><span class="console-post-numbers">2</span></li></a>
-          <a href="/sms/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20-%20Master%20System.png" /> <strong>Sega Master System</strong><span class="console-post-numbers">1</span></li></a>
-
-        </ul>
-    </div>
-  </div>
-
-  <section class="toolbar toolbar-links">
-    <div class="container" style="width:80%">
-      <h5 style="margin-left: -10px">Latest Posts ({{site.pages | size}})</h5>
-      
-      <!--<ul class="toolbar-nav hidden-md-down m-r-25">
-        <li><a href="#tutorials">Tutorials</a></li>
-        <li class="active"><a href="#games">Games</a></li>
-      </ul>-->
-    </div>
-  </section>
-
   <section class="rr-home-section">
-    <div class="container">
-      <div class="row row-5">
-        {% assign all_pages = site.pages | sort: 'updatedAt' | reverse %}
-        {% for post in all_pages %}
-          {% if post.layout == 'post' && post.permalink %}
-            {% if forloop.index > 12 %}
-                {% include home-card.html post=post classes="" %} 
-            {% else %}
-                {% include home-card.html post=post classes="" %} 
-            {% endif %}
-          {% endif %}
-        {% endfor %}     
+    <div class="rr-home-section-left">
+        <div class="rr-head-consoles" style="background-color: #292F33;">
+          <ul class="head-console-list">
+            <a href="/n64/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%2064.png" /> <strong>Nintendo 64</strong><span class="console-post-numbers">33</span></li></a>
+            <a href="/saturn/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Saturn.png" /> <strong>Sega Saturn</strong><span class="console-post-numbers">20</span></li></a>
+            <a href="/ps1/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sony%20Playstation.png" /> <strong>Sony Playstation</strong><span class="console-post-numbers">19</span></li></a>
+            <a href="/ps2" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sony%20PlayStation%202.png" /> <strong>Sony Playstation 2</strong><span class="console-post-numbers">12</span></li></a>  
+            <a href="/gameboy/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/NintendoGameBoyThumb.png" /> <strong>Nintendo GameBoy</strong><span class="console-post-numbers">10</span></li></a>
+            <a href="/nes/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo Entertainment System.png" /> <strong>Nintendo</strong> <span class="console-post-numbers">10</span></li></a>
+            <a href="/gba/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20Game%20Boy%20Advance.png" /> <strong>Nintendo GBA</strong><span class="console-post-numbers">8</span></li></a>
+            <a href="/wiiU/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20WiiU.png" /> <strong>Nintendo Wii U</strong><span class="console-post-numbers">7</span></li></a>
+            <a href="/dreamcast/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Dreamcast.png" /> <strong>Sega Dreamcast</strong><span class="console-post-numbers">6</span></li></a>
+            <a href="/xbox/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Microsoft%20Xbox.png" /> <strong>Microsoft Xbox</strong><span class="console-post-numbers">6</span></li></a>
+            <a href="/gamecube/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Nintendo%20Gamecube.png" /> <strong>Nintendo Gamecube</strong><span class="console-post-numbers">6</span></li></a>
+            <a href="/md/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Megadrive.png" /> <strong>Sega MegaDrive</strong><span class="console-post-numbers">5</span></li></a>
+            <a href="/snes/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Super Nintendo Entertainment System.png" /> <strong>Super Nintendo</strong><span class="console-post-numbers">4</span></li></a>
+            <a href="/gamegear/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20Game%20Gear.png" /> <strong>Sega Game Gear</strong><span class="console-post-numbers">2</span></li></a>
+            <a href="/PokemonMini/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/PokemonMini.png" /> <strong>Pokemon Mini</strong><span class="console-post-numbers">2</span></li></a>
+            <a href="/sms/" target="_blank"><li class="head-console-item"> <img alt="img" class="console-img" src="/public/consoles/Sega%20-%20Master%20System.png" /> <strong>Sega Master System</strong><span class="console-post-numbers">1</span></li></a>
+
+          </ul>
+        </div>
+      <!-- Twitter feed -->
+      <div class="rr-twitter">
+        <!-- <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+        <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+        <bsky-embed
+          username="retroreversing.bsky.social"
+          mode="dark"
+          limit="20"
+        >
+        </bsky-embed>
       </div>
-      
-      
+    </div>
+
+    <div class="rr-home-section-right">
+      {% include homepage/post-playlist.html heading="Recently Updated Posts" limit=4 hide_show_all=true %}
+      {% include homepage/post-playlist.html tag="introduction" heading="Introduction to Game Reversing" limit=4 %}
+      {% include homepage/post-playlist.html tag="devkit" heading="Explore Console Development Kit Hardware" limit=4 %}
+      {% include homepage/post-playlist.html tag="sdk" heading="Console & PC Software Development Kits" limit=4 %}
+      {% include homepage/post-playlist.html tag="industry" heading="Game Industry History" limit=4 %}
+      {% include homepage/post-playlist.html tag="games" heading="Explore your favourite games" limit=4 %}
+      {% include homepage/post-playlist.html tag="leak" heading="Notable Source Code Leaks" limit=4 %}
+      {% include homepage/post-playlist.html tag="ps2" heading="Playstation 2 Reverse Engineering" limit=4 %}
+      {% include homepage/post-playlist.html tag="n64" heading="Nintendo 64 Reverse Engineering" limit=4 %}
+      {% include homepage/post-playlist.html tag="nes" heading="NES & Famicom Reversing" limit=4 %}
+      {% include homepage/post-playlist.html tag="ps1" heading="PlayStation One Reversing" limit=4 %}
+      {% include homepage/post-playlist.html tag="saturn" heading="Sega Saturn Reversing" limit=4 %}
+      {% include homepage/post-playlist.html tag="gba" heading="Game Boy Advance" limit=4 %}
+      {% include homepage/post-playlist.html tag="tools" heading="Tools" limit=4 %}
+      {% include homepage/post-playlist.html tag="middleware" heading="Middleware" limit=4 %}
+      {% include homepage/post-playlist.html tag="gameengines" heading="Game Engines" limit=4 %}
+      {% comment %}
+      {% include homepage/post-playlist.html tag="psp" heading="Sony PSP Reversing" limit=4 %}
+      {% include homepage/post-playlist.html tag="3d" heading="3D Software" limit=4 %}
+      {% endcomment %}
+  
+      {% assign total_number_of_pages = site.pages | size %}
+      {% capture heading_with_total_number_of_pages %}
+        All Posts ({{ total_number_of_pages }})
+      {% endcapture %}
+      {% include homepage/post-playlist.html heading=heading_with_total_number_of_pages limit=total_number_of_pages hide_show_all=true %}
    
     </div>
     
-    <div class="rr-twitter">
-      <!-- <a class="twitter-timeline" data-lang="en" data-theme="dark" href="https://twitter.com/RetroReversing?ref_src=twsrc%5Etfw">Tweets by RetroReversing</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-      <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-      <bsky-embed
-        username="retroreversing.bsky.social"
-        mode="dark"
-        limit="20"
-      >
-      </bsky-embed>
-    </div>
       
   </section>
   <!-- /main -->
 
   {% include footer.html %}
-
-  <script>
-  var pageData = {{ page | jsonify | strip_newlines }};
-
-  console.log("TODO: Load the cards dynamically on scroll instead of all at once", pageData);
-</script>
-
  
 </body>
 </html>

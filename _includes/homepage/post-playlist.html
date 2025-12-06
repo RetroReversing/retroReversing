@@ -1,0 +1,51 @@
+{%- comment -%}
+  Show a playlist of pages (site.pages) with a heading, only show pages with a valid parmalink and layout "post".
+  
+Usage:
+  {% raw %}{% include homepage/post-playlist.html tag="introduction" heading="Introductory posts" %}{% endraw %}
+
+  Required Parameters:
+   * heading: Heading to display above the playlist
+  Optional parameters:
+   * tag: Filter pages by this tag (default is no filter)
+   * limit: Number of pages to show (default: 10)
+   * hide_show_all: Whether to hide the default show all button
+   * pinned_permalink: Permalink to "pin" at the start of the list
+  Notes:
+   * deliberate use of "updatedAt" so it only includes posts that have a date manually set rather than the default one.
+{%- endcomment -%}
+
+{%- assign limit = include.limit | default: 10 -%}
+
+{%- if include.heading and include.heading != "" -%}
+  {%- assign heading = include.heading -%}
+{%- elsif include.tag and include.tag != "" -%}
+  {%- capture heading -%}Posts tagged with {{ include.tag }}{%- endcapture -%}
+{%- else -%}
+  {%- assign heading = "Interesting posts" -%}
+{%- endif -%}
+
+{%- if include.tag and include.tag != "" -%}
+  {%- assign filtered_pages = site.pages | where_exp: "page", "page.tags contains include.tag" -%}
+{%- else -%}
+  {%- assign filtered_pages = site.pages -%}
+{%- endif -%}
+{%- assign filtered_pages = filtered_pages | sort: "updatedAt" | reverse -%}
+
+<div class="rr-post-playlist">
+  <div class="toolbar toolbar-links">
+    <h5>{{ heading }}</h5>
+    {%- if include.hide_show_all != true -%}
+        <ul class="toolbar-nav hidden-md-down m-r-25"><li><a href="{{ site.baseurl }}{{ include.tag }}">Show All {{ filtered_pages | size }} Posts</a></li></ul>
+    {%- endif -%}
+  </div>
+  <div class="rr-post-playlist-container">
+    <div class="row rr-post-playlist-row {{ include.classes }}">
+      {%- for relevant_page in filtered_pages limit: limit -%}
+        {%- if relevant_page.layout == "post" and relevant_page.permalink -%}
+          {% include post-discovery/post-card.html post=relevant_page classes="" %}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>

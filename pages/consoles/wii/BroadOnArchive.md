@@ -27,19 +27,22 @@ videocarousel:
     youtube: 'n8G7eq0GlQs'
 ---
 
-In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as **Zammis Clark**.
+In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as **Zammis Clark**. One of these was the **BroadOn Archive** a file simply called **unsorted.zip** which contained material from the company **BroadOn**.
 
-More content was later uploaded throughout 2020 such as the Gigaleak which contained source code for many popular Nintendo classics.
+**BroadOn** was a third-party hardware and software company contracted by Nintendo, particularly involved during the era of the Wii console. BroadOn specialized in advanced technology development, and Nintendo engaged them for significant work on hardware and software components such as the **iQue**.
+
+More content was later uploaded throughout 2020 such as the **Gigaleak** which contained source code for many popular Nintendo classics.
 {% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
+This page details the contents of the BroadOn Archive
 
 # The Uploads 
-The material itself was uploaded twice, the first upload was named `unsorted.zip`. The problem with this archive was that it contained many files with the extension `,v` (comma intentional).
+The material itself was uploaded twice, the first upload was named **unsorted.zip**. The problem with this archive was that it contained many files with the extension `,v` (comma intentional).
 
-The archive was then re-uploaded with the CVS files fixed and called it "unsorted-nocvs.zip".
+The archive was then re-uploaded with the CVS files fixed and called it **unsorted-nocvs.zip**.
 
 ## What are CVS Files
-Concurrent Versions System or CVS is a version control system which predates both Git and SVN and was based on the Revision Control System (RCS).
+**Concurrent Versions System** or CVS is a version control system which predates both Git and SVN and was based on the Revision Control System (RCS).
 
 When the files were downloaded from the Nintendo server they were in a CVS repository. 
 
@@ -56,15 +59,17 @@ However the advantage of the CVS version is that it contains the commit history 
 
 ## Contents of the Archive
 Whether you have the original or the NOCVS fixed version you will get 3 different tar files in the archive:
-* rvl-factory.tar - 111.3MB (Not affected by CVS)
-* depot.tar -  2.9GB
-* depotrvl.tar - 533.9MB
+* **rvl-factory.tar** (111.3MB) - (Not affected by CVS)
+* **depot.tar** (2.9GB) - iQue specifications by RouteFree
+* **depotrvl.tar** 533.9MB
 
 ---
 # Depot.tar - iQue specifications by RouteFree
-The name depot may be related to the network functionality of the iQue  known as the iQue Depot. 
+<img width="375" height="394" alt="Image of the iQue Depot physical kiosk used in China" src="https://github.com/user-attachments/assets/855c0c43-38ab-4c9b-b21a-e81540f1c349" />
 
-The iQue Depot is the service that was later enchanted and used for the Nintendo Wii. 
+The name depot may be related to the network functionality of the iQue known as the **iQue Depot** [^3] which you can find more information on over at [iQue Depot - iQueBrew](http://www.iquebrew.org/index.php?title=IQue_Depot). 
+
+The iQue Depot is the service that was later enhanced and used for the Nintendo Wii.
 
 ## CVSROOT Folder
 As the name implies this folder is for the configuration of the Concurrent Versions System. You can think of this folder as similar to the `.git` folder in more modern projects. Nothing interesting to see here.
@@ -78,18 +83,18 @@ There is basic Verilog source code in this folder along with official specificat
 
 ### Data Sheets
 The DataSheets folder contains three pdf files:
-* KPS13_DS_V031605.pdf - DS013T (version 2005-03-17) Datasheet
-* TMDG013T_V1.3.pdf - Testing Methodology Design Guidelines
-* xpm_integration_guideline_RevF-06APR2005.pdf - Kilopass XPM IP Integration Guideline 
+* **KPS13_DS_V031605.pdf** - DS013T (version 2005-03-17) Datasheet
+* **TMDG013T_V1.3.pdf** - Testing Methodology Design Guidelines
+* **xpm_integration_guideline_RevF-06APR2005.pdf** - Kilopass XPM IP Integration Guideline 
 
 ### GDS Folder
-The `gds` folder contains more Verilog source files, such as the TSMC layout layer mapping (`Virtuoso_0.13um_Ver2.1a.1.map`) along with the GDS files used to describe it in a graphical form.
+The **gds** folder contains more Verilog source files, such as the TSMC layout layer mapping (`Virtuoso_0.13um_Ver2.1a.1.map`) along with the GDS files used to describe it in a graphical form.
 
 ### Models Folder
-The `models` folder contains the timing library Verilog source code in both ascii (*.lib) and binary compiled form (*.db). This also contains the Verilog source file `kp13ts64_r01w01_70c3p.v` which is the main code for the Kilopass `32kx8` XPM.
+The **models** folder contains the timing library Verilog source code in both ascii (*.lib) and binary compiled form (*.db). This also contains the Verilog source file `kp13ts64_r01w01_70c3p.v` which is the main code for the Kilopass `32kx8` XPM.
 
 ### Netlist Folder
-The `netlist` folder contains the netlist specification in the CDL file format, this is a plain text document that specifies what each node is connected to in the circuit.
+The **netlist** folder contains the netlist specification in the CDL file format, this is a plain text document that specifies what each node is connected to in the circuit.
 
 ---
 ## RF Folder - Project BB
@@ -152,34 +157,36 @@ This folder contains the final version of the internal N64 development tools fro
 {% include link-to-other-post.html post="/oman-archive" description="To view details about the files released in the oman archive check out this post." %}
 
 ---
-### Verification folder
-The Verification folder contains the source code for a tool called `aes` which is simply code to do simple Advanced Encryption Standard (AES) encryption and decryption.
+### Verification folder - AES encyption/decryption
+The Verification folder contains the source code for a tool called **aes** which is simply code to do simple **Advanced Encryption Standard** (AES) encryption and decryption.
 
-For security the iQue Player only allows running signed and encrypted code, AES Cipher block chaining (CBC) is the encryption algorithm used for this. This tool specifically is used to test the encryption and decryption of binary content.
+For security the iQue Player only allows running signed and encrypted code, **AES Cipher block Chaining** (CBC) is the encryption algorithm used for this. This tool specifically is used to test the encryption and decryption of binary content.
 
 In fact this folder comes with two pre-compiled Windows executables:
-* test_dec.exe - Test decryption
-* test_enc.exe - Test encryption
+* **test_dec.exe** - Test decryption
+* **test_enc.exe** - Test encryption
 
 The source code for these too executables are `test_dec.c` and `test_enc.c` respectively. 
 
-The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by *Paulo Barreto* and *Vincent Rijmen*.
+The AES algorithms is also known as `rijndael` which is why most of the source code files start with that name as a prefix. These files come from the AES reference implementation by **Paulo Barreto** and **Vincent Rijmen**.
 
-{% include link-to-other-site-text.html title="AES Reference Implementation" url="https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation" word1="crypt-rijndael" word2="on github" color1="wisteria" color2="midnight" description="You can find the AES Reference implementation code on Github." %}
+{% include link-to-other-site.html title="AES Reference Implementation" url="https://github.com/Leont/crypt-rijndael/tree/master/rijndael-vals/reference%20implementation" description="You can find the AES Reference implementation code on Github." %}
  
 The folder also contains `*.bin` files that can be used to test the algorithm, when you feed in `input.bin` into test_dec then `output.bin` and `deciphered.bin` should match exactly.
 
-### Java folder
+---
+### Java folder - Apache Ant version 1.4.1
 This folder is pretty boring in that it just contains a standard distribution of Apache Ant version 1.4.1. Apache Ant is basically a task runner written in Java, but it is unclear what they were using it for in the iQue project. 
 
 Nothing is customised so we will not cover the contents here.
 
+---
 ### LIB folder - BCP PLI library code
 The Library folder contains the source code for two very similar libraries:
-* RCP PLI (Reality Co-Processor PLI) - version 1.1
-* BCP PLI (BB Co-Processor PLI) - version 1.2
+* **RCP PLI** (Reality Co-Processor PLI) - version 1.1
+* **BCP PLI** (BB Co-Processor PLI) - version 1.2
 
-PLI stands for Programming Language Interface and refers to the Verilog PLI as these libraries are used to communicate with the verily models of the Reality Co-processor (RCP or BCP).
+PLI stands for **Programming Language Interface** and refers to the **Verilog PLI** as these libraries are used to communicate with the verily models of the Reality Co-processor (RCP or BCP).
 
 The RCP version is presumably from SGI as part of the original Ultra 64 project, but it was not previously released in the "Oman Archive". It requires an SGI IRIX workstation to compile.
 
@@ -211,3 +218,4 @@ Both the resulting library files and tab files are used in the the Behavioural S
 # References
 [^1]: [Revision Control System - Wikipedia](https://en.wikipedia.org/wiki/Revision_Control_System#Second_generation)
 [^2]: Principles of Verilog PLI By Swapnajit Mittra page 6
+[^3]: [iQue Depot - iQueBrew](http://www.iquebrew.org/index.php?title=IQue_Depot)

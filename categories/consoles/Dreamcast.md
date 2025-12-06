@@ -19,6 +19,8 @@ breadcrumbs:
 redirect_from:
   - /dreamcast
   - /dc
+tags:
+  - dreamcast
 ---
 # Introduction to Hacking/Reversing the SEGA Dreamcast
 Welcome to our page dedicated to SEGA Dreamcast reverse engineering! The SEGA Dreamcast was a beloved gaming console that was first released in 1998, and has since gained a cult following among retro gaming enthusiasts. 
@@ -56,16 +58,19 @@ The Dreamcast arguably had the best development kit that SEGA had ever sold for 
 # Games
 
 ## Chicken Run
-The full source code for the Dreamcast port of **Chicken Run** was released and we have a seperate post covering the code:
+The full source code for the Dreamcast port of **Chicken Run** was released and we have a separate post covering the code:
 {% include link-to-other-post.html post="/Chicken-Run-Source-Code" description="For information about Chicken Run source code check out this post." %}
 
 
 ## Official Retail Dreamcast Game Source Code
-If you are interested to see officially released or leaked source code check for the Dreamcast check out our other post:
+If you are interested in officially released or leaked source code for the Dreamcast check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ## Dreamcast games with Debug Symbols
 {% include link-to-other-post.html post="/sega-dreamcast-game-debug-symbols" description="For a list of dreamcast games with debug symbols check out this post." %}
+
+## Games exclusive to the Dreamcast
+Wikipedia maintains a list of Dreamcast exclusives -  [Dreamcast-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Dreamcast-only_games)
 
 
 ---

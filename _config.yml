@@ -6,6 +6,8 @@ baseurl: "/"
 url: https://www.retroreversing.com
 logo: '/public/logo.png'
 highlighter: rouge
+rouge:
+  theme: monokai
 
 # Site configurations
 plugins:
@@ -17,15 +19,22 @@ whitelist:
 
 markdown: kramdown
 kramdown:
-  input: GFM
-excerpt_separator: "<!-- more -->"
+  input: GFM # GitHub Flavored Markdown
+  math_engine: mathjax
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
+    theme: monokai
+    css_class: highlight
+
+# To manually control the end of the excerpt uncomment:
+# excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
-
 
 version: 1.0.0
 
@@ -47,6 +56,80 @@ hero:
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
+
+category_images:
+  amiga: /public/consoles/Amiga.png
+  amstrad_cpc: /public/consoles/Amstrad CPC.png
+  arcade: /public/consoles/Arcade.png
+  atari_2600: /public/consoles/Atari 2600.png
+  atari_5200: /public/consoles/Atari 5200.png
+  atari_7800: /public/consoles/Atari 7800.png
+  atari_800: /public/consoles/Atari 800.png
+  jaguar: /public/consoles/Atari Jaguar.png
+  lynx: /public/consoles/Atari Lynx.png
+  atari_st: /public/consoles/Atari ST.png
+  colecovision: /public/consoles/Colecovision.png
+  commodore_64: /public/consoles/Commodore 64.png
+  commodore_amiga_cd32: /public/consoles/Commodore Amiga CD32.png
+  commodore_cdtv: /public/consoles/Commodore CDTV.png
+  computer_modern: /public/consoles/Computer Modern.png
+  computer_old_design: /public/consoles/Computer Old Design.png
+  vectrex: /public/consoles/GCE Vectrex.png
+  magnavox_odyssey_2: /public/consoles/Magnavox Odyssey 2.png
+  magnavox_odyssey: /public/consoles/Magnavox Odyssey.png
+  matell_intellivision: /public/consoles/Matell Intellivision.png
+  360: /public/consoles/Microsoft Xbox 360.png
+  xbox: /public/consoles/Microsoft Xbox.png
+  nec_pc_engine_cd: /public/consoles/Nec PC Engine CD.png
+  nec_pc_engine: /public/consoles/Nec PC Engine.png
+  nec_pc_fx: /public/consoles/Nec PC FX.png
+  nec_turbografx16_cd: /public/consoles/Nec TurboGrafx16 CD.png
+  3ds: /public/consoles/Nintendo 3DS.png
+  n64: /public/consoles/Nintendo 64.png
+  nds: /public/consoles/Nintendo DS.png
+  nes: /public/consoles/Nintendo Entertainment System.png
+  famicom_disk_system: /public/consoles/Nintendo Famicom Disk System.png
+  famicon: /public/consoles/Nintendo Famicon.png
+  gba: /public/consoles/Nintendo Game Boy Advance.png
+  gbc: /public/consoles/Nintendo Game Boy Color.png
+  gameboy: /public/consoles/Nintendo Game Boy.png
+  gamecube: /public/consoles/Nintendo Gamecube.png
+  satellaview: /public/consoles/Nintendo Satellaview.png
+  switch: /public/consoles/Nintendo Switch.png
+  virtualboy: /public/consoles/Nintendo Virtual Boy.png
+  wii: /public/consoles/Nintendo Wii.png
+  wiiu: /public/consoles/Nintendo WiiU.png
+  pc_engine_supergrafx: /public/consoles/PC Engine SuperGrafx.png
+  3do: /public/consoles/Panasonic 3DO.png
+  philips_cdi: /public/consoles/Philips CD-i.png
+  pinball: /public/consoles/Pinball.png
+  pokemonmini: /public/consoles/PokemonMini.png
+  segacd: /public/consoles/SEGA CD.png
+  snk_neo_geo_pocket_color: /public/consoles/SNK Neo Geo Pocket Color.png
+  snk_neo_geo_pocket: /public/consoles/SNK Neo Geo Pocket.png
+  snk_neo_geo_cd: /public/consoles/SNK Neo-Geo CD.png
+  neogeo: /public/consoles/SNK Neo-Geo.png
+  mastersystem: /public/consoles/Sega - Master System.png
+  32x: /public/consoles/Sega 32X.png
+  dreamcast: /public/consoles/Sega Dreamcast.png
+  gamegear: /public/consoles/Sega Game Gear.png
+  genesis: /public/consoles/Sega Genesis.png
+  sega_mark_iii: /public/consoles/Sega Mark lll.png
+  megadrive: /public/consoles/Sega Megadrive.png
+  sega_sc3000: /public/consoles/Sega SC-3000.png
+  sg1000: /public/consoles/Sega SG-1000.png
+  saturn: /public/consoles/Sega Saturn.png
+  sinclair_zx_spectrum: /public/consoles/Sinclair ZX Spectrum.png
+  psp: /public/consoles/psp.svg
+  sony_psvita: /public/consoles/Sony PSVita.png
+  sony_playstation_2: /public/consoles/Sony PlayStation 2.png
+  sony_playstation_3: /public/consoles/Sony Playstation 3.png
+  sony_playstation: /public/consoles/Sony Playstation.png
+  super_nintendo_entertainment_system: /public/consoles/Super Nintendo Entertainment System.png
+  turbografx16: /public/consoles/TurboGrafx-16.png
+  wonderswan_color: /public/consoles/WonderSwan Color.png
+  wonderswan: /public/consoles/WonderSwan.png
+  
 
 references: 
   - title: Behind The Screens
@@ -90,6 +173,4 @@ references:
     link: https://www.segaretro.org
     image: https://segaretro.org/skins/foreground/assets/img/segaretro_logo.png
     
-    
-
     

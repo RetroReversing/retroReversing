@@ -70,9 +70,13 @@
   <meta name="twitter:site" content="@RetroReversing">
   <meta name="twitter:creator" content="@RetroReversing">
 
+  
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | relative_url }}">
 
+  <!-- Icons -->
   <link rel="shortcut icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
   <link rel="icon" href="{{ '/public/favicon.ico' | relative_url }}" type="image/x-icon">
 
@@ -102,11 +106,16 @@
   <link rel="stylesheet" href="{{ '/public/css/theme.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ '/public/css/custom.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
-<!--  Code highlight css  -->
+<!--  Code highlight css (generated from rouge)  -->
  <link rel="stylesheet" href="{{ '/public/css/code.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+ <link rel="stylesheet" href="{{ '/public/css/monokai.css' | relative_url }}" rel="preload" as="style" onload="this.rel='stylesheet'">
+
+<!-- Handy tailwind classes -->
+  <link rel="stylesheet" href="{{ '/public/css/tailwind.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
 <!--  Site specific CSS  -->
   <link rel="stylesheet" href="{{ '/public/css/theme.overrides.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+  <link rel="stylesheet" href="{{ '/public/css/post.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ '/public/css/blockquotes.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
   <link rel="stylesheet" href="{{ '/public/css/figures.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
@@ -124,8 +133,8 @@
 <!--  Code Cards  -->
   <link rel="stylesheet" href="{{ '/public/css/code-cards.css' | relative_url }}">
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | relative_url }}">
+<!--  Search CSS  -->
+  <link rel="stylesheet" href="{{ '/public/css/search.css' | relative_url }}">
 
   <!--  DataTables used for tables with search/sorting  -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.2/b-colvis-1.5.2/b-html5-1.5.2/r-2.2.2/rg-1.0.3/sc-1.5.0/datatables.min.css"/>

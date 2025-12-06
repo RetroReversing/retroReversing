@@ -1,14 +1,18 @@
 <div class="post post-single">
       <div class="post-header">
         <div>
-          <img src="{{ page.thumbnail }}" alt="">
+          {% if page.thumbnail %}
+            <img class="post-header-icon" src="{{ page.thumbnail }}" alt="">
+          {% elsif page.console %}
+            <img class="post-header-icon" src="{{ site.category_images[page.console] }}" alt="{{ page.console }}">
+          {% endif %}
         </div>
         <div>
           <h2 class="post-title">{{ page.title }}</h2>                
         </div>
         <div>
           {% assign filename = page.url | replace_first: '/', '' | replace: '/', '-'  | replace: '.html', '.md' %}
-          <h4>Contribute to this page: <a href="{{filename}}">Edit on github</a></h4>
+          <h4>Contribute to this page: <a class="post-edit-link" href="{{filename}}">Edit on github</a></h4>
         </div>
         
       </div>

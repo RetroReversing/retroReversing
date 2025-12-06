@@ -193,9 +193,9 @@ function setModalMaxHeight(element) {
 
 function replaceAll(str, find, replace) {
        return str.replace(new RegExp(find, 'g'), replace);
-    }
+}
     
-    function handle_tab_groups() {
+function handle_tab_groups() {
       var rr_tab_groups = $(".rr-tabs");
 
       rr_tab_groups.each(function loop_tab_group(index, tab_group) {
@@ -231,7 +231,7 @@ function replaceAll(str, find, replace) {
         });
 
       });
-    }
+}
 
 // isInView is used for lazy loading to check if we should load it or not
 function isInView(element) {

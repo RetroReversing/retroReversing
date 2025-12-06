@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Sony Playstation 4
     url: #
+tags:
+  - ps4
 ---
 # Introduction
 Welcome to our page dedicated to PS4 reverse engineering! The PlayStation 4 was a gaming console released by Sony in 2013, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 

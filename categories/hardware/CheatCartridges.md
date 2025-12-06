@@ -20,6 +20,8 @@ redirect_from:
   - /cheat-cartridge
   - /cartridge
   - /hardware/cheatdevices
+tags:
+  - hardware
 ---
 
 # Action Replay (Datel)

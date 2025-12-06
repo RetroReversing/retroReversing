@@ -1,4 +1,44 @@
-/* Beautiful Block quotes thanks to the amazing Catalin Rosu - https://codepen.io/catalinred/pen/YzBPadm  */
+/* Original Blockquote code used for non-posts  */
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+}
+blockquote p:last-child {
+    margin-bottom: 0
+}
+
+/* Blockquote code used for links to other posts  */
+.post {
+  .linkToOtherPost blockquote {
+    /* padding: .5rem 1rem;
+    margin: .8rem 0; */
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5
+  }
+
+  .linkToOtherPost blockquote::before {
+    content: "" !important;
+  }
+
+  .linkToOtherPost blockquote::after {
+    display: none !important;
+  }
+}
+
+
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem
+    }
+}
+
+/* 
+Beautiful Block quotes thanks to the amazing Catalin Rosu - https://codepen.io/catalinred/pen/YzBPadm  
+Used for default quotes from markdown in posts
+*/
 .post blockquote {
   padding-left: 2rem;
   position: relative;

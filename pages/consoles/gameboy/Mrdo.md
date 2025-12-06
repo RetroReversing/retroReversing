@@ -2,7 +2,6 @@
 layout: post
 tags: 
 - gameboy
-- ocean
 - games
 - sourcecode
 - opensource

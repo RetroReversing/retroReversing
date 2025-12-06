@@ -21,6 +21,9 @@ recommend:
 recommendTitle: All Atari Jaguar Posts
 editlink: ../categories/consoles/AtariJaguar.md
 updatedAt_: '2024-05-03'
+tags:
+  - atari
+  - jaguar
 ---
 
 # Introduction

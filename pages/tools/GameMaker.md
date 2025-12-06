@@ -20,16 +20,23 @@ editlink: /tools/GameMaker.md
 
 Game Maker is a popular 2D game development tool originally called **Animo** and developed by Professor **Mark Overmars**.
 
-Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1.
+Version 1.0 was built some time in 1998-1999 but never released publicly but on the 15th November 1999 Game Maker was officially released to the public with version 1.1. Game Maker is still alive today in the form of the newly rebranded GameMaker Studio series. 
+
+This post will cover the history and technology of the pre-studio versions of Game Maker with a focus on more low level details such as decompiling and how the technology worked.
 
 ---
 # Technology behind Game Maker
-Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
+The technology behind Game Maker is really interested from a reverse engineering point of view, specifically how games were "compiled" into executables and how the game runner technology worked.
 
-## Source Code
+You can think of Game Maker as being made up of two main parts:
+* **Game Maker IDE** - This is where the games are made, with editors for sprites, sounds, objects, rooms and for programming scripts using the Game Maker Langauge (GML)
+* **Game Maker Runner** - This is the engine that takes the data exported by the IDE and allows it to be playable as a standard windows executable (and later on PSP, MacOS and others)
+
+## Original Source Code
+Only a few details are known about the source code behind Game Maker, but over the years Mark Overmars has hinted at a few things.
 Both the IDE and runner were written in **Delphi**, initially **Version 5** [^10] but that changed to **Version 7** in 2004 [^11]
 * **2003** - Delphi version 5. The IDE was slightly over **25,000** lines of code in 2003 with the runner part similar in size [^10].
-* **2004** - Delphi version 7. The IDE source code is now over **40.000** lines of code. The source code for the runner part is similar in size [^11]
+* **2004** - Delphi version 7. The IDE source code is now over **40,000** lines of code. The source code for the runner part is similar in size [^11]
 
 It was later rewritten by YoYoGames with the runner now being written in C++ and the IDE in C#.
 
@@ -37,19 +44,45 @@ It was later rewritten by YoYoGames with the runner now being written in C++ and
 ## Game Runner
 Early versions of game maker (1.1->3.3) exported games in **.gmr** format that required the **Game Maker Runner** to execute, later versions (4.0+) allowed exporting directly as .exe files (the exe files technically just appended the gmr file data to the end of the actual runner executable).
 
-### Executable Decompilers
+### Game Maker Executable Decompilers (.exe into gmd/gm6/gmk)
+Ever since Game Maker first allowed exporting of games into executables (.exe) files, people have searched for a way to convert the game back to an editable format! 
+
+Up until the newer rebrand of Game Maker into GameMaker Studio it has always stored the full editable game data, including comments and unused resources, as encrypted data inside the executables.
+
+Thus when a decompiler is made available, everyone has access to be able to read the code and create game mods for any game made in the compatible versions of game maker.
+
 There were a few decompilers released for specific versions of Game Maker created executables (*.exe):
-* GM 4.3 -> 5.3a - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
-* GM 5.3a -> 7.0 - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
-* GM 8.0 -> 8.1 - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
+* **Game Maker 4.0 -> 4.3 Decompiler** - [Python 3 version of gm4dec.py](https://gist.github.com/windwakr/8abe5f39c6ce987bd770fc33945abdd9)
+* **Game Maker 4.3 -> 5.3a Decompiler** - [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
+* **Game Maker 5.3a -> 7.0 Decompiler** - [GM Decompiler v2.1 (For GM5.3A-7.0 Games)](https://gamebanana.com/tools/13057)
+* **Game Maker 8.0 -> 8.1 Decompiler** - [WastedMeerkat/gm81decompiler: GameMaker 8.1 Decompiler](https://github.com/WastedMeerkat/gm81decompiler)
 
 When each of these decompilers were released to the public they created quite a stir in the community, e.g: [First person caught using Game Maker Decompiler? - GameMakerBlog](https://gamemakerblog.com/2009/05/02/first-person-caught-using-game-maker-decompiler/)
 
+There is currently no decompiler for versions 4.0 -> 4.2, although games made in these versions are incredibly rare as it was a short period between summer 2001 and end of the same year. Many games who may have started development in these versions would have upgraded to 4.3+.
+
+For GameMaker Studio decompilation there are a number of tools such as **UndertaleModTool** which will be covered in another post.
+
+#### GMD-Recovery - Game Maker 4.3 -> 5.3a Decompiler
+<img width="1749" height="363" alt="image" src="https://github.com/user-attachments/assets/bdccf03e-d27d-48f0-b7d0-098fc9dcdddd" style="max-width: 65vw; margin-left: 0px;" />
+The first Game Maker Decompiler was created by **VBGamer45** in Visual Basic 6.0. 
+It worked by allowing you to select a Game maker executable, it would then run the executable and you were prompted to choose the process that was run. It would then dump the memory of that process and try to brute force the decryption key from it. 
+
+After Game Maker 5.3a it was not updated to support the changes in that version so can only be used to decompile games made between 4.3 and 5.3a. But later on a new decompiler would be released which supported from 5.3a all the way up to 7.0.
+
+The source code for **GMD-Recovery** is available on Github: [VBGAMER45/GMD-Recovery: A gamemaker decompiler for versions 5.3a and less](https://github.com/VBGAMER45/GMD-Recovery)
+
+#### GMDecompiler - Game Maker 5.3a -> 7.0 Decompiler
+<img width="325" height="354" alt="image" src="https://github.com/user-attachments/assets/464f3d8d-1915-4e0b-8746-9d9005e1eab2" />
+GMDecompiler (gmdecompiler_v2_1.jar) was a closed source Game Maker decompiler written in Java that supported Game Maker games made between versions 5.3a and 7.0. It is unknown who created the decompiler, only that it was leaked at some point during the Game Maker 7.0 timeframe (2007-2008). 
+
+---
 ### Executable Converters
 New versions of Windows have occasionally broken Game Maker executables, these converters are used to upgrade old Game Maker executable files to run on newer versions of windows:
 * [GM6Vista: Patches for GameMaker 6 to run on Modern versions of Microsoft Windows (Vista to 11)](https://github.com/LiEnby/GM6Vista)
 * [GM Convert Game by Mark Overmars](https://archive.org/details/gm-convert-game) - Official tool by Mark Overmars to fix games on Windows Vista
 
+---
 ### G-Java - Java Game Maker Runner
 G-Java was an attempt to create a Game Maker Runner in Java to provide cross platform game development and embedded games inside **Java Applets**. It was never finished and ended up becoming Abandonware.
 
@@ -106,8 +139,7 @@ Mark Overmars also released some software unrelated to Game Maker:
 ## Community additions to Game Maker
 Over the years there have been many open source projects that aimed to enhance Game maker in a certain way, from cross platform IDEs such as **LateralGM**, software to convert games to Java (**G-Java**) and even multiple open source re-implementations of the Game Maker Runner (**ENIGMA**).
 
-Many of these projects are available on Github:
-[GameMaker Engineering Archive - GitHub](https://github.com/gm-archive)
+Many of these projects are available on Github via the [GameMaker Engineering Archive - GitHub](https://github.com/gm-archive)
 
 ---
 # Game Maker Version History (Versions 1.1 through 8.0)
@@ -116,65 +148,330 @@ Game Maker versions 1.1 through 8.0 trace the evolution of a simple 2D game desi
 The software’s version numbering skipped a non-public 1.0 (due to its origins as “Animo”), and each subsequent release brought meaningful enhancements – from the foundational changes in 4.0 to the quality-of-life improvements in 8.0.
 
 ## Version 1.0 (Unreleased “Animo”)
-Mark Overmars originally developed *Game Maker* as a program called **“Animo”** in 1999, intended for creating 2D animations. This version 1.0 was never publicly released – the software was renamed and first launched publicly as **Game Maker 1.1** later that year [^10]. In other words, there is **no public Game Maker 1.0**; Overmars skipped directly to 1.1 for the debut, reflecting the shift in focus from a simple animation tool to a game creation software [^10].
+Mark Overmars originally developed *Game Maker* as a program called **“Animo”** in 1999, intended for creating 2D animations. This version 1.0 was **never publicly released** – the software was renamed and first launched publicly as **Game Maker 1.1** later that year [^10]. In other words, there is **no public Game Maker 1.0**; Overmars skipped directly to 1.1 for the debut, reflecting the shift in focus from a simple animation tool to a game creation software [^10].
 
 ## Version 1.1 (November 15th 1999) – First Public Release
 ![Game Maker 1.1 IDE](https://github.com/user-attachments/assets/1d3797a9-89d3-4c81-9dc8-d7afdaf71937)
 
-Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
+Information on the main IDE executable (Game Maker.exe):
+* **File size** - 658.5KB
+* **Compiler** - Borland Delphi 3 Enterprise
+* **Linker** - Turbo Linker 2.25
 
-- **Basic Game Creation Interface:** Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the IDE [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
-- **Introductory Scripting (GML):** Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
-- **No DirectX or Stand-alone Export:** Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
+Released on November 15th, 1999, **Game Maker 1.1** was the first version available to the public [^1]. 
+Despite being primitive by later standards, it laid the groundwork for Game Maker’s drag-and-drop game creation approach and included a built-in scripting language (later known as GML) for added flexibility [^10]. Notable characteristics of version 1.1 include:
 
-*Outcome:* By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3]. However, it was clear that many features (graphics acceleration, game packaging, etc.) were yet to be implemented.
+## Basic Game Creation Interface
+<img alt="Game Maker 1.1 Object Editor" src="https://github.com/user-attachments/assets/59aca33f-a864-420a-bfd0-da09c7e111b2" />
 
+Provided an event-driven framework with objects and actions that could be added via an easy GUI. All the initial drag-and-drop action icons fit onto a single panel in the Object Editor window [^2]. This made it simple for beginners, though the range of actions was limited compared to later versions.
+
+## Introductory Scripting (GML) 
+<img width="623" height="600" alt="Game Maker 1.1 GML Code Editor" src="https://github.com/user-attachments/assets/92bb6993-fb7c-4745-8797-6a92e2996eaf" />
+
+Even at 1.1, users could edit underlying code. The built-in scripting language was rudimentary (not as complex as in later releases) but allowed manual code editing for more complex game logic [^10].
+
+## No DirectX or Stand-alone Export
+<img width="479" height="530" alt="Lvel 1 of Sokoban running in Game Maker 1.1" src="https://github.com/user-attachments/assets/95a9b334-0789-406f-ae85-c11783345bbc" />
+
+Version 1.1 did **not** use DirectX for graphics – rendering was done with basic Windows APIs. It also lacked any separate runtime or compiler for games. This meant you **could not create a stand-alone EXE** for your game in 1.1; games had to be run from within the Game Maker environment itself (in the editor’s main window) [^5].
+
+
+### Included example games and demoa
+<img width="767" height="534" alt="image" src="https://github.com/user-attachments/assets/a324c734-9e21-4f98-9e8c-4a83d1d15545" />
+Game Maker 1.3 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, there are:
+* **DEMO Creating Stars** - An example of an object that can create other objects (stars) every 15 game frames, using an alarm.
+* **GAME Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
+* **GAME Breakout**
+* **GAME Catch the Dog**
+* **GAME Pacman**
+* **GAME Peg Game**
+* **GAME Sokoban** - Sokoban is an old Japanse games. The goal is to move the objects (the balls) to the goal positions (the blue holes). You operate the mover using the arrow keys on your keyboard. You can only push a ball to the next position if that position is empty. You have solved the puzzle when all balls lie on holes.
+
+After version 1.1 the game **Sokoban** seems to have been removed from all future releases of Game Maker, it is unclear why, although we are not sure if it is in 1.2 as it is currently lost media.
+
+### How were games stored?
+<img alt="Folder structure of saved games" src="https://github.com/user-attachments/assets/9a08b832-10ac-4271-95f1-8c3682be3360" />
+Games were saved into a specific folder "C:\Program Files\Game_Maker\Games", with each game having its own sub folder. 
+Inside the game specific folder all the game resources were available:
+* Images as .BMP files, named like so: image1.bmp, image2.bmp
+* Audio as .WAV files, named with free text so *.wav 
+* Help documentation is saved as HELP.RTF
+* Objects - Object data stored as plain text
+* Rooms - Metadata
+* Sounds - Plain text file just called **sounds** with no file extension that maps the sound name to the .wav file on the file system.
+
+### Sounds file format
+<img alt="Game Maker 1.1 with Sound Editor open" src="https://github.com/user-attachments/assets/1f3f6529-3b7a-49c3-a33d-0e7edc814f56" />
+
+The **sounds** file stores metadata to map the name of the sound in the game to the .wav file on the filesystem, the format is plain text and it is pretty straightforward:
+```js
+1            // number of sounds in file
+
+create       // name of the sound
+bleep11.wav  // filename of the sound
+0            // number of sounds left
+```
+
+#### Objects file format
+<img alt="objects are saved in plain text" src="https://github.com/user-attachments/assets/481cd50d-4496-4537-9b96-2d87de3d51cb" />
+Objects are stored in a plain text format which is fairly easy to read, with helpful comments about each section.
+
+ Here is an example objects file for the **Creating Stars** Demo in the Game Maker 1.1 format, annotations have been added in the form of comments (//) to the end of each line but note these are not part of the format:
+```c
+3                    // Total Number of Objects (3)
+=== OBJECT ===       // Start of an Object
+creator              // Name of object (creator)
+    0    1           // Solid=False, Active=True
+=== CREATE ACTIONS   // Start of Create Event
+1                    // Number of actions in event (1)
+  201  -1  1         // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+5                    // Set alarm clock to 5
+
+0                    // Number of actions in left in event (0)
+=== DESTROY ACTIONS  // Start of Destroy event
+0                    // Number of actions in event (0)
+=== ALARM ACTIONS    // Start of Alarm event
+3                    // Number of actions in event (3)
+  311  -1  1         // actionID = 311 (Create instance at postion); appliesTo = -1 (self); numberOfParameters = 1
+0                    // X = 0
+0                    // Y = 0
+2                    // Number of actions left in event (2)
+  401  -1  1         // actionID = 401(Play a sound); appliesTo = -1 (self); numberOfParameters = 1
+1                    // sound ID to play: 1
+
+1                    // Number of actions left in event (1)
+  201  -1  1         // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+15                   // Set alarm clock to 15
+
+0                    // Number of actions in left in event (0)
+=== STEP ACTIONS
+```
+
+Note that this format is more verbose than later formats by explicitly saying which event it is defining in the text file alone with including events that have 0 actions, this will be optimized in future versions to be less verbose and only include events that are being used.
+
+#### Rooms file format
+<img alt="Game Maker 1.1 room editor with rooms file in background" src="https://github.com/user-attachments/assets/50b7d450-9fab-4965-bbb4-bf25a4254e87" />
+Similar to Objects and Sounds files, the rooms data is stored in plain text and can be easily understood when matched against the room editor.
+
+It follows the same format of counting down the rooms until the end of the file, it splits up the room into a specific Cell Size, to define the specific rows and columns in the room, so you can't have instances of objects at an arbitrary x,y coordinate, it has to be a specific row,column position.
+
+Here is a snippet from the **Creating Stars** example:
+```js
+1              // Number of Rooms in the file
+Creating Stars // Name of the Room
+255            // Possibly background color?
+Back3.bmp      // Background Image
+1              // Tiled background image?
+0
+    15    15   // Width (15) and Height (15)
+32             // Cell Size (32 pixels)
+57             // Number of object instances in the room
+    0  0  3    // row=0; column=0; objectId=3 (wall)
+```
+
+---
+### Emulating Game Maker 1.1
+The installer for Game Maker 1.1 is available through the WayBackMachine but it will not run on modern Windows.
+One way to run it is you can use a browser based Windows 95 Emulator such as v86 [Windows 95 - v86](https://copy.sh/v86/?profile=windows95) and create a CD Rom image ISO of the extracted **gmaker11.zip** setup files and **mount** it in the emulator as a CD.
+
+To create a CD ISO that works in Windows 95 from MacOS you can run:
+```bash
+hdiutil makehybrid -o ~/Desktop/gmaker11.iso ./gmaker11 -iso -joliet
+```
+
+### Reaching 1k downloads
+<img alt="Game Maker 1.1 Installer" src="https://github.com/user-attachments/assets/38d474c2-94fc-4c45-8de7-871ffef926a8" />
+
+By early 2000, Game Maker 1.1 had attracted a small user base (reaching about 1000 downloads by February 2000) and demonstrated the potential of Overmars’s approach [^3].
+
+---
 ## Version 1.2 (2000) – Early Improvements
-Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12]. Notable changes and additions in version 1.2 include:
+Game Maker 1.2 was released shortly after 1.1 (as a “quick” follow-up update) and brought a number of important improvements and new features while keeping the same basic interface [^12].
 
-- **Performance and Language Enhancements:** Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
+### Performance and Language Enhancements
+Game compilation speed was roughly **doubled** on low-end computers, and the engine allowed longer code segments, making the GML scripting more practical for larger projects [^4]. New built-in constants/variables were introduced (e.g. `pi`, `roomwidth`, `roomheight`, and several `back_...` variables for backgrounds) to give developers more control over game properties [^4]. Variable naming was also made more flexible (uppercase letters became allowed in variable names) and other minor GML syntax tweaks were applied for consistency.
 
-- **Backgrounds and Sound Control:** *Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
+### Backgrounds and Sound Control
+*Scrolling backgrounds* were now supported, allowing developers to have moving background images in their games (a feature not present in 1.1) [^12]. Additionally, an action to **stop a currently playing sound** was added, which was especially useful for stopping background music or looping sounds via code or drag-and-drop [^12].
 
-- **Editing and Interface Features:** Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
+### Editing and Interface Features
+Game Maker 1.2 made the editor more user-friendly. It became possible to **copy or duplicate resources** – for example, you could duplicate objects, rooms, and sounds – streamlining development [^4]. A new “object clipboard” was introduced, allowing users to copy and paste sets of actions between objects, which made reusing logic easier [^12]. Also, keyboard shortcuts were added for common run-time actions (to quickly start, pause, or stop the game during testing) [^4].
 
-- **Miscellaneous Fixes:** Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
+### Miscellaneous Fixes
+Version 1.2 also fixed numerous bugs from 1.1. For example, it increased the maximum room speed and the number of objects a room could contain, corrected issues with background image memory handling (small BMP images were now given transparent backgrounds properly), fixed the `lastkeypressed` value, and resolved cut-and-paste problems in the sprite/image editor [^12].
 
-Overall, **Game Maker 1.2** significantly polished the initial release by boosting performance, expanding the feature set (especially in graphics and editing capabilities). It set the stage for Game Maker’s evolution, although it still had the same fundamental limitations as 1.1 (no hardware acceleration and no stand-alone game export yet).
+### Lost Media
+However **Game Maker 1.2** is currently considered **Lost Media** as no versions have been archived so the above details are based on the **Changes.txt** file in version 1.3 of Game Maker which is available online. Mark Overmars used to keep historical versions on his site but only ever included 1.1 and 1.4 of the 1.x series, so it is possible he doesn't have version 1.2 [^14].
 
+---
 ## Version 1.3 (2000) – Minor Enhancements
-Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further. There is little official documentation on this version’s specific changes, indicating that **no dramatic new features** were introduced beyond what 1.2 had added. Instead, version 1.3 likely brought **additional minor improvements and bug fixes** to ensure stability. For example, Overmars continued to tweak the user interface and GML based on user feedback, and possibly added a few more drag-and-drop actions or options.
+<img alt="Game Maker 1.3" src="https://github.com/user-attachments/assets/8b0010ca-450b-4965-ac81-fd9f1626e146" />
 
-Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
+Game Maker 1.3 was another incremental update on the 7th January 2000, focused on refining the software further.
 
-*(By the end of the 1.x series, Game Maker had a small but growing community of users. The continuous 1.1→1.4 updates through 1999–2000 established the core functionality and reliability of the program, paving the way for the more substantial feature jumps in later versions.)*
+Information on the main IDE executable (Game Maker.exe):
+* **File size** - 850KB
+* **Compiler** - Borland Delphi 5 Professional
+* **Linker** - Turbo Linker 2.25
 
+Version 1.3 brought **additional minor improvements and bug fixes** to ensure stability:
+* Enhanced image loading, allowing arbitrary sized images (also large ones) for the objects
+* Support for Animated GIFS
+* Now possible to draw shapes rather than just images
+* Ability to export a game as a zip file and re-imported for sharing editable games online
+* `forall` statement introducted to GML programming language (can execute a piece of code for all instances of a particular object)
+* Internals have been refactored to be more efficient, use less memory and no more limits on the number of objects or variables
+
+
+Importantly, **Game Maker 1.3 still operated under the same technical constraints as its predecessors** – it did not yet include DirectX support for graphics, nor did it provide a separate game runner or the ability to create stand-alone executables [^9]. 
+
+Games created in 1.3 were still run from within the Game Maker environment, and rendering remained in software mode. In essence, version 1.3 was a maintenance release that smoothed out the 1.x line in preparation for more significant changes to come in the next major version.
+
+### Included example games and demos
+<img alt="image" src="https://github.com/user-attachments/assets/94829354-a067-4287-ba34-368b2b4acbf0" />
+Game Maker 1.3 introduced a new space game, renamed Falling Balls to be a Demo and also removed the Sokoban game:
+* **DEMO Falling Balls** - An example of how gravity can be used in Game Maker by increase the vertical speed in every step by a small amount. When the ball hits the bottom wall, we set the vertical speed to -vspeed*0.9. As a result the direction changes (the speed becomes negative) and becomes slightly less such that the motion become slower with each bounce.
+* **GAME Space Trip**
+
+
+### How were games stored?
+Games were stored in the same location as previous versions of Game Maker ("C:\Program Files\Game_Maker\Games"), but the format of the plain text metadata (e.g objects) changed to be a little more cryptic. Also images were now saved as GIF instead of BMP format to allow for animated sprites to be stored in a single file.
+
+Inside the game specific folder all the game resources were available:
+* Images as .GIF files, named like so: image1.gif, image2.gif
+* Audio as .WAV files, named with free text so *.wav 
+* Help documentation is saved as HELP.RTF
+* Objects - Object data stored as plain text
+* Rooms - Metadata
+* Sounds - Metadata
+
+#### Object format
+A few notes about the format:
+* Newline seperated - Uses the DOS/Windows standard newline sequence for seperation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
+* Values on the same line seem to be seperated by 4 spaces
+* The number 1 is used for true (e.g checkbox on in the IDE) and 0 for false.
+* We know we are at the end of a Object by the `--------------------------------------------` string.
+
+Here is an example Objects file for the Creating Stars Demo, the comments at the end are not part of the format they have been added for annotation, note that the annotations are incomplete:
+```
+version 1.3 // Version of Game Maker this was saved in
+3              // Number of Objects (3)
+creator        // Name of Object "creator"
+    0    1     // Solid=False, Active=True
+    2 3        // eventID = 2 (Alarm event); numberOfActions = 3
+  311   -1    1 // actionID = 311 (Create instance at postion); appliesTo = -1 (self); numberOfParameters = 1
+0               // X coordinate of instance
+0               // Y Coordinate of instance
+2               // Object ID of instance to create (or is this the actionsLeft?) if so where is the objectID stored
+  401   -1    1 // actionID = 401 (Play a sound); appliesTo = -1 (self); numberOfParameters = 1
+1               // SoundID to play
+                // Newline to signify end of action?
+1               // actionsLeft = 1
+  201   -1    1 // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+15              // Set alarm clock to 15
+                // Newline to signify end of action?
+0               // 0 to signify end of event?
+    0 1         // eventId = 0 (Create); numberOfActions = 1 
+  201   -1    1 // actionID = 201 (Set Alarm); appliesTo = -1 (self); numberOfParameters = 1
+5               // Set alarm clock to 5
+                // Newline to signify end of action
+0               // 0 to signify end of event
+-1
+-------------------------------------------- // Signifies end of Object
+star // Object name "star"
+    0    1       // Solid=False, Active=True
+  142 1          // eventID = 142 (?); numberOfActions = 1
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action?
+0                // 0 to signify end of event?
+    4 1          // eventId = 4 (Collision); numberOfActions = 1
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1 
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action
+0                // 0 to signify end of event
+    0 1          // eventId=0 (Create); numberOfActions = 1 
+  101   -1    1  // actionID = 101 ("Set direction of motion") action; appliesTo = -1 (self); numberOfParameters = 1
+111101111        // Directions in "Set direction of motion" action 
+                 // Newline to signify end of action
+0                // 0 to signify end of event
+-1
+-------------------------------------------- // End of Object
+muur // Object name "muur" (muur is the dutch for wall)
+    1    0 // Solid=True; Active=False
+-------------------------------------------- // End of Object (no events on the muur/wall object since its not Active)
+```
+
+The annotations above are incomplete:
+* it is unclear currently if 0 signifies the end of the event or if it just counts down to how many actions are left to parse.
+* numberOfParameters looks to be incorrect as it is always 1 even for the "Create instance at postion" action.
+
+---
 ## Version 1.4 (2000) – Final 1.x Release
 Version 1.4 was the last update of the 1.x series, released toward the end of 2000. Like version 1.3, it was primarily aimed at final polishing and stability. According to community recollections, 1.4 fixed remaining bugs and fine-tuned the features introduced in 1.2/1.3. There were **no major new features** added in 1.4 – instead, Overmars ensured that the existing features (objects, events, basic GML, etc.) all worked as expected in preparation for a major overhaul with version 2.0.
 
-Notably, **Game Maker 1.4 was still limited to the same feature set scope of the 1.x line**. It did **not** incorporate hardware-accelerated graphics or allow standalone game compilation. Like its predecessors, it relied on the user’s PC to run games through the editor, and graphics were drawn without DirectX support [^5]. Version 1.4 can be seen as the stable culmination of the initial Game Maker prototype—by this point, the software was relatively robust in its original feature domain, and the user base was primed for the more **“substantial new features”** promised in the next major version [^5].
+Version 1.4 can be seen as the stable culmination of the initial Game Maker prototype—by this point, the software was relatively robust in its original feature domain, and the user base was primed for the more **“substantial new features”** promised in the next major version [^5].
 
-*(With the 1.x series completed, Game Maker had proven the viability of an easy, drag-and-drop game creation tool. The stage was set for bigger changes – notably, improved performance and distribution capabilities – in version 2.0 and beyond.)*
 
+---
 ## Version 2.0 (2000) – Interface Overhaul and Growing Popularity
 ![Game Maker 2.0 IDE](https://github.com/user-attachments/assets/cd4037cf-8b7d-4806-aa1f-50f9458e38fa)
 
 Released on the 8th September 2000, **Game Maker 2.0** was the first major version number change for the software. This update brought a **redesigned interface and significant usability improvements**, making game development easier and more powerful for users who had outgrown the 1.x features. Key aspects of version 2.0 include:
 
-- **Improved UI and Workflow:** Overmars refined the Game Maker IDE in 2.0, reorganizing how resources (sprites, sounds, rooms, etc.) were managed. The interface became more intuitive than the 1.x series, addressing some limitations of the earlier design. According to later retrospectives, each major release around this time introduced a new file format or layout; Game Maker 2.0 was no exception, likely switching to a new project file structure as part of the overhaul [^2]. The overall look-and-feel moved closer to what modern Game Maker versions would use, with more dialogs and organizational panels for different resource types.
+### Improved UI and Workflow
+Mark Overmars refined the Game Maker IDE in 2.0, reorganizing how resources (sprites, sounds, rooms, etc.) were managed. 
+The interface became more intuitive than the 1.x series, addressing some limitations of the earlier design. 
+According to later retrospectives, each major release around this time introduced a new file format or layout; Game Maker 2.0 was no exception, likely switching to a new project file structure as part of the overhaul [^2]. 
+The overall look-and-feel moved closer to what modern Game Maker versions would use, with more dialogs and organizational panels for different resource types.
 
-- **More Actions and Functions:** Version 2.0 added **many new drag-and-drop icons and functions** to broaden the range of possible game mechanics without coding [^2]. Users now had access to more pre-built actions for things like advanced object movement, basic drawing, and control structures, which reduced the need to write GML for common tasks. This expansion of the drag-and-drop system made Game Maker more accessible to beginners and allowed more complex games to be made visually.
+### More Actions and Functions
+<img alt="Object Editor (objects were all in a single window)" src="https://github.com/user-attachments/assets/5407365c-0455-4194-9e46-a8dca535d48f" />
 
-- **Continued Script Language Support:** The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 continued to support mixing code with drag-and-drop, giving experienced users the ability to do more. However, it still lacked some advanced constructs that would appear in later versions.
+Version 2.0 added **many new drag-and-drop actions** to broaden the range of possible game mechanics without coding [^2]. 
 
-- **No DirectX or EXEs Yet:** Importantly, **Game Maker 2.0 still did *not*** introduce DirectX acceleration or the ability to compile stand-alone executables. The rendering engine remained software-based (using the Windows GDI), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. These features were on the horizon (DirectX would come in the next version), but in 2.0 the focus was on improving usability and adding content creation features rather than low-level technical changes.
+Users now had access to more pre-built actions for things like advanced object movement, basic drawing, and control structures, which reduced the need to write GML for common tasks. This expansion of the drag-and-drop system made Game Maker more accessible to beginners and allowed more complex games to be made visually.
 
-During the year 2000, Game Maker’s popularity started to rise rapidly. By the end of that year, the program had been downloaded tens of thousands of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. In summary, **Game Maker 2.0** modernized the tool’s interface and expanded its feature set, making it a more robust platform for game creation. It set the foundation upon which the crucial technical upgrades of versions 3 and 4 would soon build.
+### Continued Script Language Support
+<img width="766" height="520" alt="image" src="https://github.com/user-attachments/assets/c3f33957-2b11-4dba-a5f6-f523d569959d" />
 
+The GML scripting language was further developed, although still not as sophisticated as it would eventually become. Version 2.0 improved file handling functions, more sound control functions, ability to rotate text and more control over the way images are displayed, etc. 
+GML script was still only available in the Object Editor as an action so stand alone "scripts" were not available until a later version.
+
+### First DirectX support (DirectSound)
+This was the first version to introduce functionality based on the DirectX SDK, specifically **DirectSound**, Game Maker would check if DirectX 5.0 or higher is installed on the target PC and if so would allow higher quality audio playback and introduced sound effects.
+Importantly, Game Maker 2.0 still did **not** introduce DirectX acceleration for graphics this would come in the next version (3.0).
+
+The rendering engine remained software-based (using the **Windows GDI**), and games were run through the editor or a bundled interpreter rather than truly independent programs [^5]. 
+
+
+### System Requirements
+According to the Game Maker 2.0 installer the system requirements for 2.0 were as follows:
+> A modern PC (preferably a Pentium) running Windows'95,'98, 2000 or NT 4 is required.
+> After installation the program uses about 3 MB disk space.
+> The program requires at least 65000 colors (high color, 16-bit).
+> It requires at least 800x600 screen resolution.
+
+### Included example games and demos
+<img alt="Game Maker 2.0 Game List" src="https://github.com/user-attachments/assets/da6db47b-3b10-488e-8582-4bfc6011f1b2" />
+
+Game Maker 2.0 provided a few games and non-interactive demos to both showcase the functionality and to teach how to use the software, they are the same as 1.3 listed above but with the additoon of:
+* GAME Maze
+
+### Sharp rise in Game Maker's popularity
+<img alt="Game Maker 2.0 Installer Screen" src="https://github.com/user-attachments/assets/c13e9f8d-754a-4dc5-9d17-e60bae85da89" />
+During the year 2000, Game Maker’s popularity started to rise rapidly. 
+
+By the end of that year, the program had been downloaded **tens of thousands** of times by hobbyist developers worldwide, thanks in part to the enhancements in version 2.0 and positive word of mouth in online communities [^2]. 
+
+In summary, **Game Maker 2.0** modernized the tool’s interface and expanded its feature set, making it a more robust platform for game creation. It set the foundation upon which the crucial technical upgrades of versions 3 and 4 would soon build.
+
+---
 ## Version 3.0 (2001) – First Use of DirectX
 ![Game Maker 3.3beta](https://github.com/user-attachments/assets/5a59d096-8534-42e1-b60b-44f9a63ae2bd)
 
-On the 23rd November 2001, Overmars released **Game Maker 3.0**, which was a milestone for the software’s graphics and performance. The hallmark of version 3.0 was the introduction of **DirectX support** for the first time [^5]. This had several important effects:
+On the 23rd November 2001, Overmars released **Game Maker 3.0**, which was a milestone for the software’s graphics and performance. The hallmark of version 3.0 was the introduction of **DirectX rendering support** for the first time [^5]. This had several important effects:
 
 - **Hardware-Accelerated Graphics:** By leveraging Microsoft DirectX (likely DirectDraw at this stage), Game Maker could now render graphics more efficiently. Games ran faster and could use full-screen modes and graphical effects that were not feasible under the old software-based renderer. This was a significant step up in capability, as it unlocked the potential for smoother animations and richer visuals.
 
@@ -188,6 +485,7 @@ Overall, **Game Maker 3.x** dramatically improved the engine’s under-the-hood 
 
 This helped Game Maker’s community grow even more, as the quality and smoothness of games made in GM started to increase. Version 3.0’s success set the stage for an even more comprehensive overhaul in the next major release.
 
+---
 ## Version 4.0 (2001) – Major Rewrite and New Capabilities
 ![Game Maker 4 IDE](https://github.com/user-attachments/assets/1bd5a517-ceb5-40d2-84c8-dfda23125f71)
 
@@ -324,3 +622,4 @@ The Game Maker Community has now lasted over 25 years!
 [^11]: [Game Maker Facts 2004](https://web.archive.org/web/20041012165649if_/http://www.cs.uu.nl/people/markov/gmaker/facts.html)
 [^12]: [GameMaker Versions - GameMaker Wiki](http://game-maker.wikidot.com/game-maker-versions)
 [^13]: [Dreamland: Home of Josh](http://dreamland.im/about.php)
+[^14]: [Game Maker Pages Old Downloads](https://web.archive.org/web/20050830103832if_/http://www.gamemaker.nl:80/old.html)

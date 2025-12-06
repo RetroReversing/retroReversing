@@ -26,6 +26,8 @@ breadcrumbs:
   - name: Pokemon Mini
     url: #
 updatedAt: '2021-04-18'
+tags:
+  - pokemonmini
 ---
 
 # Introduction to the Pokemon Mini (PM)

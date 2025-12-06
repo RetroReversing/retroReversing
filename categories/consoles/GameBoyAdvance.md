@@ -4,7 +4,7 @@ layout: post
 title: Nintendo Game Boy Advance (GBA) Reverse Engineering
 recommend: 
  - gba
- - gb
+ - gameboy
 recommendTitle: All GBA Posts
 editlink: ../categories/consoles/GameBoyAdvance.md
 console: gba

@@ -217,6 +217,23 @@ At E3 1995, the gaming industry was undergoing significant changes, with the Sup
 E3 1995 consisted of exhibits and presentations, but unlike modern E3 events, there were no livestreams, special guest stars, or musical performances. The target audience was gaming industry professionals, retailers, developers, marketing teams, investors, and journalists, rather than gamers. As a result, these early E3 conferences were more subdued and focused on industry announcements rather than generating excitement among gamers.
 
 ---
+# Nintendo Space World (Shoshinkai) (1989-2001)
+
+**Nintendo Space World** (originally known as Shoshinkai) was Nintendo’s annual trade show held in Japan, running from **1989** to **2001**. The event was a major showcase for Nintendo’s upcoming hardware and software, often featuring world premieres, tech demos, and exclusive reveals.
+
+Notable highlights include the first public showings of the **Nintendo 64**, **GameCube**, and **Game Boy Advance**, as well as prototype games and hardware that sometimes never saw official release. Space World became legendary in the retro gaming and reverse engineering communities due to the early builds, beta content, and rare hardware exhibited—some of which have since surfaced in the form of leaked ROMs and development documents.
+
+## 1989 – Shoshinkai Debut
+<img width="1574" height="930" alt="Photo from 1989 Shoshinkai all about the Super Famicom" src="https://github.com/user-attachments/assets/fdd49846-9f23-4943-be7e-faa45a467852" />
+
+On the 28th July 1989 Nintendo launched its first ever in-house trade show called Shoshinkai in Kyoto, it was a private in-house event for members of the Japanese press [^11]. It was an early look at the Super Famicom as it would be released in November 1990, over a year away at this point. 
+
+The magazines **Famitsu** and **Famimaga** published photos taken from the projector screen showing an early version of Super Mario World for the SNES.
+
+For more information check out Chris Covell's excellent page on the 1989 conference: [Japanese Secrets!](https://www.chrismcovell.com/secret/SFC_1989Q3.html)
+
+
+---
 # QuakeCon
 QuakeCon is an annual convention and gaming event that primarily focuses on the Quake series of video games, as well as other titles developed by id Software, the company behind Quake. The event has been held since 1996 and is known for its emphasis on competitive gaming, LAN parties, and the celebration of the gaming community.
 
@@ -342,3 +359,4 @@ The table below lists all presentations from the 3D Design Conference (June 3–
 [^8]: [Computer Game Developers Conference 1993 audiotape catalog](https://web.archive.org/web/19980709193918/http://vwtapes.com/cgdc/cgdc93.shtml)
 [^9]: [THE 1994 COMPUTER GAMES DEVELOPERS CONFERENCE](http://www.ibiblio.org/GameBytes/issue19/misc/cgdc.html)
 [^10]: [D.I.C.E. Summit - February 28 March 1, 2002](https://web.archive.org/web/20011130014100/http://dicesummit.org/)
+[^11]: [Japanese Secrets!](https://www.chrismcovell.com/secret/SFC_1989Q3.html)

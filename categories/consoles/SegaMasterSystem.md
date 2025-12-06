@@ -18,6 +18,8 @@ breadcrumbs:
     url: #
 redirect_from:
   - /segamastersystem
+tags:
+  - sms
 ---
 
 # Introduction

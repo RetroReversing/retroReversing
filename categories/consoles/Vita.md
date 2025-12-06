@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Sony Playstation Vita Reverse Engineering
     url: #
+tags:
+  - vita
 ---
 
 # Introduction

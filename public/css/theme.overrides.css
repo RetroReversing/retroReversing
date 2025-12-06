@@ -5,7 +5,8 @@
   padding: 0px;
   width: 80vw;
   max-width: 90vw;
-  margin-left: 2%;
+  /* Margin left was causing the navbar to shift too much to the left on big screens, so disabled */
+  /* margin-left: 2%; */
 }
 
 
@@ -13,316 +14,80 @@
 ::-webkit-scrollbar {
     display: none;
 }
-/* hide in firefox and ie */
+/* hide scrollbar in firefox and ie */
 body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
 }
 
-/* Nav Bar  */
+/* #region Nav Bar  */
+.navbar-container {
+  max-width: 95vw !important;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  width: 95vw;
+}
+
+@media (min-width: 1300px) {
+  /* larger desktop styles */
+  .navbar-container {
+    width: 80vw !important;
+  }
+}
+
+#header .navbar {
+  justify-content: space-between;
+  display: flex;
+  min-width:95vw;
+}
+
+.nav {
+  justify-content: center;
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    min-width: 70vw;
+  }
+}
+
 #header .logo {
   color: white;
   font-weight: 600;
 }
+/* #endregion */
 
-/* Start of CSS related to the homepage  */
-.row-5 {
-  margin: unset;
-  padding: 30px;
-  justify-content: space-evenly;
-}
-.owl-carousel .owl-stage-outer {
-	max-height: 65vh;
-}
-@media (min-width: 576px) {
-
-  .rr-home-section {
-    display: flex;
-  }
-
-  .rr-twitter {
-    width:20vw;
-    margin-top:-100px;
-    background-color: #292F33;
-    margin-bottom: -30px;
-    padding-right: 45px;
-  }
-}
-
-.rr-head-hero-container {
-  display:flex; 
-  width:100%; 
-  height:350px;
-}
-
-/* End of Homepage css */
-
-/*  */
-/* Start of CSS related to POSTS  */
-/*  */
-.container.post-container {
-  max-width: 100vw !important;
-  width: 95vw;
-}
-
-blockquote {
-  border-left-color: #0085b6;
-}
-
-.post blockquote {
-  margin-left: 5%
-}
-
-.post strong {
-/*   color: #2089b0; */
-/*   color: #1c789b */
-    color: #0085b6;
-}
-
-
-/* Images inside posts should be 50% and look more centered  */
-.post img {
-    width: 50%;
-    margin-left: 2rem;
-    display:block;
-/*   Clear both means the images won't be put on the same line as a floating element */
-  clear: both;
-/*   The next is experimental */
-  max-height: 50vh;
-  max-width: 25vw;
-  width: auto;
-}
-
-/* We don't want it to apply to certain images  */
-.widget-img img, .post-header img, .table img, .rr-file-card img {
-  width: unset;
-  margin-left: unset;
-  display: unset;
-}
-
-/* Set width static to avoid page layout shifting */
-.widget-img img {
-  width: 260px;
-}
-  
+/* #region Cards */
 
 .card-video, .card-video .card-img {
   width: 320px;
   height: auto;
 }
 
-.card-title h4 {
+h4.card-title {
   margin-top: 0px;
 }
+/* #endregion Cards */
 
-.table img {
-  max-width: 200px;
-}
-
-.post ul {
-  list-style-type: initial;
-  padding-left: 5%;
-  margin: initial;
-  margin-top: 5px;
-  margin-left: 4%;
-}
-
-.post ol {
-  padding-left: 5%;
-  margin: initial;
-  margin-top: 5px;
-  margin-left: 4%;
-}
-
-.post .footnotes ol {
-  padding-left: 4%;
-  margin-left: 0px;
-}
-
-.post a {
-  text-decoration: underline ;
-}
-
-.post hr {
-  margin-top: 2em;
-  margin-bottom: 1em;
-}
-
-/* The following automatically applied an HR effect but it was too troublesome  */
-/* .post {
-  h1::before, h2::before {
-      content: "";
-      display: block;
-      border-top: 1px solid #ccc;
-      margin: 2rem 0 1rem;
-  }
-} */
-
-.post h1 {
-  padding-top: 10px;
-  color: #0085b6;
-  font-size: 25px;
-/*   margin-left: -0.4em; */
-  margin-bottom: 15px;
-}
-
-.post h2, .post h3, .post h4, .post h5, .post h6 {
-  color: #0085b6;
-/*   color: #848484; */
-  margin-left: 1em;
-  margin-bottom: 10px;
-}
-
-.post h3 {
-   margin-left: 2em;
-   margin-bottom: 5px;
-}
-
-.post h4 {
-   margin-left: 2.5em;
-   margin-bottom: 5px;
-}
-
-.post h5 {
-   margin-left: 3em;
-   margin-bottom: 5px;
-}
-
-.post {
-  color: #333;
-}
-
-/* Youtube videos in posts  */
-.post iframe {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 50%;
-    margin-left: 5vw;
-}
-
-/* iFrame used in sandpack  */
-.post .sp-preview-container iframe {
-  width: 100%;
-  margin: 0px;
-}
-
-
-.widget-friends i {
-  width:64px;
-  height:64px;
-  text-align: center;
-}
-
-.rr-post-markdown {
-    padding-left: 40px;
-}
-
-/* Recommendation sidebar  */
-.widget-videos .widget-img {
-  width: 270px;
-  max-width: 270px;
-}
-
-/* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
-table.dataTable {
-  min-height: 460px;
-}
-
-/* Post images that float ot the left or right  */
-
-.postImage {
-  width:30vw;
-  float: left;
-  margin-right: 10px;
-  margin-left: unset !important;
-}
-
-.postImageRight {
-  width:30vw;
-  float: right;
-  margin-left: 10px;
-}
-
-.postImageRight + .rr-post-markdown {
-  padding-left: 5px;
-}
-
-.postSection {
-  line-height: 2;
-}
-
-.largeCode {
-max-height: 40vh;
-overflow: scroll;
-  
-  ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
-    ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: rgba(0,0,0,.5);
-        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
-    }
-}
-
-/*  ILBM Viewer */
-.draghint {
-  display: table;
-  box-sizing: border-box;
-  border-width: 10px;
-  border-style: dashed;
-  background-color: white;
-  border-color: #ccc;
-  width: 100%;
-}
-  
-.dragtext {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #999;
-}
-  
-.hover {
-  border-color: #333;
-}
-
-/* padding-bottom and top for image */
-.mfp-no-margins img.mfp-img {
-	padding: 0;
-}
-/* position of shadow behind the image */
-.mfp-no-margins .mfp-figure:after {
-	top: 0;
-	bottom: 0;
-}
-/* padding for main container */
-.mfp-no-margins .mfp-container {
-	padding: 0;
-}
-
-.dataTables_length label {
-  display:flex;
-  padding: 10px;
-  padding-bottom: 0px;
-}
-
-/* Non-datatable tables styling */
-.row table {
-  margin-bottom: 40px;
-  margin-left: 5%;
-  margin-top: 20px;
-  max-width: 95%
-}
-
-.table > thead > tr > th {
-  color: #0085b6
+body {
+  font-family: 
+      /* Use the system UI font on Apple platforms (macOS, iOS) */
+      -apple-system, 
+      BlinkMacSystemFont,
+      /* Use the default UI font on Windows */
+      "Segoe UI",
+      /* Use the native Android font */
+      Roboto,
+      /* Fallbacks for older systems or when native fonts are unavailable */
+      "Helvetica Neue", 
+      "Noto Sans", 
+      Arial,
+      /* Generic fallback */
+      sans-serif;
 }
 
 .row p {
   padding: 5px;
-/*   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif; */
   font-family: 
       /* Use the system UI font on Apple platforms (macOS, iOS) */
       -apple-system, 
@@ -360,86 +125,13 @@ section {
   padding: 30px 0;
 }
 
-.footnotes p {
-  padding:0px;
-  margin-bottom:1px;
-}
-
-/*                    */
-/*  Table of contents */
-/*                    */
-.jumper {
-  font-weight: 500;
-  color: #0085b6;
-  margin-bottom:5px;
-  margin-top:15px;
-}
-
-.jumper--H2, .jumper--H3, .jumper--H4, .jumper--H5, .jumper--H6 {
-  font-size:0.8em;
-}
-
-.jumper--H2 {
-  margin-left: 10px;
-  list-style: none;
-  margin-top: 5px;
-}
-
-.jumper--H3 {
-  margin-left: 25px;
-  font-weight: 200;
-  list-style: none;
-}
-
-.jumper--H4 {
-  margin-left: 20px;
-  font-weight: 100;
-  list-style: none;
-}
-
-.jumper--H5 {
-  margin-left: 25px;
-  font-weight: 50;
-  font-size:0.7em;
-  list-style: none;
-}
-
-.jumper--H6 {
-  margin-left: 30px;
-  font-weight: 25;
-  font-size:0.6em;
-  list-style: none;
-}
-
-
-
 .dataTable a {
   color: #007bff !important;
 }
 
 /*           */
-/* Includes  */
+/* #region Includes  */
 /*           */
-/*  Link to other post */
-.linkToOtherPost {
-  display: flex;
-  .widget-img img {
-    height: 100px !important;
-  }
-}
-
-.linkToOtherPost blockquote:hover {
-    background: #0085b60d;
-}
-
-.linkToOtherPost blockquote {
-  display:flex;
-  margin-left: 5%;
-}
-
-.linkToOtherPost .widget-img img {
-  height: 100px !important;
-}
 
 /* Sandpack is the code editor/live preview  */
 rr-sandpack {
@@ -447,6 +139,7 @@ rr-sandpack {
   margin: 2rem 0;
 }
 
+/* -------- */
 /*  JS Tree */
 .jstree-default .jstree-anchor {
   font-size: 14px !important;
@@ -461,20 +154,8 @@ rr-sandpack {
   padding-left: 0px !important;
 }
 
-/* code blocks */
-p .language-plaintext, p .language-bash {
-/*   padding-left: 5%; We don't want the 5% as we sometimes use the code block for a couple of words */ 
-}
-
-.language-plaintext pre {
-  background-color: #333;
-  color: white;
-}
-
-/*  */
-/* Tabs */
-/*  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400&subset=latin,latin-ext);
+/* ---- */
+/* #region Tabs */
 
 .rr-tabs ul.tabs {
 	width: 50vw;
@@ -482,44 +163,51 @@ p .language-plaintext, p .language-bash {
 	margin: 0 auto;
 	list-style: none;
 	overflow: hidden;
-  padding: 0;
+  padding: 0px;
 }
 
 .rr-tabs ul.tabs li {	
 	float: left;
-	width: 130px;
+	/* width: 130px; */
+  width: fit-content;
 }
 
 .rr-tabs ul.tabs li a {
 	position: relative;
 	display: block;
 /* 	height: 30px; */
-	margin-top: 40px;
-	padding: 10px 0 0 0;
-	font-family: 'Open Sans', sans-serif;
+	margin-top: 20px;
+  padding: 10px;
+	/* padding: 10px 0 0 0; */
+	/* font-family: 'Open Sans', sans-serif; */
 	font-size: 18px;
 	text-align: center;	
 	text-decoration: none;
 /* 	color: #ffffff; */
   color: #4c4c4c;
-  background: #f6f6f6;
+  /* background: #f6f6f6; */
 /* 	background: #6edeef; */
-	-webkit-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	   -moz-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	        box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
-	        	border: 0px solid #000000;
-	-webkit-transition: padding 0.2s ease, margin 0.2s ease;
-       -moz-transition: padding 0.2s ease, margin 0.2s ease;
-         -o-transition: padding 0.2s ease, margin 0.2s ease;
-        -ms-transition: padding 0.2s ease, margin 0.2s ease;
-            transition: padding 0.2s ease, margin 0.2s ease;
+  border: 0px solid #000000;
+  box-shadow: -2px 3px 15px -13px rgba(0, 0, 0, 0.81) inset;
+  /* box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	  -webkit-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4);
+	  -moz-box-shadow: 8px 12px 25px 2px rgba(0,0,0,0.4); */
+  transition: padding 0.2s ease, margin 0.2s ease;
+	  -webkit-transition: padding 0.2s ease, margin 0.2s ease;
+    -moz-transition: padding 0.2s ease, margin 0.2s ease;
+    -o-transition: padding 0.2s ease, margin 0.2s ease;
+    -ms-transition: padding 0.2s ease, margin 0.2s ease;
+
+  /* The below is experimental */
+  min-width: fit-content;
+  text-wrap: nowrap;
 }
 
 .rr-tabs .tabs li:first-child a {
 	z-index: 3;
   -webkit-border-top-left-radius: 8px;
--moz-border-radius-topleft: 8px;
-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
 }
 
 .rr-tabs .tabs li:nth-child(2) a {
@@ -532,19 +220,27 @@ border-top-left-radius: 8px;
 	   -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
 	        box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
   -webkit-border-top-right-radius: 8px;
--moz-border-radius-topright: 8px;
-border-top-right-radius: 8px;
+      -moz-border-radius-topright: 8px;
+          border-top-right-radius: 8px;
 }
 
 .rr-tabs ul.tabs li a:hover {
- 	margin: 35px 0 0 0; 
-	padding: 10px 0 5px 0;
+ 	margin-top: 15px; 
+  padding-bottom: 15px;
+	/* padding: 10px 0 5px 0; */
 }
 
+/* Active tab */
 .rr-tabs ul.tabs li a.active {
-	margin: 30px 0 0 0;
-	padding: 10px 0 10px 0;
-  background: #ffffff;
+  margin-top: 10px;
+  padding-bottom: 20px;
+	/* margin: 30px 0 0 0; */
+	/* padding: 10px 0 10px 0; */
+  /* padding: 10px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  /* background: #ffffff; */
+  /* background: #00000007; */
 	z-index: 4;
 	outline: none;
 }
@@ -558,59 +254,77 @@ border-top-right-radius: 8px;
     clear: both;
 }
 
+/* Tab content */
 .rr-tabs .rr-tab {
-    padding: 30px 40px;
+  padding: 30px 40px;
   width: 50vw;
+  min-height: 200px;
 /*   height: 200px; */
   margin: 0 auto;
 /*   background: #545f60; */
--webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
-   	   -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
-   	        box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
+  box-shadow: 2px 8px 25px -2px rgba(0,0,0,0.3);
   -webkit-border-bottom-right-radius: 8px;
--webkit-border-bottom-left-radius: 8px;
--moz-border-radius-bottomright: 8px;
--moz-border-radius-bottomleft: 8px;
-border-bottom-right-radius: 8px;
-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+/* #endregion Tabs  */
+
+/*  ILBM Viewer */
+.draghint {
+  display: table;
+  box-sizing: border-box;
+  border-width: 10px;
+  border-style: dashed;
+  background-color: white;
+  border-color: #ccc;
+  width: 100%;
+}
+  
+.dragtext {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #999;
+}
+  
+.hover {
+  border-color: #333;
 }
 
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+/* End ILM viewer  */
 
+/* #endregion Includes  */
 
-/*  */
-/* Phone screen overrides  */
-/*  */
+/* #region Phone screen overrides  */
 @media (max-width: 768px) {
-  .post {
-    h1 {
-      font-size: 20px;
-      margin-left: unset;
-    }
-
-/*  You tube videos should be full width on phone    */
-    iframe {
-      width: 100vw;
-      margin-left: -20px;
-    }
-  }
-
   .toolbar .toolbar-links {
     min-height: 55px !important;
   }
 
   .rr-head-hero-container {
-   display:none !important;
+   display: none !important;
   }
 
   .rr-head-hero {
     display:none !important;
-  }
-
-  .rr-home-section .container {
-    padding-left: 0px !important;
-    padding: 0px !important;
-    margin-left: 0px !important;
-    width: 100vw;
   }
   
   #follow-retro-reversing {
@@ -631,3 +345,5 @@ border-bottom-left-radius: 8px;
     color: white;
   }
 }
+
+/* #endregion Phone screen overrides  */

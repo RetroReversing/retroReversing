@@ -14,6 +14,8 @@ redirect_from:
   - /maths/
   - /math
 editlink: ../categories/misc/Maths.md
+tags:
+  - maths
 ---
 
 # Vectors

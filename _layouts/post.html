@@ -21,35 +21,11 @@
       <div class="row">
         <div class="col-lg-9">
           <div class="post post-single">
-            <div class="post-header">
-              <div>
-                {% if page.thumbnail %}
-                  <img src="{{ page.thumbnail }}" alt="">
-                {% else %}
-                  <img src="/public/images/RetroReversingLogoSmall.png" alt="Retro reversing logo">
-                {% endif %}
-              </div>
-              <div>
-                <h1 class="post-title">{{ page.title }}</h1>             
-                {% if page.editlink %}
-                  <a href="https://github.com/RetroReversing/retroReversing/edit/master/pages/{{page.editlink}}"><i class="fa fa-edit" style="margin-right:5px"></i>Edit on Github</a>
-                {% else %}
-                  <a href="https://github.com/RetroReversing/retroReversing/tree/master/pages"><i class="fa fa-edit" style="margin-right:5px"></i>Edit on Github</a>
-                {% endif %}
-                | Updated:
-                <i> 
-                    {% if page.updatedAt %}
-                      {{page.updatedAt | date_to_long_string: "ordinal"}}
-                    {% else %}
-                      {{site.time | date_to_long_string: "ordinal"}}
-                    {% endif %}
-                </i>
-                
-              </div>
-            </div>
+            {% include posts/post-header.html %}
             {{ content | markdownify }}
           </div>
-          <div class="post-actions">
+          {% include posts/post-footer.html %}
+          <!-- <div class="post-actions">
             {% if page.tags %}
               <div class="post-tags">
                 {% for tag in page.tags %}
@@ -64,13 +40,11 @@
           
           <div id="follow-retro-reversing" style="background-color:#242629; display: flex; justify-content: center;">
             {% include followUs.html %}
-            
-<!--             <a href="https://twitter.com/RetroReversing"><img src="/public/images/Follow RetroReversing on Twitter.jpg" /></a> -->
           </div>
           
           <div id="comments" class="comments anchor">
             {% include disqus.html %}
-          </div>
+          </div> -->
           
         </div>
         <aside class="col-lg-3">

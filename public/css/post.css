@@ -1,0 +1,531 @@
+/* Only CSS used in Post content should go here */
+/* Don't use nesting as it doesn't work in older browsers (pre: 2023) e.g .post { a { color: blue } } */
+
+:root {
+  --color-bold: #0085b6; /* bold/strong */
+  /* --color-link: #00a3d9; */
+  --color-link: #0085b6; /* current the same as bold */
+  --color-text: #333;
+  --color-link-hover: #006a91;
+}
+
+/* ------------------------------- */
+/* Start of CSS related to posts  */
+.container.post-container {
+  max-width: 100vw !important;
+  width: 95vw;
+}
+@media (min-width: 1300px) {
+  /* larger desktop styles */
+  .container.post-container {
+    width: 80vw !important;
+  }
+}
+
+/*  */
+/* Phone screen overrides  */
+/*  */
+@media (max-width: 768px) {
+    .post h1 {
+      font-size: 20px;
+      margin-left: unset! important;
+    }
+
+    /* Youtube videos should be full width on phone */
+    .post iframe {
+      width: 100vw !important;
+      margin-left: -20px !important;
+    }
+}
+
+
+blockquote {
+  /* border-left-color: #0085b6; */
+  border-left-color: var(--color-bold);
+}
+
+.post blockquote {
+  margin-left: 5%
+}
+
+
+/* rr-post-markdown is used in the post content directly in html to give an image on the left */
+.rr-post-markdown {
+    padding-left: 40px;
+}
+
+.postSection {
+  line-height: 2;
+}
+
+/*  */
+/* Text styling for posts */
+/*  */
+
+.post {
+  color: var(--color-text);
+}
+
+.post .post-edit-link {
+  color: var(--color-text);
+  text-decoration: underline
+}
+
+.post strong {
+/*   color: #2089b0; */
+/*   color: #1c789b */
+    color: var(--color-bold);
+}
+
+
+.post a {
+  /* text-decoration: underline; */
+  color: var(--color-link);
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post p a:not(.reversefootnote)::before,
+.post li a:not(.reversefootnote)::before {
+  content: "🔗 ";
+  font-size: 0.8em;
+  opacity: 0.8;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 3px;
+}
+
+/* Override for links inside .rr-tab (tab names should not be prefixed with 🔗) */
+.post .rr-tabs ul li a::before {
+  content: none !important;
+  font-size: unset;
+  opacity: unset;
+  display: unset;
+  text-decoration: none;
+  padding-right: unset;
+}
+
+.post h1 {
+  padding-top: 10px;
+  color: var(--color-bold);
+  font-size: 25px;
+/*   margin-left: -0.4em; */
+  margin-bottom: 15px;
+}
+
+.post h2, .post h3, .post h4, .post h5, .post h6 {
+  color: var(--color-bold);
+/*   color: #848484; */
+  margin-left: 1em;
+  margin-bottom: 10px;
+}
+
+.post h2 ~ .highlighter-rouge {
+    margin-left: 2em;
+}
+
+.post h3 {
+   margin-left: 2em;
+   margin-bottom: 5px;
+}
+
+.post h3 ~ .highlighter-rouge {
+    margin-left: 3em;
+}
+
+.post h4 {
+   margin-left: 2.5em;
+   margin-bottom: 5px;
+}
+
+.post h3 ~ .highlighter-rouge {
+    margin-left: 3.5em;
+}
+
+.post h5 {
+   margin-left: 3em;
+   margin-bottom: 5px;
+}
+
+.post hr {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+/* #region Images */
+/* Images inside posts should be 50% and look more centered  */
+.post img {
+    width: 50%;
+    margin-left: 2rem;
+    display:block;
+/*   Clear both means the images won't be put on the same line as a floating element */
+    clear: both;
+/*   The next is experimental */
+    max-height: 50vh;
+    max-width: 30vw;
+    width: auto;
+}
+
+/* We don't want it to apply to certain images  */
+.widget-img img, .post-header img, .table img, .rr-file-card img, .post.post-header-icon {
+  width: unset !important;
+  margin-left: unset !important;
+  display: unset !important;
+}
+
+/*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
+.post-header-icon {
+  min-height: 50px !important;
+  max-height: 75px !important;
+}
+
+/* Set width static to avoid page layout shifting */
+.widget-img img {
+  width: 260px;
+}
+
+/* The post-thumbnail is the Preview image of a post in a list of post */
+.post .post-thumbnail {
+  display: flex;
+}
+/* #endregion Images */
+
+/* Youtube videos in posts  */
+.post iframe {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    margin-left: 5vw;
+}
+
+/* single embedded code blocks, only one backtick */
+code.language-plaintext {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 80%;
+  background: none;
+  color: #0a3069;
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+}
+
+code.language-plaintext:hover {
+    border: 1px solid #d0d7de;
+    background: #f6f8fa;
+    cursor: default;
+}
+
+/* largeCode only use in Turok */
+.largeCode {
+  max-height: 40vh;
+  overflow: scroll;
+  
+  ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: rgba(0,0,0,.5);
+        -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+    }
+}
+
+/* #region Lists in posts */
+
+.post ul {
+  list-style-type: initial;
+  padding-left: 5%;
+  margin: initial;
+  margin-top: 5px;
+  margin-left: 4%;
+  clear: both;
+}
+
+.post p:has(+ ul) {
+    /* only applies to p tags that have a ul after them */
+    clear:both;
+}
+
+.post ol {
+  padding-left: 5%;
+  margin: initial;
+  margin-top: 5px;
+  margin-left: 4%;
+}
+
+/* References */
+/* footnotes is a class that is used in the generated html from the markdown posts so you won't find it manually but it is required */
+.post .footnotes p {
+  padding: 0px;
+  margin-bottom:1px;
+}
+
+.post .footnotes ol {
+  padding-left: 4%;
+  margin-left: 0px;
+}
+/* #endregion Lists in posts */
+
+
+/* #region Sandpack */
+
+/* iFrame used in sandpack  */
+.post .sp-preview-container iframe {
+  width: 100%;
+  margin: 0px;
+}
+/* #endregion */
+
+/* #region Post Sidebar */
+
+.widget-friends i {
+  width:64px;
+  height:64px;
+  text-align: center;
+}
+
+/* Recommendation sidebar  */
+.widget-videos .widget-img {
+  width: 270px;
+  max-width: 270px;
+}
+/* #endregion */
+
+
+/* #region Tables  */
+
+.table img {
+  max-width: 200px;
+}
+
+table.dataTable {
+  /* Datatable overrides, make sure the table is always a minimum height, so when changing pages it doesn't reflow the entire page  */
+  min-height: 460px;
+}
+
+.dataTables_length label {
+  display:flex;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+/* Non-datatable tables styling */
+.row table {
+  margin-bottom: 40px;
+  margin-left: 5%;
+  margin-top: 20px;
+  max-width: 95%
+}
+
+.table > thead > tr > th {
+  color: #0085b6
+}
+
+/* #endregion Tables */
+
+/* #region Section enhancements */
+
+/* #region Post images that float ot the left or right  */
+.postImage {
+  width:30vw;
+  float: left;
+  margin-right: 10px;
+  margin-left: unset !important;
+}
+
+.postImageRight {
+  width:30vw;
+  float: right;
+  margin-left: 10px;
+}
+
+.postImageRight + .rr-post-markdown {
+  padding-left: 5px;
+}
+
+h2 + iframe, h3 + iframe, h4 + iframe, h2 + img, h3 + img, h4 + img {
+  float: left;
+  margin-right: 10px;
+}
+/* #endregion */
+
+/* #region emojis for under headings */
+.emoji {
+  font-size: 4em;
+  float: left;
+  margin-right: 0.4em;
+  line-height: 1;
+  padding: 15px;
+}
+
+h2 + .emoji {
+    margin-left: 0.5em;
+}
+
+h3 + .emoji {
+    margin-left: 1em;
+}
+
+h4 + .emoji {
+    margin-left: 2em;
+}
+
+h5 + .emoji {
+    margin-left: 2.5em;
+}
+
+.emoji + p {
+  padding-top: 15px;
+}
+/* #endregion emojis for under headings */
+
+/* #region stickers for under headings */
+
+.sticker-container {
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.sticker {
+  --c1: #ef548f;
+  --c2: #ef8b6d;
+  --shine-angle: 15deg;
+  display: inline-grid;
+  grid-template-areas: "text";
+  place-items: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 900;
+/*   font-style: italic; */
+/* preffered is 5vw but if smaller it makes the minimum font size 3rem up to a maximum of 10rem */
+  font-size: clamp(3rem, 4vw, 9rem);
+  text-transform: uppercase;
+  color: var(--c2);
+  margin-right: 20px;
+  /* width: 15vw;  */
+}
+.sticker-lg {
+  font-size: clamp(6rem, 30vw, 20rem);
+}
+.sticker span {
+  background: -webkit-gradient(linear, left top, left bottom, from(var(--shine-angle)), color-stop(0%, rgba(255, 0, 0, 0)), color-stop(35%, rgba(255, 0, 0, 0)), color-stop(49.95%, rgba(255, 255, 255, 0.98)), color-stop(50.15%, rgba(255, 255, 255, 0.98)), color-stop(65%, rgba(255, 0, 0, 0)), to(rgba(255, 0, 0, 0))), -webkit-gradient(linear, left top, right top, from(var(--c1)), to(var(--c2)));
+  background: linear-gradient(var(--shine-angle), rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 35%, rgba(255, 255, 255, 0.98) 49.95%, rgba(255, 255, 255, 0.98) 50.15%, rgba(255, 0, 0, 0) 65%, rgba(255, 0, 0, 0)), linear-gradient(to right, var(--c1), var(--c2), var(--c2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.01em rgba(0, 0, 0, 0.6);
+}
+.sticker > *, .sticker::before, .sticker::after {
+  grid-area: text;
+}
+.sticker::before, .sticker::after {
+  content: attr(data-text);
+  color: #fff;
+}
+.sticker::before {
+  -webkit-text-stroke: 0.21em white;
+/*   background: no-repeat -webkit-gradient(linear, left top, left bottom, from(white), to(white)) 15% 50%/85% 60%;
+  background: no-repeat linear-gradient(white, white) 15% 50%/85% 60%; */
+}
+.sticker::after {
+  text-shadow: 0.07em 0.08em 0.05em rgba(0, 0, 0, 0.75), -0.07em -0.05em 0.05em rgba(0, 0, 0, 0.75);
+  z-index: -2;
+}
+/* #endregion stickers for under headings */
+/* #endregion Section Images */
+
+
+/*  #region Table of contents */
+
+.jumper {
+  font-weight: 500;
+  color: #0085b6;
+  margin-bottom:5px;
+  margin-top:15px;
+}
+
+.jumper--H2, .jumper--H3, .jumper--H4, .jumper--H5, .jumper--H6 {
+  font-size:0.8em;
+}
+
+.jumper--H2 {
+  margin-left: 10px;
+  list-style: none;
+  margin-top: 5px;
+}
+
+.jumper--H3 {
+  margin-left: 25px;
+  font-weight: 200;
+  list-style: none;
+}
+
+.jumper--H4 {
+  margin-left: 20px;
+  font-weight: 100;
+  list-style: none;
+}
+
+.jumper--H5 {
+  margin-left: 25px;
+  font-weight: 50;
+  font-size:0.7em;
+  list-style: none;
+}
+
+.jumper--H6 {
+  margin-left: 30px;
+  font-weight: 25;
+  font-size:0.6em;
+  list-style: none;
+}
+/* #endregion Table of contents  */
+
+
+/* #region Includes  */
+
+/*  #region Link to other post */
+.post .linkToOtherPost {
+  display: flex;
+  clear: both;
+}
+
+.post .linkToOtherPostRight h3 {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.post .linkToOtherPost a {
+  width: 100%;
+}
+
+.post .linkToOtherPost a:hover {
+  text-decoration: none !important;
+}
+
+.post .linkToOtherPostRight p {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.post .linkToOtherPost blockquote:hover {
+  /* background: #0085b60d; */
+  background: #e5e5e590;
+}
+
+.post .linkToOtherPost blockquote {
+  display: flex;
+  margin-left: 5%;
+}
+
+.post .otherPostImg {
+  min-width: 200px;
+  max-height: 150px;
+  max-width: 320px;
+}
+
+/* #endregion Link to other post */
+/* #endregion Includes  */

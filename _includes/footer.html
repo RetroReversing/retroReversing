@@ -19,7 +19,7 @@
               <a rel="noreferrer" href="/atom.xml" target="_blank" data-toggle="tooltip" title="rss"><i class="fa fa-rss"></i></a>
 
             </div>
-            <p>Copyright &copy; 2024 <a href="https://www.retroreversing.com/" target="_blank">Retro Reversing</a>. All rights reserved.</p>
+            <p>Copyright &copy; 2025 <a href="https://www.retroreversing.com/" target="_blank">Retro Reversing</a>. All rights reserved.</p>
           </div>
     </div>
   </footer>
@@ -40,6 +40,10 @@
 <!-- End GeoPattern -->
 <script defer src="{{ '/public/js/main.js' | relative_url }}"></script>
 
+<!-- Search functionality -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+<script defer src="{{ '/public/js/search.js' | relative_url }}"></script>
+
 <script>
   $(document).ready(function() {
     $("img.postImage").each(function() {
@@ -48,9 +52,9 @@
             "data-lightbox": '{"gallery": "page-images"}'
         }));
     });
-    $('[data-lightbox]').lightbox({
-      disqus: 'retro-reversing'
-    });
+    // $('[data-lightbox]').lightbox({
+    //   disqus: 'retro-reversing'
+    // });
   });
 </script>
 
@@ -61,4 +65,5 @@
   }
 </script>
 
+<!-- This is to avoid having to include widgets.js every time a tweet is embedded -->
 <script defer src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

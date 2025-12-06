@@ -4,7 +4,6 @@ tags:
 - n64
 - devkit
 - hardware
-- bung
 title: Bung Doctor v64 (N64)
 thumbnail: /public/consoles/Nintendo 64.png
 videocarousel:

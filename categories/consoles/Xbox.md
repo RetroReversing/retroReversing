@@ -16,6 +16,8 @@ breadcrumbs:
     url: /
   - name: Microsoft Xbox
     url: #
+tags:
+  - xbox
 ---
 
 # Introduction
@@ -24,6 +26,13 @@ Welcome to our page dedicated to Xbox reverse engineering! The Xbox was a gaming
 On this page, we've compiled a list of links to other pages that cover various topics related to Xbox reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
 
 So grab your Xbox controller, and get ready to dive into the exciting world of Xbox reverse engineering!
+
+---
+# Games
+
+## Exclusives
+
+Wikipedia has a list of the games that are still exclusive to the original Microsoft Xbox - [Xbox-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Xbox-only_games)
 
 ---
 # Hardware

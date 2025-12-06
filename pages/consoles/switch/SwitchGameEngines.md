@@ -3,6 +3,7 @@ layout: post
 tags: 
 - switch
 - gameengines
+- middleware
 title: Nintendo Switch Game Engines
 image:  /public/images/switch/Nintendo Switch Game Engines.jpg
 twitterimage: https://www.retroreversing.com/public/images/switch/Nintendo Switch Game Engines.jpg
@@ -18,14 +19,16 @@ breadcrumbs:
 recommend: 
 - switch
 - gameengines
+- middleware
 editlink: /consoles/switch/SwitchGameEngines.md
 updatedAt: '2022-09-23'
 ---
 
 When reverse engineering games, one of the first things to find out is which engine the game is based on, this will save a considerable amount of time if it is based on a standard engine that is well documented.
 
-This page will list only the confirmed engines for each game along with proof that the game3 was built with that engine, so the list won't contain every game, but any game on the list you can be confident it was based on the engine listed.
+This page will list only the confirmed engines for each game along with proof that the game was built with that engine, so the list won't contain every game, but any game on the list you can be confident it was based on the engine listed.
 
+---
 # Unity3d
 <section class="postSection">
     <img src="/public/images/engines/UnrealEngineLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
@@ -34,7 +37,7 @@ Unity3d has supported the Nintendo Switch right from launch and the dev tools ar
 </div>
 </section>
 
-## Reverse Engineering & Modding
+## Reverse Engineering & Modding Unity Games
 Unity3D games are compiled from .net byte code down to C++ when generating a Nintendo Switch version. This makes it harder than standard Unity reverse engineering as the generated native code is harder to decompile than .net byte code.
 
 There are tools that support dumping the data from Unity NRO games such as the Il2CppDumper:
@@ -118,7 +121,8 @@ Yooka laylee and the impossible lair | 10.1 MB
 # Clickteam Fusion
 Clickteam Fusion is a game creation tool created by Clickteam mainly for 2D games. Clickteam also provides a paid-for-service to convert games made in their engine to consoles including the Nintendo Switch [^2].
 
-## Games
+A list of the games known to run on the **Clickteam Fusion** engine are listed in the table below along with how we know they use the engine:
+
 Game Name | Proof of engine
 ---|---
 Aggelos | executable contains `E:\_Clickteam\Proffesional Services\Aggelo`
@@ -126,10 +130,11 @@ Odallus | executable contains `E:\_Clickteam\Proffesional Services\Degerati Proj
 Oniken | executable contains `E:\_Clickteam\Proffesional Services\Degerati Projects\Oniken`
 
 ---
-# Game Maker
-Game Maker is an easy to use 2D game creation software created by Mark Overmars and bought by YoYo games. In October 2018 they released an export module for GameMaker Studio 2 to allow direct export into a Nintendo Switch executable.
+# Game Maker Studio
+Game Maker is an easy to use 2D game creation software originally created by **Mark Overmars** and bought by **YoYo games**. In October 2018 they released an export module for **GameMaker Studio 2** to allow direct export into a Nintendo Switch executable.
 
-## Games
+A list of the games known to run on the **Game Maker Studio** engine are listed in the table below along with how we know they use the engine:
+
 Game Name | Proof of engine
 ---|---
 Undertale | string in main executable: `SDK MW+YoYoGames+GameMaker_Studio_2-11.1.2.132-Release`
@@ -138,7 +143,7 @@ Undertale | string in main executable: `SDK MW+YoYoGames+GameMaker_Studio_2-11.1
 # Haxe (Heaps.io)
 There is only one Switch game so far that uses the Haxe engine and it is the excellent **Dead Cells**, well worth a purchase whenever it is on sale! 
 
-## Games
+
 
 Game Name | Proof of engine
 ---|---
@@ -149,7 +154,6 @@ Dead Cells | contains string `C:/Projects/haxeTools/lib/hashlink/src/alloc.c`
 # MonoGame (XNA)
 It is relatively rare to find a Switch game created with MonoGame but they do exist and you can find a few in the table below.
 
-## Games
 
 Game Name | Proof of engine
 ---|---

@@ -1,13 +1,9 @@
 ---
-layout: post
-tags: 
-- xbox
-- gameengines
-- engines
-title: Original Xbox Game Engines
-thumbnail: /public/consoles/Microsoft Xbox.png
-image: /public/images/xbox/XboxGameEngines.jpg
 permalink: /xbox-game-engines
+title: Original Xbox Game Engines
+layout: post
+
+image: /public/images/xbox/XboxGameEngines.jpg
 breadcrumbs:
   - name: Home
     url: /
@@ -18,6 +14,11 @@ breadcrumbs:
 recommend:
 - xbox
 - gameengines
+- middleware
+tags: 
+- xbox
+- gameengines
+- middleware
 editlink: /consoles/xbox/XboxGameEngines.md
 updatedAt: '2019-04-28'
 ---
@@ -32,11 +33,11 @@ However the Xbox generation was the first to really take 3rd party game engines 
 
 Full commercial off-the-shelf game engines became much more popular such as Unreal Engine or GameBryo. 
 
-But the real winners were the more specific middleware libraries such as the Havok Physics engine, Bink Video Playback engine and the Renderware Graphics engine.
+But the real winners were the more specific middleware libraries such as the **Havok** Physics engine, **Bink** Video Playback engine and the **Renderware** Graphics engine.
 
 Most developers still wanted full control over their game engine but it was too costly to write a custom physics, audio or video engine for each game. In future console generations developers would move towards the full game engines, leaving some of the flexibility behind.
 
-## Detecting middleware
+## Detecting Middleware and Game Engines in Xbox Games
 The games listed below each engine or middleware have been confirmed to use those engines by searching for common strings within the Xbox executable themselves. 
 
 If you would like to add a game to the list please make sure to check the executable for a trace of the code, sometimes developers aim to use a library but it never ends up in the final build.
@@ -297,11 +298,27 @@ Questionable Games:
 </div>
 </section>
 
-## Mercury Engine
+---
+## Merkury engine by Krome Studios
+Krome Studios developed the **Merkury Engine** to be highly portable across the sixth generation of consoles, including the Original Xbox. The engine's modular design allowed development on the Xbox to run simultaneously with the PlayStation 2 and GameCube versions of the games.
+
+Here are the games that used the Merkury Engine for the Original Xbox:
+* **Ty the Tasmanian Tiger** (2002) - The first in the franchise and a flagship Merkury title.
+* **Ty the Tasmanian Tiger 2: Bush Rescue** (2004)
+* **King Arthur** (2004) - A game developed by Krome Studios.
+* **Ty the Tasmanian Tiger 3: Night of the Quinkan** (2005)
+* **The Legend of Spyro: A New Beginning** (2006) - Developed by Krome for the Xbox, PS2, GameCube, and GBA.
+
+If you are interested in learning more we have a specific post about the Merkury engine:
+{% include link-to-other-post.html post="/krome-merkury-engine" %}
+
+---
+## MercurySteam Engine
 <section class="postSection">
 <img src="/public/images/engines/MercurySteamLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The internal engine used by the company MercurySteam known for the game Scrapland on Xbox [^3].
+
+The internal engine used by the company **MercurySteam** known for the game Scrapland on Xbox [^3].
   
 To find a game that uses this engine just search for the developer name in the main game executable: `MercurySteam`.
   

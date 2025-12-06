@@ -18,6 +18,8 @@ breadcrumbs:
     url: #
 redirect_from:
   - /supernintendo
+tags:
+  - snes
 ---
 # Introduction
 Welcome to our page dedicated to Super Nintendo reverse engineering! The Super Nintendo Entertainment System, or SNES, was a popular gaming console released by Nintendo in 1990. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
@@ -32,7 +34,7 @@ So grab your SNES controller, and get ready to dive into the exciting world of S
 ## How long did it take to develop games for the SNES back in the day?
 On average, SNES game development could take anywhere from several months to a couple of years. Some simpler or shorter games might be developed more quickly, while larger, more complex titles could take longer.
 
-Most game development teams only hand a handful of people working full time on the game, mostly programmers. Artists and Sound Engineers were often working on multiple projects at the same time. Music was usually created and added to the game near the end of the development process when the game was getting ready to be shipped.
+Most game development teams only had a handful of people working full time on the game, mostly programmers. Artists and Sound Engineers were often working on multiple projects at the same time. Music was usually created and added to the game near the end of the development process when the game was getting ready to be shipped.
 
 Some examples of the length of time it took to develop Super Nintendo games are:
 * **Spider Man & X-Men in Arcade's revenge** - Took roughly 6-7 months from start to final build using a team of 4 highly experienced game programmers, 2 talented musicians and 6 brilliant artists[^1]:
@@ -40,17 +42,17 @@ Some examples of the length of time it took to develop Super Nintendo games are:
   - Artwork:	Anthony Anderson, Craig Houston, David McLachlan, James Clarke, Jonathan M. Smith and Ste Pickford
   - Music:	Geoff Follin and Tim Follin
 * **Super Mario World 2: Yoshi's Island** - Took exactly 3 years and 5 months to complete (February 1st, 1992 until June  29th 1995 [^2]) with a team of 12 programmers.
-* **RPM Racing (Interplay)** - In an interview with SuperPro (October 1992) **Brain Fargo** explains that they only had **4-5 months** to implement the game after finding out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
+* **RPM Racing (Interplay)** - In an interview with SuperPro (October 1992) **Brian Fargo** explains that they only had **4-5 months** to implement the game after finding out the specs of the Super Nintendo. But he goes on to say that games after that took **1-3 years** on average to get a better level of polish. It was developed with the **Sluggo III** SNES development kit [^4].
 
 ---
 ## How would teams send their games to QA or to the press?
-**FTP servers** were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either an modified retail cartridge or a specialised cartridge.
+**FTP servers** were setup for sending builds across the world but for local testing the code would be flashed to an EEPROM chip (Electrically Erasable Programmable Read-Only Memory) and put in a cartridge shell (either a modified retail cartridge or a specialised cartridge.
 
 ---
 ## How large were SNES game development teams?
-According to **Brain Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
+According to **Brian Fargo** of Interplay his SNES games had teams of 5 people on average working on a single game.
 
-In an interview with **Shigeru Miyamoto** he states that development takes can get up to about 20 or so people in the later half of the development cycle [^9]:
+In an interview with **Shigeru Miyamoto** he states that development teams can get up to about 20 or so people in the later half of the development cycle [^9]:
 > For our development teams, for the beginning of the first year its usually comprised of 3 to 4 people, then about half a year in we start adding people until about the 8 month mark, where we reach a team of 20 or so. A new game system determines about 60% of the game creation process. In my case I work on that nucleus of the game first. The maps, story, etc are all about 10 or 20%.
 
 ---
@@ -68,7 +70,7 @@ Email was also in use, even amongst japanese game developers such as Square as c
 # SNES Game Programming
 
 ## What would you need to write SNES games?
-Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a thrid party development tool company.
+Pretty much every development team had their own ways of working back then, some had official development hardware and others had to make their own or license it from a third party development tool company.
 
 You would need the following on your desk:
 * Computer to write the code on (e.g **Apple II** [^4], **Sony NEWS** workstation)
@@ -85,7 +87,7 @@ On your computer of choice you would need:
 * Program to create/edit sounds (e.g **SynthLab** for music composition or **Sound Shop** [^4]) and program to convert sound to a SNES sound format
 
 ## What programming languages were used to write SNES games?
-At least 90 percent for all commerical Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
+At least 90 percent for all commercial Super Nintendo games were written in raw 65c816 assembly language, however there have been some hints over the years of ORCA/C support but no confirmation on specific games [^5].
 
 Once such game written in C for the SNES was **Super Noah's Ark 3D**, which although not licensed by Nintendo it was for sale in retail shops during the SNES lifespan [^7].
 
@@ -99,7 +101,7 @@ Integrated Development Environments (IDEs) as we know them today were not as pre
 In Youtube footage from **Pernoelle** [^10], we can see a programmer working on the Super Nintendo game Pilotwings using an IDE back in 1990, but it is unclear which IDE is being used:
 ![Pilotwings development](https://github.com/user-attachments/assets/12925c41-58a7-4c79-8333-1341c9499133)
 
-However looking closly at the keyboard and the PC we can see its a **Sony NEWS** workstation, so it must have been an IDE that supported that platform.
+However looking closely at the keyboard and the PC we can see its a **Sony NEWS** workstation, so it must have been an IDE that supported that platform.
 
 ---
 ## Was there an official SDK?
@@ -197,16 +199,66 @@ Also if you prefer video-based content the youtuber **Top Hat Gaming Man** has c
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ItKIhAiNCLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
- ## Satellaview
+## Satellaview
  The **Satellaview** was a satellite add on for the Super Famicom only ever released in Japan on the 24th April 1995. It allowed users to download games, virtual magazines and listen to radio broadcasts.
  
  The sad thing about the Satellaview is due to the nature of the technology most of the content has been lost to time and has only been partially preserved by finding old recordings on people's Satellaview cartridges. Some content was broadcast but never downloaded, or soon overwritten with newer content so there is no other way to obtain the data.
  
  In 2020 Luigiblood did a presentation to the **AirGap2020** conference about **Satellaview Reverse Engineering** which can be watched below:
- <iframe width="560" height="315" src="https://www.youtube.com/embed/qUAmk8dYmrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/mTRm2hcBrww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
- The **Satellaview** has little Memory Packs with only 1MB (8 MegaBit) of flash storage space that would slot into the BSX Satellaview cartridges, it was a cartridge that had a smaller cartridge slot on top. Note that there was one other game that supported these Memory Packs, it was a game creator called **RPG Maker**.
- 
+### BS-X Cartridges
+
+ The **Satellaview** has little Memory Packs with only 1MB (8 MegaBit) of flash storage space that would slot into the BS-X Satellaview cartridges, it was a cartridge that had a smaller cartridge slot on top. Note that there was one other game that supported these Memory Packs, it was a game creator called **RPG Maker**.
+
+The BS-X cartridge has that name because it was the entry point into the Broadcast Satellaview (BS) network, and the "X" signified the virtual town interface that users navigated.
+
+In the presentation he has a excellent diagram of the internals of the BS-X cartridges: 
+![Diagram of BS-X cartridge](/public/images/snes/BS-XCartridge.jpg)
+
+It uses a very unique mapper (**MCC-BSC**) that is only used for these cartridges, which has a 1MB BIOS ROM, 512KB  Pseudo-Static RAM (PSRAM) and 32KB Save RAM (SRAM).
+
+One interesting fact about the BIOS ROM is its jump table based which means it could be updated with downloadable patches by replacing the jump table targets with memory in the SRAM, allowing basic software updates on the BIOS.
+
+According to a patent it was originally intended to have Internal Flash RAM but it was removed hence the broken line in the diagram above.
+
+### Satellaview Base Unit
+The Base Unit was a full expansion subsystem that attached to the bottom of the Japanese Super Famicom via the **EXT port**. Think of it like a "tuner + data modem + memory system" for satellite-delivered games.
+
+**LuigiBlood** also has an excellent diagram showing the functional block layout of the Satellaview base unit and how it connects between the satellite broadcast input and the Super Famicom expansion port:
+![Satellaview Base Unit Hardware Diagram](/public/images/snes/Satellaview Base Unit Hardware Diagram.jpg)
+
+
+#### BS IN Port (Bitstream)
+The **BS IN Port** is the raw data input from the external St.GIGA satellite tuner. The tuner delivered a multiplexed bitstream containing both audio (for SoundLink narration) and data (for games, magazines, etc.).
+
+#### MN88821 (PCM Decoder)
+A Panasonic chip designed to decode the PCM audio/data multiplex from the broadcast. It splits the incoming signal into two logical streams:
+* Audio PCM (for the SoundLink voices/music, up to 4 channels of audio).
+* Data packets (for game code, magazines, metadata).
+
+
+#### DCD-BSA (Data Channel Decoder)
+The custom Nintendo/Satellite decoder ASIC. It takes the decoded data packets from the **MN88821** PCM Decoder and makes them accessible to the **SNES EXT Port** (the console's expansion bus on the bottom of the console).
+
+It handles synchronization, error correction, and buffering, it is the bridge that makes broadcast data look like "cartridge data" to the Super Famicom.
+
+#### SPR-BSA (EEPROM)
+A small onboard EEPROM chip for non-volatile storage to store the serial number of the Satellaview.
+It is not the same as the PSRAM memory packs, this is tiny configuration storage inside the base unit itself.
+
+#### EXT Port (Custom IDE)
+A secondary expansion port on the Satellaview unit itself.
+Sometimes described as a "custom IDE" interface, it allowed for additional peripherals such as a harddrive or compact flash (AFAIK none were released officially).
+
+Possibly also used for service/debug devices at St.GIGA or Nintendo.
+
+#### SNES EXT Port
+The physical connector to the Super Famicom's bottom expansion slot.
+This is how the console actually saw the decoded broadcast data, as if it were coming from a cartridge.
+Through this bus, the BS-X cartridge (with its PSRAM pack) could receive broadcast game data and present it like normal ROM to the SNES CPU.
+
+
 ---
 # Games
 The SNES wouldn't be as fondly remembered today if it didn't have its huge library of both first-party and third party games. This section will look at some of those games for those of you looking for inspiration for a new reversing project.  
@@ -224,7 +276,7 @@ For an in-depth look at how the game **Another World** was ported to the Super N
 {% include link-to-other-site.html url="http://fabiensanglard.net/another_world_polygons_SNES/index.html" description="The polygons of Another World" image="http://fabiensanglard.net/another_world_polygons_SNES/lester_snes.png" title="The polygons of Another World"  %}
 
 ## Remakes for the GBA
-As soon as the Game Boy Advance (GBA) was annonced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
+As soon as the Game Boy Advance (GBA) was announced people were describing it as a portable Super Nintendo, Nintendo themselves contribute to this message by re-releasing many of their SNES games for the platform. In total 48 SNES games were released on the GBA, most from Nintendo themselves but third party publishers got on board too.
 
 The GBA is a completely different beast from the SNES in terms of architecture and with most SNES games written in pure 6502 assembly it wasn't possible to just do a straight port. Most of the games needed to be re-written from scratch to support the new portable console.
 During this process a lot of changes were made to fit the much smaller non-backlit screen of the GBA, such as increasing the sprite size and brightening the contrast. 

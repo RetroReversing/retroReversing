@@ -1,9 +1,17 @@
-{% if include.title %}
-<!--   Placeholder  -->
-<div style="position: relative; color: white; height:150px; background-color: black; display: block;" class="geopattern" data-title="{{ include.title }}">
-  <img class="lazy-load" style="padding-left:2px; max-height: 32% !important; background-color: black; min-height: 32% !important; height:32% !important; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.title }}">
-  <span style="max-width:84%; position: absolute; top:9%; left: 14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-weight: 900;">
-    {{ include.title | split: '-' | first }}
-  </span>
-</div>
+{% comment %}
+This is used when a post does not have a thumbnail image for it, so it generates one with a similar header and a geopattern based on the title
+Parameters:
+* post - The Post (Page) that this is a placeholder thumbnail image for
+{% endcomment %}
+{% if include.post.title %}
+  <div style="position: relative; color: white; height:150px; background-color: black; display: block;" class="geopattern" data-title="{{ include.post.title }}">
+    <img class="lazy-load" style="padding-left:2px; max-height: 32% !important; background-color: black; min-height: 32% !important; height:32% !important; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.post.title }}">
+    <span style="max-width:84%; position: absolute; top:9%; left: 14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-weight: 900;">
+    {% if include.post.shorttitle %}
+        {{ include.post.shorttitle | split: '-' | first }}
+    {% else %}
+        {{ include.post.title | split: '-' | first }}
+    {% endif %}
+    </span>
+  </div>
 {% endif %}

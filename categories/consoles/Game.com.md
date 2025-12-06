@@ -16,10 +16,13 @@ breadcrumbs:
   - name: Tiger Game(dot)com
     url: #
 recommend: 
-- atari
+- handhelds
+- gameboy
 recommendTitle: All Tiger Game (dot) com Posts
 editlink: ../categories/consoles/Game.com.md
 updatedAt_: '2022-12-08'
+tags:
+  - handhelds
 ---
 
 # Introduction
