@@ -41,7 +41,7 @@ node scripts/extract-tags.js [options]
 - `--sort-by-count` - Sort by usage count (default)
 - `--sort-by-name` - Sort alphabetically
 - `--detailed` - Show which files use each tag
-- `--export-json` - Export data to `tags-export.json`
+- `--export-json` - Export data to `valid-tags.json`
 - `--export-csv` - Export statistics to `tags-export.csv`
 - `--help` - Show help
 
@@ -65,19 +65,19 @@ node scripts/extract-tags.js --export-json --export-csv
 
 ## validate-tags.js
 
-Validates all tags in markdown files against approved tags from `tags-export.json`.
+Validates all tags in markdown files against approved tags from `valid-tags.json`.
 
 ### Usage
 ```bash
-node scripts/validate-tags.js [path-to-tags-export.json]
+node scripts/validate-tags.js [path-to-valid-tags.json]
 ```
 
 ### Arguments
-- `path-to-tags-export.json` - Path to valid tags file (default: `tags-export.json`)
+- `path-to-valid-tags.json` - Path to valid tags file (default: `valid-tags.json`)
 
 ### Examples
 ```bash
-# Validate against default tags-export.json
+# Validate against default valid-tags.json
 node scripts/validate-tags.js
 
 # Validate against custom tags file

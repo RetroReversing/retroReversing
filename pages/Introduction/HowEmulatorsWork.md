@@ -7,6 +7,9 @@ thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/articles/How Emulators Work.jpg
 twitterimage: https://www.retroreversing.com/public/images/articles/How Emulators Work.jpg
 permalink: /how-emulators-work
+redirect_from:
+  - /emulators
+  - /emulation
 breadcrumbs:
   - name: Home
     url: /
@@ -19,13 +22,98 @@ recommend:
 editlink: /Introduction/HowEmulatorsWork.md
 updatedAt: '2022-10-09'
 ---
-Have you ever wondered how emulators work? This post aims to explain the technical details of how most open source and commercial emulators function.
+Have you ever wondered how emulators work? How would you implement an emulator? Where should you start if you are interested in emulator development? 
+This post attempts to answer all those questions.
 
 # Introduction to Emulators
 Emulators are computer programs that run on one system, such as a PC or game console, but pretend to be another system, such as a retro console like the NES or Game Boy.
 
-But how do they work? How would you implement an emulator? Where should you start if you are interested in emulator development? This post attempts to answer all those questions.
+## What exactly does an emulator do?
+It reproduces the behavior of a specific hardware system (e.g NES, SEGA Mega Drive) in software so that original programs can run unchanged. 
 
+It models CPU instructions, memory interactions, and device behavior well enough for software to behave as if real hardware were present.
+
+## How can software pretend to be hardware?
+It implements software models of hardware components such as registers, memory buses, I/O devices, and timers. Programs interact with these models exactly as they would with the physical components.
+
+### Are FPGA based systems considered emulators?
+Yes, FPGA systems emulate hardware by reconfiguring logic blocks to mimic the circuitry of the original system. They operate at lower abstraction levels than software emulators, providing near hardware fidelity.
+
+### Do emulators physically simulate the low level circuits?
+No. Emulators simulate what the hardware **does** (the end result), not how every transistor or wire behaves in the real world. Simulating electronics at a physical level is done by circuit simulators and is **far too slow** for running programs.
+
+Emulators focus on reproducing the architectural effects of the hardware: how instructions behave, how memory is accessed, and how devices respond. Some include rough or cycle-level timing, while others ignore timing entirely depending on the goal.
+
+### Why do some emulators need BIOS or firmware files?
+Certain hardware relies on proprietary initialization code or system routines stored in ROM. An emulator must load these images to reproduce authentic behavior and maintain compatibility.
+
+**Bytes N Bits** has an excellent video introducing BIOS/firmware fles:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LLdzqprlxi8?si=r_-_4ivtsqZHcji-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### What role do ROMs and ISOs play in emulation?
+They contain the original software or firmware images meant for the target hardware. The emulator loads and executes them exactly as the real system would.
+
+---
+## Is an emulator similar to an interpreter for a high level language?
+There is a loose similarity. Both run instructions that were written for something else and translate them into operations the host system can perform.
+
+The difference is that an emulator reproduces the rules of real hardware, while a language interpreter follows the rules of a programming language.
+
+### Similarities between Emulators and Programming Language Interpreters
+Interpreters and emulators each implement an execution model that translates foreign instructions into operations the host system can perform.
+
+Both systems typically include:
+* A parser or decoder that reads the incoming instruction format (bytecode, tokens, CPU opcodes)
+* Use a fetch-decode-execute style loop
+* Keep a software model of program state (registers, stacks, heaps, or similar)
+* Handle errors inside their own virtual environment
+
+### Differences between Emulators and Programming Language Interpreters
+Instead of interpreting source code an emulator operates on compiled (assembled) machine code intructions which are in a binary form.
+
+Emulators must also model registers, memory buses, I/O devices, and the timing between these components, which has no analogue in most high level interpreters.
+
+---
+
+## Why are some emulators fast and others slow?
+Speed depends on how much hardware detail is modeled and whether the emulator interprets instructions or uses JIT compilation.
+
+Cycle accurate models are significantly slower because they reproduce low level timing.
+
+### Why do some emulators use JIT compilers instead of interpretation?
+JIT compilation converts foreign machine code into host machine code for faster execution. It reduces instruction dispatch overhead but increases implementation complexity.
+
+---
+## What makes an emulator accurate or inaccurate?
+Accuracy depends on how closely the emulator matches hardware timing, instruction behavior, and device quirks. 
+Omitting subtle hardware details can improve speed but reduce compatibility or fidelity.
+
+[100th Coin](https://www.youtube.com/watch?v=oYjYmSniQyM) has a video looking at the accuracy of Nintendo's Official Emulators:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oYjYmSniQyM?si=mCZFaJtGIbhSutoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### What is cycle accuracy and why does it matter?
+Cycle accuracy means the emulator reproduces hardware behavior at the granularity of individual clock cycles. 
+
+This is essential for software that relies on precise timing, such as demos or tightly synchronized games.
+
+### Why are timing bugs in old hardware hard to emulate?
+They often arise from electrical characteristics, propagation delays, or undocumented behavior. Reproducing these requires extremely detailed models that are expensive to implement.
+
+### What causes compatibility issues in emulators?
+Missing hardware features, incorrect timing, or simplified device models can all break software that depends on subtle behavior. Some games rely on undocumented quirks that are difficult to replicate.
+
+---
+## What is the difference between high-level and low-level emulation?
+There are two main categories of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
+* **Low-Level Emulation (LLE)** - maximizes accuracy by simulating each hardware component including timing behaviours but is computationally expensive.
+* **High-Level Emulation (HLE)** - Detects API functions and implements an alternative using modern APIs, rather than executing each instruction of the API function calls.
+
+Some modern emulators blend both approaches to balance compatibility and performance. For example, they might use LLE for the CPU and HLE for the graphics or audio subsystems.
+
+For a deeper dive into it check out [High and low-level emulation - Emulation General Wiki](https://emulation.gametechwiki.com/index.php/High_and_low-level_emulation)
+
+
+---
 ## What can be emulated?
 Normally, emulators are pretending to be a physical system, so we need to simulate all the connections between physical components, such as different electronic chips.
 
@@ -33,7 +121,7 @@ However, there are also many emulators that simulate systems which never existed
 
 So in this post, we are just going to call the thing we want to pretend to be: the **system**.
 
-## What is a System made of?
+### What is a System made of?
 Normally, when we are talking about a system such as a game console or PC, they have a few common components that we will need to simulate on our host system, such as:
 * **A CPU Chip** - e.g Z80, 6502, SH-2, x86, ARM, etc.
 * **ROM** - Read-Only Memory, such as a game cartridge (or ISO for CD-based systems, which are also read-only)
@@ -42,14 +130,8 @@ Normally, when we are talking about a system such as a game console or PC, they 
 * **Display/Output Interface** - Normally a screen such as a monitor or TV, but could also be a more physical output like printing on paper
 * **Audio Output Interface** - Some systems, such as game consoles, have audio processing chips which need to be simulated
 
-## What types of emulation are there?
-There are two main categories of emulators: High Level Emulators (HLE) and Low Level Emulators (LLE).
-* **Low-Level Emulation (LLE)** - maximizes accuracy by simulating each hardware component including timing behaviours but is computationally expensive.
-* **High-Level Emulation (HLE)** - Detects API functions and implements an alternative using modern APIs, rather than executing each instruction of the API function calls.
-
-Some modern emulators blend both approaches to balance compatibility and performance. For example, they might use LLE for the CPU and HLE for the graphics or audio subsystems.
-
-For a deeper dive into it check out [High and low-level emulation - Emulation General Wiki](https://emulation.gametechwiki.com/index.php/High_and_low-level_emulation)
+### How do emulators handle graphics, audio, and controllers?
+They implement software models of the original GPU, audio chip, and input devices. Each instruction or register write updates these models so the output matches what real hardware would produce.
 
 ---
 # Emulating The CPU
@@ -67,13 +149,19 @@ That's what CPUs do from the moment they are started until they are powered off.
 
 So imagine you are a baker with an endless list of tasks to do to make cakes, and every time you finish one of those tasks, you just move on to the next one, forever. The task in this case is what a CPU calls an instruction; for example, "put flour in the bowl" would be an instruction. 
 
-**Fetching** would be the baker moving on from the previous step and finding the next step of the recipe (it might be on the next line of the recipe book or on another page). **Decoding** the instruction would be the baker reading that step of the recipe, and **executing** would be physically putting the flour in the bowl.
+**Fetching** would be the baker moving on from the previous step and finding the next step of the recipe (it might be on the next line of the recipe book or on another page). 
+**Decoding** the instruction would be the baker reading that step of the recipe, and **executing** would be physically putting the flour in the bowl.
 
+[Tom Scott](https://www.youtube.com/@TomScottGo) has a great video where he explains the Fetch-Decode-Execute Cycle:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z5JC9Ve1sfI?si=fW9VISQJl-dTD8qd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
 ## Program Counter & Registers
 In this analogy, how does the baker remember what step of the recipe he is on? Let's say the recipe steps are numbered; he needs to use his brain to remember the step number he is on. Then, every time he moves to the next step, he increases the number he is remembering by 1. This is exactly what a CPU needs to do, but since a CPU doesn't have a human brain, it instead has what are called **Registers**.
 
 **Registers** are small pieces of memory that can only store a small amount of information at once (let's say just one number). So in this example, the CPU needs a register to remember what line of the recipe (program) it is executing. This little piece of memory (register) for keeping track of the location it is at has a special name called the **Program Counter** or **PC** for short. It is exactly the same as the baker keeping track of which step number of the recipe he is on; he is counting up just like the **Program Counter**.
 
+---
 ## Binary & Hex Representations
 So we now know that CPUs store the step they are on in the Program Counter, but what do those steps look like? Computers don't understand human language; they only understand 1/On and 0/Off (binary numbers).
 
@@ -81,6 +169,7 @@ The steps of the recipe/program are called instructions, and they are indeed a s
 
 A byte is just eight 1s and 0s in a row and could look like this to a CPU: `00000011`, but humans find it easier to represent a single byte as a hex value instead, which would look like this: `0x03`. The **0x** at the start just tells us that it's a hex value, so we know it's not a decimal value. It is also sometimes written with a dollar sign instead, like this: `$03`, but we will be using **0x** throughout this site.
 
+---
 ## Instructions & Opcodes
 Now that we know we can represent CPU instructions as hex values, we can look at some real CPU instructions used by a number of common processors:
 * **0x04** - In a **Z80 CPU**, this hex increments the **B Register**. Think of the B register as similar to the Program Counter, but it doesn't just store where we are in the program; it can store whatever number you would like.
@@ -142,7 +231,11 @@ Now that you understand the Pseudo code, you can look at how real emulators are 
 * **N64** - [mupen64plus-core/pure_interp.c uses multiple switch statements based on category of opcode](https://github.com/RetroReversing/mupen64plus-core/blob/master/src/device/r4300/pure_interp.c#L290)
 
 ## Complexities
-We have covered CPU emulation at a very high level, simplifying the details to make it easier to understand, but note that CPU emulation is far from a trivial problem to solve. One of the reasons for complexity is that we are trying to simulate physical hardware—hardware with multiple chips working in parallel with each other. Whenever you have multiple tasks running in parallel, you encounter issues with **timing**, such as the audio processor being out of sync with the CPU, causing the sound to not match what would play on the real hardware.
+We have covered CPU emulation at a very high level, simplifying the details to make it easier to understand, but note that CPU emulation is far from a trivial problem to solve. 
+
+One of the reasons for complexity is that we are trying to simulate physical hardware—hardware with multiple chips working in parallel with each other. 
+
+Whenever you have multiple tasks running in parallel, you encounter issues with **timing**, such as the audio processor being out of sync with the CPU, causing the sound to not match what would play on the real hardware.
 
 ### Cycle-accurate Timings
 Timing units in emulators are referred to as cycles, so **cycle-accurate** timing is the gold standard in emulation and matches what the physical hardware would do.
@@ -246,6 +339,7 @@ The simplest way to solve this issue is to run both the PPU and CPU in the same 
 Now that you know the basics of how emulators work, you might be interested in writing your own. This section covers some useful resources available on the web to help you get started.
 
 ## Games and Interactive experiences on emulator development
+There are a few "games" (or interactive experiences) that can teach the basics of emulator development and are a great way to start as they are very interactive so you can put the theory into practise straight away.
 
 ### EmuDevZ - A game that teaches you emulator development
 This is a very unique game, it teaches you the basics of emulator development in a fun way, a browser game! It is a very good way to learn the basics:

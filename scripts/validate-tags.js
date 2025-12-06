@@ -3,13 +3,13 @@
 const { scanDirectories, readMarkdownFile, extractTags, loadJsonFile } = require('./markdown-utils');
 
 /**
- * Script to validate tags in markdown files against approved tags in tags-export.json
- * Usage: node validate-tags.js [path-to-tags-export.json]
- * Default: uses tags-export.json in current directory
+ * Script to validate tags in markdown files against approved tags in valid-tags.json
+ * Usage: node validate-tags.js [path-to-valid-tags.json]
+ * Default: uses valid-tags.json in current directory
  */
 
 class TagValidator {
-    constructor(validTagsFilePath = 'tags-export.json') {
+    constructor(validTagsFilePath = 'valid-tags.json') {
         this.validTagsFilePath = validTagsFilePath;
         this.validTags = new Set();
         this.processedFiles = 0;
@@ -19,7 +19,7 @@ class TagValidator {
     }
 
     /**
-     * Load and parse the valid tags from tags-export.json
+     * Load and parse the valid tags from valid-tags.json
      */
     loadValidTags() {
         const { success, data, error } = loadJsonFile(this.validTagsFilePath);
@@ -188,10 +188,10 @@ class TagValidator {
         // Suggestions
         console.log('\n--- SUGGESTIONS ---');
         console.log('To fix these issues, you can:');
-        console.log('1. Remove the invalid tags from the affected files');
-        console.log('2. Add the missing tags to your approved tags list');
-        console.log('3. Check for typos in tag names');
-        console.log('\nTo see all valid tags, run: jq -r ".tags | keys[]" tags-export.json');
+        console.log('1. Remove the invalid tags from the affected files (or fix typeos in tag names)');
+        console.log('2. Add the missing tags tovalid-tags.json if they are legitimate tags you want to use.');
+        console.log('\nTo see all valid tags, run: jq -r ".tags | keys[]" valid-tags.json');
+        console.log('\nTo re-generate the list of valid tags, run: node scripts/extract-tags.js --export-json');
 
         return false;
     }
@@ -235,21 +235,21 @@ function main() {
 Markdown Tags Validator
 =======================
 
-Usage: node validate-tags.js [path-to-tags-export.json]
+Usage: node validate-tags.js [path-to-valid-tags.json]
 
 Options:
   --help, -h              Show this help message
 
 Arguments:
-  path-to-tags-export.json    Path to the valid tags JSON file (default: tags-export.json)
+  path-to-valid-tags.json    Path to the valid tags JSON file (default: valid-tags.json)
 
 Description:
-  Validates all tags in markdown files against approved tags in tags-export.json.
+  Validates all tags in markdown files against approved tags in valid-tags.json.
   Reports any tags that are not in the approved list as errors.
 
 Examples:
   node validate-tags.js
-  node validate-tags.js tags-export.json
+  node validate-tags.js valid-tags.json
   node validate-tags.js /path/to/custom-tags.json
 
 Exit Codes:
@@ -260,7 +260,7 @@ Exit Codes:
     }
 
     // Use custom tags file path if provided
-    const tagsFilePath = args[0] || 'tags-export.json';
+    const tagsFilePath = args[0] || 'valid-tags.json';
     
     const validator = new TagValidator(tagsFilePath);
     const success = validator.run();
