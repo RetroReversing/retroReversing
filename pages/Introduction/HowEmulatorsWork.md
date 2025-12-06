@@ -47,7 +47,7 @@ Emulators focus on reproducing the architectural effects of the hardware: how in
 ### Why do some emulators need BIOS or firmware files?
 Certain hardware relies on proprietary initialization code or system routines stored in ROM. An emulator must load these images to reproduce authentic behavior and maintain compatibility.
 
-**Bytes N Bits** has an excellent video introducing BIOS/firmware fles:
+**Bytes N Bits** has an excellent video introducing BIOS/firmware files:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LLdzqprlxi8?si=r_-_4ivtsqZHcji-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### What role do ROMs and ISOs play in emulation?
