@@ -22,6 +22,8 @@ editlink: /tools/Unity3d.md
 ---
 
 # Unity 1.x Historical Overview (2005-2006)
+<img width="769" height="200" alt="image" src="https://github.com/user-attachments/assets/458904bf-65a7-44d7-9e05-c0c71c079b40" />
+
 Unity 1.x represents the earliest iterations of the Unity game engine, laying the foundation for its editor-centric workflow and multi-platform capabilities. Each minor release in the 1.x cycle introduced significant engine features, editor improvements, and new platform supports relevant to developers.
 
 Below is a version-by-version breakdown of major changes in Unity 1.0 through 1.6, focusing on engine-level features, Editor UI/UX enhancements, and other developer-facing improvements.
@@ -67,6 +69,7 @@ Released just a couple of months after 1.0, Unity 1.1 was a major update aimed a
 Introduced several “next-gen” rendering capabilities:
   - **Render-to-Texture Effects:** Unity 1.1 added support for camera effects that render to texture surfaces [^2]. This enabled techniques like reflections, refractions, video playback to textures, and other shader-based effects that were previously Pro-only. (Render-to-texture was mentioned as a Pro feature even in 1.0, but 1.1 expanded on it with new effects [^1].)
   - **Virtual Displacement Mapping:** New support for **parallax/virtual displacement mapping** was added, allowing more depth detail on textured surfaces without increasing geometry [^2]. This was an early form of enhancing realism via shaders.
+
 ### Physics and Engine
  Unity 1.1 continued to leverage PhysX and improved the **“big game” workflow**:
   - It introduced **better handling of large game projects** – the editor and engine were optimized so that even arbitrarily large scenes or games could be edited and tested entirely within Unity without splitting into external tools [^2]. This involved memory and performance tweaks enabling more complex scenes.
@@ -81,7 +84,6 @@ Introduced several “next-gen” rendering capabilities:
 
 ### Documentation Improvements
 Documentation saw a boost – a new "30-page scripting tutorial" was included to help newcomers learn Unity’s API, and the manual/examples were greatly expanded [^2]. This was an important usability improvement for developer onboarding.
-
 
 ---
 ## Unity 1.2 (December 2005) – Graphics Enhancements & Stability
