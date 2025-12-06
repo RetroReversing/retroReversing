@@ -188,7 +188,7 @@ class TagValidator {
         // Suggestions
         console.log('\n--- SUGGESTIONS ---');
         console.log('To fix these issues, you can:');
-        console.log('1. Remove the invalid tags from the affected files (or fix typeos in tag names)');
+        console.log('1. Remove the invalid tags from the affected files (or fix typos in tag names)');
         console.log('2. Add the missing tags tovalid-tags.json if they are legitimate tags you want to use.');
         console.log('\nTo see all valid tags, run: jq -r ".tags | keys[]" valid-tags.json');
         console.log('\nTo re-generate the list of valid tags, run: node scripts/extract-tags.js --export-json');
