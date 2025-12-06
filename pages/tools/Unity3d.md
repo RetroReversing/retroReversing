@@ -100,21 +100,34 @@ Focus in 1.2 was also on robustness:
 
 ---
 ## Unity 1.5 (June 2006) – Major Upgrade (Intel Mac Support, New Animation System)
-Unity 1.5 was a substantial update that arrived in mid-2006, coinciding with Apple’s transition to Intel Macs and a growing interest in browser gaming:
+<img width="720" height="235" alt="Unity 1.5 Image showing new features grain filter, precise animation control, lightmaps" src="https://github.com/user-attachments/assets/c716a6ef-4e2c-4425-a382-88270dbc43f3" />
+
+Unity 1.5 was a substantial update that arrived in mid-2006, coinciding with Apple’s transition to Intel Macs and a growing interest in browser gaming.
+
+You can read the full release notes thanks to the Wayback Machine:
+[UNITY: Version History 1.5](https://web.archive.org/web/20060621224345/http://unity3d.com/whatsnew-1.5.html)
 
 ### Universal Binary & Intel Macs
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/41ccb630-8e05-48d8-8372-36187d91e027" />
+
  Unity 1.5 was the first version released as a **Universal Binary on Mac OS X**, meaning the Unity Editor (and runtime) now ran natively on both PowerPC and the new Intel-based Macs [^6].
 
 ### Windows Web Player Support
- Along with standalone Windows builds (added in 1.1), Unity 1.5 introduced a **Windows Web Player browser plugin** [^6]. This allowed Unity content to run in Windows browsers (Internet Explorer, Firefox, etc.), massively expanding the reach of Unity-made web games. Prior to 1.5, the web player was Mac-only; now Web deployment truly became cross-platform.
+Prior to Unity 1.5, the web player was Mac-only but the 1.5 release introduced a **Windows Web Player browser plugin** [^6]. This allowed Unity content to run in Windows browsers (Internet Explorer, Firefox, etc.).
 
 ### New Character Animation System
- Unity 1.5 overhauled its animation pipeline. It introduced a more powerful **animation blending and layering system** [^6]. Developers could blend between multiple animations, use additive animations, and organize animations on layers. This enabled smoother character animations (e.g., blending a running animation with a shooting animation). It was a step up from the earlier system which had been more rudimentary. This system laid the groundwork for Unity’s later Mecanim (though Mecanim itself came much later, in Unity 4).
+ Unity 1.5 overhauled its animation pipeline. It introduced a more powerful **animation blending and layering system** [^6]. Developers could blend between multiple animations, use additive animations, and organize animations on layers. 
+ 
+This enabled smoother character animations (e.g., blending a running animation with a shooting animation). It was a step up from the earlier system which had been more rudimentary. 
 
-### Physics and Vehicles
- Unity 1.5 brought specific physics enhancements, notably:
-  - A dedicated **Wheel Collider** component for vehicle physics [^6]. This made it easier to simulate car wheels with suspension and friction curves. Using the wheel collider and related improvements, developers could create high-speed car physics and racing games more realistically than before.
-  - General physics stability was improved further, and performance on PhysX was tuned for the new platforms.
+This system laid the groundwork for Unity’s later Mecanim (though Mecanim itself came much later, in Unity 4).
+
+### Physics and Vehicles - new Wheel Collider
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/a4e4a3ac-057b-48ac-8ba7-b571916b3757" />
+
+Unity 1.5 brought a dedicated **Wheel Collider** component for vehicle physics [^6].
+This made it easier to simulate car wheels with suspension and friction curves. 
+Using the wheel collider and related improvements, developers could create high-speed car physics and racing games more realistically than before.
 
 ### Graphics and Effects
  A number of rendering improvements were added:
@@ -130,8 +143,11 @@ Unity 1.5 was a substantial update that arrived in mid-2006, coinciding with App
   - A **Mesh manipulation API** was added, exposing mesh vertex data to scripts [^6]. This allowed developers to create or modify meshes at runtime (for procedural geometry, deformations, etc.). It opened up more dynamic content possibilities.
   - Particle systems and textures also got scripting interfaces in 1.5 [^6], enabling code-driven control of particle emitters and dynamic texture creation or manipulation.
   - The underlying Mono runtime might still have been .NET 1.1 in 1.5 (the generics upgrade came in 1.6), but Unity’s scripting API itself grew with new classes for the above features.
+
 ### Documentation and Usability
-Unity 1.5 shipped with **5× more documentation** than before [^6], reflecting a lot of new written material and examples. The user manual and scripting reference were significantly expanded, which greatly benefited developers (especially newcomers). The editor UI itself saw various small improvements to accommodate the new systems (for example, an improved animation editor or property inspectors for new components like wheel colliders and lightmaps).
+<img width="250" height="188" alt="image" src="https://github.com/user-attachments/assets/ae859413-c0a5-4dc6-97c7-f236b6be435d" />
+Unity 1.5 shipped with **5× more documentation** than before [^6], reflecting a lot of new written material and examples. The user manual and scripting reference were significantly expanded, which greatly benefited developers (especially newcomers). 
+The editor UI itself saw various small improvements to accommodate the new systems (for example, an improved animation editor or property inspectors for new components like wheel colliders and lightmaps).
 
 ### Performance
 As a major update, Unity 1.5 focused on optimization – running the Editor on Intel Macs gave a big speed boost. Also, “under the hood” enhancements (garbage collection tuning, rendering optimizations, etc.) were likely part of this release, given the mention of “over 256 new features and improvements” [^6].
@@ -153,7 +169,7 @@ Unity 1.6 upgraded its Mono runtime to support **.NET 2.0 features**, including 
 
 ### Performance and Usability
 Unity 1.6 brought **better performance optimizations** and editor usability tweaks:
-  - The phrase “increased power, better usability” was used in the release notes [^7]. The engine was refined for speed – one example being more efficient web player download size or performance. It also likely optimized asset loading and memory use, given the push toward larger projects.
+  - The phrase "increased power, better usability" was used in the release notes [^7]. The engine was refined for speed – one example being more efficient web player download size or performance. It also likely optimized asset loading and memory use, given the push toward larger projects.
   - Usability improvements might have included Editor UI refinements in response to user feedback (e.g., more stable manipulation of objects, nicer gizmos, etc.). Although not a UI overhaul, 1.6 would smooth rough edges as the last 1.x version.
 
 It effectively wrapped up the 1.x line by adding the last set of “nice-to-have” features so that the engine was quite complete for its era. This ensured developers could comfortably finish projects on 1.x or smoothly transition to 2.0. In fact, some aspects of 1.6 (like the web integration and updated Mono runtime) were crucial stepping stones for the big 2.0 release which introduced things like a full terrain engine, real-time shadows, and a Windows version of the Editor.
