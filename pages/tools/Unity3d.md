@@ -47,7 +47,12 @@ Even in 1.0, Unity had a capable 3D engine with support for:
 Unity 1.0 introduced the core **asset import pipeline** – support for common 3D formats, textures, etc., with updates reflected live in the Editor. 
 It also supported **version control** of assets externally (though an integrated versioning solution came later) [^3].
 
+### Showcase Game - Gooball
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/95b54666-2ad7-4a9a-ba7e-05b33f9f126b" />
 
+Strictly speaking, GooBall was a commercial game developed by Unity's founders (**Over the Edge Entertainment**), it was the primary "demo" used to market the engine's launch, proving that Unity could ship a real product. It provided a downloadable demo and was sold for $25.00, it required a Power Macintosh G3 or better (MacOS X 10.2) and is a PowerPC application so cannot run on either Intel or Arm based Macs.
+
+---
 ## Unity 1.1 (August 2005) – Windows Publishing & Extensibility
 Released just a couple of months after 1.0, Unity 1.1 was a major update aimed at "democratizing" game deployment beyond the Mac:
 
