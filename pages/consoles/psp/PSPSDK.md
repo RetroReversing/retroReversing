@@ -142,7 +142,7 @@ File Name | Extension | Description
 BrandGuideline_E_100729L | .pdf | 
 BrandGuideline_J_101112L | .pdf | Japanese version of the Brand Guidelines
 Frequency_Specification-Guideline-English | .pdf | 138 page brand guidelines on how to use the PlayStation brands (including PsOne, Ps3 etc)
-Frequency_Specification-Guideline-Japanease | .pdf | Japanese version of the brand guidelines
+Frequency_Specification-Guideline-Japanese | .pdf | Japanese version of the brand guidelines
 Frequency_Specification-Guideline-Korean | .pdf | Korean version f the brand guidelines
 PSP_NC_E1000_WW_temp_20111005 | .pdf | PSP Naming Conventions for PSP-E1000 series - Temporary release from October 5, 2011
 PSP_NC_N1000_WW_temp_1.01 | .pdf | PSP Naming Conventions for PSP-N1000 series - Temporary release 1.01 August 2009
@@ -160,7 +160,7 @@ psp_nc_pt-PT_3_10 | .pdf | PSP Naming Conventions for Portuguese
 psp_nc_ru_3_10 | .pdf | PSP Naming Conventions for Russian
 psp_nc_zh-Hans_3_10 | .pdf | PSP Naming Conventions for Chinese Simplified
 psp_nc_zh-Hant_3_10 | .pdf | PSP Naming Conventions for Chinese Traditional
-psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that are done on every game when the master copy is recieved by Sony
+psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that are done on every game when the master copy is received by Sony
 psptestcases_forTRC50-Japanese | .pdf | Japanese version of all the test cases
 ptrc52-English | .doc, .pdf | TRC for PSPtm Software, Version 5.2, including information on how to submit the TRC form
 ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
@@ -246,7 +246,7 @@ Readme-PSP_Utils_Windows-English | .txt | Lists all the files in bin.windows (ps
 Readme-Testing_tool_Kernel_Update_Binary-English | .txt | List of files in the flash folder and a changelog
 
 ## Install instructions
-When first recieving the devkit the developers had to run a few commands to install the SDK.
+When first receiving the devkit the developers had to run a few commands to install the SDK.
 
 ```
     Cygwin > cd /usr/local/psp

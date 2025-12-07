@@ -1747,7 +1747,7 @@ struct EmulatorState {
 
 Made it a u8 as 255 values should be more than enough for a single game, but if its not enough for your needs feel free to change the type.
 
-We can now use this vaible by modifying the save and load state functions when calling the `get_save_state_path` function:
+We can now use this variable by modifying the save and load state functions when calling the `get_save_state_path` function:
 
 ```rust
     let file_path = get_save_state_path(save_directory, &CURRENT_EMULATOR_STATE.rom_name, CURRENT_EMULATOR_STATE.current_save_slot).unwrap();

@@ -12,25 +12,25 @@ permalink: /mrdo
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo Gameboy
+  - name: Nintendo Game Boy
     url: /gameboy
   - name: Mr Do! Source Code (Game Boy)
     url: #
 recommend: gameboy
 editlink: /consoles/gameboy/Mrdo.md
 ---
-The source code for Ocean Software's Mr Do! port to the gameboy has been officially released by two of the original developers.
+The source code for Ocean Software's Mr Do! port to the Game Boy has been officially released by two of the original developers.
 Description from Paul Hughes [^1]
 ```
-Many moons ago I debugged and finished off Ocean's Mr Do! for the original Gameboy. 
+Many moons ago I debugged and finished off Ocean's Mr Do! for the original Game Boy. 
 
-As Joffa, the late, great original author, decided to release the source code, 
+As **Joffa**, the late, great original author, decided to release the source code, 
 
 I thought I'd also put it up.
 ```
 
-The header for the source file also mentions Wesley Knackets developed it between the 28th of June and the 5th of September 1990, which is just a little over 2 months!
-```
+The header for the source file also mentions **Wesley Knackets&& developed it between the 28th of June and the 5th of September 1990, which is just a little over 2 months!
+```cpp
 ****************************************************************************
 *									   *
 *		MR DO! (C) 1990 SPECIAL FX SOFTWARE LIMITED		   *
@@ -44,13 +44,14 @@ The header for the source file also mentions Wesley Knackets developed it betwee
 ```
 
 Known developers:
-* Paul Hughes
-* Joffa
-* Wesley Knackers
+* **Paul Hughes**
+* **Joffa**
+* **Wesley Knackers**
 
 ---
 # Development kit
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It was started on Special FX’s own Gameboy assembler and hardware and was finished on Ocean’s own Atari ST based assembler and hardware.</p>&mdash; Paul Hughes (@PaulieHughes) <a href="https://twitter.com/PaulieHughes/status/1231294467879116800?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It was started on Special FX’s own Gameboy assembler and hardware and was finished on Ocean’s own Atari ST based assembler and hardware.</p>&mdash; Paul Hughes (@PaulieHughes) <a href="https://twitter.com/PaulieHughes/status/1231294467879116800?ref_src=twsrc%5Etfw">February 22, 2020</a></blockquote>
+
 ---
 # References
 [^1]: http://www.pauliehughes.com/downloads/index.html

@@ -49,7 +49,7 @@ File Name | Extension | Description
 ---|---|---
 AGBLOAD | .exe | Tool to load ROM into the **IS-AGB-EMULATOR** hardware
 NRDC | .exe | Calculates the CRC checksum for a GBA ROM (for more info see AGB_CRC.txt in /docs)
-act2agb | .exe | Converts an Adobe Photoshop .ACT (Adobe Color Table) file to a GBA pallete in C source code form
+act2agb | .exe | Converts an Adobe Photoshop .ACT (Adobe Color Table) file to a GBA Palette in C source code form
 agbcomp | .exe | Compresses binary data using either LZ77 or Huffman encoding
 agbparts | .exe | Converts a bitmap image into 8x8 pixel parts useful for an optimized tileset or even sprites
 bin2h | .exe | generates a C header file from the Binary result of objcopy
@@ -327,6 +327,8 @@ AgbSystemCall | .h | Include file for declaring
 AgbTypes | .h | Include file for declaring 
 IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to terminal library
 
+<!-- cspell:disable -->
+
 <div class="rr-source-code-title">API Header Files</div><section class="rr-main-cards">
 <div class="rr-file-card">
   <img class="geopattern" data-title="AgbDefine.h" />
@@ -594,7 +596,7 @@ IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to
     <li><span>SOUND_3_COUNTS_MASK</span> <span>0xff /* Sound 3 Length (Count Number)*/</span></li>
     <li><span>SOUND_3_LEVEL_MASK</span> <span>0xe0 /*    Output Level*/</span></li>
     <li><span>SOUND_4_PRESCALER_MASK</span> <span>0x03 /* Sound 4 Prescaler Select*/</span></li>
-    <li><span>SOUND_4_POLYSHIFT_MASK</span> <span>0xf0 /* Polynomical Counter Shift Number*/</span></li>
+    <li><span>SOUND_4_POLYSHIFT_MASK</span> <span>0xf0 /* Polynomial Counter Shift Number*/</span></li>
     <li><span>SOUND_SO1_LEVEL_SHIFT</span> <span>0</span></li>
     <li><span>SOUND_SO2_LEVEL_SHIFT</span> <span>4</span></li>
     <li><span>SOUND_DMG_SO1_ON_SHIFT</span> <span>0</span></li>
@@ -676,7 +678,7 @@ IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to
     <li><span>SOUND_3_LEVEL_2_4</span> <span>0x40 /*                 2/4*/</span></li>
     <li><span>SOUND_3_LEVEL_1_4</span> <span>0x60 /*                 1/4*/</span></li>
     <li><span>SOUND_3_LEVEL_3_4</span> <span>0x80 /*                 3/4*/</span></li>
-    <li><span>SOUND_4_POLYSTEP_15</span> <span>0x00 /* Sound 4 Polynomical Counter 15 step*/</span></li>
+    <li><span>SOUND_4_POLYSTEP_15</span> <span>0x00 /* Sound 4 Polynomial Counter 15 step*/</span></li>
     <li><span>SOUND_4_POLYSTEP_7</span> <span>0x08 /*                              7 step*/</span></li>
     <li><span>SIO_MODE_MASK</span> <span>0x3000 /* Communication mode*/</span></li>
     <li><span>SIO_BAUD_RATE_MASK</span> <span>0x0003 /* Baud rate*/</span></li>
@@ -1443,6 +1445,8 @@ IsAgbPrint | .h | Include file for declaring the functions in the Debug Print to
 </div>
 </div>
 </section>
+
+ <!-- cspell:enable -->
 
 ---
 ## Backup Library Headers (/backup)

@@ -29,7 +29,7 @@ This post will cover the history and technology of the pre-studio versions of Ga
 The technology behind Game Maker is really interested from a reverse engineering point of view, specifically how games were "compiled" into executables and how the game runner technology worked.
 
 You can think of Game Maker as being made up of two main parts:
-* **Game Maker IDE** - This is where the games are made, with editors for sprites, sounds, objects, rooms and for programming scripts using the Game Maker Langauge (GML)
+* **Game Maker IDE** - This is where the games are made, with editors for sprites, sounds, objects, rooms and for programming scripts using the Game Maker language (GML)
 * **Game Maker Runner** - This is the engine that takes the data exported by the IDE and allows it to be playable as a standard windows executable (and later on PSP, MacOS and others)
 
 ## Original Source Code
@@ -320,7 +320,7 @@ Version 1.3 brought **additional minor improvements and bug fixes** to ensure st
 * Support for Animated GIFS
 * Now possible to draw shapes rather than just images
 * Ability to export a game as a zip file and re-imported for sharing editable games online
-* `forall` statement introducted to GML programming language (can execute a piece of code for all instances of a particular object)
+* `forall` statement introduced to GML programming language (can execute a piece of code for all instances of a particular object)
 * Internals have been refactored to be more efficient, use less memory and no more limits on the number of objects or variables
 
 
@@ -348,7 +348,7 @@ Inside the game specific folder all the game resources were available:
 
 #### Object format
 A few notes about the format:
-* Newline separated - Uses the DOS/Windows standard newline sequence for seperation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
+* Newline separated - Uses the DOS/Windows standard newline sequence for separation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
 * Values on the same line seem to be separated by 4 spaces
 * The number 1 is used for true (e.g checkbox on in the IDE) and 0 for false.
 * We know we are at the end of a Object by the `--------------------------------------------` string.

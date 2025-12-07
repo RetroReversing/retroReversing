@@ -20,7 +20,9 @@ Gamecube
 Gerdy
 Ghidra
 GhidrAssist
+Gigaleak
 Herdy
+ISAS
 Krome
 LaMothe
 libretro
@@ -46,6 +48,7 @@ SCED
 SNASM
 SNES
 Spyro
+Timesplitters
 TurboGrafx
 twitterimage
 W32Dasm

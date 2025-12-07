@@ -755,7 +755,7 @@ Here are the talks that have slides available online:
 * [1996 Computer Game Developer Conference The Making of the 11th Hour R. Stein and D. Weeler](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and)
 
 ### Making of the 11th Hour
-On Archive.org a video recording of the session **The Making of the 11th Hour by R. Stein and D. Weeler** is availabe to watch [here](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and). 
+On Archive.org a video recording of the session **The Making of the 11th Hour by R. Stein and D. Weeler** is available to watch [here](https://archive.org/details/1996_Computer_Game_Developer_Conference_The_Making_of_the_11th_Hour_R._Stein_and). 
 
 It mentioned they were in the beta program for 3D Studio 3.0 which allowed them to do dual texture maps to add dirt to the textures, the video shows footage from 3D Studio 3.0.
 
@@ -766,7 +766,7 @@ It mentioned they were in the beta program for 3D Studio 3.0 which allowed them 
 
 The 1997 Computer Game Developers Conference was hosted in the Santa Clara Conference Center in Washington, D.C. It was much larger in scope than the previous years and in fact took five days instead of the usual two.
 
-The first 2 days introducted two new sub-conferences:
+The first 2 days introduced two new sub-conferences:
 * Managing Game Development Conference (25th/26th)
 * Game Marketing and Distribution Conference (25th/26th)
 
@@ -1027,17 +1027,17 @@ Creating a Multiplayer Gaming Success | HEAT | Sponsored Session |
 Adapting Licensed Products to the Computer Medium | Micah Jackson | Lecture | 
 Communication Models for Internet Games | Jeffrey Rothschild | Lecture | 
 Distribution Options For Today's Market | Brian Neider | Lecture | 
-The Magic of Writing Kids' Games | Matthew Costello , Tony Perutz , Meryl Perutz , Deborah Todd | Lecture | 
+The Magic of Writing Kids' Games | Matthew Costello, Tony Perutz, Meryl Perutz, Deborah Todd | Lecture | 
 Making 3D Work for Social Environments | Rusty Dawe | Lecture | 
 Quake: A Post-Mortem and a Glimpse Into the Future | Michael Abrash | Lecture | 
 Raising the Bar | Leslie Pardew | Seminar | 
-Women In Interactive Entertainment | Deborah Cook, Annie Fox , Julie Marsh, Margo Nanny , Hilary Nation, Solange Van Der Moer | Seminar | 
+Women In Interactive Entertainment | Deborah Cook, Annie Fox , Julie Marsh, Margo Nanny, Hilary Nation, **Solange Van Der Moer** | Seminar | 
 Business Models for Maximizing Revenue from Online Games | Kirk Owen | Roundtable | 
 Designing and Building Multiplayer Action Titles for Internet Play | Harald Seely | Roundtable | 
 Designing for Community: How to Handle the Problem Children of the Online World | Dave Weinstein | Roundtable | 
 Designing Games to Use 3D Audio | Brian Schmidt | Roundtable | 
 Directors Roundtable: What Do They Mean? What Do They Want? | Jeanne Hartman | Roundtable | 
-Environment vs. the Game: Is the Medium or the Content? What Keeps Them? | Susan Manley ,Jim Stern | Roundtable | 
+Environment vs. the Game: Is the Medium or the Content? What Keeps Them? | Susan Manley, Jim Stern | Roundtable | 
 Good, Clean and Fun: How Can They All Go Together? | Brad Andrews | Roundtable | 
 Multiplayer Online Games | Carrie Washburn | Roundtable | 
 Original Content: R&D For The Breakthrough Title | Larry Tuch | Roundtable | 
@@ -1319,7 +1319,7 @@ Making the Message Fun: The LBE in Theme Parks and Trade Shows. | Todd Williams 
 
 
 ### Shigeru Miyamoto's 1999 GDC Keynote
-Shigeru Miyamoto discusses his creation of such worldwide recognized characters as Mario, Donkey Kong, Link, and Zelda. He also shares his vision of The Legend of Zelda: Ocarina of Time, the fastest-selling game in history, and looks into what the future holds for game developers in the new millenium.
+Shigeru Miyamoto discusses his creation of such worldwide recognized characters as Mario, Donkey Kong, Link, and Zelda. He also shares his vision of The Legend of Zelda: Ocarina of Time, the fastest-selling game in history, and looks into what the future holds for game developers in the new millennium.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a9DlhDRZ0yA?si=ItR3cSooTvgHatKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -1503,7 +1503,7 @@ Camera Techniques for Complex Environments  | James | Programming |
 Creature Smarts: The Art and Architecture of a Virtual Brain  | Burke, Isla | Programming |
 Experiences in Programming Maya 3.0  | Giberson | Programming |
 FuBi: Automatic Function Exporting for Scripting and Networking  | Bilas | Programming |
-Game Boy Advance Resource Managment | Baptista | Programming |
+Game Boy Advance Resource Management | Baptista | Programming |
 Implementing Multicolored Volumetric Fog without Using Up Texture Stages  | Arevalo, Baeza | Programming |
 Latency Compensating Methods in Client/Server In-game Protocol Design and Optimization  | Bernier | Programming |
 Lessons Learned from a Year with Xbox | Abrash | Programming |
@@ -1552,7 +1552,7 @@ Diablo II Case Study | Uelmen | Audio |
 Implementing an Audio Engine Using DirectX 8 | Geist | Audio | 
 Interactive Music Sequencer Design | Patterson | Audio | 
 The 12 Principles of Classic Character Animation | Kerlow | Visual Arts | 
-Aesthetics Beyond Techology: Nonphotorealistic Rendering Art Styles | Snyder | Visual Arts | 
+Aesthetics Beyond Technology: Nonphotorealistic Rendering Art Styles | Snyder | Visual Arts | 
 Art Creation for a PlayStation 2 Launch Title - The Ups and Downs of Summoner | Pletcher | Visual Arts | 
 Art Management for Artists | Oglesby | Visual Arts |  Roundtable
 Conceptual Design: Understanding and Communicating Form | Saunders | Visual Arts | 
@@ -1712,7 +1712,7 @@ Realistic Expectations in Developer/Publisher Relations | Blackman, Frisina, Goo
 State Based System of Animation: Artfully Blending Animation with AI | Hirschmann & Thankamushy  | 
 The Relationship Between Background and Interface Design Procedures in Video Game Development | Nagoshi | 
 This is Not a Game: A Discussion on the Creation of the AI Web Experience | Lee & Weisman |
-Building a Third-Generation Online Persistant World Game | Koster, Lawrence, Mulligan & Walton  | 
+Building a Third-Generation Online Persistent World Game | Koster, Lawrence, Mulligan & Walton  | 
 Complexity Demons: They're All Around Us | Leker | 
 Console Audio Panel | Engel, Schmidt & Vawter | 
 Distributed Area Lighting | Boyd | 
@@ -1974,7 +1974,7 @@ From Visual Anti-Establishment to Ubiquity and Back | John_Gaeta  | Visual Arts 
 Game Design Challenge: The Love Story | David Lynas | Game Design | 
 Game Design Methods of ICO | Eamon Neary | Game Design | 
 Game Design: Risk and Return | Masahiro Sakurai (Sora Ltd.) | Game Design | 
-Game Development Modeling with 3ds Max | Fred Trickey | Visual Arts |   
+Game Development Modeling with 3ds Max | Fred Trickery | Visual Arts |   
 Game Mobility Requires Code Portability | Guido Henkel  | Programming |  
 Game Narrative: What Would Aristotle Do? | Tim McCarthy | Game Design | 
 Game Prototyping with 3ds Max | Zoe Strickland | Visual Arts |   
@@ -2024,7 +2024,7 @@ Programming the PlayStation Portable (PSP) | Bryan Fletcher  | Programming |
 Re-awakening a Classic: Prince of Persia: A Case Study | |  Production | 
 Real World Multi-Threading in PC Games | Arron Coday (Intel)| Programming |  
 Real-Time Global Illumination | Eskil Steenberg  | Programming | 
-Real-Time Translucent Animated Objects | Fred Trickey  | Programming |  
+Real-Time Translucent Animated Objects | Fred Trickery  | Programming |  
 Realistic and Fast Cloud Rendering in Computer Games | | Programming |  
 Requirements for a Next Generation Massively Multiplayer Online Game | Gordon Walton  | Production | 
 Reusing Shading for Interactive Global Illumination | Programming |  
