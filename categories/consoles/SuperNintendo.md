@@ -20,6 +20,7 @@ redirect_from:
   - /supernintendo
 tags:
   - snes
+updatedAt: '2025-12-07'
 ---
 # Introduction
 Welcome to our page dedicated to Super Nintendo reverse engineering! The Super Nintendo Entertainment System, or SNES, was a popular gaming console released by Nintendo in 1990. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
@@ -258,6 +259,15 @@ The physical connector to the Super Famicom's bottom expansion slot.
 This is how the console actually saw the decoded broadcast data, as if it were coming from a cartridge.
 Through this bus, the BS-X cartridge (with its PSRAM pack) could receive broadcast game data and present it like normal ROM to the SNES CPU.
 
+
+### Super Nintendo CD Recreation
+The Video Game Esoterica channel features an update on **Kosam the Great's** ambitious reverse engineering project to re-create the long-lost **Super Nintendo CD** (Nintendo PlayStation) console. 
+
+The technical progress centers on engineering a custom PCB and successfully sourcing a functional, pin-compatible Sony CD-ROM controller chip, the **CDX11196**, to interface with the Super Famicom (SFC) hardware. 
+
+The demonstration includes using an **oscilloscope** to verify signal integrity and showing the loading of the dumped **Super Disc Boot ROM BIOS**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0SUB5bnxcrk?si=4tlE3XqW4enYIUD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 # Games

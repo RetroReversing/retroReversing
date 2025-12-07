@@ -2,7 +2,6 @@
 permalink: /vita/
 layout: post
 title: Sony Playstation Vita Reverse Engineering
-recommend: vita
 recommendTitle: All Vita Posts
 editlink: ../categories/consoles/Vita.md
 console: 'vita'
@@ -18,6 +17,13 @@ breadcrumbs:
     url: #
 tags:
   - vita
+  - psp
+  - introduction
+  - handhelds
+recommend: 
+ - vita
+ - psp
+ - introduction
 ---
 
 # Introduction
@@ -37,7 +43,25 @@ This segment of our guide will provide you with detailed information and resourc
 The PS Vita took an off the shelf Quad core ARM CPU with a NEON coprocessor and combined it with a PowerVR GPU with dedicated video memory.
 
 ## Development Hardware
-Post on this topic coming soon, currently researching all the information we can find.
+
+### PDEL-1000 Development Unit
+**Hard4Games** has an excellent video about reverse engineering the PlayStation Vita development unit (**PDEL-1000**). It covers the unique hardware features like HDMI output, demonstrates the 'Neighborhood' SDK tools for debugging and window capture, and explains the system's security and license expiration issues.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CpBoa4aeB2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+# Reverse Engineering Vita games 
+
+## File Formats 
+When reverse engineering Vita games you will come across a number of different file formats, there were too many to list on thos page so we now have a separate post specifically on Vita file formats: 
+{% include link-to-other-post.html post="/playstation-vita-file-formats" %}
+
+
+## Reverse Engineering Playstation Vita Game Cartridge Authentication
+**Silica** provides an in-depth technical analysis of the PlayStation Vita's game cartridge security, specifically focusing on the **CMD56** authentication handshake and the NpDrm decryption workflow. 
+The write-up details the creation of the VCI format for 1:1 backups, which preserves the unique key data required for authentication, and contrasts it with legacy dumping methods. 
+
+{% include link-to-other-site.html url="https://silica.codes/ramblings/gc.htm" description="Silica documents the reverse engineering of the PS Vita Game Cartridge (GC) interface, explaining the CMD56 challenge-response protocol and the development of the VCI backup format." image="https://opengraph.githubassets.com/1/LiEnby/GcToolKit" title="Reverse Engineering Game Cartridge Authentication on the PlayStation Vita" %}
 
 ---
 # All Posts

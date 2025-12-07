@@ -53,3 +53,17 @@ Nintendo WiiU | [Wii U File Formats](https://www.retroreversing.com/WiiUFileForm
 Sony Playstation 1 | [Playstation 1 File Formats](https://www.retroreversing.com/ps1-file-formats)
 
 
+---
+# Reversing File Formats
+
+### Reverse Engineering the .car File Format (Compiled Asset Catalogs)
+The **Timac** blog features an excellent write-up about reverse engineering the **.car (Compiled Asset Record)** file format used by Apple in iOS and macOS applications.
+
+The analysis reveals the undocumented binary structure, identifying it as a specialized **BOM (Bill of Materials)** file comprised of distinct blocks (`CARHEADER`, `KEYFORMAT`) and trees (`RENDITIONS`, `FACETKEYS`). The post includes source code for a tool (`CARParser`) built using private `Bom.framework` APIs to extract asset data, such as images, colors, and their metadata.
+
+{% include link-to-other-site.html url="https://blog.timac.org/2018/1018-reverse-engineering-the-car-file-format/" description="Timac's blog details the reverse engineering of Apple's undocumented .car file format, explaining its BOM structure, header blocks, and how to programmatically parse Asset Catalog data." image="https://blog.timac.org/2018/1018-reverse-engineering-the-car-file-format/" title="Reverse engineering the .car file format (compiled Asset Catalogs)" %}
+
+### Reverse Engineering Casio's .CR5 File Format
+Atharva's Website features an excellent write-up detailing the reverse engineering of Casio's proprietary `.CR5` file format, used by the CTK-810IN keyboard for storing registration memory setups. The author performed differential analysis and hexdumping to determine the file structure, identifying the 12-byte header and the 32 repeating 22-byte setup structures. The process culminated in a Python script capable of parsing the binary data and displaying human-readable settings, successfully laying the groundwork for a custom Casio SMF converter.
+
+{% include link-to-other-site.html url="https://www.atharvaidya.com/Blog/reverse-engineering-cr5/" description="Atharva Vaidya provides a detailed guide on reverse engineering the Casio .CR5 binary file format, including differential analysis, identifying big-endian structures, and the final Python parsing script." image="https://www.atharvaidya.com/Blog/images/byte_representation.svg" title="Reverse Engineering Casio's .CR5 File Format" %}

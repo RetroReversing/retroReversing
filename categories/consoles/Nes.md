@@ -18,79 +18,37 @@ breadcrumbs:
 recommend:
  - nes
  - snes
+ - introduction
 recommendTitle: All NES Posts
 editlink: ../categories/consoles/Nes.md
 updatedAt: '2022-10-08'
 tags:
   - nes
+  - introduction
 ---
+Welcome to our in-depth guide to Nintendo Entertainment System (NES) reverse engineering! This page serves two roles. It groups all of our posts related to reverse engineering for the system, and it aggregates high quality sources from the web into create a unified reference.
+
+The content starts high level, outlining the system, its history, and its official game development process, then moves into low level details with a focus on reverse engineering and homebrew development.
 
 # Introduction
-Welcome to our guide to reverse engineering NES games! If you're a fan of classic video games, you may have wondered how those old 8-bit games were created and what secrets they hold. Reverse engineering is a process that can help uncover the inner workings of these games and reveal how they were programmed, designed, and even hacked by enthusiasts over the years.
+This section gives a high level overview of the Famicom/NES to give context that can be useful when trying to understand why the system works in a certain way and how officially licensed game developers worked with the system.
 
-In this guide, we'll explore the basics of reverse engineering and how it can be applied to NES games. We'll cover the tools and techniques used to disassemble and analyze game code, as well as some of the challenges and rewards of this process. Whether you're a curious hobbyist or a seasoned game developer, we hope this guide will inspire you to explore the world of NES game reverse engineering and discover some of the hidden gems of classic gaming.
+## History of the Nintendo Entertainment System
+The Family Computer (Famicom) was released in Japan on July 15, 1983.
 
----
-# Games
-
-## Game Library
+### How many NES games were released after its successor, the SNES launch?
 Despite the release of the Super Nintendo Entertainment System (SNES) in the early 1990s, the original Nintendo Entertainment System (NES) continued to maintain a substantial presence in the gaming industry.
 
-In 1993, a surprising **55** new NES titles were released[^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. These new NES titles provided a diverse array of gaming experiences, catering to a wide range of players and ensuring that the beloved NES had a lasting impact long after the arrival of its successor, the SNES.
+In 1993, a surprising **55** new NES titles were released [^2], showcasing the enduring popularity of the 8-bit console. This phenomenon can be attributed to several factors, including the affordability of the NES, its vast existing user base, and the dedication of developers and publishers who continued to support the platform. 
 
+---
 ## Official Retail NES Game Source Code
-If you are interested to see officially released or leaked source code check for the Nintendo Entertainment System check out our other post:
+If you are interested to see officially released or leaked source code for the Nintendo Entertainment System check out our other post:
 {% include link-to-other-post.html post="/source-code/retail-console-source-code" description="For the official source code check out this post." %}
 
 ### Home Alone NES Source Code
 The full source code for the NES game **Home Alone** was released online thats to the **Game History Org** and we have a specific post covering the details of the files included:
 {% include link-to-other-post.html post="/home-alone-2-nes-source-code/" description="For the official source code to Home Alone for the NES check out this post." %}
-
----
-## Reverse Engineered NES Games
-If you are interested to see existing reversing projects for the NES check out our other post specifically on this topic:
-{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
-
-## Super Mario Bros
-The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
-
-### Super Mario Bros Annotated Disassembly
-If you are interested in how Super Mario Bros works (or to really get an insight into how any NROM Mapper 0 game works) you need to check out
-[A Comprehensive Super Mario Bros. Disassembly](https://gist.github.com/1wErt3r/4048722) by **doppelganger**.
-
-### Super Mario Compiler
-The website **neilb.net** has created what it calls a **Mario Compiler** which takes in the original Super Mario Bros ROM and disassembles it.
-The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM. All from within the web application!
-
-{% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
-
-You can also view the source code for the project here: [nbarkhina/MarioCompiler: A Super Mario Compiler written in JavaScript](https://github.com/nbarkhina/MarioCompiler)
-
-### Super Mario Bros in C
-**Mitchell Sternke** has created an impressive port of the original NES Super Mario Bros, he has written a tool that converts most of the 6502 assembly code into its equivalent C code. He has then written a PPU, Controller and APU emulation layer in C to make it all work into a portable C application running natively on the target hardware (No 6502 CPU emulation required!).
-
-You can find it on Github here:
-[SuperMarioBros-C/README.md at master · MitchellSternke/SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C/blob/master/README.md)
-
-### Extracting Super Mario Bros levels in Python
-Matthew Earl has an excellent post on how he managed to extract the level data for Super Mario Bros using the disassembly project and python scripts:
-[Extracting Super Mario Bros levels with Python - Matt's Ramblings](http://matthewearl.github.io/2018/06/28/smb-level-extractor/)
-
----
-## ROM City Rampage (Grand Theftendo)
-The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-This is a good introduction to some of the limitations you need to think about when developing a NES game.
-
-### How to get the ROM
-According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
-
-You need to use a tool called **BFP Extractor** to extract content from: the file **gamedata.bfp** at addresses 0x747E67D6 and 0xC87FC3A3 then create a iNES ROM Header for it with the following Hex values:
-```
-4E 45 53 1A 20 20 50 00 00 00 00 00 00 00 00 00
-```
-Then simply join the header with the content from address 0x747E67D6 and 0xC87FC3A3 together and name it as a .nes file.
 
 ---
 # Hardware
@@ -138,8 +96,9 @@ He opens up the NES controller revealing the physical wires, traces (green lines
 </section>
 
 ---
-# Game Software Development
-There was an official software development kit provided by Nintendo/Intelligent Systems for the NES/Famicom but Nintendo didn't distribute it to third party developers. Instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
+# Game Software Development for the NES and Famicom
+There was an official software development kit provided by **Nintendo/Intelligent Systems** for the NES/Famicom but Nintendo didn't distribute it to third party developers. 
+Instead developers were required to either get an off-the-shelf 6502 assembler or write their own. Paired with a booklet covering how the NES handled graphics, input and sound, this was all that game developers got in terms of software for game development on the NES.
 
 Nowadays there are many open source assemblers, IDE's and even high level language compilers that can be used to create NES homebrew games.
 
@@ -168,16 +127,19 @@ It contains the NES/Famicom Debugger, a tool developed by Intelligent Systems be
 **Hardcore Gaming 101** has a video showing the design document created for the Famicom game **Guardian Legend**:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hfKbDRJv9Y8?si=6vtfdgoJv9zuYaCq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## What is a NES emulator and how does it work?
+---
+## NES Emulation
+
+### What is a NES emulator and how does it work?
 We have a specific post covering exactly how emulators work including tips for writing your own emulators:
 {% include link-to-other-post.html post="/how-emulators-work" description="For more information on how emulators work check out this post." %}
 
-## When was the first NES emulator?
+### When was the first NES emulator?
 We have a specific post on the history of NES emulation:
 {% include link-to-other-post.html post="/nes-emulation" description="For more information on the history of NES emulators check out this post." %}
 
 
-## NES Emulators with Debugging Functionality
+### NES Emulators with Debugging Functionality
 When reversing or developing NES games it is vital to use a good emulator which has debugging support such as:
 * **BreakPoints** - e.g can create a breakpoint at a specific code or memory location and execution will stop at that place
 * **Symbol File support** - e.g supports loading a file with a list of known variable and function names
@@ -188,20 +150,12 @@ Here is a list of a few Open Source emulators that have some of these features:
 * **Mesen** - [SourMesen/Mesen: Mesen is a cross-platform (Windows & Linux) NES/Famicom emulator built in C++ and C#](https://github.com/SourMesen/Mesen)
 * **Nintendulator** - [quietust/nintendulator: NES emulator for Windows](https://github.com/quietust/nintendulator)
 
-## Writing 6502 NES Assembly
-The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
-
-## How are games so small (40KB)?
-The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWQ0591PAxM?si=x6hKn2GerV5wqSSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing duplicates and using mirroring).
 
 ---
 # Game Modding and ROM Hacking
-By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. This can provide a unique and personalized gaming experience that is tailored to your own interests and preferences.
+By modifying the code, graphics, or sound of an NES game, you can create new levels, characters, or even entirely new games that build upon the classic gameplay and aesthetics of the original. 
 
-Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming, as well as to connect with other enthusiasts in the retro gaming community.
+Additionally, modding NES games can be a great way to learn more about the technical aspects of game development and programming.
 
 ## Tonkachi Editor (Hammer Editor)
 ![Tonkachi Editor](https://github.com/user-attachments/assets/4b346317-a9fb-4236-9d75-1535f7a920ec)
@@ -273,13 +227,28 @@ The Youtuber **Javidx9** has created a system that randomly corrupts the memory 
 
 Apparently the source code was once linked on the twitch page, but it is sadly so old now that the link has disappeared, it would have been really interesting to see it!
 
+---
 ## HD Texture Packs
 You can easily replace the 2D Sprites and Tiles from a NES game with HD/4K alternatives using specific emulators such as Mesen and HDNes. The gameplay is unchanged as it overlays the HD Graphics on top of the game and doesn't have any of the colour limitations of the NES hardware. These modifications as emulator specific and will not modify the original ROM.
 
 Mesen even comes with a HD Pack Builder Tool to create your own texture packs, for more information: [HD Packs :: Mesen Documentation](https://www.mesen.ca/docs/hdpacks.html#using-the-hd-pack-builder)
 
 ---
-# Graphics & Rendering
+# Homebrew NES Development
+
+## NES Assembly Programming
+
+### Writing 6502 NES Assembly
+The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
+
+## How are NES games so small (40KB)?
+The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZWQ0591PAxM?si=x6hKn2GerV5wqSSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing duplicates and using mirroring).
+
+---
+## Graphics & Rendering
 For an introduction to how the NES renders graphics to the screen checkout **Austin Morlan**'s excellent article on his website:
 [An Overview of NES Rendering - Austin Morlan](https://austinmorlan.com/posts/nes_rendering_overview/).
 
@@ -295,10 +264,23 @@ It covers the following topics related to NES Graphics:
 * **Sprites** - Graphics made up of tiles but are rendered above the background tiles
 
 ---
-# Reverse Engineering
-If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed. In this tutorial, we'll provide an overview of the techniques used to reverse engineer NES games, including disassembly, debugging, and memory analysis
+# Reverse Engineering Famicom and NES games
+If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed. 
 
-## File Formats
+## The Basics of NES Reversing
+In this section, we'll provide an overview of the basic techniques used to reverse engineer NES games, including disassembly, debugging, and memory analysis
+
+### What games have already been reverse engineered or are under active development?
+If you are interested to see existing reversing projects for the NES check out our other post specifically on this topic:
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+
+### What does it mean to reverse engineer a NES game?
+Reverse engineering is a process that can help uncover the inner workings of these games and reveal how they were programmed, designed, and even uncover hidden easter eggs.
+
+For more information on the basics and benefits of reverse engineering games in general check out our introductory guide:
+{% include link-to-other-post.html post="/tutorials/introduction" %}
+
+### What are the different File Formats for the NES and Famicom?
 When reversing NES games you will come across a variety of file formats, this section will try to cover all of the most common formats you will encounter.
 
 The formats for NES ROMS (virtual cartridges) are:
@@ -308,30 +290,74 @@ The formats for NES ROMS (virtual cartridges) are:
 * **.NSF** (NSF2/NSFe) - NES Sound Format for playing music ripped from NES games can be played back in some emulators and specific NSF tools.
 * **.TNES** - Official Format by Nintendo used on the 3DS Virtual Console and also supports Famicom Disc System games
 
----
-## Tutorial - Adding Hard Drops to NES Tetris
-The website **Grid Bugs** has written an excellent article on reverse engineering the NES version of Tetris to add functionality to the game called a **Hard Drop**. Check it out here:
-[Reverse-Engineering NES Tetris to add Hard Drop](https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/)
+### How can I reverse engineer a NES ROM with Ghidra?
+Ghidra is an excellent tool to reverse engineer NES games but there is a lot to cover so we have moved this section to its own post which you can view here:
+
+{% include link-to-other-post.html post="/nes-ghidra" description="For a guide on how to reverse NES games with Ghidra check out this post." %}
 
 ---
-## Nestadia CTF - Reversing a Cloud-based NES Emulator
-The security blog **segfault.me** has an excellent write-up of a Capture The Flag (CTF) challenge called **Nestadia**. The challenge involved reverse engineering a cloud-based NES emulator to find a flag hidden inside a game's ROM. It is a fascinating read on a modern twist to classic NES hacking.
-{% include link-to-other-site.html url="https://segfault.me/2021/05/26/northsec-2021-writeup-nestadia-part-1/" description="Check out the Nestadia CTF Writeup here" image="" title="NorthSec 2021 Writeup: Nestadia Part 1"  %}
+## NES and Famicom Reverse Engineering Guides
+This section aggregates many of the excellent guides and write-ups of the process of reverse engineering NES games.
 
-
----
-## Emulating NES games in Ghidra with pCode
+### Ghidra Plays Mario: Emulating NES games in Ghidra with pCode
 Ghidra uses pcode as an intermediate representation of machine code, enabling more abstract analysis and manipulation of binary instructions across different processor architectures during the reverse engineering process.
 
 Ghidra provides a built-in emulator that can execute pcode, which has been put to good use in the [ghidra-plays-mario Github project](https://github.com/nevesnunes/ghidra-plays-mario?tab=readme-ov-file). Where they have taken the cpu emulation out of **smolnes** emulator and replaced it with the Ghidra pcode emulation and it plays the first level of Mario!
 
 This isn't a realistic way to play the game, it uses pre-recorded inputs, but it is an excellent want to test Ghidra's `pcode` emulation! Allowing bugs to be found which when fixed will benefit all NES reversing projects.
 
----
-## Reversing NES ROMs with Ghidra
-We have moved this section to its own post which you can view here:
+### Adding Hard Drops to NES Tetris
+The website **Grid Bugs** has written an excellent article on reverse engineering the NES version of Tetris to add functionality to the game called a **Hard Drop**. Check it out here:
+[Reverse-Engineering NES Tetris to add Hard Drop](https://www.gridbugs.org/reverse-engineering-nes-tetris-to-add-hard-drop/)
 
-{% include link-to-other-post.html post="/nes-ghidra" description="For a guide on how to reverse NES games with Ghidra check out this post." %}
+### Nestadia CTF - Reversing a Cloud-based NES Emulator
+The security blog **segfault.me** has an excellent write-up of a Capture The Flag (CTF) challenge called **Nestadia**. The challenge involved reverse engineering a cloud-based NES emulator to find a flag hidden inside a game's ROM. It is a fascinating read on a modern twist to classic NES hacking.
+{% include link-to-other-site.html url="https://segfault.me/2021/05/26/northsec-2021-writeup-nestadia-part-1/" description="Check out the Nestadia CTF Writeup here" image="" title="NorthSec 2021 Writeup: Nestadia Part 1"  %}
+
+
+---
+## Super Mario Bros Reverse Engineering
+The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
+
+### Super Mario Bros Annotated Disassembly
+If you are interested in how Super Mario Bros works (or to really get an insight into how any NROM Mapper 0 game works) you need to check out
+[A Comprehensive Super Mario Bros. Disassembly](https://gist.github.com/1wErt3r/4048722) by **doppelganger**.
+
+### Super Mario Compiler
+The website **neilb.net** has created what it calls a **Mario Compiler** which takes in the original Super Mario Bros ROM and disassembles it.
+The disassembled code is then shown to the user and can then be modified and re-assembled back into a working NES ROM. All from within the web application!
+
+{% include link-to-other-site.html url="https://neilb.net/mariocompiler/" description="Check out the Mario compiler here" image="" title="Mario Compiler"  %}
+
+You can also view the source code for the project here: [nbarkhina/MarioCompiler: A Super Mario Compiler written in JavaScript](https://github.com/nbarkhina/MarioCompiler)
+
+### Super Mario Bros in C
+**Mitchell Sternke** has created an impressive port of the original NES Super Mario Bros, he has written a tool that converts most of the 6502 assembly code into its equivalent C code. He has then written a PPU, Controller and APU emulation layer in C to make it all work into a portable C application running natively on the target hardware (No 6502 CPU emulation required!).
+
+You can find it on Github here:
+[SuperMarioBros-C/README.md at master · MitchellSternke/SuperMarioBros-C](https://github.com/MitchellSternke/SuperMarioBros-C/blob/master/README.md)
+
+### Extracting Super Mario Bros levels in Python
+Matthew Earl has an excellent post on how he managed to extract the level data for Super Mario Bros using the disassembly project and python scripts:
+[Extracting Super Mario Bros levels with Python - Matt's Ramblings](http://matthewearl.github.io/2018/06/28/smb-level-extractor/)
+
+
+---
+## ROM City Rampage (Grand Theftendo) for the NES
+The developers of **Retro City Rampage** (V-blank Entertainment) created a limited NES port of their game for the NES and documented some of the major changes that they needed in order to get it to run on the real console:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Hvx4xXhZMrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is a good introduction to some of the limitations you need to think about when developing a NES game.
+
+### How to get the ROM
+According to **RomHacking.net**[^1] they were not allowed to release the NES ROM created for **Grand Theftendo** or even some of the documentation that they wrote while creating it. However the ROM is in the final game, so if you own the game it is possible to extract the NES ROM and play it in an emulator!
+
+You need to use a tool called **BFP Extractor** to extract content from: the file **gamedata.bfp** at addresses 0x747E67D6 and 0xC87FC3A3 then create a iNES ROM Header for it with the following Hex values:
+```
+4E 45 53 1A 20 20 50 00 00 00 00 00 00 00 00 00
+```
+Then simply join the header with the content from address 0x747E67D6 and 0xC87FC3A3 together and name it as a .nes file.
+
 
 ---
 # All Posts
