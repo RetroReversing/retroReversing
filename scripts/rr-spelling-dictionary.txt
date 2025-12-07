@@ -7,6 +7,7 @@ disassemblers
 Dreamcast
 Famicom
 Frida
+Gamecube
 Ghidra
 MSVCP
 MSVCR
@@ -16,6 +17,8 @@ NES
 Radare
 SNASM
 SNES
+Spyro
 TurboGrafx
 twitterimage
+Yaroze
 YouTuber

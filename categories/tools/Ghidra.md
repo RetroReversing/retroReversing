@@ -96,17 +96,17 @@ Download the Ghidra plugin from [Github](https://github.com/XboxDev/ghidra-xbe)
 ## Xbox 360
 Download the Ghidra plugin from [Github](https://github.com/zeroKilo/XEXLoaderWV)
 
-## Playstation 1
+## PlayStation 1
 Download the Ghidra plugin from [Github](https://github.com/lab313ru/ghidra_psx_ldr)
 Also for a guide for using Ghidra for PS1 reversing: [tokimeki-memorial](https://tetracorp.github.io/tokimeki-memorial/methods/decompiling-psx-games.html)
 
-## Playstation 2
+## PlayStation 2
 Download the Ghidra plugin from [Github](https://github.com/chaoticgd/ghidra-emotionengine-reloaded)
 
-## Playstation 3
+## PlayStation 3
 There are a few useful script for working with PS3 executables on [Github](https://github.com/clienthax/Ps3GhidraScripts)
 
-## Playstation Portable
+## PlayStation Portable
 Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 
 ---
