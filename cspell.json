@@ -15,7 +15,7 @@
     "\"[A-Za-z0-9_-]+\"",
     "\"\\/[A-Za-z0-9_-]+"
   ],
-  "flagWords": ["hte", "seperate", "indefinetly", "completly"],
+  "flagWords": ["hte", "seperate", "indefinetly", "completly", "facinating", "deocmpiled", "essentail"],
   "dictionaries": ["rr-words", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],
   "ignorePaths": ["node_modules", "public", ".github"]
 }

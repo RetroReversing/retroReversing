@@ -17,10 +17,10 @@ tags:
   - ghidra
   - tools
 ---
-Ghidra is the most advanced reverse engineering tool on the market, and best of all it is completly free and open source! Most of the content on RetroReversing will be using Ghidra going forward due to it being much more accessable than competitors such as IDA Pro.
+Ghidra is the most advanced reverse engineering tool on the market, and best of all it is completely free and open source! Most of the content on RetroReversing will be using Ghidra going forward due to it being much more accessible than competitors such as IDA Pro.
 
 # Introduction to Ghidra
-There is no better way to start out the hobby reverse engineering than learning Ghidra, it is an essentail tool that takes much of the headaches out of reversing.
+There is no better way to start out the hobby reverse engineering than learning Ghidra, it is an essential tool that takes much of the headaches out of reversing.
 
 {% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For a good introduction to decompiling with Ghidra check out this post." %}
 
@@ -133,7 +133,7 @@ In Ghidra, the CONCAT11(x, y) operation combines two 8-bit values (x and y) into
 #define CONCAT11(x, y) = (((uint16_t)x) << 8) | ((uint8_t)y)
 ```
 
-When cleaning up the deocmpiled code we suggest using the following replacement as it is more explicit about the purpose:
+When cleaning up the decompiled code we suggest using the following replacement as it is more explicit about the purpose:
 ```c
 // MergeBytesTo16Bit -  combines high and low bytes into a single 16bit value
 #define MergeBytesTo16Bit(highByte, lowByte) = (((uint16_t)highByte) << 8) | ((uint8_t)lowByte)

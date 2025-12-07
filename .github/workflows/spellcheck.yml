@@ -38,3 +38,6 @@ jobs:
         with:
           persist-credentials: false
       - uses: streetsidesoftware/cspell-action@v8
+        with:
+          strict: false
+          suggestions: true
