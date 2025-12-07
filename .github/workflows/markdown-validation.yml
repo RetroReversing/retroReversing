@@ -151,15 +151,13 @@ jobs:
             statusEmoji = '⚠️';
           }
           
-          let comment = `${statusEmoji} **Markdown Content Validation ${overallStatus}**
+          let comment = `**Markdown Content Validation ${overallStatus}**
 
           ${summary}
 
-          ## Quick Actions
+          ## Result
           
           ${tagStatus === 'failed' ? '- ❌ **Fix invalid tags** before merging' : '- ✅ All tags are valid'}
-          - 📈 **Consider adding missing metadata fields** to improve content completeness
-          - 📥 **Download detailed reports** from the workflow artifacts
           `;
           
           // Add specific invalid tags if validation failed
@@ -177,13 +175,6 @@ jobs:
               `;
             }
           }
-          
-          comment += `
-          
-          ---
-          
-          💡 **Tip**: Run \`node scripts/validate-tags.js\` locally to see detailed validation results.
-          `;
           
           // Find existing comment
           const { data: comments } = await github.rest.issues.listComments({

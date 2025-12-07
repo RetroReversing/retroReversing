@@ -48,7 +48,7 @@ The excellent wiki known as SegaRetro has uploaded the full development manual f
 
 ---
 # Games that were built with PSYQ
-Not many Sega Saturn games were actually developed using the PsyQ development kit unfortunetly, but there were a small number of quality titles that we have confirmed use the PsyQ SDK.
+Not many Sega Saturn games were actually developed using the PsyQ development kit unfortunately, but there were a small number of quality titles that we have confirmed use the PsyQ SDK.
 
 The Games are:
 * Bubble Bobble also featuring Rainbow Islands

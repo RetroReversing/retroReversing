@@ -30,7 +30,7 @@ The table below shows some of the most popular 3D software for the games industr
 Name | Company | Price | Notes
 ---|---|---|---
 Visual Reality 2.0 | Visual Software | very little information on this after 1996 (website in 1999 doesn't mention it: [Wayback Machine](https://web.archive.org/web/19991128081032/http://www.vissoft.com/))
-Lightwave 3D 4.0 | DPS | £816.63 | 1995
+LightWave 3D 4.0 | DPS | £816.63 | 1995
 
 ---
 # How Were 3D Game Cut Scenes Developed?
@@ -50,7 +50,7 @@ The most popular 3D software for developing retro game cutscenes included:
 
 Most of the compositing software used for the VFX and animation industries was also used for game cut scenes. A few of these are listed below:
 * Combustion by Discreet Logic (Autodesk)
-* Henry by Quantel
+* Henry by **Quantel**
 * After Effects by Adobe
 * Nuke by Foundry
 * Blackmagic Design's Fusion
@@ -73,7 +73,7 @@ We have a separate post on 3D Studio Max which you can find below:
 The software in this section are more obscure and may have only been used for a handful of games, but they were viable choices for smaller studios due to their cheaper price.
 
 ## 3D-Brush (Later 3DCoat)
-At only $70 3D-Brush was a very cheap alternative to Zbrush and Mudbox and was developed by Dmitriy Yanev’s, who was the former lead coder from the Ukraine based game development studio **GSC Gameworld** (Cossacks game series).
+At only $70 3D-Brush was a very cheap alternative to ZBrush and Mudbox and was developed by **Dmitriy Yanev**, who was the former lead coder from the Ukraine based game development studio **GSC Gameworld** (Cossacks game series).
 
 It was later rebranded to **3D-Coat** in early 2008 and it is still a viable product in 2025! However it is unclear which commercial games, if any, used this during the development process.
 

@@ -53,15 +53,15 @@ In the Nintendo Gigaleak we found that the following file formats were used to s
 * **.BIN** - Binary file for including in the ROM - could be anything
 
 ### Graphics File Formats
-We know the following file formats are related to Graphics on the Game Boy (Color) but we are not sure tghe exact purpose of all of them (most were seen in Zedla DX source code):
+We know the following file formats are related to Graphics on the Game Boy (Color) but we are not sure the exact purpose of all of them (most were seen in Zelda DX source code):
 * **.CHR** - Character Graphics Data from Famicom and Game Boy (2 bits per pixel planar)
 * **.CGX** - Seems to be exactly the same as .CHR (2 bits per pixel planar)
-* **.CGE** - Character Graphics data (For famicom?)
+* **.CGE** - Character Graphics data (For Famicom?)
 * **.DCG** - Character Graphics data (for DMG Game Boy?)
 * **.CCD** - ?
 * **.CSD** - Possibly compiled to .CGX
 * **.CDT** - Color Data Table? (related to CSD)
-* **.COL** - Color pallete? (Related to CDT)
+* **.COL** - Color Palette? (Related to CDT)
 
 ### Unknown File Formats
 Most of these have been seen in the Zelda DX Gigaleak but we are unclear what exactly they are.

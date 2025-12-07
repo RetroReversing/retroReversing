@@ -571,7 +571,7 @@ If we didn't already have multiple homebrew examples showing off similar functio
   <img class="geopattern" data-title="Layer.h" />
   <h3>Layer.h</h3>
   <ul>
-    <li><span>LGradationColor</span> DefaultBgGradPallete[]</li> 
+    <li><span>LGradationColor</span> DefaultBgGradPalette[]</li> 
     <li><span>ILayer</span> LtCreateTextLayer<span>(s32 x,s32 y,s32 chrElmsX,s32 chrElmsY,s32 bufferHeight)</span></li> 
     <li><span>void</span> LtPrintf<span>(ILayer layer,char *format,...)</span></li> 
     <li><span>void</span> LtPrintfEx<span>(ILayer layer,LPOINT cursor,char *format,...)</span></li> 
@@ -1166,7 +1166,7 @@ For more information you can take a diff of the two folders if you are especiall
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/include/ati</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the C header files that provide low level acess to the wii hardware. This library was originally written for the gamecube and then updated for the Wii, it was created by ATI (formally ArtX).
+ This folder contains the C header files that provide low level access to the wii hardware. This library was originally written for the gamecube and then updated for the Wii, it was created by ATI (formally ArtX).
 
 This library was not provided to third party developers in the official SDK and so was only used for internal tools and software such as the Wii Operating system known as **IOS**.
 

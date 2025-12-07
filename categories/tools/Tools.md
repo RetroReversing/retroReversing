@@ -46,7 +46,7 @@ These powerful tools were pivotal in optimizing and translating the developers' 
 
 Understand the role of early compilers and their impact on game performance and development workflows. Key tools include:
 
-- **Assemblers**: Programs like MASM and TASM that converted assembly code into machine code.
+- **Assemblers**: Programs like **MASM** and **TASM** that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
 
 {% include link-to-other-post.html post="/GNU-GCC" description="For more information on how GNU GCC was used in game development check out this post." %}
@@ -73,7 +73,7 @@ An advert for attracting game developers to use **Microsoft Visual Studio** from
 
 ---
 ## Software Development Kits
-Every platform had its own official Software Development Kit (SDK), so whether you were developing for the Playstation or the PC you would be interacting with different APIs. In addition there were third parties that created their own multi-platform SDKs which could be used on multiple games consoles or Operating Systems.
+Every platform had its own official Software Development Kit (SDK), so whether you were developing for the PlayStation or the PC you would be interacting with different APIs. In addition there were third parties that created their own multi-platform SDKs which could be used on multiple games consoles or Operating Systems.
 
 We have a post specifically about all the different SDKs for each platform.
 
@@ -95,7 +95,7 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 ## 2D Images, Sprites and Textures
 Known software used in the creation of 2D Image asserts for retro video games include:
 * **Deluxe Paint** (aka DPaint) - Created by Electronic Arts
-* **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palettizing sprites for StarCraft [^1])
+* **DeBabilizer** - Shown off during 1997 Computer Game Developers Conference (Used for palletizing sprites for StarCraft [^1])
 
 ### 8-bit EGA Pixel art at LucasArts
 **Mark Ferrari** has an excellent GDC talk, in which he discussed some of the techniques for drawing 8-bit game graphics, including color cycling and palette shifting in Deluxe Paint:
@@ -162,7 +162,7 @@ Hex editors let you view and modify the raw binary data of game files. They are 
 Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
 
 - **Reko**: An open-source decompiler designed for multiple architectures and file formats.
-- **RetDec**: A retargetable machine-code decompiler that supports various architectures and file types.
+- **RetDec**: A retagetable machine-code decompiler that supports various architectures and file types.
 - **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
 {% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}

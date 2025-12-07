@@ -29,11 +29,11 @@ This page is dedicated to listing **Playstation 2 Demo Discs** that contain deve
 It was much more common for PS2 debug symbols to be leaked on Demo Discs than their retail counterparts during the early days of the PS2 lifespan, later in the lifespan demos with Debug symbols became rarer and rarer.
 
 ## Which games were likely to have debug symbols?
-Most games found with debug symbols on this list are using the PS2 SDK about **2.1.0** and below **2.5.2** so its possible that after that version they started stripping the symbols by default on demo builds, or maybe the people who created the demo discs got stricter for looking for them. Although there are some exceptions to this rule, there are a few games using PS2 SDK 3.0.0 that accidently left a .MAP file of symbols somewhere on the disc (rather than in the executable), so it wasn't fool proof.
+Most games found with debug symbols on this list are using the PS2 SDK about **2.1.0** and below **2.5.2** so its possible that after that version they started stripping the symbols by default on demo builds, or maybe the people who created the demo discs got stricter for looking for them. Although there are some exceptions to this rule, there are a few games using PS2 SDK 3.0.0 that accidentally left a .MAP file of symbols somewhere on the disc (rather than in the executable), so it wasn't fool proof.
 
 ---
-# PS2 Demo Discs from Official Playstation 2 Magazine in Europe
-The **Official Playstation 2 Magazine** in the UK and europe often had a playable PS2 Demo free with every magazine, this was a great way for games to 'try before you buy'. Many of the same discs were pressed and then released throughout Europe with their own localised version of the magazine. However there were some variations based on local region restrictions and trademarks etc, so we include the SCED code along with any referenced demo disc on this page so its easier to track down the demo you are looking for.
+# PS2 Demo Discs from Official PlayStation 2 Magazine in Europe
+The **Official PlayStation 2 Magazine** in the UK and Europe often had a playable PS2 Demo free with every magazine, this was a great way for games to 'try before you buy'. Many of the same discs were pressed and then released throughout Europe with their own localised version of the magazine. However there were some variations based on local region restrictions and trademarks etc, so we include the SCED code along with any referenced demo disc on this page so its easier to track down the demo you are looking for.
 
 You can find out more about these Demo Discs including scans of each of the covers and discs over at **crimson-ceremony.net**: [demo pals - OPS2M Demo UK](https://crimson-ceremony.net/demopals/ops2muk/index.php).
 
@@ -122,14 +122,14 @@ Demo Disc | Game | PS2 SDK | Debug Info?
 55 - January 2005 SCED_52170 | Mashed | PS2SDK 3.0.1 | contains some strings related to C source file location (Physics/Rwp37Active/src/core/context/src/RwpObj.c)
 55 - January 2005 SCED_52170 | Mercenaries | PS2SDK 2.7.1 | Mentions Indiana Jones as unlockable character in config
 55 - January 2005 SCED_52170 | Pro Evolution Soccer 4 | PS2SDK 3.0.1 | mentions `ADXT`
-55 - January 2005 SCED_52170 | Splinter Cell Pandora Tommorrow | PS2 SDK 3.0.0 | contains a few symbol-like strings
+55 - January 2005 SCED_52170 | Splinter Cell Pandora Tomorrow | PS2 SDK 3.0.0 | contains a few symbol-like strings
 56 - February 2005 SCED_53122 | Timesplitters Future Perfect | PS2SDK 3.0.2 | Contains some symbols as segment names and a few references to source files
 59 - May 2005 SCED_53162 | Enthusia | 3.0.0 | Symbols in segment names
 65 - November 2005 SCED_53186 | Need for Speed: Most Wanted | 2.8.0 | Some function and class names in uncommon format
 65 - November 2005 SCED_53186 | NHL 06 | 2.8.0 | `FontFusion 2.4.1-nhl` `APT 0.18.06-nhl` `RealCore 6.25.00-nhl` `RealGraph 6.11.01-nhl` `Reveal 1.4.0` `Mudlark 1.1.6`
 65 - November 2005 SCED_53186 | Wallace & Gromit: The Curse of the Were-Rabbit | ? | Uses same engine as Project Zoo `fgdk3` (Frontier Game Development Kit 3?)
 72 - May 2006 SCED_54044 | Driver 4 | 3.0.0 | Contains .MAP files in DRIVER4.IMG [^1]
-72 - May 2006 SCED_54044 | TOCA Race Driver 3 | 3.0.2 | a few references to cpp files and a small .sndata section
+72 - May 2006 SCED_54044 | TOCA Race Driver 3 | 3.0.2 | a few references to cpp files and a small `.sndata` section
 
 Also note the following demo discs have no debug information, as far as we can tell, but some may be encrypted/compressed etc so its still possible there is something of value on them: 
 * 58 - April 2005 SCED_53161
@@ -189,7 +189,7 @@ You may have reached this page out of genuine curiosity to try out some Playstat
 | OPS2M Demo 37 | SCED-51537 | Alter Echo, Ape Escape 2, Die Hard Vendetta, Dynasty Warriors 3, Metal Gear Solid 2, Ratchet & Clank, Return to Castle Wolfenstein, Splashdown 2: Rides Gone Wild, Splinter Cell, The Great Escape, WRC II Extreme |
 | OPS2M Demo 37 | SCED-51563 | Alter Echo, Ape Escape 2, Die Hard Vendetta, Dynasty Warriors 3, Metal Gear Solid 2, Ratchet & Clank, Return To Castle Wolfenstein, Splashdown 2 Rides, Splinter Cell, The Great Escape, WRC II Extreme |
 | OPS2M Demo 38 | SCED-51538 | Amplitude, Chaos Legion, Colin McRae Rally 4, Finding Nemo, Formula One 2003, Freedom Fighters, Metal Gear Solid 3 Snake Eater, Perfect Ace, Rugby 2004, Soul Calibur 2, Sphinx And The Shadow Of Set, Summer Heat Beach Volleyball, True Crime: Streets Of LA, Warhammer 40K: Firewarrior, Zone Of The Enders The 2nd Runner |
-| OPS2M Demo 39 | SCED-51540 | Beyond Good & Evil, Conflict: Desert Storm II, Extreme Skate Adventure, Freestyle Metal X, Ironstorm: World War Zero, Jak II: Renegade, Judge Dredd: Dredd Vs Death, My Street, Prince of Persia: The Sands of Time, Rolling, The Italian Job: LA Heist (Curcuit), The Italian Job: LA Heist (Stunt)  |
+| OPS2M Demo 39 | SCED-51540 | Beyond Good & Evil, Conflict: Desert Storm II, Extreme Skate Adventure, Freestyle Metal X, Ironstorm: World War Zero, Jak II: Renegade, Judge Dredd: Dredd Vs Death, My Street, Prince of Persia: The Sands of Time, Rolling, The Italian Job: LA Heist (Circuit), The Italian Job: LA Heist (Stunt)  |
 | OPS2M Demo 40 | SCED-51535 | Destruction Derby Arenas, Dog's Life, Freaky Flyers, Ghosthunter, Gladius, James Bond 007: Everything or Nothing, Need for Speed Underground, Ratchet & Clank 2: Locked and Loaded, Tiger Woods PGA Tour 2004, Time Crisis 3, Wallace & Gromit in Project Zoo |
 UPS2M Demo Italia 06/03 | | Airblade,  Baldur's Gate: Dark Alliance,  Burnout 2,  Def Jam Vendetta,  Rygar,  Silent Hill 3,  Virtua Fighter 4,  Wipeout Fusion
 UPS2M Demo Italia 07/03 | | Gunfighter,  Hitman 2,  Ico,  Jak & Daxter,  Ratchet & Clank,  Socom U.S. Navy Seals,  Twisted Metal Black,  WWE Smackdown
@@ -208,7 +208,7 @@ OPS2M Demo 46 | | Arc: Twilight Of The Spirits,  CY Girls,  Fight Night 2004,  M
 UPS2M Italia 06/04 | | Arc Twilight Of The Spirits,  Cy Girls,  Fight Night,  Mashed,  MX Unleashed,  NFL Street,  Richard Burns Rally,  Rise To Honor,  Sonic Heroes,  Teenage Mutant Ninja Turtles,  Transformers
 OPS2M Demo 47 | | Alias,  Champions Of Norrath,  Deadly Skies III,  Goblin Commander: Unleash The Horde,  Megaman X7,  Pool Paradise,  World War Zero: Ironstorm
 OPS2M Demo 47 | | Alias,  Champions Of Norrath,  Deadly Skies III,  Goblin Commander: Unleash The Horde,  Megaman X7,  Pool Paradise,  World War Zero
-OPS2M Demo 48 | | Athens 2004,  Mashed,  MTV Music Generator 3,  Serious Sam,  Syphon Filter: The Omega Strain,  This Is Football 2004,  Athens 2004,  Mashed,  MTV Music Generator 3,  Serious Sam,  Syphon Filter: The Omage Strain,  This Is Football 2004
+OPS2M Demo 48 | | Athens 2004,  Mashed,  MTV Music Generator 3,  Serious Sam,  Syphon Filter: The Omega Strain,  This Is Football 2004,  Athens 2004,  Mashed,  MTV Music Generator 3,  Serious Sam,  Syphon Filter: The Omega Strain,  This Is Football 2004
 OPS2M Demo 49 | | Formula One 2004,  Hitman Contracts,  Mashed,  Smash Court Tennis 2,  Splinter Cell: Pandora Tomorrow
 OPS2M Demo 49 | | Formula One 04,  Hitman Contracts,  Mashed,  Smash Court Tennis Pro Tournament 2,  Splinter Cell Pandora Tomorrow
 OPS2M Demo 50 | | Burnout 3,  Crash Unlimited,  Psi Ops,  Ribbit King,  Second Sight,  Silent Hill 4 The Room,  Star Wars Battlefront,  Van Helsing

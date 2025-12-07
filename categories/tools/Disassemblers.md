@@ -371,7 +371,7 @@ Dynamic Disassemblers have the following challenges:
 ---
 ## Tools for Dynamic Disassembly
 Several tools offer dynamic disassembly capabilities, often integrating these features with other forms of analysis:
-- **Intel PIN**: A dynamic binary instrumentation framework that allows users to write custom tools (called “pintools”) to analyze programs as they run.
+- **Intel PIN**: A dynamic binary instrumentation framework that allows users to write custom tools (called "pintools") to analyze programs as they run.
 - **DynamoRIO**: Another dynamic instrumentation framework similar to PIN, allowing for the creation of custom analysis tools.
 - **OllyDbg**: A popular debugger with dynamic analysis capabilities, commonly used for reverse engineering.
 - **Ghidra**: While primarily a static disassembler, Ghidra can be integrated with dynamic analysis tools and debuggers to provide dynamic disassembly capabilities.

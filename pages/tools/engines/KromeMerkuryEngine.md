@@ -21,13 +21,13 @@ _image: /public/consoles/Tools.jpg
 
 The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.
 
-Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasmanian Tiger 4) rather than the Merkury engine, but remaster of older games are still being relased based on the Merkury engine so Krome Studios are still activly developing with it.
+Nowadays new games are developed in Unity at **Krome Studios** (e.g Ty the Tasmanian Tiger 4) rather than the Merkury engine, but remaster of older games are still being released based on the Merkury engine so Krome Studios are still actively developing with it.
 
 It is best known for the custom versions of **Star Wars: The Force Unleashed** on less powerful consoles, because the LucasArts version for Xbox 360 and PS3 was too demanding to port directly to PS2, PSP or Wii. Because a significant installer base remained for those consoles, LucasArts opted to outsource a custom version to Krome, using their existing engine architecture under the name **Merkury**
 
 ---
 # Origin of the Merkury Engine
-The Merkury engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999, depending on when the text was written on the website.
+The Merkury Engine is first listed on the official Krome Studios website sometime before March 2001 (when it was archived by the wayback machine) where it claimed the engine had been in development for 3 years [^8], so this would put the creation of the Merkury engine around with 1998 or 1999, depending on when the text was written on the website.
 
 There are at least three known major versions of the Merkury engine:
 * **Version 1 (1998/1999)** - Originally called BEAST (and the 3d library Blast Graphics) created around 1998 or 1999
@@ -35,7 +35,7 @@ There are at least three known major versions of the Merkury engine:
 * **Version 3 (2010)** - Created for **The Legend of the Guardians: The Owls of Ga'hoole** around 2010
 
 ## Merkury Engine 1.0 features
-On the official website archived on March 3rd 2001, it called Merkury a "world-class 3D game engine" [^8] and it listed the featues of the engine as:
+On the official website archived on March 3rd 2001, it called Merkury a "world-class 3D game engine" [^8] and it listed the features of the engine as:
 * Soft-Skinned Skeletal Animation System
 * Simultaneous Independent Animations
 * Mesh Morphing and Animation Morphing
@@ -50,12 +50,12 @@ On the official website archived on March 3rd 2001, it called Merkury a "world-c
 * Multi-Genre
 * Multiple Field Of View
 
-The first game that is oficially credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits section of the manual.
+The first game that is officially credited as using the engine is the Windows version of **Championship Surfer** from 2000 with **Tony Ball** being listed as the Merkury engine programmer in the credits section of the manual.
 
 
 ---
 ## Programming the Merkury engine
-The Merkury engine was built in **C++** with a few modules written in **Assembler**, with simultanious development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
+The Merkury engine was built in **C++** with a few modules written in **Assembler**, with simultaneous development of the engine on multiple platforms at once (Windows, PS2, GameCube and Xbox) [^4].
 
 On the port of the Merkury engine to GameCube for **Ty the Tasmanian Tiger**, **Chris Lacy** had the following to say in an interview with Nintendo World Report (NWR):
 >In about July of last year (2001) we received our first GameCube DevKit, which was very exciting for me, especially because I had been following the development of "Dolphin" since the PlanetN2000 days when Rick first broke the story about the codename for the project. To see it in person was so cool.
@@ -148,7 +148,7 @@ Flight of the Amazon Queen was released for **DOS** and **Amiga** in 1995 and th
 
 Since the company was so small the copyright for these games is owned by the two co-founders of IBI and **John Passfield** has generously uploaded the original version of **Flight of the Amazon Queen** to his personal website which you can download **completely free** from his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page! 
 
-We also highly recommend you buy the **recent iOS re-release** of the game on the App Store as its incredibly cheap and a great game to play on the go, along with supporting that amazing industry veteren Mr Passfield, a link to it is also available on his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page.
+We also highly recommend you buy the **recent iOS re-release** of the game on the App Store as its incredibly cheap and a great game to play on the go, along with supporting that amazing industry veteran Mr Passfield, a link to it is also available on his [Free Stuff! - Passfield Games](http://www.passfieldgames.com/free-stuff.html) page.
 
 #### JASPAR (Queen) game engine
 The game was built with a custom game engine called **JASPAR** (John And Steve's Programmable Adventure Resource) and John even wrote some game editor tools [^14]:
@@ -180,7 +180,7 @@ Which is a shame as the graphics were looking really nice for the prototype they
 
 You can find out more about Bane Quest on the wayback machine archive of the official website: [The Elf Lord's Bain Quest Saga](https://web.archive.org/web/19970327033850/http://www.geewhiz.com.au/gwelf.html)
 
-As facinating as the **JASPAR** engine is, this page is about **Merkury** and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
+As fascinating as the **JASPAR** engine is, this page is about **Merkury** and none of the Interactive Binary Illusions games have any hint of the Merkury (or Blast graphics) engines so lets keep going.
 
 
 ---
@@ -214,14 +214,14 @@ Zombie Wars was a sequal to Halloween Harry released in 1996 and written in Delp
 
 **Pratik Anand** has reverse engineered the assets for Zombie wars and has an excellent write up here:  [Detective work on Reverse Engineering obscure 16-bit Windows game (Zombie Wars) · Pratik Anand](https://pratikone.github.io/gaming/2021/09/02/reverse-engineer-zombiewars.html)
 
-Sadly they found that reverse engineering an old Delphi executable is not easy with most modern tools. It is likely build using a very early version of Delphi such as 1.0 (1995) and their are tools that can help recovering the source files for Delphi 2.0/3.0 from compiled executables such as **EXE2DPR - Delphi project sources Rescuer**, but I don't know of any software that works on 1.0 executables unfortunetly.
+Sadly they found that reverse engineering an old Delphi executable is not easy with most modern tools. It is likely build using a very early version of Delphi such as 1.0 (1995) and their are tools that can help recovering the source files for Delphi 2.0/3.0 from compiled executables such as **EXE2DPR - Delphi project sources Rescuer**, but I don't know of any software that works on 1.0 executables unfortunately.
 
 It was built using the **Microsoft WinG** library, which was the original name for DirectX. It also uses a library from **SubZero Software**  with a build date of 4th December 1995. Since its assets are all stored in **.SUB0** archives this hints at a library for packing game assets, **SubZero Software** are also listed as a join developer on the original Halloween Harry game.
 
 For the limited analysis of the binary I can do there doesn't seem to be any connection between the game and what would become the Merkury engine or the 3d library Blast Graphics) and it was written in a completely different programming language so it is unlikely there is a strong connection.
 
 ### Delphi Programming
-**Robert Crane** was a big fan of the **Delphi** programming langauge (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
+**Robert Crane** was a big fan of the **Delphi** programming language (Object Oriented version of Pascal) and exclaimed the following on the company website back in 1997 [^13]:
 > Let me say that if it wasn't for **Delphi**, this project would have been a nightmare of great proportions. If there are any sceptics of what Delphi is capable of, wait 'til they see Zombie Wars.
 >
 > Since all the coding of Zombie Wars (excluding graphics routines) is up to me, I have been REALLY busy just keeping up with the graphics that Steve does. I guess it is a little easier this time around because most of the code was a **direct port from the old Halloween Harry**. I am glad we chose to do the sequel though because I've added some really cool stuff to the engine.
@@ -229,7 +229,7 @@ For the limited analysis of the binary I can do there doesn't seem to be any con
 ---
 # BEAST & Blast Graphics - The Original Merkury engine
 ![BlastGraphics 3D engine in the about section of Gruesome Castle](https://github.com/user-attachments/assets/a59c1f52-09d6-4296-bf4e-352779dd8f6c)
-Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **BEAST** and **Blast graphics**. Later on Krome would come to retroactivley refer to these games as based on the Merkury engine.
+Many of the games listed on the official website in 2001 as being Merkury engine games refer to the engine under a different name **BEAST** and **Blast graphics**. Later on Krome would come to retroactively refer to these games as based on the Merkury engine.
 
 In the Help file for **Mike Stewart's Pro Bodyboarding** it lists two libraries used for making the game, **BEAST** and **Blast Graphics**:
 * **Beast Game Engine** Copyright &copy; 1999 Mind Mechanics
@@ -615,7 +615,7 @@ Thanks to compilers adding some additional metadata we know at least some of the
 * C:\bg\Bgunit.cpp - From MSPB (Aus) Along with .\Release\Bgunit.obj and C:\bg\bgunit.h
 
 ### Known Blast Graphics functions
-
+<!-- cspell:disable -->
 Looking at the exports table of one the the dlls we know it has the following functionality:
 
 Name | Location | Function Signature | Function Size (bytes) | Description
@@ -804,7 +804,8 @@ DirectDrawCreateEx | 0x1002593c | DirectDrawCreateEx() | 6 |
 DirectDrawEnumerateA | 0x10025942 | DirectDrawEnumerateA() | 6 | 
 entry | 0x10034385 | entry(param_1, param_2, param_3) | 157 | 
 
-Although Blast Graphics was a 3D library it also contained alot of game engine functionality such as sound, keyboard input, AVI video playback, animation and more.
+<!-- cspell:enable -->
+Although Blast Graphics was a 3D library it also contained a lot of game engine functionality such as sound, keyboard input, AVI video playback, animation and more.
 
 ---
 # Mike Stewart's Pro Bodyboarding (February 1999)
@@ -1141,7 +1142,7 @@ Differences from the Merkury engine:
 * **Sounds** - It stores sounds directly as .WAV and .MP3 files
 
 ## Skating.exe executable
-If you run the `binwalk` command on the **Skating.exe** executable you find that it actually has a few embeded executables too:
+If you run the `binwalk` command on the **Skating.exe** executable you find that it actually has a few embedded executables too:
 ```
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DECIMAL                            HEXADECIMAL                        DESCRIPTION
@@ -1714,7 +1715,7 @@ The 2003 game **The Adventures of Jimmy Neutron: Jet Fusion** is confirmed to us
 ## Prototype version for PS2
 <img width="1752" height="1240" alt="image" src="https://github.com/user-attachments/assets/10884f1d-86d5-4f4f-b2a6-81ff1b532452" />
 
-A Demo of the game was distributed in the Chirstmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
+A Demo of the game was distributed in the Christmas 2003 issue (issue number 41) of the Official Playstation 2 magazine in the UK, the demo disc has the code **SCED_51536**.
 
 It contained a **DATA_P2.RKV** (201.3MB) RKV archive containing all the game assets and the main game executable **JIMMY.ELF** (3.4MB).
 
@@ -1779,7 +1780,7 @@ For fun here is a list of unique strings that reference some of the original sou
 
 ---
 ## Game Data Archives - .RKV files
-The game uses RKV archive format, specifically version 2 of the format, these can be extraced with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
+The game uses RKV archive format, specifically version 2 of the format, these can be extracted with [Luigi Auriemma's QuickBMS](https://aluigi.altervista.org/quickbms_list.php) and the [Rkv2 BMS script](https://aluigi.altervista.org/bms/rkv2.bms).
 
 ---
 ### Main Game Data Archive (data_pp.rkv)
@@ -1837,7 +1838,7 @@ The lvl files contain strings such as:
 #### Left-over development content
 The **.mine**, **.r11913**, **.r11979** files suggest use of the RCS (Revision Control System) version control system as it uses these extensions to manage file revisions and resolve conflicts locally.
 
-Also it also highlights that the RKV files have a lot of files that are not required by the game at runtime, these version control files and also the translation Excel spreadsheet `Translations.xls`. it looks like they just archive a certain folder and distribute it with the game. Unfortunetly for us they didn't accidently also include any debug symbols or source code in the archives.
+Also it also highlights that the RKV files have a lot of files that are not required by the game at runtime, these version control files and also the translation Excel spreadsheet `Translations.xls`. it looks like they just archive a certain folder and distribute it with the game. unfortunately for us they didn't accidentally also include any debug symbols or source code in the archives.
 
 ---
 ### Language Specific Sound Bank Archives (LngEN_pp.rkv and LngFR_pp.rkv)

@@ -12,7 +12,7 @@ breadcrumbs:
     url: /sdks
 redirect_from:
   - /sdk
-  - /softwaredevelopmentkit
+  - /softwareDevelopmentKit
 editlink: ../categories/tools/sdks.md
 recommend:
  - sdk
@@ -90,7 +90,7 @@ Again no information is available about any Official Game Gear Software Developm
 
 ## SEGA Dreamcast
 There were two Software Development Kits for the SEGA Dreamcast, one for Windows CE (supported by Microsoft) and the standard Dreamcast SDK.
-{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For more information on the files in the Dreamcase Windows CE SDK check out this post." %}
+{% include link-to-other-post.html post="/dreamcast-windows-ce" description="For more information on the files in the Dreamcast Windows CE SDK check out this post." %}
 
 ---
 # Sony Software Development Kits

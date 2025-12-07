@@ -9,13 +9,15 @@
         }
     ],
    "ignoreRegExpList": [
-    "\\`[\\w-]+\\`",
+    "\\`[\\w-\\.=$:]+\\`",
     "\\*\\*[^*]+\\*\\*",
     "\\[[^\\]]+\\]",
-    "\"[A-Za-z0-9_-]+\"",
-    "\"\\/[A-Za-z0-9_-]+"
+    "\"[A-Za-z0-9_/\\.-]+\"",
+    "\"\\/[A-Za-z0-9_-]+",
+    "^---[\\s\\S]*?---",
+    "^\\S+\\.[A-Za-z0-9]{1,3} \\| "
   ],
-  "flagWords": ["hte", "seperate", "indefinetly", "completly", "facinating", "deocmpiled", "essentail"],
+  "flagWords": ["hte", "tghe", "Pallete", "Gameboy", "seperate", "indefinetly", "Mutliplayer", "Polynomical", "introducted", "completly", "facinating", "deocmpiled", "essentail", "veteren", "relased", "unfortunetly", "langauge", "containes", "Dreamcase"],
   "dictionaries": ["rr-words", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],
   "ignorePaths": ["node_modules", "public", ".github"]
 }

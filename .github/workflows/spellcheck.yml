@@ -41,4 +41,4 @@ jobs:
         with:
           strict: true
           suggestions: true
-          report: flagged
+          report: typos
