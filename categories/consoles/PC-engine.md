@@ -48,9 +48,11 @@ If you're interested in learning more about the hardware architecture of the NES
 ### Develo box
 The **Develo box** was a development kit sold to consumers allowing development of PC-Engine software via either an interface that can connect to either the MSX or PC-9801 [^2].
 
-From the book The untold history of Japanese Game Developers Volume 2 we can see a photo of the Develo Box in action.
+From the book "The untold history of Japanese Game Developers Volume 2" we can see a photo of the Develo Box in action:
+<img width="593" height="360" alt="Develo Box connected to a PC-Engine" src="https://github.com/user-attachments/assets/272ba723-7527-4897-94c8-48391ac121c5" />
 
 There were two books released for the plaform, one for assembly language and the other for basic, you can find out more on [Develo Books](http://www.interlog.com/~daves/develo.html)
+<img width="1110" height="846" alt="Assembly Language Develo Book beside the Develo Box" src="https://github.com/user-attachments/assets/f9ea96aa-e9fe-495d-91d7-6f0d68c98547" />
 
 
 ---
