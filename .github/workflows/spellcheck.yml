@@ -24,8 +24,11 @@
 
 name: 'Check spelling with cSpell'
 on:
-  pull_request: [ main, master ]
-  # push:
+  pull_request: 
+    branches: [ main, master ]
+    paths:
+      - 'categories/**/*.md'
+      - 'pages/**/*.md'
 
 jobs:
   spellcheck: # run the action
@@ -33,5 +36,5 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          persist-credentials: false
+          persist-credentials: false
       - uses: streetsidesoftware/cspell-action@v8
