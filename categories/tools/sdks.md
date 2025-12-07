@@ -95,22 +95,22 @@ There were two Software Development Kits for the SEGA Dreamcast, one for Windows
 ---
 # Sony Software Development Kits
 
-## Sony Playstation Portable (PSP)
+## Sony PlayStation Portable (PSP)
 There are two main Software Development Kits for the Sony PSP, which were both merged into one single Development Kit when Sony bought SN Systems.
 
 ProDG was the third party SDK developed by SN Systems and later incorporated into the official PSP SDK.
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
 
 
-## Sony Playstation 1
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the files in the Official Sony Playstation SDK check out this post." %}
+## Sony PlayStation 1
+{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on the files in the Official Sony PlayStation SDK check out this post." %}
 
-## Sony Playstation 2
-We are currently in the process of documenting the files in the Official Sony Playstation 2 SDK in the following post:
-{% include link-to-other-post.html post="/ps2-official-sdk/" description="For more information on the files in the Official Sony Playstation 2 SDK check out this post." %}
+## Sony PlayStation 2
+We are currently in the process of documenting the files in the Official Sony PlayStation 2 SDK in the following post:
+{% include link-to-other-post.html post="/ps2-official-sdk/" description="For more information on the files in the Official Sony PlayStation 2 SDK check out this post." %}
 
-## Sony Playstation 3
-We are currently looking for information about the Sony Playstation 3 Software Development Kit and will write a post on it in future.
+## Sony PlayStation 3
+We are currently looking for information about the Sony PlayStation 3 Software Development Kit and will write a post on it in future.
 
 ---
 # Microsoft Software Development Kits

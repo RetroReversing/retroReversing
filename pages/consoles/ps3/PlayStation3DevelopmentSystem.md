@@ -40,7 +40,7 @@ This post only covers DEX development hardware as the other two are well covered
 
 ---
 # Prototype Development Kits
-In order to get vital developer feedback in the early days of the playstation 3 development process as few evaluation systems were sent out to developers to get their feedback. Presumably because Sony knew that the Cell architecture and SPUs of the PS3 would be challenging for developers to get used to and they wanted to make the development kits as user friendly as possible.
+In order to get vital developer feedback in the early days of the PlayStation 3 development process as few evaluation systems were sent out to developers to get their feedback. Presumably because Sony knew that the Cell architecture and SPUs of the PS3 would be challenging for developers to get used to and they wanted to make the development kits as user friendly as possible.
 
 ## Shreck (First Cell Evaluation System) (CEB-1000)
 <section class="postSection">

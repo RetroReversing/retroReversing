@@ -1,3 +1,4 @@
+Bookazines
 Connectix
 Copetti
 decompilation
@@ -7,15 +8,20 @@ disassemblers
 Dreamcast
 Famicom
 Frida
+Gamecube
 Ghidra
 MSVCP
 MSVCR
 MSVCRT
 nasm
 NES
+Psygnosis
+PSYQ
 Radare
 SNASM
 SNES
+Spyro
 TurboGrafx
 twitterimage
+Yaroze
 YouTuber

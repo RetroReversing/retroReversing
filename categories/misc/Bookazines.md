@@ -108,7 +108,7 @@ One of the most interesting interviews is with former SEGA of America CEO **Tom 
 This may have got the meeting off to a rough start but in the end SEGA got **John Madden football** and EA got favoured licensing rights.
 
 #### Pickford Brothers Interview
-The interview with the Pickford Brothers was also facinating and mentioned that they were one of the first studios to get NES development kits outside of Japan and one of the first Game Boy developers outside of Japan. I wonder which development kits they were given for NES and Game Boy... it would have been great to ask them more details about the development kits.
+The interview with the Pickford Brothers was also fascinating and mentioned that they were one of the first studios to get NES development kits outside of Japan and one of the first Game Boy developers outside of Japan. I wonder which development kits they were given for NES and Game Boy... it would have been great to ask them more details about the development kits.
 
 They also managed to play around with one of the first SNES development kits in Europe when they worked at Software Creations. It would have been great to ask them what they remember about these development kits!
 

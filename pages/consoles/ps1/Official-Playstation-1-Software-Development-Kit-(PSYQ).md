@@ -1,21 +1,23 @@
 ---
-title: Official Playstation 1 Software Development Kit (PSYQ)
+title: Official PlayStation 1 Software Development Kit (PSYQ)
 layout: post
-permalink: /official-playstation-1-software-development-kit-(psyq)/
+permalink: /Official-PlayStation-1-Software-Development-Kit
 tags:
 - snsystems
 - sdk
 - psyq
 - ps1
-thumbnail: /public/consoles/Sony Playstation.png
+thumbnail: /public/consoles/Sony PlayStation.png
 image: /public/psyqsdk.png
+redirect_from:
+ - /official-playstation-1-software-development-kit-(psyq)/
 recommend: 
 - ps1
 - sdk
-editlink: /consoles/ps1/Official-Playstation-1-Software-Development-Kit-(PSYQ).html
+editlink: /consoles/ps1/Official-Playstation-1-Software-Development-Kit-(PSYQ).md
 ---
 # History for the PSY-Q SDK
-The History of the PSYQ PS1 Software development kit is facinating, it starts with a collaboration between two UK companies, SN Systems and Cross Products, to find out more we need to go a litter further back to the history of these two companies.
+The History of the PSYQ PS1 Software development kit is fascinating, it starts with a collaboration between two UK companies, SN Systems and Cross Products, to find out more we need to go a litter further back to the history of these two companies.
 
 ## SN Systems
 SNSystems was founded by Andy Beveridge and Martin Day back in 1988. While developing their own games they created the SN Assembler (SNASM) for Atari and Amiga computers [4].
@@ -74,7 +76,7 @@ Advert for PsyQ from Edge magazine, interestingly it says in the Ad that its a "
 
 ## Psygnosis
 
-Youtube documentary about psygnosis - [https://www.youtube.com/watch?v=tvYlxnHOY-Q](https://www.youtube.com/watch?v=tvYlxnHOY-Q)
+YouTube documentary about Psygnosis - [https://www.youtube.com/watch?v=tvYlxnHOY-Q](https://www.youtube.com/watch?v=tvYlxnHOY-Q)
 
 # The Psy-Q Software Suite
 
@@ -92,7 +94,7 @@ The Psy-Q Software Suite
 
 ```
 
-From the blurb it looks like it contained a version of the open source GNU C compiler which would feed compiled assembly language into the Psy-Q assemblers. The Psy-Q assemblers would then optimise the code and feed it to the 'High Speed Linker' which puts all the different assembly output files together to create a single Playstation executable.
+From the blurb it looks like it contained a version of the open source GNU C compiler which would feed compiled assembly language into the Psy-Q assemblers. The Psy-Q assemblers would then optimise the code and feed it to the 'High Speed Linker' which puts all the different assembly output files together to create a single PlayStation executable.
 
 I'm not sure what they meant by a Librarian as thats not a common term when speaking about development toolchains but my guess is that it would just be software to manage all the different pre-compiled psx libraries.
 
@@ -111,7 +113,7 @@ Psygnosis used its own development kit to create the PS1 game "Colony Wars Red S
 [https://archive.org/stream/GDM_August_2000#page/n31/mode/2up/search/%22SN+Systems%22](https://archive.org/stream/GDM_August_2000#page/n31/mode/2up/search/%22SN+Systems%22)
 
 Notes from article:
-* Uses Sn Systems Playstation 1 dev kit
+* Uses Sn Systems PlayStation 1 dev kit
 * 220,000 lines of code
 * Moved C files to C++
 * Inherited legacy code from Krazy Ivan, Colony wars 1 and 2

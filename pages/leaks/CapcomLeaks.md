@@ -31,7 +31,7 @@ videocarousel:
     youtube: 'eRpHuh2ZkR8'
 ---
 
-On 1st November 2020 CAPCOM was targeted by known hacker group **RagnarLeaks** and some source code and private data was leaked to the dark web. This post will only cover source code that was found in the leak, we only support the preservation of old playstation source code.
+On 1st November 2020 CAPCOM was targeted by known hacker group **RagnarLeaks** and some source code and private data was leaked to the dark web. This post will only cover source code that was found in the leak, we only support the preservation of old PlayStation source code.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Information on the RAGNAR malware, that was responsible for compromising Capcom&#39;s servers:<a href="https://t.co/oZDDbKMQNz">https://t.co/oZDDbKMQNz</a></p>&mdash; /PPG/ (@pokeprotos) <a href="https://twitter.com/pokeprotos/status/1328454646847787008?ref_src=twsrc%5Etfw">November 16, 2020</a></blockquote>
 
@@ -334,7 +334,7 @@ This folder contains documentation for the source code completely in japanese:
 * **描画周りについて.txt** - About drawing
 * **音周り** - Sound
 
-The file **aiscript.txt** is facinating, it describes the custom scripting language they implemented for the movement of the AI characters. It is based on the Forth programming language and they called it **bioForth**. It is well worth a read if you can translate it.
+The file **aiscript.txt** is fascinating, it describes the custom scripting language they implemented for the movement of the AI characters. It is based on the Forth programming language and they called it **bioForth**. It is well worth a read if you can translate it.
 
 Following on from **aiscript.txt** you should also read **ode_script.txt** as it is based on the same custom scripting language. In this case it is used for Open Dynamic Engine physics object creation!
 

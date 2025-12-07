@@ -79,10 +79,10 @@ The PSY-Q development kit was available for a wide range of platforms including 
 
 {% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information on the Super Nintendo version of PSY-Q check out this post." %}
 
-### PSY-Q for Sony Playstation 1
+### PSY-Q for Sony PlayStation 1
 The PSY-Q development was such a success for Sony PS1 development that it actually became the officially licensed development kit for the platform. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
 
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony PlayStation 1 version of PSY-Q check out this post." %}
+{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on the Sony PlayStation 1 version of PSY-Q check out this post." %}
 
 Note that PSY-Q for PS1 was later rebranded as **SDevTC** (Sony Developer Toolchain) sometime before August 1999 as it is mentioned the rebranding in the Official **Run-Time Library Overview** from August 1999.
 
