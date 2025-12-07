@@ -35,7 +35,7 @@ Wheras the more complete version also contains the ProDG installers and addition
 ## What was included in the SDK?
 Later versions of the SDK included the ProDG development kit provided by SN Systems, which provided a way to compile PSP games using Visual Studio 2005/2008/.NET as an alternative to the Cygwin (unix like) development environment provided in the rest of the SDK.
 
-For information on the ProDG SDK we have a seperate post:
+For information on the ProDG SDK we have a separate post:
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
 
 ---
@@ -427,7 +427,7 @@ When running the plugin in Photoshop 6.0 you get the following dialog to save to
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/data</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains data used for the samples to keep them seperate from the actual source code.
+ This folder contains data used for the samples to keep them separate from the actual source code.
 
 This folder also contains the following sub-directories:
 * **ccc** - libccc Data File

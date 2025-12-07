@@ -348,8 +348,8 @@ Inside the game specific folder all the game resources were available:
 
 #### Object format
 A few notes about the format:
-* Newline seperated - Uses the DOS/Windows standard newline sequence for seperation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
-* Values on the same line seem to be seperated by 4 spaces
+* Newline separated - Uses the DOS/Windows standard newline sequence for seperation which consists of a carriage return (CR `0D`) + line feed (LF `0A`) pair.
+* Values on the same line seem to be separated by 4 spaces
 * The number 1 is used for true (e.g checkbox on in the IDE) and 0 for false.
 * We know we are at the end of a Object by the `--------------------------------------------` string.
 

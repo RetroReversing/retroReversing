@@ -243,7 +243,7 @@ n64sym paper_mario.bin -l libs/libgultra_rom.a
 # Part 4 - Decompilation to C code
 
 ## Linker Reinsertion
-So now that you have all the assembly code in seperate .s files we can start decompilation! 
+So now that you have all the assembly code in separate .s files we can start decompilation! 
 
 The technique we will use is called Linker reinsertion and it requires that your Linker supports scripts (*.ld files), we will be using the gcc mips ld for this task.
 

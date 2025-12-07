@@ -865,7 +865,7 @@ gekigake1c | .cgx | Slightly different version of gekigake1.cgx
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/TEXT</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains documentation that was used to produced the German translation of tghe game. It also seems to contain some French documents so it may have initially been both French and German before the seperate French folder was created.
+ This folder contains documentation that was used to produced the German translation of tghe game. It also seems to contain some French documents so it may have initially been both French and German before the separate French folder was created.
 
   </div>
 </section>

@@ -1440,7 +1440,7 @@ fn get_retroarch_config_path() -> PathBuf {
 }
 ```
 
-Now that we can get the location of the file we just need code that can parse the format, which although according to ChatGPT was JSON-based, it is not (could be very loosly javascript based) as it is basically just a key and value on each line seperated by an equals symbol, such as:
+Now that we can get the location of the file we just need code that can parse the format, which although according to ChatGPT was JSON-based, it is not (could be very loosly javascript based) as it is basically just a key and value on each line separated by an equals symbol, such as:
 
 ```rust
 input_player1_a = "x"
@@ -1479,7 +1479,7 @@ fn setup_config() -> Result<HashMap<String, String>, String> {
 }
 ```
 
-I created this as a seperate function to the `parse_retroarch_config` as we will want to add support for users to use our own config file if they don't want to use the same settings as they use for their RetroArch.
+I created this as a separate function to the `parse_retroarch_config` as we will want to add support for users to use our own config file if they don't want to use the same settings as they use for their RetroArch.
 
 We can then call this function like so:
 

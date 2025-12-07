@@ -30,11 +30,11 @@ On this page, we've compiled a list of links to other pages that cover various t
 So grab your keyboard and mouse, and get ready to dive into the exciting world of PC reverse engineering!
 
 ## DOS PC Game Reverse engineering
-Note that if you are interested in reversing DOS era PC games we have a seperate post on that topic:
+Note that if you are interested in reversing DOS era PC games we have a separate post on that topic:
 {% include link-to-other-post.html post="/dos" description="For more information on reversing DOS games check out this post." %}
 
 ## MSX PC
-Note that if you are interested in the MSX PC we have a seperate post on that topic:
+Note that if you are interested in the MSX PC we have a separate post on that topic:
 {% include link-to-other-post.html post="/msx" description="For more information on the MSX check out this post." %}
 
 ---
@@ -68,11 +68,11 @@ In the past, many classic video games were developed for and played on DOS-based
 The Windows platform offers backward compatibility for DOS games, allowing enthusiasts to relive the nostalgia of classic titles from the DOS era. This compatibility, along with the vast library of modern Windows-based games, showcases the ongoing role of Windows as a versatile and enduring platform for gamers.
  
 ## Windows Executable File Formats (NE,LE and PE)
-We have seperated out the information on Windows executable (exe) file formats into its own post:
+We have separated out the information on Windows executable (exe) file formats into its own post:
 {% include link-to-other-post.html post="/WindowsExecutables" description="For more information on Windows Executables check out this post." %}
 
 ## Finding other games using a similar dll
-Sometimes games have their engine code in a seperate dll file, in such cases it can be useful to find other games that use the same dll file as they might have additional debug information, one good way to find other games using: [Diskmaster search](https://discmaster.textfiles.com/search?q=bg.dll&extension=.dll&family=executable&sizeMin=1024&dedup=dedup&sortBy=ts&limit=10&showItemName=showItemName)
+Sometimes games have their engine code in a separate dll file, in such cases it can be useful to find other games that use the same dll file as they might have additional debug information, one good way to find other games using: [Diskmaster search](https://discmaster.textfiles.com/search?q=bg.dll&extension=.dll&family=executable&sizeMin=1024&dedup=dedup&sortBy=ts&limit=10&showItemName=showItemName)
 
 It is a tool that mirrors various CD-ROM images uploaded by archive.org by users, allowing you to search by filenames and by contents inside disc images, unlike the default archive.org search!
 

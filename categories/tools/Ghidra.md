@@ -110,12 +110,18 @@ There are a few useful script for working with PS3 executables on [Github](https
 Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 
 ---
-# Feature Plugins
+# Recommended Plugins
 While Ghidra has a large number of features built in, there are a number of features missing that are thankfully available due to community plugins, this section will cover some of the most useful for game reversing.
 
 ## CodeCut
 CodeCut allows a user to assign functions to object files in Ghidra, and then interact with the binary at the object file level. Functions are assigned to object files by setting the Namespace field in the Ghidra database. DeepCut attempts to establish initial object file boundaries which the user can then adjust using the CodeCut Table window.
 [https://github.com/jhuapl/codecut](https://github.com/jhuapl/codecut)
+
+### GhidrAssist Project: LLM Integration for Ghidra
+**GhidrAssist** is a powerful extension that integrates Large Language Models (LLMs) directly into the Ghidra reverse engineering workflow. 
+The tool supports both local and cloud-based AI providers (such as OpenAI and Ollama) to facilitate tasks like code explanation, refactoring, and vulnerability detection. Uniquely, it features an 'Agentic Mode' utilizing the ReAct pattern, allowing the AI to autonomously plan and execute investigation steps within the binary.
+
+{% include link-to-other-site.html url="https://github.com/jtang613/GhidrAssist" description="jtang613 has released GhidrAssist, a comprehensive Ghidra extension that leverages LLMs for tasks like code explanation, interactive chat, and autonomous binary analysis using agentic reasoning." image="https://opengraph.githubassets.com/1/jtang613/GhidrAssist" title="GhidrAssist: AI Assistance for Ghidra" %}
 
 ---
 # Ghidra decompiler macros

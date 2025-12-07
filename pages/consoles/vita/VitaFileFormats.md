@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /playstation-vita-file-formats
 tags:
 - fileformats
 - vita
@@ -7,7 +8,6 @@ title: Playstation Vita File Formats
 thumbnail: /public/consoles/Sony PSVita.png
 image: /public/images/vita/PSVita File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/vita/PSVita File Formats.jpg
-permalink: /playstation-vita-file-formats/
 breadcrumbs:
   - name: Home
     url: /

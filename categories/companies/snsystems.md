@@ -46,7 +46,7 @@ The game **Cybercon III** (1991) has **The Snasm Cross Development Tools** in th
 
 
 ### SNASM2 - Cross Products evolution of SNASM
-**Cross Products** then built upon the product and released their own version called SNASM2, which would later become a competitor for SN Systems next development kit known as **PSY-Q**. They are also a company worth learning about, we have a seperate post on their development kit products such as **SNASM2**:
+**Cross Products** then built upon the product and released their own version called **SNASM2**, which would later become a competitor for SN Systems next development kit known as **PSY-Q**. They are also a company worth learning about, we have a separate post on their development kit products such as **SNASM2**:
 {% include link-to-other-post.html post="/companies/crossproducts/" description="For more information on Cross Products check out this post." %}
 
 The Sega Mega Drive version was known as **SNASM65k** and developed by Cross Products as part of **SNASM2**, but there were multiple versions that could target multiple CPU architectures all from a similar interface, very handy for developers working across different platforms!
@@ -82,7 +82,7 @@ The PSY-Q development kit was available for a wide range of platforms including 
 ### PSY-Q for Sony Playstation 1
 The PSY-Q development was such a success for Sony PS1 development that it actually became the officially licensed development kit for the platform. This was thanks to the partnership with Psygnosis as they had recently been bought by Sony and used this to present the SN Systems development kit to the Sony Management team [^2].
 
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony Playstation 1 version of PSY-Q check out this post." %}
+{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on the Sony PlayStation 1 version of PSY-Q check out this post." %}
 
 Note that PSY-Q for PS1 was later rebranded as **SDevTC** (Sony Developer Toolchain) sometime before August 1999 as it is mentioned the rebranding in the Official **Run-Time Library Overview** from August 1999.
 

@@ -54,7 +54,7 @@ Capable of high-speed processing for geometry calculations, audio processing, an
 
 ---
 ## Development Hardware
-We have a seperate post all about the development hardware used to make PSP games:
+We have a separate post all about the development hardware used to make PSP games:
 {% include link-to-other-post.html post="/official-psp-devkit" description="For more information on the development hardware check out this post." %}
 
 
@@ -116,7 +116,7 @@ This file helps the PSP or emulators identify and manage the game data on the UM
 
 In the structure of a dumped PSP game ISO, UMD_DATA.BIN serves as metadata that references the partitions (numbered typically 0001 and 0002) and the disc identity. It is crucial for proper loading and launching of the game when the ISO is used on the PSP system or emulators.
 
-It usually contains the following metadata seperated by the pipe "|" (0x7C) character:
+It usually contains the following metadata separated by the pipe "|" (0x7C) character:
 * Game disc ID (e.g "ULUS-10345")
 * Unique disc hash or identifier (e.g "E93842F88AADAA8C")
 * Partition number (e.g 0001) - often partition 0001 for the game data and 0002 for updates or extras

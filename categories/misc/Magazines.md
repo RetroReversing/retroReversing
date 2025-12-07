@@ -61,7 +61,7 @@ The post contains everything we know about the interviews and articles published
 
 Sadly the topic was deemed too niche and only one issue was ever published before it became a section of **PC Format** magazine for two issues (159 & 160) and then a stand along supplement distributed along with the magazine for a further 3 issues until it was replaced in issue 165 by a Doom 3 supplement instead.
 
-We have a seperate page with an index of all the articles and other information about the magazine here:
+We have a separate page with an index of all the articles and other information about the magazine here:
 {% include link-to-other-post.html post="/gamemaker-magazine" %}
 
 ---
@@ -266,7 +266,7 @@ Retro Gamer is widely considered one of the **single best sources** for intervie
 
 So if you are looking for primary source information on how classic games were made, it is arguably the industry standard for print media.
 
-We have a seperate page with an index of all the interviews, articles and other information about the magazine here:
+We have a separate page with an index of all the interviews, articles and other information about the magazine here:
 {% include link-to-other-post.html post="/retro-gamer" %}
 
 ---

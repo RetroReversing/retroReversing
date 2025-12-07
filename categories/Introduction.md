@@ -316,7 +316,7 @@ Here's a table summarizing the tools for viewing the insides of executables and 
 <img width="799" height="524" alt="Detect It Easy showing the Compile and Linker for Game Maker 1.1 executable" src="https://github.com/user-attachments/assets/5b9e294f-48b4-4c80-9159-324c9230e774" />
 When decompiling it can be incredible useful to know the exact version of the compiler and linker toolchain was used to build an executable so that the correct decompilation settings can be applied.
 
-The best tool to detect which compiler and linker was used is **Detect It Easy** (DIE), it is open source and has pre-build binaries available for Win/Mac and linux: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file)
+The best tool to detect which compiler and linker was used is **Detect It Easy** (DIE), it is open source and has pre-build binaries available for Win/Mac and linux: [Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file)
 
 
 ---
@@ -372,7 +372,7 @@ The process of taking a final game executable/ROM and converting it into human r
 
 You need to choose a Disassembler that works for your game's Instruction Set Architecture (ISA), this will depend on which console or PC your game is compiled for.
 
-We have a seperate post covering how disassemblers work below:
+We have a separate post covering how disassemblers work below:
 {% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
 
@@ -393,7 +393,7 @@ Microprocessors brought a level of standardization to the gaming industry. Inste
 
 A CPU for a game console or PC works by following a series of steps to process instructions and manage the game's activities. 
 
-This is known as the Fetch-Decode-Execute-Repeat cycle and it continues indefinetly until the CPU looses power.
+This is known as the Fetch-Decode-Execute-Repeat cycle and it continues indefinitely until the CPU looses power.
 
 Here's a simple explanation:
 

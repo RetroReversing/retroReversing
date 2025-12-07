@@ -28,7 +28,7 @@ Retro Gamer is a British magazine devoted entirely to classic video games, first
 
 The magazine’s content and structure have continually evolved – from its early format under Live Publishing (complete with cover CD-ROMs of emulators) to later expansions under Imagine and Future plc [^2].
 
-
+---
 # Interviews with Game Developers
 One of Retro Gamer’s hallmarks is its extensive interviews with the creators of classic video games. Nearly every issue features conversations with veteran developers, offering first-hand insights into the making of beloved games and the industry’s early days. 
 

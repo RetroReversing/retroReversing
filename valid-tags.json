@@ -1,15 +1,15 @@
 {
   "summary": {
-    "totalFiles": 284,
-    "filesWithTags": 283,
+    "totalFiles": 286,
+    "filesWithTags": 285,
     "uniqueTags": 100,
-    "generatedAt": "2025-12-06T22:47:56.152Z"
+    "generatedAt": "2025-12-07T15:25:14.015Z"
   },
   "tags": {
-    "introduction": 46,
+    "introduction": 50,
     "tutorial": 10,
-    "companies": 4,
-    "industry": 21,
+    "companies": 5,
+    "industry": 23,
     "crossproducts": 5,
     "datel": 2,
     "snsystems": 11,
@@ -27,7 +27,7 @@
     "dreamcast": 8,
     "console": 2,
     "devkit": 29,
-    "handhelds": 2,
+    "handhelds": 3,
     "gameboy": 16,
     "gamegear": 4,
     "sega": 28,
@@ -43,7 +43,7 @@
     "ps2": 13,
     "ps3": 5,
     "ps4": 3,
-    "psp": 6,
+    "psp": 7,
     "pokemonmini": 3,
     "sg1000": 1,
     "saturn": 18,
@@ -117,6 +117,7 @@
       "industry"
     ],
     "categories/companies/crossproducts.md": [
+      "companies",
       "industry",
       "crossproducts"
     ],
@@ -136,6 +137,10 @@
     ],
     "categories/consoles/3ds.md": [
       "3ds"
+    ],
+    "categories/consoles/Android.md": [
+      "industry",
+      "introduction"
     ],
     "categories/consoles/Arcade.md": [
       "arcade"
@@ -207,6 +212,7 @@
     ],
     "categories/consoles/Nes.md": [
       "nes",
+      "introduction",
       "snes"
     ],
     "categories/consoles/PC-88.md": [
@@ -214,8 +220,8 @@
       "pc"
     ],
     "categories/consoles/PC-engine.md": [
-      "introduction",
-      "pc-engine"
+      "pc-engine",
+      "introduction"
     ],
     "categories/consoles/PS1.md": [
       "ps1"
@@ -255,7 +261,10 @@
       "vectrex"
     ],
     "categories/consoles/Vita.md": [
-      "vita"
+      "vita",
+      "psp",
+      "introduction",
+      "handhelds"
     ],
     "categories/consoles/Wii.md": [
       "wii"
@@ -282,6 +291,10 @@
     "categories/consoles/ZXSpectrum.md": [
       "zxspectrum",
       "nes"
+    ],
+    "categories/consoles/iOS.md": [
+      "industry",
+      "introduction"
     ],
     "categories/games/FileFormats.md": [
       "fileformats"
