@@ -210,7 +210,7 @@ SCI-FI RACING | Create futurist racing machines in 3ds Max 2015 | Al Brady |
 REALISTIC ENVIRONMENTS |  Build your own cityscape in fantastic detail (3ds max, photoshop) | Anthony Eftekhari | 
 PHOTOSHOP TEXTURES |  10 top tips for better textures in Photoshop | Leigh van der Byl  | Issue 167 (April 2013)
 Model Characters | Design and Model a Video Game Character | Marat "Flamm" Latypov | Issue 229 (Jan 2018) [ArtStation - ReY](https://www.artstation.com/artwork/YyavV)
-Shoot Like You Mean It | A primer of Filmn Grammer | Dora R. Fitzgerald | Issue 231 (March 2018)
+Shoot Like You Mean It | A primer of Film Grammar | Dora R. Fitzgerald | Issue 231 (March 2018)
 
 #### Q&A
 The **Questions and Answers** section contains 6 of the most popular Q&A sections from the monthly magazine.

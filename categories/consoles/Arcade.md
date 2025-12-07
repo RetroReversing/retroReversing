@@ -29,7 +29,7 @@ For example the 1990 game **Klax** was written in C according to **Greg Omi** wh
 This is further confirmed in a 1990 interview with original designer of Klax **Mark Stephen Pierce**[^5]:
 > "All Atari coin‑ops today are written in C ‑ that's the most popular language with the programmers here, I guess. The actual programming work is carried out on standard terminals, and then transferred into our VAX machines where it's compiled and compressed.  Finally it's downloaded from there through an EPROM burner and onto the hardware for the game that the engineer has put together. Every coin‑op's hardware is different partly because each game is different, and partly as a form of copy protection.
 
-Early arcade games didnt use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
+Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
 
 ## What tools were used to create the art for Arcade games?
 In the 1990 interview with **Mark Stephen Pierce** the following was published (in "The One" magazine) [^5]:
@@ -202,12 +202,12 @@ At CppCon 2016 **Miodrag Milanović** gave a fantastic talk about how MAME moved
 
 ---
 ## MAME in the Press
-MAME was first mentioned in issue 45 of EDGE magazine back in May 1997, only a few months afte the first release, ever since then it has been mentioned in hundreds of magazines, books and newspapers.
+MAME was first mentioned in issue 45 of EDGE magazine back in May 1997, only a few months after the first release, ever since then it has been mentioned in hundreds of magazines, books and newspapers.
 
 It wasn't just western media either, as far back as June 2000 **MAME** was being advertised in Japanese magazines (Arcadia Issue 1):
 ![Arcadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
-MAME was again featured in EDGE magazine in **October 2002**, where it was described as "by far the greatest and most important piece of videogaming code ever written"[^11].
+MAME was again featured in EDGE magazine in **October 2002**, where it was described as "by far the greatest and most important piece of video gaming code ever written"[^11].
 
 ---
 # References

@@ -70,7 +70,7 @@ Lib80.exe | Executable librarian program (manages static libraries) - Copyright 
 Lnk180.exe | Linker by Microtec for Zilog Z180 (Version 6.0 from 1994)
 LnkZ80.exe | Linker by Microtec for standard Zilog Z80
 MIDI2GG.exe | Convert MIDI Music files to Game Gear format
-PP.exe | PROPACK Copyright (c) 1991,92 Rob Northen Computing - used for file compression
+PP.exe | PROPACK Copyright (c) 1991,92 **Rob Northen Computing** - used for file compression
 PPV.exe | Maybe ProPack Verify?
 
 The assembler toolchain is made by **Microtech Research** from 1991 and supported the standard Z80 and also the **Hitachi 64180** processor (which is a Zilog Z180 processor). The Game Gear used the standard Z80 so the Z180 functionality was unused.

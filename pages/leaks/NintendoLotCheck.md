@@ -109,7 +109,7 @@ All computer programs have bugs, and NES games are no different, in some cases t
 * Roger Clemens' MVP Baseball (North America)
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the mystery roms have been discovered <a href="https://t.co/tY5sH5yfeq">pic.twitter.com/tY5sH5yfeq</a></p>&mdash; I..A..N..S (@IANSYT) <a href="https://twitter.com/IANSYT/status/1287615989304131584?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the mystery roms have been discovered <a href="https://t.co/tY5sH5yfeq">pic.twitter.com/tY5sH5yfeq</a></p>&mdash; I..A..N..S (@IANSYT) <a href="https://twitter.com/IANSYT/status/1287615989304131584?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> 
 
 ---
 # Famicom Disk System Lot Check
@@ -142,7 +142,7 @@ If you are interested in converting the RD* files located in this archive then y
 ## Zelda Disk Version (DiskWriterSoftPak_ZEL.zip)
 It seems that Nintendo had trouble getting any data from the Master Disk for Zelda so they asked Mr. **Tomohiro Kawase** who managed to get the data from an EPROM (SQCD?).
 
-It seems they needed to create a tool called **scattoqd.exe** to convert the resulting EPROM data (called SCAT for some reason?) to the Virtual Console QD format. The source code is also availble for this tool under a single C++ source file called **scattoqd.cpp**.
+It seems they needed to create a tool called **scattoqd.exe** to convert the resulting EPROM data (called SCAT for some reason?) to the Virtual Console QD format. The source code is also available for this tool under a single C++ source file called **scattoqd.cpp**.
 
 The result is in the zip archive under the name **007_FMC-ZEL-0-1.qd**, as mentioned before the Virtual Console (QD) format is just RDA and RDB concatenated together, so you could split it up fairly easily.
 
@@ -279,7 +279,7 @@ Cutthroat Island (Japan).gb | Never released in Japan
 Dirty Racing (USA).gb | Never released in USA
 Disney's Mulan (USA).gb | 
 Donkey Kong Land 2 (Japan).gb | Game Boy Color re-release
-Doomsayer - A Heros Crusade (USA).gb | Previously un-dumped
+Doomsayer - A Heroes Crusade (USA).gb | Previously un-dumped
 Dragon Dance (Europe) (Rev 0).gb | Was released for Game boy Color instead
 Dragon Dance (USA) (Rev 0).gb | Was released for Game boy Color instead
 Dragon Quest Monsters - Terry no Wonderland (Japan) (Rev 1).gb | Previously un-dumped
@@ -292,7 +292,7 @@ Flappy Special (USA).gb | Never released in USA
 G1 King - 3 Biki no Yosouya (Japan).gb | Never released
 GB Slam Dunk (Japan).gb | Released as Slam Dunk instead
 Gakkyuu Ou Yamazaki (Japan).gb | Previously un-dumped
-Gameboy Gallery 2 (Japan).gb | Previously un-dumped
+Game Boy Gallery 2 (Japan).gb | Previously un-dumped
 Garfield Labyrinth (USA).gb | This was released as The Real Ghostbusters in North America Instead
 Gargoyle's Quest II - The Demon Darkness (Europe).gb |  Never released in Europe
 Gargoyle's Quest II - The Demon Darkness (USA).gb |  Never released in USA
@@ -446,7 +446,7 @@ Name | Description
 ---|---
 3D Pool Allstars (U).gbc | 
 AMF Bowling (U).gbc | Cancelled Game
-Absoloute X (EU).gbc | Cancelled Game [^2]
+Absolute X (EU).gbc | Cancelled Game [^2]
 Austin Powers Episode III (EU).gbc | Cancelled Game
 Austin Powers Episode IV (EU).gbc | Cancelled Game
 Billard Club (J).gbc | Cancelled Game [^3]
@@ -473,7 +473,7 @@ F1 Racing Championship (U).gbc | Never released in North America
 F1 World Grand Prix (J) (Rev 1).gbc | Never released in Japan
 F1 World Grand Prix (J).gbc | Never released in Japan
 Formula One 2000 (EU).gbc | Never released in EU
-Gameboy Wars III (J).gbc | 
+Game Boy Wars III (J).gbc | 
 Ganso! Doubutsu uranai (J).gbc | Cancelled Game
 Gift (EU).gbc | Never released in EU
 Gifty (GER).gbc | Never released in Germany

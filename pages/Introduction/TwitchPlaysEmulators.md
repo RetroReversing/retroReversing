@@ -61,7 +61,7 @@ Twitch plays pokemon has supported multiple Nintendo console emulators such as:
 * Nintendo 64 - ? (possibly Mupen64 or Project64)
 
 ---
-# Python Brazil Keynote (Hacking a Gameboy with Python)
+# Python Brazil Keynote (Hacking a Game Boy with Python)
 Sam Agnew who works at Twilio gave a keynote at the 12th Python Brasil conference in 2017 discussing how to create a similar experience to TPP using Python!
 
 The video starts of with introducing the speaker in Portuguese as the conference was hosted in Brazil, however if you don't understand Portuguese then don't worry the main content of the presentation is in English.
@@ -147,7 +147,7 @@ When I first heard about Twitch Plays Pokemon and other similar projects I had p
 
 This was a little disappointing as it would be nice to have some sort of container (such as a docker image) that could be deployed to a base server (or "the cloud") with minimal overhead.
 
-So it begs the question, is it possible to create a completely headless (No GUI) version of TPP so its easy to host a very lightweigt version on fairly cheap hosting solutions?
+So it begs the question, is it possible to create a completely headless (No GUI) version of TPP so its easy to host a very lightweight version on fairly cheap hosting solutions?
 
 So Twitch receives its streams in the **Real-Time Messaging Protocol** (RTMP) so if we can send data directly using this protocol from an emulator we could in theory cut out the middle man and not require a GUI desktop environment running on the server.
 

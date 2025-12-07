@@ -9,7 +9,13 @@
         }
     ],
    "ignoreRegExpList": [
-    "\\`[\\w-\\.=$:]+\\`",
+    "(^|\\n)<blockquote [^\\n]*",
+    "(^|\\n)<div [^\\n]*",
+    "(^|\\n)<img [^\\n]*",
+    "(^|\\n)<li>[^\\n]*",
+    "\\`[\\(\\)\\w-\\.=$:]+\\`",
+     "(^|\\n)```[\\s\\S]*?```",
+    "\\*[^*]+\\*",
     "\\*\\*[^*]+\\*\\*",
     "\\[[^\\]]+\\]",
     "\"[A-Za-z0-9_/\\.-]+\"",
@@ -17,7 +23,7 @@
     "^---[\\s\\S]*?---",
     "^\\S+\\.[A-Za-z0-9]{1,3} \\| "
   ],
-  "flagWords": ["hte", "tghe", "Pallete", "Gameboy", "seperate", "indefinetly", "Mutliplayer", "Polynomical", "introducted", "completly", "facinating", "deocmpiled", "essentail", "veteren", "relased", "unfortunetly", "langauge", "containes", "Dreamcase"],
+  "flagWords": ["hte", "tghe", "Pallete", "Gameboy", "dissassembly", "seperate", "indefinetly", "Mutliplayer", "Polynomical", "introducted", "cartirdge", "completly", "facinating", "deocmpiled", "essentail", "veteren", "relased", "relativly", "unfortunetly", "langauge", "containes", "Dreamcase"],
   "dictionaries": ["rr-words", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],
-  "ignorePaths": ["node_modules", "public", ".github"]
+  "ignorePaths": ["node_modules", "public", ".github", "_site"]
 }

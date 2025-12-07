@@ -25,7 +25,7 @@ updatedAt: '2019-03-04'
 <div markdown="1">
 The WiiU Virtual console was a fantastic way to play retro Nintendo games from pretty much all of Nintendo's old consoles, it even included wii games!
 
-To be able to play these retro games on the wiiU hardware Nintendo had to bundle each game rom with an emulator, Nintendo didn't want to develop their own emulators so they outsourced each consoles emulator to various companies such as M2 for Gameboy Advance.
+To be able to play these retro games on the wiiU hardware Nintendo had to bundle each game rom with an emulator, Nintendo didn't want to develop their own emulators so they outsourced each consoles emulator to various companies such as M2 for Game Boy Advance.
 
 The alternative to emulation would have been recompiling each game for the wiiU. This would not only have been time consuming but would require a full rewrite for the earlier games that were implemented in assembly code.
 
@@ -58,10 +58,10 @@ A short wiiU boot movie that is played when you select this game, you can play t
 
 ---
 
-# Gameboy Advance (M2Engage)
-The Gameboy Advance emulator for the WiiU was developed by the Japanese game development company `M2`. They are also the company that developed some of the emulators for the original Wii Virtual Console.
+# Game Boy Advance (M2Engage)
+The Game Boy Advance emulator for the WiiU was developed by the Japanese game development company **M2**. They are also the company that developed some of the emulators for the original Wii Virtual Console.
 
-It is unknown why it is called `engage`, but the 'age' at the end could stand for 'Advanced Gameboy emulator' due to the initial name of the GBA being `Advanced Gameboy`.
+It is unknown why it is called `engage`, but the 'age' at the end could stand for 'Advanced Game Boy emulator' due to the initial name of the GBA being "Advanced Game Boy".
 
 ## /content/alldata.psb.m
 The rom seems to be located in a file called `alldata.psb.m` and if you know how to decompress and recompress this format you can actually inject pretty much any GBA game into the emulator and run it on your Wii U [^1]!
@@ -72,7 +72,7 @@ The rom seems to be in a format called PSB, not sure what PSB could stand for in
 It is unknown what the alldata.bin file contains or is used for.
 
 ## /code/m2engage.rpx
-This is the wiiU executable of the Gameboy Advance Emulator developed by M2.
+This is the wiiU executable of the Game Boy Advance Emulator developed by M2.
 
 If you go through all the different GBA VC games and compare the m2engage files you will find about 40 different variations of the RPX file.
 
@@ -105,7 +105,7 @@ archive file version is too new. update m2lib. (ver: %.04f > %.04f)
 
 ### PGBLib
 There are references in the executable for a library called `pgblib`, judging by the following filenames it is likely this is a simple data structure library but unconfirmed:
-```
+```bash
 ../emu_m68kbase/emu_m68k/lib/libpglib/pglib_core.c
 ../emu_m68kbase/emu_m68k/lib/libpglib/pglib_array.c
 ../emu_m68kbase/emu_m68k/lib/libpglib/pglib_data.c
@@ -114,8 +114,8 @@ There are references in the executable for a library called `pgblib`, judging by
 ```
 
 ### Motion Editor
-There are mentions of a `Motion Editor` in the executable, my only guess is that this is left over from some of the 3D motion effect that they implemented in their 3DS Sega titles.
-```
+There are mentions of a **Motion Editor** in the executable, my only guess is that this is left over from some of the 3D motion effect that they implemented in their 3DS Sega titles.
+```bash
 motion file '%s' has not adaptive spec of motion file. export psb again.
 motion file '%s' version is too old. update MotionEditor, export motion file 
 motion file '%s' version is too new. update m2lib. (ver: %.04f > %.04f)
@@ -125,7 +125,7 @@ motion file '%s' version is too new. update m2lib. (ver: %.04f > %.04f)
 Not sure what PSB is or what it stands for but it seems to be some sort of file format used for rom and other data.
 
 Strings referencing PSB:
-```
+```bash
 psb/psb.cpp
 PSBWriteStream
 PSBBinaryWriteStream
@@ -147,7 +147,7 @@ The rom data is in a file that has a `.m` extension (alldata.psb.m). The libMArc
 Presumably this is an internal only library so it would be interesting to see if this was also used in any other projects. For example for the Wii/3DS Virtual Console, or even the numerous other ports M2 have implemented.
 
 The RPX file has references to the source code for this library:
-```
+```bash
 ../emu_m68kbase/emu_m68k/lib/libmarchive/marchive.c
 ../emu_m68kbase/emu_m68k/lib/libmarchive/marchive_format_ccf.c
 ../emu_m68kbase/emu_m68k/lib/libmarchive/marchive_format_tar.c
@@ -158,7 +158,7 @@ The RPX file has references to the source code for this library:
 
 ### Others
 Here are a few miscellaneous strings that are interesting:
-```
+```bash
 K:\vessel\agb_007_siofix\m2engage\bin\CAFE\NDEBUG\m2engage.rpx
 M2EpiArchSubInfo
 arcadeutil.c

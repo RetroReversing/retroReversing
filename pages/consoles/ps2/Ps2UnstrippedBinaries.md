@@ -30,6 +30,8 @@ This is amazing for any PS2 reversers who want an easy project to start with as 
 # PS2 Retail Games with Debug Symbols
 This is a constantly updating list of the retail Playstation 2 games with debug symbols left behind by their developers, most of them are in the executables themselves, which are standard ELF format files!
 
+<!-- cspell:disable -->
+
 Game | ID | Release Date | Notes
 --- | --- | --- | ---
 hack Part 1 - Infection (USA) | SLUS-20267 |  2002-08-28 | 2244 Symbols [^5]
@@ -822,16 +824,18 @@ Zone of the Enders - Z.O.E (Japan) | SLPM-65019 | 2001-01-12 |
 eJay ClubWorld - The Music Making Experience (Europe) | SLES-50933 | 2002-07-19 | 
 eJay Clubworld - The Music Making Experience (USA) | SLUS-20525 | 2002-12-11 | 
 
+<!-- cspell:enable -->
+
 ---
 # PS2 Prototypes with Debug Symbols
 Prototype games are even more likely to contain debug symbols as they are intended for either testing or journalistic usage, thus having the symbols available would help the developers fix bugs before the final retail release. The table below is an incomplete list of prototypes that have debug symbols, if you know any more please let us know!
 
 Game Name | Map File | Notes
 --- | --- | ---
-Resident Evil 4 (Review, Aug 27 2005) | SLPS_000.00 | .mdebug section includes functions/structures for the main executable.
-Silent Hill 2 (E3 prototype, May 1 2001) | SLPM_123.45 | .debug section includes functions/structures for both main executable & per-level overlays.
-Silent Hill 2 (0.10 prototype, Jul 13 2001) | SLUS_202.28 | .debug section includes functions/structures for both main executable & per-level overlays.
-Silent Hill 4 (E3 prototype, Apr 16 2004) | SLUS_208.73 | .debug section includes functions/structures for both main executable & per-level overlays.
+Resident Evil 4 (Review, Aug 27 2005) | `SLPS_000.00` | .mdebug section includes functions/structures for the main executable.
+Silent Hill 2 (E3 prototype, May 1 2001) | `SLPM_123.45` | .debug section includes functions/structures for both main executable & per-level overlays.
+Silent Hill 2 (0.10 prototype, Jul 13 2001) | `SLUS_202.28` | .debug section includes functions/structures for both main executable & per-level overlays.
+Silent Hill 4 (E3 prototype, Apr 16 2004) | `SLUS_208.73` | .debug section includes functions/structures for both main executable & per-level overlays.
 
 ---
 # PS2 Demos with Debug Symbols
@@ -896,7 +900,7 @@ Some PS2 executable files contain a .mdebug section, which is an extended symbol
 The [Chaos Compiler Collection](https://github.com/chaoticgd/ccc) can be used to extract this information, either as C++ code or as a JSON file that can then be imported into [Ghidra](https://ghidra-sre.org/) using the provided extension.
 
 ## .sndata Tool
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Woah! This is awesome, anyone interested in <a href="https://twitter.com/hashtag/Playstation2?src=hash&amp;ref_src=twsrc%5Etfw">#Playstation2</a> reversing should check this out <a href="https://t.co/W5WgaCbLgF">https://t.co/W5WgaCbLgF</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1307248565622845442?ref_src=twsrc%5Etfw">September 19, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Woah! This is awesome, anyone interested in <a href="https://twitter.com/hashtag/Playstation2?src=hash&amp;ref_src=twsrc%5Etfw">#Playstation2</a> reversing should check this out <a href="https://t.co/W5WgaCbLgF">https://t.co/W5WgaCbLgF</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1307248565622845442?ref_src=twsrc%5Etfw">September 19, 2020</a></blockquote> 
 
 ---
 # References

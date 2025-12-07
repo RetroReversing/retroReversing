@@ -65,6 +65,7 @@ player_dat | .c, .o | Just contains player animation data, references to each of
 ring | .c, .h, .o | Contains all the logic for the rings, including drawing them and what happens when the dolphin moves through them
 rom_header | .s | Assembly code that implements the common GBA ROM reader required of all GBA ROMs
 
+<!-- cspell:disable -->
 <div class="rr-source-code-title">Code Files</div>
 <section class="rr-main-cards">
 		
@@ -312,7 +313,7 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 </div>
     
 </section>
-
+<!-- cspell:enable -->
 
 ---
 ## Dolphin/Doc
@@ -440,6 +441,8 @@ yos_type | .h | Include file for declaring a few custom coordinate types such as
 yoshi | .bin, .elf, .map | The main game executable in ELF format and the converted GBA rom file (.bin) along with the symbol MAP which shows where the code is inside the game
 
 It is worth reading the **Readme.txt** file in this directory, most of the time Readmes are not that interesting but in this case you would be worse off not reading it. It provides an excellent overview of what the demo is showcasing and how it all works.
+
+<!-- cspell:disable -->
 
 <div class="rr-source-code-title">Code Files</div>
 <section class="rr-main-cards">
@@ -762,6 +765,8 @@ It is worth reading the **Readme.txt** file in this directory, most of the time 
 </div>
 
 </section>
+
+<!-- cspell:enable -->
 
 ---
 ## BMP images (yoshi/bmp/\*)
@@ -1222,4 +1227,4 @@ y_ywiha | .o |
 ---
 # Zelda 2 Tech demo
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A long-rumored Zelda II tech demo for GBA has finally surfaced, ROM and source code included!<br><br>It&#39;s a included as reference in the GBA SDK, found on a Spongebob GBA dev disc uploaded by <a href="https://twitter.com/JacobLenstar?ref_src=twsrc%5Etfw">@JacobLenstar</a>.<br><br>ROM + Source:<a href="https://t.co/p9aCkSF8Q1">https://t.co/p9aCkSF8Q1</a><br><br>Full archive:<a href="https://t.co/7hquBy9lnX">https://t.co/7hquBy9lnX</a> <a href="https://t.co/mrvtbkudJ8">pic.twitter.com/mrvtbkudJ8</a></p>&mdash; MrTalida (@MrTalida) <a href="https://twitter.com/MrTalida/status/1208849338073411584?ref_src=twsrc%5Etfw">December 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A long-rumored Zelda II tech demo for GBA has finally surfaced, ROM and source code included!<br><br>It&#39;s a included as reference in the GBA SDK, found on a Spongebob GBA dev disc uploaded by <a href="https://twitter.com/JacobLenstar?ref_src=twsrc%5Etfw">@JacobLenstar</a>.<br><br>ROM + Source:<a href="https://t.co/p9aCkSF8Q1">https://t.co/p9aCkSF8Q1</a><br><br>Full archive:<a href="https://t.co/7hquBy9lnX">https://t.co/7hquBy9lnX</a> <a href="https://t.co/mrvtbkudJ8">pic.twitter.com/mrvtbkudJ8</a></p>&mdash; MrTalida (@MrTalida) <a href="https://twitter.com/MrTalida/status/1208849338073411584?ref_src=twsrc%5Etfw">December 22, 2019</a></blockquote> 

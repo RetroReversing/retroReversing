@@ -196,7 +196,7 @@ Especially since the Sega Saturn required geometry to be in Quads and not Polygo
 
 ---
 ## Shade III Light for Saturn
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Anyone have a spare £999 to preserve the rare Shade III development tools for sega saturn, not much is known about it <a href="https://twitter.com/hashtag/segasaturn?src=hash&amp;ref_src=twsrc%5Etfw">#segasaturn</a> <a href="https://twitter.com/hashtag/devkit?src=hash&amp;ref_src=twsrc%5Etfw">#devkit</a> <a href="https://t.co/iaSrppcgl5">https://t.co/iaSrppcgl5</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1302526859519971328?ref_src=twsrc%5Etfw">September 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Anyone have a spare £999 to preserve the rare Shade III development tools for sega saturn, not much is known about it <a href="https://twitter.com/hashtag/segasaturn?src=hash&amp;ref_src=twsrc%5Etfw">#segasaturn</a> <a href="https://twitter.com/hashtag/devkit?src=hash&amp;ref_src=twsrc%5Etfw">#devkit</a> <a href="https://t.co/iaSrppcgl5">https://t.co/iaSrppcgl5</a></p>&mdash; RetroReversing.com - Reverse Retro Games (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1302526859519971328?ref_src=twsrc%5Etfw">September 6, 2020</a></blockquote> 
 
 ---
 # References

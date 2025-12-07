@@ -80,7 +80,7 @@ This is why later games such as Mario Bros 2 and 3 would have more ROM data in t
 
 It also limits what ROM Hackers can do with the code, as they can't simply add a new level as there is not enough space (without deleting other levels or functionality). 
 
-This is where **Mapper Hacks** come in useful, they convert a game that was supposed to run on one Cartridge board (e.g Mario's NES-NROM-256-01) to another Cartirdge board with more Program and Character ROM available.
+This is where **Mapper Hacks** come in useful, they convert a game that was supposed to run on one Cartridge board (e.g Mario's `NES-NROM-256-01`) to another Cartridge board with more Program and Character ROM available.
 
 ---
 ## The Mapper (Mapper 0)
@@ -218,7 +218,7 @@ ColdBoot:
   newPPURegister1Value = Mirror_PPU_CTRL_REG1 | 0x80; // Enable NMIs
   WritePPUReg1(newPPURegister1Value);
   do {
-// infinite loop until the Non Maskable Interupt fires
+// infinite loop until the Non Maskable Interrupt fires
   } while( true );
 }
 ```

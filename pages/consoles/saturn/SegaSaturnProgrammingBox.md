@@ -64,7 +64,7 @@ According the to advert it was a pretty advanced game development kit back in 19
 
 
 You can view a japanese version of the SNASM2 Saturn kit in the tweet bellow from `ausretrogamer`:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/retrogaming?src=hash&amp;ref_src=twsrc%5Etfw">#retrogaming</a> dev kit: the official Sega Saturn Cross SNASM 2 Japanese developer kit. <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> <a href="https://t.co/9U4UOp9sON">pic.twitter.com/9U4UOp9sON</a></p>&mdash; ausretrogamer (@ausretrogamer) <a href="https://twitter.com/ausretrogamer/status/813513655589273600?ref_src=twsrc%5Etfw">December 26, 2016</a></blockquote> 
 
 According to an article in issue 23 of the UK Magazine EDGE `Cross Products` had just been bought by SEGA and were put in charge of supplying the next development kit known as `CartDev`. There were also responsible for the `Mirage CD Emulator` and Modified Saturn sold to game development studios [^3].
 
@@ -118,7 +118,7 @@ The official price list from Cross Products put the Modified Saturn by itself at
 
 ---
 # Address Checker Hardware by SI Electronics
-<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Good luck fitting this SEGA Saturn in your TV cabinet. Egg for scale.<br><br>(this machine was used to ensure that games in development didn&#39;t violate the Sega Memory usage guide) <a href="https://t.co/pZaZCEHigN">pic.twitter.com/pZaZCEHigN</a></p>&mdash; Codemasters (@Codemasters) <a href="https://twitter.com/Codemasters/status/1192794937613524992?ref_src=twsrc%5Etfw">November 8, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">Good luck fitting this SEGA Saturn in your TV cabinet. Egg for scale.<br><br>(this machine was used to ensure that games in development didn&#39;t violate the Sega Memory usage guide) <a href="https://t.co/pZaZCEHigN">pic.twitter.com/pZaZCEHigN</a></p>&mdash; Codemasters (@Codemasters) <a href="https://twitter.com/Codemasters/status/1192794937613524992?ref_src=twsrc%5Etfw">November 8, 2019</a></blockquote> 
 
 In order to make sure your game doesn't violate the Sega Memory usage guide this piece of hardware would allow running your game with real-time checking of the memory addresses used. 
 
@@ -203,7 +203,7 @@ As this is similar to the Sound Box it is likely that this also got replaced by 
 ---
 # Overall Cost of Development Kits
 In this side by side example of the Sega Saturn and Nintendo 64 you can see which one developers preferred in terms of cost:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Comparing development hardware costs <a href="https://twitter.com/hashtag/SegaSaturn?src=hash&amp;ref_src=twsrc%5Etfw">#SegaSaturn</a> vs <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://t.co/v5GOhLGFXg">pic.twitter.com/v5GOhLGFXg</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1149429606509961219?ref_src=twsrc%5Etfw">July 11, 2019</a></blockquote> 
 
 ---
 

@@ -245,7 +245,7 @@ Datel also has the technology to create GameCube discs and created a version of 
 An 8MB GameCube Memory Card that allows loading homebrew applications without any modifications of the hardware [^1]! The Memory Card connects to a PC via a USB cable allowing easy loading of files onto the card.
 
 ## Emulating with Dolphin
-The Dolphin website has an excellent article on how they managed to get the unlicensed Datel games to run in thier emulator.
+The Dolphin website has an excellent article on how they managed to get the unlicensed Datel games to run in their emulator.
 [Dolphin Emulator - Datel: Unlicensed Product Showcase](https://dolphin-emu.org/blog/2015/03/09/datel-unlicensed-products-showcase/)
 
 > The biggest hurdle of getting these games to run in Dolphin has nothing to do with the emulator whatsoever. To get to that point, the title has to be dumped so Dolphin can read it. The problem is that most Datel products have discs filled with mostly garbage that will error out on any conventional dumper you throw at them.

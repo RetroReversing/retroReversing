@@ -46,7 +46,7 @@ When it comes to finding a game to reverse engineer, it can be helpful to look a
 
 {% include link-to-other-site.html url="https://en.wikipedia.org/wiki/Category:Game_Boy_Color-only_games" description="Wikipedia has compiled an excellent list of games that have never been re-released and thus need a Game Boy Color to be able to play" image="/public/consoles/Nintendo Game Boy Color.png" title="List of Game Boy Color exclusives"  %}
 
-## The Ultimate Gameboy Talk (hardware specs etc)
+## The Ultimate Game Boy Talk (hardware specs etc)
 The 8-bit Game Boy was sold between 1989 and 2003, but its architecture more closely resembles machines from the early 1980s, like the Commodore 64 or the NES.
 
 This talk attempts to communicate "everything about the Game Boy" to the listener, including its internals and quirks, as well as the tricks that have been used by games and modern demos, reviving once more the spirit of times when programmers counted clock cycles and hardware limitations were seen as a challenge.
@@ -68,7 +68,7 @@ Every game produced for the Game Boy required a little piece of code known as th
 
 ---
 # Reverse Engineering Game Boy Games
-There have been a few very successful reverse engineering projects for the Game Boy, one of the most successful is the Pokemon dissassembly which managed to reverse engineer the entire game into a rebuildable ROM!
+There have been a few very successful reverse engineering projects for the Game Boy, one of the most successful is the Pokemon disassembly which managed to reverse engineer the entire game into a rebuildable ROM!
 
 ## Pokemon Red/Blue/Yellow
 The Pokemon Reverse Engineering Team (PRET) have managed to pull off a marvellous achievement, they have fully reverse engineered Pokemon Red and Blue back into retail-matching assembly code.
@@ -107,7 +107,7 @@ The CPU used in the original Game Boy was a custom Sharp LR35902, which is often
 {% include link-to-other-post.html post="/z80" description="For more information about the Z80-based CPU used in the Game Boy check out this post." %}
 
 ## Game Boy Pocket Hardware Schematics
-If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Gameboy Circuit Schematics over on Github:
+If you want to go really low level into the Game Boy hardware, you can view a re-creation of the Game Boy Circuit Schematics over on Github:
 [gb-schematics/MGB-xCPU.pdf at master · Gekkio/gb-schematics · GitHub](https://github.com/Gekkio/gb-schematics/blob/master/MGB-xCPU/schematic/MGB-xCPU.pdf)
 
 ## The Game Boy, a hardware autopsy

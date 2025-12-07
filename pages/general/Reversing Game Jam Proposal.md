@@ -36,7 +36,7 @@ If working remotely the team must live stream the whole process and provide all 
 # Use of existing software and code
 Existing software and source code found on the internet may be used but it must be declared in a public forum and not be passed as own work. Any work of your own done before the start of the Jam is considered the same.
 
-# Recomended software
+# Recommended software
 Some software that would be helpful for teams participating include:
 * Ghidra
 * Radare2

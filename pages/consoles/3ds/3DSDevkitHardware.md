@@ -33,7 +33,7 @@ Nintendo’s official 3DS development hardware was created in collaboration with
 
  <div markdown="1">
 
-The earliest known 3DS dev kit was a bare-bones prototype board used during development before the final 3DS hardware was ready, which has a resemblence to the prototype board that was leaked for the DS.
+The earliest known 3DS dev kit was a bare-bones prototype board used during development before the final 3DS hardware was ready, which has a resemblance to the prototype board that was leaked for the DS.
 
 An FCC filing in 2010 revealed a **Nintendo CTR Target Board** test kit consisting of two attached screens (a widescreen 3D top panel and a 4:3 bottom panel) mounted on a circuit board [^1].
 

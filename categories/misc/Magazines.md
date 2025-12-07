@@ -203,7 +203,7 @@ Super Pro | Paragon Publishing | 1992-1994 | Super Nintendo Magazine that had so
 ## GameBytes (1992-1994)
 GameBytes was a very unique magazine as it wasn't published in a traditional sense, it was released for free online on **Bulletin Board Systems**, it was also unique in its format as it was an actual interactive MS-DOS Application!
 
-Over its relativly short life span it obtained some very interesting articles related to the Game development industry, including multiple reviewes of the **Computer Game Developers Conference** in 1994.
+Over its relatively short life span it obtained some very interesting articles related to the Game development industry, including multiple reviewes of the **Computer Game Developers Conference** in 1994.
 
 You can experience the magazines online through an emulator on [DOSGames.com](https://www.dosgames.com/gamebytes.php).
 
@@ -232,27 +232,27 @@ As Psi2 was an unofficial magazine published by Datel it was a good magazine for
 
 Issue | Name | Description
 ---|---|---
-18 | Linux PS2 | PSi2 interviews developers such as Charles Cecil to find out if the PS2 Linux kit can revive the "bedroom coder". They are pretty harsh on the kit and outright say its only beneficial for people learning to porgram and that its better to learn on Windows with Visual Studio and DirectX
+18 | Linux PS2 | PSi2 interviews developers such as Charles Cecil to find out if the PS2 Linux kit can revive the "bedroom coder". They are pretty harsh on the kit and outright say its only beneficial for people learning to program and that its better to learn on Windows with Visual Studio and DirectX
 18 | Yabasic Appeal | The editor asks for readers Yabasic games/programs to be put on next issues cover disk
 18 | Indie day | Interview with indie developer Vis entertainment who developed games like Tom & Jerry Fists of Fury on N64
-19 | Developer files; Europe | History of DMA Design (GTA 3), Lost Boys (Knights), Bizarre creations (Fur Fighters), Amuze (Headhunter), Criterion (Burnout)
+19 | Developer files; Europe | History of DMA Design (GTA 3), Lost Boys (Knights), Bizarre creations (Fur Fighters), **Amuze** (Headhunter), Criterion (Burnout)
 19 | Indie day | Interview with indie developer Runecraft founded in 1997 with 120 employees
 20 | One step beyond | Interview with Beyond games they mention they have a game engine called "Brainstom" which they used for Motor Mayhem and Hot Wheels which apparently has networking capabilities
-20 | A Week in the life of Runcraft | Lays out the day to day work of the art development of Runecraft while they develop games for the PS2 such as Premier manager. They use photoshop for tecturing but its unclear what software they use for 3D modelling as the screenshots are too low-res but possibly 3DS Max.
+20 | A Week in the life of Runecraft | Lays out the day to day work of the art development of Runecraft while they develop games for the PS2 such as Premier manager. They use photoshop for texturing but its unclear what software they use for 3D modelling as the screenshots are too low-res but possibly 3DS Max.
 20 | Indie day | Interview with Pivotal games on their game Desert Storm
-21 | A Week in the life of Kuju |
+21 | A Week in the life of **Kuju** |
 21 | Indie day | Interview with Argonaut games
 
 
 ### PSi2 Magazine CDs
-Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers and even yabasic games with source code.
+Some of the Magazine CDs/DVDs contained Video content on behind the scenes information for upcoming games, such as interviews with developers and even Yabasic games with source code.
 
 Issue Number | Content
 ---|---
-19 | Yabasic Tetris by Marc Gale (Xalthorn)
-20 | Yabasic Asteriods Lab X by Christopher Rankine
+19 | Yabasic Tetris by Marc Gale (**Xalthorn**)
+20 | Yabasic Asteroids Lab X by Christopher Rankine
 21 | Yabasic Bats in the Lab by Christopher Rankine
-21 | Trailers for Auto Modellista, Red Dread Revolver, Dino Stalker, JoJo's Bizare Adventure and others
+21 | Trailers for **Auto Modellista**, Red Dread Revolver, Dino Stalker, JoJo's Bizarre Adventure and others
 22 | Behind the Scenes of V-Rally 3
 23 | Talking about the Mechanics of The Thing
 28 | Trailer of travel documentaries from Pilot Guides to places like Mexico, Spain, India ([Pilot Film and Television Productions Home Page](https://web.archive.org/web/20010517025522/http://www.pilot.co.uk/))
@@ -289,7 +289,7 @@ Digit | UK | | Published by IDG and lasted 112 issues until it got renamed into 
 Digital Arts | UK | | UK magazine published from ? until ? previously called Digital Arts
 Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
 Photoshop Creative | UK | | Published until September 2018
-![](https://www.retroreversing.com/public/images/magazines/Web%20Designer.jpg){:width="100"} Web Desginer | UK | |  magazine from 2004 until ?
+![](https://www.retroreversing.com/public/images/magazines/Web%20Designer.jpg){:width="100"} Web Designer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
 
 ---
@@ -494,7 +494,7 @@ Number | Date | Title
 182 | 2010-12 |
 
 ### Free Book Extracts
-The accompanying CD for Computer Arts often had extracts from popular industy books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
+The accompanying CD for Computer Arts often had extracts from popular industry books in PDF format, this was a great way to both advertise the book in question and supply useful content for artists. Much of these are extracts from books that game artists would almost certainly have in their collection.
 
 Issue | Book Name | Notes
 ---|---|---
@@ -516,7 +516,7 @@ Often the CDs would contain free resources from around the Web, such as a few sa
 
 Issue | Free Resource | Notes
 ---|---|---
-1 | Viewpoint and Nvision Datasets | 3D models in Alias and Wavefront formats including a scorpion, skyscraper, dinosaur, lazer equipped truck and even an army general
+1 | Viewpoint and Nvision Datasets | 3D models in Alias and Wavefront formats including a scorpion, skyscraper, dinosaur, laser equipped truck and even an army general
 1 | Truespace 2.0 | Animation and Rendering suite
 1 | Adobe Premiere 4.0 | Save disabled version of the movie editor
 1 | Calamus 95 | Windows 95 version of the popular Atari ST Desktop Publishing (DTP) package, save-disabled demo version
@@ -715,7 +715,7 @@ There are many magazines related to the PC both past and present, however only a
 
 Title | Notes
 ---|---
-PC Magazine | Occassionally had a few articles related to game development or programming
+PC Magazine | Occasionally had a few articles related to game development or programming
 
 
 ## PC Magazine (UK)

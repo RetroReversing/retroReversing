@@ -109,7 +109,7 @@ First make sure to open the Super Mario Bros. (World).nes rom (MD5: 811b027eaf99
 Now you will notice that it has detected about 36 functions, along with some already named like reset and vblank:
 ![image](https://github.com/user-attachments/assets/ed487352-eed1-4f19-881d-13ea7b021944)
 
-If you start at the top of the Ghidra Disassembly window you can start to name them based on the dissassembly file [here](https://gist.github.com/1wErt3r/4048722).
+If you start at the top of the Ghidra Disassembly window you can start to name them based on the disassembly file [here](https://gist.github.com/1wErt3r/4048722).
 
 Note that normally you won't have all the symbol names given to you like this for ROMS that have not yet been disassembled by the community, we are just using this as an example to teach the basics of Ghidra.
 

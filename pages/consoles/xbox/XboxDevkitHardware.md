@@ -85,7 +85,7 @@ The XDK Raptor card plugs in to the PCI slot of the developers PC and is used to
 
 The image below was taken by Developer Jeff over on his Twitter account, which is a highly recommended channel to follow [^4].
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Rare Xbox Development kit DVT3/4 PCI Raptor DVD Emulator Card.<br>&quot;XDK-DVD&quot;<br><br>Enjoy!<br><br>-Jeff <a href="https://t.co/sjEKWPhzpD">pic.twitter.com/sjEKWPhzpD</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1120452508000903170?ref_src=twsrc%5Etfw">April 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Rare Xbox Development kit DVT3/4 PCI Raptor DVD Emulator Card.<br>&quot;XDK-DVD&quot;<br><br>Enjoy!<br><br>-Jeff <a href="https://t.co/sjEKWPhzpD">pic.twitter.com/sjEKWPhzpD</a></p>&mdash; Developer Jeff 🕹️ (@OfficialDevJeff) <a href="https://twitter.com/OfficialDevJeff/status/1120452508000903170?ref_src=twsrc%5Etfw">April 22, 2019</a></blockquote> 
 
 ---
 # Debug Kits

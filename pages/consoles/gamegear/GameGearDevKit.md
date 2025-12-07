@@ -40,7 +40,7 @@ The image on the left is from the excellent Andrew Earley (@AndrewEarley7).
  </div>
 </section> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Find of the week! Sega Game Gear Development Board!! There’s a lot of mystery with this board because there’s little to no info if it online and the cartridge port is for Master System carts. I’ll be mailing this to <a href="https://twitter.com/GerryRobotics?ref_src=twsrc%5Etfw">@GerryRobotics</a> to replace capacitors and get the unit working! <a href="https://t.co/SsV8OXdCs6">pic.twitter.com/SsV8OXdCs6</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1266102158614654976?ref_src=twsrc%5Etfw">May 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Find of the week! Sega Game Gear Development Board!! There’s a lot of mystery with this board because there’s little to no info if it online and the cartridge port is for Master System carts. I’ll be mailing this to <a href="https://twitter.com/GerryRobotics?ref_src=twsrc%5Etfw">@GerryRobotics</a> to replace capacitors and get the unit working! <a href="https://t.co/SsV8OXdCs6">pic.twitter.com/SsV8OXdCs6</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1266102158614654976?ref_src=twsrc%5Etfw">May 28, 2020</a></blockquote> 
 
 
 ## Sega Game Gear with built-in Parallel Port
@@ -96,7 +96,7 @@ The image to the left is from the excellent HandHeldMuseum.com website [^3].
  </div>
 </section> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some pretty sweet Sega GameGear development EEPROM carts shown in this article...Nice! 😎👌 <a href="https://t.co/mWmhQWM098">https://t.co/mWmhQWM098</a> <a href="https://t.co/Nw2vKvvHP6">pic.twitter.com/Nw2vKvvHP6</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1256359547976978439?ref_src=twsrc%5Etfw">May 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Some pretty sweet Sega GameGear development EEPROM carts shown in this article...Nice! 😎👌 <a href="https://t.co/mWmhQWM098">https://t.co/mWmhQWM098</a> <a href="https://t.co/Nw2vKvvHP6">pic.twitter.com/Nw2vKvvHP6</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1256359547976978439?ref_src=twsrc%5Etfw">May 1, 2020</a></blockquote> 
 
 
 ---

@@ -90,10 +90,6 @@ More and more consoles are becoming supported with the aim of most of the Sega/N
 ## Nintendo GameBoy (DMG & GBC)
 {% include link-to-other-post.html post="/GameBoy-Reversing-Emulator" description="For more information about the Game Boy and Game Boy Color reversing emulator based on Sameboy check out this post." %}
 
-## Pokemon Mini
-{% include link-to-other-post.html post="//" description="For more information about the Pokemon Mini reversing emulator based on **Pokemini** check out this post." %}
-
-
 ---
 # Similar projects
 The idea of adding debugging capabilities to libRetro cores is nothing new, this section will list all the related projects which may be more suitable to your needs

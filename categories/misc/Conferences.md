@@ -33,7 +33,7 @@ This table below lists all the conferences that we are aware about taking place 
 
 Conference | Dates | Category | Notes
 ---|---|---|---
-32XPOSED | November 10th 1994 | Development | SEGA 32X Developer’s Conference
+**32XPOSED** | November 10th 1994 | Development | SEGA 32X Developer’s Conference
 3DO Developer Conference | 1992-1994 | Development |
 Gamer Developers Conference (GDC) | 1988-Ongoing | Development |
 CES | 1967-Ongoing | Showcase |
@@ -44,7 +44,7 @@ Saturn Developer’s Conference | May 1994 | Development | [DTS: The SEGA Develo
 Sega DevCon | 1995-1996 | Development | First one in March 14-17 1995
 E3 | 1995-Ongoing | Showcase |
 Digital World Conference | 1990-1995? | Development |
-Intertainment | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 Intertainment Conference
+**Intertainment** | 1988-1993? | Showcase | ACE Issue 40 covers the November 1990 **Intertainment** Conference
 xFest | Aug 21st-23rd 2000 | Development | Microsoft Xbox Developer Conference
 Quakecon | 1996-Ongoing | Development | ID Software
 Unite | 2007-Ongoing | Development | Unity Technologies

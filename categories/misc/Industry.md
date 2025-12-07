@@ -97,7 +97,7 @@ We have an entire page dedicated to just Bookazines related to game development 
 {% include link-to-other-post.html post="/bookazines" description="For more information on all the game development Bookazines check out this post." %}
 
 ---
-## Conferences - GDC, E3 and other games industry releated conferences
+## Conferences - GDC, E3 and other games industry related conferences
 One of the main ways for different game developers to speak to each other was at yearly conferences such as **GDC** or **Siggraph**:
 {% include link-to-other-post.html post="/conferences" description="For more information on all the Game industry Conferences check out this post." %}
 
@@ -139,15 +139,15 @@ Companies that defined iconic game engines such as **Krome's Merkury**, others s
 Others who used their genius a little more on the unauthorized size by creating products that could allow unauthorized code to run on the hardware such as **Datel's Action Replay** line of cheat devices.
 
 ## Game Development Tooling Companies
-There are a bunch of notable companies related to retro game development, many of which specificaled in creating the Software Development Kits for popular consoles such as the **Mega Drive** (Cross Products) or Playstation 1 (SN Systems).
+There are a bunch of notable companies related to retro game development, many of which specialized in creating the Software Development Kits for popular consoles such as the **Mega Drive** (Cross Products) or PlayStation 1 (SN Systems).
 
 ### Cross Products
-Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and Vektor Grafix. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
+Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and **Vektor Grafix**. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
 
 {% include link-to-other-post.html post="/companies/crossproducts/" description="For more information about Cross Products check out this post." %}
 
 ### SN Systems
-SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for sega and nintendo consoles but is most famous for their Sony Playstation development tools like PSYQ.
+SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for Sega and Nintendo consoles but is most famous for their Sony PlayStation development tools like PSYQ.
 
 {% include link-to-other-post.html post="/companies/snsystems/" %}
 
@@ -176,7 +176,7 @@ This is a collection of known interviews with game developers who developed reta
 Source | Developer | Games | Description
 ---|---|---|---
 Retro Gamer issue 5 | Protovision | Metal Dust, Tanks 3000, Pac It | The members of Protovision discuss their work developing games for the **Commodore 64**. The interview mentions several of their games. |
-Retro Gamer issue 95 | Shaun Hollingworth | Firelord | Shaun Hollingworth worked at Teque London and developed the Commodore 64 game **Firelord**. |
+Retro Gamer issue 95 | Shaun Hollingworth | **Firelord** | Shaun Hollingworth worked at **Teque London** and developed the Commodore 64 game **Firelord**. |
 
 
 ---
@@ -207,7 +207,7 @@ Retro Gamer issue 45 | Yuji Naka and Takashi Izuka | NiGHTS into Dreams, Journey
 
 Source | Developer | Games | Description
 ---|---|---|---
-Retro Gamer issue 39 | Developers at Rare | Jetpac Refuelled | Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade** |
+Retro Gamer issue 39 | Developers at Rare | **Jetpac Refuelled** | Discuss the making of **Jetpac Refuelled** for **Xbox Live Arcade** |
 
 
 ---

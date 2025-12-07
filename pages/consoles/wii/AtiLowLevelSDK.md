@@ -189,6 +189,8 @@ The file **boot.h** refers to two BLK files used at boot time, but not sure what
 
 The file **generic.h** is actually from the Linux Kernel (**linux/byteorder_generic.h**), so technically if this is linked into any distributed Wii software it could be a GPL violation.
 
+<!-- cspell:disable -->
+
 <div class="rr-source-code-title">Code Files</div>
   <section class="rr-main-cards">
  <div class="rr-file-card">
@@ -1583,6 +1585,8 @@ The file **generic.h** is actually from the Linux Kernel (**linux/byteorder_gene
  </div>
 
 </section>
+
+<!-- cspell:enable -->
 
 ---
 ## Diag (ati/diag)

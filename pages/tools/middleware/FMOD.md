@@ -24,7 +24,7 @@ The FMOD audio engine is a very common middleware used in modern games, starting
 In Uk magazine Develop issue 79 they give a short review of **FMOD** back in 2007:
 ![Develop 79](https://github.com/user-attachments/assets/9699b116-081a-47a3-bef8-f102feed2d38)
 
-You can download the FMOD source code for yourself here but note that it is not open source so it requires a license to use commerically: 
+You can download the FMOD source code for yourself here but note that it is not open source so it requires a license to use commercially: 
 [https://www.fmod.com/download](https://www.fmod.com/download)
 
 ---

@@ -59,7 +59,7 @@ The Set 5 Dreamcast Development  Hardware was the most common seen the in the wi
 ![image](https://github.com/user-attachments/assets/3a0b4e3f-ed5e-4829-9b57-ec2b02250c55)
 
 It also had a unique boot animation:
-<blockquote class="twitter-tweet"><p lang="et" dir="ltr">Sega <a href="https://twitter.com/hashtag/Dreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#Dreamcast</a> <a href="https://t.co/bkqq4OInS8">https://t.co/bkqq4OInS8</a> HKT-0120 boot animation <a href="https://t.co/1l96Ze6w2s">pic.twitter.com/1l96Ze6w2s</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1104989541188874241?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="et" dir="ltr">Sega <a href="https://twitter.com/hashtag/Dreamcast?src=hash&amp;ref_src=twsrc%5Etfw">#Dreamcast</a> <a href="https://t.co/bkqq4OInS8">https://t.co/bkqq4OInS8</a> HKT-0120 boot animation <a href="https://t.co/1l96Ze6w2s">pic.twitter.com/1l96Ze6w2s</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1104989541188874241?ref_src=twsrc%5Etfw">March 11, 2019</a></blockquote> 
 
 ## Controller Box (HKT-0200)
 The **Set 4** and below didn't have controller ports so it required a **Controller Box HKT-0200** which you can plug Sega Saturn Controllers into with four slots on top for prototype VMUs [^5].
@@ -77,7 +77,7 @@ You can see the GD-Writer in action in this video by Adam Koralik [^1]:
 
 In order to use the GD-Writer hardware you would need to run a program called GD Workshop on your dreamcast DEV.BOX.
 
-{% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
+{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about GD Workshop check out this post." %}
 
 ---
 ## Cross Products Dreamcast GD-ROM Duplicator GD-X (HKT-0500)

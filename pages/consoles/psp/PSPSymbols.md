@@ -142,7 +142,7 @@ Surprisingly the currently released prototypes have very little debug symbol inf
 
 
 ## Prototype Games without Debug symbols
-These games have been checked and unfortunetely do not contain any symbols:
+These games have been checked and unfortunately do not contain any symbols:
 * Castlevania The Dracula X Chronicles (Jan 30, 2007)
 * Championship Manager 2010 (Prototype)
 * Chili Con Carnage (Sep 23, 2006 prototype)

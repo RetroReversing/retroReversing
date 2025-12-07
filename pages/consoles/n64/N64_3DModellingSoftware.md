@@ -40,7 +40,7 @@ The company Multigen were well known for creating very good 3D modelling tools f
 
 They were developed to run on SGI's IRIX Operating system and so would be limited to developers who can afford the cost of the SGI workstations. Although a later version was released for Windows NT based systems, the price of the software itself at 9 thousand dollars was still rather costly.
 
-The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a Playstation 1 aswell as the N64 [^4]. Unlike its competitors such as Softimage and 3D Studio Max, Multigen did not offer any animation functionality as it was presumed that it would be handeled manually in the game engine [^15].
+The product known as `Ningen` was later renamed to `Gamegen` and supported other consoles such as a PlayStation 1 as well as the N64 [^4]. Unlike its competitors such as **Softimage** and **3D Studio Max**, **Multigen** did not offer any animation functionality as it was presumed that it would be handeled manually in the game engine [^15].
 
 The official Nintendo 64 SDK came with documentation that covered the use of Ningen files (`*.flt`) and a few tools to convert the FLT format into C-code that could be used in a game.
 
@@ -49,7 +49,7 @@ Notable Games with assets created in Multigen:
 </div>
 </section>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HUGE NEWS: ModelGen (the basis for NinGen) on <a href="https://twitter.com/hashtag/SGI?src=hash&amp;ref_src=twsrc%5Etfw">#SGI</a> Irix is now unlocked + working!<br><br>Similar to the interface used by <a href="https://twitter.com/RareLtd?ref_src=twsrc%5Etfw">@RareLtd</a> for <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://twitter.com/hashtag/3Dmodelling?src=hash&amp;ref_src=twsrc%5Etfw">#3Dmodelling</a><br><br>Thanks <a href="https://twitter.com/Windoze999?ref_src=twsrc%5Etfw">@Windoze999</a> for cracking flexlm, @SiliconClassics for ModelGen itself, <a href="https://twitter.com/GoldenEraDoco?ref_src=twsrc%5Etfw">@GoldenEraDoco</a> and <a href="https://twitter.com/drdoak?ref_src=twsrc%5Etfw">@drdoak</a> for motivation... <a href="https://t.co/NmxHFoi9Sf">pic.twitter.com/NmxHFoi9Sf</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1310122697297281024?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">HUGE NEWS: ModelGen (the basis for NinGen) on <a href="https://twitter.com/hashtag/SGI?src=hash&amp;ref_src=twsrc%5Etfw">#SGI</a> Irix is now unlocked + working!<br><br>Similar to the interface used by <a href="https://twitter.com/RareLtd?ref_src=twsrc%5Etfw">@RareLtd</a> for <a href="https://twitter.com/hashtag/Nintendo64?src=hash&amp;ref_src=twsrc%5Etfw">#Nintendo64</a> <a href="https://twitter.com/hashtag/3Dmodelling?src=hash&amp;ref_src=twsrc%5Etfw">#3Dmodelling</a><br><br>Thanks <a href="https://twitter.com/Windoze999?ref_src=twsrc%5Etfw">@Windoze999</a> for cracking flexlm, @SiliconClassics for ModelGen itself, <a href="https://twitter.com/GoldenEraDoco?ref_src=twsrc%5Etfw">@GoldenEraDoco</a> and <a href="https://twitter.com/drdoak?ref_src=twsrc%5Etfw">@drdoak</a> for motivation... <a href="https://t.co/NmxHFoi9Sf">pic.twitter.com/NmxHFoi9Sf</a></p>&mdash; Shane Battye🎄 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/1310122697297281024?ref_src=twsrc%5Etfw">September 27, 2020</a></blockquote>
 
 ---
 ## Alias/Power Animator/Wavefront
@@ -113,7 +113,7 @@ NIFF Editor was part of the package known as `NIFF Navigator` and the first vers
 </section>
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">Okay found a scene viewer program, which builds a preview executable for running on hardware. This seems to have a more complete makefile so I&#39;ll use that one as a base and try building the samples again <a href="https://t.co/eaPYR95WUP">pic.twitter.com/eaPYR95WUP</a></p>&mdash; Matt Phillips (@bigevilboss) <a href="https://twitter.com/bigevilboss/status/1214919320347828225?ref_src=twsrc%5Etfw">8 January 2020</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ---
 # Texture Creation
