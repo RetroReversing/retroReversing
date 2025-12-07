@@ -21,10 +21,10 @@ editlink: /consoles/ps1/NetYaroze.md
 ---
 
 # Introduction to the Net Yaroze
-The Net Yaroze was a consumer development kit for the Playstation 1, it consisted of a customised retail console with the ability to connect to a developer PC. It cost about £550 in the UK [^1] was black in colour and was also used by various Universities to teach game development to their students.
+The Net Yaroze was a consumer development kit for the PlayStation 1, it consisted of a customised retail console with the ability to connect to a developer PC. It cost about £550 in the UK [^1] was black in colour and was also used by various Universities to teach game development to their students.
 
 ## What you get in the pack
-When you recieve a Net Yaroze directly from Sony it will contain the following items:
+When you receive a Net Yaroze directly from Sony it will contain the following items:
 * Start up Guide
 * Library Reference
 * User Guide
@@ -40,9 +40,9 @@ The NetYaroze Start up Guide has 39 pages going through topics such as the membe
 
 ### Library Reference (030-1997-libraryref.pdf)
 ![NetYarozeLibraryReference](https://github.com/RetroReversing/retroReversing/assets/40120498/7fbd3ea7-2f97-4372-b727-d39ca674bb8e)
-The NetYaroze Library Reference book has 332 or 349 pages depending on version and is blueish-green in color, it contains the API documentation for Graphics, Sound, Standard and Methematical functions. It has full descriptions of each of the functions, their arguments and return values.
+The NetYaroze Library Reference book has 332 or 349 pages depending on version and is blueish-green in color, it contains the API documentation for Graphics, Sound, Standard and Mathematical functions. It has full descriptions of each of the functions, their arguments and return values.
 
-### User Guide (020-1997-userguide.pdf)
+### User Guide (**020-1997-userguide.pdf**)
 ![NetYarozeUserGuide](https://github.com/RetroReversing/retroReversing/assets/40120498/2603d9fc-7be2-438d-ae7f-d9d4b776a3ac)
 The NetYaroze User Guide has 207 pages and is yellow in color, it contains tutorials for game development such as frame buffer, integrated graphics, sound, kernel management, cd-rom management,  and peripheral devices management. Along with documentation for how to use the Sound/Programming and Console tools.
 
@@ -88,7 +88,7 @@ The games released for the NUON that were developed for Net Yaroze are as follow
 * Invs by Philippe-Andre Lorin
 * BreakDown by Chris Wallace
 
-Unfortunetly the source code for this library was never released, so the games that can be ported are limited to the above list for now.
+unfortunately the source code for this library was never released, so the games that can be ported are limited to the above list for now.
 
 ---
 # References

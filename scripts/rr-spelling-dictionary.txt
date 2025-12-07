@@ -12,13 +12,17 @@ decompiling
 disassemblers
 Dreamcast
 EBOOT
+Ecco
 Famicom
 Frida
 Frogger
 Gamecube
+Gerdy
 Ghidra
 GhidrAssist
+Herdy
 Krome
+LaMothe
 libretro
 LiftAndSeperate
 LightWave

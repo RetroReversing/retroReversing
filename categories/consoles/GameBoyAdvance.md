@@ -13,7 +13,7 @@ excerpt: Awesome list of GBA Game Development and Reverse Engineering informatio
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo Gameboy Advance
+  - name: Nintendo Game Boy Advance
     url: /gba
 tags:
  - gba

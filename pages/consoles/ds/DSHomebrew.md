@@ -44,7 +44,7 @@ The story goes that he grew tired of lugging around his heavy
 cumbersome energy-hungry laptop when
 using his DSLR camera and wanted to find a lighter solution [^1].
 
-It uses the Gameboy Advance cartridge slot to connect to the camera so has presumably created his own circuit board to convert the two data interfaces.
+It uses the Game Boy Advance cartridge slot to connect to the camera so has presumably created his own circuit board to convert the two data interfaces.
 
 He has even managed to add voice recognition support to take a photo when he says a word, saving hundreds of dollars on buying a retail solution for the task [^1].
 </div>
@@ -78,16 +78,17 @@ LoneWolfDS is a very unique homebrew game in that it takes one of the physical a
 
 ---
 ## Emulators
-The DS has fairly limited hardware so full speed emulation of SNES and Mega Drive games are pushing the machine to its very limits. However there are a few excellent emulations for the DS, especially for more limited systems such as the original Gameboy/GBC and the Sega Master System.
+The DS has fairly limited hardware so full speed emulation of SNES and Mega Drive games are pushing the machine to its very limits. However there are a few excellent emulations for the DS, especially for more limited systems such as the original Game Boy/GBC and the Sega Master System.
 
 You can view a full list of emulations available for DS over on GameBrew: [List of DS homebrew emulators - GameBrew - a wiki dedicated to Video Game Homebrew.](https://www.gamebrew.org/wiki/List_of_DS_homebrew_emulators)
 
 ---
-# Wiimmfi - DS Wifi server emulation
-The Nintendo DS Wifi Connection or WFC was a way to play Nintendo DS games online, however Nintendo shut down their servers in 2014.
+# Wiimmfi - DS WiFi server emulation
+The Nintendo DS WiFi Connection or WFC was a way to play Nintendo DS games online, however Nintendo shut down their servers in 2014.
 
 Thankfully some smart developers have spent their time creating an open source replacement for the game servers, managing to bring back most of the functionality including leaderboards and matchmaking [^].
 
+---
 # References
 [^1]: [Nintendo DS Piracy & Hacking - Did You Know Gaming? Feat. Remix - YouTube](https://www.youtube.com/watch?v=IkujJZtWW7U)
 [^2]: [DS-DSLR: Homebrew Nintendo DS remote for Canon DSLR – Boing Boing Gadgets](https://gadgets.boingboing.net/2008/09/17/dsdslr-homebrew-nint.html)

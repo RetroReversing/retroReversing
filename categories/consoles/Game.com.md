@@ -40,7 +40,7 @@ So grab your Game(dot)com and get ready to dive into the exciting world of Game 
 # Games
 
 ## Castlevania Symphony of the Night
-One of the best games, if not THE best game for the Tiger Game com was Castlevania SotN but unfortunetly it was cancelled before official retail release. 
+One of the best games, if not THE best game for the Tiger Game com was Castlevania SotN but unfortunately it was cancelled before official retail release. 
 Luckily a prototype was dumped in 2022 and it is fully playable. If you are looking for a game to reverse for the Tiger Game(dot)com this one is probably the most interesting!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6jwtM3EamcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

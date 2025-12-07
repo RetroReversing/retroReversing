@@ -77,7 +77,7 @@ The Apple II has a notoriously complicated graphics system. It also came in two 
 * Monochrome Mode
 * Colour Mode
 
-The screen is separated into 7 pixel blocks, where each pixel is 1bit and the 8th bit of the byte defines which Pallete should be used.
+The screen is separated into 7 pixel blocks, where each pixel is 1bit and the 8th bit of the byte defines which Palette should be used.
 
 ### CPU Driven Graphics
 CPU driven graphics are used when there is no dedicated Video chip so the CPU had to spend most of its time sending pixel data to the screen.

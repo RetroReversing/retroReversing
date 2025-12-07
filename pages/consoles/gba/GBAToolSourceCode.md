@@ -29,7 +29,7 @@ The GBA development tools with source code available are:
 
 Tool Name | Description
 ---|---
-act2agb | Converts an Adobe Photoshop .ACT (Adobe Color Table) file to a GBA pallete in C source code form
+act2agb | Converts an Adobe Photoshop .ACT (Adobe Color Table) file to a GBA Palette in C source code form
 agbparts | Converts a bitmap image into 8x8 pixel parts useful for an optimized tileset or even sprites
 bin2h | generates a C header file from the Binary result of objcopy
 bmp2agb | Converts BMP images to either binary or text with optional compression

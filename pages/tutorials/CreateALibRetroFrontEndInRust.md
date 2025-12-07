@@ -78,9 +78,10 @@ fn main() {
 
 The result of this is that it draws a blue pixel at an x,y position and you can move it around with the arrow keys, note that we don't clear the frame buffer every frame so it keeps all the previous positions as blue pixels too. The end result is you can draw blue lines on the screen.
 
+---
 # Step 2 - Clear the screen every frame
 
-The line effect is cool but we should clear the screen to black every frame so that the player can just move the individual pixel aroun d the screen, you can do this by adding the following code to the start of the loop:
+The line effect is cool but we should clear the screen to black every frame so that the player can just move the individual pixel around the screen, you can do this by adding the following code to the start of the loop:
 
 ```rust
 // Clear the buffer to black
@@ -1416,7 +1417,7 @@ Now run the program and we can play the full game of Tetris!
 
 # Step 19 - Mapping the input buttons
 
-This is great but there are a few limitations, for one we only mapped the buttons for the Gameboy and this wouldn't work on cores that use more buttons and second it doesn't allow the users to configure which buttons do what.
+This is great but there are a few limitations, for one we only mapped the buttons for the Game Boy and this wouldn't work on cores that use more buttons and second it doesn't allow the users to configure which buttons do what.
 
 Since we are a aiming to be a lightweight drop-in-replacement for RetroArch lets find out if RetroArch has a common config format for this purpose so users will be able to use their existing configuration.
 
@@ -1440,7 +1441,7 @@ fn get_retroarch_config_path() -> PathBuf {
 }
 ```
 
-Now that we can get the location of the file we just need code that can parse the format, which although according to ChatGPT was JSON-based, it is not (could be very loosly javascript based) as it is basically just a key and value on each line separated by an equals symbol, such as:
+Now that we can get the location of the file we just need code that can parse the format, which although according to ChatGPT was JSON-based, it is not (could be very loosely javascript based) as it is basically just a key and value on each line separated by an equals symbol, such as:
 
 ```rust
 input_player1_a = "x"
@@ -1577,6 +1578,7 @@ Lets start keeping track of the size of the executable, I should have done this 
 
 > Size of executable so far: 1.1MB
 
+---
 # Step 20 - Saving and Loading state
 
 We are doing well but we still haven't implemented one of my favourite features of emulators, save states. In the config file we have two settings for the buttons used to trigger saving and loading states:
@@ -1682,7 +1684,7 @@ Saving states are useless if we can't load them back again, to do that we can pr
 pub retro_unserialize: unsafe extern "C" fn(data: *const libc::c_void, size: libc::size_t) -> bool,
 ```
 
-So the `load_state` funtion can now look like this:
+So the `load_state` function can now look like this:
 
 ```rust
 unsafe fn load_state(core_api: &CoreAPI, save_directory: &String) {
@@ -1807,9 +1809,9 @@ unsafe extern "C" fn libretro_set_audio_sample_batch_callback(
 
 The first function `libretro_set_audio_sample_callback` doesn't seem to be used by the Gambate core that I am using for testing so we will need to come back to this when we find a core that requires it.
 
-So `libretro_set_audio_sample_batch_callback` seems to have two paramerters, one is a data buffer that contains both the left and right audio channel dataper frame and the other is the number of frames that are in the buffer.
+So `libretro_set_audio_sample_batch_callback` seems to have two parameters, one is a data buffer that contains both the left and right audio channel dataper frame and the other is the number of frames that are in the buffer.
 
-Before we can use this data we first need to figure out how we can play audio in rust across all the major Operating Systems. So after a quick google search the first resut was the `rodio` crate, so lets add it to our Cargo project:
+Before we can use this data we first need to figure out how we can play audio in rust across all the major Operating Systems. So after a quick google search the first result was the `rodio` crate, so lets add it to our Cargo project:
 
 ```rust
 cargo add rodio

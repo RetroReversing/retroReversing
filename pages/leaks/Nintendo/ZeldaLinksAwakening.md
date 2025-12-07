@@ -996,7 +996,7 @@ This folder contains the following sub-directories:
       <li class="rr-info-gen">ATR - ?</li>
       <li class="rr-info-gen">ATR2 - ?</li>
       <li class="rr-info-gen">CGX - Game Boy Color Tile Graphics</li>
-      <li class="rr-info-gen">COLOR - Possibly Pallete information?</li>
+      <li class="rr-info-gen">COLOR - Possibly Palette information?</li>
       <li class="rr-info-gen">COLOR2 - ?</li>
       <li class="rr-info-gen">COM - Compiled Output files from the build process</li>
       <li class="rr-info-gen">ENDING - ?</li>
@@ -1263,7 +1263,7 @@ uscga | .cgx |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/COLOR</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains CDT files. Presumably these are 'Color Data Table" files that act as a pallete for the tile graphics.
+ This folder contains CDT files. Presumably these are 'Color Data Table" files that act as a Palette for the tile graphics.
 
   </div>
 </section>

@@ -118,7 +118,7 @@ Seminar2005-07_update-Japanese | .pps |
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/TRC</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the Technical Requirements Checklist that need to be followed in order to get Sony to green light a PSP game. It has strict brand guidelines on how to use the Sony and Playstation branding along with all the naming conventions in all the different langauges and PSP versions.
+ This folder contains the Technical Requirements Checklist that need to be followed in order to get Sony to green light a PSP game. It has strict brand guidelines on how to use the Sony and Playstation branding along with all the naming conventions in all the different languages and PSP versions.
 
  It also has a document of all the test cases that each game goes through before mastering.
 
@@ -126,7 +126,7 @@ This folder also contains the following sub-directories:
 * **Logo** - Adobe Illustrator (.ai) vector images of the allowed Sony logos
 
 
-One of the test cases makes sure that all games that get published do not contain debug symbols unfortunetly:
+One of the test cases makes sure that all games that get published do not contain debug symbols unfortunately:
   </div>
 </section>  
 
@@ -141,28 +141,28 @@ File Name | Extension | Description
 ---|---|---
 BrandGuideline_E_100729L | .pdf | 
 BrandGuideline_J_101112L | .pdf | Japanese version of the Brand Guidelines
-Frequency_Specification-Guideline-English | .pdf | 138 page brand guidlines on how to use the Playstation brands (including PsOne, Ps3 etc)
+Frequency_Specification-Guideline-English | .pdf | 138 page brand guidelines on how to use the PlayStation brands (including PsOne, Ps3 etc)
 Frequency_Specification-Guideline-Japanease | .pdf | Japanese version of the brand guidelines
 Frequency_Specification-Guideline-Korean | .pdf | Korean version f the brand guidelines
-PSP_NC_E1000_WW_temp_20111005 | .pdf | PSP Naming Convensions for PSP-E1000 series - Temporary release from October 5, 2011
-PSP_NC_N1000_WW_temp_1.01 | .pdf | PSP Naming Convensions for PSP-N1000 series - Temporary release 1.01 August 2009
-PSP_NC_v200_WW_temp | .pdf | PSP Naming Convensions for PSP-2000
-PSP_NC_v3.00_WW_temp_1.01 | .pdf | PSP Naming Convensions for PSP-3000 series - Temporary release 1.01 January 2009
-psp_nc_de_3_10 | .pdf | PSP Naming Convensions for German
-psp_nc_en_3_10 | .pdf | PSP Naming Convensions for English
-psp_nc_es_3_10 | .pdf | PSP Naming Convensions for Spanish
-psp_nc_fr_3_10 | .pdf | PSP Naming Convensions for French
-psp_nc_it_3_10 | .pdf | PSP Naming Convensions for Italian
-psp_nc_ja_3_10 | .pdf | PSP Naming Convensions for Japanese
-psp_nc_ko_3_10 | .pdf | PSP Naming Convensions for Korean
-psp_nc_nl_3_10 | .pdf | PSP Naming Convensions for Dutch
-psp_nc_pt-PT_3_10 | .pdf | PSP Naming Convensions for Portugese
-psp_nc_ru_3_10 | .pdf | PSP Naming Convensions for Russian
-psp_nc_zh-Hans_3_10 | .pdf | PSP Naming Convensions for Chinese Simplified
-psp_nc_zh-Hant_3_10 | .pdf | PSP Naming Convensions for Chinese Traditional
+PSP_NC_E1000_WW_temp_20111005 | .pdf | PSP Naming Conventions for PSP-E1000 series - Temporary release from October 5, 2011
+PSP_NC_N1000_WW_temp_1.01 | .pdf | PSP Naming Conventions for PSP-N1000 series - Temporary release 1.01 August 2009
+PSP_NC_v200_WW_temp | .pdf | PSP Naming Conventions for PSP-2000
+PSP_NC_v3.00_WW_temp_1.01 | .pdf | PSP Naming Conventions for PSP-3000 series - Temporary release 1.01 January 2009
+psp_nc_de_3_10 | .pdf | PSP Naming Conventions for German
+psp_nc_en_3_10 | .pdf | PSP Naming Conventions for English
+psp_nc_es_3_10 | .pdf | PSP Naming Conventions for Spanish
+psp_nc_fr_3_10 | .pdf | PSP Naming Conventions for French
+psp_nc_it_3_10 | .pdf | PSP Naming Conventions for Italian
+psp_nc_ja_3_10 | .pdf | PSP Naming Conventions for Japanese
+psp_nc_ko_3_10 | .pdf | PSP Naming Conventions for Korean
+psp_nc_nl_3_10 | .pdf | PSP Naming Conventions for Dutch
+psp_nc_pt-PT_3_10 | .pdf | PSP Naming Conventions for Portuguese
+psp_nc_ru_3_10 | .pdf | PSP Naming Conventions for Russian
+psp_nc_zh-Hans_3_10 | .pdf | PSP Naming Conventions for Chinese Simplified
+psp_nc_zh-Hant_3_10 | .pdf | PSP Naming Conventions for Chinese Traditional
 psptestcases_forTRC50-English | .pdf | 94 page document on all the tests that are done on every game when the master copy is recieved by Sony
 psptestcases_forTRC50-Japanese | .pdf | Japanese version of all the test cases
-ptrc52-English | .doc, .pdf | TRC for PSPTM Software, Version 5.2, including information on how to submit the TRC form
+ptrc52-English | .doc, .pdf | TRC for PSPtm Software, Version 5.2, including information on how to submit the TRC form
 ptrc52-Japanese | .doc, .pdf | Japanese version of the TRC
 
 
@@ -1253,7 +1253,7 @@ Korean-Notes_on_using_the_updater | .txt | Korean version of the notes
  This folder contains an update binary and license files for the PSP Hardware Tool Development Kit.
 
 This folder also contains the following sub-directories:
-* **license** - contains a single text file per langauge (English, Japanese, Korean) for the license file **psptool_license_e.txt**
+* **license** - contains a single text file per language (English, Japanese, Korean) for the license file **psptool_license_e.txt**
 
 The files in this folder are described in the table below:
   </div>
