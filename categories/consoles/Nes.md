@@ -77,7 +77,7 @@ However the same wasn't the case in the west as described in this quote from [Mo
 > Nintendo didn't normally allow developers to use custom mapper chips in western releases, instead requiring them to reprogram their games for Nintendo's own MMC mappers. This is because Nintendo manufactured all cartridges in the west.
 > Mr. Gimmick and Batman:Return of the Joker (which uses the same FME-7 mapper chip) are the only two official western NES releases to use custom mapper chips.
 
-For emulators to support all the different cartirdge hardware, emulator authors came up with the concept of Mappers which are part of the **iNES Header** and are used by emulators to vary the emulation based on what Mapper the game ROM is defined as using.
+For emulators to support all the different cartridge hardware, emulator authors came up with the concept of Mappers which are part of the **iNES Header** and are used by emulators to vary the emulation based on what Mapper the game ROM is defined as using.
 
 ## Retail NES Controller Electronics
 <section class="postSection">
@@ -162,7 +162,7 @@ Additionally, modding NES games can be a great way to learn more about the techn
 
 Released on the 1st July 1987 by **I-2 Co. Ltd** [^6] the Tonkachi Editor was a Famicom Disk System Disk which allowed editing of other Famicom Disk System games. This is the earliest ROM Hacking software we are aware of and was sold in retail stores in Japan.
 
-This was years before the first Game Genie's were released and it was far more powerful than any chat cartirdge that was ever released in the west.
+This was years before the first Game Genie's were released and it was far more powerful than any chat cartridge that was ever released in the west.
 
 ### How did Tonkachi Editor work?
 Since Famicom Disk system games were written on re-writeable **Quick Disks** all the software needed to do was load itself into memory, ask the user to put the game they want to modify in and then allow the user to change bytes in HEX or ASCII format before writing the game out to a free slot on the card.

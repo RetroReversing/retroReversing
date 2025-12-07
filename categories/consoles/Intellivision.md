@@ -34,5 +34,5 @@ Whether you're interested in understanding the hardware architecture of the cons
 So grab your Intellivision controller, and get ready to dive into the exciting world of Intellivision reverse engineering!
 
 # Software Development for Intellivision
-Ever wondered what it was like to develop Intellivision games back on the day? The user **decle** on the **AtariAge** forum has put together an excelent pdf covering almost everything you would ever want to know about it:
+Ever wondered what it was like to develop **Intellivision** games back on the day? The user **decle** on the **AtariAge** forum has put together an excellent pdf covering almost everything you would ever want to know about it:
 [Intellivision development, back in the day - Intellivision Programming - AtariAge Forums](https://forums.atariage.com/topic/259003-intellivision-development-back-in-the-day/)

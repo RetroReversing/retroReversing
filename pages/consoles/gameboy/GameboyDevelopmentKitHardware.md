@@ -33,7 +33,7 @@ recommend:
 - devkit
 updatedAt: '2020-01-10'
 ---
-This post covers all the hardware developers used to create games for the Gameboy (DMG) and Gameboy Color (GBC) and some were even used for early Gameboy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
+This post covers all the hardware developers used to create games for the original Dot Matrix Game Boy (DMG) and Game Boy Color (GBC) and some were even used for early Game Boy Advance development. Developers used both official Nintendo development kits and some unofficial 3rd party devices to create retail games for the Game Boy and Game Boy Color.
 
 ---
 # Official Programming Tools
@@ -94,18 +94,19 @@ Demonstration tools are hardware that allowed publishers or the press to present
 <div markdown="1">
 The **WideBoy** was used to present Game Boy games on a bigger screen such as a TV, to do this it contained Famicom (NES) hardware with a custom program written to an EPROM and connected directly to the Famicom board. It was developed by Intelligent Systems and only sold to Game developers and Press outlets by Nintendo themselves.
   
-  This was commonly used by developers and testers to make it much easier on their eyes than constantly looking at the non-backlit original Gameboy screens [^10].
+  This was commonly used by developers and testers to make it much easier on their eyes than constantly looking at the non-backlit original Game Boy screens [^10].
 </div>
 </section>
 
-{% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="Chris M Covell has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
+{% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="**Chris M Covell** has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
 
 ## N64 Wide Boy (Wide-Boy64 or WideBoy64) (DMG & CGB)
 <section class="postSection">
   <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/llIz6qjDfLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
 An updated version of the Wide Boy was released as a cartridge for the Nintendo 64 that supported GameBoy Color games [^11]. 
- Later they released a new version of the **Wide-Boy64** that could play Gameboy Advance games known as the AGB model.
+
+Later they released a new version of the **Wide-Boy64** that could play Game Boy Advance games known as the AGB model.
   
   During development of the Pokemon Gold/Silver/Crystal games the WideBoy64 was used to take screenshots of visual artifacts by the QA team and sent to the developers.
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The development team used WideBoy64 screen captures to document graphical bugs in Pokemon! <a href="https://t.co/WsYV7pKFCh">https://t.co/WsYV7pKFCh</a></p>&mdash; 🕹 RetroReversing.com - Reverse Retro Games 🕹 (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1254137614501896195?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
@@ -116,13 +117,13 @@ An updated version of the Wide Boy was released as a cartridge for the Nintendo 
 <section class="postSection">
   <img src="/public/ZAgzBlXrARIEyn2KnTa4g_img_0.png" class="wow slideInLeft postImage" />
 <div markdown="1">
-The **Demo Boy** was an alternative to the **Wide Boy** that allowed displaying two gameboy screens at once on a single TV. It used similar hardware that was based on the Famicom (NES) with a custom ROM image for loading the data from the two gameboys attached via cable and displaying the result on the screen. It is an ideal way to develop and test link-cable games on a much larger display.
+The **Demo Boy** was an alternative to the **Wide Boy** that allowed displaying two Game Boy screens at once on a single TV. It used similar hardware that was based on the Famicom (NES) with a custom ROM image for loading the data from the two Game Boys attached via cable and displaying the result on the screen. It is an ideal way to develop and test link-cable games on a much larger display.
   
  There exists multiple versions of this under a variety of names starting with the Demo Boy then Demo Boy 2 and finally the Demo Vision [^9].
 </div>
 </section>
 
-{% include link-to-other-site.html url="https://www.chrismcovell.com/demovision.html" description="Chris M Covell has an excellent page on the DemoVision unit which seems like a newer version of the Demo Boy" image="https://www.chrismcovell.com/images/demovision.gif" title="Nintendo Demo Vision"  %}
+{% include link-to-other-site.html url="https://www.chrismcovell.com/demovision.html" description="**Chris M Covell** has an excellent page on the DemoVision unit which seems like a newer version of the Demo Boy" image="https://www.chrismcovell.com/images/demovision.gif" title="Nintendo Demo Vision"  %}
 
 
 
@@ -190,7 +191,7 @@ Thank you to both **@forestillusion** and **@Altomare3** for these excellent ima
 
 The development cartridge was known as the **Smart Card** which was 16 Mbit in size and not only contained standard chips such as Save Ram (SRAM) but also had the Rumble feature used in a small amount of games such as Pokemon Pinball [^6].
 
-The files that were distributed with the development kit have been kindly uploaded by `JakobAir` here: [GitHub - JakobAir/GB-Smart-Development-Kit: Files for the Gameboy Smart Development Kit will be placed here. I claim no authorization of these files.](https://github.com/JakobAir/GB-Smart-Development-Kit) 
+The files that were distributed with the development kit have been kindly uploaded by **JakobAir** here: [GitHub - JakobAir/GB-Smart-Development-Kit: Files for the Gameboy Smart Development Kit will be placed here. I claim no authorization of these files.](https://github.com/JakobAir/GB-Smart-Development-Kit) 
 
 The manual has never been scanned so if you find one then please help the community and share a pdf if you have the ability!
 </div>
@@ -198,12 +199,12 @@ The manual has never been scanned so if you find one then please help the commun
 
 ## Codemasters Orac
 Ex-Codemasters employee **DrTune** posted his custom FPGA based Game Boy devkit used in 1992 to his twitter:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ha just came across pic of my &quot;Orac&quot; Gameboy dev board from 1992, used for all Codemasters GB games; 256K SRAM, PC interface. Old skool FPGA. Big connector is optional logic analyzer port. Acid house smiley face b/c we did more than just hack hardware. <a href="https://t.co/1zHhvED1fC">pic.twitter.com/1zHhvED1fC</a></p>&mdash; DrTune (@drtune) <a href="https://twitter.com/drtune/status/1343388636784414720?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Ha just came across pic of my "Orac" Game Boy dev board from 1992, used for all Codemasters GB games; 256K SRAM, PC interface. Old school FPGA. Big connector is optional logic analyzer port. Acid house smiley face b/c we did more than just hack hardware. <a href="https://t.co/1zHhvED1fC">pic.twitter.com/1zHhvED1fC</a></p>&mdash; DrTune (@drtune) <a href="https://twitter.com/drtune/status/1343388636784414720?ref_src=twsrc%5Etfw">December 28, 2020</a></blockquote>
 
 ## Doctor GB Xchanger
 The **Doctor GB Xchanger** was primarily sold as a piracy device but could be used by consumers or even some small studios as a cheaper alternative to the official development kit.
 
-{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Gameboy_Xchanger" description="The wiki **videogamedevelopmentdevices.fandom.com** has an excellent page on the Doctor GB Xchanger" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/2/26/Gb_xchanger_boxed.jpg/revision/latest?cb=20130422153247" title="Gameboy Xchanger"  %}
+{% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Gameboy_Xchanger" description="The wiki **videogamedevelopmentdevices.fandom.com** has an excellent page on the Doctor GB Xchanger" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/2/26/Gb_xchanger_boxed.jpg/revision/latest?cb=20130422153247" title="Game Boy Xchanger"  %}
 
 ---
 # References

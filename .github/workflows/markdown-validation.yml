@@ -151,8 +151,7 @@ jobs:
             statusEmoji = '⚠️';
           }
           
-          let comment = `**Markdown Content Validation ${overallStatus}**
-
+          let comment = `
           ${summary}
 
           ## Result

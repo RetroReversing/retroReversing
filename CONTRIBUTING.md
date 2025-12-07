@@ -217,7 +217,7 @@ Emojis that can be used in any heading but for specific purpose:
 * **Contents of a folder** - 📂 Used to highlight that this section talks about a specific folder
 * **Contents of a file** - 📄,🖼️,🎧 Used for sections that talk about a specific file
 * **Contents of a archive** - 🗜️ Used for sections talking about zip/rar/7z etc archives
-* **Contents of physical media** - 💾,💿 Used for sections talking about floppy,cd,bluray etc (try to use a real image of the cd,floppy, game cartirdge if you have one)
+* **Contents of physical media** - 💾,💿 Used for sections talking about floppy,cd,bluray etc (try to use a real image of the cd,floppy, game cartridge if you have one)
 
 ---
 ## Sticker Text

@@ -405,7 +405,7 @@ WINCE/SERIAL.PDB | be068a5cc2d9251615c907595f8ab2d4 | Serial Communication Drive
 /WINCE/IMEJPP.PDB | ae1960bea798a07a2d124e75a1f7e0ec | Japanese Text
 /WINCE/OLEAUT32.PDB | 5cabc49947ab6c80ea46459c21d3bbbf | Automation Type Library Registration (HTML)
 /WINCE/PNGFILT.PDB | 8a594e11f1b590b447842a4caa9042ac | PNG image filter
-/WINCE/SECUR32.PDB | c2a3331bd80c7117b92db9d8ed120f5a | Security (Not neded for Dreamcast?) [^5]
+/WINCE/SECUR32.PDB | c2a3331bd80c7117b92db9d8ed120f5a | Security (Not needed for Dreamcast?) [^5]
 /WINCE/VMIMIME.PDB | b386e6121076488d918bd571580cb37a | VMU library (Dreamcast Specific)
 /WINCE/SEG_ROCK.PDB | 453bd7c35f93e56c8c7a64dd215b2d45 | Dial Up library?
 /WINCE/MSG711.PDB | 4bb4ec3ff7f0bab234e4764e49ccfbba | 

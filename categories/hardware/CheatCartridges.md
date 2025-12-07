@@ -41,7 +41,7 @@ Codemasters eventually won the court case after four long years and got a nice b
 
 ## How were Game Genie's created?
 In an interview with **GSHI** (a now defunct website) **Richard Aplin** who worked on the Game Genie line of products as a hardware engineer had the following to say [^4]:
-> We had no way to get any info on the hardware or software of the consoles (and we had a very litigious relatonship w/Nintendo) , so we did it "the hard way" by reverse-engineering them - by literally going to a store, buying a few systems, tearing them apart, and attaching a logic analyser to them.
+> We had no way to get any info on the hardware or software of the consoles (and we had a very litigious relationship w/Nintendo) , so we did it "the hard way" by reverse-engineering them - by literally going to a store, buying a few systems, tearing them apart, and attaching a logic analyser to them.
 > A logic analyser is basically like a digital oscilloscope (shows you what high-speed signals are doing in real time) but typically has lots of separate channels (32-48).
 > You connect each channel to signals/chip pins that look "interesting" inside your console, run the analyzer, then spend some time figuring out what all the signals are doing and what the hell is going on.
 >

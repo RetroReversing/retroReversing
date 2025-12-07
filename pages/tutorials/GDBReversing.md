@@ -259,7 +259,7 @@ Communication between the GDB debugger and GDB Stubs follows the **GDB Remote Se
 You can find out more about the GDB Remote Serial Protocol on the official documentation website: [Remote Protocol (Debugging with GDB)](https://sourceware.org/gdb/current/onlinedocs/gdb.html/Remote-Protocol.html#Remote-Protocol)
 
 ## Security Implications
-As GDB Stubs provide a pathway for remote interaction with a program, developers must consider security implications and ensure proper safeguards to prevent unauthorized access. Software should not be released with the GDB stub embedded inside and proper network hygene is required between the two remote systems to prevent Man in the Middle attacks.
+As GDB Stubs provide a pathway for remote interaction with a program, developers must consider security implications and ensure proper safeguards to prevent unauthorized access. Software should not be released with the GDB stub embedded inside and proper network hygiene is required between the two remote systems to prevent Man in the Middle attacks.
 
 ---
 # Adding GDB to existing emulators/software

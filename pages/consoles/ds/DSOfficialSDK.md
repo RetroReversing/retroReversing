@@ -235,7 +235,7 @@ nitro/hw/ARM9/ioreg_G2.h |
 nitro/hw/ARM9/ioreg_G2S.h |
 
 ## Memory Interface (MI)
-The memory interface includes were used to produde functions for accessing specific areas of the hardwares memory and were located in the **nitro/mi** folder.
+The memory interface includes were used to produce functions for accessing specific areas of the hardwares memory and were located in the **nitro/mi** folder.
 
 Name | Description
 ---|---

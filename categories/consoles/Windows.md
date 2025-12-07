@@ -88,6 +88,8 @@ As of version 2, released in 2021, the collection includes over 1,100 unique tit
 
 Note that during the Windows 3.x transition period there were multiple different executable formats, MZ for DOS, NE for Windows 3.x, LE for Windows 3.x and PE for mordern windows. Each of these formats needs different tools to reverse, so each game listed in the table below has the executable format:
 
+<!-- cspell:disable -->
+
 Game | Executable | EXE format | EXE Size | Notes 
 -----|------------|------------|----------|-------
 Noughts and Crosses (1993) | 0x.exe | NE for Windows 3.x | 44096 | 
@@ -1652,6 +1654,7 @@ Logical Journey of the Zoombinis (1996) | zoombini.exe | NE for Windows 3.x | 95
 Zurk's Rainforest Lab (1995) | zrl.exe | NE for Windows 3.x | 246272 | 
 Zombie Wars (1996) | zwars.exe | NE for Windows 3.x | 700928 | 
 
+<!-- cspell:enable -->
 
 ---
 ## Windows Game Engines

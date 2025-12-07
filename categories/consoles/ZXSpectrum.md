@@ -81,9 +81,9 @@ These formats encapsulate the program code and are used by emulators and reverse
 
 Tools such as **SkoolKit** and **Spectrum Analyser** are instrumental in reverse engineering Spectrum games. 
 
-SkoolKit allows for the disassembly of machine code into annotated, human-readable formats, facilitating the understanding of game logic and structure. 
+**SkoolKit** allows for the disassembly of machine code into annotated, human-readable formats, facilitating the understanding of game logic and structure. 
 
-Spectrum Analyser combines emulation with debugging and disassembly features, enabling interactive exploration of a program's behavior.
+**Spectrum Analyser** combines emulation with debugging and disassembly features, enabling interactive exploration of a program's behavior.
 
 ---
 # Official Software Development

@@ -118,7 +118,7 @@ It was used by **Delphine Software** in the **Moto Racer** series to great succe
 
 ---
 # References
-[^1]: Develop issue 78 Page 45 refering to PhysX SDK 2.7
+[^1]: Develop issue 78 Page 45 referring to PhysX SDK 2.7
 [^2]: [Omegame unveils Menus Master, the game user interface authoring solution that free your creativity and save your money! - GamesIndustry.biz](https://www.gamesindustry.biz/omegame-unveils-menus-master-the-game-user-interface-authoring-solution-that-free-your-creativity-and-save-your-money)
 
 ---

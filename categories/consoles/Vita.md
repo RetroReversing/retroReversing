@@ -53,11 +53,11 @@ The PS Vita took an off the shelf Quad core ARM CPU with a NEON coprocessor and 
 # Reverse Engineering Vita games 
 
 ## File Formats 
-When reverse engineering Vita games you will come across a number of different file formats, there were too many to list on thos page so we now have a separate post specifically on Vita file formats: 
+When reverse engineering Vita games you will come across a number of different file formats, there were too many to list on this page so we now have a separate post specifically on Vita file formats: 
 {% include link-to-other-post.html post="/playstation-vita-file-formats" %}
 
 
-## Reverse Engineering Playstation Vita Game Cartridge Authentication
+## Reverse Engineering PlayStation Vita Game Cartridge Authentication
 **Silica** provides an in-depth technical analysis of the PlayStation Vita's game cartridge security, specifically focusing on the **CMD56** authentication handshake and the NpDrm decryption workflow. 
 The write-up details the creation of the VCI format for 1:1 backups, which preserves the unique key data required for authentication, and contrasts it with legacy dumping methods. 
 

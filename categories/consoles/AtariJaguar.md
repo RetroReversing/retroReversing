@@ -90,7 +90,7 @@ Extension | Description
 .С |  sourcecodefile
 .CCR | Chunky-format 16-bit CRY Cinepak film
 .СМР | Compressed sound sample, created from a raw 16-bit (stereo or mono) sound sample file using the SNDCMP utility.
-.COF | Common Obiect File absolute location executable program file. Output from ALN Linker
+.COF | Common Object File absolute location executable program file. Output from ALN Linker
 .CRG | Chunky-format 16-bit RGB Cinepak film
 .CRY | Madmac source code file for a CRY-format graphics image, typically converted from Targa format using the TGA2CRY utility.
 .DAS | DSP assembly lanquage source. This extension is used for files that contain source exclusively for the DSP, to be assembled by either MADMAC or GASM.

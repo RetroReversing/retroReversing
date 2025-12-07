@@ -22,35 +22,35 @@ todo:
 ---
 
 # Introduction to Zeno and the Zed Game Editor
-Back in 2004/2005 engineers at **LucasArts** were on a mission to find the best technology for the new "next-generation" consoles (Xbox 360, PS3), they travelled the world assessing various middleware and proprietary game engines [^17]. Unbenounst to them, they would actually find an ideal solution sitting in their own backyard.
+Back in 2004/2005 engineers at **LucasArts** were on a mission to find the best technology for the new "next-generation" consoles (Xbox 360, PS3), they travelled the world assessing various middleware and proprietary game engines [^17]. Unbeknownst to them, they would actually find an ideal solution sitting in their own backyard.
 
 At that time **George Lucas** owned the film company **Industrial Light & Magic** (ILM) along with the games company **LucasArts**, both companies were pioneering in the field of 3D graphics but they didn't directly work with each other.
 
-This changed when the LucasArts engineer **Nick Porcino** attended an ILM R&D "open house" and witnessed the power of ILM's in-house **Zeno** 3D application framework and immedietly thought of the potential for game development [^5]. 
+This changed when the LucasArts engineer **Nick Porcino** attended an ILM R&D "open house" and witnessed the power of ILM's in-house **Zeno** 3D application framework and immediately thought of the potential for game development [^5]. 
 
-Zeno helps ILM build and populate digital stages for their films. It contains texture controls, particle generators, and systems for digital actors. Its only drawback is that it's rooted in rendering; each frame is rendered individually in a timeconsuming process, so making changes is very slow going.
+Zeno helps ILM build and populate digital stages for their films. It contains texture controls, particle generators, and systems for digital actors. Its only drawback is that it's rooted in rendering; each frame is rendered individually in a time-consuming process, so making changes is very slow going.
 
-Zeno was a modular framework that was used throughout the whole of the ILM studio since at least 1997, to build and populate digital stages for their films. It contained modules for modifying textures, parciles and digital actors. However as Zeno was made for the film industry it was not build for real-time 3D pipelines and this making changes in Zeno was a very time consuming process [^17].
+Zeno was a modular framework that was used throughout the whole of the ILM studio since at least 1997, to build and populate digital stages for their films. It contained modules for modifying textures, particles and digital actors. However as Zeno was made for the film industry it was not build for real-time 3D pipelines and this making changes in Zeno was a very time consuming process [^17].
 
 So LucasArts wondered, what if they could modify Zeno to add real-time viewing of assets at runtime using game engine technology, this would not only benefit LucasArts but the whole of ILM would benefit from being able to view assets in real-time. 
 
-By bringing the film and video game companies closer togther they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
+By bringing the film and video game companies closer together they could share the practices of real-time visualization developed for game production in their films and at the same time to provide game makers with high-resolution film scenes as source material, win-win.
 
 Thus the real-time Zeno Editor known as **Zed** was born and was slowly gaining more and more collaborators in both LucasArts and ILM!
 
 ## Bringing the Games and Film industries together
 ![LDAC - Presidio Campus](https://github.com/user-attachments/assets/c5109988-c0f0-4daf-a1e0-530200ab0100)
 
-At roughly the same time as the Zed project was taking off, George Lucas wanted to bring ILM and LucasArts even closer together, pjysically this time. He consolidated the offices and moved both LucasArts and ILM to the **Letterman Digital Arts Center** (LDAC) in Presidio California. 
+At roughly the same time as the Zed project was taking off, George Lucas wanted to bring ILM and LucasArts even closer together, physically this time. He consolidated the offices and moved both LucasArts and ILM to the **Letterman Digital Arts Center** (LDAC) in Presidio California. 
 
-This accellerated development of both Zeno and Zed and was praised by the LucasArts president **Jim Ward** in **Computer Graphics World Magazine** [^11]:
+This accelerated development of both Zeno and Zed and was praised by the LucasArts president **Jim Ward** in **Computer Graphics World Magazine** [^11]:
 >In the same spirit of collaboration and consolidation of assets and talent, ILM and LucasArts are now housed in the same building on George Lucas’s **Presidio campus**. "[The idea] came from George himself, and it’s key to rebooting our game studio."
 
 On what was a former Presidio military base, the new 6 acre facility claimed to have the industries largest computer network, designed to accommodate 4K images via 300 10GB and 1,500 1GB ports. It was surrounded by 17 acres of public park including a creek and even a Yoda fountain! 
 
 ![Image of Zeno office from The Complete Digital Arts Creative Handbook](https://github.com/user-attachments/assets/eb676ec2-8f21-485e-9d67-3ed4c81815c0)
 
-There is a very good reason why the move to the new premisis keeps getting mentioned in articles about Zeno and Zed, it really was the catazlyst that allowed not only knowledge to flow freely but also assets from both movies and games could be shared on the  600 miles of high speed network cable within the facility!
+There is a very good reason why the move to the new premises keeps getting mentioned in articles about Zeno and Zed, it really was the catalyst that allowed not only knowledge to flow freely but also assets from both movies and games could be shared on the  600 miles of high speed network cable within the facility!
 
 The designer of the Zeno interface **Dennis Muren** has the following to say about the move and its impact on the Zeno pipeline: 
 > The move opened the opportunity to re-invent the pipeline, with the Star Wars movies ending, we’re going to get down to a more realistic number of shots. So we’ve given the artists the opportunity to do practically anything if they want to. [^18]
@@ -82,8 +82,8 @@ Where Zeno ends and Zed begins is a little hard to follow from the outside so th
 * **Asset Mangement** - Easy access to all assets in a project/scene [^18]
 
 ---
-### Contributers to Zed
-We don't know all the contributers to Zeno/Zed as there is very little information available about it online but these are people that have been mentioned in relation to developing it:
+### Contributors to Zed
+We don't know all the contributors to Zeno/Zed as there is very little information available about it online but these are people that have been mentioned in relation to developing it:
 *  **Nick Porcino** - co-founder of Zed
 *  **Steve Sullivan** - co-founder of Zed
 *  **Dennis Muren** - Designer of Zeno interface [^18]
@@ -197,11 +197,11 @@ In an interview in the July 2005 issue of **Computer Graphics World** (CGW) **Cl
 The Zeno software was actually the **third** pipeline software developed in-house by ILM, the first was based on **SGI Inventor**. 
 The second was based on **Softimage scene files** and was primarily designed to produce living creatures rather than entire movies [^12]. 
 
-There were also command line tools such as Ishade, Repo, iComp and somthing called "CBal" used at ILM over 30 years ago in 1995 based on this new employee handbook:
-<img width="1280" height="1707" alt="Ishade, repo and other ILM tools" src="https://github.com/user-attachments/assets/b239d773-bdb7-49e2-a90a-296d4407d997" />
+There were also command line tools such as IShade, Repo, iComp and something called "CBal" used at ILM over 30 years ago in 1995 based on this new employee handbook:
+<img width="1280" height="1707" alt="IShade, repo and other ILM tools" src="https://github.com/user-attachments/assets/b239d773-bdb7-49e2-a90a-296d4407d997" />
 These were most likely the precursors for Zeno but some of them may have still been in use.
 
-Also ILM has a Maya-based character building system known as **Blockparty** due to it feeling like creating characters out of bulding blocks, but not sure it it was integrated with Zeno [^20].
+Also ILM has a Maya-based character building system known as **Blockparty** due to it feeling like creating characters out of building blocks, but not sure it it was integrated with Zeno [^20].
 
 ---
 ## The Zeno Scene Graph (Shot files)
