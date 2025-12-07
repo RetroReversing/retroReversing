@@ -1,23 +1,37 @@
-name: Typo CI
+# name: Typo CI
 
+# on:
+#   pull_request:
+#     branches: [ main, master ]
+#     paths:
+#       - 'categories/**/*.md'
+#       - 'pages/**/*.md'
+# jobs:
+#   spellcheck:
+#     name: Typo CI (GitHub Action)
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 4
+#     if: "!contains(github.event.head_commit.message, '[ci skip]')"
+#     steps:
+#     - name: TypoCheck
+#       uses: typoci/spellcheck-action@master
+#       # with:
+#         # A license can be purchased via:
+#         # https://gumroad.com/l/MvvBE
+#         # typo_ci_license_key: ${{ secrets.TYPO_CI_LICENSE_KEY }}
+#       env:
+#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+name: 'Check spelling with cSpell'
 on:
-  pull_request:
-    branches: [ main, master ]
-    paths:
-      - 'categories/**/*.md'
-      - 'pages/**/*.md'
+  pull_request: [ main, master ]
+  # push:
+
 jobs:
-  spellcheck:
-    name: Typo CI (GitHub Action)
+  spellcheck: # run the action
     runs-on: ubuntu-latest
-    timeout-minutes: 4
-    if: "!contains(github.event.head_commit.message, '[ci skip]')"
     steps:
-    - name: TypoCheck
-      uses: typoci/spellcheck-action@master
-      # with:
-        # A license can be purchased via:
-        # https://gumroad.com/l/MvvBE
-        # typo_ci_license_key: ${{ secrets.TYPO_CI_LICENSE_KEY }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: streetsidesoftware/cspell-action@v8
