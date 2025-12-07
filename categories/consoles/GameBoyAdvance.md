@@ -20,6 +20,7 @@ tags:
 ---
 
 # Nintendo Game Boy Advance Reverse Engineering
+<img width="721" height="414" alt="Game Boy Advance Playing Mario Kart" src="https://github.com/user-attachments/assets/29660934-30bc-49ed-ab66-2ef802e34eeb" />
 Welcome to our page dedicated to Game Boy Advance reverse engineering! The Game Boy Advance was a popular handheld gaming console that was released in 2001, and has since become a favorite of gamers around the world. 
 
 If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Game Boy Advance reverse engineering.
