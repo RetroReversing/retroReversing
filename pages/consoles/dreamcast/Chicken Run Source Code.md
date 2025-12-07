@@ -79,7 +79,7 @@ typedef struct BFF_HeaderTag
 Used for File streaming, seems to be used for both texture and sound streaming.
 
 
-## CRTEST.DAT (Playstation 1)
+## CRTEST.DAT (PlayStation 1)
 This is where the Chicken Run game data is stored on the PS1 version instead of the folder based layout of the PC and Dreamcast.
 It has a magic number of FLA2, not sure why, did they ever have a FLA1, what does FLA even stand for?
 ```
@@ -99,33 +99,33 @@ Here is a list of games that have been referenced in the source code:
 
 # Dreamcast Engine
 
-Most of the dreamcast specific code has a DCK_ prefix, presumable short for Dreamcast Katana (Katana was the code name for the dreamcast).
+Most of the Dreamcast specific code has a DCK_ prefix, presumable short for Dreamcast Katana (Katana was the code name for the Dreamcast).
 Some example:
 * DCK_System
 * DCK_Texture
 
-Presumably there were versions of this code with N64 and PS1 prefix used at ISL but they weren't released with this source code unfortunetly. As most of the game code is cross platform but these files contain the very platform specific code for the Dreamcast.
+Presumably there were versions of this code with N64 and PS1 prefix used at ISL but they weren't released with this source code unfortunately. As most of the game code is cross platform but these files contain the very platform specific code for the Dreamcast.
 
 ---
 
-# Compiling for Playstation 1 with PSYQ
-So although it was originally compiled for PS1, all the sourcecode has been modified for the dreamcast version so it will need some modifications in order to compile for the playstation.
+# Compiling for PlayStation 1 with PSYQ
+So although it was originally compiled for PS1, all the sourcecode has been modified for the Dreamcast version so it will need some modifications in order to compile for the PlayStation.
 
 The following files won't compile to PS1 without modification:
 * types.c
 
 However the root/cr/source folder contails a makefile.mak which is for psyq and build the PS1 version.
 
-There are a 2 linker files crtest.lnk and crdemo.lnk which are for the PS1 development tool `PSYLINK.EXE` you can find out more about there files here: http://www.retroreversing.com/ps1-psylink
+There are a 2 linker files `crtest.lnk` and `crdemo.lnk` which are for the PS1 development tool `PSYLINK.EXE` you can find out more about there files here: http://www.retroreversing.com/ps1-psylink
 
-These files are vital for piecing together the PS1 source code as it contains the exact specifications for the object files and libraries that were linked in to get the final and demo executables for the playstation.
+These files are vital for piecing together the PS1 source code as it contains the exact specifications for the object files and libraries that were linked in to get the final and demo executables for the PlayStation.
 
 ---
 
 # Missing Files
 As with most leaked source code there are some missing files these are:
-* shinobi.h (Dreamcast SDK)
-* sg_syhw.h (Dreamcast SDK)
+* `shinobi.h` (Dreamcast SDK)
+* `sg_syhw.h` (Dreamcast SDK)
 * km*.h (Dreamcast SDK)
 
 ---
@@ -144,7 +144,7 @@ DCK_Maths.c |
 DCK_Maths.h | 
 DCK_System.c | 
 DCK_System.h | 
-DCK_Texture.c | Texture handler rountines
+DCK_Texture.c | Texture handler routines
 DCK_Texture.h | 
 DCK_Types.h | 
 actor2.c | 
@@ -155,7 +155,7 @@ crc32.c |
 crc32.h | 
 fixed.c | 
 fixed.h | 
-gte.c | Gte playstation emulaution routines and structures
+gte.c | Gte PlayStation emulation routines and structures
 include.h | 
 islfile.c  | 
 islfont.c | font support - AM2 PS   (c) 1999-2001 ISL (AM2 = Action Man 2 Destruction X for PS1)
@@ -171,7 +171,7 @@ maths.c | This file is part of Frogger2, (c) 1999 Interactive Studios Ltd.
 maths.h | 
 newpsx.c | 
 newpsx.h | 
-psi.c | Playstation Model (i) Handler - PSX CORE (c) 1999 ISL
+psi.c | PlayStation Model (i) Handler - PSX CORE (c) 1999 ISL
 psi.h | 
 psiactor.c | 
 psiactor.h | Skinned model control routines
@@ -188,7 +188,7 @@ types.c |
 types.h | 
 ultra64.h | n64 header (Copyright (C) 1994, Silicon Graphics, Inc.)
 
-
+---
 # CR (Chicken run source)
 
 We actually have multiple versions of the chicken run source code:
@@ -198,7 +198,7 @@ We actually have multiple versions of the chicken run source code:
 
 This was very common before good version control software such as git came along, so developers would work in separate folders and merge changes, or keep different console ports in different folders.
 
-The main files in cr are:
+The main files in `cr` are:
 
 Filename | Category | Description
 --- | --- | --- 
@@ -436,7 +436,9 @@ vssver.scc |
 wings.c | 
 wings.h | 
 
+---
 # Data Structures
+<!-- cspell:disable -->
 
 Name | Category | Description
 -- | -- | --
@@ -718,18 +720,12 @@ tag_VENT | |
 u162DVECTOR | | 
 u16VECTOR | | 
 
+<!-- cspell:enable -->
 
-<div class="mermaid">
-graph LR
-        A-->B
-        B-->C
-        C-->A
-        D-->C
-</div>
+---
+# PlayStation 1
 
-# Playstation 1
-
-## PS1 Gameshark cheats
+## PS1 GameShark cheats
 
 Name | Code
 --- | ---
@@ -737,32 +733,33 @@ Max Eggs |	800AA1D0 0063 [^1]
 Have All Map Pieces (GS 2.2 or Higher Needed) |	50000901 0000 300AA1F1 0001[^1]
 
 # Game Credits
-* Fred Williams (Lead Programmer) - https://twitter.com/RFredW
+* **Fred Williams** (Lead Programmer) - https://twitter.com/RFredW
   - ```c
     // I'll do these things for platforms, with a view to copying 'em into the main collision code
     // when it's free. Luv, Fred.
     ```
-* Tom Drummond (Programmer)
-* David Harries (Programmer) - https://www.linkedin.com/in/david-harries-92a56213/
-* Barry Peterson (Programmer)
-* Chris Wilson (Programmer)
-* James Steele (Tools Programming) - https://www.linkedin.com/in/james-steele-0a62791/
+* **Tom Drummond** (Programmer)
+* **David Harries** (Programmer) - https://www.linkedin.com/in/david-harries-92a56213/
+* **Barry Peterson** (Programmer)
+* **Chris Wilson** (Programmer)
+* **James Steele** (Tools Programming) - https://www.linkedin.com/in/james-steele-0a62791/
   - ```c
-    // Since Fred insits on being such a clever bugger and using in-line assembler, this file contains a load of macros so that the custom.c,     custom2.c and map_draw.c compile and work on the PC as well as the PSX without me having to write a whole load of PC draw routines.
+    // Since Fred insists on being such a clever bugger and using in-line assembler, this file contains a load of macros so that the custom.c,     custom2.c and map_draw.c compile and work on the PC as well as the PSX without me having to write a whole load of PC draw routines.
     // James Steele```
-* Chris Wilson (Tools Programming)
-  - `
+* **Chris Wilson** (Tools Programming)
+  - ```c
   /*	Curtains.c - by Chris Wilson
   It's curtains for you, my lad!*/
-  `
-* Ian Bird (Additional Programming) - https://www.linkedin.com/in/ian-bird-19358780/
-* Steve Bond (Additional Programming) - https://www.linkedin.com/in/steve-bond-b21ba9/
-* Scott Lamb (Additional Programming) - https://www.linkedin.com/in/scottjameslamb/ (SL: in comments)
-* Andy Sidwell (Additional Programming)
-* John Whigham (Additional Programming) - https://www.linkedin.com/in/john-whigham-b8524834/
-* Richard Hackett (Compression Technology) - https://www.linkedin.com/in/richard-hackett-4324531
+  ```
+* **Ian Bird** (Additional Programming) - https://www.linkedin.com/in/ian-bird-19358780/
+* **Steve Bond** (Additional Programming) - https://www.linkedin.com/in/steve-bond-b21ba9/
+* **Scott Lamb** (Additional Programming) - https://www.linkedin.com/in/scottjameslamb/ (SL: in comments)
+* **Andy Sidwell** (Additional Programming)
+* **John Whigham** (Additional Programming) - https://www.linkedin.com/in/john-whigham-b8524834/
+* **Richard Hackett** (Compression Technology) - https://www.linkedin.com/in/richard-hackett-4324531
 
 Also thanks to Phillip and Andrew Oliver who founded Blitz Games - http://www.olivertwins.com
 
-# Sources
+---
+# References
 [^1]: http://www.cheatcc.com/psx/codes/chickenr.html#ixzz5RAbHltbW 

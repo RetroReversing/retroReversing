@@ -200,7 +200,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51cg7gcq+GL._SX324_BO1,204,203,200_.jpg" /> | Commodore 64 assembly language | Bruce Smith | 6502 Assembly language | 
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Commodore 64 game construction kit.jpg" /> | Commodore 64 game construction kit | William L. Rupp, Patricia A. Hartman | Commodore BASIC | 
 <img class="lazy-load" data-image-full="" /> | Creating Arcade Games on the Ti-99-4A | Seth McEvoy | BASIC | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51jaM1NtwAL._AC_UY436_QL65_.jpg" /> | Games programming | Eric Solomon | Assembly langauges, Pascal, Fortran | Lots of good game programming concepts
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51jaM1NtwAL._AC_UY436_QL65_.jpg" /> | Games programming | Eric Solomon | Assembly languages, Pascal, Fortran | Lots of good game programming concepts
 <img class="lazy-load" data-image-full="https://www.retroreversing.com/public/images/books/Getting started with 8080, 8085, Z80 and 6800 microprocessor systems.jpg" /> | Getting started with 8080, 8085, Z80 and 6800 microprocessor systems | James W. Coffron | Assembly | 
 <img class="lazy-load" data-image-full="" /> | Programming Tricks and Skills | Lisa Watts and Les Howarth | BASIC | 
 
@@ -239,7 +239,7 @@ Cover | Title | Author | Software | Notes
 ---|---|---|---|---
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/81x0TMO-2UL._AC_UY436_FMwebp_QL65_.jpg" /> | Advanced Graphics in C | Nelson Johnson | C Programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg" /> | Learning C: programming graphics on the Amiga and Atari ST | Marc B. Sugiyama and Christopher D. Metcalf | C Programming | 
-<img class="lazy-load" data-image-full="[https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://m.media-amazon.com/images/I/5140fiS5s4L._SX342_SY445_.jpg)" /> | Computer graphics - a programming approach | Steven Harrington | Language Independant (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
+<img class="lazy-load" data-image-full="[https://m.media-amazon.com/images/I/51anTMY-FQL._SX218_BO1,204,203,200_QL40_ML2_.jpg](https://m.media-amazon.com/images/I/5140fiS5s4L._SX342_SY445_.jpg)" /> | Computer graphics - a programming approach | Steven Harrington | Language Independent (Pascal, C, Fortran) | Very good introduction to drawing lines etc 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31nXJhAWSWL._BO1,204,203,200_.jpg" /> | Techniques for computer graphics | David F Rogers,  Rae A. Earnshaw | 
 
 ---
@@ -348,11 +348,11 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61J6ZEHJE1L._SX380_BO1,204,203,200_.jpg" /> | Dungeons of Discovery: Writing Dazzling Windows Games With WinG | Clayton Walnum | WinG API | 
 <img class="lazy-load" data-image-full="/public/images/books/Engines of Creation [1995].jpg" /> | Engines of Creation - Programming Virtual Reality on the Macintosh | Jonathan Blossom | REND386, C programming | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/31gYhOaK9CL._AC_UY218_.jpg" /> | Game Graphics in C++ | Len Dorfman | Borland C++ (DOS VGA) | Free to Borrow on Archive.org
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61oZhj-WwDL._AC_UY436_QL65_.jpg" /> | Graphics Gems V | Alan W. Paeth | | Two editions available one for Mac and other other for IBM PC
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61oZhj-WwDL._AC_UY436_QL65_.jpg" /> | Graphics Gems V | **Alan W. Paeth** | | Two editions available one for Mac and other other for IBM PC
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51WGS1THSSL._AC_UY436_QL65_.jpg" /> | NetWarriors in C: programming 3D multi-player games in C | Joe Gradecki | C Programming | Very little info about this book online
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61YVD0ZXB8L._AC_UY436_QL65_.jpg" /> | More Tricks of the Game Programming Gurus |  Andre LaMothe | C & x86 Assembly for MS-DOS | 
-<img class="lazy-load" data-image-full="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | Brunl Benner | | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61769MX4NXL._AC_UY436_QL65_.jpg" /> | Tricks of the Mac Game Programming Gurus | Jamie McCornack | Mac Game development | 
+<img class="lazy-load" data-image-full="/public/images/books/DoomGurus.jpg" /> | Tricks of the Doom Programming Gurus | **Brunl Benner** | | 
+<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/61769MX4NXL._AC_UY436_QL65_.jpg" /> | Tricks of the Mac Game Programming Gurus | **Jamie McCornack** | Mac Game development | 
 
 ### Dungeons of Discovery
 <section class="postSection">
@@ -430,12 +430,12 @@ This year kicked off the **Wordware Game Developer's Library** with the release 
 
 Cover | Title | Author | Software | Notes
 ---|---|---|---|---
-<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Sudio Max 3 | 
-<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Media Animation | John P. Chismar and John Chismar | 3D Sudio Max 3 | 
+<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Fundamentals | Michael Todd Peterson and Steve Burke | 3D Studio Max 3 | 
+<img class="lazy-load" data-image-full="" /> | 3D Studio MAX 3 Media Animation | **John P. Chismar** and **John Chismar** | 3D Studio Max 3 | 
 <img class="lazy-load" data-image-full="" /> | AI for computer games and animation: a cognitive modeling approach | John David Funge. | | 
 <img class="lazy-load" data-image-full="" /> | Computer Graphics & Geometric Modeling | | | 
-<img class="lazy-load" data-image-full="" /> | Developers guide to computer game design | John Scott Lewinski | | 
-<img class="lazy-load" data-image-full="" /> | Game design: secrets of the sages | Marc Saltzman | Game Design | 
+<img class="lazy-load" data-image-full="" /> | Developers guide to computer game design | **John Scott Lewinski** | | 
+<img class="lazy-load" data-image-full="" /> | Game design: secrets of the sages | **Marc Saltzman** | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Inside TrueSpace 4 | Frank Rivera | Truespace 4 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/714XPFXV23L._AC_UY436_QL65_.gif" /> | Real-Time Rendering | Tomas Akenine-Möller, Eric Haines |  | 
 <img class="lazy-load" data-image-full="" /> | Real Time Strategy Game Programming Using DirectX | Mickey Kawick | C++ and DirectX 6.0 | 
@@ -662,7 +662,6 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51Avn-xJYTL._AC_UY436_FMwebp_QL65_.jpg" /> | Macromedia Flash MX 2004 Game Development | Glen Rhodes | Flash MX 2004 | 
 <img class="lazy-load" data-image-full="" /> | Macromedia Flash MX 2004 Game Programming | Craig S. Murray, Justin Everett-Church | Flash MX 2004 | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wAQXHslqL._AC_UY436_QL65_.jpg" /> | Massively Multiplayer Game Development 2 | Thor Alexander | | 
-<img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51wAQXHslqL._AC_UY436_QL65_.jpg" /> | Massively multiplayer game development 2 | Thor Alexander | | 
 <img class="lazy-load" data-image-full="" /> | Mobile device game development | Clayton E. Crooks II | | 
 <img class="lazy-load" data-image-full="" /> | Object-oriented game development | Julian Gold | | 
 <img class="lazy-load" data-image-full="" /> | Official Butterfly.Net Game Developer's Guide | Mulholland, Andrew | | 
@@ -672,7 +671,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | Physics modeling for game programmers | David Conger | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51cRFmty2bL._AC_UY436_FMwebp_QL65_.jpg" /> | Practical Java Game Programming | Dustin Clingman, Shawn Kendall, Syrus Mesdaghi | Java | 
 <img class="lazy-load" data-image-full="" /> | Programming Game AI by Example | Mat Buckland | | 
-<img class="lazy-load" data-image-full="https://www.amazon.com/Programming-Mutliplayer-Direct-Game-Development/dp/1584503637/ref=sr_1_132?keywords=%22charles+river+media%22&qid=1672267076&s=books&sr=1-132" /> | Programming Mutliplayer FPS Direct X | Vaughan Young | C++, DirectX | 
+<img class="lazy-load" data-image-full="https://www.amazon.com/Programming-Mutliplayer-Direct-Game-Development/dp/1584503637/ref=sr_1_132?keywords=%22charles+river+media%22&qid=1672267076&s=books&sr=1-132" /> | Programming Multiplayer FPS Direct X | Vaughan Young | C++, DirectX | 
 <img class="lazy-load" data-image-full="" /> | Programming Multiplayer Games | Andrew Mulholland and Teijo Hakala | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/51oyiCBex+L._AC_UY436_QL65_.jpg" /> | Programming Believable Characters for Computer Games | Penny Ballie-De Byl | | 
 <img class="lazy-load" data-image-full="" /> | Real-Time Shader Programming |  Ron Fosner | DirectX 8/9 | 
@@ -692,7 +691,7 @@ Cover | Title | Author | Software | Notes
 <img class="lazy-load" data-image-full="" /> | 3ds Max 7 Fundamentals | Ted Boardman | 3ds Max 7 | Re-released as 3ds Max 8 Fundamentals in 2008
 <img class="lazy-load" data-image-full="" /> | Advanced game development with programmable graphics hardware | Alan Watt, Fabio Policarpo | | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/I/518hiWWW1BL._SY300_.jpg" /> | Advanced Graphics Programming Using OpenGL | Tom McReynolds, David Blythe | OpenGL | 
-<img class="lazy-load" data-image-full="" /> | Beginning game graphics | Evry, Harry J | Caligari gameSpace | 
+<img class="lazy-load" data-image-full="" /> | Beginning game graphics | **Harry J Evry** | Caligari gameSpace | 
 <img class="lazy-load" data-image-full="" /> | Chris Crawford On Interactive Storytelling | Chris Crawford | Game Design | 
 <img class="lazy-load" data-image-full="" /> | Complete Maya Programming Volume II: An In-depth Guide to 3D Fundamentals, Geometry, and Modeling: Volume 2 | David Gould | MEL, C++ | 
 <img class="lazy-load" data-image-full="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/51kuUiEuIpL._AC_UY436_FMwebp_QL65_.jpg" /> | Cross-platform game programming | Steven Goodwin | | 

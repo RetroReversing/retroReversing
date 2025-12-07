@@ -175,10 +175,12 @@ We will cover how to reverse engineer a custom file format in a later lesson, bu
 <section class="postSection">
 <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/V3_vc7BO9lU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div markdown="1">
-   When looking at custom file formats or even just executables, one of the most valuable pieces of data in these files are Text Strings, especially if they are in standard ASCII or UTF-8 format.
-   There is a really easy way to dump out all the ASCII strings in a file using the **strings** command like so:
+
+When looking at custom file formats or even just executables, one of the most valuable pieces of data in these files are Text Strings, especially if they are in standard ASCII or UTF-8 format.
+
+There is a really easy way to dump out all the ASCII strings in a file using the **strings** command like so:
 ```bash
-strings yourfilename
+strings your_file_name
 ```
 </div>
 </section> 
@@ -246,7 +248,7 @@ Executable file formats are specific data structures used by operating systems t
 * **COFF** - Common Object File Format used in older versions of Windows for device drivers and early Unix
 * **COM** - Used in DOS and early Windows
 
-Note that most executables don't have any file extension on Unix/macOS and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's Eboot.bin files or even completly custom implementations like the original PlayStation's `PS-EXE` format.
+Note that most executables don't have any file extension on Unix/macOS and many games consoles. Many games consoles use a modified version of ELF such as the Sony PSP's `EBOOT.bin` files or even completely custom implementations like the original PlayStation's `PS-EXE` format.
 
 ## What is an API?
 <div class="emoji">🧩</div>

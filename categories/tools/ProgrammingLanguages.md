@@ -65,7 +65,7 @@ The language is part of the Cg Toolkit which consists of a compiler, runtime lib
 ---
 # BASIC Variants
 With Assembly having a reputation for being difficult to learn, many "simpler" programming languages were created with one of the most popular earlier languages simply being called "BASIC".
-Over the years many BASIC variants were released tailored for hobbiest game programmers.
+Over the years many BASIC variants were released tailored for hobbyist game programmers.
 
 ## Blitz BASIC
 Blitz BASIC emerged as a game-changer for aspiring Amiga game developers in the 1990s. 

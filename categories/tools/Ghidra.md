@@ -121,11 +121,11 @@ CodeCut allows a user to assign functions to object files in Ghidra, and then in
 **GhidrAssist** is a powerful extension that integrates Large Language Models (LLMs) directly into the Ghidra reverse engineering workflow. 
 The tool supports both local and cloud-based AI providers (such as OpenAI and Ollama) to facilitate tasks like code explanation, refactoring, and vulnerability detection. Uniquely, it features an 'Agentic Mode' utilizing the ReAct pattern, allowing the AI to autonomously plan and execute investigation steps within the binary.
 
-{% include link-to-other-site.html url="https://github.com/jtang613/GhidrAssist" description="jtang613 has released GhidrAssist, a comprehensive Ghidra extension that leverages LLMs for tasks like code explanation, interactive chat, and autonomous binary analysis using agentic reasoning." image="https://opengraph.githubassets.com/1/jtang613/GhidrAssist" title="GhidrAssist: AI Assistance for Ghidra" %}
+{% include link-to-other-site.html url="https://github.com/jtang613/GhidrAssist" description="GhidrAssist is a comprehensive Ghidra extension that leverages LLMs for tasks like code explanation, interactive chat, and autonomous binary analysis using agentic reasoning." image="https://opengraph.githubassets.com/1/jtang613/GhidrAssist" title="GhidrAssist: AI Assistance for Ghidra" %}
 
 ---
 # Ghidra decompiler macros
-WHen using the decompiler Ghidra spits out code which uses a number of macros which are not immedietly obvious of their function, we provide some of these below with our reccomendation of an easier to read version.
+WHen using the decompiler Ghidra spits out code which uses a number of macros which are not immediately obvious of their function, we provide some of these below with our recommendation of an easier to read version.
 
 ## CONCAT11(x, y)
 In Ghidra, the CONCAT11(x, y) operation combines two 8-bit values (x and y) into a single 16-bit value. The operation is defined as:

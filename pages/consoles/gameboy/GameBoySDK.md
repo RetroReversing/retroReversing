@@ -112,7 +112,7 @@ One interesting file is that `HDT.EXE` is included here which is the NES/Famicom
 ### SNES/Super Famicom SDK Files
 Another interesting file is that `IS65.EXE` is included here which is the Official Super Nintendo Entertainment System assembler created by Intelligent Systems in 1990. It seems to have been written by the developer **Toshio Sengoku**.
 
-The file `VRAMTR.CVT` which is a script in a custom programming langauge that is parsed by the `FCV` program. The comments at the beginning of the file indicate that it takes an input file with a ".SCR" extension and outputs a file with a ".X65" extension.
+The file `VRAMTR.CVT` which is a script in a custom programming language that is parsed by the `FCV` program. The comments at the beginning of the file indicate that it takes an input file with a ".SCR" extension and outputs a file with a ".X65" extension.
 
 ### File Convert Program
 The File Convert Program (`FCV`) tool was created in 1987 by **Intelligent Systems** so it is likely it was also part of the Famicom Software Development Kit.

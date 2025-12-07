@@ -95,7 +95,7 @@ The **DMG** folder is the main location for all the assembly language source cod
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/1</div>
   <div markdown="1" class="rr-post-markdown">
-The first disk containes the files described in the table below:
+The first disk contains the files described in the table below:
 
   </div>
 </section>  
@@ -118,7 +118,7 @@ ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/2</div>
   <div markdown="1" class="rr-post-markdown">
-The second disk containes the files described in the table below:
+The second disk contains the files described in the table below:
 
   </div>
 </section>  
@@ -150,7 +150,7 @@ ZVD | .DMG | Game Boy Z80 Assembly file for Demo Background VRAM Data
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/3</div>
   <div markdown="1" class="rr-post-markdown">
-The third disk containes the files for enemy logic described in the table below:
+The third disk contains the files for enemy logic described in the table below:
   </div>
 </section>  
 
@@ -295,12 +295,12 @@ One interesting file is that `HDT.EXE` is included here which is the NES/Famicom
 **SNES Assembler**
 Another interesting file is that `IS65.EXE` is included here which is the Official Super Nintendo Entertainment System assembler created by Intelligent Systems in 1990. It seems to have been written by the developer **Toshio Sengoku**.
 
-The file `VRAMTR.CVT` which is a script in a custom programming langauge that is parsed by the `FCV` program. The comments at the beginning of the file indicate that it takes an input file with a ".SCR" extension and outputs a file with a ".X65" extension.
+The file `VRAMTR.CVT` which is a script in a custom programming language that is parsed by the `FCV` program. The comments at the beginning of the file indicate that it takes an input file with a ".SCR" extension and outputs a file with a ".X65" extension.
 
 **File Convert Program**
 The File Convert Program (`FCV`) tool was created in 1987 by Intelligent Systems so it is likely it was also part of the Famicom Software Development Kit.
 
-The commands in the script appear to be performing various operations related to transferring data to VRAM. For example, the "VRAD=$2000" command sets the screen address, and the "DTPT=0" command initializes the data pointer. The script also includes commands for writing screen data and attribute data to VRAM.
+The commands in the script appear to be performing various operations related to transferring data to VRAM. For example, the `VRAD=$2000` command sets the screen address, and the `DTPT=0` command initializes the data pointer. The script also includes commands for writing screen data and attribute data to VRAM.
 
 **Character conversion**
 The Bash script `DCGDMG.BAT` is used to convert a file with the extension ".DCG" (presumably containing character graphics) from the FM-R50 system (a Japanese computer system from the 80s) to a source code file with the extension ".DMG". 
@@ -352,7 +352,7 @@ This folder contains the following sub-directories:
 
 The changes made to this version are mainly small code comment changes and are described in the table below:
 
-File Name | Extension | Changes made comapred to previous version
+File Name | Extension | Changes made compared to previous version
 ---|---|---
 ZBD | .DMG | Differences to BG Bank Data Comments for: Clerk 1/2, Boomerang, Rotating Turret, Test Marine, Fishing Clerk, Fishes
 ZBN | .DMG | Differences to two comments from "使ってねー" to "使ってねーよ" which both mean "Don't use it", the final particle "よ" adds a more forceful tone
@@ -865,7 +865,7 @@ gekigake1c | .cgx | Slightly different version of gekigake1.cgx
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/TEXT</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains documentation that was used to produced the German translation of tghe game. It also seems to contain some French documents so it may have initially been both French and German before the separate French folder was created.
+ This folder contains documentation that was used to produced the German translation of the game. It also seems to contain some French documents so it may have initially been both French and German before the separate French folder was created.
 
   </div>
 </section>
@@ -881,7 +881,7 @@ Color GB German Translation_new | .doc | Small list of german tranaslations
 D3_change | .doc | Minor change to Mr. Tanaka dialog
 G1_ 1208 | .doc, .txt | Changes as of December 8th, 1998
 MasterLog French | .xls | List of French translation bugs from 1998
-MasterLog French95 | .xls | Same as `MasterLog French.xls` no idea why they added the 95 suffix as it stil cotnains 1998 bugs
+MasterLog French95 | .xls | Same as `MasterLog French.xls` no idea why they added the 95 suffix as it still contains 1998 bugs
 Textbugs0712 | .doc, .txt | German translation bugs from December 7th, 1998
 chkText | .txt, .txt~ | List of Bug Fixes (in Japanese)
 chk_text | .txt | List of Bug Fixes (in Japanese)
