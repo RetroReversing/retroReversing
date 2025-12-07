@@ -245,7 +245,7 @@ The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy N
 The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZWQ0591PAxM?si=x6hKn2GerV5wqSSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-It mentioned Metatiles and tehcniques for oiptimizing tile usage (removing duplicates and using mirroring).
+It mentioned Metatiles and techniques for optimizing tile usage (removing duplicates and using mirroring).
 
 ---
 ## Graphics & Rendering

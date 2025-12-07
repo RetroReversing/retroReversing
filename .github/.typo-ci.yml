@@ -19,6 +19,8 @@ excluded_files:
 # Any words we should ignore?
 excluded_words:
   - typoci
+  - Ghidra
+  - SEGA
   - NES
   - Famicom
   - Enix
