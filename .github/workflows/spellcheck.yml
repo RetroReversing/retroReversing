@@ -39,5 +39,6 @@ jobs:
           persist-credentials: false
       - uses: streetsidesoftware/cspell-action@v8
         with:
-          strict: false
+          strict: true
           suggestions: true
+          report: flagged
