@@ -100,7 +100,7 @@ Although the name **ProDG** was originally used to refer to the SN Systems IDE t
 ### ProDG for GameCube
 SN Systems released their ProDG development kit for GameCube in 2001 and worked alongside the official Nintendo GameCube development kit (NR-Reader) by providing a **SN-TDEV** that was used for efficient debugging on the system.
 
-{% include link-to-other-post.html post="/prodg-gamecube" description="For more information on the GameCube version of ProDG check out this post." %}
+{% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For more information on the GameCube version of ProDG check out this post." %}
 
 ### ProDG for GBA
 There was also a version of ProDG available for the **Game Boy Advance** released in 2001 as an alternative to the official development kit from Nintendo.

@@ -58,7 +58,7 @@ These executable files are able to be opened in IDA Pro and radare2 for reverse 
 The Windows CE SDK for dreamcast came with a tools folder which contains a few GUI-based programs for developers to help debug and optimise their games.
 
 ## GD Workshop
-{% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
+{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about GD Workshop check out this post." %}
 
 ## Dreamcast Tool (dctool.exe)
 <section class="postSection">

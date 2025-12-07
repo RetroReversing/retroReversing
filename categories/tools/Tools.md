@@ -49,7 +49,7 @@ Understand the role of early compilers and their impact on game performance and 
 - **Assemblers**: Programs like **MASM** and **TASM** that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
 
-{% include link-to-other-post.html post="/GNU-GCC" description="For more information on how GNU GCC was used in game development check out this post." %}
+{% include link-to-other-post.html post="/compilers" description="For more information on how GNU GCC was used in game development check out the GCC section in the compiler post." %}
 
 ---
 
@@ -64,8 +64,6 @@ These IDEs provided comprehensive toolsets for coding, debugging, and testing, s
 - **Turbo C++**: An early IDE by Borland, Turbo C++ was known for its simplicity and speed, providing a streamlined environment for writing and testing code quickly.
 
 These IDEs were pivotal in creating the games that defined a generation, providing the necessary tools and environments to bring imaginative worlds to life.
-
-{% include link-to-other-post.html post="/game-development-ides" description="For more information on Game Development IDEs used in the 90s and early 00s, check out this post." %}
 
 An advert for attracting game developers to use **Microsoft Visual Studio** from the September 2007 issue of **Develop** magazine:
 ![Microsoft Visual Studio](https://github.com/user-attachments/assets/290b146d-d4ef-411c-93cb-64cb4b8c8b74)

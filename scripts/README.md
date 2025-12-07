@@ -96,6 +96,36 @@ Generate the tags export file first:
 node scripts/extract-tags.js --export-json
 ```
 
+## validate-includes.js
+
+Validates all `{% include link-to-other-post.html post="..." %}` references in markdown files to ensure the `post=` parameter matches an actual post's permalink.
+
+### Usage
+```bash
+node scripts/validate-includes.js
+```
+
+### Description
+- Scans all markdown files in `categories/` and `pages/` for `{% include link-to-other-post.html post="..." %}` syntax.
+- Checks that each `post=` value matches a valid permalink from the frontmatter of any markdown file.
+- Reports any invalid or missing references, including line numbers and suggestions for similar permalinks.
+
+### Output
+- Summary of total files processed and files with invalid references
+- Detailed file-by-file error report with line numbers and suggestions
+- Exits with code 0 (all references valid) or 1 (invalid references found)
+
+### Example
+```bash
+node scripts/validate-includes.js
+```
+
+### Fixing Issues
+- Ensure the referenced post exists and has a `permalink` in its frontmatter
+- Verify the `post=` path matches the exact permalink (case-sensitive)
+- Remove or update references to non-existent posts
+- Fill in or remove empty post paths (e.g., `post="//"`)
+
 ## GitHub Action Integration
 
 The repository includes a GitHub Action (`.github/workflows/markdown-validation.yml`) that automatically runs these scripts on pull requests to ensure content quality.

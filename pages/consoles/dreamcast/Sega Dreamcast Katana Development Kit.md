@@ -77,7 +77,7 @@ You can see the GD-Writer in action in this video by Adam Koralik [^1]:
 
 In order to use the GD-Writer hardware you would need to run a program called GD Workshop on your dreamcast DEV.BOX.
 
-{% include link-to-other-post.html post="/dreamcast-gd-workshop/" description="For information about GD Workshop check out this post." %}
+{% include link-to-other-post.html post="/sega-dreamcast-gd-workshop" description="For information about GD Workshop check out this post." %}
 
 ---
 ## Cross Products Dreamcast GD-ROM Duplicator GD-X (HKT-0500)

@@ -115,7 +115,7 @@ Games with Source Code Leaked:
 {% include link-to-other-site.html url="https://hiddenpalace.org/Mortal_Kombat_Trilogy_(May_13,_1996_prototype)" description="" image="https://i.ytimg.com/vi/dXuNTPYF42A/hqdefault.jpg" title="Mortal Kombat Trilogy"  %}
 
 ### Turok 64
-{% include link-to-other-post.html post="/turok" description="For more information on the Turok source code check out this post." %}
+{% include link-to-other-post.html post="/turok64sourcecode" description="For more information on the Turok source code check out this post." %}
 
 ---
 ## Nintendo Wii

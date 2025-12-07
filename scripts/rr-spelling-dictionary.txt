@@ -6,6 +6,7 @@ Bookazines
 Compuware
 Connectix
 Copetti
+Courtside
 Datel
 decompilation
 decompiler
@@ -19,6 +20,7 @@ Ecco
 Famicom
 Frida
 Frogger
+frontmatter
 Gamecube
 Gerdy
 Ghidra
@@ -29,6 +31,7 @@ Hollingworth
 Intellivision
 ISAS
 Izuka
+Kombat
 Krome
 LaMothe
 libretro
@@ -65,6 +68,7 @@ Takashi
 Tetris
 Timesplitters
 TurboGrafx
+Turok
 twitterimage
 W32Dasm
 Wario
