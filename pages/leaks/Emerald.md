@@ -216,7 +216,7 @@ Please note we are not sure what CRS stands for and AHB and AHM are unconfirmed.
 
 ---
 ## Hardware Development Kit (HDK) (tako_main_052306.tgz/hdk)
-The Hardware development kit contains two versions, one for Linux and another for windows, they are seperated into two different directories:
+The Hardware development kit contains two versions, one for Linux and another for windows, they are separated into two different directories:
 * **intel_i686_linux_2.4.9-13smp** - Linux based GNU toolchain - but doesn't contain actual files
 * **win32** - PC tools used for development such as Codewarriro
 

@@ -131,16 +131,16 @@ Ronin integrated **DMM and Euphoria**, producing realistic, non-repeating physic
 ---
 ## PS2, PSP and Wii Version
 The PS2, PSP and Wii versions of "Star Wars: The Force Unleashed" are not build by **LucasArts** and thus are not using their proprietary **Ronin** engine. 
-Instead they were developed by **Krome Studios**, a completely seperate studio known for action-platformers and movie tie-in games. 
+Instead they were developed by **Krome Studios**, a completely separate studio known for action-platformers and movie tie-in games. 
 
-Krome developed these versions with a separate engine called **Merkury** tailored for the older hardware and with unique content and gameplay elements. 
+**Krome** developed these versions with a separate engine called **Merkury** tailored for the older hardware and with unique content and gameplay elements. 
 The physics engine for these versions of the game use the **Open Dynamics Engine** (ODE) rather than Havok due to the performance constraints of the PS2, PSP and Wii.
 
-It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used by a third party developer, so we presume these versions were not made using Zed and any assets were either sent over manually to the studio or made custom by **Krome**. This is also confirmed by analysing the game files for the Merkury versions as there is no reference to any of LucasArts tools and the Merkury engine was used on games before this project so it would be unlikely that they would share any code from **Ronin**.
+It is unlikely that ILM/LucasArts would allow their Zeno/Zed software to be used by a third party developer, so we presume these versions were not made using Zed and any assets were either sent over manually to the studio or made custom by **Krome**. This is also confirmed by analysing the game files for the **Merkury** versions as there is no reference to any of LucasArts tools and the **Merkury** engine was used on games before this project so it would be unlikely that they would share any code from **Ronin**.
 
-We have a seperate post on the Merkury engine including analyzing the various game data formats used and any debug information left in the game, you can check it out below:
+We have a separate post on the **Merkury** engine including analyzing the various game data formats used and any debug information left in the game, you can check it out below:
 
-{% include link-to-other-post.html post="/krome-merkury-engine" description="For more information on the Merkury engine by Krome Studios check out this post." %}
+{% include link-to-other-post.html post="/krome-merkury-engine" description="For more information on the **Merkury** engine by **Krome Studios** check out this post." %}
 
 ---
 ## iOS and N-Gage Version
@@ -152,12 +152,12 @@ There was a very simple version released in 2008 for both **iOS** and **N-Gage**
 # The Zeno Application Framework
 ![Zeno 3.9.7 from September 13th 2013](https://github.com/user-attachments/assets/63219e5f-8877-4725-b1b7-4fdbbfdd5308)
 
-To find out more about Zed we need to take a look at the underlying foundation - the Zeno Application Framework. As ILM are very secrative, very few details or screenshots are available online about Zeno so some of the information may be incorrect.
+To find out more about Zed we need to take a look at the underlying foundation - the Zeno Application Framework. As ILM are very secretive, very few details or screenshots are available online about Zeno so some of the information may be incorrect.
 
 Essentially **Zeno** is a powerful digital content creation pipeline used for managing everything from 3D models and lighting to animation and physics simulations and it is proprietary software used in-house at ILM.
 
 ## The Interface
-The Interface for Zeno is heavily inspired by Maya with a shelf at the top and outliners for hierarchical views.
+The Interface for Zeno is heavily inspired by Maya with a shelf at the top and outlines for hierarchical views.
 
 Based on the screenshot we can presume the following shelves are available:
 

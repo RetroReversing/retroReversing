@@ -29,7 +29,7 @@ So grab your DualShock controller, and get ready to dive into the exciting world
 
 ---
 # Hardware
-Similar to the original Playstation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
+Similar to the original PlayStation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
 
 The main parts of the PS2 hardware were:
 * Emotion Engine (64 bit MIPS processor + 2 vector processors)
@@ -37,13 +37,13 @@ The main parts of the PS2 hardware were:
 * 48-Channel sound chip (SPU2)
 
 ## Retail Hardware
-For an in-depth look at the Playstation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:
-{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-2/" description="Copetti.org has an excellent tear down of the Playstation 2 Hardware and how it works" image="https://www.copetti.org/images/consoles/ps2/_hue8a2466eba16e1ae3cd9542d2db31c8a_66348_dcb7ac7ba1db910c9628de3127aa9544.webp" title="Playstation 2 Architecture - A Practical Analysis"  %}
+For an in-depth look at the PlayStation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:
+{% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-2/" description="Copetti.org has an excellent tear down of the PlayStation 2 Hardware and how it works" image="https://www.copetti.org/images/consoles/ps2/_hue8a2466eba16e1ae3cd9542d2db31c8a_66348_dcb7ac7ba1db910c9628de3127aa9544.webp" title="PlayStation 2 Architecture - A Practical Analysis"  %}
 
 
 ## Development Hardware
-The hardware used to develop Playstation 2 games was similar but had an increase in memory along with a few debugging features. The details are covered in a seperate post:
-{% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's Playstation Two development hardware check out this post." %}
+The hardware used to develop PlayStation 2 games was similar but had an increase in memory along with a few debugging features. The details are covered in a separate post:
+{% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's PlayStation Two development hardware check out this post." %}
 
 Later in the PS2's lifetime SN Systems released a specific development kit for developing online multiplayer PS2 games compatible with the PS2 Modem called the Network Development Kit (NDK).
 
@@ -51,7 +51,7 @@ Later in the PS2's lifetime SN Systems released a specific development kit for d
 
 ## Third Party Hardware
 
-### Playstation 2 Olympus Eye-Trek FMD-20 
+### PlayStation 2 Olympus Eye-Trek FMD-20 
 Olympus managed to get an official license for "VR goggles" specifically for the PS2 which were supposed to simulate a 52 inch tv floating in front of your eyes. Sounds like a great idea for a cheaper large screen tv without taking all the space, however prolonged use did cause headaches due to only having 180k pixels per eye, much lower than modern VR headsets.
 
 Review from PSi2 magazine issue 18:

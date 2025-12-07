@@ -23,7 +23,7 @@ For example simply disassembling a compiled binary and releasing it is equivalen
 ## What about annotated disassemblies?
 Most reverse engineering projects don't just convert a binary executable to a direct assembly source file, they add annotations to the assembly such as comments, variable and function names. You could argue (in court) that these annotations have created a *derivative work* if the annotations are substantial enough to justify such a claim.  
 
-## Keep anotations seperate
+## Keep anotations separate
 The safest way legally speaking would be to distribute the annotations (comments, variable/function names) separate from the source material (disassembled code). One example of this is releasing a *symbol table* which contains the variable/function names along with their position in the original executable, it would then be up to the end-user to disassemble and join the symbol table to the output.
 
 Some impressive examples of disassembly annotations that are available on Github are covered in our post: 

@@ -8,11 +8,12 @@
             "addWords": true
         }
     ],
-  "ignoreRegExpList": [
-    "`[^`]+`",
+   "ignoreRegExpList": [
+    "\\`[\\w-]+\\`",
     "\\*\\*[^*]+\\*\\*",
     "\\[[^\\]]+\\]",
-    "\"[A-Za-z0-9_]+\""
+    "\"[A-Za-z0-9_-]+\"",
+    "\"\\/[A-Za-z0-9_-]+"
   ],
   "flagWords": ["hte", "seperate", "indefinetly", "completly"],
   "dictionaries": ["rr-words", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],

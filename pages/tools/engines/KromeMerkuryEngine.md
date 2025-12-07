@@ -865,7 +865,7 @@ The PS1 version of Championship Surfer (**SLUS_012.16**) has no mention of the M
 * **David Gilligan**
 
 ### Assets in the PS1 version
-The PS1 version **does not use** the RKV archive format and instead has files seperately on the disc in various PS1 optimized file formats (e.g TIM).
+The PS1 version **does not use** the RKV archive format and instead has files separately on the disc in various PS1 optimized file formats (e.g TIM).
 
 This is common with PS1 games as they all use a standard ISO 9660 filesystem, allowing individual files (textures, models, audio, maps, scripts, etc.) to be stored as separate, accessible files. 
 
@@ -1202,7 +1202,7 @@ They show how the 3D artists named their 3ds max scene files:
 It also shows the organised folder structure used during development of the game:
 * `G:\Goofy Skateboarding\data\Models\Textures\badge.tga`
 * `\\Krome-fs4\data12\Goofy\Goofy Skateboarding\data\Models\Textures\ramp2.tga` - Shared Network drive?
-* `\\Krome-fs4\data12\Goofy\Graphics\Screens\S08_Beach\S08_03_BoardWalk\textures\jetty.bmp` - I wonder why screen graphics were kept seperate?
+* `\\Krome-fs4\data12\Goofy\Graphics\Screens\S08_Beach\S08_03_BoardWalk\textures\jetty.bmp` - I wonder why screen graphics were kept separate?
 
 ### Level files - .lvl
 The level files are plain text XML data which links together all the other files, it is extremely modder friendly, here is an example:

@@ -106,7 +106,7 @@ However looking closely at the keyboard and the PC we can see its a **Sony NEWS*
 
 ---
 ## Was there an official SDK?
-**Yes**, we have a seperate page for the Official Super Nintendo Software Development kits:
+**Yes**, we have a separate page for the Official Super Nintendo Software Development kits:
 
 {% include link-to-other-post.html post="/super-famicom-snes-sdk/" description="For more information about the **Super Nintendo** software development kit check out this post" %}
 
