@@ -35,11 +35,11 @@ Whether you're interested in understanding the hardware architecture of retro CP
 So grab your keyboard and mouse, and get ready to dive into the exciting world of DOS reverse engineering!
 
 ## Windows PC Game Reversing
-Note that if you are interested in reversing Windows bases PC games we have a seperate post on that topic:
+Note that if you are interested in reversing Windows bases PC games we have a separate post on that topic:
 {% include link-to-other-post.html post="/pc/" description="For more information on Windows PC game reversing check out this post." %}
 
 ## MSX Game Reversing
-Note that if you are interested in the MSX PC we have a seperate post on that topic:
+Note that if you are interested in the MSX PC we have a separate post on that topic:
 {% include link-to-other-post.html post="/msx" description="For more information on the MSX check out this post." %}
 
 ---

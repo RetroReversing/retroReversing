@@ -1,0 +1,20 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaryDefinitions": [
+        {
+            "name": "rr-words",
+            "path": "./scripts/rr-spelling-dictionary.txt",
+            "addWords": true
+        }
+    ],
+  "ignoreRegExpList": [
+    "`[^`]+`",
+    "\\*\\*[^*]+\\*\\*",
+    "\\[[^\\]]+\\]",
+    "\"[A-Za-z0-9_]+\""
+  ],
+  "flagWords": ["hte", "seperate", "indefinetly", "completly"],
+  "dictionaries": ["rr-words", "cpp", "computing-acronyms", "software-tools", "softwareTerms", "en-gb"],
+  "ignorePaths": ["node_modules", "public", ".github"]
+}

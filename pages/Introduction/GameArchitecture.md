@@ -46,7 +46,7 @@ When we talk about basic game architecture we are talking about the bare minimum
 - **Game Logic:** Implements the rules and mechanics of the game. It includes the overall game flow, scoring, win/lose conditions, and other gameplay-related features.
 - **User Interface (UI):** Handles the display of information to the player, including menus, HUD (heads-up display), and other graphical elements.
 
-These are just the standard building blocks of a game and it is likely any game that you want to reverse engineer has seperated their game code into distinct blocks of each of these. 
+These are just the standard building blocks of a game and it is likely any game that you want to reverse engineer has separated their game code into distinct blocks of each of these. 
 Whether the blocks are entire modules (e.g dlls) or simply just different code files (e.g .cpp), it is likely that when the code has been compiled into the final executable the functions for each category are close to each other. Of course sometimes compilers move code around for optimization purposes, but in general if you find a function that does audio handling, it is likely that the function before and after it will also be related to audio handling.
 
 ---
