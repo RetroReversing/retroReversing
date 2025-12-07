@@ -197,13 +197,17 @@ Unity 2.0 was released on the 10th October 2007 [^11] and claimed to have 50 new
 For a full list of new features you can view the original 2007 site on the Wayback Machine:
 [What's new in Unity 2.0](https://web.archive.org/web/20071012120650/http://unity3d.com/unity/whats-new/unity-2.0)
 
-### Tutorial project - Island Demo
-<img width="339" height="277" alt="image" src="https://github.com/user-attachments/assets/0eea5d50-58c6-48a0-89e2-feb963b23dca" />
+### Tech Demo - Tropical Island
+<img width="339" height="277" alt="Unity Tropical Island Demo" src="https://github.com/user-attachments/assets/0eea5d50-58c6-48a0-89e2-feb963b23dca" />
 
-This was the default project that shipped with the Unity installer. It was a simple First Person Shooter (FPS) setup on a small terrain island with a hut, some physics crates, and a shooting mechanic. It taught users the basics of terrain, rigidbodies, and the FPS controller.
+This was the default project that shipped with the Unity installer. Released to showcase Unity 2.0's upgraded graphics, specifically the new terrain engine, dynamic shadows, and water effects. It was a non-interactive "flythrough" style demo that looked significantly better than the visual standard of the time for web-based 3D.
 
 You can find an updated version for Unity 2020 on Github: [mstevenson/UnityIslandDemo: Unity Island Demo upgraded to Unity 2020](https://github.com/mstevenson/UnityIslandDemo)
 
+### Tutorial Project - Lerpz (The 3D Platformer Tutorial)
+This became one of the most iconic Unity tutorials. It featured a small alien character named "Lerpz" in a sci-fi environment. It was designed to teach character controllers, jumping mechanics, and collecting items (fuel cells).
+
+---
 ## Unity 2.1 (2008)
 <img width="614" height="312" alt="Unity 2.1 Interface from 2008" src="https://github.com/user-attachments/assets/2286c0cf-0fd6-4140-a85e-fb417d71e659" />
 
