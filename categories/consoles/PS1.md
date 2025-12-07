@@ -137,7 +137,7 @@ It was initially called **PSY-Q** and even although it was owned by Sony it was 
 
 Sony later rebranded the SDK to **SDevTC** at some point in 1998(?).
 
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For more information on Official SDK for the PlayStation 1 check out this post." %}
+{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on Official SDK for the PlayStation 1 check out this post." %}
 
 ## Official 3D Graphics Tools (DTL-S220A)
 In August 1998 Sony provided a CD to developers with a bunch of 3D Graphics tools[^2] such as:

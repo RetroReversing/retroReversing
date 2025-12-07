@@ -5,14 +5,14 @@ tags:
 - hardware
 - devkit
 title: Official PlayStation 1 Development Kit (Hardware)
-thumbnail: /public/consoles/Sony Playstation.png
+thumbnail: /public/consoles/Sony PlayStation.png
 image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
 twitterimage: https://www.retroreversing.com/public/images/psOneTool.jpg
 permalink: /official-playStation-devkit
 breadcrumbs:
   - name: Home
     url: /
-  - name: Sony Playstation
+  - name: Sony PlayStation
     url: /ps1
   - name: Official PlayStation 1 Development Kit (Hardware)
     url: #
@@ -26,15 +26,15 @@ videocarousel:
     image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
     youtube: 'y3aKAFafPoc'
 ---
-This post covers the hardware used to develop Playstation One games by major studios back in the day, for the software side see the post on the PsyQ Software Development Kit.
+This post covers the hardware used to develop PlayStation One games by major studios back in the day, for the software side see the post on the PsyQ Software Development Kit.
 
-{% include link-to-other-post.html post="/official-playstation-1-software-development-kit-(psyq)/" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
+{% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For the software side of the PS1 development kit (PsyQ) check out this post." %}
 
 
 # PC Development Environment
 <img src="/public/images/psOneTool.jpg"/>
 
-Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing playstation games.
+Unlike previous games consoles, Sony decided to use a system that plugs in to a standard PC instead of rolling their own development hardware. This allowed developers to use their PC development experience and tools straight to work when developing PlayStation games.
 
 
 EDGE magazine issue 20 had the following to say about this decision:
@@ -52,15 +52,15 @@ The vast majority of non-Japanese developers are focusing on both formats (in Ja
 [^2]
 
 ---
-# MW.3 (Original Prototype Playstation)
-Original Prototype PS1 given to only a few developers such as SN Systems and was called MW.3, it was only used for very early playstation games. This was basically just an entitre prototype playstation and the hardware differes from the finally released retail playstation, a photo of it was provideded in EDGE issue 20:
+# MW.3 (Original Prototype PlayStation)
+Original Prototype PS1 given to only a few developers such as SN Systems and was called MW.3, it was only used for very early PlayStation games. This was basically just an entire prototype PlayStation and the hardware differes from the finally released retail PlayStation, a photo of it was provided in EDGE issue 20:
 <img src="/public/magazine/PS1OriginalDevKitMW3_EDGE_Issue_20.png" />
 
-Notice that it looks very similar to the `Sony Network Engineering Workstation` (NEWS) which was a line of Unix workstation computers that Sony developed in the late 80s and early 90s. It is likely the same machine but with added hardware for Playstation graphics and sound capabilities, more information on the Sony NEWS is available on Wikipedia: [Sony NEWS - Wikipedia](https://en.wikipedia.org/wiki/Sony_NEWS)
+Notice that it looks very similar to the `Sony Network Engineering Workstation` (NEWS) which was a line of Unix workstation computers that Sony developed in the late 80s and early 90s. It is likely the same machine but with added hardware for PlayStation graphics and sound capabilities, more information on the Sony NEWS is available on Wikipedia: [Sony NEWS - Wikipedia](https://en.wikipedia.org/wiki/Sony_NEWS)
 
 ---
 # Twin ISA Development Kit:
-The Twin ISA development kit was the most popular development kit used for the playstation:
+The Twin ISA development kit was the most popular development kit used for the PlayStation:
 <img src="/public/magazine/PS1DevKitTwinISA_EDGE_Issue_20.png" />
 
 ---
@@ -81,20 +81,20 @@ The CD emulator card developed by SN Systems (yellow card in above screenshot) i
 [^2]
 
 ---
-# Blue Debugging Playstation
-The Blue debugging playstation is described in the EDGE UK magazine issue 20:
-> However, the few differences between the development kit and a production Playstation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
+# Blue Debugging PlayStation
+The Blue debugging PlayStation is described in the EDGE UK magazine issue 20:
+> However, the few differences between the development kit and a production PlayStation mean that final testing is done on a blue debugging PlayStation - this is the closest it gets to running on a production console before the complete game is submitted to Sony for duplication.  
 [^2]
 
 ---
 # PSY-Q PlayStation Plug-in
-To go along with the PC based development environment, SN Systems also developed a custom plugin for the back of the playstation debug unit. This turns the debug unit into a full development environment!
+To go along with the PC based development environment, SN Systems also developed a custom plugin for the back of the PlayStation debug unit. This turns the debug unit into a full development environment!
 
 <img src="/public/magazine/Sn Systems hadrware for Ps1 PsyQ in Next_Generation_Issue_015_March_1996_0083-2.jpg" />
 [^1]
 
 # PS1 Sound Artists Dev Board
-There was also development hardware specifically tailored towards Sound engineers so that they didn't require a full PS1 development kit to test their audio on Playstation hardware.
+There was also development hardware specifically tailored towards Sound engineers so that they didn't require a full PS1 development kit to test their audio on PlayStation hardware.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">PS1 Sound Artists Dev Board!! <br>On eBay....😎👌<a href="https://twitter.com/hashtag/PS1Dev?src=hash&amp;ref_src=twsrc%5Etfw">#PS1Dev</a> <a href="https://twitter.com/hashtag/PlayStation?src=hash&amp;ref_src=twsrc%5Etfw">#PlayStation</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a> <a href="https://twitter.com/hashtag/RETROGAMING?src=hash&amp;ref_src=twsrc%5Etfw">#RETROGAMING</a> <a href="https://t.co/LOwjef1bu9">https://t.co/LOwjef1bu9</a> <a href="https://t.co/9pyygY72kl">pic.twitter.com/9pyygY72kl</a></p>&mdash; BehindTheCode (@GerryRobotics) <a href="https://twitter.com/GerryRobotics/status/1312002590645932033?ref_src=twsrc%5Etfw">October 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -120,5 +120,5 @@ These photos are kindly contributed by Andrew Earley who recently obtained the d
 # References
 [^1]: Next generation issue 15 from March 1996
 [^2]: EDGE issue 20
-[^3]: [SONY TOOL Playstation One PS1 Development DTL Devkit Debugging RARE PROTOTYPE](https://www.ebay.com/itm/SONY-TOOL-Playstation-One-PS1-Development-DTL-Devkit-Debugging-RARE-PROTOTYPE/173864533814)
+[^3]: [SONY TOOL PlayStation One PS1 Development DTL Devkit Debugging RARE PROTOTYPE](https://www.ebay.com/itm/SONY-TOOL-PlayStation-One-PS1-Development-DTL-Devkit-Debugging-RARE-PROTOTYPE/173864533814)
 [^4]: [Andrew on Twitter Twitter](https://twitter.com/AndrewEarley7/status/1276871457272823808)
