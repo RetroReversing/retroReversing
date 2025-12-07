@@ -72,7 +72,7 @@ Fake Name | Address | Purpose
 Boot() | 0xa4000040 | Start of Bootcode (Initialize C0P and RCP)
 SevenSeventyEight() | 0xa4000778 |
 EightEighty() | 0xa4000880 |
-AFourty() | a4000a40
+AForty() | a4000a40
 
 We will simplify the code by treating each block of code as a C function, and what better place to start than the code at address `0xA4000040`:
 ```c
@@ -193,14 +193,14 @@ void Boot_a4000040()
     do {
       if (puVar19[1] == -0x4ff70000) {
         *(iVar12 + 4) = iVar16;
-        AFourty(*puVar19,1); // call AFourty_a4000a40()
+        AFourty(*puVar19,1); // call AForty_a4000a40()
         uVar14 += 0x100000;
         *(iVar12 + 4) = iVar15;
         iVar5 = extraout_v1;
       }
       else {
         *(int *)(iVar12 + 4) = iVar15;
-        AFourty(*puVar19,1); // call AFourty_a4000a40()
+        AFourty(*puVar19,1); // call AForty_a4000a40()
         iVar15 = iVar15 + 0x8000000;
         iVar5 = extraout_v1_00;
       }
@@ -393,7 +393,7 @@ After running the boot code in an emulator I traced each unique instruction exec
 
 The boot code that executed came to 438 lines of MIPS assembly which is listed below:
 ```asm
-; Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISSASSEMBLED_BYTES]
+; Format of code is 0xMEMORY_ADDRESS: [HEX_BYTES] DISASSEMBLED_BYTES]
 ; First initialise the Coprocessor 0 memory
 ; Copy $zero to C0_CAUSE (Cause of Last Exception) in coprocessor 0.
 ; Repeated for Timer Count (C0_COUNT) and Timer Compare (C0_COMPARE)

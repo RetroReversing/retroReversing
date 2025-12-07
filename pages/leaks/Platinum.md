@@ -582,7 +582,7 @@ When the RAR file is extracted the contents are:
 
 The DPDeliver application for Windows is a tool to create a Pokemon Distribution event ROM, it is completely in Japanese.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">DPDeliver.exe, a program that is NOT rendering correctly for me in American Locale, but, this can generate a distro ROM for Gen 4 Pokemon game events I think. <a href="https://t.co/CJboJPhIjX">pic.twitter.com/CJboJPhIjX</a></p>&mdash; Kaitlyn Molinas (@orcastraw) <a href="https://twitter.com/orcastraw/status/1304912291700371456?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">DPDeliver.exe, a program that is NOT rendering correctly for me in American Locale, but, this can generate a distro ROM for Gen 4 Pokemon game events I think. <a href="https://t.co/CJboJPhIjX">pic.twitter.com/CJboJPhIjX</a></p>&mdash; Kaitlyn Molinas (@orcastraw) <a href="https://twitter.com/orcastraw/status/1304912291700371456?ref_src=twsrc%5Etfw">September 12, 2020</a></blockquote> 
 
 The **.NLF** file is interesting as it is a **NitroROM List File** as it seems to list the contents of the DS SRL file, it lists the contents of the DS ROM as follows:
 * bin/ARM9-TS/Release/templateds_header.sbin

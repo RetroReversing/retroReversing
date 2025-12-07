@@ -20,36 +20,31 @@ editlink: /consoles/ps1/PS1 PsyQ Linker.md
 ---
 
 ## PSY-Q Linker Files
-The PS1 linker files for the game chicken run by Blitz Games were made publicly available and are available for both the release and the demo version: `crtest.lnk` and `crdemo.lnk` respectivly. 
+The PS1 linker files for the game chicken run by Blitz Games were made publicly available and are available for both the release and the demo version: `crtest.lnk` and `crdemo.lnk` respectively. 
 
 ### So what are these control (.lnk) files?
 Control files are files that help the linker to decide where in memory a specific binary should be placed, they can be given any extension but using .LNK was common practise as the official PSYQ development samples used this file naming convention.
 
-So if you have a .lnk file you can figure out the structure of a playstation executable, which libraries were used and what the original source file names would have been.
+So if you have a .lnk file you can figure out the structure of a PlayStation executable, which libraries were used and what the original source file names would have been.
 
 ### How would a developer use .lnk files in their workflow?
-You can pass a .lnk file as a control parameter to the PSX Linker (PSYLINK.EXE) like so:
-```c
+You can pass a .lnk file as a control parameter to the PSX Linker (`PSYLINK.EXE`) like so:
+```bash
 $(PSYLINK) /l $(LIBISL) /psx /wo /v /c /strip /nostriplib @crdemo.lnk,crdemo.cpe,crdemo.sym,crdemo.map
 ```
 
-The use of the @ operator is explained in the PSX developer documentation:
-```
-Long command lines can be stored in control files.  By using an
-'@' sign in front of the control file name the contents of the
-control file can be embedded in the command line.
+The use of the `@` operator is explained in the PSX developer documentation:
 
-The contents of the control file can be split across several lines
-without the need to use any special characters.  An end of line in
-a control file is treated as a space.
+> Long command lines can be stored in control files.  By using an '@' sign in front of the control file name the contents of the control file can be embedded in the command line.
+>
+> The contents of the control file can be split across several lines without the need to use any special characters.  An end of line in a control file is treated as a space.
+>
+> You can specify as many control files as you want on the command line and a control file can even reference another control file.
 
-You can specify as many control files as you want on the command
-line and a control file can even reference another control file.
-```
 
 ### ORG directive
 The ORG directive is normally used is assemblers/linkers to choose a specific location for certain pieces of code. For the PS1 the executable is normally started at location 0x00018000 but for demos it seems to be 0x80018000, not sure why.
-```asm
+```bash
 ;        org     $00018000
 ; 18000, this is a demo disk...
         org     $80018000
@@ -77,7 +72,7 @@ bss     group   bss
 ```
 
 ### Overlays
-The PSYQ development kit offered a uniqu feature called `Overlays` which allowed developers to switch out parts of the executable at run time, meaning they could load different executable code into memory at different times. This allowed better use of memory as developers were not limited to just the space of RAM.
+The PSYQ development kit offered a unique feature called **Overlays** which allowed developers to switch out parts of the executable at run time, meaning they could load different executable code into memory at different times. This allowed better use of memory as developers were not limited to just the space of RAM.
 
 Chicken run demo didn't use overlays but the main released game did, it looks like they made effective use of this feature by splitting the game into subgames and using the same section of memory (vid_ovl) to load the subgame in depending on where the player is.
 ```asm
@@ -92,6 +87,7 @@ sub4_ovl                group   over(vid_ovl),file("sub4_ovl.bin")     ; subgame
 deb_ovl                 group   over(vid_ovl),file("deb_ovl.bin")      ; debug menu
 ; exp_ovl			group	over(overlay1),file("exp_ovl.bin")	; explore game
 ```
+
 Also of interesting note is there is a debug menu in the game that occupies this same region of memory, does this mean the debug menu doesn't apply when in the sub games? Also what happened to sub3? they went straight to subgame 4...
 
 ### Section directive
@@ -240,12 +236,12 @@ Example based on the Chicken Run crdemo.lnk:
 ```
 
 ### Inclib Directive
-The inclib directive is very similar to the include directive but instead links in a full library of files.
+The `inclib` directive is very similar to the include directive but instead links in a full library of files.
 Example from Chicken Run source code:
-```asm
+```bash
 
 ; The ISL libraries
-; "Debug" or "Release" versions are switched betwen in the makefile
+; "Debug" or "Release" versions are switched between in the makefile
 ; by cunning use of environment variables.
 
         inclib  "islmem.lib"
@@ -299,7 +295,7 @@ Example from Chicken Run source code:
 ```
 
 # OBJ File format
-When you pass -c to `CCPSX.EXE` it can generate a compiled object for each of the source files, this is very useful when you have a make file set up using `PSYMAKE.EXE`, and you can be reasonably confident most games were developed with some sort of build system such as psymake.
+When you pass -c to `CCPSX.EXE` it can generate a compiled object for each of the source files, this is very useful when you have a make file set up using `PSYMAKE.EXE`, and you can be reasonably confident most games were developed with some sort of build system such as PsyMake.
 
 The resulting obj files are in the LINK 2 format and can be dumped using the PSYQ development tool called `DUMPOBJ.EXE`, you will have to run this in DOSBOX as it is a 16-bit executable.
 ```bash
@@ -391,6 +387,6 @@ SNMAIN   20-09-95 20:44:22 __bss __heapsize __SN_ENTRY_POINT __bsslen __data
                            __main __text __datalen __textlen 
                            __do_global_dtors __heapbase 
 ```
-Each Module would be a .c/.asm file compiled into an object file and then added to the library using the PSYLIB /a option. You can extract all the object files by pasing the `/x` command line flat to `PSYLIB.EXE`.
+Each Module would be a .c/.asm file compiled into an object file and then added to the library using the `PSYLIB /a` option. You can extract all the object files by passing the `/x` command line flat to `PSYLIB.EXE`.
 
 

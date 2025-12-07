@@ -185,8 +185,8 @@ This folder just contains the RFC specification for RFC2313 in both english and 
 ## Projects (/プロジェクト)
 The files in this folder are:
 * Arch
-* FANGATE - The Nintendo NFC adapter codenamed fangate vulnarabilities
-* FANG検討 - FANG review (NFC amiibo vulns)
+* **FANGATE** - Vulnerabilities for the Nintendo NFC adapter codenamed "fangate"
+* FANG検討 - FANG review (NFC Amiibo vulnerabilities)
 * INDY検討
 * Knock_And_Talk_directcnotact
 * NTR
@@ -196,7 +196,7 @@ The files in this folder are:
 * PUMP
 * S1.5
 * SNAKE - Switch security
-* amiibo
+* Amiibo
 * whiteCryption - security system
 * コードレビュー - Code Review
 * 新井さん下村さん案件 - Mr. Arai and Mr. Shimomura
@@ -273,7 +273,7 @@ This folder contains the following files:
 * ap_kt_discussion.15apr2013.key.pdf - presentation discussing other potential targets including geohot
 * 報奨金制度 - Reward system
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nintendo made an entire list of actions for approaching a 3DS hacker lol. <a href="https://t.co/B8CJzXpnSo">https://t.co/B8CJzXpnSo</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1341211680601034752?ref_src=twsrc%5Etfw">December 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nintendo made an entire list of actions for approaching a 3DS hacker lol. <a href="https://t.co/B8CJzXpnSo">https://t.co/B8CJzXpnSo</a></p>&mdash; Forest of Illusion (@forestillusion) <a href="https://twitter.com/forestillusion/status/1341211680601034752?ref_src=twsrc%5Etfw">December 22, 2020</a></blockquote> 
 
 
 ### NTR

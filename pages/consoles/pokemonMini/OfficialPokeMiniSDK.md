@@ -105,4 +105,4 @@ https://minimon.scyl.us/
 [GitHub - pokemon-mini/mindis2: Pokémon Mini ROM disassembler](https://github.com/pokemon-mini/mindis2)
 
 # References
-[^1]: Jhynjhiruu, Scylus (aka asterick) and VirtualChris on PokeMini Dev Discord
+[^1]: Jhynjhiruu, Scylus (aka `asterisk`) and VirtualChris on PokeMini Dev Discord

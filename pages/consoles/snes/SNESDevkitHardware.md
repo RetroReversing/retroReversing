@@ -91,7 +91,7 @@ There is the `Super Famicom Debugger` Manual on Archive.org which was provided w
 </section>
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">For a dev kit, this SF Box-II unit for the SFC that&#39;s on Yahoo Japan right now is charmingly quaint. Sources indicate that this bad boy used to cost a cool 2.5 million yen, which was still apparently cheaper than the Sony workstations devs apparently had to use at first. <a href="https://t.co/5TvPEW5HPD">pic.twitter.com/5TvPEW5HPD</a></p>&mdash; Tom James, The Daigo Umehara of Dating Sims (@iiotenki) <a href="https://twitter.com/iiotenki/status/954904703640379393?ref_src=twsrc%5Etfw">21 January 2018</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### Ricoh SA-1 Emulator
 <section class="postSection">
@@ -144,7 +144,7 @@ The system was features in the UK Magazine `N-Force` issue 02 as a backup device
 </section>
 
 Plenty of developers such as Mike Dailly used the Magicom as a cheap development kit for the Super Nintendo:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You could download code to the SNES Magicoms via a parallel cable. Gave me a cheap ass devkit back in the early 90s with my Amiga! :) <a href="https://t.co/M6Yxslg8s6">https://t.co/M6Yxslg8s6</a></p>&mdash; Mike Dailly™ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (@mdf200) <a href="https://twitter.com/mdf200/status/890481867123773445?ref_src=twsrc%5Etfw">July 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You could download code to the SNES Magicoms via a parallel cable. Gave me a cheap ass devkit back in the early 90s with my Amiga! :) <a href="https://t.co/M6Yxslg8s6">https://t.co/M6Yxslg8s6</a></p>&mdash; Mike Dailly™ 🏴󠁧󠁢󠁳󠁣󠁴󠁿 (@mdf200) <a href="https://twitter.com/mdf200/status/890481867123773445?ref_src=twsrc%5Etfw">July 27, 2017</a></blockquote> 
 
 {% include link-to-other-site.html url="https://videogamedevelopmentdevices.fandom.com/wiki/Super_Magicom" description="The wiki known as `Video Game Development Devices` has compiled an excellent page with more details on the Super Magicom" image="https://vignette.wikia.nocookie.net/videogamedevelopmentdevices/images/8/8e/Smagicom.jpg/revision/latest?cb=20130422150458" title="Super Magicom"  %}
 
@@ -328,7 +328,7 @@ The image on the left was kindly taken by `GlitchedHeart` over on her Twitter [^
 
 ## MusiCart by Chip Level Designs
 The **MusiCart** was a custom made SNES cartridge that allowed audio engineers to test directly on SNES hardware. It came with a PCI card and an Inteface port to connect the cartridge to the PC card with a parallel cable.
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here’s a cool find of the week! A Super Nintendo developer sound cart called the MusiCart. This kit would allow you to output music your developing from your PC to the SNES console. <a href="https://t.co/WSyamVMZOg">pic.twitter.com/WSyamVMZOg</a></p>&mdash; Andrew (@GamingLegend64) <a href="https://twitter.com/GamingLegend64/status/1261650654759514112?ref_src=twsrc%5Etfw">May 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here’s a cool find of the week! A Super Nintendo developer sound cart called the MusiCart. This kit would allow you to output music your developing from your PC to the SNES console. <a href="https://t.co/WSyamVMZOg">pic.twitter.com/WSyamVMZOg</a></p>&mdash; Andrew (@GamingLegend64) <a href="https://twitter.com/GamingLegend64/status/1261650654759514112?ref_src=twsrc%5Etfw">May 16, 2020</a></blockquote> 
 
 
 ---

@@ -214,7 +214,7 @@ If anyone is interested in a full rundown of what each of the pre-compiled objec
 
 ---
 # Dr Mario 64 (dm64 folder)
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The full complete source code to Dr Mario 64 has been successfully compiled! <a href="https://twitter.com/hashtag/n64?src=hash&amp;ref_src=twsrc%5Etfw">#n64</a> <a href="https://twitter.com/hashtag/nintendoleak?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleak</a> <a href="https://t.co/y66ryCOmgJ">https://t.co/y66ryCOmgJ</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1287691481772326919?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The full complete source code to Dr Mario 64 has been successfully compiled! <a href="https://twitter.com/hashtag/n64?src=hash&amp;ref_src=twsrc%5Etfw">#n64</a> <a href="https://twitter.com/hashtag/nintendoleak?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleak</a> <a href="https://t.co/y66ryCOmgJ">https://t.co/y66ryCOmgJ</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1287691481772326919?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> 
 
 ---
 # F-Zero X (f0x folder)
@@ -442,7 +442,7 @@ ucode_f.h |
 
 There are some interesting images in the F-Zero X source code, including an image of Beavis from Beavis and Butthead.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I FOUND THIS IN THE F-ZERO X TEXTURES <a href="https://t.co/tlu1I2Tv9c">pic.twitter.com/tlu1I2Tv9c</a></p>&mdash; Zeether (@Zeether77) <a href="https://twitter.com/Zeether77/status/1287421325477392391?ref_src=twsrc%5Etfw">July 26, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I FOUND THIS IN THE F-ZERO X TEXTURES <a href="https://t.co/tlu1I2Tv9c">pic.twitter.com/tlu1I2Tv9c</a></p>&mdash; Zeether (@Zeether77) <a href="https://twitter.com/Zeether77/status/1287421325477392391?ref_src=twsrc%5Etfw">July 26, 2020</a></blockquote>  
 
 ---
 # Animal Crossing (forest folder)
@@ -465,7 +465,7 @@ Animal Forest (Animal Crossing in the west) source code was initially based on t
 
 
 ## Assets (data folder)
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: Noesis has an ELF loader! <a href="https://twitter.com/hashtag/nintendoleaks?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleaks</a> <a href="https://t.co/WVxpLS3qjB">https://t.co/WVxpLS3qjB</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1289577386975977472?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">TIL: Noesis has an ELF loader! <a href="https://twitter.com/hashtag/nintendoleaks?src=hash&amp;ref_src=twsrc%5Etfw">#nintendoleaks</a> <a href="https://t.co/WVxpLS3qjB">https://t.co/WVxpLS3qjB</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1289577386975977472?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> 
 
 
 ## CLI Tools (zelda_tool_copy folder)
@@ -515,7 +515,7 @@ The source code for Mario Kart 64 seems to be missing most of the game engins so
 
 ## Assets
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This F1 car is found in a few Mario Kart 64 source folders. There is a version stored in the same format as Super FX models (GEO/3DG1), and a version converted to N64 source code. It was probably used in early tests and does not mean that MK64 was to be a F1 racing game. <a href="https://t.co/hsi0ULrM8W">pic.twitter.com/hsi0ULrM8W</a></p>&mdash; Starxxon (@vl_tone) <a href="https://twitter.com/vl_tone/status/1289639440814489600?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This F1 car is found in a few Mario Kart 64 source folders. There is a version stored in the same format as Super FX models (GEO/3DG1), and a version converted to N64 source code. It was probably used in early tests and does not mean that MK64 was to be a F1 racing game. <a href="https://t.co/hsi0ULrM8W">pic.twitter.com/hsi0ULrM8W</a></p>&mdash; Starxxon (@vl_tone) <a href="https://twitter.com/vl_tone/status/1289639440814489600?ref_src=twsrc%5Etfw">August 1, 2020</a></blockquote> 
 
 
 ---

@@ -1,5 +1,6 @@
 agentic
 Agentic
+Amiibo
 Bookazine
 Bookazines
 Compuware
@@ -11,6 +12,7 @@ decompiler
 decompiling
 disassemblers
 Doak
+DOSBox
 Dreamcast
 EBOOT
 Ecco
@@ -39,6 +41,7 @@ MSVCP
 MSVCR
 MSVCRT
 Mudbox
+Multigen
 Mupen64
 Naka
 nasm
@@ -46,6 +49,7 @@ NES
 Ollama
 OllyDbg
 Psygnosis
+PSYLIB
 PSYQ
 Quakecon
 Radare
@@ -56,6 +60,7 @@ SCED
 SNASM
 SNES
 Spyro
+Starfox
 Takashi
 Tetris
 Timesplitters

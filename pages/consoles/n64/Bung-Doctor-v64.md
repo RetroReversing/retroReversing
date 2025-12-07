@@ -34,7 +34,7 @@ The Doctor V64 was a 3rd Party Development kit and Piracy device that was much c
 
 # Emulation Cartridge
 The Bung Dr V64 required a cartridge to be placed in the cartridge slot in order to interrupt the signal coming from the official game cartridge and instead send the data from the V64. The original cartridge that you put in the top was just used for the CIC anti-piracy check.
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Doctor V64 emulation cartridge adapter; 50-pin connector and PCB with solder across pin 9 and 10 <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> <a href="https://t.co/tqrdJB9wZU">pic.twitter.com/tqrdJB9wZU</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/958296785604067330?ref_src=twsrc%5Etfw">January 30, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Doctor V64 emulation cartridge adapter; 50-pin connector and PCB with solder across pin 9 and 10 <a href="https://twitter.com/hashtag/N64dev?src=hash&amp;ref_src=twsrc%5Etfw">#N64dev</a> <a href="https://t.co/tqrdJB9wZU">pic.twitter.com/tqrdJB9wZU</a></p>&mdash; Shane Battye 🎮 (@shanebattye) <a href="https://twitter.com/shanebattye/status/958296785604067330?ref_src=twsrc%5Etfw">January 30, 2018</a></blockquote> 
 
 ---
 # References

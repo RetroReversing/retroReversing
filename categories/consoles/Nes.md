@@ -319,6 +319,9 @@ The security blog **segfault.me** has an excellent write-up of a Capture The Fla
 ## Super Mario Bros Reverse Engineering
 The original Super Mario Bros was the game that revolutionised platformers, with its smooth scrolling and excellent game design there was bound to be many reversing projects related to it. This section covers projects specifically targeted towards the classic platformer.
 
+{% include link-to-other-post.html post="/super-mario-bros" %}
+
+
 ### Super Mario Bros Annotated Disassembly
 If you are interested in how Super Mario Bros works (or to really get an insight into how any NROM Mapper 0 game works) you need to check out
 [A Comprehensive Super Mario Bros. Disassembly](https://gist.github.com/1wErt3r/4048722) by **doppelganger**.

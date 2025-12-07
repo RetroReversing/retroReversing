@@ -86,9 +86,10 @@ He even Demonstrates being able to pause and step through the game using the deb
 </section>
 
 ## Computer Graphics Artist
-Interview with **Marti Thomson** about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC whihc has a similar menu to the Animation editor shown earlier.
+Interview with **Marti Thomson** about her work as a Computer Graphics Artist at STI, more specifically a background artist, and appears to be showing off some sort of tile editor on her PC which has a similar menu to the Animation editor shown earlier.
 
 ## Notes about the Date
-The filming may have been done in 1993 as the Youtube title suggests but some of the edited footage is definitely from later as it shown SEGA Saturn games such as Bug, Clockwork Knight and Panzer Dragoon. Some commenters on Youtube believe it to be 1995 but Comix Zone was in development at the time for the in-person filming so it is likely to be earlier than that.
+The filming may have been done in 1993 as the YouTube title suggests but some of the edited footage is definitely from later as it shown SEGA Saturn games such as Bug, Clockwork Knight and Panzer Dragoon. 
+Some commenters on YouTube believe it to be 1995 but Comix Zone was in development at the time for the in-person filming so it is likely to be earlier than that.
 
 

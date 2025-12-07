@@ -362,7 +362,7 @@ The files that will be checked out into the trunk directory are:
 
 If you know anything about this tool please reach out to us so we can update the information here.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mystery from the Nintendo Paladin Leak: Why is there a Nintendo 3DS &quot;eFuse&quot; repository when they were not used on the console? The switch used eFuses to prevent downgrading firmware versions but the 3DS did not as far as we know. <a href="https://t.co/1BrJ1wDS7i">https://t.co/1BrJ1wDS7i</a> <a href="https://twitter.com/hashtag/NintendoLeaks?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoLeaks</a> <a href="https://twitter.com/hashtag/3ds?src=hash&amp;ref_src=twsrc%5Etfw">#3ds</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1312407942742896641?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mystery from the Nintendo Paladin Leak: Why is there a Nintendo 3DS &quot;eFuse&quot; repository when they were not used on the console? The switch used eFuses to prevent downgrading firmware versions but the 3DS did not as far as we know. <a href="https://t.co/1BrJ1wDS7i">https://t.co/1BrJ1wDS7i</a> <a href="https://twitter.com/hashtag/NintendoLeaks?src=hash&amp;ref_src=twsrc%5Etfw">#NintendoLeaks</a> <a href="https://twitter.com/hashtag/3ds?src=hash&amp;ref_src=twsrc%5Etfw">#3ds</a></p>&mdash; RetroReversing.com (@RetroReversing) <a href="https://twitter.com/RetroReversing/status/1312407942742896641?ref_src=twsrc%5Etfw">October 3, 2020</a></blockquote> 
 
 ---
 # 3DS Firmware SVN Repository (ctr_firmware.zip)

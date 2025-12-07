@@ -32,7 +32,7 @@ The hardware supports booting games from both the UMD and DVD drive, the DVD dri
 
 ## PSP-1000 Standard Commander Arm
 In order to use the DevKit to play games you need a controller, and what better controller than the psp itself! A custom PSP `Controller Arm` was provided with the devkit for such a purpose. It wasn't a real psp and the inside board were very different to a retail psp, it was mainly just an interface for providing button in put and screen output for the developers to see what it would look like on a real psp.
-Here is a tear down of the controler hardware by **RetroGameTech** [^2]:
+Here is a tear down of the controller hardware by **RetroGameTech** [^2]:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/P_ajF24sfGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## PSP Go Commander Arm
@@ -55,7 +55,7 @@ Notice that this does not have an ethernet port so can't be used for debugging u
  <div markdown="1">
 The front of the development Unit looks pretty much identical to the Testing tool (DTP-H1500), but on the back it contains an ethernet port to allow debugging with a host PC.
 
-this was the reccomended choice for programmers as it was easy to send code to the development unit via LAN and debug the code by setting breakpoints and viewing mermory/registers.
+this was the recommended choice for programmers as it was easy to send code to the development unit via LAN and debug the code by setting breakpoints and viewing memory/registers.
  </div>
 </section> 
 

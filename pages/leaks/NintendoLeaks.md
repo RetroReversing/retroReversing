@@ -125,7 +125,7 @@ Files Leaked:
 * **gen4_era_protos.7z** - Diamond and perl prototype roms and the source code
 * **teru-sama_mail_2006.7z** - A dump of the personal email inbox of **Murakawa Tsushin**
 
-The main files inside **DIAG4RVL.zip** was the source code to a DVD that is used to test all the hardware components of the Gamecube/Wii's hardware. This was used throughout the develpment of the console and also for fixing retail units.
+The main files inside **DIAG4RVL.zip** was the source code to a DVD that is used to test all the hardware components of the Gamecube/Wii's hardware. This was used throughout the development of the console and also for fixing retail units.
 {% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak/" description="For more information on the contents of the DIAG4RVL archive check out this post." %}
 
 Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.

@@ -93,9 +93,9 @@ It is generally easier to build the project on MacOSX or Linux but for windows y
 The first thing to download would be the assembler, this is what converts the source code from assembly language into machine code (the ROM). The pokered project is written for the `rgbds` assembler which you can download from: [https://github.com/rednex/rgbds](https://github.com/rednex/rgbds).
 You can download either the prebuilt binaries for win/linux or build it yourself by cloning the git project and running `sudo make install`.
 
-Now you should be able to use `rgbds` tools from the command line, so you can go to where you downloaded the pokered project and simply run `make`.
+Now you should be able to use `rgbds` tools from the command line, so you can go to where you downloaded the **pokered** project and simply run `make`.
 
-If all goes well it will generate `pokered.gbc` and `pokeblue.gbc` whih are byte-identical versions of the retail ROMS! If it didn't go well check out the install instructions: [pokered/INSTALL.md · pret/pokered](https://github.com/pret/pokered/blob/6ba3765c5932996f5da6417ae703794ff10bb1cb/INSTALL.md)
+If all goes well it will generate `pokered.gbc` and `pokeblue.gbc` which are byte-identical versions of the retail ROMS! If it didn't go well check out the install instructions: [pokered/INSTALL.md · pret/pokered](https://github.com/pret/pokered/blob/6ba3765c5932996f5da6417ae703794ff10bb1cb/INSTALL.md)
 </div>
 </section>
 

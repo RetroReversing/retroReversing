@@ -23,12 +23,12 @@ _updatedAt: '2023-11-22'
 Game architecture refers to the overall design and structure of a video game. It encompasses the organization and management of various components that make up a game, including the game engine, graphics, audio, input handling, physics, artificial intelligence (AI), networking, and more. 
 
 ## Why should a Reverse Engineer about Game Architecture?
-Knowing the most common game architecture patterns is useful for both reversing and building games, these patterns have been built up over many years and encorporate lessons learned from many failed projects. It is likely that any game you want to reverse will use some variation of these standard game architecture patterns.
+Knowing the most common game architecture patterns is useful for both reversing and building games, these patterns have been built up over many years and incorporated lessons learned from many failed projects. It is likely that any game you want to reverse will use some variation of these standard game architecture patterns.
 
 ## When should a Reverse Engineer about Game Architecture?
-If you are reversing a 8-bit or 16-bit game it is unlikely that these patterns will have been used as there was very little knowledge sharing in the early industry and projects were relativly short involving only a handful of developers. 
+If you are reversing a 8-bit or 16-bit game it is unlikely that these patterns will have been used as there was very little knowledge sharing in the early industry and projects were relatively short involving only a handful of developers. 
 
-However from 32-bit and beyond these patterns become very valuable as many games used variations of these and knowing that its a common pattern can save you some time understaning how the game works.
+However from 32-bit and beyond these patterns become very valuable as many games used variations of these and knowing that its a common pattern can save you some time understanding how the game works.
 
 ## Architecture in off-the-Shelf Game Engines
 Many game engines are built with a very specific architecture in mind (ECS for Unity, OOP for Unreal Engine), so knowing why these architectures were chosen and their many benefits and drawback is very useful when choosing a game engine.

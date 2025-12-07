@@ -32,7 +32,7 @@ The N64 Developers toolkit contained all the following applications used for N64
 * ccbl - Color Combiner and Blender N64 code
 * DPTEST  - PC application to communicate with ccbl
 * DDTools
-* HVQ/HVQM - Imge and Video compression
+* HVQ/HVQM - Image and Video compression
 * Monegi Multi Viewer64
 * NIFF
 * NuSYSTEM
@@ -68,7 +68,7 @@ It works with a number of different N64 development flash cartridges such as:
     <ul class="rr-changelog-more">
       <div class="rr-info-gen" badge="dptest.exe" desc="Main application for communicating from PC to N64"></div>
       <div class="rr-info-gen" badge="TargetN64.dll" desc="DLL for communication between flash cartridge and the PC "></div>
- <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication through the KMC Partner N64 flash cartirdge" ></div>
+ <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication through the KMC Partner N64 flash cartridge" ></div>
  <div class="rr-info-gen" badge="dptest.n64" desc="Compiled N64 rom of CCBL that communicated with dptest" ></div>
     </ul>
 </div>

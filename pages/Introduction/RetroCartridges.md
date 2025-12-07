@@ -31,10 +31,10 @@ videocarousel:
     youtube: 'gYQMdox5gzI'
 updatedAt: '2020-08-24'
 ---
-Have you ever wondered what exactly is inside those retro game cartirdges (ROMs)? In this post we will find out the purpose of ROM cartridges and how they worked.
+Have you ever wondered what exactly is inside those retro game Cartridges (ROMs)? In this post we will find out the purpose of ROM cartridges and how they worked.
 
 # Advantages of Cartridges
-Cartridges are not the only format available to distrubute games for consoles, with other popular alternatives being CDs, Floppy Discs and Cassettes.
+Cartridges are not the only format available to distribute games for consoles, with other popular alternatives being CDs, Floppy Discs and Cassettes.
 
 ## Additional Hardware inside Cartridges
 Cartridges have the benefit of being able to include custom chips to make the hardware more capable. One example is games that came with additional RAM right inside the cartridge [^1].
@@ -70,9 +70,9 @@ The two ROMs in the cartridge are:
 * PRG (Program) ROM - code & other data
 
 ---
-# Game Boy Cartirdges
+# Game Boy Cartridges
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gYQMdox5gzI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-The Nintendo Game Boy was one of the first handheld systems that featured inter-changable cartridges [^4]. 
+The Nintendo Game Boy was one of the first handheld systems that featured inter-changeable cartridges [^4]. 
 
 Only 32KB of the cartridge ROM is available to the CPU at any one time, early games such as Tetris were only 32KB so this wasn't a problem. 
 
@@ -80,7 +80,7 @@ But ROM cartridges could be up to 8MB by using a Memory Bank Controller which im
 
 Bank Switching was not unique to the Game Boy as it had also been used on other cartridge-based systems such as the Nintendo Entertainment System.
 
-On the Game Boy it is implmented using two 16KB banks, Bank 0 is static and always points to the first bank in the Cartridge ROM and the second bank could be switched to point to any 16KB bank in the entire cartridge ROM.
+On the Game Boy it is implemented using two 16KB banks, Bank 0 is static and always points to the first bank in the Cartridge ROM and the second bank could be switched to point to any 16KB bank in the entire cartridge ROM.
 
 ---
 # Memory Mappers (Bank Switching)

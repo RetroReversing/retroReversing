@@ -41,7 +41,7 @@ updatedAt: '2020-11-25'
 ---
 The SEGA Mega drive was released on October 29th 1988 in Japan following with North America almost a year later and Europe another whole year later than that! 
 
-During its lifespan it became incredibly popular especially in Brazillian and European markets where it lasted long after the death of its successor the Saturn.
+During its lifespan it became incredibly popular especially in Brazil and European markets where it lasted long after the death of its successor the Saturn.
 
 # Official Development Kits
 SEGA provided developers with different options for developing games for the platform throughout the years, starting with their Super Mega Drive and eventually leading to the distribution of Cross Products SNASM development kits.
@@ -242,7 +242,7 @@ Common to most of their other development kits they tend to be extensions of the
 Nicholas Cottrill has some excellent photos of the Psy-Q Mega Drive hardware on his Flickr:
 [Psy-Q Mega Drive/Mega CD and 32X by Nicholas Cottrill | Flickr](https://www.flickr.com/photos/icarusnick/6096758782/in/photostream/)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Mega Drive setup - that card looks sussssssspiciously similar, so I have my hopes up.<br><br>I think this is the setup <a href="https://twitter.com/Psycatic?ref_src=twsrc%5Etfw">@Psycatic</a> used for his Invaders game. <a href="https://t.co/I7teIze9MG">pic.twitter.com/I7teIze9MG</a></p>&mdash; Matt Phillips (@bigevilboss) <a href="https://twitter.com/bigevilboss/status/1142031487317020672?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Mega Drive setup - that card looks sussssssspiciously similar, so I have my hopes up.<br><br>I think this is the setup <a href="https://twitter.com/Psycatic?ref_src=twsrc%5Etfw">@Psycatic</a> used for his Invaders game. <a href="https://t.co/I7teIze9MG">pic.twitter.com/I7teIze9MG</a></p>&mdash; Matt Phillips (@bigevilboss) <a href="https://twitter.com/bigevilboss/status/1142031487317020672?ref_src=twsrc%5Etfw">June 21, 2019</a></blockquote> 
 
 ---
 # In-House development Kits

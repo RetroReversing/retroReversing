@@ -64,7 +64,7 @@ The Later units also had support for the **AGB** (Advanced GameBoy or Gameboy Ad
 </div>
 </section>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I picked up a cool GBC dev kit. The IS-CGB-Emulator. I love the cartridge and cable that connects the handheld to the unit. Does anyone else have one of these or even the GBA version? Please post photos of your kit. I’d love to see it :) <a href="https://t.co/NDhShaEToK">pic.twitter.com/NDhShaEToK</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1335466371463794688?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I picked up a cool GBC dev kit. The IS-CGB-Emulator. I love the cartridge and cable that connects the handheld to the unit. Does anyone else have one of these or even the GBA version? Please post photos of your kit. I’d love to see it :) <a href="https://t.co/NDhShaEToK">pic.twitter.com/NDhShaEToK</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1335466371463794688?ref_src=twsrc%5Etfw">December 6, 2020</a></blockquote> 
 
 {% include link-to-other-site.html url="http://devkits.handheldmuseum.com/IS-CGB-EMU/index.htm" title=" Handheld Museum - IS-CGB-EMU" description="The Handheld Museum website has an excellent page on the IS-CGB-EMU" image="http://devkits.handheldmuseum.com/IS-CGB-EMU/GBC_Emulator.jpg"  %}
 

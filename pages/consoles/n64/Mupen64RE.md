@@ -107,7 +107,7 @@ Here is part of the n64split label output of playing a single race in top gear o
 ## Configurable Dynamic Memory Corruption
 <section class="postSection">
 <div markdown="1">
-One effective way to find out what to name certain areas of a rom is to corrupt it and witness the result. For example we currently detect audio regions of the rom but can't detect WHAT audio is playing, to help with this we support custom config paramters that allow you to choose the section to corrupt at runtime, allowing you to effectivly name unmapped regios of the ROM.
+One effective way to find out what to name certain areas of a rom is to corrupt it and witness the result. For example we currently detect audio regions of the rom but can't detect WHAT audio is playing, to help with this we support custom config parameters that allow you to choose the section to corrupt at runtime, allowing you to effectively name unmapped regions of the ROM.
   </div>
 </section>
 

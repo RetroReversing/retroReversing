@@ -62,7 +62,7 @@ The GBA was the first Nintendo portable to have most of its games written in the
 
 ---
 ## Nintendo Entertainment System
-Games for Nintendo's first console was almost exclusivly written in 6502 assembly language as anything higher level would simply be too slow due to early compilers producing less efficient code than human programmers.
+Games for Nintendo's first console was almost exclusively written in 6502 assembly language as anything higher level would simply be too slow due to early compilers producing less efficient code than human programmers.
 
 ### Captain Comic
 {% include link-to-other-site.html url="https://archive.org/details/CaptainComicSourceCode" description="Source code for the unlicensed NES game Captain Comic by Color Dreams" image="https://upload.wikimedia.org/wikipedia/en/9/99/CaptainComicBoxart.jpg" title="Captain Comic"  %}

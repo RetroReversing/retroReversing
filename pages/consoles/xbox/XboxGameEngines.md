@@ -546,7 +546,7 @@ So many games use the middleware that we would be pretty much listing the entire
 <section class="postSection">
 <img src="/public/images/engines/FMODLogo.png" style="width:inherit;" class="wow slideInLeft postImage" />
 <div markdown="1">
-The FMOD Sound and Music middleware library is one of the industry standard for audio playback on games consoles and was used extensivly in the Xbox Generation of consoles and beyond.
+The FMOD Sound and Music middleware library is one of the industry standard for audio playback on games consoles and was used extensively in the Xbox Generation of consoles and beyond.
   
 To find out if your game uses FMOD for audio playback look for the string `FMOD Sample Bank` in the main executable.
 

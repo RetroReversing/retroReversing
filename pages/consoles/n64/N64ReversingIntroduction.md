@@ -199,7 +199,7 @@ You will notice that running `make` will produce tons of assembler errors, well 
 
 Well that is whats throwing these errors, it is trying to assemble bytes that are not valid instructions and there for are data.
 
-Ok so lets see what the first error that its throwing as that will give as a hint to say that address is definetly past the end of the assembly section, lets pipe the output of make to a file called output.txt:
+Ok so lets see what the first error that its throwing as that will give as a hint to say that address is definitely past the end of the assembly section, lets pipe the output of make to a file called output.txt:
 ```bash
 make &>output.txt
 ```

@@ -1875,7 +1875,7 @@ DELETE   | 23-07-99 | MemCardDeleteFile
 UNFORMAT | 23-07-99 | MemCardUnformat 
 
 # LIBMCX - PocketStation
-Provides functions to control the PocketStation (a playstation memory card with a screen that can run ARM code) (reffered to as PDA in the official developer documentation.
+Provides functions to control the PocketStation (a playstation memory card with a screen that can run ARM code) (referred to as PDA in the official developer documentation).
 
 Module  |   Date  |  Externals defined
 --- | --- | ---

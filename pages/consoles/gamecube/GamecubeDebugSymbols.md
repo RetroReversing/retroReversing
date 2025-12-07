@@ -158,7 +158,7 @@ Thanks to Nikki (@NWPlayer123) on Twitter we now know that the **pikmin2?P.MAP**
 
 The good news is that there are 2 Demo Discs of Pikmin that contain a valid Pikmin 2 symbol map, as mentioned in this twitter thread by Nikki:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">note to self: the demo disc with the Pikmin 2 US symbol map is D78E01, matches about 96% of retail <a href="https://t.co/Sbr05XKQvl">pic.twitter.com/Sbr05XKQvl</a></p>&mdash; Nikki™ 🌹 (@NWPlayer123) <a href="https://twitter.com/NWPlayer123/status/1414757863495503876?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">note to self: the demo disc with the Pikmin 2 US symbol map is D78E01, matches about 96% of retail <a href="https://t.co/Sbr05XKQvl">pic.twitter.com/Sbr05XKQvl</a></p>&mdash; Nikki™ 🌹 (@NWPlayer123) <a href="https://twitter.com/NWPlayer123/status/1414757863495503876?ref_src=twsrc%5Etfw">July 13, 2021</a></blockquote> 
 
 ## Nintendo Puzzle Collection
 Nintendo Puzzle Collection (Japan) contains an ARM executable for running on the GBA that has developer symbols in it called: ponagb2m_client.elf (Panel de Pon game?).

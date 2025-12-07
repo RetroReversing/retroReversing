@@ -52,7 +52,7 @@ Common tasks given to the RSP for graphical data processing are:
 * Shading
 * Level of Detail culling (LOD)
 * Clipping
-* Vertice Transforms (translate, scale, rotate)
+* Vertex Transforms (translate, scale, rotate)
 
 ## Usage of RSP for Audio
 Common tasks given to the RSP for graphical data processing are:

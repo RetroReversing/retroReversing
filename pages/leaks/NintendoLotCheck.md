@@ -109,7 +109,7 @@ All computer programs have bugs, and NES games are no different, in some cases t
 * Roger Clemens' MVP Baseball (North America)
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the mystery roms have been discovered <a href="https://t.co/tY5sH5yfeq">pic.twitter.com/tY5sH5yfeq</a></p>&mdash; I..A..N..S (@IANSYT) <a href="https://twitter.com/IANSYT/status/1287615989304131584?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the mystery roms have been discovered <a href="https://t.co/tY5sH5yfeq">pic.twitter.com/tY5sH5yfeq</a></p>&mdash; I..A..N..S (@IANSYT) <a href="https://twitter.com/IANSYT/status/1287615989304131584?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> 
 
 ---
 # Famicom Disk System Lot Check

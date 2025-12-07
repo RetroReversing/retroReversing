@@ -39,7 +39,7 @@ The SDK contained the SN Systems Compilers (SNC C/C++), which unlike their previ
 
 The SDK contained a few main parts:
 * **ProDG Tuner** (TunerforPSPv1.6.0.exe) - Game optimization
-* **Target Manager** (ProDGforPSPv1.4.1.exe) - Development Kit managment interface
+* **Target Manager** (ProDGforPSPv1.4.1.exe) - Development Kit management interface
 * **Proview** (ProViewforPSPv1.2.1.exe) - Artist preview tool
 
 ### ProDG Tuner
