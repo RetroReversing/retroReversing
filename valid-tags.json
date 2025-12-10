@@ -1,21 +1,22 @@
 {
   "summary": {
-    "totalFiles": 286,
-    "filesWithTags": 285,
-    "uniqueTags": 100,
-    "generatedAt": "2025-12-07T15:25:14.015Z"
+    "totalFiles": 287,
+    "filesWithTags": 286,
+    "uniqueTags": 101,
+    "generatedAt": "2025-12-10T21:11:57.728Z"
   },
   "tags": {
-    "introduction": 50,
+    "introduction": 52,
     "tutorial": 10,
     "companies": 5,
     "industry": 23,
     "crossproducts": 5,
     "datel": 2,
-    "snsystems": 11,
-    "sdk": 48,
+    "snsystems": 12,
+    "sdk": 49,
     "3do": 1,
     "3ds": 8,
+    "amiga": 1,
     "arcade": 1,
     "atari": 3,
     "jaguar": 1,
@@ -40,8 +41,8 @@
     "pc-88": 1,
     "pc-engine": 1,
     "ps1": 19,
-    "ps2": 13,
-    "ps3": 5,
+    "ps2": 12,
+    "ps3": 4,
     "ps4": 3,
     "psp": 7,
     "pokemonmini": 3,
@@ -59,7 +60,7 @@
     "fileformats": 13,
     "gameengines": 13,
     "middleware": 11,
-    "games": 26,
+    "games": 25,
     "sourcecode": 12,
     "symbols": 14,
     "debug": 6,
@@ -95,8 +96,8 @@
     "radare2": 1,
     "emulation": 1,
     "windows": 1,
+    "psyq": 3,
     "featured": 2,
-    "psyq": 2,
     "segasaturn": 1,
     "switch": 3,
     "android": 2,
@@ -137,6 +138,10 @@
     ],
     "categories/consoles/3ds.md": [
       "3ds"
+    ],
+    "categories/consoles/Amiga.md": [
+      "amiga",
+      "introduction"
     ],
     "categories/consoles/Android.md": [
       "industry",
@@ -331,7 +336,8 @@
       "hardware"
     ],
     "categories/hardware/hardware.md": [
-      "hardware"
+      "hardware",
+      "introduction"
     ],
     "categories/misc/Bookazines.md": [
       "bookazines",
@@ -859,12 +865,6 @@
       "ps1",
       "games"
     ],
-    "pages/consoles/ps1/Evolution of Playstation Games.md": [
-      "ps1",
-      "ps2",
-      "ps3",
-      "games"
-    ],
     "pages/consoles/ps1/GTE.md": [
       "ps1",
       "hardware",
@@ -874,6 +874,12 @@
       "ps1",
       "hardware",
       "devkit"
+    ],
+    "pages/consoles/ps1/Official-Playstation-1-Software-Development-Kit-(PSYQ).md": [
+      "snsystems",
+      "sdk",
+      "psyq",
+      "ps1"
     ],
     "pages/consoles/ps1/PS1 PsyQ Linker.md": [
       "ps1",

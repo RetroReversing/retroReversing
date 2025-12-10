@@ -106,6 +106,14 @@ Download the Ghidra plugin from [Github](https://github.com/chaoticgd/ghidra-emo
 ## PlayStation 3
 There are a few useful script for working with PS3 executables on [Github](https://github.com/clienthax/Ps3GhidraScripts)
 
+### Introduction to Ghidra: Modding and Reverse Engineering PS3 Games
+**bordplate** provides an in-depth introduction to using Ghidra for game reverse engineering, demonstrating the process by adding multiplayer to the PS3 port of *Ratchet & Clank*. 
+
+The video covers setting up Ghidra for PowerPC architecture, identifying game functions like `spawnMoby` through string analysis, and injecting custom C++ code to hook game logic and implement networking.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3c7yBlkQ_fE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## PlayStation Portable
 Download the Ghidra plugin from [Github](https://github.com/kotcrab/ghidra-allegrex)
 

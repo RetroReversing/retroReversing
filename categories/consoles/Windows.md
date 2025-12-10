@@ -1681,6 +1681,15 @@ If you don't want to download and run each one you can watch this video by **Gam
 The UK Magazine Game Maker has an interview with Daniel Hornick, Hubert Nguyen and Curtis Beeson which described the process of creating these demos from concept to 3D art (in Maya) to code (in C++ or MEL) which is worth reading if you can find a copy [^4]. It describes techniques used in the production of the demos **Time Machine**, **Last Chance Gas Ultra**, **Ogre**, **Toys** and **Vulkan**.
 
 ---
+### Playable3DMaze: Reverse Engineering the Windows 9x 3D Maze Screensaver
+x86matthew's GitHub project documents the reverse-engineering process used to transform the classic Microsoft 3D Maze screensaver from Windows 9x into a playable game. 
+
+The project focuses on modifying the original screensaver binary by patching out the computer-controlled logic and injecting a custom DLL to enable user-controlled keyboard input. This approach preserves the original OpenGL graphics and code, offering a look into the existing game logic within the executable.
+
+{% include link-to-other-site.html url="https://github.com/x86matthew/Playable3DMaze" description="x86matthew has released Playable3DMaze, a project detailing the reverse engineering and modification of the original Windows 9x ssmaze.scr binary to add user-controlled keyboard input." image="https://opengraph.githubassets.com/1/x86matthew/Playable3DMaze" title="Playable3DMaze: A playable version of Microsoft's old 3DMaze screensaver from Windows 9x" %}
+
+
+---
 # All Posts
 <div>
 

@@ -25,17 +25,36 @@ tags:
   - sega
 ---
 
+Welcome to our in-depth guide to Amiga reverse engineering! This page serves two roles. It groups all of our posts related to Amiga reverse engineering, and it aggregates high quality sources from the web into create a unified reference.
+
+The content starts high level, outlining the system, its history, and its official game development process, then moves into low level details with a focus on reverse engineering and homebrew development.
+
 # Introduction
-Welcome to our page dedicated to Sega Mega Drive reverse engineering! The Sega Mega Drive, also known as the Sega Genesis in North America, was a popular gaming console released by Sega in 1988, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. On this page, we've compiled a list of links to other pages that cover various topics related to Sega Mega Drive reverse engineering. 
+The Sega Mega Drive, also known as the Sega Genesis in North America, was a popular gaming console released by Sega in 1988, and has since become a beloved classic of the gaming world.
 
-Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
 
-So grab your Sega controller, and get ready to dive into the exciting world of Sega Mega Drive reverse engineering!
 
 ## History of the Mega Drive
-Sega Retro has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly recommended that you read this before anything else:
+**Sega Retro** has an excellent page covering the history of the Sega Mega Drive in great detail, it is highly recommended that you read this before anything else:
 
 {% include link-to-other-site.html url="https://segaretro.org/History_of_the_Sega_Mega_Drive" description="Find out about the history of the SEGA Mega Drive in this excellent post" image="/public/consoles/Sega Megadrive.png" title="History of the Sega Mega Drive - Sega Retro"  %}
+
+## How Sega bet against Reverse Engineering...and lost
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=-aLfKnJAe0Y) has an excellent video about the history of reverse engineering on the Sega Genesis. It covers the technical and legal strategies used by Electronic Arts and Accolade to bypass the console's **TMSS** security chip, detailing how clean-room reverse engineering led to a landmark court ruling for software interoperability.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-aLfKnJAe0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Are there any Mega Drive Reverse Engineered games or active projects?
+Before diving in its best to check if there are any existing reversing projects for the Sega Mega Drive that you can contribute to, check out our other post specifically on this topic:
+
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of decompiled games check out this post." %}
+
+## What are the games exclusive to the Sega Mega Drive?
+There were many exclusive games for the Mega Drive and the various hardware add-ons that were released for it, these are ideal targets for reverse engineering and porting to other platforms:
+* Sega Mega Drive - [Sega Genesis-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_Genesis-only_games)
+* Sega 32X - [Sega 32X-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_32X-only_games)
+* Sega CD - [Sega CD-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_CD-only_games)
+
 
 ---
 
@@ -67,12 +86,17 @@ You can find out more including lots of images on [Video Games Densetsu: The Seg
 ### What programming languages were used to create games for the Sega Mega Drive?
 Although almost all Mega Drive games were written in 68K assembly there is one known commercial Mega Drive game to be written in C, **Sonic Spinball** [^1]!
 
-### What computers were used to write Mega Drive games?
-Popular choices for computers for writing Mega Drive games in Japan were the **Sharp X68000** (it shared the same processor) and the Intel 8086 based **NEC PC-9801**.
+## What computers were used to write Mega Drive games?
+Popular choices for computers for writing Mega Drive games in Japan were the **Sharp X68000** (it shared the same processor) and the Intel 8086 based **NEC PC-9801**. In the UK the **Amiga** was a very popular choice for writing Mega Drive games due to it being based on the same 68000 CPU.
 
 The **Sharp X68000** is known to have been used at **Game Arts** [^3] and is a smart choice as the assembly code can be tested out on the hardware directly and only required the Mega Drive development kit for testing the graphics and sound capabilities. So game logic could be tested more efficiently.
 
 The **NEC PC-9801** is known to have been used at SEGA of Japan thanks to the **Sound-Source leak** [^4].
+
+### Porting From AMIGA to MEGA DRIVE - with Stoo Cambridge
+**onaretrotip** has an excellent interview with **Stoo Cambridge** about porting Amiga games like **Megalomania** and **Sensible Soccer** to the Sega Mega Drive. It covers the technical similarities (shared 68000 CPU) and differences (bitmap vs. tile-based graphics), as well as specific tricks used to overcome the Mega Drive's color limitations, such as overlaying playfields to simulate 32-color intro screens.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CX8Hvt2Cnqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### How large were Mega Drive game development teams?
 The development of the game **Alien Soldier** and other games by **Treasure** had only 4 people working on it, 2 programmers and 2 game designers which we found out in a translated interview with **Masato Maegawa**[^2]:
@@ -89,7 +113,7 @@ Although he also revealed that there was a tight development cycle for Alien Sol
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hfKbDRJv9Y8?si=DlTc8-7eWCtAd4gp&amp;start=123" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
-## Software Development Kit
+## Mega Drive Software Development Kit
 To find out about the Official SEGA Mega Drive Software development Kit check out our page on the topic:
 {% include link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For information about SEGA's Mega Drive software development kit check out this post." %}
 
@@ -107,7 +131,6 @@ For the development of the Mega Drive game **Alisia Dragoon**, Game Arts created
 
 In the image below you can see the Main Programmer **Naozumi Honma** on the left and Assistant Programmer Osamu Harada on the right along with their **Sharp X68000** development computers (and Mega Drive controller presumably hooked up to a development kit) [^3]:
 ![image](https://github.com/user-attachments/assets/ea1b6728-814a-4075-ace2-414e976cacdc)
-
 
 
 ---
@@ -137,16 +160,6 @@ Part 1:
 Part 2:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tdjVfl_YWd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
----
-# Games
-
-## Exclusives
-
-Platform Name | List of games exclusive to that Platform
----|---
-Sega 32X | [Sega 32X-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_32X-only_games)
-Sega CD |[Sega CD-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_CD-only_games)
-Sega Mega Drive | [Sega Genesis-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:Sega_Genesis-only_games)
 
 
 

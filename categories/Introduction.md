@@ -121,8 +121,8 @@ So we know know that we can represent each byte as two Hexadecimal digits, why d
 
 Depending on your platform there are multiple good HEX editors to choose from, but here are just a few:
 * [ImHex](https://imhex.werwolv.net/) (Windows / macOS / Linux) – Free and open source  
-* [rehex](https://rehex.solemnwarning.net/) (Windows / macOS / Linux / BSD) – Free and open source  
-* [GNU Emacs](https://www.gnu.org/software/emacs/) (Windows / macOS / Linux) – Free and open source  
+* [rehex](https://rehex.solemnwarning.net/) (Windows / macOS / Linux) – Free and open source  
+* [HexWalk](https://github.com/gcarmix/HexWalk) (Windows / macOS / Linux) - Free and open source
 * [010 Editor](https://www.sweetscape.com/) (Windows / macOS / Linux) – Proprietary and closed source  
 * [WinHex](https://www.x-ways.net/winhex/index-m.html) (Windows) – Proprietary and closed source  
 * [HIEW](https://www.hiew.ru/) (Windows) – Proprietary and closed source

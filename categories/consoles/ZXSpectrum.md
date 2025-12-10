@@ -152,12 +152,10 @@ Each developer accumulated their own proprietary library of routines which for s
 * **Ocean Software** had a standard scrolling shooter engine.
 
 ---
-## How Large Were ZX Spectrum Game Development Teams?
+### How Large Were ZX Spectrum Game Development Teams?
 
-Many early Spectrum games were developed by individuals or small teams, often working from home. 
-
-As the industry matured, some companies formed larger teams, but even then, teams were modest in size compared to modern standards. 
-
+Many early Spectrum games were developed by individuals or small teams, often working from home (so called Bedroom coders). 
+As the industry matured, some companies formed larger teams, but even then, teams were modest in size compared to modern standards.
 This small-scale development fostered a culture of innovation and personal expression in game design.
 
 ---
@@ -179,6 +177,12 @@ Audio was handled via the built-in beeper, using pulse-width modulation to simul
 
 For a comprehensive breakdown of the development process and the technical strategies used, Bob Pape’s own retrospective memoir **It's Behind You** is available online:  
 [https://www.bizzley.com](https://www.bizzley.com)
+
+### Magical Drop 2 Port to ZX Spectrum: A Reverse Engineering Exercise
+[FOSDEM](https://www.youtube.com/watch?v=i4Wd8Lkip_E) has an excellent presentation about reverse engineering the Neo Geo game 'Magical Drop 2' to port it to the ZX Spectrum. It covers the challenges of replicating game logic without source code and details Z80 optimization techniques like self-modifying code and partial screen updates to maintain 50Hz performance.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i4Wd8Lkip_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ---
 # References

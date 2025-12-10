@@ -62,6 +62,26 @@ Much to the annoyance of Nintendo, Game Boy Advance emulators were released befo
 Nowadays GBA emulators have such high compatibility that pretty much all commercial games work without much trouble even on low end hardware.
 
 ---
+# Reverse Engineering 
+
+## Reverse Engineering a Gameboy Advance Game: Klonoa
+**Bruno Macabeus** has an excellent write up about reverse engineering the GBA game **Klonoa: Empire of Dreams**. The comprehensive guide covers the GBA architecture and ARM assembly, detailing the process of locating level data to build a custom level editor.
+
+{% include link-to-other-site.html url="https://itnext.io/reverse-engineering-a-gameboy-advance-game-complete-guide-c2fca11f9e59" description="Bruno Macabeus details the complete process of reverse engineering Klonoa on the GBA, from understanding the hardware to creating a functional level editor." image="https://miro.medium.com/v2/resize:fit:1200/1*mF6CmjvVxpSvlFykbwbqZw.png" title="Reverse Engineering a Game Boy Advance Game: Complete Guide" %}
+
+## Reverse Engineering a GBA Game: Pokémon Mystery Dungeon
+Star Cube Labs has an excellent write up about reverse engineering the Game Boy Advance title *Pokémon Mystery Dungeon: Red Rescue Team*. It covers the fundamentals of the ARM and Thumb instruction sets, setting up a Ghidra workflow for static analysis, and using emulator debugging features to trace game logic and memory values.
+
+{% include link-to-other-site.html url="https://www.starcubelabs.com/reverse-engineering-gba/" description="Star Cube Labs provides a comprehensive, beginner-friendly tutorial on reverse engineering GBA games, using Pokémon Mystery Dungeon as a case study to teach assembly analysis and debugging strategies." image="https://upload.wikimedia.org/wikipedia/en/8/82/Pokemon_Mystery_Dungeon_Blue_Rescue_Team_and_Red_Rescue_Team.png" title="Reverse Engineering a GBA Game" %}
+
+
+## Figuring out an E-Reader Function
+Matt Greer's Blog has an excellent write up about reverse engineering the Nintendo e-Reader's internal compression routines. It covers locating the `DecompressVPKorNonVPK` function within the **ERAPI** table, analyzing the ARM assembly to decipher parameter requirements, and utilizing the built-in VPK0 decompression to optimize storage for homebrew projects.
+
+{% include link-to-other-site.html url="https://www.mattgreer.dev/blog/figuring-out-an-ereader-function/" description="Matt Greer details the reverse engineering of the Nintendo e-Reader's **ERAPI** to access internal VPK0 decompression, allowing for greater data density on homebrew cards." image="https://avatars.githubusercontent.com/u/1289134?v=4" title="Figuring out an E-Reader Function" %}
+
+
+---
 
 # All Posts Tagged with GBA
 <div>
