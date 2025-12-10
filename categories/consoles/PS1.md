@@ -15,12 +15,19 @@ breadcrumbs:
   - name: Sony PlayStation 1
     url: #
 redirect_from:
+ - /playStation-architecture
  - /Evolution-of-Playstation-Games
-carousel:
-  - title: PlayStation Architecture
-    description: 'This episode with look at the PS1’s hardware and why Final Fantasy 7 was written the way that it was.'
-    image: https://img.youtube.com/vi/MPXpH2hxuNc/maxresdefault.jpg
-    link: /playStation-architecture
+ - /inside-playstation
+videocarousel:
+  - title: Video 1
+    image: https://img.youtube.com/vi/MPXpH2hxuNc/hqdefault.jpg
+    youtube: 'MPXpH2hxuNc'
+  - title: Video 2
+    image: https://img.youtube.com/vi/JqeFT67U-xo/hqdefault.jpg
+    youtube: 'JqeFT67U-xo'
+  - title: Video 3
+    image: https://img.youtube.com/vi/hT5NSWS-znc/hqdefault.jpg
+    youtube: 'hT5NSWS-znc'
 editlink: ../categories/consoles/PS1.md
 updatedAt: '2019-11-11'
 tags:
@@ -28,69 +35,37 @@ tags:
 ---
 
 # Introduction to Hacking the Sony PlayStation
-Welcome to our page dedicated to PS1 reverse engineering! The PlayStation 1, or simply the PS1, was a popular gaming console released by Sony in 1994, and it became a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
+The PlayStation One was not only Sony's first commercial video games console it was also the most popular console of its generation. 
 
-On this page, we've compiled a list of links to other pages that cover various topics related to PS1 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
-
-So grab your DualShock controller, and get ready to dive into the exciting world of PS1 reverse engineering!
+The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. However don't be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
 
 ---
-# Retail PlayStation hardware
-The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
-
-However, don’t be disillusioned the PS1 was still a very powerful machine for its time and when programmed correctly games could look stunning, sometimes even better than the Nintendo 64!
-
-{% include link-to-other-post.html post="/playStation-architecture" description="For more information on the PS1 hardware architecture check out this post." %}
-
-The main parts of the hardware are:
-* 32-bit MIPS CPU (33.96Mhz)
-* GPU - Unlike more modern GPUs it Only handled 2D Polygons (360k per second) [^1]
-* Geometry Transformation Engine (GTE) - 1.5M Vertices per second [^1]
-* 24 Channel sound chip (SPU)
-
-## Geometry Transformation Engine (GTE)
-The Geometry Transformation Engine or GTE was what allowed the PlayStation to handle 3D graphics, it was specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the PlayStation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
-
-{% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
-
-One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^1].
-
----
-# Unofficial Hardware Add-ons
-
-## Sony PlayStation VCD Player Add-On Card
-The YouTuber **Scarlet Sprites** has a good overview of this rather rare unofficial Chinese PS1 add-on which allowed playing the rather obscure Video CD (VCD) format on retail PlayStation 1 consoles:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gcdxsV0Qo0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-It plugged into the back of the console via the IO and AV ports without any need for additional power and has a switch on the top to switch between VCD mode and game mode. This suggests that the PlayStation first boots into the IO port before running the game disc.
-
-Also note that there was an official PS1 model released in Japan that played Video CDs called the **SCPH-5903 VideoCD** which has additional hardware inside the console.
-
----
-# Games
+## Games
 What would the Sony PlayStation be without its excellent line-up of games? It was the games that attracted many people away from the Nintendo 64 and Sega Saturn and on to their very first Sony console.
 
-## PlayStation 1 Games with Debug Symbols
+### PlayStation 1 Games with Debug Symbols
 An excellent way to start reverse engineering is to find games where the developers accidentally left the `Debug symbols` in the retail release of the game. While this is not very common it has happened for a few games released for the PlayStation One and gives you access to all the original function and variables names that were used in the retail source code.
 
 {% include link-to-other-post.html post="/ps1-debug-symbols" description="For a list of PS1 games that have debug symbols available check out this post." %}
 
-## Crash Bandicoot
+### Crash Bandicoot
 Crash Bandicoot was one of the first 3d platformers that managed to deliver quality gameplay while looking impressive for its time. 
 
 It was created by Andy Gavin and Jason Rubin for release on the original PlayStation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
 
 {% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
 
-## Evolution of (Playstation) PS1 Games 1995-2018
-GameForest presents a comprehensive visual timeline of the PlayStation platform's library, showcasing the graphical and gameplay evolution from 1995 to 2018. The compilation chronicles major releases across the console generations, starting with early PS1 titles like Jumping Flash! and Arc the Lad, moving through the PS2 and PS3 eras with defining games such as Grand Theft Auto and Uncharted, and concluding with modern PS4 blockbusters like Horizon Zero Dawn and God of War.
+### Evolution of (Playstation) PS1 Games 1995-2018
+GameForest presents a comprehensive visual timeline of the PlayStation platform's library, showcasing the graphical and gameplay evolution from 1995 to 2018. 
+The compilation chronicles major releases across the console generations, starting with early PS1 titles like Jumping Flash! and Arc the Lad, moving through the PS2 and PS3 eras with defining games such as Grand Theft Auto and Uncharted, and concluding with modern PS4 blockbusters like Horizon Zero Dawn and God of War.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JMzopZ2dK18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## PS1 Exclusives
+### PS1 Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
 
 Wikipedia maintains a list of PlayStation 1 exclusives - [PlayStation (console)-only games - Wikipedia](https://en.wikipedia.org/wiki/Category:PlayStation_(console)-only_games)
 
-## Remastered PS1 Games
+### Remastered PS1 Games
 Some classic PS1 games have been remastered or remade for more modern consoles, if you are looking to reverse engineer one of these games it may help to look at the modern version to find additional information that may be relevant.
 
 Name | Platform | Notes
@@ -120,18 +95,78 @@ In this video EZScape demonstrates a few speed runs for PS1 games that could nev
 If you are interested in creating your own Tool-Assisted-Speedruns then you might want to check the latest version of **BizHawk**. If you are interested in improving some existing TAS then check out [PS1 Tool-assisted movies - TASVideos](https://tasvideos.org/Movies-PSX)
 
 ---
-# Development Kits (Hardware)
+# Hardware
+
+## Retail PlayStation hardware
+The PS1 was competing against both the Nintendo 64 and Sega Saturn during its lifetime and in some respects was the underdog in terms of processing power and graphics. 
+
+The Hardware initially looks quite clean and simple, especially in comparison to other consoles of its generation, but it still managed to pack a lot of power on to its small design.
+
+The main parts of the hardware are:
+* 32-bit MIPS CPU (33.96Mhz)
+* GPU - Unlike more modern GPUs it Only handled 2D Polygons (360k per second) [^1]
+* Geometry Transformation Engine (GTE) - 1.5M Vertices per second [^1]
+* 24 Channel sound chip (SPU)
+
+
+### Main Board
+<section class="postSection">
+    <img src="/public/magazine/Playstation1_Motherboard.jpg" class="wow slideInLeft postImage" style="padding-right:15px" />
+<div markdown="1">
+  1. The CPU (MIPS R3000A 33.96Mhz 32-bit [^4])
+  2. ROM containing the Operating System (512KB [^4])
+  3. The GPU
+  4. Main RAM (DRAM)
+  5. Video RAM (VRAM)
+  6. Sound Processing Unit (SPU)
+  7. Sound RAM (512K)
+  8. CD Controller
+  9. CD DSP (Digital Signal Processor)
+  10. Digital Audio Converter
+  11. ???
+  12. Video de/encoder
+</div>
+</section>
+
+### The CPU
+If you thought that the Nintendo 64 was the only console that partnered with SGI for this generation of consoles you would be mistaken, the CPU for the original PlayStation used technology licensed from SGI and build by `LSI Logic Corp` [^5].
+
+The CPU used for the PlayStation was not just a simple MIPS  R3000A, it was partnered with additional `co-processors` to handle system resources and geometry processing. There was actually only 2 co-processors in the CPU named COP0 and COP2 as COP1 and COP3 were not present in the chip.
+
+### System Control Co-processor (COP0)
+The System control co-processor was the part of the CPU that handled memory management, interrupts and hardware breakpoints. This allows the main processor to focus on game logic while the system co-processor handled all the lower-level details [^6].
+
+
+### Geometry Transformation Engine (GTE)
+The Geometry Transformation Engine or GTE was what allowed the PlayStation to handle 3D graphics, it was specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the PlayStation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
+
+{% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
+
+One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^3].
+
+---
+## Development Kit Hardware
 Development kits are released to game developers before the launch of the system to allow games to be developed for the system's launch. These systems would evolve over the systems lifespan and contained useful features for debugging and optimizing games for the platform. These systems were not just limited to the official offerings by Sony as a few other publishers had their own versions of development hardware.
 
-## Official Development Kit
+### Official Development Kit
 The official development kit for the PS1 was a partnership between Sony and SN Systems which allowed developers to use their PC to interact with the real PS1 hardware.
 
 {% include link-to-other-post.html post="/official-playStation-devkit" description="For more information on the official Sony PlayStation Devkit check out this post." %}
 
-## Official Consumer Development Kit (Net Yaroze)
+### Official Consumer Development Kit (Net Yaroze)
 The official development kit for the PS1 was only available for licensed game developers but there was a stripped-down version available for the general public known as Net Yaroze.
 
 {% include link-to-other-post.html post="/net-yaroze" description="For more information on the consumer development kit known as Net Yaroze check out this post." %}
+
+---
+## Unofficial Hardware Add-ons
+
+### Sony PlayStation VCD Player Add-On Card
+The YouTuber **Scarlet Sprites** has a good overview of this rather rare unofficial Chinese PS1 add-on which allowed playing the rather obscure Video CD (VCD) format on retail PlayStation 1 consoles:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gcdxsV0Qo0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+It plugged into the back of the console via the IO and AV ports without any need for additional power and has a switch on the top to switch between VCD mode and game mode. This suggests that the PlayStation first boots into the IO port before running the game disc.
+
+Also note that there was an official PS1 model released in Japan that played Video CDs called the **SCPH-5903 VideoCD** which has additional hardware inside the console.
 
 ---
 # Software Development Kits
@@ -183,3 +218,7 @@ To create textures (and therefore sprites) the following tools are known to have
 # References
 [^1]: [20 Years of PlayStation®. Console development past and future - Unite Europe 2015 - YouTube](https://www.youtube.com/watch?v=fwCVTqSmioI)
 [^2]: 3D Graphics Tools manual from August 1998
+[^3]: Edge Magazine issue 20 (May 1995)
+[^4]: [What's inside a Playstation? - YouTube](https://www.youtube.com/watch?v=JqeFT67U-xo&feature=player_embedded)
+[^5]: [PlayStation technical specifications - Wikipedia](https://en.wikipedia.org/wiki/PlayStation_technical_specifications#Central_processing_unit_(CPU))
+[^6]: [ www.raphnet.net/electronique/psx_adaptor/Playstation.txt](http://www.raphnet.net/electronique/psx_adaptor/Playstation.txt)
