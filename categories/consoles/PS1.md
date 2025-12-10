@@ -16,6 +16,7 @@ breadcrumbs:
     url: #
 redirect_from:
  - /playStation-architecture
+ - /ps1-gte
  - /Evolution-of-Playstation-Games
  - /inside-playstation
 videocarousel:
@@ -138,9 +139,20 @@ The System control co-processor was the part of the CPU that handled memory mana
 
 
 ### Geometry Transformation Engine (GTE)
-The Geometry Transformation Engine or GTE was what allowed the PlayStation to handle 3D graphics, it was specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the PlayStation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
+The Geometry Transformation Engine (GTE) was what allowed the PlayStation to handle 3D graphics, it was specifically designed to do the sort of fast mathematical calculations used for Vertex/Geometry processing. Without it the PlayStation hardware would not have been able to pull of the excellent 3D graphics it was known for in its time.
 
-{% include link-to-other-post.html post="/ps1-gte" description="To find out more about the the Geometry Transformation Engine check out this post." %}
+The GTE is the second co-processor attached to the main processor of the PS1 and this it is also reffered to as Cop2.
+
+It is ideal for the mathematics required to do calculations in 3D space, as it is much faster than the main cpu for these sort of calculations.
+
+Some of the main uses for the GTE are:
+* 3D Rotation/Translation/Projection calculations
+* Fogging calculations
+* Lighting calculations
+* Colour calculations
+
+The PSY-Q development environment exposes the gte functionality to programmers using a bunch of functions and assembly instructions that start with gte_, for example gte_ncdt().
+
 
 One interesting limitation of the PS1 GPU is that it didn't have a Z-buffer so polygons needed to be sorted by the PS1 CPU instead, so often the Painters algorithm was used [^3].
 
