@@ -2,13 +2,13 @@
 layout: post
 tags: 
 - introduction
-- pc
+- hardware
 - nes
 - snes
 - n64
 - megadrive
 - mastersystem
-title: How Retro Cartridges/ROMS work
+title: How Retro Cartridges (ROMS) work
 thumbnail: /public/consoles/Computer Old Design.png
 image: https://i.ytimg.com/vi/NLEMsw1SjDY/sddefault.jpg
 permalink: /how-retro-cartridges-roms-worked
@@ -19,8 +19,9 @@ breadcrumbs:
     url: /introduction
   - name: How Retro Cartridges/ROMS worked
     url: #
-recommend: 
+recommend:
 - introduction
+- hardware
 editlink: /Introduction/RetroCartridges.md
 videocarousel:
   - title: Part 1
@@ -51,7 +52,6 @@ One advantage to cartridges on PC however was they were much harder to pirate th
 Another advantage is there loading time, there is very little loading time for cartridges as the memory is directly read from the cartridge rather than having to copy floppy content into RAM first.
 
 ## Cartridges vs CDs
-
 Loading time was much lower on cartridges as the memory was immediately available from a ROM chip.
 
 However the cost of cartridges was much higher and the amount of memory was much lower on cartridges, with an average CD holding 700mb, the equivalent cartridge would be far too expensive to mass produce.

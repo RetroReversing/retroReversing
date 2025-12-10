@@ -74,6 +74,11 @@ We have all our Game Console Development Kit Hardware posts categorised from a s
 {% include link-to-other-post.html post="/hardware/devkits/" %}
 
 ---
+# Game Specific Hardware
+
+## Game Cartridge Hardware
+{% include link-to-other-post.html post="/how-retro-cartridges-roms-worked" %}
+
 ## Cheat Cartridge Hardware
 {% include link-to-other-post.html post="/hardware/cheatcartridge/" %}
 
