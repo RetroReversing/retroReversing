@@ -14,6 +14,8 @@ breadcrumbs:
     url: /
   - name: Sony PlayStation 1
     url: #
+redirect_from:
+ - /Evolution-of-Playstation-Games
 carousel:
   - title: PlayStation Architecture
     description: 'This episode with look at the PS1’s hardware and why Final Fantasy 7 was written the way that it was.'
@@ -78,6 +80,10 @@ Crash Bandicoot was one of the first 3d platformers that managed to deliver qual
 It was created by Andy Gavin and Jason Rubin for release on the original PlayStation console, and both developers have been kind enough to share ample amount of information on how the game was implemented.
 
 {% include link-to-other-post.html post="/crash-bandicoot" description="To find out how Crash Bandicoot was developed check out this post." %}
+
+## Evolution of (Playstation) PS1 Games 1995-2018
+GameForest presents a comprehensive visual timeline of the PlayStation platform's library, showcasing the graphical and gameplay evolution from 1995 to 2018. The compilation chronicles major releases across the console generations, starting with early PS1 titles like Jumping Flash! and Arc the Lad, moving through the PS2 and PS3 eras with defining games such as Grand Theft Auto and Uncharted, and concluding with modern PS4 blockbusters like Horizon Zero Dawn and God of War.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JMzopZ2dK18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## PS1 Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.

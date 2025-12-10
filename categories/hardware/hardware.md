@@ -11,7 +11,7 @@ breadcrumbs:
 redirect_from:
   - /hardware
   - /cpu
-  - /Evolution-of-Playstation-Games
+  - /playStation-evolution
 tags:
 - hardware
 recommend:
