@@ -70,7 +70,7 @@ We have a separate post on 3D Studio Max which you can find below:
 
 ## Lightwave 
 
-### lightware used by Team17 for WORMS
+### Lightwave used by Team17 for WORMS on the Amiga
 [Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development Amiga 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, **Chris Blythe**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rcyHqJ6ZHXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
