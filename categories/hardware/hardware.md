@@ -64,8 +64,6 @@ We have all our Game Console Development Kit Hardware posts categorised from a s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j-eVnP-Om3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### PlayStation 2 Console Hardware
-{% include link-to-other-post.html post="/playStation-2-architecture" %}
 
 ### Nintendo 64 Console Hardware
 {% include link-to-other-post.html post="/n64-hardware-architecture/" %}

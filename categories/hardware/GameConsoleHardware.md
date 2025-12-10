@@ -45,8 +45,7 @@ Platform Name | Page
 Nintendo 64 | [Nintendo 64 Hardware Architecture](https://www.retroreversing.com/n64-hardware-architecture/)
 Nintendo Gamecube | [Gamecube Architecture](https://www.retroreversing.com/gamecube-architecture)
 Sega Saturn | [Sega Saturn Hardware Architecture](https://www.retroreversing.com/saturn-architecture)
-Sony Playstation | [PlayStation Hardware Architecture](https://www.retroreversing.com/playStation-architecture)
-Sony Playstation 2 | [PlayStation 2 Hardware Architecture](https://www.retroreversing.com/playStation-2-architecture)
+
 
 <div>
 {% include console.html %}
