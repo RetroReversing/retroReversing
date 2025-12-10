@@ -68,6 +68,14 @@ The software in this section are used by hundreds if not thousands of games and 
 We have a separate post on 3D Studio Max which you can find below:
 {% include link-to-other-post.html post="/3d-studio-max" description="For more information on 3D Studio check out this post." %}
 
+## Lightwave 
+
+### lightware used by Team17 for WORMS
+[Retro Recipes](https://www.youtube.com/watch?v=rcyHqJ6ZHXs) has an incredible video about discovering and exploring the original development Amiga 4000 used to create the classic game *Worms*. The video documents the process of recovering data from the aging hard drives, revealing original Lightwave 3D animation files, FMV assets, and even unreleased artwork, guided by the original developer, **Chris Blythe**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rcyHqJ6ZHXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ---
 # Obscure 3D Art Software
 The software in this section are more obscure and may have only been used for a handful of games, but they were viable choices for smaller studios due to their cheaper price.

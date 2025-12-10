@@ -262,7 +262,8 @@ Here is a list of games that still contain IS64 debug code thanks to a Pastebin 
   19. Doshin the Giant 2 (64DD)
   20. Mario Artist Communication Kit (64DD)
 
-
+LuigiBlood has written a script for the **Project64** emulator that logs **IS-Viewer64** function calls that can be used with the games listed above:
+[EmuScripts/N64/Project64/IS64Log.js at master · LuigiBlood/EmuScripts · GitHub](https://github.com/LuigiBlood/EmuScripts/blob/master/N64/Project64/IS64Log.js)
 
 ## Prototype Cartridges (NUS-8F16F/NUS-16F32SB/NUS-16F32S/NUS-16F32S)
 <section class="postSection">

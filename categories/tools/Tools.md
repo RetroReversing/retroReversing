@@ -183,6 +183,16 @@ Emulators replicate the hardware of old gaming systems on modern computers, allo
 
 {% include link-to-other-post.html post="/Reversing-Emulators" description="For more information on Reversing Emulators check out this post." %}
 
+### QEMU 
+QEMU is an open-source machine emulator and virtualizer that enables hardware-level virtualization and full-system emulation for running operating systems and software across different CPU architectures.
+
+#### A Deep Dive into QEMU Internals
+The **Airbus Security Lab** has an excellent write up about reverse engineering the internal mechanics of the QEMU emulator. 
+It covers the Tiny Code Generator (TCG), memory management via SoftMMU, and the main execution loop, offering critical insights for security researchers aiming to audit or fuzz the emulation engine.
+
+{% include link-to-other-site.html url="https://airbus-seclab.github.io/qemu_blog/" description="Airbus Security Lab provides a comprehensive series of blog posts detailing QEMU internals, including the TCG JIT compiler, memory access handling, and device emulation." image="https://avatars.githubusercontent.com/u/41308365?v=4" title="A Deep Dive into QEMU Internals" %}
+
+
 ## Game Cracking Software used back in the day
 Cracking games for piracy and other purposes has existed for almost as long as the games industry has existed. 
 

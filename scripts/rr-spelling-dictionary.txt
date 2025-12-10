@@ -1,6 +1,7 @@
 agentic
 Agentic
 Amiibo
+Blitter
 Bookazine
 Bookazines
 Compuware

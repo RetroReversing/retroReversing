@@ -8,7 +8,6 @@ recommend:
 recommendTitle: All DS Posts
 editlink: ../categories/consoles/DS.md
 console: ds
-consoleimage: /public/consoles/Nintendo%20Game%20Boy%20Advance.png
 excerpt: Awesome list of DS Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

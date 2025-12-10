@@ -237,6 +237,11 @@ The source code to Devil May Cry 2 was released as part of the Capcom Leaks in N
 
 {% include link-to-other-post.html post="/capcomleaks" description="For more information on the Devil May Cry 2 source code check out this post." %}
 
+### Kelly Slater's Pro Surfer Source Code
+The complete source code for *Kelly Slater's Pro Surfer*, a 2002 extreme sports game developed by Treyarch has been released online. The repository offers a rare look into the development of a sixth-generation console title, containing C++ source files, engine logic (built on the *Tony Hawk's Pro Skater* engine framework), and development assets for the PS2, Xbox, and GameCube platforms.
+
+{% include link-to-other-site.html url="https://github.com/historicalsource/kelly-slaters-pro-surfer" description="historicalsource has released the full source code for Kelly Slater's Pro Surfer, providing a comprehensive resource for studying the Treyarch engine, game physics, and 2000s-era console development workflows." image="https://opengraph.githubassets.com/1/historicalsource/kelly-slaters-pro-surfer" title="Kelly Slater's Pro Surfer Source Code" %}
+
 ---
 # Microsoft Systems
 This section has all the consoles Microsoft made which are considered retro enough to include here. We currently do not list anything after the original Xbox but this may change in the future when the 360 can safely be classified as a retro system.

@@ -87,6 +87,12 @@ This may have got the meeting off to a rough start but in the end SEGA got **Joh
 
 So reverse engineering the Sega Mega Drive certainly brought benefits to both EA and SEGA at the time!
 
+### How Sega bet against Reverse Engineering...and lost
+[Modern Vintage Gamer](https://www.youtube.com/watch?v=-aLfKnJAe0Y) has an excellent video about the history of reverse engineering on the Sega Genesis. It covers the technical and legal strategies used by Electronic Arts and Accolade to bypass the console's TMSS security chip, detailing how clean-room reverse engineering led to a landmark court ruling for software interoperability.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-aLfKnJAe0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Rare Reverse Engineered the NES to get an Official Nintendo License
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^1].
 

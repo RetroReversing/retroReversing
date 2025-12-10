@@ -199,6 +199,15 @@ PSi2 | Thin Ice Media (Datel) | 2000-? | This occasionally contains top quality 
 Retro Gamer | Live/Imagine/Future | 2004-present | Long running UK Magazine dedicated to Retro games, often has interviews with game developers
 Super Pro | Paragon Publishing | 1992-1994 | Super Nintendo Magazine that had some interviews related to game development such as the interview with Brain Fargo of Interplay
 
+
+## EGM - Electronic Gaming Monthly
+Electronic Gaming Monthly or EGM was a monthly magazine published in the USA by Sendai Punlishing. It often featured interviews with game developers and "Behind the scenes" articles so it is a good source for information on retro game development.
+
+### Pixels to Pages - The Story of Electronic Gaming Monthly
+[Game Sack](https://www.youtube.com/watch?v=E010OPY1Tzw) has an excellent documentary about the rise and fall of *Electronic Gaming Monthly* (EGM). It details the magazine's aggressive editorial strategies, such as the "Review Crew" and "Sushi X," and covers the technical challenges of early game journalism, including the use of custom photography rigs like the "cone of silence" to capture CRT screenshots before digital press kits existed.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/E010OPY1Tzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 ## GameBytes (1992-1994)
 GameBytes was a very unique magazine as it wasn't published in a traditional sense, it was released for free online on **Bulletin Board Systems**, it was also unique in its format as it was an actual interactive MS-DOS Application!

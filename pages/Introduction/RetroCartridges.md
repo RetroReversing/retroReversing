@@ -90,6 +90,15 @@ Mappers are configurations of cartridges to tell the emulator what hardware each
 Bank switching was rarely used for PC games as it was simply cheaper to put games on a floppy disc rather than a cartridge [^1]. Plus not all early PCs came with cartridge sockets.
 
 
+---
+# Flash Cartridges
+
+### The Engineering Behind Flash Carts
+[What's Ken Making](https://www.youtube.com/watch?v=yhiMNSZ3AXw) provides a detailed technical breakdown of how modern flash cartridges function to emulate original game hardware. The video covers the challenges of address decoding, voltage translation, and memory banking to interface modern storage (SD cards) with retro consoles.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yhiMNSZ3AXw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 # References
 [^1]: [How Oldschool ROM Cartridge Games Worked YouTube](https://www.youtube.com/watch?v=NLEMsw1SjDY)
 [^2]: [How old school cassette tape drives worked](https://www.youtube.com/watch?v=_9SM9lG47Ew)
