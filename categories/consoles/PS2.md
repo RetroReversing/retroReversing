@@ -2,13 +2,12 @@
 permalink: /ps2
 layout: post
 title: Sony Playstation 2
-recommend: ps2
 recommendTitle: All PS2 Posts
 editlink: ../categories/consoles/PS2.md
 console: 'ps2'
-consoleimage: /public/consoles/Sony PlayStation 2.png
-thumbnail: /public/consoles/Sony PlayStation 2.png
 excerpt: Awesome list of Sony Playstation 2 Game Development and Reverse Engineering information
+redirect_from:
+ - /playStation-2-architecture
 breadcrumbs:
   - name: Home
     url: /
@@ -18,6 +17,10 @@ breadcrumbs:
     url: #
 tags:
   - ps2
+recommend: 
+ - ps2
+ - ps1
+ - introduction
 ---
 
 # Introduction
@@ -31,16 +34,62 @@ So grab your DualShock controller, and get ready to dive into the exciting world
 # Hardware
 Similar to the original PlayStation the PS2 used a MIPS processor but this time it was 64 bit and codenamed the **Emotion Engine**, along with 2 custom vector processors. Although the PS2 has a much more modern GPU design compared to the PS1, the actual transformation of the vertices were still being process by the CPU core rather than the GPU [^1].
 
-The main parts of the PS2 hardware were:
-* Emotion Engine (64 bit MIPS processor + 2 vector processors)
-* Graphics Synthesiser (GS) - 4MB with features such as Z-buffer, trilinear texturing and Gourard shading [^1]
-* 48-Channel sound chip (SPU2)
+The main components of the PS2 hardware were:
+* **Emotion Engine (EE)** - (64 bit MIPS processor + 2 vector processors)
+* **Graphics Synthesiser (GS)** - 4MB with features such as Z-buffer, trilinear texturing and Gourard shading [^1]
+* **Sound Processor (SPU2)** - 48-Channel sound chip
+* **Image processing Unit (IPU)** - Decodes MPEG2 streams
 
 ## Retail Hardware
 For an in-depth look at the PlayStation 2 Retail hardware architecture check out the excellent post by **Copetti.org**:
 {% include link-to-other-site.html url="https://www.copetti.org/writings/consoles/playstation-2/" description="Copetti.org has an excellent tear down of the PlayStation 2 Hardware and how it works" image="https://www.copetti.org/images/consoles/ps2/_hue8a2466eba16e1ae3cd9542d2db31c8a_66348_dcb7ac7ba1db910c9628de3127aa9544.webp" title="PlayStation 2 Architecture - A Practical Analysis"  %}
 
+### What were the specs of the PS2?
+Display Specs:
+ - Supports 480p progressive
+ - MPEG-2 Full Motion Video (FMV)
+ 
+Sound Specs:
+- Dolby pro logic 2 (5.1 Surround sound)
+- DTS
+- Streaming Audio
 
+Max Game Specs Per frame:
+ - 120,000 and 6,000 tris
+ - 3Mb of Textures 
+ - Frame rate of 30 or 60fps
+
+
+### Emotion Engine
+The Emotion Engine was used for Game Logic and had the following:
+* 32MB RAM
+* MIPS 59k CPU
+
+### Graphic Synthesiser (GS)
+Used for rendering and vertex transformation:
+* 4MB RAM
+* 2.4 GPixel/sec
+* Support for Mip-mapping and alpha blending
+* Texture formats: 32/24/16/8/4
+
+### I/O Processor (IOP)
+Used for Interaction with peripherals (Memory cards, usb devices, Networking, Audio, DVD etc)
+* 2MB RAM (8MB on a devkit)
+* Playstation 1 on a chip (used for playing PS1 games)
+* 36.9 Mhz
+
+### Serial Interface (SIF)
+The Serial Interface (SIF) is used to Interface between the Emotion Engine (EE) and the I/O processor (IOP)
+* **SIFDMA** - transfer memory to other processor
+* **CIFCMD** - run a command on the other processor such as setting flags
+* **SIFRPC** - run remote operations on the other processor, includes a return value
+
+#### Example of SIF in action
+An example of using the SIF to communicate between both processors is the controller pad libraries. We want to communicate between libpad.a which runs on the Emotion Engine and padman.irx which runs on the I/O Processor.
+So during the VBlank period the IOP Padman.irx uses SIFDMA to send controller information (such as which buttons are pressed) to the Emotion Engine.
+The Emotion Engine can then request this information by calling the API scePadRead
+
+---
 ## Development Hardware
 The hardware used to develop PlayStation 2 games was similar but had an increase in memory along with a few debugging features. The details are covered in a separate post:
 {% include link-to-other-post.html post="/playstation-2-development-hardware" description="For information about Sony's PlayStation Two development hardware check out this post." %}
@@ -49,6 +98,7 @@ Later in the PS2's lifetime SN Systems released a specific development kit for d
 
 {% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2/" description="For information about Network Development Kit development hardware check out this post." %}
 
+---
 ## Third Party Hardware
 
 ### PlayStation 2 Olympus Eye-Trek FMD-20 

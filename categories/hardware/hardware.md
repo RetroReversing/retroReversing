@@ -10,8 +10,15 @@ breadcrumbs:
     url: /hardware
 redirect_from:
   - /hardware
+  - /console
   - /cpu
-  - /Evolution-of-Playstation-Games
+  - /playStation-evolution
+  - /consolearchitecture
+  - /architecture
+  - /console-architecture
+  - /consolehardware
+  - /games/console
+  - /hardware-architecture
 tags:
 - hardware
 recommend:
@@ -25,6 +32,20 @@ Welcome to our our page dedicated to the hardware topics related to reverse engi
 # Retro Gaming Hardware
 This section collects the main topics related to the general hardware components that are used in game consoles and development kits.
 
+## What is Game Console Hardware Architecture?
+A game console itself is a series of chips placed on to a board, however unlike a PC motherboard it contains specialist chips that can normally not be upgraded.
+
+The placement of the chips on the board is called the hardware architecture and it is an art as much as a science, it needs to be carefully crafted to get the most performance out of the system.
+
+It also needs to implement anti-piracy measures, which is why many systems required a physical mod-chip installed in order to by pass copy-protection or region-lock.
+
+## Why is this related to Game Reversing?
+Knowing the hardware is vital for understanding why a game was written the way it was, game programming is not easy and developers wanted to get the most out of the hardware.
+
+This resulted in them having to write strange code in order for the hardware to be pushed to the limits.
+It's this attention to hardware detail which makes developing an emulator a very tricky task and results in some games being unplayable or missing certain features.
+
+---
 ## Microprocessors
 This section tracks the key CPUs that defined each console generation, from simple 8-bit designs to richer 16/32-bit hybrids.
 Knowing their instruction sets, bus layouts, and quirks is essential for emulation, tooling, and reverse engineering hardware behavior.
@@ -64,19 +85,15 @@ We have all our Game Console Development Kit Hardware posts categorised from a s
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j-eVnP-Om3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### PlayStation One Hardware
-{% include link-to-other-post.html post="/playStation-architecture" %}
-
-{% include link-to-other-post.html post="/ps1-gte" %}
-
-### PlayStation 2 Contole Hardware
-{% include link-to-other-post.html post="/playStation-2-architecture" %}
 
 ### Nintendo 64 Console Hardware
 {% include link-to-other-post.html post="/n64-hardware-architecture/" %}
 
 ### SEGA Saturn Hardware
 {% include link-to-other-post.html post="/saturn-architecture" %}
+
+### Nintendo Gamecube Hardware
+{% include link-to-other-post.html post="/gamecube-architecture" %}
 
 ---
 # Hardware Reverse Engineering 
