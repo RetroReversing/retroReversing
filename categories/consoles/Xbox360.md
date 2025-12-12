@@ -45,6 +45,13 @@ In this segment of our guide, we will provide you with comprehensive information
 
 ## Retail Hardware
 
+
+### Hacking the Xbox 360 Hypervisor Part 1: System Overview
+[I Code 4 Coffee](https://icode4.coffee/?p=1047) has a write up about the robust security architecture of the Xbox 360, specifically focusing on the Xenon CPU  and its hypervisor. The post details the "security engine", memory encryption pathways, and the custom PowerPC execution modes that made the console exceptionally difficult to hack via software alone.
+
+{% include link-to-other-site.html url="https://icode4.coffee/?p=1047" description="Ryan Miceli provides a deep dive into the Xbox 360's security systems, explaining how the hypervisor, CPU on-die features, and memory encryption work together to prevent unauthorized code execution." image="https://icode4.coffee/wp-content/uploads/2021/02/xbox_360_cpu_die-1024x768.jpg" title="Hacking the Xbox 360 Hypervisor Part 1" %}
+
+
 ## Development Hardware
 The Xbox 360 development hardware is particularly intriguing for those interested in reverse engineering games due to its powerful specifications and the unique development environment it offers for game developers.
 

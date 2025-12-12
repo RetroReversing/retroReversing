@@ -73,6 +73,13 @@ You can now trace the image created in a tool such as `Inkscape` and add labels 
 ## Chris Gerlinsky's talk at RECON 2019 on optically preserving Mask ROMS
 (The ROM Matrix Revolution Unscrambling Bits)[https://recon.cx/media-archive/2019/Session.002.Chris_Gerlinsky.The_ROM_matric_revolution_Unscrambling_bits-K0W7zZQDK9lQQ.mp4]
 
+
+## LACED: Laser-Assisted Controlled Etching and Delayering
+LACED is a novel methodology developed by LawrenceBrode for delayering multilayer PCBs using accessible, low-cost equipment (under €200). The technique combines a standard 5W diode laser with chemical etching to achieve micron-level precision (3.5–10 µm), offering a viable alternative to industrial FIB systems for home-lab reverse engineering.
+
+{% include link-to-other-site.html url="https://github.com/LawrenceBrode/LACED" description="LawrenceBrode details a comprehensive guide on using laser ablation and chemical etching to precisely delayer PCBs for hardware analysis without expensive machinery." image="https://opengraph.githubassets.com/1/LawrenceBrode/LACED" title="LACED: Affordable High-Precision PCB Delayering" %}
+
+
 ---
 # References
 [^1]: [How I reverse engineer a chip - YouTube](https://www.youtube.com/watch?v=r8Vq5NV4Ens)
