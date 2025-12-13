@@ -55,6 +55,11 @@ For more information about the JOLT check out this page:
 In the UK magazine **Zero** issue 7 there is an interview with the game developer **US Gold** where it mentions they are working on Atari 7800 games such as Gauntlet and it gives a brief description of the Development Kit they are using:
 > The 7800 development kit comprises the following: a Mega ST running Atari's proprietary combination 6502/68000 assembler, lead from ST to 7800 RAM cartridge and downloading software [^2].
 
+### Sluggo ROM emulator development kit
+[VCF Southwest](https://www.youtube.com/watch?v=N5MKMnIn8Rc) features a talk by legendary programmer **Rebecca Heineman**, who details how she reverse-engineered the Atari 2600 using an Apple II in the late 1970s. She explains the technical process of creating the "Sluggo" ROM emulator development kits, disassembling cartridges like *Combat* to map the system's registers, and her subsequent work at companies like Avalon Hill and Interplay.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N5MKMnIn8Rc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 # Reverse Engineering Atari 2600 Games
 
