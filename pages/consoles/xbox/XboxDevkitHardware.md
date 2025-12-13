@@ -107,6 +107,10 @@ There were multiple different variants of the Debug Kit, in the video below PToP
 If you happen to buy a Debug kit, please take extra care with the hard drive, it may contain an unreleased prototype. In the Video Below Modern Vintage Gamer takes you through the steps to preserving prototypes.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D_rstdgCz9M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## XBOX Prototype
+[Macho Nacho Productions](https://www.youtube.com/watch?v=kfaJ7gFdmyM) documents a trip to Microsoft headquarters to compare a custom-built, machined aluminum replica of the original Xbox prototype against the actual historical unit stored in the Microsoft Archives. The investigation reveals surprising differences in construction methods—such as the original being welded rather than milled from a solid block—as well as significant discrepancies in size and finish between the replica and the genuine artifact.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kfaJ7gFdmyM" frameborder="0" allowfullscreen></iframe>
 
 ---
 # References
