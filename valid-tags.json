@@ -2,14 +2,14 @@
   "summary": {
     "totalFiles": 277,
     "filesWithTags": 277,
-    "uniqueTags": 101,
-    "generatedAt": "2025-12-13T19:51:11.207Z"
+    "uniqueTags": 102,
+    "generatedAt": "2025-12-13T21:26:02.651Z"
   },
   "tags": {
-    "introduction": 53,
+    "introduction": 54,
     "tutorial": 10,
     "companies": 5,
-    "industry": 23,
+    "industry": 22,
     "crossproducts": 5,
     "datel": 2,
     "snsystems": 12,
@@ -37,7 +37,7 @@
     "megadrive": 6,
     "n64": 32,
     "nes": 15,
-    "snes": 8,
+    "snes": 9,
     "pc-88": 1,
     "pc-engine": 1,
     "ps1": 17,
@@ -57,6 +57,7 @@
     "xbox": 8,
     "xbox360": 2,
     "zxspectrum": 1,
+    "ios": 1,
     "fileformats": 13,
     "gameengines": 13,
     "middleware": 11,
@@ -300,7 +301,7 @@
       "nes"
     ],
     "categories/consoles/iOS.md": [
-      "industry",
+      "ios",
       "introduction"
     ],
     "categories/games/FileFormats.md": [
@@ -807,7 +808,9 @@
     ],
     "pages/consoles/nes/NES-Sprite-Tile-Editing.md": [
       "nes",
-      "gameboy"
+      "gameboy",
+      "introduction",
+      "snes"
     ],
     "pages/consoles/nes/NESDevkitHardware.md": [
       "nes",
