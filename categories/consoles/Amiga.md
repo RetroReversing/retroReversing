@@ -41,11 +41,11 @@ The engineers on the panel, listed in the order they were introduced or spoke:
  * **Ron Nicholson** - Director of Hardware Development
    * Ron worked on the system architecture and wire-wrapped the original prototype motherboards (building 2 or 3 of them). He mentioned being influenced by Apple's Bill Atkinson to implement a hardware "blitter" for graphics performance.
  * **Glenn Keller** - Hardware Engineer
-   * Glenn was responsible for the Porsche chip (which became Paula), handling the audio, disk controller, and UART. He shared a famous story about fixing a fatal flaw in the disk controller chip by physically cutting a microscopic wire on the silicon die with an X-Acto knife and a microscope.
+   * Glenn was responsible for the Porsche chip (which became Paula), handling the audio, disk controller, and UART. He shared a famous story about fixing a fatal flaw in the disk controller chip by physically cutting a microscopic wire on the silicon die with an "X-Acto" knife and a microscope.
  * **Sam Dicker** - Software Engineer
    * A former Williams Electronics employee (**Defender**, **Sinistar**), he worked on entertainment software and sound drivers. He created the original spinning ball demo (using color cycling to simulate rotation) and the sound effects for the Boing Ball demo (recorded by hitting a garage door with a foam bat).
  * **Mike Slifcak** - Manager of Software QA
-   * Mike was responsible for testing hardware and software, including "torture testing" floppy drives (e.g., inserting disks upside down). He also wrote early graphics algorithms (like Bresenham line drawing) in C before the hardware blitter was ready.
+   * Mike was responsible for testing hardware and software, including "torture testing" floppy drives (e.g., inserting disks upside down). He also wrote early graphics algorithms (like Bresenham line drawing) in C before the hardware Blitter was ready.
  * **R.J. Mical** - Software Engineer (Intuition/User Interface)
    * In the video, he focuses on the "folklore" of the Amiga team, recounting stories like the "mystery wire" on a wire-wrap board that seemed essential for the system to work despite not being connected to anything, and the team's intense work ethic (sleeping in the office) leading up to CES.
 
