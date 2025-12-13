@@ -103,6 +103,10 @@ Here are the internal hardware components shown off in the video:
       * **Output:** ~330 Watts on the 12V rail.
       * **Features:** Modular design with accessible external probe points for technicians.
 
+Here is a screengrab of the board from [Gamers Nexus](https://www.youtube.com/watch?v=aPBFzdQCrVE)'s video:
+<img width="2920" height="2042" alt="PS4 Dev kit Board from Gamers Nexus" src="https://github.com/user-attachments/assets/9cfc1e55-a4e2-4a5f-bb20-89b47a5fd05f" />
+
+
 
 ---
 # References
