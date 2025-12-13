@@ -19,10 +19,12 @@ Dreamcast
 EBOOT
 Ecco
 Famicom
+Foxconn
 Frida
 Frogger
 frontmatter
 Gamecube
+GDDR
 Gerdy
 Ghidra
 GhidrAssist
