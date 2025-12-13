@@ -12,9 +12,11 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /hardware
   - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
+redirect_from:
+- /writing-nes-games/
 recommend:
  - nes
  - snes
@@ -240,6 +242,11 @@ Mesen even comes with a HD Pack Builder Tool to create your own texture packs, f
 
 ### Writing 6502 NES Assembly
 The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
+
+### Writing NES Games! With Assembly!!
+[Coding Tech](https://www.youtube.com/watch?v=kXbMCKMJXXQ) presents a talk by Christian, a web developer who spent three months learning 6502 assembly to build a game for the NES. The presentation walks through the technical hurdles of retro development, from understanding ROM board architecture and the Picture Processing Unit (PPU) to writing low-level code for sprite movement and controller input using the **CC65** toolchain.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kXbMCKMJXXQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How are NES games so small (40KB)?
 The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
