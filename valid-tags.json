@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalFiles": 278,
-    "filesWithTags": 278,
+    "totalFiles": 277,
+    "filesWithTags": 277,
     "uniqueTags": 101,
-    "generatedAt": "2025-12-13T18:17:25.669Z"
+    "generatedAt": "2025-12-13T19:51:11.207Z"
   },
   "tags": {
     "introduction": 53,
@@ -71,9 +71,9 @@
     "incomplete": 2,
     "leak": 25,
     "maths": 4,
-    "3d": 5,
+    "3d": 6,
     "software": 5,
-    "tools": 17,
+    "tools": 16,
     "disassemblers": 1,
     "cracking": 2,
     "ghidra": 4,
@@ -509,6 +509,7 @@
     ],
     "pages/SourceCode/graphics/Awesome2DTechniques.md": [
       "2d",
+      "3d",
       "introduction"
     ],
     "pages/consoles/3ds/3DSDevkitHardware.md": [
@@ -1321,9 +1322,6 @@
     ],
     "pages/tools/Compiler Toolchains.md": [
       "sdk",
-      "tools"
-    ],
-    "pages/tools/Diaphora.md": [
       "tools"
     ],
     "pages/tools/GameMaker.md": [
