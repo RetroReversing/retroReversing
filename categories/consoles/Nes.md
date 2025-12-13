@@ -240,8 +240,14 @@ Mesen even comes with a HD Pack Builder Tool to create your own texture packs, f
 
 ## NES Assembly Programming
 
-### Writing 6502 NES Assembly
-The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
+### Nerdy Nights NES Programming Tutorials
+The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong!
+
+It stats with basic architecture and moves through PPU graphics (sprites, backgrounds), APU sound engine creation, and advanced mappers like MMC1.
+
+The original posts have been taken down but you can find a mirror here: 
+
+{% include link-to-other-site.html url="https://nerdy-nights.nes.science/#main_tutorial-0" description="A complete, preserved archive of the Nerdy Nights tutorials covering NES development from 'Hello World' to a full Pong clone and sound engine." image="https://nerdy-nights.nes.science/assets/nerdy-nights.png" title="Nerdy Nights Mirror" %}
 
 ### Writing NES Games! With Assembly!!
 [Coding Tech](https://www.youtube.com/watch?v=kXbMCKMJXXQ) presents a talk by Christian, a web developer who spent three months learning 6502 assembly to build a game for the NES. The presentation walks through the technical hurdles of retro development, from understanding ROM board architecture and the Picture Processing Unit (PPU) to writing low-level code for sprite movement and controller input using the **CC65** toolchain.
