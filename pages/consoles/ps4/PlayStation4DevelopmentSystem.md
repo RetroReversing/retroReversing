@@ -23,20 +23,32 @@ editlink: /consoles/ps4/PlayStation4DevelopmentSystem.md
 
 This post covers the hardware used to develop PlayStation 4 games by major studios back in the day, for the software side see the post on the Official PS4 SDK.
 
-# Pricing Information
- 
+## Pricing Information
+The PS4 development kits were split into "Testing Kits" for QA and "Development Kits" for software developers. With both having an alternative Bundle version.
+
+The prices for standard PS4 testing kits and the PS4 Pro testing/development hardware are listed in the table below in Euros (€), currently we don't know the price of the standard PS4 Development kit.
+
 ID | Name | Price in Euro
 ---|---|---
 9267669 | DUALSHOCK 4 CONTROLLER | € 50.00	
-DUH-D7000AA | PS4 PRO DEVELOPMENT KIT | € 2,000.00	
-DUH-D7000AAB | PS4 PRO DEVELOPMENT KIT BUNDLE | € 2,000.00	
+DUH-D1000AA | PS4 DEVELOPMENT KIT | Unknown ?
 DUH-T1200AA | PS4 TESTING KIT (C CHASSIS) | € 800.00	
 DUH-T1200AAB | PS4 TESTING KIT BUNDLE (C CHASSIS) | € 800.00	
 DUH-T2000AA | PS4 TESTING KIT (D CHASSIS) | € 800.00	
 DUH-T2000AAB | PS4 TESTING KIT BUNDLE (D CHASSIS) | € 800.00	
+DUH-D7000AA | PS4 PRO DEVELOPMENT KIT | € 2,000.00	
+DUH-D7000AAB | PS4 PRO DEVELOPMENT KIT BUNDLE | € 2,000.00	
 DUH-T7000AA | PS4 PRO TESTING KIT | € 800.00	
 DUH-T7000AAB | PS4 PRO TESTING KIT BUNDLE | € 800.00	
 
+## DUH-D1000AA - Original PS4 Development Kit (DUH-D1000AA)
+[devkit](https://www.youtube.com/watch?v=dgfGF2Dt_Bs) provides a rare detailed overview of an early PlayStation 4 development hardware unit (model DUH-D1000AA), highlighting physical differences such as additional USB/Ethernet ports and debug LEDs. 
+
+The video demonstrates the system's "expired" state, explores the extensive debug settings menu, and showcases the **Neighborhood** desktop software used for remote console management and package installation.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgfGF2Dt_Bs" frameborder="0" allowfullscreen></iframe>
+
+---
 ## DUH-D7000AA - Sony PlayStation 4 Pro DevKit
 The PS4 Pro development kit **DUH-D7000AA** was made by Foxconn [^1] and had a stackable design ideal for rack mounting which would be useful for connecting to the hardware from developers machines over the network.
 
