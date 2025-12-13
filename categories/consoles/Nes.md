@@ -276,6 +276,11 @@ It covers the following topics related to NES Graphics:
 * **Attribute Table** - A look up table of which Palette to use for that Block (set of 4x4 tiles)
 * **Sprites** - Graphics made up of tiles but are rendered above the background tiles
 
+### NES Graphics Explained - The PPU
+[NesHacker](https://www.youtube.com/watch?v=7Co_8dC2zb8) provides a technical deep dive into the Nintendo Entertainment System's graphics architecture, focusing on the Picture Processing Unit (PPU). The video explains the four critical memory sections used to render 8-bit graphics: Pattern Tables for raw tile data, Name Tables for background layouts, Palettes for color management, and Object Attribute Memory (OAM) for handling foreground sprites.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Co_8dC2zb8" frameborder="0" allowfullscreen></iframe>
+
 ---
 # Reverse Engineering Famicom and NES games
 If you're interested in exploring the inner workings of classic video games, reverse engineering is a process that can help you uncover the secrets of how these games were designed and programmed. 
