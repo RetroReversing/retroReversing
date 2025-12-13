@@ -32,6 +32,7 @@ ID | Name | Price in Euro
 ---|---|---
 9267669 | DUALSHOCK 4 CONTROLLER | € 50.00	
 DUH-D1000AA | PS4 DEVELOPMENT KIT | Unknown ?
+DUH-T1000xA | PS4 TESTING KIT (B CHASSIS) | € 800.00
 DUH-T1200AA | PS4 TESTING KIT (C CHASSIS) | € 800.00	
 DUH-T1200AAB | PS4 TESTING KIT BUNDLE (C CHASSIS) | € 800.00	
 DUH-T2000AA | PS4 TESTING KIT (D CHASSIS) | € 800.00	
@@ -55,9 +56,15 @@ The video demonstrates the system's "expired" state, explores the extensive debu
 Thanks to **WorldUponAString** over on Reddit we have a photo of the rear of the Unit [^2]:
 ![Rear of DUH-D1000AA](/public/images/ps4/PS4_DUH-D1000AA_Rear_WorldUponAString.png)
 
+---
+## DUH-T1000xA - PS4 TESTING KIT
+The PS4 Testing Kits look almost identical to the standard retail PlayStation 4 apart from the text "TEST" written on it along with a "Kensington Lock":
+![Test text of T1000AA](/public/images/ps4/PS4_DUH-T1000AA_TEST_Text.png)
+
+
 
 ---
-## DUH-D7000AA - Sony PlayStation 4 Pro DevKit
+## DUH-D7000AA - Sony PlayStation 4 Pro Development Kit
 The PS4 Pro development kit **DUH-D7000AA** was made by Foxconn [^1] and had a stackable design ideal for rack mounting which would be useful for connecting to the hardware from developers machines over the network.
 
 ### Front Panel
@@ -82,7 +89,7 @@ The hardware provided the following ports:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aPBFzdQCrVE" frameborder="0" allowfullscreen></iframe>
 
 Here are the internal hardware components shown off in the video:
-  * **APU (Processor):**
+  * **SoC (Processor):**
       * **Model Number:** Sony CXD90044GC.
       * **Die Size:** ~23.0mm x 14.9mm.
   * **Memory (RAM):**
