@@ -35,6 +35,13 @@ However Assembly language programs are written for a specific CPU and not portab
 
 Most commercial games written for Game Boy/Game Boy Color/NES/SNES/SMS/MegaDrive are written in an Assembly language such as Z80/6502/68000 as C compilers were generally not good enough at the time to create optimized code for those platforms.
 
+## x86 Assembly Language 
+  
+### x86-64 Playground
+[x64.halb.it](https://x64.halb.it/) is an interactive, browser-based environment for writing, running, and debugging x86-64 assembly code. Created by Alberto Ventafridda, it utilizes a WASM port of the Blink emulator to provide a full Linux-compatible runtime with a GDB-like interface for inspecting registers and memory, making it an excellent tool for learning binary exploitation without a local setup. 
+
+{% include link-to-other-site.html url="https://x64.halb.it/" description="Alberto Ventafridda has created a client-side x86-64 Linux emulator and debugger that runs entirely in the browser, allowing for safe and accessible assembly experimentation." image="https://opengraph.githubassets.com/1/robalb/x86-64-playground" title="x86-64 Playground" %}
+
 ---
 # C/C++
 C and C++ revolutionized game development by introducing a higher level of abstraction without sacrificing performance (when compilers became good enough between the Mega Drive and Saturn era). 

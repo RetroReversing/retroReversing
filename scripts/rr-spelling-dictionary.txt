@@ -28,6 +28,7 @@ Ghidra
 GhidrAssist
 Gigaleak
 Herdy
+HLSL
 Hollingworth
 Intellivision
 ISAS
@@ -57,6 +58,7 @@ PSYLIB
 PSYQ
 Quakecon
 Radare
+Recomp
 Runecraft
 sameboy
 Sameboy
@@ -73,6 +75,7 @@ Turok
 twitterimage
 W32Dasm
 Wario
+Xenos
 Yabasic
 Yaroze
 YouTuber

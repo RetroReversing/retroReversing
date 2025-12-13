@@ -548,6 +548,12 @@ There are only a handful of reverse engineered games for Microsoft game consoles
 ---
 ## Xbox 360
 
+  
+### Sonic Unleashed Static Recompilation 
+**hedge-dev** has released UnleashedRecomp, a project that statically recompiles the Xbox 360 version of *Sonic Unleashed* to run natively on PC. By translating the original PowerPC instructions and Xenos shaders into native C++ and HLSL, this tool bypasses traditional emulation overhead, enabling features like arbitrary resolutions, high frame rates, and deep modding support on Windows and Linux. 
+
+{% include link-to-other-site.html url="https://github.com/hedge-dev/UnleashedRecomp" description="hedge-dev has released UnleashedRecomp, a static recompilation tool that allows Sonic Unleashed to run natively on PC with performance enhancements and modding support." image="https://opengraph.githubassets.com/1/hedge-dev/UnleashedRecomp" title="UnleashedRecomp: Native PC Port of Sonic Unleashed" %}
+
 ### Terraria
 {% include link-to-other-site.html url="https://github.com/dptug/TerrariaXDK" description="Since Terraria is based on XNA which is a C# library, it is possible to decompile back into C# source code. This project is still very early but has some interesting results." image="https://cdn0.spong.com/pack/t/e/terraria409425l/_-Terraria-Xbox-360-_.jpg" title="Broken Decompiled Terraria Xbox 360 Edition source code"  %}
 

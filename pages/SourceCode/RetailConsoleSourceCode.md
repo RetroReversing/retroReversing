@@ -24,7 +24,7 @@ tags:
 editlink: ../pages/SourceCode/RetailConsoleSourceCode.md
 updatedAt: '2022-04-09'
 redirect_from:
-  -  /sourcecode
+  - /sourcecode
 ---
 It is very rare that a commercial game releases its source code to the public, it is even rarer for that to be a console game, but there have been a few exciting cases in recent history which we will explore in this post.
 

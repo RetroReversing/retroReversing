@@ -122,6 +122,14 @@ We are currently working on a post that will document the files in the Microsoft
 ## Microsoft Xbox 360
 We are still collecting information about the Xbox 360 software development kit provided by Microsoft, a post will become available in the future.
 
+---
+# Other SDKs  
+
+## Visi On SDK Reverse Engineering
+**Nina Kalinina** has published an extensive technical note on reverse engineering **VisiCorp's Visi On**, a 1983 graphical operating system that predated Windows and Macintosh. The write-up details the process of reconstructing the lost SDK by analyzing the "VisiMachine" virtual machine and encrypted installation floppies, culminating in the development of the first third-party application for the platform in over 40 years.
+
+{% include link-to-other-site.html url="https://git.sr.ht/~nkali/vision-sdk/tree/main/item/note/index.md" description="Recreating the **Visi On SDK**, covering the dissection of its virtual machine architecture, file system, and the creation of modern homebrew tools." image="https://upload.wikimedia.org/wikipedia/en/2/2e/Visi_On_1.0_Screenshot.png" title="Recreating the Lost SDK for **Visi On**" %}
+
 
 ---
 # All Posts tagged with SDK

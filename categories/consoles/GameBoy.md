@@ -184,6 +184,11 @@ One cool easter egg he added to the game was an implementation of John Conway’
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Source graphics for Gameboy R-Type Lv3 ship. By Mark Jones... <a href="https://twitter.com/hashtag/ScreenshotSaturday24YearsAgo?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday24YearsAgo</a> <a href="http://t.co/RsKlc0rQOE">pic.twitter.com/RsKlc0rQOE</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/591964228053016577?ref_src=twsrc%5Etfw">April 25, 2015</a></blockquote>
 
+## How Pokemon Gold & Silver Work (Tribute to Satoru Iwata)
+[TheHappieCat](https://www.youtube.com/watch?v=XGFBtVbBgnM) explains the technical wizardry Satoru Iwata employed to fit the Kanto region into *Pokémon Gold & Silver*. The video provides a primer on low-level assembly programming and memory alignment, illustrating how efficient data packing and optimization allowed for the game's massive scope on the limited Game Boy Color hardware.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XGFBtVbBgnM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 # Game Boy Homebrew
 If you are interested in reverse engineering Gamy Boy Homebrew you will want to check out the tool **gbtoolsid** which can give an indication of what tool was used to make the rom (e.g GBDK, GBStudio etc):
