@@ -30,6 +30,7 @@ Gerdy
 Ghidra
 GhidrAssist
 Gigaleak
+Goomba
 Herdy
 HLSL
 Hollingworth
@@ -56,6 +57,7 @@ nasm
 NES
 Ollama
 OllyDbg
+Pacman
 Psygnosis
 PSYLIB
 PSYQ
