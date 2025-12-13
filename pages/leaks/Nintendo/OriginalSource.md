@@ -17,6 +17,9 @@ breadcrumbs:
 recommend: 
 - leak
 - gameboy
+- introduction
+redirect_from:
+ - /pokemon
 editlink: /leaks/Nintendo/OriginalSource.md
 twitterimage_: https://www.retroreversing.com/public/images/leaks/OriginalSource.jpg
 updatedAt: '2020-10-03'
