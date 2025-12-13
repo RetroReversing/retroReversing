@@ -55,6 +55,18 @@ For more information about the JOLT check out this page:
 In the UK magazine **Zero** issue 7 there is an interview with the game developer **US Gold** where it mentions they are working on Atari 7800 games such as Gauntlet and it gives a brief description of the Development Kit they are using:
 > The 7800 development kit comprises the following: a Mega ST running Atari's proprietary combination 6502/68000 assembler, lead from ST to 7800 RAM cartridge and downloading software [^2].
 
+---
+# Reverse Engineering Atari 2600 Games
+
+## Are there any Atari Reverse Engineered games or active projects?
+Before diving in its best to check if there are any existing reversing projects for the Atari 2600 that you can contribute to, check out our other post specifically on this topic:
+
+{% include link-to-other-post.html post="/source-code/decompiled-retail-console-games" description="For the list of disassembled games check out this post." %}
+
+### Haunted House Disassembly
+[brandonrobertz](https://github.com/brandonrobertz) provides a commented disassembly of the classic Atari 2600 game **Haunted House**, often cited as one of the first survival horror titles. The repository includes the reverse-engineered 6502 assembly source code compatible with the DASM assembler, allowing developers to analyze the game's logic or rebuild the ROM from scratch.
+
+{% include link-to-other-site.html url="https://github.com/brandonrobertz/haunted_house_disassembly" description="This repository hosts a work-in-progress commented disassembly of the Atari 2600 game Haunted House, including a Makefile for building the ROM with **DASM**." image="https://opengraph.githubassets.com/1/brandonrobertz/haunted_house_disassembly" title="Haunted House Disassembly" %}
 
 
 ---
