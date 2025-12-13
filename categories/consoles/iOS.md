@@ -46,6 +46,20 @@ The video details critical milestones in the platform's history, including the p
 ---
 # Reverse Engineering iOS Games
 
+## touchHLE: High-Level Emulator for Early iOS Games
+**touchHLE** is an open-source high-level emulator (HLE) written in **Rust** that runs classic apps from the early iPhone OS era (specifically versions 2.x and 3.x) on modern platforms like Windows, macOS, and Android. 
+
+Created by **hikari-no-yume**, the project focuses on preserving early mobile gaming history by dynamically recompiling ARM code and reimplementing Apple's system frameworks (such as UIKit and OpenGL ES) rather than emulating the full hardware. 
+This approach allows titles like *Super Monkey Ball* and *Crash Bandicoot Nitro Kart 3D* to run with enhanced performance and resolution scaling.
+
+{% include link-to-other-site.html url="https://github.com/touchHLE/touchHLE" description="hikari-no-yume and contributors have developed touchHLE, a High Level Emulator written in Rust that runs classic iPhone OS 2.x/3.x apps on modern systems by reimplementing the OS frameworks." title="touchHLE: High-level emulator for iPhone OS apps" %}
+
+### Driver iOS (2009) on touchHLE Emulator
+[VortexStory](https://www.youtube.com/watch?v=dviPm_e33pk) showcases the 2009 Gameloft iOS port of *Driver*, now playable via the high-level emulator touchHLE. The video explores this previously "lost" mobile version through gameplay of the Car Park tutorial and Pursuit mode, demonstrating how file modifications can enable controller support and remove on-screen touch overlays.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dviPm_e33pk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 ## Frida: Dynamic Instrumentation Toolkit
 **Frida** is a world-class dynamic instrumentation framework created by **Ole André Vadla Ravnås** that allows developers and reverse engineers to inject custom scripts into black-box processes. It enables users to hook functions, trace APIs, and manipulate application behavior in real-time across a wide range of platforms, including Windows, macOS, Linux, iOS, Android, and QNX, without requiring source code or recompilation.
 
