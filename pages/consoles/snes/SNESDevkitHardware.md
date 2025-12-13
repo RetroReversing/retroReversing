@@ -177,18 +177,30 @@ There was originally more photos on the site `Nintendo-Town.fr` but unfortunatel
 </div>
 </section>
 
-## Sluggo Development system
+## Sluggo Development system (Sluggo III)
 <section class="postSection">
   <img src="/public/images/snes/sluggo 3 Memory emulator.jpg" class="wow slideInLeft postImage" />
   <img src="/public/images/snes/sluggo 3 snes cartridge.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Sluggo development system was a custom in-house development tool created by `Rebecca Heineman` and her partner while working at Interplay. The development kit was created because Interplay couldn't afford the official SNES devkit but managed to get Nintendo to send over the hardware documentation in Japanese [^23].
 
-The two images on the left are from the `Atari Compendium` and show the main development kit (memory emulator) and a custom SNES cartridge that could be connected to an IBM-PC or even an Apple II GS to execute code on the Super Nintendo (and other consoles) [^15]. 
+The Sluggo development system was a custom in-house development tool created by **Rebecca Heineman** and her partner while working at **Interplay**. The development kit was created because Interplay couldn't afford the official SNES devkit but managed to get Nintendo to send over the hardware documentation in Japanese [^23].
+
+The two images on the left are from the `Atari Compendium` and show the main development kit (memory emulator) and a custom SNES cartridge (personality module) that could be connected to an IBM-PC or even an Apple II GS to execute code on the Super Nintendo (and other consoles) [^15]. 
 
 It was also sold to other developers for $895 for a single ROM system and $1295 for a dual, where the dual would be used to simulate 2 ROMs which was needed for consoles like the NES [^15].
 
-The Sluggo could support different console by having a separate `personality module` (custom cartridge) that plugs into the standard console cartridge slot [^17].
+Host Systems supported:
+* **IBM PC** - connected via Parallel Port
+* **Apple II GS** [^15]
+
+
+</div>
+</section>
+
+{% include link-to-other-site.html url="https://wiki.superfamicom.org/sluggo-iii" description="For more information and an excellent interview with the author check out this page on the super famicom wiki" image="https://wiki.superfamicom.org/uploads/sluggo-3.jpg" title="Sluggo III"  %}
+
+### Sluggo Personality Modules
+The system used interchangeable adapters called **Personality Modules**. These were essentially sacrificed cartridges for specific systems that routed the Sluggo's signals to the correct pins for that console [^17]. 
 
 Consoles supported:
 * Mega Drive (Genesis)
@@ -197,19 +209,29 @@ Consoles supported:
 * Turbo Grafix 16
 * Commodore 64
 
+### Games made using Sluggo
+It was sold to companies like Silicon & Synapse (now known as **Blizzard Entertainment**).
+
 Games that were developed using the Sluggo:
 * RPM Racing [^16]
 * Out of this world (Another World) [^23]
-</div>
-</section>
+* Wolfenstein 3D (SNES) [^34]
+* The Lost Vikings [^34]
 
-{% include link-to-other-site.html url="https://wiki.superfamicom.org/sluggo-iii" description="For more information and an excellent interview with the author check out this page on the super famicom wiki" image="https://wiki.superfamicom.org/uploads/sluggo-3.jpg" title="Sluggo III"  %}
+
+### Interview with Rebecca Heineman about Sluggo I/II/II
+[VCF Southwest](https://www.youtube.com/watch?v=N5MKMnIn8Rc) features a talk by legendary programmer Rebecca Heineman, who details how she reverse-engineered the Atari 2600 using an Apple II in the late 1970s. She explains the technical process of creating the "Sluggo" ROM emulator development kits, disassembling cartridges like *Combat* to map the system's registers, and her subsequent work at companies like Avalon Hill and Interplay.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N5MKMnIn8Rc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
 
 ## Rare Ltd
 <section class="postSection">
   <img src="/public/images/snes/Rare SNES Development kit 1995.jpg" class="wow slideInLeft postImage" />
 <div markdown="1">
-The Super Nintendo development kit created by Rare was a custom cartridge which presumably contained SRAM that gets populated by the game ROM when connected to a developers PC. Very little is known about this development kit but it would be great to know the features this supported and which games were developed using it (Donkey Kong Country?) .
+The Super Nintendo development kit created by Rare was a custom cartridge which presumably contained SRAM that gets populated by the game ROM when connected to a developers PC. 
+Very little is known about this development kit but it would be great to know the features this supported and which games were developed using it (Donkey Kong Country?) .
 </div>
 </section>
 
@@ -366,3 +388,4 @@ The **MusiCart** was a custom made SNES cartridge that allowed audio engineers t
 [^31]: [where can I get a Romulator and how much?](http://strangetextsbutcher.blogspot.com/2019/08/where-can-i-get-romulator-and-how-much.html)
 [^32]: [dforce3000 Sculptured Software](http://ultra16.dforce3000.de/index.php?p=news)
 [^33]: [Footage Inside 1990 Nintendo Headquarters in Kyoto - YouTube](https://www.youtube.com/watch?v=FlOAd81a1aI)
+[^34]: [How I reverse engineered the Atari 2600 because I was broke, with Rebecca Heineman - YouTube](https://www.youtube.com/watch?v=N5MKMnIn8Rc)
