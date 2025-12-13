@@ -44,6 +44,8 @@ DUH-T7000AAB | PS4 PRO TESTING KIT BUNDLE | € 800.00
 ## DUH-D1000AA - Original PS4 Development Kit (DUH-D1000AA)
 <img width="1767" height="1325" alt="DUH-D1000AA from WorldUponAString on Reddit" src="https://github.com/user-attachments/assets/68f1665c-67c8-431e-82c1-1bfe41cae67b" />
 
+The development kit details were known about as early as July 2013 due to the FCC white papers that are available to the public [^3]. These included sketches of the front and back of the unit and low level hardware details including the new intake fan.
+
 [devkit](https://www.youtube.com/watch?v=dgfGF2Dt_Bs) provides a detailed overview of an early PlayStation 4 development hardware unit (model DUH-D1000AA), highlighting physical differences such as additional USB/Ethernet ports and debug LEDs. 
 
 The video demonstrates the system's "expired" state, explores the extensive debug settings menu, and showcases the **Neighborhood** desktop software used for remote console management and package installation.
@@ -99,3 +101,4 @@ Here are the internal hardware components shown off in the video:
 # References
 [^1]: [Gamers Nexus - PS4 Pro Development Kit](https://www.youtube.com/watch?v=aPBFzdQCrVE)
 [^2]: [WorldUponAString - Finally got what I consider to be a grail in my collection, a PS4 Development Kit. : r/gamecollecting](https://www.reddit.com/r/gamecollecting/comments/xapla7/finally_got_what_i_consider_to_be_a_grail_in_my/)
+[^3]: [PS4 dev kit reveals juicy hardware details - MyGaming](https://mygaming.co.za/news/playstation/56346-ps4-dev-kit-reveals-juicy-hardware-details)
