@@ -23,8 +23,20 @@ redirect_from:
 ---
 
 # iOS Introduction (iPhone OS)
-The first version of iOS (called iPhone OS 1 at the time) was released on June 29, 2007, alongside the first iPhone [^1].
+The first version of iOS (retroactively called iPhone OS 1.0 after the launch of 2.0) was released on June 29, 2007, alongside the first iPhone [^1].
 It was renamed iOS in 2010 with the release of iOS 4 which is what this page will refer to it as.
+
+## History of iOS
+[Apple Explained](https://www.youtube.com/watch?v=l7eucqQMXDw) presents a comprehensive documentary covering the technical and visual evolution of Apple's mobile operating system, ranging from the secretive "Project Purple" development phase to the release of iOS 16. 
+
+The video details critical milestones in the platform's history, including the pivot from web apps to a native SDK, the architectural changes required for multitasking, the controversial shift away from Google services (Maps/YouTube), and the major interface overhaul introduced in iOS 7.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l7eucqQMXDw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## History of the App Store
+[Apple Explained](https://www.youtube.com/watch?v=t_CDefOuAww) documents the pivotal shift in mobile computing history from Steve Jobs' initial vision of web-based applications to the creation of the native iOS App Store. The video details the internal debates that led to the release of the iPhone SDK in 2008, the subsequent explosion of the "app economy," and major platform milestones like the introduction of In-App Purchases (IAP) and the "Walled Garden" censorship controversies.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t_CDefOuAww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Steve Jobs Introduces the App Store (2008)
 [gamingandtechnology](https://www.youtube.com/watch?v=xo9cKe_Fch8) archives the historic iPhone SDK Keynote where **Steve Jobs** officially unveils the **App Store**. The presentation outlines the ecosystem's distribution model, detailing how developers can reach every user wirelessly (or via iTunes), the 70/30 revenue split, and the handling of free applications. Jobs emphasizes the centralized update mechanism and the curated nature of the platform to prevent malicious software, establishing the closed-garden software distribution model standard in modern mobile computing.
