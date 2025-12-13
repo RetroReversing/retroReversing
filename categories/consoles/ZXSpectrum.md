@@ -86,6 +86,15 @@ Tools such as **SkoolKit** and **Spectrum Analyser** are instrumental in reverse
 **Spectrum Analyser** combines emulation with debugging and disassembly features, enabling interactive exploration of a program's behavior.
 
 ---
+## ZX Spectrum Emulation
+
+## How I built a ZX Spectrum emulator from scratch using C# and Blazor
+[Øredev Conference](https://www.youtube.com/watch?v=AI_gtlR_k5Y) features a presentation by Jimmy Engström detailing his personal history with the ZX Spectrum and his journey to build an emulator for it. 
+He dives into the technical challenges of emulating the Z80 CPU instructions, memory management, and screen rendering, eventually demonstrating how he ported the project to the web using C# and Blazor WebAssembly with AOT compilation for performance.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AI_gtlR_k5Y" frameborder="0" allowfullscreen></iframe>
+
+---
 # Official Software Development
 
 ## How Long Did It Take to Develop a Game Back in the Day?

@@ -391,6 +391,11 @@ A very cool feature of his emulator is it has an embedded 6502 assembler inside 
  </div>
 </section> 
 
+## ZX Spectrum emulator from scratch using C# and Blazor
+[Øredev Conference](https://www.youtube.com/watch?v=AI_gtlR_k5Y) features a presentation by Jimmy Engström detailing his personal history with the ZX Spectrum and his journey to build an emulator for it. He dives into the technical challenges of emulating the Z80 CPU instructions, memory management, and screen rendering, eventually demonstrating how he ported the project to the web using C# and Blazor WebAssembly with AOT compilation for performance.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AI_gtlR_k5Y" frameborder="0" allowfullscreen></iframe>
+
 ---
 # References
 [^1]: [Are there good books/resources/guides on Emulator Architecture and how to structure your projects? : EmuDev](https://www.reddit.com/r/EmuDev/comments/w0epiv/are_there_good_booksresourcesguides_on_emulator/)
