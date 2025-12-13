@@ -177,24 +177,17 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 - **TrID**: A utility for identifying file types and formats based on their binary signatures.
 - **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
 
-### Diaphora - Executable Diff tool
-Diaphora is a plugin for IDA Pro that gives the ability to get the differences between two different executables.
+### Diaphora - The Deeply Interactive Program Diffing Tool
+**Diaphora** is an advanced program diffing framework written by **joxeankoret** that integrates directly into the IDA Pro disassembler (and supports Ghidra via a script). 
+This tool is essential for tasks like comparing binary versions, allowing users to identify changes in functions, structures, and global variables between two databases. It provides a visual and interactive way to track code evolution and analyze modifications in complex binaries.
+
+{% include link-to-other-site.html url="https://github.com/joxeankoret/diaphora" description="joxeankoret's Diaphora is a highly interactive program diffing tool for IDA Pro (with Ghidra support) used to compare two binary databases and highlight differences in functions, types, and data." image="https://opengraph.githubassets.com/1/joxeankoret/diaphora" title="Diaphora: The Deeply Interactive Program Diffing Tool" %}
 
 [BSides Lisbon](https://www.youtube.com/watch?v=eAVfRxp99DM) features a presentation by **Joxean Koret**, the creator of **Diaphora**, an open-source program diffing plugin for IDA Pro. 
 
 Koret details the tool's architecture, which exports IDA databases to **SQLite** and uses **44 different heuristics** to match functions, including techniques based on the **Hex-Rays decompiler's Abstract Syntax Tree (AST)** for high-quality, cross-architecture comparison. The presentation includes demos of identifying a security patch and porting symbols between stripped and unstripped binaries.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eAVfRxp99DM" frameborder="0" allowfullscreen></iframe>
-
-#### Diaphora advantages
-This has a number of advantages for reverse engineering:
-1. Move symbols such as function names from a unstripped executable to a stripped executable
-2. Move symbols from an older version of an executable to a newer version
-3. View the changes made in a newer version of an executable
-
-So for example this can be very useful for comparing a beta build of a game that contains symbols with a retail version of a game that is stripped of symbols.
-
-It can also be interesting to see what bugs have been fixed between different versions of games and they can give hints as to how the game works, especially useful if you also have the release Notes.
 
 
 ### Using BinDiff and Diaphora
