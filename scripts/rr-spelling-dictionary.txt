@@ -12,6 +12,7 @@ Datel
 decompilation
 decompiler
 decompiling
+Diaphora
 disassemblers
 Doak
 DOSBox
@@ -19,14 +20,17 @@ Dreamcast
 EBOOT
 Ecco
 Famicom
+Foxconn
 Frida
 Frogger
 frontmatter
 Gamecube
+GDDR
 Gerdy
 Ghidra
 GhidrAssist
 Gigaleak
+Goomba
 Herdy
 HLSL
 Hollingworth
@@ -53,6 +57,7 @@ nasm
 NES
 Ollama
 OllyDbg
+Pacman
 Psygnosis
 PSYLIB
 PSYQ
@@ -76,6 +81,7 @@ twitterimage
 W32Dasm
 Wario
 Xenos
+Xorshift
 Yabasic
 Yaroze
 YouTuber

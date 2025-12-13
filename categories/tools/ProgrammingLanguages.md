@@ -60,6 +60,13 @@ C/C++ Compilers:
 * Turbo C++
 * Microsoft Visual C++
 
+## Kernel Development
+
+### Make your own kernel from scratch... with C++!
+[Cinemint](https://www.youtube.com/@cinemint) Has a video on how he created a kernel with C++ and a bit of assembly:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uR3suoJeKVg?si=MF7lUqRJxiytTOOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ---
 # Shader Languages
 Shaders are tiny programs that run on GPUs and thus have their own category of programming languages more suited to the task, as general purpose programming languages are too bloated and contain too many concepts that would not work on a GPU.

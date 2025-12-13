@@ -14,8 +14,8 @@ _twitterimage: https://www.retroreversing.com/public/images/thumbnails/categorie
 tags:
   - amiga
 recommend:
-  - introduction
   - amiga
+  - introduction
 _updatedAt: 2025-12-08
 redirect_from:
   - /Amiga/
@@ -41,11 +41,11 @@ The engineers on the panel, listed in the order they were introduced or spoke:
  * **Ron Nicholson** - Director of Hardware Development
    * Ron worked on the system architecture and wire-wrapped the original prototype motherboards (building 2 or 3 of them). He mentioned being influenced by Apple's Bill Atkinson to implement a hardware "blitter" for graphics performance.
  * **Glenn Keller** - Hardware Engineer
-   * Glenn was responsible for the Porsche chip (which became Paula), handling the audio, disk controller, and UART. He shared a famous story about fixing a fatal flaw in the disk controller chip by physically cutting a microscopic wire on the silicon die with an X-Acto knife and a microscope.
+   * Glenn was responsible for the Porsche chip (which became Paula), handling the audio, disk controller, and UART. He shared a famous story about fixing a fatal flaw in the disk controller chip by physically cutting a microscopic wire on the silicon die with an "X-Acto" knife and a microscope.
  * **Sam Dicker** - Software Engineer
    * A former Williams Electronics employee (**Defender**, **Sinistar**), he worked on entertainment software and sound drivers. He created the original spinning ball demo (using color cycling to simulate rotation) and the sound effects for the Boing Ball demo (recorded by hitting a garage door with a foam bat).
  * **Mike Slifcak** - Manager of Software QA
-   * Mike was responsible for testing hardware and software, including "torture testing" floppy drives (e.g., inserting disks upside down). He also wrote early graphics algorithms (like Bresenham line drawing) in C before the hardware blitter was ready.
+   * Mike was responsible for testing hardware and software, including "torture testing" floppy drives (e.g., inserting disks upside down). He also wrote early graphics algorithms (like Bresenham line drawing) in C before the hardware Blitter was ready.
  * **R.J. Mical** - Software Engineer (Intuition/User Interface)
    * In the video, he focuses on the "folklore" of the Amiga team, recounting stories like the "mystery wire" on a wire-wrap board that seemed essential for the system to work despite not being connected to anything, and the team's intense work ethic (sleeping in the office) leading up to CES.
 
@@ -57,6 +57,10 @@ The engineers on the panel, listed in the order they were introduced or spoke:
 According to **MobyGames** There are 3,930 video games for the Amiga [^1] but the number would be much larger if Public Domain/shareware and other more indie titles are included.
 [MobyGames - Amiga games list](https://www.mobygames.com/platform/amiga/)
 
+### All Commodore Amiga Games Compilation
+[All Games](https://www.youtube.com/watch?v=Ro9S27OJVgo) presents a massive seven-hour video compilation documenting the extensive library of the Commodore Amiga. This visual archive serves as a comprehensive reference for the platform's software history, showcasing the graphical and auditory evolution across thousands of titles. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ro9S27OJVgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### The 150 Essential AMIGA Games
 **itsaPIXELthing** has created a video compilation showcasing 150 essential titles for the Commodore Amiga. It covers a vast array of genres and gameplay styles, serving as a comprehensive visual reference for the platform's graphical capabilities and software history.

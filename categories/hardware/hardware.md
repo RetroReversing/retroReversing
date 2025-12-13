@@ -11,12 +11,12 @@ breadcrumbs:
 redirect_from:
   - /hardware
   - /console
+  - /hardware/consoles
+  - /consoles
   - /cpu
   - /playStation-evolution
   - /consolearchitecture
   - /architecture
-  - /console-architecture
-  - /consolehardware
   - /games/console
   - /hardware-architecture
 tags:

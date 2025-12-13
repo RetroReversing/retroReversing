@@ -1,19 +1,19 @@
 {
   "summary": {
-    "totalFiles": 287,
-    "filesWithTags": 286,
-    "uniqueTags": 101,
-    "generatedAt": "2025-12-10T21:11:57.728Z"
+    "totalFiles": 277,
+    "filesWithTags": 277,
+    "uniqueTags": 102,
+    "generatedAt": "2025-12-13T21:26:02.651Z"
   },
   "tags": {
-    "introduction": 52,
+    "introduction": 54,
     "tutorial": 10,
     "companies": 5,
-    "industry": 23,
+    "industry": 22,
     "crossproducts": 5,
     "datel": 2,
     "snsystems": 12,
-    "sdk": 49,
+    "sdk": 47,
     "3do": 1,
     "3ds": 8,
     "amiga": 1,
@@ -29,21 +29,21 @@
     "console": 2,
     "devkit": 29,
     "handhelds": 3,
-    "gameboy": 16,
+    "gameboy": 15,
     "gamegear": 4,
     "sega": 28,
     "gamecube": 10,
     "gamecom": 1,
     "megadrive": 6,
     "n64": 32,
-    "nes": 16,
-    "snes": 8,
+    "nes": 15,
+    "snes": 9,
     "pc-88": 1,
     "pc-engine": 1,
-    "ps1": 19,
-    "ps2": 12,
-    "ps3": 4,
-    "ps4": 3,
+    "ps1": 17,
+    "ps2": 10,
+    "ps3": 3,
+    "ps4": 2,
     "psp": 7,
     "pokemonmini": 3,
     "sg1000": 1,
@@ -57,24 +57,24 @@
     "xbox": 8,
     "xbox360": 2,
     "zxspectrum": 1,
+    "ios": 1,
     "fileformats": 13,
     "gameengines": 13,
     "middleware": 11,
-    "games": 25,
-    "sourcecode": 12,
+    "games": 24,
     "symbols": 14,
     "debug": 6,
-    "hardware": 42,
-    "consolearchitecture": 5,
+    "hardware": 38,
     "bookazines": 1,
     "magazines": 4,
     "books": 2,
+    "hacking": 1,
     "incomplete": 2,
     "leak": 25,
     "maths": 4,
-    "3d": 5,
+    "3d": 6,
     "software": 5,
-    "tools": 17,
+    "tools": 16,
     "disassemblers": 1,
     "cracking": 2,
     "ghidra": 4,
@@ -84,20 +84,21 @@
     "copyright": 1,
     "documentary": 1,
     "memory": 3,
+    "sourcecode": 11,
     "2d": 1,
     "32x": 1,
     "nds": 1,
     "homebrew": 2,
     "nintendo": 2,
-    "assembly": 5,
+    "assembly": 4,
     "reverseengineering": 5,
     "cheatcartridge": 1,
+    "consolearchitecture": 2,
     "ique": 2,
     "radare2": 1,
     "emulation": 1,
     "windows": 1,
     "psyq": 3,
-    "featured": 2,
     "segasaturn": 1,
     "switch": 3,
     "android": 2,
@@ -232,7 +233,9 @@
       "ps1"
     ],
     "categories/consoles/PS2.md": [
-      "ps2"
+      "ps2",
+      "ps1",
+      "introduction"
     ],
     "categories/consoles/PS3.md": [
       "ps3"
@@ -298,7 +301,7 @@
       "nes"
     ],
     "categories/consoles/iOS.md": [
-      "industry",
+      "ios",
       "introduction"
     ],
     "categories/games/FileFormats.md": [
@@ -313,11 +316,6 @@
     "categories/games/Games.md": [
       "games"
     ],
-    "categories/games/SourceCode.md": [
-      "sourcecode",
-      "games",
-      "sdk"
-    ],
     "categories/games/debugSymbols.md": [
       "symbols",
       "debug",
@@ -326,10 +324,6 @@
     ],
     "categories/hardware/CheatCartridges.md": [
       "hardware"
-    ],
-    "categories/hardware/GameConsoleHardware.md": [
-      "hardware",
-      "consolearchitecture"
     ],
     "categories/hardware/devkits.md": [
       "devkit",
@@ -357,7 +351,10 @@
       "introduction"
     ],
     "categories/misc/Hacking.md": [
-      "industry"
+      "industry",
+      "hacking",
+      "introduction",
+      "pc"
     ],
     "categories/misc/Incomplete.md": [
       "incomplete",
@@ -484,7 +481,7 @@
     ],
     "pages/Introduction/RetroCartridges.md": [
       "introduction",
-      "pc",
+      "hardware",
       "nes",
       "snes",
       "n64",
@@ -513,6 +510,7 @@
     ],
     "pages/SourceCode/graphics/Awesome2DTechniques.md": [
       "2d",
+      "3d",
       "introduction"
     ],
     "pages/consoles/3ds/3DSDevkitHardware.md": [
@@ -622,10 +620,6 @@
       "gameboy",
       "games",
       "assembly"
-    ],
-    "pages/consoles/gameboy/pokemonSilverGold.md": [
-      "gameboy",
-      "introduction"
     ],
     "pages/consoles/gamecube/007 Agent Under Fire.md": [
       "gamecube",
@@ -814,7 +808,9 @@
     ],
     "pages/consoles/nes/NES-Sprite-Tile-Editing.md": [
       "nes",
-      "gameboy"
+      "gameboy",
+      "introduction",
+      "snes"
     ],
     "pages/consoles/nes/NESDevkitHardware.md": [
       "nes",
@@ -836,11 +832,6 @@
     "pages/consoles/nes/Super-Mario-Bros.md": [
       "nes",
       "games"
-    ],
-    "pages/consoles/nes/WritingNESGamesWithAssembly.md": [
-      "nes",
-      "introduction",
-      "assembly"
     ],
     "pages/consoles/pc/PlanetX3.md": [
       "dos",
@@ -864,11 +855,6 @@
     "pages/consoles/ps1/CrashBandicoot.md": [
       "ps1",
       "games"
-    ],
-    "pages/consoles/ps1/GTE.md": [
-      "ps1",
-      "hardware",
-      "sdk"
     ],
     "pages/consoles/ps1/NetYaroze.md": [
       "ps1",
@@ -912,24 +898,10 @@
       "sdk",
       "tutorial"
     ],
-    "pages/consoles/ps1/PlayStation Hardware Architecture.md": [
-      "ps1",
-      "hardware",
-      "featured",
-      "consolearchitecture"
-    ],
     "pages/consoles/ps1/PlayStationDevelopmentSystem.md": [
       "ps1",
       "hardware",
       "devkit"
-    ],
-    "pages/consoles/ps1/PlaystationEvolution.md": [
-      "ps1",
-      "ps2",
-      "ps3",
-      "ps4",
-      "hardware",
-      "featured"
     ],
     "pages/consoles/ps1/psx-exe.md": [
       "ps1",
@@ -939,11 +911,6 @@
     "pages/consoles/ps2/EEStaticLibraries.md": [
       "ps2",
       "sdk"
-    ],
-    "pages/consoles/ps2/PS2 Hardware Architecture.md": [
-      "ps2",
-      "hardware",
-      "consolearchitecture"
     ],
     "pages/consoles/ps2/PS2DemoDisks.md": [
       "ps2",
@@ -1305,7 +1272,8 @@
     ],
     "pages/leaks/Nintendo/OriginalSource.md": [
       "leak",
-      "gameboy"
+      "gameboy",
+      "introduction"
     ],
     "pages/leaks/Nintendo/Paladin.md": [
       "leak",
@@ -1357,9 +1325,6 @@
     ],
     "pages/tools/Compiler Toolchains.md": [
       "sdk",
-      "tools"
-    ],
-    "pages/tools/Diaphora.md": [
       "tools"
     ],
     "pages/tools/GameMaker.md": [

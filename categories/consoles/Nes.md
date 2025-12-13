@@ -12,9 +12,11 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /hardware
   - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
+redirect_from:
+- /writing-nes-games/
 recommend:
  - nes
  - snes
@@ -238,8 +240,19 @@ Mesen even comes with a HD Pack Builder Tool to create your own texture packs, f
 
 ## NES Assembly Programming
 
-### Writing 6502 NES Assembly
-The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong! The original posts have been taken down but you can find a mirror here: [Nerdy Nights Mirror](https://nerdy-nights.nes.science/#main_tutorial-0)
+### Nerdy Nights NES Programming Tutorials
+The best 6502 Assembly tutorial for the NES has to be **Brian Parker's** Nerdy Nights tutorial series which goes from the basics all the way up to writing a version of pong!
+
+It stats with basic architecture and moves through PPU graphics (sprites, backgrounds), APU sound engine creation, and advanced mappers like MMC1.
+
+The original posts have been taken down but you can find a mirror here: 
+
+{% include link-to-other-site.html url="https://nerdy-nights.nes.science/#main_tutorial-0" description="A complete, preserved archive of the Nerdy Nights tutorials covering NES development from 'Hello World' to a full Pong clone and sound engine." image="https://nerdy-nights.nes.science/assets/nerdy-nights.png" title="Nerdy Nights Mirror" %}
+
+### Writing NES Games! With Assembly!!
+[Coding Tech](https://www.youtube.com/watch?v=kXbMCKMJXXQ) presents a talk by Christian, a web developer who spent three months learning 6502 assembly to build a game for the NES. The presentation walks through the technical hurdles of retro development, from understanding ROM board architecture and the Picture Processing Unit (PPU) to writing low-level code for sprite movement and controller input using the **CC65** toolchain.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kXbMCKMJXXQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How are NES games so small (40KB)?
 The game developer **Morphcat Games** has released a video on how they created an impressive game called **Micro Mages** in just 40KB without using a mapper (NROM board):
@@ -262,6 +275,11 @@ It covers the following topics related to NES Graphics:
 * **Frame Palette** - A dynamic subset of the System Palette of just the colours used in a single frame. Palette 0 to 3 are for background tiles, and 4 to 7 are for sprites.
 * **Attribute Table** - A look up table of which Palette to use for that Block (set of 4x4 tiles)
 * **Sprites** - Graphics made up of tiles but are rendered above the background tiles
+
+### NES Graphics Explained - The PPU
+[NesHacker](https://www.youtube.com/watch?v=7Co_8dC2zb8) provides a technical deep dive into the Nintendo Entertainment System's graphics architecture, focusing on the Picture Processing Unit (PPU). The video explains the four critical memory sections used to render 8-bit graphics: Pattern Tables for raw tile data, Name Tables for background layouts, Palettes for color management, and Object Attribute Memory (OAM) for handling foreground sprites.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7Co_8dC2zb8" frameborder="0" allowfullscreen></iframe>
 
 ---
 # Reverse Engineering Famicom and NES games

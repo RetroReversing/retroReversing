@@ -24,7 +24,10 @@ Welcome to our page dedicated to PS4 reverse engineering! The PlayStation 4 was 
 
 On this page, we've compiled a list of links to other pages that cover various topics related to PS4 reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
 
-So grab your DualShock 4 controller, and get ready to dive into the exciting world of PS4 reverse engineering!
+### Mark Cerny: The Road to PS4 Architecture
+[Darien](https://www.youtube.com/watch?v=JJW5OKbh0WA) features a recording of **Mark Cerny's** "The Road to PS4" presentation from GameLabs 2013, where the lead architect details the technical philosophy behind the console's design. Cerny explains the strategic shift from the complex Cell processor of the PS3 to the developer-friendly x86 architecture of the PS4, emphasizing the critical decision to utilize unified GDDR5 memory to reduce "time to triangle" for game creators.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JJW5OKbh0WA" frameborder="0" allowfullscreen></iframe>
 
 ---
 # Hardware
@@ -35,9 +38,21 @@ In this section of our guide, we will provide you with detailed information and 
 ## Retail Hardware
 The PS4 has an 8-core AMD x64 class CPU paired with a AMD DirectX 11 class GPU with a few DirectX 12 features built in.
 
+## Development Hardware
+We have a post all about the Official Playstation 4 Development Hardware:
+{% include link-to-other-post.html post="/official-playStation4-devkit" %}
+
+
+## Operating System
+According to [Phoronix](https://www.phoronix.com/news/MTM5NDI) the operating system for the PS4 is called OrbisOS and is based on FreeBSD 9.0 [^1].
+
 ---
 # All Posts
 <div>
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [Sony's PlayStation 4 Is Running Modified FreeBSD 9 - Phoronix](https://www.phoronix.com/news/MTM5NDI)
