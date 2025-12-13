@@ -35,9 +35,21 @@ In this section of our guide, we will provide you with detailed information and 
 ## Retail Hardware
 The PS4 has an 8-core AMD x64 class CPU paired with a AMD DirectX 11 class GPU with a few DirectX 12 features built in.
 
+## Development Hardware
+We have a post all about the Official Playstation 4 Development Hardware:
+{% include link-to-other-post.html post="/official-playStation4-devkit" %}
+
+
+## Operating System
+According to [Phoronix](https://www.phoronix.com/news/MTM5NDI) the operating system for the PS4 is called OrbisOS and is based on FreeBSD 9.0 [^1].
+
 ---
 # All Posts
 <div>
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [Sony's PlayStation 4 Is Running Modified FreeBSD 9 - Phoronix](https://www.phoronix.com/news/MTM5NDI)
