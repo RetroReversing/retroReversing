@@ -14,8 +14,8 @@ _twitterimage: https://www.retroreversing.com/public/images/thumbnails/categorie
 tags:
   - amiga
 recommend:
-  - introduction
   - amiga
+  - introduction
 _updatedAt: 2025-12-08
 redirect_from:
   - /Amiga/
@@ -57,6 +57,10 @@ The engineers on the panel, listed in the order they were introduced or spoke:
 According to **MobyGames** There are 3,930 video games for the Amiga [^1] but the number would be much larger if Public Domain/shareware and other more indie titles are included.
 [MobyGames - Amiga games list](https://www.mobygames.com/platform/amiga/)
 
+### All Commodore Amiga Games Compilation
+[All Games](https://www.youtube.com/watch?v=Ro9S27OJVgo) presents a massive seven-hour video compilation documenting the extensive library of the Commodore Amiga. This visual archive serves as a comprehensive reference for the platform's software history, showcasing the graphical and auditory evolution across thousands of titles. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ro9S27OJVgo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### The 150 Essential AMIGA Games
 **itsaPIXELthing** has created a video compilation showcasing 150 essential titles for the Commodore Amiga. It covers a vast array of genres and gameplay styles, serving as a comprehensive visual reference for the platform's graphical capabilities and software history.
