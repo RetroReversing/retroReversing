@@ -50,6 +50,10 @@ The video demonstrates the system's "expired" state, explores the extensive debu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dgfGF2Dt_Bs" frameborder="0" allowfullscreen></iframe>
 
+Thanks to **WorldUponAString** over on Reddit we have a photo of the rear of the Unit [^2]:
+![Rear of DUH-D1000AA](/public/images/ps4/PS4_DUH-D1000AA_Rear_WorldUponAString.png)
+
+
 ---
 ## DUH-D7000AA - Sony PlayStation 4 Pro DevKit
 The PS4 Pro development kit **DUH-D7000AA** was made by Foxconn [^1] and had a stackable design ideal for rack mounting which would be useful for connecting to the hardware from developers machines over the network.
