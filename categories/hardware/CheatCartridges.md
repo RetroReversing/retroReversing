@@ -52,18 +52,36 @@ The author outlines the painstaking process of photographing the original PCB, t
 # Game Genie (Codemasters)
 The **Game Genie** was one of the first Cheat Code cartridges to be developed for **home consoles** as they realised their first version for the Nintendo Entertainment System (NES) in 1990.
 
-Nintendo feared that this would either cause harm to their brand or make game piracy even easier and thus decided to sue Codemasters.
+## Game Genie: History and Functionality
+[Gaming Historian](https://www.youtube.com/watch?v=PCvIZ80RIhE) presents a detailed history of the **Game Genie**, a popular cheat device originally developed by Codemasters. The video covers the legal battles between Nintendo and Galoob (the US distributor) over copyright infringement and derivative works, eventually establishing important precedents for fair use in gaming. 
 
-Codemasters eventually won the court case after four long years and got a nice bonus out of it: $140 million! This cash injection more than covered their court fees and allowed Codemasters to expand and develop more games [^1].
+It also briefly explains the technical method of operation: the device intercepts and modifies data signals between the game cartridge and the console (e.g., preventing the "lives" counter from decrementing) to enable cheats like infinite lives.
 
-## How were Game Genie's created?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PCvIZ80RIhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Legal Court Cases against Nintendo
+Nintendo feared that this would either cause harm to their brand or make game piracy even easier and thus decided to sue Galoob Toys and Camerica.
+Both companies eventually won the court case after four long years and got a nice bonus out of it: $140 million! This cash injection more than covered their court fees and allowed Codemasters to expand and develop more games [^1].
+
+#### Lewis Galoob Toys, Inc. v. Nintendo of America, Inc.
+[Justia](https://law.justia.com/cases/federal/district-courts/FSupp/780/1283/1445354/) hosts the full text of the landmark 1991 U.S. District Court decision that validated the legality of the **Game Genie**. 
+
+The court ruled that the device, which temporarily modifies game data to enable cheats (like infinite lives), does not create an infringing "derivative work" because the changes are not permanent. Furthermore, it established that a consumer's private use of the device to alter their own purchased games constitutes **fair use**, setting a vital precedent for reverse engineering and aftermarket software tools.
+
+{% include link-to-other-site.html url="https://law.justia.com/cases/federal/district-courts/FSupp/780/1283/1445354/" description="The official 1991 ruling in Lewis Galoob Toys, Inc. v. Nintendo of America, Inc. confirmed that the Game Genie's temporary data alteration was fair use and not copyright infringement." image="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Game-Genie-NES.jpg/640px-Game-Genie-NES.jpg" title="Legal Ruling: Galoob v. Nintendo (Game Genie)" %}
+
+---
+## How was the Game Genie cartridge developed?
 In an interview with **GSHI** (a now defunct website) **Richard Aplin** who worked on the Game Genie line of products as a hardware engineer had the following to say [^4]:
-> We had no way to get any info on the hardware or software of the consoles (and we had a very litigious relationship w/Nintendo) , so we did it "the hard way" by reverse-engineering them - by literally going to a store, buying a few systems, tearing them apart, and attaching a logic analyser to them.
+> We had no way to get any info on the hardware or software of the consoles (and we had a very litigious relationship w/Nintendo) , so we did it "the hard way" by **reverse-engineering** them - by literally going to a store, buying a few systems, tearing them apart, and attaching a **logic analyser** to them.
+>
 > A logic analyser is basically like a digital oscilloscope (shows you what high-speed signals are doing in real time) but typically has lots of separate channels (32-48).
 > You connect each channel to signals/chip pins that look "interesting" inside your console, run the analyzer, then spend some time figuring out what all the signals are doing and what the hell is going on.
 >
 > Once you've got the basic signals figured out (typically you want to figure out the pinout of the cartridge connector) - found the address and data bus of the CPU and the basic control lines (Read, Write, etc) then you've got to the point where you can typically build a 'dev board'.
-> We'd build a PCB (with suitable cartridge edge connector on it) that contained an EPROM, an FPGA, a bunch of SRAM, a high-speed parallel port, and typically for fun a 2-line LCD display and some lights.
+
+He then goes on to explain the contents of the dev board:
+> We'd build a PCB (with suitable cartridge edge connector on it) that contained an **EPROM**, an **FPGA**, a bunch of **SRAM**, a high-speed parallel port, and typically for fun a 2-line LCD display and some lights.
 > The eprom contained whatever boot code was required to get the console booted, then it entered a monitor program where you could remotely view/change the console memory using the parallel port on the board.
 > The parallel port always used the ubiquitous "PDS" style interface (PDS= Programmers Development System, at the time a very widely used - and very fast - PC-based cross-assembling system by Andrew Glaister and others) so everything was fairly standard.
 
@@ -71,10 +89,13 @@ In an interview with **GSHI** (a now defunct website) **Richard Aplin** who work
 In the same interview **Richard Aplin** explains that they created custom hardware and software running on a Commodore 64[^4]: 
 > We usually used a custom PCB that had (typically) a parallel port, a passthru connector for the original cart, and basic byte-replacement hardware. Also a few simple tools running (I think) on a Commodore 64.
 
-This software was presumably very similar to how "Cheat Engine" works, take a dump of memory, loose a life in the game, then take another dump and compare the memory addresses that have changed. For the ROM level cheats it would be harder, presumably they would take a full ROM dump and run it through a disassembler as best they could, then see what the program counter's value is at when it writes to the memory address you are interested in and find that in the disassembly.
+This software was presumably very similar to how **Cheat Engine** works, take a dump of memory, loose a life in the game, then take another dump and compare the memory addresses that have changed. 
 
+For the ROM level cheats it would be harder, presumably they would take a full ROM dump and run it through a disassembler as best they could, then see what the program counter's value is at when it writes to the memory address you are interested in and find that in the disassembly.
+
+### The Codemeisters
 Also I love this quote from the same interview, it shows just how time consuming it would be to support a whole book of codes for the NES library [^4]:
-> They had teams of people making codes (a guy called Graham Rigby was the main Codemeister - he lived in a room full of nothing but shelves and racks of NES games - he had every NES game in every territory I think)
+> They had teams of people making codes (a guy called **Graham Rigby** was the main **Codemeister** - he lived in a room full of nothing but shelves and racks of NES games - he had every NES game in every territory I think)
 
 Presumably they has similar rooms with Game Boy, Game Gear and Sega Mega Drive games stacked high, I wonder what happened to all those games!
 

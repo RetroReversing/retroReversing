@@ -31,5 +31,5 @@ First of all in order to help support the creation of more excellent N64 MIPS tu
 If you are lucky you can catch the stream live here: [fraserN64 - Twitch](https://www.twitch.tv/frasern64/)
 
 # Source Code and Resources
-You can access all the source code and resources refeenced in the videos here: [fraser125/N64_ASM_Videos: The files complementing my video series N64 MIPS Assembly](https://github.com/fraser125/N64_ASM_Videos)
+You can access all the source code and resources referenced in the videos here: [fraser125/N64_ASM_Videos: The files complementing my video series N64 MIPS Assembly](https://github.com/fraser125/N64_ASM_Videos)
 
