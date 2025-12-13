@@ -12,6 +12,7 @@ redirect_from:
   - /tooling
   - /tutorials/tools
   - /software
+  - /Diaphora
 editlink: ../categories/tools/Tools.md
 title: Retro Game Development and Reversing Tools of the Trade
 recommend: 
@@ -149,6 +150,7 @@ Debuggers are used to test and analyze game code in real-time, allowing you to t
 - **x64dbg**: An open-source debugger for Windows with modern features and an active development community.
 - **Cheat Engine**: While primarily known as a game cheating tool, Cheat Engine’s debugging features make it useful for reverse engineering.
 
+---
 ## Hex Editors
 Hex editors let you view and modify the raw binary data of game files. They are essential for making precise changes to game code and assets at the byte level.
 
@@ -156,6 +158,7 @@ Hex editors let you view and modify the raw binary data of game files. They are 
 - **Hex Fiend**: A powerful hex editor for macOS, capable of handling large files with ease.
 - **010 Editor**: A professional-grade hex editor with powerful scripting and parsing capabilities.
 
+---
 ## Decompilers
 Decompilers attempt to convert executable code back into a higher-level programming language, making it easier to understand and modify.
 
@@ -165,7 +168,7 @@ Decompilers attempt to convert executable code back into a higher-level programm
 
 {% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
 
-
+---
 ## File Format Analyzers
 Understanding game-specific file formats is crucial for modifying assets and extracting valuable information. These tools help analyze and manipulate proprietary file formats used in games.
 
@@ -174,6 +177,33 @@ Understanding game-specific file formats is crucial for modifying assets and ext
 - **TrID**: A utility for identifying file types and formats based on their binary signatures.
 - **Detect It Easy**: [horsicq/Detect-It-Easy: Program for determining types of files for Windows, Linux and MacOS.](https://github.com/horsicq/Detect-It-Easy?tab=readme-ov-file) (excellent for getting compiler/linker information for an executable)
 
+### Diaphora - Executable Diff tool
+Diaphora is a plugin for IDA Pro that gives the ability to get the differences between two different executables.
+
+[BSides Lisbon](https://www.youtube.com/watch?v=eAVfRxp99DM) features a presentation by **Joxean Koret**, the creator of **Diaphora**, an open-source program diffing plugin for IDA Pro. 
+
+Koret details the tool's architecture, which exports IDA databases to **SQLite** and uses **44 different heuristics** to match functions, including techniques based on the **Hex-Rays decompiler's Abstract Syntax Tree (AST)** for high-quality, cross-architecture comparison. The presentation includes demos of identifying a security patch and porting symbols between stripped and unstripped binaries.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eAVfRxp99DM" frameborder="0" allowfullscreen></iframe>
+
+#### Diaphora advantages
+This has a number of advantages for reverse engineering:
+1. Move symbols such as function names from a unstripped executable to a stripped executable
+2. Move symbols from an older version of an executable to a newer version
+3. View the changes made in a newer version of an executable
+
+So for example this can be very useful for comparing a beta build of a game that contains symbols with a retail version of a game that is stripped of symbols.
+
+It can also be interesting to see what bugs have been fixed between different versions of games and they can give hints as to how the game works, especially useful if you also have the release Notes.
+
+
+### Using BinDiff and Diaphora
+[Guided Hacking](https://www.youtube.com/watch?v=n06QSoICU6c) presents a tutorial on using both **Diaphora** and **BinDiff**  to perform binary diffing. 
+The video demonstrates how to set up workspaces to visually compare function control flow graphs and identify code similarities, which is essential for analyzing security patches, identifying vulnerabilities, and detecting code reuse in malware variants like the **Conti ransomware**.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n06QSoICU6c" frameborder="0" allowfullscreen></iframe>
+
+---
 ## Emulators
 Emulators replicate the hardware of old gaming systems on modern computers, allowing you to run and test games in a controlled environment.
 
@@ -192,7 +222,7 @@ It covers the Tiny Code Generator (TCG), memory management via SoftMMU, and the 
 
 {% include link-to-other-site.html url="https://airbus-seclab.github.io/qemu_blog/" description="Airbus Security Lab provides a comprehensive series of blog posts detailing QEMU internals, including the TCG JIT compiler, memory access handling, and device emulation." image="https://avatars.githubusercontent.com/u/41308365?v=4" title="A Deep Dive into QEMU Internals" %}
 
-
+---
 ## Game Cracking Software used back in the day
 Cracking games for piracy and other purposes has existed for almost as long as the games industry has existed. 
 
@@ -201,8 +231,6 @@ We have tons of modern software for Reverse Engineering and ROM Hacking but how 
 We have a post specifically about this software in the link below.
 
 {% include link-to-other-post.html post="/cracking-software" description="For more information on Game Cracking software used back in the day check out this post." %}
-
-
 
 
 ---

@@ -40,6 +40,14 @@ Since Datel have produced many chat cartidges and other custom unlicensed consol
 
 {% include link-to-other-site.html url="https://k1.spdns.de/Vintage/Sinclair/82/Peripherals/Multiface%20I%2C%20128%2C%20and%20%2B3%20(Romantic%20Robot)/" description="A file repository containing firmware ROMs, circuit diagrams, and documentation for the Romantic Robot Multiface series, a critical tool for early hardware-level debugging and backup creation on Sinclair systems." image="https://upload.wikimedia.org/wikipedia/commons/8/87/Multiface_One.jpg" title="Multiface I, 128, and +3 Archive" %}
 
+## Romantic Robot Multiface 128 Re-Creation
+[Lost Retro Tapes](https://www.lostretrotapes.com/romantic-robot-multiface-128-re-creation/) has a detailed write-up about reverse engineering and re-creating the **Romantic Robot Multiface 128** for the Sinclair Spectrum. 
+
+The author outlines the painstaking process of photographing the original PCB, tracing all component connections and vias with a multimeter to generate a complete KiCad schematic, and then designing a modern, compact PCB layout for fabrication. This recreation provides a fully functional version of the classic game-hacking tool.
+
+{% include link-to-other-site.html url="https://www.lostretrotapes.com/romantic-robot-multiface-128-re-creation/" description="Lost Retro Tapes documents the full hardware reverse engineering and KiCad re-creation process for the iconic Sinclair Spectrum Multiface 128 cartridge." image="https://www.lostretrotapes.com/wp-content/uploads/2023/02/IMG_1010-copy-scaled.jpg" title="Romantic Robot Multiface 128 Re-Creation" %}
+
+
 ---
 # Game Genie (Codemasters)
 The **Game Genie** was one of the first Cheat Code cartridges to be developed for **home consoles** as they realised their first version for the Nintendo Entertainment System (NES) in 1990.
