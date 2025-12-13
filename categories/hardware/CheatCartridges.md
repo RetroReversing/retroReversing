@@ -25,11 +25,20 @@ tags:
 ---
 
 # Action Replay (Datel)
-**Datel** first developed their **Action Replay** cartridges for the Commodore 64 in 1986 [^2].
+**Datel** first developed their **Action Replay** cartridges for the **Commodore 64** in 1986 [^2]. The Action Replay line then went on to include products for the NES, Super Nitendo, Nintendo 64, Playstation and various handheld consoles.
+
+Since Datel have produced many chat cartidges and other custom unlicensed console hardware we have split this section into its own page:
+
+{% include link-to-other-post.html post="/companies/datel/" %}
+
 
 ---
-# Multiface (Romantic Robot)
+# Multiface (Romantic Robot) (1986)
 **Romantic Robot** released their Multiface One for the ZX Spectrum in 1986 [^3] which allowed Memory Dumps similar to save states in modern emulators, cheats could then be applied to these memory dumps with the **POKE** command.
+
+[Vintage Sinclair Archive](https://k1.spdns.de/Vintage/Sinclair/82/Peripherals/Multiface%20I%2C%20128%2C%20and%20%2B3%20(Romantic%20Robot)/) provides a comprehensive directory of technical resources for the **Multiface** series (I, 128, and +3). The archive includes essential reverse engineering data such as **ROM dumps**, hardware **schematics**, and original **user manuals** for these legendary NMI-based hardware debuggers and snapshot devices used on the ZX Spectrum.
+
+{% include link-to-other-site.html url="https://k1.spdns.de/Vintage/Sinclair/82/Peripherals/Multiface%20I%2C%20128%2C%20and%20%2B3%20(Romantic%20Robot)/" description="A file repository containing firmware ROMs, circuit diagrams, and documentation for the Romantic Robot Multiface series, a critical tool for early hardware-level debugging and backup creation on Sinclair systems." image="https://upload.wikimedia.org/wikipedia/commons/8/87/Multiface_One.jpg" title="Multiface I, 128, and +3 Archive" %}
 
 ---
 # Game Genie (Codemasters)

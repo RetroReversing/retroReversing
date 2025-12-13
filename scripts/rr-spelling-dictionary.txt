@@ -12,6 +12,7 @@ Datel
 decompilation
 decompiler
 decompiling
+Diaphora
 disassemblers
 Doak
 DOSBox
