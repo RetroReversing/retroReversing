@@ -64,10 +64,16 @@ For a full list of game compatibility check out the [touchHLE app compatibility 
 ### Popular iOS 2.x Games (2008+)
 iPhone OS 2 first introduced the App Store and with it came a bunch of "AAA" game studios aiming to tap into the market, some of these games are quite fun and worth playing others are maybe not as fun but could be fun to reverse engineer.
 
+Games released for iPhone OS 2 were compiled for the 32-bit **ARMv6** processor so they will **not** run on 32-bit ARMv7 devices (iPhone 3GS+) or any 64-bit devices.
+
+They can run on later versions *only* if the developer shipped a dual-architecture binary (ARMv6+ARMv7). Many early App Store games never did this, so some games are ARMv6-only and thus can only run on the iPhone (2G) and iPhone 3G!
+
+
 These games require a minimum of iPhone OS 2.x (latest 2.2.1 recommended) to run and the reviews of these games come from the Bookazine **iPhone Games Directory** Volume 001 from 2009 to give time-period accurate reviews.
 
-Name | Developer | Review out of 5
----|---|---
+Name | Developer | Review out of 5 | Description
+---|---|---|---
+Airport Mania | Reflexive Entertainment | 4/5 
 [Assassin's Creed: Altaïr's Chronicles (2009)](https://appdb.touchhle.org/apps/413) | Gameloft | 4/5
 [Blades of Fury](https://appdb.touchhle.org/apps/471) | Gameloft | 5/5
 [Doom Resurrection (2009)](https://appdb.touchhle.org/apps/278) | ID Software | 4/5
