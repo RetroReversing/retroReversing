@@ -2,7 +2,6 @@
 permalink: /gamegear/
 layout: post
 title: Sega Game Gear Reverse Engineering
-recommend: gamegear
 recommendTitle: All GG Posts
 editlink: ../categories/consoles/GameGear.md
 console: 'gamegear'
@@ -19,14 +18,43 @@ breadcrumbs:
 tags:
   - gamegear
   - sega
+  - handhelds
+recommend: 
+  - gamegear
+  - sega
+  - handhelds
 ---
 
 # Introduction
 Welcome to our page dedicated to Game Gear reverse engineering! The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
 
-On this page, we've compiled a list of links to other pages that cover various topics related to Game Gear reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
+On this page, we've compiled a list of links to other pages that cover various topics related to Game Gear reverse engineering.
 
-So grab your Game Gear, and get ready to dive into the exciting world of Game Gear reverse engineering!
+## How were sound and music created for the GameGear?
+In an interview with **Paul Hutchinson** he states that he used an Amiga 2000HD with the software **Pro-Tracker**. He wrote a DOS program in Turbo-C++ to convert the Pro-Tracker MIDI export format  directly to a format that the Game Gear sound routines could easily use [^1]. 
+
+This method was used for **Chakan** then later for **X-Men** he wrote a program to convert MOD to MIDI which then would be passed through the previously created MIDI to GG converter [^1].
+
+## What Software was used to create Game gear games?
+We know that **Paul Hutchinson** used the following software when developing Game Gear games such as X-Men 1 & 2 (and likely also Chakan and Spiderman vs the kingpin):
+* **Avocet Z80 Assembler** - Z80 Assembly programming
+* **Turbo C++** - writing utilities such as converters for file formats
+* **Deluxe Paint** - Artwork
+* **Pro-Tracker** - Sound & Music
+* **TUME** (The Ultimate Map Editor) - Map creation, created by  Dan Chang
+
+## What assemblers were used for Game Gear Z80 code?
+We know of two confirmed assemblers that were used for Game Gear programming:
+* **Avocet Z80 Assembler** - Used on games such as X-Men 1 & 2, Chakan and Spiderman vs the Kingpin
+* **Microtech Research ASM80** - Used for the Barbie Game Gear game
+
+## How was the final ROM built?
+Normally it was up to the main programmer to put everything together, all the images, sounds, music and other assets into the final game ROM that would be sent to Sega. 
+
+Developers such as **Paul Hutchinson** wrote programs with Turbo C++ to convert the asset data into assembler files (Define Byte (`.DB`), Define Word (`.DW`) etc statements) [^2]. Then an assembler is used to put everything together into a single file that can then be burned onto an EPROM using hardware such as **Needham’s Electronics EPROM programmer**.
+
+The EPROM was then inserted on to a development cartridge and tested on the retail system before finally sending to Sega via their Bullitin Board System (BBS) [^2].
+
 
 ---
 # Hardware
@@ -35,6 +63,8 @@ If you're interested in reverse engineering software for the Sega Game Gear hand
 This section of our guide will provide you with comprehensive information and resources on the hardware of the Sega Game Gear, including retail, prototype, and development hardware.
 
 ## Official Development Hardware
+We have a specific post all about the known Game Gear development hardware such as the development board and the ZAX-ICE **ERX308** that was used:
+
 {% include link-to-other-post.html post="/sega-game-gear-devkit" description="For information about SEGA's Game Gear development hardware check out this post." %}
 
 ### Sega Digitizer System
@@ -49,6 +79,7 @@ This was not exclusive to Game Gear development, it was also used in early sega 
 You can find out more including lots of images on [Video Games Densetsu: The Sega Digitizer System, a tool used by graphic...](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic)
 
 ## Third Party Development Hardware
+There is one known third party development kit called **Krisalis** which we have a seperate post about:
 {% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For information about the Krisalis 3rd party development hardware check out this post." %}
 
 ---
@@ -76,6 +107,7 @@ PPV.exe | Maybe ProPack Verify?
 The assembler toolchain is made by **Microtech Research** from 1991 and supported the standard Z80 and also the **Hitachi 64180** processor (which is a Zilog Z180 processor). The Game Gear used the standard Z80 so the Z180 functionality was unused.
 
 This folder also contains pre-compiled executables known as the **GGUtils** which were written by **Paul Hutchinson** with the source code available, they are in the table below:
+
 Name | Description
 ---|---
 Bin2Page.exe | Creates Intel Hex .HEX 16k pages from a binary file
@@ -155,3 +187,8 @@ CTG | Possible someones name? Or a company Has written files for the GG Characte
 
 {% include console.html %}
 </div>
+
+---
+# References
+[^1]: [GST♥: Part 2: A Discovery with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416756992688128/part-2-a-discovery-with-paul-hutchinson)
+[^2]: [GST♥: Part 1: A Chat with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson#:~:text=cover%20was%20removed%20in%20order,and%20we%20would%20meet%20and)
