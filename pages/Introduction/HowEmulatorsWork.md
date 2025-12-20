@@ -397,5 +397,14 @@ A very cool feature of his emulator is it has an embedded 6502 assembler inside 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AI_gtlR_k5Y" frameborder="0" allowfullscreen></iframe>
 
 ---
+## Useful Tools for Emulator Development 
+
+### Gameboy Doctor: Emulator Debugging Tool
+**Gameboy Doctor** is a utility designed by **Robert Heaton** to assist developers in debugging their custom Game Boy emulators. Instead of fixing ROM files, this tool compares the execution logs of a user's work-in-progress emulator against reference logs from a known-good implementation. This process allows developers to pinpoint the exact CPU cycle where their emulator diverges from correct behavior, making it significantly easier to diagnose faults and pass standard test suites like Blargg's.
+
+{% include link-to-other-site.html url="https://github.com/robert/gameboy-doctor" description="Robert Heaton has released Gameboy Doctor, a debugging utility that compares emulator execution logs against reference data to isolate CPU state divergences." image="https://opengraph.githubassets.com/1/robert/gameboy-doctor" title="Gameboy Doctor: Compare Emulator Logs" %}
+
+
+---
 # References
 [^1]: [Are there good books/resources/guides on Emulator Architecture and how to structure your projects? : EmuDev](https://www.reddit.com/r/EmuDev/comments/w0epiv/are_there_good_booksresourcesguides_on_emulator/)

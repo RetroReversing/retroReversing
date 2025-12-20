@@ -1,11 +1,10 @@
 ---
-permalink: /arcade/
+permalink: /arcade
 layout: post
 title: Arcade - How retro arcade games were made
-recommend: arcade
 recommendTitle: All Arcade Posts
 editlink: ../categories/consoles/Arcade.md
-console: 'arcade'
+console: arcade
 consoleimage: /public/consoles/Arcade.png
 excerpt: Awesome list of Arcade Game Development information
 breadcrumbs:
@@ -15,21 +14,38 @@ breadcrumbs:
     url: /
   - name: Arcade
     url: #
+recommend: 
+  - arcade
+  - introduction
+  - hardware
 tags:
   - arcade
+  - introduction
+  - hardware
 ---
 
+### What was the first Arcade Video Game?
+<img width="700" height="933" alt="Computer Space Restoration in progress by Archer Maclean" src="https://github.com/user-attachments/assets/eb6050cb-e640-4d01-a53b-96d85a646e7f" />
+
+**Computer Space** released in 1971 by **Nolan Bushnell** and **Ted Dabney** is widely considered the first arcade game. While it wasn't a massive commercial hit, it proved that money could be made from creating video games and the authors went on to found **Atari** to take the concept to the next level with **Pong** [^12].
+
+It has a unique **fiberglass** design that aimed to appear futuristic and still makes it look unique to this day compared to the wooden arcade cabinates that followed it.
+
+Despite its name it is not actually a "computer" as microchips were too expensive in 1971 so it used **TTL** (Transistor-Transistor Logic) which meant that the "code" was actually the series of wires and switches that connected to each other. So to change the functinality or fix a bug it meant actually physically resoldering the connections.
+
+---
 # Development of Arcade Games
 
 ## What programming languages were used to create Arcade games?
-Since every Arcade board is different it can depend on the power of the system, some less powerful boards used pure assembly to write the game code and others used a higher level language such as C.
+Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
+
+As for later arcade games that had a microprocessor the programming language used can depend on the power of the system, some less powerful boards used pure assembly to write the game code and others used a higher level language such as C.
 
 For example the 1990 game **Klax** was written in C according to **Greg Omi** who was sent the source code for his Atari Lynx port of the game [^4].
 
 This is further confirmed in a 1990 interview with original designer of Klax **Mark Stephen Pierce**[^5]:
 > "All Atari coin‑ops today are written in C ‑ that's the most popular language with the programmers here, I guess. The actual programming work is carried out on standard terminals, and then transferred into our VAX machines where it's compiled and compressed.  Finally it's downloaded from there through an EPROM burner and onto the hardware for the game that the engineer has put together. Every coin‑op's hardware is different partly because each game is different, and partly as a form of copy protection.
 
-Early arcade games didn't use a programming language at all with all the game logic built at the hardware level. So to change the game it meant literally rewiring the hardware components and modding involved adding new hardware components which bypassed the original behavior.
 
 ## What tools were used to create the art for Arcade games?
 In the 1990 interview with **Mark Stephen Pierce** the following was published (in "The One" magazine) [^5]:
@@ -222,3 +238,4 @@ MAME was again featured in EDGE magazine in **October 2002**, where it was descr
 [^9]: [The Internet Arcade – Internet Archive Help Center](https://help.archive.org/help/the-internet-arcade/)
 [^10]: [https://github.com/jsmess/jsmess](https://github.com/jsmess/jsmess)
 [^11]: [MAME Over](https://worldofstuart.excellentcontent.com/mameover.htm)
+[^12]: [Before Pong, There Was Computer Space - The MIT Press Reader](https://thereader.mitpress.mit.edu/before-pong-there-was-computer-space/)
