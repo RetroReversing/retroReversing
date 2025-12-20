@@ -36,6 +36,12 @@ So grab your VMU, fire up your Dreamcast, and get ready to dive into the excitin
 
 {% include link-to-other-site.html url="https://www.neperos.com/article/p5rxdje14b48db27" description="A retrospective on the technical origins of the Dreamcast homebrew scene, covering the discovery of the MIL-CD backdoor, the release of the Utopia bootloader, and the evolution of open-source development kits." image="https://i.ytimg.com/vi/YbYY7JE4M1I/hqdefault.jpg" title="History of Dreamcast Homebrew" %}
 
+### Bleemcasting: An Interview With Bleemcast! Developer Randy Linden
+[The Dreamcast Junkyard](https://www.thedreamcastjunkyard.co.uk/2019/10/bleemcasting-interview-with-bleemcast.html) speaks with Randy Linden, the core developer behind the Bleemcast! emulator. The interview covers the technical challenges of porting the PC emulator to the Dreamcast's SH-4 architecture, the reverse engineering of the MIL-CD format to bypass Sega's licensing, and the history behind the unreleased "BleemPod" hardware.
+
+{% include link-to-other-site.html url="https://www.thedreamcastjunkyard.co.uk/2019/10/bleemcasting-interview-with-bleemcast.html" description="Randy Linden shares insights into the development of Bleemcast!, discussing the low-level optimizations required for the Dreamcast hardware, the legal pressures from Sony, and the unreleased peripherals intended for the system." image="https://generated.vusercontent.net/placeholder/bleemcast-interview.jpg" title="Bleemcasting: Interview With Randy Linden" %}
+
+
 ### How the Dreamcast's Security was Hacked (MIL-CD)
 This article debunks the common myth that the Dreamcast lacked security, explaining instead how the "MIL-CD" format—intended for interactive music albums—became the system's Achilles' heel. We detail how hackers exploited this oversight to bypass GD-ROM authenticity checks, allowing modified game ISOs to run on standard CD-Rs despite the console's built-in copy protection mechanisms.
 
@@ -59,6 +65,14 @@ This segment of our guide furnishes you with comprehensive insights and resource
 The Dreamcast arguably had the best development kit that SEGA had ever sold for their consoles, it is just a shame the lifespan of the Dreamcast was cut short.
 
 {% include link-to-other-post.html post="/Sega-Dreamcast-Katana-Development-Kit" description="For information about SEGA's Dreamcast development hardware check out this post." %}
+
+## Unofficial Hardware
+
+### Treamcast - Chinese Pirate Sega Dreamcast System Overview
+[Adam Koralik](https://www.youtube.com/watch?v=4RZr3CSYRns) reviews the "Treamcast," an unauthorized portable clone of the Sega Dreamcast manufactured in China in 2003. The overview highlights the system's built-in LCD screen, internal region-free modification, and peculiar hardware quirks, such as the need to manually spin the disc to initiate reading.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4RZr3CSYRns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ---
 # Game Software Development
