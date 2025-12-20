@@ -25,6 +25,8 @@ tags:
 ---
 
 ### What was the first Arcade Video Game?
+<img width="700" height="933" alt="Computer Space Restoration in progress by Archer Maclean" src="https://github.com/user-attachments/assets/eb6050cb-e640-4d01-a53b-96d85a646e7f" />
+
 **Computer Space** released in 1971 by **Nolan Bushnell** and **Ted Dabney** is widely considered the first arcade game. While it wasn't a massive commercial hit, it proved that money could be made from creating video games and the authors went on to found **Atari** to take the concept to the next level with **Pong** [^12].
 
 It has a unique **fiberglass** design that aimed to appear futuristic and still makes it look unique to this day compared to the wooden arcade cabinates that followed it.
