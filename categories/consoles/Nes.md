@@ -85,11 +85,12 @@ For emulators to support all the different cartridge hardware, emulator authors 
 <section class="postSection">
     <iframe class="wow slideInLeft postImage" width="560" height="315" src="https://www.youtube.com/embed/dahbvSYV0KA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <div markdown="1">
+
 Have you ever wondered about how a NES controller actually works, such as the circuits and electronic components used to physically create it?
 
   Well you are in luck, the YouTuber **Displaced Gamers** explains exactly how the electronics of the NES controller works and a few interesting facts along the way!
 
-He opens up the NES controller revealing the physical wires, traces (green lines on the circuit), rubber membranes and the 8-bit shift register (HD14021BP).
+He opens up the NES controller revealing the physical wires, traces (green lines on the circuit), rubber membranes and the 8-bit shift register (**HD14021BP**).
 
   The Controller as with all electronics has both a Power (High) and Ground (Low) lines, with 5V used for Power. Ground is connected to all of the buttons including the 4 D-pad buttons, whereas the Power lines go straight to the Carbon Printed Pull-Up resistors which then in-turn goes to each of the buttons.
 
