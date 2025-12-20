@@ -31,9 +31,7 @@ tags:
 # Introduction
 Welcome to our page dedicated to Sega Master System reverse engineering! The Sega Master System was a popular gaming console released by Sega in 1985, and has since become a beloved classic of the gaming world. If you're interested in learning more about the technical aspects of this console and how it works, you've come to the right place. 
 
-On this page, we've compiled a list of links to other pages that cover various topics related to Sega Master System reverse engineering. Whether you're interested in understanding the hardware architecture of the console, analyzing game code, or exploring the many mods and hacks that have been created by enthusiasts over the years, you'll find a wealth of resources and information on the pages we've linked to. 
-
-So grab your Sega controller, and get ready to dive into the exciting world of Sega Master System reverse engineering!
+On this page, we've compiled a list of links to other pages that cover various topics related to Sega Master System reverse engineering.
 
 ---
 # Developer Interviews
@@ -57,6 +55,7 @@ It is a rather odd statement to make, almost sounds like one of the developers w
 You can read the full interview here:
 * [Zero - Issue 07 - Stay A While... - Articles - SMS Power](https://www.smspower.org/Articles/Zero-Issue07-StayAWhile)
 
+---
 ## MirrorSoft Interview
 One of the best interviews with Sega Master System Developers was in the UK Magazine called **S the Sega Magazine**, specifically issue 8 where they interview the programmers of MirrorSoft in Bath about their upcoming game **Speedball**.
 
@@ -64,10 +63,23 @@ You can read the full interview here:
 [S the Sega Magazine - Issue 8 - Back to the Future - Articles - SMS Power](https://www.smspower.org/Articles/STheSegaMagazine-Issue8-BackToTheFuture)
 
 ---
+## Paul Hutchinson Interview
+[Game SoundTracks](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson) has an interview with Paul Hutchinson where he talks about developing Sega Master System games such as **Spider-Man vs. The Kingpin**, including details of the development hardware that he was sent from Sega of America.
+
+He programmed the game with a little help from John Kennedy and created all the Music and Sound! He worked from home as a stay-at-home dad so he sent the code to Sega over a Bulletin Board System (BBS).
+
+He used a $2200 **Intel 486 DX2 66** CPU with a $300 14" CRT monitor, which is likely what he used to develop his Sega Master System games and then later an Amiga 2000HD for Deluxe Paint (Pixel Art) and Pro-Tracker (Music).
+
+{% include link-to-other-site.html url="https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson" description="An interview with Paul Hutchinson where it mentions his time with Sega Master System and Game Gear Development" title="A Chat with Paul Hutchinson" %}
+
+
+---
 # Hardware
 The Sega Master System has multiple hardware revisions in its life time along with many different development kits as SEGA themselves didn't produce an official one for developers to use.
 
 ## Development Kit Hardware
+Unlike other consoles the Sega Master System has very little information online about the hardware game developers used to develop software for it. What we know so far is covered in our specific page about the topic:
+
 {% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
 
 ### Sega Digitizer System
