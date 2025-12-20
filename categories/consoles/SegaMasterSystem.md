@@ -78,9 +78,17 @@ He used a $2200 **Intel 486 DX2 66** CPU with a $300 14" CRT monitor, which is l
 The Sega Master System has multiple hardware revisions in its life time along with many different development kits as SEGA themselves didn't produce an official one for developers to use.
 
 ## Development Kit Hardware
-Unlike other consoles the Sega Master System has very little information online about the hardware game developers used to develop software for it. What we know so far is covered in our specific page about the topic:
+Unlike other consoles the Sega Master System has very little information online about the hardware game developers used to develop software for it. 
 
-{% include link-to-other-post.html post="/hardware/devkits/" description="For more information on Master System Development Hardware check out this post." %}
+Thanks to a [Game SoundTracks](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson) interview with Paul Hutchinson we know that Sega used to send out ZAX-ICE In-Circuit Emulators along with a modified Sega Master System [^1]:
+> The Sega development kit included a ZAX-ICE (In-Circuit Emulator), which plugged into an SMS where the Z80 cpu would be (the SMS top cover was removed in order to achieve that).
+
+We do have information about a third party development kit used for Master System development called the Krisalis development kit:
+{% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For more information on The Third Party Master System Development Hardware check out this post." %}
+
+The Sega Game Gear was a very similar system so some of the development hardware for Game Gear was also used for Master System games, you can find out about Game Gear development hardware in the post below:
+
+{% include link-to-other-post.html post="/sega-game-gear-devkit" description="For more information on Master System Development Hardware check out this post." %}
 
 ### Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. 
@@ -123,3 +131,7 @@ It would be up to the game developers to find their own Z80 Assembler and Linker
 {% include console.html %}
   
 </div>
+
+---
+# References
+[^1]: [GST♥: Part 1: A Chat with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson#:~:text=cover%20was%20removed%20in%20order,and%20we%20would%20meet%20and)
