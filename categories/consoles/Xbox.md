@@ -45,6 +45,17 @@ This section of our guide will provide you with detailed information and resourc
 ## Development Hardware
 
 ---
+# Reverse Engineering
+
+## File Formats 
+
+### Splinter Cell's LIN Format Analysis
+**Landaire** investigates the `.lin` file format used in *Splinter Cell: Pandora Tomorrow* and *Chaos Theory*, which had remained undocumented for two decades. The analysis reveals that these files are not traditional archives, but rather linear recordings of memory allocation and read operations designed to optimize streaming from the Xbox's optical media.
+
+{% include link-to-other-site.html url="https://landaire.net/a-file-format-uncracked-for-20-years/" description="Landaire details the reverse engineering of the Splinter Cell LIN format, identifying it as a streaming optimization method rather than a standard compressed archive." image="https://github.com/landaire.png" title="A File Format Uncracked for 20 Years" %}
+
+
+---
 # All Posts
 <div>
 
