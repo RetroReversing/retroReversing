@@ -46,6 +46,69 @@ The video details critical milestones in the platform's history, including the p
 ---
 # Reverse Engineering iOS Games
 
+## touchHLE: High-Level Emulator for Early iOS Games
+**touchHLE** is an open-source high-level emulator (HLE) written in **Rust** that runs classic apps from the early iPhone OS era (specifically versions 2.x and 3.x) on modern platforms like Windows, macOS, and Android. 
+
+Created by **hikari-no-yume**, the project focuses on preserving early mobile gaming history by dynamically recompiling ARM code and reimplementing Apple's system frameworks (such as UIKit and OpenGL ES) rather than emulating the full hardware. 
+This approach allows titles like *Super Monkey Ball* and *Crash Bandicoot Nitro Kart 3D* to run with enhanced performance and resolution scaling.
+
+{% include link-to-other-site.html url="https://github.com/touchHLE/touchHLE" description="hikari-no-yume and contributors have developed touchHLE, a High Level Emulator written in Rust that runs classic iPhone OS 2.x/3.x apps on modern systems by reimplementing the OS frameworks." title="touchHLE: High-level emulator for iPhone OS apps" %}
+
+For a full list of game compatibility check out the [touchHLE app compatibility database](https://appdb.touchhle.org/).
+
+### Driver iOS (2009) on touchHLE Emulator
+[VortexStory](https://www.youtube.com/watch?v=dviPm_e33pk) showcases the 2009 Gameloft iOS port of *Driver*, now playable via the high-level emulator touchHLE. The video explores this previously "lost" mobile version through gameplay of the Car Park tutorial and Pursuit mode, demonstrating how file modifications can enable controller support and remove on-screen touch overlays.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dviPm_e33pk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Popular iOS 2.x Games (2008+)
+iPhone OS 2 first introduced the App Store and with it came a bunch of "AAA" game studios aiming to tap into the market, some of these games are quite fun and worth playing others are maybe not as fun but could be fun to reverse engineer.
+
+Games released for iPhone OS 2 were compiled for the 32-bit **ARMv6** processor so they will **not** run on 32-bit ARMv7 devices (iPhone 3GS+) or any 64-bit devices.
+
+They can run on later versions *only* if the developer shipped a dual-architecture binary (ARMv6+ARMv7). Many early App Store games never did this, so some games are ARMv6-only and thus can only run on the iPhone (2G) and iPhone 3G!
+
+
+These games require a minimum of iPhone OS 2.x (latest 2.2.1 recommended) to run and the reviews of these games come from the Bookazine **iPhone Games Directory** Volume 001 from 2009 to give time-period accurate reviews.
+
+Name | Developer | Review out of 5 | Description
+---|---|---|---
+Airport Mania | Reflexive Entertainment | 4/5 
+[Assassin's Creed: Altaïr's Chronicles (2009)](https://appdb.touchhle.org/apps/413) | Gameloft | 4/5
+[Blades of Fury](https://appdb.touchhle.org/apps/471) | Gameloft | 5/5
+[Doom Resurrection (2009)](https://appdb.touchhle.org/apps/278) | ID Software | 4/5
+Duke Nukem 3D | MachineWorks Northwest LLC | 3/5
+[Crystal Defenders](https://appdb.touchhle.org/apps/77) | Square Enix	| 3/5
+[Ferrari GT: Evolution (2008)](https://appdb.touchhle.org/apps/116) | Gameloft | 4/5
+[Flight Control](https://appdb.touchhle.org/apps/650) | Firemint | 5/5
+Flight Of The Amazon Queen | iPhSoft | 3/5
+[Hero of Sparta](https://appdb.touchhle.org/apps/452) | Gameloft | 4/5
+[Kroll](https://appdb.touchhle.org/apps/491) | Digital Legends Entertainment | 3/5
+[Lemonade Tycoon (2009)](https://appdb.touchhle.org/apps/53) | EA | 4/5
+[Metal Gear Solid Touch (2009)](https://appdb.touchhle.org/apps/122) | Kojima Productions | 4/5
+[Modern Combat: Sandstorm (2009)](https://appdb.touchhle.org/apps/367) | Gameloft | 4/5
+[Paper Toss (2009)](https://appdb.touchhle.org/apps/318) | Backflip Studios | 4/5
+[Pocket God (2009)](https://appdb.touchhle.org/apps/306) | Bolt Creative | 4/5
+[Resident Evil 4: Mobile Edition](https://appdb.touchhle.org/apps/91) | Capcom | 3/5
+[Rolando (2008)](https://appdb.touchhle.org/apps/720) | HandCircus | 5/5
+[SimCity](https://appdb.touchhle.org/apps/250) | EA | 4/5
+Space Ace | Dragon's Lair LLC | 2/5
+The Secret Of Monkey Island Special Edition | LucasArts | 5/5
+[The Sims 3 (2009)](https://appdb.touchhle.org/apps/263) | EA | 4/5
+
+### Popular iOS 3.x Games (2009+)
+The reviews of these games come from the Bookazine **iPhone Games Directory** Volume 001 from 2009 to give time-period accurate reviews.
+
+Name | Developer | Review out of 5
+---|---|---
+[Command & Conquer: Red Alert](https://appdb.touchhle.org/) | EA | 3/5
+[Devil Hunter X](https://appdb.touchhle.org/apps/774) | Corefran technologies Ltd | 
+[Final Fantasy (2010)](https://appdb.touchhle.org/apps/290) | Square Enix | 
+
+### Popular iOS 5.x Games (2011+)
+The best way to check for recommended iOS 5.x games is to check out the Bookazine **iPad and iPhone Games Directory** Volume 1 from 2011 as it gives a great snapshot of exactly what was popular back when iOS 5 was the latest iOS.
+
+---
 ## Frida: Dynamic Instrumentation Toolkit
 **Frida** is a world-class dynamic instrumentation framework created by **Ole André Vadla Ravnås** that allows developers and reverse engineers to inject custom scripts into black-box processes. It enables users to hook functions, trace APIs, and manipulate application behavior in real-time across a wide range of platforms, including Windows, macOS, Linux, iOS, Android, and QNX, without requiring source code or recompilation.
 
