@@ -623,6 +623,12 @@ The most relevant to this site are the games and flash issues, giving an insight
 </section>
 
 ---
+## the net Magazine (UK)
+**the net** was a UK magazine published by Haymarket Magazines that started in 1999 and finished in 2001 where it was absorbed into Future Publishing's .net magazine.
+
+It is believed the last issue was in November 2001 according to [Haymarket Closes The Net – The Media Leader](https://uk.themedialeader.com/haymarket-closes-the-net/).
+
+---
 ## Web Designer Magazine (UK)
 <section class="postSection">
     <img src="/public/images/magazines/Web Designer.jpg" class="wow slideInLeft postImage" style="width:200px" />
