@@ -624,9 +624,9 @@ The most relevant to this site are the games and flash issues, giving an insight
 
 ---
 ## the net Magazine (UK)
-**the net** was a UK magazine published by Haymarket Magazines that started in 1999 and finished in 2001 where it was absorbed into Future Publishing's .net magazine.
+**the net** was a UK magazine published by **Haymarket** that started in 1999 and finished in 2001 where it was absorbed into Future Publishing's .net magazine. It contained some articles about web gaming portals, mainly flash and shockwave.
 
-It is believed the last issue was in November 2001 according to [Haymarket Closes The Net – The Media Leader](https://uk.themedialeader.com/haymarket-closes-the-net/).
+There were 27 issues published and it must have come to a shock to the staff as issue 27 still advertised subscriptions to the magazine. The magazine distribution list was sold to Future Publishing and the November 2001 issue of Future's **.net** magazine (issue number 90) contained a banner on the cover saying it now incorporated "the net" magazine [^10].
 
 ---
 ## Web Designer Magazine (UK)
@@ -859,3 +859,4 @@ Another online service that advertises its ability to translate Manga is Transmo
 [^7]: [SRDS. - Free Online Library](https://www.thefreelibrary.com/SRDS.-a067316906#)
 [^8]: [Computer underground Digest Sun May 17, 1998 Volume 10 : Issue 30](https://gopherproxy.meulie.net/srcr.nl/0/CuD/cud1030.txt#)
 [^9]: [My Life as an Email Entrepreneur: My Final Article. - Only Influencers](https://www.onlyinfluencers.com/email-marketing-blog-posts/best-practice-email-strategy/entry/my-life-as-an-email-entrepreneur-my-final-article#)
+[^10]: [Haymarket Closes The Net – The Media Leader](https://uk.themedialeader.com/haymarket-closes-the-net/)
