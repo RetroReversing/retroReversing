@@ -220,6 +220,15 @@ Many Game Boy developers worked freelance and were contracted out by companies t
 
 He heard about the job through his agent which was a common way for game programmers to find work in the late 80s to early 90s. But by the 2000s games had grown so much that they would require whole teams of developers and hiring freelances who worked from home became rarer.
 
+---
+## Games Industry Legends
+
+### Remembering Archer Maclean (1962-2022)
+[Mamemeister](https://www.youtube.com/watch?v=5yS_tmO_vSs) presents a retrospective on the life and work of Archer Maclean, a renowned programmer known for pushing the technical limits of 8-bit and 16-bit hardware. The video discusses his most famous works, such as *Dropzone* and *International Karate +*, and shares personal anecdotes about his passion for arcade hardware and game development.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5yS_tmO_vSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 ---
 # All Games Industry Posts

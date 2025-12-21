@@ -32,9 +32,9 @@ The SEGA Game Gear was released in a time where official development kits were f
     <img src="/public/images/gamegear/Sega Game Gear Development Board.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-The Game Gear development board was most likely distributed to SEGA first party developers, but it is unclear if it was ever sold to third party developers.
+The Game Gear development board was most likely distributed to SEGA first party developers, and some select third party developers such as **Paul Hutchinson** [^6].
 
-It is incredibly rare and this is the only one that we know that exists so it is likely it was just a SEGA in house kit that wasn't distributed to outside developers.
+It is incredibly rare and this is the only one that we know that exists.
 
 The image on the left is from the excellent Andrew Earley (@AndrewEarley7).
  </div>
@@ -42,6 +42,10 @@ The image on the left is from the excellent Andrew Earley (@AndrewEarley7).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Find of the week! Sega Game Gear Development Board!! There’s a lot of mystery with this board because there’s little to no info if it online and the cartridge port is for Master System carts. I’ll be mailing this to <a href="https://twitter.com/GerryRobotics?ref_src=twsrc%5Etfw">@GerryRobotics</a> to replace capacitors and get the unit working! <a href="https://t.co/SsV8OXdCs6">pic.twitter.com/SsV8OXdCs6</a></p>&mdash; Andrew (@AndrewEarley7) <a href="https://twitter.com/AndrewEarley7/status/1266102158614654976?ref_src=twsrc%5Etfw">May 28, 2020</a></blockquote> 
 
+In a **Game SoundTracks** interview with Paul Hutchinson, he references a Game Gear Development board which I believe is the same as the image above [^6]:
+> The Game Gear had a special development board, into which the ZAX-ICE plugged, it looked nothing like an actual Game Gear.
+
+He got it directly from Sega of America after leaving **Innerprise** while working on the Sega Master System version of **Spider-Man vs. The Kingpin** [^6].
 
 ## Sega Game Gear with built-in Parallel Port
 Although no photo of this kit exists it is mentioned in the source code to the Game Gear Game **Barbie Super Model**. In the **INSTRUCT.DOC** file describing the Game Gear Character editor it states:
@@ -62,12 +66,13 @@ Note that it is possible the development Game Gear they are talking about is jus
     <img src="/public/images/gamegear/Sega ZAX ICE Z80.jpg" class="wow slideInLeft postImage" />
 
  <div markdown="1">
-Although the original eBay link was never archived, it seems there was a ZAX ICE on sale that was used for Game Gear development [^4].
+Although the original eBay link was never archived, there was a **ZAX-ICE** on sale that was used for Game Gear development [^4].
 
 Sega also distributed these for Sega Mega Drive development due to the sound chip being a Z80 processor.
  </div>
 </section> 
 
+In fact in an interview with Paul Hutchinson he states that Sega of America sent him two **ZAX- ICE** units worth $50,000 each, one for the Game Gear and another for Sega Master System [^6].
 
 
 ## Wide Gear
@@ -128,3 +133,4 @@ You can find more information about the Romulator in the SNES development sectio
 [^3]: [Sega Game Gear 1 MB EPROM Cartridge](http://devkits.handheldmuseum.com/GG_1MBEPROM.htm)
 [^4]: [View topic - Gamegear dev kit - Forums - SMS Power!](https://www.smspower.org/forums/8090-GamegearDevKit)
 [^5]: [View topic - Realtime / Riverrun development board for Game Gear & Super Ni****do - Forums - SMS Power!](https://www.smspower.org/forums/14418-RealtimeRiverrunDevelopmentBoardForGameGearSuperNiDo#76384)
+[^6]: [GST♥: Part 1: A Chat with Paul Hutchinson](https://gstdaisuki.tumblr.com/post/746416707047981056/a-chat-with-paul-hutchinson#:~:text=cover%20was%20removed%20in%20order,and%20we%20would%20meet%20and)
