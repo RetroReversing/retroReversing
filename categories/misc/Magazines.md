@@ -297,10 +297,11 @@ Cre@teOnline | UK | | Magazine from 2000 until ?
 Digit | UK | | Published by IDG and lasted 112 issues until it got renamed into Digital Arts
 Digital Arts | UK | | UK magazine published from ? until ? previously called Digital Arts
 ![iCreate](https://github.com/user-attachments/assets/93703151-d8ac-4a75-834f-5e2ce2374dce){:width="100"} iCreate | UK | Magazine dedicated to creating content on Apple platforms like Mac and iPhone
-Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
+![Linux User and Developer - PS2 Linux](https://github.com/user-attachments/assets/6043d7fc-1726-4cb6-86d4-8ec7f799fe35){:width="100"} Linux User & Developer | UK | | magazine that was published for 19 years and reached issue 196
 Photoshop Creative | UK | | Published until September 2018
 ![](https://www.retroreversing.com/public/images/magazines/Web%20Designer.jpg){:width="100"} Web Designer | UK | |  magazine from 2004 until ?
 .net | UK | | magazine published until May 2020
+
 
 
 
