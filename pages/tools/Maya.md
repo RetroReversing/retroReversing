@@ -169,6 +169,11 @@ The PS3 game **Heavenly Sword** was featured in the November 2007 issue of 3D Wo
 Autodesk also produced a marketing video where they show off the use of Maya in Sony Cambridge Studios while they were working on Heavenly Sword where they mention using Maya 2008 directly [^5]:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PrH3bdWPk9Y?si=rr7F_WZtXqHGN17f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Need for Speed Underground (2003)
+In the UK Magazine **PSG 24-7 issue 8** they have a preview of Need for Speed Underground which included  screenshots of the car models in what looks like the default Maya viewport rendering:
+![Need for Speed Underground Car Models](https://github.com/user-attachments/assets/aab34bb6-15de-4fd8-a3c7-549396505a9e)
+
+
 ---
 # References
 [^1]: [Maya 1.0 Qualification](https://download.autodesk.com/us/maya/qualcharts/maya_1_0.html?_gl=1*vnod1b*_ga*MTg4NzY1ODQ5MS4xNzU2NjQ5MzYx*_ga_NZSJ72N6RX*czE3NTY2NDkzNjEkbzEkZzEkdDE3NTY2NDkzNjEkajYwJGwwJGgw&_ga=2.174041635.1644627704.1756649362-1887658491.1756649361)
