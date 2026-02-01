@@ -107,7 +107,8 @@
     "cpu": 4,
     "leaks": 1,
     "tutorials": 1,
-    "gdb": 2
+    "gdb": 2,
+    "c64": 1
   },
   "fileTagMap": {
     "categories/Introduction.md": [
