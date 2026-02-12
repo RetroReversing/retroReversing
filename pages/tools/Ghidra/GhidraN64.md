@@ -57,7 +57,7 @@ These names are not very helpful and we know that the games were compiled with a
 
 ## Downloading pre-generated Signature files
 Over on AssemblerGames there is a pack of `Signature Files` for N64 SDK libraries. You can think of these as a sort of regular expression for compiled function code. It is not always accurate but it is a great start, you can download them from assembler games 
-[Here](https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)
+[Here](https://web.archive.org/web/20191111210232/https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)
 
 ## Using IDA Pro's Signature files with ApplySig
 After downloading you will notice that these were created for the competing Disassembler called `IDA Pro`. So in order to open them in Ghidra we need a plugin, the plugin we are looking for is called `ApplySig.py`.
@@ -83,6 +83,6 @@ cat ~/CParserPlugin.out
 ---
 # References
 [^1]: [N64 ROM Decompiling With Ghidra - N64LoaderWV - YouTube](https://www.youtube.com/watch?v=3d3a39LuCwc)
-[^2]: [Assembler Games N64 Signatures](https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)
+[^2]: [Assembler Games N64 Signatures (Wayback Machine)](https://web.archive.org/web/20191111210232/https://assemblergames.com/threads/reverse-engineering-n64-signature-files-for-ida-pro-radare2.70138/)
 
 
