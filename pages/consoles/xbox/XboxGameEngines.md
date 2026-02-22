@@ -371,6 +371,9 @@ Games:
 * Armed and Dangerous
 * Backyard Wrestling
 * Backyard Wrestling 2
+* Brothers in Arms: Earned in Blood
+* Brothers in Arms: Road to Hill 30
+* Brute Force
 * Crash Nitro Kart
 * Darkwatch
 * Destroy All Humans!
@@ -385,6 +388,7 @@ Games:
 * Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
 * GoldenEye: Rogue Agent
+* Half-Life 2
 * Halo 2
 * Harry Potter and the Goblet of Fire
 * IHRA Drag Racing 2005
@@ -399,6 +403,7 @@ Games:
 * Over the Hedge
 * Painkiller Hell Wars
 * Pariah
+* Pitfall: The Lost Expedition
 * Psi-Ops: The Mindgate Conspiracy
 * Rainbow Six: Critical Hour
 * Rainbow Six: Lockdown
@@ -407,8 +412,19 @@ Games:
 * Shrek Superslam
 * Splinter Cell: Chaos Theory
 * Splinter Cell: Double Agent
+* Superman Returns
 * Starsky and Hutch
+* Teen Titans
+* The Godfather: The Game
 * The Lord of the Rings: The Third Age
+* The Matrix: Path of Neo
+* The Punisher
+* Thief: Deadly Shadows
+* Tony Hawk's Project 8
+* Urban Chaos: Riot Response
+* WarPath
+* Worms 3D
+* X-Men: The Official Game
 </div>
 </section>
 
