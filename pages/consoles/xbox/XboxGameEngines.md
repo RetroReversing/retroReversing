@@ -393,6 +393,7 @@ Games:
 * Harry Potter and the Goblet of Fire
 * IHRA Drag Racing 2005
 * IHRA Drag Racing Sportsman Edition
+* Jacked
 * Just Cause
 * Marvel Nemesis: Rise Of The Imperfects
 * Max Payne 2
