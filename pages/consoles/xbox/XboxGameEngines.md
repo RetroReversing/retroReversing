@@ -388,6 +388,7 @@ Games:
 * Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
 * GoldenEye: Rogue Agent
+* Gotcha!
 * Half-Life 2
 * Halo 2
 * Harry Potter and the Goblet of Fire
