@@ -353,6 +353,18 @@ Games:
 * Fallout: Brotherhood of Steel
 * Justice League Heroes
 
+---
+## Infernal Engine
+The Infernal Engine is an cross-platform engine developed by Terminal Reality used on all there game released on the console.
+
+Games:
+* 4x4 Evo 2
+* Æon Flux
+* BloodRayne
+* BloodRayne 2
+* Blowout
+* Spy Hunter: Nowhere to Run
+* RoadKill
 
 ---
 # Middleware
@@ -421,7 +433,6 @@ Games:
 * The Matrix: Path of Neo
 * The Punisher
 * Thief: Deadly Shadows
-* Tony Hawk's Project 8
 * Urban Chaos: Riot Response
 * WarPath
 * Worms 3D
