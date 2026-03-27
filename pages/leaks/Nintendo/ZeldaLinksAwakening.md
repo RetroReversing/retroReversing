@@ -76,6 +76,28 @@ In practice this means the leak documents how Link's Awakening moved from the or
 {% include connected-folder-tree.html folder="Source" path="/Source" body=source_variants_body version="/Source" content=folder_items %}
 
 ---
+## Source Variants and Localisation Branches
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Source</div>
+  <div markdown="1" class="rr-post-markdown">
+The `Source` directory preserves several parallel development branches rather than just one final build. Each language branch is split into three disk-style folders matching the original floppy backups: `01` for core game logic, `02` for map, message, title, and sound data, and `03` for enemy logic. Most branches also include a matching `Character` folder containing `.CHR` graphics data and an `RZ.ICE` compressed asset.
+
+In practice this means the leak documents how Link's Awakening moved from the original Japanese codebase into the early US build chain and then into the German, French, and Canadian French localisations.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/Source" date="Development branches"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original SRD Japanese source backup with documentation and SDK tools</li>
+      <li class="rr-info-gen">DMG_Zelda_JP_EN - Mixed Japanese and early English/US revision history</li>
+      <li class="rr-info-gen">DMG_Zelda_DE_FR - German, French, and Canadian French branches</li>
+      <li class="rr-info-gen">DMG_Zelda_DE_FR_v1 - A later German/French-only localisation set</li>
+      <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - US v2 and Canadian French v1 branches</li>
+    </ul>
+</div>
+
+---
 ## Original SRD Zelda Source code (Japan version 0) (SRD_DMG_Zelda_JP_v0)
 {% capture srd_body %}
 This folder contains the source code for the Japanese version of Links Awakening by **Systems Research and Development** (SRD) where helped Nintendo work on various titles.
