@@ -353,6 +353,18 @@ Games:
 * Fallout: Brotherhood of Steel
 * Justice League Heroes
 
+---
+## Infernal Engine
+The Infernal Engine is an cross-platform engine developed by Terminal Reality used on all there game released on the console.
+
+Games:
+* 4x4 Evo 2
+* Æon Flux
+* BloodRayne
+* BloodRayne 2
+* Blowout
+* Spy Hunter: Nowhere to Run
+* RoadKill
 
 ---
 # Middleware
@@ -371,6 +383,9 @@ Games:
 * Armed and Dangerous
 * Backyard Wrestling
 * Backyard Wrestling 2
+* Brothers in Arms: Earned in Blood
+* Brothers in Arms: Road to Hill 30
+* Brute Force
 * Crash Nitro Kart
 * Darkwatch
 * Destroy All Humans!
@@ -385,10 +400,12 @@ Games:
 * Ghost Recon 2 Summit Strike
 * Ghost Recon Advanced Warfighter
 * GoldenEye: Rogue Agent
+* Half-Life 2
 * Halo 2
 * Harry Potter and the Goblet of Fire
 * IHRA Drag Racing 2005
 * IHRA Drag Racing Sportsman Edition
+* Jacked
 * Just Cause
 * Marvel Nemesis: Rise Of The Imperfects
 * Max Payne 2
@@ -399,6 +416,7 @@ Games:
 * Over the Hedge
 * Painkiller Hell Wars
 * Pariah
+* Pitfall: The Lost Expedition
 * Psi-Ops: The Mindgate Conspiracy
 * Rainbow Six: Critical Hour
 * Rainbow Six: Lockdown
@@ -407,8 +425,18 @@ Games:
 * Shrek Superslam
 * Splinter Cell: Chaos Theory
 * Splinter Cell: Double Agent
+* Superman Returns
 * Starsky and Hutch
+* Teen Titans
+* The Godfather: The Game
 * The Lord of the Rings: The Third Age
+* The Matrix: Path of Neo
+* The Punisher
+* Thief: Deadly Shadows
+* Urban Chaos: Riot Response
+* WarPath
+* Worms 3D
+* X-Men: The Official Game
 </div>
 </section>
 

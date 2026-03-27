@@ -60,7 +60,15 @@ C/C++ Compilers:
 * Turbo C++
 * Microsoft Visual C++
 
-## Kernel Development
+## Game Development in C/C++
+
+### Let's Make: Dangerous Dave
+[MaiZure](https://www.maizure.org/projects/lets-make-dangerous-dave/) contains a detailed project write-up and 10-part video series regarding the technical reconstruction of the classic game Dangerous Dave. This project demonstrates how to remake the game from scratch using C and SDL 2.0 while adhering to a minimal 1,000-line codebase to keep the implementation logic accessible. It covers critical development steps such as asset extraction, sprite rendering, and basic platformer physics, serving as an excellent case study for understanding game engine fundamentals.
+
+{% include link-to-other-site.html url="https://www.maizure.org/projects/lets-make-dangerous-dave/" description="MaiZure offers a technical deep dive into remaking Dangerous Dave, including a 10-part series and source code that reconstructs the classic game using minimal C and SDL." image="https://opengraph.githubassets.com/1/MaiZure/lmdave" title="Let's Make: Dangerous Dave" %}
+
+
+## Kernel Development in C/C++
 
 ### Make your own kernel from scratch... with C++!
 [Cinemint](https://www.youtube.com/@cinemint) Has a video on how he created a kernel with C++ and a bit of assembly:

@@ -1688,6 +1688,26 @@ The project focuses on modifying the original screensaver binary by patching out
 
 {% include link-to-other-site.html url="https://github.com/x86matthew/Playable3DMaze" description="x86matthew has released Playable3DMaze, a project detailing the reverse engineering and modification of the original Windows 9x ssmaze.scr binary to add user-controlled keyboard input." image="https://opengraph.githubassets.com/1/x86matthew/Playable3DMaze" title="Playable3DMaze: A playable version of Microsoft's old 3DMaze screensaver from Windows 9x" %}
 
+---
+# Reverse Engineering
+
+## DLL Injection and Hijacking
+To execute custom code in a Windows game there are two primary methods for achieving this: DLL injection and DLL hijacking.
+
+DLL injection involves using an external tool to force a library into a running process, whereas DLL hijacking requires creating a replacement dll for a dll the game already uses, where you can either forward calls to the original dll or implement your own overrides. 
+For example by placing a custom-compiled d3d11.dll in the game's local directory, the game's executable loads this library instead of the system's version.  
+You then use a technique called function forwarding, by using LoadLibrary and GetProcAddress to pass legitimate graphics calls to the real system d3d11.dll. 
+This allows your code to initialize silently alongside the game, providing a stable environment to set up more advanced hooks.
+
+
+## DRM
+
+### How To Hack A Denuvo Game
+[Nathan Baggs](https://youtu.be/t_jyCBu0nUA) has a video detailing the reverse engineering process of an early version of Denuvo DRM in F1 2016. The content covers the VMP2 virtualization layer, hardware ID validation, and the development of custom tooling to handle obfuscation like jump flattening and dead store removal. It specifically demonstrates advanced techniques such as DLL hijacking, Vectored Exception Handlers (VEH) for silent patching, and dynamic binary instrumentation using Intel PIN to intercept hardware instructions like CPUID and RDTSC.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t_jyCBu0nUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
 
 ---
 # All Posts
