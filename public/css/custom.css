@@ -172,4 +172,77 @@
     color: #333;
 }
 
+/* Folder tree refinements */
+.rr-folder-tree.rr-changelog-category {
+    padding-left: 0;
+}
+
+.rr-folder-tree.rr-changelog-category::before {
+    display: none;
+    content: none;
+}
+
+.rr-folder-tree .rr-changelog-version {
+    margin-right: 12px;
+}
+
+.rr-folder-tree .rr-changelog-more {
+    padding-left: 0;
+    margin-top: 12px;
+    display: grid;
+    row-gap: 12px;
+}
+
+.rr-folder-tree .rr-changelog-more .rr-changelog {
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    column-gap: 10px;
+    align-items: start;
+}
+
+.rr-folder-tree .rr-changelog-badge {
+    width: fit-content;
+    max-width: 100%;
+    min-width: 0;
+    margin-right: 0;
+    align-self: start;
+    justify-content: flex-start;
+    color: #24506b;
+    background: rgba(0, 133, 182, 0.08);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(0, 133, 182, 0.14);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 0.88rem;
+    letter-spacing: 0;
+    font-weight: 500;
+    padding: 2px 8px;
+}
+
+.rr-folder-tree .rr-changelog-badge::before,
+.rr-folder-tree .rr-changelog-badge::after {
+    display: none;
+    content: none;
+}
+
+.rr-folder-tree .rr-changelog-info {
+    margin-top: 0;
+    min-width: 0;
+    line-height: 1.45;
+}
+
+@media (max-width: 900px) {
+    .rr-folder-tree .rr-changelog-more .rr-changelog {
+        grid-template-columns: 200px minmax(0, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .rr-folder-tree .rr-changelog-more .rr-changelog {
+        grid-template-columns: 1fr;
+        row-gap: 6px;
+    }
+}
+
 /* End changelog */

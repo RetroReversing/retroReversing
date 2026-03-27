@@ -2,13 +2,13 @@
 .css-folder {
   box-sizing: border-box;
   position: relative;
-  background: #f6c670;
+  background: #bfcedb;
   top: 12px;
 /*   left: 18px; */
   border-radius: 0 0 5px 5px;
   height: 43px;
   width: 100px;
-  box-shadow: 0 -10px 0 -5px #f3f3f3, 0 -10px 0 0 #c9973b, 0 3px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -10px 0 -5px #f3f3f3, 0 -10px 0 0 #6f88a1, 0 3px 0 0 rgba(0, 0, 0, 0.2);
   /* Tab */
 }
 .css-folder:before {
@@ -19,7 +19,7 @@
   width: 35px;
   top: -25px;
   height: 20px;
-  border-bottom: 10px solid #c9973b;
+  border-bottom: 10px solid #6f88a1;
   border-right: 10px solid transparent;
   z-index: -1;
 }
@@ -28,7 +28,16 @@
 .css-folder-left {
   margin: 15px;
   text-align: center;
-  font-weight: 400;
-  padding-top: 10px;
+  font-weight: 500;
+  color: #2f4358;
+  padding-top: 0;
+  line-height: 43px;
+  letter-spacing: 0.01em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
   font-size: 12px;
+  display: block;
+  /* Overflow needs to be visible for the tab at the top of the folder */
+  overflow: visible;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

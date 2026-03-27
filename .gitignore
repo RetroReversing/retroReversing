@@ -63,3 +63,4 @@ templates
 # Obsidian auto adds pngs to the root...
 /*.png
 /*.jpeg
+.jekyll-metadata

@@ -1,0 +1,43 @@
+<div class="rr-changelog-category rr-folder-tree">
+  <div>
+    <!-- <div class="css-folder css-folder-left wow slideInLeft postImage" title="{{ include.path }}">{{ include.title }}</div> -->
+    <!-- <div class="rr-changelog-version">{{ include.version }}</div> -->
+    <!-- <div class="rr-changelog-date">{{ include.date | default: '' }}</div> -->
+  </div>
+  <ul class="rr-changelog-more">
+    {% assign lines = include.content | strip | split: '
+' %}
+    {% for line in lines %}
+      {% assign trimmed = line | strip %}
+      {% assign has_dash = trimmed | slice: 0, 2 %}
+      {% assign has_star = trimmed | slice: 0, 2 %}
+      {% assign item = '' %}
+      {% if has_dash == '- ' %}
+        {% assign item = trimmed | remove_first: '- ' | strip %}
+      {% elsif has_star == '* ' %}
+        {% assign item = trimmed | remove_first: '* ' | strip %}
+      {% endif %}
+      {% if item != '' %}
+        {% assign dash_pos = item | split: ' - ' %}
+        {% if dash_pos.size > 1 %}
+          {% assign badge = dash_pos[0] %}
+          {% assign description = '' %}
+          {% for part in dash_pos offset:1 %}
+            {% if forloop.first %}
+              {% assign description = part %}
+            {% else %}
+              {% assign description = description | append: ' - ' | append: part %}
+            {% endif %}
+          {% endfor %}
+        {% else %}
+          {% assign badge = item %}
+          {% assign description = item %}
+        {% endif %}
+        <div class="rr-changelog rr-changelog-success">
+          <div class="rr-changelog-badge">📁 {{ badge }}</div>
+          <div class="rr-changelog-info">{{ description }}</div>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
