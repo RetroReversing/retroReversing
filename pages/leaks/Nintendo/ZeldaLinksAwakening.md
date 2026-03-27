@@ -1,10 +1,9 @@
 ---
 layout: post
-tags: 
+tags:
 - gameboy
 - leak
 - sourcecode
-- incomplete
 title: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
 thumbnail: /public/consoles/Nintendo Game Boy.png
 image: /public/images/leaks/Zelda Links Awakening Source Code.jpg
@@ -15,18 +14,20 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Zelda Links Awakening Source Code (DMG) 
+  - name: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
     url: #
-recommend: 
+recommend:
  - gameboy
  - leak
  - sourcecode
 editlink: /leaks/Nintendo/ZeldaLinksAwakening.md
-updatedAt: '2023-04-09'
+updatedAt: '2026-03-27'
 ---
 
-The Zelda Links Awakening source code was released in the original Gigaleak inside **dmg.7z** which was inside **Other.7z**.
-    
+The Zelda Links Awakening source code was released in the original Gigaleak inside **dmg.7z**, itself stored inside **Other.7z**.
+
+This part of the leak contains much more than a single source snapshot. The archive preserves the original SRD Japanese source tree, several Japanese and English revision folders, later US v2 and Canadian French revision folders, separate German and French localisation trees, and a companion character/tile asset folder under `その他`.
+
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="dmg.7z" date="Contains two subdirectories" ></div>
     <ul class="rr-changelog-more">
@@ -41,9 +42,9 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
   <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
   <div markdown="1" class="rr-post-markdown">
 The **DMG** folder is the main location for all the assembly language source code that makes up the original Game Boy version of The Legend of Zelda: Link's Awakening.
-    
+
   </div>
-</section>  
+</section>
 
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="/DMG" date="Folder Tree"></div>
@@ -63,11 +64,33 @@ The **DMG** folder is the main location for all the assembly language source cod
 </div>
 
 ---
+## Source Variants and Localisation Branches
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/Source</div>
+  <div markdown="1" class="rr-post-markdown">
+The `Source` directory preserves several parallel development branches rather than just one final build. Each language branch is split into three disk-style folders matching the original floppy backups: `01` for core game logic, `02` for map, message, title, and sound data, and `03` for enemy logic. Most branches also include a matching `Character` folder containing `.CHR` graphics data and an `RZ.ICE` compressed asset.
+
+In practice this means the leak documents how Link's Awakening moved from the original Japanese codebase into the early US build chain and then into the German, French, and Canadian French localisations.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/Source" date="Development branches"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original SRD Japanese source backup with documentation and SDK tools</li>
+      <li class="rr-info-gen">DMG_Zelda_JP_EN - Mixed Japanese and early English/US revision history</li>
+      <li class="rr-info-gen">DMG_Zelda_DE_FR - German, French, and Canadian French branches</li>
+      <li class="rr-info-gen">DMG_Zelda_DE_FR_v1 - A later German/French-only localisation set</li>
+      <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - US v2 and Canadian French v1 branches</li>
+    </ul>
+</div>
+
+---
 ## Original SRD Zelda Source code (Japan version 0) (SRD_DMG_Zelda_JP_v0)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/SRD_DMG_Zelda_JP_v0</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the source code for the Japanese version of Links Awakening by **Systems Research and Development** (SRD) where helped Nintendo work on various titles. 
+ This folder contains the source code for the Japanese version of Links Awakening by **Systems Research and Development** (SRD) where helped Nintendo work on various titles.
 
  We are starting with this folder as it seems to be the original and the other folders are just localised changes to the files in this folder, so this is the most important folder in the whole leak.
 
@@ -83,11 +106,94 @@ The **DMG** folder is the main location for all the assembly language source cod
       <li class="rr-info-gen">system - Official Nintendo Game Boy SDK</li>
     </ul>
 </div>
-    
+
 
   </div>
-</section>  
+</section>
 
+
+---
+## Japanese and Early English Revision Tree (DMG_Zelda_JP_EN)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_JP_EN</div>
+  <div markdown="1" class="rr-post-markdown">
+This branch preserves both Japanese and US revision histories. The directory names show two Japanese `v0` revisions, three Japanese `v1` revisions, three US `v0` revisions, and separate character data folders for the Japanese v1 and US v0 builds.
+
+It is especially useful because it shows the project in transition from the Japanese source base into the earliest English localisation work, including `.BAK` backups left beside files such as `ZEND.DMG` and `ZPL.DMG`.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/DMG_Zelda_JP_EN" date="Folder Tree"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">JP_v0_01, JP_v0_02, JP_v0_03 - Early Japanese revision set</li>
+      <li class="rr-info-gen">Jp_v1_01, Jp_v1_02, Jp_v1_03 - Later Japanese revision set</li>
+      <li class="rr-info-gen">US_v0_01, US_v0_02, US_v0_03 - Early English/US localisation revision set</li>
+      <li class="rr-info-gen">JP_v1_Character - Japanese v1 character/tile graphics files (`C1.CHR` to `C8.CHR`, `RZ.ICE`, `GAL.BAT`)</li>
+      <li class="rr-info-gen">US_v0_Character - Early US character/tile graphics files</li>
+    </ul>
+</div>
+
+---
+## German, French, and Canadian French Branches (DMG_Zelda_DE_FR)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_DE_FR</div>
+  <div markdown="1" class="rr-post-markdown">
+The `DMG_Zelda_DE_FR` tree contains three parallel localisation branches, each split into the same three floppy-style disks as the main source: German, French, and Canadian French. Each language also ships with its own `Character` folder containing the tile/font graphics used by that build.
+
+The second disk for these branches swaps in language-specific music/message data files such as `BGM_1G.HEX` for German and `BGM_1F.HEX` for French and Canadian French.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/DMG_Zelda_DE_FR" date="Folder Tree"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">German_01, German_02, German_03 - German localisation source split across three disks</li>
+      <li class="rr-info-gen">French_01, French_02, French_03 - French localisation source split across three disks</li>
+      <li class="rr-info-gen">CanadianFrench_01, CanadianFrench_02, CanadianFrench_03 - Canadian French localisation source split across three disks</li>
+      <li class="rr-info-gen">German_Character - German character/font graphics</li>
+      <li class="rr-info-gen">French_Character - French character/font graphics</li>
+      <li class="rr-info-gen">CanadianFrench_Character - Canadian French character/font graphics</li>
+    </ul>
+</div>
+
+---
+## Later German and French Branches (DMG_Zelda_DE_FR_v1)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_DE_FR_v1</div>
+  <div markdown="1" class="rr-post-markdown">
+`DMG_Zelda_DE_FR_v1` is a slimmer follow-up tree that keeps only the German and French branches. Unlike the earlier `DMG_Zelda_DE_FR` folder, Canadian French is no longer present here.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/DMG_Zelda_DE_FR_v1" date="Folder Tree"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">German_01, German_02, German_03 - Later German localisation revision set</li>
+      <li class="rr-info-gen">French_01, French_02, French_03 - Later French localisation revision set</li>
+      <li class="rr-info-gen">German_Character - German character/font graphics</li>
+      <li class="rr-info-gen">French_Character - French character/font graphics</li>
+    </ul>
+</div>
+
+---
+## US v2 and Canadian French v1 Branches (DMG_Zelda_EN_v2_CFR_v1)
+<section class="postSection">
+  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_EN_v2_CFR_v1</div>
+  <div markdown="1" class="rr-post-markdown">
+This folder captures a later English branch labelled `US_v2` alongside a `CanadianFrench_v1` branch. As with the other localisation trees, each version is stored as three floppy-style source folders plus a matching `Character` asset folder.
+  </div>
+</section>
+
+<div class="rr-changelog-category">
+  <div class="rr-version-gen" version="/DMG_Zelda_EN_v2_CFR_v1" date="Folder Tree"></div>
+    <ul class="rr-changelog-more">
+      <li class="rr-info-gen">US_v2_01, US_v2_02, US_v2_03 - Later English/US revision set</li>
+      <li class="rr-info-gen">CanadianFrench_v1_01, CanadianFrench_v1_02, CanadianFrench_v1_03 - Canadian French v1 revision set</li>
+      <li class="rr-info-gen">US_v2_Character - US v2 character/font graphics</li>
+      <li class="rr-info-gen">CanadianFrench_v1_Character - Canadian French v1 character/font graphics</li>
+    </ul>
+</div>
 
 
 ---
@@ -98,7 +204,7 @@ The **DMG** folder is the main location for all the assembly language source cod
 The first disk contains the files described in the table below:
 
   </div>
-</section>  
+</section>
 
 File Name | Extension | Description
 ---|---|---
@@ -121,7 +227,7 @@ ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
 The second disk contains the files described in the table below:
 
   </div>
-</section>  
+</section>
 
 
 File Name | Extension | Description
@@ -152,7 +258,7 @@ ZVD | .DMG | Game Boy Z80 Assembly file for Demo Background VRAM Data
   <div markdown="1" class="rr-post-markdown">
 The third disk contains the files for enemy logic described in the table below:
   </div>
-</section>  
+</section>
 
 
 File Name | Extension | Description
@@ -171,40 +277,42 @@ ZEN | .DMG | Game Boy Z80 Assembly file for Enemy Data 1
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/face</div>
   <div markdown="1" class="rr-post-markdown">
- Not sure why this folder is called "FACE", it seems to contain misc documentation information for developers, even includes a document planning a fishing trip! I am not quite sure what the 21-48 DAT files are however.
+ The `face` folder is a mixed backup disk containing developer notes, text resources, helper batch files, and a number of unidentified binary data files. Unlike the `1`, `2`, and `3` disks, it is not a clean source-only backup.
+
+ Several files are clearly readable text documents, but the numbered `21.DAT` to `48.DAT` files appear to be binary data blocks rather than plain text documentation.
 
   </div>
-</section>  
+</section>
 
 
 The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-21 | .DAT | 
-22 | .DAT | 
-23 | .DAT | 
-24 | .DAT | 
-25 | .DAT | 
-26 | .DAT | 
-27 | .DAT | 
-28 | .DAT | 
-31 | .DAT | 
-32 | .DAT | 
-33 | .DAT | 
-34 | .DAT | 
-35 | .DAT | 
-36 | .DAT | 
-37 | .DAT | 
-38 | .DAT | 
-41 | .DAT | 
-42 | .DAT | 
-43 | .DAT | 
-44 | .DAT | 
-45 | .DAT | 
-46 | .DAT | 
-47 | .DAT | 
-48 | .DAT | 
+21 | .DAT |
+22 | .DAT |
+23 | .DAT |
+24 | .DAT |
+25 | .DAT |
+26 | .DAT |
+27 | .DAT |
+28 | .DAT |
+31 | .DAT |
+32 | .DAT |
+33 | .DAT |
+34 | .DAT |
+35 | .DAT |
+36 | .DAT |
+37 | .DAT |
+38 | .DAT |
+41 | .DAT |
+42 | .DAT |
+43 | .DAT |
+44 | .DAT |
+45 | .DAT |
+46 | .DAT |
+47 | .DAT |
+48 | .DAT |
 BOM2 | .DAT | The game credits in French
 BOM3 | .DAT | Dungeon room list e.g Tail Cave
 BOM4 | .DAT | A lisgt of PC-98 games that it looks like they were going to share with each other (piracy?!)
@@ -226,27 +334,26 @@ ZED | .DMG | Game Boy Z80 Assembly file for Enemy set data
 
 ### The Old Man with a Beard
 The file `MRT.DAT` is a note written by Kazuaki Morita about being an older programmer in the Industry:
-> When someone starts fishing, the first catch is said to be a memorable one regardless of its size. Similarly, there are irreplaceable works for game developers. For me, it's Super Mario Bros. 
-> The program area was a huge 32 kilobytes at the time, and I think I crammed a lot into it. If there were a few bytes of memory left, there would be an uproar. 
+> When someone starts fishing, the first catch is said to be a memorable one regardless of its size. Similarly, there are irreplaceable works for game developers. For me, it's Super Mario Bros.
+> The program area was a huge 32 kilobytes at the time, and I think I crammed a lot into it. If there were a few bytes of memory left, there would be an uproar.
 >
 > Then there were Mario's infinite replication and the secret world... I think that's when the term "cheat code" started to be used instead of "bug technique."
->It has been about eight years since then, and I have been involved in various works, but as I age, I feel a decrease in my mental agility and memory. 
+>It has been about eight years since then, and I have been involved in various works, but as I age, I feel a decrease in my mental agility and memory.
 >
-> However, I think I have become more skilled at finding shortcuts. It is often said that a programmer's career lasts until they are 30 years old, but this is a social convention that says "you don't have to program anymore" rather than "you can't program anymore." 
+> However, I think I have become more skilled at finding shortcuts. It is often said that a programmer's career lasts until they are 30 years old, but this is a social convention that says "you don't have to program anymore" rather than "you can't program anymore."
 > If I feel like I have reached my limit, I will quit this job, because there is no such thing as a "programmer who doesn't program."
 >
 > Programmer: Kazuaki Morita
 
 
 ---
-### Game Boy SDK (/DMG/XXX__ゼルダの伝説 夢を見る島/Source/SRD_DMG_Zelda_JP_v0/system)
+### Nintendo Game Boy DMG SDK Tools (SRD_DMG_Zelda_JP_v0/system)
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/system</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains all the Software development tools required for original Game Boy development.
-
+The `system` folder contains the Nintendo Game Boy (DMG) software development toolchain used alongside the source backup. This includes assemblers, conversion utilities, shell helpers, and lookup tables required to build or process Game Boy assets on the original development setup.
   </div>
-</section>  
+</section>
 
 
 The files in this folder are described in the table below:
@@ -257,7 +364,7 @@ A | .EXE | DMG Relocatable Macro Assembler Version 1.00
 ASMB | .EXE | 6502 Assembler  Version 1.10 (Famicom tool created in 1987)
 ASMD | .EXE | DMG Macro Assembler  Version 1.01
 ASMDMG | .EXE | DMG Macro Assembler  Version 1.01 (Identical to ASMD.EXE)
-CGE2DMG | .EXE | Converts either CGE or DCG Character graphics to source code (.DMG) 
+CGE2DMG | .EXE | Converts either CGE or DCG Character graphics to source code (.DMG)
 CGEDCG | .BAT | Batch file for running FCV with the DCG2BYT script
 DCG2BYT | .CVT | FCV Script to convert DCG Character Graphics files to assembly code (.DMG)
 DCGDMG | .BAT | Batch file for character file conversion of a .DCG file to a .DMG source file
@@ -271,7 +378,7 @@ ISD | .EXE | I.S. Debugger  Version 1.00c
 ISDMG | .EXE | DMG Relocatable Macro Assembler Version 1.00
 ISLINK | .EXE | ISASM Linker  Version 1.00
 L | .EXE | ISASM Linker  Version 1.00 (Presumably just copied to have a shorter name)
-PW | .EXE | P-ROM Support Program Version 1.26 
+PW | .EXE | P-ROM Support Program Version 1.26
 PW2 | .EXE, .TB0 | P-ROM Support Program Version 2.02d6
 SCR2DMG | .COM | MS-DOS Command File Executable for converting .scr files to .DMG files for assembling
 SHL | .COM, .KEY | MS-DOS Command File Executable but not sure what it is for
@@ -286,7 +393,7 @@ This SDK seems to use a number of different file formats, but it is not clear wh
 * **.DCG** - Character Graphics data (for DMG Game Boy?)
 * **.CVT** - Custom Conversion scripts that can be executed with FCV
 * **.SCR** - Screen file maybe containing location of character tiles in a level?
-* **.X65** - Either Famicom or Super Famicom source code 
+* **.X65** - Either Famicom or Super Famicom source code
 * **.COM** - Unsure if this is a Windows Command File or something else
 
 **Famicom SDK Files**
@@ -303,7 +410,7 @@ The File Convert Program (`FCV`) tool was created in 1987 by Intelligent Systems
 The commands in the script appear to be performing various operations related to transferring data to VRAM. For example, the `VRAD=$2000` command sets the screen address, and the `DTPT=0` command initializes the data pointer. The script also includes commands for writing screen data and attribute data to VRAM.
 
 **Character conversion**
-The Bash script `DCGDMG.BAT` is used to convert a file with the extension ".DCG" (presumably containing character graphics) from the FM-R50 system (a Japanese computer system from the 80s) to a source code file with the extension ".DMG". 
+The Bash script `DCGDMG.BAT` is used to convert a file with the extension ".DCG" (presumably containing character graphics) from the FM-R50 system (a Japanese computer system from the 80s) to a source code file with the extension ".DMG".
 
 The script assumes that the **FM-R50** file is inserted into Drive A of the computer. The script then uses the `FCV` tool to do the conversion.
 
@@ -318,7 +425,7 @@ This potentially means that developers for Nintendo were using the Fujitsu FM-R5
 
 This folder contains the following sub-directories:
   </div>
-</section>  
+</section>
 
 <div class="rr-changelog-category">
   <div class="rr-version-gen" version="/Source/DMG_Zelda_JP_EN" date="subdirectories" ></div>
@@ -347,7 +454,7 @@ This folder contains the following sub-directories:
  Since this is technically the second version of Disk 2 (with the SPD folder being the first version) we will only cover the changes made from SPD to save re-covering the same files.
 
   </div>
-</section>  
+</section>
 
 
 The changes made to this version are mainly small code comment changes and are described in the table below:
@@ -368,10 +475,11 @@ ZVD | .DMG | Just added a comment that says "Nausicaa Leaf"
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/その他</div>
   <div markdown="1" class="rr-post-markdown">
- "その他" (pronounced "sono ta") is a Japanese phrase that means "other" or "miscellaneous". It is often used to refer to something that does not fit into a specific category or is not included in a list of specified items.
+The `その他` branch translates to "miscellaneous" and contains a standalone `Ver1JP/Character` folder. Its contents match the sort of character/font graphics bundles used by the source branches, with `C1.CHR` through `C8.CHR`, `RZ.ICE`, and a `GAL.BAT` helper script.
 
+This makes it a useful companion asset dump for the Japanese v1 build rather than executable gameplay source code.
   </div>
-</section>  
+</section>
 
 This folder just contains the following sub-directories:
 * **DMGZelda** - Miscellaneous data for the original Game Boy Zelda (Only graphics data)
@@ -391,9 +499,9 @@ This folder just contains the following sub-directories:
  Which in turn just contains graphics data created using the IS-Character development kit which was the official development kit used for graphics development on the original Game Boy.
 
  All the `.chr` files can be opened in a tool like `Tile Molester` with the Codec set to `2bpp planar` (2-bit per pixel is Game Boy Tile format.)
- 
+
   </div>
-</section>  
+</section>
 
 
 The files in the **Character** folder are described in the table below:
@@ -413,7 +521,7 @@ RZ | .ICE | File is related to the In-Circuit-Emulator used for debugging Game B
 
 The **GAL.BAT** script which is used for assembling the source code contains the comment "全アセンブル　ハイパ－森田スペシャ－－－－ル　スタ－ト" which roughly translates to "All Assemble! Hyper Morita Special Start!".
 
-This likely means that the script is initiating a build process that is optimized for speed or efficiency, and that it was written by **Kazuaki Morita**. 
+This likely means that the script is initiating a build process that is optimized for speed or efficiency, and that it was written by **Kazuaki Morita**.
 
 ---
 # CGB.7z Root directory (/CGB.7z)
@@ -423,7 +531,7 @@ This likely means that the script is initiating a build process that is optimize
 When extracted the **CGB.7z** Archive contains two different games, **Zelda DX** and **Hamtaro 2**. Hamtaro 2 isn't related to Zelda and only contains a few pre-build ROM files for various regions (PAL, NTSC, JP).
 
   </div>
-</section>  
+</section>
 
 This folder contains the following sub-directories:
 * **AZL__ゼルダの伝説 夢を見る島DX** - Source code for the Color Game Boy version of The Legend of Zelda: Link's Awakening DX
@@ -439,7 +547,7 @@ The text "/AZL__ゼルダの伝説 夢を見る島DX" is a Japanese text string 
 Here's a breakdown of the text:
 
   </div>
-</section>  
+</section>
 
 * "/AZL__" is likely an identifier, maybe Advanced Zelda?
 * "ゼルダの伝説" (Zeruda no Densetsu) means "Legend of Zelda."
@@ -548,7 +656,7 @@ isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16
 zbd | .o, .s | Assembly source and compiled output for Background Character Bank Data
 zbn | .s | Assembly source file containing Background Character Number Data
 zbs | .o, .s | Assembly source and compiled output for Resident Subroutine 2
-zchr | .o, .s | Assembly source and compiled output for 
+zchr | .o, .s | Assembly source and compiled output for
 zco | .o, .s | Assembly source and compiled output for Resident Subroutine 1
 zdb | .o, .s | Assembly source and compiled output for Dungeon Background Data
 ze2 | .o, .s | Assembly source and compiled output for Enemy Data2
@@ -602,10 +710,10 @@ ISLK32 | .EXE | INTELLIGENT SYSTEMS Linker Version 1.24.1
 <section class="postSection">
   <div class="css-folder css-folder-left wow slideInLeft postImage">/cgx</div>
   <div markdown="1" class="rr-post-markdown">
- This folder contains the graphics/tiles created for the Game Boy Color version of Zelda DX. 
-    
+ This folder contains the graphics/tiles created for the Game Boy Color version of Zelda DX.
+
 The Sprite/Tile data created using the IS-Character development kit and are in the .CHR file format used for both NES and Game Boy tiles. In this file format, each tile is represented by an 8x8 pixel matrix, which is stored as a series of 64 bytes. These matrices are then combined to form sprites, backgrounds, and other graphical elements in the game.
-    
+
     Note that these files differ slightly across regions (specifically the title sequence) but most of the tiles are the same across versions. Also these are the same as the DMG tilesets in the DMG.7z leak.
 
   </div>
@@ -687,55 +795,55 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-GEZELDAE | .TXT | 
-ZATRSUB_D | .o | 
-ZCOL | .o | 
-ZCOLSUB_D | .o | 
-ZDB2 | .o | 
-ZE9 | .o | 
-ZEND2 | .o | 
-ZFADE | .o, .s | Assembly source and compiled output for 
-ZGEKI | .o | 
-ZGKANM | .o | 
-ZGKDAT | .o | 
-ZGKSCR | .o | 
-ZJP | .o | 
-ZMAP | .o | 
-ZMSSUB_D | .o | 
-ZPLSUB | .o | 
-ZPR | .o | 
-ZPRSUB_D | .o | 
-ZS1SUB_D | .o | 
-ZVD_D | .o | 
-azld00-0 | .gb | 
-bug-e103 | .avi | Video showing a bug where ? 
-bug-e106 | .avi | Video showing a bug where ? 
-bug-e94 | .avi | Video showing a bug where ? 
+GEZELDAE | .TXT |
+ZATRSUB_D | .o |
+ZCOL | .o |
+ZCOLSUB_D | .o |
+ZDB2 | .o |
+ZE9 | .o |
+ZEND2 | .o |
+ZFADE | .o, .s | Assembly source and compiled output for
+ZGEKI | .o |
+ZGKANM | .o |
+ZGKDAT | .o |
+ZGKSCR | .o |
+ZJP | .o |
+ZMAP | .o |
+ZMSSUB_D | .o |
+ZPLSUB | .o |
+ZPR | .o |
+ZPRSUB_D | .o |
+ZS1SUB_D | .o |
+ZVD_D | .o |
+azld00-0 | .gb |
+bug-e103 | .avi | Video showing a bug where ?
+bug-e106 | .avi | Video showing a bug where ?
+bug-e94 | .avi | Video showing a bug where ?
 c_d | .isx, .ram | Compiled Game Boy ROM file
 c_d1211 | .GB, .com | Compiled Game Boy ROM file
 cgal | .bat | Windows Batch file for running ?
 clink | .bat | Windows Batch file for running ?
-ddd | N/A | 
-gbmsdt | .o, .s | Assembly source and compiled output for 
+ddd | N/A |
+gbmsdt | .o, .s | Assembly source and compiled output for
 gbmsdt_d | .s | Assembly source file containing ?
-geadd | .doc, .txt | 
-gezelda | .doc, .txt | 
-isdwdcmd | .dat | 
-isdwdrng | .dat | 
-isdwdsym | .dat | 
-messcorr | .txt | 
-shi | .txt | 
-zatr_d | .o, .s | Assembly source and compiled output for 
+geadd | .doc, .txt |
+gezelda | .doc, .txt |
+isdwdcmd | .dat |
+isdwdrng | .dat |
+isdwdsym | .dat |
+messcorr | .txt |
+shi | .txt |
+zatr_d | .o, .s | Assembly source and compiled output for
 zatrsub_d | .s | Assembly source file containing ?
-zbd | .o, .s | Assembly source and compiled output for 
-zbdatr | .o, .s | Assembly source and compiled output for 
+zbd | .o, .s | Assembly source and compiled output for
+zbdatr | .o, .s | Assembly source and compiled output for
 zbn | .s | Assembly source file containing ?
-zbs | .o, .s | Assembly source and compiled output for 
-zchr | .o, .s | Assembly source and compiled output for 
-zco | .o, .s | Assembly source and compiled output for 
+zbs | .o, .s | Assembly source and compiled output for
+zchr | .o, .s | Assembly source and compiled output for
+zco | .o, .s | Assembly source and compiled output for
 zcol | .s | Assembly source file containing ?
 zcolsub_d | .s | Assembly source file containing ?
-zdb | .o, .s | Assembly source and compiled output for 
+zdb | .o, .s | Assembly source and compiled output for
 zdb2 | .s | Assembly source file containing ?
 ze2 | .o, .s | Assembly source and compiled output for Enemy code 2
 ze3 | .o, .s | Assembly source and compiled output for Enemy code 3
@@ -745,38 +853,38 @@ ze6 | .o, .s | Assembly source and compiled output for Enemy code 6
 ze7 | .o, .s | Assembly source and compiled output for Enemy code 7
 ze8 | .o, .s | Assembly source and compiled output for Enemy code 8
 ze9 | .s | Assembly source file containing Enemy code 9
-zed | .o, .s | Assembly source and compiled output for 
+zed | .o, .s | Assembly source and compiled output for
 zen | .o, .s | Assembly source and compiled output for Enemy code 1
 zend2 | .s | Assembly source file containing ?
-zend_d | .o, .s, .s_BAK | 
-zes | .o, .s | Assembly source and compiled output for 
-zex | .o, .s | Assembly source and compiled output for 
-zgb | .o, .s | Assembly source and compiled output for 
+zend_d | .o, .s, .s_BAK |
+zes | .o, .s | Assembly source and compiled output for
+zex | .o, .s | Assembly source and compiled output for
+zgb | .o, .s | Assembly source and compiled output for
 zgd | .s | Assembly source file containing ?
-zgeki | .s, .s~ | 
+zgeki | .s, .s~ |
 zgkanm | .s | Assembly source file containing ?
 zgkdat | .s | Assembly source file containing ?
 zgkscr | .s | Assembly source file containing ?
 zjp | .s | Assembly source file containing ?
-zma | .o, .s | Assembly source and compiled output for 
+zma | .o, .s | Assembly source and compiled output for
 zmap | .s | Assembly source file containing ?
-zms_d | .o, .s | Assembly source and compiled output for 
+zms_d | .o, .s | Assembly source and compiled output for
 zmssub_d | .s | Assembly source file containing ?
-zpl | .o, .s | Assembly source and compiled output for 
+zpl | .o, .s | Assembly source and compiled output for
 zplsub | .s | Assembly source file containing ?
 zpr | .s | Assembly source file containing ?
 zprsub_d | .s | Assembly source file containing ?
-zram | .o, .prn, .s | 
-zrom | .o, .s, .s~ | 
+zram | .o, .prn, .s |
+zrom | .o, .s, .s~ |
 zrom1 | .s | Assembly source file containing ?
-zs1 | .o, .s | Assembly source and compiled output for 
+zs1 | .o, .s | Assembly source and compiled output for
 zs1sub_d | .s | Assembly source file containing ?
-zsd | .o, .s | Assembly source and compiled output for 
-zsgb | .o, .s | Assembly source and compiled output for 
-zti | .prn | 
-zti_d | .o, .s, .s~ | 
+zsd | .o, .s | Assembly source and compiled output for
+zsgb | .o, .s | Assembly source and compiled output for
+zti | .prn |
+zti_d | .o, .s, .s~ |
 zvd_d | .s | Assembly source file containing ?
-zwin | .o, .s, .s_BAK | 
+zwin | .o, .s, .s_BAK |
 
 ---
 ##### Assembler and Linker (CGB_zeldaDOITU/cgb_d/BACK)
@@ -815,7 +923,7 @@ File Name | Extension | Description
 AZLD10-0 | .GB, .com | Compiled Game Boy ROM
 azld00-0 | .gb | Compiled Game Boy ROM
 cgbzel_ger0820 | .com | MS-DOS Command File Executable for ?
-isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25 
+isdwdcmd | .dat | Command Data Binary file used by ISDW VUE_DEBUGGER created on 1995-11-25
 isdwdrng | .dat | Range Data Binary file used by ISDW created on 1995-10-19 by N.Nakano
 isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by N.Nakano
 
@@ -826,7 +934,7 @@ isdwdsym | .dat | Debug Symbol Binary file used by ISDW created on 1995-08-16 by
   <div markdown="1" class="rr-post-markdown">
  This folder contains Game Boy Color Graphic files (.cgx) for a cutscene.
 
- "Gekigake" (激駆け) is a Japanese word that combines the characters "geki" (激), meaning "intense," "violent," or "passionate," and "kake" (駆け), meaning "dash," "rush," or "gallop." Together, the word can be translated as "intense rush" or "violent gallop." 
+ "Gekigake" (激駆け) is a Japanese word that combines the characters "geki" (激), meaning "intense," "violent," or "passionate," and "kake" (駆け), meaning "dash," "rush," or "gallop." Together, the word can be translated as "intense rush" or "violent gallop."
 
   </div>
 </section>
@@ -902,15 +1010,15 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-gb_gm1 | .cgx | 
-gb_gm2 | .cgx | 
-gb_gm3 | .cgx | 
-gb_gm4 | .cgx | 
-gb_gm5 | .cgx | 
-gb_gm6 | .cgx | 
-gb_gm7 | .cgx | 
-gb_gm8 | .cgx | 
-gb_gm9 | .cgx | 
+gb_gm1 | .cgx |
+gb_gm2 | .cgx |
+gb_gm3 | .cgx |
+gb_gm4 | .cgx |
+gb_gm5 | .cgx |
+gb_gm6 | .cgx |
+gb_gm7 | .cgx |
+gb_gm8 | .cgx |
+gb_gm9 | .cgx |
 gmcgb1 | .cgx | Similar to `gb_gm1.cgx` but contains changes
 gmcgb2 | .cgx | Similar to `gb_gm2.cgx` but contains changes
 gmcgb3 | .cgx | Similar to `gb_gm3.cgx` but contains changes
@@ -1013,41 +1121,41 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-AZLE00-0 | .GB | 
-AZLE00-1 | .GB | 
-C | .map | 
-C_USA | .PIF | 
-c_usa | .com, .isx | 
+AZLE00-0 | .GB |
+AZLE00-1 | .GB |
+C | .map |
+C_USA | .PIF |
+c_usa | .com, .isx |
 cgal | .bat | Windows Batch file for running ?
-ddd | N/A | 
-gbmsdt_usa | .s, .s~ | 
-isdwdcmd | .dat | 
-isdwdrng | .dat | 
-isdwdsym | .dat | 
-msg | .txt | 
-zatr_usa | .o, .s | Assembly source and compiled output for 
-zatrsub_usa | .o, .s | Assembly source and compiled output for 
-zchr | .o, .s | Assembly source and compiled output for 
-zcol_usa | .o, .s | Assembly source and compiled output for 
+ddd | N/A |
+gbmsdt_usa | .s, .s~ |
+isdwdcmd | .dat |
+isdwdrng | .dat |
+isdwdsym | .dat |
+msg | .txt |
+zatr_usa | .o, .s | Assembly source and compiled output for
+zatrsub_usa | .o, .s | Assembly source and compiled output for
+zchr | .o, .s | Assembly source and compiled output for
+zcol_usa | .o, .s | Assembly source and compiled output for
 zcolsub | .s | Assembly source file containing ?
-zcolsub_usa | .o, .s | Assembly source and compiled output for 
-zend_usa | .o, .s | Assembly source and compiled output for 
-zex | .o, .s | Assembly source and compiled output for 
-zma_usa | .o, .s | Assembly source and compiled output for 
-zms_usa | .o, .s | Assembly source and compiled output for 
-zmssub_usa | .o, .s, .s~ | 
-zpl | .o, .s | Assembly source and compiled output for 
-zpl1 | .o, .s | Assembly source and compiled output for 
-zplsub | .o, .s | Assembly source and compiled output for 
-zprsub_usa | .o, .s | Assembly source and compiled output for 
-zrom | .o, .s, .s~ | 
+zcolsub_usa | .o, .s | Assembly source and compiled output for
+zend_usa | .o, .s | Assembly source and compiled output for
+zex | .o, .s | Assembly source and compiled output for
+zma_usa | .o, .s | Assembly source and compiled output for
+zms_usa | .o, .s | Assembly source and compiled output for
+zmssub_usa | .o, .s, .s~ |
+zpl | .o, .s | Assembly source and compiled output for
+zpl1 | .o, .s | Assembly source and compiled output for
+zplsub | .o, .s | Assembly source and compiled output for
+zprsub_usa | .o, .s | Assembly source and compiled output for
+zrom | .o, .s, .s~ |
 zrom1 | .s | Assembly source file containing ?
-zs1sub_usa | .o, .s | Assembly source and compiled output for 
-zti_usa | .o, .prn, .s, .s~ | 
-zvd | .o | 
-zvd_usa | .o, .s | Assembly source and compiled output for 
-エンディング(NOA) | .txt | 
-新規英文テキスト | .txt | 
+zs1sub_usa | .o, .s | Assembly source and compiled output for
+zti_usa | .o, .prn, .s, .s~ |
+zvd | .o |
+zvd_usa | .o, .s | Assembly source and compiled output for
+エンディング(NOA) | .txt |
+新規英文テキスト | .txt |
 
 
 ---
@@ -1065,62 +1173,62 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-T | .pdt, .pnl | 
-ajitopnl | .pdt, .pnl | 
-bg_4-0pn | .pdt, .pnl | 
-bg_4-4pn | .pdt, .pnl | 
-bg_4-8pn | .pdt, .pnl | 
-bg_6-4pn | .pdt, .pnl | 
-bg_6-9pn | .pdt, .pnl | 
-bg_7-9pn | .pdt, .pnl | 
-bg_8-0pn | .pdt, .pnl | 
-bg_8-1pn | .pdt, .pnl | 
-bg_8-2pn | .pdt, .pnl | 
-bg_8-3pn | .pdt, .pnl | 
-bg_8-6pn | .pdt, .pnl | 
-bg_8-8pn | .pdt, .pnl | 
-bg_8-apn | .pdt, .pnl | 
-bg_9-3pn | .pdt, .pnl | 
-bg_a-0pn | .pdt, .pnl | 
-bg_a-2pn | .pdt, .pnl | 
-bg_a-4pn | .pdt, .pnl | 
-bg_a-8pn | .pdt, .pnl | 
-bg_b-0pn | .pdt, .pnl | 
-bg_b-3pn | .pdt, .pnl | 
-bg_c-0pn | .pdt, .pnl | 
-bg_c-2pn | .pdt, .pnl | 
-bg_c-6pn | .pdt, .pnl | 
-bg_c-cpn | .pdt, .pnl | 
-bg_c-dpn | .pdt, .pnl | 
-bg_d-dpn | .pdt, .pnl | 
-bg_e-0pn | .pdt, .pnl | 
-bg_e-8pn | .pdt, .pnl | 
-camera | .pdt, .pnl | 
-cz_a-2pn | .pnl | 
-fukupnl | .dat, .pdt, .pnl | 
-ido | .pdt, .pnl | 
-idogata | .PNL, .pdt | 
-idogata1 | .PNL, .pdt | 
-ietype | .PNL, .pdt | 
-ietype_1 | .PNL, .pdt | 
-l2pnl | .pdt, .pnl | 
-l4pnl | .pdt, .pnl | 
-l6pnl | .pdt, .pnl | 
-l8pnl | .pdt, .pnl | 
-lv_1pnl | .pdt, .pnl | 
-lv_3pnl | .pdt, .pnl | 
-lv_5pnl | .pdt, .pnl | 
-lv_7pnl | .pdt, .pnl | 
-nzod1357 | .PNL, .pdt | 
-onemupnl | .pdt, .pnl | 
-pnl2c | .PNL, .pdt | 
-pnl4c | .PNL, .pdt | 
-pnl6c | .PNL, .pdt | 
-pnl8c | .PNL, .pdt | 
-shiropnl | .pdt, .pnl | 
-tamapnl | .pdt, .pnl | 
-turi_pnl | .pdt | 
-turitype | .pdt, .pnl | 
+T | .pdt, .pnl |
+ajitopnl | .pdt, .pnl |
+bg_4-0pn | .pdt, .pnl |
+bg_4-4pn | .pdt, .pnl |
+bg_4-8pn | .pdt, .pnl |
+bg_6-4pn | .pdt, .pnl |
+bg_6-9pn | .pdt, .pnl |
+bg_7-9pn | .pdt, .pnl |
+bg_8-0pn | .pdt, .pnl |
+bg_8-1pn | .pdt, .pnl |
+bg_8-2pn | .pdt, .pnl |
+bg_8-3pn | .pdt, .pnl |
+bg_8-6pn | .pdt, .pnl |
+bg_8-8pn | .pdt, .pnl |
+bg_8-apn | .pdt, .pnl |
+bg_9-3pn | .pdt, .pnl |
+bg_a-0pn | .pdt, .pnl |
+bg_a-2pn | .pdt, .pnl |
+bg_a-4pn | .pdt, .pnl |
+bg_a-8pn | .pdt, .pnl |
+bg_b-0pn | .pdt, .pnl |
+bg_b-3pn | .pdt, .pnl |
+bg_c-0pn | .pdt, .pnl |
+bg_c-2pn | .pdt, .pnl |
+bg_c-6pn | .pdt, .pnl |
+bg_c-cpn | .pdt, .pnl |
+bg_c-dpn | .pdt, .pnl |
+bg_d-dpn | .pdt, .pnl |
+bg_e-0pn | .pdt, .pnl |
+bg_e-8pn | .pdt, .pnl |
+camera | .pdt, .pnl |
+cz_a-2pn | .pnl |
+fukupnl | .dat, .pdt, .pnl |
+ido | .pdt, .pnl |
+idogata | .PNL, .pdt |
+idogata1 | .PNL, .pdt |
+ietype | .PNL, .pdt |
+ietype_1 | .PNL, .pdt |
+l2pnl | .pdt, .pnl |
+l4pnl | .pdt, .pnl |
+l6pnl | .pdt, .pnl |
+l8pnl | .pdt, .pnl |
+lv_1pnl | .pdt, .pnl |
+lv_3pnl | .pdt, .pnl |
+lv_5pnl | .pdt, .pnl |
+lv_7pnl | .pdt, .pnl |
+nzod1357 | .PNL, .pdt |
+onemupnl | .pdt, .pnl |
+pnl2c | .PNL, .pdt |
+pnl4c | .PNL, .pdt |
+pnl6c | .PNL, .pdt |
+pnl8c | .PNL, .pdt |
+shiropnl | .pdt, .pnl |
+tamapnl | .pdt, .pnl |
+turi_pnl | .pdt |
+turitype | .pdt, .pnl |
 
 
 ---
@@ -1138,47 +1246,47 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-00pnl | .pdt, .pnl | 
-06pnl | .pdt | 
-08pnl | .pdt, .pnl | 
-0epnl | .pdt, .pnl | 
-11pnl | .pdt, .pnl | 
-1apnl | .pdt, .pnl | 
-cz_2-2pn | .pdt, .pnl | 
-cz_2-8pn | .pdt, .pnl | 
-cz_2-fpn | .pdt | 
-cz_2-fqn | .pnl | 
-cz_3-0pn | .pdt, .pnl | 
-cz_3-7pn | .pdt, .pnl | 
-cz_4-0pn | .pdt, .pnl | 
-cz_4-4pn | .pdt, .pnl | 
-cz_4-6pn | .pdt, .pnl | 
-cz_4-8pn | .pdt, .pnl | 
-cz_4-cpn | .pdt, .pnl | 
-cz_6-8pn | .pdt, .pnl | 
-cz_6-apn | .pdt, .pnl | 
-cz_7-5pn | .pdt, .pnl | 
-cz_8-0pn | .pdt, .pnl | 
-cz_8-2pn | .pdt, .pnl | 
-cz_8-3pn | .pdt, .pnl | 
-cz_8-6pn | .pdt, .pnl | 
-cz_8-7pn | .pdt, .pnl | 
-cz_8-apn | .pdt, .pnl | 
-cz_8-cpn | .pdt, .pnl | 
-cz_8-epn | .pdt, .pnl | 
-cz_a-0pn | .pdt, .pnl | 
-cz_a-2pn | .pdt, .pnl | 
-cz_a-4pn | .pdt, .pnl | 
-cz_a-8pn | .pdt, .pnl | 
-cz_b-1pn | .pdt, .pnl | 
-cz_c-2pn | .pdt, .pnl | 
-cz_c-4pn | .pdt, .pnl | 
-cz_c-cpn | .pdt, .pnl | 
-cz_c-dpn | .pdt, .pnl | 
-cz_c-epn | .pdt, .pnl | 
-cz_d-dpn | .pdt, .pnl | 
-cz_e-0pn | .pdt, .pnl | 
-cz_e-8pn | .pdt, .pnl | 
+00pnl | .pdt, .pnl |
+06pnl | .pdt |
+08pnl | .pdt, .pnl |
+0epnl | .pdt, .pnl |
+11pnl | .pdt, .pnl |
+1apnl | .pdt, .pnl |
+cz_2-2pn | .pdt, .pnl |
+cz_2-8pn | .pdt, .pnl |
+cz_2-fpn | .pdt |
+cz_2-fqn | .pnl |
+cz_3-0pn | .pdt, .pnl |
+cz_3-7pn | .pdt, .pnl |
+cz_4-0pn | .pdt, .pnl |
+cz_4-4pn | .pdt, .pnl |
+cz_4-6pn | .pdt, .pnl |
+cz_4-8pn | .pdt, .pnl |
+cz_4-cpn | .pdt, .pnl |
+cz_6-8pn | .pdt, .pnl |
+cz_6-apn | .pdt, .pnl |
+cz_7-5pn | .pdt, .pnl |
+cz_8-0pn | .pdt, .pnl |
+cz_8-2pn | .pdt, .pnl |
+cz_8-3pn | .pdt, .pnl |
+cz_8-6pn | .pdt, .pnl |
+cz_8-7pn | .pdt, .pnl |
+cz_8-apn | .pdt, .pnl |
+cz_8-cpn | .pdt, .pnl |
+cz_8-epn | .pdt, .pnl |
+cz_a-0pn | .pdt, .pnl |
+cz_a-2pn | .pdt, .pnl |
+cz_a-4pn | .pdt, .pnl |
+cz_a-8pn | .pdt, .pnl |
+cz_b-1pn | .pdt, .pnl |
+cz_c-2pn | .pdt, .pnl |
+cz_c-4pn | .pdt, .pnl |
+cz_c-cpn | .pdt, .pnl |
+cz_c-dpn | .pdt, .pnl |
+cz_c-epn | .pdt, .pnl |
+cz_d-dpn | .pdt, .pnl |
+cz_e-0pn | .pdt, .pnl |
+cz_e-8pn | .pdt, .pnl |
 
 
 ---
@@ -1206,56 +1314,56 @@ C5 | .CHR | Sprite/Tile data created using the IS-Character development kit
 C6 | .CHR | Sprite/Tile data created using the IS-Character development kit
 C7 | .CHR | Sprite/Tile data created using the IS-Character development kit
 C8 | .CHR | Sprite/Tile data created using the IS-Character development kit
-TEST_clz5 | .cgx | 
-camegake1 | .cgx | 
-camegake1c | .cgx | 
-cametori | .cgx | 
-clz1 | .cgx | 
-clz1_DEMO | .cgx | 
-clz2 | .cgx | 
-clz3 | .cgx | 
-clz3k | .cgx | 
-clz4_USA | .cgx | 
-clz4z | .cgx | 
-clz5 | .cgx | 
-clz5k | .cgx | 
-clz5z | .cgx | 
-clz6 | .cgx | 
-clz6k | .cgx | 
-clz7 | .cgx | 
-clz7k | .cgx | 
-clz8 | .cgx | 
-clz9 | .cgx | 
-clza | .cgx | 
-ctool | .cgx | 
-g1 | .cgx | 
-g2 | .cgx | 
-g3 | .cgx | 
-g4 | .cgx | 
-g5 | .cgx | 
-g6 | .cgx | 
-g7 | .cgx | 
-g8 | .cgx | 
-g9 | .cgx | 
-gekisiro | .cgx | 
-gekitori | .cgx | 
-gekitoric | .cgx | 
-gekituri | .cgx | 
-gekituric | .cgx | 
-gekizola | .cgx | 
-name.cgx | .bin | 
-phowan | .cgx | 
-ugb_1 | .cgx | 
-ugb_4 | .cgx | 
-ugb_5 | .cgx | 
-ugb_7 | .cgx | 
-ugb_9 | .cgx | 
-uscg1 | .cgx | 
-uscg4 | .cgx | 
-uscg5 | .cgx | 
-uscg7 | .cgx | 
-uscg9 | .cgx | 
-uscga | .cgx | 
+TEST_clz5 | .cgx |
+camegake1 | .cgx |
+camegake1c | .cgx |
+cametori | .cgx |
+clz1 | .cgx |
+clz1_DEMO | .cgx |
+clz2 | .cgx |
+clz3 | .cgx |
+clz3k | .cgx |
+clz4_USA | .cgx |
+clz4z | .cgx |
+clz5 | .cgx |
+clz5k | .cgx |
+clz5z | .cgx |
+clz6 | .cgx |
+clz6k | .cgx |
+clz7 | .cgx |
+clz7k | .cgx |
+clz8 | .cgx |
+clz9 | .cgx |
+clza | .cgx |
+ctool | .cgx |
+g1 | .cgx |
+g2 | .cgx |
+g3 | .cgx |
+g4 | .cgx |
+g5 | .cgx |
+g6 | .cgx |
+g7 | .cgx |
+g8 | .cgx |
+g9 | .cgx |
+gekisiro | .cgx |
+gekitori | .cgx |
+gekitoric | .cgx |
+gekituri | .cgx |
+gekituric | .cgx |
+gekizola | .cgx |
+name.cgx | .bin |
+phowan | .cgx |
+ugb_1 | .cgx |
+ugb_4 | .cgx |
+ugb_5 | .cgx |
+ugb_7 | .cgx |
+ugb_9 | .cgx |
+uscg1 | .cgx |
+uscg4 | .cgx |
+uscg5 | .cgx |
+uscg7 | .cgx |
+uscg9 | .cgx |
+uscga | .cgx |
 
 
 ---
@@ -1273,96 +1381,96 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-2_room | .CDT | 
-5-room | .CDT | 
-7-room-0 | .CDT | 
-T | .isx | 
-ajitocol | .CDT | 
-arasi | .CDT | 
-bg_0 | .CDT | 
-bg_1 | .CDT | 
-bg_3 | .CDT | 
-bg_3a | .CDT | 
-bg_4 | .CDT | 
-bg_7 | .CDT | 
-bg_d | .CDT | 
-camera | .CDT | 
-fhoto | .CDT | 
-fukucol | .CDT, .col | 
-hekiga0c | .CDT | 
-heya-1 | .CDT | 
-heyall_a | .CDT | 
-heyall_b | .CDT | 
-heyall_c | .CDT | 
-ido | .CDT | 
-ido1 | .CDT | 
-idotype_0 | .CDT | 
-idotype_1 | .CDT | 
-idotype_2 | .CDT | 
-idotype_3 | .CDT | 
-idotype_4 | .CDT | 
-ietype_0 | .CDT | 
-ietype_1 | .CDT | 
-ietype_2 | .CDT | 
-ietype_3 | .CDT | 
-ietype_4 | .CDT | 
-ietype_5 | .CDT | 
-ietype_6 | .CDT | 
-ietype_7 | .CDT | 
-ietype_8 | .CDT | 
-ietype_9 | .CDT | 
-ietype_A | .CDT | 
-jyotyu | .CDT | 
-kaiga_0c | .CDT | 
-kyan2 | .CDT | 
-l2col | .CDT | 
-l4col | .CDT | 
-l6col | .CDT | 
-l8col | .CDT | 
-library2 | .CDT | 
-love | .CDT | 
-lv_1col | .CDT | 
-lv_3col | .CDT | 
-lv_5col | .CDT | 
-lv_7col | .CDT, .cdt~ | 
-map1 | .CDT | 
-marin2 | .CDT | 
-mori_1 | .CDT | 
-mori_2 | .CDT | 
-na-sa0c | .CDT | 
-nyan2 | .CDT | 
-objcol_c | .CDT | 
-objcol_oba | .CDT | 
-oc_hana | .CDT | 
-oc_pine | .CDT | 
-onemucol | .CDT | 
-open00c | .CDT | 
-open0c | .CDT | 
-open0kai | .CDT | 
-open1c | .CDT | 
-piti_0c | .CDT | 
-room1b | .CDT | 
-sel_obj | .CDT | 
-select_l | .CDT | 
-shiba2 | .CDT | 
-shirocol | .CDT | 
-shop2 | .CDT | 
-tamacol | .CDT | 
-tamesi50 | .CDT | 
-tele2 | .CDT | 
-toguru | .CDT | 
-tou_demo | .CDT | 
-turi_ol | .CDT | 
-turi_ol2 | .CDT | 
-unasare | .CDT | 
-ururira2 | .CDT | 
-zelda_dun2 | .CDT | 
-zelda_dun2c | .CDT | 
-zelda_dun4c | .CDT | 
-zelda_dun6c | .CDT | 
-zelda_dun8 | .CDT | 
-zelda_dun8c | .CDT | 
-zelda_obj_swim | .col | 
+2_room | .CDT |
+5-room | .CDT |
+7-room-0 | .CDT |
+T | .isx |
+ajitocol | .CDT |
+arasi | .CDT |
+bg_0 | .CDT |
+bg_1 | .CDT |
+bg_3 | .CDT |
+bg_3a | .CDT |
+bg_4 | .CDT |
+bg_7 | .CDT |
+bg_d | .CDT |
+camera | .CDT |
+fhoto | .CDT |
+fukucol | .CDT, .col |
+hekiga0c | .CDT |
+heya-1 | .CDT |
+heyall_a | .CDT |
+heyall_b | .CDT |
+heyall_c | .CDT |
+ido | .CDT |
+ido1 | .CDT |
+idotype_0 | .CDT |
+idotype_1 | .CDT |
+idotype_2 | .CDT |
+idotype_3 | .CDT |
+idotype_4 | .CDT |
+ietype_0 | .CDT |
+ietype_1 | .CDT |
+ietype_2 | .CDT |
+ietype_3 | .CDT |
+ietype_4 | .CDT |
+ietype_5 | .CDT |
+ietype_6 | .CDT |
+ietype_7 | .CDT |
+ietype_8 | .CDT |
+ietype_9 | .CDT |
+ietype_A | .CDT |
+jyotyu | .CDT |
+kaiga_0c | .CDT |
+kyan2 | .CDT |
+l2col | .CDT |
+l4col | .CDT |
+l6col | .CDT |
+l8col | .CDT |
+library2 | .CDT |
+love | .CDT |
+lv_1col | .CDT |
+lv_3col | .CDT |
+lv_5col | .CDT |
+lv_7col | .CDT, .cdt~ |
+map1 | .CDT |
+marin2 | .CDT |
+mori_1 | .CDT |
+mori_2 | .CDT |
+na-sa0c | .CDT |
+nyan2 | .CDT |
+objcol_c | .CDT |
+objcol_oba | .CDT |
+oc_hana | .CDT |
+oc_pine | .CDT |
+onemucol | .CDT |
+open00c | .CDT |
+open0c | .CDT |
+open0kai | .CDT |
+open1c | .CDT |
+piti_0c | .CDT |
+room1b | .CDT |
+sel_obj | .CDT |
+select_l | .CDT |
+shiba2 | .CDT |
+shirocol | .CDT |
+shop2 | .CDT |
+tamacol | .CDT |
+tamesi50 | .CDT |
+tele2 | .CDT |
+toguru | .CDT |
+tou_demo | .CDT |
+turi_ol | .CDT |
+turi_ol2 | .CDT |
+unasare | .CDT |
+ururira2 | .CDT |
+zelda_dun2 | .CDT |
+zelda_dun2c | .CDT |
+zelda_dun4c | .CDT |
+zelda_dun6c | .CDT |
+zelda_dun8 | .CDT |
+zelda_dun8c | .CDT |
+zelda_obj_swim | .col |
 
 
 ---
@@ -1379,30 +1487,30 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-00col | .CDT | 
-06col | .CDT | 
-07col | .CDT | 
-08col | .CDT | 
-0ecol | .CDT | 
-10col | .CDT | 
-2bcol | .CDT | 
-cz0 | .CDT | 
-cz1 | .CDT | 
-cz11 | .CDT | 
-cz2 | .CDT | 
-cz2a | .CDT | 
-cz3 | .CDT | 
-cz3a | .CDT | 
-cz4 | .CDT | 
-cz5 | .CDT | 
-cz6 | .CDT | 
-cz6a | .CDT | 
-cz7 | .CDT | 
-cz9 | .CDT | 
-czb | .CDT | 
-czc | .CDT | 
-czca | .CDT | 
-czd | .CDT | 
+00col | .CDT |
+06col | .CDT |
+07col | .CDT |
+08col | .CDT |
+0ecol | .CDT |
+10col | .CDT |
+2bcol | .CDT |
+cz0 | .CDT |
+cz1 | .CDT |
+cz11 | .CDT |
+cz2 | .CDT |
+cz2a | .CDT |
+cz3 | .CDT |
+cz3a | .CDT |
+cz4 | .CDT |
+cz5 | .CDT |
+cz6 | .CDT |
+cz6a | .CDT |
+cz7 | .CDT |
+cz9 | .CDT |
+czb | .CDT |
+czc | .CDT |
+czca | .CDT |
+czd | .CDT |
 
 
 ---
@@ -1423,9 +1531,9 @@ AZLE20-0 | .GB, .com | Compiled GBC ROM
 AZLE20-C | .com | Compiled GBC ROM
 Azlp20-0 | .GB | Compiled GBC ROM
 cgbzel_usa0820 | .com | Compiled GBC ROM
-isdwdcmd | .dat | 
-isdwdrng | .dat | 
-isdwdsym | .dat | 
+isdwdcmd | .dat |
+isdwdrng | .dat |
+isdwdsym | .dat |
 
 
 ---
@@ -1445,11 +1553,11 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-kaiso_1 | .CDT, .CSD | 
-kaiso_2 | .CSD | 
-kaiso_3 | .CSD | 
-kaiso_4 | .CSD | 
-kaiso_5 | .CSD | 
+kaiso_1 | .CDT, .CSD |
+kaiso_2 | .CSD |
+kaiso_3 | .CSD |
+kaiso_4 | .CSD |
+kaiso_5 | .CSD |
 
 
 ---
@@ -1466,16 +1574,16 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-gekigake1 | .cgx | 
-gekigake1c | .cgx | 
-gekihaka | .cgx | 
-gekisiro | .cgx | 
-gekisiroc | .cgx | 
-gekitori | .cgx | 
-gekitoric | .cgx | 
-gekiwanc | .cgx | 
-shasinya | .cgx | 
-tenso | .cgx | 
+gekigake1 | .cgx |
+gekigake1c | .cgx |
+gekihaka | .cgx |
+gekisiro | .cgx |
+gekisiroc | .cgx |
+gekitori | .cgx |
+gekitoric | .cgx |
+gekiwanc | .cgx |
+shasinya | .cgx |
+tenso | .cgx |
 
 
 ---
@@ -1493,8 +1601,8 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-zel_map1 | .MDT | 
-zel_map2 | .MDT | 
+zel_map1 | .MDT |
+zel_map2 | .MDT |
 
 
 ---
@@ -1531,36 +1639,36 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-camegake1 | .CSD, .cgx | 
-camegake2 | .CSD, .cgx | 
-camehaka | .CSD, .cgx | 
-camesiro | .CSD, .cgx | 
-cametori | .CSD, .cgx | 
-cameturi | .CSD, .cgx | 
-camezola | .CSD, .cgx | 
-camezolat | .cgx | 
-camezolata | .CSD | 
-fhoto | .CCD, .CSD | 
-hekiga | .CCD, .CSD, .cgx, .col, .scr | 
-himitsu | .cgx | 
-himitsu1 | .CSD | 
-himitsu10 | .CSD | 
-himitsu11 | .CSD | 
-himitsu2 | .CSD | 
-himitsu4 | .CSD | 
-himitsu7 | .CSD | 
-himitsu8 | .CSD | 
-himitsu9 | .CSD | 
-kaiga | .CCD, .CSD, .cgx, .col, .scr | 
-peach | .CCD, .CSD, .cgx, .col, .scr | 
-ph_4 | .CSD, .cgx | 
-ph_a1p | .CSD, .cgx | 
-ph_uru_p | .CSD, .cgx | 
-phodoro | .CSD, .cgx | 
-phoshasinya | .CSD, .cgx | 
-phoshasinya_P | .CSD | 
-phoshasinya_p | .cgx | 
-photori | .CSD, .cgx | 
+camegake1 | .CSD, .cgx |
+camegake2 | .CSD, .cgx |
+camehaka | .CSD, .cgx |
+camesiro | .CSD, .cgx |
+cametori | .CSD, .cgx |
+cameturi | .CSD, .cgx |
+camezola | .CSD, .cgx |
+camezolat | .cgx |
+camezolata | .CSD |
+fhoto | .CCD, .CSD |
+hekiga | .CCD, .CSD, .cgx, .col, .scr |
+himitsu | .cgx |
+himitsu1 | .CSD |
+himitsu10 | .CSD |
+himitsu11 | .CSD |
+himitsu2 | .CSD |
+himitsu4 | .CSD |
+himitsu7 | .CSD |
+himitsu8 | .CSD |
+himitsu9 | .CSD |
+kaiga | .CCD, .CSD, .cgx, .col, .scr |
+peach | .CCD, .CSD, .cgx, .col, .scr |
+ph_4 | .CSD, .cgx |
+ph_a1p | .CSD, .cgx |
+ph_uru_p | .CSD, .cgx |
+phodoro | .CSD, .cgx |
+phoshasinya | .CSD, .cgx |
+phoshasinya_P | .CSD |
+phoshasinya_p | .cgx |
+photori | .CSD, .cgx |
 
 
 ---
@@ -1577,8 +1685,8 @@ The files in this folder are described in the table below:
 
 File Name | Extension | Description
 ---|---|---
-name_1 | .scr | 
-name_2 | .scr | 
+name_1 | .scr |
+name_2 | .scr |
 
 ---
 
