@@ -298,24 +298,115 @@ The `DEMO_zelda` folder is not just a clean source snapshot. It looks like a liv
 
 File Name | Extension | Description
 ---|---|---
-AZLJ01-0 | .GB | Built Game Boy ROM image
-AZLJ01-1 | .GB | Built Game Boy ROM image
-cgbzelda | .gb | Another built ROM output
+AZLJ01-0, AZLJ01-1 | .GB | Built 1 MB ROM images dated 10 November 1998
+cgbzelda | .gb / .com | Another full ROM output, built 9-10 November 1998
+dmzel5 | .com | Older July 1998 ROM/build output, showing this workspace was reused over time
 C, T, C_oam, kasa, N, ZASSI | .isx | IS debugger / in-circuit emulation images
-GAL1, GAL3, cgal, cgal2, clink | .BAT | Build/link helper scripts
+GAL1, GAL2, GAL3, cgal, cgal2, clink, clink2 | .BAT | Build and link helper scripts for multiple variants
 RZ1, rz2, rchr | .ICE | Compressed emulator/debugger or asset data
-ISD, ISLINK, ISXTOBIN | .EXE | Intelligent Systems build/debugger tools
-CGX, COLOR2, OBJ, TEXT, ATR, PANEL | folders | Graphics, attribute, object, and text work directories
-追加エンディング | .txt | Note for additional ending content
+ISD, ISLINK, ISXTOBIN, ISDMG, SUMCHECK | .EXE | Intelligent Systems build and support utilities
+CGX, COLOR, COLOR2, ATR, ATR2, OBJ, TEXT, PHOTO, Geki, ENDING, COM | folders | Main graphics, color, event, object, and packaging work directories
+debug, save, aada | .txt / .doc | Internal notes for debugging, SRAM layout, and code cross-references
 
-Looking more closely, `DEMO_zelda` also contains:
+### Built Outputs and Build Scripts
 
-* a dense `CGX` folder with color graphics files like `title.cgx`, `zora.cgx`, `gekituri.cgx`, and multiple `clz*.cgx` variants
-* source and object files for feature-specific modules such as `zgeki`, `zsgb`, `zbdatr`, and `zcolsub`
-* debugging and documentation fragments including `debug.txt`, `save.doc`, `aada.doc`, `TEST1.SCR`, and `taitol.dsc`
-* multiple built outputs such as `AZLJ01-0.GB`, `AZLJ01-1.GB`, `cgbzelda.com`, and `dmzel5.com`
+The top level is full of finished or near-finished outputs, not just source. `AZLJ01-0.GB`, `AZLJ01-1.GB`, and `cgbzelda.gb` are all full 1 MB ROM images, while `cgbzelda.com` and `dmzel5.com` preserve different points in the build history. The date spread is useful here: `dmzel5.com` is from 14 July 1998, but the main `AZLJ01-*` builds are from 10 November 1998, which makes `DEMO_zelda` look like a workspace that stayed active over several months rather than a one-off demo drop.
 
-That makes `DEMO_zelda` feel less like a curated archive and more like someone copied an active work directory straight off a development machine.
+The build scripts back that up. `cgal.bat` assembles a much broader module set than the plain regional branches, including `ZDB2`, `ZCOL`, `ZCOLSUB`, `ZPLSUB`, `ZWIN`, `ZJP`, `ZFADE`, `ZBDATR`, `ZATR`, `ZMAP`, `ZPR`, `ZGEKI`, `ZGKDAT`, `ZGKANM`, `ZGKSCR`, `ZEND2`, and `zsgb`. That looks less like a simple region overlay and more like a feature-heavy demo or presentation branch with extra cutscene, fade, panel, map, and Super Game Boy support code wired in.
+
+### Internal Notes and Debug Aids
+
+Some of the most revealing material in the folder is not code at all:
+
+* `debug.txt` explains hidden debug behavior for the DX build, including a START+SELECT style BG-collision bypass, a way to reset photo-related demo state, and a shortcut that jumps straight to the ending
+* `save.doc` is effectively a hand-written SRAM map, listing addresses for dungeon visitation flags, inventory, keys, songs, rupees, heart pieces, boomerang trade state, Marin flags, and other save variables
+* `aada.doc` is a developer cross-reference note that points to exact source files and labels for systems like Marin behavior, hidden or "cheat" mode, BG pass-through, dungeon entrance data, rotating doors, item display logic, and new-dungeon setup
+* `TEST1.SCR` and `TEST2.SCR` suggest dedicated screen-layout experiments were being kept right in the same working folder
+
+That combination makes `DEMO_zelda` especially valuable for low-level research, because it does not just preserve source - it also preserves the team’s own notes for how to navigate and manipulate the build.
+
+### Graphics and Content Work Areas
+
+The asset side is just as busy. `CGX` alone contains a dense mix of title, level, event, and character graphics such as `title.cgx`, `zora.cgx`, `gekituri.cgx`, `gekituric.cgx`, `clz1_DEMO.cgx`, `clz4_USA.cgx`, and `TEST_clz5.cgx`. `COLOR` and `COLOR2` hold large banks of `.CDT` color-definition files with names tied to maps, cutscenes, dungeons, the camera/photo system, and specific background groups.
+
+The supporting folders make the same point from different angles:
+
+* `Geki` and `ENDING` preserve event and ending assets
+* `PHOTO` lines up with the photo-related debug note in `debug.txt`
+* `New_sound` contains both binary audio exports and the editable `.HEX` source formats
+* `MAP` still holds raw map data files
+* `BACKUP` stores backup copies of core sources like `zma.s`, `zpl.s`, `zex.s`, `zrom.s`, `zti.s`, and `zend.s`
+
+This is exactly the kind of workspace clutter that tends to disappear from cleaner source archives.
+
+
+---
+## The Kimura Work Area
+{% capture kimura_body %}
+Inside `DEMO_zelda`, the `kimura` folder looks like a dedicated content-editing workspace rather than a normal source directory. It is dominated by map, screen, graphics, panel, and color files, with an unusually large number of `.BAK` revisions preserved side by side with the active versions.
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="kimura" path="/Source/Disk1/.../DEMO_zelda/kimura" body=kimura_body %}
+
+At a glance, `kimura` is one of the clearest examples of real day-to-day content production on Disk 1:
+
+Type | Approximate count | What that suggests
+---|---|---
+`.BAK` | 716 | Heavy iterative editing, with old revisions kept rather than cleaned away
+`.CGX` | 500 | Room and object graphics were being revised constantly
+`.SCR` | 365 | Screen-layout data was being edited at scale
+`.MAP` | 219 | Room map files were being worked on in bulk
+`.COL` | 105 | Color and palette data was maintained as its own layer
+`.PNL` | 47 | Panel or attribute-layout resources were part of the same workflow
+
+### What the Folder Looks Like
+
+The top level already feels like a designer or artist sandbox. Files such as `gekigake1.scr`, `gekiwanc.scr`, `cameururira.cgx`, `phoshasinya_p.cgx`, `BGUNCH.pnl`, `DJUNCH.pnl`, `tamesi50.col`, and `zelobjcol.col.BAK` mix event graphics, photo-related assets, test colors, and panel data in one place. Even before looking into the level folders, it is obvious that this was not arranged as a neat export directory.
+
+Below that, `kimura` branches into per-dungeon work areas like `Level-1`, `Level-2`, `Level-4`, `Level-5`, and `Level-6`. Each one follows a very hands-on pattern:
+
+* room graphics as `.CGX`
+* room map data as `.MAP`
+* room screen/layout data as `.SCR`
+* matching `.BAK` revisions for all three
+* level color files such as `zelda_dun2.COL`, `zelda_dun2c.COL`, `zelda_dun4.COL`, and `zelda_dun4c.COL`
+* panel files like `pnl2c.PNL`, `pnl4.PNL`, `pnl4c.PNL`, and `pnl4t.PNL`
+
+That makes the folder read less like "graphics resources" and more like a per-room edit history.
+
+### Level-2 as a Worked Example
+
+`Level-2` is especially revealing because it preserves active room-by-room work. The folder contains files like `ROOM20.CGX`, `ROOM20.MAP`, `ROOM20.SCR`, then repeats the same pattern through `ROOM3F`, usually with `.BAK` copies sitting right next to the active file. It also includes alternate screen variants like `ROOM20c.SCR`, `ROOM21c.SCR`, `ROOM22c.SCR`, and `ROOM23c.SCR`.
+
+The timestamps make the process visible:
+
+* many `Level-2` `.CGX` and `.MAP` files were last updated in early July 1998
+* a large batch of `Level-2` `.SCR` files was updated again on 28 July 1998
+* some rooms such as `ROOM28` were still being revised in August 1998
+
+That pattern suggests the team was touching graphics, maps, and screen scripts in separate passes rather than exporting everything in one go.
+
+### Why the Backups Matter
+
+The huge number of `.BAK` files is probably the most interesting part of `kimura`. These are not just a few safety copies. They exist for room graphics, room maps, room screens, panel files, color files, and top-level event assets across multiple levels.
+
+For low-level development history, that matters because it preserves something source trees often lose:
+
+* the fact that room assets were revised file-by-file
+* the order in which different data layers changed
+* evidence that the workspace was being edited manually rather than regenerated from a single higher-level tool
+
+In other words, `kimura` looks less like an archive of final assets and more like a live room-construction bench, with the old versions left on the table.
+
+---
+## The Super Game Boy Sample Workspace
+The `sgb` folder is not Zelda-specific content.
+
+Its `README.DOC` describes it as a standard Super Game Boy BIOS sample package, and the source reads like a generic `SGBTEST` project rather than game code.
+
+It is better treated as a shared internal SDK or reference package that happened to be copied into the Zelda demo workspace.
+
+{% include link-to-other-post.html post="/super-game-boy-sdk/" description="For the full breakdown of the SGB sample package, its libraries, build flow, check out this post." %}
 
 ---
 ## Disk 1 Save Data Folders
@@ -325,18 +416,60 @@ Disk 1 also preserves two separate save-data areas, and both are useful for unde
 
 {% include connected-folder-tree.html folder="Save RAM" path="/SRAMデータ and /azljsram" body=save_ram_body %}
 
+### Quick SRAM Snapshots
+
 `SRAMデータ` literally means "SRAM data" and contains four standalone save dumps:
 
 File Name | Extension | Description
 ---|---|---
-bug | .bin | Save data likely used to reproduce a bug
-esubahara | .bin | Named SRAM sample
-kasa | .bin | Named SRAM sample, probably related to an internal test case
-not | .bin | Named SRAM sample
+bug | .bin | Standalone 8 KB save dump, very likely kept as a bug-reproduction snapshot
+esubahara | .bin | Standalone 8 KB save dump with a personal or place-name label
+kasa | .bin | Standalone 8 KB save dump with a short internal nickname
+not | .bin | Another named 8 KB save dump, likely another ad hoc test case
 
-`azljsram` is a much larger Japanese save archive. Its extracted `azlj-sram` tree is split into `No1` through `No4`, and each slot contains four numbered `.bin` files plus debugger metadata such as `isdwdcmd.dat`, `isdwdrng.dat`, and `isdwdsym.dat`.
+All four files are exactly 8192 bytes, which matches a single 64 kbit SRAM bank rather than a full 32 KB banked SRAM dump. Their timestamps cluster in August and September 1999, later than the main `azljsram` archive below, which makes them feel like quick late-stage snapshots kept around for testing specific states.
 
-That makes it look like Disk 1 was carrying both quick ad hoc SRAM snapshots and a more formal multi-slot save-data archive for the Japanese build.
+---
+### The azljsram Archive
+
+The `azljsram` folder is much more formal. Its `readme.txt` says the archive contains SRAM data for the "Zelda no Densetsu: Yume o Miru Shima DX" cartridge, and explains that each `No1` to `No4` folder stores a 256 kbit SRAM image split into 64 kbit chunks named `azlj??-?.bin`, where the first number is the cartridge number and the second is the SRAM bank number.
+
+That structure is worth spelling out more clearly:
+
+Folder | Contents | What stands out
+---|---|---
+`No1` | `azlj01-0.bin` to `azlj01-3.bin` plus `isdwdcmd.dat`, `isdwdrng.dat`, `isdwdsym.dat` | Full banked SRAM dump with matching debugger metadata
+`No2` | `azlj02-0.bin` to `azlj02-3.bin` | Only the raw SRAM chunks survive here, with no debugger sidecar files
+`No3` | `azlj03-0.bin` to `azlj03-3.bin` plus debugger metadata | Similar layout to `No1`, but with a much smaller symbol/range set
+`No4` | `azlj04-0.bin` to `azlj04-3.bin` plus debugger metadata | The messiest of the four, with meaningful non-`FF` data even in bank 3
+
+---
+### What the Bank Layout Shows
+
+Looking more closely at the data, the split archive behaves less like four save slots and more like four separate cartridge captures:
+
+* `azlj01-0.bin` through `azlj04-0.bin` are the only consistently "live" banks, each containing a mix of real data, `00`, and large `FF` regions
+* almost every `-1.bin`, `-2.bin`, and `-3.bin` file is either completely `FF` filled or very close to it, suggesting those upper SRAM banks were unused on most carts
+* one repeated all-`FF` bank image is reused across nearly every upper-bank file in `No1`, `No2`, `No3`, and part of `No4`
+* `No4` is the odd exception, because `azlj04-3.bin` is not empty and contains a distinct high-`FF` but still populated pattern
+
+---
+### Dates and Tooling
+
+The timestamps also split into two useful phases:
+
+* the raw `azlj??-?.bin` cartridge chunks were written on 15 June 1999
+* the debugger sidecar files in `No1`, `No3`, and `No4` were added later on 15 June, 2 August, and 15 June 1999 respectively
+
+That suggests `azljsram` was not just a folder of save files copied out of the game. It looks more like a small internal SRAM-dump archive tied to Intelligent Systems debugging tools, with some carts preserved as raw banked memory images and others paired with symbol/range metadata for deeper inspection.
+
+---
+### Why It Matters
+
+Taken together, Disk 1 seems to preserve two different save-data workflows at once:
+
+* `SRAMデータ` for quick one-bank snapshots with informal labels
+* `azljsram` for more deliberate cartridge-level SRAM captures, sometimes bundled with debugger metadata
 
 ---
 # Disk 2 - Localisation Expansion (/Source/Disk2)
