@@ -16,7 +16,6 @@ recommend:
   - middleware
   - gameengines
 editlink: /tools/engines/KromeMerkuryEngine.md
-_image: /public/consoles/Tools.jpg
 ---
 
 The **Merkury** engine is a proprietary game engine developed by **Krome Studios** since at least 2001, known to run on PS2, PSP, Wii and with version 3 of the engine it added support for Xbox 360 and PS3. It is likely also running on the Nintendo Switch thanks to the recent port of **Star Wars: The Force Unleashed** to the console.

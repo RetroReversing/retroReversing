@@ -4,8 +4,6 @@ tags:
 - middleware
 - gameengines
 title: Zeno and Zed - LucasArts & ILM's Unified Production Pipeline
-_thumbnail: /public/consoles/Tools.jpg
-image: /public/consoles/Tools.jpg
 permalink: /lucasarts-zino-and-zed
 breadcrumbs:
   - name: Home

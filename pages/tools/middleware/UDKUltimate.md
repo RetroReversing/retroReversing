@@ -5,7 +5,6 @@ tags:
 - gameengines
 title: UDK Ultimate
 category: gameengines
-image: /public/consoles/Tools.jpg
 permalink: /udk-ultimate
 breadcrumbs:
   - name: Home
@@ -16,6 +15,7 @@ breadcrumbs:
     url: #
 recommend:
 - middleware
+- gameengines
 editlink: /tools/middleware/UDKUltimate.md
 ---
 

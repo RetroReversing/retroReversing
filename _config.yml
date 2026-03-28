@@ -59,7 +59,7 @@ google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google a
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
 
 category_images:
-  3d: /public/images/RetroReversingLogoSmall.png
+  3d: /public/images/3d.png
   amiga: /public/consoles/Amiga.png
   amstrad_cpc: /public/consoles/Amstrad CPC.png
   arcade: /public/consoles/Arcade.png
@@ -94,7 +94,7 @@ category_images:
   magnavox_odyssey_2: /public/consoles/Magnavox Odyssey 2.png
   magnavox_odyssey: /public/consoles/Magnavox Odyssey.png
   gamecom: /public/consoles/Game.com.png
-  gameengines: /public/consoles/PC.jpg
+  gameengines: /public/consoles/PC.png
   games: /public/images/RetroReversingLogoSmall.png
   ghidra: /public/consoles/PC.png
   handhelds: /public/consoles/Handhelds.png

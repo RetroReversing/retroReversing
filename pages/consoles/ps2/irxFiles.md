@@ -25,7 +25,9 @@ updatedAt: '2021-03-25'
 If you are interested in the Playstation 2, especially reversing or developing  games for it, you will eventually come across files with the .IRX extension.
 
 ## What are IRX Files?
-IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. So they are the result of compiling C/C++ code targetted to run on the Playstation 2's I/O processor, the code is compiled into MIPS R3000A Assembly and the. assembled to create the final IRX file.
+IOP Relocatable eXecutable (IRX) are the library files that you can dynamically link your application code to and will run on the I/O Processor (IOP) in the PS2. 
+
+So, IRX files are produced by compiling C/C++ code targeted to run on the PlayStation 2's I/O Processor into MIPS R3000A assembly, then assembling it into the final IRX binary.
 
 ## What are they used for?
 Most IRX files are used for Input devices, such as the joypads, Light Guns, Eyetoy, Memory Cards etc, this is why they run on the Input/Output processor. However as the processor is just a standard general purpose MIPS processor any code can technically be put in an IRX file as long as it doesn't need to be particularly fast.
