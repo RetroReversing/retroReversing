@@ -56,6 +56,16 @@ blockquote {
 
 .postSection {
   line-height: 2;
+  display: flow-root;
+  margin: 1rem 0 1.25rem;
+}
+
+.postSection > .css-folder-left.postImage {
+  float: left;
+}
+
+.postSection > .css-folder-left.postImage + .rr-post-markdown {
+  min-height: 42px;
 }
 
 /*  */

@@ -1,0 +1,14 @@
+<div class="rr-connected-folder-tree">
+  <div class="rr-connected-folder-tree__header">
+    <div class="css-folder css-folder-left rr-connected-folder-tree__folder"{% if include.path %} title="{{ include.path }}"{% endif %}>{{ include.folder }}</div>
+    <div class="rr-post-markdown rr-connected-folder-tree__body">
+      {{ include.body | markdownify }}
+    </div>
+  </div>
+  {% assign has_content = include.content | to_s | strip %}
+  {% if has_content != '' %}
+  <div class="rr-connected-folder-tree__children">
+    {% include folder-tree.html version=include.version date=include.date content=include.content connected=true %}
+  </div>
+  {% endif %}
+</div>

@@ -187,37 +187,45 @@
 }
 
 .rr-folder-tree .rr-changelog-more {
-    padding-left: 0;
+    padding: 14px 16px 12px;
     margin-top: 12px;
     display: grid;
-    row-gap: 12px;
+    grid-template-columns: fit-content(18rem) minmax(0, 1fr);
+    column-gap: 16px;
+    row-gap: 10px;
+    align-items: center;
+    border-top: 1px solid rgba(36, 80, 107, 0.2);
+    background: rgba(36, 80, 107, 0.03);
+    border-radius: 8px;
 }
 
 .rr-folder-tree .rr-changelog-more .rr-changelog {
     margin-top: 0;
-    display: grid;
-    grid-template-columns: 240px minmax(0, 1fr);
-    column-gap: 10px;
-    align-items: start;
+    display: contents;
 }
 
 .rr-folder-tree .rr-changelog-badge {
+    /* Strip all pill styling — render as plain mono label */
     width: fit-content;
     max-width: 100%;
     min-width: 0;
     margin-right: 0;
-    align-self: start;
-    justify-content: flex-start;
-    color: #24506b;
-    background: rgba(0, 133, 182, 0.08);
-    border: 0;
-    border-radius: 4px;
-    box-shadow: inset 0 0 0 1px rgba(0, 133, 182, 0.14);
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+    color: #1e3a4f;
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 0.88rem;
+    font-size: 0.9rem;
+    font-weight: 600;
     letter-spacing: 0;
-    font-weight: 500;
-    padding: 2px 8px;
+    line-height: 1.45;
+    white-space: nowrap;
 }
 
 .rr-folder-tree .rr-changelog-badge::before,
@@ -230,18 +238,198 @@
     margin-top: 0;
     min-width: 0;
     line-height: 1.45;
+    color: #555e6b;
+    font-size: 0.95rem;
+}
+
+.rr-connected-folder-tree {
+    margin: 1rem 0 1.25rem;
+}
+
+.rr-connected-folder-tree__header {
+    display: grid;
+    grid-template-columns: 86px minmax(0, 1fr);
+    column-gap: 10px;
+    align-items: center;
+}
+
+.rr-connected-folder-tree__folder {
+    margin: 2px 0 2px 2px;
+}
+
+.rr-connected-folder-tree__body {
+    padding-left: 0 !important;
+}
+
+.rr-connected-folder-tree__body > :first-child {
+    margin-top: 0;
+}
+
+.rr-connected-folder-tree__body > :last-child {
+    margin-bottom: 0;
+}
+
+.rr-connected-folder-tree__children {
+    position: relative;
+    margin-top: 4px;
+    margin-left: 14px;
+    padding-left: 26px;
+}
+
+.rr-connected-folder-tree__children::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    height: 40px;
+    width: 2px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, rgba(83, 111, 137, 0.42) 0%, rgba(83, 111, 137, 0.18) 100%);
+}
+
+.rr-connected-folder-tree__children::after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    width: 18px;
+    height: 2px;
+    border-radius: 999px;
+    background: rgba(83, 111, 137, 0.3);
+}
+
+.rr-connected-folder-tree__children .rr-folder-tree .rr-changelog-more {
+    margin-top: 0;
+}
+
+.rr-folder-tree--connected .rr-changelog-more {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2px;
+    padding: 8px 14px 8px 8px;
+}
+
+.rr-folder-tree--connected .rr-changelog-more .rr-changelog {
+    position: relative;
+    display: grid;
+    grid-template-columns: 32px fit-content(18rem) minmax(0, 1fr);
+    column-gap: 10px;
+    row-gap: 0;
+    align-items: center;
+}
+
+.rr-folder-tree--connected .rr-folder-tree-connector {
+    position: relative;
+    width: 32px;
+    min-height: 34px;
+    align-self: stretch;
+    grid-column: 1;
+}
+
+.rr-folder-tree--connected .rr-folder-tree-connector::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: -6px;
+    bottom: -6px;
+    width: 2px;
+    border-radius: 999px;
+    background: rgba(83, 111, 137, 0.22);
+}
+
+.rr-folder-tree--connected .rr-folder-tree-connector::after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    width: 18px;
+    height: 2px;
+    transform: translateY(-50%);
+    border-radius: 999px;
+    background: rgba(83, 111, 137, 0.28);
+}
+
+.rr-folder-tree--connected .rr-changelog-badge {
+    grid-column: 2;
+}
+
+.rr-folder-tree--connected .rr-changelog-info {
+    grid-column: 3;
+}
+
+.rr-folder-tree--connected .rr-changelog--first .rr-folder-tree-connector::before {
+    top: 50%;
+}
+
+.rr-folder-tree--connected .rr-changelog--last .rr-folder-tree-connector::before {
+    bottom: 50%;
+}
+
+.rr-folder-tree--connected .rr-changelog--first.rr-changelog--last .rr-folder-tree-connector::before {
+    display: none;
+}
+
+.rr-connected-folder-tree__children .rr-folder-tree .rr-changelog-badge {
+    position: relative;
 }
 
 @media (max-width: 900px) {
-    .rr-folder-tree .rr-changelog-more .rr-changelog {
-        grid-template-columns: 200px minmax(0, 1fr);
+    .rr-folder-tree .rr-changelog-more {
+        grid-template-columns: fit-content(14rem) minmax(0, 1fr);
+        column-gap: 12px;
+    }
+
+    .rr-folder-tree--connected .rr-changelog-more .rr-changelog {
+        grid-template-columns: 32px fit-content(14rem) minmax(0, 1fr);
+        column-gap: 10px;
     }
 }
 
 @media (max-width: 640px) {
-    .rr-folder-tree .rr-changelog-more .rr-changelog {
+    .rr-connected-folder-tree__header {
         grid-template-columns: 1fr;
-        row-gap: 6px;
+        row-gap: 16px;
+    }
+
+    .rr-connected-folder-tree__folder {
+        margin-bottom: 0;
+    }
+
+    .rr-connected-folder-tree__children {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .rr-connected-folder-tree__children::before,
+    .rr-connected-folder-tree__children::after,
+    .rr-folder-tree--connected .rr-folder-tree-connector {
+        display: none;
+        content: none;
+    }
+
+    .rr-folder-tree .rr-changelog-more {
+        grid-template-columns: 1fr;
+        column-gap: 0;
+        row-gap: 14px;
+        padding: 12px;
+    }
+
+    .rr-folder-tree .rr-changelog-more .rr-changelog {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2px;
+    }
+
+    .rr-folder-tree--connected .rr-changelog-more {
+        padding-left: 12px;
+    }
+
+    .rr-folder-tree--connected .rr-changelog-more .rr-changelog {
+        grid-template-columns: 1fr;
+    }
+
+    .rr-folder-tree .rr-changelog-info {
+        color: #6b7280;
     }
 }
 

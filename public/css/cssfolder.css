@@ -2,13 +2,15 @@
 .css-folder {
   box-sizing: border-box;
   position: relative;
-  background: #bfcedb;
-  top: 12px;
+  background: linear-gradient(180deg, #c8d6e2 0%, #b7c7d5 100%);
+  border: 1px solid rgba(83, 111, 137, 0.35);
+  top: 2px;
 /*   left: 18px; */
-  border-radius: 0 0 5px 5px;
-  height: 43px;
-  width: 100px;
-  box-shadow: 0 -10px 0 -5px #f3f3f3, 0 -10px 0 0 #6f88a1, 0 3px 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
+  height: 37px;
+  width: 85px;
+  box-shadow: 0 -9px 0 -4px #f3f3f3, 0 -9px 0 0 #6f88a1, 0 2px 0 0 rgba(0, 0, 0, 0.18);
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
   /* Tab */
 }
 .css-folder:before {
@@ -16,28 +18,55 @@
   content: '';
   display: block;
   position: absolute;
-  width: 35px;
-  top: -25px;
-  height: 20px;
-  border-bottom: 10px solid #6f88a1;
-  border-right: 10px solid transparent;
+  width: 30px;
+  top: -21px;
+  height: 17px;
+  border-bottom: 8px solid #6b86a0;
+  border-right: 8px solid transparent;
   z-index: -1;
+}
+
+.css-folder:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 -9px 0 -4px #f3f3f3, 0 -9px 0 0 #6f88a1, 0 4px 8px -4px rgba(0, 0, 0, 0.28);
 }
 
 /* Css folder used as left image */
 .css-folder-left {
-  margin: 15px;
+  margin: 2px 12px 6px 2px;
   text-align: center;
   font-weight: 500;
   color: #2f4358;
   padding-top: 0;
-  line-height: 43px;
+  line-height: 37px;
   letter-spacing: 0.01em;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
-  font-size: 12px;
+  font-size: 10px;
   display: block;
   /* Overflow needs to be visible for the tab at the top of the folder */
   overflow: visible;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+/* Align folder badge with first line of adjacent text content */
+.css-folder-left.postImage + .rr-post-markdown {
+  padding-left: 8px;
+}
+
+.css-folder-left.postImage + .rr-post-markdown > :first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .css-folder {
+    width: 78px;
+    height: 34px;
+  }
+
+  .css-folder-left {
+    margin: 0 10px 6px 2px;
+    line-height: 34px;
+    font-size: 9px;
+  }
 }

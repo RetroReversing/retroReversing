@@ -1,4 +1,4 @@
-<div class="rr-changelog-category rr-folder-tree">
+<div class="rr-changelog-category rr-folder-tree{% if include.connected %} rr-folder-tree--connected{% endif %}">
   <div>
     <!-- <div class="css-folder css-folder-left wow slideInLeft postImage" title="{{ include.path }}">{{ include.title }}</div> -->
     <!-- <div class="rr-changelog-version">{{ include.version }}</div> -->
@@ -33,7 +33,10 @@
           {% assign badge = item %}
           {% assign description = item %}
         {% endif %}
-        <div class="rr-changelog rr-changelog-success">
+        <div class="rr-changelog rr-changelog-success{% if include.connected %} rr-changelog--connected{% if forloop.first %} rr-changelog--first{% endif %}{% if forloop.last %} rr-changelog--last{% endif %}{% endif %}">
+          {% if include.connected %}
+            <div class="rr-folder-tree-connector" aria-hidden="true"></div>
+          {% endif %}
           <div class="rr-changelog-badge">📁 {{ badge }}</div>
           <div class="rr-changelog-info">{{ description }}</div>
         </div>

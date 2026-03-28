@@ -32,13 +32,16 @@ As part of the July 2020 Giga leak, the source code for the Super Nintendo game 
 When the Gigaleak SFC.7z archive (located inside Other.7z) is extracted it contains the source code for a bunch of Super Nintendo games, F-Zero is one of them, this post will cover evertthing in the **FZERO** directory from the extracted archive.
 
 This folder contains the following sub-directories:
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/" date="Root Folder Tree" ></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">Game - Assembly source code for the game</li>
-      <li class="rr-info-gen">Tools - C Source code for the tools used to make the game</li>
-    </ul>
-</div>
+{% capture fzero_root_body %}
+Root folder tree.
+{% endcapture %}
+
+{% capture folder_items %}
+- Game - Assembly source code for the game
+- Tools - C source code for the tools used to make the game
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="FZERO" path="/" body=fzero_root_body version="/" content=folder_items %}
 
 ---
 ## Game (/Game)

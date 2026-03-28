@@ -110,6 +110,7 @@ Our pages tend to be broken up into different sections based on headings, headin
 Here are some of the markdown rules:
 * **Don't bold headings** - In Markdown, never use `**` to make the text bold in H1–H5 headings, as CSS handles this.
 * **Don't use emoji's in headings** - Don't use emojis in headings themselves
+* **Don't use backticks in headings** - Keep headings plain text and move inline code formatting into the paragraph below instead
 * **Use HR before major sections** - Add a Markdown HR (`---`) when starting a new major section, such as before an H1 or H2's that are not the first subheading under a H2, same for H3 etc.
 * **No line between HR and Heading** - the next line after a HR (`---`) should be the heading itself
 * **No line between heading and first paragraph** - the next line after a heading should always be the first paragraph of the section

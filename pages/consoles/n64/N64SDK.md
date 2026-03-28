@@ -63,15 +63,18 @@ It works with a number of different N64 development flash cartridges such as:
 * Partner-N64
 * IS-Viewer64
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Files" date="Files in the dptest folder" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="dptest.exe" desc="Main application for communicating from PC to N64"></div>
-      <div class="rr-info-gen" badge="TargetN64.dll" desc="DLL for communication between flash cartridge and the PC "></div>
- <div class="rr-info-gen" badge="KMCCtrl.dll" desc="DLL for communication through the KMC Partner N64 flash cartridge" ></div>
- <div class="rr-info-gen" badge="dptest.n64" desc="Compiled N64 rom of CCBL that communicated with dptest" ></div>
-    </ul>
-</div>
+{% capture dptest_body %}
+Files in the `dptest` folder.
+{% endcapture %}
+
+{% capture folder_items %}
+- dptest.exe - Main application for communicating from PC to N64
+- TargetN64.dll - DLL for communication between flash cartridge and the PC
+- KMCCtrl.dll - DLL for communication through the KMC Partner N64 flash cartridge
+- dptest.n64 - Compiled N64 ROM of CCBL that communicated with dptest
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="dptest" path="/dptest" body=dptest_body version="Files" content=folder_items %}
 
 ---
 ## HVQ - Image & Video compression

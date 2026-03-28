@@ -28,183 +28,149 @@ The Zelda Links Awakening source code was released in the original Gigaleak insi
 
 This part of the leak contains much more than a single source snapshot. The archive preserves the original SRD Japanese source tree, several Japanese and English revision folders, later US v2 and Canadian French revision folders, separate German and French localisation trees, and a companion character/tile asset folder under `その他`.
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="dmg.7z" date="Contains two subdirectories" ></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">DMG - Contains the main Assembly source code</li>
-      <li class="rr-info-gen">その他 - Translates to Miscellaneous, it contains the IS-Character tiles/sprites</li>
-    </ul>
-</div>
+{% capture root_body %}
+Contains two subdirectories.
+{% endcapture %}
+
+{% capture folder_items %}
+- DMG - Contains the main Assembly source code
+- その他 - Translates to Miscellaneous and contains the IS-Character tiles/sprites
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="dmg.7z" path="/dmg.7z" body=root_body version="dmg.7z" content=folder_items %}
 
 ---
 # DMG Source Code (/DMG)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture dmg_body %}
 The **DMG** folder is the main location for all the assembly language source code that makes up the original Game Boy version of The Legend of Zelda: Link's Awakening.
+{% endcapture %}
 
-  </div>
-</section>
+{% capture folder_items %}
+- XXX__ゼルダの伝説 夢を見る島 - Japanese title of The Legend of Zelda: Link's Awakening
+- Source - The main source code for the game
+- DMG_Zelda_DE_FR - Original German and French translation (also included Canadian French)
+- DMG_Zelda_DE_FR_v1 - Version 1 of German and French (does not include Canadian French)
+- DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English translation and also contains Canadian French
+- DMG_Zelda_JP_EN - Original version of the English translation
+- SRD_DMG_Zelda_JP_v0 - Original source code from Systems Research and Development (SRD)
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG" date="Folder Tree"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">XXX__ゼルダの伝説 夢を見る島 - "ゼルダの伝説 夢を見る島" is the Japanese title of the video game "The Legend of Zelda: Link's Awakening"</li>
-      <ul>
-        <li class="rr-info-gen">Source - The main source code for the game</li>
-          <ul>
-             <li class="rr-info-gen">DMG_Zelda_DE_FR - Original German and French Translation (Also included Canadian French)</li>
-             <li class="rr-info-gen"> DMG_Zelda_DE_FR_v1 - Version 1 of German and French (Does not include Canadian French)</li>
-             <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - Version 1 of the English Translation and also contains Canadian French</li>
-             <li class="rr-info-gen">DMG_Zelda_JP_EN - Original version of the English translation</li>
-             <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original Source code from Systems Research and Development (SRD)</li>
-          </ul>
-       </ul>
-     </ul>
-</div>
+{% include connected-folder-tree.html folder="DMG" path="/DMG" body=dmg_body version="/DMG" content=folder_items %}
 
 ---
 ## Source Variants and Localisation Branches
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/Source</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture source_variants_body %}
 The `Source` directory preserves several parallel development branches rather than just one final build. Each language branch is split into three disk-style folders matching the original floppy backups: `01` for core game logic, `02` for map, message, title, and sound data, and `03` for enemy logic. Most branches also include a matching `Character` folder containing `.CHR` graphics data and an `RZ.ICE` compressed asset.
 
 In practice this means the leak documents how Link's Awakening moved from the original Japanese codebase into the early US build chain and then into the German, French, and Canadian French localisations.
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/Source" date="Development branches"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">SRD_DMG_Zelda_JP_v0 - Original SRD Japanese source backup with documentation and SDK tools</li>
-      <li class="rr-info-gen">DMG_Zelda_JP_EN - Mixed Japanese and early English/US revision history</li>
-      <li class="rr-info-gen">DMG_Zelda_DE_FR - German, French, and Canadian French branches</li>
-      <li class="rr-info-gen">DMG_Zelda_DE_FR_v1 - A later German/French-only localisation set</li>
-      <li class="rr-info-gen">DMG_Zelda_EN_v2_CFR_v1 - US v2 and Canadian French v1 branches</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- SRD_DMG_Zelda_JP_v0 - Original SRD Japanese source backup with documentation and SDK tools
+- DMG_Zelda_JP_EN - Mixed Japanese and early English/US revision history
+- DMG_Zelda_DE_FR - German, French, and Canadian French branches
+- DMG_Zelda_DE_FR_v1 - A later German/French-only localisation set
+- DMG_Zelda_EN_v2_CFR_v1 - US v2 and Canadian French v1 branches
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Source" path="/Source" body=source_variants_body version="/Source" content=folder_items %}
 
 ---
 ## Original SRD Zelda Source code (Japan version 0) (SRD_DMG_Zelda_JP_v0)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/SRD_DMG_Zelda_JP_v0</div>
-  <div markdown="1" class="rr-post-markdown">
- This folder contains the source code for the Japanese version of Links Awakening by **Systems Research and Development** (SRD) where helped Nintendo work on various titles.
+{% capture srd_body %}
+This folder contains the source code for the Japanese version of Links Awakening by **Systems Research and Development** (SRD) where helped Nintendo work on various titles.
 
- We are starting with this folder as it seems to be the original and the other folders are just localised changes to the files in this folder, so this is the most important folder in the whole leak.
+We are starting with this folder as it seems to be the original and the other folders are just localised changes to the files in this folder, so this is the most important folder in the whole leak.
 
- When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
+When they were preserving the source code to Zelda Links Awakening they used 3 Floppy Disks for the source code and another for the Game Boy SDK and finally one for the documentation and other documents that they decided to call **face**.
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/SRD_DMG_Zelda_JP_v0" date="Folder Tree" ></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">1 - Disk 1 of the Source code containing Main logic and Player control</li>
-      <li class="rr-info-gen">2 - Disk 2 containing the title sequence, background data for Dungeon and Ground and Sound</li>
-      <li class="rr-info-gen">3 - Disk 3 containing the enemy logic</li>
-      <li class="rr-info-gen">face - Documentation and other misc documents</li>
-      <li class="rr-info-gen">system - Official Nintendo Game Boy SDK</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- 1 - Disk 1 of the source code containing main logic and player control
+- 2 - Disk 2 containing the title sequence, background data for dungeon and ground, and sound
+- 3 - Disk 3 containing the enemy logic
+- face - Documentation and other misc documents
+- system - Official Nintendo Game Boy SDK
+{% endcapture %}
 
-
-  </div>
-</section>
+{% include connected-folder-tree.html folder="SRD_DMG_Zelda_JP_v0" path="/SRD_DMG_Zelda_JP_v0" body=srd_body version="/SRD_DMG_Zelda_JP_v0" content=folder_items %}
 
 
 ---
 ## Japanese and Early English Revision Tree (DMG_Zelda_JP_EN)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_JP_EN</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture jp_en_body %}
 This branch preserves both Japanese and US revision histories. The directory names show two Japanese `v0` revisions, three Japanese `v1` revisions, three US `v0` revisions, and separate character data folders for the Japanese v1 and US v0 builds.
 
 It is especially useful because it shows the project in transition from the Japanese source base into the earliest English localisation work, including `.BAK` backups left beside files such as `ZEND.DMG` and `ZPL.DMG`.
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG_Zelda_JP_EN" date="Folder Tree"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">JP_v0_01, JP_v0_02, JP_v0_03 - Early Japanese revision set</li>
-      <li class="rr-info-gen">Jp_v1_01, Jp_v1_02, Jp_v1_03 - Later Japanese revision set</li>
-      <li class="rr-info-gen">US_v0_01, US_v0_02, US_v0_03 - Early English/US localisation revision set</li>
-      <li class="rr-info-gen">JP_v1_Character - Japanese v1 character/tile graphics files (`C1.CHR` to `C8.CHR`, `RZ.ICE`, `GAL.BAT`)</li>
-      <li class="rr-info-gen">US_v0_Character - Early US character/tile graphics files</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- JP_v0_01, JP_v0_02, JP_v0_03 - Early Japanese revision set
+- Jp_v1_01, Jp_v1_02, Jp_v1_03 - Later Japanese revision set
+- US_v0_01, US_v0_02, US_v0_03 - Early English/US localisation revision set
+- JP_v1_Character - Japanese v1 character/tile graphics files (`C1.CHR` to `C8.CHR`, `RZ.ICE`, `GAL.BAT`)
+- US_v0_Character - Early US character/tile graphics files
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="DMG_Zelda_JP_EN" path="/DMG_Zelda_JP_EN" body=jp_en_body version="/DMG_Zelda_JP_EN" content=folder_items %}
 
 ---
 ## German, French, and Canadian French Branches (DMG_Zelda_DE_FR)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_DE_FR</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture de_fr_body %}
 The `DMG_Zelda_DE_FR` tree contains three parallel localisation branches, each split into the same three floppy-style disks as the main source: German, French, and Canadian French. Each language also ships with its own `Character` folder containing the tile/font graphics used by that build.
 
 The second disk for these branches swaps in language-specific music/message data files such as `BGM_1G.HEX` for German and `BGM_1F.HEX` for French and Canadian French.
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG_Zelda_DE_FR" date="Folder Tree"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">German_01, German_02, German_03 - German localisation source split across three disks</li>
-      <li class="rr-info-gen">French_01, French_02, French_03 - French localisation source split across three disks</li>
-      <li class="rr-info-gen">CanadianFrench_01, CanadianFrench_02, CanadianFrench_03 - Canadian French localisation source split across three disks</li>
-      <li class="rr-info-gen">German_Character - German character/font graphics</li>
-      <li class="rr-info-gen">French_Character - French character/font graphics</li>
-      <li class="rr-info-gen">CanadianFrench_Character - Canadian French character/font graphics</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- German_01, German_02, German_03 - German localisation source split across three disks
+- French_01, French_02, French_03 - French localisation source split across three disks
+- CanadianFrench_01, CanadianFrench_02, CanadianFrench_03 - Canadian French localisation source split across three disks
+- German_Character - German character/font graphics
+- French_Character - French character/font graphics
+- CanadianFrench_Character - Canadian French character/font graphics
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="DMG_Zelda_DE_FR" path="/DMG_Zelda_DE_FR" body=de_fr_body version="/DMG_Zelda_DE_FR" content=folder_items %}
 
 ---
 ## Later German and French Branches (DMG_Zelda_DE_FR_v1)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_DE_FR_v1</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture de_fr_v1_body %}
 `DMG_Zelda_DE_FR_v1` is a slimmer follow-up tree that keeps only the German and French branches. Unlike the earlier `DMG_Zelda_DE_FR` folder, Canadian French is no longer present here.
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG_Zelda_DE_FR_v1" date="Folder Tree"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">German_01, German_02, German_03 - Later German localisation revision set</li>
-      <li class="rr-info-gen">French_01, French_02, French_03 - Later French localisation revision set</li>
-      <li class="rr-info-gen">German_Character - German character/font graphics</li>
-      <li class="rr-info-gen">French_Character - French character/font graphics</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- German_01, German_02, German_03 - Later German localisation revision set
+- French_01, French_02, French_03 - Later French localisation revision set
+- German_Character - German character/font graphics
+- French_Character - French character/font graphics
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="DMG_Zelda_DE_FR_v1" path="/DMG_Zelda_DE_FR_v1" body=de_fr_v1_body version="/DMG_Zelda_DE_FR_v1" content=folder_items %}
 
 ---
 ## US v2 and Canadian French v1 Branches (DMG_Zelda_EN_v2_CFR_v1)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_EN_v2_CFR_v1</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture en_v2_cfr_v1_body %}
 This folder captures a later English branch labelled `US_v2` alongside a `CanadianFrench_v1` branch. As with the other localisation trees, each version is stored as three floppy-style source folders plus a matching `Character` asset folder.
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/DMG_Zelda_EN_v2_CFR_v1" date="Folder Tree"></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">US_v2_01, US_v2_02, US_v2_03 - Later English/US revision set</li>
-      <li class="rr-info-gen">CanadianFrench_v1_01, CanadianFrench_v1_02, CanadianFrench_v1_03 - Canadian French v1 revision set</li>
-      <li class="rr-info-gen">US_v2_Character - US v2 character/font graphics</li>
-      <li class="rr-info-gen">CanadianFrench_v1_Character - Canadian French v1 character/font graphics</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- US_v2_01, US_v2_02, US_v2_03 - Later English/US revision set
+- CanadianFrench_v1_01, CanadianFrench_v1_02, CanadianFrench_v1_03 - Canadian French v1 revision set
+- US_v2_Character - US v2 character/font graphics
+- CanadianFrench_v1_Character - Canadian French v1 character/font graphics
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="DMG_Zelda_EN_v2_CFR_v1" path="/DMG_Zelda_EN_v2_CFR_v1" body=en_v2_cfr_v1_body version="/DMG_Zelda_EN_v2_CFR_v1" content=folder_items %}
 
 
 ---
 ### Disk 1 (SRD_DMG_Zelda_JP_v0/1)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/1</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture disk1_body %}
 The first disk contains the files described in the table below:
+{% endcapture %}
 
-  </div>
-</section>
+{% include connected-folder-tree.html folder="1" path="/1" body=disk1_body %}
 
 File Name | Extension | Description
 ---|---|---
@@ -221,13 +187,11 @@ ZROM | .DMG | Game Boy Z80 Assembly file for ROM handling
 
 ---
 ### Disk 2 (SRD_DMG_Zelda_JP_v0/2)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/2</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture disk2_body %}
 The second disk contains the files described in the table below:
+{% endcapture %}
 
-  </div>
-</section>
+{% include connected-folder-tree.html folder="2" path="/2" body=disk2_body %}
 
 
 File Name | Extension | Description
@@ -253,12 +217,11 @@ ZVD | .DMG | Game Boy Z80 Assembly file for Demo Background VRAM Data
 
 ---
 ### Disk 3 (SRD_DMG_Zelda_JP_v0/3)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/3</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture disk3_body %}
 The third disk contains the files for enemy logic described in the table below:
-  </div>
-</section>
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="3" path="/3" body=disk3_body %}
 
 
 File Name | Extension | Description
@@ -274,15 +237,13 @@ ZEN | .DMG | Game Boy Z80 Assembly file for Enemy Data 1
 
 ---
 ### Face Documentation (SRD_DMG_Zelda_JP_v0/face)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/face</div>
-  <div markdown="1" class="rr-post-markdown">
- The `face` folder is a mixed backup disk containing developer notes, text resources, helper batch files, and a number of unidentified binary data files. Unlike the `1`, `2`, and `3` disks, it is not a clean source-only backup.
+{% capture face_body %}
+The `face` folder is a mixed backup disk containing developer notes, text resources, helper batch files, and a number of unidentified binary data files. Unlike the `1`, `2`, and `3` disks, it is not a clean source-only backup.
 
- Several files are clearly readable text documents, but the numbered `21.DAT` to `48.DAT` files appear to be binary data blocks rather than plain text documentation.
+Several files are clearly readable text documents, but the numbered `21.DAT` to `48.DAT` files appear to be binary data blocks rather than plain text documentation.
+{% endcapture %}
 
-  </div>
-</section>
+{% include connected-folder-tree.html folder="face" path="/face" body=face_body %}
 
 
 The files in this folder are described in the table below:
@@ -348,12 +309,11 @@ The file `MRT.DAT` is a note written by Kazuaki Morita about being an older prog
 
 ---
 ### Nintendo Game Boy DMG SDK Tools (SRD_DMG_Zelda_JP_v0/system)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/system</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture system_body %}
 The `system` folder contains the Nintendo Game Boy (DMG) software development toolchain used alongside the source backup. This includes assemblers, conversion utilities, shell helpers, and lookup tables required to build or process Game Boy assets on the original development setup.
-  </div>
-</section>
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="system" path="/system" body=system_body %}
 
 
 The files in this folder are described in the table below:
@@ -419,42 +379,35 @@ This potentially means that developers for Nintendo were using the Fujitsu FM-R5
 
 ---
 ## English Version 0 and Japanese Versions 0 and 1 (/Source/DMG_Zelda_JP_EN)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/DMG_Zelda_JP_EN</div>
-  <div markdown="1" class="rr-post-markdown">
-
+{% capture jp_en_versions_body %}
 This folder contains the following sub-directories:
-  </div>
-</section>
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="/Source/DMG_Zelda_JP_EN" date="subdirectories" ></div>
-    <ul class="rr-changelog-more">
-      <li class="rr-info-gen">JP_v0_01 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/1)</li>
-      <li class="rr-info-gen">JP_v0_02 - Changes to ZBD/ZBN/ZDB/ZED/ZGD/ZTI/ZVD Compared to SPD Version</li>
-      <li class="rr-info-gen">JP_v0_03 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/3)</li>
-      <li class="rr-info-gen">JP_v0_Character - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP) but without the .ICE and .BAT file</li>
-      <li class="rr-info-gen">JP_v1_Character - Exactly the same as: Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)</li>
-      <li class="rr-info-gen">Jp_v1_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to version 0</li>
-      <li class="rr-info-gen">Jp_v1_02 - Changes to ZBD/ZBN/ZCO/ZDB/ZED/ZGD/ZTI compared to version 0</li>
-      <li class="rr-info-gen">Jp_v1_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to version 0</li>
-      <li class="rr-info-gen">US_v0_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to Japan version 0</li>
-      <li class="rr-info-gen">US_v0_02 - Changes to GBMSDT/ZBD/ZBN/ZDB/ZED/ZGD/ZMS/ZTI/ZVD compared to Japan version 0</li>
-      <li class="rr-info-gen">US_v0_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to Japan version 0</li>
-      <li class="rr-info-gen">US_v0_Character - Contains changes to C1/C4/C5/C7 and GAL.BAT compared to Ver1JP</li>
-    </ul>
-</div>
+{% capture folder_items %}
+- JP_v0_01 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/1)
+- JP_v0_02 - Changes to ZBD/ZBN/ZDB/ZED/ZGD/ZTI/ZVD compared to SPD version
+- JP_v0_03 - Exactly the same as SPD version (/SRD_DMG_Zelda_JP_v0/3)
+- JP_v0_Character - Same as version 1 Japan graphics data (/その他/DMGZelda/Ver1JP) but without the .ICE and .BAT file
+- JP_v1_Character - Exactly the same as version 1 Japan graphics data (/その他/DMGZelda/Ver1JP)
+- Jp_v1_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to version 0
+- Jp_v1_02 - Changes to ZBD/ZBN/ZCO/ZDB/ZED/ZGD/ZTI compared to version 0
+- Jp_v1_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to version 0
+- US_v0_01 - Changes to ZE8/ZEND/ZEX/ZPL/ZROM files compared to Japan version 0
+- US_v0_02 - Changes to GBMSDT/ZBD/ZBN/ZDB/ZED/ZGD/ZMS/ZTI/ZVD compared to Japan version 0
+- US_v0_03 - Changes to ZE2/ZE5/ZE6/ZE7 compared to Japan version 0
+- US_v0_Character - Changes to C1/C4/C5/C7 and GAL.BAT compared to Ver1JP
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="DMG_Zelda_JP_EN" path="/Source/DMG_Zelda_JP_EN" body=jp_en_versions_body version="/Source/DMG_Zelda_JP_EN" content=folder_items %}
 
 
 ---
 ### Japan Version 0 Disk 2 (DMG_Zelda_JP_EN/JP_v0_02)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/JP_v0_02</div>
-  <div markdown="1" class="rr-post-markdown">
- Since this is technically the second version of Disk 2 (with the SPD folder being the first version) we will only cover the changes made from SPD to save re-covering the same files.
+{% capture jp_v0_02_body %}
+Since this is technically the second version of Disk 2 (with the SPD folder being the first version) we will only cover the changes made from SPD to save re-covering the same files.
+{% endcapture %}
 
-  </div>
-</section>
+{% include connected-folder-tree.html folder="JP_v0_02" path="/JP_v0_02" body=jp_v0_02_body %}
 
 
 The changes made to this version are mainly small code comment changes and are described in the table below:
@@ -472,14 +425,13 @@ ZVD | .DMG | Just added a comment that says "Nausicaa Leaf"
 
 ---
 # その他 - Miscellaneous (/その他)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/その他</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture sonota_body %}
 The `その他` branch translates to "miscellaneous" and contains a standalone `Ver1JP/Character` folder. Its contents match the sort of character/font graphics bundles used by the source branches, with `C1.CHR` through `C8.CHR`, `RZ.ICE`, and a `GAL.BAT` helper script.
 
 This makes it a useful companion asset dump for the Japanese v1 build rather than executable gameplay source code.
-  </div>
-</section>
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="その他" path="/その他" body=sonota_body %}
 
 This folder just contains the following sub-directories:
 * **DMGZelda** - Miscellaneous data for the original Game Boy Zelda (Only graphics data)
@@ -490,18 +442,16 @@ This folder in turn just contains the following sub-directories:
 
 ---
 ## Version 1 Japan Graphics Data (/その他/DMGZelda/Ver1JP)
-<section class="postSection">
-  <div class="css-folder css-folder-left wow slideInLeft postImage">/Ver1JP</div>
-  <div markdown="1" class="rr-post-markdown">
+{% capture ver1jp_body %}
 This folder just contains the following sub-directories:
 * **Character** - Graphics data for Version 1 of the Japanese ROM
 
  Which in turn just contains graphics data created using the IS-Character development kit which was the official development kit used for graphics development on the original Game Boy.
 
  All the `.chr` files can be opened in a tool like `Tile Molester` with the Codec set to `2bpp planar` (2-bit per pixel is Game Boy Tile format.)
+{% endcapture %}
 
-  </div>
-</section>
+{% include connected-folder-tree.html folder="Ver1JP" path="/Ver1JP" body=ver1jp_body %}
 
 
 The files in the **Character** folder are described in the table below:

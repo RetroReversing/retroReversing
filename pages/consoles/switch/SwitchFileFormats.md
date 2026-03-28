@@ -45,50 +45,62 @@ Here is an example
 ```
 This will create 4 folders in the output directory:
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Normal" date="Unknown and sometimes empty" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="*.NCA" desc="NCA Files for title image and details" ></div>
-      <div class="rr-info-gen" badge="*.CNMT" desc="Meta Data Files for each NCA" ></div>
-    </ul>
-</div>
+{% capture normal_body %}
+Unknown and sometimes empty.
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Secure" date="Contains Game Data" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="*.NCA" desc="Largest NCA contains game executable" ></div>
-      <div class="rr-info-gen" badge="*.CNMT" desc="Meta Data Files for each NCA" ></div>
-      <div class="rr-info-gen" badge="*.CERT" desc="Certificate File for encryption" ></div>
-      <div class="rr-info-gen" badge="*.TIK" desc="Ticket File for encryption" ></div>
-    </ul>
-</div>
+{% capture folder_items %}
+- *.NCA - NCA files for title image and details
+- *.CNMT - Metadata files for each NCA
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Normal" path="/Normal" body=normal_body version="Normal" content=folder_items %}
+
+{% capture secure_body %}
+Contains game data.
+{% endcapture %}
+
+{% capture folder_items %}
+- *.NCA - Largest NCA contains game executable
+- *.CNMT - Metadata files for each NCA
+- *.CERT - Certificate file for encryption
+- *.TIK - Ticket file for encryption
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Secure" path="/Secure" body=secure_body version="Secure" content=folder_items %}
 
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Update" date="Contains Game Patches and OS Updates" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="*.NCA" desc="Probably contains Switch OS updates" ></div>
-      <div class="rr-info-gen" badge="*.CNMT" desc="Meta Data Files for each NCA" ></div>
-    </ul>
-</div>
+{% capture update_body %}
+Contains game patches and OS updates.
+{% endcapture %}
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Logo" date="Nintendo logos (sometimes empty)" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="StartupMovie.gif" desc="Animated switch logo shown at the start of every game" ></div>
-      <div class="rr-info-gen" badge="NintendoLogo.png" desc="Static Nintendo logo shown at the start of every game" ></div>
-    </ul>
-</div>
+{% capture folder_items %}
+- *.NCA - Probably contains Switch OS updates
+- *.CNMT - Metadata files for each NCA
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Update" path="/Update" body=update_body version="Update" content=folder_items %}
+
+{% capture logo_body %}
+Nintendo logos (sometimes empty).
+{% endcapture %}
+
+{% capture folder_items %}
+- StartupMovie.gif - Animated Switch logo shown at the start of every game
+- NintendoLogo.png - Static Nintendo logo shown at the start of every game
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Logo" path="/Logo" body=logo_body version="Logo" content=folder_items %}
 
 For more information about the extracted files see the section on NCA files.
 
 ### Cutting XCI files
 As XCI files are a 1:1 copy of the data stored on the eMMC chip of a game cartridge it can also contain blank space at the end of the file if the game is smaller than the eMMC chip's capacity.
 
-{% include link-to-other-site-text.html title="XCI-Cutter - A tool to remove unused space from XCI-Dumps" url="https://github.com/Destiny1984/XCI-Cutter" word1="XCI-Cutter" word2="XCI-Cutter" color1="wisteria" color2="midnight" description="You can remove this extra space with a tool such as XCI-Cutter" number="2"  %}
+{% include link-to-other-site.html title="XCI-Cutter - A tool to remove unused space from XCI-Dumps" url="https://github.com/Destiny1984/XCI-Cutter" word1="XCI-Cutter" word2="XCI-Cutter" color1="wisteria" color2="midnight" description="You can remove this extra space with a tool such as XCI-Cutter" number="2"  %}
 
 ### XCI File Format
-{% include link-to-other-site-text.html title="XCI File Format Spec" url="https://switchbrew.org/w/index.php?title=Gamecard_Format" word1="XCI Format" word2="Gamecard" color1="belize" color2="midnight" description="If you are interested in the internals of the file format, the site `SwitchBrew` has an excellent page with what each byte represents" number="3"  %}
+{% include link-to-other-site.html title="XCI File Format Spec" url="https://switchbrew.org/w/index.php?title=Gamecard_Format" word1="XCI Format" word2="Gamecard" color1="belize" color2="midnight" description="If you are interested in the internals of the file format, the site `SwitchBrew` has an excellent page with what each byte represents" number="3"  %}
 
 ---
 
@@ -126,7 +138,7 @@ If you want to mod a game to change the actual behaviour (executable code) then 
 ### CNMT (Content Meta Data) (*.cnmt.nca)
 CNMT files are small meta data files that are inside an XCI or NSP archive.
 
-{% include link-to-other-site-text.html title="CNMT File Format Spec" url="https://switchbrew.org/wiki/CNMT" word1="CNMT" word2="CNMT" color1="belize" color2="midnight" description="If you are interested in the internals of the file format, the site `SwitchBrew` has an excellent page with what each byte represents" number="5"  %}
+{% include link-to-other-site.html title="CNMT File Format Spec" url="https://switchbrew.org/wiki/CNMT" word1="CNMT" word2="CNMT" color1="belize" color2="midnight" description="If you are interested in the internals of the file format, the site `SwitchBrew` has an excellent page with what each byte represents" number="5"  %}
 
 ---
 # EXEFS File Formats
@@ -142,7 +154,7 @@ NSO files are compiled Nintendo Switch executable code and can only be run if th
 ### rtld (Runtime Link editor NSO executable)
 Basically the runtime Link editor executable is the first code that runs when a game is started. Its job is to manage the other executable code modules (NSO files) in memory.
 
-{% include link-to-other-site-text.html title="Runtime Link Editor (RTLD)" url="https://switchbrew.org/wiki/Rtld" word1="RTLD" word2="RTLD" color1="green" color2="midnight" description="If you are interested in the internals of how the RTLD works, the site `SwitchBrew` has an excellent page" number="6"  %}
+{% include link-to-other-site.html title="Runtime Link Editor (RTLD)" url="https://switchbrew.org/wiki/Rtld" description="If you are interested in the internals of how the RTLD works, the site `SwitchBrew` has an excellent page" number="6"  %}
 
 ### main (NSO executable)
 There is a `main` NSO executable file in the EXEFS partition, this as its name suggests is where the main game code was compiled.
@@ -165,7 +177,7 @@ For example:
 ### SZS (ARMS & Mario Kart)
 The SZS file format is used in many of Nintendos first party games on the switch such as `ARMS` and actually comes from the Wii version of Mario Kart. It is an archive file that compresses game assets such as Models and Textures [^3].
 
-{% include link-to-other-site-text.html title="SZS Modifier" url="http://www.chadsoft.co.uk/wiicoder/" word1="SZS" word2="SZS" color1="green" color2="midnight" description="ChadSoft has created a tool to modify SZS files aptly called the SZS Modifier" number="6"  %}
+{% include link-to-other-site.html title="SZS Modifier" url="http://www.chadsoft.co.uk/wiicoder/" word1="SZS" word2="SZS" color1="green" color2="midnight" description="ChadSoft has created a tool to modify SZS files aptly called the SZS Modifier" number="6"  %}
 
 
 

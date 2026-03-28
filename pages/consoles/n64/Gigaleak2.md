@@ -196,17 +196,20 @@ window.o |
 ## Main Source Code (apps/ski folder)
 The main source code is neatly organised into a bunch of sub folders, this makes it one of the tidiest source code folders in the leak.
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Ski" date="Main Source Code folder" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="data" desc="Contains Asset data such as Player animations, maps and effects" ></div>
-      <div class="rr-info-gen" badge="flow" desc="Game Flow code - seems to be the main game code" ></div>
-<div class="rr-info-gen" badge="gui" desc="The main game GUI" ></div>
-<div class="rr-info-gen" badge="snow" desc="Code for snow effects, including board spray and trail" ></div>
-<div class="rr-info-gen" badge="u64" desc="Contains the standard build toolchain such as makefiles, boot code and rom specs" ></div>
-<div class="rr-info-gen" badge="world" desc="World Editor pre-compiled code" ></div>
-    </ul>
-</div>
+{% capture ski_body %}
+Main source code folder.
+{% endcapture %}
+
+{% capture folder_items %}
+- data - Contains asset data such as player animations, maps, and effects
+- flow - Game flow code, seems to be the main game code
+- gui - The main game GUI
+- snow - Code for snow effects, including board spray and trail
+- u64 - Contains the standard build toolchain such as makefiles, boot code, and ROM specs
+- world - World editor pre-compiled code
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Ski" path="/apps/ski" body=ski_body version="Ski" content=folder_items %}
 
 Unfortunately there is no uncompiled source code for 1080 snowboarding, so don't expect any *.c or *.h files here, but the precompiled ELF objects *.o can be very interesting indeed.
 
@@ -222,20 +225,23 @@ The source code for F-Zero X is nowhere near as well organised as the 1080 Snowb
 
 Also this is not just the code to the N64 version but also contains the 64DD course editor!
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="F0X" date="Main Source Code folder" ></div>
-    <ul class="rr-changelog-more">
-      <div class="rr-info-gen" badge="audio" desc="Pre-compiled audio code" ></div>
- <div class="rr-info-gen" badge="CAD" desc="Contains Sprites in RGB format" ></div>
-       <div class="rr-info-gen" badge="cheat" desc="" ></div>
-	 <div class="rr-info-gen" badge="cheat_code" desc="Same as Cheat folder" ></div>
- <div class="rr-info-gen" badge="i10n" desc="Localization (Text used for translations)" ></div>
- <div class="rr-info-gen" badge="IMAGES" desc="Texture files" ></div>
- <div class="rr-info-gen" badge="metadata" desc="Metadata information for iQue Player" ></div>
- <div class="rr-info-gen" badge="MOJI" desc="Alphabet Textures" ></div>
- <div class="rr-info-gen" badge="sound" desc="Audio data" ></div>
-    </ul>
-</div>
+{% capture f0x_body %}
+Main source code folder.
+{% endcapture %}
+
+{% capture folder_items %}
+- audio - Pre-compiled audio code
+- CAD - Contains sprites in RGB format
+- cheat - Cheat-related data
+- cheat_code - Same as cheat folder
+- i10n - Localisation (text used for translations)
+- IMAGES - Texture files
+- metadata - Metadata information for iQue Player
+- MOJI - Alphabet textures
+- sound - Audio data
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="F0X" path="/f0x" body=f0x_body version="F0X" content=folder_items %}
 
 The source files seem to be named after the developer that was responsible for them, this was common practise in the early days of software development before good quality source control.
 
@@ -448,20 +454,23 @@ There are some interesting images in the F-Zero X source code, including an imag
 # Animal Crossing (forest folder)
 Animal Forest (Animal Crossing in the west) source code was initially based on the Zelda source code and thus has a few similar files to the OOT source also present in the leak.
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="Forest" date="Main Source Code folder" ></div>
-    <ul class="rr-changelog-more">
-        <div class="rr-info-gen" badge="data" desc="Assets (3D Models)" ></div>
- <div class="rr-info-gen" badge="flash" desc="Flash library (pre-compiled)" ></div>
- <div class="rr-info-gen" badge="forest_audio" desc="Pre-compiled sound files" ></div>
- <div class="rr-info-gen" badge="forest_lib" desc="Pre-compiled source code for F3DZEX2 and Famicom emulator" ></div>
- <div class="rr-info-gen" badge="lib" desc="Libraries for N64DD (leo) and N64 Master Data Utility" ></div>
- <div class="rr-info-gen" badge="rtcsrc" desc="Source code for the Real Time Clock library (librtc.a)" ></div>
- <div class="rr-info-gen" badge="src" desc="Header files and a few C source files from the main game" ></div>
- <div class="rr-info-gen" badge="tarball" desc="Tar archives sent from Nintendo" ></div>
- <div class="rr-info-gen" badge="zelda_tool_copy" desc="Command Line tools (probably copied from Zelda but not specific to Zelda)" ></div>
-    </ul>
-</div>
+{% capture forest_body %}
+Main source code folder.
+{% endcapture %}
+
+{% capture folder_items %}
+- data - Assets (3D models)
+- flash - Flash library (pre-compiled)
+- forest_audio - Pre-compiled sound files
+- forest_lib - Pre-compiled source code for F3DZEX2 and Famicom emulator
+- lib - Libraries for N64DD (leo) and N64 Master Data Utility
+- rtcsrc - Source code for the real-time clock library (`librtc.a`)
+- src - Header files and a few C source files from the main game
+- tarball - Tar archives sent from Nintendo
+- zelda_tool_copy - Command line tools (probably copied from Zelda but not specific to Zelda)
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="Forest" path="/forest" body=forest_body version="Forest" content=folder_items %}
 
 
 ## Assets (data folder)
@@ -493,25 +502,27 @@ What is interesting about the tools above is that it uses the SZS extension for 
 # Mario Kart 64 (mk64 folder)
 The source code for Mario Kart 64 seems to be missing most of the game engins source code, and appears to be mainly the game assets and code for screens that are heavily localized such as the Menus and End screens of the game.
 
-<div class="rr-changelog-category">
-  <div class="rr-version-gen" version="mk64" date="Main Source Code folder" ></div>
-    <ul class="rr-changelog-more">
-        <div class="rr-info-gen" badge="audio" desc="Pre-compiled Audio data" ></div>
-<div class="rr-info-gen" badge="enemy_source" desc="Enemy AI C Source code in one massive C file" ></div>
-<div class="rr-info-gen" badge="i10n" desc="Tools for Localisation and data in both Chinese and English" ></div>
-<div class="rr-info-gen" badge="image" desc="Images stored in C files as Byte arrays" ></div>
-<div class="rr-info-gen" badge="include" desc="C Header files for the game logic" ></div>
-<div class="rr-info-gen" badge="KT_data" desc="Track Data?" ></div>
-<div class="rr-info-gen" badge="map" desc="Track Drawing Data" ></div>
-<div class="rr-info-gen" badge="metadata" desc="iQue metadata for the game" ></div>
-<div class="rr-info-gen" badge="mkartDiffSource" desc="Contains USA and JP source code differences" ></div>
-<div class="rr-info-gen" badge="object" desc="Drawing data for 2D Spries such as Banana power up" ></div>
-<div class="rr-info-gen" badge="player" desc="Player Kart Sprites" ></div>
-<div class="rr-info-gen" badge="RESULT" desc="race result Ending data & credits" ></div>
-<div class="rr-info-gen" badge="select" desc="Player Selection Screen & Title at start of game" ></div>
+{% capture mk64_body %}
+Main source code folder.
+{% endcapture %}
 
-    </ul>
-</div>
+{% capture folder_items %}
+- audio - Pre-compiled audio data
+- enemy_source - Enemy AI C source code in one massive C file
+- i10n - Tools for localisation and data in both Chinese and English
+- image - Images stored in C files as byte arrays
+- include - C header files for the game logic
+- KT_data - Track data
+- map - Track drawing data
+- metadata - iQue metadata for the game
+- mkartDiffSource - Contains USA and JP source code differences
+- object - Drawing data for 2D sprites such as banana power-up
+- player - Player kart sprites
+- RESULT - Race result ending data and credits
+- select - Player selection screen and title at start of game
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="mk64" path="/mk64" body=mk64_body version="mk64" content=folder_items %}
 
 ## Assets
 

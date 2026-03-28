@@ -32,7 +32,7 @@ So grab your Game Boy Advance, and get ready to dive into the exciting world of 
 # Hardware Architecture
 **Copetti.org** has an excellent page on the hardware Architecture of the Game Boy Advance, it is also a great introduction to the system:
 
-{% include link-to-other-site-text.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/game-boy-advance/" word1="GBA" word2="Architecture" color1="wisteria" color2="midnight" description="Check out this excellent introduction to the GBA hardware" %}
+{% include link-to-other-site.html title="Game Boy Advance Architecture - A Practical Analysis" url="https://www.copetti.org/writings/consoles/game-boy-advance/" word1="GBA" word2="Architecture" color1="wisteria" color2="midnight" description="Check out this excellent introduction to the GBA hardware" %}
 
 ## GBA AGS-CPU-11 Hardware Schematics
 The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz known as the **AGS-CPU-11**, for really low level detail for how this CPU works at a hardware level check out the Schematics:
