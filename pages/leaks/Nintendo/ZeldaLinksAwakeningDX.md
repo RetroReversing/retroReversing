@@ -341,7 +341,7 @@ This is exactly the kind of workspace clutter that tends to disappear from clean
 
 
 ---
-## The Kimura Work Area
+## Kyoko Kimura's Work Area
 {% capture kimura_body %}
 Inside `DEMO_zelda`, the `kimura` folder looks like a dedicated content-editing workspace rather than a normal source directory. It is dominated by map, screen, graphics, panel, and color files, with an unusually large number of `.BAK` revisions preserved side by side with the active versions.
 {% endcapture %}
@@ -349,6 +349,8 @@ Inside `DEMO_zelda`, the `kimura` folder looks like a dedicated content-editing 
 {% include connected-folder-tree.html folder="kimura" path="/Source/Disk1/.../DEMO_zelda/kimura" body=kimura_body %}
 
 At a glance, `kimura` is one of the clearest examples of real day-to-day content production on Disk 1:
+
+The name also lines up neatly with the game's credits. Link's Awakening DX credits **Kyoko Kimura** as a character designer, so `kimura` is very likely a surname-based personal work folder rather than a Zelda-specific technical term [^1]. Given how art-heavy this workspace is, that attribution fits unusually well.
 
 Type | Approximate count | What that suggests
 ---|---|---
@@ -491,6 +493,128 @@ Disk 2 broadens the project from the three-region Disk 1 snapshot into a wider s
 This suggests Disk 2 was being used as a broader localisation and packaging workspace, with the same project structure repeated per region.
 
 ---
+## What Disk 2 Adds Beyond Disk 1
+The main reason Disk 2 matters is not that it replaces Disk 1. It expands it.
+
+Two additions stand out immediately:
+
+* `CGB_zeldaEIKOKU` adds a distinct UK English branch with its own `cgb_e` overlay beside the shared `cgb` and fallback `gb` trees
+* `CGB_zeldaCANDA` is a much smaller flat Canadian branch made up almost entirely of top-level DMG-format source modules and audio/graphics resources
+
+That split is interesting because the two new regions are not preserved in the same form. UK English looks like a full branch integrated into the normal Color-era project structure, while the Canadian material looks more like a lightweight localisation or packaging snapshot.
+
+### The UK English Branch
+`CGB_zeldaEIKOKU` follows the same broad pattern as the Disk 1 regional folders:
+
+* a shared `cgb` directory
+* a region-specific `cgb_e` overlay
+* a fallback `gb` code path
+
+The `cgb_e` folder contains the sort of branch-specific content you would expect from a real English localisation workspace: `gbmsdt_e.s`, `msg.txt`, `新規英文テキスト.txt`, `エンディング(NOA).txt`, and a set of `_e` source and object files such as `zatr_e.s`, `zcol_e.s`, `zend_e.s`, `zma_e.s`, `zms_e.s`, `zpr_e.s`, `zti_e.s`, and `zvd_e.s`.
+
+That makes `CGB_zeldaEIKOKU` feel like a proper regional branch rather than just a final ROM drop. It preserves both text-facing localisation files and the branch-specific source layer that would have compiled them.
+
+#### What the Text Files Show
+The most revealing file is `msg.txt`. Its opening lines are a short internal note from Sakamoto saying that the requested English translation had arrived from Jim at NOA and asking the team to use it. Below that, the file immediately switches into actual message entries, including new English text for the Color-era content such as the color dungeon minibosses, owl hints, Piece of Heart text, Gold Leaf text, and photo-related dialogue.
+
+`新規英文テキスト.txt` makes the same process even clearer. It is essentially a translated text handoff document, pairing message IDs with short Japanese context notes and then the English lines beneath them. That makes this branch unusually valuable, because it shows not just the final English text but part of the localisation workflow that carried it into the source tree.
+
+`エンディング(NOA).txt` is another nice survivor. It preserves an English-facing ending credit list, including the 1998 staff and the original 1993 staff, and it explicitly names **Kyoko Kimura** as a character designer along with the English script staff.
+
+#### Compared with the US Branch
+Compared with Disk 1's `CGB_zeldaUSA/cgb_usa`, the UK branch is recognisably related but not identical.
+
+At the top level, `cgb_e` shares only a small core of exact filenames with the US `cgb_usa` overlay. Much of the branch-specific source is renamed with `_e` suffixes instead of `_usa`, and many of the files that differ are exactly the ones you would expect in a localisation-heavy branch:
+
+* text and message files
+* ending/credit material
+* branch-specific source modules such as `zma_e.s`, `zend_e.s`, `zms_e.s`, `zti_e.s`, and `zvd_e.s`
+* branch-specific build and debugger outputs like `c_e.com` and `c_e.isx`
+
+The shared `cgb` directory still carries the common engine layer, but the `cgb_e` overlay shows that Nintendo was not treating UK English as a trivial alias of the US branch. It had enough distinct text, source, and build state to justify its own maintained overlay.
+
+#### What Actually Changes in the Source Modules
+Once the UK `_e` modules are compared directly against the US `_usa` ones, a clearer pattern appears: most of the branch-specific code is extremely close, and the real differences cluster in only a few files.
+
+The modules that are effectively identical include:
+
+* `zatr_e.s` versus `zatr_usa.s`
+* `zatrsub_e.s` versus `zatrsub_usa.s`
+* `zcol_e.s` versus `zcol_usa.s`
+* `zcolsub_e.s` versus `zcolsub_usa.s`
+* `zma_e.s` versus `zma_usa.s`
+* `zvd_e.s` versus `zvd_usa.s`
+* `msg.txt` versus the US `msg.txt`
+
+That is important because it means the UK branch was not a large gameplay fork. In many places it is the same underlying branch simply renamed and rebuilt for a different regional overlay.
+
+The places that do change are more specific:
+
+* `gbmsdt_e.s` versus `gbmsdt_usa.s` is 99.91% identical, with tiny text-level changes such as `lose all heart!` versus `lose all hearts!`, some shield wording reflow, and several puzzle-hint lines changing `BLUE RED` to `RED  BLUE` or `Red  Blue`
+* `zrom.s` differs in the cartridge-header area, where the UK branch removes the explicit `ZELA` title bytes and the US version tagging seen in the US branch, leaving a more neutral overseas header state
+* `cgal.bat` and `ddd` differ mainly because the UK build script swaps `_usa` modules for `_e` modules and links heavily against the German `cgb_d` tree rather than the US branch's dependencies on `DEMO_zelda`
+* `zchr.s` changes only in a few `libbin` include paths, where the UK branch points some event graphics loads at the German `cgb_d` folder instead of the shared `DEMO_zelda` location used by the US branch
+
+The bigger divergences are in `zend_e.s`, `zms_e.s`, and `zti_e.s`:
+
+* `zend_e.s` is only about 94% similar to `zend_usa.s` and includes many path changes, comment/date differences, and code-layout drift, suggesting the ending branch was being maintained somewhat separately
+* `zms_e.s` is only about 90% similar to `zms_usa.s`, and the reason is quite specific: the US file carries a large extra block dated `1998/09/28` and explicitly marked as code moved in from `zpl.s`. That block defines `MSBGAD`, `MSVRAH`, `MSVRAL`, and a long `MSVRSV` routine that backs up message-window tile data and, when `CGBFLG` is set, also switches `VBK` and `SVBK` to preserve the Color Game Boy attribute layer. In other words, the extra US-only block is not generic fluff. It is a substantial message-screen save routine with CGB attribute support that the UK `zms_e.s` copy does not carry in the same file
+* `zti_e.s` is about 95.6% similar to `zti_usa.s`, with additional conditionals and branch logic differences around state handling and secret/new-dungeon checks
+
+So the UK English branch looks less like a fully independent gameplay fork and more like a lightly diverged localisation branch sitting on top of mostly shared logic, with only a few modules absorbing the real region-specific drift.
+
+#### What That Suggests
+`CGB_zeldaEIKOKU` looks like a genuine localisation work branch rather than a late ROM export. It preserves translation handoff notes, message revisions, branch-specific source modules, and its own build outputs.
+
+That makes it one of the most interesting parts of Disk 2. If Disk 1 is the best snapshot of the late main build environment, `CGB_zeldaEIKOKU` is one of the clearest snapshots of how that main build was being pushed outward into region-specific English localisation work.
+
+### The Canadian Branch
+`CGB_zeldaCANDA` is much stranger. Instead of the usual `cgb` / language-overlay / `gb` split, it is a flat directory with only 40 files.
+
+Those files are almost entirely DMG-format modules and base resources:
+
+* core source like `ZMA.DMG`, `ZPL.DMG`, `ZEX.DMG`, `ZEND.DMG`, `ZTI.DMG`, and the `ZE2` to `ZE8` set
+* audio data like `BGM_1F.HEX`, `BGM_2.HEX`, and `SE.HEX`
+* graphics banks `C1.CHR` to `C8.CHR`
+
+That shape suggests the Canadian branch was not being maintained as a full parallel Color-era workspace in the same way as USA, UK, German, or French. It looks more like a compact localisation or build-prep snapshot rooted in the monochrome-compatible source path.
+
+### DEMO_zelda on Disk 2 Compared with Disk 1
+The most surprising Disk 2 result is how little its `DEMO_zelda` folder differs from Disk 1.
+
+A full recursive compare shows:
+
+* Disk 1 `DEMO_zelda`: 3113 files, 44 directories
+* Disk 2 `DEMO_zelda`: 3095 files, 43 directories
+* shared files: 3094
+* byte-identical shared files: 3085
+* changed shared files: only 9
+
+Even the major content-heavy subtrees match almost perfectly in size. `kimura`, `sgb`, `CGX`, `COLOR`, `PHOTO`, `Geki`, `ENDING`, `BACKUP`, `ATR`, `ATR2`, `MAP`, and `New_sound` all have the same file counts on both disks.
+
+That means Disk 2's `DEMO_zelda` is not a clearly different creative workspace. It is much closer to a near-clone or branch copy of the Disk 1 demo folder.
+
+### The Small Set of Real Differences
+The changed shared files are tightly clustered:
+
+* `zgeki.s` and `ZGEKI.o`
+* `zrom.s` and `zrom.o`
+* `zti.s` and `zti.o`
+* `C.isx`
+* `isdwdcmd.dat`, `isdwdrng.dat`, and `isdwdsym.dat`
+
+The biggest source difference is `zti.s`. Compared with Disk 2, the Disk 1 copy contains extra heart-container and name-handling logic, including a dedicated heart-container table and additional checks that line up neatly with the nearby `修正.txt` bug-fix note on Disk 1. `zrom.s` also looks version-marked in a useful way: Disk 1 identifies itself as a version 3 branch with heart-container fixes, while Disk 2 still looks closer to version 2.
+
+By contrast, `zgeki.s` changes are tiny and mostly look like commented-out debug or temporary marker lines being cleaned up rather than a major content rewrite.
+
+### What That Suggests
+Taken together, Disk 2 looks less like "the next big workspace after Disk 1" and more like a localisation expansion layer wrapped around an almost unchanged copy of the same demo/build environment.
+
+The new UK and Canadian folders are the genuinely new content. The demo workspace mostly serves as evidence that the branch was still anchored to nearly the same build bench, with only a few targeted source and debugger differences around versioning and late fixes.
+
+On balance, that makes Disk 1's `DEMO_zelda` look slightly newer and closer to the later fixed state, while Disk 2 preserves an almost identical but slightly older-looking branch of the same workspace.
+
+---
 # Disk 3 - Test and Support Material (/Source/Disk3)
 {% capture disk3_body %}
 Disk 3 shifts away from the cleaner region trees and toward testing and support material. It still contains a `CGB_zeldaUSA` branch, but the more unusual folders here are the test and utility workspaces.
@@ -519,3 +643,7 @@ Compared with the earlier DMG Link's Awakening leak, the CGB archive shows a muc
 That makes this one of the best surviving snapshots of how Nintendo and its collaborators were actually maintaining a late Game Boy/Game Boy Color project across multiple regions.
   </div>
 </section>
+
+---
+# References
+[^1]: [Kyoko Kimura - Zelda Dungeon Wiki, a The Legend of Zelda wiki](https://www.zeldadungeon.net/wiki/Kyoko_Kimura)

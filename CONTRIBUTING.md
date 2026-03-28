@@ -124,6 +124,8 @@ Here are some of the markdown rules:
 <div class="emoji">📚</div>
 We use the footnote Markdown format for references, all references should be at the end of the page under a H1 References heading. Each reference is numbered and can be references in multiple places throughout the page using that number like so: `[^1]`. 
 
+When a footnote appears at the end of a sentence, put the reference before the final period, like `text [^1].`, not `. [^1]`
+
 If it's a link, ensure it's a valid Markdown link so it's clickable:
 
 ```markdown
@@ -150,6 +152,21 @@ For code that could be useful to run interactively in the browser, provide the e
 
 Keep code examples in the standard Markdown format, using backticks with the language name to apply syntax highlighting.
 For assembly language use `nasm` to get the correct syntax highlighting.
+
+### Mermaid Diagrams
+Mermaid can be useful for visualising build flows, folder relationships, or how source files connect together.
+
+When using Mermaid:
+* **Use it sparingly** - Only add a diagram when it makes the structure easier to understand than a paragraph or table would.
+* **Bold the first line in each node** - If a node has a title and a second explanatory line, make the top line bold so the eye can separate the label from the explanation.
+* **Keep labels short** - Treat Mermaid like a visual summary, not a paragraph block.
+
+Example:
+```mermaid
+flowchart LR
+  A["<b>MIFES</b><br>edit source modules"] --> B["<b>ISDMG</b><br>assemble sgb_main"]
+  B --> C["<b>ISLINK</b><br>link sample image"]
+```
 
 ### Interactive Code
 Sandpack can be used to run react/typescript:

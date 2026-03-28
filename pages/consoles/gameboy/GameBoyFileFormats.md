@@ -19,57 +19,104 @@ recommend:
 - gameboy
 - fileformats
 editlink: /consoles/gameboy/GameBoyFileFormats.md
-updatedAt: '2023-04-16'
+updatedAt: '2026-03-28'
 excerpt: Find out about the most common Game Boy File formats in this post
 ---
 
 # Game Boy File Formats
+This page covers the main file formats that show up in official Nintendo Game Boy and Game Boy Color development material.
 
-## Game Boy ROM File Formats
-There are a few different file formats that you will find relating to the GameBoy which are listed below:
-* **.ISX** Official Nintendo ROM file (compiled by the assembler **ISAS**) (contains debug symbols)
-* **.GB** Original GameBoy ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
-* **.GBC** Original GameBoy Color ROM file (no debug symbols) the exact contents of the ROM chip inside the cartridge
+After looking through the Zelda DX source leak and the Super Game Boy sample package, we can now describe several of these formats much more confidently.
 
-If you backup your own games they will be created with a **.GB** or **.GBC** file extension along with most of the ROMS that can be found online. If the ROM was leaked from a first party developer such as Nintendo then they will likely be in **.ISX** format, this can easily be converted to **.GBC** with the tool **CVTISX** included in the Official GameBoy SDK.
+{% include link-to-other-post.html post="/super-game-boy-sdk/" description="For a compact sample project that shows many of these formats in practice, see the Super Game Boy SDK sample preserved in the Nintendo leak." %}
+
+---
+## ROM and Debug Images
+The most visible Game Boy output formats are the built ROM images and the debugger-ready images used inside Nintendo's Intelligent Systems toolchain.
+
+Extension | What it usually is | What we now know
+---|---|---
+`.GB` | Standard monochrome Game Boy ROM image | The raw cartridge ROM image without the extra debugger metadata carried by Nintendo's internal formats
+`.GBC` | Standard Game Boy Color ROM image | Same idea as `.GB`, but usually used for color-aware retail dumps and emulator ROMs
+`.ISX` | Intelligent Systems debugger-ready image | Not just a plain ROM. In leaked Nintendo projects it sits beside `.map`, `.prn`, and `isdwd*.dat` files, which suggests it was meant to be loaded by the debugger or ICE environment with symbol/debug context available
+`.COM` | Generic binary output used by Nintendo build workflows | This one is more overloaded than older writeups suggested. In some folders it does look like a built executable or ROM-style output, but in the Super Game Boy sample `CHRDAT.COM` is an 8 KB graphics/tile payload loaded into bank 2, not the main program image
+`.RAM` | Emulator or debugger RAM snapshot | Seen in some regional Zelda DX outputs such as `c_d.ram`, suggesting saved runtime memory for testing or debugging rather than source data
+
+If you dump your own cartridges you will normally get `.GB` or `.GBC`.
+The more interesting internal format is `.ISX`, because it belongs to the official Nintendo development flow rather than the retail cartridge image alone.
 
 The emulator **SameBoy** recently added support to play ISX files due to the **2020 Nintendo Leaks**:
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Following the... uh... recent events, I&#39;ve added ISX file format support to SameBoy, including symbol support <a href="https://t.co/Ba28bA2ARu">pic.twitter.com/Ba28bA2ARu</a></p>&mdash; Lior Halphon (@LIJI32) <a href="https://twitter.com/LIJI32/status/1254137545325260801?ref_src=twsrc%5Etfw">April 25, 2020</a></blockquote>
 
-## Official Game Boy SDK File Formats
-This SDK seems to use a number of different file formats, but it is not clear what exactly is the purpose of each.
+---
+## Source and Build Files
+The source tree itself uses a mixture of older DMG-era file types and later Color-era ones.
 
-### Game Boy Source Code File Formats
-In the Nintendo Gigaleak we found that the following file formats were used to store source code:
-* **.DMG** - Assembly source code for the Dot Matrix Game (Game Boy)
-* **.X65** - Either Famicom or Super Famicom source code 
-* **.S** - Game Boy Color assembly source code 
-* **.CVT** - Custom Conversion scripts that can be executed with FCV
+Extension | What it usually is | What we now know
+---|---|---
+`.DMG` | DMG-era assembly source module | Plain text assembly source for the original monochrome Game Boy workflow. Files like `ZMA.DMG`, `LIBDMG.DMG`, and `SGB_MAIN.DMG` are source code, not assembled outputs
+`.S` | Later assembly source module | The newer source form used heavily in Color-era projects and later refreshes of older packages. In the SGB sample, the 1998 `.s` files are extremely close to the 1994 `.DMG` sources, suggesting a syntax or workflow refresh rather than a full rewrite
+`.O` | Assembled object file | Built output from `.DMG` or `.s` source modules before final link
+`.PRN` | Assembler listing file | A very useful debugging and archaeology format. It preserves the assembled listing and helps tie source lines to the built output
+`.BAT` | DOS build or helper script | Used to edit, assemble, link, convert, or launch debugger sessions. Examples include `GAL.BAT`, `cgal.bat`, `C.BAT`, and `E.BAT`
+`.MAP` | Linker map file | Shows where code and data landed in the linked image
+`.PIF` | Project or debugger configuration file | Seen in regional Zelda DX branches such as `C_USA.PIF`, likely carrying project or debugger session settings
+`.CVT` | Conversion script or conversion input | Used with Nintendo conversion tools such as `FCV`
+`.X65` | 6502-family assembly source | More common in other Nintendo projects than Game Boy itself, but it appears in the wider leak ecosystem
 
-### Game Boy Source Code Output File Formats
-* **.COM** - Compiled Game Boy ROM file, unsure difference between this and ISX
-* **.O** - Assembled output of a .DMG/.S/.X65 Source code file
-* **.HEX** - Plain data file for including in the ROM - could be anything
-* **.BIN** - Binary file for including in the ROM - could be anything
+One of the more useful lessons from the leaked folders is that Nintendo did not keep source, objects, maps, listings, and debugger files neatly separated.
+Real project folders often mix them together in the same working directory.
 
-### Graphics File Formats
-We know the following file formats are related to Graphics on the Game Boy (Color) but we are not sure the exact purpose of all of them (most were seen in Zelda DX source code):
-* **.CHR** - Character Graphics Data from Famicom and Game Boy (2 bits per pixel planar)
-* **.CGX** - Seems to be exactly the same as .CHR (2 bits per pixel planar)
-* **.CGE** - Character Graphics data (For Famicom?)
-* **.DCG** - Character Graphics data (for DMG Game Boy?)
-* **.CCD** - ?
-* **.CSD** - Possibly compiled to .CGX
-* **.CDT** - Color Data Table? (related to CSD)
-* **.COL** - Color Palette? (Related to CDT)
+---
+## Graphics, Audio, and Data Files
+The asset side of the Game Boy workflow is just as revealing as the code side.
+The Zelda DX folders are especially useful here because they preserve active art, layout, and map work rather than just final ROMs.
 
-### Unknown File Formats
-Most of these have been seen in the Zelda DX Gigaleak but we are unclear what exactly they are.
+Extension | What it usually is | What we now know
+---|---|---
+`.CHR` | Character/tile graphics | Standard 2bpp tile graphics used by the Game Boy family. Files like `C1.CHR` through `C8.CHR` appear repeatedly in both DMG and CGB branches
+`.CGX` | Graphics resource file | Very close in role to `.CHR`, but used much more heavily in the Color-era content folders. In Zelda DX these hold title graphics, event graphics, room graphics, UI assets, and region-specific art
+`.HEX` | Plain text or assembler-friendly data blob | In Nintendo Game Boy projects this is often audio-related rather than generic random data. Zelda DX uses `BGM_1.HEX`, `BGM_2.HEX`, `BGM_1F.HEX`, and `SE.HEX` for music and sound effect content
+`.BIN` | Raw binary data blob | A generic binary payload. In Zelda DX, folders like `New_sound` contain binary exports such as `bgm_1.bin`, `bgm_2.bin`, and `se.bin`
+`.CDT` | Color definition or color layout data | Strongly suggested by the `COLOR` and `COLOR2` folders in Zelda DX, where large banks of `.CDT` files sit beside graphics rather than code
+`.COL` | Color or palette-related data | Likely related to palette or color layout workflows, though the leaked Game Boy examples are much clearer for `.CDT` than for `.COL`
+`.SCR` | Screen or layout resource | Much more than a vague "screen file". In Zelda DX these appear as room and menu layout resources such as `ROOM20.SCR`, `ROOM20c.SCR`, `name_1.scr`, and `TEST1.SCR`
+`.MDT` | Map data file | Seen concretely in Zelda DX as `zel_map1.MDT` and `zel_map2.MDT`, which strongly supports the idea that it is editable map data
+`.PDT` | Panel or attribute-related data | Found beside `.PNL` files in `ATR` and `ATR2`, suggesting layout or attribute resources rather than code
+`.PNL` | Panel or attribute layout resource | The Zelda DX `ATR2` folders make this much less mysterious than before. These look like editor-produced panel or attribute files used alongside other layout resources
 
-* **.SCR** - Screen file maybe containing location of character tiles in a level?
-* **.ICE** - Something to do with the In-Circuit-Emulator?
-* **.MDT** - Map Data Table? (Something to do with Game Maps)
-* **.PDT** - Pattern Data Table?
-* **.PNL** - Pattern Number L ? (Has file header: NAK1989 S-CG-CAD Ver 1.23)
+The broad pattern is that Nintendo's Game Boy projects often kept graphics, color definitions, maps, and layout files as their own editable layers rather than baking everything directly into the source code.
+
+---
+## ICE and Debugger Support Files
+Some of the strangest extensions in the leak make more sense once you look at the debugger workflow rather than the game code alone.
+
+Extension | What it usually is | What we now know
+---|---|---
+`.ICE` | ICE helper script or opaque debugger-related binary | This extension is overloaded. In the SGB sample, `START.ICE` is a tiny text startup script that tells the debugger what to load. In Zelda DX, files like `RZ.ICE`, `RZ1.ICE`, and `rchr.ICE` look more like binary blobs or packed data tied to the same broader toolchain
+`.DAT` | Debugger sidecar data | Files such as `isdwdcmd.dat`, `isdwdrng.dat`, and `isdwdsym.dat` were generated alongside builds and appear to hold debugger command, range, and symbol information
+`.ISX` | Debugger image with symbol/debug context | Worth repeating here because it sits at the boundary between ROM output and debugger workflow
+`.RAM` | Runtime memory snapshot | Useful for preserving machine state during debugging or test runs
+
+The SGB sample is especially useful because it shows how these pieces fit together.
+`C.BAT` assembles and links the sample, `isd` launches the debugger, and `START.ICE` tells it to load `SGB_MAIN` plus the `CHRDAT.COM` graphics bank at the right address.
+
+That is also why the Zelda DX folders are full of `isdwd*.dat` files.
+They are part of the debugger-facing side of Nintendo's Intelligent Systems development environment.
+
+{% include link-to-other-post.html post="/zelda-links-awakening-dx" description="To see a real-world production workspace, see the Zelda Link's Awakening DX source archive." %}
+
+---
+## Quick Notes on the Toolchain
+The file formats only really make sense when viewed as part of the wider Game Boy development flow.
+
+Tool | Role
+---|---
+`MIFES` | Source editor used in older DOS-era workflows
+`ISDMG` | Older assembler used with `.DMG` source modules
+`ISLINK` | Linker used in the older DMG workflow
+`isas32` | Later assembler used heavily in Color-era branches
+`islk32` | Later linker used with the newer assembler flow
+`isd` | Debugger front end used with ICE startup scripts and debugger images
 
 

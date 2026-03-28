@@ -241,7 +241,7 @@ function isInView(element) {
     return (elementTop >= scrollTop && elementTop <= scrollTop + windowHeight);
   }
 
-    function lazyLoad() {
+function lazyLoad() {
       var card_images = document.querySelectorAll('.lazy-load');
 
       // loop over each lazy loadable image
@@ -262,6 +262,45 @@ function isInView(element) {
       });
 
     }
+
+function initializeMermaidDiagrams() {
+  if (typeof mermaid === "undefined") {
+    return;
+  }
+
+  var mermaidBlocks = document.querySelectorAll("pre code.language-mermaid, pre code.lang-mermaid");
+
+  mermaidBlocks.forEach(function(codeBlock, index) {
+    var pre = codeBlock.parentElement;
+    if (!pre || pre.dataset.mermaidProcessed === "true") {
+      return;
+    }
+
+    var mermaidContainer = document.createElement("div");
+    mermaidContainer.className = "mermaid";
+    mermaidContainer.textContent = codeBlock.textContent;
+    mermaidContainer.id = "mermaid-diagram-" + index;
+    pre.replaceWith(mermaidContainer);
+  });
+
+  mermaid.initialize({
+    startOnLoad: false,
+    securityLevel: "loose",
+    theme: "default"
+  });
+
+  if (typeof mermaid.run === "function") {
+    mermaid.run({
+      querySelector: ".mermaid"
+    });
+  } else if (typeof mermaid.init === "function") {
+    mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  initializeMermaidDiagrams();
+});
 
   function setupCarousel() {
     var items = 1;

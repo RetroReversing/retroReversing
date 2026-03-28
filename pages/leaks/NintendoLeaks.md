@@ -43,6 +43,7 @@ An updated version of the **Oman Archive** was released in 2020 at the same time
 Files Leaked:
 * oman.rar
 
+We have a post on the contents of the archive here:
 {% include link-to-other-post.html post="/oman-archive" description="For more information on the Oman Archive check out this post." %}
 
 ---
@@ -53,24 +54,28 @@ Files Leaked:
 * **OriginalSouce.zip** - Pokemon Blue and Yellow source code (password: poke1024) (also released in a file called **osrc.zip** 
 * **Gen2.7z** - Source code for Pokemon Gold/Silver, released on 24th April 2020
 
+We have a post on the contents of the **OriginalSouce.zip** archive here:
+{% include link-to-other-post.html post="/pokemon-original-source-code" description="For more information on the Pokemon leak check out this post." %}
+
 ---
 # BroadOn Archive (2nd May 2020)
 In early May 2020 a leak of Nintendo Source Code hit the popular image board 4chan. The material contained in this leak was obtained by a young hacker known as **Zammis Clark**.
 
 Files leaked:
-* unsorted.zip
+* **unsorted.zip**
 
+We have a post on the contents of the archive here:
 {% include link-to-other-post.html post="/broadon-archive" description="For more information on the Paladin leak check out this post." %}
 
 ---
 # Citrus Leak (May 24th 2020)
 The page on the Citrus leak is currently under development but here is a list of files that were included in the leak:
-* ctr.7z
-* ctr-etc.7z
-* svn_v1.068.zip
+* **ctr.7z**
+* **ctr-etc.7z**
+* **svn_v1.068.zip**
 
 ---
-# Gigaleak (24th July)
+# Gigaleak (24th July 2020)
 On the 24th of July 2020, the mother-load (2GB) was uploaded to a thread on 4chan and was dubbed the  `Gigaleak`. This is a continuation of the leaks that were obtained from a iQue/BroadOn/Routefree hack earlier in the year. 
 
 Files Leaked:
@@ -81,15 +86,18 @@ Files Leaked:
 * **agb_bootrom_trunk.zip** - Game Boy Advance Boot ROM
 * **other.7z** - Source code for DMG, GBC, SNES games
 
+We have a post on the contents of the archives here:
 {% include link-to-other-post.html post="/gigaleak" description="For more information on the original Gigaleak check out this post." %}
 
 ---
-# Gigaleak 2 (25th July)
+# Gigaleak 2 (25th July 2020)
 On the 25th of July 2020, the day after the `Gigaleak`, its sequel Gigaleak 2 was uploaded to a thread on 4chan. This is a continuation of the leaks that were obtained from a iQue/BroadOn/Routefree hack earlier in the year. 
 
 Files Leaked:
-* bbgames.7z (just contains bbgames.tar)
+* **bbgames.7z** (just contains bbgames.tar)
 
+
+We have a post on the contents of the archive here:
 {% include link-to-other-post.html post="/gigaleak2" description="For more information on the second Gigaleak check out this post." %}
 
 ---
@@ -97,8 +105,10 @@ Files Leaked:
 The Emerald leak occurred on the 2nd of September 2020 and included about 700MB of content related to the Wii and gamecube. So this would not quite qualify as a "Gigaleak" but it was definitely from the same source as the Gigaleak.
 
 Files Leaked:
-* emeralds.7z (742MB)
+* **emeralds.7z** (742MB)
 
+
+We have a post on the contents of the archive here:
 {% include link-to-other-post.html post="/emeraldleak" description="For more information on the Emerald leak check out this post." %}
 
 ---
@@ -108,6 +118,7 @@ The Paladin leak occurred on the 30th of September 2020 and included about 2.4GB
 Files Leaked:
 * paladin.7z (2.44GB)
 
+We have a post on the contents of the archive here:
 {% include link-to-other-post.html post="/paladinleak" description="For more information on the Paladin leak check out this post." %}
 
 ---

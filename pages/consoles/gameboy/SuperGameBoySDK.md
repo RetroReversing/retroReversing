@@ -3,7 +3,7 @@ layout: post
 tags:
 - gameboy
 - sdk
-- supergameboy
+- leak
 - sourcecode
 title: Super Game Boy SDK Sample and BIOS Files
 thumbnail: /public/NintendoGameBoyThumb.png
@@ -20,7 +20,7 @@ breadcrumbs:
 recommend:
 - gameboy
 - sdk
-- supergameboy
+- leak
 editlink: /consoles/gameboy/SuperGameBoySDK.md
 updatedAt: '2026-03-28'
 ---
@@ -132,6 +132,16 @@ The matching `.s~` files show that even this small refresh kept editor backup co
 ## libdmg.s
 `libdmg.s` is the foundation layer. It is the least glamorous library in the package, but it is also the one that makes the other two practical to reuse.
 
+```mermaid
+flowchart TD
+  A["<b>libdmg.s</b><br>core DMG helper library"] --> B["<b>Input</b><br>JOYPAD / CONT"]
+  A --> C["<b>Memory</b><br>RAMFILL / RAMC / DATA_MOV"]
+  A --> D["<b>Timing</b><br>WAIT / VB_WAIT"]
+  A --> E["<b>Objects</b><br>OBJPUT1 / OBJPUT2 / OBJPUT3 / OBJBG / BGOBJ"]
+  A --> F["<b>Hardware</b><br>DMASET / LCDC_OFF"]
+  A --> G["<b>Control</b><br>IDJMP / arithmetic and range macros"]
+```
+
 ### What It Covers
 At the top it defines the kind of macros you would expect in a shared internal utility file: `PUSHALL`, `POPALL`, `LDM`, `ADD2`, `ADDM`, `SUBM`, `INCM`, `DECM`, `ADDW`, `SUBW`, and `RNG_CHK`. Those turn repetitive 8-bit and 16-bit memory/register work into shorter assembly call sites.
 
@@ -157,6 +167,15 @@ Because this file also carries both object-placement helpers and generic data mo
 ## libbg.s
 `libbg.s` sits one level higher. Where `libdmg.s` helps the CPU talk to memory and hardware safely, `libbg.s` helps the program turn that into an actual visible screen.
 
+```mermaid
+flowchart TD
+  A["<b>libbg.s</b><br>screen and text helper library"] --> B["<b>VRAM setup</b><br>VRAMSET / BGCHK / BGCHK2"]
+  A --> C["<b>Tile placement</b><br>BGPUT1 / BGPUT2"]
+  A --> D["<b>Text output</b><br>STR_PUT / HEX_PUT / MEM_PUT"]
+  A --> E["<b>Japanese text</b><br>KAN_PUT"]
+  A --> F["<b>Virtual BG buffer</b><br>VV_RAMC<br>WIN_PUT / BLOCK_COPY"]
+```
+
 ### What It Covers
 Its macro surface already shows the intended use:
 
@@ -181,6 +200,15 @@ That makes `libbg.s` feel like more than a text printer. It is a small presentat
 ---
 ## libsgb2.s
 `libsgb2.s` is the genuinely Super Game Boy-specific part of the stack. It is the layer that talks through the Game Boy joypad register interface to reach the SGB host on the SNES side.
+
+```mermaid
+flowchart TD
+  A["<b>libsgb2.s</b><br>Super Game Boy helper library"] --> B["<b>Command transfer</b><br>SGBTR"]
+  A --> C["<b>Timing</b><br>WAIT4"]
+  A --> D["<b>Hardware detection</b><br>SGBCHK"]
+  A --> E["<b>Multiplayer input</b><br>CONT4"]
+  A --> F["<b>VRAM-backed</b><br>transfers<br>SGBST"]
+```
 
 ### What It Covers
 The core routines line up neatly with the main SGB jobs:
@@ -258,6 +286,19 @@ The source side is small, but it is packed with useful clues about how Nintendo 
 
 ### Bank Layout and Includes
 The file is split into explicit bank groups. `BANK0` starts by pulling in `sgb_ini.s`, then the three shared libraries, while `BANK1` pulls in `sgb_data.s`. In the 1998 `.s` version there is also a `BANK2` section that uses `libbin chrdat.com`, which makes the character data payload a first-class part of the rebuilt project instead of an external afterthought.
+
+```mermaid
+flowchart TD
+  A["<b>sgb_main.s</b>"] --> B["<b>BANK0</b>"]
+  A --> C["<b>BANK1</b>"]
+  A --> D["<b>BANK2</b>"]
+  B --> E["<b>sgb_ini.s</b><br>RAM, registers, cartridge header"]
+  B --> F["<b>libdmg.s</b><br>core DMG helpers"]
+  B --> G["<b>libbg.s</b><br>screen and text helpers"]
+  B --> H["<b>libsgb2.s</b><br>SGB transport and detection"]
+  C --> I["<b>sgb_data.s</b><br>messages, stage data, command packets"]
+  D --> J["<b>CHRDAT.COM</b><br>8 KB graphics bank"]
+```
 
 That is one of the clearest differences from the older `SGB_MAIN.DMG` file. The earlier source is extremely close overall, but the refreshed version adds more explicit bank-group structure, keeps the newer `onbankgroup` / `isdmg` style directives, and ends by wiring `CHRDAT.COM` directly into the rebuilt layout.
 
@@ -362,7 +403,7 @@ The helper files around the source tell a second story: not just what the sample
 The older flow is preserved almost perfectly in tiny helper files:
 
 * `C.BAT` assembles `sgb_main` with `ISDMG`, links it with `ISLINK`, and launches the debugger with `isd START`
-* `E.BAT` opens the three library modules plus `SGB_DATA.DMG` and `SGB_MAIN.DMG` together in `MIFES`
+* `E.BAT` opens the three library modules plus `SGB_DATA.DMG` and `SGB_MAIN.DMG` together in `MIFES`, a Japanese programmer's text editor used in DOS-era development environments[^1]
 * `START.ICE` tells the debugger to load `SGB_MAIN`, map `CHRDAT.COM` into bank 2 at `$4000`, then run
 
 That combination makes the original workflow very legible. A developer edits the source modules, assembles and links them, loads the external character data file into the expected bank, and runs the sample under ICE.
@@ -385,18 +426,33 @@ The hardware page is useful context here because the two sides fit together neat
 
 ### How the Workflow Fit Together
 Taken as a whole, the 1994 side of the package suggests a workflow like this:
-
 * source edited in `MIFES`
 * program assembled with `ISDMG`
 * linked with `ISLINK`
 * launched through `isd`
 * runtime configured by `START.ICE`
-* executed against Nintendo's DMG ICE-style development hardware
+* executed against Nintendo's DMG ICE development hardware
+
+```mermaid
+flowchart LR
+  A["<b>MIFES</b><br>edit source modules"] --> B["ISDMG<br>assemble sgb_main"]
+  B --> C["<b>ISLINK</b><br>link sample image"]
+  C --> D["<b>isd</b><br>launch debugger"]
+  D --> E["<b>START.ICE</b><br>load SGB_MAIN and CHRDAT.COM"]
+  E --> F["<b>DMG ICE</b><br>development hardware"]
+```
 
 That is a useful distinction, because the SGB sample mostly preserves the software-facing half of the environment. It shows the commands, load scripts, and debugger metadata that would have fed into the hardware workflow documented on the separate development-hardware page.
 
 ### The 1998 Refresh
 The later workflow is concentrated in `cgal.bat`, `ISAS32.EXE`, and `ISLK32.EXE`. `cgal.bat` assembles with `isas32 -jp sgb_main` and then links with `islk32`, emitting `sgb` as the target image with explicit bank base addresses.
+
+```mermaid
+flowchart LR
+  G["<b>1998 refresh</b><br>sgb_main.s / cgal.bat"] --> H["<b>isas32</b><br>assemble"]
+  H --> I["<b>islk32</b><br>link"]
+  I --> J["<b>Outputs</b><br>sgb.isx / sgb_main.o / sgb_main.prn"]
+```
 
 That newer flow lines up neatly with the source refresh in `sgb_main.s`, where the project layout is expressed more explicitly and `CHRDAT.COM` is folded into the assembled structure.
 
@@ -437,3 +493,7 @@ The most useful way to think about this folder is:
 * it was still useful enough in late 1998 to be refreshed and rebuilt there with newer Game Boy tools
 
 That makes it a good example of how Nintendo-era Game Boy development environments could accumulate not just one game's source tree, but also old libraries, debugger setups, sample code, and reusable platform support material.
+
+---
+# References
+[^1]: [TextEditors Wiki: MIFES](https://texteditors.org/cgi-bin/wiki.pl?MIFES)

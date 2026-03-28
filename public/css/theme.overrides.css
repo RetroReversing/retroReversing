@@ -347,3 +347,35 @@ rr-sandpack {
 }
 
 /* #endregion Phone screen overrides  */
+
+/* #region Mermaid diagrams */
+.post .mermaid {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.post .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.post .mermaid .label,
+.post .mermaid .nodeLabel,
+.post .mermaid .edgeLabel,
+.post .mermaid foreignObject div {
+  color: #222 !important;
+}
+
+.post .mermaid .node rect,
+.post .mermaid .node circle,
+.post .mermaid .node ellipse,
+.post .mermaid .node polygon {
+  fill: #eef4ff !important;
+  stroke: #5c86c5 !important;
+}
+
+.post .mermaid .edgePath .path,
+.post .mermaid .flowchart-link {
+  stroke: #4d4d4d !important;
+}
+/* #endregion Mermaid diagrams */
