@@ -45,8 +45,8 @@ nav:
     - '/'
 
 # Where are tags and categories displayed
-tag_page: '/blog/tags/'
-category_page: '/blog/categories/'
+# tag_page: '/blog/tags/'
+# category_page: '/blog/categories/'
 
 hero:
   image: /public/img/we_will_be_giants_by_yalestewart.jpg
@@ -72,45 +72,45 @@ category_images:
   jaguar: /public/consoles/Atari Jaguar.png
   lynx: /public/consoles/Atari Lynx.png
   atari_st: /public/consoles/Atari ST.png
-  bookazines: /public/images/RetroReversingLogoSmall.png
-  cheatcartridge: /public/images/RetroReversingLogoSmall.png
+  bookazines: /public/images/Magazine.png
+  cheatcartridge: /public/images/Hardware.png
   codemasters: /public/images/RetroReversingLogoSmall.png
   colecovision: /public/consoles/Colecovision.png
   commodore_64: /public/consoles/Commodore 64.png
   commodore_amiga_cd32: /public/consoles/Commodore Amiga CD32.png
   commodore_cdtv: /public/consoles/Commodore CDTV.png
   computer_modern: /public/consoles/Computer Modern.png
-  computer_old_design: /public/consoles/Computer Old Design.png
+  computer_old_design: /public/consoles/PC.png
   cracking: /public/images/RetroReversingLogoSmall.png
-  crossproducts: /public/images/RetroReversingLogoSmall.png
-  datel: /public/images/RetroReversingLogoSmall.png
-  devkit: /public/consoles/Tools.jpg
+  crossproducts: /public/images/Magazine.png
+  datel: /public/images/PC.png
+  devkit: /public/consoles/Hardware.png
   disassemblers: /public/images/RetroReversingLogoSmall.png
-  dos: /public/consoles/Computer Old Design.png
+  dos: /public/consoles/PC.png
   vectrex: /public/consoles/GCE Vectrex.png
   ds: /public/consoles/Nintendo DS.png
   fairchild-channel-f: /public/consoles/Fairchild Channel F.png
-  fileformats: /public/consoles/Computer Old Design.png
+  fileformats: /public/consoles/PC.png
   magnavox_odyssey_2: /public/consoles/Magnavox Odyssey 2.png
   magnavox_odyssey: /public/consoles/Magnavox Odyssey.png
   gamecom: /public/consoles/Game.com.png
-  gameengines: /public/consoles/Tools.jpg
+  gameengines: /public/consoles/PC.jpg
   games: /public/images/RetroReversingLogoSmall.png
-  ghidra: /public/consoles/Computer Old Design.png
+  ghidra: /public/consoles/PC.png
   handhelds: /public/consoles/Handhelds.png
-  hardware: /public/consoles/Computer Old Design.png
+  hardware: /public/consoles/Hardware.png
   incomplete: /public/images/RetroReversingLogoSmall.png
-  industry: /public/images/RetroReversingLogoSmall.png
+  industry: /public/images/Magazine.png
   intellivision: /public/consoles/Intellivision.png
-  introduction: /public/consoles/Computer Old Design.png
-  leak: /public/images/RetroReversingLogoSmall.png
-  magazines: /public/images/RetroReversingLogoSmall.png
-  maths: /public/consoles/Computer Old Design.png
+  introduction: /public/consoles/PC.png
+  leak: /public/consoles/Leaks.png
+  magazines: /public/images/Magazine.png
+  maths: /public/consoles/PC.png
   matell_intellivision: /public/consoles/Matell Intellivision.png
-  360: /public/consoles/Microsoft Xbox 360.png
+  "360": /public/consoles/Microsoft Xbox 360.png
   xbox360: /public/consoles/Microsoft Xbox 360.png
   xbox: /public/consoles/Microsoft Xbox.png
-  msx: /public/consoles/Computer Old Design.png
+  msx: /public/consoles/PC.png
   news: /public/images/RetroReversingLogoSmall.png
   nec_pc_engine_cd: /public/consoles/Nec PC Engine CD.png
   nec_pc_engine: /public/consoles/Nec PC Engine.png
@@ -126,11 +126,11 @@ category_images:
   gbc: /public/consoles/Nintendo Game Boy Color.png
   gameboy: /public/consoles/Nintendo Game Boy.png
   gamecube: /public/consoles/Nintendo Gamecube.png
-  pc: /public/consoles/Computer Old Design.png
-  pc-88: /public/consoles/Computer Old Design.png
+  pc: /public/consoles/PC.png
+  pc-88: /public/consoles/PC.png
   PokemonMini: /public/consoles/PokemonMini.png
   satellaview: /public/consoles/Nintendo Satellaview.png
-  programming: /public/images/RetroReversingLogoSmall.png
+  programming: /public/images/PC.png
   ps1: /public/consoles/Sony Playstation.png
   ps2: /public/consoles/Sony PlayStation 2.png
   ps3: /public/consoles/Sony Playstation 3.png
@@ -145,7 +145,7 @@ category_images:
   pinball: /public/consoles/Pinball.png
   pokemonmini: /public/consoles/PokemonMini.png
   segacd: /public/consoles/SEGA CD.png
-  sdk: /public/consoles/Tools.jpg
+  sdk: /public/consoles/PC.png
   snk_neo_geo_pocket_color: /public/consoles/SNK Neo Geo Pocket Color.png
   snk_neo_geo_pocket: /public/consoles/SNK Neo Geo Pocket.png
   snk_neo_geo_cd: /public/consoles/SNK Neo-Geo CD.png
@@ -168,12 +168,12 @@ category_images:
   sony_playstation_2: /public/consoles/Sony PlayStation 2.png
   sony_playstation_3: /public/consoles/Sony Playstation 3.png
   sony_playstation: /public/consoles/Sony Playstation.png
-  sourcecode: /public/consoles/Computer Old Design.png
+  sourcecode: /public/consoles/PC.png
   super_nintendo_entertainment_system: /public/consoles/Super Nintendo Entertainment System.png
-  symbols: /public/consoles/Computer Old Design.png
+  symbols: /public/consoles/PC.png
   turbografx16: /public/consoles/TurboGrafx-16.png
-  tools: /public/images/RetroReversingLogoSmall.png
-  tutorial: /public/consoles/Tools.jpg
+  tools: /public/consoles/PC.png
+  tutorial: /public/consoles/PC.png
   vita: /public/consoles/Sony PSVita.png
   wonderswan_color: /public/consoles/WonderSwan Color.png
   wonderswan: /public/consoles/WonderSwan.png

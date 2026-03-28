@@ -1,7 +1,8 @@
 ---
-title: Let's reverse - Super Mario Bros (NES)
+title: Let's reverse Super Mario Bros (NES)
 layout: post
 permalink: /super-mario-bros
+category: nes
 tags:
 - nes
 - games

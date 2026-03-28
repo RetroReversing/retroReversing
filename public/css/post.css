@@ -188,7 +188,7 @@ blockquote {
 /*  Post header thumnail (console icon) should be at least 50px (needed for svgs)  */
 .post-header-icon {
   min-height: 50px !important;
-  max-height: 75px !important;
+  max-height: 100px !important;
 }
 
 /* Set width static to avoid page layout shifting */
