@@ -11,16 +11,6 @@ thumbnail: /public/NintendoGameBoyThumb.png
 image: /public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 editlink: /consoles/gameboy/GameboyDevelopmentKitHardware.md
-videocarousel:
-  - title: GB Smart Development kit
-    image: https://img.youtube.com/vi/GYwV4Y1t2sQ/hqdefault.jpg
-    youtube: GYwV4Y1t2sQ
-  - title: Wide Boy
-    image: https://img.youtube.com/vi/llIz6qjDfLc/hqdefault.jpg
-    youtube: llIz6qjDfLc
-  - title: Famicom Wide Boy
-    image: https://img.youtube.com/vi/zOF4Wm2_6oM/hqdefault.jpg
-    youtube: zOF4Wm2_6oM
 breadcrumbs:
   - name: Home
     url: /
@@ -120,7 +110,9 @@ The **WideBoy** was used to present Game Boy games on a bigger screen such as a 
 </div>
 </section>
 
-{% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="**Chris M Covell** has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zOF4Wm2_6oM?si=XUyRkxS8erjR6Ygi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+{% include link-to-other-site.html url="https://www.chrismcovell.com/wideboy.html" description="Chris M Covell has an excellent page on the WideBoy" image="https://www.chrismcovell.com/images/WideBoyFamilyM.jpg" title="Nintendo WideBoy"  %}
 
 ## N64 Wide Boy (Wide-Boy64 or WideBoy64) (DMG & CGB)
 <section class="postSection">

@@ -1,0 +1,31 @@
+<div class="rr-file-card">
+  <img class="geopattern" data-title="{{ include.title }}" />
+  <h3>{{ include.title }}</h3>
+  <ul>
+    {% assign raw_items = include.items | to_s | strip | split: '
+' %}
+    {% for raw_line in raw_items %}
+      {% assign line = raw_line | strip %}
+      {% if line != '' %}
+        {% assign item = line | remove_first: '- ' | strip %}
+        {% assign parts = item | split: '::' %}
+        {% assign item_type = parts[0] | default: '' | strip %}
+        {% assign item_name = parts[1] | default: '' | strip %}
+        {% assign item_args = parts | slice: 2, 99 | join: '::' | strip %}
+        <li>
+          <span>{{ item_type }}</span>
+          {% if item_args != '' %}
+            {{ item_name }}<span class="rr-func-args">{{ item_args }}</span>
+          {% else %}
+            {{ item_name }}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+  <div class="rr-file-stats">
+    <div class="rr-file-stat rr-file-stats-functions">{{ include.functions }}</div>
+    <div class="rr-file-stat rr-file-stats-variables">{{ include.variables }}</div>
+    <div class="rr-file-stat rr-file-stats-lines">{{ include.lines }}</div>
+  </div>
+</div>

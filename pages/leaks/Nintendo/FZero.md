@@ -149,355 +149,295 @@ setbomb | .c | Set bomb data takes in a slit address and a Panel data file (.PNL
 slitpress | .c | Slit data compress takes in .SLT and compresses to .SLT2
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="armap.c" />
-  <h3>armap.c</h3>
-  <ul>
-    <li><span>unshort</span> pointer[32]</li> 
-    <li><span>unshort</span> length[32]</li> 
-    <li><span>int</span> counter</li> 
-    <li><span>int</span> address</li> 
-    <li><span>int</span> datasize</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> set_mapname<span>(char* ss)</span></li> 
-    <li><span></span> archive<span>(char* fname, FILE wp)</span></li> 
-    <li><span></span> save_pointer<span>(char* fname)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">136</div>  </div>
- </div>
+{% capture armap_items %}
+- unshort::pointer[32]
+- unshort::length[32]
+- int::counter
+- int::address
+- int::datasize
+- ::main::(int argc, char* argv)
+- ::set_mapname::(char* ss)
+- ::archive::(char* fname, FILE wp)
+- ::save_pointer::(char* fname)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="carmap.c" />
-  <h3>carmap.c</h3>
-  <ul>
-    <li><span>arptr</span> sltptr[MAXSLT]</li> 
-    <li><span>unchar</span> pnlbuf[MAXPNL][4]</li> 
-    <li><span>unshort</span> sltbuf[MAXSLT][16]</li> 
-    <li><span>unshort</span> rombuf[MAXROM][16]</li> 
-    <li><span>unshort</span> wldbuf[WLDLNY][WLDLNX]</li> 
-    <li><span>unshort</span> sltofs[MAXSLT]</li> 
-    <li><span>int</span> pnlcnt</li> 
-    <li><span>int</span> sltcnt</li> 
-    <li><span>int</span> romcnt</li> 
-    <li><span>int</span> wldcnt</li> 
-    <li><span>int</span> sltlen</li> 
-    <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> set_sname<span>(char* ss)</span></li> 
-    <li><span></span> makemap<span>(int nn, char fname)</span></li> 
-    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
-    <li><span></span> setpnl<span>(unchar *pnl)</span></li> 
-    <li><span></span> setslt<span>(unshort *slt)</span></li> 
-    <li><span></span> setroom<span>(unshort *rom)</span></li> 
-    <li><span></span> setwld<span>(unshort wld)</span></li> 
-    <li><span></span> memcmp<span>(register unchar *s1, register unchar *s2, register intnn)</span></li> 
-    <li><span></span> memcpy<span>(register unchar *dd, register unchar *ss, register int)</span></li> 
-    <li><span></span> arslit<span>()</span></li> 
-    <li><span></span> fit_slit<span>(int ln, int sc)</span></li> 
-    <li><span></span> int_slpt<span>()</span></li> 
-    <li><span></span> st_slofs<span>()</span></li> 
-    <li><span></span> genmap<span>(char *fname)</span></li> 
-    <li><span></span> genpnl<span>(FILE *wp, int ad)</span></li> 
-    <li><span></span> genslt<span>(FILE *wp, int ad)</span></li> 
-    <li><span></span> genrom<span>(FILE *wp, int ad)</span></li> 
-    <li><span></span> genwld<span>(FILE *wp, int ad)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">20</div>    <div class="rr-file-stat rr-file-stats-lines">500</div>  </div>
- </div>
+{% capture carmap_items %}
+- arptr::sltptr[MAXSLT]
+- unchar::pnlbuf[MAXPNL][4]
+- unshort::sltbuf[MAXSLT][16]
+- unshort::rombuf[MAXROM][16]
+- unshort::wldbuf[WLDLNY][WLDLNX]
+- unshort::sltofs[MAXSLT]
+- int::pnlcnt
+- int::sltcnt
+- int::romcnt
+- int::wldcnt
+- int::sltlen
+- int::clrcode
+- ::main::(int argc, char* argv)
+- ::set_sname::(char* ss)
+- ::makemap::(int nn, char fname)
+- ::chkclr::(unchar *buf)
+- ::setpnl::(unchar *pnl)
+- ::setslt::(unshort *slt)
+- ::setroom::(unshort *rom)
+- ::setwld::(unshort wld)
+- ::memcmp::(register unchar *s1, register unchar *s2, register intnn)
+- ::memcpy::(register unchar *dd, register unchar *ss, register int)
+- ::arslit::()
+- ::fit_slit::(int ln, int sc)
+- ::int_slpt::()
+- ::st_slofs::()
+- ::genmap::(char *fname)
+- ::genpnl::(FILE *wp, int ad)
+- ::genslt::(FILE *wp, int ad)
+- ::genrom::(FILE *wp, int ad)
+- ::genwld::(FILE *wp, int ad)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="chrar.c" />
-  <h3>chrar.c</h3>
-  <ul>
-    <li><span>int</span> chrlen[6]</li> 
-    <li><span>int</span> chralc[6][40]</li> 
-    <li><span>char</span> chrbuf[DSIZE][32]</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> archive<span>(int mo,FILE *tp, FILE *wp)</span></li> 
-    <li><span></span> flip<span>(unchar *dat, *buf, int len)</span></li> 
-    <li><span></span> getnum<span>(FILE *fp)</span></li> 
-    <li><span></span> readchar<span>(int argc,char **argv, buf)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">156</div>  </div>
- </div>
+{% capture chrar_items %}
+- int::chrlen[6]
+- int::chralc[6][40]
+- char::chrbuf[DSIZE][32]
+- ::main::(int argc, char* argv)
+- ::archive::(int mo,FILE *tp, FILE *wp)
+- ::flip::(unchar *dat, *buf, int len)
+- ::getnum::(FILE *fp)
+- ::readchar::(int argc,char **argv, buf)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="enemy.c" />
-  <h3>enemy.c</h3>
-  <ul>
-    <li><span>struct</span> patndata pat[12]</li> 
-    <li><span>short</span> patn00[24]</li> 
-    <li><span>short</span> patn01[20]</li> 
-    <li><span>short</span> patn02[12]</li> 
-    <li><span>short</span> patn03[9]</li> 
-    <li><span>short</span> patn04[6]</li> 
-    <li><span>short</span> patn05[4]</li> 
-    <li><span>short</span> patn06[2]</li> 
-    <li><span>short</span> patn07[1]</li> 
-    <li><span>short</span> patn08[12]</li> 
-    <li><span>short</span> patn09[6]</li> 
-    <li><span>short</span> patn10[4]</li> 
-    <li><span>short</span> patn11[2]</li> 
-    <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
-    <li><span>int</span> chrcnt</li> 
-    <li><span>int</span> total</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(char* ss)</span></li> 
-    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
-    <li><span></span> getnum<span>(char* dat)</span></li> 
-    <li><span></span> readchar<span>(char* fname)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">18</div>    <div class="rr-file-stat rr-file-stats-lines">221</div>  </div>
- </div>
+{% capture enemy_items %}
+- struct::patndata pat[12]
+- short::patn00[24]
+- short::patn01[20]
+- short::patn02[12]
+- short::patn03[9]
+- short::patn04[6]
+- short::patn05[4]
+- short::patn06[2]
+- short::patn07[1]
+- short::patn08[12]
+- short::patn09[6]
+- short::patn10[4]
+- short::patn11[2]
+- unchar::chrbuf[DSIZE][32]
+- int::chrcnt
+- int::total
+- ::main::(int argc, char* argv)
+- ::init_ptr::()
+- ::set_cname::(char* ss)
+- ::archive::(FILE *wp, char dat)
+- ::getnum::(char* dat)
+- ::readchar::(char* fname)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkback.c" />
-  <h3>mkback.c</h3>
-  <ul>
-    <li><span>int</span> bincnt</li> 
-    <li><span>int</span> norcnt</li> 
-    <li><span>int</span> comcnt2</li> 
-    <li><span>int</span> comcnt3</li> 
-    <li><span>int</span> nulcnt</li> 
-    <li><span></span> main<span>(int argc, char * argv)</span></li> 
-    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
-    <li><span></span> write_data<span>(int code, int cnt, FILE wp)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">127</div>  </div>
- </div>
+{% capture mkback_items %}
+- int::bincnt
+- int::norcnt
+- int::comcnt2
+- int::comcnt3
+- int::nulcnt
+- ::main::(int argc, char * argv)
+- void::make_data::(FILE *rp,*wp)
+- ::write_data::(int code, int cnt, FILE wp)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkbgchr.c" />
-  <h3>mkbgchr.c</h3>
-  <ul>
-    <li><span>unchar</span> chrdat[DATSIZE]</li> 
-    <li><span>unchar</span> chrbuf[BUFSIZE]</li> 
-    <li><span></span> main<span>(int argc, char * argv)</span></li> 
-    <li><span></span> chread<span>(char *fname,*buff, int size)</span></li> 
-    <li><span></span> chwrite<span>(char *fname,*buff, int size)</span></li> 
-    <li><span></span> convert<span>(unchar *data,int size)</span></li> 
-    <li><span></span> archive<span>(unchar *data,*buff,int size)</span></li> 
-    <li><span></span> getbnk<span>(unchar *data)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">150</div>  </div>
- </div>
+{% capture mkbgchr_items %}
+- unchar::chrdat[DATSIZE]
+- unchar::chrbuf[BUFSIZE]
+- ::main::(int argc, char * argv)
+- ::chread::(char *fname,*buff, int size)
+- ::chwrite::(char *fname,*buff, int size)
+- ::convert::(unchar *data,int size)
+- ::archive::(unchar *data,*buff,int size)
+- ::getbnk::(unchar *data)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkenemy.c" />
-  <h3>mkenemy.c</h3>
-  <ul>
-    <li><span>struct</span> patndata pat[10]</li> 
-    <li><span>short</span> patn00[24]</li> 
-    <li><span>short</span> patn01[15]</li> 
-    <li><span>short</span> patn02[12]</li> 
-    <li><span>short</span> patn03[6]</li> 
-    <li><span>short</span> patn04[4]</li> 
-    <li><span>short</span> patn05[1]</li> 
-    <li><span>short</span> patn06[12]</li> 
-    <li><span>short</span> patn07[6]</li> 
-    <li><span>short</span> patn08[2]</li> 
-    <li><span>short</span> patn09[9]</li> 
-    <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
-    <li><span>int</span> chrcnt</li> 
-    <li><span>int</span> total</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(char* ss)</span></li> 
-    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
-    <li><span></span> getnum<span>(char* dat)char *dat</span></li> 
-    <li><span></span> readchar<span>(char* fname)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">212</div>  </div>
- </div>
+{% capture mkenemy_items %}
+- struct::patndata pat[10]
+- short::patn00[24]
+- short::patn01[15]
+- short::patn02[12]
+- short::patn03[6]
+- short::patn04[4]
+- short::patn05[1]
+- short::patn06[12]
+- short::patn07[6]
+- short::patn08[2]
+- short::patn09[9]
+- unchar::chrbuf[DSIZE][32]
+- int::chrcnt
+- int::total
+- ::main::(int argc, char* argv)
+- ::init_ptr::()
+- ::set_cname::(char* ss)
+- ::archive::(FILE *wp, char dat)
+- ::getnum::(char* dat)char *dat
+- ::readchar::(char* fname)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkmap.c" />
-  <h3>mkmap.c</h3>
-  <ul>
-    <li><span>arptr</span> sltptr[MAXSLT]</li> 
-    <li><span>unshort</span> sltofs[MAXSLT]</li> 
-    <li><span>unshort</span> pnlofs[MAXPNL]</li> 
-    <li><span>unchar</span> pnlbuf[MAXPNL *4]</li> 
-    <li><span>unshort</span> sltbuf[MAXSLT][16]</li> 
-    <li><span>unshort</span> rombuf[MAXROM][16]</li> 
-    <li><span>unshort</span> wldbuf[WLDLNY][WLDLNX]</li> 
-    <li><span>int</span> pnlcnt</li> 
-    <li><span>int</span> sltcnt</li> 
-    <li><span>int</span> romcnt</li> 
-    <li><span>int</span> wldcnt</li> 
-    <li><span>int</span> pnllen</li> 
-    <li><span>int</span> sltlen</li> 
-    <li><span>int</span> errcnt</li> 
-    <li><span>int</span> slttop</li> 
-    <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> set_sname<span>(char* ss)</span></li> 
-    <li><span>int</span> getaddr<span>(char* str)</span></li> 
-    <li><span></span> readpnl<span>(char* fname)</span></li> 
-    <li><span></span> makemap<span>(int nn, char fname)</span></li> 
-    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
-    <li><span></span> chkpnl<span>(unchar *pnl)</span></li> 
-    <li><span></span> setslt<span>(unshort *slt)</span></li> 
-    <li><span></span> setroom<span>(unshort *rom)</span></li> 
-    <li><span></span> setwld<span>(unshort wld)</span></li> 
-    <li><span></span> prsslt<span>()</span></li> 
-    <li><span></span> fit_slit<span>(int ln, int sc)</span></li> 
-    <li><span></span> int_slpt<span>()</span></li> 
-    <li><span></span> st_slofs<span>()</span></li> 
-    <li><span></span> genmap<span>(char* wld_name, char* slt_name)</span></li> 
-    <li><span></span> genslt<span>(FILE *wp)</span></li> 
-    <li><span></span> genrom<span>(FILE *wp)</span></li> 
-    <li><span></span> genwld<span>(FILE *wp)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">18</div>    <div class="rr-file-stat rr-file-stats-variables">18</div>    <div class="rr-file-stat rr-file-stats-lines">475</div>  </div>
- </div>
+{% capture mkmap_items %}
+- arptr::sltptr[MAXSLT]
+- unshort::sltofs[MAXSLT]
+- unshort::pnlofs[MAXPNL]
+- unchar::pnlbuf[MAXPNL *4]
+- unshort::sltbuf[MAXSLT][16]
+- unshort::rombuf[MAXROM][16]
+- unshort::wldbuf[WLDLNY][WLDLNX]
+- int::pnlcnt
+- int::sltcnt
+- int::romcnt
+- int::wldcnt
+- int::pnllen
+- int::sltlen
+- int::errcnt
+- int::slttop
+- int::clrcode
+- ::main::(int argc, char* argv)
+- ::set_sname::(char* ss)
+- int::getaddr::(char* str)
+- ::readpnl::(char* fname)
+- ::makemap::(int nn, char fname)
+- ::chkclr::(unchar *buf)
+- ::chkpnl::(unchar *pnl)
+- ::setslt::(unshort *slt)
+- ::setroom::(unshort *rom)
+- ::setwld::(unshort wld)
+- ::prsslt::()
+- ::fit_slit::(int ln, int sc)
+- ::int_slpt::()
+- ::st_slofs::()
+- ::genmap::(char* wld_name, char* slt_name)
+- ::genslt::(FILE *wp)
+- ::genrom::(FILE *wp)
+- ::genwld::(FILE *wp)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkpanel.c" />
-  <h3>mkpanel.c</h3>
-  <ul>
-    <li><span>arptr</span> pnlptr[MAXPNL]</li> 
-    <li><span>unshort</span> pnlofs[MAXPNL]</li> 
-    <li><span>unchar</span> pnlbuf[MAXPNL][4]</li> 
-    <li><span>int</span> pnllen</li> 
-    <li><span>int</span> pnlcnt</li> 
-    <li><span>int</span> clrcode</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> set_sname<span>(char* ss)</span></li> 
-    <li><span></span> mkpanel<span>(int nn, char fname)</span></li> 
-    <li><span></span> chkclr<span>(unchar *buf)</span></li> 
-    <li><span></span> setpnl<span>(unchar *pnl)</span></li> 
-    <li><span></span> prspnl<span>()</span></li> 
-    <li><span></span> fit_panel<span>(int ln, int sc)</span></li> 
-    <li><span></span> int_pnpt<span>()</span></li> 
-    <li><span></span> st_pnofs<span>()</span></li> 
-    <li><span></span> genpck<span>(char *fname)</span></li> 
-    <li><span></span> genpnl<span>(char *fname)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">325</div>  </div>
- </div>
+{% capture mkpanel_items %}
+- arptr::pnlptr[MAXPNL]
+- unshort::pnlofs[MAXPNL]
+- unchar::pnlbuf[MAXPNL][4]
+- int::pnllen
+- int::pnlcnt
+- int::clrcode
+- ::main::(int argc, char* argv)
+- ::set_sname::(char* ss)
+- ::mkpanel::(int nn, char fname)
+- ::chkclr::(unchar *buf)
+- ::setpnl::(unchar *pnl)
+- ::prspnl::()
+- ::fit_panel::(int ln, int sc)
+- ::int_pnpt::()
+- ::st_pnofs::()
+- ::genpck::(char *fname)
+- ::genpnl::(char *fname)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkpers.c" />
-  <h3>mkpers.c</h3>
-  <ul>
-    <li><span>int</span> bincnt</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
-    <li><span></span> fgetnum<span>(unshort *num, FILE rp)</span></li> 
-    <li><span></span> fputnum<span>(int num, FILE wp)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">98</div>  </div>
- </div>
+{% capture mkpers_items %}
+- int::bincnt
+- ::main::(int argc, char* argv)
+- void::make_data::(FILE *rp,*wp)
+- ::fgetnum::(unshort *num, FILE rp)
+- ::fputnum::(int num, FILE wp)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkrival.c" />
-  <h3>mkrival.c</h3>
-  <ul>
-    <li><span>struct</span> patndata pat[10]</li> 
-    <li><span>short</span> patn00[24]</li> 
-    <li><span>short</span> patn01[15]</li> 
-    <li><span>short</span> patn02[12]</li> 
-    <li><span>short</span> patn03[6]</li> 
-    <li><span>short</span> patn04[4]</li> 
-    <li><span>short</span> patn05[1]</li> 
-    <li><span>short</span> patn06[12]</li> 
-    <li><span>short</span> patn07[6]</li> 
-    <li><span>short</span> patn08[2]</li> 
-    <li><span>short</span> patn09[9]</li> 
-    <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
-    <li><span>int</span> chrcnt</li> 
-    <li><span>int</span> total</li> 
-    <li><span></span> main<span>(int argc, char * argv)</span></li> 
-    <li><span></span> init_ptr<span>()</span></li> 
-    <li><span></span> set_cname<span>(char* ss)</span></li> 
-    <li><span></span> archive<span>(FILE *wp, char dat)</span></li> 
-    <li><span></span> getnum<span>(dat)char *dat</span></li> 
-    <li><span></span> readchar<span>(fname)char *fname</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">209</div>  </div>
- </div>
+{% capture mkrival_items %}
+- struct::patndata pat[10]
+- short::patn00[24]
+- short::patn01[15]
+- short::patn02[12]
+- short::patn03[6]
+- short::patn04[4]
+- short::patn05[1]
+- short::patn06[12]
+- short::patn07[6]
+- short::patn08[2]
+- short::patn09[9]
+- unchar::chrbuf[DSIZE][32]
+- int::chrcnt
+- int::total
+- ::main::(int argc, char * argv)
+- ::init_ptr::()
+- ::set_cname::(char* ss)
+- ::archive::(FILE *wp, char dat)
+- ::getnum::(dat)char *dat
+- ::readchar::(fname)char *fname
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkselect.c" />
-  <h3>mkselect.c</h3>
-  <ul>
-    <li><span>int</span> bincnt</li> 
-    <li><span>int</span> norcnt</li> 
-    <li><span>int</span> chrcnt</li> 
-    <li><span>int</span> atrcnt</li> 
-    <li><span></span> main<span>(argc,argv)int argc</span></li> 
-    <li><span>char *</span> argv</li> 
-    <li><span>void</span> make_data<span>(FILE *rp,*wp)</span></li> 
-    <li><span>int</span> write_char<span>(FILE *wp, int len)</span></li> 
-    <li><span>int</span> write_attr<span>(FILE *wp, int len, unchar buf)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">120</div>  </div>
- </div>
+{% capture mkselect_items %}
+- int::bincnt
+- int::norcnt
+- int::chrcnt
+- int::atrcnt
+- ::main::(argc,argv)int argc
+- char *::argv
+- void::make_data::(FILE *rp,*wp)
+- int::write_char::(FILE *wp, int len)
+- int::write_attr::(FILE *wp, int len, unchar buf)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mkspchr.c" />
-  <h3>mkspchr.c</h3>
-  <ul>
-    <li><span>struct data</span> header[34]</li> 
-    <li><span>unchar</span> chrbuf[DSIZE][32]</li> 
-    <li><span>int</span> chrcnt</li> 
-    <li><span>int</span> bincnt</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span>void</span> make_data<span>(FILE *fp)</span></li> 
-    <li><span>int</span> make1<span>(FILE *fp, int code, int cnum, int leng)</span></li> 
-    <li><span>int</span> make2<span>(FILE *fp,int code, int cnum, int leng)</span></li> 
-    <li><span>int</span> make3<span>(FILE *fp, int code,int cnum, int leng)</span></li> 
-    <li><span>int</span> make4<span>(FILE *fp, int code,int cnum, int leng)</span></li> 
-    <li><span>int</span> wthalf<span>(char *buff, FILE fp)</span></li> 
-    <li><span>int</span> read_char<span>(char* fname, int code, int size)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">234</div>  </div>
- </div>
+{% capture mkspchr_items %}
+- struct data::header[34]
+- unchar::chrbuf[DSIZE][32]
+- int::chrcnt
+- int::bincnt
+- ::main::(int argc, char* argv)
+- void::make_data::(FILE *fp)
+- int::make1::(FILE *fp, int code, int cnum, int leng)
+- int::make2::(FILE *fp,int code, int cnum, int leng)
+- int::make3::(FILE *fp, int code,int cnum, int leng)
+- int::make4::(FILE *fp, int code,int cnum, int leng)
+- int::wthalf::(char *buff, FILE fp)
+- int::read_char::(char* fname, int code, int size)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="setbomb.c" />
-  <h3>setbomb.c</h3>
-  <ul>
-    <li><span>unchar</span> pnlbuf[MAXPNL]</li> 
-    <li><span>unchar</span> sltbuf[MAXSLT]</li> 
-    <li><span>unchar</span> wldbuf[MAXWLD]</li> 
-    <li><span>unchar</span> rombuf[MAXROM]</li> 
-    <li><span>struct STACK</span> bomb[MAXBOMB]</li> 
-    <li><span>int</span> bombct</li> 
-    <li><span>int</span> romcnt</li> 
-    <li><span>int</span> romptr</li> 
-    <li><span>int</span> sltptr</li> 
-    <li><span>int</span> pnlptr</li> 
-    <li><span>int</span> sltofs</li> 
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span></span> set_bomb<span>()</span></li> 
-    <li><span></span> push_pos<span>()</span></li> 
-    <li><span></span> search<span>(int loc_x, int loc_y)</span></li> 
-    <li><span></span> sch_room<span>(int loc_x, int loc_y)</span></li> 
-    <li><span>int</span> getaddr<span>(char *str)</span></li> 
-    <li><span></span> readpnl<span>(char *fname)</span></li> 
-    <li><span></span> readwld<span>(char *fname)</span></li> 
-    <li><span></span> readslt<span>(char *fname)</span></li> 
-    <li><span></span> makewld<span>(char *fname)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">12</div>    <div class="rr-file-stat rr-file-stats-lines">291</div>  </div>
- </div>
+{% capture setbomb_items %}
+- unchar::pnlbuf[MAXPNL]
+- unchar::sltbuf[MAXSLT]
+- unchar::wldbuf[MAXWLD]
+- unchar::rombuf[MAXROM]
+- struct STACK::bomb[MAXBOMB]
+- int::bombct
+- int::romcnt
+- int::romptr
+- int::sltptr
+- int::pnlptr
+- int::sltofs
+- ::main::(int argc, char* argv)
+- ::set_bomb::()
+- ::push_pos::()
+- ::search::(int loc_x, int loc_y)
+- ::sch_room::(int loc_x, int loc_y)
+- int::getaddr::(char *str)
+- ::readpnl::(char *fname)
+- ::readwld::(char *fname)
+- ::readslt::(char *fname)
+- ::makewld::(char *fname)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="slitpress.c" />
-  <h3>slitpress.c</h3>
-  <ul>
-    <li><span></span> main<span>(int argc, char* argv)</span></li> 
-    <li><span>void</span> press_slit<span>(FILE *rp, FILE *wp)</span></li> 
-    <li><span>void</span> fputw<span>(int data, FILE fp)</span></li> 
-    <li><span>int</span> fgetw<span>(FILE *fp)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">97</div>  </div>
- </div>
+{% capture slitpress_items %}
+- ::main::(int argc, char* argv)
+- void::press_slit::(FILE *rp, FILE *wp)
+- void::fputw::(int data, FILE fp)
+- int::fgetw::(FILE *fp)
+{% endcapture %}
 
-</section>
+{% capture code_cards %}
+{% include source-code-card.html title="armap.c" items=armap_items functions="4" variables="7" lines="136" %}
+{% include source-code-card.html title="carmap.c" items=carmap_items functions="19" variables="20" lines="500" %}
+{% include source-code-card.html title="chrar.c" items=chrar_items functions="5" variables="7" lines="156" %}
+{% include source-code-card.html title="enemy.c" items=enemy_items functions="6" variables="18" lines="221" %}
+{% include source-code-card.html title="mkback.c" items=mkback_items functions="3" variables="7" lines="127" %}
+{% include source-code-card.html title="mkbgchr.c" items=mkbgchr_items functions="6" variables="7" lines="150" %}
+{% include source-code-card.html title="mkenemy.c" items=mkenemy_items functions="6" variables="16" lines="212" %}
+{% include source-code-card.html title="mkmap.c" items=mkmap_items functions="18" variables="18" lines="475" %}
+{% include source-code-card.html title="mkpanel.c" items=mkpanel_items functions="11" variables="8" lines="325" %}
+{% include source-code-card.html title="mkpers.c" items=mkpers_items functions="4" variables="4" lines="98" %}
+{% include source-code-card.html title="mkrival.c" items=mkrival_items functions="6" variables="16" lines="209" %}
+{% include source-code-card.html title="mkselect.c" items=mkselect_items functions="4" variables="8" lines="120" %}
+{% include source-code-card.html title="mkspchr.c" items=mkspchr_items functions="8" variables="11" lines="234" %}
+{% include source-code-card.html title="setbomb.c" items=setbomb_items functions="10" variables="12" lines="291" %}
+{% include source-code-card.html title="slitpress.c" items=slitpress_items functions="4" variables="2" lines="97" %}
+{% endcapture %}
 
+{% include source-code-card-grid.html title="Code Files" content=code_cards %}
