@@ -658,6 +658,20 @@ Folder | Files | Directories
 
 That makes `TEST_zelda` large enough to be a serious project folder, but still compact enough that its purpose reads more clearly.
 
+### How Separate It Is from DEMO_zelda
+
+The first important point is that `TEST_zelda` is not just a trimmed demo copy.
+
+Measure | `TEST_zelda` versus Disk 3 `DEMO_zelda`
+---|---
+Shared filenames | 721
+Files only in `TEST_zelda` | 505
+Files only in `DEMO_zelda` | 2631
+
+That overlap is real, but it is much smaller than it first appears. The shared slice is mostly the common Zelda source, scripts, and build outputs. The rest of the test branch is a genuinely separate pile of room, panel, color, and staging data.
+
+Even inside the shared set, many files are not identical. `zmap.s`, `zti.s`, `gbmsdt.s`, `cgal.bat`, `ddd`, `C.isx`, `T.isx`, both map files, many `CGX` graphics, and many `.CDT` color files all differ from the copies in `DEMO_zelda`.
+
 ### A Dungeon and Room Test Bench
 
 The strongest clue is the layout of the level folders:
@@ -677,7 +691,21 @@ Folder | What survives there | What it suggests
 `ATR` / `ATR2` | `.pnl` and `.pdt` attribute resources named after room groups and background chunks | Collision, panel, or attribute metadata was being edited directly alongside art and maps
 `PANEL` / `PDT` | Additional panel resources | A second sign that this folder was built around testing map and room data, not just code
 
-### Build Outputs and Tools Stay in the Same Folder
+The room ranges also feel deliberate rather than arbitrary. `Level-5` preserves `ROOM80.bin` through `ROOMA9.bin`, `Level-6` runs through `ROOMB0.bin` onward, `Level-7` adds special files like `HASIRA.bin`, and `Level-8` carries another long contiguous room run. With `MAP/zel_map1.MDT` and `MAP/zel_map2.MDT` sitting beside them, the branch reads like a real dungeon test harness.
+
+### Japanese Staging Folders
+
+Some of the most revealing content is in the Japanese-named side folders:
+
+Folder | What is inside | Why it matters
+---|---|---
+`てすと` | Small binary and palette experiments such as `title_c.bin`, `title_s.bin`, `select_c.bin`, `select_s.bin`, `love_c.bin`, `love_s.bin`, `open_1c.bin`, `open_1s.bin`, and `turi_pnl.bin` | Looks like a scratch area for isolated screen, panel, and UI checks
+`ｱﾄﾘﾋﾞｭｰﾄ` | `.PNL` attribute files mirroring the room and panel naming seen elsewhere | A Japanese-labelled staging mirror for attribute resources
+`ｴﾝﾃﾞｨﾝｸﾞ` | `Cgx/end1.bin` through `end9.bin` plus matching `Scr/end*_*.bin` files | Dedicated ending-screen graphics and layout test material
+
+Those folders make the branch feel much more practical. Instead of everything being folded back into the main tree, the team left behind little staging zones for testing UI pieces, attribute data, and ending screens in isolation.
+
+### Two Build Paths in One Folder
 
 Like the main demo workspace, `TEST_zelda` is not cleanly separated into source versus build. The code, tools, intermediates, and debugger outputs all live together:
 
@@ -687,13 +715,21 @@ Like the main demo workspace, `TEST_zelda` is not cleanly separated into source 
 * shipped or near-shipped outputs such as `cgbzelda.com`, `CGZEL.COM`, `ZEL.BIN`, and `teszelda.com`
 * the full toolchain, including `ISAS32.EXE`, `ISLK32.EXE`, `ISDMG.EXE`, `ISLINK.EXE`, `ISD.EXE`, and `SUMCHECK.EXE`
 
-`cgal.bat` confirms that this was not just a passive archive. It assembles a large set of Zelda modules, from `ZMA` and `ZPL` through `ZCOL`, `ZATR`, and `ZMAP`, then links them with `ISLK32 @ddd`. In other words, `TEST_zelda` was still a working build folder, just one aimed at testing and iteration rather than at preserving a clean regional branch.
+The scripts show something even more interesting: this one folder still preserves both the older monochrome build DNA and the newer Color-era build flow.
+
+* `cgal.bat` assembles a large CGB-oriented module set with `ISAS32` and links it with `ISLK32 @ddd`
+* `ddd` defines a banked image all the way up through `BANK35`, which is a much more serious layout than a tiny one-off utility
+* `link.bat` still preserves an older `ISLINK` command line over a long Zelda module list, producing `T`
+
+So `TEST_zelda` was not just a content test folder. It was a place where overlapping DMG and CGB toolchains were still both visible.
+
+The timestamps back that up too. Most of the source and object files cluster around mid-1998 through September 1, 1998, while inherited files like `GBMSDT.DMG`, `BGM_1.HEX`, and `SE.HEX` still carry much older 1993 dates.
 
 ### What Makes It Different from DEMO_zelda
 
-`TEST_zelda` overlaps heavily with the broader Zelda workspaces, but it is not just a smaller copy. The room-heavy level folders, the test graphics like `TEST.CGX`, the standalone `TEST1.SCR` and `TEST2.SCR`, and the concentration of panel/color resources all make it feel like a staging area for dungeon and screen experiments.
+`TEST_zelda` overlaps heavily with the broader Zelda workspaces, but it is not just a smaller copy. The room-heavy level folders, the test graphics like `TEST.CGX`, the standalone `TEST1.SCR` and `TEST2.SCR`, the Japanese staging folders, and the concentration of panel/color resources all make it feel like a staging area for dungeon and screen experiments.
 
-If Disk 1 showed how the main project was organised, `TEST_zelda` shows how specific parts of it were actually poked, rebuilt, and checked.
+If Disk 1 showed how the main project was organised, `TEST_zelda` shows how specific parts of it were actually poked, rebuilt, and checked. It is one of the clearest places in the leak where Nintendo's dungeon iteration process, low-level asset pipeline, and overlapping DMG/CGB tooling all sit together in one branch.
 
 ---
 ## DEMO_zelda on Disk 3
@@ -734,6 +770,44 @@ Its `readme.txt` describes it as a CGB one-picture CG check program. The workflo
 
 So this was essentially a quick preview harness. Instead of rebuilding a whole Zelda branch just to inspect one background, artists and developers could drop in one screen's worth of art data and view it immediately through the standard debugger flow.
 
+The shape of the tool suggests something important. `bgcheck` itself looks generic rather than Zelda-specific, but this particular copy is clearly a Zelda DX instance of it. The program logic is just a tiny CGB viewer for `CGX`, `SCR`, and `COL` data, while the packed assets inside `chars.s` are unmistakably from Link's Awakening DX. So the safest reading is that this was a reusable internal utility being used here for Zelda, not a Zelda-only tool and not clearly a formal SDK package either.
+
+The implementation details make it even better. `XYZ.BAT` assembles only two modules, `hy_main` and `chars`, then links them into `X`. That means this was deliberately kept tiny: a miniature viewer, not a cut-down copy of the main game.
+
+### How the Viewer Actually Works
+
+The code in `hy_main.s` and `hy_prog.s` shows that `bgcheck` is not limited to a single static screen. It is a small banked browser.
+
+Part | What it does | Why it matters
+---|---|---
+`hy_main.s` | Sets up interrupts, DMA, LCD state, keypad input, and the main loop | This is a real little CGB program rather than a one-shot converter
+`INKEY_A` / `INKEY_B` | Advance or rewind `NOWCG` | The viewer can cycle between packed presets with button input
+`CHRTR` | Loads character graphics into VRAM from banked data | Graphics are stored separately and swapped in per preset
+`PL_CNG` | Loads palette data through the CGB palette registers | Color data is treated as its own editable layer
+`SCRTR` | Writes both tilemap and attribute data, including the CGB attribute plane through `VBK` | The tool previews not just tiles and layout, but proper Color Game Boy attributes too
+
+So while the `readme.txt` talks about checking one picture, the actual program is closer to a compact preset viewer. It can step through multiple packed screens without rebuilding the whole viewer each time.
+
+### What chars.s Reveals
+
+`chars.s` is where the most interesting evidence lives. Instead of embedding placeholder data, it `libbin`s real Zelda assets directly into banked slots.
+
+The packed presets include:
+
+* `kimkyo/gsiroc.cgx`, `.col`, and `.scr`
+* photo-related screens such as `kimkyo/pho4`, `pho5`, `pho9t`, `pho10t`, and `pho12`
+* `habu/marin3` as another complete graphics/palette/screen set
+* a run of `test_char` screens using `test.cgx` with `t3.scr` through `t9.scr` and `t0.scr`
+
+The bank layout is tidy and revealing:
+
+* banks `2` to `5` hold character graphics
+* bank `6` holds palette chunks in `0x80`-byte blocks
+* banks `7` and `8` hold screen and attribute data in `0x800`-byte chunks
+* `scr_cnt` is derived from the packed palette range, which is how the program knows how many presets it can cycle through
+
+That means `bgcheck` was not just looking at arbitrary dropped-in files one at a time. It could be rebuilt as a curated multi-screen inspection cartridge, bundling several related Zelda assets into one quick-check viewer.
+
 The folder contents line up perfectly with that purpose:
 
 File or Folder | What it contains | Why it is interesting
@@ -750,7 +824,21 @@ The subfolders are even better:
 * `HABU` contains a smaller sample set around `marin3.cgx`, `marin3.scr`, and `marin3.col`
 * `Test_char` contains a tiny character test set with `test.cgx` and `t0.scr` through `t9.scr`
 
-That means `bgcheck` was not just a generic utility copied into the archive. It was being used with real Link's Awakening DX assets, including art tied to the photo system and region-specific graphics.
+Those subfolders also make it easier to guess what the names mean. `KIMKYO` is very likely another Kimura-linked art workspace, while `HABU` looks like a separate contributor's sample set. Either way, `bgcheck` was clearly being used with real Link's Awakening DX assets, not just neutral test data.
+
+### Why It Matters
+
+This folder is such a strong survivor because it captures a step that is usually invisible in release-era archives: the quick art-check loop.
+
+Instead of:
+
+* rebuilding the full game
+* navigating to the right room
+* and hoping the palette, tilemap, and attribute data all looked right in context
+
+the team could assemble a tiny viewer, load `X.isx`, and flip through prepared screens directly in the debugger. For anyone trying to understand how Nintendo actually handled low-level CGB art production, that is one of the best process clues anywhere on Disk 3.
+
+The evidence also supports a slightly broader point. I did not find another copy of this exact Game Boy `bgcheck` tool elsewhere in the CGB leak, so it would be a stretch to call it a standard SDK component. But the program is generic enough that it almost certainly was not invented just for Zelda either. The best fit is a small internal utility that could be repacked per project, with this Disk 3 copy preserving the Zelda DX version.
 
 ---
 ## The DMG Support Folders

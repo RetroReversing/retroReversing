@@ -4,10 +4,9 @@ layout: post
 title: 3DO Interactive Multiplayer
 recommend: 3do
 recommendTitle: All 3DO Posts
-editlink: ../categories/consoles/3ds.md
-console: '3do'
+editlink: ../categories/consoles/3do.md
+console: 3do
 excerpt: Awesome list of 3DO Game Development and Reverse Engineering information
-thumbnail: /public/consoles/3DO.png
 breadcrumbs:
   - name: Home
     url: /

@@ -4,9 +4,15 @@ Parameters:
 * post - The Post (Page) that this is a placeholder thumbnail image for
 {% endcomment %}
 {% if include.post.title %}
+  {% assign placeholder_category = include.post.category | default: include.post.console | default: include.post.categories.first %}
   <div style="position: relative; color: white; height:150px; background-color: black; display: block;" class="geopattern" data-title="{{ include.post.title }}">
     <img class="lazy-load" style="padding-left:2px; max-height: 32% !important; background-color: black; min-height: 32% !important; height:32% !important; display: block;" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.post.title }}">
-    <span style="max-width:84%; position: absolute; top:9%; left: 14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-weight: 900;">
+    {% if placeholder_category %}
+    <span style="max-width:84%; position: absolute; margin-top:0px; top:6%; left:14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-size: 11px; letter-spacing: 0.16em; font-weight: 700; opacity: 0.82;">
+        {{ placeholder_category | replace: '-', ' ' }}
+    </span>
+    {% endif %}
+    <span style="max-width:84%; position: absolute; margin-top:0px; top:14%; left: 14%; white-space: nowrap; text-overflow: ellipsis; background-color: unset; text-transform: uppercase; overflow: hidden; font-weight: 900;">
     {% if include.post.shorttitle %}
         {{ include.post.shorttitle | split: '-' | first }}
     {% else %}

@@ -1,7 +1,8 @@
 <div class="console-pages">
+{% assign page_category = page.category | default: page.console %}
   
 {% for post in site.pages %}
-    {% if post.tags contains page.console %}
+    {% if page_category and post.tags contains page_category %}
   
   <div class="console-page-post">
       {% include post-list-cards.html %}

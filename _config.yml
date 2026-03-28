@@ -2,7 +2,7 @@
 title: RetroReversing
 tagline: 'Retro Reversing'
 description: 'Retro Video Game Reverse Engineering.'
-baseurl: "/"
+baseurl: ""
 url: https://www.retroreversing.com
 logo: '/public/logo.png'
 highlighter: rouge
@@ -31,7 +31,7 @@ kramdown:
 # excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
-  sass_dir: _scss    
+  sass_dir: _scss
 # paginate: 5
 # paginate_path: '/blog/page:num'
 permalink: pretty
@@ -41,7 +41,7 @@ version: 1.0.0
 
 # Navigation (2nd level links supported)
 nav:
-  Home:           
+  Home:
     - '/'
 
 # Where are tags and categories displayed
@@ -130,48 +130,48 @@ category_images:
   turbografx16: /public/consoles/TurboGrafx-16.png
   wonderswan_color: /public/consoles/WonderSwan Color.png
   wonderswan: /public/consoles/WonderSwan.png
-  
 
-references: 
+
+references:
   - title: Behind The Screens
-    name: BehindTheScreens 
+    name: BehindTheScreens
     link: https://www.youtube.com/channel/UC1scN415hiatrUSAg_51xqA
     image: https://yt3.ggpht.com/-59MNhf4K7fw/AAAAAAAAAAI/AAAAAAAAAAA/jA_EjpcyXIg/s288-c-k-no-mo-rj-c0xffffff/photo.jpg
   - title: Game Hut
-    name: gamehut 
+    name: gamehut
     link: https://www.youtube.com/channel/UCfVFSjHQ57zyxajhhRc7i0g
     image: https://yt3.ggpht.com/a-/AN66SAzmSs3uEl8n6m0SWGpoACUDlukDsGtK_uPV4w=s288-mo-c-c0xffffffff-rj-k-no
   - title: YouTube
-    name: youtube 
+    name: youtube
     link: https://www.youtube.com/
     image: /public/Web-Youtube-alt-2-Metro-icon.png
   - title: Wayback Machine
-    name: wayback 
+    name: wayback
     link: https://archive.org/web/
     image: /public/references/wayback.jpg
   - title: Archive.org
-    name: archive.org 
+    name: archive.org
     link: https://archive.org/
     image: /public/references/wayback.jpg
   - title: Devs Play (Double Fine)
-    name: DevsPlay 
+    name: DevsPlay
     link: https://www.youtube.com/user/DoubleFineProd/
     image: /public/Web-Youtube-alt-2-Metro-icon.png
   - title: Computerphile
-    name: computerphile 
+    name: computerphile
     link: https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA
     image: https://yt3.ggpht.com/-JFhbdoLwRlI/AAAAAAAAAAI/AAAAAAAAAAA/RemIzWPj2ZA/s288-c-k-no-mo-rj-c0xffffff/photo.jpg
   - title: ASSEMblergames.com
-    name: assemblergames 
+    name: assemblergames
     link: https://www.ASSEMblergames.com
     image: /public/references/assemblergames.png
   - title: Kim Justice
-    name: kimjustice 
+    name: kimjustice
     link: https://www.youtube.com/channel/UC9ZWVL1Elyt2cdiQYjxS_1w
     image: https://yt3.ggpht.com/-ns-hCUvw_1E/AAAAAAAAAAI/AAAAAAAAAAA/hPwWZRtfU1E/s88-c-k-no-mo-rj-c0xffffff/photo.jpg
   - title: SegaRetro.org
-    name: segaretro.org 
+    name: segaretro.org
     link: https://www.segaretro.org
     image: https://segaretro.org/skins/foreground/assets/img/segaretro_logo.png
-    
-    
+
+
