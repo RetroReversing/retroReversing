@@ -191,1400 +191,1113 @@ The file **generic.h** is actually from the Linux Kernel (**linux/byteorder_gene
 
 <!-- cspell:disable -->
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="acr.h" />
-  <h3>acr.h</h3>
-  <ul>
-    <li><span>void</span> set_AIP_address_space<span>(int whether)</span></li> 
-    <li><span>int</span> get_AIP_address_space<span>(void)</span></li> 
-    <li><span>int</span> use_AIP_address_space<span>(void)</span></li> 
-    <li><span>void</span> set_AHB_IO_MEM<span>(int value)</span></li> 
-    <li><span>int</span> get_AHB_IO_MEM<span>(void)</span></li> 
-    <li><span>int</span> use_AHB_IO_MEM<span>(void)</span></li> 
-    <li><span>void</span> set_DI_NODVDRD_EN<span>(int value)</span></li> 
-    <li><span>int</span> get_DI_NODVDRD_EN<span>(void)</span></li> 
-    <li><span>u32</span> get_ACRIOINTPPC<span>(void)</span></li> 
-    <li><span>u32</span> set_ACRIOINTPPC<span>(u32 which,u32 value)</span></li> 
-    <li><span>u32</span> sendIOPMsg<span>(u32 msg)</span></li> 
-    <li><span>void</span> set_ACRARBCFGDMA_DELAYEN<span>(int value)</span></li> 
-    <li><span>int</span> get_ACRARBCFGDMA_DELAYEN<span>(void)</span></li> 
-    <li><span>void</span> set_ACRARBCFGDMA_DELAYCNT<span>(u32 value)</span></li> 
-    <li><span>u32</span> get_ACRARBCFGDMA_DELAYCNT<span>(void)</span></li> 
-    <li><span>void</span> set_ACRARBCFGCPU_DELAY<span>(int value)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">16</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">31</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="aes.h" />
-  <h3>aes.h</h3>
-  <ul>
-    <li><span>int</span> AES_Busy<span>(void)</span></li> 
-    <li><span>void</span> AES_Dma<span>(u32 srcAddr,u32 dstAddr,u32 numBlocks,u32 intrEnable)</span></li> 
-    <li><span>void</span> AES_Clear<span>(void)</span></li> 
-    <li><span>int</span> _AES_Setup<span>(u32 srcAddr,u32 dstAddr)</span></li> 
-    <li><span>int</span> _AES_StartDma<span>(u32 numBlocks,u32 intrEnable)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ahb.h" />
-  <h3>ahb.h</h3>
-  <ul>
-    <li><span>void</span> ahbMemFlush<span>(enum memAhbFlushGroup_e)</span></li> 
-    <li><span>void</span> ahbMemRBInvalidate<span>(enum memAhbReadBuffer_e)</span></li> 
-    <li><span>unsigned int</span> busRdAHMReg<span>(unsigned int a)</span></li> 
-    <li><span>unsigned int</span> busRdMEMReg<span>(unsigned int a)</span></li> 
-    <li><span>int</span> arbInit<span>(char *s)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">51</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ahbdbg.h" />
-  <h3>ahbdbg.h</h3>
-  <ul>
-    <li><span>int</span> ahbdbgInit<span>(void(*_Cb)(void),int mask)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">15</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ai.h" />
-  <h3>ai.h</h3>
-  <ul>
-    <li><span>AiStatus</span> aiInit<span>(void(*_tranCb)(void))</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="aram.h" />
-  <h3>aram.h</h3>
-  <ul>
-    <li><span>void</span> __ARWaitForDMA<span>(void)</span></li> 
-    <li><span>void</span> __ARWriteDMA<span>(u32 mmem_addr,u32 aram_addr,u32 length)</span></li> 
-    <li><span>void</span> __ARReadDMA<span>(u32 mmem_addr,u32 aram_addr,u32 length)</span></li> 
-    <li><span>u32</span> __ARChecksize<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">28</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="arch.h" />
-  <h3>arch.h</h3>
-  <ul>
-    <li><span>u32</span> BUSSPEED</li> 
-    <li><span>void</span> calibrateBusspeed<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">70</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="args.h" />
-  <h3>args.h</h3>
-  <ul>
-    <li><span>u32</span> _argc</li> 
-    <li><span>char </span> _argv[]</li> 
-    <li><span>u32</span> argInit<span>(void)</span></li> 
-    <li><span>u32</span> argCntGet<span>(void)</span></li> 
-    <li><span>char </span> argGet<span>(u32 i)</span></li> 
-    <li><span>u32</span> argCache<span>(u32 *,char ***)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">52</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="assert.h" />
-  <h3>assert.h</h3>
-  <ul>
-    <li><span>void</span> _assert<span>(const char *,const char *,int)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="axdbg.h" />
-  <h3>axdbg.h</h3>
-  <ul>
-    <li><span>void</span> DbgCreateTX<span>(GXMCObj *info,u32 width,u32 height)</span></li> 
-    <li><span>void</span> DbgRenderAndStretch<span>(GXMCObj *info,u32 x,u32 y,u32 width,u32 height)</span></li> 
-    <li><span>void</span> DbgRenderRefToEFB<span>(GXMCObj *info,GXMCReferencePicture type,u32 x,u32 y,u32 plane)</span></li> 
-    <li><span>void</span> DbgStub<span>(GXMCObj *info)</span></li> 
-    <li><span>void</span> DbgPrintMotionInfo<span>(struct MacroblockDetails *mb)</span></li> 
-    <li><span>void</span> DbgPrintDPCM<span>(struct MacroblockDetails *mb)</span></li> 
-    <li><span>void</span> DbgPrintMotionVector<span>(GXMCMotionVector *mv)</span></li> 
-    <li><span></span> SigTrap</li> 
-    <li><span></span> SigTrap</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">107</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="axmc.h" />
-  <h3>axmc.h</h3>
-  <ul>
-    <li><span>void</span> SetView<span>(void)</span></li> 
-    <li><span>MCError</span> AllocateCmdFifos<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>MCError</span> AllocatePingPongBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>MCError</span> AllocateRefrenceFrameBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>MCError</span> AllocateTexMemory<span>(GXMCObj *info)</span></li> 
-    <li><span>GXBool</span> AllocateFutureBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>GXBool</span> AllocatePastBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>MCError</span> AllocateBPictureBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>void</span> InitQueueHandler<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>void</span> MCErrorHandler<span>(GXMCObj *mpgObj,MCError error)</span></li> 
-    <li><span>GXBool</span> GXMCSelectDBuffer<span>(GXMCObj *info,u32 bufferId)</span></li> 
-    <li><span>void</span> CreateD0Texture<span>(GXMCObj *mpgObj,u32 bufferId,u32 width,u32 height)</span></li> 
-    <li><span>void</span> CreateD1Texture<span>(GXMCObj *mpgObj,u32 bufferId,u32 width,u32 height)</span></li> 
-    <li><span>void</span> PerformRenderSetup<span>(TevType type)</span></li> 
-    <li><span>void</span> SetupTevStages<span>(TevType type)</span></li> 
-    <li><span>void</span> RenderImage<span>(GXMCObj *mpgInfo,u32 width,u32 height)</span></li> 
-    <li><span>void</span> CopyEFBToMemory<span>(GXMCObj *mpgObj,GXCopyType copyType,void *destBase)</span></li> 
-    <li><span>void</span> CreateFrameFromFields<span>(GXMCObj *mpgInfo,PictureType frameType)</span></li> 
-    <li><span>void</span> GXReset<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>void</span> MarkBufferBusy<span>(GXMCObj *info,u32 id)</span></li> 
-    <li><span>void</span> ProcessBlocks<span>(GXMCObj *info)</span></li> 
-    <li><span>void</span> CreateQueue<span>(GXMCMotionVector *srcMV,GXMCMotionVector *dstMV[],GXMCMacroBlockType mbType,u32 count,u32 totalMV)</span></li> 
-    <li><span>void</span> SwapBuffers<span>(GXMCObj *mcInfo)</span></li> 
-    <li><span>void</span> InterlaceRenderUV<span>(GXMCObj *mcInfo,PictureType fType,void *dstBase)</span></li> 
-    <li><span>u32</span> GXConvertLinearToTile<span>(unsigned x,unsigned y,unsigned stride)</span></li> 
-    <li><span>void</span> DestroyPingPongBuffers<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>void</span> ResetCounters<span>(GXMCObj *mpgObj)</span></li> 
-    <li><span>void</span> FreeAndReallocate<span>(GXMCObj *mpgObj,GXBool newBuffer)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">28</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">78</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="busclient.h" />
-  <h3>busclient.h</h3>
-  <ul>
-    <li><span>void</span> busPrintf<span>(const char *fmt,...)</span></li> 
-    <li><span>void</span> busDbg<span>(const char *fmt,...)</span></li> 
-    <li><span>u32</span> busGetTime<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">51</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="crc.h" />
-  <h3>crc.h</h3>
-  <ul>
-    <li><span>u32</span> CRCCompute<span>(void *buf,u32 nbytes)</span></li> 
-    <li><span>u32</span> CRCAppend<span>(void *buf,u32 nbytes,u32 init)</span></li> 
-    <li><span>u32</span> CRCComputeMasked<span>(void *buf,u32 nbytes)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">41</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dbg_viai_setup.h" />
-  <h3>dbg_viai_setup.h</h3>
-  <ul>
-    <li><span>void</span> dbg_viai_setup<span>(int compatB)</span></li> 
-    <li><span>void</span> dbg_aipll_init<span>(int compatB)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">6</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dbgcomm.h" />
-  <h3>dbgcomm.h</h3>
-  <ul>
-    <li><span>DbgHandle</span> dbgOpen<span>(const char *filename,const char *mode)</span></li> 
-    <li><span>u32</span> dbgWrite<span>(DbgHandle handle,const void *buf,u32 len)</span></li> 
-    <li><span>u32</span> dbgRead<span>(DbgHandle handle,void *buf,u32 len)</span></li> 
-    <li><span>u32</span> dbgClose<span>(DbgHandle handle)</span></li> 
-    <li><span>u8 </span> dbgGets<span>(u8 *buf,u32 blockFlag)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">48</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dbgint.h" />
-  <h3>dbgint.h</h3>
-  <ul>
-    <li><span>u32</span> dbgintInit<span>(void(*dbgIrqCb)(void))</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">34</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dcbz_basic.h" />
-  <h3>dcbz_basic.h</h3>
-  <ul>
-    <li><span>void</span> lc_allocate<span>(void *LC_addr,unsigned int bfsize)</span></li> 
-    <li><span>void</span> set_HID_G<span>(unsigned int mask)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">9</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="di.h" />
-  <h3>di.h</h3>
-  <ul>
-    <li><span>DiStatus</span> diInit<span>(void(*_tranCb)(u32 err),void(*_doorCb)(void))</span></li> 
-    <li><span>DiStatus</span> diImm<span>(u32 *pkt,u32 *data,u32 isRead)</span></li> 
-    <li><span>DiStatus</span> diDma<span>(u32 *pkt,u32 *data,u32 len,u32 isRead)</span></li> 
-    <li><span>DiStatus</span> diSync<span>(void)</span></li> 
-    <li><span>DiStatus</span> diBrk<span>(void)</span></li> 
-    <li><span>void</span> diReset<span>(void)</span></li> 
-    <li><span>void</span> _diSync<span>(u32 iSr)</span></li> 
-    <li><span>diRegisters_t </span> diReadRegisters<span>(diRegisters_t *diRegs)</span></li> 
-    <li><span>void</span> diPrintRegisters<span>(diRegisters_t *diRegs,const char *comment)</span></li> 
-    <li><span>void</span> diClobberRegisters<span>(u32 value)</span></li> 
-    <li><span>u32</span> diStraps<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">117</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="diag.h" />
-  <h3>diag.h</h3>
-  <ul>
-    <li><span>u32</span> mcrGet<span>(Mcr *mp)</span></li> 
-    <li><span>u32</span> mcrPut<span>(Mcr *mp)</span></li> 
-    <li><span>u32</span> dcrGet<span>(Dcr *dp)</span></li> 
-    <li><span>u32</span> dcrPut<span>(Dcr *dp)</span></li> 
-    <li><span>u32</span> _dcrmcrGet<span>(DcrMcr *dmp)</span></li> 
-    <li><span>u32</span> _dcrmcrPut<span>(DcrMcr *dmp)</span></li> 
-    <li><span>void</span> diagStart<span>(void)</span></li> 
-    <li><span>void</span> diagStop<span>(u32 status)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">105</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dma_basic.h" />
-  <h3>dma_basic.h</h3>
-  <ul>
-    <li><span>void</span> dma_load<span>(unsigned int *inDataBlock,unsigned int *inBuffer,unsigned int inDataSize)</span></li> 
-    <li><span>void</span> dma_wait<span>(unsigned int i)</span></li> 
-    <li><span>void</span> dma_store<span>(unsigned int *outDataBlock,unsigned int *outBuffer,unsigned int outDataSize)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">11</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dolcnt.h" />
-  <h3>dolcnt.h</h3>
-  <ul>
-    <li><span>u32</span> dolcntData<span>(u32 chan,u32 *datah,u32 *datal)</span></li> 
-    <li><span>u32</span> dolcntInit<span>(void)</span></li> 
-    <li><span>u32</span> dolcntInitV<span>(int)</span></li> 
-    <li><span>void</span> dolcntRumbleOn<span>(u32 chan)</span></li> 
-    <li><span>void</span> dolcntRumbleOff<span>(u32 chan)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">117</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dsp.h" />
-  <h3>dsp.h</h3>
-  <ul>
-    <li><span>u32</span> dspAi<span>(u32 *memPtr,u32 len)</span></li> 
-    <li><span>u32</span> dspAram<span>(u32 *memPtr,u32 *aramPtr,u32 isRead,u32 len)</span></li> 
-    <li><span>void</span> dspSyncAi<span>(void)</span></li> 
-    <li><span>void</span> dspSyncAram<span>(void)</span></li> 
-    <li><span>u32</span> dspWrtMbox<span>(u32 value,u32 doIrq)</span></li> 
-    <li><span>u32</span> dspRdMbox<span>(u32 *value)</span></li> 
-    <li><span>void</span> dspInit<span>(void(*_dspCb)(void),void(*_aiCb)(void),void(*_aramCb)(void))</span></li> 
-    <li><span>void</span> dspAramStable<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">45</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dspfix.h" />
-  <h3>dspfix.h</h3>
-  <ul>
-    <li><span>void</span> dspFix<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">2</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dspmxic.h" />
-  <h3>dspmxic.h</h3>
-  <ul>
-    <li><span>u32</span> dspReset<span>(u32 cdcr)</span></li> 
-    <li><span>u32</span> dspBoot<span>(u32 *memPtr,u32 len)</span></li> 
-    <li><span>u32</span> dspBootDma<span>(u32 *memPtr,u32 dspa,u32 dscr,u32 dsbl)</span></li> 
-    <li><span>u32</span> dspSyncDma<span>(u32 delay)</span></li> 
-    <li><span>u32</span> dspSendMail<span>(u32 mail,u32 doIrq)</span></li> 
-    <li><span>u32</span> dspWaitMail<span>(u32 *mailPtr)</span></li> 
-    <li><span>u32</span> dspMemRamp<span>(u32 *memAddr,u32 len,u32 val)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">93</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dvd.h" />
-  <h3>dvd.h</h3>
-  <ul>
-    <li><span>u32</span> dvdStopMotor<span>(u32 setting,u32 *response)</span></li> 
-    <li><span>u32</span> dvdRead<span>(u32 addr,u32 len,u32 *mem)</span></li> 
-    <li><span>void</span> dvdSetNdevFS<span>(u32 offset)</span></li> 
-    <li><span>u32</span> dvdReadBuf<span>(u32 addr,u32 len,u32 *dest)</span></li> 
-    <li><span>u32</span> dvdReadDVD<span>(u32 startSector,u32 numberOfSectors,u32 *mem)</span></li> 
-    <li><span>u32</span> dvdWriteBuf<span>(u32 addr,u32 len,u32 *src)</span></li> 
-    <li><span>u32</span> dvdSync<span>(void)</span></li> 
-    <li><span>u32</span> dvdErrSet<span>(u32 len)</span></li> 
-    <li><span>u32</span> dvdBrk<span>(void)</span></li> 
-    <li><span>u32</span> dvdInit<span>(void(*tranCb)(u32 err),void(*doorCb)(void))</span></li> 
-    <li><span>u32</span> dvdErrReq<span>(u32 *retErr)</span></li> 
-    <li><span>u32</span> dvdAsStart<span>(u32 addr,u32 sz)</span></li> 
-    <li><span>u32</span> dvdAsStop<span>(void)</span></li> 
-    <li><span>u32</span> dvdDoor<span>(u32 open)</span></li> 
-    <li><span>u32</span> dvdInquiry<span>(u32 *inq)</span></li> 
-    <li><span>u32</span> dvdReadID<span>(u32 *id)</span></li> 
-    <li><span>u32</span> dvdAsBuffer<span>(u32 onOff,u32 pages,u32 *status)</span></li> 
-    <li><span>u32</span> dvdRequestDiskStatus<span>(u32 *diskStatus)</span></li> 
-    <li><span>u32</span> dvdRequestError<span>(u32 *response)</span></li> 
-    <li><span>void</span> dvdPrintPacket<span>(dvd_u *pkt)</span></li> 
-    <li><span>void</span> _dvdFlush<span>(u32 enable)</span></li> 
-    <li><span>u16</span> deviceCode</li> 
-    <li><span>u32</span> releaseDate</li> 
-    <li><span>u32</span> padding[2]</li> 
-    <li><span></span> dvdInquiry_t</li> 
-    <li><span>void</span> dvdPrintInquiry<span>(const char *comment,dvdInquiry_t *s)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">22</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">121</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dvdfs.h" />
-  <h3>dvdfs.h</h3>
-  <ul>
-    <li><span>u32</span> dvdFsInit<span>(void)</span></li> 
-    <li><span>u32</span> dvdFsDeToInd<span>(DirEntry *de)</span></li> 
-    <li><span>DirEntry </span> dvdFsFind<span>(const char *path)</span></li> 
-    <li><span>DirEntry </span> dvdFsIndToDe<span>(u32 ind)</span></li> 
-    <li><span>void </span> fileLoad<span>(const char *file,u32 *rLen)</span></li> 
-    <li><span>char </span> lineGet<span>(char *buf,u32 bLen)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">51</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ehci-hcd.h" />
-  <h3>ehci-hcd.h</h3>
-  <ul>
-    <li><span>int</span> ehci_start<span>(struct usb_hcd *hcd)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">12</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ela.h" />
-  <h3>ela.h</h3>
-  <ul>
-    <li><span>void</span> init_ELA<span>(p_ela_init_reg)</span></li> 
-    <li><span>void</span> post_ELA<span>(int wrap_cnt)</span></li> 
-    <li><span>void</span> log_ELA<span>(int)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">94</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="exi.h" />
-  <h3>exi.h</h3>
-  <ul>
-    <li><span>ExiStatus</span> exiInit<span>(void(*extDetachCb)(u32 chan),void(*extIrqCb)(u32 chan),void(*tranCb)(u32 chan))</span></li> 
-    <li><span>ExiStatus</span> exiCustomInit<span>(void(*extDetachCb)(u32 chan),void(*extIrqCb)(u32 chan),void(*tranCb)(u32 chan))</span></li> 
-    <li><span>ExiStatus</span> exiSelect<span>(u32 chan,u32 dev,u32 freq)</span></li> 
-    <li><span>ExiStatus</span> exiDeselect<span>(u32 chan)</span></li> 
-    <li><span>ExiStatus</span> exiDma<span>(u32 chan,u8 *buf,u32 len,u32 type)</span></li> 
-    <li><span>ExiStatus</span> exiImm<span>(u32 chan,u8 *buf,u32 len,u32 type)</span></li> 
-    <li><span>ExiStatus</span> exiSync<span>(u32 chan)</span></li> 
-    <li><span>u32</span> exiPresent<span>(u32 chan)</span></li> 
-    <li><span>void</span> exi32Enable<span>(void)</span></li> 
-    <li><span>void</span> exi32Disable<span>(void)</span></li> 
-    <li><span>void</span> exiPrint<span>(char *buf,int len)</span></li> 
-    <li><span>u32</span> exiGetID<span>(u32 chan,u32 dev)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">12</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">85</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="eximdm.h" />
-  <h3>eximdm.h</h3>
-  <ul>
-    <li><span>u32</span> mdmInit<span>(u32 mdmDev,u32 mdmCsel)</span></li> 
-    <li><span>u32</span> mdmRegRd<span>(u32 reg,u8 *buf,u32 len)</span></li> 
-    <li><span>u32</span> mdmRegWrt<span>(u32 reg,u8 *buf,u32 len)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">40</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="fifo.h" />
-  <h3>fifo.h</h3>
-  <ul>
-    <li><span>void</span> fifoCreate<span>(const char *name,Fifo *fp,u32 *list,u32 size)</span></li> 
-    <li><span>u32</span> fifoGetExt<span>(Fifo *fp,u32 *valp,u32 flags)</span></li> 
-    <li><span>u32</span> fifoGet<span>(Fifo *fp)</span></li> 
-    <li><span>u32</span> fifoPutExt<span>(Fifo *fp,u32 val,u32 flags)</span></li> 
-    <li><span>void</span> fifoPut<span>(Fifo *fp,u32 val)</span></li> 
-    <li><span>u32</span> fifoCnt<span>(Fifo *fp)</span></li> 
-    <li><span>void</span> EnableWriteCombine<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">61</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="filerand.h" />
-  <h3>filerand.h</h3>
-  <ul>
-    <li><span>void</span> sfilerand<span>(unsigned long seed)</span></li> 
-    <li><span>unsigned short</span> filerand<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">11</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="filerandom.h" />
-  <h3>filerandom.h</h3>
-  <ul>
-    <li><span>void</span> sfilerandom<span>(unsigned long seed)</span></li> 
-    <li><span>unsigned long</span> filerandom<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">11</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="flash.h" />
-  <h3>flash.h</h3>
-  <ul>
-    <li><span>u32</span> flashReadSeg<span>(u32 chan,u32 src,u32 dst,u32 len)</span></li> 
-    <li><span>u32</span> flashRead<span>(u32 chan,u32 src,u32 dst,u32 len)</span></li> 
-    <li><span>u32</span> flashWritePage<span>(u32 chan,u32 src,u32 dst,u32 len)</span></li> 
-    <li><span>u32</span> flashWrite<span>(u32 chan,u32 src,u32 dst,u32 len)</span></li> 
-    <li><span>u32</span> flashStatGet<span>(u32 chan,u32 *ret)</span></li> 
-    <li><span>u32</span> flashStatClr<span>(u32 chan)</span></li> 
-    <li><span>u32</span> flashErase<span>(u32 chan)</span></li> 
-    <li><span>u32</span> flashEraseSec<span>(u32 chan,u32 addr)</span></li> 
-    <li><span>u32</span> flashSleep<span>(u32 chan)</span></li> 
-    <li><span>u32</span> flashWake<span>(u32 chan)</span></li> 
-    <li><span>u32</span> flashIdRd<span>(u32 chan,u32 *ret)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">53</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="font.h" />
-  <h3>font.h</h3>
-  <ul>
-    <li><span>void</span> fontInit<span>(u32 addr,u32 vidMode)</span></li> 
-    <li><span>void</span> cls<span>(void)</span></li> 
-    <li><span>void</span> fgSet<span>(u32 y,u32 u,u32 v)</span></li> 
-    <li><span>void</span> bgSet<span>(u32 y,u32 u,u32 v)</span></li> 
-    <li><span>void</span> cursorSet<span>(u32 x,u32 y)</span></li> 
-    <li><span>void</span> pixSet<span>(u32 x,u32 y)</span></li> 
-    <li><span>void</span> pixClear<span>(u32 x,u32 y)</span></li> 
-    <li><span>void</span> putChar<span>(u32 cc)</span></li> 
-    <li><span>void</span> putStr<span>(const char *str)</span></li> 
-    <li><span>void</span> fontPut<span>(const char *str,u32 len)</span></li> 
-    <li><span>u32</span> fontColsGet<span>(void)</span></li> 
-    <li><span>u32</span> fontRowsGet<span>(void)</span></li> 
-    <li><span>void</span> fontOff<span>(void)</span></li> 
-    <li><span>void</span> fontOn<span>(void)</span></li> 
-    <li><span>void</span> fontCursSet<span>(u32 x,u32 y)</span></li> 
-    <li><span>void</span> gfxBltCpy<span>(u32 *src,u32 cols,u32 rows,u32 x,u32 y)</span></li> 
-    <li><span>void</span> gfxRectDraw<span>(u32 x,u32 y,u32 cols,u32 rows)</span></li> 
-    <li><span>u8 </span> gfxChkppmfmt<span>(u8 *ppm,u32 *cols,u32 *rows)</span></li> 
-    <li><span>u8</span> gfxChkbmpfmt<span>(u8 *cp,u32 *xsize,u32 *ysize,u8 **pStart,u8 **pEnd)</span></li> 
-    <li><span>u8 </span> gfxCvrtbmp2rgb<span>(u8 *pEnd,u8 *pStart,u32 width,u32 height)</span></li> 
-    <li><span>void</span> gfxCvrtrgb2yuv<span>(u8 *data,u32 cols,u32 rows)</span></li> 
-    <li><span>void</span> gfxCvrt444to422<span>(u8 *src,u32 cols,u32 rows,u8 *dest)</span></li> 
-    <li><span>void</span> gfxCvrt444to422Stride<span>(u8 *src,u32 cols,u32 rows,u8 *dest,u32 stride)</span></li> 
-    <li><span>u32</span> scrColsGet<span>(void)</span></li> 
-    <li><span>u32</span> scrRowsGet<span>(void)</span></li> 
-    <li><span>void</span> xLMarginSet<span>(u32 xLMargin)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">26</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">60</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gecko_dma.h" />
-  <h3>gecko_dma.h</h3>
-  <ul>
-    <li><span>asm DMAStatus</span> dmaEnable<span>()</span></li> 
-    <li><span>asm DMAStatus</span> dmaDisable<span>()</span></li> 
-    <li><span>asm DMAStatus</span> dmaErrorStatus<span>()</span></li> 
-    <li><span>asm DMAStatus</span> dmaQueueLen<span>()</span></li> 
-    <li><span>asm DMAStatus</span> dmaFlush<span>()</span></li> 
-    <li><span>asm DMAStatus</span> dmaAlloc<span>(register unsigned long,register unsigned long)</span></li> 
-    <li><span>asm DMAStatus</span> dmaRead<span>(register unsigned long,register unsigned long,register unsigned long)</span></li> 
-    <li><span>asm DMAStatus</span> dmaWrite<span>(register unsigned long,register unsigned long,register unsigned long)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">84</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="getopt.h" />
-  <h3>getopt.h</h3>
-  <ul>
-    <li><span>char </span> optarg</li> 
-    <li><span>int</span> optind</li> 
-    <li><span>int</span> getopt<span>(int ac,char *av[],char *opts)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">36</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gfxbu.h" />
-  <h3>gfxbu.h</h3>
-  <ul>
-    <li><span>void</span> gfxbuInit<span>()</span></li> 
-    <li><span>u32</span> gfxbuFinish<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">42</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gfxoldbu.h" />
-  <h3>gfxoldbu.h</h3>
-  <ul>
-    <li><span>void</span> gfxoldbuInit<span>(char *testName)</span></li> 
-    <li><span>void </span> gfxoldbuDisplay</li> 
-    <li><span>u32</span> gfxoldbuUpdate<span>()</span></li> 
-    <li><span>u32</span> gfxoldbuFinish<span>()</span></li> 
-    <li><span>u32</span> gfxoldbuFinishAA<span>()</span></li> 
-    <li><span>void</span> gfxSetClearColor<span>(u8 red,u8 green,u8 blue,u8 alpha)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">84</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gpioexi.h" />
-  <h3>gpioexi.h</h3>
-  <ul>
-    <li><span>void</span> initGpioExi<span>(void)</span></li> 
-    <li><span>void</span> setVideoReset<span>(int value)</span></li> 
-    <li><span>void</span> setI2CEnable<span>(int value)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">10</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="hcd.h" />
-  <h3>hcd.h</h3>
-  <ul>
-    <li><span>struct usb_hcd</span> __attribute__<span>((aligned(32)))</span></li> 
-    <li><span>struct hcd_dev</span> __attribute__<span>((aligned(32)))</span></li> 
-    <li><span>struct hcd_timeout</span> __attribute__<span>((aligned(32)))</span></li> 
-    <li><span>struct hc_driver</span> __attribute__<span>((aligned(32)))</span></li> 
-    <li><span>int</span> usb_hcd_pci_probe<span>(int *dev,int *id)</span></li> 
-    <li><span>void</span> usb_hcd_pci_remove<span>(struct pci_dev *dev)</span></li> 
-    <li><span>int</span> usb_hcd_pci_suspend<span>(struct pci_dev *dev,u32 state)</span></li> 
-    <li><span>int</span> usb_hcd_pci_resume<span>(struct pci_dev *dev)</span></li> 
-    <li><span>void</span> usb_claim_bandwidth<span>(struct usb_device *dev,struct urb *urb,int bustime,int isoc)</span></li> 
-    <li><span>void</span> usb_release_bandwidth<span>(struct usb_device *dev,struct urb *urb,int isoc)</span></li> 
-    <li><span>int</span> usb_check_bandwidth<span>(struct usb_device *dev,struct urb *urb)</span></li> 
-    <li><span>long</span> usb_calc_bus_time<span>(int speed,int is_input,int isoc,int bytecount)</span></li> 
-    <li><span>inline struct usb_bus </span> hcd_to_bus<span>(struct usb_hcd *hcd){return hcd->bus</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">298</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="hidutil.h" />
-  <h3>hidutil.h</h3>
-  <ul>
-    <li><span>void</span> sethid2<span>(unsigned int hid2_value)</span></li> 
-    <li><span>unsigned int</span> gethid0<span>(void)</span></li> 
-    <li><span>void</span> sethid0<span>(unsigned int)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">11</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="hub.h" />
-  <h3>hub.h</h3>
-  <ul>
-    <li><span>struct usb_driver </span> hub_probe<span>(struct usb_device *dev,unsigned int i,const struct usb_device_id *id)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">152</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="i2c.h" />
-  <h3>i2c.h</h3>
-  <ul>
-    <li><span>int</span> sendI2CData<span>(u8 slaveAddr,u8 *pData,int nBytes)</span></li> 
-    <li><span>int</span> rcvI2CData<span>(u8 slaveAddr,u8 *pData,int maxBytes)</span></li> 
-    <li><span>int</span> getI2CError<span>()</span></li> 
-    <li><span>void</span> initI2C<span>()</span></li> 
-    <li><span>void</span> initI2CExi<span>(void)</span></li> 
-    <li><span>void</span> setSCL<span>(int)</span></li> 
-    <li><span>void</span> setSDA<span>(int)</span></li> 
-    <li><span>int</span> getSCL<span>(void)</span></li> 
-    <li><span>int</span> getSDA<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">51</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="irq.h" />
-  <h3>irq.h</h3>
-  <ul>
-    <li><span>void</span> irqHandler<span>(void)</span></li> 
-    <li><span>void</span> irqCbAddPI<span>(void(*irqCb)(),u32 mask)</span></li> 
-    <li><span>void</span> irqACRHandler<span>(void)</span></li> 
-    <li><span>void</span> irqCbAddACR<span>(void(*irqCb)(),u32 mask)</span></li> 
-    <li><span>u32</span> irqDisable<span>(void)</span></li> 
-    <li><span>void</span> irqEnable<span>(u32 oldMask)</span></li> 
-    <li><span>void</span> irqInit<span>(void(*intCb)(void))</span></li> 
-    <li><span>void</span> clkInit<span>(void(*intCb)(void),u32 decVal)</span></li> 
-    <li><span>void</span> _clkHndlr<span>(void)</span></li> 
-    <li><span>void</span> _irqHndlr<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">90</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="lib.h" />
-  <h3>lib.h</h3>
-  <ul>
-    <li><span>u16</span> bRd16<span>(u32 src)</span></li> 
-    <li><span>u32</span> bRd32<span>(u32 src)</span></li> 
-    <li><span>void</span> busWrt16<span>(u32 address,u16 data)</span></li> 
-    <li><span>void</span> busWrt32<span>(u32 address,u32 data)</span></li> 
-    <li><span>u16</span> busRd16<span>(u32 address)</span></li> 
-    <li><span>u32</span> busRd32<span>(u32 address)</span></li> 
-    <li><span>void</span> bWrt16<span>(u32 address,u32 data)</span></li> 
-    <li><span>void</span> bWrt32<span>(u32 address,u32 data)</span></li> 
-    <li><span>void</span> _dcWb<span>(u32 addr,u32 off)</span></li> 
-    <li><span>void</span> _dcWbInv<span>(u32 addr,u32 off)</span></li> 
-    <li><span>void</span> _dcInv<span>(u32 addr,u32 off)</span></li> 
-    <li><span>void</span> dcWb<span>(u32 addr,u32 len)</span></li> 
-    <li><span>void</span> dcWbInv<span>(u32 addr,u32 len)</span></li> 
-    <li><span>void</span> dcInv<span>(u32 addr,u32 len)</span></li> 
-    <li><span>u32</span> rand32<span>(void)</span></li> 
-    <li><span>double</span> drand48<span>(void)</span></li> 
-    <li><span>double</span> erand48<span>(unsigned short xsubi[3])</span></li> 
-    <li><span>long int</span> mrand48<span>(void)</span></li> 
-    <li><span>int</span> lrand48<span>(void)</span></li> 
-    <li><span>int</span> nrand48<span>(unsigned short xsubi[3])</span></li> 
-    <li><span>int</span> jrand48<span>(unsigned short xsubi[3])</span></li> 
-    <li><span>void</span> srand48<span>(int seedval)</span></li> 
-    <li><span>unsigned short </span> seed48<span>(unsigned short seed16v[3])</span></li> 
-    <li><span>void</span> lcong48<span>(unsigned short param[7])</span></li> 
-    <li><span>void</span> tbRead<span>(u32 *)</span></li> 
-    <li><span>void</span> tbWrite<span>(u32 *)</span></li> 
-    <li><span>void</span> udelay<span>(u32 delay)</span></li> 
-    <li><span>void</span> busDelay<span>(u32 count)</span></li> 
-    <li><span>u32</span> timeGet<span>(void)</span></li> 
-    <li><span>void</span> halt<span>(void)</span></li> 
-    <li><span>void</span> ppcL2Enable<span>(void)</span></li> 
-    <li><span>void</span> ppcL1Enable<span>(void)</span></li> 
-    <li><span>void</span> ppcL1Disable<span>(void)</span></li> 
-    <li><span>void</span> ppcL1Flush<span>(void)</span></li> 
-    <li><span>void</span> ppcPSLSQEnable<span>(void)</span></li> 
-    <li><span>void</span> ppcDARSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcDARGet<span>(void)</span></li> 
-    <li><span>void</span> ppcHID0Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID0Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcHID1Get<span>(void)</span></li> 
-    <li><span>void</span> ppcHID2Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID2Get<span>(void)</span></li> 
-    <li><span>void</span> ppcHID4Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID4Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcECID0Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcECID1Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcECID2Get<span>(void)</span></li> 
-    <li><span>void</span> ppcL2CRSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcL2CRGet<span>(void)</span></li> 
-    <li><span>void</span> ppcWPARSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcWPARGet<span>(void)</span></li> 
-    <li><span>void</span> ppcDecSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcMsrSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcMsrGet<span>(void)</span></li> 
-    <li><span>void</span> ppcTBUSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcTBUGet<span>(void)</span></li> 
-    <li><span>void</span> ppcTBLSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcTBLGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcPVRGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcSPRG0Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcSPRG1Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcSPRG2Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcSPRG3Get<span>(void)</span></li> 
-    <li><span>u32</span> ppcSPRG0Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcSPRG1Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcSPRG2Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcSPRG3Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcDBAT0UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT0LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT1UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT1LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT2UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT2LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT3UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT3LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT4UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT4LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT5UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT5LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT6UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT6LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT7UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcDBAT7LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT0UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT0LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT1UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT1LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT2UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT2LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT3UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT3LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT4UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT4LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT5UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT5LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT6UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT6LGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT7UGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcIBAT7LGet<span>(void)</span></li> 
-    <li><span>void</span> ppcDBAT0USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT0LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT1USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT1LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT2USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT2LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT3USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT3LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT4USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT4LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT5USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT5LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT6USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT6LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT7USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcDBAT7LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT0USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT0LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT1USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT1LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT2USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT2LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT3USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT3LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT4USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT4LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT5USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT5LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT6USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT6LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT7USet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcIBAT7LSet<span>(u32 val)</span></li> 
-    <li><span>void</span> setIrqHndlr<span>(void(*hndlr)())</span></li> 
-    <li><span>void</span> ppcEARSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcEARGet<span>()</span></li> 
-    <li><span>void</span> __ecowx<span>(u32 addr,u32 val)</span></li> 
-    <li><span>u32</span> __eciwx<span>(u32 addr)</span></li> 
-    <li><span>void</span> __dcbi<span>(u32 *,u32)</span></li> 
-    <li><span>void</span> __icbi<span>(u32 *,u32)</span></li> 
-    <li><span>u32</span> __lwarx<span>(u32)</span></li> 
-    <li><span>void</span> __stwcx<span>(u32,u32)</span></li> 
-    <li><span>void</span> _ctxSw<span>(void *newCtx)</span></li> 
-    <li><span>void</span> _irqCtxSw<span>(void *newCtx)</span></li> 
-    <li><span>void</span> ppcSync<span>(void)</span></li> 
-    <li><span>void</span> ppcEieio<span>(void)</span></li> 
-    <li><span>void</span> ppcEeieo<span>(void)</span></li> 
-    <li><span>u32</span> ppcStackPtrGet<span>()</span></li> 
-    <li><span>void</span> ppcStackPtrSet<span>(u32 val)</span></li> 
-    <li><span>void</span> rwbuzz<span>(void)</span></li> 
-    <li><span>int</span> strcasecmp<span>(const char *s1,const char *s2)</span></li> 
-    <li><span>int</span> strncasecmp<span>(const char *s1,const char *s2,u32 c)</span></li> 
-    <li><span>void </span> memcpy32<span>(void *s1,const void *s2,u32 n)</span></li> 
-    <li><span>void </span> memset32<span>(void *s,u32 c,u32 n)</span></li> 
-    <li><span>int</span> memcmp32<span>(const void *s1,const void *s2,u32 n)</span></li> 
-    <li><span>int</span> atoh<span>(const char *str)</span></li> 
-    <li><span>s32</span> ntoi<span>(const char *str,u32 base,u32 *val)</span></li> 
-    <li><span>void</span> serInit2<span>(u32 dev,u32 csel)</span></li> 
-    <li><span>void</span> serInit<span>(void)</span></li> 
-    <li><span>void</span> serOn<span>(void)</span></li> 
-    <li><span>void</span> serOff<span>(void)</span></li> 
-    <li><span>int</span> serHwFlow<span>(u32 enable)</span></li> 
-    <li><span>u8</span> serVersion<span>(u32 dev,u32 csel)</span></li> 
-    <li><span>int</span> serRdQLen<span>(void)</span></li> 
-    <li><span>int</span> serRdUart<span>(u8 *,int)</span></li> 
-    <li><span>u8</span> serRdgetkey<span>(void)</span></li> 
-    <li><span>u32</span> serRdkbhit<span>(void)</span></li> 
-    <li><span>void</span> diagManualStop<span>(void *fb)</span></li> 
-    <li><span>void</span> dprintf<span>(const char *fmt,...)</span></li> 
-    <li><span>void</span> dsprintf<span>(char *str,const char *fmt,...)</span></li> 
-    <li><span>void</span> printfv<span>(u32 verLev,const char *fmt,...)</span></li> 
-    <li><span>void</span> printf0<span>(const char *fmt,...)</span></li> 
-    <li><span>void</span> printf1<span>(const char *fmt,...)</span></li> 
-    <li><span>u32</span> tolower<span>(u32 cc)</span></li> 
-    <li><span>int</span> atiIsNdev<span>(void)</span></li> 
-    <li><span>int</span> atiIsOrca<span>(void)</span></li> 
-    <li><span>void</span> initBootMode<span>(void)</span></li> 
-    <li><span>u32</span> getBootMode<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">176</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">309</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mc.h" />
-  <h3>mc.h</h3>
-  <ul>
-    <li><span>void</span> GXMCGFXInit<span>()</span></li> 
-    <li><span>GXBool</span> GXMCInit<span>(GXMCObj *mcObj,u32 width,u32 height,u32 bufferCount)</span></li> 
-    <li><span>void</span> GXMCBeginPicture<span>(GXMCObj *mcObj,PictureType pType)</span></li> 
-    <li><span>void</span> GXMCRenderMB<span>(GXMCObj *mcObj,GXMCMacroBlockType mbType,GXMCMotionVector mv[4][2])</span></li> 
-    <li><span>void</span> GXMCEndPicture<span>(GXMCObj *mcObj,GXCopyType copyType,void *dest)</span></li> 
-    <li><span>void</span> GXMCSetChromaSample<span>(GXMCObj *mcObj,GXMCSampleMode mode)</span></li> 
-    <li><span>void</span> GXMCFinish<span>(GXMCObj *mcObj)</span></li> 
-    <li><span>GXBool</span> GXMCBufferBusy<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>GXBool</span> GXSelectDBuffer<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD0YAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD1YAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD0UAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD1UAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD0VAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-    <li><span>u8 </span> GXMCGetD1VAddress<span>(GXMCObj *mcObj,u32 bufferId)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">15</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">313</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mem.h" />
-  <h3>mem.h</h3>
-  <ul>
-    <li><span>const heap_t</span> MEM_NAPA_HEAP</li> 
-    <li><span>const heap_t</span> MEM_DDR_HEAP</li> 
-    <li><span>void</span> memInit<span>(u32 totMem)</span></li> 
-    <li><span>void </span> memAlloc<span>(u32 len)</span></li> 
-    <li><span>void</span> memFree<span>(void *addr,u32 len)</span></li> 
-    <li><span>void</span> memSetHeap<span>(heap_t)</span></li> 
-    <li><span>heap_t</span> memGetHeap<span>(void)</span></li> 
-    <li><span>void </span> memAllocHeap<span>(u32 len,heap_t heap)</span></li> 
-    <li><span>u32</span> memGetSize<span>(void)</span></li> 
-    <li><span>void</span> memRefreshInit<span>(u32 *freq_array)</span></li> 
-    <li><span>void</span> memRefreshHandler<span>(void)</span></li> 
-    <li><span>void</span> memRefreshHelper<span>(u32,u32)</span></li> 
-    <li><span>void</span> memRefreshThread<span>()</span></li> 
-    <li><span>void</span> memRefreshThreadInit<span>(u32 *freq_array,u32 priority)</span></li> 
-    <li><span>u32</span> readDirectMemReg<span>(u32)</span></li> 
-    <li><span>u32</span> readDDRMemReg<span>(u32)</span></li> 
-    <li><span>u32</span> readSeqMemReg<span>(u32)</span></li> 
-    <li><span>u32</span> readBistMemReg<span>(u32)</span></li> 
-    <li><span>u32</span> readPerfMemReg<span>(u32)</span></li> 
-    <li><span>void</span> writeDirectMemReg<span>(u32,u32)</span></li> 
-    <li><span>void</span> writeDDRMemReg<span>(u32,u32)</span></li> 
-    <li><span>void</span> writeSeqMemReg<span>(u32,u32)</span></li> 
-    <li><span>void</span> writeBistMemReg<span>(u32,u32)</span></li> 
-    <li><span>void</span> writePerfMemReg<span>(u32,u32)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">22</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">72</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ml.h" />
-  <h3>ml.h</h3>
-  <ul>
-    <li><span>void</span> mlStart<span>(char *FileName,u32 memSize,u32 memStart)</span></li> 
-    <li><span>void </span> mlAlloc<span>(u32 nbytes,MLMemType type,MLByteGrouping grouping)</span></li> 
-    <li><span>void </span> mlAllocForce<span>(u32 addr,u32 nbytes,MLMemType type,MLByteGrouping grouping)</span></li> 
-    <li><span>u32</span> mlGetAddr<span>(void *ptr)</span></li> 
-    <li><span>void </span> mlGetCPtr<span>(u32 addr)</span></li> 
-    <li><span>void</span> mlFlush<span>()</span></li> 
-    <li><span>void</span> mlFree<span>(void *ptr)</span></li> 
-    <li><span>void</span> mlReverseBytes<span>(void *ptr,u32 bytes)</span></li> 
-    <li><span>void</span> mlSetCustomByteSwappingFunction<span>(MLByteGrouping grouping,MLByteSwappingFunction function,u32 stride)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">101</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="mrexi.h" />
-  <h3>mrexi.h</h3>
-  <ul>
-    <li><span>int</span> mrExiSerInit<span>(void)</span></li> 
-    <li><span>void</span> mrExiPrint<span>(char *buf,int len)</span></li> 
-    <li><span>int</span> mrExiProbe<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">63</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="n64cnt.h" />
-  <h3>n64cnt.h</h3>
-  <ul>
-    <li><span>u32</span> joyStatus<span>(u32 chan,u32 *stData)</span></li> 
-    <li><span>u32</span> joyReset<span>(u32 chan,u32 *stData)</span></li> 
-    <li><span>u32</span> joyData<span>(u32 chan,u32 *data)</span></li> 
-    <li><span>u16</span> joyAddrCrc<span>(u16 address)</span></li> 
-    <li><span>u32</span> joyEERead<span>(u32 chan,u16 addr,u8 *data)</span></li> 
-    <li><span>u32</span> joyEEWrite<span>(u32 chan,u16 addr,u8 *data)</span></li> 
-    <li><span>void</span> joyDelay<span>(u32 delay)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">85</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ntd_regs.h" />
-  <h3>ntd_regs.h</h3>
-  <ul>
-    <li><span>u16 </span> __DSPRegs</li> 
-    <li><span>u32 </span> __AIRegs</li> 
-    <li><span>void</span> init_ntd_regs<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">36</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="nvram.h" />
-  <h3>nvram.h</h3>
-  <ul>
-    <li><span>u32</span> nvRamWrite<span>(u32 addr,u8 *buf,u32 len)</span></li> 
-    <li><span>u32</span> nvRamRead<span>(u32 addr,u8 *buf,u32 len)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">41</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="os.h" />
-  <h3>os.h</h3>
-  <ul>
-    <li><span>u32</span> lbolt</li> 
-    <li><span>u32</span> tmIrqTot</li> 
-    <li><span>Thread</span> _tIdle</li> 
-    <li><span>void</span> osInit<span>(void)</span></li> 
-    <li><span>u32</span> threadCreate<span>(Thread *tp,const char *name,void *stack,u32 stackLen,void(*entry)(void *data),void *data,u32 pri)</span></li> 
-    <li><span>void</span> threadSetFPEnable<span>(Thread *tp,u32 val)</span></li> 
-    <li><span>void</span> threadDestroy<span>(Thread *tp)</span></li> 
-    <li><span>void</span> threadStart<span>(Thread *tp)</span></li> 
-    <li><span>void</span> threadStop<span>(Thread *tp)</span></li> 
-    <li><span>void</span> threadYield<span>(void)</span></li> 
-    <li><span>void</span> threadSuspend<span>(Thread *tp)</span></li> 
-    <li><span>void</span> threadResume<span>(Thread *tp)</span></li> 
-    <li><span>void</span> threadPriSet<span>(Thread *tp,u32 pri)</span></li> 
-    <li><span>u32</span> threadPriGet<span>(Thread *tp)</span></li> 
-    <li><span>Thread </span> threadCurGet<span>(void)</span></li> 
-    <li><span>void</span> threadDelay<span>(u32 ticks)</span></li> 
-    <li><span>void</span> semaInit<span>(Sema *sp,s32 cnt)</span></li> 
-    <li><span>void</span> semaP<span>(Sema *sp)</span></li> 
-    <li><span>void</span> semaV<span>(Sema *sp)</span></li> 
-    <li><span>u32</span> semaTest<span>(Sema *sp)</span></li> 
-    <li><span>void</span> condVarInit<span>(CondVar *cp,const char *name)</span></li> 
-    <li><span>void</span> condVarWait<span>(CondVar *cp,Sema *sp)</span></li> 
-    <li><span>void</span> condVarSignal<span>(CondVar *cp)</span></li> 
-    <li><span>void</span> panic<span>(Context *,u32)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">21</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">113</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="reset.h" />
-  <h3>reset.h</h3>
-  <ul>
-    <li><span>void</span> resetSys<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">32</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sdi.h" />
-  <h3>sdi.h</h3>
-  <ul>
-    <li><span>void</span> sdi_init_intr<span>(void(*irqCb)(void))</span></li> 
-    <li><span>void</span> sdi_init<span>(void(*irqCb)(void))</span></li> 
-    <li><span>sdi_slot_t</span> sdi_handle<span>(u32 ctrl,u32 slot)</span></li> 
-    <li><span>void</span> sdi_set_debug<span>(u32 debug)</span></li> 
-    <li><span>u32</span> sdi_rd_reg<span>(sdi_slot_t sp,u32 offset)</span></li> 
-    <li><span>void</span> sdi_wr_reg<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
-    <li><span>void</span> sdi_wr_reg16<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
-    <li><span>u32</span> sdi_verif_reg<span>(sdi_slot_t sp,u32 offset,u32 expected)</span></li> 
-    <li><span>void</span> sdi_reg_intr<span>(sdi_slot_t sp,u32 intr,void(*irq)(sdi_slot_t,void *),void *closure)</span></li> 
-    <li><span>void</span> sdi_intr<span>(void)</span></li> 
-    <li><span>u32</span> sdi_get_istat<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_clear_istat<span>(sdi_slot_t sp,u32 ibits)</span></li> 
-    <li><span>u32</span> sdi_wait_istat<span>(sdi_slot_t sp,u32 ibits,u32 bail_on_abort)</span></li> 
-    <li><span>void</span> sdi_wr_host_ctrl<span>(sdi_slot_t sp,u32 in_data)</span></li> 
-    <li><span>void</span> sdi_int_regs_en<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_wr_nor_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
-    <li><span>void</span> sdi_wr_err_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
-    <li><span>void</span> sdi_err_int_recover<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd)</span></li> 
-    <li><span>u32</span> sdi_io_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd,u32 blk_size,u32 blk_cnt,u32 dma,u32 wr)</span></li> 
-    <li><span>void</span> sdi_read_io_coherency<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_write_io_coherency<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_resp_type_cal<span>(sdi_slot_t sp,u32 cmd_index,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_mem_cmd<span>(sdi_slot_t sp,u32 cmd_index,u32 arg,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_mem_cmd_data<span>(sdi_slot_t sp,u32 sysaddr,u32 cmd_index,u32 blk_size,u32 blk_cnt,u32 data_addr,u32 dma,u32 wr,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd0<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd2<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd3<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd7<span>(sdi_slot_t sp,u32 rca)</span></li> 
-    <li><span>u32</span> sdi_cmd9<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd12<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd13<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd16<span>(sdi_slot_t sp,u32 dflt_blk_size)</span></li> 
-    <li><span>u32</span> sdi_cmd17<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd18<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd23<span>(sdi_slot_t sp,u32 blk_cnt)</span></li> 
-    <li><span>u32</span> sdi_cmd24<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd25<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd32<span>(sdi_slot_t sp,u32 start_blk_addr)</span></li> 
-    <li><span>u32</span> sdi_cmd33<span>(sdi_slot_t sp,u32 end_blk_addr)</span></li> 
-    <li><span>u32</span> sdi_cmd38<span>(sdi_slot_t sp,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd52<span>(sdi_slot_t sp,u32 reg_addr,u32 sd_wr_data,u32 fn_no,u32 raw,u32 wr,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd53<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 wr,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd55<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_acmd6<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>u32</span> sdi_dma_done<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_abort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_suspend<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_resume<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_set_async_mode<span>(sdi_slot_t sp,u32 mode)</span></li> 
-    <li><span>void</span> sdi_wr_clk_ctrl<span>(sdi_slot_t sp,u32 clk_ctrl)</span></li> 
-    <li><span>void</span> sdi_wr_blk_gap_ctrl<span>(sdi_slot_t sp,u32 bgap_ctrl)</span></li> 
-    <li><span>void</span> sdi_wr_timeout_reg<span>(sdi_slot_t sp,u32 timeout_cnt)</span></li> 
-    <li><span>void</span> sdi_set_bus_width<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>void</span> sdi_rd_sd_hc_capabilities<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_clock_supply<span>(sdi_slot_t sp,u32 div)</span></li> 
-    <li><span>void</span> sdi_clock_stop<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_clock_change<span>(sdi_slot_t sp,u32 div)</span></li> 
-    <li><span>void</span> sdi_bus_power<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_validate_ocr<span>(sdi_slot_t sp,u32 ocr_data,u32 mem,u32 mmc)</span></li> 
-    <li><span>u32</span> sdi_card_insertion<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_io_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_mem_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_mmc_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSwapBytes4<span>(u32 value)</span></li> 
-    <li><span>u32</span> checkErrorInt<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiCardDetect<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiFindCard<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> waitTransferComplete<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdiGoIdle<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdiIoReset<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdiSoftReset<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sendCmd<span>(sdi_slot_t sp,u32 arg,u32 tmdcmd)</span></li> 
-    <li><span>u32</span> sdiSendStatus<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendOpCondition<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiAllSendCid<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendRca<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendCsd<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSelectCard<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSetBlockLength<span>(sdi_slot_t sp,u32 blksiz)</span></li> 
-    <li><span>u32</span> sdiSetBusWidth<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>u32</span> sdiAsyncAbort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSyncAbort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> updateDmaPointer<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiReadSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *rdbuf,u32 dma)</span></li> 
-    <li><span>u32</span> sdiWriteSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *wrbuf,u32 dma)</span></li> 
-    <li><span>u32</span> sdiReadBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 auto_cmd12,u32 infinite)</span></li> 
-    <li><span>u32</span> sdiWriteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 auto_cmd12,u32 infinite)</span></li> 
-    <li><span>u32</span> sdiReadMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 auto_cmd12,u32 dma)</span></li> 
-    <li><span>u32</span> sdiWriteMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 auto_cmd12,u32 dma)</span></li> 
-    <li><span>u32</span> sdiReadInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
-    <li><span>u32</span> sdiWriteInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
-    <li><span>u32</span> sdioByteRead<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioByteWrite<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 wr_data,u32 raw,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioExtRead<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioExtWrite<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">96</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">263</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="serrx.h" />
-  <h3>serrx.h</h3>
-  <ul>
-    <li><span>int</span> serRxInit<span>(u32 hwFlowEnable)</span></li> 
-    <li><span>u8</span> serRxgetkey<span>(void)</span></li> 
-    <li><span>u32</span> serRxkbhit<span>(void)</span></li> 
-    <li><span>int</span> serRxInitParam<span>(u32 chan,u32 cs,u32 hwFlowEnable)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sfx.h" />
-  <h3>sfx.h</h3>
-  <ul>
-    <li><span>void</span> sfxPlay<span>(u32 sound)</span></li> 
-    <li><span>void</span> sfxInit<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">37</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sha.h" />
-  <h3>sha.h</h3>
-  <ul>
-    <li><span>int</span> SHA_Busy<span>(void)</span></li> 
-    <li><span>void</span> SHA_Calc<span>(u32 Addr,u32 numBlocks,u32 intrEnable)</span></li> 
-    <li><span>void</span> SHA_Result<span>(u32 *result)</span></li> 
-    <li><span>int</span> SHA_Match<span>(u32 *a,u32 *b)</span></li> 
-    <li><span>void</span> SHA_Clear<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">14</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="si.h" />
-  <h3>si.h</h3>
-  <ul>
-    <li><span>u32</span> siInit<span>(void(*comCb)(u32 sisr),void(*pollCb)(u32 sisr))</span></li> 
-    <li><span>void</span> siChanOutSet<span>(u32 *chanData)</span></li> 
-    <li><span>u32</span> siChansRead<span>(u32 *chanData)</span></li> 
-    <li><span>void</span> siPollRegSet<span>(u32 x,u32 y,u32 enMask,u32 vbCpyMask)</span></li> 
-    <li><span>void</span> siPollRegGet<span>(u32 *x,u32 *y,u32 *enMask,u32 *vbCpyMask)</span></li> 
-    <li><span>u32</span> siComm<span>(u32 chanNo,u32 *out,u32 oLen,u32 iLen)</span></li> 
-    <li><span>u32</span> siSync<span>(void)</span></li> 
-    <li><span>void</span> siPollWait<span>(u32 chanMask)</span></li> 
-    <li><span>void</span> siComDataGet<span>(u32 *in,u32 cnt)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">57</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="snake.h" />
-  <h3>snake.h</h3>
-  <ul>
-    <li><span>void</span> Line<span>(int x,int y,int x2,int y2,unsigned char c,unsigned char u,unsigned char v)</span></li> 
-    <li><span>void</span> Circle<span>(int xc,int yc,int r,unsigned char c,unsigned char u,unsigned char v)</span></li> 
-    <li><span>u32</span> GameOver<span>(PLAYER *snake)</span></li> 
-    <li><span>void</span> ExplodeSnake<span>(int player_num,PLAYER *snake)</span></li> 
-    <li><span>void</span> PrintScore<span>(PLAYER *snake)</span></li> 
-    <li><span>void</span> Delay<span>(u32 delay_value)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">117</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="standio.h" />
-  <h3>standio.h</h3>
-  <ul>
-    <li><span>int</span> ioInit<span>(void)</span></li> 
-    <li><span>int</span> open<span>(const char *path,int oflag)</span></li> 
-    <li><span>int</span> close<span>(int fd)</span></li> 
-    <li><span>ssize_t</span> read<span>(int fd,void *buf,size_t nbytes)</span></li> 
-    <li><span>off_t</span> lseek<span>(int fd,off_t offset,int whence)</span></li> 
-    <li><span>off_t</span> tell<span>(int fd)</span></li> 
-    <li><span>FILE </span> fopen<span>(const char *filename,const char *mode)</span></li> 
-    <li><span>int</span> fclose<span>(FILE *fp)</span></li> 
-    <li><span>size_t</span> fread<span>(void *ptr,size_t size,size_t nitems,FILE *fp)</span></li> 
-    <li><span>int</span> fgetc<span>(FILE *stream)</span></li> 
-    <li><span>int</span> getc<span>(FILE *stream)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">59</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="swab.h" />
-  <h3>swab.h</h3>
-  <ul>
-    <li><span>__inline__ __const__ u16</span> __fswab16<span>(u16 x){return __arch__swab16(x)</span></li> 
-    <li><span>__inline__ u16</span> __swab16p<span>(u16 *x){return __arch__swab16p(x)</span></li> 
-    <li><span>__inline__ void</span> __swab16s<span>(u16 *addr){__arch__swab16s(addr)</span></li> 
-    <li><span>__inline__ __const__ u32</span> __fswab32<span>(u32 x){return __arch__swab32(x)</span></li> 
-    <li><span>__inline__ u32</span> __swab32p<span>(u32 *x){return __arch__swab32p(x)</span></li> 
-    <li><span>__inline__ void</span> __swab32s<span>(u32 *addr){__arch__swab32s(addr)</span></li> 
-    <li><span>u32</span> h</li> 
-    <li><span>u32</span> l</li> 
-    <li><span></span> return<span>(((u64)__swab32(l))<<32)|((u64)(__swab32(h)))</span></li> 
-    <li><span>return</span> __arch__swab64<span>(x)</span></li> 
-    <li><span>__inline__ u64</span> __swab64p<span>(u64 *x){return __arch__swab64p(x)</span></li> 
-    <li><span>__inline__ void</span> __swab64s<span>(u64 *addr){__arch__swab64s(addr)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">159</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="usb.h" />
-  <h3>usb.h</h3>
-  <ul>
-    <li><span>void</span> usbInit<span>()</span></li> 
-    <li><span>void</span> writeDescriptor<span>(u32 addr,u32 dw0,u32 dw1,u32 dw2,u32 dw3)</span></li> 
-    <li><span>void</span> writeFmInt<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeBulkHeadList<span>(u32 dw)</span></li> 
-    <li><span>void</span> setBulkListEn<span>()</span></li> 
-    <li><span>void</span> setTDFound<span>()</span></li> 
-    <li><span>void</span> setOperational<span>()</span></li> 
-    <li><span>void</span> writePort1Stat<span>(u32 dw)</span></li> 
-    <li><span>void</span> writePort2Stat<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeFmRem<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeOH1FmInt<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeOH1BulkHeadList<span>(u32 dw)</span></li> 
-    <li><span>void</span> setOH1BulkListEn<span>()</span></li> 
-    <li><span>void</span> setOH1TDFound<span>()</span></li> 
-    <li><span>void</span> setOH1Operational<span>()</span></li> 
-    <li><span>void</span> writeOH1Port1Stat<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeOH1Port2Stat<span>(u32 dw)</span></li> 
-    <li><span>void</span> writeOH1FmRem<span>(u32 dw)</span></li> 
-    <li><span>void</span> oh0Init<span>(void(*_Cb)(void),int mask)</span></li> 
-    <li><span>void</span> oh1Init<span>(void(*_Cb)(void),int mask)</span></li> 
-    <li><span>void</span> ehcInit<span>(void(*_Cb)(void),int mask)</span></li> 
-    <li><span>void(</span> usb_udelay_function<span>)(u32 delay)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">22</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">39</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="usb_input.h" />
-  <h3>usb_input.h</h3>
-  <ul>
-    <li><span>void</span> input_register_device<span>(struct input_dev *)</span></li> 
-    <li><span>void</span> input_unregister_device<span>(struct input_dev *)</span></li> 
-    <li><span>void</span> input_register_handler<span>(struct input_handler *)</span></li> 
-    <li><span>void</span> input_unregister_handler<span>(struct input_handler *)</span></li> 
-    <li><span>int</span> input_open_device<span>(struct input_handle *)</span></li> 
-    <li><span>void</span> input_close_device<span>(struct input_handle *)</span></li> 
-    <li><span>void</span> input_event<span>(struct input_dev *dev,unsigned int type,unsigned int code,int value)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">747</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="usb_mem.h" />
-  <h3>usb_mem.h</h3>
-  <ul>
-    <li><span>void </span> usb_malloc_dma<span>(u32 len,u32 *dma_addr)</span></li> 
-    <li><span>struct usb_pool </span> usb_pool_create<span>(u32 size,u32 uncached)</span></li> 
-    <li><span>dma_addr_t</span> usb_map_single<span>(void *transfer_buffer,int data_len,int dir)</span></li> 
-    <li><span>void</span> usb_unmap_single<span>(u32 dma_addr,int len,int dir)</span></li> 
-    <li><span>void </span> usb_pool_alloc<span>(struct usb_pool *ppool,u32 *dma_addr)</span></li> 
-    <li><span>void</span> usb_pool_free<span>(struct usb_pool *ppool,void *pobj,u32 dma_addr)</span></li> 
-    <li><span>void</span> usb_pool_destroy<span>(struct usb_pool *ppool)</span></li> 
-    <li><span>void </span> usb_malloc<span>(u32 len)</span></li> 
-    <li><span>void</span> usb_free<span>(void *p,u32 len)</span></li> 
-    <li><span>void</span> usb_memset<span>(void *cp,u32 val,int size)</span></li> 
-    <li><span>void </span> usb_memscan<span>(void *addr,int c,size_t size)</span></li> 
-    <li><span>u32</span> usb_check_payload<span>(u32 StartValue,u32 IncrBy,u32 BufferLength,u32 *pBuffer,u32 *next_value)</span></li> 
-    <li><span>u32</span> usb_fill_payload<span>(u32 StartValue,u32 IncrBy,u32 BufferLength,u32 *pBuffer)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="usb_spin.h" />
-  <h3>usb_spin.h</h3>
-  <ul>
-    <li><span>void</span> spin_lock_irqsave<span>(spinlock_t *sp_lock,int flags)</span></li> 
-    <li><span>void</span> spin_unlock_irqrestore<span>(spinlock_t *sp_lock,int flags)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">34</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="usb_timer.h" />
-  <h3>usb_timer.h</h3>
-  <ul>
-    <li><span>void</span> mod_timer<span>(struct timer_list *tlist,u32 val)</span></li> 
-    <li><span>void</span> del_timer_sync<span>(struct timer_list *tlist)</span></li> 
-    <li><span>u32</span> timer_pending<span>(struct timer_list *tlist)</span></li> 
-    <li><span>void</span> add_timer<span>(struct timer_list *wh)</span></li> 
-    <li><span>void</span> init_timer<span>(struct timer_list *wh)</span></li> 
-    <li><span>void</span> del_timer<span>(struct timer_list *wh)</span></li> 
-    <li><span>int</span> time_after<span>(u32 jiff,int timeout)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">7</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">25</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="util.h" />
-  <h3>util.h</h3>
-  <ul>
-    <li><span>u32</span> swapBytes4<span>(u32 input)</span></li> 
-    <li><span>void</span> swapBytesPtr<span>(void *ptr,int byteCount)</span></li> 
-    <li><span>void</span> swapByteGroupingsPtr<span>(void *ptr,int groupSize,int groupCount)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">20</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="vi.h" />
-  <h3>vi.h</h3>
-  <ul>
-    <li><span>vireg</span> viRegs[]</li> 
-    <li><span>const encoder_type_t</span> VI_ENCODER_ROHM</li> 
-    <li><span>const encoder_type_t</span> VI_ENCODER_CONXT</li> 
-    <li><span>void</span> viNtsc<span>(void)</span></li> 
-    <li><span>void</span> viSetFormat<span>(viFormat fmat,u32 xoff,u32 yoff,u32 height,u32 width)</span></li> 
-    <li><span>void</span> viSetFieldSrc<span>(viBase field,u32 addr,u32 width,u32 stride)</span></li> 
-    <li><span>void</span> viEnable<span>(u32 e)</span></li> 
-    <li><span>void</span> viLoad<span>(void)</span></li> 
-    <li><span>void</span> viLoadSync<span>(void)</span></li> 
-    <li><span>void</span> fire_gun1<span>(int duration)</span></li> 
-    <li><span>void</span> fire_gun0<span>(int duration)</span></li> 
-    <li><span>int</span> mon_tstgun0clr<span>(void)</span></li> 
-    <li><span>int</span> mon_tstgun1clr<span>(void)</span></li> 
-    <li><span>int</span> confirm_gun0<span>(void)</span></li> 
-    <li><span>int</span> confirm_gun1<span>(void)</span></li> 
-    <li><span>int</span> confirm_notgun0<span>(void)</span></li> 
-    <li><span>int</span> confirm_notgun1<span>(void)</span></li> 
-    <li><span>int</span> chk_int<span>(int int_num)</span></li> 
-    <li><span>void</span> clr_int<span>(int int_num,u32 vct,u32 enb)</span></li> 
-    <li><span>void</span> viNtsc<span>(void)</span></li> 
-    <li><span>u16</span> __VIRegs<span>(int index)</span></li> 
-    <li><span>void</span> printVIRegs<span>(void)</span></li> 
-    <li><span>void</span> SetVIInt<span>(int int_num,int int_enb,u16 hct,u16 vct)</span></li> 
-    <li><span>void</span> ClrVIInt<span>(int int_num)</span></li> 
-    <li><span>void</span> __VISet3in1Output<span>(VIBool enable)</span></li> 
-    <li><span>void</span> GPIOInit<span>(void)</span></li> 
-    <li><span>void</span> outputLed<span>(int value)</span></li> 
-    <li><span>BOOL</span> __VISetSCL<span>(u32 value)</span></li> 
-    <li><span>BOOL</span> __VISetSDA<span>(u32 value)</span></li> 
-    <li><span>void</span> __VIOpenI2C<span>(void)</span></li> 
-    <li><span>void</span> __VICloseI2C<span>(void)</span></li> 
-    <li><span>void</span> __VISet3in1Output<span>(VIBool enable)</span></li> 
-    <li><span>void</span> __VISetVolume<span>(u8 volumeL,u8 volumeR)</span></li> 
-    <li><span>void</span> YUVSolidColor<span>(u8 y,u8 u,u8 v,u8 enable)</span></li> 
-    <li><span>void</span> vipll_init<span>(void)</span></li> 
-    <li><span>void</span> ViLcdInit<span>(void)</span></li> 
-    <li><span>void</span> vi_setcnxt_reg<span>(u8 addr,u8 data)</span></li> 
-    <li><span>void</span> viHd1080i<span>(void)</span></li> 
-    <li><span>void</span> viHd720p<span>(void)</span></li> 
-    <li><span>BOOL</span> __VIRelSCL<span>(u32 value)</span></li> 
-    <li><span>BOOL</span> __VIDisSDA<span>(u32 value)</span></li> 
-    <li><span>u8</span> VIGetSDA<span>(void)</span></li> 
-    <li><span>u8</span> vi_getcnxt_reg<span>(u8 addr,u8 data)</span></li> 
-    <li><span>s32</span> __VIGetI2CData<span>(u8 slaveAddr,u8 *pData,s32 nBytes)</span></li> 
-    <li><span>s32</span> __VIsetI2CAddress<span>(u8 slaveAddr,u8 *pData,s32 nBytes)</span></li> 
-    <li><span>void</span> set_current_vi_encoder<span>(encoder_type_t enc_type)</span></li> 
-    <li><span>void</span> vi_init_hd<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">44</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">169</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="vi_conexant.h" />
-  <h3>vi_conexant.h</h3>
-  <ul>
-    <li><span>void</span> read_print<span>(u8 addr)</span></li> 
-    <li><span>void</span> conexant_set_hdtv_mode<span>(HdFormat hdtv_mode)</span></li> 
-    <li><span>int</span> i2c_writereg<span>(unsigned char theSlave,unsigned char theReg,unsigned char theValue)</span></li> 
-    <li><span>unsigned char</span> i2c_readreg<span>(unsigned char theSlave,unsigned char theReg)</span></li> 
-    <li><span>void</span> i2c_gpioinit<span>(void)</span></li> 
-    <li><span>void</span> vi_init_hd<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">15</div>  </div>
- </div>
-
- <div class="rr-file-card">
-  <img class="geopattern" data-title="video.h" />
-  <h3>video.h</h3>
-  <ul>
-    <li><span>void</span> videoInit<span>(void *fb,int format)</span></li> 
-    <li><span>void</span> videoSwapBuffers<span>(void *fb)</span></li> 
-    <li><span>void</span> videoUseISR4Swap<span>(void)</span></li> 
-    <li><span>int</span> videoGetEncoderType<span>(void)</span></li> 
-    <li><span>void</span> viDump<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">71</div>  </div>
- </div>
-
-</section>
+{% capture card_1_1_items %}
+- void|||set_AIP_address_space(int whether)
+- int|||get_AIP_address_space(void)
+- int|||use_AIP_address_space(void)
+- void|||set_AHB_IO_MEM(int value)
+- int|||get_AHB_IO_MEM(void)
+- int|||use_AHB_IO_MEM(void)
+- void|||set_DI_NODVDRD_EN(int value)
+- int|||get_DI_NODVDRD_EN(void)
+- u32|||get_ACRIOINTPPC(void)
+- u32|||set_ACRIOINTPPC(u32 which,u32 value)
+- u32|||sendIOPMsg(u32 msg)
+- void|||set_ACRARBCFGDMA_DELAYEN(int value)
+- int|||get_ACRARBCFGDMA_DELAYEN(void)
+- void|||set_ACRARBCFGDMA_DELAYCNT(u32 value)
+- u32|||get_ACRARBCFGDMA_DELAYCNT(void)
+- void|||set_ACRARBCFGCPU_DELAY(int value)
+{% endcapture %}
+
+{% capture card_1_2_items %}
+- int|||AES_Busy(void)
+- void|||AES_Dma(u32 srcAddr,u32 dstAddr,u32 numBlocks,u32 intrEnable)
+- void|||AES_Clear(void)
+- int|||_AES_Setup(u32 srcAddr,u32 dstAddr)
+- int|||_AES_StartDma(u32 numBlocks,u32 intrEnable)
+{% endcapture %}
+
+{% capture card_1_3_items %}
+- void|||ahbMemFlush(enum memAhbFlushGroup_e)
+- void|||ahbMemRBInvalidate(enum memAhbReadBuffer_e)
+- unsigned int|||busRdAHMReg(unsigned int a)
+- unsigned int|||busRdMEMReg(unsigned int a)
+- int|||arbInit(char *s)
+{% endcapture %}
+
+{% capture card_1_4_items %}
+- int|||ahbdbgInit(void(*_Cb)(void),int mask)
+{% endcapture %}
+
+{% capture card_1_5_items %}
+- AiStatus|||aiInit(void(*_tranCb)(void))
+{% endcapture %}
+
+{% capture card_1_6_items %}
+- void|||__ARWaitForDMA(void)
+- void|||__ARWriteDMA(u32 mmem_addr,u32 aram_addr,u32 length)
+- void|||__ARReadDMA(u32 mmem_addr,u32 aram_addr,u32 length)
+- u32|||__ARChecksize(void)
+{% endcapture %}
+
+{% capture card_1_7_items %}
+- u32|||BUSSPEED
+- void|||calibrateBusspeed(void)
+{% endcapture %}
+
+{% capture card_1_8_items %}
+- u32|||_argc
+- char|||_argv[]
+- u32|||argInit(void)
+- u32|||argCntGet(void)
+- char|||argGet(u32 i)
+- u32|||argCache(u32 *,char ***)
+{% endcapture %}
+
+{% capture card_1_9_items %}
+- void|||_assert(const char *,const char *,int)
+{% endcapture %}
+
+{% capture card_1_10_items %}
+- void|||DbgCreateTX(GXMCObj *info,u32 width,u32 height)
+- void|||DbgRenderAndStretch(GXMCObj *info,u32 x,u32 y,u32 width,u32 height)
+- void|||DbgRenderRefToEFB(GXMCObj *info,GXMCReferencePicture type,u32 x,u32 y,u32 plane)
+- void|||DbgStub(GXMCObj *info)
+- void|||DbgPrintMotionInfo(struct MacroblockDetails *mb)
+- void|||DbgPrintDPCM(struct MacroblockDetails *mb)
+- void|||DbgPrintMotionVector(GXMCMotionVector *mv)
+- |||SigTrap
+- |||SigTrap
+{% endcapture %}
+
+{% capture card_1_11_items %}
+- void|||SetView(void)
+- MCError|||AllocateCmdFifos(GXMCObj *mpgObj)
+- MCError|||AllocatePingPongBuffers(GXMCObj *mpgObj)
+- MCError|||AllocateRefrenceFrameBuffers(GXMCObj *mpgObj)
+- MCError|||AllocateTexMemory(GXMCObj *info)
+- GXBool|||AllocateFutureBuffers(GXMCObj *mpgObj)
+- GXBool|||AllocatePastBuffers(GXMCObj *mpgObj)
+- MCError|||AllocateBPictureBuffers(GXMCObj *mpgObj)
+- void|||InitQueueHandler(GXMCObj *mpgObj)
+- void|||MCErrorHandler(GXMCObj *mpgObj,MCError error)
+- GXBool|||GXMCSelectDBuffer(GXMCObj *info,u32 bufferId)
+- void|||CreateD0Texture(GXMCObj *mpgObj,u32 bufferId,u32 width,u32 height)
+- void|||CreateD1Texture(GXMCObj *mpgObj,u32 bufferId,u32 width,u32 height)
+- void|||PerformRenderSetup(TevType type)
+- void|||SetupTevStages(TevType type)
+- void|||RenderImage(GXMCObj *mpgInfo,u32 width,u32 height)
+- void|||CopyEFBToMemory(GXMCObj *mpgObj,GXCopyType copyType,void *destBase)
+- void|||CreateFrameFromFields(GXMCObj *mpgInfo,PictureType frameType)
+- void|||GXReset(GXMCObj *mpgObj)
+- void|||MarkBufferBusy(GXMCObj *info,u32 id)
+- void|||ProcessBlocks(GXMCObj *info)
+- void|||CreateQueue(GXMCMotionVector *srcMV,GXMCMotionVector *dstMV[],GXMCMacroBlockType mbType,u32 count,u32 totalMV)
+- void|||SwapBuffers(GXMCObj *mcInfo)
+- void|||InterlaceRenderUV(GXMCObj *mcInfo,PictureType fType,void *dstBase)
+- u32|||GXConvertLinearToTile(unsigned x,unsigned y,unsigned stride)
+- void|||DestroyPingPongBuffers(GXMCObj *mpgObj)
+- void|||ResetCounters(GXMCObj *mpgObj)
+- void|||FreeAndReallocate(GXMCObj *mpgObj,GXBool newBuffer)
+{% endcapture %}
+
+{% capture card_1_12_items %}
+- void|||busPrintf(const char *fmt,...)
+- void|||busDbg(const char *fmt,...)
+- u32|||busGetTime(void)
+{% endcapture %}
+
+{% capture card_1_13_items %}
+- u32|||CRCCompute(void *buf,u32 nbytes)
+- u32|||CRCAppend(void *buf,u32 nbytes,u32 init)
+- u32|||CRCComputeMasked(void *buf,u32 nbytes)
+{% endcapture %}
+
+{% capture card_1_14_items %}
+- void|||dbg_viai_setup(int compatB)
+- void|||dbg_aipll_init(int compatB)
+{% endcapture %}
+
+{% capture card_1_15_items %}
+- DbgHandle|||dbgOpen(const char *filename,const char *mode)
+- u32|||dbgWrite(DbgHandle handle,const void *buf,u32 len)
+- u32|||dbgRead(DbgHandle handle,void *buf,u32 len)
+- u32|||dbgClose(DbgHandle handle)
+- u8|||dbgGets(u8 *buf,u32 blockFlag)
+{% endcapture %}
+
+{% capture card_1_16_items %}
+- u32|||dbgintInit(void(*dbgIrqCb)(void))
+{% endcapture %}
+
+{% capture card_1_17_items %}
+- void|||lc_allocate(void *LC_addr,unsigned int bfsize)
+- void|||set_HID_G(unsigned int mask)
+{% endcapture %}
+
+{% capture card_1_18_items %}
+- DiStatus|||diInit(void(*_tranCb)(u32 err),void(*_doorCb)(void))
+- DiStatus|||diImm(u32 *pkt,u32 *data,u32 isRead)
+- DiStatus|||diDma(u32 *pkt,u32 *data,u32 len,u32 isRead)
+- DiStatus|||diSync(void)
+- DiStatus|||diBrk(void)
+- void|||diReset(void)
+- void|||_diSync(u32 iSr)
+- diRegisters_t|||diReadRegisters(diRegisters_t *diRegs)
+- void|||diPrintRegisters(diRegisters_t *diRegs,const char *comment)
+- void|||diClobberRegisters(u32 value)
+- u32|||diStraps(void)
+{% endcapture %}
+
+{% capture card_1_19_items %}
+- u32|||mcrGet(Mcr *mp)
+- u32|||mcrPut(Mcr *mp)
+- u32|||dcrGet(Dcr *dp)
+- u32|||dcrPut(Dcr *dp)
+- u32|||_dcrmcrGet(DcrMcr *dmp)
+- u32|||_dcrmcrPut(DcrMcr *dmp)
+- void|||diagStart(void)
+- void|||diagStop(u32 status)
+{% endcapture %}
+
+{% capture card_1_20_items %}
+- void|||dma_load(unsigned int *inDataBlock,unsigned int *inBuffer,unsigned int inDataSize)
+- void|||dma_wait(unsigned int i)
+- void|||dma_store(unsigned int *outDataBlock,unsigned int *outBuffer,unsigned int outDataSize)
+{% endcapture %}
+
+{% capture card_1_21_items %}
+- u32|||dolcntData(u32 chan,u32 *datah,u32 *datal)
+- u32|||dolcntInit(void)
+- u32|||dolcntInitV(int)
+- void|||dolcntRumbleOn(u32 chan)
+- void|||dolcntRumbleOff(u32 chan)
+{% endcapture %}
+
+{% capture card_1_22_items %}
+- u32|||dspAi(u32 *memPtr,u32 len)
+- u32|||dspAram(u32 *memPtr,u32 *aramPtr,u32 isRead,u32 len)
+- void|||dspSyncAi(void)
+- void|||dspSyncAram(void)
+- u32|||dspWrtMbox(u32 value,u32 doIrq)
+- u32|||dspRdMbox(u32 *value)
+- void|||dspInit(void(*_dspCb)(void),void(*_aiCb)(void),void(*_aramCb)(void))
+- void|||dspAramStable(void)
+{% endcapture %}
+
+{% capture card_1_23_items %}
+- void|||dspFix(void)
+{% endcapture %}
+
+{% capture card_1_24_items %}
+- u32|||dspReset(u32 cdcr)
+- u32|||dspBoot(u32 *memPtr,u32 len)
+- u32|||dspBootDma(u32 *memPtr,u32 dspa,u32 dscr,u32 dsbl)
+- u32|||dspSyncDma(u32 delay)
+- u32|||dspSendMail(u32 mail,u32 doIrq)
+- u32|||dspWaitMail(u32 *mailPtr)
+- u32|||dspMemRamp(u32 *memAddr,u32 len,u32 val)
+{% endcapture %}
+
+{% capture card_1_25_items %}
+- u32|||dvdStopMotor(u32 setting,u32 *response)
+- u32|||dvdRead(u32 addr,u32 len,u32 *mem)
+- void|||dvdSetNdevFS(u32 offset)
+- u32|||dvdReadBuf(u32 addr,u32 len,u32 *dest)
+- u32|||dvdReadDVD(u32 startSector,u32 numberOfSectors,u32 *mem)
+- u32|||dvdWriteBuf(u32 addr,u32 len,u32 *src)
+- u32|||dvdSync(void)
+- u32|||dvdErrSet(u32 len)
+- u32|||dvdBrk(void)
+- u32|||dvdInit(void(*tranCb)(u32 err),void(*doorCb)(void))
+- u32|||dvdErrReq(u32 *retErr)
+- u32|||dvdAsStart(u32 addr,u32 sz)
+- u32|||dvdAsStop(void)
+- u32|||dvdDoor(u32 open)
+- u32|||dvdInquiry(u32 *inq)
+- u32|||dvdReadID(u32 *id)
+- u32|||dvdAsBuffer(u32 onOff,u32 pages,u32 *status)
+- u32|||dvdRequestDiskStatus(u32 *diskStatus)
+- u32|||dvdRequestError(u32 *response)
+- void|||dvdPrintPacket(dvd_u *pkt)
+- void|||_dvdFlush(u32 enable)
+- u16|||deviceCode
+- u32|||releaseDate
+- u32|||padding[2]
+- |||dvdInquiry_t
+- void|||dvdPrintInquiry(const char *comment,dvdInquiry_t *s)
+{% endcapture %}
+
+{% capture card_1_26_items %}
+- u32|||dvdFsInit(void)
+- u32|||dvdFsDeToInd(DirEntry *de)
+- DirEntry|||dvdFsFind(const char *path)
+- DirEntry|||dvdFsIndToDe(u32 ind)
+- void|||fileLoad(const char *file,u32 *rLen)
+- char|||lineGet(char *buf,u32 bLen)
+{% endcapture %}
+
+{% capture card_1_27_items %}
+- int|||ehci_start(struct usb_hcd *hcd)
+{% endcapture %}
+
+{% capture card_1_28_items %}
+- void|||init_ELA(p_ela_init_reg)
+- void|||post_ELA(int wrap_cnt)
+- void|||log_ELA(int)
+{% endcapture %}
+
+{% capture card_1_29_items %}
+- ExiStatus|||exiInit(void(*extDetachCb)(u32 chan),void(*extIrqCb)(u32 chan),void(*tranCb)(u32 chan))
+- ExiStatus|||exiCustomInit(void(*extDetachCb)(u32 chan),void(*extIrqCb)(u32 chan),void(*tranCb)(u32 chan))
+- ExiStatus|||exiSelect(u32 chan,u32 dev,u32 freq)
+- ExiStatus|||exiDeselect(u32 chan)
+- ExiStatus|||exiDma(u32 chan,u8 *buf,u32 len,u32 type)
+- ExiStatus|||exiImm(u32 chan,u8 *buf,u32 len,u32 type)
+- ExiStatus|||exiSync(u32 chan)
+- u32|||exiPresent(u32 chan)
+- void|||exi32Enable(void)
+- void|||exi32Disable(void)
+- void|||exiPrint(char *buf,int len)
+- u32|||exiGetID(u32 chan,u32 dev)
+{% endcapture %}
+
+{% capture card_1_30_items %}
+- u32|||mdmInit(u32 mdmDev,u32 mdmCsel)
+- u32|||mdmRegRd(u32 reg,u8 *buf,u32 len)
+- u32|||mdmRegWrt(u32 reg,u8 *buf,u32 len)
+{% endcapture %}
+
+{% capture card_1_31_items %}
+- void|||fifoCreate(const char *name,Fifo *fp,u32 *list,u32 size)
+- u32|||fifoGetExt(Fifo *fp,u32 *valp,u32 flags)
+- u32|||fifoGet(Fifo *fp)
+- u32|||fifoPutExt(Fifo *fp,u32 val,u32 flags)
+- void|||fifoPut(Fifo *fp,u32 val)
+- u32|||fifoCnt(Fifo *fp)
+- void|||EnableWriteCombine()
+{% endcapture %}
+
+{% capture card_1_32_items %}
+- void|||sfilerand(unsigned long seed)
+- unsigned short|||filerand()
+{% endcapture %}
+
+{% capture card_1_33_items %}
+- void|||sfilerandom(unsigned long seed)
+- unsigned long|||filerandom()
+{% endcapture %}
+
+{% capture card_1_34_items %}
+- u32|||flashReadSeg(u32 chan,u32 src,u32 dst,u32 len)
+- u32|||flashRead(u32 chan,u32 src,u32 dst,u32 len)
+- u32|||flashWritePage(u32 chan,u32 src,u32 dst,u32 len)
+- u32|||flashWrite(u32 chan,u32 src,u32 dst,u32 len)
+- u32|||flashStatGet(u32 chan,u32 *ret)
+- u32|||flashStatClr(u32 chan)
+- u32|||flashErase(u32 chan)
+- u32|||flashEraseSec(u32 chan,u32 addr)
+- u32|||flashSleep(u32 chan)
+- u32|||flashWake(u32 chan)
+- u32|||flashIdRd(u32 chan,u32 *ret)
+{% endcapture %}
+
+{% capture card_1_35_items %}
+- void|||fontInit(u32 addr,u32 vidMode)
+- void|||cls(void)
+- void|||fgSet(u32 y,u32 u,u32 v)
+- void|||bgSet(u32 y,u32 u,u32 v)
+- void|||cursorSet(u32 x,u32 y)
+- void|||pixSet(u32 x,u32 y)
+- void|||pixClear(u32 x,u32 y)
+- void|||putChar(u32 cc)
+- void|||putStr(const char *str)
+- void|||fontPut(const char *str,u32 len)
+- u32|||fontColsGet(void)
+- u32|||fontRowsGet(void)
+- void|||fontOff(void)
+- void|||fontOn(void)
+- void|||fontCursSet(u32 x,u32 y)
+- void|||gfxBltCpy(u32 *src,u32 cols,u32 rows,u32 x,u32 y)
+- void|||gfxRectDraw(u32 x,u32 y,u32 cols,u32 rows)
+- u8|||gfxChkppmfmt(u8 *ppm,u32 *cols,u32 *rows)
+- u8|||gfxChkbmpfmt(u8 *cp,u32 *xsize,u32 *ysize,u8 **pStart,u8 **pEnd)
+- u8|||gfxCvrtbmp2rgb(u8 *pEnd,u8 *pStart,u32 width,u32 height)
+- void|||gfxCvrtrgb2yuv(u8 *data,u32 cols,u32 rows)
+- void|||gfxCvrt444to422(u8 *src,u32 cols,u32 rows,u8 *dest)
+- void|||gfxCvrt444to422Stride(u8 *src,u32 cols,u32 rows,u8 *dest,u32 stride)
+- u32|||scrColsGet(void)
+- u32|||scrRowsGet(void)
+- void|||xLMarginSet(u32 xLMargin)
+{% endcapture %}
+
+{% capture card_1_36_items %}
+- asm DMAStatus|||dmaEnable()
+- asm DMAStatus|||dmaDisable()
+- asm DMAStatus|||dmaErrorStatus()
+- asm DMAStatus|||dmaQueueLen()
+- asm DMAStatus|||dmaFlush()
+- asm DMAStatus|||dmaAlloc(register unsigned long,register unsigned long)
+- asm DMAStatus|||dmaRead(register unsigned long,register unsigned long,register unsigned long)
+- asm DMAStatus|||dmaWrite(register unsigned long,register unsigned long,register unsigned long)
+{% endcapture %}
+
+{% capture card_1_37_items %}
+- char|||optarg
+- int|||optind
+- int|||getopt(int ac,char *av[],char *opts)
+{% endcapture %}
+
+{% capture card_1_38_items %}
+- void|||gfxbuInit()
+- u32|||gfxbuFinish()
+{% endcapture %}
+
+{% capture card_1_39_items %}
+- void|||gfxoldbuInit(char *testName)
+- void|||gfxoldbuDisplay
+- u32|||gfxoldbuUpdate()
+- u32|||gfxoldbuFinish()
+- u32|||gfxoldbuFinishAA()
+- void|||gfxSetClearColor(u8 red,u8 green,u8 blue,u8 alpha)
+{% endcapture %}
+
+{% capture card_1_40_items %}
+- void|||initGpioExi(void)
+- void|||setVideoReset(int value)
+- void|||setI2CEnable(int value)
+{% endcapture %}
+
+{% capture card_1_41_items %}
+- struct usb_hcd|||__attribute__((aligned(32)))
+- struct hcd_dev|||__attribute__((aligned(32)))
+- struct hcd_timeout|||__attribute__((aligned(32)))
+- struct hc_driver|||__attribute__((aligned(32)))
+- int|||usb_hcd_pci_probe(int *dev,int *id)
+- void|||usb_hcd_pci_remove(struct pci_dev *dev)
+- int|||usb_hcd_pci_suspend(struct pci_dev *dev,u32 state)
+- int|||usb_hcd_pci_resume(struct pci_dev *dev)
+- void|||usb_claim_bandwidth(struct usb_device *dev,struct urb *urb,int bustime,int isoc)
+- void|||usb_release_bandwidth(struct usb_device *dev,struct urb *urb,int isoc)
+- int|||usb_check_bandwidth(struct usb_device *dev,struct urb *urb)
+- long|||usb_calc_bus_time(int speed,int is_input,int isoc,int bytecount)
+- inline struct usb_bus|||hcd_to_bus(struct usb_hcd *hcd){return hcd->bus
+{% endcapture %}
+
+{% capture card_1_42_items %}
+- void|||sethid2(unsigned int hid2_value)
+- unsigned int|||gethid0(void)
+- void|||sethid0(unsigned int)
+{% endcapture %}
+
+{% capture card_1_43_items %}
+- struct usb_driver|||hub_probe(struct usb_device *dev,unsigned int i,const struct usb_device_id *id)
+{% endcapture %}
+
+{% capture card_1_44_items %}
+- int|||sendI2CData(u8 slaveAddr,u8 *pData,int nBytes)
+- int|||rcvI2CData(u8 slaveAddr,u8 *pData,int maxBytes)
+- int|||getI2CError()
+- void|||initI2C()
+- void|||initI2CExi(void)
+- void|||setSCL(int)
+- void|||setSDA(int)
+- int|||getSCL(void)
+- int|||getSDA(void)
+{% endcapture %}
+
+{% capture card_1_45_items %}
+- void|||irqHandler(void)
+- void|||irqCbAddPI(void(*irqCb)(),u32 mask)
+- void|||irqACRHandler(void)
+- void|||irqCbAddACR(void(*irqCb)(),u32 mask)
+- u32|||irqDisable(void)
+- void|||irqEnable(u32 oldMask)
+- void|||irqInit(void(*intCb)(void))
+- void|||clkInit(void(*intCb)(void),u32 decVal)
+- void|||_clkHndlr(void)
+- void|||_irqHndlr(void)
+{% endcapture %}
+
+{% capture card_1_46_items %}
+- u16|||bRd16(u32 src)
+- u32|||bRd32(u32 src)
+- void|||busWrt16(u32 address,u16 data)
+- void|||busWrt32(u32 address,u32 data)
+- u16|||busRd16(u32 address)
+- u32|||busRd32(u32 address)
+- void|||bWrt16(u32 address,u32 data)
+- void|||bWrt32(u32 address,u32 data)
+- void|||_dcWb(u32 addr,u32 off)
+- void|||_dcWbInv(u32 addr,u32 off)
+- void|||_dcInv(u32 addr,u32 off)
+- void|||dcWb(u32 addr,u32 len)
+- void|||dcWbInv(u32 addr,u32 len)
+- void|||dcInv(u32 addr,u32 len)
+- u32|||rand32(void)
+- double|||drand48(void)
+- double|||erand48(unsigned short xsubi[3])
+- long int|||mrand48(void)
+- int|||lrand48(void)
+- int|||nrand48(unsigned short xsubi[3])
+- int|||jrand48(unsigned short xsubi[3])
+- void|||srand48(int seedval)
+- unsigned short|||seed48(unsigned short seed16v[3])
+- void|||lcong48(unsigned short param[7])
+- void|||tbRead(u32 *)
+- void|||tbWrite(u32 *)
+- void|||udelay(u32 delay)
+- void|||busDelay(u32 count)
+- u32|||timeGet(void)
+- void|||halt(void)
+- void|||ppcL2Enable(void)
+- void|||ppcL1Enable(void)
+- void|||ppcL1Disable(void)
+- void|||ppcL1Flush(void)
+- void|||ppcPSLSQEnable(void)
+- void|||ppcDARSet(u32 val)
+- u32|||ppcDARGet(void)
+- void|||ppcHID0Set(u32 val)
+- u32|||ppcHID0Get(void)
+- u32|||ppcHID1Get(void)
+- void|||ppcHID2Set(u32 val)
+- u32|||ppcHID2Get(void)
+- void|||ppcHID4Set(u32 val)
+- u32|||ppcHID4Get(void)
+- u32|||ppcECID0Get(void)
+- u32|||ppcECID1Get(void)
+- u32|||ppcECID2Get(void)
+- void|||ppcL2CRSet(u32 val)
+- u32|||ppcL2CRGet(void)
+- void|||ppcWPARSet(u32 val)
+- u32|||ppcWPARGet(void)
+- void|||ppcDecSet(u32 val)
+- void|||ppcMsrSet(u32 val)
+- u32|||ppcMsrGet(void)
+- void|||ppcTBUSet(u32 val)
+- u32|||ppcTBUGet(void)
+- void|||ppcTBLSet(u32 val)
+- u32|||ppcTBLGet(void)
+- u32|||ppcPVRGet(void)
+- u32|||ppcSPRG0Get(void)
+- u32|||ppcSPRG1Get(void)
+- u32|||ppcSPRG2Get(void)
+- u32|||ppcSPRG3Get(void)
+- u32|||ppcSPRG0Set(u32 val)
+- u32|||ppcSPRG1Set(u32 val)
+- u32|||ppcSPRG2Set(u32 val)
+- u32|||ppcSPRG3Set(u32 val)
+- u32|||ppcDBAT0UGet(void)
+- u32|||ppcDBAT0LGet(void)
+- u32|||ppcDBAT1UGet(void)
+- u32|||ppcDBAT1LGet(void)
+- u32|||ppcDBAT2UGet(void)
+- u32|||ppcDBAT2LGet(void)
+- u32|||ppcDBAT3UGet(void)
+- u32|||ppcDBAT3LGet(void)
+- u32|||ppcDBAT4UGet(void)
+- u32|||ppcDBAT4LGet(void)
+- u32|||ppcDBAT5UGet(void)
+- u32|||ppcDBAT5LGet(void)
+- u32|||ppcDBAT6UGet(void)
+- u32|||ppcDBAT6LGet(void)
+- u32|||ppcDBAT7UGet(void)
+- u32|||ppcDBAT7LGet(void)
+- u32|||ppcIBAT0UGet(void)
+- u32|||ppcIBAT0LGet(void)
+- u32|||ppcIBAT1UGet(void)
+- u32|||ppcIBAT1LGet(void)
+- u32|||ppcIBAT2UGet(void)
+- u32|||ppcIBAT2LGet(void)
+- u32|||ppcIBAT3UGet(void)
+- u32|||ppcIBAT3LGet(void)
+- u32|||ppcIBAT4UGet(void)
+- u32|||ppcIBAT4LGet(void)
+- u32|||ppcIBAT5UGet(void)
+- u32|||ppcIBAT5LGet(void)
+- u32|||ppcIBAT6UGet(void)
+- u32|||ppcIBAT6LGet(void)
+- u32|||ppcIBAT7UGet(void)
+- u32|||ppcIBAT7LGet(void)
+- void|||ppcDBAT0USet(u32 val)
+- void|||ppcDBAT0LSet(u32 val)
+- void|||ppcDBAT1USet(u32 val)
+- void|||ppcDBAT1LSet(u32 val)
+- void|||ppcDBAT2USet(u32 val)
+- void|||ppcDBAT2LSet(u32 val)
+- void|||ppcDBAT3USet(u32 val)
+- void|||ppcDBAT3LSet(u32 val)
+- void|||ppcDBAT4USet(u32 val)
+- void|||ppcDBAT4LSet(u32 val)
+- void|||ppcDBAT5USet(u32 val)
+- void|||ppcDBAT5LSet(u32 val)
+- void|||ppcDBAT6USet(u32 val)
+- void|||ppcDBAT6LSet(u32 val)
+- void|||ppcDBAT7USet(u32 val)
+- void|||ppcDBAT7LSet(u32 val)
+- void|||ppcIBAT0USet(u32 val)
+- void|||ppcIBAT0LSet(u32 val)
+- void|||ppcIBAT1USet(u32 val)
+- void|||ppcIBAT1LSet(u32 val)
+- void|||ppcIBAT2USet(u32 val)
+- void|||ppcIBAT2LSet(u32 val)
+- void|||ppcIBAT3USet(u32 val)
+- void|||ppcIBAT3LSet(u32 val)
+- void|||ppcIBAT4USet(u32 val)
+- void|||ppcIBAT4LSet(u32 val)
+- void|||ppcIBAT5USet(u32 val)
+- void|||ppcIBAT5LSet(u32 val)
+- void|||ppcIBAT6USet(u32 val)
+- void|||ppcIBAT6LSet(u32 val)
+- void|||ppcIBAT7USet(u32 val)
+- void|||ppcIBAT7LSet(u32 val)
+- void|||setIrqHndlr(void(*hndlr)())
+- void|||ppcEARSet(u32 val)
+- u32|||ppcEARGet()
+- void|||__ecowx(u32 addr,u32 val)
+- u32|||__eciwx(u32 addr)
+- void|||__dcbi(u32 *,u32)
+- void|||__icbi(u32 *,u32)
+- u32|||__lwarx(u32)
+- void|||__stwcx(u32,u32)
+- void|||_ctxSw(void *newCtx)
+- void|||_irqCtxSw(void *newCtx)
+- void|||ppcSync(void)
+- void|||ppcEieio(void)
+- void|||ppcEeieo(void)
+- u32|||ppcStackPtrGet()
+- void|||ppcStackPtrSet(u32 val)
+- void|||rwbuzz(void)
+- int|||strcasecmp(const char *s1,const char *s2)
+- int|||strncasecmp(const char *s1,const char *s2,u32 c)
+- void|||memcpy32(void *s1,const void *s2,u32 n)
+- void|||memset32(void *s,u32 c,u32 n)
+- int|||memcmp32(const void *s1,const void *s2,u32 n)
+- int|||atoh(const char *str)
+- s32|||ntoi(const char *str,u32 base,u32 *val)
+- void|||serInit2(u32 dev,u32 csel)
+- void|||serInit(void)
+- void|||serOn(void)
+- void|||serOff(void)
+- int|||serHwFlow(u32 enable)
+- u8|||serVersion(u32 dev,u32 csel)
+- int|||serRdQLen(void)
+- int|||serRdUart(u8 *,int)
+- u8|||serRdgetkey(void)
+- u32|||serRdkbhit(void)
+- void|||diagManualStop(void *fb)
+- void|||dprintf(const char *fmt,...)
+- void|||dsprintf(char *str,const char *fmt,...)
+- void|||printfv(u32 verLev,const char *fmt,...)
+- void|||printf0(const char *fmt,...)
+- void|||printf1(const char *fmt,...)
+- u32|||tolower(u32 cc)
+- int|||atiIsNdev(void)
+- int|||atiIsOrca(void)
+- void|||initBootMode(void)
+- u32|||getBootMode(void)
+{% endcapture %}
+
+{% capture card_1_47_items %}
+- void|||GXMCGFXInit()
+- GXBool|||GXMCInit(GXMCObj *mcObj,u32 width,u32 height,u32 bufferCount)
+- void|||GXMCBeginPicture(GXMCObj *mcObj,PictureType pType)
+- void|||GXMCRenderMB(GXMCObj *mcObj,GXMCMacroBlockType mbType,GXMCMotionVector mv[4][2])
+- void|||GXMCEndPicture(GXMCObj *mcObj,GXCopyType copyType,void *dest)
+- void|||GXMCSetChromaSample(GXMCObj *mcObj,GXMCSampleMode mode)
+- void|||GXMCFinish(GXMCObj *mcObj)
+- GXBool|||GXMCBufferBusy(GXMCObj *mcObj,u32 bufferId)
+- GXBool|||GXSelectDBuffer(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD0YAddress(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD1YAddress(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD0UAddress(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD1UAddress(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD0VAddress(GXMCObj *mcObj,u32 bufferId)
+- u8|||GXMCGetD1VAddress(GXMCObj *mcObj,u32 bufferId)
+{% endcapture %}
+
+{% capture card_1_48_items %}
+- const heap_t|||MEM_NAPA_HEAP
+- const heap_t|||MEM_DDR_HEAP
+- void|||memInit(u32 totMem)
+- void|||memAlloc(u32 len)
+- void|||memFree(void *addr,u32 len)
+- void|||memSetHeap(heap_t)
+- heap_t|||memGetHeap(void)
+- void|||memAllocHeap(u32 len,heap_t heap)
+- u32|||memGetSize(void)
+- void|||memRefreshInit(u32 *freq_array)
+- void|||memRefreshHandler(void)
+- void|||memRefreshHelper(u32,u32)
+- void|||memRefreshThread()
+- void|||memRefreshThreadInit(u32 *freq_array,u32 priority)
+- u32|||readDirectMemReg(u32)
+- u32|||readDDRMemReg(u32)
+- u32|||readSeqMemReg(u32)
+- u32|||readBistMemReg(u32)
+- u32|||readPerfMemReg(u32)
+- void|||writeDirectMemReg(u32,u32)
+- void|||writeDDRMemReg(u32,u32)
+- void|||writeSeqMemReg(u32,u32)
+- void|||writeBistMemReg(u32,u32)
+- void|||writePerfMemReg(u32,u32)
+{% endcapture %}
+
+{% capture card_1_49_items %}
+- void|||mlStart(char *FileName,u32 memSize,u32 memStart)
+- void|||mlAlloc(u32 nbytes,MLMemType type,MLByteGrouping grouping)
+- void|||mlAllocForce(u32 addr,u32 nbytes,MLMemType type,MLByteGrouping grouping)
+- u32|||mlGetAddr(void *ptr)
+- void|||mlGetCPtr(u32 addr)
+- void|||mlFlush()
+- void|||mlFree(void *ptr)
+- void|||mlReverseBytes(void *ptr,u32 bytes)
+- void|||mlSetCustomByteSwappingFunction(MLByteGrouping grouping,MLByteSwappingFunction function,u32 stride)
+{% endcapture %}
+
+{% capture card_1_50_items %}
+- int|||mrExiSerInit(void)
+- void|||mrExiPrint(char *buf,int len)
+- int|||mrExiProbe(void)
+{% endcapture %}
+
+{% capture card_1_51_items %}
+- u32|||joyStatus(u32 chan,u32 *stData)
+- u32|||joyReset(u32 chan,u32 *stData)
+- u32|||joyData(u32 chan,u32 *data)
+- u16|||joyAddrCrc(u16 address)
+- u32|||joyEERead(u32 chan,u16 addr,u8 *data)
+- u32|||joyEEWrite(u32 chan,u16 addr,u8 *data)
+- void|||joyDelay(u32 delay)
+{% endcapture %}
+
+{% capture card_1_52_items %}
+- u16|||__DSPRegs
+- u32|||__AIRegs
+- void|||init_ntd_regs(void)
+{% endcapture %}
+
+{% capture card_1_53_items %}
+- u32|||nvRamWrite(u32 addr,u8 *buf,u32 len)
+- u32|||nvRamRead(u32 addr,u8 *buf,u32 len)
+{% endcapture %}
+
+{% capture card_1_54_items %}
+- u32|||lbolt
+- u32|||tmIrqTot
+- Thread|||_tIdle
+- void|||osInit(void)
+- u32|||threadCreate(Thread *tp,const char *name,void *stack,u32 stackLen,void(*entry)(void *data),void *data,u32 pri)
+- void|||threadSetFPEnable(Thread *tp,u32 val)
+- void|||threadDestroy(Thread *tp)
+- void|||threadStart(Thread *tp)
+- void|||threadStop(Thread *tp)
+- void|||threadYield(void)
+- void|||threadSuspend(Thread *tp)
+- void|||threadResume(Thread *tp)
+- void|||threadPriSet(Thread *tp,u32 pri)
+- u32|||threadPriGet(Thread *tp)
+- Thread|||threadCurGet(void)
+- void|||threadDelay(u32 ticks)
+- void|||semaInit(Sema *sp,s32 cnt)
+- void|||semaP(Sema *sp)
+- void|||semaV(Sema *sp)
+- u32|||semaTest(Sema *sp)
+- void|||condVarInit(CondVar *cp,const char *name)
+- void|||condVarWait(CondVar *cp,Sema *sp)
+- void|||condVarSignal(CondVar *cp)
+- void|||panic(Context *,u32)
+{% endcapture %}
+
+{% capture card_1_55_items %}
+- void|||resetSys(void)
+{% endcapture %}
+
+{% capture card_1_56_items %}
+- void|||sdi_init_intr(void(*irqCb)(void))
+- void|||sdi_init(void(*irqCb)(void))
+- sdi_slot_t|||sdi_handle(u32 ctrl,u32 slot)
+- void|||sdi_set_debug(u32 debug)
+- u32|||sdi_rd_reg(sdi_slot_t sp,u32 offset)
+- void|||sdi_wr_reg(sdi_slot_t sp,u32 offset,u32 val)
+- void|||sdi_wr_reg16(sdi_slot_t sp,u32 offset,u32 val)
+- u32|||sdi_verif_reg(sdi_slot_t sp,u32 offset,u32 expected)
+- void|||sdi_reg_intr(sdi_slot_t sp,u32 intr,void(*irq)(sdi_slot_t,void *),void *closure)
+- void|||sdi_intr(void)
+- u32|||sdi_get_istat(sdi_slot_t sp)
+- void|||sdi_clear_istat(sdi_slot_t sp,u32 ibits)
+- u32|||sdi_wait_istat(sdi_slot_t sp,u32 ibits,u32 bail_on_abort)
+- void|||sdi_wr_host_ctrl(sdi_slot_t sp,u32 in_data)
+- void|||sdi_int_regs_en(sdi_slot_t sp)
+- void|||sdi_wr_nor_int_sts_en(sdi_slot_t sp,u32 en)
+- void|||sdi_wr_err_int_sts_en(sdi_slot_t sp,u32 en)
+- void|||sdi_err_int_recover(sdi_slot_t sp)
+- u32|||sdi_cmd(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd)
+- u32|||sdi_io_cmd(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd,u32 blk_size,u32 blk_cnt,u32 dma,u32 wr)
+- void|||sdi_read_io_coherency(sdi_slot_t sp)
+- void|||sdi_write_io_coherency(sdi_slot_t sp)
+- u32|||sdi_resp_type_cal(sdi_slot_t sp,u32 cmd_index,u32 resp_with_busy)
+- u32|||sdi_mem_cmd(sdi_slot_t sp,u32 cmd_index,u32 arg,u32 resp_with_busy)
+- u32|||sdi_mem_cmd_data(sdi_slot_t sp,u32 sysaddr,u32 cmd_index,u32 blk_size,u32 blk_cnt,u32 data_addr,u32 dma,u32 wr,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd0(sdi_slot_t sp)
+- u32|||sdi_cmd2(sdi_slot_t sp)
+- u32|||sdi_cmd3(sdi_slot_t sp)
+- u32|||sdi_cmd7(sdi_slot_t sp,u32 rca)
+- u32|||sdi_cmd9(sdi_slot_t sp)
+- u32|||sdi_cmd12(sdi_slot_t sp)
+- u32|||sdi_cmd13(sdi_slot_t sp)
+- u32|||sdi_cmd16(sdi_slot_t sp,u32 dflt_blk_size)
+- u32|||sdi_cmd17(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)
+- u32|||sdi_cmd18(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd23(sdi_slot_t sp,u32 blk_cnt)
+- u32|||sdi_cmd24(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)
+- u32|||sdi_cmd25(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd32(sdi_slot_t sp,u32 start_blk_addr)
+- u32|||sdi_cmd33(sdi_slot_t sp,u32 end_blk_addr)
+- u32|||sdi_cmd38(sdi_slot_t sp,u32 resp_with_busy)
+- u32|||sdi_cmd52(sdi_slot_t sp,u32 reg_addr,u32 sd_wr_data,u32 fn_no,u32 raw,u32 wr,u32 resp_with_busy)
+- u32|||sdi_cmd53(sdi_slot_t sp,u32 byte_blk_cnt,u32 wr,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+- u32|||sdi_cmd55(sdi_slot_t sp)
+- u32|||sdi_acmd6(sdi_slot_t sp,u32 buswidth)
+- u32|||sdi_dma_done(sdi_slot_t sp)
+- u32|||sdi_abort(sdi_slot_t sp)
+- u32|||sdi_suspend(sdi_slot_t sp)
+- u32|||sdi_resume(sdi_slot_t sp)
+- void|||sdi_set_async_mode(sdi_slot_t sp,u32 mode)
+- void|||sdi_wr_clk_ctrl(sdi_slot_t sp,u32 clk_ctrl)
+- void|||sdi_wr_blk_gap_ctrl(sdi_slot_t sp,u32 bgap_ctrl)
+- void|||sdi_wr_timeout_reg(sdi_slot_t sp,u32 timeout_cnt)
+- void|||sdi_set_bus_width(sdi_slot_t sp,u32 buswidth)
+- void|||sdi_rd_sd_hc_capabilities(sdi_slot_t sp)
+- void|||sdi_clock_supply(sdi_slot_t sp,u32 div)
+- void|||sdi_clock_stop(sdi_slot_t sp)
+- void|||sdi_clock_change(sdi_slot_t sp,u32 div)
+- void|||sdi_bus_power(sdi_slot_t sp)
+- u32|||sdi_validate_ocr(sdi_slot_t sp,u32 ocr_data,u32 mem,u32 mmc)
+- u32|||sdi_card_insertion(sdi_slot_t sp)
+- u32|||sdi_io_card_init(sdi_slot_t sp)
+- u32|||sdi_mem_card_init(sdi_slot_t sp)
+- void|||sdi_mmc_card_init(sdi_slot_t sp)
+- u32|||sdiSwapBytes4(u32 value)
+- u32|||checkErrorInt(sdi_slot_t sp)
+- u32|||sdiCardDetect(sdi_slot_t sp)
+- u32|||sdiFindCard(sdi_slot_t sp)
+- u32|||waitTransferComplete(sdi_slot_t sp)
+- void|||sdiGoIdle(sdi_slot_t sp)
+- void|||sdiIoReset(sdi_slot_t sp)
+- void|||sdiSoftReset(sdi_slot_t sp)
+- u32|||sendCmd(sdi_slot_t sp,u32 arg,u32 tmdcmd)
+- u32|||sdiSendStatus(sdi_slot_t sp)
+- u32|||sdiSendOpCondition(sdi_slot_t sp)
+- u32|||sdiAllSendCid(sdi_slot_t sp)
+- u32|||sdiSendRca(sdi_slot_t sp)
+- u32|||sdiSendCsd(sdi_slot_t sp)
+- u32|||sdiSelectCard(sdi_slot_t sp)
+- u32|||sdiSetBlockLength(sdi_slot_t sp,u32 blksiz)
+- u32|||sdiSetBusWidth(sdi_slot_t sp,u32 buswidth)
+- u32|||sdiAsyncAbort(sdi_slot_t sp)
+- u32|||sdiSyncAbort(sdi_slot_t sp)
+- void|||updateDmaPointer(sdi_slot_t sp)
+- u32|||sdiReadSingleBlock(sdi_slot_t sp,u32 arg,u32 *rdbuf,u32 dma)
+- u32|||sdiWriteSingleBlock(sdi_slot_t sp,u32 arg,u32 *wrbuf,u32 dma)
+- u32|||sdiReadBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 auto_cmd12,u32 infinite)
+- u32|||sdiWriteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 auto_cmd12,u32 infinite)
+- u32|||sdiReadMultipleBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 auto_cmd12,u32 dma)
+- u32|||sdiWriteMultipleBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 auto_cmd12,u32 dma)
+- u32|||sdiReadInfiniteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt)
+- u32|||sdiWriteInfiniteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt)
+- u32|||sdioByteRead(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 resp_with_busy)
+- u32|||sdioByteWrite(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 wr_data,u32 raw,u32 resp_with_busy)
+- u32|||sdioExtRead(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+- u32|||sdioExtWrite(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+{% endcapture %}
+
+{% capture card_1_57_items %}
+- int|||serRxInit(u32 hwFlowEnable)
+- u8|||serRxgetkey(void)
+- u32|||serRxkbhit(void)
+- int|||serRxInitParam(u32 chan,u32 cs,u32 hwFlowEnable)
+{% endcapture %}
+
+{% capture card_1_58_items %}
+- void|||sfxPlay(u32 sound)
+- void|||sfxInit(void)
+{% endcapture %}
+
+{% capture card_1_59_items %}
+- int|||SHA_Busy(void)
+- void|||SHA_Calc(u32 Addr,u32 numBlocks,u32 intrEnable)
+- void|||SHA_Result(u32 *result)
+- int|||SHA_Match(u32 *a,u32 *b)
+- void|||SHA_Clear(void)
+{% endcapture %}
+
+{% capture card_1_60_items %}
+- u32|||siInit(void(*comCb)(u32 sisr),void(*pollCb)(u32 sisr))
+- void|||siChanOutSet(u32 *chanData)
+- u32|||siChansRead(u32 *chanData)
+- void|||siPollRegSet(u32 x,u32 y,u32 enMask,u32 vbCpyMask)
+- void|||siPollRegGet(u32 *x,u32 *y,u32 *enMask,u32 *vbCpyMask)
+- u32|||siComm(u32 chanNo,u32 *out,u32 oLen,u32 iLen)
+- u32|||siSync(void)
+- void|||siPollWait(u32 chanMask)
+- void|||siComDataGet(u32 *in,u32 cnt)
+{% endcapture %}
+
+{% capture card_1_61_items %}
+- void|||Line(int x,int y,int x2,int y2,unsigned char c,unsigned char u,unsigned char v)
+- void|||Circle(int xc,int yc,int r,unsigned char c,unsigned char u,unsigned char v)
+- u32|||GameOver(PLAYER *snake)
+- void|||ExplodeSnake(int player_num,PLAYER *snake)
+- void|||PrintScore(PLAYER *snake)
+- void|||Delay(u32 delay_value)
+{% endcapture %}
+
+{% capture card_1_62_items %}
+- int|||ioInit(void)
+- int|||open(const char *path,int oflag)
+- int|||close(int fd)
+- ssize_t|||read(int fd,void *buf,size_t nbytes)
+- off_t|||lseek(int fd,off_t offset,int whence)
+- off_t|||tell(int fd)
+- FILE|||fopen(const char *filename,const char *mode)
+- int|||fclose(FILE *fp)
+- size_t|||fread(void *ptr,size_t size,size_t nitems,FILE *fp)
+- int|||fgetc(FILE *stream)
+- int|||getc(FILE *stream)
+{% endcapture %}
+
+{% capture card_1_63_items %}
+- __inline__ __const__ u16|||__fswab16(u16 x){return __arch__swab16(x)
+- __inline__ u16|||__swab16p(u16 *x){return __arch__swab16p(x)
+- __inline__ void|||__swab16s(u16 *addr){__arch__swab16s(addr)
+- __inline__ __const__ u32|||__fswab32(u32 x){return __arch__swab32(x)
+- __inline__ u32|||__swab32p(u32 *x){return __arch__swab32p(x)
+- __inline__ void|||__swab32s(u32 *addr){__arch__swab32s(addr)
+- u32|||h
+- u32|||l
+- |||return(((u64)__swab32(l))
+- return|||__arch__swab64(x)
+- __inline__ u64|||__swab64p(u64 *x){return __arch__swab64p(x)
+- __inline__ void|||__swab64s(u64 *addr){__arch__swab64s(addr)
+{% endcapture %}
+
+{% capture card_1_64_items %}
+- void|||usbInit()
+- void|||writeDescriptor(u32 addr,u32 dw0,u32 dw1,u32 dw2,u32 dw3)
+- void|||writeFmInt(u32 dw)
+- void|||writeBulkHeadList(u32 dw)
+- void|||setBulkListEn()
+- void|||setTDFound()
+- void|||setOperational()
+- void|||writePort1Stat(u32 dw)
+- void|||writePort2Stat(u32 dw)
+- void|||writeFmRem(u32 dw)
+- void|||writeOH1FmInt(u32 dw)
+- void|||writeOH1BulkHeadList(u32 dw)
+- void|||setOH1BulkListEn()
+- void|||setOH1TDFound()
+- void|||setOH1Operational()
+- void|||writeOH1Port1Stat(u32 dw)
+- void|||writeOH1Port2Stat(u32 dw)
+- void|||writeOH1FmRem(u32 dw)
+- void|||oh0Init(void(*_Cb)(void),int mask)
+- void|||oh1Init(void(*_Cb)(void),int mask)
+- void|||ehcInit(void(*_Cb)(void),int mask)
+- void(|||usb_udelay_function)(u32 delay)
+{% endcapture %}
+
+{% capture card_1_65_items %}
+- void|||input_register_device(struct input_dev *)
+- void|||input_unregister_device(struct input_dev *)
+- void|||input_register_handler(struct input_handler *)
+- void|||input_unregister_handler(struct input_handler *)
+- int|||input_open_device(struct input_handle *)
+- void|||input_close_device(struct input_handle *)
+- void|||input_event(struct input_dev *dev,unsigned int type,unsigned int code,int value)
+{% endcapture %}
+
+{% capture card_1_66_items %}
+- void|||usb_malloc_dma(u32 len,u32 *dma_addr)
+- struct usb_pool|||usb_pool_create(u32 size,u32 uncached)
+- dma_addr_t|||usb_map_single(void *transfer_buffer,int data_len,int dir)
+- void|||usb_unmap_single(u32 dma_addr,int len,int dir)
+- void|||usb_pool_alloc(struct usb_pool *ppool,u32 *dma_addr)
+- void|||usb_pool_free(struct usb_pool *ppool,void *pobj,u32 dma_addr)
+- void|||usb_pool_destroy(struct usb_pool *ppool)
+- void|||usb_malloc(u32 len)
+- void|||usb_free(void *p,u32 len)
+- void|||usb_memset(void *cp,u32 val,int size)
+- void|||usb_memscan(void *addr,int c,size_t size)
+- u32|||usb_check_payload(u32 StartValue,u32 IncrBy,u32 BufferLength,u32 *pBuffer,u32 *next_value)
+- u32|||usb_fill_payload(u32 StartValue,u32 IncrBy,u32 BufferLength,u32 *pBuffer)
+{% endcapture %}
+
+{% capture card_1_67_items %}
+- void|||spin_lock_irqsave(spinlock_t *sp_lock,int flags)
+- void|||spin_unlock_irqrestore(spinlock_t *sp_lock,int flags)
+{% endcapture %}
+
+{% capture card_1_68_items %}
+- void|||mod_timer(struct timer_list *tlist,u32 val)
+- void|||del_timer_sync(struct timer_list *tlist)
+- u32|||timer_pending(struct timer_list *tlist)
+- void|||add_timer(struct timer_list *wh)
+- void|||init_timer(struct timer_list *wh)
+- void|||del_timer(struct timer_list *wh)
+- int|||time_after(u32 jiff,int timeout)
+{% endcapture %}
+
+{% capture card_1_69_items %}
+- u32|||swapBytes4(u32 input)
+- void|||swapBytesPtr(void *ptr,int byteCount)
+- void|||swapByteGroupingsPtr(void *ptr,int groupSize,int groupCount)
+{% endcapture %}
+
+{% capture card_1_70_items %}
+- vireg|||viRegs[]
+- const encoder_type_t|||VI_ENCODER_ROHM
+- const encoder_type_t|||VI_ENCODER_CONXT
+- void|||viNtsc(void)
+- void|||viSetFormat(viFormat fmat,u32 xoff,u32 yoff,u32 height,u32 width)
+- void|||viSetFieldSrc(viBase field,u32 addr,u32 width,u32 stride)
+- void|||viEnable(u32 e)
+- void|||viLoad(void)
+- void|||viLoadSync(void)
+- void|||fire_gun1(int duration)
+- void|||fire_gun0(int duration)
+- int|||mon_tstgun0clr(void)
+- int|||mon_tstgun1clr(void)
+- int|||confirm_gun0(void)
+- int|||confirm_gun1(void)
+- int|||confirm_notgun0(void)
+- int|||confirm_notgun1(void)
+- int|||chk_int(int int_num)
+- void|||clr_int(int int_num,u32 vct,u32 enb)
+- void|||viNtsc(void)
+- u16|||__VIRegs(int index)
+- void|||printVIRegs(void)
+- void|||SetVIInt(int int_num,int int_enb,u16 hct,u16 vct)
+- void|||ClrVIInt(int int_num)
+- void|||__VISet3in1Output(VIBool enable)
+- void|||GPIOInit(void)
+- void|||outputLed(int value)
+- BOOL|||__VISetSCL(u32 value)
+- BOOL|||__VISetSDA(u32 value)
+- void|||__VIOpenI2C(void)
+- void|||__VICloseI2C(void)
+- void|||__VISet3in1Output(VIBool enable)
+- void|||__VISetVolume(u8 volumeL,u8 volumeR)
+- void|||YUVSolidColor(u8 y,u8 u,u8 v,u8 enable)
+- void|||vipll_init(void)
+- void|||ViLcdInit(void)
+- void|||vi_setcnxt_reg(u8 addr,u8 data)
+- void|||viHd1080i(void)
+- void|||viHd720p(void)
+- BOOL|||__VIRelSCL(u32 value)
+- BOOL|||__VIDisSDA(u32 value)
+- u8|||VIGetSDA(void)
+- u8|||vi_getcnxt_reg(u8 addr,u8 data)
+- s32|||__VIGetI2CData(u8 slaveAddr,u8 *pData,s32 nBytes)
+- s32|||__VIsetI2CAddress(u8 slaveAddr,u8 *pData,s32 nBytes)
+- void|||set_current_vi_encoder(encoder_type_t enc_type)
+- void|||vi_init_hd(void)
+{% endcapture %}
+
+{% capture card_1_71_items %}
+- void|||read_print(u8 addr)
+- void|||conexant_set_hdtv_mode(HdFormat hdtv_mode)
+- int|||i2c_writereg(unsigned char theSlave,unsigned char theReg,unsigned char theValue)
+- unsigned char|||i2c_readreg(unsigned char theSlave,unsigned char theReg)
+- void|||i2c_gpioinit(void)
+- void|||vi_init_hd(void)
+{% endcapture %}
+
+{% capture card_1_72_items %}
+- void|||videoInit(void *fb,int format)
+- void|||videoSwapBuffers(void *fb)
+- void|||videoUseISR4Swap(void)
+- int|||videoGetEncoderType(void)
+- void|||viDump(void)
+{% endcapture %}
+
+{% capture section_1_cards %}
+{% include source-code-card.html title="acr.h" items=card_1_1_items functions="16" variables="0" lines="31" %}
+{% include source-code-card.html title="aes.h" items=card_1_2_items functions="5" variables="0" lines="16" %}
+{% include source-code-card.html title="ahb.h" items=card_1_3_items functions="5" variables="0" lines="51" %}
+{% include source-code-card.html title="ahbdbg.h" items=card_1_4_items functions="1" variables="0" lines="15" %}
+{% include source-code-card.html title="ai.h" items=card_1_5_items functions="1" variables="0" lines="35" %}
+{% include source-code-card.html title="aram.h" items=card_1_6_items functions="4" variables="0" lines="28" %}
+{% include source-code-card.html title="arch.h" items=card_1_7_items functions="1" variables="1" lines="70" %}
+{% include source-code-card.html title="args.h" items=card_1_8_items functions="4" variables="2" lines="52" %}
+{% include source-code-card.html title="assert.h" items=card_1_9_items functions="1" variables="0" lines="35" %}
+{% include source-code-card.html title="axdbg.h" items=card_1_10_items functions="7" variables="2" lines="107" %}
+{% include source-code-card.html title="axmc.h" items=card_1_11_items functions="28" variables="0" lines="78" %}
+{% include source-code-card.html title="busclient.h" items=card_1_12_items functions="3" variables="0" lines="51" %}
+{% include source-code-card.html title="crc.h" items=card_1_13_items functions="3" variables="0" lines="41" %}
+{% include source-code-card.html title="dbg_viai_setup.h" items=card_1_14_items functions="2" variables="0" lines="6" %}
+{% include source-code-card.html title="dbgcomm.h" items=card_1_15_items functions="5" variables="0" lines="48" %}
+{% include source-code-card.html title="dbgint.h" items=card_1_16_items functions="1" variables="0" lines="34" %}
+{% include source-code-card.html title="dcbz_basic.h" items=card_1_17_items functions="2" variables="0" lines="9" %}
+{% include source-code-card.html title="di.h" items=card_1_18_items functions="11" variables="0" lines="117" %}
+{% include source-code-card.html title="diag.h" items=card_1_19_items functions="8" variables="0" lines="105" %}
+{% include source-code-card.html title="dma_basic.h" items=card_1_20_items functions="3" variables="0" lines="11" %}
+{% include source-code-card.html title="dolcnt.h" items=card_1_21_items functions="5" variables="0" lines="117" %}
+{% include source-code-card.html title="dsp.h" items=card_1_22_items functions="8" variables="0" lines="45" %}
+{% include source-code-card.html title="dspfix.h" items=card_1_23_items functions="1" variables="0" lines="2" %}
+{% include source-code-card.html title="dspmxic.h" items=card_1_24_items functions="7" variables="0" lines="93" %}
+{% include source-code-card.html title="dvd.h" items=card_1_25_items functions="22" variables="4" lines="121" %}
+{% include source-code-card.html title="dvdfs.h" items=card_1_26_items functions="6" variables="0" lines="51" %}
+{% include source-code-card.html title="ehci-hcd.h" items=card_1_27_items functions="1" variables="0" lines="12" %}
+{% include source-code-card.html title="ela.h" items=card_1_28_items functions="3" variables="0" lines="94" %}
+{% include source-code-card.html title="exi.h" items=card_1_29_items functions="12" variables="0" lines="85" %}
+{% include source-code-card.html title="eximdm.h" items=card_1_30_items functions="3" variables="0" lines="40" %}
+{% include source-code-card.html title="fifo.h" items=card_1_31_items functions="7" variables="0" lines="61" %}
+{% include source-code-card.html title="filerand.h" items=card_1_32_items functions="2" variables="0" lines="11" %}
+{% include source-code-card.html title="filerandom.h" items=card_1_33_items functions="2" variables="0" lines="11" %}
+{% include source-code-card.html title="flash.h" items=card_1_34_items functions="11" variables="0" lines="53" %}
+{% include source-code-card.html title="font.h" items=card_1_35_items functions="26" variables="0" lines="60" %}
+{% include source-code-card.html title="gecko_dma.h" items=card_1_36_items functions="8" variables="0" lines="84" %}
+{% include source-code-card.html title="getopt.h" items=card_1_37_items functions="1" variables="2" lines="36" %}
+{% include source-code-card.html title="gfxbu.h" items=card_1_38_items functions="2" variables="0" lines="42" %}
+{% include source-code-card.html title="gfxoldbu.h" items=card_1_39_items functions="5" variables="1" lines="84" %}
+{% include source-code-card.html title="gpioexi.h" items=card_1_40_items functions="3" variables="0" lines="10" %}
+{% include source-code-card.html title="hcd.h" items=card_1_41_items functions="13" variables="0" lines="298" %}
+{% include source-code-card.html title="hidutil.h" items=card_1_42_items functions="3" variables="0" lines="11" %}
+{% include source-code-card.html title="hub.h" items=card_1_43_items functions="1" variables="0" lines="152" %}
+{% include source-code-card.html title="i2c.h" items=card_1_44_items functions="9" variables="0" lines="51" %}
+{% include source-code-card.html title="irq.h" items=card_1_45_items functions="10" variables="0" lines="90" %}
+{% include source-code-card.html title="lib.h" items=card_1_46_items functions="176" variables="0" lines="309" %}
+{% include source-code-card.html title="mc.h" items=card_1_47_items functions="15" variables="0" lines="313" %}
+{% include source-code-card.html title="mem.h" items=card_1_48_items functions="22" variables="2" lines="72" %}
+{% include source-code-card.html title="ml.h" items=card_1_49_items functions="9" variables="0" lines="101" %}
+{% include source-code-card.html title="mrexi.h" items=card_1_50_items functions="3" variables="0" lines="63" %}
+{% include source-code-card.html title="n64cnt.h" items=card_1_51_items functions="7" variables="0" lines="85" %}
+{% include source-code-card.html title="ntd_regs.h" items=card_1_52_items functions="1" variables="2" lines="36" %}
+{% include source-code-card.html title="nvram.h" items=card_1_53_items functions="2" variables="0" lines="41" %}
+{% include source-code-card.html title="os.h" items=card_1_54_items functions="21" variables="3" lines="113" %}
+{% include source-code-card.html title="reset.h" items=card_1_55_items functions="1" variables="0" lines="32" %}
+{% include source-code-card.html title="sdi.h" items=card_1_56_items functions="96" variables="0" lines="263" %}
+{% include source-code-card.html title="serrx.h" items=card_1_57_items functions="4" variables="0" lines="35" %}
+{% include source-code-card.html title="sfx.h" items=card_1_58_items functions="2" variables="0" lines="37" %}
+{% include source-code-card.html title="sha.h" items=card_1_59_items functions="5" variables="0" lines="14" %}
+{% include source-code-card.html title="si.h" items=card_1_60_items functions="9" variables="0" lines="57" %}
+{% include source-code-card.html title="snake.h" items=card_1_61_items functions="6" variables="0" lines="117" %}
+{% include source-code-card.html title="standio.h" items=card_1_62_items functions="11" variables="0" lines="59" %}
+{% include source-code-card.html title="swab.h" items=card_1_63_items functions="10" variables="2" lines="159" %}
+{% include source-code-card.html title="usb.h" items=card_1_64_items functions="22" variables="0" lines="39" %}
+{% include source-code-card.html title="usb_input.h" items=card_1_65_items functions="7" variables="0" lines="747" %}
+{% include source-code-card.html title="usb_mem.h" items=card_1_66_items functions="13" variables="0" lines="35" %}
+{% include source-code-card.html title="usb_spin.h" items=card_1_67_items functions="2" variables="0" lines="34" %}
+{% include source-code-card.html title="usb_timer.h" items=card_1_68_items functions="7" variables="0" lines="25" %}
+{% include source-code-card.html title="util.h" items=card_1_69_items functions="3" variables="0" lines="20" %}
+{% include source-code-card.html title="vi.h" items=card_1_70_items functions="44" variables="3" lines="169" %}
+{% include source-code-card.html title="vi_conexant.h" items=card_1_71_items functions="6" variables="0" lines="15" %}
+{% include source-code-card.html title="video.h" items=card_1_72_items functions="5" variables="0" lines="71" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
 
 <!-- cspell:enable -->
 
@@ -1604,47 +1317,44 @@ PPCArch | .h | Include file for declaring pre-processor constants for PowerPC su
 model/unshared | .h | Include file for declaring a bunch of powerPX functions  for getting and setting register values such as **ppcHID0Set**
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="unshared.h" />
-  <h3>unshared.h</h3>
-  <ul>
-    <li><span>void</span> halt<span>(void)</span></li> 
-    <li><span>void</span> ppcL1Enable<span>(void)</span></li> 
-    <li><span>void</span> ppcL2Enable<span>(void)</span></li> 
-    <li><span>void</span> ppcHID0Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID0Get<span>(void)</span></li> 
-    <li><span>void</span> ppcHID2Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID2Get<span>(void)</span></li> 
-    <li><span>void</span> ppcHID4Set<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcHID4Get<span>(void)</span></li> 
-    <li><span>void</span> ppcL2CRSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcL2CRGet<span>(void)</span></li> 
-    <li><span>void</span> ppcWPARSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcWPARGet<span>(void)</span></li> 
-    <li><span>void</span> ppcDecSet<span>(u32 val)</span></li> 
-    <li><span>void</span> ppcMsrSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcMsrGet<span>(void)</span></li> 
-    <li><span>void</span> ppcTBUSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcTBUGet<span>(void)</span></li> 
-    <li><span>void</span> ppcTBLSet<span>(u32 val)</span></li> 
-    <li><span>u32</span> ppcTBLGet<span>(void)</span></li> 
-    <li><span>u32</span> ppcPVRGet<span>(void)</span></li> 
-    <li><span>void</span> setIrqHndlr<span>(void(*hndlr)())</span></li> 
-    <li><span>void</span> __dcbi<span>(u32 *,u32)</span></li> 
-    <li><span>void</span> __icbi<span>(u32 *,u32)</span></li> 
-    <li><span>u32</span> __lwarx<span>(u32)</span></li> 
-    <li><span>void</span> __stwcx<span>(u32,u32)</span></li> 
-    <li><span>void</span> _ctxSw<span>(void *newCtx)</span></li> 
-    <li><span>void</span> _irqCtxSw<span>(void *newCtx)</span></li> 
-    <li><span>void</span> ppcSync<span>(void)</span></li> 
-    <li><span>void</span> ppcEeieo<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">30</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">76</div>  </div>
- </div>
+{% capture card_2_1_items %}
+- void|||halt(void)
+- void|||ppcL1Enable(void)
+- void|||ppcL2Enable(void)
+- void|||ppcHID0Set(u32 val)
+- u32|||ppcHID0Get(void)
+- void|||ppcHID2Set(u32 val)
+- u32|||ppcHID2Get(void)
+- void|||ppcHID4Set(u32 val)
+- u32|||ppcHID4Get(void)
+- void|||ppcL2CRSet(u32 val)
+- u32|||ppcL2CRGet(void)
+- void|||ppcWPARSet(u32 val)
+- u32|||ppcWPARGet(void)
+- void|||ppcDecSet(u32 val)
+- void|||ppcMsrSet(u32 val)
+- u32|||ppcMsrGet(void)
+- void|||ppcTBUSet(u32 val)
+- u32|||ppcTBUGet(void)
+- void|||ppcTBLSet(u32 val)
+- u32|||ppcTBLGet(void)
+- u32|||ppcPVRGet(void)
+- void|||setIrqHndlr(void(*hndlr)())
+- void|||__dcbi(u32 *,u32)
+- void|||__icbi(u32 *,u32)
+- u32|||__lwarx(u32)
+- void|||__stwcx(u32,u32)
+- void|||_ctxSw(void *newCtx)
+- void|||_irqCtxSw(void *newCtx)
+- void|||ppcSync(void)
+- void|||ppcEeieo(void)
+{% endcapture %}
 
-</section>
+{% capture section_2_cards %}
+{% include source-code-card.html title="unshared.h" items=card_2_1_items functions="30" variables="0" lines="76" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
 
 ---
 ## Export (ati/export)
@@ -1717,226 +1427,215 @@ gxreg | .h | Include file for declaring a simulation of the Graphics hardware Re
 vertex | .h | Include file for declaring pre-processor defines related to vertices such as **GXTexCoord2bv**
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gx.h" />
-  <h3>gx.h</h3>
-  <ul>
-    <li><span>void </span> memset32<span>(void *,u32,u32)</span></li> 
-    <li><span>void </span> memcpy32<span>(void *,const void *,u32)</span></li> 
-    <li><span>int</span> memcmp32<span>(const void *,const void *,u32)</span></li> 
-    <li><span>void</span> GXSetVtxDesc<span>(GXAttr Attr,GXAttrType Type)</span></li> 
-    <li><span>void</span> GXSetVtxDescv<span>(GXVtxDescList *AttrPtr)</span></li> 
-    <li><span>void</span> GXGetVtxDesc<span>(GXAttr Attr,GXAttrType *TypePtr)</span></li> 
-    <li><span>void</span> GXClearVtxDesc<span>(void)</span></li> 
-    <li><span>void</span> GXSetVtxAttrFmt<span>(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt CompCnt,GXCompType CompType,u8 Shift)</span></li> 
-    <li><span>void</span> GXSetVtxAttrFmtv<span>(GXVtxFmtID Idx,GXVtxFmtList *AttrPtr)</span></li> 
-    <li><span>void</span> GXGetVtxAttrFmt<span>(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt *CompCnt,GXCompType *CompType,u8 *Shift)</span></li> 
-    <li><span>void</span> GXSetArray<span>(GXAttr Attr,u32 Base,u8 Stride)</span></li> 
-    <li><span>void</span> GXGetArray<span>(GXAttr Attr,u32 *Base,u8 *Stride)</span></li> 
-    <li><span>void</span> GXSetTexCoordGen<span>(GXTexCoord Coord,GXTexGenType Type,u8 MatIdx)</span></li> 
-    <li><span>void</span> GXGetTexCoordGen<span>(GXTexCoord Coord,GXTexGenType *Type,u8 *MatIdx)</span></li> 
-    <li><span>void</span> GXSetTexCoordGen2<span>(GXTexCoord Coord,GXTexGenFunc Func,GXTexGenSrc Source,u8 MatIdx)</span></li> 
-    <li><span>void</span> GXSetTexCoordWrap<span>(GXTexCoord Coord,GXBool CylWrapS,GXBool CylWrapT,GXBool BiasS,GXBool BiasT,GXBool LineOffset,GXBool PointOffset)</span></li> 
-    <li><span>void</span> GXSetBumpSource<span>(GXTexCoord Coord,GXTexCoord SrcCoord,GXLightID SrcLight)</span></li> 
-    <li><span>void</span> GXGetBumpSource<span>(GXTexCoord Coord,GXTexCoord *SrcCoord,GXLightID *SrcLight)</span></li> 
-    <li><span>void</span> GXSetTexCoordTrans<span>(GXTexCoord Coord,GXMtxName MtxIdx,GXBool Normalize)</span></li> 
-    <li><span>void</span> GXSetDualTexTrans<span>(GXBool Enable)</span></li> 
-    <li><span>void</span> GXSetCCConstColor<span>(GXCCRegID CCReg,GXColor Color)</span></li> 
-    <li><span>void</span> GXGetCCConstColor<span>(GXCCRegID CCReg,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetCCConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect ConstSelect)</span></li> 
-    <li><span>void</span> GXGetCCConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)</span></li> 
-    <li><span>void</span> GXSetACConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect ConstSelect)</span></li> 
-    <li><span>void</span> GXGetACConstSelect<span>(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)</span></li> 
-    <li><span>void</span> GXSetCCSwapModeTableEntry<span>(GXCCSwSelect CCSwapId,GXCCChannel Red,GXCCChannel Green,GXCCChannel Blue,GXCCChannel Alpha)</span></li> 
-    <li><span>void</span> GXGetCCSwapModeTableEntry<span>(GXCCSwSelect CCSwapId,GXCCChannel *Red,GXCCChannel *Green,GXCCChannel *Blue,GXCCChannel *Alpha)</span></li> 
-    <li><span>void</span> GXSetCCSwapMode<span>(GXCCStageID CCStageId,GXCCSwSelect TextureSwap,GXCCSwSelect RasterSwap)</span></li> 
-    <li><span>void</span> GXGetCCSwapMode<span>(GXCCStageID CCStageId,GXCCSwSelect *TextureSwap,GXCCSwSelect *RasterSwap)</span></li> 
-    <li><span>void</span> GXClearVertexCache<span>(void)</span></li> 
-    <li><span>void</span> GXGetVertexCacheStatus<span>(u32 *CheckCnt,u32 *MissCnt,u32 *StallCnt)</span></li> 
-    <li><span>void</span> GXBeginPrimitive<span>(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)</span></li> 
-    <li><span>void</span> GXBeginPrimitive2<span>(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)</span></li> 
-    <li><span>void</span> GXEndPrimitive<span>(void)</span></li> 
-    <li><span>void</span> GXSetLineWidth<span>(u8 Width,GXTexOffsets Offset)</span></li> 
-    <li><span>void</span> GXGetLineWidth<span>(u8 *Width,GXTexOffsets *Offset)</span></li> 
-    <li><span>void</span> GXSetPointSize<span>(u8 PointSize,GXTexOffsets Offset)</span></li> 
-    <li><span>void</span> GXGetPointSize<span>(u8 *PointSize,GXTexOffsets *Offset)</span></li> 
-    <li><span>void</span> GXSetShadeMode<span>(GXShadeModes Mode)</span></li> 
-    <li><span>void</span> GXGetShadeMode<span>(GXShadeModes *Mode)</span></li> 
-    <li><span>void</span> GXSetAntiAliasing<span>(GXBool Mode,u8 SamplePts[4][3][2])</span></li> 
-    <li><span>void</span> GXGetAntiAliasing<span>(GXBool *Mode,u8 SamplePts[4][3][2])</span></li> 
-    <li><span>void</span> GXSetCoPlanar<span>(GXBool Enable)</span></li> 
-    <li><span>void</span> GXGetCoPlanar<span>(GXBool *Enable)</span></li> 
-    <li><span>void</span> GXSetFieldMode<span>(GXBool texLod,GXBool linewd)</span></li> 
-    <li><span>void</span> GXSetProjection<span>(f32 Matrix[4][4],GXProjMtxType type)</span></li> 
-    <li><span>void</span> GXLoadPosMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadNormMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadTexMatrixIndx<span>(u32 ArrayIdx,GXMtxName MatName,GXMtxType Type)</span></li> 
-    <li><span>void</span> GXLoadPosMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadNormMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXLoadTexMatrixImm<span>(f32 *MatrixPtr,GXMtxName MatName,GXMtxType Type)</span></li> 
-    <li><span>void</span> GXSetDefaultMatrix<span>(GXMtxName MatName)</span></li> 
-    <li><span>void</span> GXGetDefaultMatrix<span>(GXMtxName *MatName)</span></li> 
-    <li><span>void</span> GXSetViewport<span>(s16 Left,s16 Top,u16 Width,u16 Height,f32 Near,f32 Far)</span></li> 
-    <li><span>void</span> GXGetViewport<span>(s16 *Left,s16 *Top,u16 *Width,u16 *Height,f32 *Near,f32 *Far)</span></li> 
-    <li><span>void</span> GXSetScissor<span>(u16 Left,u16 Top,u16 Width,u16 Height)</span></li> 
-    <li><span>void</span> GXGetScissor<span>(u16 *Left,u16 *Top,u16 *Width,u16 *Height)</span></li> 
-    <li><span>void</span> GXSetCullMode<span>(GXCullModes Mode)</span></li> 
-    <li><span>void</span> GXGetCullMode<span>(GXCullModes *Mode)</span></li> 
-    <li><span>void</span> GXInitLightAttn<span>(GXLightObj *ptr,f32 A0,f32 A1,f32 A2,f32 K0,f32 K1,f32 K2)</span></li> 
-    <li><span>void</span> GXInitShininess<span>(GXLightObj *ptr,f32 Shininess)</span></li> 
-    <li><span>void</span> GXInitLightPos<span>(GXLightObj *ptr,f32 X,f32 Y,f32 Z)</span></li> 
-    <li><span>void</span> GXInitLightDir<span>(GXLightObj *ptr,f32 X,f32 Y,f32 Z)</span></li> 
-    <li><span>void</span> GXInitLightColor<span>(GXLightObj *ptr,GXColor LightColor)</span></li> 
-    <li><span>void</span> GXLoadLightStateImm<span>(GXLightObj *ptr,GXLightID LightId)</span></li> 
-    <li><span>void</span> GXLoadLightStateIndx<span>(u32 LightObjIdx,GXLightID LightId)</span></li> 
-    <li><span>void</span> GXSetAmbientColor<span>(GXColorID ColorId,GXColor AmbColor)</span></li> 
-    <li><span>void</span> GXGetAmbientColor<span>(GXColorID ColorId,GXColor *AmbColor)</span></li> 
-    <li><span>void</span> GXSetMaterialColor<span>(GXColorID ColorId,GXColor MatColor)</span></li> 
-    <li><span>void</span> GXGetMaterialColor<span>(GXColorID ColorId,GXColor *MatColor)</span></li> 
-    <li><span>void</span> GXSetLightCtrl<span>(GXColorID ColorId,GXBool Enable,GXColorSrc AmbSource,GXColorSrc MatSource,GXLightID LightMask,GXDiffuseFn DiffFunc,GXAttnFn AttnFunc)</span></li> 
-    <li><span>void</span> GXGetLightCtrl<span>(GXColorID ColorId,GXBool *Enable,GXColorSrc *AmbSource,GXColorSrc *MatSource,GXLightID *LightMask,GXDiffuseFn *DiffFunc,GXAttnFn *AttnFunc)</span></li> 
-    <li><span>void</span> GXInitTexObj<span>(GXTexObj *TexObjPtr,void *ImagePtr,u16 Width,u16 Height,GXTexFormats Format,GXTexWrapModes WrapS,GXTexWrapModes WrapT,GXTexFilters MinFilt,GXTexFilters MagFilt,f32 MinLod,f32 MaxLod,f32 LodBias,GXBool doEdgeLod)</span></li> 
-    <li><span>void</span> GXInitTexObj2<span>(GXTexObj *TexObjPtr,GXBool LodClamp,GXTexAnisotropy MaxAniso,GXBool FieldPredict,GXBool BilinearRound)</span></li> 
-    <li><span>void</span> GXInitTlutObj<span>(GXTlutObj *TlutObjPtr,void *LutPtr,u16 NumEntries,GXTlutFormats Format)</span></li> 
-    <li><span>void</span> GXInitTexRegion<span>(GXTexRegion *TexRegionPtr,GXBool IsCached,void *TmemEvenPtr,u8 WidthEven,u8 HeightEven,void *TmemOddPtr,u8 WidthOdd,u8 HeightOdd)</span></li> 
-    <li><span>void</span> GXInitTlutRegion<span>(GXTlutRegion *TlutRegionPtr,void *TmemPtr)</span></li> 
-    <li><span>void</span> GXPreLoadTexture<span>(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTlut<span>(GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTexState<span>(GXTexMapID TexId,GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXLoadTlutState<span>(GXTexMapID TexId,GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)</span></li> 
-    <li><span>void</span> GXClearTexRegion<span>(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)</span></li> 
-    <li><span>void</span> GXFlushTextureState<span>(void)</span></li> 
-    <li><span>void</span> GXInitIndirectTexture<span>(GXCCStageID CCStageId,GXIndTexMapID TexId,GXIndTexFormats Fmt,GXIndTexBias Bias,GXIndTexAlphaSel AlphaSel,GXIndTexMtxID MatrixSel,GXIndTexWrap WrapS,GXIndTexWrap WrapT,GXBool IndLOD,GXBool AddPrev)</span></li> 
-    <li><span>void</span> GXSetIndTexMtx<span>(GXIndTexMtxID MtxId,f32 OffsetMatrix[3][2],u8 ScaleExp)</span></li> 
-    <li><span>void</span> GXSetIndTexScale<span>(GXIndTexMapID IndTexId,GXIndTexScale ScaleS,GXIndTexScale ScaleT)</span></li> 
-    <li><span>void</span> GXSetIndTexOrder<span>(u8 NumIndTex,GXIndTexMapID IndTexId[],GXTexMapID TexId[],GXTexCoord TexCoord[])</span></li> 
-    <li><span>void</span> GXSetCCOp<span>(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)</span></li> 
-    <li><span>void</span> GXGetCCOp<span>(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)</span></li> 
-    <li><span>void</span> GXSetACOp<span>(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)</span></li> 
-    <li><span>void</span> GXGetACOp<span>(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)</span></li> 
-    <li><span>void</span> GXSetCCOutput<span>(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)</span></li> 
-    <li><span>void</span> GXGetCCOutput<span>(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)</span></li> 
-    <li><span>void</span> GXSetACOutput<span>(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)</span></li> 
-    <li><span>void</span> GXGetACOutput<span>(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)</span></li> 
-    <li><span>void</span> GXSetCCColor<span>(GXCCRegID CCReg,GXColor Color)</span></li> 
-    <li><span>void</span> GXSetCCColor2<span>(GXCCRegID CCReg,s16 red,s16 grn,s16 blu,s16 alp)</span></li> 
-    <li><span>void</span> GXGetCCColor<span>(GXCCRegID CCReg,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetCCOrder<span>(u8 NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])</span></li> 
-    <li><span>void</span> GXGetCCOrder<span>(u8 *NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])</span></li> 
-    <li><span>void</span> GXSyncSuTsRegs<span>(void)</span></li> 
-    <li><span>void</span> GXGetSuTexSize<span>(GXTexCoord coord,u32 *w,u32 *h)</span></li> 
-    <li><span>void</span> GXSetRange<span>(f32 NearZ,f32 SideX)</span></li> 
-    <li><span>void</span> GXSetFog<span>(GXFogTypes Type,GXBool Proj,GXBool Range,f32 StartZ,f32 EndZ,f32 NearZ,f32 FarZ,f32 SideX,GXColor Color)</span></li> 
-    <li><span>void</span> GXGetFog<span>(GXFogTypes *Type,GXBool *Proj,GXBool *Range,f32 *StartZ,f32 *EndZ,f32 *NearZ,f32 *FarZ,f32 *SideX,GXColor *Color)</span></li> 
-    <li><span>void</span> GXSetColorMode<span>(GXColorModes Ops,GXBlendModes SrcFactor,GXBlendModes DstFactor,GXLogicOps logicOp,GXBool Dither)</span></li> 
-    <li><span>void</span> GXGetColorMode<span>(GXColorModes *Ops,GXBlendModes *SrcFactor,GXBlendModes *DstFactor,GXLogicOps *logicOp,GXBool *Dither)</span></li> 
-    <li><span>void</span> GXSetBlendOp<span>(GXBlendOps op)</span></li> 
-    <li><span>void</span> GXSetDestAlpha<span>(GXBool Enable,u8 Alpha)</span></li> 
-    <li><span>void</span> GXGetDestAlpha<span>(GXBool *Enable,u8 *Alpha)</span></li> 
-    <li><span>void</span> GXSetZMode<span>(GXBool CompareEnable,GXBool UpdateEnable,GXCompare Func)</span></li> 
-    <li><span>void</span> GXGetZMode<span>(GXBool *CompareEnable,GXBool *UpdateEnable,GXCompare *Func)</span></li> 
-    <li><span>void</span> GXSetZTexture<span>(GXZTexOp op,GXZTexFormat fmt,f32 zBias)</span></li> 
-    <li><span>void</span> GXGetZTexture<span>(GXZTexOp *op,GXZTexFormat *fmt,f32 *zBias)</span></li> 
-    <li><span>void</span> GXSetAlphaFunc<span>(GXAlphaLogic AlphaLogic,GXCompare Func0,GXCompare Func1,u8 RefValue0,u8 RefValue1)</span></li> 
-    <li><span>void</span> GXGetAlphaFunc<span>(GXAlphaLogic *AlphaLogic,GXCompare *Func0,GXCompare *Func1,u8 *RefValue0,u8 *RefValue1)</span></li> 
-    <li><span>void</span> GXSetPixelFormat<span>(GXPixelFormats Format,GXZCmprFormats ZCmpr,GXBool ZTop)</span></li> 
-    <li><span>void</span> GXGetPixelFormat<span>(GXPixelFormats *Format,GXZCmprFormats *ZCmpr,GXBool *ZTop)</span></li> 
-    <li><span>void</span> GXSetColorMask<span>(GXBool ColorMask,GXBool AlphaMask)</span></li> 
-    <li><span>void</span> GXSetMotionComp<span>(GXBool OddMask,GXBool EvenMask)</span></li> 
-    <li><span>void</span> GXGetMotionComp<span>(GXBool *OddMask,GXBool *EvenMask)</span></li> 
-    <li><span>void</span> GXBeginDisplayList<span>(void *BasePtr,u32 nBytes)</span></li> 
-    <li><span>u32</span> GXEndDisplayList<span>(void)</span></li> 
-    <li><span>void</span> GXCallDisplayList<span>(void *BasePtr,u32 nBytes)</span></li> 
-    <li><span>void</span> GXSetCopyControl<span>(GXFbClamps ClampFlags,GXTexFormats TexFormat,GXFbInterlace Interlaced,GXGamma Gamma,u16 VertScale,GXBool MipFilter)</span></li> 
-    <li><span>void</span> GXSetCopyColorConv<span>(GXCCV ccvFlag)</span></li> 
-    <li><span>void</span> GXSetAAFilter<span>(u8 Coefficients[7])</span></li> 
-    <li><span>void</span> GXGetAAFilter<span>(u8 Coefficients[7])</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void </span> GXHDOffset<span>(u16 PrevSrcHeight,void *DstBasePtr,u16 DstStride,GXBool RstEnable,GXBool HFilter)</span></li> 
-    <li><span>void</span> GXSetHD<span>(u16 AlphaRst,u16 ScaleRst,GXBool RstEnable,GXBool HFilter)</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay16<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXCopyFBToDisplay32<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXCopyFBToTexture<span>(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)</span></li> 
-    <li><span>void</span> GXSetClear<span>(GXColor ClearColor,u32 ClearZ)</span></li> 
-    <li><span>void</span> GXGetClear<span>(GXColor *ClearColor,u32 *ClearZ)</span></li> 
-    <li><span>void</span> GXClearBoundingBox<span>(void)</span></li> 
-    <li><span>void</span> GXGetBoundingBox<span>(u16 *Left,u16 *Right,u16 *Top,u16 *Bottom)</span></li> 
-    <li><span>void</span> GXSetQuadOffset<span>(u16 left,u16 top)</span></li> 
-    <li><span>u32</span> GXReadPixelColorAlpha<span>(u16 x,u16 y)</span></li> 
-    <li><span>u32</span> GXReadPixelColor<span>(u16 x,u16 y)</span></li> 
-    <li><span>void</span> GXWritePixelColor<span>(u16 x,u16 y,u32 color)</span></li> 
-    <li><span>u32</span> GXGetPerfMetric<span>(GXPerf perf)</span></li> 
-    <li><span>void</span> GXInitPerfCounters<span>(GXPerfBlock blockA,u32 valA,GXPerfBlock blockB,u32 valB,GXPerfBlock blockC,u32 valC,GXPerfBlock blockD,u32 valD)</span></li> 
-    <li><span>void</span> GXInitPEPerfCounters<span>(GXBool pe0,GXBool pe1,GXBool pe2,GXBool pe3,GXBool pe4,GXBool pe5)</span></li> 
-    <li><span>void</span> GXDisplayPerfCounters<span>(void)</span></li> 
-    <li><span>void</span> GXSetFifoBase<span>(u32 BasePtr,u32 Size,GXBool SetDefaults)</span></li> 
-    <li><span>void</span> GXSetFifoLimits<span>(u32 HiWaterMark,u32 LoWaterMark,u32 RdBreakMark)</span></li> 
-    <li><span>void</span> GXSetInterrupts<span>(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)</span></li> 
-    <li><span>void</span> GXClearInterrupts<span>(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)</span></li> 
-    <li><span>void</span> GXSetFifoPtrs<span>(u32 WritePtr,u32 ReadPtr)</span></li> 
-    <li><span>void</span> GXGetFifoPtrs<span>(u32 *WritePtrPtr,u32 *ReadPtrPtr)</span></li> 
-    <li><span>void</span> GXGetFifoStatusFull<span>(GXBool *Underflow,GXBool *Overflow,GXBool *Break,GXBool *RDIdle,GXBool *CPIdle)</span></li> 
-    <li><span>void</span> GXGetFifoStatus<span>(GXBool *Underflow,GXBool *Overflow,GXBool *Break)</span></li> 
-    <li><span>void</span> GXDisplayFifoStatus<span>(void)</span></li> 
-    <li><span>void</span> GXGetFifoCount<span>(u32 *FifoCount)</span></li> 
-    <li><span>void</span> GXSetFifoEnable<span>(GXBool Read,GXBool WrPtrInc)</span></li> 
-    <li><span>void</span> GXInit<span>(void)</span></li> 
-    <li><span>void</span> GXInit2<span>(void)</span></li> 
-    <li><span>void</span> GXInitB<span>(u32 revNo)</span></li> 
-    <li><span>void</span> GXSetPERefresh<span>(u32 peRefresh)</span></li> 
-    <li><span>void</span> GXSetTXRefresh<span>(u32 txRefresh)</span></li> 
-    <li><span>void</span> GXAbortFrame<span>(void)</span></li> 
-    <li><span>void</span> GXSetDrawSync<span>(u16 Token)</span></li> 
-    <li><span>void</span> GXGetDrawSync<span>(u16 *Token)</span></li> 
-    <li><span>GXBool</span> GXDrawDone<span>(void)</span></li> 
-    <li><span>GXBool</span> GXDrawDoneSafe<span>(void)</span></li> 
-    <li><span>void</span> GXFlush<span>(void)</span></li> 
-    <li><span>void</span> GXHWSync<span>(u8 Token)</span></li> 
-    <li><span>void</span> GXBypass<span>(u32 regData)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">172</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">1513</div>  </div>
- </div>
+{% capture card_3_1_items %}
+- void|||memset32(void *,u32,u32)
+- void|||memcpy32(void *,const void *,u32)
+- int|||memcmp32(const void *,const void *,u32)
+- void|||GXSetVtxDesc(GXAttr Attr,GXAttrType Type)
+- void|||GXSetVtxDescv(GXVtxDescList *AttrPtr)
+- void|||GXGetVtxDesc(GXAttr Attr,GXAttrType *TypePtr)
+- void|||GXClearVtxDesc(void)
+- void|||GXSetVtxAttrFmt(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt CompCnt,GXCompType CompType,u8 Shift)
+- void|||GXSetVtxAttrFmtv(GXVtxFmtID Idx,GXVtxFmtList *AttrPtr)
+- void|||GXGetVtxAttrFmt(GXVtxFmtID Idx,GXAttr Attr,GXCompCnt *CompCnt,GXCompType *CompType,u8 *Shift)
+- void|||GXSetArray(GXAttr Attr,u32 Base,u8 Stride)
+- void|||GXGetArray(GXAttr Attr,u32 *Base,u8 *Stride)
+- void|||GXSetTexCoordGen(GXTexCoord Coord,GXTexGenType Type,u8 MatIdx)
+- void|||GXGetTexCoordGen(GXTexCoord Coord,GXTexGenType *Type,u8 *MatIdx)
+- void|||GXSetTexCoordGen2(GXTexCoord Coord,GXTexGenFunc Func,GXTexGenSrc Source,u8 MatIdx)
+- void|||GXSetTexCoordWrap(GXTexCoord Coord,GXBool CylWrapS,GXBool CylWrapT,GXBool BiasS,GXBool BiasT,GXBool LineOffset,GXBool PointOffset)
+- void|||GXSetBumpSource(GXTexCoord Coord,GXTexCoord SrcCoord,GXLightID SrcLight)
+- void|||GXGetBumpSource(GXTexCoord Coord,GXTexCoord *SrcCoord,GXLightID *SrcLight)
+- void|||GXSetTexCoordTrans(GXTexCoord Coord,GXMtxName MtxIdx,GXBool Normalize)
+- void|||GXSetDualTexTrans(GXBool Enable)
+- void|||GXSetCCConstColor(GXCCRegID CCReg,GXColor Color)
+- void|||GXGetCCConstColor(GXCCRegID CCReg,GXColor *Color)
+- void|||GXSetCCConstSelect(GXCCStageID CCStageId,GXCCColSelect ConstSelect)
+- void|||GXGetCCConstSelect(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)
+- void|||GXSetACConstSelect(GXCCStageID CCStageId,GXCCColSelect ConstSelect)
+- void|||GXGetACConstSelect(GXCCStageID CCStageId,GXCCColSelect *ConstSelect)
+- void|||GXSetCCSwapModeTableEntry(GXCCSwSelect CCSwapId,GXCCChannel Red,GXCCChannel Green,GXCCChannel Blue,GXCCChannel Alpha)
+- void|||GXGetCCSwapModeTableEntry(GXCCSwSelect CCSwapId,GXCCChannel *Red,GXCCChannel *Green,GXCCChannel *Blue,GXCCChannel *Alpha)
+- void|||GXSetCCSwapMode(GXCCStageID CCStageId,GXCCSwSelect TextureSwap,GXCCSwSelect RasterSwap)
+- void|||GXGetCCSwapMode(GXCCStageID CCStageId,GXCCSwSelect *TextureSwap,GXCCSwSelect *RasterSwap)
+- void|||GXClearVertexCache(void)
+- void|||GXGetVertexCacheStatus(u32 *CheckCnt,u32 *MissCnt,u32 *StallCnt)
+- void|||GXBeginPrimitive(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)
+- void|||GXBeginPrimitive2(GXPrimitive Type,GXVtxFmtID VatIdx,u16 Nverts)
+- void|||GXEndPrimitive(void)
+- void|||GXSetLineWidth(u8 Width,GXTexOffsets Offset)
+- void|||GXGetLineWidth(u8 *Width,GXTexOffsets *Offset)
+- void|||GXSetPointSize(u8 PointSize,GXTexOffsets Offset)
+- void|||GXGetPointSize(u8 *PointSize,GXTexOffsets *Offset)
+- void|||GXSetShadeMode(GXShadeModes Mode)
+- void|||GXGetShadeMode(GXShadeModes *Mode)
+- void|||GXSetAntiAliasing(GXBool Mode,u8 SamplePts[4][3][2])
+- void|||GXGetAntiAliasing(GXBool *Mode,u8 SamplePts[4][3][2])
+- void|||GXSetCoPlanar(GXBool Enable)
+- void|||GXGetCoPlanar(GXBool *Enable)
+- void|||GXSetFieldMode(GXBool texLod,GXBool linewd)
+- void|||GXSetProjection(f32 Matrix[4][4],GXProjMtxType type)
+- void|||GXLoadPosMatrixIndx(u32 ArrayIdx,GXMtxName MatName)
+- void|||GXLoadNormMatrixIndx(u32 ArrayIdx,GXMtxName MatName)
+- void|||GXLoadTexMatrixIndx(u32 ArrayIdx,GXMtxName MatName,GXMtxType Type)
+- void|||GXLoadPosMatrixImm(f32 *MatrixPtr,GXMtxName MatName)
+- void|||GXLoadNormMatrixImm(f32 *MatrixPtr,GXMtxName MatName)
+- void|||GXLoadTexMatrixImm(f32 *MatrixPtr,GXMtxName MatName,GXMtxType Type)
+- void|||GXSetDefaultMatrix(GXMtxName MatName)
+- void|||GXGetDefaultMatrix(GXMtxName *MatName)
+- void|||GXSetViewport(s16 Left,s16 Top,u16 Width,u16 Height,f32 Near,f32 Far)
+- void|||GXGetViewport(s16 *Left,s16 *Top,u16 *Width,u16 *Height,f32 *Near,f32 *Far)
+- void|||GXSetScissor(u16 Left,u16 Top,u16 Width,u16 Height)
+- void|||GXGetScissor(u16 *Left,u16 *Top,u16 *Width,u16 *Height)
+- void|||GXSetCullMode(GXCullModes Mode)
+- void|||GXGetCullMode(GXCullModes *Mode)
+- void|||GXInitLightAttn(GXLightObj *ptr,f32 A0,f32 A1,f32 A2,f32 K0,f32 K1,f32 K2)
+- void|||GXInitShininess(GXLightObj *ptr,f32 Shininess)
+- void|||GXInitLightPos(GXLightObj *ptr,f32 X,f32 Y,f32 Z)
+- void|||GXInitLightDir(GXLightObj *ptr,f32 X,f32 Y,f32 Z)
+- void|||GXInitLightColor(GXLightObj *ptr,GXColor LightColor)
+- void|||GXLoadLightStateImm(GXLightObj *ptr,GXLightID LightId)
+- void|||GXLoadLightStateIndx(u32 LightObjIdx,GXLightID LightId)
+- void|||GXSetAmbientColor(GXColorID ColorId,GXColor AmbColor)
+- void|||GXGetAmbientColor(GXColorID ColorId,GXColor *AmbColor)
+- void|||GXSetMaterialColor(GXColorID ColorId,GXColor MatColor)
+- void|||GXGetMaterialColor(GXColorID ColorId,GXColor *MatColor)
+- void|||GXSetLightCtrl(GXColorID ColorId,GXBool Enable,GXColorSrc AmbSource,GXColorSrc MatSource,GXLightID LightMask,GXDiffuseFn DiffFunc,GXAttnFn AttnFunc)
+- void|||GXGetLightCtrl(GXColorID ColorId,GXBool *Enable,GXColorSrc *AmbSource,GXColorSrc *MatSource,GXLightID *LightMask,GXDiffuseFn *DiffFunc,GXAttnFn *AttnFunc)
+- void|||GXInitTexObj(GXTexObj *TexObjPtr,void *ImagePtr,u16 Width,u16 Height,GXTexFormats Format,GXTexWrapModes WrapS,GXTexWrapModes WrapT,GXTexFilters MinFilt,GXTexFilters MagFilt,f32 MinLod,f32 MaxLod,f32 LodBias,GXBool doEdgeLod)
+- void|||GXInitTexObj2(GXTexObj *TexObjPtr,GXBool LodClamp,GXTexAnisotropy MaxAniso,GXBool FieldPredict,GXBool BilinearRound)
+- void|||GXInitTlutObj(GXTlutObj *TlutObjPtr,void *LutPtr,u16 NumEntries,GXTlutFormats Format)
+- void|||GXInitTexRegion(GXTexRegion *TexRegionPtr,GXBool IsCached,void *TmemEvenPtr,u8 WidthEven,u8 HeightEven,void *TmemOddPtr,u8 WidthOdd,u8 HeightOdd)
+- void|||GXInitTlutRegion(GXTlutRegion *TlutRegionPtr,void *TmemPtr)
+- void|||GXPreLoadTexture(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)
+- void|||GXLoadTlut(GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)
+- void|||GXLoadTexState(GXTexMapID TexId,GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)
+- void|||GXLoadTlutState(GXTexMapID TexId,GXTlutObj *TlutObjPtr,GXTlutRegion *TlutRegionPtr)
+- void|||GXClearTexRegion(GXTexObj *TexObjPtr,GXTexRegion *TexRegionPtr)
+- void|||GXFlushTextureState(void)
+- void|||GXInitIndirectTexture(GXCCStageID CCStageId,GXIndTexMapID TexId,GXIndTexFormats Fmt,GXIndTexBias Bias,GXIndTexAlphaSel AlphaSel,GXIndTexMtxID MatrixSel,GXIndTexWrap WrapS,GXIndTexWrap WrapT,GXBool IndLOD,GXBool AddPrev)
+- void|||GXSetIndTexMtx(GXIndTexMtxID MtxId,f32 OffsetMatrix[3][2],u8 ScaleExp)
+- void|||GXSetIndTexScale(GXIndTexMapID IndTexId,GXIndTexScale ScaleS,GXIndTexScale ScaleT)
+- void|||GXSetIndTexOrder(u8 NumIndTex,GXIndTexMapID IndTexId[],GXTexMapID TexId[],GXTexCoord TexCoord[])
+- void|||GXSetCCOp(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)
+- void|||GXGetCCOp(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)
+- void|||GXSetACOp(GXCCStageID CCStageId,GXCCOps ColorOp,GXCCArgs Arg1,GXCCArgs Arg2,GXCCArgs Arg3,GXCCArgs Arg4)
+- void|||GXGetACOp(GXCCStageID CCStageId,GXCCOps *ColorOp,GXCCArgs *Arg1,GXCCArgs *Arg2,GXCCArgs *Arg3,GXCCArgs *Arg4)
+- void|||GXSetCCOutput(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)
+- void|||GXGetCCOutput(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)
+- void|||GXSetACOutput(GXCCStageID CCStageId,GXCCScale Scale,GXCCBias AddBias,GXCCClamp Clamp,GXCCRegID CCReg)
+- void|||GXGetACOutput(GXCCStageID CCStageId,GXCCScale *Scale,GXCCBias *AddBias,GXCCClamp *Clamp,GXCCRegID *CCReg)
+- void|||GXSetCCColor(GXCCRegID CCReg,GXColor Color)
+- void|||GXSetCCColor2(GXCCRegID CCReg,s16 red,s16 grn,s16 blu,s16 alp)
+- void|||GXGetCCColor(GXCCRegID CCReg,GXColor *Color)
+- void|||GXSetCCOrder(u8 NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])
+- void|||GXGetCCOrder(u8 *NumStages,GXTexMapID TexId[],GXTexCoord TexCoord[],GXColorID ColorId[])
+- void|||GXSyncSuTsRegs(void)
+- void|||GXGetSuTexSize(GXTexCoord coord,u32 *w,u32 *h)
+- void|||GXSetRange(f32 NearZ,f32 SideX)
+- void|||GXSetFog(GXFogTypes Type,GXBool Proj,GXBool Range,f32 StartZ,f32 EndZ,f32 NearZ,f32 FarZ,f32 SideX,GXColor Color)
+- void|||GXGetFog(GXFogTypes *Type,GXBool *Proj,GXBool *Range,f32 *StartZ,f32 *EndZ,f32 *NearZ,f32 *FarZ,f32 *SideX,GXColor *Color)
+- void|||GXSetColorMode(GXColorModes Ops,GXBlendModes SrcFactor,GXBlendModes DstFactor,GXLogicOps logicOp,GXBool Dither)
+- void|||GXGetColorMode(GXColorModes *Ops,GXBlendModes *SrcFactor,GXBlendModes *DstFactor,GXLogicOps *logicOp,GXBool *Dither)
+- void|||GXSetBlendOp(GXBlendOps op)
+- void|||GXSetDestAlpha(GXBool Enable,u8 Alpha)
+- void|||GXGetDestAlpha(GXBool *Enable,u8 *Alpha)
+- void|||GXSetZMode(GXBool CompareEnable,GXBool UpdateEnable,GXCompare Func)
+- void|||GXGetZMode(GXBool *CompareEnable,GXBool *UpdateEnable,GXCompare *Func)
+- void|||GXSetZTexture(GXZTexOp op,GXZTexFormat fmt,f32 zBias)
+- void|||GXGetZTexture(GXZTexOp *op,GXZTexFormat *fmt,f32 *zBias)
+- void|||GXSetAlphaFunc(GXAlphaLogic AlphaLogic,GXCompare Func0,GXCompare Func1,u8 RefValue0,u8 RefValue1)
+- void|||GXGetAlphaFunc(GXAlphaLogic *AlphaLogic,GXCompare *Func0,GXCompare *Func1,u8 *RefValue0,u8 *RefValue1)
+- void|||GXSetPixelFormat(GXPixelFormats Format,GXZCmprFormats ZCmpr,GXBool ZTop)
+- void|||GXGetPixelFormat(GXPixelFormats *Format,GXZCmprFormats *ZCmpr,GXBool *ZTop)
+- void|||GXSetColorMask(GXBool ColorMask,GXBool AlphaMask)
+- void|||GXSetMotionComp(GXBool OddMask,GXBool EvenMask)
+- void|||GXGetMotionComp(GXBool *OddMask,GXBool *EvenMask)
+- void|||GXBeginDisplayList(void *BasePtr,u32 nBytes)
+- u32|||GXEndDisplayList(void)
+- void|||GXCallDisplayList(void *BasePtr,u32 nBytes)
+- void|||GXSetCopyControl(GXFbClamps ClampFlags,GXTexFormats TexFormat,GXFbInterlace Interlaced,GXGamma Gamma,u16 VertScale,GXBool MipFilter)
+- void|||GXSetCopyColorConv(GXCCV ccvFlag)
+- void|||GXSetAAFilter(u8 Coefficients[7])
+- void|||GXGetAAFilter(u8 Coefficients[7])
+- void|||GXCopyFBToDisplay(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)
+- void|||GXHDOffset(u16 PrevSrcHeight,void *DstBasePtr,u16 DstStride,GXBool RstEnable,GXBool HFilter)
+- void|||GXSetHD(u16 AlphaRst,u16 ScaleRst,GXBool RstEnable,GXBool HFilter)
+- void|||GXCopyFBToDisplay16(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)
+- void|||GXCopyFBToDisplay32(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)
+- void|||GXCopyFBToTexture(u16 SrcLeft,u16 SrcTop,u16 SrcWidth,u16 SrcHeight,void *DstBasePtr,u16 DstStride,GXBool Clear)
+- void|||GXSetClear(GXColor ClearColor,u32 ClearZ)
+- void|||GXGetClear(GXColor *ClearColor,u32 *ClearZ)
+- void|||GXClearBoundingBox(void)
+- void|||GXGetBoundingBox(u16 *Left,u16 *Right,u16 *Top,u16 *Bottom)
+- void|||GXSetQuadOffset(u16 left,u16 top)
+- u32|||GXReadPixelColorAlpha(u16 x,u16 y)
+- u32|||GXReadPixelColor(u16 x,u16 y)
+- void|||GXWritePixelColor(u16 x,u16 y,u32 color)
+- u32|||GXGetPerfMetric(GXPerf perf)
+- void|||GXInitPerfCounters(GXPerfBlock blockA,u32 valA,GXPerfBlock blockB,u32 valB,GXPerfBlock blockC,u32 valC,GXPerfBlock blockD,u32 valD)
+- void|||GXInitPEPerfCounters(GXBool pe0,GXBool pe1,GXBool pe2,GXBool pe3,GXBool pe4,GXBool pe5)
+- void|||GXDisplayPerfCounters(void)
+- void|||GXSetFifoBase(u32 BasePtr,u32 Size,GXBool SetDefaults)
+- void|||GXSetFifoLimits(u32 HiWaterMark,u32 LoWaterMark,u32 RdBreakMark)
+- void|||GXSetInterrupts(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)
+- void|||GXClearInterrupts(GXBool Underflow,GXBool Overflow,GXBool BreakPoint)
+- void|||GXSetFifoPtrs(u32 WritePtr,u32 ReadPtr)
+- void|||GXGetFifoPtrs(u32 *WritePtrPtr,u32 *ReadPtrPtr)
+- void|||GXGetFifoStatusFull(GXBool *Underflow,GXBool *Overflow,GXBool *Break,GXBool *RDIdle,GXBool *CPIdle)
+- void|||GXGetFifoStatus(GXBool *Underflow,GXBool *Overflow,GXBool *Break)
+- void|||GXDisplayFifoStatus(void)
+- void|||GXGetFifoCount(u32 *FifoCount)
+- void|||GXSetFifoEnable(GXBool Read,GXBool WrPtrInc)
+- void|||GXInit(void)
+- void|||GXInit2(void)
+- void|||GXInitB(u32 revNo)
+- void|||GXSetPERefresh(u32 peRefresh)
+- void|||GXSetTXRefresh(u32 txRefresh)
+- void|||GXAbortFrame(void)
+- void|||GXSetDrawSync(u16 Token)
+- void|||GXGetDrawSync(u16 *Token)
+- GXBool|||GXDrawDone(void)
+- GXBool|||GXDrawDoneSafe(void)
+- void|||GXFlush(void)
+- void|||GXHWSync(u8 Token)
+- void|||GXBypass(u32 regData)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxfifo.h" />
-  <h3>gxfifo.h</h3>
-  <ul>
-    <li><span>void</span> gxFifoWrite<span>(u32 d,u32 sz)</span></li> 
-    <li><span>void</span> GXResetCacheAlignment<span>()</span></li> 
-    <li><span>void</span> GXSimStart<span>(char *fileName)</span></li> 
-    <li><span>void</span> GXSimEnd<span>(void)</span></li> 
-    <li><span>void</span> GXSimEnd<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">172</div>  </div>
- </div>
+{% capture card_3_2_items %}
+- void|||gxFifoWrite(u32 d,u32 sz)
+- void|||GXResetCacheAlignment()
+- void|||GXSimStart(char *fileName)
+- void|||GXSimEnd(void)
+- void|||GXSimEnd(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxreg.h" />
-  <h3>gxreg.h</h3>
-  <ul>
-    <li><span>void</span> gxRegWrite16<span>(u32 addr,u16 data)</span></li> 
-    <li><span>void</span> gxRegWrite32<span>(u32 addr,u32 data)</span></li> 
-    <li><span>u16</span> gxRegRead16<span>(u32 addr,u32 cpIdleFlag)</span></li> 
-    <li><span>u32</span> gxRegRead32<span>(u32 addr)</span></li> 
-    <li><span>void</span> simSync<span>(void)</span></li> 
-    <li><span>void</span> GXWriteXFRegs<span>(u32 addr,u8 Count,u32 *data)</span></li> 
-    <li><span>void</span> GXWriteXFRegDirect<span>(u32 addr,u32 data)</span></li> 
-    <li><span>void</span> GXReadXFReg<span>(u32 addr,u32 *data)</span></li> 
-    <li><span>void</span> GXWriteCPReg<span>(u8 addr,u16 data)</span></li> 
-    <li><span>void</span> GXReadCPReg<span>(u8 addr,u16 *data)</span></li> 
-    <li><span>void</span> GXWritePIReg<span>(u8 addr,u32 data)</span></li> 
-    <li><span>void</span> GXReadPIReg<span>(u8 addr,u32 *data)</span></li> 
-    <li><span>void</span> GXWritePEReg<span>(u8 addr,u16 data)</span></li> 
-    <li><span>void</span> GXReadPEReg<span>(u8 addr,u16 *data)</span></li> 
-    <li><span>void</span> GXSUBypassCmd<span>(u8 cmd,u32 data)</span></li> 
-    <li><span>void</span> GXLoadCPReg<span>(u8 reg,u32 data)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">16</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">174</div>  </div>
- </div>
+{% capture card_3_3_items %}
+- void|||gxRegWrite16(u32 addr,u16 data)
+- void|||gxRegWrite32(u32 addr,u32 data)
+- u16|||gxRegRead16(u32 addr,u32 cpIdleFlag)
+- u32|||gxRegRead32(u32 addr)
+- void|||simSync(void)
+- void|||GXWriteXFRegs(u32 addr,u8 Count,u32 *data)
+- void|||GXWriteXFRegDirect(u32 addr,u32 data)
+- void|||GXReadXFReg(u32 addr,u32 *data)
+- void|||GXWriteCPReg(u8 addr,u16 data)
+- void|||GXReadCPReg(u8 addr,u16 *data)
+- void|||GXWritePIReg(u8 addr,u32 data)
+- void|||GXReadPIReg(u8 addr,u32 *data)
+- void|||GXWritePEReg(u8 addr,u16 data)
+- void|||GXReadPEReg(u8 addr,u16 *data)
+- void|||GXSUBypassCmd(u8 cmd,u32 data)
+- void|||GXLoadCPReg(u8 reg,u32 data)
+{% endcapture %}
 
-</section>
+{% capture section_3_cards %}
+{% include source-code-card.html title="gx.h" items=card_3_1_items functions="172" variables="0" lines="1513" %}
+{% include source-code-card.html title="gxfifo.h" items=card_3_2_items functions="5" variables="0" lines="172" %}
+{% include source-code-card.html title="gxreg.h" items=card_3_3_items functions="16" variables="0" lines="174" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
 
 ---
 ## Gxu Library Headers (ati/gxu)
@@ -1953,70 +1652,67 @@ File Name | Extension | Description
 gxu | .h | Include file for declaring all the Utility functions provided by the GXU library
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxu.h" />
-  <h3>gxu.h</h3>
-  <ul>
-    <li><span>void</span> gxuGetFrustum<span>(float l,float r,float b,float t,float n,float f,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetLightFrustum<span>(float l,float r,float b,float t,float n,float sS,float tS,float sT,float tT,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetOrtho<span>(float l,float r,float b,float t,float n,float f,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetPerspective<span>(float fov,float aspect,float n,float f,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetRotate<span>(float deg,float x,float y,float z,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetTranslate<span>(float x,float y,float z,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetScale<span>(float x,float y,float z,float m[3][4])</span></li> 
-    <li><span>void</span> gxuGetIdentity<span>(float m[3][4])</span></li> 
-    <li><span>u32</span> gxuGetInverse<span>(float mat[3][4],float inv[3][4])</span></li> 
-    <li><span>void</span> gxuGetTranspose<span>(float mat[3][4],float xPose[3][4])</span></li> 
-    <li><span>void</span> gxuMultMatrix<span>(float current[3][4],float mat[3][4])</span></li> 
-    <li><span>void</span> gxuMultVec<span>(float vec[3],float mat[3][4])</span></li> 
-    <li><span>AXuint32</span> gxuGetPPMFileSize<span>(char *FileName,AXuint32 *width,AXuint32 *height)</span></li> 
-    <li><span>AXuint32</span> gxuGetImageFileSize<span>(char *FileName,AXuint32 *width,AXuint32 *height)</span></li> 
-    <li><span>AXuint32</span> gxuReadBitmapFile<span>(char *FileName,AXuint32 *width,AXuint32 *height,GXColor **bImage)</span></li> 
-    <li><span>AXuint32</span> gxuWriteBitmapFile<span>(char *FileName,AXuint32 w,AXuint32 h,GXTexFormats format,void *bImage)</span></li> 
-    <li><span>AXuint32</span> gxuReadPPMFile<span>(char *FileName,AXuint32 *width,AXuint32 *height,GXColor **bImage)</span></li> 
-    <li><span>AXuint32</span> gxuWritePPMFile<span>(char *FileName,AXuint32 w,AXuint32 h,GXTexFormats format,void *bImage)</span></li> 
-    <li><span>AXuint32</span> gxuReadDDSFile<span>(char *FileName,AXuint32 *width,AXuint32 *height,AXuint32 *numLod,void **bImage)</span></li> 
-    <li><span>void</span> gxuGenImage<span>(GXUImageType iType,AXuint32 width,AXuint32 height,GXUColorType color,GXColor *bImage)</span></li> 
-    <li><span>void</span> gxuConvertImage<span>(AXuint32 imageW,AXuint32 imageH,GXColor *rgbImage,GXTexFormats texFmt,GXBool generateLut,GXTlutFormats tlutFmt,void *lut,void *image)</span></li> 
-    <li><span>void</span> gxuGetIndexedImage<span>(GXUImageType iType,GXUColorType color,AXuint32 imageW,AXuint32 imageH,GXColor *planarImage,GXTlutFormats tlutFmt,AXuint32 numEntries,void *lutPtr)</span></li> 
-    <li><span>void</span> gxuRandomImage<span>(AXuint32 imageW,AXuint32 imageH,GXBool mipMapped,GXTexFormats texFmt,GXTlutFormats tlutFmt,void *lut,void *image)</span></li> 
-    <li><span>AXuint32</span> gxuGetNumLevels<span>(AXuint32 width,AXuint32 height)</span></li> 
-    <li><span>void</span> gxuGetTiledImage<span>(GXColor *planarImage,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,void *tiledImage)</span></li> 
-    <li><span>void</span> gxuGetBorderedTiledImage<span>(GXColor *planarImage,GXColor border,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,void *tiledImage)</span></li> 
-    <li><span>void</span> gxuFormatImage<span>(GXColor *planarImage,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,GXTlutFormats tlutFmt,void *lut,void *tiledImage)</span></li> 
-    <li><span>AXuint32</span> gxuGetTiledSize<span>(GXBool mipMapped,GXTexFormats tilefmt,AXuint32 width,AXuint32 height)</span></li> 
-    <li><span>void</span> gxuTexPreloadAlloc<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *EvenPtr,AXuint32 *OddPtr)</span></li> 
-    <li><span>void</span> gxuTexPreloadAllocL<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexPreloadAllocH<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexAllocTlut<span>(GXTlutFormats fmt,AXuint32 nEntries,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexAllocTlut2<span>(GXTlutFormats fmt,AXuint32 nEntries,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexCachedAlloc<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *EvenPtr,AXuint32 *OddPtr)</span></li> 
-    <li><span>void</span> gxuTexCachedAllocL<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexCachedAllocH<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexCachedAlloc2<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *EvenPtr,AXuint32 *OddPtr)</span></li> 
-    <li><span>void</span> gxuTexCachedAllocL2<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexCachedAllocH2<span>(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)</span></li> 
-    <li><span>void</span> gxuTexCacheFree<span>(AXuint32 EvenPtr,AXuint32 OddPtr)</span></li> 
-    <li><span>void</span> gxuTexMemFree<span>(AXuint32 Ptr)</span></li> 
-    <li><span>void</span> gxuBumpInit<span>(AXuint32 nStages)</span></li> 
-    <li><span>void</span> gxuInitRasterState<span>(char *fileName)</span></li> 
-    <li><span>void</span> gxuInitEFB<span>(u32 col,u32 z,u32 left,u32 top,u32 width,u32 height,GXPixelFormats fmt)</span></li> 
-    <li><span>void</span> gxuCopyOut<span>(u32 left,u32 top,u32 width,u32 height)</span></li> 
-    <li><span>void</span> gxuBUDInit<span>(int argc,char **argv,u32 left,u32 top,u32 width,u32 height)</span></li> 
-    <li><span>void</span> gxuBUDInitB<span>(u32 revNo,int argc,char **argv,u32 left,u32 top,u32 width,u32 height)</span></li> 
-    <li><span>void</span> gxuBUDFinish<span>(int argc,char **argv,u32 left,u32 top,u32 width,u32 height)</span></li> 
-    <li><span>int</span> width</li> 
-    <li><span>int</span> height</li> 
-    <li><span>GXColor </span> pixels</li> 
-    <li><span></span> gxuCachedImage</li> 
-    <li><span>gxuCachedImage</span> gxuCachedImages[]</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">48</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">317</div>  </div>
- </div>
+{% capture card_4_1_items %}
+- void|||gxuGetFrustum(float l,float r,float b,float t,float n,float f,float m[3][4])
+- void|||gxuGetLightFrustum(float l,float r,float b,float t,float n,float sS,float tS,float sT,float tT,float m[3][4])
+- void|||gxuGetOrtho(float l,float r,float b,float t,float n,float f,float m[3][4])
+- void|||gxuGetPerspective(float fov,float aspect,float n,float f,float m[3][4])
+- void|||gxuGetRotate(float deg,float x,float y,float z,float m[3][4])
+- void|||gxuGetTranslate(float x,float y,float z,float m[3][4])
+- void|||gxuGetScale(float x,float y,float z,float m[3][4])
+- void|||gxuGetIdentity(float m[3][4])
+- u32|||gxuGetInverse(float mat[3][4],float inv[3][4])
+- void|||gxuGetTranspose(float mat[3][4],float xPose[3][4])
+- void|||gxuMultMatrix(float current[3][4],float mat[3][4])
+- void|||gxuMultVec(float vec[3],float mat[3][4])
+- AXuint32|||gxuGetPPMFileSize(char *FileName,AXuint32 *width,AXuint32 *height)
+- AXuint32|||gxuGetImageFileSize(char *FileName,AXuint32 *width,AXuint32 *height)
+- AXuint32|||gxuReadBitmapFile(char *FileName,AXuint32 *width,AXuint32 *height,GXColor **bImage)
+- AXuint32|||gxuWriteBitmapFile(char *FileName,AXuint32 w,AXuint32 h,GXTexFormats format,void *bImage)
+- AXuint32|||gxuReadPPMFile(char *FileName,AXuint32 *width,AXuint32 *height,GXColor **bImage)
+- AXuint32|||gxuWritePPMFile(char *FileName,AXuint32 w,AXuint32 h,GXTexFormats format,void *bImage)
+- AXuint32|||gxuReadDDSFile(char *FileName,AXuint32 *width,AXuint32 *height,AXuint32 *numLod,void **bImage)
+- void|||gxuGenImage(GXUImageType iType,AXuint32 width,AXuint32 height,GXUColorType color,GXColor *bImage)
+- void|||gxuConvertImage(AXuint32 imageW,AXuint32 imageH,GXColor *rgbImage,GXTexFormats texFmt,GXBool generateLut,GXTlutFormats tlutFmt,void *lut,void *image)
+- void|||gxuGetIndexedImage(GXUImageType iType,GXUColorType color,AXuint32 imageW,AXuint32 imageH,GXColor *planarImage,GXTlutFormats tlutFmt,AXuint32 numEntries,void *lutPtr)
+- void|||gxuRandomImage(AXuint32 imageW,AXuint32 imageH,GXBool mipMapped,GXTexFormats texFmt,GXTlutFormats tlutFmt,void *lut,void *image)
+- AXuint32|||gxuGetNumLevels(AXuint32 width,AXuint32 height)
+- void|||gxuGetTiledImage(GXColor *planarImage,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,void *tiledImage)
+- void|||gxuGetBorderedTiledImage(GXColor *planarImage,GXColor border,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,void *tiledImage)
+- void|||gxuFormatImage(GXColor *planarImage,AXuint32 width,AXuint32 height,GXBool mipMapped,GXTexFormats tilefmt,GXTlutFormats tlutFmt,void *lut,void *tiledImage)
+- AXuint32|||gxuGetTiledSize(GXBool mipMapped,GXTexFormats tilefmt,AXuint32 width,AXuint32 height)
+- void|||gxuTexPreloadAlloc(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *EvenPtr,AXuint32 *OddPtr)
+- void|||gxuTexPreloadAllocL(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *ptr)
+- void|||gxuTexPreloadAllocH(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint32 width,AXuint32 height,AXuint32 *ptr)
+- void|||gxuTexAllocTlut(GXTlutFormats fmt,AXuint32 nEntries,AXuint32 *ptr)
+- void|||gxuTexAllocTlut2(GXTlutFormats fmt,AXuint32 nEntries,AXuint32 *ptr)
+- void|||gxuTexCachedAlloc(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *EvenPtr,AXuint32 *OddPtr)
+- void|||gxuTexCachedAllocL(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)
+- void|||gxuTexCachedAllocH(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)
+- void|||gxuTexCachedAlloc2(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *EvenPtr,AXuint32 *OddPtr)
+- void|||gxuTexCachedAllocL2(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)
+- void|||gxuTexCachedAllocH2(GXUMipMapType mipMapped,GXTexFormats fmt,AXuint8 cacheWidth,AXuint8 cacheHeight,AXuint32 *ptr)
+- void|||gxuTexCacheFree(AXuint32 EvenPtr,AXuint32 OddPtr)
+- void|||gxuTexMemFree(AXuint32 Ptr)
+- void|||gxuBumpInit(AXuint32 nStages)
+- void|||gxuInitRasterState(char *fileName)
+- void|||gxuInitEFB(u32 col,u32 z,u32 left,u32 top,u32 width,u32 height,GXPixelFormats fmt)
+- void|||gxuCopyOut(u32 left,u32 top,u32 width,u32 height)
+- void|||gxuBUDInit(int argc,char **argv,u32 left,u32 top,u32 width,u32 height)
+- void|||gxuBUDInitB(u32 revNo,int argc,char **argv,u32 left,u32 top,u32 width,u32 height)
+- void|||gxuBUDFinish(int argc,char **argv,u32 left,u32 top,u32 width,u32 height)
+- int|||width
+- int|||height
+- GXColor|||pixels
+- |||gxuCachedImage
+- gxuCachedImage|||gxuCachedImages[]
+{% endcapture %}
 
-</section>
+{% capture section_4_cards %}
+{% include source-code-card.html title="gxu.h" items=card_4_1_items functions="48" variables="5" lines="317" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
 
 ---
 ## Helper (ati/helper)
@@ -2054,56 +1750,48 @@ gxreg | .h | Include file for declaring low level graphics hardware debug functi
 gxtypes | .h | Include file for declaring useful graphical stuctures and functions such as **__GXTexRegionInt_struct**
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
+{% capture card_5_1_items %}
+- void|||gxRegWrite16(u32 addr,u16 data)
+- void|||gxRegWrite32(u32 addr,u32 data)
+- u16|||gxRegRead16(u32 addr,u32 cpIdleFlag)
+- u32|||gxRegRead32(u32 addr)
+- void|||simSync(void)
+- void|||GXWriteXFRegs(u32 addr,u8 Count,u32 *data)
+- void|||GXWriteXFRegDirect(u32 addr,u32 data)
+- void|||GXReadXFReg(u32 addr,u32 *data)
+- void|||GXWriteCPReg(u8 addr,u16 data)
+- void|||GXReadCPReg(u8 addr,u16 *data)
+- void|||GXWritePIReg(u8 addr,u32 data)
+- void|||GXReadPIReg(u8 addr,u32 *data)
+- void|||GXWritePEReg(u8 addr,u16 data)
+- void|||GXReadPEReg(u8 addr,u16 *data)
+- void|||GXSUBypassCmd(u8 cmd,u32 data)
+- void|||GXLoadCPReg(u8 reg,u32 data)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxreg.h" />
-  <h3>gxreg.h</h3>
-  <ul>
-    <li><span>void</span> gxRegWrite16<span>(u32 addr,u16 data)</span></li> 
-    <li><span>void</span> gxRegWrite32<span>(u32 addr,u32 data)</span></li> 
-    <li><span>u16</span> gxRegRead16<span>(u32 addr,u32 cpIdleFlag)</span></li> 
-    <li><span>u32</span> gxRegRead32<span>(u32 addr)</span></li> 
-    <li><span>void</span> simSync<span>(void)</span></li> 
-    <li><span>void</span> GXWriteXFRegs<span>(u32 addr,u8 Count,u32 *data)</span></li> 
-    <li><span>void</span> GXWriteXFRegDirect<span>(u32 addr,u32 data)</span></li> 
-    <li><span>void</span> GXReadXFReg<span>(u32 addr,u32 *data)</span></li> 
-    <li><span>void</span> GXWriteCPReg<span>(u8 addr,u16 data)</span></li> 
-    <li><span>void</span> GXReadCPReg<span>(u8 addr,u16 *data)</span></li> 
-    <li><span>void</span> GXWritePIReg<span>(u8 addr,u32 data)</span></li> 
-    <li><span>void</span> GXReadPIReg<span>(u8 addr,u32 *data)</span></li> 
-    <li><span>void</span> GXWritePEReg<span>(u8 addr,u16 data)</span></li> 
-    <li><span>void</span> GXReadPEReg<span>(u8 addr,u16 *data)</span></li> 
-    <li><span>void</span> GXSUBypassCmd<span>(u8 cmd,u32 data)</span></li> 
-    <li><span>void</span> GXLoadCPReg<span>(u8 reg,u32 data)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">16</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">174</div>  </div>
- </div>
+{% capture card_5_2_items %}
+- GXData|||gx
+- GXBool|||fifoInit
+- u32|||Color
+- f32|||a[3]
+- f32|||k[3]
+- f32|||lpos[3]
+- f32|||ldir[3]
+- |||GXLightObjInt
+- u32|||mode1
+- u32|||image0
+- u32|||image3
+- u32|||loadImage0
+- u32|||loadImage3
+- |||GXTexObjInt
+- void|||gxLoadSuTsRegs(void)
+- void|||gxXfVtxSpecs(u32 vatIdx)
+- void|||gxSetMatrixIndex(GXAttr matIdxAttr)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="gxtypes.h" />
-  <h3>gxtypes.h</h3>
-  <ul>
-    <li><span>GXData </span> gx</li> 
-    <li><span>GXBool</span> fifoInit</li> 
-    <li><span>u32</span> Color</li> 
-    <li><span>f32</span> a[3]</li> 
-    <li><span>f32</span> k[3]</li> 
-    <li><span>f32</span> lpos[3]</li> 
-    <li><span>f32</span> ldir[3]</li> 
-    <li><span></span> GXLightObjInt</li> 
-    <li><span>u32</span> mode1</li> 
-    <li><span>u32</span> image0</li> 
-    <li><span>u32</span> image3</li> 
-    <li><span>u32</span> loadImage0</li> 
-    <li><span>u32</span> loadImage3</li> 
-    <li><span></span> GXTexObjInt</li> 
-    <li><span>void</span> gxLoadSuTsRegs<span>(void)</span></li> 
-    <li><span>void</span> gxXfVtxSpecs<span>(u32 vatIdx)</span></li> 
-    <li><span>void</span> gxSetMatrixIndex<span>(GXAttr matIdxAttr)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">281</div>  </div>
- </div>
+{% capture section_5_cards %}
+{% include source-code-card.html title="gxreg.h" items=card_5_1_items functions="16" variables="0" lines="174" %}
+{% include source-code-card.html title="gxtypes.h" items=card_5_2_items functions="3" variables="14" lines="281" %}
+{% endcapture %}
 
-</section>
+{% include source-code-card-grid.html title="Code Files" content=section_5_cards %}

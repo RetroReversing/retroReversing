@@ -49,25 +49,21 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 rom_header_arm | .s | Assembly source file containing 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="Data.c" />
-  <h3>Data.c</h3><ul>
-    <li><span>u16 const[16][16]</span> textPaletteData</li> 
-    <li><span>u16 const[6144]</span> mychar</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">791</div>  </div>
-</div>
+{% capture card_1_1_items %}
+- u16 const[16][16]|||textPaletteData
+- u16 const[6144]|||mychar
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="dummy.c" />
-  <h3>dummy.c</h3><ul>
-    <li><span>void</span> DummyFlash<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">4</div>  </div>
-</div>
+{% capture card_1_2_items %}
+- void|||DummyFlash|||()
+{% endcapture %}
 
-</section>
+{% capture section_1_cards %}
+{% include source-code-card.html title="Data.c" items=card_1_1_items functions="0" variables="2" lines="791" %}
+{% include source-code-card.html title="dummy.c" items=card_1_2_items functions="1" variables="0" lines="4" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
 
 ---
 ## Mylib (/blib_sample/mylib)
@@ -85,191 +81,179 @@ obj | .h | Include file for declaring
 stdSub | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bg.h" />
-  <h3>bg.h</h3><ul>
-    <li><span>void</span> InitBg<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SetBgMode<span class="rr-func-args">(u16)</span></li> 
-    <li><span>u16</span> GetBgMode<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SetBgxBuffer<span class="rr-func-args">(u8,u16*,u32)</span></li> 
-    <li><span>void</span> SetBgxBuffRenewal<span class="rr-func-args">(u8,bool)</span></li> 
-    <li><span>buffer*</span> GetBgxBuffer<span class="rr-func-args">(u8)</span></li> 
-    <li><span>u16*</span> GetBgxBuffPointer<span class="rr-func-args">(u8)</span></li> 
-    <li><span>u32</span> GetBgxBuffSize<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> ClearBgxBuffer<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>void</span> DmaBgxBuffer<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> DmaAllBgxBuffer<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> TrmScreenDataToBgxBufferByFunc<span class="rr-func-args">(u8,void(*)(u16*,u32))</span></li> 
-    <li><span>void</span> TrmScreenDataToBgxBuffer<span class="rr-func-args">(u8,u16 const*,u32)</span></li> 
-    <li><span>void</span> ClearBgxScreenRect<span class="rr-func-args">(u8,u16,u8,u8)</span></li> 
-    <li><span>void</span> SetFlameBuff<span class="rr-func-args">(u8,u16*)</span></li> 
-    <li><span>u16*</span> GetFlameBuff<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetScreenSize<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetScreenSize<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxScreenBaseBlock<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxScreenBaseBlock<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxScreenBaseAdr<span class="rr-func-args">(u8,u32)</span></li> 
-    <li><span>u32</span> GetBgxScreenBaseAdr<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetMosaicEnable<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxMosaicEnable<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxMosaicEnable<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxColorMode<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxColorMode<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxCharBaseBlock<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxCharBaseBlock<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxCharBaseAdr<span class="rr-func-args">(u8,u32)</span></li> 
-    <li><span>u32</span> GetBgxCharBaseAdr<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxPriority<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxPriority<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxAreaOver<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxAreaOver<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> SetBgxPosX<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxPosX<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> RelativeScrollBgxPosX<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>void</span> SetBgxPosY<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>u16</span> GetBgxPosY<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> RelativeScrollBgxPosY<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>void</span> SetRbgxHVflip<span class="rr-func-args">(u8,bool,bool)</span></li> 
-    <li><span>void</span> CalcRbgxAffineValue<span class="rr-func-args">(u8,s16,s16,u8)</span></li> 
-    <li><span>void</span> CalcRbgxReferenceStartPos<span class="rr-func-args">(u8,pos_2d,pos_2d)</span></li> 
-    <li><span>void</span> RotateZoomRbgx<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> RevBgxAffineValue<span class="rr-func-args">(u8,u8)</span></li> 
-    <li><span>void</span> SetParagraph<span class="rr-func-args">(bool,u8,u16)</span></li> 
-    <li><span>u16</span> DrawAsciiCharOnBgx<span class="rr-func-args">(u8,u16,u16,u8 const*,u8)</span></li> 
-    <li><span>u16</span> DrawAsciiStringOnBgx<span class="rr-func-args">(u8,u16,u16,u8 const*)</span></li> 
-    <li><span>u16</span> DrawHexOnBgx<span class="rr-func-args">(u8,u16,u16,void const*,u8)</span></li> 
-    <li><span>u16</span> DrawHalfByteHexOnBgx<span class="rr-func-args">(u8,u16,u16,void const*,u8)</span></li> 
-    <li><span>u16</span> DrawUIntOnBgx<span class="rr-func-args">(u8,u16,u16,void const*,u8,u8)</span></li> 
-    <li><span>u16</span> DrawSIntOnBgx<span class="rr-func-args">(u8,u16,u16,void const*,u8,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">53</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">127</div>  </div>
-</div>
+{% capture card_2_1_items %}
+- void|||InitBg|||()
+- void|||SetBgMode|||(u16)
+- u16|||GetBgMode|||()
+- void|||SetBgxBuffer|||(u8,u16*,u32)
+- void|||SetBgxBuffRenewal|||(u8,bool)
+- buffer*|||GetBgxBuffer|||(u8)
+- u16*|||GetBgxBuffPointer|||(u8)
+- u32|||GetBgxBuffSize|||(u8)
+- void|||ClearBgxBuffer|||(u8,u16)
+- void|||DmaBgxBuffer|||(u8)
+- void|||DmaAllBgxBuffer|||()
+- void|||TrmScreenDataToBgxBufferByFunc|||(u8,void(*)(u16*,u32))
+- void|||TrmScreenDataToBgxBuffer|||(u8,u16 const*,u32)
+- void|||ClearBgxScreenRect|||(u8,u16,u8,u8)
+- void|||SetFlameBuff|||(u8,u16*)
+- u16*|||GetFlameBuff|||(u8)
+- void|||SetScreenSize|||(u8,u16)
+- u16|||GetScreenSize|||(u8)
+- void|||SetBgxScreenBaseBlock|||(u8,u16)
+- u16|||GetBgxScreenBaseBlock|||(u8)
+- void|||SetBgxScreenBaseAdr|||(u8,u32)
+- u32|||GetBgxScreenBaseAdr|||(u8)
+- void|||SetMosaicEnable|||(u8)
+- void|||SetBgxMosaicEnable|||(u8,u16)
+- u16|||GetBgxMosaicEnable|||(u8)
+- void|||SetBgxColorMode|||(u8,u16)
+- u16|||GetBgxColorMode|||(u8)
+- void|||SetBgxCharBaseBlock|||(u8,u16)
+- u16|||GetBgxCharBaseBlock|||(u8)
+- void|||SetBgxCharBaseAdr|||(u8,u32)
+- u32|||GetBgxCharBaseAdr|||(u8)
+- void|||SetBgxPriority|||(u8,u16)
+- u16|||GetBgxPriority|||(u8)
+- void|||SetBgxAreaOver|||(u8,u16)
+- u16|||GetBgxAreaOver|||(u8)
+- void|||SetBgxPosX|||(u8,u16)
+- u16|||GetBgxPosX|||(u8)
+- void|||RelativeScrollBgxPosX|||(u8,u16)
+- void|||SetBgxPosY|||(u8,u16)
+- u16|||GetBgxPosY|||(u8)
+- void|||RelativeScrollBgxPosY|||(u8,u16)
+- void|||SetRbgxHVflip|||(u8,bool,bool)
+- void|||CalcRbgxAffineValue|||(u8,s16,s16,u8)
+- void|||CalcRbgxReferenceStartPos|||(u8,pos_2d,pos_2d)
+- void|||RotateZoomRbgx|||(u8)
+- void|||RevBgxAffineValue|||(u8,u8)
+- void|||SetParagraph|||(bool,u8,u16)
+- u16|||DrawAsciiCharOnBgx|||(u8,u16,u16,u8 const*,u8)
+- u16|||DrawAsciiStringOnBgx|||(u8,u16,u16,u8 const*)
+- u16|||DrawHexOnBgx|||(u8,u16,u16,void const*,u8)
+- u16|||DrawHalfByteHexOnBgx|||(u8,u16,u16,void const*,u8)
+- u16|||DrawUIntOnBgx|||(u8,u16,u16,void const*,u8,u8)
+- u16|||DrawSIntOnBgx|||(u8,u16,u16,void const*,u8,u8)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="myTypes.h" />
-  <h3>myTypes.h</h3><ul>
-    <li><span>NULL</span> <span>0x00000000</span></li>
-    <li><span>BG_PLTT_WHITE</span> <span>( 8<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_ORANGE</span> <span>( 9<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_RED</span> <span>(10<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_BLUE</span> <span>(11<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_YELLOW</span> <span>(12<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_GREEN</span> <span>(13<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>BG_PLTT_PURPLE</span> <span>(14<<BG_SC_PLTT_SHIFT)</span></li>
-    <li><span>OBJ_PLTT_WHITE</span> <span>8</span></li>
-    <li><span>OBJ_PLTT_ORANGE</span> <span>9</span></li>
-    <li><span>OBJ_PLTT_RED</span> <span>10</span></li>
-    <li><span>OBJ_PLTT_BLUE</span> <span>11</span></li>
-    <li><span>OBJ_PLTT_YELLOW</span> <span>12</span></li>
-    <li><span>OBJ_PLTT_GREEN</span> <span>13</span></li>
-    <li><span>OBJ_PLTT_PURPLE</span> <span>14</span></li>
-    <li><span>false</span> <span>0</span></li>
-    <li><span>true</span> <span>1</span></li>
-    <li><span>AGING_STATE_INITIAL</span> <span>0</span></li>
-    <li><span>AGING_STATE_EXECUTE</span> <span>1</span></li>
-    <li><span>AGING_STATE_COMPLETE</span> <span>2</span></li>
-    <li><span>AGING_STATE_BREAK</span> <span>3</span></li>
-    <li><span>AGING_STATE_ERROR</span> <span>4</span></li>
-    <li><span>DEVICE_DACS</span> <span>0</span></li>
-    <li><span>DEVICE_EEPROM</span> <span>1</span></li>
-    <li><span>DEVICE_FLASH</span> <span>2</span></li>
-    <li><span>DEVICE_SRAM</span> <span>3</span></li>
-    <li><span>DEVICE_EMPTY</span> <span>7</span></li>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">100</div>  </div>
-</div>
+{% capture card_2_2_items %}
+- NULL|||0x00000000
+- BG_PLTT_WHITE|||( 8
+- BG_PLTT_ORANGE|||( 9
+- BG_PLTT_RED|||(10
+- BG_PLTT_BLUE|||(11
+- BG_PLTT_YELLOW|||(12
+- BG_PLTT_GREEN|||(13
+- BG_PLTT_PURPLE|||(14
+- OBJ_PLTT_WHITE|||8
+- OBJ_PLTT_ORANGE|||9
+- OBJ_PLTT_RED|||10
+- OBJ_PLTT_BLUE|||11
+- OBJ_PLTT_YELLOW|||12
+- OBJ_PLTT_GREEN|||13
+- OBJ_PLTT_PURPLE|||14
+- false|||0
+- true|||1
+- AGING_STATE_INITIAL|||0
+- AGING_STATE_EXECUTE|||1
+- AGING_STATE_COMPLETE|||2
+- AGING_STATE_BREAK|||3
+- AGING_STATE_ERROR|||4
+- DEVICE_DACS|||0
+- DEVICE_EEPROM|||1
+- DEVICE_FLASH|||2
+- DEVICE_SRAM|||3
+- DEVICE_EMPTY|||7
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="mylib.h" />
-  <h3>mylib.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">16</div>  </div>
-</div>
+{% capture card_2_3_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="obj.h" />
-  <h3>obj.h</h3><ul>
-    <li><span>OBJ_V_SIZE_64</span> <span>0xc000</span></li>
-    <li><span>OBJ_V_SIZE_32</span> <span>0x8000</span></li>
-    <li><span>OBJ_V_SIZE_16</span> <span>0x4000</span></li>
-    <li><span>OBJ_V_SIZE_8</span> <span>0x0000</span></li>
-    <li><span>OBJ_COLOR_256</span> <span>0x2000</span></li>
-    <li><span>OBJ_COLOR_16</span> <span>0x0000</span></li>
-    <li><span>OBJ_MOSAIC_ON</span> <span>0x1000</span></li>
-    <li><span>OBJ_MOSAIC_OFF</span> <span>0x0000</span></li>
-    <li><span>OBJ_MODE_WINDOW</span> <span>0x0800</span></li>
-    <li><span>OBJ_MODE_BLEND</span> <span>0x0400</span></li>
-    <li><span>OBJ_MODE_NORMAL</span> <span>0x0000</span></li>
-    <li><span>OBJ_AFFINE_X2</span> <span>0x0300</span></li>
-    <li><span>OBJ_AFFINE_X1</span> <span>0x0100</span></li>
-    <li><span>OBJ_AFFINE_OFF</span> <span>0x0000</span></li>
-    <li><span>OBJ_Y</span> <span>0x00ff</span></li>
-    <li><span>OBJ_H_SIZE_64</span> <span>0xc000</span></li>
-    <li><span>OBJ_H_SIZE_32</span> <span>0x8000</span></li>
-    <li><span>OBJ_H_SIZE_16</span> <span>0x4000</span></li>
-    <li><span>OBJ_H_SIZE_8</span> <span>0x0000</span></li>
-    <li><span>OBJ_HV_FLIP</span> <span>0x3000</span></li>
-    <li><span>OBJ_V_FLIP</span> <span>0x2000</span></li>
-    <li><span>OBJ_H_FLIP</span> <span>0x1000</span></li>
-    <li><span>OBJ_AFFINE_NO</span> <span>0x3e00</span></li>
-    <li><span>OBJ_X</span> <span>0x01ff</span></li>
-    <li><span>OBJ_PLTT_NO</span> <span>0xf000</span></li>
-    <li><span>OBJ_PRIORITY_1</span> <span>0x0000</span></li>
-    <li><span>OBJ_PRIORITY_2</span> <span>0x0400</span></li>
-    <li><span>OBJ_PRIORITY_3</span> <span>0x0800</span></li>
-    <li><span>OBJ_PRIORITY_4</span> <span>0x0c00</span></li>
-    <li><span>OBJ_CHAR_NO</span> <span>0x03ff</span></li>
-    <li><span>void</span> SetOamBuffer<span class="rr-func-args">(u16*,u32)</span></li> 
-    <li><span>void</span> DmaOamBuffer<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SetOamBufferRenewal<span class="rr-func-args">(bool)</span></li> 
-    <li><span>void</span> SetCursorStatus<span class="rr-func-args">(csrDefine const*,u8)</span></li> 
-    <li><span>void</span> SetCursorChar<span class="rr-func-args">(u16,u16)</span></li> 
-    <li><span>void</span> DeleteCursor<span class="rr-func-args">()</span></li> 
-    <li><span>u16</span> GetCurosrPosOnBg<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> CheckCursorPos<span class="rr-func-args">(u8*)</span></li> 
-    <li><span>void</span> CheckCursorPosRange<span class="rr-func-args">(u8*,u8,u8)</span></li> 
-    <li><span>void</span> MoveAndAnimeCursor<span class="rr-func-args">(u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">114</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="stdSub.h" />
-  <h3>stdSub.h</h3><ul>
-    <li><span>keyStatus</span> key</li> 
-    <li><span>void</span> WaitHblank<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> WaitPressKey<span class="rr-func-args">(u8,u16)</span></li> 
-    <li><span>void</span> SetKeyRapidEnable<span class="rr-func-args">(bool)</span></li> 
-    <li><span>void</span> AddRapidKey<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> SubRapidKey<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> SetKeyRapid<span class="rr-func-args">(u16,u8,u8,u8)</span></li> 
-    <li><span>void</span> ReadKeyPlus<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ReadKey<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ChangeTask<span class="rr-func-args">(u8,void(*)(u8),void(*)())</span></li> 
-    <li><span>void</span> ExecuteTask<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> CalcAffineValue<span class="rr-func-args">(s16,s16,u8,affine*)</span></li> 
-    <li><span>u8</span> ClearWram<span class="rr-func-args">(u32,u32,u16)</span></li> 
-    <li><span>u8</span> ClearVram<span class="rr-func-args">(u32,u32,u16)</span></li> 
-    <li><span>u8</span> ClearOam<span class="rr-func-args">(u32,u32,u32)</span></li> 
-    <li><span>u8</span> ClearPalette<span class="rr-func-args">(selObjBg,u16)</span></li> 
-    <li><span>u8</span> TrmCharData<span class="rr-func-args">(selObjBg,u16 const*,u32,u8)</span></li> 
-    <li><span>u8</span> TrmPaletteData<span class="rr-func-args">(selObjBg,u16 const*,u16,u16)</span></li> 
-    <li><span>void</span> SetInputHexData<span class="rr-func-args">(inputHexDef const*)</span></li> 
-    <li><span>u8</span> InputHexData<span class="rr-func-args">(u16*)</span></li> 
-    <li><span>u8</span> SelectStrings<span class="rr-func-args">(u16*)</span></li> 
-    <li><span>void</span> DrawNowSelectString<span class="rr-func-args">(u8,selStrDef const*)</span></li> 
-    <li><span>u8</span> ToggleSwitch<span class="rr-func-args">(u16*)</span></li> 
-    <li><span>void</span> DrawNowToggleSwitchChar<span class="rr-func-args">(u8,toggleSwDef const*)</span></li> 
-    <li><span>void</span> DrawNowToggleSwitchString<span class="rr-func-args">(u8,toggleSwDef const*)</span></li> 
-    <li><span>u8</span> ClearNowAllSetting<span class="rr-func-args">(u16*)</span></li> 
-    <li><span>void</span> InitSetFunc<span class="rr-func-args">(u8,setFuncTable const*)</span></li> 
-    <li><span>void</span> DrawNowAllSetting<span class="rr-func-args">(u16,setFuncTable const*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">27</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">131</div>  </div>
-</div>
+{% capture card_2_4_items %}
+- OBJ_V_SIZE_64|||0xc000
+- OBJ_V_SIZE_32|||0x8000
+- OBJ_V_SIZE_16|||0x4000
+- OBJ_V_SIZE_8|||0x0000
+- OBJ_COLOR_256|||0x2000
+- OBJ_COLOR_16|||0x0000
+- OBJ_MOSAIC_ON|||0x1000
+- OBJ_MOSAIC_OFF|||0x0000
+- OBJ_MODE_WINDOW|||0x0800
+- OBJ_MODE_BLEND|||0x0400
+- OBJ_MODE_NORMAL|||0x0000
+- OBJ_AFFINE_X2|||0x0300
+- OBJ_AFFINE_X1|||0x0100
+- OBJ_AFFINE_OFF|||0x0000
+- OBJ_Y|||0x00ff
+- OBJ_H_SIZE_64|||0xc000
+- OBJ_H_SIZE_32|||0x8000
+- OBJ_H_SIZE_16|||0x4000
+- OBJ_H_SIZE_8|||0x0000
+- OBJ_HV_FLIP|||0x3000
+- OBJ_V_FLIP|||0x2000
+- OBJ_H_FLIP|||0x1000
+- OBJ_AFFINE_NO|||0x3e00
+- OBJ_X|||0x01ff
+- OBJ_PLTT_NO|||0xf000
+- OBJ_PRIORITY_1|||0x0000
+- OBJ_PRIORITY_2|||0x0400
+- OBJ_PRIORITY_3|||0x0800
+- OBJ_PRIORITY_4|||0x0c00
+- OBJ_CHAR_NO|||0x03ff
+- void|||SetOamBuffer|||(u16*,u32)
+- void|||DmaOamBuffer|||()
+- void|||SetOamBufferRenewal|||(bool)
+- void|||SetCursorStatus|||(csrDefine const*,u8)
+- void|||SetCursorChar|||(u16,u16)
+- void|||DeleteCursor|||()
+- u16|||GetCurosrPosOnBg|||(u8)
+- void|||CheckCursorPos|||(u8*)
+- void|||CheckCursorPosRange|||(u8*,u8,u8)
+- void|||MoveAndAnimeCursor|||(u8)
+{% endcapture %}
 
-</section>
+{% capture card_2_5_items %}
+- keyStatus|||key
+- void|||WaitHblank|||()
+- void|||WaitPressKey|||(u8,u16)
+- void|||SetKeyRapidEnable|||(bool)
+- void|||AddRapidKey|||(u16)
+- void|||SubRapidKey|||(u16)
+- void|||SetKeyRapid|||(u16,u8,u8,u8)
+- void|||ReadKeyPlus|||()
+- void|||ReadKey|||()
+- void|||ChangeTask|||(u8,void(*)(u8),void(*)())
+- void|||ExecuteTask|||()
+- void|||CalcAffineValue|||(s16,s16,u8,affine*)
+- u8|||ClearWram|||(u32,u32,u16)
+- u8|||ClearVram|||(u32,u32,u16)
+- u8|||ClearOam|||(u32,u32,u32)
+- u8|||ClearPalette|||(selObjBg,u16)
+- u8|||TrmCharData|||(selObjBg,u16 const*,u32,u8)
+- u8|||TrmPaletteData|||(selObjBg,u16 const*,u16,u16)
+- void|||SetInputHexData|||(inputHexDef const*)
+- u8|||InputHexData|||(u16*)
+- u8|||SelectStrings|||(u16*)
+- void|||DrawNowSelectString|||(u8,selStrDef const*)
+- u8|||ToggleSwitch|||(u16*)
+- void|||DrawNowToggleSwitchChar|||(u8,toggleSwDef const*)
+- void|||DrawNowToggleSwitchString|||(u8,toggleSwDef const*)
+- u8|||ClearNowAllSetting|||(u16*)
+- void|||InitSetFunc|||(u8,setFuncTable const*)
+- void|||DrawNowAllSetting|||(u16,setFuncTable const*)
+{% endcapture %}
+
+{% capture section_2_cards %}
+{% include source-code-card.html title="bg.h" items=card_2_1_items functions="53" variables="0" lines="127" %}
+{% include source-code-card.html title="myTypes.h" items=card_2_2_items functions="0" variables="0" lines="100" %}
+{% include source-code-card.html title="mylib.h" items=card_2_3_items functions="0" variables="0" lines="16" %}
+{% include source-code-card.html title="obj.h" items=card_2_4_items functions="10" variables="0" lines="114" %}
+{% include source-code-card.html title="stdSub.h" items=card_2_5_items functions="27" variables="1" lines="131" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
 
 ---
 ## Sound (/blib_sample/sound)
@@ -290,78 +274,77 @@ synbsc2 | .o |
 wario | .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="m4aLib.h" />
-  <h3>m4aLib.h</h3><ul>
-    <li><span>_M4A_LIB_VER</span> <span>105</span></li>
-    <li><span>CGB1_P12</span> <span>((WaveData *)0)</span></li>
-    <li><span>CGB1_P25</span> <span>((WaveData *)1)</span></li>
-    <li><span>CGB1_P50</span> <span>((WaveData *)2)</span></li>
-    <li><span>CGB1_P75</span> <span>((WaveData *)3)</span></li>
-    <li><span>CGB2_P12</span> <span>CGB1_P12</span></li>
-    <li><span>CGB2_P25</span> <span>CGB1_P25</span></li>
-    <li><span>CGB2_P50</span> <span>CGB1_P50</span></li>
-    <li><span>CGB2_P75</span> <span>CGB1_P75</span></li>
-    <li><span>CGB4_C15</span> <span>((WaveData *)0)</span></li>
-    <li><span>CGB4_C07</span> <span>((WaveData *)1)</span></li>
-    <li><span>u8 const[]</span> __sound_mode_i</li> 
-    <li><span>sound_mode_i</span> <span>((u32)__sound_mode_i)</span></li>
-    <li><span>u8 const[]</span> __total_mplay_n</li> 
-    <li><span>total_mplay_n</span> <span>((u16)__total_mplay_n)</span></li>
-    <li><span>u8 const[]</span> __total_song_n</li> 
-    <li><span>total_song_n</span> <span>((u16)__total_song_n)</span></li>
-    <li><span>SoundArea</span> m4a_sound</li> 
-    <li><span>MPlayTable const[]</span> mplay_table</li> 
-    <li><span>SongTable const[]</span> song_table</li> 
-    <li><span>u8[]</span> m4a_memacc_area</li> 
-    <li><span>void</span> m4aSoundInit<span class="rr-func-args">()</span></li> 
-    <li><span>m4aSoundMode()</span> <span>SoundMode_rev01(P1)</span></li>
-    <li><span>void</span> SoundMode_rev01<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> m4aSoundMain<span class="rr-func-args">()</span></li> 
-    <li><span>m4aSoundVSync()</span> <span>SoundVSync_rev01()</span></li>
-    <li><span>void</span> SoundVSync_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>m4aSoundVSyncOff()</span> <span>SoundVSyncOff_rev01()</span></li>
-    <li><span>void</span> SoundVSyncOff_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>m4aSoundVSyncOn()</span> <span>SoundVSyncOn_rev01()</span></li>
-    <li><span>void</span> SoundVSyncOn_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>m4aMPlayStart()</span> <span>MPlayStart_rev01(P1,P2)</span></li>
-    <li><span>void</span> MPlayStart_rev01<span class="rr-func-args">(MusicPlayerArea*,SongHeader*)</span></li> 
-    <li><span>void</span> m4aSongNumStart<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aSongNumStartOrChange<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aSongNumStartOrContinue<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayImmInit<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>m4aMPlayStop()</span> <span>MPlayStop_rev01(P1)</span></li>
-    <li><span>void</span> MPlayStop_rev01<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>void</span> m4aSongNumStop<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayAllStop<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> m4aMPlayContinue<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>void</span> m4aSongNumContinue<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayAllContinue<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> m4aMPlayFadeOut<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
-    <li><span>m4aMPlayTempoControl()</span> <span>MPlayTempoControl(P1,P2)</span></li>
-    <li><span>void</span> MPlayTempoControl<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
-    <li><span>m4aMPlayVolumeControl()</span> <span>MPlayVolumeControl(P1,P2,P3)</span></li>
-    <li><span>void</span> MPlayVolumeControl<span class="rr-func-args">(MusicPlayerArea*,u16,u16)</span></li> 
-    <li><span>m4aMPlayPitchControl()</span> <span>MPlayPitchControl(P1,P2,P3)</span></li>
-    <li><span>void</span> MPlayPitchControl<span class="rr-func-args">(MusicPlayerArea*,u16,s16)</span></li> 
-    <li><span>m4aMPlayPampotControl()</span> <span>MPlayPanpotControl(P1,P2,P3)</span></li>
-    <li><span>m4aMPlayPanpotControl()</span> <span>MPlayPanpotControl(P1,P2,P3)</span></li>
-    <li><span>void</span> MPlayPanpotControl<span class="rr-func-args">(MusicPlayerArea*,u16,s8)</span></li> 
-    <li><span>m4aMPlayModDepthSet()</span> <span>MPlayModDepthSet(P1,P2,P3)</span></li>
-    <li><span>void</span> MPlayModDepthSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
-    <li><span>m4aMPlayLFOSpeedSet()</span> <span>MPlayLFOSpeedSet(P1,P2,P3)</span></li>
-    <li><span>void</span> MPlayLFOSpeedSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
-    <li><span>MusicPlayerArea</span> m4a_mplay000</li> 
-    <li><span>MusicPlayerArea</span> m4a_mplay001</li> 
-    <li><span>MusicPlayerArea</span> m4a_mplay002</li> 
-    <li><span>MusicPlayerArea</span> m4a_mplay003</li> 
-    <li><span>SongHeader</span> wario</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">24</div>    <div class="rr-file-stat rr-file-stats-variables">12</div>    <div class="rr-file-stat rr-file-stats-lines">134</div>  </div>
-</div>
+{% capture card_3_1_items %}
+- _M4A_LIB_VER|||105
+- CGB1_P12|||((WaveData *)0)
+- CGB1_P25|||((WaveData *)1)
+- CGB1_P50|||((WaveData *)2)
+- CGB1_P75|||((WaveData *)3)
+- CGB2_P12|||CGB1_P12
+- CGB2_P25|||CGB1_P25
+- CGB2_P50|||CGB1_P50
+- CGB2_P75|||CGB1_P75
+- CGB4_C15|||((WaveData *)0)
+- CGB4_C07|||((WaveData *)1)
+- u8 const[]|||__sound_mode_i
+- sound_mode_i|||((u32)__sound_mode_i)
+- u8 const[]|||__total_mplay_n
+- total_mplay_n|||((u16)__total_mplay_n)
+- u8 const[]|||__total_song_n
+- total_song_n|||((u16)__total_song_n)
+- SoundArea|||m4a_sound
+- MPlayTable const[]|||mplay_table
+- SongTable const[]|||song_table
+- u8[]|||m4a_memacc_area
+- void|||m4aSoundInit|||()
+- m4aSoundMode()|||SoundMode_rev01(P1)
+- void|||SoundMode_rev01|||(u32)
+- void|||m4aSoundMain|||()
+- m4aSoundVSync()|||SoundVSync_rev01()
+- void|||SoundVSync_rev01|||()
+- m4aSoundVSyncOff()|||SoundVSyncOff_rev01()
+- void|||SoundVSyncOff_rev01|||()
+- m4aSoundVSyncOn()|||SoundVSyncOn_rev01()
+- void|||SoundVSyncOn_rev01|||()
+- m4aMPlayStart()|||MPlayStart_rev01(P1,P2)
+- void|||MPlayStart_rev01|||(MusicPlayerArea*,SongHeader*)
+- void|||m4aSongNumStart|||(u16)
+- void|||m4aSongNumStartOrChange|||(u16)
+- void|||m4aSongNumStartOrContinue|||(u16)
+- void|||m4aMPlayImmInit|||(MusicPlayerArea*)
+- m4aMPlayStop()|||MPlayStop_rev01(P1)
+- void|||MPlayStop_rev01|||(MusicPlayerArea*)
+- void|||m4aSongNumStop|||(u16)
+- void|||m4aMPlayAllStop|||()
+- void|||m4aMPlayContinue|||(MusicPlayerArea*)
+- void|||m4aSongNumContinue|||(u16)
+- void|||m4aMPlayAllContinue|||()
+- void|||m4aMPlayFadeOut|||(MusicPlayerArea*,u16)
+- m4aMPlayTempoControl()|||MPlayTempoControl(P1,P2)
+- void|||MPlayTempoControl|||(MusicPlayerArea*,u16)
+- m4aMPlayVolumeControl()|||MPlayVolumeControl(P1,P2,P3)
+- void|||MPlayVolumeControl|||(MusicPlayerArea*,u16,u16)
+- m4aMPlayPitchControl()|||MPlayPitchControl(P1,P2,P3)
+- void|||MPlayPitchControl|||(MusicPlayerArea*,u16,s16)
+- m4aMPlayPampotControl()|||MPlayPanpotControl(P1,P2,P3)
+- m4aMPlayPanpotControl()|||MPlayPanpotControl(P1,P2,P3)
+- void|||MPlayPanpotControl|||(MusicPlayerArea*,u16,s8)
+- m4aMPlayModDepthSet()|||MPlayModDepthSet(P1,P2,P3)
+- void|||MPlayModDepthSet|||(MusicPlayerArea*,u16,u8)
+- m4aMPlayLFOSpeedSet()|||MPlayLFOSpeedSet(P1,P2,P3)
+- void|||MPlayLFOSpeedSet|||(MusicPlayerArea*,u16,u8)
+- MusicPlayerArea|||m4a_mplay000
+- MusicPlayerArea|||m4a_mplay001
+- MusicPlayerArea|||m4a_mplay002
+- MusicPlayerArea|||m4a_mplay003
+- SongHeader|||wario
+{% endcapture %}
 
-</section>
+{% capture section_3_cards %}
+{% include source-code-card.html title="m4aLib.h" items=card_3_1_items functions="24" variables="12" lines="134" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
 
 ---
 # Font_sample (/font_sample)
@@ -385,36 +368,32 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 rom_header_arm | .s | Assembly source file containing 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">57</div>  </div>
-</div>
+{% capture card_4_1_items %}
+- u16 const[640]|||BgScData_Sample
+- u16 const[16][16]|||PlttData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[512]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> FontSpread<span class="rr-func-args">(u32,u32)</span></li> 
-    <li><span>void</span> FontDisplay<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">6</div>    <div class="rr-file-stat rr-file-stats-lines">188</div>  </div>
-</div>
+{% capture card_4_2_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[512]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- IntrFuncp const[13]|||IntrTable
+- void|||AgbMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||FontSpread|||(u32,u32)
+- void|||FontDisplay|||()
+{% endcapture %}
 
-</section>
+{% capture section_4_cards %}
+{% include source-code-card.html title="data.c" items=card_4_1_items functions="0" variables="2" lines="57" %}
+{% include source-code-card.html title="main.c" items=card_4_2_items functions="6" variables="6" lines="188" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
 
 ---
 ## Lcfont (/font_sample/lcfont)
@@ -465,82 +444,72 @@ rom_header_arm | .s | Assembly source file containing
 share | .c, .h, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">56</div>  </div>
-</div>
+{% capture card_5_1_items %}
+- void|||AgbMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="menu.c" />
-  <h3>menu.c</h3><ul>
-    <li><span>int</span> menu_cursor_pos</li> 
-    <li><span>int</span> menu_prev_cursor_pos</li> 
-    <li><span>int</span> menu_old_cursor_pos</li> 
-    <li><span>int</span> menu_page</li> 
-    <li><span>int</span> menu_prev_page</li> 
-    <li><span>void</span> MenuInit<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> Menu<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> menu_v_sync_fnc<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_exit<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_init_param<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_to_prev_page<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_to_next_page<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_to_prev_item<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_to_next_item<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_control<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> menu_strlen<span class="rr-func-args">(char const*)</span></li> 
-    <li><span>void</span> menu_print_expl<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> menu_print_title<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> menu_print<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">14</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">351</div>  </div>
-</div>
+{% capture card_5_2_items %}
+- int|||menu_cursor_pos
+- int|||menu_prev_cursor_pos
+- int|||menu_old_cursor_pos
+- int|||menu_page
+- int|||menu_prev_page
+- void|||MenuInit|||()
+- int|||Menu|||()
+- void|||menu_v_sync_fnc|||()
+- int|||menu_exit|||()
+- int|||menu_init_param|||()
+- int|||menu_to_prev_page|||()
+- int|||menu_to_next_page|||()
+- int|||menu_to_prev_item|||()
+- int|||menu_to_next_item|||()
+- int|||menu_control|||()
+- int|||menu_strlen|||(char const*)
+- void|||menu_print_expl|||()
+- void|||menu_print_title|||()
+- void|||menu_print|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="menuitem.c" />
-  <h3>menuitem.c</h3><ul>
-    <li><span>MenuItem const[]</span> mitem</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">81</div>  </div>
-</div>
+{% capture card_5_3_items %}
+- MenuItem const[]|||mitem
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="share.c" />
-  <h3>share.c</h3><ul>
-    <li><span>s16 const[320]</span> sin_cos_table</li> 
-    <li><span>void</span> ClearRamAll<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ClearWorkRam<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ClearGraphicRam<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ClearVram<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ClearOamRam<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ClearPaletteRam<span class="rr-func-args">()</span></li> 
-    <li><span>s16</span> fix_mul<span class="rr-func-args">(s16,s16)</span></li> 
-    <li><span>s16</span> fix_div<span class="rr-func-args">(s16,s16)</span></li> 
-    <li><span>s16</span> fix_inverse<span class="rr-func-args">(s16)</span></li> 
-    <li><span>vu16</span> IntrCheck</li> 
-    <li><span>IntrFuncp</span> v_blank_fnc</li> 
-    <li><span>u32[512]</span> IntrMainBuf</li> 
-    <li><span>IntrFuncp const[14]</span> IntrTable</li> 
-    <li><span>void</span> InitVBlank<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SetVBlankFunc<span class="rr-func-args">(IntrFuncp)</span></li> 
-    <li><span>void</span> VBlankFunc<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> dummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> V_Intr_Clear<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> V_Intr_Set<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> V_Wait<span class="rr-func-args">()</span></li> 
-    <li><span>vu16</span> Cont</li> 
-    <li><span>vu16</span> Trg</li> 
-    <li><span>void</span> KeyInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">18</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">278</div>  </div>
-</div>
+{% capture card_5_4_items %}
+- s16 const[320]|||sin_cos_table
+- void|||ClearRamAll|||()
+- void|||ClearWorkRam|||()
+- void|||ClearGraphicRam|||()
+- void|||ClearVram|||()
+- void|||ClearOamRam|||()
+- void|||ClearPaletteRam|||()
+- s16|||fix_mul|||(s16,s16)
+- s16|||fix_div|||(s16,s16)
+- s16|||fix_inverse|||(s16)
+- vu16|||IntrCheck
+- IntrFuncp|||v_blank_fnc
+- u32[512]|||IntrMainBuf
+- IntrFuncp const[14]|||IntrTable
+- void|||InitVBlank|||()
+- void|||SetVBlankFunc|||(IntrFuncp)
+- void|||VBlankFunc|||()
+- void|||dummy|||()
+- void|||V_Intr_Clear|||()
+- void|||V_Intr_Set|||()
+- void|||V_Wait|||()
+- vu16|||Cont
+- vu16|||Trg
+- void|||KeyInit|||()
+- void|||KeyRead|||()
+{% endcapture %}
 
-</section>
+{% capture section_5_cards %}
+{% include source-code-card.html title="main.c" items=card_5_1_items functions="1" variables="0" lines="56" %}
+{% include source-code-card.html title="menu.c" items=card_5_2_items functions="14" variables="5" lines="351" %}
+{% include source-code-card.html title="menuitem.c" items=card_5_3_items functions="0" variables="1" lines="81" %}
+{% include source-code-card.html title="share.c" items=card_5_4_items functions="18" variables="7" lines="278" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_5_cards %}
 
 ---
 ## Alphasm (/functional_sample/alphasm)
@@ -559,46 +528,39 @@ ap_bg1 | .bmp, .c, .o |
 ap_bg2 | .bmp, .c, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="alexpl.c" />
-  <h3>alexpl.c</h3><ul>
-    <li><span>char const*</span> ap_title_str</li> 
-    <li><span>char const*</span> ap_expl_str0</li> 
-    <li><span>char const**[]</span> ap_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">30</div>  </div>
-</div>
+{% capture card_6_1_items %}
+- char const*|||ap_title_str
+- char const*|||ap_expl_str0
+- char const**[]|||ap_expl_str_array
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="alpha.c" />
-  <h3>alpha.c</h3><ul>
-    <li><span>char*[4]</span> ap_eff_tbl</li> 
-    <li><span>u16[1024]</span> ap_BgBak</li> 
-    <li><span>OamData[128]</span> ap_OamBak</li> 
-    <li><span>s16</span> ap_eff_type</li> 
-    <li><span>s16</span> ap_obj_alpha</li> 
-    <li><span>s16</span> ap_eva</li> 
-    <li><span>s16</span> ap_evb</li> 
-    <li><span>void</span> apMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ap_v_blank_intr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ap_ObjMove<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ap_moji_pr<span class="rr-func-args">(s16,s16,char*)</span></li> 
-    <li><span>void</span> ap_suji_pr<span class="rr-func-args">(s16,s16,s32,s16)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">265</div>  </div>
-</div>
+{% capture card_6_2_items %}
+- char*[4]|||ap_eff_tbl
+- u16[1024]|||ap_BgBak
+- OamData[128]|||ap_OamBak
+- s16|||ap_eff_type
+- s16|||ap_obj_alpha
+- s16|||ap_eva
+- s16|||ap_evb
+- void|||apMain|||()
+- void|||ap_v_blank_intr|||()
+- void|||ap_ObjMove|||()
+- void|||ap_moji_pr|||(s16,s16,char*)
+- void|||ap_suji_pr|||(s16,s16,s32,s16)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="alpha_data.c" />
-  <h3>alpha_data.c</h3><ul>
-    <li><span>u32 const[1][2]</span> ap_OamData_Sample</li> 
-    <li><span>u32[296]</span> ap_moji_Character</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">87</div>  </div>
-</div>
+{% capture card_6_3_items %}
+- u32 const[1][2]|||ap_OamData_Sample
+- u32[296]|||ap_moji_Character
+{% endcapture %}
 
-</section>
+{% capture section_6_cards %}
+{% include source-code-card.html title="alexpl.c" items=card_6_1_items functions="0" variables="3" lines="30" %}
+{% include source-code-card.html title="alpha.c" items=card_6_2_items functions="5" variables="7" lines="265" %}
+{% include source-code-card.html title="alpha_data.c" items=card_6_3_items functions="0" variables="2" lines="87" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_6_cards %}
 
 ---
 ## Background RSM (/functional_sample/bg_rsm)
@@ -616,58 +578,51 @@ bgmain | .c, .o |
 cl0 | .bmp, .c, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bg_map_map.c" />
-  <h3>bg_map_map.c</h3><ul>
-    <li><span>u16 const[1024]</span> map_data_front</li> 
-    <li><span>u16 const[1024]</span> map_data_back</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">74</div>  </div>
-</div>
+{% capture card_7_1_items %}
+- u16 const[1024]|||map_data_front
+- u16 const[1024]|||map_data_back
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bgexpl.c" />
-  <h3>bgexpl.c</h3><ul>
-    <li><span>char const*</span> bg_title_str</li> 
-    <li><span>char const*</span> bg_expl_str0</li> 
-    <li><span>char const**[]</span> bg_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">34</div>  </div>
-</div>
+{% capture card_7_2_items %}
+- char const*|||bg_title_str
+- char const*|||bg_expl_str0
+- char const**[]|||bg_expl_str_array
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bgmain.c" />
-  <h3>bgmain.c</h3><ul>
-    <li><span>vu32[4][2]</span> bg_oam_buffer</li> 
-    <li><span>vu16</span> bg_ball_anim_count</li> 
-    <li><span>vu16</span> bg_ball_anim_count_change_mode</li> 
-    <li><span>s16</span> bg_pos_x</li> 
-    <li><span>s16</span> bg_pos_y</li> 
-    <li><span>vu16</span> bg_screen_back_x</li> 
-    <li><span>u16</span> bg_mosaic</li> 
-    <li><span>u16</span> bg_scale_x</li> 
-    <li><span>u16</span> bg_scale_y</li> 
-    <li><span>u16</span> bg_rotate</li> 
-    <li><span>s16</span> bg_pa</li> 
-    <li><span>s16</span> bg_pb</li> 
-    <li><span>s16</span> bg_pc</li> 
-    <li><span>s16</span> bg_pd</li> 
-    <li><span>s32</span> bg_start_x</li> 
-    <li><span>s32</span> bg_start_y</li> 
-    <li><span>void</span> bgMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_v_blank_intr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_init_param<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_init_oam<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> bg_key_control<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_create_data<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_increment_anim_count<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bg_exit_clear_register<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">385</div>  </div>
-</div>
+{% capture card_7_3_items %}
+- vu32[4][2]|||bg_oam_buffer
+- vu16|||bg_ball_anim_count
+- vu16|||bg_ball_anim_count_change_mode
+- s16|||bg_pos_x
+- s16|||bg_pos_y
+- vu16|||bg_screen_back_x
+- u16|||bg_mosaic
+- u16|||bg_scale_x
+- u16|||bg_scale_y
+- u16|||bg_rotate
+- s16|||bg_pa
+- s16|||bg_pb
+- s16|||bg_pc
+- s16|||bg_pd
+- s32|||bg_start_x
+- s32|||bg_start_y
+- void|||bgMain|||()
+- void|||bg_v_blank_intr|||()
+- void|||bg_init_param|||()
+- void|||bg_init_oam|||()
+- int|||bg_key_control|||()
+- void|||bg_create_data|||()
+- void|||bg_increment_anim_count|||()
+- void|||bg_exit_clear_register|||()
+{% endcapture %}
 
-</section>
+{% capture section_7_cards %}
+{% include source-code-card.html title="bg_map_map.c" items=card_7_1_items functions="0" variables="2" lines="74" %}
+{% include source-code-card.html title="bgexpl.c" items=card_7_2_items functions="0" variables="3" lines="34" %}
+{% include source-code-card.html title="bgmain.c" items=card_7_3_items functions="8" variables="16" lines="385" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_7_cards %}
 
 ---
 ## BMP mode (/functional_sample/bmpmode)
@@ -684,45 +639,41 @@ img24bit2 | .bmp, .c, .o |
 umiB | .bmp, .c, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bitmap.c" />
-  <h3>bitmap.c</h3><ul>
-    <li><span>u8</span> bm_Bgmode</li> 
-    <li><span>u32</span> Zoom</li> 
-    <li><span>s32</span> start_x</li> 
-    <li><span>s32</span> start_y</li> 
-    <li><span>u16</span> bg2pa</li> 
-    <li><span>u16</span> bg2pb</li> 
-    <li><span>u16</span> bg2pc</li> 
-    <li><span>u16</span> bg2pd</li> 
-    <li><span>vs32</span> bg2_center_x</li> 
-    <li><span>vs32</span> bg2_center_y</li> 
-    <li><span>vu16</span> rotate_value</li> 
-    <li><span>void</span> bm_Main<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bm_v_blank_inter<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bm_init<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> bm_key<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bm_mode_change<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> bm_rotate<span class="rr-func-args">(s32)</span></li> 
-    <li><span>void</span> bm_Bgmode3_Test<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bm_Bgmode4_Test<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> bm_Bgmode5_Test<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">202</div>  </div>
-</div>
+{% capture card_8_1_items %}
+- u8|||bm_Bgmode
+- u32|||Zoom
+- s32|||start_x
+- s32|||start_y
+- u16|||bg2pa
+- u16|||bg2pb
+- u16|||bg2pc
+- u16|||bg2pd
+- vs32|||bg2_center_x
+- vs32|||bg2_center_y
+- vu16|||rotate_value
+- void|||bm_Main|||()
+- void|||bm_v_blank_inter|||()
+- void|||bm_init|||()
+- int|||bm_key|||()
+- void|||bm_mode_change|||(u8)
+- void|||bm_rotate|||(s32)
+- void|||bm_Bgmode3_Test|||()
+- void|||bm_Bgmode4_Test|||()
+- void|||bm_Bgmode5_Test|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bmexpl.c" />
-  <h3>bmexpl.c</h3><ul>
-    <li><span>char const*</span> bm_title_str</li> 
-    <li><span>char const*</span> bm_expl_str0</li> 
-    <li><span>char const**[]</span> bm_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
-</div>
+{% capture card_8_2_items %}
+- char const*|||bm_title_str
+- char const*|||bm_expl_str0
+- char const**[]|||bm_expl_str_array
+{% endcapture %}
 
-</section>
+{% capture section_8_cards %}
+{% include source-code-card.html title="bitmap.c" items=card_8_1_items functions="9" variables="11" lines="202" %}
+{% include source-code-card.html title="bmexpl.c" items=card_8_2_items functions="0" variables="3" lines="35" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_8_cards %}
 
 ---
 ## Coleffsm (/functional_sample/coleffsm)
@@ -743,64 +694,54 @@ ceexpl | .c, .o |
 col | .ACT | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="c_effect.c" />
-  <h3>c_effect.c</h3><ul>
-    <li><span>OamData[128]</span> ce_OamBak</li> 
-    <li><span>s16</span> ce_EVY_rate</li> 
-    <li><span>s16</span> ce_eff_type</li> 
-    <li><span>s16</span> ce_EVA_rate</li> 
-    <li><span>s16</span> ce_EVB_rate</li> 
-    <li><span>u16[1024]</span> ce_BgBak</li> 
-    <li><span>s16</span> ce_obj_mode</li> 
-    <li><span>void</span> ceMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ce_v_blank_intr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ce_ObjMove<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ce_suji_pr<span class="rr-func-args">(s16,s16,s32,s16)</span></li> 
-    <li><span>void</span> ce_moji_pr<span class="rr-func-args">(s16,s16,char*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">289</div>  </div>
-</div>
+{% capture card_9_1_items %}
+- OamData[128]|||ce_OamBak
+- s16|||ce_EVY_rate
+- s16|||ce_eff_type
+- s16|||ce_EVA_rate
+- s16|||ce_EVB_rate
+- u16[1024]|||ce_BgBak
+- s16|||ce_obj_mode
+- void|||ceMain|||()
+- void|||ce_v_blank_intr|||()
+- void|||ce_ObjMove|||()
+- void|||ce_suji_pr|||(s16,s16,s32,s16)
+- void|||ce_moji_pr|||(s16,s16,char*)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="ce_dat.h" />
-  <h3>ce_dat.h</h3><ul>
-    <li><span>int const[1][2]</span> ce_OamData_Sample</li> 
-    <li><span>char*[]</span> ce_type_tbl</li> 
-    <li><span>int const[256]</span> ce_bg1_Palette</li> 
-    <li><span>int const[3584]</span> ce_bg1_Character</li> 
-    <li><span>int const[640]</span> ce_bg1_Map</li> 
-    <li><span>int const[9152]</span> ce_bg3_Character</li> 
-    <li><span>int const[640]</span> ce_bg3_Map</li> 
-    <li><span>int const[256]</span> ce_PS_hey5_Palette</li> 
-    <li><span>int const[2048]</span> ce_PS_hey5_Char</li> 
-    <li><span>int[296]</span> ce_moji_Character</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">10</div>    <div class="rr-file-stat rr-file-stats-lines">22</div>  </div>
-</div>
+{% capture card_9_2_items %}
+- int const[1][2]|||ce_OamData_Sample
+- char*[]|||ce_type_tbl
+- int const[256]|||ce_bg1_Palette
+- int const[3584]|||ce_bg1_Character
+- int const[640]|||ce_bg1_Map
+- int const[9152]|||ce_bg3_Character
+- int const[640]|||ce_bg3_Map
+- int const[256]|||ce_PS_hey5_Palette
+- int const[2048]|||ce_PS_hey5_Char
+- int[296]|||ce_moji_Character
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="ce_data.c" />
-  <h3>ce_data.c</h3><ul>
-    <li><span>u32 const[1][2]</span> ce_OamData_Sample</li> 
-    <li><span>char*[4]</span> ce_type_tbl</li> 
-    <li><span>u32[296]</span> ce_moji_Character</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">102</div>  </div>
-</div>
+{% capture card_9_3_items %}
+- u32 const[1][2]|||ce_OamData_Sample
+- char*[4]|||ce_type_tbl
+- u32[296]|||ce_moji_Character
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="ceexpl.c" />
-  <h3>ceexpl.c</h3><ul>
-    <li><span>char const*</span> ce_title_str</li> 
-    <li><span>char const*</span> ce_expl_str0</li> 
-    <li><span>char const**[]</span> ce_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">33</div>  </div>
-</div>
+{% capture card_9_4_items %}
+- char const*|||ce_title_str
+- char const*|||ce_expl_str0
+- char const**[]|||ce_expl_str_array
+{% endcapture %}
 
-</section>
+{% capture section_9_cards %}
+{% include source-code-card.html title="c_effect.c" items=card_9_1_items functions="5" variables="7" lines="289" %}
+{% include source-code-card.html title="ce_dat.h" items=card_9_2_items functions="0" variables="10" lines="22" %}
+{% include source-code-card.html title="ce_data.c" items=card_9_3_items functions="0" variables="3" lines="102" %}
+{% include source-code-card.html title="ceexpl.c" items=card_9_4_items functions="0" variables="3" lines="33" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_9_cards %}
 
 ---
 ## Font prn (/functional_sample/fontprn)
@@ -814,39 +755,35 @@ font8 | .h | Include file for declaring
 fontprn | .c, .h, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="font8.h" />
-  <h3>font8.h</h3><ul>
-    <li><span>int[15][1792]</span> font8</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">6858</div>  </div>
-</div>
+{% capture card_10_1_items %}
+- int[15][1792]|||font8
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="fontprn.c" />
-  <h3>fontprn.c</h3><ul>
-    <li><span>u32 const[1][2]</span> fontOamData</li> 
-    <li><span>fpData</span> fpdata</li> 
-    <li><span>void</span> FontPrintInit<span class="rr-func-args">(u8,u8,u8,u8,u32,u8)</span></li> 
-    <li><span>void</span> FontPalletLoad<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> FontColor<span class="rr-func-args">(u8)</span></li> 
-    <li><span>void</span> FontPrint<span class="rr-func-args">(u8,u8,u8*)</span></li> 
-    <li><span>void</span> NumPrint<span class="rr-func-args">(u8,u8,s16,s16)</span></li> 
-    <li><span>void</span> put_font_1d<span class="rr-func-args">(u8,u8,u8*,u16)</span></li> 
-    <li><span>void</span> put_font_2d<span class="rr-func-args">(u8,u8,u8*,u16)</span></li> 
-    <li><span>void</span> FontPrintC<span class="rr-func-args">(u8,u8,u8,u8*)</span></li> 
-    <li><span>void</span> NumPrintC<span class="rr-func-args">(u8,u8,u8,s16,s16)</span></li> 
-    <li><span>void</span> FontPrintCls<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> FontPrintSync<span class="rr-func-args">()</span></li> 
-    <li><span>char*</span> fp_itoa<span class="rr-func-args">(int,char*,int)</span></li> 
-    <li><span>char*</span> _toa<span class="rr-func-args">(unsigned int,char*,int)</span></li> 
-    <li><span>int</span> _power<span class="rr-func-args">(int,int)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">14</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">503</div>  </div>
-</div>
+{% capture card_10_2_items %}
+- u32 const[1][2]|||fontOamData
+- fpData|||fpdata
+- void|||FontPrintInit|||(u8,u8,u8,u8,u32,u8)
+- void|||FontPalletLoad|||(u8)
+- void|||FontColor|||(u8)
+- void|||FontPrint|||(u8,u8,u8*)
+- void|||NumPrint|||(u8,u8,s16,s16)
+- void|||put_font_1d|||(u8,u8,u8*,u16)
+- void|||put_font_2d|||(u8,u8,u8*,u16)
+- void|||FontPrintC|||(u8,u8,u8,u8*)
+- void|||NumPrintC|||(u8,u8,u8,s16,s16)
+- void|||FontPrintCls|||()
+- void|||FontPrintSync|||()
+- char*|||fp_itoa|||(int,char*,int)
+- char*|||_toa|||(unsigned int,char*,int)
+- int|||_power|||(int,int)
+{% endcapture %}
 
-</section>
+{% capture section_10_cards %}
+{% include source-code-card.html title="font8.h" items=card_10_1_items functions="0" variables="1" lines="6858" %}
+{% include source-code-card.html title="fontprn.c" items=card_10_2_items functions="14" variables="2" lines="503" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_10_cards %}
 
 ---
 ## Obj_rsm (/functional_sample/obj_rsm)
@@ -861,39 +798,35 @@ obexpl | .c, .o |
 obmain | .c, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="obexpl.c" />
-  <h3>obexpl.c</h3><ul>
-    <li><span>char const*</span> ob_title_str</li> 
-    <li><span>char const*</span> ob_expl_str0</li> 
-    <li><span>char const**[]</span> ob_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">35</div>  </div>
-</div>
+{% capture card_11_1_items %}
+- char const*|||ob_title_str
+- char const*|||ob_expl_str0
+- char const**[]|||ob_expl_str_array
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="obmain.c" />
-  <h3>obmain.c</h3><ul>
-    <li><span>s16</span> ob_pos_x</li> 
-    <li><span>s16</span> ob_pos_y</li> 
-    <li><span>u16</span> ob_affine</li> 
-    <li><span>u16</span> ob_mosaic</li> 
-    <li><span>u16</span> ob_scale_x</li> 
-    <li><span>u16</span> ob_scale_y</li> 
-    <li><span>u16</span> ob_rotate</li> 
-    <li><span>u16[16]</span> ob_oam_buffer</li> 
-    <li><span>void</span> obMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ob_v_blank_intr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ob_init_param<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ob_init_oam<span class="rr-func-args">()</span></li> 
-    <li><span>int</span> ob_key_control<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ob_create_oam<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">8</div>    <div class="rr-file-stat rr-file-stats-lines">272</div>  </div>
-</div>
+{% capture card_11_2_items %}
+- s16|||ob_pos_x
+- s16|||ob_pos_y
+- u16|||ob_affine
+- u16|||ob_mosaic
+- u16|||ob_scale_x
+- u16|||ob_scale_y
+- u16|||ob_rotate
+- u16[16]|||ob_oam_buffer
+- void|||obMain|||()
+- void|||ob_v_blank_intr|||()
+- void|||ob_init_param|||()
+- void|||ob_init_oam|||()
+- int|||ob_key_control|||()
+- void|||ob_create_oam|||()
+{% endcapture %}
 
-</section>
+{% capture section_11_cards %}
+{% include source-code-card.html title="obexpl.c" items=card_11_1_items functions="0" variables="3" lines="35" %}
+{% include source-code-card.html title="obmain.c" items=card_11_2_items functions="6" variables="8" lines="272" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_11_cards %}
 
 ---
 ## Swinsm (/functional_sample/swinsm)
@@ -914,48 +847,41 @@ swexpl | .c, .o |
 window | .c, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="sw_dat.h" />
-  <h3>sw_dat.h</h3><ul>
-    <li><span>u16 const[256]</span> sw_PS_hey5_Palette</li> 
-    <li><span>u8 const[2048]</span> sw_PS_hey5_Char</li> 
-    <li><span>u16 const[10]</span> sw_bg0_Palette</li> 
-    <li><span>u8 const[1120]</span> sw_bg0_Character</li> 
-    <li><span>u16 const[640]</span> sw_bg0_Map</li> 
-    <li><span>u8 const[384]</span> sw_bg1_Character</li> 
-    <li><span>u16 const[640]</span> sw_bg1_Map</li> 
-    <li><span>u8 const[384]</span> sw_bg2_Character</li> 
-    <li><span>u16 const[640]</span> sw_bg2_Map</li> 
-    <li><span>u8 const[384]</span> sw_bg3_Character</li> 
-    <li><span>u16 const[640]</span> sw_bg3_Map</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">23</div>  </div>
-</div>
+{% capture card_12_1_items %}
+- u16 const[256]|||sw_PS_hey5_Palette
+- u8 const[2048]|||sw_PS_hey5_Char
+- u16 const[10]|||sw_bg0_Palette
+- u8 const[1120]|||sw_bg0_Character
+- u16 const[640]|||sw_bg0_Map
+- u8 const[384]|||sw_bg1_Character
+- u16 const[640]|||sw_bg1_Map
+- u8 const[384]|||sw_bg2_Character
+- u16 const[640]|||sw_bg2_Map
+- u8 const[384]|||sw_bg3_Character
+- u16 const[640]|||sw_bg3_Map
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="swexpl.c" />
-  <h3>swexpl.c</h3><ul>
-    <li><span>char const*</span> sw_title_str</li> 
-    <li><span>char const*</span> sw_expl_str0</li> 
-    <li><span>char const**[]</span> sw_expl_str_array</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">28</div>  </div>
-</div>
+{% capture card_12_2_items %}
+- char const*|||sw_title_str
+- char const*|||sw_expl_str0
+- char const**[]|||sw_expl_str_array
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="window.c" />
-  <h3>window.c</h3><ul>
-    <li><span>u32 const[1][2]</span> sw_OamData_Sample</li> 
-    <li><span>OamData[128]</span> sw_OamBak</li> 
-    <li><span>void</span> swMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> sw_v_blank_intr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> sw_ObjMove<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">149</div>  </div>
-</div>
+{% capture card_12_3_items %}
+- u32 const[1][2]|||sw_OamData_Sample
+- OamData[128]|||sw_OamBak
+- void|||swMain|||()
+- void|||sw_v_blank_intr|||()
+- void|||sw_ObjMove|||()
+{% endcapture %}
 
-</section>
+{% capture section_12_cards %}
+{% include source-code-card.html title="sw_dat.h" items=card_12_1_items functions="0" variables="11" lines="23" %}
+{% include source-code-card.html title="swexpl.c" items=card_12_2_items functions="0" variables="3" lines="28" %}
+{% include source-code-card.html title="window.c" items=card_12_3_items functions="3" variables="2" lines="149" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_12_cards %}
 
 ---
 # Infrared sample (/ir_sample)
@@ -977,29 +903,25 @@ rom_header_arm | .s | Assembly source file containing
 utility | .c, .h, .o | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[1][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">514</div>  </div>
-</div>
+{% capture card_13_1_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[1][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="utility.c" />
-  <h3>utility.c</h3><ul>
-    <li><span>u8 const[16]</span> hexdata</li> 
-    <li><span>void</span> DispCharSet8<span class="rr-func-args">(OamData*,vu8*)</span></li> 
-    <li><span>void</span> CharSet8BG<span class="rr-func-args">(vu8*,vu8*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">40</div>  </div>
-</div>
+{% capture card_13_2_items %}
+- u8 const[16]|||hexdata
+- void|||DispCharSet8|||(OamData*,vu8*)
+- void|||CharSet8BG|||(vu8*,vu8*)
+{% endcapture %}
 
-</section>
+{% capture section_13_cards %}
+{% include source-code-card.html title="data.c" items=card_13_1_items functions="0" variables="4" lines="514" %}
+{% include source-code-card.html title="utility.c" items=card_13_2_items functions="2" variables="1" lines="40" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_13_cards %}
 
 ---
 # Multi Boot (/multi_boot)
@@ -1040,92 +962,79 @@ rom_header_arm | .s | Assembly source file containing
 types | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiBoot.c" />
-  <h3>MultiBoot.c</h3><ul>
-    <li><span>u16[3]</span> MultiBoot_required_data</li> 
-    <li><span>void</span> MultiBootInit<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootMain<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootSend<span class="rr-func-args">(MultiBootParam*,u16)</span></li> 
-    <li><span>void</span> MultiBootStartProbe<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootStartMaster<span class="rr-func-args">(MultiBootParam*,u8*,int,u8,s8)</span></li> 
-    <li><span>int</span> MultiBootCheckComplete<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootHandShake<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootWaitCycles<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiBootWaitSendDone<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">653</div>  </div>
-</div>
+{% capture card_14_1_items %}
+- u16[3]|||MultiBoot_required_data
+- void|||MultiBootInit|||(MultiBootParam*)
+- int|||MultiBootMain|||(MultiBootParam*)
+- int|||MultiBootSend|||(MultiBootParam*,u16)
+- void|||MultiBootStartProbe|||(MultiBootParam*)
+- void|||MultiBootStartMaster|||(MultiBootParam*,u8*,int,u8,s8)
+- int|||MultiBootCheckComplete|||(MultiBootParam*)
+- int|||MultiBootHandShake|||(MultiBootParam*)
+- void|||MultiBootWaitCycles|||(u32)
+- void|||MultiBootWaitSendDone|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[72]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[15]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">291</div>  </div>
-</div>
+{% capture card_14_2_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[72]|||IntrFuncBuf
+- u8 const[15]|||MultiSioLib_Var
+- void|||MultiSioInit|||()
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*)
+- void|||MultiSioSendDataSet|||(void*)
+- u32|||MultiSioRecvDataCheck|||(void*)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_14_3_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="demo_main.c" />
-  <h3>demo_main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[4][2]</span> HPos</li> 
-    <li><span>u16[4][2]</span> VPos</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u32</span> SioFlagsBak</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>IntrFuncp[14]</span> IntrTableBuf</li> 
-    <li><span>void</span> DemoMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">229</div>  </div>
-</div>
+{% capture card_14_4_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[4][2]|||HPos
+- u16[4][2]|||VPos
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioFlags
+- u32|||SioFlagsBak
+- u8|||SioStartFlag
+- IntrFuncp const[13]|||IntrTable
+- IntrFuncp[14]|||IntrTableBuf
+- void|||DemoMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>MultiBootParam</span> multiboot_status</li> 
-    <li><span>u8*</span> demo_bin_start</li> 
-    <li><span>u32</span> demo_bin_length</li> 
-    <li><span>int</span> frame_retval</li> 
-    <li><span>u8 const* const[]</span> BgScDatap_ID</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">148</div>  </div>
-</div>
+{% capture card_14_5_items %}
+- MultiBootParam|||multiboot_status
+- u8*|||demo_bin_start
+- u32|||demo_bin_length
+- int|||frame_retval
+- u8 const* const[]|||BgScDatap_ID
+- void|||AgbMain|||()
+{% endcapture %}
 
-</section>
+{% capture section_14_cards %}
+{% include source-code-card.html title="MultiBoot.c" items=card_14_1_items functions="9" variables="1" lines="653" %}
+{% include source-code-card.html title="MultiSio.c" items=card_14_2_items functions="6" variables="4" lines="291" %}
+{% include source-code-card.html title="data.c" items=card_14_3_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="demo_main.c" items=card_14_4_items functions="5" variables="14" lines="229" %}
+{% include source-code-card.html title="main.c" items=card_14_5_items functions="1" variables="5" lines="148" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_14_cards %}
 
 ---
 # Multi boot sync (/multi_boot_sync)
@@ -1166,98 +1075,83 @@ rom_header_arm | .s | Assembly source file containing
 types | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiBoot.c" />
-  <h3>MultiBoot.c</h3><ul>
-    <li><span>u16[3]</span> MultiBoot_required_data</li> 
-    <li><span>void</span> MultiBootInit<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootMain<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootSend<span class="rr-func-args">(MultiBootParam*,u16)</span></li> 
-    <li><span>void</span> MultiBootStartProbe<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootStartMaster<span class="rr-func-args">(MultiBootParam*,u8*,int,u8,s8)</span></li> 
-    <li><span>int</span> MultiBootCheckComplete<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootHandShake<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootWaitCycles<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiBootWaitSendDone<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">653</div>  </div>
-</div>
+{% capture card_15_1_items %}
+- u16[3]|||MultiBoot_required_data
+- void|||MultiBootInit|||(MultiBootParam*)
+- int|||MultiBootMain|||(MultiBootParam*)
+- int|||MultiBootSend|||(MultiBootParam*,u16)
+- void|||MultiBootStartProbe|||(MultiBootParam*)
+- void|||MultiBootStartMaster|||(MultiBootParam*,u8*,int,u8,s8)
+- int|||MultiBootCheckComplete|||(MultiBootParam*)
+- int|||MultiBootHandShake|||(MultiBootParam*)
+- void|||MultiBootWaitCycles|||(u32)
+- void|||MultiBootWaitSendDone|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[64]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[19]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-    <li><span>void</span> MultiSioVSync<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">289</div>  </div>
-</div>
+{% capture card_15_2_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[64]|||IntrFuncBuf
+- u8 const[19]|||MultiSioLib_Var
+- void|||MultiSioInit|||()
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*)
+- void|||MultiSioSendDataSet|||(void*)
+- u32|||MultiSioRecvDataCheck|||(void*)
+- void|||MultiSioVSync|||()
+- void|||MultiSioIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_15_3_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="demo_main.c" />
-  <h3>demo_main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>IntrFuncp[14]</span> IntrTableBuf</li> 
-    <li><span>void</span> DemoMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">217</div>  </div>
-</div>
+{% capture card_15_4_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioFlags
+- u8|||SioStartFlag
+- IntrFuncp const[13]|||IntrTable
+- IntrFuncp[14]|||IntrTableBuf
+- void|||DemoMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>MultiBootParam</span> multiboot_status</li> 
-    <li><span>u8*</span> demo_bin_start</li> 
-    <li><span>u32</span> demo_bin_length</li> 
-    <li><span>int</span> frame_retval</li> 
-    <li><span>u8 const* const[]</span> BgScDatap_ID</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">154</div>  </div>
-</div>
+{% capture card_15_5_items %}
+- MultiBootParam|||multiboot_status
+- u8*|||demo_bin_start
+- u32|||demo_bin_length
+- int|||frame_retval
+- u8 const* const[]|||BgScDatap_ID
+- void|||AgbMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="types.h" />
-  <h3>types.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">18</div>  </div>
-</div>
+{% capture card_15_6_items %}
 
-</section>
+{% endcapture %}
+
+{% capture section_15_cards %}
+{% include source-code-card.html title="MultiBoot.c" items=card_15_1_items functions="9" variables="1" lines="653" %}
+{% include source-code-card.html title="MultiSio.c" items=card_15_2_items functions="8" variables="4" lines="289" %}
+{% include source-code-card.html title="data.c" items=card_15_3_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="demo_main.c" items=card_15_4_items functions="5" variables="11" lines="217" %}
+{% include source-code-card.html title="main.c" items=card_15_5_items functions="1" variables="5" lines="154" %}
+{% include source-code-card.html title="types.h" items=card_15_6_items functions="0" variables="0" lines="18" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_15_cards %}
 
 ---
 # Multi sio (/multi_sio)
@@ -1284,62 +1178,55 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 rom_header_arm | .s | Assembly source file containing 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[72]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[15]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">291</div>  </div>
-</div>
+{% capture card_16_1_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[72]|||IntrFuncBuf
+- u8 const[15]|||MultiSioLib_Var
+- void|||MultiSioInit|||()
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*)
+- void|||MultiSioSendDataSet|||(void*)
+- u32|||MultiSioRecvDataCheck|||(void*)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_16_2_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[4][2]</span> HPos</li> 
-    <li><span>u16[4][2]</span> VPos</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u32</span> SioFlagsBak</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>IntrFuncp[14]</span> IntrTableBuf</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">14</div>    <div class="rr-file-stat rr-file-stats-lines">226</div>  </div>
-</div>
+{% capture card_16_3_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[4][2]|||HPos
+- u16[4][2]|||VPos
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioFlags
+- u32|||SioFlagsBak
+- u8|||SioStartFlag
+- IntrFuncp const[13]|||IntrTable
+- IntrFuncp[14]|||IntrTableBuf
+- void|||AgbMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+{% endcapture %}
 
-</section>
+{% capture section_16_cards %}
+{% include source-code-card.html title="MultiSio.c" items=card_16_1_items functions="6" variables="4" lines="291" %}
+{% include source-code-card.html title="data.c" items=card_16_2_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="main.c" items=card_16_3_items functions="5" variables="14" lines="226" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_16_cards %}
 
 ---
 ## Multi sio sync (/multi_sio_sync)
@@ -1366,61 +1253,54 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 rom_header_arm | .s | Assembly source file containing 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[64]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[19]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-    <li><span>void</span> MultiSioVSync<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">291</div>  </div>
-</div>
+{% capture card_17_1_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[64]|||IntrFuncBuf
+- u8 const[19]|||MultiSioLib_Var
+- void|||MultiSioInit|||()
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*)
+- void|||MultiSioSendDataSet|||(void*)
+- u32|||MultiSioRecvDataCheck|||(void*)
+- void|||MultiSioVSync|||()
+- void|||MultiSioIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_17_2_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>IntrFuncp[14]</span> IntrTableBuf</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">218</div>  </div>
-</div>
+{% capture card_17_3_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioFlags
+- u8|||SioStartFlag
+- IntrFuncp const[13]|||IntrTable
+- IntrFuncp[14]|||IntrTableBuf
+- void|||AgbMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+{% endcapture %}
 
-</section>
+{% capture section_17_cards %}
+{% include source-code-card.html title="MultiSio.c" items=card_17_1_items functions="8" variables="4" lines="291" %}
+{% include source-code-card.html title="data.c" items=card_17_2_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="main.c" items=card_17_3_items functions="5" variables="11" lines="218" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_17_cards %}
 
 ---
 # Overlay (/overlay)
@@ -1448,95 +1328,77 @@ title | .c, .o |
 types | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bgmove.c" />
-  <h3>bgmove.c</h3><ul>
-    <li><span>IntrFuncp const[13]</span> BgMoveIntrTable</li> 
-    <li><span>BgOffsetCnt[4]</span> BgMoveOffsetBak</li> 
-    <li><span>u16[4][1024]</span> BgMoveBgBak</li> 
-    <li><span>u8</span> BgMove<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgMoveVBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgSnakeMove<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">118</div>  </div>
-</div>
+{% capture card_18_1_items %}
+- IntrFuncp const[13]|||BgMoveIntrTable
+- BgOffsetCnt[4]|||BgMoveOffsetBak
+- u16[4][1024]|||BgMoveBgBak
+- u8|||BgMove|||()
+- void|||BgMoveVBlankIntr|||()
+- void|||BgSnakeMove|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>LinkData const[2]</span> LinkData_Title</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[640]</span> BgScData_Title</li> 
-    <li><span>u16 const[640]</span> BgScData_ObjMove</li> 
-    <li><span>u16 const[640]</span> BgScData_BgMove0</li> 
-    <li><span>u16 const[640]</span> BgScData_BgMove1</li> 
-    <li><span>u16 const[640]</span> BgScData_BgMove2</li> 
-    <li><span>u16 const[640]</span> BgScData_BgMove3</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">10</div>    <div class="rr-file-stat rr-file-stats-lines">636</div>  </div>
-</div>
+{% capture card_18_2_items %}
+- LinkData const[2]|||LinkData_Title
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1][2]|||OamData_Sample
+- u16 const[640]|||BgScData_Title
+- u16 const[640]|||BgScData_ObjMove
+- u16 const[640]|||BgScData_BgMove0
+- u16 const[640]|||BgScData_BgMove1
+- u16 const[640]|||BgScData_BgMove2
+- u16 const[640]|||BgScData_BgMove3
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u8</span> SceneNo</li> 
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>IntrFuncp[13]</span> IntrTableBuf</li> 
-    <li><span>u32[512]</span> IntrMainBuf</li> 
-    <li><span>s32[4]</span> DataSecDummy</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">6</div>    <div class="rr-file-stat rr-file-stats-lines">82</div>  </div>
-</div>
+{% capture card_18_3_items %}
+- u8|||SceneNo
+- u16|||Cont
+- u16|||Trg
+- IntrFuncp[13]|||IntrTableBuf
+- u32[512]|||IntrMainBuf
+- s32[4]|||DataSecDummy
+- void|||AgbMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="objmove.c" />
-  <h3>objmove.c</h3><ul>
-    <li><span>IntrFuncp const[13]</span> ObjMoveIntrTable</li> 
-    <li><span>OamData[128]</span> ObjMoveOamBak</li> 
-    <li><span>u16[1024]</span> ObjMoveBgBak</li> 
-    <li><span>u8</span> ObjMove<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ObjMoveVBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ObjSnakeMove<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">119</div>  </div>
-</div>
+{% capture card_18_4_items %}
+- IntrFuncp const[13]|||ObjMoveIntrTable
+- OamData[128]|||ObjMoveOamBak
+- u16[1024]|||ObjMoveBgBak
+- u8|||ObjMove|||()
+- void|||ObjMoveVBlankIntr|||()
+- void|||ObjSnakeMove|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="sub.c" />
-  <h3>sub.c</h3><ul>
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ObjCursolMove<span class="rr-func-args">(OamData*,LinkData*,u8*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">76</div>  </div>
-</div>
+{% capture card_18_5_items %}
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||ObjCursolMove|||(OamData*,LinkData*,u8*)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="title.c" />
-  <h3>title.c</h3><ul>
-    <li><span>IntrFuncp const[13]</span> TitleIntrTable</li> 
-    <li><span>u16[1024]</span> TitleBgBak</li> 
-    <li><span>OamData[128]</span> TitleOamBak</li> 
-    <li><span>u8</span> Cursolp</li> 
-    <li><span>u8</span> Title<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> TitleVBlankIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">82</div>  </div>
-</div>
+{% capture card_18_6_items %}
+- IntrFuncp const[13]|||TitleIntrTable
+- u16[1024]|||TitleBgBak
+- OamData[128]|||TitleOamBak
+- u8|||Cursolp
+- u8|||Title|||()
+- void|||TitleVBlankIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="types.h" />
-  <h3>types.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">27</div>  </div>
-</div>
+{% capture card_18_7_items %}
 
-</section>
+{% endcapture %}
+
+{% capture section_18_cards %}
+{% include source-code-card.html title="bgmove.c" items=card_18_1_items functions="3" variables="3" lines="118" %}
+{% include source-code-card.html title="data.c" items=card_18_2_items functions="0" variables="10" lines="636" %}
+{% include source-code-card.html title="main.c" items=card_18_3_items functions="1" variables="6" lines="82" %}
+{% include source-code-card.html title="objmove.c" items=card_18_4_items functions="3" variables="3" lines="119" %}
+{% include source-code-card.html title="sub.c" items=card_18_5_items functions="3" variables="0" lines="76" %}
+{% include source-code-card.html title="title.c" items=card_18_6_items functions="2" variables="4" lines="82" %}
+{% include source-code-card.html title="types.h" items=card_18_7_items functions="0" variables="0" lines="27" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_18_cards %}
 
 ---
 # Reintr (/reintr)
@@ -1558,37 +1420,33 @@ rom_header | .s | Assembly code that implements the common GBA ROM reader requir
 rom_header_arm | .s | Assembly source file containing 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[1][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">514</div>  </div>
-</div>
+{% capture card_19_1_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[1][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[512]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ObjSnakeMove<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">6</div>    <div class="rr-file-stat rr-file-stats-lines">179</div>  </div>
-</div>
+{% capture card_19_2_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[512]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- IntrFuncp const[13]|||IntrTable
+- void|||AgbMain|||()
+- void|||VBlankIntr|||()
+- void|||KeyRead|||()
+- void|||IntrDummy|||()
+- void|||ObjSnakeMove|||()
+{% endcapture %}
 
-</section>
+{% capture section_19_cards %}
+{% include source-code-card.html title="data.c" items=card_19_1_items functions="0" variables="4" lines="514" %}
+{% include source-code-card.html title="main.c" items=card_19_2_items functions="5" variables="6" lines="179" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_19_cards %}
 
 ---
 # Simple (/simple)
@@ -1610,37 +1468,33 @@ rom_header_arm | .s | Assembly source file containing
 simple | .bin, .elf, .map | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[1][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">514</div>  </div>
-</div>
+{% capture card_20_1_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[1][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[512]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> ObjSnakeMove<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">6</div>    <div class="rr-file-stat rr-file-stats-lines">174</div>  </div>
-</div>
+{% capture card_20_2_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[512]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- IntrFuncp const[13]|||IntrTable
+- void|||AgbMain|||()
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||ObjSnakeMove|||()
+{% endcapture %}
 
-</section>
+{% capture section_20_cards %}
+{% include source-code-card.html title="data.c" items=card_20_1_items functions="0" variables="4" lines="514" %}
+{% include source-code-card.html title="main.c" items=card_20_2_items functions="5" variables="6" lines="174" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_20_cards %}
 
 ---
 # Sio32 multi-load (/sio32_multi_load)
@@ -1694,154 +1548,120 @@ sub | .c, .h, .o |
 types | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiBoot.c" />
-  <h3>MultiBoot.c</h3><ul>
-    <li><span>u16[3]</span> MultiBoot_required_data</li> 
-    <li><span>void</span> MultiBootInit<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootMain<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootSend<span class="rr-func-args">(MultiBootParam*,u16)</span></li> 
-    <li><span>void</span> MultiBootStartProbe<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootStartMaster<span class="rr-func-args">(MultiBootParam*,u8*,int,u8,s8)</span></li> 
-    <li><span>int</span> MultiBootCheckComplete<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootHandShake<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootWaitCycles<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiBootWaitSendDone<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">653</div>  </div>
-</div>
+{% capture card_21_1_items %}
+- u16[3]|||MultiBoot_required_data
+- void|||MultiBootInit|||(MultiBootParam*)
+- int|||MultiBootMain|||(MultiBootParam*)
+- int|||MultiBootSend|||(MultiBootParam*,u16)
+- void|||MultiBootStartProbe|||(MultiBootParam*)
+- void|||MultiBootStartMaster|||(MultiBootParam*,u8*,int,u8,s8)
+- int|||MultiBootCheckComplete|||(MultiBootParam*)
+- int|||MultiBootHandShake|||(MultiBootParam*)
+- void|||MultiBootWaitCycles|||(u32)
+- void|||MultiBootWaitSendDone|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[72]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[25]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*,u32)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*,u32)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">316</div>  </div>
-</div>
+{% capture card_21_2_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[72]|||IntrFuncBuf
+- u8 const[25]|||MultiSioLib_Var
+- void|||MultiSioInit|||(u32)
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*,u32)
+- void|||MultiSioSendDataSet|||(void*,u32)
+- u32|||MultiSioRecvDataCheck|||(void*)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="Sio32MultiLoad.c" />
-  <h3>Sio32MultiLoad.c</h3><ul>
-    <li><span>Sio32MultiLoadArea</span> S32ml</li> 
-    <li><span>u8 const[21]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> Sio32MultiLoadInit<span class="rr-func-args">(u32,void*)</span></li> 
-    <li><span>u32</span> Sio32MultiLoadMain<span class="rr-func-args">(u32*)</span></li> 
-    <li><span>void</span> Sio32MultiLoadIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">213</div>  </div>
-</div>
+{% capture card_21_3_items %}
+- Sio32MultiLoadArea|||S32ml
+- u8 const[21]|||MultiSioLib_Var
+- void|||Sio32MultiLoadInit|||(u32,void*)
+- u32|||Sio32MultiLoadMain|||(u32*)
+- void|||Sio32MultiLoadIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bss.c" />
-  <h3>bss.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u32</span> SioFlagsBak</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">10</div>    <div class="rr-file-stat rr-file-stats-lines">29</div>  </div>
-</div>
+{% capture card_21_4_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioFlags
+- u32|||SioFlagsBak
+- u8|||SioStartFlag
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_21_5_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="demo_main.c" />
-  <h3>demo_main.c</h3><ul>
-    <li><span>u16[4][2]</span> HPos</li> 
-    <li><span>u16[4][2]</span> VPos</li> 
-    <li><span>void</span> DemoMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">135</div>  </div>
-</div>
+{% capture card_21_6_items %}
+- u16[4][2]|||HPos
+- u16[4][2]|||VPos
+- void|||DemoMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="intr_table.c" />
-  <h3>intr_table.c</h3><ul>
-    <li><span>IntrFuncp[13]</span> IntrTableBuf</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">32</div>  </div>
-</div>
+{% capture card_21_7_items %}
+- IntrFuncp[13]|||IntrTableBuf
+- IntrFuncp const[13]|||IntrTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="load_table_dest.c" />
-  <h3>load_table_dest.c</h3><ul>
-    <li><span>u8 const* const[4]</span> LoadTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">19</div>  </div>
-</div>
+{% capture card_21_8_items %}
+- u8 const* const[4]|||LoadTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="load_table_src.c" />
-  <h3>load_table_src.c</h3><ul>
-    <li><span>u8 const* const[4]</span> LoadTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">20</div>  </div>
-</div>
+{% capture card_21_9_items %}
+- u8 const* const[4]|||LoadTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="loader_main.c" />
-  <h3>loader_main.c</h3><ul>
-    <li><span>u8*</span> LoadCounterp</li> 
-    <li><span>u8</span> RecvLoadCounter</li> 
-    <li><span>u8</span> BurstLoad</li> 
-    <li><span>u32</span> ProgressCounter</li> 
-    <li><span>void</span> LoaderMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">190</div>  </div>
-</div>
+{% capture card_21_10_items %}
+- u8*|||LoadCounterp
+- u8|||RecvLoadCounter
+- u8|||BurstLoad
+- u32|||ProgressCounter
+- void|||LoaderMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>MultiBootParam</span> multiboot_status</li> 
-    <li><span>u8*</span> demo_bin_start</li> 
-    <li><span>u32</span> demo_bin_length</li> 
-    <li><span>int</span> frame_retval</li> 
-    <li><span>u8 const* const[]</span> BgScDatap_ID</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">134</div>  </div>
-</div>
+{% capture card_21_11_items %}
+- MultiBootParam|||multiboot_status
+- u8*|||demo_bin_start
+- u32|||demo_bin_length
+- int|||frame_retval
+- u8 const* const[]|||BgScDatap_ID
+- void|||AgbMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="sub.c" />
-  <h3>sub.c</h3><ul>
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-    <li><span>void</span> Data2BgSc<span class="rr-func-args">(u32,u16*,u8,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">77</div>  </div>
-</div>
+{% capture card_21_12_items %}
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+- void|||Data2BgSc|||(u32,u16*,u8,u8)
+{% endcapture %}
 
-</section>
+{% capture section_21_cards %}
+{% include source-code-card.html title="MultiBoot.c" items=card_21_1_items functions="9" variables="1" lines="653" %}
+{% include source-code-card.html title="MultiSio.c" items=card_21_2_items functions="6" variables="4" lines="316" %}
+{% include source-code-card.html title="Sio32MultiLoad.c" items=card_21_3_items functions="3" variables="2" lines="213" %}
+{% include source-code-card.html title="bss.c" items=card_21_4_items functions="0" variables="10" lines="29" %}
+{% include source-code-card.html title="data.c" items=card_21_5_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="demo_main.c" items=card_21_6_items functions="1" variables="2" lines="135" %}
+{% include source-code-card.html title="intr_table.c" items=card_21_7_items functions="0" variables="2" lines="32" %}
+{% include source-code-card.html title="load_table_dest.c" items=card_21_8_items functions="0" variables="1" lines="19" %}
+{% include source-code-card.html title="load_table_src.c" items=card_21_9_items functions="0" variables="1" lines="20" %}
+{% include source-code-card.html title="loader_main.c" items=card_21_10_items functions="1" variables="4" lines="190" %}
+{% include source-code-card.html title="main.c" items=card_21_11_items functions="1" variables="5" lines="134" %}
+{% include source-code-card.html title="sub.c" items=card_21_12_items functions="5" variables="0" lines="77" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_21_cards %}
 
 ---
 # Sio32_multi_load_sync (/sio32_multi_load_sync)
@@ -1895,152 +1715,118 @@ sub | .c, .h, .o |
 types | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiBoot.c" />
-  <h3>MultiBoot.c</h3><ul>
-    <li><span>u16[3]</span> MultiBoot_required_data</li> 
-    <li><span>void</span> MultiBootInit<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootMain<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootSend<span class="rr-func-args">(MultiBootParam*,u16)</span></li> 
-    <li><span>void</span> MultiBootStartProbe<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootStartMaster<span class="rr-func-args">(MultiBootParam*,u8*,int,u8,s8)</span></li> 
-    <li><span>int</span> MultiBootCheckComplete<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>int</span> MultiBootHandShake<span class="rr-func-args">(MultiBootParam*)</span></li> 
-    <li><span>void</span> MultiBootWaitCycles<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiBootWaitSendDone<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">653</div>  </div>
-</div>
+{% capture card_22_1_items %}
+- u16[3]|||MultiBoot_required_data
+- void|||MultiBootInit|||(MultiBootParam*)
+- int|||MultiBootMain|||(MultiBootParam*)
+- int|||MultiBootSend|||(MultiBootParam*,u16)
+- void|||MultiBootStartProbe|||(MultiBootParam*)
+- void|||MultiBootStartMaster|||(MultiBootParam*,u8*,int,u8,s8)
+- int|||MultiBootCheckComplete|||(MultiBootParam*)
+- int|||MultiBootHandShake|||(MultiBootParam*)
+- void|||MultiBootWaitCycles|||(u32)
+- void|||MultiBootWaitSendDone|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="MultiSio.c" />
-  <h3>MultiSio.c</h3><ul>
-    <li><span>MultiSioArea</span> Ms</li> 
-    <li><span>u32[16]</span> RecvFuncBuf</li> 
-    <li><span>u32[64]</span> IntrFuncBuf</li> 
-    <li><span>u8 const[29]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> MultiSioInit<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> MultiSioStart<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioStop<span class="rr-func-args">()</span></li> 
-    <li><span>u32</span> MultiSioMain<span class="rr-func-args">(void*,void*,u32)</span></li> 
-    <li><span>void</span> MultiSioSendDataSet<span class="rr-func-args">(void*,u32)</span></li> 
-    <li><span>u32</span> MultiSioRecvDataCheck<span class="rr-func-args">(void*)</span></li> 
-    <li><span>void</span> MultiSioVSync<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MultiSioIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">317</div>  </div>
-</div>
+{% capture card_22_2_items %}
+- MultiSioArea|||Ms
+- u32[16]|||RecvFuncBuf
+- u32[64]|||IntrFuncBuf
+- u8 const[29]|||MultiSioLib_Var
+- void|||MultiSioInit|||(u32)
+- void|||MultiSioStart|||()
+- void|||MultiSioStop|||()
+- u32|||MultiSioMain|||(void*,void*,u32)
+- void|||MultiSioSendDataSet|||(void*,u32)
+- u32|||MultiSioRecvDataCheck|||(void*)
+- void|||MultiSioVSync|||()
+- void|||MultiSioIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="Sio32MultiLoad.c" />
-  <h3>Sio32MultiLoad.c</h3><ul>
-    <li><span>Sio32MultiLoadArea</span> S32ml</li> 
-    <li><span>u8 const[21]</span> MultiSioLib_Var</li> 
-    <li><span>void</span> Sio32MultiLoadInit<span class="rr-func-args">(u32,void*)</span></li> 
-    <li><span>u32</span> Sio32MultiLoadMain<span class="rr-func-args">(u32*)</span></li> 
-    <li><span>void</span> Sio32MultiLoadIntr<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">215</div>  </div>
-</div>
+{% capture card_22_3_items %}
+- Sio32MultiLoadArea|||S32ml
+- u8 const[21]|||MultiSioLib_Var
+- void|||Sio32MultiLoadInit|||(u32,void*)
+- u32|||Sio32MultiLoadMain|||(u32*)
+- void|||Sio32MultiLoadIntr|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bss.c" />
-  <h3>bss.c</h3><ul>
-    <li><span>u16</span> Cont</li> 
-    <li><span>u16</span> Trg</li> 
-    <li><span>u32[256]</span> IntrMainBuf</li> 
-    <li><span>u16[1024]</span> BgBak</li> 
-    <li><span>OamData[128]</span> OamBak</li> 
-    <li><span>u16[8]</span> UsrSendBuf</li> 
-    <li><span>u16[4][8]</span> UsrRecvBuf</li> 
-    <li><span>u32</span> SioState</li> 
-    <li><span>u32</span> SioFlags</li> 
-    <li><span>u32</span> SioFlagsBak</li> 
-    <li><span>u8</span> SioStartFlag</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">11</div>    <div class="rr-file-stat rr-file-stats-lines">30</div>  </div>
-</div>
+{% capture card_22_4_items %}
+- u16|||Cont
+- u16|||Trg
+- u32[256]|||IntrMainBuf
+- u16[1024]|||BgBak
+- OamData[128]|||OamBak
+- u16[8]|||UsrSendBuf
+- u16[4][8]|||UsrRecvBuf
+- u32|||SioState
+- u32|||SioFlags
+- u32|||SioFlagsBak
+- u8|||SioStartFlag
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="data.c" />
-  <h3>data.c</h3><ul>
-    <li><span>u16 const[640]</span> BgScData_Sample</li> 
-    <li><span>u32 const[4][2]</span> OamData_Sample</li> 
-    <li><span>u16 const[16][16]</span> PlttData_Sample</li> 
-    <li><span>u32 const[1792]</span> CharData_Sample</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">536</div>  </div>
-</div>
+{% capture card_22_5_items %}
+- u16 const[640]|||BgScData_Sample
+- u32 const[4][2]|||OamData_Sample
+- u16 const[16][16]|||PlttData_Sample
+- u32 const[1792]|||CharData_Sample
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="demo_main.c" />
-  <h3>demo_main.c</h3><ul>
-    <li><span>void</span> DemoMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">112</div>  </div>
-</div>
+{% capture card_22_6_items %}
+- void|||DemoMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="intr_table.c" />
-  <h3>intr_table.c</h3><ul>
-    <li><span>IntrFuncp[13]</span> IntrTableBuf</li> 
-    <li><span>IntrFuncp const[13]</span> IntrTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">32</div>  </div>
-</div>
+{% capture card_22_7_items %}
+- IntrFuncp[13]|||IntrTableBuf
+- IntrFuncp const[13]|||IntrTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="load_table_dest.c" />
-  <h3>load_table_dest.c</h3><ul>
-    <li><span>u8 const* const[4]</span> LoadTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">19</div>  </div>
-</div>
+{% capture card_22_8_items %}
+- u8 const* const[4]|||LoadTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="load_table_src.c" />
-  <h3>load_table_src.c</h3><ul>
-    <li><span>u8 const* const[4]</span> LoadTable</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">20</div>  </div>
-</div>
+{% capture card_22_9_items %}
+- u8 const* const[4]|||LoadTable
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="loader_main.c" />
-  <h3>loader_main.c</h3><ul>
-    <li><span>u8*</span> LoadCounterp</li> 
-    <li><span>u8</span> RecvLoadCounter</li> 
-    <li><span>u8</span> BurstLoad</li> 
-    <li><span>u32</span> ProgressCounter</li> 
-    <li><span>void</span> LoaderMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">4</div>    <div class="rr-file-stat rr-file-stats-lines">192</div>  </div>
-</div>
+{% capture card_22_10_items %}
+- u8*|||LoadCounterp
+- u8|||RecvLoadCounter
+- u8|||BurstLoad
+- u32|||ProgressCounter
+- void|||LoaderMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.c" />
-  <h3>main.c</h3><ul>
-    <li><span>MultiBootParam</span> multiboot_status</li> 
-    <li><span>u8*</span> demo_bin_start</li> 
-    <li><span>u32</span> demo_bin_length</li> 
-    <li><span>int</span> frame_retval</li> 
-    <li><span>u8 const* const[]</span> BgScDatap_ID</li> 
-    <li><span>void</span> AgbMain<span class="rr-func-args">()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">136</div>  </div>
-</div>
+{% capture card_22_11_items %}
+- MultiBootParam|||multiboot_status
+- u8*|||demo_bin_start
+- u32|||demo_bin_length
+- int|||frame_retval
+- u8 const* const[]|||BgScDatap_ID
+- void|||AgbMain|||()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="sub.c" />
-  <h3>sub.c</h3><ul>
-    <li><span>void</span> VBlankIntr<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> IntrDummy<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> KeyRead<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> BgScSet<span class="rr-func-args">(u8*,u16*,u8)</span></li> 
-    <li><span>void</span> Data2BgSc<span class="rr-func-args">(u32,u16*,u8,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">88</div>  </div>
-</div>
+{% capture card_22_12_items %}
+- void|||VBlankIntr|||()
+- void|||IntrDummy|||()
+- void|||KeyRead|||()
+- void|||BgScSet|||(u8*,u16*,u8)
+- void|||Data2BgSc|||(u32,u16*,u8,u8)
+{% endcapture %}
 
-</section>
+{% capture section_22_cards %}
+{% include source-code-card.html title="MultiBoot.c" items=card_22_1_items functions="9" variables="1" lines="653" %}
+{% include source-code-card.html title="MultiSio.c" items=card_22_2_items functions="8" variables="4" lines="317" %}
+{% include source-code-card.html title="Sio32MultiLoad.c" items=card_22_3_items functions="3" variables="2" lines="215" %}
+{% include source-code-card.html title="bss.c" items=card_22_4_items functions="0" variables="11" lines="30" %}
+{% include source-code-card.html title="data.c" items=card_22_5_items functions="0" variables="4" lines="536" %}
+{% include source-code-card.html title="demo_main.c" items=card_22_6_items functions="1" variables="0" lines="112" %}
+{% include source-code-card.html title="intr_table.c" items=card_22_7_items functions="0" variables="2" lines="32" %}
+{% include source-code-card.html title="load_table_dest.c" items=card_22_8_items functions="0" variables="1" lines="19" %}
+{% include source-code-card.html title="load_table_src.c" items=card_22_9_items functions="0" variables="1" lines="20" %}
+{% include source-code-card.html title="loader_main.c" items=card_22_10_items functions="1" variables="4" lines="192" %}
+{% include source-code-card.html title="main.c" items=card_22_11_items functions="1" variables="5" lines="136" %}
+{% include source-code-card.html title="sub.c" items=card_22_12_items functions="5" variables="0" lines="88" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_22_cards %}

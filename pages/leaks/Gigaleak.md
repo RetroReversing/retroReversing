@@ -50,22 +50,24 @@ The archive mysteriously named **other.7z** actually contains a bunch of sub-arc
 * **NEWS.7z** - Not sure what this is, but contains a subset of SFC plus log files, some sort of Backup program?
 * **SFC.7z** - SNES Source Code
 
-## Original Game Boy Source Code (dmg.7z)
-Contains the source code for the original version of The Legend of Zelda Links Awakening.
+## Original Game Boy Source Code for The Legend of Zelda Links Awakening (dmg.7z)
+The archive **dmg.7z** contains the source code for the original version of The Legend of Zelda Links Awakening.
 
 {% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
 
-## Game Boy Color Source Code (CGB.7z)
-Contains the source code for two games:
-* The Legend of Zelda: Links Awakening DX - (AZL__ゼルダの伝説 夢を見る島DX)
-* Hamtaro 2
+---
+## Game Boy Color Source Code for The Legend of Zelda Links Awakening DX (CGB.7z)
+The archive **CGB.7z** contains the source code for the Game Boy Color game The Legend of Zelda Links Awakening DX and pre-build ROM images of Hamtaro 2.
 
 {% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
 
+---
 ## Famicom (NES) Lot Check ROMS (Famicom_NES.7z)
 We have a post covering the Full set of official JP/USA Famicom/NES ROMS released in the **Famicom_NES.7z** archive along with other LotCheck releases:
+
 {% include link-to-other-post.html post="/nintendo-lot-check" description="For more information on the Famicom Lot Check ROMS check out this post." %}
 
+---
 ## Super Nintendo Source Code (SFC.7z)
 Contains the Source code for a number of Super Famicom (SNES) titles:
 * StarFox 1 & 2
@@ -76,7 +78,8 @@ Contains the Source code for a number of Super Famicom (SNES) titles:
 * F-Zero
 * Super Mario All-Stars (マリオコレクション)
 
-We have a post specifically about the F-Zero source code leaked in SFC.7z here:
+### F-Zero Source Code
+We have a post specifically about the **F-Zero** source code leaked in **SFC.7z** here:
 {% include link-to-other-post.html post="/f-zero-source-code" description="For more information on the F-Zero Source Code check out this post." %}
 
 ---

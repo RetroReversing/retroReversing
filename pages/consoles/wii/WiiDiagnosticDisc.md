@@ -211,143 +211,136 @@ What is more interesting the reverse engineers is the source code for the **make
 
 If you are interested in the DOL format, it is partly documented in this WiiBrew page: [DOL - WiiBrew](https://wiibrew.org/wiki/DOL)
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-  <div class="rr-file-card">
-  <img class="geopattern" data-title="TFileStream2.cpp" />
-  <h3>TFileStream2.cpp</h3><ul>
-    <li><span>const int</span> bufsize</li> 
-    <li><span>char</span> buffer[bufsize]</li> 
-    <li><span>int</span> restsize</li> 
-    <li><span>int</span> now</li> 
-    <li><span>bool</span> isend</li> 
-    <li><span></span> TFileStream2<span>::TFileStream2(const AnsiString s,Word in):TFileStream(s,in)</span></li> 
-    <li><span>int __fastcall</span> TFileStream2<span>::Readln(void *p)</span></li> 
-    <li><span>int __fastcall</span> TFileStream2<span>::Readst(char *p)</span></li> 
-    <li><span>int</span> ScanString<span>(char *in,char *table)</span></li> 
-    <li><span>char </span> ReadString<span>(char *in,char *table,bool *Find)</span></li> 
-    <li><span>char </span> TrimString<span>(char *in,char *table)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">5</div>    <div class="rr-file-stat rr-file-stats-lines">164</div>  </div>
-</div>
+{% capture card_1_1_items %}
+- const int|||bufsize
+- char|||buffer[bufsize]
+- int|||restsize
+- int|||now
+- bool|||isend
+- |||TFileStream2::TFileStream2(const AnsiString s,Word in):TFileStream(s,in)
+- int __fastcall|||TFileStream2::Readln(void *p)
+- int __fastcall|||TFileStream2::Readst(char *p)
+- int|||ScanString(char *in,char *table)
+- char|||ReadString(char *in,char *table,bool *Find)
+- char|||TrimString(char *in,char *table)
+{% endcapture %}
 
-  <div class="rr-file-card">
-  <img class="geopattern" data-title="Unit1.cpp" />
-  <h3>Unit1.cpp</h3><ul>
-    <li><span></span> Form1 *Form1</li> 
-    <li><span>AnsiString</span> ConvertSl<span>(char *s)</span></li> 
-    <li><span>int</span> SearchGroup<span>(char *p)</span></li> 
-    <li><span>int</span> SearchDiag<span>(char *p)</span></li> 
-    <li><span>void</span> DecodeGroups<span>(char *groups,int *glink)</span></li> 
-    <li><span>void</span> DecodeDiags<span>(char *diags,int *dlink)</span></li> 
-    <li><span>bool</span> GetFileData<span>(AnsiString name,TSearchRec&sr)</span></li> 
-    <li><span>void</span> CopyResource<span>(AnsiString from,AnsiString to,bool isDelete)</span></li> 
-    <li><span>AnsiString</span> groupfile</li> 
-    <li><span>AnsiString</span> diagfile</li> 
-    <li><span>AnsiString</span> resourcefile</li> 
-    <li><span>AnsiString</span> masterfile</li> 
-    <li><span>AnsiString</span> dvdrootdir</li> 
-    <li><span>AnsiString</span> mddldefname</li> 
-    <li><span>char </span> ENV_ROOT</li> 
-    <li><span>char </span> systemname</li> 
-    <li><span>AnsiString</span> rootdir</li> 
-    <li><span>const</span> BUTTON_WIDTH</li> 
-    <li><span>const</span> BUTTON_HEIGHT</li> 
-    <li><span></span> tablestr table[]</li> 
-    <li><span>TPanel </span> list<span>[sizeof(table)/sizeof(tablestr)]</span></li> 
-    <li><span>const</span> BUFFER_SIZE</li> 
-    <li><span>int</span> DiagSize</li> 
-    <li><span>int</span> GroupSize</li> 
-    <li><span>DData</span> Diag[1000]</li> 
-    <li><span>GData</span> Group[300]</li> 
-    <li><span>bool</span> isTreeViewSelected</li> 
-    <li><span>NodeStr</span> TV2Node</li> 
-    <li><span>bool</span> ppcmode</li> 
-    <li><span>int</span> Lang</li> 
-    <li><span>__fastcall</span> TForm1<span>::TForm1(TComponent *Owner):TForm(Owner)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::FormClose(TObject *Sender,TCloseAction&Action)</span></li> 
-    <li><span>bool</span> TForm1<span>::isSelectedDiag()</span></li> 
-    <li><span>bool</span> TForm1<span>::isSelectedGroup()</span></li> 
-    <li><span>char </span> AddResource<span>(TListBox *L,char *from,char *to)</span></li> 
-    <li><span>DData </span> TForm1<span>::DoDiag(char *name,TFileStream2 *f,DData&Diag,TListBox *L)</span></li> 
-    <li><span>GData </span> TForm1<span>::DoGroup(char *name,TFileStream2 *f,GData&Group)</span></li> 
-    <li><span>int</span> SearchGroup<span>(char *p)</span></li> 
-    <li><span>int</span> SearchDiag<span>(char *p)</span></li> 
-    <li><span>void</span> DecodeGroups<span>(char *groups,int *glink)</span></li> 
-    <li><span>void</span> DecodeDiags<span>(char *diags,int *dlink)</span></li> 
-    <li><span>bool</span> TForm1<span>::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
-    <li><span>bool</span> DoDiag2<span>(DData&Diag,TListBox *L,int&num)</span></li> 
-    <li><span>bool</span> TForm1<span>::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
-    <li><span>int __fastcall</span> TForm1<span>::SelectClick()</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::BevelClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::ListBox1Click(TObject *Sender)</span></li> 
-    <li><span>struct NodeStr</span> TForm1<span>::Develop(bool isParent,int i,NodeStr Node,TTreeView *GroupTree)</span></li> 
-    <li><span>struct NodeStr __fastcall</span> TForm1<span>::DevelopChild(int i,NodeStr Node,TTreeView *GroupTree)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::GroupReadClick()</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::GroupTreeClick(TObject *Sender)</span></li> 
-    <li><span>AnsiString</span> ConvertSl<span>(char *s)</span></li> 
-    <li><span>void</span> TForm1<span>::UpdateSystem()</span></li> 
-    <li><span>void</span> TForm1<span>::ShowDiagContents(TListBox *ListBox,int target)</span></li> 
-    <li><span>void</span> TForm1<span>::ShowGroupContents(TListBox *ListBox,int target)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::GroupTreeMouseDown(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::JumpToClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::GroupTreeMouseUp(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::MasterTreeDragOver(TObject *Sender,TObject *Source,int X,int Y,TDragState State,bool&Accept)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::MasterTreeDragDrop(TObject *Sender,TObject *Source,int X,int Y)</span></li> 
-    <li><span>bool</span> GetFileData<span>(AnsiString name,TSearchRec&sr)</span></li> 
-    <li><span>void</span> CopyResource<span>(AnsiString from,AnsiString to,bool isDelete)</span></li> 
-    <li><span>bool</span> isMatchCache<span>(TListBox *L,AnsiString file,AnsiString dfile)</span></li> 
-    <li><span>void</span> FDelete<span>(AnsiString dname,AnsiString fname)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::CreateButtonClick(TObject *Sender)</span></li> 
-    <li><span>int</span> TForm1<span>::isMatchResource(AnsiString str,TListBox *L)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::FileFormatGroupClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::FormActivate(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::RootPanelClick(TObject *Sender)</span></li> 
-    <li><span>void</span> TForm1<span>::ParseArg()</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::DvdrootPanelClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::MddlPanelClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::DeleteButtonClick(TObject *Sender)</span></li> 
-    <li><span>void</span> TForm1<span>::SetErrorMessage(EMode mode,TListBox *L,AnsiString s)</span></li> 
-    <li><span>void</span> TrimRAdd<span>(TListBox *L,AnsiString s)</span></li> 
-    <li><span>void</span> TrimLAdd<span>(TListBox *L,AnsiString s)</span></li> 
-    <li><span>void</span> TrimAdd<span>(TListBox *L,AnsiString s)</span></li> 
-    <li><span>bool</span> TForm1<span>::ReadMddl2(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::CheckButtonClick(TObject *Sender)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::WMGetMinMaxInfo(TWMGetMinMaxInfo&msg)</span></li> 
-    <li><span>void __fastcall</span> TForm1<span>::LangGroupClick(TObject *Sender)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">59</div>    <div class="rr-file-stat rr-file-stats-variables">22</div>    <div class="rr-file-stat rr-file-stats-lines">2294</div>  </div>
-</div>
+{% capture card_1_2_items %}
+- |||Form1 *Form1
+- AnsiString|||ConvertSl(char *s)
+- int|||SearchGroup(char *p)
+- int|||SearchDiag(char *p)
+- void|||DecodeGroups(char *groups,int *glink)
+- void|||DecodeDiags(char *diags,int *dlink)
+- bool|||GetFileData(AnsiString name,TSearchRec&sr)
+- void|||CopyResource(AnsiString from,AnsiString to,bool isDelete)
+- AnsiString|||groupfile
+- AnsiString|||diagfile
+- AnsiString|||resourcefile
+- AnsiString|||masterfile
+- AnsiString|||dvdrootdir
+- AnsiString|||mddldefname
+- char|||ENV_ROOT
+- char|||systemname
+- AnsiString|||rootdir
+- const|||BUTTON_WIDTH
+- const|||BUTTON_HEIGHT
+- |||tablestr table[]
+- TPanel|||list[sizeof(table)/sizeof(tablestr)]
+- const|||BUFFER_SIZE
+- int|||DiagSize
+- int|||GroupSize
+- DData|||Diag[1000]
+- GData|||Group[300]
+- bool|||isTreeViewSelected
+- NodeStr|||TV2Node
+- bool|||ppcmode
+- int|||Lang
+- __fastcall|||TForm1::TForm1(TComponent *Owner):TForm(Owner)
+- void __fastcall|||TForm1::FormClose(TObject *Sender,TCloseAction&Action)
+- bool|||TForm1::isSelectedDiag()
+- bool|||TForm1::isSelectedGroup()
+- char|||AddResource(TListBox *L,char *from,char *to)
+- DData|||TForm1::DoDiag(char *name,TFileStream2 *f,DData&Diag,TListBox *L)
+- GData|||TForm1::DoGroup(char *name,TFileStream2 *f,GData&Group)
+- int|||SearchGroup(char *p)
+- int|||SearchDiag(char *p)
+- void|||DecodeGroups(char *groups,int *glink)
+- void|||DecodeDiags(char *diags,int *dlink)
+- bool|||TForm1::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)
+- bool|||DoDiag2(DData&Diag,TListBox *L,int&num)
+- bool|||TForm1::ReadMddl(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)
+- int __fastcall|||TForm1::SelectClick()
+- void __fastcall|||TForm1::BevelClick(TObject *Sender)
+- void __fastcall|||TForm1::ListBox1Click(TObject *Sender)
+- struct NodeStr|||TForm1::Develop(bool isParent,int i,NodeStr Node,TTreeView *GroupTree)
+- struct NodeStr __fastcall|||TForm1::DevelopChild(int i,NodeStr Node,TTreeView *GroupTree)
+- void __fastcall|||TForm1::GroupReadClick()
+- void __fastcall|||TForm1::GroupTreeClick(TObject *Sender)
+- AnsiString|||ConvertSl(char *s)
+- void|||TForm1::UpdateSystem()
+- void|||TForm1::ShowDiagContents(TListBox *ListBox,int target)
+- void|||TForm1::ShowGroupContents(TListBox *ListBox,int target)
+- void __fastcall|||TForm1::GroupTreeMouseDown(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)
+- void __fastcall|||TForm1::JumpToClick(TObject *Sender)
+- void __fastcall|||TForm1::GroupTreeMouseUp(TObject *Sender,TMouseButton Button,TShiftState Shift,int X,int Y)
+- void __fastcall|||TForm1::MasterTreeDragOver(TObject *Sender,TObject *Source,int X,int Y,TDragState State,bool&Accept)
+- void __fastcall|||TForm1::MasterTreeDragDrop(TObject *Sender,TObject *Source,int X,int Y)
+- bool|||GetFileData(AnsiString name,TSearchRec&sr)
+- void|||CopyResource(AnsiString from,AnsiString to,bool isDelete)
+- bool|||isMatchCache(TListBox *L,AnsiString file,AnsiString dfile)
+- void|||FDelete(AnsiString dname,AnsiString fname)
+- void __fastcall|||TForm1::CreateButtonClick(TObject *Sender)
+- int|||TForm1::isMatchResource(AnsiString str,TListBox *L)
+- void __fastcall|||TForm1::FileFormatGroupClick(TObject *Sender)
+- void __fastcall|||TForm1::FormActivate(TObject *Sender)
+- void __fastcall|||TForm1::RootPanelClick(TObject *Sender)
+- void|||TForm1::ParseArg()
+- void __fastcall|||TForm1::DvdrootPanelClick(TObject *Sender)
+- void __fastcall|||TForm1::MddlPanelClick(TObject *Sender)
+- void __fastcall|||TForm1::DeleteButtonClick(TObject *Sender)
+- void|||TForm1::SetErrorMessage(EMode mode,TListBox *L,AnsiString s)
+- void|||TrimRAdd(TListBox *L,AnsiString s)
+- void|||TrimLAdd(TListBox *L,AnsiString s)
+- void|||TrimAdd(TListBox *L,AnsiString s)
+- bool|||TForm1::ReadMddl2(AnsiString filename,TListBox *L1,TListBox *L2,TListBox *L3)
+- void __fastcall|||TForm1::CheckButtonClick(TObject *Sender)
+- void __fastcall|||TForm1::WMGetMinMaxInfo(TWMGetMinMaxInfo&msg)
+- void __fastcall|||TForm1::LangGroupClick(TObject *Sender)
+{% endcapture %}
 
-  <div class="rr-file-card">
-  <img class="geopattern" data-title="makedol.c" />
-  <h3>makedol.c</h3><ul>
-    <li><span>u32</span> Verbose</li> 
-    <li><span>ElfHdr</span> Eh</li> 
-    <li><span>ElfPrgHdr </span> Ph</li> 
-    <li><span>u32</span> Swap32<span>(u32 val)</span></li> 
-    <li><span>u16</span> Swap16<span>(u16 val)</span></li> 
-    <li><span>void</span> SwapPh<span>(ElfPrgHdr *pp)</span></li> 
-    <li><span>void</span> SwapEh<span>(ElfHdr *ep)</span></li> 
-    <li><span>DolImage </span> EatPh<span>(FILE *fp)</span></li> 
-    <li><span>DolImage </span> ElfRead<span>(const char *elfFile)</span></li> 
-    <li><span>int</span> Pad32<span>(FILE *fout,u32 bytes)</span></li> 
-    <li><span>int</span> DumpDol<span>(DolImage *ip,char *outFile)</span></li> 
-    <li><span>void</span> ConvertToUnixFmt<span>(char *fmt)</span></li> 
-    <li><span>static u32</span> Swap32<span>(u32 val)</span></li> 
-    <li><span>static u16</span> Swap16<span>(u16 val)</span></li> 
-    <li><span>static void</span> SwapPh<span>(ElfPrgHdr *pp)</span></li> 
-    <li><span>static void</span> SwapEh<span>(ElfHdr *ep)</span></li> 
-    <li><span>static DolImage </span> EatPh<span>(FILE *fp)</span></li> 
-    <li><span>static DolImage </span> ElfRead<span>(const char *elfFile)</span></li> 
-    <li><span>static int</span> Pad32<span>(FILE *fout,u32 bytes)</span></li> 
-    <li><span>static int</span> DumpDol<span>(DolImage *ip,char *outFile)</span></li> 
-    <li><span>static void</span> ConvertToUnixFmt<span>(char *fmt)</span></li> 
-    <li><span>int</span> MakeDol<span>(char *inFile,char *outFile)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">496</div>  </div>
-</div>
+{% capture card_1_3_items %}
+- u32|||Verbose
+- ElfHdr|||Eh
+- ElfPrgHdr|||Ph
+- u32|||Swap32(u32 val)
+- u16|||Swap16(u16 val)
+- void|||SwapPh(ElfPrgHdr *pp)
+- void|||SwapEh(ElfHdr *ep)
+- DolImage|||EatPh(FILE *fp)
+- DolImage|||ElfRead(const char *elfFile)
+- int|||Pad32(FILE *fout,u32 bytes)
+- int|||DumpDol(DolImage *ip,char *outFile)
+- void|||ConvertToUnixFmt(char *fmt)
+- static u32|||Swap32(u32 val)
+- static u16|||Swap16(u16 val)
+- static void|||SwapPh(ElfPrgHdr *pp)
+- static void|||SwapEh(ElfHdr *ep)
+- static DolImage|||EatPh(FILE *fp)
+- static DolImage|||ElfRead(const char *elfFile)
+- static int|||Pad32(FILE *fout,u32 bytes)
+- static int|||DumpDol(DolImage *ip,char *outFile)
+- static void|||ConvertToUnixFmt(char *fmt)
+- int|||MakeDol(char *inFile,char *outFile)
+{% endcapture %}
 
-</section>
+{% capture section_1_cards %}
+{% include source-code-card.html title="TFileStream2.cpp" items=card_1_1_items functions="6" variables="5" lines="164" %}
+{% include source-code-card.html title="Unit1.cpp" items=card_1_2_items functions="59" variables="22" lines="2294" %}
+{% include source-code-card.html title="makedol.c" items=card_1_3_items functions="19" variables="3" lines="496" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
 
 ---
 ## Include (/include)
@@ -419,32 +412,25 @@ File Name | Extension | Description
 simplekit | .h | Include file for declaring all of the helpful render functions such as **SKITRenderText**
 
 
-<div class="rr-source-code-title">Code Files</div>
-<section class="rr-main-cards">
-  <div class="rr-file-card">
-    <img class="geopattern" data-title="simplekit.h" />
-  <h3>simplekit.h</h3>
-  <ul>
-    <li><span>void</span> SKITInit<span>(void)</span></li> 
-    <li><span>void</span> SKITRenderPoint<span>(int x,int y,int pixel,u32 clr)</span></li> 
-    <li><span>void</span> SKITRenderText<span>(int x,int y,f32 scale,const char *msg)</span></li> 
-    <li><span>void</span> SKITRenderLine<span>(s16 x1,s16 y1,s16 x2,s16 y2,u32 clr)</span></li> 
-    <li><span>void</span> SKITRenderRectangle<span>(s16 x1,s16 y1,s16 x2,s16 y2,u32 clr)</span></li> 
-    <li><span>void</span> SKITRenderCircle<span>(s16 x,s16 y,s16 r,s16 div,u32 clr)</span></li> 
-    <li><span>void</span> SKITRenderTime<span>(int x,int y,f32 scale)</span></li> 
-    <li><span>void</span> SKITResetHandler<span>(void)</span></li> 
-    <li><span>void</span> SKITWaitMilliSec<span>(u32 msec)</span></li> 
-    <li><span>void</span> SKITWaitMicroSec<span>(u32 usec)</span></li> 
-    <li><span>void</span> SKITWaitNanoSec<span>(u32 nsec)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    
-     <div class="rr-file-stat rr-file-stats-functions">11</div>
-    <div class="rr-file-stat rr-file-stats-variables">0</div>
-    <div class="rr-file-stat rr-file-stats-lines">47</div>
-  </div>
-</div>
+{% capture card_2_1_items %}
+- void|||SKITInit(void)
+- void|||SKITRenderPoint(int x,int y,int pixel,u32 clr)
+- void|||SKITRenderText(int x,int y,f32 scale,const char *msg)
+- void|||SKITRenderLine(s16 x1,s16 y1,s16 x2,s16 y2,u32 clr)
+- void|||SKITRenderRectangle(s16 x1,s16 y1,s16 x2,s16 y2,u32 clr)
+- void|||SKITRenderCircle(s16 x,s16 y,s16 r,s16 div,u32 clr)
+- void|||SKITRenderTime(int x,int y,f32 scale)
+- void|||SKITResetHandler(void)
+- void|||SKITWaitMilliSec(u32 msec)
+- void|||SKITWaitMicroSec(u32 usec)
+- void|||SKITWaitNanoSec(u32 nsec)
+{% endcapture %}
 
-</section>
+{% capture section_2_cards %}
+{% include source-code-card.html title="simplekit.h" items=card_2_1_items functions="11" variables="0" lines="47" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
 
 ---
 ### Uji (/include/uji)
@@ -494,248 +480,193 @@ The most interesting part of this codebase is the LayerSystem allowing easy draw
 
 If we didn't already have multiple homebrew examples showing off similar functionality this would be a great library to recommend for anyone wanting to create some simple 2D interfaces on the Gamecube!
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="BasicPad.h" />
-  <h3>BasicPad.h</h3>
-  <ul>
-    <li><span>JPad</span> jPad[PAD_MAX_CONTROLLERS]</li> 
-    <li><span>BOOL</span> Down</li> 
-    <li><span>BOOL</span> Left</li> 
-    <li><span>BOOL</span> Right</li> 
-    <li><span>BOOL</span> A</li> 
-    <li><span></span> BOOL B</li> 
-    <li><span>BO</span> L L</li> 
-    <li><span>BOOL</span> R</li> 
-    <li><span>BOOL</span> X</li> 
-    <li><span>BOOL</span> Y</li> 
-    <li><span>BOOL</span> Z</li> 
-    <li><span>BOOL</span> Start</li> 
-    <li><span></span> BASIC_PAD_TYPE</li> 
-    <li><span>BASIC_PAD_TYPE </span> padGet<span>(void)</span></li> 
-    <li><span>BASIC_PAD_TYPE </span> padWait<span>(void)</span></li> 
-    <li><span>BASIC_PAD_TYPE </span> padGetRaw<span>(void)</span></li> 
-    <li><span>BASIC_PAD_TYPE </span> padGetRawEx<span>(u32 num)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">13</div>    <div class="rr-file-stat rr-file-stats-lines">100</div>  </div>
- </div>
+{% capture card_3_1_items %}
+- JPad|||jPad[PAD_MAX_CONTROLLERS]
+- BOOL|||Down
+- BOOL|||Left
+- BOOL|||Right
+- BOOL|||A
+- |||BOOL B
+- BO|||L L
+- BOOL|||R
+- BOOL|||X
+- BOOL|||Y
+- BOOL|||Z
+- BOOL|||Start
+- |||BASIC_PAD_TYPE
+- BASIC_PAD_TYPE|||padGet(void)
+- BASIC_PAD_TYPE|||padWait(void)
+- BASIC_PAD_TYPE|||padGetRaw(void)
+- BASIC_PAD_TYPE|||padGetRawEx(u32 num)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="BasicPuts.h" />
-  <h3>BasicPuts.h</h3>
-  <ul>
-    <li><span>OSFontHeader </span> GetRomFontHeader<span>(void)</span></li> 
-    <li><span>const GXColor</span> DefaultTextPalette[DEFAULT_TEXT_PALETTE_NUM]</li> 
-    <li><span>void</span> InitRomFont<span>(void)</span></li> 
-    <li><span>OSFontHeader </span> GetRomFontHeader<span>(void)</span></li> 
-    <li><span>void</span> DsSetROMFontSize<span>(s16 size,s16 space)</span></li> 
-    <li><span>void</span> DsGetROMFontSize<span>(s16 *size,s16 *space)</span></li> 
-    <li><span>u32</span> DsSetFontColor<span>(u32 color)</span></li> 
-    <li><span>int</span> DsPuts<span>(s16 x,s16 y,s16 z,char *string)</span></li> 
-    <li><span>int</span> DsPrintf<span>(s16 x,s16 y,s16 z,char *fmt,...)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">51</div>  </div>
- </div>
+{% capture card_3_2_items %}
+- OSFontHeader|||GetRomFontHeader(void)
+- const GXColor|||DefaultTextPalette[DEFAULT_TEXT_PALETTE_NUM]
+- void|||InitRomFont(void)
+- OSFontHeader|||GetRomFontHeader(void)
+- void|||DsSetROMFontSize(s16 size,s16 space)
+- void|||DsGetROMFontSize(s16 *size,s16 *space)
+- u32|||DsSetFontColor(u32 color)
+- int|||DsPuts(s16 x,s16 y,s16 z,char *string)
+- int|||DsPrintf(s16 x,s16 y,s16 z,char *fmt,...)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="Crc.h" />
-  <h3>Crc.h</h3>
-  <ul>
-    <li><span>u32</span> ComputeCRC32<span>(u8 *buf,u32 length)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">26</div>  </div>
- </div>
+{% capture card_3_3_items %}
+- u32|||ComputeCRC32(u8 *buf,u32 length)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="InitSystem.h" />
-  <h3>InitSystem.h</h3>
-  <ul>
-    <li><span>void</span> InitSystem<span>(GXRenderModeObj *mode)</span></li> 
-    <li><span>BOOL</span> InitLayerSystem<span>(MEMAllocator *hHeap,ILayer layer)</span></li> 
-    <li><span>MEMAllocator </span> GetSysAllocator<span>(void)</span></li> 
-    <li><span>void</span> InitAllocator<span>(MemPack *userMem1,MemPack *userMem2)</span></li> 
-    <li><span>void</span> BeforeRender<span>(void)</span></li> 
-    <li><span>void</span> DoneRender<span>(void)</span></li> 
-    <li><span>void</span> SwapBuffers<span>(void)</span></li> 
-    <li><span>GXRenderModeObj </span> GetRenderModeObj<span>(void)</span></li> 
-    <li><span>void </span> GetCurrentBuffer<span>(void)</span></li> 
-    <li><span>void</span> ReInit<span>(GXRenderModeObj *mode)</span></li> 
-    <li><span>void</span> SwapRmodeBuffers<span>(RMODE_SET mode)</span></li> 
-    <li><span>OSThreadQueue</span> jPostRetraceCallbackThreadQueue</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">11</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">91</div>  </div>
- </div>
+{% capture card_3_4_items %}
+- void|||InitSystem(GXRenderModeObj *mode)
+- BOOL|||InitLayerSystem(MEMAllocator *hHeap,ILayer layer)
+- MEMAllocator|||GetSysAllocator(void)
+- void|||InitAllocator(MemPack *userMem1,MemPack *userMem2)
+- void|||BeforeRender(void)
+- void|||DoneRender(void)
+- void|||SwapBuffers(void)
+- GXRenderModeObj|||GetRenderModeObj(void)
+- void|||GetCurrentBuffer(void)
+- void|||ReInit(GXRenderModeObj *mode)
+- void|||SwapRmodeBuffers(RMODE_SET mode)
+- OSThreadQueue|||jPostRetraceCallbackThreadQueue
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="Layer.h" />
-  <h3>Layer.h</h3>
-  <ul>
-    <li><span>LGradationColor</span> DefaultBgGradPalette[]</li> 
-    <li><span>ILayer</span> LtCreateTextLayer<span>(s32 x,s32 y,s32 chrElmsX,s32 chrElmsY,s32 bufferHeight)</span></li> 
-    <li><span>void</span> LtPrintf<span>(ILayer layer,char *format,...)</span></li> 
-    <li><span>void</span> LtPrintfEx<span>(ILayer layer,LPOINT cursor,char *format,...)</span></li> 
-    <li><span>void</span> LtPuts<span>(ILayer layer,char *buffer)</span></li> 
-    <li><span>void</span> LtPutsEx<span>(ILayer layer,LPOINT cursor,char *buffer)</span></li> 
-    <li><span>u32</span> LtSetTextColor<span>(ILayer layer,u32 color)</span></li> 
-    <li><span>u32</span> LtGetTextColor<span>(ILayer layer)</span></li> 
-    <li><span>BOOL</span> LtSetTextReverse<span>(ILayer layer,BOOL reverse)</span></li> 
-    <li><span>BOOL</span> LtGetTextReverse<span>(ILayer layer)</span></li> 
-    <li><span>BOOL</span> LtSetTextBlink<span>(ILayer layer,BOOL blink)</span></li> 
-    <li><span>BOOL</span> LtGetTextBlink<span>(ILayer layer)</span></li> 
-    <li><span>s32</span> LtSetTextFontHeight<span>(ILayer layer,s32 fontHeight)</span></li> 
-    <li><span>s32</span> LtGetTextFontHeight<span>(ILayer layer)</span></li> 
-    <li><span>BOOL</span> LtSetTextCursorVisible<span>(ILayer layer,BOOL visible)</span></li> 
-    <li><span>BOOL</span> LtGetTextCursorVisible<span>(ILayer layer)</span></li> 
-    <li><span>LPOINT</span> LtSetTextCursor<span>(ILayer layer,LPOINT cursor)</span></li> 
-    <li><span>LPOINT</span> LtGetTextCursor<span>(ILayer layer)</span></li> 
-    <li><span>u32</span> LtInputDataEx<span>(ILayer layer,u32 Initial)</span></li> 
-    <li><span>u16</span> LtInputData16Ex<span>(ILayer layer,u16 Initial)</span></li> 
-    <li><span>u32</span> LtInputDecimalEx<span>(ILayer layer,u32 Initial)</span></li> 
-    <li><span>BOOL</span> LtInputBoolEx<span>(ILayer layer,BOOL Value)</span></li> 
-    <li><span>u32</span> LtInputData<span>(u32 Initial)</span></li> 
-    <li><span>u16</span> LtInputData16<span>(u16 Initial)</span></li> 
-    <li><span>u32</span> LtInputDecimal<span>(u32 Initial)</span></li> 
-    <li><span>BOOL</span> LtInputBool<span>(BOOL Value)</span></li> 
-    <li><span>BOOL</span> LtShowMessage<span>(const char *Message)</span></li> 
-    <li><span>ILayer</span> LiCreateImageLayer<span>(s32 x,s32 y,u32 width,u32 height,char *fileName)</span></li> 
-    <li><span>void</span> LiAdjustImageSizeIntoOriginal<span>(ILayer layer)</span></li> 
-    <li><span>LRatio</span> LiSetImageRatio<span>(ILayer layer,LRatio ratio)</span></li> 
-    <li><span>LRatio</span> LiGetImageRatio<span>(ILayer layer)</span></li> 
-    <li><span>u32</span> LiSetImageId<span>(ILayer layer,u32 id)</span></li> 
-    <li><span>u32</span> LiGetImageId<span>(ILayer layer)</span></li> 
-    <li><span>void</span> LmSetRootLayer<span>(ILayer layer)</span></li> 
-    <li><span>ILayer</span> LmGetRootLayer<span>(void)</span></li> 
-    <li><span>void</span> LmSetCurrentLayer<span>(ILayer layer)</span></li> 
-    <li><span>ILayer</span> LmGetCurrentLayer<span>(void)</span></li> 
-    <li><span>ILayer</span> LmCreateSubLayer<span>(s32 x,s32 y,u32 w,u32 h)</span></li> 
-    <li><span>ILayer</span> LmCreateTextSubLayerEx<span>(char *name,s32 x,s32 y,s32 chrElmsX,s32 chrElmsY,s32 bufferHeight)</span></li> 
-    <li><span>ILayer</span> LmCreateTextSubLayer<span>(char *name,s32 x,s32 y,s32 chrElmsX,s32 chrElmsY)</span></li> 
-    <li><span>ILayer</span> LmCreateImageSubLayer<span>(s32 x,s32 y,u32 width,u32 height,char *fileName)</span></li> 
-    <li><span>BOOL</span> LmDeleteLayer<span>(ILayer layer)</span></li> 
-    <li><span>BOOL</span> LmDeleteSubLayer<span>(ILayer layer)</span></li> 
-    <li><span>BOOL</span> LmDeleteSubLayerIndex<span>(s32 index)</span></li> 
-    <li><span>ILayer</span> LmGetSubLayer<span>(s32 index)</span></li> 
-    <li><span>void</span> LmIntoLayer<span>(s32 index)</span></li> 
-    <li><span>void</span> LmBackLayer<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">46</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">213</div>  </div>
- </div>
+{% capture card_3_5_items %}
+- LGradationColor|||DefaultBgGradPalette[]
+- ILayer|||LtCreateTextLayer(s32 x,s32 y,s32 chrElmsX,s32 chrElmsY,s32 bufferHeight)
+- void|||LtPrintf(ILayer layer,char *format,...)
+- void|||LtPrintfEx(ILayer layer,LPOINT cursor,char *format,...)
+- void|||LtPuts(ILayer layer,char *buffer)
+- void|||LtPutsEx(ILayer layer,LPOINT cursor,char *buffer)
+- u32|||LtSetTextColor(ILayer layer,u32 color)
+- u32|||LtGetTextColor(ILayer layer)
+- BOOL|||LtSetTextReverse(ILayer layer,BOOL reverse)
+- BOOL|||LtGetTextReverse(ILayer layer)
+- BOOL|||LtSetTextBlink(ILayer layer,BOOL blink)
+- BOOL|||LtGetTextBlink(ILayer layer)
+- s32|||LtSetTextFontHeight(ILayer layer,s32 fontHeight)
+- s32|||LtGetTextFontHeight(ILayer layer)
+- BOOL|||LtSetTextCursorVisible(ILayer layer,BOOL visible)
+- BOOL|||LtGetTextCursorVisible(ILayer layer)
+- LPOINT|||LtSetTextCursor(ILayer layer,LPOINT cursor)
+- LPOINT|||LtGetTextCursor(ILayer layer)
+- u32|||LtInputDataEx(ILayer layer,u32 Initial)
+- u16|||LtInputData16Ex(ILayer layer,u16 Initial)
+- u32|||LtInputDecimalEx(ILayer layer,u32 Initial)
+- BOOL|||LtInputBoolEx(ILayer layer,BOOL Value)
+- u32|||LtInputData(u32 Initial)
+- u16|||LtInputData16(u16 Initial)
+- u32|||LtInputDecimal(u32 Initial)
+- BOOL|||LtInputBool(BOOL Value)
+- BOOL|||LtShowMessage(const char *Message)
+- ILayer|||LiCreateImageLayer(s32 x,s32 y,u32 width,u32 height,char *fileName)
+- void|||LiAdjustImageSizeIntoOriginal(ILayer layer)
+- LRatio|||LiSetImageRatio(ILayer layer,LRatio ratio)
+- LRatio|||LiGetImageRatio(ILayer layer)
+- u32|||LiSetImageId(ILayer layer,u32 id)
+- u32|||LiGetImageId(ILayer layer)
+- void|||LmSetRootLayer(ILayer layer)
+- ILayer|||LmGetRootLayer(void)
+- void|||LmSetCurrentLayer(ILayer layer)
+- ILayer|||LmGetCurrentLayer(void)
+- ILayer|||LmCreateSubLayer(s32 x,s32 y,u32 w,u32 h)
+- ILayer|||LmCreateTextSubLayerEx(char *name,s32 x,s32 y,s32 chrElmsX,s32 chrElmsY,s32 bufferHeight)
+- ILayer|||LmCreateTextSubLayer(char *name,s32 x,s32 y,s32 chrElmsX,s32 chrElmsY)
+- ILayer|||LmCreateImageSubLayer(s32 x,s32 y,u32 width,u32 height,char *fileName)
+- BOOL|||LmDeleteLayer(ILayer layer)
+- BOOL|||LmDeleteSubLayer(ILayer layer)
+- BOOL|||LmDeleteSubLayerIndex(s32 index)
+- ILayer|||LmGetSubLayer(s32 index)
+- void|||LmIntoLayer(s32 index)
+- void|||LmBackLayer(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="LayerInterface.h" />
-  <h3>LayerInterface.h</h3>
-  <ul>
-    <li><span>ILayerManager</span> CreateLayerManager<span>(void)</span></li> 
-    <li><span>u32</span> GetTemplateLayerSize<span>(void)</span></li> 
-    <li><span>void</span> GetTemplateLayer<span>(void *layer)</span></li> 
-    <li><span>ILayer</span> CreateLayer<span>(s32 x,s32 y,u32 width,u32 height)</span></li> 
-    <li><span>void</span> DrawLayer<span>(ILayer layer)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">139</div>  </div>
- </div>
+{% capture card_3_6_items %}
+- ILayerManager|||CreateLayerManager(void)
+- u32|||GetTemplateLayerSize(void)
+- void|||GetTemplateLayer(void *layer)
+- ILayer|||CreateLayer(s32 x,s32 y,u32 width,u32 height)
+- void|||DrawLayer(ILayer layer)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="Menu.h" />
-  <h3>Menu.h</h3>
-  <ul>
-    <li><span>void</span> menuOpen<span>(ILayer Layer,MENU_TYPE *MENU)</span></li> 
-    <li><span>void</span> ShowMenu<span>(ILayer layer,const MENU_TYPE *Menu)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">66</div>  </div>
- </div>
+{% capture card_3_7_items %}
+- void|||menuOpen(ILayer Layer,MENU_TYPE *MENU)
+- void|||ShowMenu(ILayer layer,const MENU_TYPE *Menu)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="PortExi.h" />
-  <h3>PortExi.h</h3>
-  <ul>
-    <li><span>BOOL</span> portProbe<span>(void)</span></li> 
-    <li><span>s32</span> portWrite<span>(u32 address,u32 data)</span></li> 
-    <li><span>s32</span> portRead<span>(u32 address,u32 *data)</span></li> 
-    <li><span>u32</span> portGetExiFreq<span>(void)</span></li> 
-    <li><span>void</span> portSetExiFreq<span>(u32 freq)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">42</div>  </div>
- </div>
+{% capture card_3_8_items %}
+- BOOL|||portProbe(void)
+- s32|||portWrite(u32 address,u32 data)
+- s32|||portRead(u32 address,u32 *data)
+- u32|||portGetExiFreq(void)
+- void|||portSetExiFreq(u32 freq)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="Thread.h" />
-  <h3>Thread.h</h3>
-  <ul>
-    <li><span>void</span> jStartGxThread<span>(OSPriority priority)</span></li> 
-    <li><span>void</span> jGxSuspendThread<span>(void)</span></li> 
-    <li><span>void</span> jGxResumeThread<span>(void)</span></li> 
-    <li><span>void</span> jStartPadThread<span>(OSPriority priority)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">44</div>  </div>
- </div>
+{% capture card_3_9_items %}
+- void|||jStartGxThread(OSPriority priority)
+- void|||jGxSuspendThread(void)
+- void|||jGxResumeThread(void)
+- void|||jStartPadThread(OSPriority priority)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="WriteLog.h" />
-  <h3>WriteLog.h</h3>
-  <ul>
-    <li><span>s32</span> InspectionLog<span>(char *test_name,char *test_result,char *test_Ver)</span></li> 
-    <li><span>s32</span> WriteFreeLog<span>(char *test_name,char *test_result,char *test_Ver)</span></li> 
-    <li><span>s32</span> InspectionLogFunc<span>(char *nand_dir_name,char *nand_file_name,char *test_name,char *test_result,char *test_Ver)</span></li> 
-    <li><span>s32</span> WriteLogToNand<span>(char *nand_dir_name,char *nand_file_name,void *write_buf)</span></li> 
-    <li><span>s32</span> WriteAgingLog<span>(char *test_name,char *test_result,char *test_Ver)</span></li> 
-    <li><span>s32</span> WriteAgingInfo<span>(char *aging_info)</span></li> 
-    <li><span>s32</span> AgingLogFunc<span>(char *nand_dir_name,char *nand_file_name,char *test_name,char *test_result,char *test_Ver)</span></li> 
-    <li><span>s32</span> WriteFreeLogToNand<span>(char *nand_dir_name,char *nand_file_name,void *write_buf)</span></li> 
-    <li><span>s32</span> CheckOneProcess<span>(char *nand_file_name,char *test_name)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">152</div>  </div>
- </div>
+{% capture card_3_10_items %}
+- s32|||InspectionLog(char *test_name,char *test_result,char *test_Ver)
+- s32|||WriteFreeLog(char *test_name,char *test_result,char *test_Ver)
+- s32|||InspectionLogFunc(char *nand_dir_name,char *nand_file_name,char *test_name,char *test_result,char *test_Ver)
+- s32|||WriteLogToNand(char *nand_dir_name,char *nand_file_name,void *write_buf)
+- s32|||WriteAgingLog(char *test_name,char *test_result,char *test_Ver)
+- s32|||WriteAgingInfo(char *aging_info)
+- s32|||AgingLogFunc(char *nand_dir_name,char *nand_file_name,char *test_name,char *test_result,char *test_Ver)
+- s32|||WriteFreeLogToNand(char *nand_dir_name,char *nand_file_name,void *write_buf)
+- s32|||CheckOneProcess(char *nand_file_name,char *test_name)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="barcode.h" />
-  <h3>barcode.h</h3>
-  <ul>
-    <li><span>void</span> InitBarcode<span>(MEMAllocator *pAllocator,ILayer *layer)</span></li> 
-    <li><span>int</span> GetBarcodeScan<span>(char *strSerialNo,int timeout)</span></li> 
-    <li><span>void</span> BarcodePrint<span>(char *format,...)</span></li> 
-    <li><span>void</span> BarcodePrintEx<span>(LPOINT lp,char *format,...)</span></li> 
-    <li><span>ILayer</span> GetBarcodeILayer<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">59</div>  </div>
- </div>
+{% capture card_3_11_items %}
+- void|||InitBarcode(MEMAllocator *pAllocator,ILayer *layer)
+- int|||GetBarcodeScan(char *strSerialNo,int timeout)
+- void|||BarcodePrint(char *format,...)
+- void|||BarcodePrintEx(LPOINT lp,char *format,...)
+- ILayer|||GetBarcodeILayer(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="chklog.h" />
-  <h3>chklog.h</h3>
-  <ul>
-    <li><span>s32</span> CheckHwWriteLog<span>(MEMHeapHandle heap)</span></li> 
-    <li><span>s32</span> CheckProcessFunc<span>(char *nand_file_name,u32 test_num,char test_name[][64],MEMHeapHandle heap)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">56</div>  </div>
- </div>
+{% capture card_3_12_items %}
+- s32|||CheckHwWriteLog(MEMHeapHandle heap)
+- s32|||CheckProcessFunc(char *nand_file_name,u32 test_num,char test_name[][64],MEMHeapHandle heap)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dpsram.h" />
-  <h3>dpsram.h</h3>
-  <ul>
-    <li><span>void</span> commSend<span>(u32 ErrorCode,u32 *Data,int DataSize)</span></li> 
-    <li><span>BOOL</span> commCanReceive<span>(void)</span></li> 
-    <li><span>BOOL</span> commReceive<span>(u16 *InstructionCode,u32 *Data,int DataSize)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">43</div>  </div>
- </div>
+{% capture card_3_13_items %}
+- void|||commSend(u32 ErrorCode,u32 *Data,int DataSize)
+- BOOL|||commCanReceive(void)
+- BOOL|||commReceive(u16 *InstructionCode,u32 *Data,int DataSize)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sled.h" />
-  <h3>sled.h</h3>
-  <ul>
-    <li><span>void</span> SledTestStart<span>(void)</span></li> 
-    <li><span>void</span> SledTestOk<span>(void)</span></li> 
-    <li><span>void</span> SledTestNg<span>(void)</span></li> 
-    <li><span>void</span> SledOn<span>(void)</span></li> 
-    <li><span>void</span> SledOff<span>(void)</span></li> 
-    <li><span>void</span> SledFlashStart<span>(int flash_time)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">26</div>  </div>
- </div>
+{% capture card_3_14_items %}
+- void|||SledTestStart(void)
+- void|||SledTestOk(void)
+- void|||SledTestNg(void)
+- void|||SledOn(void)
+- void|||SledOff(void)
+- void|||SledFlashStart(int flash_time)
+{% endcapture %}
 
-</section>
+{% capture section_3_cards %}
+{% include source-code-card.html title="BasicPad.h" items=card_3_1_items functions="4" variables="13" lines="100" %}
+{% include source-code-card.html title="BasicPuts.h" items=card_3_2_items functions="8" variables="1" lines="51" %}
+{% include source-code-card.html title="Crc.h" items=card_3_3_items functions="1" variables="0" lines="26" %}
+{% include source-code-card.html title="InitSystem.h" items=card_3_4_items functions="11" variables="1" lines="91" %}
+{% include source-code-card.html title="Layer.h" items=card_3_5_items functions="46" variables="1" lines="213" %}
+{% include source-code-card.html title="LayerInterface.h" items=card_3_6_items functions="5" variables="0" lines="139" %}
+{% include source-code-card.html title="Menu.h" items=card_3_7_items functions="2" variables="0" lines="66" %}
+{% include source-code-card.html title="PortExi.h" items=card_3_8_items functions="5" variables="0" lines="42" %}
+{% include source-code-card.html title="Thread.h" items=card_3_9_items functions="4" variables="0" lines="44" %}
+{% include source-code-card.html title="WriteLog.h" items=card_3_10_items functions="9" variables="0" lines="152" %}
+{% include source-code-card.html title="barcode.h" items=card_3_11_items functions="5" variables="0" lines="59" %}
+{% include source-code-card.html title="chklog.h" items=card_3_12_items functions="2" variables="0" lines="56" %}
+{% include source-code-card.html title="dpsram.h" items=card_3_13_items functions="3" variables="0" lines="43" %}
+{% include source-code-card.html title="sled.h" items=card_3_14_items functions="6" variables="0" lines="26" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
 
 ---
 ### Diag Test SDK Headers (/include/diag)
@@ -764,235 +695,208 @@ wkreport | .h | Include file for declaring functions to read and write data usin
 The main question we have after looking into the files in this folder is what exactly is Waikiki, it looks like some sort of interface and has a function that allows it to be probed **WKProbe**.
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="SItoUSB.h" />
-  <h3>SItoUSB.h</h3>
-  <ul>
-    <li><span>BOOL</span> SIusbCheckDev<span>(s32 chan)</span></li> 
-    <li><span>BOOL</span> SIusbReset<span>(s32 chan,u32 *buf)</span></li> 
-    <li><span>BOOL</span> SIusbGetStatus<span>(s32 chan,u32 *buf)</span></li> 
-    <li><span>BOOL</span> SIusbCheckFifo<span>(s32 chan,u16 *buf)</span></li> 
-    <li><span>BOOL</span> SIusbTrans<span>(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf)</span></li> 
-    <li><span>BOOL</span> SIusbTransAsync<span>(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf,SIUSBcallback callback)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">39</div>  </div>
- </div>
+{% capture card_4_1_items %}
+- BOOL|||SIusbCheckDev(s32 chan)
+- BOOL|||SIusbReset(s32 chan,u32 *buf)
+- BOOL|||SIusbGetStatus(s32 chan,u32 *buf)
+- BOOL|||SIusbCheckFifo(s32 chan,u16 *buf)
+- BOOL|||SIusbTrans(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf)
+- BOOL|||SIusbTransAsync(s32 chan,u8 wr_size,void *wr_buf,u8 rd_size,void *rd_buf,SIUSBcallback callback)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="SIusbOSReport.h" />
-  <h3>SIusbOSReport.h</h3>
-  <ul>
-    <li><span>BOOL</span> SIusbCheckAllReportFinish<span>(void)</span></li> 
-    <li><span>BOOL</span> SIusbOSReportInit<span>(void)</span></li> 
-    <li><span>void</span> SIusbOSReportOri<span>(const char *msg,...)</span></li> 
-    <li><span>void</span> SIusbOSReport<span>(const char *msg,...)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">21</div>  </div>
- </div>
+{% capture card_4_2_items %}
+- BOOL|||SIusbCheckAllReportFinish(void)
+- BOOL|||SIusbOSReportInit(void)
+- void|||SIusbOSReportOri(const char *msg,...)
+- void|||SIusbOSReport(const char *msg,...)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="diagcommon.h" />
-  <h3>diagcommon.h</h3>
-  <ul>
-    <li><span>s32</span> DIAGGetEnv<span>(Env *env)</span></li> 
-    <li><span>void</span> DIAGPutEnv<span>(Env *env)</span></li> 
-    <li><span>u32</span> DIAGGetSettingLoop<span>(void)</span></li> 
-    <li><span>u32</span> DIAGGetCurrentLoop<span>(void)</span></li> 
-    <li><span>s32</span> DIAGGetCfg<span>(Cfg *cfg)</span></li> 
-    <li><span>void</span> DIAGPutCfg<span>(Cfg *cfg)</span></li> 
-    <li><span>void</span> __OSLaunchMenu<span>(void)</span></li> 
-    <li><span>void</span> __OSRelaunchTitle<span>(void)</span></li> 
-    <li><span>s32</span> NANDFinalize<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">147</div>  </div>
- </div>
+{% capture card_4_3_items %}
+- s32|||DIAGGetEnv(Env *env)
+- void|||DIAGPutEnv(Env *env)
+- u32|||DIAGGetSettingLoop(void)
+- u32|||DIAGGetCurrentLoop(void)
+- s32|||DIAGGetCfg(Cfg *cfg)
+- void|||DIAGPutCfg(Cfg *cfg)
+- void|||__OSLaunchMenu(void)
+- void|||__OSRelaunchTitle(void)
+- s32|||NANDFinalize(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="diagsdk.h" />
-  <h3>diagsdk.h</h3>
-  <ul>
-    <li><span>u32</span> DIAGStart<span>(void)</span></li> 
-    <li><span>void</span> DIAGStop<span>(u32 status)</span></li> 
-    <li><span>BOOL</span> DIAGGetLogDest<span>(s32 *chan,u32 *dev)</span></li> 
-    <li><span>s32</span> DIAGProbeBarnacle<span>(s32 chan,u32 dev)</span></li> 
-    <li><span>BOOL</span> DIAGReadBarnacle<span>(s32 chan,u32 dev,u32 command,u8 *result)</span></li> 
-    <li><span>BOOL</span> DIAGCheckIPL<span>(void)</span></li> 
-    <li><span>u32</span> DIAGGetHwRev<span>(void)</span></li> 
-    <li><span>void</span> DIAGReportStart<span>(void)</span></li> 
-    <li><span>void</span> DIAGReportStop<span>(void)</span></li> 
-    <li><span>BOOL</span> DIAGReportStat<span>(void)</span></li> 
-    <li><span>void</span> DIAGInitCRC<span>(int argc,char **argv)</span></li> 
-    <li><span>u32</span> DIAGComputeCRC<span>(s32 *buf,u32 size)</span></li> 
-    <li><span>s32</span> DIAGCheckCRC<span>(s32 *buf,u32 size)</span></li> 
-    <li><span>u32</span> DIAGGetCRCValue<span>()</span></li> 
-    <li><span>s32</span> DIAGGetCRCCount<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">15</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
- </div>
+{% capture card_4_4_items %}
+- u32|||DIAGStart(void)
+- void|||DIAGStop(u32 status)
+- BOOL|||DIAGGetLogDest(s32 *chan,u32 *dev)
+- s32|||DIAGProbeBarnacle(s32 chan,u32 dev)
+- BOOL|||DIAGReadBarnacle(s32 chan,u32 dev,u32 command,u8 *result)
+- BOOL|||DIAGCheckIPL(void)
+- u32|||DIAGGetHwRev(void)
+- void|||DIAGReportStart(void)
+- void|||DIAGReportStop(void)
+- BOOL|||DIAGReportStat(void)
+- void|||DIAGInitCRC(int argc,char **argv)
+- u32|||DIAGComputeCRC(s32 *buf,u32 size)
+- s32|||DIAGCheckCRC(s32 *buf,u32 size)
+- u32|||DIAGGetCRCValue()
+- s32|||DIAGGetCRCCount()
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sdio.h" />
-  <h3>sdio.h</h3>
-  <ul>
-    <li><span>void</span> sdi_init_intr<span>(void(*irqCb)(void))</span></li> 
-    <li><span>void</span> sdi_init<span>(void(*irqCb)(void))</span></li> 
-    <li><span>sdi_slot_t</span> sdi_handle<span>(u32 ctrl,u32 slot)</span></li> 
-    <li><span>void</span> sdi_set_debug<span>(u32 debug)</span></li> 
-    <li><span>u32</span> sdi_rd_reg<span>(sdi_slot_t sp,u32 offset)</span></li> 
-    <li><span>void</span> sdi_wr_reg<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
-    <li><span>void</span> sdi_wr_reg16<span>(sdi_slot_t sp,u32 offset,u32 val)</span></li> 
-    <li><span>u32</span> sdi_verif_reg<span>(sdi_slot_t sp,u32 offset,u32 expected)</span></li> 
-    <li><span>void</span> sdi_reg_intr<span>(sdi_slot_t sp,u32 intr,void(*irq)(sdi_slot_t,void *),void *closure)</span></li> 
-    <li><span>void</span> sdi_intr<span>(void)</span></li> 
-    <li><span>u32</span> sdi_get_istat<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_clear_istat<span>(sdi_slot_t sp,u32 ibits)</span></li> 
-    <li><span>u32</span> sdi_wait_istat<span>(sdi_slot_t sp,u32 ibits,u32 bail_on_abort)</span></li> 
-    <li><span>void</span> sdi_wr_host_ctrl<span>(sdi_slot_t sp,u32 in_data)</span></li> 
-    <li><span>void</span> sdi_int_regs_en<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_wr_nor_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
-    <li><span>void</span> sdi_wr_err_int_sts_en<span>(sdi_slot_t sp,u32 en)</span></li> 
-    <li><span>void</span> sdi_err_int_recover<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd)</span></li> 
-    <li><span>u32</span> sdi_io_cmd<span>(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd,u32 blk_size,u32 blk_cnt,u32 dma,u32 wr)</span></li> 
-    <li><span>void</span> sdi_read_io_coherency<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_write_io_coherency<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_resp_type_cal<span>(sdi_slot_t sp,u32 cmd_index,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_mem_cmd<span>(sdi_slot_t sp,u32 cmd_index,u32 arg,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_mem_cmd_data<span>(sdi_slot_t sp,u32 sysaddr,u32 cmd_index,u32 blk_size,u32 blk_cnt,u32 data_addr,u32 dma,u32 wr,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd0<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd2<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd3<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd7<span>(sdi_slot_t sp,u32 rca)</span></li> 
-    <li><span>u32</span> sdi_cmd9<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd12<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd13<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_cmd16<span>(sdi_slot_t sp,u32 dflt_blk_size)</span></li> 
-    <li><span>u32</span> sdi_cmd17<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd18<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd23<span>(sdi_slot_t sp,u32 blk_cnt)</span></li> 
-    <li><span>u32</span> sdi_cmd24<span>(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd25<span>(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd32<span>(sdi_slot_t sp,u32 start_blk_addr)</span></li> 
-    <li><span>u32</span> sdi_cmd33<span>(sdi_slot_t sp,u32 end_blk_addr)</span></li> 
-    <li><span>u32</span> sdi_cmd38<span>(sdi_slot_t sp,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd52<span>(sdi_slot_t sp,u32 reg_addr,u32 sd_wr_data,u32 fn_no,u32 raw,u32 wr,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioByteRead<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioByteWrite<span>(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 wr_data,u32 raw,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioExtRead<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdioExtWrite<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd53<span>(sdi_slot_t sp,u32 byte_blk_cnt,u32 wr,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)</span></li> 
-    <li><span>u32</span> sdi_cmd55<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_acmd6<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>u32</span> sdi_dma_done<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_abort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_suspend<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_resume<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_set_async_mode<span>(sdi_slot_t sp,u32 mode)</span></li> 
-    <li><span>void</span> sdi_wr_clk_ctrl<span>(sdi_slot_t sp,u32 clk_ctrl)</span></li> 
-    <li><span>void</span> sdi_wr_blk_gap_ctrl<span>(sdi_slot_t sp,u32 bgap_ctrl)</span></li> 
-    <li><span>void</span> sdi_wr_timeout_reg<span>(sdi_slot_t sp,u32 timeout_cnt)</span></li> 
-    <li><span>void</span> sdi_set_bus_width<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>void</span> sdi_rd_sd_hc_capabilities<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_clock_supply<span>(sdi_slot_t sp,u32 div)</span></li> 
-    <li><span>void</span> sdi_clock_stop<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_clock_change<span>(sdi_slot_t sp,u32 div)</span></li> 
-    <li><span>void</span> sdi_bus_power<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_validate_ocr<span>(sdi_slot_t sp,u32 ocr_data,u32 mem,u32 mmc)</span></li> 
-    <li><span>u32</span> sdi_card_insertion<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_io_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdi_mem_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdi_mmc_card_init<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSwapBytes4<span>(u32 value)</span></li> 
-    <li><span>u32</span> checkErrorInt<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiCardDetect<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiCardInit<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> waitTransferComplete<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiGoIdle<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdiIoReset<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdiSoftReset<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sendCmd<span>(sdi_slot_t sp,u32 arg,u32 tmdcmd)</span></li> 
-    <li><span>u32</span> sdiSendStatus<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendOpCondition<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiAllSendCid<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendRca<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSendCsd<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSelectCard<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSetBlockLength<span>(sdi_slot_t sp,u32 blksiz)</span></li> 
-    <li><span>u32</span> sdiSetBusWidth<span>(sdi_slot_t sp,u32 buswidth)</span></li> 
-    <li><span>u32</span> sdiAsyncAbort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiSyncAbort<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> updateDmaPointer<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdiReadSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *rdbuf,u32 dma)</span></li> 
-    <li><span>u32</span> sdiWriteSingleBlock<span>(sdi_slot_t sp,u32 arg,u32 *wrbuf,u32 dma)</span></li> 
-    <li><span>u32</span> sdiReadBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)</span></li> 
-    <li><span>u32</span> sdiWriteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)</span></li> 
-    <li><span>u32</span> sdiReadMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)</span></li> 
-    <li><span>u32</span> sdiWriteMultipleBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)</span></li> 
-    <li><span>u32</span> sdiReadInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
-    <li><span>u32</span> sdiWriteInfiniteBlock<span>(sdi_slot_t sp,u32 arg,u32 blkcnt)</span></li> 
-    <li><span>void</span> sdi_init_ird<span>(sdi_slot_t sp,u32 ctrl,u32 slot,void(*irqCb)(void))</span></li> 
-    <li><span>void</span> sdi_clear_hcstruct<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdio_initUSBSDIPLLs<span>()</span></li> 
-    <li><span>void</span> sdio_DisableGpio<span>(void)</span></li> 
-    <li><span>void</span> sdio_EnableIOPJtag<span>(void)</span></li> 
-    <li><span>void</span> sdio_acr_iostrctrl1<span>(u8 val)</span></li> 
-    <li><span>u32</span> sdio_SelectCard<span>(sdi_slot_t sp,u32 rca)</span></li> 
-    <li><span>u32</span> sdio_setHSpd<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_setHSpd2<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_setNmlSpd<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_getscr<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_cidcheck<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_csdcheck<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_scrcheck<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_check_cins<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_check_crmv<span>(sdi_slot_t sp)</span></li> 
-    <li><span>void</span> sdio_udelay<span>(u32 delay)</span></li> 
-    <li><span>void</span> sdio_hc_swrst<span>(sdi_slot_t sp,u32 type)</span></li> 
-    <li><span>u32</span> sdio_wait_programend<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_DeSelectCard<span>(sdi_slot_t sp)</span></li> 
-    <li><span>u32</span> sdio_rwsdioreg<span>(sdi_slot_t sp,u32 wr,u32 fn_no,u32 blk_size,u32 blk_mode,u32 opcode,u32 reg_addr,u32 blk_cnt,u32 sysaddr,u32 dma)</span></li> 
-    <li><span>u32</span> checkStatus<span>(sdi_slot_t sp)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">118</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">498</div>  </div>
- </div>
+{% capture card_4_5_items %}
+- void|||sdi_init_intr(void(*irqCb)(void))
+- void|||sdi_init(void(*irqCb)(void))
+- sdi_slot_t|||sdi_handle(u32 ctrl,u32 slot)
+- void|||sdi_set_debug(u32 debug)
+- u32|||sdi_rd_reg(sdi_slot_t sp,u32 offset)
+- void|||sdi_wr_reg(sdi_slot_t sp,u32 offset,u32 val)
+- void|||sdi_wr_reg16(sdi_slot_t sp,u32 offset,u32 val)
+- u32|||sdi_verif_reg(sdi_slot_t sp,u32 offset,u32 expected)
+- void|||sdi_reg_intr(sdi_slot_t sp,u32 intr,void(*irq)(sdi_slot_t,void *),void *closure)
+- void|||sdi_intr(void)
+- u32|||sdi_get_istat(sdi_slot_t sp)
+- void|||sdi_clear_istat(sdi_slot_t sp,u32 ibits)
+- u32|||sdi_wait_istat(sdi_slot_t sp,u32 ibits,u32 bail_on_abort)
+- void|||sdi_wr_host_ctrl(sdi_slot_t sp,u32 in_data)
+- void|||sdi_int_regs_en(sdi_slot_t sp)
+- void|||sdi_wr_nor_int_sts_en(sdi_slot_t sp,u32 en)
+- void|||sdi_wr_err_int_sts_en(sdi_slot_t sp,u32 en)
+- void|||sdi_err_int_recover(sdi_slot_t sp)
+- u32|||sdi_cmd(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd)
+- u32|||sdi_io_cmd(sdi_slot_t sp,u32 sysaddr,u32 blkszcnt,u32 arg,u32 tmdcmd,u32 blk_size,u32 blk_cnt,u32 dma,u32 wr)
+- void|||sdi_read_io_coherency(sdi_slot_t sp)
+- void|||sdi_write_io_coherency(sdi_slot_t sp)
+- u32|||sdi_resp_type_cal(sdi_slot_t sp,u32 cmd_index,u32 resp_with_busy)
+- u32|||sdi_mem_cmd(sdi_slot_t sp,u32 cmd_index,u32 arg,u32 resp_with_busy)
+- u32|||sdi_mem_cmd_data(sdi_slot_t sp,u32 sysaddr,u32 cmd_index,u32 blk_size,u32 blk_cnt,u32 data_addr,u32 dma,u32 wr,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd0(sdi_slot_t sp)
+- u32|||sdi_cmd2(sdi_slot_t sp)
+- u32|||sdi_cmd3(sdi_slot_t sp)
+- u32|||sdi_cmd7(sdi_slot_t sp,u32 rca)
+- u32|||sdi_cmd9(sdi_slot_t sp)
+- u32|||sdi_cmd12(sdi_slot_t sp)
+- u32|||sdi_cmd13(sdi_slot_t sp)
+- u32|||sdi_cmd16(sdi_slot_t sp,u32 dflt_blk_size)
+- u32|||sdi_cmd17(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)
+- u32|||sdi_cmd18(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd23(sdi_slot_t sp,u32 blk_cnt)
+- u32|||sdi_cmd24(sdi_slot_t sp,u32 data_addr,u32 dma,u32 resp_with_busy)
+- u32|||sdi_cmd25(sdi_slot_t sp,u32 blk_cnt,u32 data_addr,u32 dma,u32 auto_cmd12,u32 resp_with_busy)
+- u32|||sdi_cmd32(sdi_slot_t sp,u32 start_blk_addr)
+- u32|||sdi_cmd33(sdi_slot_t sp,u32 end_blk_addr)
+- u32|||sdi_cmd38(sdi_slot_t sp,u32 resp_with_busy)
+- u32|||sdi_cmd52(sdi_slot_t sp,u32 reg_addr,u32 sd_wr_data,u32 fn_no,u32 raw,u32 wr,u32 resp_with_busy)
+- u32|||sdioByteRead(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 resp_with_busy)
+- u32|||sdioByteWrite(sdi_slot_t sp,u32 fn_no,u32 reg_addr,u32 wr_data,u32 raw,u32 resp_with_busy)
+- u32|||sdioExtRead(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+- u32|||sdioExtWrite(sdi_slot_t sp,u32 byte_blk_cnt,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+- u32|||sdi_cmd53(sdi_slot_t sp,u32 byte_blk_cnt,u32 wr,u32 fn_no,u32 blk_mode,u32 opcode,u32 reg_addr,u32 dma,u32 infinite,u32 resp_with_busy)
+- u32|||sdi_cmd55(sdi_slot_t sp)
+- u32|||sdi_acmd6(sdi_slot_t sp,u32 buswidth)
+- u32|||sdi_dma_done(sdi_slot_t sp)
+- u32|||sdi_abort(sdi_slot_t sp)
+- u32|||sdi_suspend(sdi_slot_t sp)
+- u32|||sdi_resume(sdi_slot_t sp)
+- void|||sdi_set_async_mode(sdi_slot_t sp,u32 mode)
+- void|||sdi_wr_clk_ctrl(sdi_slot_t sp,u32 clk_ctrl)
+- void|||sdi_wr_blk_gap_ctrl(sdi_slot_t sp,u32 bgap_ctrl)
+- void|||sdi_wr_timeout_reg(sdi_slot_t sp,u32 timeout_cnt)
+- void|||sdi_set_bus_width(sdi_slot_t sp,u32 buswidth)
+- void|||sdi_rd_sd_hc_capabilities(sdi_slot_t sp)
+- u32|||sdi_clock_supply(sdi_slot_t sp,u32 div)
+- void|||sdi_clock_stop(sdi_slot_t sp)
+- void|||sdi_clock_change(sdi_slot_t sp,u32 div)
+- void|||sdi_bus_power(sdi_slot_t sp)
+- u32|||sdi_validate_ocr(sdi_slot_t sp,u32 ocr_data,u32 mem,u32 mmc)
+- u32|||sdi_card_insertion(sdi_slot_t sp)
+- u32|||sdi_io_card_init(sdi_slot_t sp)
+- u32|||sdi_mem_card_init(sdi_slot_t sp)
+- void|||sdi_mmc_card_init(sdi_slot_t sp)
+- u32|||sdiSwapBytes4(u32 value)
+- u32|||checkErrorInt(sdi_slot_t sp)
+- u32|||sdiCardDetect(sdi_slot_t sp)
+- u32|||sdiCardInit(sdi_slot_t sp)
+- u32|||waitTransferComplete(sdi_slot_t sp)
+- u32|||sdiGoIdle(sdi_slot_t sp)
+- void|||sdiIoReset(sdi_slot_t sp)
+- void|||sdiSoftReset(sdi_slot_t sp)
+- u32|||sendCmd(sdi_slot_t sp,u32 arg,u32 tmdcmd)
+- u32|||sdiSendStatus(sdi_slot_t sp)
+- u32|||sdiSendOpCondition(sdi_slot_t sp)
+- u32|||sdiAllSendCid(sdi_slot_t sp)
+- u32|||sdiSendRca(sdi_slot_t sp)
+- u32|||sdiSendCsd(sdi_slot_t sp)
+- u32|||sdiSelectCard(sdi_slot_t sp)
+- u32|||sdiSetBlockLength(sdi_slot_t sp,u32 blksiz)
+- u32|||sdiSetBusWidth(sdi_slot_t sp,u32 buswidth)
+- u32|||sdiAsyncAbort(sdi_slot_t sp)
+- u32|||sdiSyncAbort(sdi_slot_t sp)
+- void|||updateDmaPointer(sdi_slot_t sp)
+- u32|||sdiReadSingleBlock(sdi_slot_t sp,u32 arg,u32 *rdbuf,u32 dma)
+- u32|||sdiWriteSingleBlock(sdi_slot_t sp,u32 arg,u32 *wrbuf,u32 dma)
+- u32|||sdiReadBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)
+- u32|||sdiWriteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12,u32 infinite)
+- u32|||sdiReadMultipleBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)
+- u32|||sdiWriteMultipleBlock(sdi_slot_t sp,u32 arg,u32 blkcnt,u32 dma,u32 dmaint,u32 auto_cmd12)
+- u32|||sdiReadInfiniteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt)
+- u32|||sdiWriteInfiniteBlock(sdi_slot_t sp,u32 arg,u32 blkcnt)
+- void|||sdi_init_ird(sdi_slot_t sp,u32 ctrl,u32 slot,void(*irqCb)(void))
+- void|||sdi_clear_hcstruct(sdi_slot_t sp)
+- void|||sdio_initUSBSDIPLLs()
+- void|||sdio_DisableGpio(void)
+- void|||sdio_EnableIOPJtag(void)
+- void|||sdio_acr_iostrctrl1(u8 val)
+- u32|||sdio_SelectCard(sdi_slot_t sp,u32 rca)
+- u32|||sdio_setHSpd(sdi_slot_t sp)
+- u32|||sdio_setHSpd2(sdi_slot_t sp)
+- u32|||sdio_setNmlSpd(sdi_slot_t sp)
+- u32|||sdio_getscr(sdi_slot_t sp)
+- u32|||sdio_cidcheck(sdi_slot_t sp)
+- u32|||sdio_csdcheck(sdi_slot_t sp)
+- u32|||sdio_scrcheck(sdi_slot_t sp)
+- u32|||sdio_check_cins(sdi_slot_t sp)
+- u32|||sdio_check_crmv(sdi_slot_t sp)
+- void|||sdio_udelay(u32 delay)
+- void|||sdio_hc_swrst(sdi_slot_t sp,u32 type)
+- u32|||sdio_wait_programend(sdi_slot_t sp)
+- u32|||sdio_DeSelectCard(sdi_slot_t sp)
+- u32|||sdio_rwsdioreg(sdi_slot_t sp,u32 wr,u32 fn_no,u32 blk_size,u32 blk_mode,u32 opcode,u32 reg_addr,u32 blk_cnt,u32 sysaddr,u32 dma)
+- u32|||checkStatus(sdi_slot_t sp)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="sdm.h" />
-  <h3>sdm.h</h3>
-  <ul>
-    <li><span>struct partitiontable_s</span> __attribute__<span>((packed))</span></li> 
-    <li><span>struct partitionboot_s</span> __attribute__<span>((packed))</span></li> 
-    <li><span>s32</span> SDMInit<span>(BOOL,int)</span></li> 
-    <li><span>s32</span> SDMOpen<span>(struct direntry *de,char *filename)</span></li> 
-    <li><span>s32</span> SDMOpenDirFile<span>(struct direntry *de,char *name)</span></li> 
-    <li><span>s32</span> SDMRead<span>(struct direntry *de,s32 id,u8 *data)</span></li> 
-    <li><span>s32</span> SDMFindFirst<span>(struct direntry *de)</span></li> 
-    <li><span>s32</span> SDMFindNext<span>(struct direntry *de)</span></li> 
-    <li><span>s32</span> SDMDirFileFind<span>(struct direntry *de,char *name)</span></li> 
-    <li><span>void</span> SDMSetAccessMode<span>(BOOL in)</span></li> 
-    <li><span>void</span> SDMFinish<span>()</span></li> 
-    <li><span>void </span> SDMAlloc<span>(u32 size)</span></li> 
-    <li><span>void</span> SDMFree<span>(void *in)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">108</div>  </div>
- </div>
+{% capture card_4_6_items %}
+- struct partitiontable_s|||__attribute__((packed))
+- struct partitionboot_s|||__attribute__((packed))
+- s32|||SDMInit(BOOL,int)
+- s32|||SDMOpen(struct direntry *de,char *filename)
+- s32|||SDMOpenDirFile(struct direntry *de,char *name)
+- s32|||SDMRead(struct direntry *de,s32 id,u8 *data)
+- s32|||SDMFindFirst(struct direntry *de)
+- s32|||SDMFindNext(struct direntry *de)
+- s32|||SDMDirFileFind(struct direntry *de,char *name)
+- void|||SDMSetAccessMode(BOOL in)
+- void|||SDMFinish()
+- void|||SDMAlloc(u32 size)
+- void|||SDMFree(void *in)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="wkreport.h" />
-  <h3>wkreport.h</h3>
-  <ul>
-    <li><span>BOOL</span> WKProbe<span>(s32 chan)</span></li> 
-    <li><span>BOOL</span> WKCheckBuf<span>(s32 chan,u16 *send,u16 *recv)</span></li> 
-    <li><span>BOOL</span> WKFlushBuf<span>(s32 chan)</span></li> 
-    <li><span>s32</span> WKRead<span>(s32 chan,void *buf,u32 len)</span></li> 
-    <li><span>s32</span> WKWrite<span>(s32 chan,void *buf,u32 len)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">5</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">22</div>  </div>
- </div>
+{% capture card_4_7_items %}
+- BOOL|||WKProbe(s32 chan)
+- BOOL|||WKCheckBuf(s32 chan,u16 *send,u16 *recv)
+- BOOL|||WKFlushBuf(s32 chan)
+- s32|||WKRead(s32 chan,void *buf,u32 len)
+- s32|||WKWrite(s32 chan,void *buf,u32 len)
+{% endcapture %}
 
-</section>
+{% capture section_4_cards %}
+{% include source-code-card.html title="SItoUSB.h" items=card_4_1_items functions="6" variables="0" lines="39" %}
+{% include source-code-card.html title="SIusbOSReport.h" items=card_4_2_items functions="4" variables="0" lines="21" %}
+{% include source-code-card.html title="diagcommon.h" items=card_4_3_items functions="9" variables="0" lines="147" %}
+{% include source-code-card.html title="diagsdk.h" items=card_4_4_items functions="15" variables="0" lines="86" %}
+{% include source-code-card.html title="sdio.h" items=card_4_5_items functions="118" variables="0" lines="498" %}
+{% include source-code-card.html title="sdm.h" items=card_4_6_items functions="13" variables="0" lines="108" %}
+{% include source-code-card.html title="wkreport.h" items=card_4_7_items functions="5" variables="0" lines="22" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_4_cards %}
 
 ---
 ### Dolphin (/include/dolphin)
@@ -1016,134 +920,111 @@ jpeg | .h | Include file for declaring functions to convert JPEG images to Textu
 
 The most interesting file in this directory is **hio.h** which acts as a host interface sending and receiving data from the Gamecube/Wii to a windows PC. It also has the concept of a Mailbox, but it is uncertain how it works without finding the implementation files.
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ais.h" />
-  <h3>ais.h</h3>
-  <ul>
-    <li><span>AISCallback</span> AIRegisterStreamCallback<span>(AISCallback callback)</span></li> 
-    <li><span>u32</span> AIGetStreamSampleCount<span>(void)</span></li> 
-    <li><span>void</span> AIResetStreamSampleCount<span>(void)</span></li> 
-    <li><span>void</span> AISetStreamTrigger<span>(u32 trigger)</span></li> 
-    <li><span>u32</span> AIGetStreamTrigger<span>(void)</span></li> 
-    <li><span>void</span> AISetStreamPlayState<span>(u32 state)</span></li> 
-    <li><span>u32</span> AIGetStreamPlayState<span>(void)</span></li> 
-    <li><span>void</span> AISetStreamSampleRate<span>(u32 rate)</span></li> 
-    <li><span>u32</span> AIGetStreamSampleRate<span>(void)</span></li> 
-    <li><span>void</span> AISetStreamVolLeft<span>(u8 vol)</span></li> 
-    <li><span>void</span> AISetStreamVolRight<span>(u8 vol)</span></li> 
-    <li><span>u8</span> AIGetStreamVolLeft<span>(void)</span></li> 
-    <li><span>u8</span> AIGetStreamVolRight<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
- </div>
+{% capture card_5_1_items %}
+- AISCallback|||AIRegisterStreamCallback(AISCallback callback)
+- u32|||AIGetStreamSampleCount(void)
+- void|||AIResetStreamSampleCount(void)
+- void|||AISetStreamTrigger(u32 trigger)
+- u32|||AIGetStreamTrigger(void)
+- void|||AISetStreamPlayState(u32 state)
+- u32|||AIGetStreamPlayState(void)
+- void|||AISetStreamSampleRate(u32 rate)
+- u32|||AIGetStreamSampleRate(void)
+- void|||AISetStreamVolLeft(u8 vol)
+- void|||AISetStreamVolRight(u8 vol)
+- u8|||AIGetStreamVolLeft(void)
+- u8|||AIGetStreamVolRight(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="ar.h" />
-  <h3>ar.h</h3>
-  <ul>
-    <li><span>ARCallback</span> ARRegisterDMACallback<span>(ARCallback callback)</span></li> 
-    <li><span>u32</span> ARGetDMAStatus<span>(void)</span></li> 
-    <li><span>void</span> ARStartDMA<span>(u32 type,u32 mainmem_addr,u32 aram_addr,u32 length)</span></li> 
-    <li><span>u32</span> ARInit<span>(u32 *stack_index_addr,u32 num_entries)</span></li> 
-    <li><span>u32</span> ARGetBaseAddress<span>(void)</span></li> 
-    <li><span>BOOL</span> ARCheckInit<span>(void)</span></li> 
-    <li><span>void</span> ARReset<span>(void)</span></li> 
-    <li><span>u32</span> ARAlloc<span>(u32 length)</span></li> 
-    <li><span>u32</span> ARFree<span>(u32 *length)</span></li> 
-    <li><span>u32</span> ARGetSize<span>(void)</span></li> 
-    <li><span>u32</span> ARGetInternalSize<span>(void)</span></li> 
-    <li><span>void</span> ARSetSize<span>(void)</span></li> 
-    <li><span>void</span> ARClear<span>(u32 flag)</span></li> 
-    <li><span>void</span> __ARClearInterrupt<span>(void)</span></li> 
-    <li><span>u16</span> __ARGetInterruptStatus<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">15</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">173</div>  </div>
- </div>
+{% capture card_5_2_items %}
+- ARCallback|||ARRegisterDMACallback(ARCallback callback)
+- u32|||ARGetDMAStatus(void)
+- void|||ARStartDMA(u32 type,u32 mainmem_addr,u32 aram_addr,u32 length)
+- u32|||ARInit(u32 *stack_index_addr,u32 num_entries)
+- u32|||ARGetBaseAddress(void)
+- BOOL|||ARCheckInit(void)
+- void|||ARReset(void)
+- u32|||ARAlloc(u32 length)
+- u32|||ARFree(u32 *length)
+- u32|||ARGetSize(void)
+- u32|||ARGetInternalSize(void)
+- void|||ARSetSize(void)
+- void|||ARClear(u32 flag)
+- void|||__ARClearInterrupt(void)
+- u16|||__ARGetInterruptStatus(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="arq.h" />
-  <h3>arq.h</h3>
-  <ul>
-    <li><span>void</span> ARQInit<span>(void)</span></li> 
-    <li><span>void</span> ARQReset<span>(void)</span></li> 
-    <li><span>void</span> ARQPostRequest<span>(ARQRequest *task,u32 owner,u32 type,u32 priority,u32 source,u32 dest,u32 length,ARQCallback callback)</span></li> 
-    <li><span>void</span> ARQRemoveRequest<span>(ARQRequest *task)</span></li> 
-    <li><span>void</span> ARQRemoveOwnerRequest<span>(u32 owner)</span></li> 
-    <li><span>void</span> ARQFlushQueue<span>(void)</span></li> 
-    <li><span>void</span> ARQSetChunkSize<span>(u32 size)</span></li> 
-    <li><span>u32</span> ARQGetChunkSize<span>(void)</span></li> 
-    <li><span>BOOL</span> ARQCheckInit<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">125</div>  </div>
- </div>
+{% capture card_5_3_items %}
+- void|||ARQInit(void)
+- void|||ARQReset(void)
+- void|||ARQPostRequest(ARQRequest *task,u32 owner,u32 type,u32 priority,u32 source,u32 dest,u32 length,ARQCallback callback)
+- void|||ARQRemoveRequest(ARQRequest *task)
+- void|||ARQRemoveOwnerRequest(u32 owner)
+- void|||ARQFlushQueue(void)
+- void|||ARQSetChunkSize(u32 size)
+- u32|||ARQGetChunkSize(void)
+- BOOL|||ARQCheckInit(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="dtk.h" />
-  <h3>dtk.h</h3>
-  <ul>
-    <li><span>void</span> DTKInit<span>(void)</span></li> 
-    <li><span>void</span> DTKShutdown<span>(void)</span></li> 
-    <li><span>u32</span> DTKQueueTrack<span>(char *fileName,DTKTrack *track,u32 eventMask,DTKCallback callback)</span></li> 
-    <li><span>u32</span> DTKRemoveTrack<span>(DTKTrack *track)</span></li> 
-    <li><span>BOOL</span> DTKFlushTracks<span>(DTKFlushCallback callback)</span></li> 
-    <li><span>void</span> DTKSetSampleRate<span>(u32 samplerate)</span></li> 
-    <li><span>u32</span> DTKGetSampleRate<span>(void)</span></li> 
-    <li><span>void</span> DTKSetInterruptFrequency<span>(u32 samples)</span></li> 
-    <li><span>u32</span> DTKGetInterruptFrequency<span>(void)</span></li> 
-    <li><span>void</span> DTKSetRepeatMode<span>(u32 repeat)</span></li> 
-    <li><span>u32</span> DTKGetRepeatMode<span>(void)</span></li> 
-    <li><span>BOOL</span> DTKSetState<span>(u32 state)</span></li> 
-    <li><span>u32</span> DTKGetState<span>(void)</span></li> 
-    <li><span>BOOL</span> DTKNextTrack<span>(void)</span></li> 
-    <li><span>BOOL</span> DTKPrevTrack<span>(void)</span></li> 
-    <li><span>u32</span> DTKGetPosition<span>(void)</span></li> 
-    <li><span>DTKTrack </span> DTKGetCurrentTrack<span>(void)</span></li> 
-    <li><span>void</span> DTKSetVolume<span>(u8 left,u8 right)</span></li> 
-    <li><span>u16</span> DTKGetVolume<span>(void)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">19</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">112</div>  </div>
- </div>
+{% capture card_5_4_items %}
+- void|||DTKInit(void)
+- void|||DTKShutdown(void)
+- u32|||DTKQueueTrack(char *fileName,DTKTrack *track,u32 eventMask,DTKCallback callback)
+- u32|||DTKRemoveTrack(DTKTrack *track)
+- BOOL|||DTKFlushTracks(DTKFlushCallback callback)
+- void|||DTKSetSampleRate(u32 samplerate)
+- u32|||DTKGetSampleRate(void)
+- void|||DTKSetInterruptFrequency(u32 samples)
+- u32|||DTKGetInterruptFrequency(void)
+- void|||DTKSetRepeatMode(u32 repeat)
+- u32|||DTKGetRepeatMode(void)
+- BOOL|||DTKSetState(u32 state)
+- u32|||DTKGetState(void)
+- BOOL|||DTKNextTrack(void)
+- BOOL|||DTKPrevTrack(void)
+- u32|||DTKGetPosition(void)
+- DTKTrack|||DTKGetCurrentTrack(void)
+- void|||DTKSetVolume(u8 left,u8 right)
+- u16|||DTKGetVolume(void)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="hio.h" />
-  <h3>hio.h</h3>
-  <ul>
-    <li><span>BOOL WINAPI</span> HIOEnumDevices<span>(HIOEnumCallback callback)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOInit<span>(s32 chan,HIOCallback callback)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOInitEx<span>(s32 chan,u32 dev,HIOCallback callback)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOReadMailbox<span>(u32 *word)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOWriteMailbox<span>(u32 word)</span></li> 
-    <li><span>BOOL WINAPI</span> HIORead<span>(u32 addr,void *buffer,s32 size)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOWrite<span>(u32 addr,const void *buffer,s32 size)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOReadAsync<span>(u32 addr,void *buffer,s32 size,HIOCallback callback)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOWriteAsync<span>(u32 addr,const void *buffer,s32 size,HIOCallback callback)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOReadStatus<span>(u32 *status)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOInit2<span>(s32 chan,HIOCallback callback,HIONotify notify,void *param)</span></li> 
-    <li><span>BOOL WINAPI</span> HIOInitEx2<span>(s32 chan,s32 dev,HIOCallback callback,HIONotify notify,void *param)</span></li> 
-    <li><span>void WINAPI</span> HIOExit<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">13</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">77</div>  </div>
- </div>
+{% capture card_5_5_items %}
+- BOOL WINAPI|||HIOEnumDevices(HIOEnumCallback callback)
+- BOOL WINAPI|||HIOInit(s32 chan,HIOCallback callback)
+- BOOL WINAPI|||HIOInitEx(s32 chan,u32 dev,HIOCallback callback)
+- BOOL WINAPI|||HIOReadMailbox(u32 *word)
+- BOOL WINAPI|||HIOWriteMailbox(u32 word)
+- BOOL WINAPI|||HIORead(u32 addr,void *buffer,s32 size)
+- BOOL WINAPI|||HIOWrite(u32 addr,const void *buffer,s32 size)
+- BOOL WINAPI|||HIOReadAsync(u32 addr,void *buffer,s32 size,HIOCallback callback)
+- BOOL WINAPI|||HIOWriteAsync(u32 addr,const void *buffer,s32 size,HIOCallback callback)
+- BOOL WINAPI|||HIOReadStatus(u32 *status)
+- BOOL WINAPI|||HIOInit2(s32 chan,HIOCallback callback,HIONotify notify,void *param)
+- BOOL WINAPI|||HIOInitEx2(s32 chan,s32 dev,HIOCallback callback,HIONotify notify,void *param)
+- void WINAPI|||HIOExit()
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="jpeg.h" />
-  <h3>jpeg.h</h3>
-  <ul>
-    <li><span>BOOL</span> JPEGGetFileInfo<span>(u8 *jpegData,JPEGFileInfo *info)</span></li> 
-    <li><span>u32</span> JPEGCalcMemory<span>(JPEGFileInfo *info)</span></li> 
-    <li><span>BOOL</span> JPEGOpenDecompressor<span>(JPEGDecompressor *decomp,u8 *errorCode,u8 *workSpace,u8 *jpegData,JPEGFileInfo *info)</span></li> 
-    <li><span>void</span> JPEGDecompressRawImage<span>(JPEGDecompressor *decomp,void *dataY,void *dataCb,void *dataCr)</span></li> 
-    <li><span>void</span> JPEGDecompressToXfb<span>(JPEGDecompressor *decomp,void *xfbData,u32 xfbWidth,u32 xfbHeight)</span></li> 
-    <li><span>void</span> JPEGDecompressToTexYCbCr<span>(JPEGDecompressor *decomp,void *texY,void *texCb,void *texCr)</span></li> 
-    <li><span>void</span> JPEGDecompressToTexRGBA8<span>(JPEGDecompressor *decomp,void *texData,u8 alpha)</span></li> 
-    <li><span>BOOL</span> JPEGGetNextRGBA8Tile<span>(JPEGDecompressor *decomp,void *texData,u8 alpha,BOOL init)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">172</div>  </div>
- </div>
+{% capture card_5_6_items %}
+- BOOL|||JPEGGetFileInfo(u8 *jpegData,JPEGFileInfo *info)
+- u32|||JPEGCalcMemory(JPEGFileInfo *info)
+- BOOL|||JPEGOpenDecompressor(JPEGDecompressor *decomp,u8 *errorCode,u8 *workSpace,u8 *jpegData,JPEGFileInfo *info)
+- void|||JPEGDecompressRawImage(JPEGDecompressor *decomp,void *dataY,void *dataCb,void *dataCr)
+- void|||JPEGDecompressToXfb(JPEGDecompressor *decomp,void *xfbData,u32 xfbWidth,u32 xfbHeight)
+- void|||JPEGDecompressToTexYCbCr(JPEGDecompressor *decomp,void *texY,void *texCb,void *texCr)
+- void|||JPEGDecompressToTexRGBA8(JPEGDecompressor *decomp,void *texData,u8 alpha)
+- BOOL|||JPEGGetNextRGBA8Tile(JPEGDecompressor *decomp,void *texData,u8 alpha,BOOL init)
+{% endcapture %}
 
-</section>
+{% capture section_5_cards %}
+{% include source-code-card.html title="ais.h" items=card_5_1_items functions="13" variables="0" lines="86" %}
+{% include source-code-card.html title="ar.h" items=card_5_2_items functions="15" variables="0" lines="173" %}
+{% include source-code-card.html title="arq.h" items=card_5_3_items functions="9" variables="0" lines="125" %}
+{% include source-code-card.html title="dtk.h" items=card_5_4_items functions="19" variables="0" lines="112" %}
+{% include source-code-card.html title="hio.h" items=card_5_5_items functions="13" variables="0" lines="77" %}
+{% include source-code-card.html title="jpeg.h" items=card_5_6_items functions="8" variables="0" lines="172" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_5_cards %}
 
 ---
 ### Artx (/include/artx)

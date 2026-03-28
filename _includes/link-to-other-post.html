@@ -4,7 +4,6 @@
 
   Unfortunately the parameter is called "post" but it is actually the permalink to the post you want to link to.
 {% endcomment %}
-
 {% if include.post %}
   <div class="linkToOtherPost">
   {% for post in site.pages %}
@@ -22,10 +21,10 @@
         </div>
         <div class="linkToOtherPostRight">
           <h3>
-              {{ post.title }}
+              {{ post.title | markdownify | strip_html }}
           </h3> 
           {% if include.description %}
-            <p>{{ include.description }}</p>
+            <p>{{ include.description  | markdownify | strip_html }}</p>
           {% else %}
             <p>{{ post.content | markdownify | strip_html | truncatewords: 30 }}</p>
           {% endif %}

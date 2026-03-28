@@ -1,6 +1,6 @@
 {% if include.title %}
 <div class="rr-source-code-title">{{ include.title }}</div>
 {% endif %}
-<section class="rr-main-cards">
+<section class="rr-main-cards"{% if include.style %} style="{{ include.style }}"{% endif %}>
   {{ include.content }}
 </section>

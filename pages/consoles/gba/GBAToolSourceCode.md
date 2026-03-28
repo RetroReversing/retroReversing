@@ -149,35 +149,28 @@ res | .rc |
 resource | .h | Include file for declaring the default macros from Visual C++ 5.0 (Nothing added by Nintendo)
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="colorspace.cpp" />
-  <h3>colorspace.cpp</h3><ul>
-    <li><span>u32</span> GetNearestPalette<span>(const Palette&_Pal,const Color&_C,u16 offset)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">294</div>  </div>
-</div>
+{% capture card_1_1_items %}
+- u32|||GetNearestPalette(const Palette&_Pal,const Color&_C,u16 offset)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>Picture </span> CreateReductionPicture<span>(const HPicture&_Hpic,const Palette&_Pal,u16 offset)</span></li> 
-    <li><span>void</span> usage<span>()</span></li> 
-    <li><span></span> __USING__MAGBX</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">397</div>  </div>
-</div>
+{% capture card_1_2_items %}
+- Picture|||CreateReductionPicture(const HPicture&_Hpic,const Palette&_Pal,u16 offset)
+- void|||usage()
+- |||__USING__MAGBX
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="reduction.cpp" />
-  <h3>reduction.cpp</h3><ul>
-    <li><span>__USING__MAGBX u32</span> GetNearestPalette<span>(const Palette&_Pal,const Color&_C,u16 offset)</span></li> 
-    <li><span>Picture </span> CreateReductionPicture<span>(const HPicture&_Hpic,const Palette&_Pal,u16 offset)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">86</div>  </div>
-</div>
+{% capture card_1_3_items %}
+- __USING__MAGBX u32|||GetNearestPalette(const Palette&_Pal,const Color&_C,u16 offset)
+- Picture|||CreateReductionPicture(const HPicture&_Hpic,const Palette&_Pal,u16 offset)
+{% endcapture %}
 
-</section>
+{% capture section_1_cards %}
+{% include source-code-card.html title="colorspace.cpp" items=card_1_1_items functions="1" variables="0" lines="294" %}
+{% include source-code-card.html title="main.cpp" items=card_1_2_items functions="2" variables="1" lines="397" %}
+{% include source-code-card.html title="reduction.cpp" items=card_1_3_items functions="2" variables="0" lines="86" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
 
 ---
 ## SGI to BMP converter (sgi2bmp)
@@ -193,59 +186,49 @@ resource | .h | Include file for declaring the default macros from Visual C++ 5.
 sgi2bmp | .dsp, .dsw, .ncb, .opt, .plg, .rc | see common files section for description of the files
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="GlobalFnc.cpp" />
-  <h3>GlobalFnc.cpp</h3><ul>
-    <li><span>void</span> setByte<span class="rr-func-args">(u8,u8**)</span></li> 
-    <li><span>void</span> setWord<span class="rr-func-args">(u16,u8**)</span></li> 
-    <li><span>void</span> setDword<span class="rr-func-args">(u32,u8**)</span></li> 
-    <li><span>void</span> getByte<span class="rr-func-args">(u8*,u8**)</span></li> 
-    <li><span>void</span> getChar<span class="rr-func-args">(char*,u8**)</span></li> 
-    <li><span>void</span> getWord<span class="rr-func-args">(u16*,u8**)</span></li> 
-    <li><span>void</span> getShort<span class="rr-func-args">(short*,u8**)</span></li> 
-    <li><span>void</span> getDword<span class="rr-func-args">(u32*,u8**)</span></li> 
-    <li><span>void</span> getLong<span class="rr-func-args">(long*,u8**)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">9</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">82</div>  </div>
-</div>
+{% capture card_2_1_items %}
+- void|||setByte|||(u8,u8**)
+- void|||setWord|||(u16,u8**)
+- void|||setDword|||(u32,u8**)
+- void|||getByte|||(u8*,u8**)
+- void|||getChar|||(char*,u8**)
+- void|||getWord|||(u16*,u8**)
+- void|||getShort|||(short*,u8**)
+- void|||getDword|||(u32*,u8**)
+- void|||getLong|||(long*,u8**)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="RgbLoader.cpp" />
-  <h3>RgbLoader.cpp</h3><ul>
-    <li><span>DELIVER </span> sgiCreateDeliver<span>(unsigned long width,unsigned long height)</span></li> 
-    <li><span>bool</span> LoadHeader<span>(IMAGEHEADER *pimh,MCFile *pfile)</span></li> 
-    <li><span>BOOL</span> sgiCreateImage<span>(DELIVER *pdlv,IMAGEHEADER *pimh,unsigned char *pSrc)</span></li> 
-    <li><span>BOOL WINAPI</span> tvIsExtension<span>(const char *pchExt)</span></li> 
-    <li><span>DELIVER *WINAPI</span> tvImageToTexture<span>(const char *pchFileName)</span></li> 
-    <li><span>BOOL</span> sgiCreateImage<span>(DELIVER *pdlv,IMAGEHEADER *pimh,unsigned char *pSrc)</span></li> 
-    <li><span>DELIVER </span> sgiCreateDeliver<span>(unsigned long width,unsigned long height)</span></li> 
-    <li><span>bool</span> LoadHeader<span>(IMAGEHEADER *pimh,MCFile *pfile)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">414</div>  </div>
-</div>
+{% capture card_2_2_items %}
+- DELIVER|||sgiCreateDeliver(unsigned long width,unsigned long height)
+- bool|||LoadHeader(IMAGEHEADER *pimh,MCFile *pfile)
+- BOOL|||sgiCreateImage(DELIVER *pdlv,IMAGEHEADER *pimh,unsigned char *pSrc)
+- BOOL WINAPI|||tvIsExtension(const char *pchExt)
+- DELIVER *WINAPI|||tvImageToTexture(const char *pchFileName)
+- BOOL|||sgiCreateImage(DELIVER *pdlv,IMAGEHEADER *pimh,unsigned char *pSrc)
+- DELIVER|||sgiCreateDeliver(unsigned long width,unsigned long height)
+- bool|||LoadHeader(IMAGEHEADER *pimh,MCFile *pfile)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="main.cpp" />
-  <h3>main.cpp</h3><ul>
-    <li><span>void</span> usage<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">105</div>  </div>
-</div>
+{% capture card_2_3_items %}
+- void|||usage()
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="pic_create.cpp" />
-  <h3>pic_create.cpp</h3><ul>
-    <li><span></span> __USING__MAGBX</li> 
-    <li><span>bool</span> sgiLoadHeader<span>(IMAGEHEADER&imh,std::ifstream&in)</span></li> 
-    <li><span>bool</span> sgiCreateImage<span>(HPicture&pic,IMAGEHEADER&imh,unsigned char *pSrc,char flag,short tp,Color&color)</span></li> 
-    <li><span>HPicture </span> sgiImageLoad<span>(FileName&filename,char flag,short tp,Color&color)</span></li> 
-    <li><span>static bool</span> sgiCreateImage<span>(HPicture&pic,IMAGEHEADER&imh,unsigned char *pSrc,char flag,short tp,Color&bkcolor)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">4</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">335</div>  </div>
-</div>
+{% capture card_2_4_items %}
+- |||__USING__MAGBX
+- bool|||sgiLoadHeader(IMAGEHEADER&imh,std::ifstream&in)
+- bool|||sgiCreateImage(HPicture&pic,IMAGEHEADER&imh,unsigned char *pSrc,char flag,short tp,Color&color)
+- HPicture|||sgiImageLoad(FileName&filename,char flag,short tp,Color&color)
+- static bool|||sgiCreateImage(HPicture&pic,IMAGEHEADER&imh,unsigned char *pSrc,char flag,short tp,Color&bkcolor)
+{% endcapture %}
 
-</section>
+{% capture section_2_cards %}
+{% include source-code-card.html title="GlobalFnc.cpp" items=card_2_1_items functions="9" variables="0" lines="82" %}
+{% include source-code-card.html title="RgbLoader.cpp" items=card_2_2_items functions="8" variables="0" lines="414" %}
+{% include source-code-card.html title="main.cpp" items=card_2_3_items functions="1" variables="0" lines="105" %}
+{% include source-code-card.html title="pic_create.cpp" items=card_2_4_items functions="4" variables="1" lines="335" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
 
 ---
 # Documentation (doc)
@@ -289,181 +272,132 @@ picture | .h | Include file for declaring
 util | .h | Include file for declaring 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="agbtypes.h" />
-  <h3>agbtypes.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">154</div>  </div>
-</div>
+{% capture card_3_1_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="angle.h" />
-  <h3>angle.h</h3><ul>
-    <li><span>_AGB_ANGLE_PIE</span> <span>(3.14159265359f)</span></li>
-    <li><span>double const</span> m_rad2agb</li> 
-    <li><span>double const</span> m_agb2rad</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">2</div>    <div class="rr-file-stat rr-file-stats-lines">62</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="bmpstruct.h" />
-  <h3>bmpstruct.h</h3><ul>
-    <li><span>BMP_COMP_RGB</span> <span>(0)</span></li>
-    <li><span>BMP_COMP_RLE8</span> <span>(1)</span></li>
-    <li><span>BMP_COMP_RLE4</span> <span>(2)</span></li>
-    <li><span>BMP_COMP_BITFIELDS</span> <span>(3)</span></li>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">60</div>  </div>
-</div>
+{% capture card_3_2_items %}
+- _AGB_ANGLE_PIE|||(3.14159265359f)
+- double const|||m_rad2agb
+- double const|||m_agb2rad
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="buffer.h" />
-  <h3>buffer.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">81</div>  </div>
-</div>
+{% capture card_3_3_items %}
+- BMP_COMP_RGB|||(0)
+- BMP_COMP_RLE8|||(1)
+- BMP_COMP_RLE4|||(2)
+- BMP_COMP_BITFIELDS|||(3)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="char16set.h" />
-  <h3>char16set.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">49</div>  </div>
-</div>
+{% capture card_3_4_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="char256set.h" />
-  <h3>char256set.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">50</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="character.h" />
-  <h3>character.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">138</div>  </div>
-</div>
+{% capture card_3_5_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="character16.h" />
-  <h3>character16.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">40</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="character256.h" />
-  <h3>character256.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">25</div>  </div>
-</div>
+{% capture card_3_6_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="charset.h" />
-  <h3>charset.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">73</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="color.h" />
-  <h3>color.h</h3><ul>
-    <li><span>bool</span> operator==<span class="rr-func-args">(Color const&,Color const&)</span></li> 
-    <li><span>bool</span> operator!=<span class="rr-func-args">(Color const&,Color const&)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">2</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">60</div>  </div>
-</div>
+{% capture card_3_7_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="hpicture.h" />
-  <h3>hpicture.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">108</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="map.h" />
-  <h3>map.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">78</div>  </div>
-</div>
+{% capture card_3_8_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="map16.h" />
-  <h3>map16.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">52</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="map256.h" />
-  <h3>map256.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">49</div>  </div>
-</div>
+{% capture card_3_9_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="mapsrimage.h" />
-  <h3>mapsrimage.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">45</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="maptextimage.h" />
-  <h3>maptextimage.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">96</div>  </div>
-</div>
+{% capture card_3_10_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="maptextunit.h" />
-  <h3>maptextunit.h</h3><ul>
-    <li><span>MT_NONE_FLIP</span> <span>(0)</span></li>
-    <li><span>MT_H_FLIP</span> <span>(1)</span></li>
-    <li><span>MT_V_FLIP</span> <span>(2)</span></li>
-    <li><span>MT_HV_FLIP</span> <span>(3)</span></li>
-    <li><span>bool</span> operator==<span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-    <li><span>bool</span> operator!=<span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-    <li><span>bool</span> operator<<span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-    <li><span>bool</span> operator><span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-    <li><span>bool</span> operator<=<span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-    <li><span>bool</span> operator>=<span class="rr-func-args">(MapTextUnit const&,MapTextUnit const&)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">6</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">57</div>  </div>
-</div>
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="palette.h" />
-  <h3>palette.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">101</div>  </div>
-</div>
+{% capture card_3_11_items %}
+- bool|||operator==|||(Color const&,Color const&)
+- bool|||operator!=|||(Color const&,Color const&)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="picture.h" />
-  <h3>picture.h</h3><ul>
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">0</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">128</div>  </div>
-</div>
+{% capture card_3_12_items %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="util.h" />
-  <h3>util.h</h3><ul>
-    <li><span>void</span> _itoa_c_hex<span>(char val,char *str)</span></li> 
-    <li><span>inline _Ty</span> Min<span>(const _Ty&_L,const _Ty&_R){
-    return (_L < _R )? _L : _R ;
-}</span></li> 
-    <li><span>inline _Ty</span> Max<span>(const _Ty&_L,const _Ty&_R){
-    return (_L > _R )? _L : _R ;
-}</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">3</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">154</div>  </div>
-</div>
+{% endcapture %}
 
-</section>
+{% capture card_3_13_items %}
+
+{% endcapture %}
+
+{% capture card_3_14_items %}
+
+{% endcapture %}
+
+{% capture card_3_15_items %}
+
+{% endcapture %}
+
+{% capture card_3_16_items %}
+
+{% endcapture %}
+
+{% capture card_3_17_items %}
+
+{% endcapture %}
+
+{% capture card_3_18_items %}
+- MT_NONE_FLIP|||(0)
+- MT_H_FLIP|||(1)
+- MT_V_FLIP|||(2)
+- MT_HV_FLIP|||(3)
+- bool|||operator==|||(MapTextUnit const&,MapTextUnit const&)
+- bool|||operator!=|||(MapTextUnit const&,MapTextUnit const&)
+- bool|||operator<|||(MapTextUnit const&,MapTextUnit const&)
+- bool|||operator>|||(MapTextUnit const&,MapTextUnit const&)
+- bool|||operator<=|||(MapTextUnit const&,MapTextUnit const&)
+- bool|||operator>=|||(MapTextUnit const&,MapTextUnit const&)
+{% endcapture %}
+
+{% capture card_3_19_items %}
+
+{% endcapture %}
+
+{% capture card_3_20_items %}
+
+{% endcapture %}
+
+{% capture card_3_21_items %}
+- void|||_itoa_c_hex(char val,char *str)
+- inline _Ty|||Min(const _Ty&_L,const _Ty&_R){ return (_L
+- inline _Ty|||Max(const _Ty&_L,const _Ty&_R){ return (_L > _R )? _L : _R ; }
+{% endcapture %}
+
+{% capture section_3_cards %}
+{% include source-code-card.html title="agbtypes.h" items=card_3_1_items functions="0" variables="0" lines="154" %}
+{% include source-code-card.html title="angle.h" items=card_3_2_items functions="0" variables="2" lines="62" %}
+{% include source-code-card.html title="bmpstruct.h" items=card_3_3_items functions="0" variables="0" lines="60" %}
+{% include source-code-card.html title="buffer.h" items=card_3_4_items functions="0" variables="0" lines="81" %}
+{% include source-code-card.html title="char16set.h" items=card_3_5_items functions="0" variables="0" lines="49" %}
+{% include source-code-card.html title="char256set.h" items=card_3_6_items functions="0" variables="0" lines="50" %}
+{% include source-code-card.html title="character.h" items=card_3_7_items functions="0" variables="0" lines="138" %}
+{% include source-code-card.html title="character16.h" items=card_3_8_items functions="0" variables="0" lines="40" %}
+{% include source-code-card.html title="character256.h" items=card_3_9_items functions="0" variables="0" lines="25" %}
+{% include source-code-card.html title="charset.h" items=card_3_10_items functions="0" variables="0" lines="73" %}
+{% include source-code-card.html title="color.h" items=card_3_11_items functions="2" variables="0" lines="60" %}
+{% include source-code-card.html title="hpicture.h" items=card_3_12_items functions="0" variables="0" lines="108" %}
+{% include source-code-card.html title="map.h" items=card_3_13_items functions="0" variables="0" lines="78" %}
+{% include source-code-card.html title="map16.h" items=card_3_14_items functions="0" variables="0" lines="52" %}
+{% include source-code-card.html title="map256.h" items=card_3_15_items functions="0" variables="0" lines="49" %}
+{% include source-code-card.html title="mapsrimage.h" items=card_3_16_items functions="0" variables="0" lines="45" %}
+{% include source-code-card.html title="maptextimage.h" items=card_3_17_items functions="0" variables="0" lines="96" %}
+{% include source-code-card.html title="maptextunit.h" items=card_3_18_items functions="6" variables="0" lines="57" %}
+{% include source-code-card.html title="palette.h" items=card_3_19_items functions="0" variables="0" lines="101" %}
+{% include source-code-card.html title="picture.h" items=card_3_20_items functions="0" variables="0" lines="128" %}
+{% include source-code-card.html title="util.h" items=card_3_21_items functions="3" variables="0" lines="154" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_3_cards %}
 
 
 ---
@@ -496,62 +430,49 @@ picture | .cpp |
 util | .cpp | 
 
 
-<div class="rr-source-code-title">Code Files</div><section class="rr-main-cards">
-<div class="rr-file-card">
-  <img class="geopattern" data-title="color.cpp" />
-  <h3>color.cpp</h3><ul>
-    <li><span>bool</span> operator<span>==(const Color&_L,const Color&_R)</span></li> 
-    <li><span>bool</span> operator!</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">74</div>  </div>
-</div>
+{% capture card_4_1_items %}
+- bool|||operator==(const Color&_L,const Color&_R)
+- bool|||operator!
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="filename.cpp" />
-  <h3>filename.cpp</h3><ul>
-    <li><span>FileName</span> operator<span>+(const PathName&_L,const FileName&_R)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">256</div>  </div>
-</div>
+{% capture card_4_2_items %}
+- FileName|||operator+(const PathName&_L,const FileName&_R)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="image.cpp" />
-  <h3>image.cpp</h3><ul>
-    <li><span>__USING__MAGBX u8 </span> create_data_array_from_image4b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u8 </span> create_data_array_from_image8b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u16 </span> create_data_array_from_image16b<span>(const Image<u16>&image)</span></li> 
-    <li><span>u32 </span> create_data_array_from_image32b<span>(const Image<u32>&image)</span></li> 
-    <li><span>u32</span> get_array_count_4b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u32</span> get_array_count_8b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u32</span> get_array_count_16b<span>(const Image<u16>&image)</span></li> 
-    <li><span>u32</span> get_array_count_32b<span>(const Image<u32>&image)</span></li> 
-    <li><span>u8 </span> create_data_array_from_image4b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u8 </span> create_data_array_from_image8b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u16 </span> create_data_array_from_image16b<span>(const Image<u16>&image)</span></li> 
-    <li><span>u32 </span> create_data_array_from_image32b<span>(const Image<u32>&image)</span></li> 
-    <li><span>u32</span> get_array_count_4b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u32</span> get_array_count_8b<span>(const Image<u8>&image)</span></li> 
-    <li><span>u32</span> get_array_count_16b<span>(const Image<u16>&image)</span></li> 
-    <li><span>u32</span> get_array_count_32b<span>(const Image<u32>&image)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">16</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">161</div>  </div>
-</div>
+{% capture card_4_3_items %}
+- __USING__MAGBX u8|||create_data_array_from_image4b(const Image&image)
+- u8|||create_data_array_from_image8b(const Image&image)
+- u16|||create_data_array_from_image16b(const Image&image)
+- u32|||create_data_array_from_image32b(const Image&image)
+- u32|||get_array_count_4b(const Image&image)
+- u32|||get_array_count_8b(const Image&image)
+- u32|||get_array_count_16b(const Image&image)
+- u32|||get_array_count_32b(const Image&image)
+- u8|||create_data_array_from_image4b(const Image&image)
+- u8|||create_data_array_from_image8b(const Image&image)
+- u16|||create_data_array_from_image16b(const Image&image)
+- u32|||create_data_array_from_image32b(const Image&image)
+- u32|||get_array_count_4b(const Image&image)
+- u32|||get_array_count_8b(const Image&image)
+- u32|||get_array_count_16b(const Image&image)
+- u32|||get_array_count_32b(const Image&image)
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="maptextunit.cpp" />
-  <h3>maptextunit.cpp</h3><ul>
-    <li><span>bool</span> operator<span>==(const MapTextUnit&_L,const MapTextUnit&_R)</span></li> 
-    <li><span>bool</span> operator!</li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">1</div>    <div class="rr-file-stat rr-file-stats-lines">93</div>  </div>
-</div>
+{% capture card_4_4_items %}
+- bool|||operator==(const MapTextUnit&_L,const MapTextUnit&_R)
+- bool|||operator!
+{% endcapture %}
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="util.cpp" />
-  <h3>util.cpp</h3><ul>
-    <li><span>void</span> _itoa_c_hex<span>(char val,char *str)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">208</div>  </div>
-</div>
+{% capture card_4_5_items %}
+- void|||_itoa_c_hex(char val,char *str)
+{% endcapture %}
 
-</section>
+{% capture section_4_cards %}
+{% include source-code-card.html title="color.cpp" items=card_4_1_items functions="1" variables="1" lines="74" %}
+{% include source-code-card.html title="filename.cpp" items=card_4_2_items functions="1" variables="0" lines="256" %}
+{% include source-code-card.html title="image.cpp" items=card_4_3_items functions="16" variables="0" lines="161" %}
+{% include source-code-card.html title="maptextunit.cpp" items=card_4_4_items functions="1" variables="1" lines="93" %}
+{% include source-code-card.html title="util.cpp" items=card_4_5_items functions="1" variables="0" lines="208" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_4_cards %}

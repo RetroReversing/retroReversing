@@ -907,65 +907,58 @@ dimem | .init | Used to initialize the 64K memory
 randmem | .c | 
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="di_dev.c" />
-  <h3>di_dev.c</h3>
-  <ul>
-    <li><span>u32</span> strbRatio</li> 
-    <li><span>u32</span> pktDelay</li> 
-    <li><span>u32</span> brstDelay</li> 
-    <li><span>u32</span> brkDelay</li> 
-    <li><span>u32</span> brkRespDelay</li> 
-    <li><span>u32</span> errDelay</li> 
-    <li><span>Dev</span> dev</li> 
-    <li><span>char </span> pStrs[]</li> 
-    <li><span>char </span> cmdStrs[]</li> 
-    <li><span>u32</span> pTypes[P_MAX+1]</li> 
-    <li><span>int clkPer,startPer</span> clkCnt</li> 
-    <li><span>char </span> dirStr[2]</li> 
-    <li><span>char </span> sigStr[bs_maxsig]</li> 
-    <li><span>u32</span> bsParms[bs_maxsig]</li> 
-    <li><span>u32</span> bsVals[2][MAX_BRKSTATE][bs_maxsig]</li> 
-    <li><span>DiMon</span> mon</li> 
-    <li><span>static FILE </span> hiOpen<span>(const char *path)</span></li> 
-    <li><span>int</span> check_didev<span>()</span></li> 
-    <li><span>static void</span> devGetCmd<span>(void)</span></li> 
-    <li><span>static void</span> devReset<span>(int reset)</span></li> 
-    <li><span>int</span> call_didev<span>()</span></li> 
-    <li><span>static void</span> setDelays<span>(void)</span></li> 
-    <li><span>static void</span> getDelays<span>(void)</span></li> 
-    <li><span>static void</span> getTimes<span>(void)</span></li> 
-    <li><span>static void</span> forceErr<span>(void)</span></li> 
-    <li><span>static u32</span> testErr<span>(void)</span></li> 
-    <li><span>static void</span> doDoor<span>(void)</span></li> 
-    <li><span>static void</span> doCover<span>(void)</span></li> 
-    <li><span>static void</span> doDevPos<span>(void)</span></li> 
-    <li><span>static void</span> doDevNeg<span>(void)</span></li> 
-    <li><span>static void</span> doHostNeg<span>()</span></li> 
-    <li><span>static void</span> dumpPkt<span>(void)</span></li> 
-    <li><span>static void</span> doCmd<span>(void)</span></li> 
-    <li><span>static void</span> doHostPos<span>(void)</span></li> 
-    <li><span>static void</span> doBrk<span>(void)</span></li> 
-    <li><span>static void</span> brkVerify<span>(void)</span></li> 
-    <li><span>static void</span> doMonitor<span>(void)</span></li> 
-    <li><span>static void</span> clrErr<span>(void)</span></li> 
-    <li><span>int</span> misc_didev<span>(int data,int reason,int paramvc)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">23</div>    <div class="rr-file-stat rr-file-stats-variables">16</div>    <div class="rr-file-stat rr-file-stats-lines">1307</div>  </div>
- </div>
+{% capture card_1_1_items %}
+- u32|||strbRatio
+- u32|||pktDelay
+- u32|||brstDelay
+- u32|||brkDelay
+- u32|||brkRespDelay
+- u32|||errDelay
+- Dev|||dev
+- char|||pStrs[]
+- char|||cmdStrs[]
+- u32|||pTypes[P_MAX+1]
+- int clkPer,startPer|||clkCnt
+- char|||dirStr[2]
+- char|||sigStr[bs_maxsig]
+- u32|||bsParms[bs_maxsig]
+- u32|||bsVals[2][MAX_BRKSTATE][bs_maxsig]
+- DiMon|||mon
+- static FILE|||hiOpen(const char *path)
+- int|||check_didev()
+- static void|||devGetCmd(void)
+- static void|||devReset(int reset)
+- int|||call_didev()
+- static void|||setDelays(void)
+- static void|||getDelays(void)
+- static void|||getTimes(void)
+- static void|||forceErr(void)
+- static u32|||testErr(void)
+- static void|||doDoor(void)
+- static void|||doCover(void)
+- static void|||doDevPos(void)
+- static void|||doDevNeg(void)
+- static void|||doHostNeg()
+- static void|||dumpPkt(void)
+- static void|||doCmd(void)
+- static void|||doHostPos(void)
+- static void|||doBrk(void)
+- static void|||brkVerify(void)
+- static void|||doMonitor(void)
+- static void|||clrErr(void)
+- int|||misc_didev(int data,int reason,int paramvc)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="randmem.c" />
-  <h3>randmem.c</h3>
-  <ul>
-    <li><span>void</span> main<span>(int argc,char *argv[])</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">1</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">20</div>  </div>
- </div>
+{% capture card_1_2_items %}
+- void|||main(int argc,char *argv[])
+{% endcapture %}
 
-</section>
+{% capture section_1_cards %}
+{% include source-code-card.html title="di_dev.c" items=card_1_1_items functions="23" variables="16" lines="1307" %}
+{% include source-code-card.html title="randmem.c" items=card_1_2_items functions="1" variables="0" lines="20" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_1_cards %}
 
 ---
 ##### DI Verilog Programming Language Interface (PLI) (/gamecube/hardware/DI/bfm/BB2/tools/pli)
@@ -986,52 +979,39 @@ TestPLI | .c, .tab | The main C source file that loads vector streams
 jfile | .c, .tab | C Source file that implements a few file opening functions to get around the verilog 32 file descriptor limit
 
 
-<div class="rr-source-code-title">Code Files</div>
-  <section class="rr-main-cards">
- <div class="rr-file-card">
-  <img class="geopattern" data-title="TestPLI.c" />
-  <h3>TestPLI.c</h3>
-  <ul>
-    <li><span>int</span> numVecStreams</li> 
-    <li><span>char</span> InputLine[256]</li> 
-    <li><span>struct {
-   char key[MAXKEY];
-   FILE *vecfp;
-   int  more;
-   int  fields;
-   int  linenum;
-</span> VecStreams[MAXSTREAMS]</li> 
-    <li><span>int</span> InitVec<span>(int data,int reason)</span></li> 
-    <li><span>int</span> InitTaggedVec<span>(int data,int reason)</span></li> 
-    <li><span>int</span> GetVec<span>(int data,int reason)</span></li> 
-    <li><span>int</span> GetAnyTaggedVec<span>(int data,int reason)</span></li> 
-    <li><span>int</span> GetUntaggedVec<span>(int data,int reason)</span></li> 
-    <li><span>int</span> GetCLVal<span>(int data,int reason)</span></li> 
-    <li><span>void</span> GetCLStr<span>(int data,int reason)</span></li> 
-    <li><span>int</span> FileExist<span>(int data,int reason)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">8</div>    <div class="rr-file-stat rr-file-stats-variables">3</div>    <div class="rr-file-stat rr-file-stats-lines">443</div>  </div>
- </div>
+{% capture card_2_1_items %}
+- int|||numVecStreams
+- char|||InputLine[256]
+- struct { char key[MAXKEY]; FILE *vecfp; int more; int fields; int linenum;|||VecStreams[MAXSTREAMS]
+- int|||InitVec(int data,int reason)
+- int|||InitTaggedVec(int data,int reason)
+- int|||GetVec(int data,int reason)
+- int|||GetAnyTaggedVec(int data,int reason)
+- int|||GetUntaggedVec(int data,int reason)
+- int|||GetCLVal(int data,int reason)
+- void|||GetCLStr(int data,int reason)
+- int|||FileExist(int data,int reason)
+{% endcapture %}
 
- <div class="rr-file-card">
-  <img class="geopattern" data-title="jfile.c" />
-  <h3>jfile.c</h3>
-  <ul>
-    <li><span>static FILE </span> hiOpen<span>(const char *path)</span></li> 
-    <li><span>int</span> check_jopen<span>()</span></li> 
-    <li><span>int</span> call_jopen<span>()</span></li> 
-    <li><span>int</span> check_jclose<span>()</span></li> 
-    <li><span>int</span> call_jclose<span>()</span></li> 
-    <li><span>int</span> check_jflush<span>()</span></li> 
-    <li><span>int</span> call_jflush<span>()</span></li> 
-    <li><span>int</span> check_jdisplay<span>()</span></li> 
-    <li><span>static void</span> prtStr<span>(FILE *fp,char *val,int digs,int ldZero)</span></li> 
-    <li><span>int</span> call_jdisplay<span>()</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">10</div>    <div class="rr-file-stat rr-file-stats-variables">0</div>    <div class="rr-file-stat rr-file-stats-lines">361</div>  </div>
- </div>
+{% capture card_2_2_items %}
+- static FILE|||hiOpen(const char *path)
+- int|||check_jopen()
+- int|||call_jopen()
+- int|||check_jclose()
+- int|||call_jclose()
+- int|||check_jflush()
+- int|||call_jflush()
+- int|||check_jdisplay()
+- static void|||prtStr(FILE *fp,char *val,int digs,int ldZero)
+- int|||call_jdisplay()
+{% endcapture %}
 
-</section>
+{% capture section_2_cards %}
+{% include source-code-card.html title="TestPLI.c" items=card_2_1_items functions="8" variables="3" lines="443" %}
+{% include source-code-card.html title="jfile.c" items=card_2_2_items functions="10" variables="0" lines="361" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html title="Code Files" content=section_2_cards %}
 
 
 ---

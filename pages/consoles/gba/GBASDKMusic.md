@@ -102,45 +102,43 @@ If it matches any of the m4aLib functions then you know your game uses it.
 
 ## What are the main functions in the M4A Library
 You can view the main exports in the **mks4agbLib.h** header file below:
-<section class="rr-main-cards" style="justify-content: center">
 
-<div class="rr-file-card">
-  <img class="geopattern" data-title="mks4agbLib.h" />
-  <h3>mks4agbLib.h</h3><ul style="width:350px">
-    <li><span>u8 const[]</span> __sound_mode_i</li> 
-    <li><span>u8 const[]</span> __total_mplay_n</li> 
-    <li><span>u8 const[]</span> __total_song_n</li> 
-    <li><span>SoundArea</span> m4a_sound</li> 
-    <li><span>MPlayTable const[]</span> mplay_table</li> 
-    <li><span>SongTable const[]</span> song_table</li> 
-    <li><span>u8[]</span> m4a_memacc_area</li> 
-    <li><span>void</span> m4aSoundInit<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SoundMode_rev01<span class="rr-func-args">(u32)</span></li> 
-    <li><span>void</span> m4aSoundMain<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SoundVSync_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SoundVSyncOff_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> SoundVSyncOn_rev01<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> MPlayStart_rev01<span class="rr-func-args">(MusicPlayerArea*,SongHeader*)</span></li> 
-    <li><span>void</span> m4aSongNumStart<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aSongNumStartOrChange<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aSongNumStartOrContinue<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayImmInit<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>void</span> MPlayStop_rev01<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>void</span> m4aSongNumStop<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayAllStop<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> m4aMPlayContinue<span class="rr-func-args">(MusicPlayerArea*)</span></li> 
-    <li><span>void</span> m4aSongNumContinue<span class="rr-func-args">(u16)</span></li> 
-    <li><span>void</span> m4aMPlayAllContinue<span class="rr-func-args">()</span></li> 
-    <li><span>void</span> m4aMPlayFadeOut<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
-    <li><span>void</span> MPlayTempoControl<span class="rr-func-args">(MusicPlayerArea*,u16)</span></li> 
-    <li><span>void</span> MPlayVolumeControl<span class="rr-func-args">(MusicPlayerArea*,u16,u16)</span></li> 
-    <li><span>void</span> MPlayPitchControl<span class="rr-func-args">(MusicPlayerArea*,u16,s16)</span></li> 
-    <li><span>void</span> MPlayPanpotControl<span class="rr-func-args">(MusicPlayerArea*,u16,s8)</span></li> 
-    <li><span>void</span> MPlayModDepthSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
-    <li><span>void</span> MPlayLFOSpeedSet<span class="rr-func-args">(MusicPlayerArea*,u16,u8)</span></li> 
-  </ul>
-  <div class="rr-file-stats">    <div class="rr-file-stat rr-file-stats-functions">24</div>    <div class="rr-file-stat rr-file-stats-variables">7</div>    <div class="rr-file-stat rr-file-stats-lines">125</div>  </div>
-</div>
+{% capture card_1_1_items %}
+- u8 const[]|||__sound_mode_i
+- u8 const[]|||__total_mplay_n
+- u8 const[]|||__total_song_n
+- SoundArea|||m4a_sound
+- MPlayTable const[]|||mplay_table
+- SongTable const[]|||song_table
+- u8[]|||m4a_memacc_area
+- void|||m4aSoundInit|||()
+- void|||SoundMode_rev01|||(u32)
+- void|||m4aSoundMain|||()
+- void|||SoundVSync_rev01|||()
+- void|||SoundVSyncOff_rev01|||()
+- void|||SoundVSyncOn_rev01|||()
+- void|||MPlayStart_rev01|||(MusicPlayerArea*,SongHeader*)
+- void|||m4aSongNumStart|||(u16)
+- void|||m4aSongNumStartOrChange|||(u16)
+- void|||m4aSongNumStartOrContinue|||(u16)
+- void|||m4aMPlayImmInit|||(MusicPlayerArea*)
+- void|||MPlayStop_rev01|||(MusicPlayerArea*)
+- void|||m4aSongNumStop|||(u16)
+- void|||m4aMPlayAllStop|||()
+- void|||m4aMPlayContinue|||(MusicPlayerArea*)
+- void|||m4aSongNumContinue|||(u16)
+- void|||m4aMPlayAllContinue|||()
+- void|||m4aMPlayFadeOut|||(MusicPlayerArea*,u16)
+- void|||MPlayTempoControl|||(MusicPlayerArea*,u16)
+- void|||MPlayVolumeControl|||(MusicPlayerArea*,u16,u16)
+- void|||MPlayPitchControl|||(MusicPlayerArea*,u16,s16)
+- void|||MPlayPanpotControl|||(MusicPlayerArea*,u16,s8)
+- void|||MPlayModDepthSet|||(MusicPlayerArea*,u16,u8)
+- void|||MPlayLFOSpeedSet|||(MusicPlayerArea*,u16,u8)
+{% endcapture %}
 
+{% capture section_1_cards %}
+{% include source-code-card.html title="mks4agbLib.h" items=card_1_1_items functions="24" variables="7" lines="125" list_style="width:350px" %}
+{% endcapture %}
 
-</section>
+{% include source-code-card-grid.html content=section_1_cards style="justify-content: center" %}

@@ -1,18 +1,26 @@
-<div class="rr-file-card">
+<div class="rr-file-card"{% if include.card_style %} style="{{ include.card_style }}"{% endif %}>
   <img class="geopattern" data-title="{{ include.title }}" />
   <h3>{{ include.title }}</h3>
-  <ul>
+  <ul{% if include.list_style %} style="{{ include.list_style }}"{% endif %}>
     {% assign raw_items = include.items | to_s | strip | split: '
 ' %}
     {% for raw_line in raw_items %}
       {% assign line = raw_line | strip %}
       {% if line != '' %}
         {% assign item = line | remove_first: '- ' | strip %}
-        {% assign parts = item | split: '::' %}
+        {% if item contains '|||' %}
+          {% assign parts = item | split: '|||' %}
+        {% else %}
+          {% assign parts = item | split: '::' %}
+        {% endif %}
         {% assign item_type = parts[0] | default: '' | strip %}
         {% assign item_name = parts[1] | default: '' | strip %}
-        {% assign item_args = parts | slice: 2, 99 | join: '::' | strip %}
-        <li>
+        {% if item contains '|||' %}
+          {% assign item_args = parts | slice: 2, 99 | join: '|||' | strip %}
+        {% else %}
+          {% assign item_args = parts | slice: 2, 99 | join: '::' | strip %}
+        {% endif %}
+        <li{% if include.item_style %} style="{{ include.item_style }}"{% endif %}>
           <span>{{ item_type }}</span>
           {% if item_args != '' %}
             {{ item_name }}<span class="rr-func-args">{{ item_args }}</span>
