@@ -8,7 +8,7 @@ breadcrumbs:
   - name: Amiga
     url:
 editlink: ../categories/consoles/Amiga.md
-console: amiga
+category: amiga
 _image: /public/images/thumbnails/categories/consoles/Amiga-Reverse-Engineering.jpg
 _twitterimage: https://www.retroreversing.com/public/images/thumbnails/categories/consoles/Amiga-Reverse-Engineering.jpg
 tags:

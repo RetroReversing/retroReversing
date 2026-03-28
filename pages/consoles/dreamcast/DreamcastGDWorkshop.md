@@ -5,7 +5,7 @@ tags:
 - dreamcast
 - sdk
 title: GD Workshop (GD-R Burner/Virtualiser)
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: /public/images/dreamcast/Dreamcast-GD-Workshop.jpg
 twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast-GD-Workshop.jpg
 permalink: /sega-dreamcast-gd-workshop

@@ -4,7 +4,7 @@ tags:
 - leak
 - switch
 title: Nintendo Switch Game Card Leak  
-thumbnail: /public/consoles/Nintendo Switch.png
+category: leak
 image: /public/images/leaks/Nintendo Switch Game Card Leak.jpg
 twitterimage: https://www.retroreversing.com/public/images/leaks/Nintendo Switch Game Card Leak.jpg
 permalink: /switch-game-card-data-sheets

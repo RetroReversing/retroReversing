@@ -1,8 +1,7 @@
 ---
 layout: post
 permalink: /disassemblers
-thumbnail: /public/images/RetroReversingLogoSmall.png
-console: disassemblers
+category: disassemblers
 breadcrumbs:
   - name: Home
     url: /

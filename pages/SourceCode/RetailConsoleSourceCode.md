@@ -3,10 +3,9 @@ permalink: /source-code/retail-console-source-code
 layout: post
 title: Retail Console Game Source code (C/C++)
 excerpt: Find out about leaked real retail game source code in this post
-thumbnail: /public/consoles/Computer Old Design.png
 image: /public/images/Retail Console Game Source code.jpg
 twitterimage: https://www.retroreversing.com/public/images/Retail Console Game Source code.jpg
-console: sourcecode
+category: sourcecode
 priority: 1.0
 breadcrumbs:
   - name: Home

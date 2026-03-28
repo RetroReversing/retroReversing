@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /museums
-console: industry
+category: industry
 title: Game Industry Museums and Virtual Experiences
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

@@ -5,7 +5,7 @@ tags:
 - sdk
 - symbols
 title: Official Sony PS1 Libraries 
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/psyqlibs.png
 permalink: /ps1-libs
 breadcrumbs:

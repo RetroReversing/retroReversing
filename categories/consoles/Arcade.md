@@ -4,7 +4,7 @@ layout: post
 title: Arcade - How retro arcade games were made
 recommendTitle: All Arcade Posts
 editlink: ../categories/consoles/Arcade.md
-console: arcade
+category: arcade
 consoleimage: /public/consoles/Arcade.png
 excerpt: Awesome list of Arcade Game Development information
 breadcrumbs:
@@ -224,6 +224,12 @@ It wasn't just western media either, as far back as June 2000 **MAME** was being
 ![Arcadia Issue1 MAME](https://github.com/user-attachments/assets/2227f696-f652-4073-b5b6-e7a2211be7a4)
 
 MAME was again featured in EDGE magazine in **October 2002**, where it was described as "by far the greatest and most important piece of video gaming code ever written"[^11].
+
+# Unreleased Arcade Games 
+
+## Rare's Razz Board 
+
+[Rare Gamer - Fokker](https://www.raregamer.co.uk/games/fokker/)
 
 ---
 # References

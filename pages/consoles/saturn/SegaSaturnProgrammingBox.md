@@ -6,7 +6,7 @@ tags:
 - saturn
 - sega
 title: Official Sega Saturn Development Kit (Hardware)
-thumbnail: /public/consoles/Sega Saturn.png
+category: saturn
 image: https://img.youtube.com/vi/xPHtTGfCpgU/hqdefault.jpg
 permalink: /sega-saturn-programming-box/
 videocarousel:

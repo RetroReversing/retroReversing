@@ -1,7 +1,7 @@
 ---
 permalink: /companies/snsystems/
 layout: post
-console: snsystems
+category: snsystems
 recommend: 
 - snsystems
 - sdk

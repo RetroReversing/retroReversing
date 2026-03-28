@@ -6,7 +6,7 @@ tags:
 - nes
 - n64
 title: Emulator Game Memory corruption
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 image: /public/images/articles/Emulator Memory Corruption.jpg
 twitterimage: https://www.retroreversing.com/public/images/articles/Emulator Memory Corruption.jpg
 permalink: /emulator-game-memory-corruption

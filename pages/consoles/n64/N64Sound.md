@@ -4,7 +4,7 @@ tags:
 - n64
 title: N64 Sound and Music
 image:  /public/N64/N64SoundMusic.png
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /n64sound
 breadcrumbs:
   - name: Home

@@ -5,7 +5,7 @@ tags:
 - sdk
 - leak
 title: Gigaleak 2 Electric Boogaloo - N64 Source Code Leak 
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/N64 Gigaleak2.jpg
 permalink: /gigaleak2
 breadcrumbs:

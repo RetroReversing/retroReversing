@@ -5,7 +5,7 @@ tags:
 - leak
 - sourcecode
 title: Nintendo Platinum Leak  
-thumbnail: /public/consoles/Nintendo 64.png
+category: leak
 image: /public/images/leaks/PlatinumLeak.jpg
 permalink: /platinumleak
 breadcrumbs:

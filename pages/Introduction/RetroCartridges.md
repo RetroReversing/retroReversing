@@ -9,7 +9,7 @@ tags:
 - megadrive
 - mastersystem
 title: How Retro Cartridges (ROMS) work
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 image: https://i.ytimg.com/vi/NLEMsw1SjDY/sddefault.jpg
 permalink: /how-retro-cartridges-roms-worked
 breadcrumbs:

@@ -5,9 +5,8 @@ title: Nintendo Gamecube (Dolphin) Reverse Engineering
 recommend: gamecube
 recommendTitle: All GC Posts
 editlink: ../categories/consoles/Gamecube.md
-console: 'gamecube'
+category: gamecube
 consoleimage: /public/consoles/Nintendo Gamecube.png
-thumbnail: /public/consoles/Nintendo Gamecube.png
 excerpt: Awesome list of Nintendo Gamecube Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

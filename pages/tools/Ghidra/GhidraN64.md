@@ -6,7 +6,7 @@ tags:
 - n64
 - ghidra
 title: N64 Decompiling with Ghidra
-console: n64
+category: n64
 image: https://i.ytimg.com/vi/3d3a39LuCwc/hqdefault.jpg
 permalink: /n64-decompiling
 breadcrumbs:

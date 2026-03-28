@@ -5,7 +5,7 @@ tags:
 - games
 title: Mario Kart 64
 published: true
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/0pZkOKRfCUlcJDX5TiJL8g_img_0.png
 permalink: /mario-kart-64/
 breadcrumbs:

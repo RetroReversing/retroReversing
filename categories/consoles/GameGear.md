@@ -4,9 +4,8 @@ layout: post
 title: Sega Game Gear Reverse Engineering
 recommendTitle: All GG Posts
 editlink: ../categories/consoles/GameGear.md
-console: 'gamegear'
+category: gamegear
 consoleimage: /public/consoles/Sega Game Gear.png
-thumbnail: /public/consoles/Sega Game Gear.png
 excerpt: Awesome list of Sega Game Gear Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

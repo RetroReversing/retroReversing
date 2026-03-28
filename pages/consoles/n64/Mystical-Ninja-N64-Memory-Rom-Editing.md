@@ -4,7 +4,7 @@ tags:
 - n64
 - memory
 title: Mystical Ninja N64 Memory Rom Editing
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 youtube: "HCOhOoajBFY"
 image: /public/zPL1VU0wRtcGNpCC99q46g_img_0.png
 permalink: /mystical-ninja-n64-memory-rom-editing/

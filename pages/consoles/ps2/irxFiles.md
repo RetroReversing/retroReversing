@@ -4,7 +4,7 @@ tags:
 - ps2
 - sdk
 title: IRX Files for Playstation 2
-thumbnail: /public/consoles/Sony PlayStation 2.png
+category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 IRX Files.jpg
 permalink: /irx-ps2

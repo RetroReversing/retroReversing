@@ -1,7 +1,7 @@
 ---
 permalink: /ghidra
 layout: post
-console: 'ghidra'
+category: 'ghidra'
 title: 'Ghidra Decompiler & Disassembler - Awesome List'
 recommend: ghidra
 recommendTitle: All Ghidra Posts

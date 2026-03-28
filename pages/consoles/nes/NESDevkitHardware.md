@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: NES (Famicom) Development Kit Hardware
-thumbnail: /public/consoles/Nintendo Entertainment System.png
+category: nes
 image: /public/images/nes/NES Famicom Development Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/nes/Famicom_PDS_INTERFACE.jpg
 permalink: /famicom-nes-development-kit/

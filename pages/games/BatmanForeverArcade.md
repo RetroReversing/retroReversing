@@ -6,7 +6,7 @@ tags:
 - ps1
 - games
 title: Batman Forever - The Arcade Game (1996)
-thumbnail: /public/consoles/Sega Saturn.png
+category: games
 image: https://i.ytimg.com/vi/WWz2nScv22g/hqdefault.jpg
 permalink: /batman-forever
 breadcrumbs:

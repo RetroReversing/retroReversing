@@ -6,7 +6,7 @@ tags:
 - megadrive
 - sega
 title: Working at SEGA Documentary 
-thumbnail: /public/consoles/Sega Genesis.png
+category: industry
 image: https://img.youtube.com/vi/lCnaw07LaS0/sddefault.jpg
 permalink: /sega-documentary
 breadcrumbs:

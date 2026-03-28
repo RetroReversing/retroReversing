@@ -5,7 +5,7 @@ tags:
 - n64
 - sdk
 title: iQue Player Software Development Kit
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/iQue SDK.jpg
 permalink: /ique-sdk
 breadcrumbs:

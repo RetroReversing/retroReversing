@@ -4,7 +4,7 @@ tags:
 - introduction
 - hardware
 title: How to reverse engineer a microchip
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 image: https://i.ytimg.com/vi/r8Vq5NV4Ens/sddefault.jpg
 permalink: /how-to-reverse-microchip
 breadcrumbs:

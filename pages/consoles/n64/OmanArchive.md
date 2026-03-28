@@ -5,7 +5,7 @@ tags:
 - sdk
 - leak
 title: Oman Archive - N64 Leak by SGI employee
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/N64 Oman Archive.jpg
 permalink: /oman-archive
 breadcrumbs:

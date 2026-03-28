@@ -7297,12 +7297,12 @@ figure {
   margin-right: 3px;
 }
 
-.widget-videos span:after {
+/* .widget-videos span:after {
   color: #9c9c9c;
   content: "\002022";
   margin: 0 3px 0 8px;
   display: inline-block;
-}
+} */
 
 .widget-videos span:last-child:after {
   display: none;

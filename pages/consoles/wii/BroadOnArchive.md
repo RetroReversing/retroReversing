@@ -7,7 +7,7 @@ tags:
 - wii
 - ique
 title: BroadOn Archive - Nintendo May 2020 Leak (4Chan)
-thumbnail: /public/consoles/Nintendo Wii.png
+category: wii
 image: /public/Wii/Nintendo Wii May 2020 Source Code Leak.jpg
 permalink: /broadon-archive
 breadcrumbs:

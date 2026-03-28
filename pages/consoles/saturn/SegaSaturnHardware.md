@@ -6,7 +6,7 @@ tags:
 - hardware
 - sega
 title: Sega Saturn Hardware Architecture
-thumbnail: /public/consoles/Sega Saturn.png
+category: saturn
 image: https://img.youtube.com/vi/EF85n86FcPk/maxresdefault.jpg
 permalink: /saturn-architecture
 breadcrumbs:

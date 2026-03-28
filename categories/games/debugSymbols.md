@@ -1,7 +1,7 @@
 ---
 permalink: /symbols
 layout: post
-console: symbols
+category: symbols
 title: Debug Symbols in Retail Games (Console & PC)
 breadcrumbs:
   - name: Home

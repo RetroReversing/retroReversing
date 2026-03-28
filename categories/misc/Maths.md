@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /maths
-console: maths
+category: maths
 recommend: maths
 recommendTitle: All Maths Posts
 title: Maths for Game Developers

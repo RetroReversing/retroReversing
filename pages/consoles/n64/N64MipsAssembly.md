@@ -7,7 +7,7 @@ tags:
 title: N64 MIPS Assembly Video Tutorials
 youtube: "m_eKDuWhBo8?list=PLjwOF_LvxhqTXVUdWZJEVZxEUG5qt8fsA"
 image: /public/N64/N64LearnMIPSAssemblyLanguage.jpg
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /N64MipsAssembly
 breadcrumbs:
   - name: Home

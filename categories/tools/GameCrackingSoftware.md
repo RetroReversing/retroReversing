@@ -1,8 +1,7 @@
 ---
 layout: post
 permalink: /cracking-software
-thumbnail: /public/images/RetroReversingLogoSmall.png
-console: cracking
+category: cracking
 breadcrumbs:
   - name: Home
     url: /

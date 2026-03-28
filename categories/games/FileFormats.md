@@ -1,7 +1,7 @@
 ---
 permalink: /games/fileformats
 layout: post
-console: fileformats
+category: fileformats
 title: Introduction to Game File Formats
 breadcrumbs:
   - name: Home

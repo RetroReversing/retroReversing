@@ -4,7 +4,7 @@ tags:
 - middleware
 - gameengines
 title: FMOD Sound Middleware
-thumbnail: /public/consoles/Tools.jpg
+category: gameengines
 image: /public/images/middleware/FMOD Sound Middleware.jpg
 permalink: /fmod-middleware
 breadcrumbs:

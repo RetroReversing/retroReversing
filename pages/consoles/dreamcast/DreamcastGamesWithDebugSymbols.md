@@ -6,7 +6,7 @@ tags:
 - symbols
 - debug
 title: Sega Dreamcast Games with Debug Symbols
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: /public/images/dreamcast/Dreamcast-Games-With-Debug-Symbols.jpg
 permalink: /sega-dreamcast-game-debug-symbols
 breadcrumbs:

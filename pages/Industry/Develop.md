@@ -2,7 +2,7 @@
 layout: post
 permalink: /develop-magazine
 title: Develop (UK) Game Development Magazine/Journal
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: magazines
 breadcrumbs:
   - name: Home
     url: /

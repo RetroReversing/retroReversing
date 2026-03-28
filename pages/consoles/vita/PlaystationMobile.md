@@ -4,7 +4,7 @@ tags:
 - vita
 - android
 title: Playstation Mobile (Suite)
-thumbnail: /public/consoles/Sony PSVita.png
+category: vita
 image: /public/consoles/Sony PSVita.png
 permalink: /playstation-mobile/
 breadcrumbs:

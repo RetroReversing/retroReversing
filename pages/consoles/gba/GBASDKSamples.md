@@ -4,7 +4,7 @@ tags:
 - gba
 - sdk
 title: Game Boy Advance Software Development Kit Samples
-thumbnail: /public/consoles/Nintendo Game Boy Advance.png
+category: gba
 image: /public/images/gba/Game Boy Advance SDK Samples.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK Samples.jpg
 permalink: /game-boy-advance-sdk-samples/

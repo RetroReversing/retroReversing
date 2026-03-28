@@ -7,7 +7,7 @@ tags:
 - games
 - sourcecode
 title: Chicken Run Source Code
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: https://img.youtube.com/vi/thRXO3YwOCg/0.jpg
 permalink: /Chicken-Run-Source-Code
 breadcrumbs:

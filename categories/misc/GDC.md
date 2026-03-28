@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /gdc
-console: industry
+category: industry
 title: Game Developers Conference (GDC) - Full list of historical sessions
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

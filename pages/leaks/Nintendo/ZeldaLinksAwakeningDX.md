@@ -5,7 +5,7 @@ tags:
 - leak
 - sourcecode
 title: Gigaleak - Zelda Links Awakening DX Source Code (CGB)
-thumbnail: /public/consoles/Nintendo Game Boy Color.png
+category: leak
 image: /public/images/leaks/Zelda Links Awakening DX Source Code.jpg
 twitterimage: http://www.retroreversing.com/public/images/leaks/Zelda Links Awakening DX Source Code.jpg
 permalink: /zelda-links-awakening-dx

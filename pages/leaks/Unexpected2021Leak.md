@@ -5,7 +5,7 @@ tags:
 - wii
 - gamecube
 title: The Unexpected 2021 Nintendo Leak  
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: leak
 image: /public/images/leaks/UnexpectedLeak.jpg
 twitterimage: https://www.retroreversing.com/public/images/leaks/UnexpectedLeak.jpg
 permalink: /nintendo-2021-leak

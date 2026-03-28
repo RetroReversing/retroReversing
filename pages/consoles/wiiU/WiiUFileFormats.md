@@ -5,7 +5,7 @@ tags:
 - fileformats
 title: Wii U File Formats
 image:  /public/wiiU/WiiUFileFormats.jpg
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 permalink: /WiiUFileFormats
 breadcrumbs:
   - name: Home

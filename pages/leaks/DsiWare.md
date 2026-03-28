@@ -5,7 +5,7 @@ tags:
 - leak
 - debug
 title: Nintendo DsiWare Leak  
-thumbnail: /public/consoles/Nintendo 64.png
+category: leak
 image: /public/images/leaks/DsiWareLeak.jpg
 permalink: /dsiwareleak
 breadcrumbs:

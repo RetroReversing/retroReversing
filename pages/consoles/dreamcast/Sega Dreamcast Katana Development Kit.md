@@ -6,7 +6,7 @@ tags:
 - devkit
 - sega
 title: Sega Dreamcast Katana Development Kit Hardware
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: https://img.youtube.com/vi/kuff6PgoEuc/hqdefault.jpg
 permalink: /Sega-Dreamcast-Katana-Development-Kit
 breadcrumbs:

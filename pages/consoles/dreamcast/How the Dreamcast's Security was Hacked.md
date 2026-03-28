@@ -6,7 +6,7 @@ tags:
 - cracking
 - sega
 title: How the Dreamcast's Security was Hacked (MIL-CD)
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: /public/images/dreamcast/Dreamcast Security and Piracy.jpg
 twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast Security and Piracy.jpg
 permalink: /How-the-Dreamcast-Security-was-Hacked

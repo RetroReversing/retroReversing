@@ -4,7 +4,7 @@ tags:
 - gameboy
 - reversingEmulator
 title: Game Boy (DMG/GBC) Reversing Emulator
-thumbnail: /public/consoles/GameBoy.png
+category: gameboy
 permalink: /GameBoy-Reversing-Emulator
 breadcrumbs:
   - name: Home

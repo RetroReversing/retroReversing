@@ -1,8 +1,7 @@
 ---
 layout: post
 permalink: /tools
-thumbnail: /public/images/RetroReversingLogoSmall.png
-console: tools
+category: tools
 breadcrumbs:
   - name: Home
     url: /

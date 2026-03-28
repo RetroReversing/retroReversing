@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /books
-console: industry
+category: industry
 title: Books (Games Industry)
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

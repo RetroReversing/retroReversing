@@ -4,7 +4,7 @@ tags:
 - n64
 - sdk
 title: Official Nintendo 64 SDK
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/N64 SDK.jpg
 permalink: /n64-sdk
 breadcrumbs:

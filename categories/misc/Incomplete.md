@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /incomplete
-console: incomplete
+category: incomplete
 breadcrumbs:
   - name: Home
     url: /

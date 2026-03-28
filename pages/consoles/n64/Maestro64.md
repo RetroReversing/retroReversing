@@ -8,7 +8,7 @@ tags:
 - devkit
 - hardware
 - snsystems
-thumbnail: "/public/consoles/Nintendo 64.png"
+category: n64
 recommend: n64
 image: "/public/bdIl6SRdT2u7pt9pl7YOw_img_0.jpg"
 editlink: /consoles/n64/Maestro64.md

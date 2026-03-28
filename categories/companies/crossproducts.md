@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /companies/crossproducts/
-console: crossproducts
+category: crossproducts
 tags:
  - companies
  - industry

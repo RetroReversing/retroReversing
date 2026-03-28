@@ -4,7 +4,7 @@ tags:
 - middleware
 - gameengines
 title: UDK Ultimate
-thumbnail: /public/consoles/Tools.jpg
+category: gameengines
 image: /public/consoles/Tools.jpg
 permalink: /udk-ultimate
 breadcrumbs:

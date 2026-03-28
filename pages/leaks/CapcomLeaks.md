@@ -7,7 +7,7 @@ tags:
 - ps2
 - wii
 title: Capcom Leaks  
-thumbnail: /public/consoles/Sony Playstation.png
+category: leak
 image: /public/images/leaks/Capcom Leaks.jpg
 permalink: /capcomleaks
 breadcrumbs:

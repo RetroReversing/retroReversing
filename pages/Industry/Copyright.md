@@ -2,7 +2,7 @@
 layout: post
 permalink: /copyright
 title: Copyright Infringement in the games industry
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: industry
 breadcrumbs:
   - name: Home
     url: /

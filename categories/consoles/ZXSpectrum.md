@@ -1,7 +1,7 @@
 ---
 permalink: /zxspectrum
 layout: post
-console: zxspectrum
+category: zxspectrum
 title: Reverse Engineering Sinclair ZX Spectrum Games
 _consoleimage: /public/consoles/Nintendo Entertainment System.png
 _thumbnail: /public/consoles/Nintendo Entertainment System.png

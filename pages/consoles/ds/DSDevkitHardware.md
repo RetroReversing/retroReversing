@@ -6,7 +6,7 @@ tags:
 - hardware
 - snsystems
 title: Nintendo DS (Nitro) Development Kit Hardware
-thumbnail: /public/consoles/Nintendo DS.png
+category: ds
 image: /public/images/ds/Nintendo DS Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/ds/Nintendo DS Development Kit Hardware.jpg
 permalink: /nintendo-ds-development-kit/

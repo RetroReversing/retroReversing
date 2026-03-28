@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: Microsoft Xbox (Original) Development Kit Hardware
-thumbnail: /public/consoles/Microsoft Xbox.png
+category: xbox
 image: /public/images/xbox/Microsoft Xbox Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/xbox/Microsoft Xbox Development Kit Hardware.jpg
 permalink: /microsoft-xbox-development-kit/

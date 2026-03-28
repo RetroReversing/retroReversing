@@ -6,7 +6,7 @@ tags:
 - hardware
 - snsystems
 title: Game Boy Advance (AGB) Development Kit Hardware
-thumbnail: /public/consoles/Game Boy Advance.png
+category: gba
 image: /public/images/gba/Game Boy Advance Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance Development Kit Hardware.jpg
 permalink: /game-boy-advance-development-kit/

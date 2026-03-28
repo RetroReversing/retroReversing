@@ -5,7 +5,7 @@ tags:
 title: Wii U Virtual Console Reversing
 image: /public/wiiU/WiiU Virtual Console Reversing.jpg
 twitterimage: https://www.retroreversing.com/public/wiiU/WiiU Virtual Console Reversing.jpg
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 permalink: /WiiUVirtualConsole
 breadcrumbs:
   - name: Home

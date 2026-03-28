@@ -23,7 +23,7 @@ videocarousel:
   - title: An Exclusive Look At Pokémon’s Early Design Documents
     image: http://img.youtube.com/vi/9l8V_eQ6wGQ/0.jpg
     youtube: '9l8V_eQ6wGQ'
-thumbnail: /public/pokemonBlueCart.png
+category: gameboy
 permalink: /pokemonredblue
 breadcrumbs:
   - name: Home

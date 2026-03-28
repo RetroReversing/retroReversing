@@ -7,7 +7,7 @@ tags:
 title: Nintendo Switch Game Engines
 image:  /public/images/switch/Nintendo Switch Game Engines.jpg
 twitterimage: https://www.retroreversing.com/public/images/switch/Nintendo Switch Game Engines.jpg
-thumbnail: /public/consoles/Nintendo Switch.png
+category: switch
 permalink: /SwitchGameEngines
 breadcrumbs:
   - name: Home

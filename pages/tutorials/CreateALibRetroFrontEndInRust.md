@@ -7,7 +7,7 @@ tags:
 title: Creating a LibRetro Frontend in Rust
 image: /public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
 twitterimage: http://www.retroreversing.com/public/images/tutorials/Creating a LibRetro Frontend in Rust.jpg
-thumbnail: /public/consoles/Tools.jpg
+category: tutorial
 permalink: /CreateALibRetroFrontEndInRust
 breadcrumbs:
   - name: Home

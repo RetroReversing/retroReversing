@@ -5,7 +5,7 @@ tags:
 - sdk
 - snsystems
 title: SN Systems ProDG PSP SDK
-thumbnail: /public/consoles/Sony PSP.png
+category: psp
 image: /public/images/psp/SN Systems ProDG PSP.jpg
 twitterimage: https://www.retroreversing.com/public/images/psp/SN Systems ProDG PSP.jpg
 permalink: /sn-systems-pro-dg-psp-sdk/

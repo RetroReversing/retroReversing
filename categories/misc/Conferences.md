@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /conferences
-console: industry
+category: industry
 title: Game Industry Conferences
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

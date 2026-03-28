@@ -6,7 +6,7 @@ tags:
 - debug
 - reverseengineering
 title: Nintendo Gamecube Games with Debug Symbols
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: gamecube
 image: /public/N64/Gamecube games with debug symbols.jpg
 permalink: /gamecube-debug-symbols
 breadcrumbs:

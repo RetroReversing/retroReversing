@@ -5,7 +5,7 @@ tags:
 title: WiiU NAND Flash
 image: /public/wiiU/WiiUnandFlash.jpg
 twitterimage: https://www.retroreversing.com/public/wiiU/WiiUnandFlash.jpg
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 permalink: /WiiUNAND
 breadcrumbs:
   - name: Home

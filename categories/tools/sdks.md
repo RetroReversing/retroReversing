@@ -1,7 +1,7 @@
 ---
 permalink: /sdks
 layout: post
-console: sdk
+category: sdk
 title: Introduction to Software Development Kits (SDKs)
 breadcrumbs:
   - name: Home

@@ -3,7 +3,7 @@ layout: post
 tags: 
 - introduction
 title: How Do Emulators Work? A Deep Dive into Emulator Design
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 image: /public/images/articles/How Emulators Work.jpg
 twitterimage: https://www.retroreversing.com/public/images/articles/How Emulators Work.jpg
 permalink: /how-emulators-work

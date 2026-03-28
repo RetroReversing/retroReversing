@@ -4,7 +4,7 @@ tags:
 - n64
 title: Mupen64+ Emulator Source Code Analysis
 image: /public/N64/N64Mupen64SourceCodeAnalysis.jpg
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /mupen64sourcecode
 breadcrumbs:
   - name: Home

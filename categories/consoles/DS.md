@@ -7,7 +7,7 @@ recommend:
  - gba
 recommendTitle: All DS Posts
 editlink: ../categories/consoles/DS.md
-console: ds
+category: ds
 excerpt: Awesome list of DS Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

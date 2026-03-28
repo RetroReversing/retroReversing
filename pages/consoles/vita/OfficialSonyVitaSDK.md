@@ -4,7 +4,7 @@ tags:
 - vita
 - sdk
 title: Official Sony Vita SDK
-thumbnail: /public/consoles/Sony PS Vita.png
+category: vita
 permalink: /official-vita-sdk/
 breadcrumbs:
   - name: Home

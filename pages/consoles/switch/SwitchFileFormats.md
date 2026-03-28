@@ -6,7 +6,7 @@ tags:
 title: Nintendo Switch File Formats
 image:  /public/images/switch/Nintendo Switch File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/switch/Nintendo Switch File Formats.jpg
-thumbnail: /public/consoles/Nintendo Switch.png
+category: switch
 permalink: /SwitchFileFormats
 breadcrumbs:
   - name: Home

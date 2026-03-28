@@ -4,7 +4,7 @@ layout: post
 title: Windows Executables (NE, LE and PE Files)
 recommendTitle: All PC Posts
 editlink: ../pages/consoles/pc/WindowsExecutables.md
-console: 'pc'
+category: 'pc'
 consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of Windows Executable File Format information
 breadcrumbs:

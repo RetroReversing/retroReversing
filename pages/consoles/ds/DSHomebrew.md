@@ -5,7 +5,7 @@ tags:
 - nds
 - homebrew
 title: Nintendo DS Homebrew
-thumbnail: /public/consoles/Nintendo DS.png
+category: ds
 image: https://i.ytimg.com/vi/UPNffwjMdLQ/sddefault.jpg
 youtube: UPNffwjMdLQ
 permalink: /nintendo-ds-homebrew

@@ -4,7 +4,7 @@ tags:
 - gba
 - sdk
 title: M4A Music Library for Game Boy Advance (GBA)
-thumbnail: /public/consoles/Nintendo Game Boy Advance.png
+category: gba
 image: /public/images/gba/Game Boy Advance SDK M4A.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK M4A.jpg
 permalink: /game-boy-advance-sdk-m4a/

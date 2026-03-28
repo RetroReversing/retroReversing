@@ -5,7 +5,7 @@ tags:
 - reverseengineering
 - fileformats
 title: Playstation 1 File Formats
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/images/ps1/Sony PS1 File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps1/Sony PS1 File Formats.jpg
 permalink: /ps1-file-formats

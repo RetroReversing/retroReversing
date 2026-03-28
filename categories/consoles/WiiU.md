@@ -4,8 +4,7 @@ title: Nintendo WiiU Reverse Engineering
 layout: post
 recommendTitle: All WiiU Posts
 editlink: ../categories/consoles/WiiU.md
-console: 'wiiu'
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 excerpt: Awesome list of Nintendo WiiU Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

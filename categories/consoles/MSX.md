@@ -7,7 +7,7 @@ recommend:
  - pc
 recommendTitle: All MSX Posts
 editlink: ../categories/consoles/MSX.md
-console: 'msx'
+category: 'msx'
 consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of MSX Game Development and Reverse Engineering information
 breadcrumbs:

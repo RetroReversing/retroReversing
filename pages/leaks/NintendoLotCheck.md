@@ -4,7 +4,7 @@ tags:
 - leak
 - nes
 title: Nintendo Lot Check ROM Leak 
-thumbnail: /public/consoles/Nintendo 64.png
+category: leak
 image: /public/images/leaks/Nintendo Lot Check.jpg
 permalink: /nintendo-lot-check
 breadcrumbs:

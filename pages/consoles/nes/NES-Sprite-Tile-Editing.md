@@ -8,7 +8,7 @@ tags:
 layout: post
 youtube: "iMACSQjyRDs"
 image: /public/QkyxcBhunP1JpTNuoeDIMw_img_0.png
-thumbnail: /public/consoles/Nintendo Entertainment System.png
+category: nes
 breadcrumbs:
   - name: Home
     url: /

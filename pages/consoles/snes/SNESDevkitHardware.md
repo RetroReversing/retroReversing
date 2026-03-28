@@ -7,7 +7,7 @@ tags:
 - crossproducts
 - snsystems
 title: SNES (Super Famicom) Development Kit Hardware
-thumbnail: /public/consoles/Super Nintendo Entertainment System.png
+category: snes
 image: /public/images/snes/Super Nintendo Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo Development Kit Hardware.jpg
 permalink: /super-famicom-snes-development-kit/

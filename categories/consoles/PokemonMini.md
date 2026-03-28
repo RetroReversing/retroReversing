@@ -1,10 +1,9 @@
 ---
 permalink: /PokemonMini/
 layout: post
-console: 'PokemonMini'
+category: PokemonMini
 title: 'Pokemon Mini'
 consoleimage: /public/consoles/PokemonMini.png
-thumbnail: /public/consoles/PokemonMini.png
 image: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
 twitterimage: https://www.retroreversing.com/public/images/PokemonMini/Pokemon Mini Introduction.jpg
 recommend: PokemonMini

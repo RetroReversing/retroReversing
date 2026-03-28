@@ -6,7 +6,7 @@ tags:
 - leak
 - gamecube
 title: ATI Low Level Wii SDK
-thumbnail: /public/consoles/Nintendo Wii.png
+category: wii
 image: /public/images/wii/ATI Low Level Wii SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/ATI Low Level Wii SDK.jpg
 permalink: /ati-low-level-wii-sdk/

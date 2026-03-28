@@ -7,7 +7,7 @@ tags:
 - nintendo
 - devkit
 - hardware
-thumbnail: /public/NintendoGameBoyThumb.png
+category: gameboy
 image: /public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy Development Hardware Devkit.jpg
 editlink: /consoles/gameboy/GameboyDevelopmentKitHardware.md

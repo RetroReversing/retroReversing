@@ -2,7 +2,7 @@
 permalink: /companies/datel/
 title: Datel
 layout: post
-console: datel
+category: datel
 image: https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461
 twitterimage: https://github.com/user-attachments/assets/aba51bd0-98ea-45cd-b05b-7df105868461
 breadcrumbs:

@@ -6,7 +6,7 @@ tags:
 title: Nintendo 3DS File Formats
 image:  /public/images/3ds/Nintendo 3DS File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/3ds/Nintendo 3DS File Formats.jpg
-thumbnail: /public/consoles/Nintendo 3DS.png
+category: 3ds
 permalink: /3DSFileFormats
 breadcrumbs:
   - name: Home

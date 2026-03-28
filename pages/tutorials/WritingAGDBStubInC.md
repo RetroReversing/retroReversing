@@ -2,7 +2,7 @@
 permalink: /tutorials/gdb-stub-in-c
 layout: post
 title: Building a GDB Stub in C (for emulators)
-thumbnail: /public/consoles/Computer Old Design.png
+category: tutorial
 _image: /public/images/tutorials/WritingAGDBStubInC.jpg
 _twitterimage: http://www.retroreversing.com/public/images/tutorials/WritingAGDBStubInC.jpg
 breadcrumbs:

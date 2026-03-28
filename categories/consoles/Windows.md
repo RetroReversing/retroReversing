@@ -4,7 +4,7 @@ layout: post
 title: Awesome list of Windows 3.x+ Reverse Engineering and Game Development information
 recommendTitle: All Windows PC Posts
 editlink: ../categories/consoles/Windows.md
-console: 'pc'
+category: 'pc'
 consoleimage: /public/consoles/Computer Old Design.png
 excerpt: Awesome list of Windows 3.x+ Reverse Engineering and Game Development information
 breadcrumbs:

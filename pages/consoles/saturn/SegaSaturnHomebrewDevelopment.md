@@ -5,7 +5,7 @@ tags:
 - saturn
 - sega
 title: Sega Saturn Homebrew Development
-thumbnail: /public/consoles/Sega Saturn.png
+category: saturn
 image: /public/images/saturn/Sega Saturn Homebrew Development.jpg
 twitterimage: http://www.retroreversing.com/public/images/saturn/Sega Saturn Homebrew Development.jpg
 permalink: /sega-saturn-homebrew-development/

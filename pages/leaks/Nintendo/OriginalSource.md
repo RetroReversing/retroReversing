@@ -4,7 +4,7 @@ tags:
 - leak
 - gameboy
 title: Pokemon Original Source Code Leak  
-thumbnail: /public/consoles/Nintendo GameBoy.png
+category: leak
 image_: /public/images/leaks/OriginalSource.jpg
 permalink: /pokemon-original-source-code
 breadcrumbs:

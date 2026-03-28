@@ -1,11 +1,10 @@
 ---
 permalink: /leaks
 layout: post
-console: leak
+category: leak
 recommend: 
 - leak
 recommendTitle: All Leaks
-thumbnail: /public/images/RetroReversingLogoSmall.png
 title: Industry Leaks - Game Industry Source Code Leaks
 breadcrumbs:
   - name: Home

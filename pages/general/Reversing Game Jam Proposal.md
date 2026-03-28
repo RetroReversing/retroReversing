@@ -4,7 +4,7 @@ tags:
 - news
 title: Reversing Game Jam Proposal
 image: /public/Articles/Reversing Game Jam Proposal.jpg
-thumbnail: /public/consoles/Atari 2600.png
+category: news
 permalink: /reversing-game-jam
 breadcrumbs:
   - name: Home

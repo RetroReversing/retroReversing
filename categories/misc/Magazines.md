@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /magazines
-console: magazines
+category: magazines
 title: Retro Gaming & Development Magazines (Games Industry)
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

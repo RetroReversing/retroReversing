@@ -3,7 +3,7 @@ layout: post
 tags: 
 - reversingEmulator
 title: Reversing Emulators
-thumbnail: /public/consoles/Sega Saturn.png
+category: tools
 permalink: /Reversing-Emulators
 breadcrumbs:
   - name: Home

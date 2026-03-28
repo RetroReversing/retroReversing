@@ -3,7 +3,7 @@ layout: post
 tags: 
 - leak
 title: Nintendo Hidemaru Mail Leak 
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: leak
 image: /public/images/leaks/HidemaruMailLeak.jpg
 twitterimage: https://www.retroreversing.com/public/images/leaks/HidemaruMailLeak.jpg
 permalink: /nintendo-hidemaru-mail-leak

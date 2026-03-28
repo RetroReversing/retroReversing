@@ -5,7 +5,7 @@ tags:
 - fileformats
 title: Nintendo DS File Formats
 image: /public/consoles/Nintendo DS.png
-thumbnail: /public/consoles/Nintendo DS.png
+category: ds
 permalink: /DSFileFormats
 breadcrumbs:
   - name: Home

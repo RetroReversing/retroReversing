@@ -5,7 +5,7 @@ tags:
 - symbols
 - games
 title: Wii U Games with Debug symbols (UnStripped Binaries)
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 image: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
 twitterimage: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
 permalink: /wii-u-unstripped/

@@ -5,7 +5,7 @@ tags:
 title: N64 RSP - Reality Signal Processor
 image: /public/N64/N64RealitySignalProcessor.jpg
 twitterimage: https://www.retroreversing.com/public/N64/N64RealitySignalProcessor.jpg
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 videocarousel:
   - title: Video 1
     image: http://img.youtube.com/vi/nqqTfERxUvA/0.jpg

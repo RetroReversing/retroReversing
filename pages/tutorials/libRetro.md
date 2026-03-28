@@ -7,7 +7,7 @@ tags:
 title: Understanding libRetro - An Internal Look for Programmers
 _image: /public/images/tutorials/libRetro.jpg
 _twitterimage: http://www.retroreversing.com/public/images/tutorials/libRetro.jpg
-thumbnail: /public/consoles/Tools.jpg
+category: tutorial
 permalink: /libRetro
 breadcrumbs:
   - name: Home

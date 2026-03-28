@@ -7,7 +7,7 @@ tags:
 - crossproducts
 - snsystems
 title: Sega Mega Drive (Genesis) Development Kit Hardware
-thumbnail: /public/consoles/Sega Megadrive.png
+category: megadrive
 image: /public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
 permalink: /sega-mega-drive-genesis-development-kit/

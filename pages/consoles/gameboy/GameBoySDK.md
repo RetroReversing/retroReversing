@@ -7,7 +7,7 @@ tags:
 - sdk
 image: /public/images/GameBoy/Game Boy SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy SDK.jpg
-thumbnail: /public/NintendoGameBoyThumb.png
+category: gameboy
 breadcrumbs:
   - name: Home
     url: /

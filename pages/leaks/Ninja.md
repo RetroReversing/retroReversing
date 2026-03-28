@@ -5,7 +5,7 @@ tags:
 - ds
 - 3ds
 title: Nintendo Ninja Leak  
-thumbnail: /public/consoles/Nintendo 3DS.png
+category: leak
 image: /public/images/leaks/Nintendo Ninja Leak.jpg
 permalink: /ninjaleak
 breadcrumbs:

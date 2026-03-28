@@ -1,7 +1,7 @@
 ---
 permalink: /companies/codemasters
 layout: post
-console: codemasters
+category: codemasters
 recommend: 
 - industry
 tags:

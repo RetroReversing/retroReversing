@@ -7,7 +7,7 @@ tags:
 - sdk
 - psyq
 - ps1
-thumbnail: /public/consoles/Sony PlayStation.png
+category: ps1
 image: /public/psyqsdk.png
 redirect_from:
  - /official-playstation-1-software-development-kit-(psyq)/

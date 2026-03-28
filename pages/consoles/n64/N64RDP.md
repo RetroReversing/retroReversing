@@ -4,7 +4,7 @@ tags:
 - n64
 title: N64 RDP - Reality Display Processor
 image: /public/N64/N64 Reality Display Processor.jpg
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /n64rdp
 breadcrumbs:
   - name: Home

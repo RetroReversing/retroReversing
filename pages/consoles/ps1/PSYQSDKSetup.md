@@ -6,7 +6,7 @@ tags:
 - sdk
 - tutorial
 title: PSYQ SDK Setup on MacOSX/Linux
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/images/ps1/Sony PS1 PsyQ SDK Setup.jpg
 twitterimage: http://www.retroreversing.com/public/images/ps1/Sony PS1 PsyQ SDK Setup.jpg
 permalink: /psyq-sdk-setup

@@ -1,7 +1,7 @@
 ---
 permalink: /hardware/cheatcartridge/
 layout: post
-console: cheatcartridge
+category: cheatcartridge
 title: Cheat Cartridges & Discs
 recommend: hardware
 recommendTitle: All Hardware Posts

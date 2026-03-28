@@ -5,7 +5,7 @@ tags:
 - reverseengineering
 - symbols
 title: Playstation 1 Games with Debug Symbols
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/images/ps1/Sony PS1 Games with Debug Symbols.jpg
 permalink: /ps1-debug-symbols
 breadcrumbs:

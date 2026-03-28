@@ -4,7 +4,7 @@ tags:
 - introduction
 title: Why Reverse Engineer Retro games? - About RetroReversing.com
 image: /public/Articles/Why Reverse Engineer Games retroreversing.com.jpg
-thumbnail: /public/consoles/Atari 2600.png
+category: introduction
 youtube: k6PWZh0MJ1Y
 permalink: /why-reverse-retro-games
 breadcrumbs:

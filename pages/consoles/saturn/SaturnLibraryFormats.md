@@ -7,7 +7,7 @@ tags:
 - psyq
 title: Sega Saturn Library Formats
 image: /public/images/saturn/Sega Saturn Library Formats.jpg
-thumbnail: /public/consoles/Sega Saturn.png
+category: saturn
 permalink: /sega-saturn-library-formats/
 breadcrumbs:
   - name: Home

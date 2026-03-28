@@ -4,7 +4,7 @@ tags:
 - gamecube
 - leak
 title: iQue Gamecube Leak (BB2)
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: gamecube
 image: /public/images/gc/iQue gamecube.jpg
 twitterimage: https://www.retroreversing.com/public/images/gc/iQue gamecube.jpg
 permalink: /ique-gamecube/

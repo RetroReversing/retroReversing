@@ -5,7 +5,7 @@ tags:
 - sdk
 - symbols
 title: PSX Analysis with Radare2 
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/ps1radare2.png
 permalink: /ps1-radare2
 breadcrumbs:

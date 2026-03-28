@@ -5,7 +5,7 @@ tags:
 - fileformats
 - vita
 title: Playstation Vita File Formats
-thumbnail: /public/consoles/Sony PSVita.png
+category: vita
 image: /public/images/vita/PSVita File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/vita/PSVita File Formats.jpg
 breadcrumbs:

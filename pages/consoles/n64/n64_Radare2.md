@@ -5,7 +5,7 @@ tags:
 - radare2
 - tools
 title: N64 Rom Analysis with Radare2 
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/N64 Radare 2 rom analysis.jpg
 twitterimage: https://www.retroreversing.com/public/N64/N64 Radare 2 rom analysis.jpg
 permalink: /n64-radare2

@@ -5,7 +5,7 @@ tags:
 - pc
 - nes
 title: Introduction to Retro Game Graphics
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 image: https://i.ytimg.com/vi/Tfh0ytz8S0k/sddefault.jpg
 permalink: /how-retro-graphics-worked
 breadcrumbs:

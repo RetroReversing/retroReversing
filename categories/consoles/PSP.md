@@ -5,8 +5,7 @@ title: Sony Playstation Portable (PSP)
 recommend: psp
 recommendTitle: All PSP Posts
 editlink: ../categories/consoles/PSP.md
-console: 'psp'
-thumbnail: /public/consoles/psp.svg
+category: psp
 excerpt: Awesome list of Sony Playstation Portable Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

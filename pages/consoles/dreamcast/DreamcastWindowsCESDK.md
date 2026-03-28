@@ -5,7 +5,7 @@ tags:
 - dreamcast
 - sdk
 title: Sega Dreamcast Microsoft Windows CE SDK
-thumbnail: /public/consoles/Sega Dreamcast.png
+category: dreamcast
 image: /public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/dreamcast/Dreamcast-WIndows-CE-SDK.jpg
 permalink: /dreamcast-windows-ce

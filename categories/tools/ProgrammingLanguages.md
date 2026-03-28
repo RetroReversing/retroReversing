@@ -1,8 +1,7 @@
 ---
 layout: post
 permalink: /programming-languages
-thumbnail: /public/images/RetroReversingLogoSmall.png
-console: programming
+category: programming
 breadcrumbs:
   - name: Home
     url: /

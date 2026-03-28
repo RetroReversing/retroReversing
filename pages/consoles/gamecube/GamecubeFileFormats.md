@@ -4,7 +4,7 @@ tags:
 - gamecube
 - fileformats
 title: Nintendo Gamecube (Dolphin) File Formats
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: gamecube
 image: /public/N64/Gamecube File Formats.jpg
 permalink: /gamecube-file-formats
 breadcrumbs:

@@ -5,7 +5,7 @@ tags:
 - sdk
 - assembly
 title: Playstation 1 PsyQ Linker (Psylink.exe)
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: /public/PS1_PsyQ_Linker.png
 permalink: /ps1-psylink
 breadcrumbs:

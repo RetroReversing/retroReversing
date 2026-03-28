@@ -4,7 +4,7 @@ tags:
 - psp
 - games
 title: PSP Saints Row Undercover Officially Released Prototype
-thumbnail: /public/consoles/Sony PSP.png
+category: psp
 image: https://img.youtube.com/vi/-8O2cLAiWIE/maxresdefault.jpg
 permalink: /psp-saints-row-undercover
 breadcrumbs:

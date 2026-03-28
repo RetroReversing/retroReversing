@@ -4,7 +4,7 @@ tags:
 - ps1
 - games
 title: Crash Bandicoot
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: https://img.youtube.com/vi/0HwvAjELuuM/hqdefault.jpg
 permalink: /crash-bandicoot
 breadcrumbs:

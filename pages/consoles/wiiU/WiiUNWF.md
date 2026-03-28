@@ -6,7 +6,7 @@ tags:
 - gameengines
 title: Wii U Nintendo Web Framework
 image:  /public/wiiU/WiiUWebFramework.jpg
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 permalink: /WiiUNWF
 breadcrumbs:
   - name: Home

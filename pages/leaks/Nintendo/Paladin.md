@@ -6,7 +6,7 @@ tags:
 - 3ds
 - gba
 title: Nintendo Paladin Leak  
-thumbnail: /public/consoles/Nintendo DS.png
+category: leak
 image: /public/images/leaks/PaladinLeak.jpg
 permalink: /paladinleak
 breadcrumbs:

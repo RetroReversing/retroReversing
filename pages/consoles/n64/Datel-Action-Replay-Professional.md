@@ -7,7 +7,7 @@ tags:
 - datel
 title: Datel Action Replay Professional (N64)
 published: true
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 youtube: "Gq8VQBKBKqI"
 image: /public/images/actionreplay/ActionReplayViewer.jpg
 permalink: /datel-action-replay-professional/

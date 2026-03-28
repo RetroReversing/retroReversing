@@ -5,7 +5,7 @@ tags:
 - hardware
 - devkit
 title: Official PlayStation Portable Development Kit
-thumbnail: /public/consoles/Sony PSP.png
+category: psp
 image: /public/images/psp/PSP Development Kit.jpg
 twitterimage: https://www.retroreversing.com/public/images/psp/PSP Development Kit.jpg
 permalink: /official-psp-devkit

@@ -5,7 +5,7 @@ tags:
 - assembly
 title: N64 Boot Code Analysis
 image:  /public/N64/N64BootCodeAnalysis.png
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /n64bootcode
 breadcrumbs:
   - name: Home

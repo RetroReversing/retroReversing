@@ -6,7 +6,7 @@ tags:
 - leak
 - gamecube
 title: Nintendo Wii Diagnostic Disc Source Code
-thumbnail: /public/consoles/Nintendo Wii.png
+category: wii
 image: /public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
 permalink: /nintendo-wii-diag4rvl-leak/

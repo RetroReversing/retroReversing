@@ -4,7 +4,7 @@ tags:
  - 3d
  - tools
 title: Maya (Alias Wavefront, Autodesk) - The history of the Maya 3D software in the games industry
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: 3d
 permalink: /maya
 breadcrumbs:
   - name: Home

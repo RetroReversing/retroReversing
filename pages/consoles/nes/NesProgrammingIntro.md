@@ -6,7 +6,7 @@ tags:
 - introduction
 layout: post
 image: https://img.youtube.com/vi/XT95C4fT6zA/maxresdefault.jpg
-thumbnail: /public/consoles/Nintendo Entertainment System.png
+category: nes
 breadcrumbs:
   - name: Home
     url: /

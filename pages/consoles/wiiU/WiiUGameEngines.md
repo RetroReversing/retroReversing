@@ -5,7 +5,7 @@ tags:
 - gameengines
 title: WiiU eShop Game Engines
 image:  /public/wiiU/WiiUeShopGameEngines.jpg
-thumbnail: /public/consoles/Nintendo WiiU.png
+category: wiiu
 permalink: /WiiUeShopEngines
 breadcrumbs:
   - name: Home

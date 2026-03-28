@@ -2,7 +2,7 @@
 layout: post
 title: Life in the Games Industry
 permalink: /industry
-console: industry
+category: industry
 image: https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463
 twitterimage: https://github.com/user-attachments/assets/79fee58b-dd24-4b1b-9b9e-6de863927463
 redirect_from:

@@ -3,7 +3,7 @@ layout: post
 tags: 
 - introduction
 title: Game Architecture - How games are structured
-thumbnail: /public/consoles/Computer Old Design.png
+category: introduction
 _image: /public/images/articles/Game Architecture.jpg
 _twitterimage: https://www.retroreversing.com/public/images/articles/Architecture.jpg
 permalink: /game-architecture

@@ -4,7 +4,7 @@ tags:
 - introduction
 - ghidra
 title: Introduction to Decompiling C++ with Ghidra
-thumbnail: /public/consoles/Computer Old Design.png
+category: ghidra
 image: https://i.ytimg.com/vi/4v8WkHmSFUU/sddefault.jpg
 permalink: /intro-decompiling-with-ghidra
 breadcrumbs:

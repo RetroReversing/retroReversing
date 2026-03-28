@@ -6,7 +6,7 @@ tags:
 - leak
 - sourcecode
 title: Super Game Boy SDK Sample and BIOS Files
-thumbnail: /public/NintendoGameBoyThumb.png
+category: gameboy
 image: /public/images/GameBoy/Game Boy SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy SDK.jpg
 permalink: /super-game-boy-sdk/

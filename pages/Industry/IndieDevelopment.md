@@ -3,7 +3,7 @@ layout: post
 tags:
 - industry
 title: Indie Game Development
-thumbnail: /public/consoles/Nintendo 64.png
+category: industry
 image: /public/kCxNlbEqQBTmGsgDrzeh4w_img_0.png
 permalink: /indie
 breadcrumbs:

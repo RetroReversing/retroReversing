@@ -5,7 +5,7 @@ tags:
 - leak
 - sourcecode
 title: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
-thumbnail: /public/consoles/Nintendo Game Boy.png
+category: leak
 image: /public/images/leaks/Zelda Links Awakening Source Code.jpg
 twitterimage: http://www.retroreversing.com/public/images/leaks/Zelda Links Awakening Source Code.jpg
 permalink: /zelda-links-awakening

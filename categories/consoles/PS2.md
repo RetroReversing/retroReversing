@@ -4,7 +4,7 @@ layout: post
 title: Sony Playstation 2
 recommendTitle: All PS2 Posts
 editlink: ../categories/consoles/PS2.md
-console: 'ps2'
+category: 'ps2'
 excerpt: Awesome list of Sony Playstation 2 Game Development and Reverse Engineering information
 redirect_from:
  - /playStation-2-architecture

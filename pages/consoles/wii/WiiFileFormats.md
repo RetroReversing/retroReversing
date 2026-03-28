@@ -4,7 +4,7 @@ tags:
 - wii
 - fileformats
 title: Wii File Formats
-thumbnail: /public/consoles/Nintendo Wii.png
+category: wii
 image: /public/images/wii/Wii File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Wii File Formats.jpg
 permalink: /wii-file-formats

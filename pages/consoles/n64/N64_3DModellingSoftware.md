@@ -6,7 +6,7 @@ tags:
 - tools
 title: N64 3D Modelling Software
 image: /public/N64/Nintendo64_NinGen_MultiGen_ge007_stpetersburg.png
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /n64-3d-modelling
 breadcrumbs:
   - name: Home

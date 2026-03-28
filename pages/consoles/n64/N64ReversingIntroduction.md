@@ -5,7 +5,7 @@ tags:
 - introduction
 title: N64 Reversing Introduction
 image:  /public/N64/N64 Introduction.jpg
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /N64Reversing
 breadcrumbs:
   - name: Home

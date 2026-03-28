@@ -5,7 +5,7 @@ tags:
 - hardware
 - devkit
 title: Official PlayStation 1 Development Kit (Hardware)
-thumbnail: /public/consoles/Sony PlayStation.png
+category: ps1
 image: https://img.youtube.com/vi/y3aKAFafPoc/maxresdefault.jpg
 twitterimage: https://www.retroreversing.com/public/images/psOneTool.jpg
 permalink: /official-playStation-devkit

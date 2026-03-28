@@ -5,7 +5,7 @@ tags:
 - memory
 - introduction
 title: Memory Hacking
-thumbnail: /public/consoles/Nintendo 64.png
+category: introduction
 image: /public/images/n64/N64 Memory Editing.jpg
 twitterimage: https://www.retroreversing.com/public/images/n64/N64 Memory Editing.jpg
 permalink: /n64-rom-memory-hacking/

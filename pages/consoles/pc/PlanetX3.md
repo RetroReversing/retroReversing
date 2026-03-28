@@ -7,7 +7,7 @@ tags:
 - sourcecode
 - games
 title: Planet X3 (2019 MS-DOS game)
-thumbnail: /public/consoles/Computer Old Design.png
+category: pc
 image: https://img.youtube.com/vi/szhv6fwx7GY/hqdefault.jpg
 permalink: /planet-x3-dos
 breadcrumbs:

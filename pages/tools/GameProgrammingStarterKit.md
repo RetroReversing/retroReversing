@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /GameProgrammingStarterKit
-console: industry
+category: industry
 title: Game Programming Starter Kit
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

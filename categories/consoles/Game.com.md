@@ -1,10 +1,9 @@
 ---
 permalink: /gamecom
 layout: post
-console: gamecom
+category: gamecom
 title: Tiger Game (dot) com Reverse Engineering
 consoleimage: /public/consoles/Game.com.png
-thumbnail: /public/consoles/Game.com.png
 image_: /public/images/Game.com.jpg
 twitterimage_: https://www.retroreversing.com/public/images/gamecom/Game.com.jpg
 excerpt: Awesome list of Game.com Game Development and Reverse Engineering information

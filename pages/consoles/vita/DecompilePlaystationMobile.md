@@ -4,7 +4,7 @@ tags:
 - vita
 - android
 title: Decompiling Playstation Mobile Games
-thumbnail: /public/consoles/Sony PSVita.png
+category: vita
 image: /public/consoles/Sony PSVita.png
 permalink: /decompiling-playstation-mobile-games/
 breadcrumbs:

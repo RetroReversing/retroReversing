@@ -8,7 +8,7 @@ tags:
 - games
 title: 007 Agent Under Fire for Nintendo Gamecube Reverse Engineering
 image: /public/images/gamecube/007 Agent Under Fire.jpg
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: gamecube
 permalink: /007-agent-under-fire
 youtube: sdloBZ-NYwU
 breadcrumbs:

@@ -5,7 +5,7 @@ tags:
 - hardware
 - devkit
 title: Official PlayStation 3 Development Kit (Hardware)
-thumbnail: /public/consoles/Sony Playstation 3.png
+category: ps3
 image: /public/images/ps3/Sony PS3 Devkit hardware.jpg
 permalink: /official-playStation3-devkit
 breadcrumbs:

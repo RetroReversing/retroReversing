@@ -5,7 +5,7 @@ tags:
 - 3d
 - introduction
 title: 2D & 3D Graphics Techniques
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: sourcecode
 permalink: /2d-graphics
 breadcrumbs:
   - name: Home

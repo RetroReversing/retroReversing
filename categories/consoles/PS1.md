@@ -1,7 +1,7 @@
 ---
 permalink: /ps1/
 layout: post
-console: 'ps1'
+category: 'ps1'
 title: 'Sony PlayStation 1 (PSX)'
 twitterimage: https://www.retroreversing.com/public/consoles/Sony PlayStation.png
 recommend: ps1

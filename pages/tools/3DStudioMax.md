@@ -4,7 +4,7 @@ tags:
  - 3d
  - tools
 title: 3D Studio (Max)
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: 3d
 permalink: /3d-studio-max
 breadcrumbs:
   - name: Home

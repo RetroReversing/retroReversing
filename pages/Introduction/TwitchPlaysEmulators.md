@@ -5,7 +5,7 @@ tags:
 - gameboy
 - 3ds
 title: How does Twitch Play Pokemon? (Emulation through Twitch)
-thumbnail: /public/NintendoGameBoyThumb.png
+category: introduction
 youtube: "qQrQcyDZydY?time_continue=41"
 image: /public/images/howitworks/How does twitch play pokemon.jpg
 twitterimage: https://www.retroreversing.com/public/images/howitworks/How does twitch play pokemon.jpg

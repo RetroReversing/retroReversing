@@ -5,7 +5,7 @@ tags:
 - sdk
 - snsystems
 title: SN64 - Nintendo 64 Software Development Kit (SDK)
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 image: /public/N64/N64 SN64 Software Development Kit.jpg
 permalink: /sn64-sdk-sn-systems
 breadcrumbs:

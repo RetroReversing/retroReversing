@@ -2,7 +2,7 @@
 permalink: /hardware/devkits/
 layout: post
 title: Introduction to Development Kits (Hardware)
-console: devkit
+category: devkit
 image: /public/images/categories/Console Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/categories/Console Development Kit Hardware.jpg
 breadcrumbs:

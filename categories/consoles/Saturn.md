@@ -1,10 +1,9 @@
 ---
 permalink: /saturn/
 layout: post
-console: 'saturn'
+category: saturn
 title: 'Sega Saturn (Hacking & Reversing)'
 consoleimage: /public/consoles/Sega Saturn.png
-thumbnail: /public/consoles/Sega Saturn.png
 recommend: 
  - saturn
  - dreamcast

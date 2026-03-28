@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: Official Nintendo 64 (Ultra 64) Development Kit Hardware
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 videocarousel:
   - title: Ultra64 Development Hardware & Prototype Ultra64 Controller
     image: http://img.youtube.com/vi/RvC6IyZ7COA/hqdefault.jpg

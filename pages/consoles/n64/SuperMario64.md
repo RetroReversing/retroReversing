@@ -4,7 +4,7 @@ tags:
 - n64
 - games
 title: Super Mario 64
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 videocarousel:
   - title: Did Nintendo really forget to optimize Super Mario 64
     image: https://img.youtube.com/vi/NKlbE2eROC0/0.jpg

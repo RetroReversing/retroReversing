@@ -6,7 +6,7 @@ tags:
 - ps2
 - snsystems
 - sdk
-thumbnail: /public/consoles/Sony PlayStation 2.png
+category: ps2
 image: /public/WpKsd53aOVPqARgF33wbqg_img_0.jpg
 recommend: ps2
 editlink: /consoles/ps2/SN-Systems-Network-Development-Kit-for-PS2.md

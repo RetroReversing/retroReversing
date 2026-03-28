@@ -5,7 +5,7 @@ tags:
 - hardware
 - consolearchitecture
 title: Nintendo 64 Hardware Architecture
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 videocarousel:
   - title: Nintendo 64 Super Computer
     image: https://img.youtube.com/vi/a4SxPDQcG_k/hqdefault.jpg

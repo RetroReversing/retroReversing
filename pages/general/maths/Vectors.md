@@ -3,7 +3,7 @@ layout: post
 tags: 
 - maths
 title: Vectors (Maths for Game Developers)
-thumbnail: /public/consoles/Computer Old Design.png
+category: maths
 image: /public/consoles/Computer Old Design.png
 permalink: /Vectors
 breadcrumbs:

@@ -13,7 +13,7 @@ videocarousel:
   - title: The Making of Turok Dinosaur Hunter for Nintendo 64
     image: http://img.youtube.com/vi/ONEy_ybKWsg/0.jpg
     twitch: '125480737'
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 permalink: /turok64sourcecode
 breadcrumbs:
   - name: Home

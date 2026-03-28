@@ -4,7 +4,7 @@ tags:
 - snes
 - sdk
 title: SNES (Super Famicom) Software Development Kit (SDK)
-thumbnail: /public/consoles/Super Nintendo Entertainment System.png
+category: snes
 image: /public/images/snes/Super Nintendo SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo SDK.jpg
 permalink: /super-famicom-snes-sdk/

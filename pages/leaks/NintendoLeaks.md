@@ -6,7 +6,7 @@ tags:
 - 3ds
 - gba
 title: All Nintendo Leaks  
-thumbnail: /public/consoles/Nintendo DS.png
+category: leak
 image: /public/images/leaks/All Nintendo Leaks.jpg
 permalink: /nintendoleaks
 breadcrumbs:

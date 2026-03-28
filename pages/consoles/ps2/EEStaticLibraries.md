@@ -4,7 +4,7 @@ tags:
 - ps2
 - sdk
 title: Static Libraries (.A) for Playstation 2 Emotion Engine
-thumbnail: /public/consoles/Sony PlayStation 2.png
+category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 Emotion Engine Static Libraries.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Emotion Engine Static Libraries.jpg
 permalink: /static-libraries-ps2

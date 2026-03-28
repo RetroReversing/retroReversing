@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: Nintendo Gamecube (Dolphin) Development Kit Hardware
-thumbnail: /public/consoles/Nintendo Gamecube.png
+category: gamecube
 videocarousel:
   - title: DDH & NPDP-GDEV
     image: https://img.youtube.com/vi/Bi6xRPhKjvQ/hqdefault.jpg

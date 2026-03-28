@@ -5,7 +5,7 @@ tags:
 - ps1
 - games
 title: Behind the Scenes (Making Of) Playstation Games in PlayStation Underground
-thumbnail: /public/consoles/Sony Playstation.png
+category: ps1
 image: https://img.youtube.com/vi/GMHYrCZBmk0/maxresdefault.jpg
 permalink: /behind-the-scenes-ps1
 breadcrumbs:

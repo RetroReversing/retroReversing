@@ -7,7 +7,7 @@ recommend:
  - gameboy
 recommendTitle: All GBA Posts
 editlink: ../categories/consoles/GameBoyAdvance.md
-console: gba
+category: gba
 consoleimage: /public/consoles/Nintendo%20Game%20Boy%20Advance.png
 excerpt: Awesome list of GBA Game Development and Reverse Engineering information
 breadcrumbs:

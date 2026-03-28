@@ -5,7 +5,7 @@ tags:
 - sdk
 title: Nintendo DS SDK (NITRO)
 image:  /public/consoles/Nintendo DS.png
-thumbnail: /public/consoles/Nintendo DS.png
+category: ds
 permalink: /DS-NITRO-SDK
 breadcrumbs:
   - name: Home

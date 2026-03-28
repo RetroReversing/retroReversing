@@ -1,7 +1,7 @@
 ---
 permalink: /hardware/
 layout: post
-console: hardware
+category: hardware
 title: Game Console Hardware
 breadcrumbs:
   - name: Home

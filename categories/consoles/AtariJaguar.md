@@ -1,10 +1,9 @@
 ---
 permalink: /atarijaguar
 layout: post
-console: atarijaguar
+category: atarijaguar
 title: Atari Jaguar Reverse Engineering
 consoleimage: /public/consoles/Atari Jaguar.png
-thumbnail: /public/consoles/Atari Jaguar.png
 image_: /public/images/nes/Atari Jaguar.jpg
 twitterimage_: https://www.retroreversing.com/public/images/atari/Atari Jaguar.jpg
 excerpt: Awesome list of Atari Jaguar Game Development and Reverse Engineering information

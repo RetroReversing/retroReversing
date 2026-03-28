@@ -2,7 +2,7 @@
 permalink: /tutorials/gdb-reversing
 layout: post
 title: Reversing with GDB (GNU Debugger)
-thumbnail: /public/consoles/Computer Old Design.png
+category: tutorial
 image: /public/images/tools/ReversingWithGDB.jpg
 twitterimage: http://www.retroreversing.com/public/images/tools/ReversingWithGDB.jpg
 breadcrumbs:

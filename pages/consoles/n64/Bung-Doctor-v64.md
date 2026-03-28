@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: Bung Doctor v64 (N64)
-thumbnail: /public/consoles/Nintendo 64.png
+category: n64
 videocarousel:
   - title: MVG Doctor V64
     image: https://img.youtube.com/vi/HrQYdr0FY70/0.jpg

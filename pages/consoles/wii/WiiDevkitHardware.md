@@ -5,7 +5,7 @@ tags:
 - devkit
 - hardware
 title: Nintendo Wii Development Kit Hardware
-thumbnail: /public/consoles/Nintendo Wii.png
+category: wii
 image: /public/images/wii/Nintendo Wii Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Development Kit Hardware.jpg
 permalink: /nintendo-wii-development-kit/

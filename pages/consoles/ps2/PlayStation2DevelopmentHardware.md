@@ -5,7 +5,7 @@ tags:
 - hardware
 - devkit
 title: Sony PlayStation 2 Development Kit (Hardware)
-thumbnail: /public/consoles/Sony PlayStation 2.png
+category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Development Kit Hardware.jpg
 permalink: /playstation-2-development-hardware

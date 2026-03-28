@@ -5,7 +5,7 @@ title: Nintendo 3DS (Citrus/CTR)
 recommend: 3ds
 recommendTitle: All 3DS Posts
 editlink: ../categories/consoles/3ds.md
-console: '3ds'
+category: '3ds'
 excerpt: Awesome list of 3DS Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

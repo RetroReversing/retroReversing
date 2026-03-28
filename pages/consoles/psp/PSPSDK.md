@@ -4,7 +4,7 @@ tags:
 - psp
 - sdk
 title: Official Sony PSP SDK
-thumbnail: /public/consoles/Sony PSP.png
+category: psp
 _image: /public/images/psp/SN Systems ProDG PSP.jpg
 _twitterimage: https://www.retroreversing.com/public/images/psp/SN Systems ProDG PSP.jpg
 permalink: /pspsdk

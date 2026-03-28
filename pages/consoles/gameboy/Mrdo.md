@@ -5,7 +5,7 @@ tags:
 - games
 - sourcecode
 title: Mr Do! Source Code (Game Boy)
-thumbnail: /public/NintendoGameBoyThumb.png
+category: gameboy
 youtube: "qLtNkZ1GHh0"
 image: /public/games/MrDoGameboy.jpg
 permalink: /mrdo

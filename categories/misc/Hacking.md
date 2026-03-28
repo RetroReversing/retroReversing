@@ -1,9 +1,8 @@
 ---
 layout: post
 permalink: /hacking
-console: industry
+category: industry
 title: Hacking
-thumbnail: /public/images/RetroReversingLogoSmall.png
 breadcrumbs:
   - name: Home
     url: /

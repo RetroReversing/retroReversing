@@ -5,7 +5,7 @@ title: 3DO Interactive Multiplayer
 recommend: 3do
 recommendTitle: All 3DO Posts
 editlink: ../categories/consoles/3do.md
-console: 3do
+category: 3do
 excerpt: Awesome list of 3DO Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home

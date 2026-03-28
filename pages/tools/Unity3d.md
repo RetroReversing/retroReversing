@@ -5,7 +5,7 @@ tags:
 - middleware
 - unity3d
 title: Unity3d - History and Technology behind the engine
-thumbnail: /public/images/RetroReversingLogoSmall.png
+category: gameengines
 permalink: /unity3d
 breadcrumbs:
   - name: Home

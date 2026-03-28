@@ -5,7 +5,7 @@ tags:
 - symbols
 - sdk
 title: PS2 Official Software Development Kit (SDK)
-thumbnail: /public/consoles/Sony PlayStation 2.png
+category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
 permalink: /ps2-official-sdk/

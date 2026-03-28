@@ -4,7 +4,7 @@ tags:
 - wii
 - leak
 title: Nintendo Emerald Leak  
-thumbnail: /public/consoles/Nintendo 64.png
+category: leak
 image: /public/images/leaks/EmeraldLeak.jpg
 permalink: /emeraldleak
 breadcrumbs:
