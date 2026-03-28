@@ -81,6 +81,21 @@ That combination makes the folder much more valuable than a simple SDK snapshot.
 
 ---
 # The Libraries
+{% capture libs_body %}
+`LIB` is the reusable support layer for the sample. It preserves the original 1994 DMG-format library source modules alongside the lightly refreshed 1998 `.s` versions.
+{% endcapture %}
+
+{% capture folder_items %}
+- LIBBG.DMG - Original 1994 background-display library source module
+- LIBDMG.DMG - Original 1994 core DMG helper library source module
+- LIBSGB2.DMG - Original 1994 Super Game Boy support library source module
+- libbg.s - 1998 refreshed background-display source
+- libdmg.s - 1998 refreshed DMG helper source
+- libsgb2.s - 1998 refreshed SGB helper source
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="LIB" path="/sgb/LIB" body=libs_body version="/sgb/LIB" content=folder_items %}
+
 The `LIB` directory is the foundation of the whole package. It contains the reusable support code that the sample pulls in, and it shows the clearest 1994-to-1998 source refresh inside the archive.
 
 Library | What it does | When a game would include it
@@ -198,6 +213,25 @@ For an ordinary DMG cartridge with no SGB features, `libsgb2.s` would be unneces
 
 ---
 # The Sample Project
+{% capture sample_body %}
+`SAMPLE` is the runnable example project that sits on top of the libraries. It preserves the older DMG-format source modules, the refreshed 1998 `.s` files, helper scripts, debugger setup files, and rebuilt outputs.
+{% endcapture %}
+
+{% capture folder_items %}
+- SGB_MAIN.DMG - Original 1994 main sample source module
+- SGB_DATA.DMG - Original 1994 sample data source module
+- SGB_INI.DMG - Original 1994 setup and cartridge skeleton source module
+- sgb_main.s - 1998 refreshed main sample source
+- sgb_data.s - 1998 refreshed sample data source
+- sgb_ini.s - 1998 refreshed setup source
+- CHRDAT.COM - Character data payload loaded into bank 2
+- C.BAT / E.BAT / START.ICE - Original edit, build, and debugger helpers
+- cgal.bat - 1998 build script using isas32 and islk32
+- sgb_main.o / sgb_main.prn / sgb.isx - Object, listing, and debugger-ready outputs
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="SAMPLE" path="/sgb/SAMPLE" body=sample_body version="/sgb/SAMPLE" content=folder_items %}
+
 The `SAMPLE` directory is the working demonstration project that sits on top of those libraries. This is where the package becomes concrete: you can see the actual sample source, the editable 1998 refresh, and the rebuilt debugger outputs in one place.
 
 `SAMPLE` is the working example project:
@@ -232,6 +266,11 @@ The file identifies itself as `SGBTEST`, and the routine layout shows it is more
 
 Labels such as `CONT4_TEST`, `UNIT_MOVE`, `BOM_SET`, `STAR_SET`, `BURST`, `RENSA`, `HITCHK`, `EFFECT3`, `INIT`, and `V_BLANK` make it look like a compact interactive test program rather than a static border uploader. It is closer to a tiny game-like sandbox built to exercise SGB features, controller handling, sprites, and command transfer behavior all together.
 
+### Tiny Test Game Structure
+The rebuilt listing in `sgb_main.prn` makes that structure even easier to see. `RESET` sits at the expected cartridge entry area, then branches into separate `DMG` and `SGB` startup paths before dropping into `MAIN`. From there the sample repeatedly cycles through controller tests, movement updates, hit checks, burst effects, and chain-reaction logic.
+
+That routine mix makes the project feel less like a sterile SDK menu and more like a miniature systems testbed. It has enough moving parts to exercise ordinary Game Boy gameplay logic, SGB-aware branches, multiplayer controller reads, and effect handling in one loop.
+
 ### What Changed in 1998
 The sample refresh is not spread evenly across every file. `sgb_main.s` is the place where the 1998 pass is most visible.
 
@@ -262,6 +301,43 @@ The most historically valuable part of `sgb_data.s` is the long run of command p
 
 These are effectively ready-made SGB command payloads preserved as source data. They show how the sample packaged palette updates, transfer commands, mask control, multiplayer requests, and other SGB-side operations into concrete 16-byte command blocks ready for `SGBTR` or `SGBST`.
 
+The command bytes line up well with known SGB protocol IDs, so much of the table can be identified with reasonable confidence:
+
+Label | First byte | Likely SGB command
+---|---|---
+`COM00` | `$01` | `PAL01`
+`COM01` | `$09` | `PAL23`
+`COM02` | `$11` | `PAL03`
+`COM03` | `$19` | `PAL12`
+`COM04` | `$21` | `ATTR_BLK`
+`COM05` | `$29` | `ATTR_LIN`
+`COM06` | `$31` | `ATTR_DIV`
+`COM07` | `$39` | `ATTR_CHR`
+`COM08` | `$41` | `SOUND`
+`COM09` | `$49` | `SOU_TRN`
+`COM0A` | `$51` | `PAL_SET`
+`COM0B` | `$59` | `PAL_TRN`
+`COM0C` | `$61` | `ATRC_EN`
+`COM0D` | `$69` | `TEST_EN`
+`COM0E` | `$71` | `ICON_EN`
+`COM0F` | `$79` | `DATA_SND`
+`COM10` | `$81` | `DATA_TRN`
+`COM11` | `$89` | `MLT_REQ`
+`COM12` | `$91` | `JUMP`
+`COM13` | `$99` | `CHR_TRN`
+`COM14` | `$A1` | `PCT_TRN`
+`COM15` | `$A9` | `ATTR_TRN`
+`COM16` | `$B1` | `ATTR_SET`
+`MASKON` | `$B9` | `MASK_EN`
+`COM18` | `$C1` | `OBJ_TRN`
+
+That spread is important because it shows the sample was exercising a broad slice of the SGB feature set, not just one border-upload path. The table spans palettes, attribute maps, transfer commands, sound, multiplayer requests, masking, and object-related transfer behavior.
+
+### Multiplayer and Sound Test Blocks
+The named blocks near the end make the testing purpose even clearer. `REQUEST_4PLAY` is a direct four-player `MLT_REQ` packet, while `SOUND_BUBUU`, `SOUND_GOON`, `SOUND_SET1`, `SOUND_SET2`, `SOUND_BUBBLE`, `SOUND_STAR`, and `SOUND_DEAD` are all compact `SOUND` command variants with different parameter bytes.
+
+Even without decoding the exact audible result of every one, their names show the sample was not only testing visual SGB features. It was also keeping a ready-made bank of audio and multiplayer test packets that the main program could fire while running.
+
 The tail end of the file is especially striking because the `INIT1` to `INIT8` blocks look like embedded machine-code style payloads rather than normal text or tile data. Even without fully decoding every one, they make it clear the sample was carrying prebuilt transfer content and initialization payloads alongside its more readable test strings and layout tables.
 
 ---
@@ -291,6 +367,34 @@ The older flow is preserved almost perfectly in tiny helper files:
 
 That combination makes the original workflow very legible. A developer edits the source modules, assembles and links them, loads the external character data file into the expected bank, and runs the sample under ICE.
 
+### What the Files Suggest about Nintendo's ICE Setup
+These files do not identify the exact physical hardware unit on their own, but they do preserve a surprisingly clear picture of how the software side of Nintendo's DMG ICE workflow operated. The hardware page helps with the likely physical context, while this sample is strongest on the PC-side build, load, and debugger instructions.
+
+What the sample proves directly is:
+
+* `README.DOC` expected a `DMG ICE` environment
+* `ISDMG`, `ISLINK`, and `isd` were part of the standard older build-and-debug flow
+* `.ICE` startup scripts were used to tell the debugger what to load and where to map banked data
+* `START.ICE` specifically loads the main program, maps `CHRDAT.COM` into bank 2 at `$4000`, and then begins execution
+
+Taken together, that suggests a workflow where the PC-side tools assembled and linked the program, then handed it off to an Intelligent Systems-style debugging environment that could inject ROM and banked resources into a Game Boy development target, start execution, and expose symbols and memory to the developer.
+
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For the wider hardware side of this setup, including Nintendo's DMG-ICE and related Game Boy development hardware, check out this post." %}
+
+The hardware page is useful context here because the two sides fit together neatly. The development hardware provided the emulation or debugging target, while files like `C.BAT`, `START.ICE`, `sgb.isx`, and the `isdwd*.dat` outputs show the software instructions and debugger metadata that would have driven that target during day-to-day development.
+
+### How the Workflow Fit Together
+Taken as a whole, the 1994 side of the package suggests a workflow like this:
+
+* source edited in `MIFES`
+* program assembled with `ISDMG`
+* linked with `ISLINK`
+* launched through `isd`
+* runtime configured by `START.ICE`
+* executed against Nintendo's DMG ICE-style development hardware
+
+That is a useful distinction, because the SGB sample mostly preserves the software-facing half of the environment. It shows the commands, load scripts, and debugger metadata that would have fed into the hardware workflow documented on the separate development-hardware page.
+
 ### The 1998 Refresh
 The later workflow is concentrated in `cgal.bat`, `ISAS32.EXE`, and `ISLK32.EXE`. `cgal.bat` assembles with `isas32 -jp sgb_main` and then links with `islk32`, emitting `sgb` as the target image with explicit bank base addresses.
 
@@ -300,6 +404,27 @@ That newer flow lines up neatly with the source refresh in `sgb_main.s`, where t
 The last layer is the rebuilt output set: `sgb_main.o`, `sgb_main.prn`, `sgb.isx`, and the debugger sidecar files `isdwdcmd.dat`, `isdwdrng.dat`, and `isdwdsym.dat`.
 
 For reverse engineering, this is one of the best parts of the folder. It does not just preserve editable source. It preserves the intermediate and debug-facing outputs that show how the sample looked after assembly, how symbols were tracked, and how the debugger expected to load and inspect the program.
+
+`sgb_main.prn` is especially helpful because it confirms key anchor points in the rebuilt image, including `RESET` at the standard `$150` cartridge entry area, the `MAIN` loop in the early body of bank 0, the `V_BLANK` handler later in the same bank, and the presence of explicit `BANK0`, `BANK1`, and `BANK2` group structure in the 1998 build.
+
+That listing also reinforces the impression that the project was meant to be inspected while running. The symbol and range files are not just leftovers. They are exactly the kind of debugger-facing metadata you would want if the sample was being stepped through to verify command transfer behavior, controller input handling, or SGB-only branches.
+
+### The Character Data Payload
+`CHRDAT.COM` deserves to be called out separately because it is not a tiny helper blob. At 8192 bytes, it is exactly the size of 512 Game Boy 2bpp tiles. The payload is also dense: only 21 of those 512 tiles are completely zeroed, while 268 tiles have all 16 bytes populated.
+
+That density suggests it is a real working graphics bank rather than a mostly empty placeholder. Combined with the `START.ICE` load script and the `BANK2` `libbin` inclusion in `sgb_main.s`, it looks like the sample expected a substantial tile and font payload to be loaded into bank 2 and used directly by the runtime and SGB transfer routines.
+
+The repeated blank tile patterns show there is some reserved or spacer content, but overall `CHRDAT.COM` looks much more like a compact graphics resource bank than a one-off debugging stub.
+
+### Small But Telling Details
+A few smaller files help fill out the day-to-day development picture:
+
+* `AUTO.BAT` at the package root simply changes into `SAMPLE` and runs `C`, which makes the whole archive feel like a deliberate ready-to-run toolkit rather than a pile of loose files
+* `ISAS32.EXE` and `ISLK32.EXE` sitting directly inside `SAMPLE` suggest the 1998 refresh was meant to be rebuilt from a largely self-contained tool snapshot
+* `START.ICE` is tiny, but it is one of the clearest runtime clues in the folder because it explicitly loads `SGB_MAIN`, maps `CHRDAT.COM` into bank 2 at `$4000`, and then starts execution
+* the backup files `lib*.s~`, `sgb_*.s~`, `cgal.bat~`, and `sgb_main.prn~` are historically useful because they preserve traces of the editing process, not just the final 1998 state
+* `sgb_main.prn~` is especially nice to have, because it implies there were at least two nearby listing outputs during the 1998 refresh rather than just one final clean rebuild
+* the header comment `SGBTEST 1994- 3-24 BY T.TOMIZAWA` gives the sample a concrete authorship and dating clue that is easy to overlook once the page starts focusing on libraries and command packets
 
 That makes the `SAMPLE` folder especially useful, because it preserves source, rebuilt outputs, listings, debugger images, and symbol data in one place.
 

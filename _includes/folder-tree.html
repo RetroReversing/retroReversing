@@ -18,6 +18,23 @@
         {% assign item = trimmed | remove_first: '* ' | strip %}
       {% endif %}
       {% if item != '' %}
+        {% assign icon = '' %}
+        {% assign item_parts = item | split: '|' %}
+        {% if item_parts.size > 1 %}
+          {% assign possible_icon = item_parts[0] | strip %}
+          {% if possible_icon contains 'icon=' %}
+            {% assign icon = possible_icon | remove: 'icon=' | strip %}
+            {% assign item = '' %}
+            {% for part in item_parts offset:1 %}
+              {% if forloop.first %}
+                {% assign item = part %}
+              {% else %}
+                {% assign item = item | append: '|' | append: part %}
+              {% endif %}
+            {% endfor %}
+            {% assign item = item | strip %}
+          {% endif %}
+        {% endif %}
         {% assign dash_pos = item | split: ' - ' %}
         {% if dash_pos.size > 1 %}
           {% assign badge = dash_pos[0] %}
@@ -33,11 +50,35 @@
           {% assign badge = item %}
           {% assign description = item %}
         {% endif %}
+        {% if icon == '' %}
+          {% assign badge_downcase = badge | downcase %}
+          {% assign icon = '📁' %}
+          {% if badge contains '.' %}
+            {% assign icon = '📄' %}
+            {% if badge_downcase contains '.7z' or badge_downcase contains '.zip' or badge_downcase contains '.rar' or badge_downcase contains '.lzh' or badge_downcase contains '.tar' %}
+              {% assign icon = '🗜️' %}
+            {% elsif badge_downcase contains '.exe' or badge_downcase contains '.com' or badge_downcase contains '.isx' or badge_downcase contains '.o' %}
+              {% assign icon = '⚙️' %}
+            {% elsif badge_downcase contains '.bat' or badge_downcase contains '.cmd' or badge_downcase contains '.sh' %}
+              {% assign icon = '🖥️' %}
+            {% elsif badge_downcase contains '.prn' or badge_downcase contains '.lst' or badge_downcase contains '.map' or badge_downcase contains '.sym' or badge_downcase contains '.txt' or badge_downcase contains '.doc' or badge_downcase contains '.md' %}
+              {% assign icon = '📄' %}
+            {% elsif badge_downcase contains '.dat' or badge_downcase contains '.bin' or badge_downcase contains '.ice' %}
+              {% assign icon = '💾' %}
+            {% elsif badge_downcase contains '.cgx' or badge_downcase contains '.chr' or badge_downcase contains '.png' or badge_downcase contains '.bmp' or badge_downcase contains '.jpg' or badge_downcase contains '.jpeg' or badge_downcase contains '.gif' %}
+              {% assign icon = '🖼️' %}
+            {% elsif badge_downcase contains '.hex' or badge_downcase contains '.cdt' or badge_downcase contains '.pnl' or badge_downcase contains '.pdt' %}
+              {% assign icon = '🧩' %}
+            {% elsif badge_downcase contains '.s' or badge_downcase contains '.asm' or badge_downcase contains '.inc' or badge_downcase contains '.c' or badge_downcase contains '.cpp' or badge_downcase contains '.h' or badge_downcase contains '.dmg' %}
+              {% assign icon = '📄' %}
+            {% endif %}
+          {% endif %}
+        {% endif %}
         <div class="rr-changelog rr-changelog-success{% if include.connected %} rr-changelog--connected{% if forloop.first %} rr-changelog--first{% endif %}{% if forloop.last %} rr-changelog--last{% endif %}{% endif %}">
           {% if include.connected %}
             <div class="rr-folder-tree-connector" aria-hidden="true"></div>
           {% endif %}
-          <div class="rr-changelog-badge">📁 {{ badge }}</div>
+          <div class="rr-changelog-badge">{{ icon }} {{ badge }}</div>
           <div class="rr-changelog-info">{{ description }}</div>
         </div>
       {% endif %}

@@ -112,6 +112,7 @@ Here are some of the markdown rules:
 * **Don't use emoji's in headings** - Don't use emojis in headings themselves
 * **Don't use backticks in headings** - Keep headings plain text and move inline code formatting into the paragraph below instead
 * **Use HR before major sections** - Add a Markdown HR (`---`) when starting a new major section, such as before an H1 or H2's that are not the first subheading under a H2, same for H3 etc.
+* **Use HR when jumping back up the heading hierarchy** - If a section ends at a deeper heading level and the next heading jumps back up, add a Markdown HR (`---`) immediately before the higher-level heading. For example, if an H4 section is followed by a new H1, place `---` directly before the H1.
 * **No line between HR and Heading** - the next line after a HR (`---`) should be the heading itself
 * **No line between heading and first paragraph** - the next line after a heading should always be the first paragraph of the section
 * **Never use numbered lists** - Just use `*` for all unordered lists.
