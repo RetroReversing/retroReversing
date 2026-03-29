@@ -147,10 +147,10 @@ function resolveCategory(metadata) {
     if (typeof metadata.categories === 'string' && metadata.categories) {
         return metadata.categories;
     }
-    return '';
+    return 'Reverse Engineering';
 }
 
-function wrapTitle(title, maxLineLength = 32, maxLines = 2) {
+function wrapTitle(title, maxLineLength = 31, maxLines = 3) {
     const words = String(title || '').trim().split(/\s+/).filter(Boolean);
     if (words.length === 0) {
         return ['Untitled'];
@@ -226,7 +226,7 @@ function buildGeoPatternSvg(seed) {
 
 function buildSvg({ title, category, categoryImagePath, seed }) {
     const titleLines = wrapTitle(title);
-    const titleY = titleLines.length === 1 ? 118 : 108;
+    const titleY = titleLines.length === 1 ? 116 : 108;
     const categoryText = category ? category.replace(/-/g, ' ').toUpperCase() : '';
     const categoryImageHref = fileToDataUri(categoryImagePath);
     const logoImageHref = fileToDataUri(RR_LOGO_IMAGE);
@@ -237,11 +237,12 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
     const textX = 180;
 
     const titleTspans = titleLines
+        .slice(0,2)
         .map((line, index) => `<tspan x="${textX}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`)
         .join('');
 
     const categoryImageMarkup = categoryImageHref
-        ? `<image href="${categoryImageHref}" x="435" y="255" width="330" height="235" preserveAspectRatio="xMidYMid meet" />`
+        ? `<image href="${categoryImageHref}" x="300" y="255" width="600" height="350" preserveAspectRatio="xMidYMid meet" />`
         : '';
 
     return `<?xml version="1.0" encoding="UTF-8"?>

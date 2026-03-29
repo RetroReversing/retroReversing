@@ -74,18 +74,18 @@ category_images:
   atari_st: /public/consoles/Atari ST.png
   bookazines: /public/images/Magazine.png
   cheatcartridge: /public/images/Hardware.png
-  codemasters: /public/images/RetroReversingLogoSmall.png
+  codemasters: /public/images/PC.png
   colecovision: /public/consoles/Colecovision.png
   commodore_64: /public/consoles/Commodore 64.png
   commodore_amiga_cd32: /public/consoles/Commodore Amiga CD32.png
   commodore_cdtv: /public/consoles/Commodore CDTV.png
   computer_modern: /public/consoles/Computer Modern.png
   computer_old_design: /public/consoles/PC.png
-  cracking: /public/images/RetroReversingLogoSmall.png
+  cracking: /public/images/PC.png
   crossproducts: /public/images/Magazine.png
   datel: /public/images/PC.png
   devkit: /public/consoles/Hardware.png
-  disassemblers: /public/images/RetroReversingLogoSmall.png
+  disassemblers: /public/images/PC.png
   dos: /public/consoles/PC.png
   vectrex: /public/consoles/GCE Vectrex.png
   ds: /public/consoles/Nintendo DS.png
@@ -111,7 +111,7 @@ category_images:
   xbox360: /public/consoles/Microsoft Xbox 360.png
   xbox: /public/consoles/Microsoft Xbox.png
   msx: /public/consoles/PC.png
-  news: /public/images/RetroReversingLogoSmall.png
+  news: /public/images/Magazine.png
   nec_pc_engine_cd: /public/consoles/Nec PC Engine CD.png
   nec_pc_engine: /public/consoles/Nec PC Engine.png
   nec_pc_fx: /public/consoles/Nec PC FX.png
@@ -163,7 +163,7 @@ category_images:
   sinclair_zx_spectrum: /public/consoles/Sinclair ZX Spectrum.png
   psp: /public/consoles/psp.svg
   snes: /public/consoles/Super Nintendo Entertainment System.png
-  snsystems: /public/images/RetroReversingLogoSmall.png
+  snsystems: /public/images/Magazine.png
   sony_psvita: /public/consoles/Sony PSVita.png
   sony_playstation_2: /public/consoles/Sony PlayStation 2.png
   sony_playstation_3: /public/consoles/Sony Playstation 3.png

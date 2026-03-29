@@ -9,8 +9,6 @@ tags:
 - industry
 recommendTitle: All Codemasters Posts
 title: Codemasters (Creator of the Game Genie)
-image_: /public/images/companies/Codemasters - Company.jpg
-twitterimage_: https://www.retroreversing.com/public/images/companies/Codemasters - Company.jpg
 breadcrumbs:
   - name: Home
     url: /
