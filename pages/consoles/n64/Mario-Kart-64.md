@@ -7,7 +7,9 @@ title: Mario Kart 64
 published: true
 category: n64
 image: /public/0pZkOKRfCUlcJDX5TiJL8g_img_0.png
-permalink: /mario-kart-64/
+permalink: /mario-kart-64
+redirect_from:
+  - /mario-kart-64/
 breadcrumbs:
   - name: Home
     url: /

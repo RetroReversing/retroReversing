@@ -16,7 +16,9 @@ videocarousel:
     image: https://img.youtube.com/vi/4d5OsHRo7Nc/0.jpg
     youtube: '4d5OsHRo7Nc'
 image: /public/N64/Super_Mario_64_box_cover.jpg
-permalink: /super-mario-64/
+permalink: /super-mario-64
+redirect_from:
+  - /super-mario-64/
 breadcrumbs:
   - name: Home
     url: /

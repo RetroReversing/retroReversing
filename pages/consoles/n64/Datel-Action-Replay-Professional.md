@@ -10,7 +10,9 @@ published: true
 category: n64
 youtube: "Gq8VQBKBKqI"
 image: /public/images/actionreplay/ActionReplayViewer.jpg
-permalink: /datel-action-replay-professional/
+permalink: /datel-action-replay-professional
+redirect_from:
+  - /datel-action-replay-professional/
 breadcrumbs:
   - name: Home
     url: /

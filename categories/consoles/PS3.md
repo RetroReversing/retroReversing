@@ -1,5 +1,7 @@
 ---
-permalink: /ps3/
+permalink: /ps3
+redirect_from:
+  - /ps3/
 layout: post
 title: Sony Playstation 3 Reverse Engineering
 recommend: ps3

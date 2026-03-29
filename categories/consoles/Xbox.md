@@ -1,5 +1,7 @@
 ---
-permalink: /xbox/
+permalink: /xbox
+redirect_from:
+  - /xbox/
 layout: post
 title: Microsoft Xbox
 recommend: xbox

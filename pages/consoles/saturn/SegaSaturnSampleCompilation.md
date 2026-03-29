@@ -7,7 +7,9 @@ tags:
 title: Compiling an Official Sega Saturn Sample (SDK)
 category: saturn
 image: /public/images/saturn/Sega Saturn SDK Samples.jpg
-permalink: /sega-saturn-compiling-samples/
+permalink: /sega-saturn-compiling-samples
+redirect_from:
+  - /sega-saturn-compiling-samples/
 breadcrumbs:
   - name: Home
     url: /

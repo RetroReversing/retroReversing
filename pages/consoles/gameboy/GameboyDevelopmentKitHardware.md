@@ -1,7 +1,9 @@
 ---
 title: Gameboy (DMG & GBC) Development Kit Hardware
 layout: post
-permalink: /gameboy-development-kit-hardware/
+permalink: /gameboy-development-kit-hardware
+redirect_from:
+  - /gameboy-development-kit-hardware/
 tags:
 - gameboy
 - nintendo

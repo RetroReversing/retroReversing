@@ -1,7 +1,9 @@
 ---
 title: Home Alone 2 NES Source Code
 layout: post
-permalink: /home-alone-2-nes-source-code/
+permalink: /home-alone-2-nes-source-code
+redirect_from:
+  - /home-alone-2-nes-source-code/
 tags:
 - nes
 - games

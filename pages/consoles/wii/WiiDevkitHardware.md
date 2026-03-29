@@ -8,7 +8,9 @@ title: Nintendo Wii Development Kit Hardware
 category: wii
 image: /public/images/wii/Nintendo Wii Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Development Kit Hardware.jpg
-permalink: /nintendo-wii-development-kit/
+permalink: /nintendo-wii-development-kit
+redirect_from:
+  - /nintendo-wii-development-kit/
 breadcrumbs:
   - name: Home
     url: /

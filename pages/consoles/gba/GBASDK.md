@@ -7,7 +7,9 @@ title: Game Boy Advance Software Development Kit (SDK)
 category: gba
 image: /public/images/gba/Game Boy Advance SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK.jpg
-permalink: /game-boy-advance-sdk/
+permalink: /game-boy-advance-sdk
+redirect_from:
+  - /game-boy-advance-sdk/
 breadcrumbs:
   - name: Home
     url: /

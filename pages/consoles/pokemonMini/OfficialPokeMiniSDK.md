@@ -7,7 +7,9 @@ title: Pokemon Mini Official Software Development Kit (Toolchain)
 category: PokemonMini
 image: /public/consoles/PokemonMini.png
 twitterimage: https://www.retroreversing.com/public/consoles/PokemonMini.png
-permalink: /official-pokemon-mini-sdk/
+permalink: /official-pokemon-mini-sdk
+redirect_from:
+  - /official-pokemon-mini-sdk/
 breadcrumbs:
   - name: Home
     url: /

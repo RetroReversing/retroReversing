@@ -10,7 +10,7 @@ title: SNES (Super Famicom) Development Kit Hardware
 category: snes
 image: /public/images/snes/Super Nintendo Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo Development Kit Hardware.jpg
-permalink: /super-famicom-snes-development-kit/
+permalink: /super-famicom-snes-development-kit
 breadcrumbs:
   - name: Home
     url: /
@@ -24,6 +24,7 @@ recommend:
 editlink: /consoles/snes/SNESDevkitHardware.md
 redirect_from:
   - /official-snes-devkit/
+  - /super-famicom-snes-development-kit/
 updatedAt: '2020-06-26'
 ---
 

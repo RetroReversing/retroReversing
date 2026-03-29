@@ -8,7 +8,9 @@ title: Exclusive Sega Saturn Games & Re-releases
 category: saturn
 image: /public/images/saturn/Sega Saturn Exclusive Games.jpg
 twitterimage: https://www.retroreversing.com/public/images/saturn/Sega Saturn Exclusive Games.jpg
-permalink: /sega-saturn-exclusives/
+permalink: /sega-saturn-exclusives
+redirect_from:
+  - /sega-saturn-exclusives/
 breadcrumbs:
   - name: Home
     url: /

@@ -18,7 +18,7 @@ editlink: /About.md
 updatedAt: '2020-05-12'
 twitterimage: https://www.retroreversing.com/public/Articles/Why Reverse Engineer Games retroreversing.com.jpg
 redirect_from:
-  -  /retrogame-archeology
+  - /retrogame-archeology
 ---
 
 If you have arrived at this page you may have a few questions such as why does RetroReversing.com even exist?

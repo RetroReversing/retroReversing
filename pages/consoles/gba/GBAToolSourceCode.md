@@ -5,7 +5,9 @@ tags:
 - sdk
 title: Game Boy Advance Tool Source Code
 category: gba
-permalink: /game-boy-advance-tool-source-code/
+permalink: /game-boy-advance-tool-source-code
+redirect_from:
+  - /game-boy-advance-tool-source-code/
 breadcrumbs:
   - name: Home
     url: /

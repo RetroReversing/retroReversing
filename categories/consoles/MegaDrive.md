@@ -1,5 +1,5 @@
 ---
-permalink: /md/
+permalink: /megadrive
 layout: post
 title: Sega Mega Drive (Genesis)
 recommend: megadrive
@@ -16,9 +16,10 @@ breadcrumbs:
   - name: Sega Mega Drive (Genesis)
     url: #
 redirect_from:
-  - /megadrive
+  - /md
   - /mega-drive
   - /genesis
+  - /md/
 tags:
   - megadrive
   - sega

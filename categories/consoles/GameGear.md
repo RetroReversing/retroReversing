@@ -1,5 +1,7 @@
 ---
-permalink: /gamegear/
+permalink: /gamegear
+redirect_from:
+  - /gamegear/
 layout: post
 title: Sega Game Gear Reverse Engineering
 recommendTitle: All GG Posts

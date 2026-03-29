@@ -8,7 +8,9 @@ title: Nintendo 3DS (Citrus) Development Kit Hardware
 category: 3ds
 _image: /public/images/3ds/Nintendo 3DS Development Kit Hardware.jpg
 _twitterimage: https://www.retroreversing.com/public/images/3ds/Nintendo 3DS Development Kit Hardware.jpg
-permalink: /nintendo-3ds-development-kit/
+permalink: /nintendo-3ds-development-kit
+redirect_from:
+  - /nintendo-3ds-development-kit/
 breadcrumbs:
   - name: Home
     url: /

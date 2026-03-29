@@ -8,7 +8,9 @@ title: Wii U Games with Debug symbols (UnStripped Binaries)
 category: wiiu
 image: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
 twitterimage: https://github.com/user-attachments/assets/cee38412-2778-4aa5-acb0-6654673dd3d0
-permalink: /wii-u-unstripped/
+permalink: /wii-u-unstripped
+redirect_from:
+  - /wii-u-unstripped/
 breadcrumbs:
   - name: Home
     url: /

@@ -7,7 +7,9 @@ title: Sega Saturn IP.BIN (Initial Program)
 category: saturn
 image: /public/images/saturn/Sega Saturn IP.bin.jpg
 twitterimage: http://www.retroreversing.com/public/images/saturn/Sega Saturn IP.bin.jpg
-permalink: /sega-saturn-initial-program-ip/
+permalink: /sega-saturn-initial-program-ip
+redirect_from:
+  - /sega-saturn-initial-program-ip/
 breadcrumbs:
   - name: Home
     url: /

@@ -1,5 +1,7 @@
 ---
-permalink: /pc/
+permalink: /pc
+redirect_from:
+  - /pc/
 layout: post
 title: Awesome list of Windows 3.x+ Reverse Engineering and Game Development information
 recommendTitle: All Windows PC Posts

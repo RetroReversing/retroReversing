@@ -8,7 +8,9 @@ title: PS2 Official Software Development Kit (SDK)
 category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Software Development Kit.jpg
-permalink: /ps2-official-sdk/
+permalink: /ps2-official-sdk
+redirect_from:
+  - /ps2-official-sdk/
 breadcrumbs:
   - name: Home
     url: /

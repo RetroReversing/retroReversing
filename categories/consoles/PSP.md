@@ -1,5 +1,7 @@
 ---
-permalink: /psp/
+permalink: /psp
+redirect_from:
+  - /psp/
 layout: post
 title: Sony Playstation Portable (PSP)
 recommend: psp

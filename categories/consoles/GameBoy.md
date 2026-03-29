@@ -1,5 +1,5 @@
 ---
-permalink: /gameboy/
+permalink: /gameboy
 layout: post
 title: Nintendo Game Boy (DMG & GBC) Reversing
 recommend: gameboy
@@ -21,8 +21,9 @@ videocarousel:
     image: https://img.youtube.com/vi/RZUDEaLa5Nw/hqdefault.jpg
     youtube: RZUDEaLa5Nw
 redirect_from:
-  -  /gameboy/hardware
-  -  /ultimate-gameboy
+  - /gameboy/hardware
+  - /ultimate-gameboy
+  - /gameboy/
 tags:
   - gameboy
 ---

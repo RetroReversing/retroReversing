@@ -1,5 +1,7 @@
 ---
-permalink: /gba/
+permalink: /gba
+redirect_from:
+  - /gba/
 layout: post
 title: Nintendo Game Boy Advance (GBA) Reverse Engineering
 recommend: 

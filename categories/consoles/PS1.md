@@ -1,5 +1,5 @@
 ---
-permalink: /ps1/
+permalink: /ps1
 layout: post
 category: 'ps1'
 title: 'Sony PlayStation 1 (PSX)'
@@ -19,6 +19,7 @@ redirect_from:
  - /ps1-gte
  - /Evolution-of-Playstation-Games
  - /inside-playstation
+ - /ps1/
 videocarousel:
   - title: Video 1
     image: https://img.youtube.com/vi/MPXpH2hxuNc/hqdefault.jpg

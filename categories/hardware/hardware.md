@@ -1,5 +1,5 @@
 ---
-permalink: /hardware/
+permalink: /hardware
 layout: post
 category: hardware
 title: Game Console Hardware
@@ -9,7 +9,6 @@ breadcrumbs:
   - name: Hardware
     url: /hardware
 redirect_from:
-  - /hardware
   - /console
   - /hardware/consoles
   - /consoles
@@ -19,6 +18,7 @@ redirect_from:
   - /architecture
   - /games/console
   - /hardware-architecture
+  - /hardware/
 tags:
 - hardware
 recommend:

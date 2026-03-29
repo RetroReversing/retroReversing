@@ -1,5 +1,5 @@
 ---
-permalink: /companies/snsystems/
+permalink: /companies/snsystems
 layout: post
 category: snsystems
 recommend: 
@@ -25,6 +25,7 @@ redirect_from:
   - /snsystems
   - /sn-systems
   - /snsystem
+  - /companies/snsystems/
 editlink: ../categories/companies/snsystems.md
 updatedAt: '2020-08-31'
 ---

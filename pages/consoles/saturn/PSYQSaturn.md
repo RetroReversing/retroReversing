@@ -10,7 +10,9 @@ tags:
 title: Psy-Q Sega Saturn Development Kit
 image: /public/images/saturn/Sega Saturn PSYQ Development Kit.jpg
 category: saturn
-permalink: /psyq-sega-saturn/
+permalink: /psyq-sega-saturn
+redirect_from:
+  - /psyq-sega-saturn/
 breadcrumbs:
   - name: Home
     url: /

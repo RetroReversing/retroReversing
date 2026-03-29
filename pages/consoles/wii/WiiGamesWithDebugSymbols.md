@@ -7,7 +7,9 @@ tags:
 title: Wii Games with Debug Symbols
 category: wii
 image: https://img.youtube.com/vi/bl55B1cvLUA/maxresdefault.jpg
-permalink: /wii-debug-symbols/
+permalink: /wii-debug-symbols
+redirect_from:
+  - /wii-debug-symbols/
 breadcrumbs:
   - name: Home
     url: /

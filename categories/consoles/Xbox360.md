@@ -1,5 +1,5 @@
 ---
-permalink: /xbox360/
+permalink: /xbox360
 layout: post
 title: Microsoft Xbox 360 Reverse Engineering
 recommend: xbox360
@@ -17,6 +17,7 @@ breadcrumbs:
     url: #
 redirect_from:
   - /360
+  - /xbox360/
 tags:
   - xbox360
 ---

@@ -12,7 +12,7 @@ breadcrumbs:
   - name: Leaks
     url: #
 redirect_from:
-  -  /leak
+  - /leak
 editlink: ../categories/misc/Leaks.md
 tags:
   - leak

@@ -1,5 +1,5 @@
 ---
-permalink: /dreamcast/
+permalink: /dreamcast
 layout: post
 title: Sega Dreamcast
 recommend: dreamcast
@@ -16,8 +16,8 @@ breadcrumbs:
   - name: Sega Dreamcast
     url: #
 redirect_from:
-  - /dreamcast
   - /dc
+  - /dreamcast/
 tags:
   - dreamcast
 ---

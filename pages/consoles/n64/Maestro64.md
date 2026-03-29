@@ -2,7 +2,9 @@
 title: Maestro64
 layout: post
 author: amorri40
-permalink: /maestro64/
+permalink: /maestro64
+redirect_from:
+  - /maestro64/
 tags:
 - n64
 - devkit

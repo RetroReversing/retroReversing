@@ -6,7 +6,9 @@ tags:
 title: Playstation Mobile (Suite)
 category: vita
 image: /public/consoles/Sony PSVita.png
-permalink: /playstation-mobile/
+permalink: /playstation-mobile
+redirect_from:
+  - /playstation-mobile/
 breadcrumbs:
   - name: Home
     url: /

@@ -9,7 +9,9 @@ title: ATI Low Level Wii SDK
 category: wii
 image: /public/images/wii/ATI Low Level Wii SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/ATI Low Level Wii SDK.jpg
-permalink: /ati-low-level-wii-sdk/
+permalink: /ati-low-level-wii-sdk
+redirect_from:
+  - /ati-low-level-wii-sdk/
 breadcrumbs:
   - name: Home
     url: /

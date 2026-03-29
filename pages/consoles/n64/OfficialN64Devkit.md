@@ -21,7 +21,9 @@ videocarousel:
     youtube: laOwsOHelBg
 image: /public/N64/N64 Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/N64/N64 Development Kit Hardware.jpg
-permalink: /official-n64-devkit/
+permalink: /official-n64-devkit
+redirect_from:
+  - /official-n64-devkit/
 breadcrumbs:
   - name: Home
     url: /

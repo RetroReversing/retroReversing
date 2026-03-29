@@ -1,5 +1,7 @@
 ---
-permalink: /3do/
+permalink: /3do
+redirect_from:
+  - /3do/
 layout: post
 title: 3DO Interactive Multiplayer
 recommend: 3do

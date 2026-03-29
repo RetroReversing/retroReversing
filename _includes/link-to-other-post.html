@@ -3,40 +3,48 @@
   Link to other post include
 
   Unfortunately the parameter is called "post" but it is actually the permalink to the post you want to link to.
+  This also checks redirect_from entries so legacy permalink formats still resolve.
 {% endcomment %}
 {% if include.post %}
-  <div class="linkToOtherPost">
+  {% assign matched_post = nil %}
   {% for post in site.pages %}
-  {% if post.permalink == include.post %}
-    {% assign generated_placeholder_slug = post.permalink | replace: '.html', '' | slugify %}
+    {% assign post_redirects = post.redirect_from | default: empty %}
+    {% if post.permalink == include.post or post_redirects contains include.post %}
+      {% assign matched_post = post %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if matched_post %}
+  <div class="linkToOtherPost">
+    {% assign generated_placeholder_slug = matched_post.permalink | replace: '.html', '' | slugify %}
     {% assign generated_placeholder_path = '/public/generated/placeholders/' | append: generated_placeholder_slug | append: '.jpg' %}
     {% assign generated_placeholder_file = site.static_files | where: 'path', generated_placeholder_path | first %}
-    <a target="_blank" href="{{ post.permalink }}" aria-label="Link to {{ post.title }}">
+    <a target="_blank" href="{{ matched_post.permalink }}" aria-label="Link to {{ matched_post.title }}">
       <blockquote>
         <div class="widget-img">
-            {% if post.image %}
-              <img class="lazy-load otherPostImg" data-image-full="{{ post.image }}" alt="">
+            {% if matched_post.image %}
+              <img class="lazy-load otherPostImg" data-image-full="{{ matched_post.image }}" alt="">
             {% elsif generated_placeholder_file %}
-              <img class="lazy-load otherPostImg" data-image-full="{{ generated_placeholder_path }}" alt="{{ post.title }}">
-            {% elsif post.youtube %}
-              <img class="lazy-load otherPostImg" data-image-full="https://img.youtube.com/vi/{{ post.youtube }}/" alt="{{ post.title }}">
+              <img class="lazy-load otherPostImg" data-image-full="{{ generated_placeholder_path }}" alt="{{ matched_post.title }}">
+            {% elsif matched_post.youtube %}
+              <img class="lazy-load otherPostImg" data-image-full="https://img.youtube.com/vi/{{ matched_post.youtube }}/" alt="{{ matched_post.title }}">
             {% else %}
-              {% include placeholder-post-image.html title=post.title post=post %}
+              {% include placeholder-post-image.html title=matched_post.title post=matched_post %}
             {% endif %}
         </div>
         <div class="linkToOtherPostRight">
           <h3>
-              {{ post.title | markdownify | strip_html }}
+              {{ matched_post.title | markdownify | strip_html }}
           </h3> 
           {% if include.description %}
             <p>{{ include.description  | markdownify | strip_html }}</p>
           {% else %}
-            <p>{{ post.content | markdownify | strip_html | truncatewords: 30 }}</p>
+            <p>{{ matched_post.content | markdownify | strip_html | truncatewords: 30 }}</p>
           {% endif %}
         </div>
       </blockquote>
     </a>
-  {% endif %}
-  {% endfor %}
   </div>
+  {% endif %}
 {% endif %}

@@ -1,6 +1,8 @@
 ---
 title: NES Sprite Tile Editing
-permalink: /nes-sprite-tile-editing/
+permalink: /nes-sprite-tile-editing
+redirect_from:
+  - /nes-sprite-tile-editing/
 tags:
 - nes
 - gameboy

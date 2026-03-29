@@ -7,7 +7,9 @@ title: Game Boy Advance SDK Demos
 category: gba
 image: /public/images/gba/Game Boy Advance SDK Demos.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance SDK Demos.jpg
-permalink: /game-boy-advance-sdk-demos/
+permalink: /game-boy-advance-sdk-demos
+redirect_from:
+  - /game-boy-advance-sdk-demos/
 breadcrumbs:
   - name: Home
     url: /

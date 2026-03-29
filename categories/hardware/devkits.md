@@ -1,5 +1,5 @@
 ---
-permalink: /hardware/devkits/
+permalink: /hardware/devkits
 layout: post
 title: Introduction to Development Kits (Hardware)
 category: devkit
@@ -16,6 +16,7 @@ redirect_from:
   - /dev-kit
   - /developmentkit
   - /development-kit
+  - /hardware/devkits/
 editlink: ../categories/hardware/devkits.md
 recommend: devkit
 updatedAt: '2021-04-11'

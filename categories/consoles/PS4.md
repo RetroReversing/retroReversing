@@ -1,5 +1,7 @@
 ---
-permalink: /ps4/
+permalink: /ps4
+redirect_from:
+  - /ps4/
 layout: post
 title: Sony Playstation 4
 recommend: ps4

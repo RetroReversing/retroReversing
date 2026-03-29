@@ -14,7 +14,7 @@ videocarousel:
     image: https://img.youtube.com/vi/7qxk9ORDSIk/hqdefault.jpg
     youtube: 7qxk9ORDSIk
 image: /public/images/gc/Gamecube Development Kit Hardware.jpg
-permalink: /gamecube-development-kit-hardware/
+permalink: /gamecube-development-kit-hardware
 breadcrumbs:
   - name: Home
     url: /
@@ -32,6 +32,7 @@ twitterimage: https://www.retroreversing.com/public/images/gc/Gamecube Developme
 updatedAt: '2020-09-30'
 redirect_from:
  - /prodg-gamecube
+ - /gamecube-development-kit-hardware/
 ---
 
 # AMC Dolphin Development Hardware (DDH)

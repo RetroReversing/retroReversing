@@ -7,7 +7,7 @@ title: iQue Gamecube Leak (BB2)
 category: gamecube
 image: /public/images/gc/iQue gamecube.jpg
 twitterimage: https://www.retroreversing.com/public/images/gc/iQue gamecube.jpg
-permalink: /ique-gamecube/
+permalink: /ique-gamecube
 breadcrumbs:
   - name: Home
     url: /
@@ -17,6 +17,7 @@ breadcrumbs:
     url: #
 redirect_from:
  - /ique
+ - /ique-gamecube/
 recommend: 
 - gamecube
 - sdk

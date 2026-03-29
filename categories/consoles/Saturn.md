@@ -1,5 +1,5 @@
 ---
-permalink: /saturn/
+permalink: /saturn
 layout: post
 category: saturn
 title: 'Sega Saturn (Hacking & Reversing)'
@@ -20,6 +20,7 @@ breadcrumbs:
 redirect_from:
   - /segasaturn
   - /ss
+  - /saturn/
 tags:
   - saturn
 ---

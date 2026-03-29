@@ -10,7 +10,7 @@ title: Sega Mega Drive (Genesis) Development Kit Hardware
 category: megadrive
 image: /public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
 twitterimage: https://www.retroreversing.com/public/images/megadrive/Sega Mega Drive Genesis Devkit.jpg
-permalink: /sega-mega-drive-genesis-development-kit/
+permalink: /sega-mega-drive-genesis-development-kit
 breadcrumbs:
   - name: Home
     url: /
@@ -37,6 +37,7 @@ redirect_from:
   - /sega-dev-card
   - /sprobe-megadrive/
   - /snasm2-cross-products
+  - /sega-mega-drive-genesis-development-kit/
 updatedAt: '2020-11-25'
 ---
 The SEGA Mega drive was released on October 29th 1988 in Japan following with North America almost a year later and Europe another whole year later than that! 

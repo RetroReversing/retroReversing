@@ -8,7 +8,9 @@ title: SN Systems ProDG PSP SDK
 category: psp
 image: /public/images/psp/SN Systems ProDG PSP.jpg
 twitterimage: https://www.retroreversing.com/public/images/psp/SN Systems ProDG PSP.jpg
-permalink: /sn-systems-pro-dg-psp-sdk/
+permalink: /sn-systems-pro-dg-psp-sdk
+redirect_from:
+  - /sn-systems-pro-dg-psp-sdk/
 breadcrumbs:
   - name: Home
     url: /

@@ -7,7 +7,9 @@ tags:
 title: Sega Saturn Hitachi Compiler Toolchain
 category: saturn
 image: /public/images/saturn/Sega Saturn Hitachi Compiler Toolchain.jpg
-permalink: /sega-saturn-hitachi-compiler/
+permalink: /sega-saturn-hitachi-compiler
+redirect_from:
+  - /sega-saturn-hitachi-compiler/
 breadcrumbs:
   - name: Home
     url: /

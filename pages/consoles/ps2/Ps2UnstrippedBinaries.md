@@ -8,7 +8,9 @@ title: PS2 Games with Debug Symbols (UnStripped Binaries)
 category: ps2
 image: /public/images/ps2/PS2 Games with Debug Symbols.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Games with Debug Symbols.jpg
-permalink: /ps2-unstripped/
+permalink: /ps2-unstripped
+redirect_from:
+  - /ps2-unstripped/
 breadcrumbs:
   - name: Home
     url: /

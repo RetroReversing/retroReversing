@@ -1,5 +1,7 @@
 ---
-permalink: /vita/
+permalink: /vita
+redirect_from:
+  - /vita/
 layout: post
 title: Sony Playstation Vita Reverse Engineering
 recommendTitle: All Vita Posts

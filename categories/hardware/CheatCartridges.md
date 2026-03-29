@@ -1,5 +1,5 @@
 ---
-permalink: /hardware/cheatcartridge/
+permalink: /hardware/cheatcartridge
 layout: post
 category: cheatcartridge
 title: Cheat Cartridges & Discs
@@ -20,6 +20,7 @@ redirect_from:
   - /cheat-cartridge
   - /cartridge
   - /hardware/cheatdevices
+  - /hardware/cheatcartridge/
 tags:
   - hardware
 ---

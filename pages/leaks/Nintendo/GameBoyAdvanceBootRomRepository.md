@@ -7,7 +7,9 @@ tags:
 - sourcecode
 title: Gigaleak - Game Boy Advance Boot ROM Repository
 category: leak
-permalink: /game-boy-advance-boot-rom-repository/
+permalink: /game-boy-advance-boot-rom-repository
+redirect_from:
+  - /game-boy-advance-boot-rom-repository/
 breadcrumbs:
   - name: Home
     url: /

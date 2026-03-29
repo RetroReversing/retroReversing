@@ -1,5 +1,7 @@
 ---
-permalink: /fairchild-channel-f/
+permalink: /fairchild-channel-f
+redirect_from:
+  - /fairchild-channel-f/
 layout: post
 category: fairchild-channel-f
 title: Fairchild Channel F Reverse Engineering

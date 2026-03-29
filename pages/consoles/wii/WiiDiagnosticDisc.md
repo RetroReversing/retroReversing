@@ -9,7 +9,9 @@ title: Nintendo Wii Diagnostic Disc Source Code
 category: wii
 image: /public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
 twitterimage: https://www.retroreversing.com/public/images/wii/Nintendo Wii Diagnostic Disc Source Code.jpg
-permalink: /nintendo-wii-diag4rvl-leak/
+permalink: /nintendo-wii-diag4rvl-leak
+redirect_from:
+  - /nintendo-wii-diag4rvl-leak/
 breadcrumbs:
   - name: Home
     url: /

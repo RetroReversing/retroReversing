@@ -1,7 +1,9 @@
 ---
 title: SN Systems Network Development Kit for PS2
 layout: post
-permalink: /sn-systems-network-development-kit-for-ps2/
+permalink: /sn-systems-network-development-kit-for-ps2
+redirect_from:
+  - /sn-systems-network-development-kit-for-ps2/
 tags:
 - ps2
 - snsystems

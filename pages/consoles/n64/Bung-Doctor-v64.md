@@ -14,7 +14,9 @@ videocarousel:
     image: https://img.youtube.com/vi/8Za3DNGeP5Y/0.jpg
     youtube: '8Za3DNGeP5Y'
 image: https://i.ytimg.com/vi/8Za3DNGeP5Y/hqdefault.jpg
-permalink: /Bung-Doctor-v64/
+permalink: /Bung-Doctor-v64
+redirect_from:
+  - /Bung-Doctor-v64/
 breadcrumbs:
   - name: Home
     url: /

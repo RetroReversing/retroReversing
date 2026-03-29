@@ -1,5 +1,5 @@
 ---
-permalink: /gamecube/
+permalink: /gamecube
 layout: post
 title: Nintendo Gamecube (Dolphin) Reverse Engineering
 recommend: gamecube
@@ -18,6 +18,7 @@ breadcrumbs:
 redirect_from:
   - /gc
   - /dolphin
+  - /gamecube/
 tags:
   - gamecube
 ---

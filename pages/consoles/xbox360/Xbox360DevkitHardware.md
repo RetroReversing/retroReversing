@@ -8,7 +8,9 @@ title: Microsoft Xbox 360 Development Kit Hardware
 category: xbox360
 image: /public/images/xbox360/Microsoft Xbox 360 Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/xbox360/Microsoft Xbox 360 Development Kit Hardware.jpg
-permalink: /microsoft-xbox-360-development-kit/
+permalink: /microsoft-xbox-360-development-kit
+redirect_from:
+  - /microsoft-xbox-360-development-kit/
 breadcrumbs:
   - name: Home
     url: /

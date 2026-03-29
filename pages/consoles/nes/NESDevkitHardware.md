@@ -8,7 +8,7 @@ title: NES (Famicom) Development Kit Hardware
 category: nes
 image: /public/images/nes/NES Famicom Development Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/nes/Famicom_PDS_INTERFACE.jpg
-permalink: /famicom-nes-development-kit/
+permalink: /famicom-nes-development-kit
 breadcrumbs:
   - name: Home
     url: /
@@ -22,6 +22,7 @@ recommend:
 editlink: /consoles/nes/NESDevkitHardware.md
 redirect_from:
   - /official-nes-devkit/
+  - /famicom-nes-development-kit/
 updatedAt: '2020-07-18'
 ---
 

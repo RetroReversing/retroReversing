@@ -9,7 +9,7 @@ title: Game Boy Advance (AGB) Development Kit Hardware
 category: gba
 image: /public/images/gba/Game Boy Advance Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance Development Kit Hardware.jpg
-permalink: /game-boy-advance-development-kit/
+permalink: /game-boy-advance-development-kit
 breadcrumbs:
   - name: Home
     url: /
@@ -27,6 +27,7 @@ recommend:
 editlink: /consoles/gba/GBADevkitHardware.md
 redirect_from:
   - /official-gba-devkit/
+  - /game-boy-advance-development-kit/
 updatedAt: '2020-01-23'
 ---
 

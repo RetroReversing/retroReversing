@@ -1,7 +1,9 @@
 ---
 title: Game Boy Software Development Kits
 layout: post
-permalink: /official-gameboy-software-dev-kit/
+permalink: /official-gameboy-software-dev-kit
+redirect_from:
+  - /official-gameboy-software-dev-kit/
 tags:
 - gameboy
 - sdk

@@ -9,7 +9,7 @@ title: Nintendo DS (Nitro) Development Kit Hardware
 category: ds
 image: /public/images/ds/Nintendo DS Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/ds/Nintendo DS Development Kit Hardware.jpg
-permalink: /nintendo-ds-development-kit/
+permalink: /nintendo-ds-development-kit
 breadcrumbs:
   - name: Home
     url: /
@@ -23,6 +23,7 @@ recommend:
 editlink: /consoles/ds/DSDevkitHardware.md
 redirect_from:
   - /official-ds-devkit/
+  - /nintendo-ds-development-kit/
 updatedAt: '2021-03-24'
 ---
 

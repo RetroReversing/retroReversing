@@ -8,7 +8,9 @@ title: PS2 Demo Disks with Debug Symbols
 category: ps2
 image: https://www.retroreversing.com/public/images/ps2/PS2 Demos with Debug Symbols.jpg
 twitterimage: https://www.retroreversing.com/public/images/ps2/PS2 Demos with Debug Symbols.jpg
-permalink: /ps2-demos/
+permalink: /ps2-demos
+redirect_from:
+  - /ps2-demos/
 breadcrumbs:
   - name: Home
     url: /

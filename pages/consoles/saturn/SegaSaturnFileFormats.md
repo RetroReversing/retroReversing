@@ -8,7 +8,9 @@ title: Sega Saturn File Formats
 category: saturn
 image: /public/images/saturn/Sega Saturn File Formats.jpg
 twitterimage: https://www.retroreversing.com/public/images/saturn/Sega Saturn File Formats.jpg
-permalink: /sega-saturn-file-formats/
+permalink: /sega-saturn-file-formats
+redirect_from:
+  - /sega-saturn-file-formats/
 breadcrumbs:
   - name: Home
     url: /

@@ -5,7 +5,9 @@ tags:
 - sdk
 title: Official Sony Vita SDK
 category: vita
-permalink: /official-vita-sdk/
+permalink: /official-vita-sdk
+redirect_from:
+  - /official-vita-sdk/
 breadcrumbs:
   - name: Home
     url: /

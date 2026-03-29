@@ -13,7 +13,7 @@ breadcrumbs:
 recommend: reversingEmulator
 editlink: ../categories/tools/ReversingEmulators.md
 redirect_from:
-  -  /reversingEmulator
+  - /reversingEmulator
 image: /public/images/reversingEmulator/Reversing emulators.jpg
 twitterimage: https://www.retroreversing.com/public/images/reversingEmulator/Reversing emulators.jpg
 updatedAt: '2024-10-20'

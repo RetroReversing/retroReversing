@@ -1,5 +1,5 @@
 ---
-permalink: /3ds/
+permalink: /3ds
 layout: post
 title: Nintendo 3DS (Citrus/CTR)
 recommend: 3ds
@@ -19,7 +19,8 @@ videocarousel:
     image: http://img.youtube.com/vi/ImR-TdDAIJE/0.jpg
     youtube: 'ImR-TdDAIJE'
 redirect_from:
-  -  /EarlyDaysOf3DSHacking
+  - /EarlyDaysOf3DSHacking
+  - /3ds/
 tags:
   - 3ds
 ---

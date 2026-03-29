@@ -1,6 +1,8 @@
 ---
 title: Programming the Nintendo Entertainment System
-permalink: /nes-programming/
+permalink: /nes-programming
+redirect_from:
+  - /nes-programming/
 tags:
 - nes
 - introduction

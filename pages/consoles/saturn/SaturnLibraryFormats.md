@@ -8,7 +8,9 @@ tags:
 title: Sega Saturn Library Formats
 image: /public/images/saturn/Sega Saturn Library Formats.jpg
 category: saturn
-permalink: /sega-saturn-library-formats/
+permalink: /sega-saturn-library-formats
+redirect_from:
+  - /sega-saturn-library-formats/
 breadcrumbs:
   - name: Home
     url: /

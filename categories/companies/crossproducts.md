@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /companies/crossproducts/
+permalink: /companies/crossproducts
 category: crossproducts
 tags:
  - companies
@@ -23,6 +23,7 @@ breadcrumbs:
 redirect_from:
   - /cross-products
   - /crossproducts
+  - /companies/crossproducts/
 editlink: ../categories/companies/crossproducts.md
 updatedAt: '2020-09-05'
 ---

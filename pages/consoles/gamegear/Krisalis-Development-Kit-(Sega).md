@@ -9,7 +9,9 @@ tags:
 title: Krisalis Development Kit (Sega Master System/Game Gear)
 category: gamegear
 image: /public/nAxI7tmNzVZDcZMLzn8JA_img_3.png
-permalink: /krisalis-development-kit-(sega)/
+permalink: /krisalis-development-kit-(sega)
+redirect_from:
+  - /krisalis-development-kit-(sega)/
 breadcrumbs:
   - name: Home
     url: /

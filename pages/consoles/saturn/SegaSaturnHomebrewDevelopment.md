@@ -8,7 +8,9 @@ title: Sega Saturn Homebrew Development
 category: saturn
 image: /public/images/saturn/Sega Saturn Homebrew Development.jpg
 twitterimage: http://www.retroreversing.com/public/images/saturn/Sega Saturn Homebrew Development.jpg
-permalink: /sega-saturn-homebrew-development/
+permalink: /sega-saturn-homebrew-development
+redirect_from:
+  - /sega-saturn-homebrew-development/
 breadcrumbs:
   - name: Home
     url: /

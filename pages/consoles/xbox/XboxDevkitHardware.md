@@ -8,7 +8,9 @@ title: Microsoft Xbox (Original) Development Kit Hardware
 category: xbox
 image: /public/images/xbox/Microsoft Xbox Development Kit Hardware.jpg
 twitterimage: https://www.retroreversing.com/public/images/xbox/Microsoft Xbox Development Kit Hardware.jpg
-permalink: /microsoft-xbox-development-kit/
+permalink: /microsoft-xbox-development-kit
+redirect_from:
+  - /microsoft-xbox-development-kit/
 breadcrumbs:
   - name: Home
     url: /

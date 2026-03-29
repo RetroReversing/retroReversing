@@ -8,7 +8,9 @@ title: Memory Hacking
 category: introduction
 image: /public/images/n64/N64 Memory Editing.jpg
 twitterimage: https://www.retroreversing.com/public/images/n64/N64 Memory Editing.jpg
-permalink: /n64-rom-memory-hacking/
+permalink: /n64-rom-memory-hacking
+redirect_from:
+  - /n64-rom-memory-hacking/
 breadcrumbs:
   - name: Home
     url: /

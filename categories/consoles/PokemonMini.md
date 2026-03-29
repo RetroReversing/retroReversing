@@ -1,5 +1,7 @@
 ---
-permalink: /PokemonMini/
+permalink: /PokemonMini
+redirect_from:
+  - /PokemonMini/
 layout: post
 category: PokemonMini
 title: 'Pokemon Mini'

@@ -1,5 +1,7 @@
 ---
-permalink: /wii/
+permalink: /wii
+redirect_from:
+  - /wii/
 layout: post
 recommend: wii
 recommendTitle: All Wii Posts

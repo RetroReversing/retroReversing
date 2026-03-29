@@ -1,5 +1,5 @@
 ---
-permalink: /snes/
+permalink: /snes
 layout: post
 category: snes
 title: 'Super Nintendo (Super Famicom) - Reverse engineering & Modding'
@@ -17,6 +17,7 @@ breadcrumbs:
     url: #
 redirect_from:
   - /supernintendo
+  - /snes/
 tags:
   - snes
 updatedAt: '2025-12-07'

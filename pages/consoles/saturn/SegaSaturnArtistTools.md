@@ -7,7 +7,9 @@ tags:
 title: Sega Saturn Artist Tools
 category: saturn
 image:  /public/images/saturn/Sega Saturn Artist Tools.jpg
-permalink: /sega-saturn-artist-tools/
+permalink: /sega-saturn-artist-tools
+redirect_from:
+  - /sega-saturn-artist-tools/
 breadcrumbs:
   - name: Home
     url: /

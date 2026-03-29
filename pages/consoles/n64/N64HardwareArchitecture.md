@@ -14,7 +14,9 @@ videocarousel:
     image: https://img.youtube.com/vi/ScicrgZwvg4/hqdefault.jpg
     youtube: ScicrgZwvg4
 image: https://img.youtube.com/vi/ScicrgZwvg4/hqdefault.jpg
-permalink: /n64-hardware-architecture/
+permalink: /n64-hardware-architecture
+redirect_from:
+  - /n64-hardware-architecture/
 breadcrumbs:
   - name: Home
     url: /

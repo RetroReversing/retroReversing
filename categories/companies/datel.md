@@ -1,5 +1,5 @@
 ---
-permalink: /companies/datel/
+permalink: /companies/datel
 title: Datel
 layout: post
 category: datel
@@ -14,6 +14,7 @@ breadcrumbs:
     url: /datel
 redirect_from:
   - /datel
+  - /companies/datel/
 recommend: 
 - companies
 - industry
