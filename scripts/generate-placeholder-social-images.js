@@ -241,12 +241,15 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
     const geoPatternHref = geoPatternSvg
         ? `data:image/svg+xml;base64,${Buffer.from(geoPatternSvg).toString('base64')}`
         : '';
-    const textX = 180;
+    const textX = 160;
 
     const titleTspans = titleLines
         .slice(0,2)
         .map((line, index) => `<tspan x="${textX}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`)
         .join('');
+
+    const barHeight = titleLines.length === 1 ? 150 : 205;
+    const logoYOffset = titleLines.length === 1 ? 16 : 36;
 
     const categoryImageMarkup = categoryImageHref
         ? `<image href="${categoryImageHref}" x="300" y="255" width="600" height="350" preserveAspectRatio="xMidYMid meet" />`
@@ -261,9 +264,9 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
   </defs>
   <rect width="1200" height="630" fill="#4c43aa" />
   ${geoPatternHref ? `<image href="${geoPatternHref}" x="0" y="0" width="1200" height="630" preserveAspectRatio="none" />` : ''}
-  <rect width="1200" height="205" fill="#161a22" />
-  ${logoImageHref ? `<image href="${logoImageHref}" x="18" y="36" width="170" height="112" preserveAspectRatio="xMinYMid meet" />` : ''}
-  <text x="${textX}" y="50" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" letter-spacing="4">${escapeXml(categoryText)}</text>
+  <rect width="1200" height="${barHeight}" fill="#161a22" />
+  ${logoImageHref ? `<image href="${logoImageHref}" x="18" y="${logoYOffset}" width="170" height="112" preserveAspectRatio="xMinYMid meet" />` : ''}
+  <text x="${textX}" y="48" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="2">${escapeXml(categoryText)}</text>
   <text x="${textX}" y="${titleY}" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">${titleTspans}</text>
   <g filter="url(#shadow)">
     ${categoryImageMarkup}
