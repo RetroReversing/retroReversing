@@ -207,6 +207,14 @@ The PS1-EXE (executable) format is detailed in the post below:
 {% include link-to-other-post.html post="/ps1-exe" description="For more information on PS1 EXE File Format check out this post." %}
 
 ---
+## PS1 Emulation
+
+### bleem! Commerical PS1 Emulator for Pentium 166+ PCs
+[Zophar](https://www.youtube.com/watch?v=RCw6LpHx9wM&t=3453s) has released an in-depth interview with veteran programmer Randy Linden, diving into his extensive career in reverse engineering and emulator development. The video covers the technical hurdles of creating the bleem! PlayStation emulator for the PC, including the implementation of a dynamic optimizing recompiler to achieve playable speeds on a Pentium 166. Additionally, it details his groundbreaking work reverse engineering hardware to port Doom to the Super Nintendo using the Super FX chip.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RCw6LpHx9wM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
 # Game Asset Creation Tools
 Ever wondered how your favourite game artists made assets for PlayStation 1? Although the exact software used for most games are still a secret, we have managed to piece together what we know so far about how 3D models and 2D Images were created.
 

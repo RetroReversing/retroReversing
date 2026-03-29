@@ -143,7 +143,7 @@ title: Example Page Title
 category: leak
 image: /public/images/example.jpg
 twitterimage: https://www.retroreversing.com/public/images/example.jpg
-permalink: /example-page/
+permalink: /example-page
 breadcrumbs:
   - name: Home
     url: /
@@ -169,7 +169,7 @@ Field | Purpose
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category
 `image` | Main preview image used by the page and site cards
 `twitterimage` | Absolute URL version of the preview image for social sharing
-`permalink` | Final public path for the page
+`permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page
 `recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site
 `editlink` | Repo-relative path used for the "Edit on GitHub" link

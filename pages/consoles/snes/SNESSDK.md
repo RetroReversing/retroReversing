@@ -62,6 +62,11 @@ In fact we can see Youtube footage from **Pernoelle** [^10], that shows a progra
  
 This suggests that SNES development at Nintendo was split between the **IBM-PC** compatibles and the Unix-based **Sony NEWS** workstation!
 
+The Gigaleak fills in one more layer beneath that host-side picture.
+Inside the Super Mario Kart source archive there is a full SNES-side `SFX-DOS` environment with floppy, keyboard, serial, printer, and console support, which gives us a much more concrete view of how file operations and editor tooling could work once code was already running on the target side.
+
+{% include link-to-other-post.html post="/super-famicom-sfx-dos/" description="For a detailed breakdown of the leaked SFX-DOS environment and the files that implement it, check out this post." %}
+
 ---
 ## SNES SDK File Formats
 There are a number of common file formats that you will find throughout the Super Nintendo SDK files.
