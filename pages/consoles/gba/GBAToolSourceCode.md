@@ -5,8 +5,6 @@ tags:
 - sdk
 title: Game Boy Advance Tool Source Code
 category: gba
-image: /public/images/gba/Game Boy Advance Tool Source Code.jpg
-twitterimage: https://www.retroreversing.com/public/images/gba/Game Boy Advance Tool Source Code.jpg
 permalink: /game-boy-advance-tool-source-code/
 breadcrumbs:
   - name: Home

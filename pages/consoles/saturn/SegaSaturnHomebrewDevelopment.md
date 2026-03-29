@@ -100,6 +100,6 @@ If you get the following error:
 /opt/tool-chains/sh2eb-elf/bin/sh2eb-elf-as
 sh2eb-elf tool-chain has not been installed properly (see build-scripts/)
 make[1]: *** [check-tool-chain] Error 1
-make: *** [/Users/alasdairmorrison/libyaul/build] Error 2
+make: *** [~/libyaul/build] Error 2
 ```
 Then you need to make sure you have followed the Toolchain build instructions above and it is able to find the environment variables.

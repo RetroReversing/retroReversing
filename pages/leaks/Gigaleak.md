@@ -56,13 +56,8 @@ It contains these major sub-archives:
 * **NEWS.7z** - A smaller archive with SFC-adjacent material and logs
 * **SFC.7z** - SNES Source Code
 
+
 ---
-## Boot ROM Repositories (other/agb_bootrom)
-The `other/agb_bootrom` folder is much richer than the filename suggests.
-On disk it survives as two full Subversion repositories, one for `agb_bootrom` and one for `cgb_bootrom`, complete with revision history, `trunk/branches/tags`, and surrounding build material.
-
-{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the full breakdown of the AGB and CGB boot ROM repositories, including the SVN history and trunk contents, check out this post." %}
-
 ## Original Game Boy Source Code for The Legend of Zelda Links Awakening (dmg.7z)
 The archive **dmg.7z** contains the source code for the original version of The Legend of Zelda Links Awakening.
 
@@ -95,17 +90,29 @@ Contains the Source code for a number of Super Famicom (SNES) titles:
 We have a post specifically about the **F-Zero** source code leaked in **SFC.7z** here:
 {% include link-to-other-post.html post="/f-zero-source-code" description="For more information on the F-Zero Source Code check out this post." %}
 
+
 ---
-# Gameboy Color Boot ROM (cgb_bootrom_trunk.zip)
+## Boot ROM Repositories (other/agb_bootrom)
+The `other/agb_bootrom` folder is much richer than the filename suggests.
+On disk it survives as two full Subversion repositories, one for `agb_bootrom` and one for `cgb_bootrom`, complete with revision history, `trunk/branches/tags`, and surrounding build material.
+
+It is best thought of as two related but quite different archives:
+* the AGB side is a broader monitor, startup, library, and tooling environment
+* the CGB side is a tighter DMG-era monitor build package with spec documents
+
+If you don't have subversion tooling installed the full trunk versions of both were released as seperate archives **agb_bootrom_trunk.zip** and **cgb_bootrom_trunk.zip**.
+
+---
+### Gameboy Color Boot ROM (cgb_bootrom_trunk.zip)
 The `cgb_bootrom_trunk.zip` archive is best understood as an exported working copy from the `cgb_bootrom` Subversion repository preserved inside `other/agb_bootrom`.
 
-{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the repository layout, revision history, and surviving CGB trunk files, check out this post." %}
+{% include link-to-other-post.html post="/game-boy-color-boot-rom-repository/" description="For the repository layout, build flow, and surviving CGB trunk files, check out this post." %}
 
 ---
-# Game Boy Advance Boot ROM (agb_bootrom_trunk.zip)
+### Game Boy Advance Boot ROM (agb_bootrom_trunk.zip)
 The `agb_bootrom_trunk.zip` archive is the extracted latest working copy from the much larger `agb_bootrom` Subversion repository found inside `other/agb_bootrom`.
 
-{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the wider AGB repository contents, including the monitor code, include files, libraries, docs, and later tools like AgbComp and Bmp2Agb, check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository/" description="For the wider AGB repository contents, including the monitor code, include files, libraries, docs, and later tools like AgbComp and Bmp2Agb, check out this post." %}
 
 ---
 # Netcard (cancelled GBA peripheral)

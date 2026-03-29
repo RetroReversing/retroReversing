@@ -60,6 +60,15 @@ We want to avoid spreading misinformation as much as possible, which can be tric
 # Formatting Guidelines
 Posts are written in [GitHub Flavored Markdown](https://github.github.com/gfm/) but also support additional Jekyll includes that can be used for more advanced components.
 
+When a section is listing folder contents, prefer the existing includes over raw HTML or plain bullet dumps:
+* Use `connected-folder-tree.html` when showing folders with subfolders or a nested directory structure
+  `folder` should be the short display name and `path` should be the longer location, for example `folder="trunk"` and `path="agb_bootrom/trunk"`
+* Use `source-code-card.html` and `source-code-card-grid.html` when you are actually showing the contents of a source file, such as its functions, variables, structs, or other internal symbols
+* Do not use code cards just to summarize what a file is for or what companion files sit beside it - use a table or normal prose for that instead
+* The `functions`, `variables`, and `lines` fields on code cards must be exact numeric counts taken from the file contents, not descriptive text or estimates
+* If the exact counts are not known yet, leave the card out until the file has been inspected properly enough to count them
+* Prefer these includes over hand-written decorative HTML so the styling stays consistent across the site
+
 ## Writing Style Rules
 <div class="emoji">🔤</div>
 
