@@ -21,34 +21,47 @@ recommend:
  - leak
  - sourcecode
 editlink: /leaks/Gigaleak.md
-updatedAt: '2020-09-03'
+updatedAt: '2026-03-29'
 twitterimage: https://www.retroreversing.com/public/N64/Gigaleak.jpg
 ---
 
-On the 24th of July 2020, the mother-load (2GB) was uploaded to a thread on 4chan and was dubbed the  `Gigaleak`. This is a continuation of the leaks that were obtained from a iQue/BroadOn/Routefree hack earlier in the year. 
+On 24 July 2020, a large Nintendo archive was uploaded online and quickly became known as the `Gigaleak`.
+It was not one single neat source drop.
+It was a mixed archive of ROMs, source trees, boot ROM repositories, internal tools, and later CVS/Subversion backups.
 
-The next day its sequel Gigaleak 2 was released with tons of Nintendo 64 content.
 
----
-# Uploaded Files
+## Uploaded Files
 
-Files Leaked:
-* **20100713cvs_backup.tar.7z** - CVS Repo Dump of projects such as ensata
-* **netcard.7z** - Game Boy Advance Peripheral
-* **cgb_bootrom_trunk.zip** - Game Boy Color Boot ROM
-* **pokemon-checkout.7z**
-* **agb_bootrom_trunk.zip** - Game Boy Advance Boot ROM
-* **other.7z** - Source code for Game Boy (DMG), GBC, SNES games
+These were the archive files uploaded on 4chan /g/ on 24 July 2020, the day the Gigaleak was leaked:
+* **other.7z** - The broadest archive, containing DMG, CGB, SFC, lot-check, and boot ROM material
+* **agb_bootrom_trunk.zip** - Extracted latest trunk snapshot of the AGB boot ROM repository
+* **cgb_bootrom_trunk.zip** - Extracted latest trunk snapshot of the CGB boot ROM repository
+* **pokemon-checkout.7z** - Pokemon-related source/material
+* **netcard.7z** - Material for a cancelled Game Boy Advance peripheral
+* **20100713cvs_backup.tar.7z** - CVS repository backup with later Nintendo projects
+
+This page will cover each of these files, linking out to specific posts for each to dive into the details.
+
+The next day its sequel, often called **Gigaleak 2**, followed with much more Nintendo 64 material.
 
 ---
 # Other (other.7z)
-The archive mysteriously named **other.7z** actually contains a bunch of sub-archives which are:
-* **agb_bootrom.zip**  - SVN repository for both GBA and GBC Boot ROMs
+The archive mysteriously named **other.7z** is one of the most interesting parts of the leak because it mixes game source trees with internal repositories and support material.
+
+It contains these major sub-archives:
+* **agb_bootrom.zip**  - Subversion repositories for both the Game Boy Advance and Game Boy Color boot ROM projects
 * **CGB.7z** - Game Boy Color Source Code for Zelda and a build of Hamtaro 2
 * **dmg.7z** - Original Game Boy Source Code for Zelda
 * **Famicom_NES.7z** - Full set of official JP/USA Famicom/NES ROMS (Lot Check)
-* **NEWS.7z** - Not sure what this is, but contains a subset of SFC plus log files, some sort of Backup program?
+* **NEWS.7z** - A smaller archive with SFC-adjacent material and logs
 * **SFC.7z** - SNES Source Code
+
+---
+## Boot ROM Repositories (other/agb_bootrom)
+The `other/agb_bootrom` folder is much richer than the filename suggests.
+On disk it survives as two full Subversion repositories, one for `agb_bootrom` and one for `cgb_bootrom`, complete with revision history, `trunk/branches/tags`, and surrounding build material.
+
+{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the full breakdown of the AGB and CGB boot ROM repositories, including the SVN history and trunk contents, check out this post." %}
 
 ## Original Game Boy Source Code for The Legend of Zelda Links Awakening (dmg.7z)
 The archive **dmg.7z** contains the source code for the original version of The Legend of Zelda Links Awakening.
@@ -59,7 +72,7 @@ The archive **dmg.7z** contains the source code for the original version of The 
 ## Game Boy Color Source Code for The Legend of Zelda Links Awakening DX (CGB.7z)
 The archive **CGB.7z** contains the source code for the Game Boy Color game The Legend of Zelda Links Awakening DX and pre-build ROM images of Hamtaro 2.
 
-{% include link-to-other-post.html post="/zelda-links-awakening" description="For more information check out this post." %}
+{% include link-to-other-post.html post="/zelda-links-awakening-dx" description="For more information check out this post." %}
 
 ---
 ## Famicom (NES) Lot Check ROMS (Famicom_NES.7z)
@@ -83,12 +96,16 @@ We have a post specifically about the **F-Zero** source code leaked in **SFC.7z*
 {% include link-to-other-post.html post="/f-zero-source-code" description="For more information on the F-Zero Source Code check out this post." %}
 
 ---
-# Gameboy Color Boot ROM (cgb_bootrom_trunk)
-In the **cgb_bootrom_trunk.zip** archive you get a dump of the latest development version of the Game Boy Color Boot ROM, extracted from the SVN repository found in the `other.7z/agb_bootrom.zip` archive.
+# Gameboy Color Boot ROM (cgb_bootrom_trunk.zip)
+The `cgb_bootrom_trunk.zip` archive is best understood as an exported working copy from the `cgb_bootrom` Subversion repository preserved inside `other/agb_bootrom`.
+
+{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the repository layout, revision history, and surviving CGB trunk files, check out this post." %}
 
 ---
-# Game Boy Advance Boot ROM (agb_bootrom_trunk)
-In the **agb_bootrom_trunk.zip** archive you get a dump of the latest development version of the Game Boy Advance Boot ROM, extracted from the SVN repository found in the `other.7z/agb_bootrom.zip` archive.
+# Game Boy Advance Boot ROM (agb_bootrom_trunk.zip)
+The `agb_bootrom_trunk.zip` archive is the extracted latest working copy from the much larger `agb_bootrom` Subversion repository found inside `other/agb_bootrom`.
+
+{% include link-to-other-post.html post="/game-boy-boot-rom-repositories/" description="For the wider AGB repository contents, including the monitor code, include files, libraries, docs, and later tools like AgbComp and Bmp2Agb, check out this post." %}
 
 ---
 # Netcard (cancelled GBA peripheral)

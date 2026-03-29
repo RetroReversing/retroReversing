@@ -3,10 +3,6 @@ permalink: /zxspectrum
 layout: post
 category: zxspectrum
 title: Reverse Engineering Sinclair ZX Spectrum Games
-_consoleimage: /public/consoles/Nintendo Entertainment System.png
-_thumbnail: /public/consoles/Nintendo Entertainment System.png
-_image: /public/images/nes/NES Reversing.jpg
-_twitterimage: https://www.retroreversing.com/public/images/nes/NES Reversing.jpg
 excerpt: Awesome list of Sinclair ZX Spectrum Reverse Engineering information
 breadcrumbs:
   - name: Home

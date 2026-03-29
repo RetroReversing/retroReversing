@@ -1,5 +1,6 @@
 <!-- recommended-sidebar  -->
-{% if page.recommend %}
+{% assign related_topics = page.recommend | default: page.tags %}
+{% if related_topics %}
   <div class="widget widget-videos">
     {% if page.recommendTitle %}
        <h5 class="widget-title">{{ page.recommendTitle }}</h5>
@@ -8,12 +9,12 @@
     {% endif %}
     
     <ul class="widget-list">
-      {% if page.recommend.first %}
+      {% if related_topics.first %}
        {% comment %}
-          This is for when the recommend IS AN array
+          This is for when the related topics are an array
         {% endcomment %}
       
-        {% for recommend in page.recommend %}
+        {% for recommend in related_topics %}
           {% for post in site.pages where_exp:"post","post.tags contains recommend" %}
               {% if post.tags contains recommend and post.title != page.title %}
                 <li>
@@ -26,11 +27,11 @@
       {% else %}
       
         {% comment %}
-          This is for when the recommend is NOT an array
+          This is for when the related topics are NOT an array
         {% endcomment %}
       
-        {% for post in site.pages where_exp:"post","post.tags contains page.recommend" %}
-          {% if post.tags contains page.recommend and post.title != page.title %}
+        {% for post in site.pages where_exp:"post","post.tags contains related_topics" %}
+          {% if post.tags contains related_topics and post.title != page.title %}
             <li>
               {% include post-discovery/post-card.html post=post classes="" %} 
               <hr />

@@ -24,6 +24,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
 <!--  Open Graph  -->
+  {% assign social_image_source = page.permalink | default: page.url %}
+  {% assign social_image_slug = social_image_source | replace: '.html', '' | slugify | default: 'home' %}
+  {% assign generated_placeholder_path = '/public/generated/placeholders/' | append: social_image_slug | append: '.jpg' %}
+  {% assign generated_placeholder_url = site.url | append: generated_placeholder_path %}
+
   {% if page.title %}
     <meta name="twitter:title" content="{{page.title}}">
     <meta name="og:title" content="{{page.title}}">
@@ -33,23 +38,27 @@
     <!--   If it does have a title it will be handled in the post layout -->
   {% endif %}
 
-
   {% if page.twitterimage %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{page.twitterimage}}">
     <meta name="og:image" content="{{page.twitterimage}}">
-  {% else if page.image %}
+  {% elsif page.image %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{page.image}}">
     <meta name="og:image" content="{{page.image}}">
+  {% elsif page.thumbnail %}
+    <meta name="twitter:image" content="{{site.url}}{{page.thumbnail}}">
+    <meta name="og:image" content="{{site.url}}{{page.thumbnail}}">
   {% else %}
-    <meta name="twitter:image" content="https://www.retroreversing.com/{{page.thumbnail}}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{generated_placeholder_url}}">
+    <meta name="og:image" content="{{generated_placeholder_url}}">
   {% endif %}
 
   {% if page.description %}
     <meta name="twitter:description" content="{{page.description}}">
     <meta name="og:description" content="{{page.description}}">
-   {% else if page.excerpt %}
+   {% elsif page.excerpt %}
     <meta name="twitter:description" content="{{page.excerpt}}">
     <meta name="og:description" content="{{page.excerpt}}">
   {% else %}

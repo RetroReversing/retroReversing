@@ -1,5 +1,6 @@
+{% assign card_topics = include.post.recommend | default: include.post.tags %}
 {% if include.hidden %}
-  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="include.post.image" data-title="{{ include.post.title }}" data-tag="{{ include.post.recommend.first || include.post.recommend }}" data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
+  <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="include.post.image" data-title="{{ include.post.title }}" {% if card_topics %}data-tag="{% if include.post.recommend %}{% if include.post.recommend.first %}{{ include.post.recommend.first }}{% else %}{{ include.post.recommend }}{% endif %}{% elsif include.post.tags.first %}{{ include.post.tags.first }}{% else %}{{ include.post.tags }}{% endif %}"{% endif %} data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
 {% else %}
   <div class="{{ include.classes }} card card-video">
       <div class="card-img">
@@ -12,12 +13,18 @@
                 {% include placeholder-post-image.html title=include.post.title post=include.post %}
             {% endif %}
           </a>
-          {% if include.post.recommend %}
+          {% if card_topics %}
             <div class="card-meta">
-              {% if include.post.recommend.first %}
-                <span>{{ include.post.recommend.first }}</span>
+              {% if include.post.recommend %}
+                {% if include.post.recommend.first %}
+                  <span>{{ include.post.recommend.first }}</span>
+                {% else %}
+                  <span>{{ include.post.recommend }}</span>
+                {% endif %}
+              {% elsif include.post.tags.first %}
+                <span>{{ include.post.tags.first }}</span>
               {% else %}
-                <span>{{ include.post.recommend }}</span>
+                <span>{{ include.post.tags }}</span>
               {% endif %}
             </div>
           {% endif %}

@@ -120,6 +120,64 @@ Here are some of the markdown rules:
 * **HR before H2/H3** - Have an HR before HR/H3 but only if its not the first sub heading under a heading
 
 ---
+## Frontmatter Rules
+The frontmatter at the top of each page should follow the current site pattern rather than copying older pages blindly.
+
+Use this as the standard shape for new pages:
+```yaml
+---
+layout: post
+tags:
+- gameboy
+- leak
+title: Example Page Title
+category: leak
+image: /public/images/example.jpg
+twitterimage: https://www.retroreversing.com/public/images/example.jpg
+permalink: /example-page/
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Example Section
+    url: /example
+  - name: Example Page Title
+    url: #
+recommend:
+- gameboy
+- leak
+editlink: /path/to/file.md
+updatedAt: '2026-03-29'
+---
+```
+
+These are the main fields and what they are for:
+
+Field | Purpose
+---|---
+`layout` | Usually `post` for normal RetroReversing pages
+`tags` | Search/discovery tags for the page, and the values other pages match against in their `recommend` lists
+`title` | Full page title shown in the page header and metadata
+`category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category
+`image` | Main preview image used by the page and site cards
+`twitterimage` | Absolute URL version of the preview image for social sharing
+`permalink` | Final public path for the page
+`breadcrumbs` | Breadcrumb trail shown at the top of the page
+`recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site
+`editlink` | Repo-relative path used for the "Edit on GitHub" link
+`updatedAt` | Last meaningful content update date for the page
+`excerpt` | Optional short summary for pages that need it
+`hidden` | Optional flag for pages that should not appear in normal discovery
+`videocarousel` | Optional list used only on pages that embed the video header carousel
+
+Some frontmatter keys are now legacy or optional:
+* **Only add optional keys when they are actually needed** - Avoid copying large frontmatter blocks from unrelated pages
+* **`tags` and `recommend` do different jobs** - `tags` are the canonical topic labels on a page, while `recommend` tells the site which tag groups to pull related content from
+* **`recommend` now falls back to `tags` when it is missing** - If you omit `recommend`, the recommended sidebar and card label will use the page's `tags`
+* **Only set `recommend` when you want something more specific** - In many cases `tags` are enough, but `recommend` is useful when a page should point readers toward a narrower set of related topics
+
+When creating a new page, it is better to start from the modern minimal pattern above than to clone an old page with stale fields.
+
+---
 ## Referencing Format
 <div class="emoji">📚</div>
 We use the footnote Markdown format for references, all references should be at the end of the page under a H1 References heading. Each reference is numbered and can be references in multiple places throughout the page using that number like so: `[^1]`. 
