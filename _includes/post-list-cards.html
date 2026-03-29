@@ -23,11 +23,18 @@
         </div>
   
         <div class="post-thumbnail">
+          {% assign generated_placeholder_slug = post.permalink | replace: '.html', '' | slugify %}
+          {% assign generated_placeholder_path = '/public/generated/placeholders/' | append: generated_placeholder_slug | append: '.jpg' %}
+          {% assign generated_placeholder_file = site.static_files | where: 'path', generated_placeholder_path | first %}
           <a href="{{ site.baseurl }}{{ post.url }}">
             {% if post.image %}
               <img src="{{ post.image }}" alt="{{ post.title }}">
+            {% elsif generated_placeholder_file %}
+              <img src="{{ generated_placeholder_path }}" alt="{{ post.title }}">
             {% elsif post.youtube %}
               <img src="https://img.youtube.com/vi/{{ post.youtube }}" alt="{{ post.title }}">
+            {% else %}
+              {% include placeholder-post-image.html title=post.title post=post %}
             {% endif %}
           </a>
 

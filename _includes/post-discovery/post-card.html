@@ -15,6 +15,9 @@ Parameters:
 {% endcomment %}
 
 {% assign card_topics = include.post.recommend | default: include.post.tags %}
+{% assign generated_placeholder_slug = include.post.permalink | replace: '.html', '' | slugify %}
+{% assign generated_placeholder_path = '/public/generated/placeholders/' | append: generated_placeholder_slug | append: '.jpg' %}
+{% assign generated_placeholder_file = site.static_files | where: 'path', generated_placeholder_path | first %}
 {% if include.hidden %}
   <a style="display:none" class="hidden-card" href="{{ include.post.url }}" data-image="{{ include.post.image }}" data-title="{{ include.post.title }}" {% if card_topics %}data-tag="{% if include.post.recommend %}{% if include.post.recommend.first %}{{ include.post.recommend.first }}{% else %}{{ include.post.recommend }}{% endif %}{% elsif include.post.tags.first %}{{ include.post.tags.first }}{% else %}{{ include.post.tags }}{% endif %}"{% endif %} data-date=" {{ include.post.updatedAt | date_to_long_string: "ordinal" }}"> </a>
 {% else %}
@@ -23,6 +26,8 @@ Parameters:
           <a href="{{ include.post.url }}" target="_blank">
             {% if include.post.image %}
                 <img class="lazy-load" data-image-full="{{ include.post.image }}" alt="{{ include.post.title }}">
+            {% elsif generated_placeholder_file %}
+                <img class="lazy-load" data-image-full="{{ generated_placeholder_path }}" alt="{{ include.post.title }}">
             {% elsif include.post.youtube %}
                 <img class="lazy-load" data-image-full="https://img.youtube.com/vi/{{ include.post.youtube }}" alt="{{ include.post.title }}">
             {% else %}
