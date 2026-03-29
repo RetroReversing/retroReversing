@@ -139,7 +139,8 @@ node scripts/generate-placeholder-social-images.js
 - Scans `pages/` and `categories/` for Markdown and HTML content files
 - Uses `title`, `shorttitle`, `permalink`, `category` and the `category_images` block in `_config.yml`
 - Uses the Ruby `geo_pattern` gem to generate deterministic SVG backgrounds from each page seed
-- Uses `rsvg-convert` when available to rasterize the SVG into a high-quality JPG
+- Uses `@resvg/resvg-js` in Node to rasterize the SVG into a JPG
+- Falls back to `rsvg-convert` when the Node renderer is unavailable
 - Outputs deterministic JPGs and SVGs to `public/generated/placeholders/`
 - Names each output from the permalink, so `/ps4/` becomes `ps4.jpg`
 - Skips hidden pages and pages that already define `image` or `twitterimage`
@@ -152,7 +153,8 @@ node scripts/generate-placeholder-social-images.js
 
 ### Requirements
 - `gem install geo_pattern` for real GeoPattern SVG backgrounds
-- `brew install librsvg` for `rsvg-convert`, which gives the JPGs a faithful rasterized version of the SVG
+- `npm install` to install the Node rasterizer used for JPG output
+- Optional: `brew install librsvg` for `rsvg-convert` fallback support
 
 ## GitHub Action Integration
 

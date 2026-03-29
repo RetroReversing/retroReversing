@@ -4,6 +4,13 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const { readMarkdownFile } = require('./markdown-utils');
+let Resvg = null;
+
+try {
+    ({ Resvg } = require('@resvg/resvg-js'));
+} catch (error) {
+    Resvg = null;
+}
 
 const ROOT_DIR = path.resolve(__dirname, '..');
 const CONTENT_DIRECTORIES = ['pages', 'categories'];
@@ -286,6 +293,29 @@ function shouldGenerate(metadata) {
 }
 
 function generateImage(svgPath, outputPath) {
+    if (Resvg) {
+        const svgContent = fs.readFileSync(svgPath, 'utf8');
+        const resvg = new Resvg(svgContent, {
+            fitTo: {
+                mode: 'width',
+                value: 1200
+            }
+        });
+        const pngBuffer = resvg.render().asPng();
+        const tempPngPath = `${outputPath}.tmp.png`;
+        fs.writeFileSync(tempPngPath, pngBuffer);
+
+        execFileSync('convert', [
+            tempPngPath,
+            '-quality',
+            '88',
+            outputPath
+        ], { stdio: 'pipe' });
+
+        fs.unlinkSync(tempPngPath);
+        return true;
+    }
+
     if (!RSVG_CONVERT_PATH) {
         return false;
     }
@@ -323,6 +353,7 @@ function main() {
 
     let generatedCount = 0;
     let skippedCount = 0;
+    let missingResvgWarningShown = false;
     let missingRsvgWarningShown = false;
     let missingGeoPatternWarningShown = false;
 
@@ -341,7 +372,8 @@ function main() {
         const outputPaths = buildOutputPath(metadata.permalink);
         const inputTimestamp = getInputTimestamp(filePath, CONFIG_PATH);
 
-        const jpgUpToDate = !RSVG_CONVERT_PATH || isUpToDate(outputPaths.jpg, inputTimestamp);
+        const canGenerateJpg = Boolean(Resvg || RSVG_CONVERT_PATH);
+        const jpgUpToDate = !canGenerateJpg || isUpToDate(outputPaths.jpg, inputTimestamp);
         if (!forceRegenerate && jpgUpToDate && isUpToDate(outputPaths.svg, inputTimestamp)) {
             skippedCount++;
             continue;
@@ -361,9 +393,16 @@ function main() {
         });
 
         fs.writeFileSync(outputPaths.svg, svgContent, 'utf8');
-        if (RSVG_CONVERT_PATH) {
-            generateImage(outputPaths.svg, outputPaths.jpg);
-        } else if (!missingRsvgWarningShown) {
+        if (generateImage(outputPaths.svg, outputPaths.jpg)) {
+            // JPG created successfully.
+        } else if (!Resvg && !missingResvgWarningShown) {
+            console.warn('Warning: @resvg/resvg-js is not installed, so Node JPG generation is unavailable.');
+            missingResvgWarningShown = true;
+            if (!missingRsvgWarningShown && !RSVG_CONVERT_PATH) {
+                console.warn('Warning: rsvg-convert is not installed, so JPG placeholder generation is being skipped.');
+                missingRsvgWarningShown = true;
+            }
+        } else if (!missingRsvgWarningShown && !RSVG_CONVERT_PATH) {
             console.warn('Warning: rsvg-convert is not installed, so JPG placeholder generation is being skipped.');
             missingRsvgWarningShown = true;
         }
