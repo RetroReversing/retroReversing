@@ -19,6 +19,7 @@ const CONFIG_PATH = path.join(ROOT_DIR, '_config.yml');
 const RR_LOGO_IMAGE = path.join(ROOT_DIR, 'public', 'images', 'RetroReversingLogo.png');
 const RSVG_CONVERT_PATH = findExecutable('rsvg-convert');
 const RUBY_PATH = findExecutable('ruby');
+const imageDimensionCache = new Map();
 
 function findContentFiles(directory) {
     const files = [];
@@ -141,6 +142,95 @@ function fileToDataUri(filePath) {
     return `data:${mimeType};base64,${buffer.toString('base64')}`;
 }
 
+function getImageDimensions(filePath) {
+    if (!filePath || !fs.existsSync(filePath)) {
+        return null;
+    }
+
+    if (imageDimensionCache.has(filePath)) {
+        return imageDimensionCache.get(filePath);
+    }
+
+    try {
+        const output = execFileSync('sips', ['-g', 'pixelWidth', '-g', 'pixelHeight', filePath], { stdio: 'pipe' }).toString('utf8');
+        const widthMatch = output.match(/pixelWidth:\s+(\d+)/);
+        const heightMatch = output.match(/pixelHeight:\s+(\d+)/);
+
+        if (widthMatch && heightMatch) {
+            const dimensions = {
+                width: Number(widthMatch[1]),
+                height: Number(heightMatch[1])
+            };
+            imageDimensionCache.set(filePath, dimensions);
+            return dimensions;
+        }
+    } catch (error) {
+        // Fall through to identify.
+    }
+
+    try {
+        const output = execFileSync('identify', ['-format', '%w %h', filePath], { stdio: 'pipe' }).toString('utf8').trim();
+        const [width, height] = output.split(/\s+/).map(Number);
+        if (width && height) {
+            const dimensions = { width, height };
+            imageDimensionCache.set(filePath, dimensions);
+            return dimensions;
+        }
+    } catch (error) {
+        // Leave uncached so future runs can retry.
+    }
+
+    return null;
+}
+
+function getCategoryImageLayout(categoryImagePath) {
+    const lowerPanel = {
+        x: 0,
+        y: 205,
+        width: 1200,
+        height: 425
+    };
+    const baselineMaxSize = {
+        width: 600,
+        height: 350
+    };
+    const maxSize = {
+        width: 900,
+        height: 400
+    };
+    const dimensions = getImageDimensions(categoryImagePath);
+
+    if (!dimensions) {
+        return {
+            x: 225,
+            y: 215,
+            width: 750,
+            height: 405
+        };
+    }
+
+    const baselineScale = Math.min(
+        baselineMaxSize.width / dimensions.width,
+        baselineMaxSize.height / dimensions.height
+    );
+    const preferredScale = baselineScale * 1.25;
+    const fittedScale = Math.min(
+        preferredScale,
+        maxSize.width / dimensions.width,
+        maxSize.height / dimensions.height
+    );
+
+    const renderedWidth = dimensions.width * fittedScale;
+    const renderedHeight = dimensions.height * fittedScale;
+
+    return {
+        x: lowerPanel.x + ((lowerPanel.width - renderedWidth) / 2),
+        y: lowerPanel.y + ((lowerPanel.height - renderedHeight) / 2),
+        width: renderedWidth,
+        height: renderedHeight
+    };
+}
+
 function resolveCategory(metadata) {
     if (metadata.category) {
         return metadata.category;
@@ -242,6 +332,7 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
         ? `data:image/svg+xml;base64,${Buffer.from(geoPatternSvg).toString('base64')}`
         : '';
     const textX = 160;
+    const categoryImageLayout = getCategoryImageLayout(categoryImagePath);
 
     const titleTspans = titleLines
         .slice(0,2)
@@ -252,7 +343,7 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
     const logoYOffset = titleLines.length === 1 ? 16 : 36;
 
     const categoryImageMarkup = categoryImageHref
-        ? `<image href="${categoryImageHref}" x="300" y="255" width="600" height="350" preserveAspectRatio="xMidYMid meet" />`
+        ? `<image href="${categoryImageHref}" x="${categoryImageLayout.x}" y="${categoryImageLayout.y}" width="${categoryImageLayout.width}" height="${categoryImageLayout.height}" preserveAspectRatio="xMidYMid meet" />`
         : '';
 
     return `<?xml version="1.0" encoding="UTF-8"?>
@@ -266,7 +357,7 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
   ${geoPatternHref ? `<image href="${geoPatternHref}" x="0" y="0" width="1200" height="630" preserveAspectRatio="none" />` : ''}
   <rect width="1200" height="${barHeight}" fill="#161a22" />
   ${logoImageHref ? `<image href="${logoImageHref}" x="18" y="${logoYOffset}" width="170" height="112" preserveAspectRatio="xMinYMid meet" />` : ''}
-  <text x="${textX}" y="48" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" letter-spacing="2">${escapeXml(categoryText)}</text>
+  <text x="${textX}" y="48" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="1">${escapeXml(categoryText)}</text>
   <text x="${textX}" y="${titleY}" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">${titleTspans}</text>
   <g filter="url(#shadow)">
     ${categoryImageMarkup}

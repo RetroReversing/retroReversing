@@ -59,7 +59,7 @@ google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google a
 disqus_short_name: 'retro-reversing' # leave blank if you don't want disqus
 
 category_images:
-  3d: /public/images/3d.png
+  3d: /public/consoles/3d.png
   amiga: /public/consoles/Amiga.png
   amstrad_cpc: /public/consoles/Amstrad CPC.png
   arcade: /public/consoles/Arcade.png
@@ -72,20 +72,20 @@ category_images:
   jaguar: /public/consoles/Atari Jaguar.png
   lynx: /public/consoles/Atari Lynx.png
   atari_st: /public/consoles/Atari ST.png
-  bookazines: /public/images/Magazine.png
-  cheatcartridge: /public/images/Hardware.png
-  codemasters: /public/images/PC.png
+  bookazines: /public/consoles/Magazine.png
+  cheatcartridge: /public/consoles/Hardware.png
+  codemasters: /public/consoles/PC.png
   colecovision: /public/consoles/Colecovision.png
   commodore_64: /public/consoles/Commodore 64.png
   commodore_amiga_cd32: /public/consoles/Commodore Amiga CD32.png
   commodore_cdtv: /public/consoles/Commodore CDTV.png
   computer_modern: /public/consoles/Computer Modern.png
   computer_old_design: /public/consoles/PC.png
-  cracking: /public/images/PC.png
-  crossproducts: /public/images/Magazine.png
-  datel: /public/images/PC.png
+  cracking: /public/consoles/PC.png
+  crossproducts: /public/consoles/Magazine.png
+  datel: /public/consoles/PC.png
   devkit: /public/consoles/Hardware.png
-  disassemblers: /public/images/PC.png
+  disassemblers: /public/consoles/PC.png
   dos: /public/consoles/PC.png
   vectrex: /public/consoles/GCE Vectrex.png
   ds: /public/consoles/Nintendo DS.png
@@ -100,18 +100,18 @@ category_images:
   handhelds: /public/consoles/Handhelds.png
   hardware: /public/consoles/Hardware.png
   incomplete: /public/images/RetroReversingLogoSmall.png
-  industry: /public/images/Magazine.png
+  industry: /public/consoles/Magazine.png
   intellivision: /public/consoles/Intellivision.png
   introduction: /public/consoles/PC.png
   leak: /public/consoles/Leaks.png
-  magazines: /public/images/Magazine.png
+  magazines: /public/consoles/Magazine.png
   maths: /public/consoles/PC.png
   matell_intellivision: /public/consoles/Matell Intellivision.png
   "360": /public/consoles/Microsoft Xbox 360.png
   xbox360: /public/consoles/Microsoft Xbox 360.png
   xbox: /public/consoles/Microsoft Xbox.png
   msx: /public/consoles/PC.png
-  news: /public/images/Magazine.png
+  news: /public/consoles/Magazine.png
   nec_pc_engine_cd: /public/consoles/Nec PC Engine CD.png
   nec_pc_engine: /public/consoles/Nec PC Engine.png
   nec_pc_fx: /public/consoles/Nec PC FX.png
@@ -130,7 +130,7 @@ category_images:
   pc-88: /public/consoles/PC.png
   PokemonMini: /public/consoles/PokemonMini.png
   satellaview: /public/consoles/Nintendo Satellaview.png
-  programming: /public/images/PC.png
+  programming: /public/consoles/PC.png
   ps1: /public/consoles/Sony Playstation.png
   ps2: /public/consoles/Sony PlayStation 2.png
   ps3: /public/consoles/Sony Playstation 3.png
@@ -163,7 +163,7 @@ category_images:
   sinclair_zx_spectrum: /public/consoles/Sinclair ZX Spectrum.png
   psp: /public/consoles/psp.svg
   snes: /public/consoles/SNES-USA.png
-  snsystems: /public/images/Magazine.png
+  snsystems: /public/consoles/Magazine.png
   sony_psvita: /public/consoles/Sony PSVita.png
   sony_playstation_2: /public/consoles/Sony PlayStation 2.png
   sony_playstation_3: /public/consoles/Sony Playstation 3.png
@@ -174,7 +174,7 @@ category_images:
   turbografx16: /public/consoles/TurboGrafx-16.png
   tools: /public/consoles/PC.png
   tutorial: /public/consoles/PC.png
-  vita: /public/consoles/Sony PSVita.png
+  vita: /public/consoles/Vita.png
   wonderswan_color: /public/consoles/WonderSwan Color.png
   wonderswan: /public/consoles/WonderSwan.png
   zxspectrum: /public/consoles/Sinclair ZX Spectrum.png

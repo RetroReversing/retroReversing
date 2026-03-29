@@ -4,7 +4,7 @@ tags:
 - snes
 - leak
 - sourcecode
-title: Gigaleak - Original F-Zero Source Code (SNES)
+title: Original F-Zero Source Code (Gigaleak)
 category: leak
 image: /public/images/snes/SNES F-Zero Source Code.jpg
 twitterimage: http://www.retroreversing.com/public/images/snes/SNES F-Zero Source Code.jpg
