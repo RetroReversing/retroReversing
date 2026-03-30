@@ -4,7 +4,6 @@ tags:
 - snes
 - leak
 - sourcecode
-- superfx
 title: Original Wild Trax / Stunt Race FX Source Code (Gigaleak)
 category: leak
 image: /public/images/snes/Gigaleak.jpg
@@ -21,7 +20,6 @@ recommend:
 - snes
 - leak
 - sourcecode
-- superfx
 editlink: /leaks/Nintendo/WildTrax.md
 updatedAt: '2026-03-29'
 ---
