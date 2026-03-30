@@ -18,7 +18,6 @@ redirect_from:
   - /architecture
   - /games/console
   - /hardware-architecture
-  - /hardware/
 tags:
 - hardware
 recommend:

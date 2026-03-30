@@ -12,7 +12,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Nintendo Gamecube (Dolphin) Reverse Engineering
     url: #
 redirect_from:

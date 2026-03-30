@@ -14,7 +14,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Microsoft Xbox
     url: #
 tags:

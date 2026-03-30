@@ -13,7 +13,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Fairchild Channel F Reverse Engineering
     url: #
 tags:

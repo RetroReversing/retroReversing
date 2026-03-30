@@ -9,15 +9,19 @@ title: Gigaleak NEWS_05 - Star Fox 2 3D CAD Pipeline & Development Toolkit
 category: 
 - leak
 - snes
-image: /public/images/snes/Gigaleak.jpg
-twitterimage: https://www.retroreversing.com/public/images/snes/Gigaleak.jpg
 permalink: /gigaleak-news-05
 breadcrumbs:
   - name: Home
     url: /
+  - name: Source Code
+    url: /sourcecode
   - name: Leaks
     url: /leaks
-  - name: Gigaleak NEWS_05
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: NEWS_05 - Star Fox 2 3D CAD Pipeline & Development Toolkit
     url: #
 recommend: 
  - snes

@@ -15,9 +15,15 @@ permalink: /gigaleak-news-04
 breadcrumbs:
   - name: Home
     url: /
+  - name: Source Code
+    url: /sourcecode
   - name: Leaks
     url: /leaks
-  - name: Gigaleak NEWS_04
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: NEWS_04 - Nintendo Graphics Workstation Backup
     url: #
 recommend:
 - snes
@@ -416,164 +422,484 @@ The densest and newest files cluster in **July-September 1995**, which makes thi
 
 ## Zelda and Game Boy Zelda Material
 
-Arimoto's home does not stop at Star Fox 2.
-It also preserves two sizeable Zelda-related workspaces plus a smaller `DELDA` branch.
+Beyond Star Fox 2, Arimoto's home preserves three distinct Zelda-related workspaces.
+They are not all the same game or the same moment.
+Reading them in chronological order tells a story about how a Nintendo workstation accumulated Zelda history over a nearly three-year window.
 
-### The `zelda` Branch
+### Three Zelda Projects in One Machine
 
-The plain `zelda` folder contains about `545` files and is dominated by `.CGX`, `.SCR`, `.COL`, and `.MAP`.
-Representative names include:
+Project | Files | Date range | Dominant types | Reading
+---|---|---|---|---
+`DELDA` | `213` | `1991-05-23` → `1991-10-24` | BAK, CGX, SCR, COL | Five-month early prototype; likely the first Zelda work on this machine
+`zelda` | `545` | `1991-05-23` → `1994-07-25` | BAK, CGX, SCR, COL, MAP | Long-running SNES-side Zelda branch spanning three-plus years
+`GB-zelda` | `824` | `1991-11-27` → `1994-08-02` | BAK, OBJ, CGX, MAP, SCR | Game Boy Zelda branch; largest of the three; strong localization evidence
 
-* `1g-1n.CGX`
-* `1g-1n-nippon-V1.CGX`
-* `1g-1n-nippon-V2.CGX`
-* `1g-1n-nes.CGX`
-* `1o-1v-V1.CGX` through `1o-1v-V4.CGX`
-* `1w-2d.CGX`
+The dates tell the first part of the story: `DELDA` and `zelda` both open on the same day — **1991-05-23** — suggesting the workstation was set up or first used for this project in late May 1991.
+`GB-zelda` follows six months later in November 1991.
+`DELDA` closes in October 1991.
+`zelda` and `GB-zelda` both continue into mid-1994.
 
-These names suggest iterative regional or versioned graphics banks rather than a single clean export.
-The explicit `nippon` and `nes` variants are especially interesting because they point to region- or format-specific art branches.
+{% capture zelda_body %}
+Arimoto's three Zelda folders span platforms and years. `DELDA` appears to be the earliest prototype layer, predating the platform split. `zelda` runs as a long SNES-side workspace. `GB-zelda` is the largest folder and carries clear Game Boy-targeted structure, including localized assets.
+{% endcapture %}
+{% capture zelda_items %}
+- arimoto/DELDA - 213 files 1991-05-23 to 1991-10-24; subdirs: soto m d i; earliest layer
+- arimoto/zelda - 545 files 1991-05-23 to 1994-07-25; subdirs: d khn m spl atari i w obj
+- arimoto/GB-zelda - 824 files 1991-11-27 to 1994-08-02; subdirs: z s o m d y p and deep object sub-trees
+{% endcapture %}
+{% include connected-folder-tree.html folder="arimoto/zelda" path="NEWS_04/home/arimoto" body=zelda_body version="tape restore snapshot" content=zelda_items %}
 
-The extension mix is also telling:
+---
 
-Extension | Count | Reading
+### DELDA: The Earliest Prototype
+
+`DELDA` is the smallest and shortest-lived of the three Zelda folders.
+Its five-month window — May to October 1991 — makes it a snapshot of the very first phase of Zelda work on this machine.
+
+Subdir | Files | Date range | Dominant types | Reading
+---|---|---|---|---
+`soto` | `66` | `1991-05-23` only | BAK, COL, SCR, MAP | Outdoor / field tile work (`soto` = outside/exterior in Japanese)
+`m` | `51` | `1991-05-23` → `1991-10-24` | BAK, CGX | Tile art; runs the full five-month span
+`d` | `23` | `1991-10-21` → `1991-10-23` | CGX, BAK | Dungeon-side tiles; concentrated in the final two days of the folder's life
+`i` | `1` | `1991-05-23` only | BAK | Single residual file
+
+The `soto` subfolder's name (外 = outside) points to outdoor/overworld tile sets.
+The `m` subfolder runs the whole five months, suggesting it was the active tile art store.
+The `d` subfolder has almost all its files dated to October 21-23, which looks like a concentrated push — possibly porting or adapting dungeon tiles right before the project reorganised into the main `zelda` tree.
+
+`DELDA` does not contain `.OBJ` files and has almost no `.MAP` data.
+That makes it feel like a pure tile-painting phase: the team was building raw graphics assets before the broader map and object infrastructure was established.
+
+---
+
+### zelda: The Long-Running SNES Branch
+
+The `zelda` folder runs for over three years and is the richest Zelda workspace on the machine.
+
+Subdir | Files | Date range | Dominant types | Reading
+---|---|---|---|---
+`d` | `170` | `1991-05-23` → `1994-07-25` | BAK, CGX, COL, SCR | Dungeon and overworld area tile banks; **latest files in the whole zelda tree**
+`khn` | `72` | `1991-05-23` → `1991-11-07` | BAK, SCR | Room/screen layouts; active in the first six months
+`m` | `89` | `1991-05-23` → `1992-04-28` | MAP, CGX, COL, SCR | Map-side data with a special `tmp` sub-snapshot
+`spl` | `10` | `1991-05-23` only | SCR, BAK | Early sprites and panels (kabe = wall, osr = enemy/contact)
+`atari` | `8` | `1991-06-11` → `1991-08-09` | BAK, CGX | Collision data (`atari` = hit/contact in Japanese game dev — not the company)
+`i` | `14` | `1991-05-23` only | BAK, SCR | Interior room screens (h-1 through h-a2)
+`w` | `9` | `1991-05-23` only | SCR, BAK, COL | Simple early screens (1, 2, 3, 4)
+`obj` | `1` | `1991-05-23` only | CGX | Single early object tile
+
+#### The d Subfolder: Dungeon Areas Named
+
+The `d` subfolder is by far the most interesting part of the `zelda` tree.
+Its files are named by dungeon or overworld area — and the area names are directly readable:
+
+Name | Japanese reading | Likely area
 ---|---|---
-`.BAK` | `268` | Heavy revision history
-`.CGX` | `84` | Graphics banks and tile art
-`.SCR` | `77` | Screen compositions
-`.COL` | `63` | Palette pairs
-`.MAP` | `35` | Map/layout data
-`.PNL` | `14` | Panel intermediates
+`0-osiro` | お城 — castle | Hyrule Castle or Light World castle zone
+`1-tika` | 地下 — underground | Underground passage tiles
+`10-nukemichi` | 抜け道 — shortcut passage | Hidden passage or cave area
+`11-kajiya` | 鍛冶屋 — blacksmith | Blacksmith or village tile set
+`12-sabaku` | 砂漠 — desert | Desert region tiles
+`13-pyramid` | pyramid | Pyramid dungeon exterior
 
-This is a visual/layout workspace rather than a code tree.
+These names map well to the dungeon and overworld vocabulary of *A Link to the Past*.
+The numbered prefix (`0-`, `1-`, `10-`, `11-`, `12-`, `13-`) is almost certainly an area ID scheme that matches the game's internal map numbering.
 
-### The `GB-zelda` Branch
+The `d` subfolder also contains the **newest files in the entire `zelda` tree** — as late as `1994-07-25`.
+That is nearly three years after the game shipped in Japan (November 1991).
+This strongly suggests `zelda/d` was actively used for follow-up work — potentially the eventual SNES remake, regional port, or a successor project — long after the original title was complete.
 
-`GB-zelda` is even larger at about `824` files, but its balance is different.
-It has **far more `.OBJ` and `.MAP` material**, making it feel more object- and map-oriented than the SNES-side Zelda branch.
+#### The m/tmp Sub-Snapshot
 
-Extension | Count | Reading
----|---|---
-`.BAK` | `469` | Again, a strong sign of iterative personal backup habits
-`.OBJ` | `147` | Object-side structure is unusually prominent here
-`.CGX` | `86` | Graphics-bank resources still matter, but less than object/layout organization
-`.MAP` | `62` | Strong map focus
-`.SCR` | `45` | Screen layouts present but not dominant
-`.PNL` | `11` | Panel/layout side resources
-`.COL` | `3` | Surprisingly sparse palette storage compared with other branches
+The `m` subfolder contains a nested `tmp` folder dated entirely to `1992-12-01`.
+Its 34 files carry named tile types rather than numbered IDs:
 
-The folder `GB-zelda/d` preserves a sequence like:
+* `hokora` — wayside shrine (祠)
+* `kumo` — cloud (雲)
+* `kyokai` — border / church (境界 or 教会)
+* `machi` — town (町)
+* `mori` — forest (森)
+* `caddata` — likely a raw CAD tool export
+* `op-ed` — opening / ending sequence tiles
+* `op-ed-nes` — NES variant of the opening/ending tiles
 
-* `50.MAP` through `66.MAP`
-* `d-a.MAP`, `d-a.PNL`
-* `d1.CGX`
-* `BGho-gan.SCR.BAK`
+This `tmp` snapshot reads like a world-map tile palette capture: terrain types (forest, town, shrine, cloud) alongside an opening/ending sequence set.
+The `op-ed-nes` file is especially notable because it preserves a **NES-format tile set alongside the SNES assets** — suggesting the team was still referencing the NES original in late 1992 when designing or revising world-map terrain art.
 
-The top level also includes `Opening1.OBJ`, `Opening1.CGX.BAK`, and `Opening2.SCR.BAK`.
-That combination makes this branch feel especially close to a working room/object/opening sequence asset directory rather than just a tile dump.
+---
 
-### `DELDA`
+### GB-zelda: The Game Boy Zelda Branch
 
-`DELDA` is smaller and earlier.
-Its date range sits in `1991`, and its contents look like another Zelda-related visual branch rather than a distinct later project.
-Because it is much smaller, it reads more like an older preserved side branch than a major late production workspace.
+`GB-zelda` is the largest of the three folders and structurally the most distinct.
+Its extension profile is strikingly different from `zelda`:
+
+Extension | zelda | GB-zelda | Implication
+---|---|---|---
+`.BAK` | `268` | `469` | More revision history in the GB branch
+`.OBJ` | `2` | `147` | Object focus is far heavier on the Game Boy side
+`.CGX` | `84` | `86` | Similar tile bank count
+`.MAP` | `35` | `62` | More map data in GB-zelda
+`.SCR` | `77` | `45` | Fewer raw screen layouts; objects replace them
+`.COL` | `63` | `3` | Almost no palette files — GB palette system is simpler
+
+The steep drop in `.COL` makes sense for Game Boy hardware where the palette space is trivially small.
+The surge in `.OBJ` reflects a more object-composed screen architecture.
+
+#### Localization Evidence
+
+The `s` subfolder contains screen layout files with explicitly localised names:
+
+* `gameover`
+* `gameover1`
+* `gameover-France`
+* `gameover-Germany`
+* `gameover-usa`
+* `fue-neiro` — likely 「フエ音色」, a flute/ocarina sound timbre reference
+
+Three named regional variants of the game-over screen (France, Germany, USA) are strong evidence that this branch was being prepared for a multi-region release.
+*Link's Awakening* shipped in Japan in June 1993, in North America in August 1993, and in Europe in December 1993.
+The GB-zelda branch date range (1991-11-27 → 1994-08-02) brackets the entire localisation window exactly.
+
+#### Object Taxonomy
+
+The `o` folder and its sub-trees form a clear object classification system:
+
+Sub-tree | Files | Date range | Reading
+---|---|---|---
+`o` (top level) | `84` | `1991-11-29` → `1993-07-01` | General objects; `clear`, numbered variants
+`o/cbos` | `21` | `1992-09-18` → `1993-02-27` | C-type boss objects (numbered 1-11)
+`o/dbos` | `47` | `1992-08-07` → `1993-04-12` | Dungeon boss objects (numbered 1-6, with 6-1 and 6-2 variants)
+`o/f` | `28` | `1992-04-15` → `1993-03-16` | Field objects (f1-f12 + `f-gomi` = discarded field data)
+`o/h` | `33` | `1992-12-03` → `1993-03-17` | House/hero objects (h1-h13)
+`o/d` | `57` | `1992-04-09` → `1993-02-25` | Dungeon objects (d1-d13 + `d-gomi` = discarded dungeon data)
+`o/s` | `2` | `1992-07-07` → `1992-11-04` | Small: `op-2`, `s1`
+`o/y` | `1` | `1993-02-12` only | Single residual: `ygomi` (discarded)
+
+The `-gomi` suffix (ゴミ = garbage/junk) marks explicitly discarded or superseded files.
+`f-gomi` and `d-gomi` are named junk heaps — earlier object definitions that were replaced but not deleted, which is consistent with the cautious personal-backup pattern seen across the whole archive.
+
+The `cbos` / `dbos` naming (c-type boss / dungeon boss) sets up a clear enemy taxonomy.
+Boss objects were separated from general field and dungeon objects and given their own numbered sequences.
+
+#### The Panel and Transition System
+
+The `p` subfolder and its sub-trees handle room transitions:
+
+Sub-tree | Files | Date range | Reading
+---|---|---|---
+`p` (top level) | `26` | `1992-03-04` → `1993-03-04` | Staircase/step transitions (`dan` = stairs; `dan-irekae` = stair-swap variants)
+`p/f` | `38` | `1992-09-10` → `1993-04-08` | Teleport/warp transitions (`irekae-tenso` = transfer/warp swap sequences)
+`p/d` | `10` | `1992-11-26` → `1993-02-09` | Dungeon-specific transition data
+`p/y` | `4` | `1992-12-15` → `1993-03-16` | Y-type transitions
+
+Key vocabulary:
+* `dan` — 段 (steps / stairs)
+* `irekae` — 入れ替え (swap or replacement)
+* `tenso` — 転送 (transfer or teleport)
+
+So `irekae-tenso` = "swap-teleport" = warp-point transition screen.
+This is a named internal convention for the room-transition pipeline, not just a label someone chose at random.
+
+---
+
+### How the Three Branches Relate
+
+The simplest reading of the timeline:
+
+1. **May 1991**: `DELDA` and `zelda/d` both start the same day — the workstation is set up for Zelda work
+2. **Oct 1991**: `DELDA` closes; tile work has moved fully into the main `zelda` tree
+3. **Nov 1991**: `GB-zelda` opens — a parallel Game Boy-targeted branch begins
+4. **Nov 1991**: *A Link to the Past* ships in Japan; SNES work in `zelda` continues
+5. **1992–1993**: Both SNES and GB branches active; `m/tmp` world-tile snapshot dated Dec 1992; GB localization screens appear 1992-mid-1993
+6. **Jun 1993**: *Link's Awakening* ships in Japan; `GB-zelda` continues through mid-1994 (localization and maintenance)
+7. **Jul 1994**: Last file in `zelda/d` — the SNES branch is still being touched three years after the original ship date, suggesting active follow-up or reuse
+
+`DELDA` predates the platform split.
+`zelda` is almost certainly the SNES Zelda workspace — its dungeon area names, NES-reference tile sets, and multi-year span all fit a project that started as *A Link to the Past* development and continued into follow-up work.
+`GB-zelda` is the most likely *Link's Awakening* workspace, given the regional game-over screens, object taxonomy depth, and date bracket.
 
 ---
 
 ## Sugiyama's Mixed Graphics Workspace
 
-Sugiyama's home is the second major component of the archive.
-It feels older and broader than Arimoto's.
-Where Arimoto's home is anchored by a late `SF2` branch, Sugiyama's side looks more like a long-lived graphics workstation with several unrelated or partially related projects.
+Sugiyama's home is the second major component of `NEWS_04`.
+It is older than Arimoto's, broader in scope, and reads like a workstation that served multiple productions over five years rather than one focused project.
 
 {% capture news04_sugiyama_body %}
-Sugiyama's workspace preserves several older art and layout branches, including `fly`, `flyman`, `CAR`, `SIM`, `MARIO`, and `FX2`. The date ranges suggest earlier experimentation and production work carried forward into later years.
+Sugiyama's workspace spans 1989 to 1994 and covers at least four identifiable productions. `fly` and `flyman` are the art and layout halves of an early SNES flight game (possibly a Pilotwings-era prototype) that started October 1989 — among the earliest SNES dev work visible in any leaked Nintendo archive. `CAR` contains `MARIO-CAR`, `JUGEM`, `DOKAN`, `POLE`, and `SLOT` files that confirm it as **Super Mario Kart** development material. `SIM` contains scenario-select, town, and map-select screens consistent with **SimCity SNES**. `MARIO` and `FX2` are smaller late branches.
 {% endcapture %}
-
 {% capture news04_sugiyama_items %}
-- sugiyama/fly - Graphics-heavy branch with boss and background naming
-- sugiyama/flyman - Layout-heavy companion branch dominated by `.SCR`
-- sugiyama/CAR - Screen-heavy branch with a few `.MD7` files
-- sugiyama/SIM - Older project branch
-- sugiyama/MARIO - Small Mario-related menu or logo art workspace
-- sugiyama/FX2 - Small Wild Trax / Stunt Race FX-adjacent branch
+- sugiyama/fly - 388 files 1989-10-13 to 1994-03-18; flat dir; art for early flight game; 47 M7-prefixed Mode 7 files; BOSS/FORTRESS/UFO combat naming alongside SKYDIVE/HANG/PARA flight disciplines
+- sugiyama/flyman - 429 files 1989-10-13 to 1991-05-07; flat dir; MAP1-8 stage layouts for same flight game; closed ~6 months after Pilotwings shipped
+- sugiyama/CAR - 415 files 1991-04-05 to 1994-03-18; flat dir; Super Mario Kart; MARIO-CAR, JUGEM, DOKAN, POLE, SLOT; 3 x 32KB Mode 7 map files
+- sugiyama/SIM - 165 files 1990-11-27 to 1993-01-22; scenario-select, town, map-select screens; likely SimCity SNES (released Aug 1991)
+- sugiyama/MARIO - 77 files 1993-04-08 to 1993-06-21; GAMESELECT, MA-ROGO, 2PR screens; Mario mode-select or menu art
+- sugiyama/FX2 - 41 files 1993-07-06 to 1993-12-08; Wild Trax / Stunt Race FX player-select and cup art
 {% endcapture %}
-
 {% include connected-folder-tree.html folder="sugiyama" path="NEWS_04/home/sugiyama" body=news04_sugiyama_body version="tape restore snapshot" content=news04_sugiyama_items %}
 
 ### Sugiyama at a Glance
 
-Project | Files | Dominant types | Date range | Reading
+Project | Files | Dominant types | Date range | Likely game
 ---|---|---|---|---
-`flyman` | `429` | `.SCR`, `.BAK` | `1989-10-13` to `1991-05-07` | Layout-heavy older branch with many scene variants
-`CAR` | `415` | `.SCR`, `.BAK`, `.CGX`, `.COL`, `.MD7` | `1991-04-05` to `1994-03-18` | Vehicle/racing-looking branch with possible Mode 7 ties
-`fly` | `388` | `.CGX`, `.SCR`, `.COL`, `.BAK` | `1989-10-13` to `1994-03-18` | Boss/background-heavy graphics branch
-`SIM` | `165` | mixed | `1990-11-27` to `1993-01-22` | Older project residue
-`MARIO` | `77` | `.CGX`, `.SCR`, `.COL`, `.BAK` | `1993-04-08` to `1993-06-21` | Small Mario-related UI/menu/logo branch
-`FX2` | `41` | `.CGX`, `.SCR`, `.COL`, `.BAK` | `1993-07-06` to `1993-12-08` | Small Stunt Race FX / Wild Trax-adjacent graphics branch
+`flyman` | `429` | SCR `286`, BAK `139` | `1989-10-13` → `1991-05-07` | Pilotwings-era prototype (unconfirmed)
+`fly` | `388` | BAK `137`, CGX `102`, SCR `78`, COL `69` | `1989-10-13` → `1994-03-18` | Pilotwings-era prototype (art side; 1994 date = tape restore)
+`CAR` | `415` | BAK `198`, SCR `148`, CGX `38`, MD7 `3` | `1991-04-05` → `1994-03-18` | **Super Mario Kart** ✓
+`SIM` | `165` | SCR, OBJ, CGX, SFX | `1990-11-27` → `1993-01-22` | **SimCity SNES** (probable)
+`MARIO` | `77` | CGX, SCR, COL, BAK | `1993-04-08` → `1993-06-21` | Mario title TBD
+`FX2` | `41` | CGX, SCR, COL, BAK | `1993-07-06` → `1993-12-08` | **Wild Trax / Stunt Race FX** ✓
 
-### `fly` and `flyman`
+The "status at backup" column matters.
+Of the six Sugiyama projects, only **`fly` and `CAR`** were still receiving changes in March 1994 — the same date.
+`flyman` was last touched in May 1991 — nearly three years dormant.
+Everything else falls between.
 
-These two branches look related but not identical.
-`fly` is graphics-heavy, while `flyman` is strongly layout-heavy.
+---
 
-`fly` contains names like:
+### fly and flyman: An Early Flight Game — Possibly a Pilotwings Prototype
 
-* `BG-BASESHIP.CGX`
-* `BG-ENEMYSHIP.CGX`
-* `BG-FORTRESS.CGX`
-* `BOSS-1.CGX`, `BOSS-2.CGX`, `BOSS-3.CGX`
-* `CAMEL.CGX`, `CAMEL2.CGX`, `CAMEL3.CGX`
+`fly` and `flyman` start on the **same date** — `1989-10-13` — and share enough naming vocabulary to be two directories for the same project.
+The layout side (`flyman`) closed in May 1991.  The art side (`fly`) continued to 1994-03-18 — the backup date.
 
-That feels like a project with strong enemy/base/boss theming.
-The repeated `BG-` and `BOSS-` naming makes it one of the easiest folders in the archive to read at a glance.
+Folder | File count | Dominant type | Role
+---|---|---|---
+`fly` | `388` | CGX `102`, SCR `78`, COL `69` | Art production: tile banks, palettes, sprites
+`flyman` | `429` | SCR `286`, BAK `139` | Screen assembly: stage layouts from the art in `fly`
 
-`flyman`, by contrast, is dominated by `.SCR` files such as:
+#### The Pilotwings Hypothesis
 
-* `BGBG-HELI.SCR`
-* `BONUS.SCR` through `BONUS4.SCR`
-* `CHIKA-0.SCR` through `CHIKA-C2.SCR`
+The fly/flyman vocabulary divides into two distinct groups that sit in tension with each other.
 
-This looks much more like scene assembly and layout staging than raw art production.
-So the two together may reflect a split between **graphics banks** and **screen composition** for the same broader project family.
+**Group A — flight disciplines (matching Pilotwings)**:
 
-### `CAR`
+File | Reading
+---|---
+`SKYDIVE.CGX/COL` | Skydiving — Pilotwings discipline
+`HANG.CGX/COL`, `HANG-L.CGX` | Hang gliding — Pilotwings discipline
+`PARA.CGX/COL/SCR`, `PARA-L.CGX` | Parachuting — Pilotwings skydiving phase
+`ROCKET.CGX/COL` | Rocket Belt — Pilotwings discipline
+`PLANE.CGX/COL` | Light Plane — Pilotwings discipline
+`HELI.CGX/COL`, `HELI-L.CGX` | Helicopter/Gyrocopter — Pilotwings later missions
+`ROKETMAN.CGX` | Rocket Belt character sprite
+`MYSHIP.CGX`, `MY.SHIP.CGX` | Player vehicle / craft
 
-`CAR` is also layout-heavy and includes the only visible `.MD7` files in the archive.
-Representative names include:
+These six disciplines match *Pilotwings* (SNES, released November 1990 in Japan) almost exactly.
 
-* `B1-0.SCR` through `B5-2.SCR`
-* `ABC.CGX`
+**Group B — combat elements (NOT in Pilotwings as shipped)**:
 
-The `B#-#` naming looks like ordered screen/scene sets.
-The presence of `.MD7` makes `CAR` especially interesting because it hints at **Mode 7-style racing or pseudo-3D background work**.
-That fits the project name much better than a conventional platform game interpretation.
+File | Reading
+---|---
+`BG-FORTRESS.CGX`, `BG-ENEMYSHIP.CGX`, `BG-BASESHIP.CGX` | Enemy base/ship/fortress stage backgrounds
+`BOSS.CGX`, `BOSS-1/2/3.CGX/COL` | Boss sprites — three numbered bosses
+`CHIKABOSS-01.OBJ`, `CHIKABOSS-02.OBJ` | Underground boss (two-part object)
+`UFO-0/1/2.CGX` | UFO enemy type (three variants)
+`CAMEL.CGX`, `CAMEL2.CGX`, `CAMEL3.CGX` | Camel-type enemy (three variants)
+`CORE-1/2/3/4.CGX/COL` | Destructible core enemies
+`OBJ-BOMB.CGX`, `OBJ-BOMB-2.CGX` | Bomb objects
 
-### `MARIO`
+Pilotwings has no enemies, no bosses, and no combat.
 
-The small `MARIO` directory is not huge, but it is readable.
-It contains names like:
+**English localization files confirm Western release intent** across both groups:
+`LICENSE-ENG.CGX`, `ROGO-ENG.CGX`, `CON-ENG.CGX`, `PAUSE-ENG.CGX`, `LINE-ENG.CGX`.
 
-* `GAMESELECT.CGX`, `GAMESELECT.COL`, `GAMESELECT.SCR`
-* `GAMESELECT-N.*`
-* `GAMESELECT-P.*`
-* `MA-ROGO-OBJ.CGX`
-* `2PR-S1.*`
+#### The Most Likely Reading
 
-This looks like **menu, logo, or mode-selection artwork**, not a full game asset repository.
-The explicit `GAMESELECT` naming is unusually direct for this archive.
+The simplest explanation that fits all the data:
 
-### `FX2`
+> **`fly`/`flyman` is a prototype of what eventually became Pilotwings, at an earlier development stage when combat/enemy elements were still part of the design.**
 
-The `FX2` branch is small but useful because it confirms another Wild Trax / Stunt Race FX-adjacent strand on this machine.
-Representative names include:
+Pilotwings was in development from approximately 1989 — exactly when this folder opened.
+The project's layout side (`flyman`) was closed six months after Pilotwings shipped (November 1990 + ~6 months = May 1991).
+If `flyman` represented the shipping branch, the six-month tail is consistent with post-ship polish, documentation, or internal archival.
 
-* `cpt-1.CGX`, `cpt-1.COL`, `cpt-1.SCR`
+Alternatively, this could be a **parallel unreleased game** using the same Mode 7 flight framework but with a combat layer that was never completed — a direction Nintendo tried alongside Pilotwings and then abandoned.
+
+The `fly` art folder remaining active until 1994 (the backup date) is most likely explained by the tape restore itself refreshing file timestamps.
+
+#### Mode 7 Landscape Architecture in fly
+
+The 47 `M7-*` files form the most detailed Mode 7 art system in the archive:
+
+File group | Reading
+---|---
+`M7-BG-L.CGX`, `M7-BG-L-NIGHT.CGX` | Mode 7 landscape tile banks (standard and night variants)
+`M7-BG-RACE.CGX`, `M7-BG-JUMP.CGX` | Race-stage and jump-stage Mode 7 tiles
+`M7-BG-HELI.CGX`, `M7-BG-DESERT.CGX` | Helicopter-stage and desert-stage tiles
+`M7-BG-BONUS.CGX` | Bonus-stage Mode 7 tile bank
+`M7-BG-C0.CGX`, `M7-BG-C00.CGX`, `M7-BG-C01.CGX` | Course-specific tile banks (3 courses)
+`M7-L-FINE/GRASS/ISLAND/NIGHT/RACE/RAIN/SNOW/SUNSET/DESERT.COL` | Nine weather/terrain **palette variants** for the Mode 7 ground
+`M7-CHIKA/CHIKA-B/C/FORTRESS.COL` | Underground and fortress-stage Mode 7 palettes
+`M7-METER.SCR`, `M7-METER-B.SCR` | HUD meter drawn against the Mode 7 plane
+
+Nine named weather-palette variants (Fine, Grass, Island, Night, Race, Rain, Snow, Sunset, Desert) is a strong hallmark of a Pilotwings-style flight sim, where the ground appearance changes with conditions.
+No SNES shooter or action game from this era used nine weather-palette variants for a Mode 7 ground plane.
+
+#### The flyman Stage Structure
+
+`flyman` is dominated by `MAP`-prefixed screen files:
+
+Stage group | Files | Reading
+---|---|---
+`MAP1` through `MAP8` | 4–64 per group | Eight numbered lesson/mission stages
+`CHIKA-*` | `~20` | Underground stage screens (BG-CHIKA-A/B/C variants)
+`BONUS` / `BONUS1-4` | `5` | Bonus stage layouts
+`POOL1` / `POOL2` / `POOL3` | `5` each | Water stage screens
+`DESERT1` | `~5` | Desert stage layouts
+`JUMP1` / `JUMP2` / `JUMP3` | `7` each | Jump-sequence screens
+`RACE1` | `4` | Race-course screens
+`BGBG-HA`, `BGBG-HELI`, `BGBG-PA`, `BGBG-PL`, `BGBG-RO` | `5` | Double-layer background composites
+
+`MAP6` holds 39 files and `MAP7` holds 64 — suggesting those were the most complex or iterated missions.
+The `BGBG-` (background-over-background) composites are a layering technique not seen in the other projects in this archive.
+The suffix abbreviations `HA` (hang?), `HELI`, `PA` (para?), `PL` (plane?), `RO` (rocket?) match the flight disciplines named in `fly`.
+
+---
+
+### CAR: Super Mario Kart
+
+CAR's identification is **not ambiguous**.
+Five files make the project unmistakable:
+
+File | Why it matters
+---|---
+`MARIO-CAR.CGX`, `MARIO-CAR.OBJ` | Literally the Mario Kart vehicle sprite sheet and object
+`JUGEM.CGX`, `JUGEM.OBJ` | Jugem (ジュゲム) is Lakitu — the cloud-riding character who lifts fallen racers and waves the start flag in Super Mario Kart
+`DOKAN.CGX`, `DOKAN.COL`, `DOKAN.SCR` | Dokan (土管) = pipes; warp-pipe obstacles that line the Mario Kart courses
+`POLE.CGX`, `POLE.OBJ` | The finish-line goal pole
+`SLOT.CGX` | The item-box roulette drum
+
+No other Nintendo game combines `JUGEM`, `DOKAN`, `POLE`, and `SLOT` as distinct race-side objects.
+This is *Super Mario Kart* (released Japan August 1992, North America September 1992, Europe January 1993).
+
+{% include link-to-other-post.html post="/super-mario-kart-source-code" description="For the leaked Super Mario Kart source tree, track tools, and source-level project context, see the dedicated Super Mario Kart page." %}
+
+#### Mario Kart UI Screens Preserved
+
+The non-track content is equally direct:
+
+File | Reading
+---|---
+`CAR-SELECT.SCR`, `CAR-SELECT2.SCR`, `CAR-SELECT3.SCR` | Kart / character selection screens (three iterations)
+`CAR-SELECT2-ENG.SCR` | English localisation of the car-select screen
+`MAP-SELECT.SCR`, `MAP-SELECT2.SCR` | Course/cup selection screens
+`MAP-SELECT-ENG.COL` | English colour set for the map-select screen
+`RESULT.SCR`, `RESULT2.SCR` | Race result screens
+`RESULT-ENG.SCR`, `RESULT2-ENG.SCR` | English race result screens
+`D-POINT.SCR`, `D-POINT-ENG.SCR` | Death/danger-point screen (when you fall off)
+`REGI.SCR` | High-score / ranking register screen
+`SROT-DRAM.SCR` | Sort drum — the animated item-roulette scroll sequence
+`DEMO-MOJI.CGX` | Demo-mode text graphics
+`END-MOJI.CGX` | Ending-sequence text
+`HATA.CGX`, `HATA.SCR` | Racing flag art
+`BG-ITEM.CGX` | Item-box background tile sheet
+
+#### Track Structure
+
+The track coding system uses single-letter family prefixes, each with four segment views (`#-0` through `#-3`):
+
+Family | Tracks | Special files | Most likely reading
+---|---|---|---
+`STAR` | 1 | `STAR-B.CGX`, `STAR.CGX/COL` | Star Cup — named explicitly
+`B` | B1–B6 | — | Six B-course prototypes (most fully realised family)
+`C` | C1–C4 | `C1-B.CGX`, `C1.CGX/COL`, `C.MD7`, `CCC1.MD7` | C-courses + two 32 KB Mode 7 map tables
+`D` | D1–D3 | `D1-B.CGX`, `D1.CGX/COL` | D-courses
+`G` | G1–G3 | `G1-B.CGX`, `G1.CGX/COL` | G-courses
+`H` | H1–H3 | `H1-B.CGX`, `H1.CGX/COL`, `H1-Z.COL` | H-courses; Z variant = special palette
+`K` | K1–K3 | `K1-B.CGX`, `K1.CGX/COL` | K-courses
+`S` | S1–S2 | `S1-B.CGX`, `S1.CGX/COL`, `S1-Z.COL`, `S.MD7` | S-courses + one 32 KB Mode 7 map table
+`W` | W1–W2 | `W1-B.CGX`, `W1.CGX/COL`, `W1-B.SCR` | W-courses
+
+The three **32,768-byte `.MD7` files** (`C.MD7`, `CCC1.MD7`, `S.MD7`) are raw SNES Mode 7 background maps: 128 × 128 entries × 2 bytes = exactly 32 KB.
+Each one is a complete race-track ground-plane bitmap.
+The companion `C.DAT` and `CCC1.DAT` files (117 bytes each) are likely track parameter tables (lap count, speed, scroll indices).
+
+`B1–B6` is the most fully developed family with six courses, each having four segment views.
+The final *Super Mario Kart* has 20 tracks (16 race + 4 battle) across four cups — the prototype in `CAR` has more distinct family codes than the final game, consistent with a development phase where courses were still being created and culled.
+
+#### English Localization Evidence
+
+Super Mario Kart shipped in all three major markets within its first year.
+`CAR` shows at least two rounds of English title art:
+
+* `TITLE-ENG.CGX/SCR` — English title screen (first revision)
+* `TITLE-ENG2.CGX/SCR`, `TITLE2-ENG.SCR` — English title screen (second revision)
+* `SELECT-ENG.CGX`, `OBJ-MOJI-ENG.OBJ`, `MOJI-ENG.CGX` — English text art for menus and object labels
+
+#### CAR, MARIO, and FX2 as a Production Timeline
+
+With the identification confirmed, the three Sugiyama racing/Nintendo projects form a coherent timeline:
+
+Project | Date range | Game | Notes
+---|---|---|---
+`CAR` | `1991-04-05` → `1992+` | **Super Mario Kart** | Mode 7 track maps; development started ~16 months before Japanese release
+`MARIO` | `1993-04-08` → `1993-06-21` | Mario title TBD | Game-select screen art; short engagement
+`FX2` | `1993-07-06` → `1993-12-08` | **Wild Trax / Stunt Race FX** | Player/cup select art; the last Sugiyama project before the backup
+
+---
+
+### MARIO and SIM: Two More Identifiable Fragments
+
+The `MARIO` directory (77 files, ~10 weeks mid-1993) is a short engagement:
+
+* `GAMESELECT.CGX`, `GAMESELECT.COL`, `GAMESELECT.SCR` — game-select screen art
+* `GAMESELECT-N.*`, `GAMESELECT-P.*` — N (Nintendo?) and P (Player?) variants
+* `MA-ROGO-OBJ.CGX` — Mario logo object tile sheet
+* `2PR-S1.*` — two-player layout variant
+
+This is **game-select and mode-select artwork** for a Mario-branded title.
+The `2PR` (2-player) flag and N/P variants suggest a versus or multiplayer mode game, but the small scope and short timeline make it hard to identify conclusively.
+
+The `SIM` directory (165 files, November 1990 → January 1993) has a different character altogether:
+
+* `SELECT-SCENARIO.SCR`, `SELECT-SCENARIO-2.SCR`, `SCENARIO.OBJ` — scenario selection screens
+* `MAP-SELECT.SCR`, `MAP-SELECT2.SCR` — map selection screens
+* `TOWN.SCR`, `TOWN2.SCR` — town view screens
+* `LEVEL1.SCR`, `LEVEL2.SCR` — level screens
+* `INPUT.OBJ`, `INPUT-BG.CGX`, `INPUT1.SCR`, `INPUT2-KEY.SCR` — data-entry / controller-input screens
+* `icon_p.CGX`, `icon_p-F/G.CGX`, `iconpd.CGX`, `optishd.CGX` — UI icons (F/G = flag/green variants?)
+* `.SFX` files paired with each main screen (a screen-effects or screen-state format)
+
+The date range (Nov 1990 → Jan 1993) brackets the Japanese release of **SimCity for SNES** (August 1991, published by Nintendo).
+The vocabulary — `SELECT-SCENARIO`, `TOWN`, `MAP-SELECT`, `LEVEL` — matches SimCity's UI structure almost exactly.
+The `.SFX` format is distinctive and not seen elsewhere in this archive, suggesting a different toolset used specifically for the SimCity UI layer.
+
+### FX2: Wild Trax / Stunt Race FX
+
+`FX2` (41 files, July–December 1993) confirms Sugiyama's involvement in the **Wild Trax / Stunt Race FX** project:
+
+* `cpt-1.CGX`, `cpt-1.COL`, `cpt-1.SCR` — cup / captain art (note lower-case naming vs. all other Sugiyama projects)
 * `cpt-2.CGX`, `cpt-2A.SCR`
-* `p-select.CGX`, `p-select.COL`, `p-select.SCR`
+* `p-select.CGX`, `p-select.COL`, `p-select.SCR` — player-select screen
 * `test-1.OBJ`
 
-This is much smaller than the `FX2` material in `NEWS_05`, but it still helps place Sugiyama's machine in the same broad development ecosystem.
+The lower-case naming is unusual and may reflect a later tool version or a different artist's convention applied at handoff.
+Wild Trax shipped July 1994 — exactly seven months after `FX2` went quiet on this machine.
+
+{% include link-to-other-post.html post="/wild-trax-source-code" description="For the full Wild Trax / Stunt Race FX source and build-tree analysis, see the dedicated Wild Trax page." %}
+
+---
+
+### Sugiyama's Project Timeline at a Glance
+
+With identifications in place, the complete Sugiyama timeline becomes readable:
+
+Period | Project | Status
+---|---|---
+`1989-10-13` | `fly` + `flyman` open together | Early SNES flight game begins (Pilotwings-era prototype?)
+`1990-11` | *Pilotwings* ships | Layout side (`flyman`) winds down toward May 1991
+`1990-11-27` | `SIM` opens | Likely *SimCity SNES* UI/art work begins
+`1991-04-05` | `CAR` opens | *Super Mario Kart* development begins
+`1991-05-07` | `flyman` last modified | Layout side of early flight game finalised
+`1991-08` | *SimCity SNES* ships | `SIM` continues until Jan 1993 (post-ship polish or localization)
+`1992-08` | *Super Mario Kart* ships (Japan) | `CAR` continues — localization and follow-up work
+`1993-01-22` | `SIM` last modified | SimCity work ends
+`1993-04-08` | `MARIO` opens | Brief Mario title UI engagement begins
+`1993-06-21` | `MARIO` last modified | Mario UI work ends
+`1993-07-06` | `FX2` opens | Wild Trax / Stunt Race FX art begins
+`1993-12-08` | `FX2` last modified | Wild Trax art ends on Sugiyama's machine
+`1994-03-18` | Tape backup | `fly` and `CAR` show this date — almost certainly the restore timestamp, not active edits
+
+`fly` and `CAR` sharing the **exact same March 18, 1994 timestamp** is most simply explained by the tape-restore process itself refreshing modification times for files that were open or had been accessed during the archive restore.
+The project timelines — `fly`/`flyman` centred on 1989–1991 and `CAR` on 1991–1992 — do not otherwise overlap.
 
 ---
 
@@ -630,29 +956,33 @@ The mixed `zelda`, `GB-zelda`, `MARIO`, `CAR`, `fly`, and `FX2` folders make it 
 
 ## What Seems Most Important to Study Next
 
-The archive is already legible at a high level, but several areas deserve deeper follow-up.
+The main project layers are now mapped and three of six Sugiyama projects are identified.
 
-### 1. The SF2 Screen and Object Taxonomy
-The `SF2` folder almost certainly contains a meaningful internal grouping system.
-A careful comparison of `t`, `s`, `m`, `ma`, `o`, `oa`, and `obj` could reveal exactly how Nintendo separated:
+### 1. Identify the fly/flyman Game Definitively
 
-* screen banks
-* menu/title elements
-* object banks
-* alternate revisions
-* region or build variants
+The case for a Pilotwings-era prototype is strong but not proven.\
+The most useful next step would be:
 
-### 2. The Zelda and GB-Zelda Relationship
-The `zelda`, `GB-zelda`, and `DELDA` branches likely preserve different generations or target platforms of the same broader art workflow.
-The explicit `nippon`, `nes`, and `Opening*` names make them good candidates for a dedicated cross-comparison.
+* Comparing the `fly` Mode 7 palette set (Fine, Grass, Island, Night, Rain, Snow, Sunset, Desert) against the landscape backgrounds in the Pilotwings ROM
+* Checking whether the `ROKETMAN`, `MYSHIP`, `HANG`, `PARA` sprites match any assets visible in Pilotwings debug or prototype builds
+* Looking at whether the `flyman` MAP1-8 structure matches Pilotwings' lesson/mission numbering
+* Searching other Nintendo Gigaleak archives for a project name matching `FLY` or the 1989 development start
 
-### 3. Sugiyama's `CAR` and `fly` Branches
-These branches are older but may be historically valuable.
-The `.MD7` files in `CAR` and the strong `BG-` / `BOSS-` naming in `fly` suggest real, identifiable production work rather than random scratch directories.
+### 2. The zelda/d Area ID Scheme
+
+The `d` subfolder in `zelda` names areas by number: `0-osiro`, `1-tika`, `12-sabaku`, `13-pyramid`.
+A full catalogue could map directly onto *A Link to the Past*'s internal area list — or diverge, pointing to a follow-up or prototype.
+
+### 3. The Super Mario Kart Track Families
+
+`CAR` has more track families than the final game.
+Matching B, C, D, G, H, K, S, W to their final SMK equivalents (or confirming which were cut) is tractable:
+the three 32 KB `.MD7` files can be parsed as raw Mode 7 background tables to reconstruct actual track layouts.
 
 ### 4. Exact Toolchain Recovery
-`NEWS_04` does not preserve much code, but the file groupings are regular enough that it should be possible to reconstruct the tool expectations for `.CGX`, `.COL`, `.SCR`, `.OBJ`, `.MAP`, and `.PNL`.
-That would make the archive far more usable for preservation and visualization.
+
+The `.CGX` → `.COL` → `.SCR` → `.OBJ`/`.MAP`/`.PNL` pipeline is consistent across every project on this machine.
+Matching it to known Nintendo SNES dev tools (or other archived tool documentation from the Gigaleak) would make the whole file set far more navigable.
 
 ---
 
@@ -660,16 +990,19 @@ That would make the archive far more usable for preservation and visualization.
 
 `NEWS_04` is not the most glamorous archive in the NEWS tape set.
 It does not have the source-code shock value of `NEWS_05`, and it is messier than the Yoshi tapes.
-But it is still one of the most **workshop-like** snapshots in the leak.
+But it is one of the most **workshop-like** snapshots in the leak — and, on examination, one of the most historically rich.
 
 Its real value is that it preserves **how graphics work accumulated on a live Nintendo workstation**:
 
-* old project folders kept for years
-* hundreds of incremental `.BAK` revisions
-* tightly grouped graphics/palette/screen triples
-* separate object and map-side resources
-* one especially late Star Fox 2 graphics branch sitting beside much older Zelda material
+* old project folders kept for years — some untouched since 1991
+* hundreds of incremental `.BAK` revisions showing the iteration rhythm
+* tightly grouped graphics/palette/screen triples throughout every project
+* three distinct Zelda layers — early prototype, long SNES branch, and localised Game Boy branch — on the same machine
+* **Super Mario Kart** development material including Mode 7 track map tables, `JUGEM`, `DOKAN`, `POLE`, and `SLOT` files
+* an early SNES flight game (possibly a Pilotwings prototype) from **October 1989** — among the earliest SNES development work visible in any Nintendo archive
+* probable **SimCity SNES** UI work bracketing its August 1991 Japanese release
+* one especially late Star Fox 2 graphics branch from 1995 sitting beside all of the above
 
 So `NEWS_04` fills an important gap.
 It does not tell us how Nintendo wrote the games.
-It tells us how developers **assembled their visual assets on the floor of production**.
+It tells us how one developer's workstation **accumulated half a decade of visual asset history** — from early SNES hardware exploration in 1989 all the way through to the final Star Fox 2 art push in 1995.

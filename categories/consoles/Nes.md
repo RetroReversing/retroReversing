@@ -11,7 +11,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /hardware
+    url: /consoles
   - name: Reverse Engineering NES Games - Uncovering the Secrets of Classic Gaming
     url: #
 redirect_from:

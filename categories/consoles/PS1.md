@@ -11,7 +11,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Sony PlayStation 1
     url: #
 redirect_from:

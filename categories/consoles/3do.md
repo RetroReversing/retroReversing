@@ -13,7 +13,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: 3DO Interactive Multiplayer
     url: #
 tags:

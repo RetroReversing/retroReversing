@@ -12,7 +12,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Sega Mega Drive (Genesis)
     url: #
 redirect_from:

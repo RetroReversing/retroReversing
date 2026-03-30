@@ -11,7 +11,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Nintendo 3DS
     url: #
 videocarousel:

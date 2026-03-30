@@ -11,7 +11,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Intellivision Reverse Engineering
     url: #
 tags:

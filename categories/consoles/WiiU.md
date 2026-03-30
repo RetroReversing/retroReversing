@@ -10,7 +10,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Nintendo WiiU Reverse Engineering
     url: #
 tags:

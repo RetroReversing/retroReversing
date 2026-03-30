@@ -12,12 +12,11 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Super Nintendo/Famicom (SNES) Reverse Engineering
     url: #
 redirect_from:
   - /supernintendo
-  - /snes/
 tags:
   - snes
 updatedAt: '2025-12-07'

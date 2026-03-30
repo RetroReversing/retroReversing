@@ -13,7 +13,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Sega Game Gear Reverse Engineering
     url: #
 tags:

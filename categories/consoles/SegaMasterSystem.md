@@ -15,7 +15,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Sega Master System Reverse Engineering
     url: #
 redirect_from:

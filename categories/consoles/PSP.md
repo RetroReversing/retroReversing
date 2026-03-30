@@ -13,7 +13,7 @@ breadcrumbs:
   - name: Home
     url: /
   - name: Consoles
-    url: /
+    url: /consoles
   - name: Sony Playstation Portable
     url: #
 tags:
