@@ -367,6 +367,106 @@ It shows the packer was not just collecting files.
 It was one of the places where the team was actively policing cartridge size limits.
 
 ---
+## Runtime Audio and Event Systems
+The asset packers are only half the story.
+The main runtime files show how Star Fox 2 actually consumed those banks once the game was running.
+
+---
+### SOUND.ASM - The Audio Dispatcher
+`SOUND.ASM` makes it clear that the game was not triggering music with one tiny "play track" call.
+It is a fairly involved dispatcher for transferring sound programs, background music, player voice data, and special interrupt-driven sound payloads to the APU side.
+
+Three routines stand out immediately:
+
+Routine | What it does | Why it matters
+---|---|---
+`TransferSoundProg_l` | Pushes a sound program into the APU | Shows the code still thinks in terms of explicit sound-program transfer, not just abstract music IDs
+`TransferSoundBGM_l` | Clears ports, selects scene-specific sound groups, and uploads the current BGM/effect sets | This is the core scene-audio dispatcher
+`TransferSoundPlayer_l` | Uploads pilot voice banks and player-type sound sets | Separates character voices from vehicle or mode sound sets
+
+`TransferSoundBGM_l` is the most revealing.
+It clears all four APU ports, resets several sound pointers and counters, checks stereo versus mono mode, checks for the ending demo path, then looks up the current sound profile through `SoundTransTbl`.
+
+That matters because it ties the build-time packer directly to the runtime.
+The game is not simply choosing "music 5".
+It is selecting a scene-specific bundle of BGM, effects, place flags, and special transfers.
+
+`TransferSoundPlayer_l` adds another useful layer.
+It maps pilot IDs onto explicit voice banks through `plsndtbl`, with `foxvox`, `falvox`, `pepvox`, `slpvox`, `ga1vox`, and `ga2vox`, then separately loads Arwing-type sets like `FFset1`, `SPset1`, and `GGset1`.
+So the audio system is split not only by scene, but also by character and vehicle type.
+
+---
+### SNDTBL.ASM - The Scenario-to-Audio Matrix
+`SNDTBL.ASM` is one of the best evidence files in the whole project because it exposes the game's audio design in named tables.
+
+The first half of the file defines `ksf_*` sound flags for different game states.
+That includes:
+
+* title and menu states like `ksf_title`, `ksf_selectmissionplayer`, and `ksf_selectmissionmap`
+* mission stages `ksf_missionstage1` through `ksf_missionstage6`
+* SOS and extra scenarios such as `ksf_missionsos1` through `ksf_missionsos6` and `ksf_missionextra1` through `ksf_missionextra4`
+* demos like `ksf_titledemo`, `ksf_startarwingdemo`, `ksf_corneriafelldemo`, `ksf_endingdemo`, and `ksf_planetcanondemo`
+* battle states such as `ksf_battlestage1`, `ksf_battlestage2`, and `ksf_battlestage3`
+
+The second half, `SoundTransTbl`, is the real payload map.
+It tells the game which concrete music and effect banks to load for each of those named situations.
+
+A few examples make the structure easier to see:
+
+Scenario | Audio bundle
+---|---
+`missionstage1` | `music20`, `music05`, `sdgrd1`, `sdgrd2`, `sdst6`, `grdwtr`
+`missionstage6` | `music24`, `music10`, `sdspac`, `sdst6`, `seawtr`
+`missionsos6` | `music24`, `music21`, `music25`, `sdspac`, `sdst5`
+`endingdemo` | `music19`, `sdspac`, `sdend1`
+`missionandrof` | `music24`, `music21`, `music18`, `music18b`, `sdspac`, `sdse2`, `sdst1`
+`endtalk` | `music24`, `music21`, `music22`, `sdspac`, `sdtlk`
+
+This table is why the sound system feels richer than a simple soundtrack list.
+The game is selecting bundles of ambience, environment sets, scene effects, speech, and music all at once.
+
+`configSNDtbl` at the end tightens that picture further.
+It maps numeric configuration entries directly onto named situations like `title`, `missionstage1`, `missionextra2`, `missionandrof`, and `endingdemo`, which makes the audio setup look like a normal, configurable gameplay system rather than hardcoded special cases spread everywhere.
+
+---
+### CHART.ASM - Timed Event Scripting
+`CHART.ASM` is one of the more surprising files in the project.
+Its header still says "Code for various weapons", but the actual contents are much closer to a timed event and cutscene scheduler.
+
+The core clue is the `chartdat` macro and the `timechart_l` routine.
+Together they define a compact timed-script format built around:
+
+* `trig` - run when the chart timer exactly matches a value
+* `after` - run when the timer has passed a value
+* `before` - run while the timer is still below a value
+* `between` - run only inside a time window
+* `always` - unconditional execution
+
+`timechart_l` then walks the current chart pointer, checks those timing conditions, and jumps into named chart routines when the condition matches.
+That is not a weapon helper.
+It is a general-purpose scheduler for scripted sequences.
+
+The earlier `setclearseq_l` routine backs that up too.
+It picks chart pointers like `gameclear_CORE_AW`, `gameclear_CORE_trans2AW`, `goto_endseq0`, and `clrawof_AW` depending on the player state, current mode, and whether the game is in space, on a planet, or in a demo-ending path.
+
+So the chart system appears to be one of the glue layers that drives mission clears, endings, and mode-specific scripted flows.
+
+---
+### CHARTDAT.ASM - ROM Object Animation Data
+`CHARTDAT.ASM` complements the main chart code by focusing on object animation data rather than timer logic.
+
+Its header describes it as `ROM object animation chart`, and the surviving body is very small.
+The key line is an `incfile d3_3.asm ; openning animation`, which suggests this file was being used as a compact include point for opening-sequence or ROM-object animation data rather than a large self-contained system on its own.
+
+That small surviving body is still useful.
+It ties the chart system to another concrete asset file and makes the overall picture a bit clearer:
+
+* `CHART.ASM` handles timed event execution and chart-flow logic
+* `CHARTDAT.ASM` appears to hold or include animation-chart data for scripted visual sequences
+
+Together they make Star Fox 2 look more heavily script-driven than a quick skim of the bank files might suggest.
+
+---
 ## SFCAD - DOS Content Editor and Asset Workspace
 `SFCAD` is the most interesting non-runtime part of the leak.
 It looks like a DOS content tool built in C++ for shape, font, message, and slope work rather than SNES gameplay code.

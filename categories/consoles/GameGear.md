@@ -80,8 +80,8 @@ This was not exclusive to Game Gear development, it was also used in early sega 
 You can find out more including lots of images on [Video Games Densetsu: The Sega Digitizer System, a tool used by graphic...](https://videogamesdensetsu.tumblr.com/post/149092824100/the-sega-digitizer-system-a-tool-used-by-graphic)
 
 ## Third Party Development Hardware
-There is one known third party development kit called **Krisalis** which we have a seperate post about:
-{% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For information about the Krisalis 3rd party development hardware check out this post." %}
+There is one known third party development kit called **Krisalis** which we have a separate post about:
+{% include link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For information about the Krisalis 3rd party development hardware check out this post." %}
 
 ---
 # Software Development Kit

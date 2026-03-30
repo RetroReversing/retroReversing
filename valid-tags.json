@@ -1,114 +1,120 @@
 {
   "summary": {
-    "totalFiles": 277,
-    "filesWithTags": 277,
-    "uniqueTags": 102,
-    "generatedAt": "2025-12-13T21:26:02.651Z"
+    "totalFiles": 297,
+    "filesWithTags": 297,
+    "uniqueTags": 112,
+    "generatedAt": "2026-03-30T12:24:45.250Z"
   },
   "tags": {
-    "introduction": 54,
-    "tutorial": 10,
-    "companies": 5,
-    "industry": 22,
-    "crossproducts": 5,
-    "datel": 2,
-    "snsystems": 12,
-    "sdk": 47,
+    "2d": 1,
+    "32x": 1,
+    "3d": 6,
     "3do": 1,
     "3ds": 8,
     "amiga": 1,
+    "android": 3,
     "arcade": 1,
+    "assembly": 4,
     "atari": 3,
-    "jaguar": 1,
-    "dos": 4,
-    "pc": 13,
-    "msx": 3,
-    "ds": 11,
-    "gba": 11,
-    "dreamcast": 8,
+    "bookazines": 1,
+    "books": 2,
+    "c64": 1,
+    "cheatcartridge": 1,
+    "companies": 5,
     "console": 2,
+    "consolearchitecture": 2,
+    "copyright": 1,
+    "cpu": 4,
+    "cracking": 2,
+    "crossproducts": 5,
+    "datel": 2,
+    "debug": 6,
     "devkit": 29,
-    "handhelds": 3,
-    "gameboy": 15,
-    "gamegear": 4,
-    "sega": 28,
-    "gamecube": 10,
+    "disassemblers": 1,
+    "documentary": 2,
+    "dos": 4,
+    "dreamcast": 8,
+    "ds": 12,
+    "emulation": 1,
+    "fileformats": 13,
+    "gameboy": 19,
     "gamecom": 1,
+    "gamecube": 10,
+    "gameengines": 13,
+    "gamegear": 4,
+    "games": 25,
+    "gba": 16,
+    "gdb": 2,
+    "ghidra": 4,
+    "graphics": 1,
+    "hacking": 1,
+    "handhelds": 4,
+    "hardware": 39,
+    "homebrew": 2,
+    "incomplete": 1,
+    "industry": 21,
+    "introduction": 56,
+    "ios": 1,
+    "ique": 2,
+    "jaguar": 1,
+    "leak": 43,
+    "leaks": 1,
+    "legal": 1,
+    "magazines": 4,
+    "mastersystem": 4,
+    "maths": 4,
     "megadrive": 6,
+    "memory": 3,
+    "middleware": 11,
+    "msx": 3,
     "n64": 32,
+    "nds": 1,
     "nes": 15,
-    "snes": 9,
+    "news": 2,
+    "nintendo": 2,
+    "pc": 13,
     "pc-88": 1,
     "pc-engine": 1,
-    "ps1": 17,
+    "pokemon": 1,
+    "pokemonmini": 3,
+    "programming-languages": 1,
+    "ps1": 18,
     "ps2": 10,
     "ps3": 3,
     "ps4": 2,
     "psp": 7,
-    "pokemonmini": 3,
-    "sg1000": 1,
+    "psyq": 3,
+    "radare2": 1,
+    "reverseengineering": 5,
+    "reversingemulator": 5,
     "saturn": 18,
-    "mastersystem": 4,
+    "sdk": 49,
+    "sega": 28,
+    "segasaturn": 1,
+    "sg1000": 1,
+    "smb3": 1,
+    "snes": 22,
+    "snsystems": 12,
+    "software": 5,
+    "sourcecode": 26,
+    "starfox2": 2,
+    "superfx": 1,
+    "switch": 3,
+    "symbols": 14,
+    "tools": 19,
+    "tutorial": 10,
+    "tutorials": 1,
+    "unity3d": 3,
     "vectrex": 1,
     "vita": 5,
     "wii": 12,
     "wiiu": 8,
+    "windows": 1,
     "wonderswan": 1,
     "xbox": 8,
     "xbox360": 2,
-    "zxspectrum": 1,
-    "ios": 1,
-    "fileformats": 13,
-    "gameengines": 13,
-    "middleware": 11,
-    "games": 24,
-    "symbols": 14,
-    "debug": 6,
-    "hardware": 38,
-    "bookazines": 1,
-    "magazines": 4,
-    "books": 2,
-    "hacking": 1,
-    "incomplete": 2,
-    "leak": 25,
-    "maths": 4,
-    "3d": 6,
-    "software": 5,
-    "tools": 16,
-    "disassemblers": 1,
-    "cracking": 2,
-    "ghidra": 4,
-    "programming-languages": 1,
-    "reversingemulator": 5,
-    "legal": 1,
-    "copyright": 1,
-    "documentary": 1,
-    "memory": 3,
-    "sourcecode": 11,
-    "2d": 1,
-    "32x": 1,
-    "nds": 1,
-    "homebrew": 2,
-    "nintendo": 2,
-    "assembly": 4,
-    "reverseengineering": 5,
-    "cheatcartridge": 1,
-    "consolearchitecture": 2,
-    "ique": 2,
-    "radare2": 1,
-    "emulation": 1,
-    "windows": 1,
-    "psyq": 3,
-    "segasaturn": 1,
-    "switch": 3,
-    "android": 2,
-    "unity3d": 3,
-    "news": 2,
-    "cpu": 4,
-    "leaks": 1,
-    "tutorials": 1,
-    "gdb": 2,
-    "c64": 1
+    "zelda": 1,
+    "zxspectrum": 1
   },
   "fileTagMap": {
     "categories/Introduction.md": [
@@ -146,11 +152,13 @@
       "introduction"
     ],
     "categories/consoles/Android.md": [
-      "industry",
+      "android",
       "introduction"
     ],
     "categories/consoles/Arcade.md": [
-      "arcade"
+      "arcade",
+      "introduction",
+      "hardware"
     ],
     "categories/consoles/Atari2600.md": [
       "atari"
@@ -158,6 +166,10 @@
     "categories/consoles/AtariJaguar.md": [
       "atari",
       "jaguar"
+    ],
+    "categories/consoles/C64.md": [
+      "c64",
+      "introduction"
     ],
     "categories/consoles/DOS.md": [
       "dos",
@@ -181,7 +193,9 @@
       "gameboy"
     ],
     "categories/consoles/GameBoy.md": [
-      "gameboy"
+      "gameboy",
+      "gba",
+      "ds"
     ],
     "categories/consoles/GameBoyAdvance.md": [
       "gba",
@@ -189,7 +203,8 @@
     ],
     "categories/consoles/GameGear.md": [
       "gamegear",
-      "sega"
+      "sega",
+      "handhelds"
     ],
     "categories/consoles/Gamecube.md": [
       "gamecube"
@@ -582,7 +597,8 @@
     ],
     "pages/consoles/ds/DSFileFormats.md": [
       "ds",
-      "fileformats"
+      "fileformats",
+      "gba"
     ],
     "pages/consoles/ds/DSHomebrew.md": [
       "ds",
@@ -621,6 +637,12 @@
       "gameboy",
       "games",
       "assembly"
+    ],
+    "pages/consoles/gameboy/SuperGameBoySDK.md": [
+      "gameboy",
+      "sdk",
+      "leak",
+      "sourcecode"
     ],
     "pages/consoles/gamecube/007 Agent Under Fire.md": [
       "gamecube",
@@ -857,6 +879,11 @@
       "ps1",
       "games"
     ],
+    "pages/consoles/ps1/MakingOfPlaystationGames.md": [
+      "documentary",
+      "ps1",
+      "games"
+    ],
     "pages/consoles/ps1/NetYaroze.md": [
       "ps1",
       "hardware",
@@ -1061,6 +1088,12 @@
     "pages/consoles/saturn/SegaSaturnSaveData.md": [
       "saturn",
       "sega"
+    ],
+    "pages/consoles/snes/SFXDOS.md": [
+      "snes",
+      "sdk",
+      "tools",
+      "leak"
     ],
     "pages/consoles/snes/SNESDevkitHardware.md": [
       "snes",
@@ -1271,6 +1304,44 @@
       "leak",
       "sourcecode"
     ],
+    "pages/leaks/Nintendo/GameBoyAdvanceBootRomRepository.md": [
+      "gameboy",
+      "gba",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/GameBoyColorBootRomRepository.md": [
+      "gameboy",
+      "leak",
+      "sourcecode",
+      "gba"
+    ],
+    "pages/leaks/Nintendo/GigaleakNEWS04.md": [
+      "snes",
+      "leak",
+      "starfox2",
+      "zelda",
+      "tools",
+      "graphics"
+    ],
+    "pages/leaks/Nintendo/GigaleakNEWS05.md": [
+      "snes",
+      "leak",
+      "sourcecode",
+      "starfox2",
+      "tools",
+      "cad"
+    ],
+    "pages/leaks/Nintendo/MarioKart.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/Netcard.md": [
+      "gba",
+      "leak",
+      "pokemon"
+    ],
     "pages/leaks/Nintendo/OriginalSource.md": [
       "leak",
       "gameboy",
@@ -1282,11 +1353,64 @@
       "3ds",
       "gba"
     ],
+    "pages/leaks/Nintendo/StarFox.md": [
+      "snes",
+      "leak",
+      "sourcecode",
+      "superfx"
+    ],
+    "pages/leaks/Nintendo/StarFox2.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/SuperMarioCollection.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/SuperMarioCollectionMario3Branch.md": [
+      "snes",
+      "leak",
+      "sourcecode",
+      "mario",
+      "smb3"
+    ],
+    "pages/leaks/Nintendo/SuperMarioCollectionNuBranch.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/SuperMarioWorldAllStarsBranch.md": [
+      "snes",
+      "leak",
+      "sourcecode",
+      "supermarioworld"
+    ],
+    "pages/leaks/Nintendo/WildTrax.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/YoshisIsland.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/ZeldaALinkToThePast.md": [
+      "snes",
+      "leak",
+      "sourcecode"
+    ],
     "pages/leaks/Nintendo/ZeldaLinksAwakening.md": [
       "gameboy",
       "leak",
-      "sourcecode",
-      "incomplete"
+      "sourcecode"
+    ],
+    "pages/leaks/Nintendo/ZeldaLinksAwakeningDX.md": [
+      "gameboy",
+      "leak",
+      "sourcecode"
     ],
     "pages/leaks/NintendoLeaks.md": [
       "leak",

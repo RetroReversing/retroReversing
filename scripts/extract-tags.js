@@ -101,6 +101,9 @@ class TagExtractor {
 
         // Export options
         if (process.argv.includes('--export-json')) {
+            const alphabeticallySortedTags = Array.from(this.tagCounts.entries())
+                .sort((a, b) => a[0].localeCompare(b[0]));
+
             const exportData = {
                 summary: {
                     totalFiles: this.processedFiles,
@@ -108,7 +111,7 @@ class TagExtractor {
                     uniqueTags: this.tagCounts.size,
                     generatedAt: new Date().toISOString()
                 },
-                tags: Object.fromEntries(this.tagCounts),
+                tags: Object.fromEntries(alphabeticallySortedTags),
                 fileTagMap: Object.fromEntries(this.fileTagMap)
             };
             
@@ -117,8 +120,11 @@ class TagExtractor {
         }
 
         if (process.argv.includes('--export-csv')) {
+            const alphabeticallySortedTags = Array.from(this.tagCounts.entries())
+                .sort((a, b) => a[0].localeCompare(b[0]));
+
             let csvContent = 'Tag,Count,Percentage\n';
-            sortedTags.forEach(([tag, count]) => {
+            alphabeticallySortedTags.forEach(([tag, count]) => {
                 const percentage = ((count / this.fileTagMap.size) * 100).toFixed(1);
                 csvContent += `"${tag}",${count},${percentage}%\n`;
             });

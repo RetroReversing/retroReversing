@@ -863,3 +863,446 @@ With the converters beside them, the archive reads much more clearly as a workst
 
 That is the main reason this archive is so valuable.
 It shows not just what the shipped code looked like, but how Nintendo's staff were moving from authored content on the workstation to game-ready data on the cartridge.
+
+---
+# The NEWS Tape Restores
+The separate `NEWS.7z` archive adds another Yoshi's Island angle under `other/NEWS/テープリストア`.
+Two of the restored tape tarballs, `NEWS_09.tar` and `NEWS_11.tar`, contain substantial Yoshi-related material.
+
+They are not structured like the `日本_Ver2` source tree.
+Instead of one integrated project folder with `sfc`, `chip`, `union`, `msg`, and `bgdt`, these are personal workstation-style archives:
+
+* `NEWS_09` keeps its files under `./home/nogami/yoshi/`
+* `NEWS_11` keeps its files under `./hino/yoshi/`
+
+That difference matters immediately.
+These tapes look like individual art and layout workspaces rather than whole-project source snapshots.
+
+The broad comparison looks like this:
+
+Archive | Main location | What it mostly contains | How it relates to `日本_Ver2`
+---|---|---|---
+`NEWS_09.tar` | `home/nogami/yoshi` | Art assets, palettes, panel files, maps, many backups, and several VRAM-oriented subfolders | Overlaps the main `char`/`OBJ`/`col` material, but often preserves earlier or alternate versions
+`NEWS_11.tar` | `hino/yoshi` | Much larger art workspace with CGX, OBJ, OBZ, SCR, SPR, test material, region variants, ending material, and many backups | Closer to the late branch than `NEWS_09`, but still much messier and richer in intermediate files than `日本_Ver2`
+
+{% capture yi_news09_body %}
+This is not a source tree.
+It is a personal Yoshi art workspace full of live assets, VRAM experiments, tests, and rejected material.
+{% endcapture %}
+
+{% capture yi_news09_items %}
+- OBJ-VRAM - Large VRAM-oriented object graphics staging area
+- ENKEI-VRAM - Another sizable VRAM subgroup, likely for perspective or special-scene work
+- KINKEI-VRAM - Smaller related VRAM subgroup
+- TEST - General testing area for map, BG, and object experiments
+- OBJ-BOTU - Discarded or rejected object-side material
+- BG-BOTU - Rejected or shelved background-side material
+- YOKOMAP-V-RAM - Small horizontal-map VRAM experiment folder
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="NEWS_09 yoshi" path="NEWS_09/home/nogami/yoshi" body=yi_news09_body version="/" content=yi_news09_items %}
+
+{% capture yi_news11_body %}
+This second workspace is much broader.
+It preserves late-looking character banks, animation-state files, sprite resources, ending-specific folders, region variants, and bulk backup sets.
+{% endcapture %}
+
+{% capture yi_news11_items %}
+- CHR-stock - Large stockpile of character-bank material
+- BAK-chr - Bulk backed-up character revisions
+- V-RAM - VRAM-specific graphics and palette staging
+- 4chr-PNL-BAK - Older panel or four-character-layout backups
+- ENDING - Dedicated ending and staff-roll art workspace
+- BAK-color - Bulk color and palette backups
+- NEW-MAP - Distinct stream of newer map-related work
+- SPR - Sprite-state resources kept separately from the main object files
+- birds - TIFF test art and raw visual experiments
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="NEWS_11 yoshi" path="NEWS_11/hino/yoshi" body=yi_news11_body version="/" content=yi_news11_items %}
+
+---
+## What Makes Them Different
+The first big difference is simply scope.
+The Yoshi folders inside the NEWS tapes are mostly art-side and layout-side workspaces.
+They do not contain the integrated program-side structure that makes `日本_Ver2` feel like a full production snapshot.
+
+There is no equivalent of:
+
+* `sfc`
+* `chip`
+* `union`
+* `msg`
+* `bgdt`
+* `endt`
+
+Instead, the tapes concentrate on the kinds of files that artists and content-side staff would have kept close at hand:
+
+* `.CGX`
+* `.COL`
+* `.OBJ`
+* `.OBX` or `.OBZ`
+* `.SCR`
+* `.PNL`
+* `.MAP`
+* many `.BAK` alternates
+
+So the NEWS material is best read as a supplement to the source archive, not a replacement for it.
+`日本_Ver2` explains the build.
+The NEWS tapes explain more of the day-to-day artwork and iteration that fed into that build.
+
+The extension mix makes that very clear:
+
+Type | `NEWS_09` count | `NEWS_11` count | What it implies
+---|---|---|---
+`.CGX` | 210 | 582 | Character and graphics-bank work dominates both tapes, especially `NEWS_11`
+`.COL` | 125 | 355 | Palette iteration was a major part of both workspaces
+`.OBJ` | 117 | 316 | Object-side layout and sprite resources survive heavily in both
+`.SCR` | 52 | 286 | `NEWS_11` keeps far more authored screen and scene layouts
+`.PNL` | 51 | 91 | Panel and tile-layout work is visible in both, but broader in `NEWS_11`
+`.OBX` / `.OBZ` | 38 `OBX` and 1 `OBZ` | 21 `OBX` and 72 `OBZ` | `NEWS_11` preserves a much larger animation or state-oriented object layer
+`.SPR` | none visible | 58 | Sprite-state resources are a major extra layer in `NEWS_11`
+`.BAK` | 445 | 384 | Both tapes are full of nearby backups rather than polished final-only files
+
+---
+## How Much Overlap There Is
+There is real overlap with the `日本_Ver2` `char`, `OBJ`, and `col` folders, but not enough to call the NEWS tapes simple duplicates.
+
+By filename:
+
+Archive | Unique filenames in the Yoshi folder | Overlap with `日本_Ver2` art-side filenames
+---|---|---
+`NEWS_09` | about `1,095` | about `112`
+`NEWS_11` | about `2,024` | about `195`
+
+Those counts are only filename overlap, but they are still useful.
+Most of the NEWS material does not line up one-to-one with the cleaner `日本_Ver2` art folders.
+
+The overlaps are also mixed.
+Some files are exact matches, while others share the same names but not the same contents.
+
+File | `NEWS_09` vs `日本_Ver2` | `NEWS_11` vs `日本_Ver2`
+---|---|---
+`B3-KONOHA.SCR` | exact match | exact match
+`48-4F.CGX` | different content | exact match
+`COL-0.COL` | different content | exact match
+`B3-KUMO.SCR` | not checked here | exact match
+`B2-IWAYAMA.SCR` | not checked here | different content
+`MAGIC-KAMEKKU-FAR.OBJ` | different content | not checked here
+
+That pattern is the most important clue in the whole comparison.
+The NEWS tapes were not just dumping random duplicates of the final art set.
+They preserve a mixture of shared late assets, earlier revisions, and alternate working versions.
+
+---
+## What NEWS 09 Adds
+`NEWS_09` feels like a focused personal art workspace with a heavy emphasis on object, color, panel, and VRAM-side experimentation.
+
+Its largest subfolders are especially revealing:
+
+Folder | File count | What it suggests
+---|---|---
+`OBJ-VRAM` | 132 | Object graphics were being staged in a VRAM-oriented workspace
+`ENKEI-VRAM` | 86 | Another VRAM-oriented art area, likely for perspective or special background work
+`TEST` | 77 | A large amount of throwaway or trial material survived
+`KINKEI-VRAM` | 38 | Yet another special-purpose VRAM/art grouping
+`OBJ-BOTU` | 11 | Rejected or discarded object-side material
+`YOKOMAP-V-RAM` | 4 | Horizontal-map VRAM experiments or special map-display work
+
+That is very different from the cleaner `日本_Ver2/char` folder.
+It looks like an artist's live working directory, with multiple side bins for tests, VRAM experiments, and discarded material.
+
+Some of the unique `NEWS_09` names make that especially obvious:
+
+* `-CLR-.CGX`, `-CLR-.OBJ`, `-CLR-.SCR`, and `-CLR-.PNL`
+* `-INK-TEST-.CGX` and `-INK-TEST-.COL`
+* `test-bg1.scr`, `test-bg2.scr`, `test-bg3.scr`, `test-map.bgx`, and `test-obj.cgx`
+* `kamebossdush.cgx`, `kamebossdush.OBJ`, and `kamebossdush.COL`
+* many `.BAK` alternates of the same CGX, COL, OBJ, and PNL resources
+
+So `NEWS_09` adds something the main source archive barely shows:
+the live scratchpad around the Yoshi art pipeline, including experiments, side variants, and material that may have been abandoned before the cleaner project snapshot was made.
+
+---
+## Digging Into NEWS 09
+The structure inside `NEWS_09` makes it feel like a rough, production-floor art directory rather than a clean asset handoff.
+
+The biggest clue is how aggressively the files are split into working bins:
+
+* `OBJ-VRAM`
+* `ENKEI-VRAM`
+* `KINKEI-VRAM`
+* `TEST`
+* `OBJ-BOTU`
+* `BG-BOTU`
+* `YOKOMAP-V-RAM`
+
+That is not how the integrated source branch is organized.
+Those folder names are much closer to "where the artist put things while working" than "how the final project was meant to be archived."
+
+The file mix reinforces that.
+`NEWS_09` is dominated by:
+
+* `445` `.BAK` files
+* `210` `.CGX`
+* `125` `.COL`
+* `117` `.OBJ`
+* `52` `.SCR`
+* `51` `.PNL`
+
+So this is a very backup-heavy workspace, and that matters historically.
+It preserves revision noise that the cleaner `char`, `OBJ`, and `col` folders mostly smooth away.
+
+Some of the filenames are especially revealing:
+
+* `-CLR-.CGX`, `-CLR-.MAP`, `-CLR-.OBJ`, `-CLR-.PNL`, `-CLR-.SCR`
+* `-INK-TEST-.CGX` and `-INK-TEST-.COL`
+* `test-map.bgx`, `test-map.bcl`, `test-bg1.scr`, `test-bg2.scr`, `test-bg3.scr`
+* `holder.scr` and `holder-2.scr`
+* `kamebossdush.cgx`, `kamebossdush.OBJ`, and `kamebossdush.COL`
+
+That is the sort of naming you expect from a live experimentation folder.
+It captures "clear this out", "ink test this", "hold this version", and "try this map variant" rather than only the names that survived into the final asset bank.
+
+The dates fit that picture too.
+The sampled files in `NEWS_09` cluster heavily across `1994` and the first half of `1995`, with many top-level Yoshi art files dating from spring and early summer `1995`.
+So this looks like an active mid-development personal workspace rather than a post-release dump.
+
+---
+## What NEWS 11 Adds
+`NEWS_11` is much larger and feels closer to a late production art repository.
+It still overlaps the `日本_Ver2` art folders, but it preserves far more side branches and specialist subdirectories.
+
+Its biggest subfolders are:
+
+Folder | File count | What it suggests
+---|---|---
+`CHR-stock` | 150 | A large store of character-bank source or staging material
+`BAK-chr` | 137 | Backed-up character revisions were kept in bulk
+`V-RAM` | 125 | VRAM-specific graphics and palette staging was a major concern
+`4chr-PNL-BAK` | 87 | Older panel or 4-character-layout backups were preserved
+`ENDING` | 83 | Ending-specific visual work survived outside the main project tree
+`BAK-color` | 73 | Bulk color/palette backups
+`NEW-MAP` | 62 | A distinct stream of newer map-related art/layout work
+`SPR` | 33 | Sprite resources survive here much more explicitly than in `日本_Ver2`
+
+This is also where the NEWS material starts to show things that feel genuinely new rather than just alternate copies.
+Examples include:
+
+* many `OBZ` Yoshi movement and action files such as `yoshi-swiming.OBZ`, `yoshi-jump-nobi-KOOPA.OBZ`, `yoshi-fura-fura.OBZ`, and `yoshi-BOSS-END.OBZ`
+* explicit region-leaning art variants such as `60-63-JAP.CGX`, `60-63-PAL.CGX`, `74-77-JAP.CGX`, and `74-77-PAL.CGX`
+* `birds/` test TIFF files, which look much closer to raw artwork iteration than normal build inputs
+* separate `ENDING`, `MAP-YOKO`, `NEW-color`, and `KOOPA-FINAL` folders that make the workspace look strongly task-oriented rather than just format-oriented
+* `SPR` files like `CRYS.SPR`, `POLY.SPR`, `KSYS.SPR`, and `P0OB.SPR`, which are much more visible here than in the main branch
+
+Taken together, `NEWS_11` feels like the stronger of the two supplementary archives.
+It preserves a lot more of the visual-production process that sits behind the cleaned-up resources in `日本_Ver2`.
+
+---
+## Digging Into NEWS 11
+If `NEWS_09` looks like a rough personal scratchpad, `NEWS_11` looks like a much broader art and animation workspace that stayed close to the later asset pipeline.
+
+Its top-level subfolders are unusually informative:
+
+* `CHR-stock`
+* `BAK-chr`
+* `V-RAM`
+* `4chr-PNL-BAK`
+* `ENDING`
+* `BAK-color`
+* `NEW-MAP`
+* `SPR`
+* `birds`
+
+That tells us the workspace was being split by task as much as by file type.
+Instead of one flat art dump, it separates stock character banks, VRAM work, color backups, map updates, ending material, and explicit sprite-state resources.
+
+The extension spread is also much richer than `NEWS_09`:
+
+* `582` `.CGX`
+* `355` `.COL`
+* `316` `.OBJ`
+* `286` `.SCR`
+* `91` `.PNL`
+* `72` `.OBZ`
+* `58` `.SPR`
+* `53` `.MAP`
+* `13` `.tiff`
+
+The `.OBZ` and `.SPR` layers are the standout additions.
+They make `NEWS_11` feel much closer to an animation-state and sprite-behavior workspace than the main `日本_Ver2` art folders.
+
+---
+## The OBZ and SPR Animation Layer
+The single biggest thing `NEWS_11` adds is a huge collection of what look like Yoshi and object animation-state resources.
+
+The `.OBZ` names are extremely descriptive.
+They are not generic lumps of binary data.
+They read like state labels or action names:
+
+* `yoshi-stop-walk-run-jump.OBZ`
+* `yoshi-jump-nobi-KOOPA.OBZ`
+* `yoshi-fura-fura.OBZ`
+* `yoshi-swiming.OBZ`
+* `yoshi-dosun.OBZ`
+* `yoshi-low-fiar.OBZ`
+* `yoshi-bero-ue-yoko.OBZ`
+* `yoshi-bonus.OBZ`
+* `yoshi-BOSS-END.OBZ`
+* `tamago-run.OBZ`
+* `tamago-door.OBZ`
+* `tamago-nage.OBZ`
+* `baby-mario.OBZ`
+* `WORLD-CLEAR-DEMO.OBZ`
+* `DOOR.OBZ` and `DOKAN-UP.OBZ`
+
+That naming strongly suggests these files are not just another object-art format.
+They look like preauthored state sets for Yoshi, eggs, Baby Mario, doors, pipes, and demos.
+
+The matching `.SPR` files push that interpretation further.
+`NEWS_11` keeps top-level sprite resources like:
+
+* `CRYS.SPR`
+* `POLY.SPR`
+* `KSYS.SPR`
+* `P0OB.SPR`
+* `PCHG.SPR`
+* `SWIM.SPR`
+* `SJMP.SPR`
+* `SLIP.SPR`
+* `BOMB.SPR`
+* `SBER.SPR`
+
+It also has a dedicated `SPR/` subfolder containing one-to-one looking companions such as:
+
+* `SPR/yoshi-swiming.SPR`
+* `SPR/yoshi-jump-nobi-nage.SPR`
+* `SPR/yoshi-oshi.SPR`
+* `SPR/yoshi-pelori.SPR`
+* `SPR/yoshi-dosun.SPR`
+* `SPR/yoshi-stop-walk-run-jump.SPR`
+* `SPR/tamago-run.SPR`
+* `SPR/tamago-door.SPR`
+* `SPR/tamago-nage.SPR`
+* `SPR/baby-mario.SPR`
+
+That is one of the strongest "new" areas in the NEWS tapes.
+The main `日本_Ver2` branch tells us a lot about character banks and object conversion, but `NEWS_11` adds a much clearer view of animation-state naming and sprite-state organization.
+
+There are also some useful structural clues inside the files themselves.
+All `72` of the `.OBZ` files in `NEWS_11` are exactly `27,136` bytes long.
+That is a strong sign that they are not arbitrary exported art files.
+They look more like fixed-format state blocks or uniformly packed animation resources.
+
+The `.SPR` files are very different.
+Their sizes vary widely, from only a few hundred bytes up into the low kilobytes, which makes them feel more like compact descriptor, table, or script-like companions rather than the main payload data.
+
+The basename overlap strengthens that reading.
+Out of `72` unique `.OBZ` basenames and `58` unique `.SPR` basenames, `31` names are shared directly.
+
+Some of the strongest pairs are:
+
+* `yoshi-stop-walk-run-jump.OBZ` and `SPR/yoshi-stop-walk-run-jump.SPR`
+* `yoshi-swiming.OBZ` and `SPR/yoshi-swiming.SPR`
+* `yoshi-swiming-cogi.OBZ` and `SPR/yoshi-swiming-cogi.SPR`
+* `yoshi-boyoyon.OBZ` and `SPR/yoshi-boyoyon.SPR`
+* `yoshi-ottotto.OBZ` and `SPR/yoshi-ottotto.SPR`
+* `tamago-run.OBZ` and `SPR/tamago-run.SPR`
+* `tamago-door.OBZ` and `SPR/tamago-door.SPR`
+* `baby-mario.OBZ` and `SPR/baby-mario.SPR`
+
+That makes the split much easier to describe.
+The `.OBZ` side looks like the heavy per-state asset block, while the `.SPR` side looks like a smaller companion layer for those same states.
+
+The unmatched names are just as interesting.
+The `.OBZ`-only set includes things like:
+
+* `WORLD-CLEAR-DEMO`
+* `baby-W1-DEMO`
+* `yoshi-BABY-KIMEPOSE`
+* `yoshi-BOSS-END`
+* `yoshi-KAIDAN`
+* `yoshi-SUBERI`
+* `yoshi-YOGAN`
+* `DOKAN-UP` and `DOKAN-DOWN`
+
+So the `OBZ` pool clearly covers demos, special poses, stairs, sliding, lava, and pipe transitions beyond the states that got paired `SPR` companions.
+
+By contrast, the `SPR`-only pool contains shorter symbolic names such as:
+
+* `SJMP`, `SJMP-1`, `SJMP-2`, `SJMP-3`
+* `SWIM`
+* `SLIP`
+* `BOMB`
+* `BERO`
+* `SBER`
+* `DMGE`
+* `CRYS`, `POLY`, `KSYS`, and `PCHG`
+
+Those names look more like shorthand state labels or helper tables than user-facing asset names.
+Taken together, that makes `NEWS_11` feel like it is preserving a real character-state resource system rather than just a loose pile of sprite files.
+
+One last detail makes this even more important:
+those `yoshi-*`, `tamago-*`, `baby-mario`, `WORLD-CLEAR-DEMO`, and `DOKAN-*` names do not show up at all in the main `日本_Ver2` tree.
+So this whole naming layer is effectively unique to the NEWS tape workspace.
+
+---
+## The Ending Workspace
+`NEWS_11/ENDING` is another major addition.
+This is not just a handful of leftover files.
+It is a dedicated ending-art workspace with its own screens, palettes, staff-roll objects, and backup revisions.
+
+The folder includes:
+
+* `No-1.SCR` through `No-5.SCR`
+* `No1-BG2.CGX` through `No5-BG2.CGX`
+* palette sets like `ENDING-No1.COL` through `ENDING-No5.COL`
+* staff-roll resources such as `STAF-ROLL.OBJ`, `STAF-ROLL.OBX`, `STAF-ROLL-center.OBX`, `STAF-ROLL-M.OBX`, and several `STAF-ROLL-ENGRISH-*` objects
+* bird-related art like `TORI.CGX`, `TORI.OBJ`, `TORI-INDY.CGX`, and `TORI-INDY.OBJ`
+* test and clear files such as `TEST-1.SCR`, `TEST-1.CGX`, `TEST-1.COL`, and `-CLR-.CGX`
+
+That is a lot richer than the main Yoshi source branch, where ending logic is visible through `endt` and program-side references but the visual authoring process is much less exposed.
+
+The `STAF-ROLL-ENGRISH-*` names are especially fun because they show the ending workspace preserving draft or working labels for the staff-roll content rather than cleaned public-facing names.
+
+---
+## Region Variants and Late Art Branching
+`NEWS_11` also keeps some unusually explicit regional art variants:
+
+* `60-63-JAP.CGX`
+* `60-63-PAL.CGX`
+* `60-63-NOA.CGX.BAK`
+* `74-77-JAP.CGX`
+* `74-77-PAL.CGX`
+* `74-77-NOA.CGX.BAK`
+
+That is important because the main source branch already shows `JPN`, `NES`, and `PAL` conditionals in the build.
+The NEWS workspace shows the visual side of that same process.
+
+In other words, the regional branching was not just happening in the asm.
+At least some graphics banks were also being split into Japanese, PAL, and NOA-oriented variants at the art-workspace level.
+
+That makes `NEWS_11` especially valuable when read beside `日本_Ver2`.
+One shows the regional switches inside the build system.
+The other shows the corresponding messier art-side branching that fed those builds.
+
+---
+## What Seems To Be New Versus Duplicated
+The safest way to phrase the relationship is:
+
+* some files are duplicated exactly between `NEWS_11` and `日本_Ver2`
+* some files keep the same names but preserve different intermediate contents
+* many files in both NEWS tapes do not appear in the main branch at all
+
+That means the NEWS tapes are not redundant even when filenames overlap.
+The overlap often marks shared asset families, but not always the same revision of those assets.
+
+In practical terms:
+
+* use `日本_Ver2` when you want the cleanest view of the integrated Yoshi's Island build
+* use `NEWS_09` when you want a rougher personal workspace full of tests, VRAM groupings, and discarded object-side material
+* use `NEWS_11` when you want the richest supplementary art archive, especially for character banks, sprite states, ending visuals, and region-variant graphics
+
+So the NEWS tape restores do not replace the main Yoshi source folder.
+They make it deeper.
+They show much more of the messy artist-side history that sits behind the cleaner `char`, `OBJ`, and `col` data in the core Gigaleak snapshot.

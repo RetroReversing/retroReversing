@@ -5,7 +5,9 @@ tags:
 - leak
 - sourcecode
 title: Original Super Mario Kart Source Code (Gigaleak)
-category: leak
+category: 
+- leak
+- snes
 permalink: /super-mario-kart-source-code
 breadcrumbs:
   - name: Home

@@ -4,10 +4,11 @@ tags:
 - snes
 - leak
 - sourcecode
+- superfx
 title: Original Star Fox Source Code (Gigaleak)
 category: 
-- leak
-- snes
+ - leak
+ - snes
 permalink: /star-fox-source-code
 breadcrumbs:
   - name: Home
@@ -45,6 +46,19 @@ The big takeaways from this Star Fox drop are:
 
 What makes this leak special is that it preserves both the banked Super FX code structure and the separately packed mission/map layer.
 You can see not just "the Star Fox source", but also how its banks, routes, shapes, and data payloads were expected to come together at build time.
+
+This high-level split is easier to see visually:
+
+```mermaid
+flowchart LR
+  A["<b>StarFox</b><br>Gigaleak source drop"] --> B["<b>SG.LZH</b><br>main game and build archive"]
+  A --> C["<b>MAPS.LZH</b><br>route and mission archive"]
+  B --> D["<b>Banked source</b><br>BANK0 to BANK11"]
+  B --> E["<b>Shared definitions</b><br>INC EXT and MC files"]
+  B --> F["<b>Asset packing</b><br>SHBANKS and INCBINS"]
+  C --> G["<b>Mission scripts</b><br>LEVEL and named scene files"]
+  C --> H["<b>Map sprite data</b><br>MSPRITES DAT files"]
+```
 
 ---
 ## Glossary of Key Terms
@@ -274,6 +288,18 @@ It also preserves the interpreter that turns those route-script commands into ac
 
 That is a rare amount of context for a 16-bit game source leak.
 You can read the mission scripts in `MAPS.LZH`, then read `WORLD.ASM` to see exactly how the engine steps through them.
+
+The runtime relationship between those files is one of the nicest things about this leak:
+
+```mermaid
+flowchart LR
+  A["<b>MAPS.ASM files</b><br>mission and scene scripts"] --> B["<b>MAPMACS.INC</b><br>script command macros"]
+  B --> C["<b>WORLD.ASM</b><br>map command interpreter"]
+  C --> D["<b>ISTRATS.ASM</b><br>shape and strategy IDs"]
+  C --> E["<b>Live objects</b><br>spawned enemies actors and events"]
+  E --> F["<b>DEBUG.ASM</b><br>inspect and edit runtime state"]
+  F --> G["<b>DRAW.ASM</b><br>overlay text and bitmap plotting"]
+```
 
 ---
 ### What PLANETS.ASM Reveals
