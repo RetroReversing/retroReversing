@@ -91,13 +91,24 @@ The 2004 design slides detail that while all controls and basic offline progress
 * **Online Tournament Mode** - Players would battle online using the GBA purely as a controller. But exactly like *Pokémon Stadium* or *Pokémon Colosseum*, the actual battle animations and 3D models would be rendered on the PC monitor! The documents specify this was to be built directly "based on Coliseum code and 3D model library."
 * **Online Catching Events** - iQue planned dedicated "Online Pokemon Capture and Treasure Hunt" map events where "additional Pokemon / treasure shall be released on the network for capturing / hunting." This massive early "live-service" event would have been visually rendered entirely on the PC screen.
 
----
-## Structural Offline Limitations
-Because this Netcard infrastructure required constant server-side connectivity and validation, the design specified making radical changes to the vanilla *FireRed* & *LeafGreen* game mechanics whenever the Game Boy Advance was disconnected from the internet:
+### The Windows Deployment Architecture
+We also managed to find the exact Windows executables that iQue intended to use to deploy this entire system out to users. Inside the `nc_stuff.7z` archive lies an `NSIS` (Nullsoft Scriptable Install System) directory containing the compiled `NetCard0524` distribution build executable structure.
 
-1. **Disabled Hatching System** - You could not hatch eggs offline.
-2. **Restricted PC Storage** - Players could only access exactly 36 Pokémon in offline mode (6 in the party, and exactly 30 stored in a single PC box). The rest were likely intended to be securely stored online on the IDC Linux servers to prevent offline cheating modification.
-3. **Disabled Local Wireless** - Despite keeping Link Cable trades functional, the standard wireless Union Room was actively disabled offline to push players exclusively towards the new 3F Online Communication Lobby.
+This folder holds the underlying proxy engines that allowed the Game Boy Advance to seamlessly push data through the host PC and up to the IDC Linux servers:
+* **`libvng.dll`**: A compiled Windows dynamic link library version of the VNG connection API.
+* **`vnproxy.exe` & `usbproxy.exe`**: Dedicated Virtual Network proxy engines meant to run silently in the background, tunneling the GBA's hardware USB driver (`usb_driver/`) traffic straight to the matchmaking servers.
+* **`pki_data/` & `root.pem`**: Public Key Infrastructure certificates, proving all communication between the Game Boy Advance Netcard and the online servers was fully encrypted!
+* **`tomp3.exe`**: A background audio conversion utility, confirming the PC `ncclient` actively ripped and converted audio files into a specific format to accommodate the GBA's lighter-weight MAD software decoding engine!
+
+---
+## Structural Gameplay Changes (Offline & Online)
+Because this Netcard infrastructure required constant server-side connectivity, the design specified making radical changes to the vanilla *FireRed* & *LeafGreen* game mechanics to incentivize internet usage and cater to the Chinese iQue audience:
+
+1. **The "Region" Concept** - To encourage massive online trading over the WAN, the initial retail release would contain the full *FireRed* and *LeafGreen* maps, but wild Pokémon distributions would be strictly "region-locked" depending on the player. You would literally *have* to trade online via the Global Trade Board to complete the Pokédex.
+2. **Online Hatching System** - The classic local egg hatching step-counter system was disabled offline. Eggs could presumably only be hatched while actively connected to the server, likely to track and prevent the illicit offline generation of rare Pokémon.
+3. **Restricted PC Storage** - Players could only access exactly 36 Pokémon in offline mode (6 in the party, and exactly 30 stored in a single PC Box). The rest had to be banked securely online on the IDC Linux servers to prevent offline save-file Hex editing.
+4. **Disabled Local Wireless** - The standard wireless Union Room was actively disabled offline to push players exclusively towards the new 3F Online Communication Lobby.
+5. **New Chinese Input Method** - A native Chinese localization input mechanism was built into the offline GBA game specifically to enable complex chat features within the newly designed 3F Communication Lobby.
 
 ---
 ## The Fate of VNG (gba.tar)

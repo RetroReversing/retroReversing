@@ -1,0 +1,784 @@
+---
+layout: post
+tags:
+- snes
+- fileformats
+title: Super Famicom / SNES File Formats
+category: snes
+permalink: /snes-file-formats
+breadcrumbs:
+  - name: Home
+    url: /
+  - name: Super Nintendo (Super Famicom)
+    url: /snes
+  - name: SNES File Formats
+    url: #
+recommend:
+- snes
+- fileformats
+editlink: /consoles/snes/SNESFileFormats.md
+updatedAt: '2026-03-30'
+excerpt: Evidence-backed SNES file formats from leaked Nintendo workspaces and source trees
+---
+
+# Super Famicom / SNES File Formats
+This page covers the main file formats that now show up clearly in leaked Nintendo Super Famicom workspaces.
+
+The most useful recent evidence comes from the Super Mario Kart source and art branches, the SimCity SNES `SIM` workspace, the Zelda SNES art folders, and the SFX-DOS environment. That gives us a much firmer basis than older “maybe this means screen data” style guesses.
+
+{% include link-to-other-post.html post="/super-mario-kart-source-code" description="For a full source-side view of these formats in practice, see the Super Mario Kart source page." %}
+
+---
+## Source and Build Files
+The code-side SNES leaks preserve a fairly standard Nintendo workstation mix of assembly, definitions, linkable outputs, and makefiles.
+
+Extension | What it usually is | What we now know
+---|---|---
+`.ASM` | 65c816 assembly source | The main source form in Super Mario Kart and F-Zero. Real game logic, editor code, runtime systems, and tools all survive in `.asm`
+`.DEF` | Definition or include file | Used for shared constants, labels, WRAM layouts, and structured symbol definitions such as `work.def` and `label.def`
+`.REL` | Relocatable object or linked module | Shows up in SNES build flows like F-Zero as an intermediate or link-target file rather than plain source
+`.MAKE` / `makefile` | Build recipe | Nintendo source trees preserve makefiles that show the real module list and regional build differences
+`.BAT` | DOS build or helper script | Common in the broader SNES tooling ecosystem, especially where assets or editors were launched from DOS environments
+
+The main lesson from the leaks is that Nintendo did not keep source and content tooling neatly separated.
+Editor code, game code, support libraries, and content pipelines often lived in the same project tree.
+
+---
+## Graphics, Layout, and UI Formats
+The workstation-side asset formats are where the recent leak work has taught us the most.
+
+Extension | What it usually is | What we now know
+---|---|---
+`.SCR` | Screen or layout table | In the Mario Kart and SimCity art workspaces these are not raw images. They are fixed-layout screen or tile composition files, very often `8,960` bytes, built from structured 16-bit entries
+`.OBJ` | Object or object-layout data | In Mario Kart and SimCity these are fixed-capacity object-layout containers, often `13,568` bytes, with repeated short record patterns rather than graphic data
+`.CGX` | Character or tile graphics bank | One of the main Nintendo workstation graphics formats. In the art branches it holds text banks, menu graphics, object graphics, environment banks, and larger panel or HUD graphics
+`.COL` | Palette data | Strongly looks like packed color tables. In Mario Kart and SimCity these are very often `1,024` bytes and sit directly beside `SCR` and `CGX` files
+`.MAP` | Map or area data | Seen heavily in Zelda SNES and the Mario Kart source tree. The name covers editable layout-side map resources rather than final ROM-only representations
+`.MD7` | Raw Mode 7 map data | Clearly visible in the Mario Kart art branch as `32,768` byte map files like `C.MD7` and `S.MD7`
+`.BAK` | Backup revision | Not a format in the gameplay sense, but an important part of how Nintendo workspaces were preserved. These are real earlier revisions, not just meaningless duplicates
+`.old` | Older saved revision | Rare but very useful. In SimCity `moji.CGX.old` shows that some banks kept an edit trail beyond the usual `.BAK` pattern
+
+The important pattern is that Nintendo's art-side SNES folders preserve layout, object placement, palette, and graphics as separate editable layers.
+They were not just painting final screens and baking them immediately into ROM.
+
+---
+## What the Wider Leak Adds
+The strongest new clue does not come from a single game folder.
+It comes from the wider `NEWS_04` restore, where Nintendo's workstation files preserve what looks like the CAD tool's own native working area.
+
+The most useful paths are:
+
+* `home/sugiyama/.CAD_SRD/`
+* `home/arimoto/.CAD_SRD/`
+* `home/arimoto/CAD_ERR.TXT`
+* `home/sugiyama/SAMPLE.sfx_main.LST`
+* `home/sugiyama/.CAD_SRD/CAD.sfx_main.LST`
+
+That matters because `.CAD_SRD` is not a game-specific UI folder.
+It is a tool-side workspace that stores the same format family directly:
+
+Type | Example files | What this confirms
+---|---|---
+`.SCR` | `CAD-0.SCR` to `CAD-3.SCR` | the CAD environment used fixed `8,960` byte screen containers natively
+`.CGX` | `CAD-0.CGX` to `CAD-3.CGX` | graphics banks were grouped into numbered CAD pages
+`.COL` | `CAD-0.COL` to `CAD-3.COL` | palette data was kept beside each CAD page
+`.OBJ` | `CAD-0.OBJ` to `CAD-3.OBJ` | object data was a first-class CAD layer, not a later runtime-only export
+`.OBX` | `CAD-0.OBX`, `CAD-3.OBX` | the tool also had a larger object-adjacent companion format with its own `S-CG-CAD` header
+`.DAT` / `.LST` | `CAD.sfx_main.DAT`, `CAD.sfx_main.LST` | the CAD tool kept its own loader and asset manifest sidecars
+
+The `CAD.sfx_main.LST` files are the best single provenance artifact.
+They explicitly point at the tool-side loader path:
+
+`/usr/local/srd/cad/sfc/sfx_main.hex`
+
+and then list the asset groups the tool expected to manage:
+
+* `CAD-0.CGX` to `CAD-3.CGX`
+* `CAD-0.OBJ` to `CAD-3.OBJ`
+* `CAD-0.COL` to `CAD-3.COL`
+
+That means the current format story is no longer just that these files happen to sit beside each other in game branches.
+Nintendo's own CAD workspace and loader manifests treat them as linked editable layers.
+
+The small `CAD_ERR.TXT` log supports that too.
+It records an object pass from `OBJ Number = 0` through `OBJ Number = 3`, which matches the numbered CAD pages and makes the object-bank model much harder to dismiss as coincidence.
+
+Another useful trace survives in `CAD_pglist.dat`, where `sfx_main` is listed under the Japanese heading `転送プログラム`, or "transfer program."
+That makes `sfx_main` look less like a passive file suffix and more like a real CAD-side transfer component in the SRD workstation pipeline.
+
+The numbered CAD samples also make it easier to separate per-format roles.
+`CAD-0.SCR`, `CAD-0.CGX`, `CAD-0.COL`, and `CAD-0.OBJ` all begin with live data immediately, while formats like `CAD-0.OBX` and some `CAD-3` variants keep large silent regions before their active blocks.
+That is another good sign that Nintendo's toolchain was using several related containers for different stages of the same screen or object workflow rather than one generic binary dump.
+
+---
+## What SCR Looks Like in Practice
+`.SCR` is one of the most common and most misunderstood formats in the leaks.
+
+The evidence now points in a much clearer direction:
+
+* many Nintendo SNES workstation `.SCR` files are exactly `8,960` bytes
+* they read as structured 16-bit values rather than bitmap pixels
+* their openings often look like ordered tile or layout tables, not compressed art
+
+<img src="/public/images/snes/CAD-TOOL-SCR.jpg" class="wow slideInLeft postImage" />
+
+The surviving CAD-tool screenshot is especially helpful here because it shows the format in its native context.
+The tool exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` as separate operations, which matches the exact layer split now visible in the SimCity and Mario Kart workspaces.
+
+A few examples:
+
+File | Opening pattern | Reading
+---|---|---
+Mario Kart `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022`, `0x0023` | ordered layout/table entries
+Mario Kart `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` | another structured layout table
+SimCity `TOWN.SCR` | repeating low 16-bit values like `0x0601`, `0x100B`, `0x100C` | patterned screen composition data
+SimCity `bank-ji.SCR` | long run of `0x03FF` | special-purpose text or bank screen rather than ordinary menu art
+
+The safest current reading is that `.SCR` is an editor-side screen composition format built from 16-bit layout entries.
+It is close to “screen data,” but more precisely it looks like a reusable workstation layout table rather than a one-to-one PPU dump.
+
+Some files also show template reuse.
+In the SimCity branch, `SELECT-SCENARIO.SCR` and `INPUT1.SCR` share the same opening structure before diverging later, which suggests the team was building multiple UI screens from a shared composition base.
+
+### What We Can Say More Precisely About SCR
+The strongest low-level clues now are:
+
+* the files are consistently word-oriented rather than byte-oriented
+* many openings look like ordered tile or table IDs
+* some files are dominated by long repeated words, which suggests fill regions or template blocks
+
+That is easy to see in a few representative openings:
+
+File | First words | Likely reading
+---|---|---
+SimCity `SELECT-SCENARIO.SCR` | `0x0020`, `0x0021`, `0x0022` ... `0x0060`, `0x0061` | ordered tile/table sequence
+SimCity `MAP-SELECT.SCR` | `0xFFFF`, `0x0800`, `0x0801`, `0x0802` ... | layout table with a sentinel-like opening word
+Mario Kart `TITLE.SCR` | `0x00D9` repeated | large fill or repeated template region
+Mario Kart `DOKAN.SCR` | `0x1C00`, `0x1C01`, `0x5C01`, `0x5C00` repeating | strongly patterned tile/flip arrangement
+SimCity `bank-ji.SCR` | `0x03FF` repeated | special-purpose screen or text-bank support layout
+
+So while we still cannot name every bitfield, `.SCR` now looks much more like:
+
+* a 16-bit screen-composition format
+* with room for repeated fill regions and template reuse
+* probably storing tile IDs plus per-entry flags rather than raw pixels
+
+### The Strongest Current Model for SCR
+At least in the SimCity `SIM` workspace, the file structure now looks much clearer than before.
+
+An `8,960` byte `.SCR` file appears to break into three broad parts:
+
+Range | Size | Likely role
+---|---:|---
+`0x0000` to `0x1fff` | `2,048` bytes | first `32x32` tilemap-like block
+`0x2000` to `0x3fff` | `2,048` bytes | second `32x32` tilemap-like block
+`0x4000` to `0x5fff` | `2,048` bytes | third `32x32` tilemap-like block
+`0x6000` to `0x7fff` | `2,048` bytes | fourth `32x32` tilemap-like block
+`0x8000` to `0x80ff` | `256` bytes | tool metadata block
+`0x8100` to `0x82ff` | `512` bytes | trailer or reserved tail region
+
+That first `8,192` byte region is the key insight.
+It is exactly four `2,048` byte chunks, and each `2,048` byte chunk is exactly `1,024` 16-bit entries, which matches a `32x32` tilemap very neatly.
+
+That means the current best working model is:
+
+* `.SCR` stores four `32x32` layout blocks, likely forming a larger editor canvas
+* then appends a small metadata area
+* then appends a final trailer region that may hold sentinels, padding, or editor-side state
+
+### The Metadata Block Is Real, Not Just Garbage
+The most surprising clue is what happens at offset `0x2000` words, or byte `8192`.
+
+In several SimCity `.SCR` files, the `256` byte block after the four tilemap-sized chunks begins with the same ASCII tool signature seen in `.SFX`:
+
+`NAK1989 S-CG-CADVer...`
+
+That means `.SCR` is not only “screen layout data.”
+At least in the SimCity pipeline, it is a container that mixes:
+
+* raw layout tables
+* a small embedded tool metadata block
+* a final trailer area
+
+This is a much stronger result than the earlier generic description, because it suggests the workstation was saving editor-state information directly inside the screen file rather than only in a separate sidecar.
+
+That also lines up very well with the surviving CAD-tool screenshot from the same broader Nintendo workstation ecosystem.
+The UI explicitly exposes `SCREEN`, `OBJ`, `MAP`, and `SFX FILE` operations side by side, which is exactly the same layered split now visible in the SimCity file set.
+
+### The First Four Blocks Really Do Behave Like Reusable Screen Chunks
+The repeated layout blocks make the four-part model even more convincing.
+
+For example:
+
+* `SELECT-SCENARIO.SCR` has the same opening words at word `0` and word `1024`
+* `MAP-SELECT.SCR` shows the same thing
+* `TOWN.SCR` repeats the same opening pattern at words `0`, `1024`, `2048`, and `3072`
+
+So the front of these files does not look like one long scrolling stream of tile entries.
+It looks like several fixed screen-sized layout blocks packed into one editor-side container.
+
+### The Four SCR Blocks Do Not All Play the Same Role
+The CAD-native samples help here too.
+`CAD-0.SCR` does not repeat the same leading words across all four blocks:
+
+* block `0` begins with `0x2001` repeated
+* block `1` begins with `0xFC01` repeated
+* blocks `2` and `3` begin as all zeroes
+
+That matters because it suggests the four `32x32` blocks are not simply four clones of one screen.
+They look more like four addressable screen-sized layers or pages inside one CAD container.
+
+By contrast, SimCity's `TOWN.SCR` repeats the same opening words across all four blocks:
+
+* `0x0601`
+* `0x0601`
+* `0x100B`
+* `0x100C`
+
+That suggests some files were using all four blocks as matching layout pages, while others were only actively populating the first one or two.
+
+The trailer is also more patterned than it first appeared.
+`CAD-0.SCR` alternates `0xFFFF` and `0x0000` pairs near the end, while `TOWN.SCR` ends in a solid run of `0xFFFF`.
+So the final `512` byte region probably was not random padding.
+It looks more like a reserved editor-side tail with stable sentinel behavior.
+
+---
+## What OBJ Looks Like in Practice
+`.OBJ` is another format that is much clearer now than it used to be.
+
+In both Mario Kart and SimCity, the files look like structured object-placement or object-text records rather than graphics:
+
+* they commonly appear at `13,568` bytes
+* they break naturally into short repeating groups
+* they sit beside text banks, menu screens, and object-facing graphics
+
+The Mario Kart object files are especially revealing because many of them read cleanly as repeating 3-word entries.
+For example, files like `JUGEM.OBJ`, `POLE.OBJ`, and `CAR.OBJ` open with repeated triples that look much more like compact object definitions than tile data.
+
+The SimCity side adds another clue:
+
+* `MOJI.OBJ` and `SCENARIO.OBJ` share the same opening record pattern
+* `INPUT.OBJ` is shaped differently and looks tied to the input workflow
+
+So the current best reading is:
+
+* `.OBJ` is not generic “object graphics”
+* it is an object-side placement or assembly format
+* in UI-heavy projects it can also carry object-form text layout data
+
+The native CAD samples tighten that up further.
+`CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it keeps the same compact 3-word rhythm:
+
+* `0080 08F8 3331`
+* `0080 00F8 3231`
+* `0080 F8F8 3131`
+
+So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
+
+### What the OBJ Record Shape Seems to Be
+Across both Mario Kart and SimCity, the most convincing structural reading is a repeating 3-word record model.
+
+Representative openings:
+
+File | First record triples
+---|---
+SimCity `MOJI.OBJ` | `[0x0080, 0xCAB2, 0x3030]`, `[0x0080, 0xCAAA, 0x2030]`, `[0x0080, 0x18C0, 0x8C30]`
+SimCity `SCENARIO.OBJ` | same opening triples as `MOJI.OBJ`
+SimCity `INPUT.OBJ` | `[0x0000, 0xE0E0, 0x7130]`, `[0x0000, 0xE8E0, 0x6130]`, `[0x0000, 0xF0E0, 0x7030]`
+Mario Kart `CAR.OBJ` | `[0x0080, 0xF8F8, 0xB333]`, `[0x0080, 0xF0F8, 0xB233]`, `[0x0080, 0xE8F8, 0xB133]`
+Mario Kart `JUGEM.OBJ` | `[0x0080, 0xED00, 0x0C30]`, `[0x0080, 0xEDF8, 0x0E30]`, `[0x0080, 0xEDF0, 0x0E30]`
+Mario Kart `POLE.OBJ` | `[0x0080, 0x18F8, 0x333A]`, `[0x0080, 0x10F8, 0x323A]`, `[0x0080, 0x18F0, 0x233A]`
+
+That gives us a stronger working model:
+
+* word 1 often behaves like a control or active-record marker
+* word 2 often behaves like a packed coordinate or placement value
+* word 3 often behaves like a tile, attribute, or object-type value
+
+That is still an inference, but it is now a much narrower one than “some kind of object data.”
+
+---
+## What CGX Looks Like in Practice
+`.CGX` is the main graphics bank format.
+
+In the recent leak work it appears in a few very common size classes:
+
+Size | Where it shows up | Reading
+---|---|---
+`17,664` bytes | smaller text and utility banks in SimCity and Mario Kart | compact tile or glyph bank
+`34,048` bytes | common menu, UI, object-text, and title banks | larger graphics or panel bank
+`65,792` bytes | large shared Mario Kart bank like `BG-ITEM.CGX` | very large packed graphics set
+
+The important thing is not the exact byte count alone, but the role.
+`.CGX` is consistently where Nintendo kept reusable character, tile, text, or panel graphics before they were assembled into complete screens.
+
+The surviving CAD-tool screenshot is especially helpful here too.
+Its left-hand controls explicitly show `4bit` and `8*8`, which strongly suggests the tool was editing at least some `CGX` banks as raw 8x8 4bpp SNES tiles rather than as a higher-level wrapped image format.
+
+<img src="/public/images/snes/SNES-CGE.jpg" class="wow slideInLeft postImage" />
+
+### What the Size Tiers Probably Mean
+The repeated size classes now look meaningful enough to treat as separate tiers rather than random project choices.
+
+Tier | Common sizes | Likely role
+---|---|---
+Small text/utilities | `17,664` bytes | compact glyph banks, helper graphics, smaller text resources
+Standard UI banks | `34,048` bytes | title graphics, menu panels, object-text banks, larger icon sets
+Large shared banks | `65,792` bytes | broad multi-purpose environment or item banks
+
+SimCity shows the split very clearly:
+
+* top-level `KANJI.CGX` and `OBJ-MOJI.CGX` are both `34,048` bytes, but they behave differently
+* inside `SIM/is`, `moji.CGX`, `mojiA.CGX`, and `kanji.CGX` are all `17,664` bytes and look like a separate smaller text tier
+
+That suggests Nintendo's tools were not just saving “graphics” in one generic container.
+They were likely using a few stable bank sizes depending on whether the asset was a compact glyph set, a standard UI bank, or a much larger shared bank.
+
+The CAD-native `CGX` banks are also behaving like raw tile banks rather than wrapper formats.
+For example, `CAD-1.CGX` begins immediately with dense graphic-looking bytes such as:
+
+* `00 00 00 3F 1F 5F 3F 7F`
+* `3F 7F 3C 7C 38 78 38 78`
+
+while SimCity banks such as `KANJI.CGX` and `OBJ-MOJI.CGX` show very different early bytes but the same broad fixed-size bank behavior.
+
+That does not give us a full tile decode yet, but it does support a few practical conclusions:
+
+* `.CGX` probably does not carry a large structured header
+* it looks like direct character or tile-plane data from the start of the file
+* different size tiers likely reflect different bank capacities, not different container grammars
+
+### CGX Sizes Fit Raw 8x8 Tile Banks Well
+The common size classes also line up cleanly with raw SNES tile math.
+
+If you treat `.CGX` as 4bpp SNES character data, where each 8x8 tile takes `32` bytes, the standard file sizes become:
+
+Size | 4bpp tile count
+---|---:
+`17,664` bytes | `552` tiles
+`34,048` bytes | `1,064` tiles
+`65,792` bytes | `2,056` tiles
+
+That is a very clean fit.
+It does not prove that every bank is 4bpp, but it is much more convincing than the older idea that these files needed a large hidden wrapper or a non-tile-oriented decode.
+
+The CAD screenshot strengthens that further because it shows `4bit` mode directly in the editor UI.
+So the safest current working model for a viewer is:
+
+* default to `8x8` tiles
+* default to `4bpp` for ordinary `CGX`
+* allow `2bpp` as an explicit option for special banks like `BG2bit.CGX`
+
+### Many CGX Files End in Blank or Fill Tiles
+The tails of the files are also informative.
+
+Representative endings:
+
+File | Tail behavior | Reading
+---|---|---
+CAD `CAD-0.CGX` | ends with repeated `0x04` bytes | likely filled or reserved tile area
+SimCity `KANJI.CGX` | ends with repeated `0x02` bytes | another fill-like tail rather than a text header
+Mario Kart `MOJI.CGX` | last `92` bytes mostly zero | bank ends with partial blank area
+Mario Kart `TITLE.CGX` | last `399` bytes are zero | large blank tile tail
+
+That matters because it makes the format look even more like a raw tile bank.
+Instead of ending in obvious metadata, many files simply taper off into empty or fill-like tile space.
+
+### What This Means for a Viewer
+We are now close to having enough to build a useful `CGX` viewer.
+
+The current best assumptions are:
+
+* read the file from byte `0` as raw tile data
+* render it as `8x8` SNES character tiles
+* default to `4bpp`
+* support `2bpp` for files whose names or companion assets suggest a reduced-bit-depth bank
+* treat trailing zero or fill tiles as unused space rather than parsing them as a separate footer format
+
+What we still do not know with confidence is whether some projects also used `8bpp` banks under the same extension.
+So a practical viewer should probably expose a bit-depth toggle rather than hard-coding one mode forever.
+
+You can inspect a `.CGX` file directly below.
+This viewer treats the file as raw SNES tile data from byte zero, defaults to `4bpp`, and lets you switch bit depth when a bank like `BG2bit.CGX` needs a different decode.
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesCgxViewer.tsx">
+</rr-sandpack>
+
+---
+## What COL Looks Like in Practice
+`.COL` looks much more like raw palette data than older writeups tended to imply.
+
+In both Mario Kart and SimCity:
+
+* many `.COL` files are exactly `1,024` bytes
+* they sit directly beside matching `.SCR` and `.CGX` files
+* their contents read as packed little-endian color words rather than text or layout records
+
+So the practical reading is simple:
+
+* `.CGX` is the graphics bank
+* `.COL` is the matching color table
+
+The current evidence also suggests `.COL` is usually an editor-side companion to a particular screen or graphics family rather than a project-global palette blob.
+That is why the files so often sit directly beside matching `SCR` and `CGX` names.
+
+For Super Mario Kart specifically, this matches how modern editors like Epic Edit read the format:
+
+* raw SNES CGRAM-style palette data
+* `BGR555` packed colors
+* `16` colors per palette row
+* `2` bytes per color
+* little-endian 16-bit words on disk
+
+You can inspect a `.COL` file directly below.
+This viewer groups the file into 16-color rows and renders each entry as a swatch using the same `BGR555` decoding described above.
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesColPaletteViewer.tsx">
+</rr-sandpack>
+
+The CAD samples make the palette reading even stronger.
+`CAD-0.COL` opens with words like:
+
+* `0x7FFF`
+* `0x7359`
+* `0x5A93`
+* `0x4A0F`
+* `0x41CD`
+
+Those are exactly the kind of low 15-bit values you would expect from packed SNES palette entries rather than layout or text data.
+The file is also only partly populated near the end, which fits an editor-side palette bank with unused slots better than a compressed blob or opaque runtime structure.
+
+### COL Looks Like a 512-Entry Palette Bank
+The size lines up neatly with a palette model too.
+
+An ordinary `1,024` byte `.COL` file contains:
+
+* `512` little-endian 16-bit words
+* which divides cleanly into `32` groups of `16` colors
+
+That is the strongest current structural model:
+
+* `.COL` is a 32-row palette bank
+* each row holds 16 colors
+* the rows were likely meant to be consumed by different screen, tile, or object groups inside the CAD environment
+
+This fits the data better than treating the file as one flat pool of unrelated colors, because the values keep clustering cleanly into 16-color runs across multiple projects.
+
+Representative examples:
+
+File | Size | 16-color rows | Reading
+---|---:|---:|---
+`CAD-0.COL` | `1,024` | `32` | CAD-native palette bank with a dense first half and a sparse second half
+SimCity `BG2bit.COL` | `1,024` | `32` | UI palette bank with many row-zero black entries
+Mario Kart `TITLE.COL` | `1,024` | `32` | title-screen palette bank with bright gradients and extra spare rows
+
+The first half of the file is usually much denser than the second.
+For example:
+
+* `CAD-0.COL` has `227` nonzero colors in the first `256` entries, but only `47` in the second half
+* SimCity `BG2bit.COL` has `230` nonzero colors in the first half, `127` in the second
+* Mario Kart `TITLE.COL` has `237` nonzero colors in the first half, `137` in the second
+
+That suggests the later rows were often reserved, unused, or only partly populated rather than being a mandatory second image-sized block.
+
+### The First Entry in a 16-Color Row Often Behaves Like Transparency
+Another recurring pattern is what happens every 16 words.
+
+In several files, the first color in many rows is `0x0000`.
+That is especially obvious in SimCity `BG2bit.COL`, where the first entry of many 16-color groups is black:
+
+* row `0` starts with `0x0000`
+* row `1` starts with `0x0000`
+* row `2` starts with `0x0000`
+* row `3` starts with `0x0000`
+
+That is exactly the sort of pattern you would expect if the format was organized around 16-color SNES palettes where color slot `0` often acts as a transparent or backdrop color.
+
+The same pattern is weaker but still visible in the CAD and Mario Kart files.
+So the safest current reading is:
+
+* `.COL` stores palette rows, not arbitrary standalone colors
+* many rows keep a conventional slot-zero black or transparent-like entry
+* the format is closely aligned with real SNES color usage rather than being a workstation-only abstract color list
+
+### The Words Decode Cleanly as SNES-Style Colors
+The color values themselves also decode sensibly if read as SNES-style 15-bit colors.
+
+For example, Mario Kart `TITLE.COL` begins with:
+
+* `0x7FFF`
+* `0x7FDE`
+* `0x7FBD`
+* `0x7B7B`
+* `0x7739`
+
+Those all resolve into high-intensity stepped RGB values, exactly what you would expect from a bright title-screen gradient.
+
+SimCity `BG2bit.COL` is more muted:
+
+* `0x08AA`
+* `0x0447`
+* `0x4652`
+* `0x35CE`
+
+and the CAD-native `CAD-0.COL` sits somewhere between them, with strong whites, grays, and accent colors.
+
+That does not tell us everything about the CAD tool's own UI conventions, but it does confirm that the words are behaving like real SNES CGRAM-style `BGR555` colors rather than arbitrary IDs or offsets.
+
+A few swatches make the point much more clearly than hex alone:
+
+Value | Sample source | Approximate color | Swatch
+---|---|---|---
+`0x7FFF` | Mario Kart `TITLE.COL` | bright white | <span style="display:inline-block;width:3em;height:1.2em;background:#ffffff;border:1px solid #888;"></span>
+`0x7FDE` | Mario Kart `TITLE.COL` | cool off-white | <span style="display:inline-block;width:3em;height:1.2em;background:#f7f7ff;border:1px solid #888;"></span>
+`0x7B7B` | Mario Kart `TITLE.COL` | pale blue-gray | <span style="display:inline-block;width:3em;height:1.2em;background:#dedef7;border:1px solid #888;"></span>
+`0x7359` | CAD `CAD-0.COL` | light steel blue | <span style="display:inline-block;width:3em;height:1.2em;background:#ced6e7;border:1px solid #888;"></span>
+`0x5A93` | CAD `CAD-0.COL` | muted gray-blue | <span style="display:inline-block;width:3em;height:1.2em;background:#9ca5b5;border:1px solid #888;"></span>
+`0x4A0F` | CAD `CAD-0.COL` | darker slate blue | <span style="display:inline-block;width:3em;height:1.2em;background:#7b8494;border:1px solid #888;"></span>
+`0x08AA` | SimCity `BG2bit.COL` | warm brown | <span style="display:inline-block;width:3em;height:1.2em;background:#522910;border:1px solid #888;"></span>
+`0x0447` | SimCity `BG2bit.COL` | deep brown | <span style="display:inline-block;width:3em;height:1.2em;background:#391008;border:1px solid #888;"></span>
+`0x4652` | SimCity `BG2bit.COL` | neutral gray | <span style="display:inline-block;width:3em;height:1.2em;background:#94948c;border:1px solid #888;"></span>
+`0x35CE` | SimCity `BG2bit.COL` | darker gray | <span style="display:inline-block;width:3em;height:1.2em;background:#73736b;border:1px solid #888;"></span>
+
+<img src="/public/images/snes/Super_Mario_Kart-title.png" class="wow slideInLeft postImage" />
+
+Mario Kart `TITLE.COL` is also a good worked example because the first `16` rows really do look like screen palette rows, while row `16` onward turns into CAD-side metadata and trailer data rather than more title colors.
+
+Here are the first `16` palette rows from the title screen as full swatches:
+
+<div style="overflow-x:auto;">
+<table>
+<thead>
+<tr>
+<th>Row</th>
+<th>0</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th>
+<th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><code>00</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#f7f7ff;color:#000;border:1px solid #999;"><code>7FDE</code></td><td style="padding:0.2em;text-align:center;background:#efefff;color:#000;border:1px solid #999;"><code>7FBD</code></td><td style="padding:0.2em;text-align:center;background:#dedef7;color:#000;border:1px solid #999;"><code>7B7B</code></td><td style="padding:0.2em;text-align:center;background:#ceceef;color:#000;border:1px solid #999;"><code>7739</code></td><td style="padding:0.2em;text-align:center;background:#bdbdef;color:#000;border:1px solid #999;"><code>76F7</code></td><td style="padding:0.2em;text-align:center;background:#adadde;color:#000;border:1px solid #999;"><code>6EB5</code></td><td style="padding:0.2em;text-align:center;background:#9c9cce;color:#000;border:1px solid #999;"><code>6673</code></td><td style="padding:0.2em;text-align:center;background:#8c8cbd;color:#fff;border:1px solid #999;"><code>5E31</code></td><td style="padding:0.2em;text-align:center;background:#7b7bad;color:#fff;border:1px solid #999;"><code>55EF</code></td><td style="padding:0.2em;text-align:center;background:#6b6ba5;color:#fff;border:1px solid #999;"><code>51AD</code></td><td style="padding:0.2em;text-align:center;background:#5a5a94;color:#fff;border:1px solid #999;"><code>496B</code></td><td style="padding:0.2em;text-align:center;background:#4a4a7b;color:#fff;border:1px solid #999;"><code>3D29</code></td><td style="padding:0.2em;text-align:center;background:#292929;color:#fff;border:1px solid #999;"><code>14A5</code></td></tr>
+<tr><td><code>01</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#e7e7e7;color:#000;border:1px solid #999;"><code>739C</code></td><td style="padding:0.2em;text-align:center;background:#f7ce84;color:#000;border:1px solid #999;"><code>433E</code></td><td style="padding:0.2em;text-align:center;background:#d6ad63;color:#000;border:1px solid #999;"><code>32BA</code></td><td style="padding:0.2em;text-align:center;background:#a57b4a;color:#fff;border:1px solid #999;"><code>25F4</code></td><td style="padding:0.2em;text-align:center;background:#846331;color:#fff;border:1px solid #999;"><code>1990</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#a50000;color:#fff;border:1px solid #999;"><code>0014</code></td><td style="padding:0.2em;text-align:center;background:#730000;color:#fff;border:1px solid #999;"><code>000E</code></td><td style="padding:0.2em;text-align:center;background:#00bd00;color:#fff;border:1px solid #999;"><code>02E0</code></td><td style="padding:0.2em;text-align:center;background:#52bdff;color:#000;border:1px solid #999;"><code>7EEA</code></td><td style="padding:0.2em;text-align:center;background:#639cf7;color:#fff;border:1px solid #999;"><code>7A6C</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#292929;color:#fff;border:1px solid #999;"><code>14A5</code></td></tr>
+<tr><td><code>02</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#e7e7e7;color:#000;border:1px solid #999;"><code>739C</code></td><td style="padding:0.2em;text-align:center;background:#f7ce84;color:#000;border:1px solid #999;"><code>433E</code></td><td style="padding:0.2em;text-align:center;background:#d6ad63;color:#000;border:1px solid #999;"><code>32BA</code></td><td style="padding:0.2em;text-align:center;background:#a57b4a;color:#fff;border:1px solid #999;"><code>25F4</code></td><td style="padding:0.2em;text-align:center;background:#846331;color:#fff;border:1px solid #999;"><code>1990</code></td><td style="padding:0.2em;text-align:center;background:#00ef00;color:#fff;border:1px solid #999;"><code>03A0</code></td><td style="padding:0.2em;text-align:center;background:#00a500;color:#fff;border:1px solid #999;"><code>0280</code></td><td style="padding:0.2em;text-align:center;background:#008400;color:#fff;border:1px solid #999;"><code>0200</code></td><td style="padding:0.2em;text-align:center;background:#730000;color:#fff;border:1px solid #999;"><code>000E</code></td><td style="padding:0.2em;text-align:center;background:#52bdff;color:#000;border:1px solid #999;"><code>7EEA</code></td><td style="padding:0.2em;text-align:center;background:#639cf7;color:#fff;border:1px solid #999;"><code>7A6C</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#292929;color:#fff;border:1px solid #999;"><code>14A5</code></td></tr>
+<tr><td><code>03</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#f7c600;color:#000;border:1px solid #999;"><code>031E</code></td><td style="padding:0.2em;text-align:center;background:#639cf7;color:#fff;border:1px solid #999;"><code>7A6C</code></td><td style="padding:0.2em;text-align:center;background:#00ef00;color:#fff;border:1px solid #999;"><code>03A0</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#c6ad63;color:#000;border:1px solid #999;"><code>32B8</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#e7ce84;color:#000;border:1px solid #999;"><code>433C</code></td><td style="padding:0.2em;text-align:center;background:#bdef73;color:#000;border:1px solid #999;"><code>3BB7</code></td><td style="padding:0.2em;text-align:center;background:#ffffb5;color:#000;border:1px solid #999;"><code>5BFF</code></td><td style="padding:0.2em;text-align:center;background:#d6ff84;color:#000;border:1px solid #999;"><code>43FA</code></td><td style="padding:0.2em;text-align:center;background:#94ef73;color:#000;border:1px solid #999;"><code>3BB2</code></td><td style="padding:0.2em;text-align:center;background:#ffffb5;color:#000;border:1px solid #999;"><code>5BFF</code></td><td style="padding:0.2em;text-align:center;background:#adff84;color:#000;border:1px solid #999;"><code>43F5</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td></tr>
+<tr><td><code>04</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#007300;color:#fff;border:1px solid #999;"><code>01C0</code></td><td style="padding:0.2em;text-align:center;background:#739494;color:#fff;border:1px solid #999;"><code>4A4E</code></td><td style="padding:0.2em;text-align:center;background:#940000;color:#fff;border:1px solid #999;"><code>0012</code></td><td style="padding:0.2em;text-align:center;background:#00ff00;color:#fff;border:1px solid #999;"><code>03E0</code></td><td style="padding:0.2em;text-align:center;background:#00d600;color:#fff;border:1px solid #999;"><code>0340</code></td><td style="padding:0.2em;text-align:center;background:#00ad00;color:#fff;border:1px solid #999;"><code>02A0</code></td><td style="padding:0.2em;text-align:center;background:#ffbd00;color:#000;border:1px solid #999;"><code>02FF</code></td><td style="padding:0.2em;text-align:center;background:#bd7b00;color:#fff;border:1px solid #999;"><code>01F7</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>05</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#de9c21;color:#000;border:1px solid #999;"><code>127B</code></td><td style="padding:0.2em;text-align:center;background:#7b7b7b;color:#fff;border:1px solid #999;"><code>3DEF</code></td><td style="padding:0.2em;text-align:center;background:#e7ad8c;color:#000;border:1px solid #999;"><code>46BC</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#a50000;color:#fff;border:1px solid #999;"><code>0014</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#0084ff;color:#fff;border:1px solid #999;"><code>7E00</code></td><td style="padding:0.2em;text-align:center;background:#0000e7;color:#fff;border:1px solid #999;"><code>7000</code></td><td style="padding:0.2em;text-align:center;background:#ad7b5a;color:#fff;border:1px solid #999;"><code>2DF5</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>06</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#b50000;color:#fff;border:1px solid #999;"><code>0016</code></td><td style="padding:0.2em;text-align:center;background:#7b7b7b;color:#fff;border:1px solid #999;"><code>3DEF</code></td><td style="padding:0.2em;text-align:center;background:#e7ad8c;color:#000;border:1px solid #999;"><code>46BC</code></td><td style="padding:0.2em;text-align:center;background:#00ff00;color:#fff;border:1px solid #999;"><code>03E0</code></td><td style="padding:0.2em;text-align:center;background:#00b500;color:#fff;border:1px solid #999;"><code>02C0</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#0084ff;color:#fff;border:1px solid #999;"><code>7E00</code></td><td style="padding:0.2em;text-align:center;background:#0000e7;color:#fff;border:1px solid #999;"><code>7000</code></td><td style="padding:0.2em;text-align:center;background:#ad7b5a;color:#fff;border:1px solid #999;"><code>2DF5</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>07</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#a5735a;color:#fff;border:1px solid #999;"><code>2DD4</code></td><td style="padding:0.2em;text-align:center;background:#b50000;color:#fff;border:1px solid #999;"><code>0016</code></td><td style="padding:0.2em;text-align:center;background:#efbda5;color:#000;border:1px solid #999;"><code>52FD</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#ffb5b5;color:#000;border:1px solid #999;"><code>5ADF</code></td><td style="padding:0.2em;text-align:center;background:#ff5a5a;color:#fff;border:1px solid #999;"><code>2D7F</code></td><td style="padding:0.2em;text-align:center;background:#de9c21;color:#000;border:1px solid #999;"><code>127B</code></td><td style="padding:0.2em;text-align:center;background:#d6a58c;color:#000;border:1px solid #999;"><code>469A</code></td><td style="padding:0.2em;text-align:center;background:#bd7b00;color:#fff;border:1px solid #999;"><code>01F7</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>08</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#007300;color:#fff;border:1px solid #999;"><code>01C0</code></td><td style="padding:0.2em;text-align:center;background:#739494;color:#fff;border:1px solid #999;"><code>4A4E</code></td><td style="padding:0.2em;text-align:center;background:#940000;color:#fff;border:1px solid #999;"><code>0012</code></td><td style="padding:0.2em;text-align:center;background:#00ff00;color:#fff;border:1px solid #999;"><code>03E0</code></td><td style="padding:0.2em;text-align:center;background:#00d600;color:#fff;border:1px solid #999;"><code>0340</code></td><td style="padding:0.2em;text-align:center;background:#00ad00;color:#fff;border:1px solid #999;"><code>02A0</code></td><td style="padding:0.2em;text-align:center;background:#ffbd00;color:#000;border:1px solid #999;"><code>02FF</code></td><td style="padding:0.2em;text-align:center;background:#bd7b00;color:#fff;border:1px solid #999;"><code>01F7</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>09</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#de9c21;color:#000;border:1px solid #999;"><code>127B</code></td><td style="padding:0.2em;text-align:center;background:#7b7b7b;color:#fff;border:1px solid #999;"><code>3DEF</code></td><td style="padding:0.2em;text-align:center;background:#e7ad8c;color:#000;border:1px solid #999;"><code>46BC</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#a50000;color:#fff;border:1px solid #999;"><code>0014</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#0084ff;color:#fff;border:1px solid #999;"><code>7E00</code></td><td style="padding:0.2em;text-align:center;background:#0000e7;color:#fff;border:1px solid #999;"><code>7000</code></td><td style="padding:0.2em;text-align:center;background:#ad7b5a;color:#fff;border:1px solid #999;"><code>2DF5</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>10</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#b50000;color:#fff;border:1px solid #999;"><code>0016</code></td><td style="padding:0.2em;text-align:center;background:#7b7b7b;color:#fff;border:1px solid #999;"><code>3DEF</code></td><td style="padding:0.2em;text-align:center;background:#e7ad8c;color:#000;border:1px solid #999;"><code>46BC</code></td><td style="padding:0.2em;text-align:center;background:#00ff00;color:#fff;border:1px solid #999;"><code>03E0</code></td><td style="padding:0.2em;text-align:center;background:#00b500;color:#fff;border:1px solid #999;"><code>02C0</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#0084ff;color:#fff;border:1px solid #999;"><code>7E00</code></td><td style="padding:0.2em;text-align:center;background:#0000e7;color:#fff;border:1px solid #999;"><code>7000</code></td><td style="padding:0.2em;text-align:center;background:#ad7b5a;color:#fff;border:1px solid #999;"><code>2DF5</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>11</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#002929;color:#fff;border:1px solid #999;"><code>14A0</code></td><td style="padding:0.2em;text-align:center;background:#294a4a;color:#fff;border:1px solid #999;"><code>2525</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#ceefef;color:#000;border:1px solid #999;"><code>77B9</code></td><td style="padding:0.2em;text-align:center;background:#4a6b6b;color:#fff;border:1px solid #999;"><code>35A9</code></td><td style="padding:0.2em;text-align:center;background:#a5735a;color:#fff;border:1px solid #999;"><code>2DD4</code></td><td style="padding:0.2em;text-align:center;background:#b50000;color:#fff;border:1px solid #999;"><code>0016</code></td><td style="padding:0.2em;text-align:center;background:#efbda5;color:#000;border:1px solid #999;"><code>52FD</code></td><td style="padding:0.2em;text-align:center;background:#7b0000;color:#fff;border:1px solid #999;"><code>000F</code></td><td style="padding:0.2em;text-align:center;background:#ffb5b5;color:#000;border:1px solid #999;"><code>5ADF</code></td><td style="padding:0.2em;text-align:center;background:#ff5a5a;color:#fff;border:1px solid #999;"><code>2D7F</code></td><td style="padding:0.2em;text-align:center;background:#de9c21;color:#000;border:1px solid #999;"><code>127B</code></td><td style="padding:0.2em;text-align:center;background:#d6a58c;color:#000;border:1px solid #999;"><code>469A</code></td><td style="padding:0.2em;text-align:center;background:#bd7b00;color:#fff;border:1px solid #999;"><code>01F7</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+<tr><td><code>12</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#ceceef;color:#000;border:1px solid #999;"><code>7739</code></td><td style="padding:0.2em;text-align:center;background:#006bff;color:#fff;border:1px solid #999;"><code>7DA0</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffceff;color:#000;border:1px solid #999;"><code>7F3F</code></td><td style="padding:0.2em;text-align:center;background:#ff00ff;color:#fff;border:1px solid #999;"><code>7C1F</code></td><td style="padding:0.2em;text-align:center;background:#bd00bd;color:#fff;border:1px solid #999;"><code>5C17</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td></tr>
+<tr><td><code>13</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#ceceef;color:#000;border:1px solid #999;"><code>7739</code></td><td style="padding:0.2em;text-align:center;background:#d600d6;color:#fff;border:1px solid #999;"><code>681A</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#00ff00;color:#fff;border:1px solid #999;"><code>03E0</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffff00;color:#000;border:1px solid #999;"><code>03FF</code></td><td style="padding:0.2em;text-align:center;background:#ffd600;color:#000;border:1px solid #999;"><code>035F</code></td><td style="padding:0.2em;text-align:center;background:#ff9c00;color:#000;border:1px solid #999;"><code>027F</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td></tr>
+<tr><td><code>14</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#ceceef;color:#000;border:1px solid #999;"><code>7739</code></td><td style="padding:0.2em;text-align:center;background:#00d600;color:#fff;border:1px solid #999;"><code>0340</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#a50000;color:#fff;border:1px solid #999;"><code>0014</code></td><td style="padding:0.2em;text-align:center;background:#4a0000;color:#fff;border:1px solid #999;"><code>0009</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td></tr>
+<tr><td><code>15</code></td><td style="padding:0.2em;text-align:center;background:#ffef94;color:#000;border:1px solid #999;"><code>4BBF</code></td><td style="padding:0.2em;text-align:center;background:#ff8c00;color:#fff;border:1px solid #999;"><code>023F</code></td><td style="padding:0.2em;text-align:center;background:#008c00;color:#fff;border:1px solid #999;"><code>0220</code></td><td style="padding:0.2em;text-align:center;background:#42e742;color:#000;border:1px solid #999;"><code>2388</code></td><td style="padding:0.2em;text-align:center;background:#7bd6ff;color:#000;border:1px solid #999;"><code>7F4F</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ff8c00;color:#fff;border:1px solid #999;"><code>023F</code></td><td style="padding:0.2em;text-align:center;background:#ffff00;color:#000;border:1px solid #999;"><code>03FF</code></td><td style="padding:0.2em;text-align:center;background:#ffffbd;color:#000;border:1px solid #999;"><code>5FFF</code></td><td style="padding:0.2em;text-align:center;background:#00bd21;color:#fff;border:1px solid #999;"><code>12E0</code></td><td style="padding:0.2em;text-align:center;background:#ceefff;color:#000;border:1px solid #999;"><code>7FB9</code></td><td style="padding:0.2em;text-align:center;background:#ff0000;color:#fff;border:1px solid #999;"><code>001F</code></td><td style="padding:0.2em;text-align:center;background:#a50000;color:#fff;border:1px solid #999;"><code>0014</code></td><td style="padding:0.2em;text-align:center;background:#000000;color:#fff;border:1px solid #999;"><code>0000</code></td><td style="padding:0.2em;text-align:center;background:#ffffff;color:#000;border:1px solid #999;"><code>7FFF</code></td></tr>
+</tbody>
+</table>
+</div>
+
+---
+## What SFX Means in These Leaks
+`.SFX` is the most unusual SNES format we can now talk about with confidence.
+
+In the SimCity `SIM` workspace, every top-level `.SFX` file is exactly `2,048` bytes and begins with an ASCII tool signature like:
+
+`NAK1989 S-CG-CADVer1.21 900611`
+
+That tells us a few useful things immediately:
+
+* `.SFX` in this context is not a sound-effect file
+* it is not just a random project-local binary blob either
+* it is a tool-side sidecar produced by a dedicated `S-CG-CAD` graphics or layout tool
+
+The payloads after the header differ per screen, which suggests they preserve screen-specific metadata rather than one shared stub.
+`TOWN.SFX` is especially valuable because it has a much denser payload than the other files and appears to contain several internal configuration regions.
+
+The CAD-tool screenshot helps here too.
+It makes `SFX FILE` look much more like a saved editor-side metadata or project-state operation than a gameplay format, which is exactly how the SimCity sidecars behave on disk.
+
+So for SNES leak work, `.SFX` should currently be read as:
+
+* a SimCity-side CAD metadata format
+* not a general-purpose SNES audio or runtime file type
+
+### The Wider Leak Connects SFX to SRD's CAD Tool
+The `SFX` story becomes much stronger once the wider leak is included.
+
+In `NEWS_04`, both `SAMPLE.sfx_main.LST` and `CAD.sfx_main.LST` point to the same loader path:
+
+`/usr/local/srd/cad/sfc/sfx_main.hex`
+
+That tells us two useful things:
+
+* `sfx_main` was an actual SRD CAD-side tool component, not just a strange suffix in one SimCity branch
+* the `.SFX` sidecars and `sfx_main` naming belong to the same workstation ecosystem
+
+So the safest current reading is that `.SFX` does not mean one general Nintendo binary format.
+It means a CAD-tool metadata and loader layer inside SRD's Super Famicom art pipeline.
+
+The tiny `.DAT` files paired with the manifests help here too.
+`CAD.sfx_main.DAT` and `sfx_main.DAT` are only `120` bytes long, but they are clearly structured binary records rather than text.
+That makes them look like project-state or transfer-parameter files used by `sfx_main`, not screen assets in their own right.
+
+### What the SFX Field Layout Seems to Look Like
+The SimCity sidecars are now clear enough to sketch a working structure.
+
+Common pattern:
+
+* `0x0000` to about `0x002f`: ASCII tool header
+* around `0x0030` onward: tiny setup flags
+* around `0x0100`: first short control block
+* later regions: screen-specific payloads
+
+The best example is `TOWN.SFX`, which appears to have at least these active regions:
+
+Range | Likely role
+---|---
+`0x0030` to `0x005f` | setup flags and small counters
+`0x0100` to `0x015f` | denser setup/control block
+`0x0200` to `0x02ef` | first large payload block
+`0x0320` to `0x03ef` | second large payload block
+`0x0400` to `0x04ef` | structured lower block
+`0x0500` to `0x05ef` | second lower block with similar shape
+
+That suggests `.SFX` is not just one flat parameter list.
+At least in SimCity, it looks like a serialized multi-block tool record for a screen definition.
+
+### OBX Looks Like a Sister CAD Container
+The wider leak also hints at a second CAD-side object container: `.OBX`.
+
+What we can say so far:
+
+* `CAD-0.OBX` and `CAD-3.OBX` survive directly inside `.CAD_SRD`
+* `CAD-0.OBX` is larger than its matching `CAD-0.OBJ`, at `51,456` bytes versus `26,880`
+* `CAD-3.OBX` matches `CAD-3.OBJ` in size at `26,880` bytes
+* `CAD-3.OBX` carries the same trailing `NAK1989 S-CG-CADVer1.23 901226` header block seen in other CAD-side files
+* `CAD-0.OBX` stays zeroed until offset `624`, unlike `CAD-0.OBJ`, which begins with active object-style records immediately
+
+That makes `.OBX` look less like a random duplicate and more like a companion object container with a different internal layout or staging role.
+The exact field meanings still need work, but it clearly belongs to the same CAD ecosystem as `.OBJ`, `.SCR`, and `.SFX`.
+
+### OBJ and OBX Do Not Behave the Same Way
+The direct CAD samples make the split much clearer than before.
+
+File | Size | First active offset | Reading
+---|---:|---:|---
+`CAD-0.OBJ` | `26,880` | `0` | live object-style records begin immediately
+`CAD-0.OBX` | `51,456` | `624` | delayed start, sparse active regions, likely companion container
+`CAD-3.OBJ` | `26,880` | `24,576` | mostly header and late active block only
+`CAD-3.OBX` | `26,880` | `24,576` | identical active tail to `CAD-3.OBJ`
+
+The first live words show the contrast nicely.
+`CAD-0.OBJ` opens with the same kind of compact 3-word record pattern already seen in Mario Kart and SimCity, such as:
+
+* `0080 08F8 3331`
+* `0080 00F8 3231`
+* `0080 F8F8 3131`
+
+`CAD-0.OBX` instead stays quiet for a while and then begins with a different-looking run:
+
+* `0080 1018 1D31`
+* `0080 1010 1C31`
+* `0080 0018 1B31`
+
+So `.OBX` does not just look bigger.
+It looks like a differently structured object-side container, probably preserving extra staging or banked object state that the plain `.OBJ` layer does not keep.
+
+One especially interesting detail is that `CAD-3.OBJ` and `CAD-3.OBX` are identical in size and both only become active at offset `24,576`.
+That makes them look like late-stage header-plus-tail containers rather than live fully populated editing banks.
+So the CAD environment may have been able to save both active object pages and partially empty page containers using the same broad family of files.
+
+### cadd and caddat Look Like Tool-State Files
+The two largest unknown files in `.CAD_SRD` now look much less mysterious than they did at first.
+
+File | Size | Strongest clues
+---|---:|---
+`cadd` | `708,432` | contains CAD paths, project names, repeated `CAD-0` to `CAD-3`, and `sfx_main` references
+`caddat` | `708,245` | contains short project strings like `CAR/XX1`, `CAR/XX2`, `CAR/XX3`, plus repeated `UCUR`
+
+`cadd` contains strings such as:
+
+* `/usr/local/srd/cad/sfc/sfx_main`
+* `/home/sugiyama/.CAD_SRD/sfx_main`
+* `/home/sugiyama/.CAD_SRD/CAD`
+* repeated `CAD-0`, `CAD-1`, `CAD-2`, `CAD-3`
+
+It also includes older project paths like `.../arimoto/SF2/...`, which makes it look more like a saved CAD program or session-state file than a clean per-project asset container.
+
+`caddat` is much quieter, but the strings it does preserve are telling:
+
+* `sos1`
+* `CAR/XX1`
+* `CAR/XX2`
+* `CAR/XX3`
+* repeated `UCUR`
+
+That makes `caddat` look like a compact project-state or recent-work record rather than a graphics bank.
+The `CAR/XX*` strings are especially interesting because they bridge this generic CAD workspace back toward the Mario Kart-style art branches.
+
+The safest current reading is:
+
+* `cadd` is probably the broader CAD-side program, session, or environment state container
+* `caddat` is probably a smaller associated project-data or current-work record
+
+Neither file is decoded yet, but both now look like part of the same workstation toolchain rather than unrelated binary leftovers.
+
+---
+## Mode 7 and Map-Side Formats
+The Mario Kart material also gives us a clearer picture of the formats used around Mode 7 production.
+
+Extension | What it usually is | What we now know
+---|---|---
+`.MD7` | Mode 7 map data | In the Mario Kart art branch these are raw `32 KB` files that look like dense structured map data rather than graphics
+`.MAP` | Editable map-side resource | Used in broader SNES art and source trees for room, area, or world layout data
+
+One useful detail from Mario Kart is that `C.MD7` and `CCC1.MD7` are identical while `S.MD7` is different, which suggests the files are stable raw map bodies rather than volatile export wrappers.
+
+### What MD7 Looks Like at the Data Level
+The leaked `.MD7` files are useful because they do not behave like compressed art or wrapper files.
+
+What we can say confidently:
+
+* they are raw `32,768` byte files
+* they read cleanly as dense 16-bit word tables
+* the word distributions are stable enough to compare across files
+
+For example:
+
+* `C.MD7` begins with values like `0x08F0`, `0x08F0`, `0x08F0`, `0x07F0`
+* `S.MD7` has a different distribution and even includes more `0x0000` entries
+* `C.MD7` and `CCC1.MD7` are identical, which strongly suggests these are actual map bodies rather than one-off export sessions with volatile headers
+
+So `.MD7` now looks much more like a raw Mode 7 map or cell table than a graphics format.
+
+---
+## Quick Notes on Revision Trails
+Nintendo's workstation folders make heavy use of non-final file variants.
+
+Marker | What it usually means | What we now know
+---|---|---
+`.BAK` | backup revision | Often a meaningful earlier revision, not just a duplicate
+`.old` | older saved revision | Rare, but clearly used in active editing workflows
+
+This matters because revision files are often the difference between “we have the final asset” and “we can actually see the iteration process.”
+That is especially true in the Mario Kart and SimCity art branches, where menu, text, and course-family work often survives in both current and backup form.
+
+---
+## What Still Needs More Work
+A few SNES workstation formats are still only partly understood.
+
+The best next candidates for deeper reverse engineering are:
+
+* the exact field meanings inside SimCity's `.SFX` records
+* the exact bit layout of the 3-word `.OBJ` records
+* the relationship between `.OBJ` and `.OBX` in the native CAD workspace
+* the exact role of `cadd` and `caddat` inside the SRD CAD environment
+* the precise editor-side canvas or block structure inside `.SCR`
+* the relationship between `.MAP` and runtime map packing in projects like Zelda and Mario Kart
+* the packing rules behind the different `.CGX` size tiers
+
+But compared with where this started, we can now say a lot more confidently that many of these “mystery extensions” were part of a layered Nintendo art and UI toolchain rather than arbitrary binary leftovers.

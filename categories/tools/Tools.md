@@ -36,6 +36,7 @@ Discover the programming languages that powered the classics. From the assembly 
 - **C**: The versatile language that struck a balance between performance and portability.
 - **C++**: The language that introduced object-oriented programming to game development.
 
+For more information on the programming languages used for game development check out this post:
 {% include link-to-other-post.html post="/programming-languages" description="For more information on Programming languages used for game development check out this post." %}
 
 ---
@@ -49,6 +50,7 @@ Understand the role of early compilers and their impact on game performance and 
 - **Assemblers**: Programs like **MASM** and **TASM** that converted assembly code into machine code.
 - **Compilers**: Tools like GCC and Watcom C that compiled higher-level code into efficient machine code.
 
+For more information on how GNU GCC was used in game development check out this post:
 {% include link-to-other-post.html post="/compilers" description="For more information on how GNU GCC was used in game development check out the GCC section in the compiler post." %}
 
 ---
@@ -88,6 +90,7 @@ Explore the evolution of 3D modeling tools that gave depth and realism to early 
 - **Advanced Modelling Software**: Programs like 3D Studio, SoftImage and Maya that allowed for more detailed and complex designs.
 - **Texture Mapping**: Techniques for applying textures to 3D models to enhance visual realism.
 
+For more information on 3D Software check out this post:
 {% include link-to-other-post.html post="/3d-software" description="For more information on 3D Software check out this post." %}
 
 ## 2D Images, Sprites and Textures
@@ -135,10 +138,11 @@ Reverse engineering is a vital process for understanding and recreating the magi
 ## Disassemblers
 Disassemblers are crucial for breaking down compiled game code back into human-readable assembly language. These tools allow you to see the underlying instructions that the game uses to function, providing insight into the game's logic and structure.
 
-- **IDA Pro**: One of the most powerful disassemblers, supporting a wide range of processors and file formats.
-- **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
-- **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
+* **IDA Pro**: One of the most powerful disassemblers, supporting a wide range of processors and file formats.
+* **Ghidra**: A free, open-source disassembler developed by the NSA, known for its robust features and user-friendly interface.
+* **Radare2**: A highly customizable and versatile disassembler and debugger, popular in the open-source community.
 
+For more information on Disassemblers check out this post:
 {% include link-to-other-post.html post="/disassemblers" description="For more information on Disassemblers check out this post." %}
 
 ---
@@ -165,6 +169,7 @@ Decompilers attempt to convert executable code back into a higher-level programm
 - **RetDec**: A retagetable machine-code decompiler that supports various architectures and file types.
 - **Ghidra**: Besides being a disassembler, Ghidra also includes decompiler features that provide pseudo-code representations of disassembled binaries.
 
+For more information on Ghidra check out this post:
 {% include link-to-other-post.html post="/intro-decompiling-with-ghidra" description="For more information on Ghidra check out this post." %}
 
 ---
@@ -203,6 +208,7 @@ Emulators replicate the hardware of old gaming systems on modern computers, allo
 - **PCSX2**: A PlayStation 2 emulator that provides debugging features for reverse engineering.
 - **Dolphin**: A GameCube and Wii emulator known for its accuracy and debugging tools.
 
+For more information on Reversing Emulators check out this post:
 {% include link-to-other-post.html post="/Reversing-Emulators" description="For more information on Reversing Emulators check out this post." %}
 
 ### QEMU 

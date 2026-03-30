@@ -136,9 +136,22 @@ Here are some of the markdown rules:
 * **Never use numbered lists** - Just use `*` for all unordered lists.
 * **Short inline code** - If the code is short, wrap it with backticks (e.g. `eax, 0x00`).
 * **HR before H2/H3** - Have an HR before HR/H3 but only if its not the first sub heading under a heading
+
+
+### Glossary Rules
 * **Add a glossary for acronym-heavy pages** - If a page uses many technical acronyms or specialist terms, add a short glossary near the top.
 * **Link first mention per section** - For glossary terms, link the first meaningful mention in each section to the glossary definition; avoid linking every occurrence.
 * **Use stable glossary anchors** - Add explicit HTML anchors for glossary entries (for example `<a id="glossary-cop"></a>`) so in-page links remain predictable.
+
+Here is an example of a good glossary section (it should be near the top of the page):
+```markdown
+---
+## Glossary of Key Terms
+If you are new to low-level SNES development terms, this quick glossary should help:
+
+* <a id="glossary-cop"></a>**COP** - A 65c816 software-interrupt instruction used here as the SFX-DOS service call gateway.
+* <a id="glossary-irq"></a>**IRQ** - A normal hardware interrupt used for routine device events.
+```
 
 ---
 ## Frontmatter Rules

@@ -336,6 +336,24 @@ That in turn drives `Set_maps`, which is split neatly into:
 That is where `label.def` becomes especially valuable.
 Its `MAPxx_CHR`, `MAPxx_BCH`, `MAPxx_BSC`, `MAPxx_COL`, and `MAPxx_OBJ` aliases show that each map is assembled from a handful of themed asset families rather than a single monolithic "course blob".
 
+That runtime-side family reuse also lines up neatly with the separate `CAR` art workspace in NEWS_04.
+There, families like `C1`, `D1`, `G1`, `H1`, `K1`, `S1`, `W1`, and `STAR` survive as grouped `.SCR`, `.CGX`, `.COL`, and backup-heavy revision sets, which makes the artist-side production flow look just as family-based as the code-side loader tables here.
+The strongest extra clue is the secondary branch material.
+In `CAR`, those same families often keep a smaller `-B` graphics bank plus a matching `-B` screen file, while on the runtime side `label.def` and `kart-init.asm` keep separate `BCH` and `BSC` tables alongside the main family graphics and screens.
+That does not prove the suffixes map one-to-one, but `kart-init.asm` gets very close.
+Its loader tables name those secondary branches `Back_character_address` and `Back_screen_address`, and `Open_character` decodes them as the mode 0 background path beside the main Mode 7 course data.
+So the safest reading is that `BCH` and `BSC` are not arbitrary secondary blobs.
+They look like the back-layer character and screen sets that sit behind or around the main course plane, which in turn makes the CAR workspace's smaller `-B` banks look much more like artist-side companion background layers than random alternates.
+
+The circuit family is the cleanest worked example.
+`MAP00`, `MAP07`, `MAP0E`, and `MAP0F` all alias the same `CIRCUIT_CHR`, `CIRCUIT_BCH`, `CIRCUIT_BSC`, `CIRCUIT_COL`, and `CIRCUIT_OBJ` entries, which means four different circuit tracks were built from one shared family package plus their own per-map main screen layouts.
+That is exactly the kind of pattern the separate `CAR` workspace shows in families like `C1`, where one large graphics bank, one smaller `-B` branch, one palette, and multiple numbered `.SCR` layouts all live together in the same artist-side package.
+The next-strongest candidates on the art side are families like `D1`, `G1`, and `S1`.
+They keep the same package shape and line up naturally with runtime groups like `DART`, `GRASS`, and `SAND`, but unlike the circuit case the surviving names are still too abbreviated to treat those matches as fully proven.
+`W1` is also starting to look like a plausible artist-side candidate for the runtime `ICE` family.
+Its palette is much brighter and more white-heavy than the other unresolved groups, and `Scene.asm` still preserves a `SNOW` comment alongside one of the shared obstacle paths used around the ice side of the game.
+That is still an inference, but it is a useful one.
+
 The same is true for the drive data.
 The `MAPxx_area` and `MAPxx_target` labels all hang off one `Drive_data_address`, and the later `MAPxx_ARE` and `MAPxx_TRG` labels point to tightly packed per-course data blocks in ROM.
 
