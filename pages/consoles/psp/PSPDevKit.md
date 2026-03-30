@@ -12,6 +12,8 @@ permalink: /official-psp-devkit
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Sony Playstation Portable
     url: /psp
   - name: Official PlayStation Portable Development Kit

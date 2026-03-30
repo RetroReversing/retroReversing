@@ -12,6 +12,8 @@ permalink: /playstation-2-development-hardware
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Sony Playstation 2
     url: /ps2
   - name: Sony PlayStation 2 Development Kit (Hardware)
@@ -31,7 +33,7 @@ updatedAt: '2020-01-11'
 ---
 This post covers the hardware used to develop Playstation 2 games by major studios back in the day, for the software side see the post on the Official PS2 SDK.
 
-{% include link-to-other-post.html post="/ps2-official-sdk/" description="For the software side of the PS2 Development Kit check out this post." %}
+{% include link-to-other-post.html post="/ps2-official-sdk" description="For the software side of the PS2 Development Kit check out this post." %}
 
 
 # Official Development Kit

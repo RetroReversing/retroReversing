@@ -5,6 +5,7 @@
   "description": "Local tooling for RetroReversing content generation",
   "license": "UNLICENSED",
   "dependencies": {
-    "@resvg/resvg-js": "^2.6.2"
+    "@resvg/resvg-js": "^2.6.2",
+    "geopattern": "^1.2.3"
   }
 }

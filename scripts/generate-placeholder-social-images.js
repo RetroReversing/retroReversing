@@ -5,11 +5,18 @@ const path = require('path');
 const { execFileSync } = require('child_process');
 const { readMarkdownFile } = require('./markdown-utils');
 let Resvg = null;
+let GeoPattern = null;
 
 try {
     ({ Resvg } = require('@resvg/resvg-js'));
 } catch (error) {
     Resvg = null;
+}
+
+try {
+    GeoPattern = require('geopattern');
+} catch (error) {
+    GeoPattern = null;
 }
 
 const ROOT_DIR = path.resolve(__dirname, '..');
@@ -22,7 +29,6 @@ const IMAGE_HEIGHT = 720;
 const CONFIG_PATH = path.join(ROOT_DIR, '_config.yml');
 const RR_LOGO_IMAGE = path.join(ROOT_DIR, 'public', 'images', 'RetroReversingLogo.png');
 const RSVG_CONVERT_PATH = findExecutable('rsvg-convert');
-const RUBY_PATH = findExecutable('ruby');
 const imageDimensionCache = new Map();
 
 function findContentFiles(directory) {
@@ -344,17 +350,31 @@ function isUpToDate(outputPath, inputTimestamp) {
 }
 
 function buildGeoPatternSvg(seed) {
-    if (!RUBY_PATH) {
+    if (!GeoPattern) {
         return '';
     }
 
     try {
-        return execFileSync(RUBY_PATH, [
-            '-rgeo_pattern',
-            '-e',
-            "seed = ARGV[0]; puts GeoPattern.generate(seed).to_svg",
-            seed
-        ], { stdio: 'pipe' }).toString('utf8').trim();
+        const pattern = GeoPattern.generate(String(seed || ''));
+        if (!pattern) {
+            return '';
+        }
+
+        if (typeof pattern.toString === 'function') {
+            return pattern.toString().trim();
+        }
+
+        if (typeof pattern.toSvg === 'function') {
+            const svg = pattern.toSvg();
+            if (typeof svg === 'string') {
+                return svg.trim();
+            }
+            if (svg && typeof svg.toString === 'function') {
+                return svg.toString().trim();
+            }
+        }
+
+        return '';
     } catch (error) {
         return '';
     }
@@ -520,7 +540,7 @@ function main() {
 
         const seed = metadata.title;
         if (!missingGeoPatternWarningShown && !buildGeoPatternSvg(seed)) {
-            console.warn('Warning: the Ruby geo_pattern gem is not installed, so SVG placeholders are falling back to a flat background.');
+            console.warn('Warning: the geopattern npm package is not installed, so SVG placeholders are falling back to a flat background.');
             missingGeoPatternWarningShown = true;
         }
 
