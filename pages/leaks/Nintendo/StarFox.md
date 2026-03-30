@@ -214,6 +214,135 @@ The leak is not just preserving source code and loose assets.
 It preserves the actual pack-in script that decides which compressed backgrounds, sprites, face graphics, and sound banks become part of the final ROM for different builds.
 
 ---
+### What SOUND.ASM Reveals
+`SOUND.ASM` shows that the audio side of the game was organized as a table-driven APU download system rather than a handful of hardcoded song calls.
+
+At the top of the file there is a run of entry points such as `do_bgm_title`, `do_bgm_training`, `do_bgm_map`, `do_bgm_intro`, `do_bgm_endseq`, `do_bgm_staff`, and `do_bgm_gameover`.
+Each one resolves to a `bootapu` call with a specific sound-set label.
+
+That matters because it exposes how the game thought about sound at a high level.
+There are explicit states for title, map, training, black-hole, continue, staff roll, and special scenes rather than one undifferentiated music table.
+
+The next layer is `sndtbl`.
+That table ties symbolic names like `intro`, `title`, `training`, `map`, `continue`, `bhole`, `10`, `23`, `33`, `endseq`, and `staff` to concrete sound payload groups such as `sound1`, `bgmm`, `bgmo`, `bgml`, `bgma`, `bgm7`, `bgmc`, and `sounda`.
+
+So the sound system is doing two jobs at once:
+
+* picking the logical music/effect set for the current game situation
+* describing which binary payloads have to be pushed to the APU for that set
+
+The file then drops into the low-level transfer code.
+Routines like `sbootapu`, `boot_repeat`, and the `apu_port0` to `apu_port3` handshake loops show the 65816 actively streaming sound data across to the SNES audio side rather than just flipping a single "play track" register.
+
+That is a very useful leak detail because it preserves both halves of the system:
+the high-level scene/music naming and the low-level upload protocol.
+
+---
+### What the Sound Binaries Show
+The `SND` folder survives almost intact, and its naming lines up with the code surprisingly well.
+
+The archive keeps:
+
+* effect and support banks such as `SGSOUND0.BIN` through `SGSOUND9.BIN` and `SGSOUNDA.BIN`
+* many BGM banks such as `SGBGM1.BIN` through `SGBGM11.BIN`
+* lettered BGM payloads such as `SGBGMA.BIN`, `SGBGMB.BIN`, `SGBGMC.BIN`, `SGBGMD.BIN`, `SGBGME.BIN`, `SGBGMF.BIN`, `SGBGMG.BIN`, `SGBGMH.BIN`, `SGBGMI.BIN`, `SGBGMJ.BIN`, `SGBGMK.BIN`, `SGBGML.BIN`, `SGBGMM.BIN`, `SGBGMN.BIN`, `SGBGMO.BIN`, and `SGBGMP.BIN`
+* regional alternates such as `PSGSND2.BIN`, `PSGSND5.BIN`, `PSGSNDA.BIN`, and `PSGBGMM.BIN`
+* a German-specific alternate in `GSGSNDA.BIN`
+
+That fits neatly with what `INCBINS.ASM` and `SHBANKS.ASM` are doing.
+The project is not treating audio as one monolithic block.
+It is packing music and sound content into named banks, then swapping some of those banks for PAL or German builds when needed.
+
+`SOUNDEQU.INC` adds another useful layer.
+It exposes named effect IDs such as `se_pauseon`, `se_playerdamage`, `se_gateofring`, `se_missilenear`, `se_movingwallleft`, `se_lasercentre`, and `se_dopcentre`, plus higher-level BGM IDs like `bgm_map`, `bgm_boss`, `bgm_mapselect`, `bgm_allclear`, and `bgm_transmit`.
+
+That makes the sound archive much easier to read.
+The leak is not only preserving the raw SPC-side binaries, but also the symbolic interface the gameplay code used to trigger them.
+
+---
+### What WORLD.ASM Reveals
+`WORLD.ASM` is one of the most useful files in the whole archive because it shows how the route scripts are actually executed at runtime.
+
+At the top of the file, `update_objects_l` advances `mapcnt` against the player's movement and drops into `newobjs_l` when the next scripted event should fire.
+From there, `newobjex` reads the control value from the active map stream and jumps through a large dispatch table named `mapjmp`.
+
+That table lines up directly with the control codes from `MAPMACS.INC`.
+It contains handlers such as `mapobjdo`, `mapenddo`, `maploopdo`, `mapjsrdo`, `mapgotodo`, `setbgdo`, `setbgmdo`, `mapsendmessage`, `mapcodejsl`, `mapdobjdo`, and `mapsetpathdo`.
+
+So the leak does not only preserve the map authoring language.
+It also preserves the interpreter that turns those route-script commands into actual gameplay state changes, object spawns, background swaps, and message triggers.
+
+That is a rare amount of context for a 16-bit game source leak.
+You can read the mission scripts in `MAPS.LZH`, then read `WORLD.ASM` to see exactly how the engine steps through them.
+
+---
+### What PLANETS.ASM Reveals
+`PLANETS.ASM` is not just some menu helper.
+Its own file header describes it as the `PLANET SELECTION SCREEN`, and the surviving source makes that very literal.
+
+The file sets up display layout constants, background transfer sizes, viewport positions, sprite limits, and temporary variables for the route-select scene.
+It also contains the setup routine `initplanets_l`, which initializes lives, credits, default routes, stage state, and map mode before the player reaches the planet-selection flow.
+
+One especially revealing detail is that the default route setup is explicit.
+`initplanets_l` seeds `routes` with offsets like `stagepaths.path12-stagepaths`, `stagepaths.path7-stagepaths`, `stagepaths.path2-stagepaths`, and `stagepaths.path19-stagepaths`.
+
+That tells us the route system is not just an abstract world map.
+The code is actively storing and manipulating path choices in a form the game can later consume.
+
+The file is also full of build-condition logic such as `planetcheat`, `debuginfo2`, and `cesdemo`.
+That makes it look like the planet-select code was a live development surface where debug, contest, and demo configurations could all change how the screen behaved.
+
+Taken together, `PLANETS.ASM` gives the page something important that the build files alone do not:
+proof that this archive still preserves the high-level campaign flow, not just low-level rendering and object code.
+
+---
+### What DEBUG.ASM Reveals
+`DEBUG.ASM` is not a token leftover or a few hidden strings.
+It is a proper in-game strategy debugger for live object inspection.
+
+The file builds an `aliendebugtable` with labeled fields such as `worldx`, `worldy`, `worldz`, `rotx`, `roty`, `rotz`, and `tx`, then `stratdebug_l` renders those values on screen and lets the developer move through objects and fields with pad input.
+
+The controls are especially revealing.
+The code handles:
+
+* stepping between live objects with left and right input
+* moving up and down through debug fields
+* editing values in small or large steps with `A` and `Y`
+* duplicating the current alien/object with `SELECT`
+* freezing or resuming strategy updates
+* changing camera position and distance with `X`, `B`, and the D-pad
+
+That means this leak preserves a real internal inspection tool for the running game.
+It was not just possible to watch Star Fox run.
+Developers could stop on a specific strategy object, inspect its live coordinates and rotation, change values in memory, and even duplicate it to test behavior.
+
+For anyone interested in how official SNES games were actually debugged, that is one of the best details in the archive.
+
+---
+### How the Debug Overlay Connects to DRAW.ASM and ISTRATS.ASM
+`DEBUG.ASM` also makes two other files easier to understand.
+
+`DRAW.ASM` contains the small rendering and text-printing helpers that make the overlay possible.
+Functions like `clip_plot`, `plot`, `printt_l`, and `printchar` show the game writing text and pixel data directly into the bitmap buffers through tables like `pyoftab`, `pxoftab`, and `bitmapbase`.
+
+So the debug view is not relying on some external monitor.
+It is using the same in-game drawing path as the rest of Star Fox to render labels and values into the live frame buffer.
+
+`ISTRATS.ASM` fills in the other half of the picture.
+That file defines the `is_*` strategy IDs and `sh_*` shape mappings that the map scripts rely on, using macros like `def_istrat` and `def_shape`.
+
+That makes the overall chain much clearer:
+
+* `MAPS/*.ASM` names shapes and strategy behaviors through macros
+* `ISTRATS.ASM` assigns those names their runtime IDs
+* `WORLD.ASM` interprets the route commands and creates the live objects
+* `DEBUG.ASM` lets developers inspect and tweak those live objects
+* `DRAW.ASM` provides the low-level text and plotting support that makes the debugger visible on screen
+
+Taken together, those files make the Star Fox leak unusually complete as a development snapshot.
+It preserves not just game logic and data, but also part of the internal tooling chain used to observe and manipulate the running simulation.
+
+---
 ## MAPS.LZH - Route and Mission Archive
 `MAPS.LZH` looks like the missing second half of the build.
 It is overwhelmingly made of map and route assembly, plus three `MSPRITES` data files.

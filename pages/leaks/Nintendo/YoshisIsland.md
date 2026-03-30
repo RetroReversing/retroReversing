@@ -165,6 +165,22 @@ That makes `union` the place where game-side logic, shared data tables, and memo
 ## The Message Pipeline
 The `msg` folder is one of the easiest places in the archive to see a full authored-data workflow from start to finish.
 
+{% capture yi_msg_body %}
+The folder keeps editable message inputs, intermediate data, converted outputs, label tables, converter source, and even older boss-message backups.
+That makes it one of the clearest miniature pipelines in the whole archive.
+{% endcapture %}
+
+{% capture yi_msg_items %}
+- *.cmt - Human-edited message input files grouped by boss, bonus, map, and event families
+- *.dat - Main message data files used as the converter input or intermediate working form
+- *.dat.OUT - Converted output files emitted for the asm side to consume
+- msg.LBL - Shared character and control-code label table used by the converters
+- msgcnv.c / msgcnvO.c / msgcnvS.c - Three related message converters for different script/control-code cases
+- BOS_OLD - Backup set of older boss message files preserved beside the live data
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="msg" path="日本_Ver2/msg" body=yi_msg_body version="/" content=yi_msg_items %}
+
 At a glance, the folder keeps:
 
 Type | Count | What it looks like
@@ -622,6 +638,21 @@ Nintendo was working with reusable screens, panel sets, background-data blobs, a
 ## The Character and Color Workspaces
 The `char`, `col`, and `col_file` folders are where the visual production side really opens up.
 
+{% capture yi_char_body %}
+This is the most obviously multi-format art workspace in the branch.
+It keeps screen previews, banked character data, chip-side conversion sources, packed palette banks, and more descriptive palette staging files all side by side.
+{% endcapture %}
+
+{% capture yi_char_items %}
+- char - Main graphics workspace with `.CHRN`, `.CHR`, `.CGX`, `.SCR`, `.scr`, `.scrN`, `.CH7`, and `.CPC`
+- col - Packed or normalized palette banks such as `COL-0.COL` through `COL-34.COL` plus named sets like `KAMEBOSS-NEW.COL`
+- col_file - More descriptive palette-source staging area with names like `KUSA-KAME-BOSS.COL` and `MAP-KAITEN.COL`
+- chipchr.c - Converter for `.CH7` source banks into `.CPC` chip-side character outputs
+- ys_colcnv.c - Palette packing and label-generation step that turns `.COL` sources into build-ready color data
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="char" path="日本_Ver2/char" body=yi_char_body version="/" content=yi_char_items %}
+
 `char` alone contains over a thousand files, and its extension spread is one of the clearest clues about how many intermediate formats the team was juggling:
 
 Type | Count | What it most likely represents
@@ -700,6 +731,21 @@ That stage links to:
 ---
 ## The Object Sprite Pipeline
 The `OBJ` folder fills in the other half of the visual side: moving sprites, enemy pieces, effect graphics, and object-bank assignments.
+
+{% capture yi_obj_body %}
+This is where enemy, boss, effect, and demo object resources were kept before being turned into assembler tables and bank assignments.
+The surrounding tool sources show that these files were part of a repeatable conversion path rather than loose art blobs.
+{% endcapture %}
+
+{% capture yi_obj_items %}
+- *.OBJ - Main object and sprite-layout resources for enemies, bosses, effects, demos, and setpieces
+- *.OBX - Companion object format used by a smaller number of larger or special cases
+- eobjcnv.c - Converts one `.OBJ` resource into assembler-ready object bytes with explicit offsets
+- ys_objcnv.c - Generates `ys_pld.h` and `ys_pldt.asm` from table-driven object resources
+- ys_obtpcnv.c - Builds object-bank assignment data that lines up with `OBJCHRBK` usage in `ys_init.asm`
+{% endcapture %}
+
+{% include connected-folder-tree.html folder="OBJ" path="日本_Ver2/OBJ" body=yi_obj_body version="/" content=yi_obj_items %}
 
 Its file mix is simple but telling:
 

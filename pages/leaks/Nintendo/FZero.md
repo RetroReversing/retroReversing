@@ -87,6 +87,12 @@ What is still missing or uncertain:
 So the important distinction is:
 the archive appears to preserve most of the real F-Zero source and tooling, but the leak page should not claim with full confidence that every last dependency needed for a clean rebuild is present unless the code has actually been rebuilt successfully.
 
+There is one extra provenance detail worth noting here.
+The same `Game` and `Tools` tree also survives under `other/NEWS/FZERO`, and that NEWS copy appears twice because the archive contains both `NEWS/FZERO` and `NEWS/FZERO/FZERO`.
+
+Content-wise though, that does not currently change the picture.
+The NEWS `Game` and `Tools` folders match the `other/SFC/ソースデータ/FZERO` copy exactly, so it looks like a duplicated workstation-side copy of the same source snapshot rather than a separate branch with extra code.
+
 ---
 ## Game (/Game)
 <section class="postSection">

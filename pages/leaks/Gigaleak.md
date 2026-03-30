@@ -89,6 +89,21 @@ We have dedicated deep-dives exploring the leaked source code and assets for eac
 {% include link-to-other-post.html post="/f-zero-source-code" description="Explore the F-Zero prototype source code here." %}
 {% include link-to-other-post.html post="/super-mario-collection-source-code" description="Explore the Super Mario All-Stars (マリオコレクション) source code here." %}
 
+One small provenance detail is easy to miss here.
+The F-Zero source tree also survives under `other/NEWS/FZERO`, where the same `Game` and `Tools` folders appear again, including a second nested `FZERO` copy.
+
+So far that NEWS material looks identical to the `other/SFC/ソースデータ/FZERO` version rather than a different branch, but it is still useful because it shows the same snapshot was also present in a Sony NEWS-side working environment.
+
+---
+## NEWS Workstation Material (other/NEWS)
+The `NEWS.7z` archive is smaller and messier than `SFC.7z`, but it still preserves some useful workstation-side context.
+
+One example is F-Zero.
+Inside `other/NEWS/FZERO`, the same `Game` and `Tools` source tree appears again, and the folder is even duplicated as `other/NEWS/FZERO/FZERO`.
+
+That does not currently seem to add any new F-Zero content.
+The NEWS copy matches the SFC source tree exactly, so it is best understood as an additional preserved copy of the same archive rather than a different revision.
+
 ---
 ## Super Famicom Built ROMs (other/SFC/ROM)
 
