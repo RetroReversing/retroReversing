@@ -4,12 +4,13 @@ tags:
 - ds
 - sdk
 title: Nintendo DS SDK (NITRO)
-image:  /public/consoles/Nintendo DS.png
 category: ds
 permalink: /DS-NITRO-SDK
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Nintendo DS
     url: /ds
   - name: Nintendo DS Software Development Kit
@@ -17,6 +18,7 @@ breadcrumbs:
 recommend: 
 - ds
 - sdk
+- gba
 editlink: /consoles/ds/DSOfficialSDK.md
 ---
 The NITRO SDK was previously known as the IRIS SDK, but got renamed sometime before April 2004 (release 1.0 of NITRO-SDK). Much of the structure and files remain from the IRIS SDK but most files have been renamed to NITRO.

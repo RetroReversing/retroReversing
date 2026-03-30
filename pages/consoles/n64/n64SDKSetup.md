@@ -13,6 +13,8 @@ youtube: 84wk0mZ8gfM
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Nintendo 64
     url: /n64
   - name: Official N64 SDK Setup (MacOSX/Linux/Win)

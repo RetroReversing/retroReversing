@@ -12,6 +12,8 @@ permalink: /dreamcast-windows-ce
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Sega Dreamcast
     url: /dreamcast
   - name: Sega Dreamcast Microsoft Windows CE SDK

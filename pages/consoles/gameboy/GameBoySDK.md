@@ -2,8 +2,6 @@
 title: Game Boy Software Development Kits
 layout: post
 permalink: /official-gameboy-software-dev-kit
-redirect_from:
-  - /official-gameboy-software-dev-kit/
 tags:
 - gameboy
 - sdk
@@ -13,6 +11,8 @@ category: gameboy
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Nintendo Game Boy (DMG & CGB)
     url: /gameboy
   - name: Game Boy Software Development Kit

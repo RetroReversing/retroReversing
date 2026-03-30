@@ -10,6 +10,8 @@ permalink: /xbox-sdk-xdk
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Microsoft Xbox (Original)
     url: /xbox
   - name: Official Xbox SDK (XDK)

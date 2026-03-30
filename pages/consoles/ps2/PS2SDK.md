@@ -14,6 +14,8 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Ps2
     url: /ps2
   - name: PS2 Official Software Development Kit (SDK)

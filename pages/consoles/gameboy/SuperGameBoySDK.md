@@ -10,11 +10,11 @@ category: gameboy
 image: /public/images/GameBoy/Game Boy SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/GameBoy/Game Boy SDK.jpg
 permalink: /super-game-boy-sdk
-redirect_from:
-  - /super-game-boy-sdk/
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Nintendo Game Boy (DMG & CGB)
     url: /gameboy
   - name: Super Game Boy SDK Sample and BIOS Files

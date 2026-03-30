@@ -50,10 +50,14 @@ We also know that it was common for third parties to create their own custom SDK
 The Nintendo 64 SDK was leaked some time in the late 2000s and now can be easily accessed online, this gives us the opportunity to dive in and document exactly what was contained in the Software Development Kit:
 
 {% include link-to-other-post.html post="/n64-sdk" description="For more information on the Nintendo 64 SDK files check out this post." %}
+{% include link-to-other-post.html post="/n64-sdk-setup" description="For setup instructions on modern systems, check out the N64 SDK setup guide." %}
+{% include link-to-other-post.html post="/sn64-sdk-sn-systems" description="For the SN Systems third-party alternative toolchain, check out the SN64 SDK page." %}
+{% include link-to-other-post.html post="/ique-sdk" description="For the China-focused iQue variant built on top of the N64 SDK, check out this post." %}
 
 ## Nintendo Gamecube
 
 ## Nintendo Wii
+{% include link-to-other-post.html post="/ati-low-level-wii-sdk" description="For the low-level ATI/ArtX Wii SDK used in internal tooling, check out this post." %}
 
 ---
 # Nintendo Handheld Software Development Kits
@@ -62,10 +66,14 @@ From at least the Game Boy Advance Software development kits for Nintendo's hand
 ## Nintendo Game Boy (DMG & GBC)
 A few files were leaked from Nintendo's development FTP server (WarioWorld?) in the early 2000s, this has allowed us to document some of the known tools that were found in the Game Boy Software development kit:
 {% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information on the known Game Boy SDK files check out this post." %}
+{% include link-to-other-post.html post="/super-game-boy-sdk" description="For Super Game Boy SDK sample and BIOS files, check out this post." %}
 
 ## Nintendo Game Boy Advance (GBA)
 We are currently in the process of documenting the files available in the Game Boy Advance SDK in the following post:
 {% include link-to-other-post.html post="/game-boy-advance-sdk/" description="For more information on the Official Game Boy Advance SDK files check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For Nintendo's GBA SDK demo projects, check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-samples" description="For the bundled GBA SDK code samples, check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a" description="For the M4A sound library and music tooling from the GBA SDK, check out this post." %}
 
 ## Nintendo DS (NDS)
 We are currently in the process of documenting the files found in the Official Nintendo DS (NITRO) Software development kit:
@@ -84,9 +92,11 @@ No information is known about an official SDK for the SEGA Master System or Mark
 Again no information is available about any Official Game Gear Software Development Kit
 
 ## SEGA Mega Drive (Genesis)
+{% include link-to-other-post.html post="/sega-mega-drive-genesis-sdk" description="For the Sega Mega Drive/Genesis SDK files and tooling, check out this post." %}
 
 ## SEGA Saturn
 {% include link-to-other-post.html post="/sega-saturn-sdk/" description="For more information on the files in the Official Sega Saturn SDK check out this post." %}
+{% include link-to-other-post.html post="/sega-saturn-compiling-samples" description="For compiling official Saturn SDK samples, check out this post." %}
 
 ## SEGA Dreamcast
 There were two Software Development Kits for the SEGA Dreamcast, one for Windows CE (supported by Microsoft) and the standard Dreamcast SDK.
@@ -100,10 +110,12 @@ There are two main Software Development Kits for the Sony PSP, which were both m
 
 ProDG was the third party SDK developed by SN Systems and later incorporated into the official PSP SDK.
 {% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the files in the SN Systems ProDG PSP SDK check out this post." %}
+{% include link-to-other-post.html post="/pspsdk" description="For the official Sony PSP SDK packages and versions, check out this post." %}
 
 
 ## Sony PlayStation 1
 {% include link-to-other-post.html post="/Official-PlayStation-1-Software-Development-Kit" description="For more information on the files in the Official Sony PlayStation SDK check out this post." %}
+{% include link-to-other-post.html post="/psyq-sdk-setup" description="For setting up the PSYQ SDK on modern systems, check out this guide." %}
 
 ## Sony PlayStation 2
 We are currently in the process of documenting the files in the Official Sony PlayStation 2 SDK in the following post:
@@ -111,6 +123,9 @@ We are currently in the process of documenting the files in the Official Sony Pl
 
 ## Sony PlayStation 3
 We are currently looking for information about the Sony PlayStation 3 Software Development Kit and will write a post on it in future.
+
+## Sony PlayStation Vita
+{% include link-to-other-post.html post="/official-vita-sdk" description="For leaked official PlayStation Vita SDK files and structure, check out this post." %}
 
 ---
 # Microsoft Software Development Kits

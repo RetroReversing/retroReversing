@@ -6,11 +6,11 @@ tags:
 title: Game Boy Advance Software Development Kit Samples
 category: gba
 permalink: /game-boy-advance-sdk-samples
-redirect_from:
-  - /game-boy-advance-sdk-samples/
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Game Boy Advance (GBA)
     url: /gba
   - name:  Game Boy Advance Software Development Kit Samples

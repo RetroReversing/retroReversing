@@ -13,6 +13,8 @@ permalink: /psyq-sdk-setup
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Sony Playstation 1
     url: /ps1
   - name: PSYQ SDK Setup on MacOSX/Linux

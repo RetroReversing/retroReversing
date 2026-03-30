@@ -11,6 +11,8 @@ permalink: /pspsdk
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Sony PSP
     url: /psp
   - name: Official Sony PSP SDK

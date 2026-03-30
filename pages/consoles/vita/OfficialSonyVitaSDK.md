@@ -6,11 +6,11 @@ tags:
 title: Official Sony Vita SDK
 category: vita
 permalink: /official-vita-sdk
-redirect_from:
-  - /official-vita-sdk/
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Sony Playstation Vita
     url: /psp
   - name: Official Sony Vita Software Development Kit

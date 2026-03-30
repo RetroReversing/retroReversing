@@ -11,6 +11,8 @@ permalink: /sn64-sdk-sn-systems
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Nintendo 64
     url: /n64
   - name: SN64 - Nintendo 64 Software Development Kit (SDK)

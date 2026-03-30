@@ -8,11 +8,11 @@ category: snes
 image: /public/images/snes/Super Nintendo SDK.jpg
 twitterimage: https://www.retroreversing.com/public/images/snes/Super Nintendo SDK.jpg
 permalink: /super-famicom-snes-sdk
-redirect_from:
-  - /super-famicom-snes-sdk/
 breadcrumbs:
   - name: Home
     url: /
+  - name: SDKs
+    url: /sdks
   - name: Super Nintendo Entertainment System
     url: /snes
   - name: SNES (Super Famicom) Software Development Kit
