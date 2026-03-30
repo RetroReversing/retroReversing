@@ -4,9 +4,10 @@ tags:
 - snes
 - leak
 - sourcecode
-- superfx
 title: Original Star Fox Source Code (Gigaleak)
-category: leak
+category: 
+- leak
+- snes
 permalink: /star-fox-source-code
 breadcrumbs:
   - name: Home
@@ -19,7 +20,6 @@ recommend:
 - snes
 - leak
 - sourcecode
-- superfx
 editlink: /leaks/Nintendo/StarFox.md
 updatedAt: '2026-03-30'
 ---
