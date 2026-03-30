@@ -217,6 +217,7 @@ code.language-plaintext {
   background: none;
   color: #0a3069;
   border-radius: 3px;
+  border: 1px solid transparent;
   padding: 0.1em 0.35em;
 }
 

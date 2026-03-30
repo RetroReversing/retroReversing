@@ -4,7 +4,6 @@ tags:
 - ds
 - fileformats
 title: Nintendo DS File Formats
-image: /public/consoles/Nintendo DS.png
 category: ds
 permalink: /DSFileFormats
 breadcrumbs:
@@ -17,6 +16,7 @@ breadcrumbs:
 recommend: 
 - ds
 - fileformats
+- gba
 editlink: /consoles/ds/DSFileFormats.md
 ---
 

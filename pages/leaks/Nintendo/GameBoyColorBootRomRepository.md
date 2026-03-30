@@ -7,7 +7,7 @@ tags:
 - sourcecode
 title: Gigaleak - Game Boy Color Boot ROM Repository
 category: leak
-permalink: /game-boy-color-boot-rom-repository/
+permalink: /game-boy-color-boot-rom-repository
 breadcrumbs:
   - name: Home
     url: /
@@ -23,83 +23,92 @@ editlink: /leaks/Nintendo/GameBoyColorBootRomRepository.md
 updatedAt: '2026-03-29'
 ---
 
-The Nintendo Gigaleak preserves the CGB boot ROM material in two useful forms.
-Inside `other/agb_bootrom` it survives as a compact Subversion repository, and separately the leak also includes `cgb_bootrom_trunk.zip`, an extracted working tree that exposes the actual DMG-format source files directly.
+The Nintendo Gigaleak preserves the [CGB](#glossary-cgb) boot ROM material in two useful forms.
+Inside `other/agb_bootrom` it survives as a compact [SVN](#glossary-svn) repository, and separately the leak also includes `cgb_bootrom_trunk.zip`, an extracted working tree that exposes the actual [DMG](#glossary-dmg)-format source files directly.
 
 {% include link-to-other-post.html post="/gigaleak" description="For the wider Nintendo Gigaleak overview, including the other major archives, check out this post." %}
 
-{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository/" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}
+Here, `monitor` means a small low-level boot control program, not the handheld's physical screen.
+So when this page says `boot monitor binary`, it means a compiled startup/control program that initializes hardware, runs checks, and then hands off to the cartridge code.
 
 ---
 ## At a Glance
 The CGB repository preserves:
 
-* a compact SVN history rather than a single loose boot ROM dump
-* two built monitor outputs at the root
-* a tiny DMG-era `build` package with plaintext source files
+* a compact [SVN](#glossary-svn) history rather than a single loose boot ROM dump
+* two built [boot monitor binaries](#glossary-boot-monitor-binary) at the root
+* a tiny [DMG](#glossary-dmg)-era `build` package with plaintext source files
 * a batch wrapper that still preserves the old `ISDMG` and `ISLINK` flow
-* two dated monitor specification documents from 1998
+* two dated boot monitor specification documents from 1998
+
+---
+## Glossary of Key Terms
+If you are new to CGB boot-ROM and toolchain terms, this quick glossary should help:
+
+* <a id="glossary-cgb"></a>**CGB** - Game Boy Color platform terminology.
+* <a id="glossary-dmg"></a>**DMG** - Original Game Boy generation and naming used in tools/source formats.
+* <a id="glossary-es2"></a>**ES2** - Likely `Engineering Sample 2`, a specific pre-release hardware revision target.
+* <a id="glossary-svn"></a>**SVN** - Subversion version-control repository format.
+* <a id="glossary-vram"></a>**VRAM** - Video RAM used for tile and background display data.
+* <a id="glossary-wram"></a>**WRAM** - Work RAM used for runtime state and scratch memory.
+* <a id="glossary-oam"></a>**OAM** - Object Attribute Memory used for sprite attributes.
+* <a id="glossary-shift-jis"></a>**Shift-JIS** - Japanese text encoding used in comments/strings.
+* <a id="glossary-vblank"></a>**VBlank** - Vertical blank interval used for safe display updates.
+* <a id="glossary-sgb"></a>**SGB** - Super Game Boy compatibility path/check logic.
+* <a id="glossary-nmi"></a>**NMI** - Non-maskable interrupt path used for timing-critical behavior.
+* <a id="glossary-boot-monitor-binary"></a>**Boot monitor binary** - Compiled startup/control program that "monitors" boot-time state (hardware init, cartridge header/checksum validity, mode flags, and palette-selection state) before handing off to game code.
+
+---
+## What the Revision History Shows
+Its visible revision metadata shows a short one-shot import window rather than a later tool-enrichment phase.
+
+Revision | What it appears to do | Why it matters
+---|---|---
+`1` | Creates the basic [SVN](#glossary-svn) layout with `trunk`, `branches`, and `tags` | Shows this was preserved as a real repository rather than a loose file dump
+`2` | Imports the useful CGB working tree in one pass | Brings in the `.com` outputs, `build` folder, and dated boot monitor spec docs together
 
 Repository | Revisions on disk | Earliest date | Latest date | Visible author
 ---|---|---|---|---
 `cgb_bootrom` | 3 revisions (`0` to `2`) | `24 April 2009` | `24 April 2009` | `nakasima`
 
----
-## What the Revision History Shows
-The CGB repository is much smaller and simpler than the AGB one.
-Its visible revision metadata shows a short one-shot import window rather than a later tool-enrichment phase.
-
-Revision | What it appears to do | Why it matters
----|---|---
-`1` | Creates the basic SVN layout with `trunk`, `branches`, and `tags` | Shows this was preserved as a real repository rather than a loose file dump
-`2` | Imports the useful CGB working tree in one pass | Brings in the `.com` outputs, `build` folder, and dated monitor spec docs together
-
-So unlike the AGB repository, the CGB side does not currently show later additions of tools or copied SDK reference material.
-It feels more like a compact preserved handoff package.
+Of course 2009 is far too late for the CGB boot ROM to have been developed in this way (The GBA was released in 2001!), so it is likely that this repository was created as a compact backup package rather than a real-time development repository.
 
 ---
 ## Trunk Structure
 
 {% capture cgb_trunk_body %}
-The CGB repository is much tighter than the AGB one: two built monitor binaries at the root, a very small `build` folder with DMG-format source inputs and a batch script, and two dated documents in `doc`.
+The CGB repository contains two built [boot monitor binaries](#glossary-boot-monitor-binary) at the root, a very small `build` folder with [DMG](#glossary-dmg)-format source inputs and a batch script, and two dated documents in `doc`.
 {% endcapture %}
 
 {% capture cgb_trunk_items %}
-- AgbCgbMn2_1.com - Built AGB/CGB monitor output
-- CgbEs2Mn.com - Alternate ES2-targeted monitor output
+- AgbCgbMn2_1.com - Built AGB/CGB boot monitor output
+- CgbEs2Mn.com - Alternate [ES2](#glossary-es2)-targeted boot monitor output
 - build - Small DMG-era build package
 - build/agb_cgb.dmg - Main assembler input
 - build/asmagbcgb.bat - Batch wrapper for the build
 - build/cgb_es2.dmg - Alternate ES2 source branch
 - build/cgbw6def.dmg - Smaller definitions/configuration source
 - doc - Dated CGB notes from 1998
-- doc/CGB－CPUモニタープログラム仕様書_980403.doc - Internal spec with filename `980403` (presumably 3rd April 1998) and an internal creation date of 26 March 1998
+- doc/CGB－CPUモニタープログラム仕様書_980403.doc - Internal spec with filename `980403` and an internal creation date of 26 March 1998
 - doc/CGB－CPUモニタープログラム仕様書_980615.doc - Internal document dated 15 June 1998
 {% endcapture %}
 
 {% include connected-folder-tree.html folder="trunk" path="cgb_bootrom/trunk" body=cgb_trunk_body version="revision 2 import" content=cgb_trunk_items %}
 
-The separate `cgb_bootrom_trunk.zip` export makes this repository much clearer because the three `build` files can be read directly.
-That turns the CGB side from a vague inventory of filenames into a real small source package.
-
 ---
 ## Build Structure
-The overall structure of the CGB repository is tight enough to summarize in one workflow:
-
-* two final `.com` monitor binaries at the root
-* three DMG-format build inputs plus a batch file in `build`
-* two dated documents in `doc`
+The repository is compact enough that the whole build package fits into one simple workflow:
 
 ```mermaid
 flowchart LR
   A["<b>asmagbcgb.bat</b><br>batch wrapper"] --> B["<b>ISDMG AGB_CGB</b><br>assemble main DMG-format source"]
-  B --> C["<b>ISLINK @LINKAGCG.LNK</b><br>link monitor image"]
-  C --> D["<b>AgbCgbMn2_1.com</b><br>AGB/CGB monitor output"]
-  C --> E["<b>CgbEs2Mn.com</b><br>ES2 monitor output"]
+  B --> C["<b>ISLINK @LINKAGCG.LNK</b><br>link boot monitor image"]
+  C --> D["<b>AgbCgbMn2_1.com</b><br>AGB/CGB boot monitor output"]
+  C --> E["<b>CgbEs2Mn.com</b><br>ES2 boot monitor output"]
 ```
 
 {% capture cgb_build_body %}
-The CGB `build` folder is small enough to read almost as one batch-driven package: one wrapper script, two main DMG-format source inputs, and one smaller definitions file.
+The CGB `build` folder is small enough to read almost as one batch-driven package: one wrapper script, two main [DMG](#glossary-dmg)-format source inputs, and one smaller definitions file.
 {% endcapture %}
 
 {% capture cgb_build_items %}
@@ -129,9 +138,10 @@ So the overall build flow is preserved, but the exact linker command file still 
 ## The Source Files
 The extracted CGB working tree shows that all three `build` inputs are plaintext source files rather than opaque binary artifacts.
 
-### The Main Monitor Source
-`agb_cgb.dmg` is a full plaintext monitor source at `1428` lines.
-It opens with `title monitor`, declares `BANK0 GROUP 0`, and includes `cgb_reg` plus `cgbw6def`.
+### The Main Boot Monitor Source
+`agb_cgb.dmg` is a human-readable assembly source file at `1428` lines.
+Its own header names it `monitor`, which is where this page's "boot monitor" terminology comes from.
+
 
 {% capture agbcgb_code_items %}
 - function|||init_rom
@@ -153,11 +163,10 @@ It opens with `title monitor`, declares `BANK0 GROUP 0`, and includes `cgb_reg` 
 - table|||set_ninbg_soft
 {% endcapture %}
 
-{% capture agbcgb_code_cards %}
-{% include source-code-card.html title="agb_cgb.dmg" items=agbcgb_code_items functions="12" variables="5" lines="1428" %}
-{% endcapture %}
-
-{% include source-code-card-grid.html title="agb_cgb.dmg Internals" content=agbcgb_code_cards style="justify-content: center;" %}
+<div class="rr-code-card-aside" markdown="1">
+{% include source-code-card.html title="agb_cgb.dmg" items=agbcgb_code_items functions="12" variables="5" lines="1428" class="rr-file-card-aside" %}
+<div class="rr-code-card-aside-content" markdown="1">
+The opening lines place all of the code into the first ROM bank (`BANK0 GROUP 0`), pull in the CGB hardware register definitions from `cgb_reg`, and pull in the shared memory-layout and palette constants from `cgbw6def` (the definitions file covered later on this page).
 
 This is much more than a tiny jump into a final boot image.
 The visible labels and data blocks show Nintendo logo and title-screen data, VRAM and OAM clearing paths, sound initialization, title sound timing, palette generation, maker checks, SGB checks, and CPU-mode changes.
@@ -165,7 +174,10 @@ The visible labels and data blocks show Nintendo logo and title-screen data, VRA
 The header comments are also especially revealing.
 Unlike `cgb_es2.dmg`, this file carries later maintenance notes dated `21 August 1999` and `30 March 2000`, which makes it look like a maintained later branch built on top of the older monitor source.
 
-### What the Monitor Actually Does
+</div>
+</div>
+
+### What the Boot Monitor Actually Does
 Reading through `agb_cgb.dmg` makes the overall flow much clearer than the filename alone would suggest.
 The monitor is not just a minimal boot shim.
 It spends most of its time on a staged logo, title, palette, and handoff sequence.
@@ -173,7 +185,7 @@ It spends most of its time on a staged logo, title, palette, and handoff sequenc
 The top-level flow looks like this:
 
 * set the stack and enter `init_rom`
-* clear VRAM, work RAM, and OAM
+* clear [VRAM](#glossary-vram), [WRAM](#glossary-wram), and [OAM](#glossary-oam)
 * copy and double the Nintendo logo data into character memory
 * compare the copied logo against the expected `nin_data` table
 * run the header checksum
@@ -210,22 +222,22 @@ At the source level, that database breaks down into:
 * `pltt_data` as the actual color words used to build the final CGB palette buffers
 
 That is a lot more structure than a simple "default palette" feature.
-It shows Nintendo had turned the boot monitor into a small compatibility database that could classify cartridge headers, map them into palette groups, and then expand those groups into actual color data for the title and game handoff.
+It shows Nintendo had turned the boot monitor into a small compatibility database that classifies cartridge headers before handing them off to the later palette-group and color-data stages.
 
-The source comments also make the database much easier to read once the file is decoded as Shift-JIS.
+The source comments also make the database much easier to read once the file is decoded as [Shift-JIS](#glossary-shift-jis).
 Some of the visible title abbreviations in `soft_check_single` and `soft_check_plural_data` include:
 
-* `役満`
-* `テニス`
-* `テトリス`
-* `ドクマリ`
-* `カービィ`
-* `ゼルタ`
-* `ドンキー`
-* `ポケ赤`
-* `ポケ緑`
-* `ポケ青`
-* `ポケ黄`
+* `役満` (`Yakuman`)
+* `テニス` (`Tennis`)
+* `テトリス` (`Tetris`)
+* `ドクマリ` (`Dr. Mario`)
+* `カービィ` (`Kirby`)
+* `ゼルタ` (`Zelda`)
+* `ドンキー` (`Donkey Kong`)
+* `ポケ赤` (`Pokemon Red`)
+* `ポケ緑` (`Pokemon Green`)
+* `ポケ青` (`Pokemon Blue`)
+* `ポケ黄` (`Pokemon Yellow`)
 * `KIRBY`
 * `CHESS`
 * `INVAD`
@@ -233,7 +245,7 @@ Some of the visible title abbreviations in `soft_check_single` and `soft_check_p
 * `WARI2`
 * `SOCCR`
 * `PKBOM`
-* `G&W`
+* `G&W` (Game and Watch)
 
 That list is only partial, but it is already enough to show what the table was doing in practice.
 This was not a generic "DMG cartridge" palette system.
@@ -241,32 +253,29 @@ It was explicitly trying to recognize a long list of Nintendo-published or Ninte
 
 A few especially recognizable entries line up like this:
 
-Title label | Checksum byte | Packed selector | Palette no. | Group type | Evidence
+Title label | Likely game | Checksum byte | Packed selector | Palette no. | Group type
 ---|---|---|---|---|---
-`役満` | `$16` | `0*$20+18` | `18` | `0` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`テニス` | `$D1` | `5*$20+2` | `2` | `5` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`テトリス` | `$DB` | `0*$20+7` | `7` | `0` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ドクマリ` | `$3C` | `2*$20+11` | `11` | `2` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`カービィ` | `$5C` | `5*$20+8` | `8` | `5` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ゼルタ` | `$70` | `5*$20+17` | `17` | `5` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ドンキー` | `$19` | `3*$20+6` | `6` | `3` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ポケ赤` | `$14` | `1*$20+16` | `16` | `1` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ポケ緑` | `$AA` | `1*$20+28` | `28` | `1` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
-`ポケ黄` | `$15` | `0*$20+7` | `7` | `0` | Checksum is explicit in `soft_check_single`; selector is matched by table position in `pltt_index_group_index`
+`役満` | `Yakuman` | `$16` | `0*$20+18` | `18` | `0`
+`テニス` | `Tennis` | `$D1` | `5*$20+2` | `2` | `5`
+`テトリス` | `Tetris` | `$DB` | `0*$20+7` | `7` | `0`
+`ドクマリ` | `Dr. Mario` | `$3C` | `2*$20+11` | `11` | `2`
+`カービィ` | `Kirby` | `$5C` | `5*$20+8` | `8` | `5`
+`ゼルタ` | `Zelda` | `$70` | `5*$20+17` | `17` | `5`
+`ドンキー` | `Donkey Kong` | `$19` | `3*$20+6` | `6` | `3`
+`ポケ赤` | `Pokemon Red` | `$14` | `1*$20+16` | `16` | `1`
+`ポケ緑` | `Pokemon Green` | `$AA` | `1*$20+28` | `28` | `1`
+`ポケ黄` | `Pokemon Yellow` | `$15` | `0*$20+7` | `7` | `0`
 
 The interpretation is straightforward up to that point.
 The checksum byte and packed selector are direct evidence from the source.
-What each selector means aesthetically still depends on the later palette-group and palette-data expansion logic.
-
-That is enough to see that the palette system is not only broad, but also quite uneven in its assignments.
-Different games can land on very different group types even when they are broadly in the same first-party compatibility bucket.
+The later sections on palette groups and `pltt_data` explain what those selectors expand into visually.
 
 The plural tables are just as revealing.
-They preserve shorter secondary title fragments such as `ポケ青`, `WARI2`, `SOCCR`, `PKBOM`, `G&W`, `メトロ2`, `TET2`, `TETAT`, `ドンL`, and `ドンL2`.
+They preserve shorter secondary title fragments such as `ポケ青` (`Pokemon Blue`), `WARI2` (`Wario Land 2`), `SOCCR` (`Soccer`), `PKBOM` (`Pocket Bomberman`), `G&W` (`Game & Watch`), `メトロ2` (`Metroid II`), `TET2` (`Tetris 2`), `TETAT` (`Tetris Attack`), `ドンL` (`Donkey Land`), and `ドンL2` (`Donkey Land 2`).
 
 That makes the lookup logic much easier to interpret.
 The monitor was not only matching one checksum to one palette entry.
-It also had a second-stage disambiguation path for collisions, where one checksum bucket could be split again by title fragment before the final palette selector was chosen.
+It also had a second-stage disambiguation path for collisions, where one checksum bucket could be split again by title fragment before the final selector was chosen.
 
 So the compatibility logic looks like a three-step chain:
 
@@ -312,17 +321,18 @@ Its structure is almost the same, but the header is much simpler and only carrie
 - table|||set_ninbg_soft
 {% endcapture %}
 
-{% capture cgbes2_code_cards %}
-{% include source-code-card.html title="cgb_es2.dmg" items=cgbes2_code_items functions="12" variables="5" lines="1423" %}
-{% endcapture %}
-
-{% include source-code-card-grid.html title="cgb_es2.dmg Internals" content=cgbes2_code_cards style="justify-content: center;" %}
+<div class="rr-code-card-aside" markdown="1">
+{% include source-code-card.html title="cgb_es2.dmg" items=cgbes2_code_items functions="12" variables="5" lines="1423" class="rr-file-card-aside" %}
+<div class="rr-code-card-aside-content" markdown="1">
 
 A quick diff between the two sources is revealing.
 Most of the monitor is the same, but `agb_cgb.dmg` adds the later maintenance comment block, changes the flow around `init_rom2game`, inserts an extra `inc b` flag-setting step, and swaps one small-logo copy path from `ex_nindata` to `$ff80`.
 
 So the best reading here is not "two totally different monitor programs."
 It is "one older ES2-era source snapshot and one later maintained branch built on almost exactly the same codebase."
+
+</div>
+</div>
 
 ### Title, Logo, and Fade Sequence
 One of the most interesting parts of the source is how much work goes into the title presentation itself.
@@ -338,7 +348,7 @@ That makes the monitor feel much more like a small presentation program than a r
 It has a proper sequence of character conversion, tilemap writes, sound timing, per-frame waits, and palette fading.
 
 The `fade_out` path is especially telling.
-It loops for `19*2` steps, repeatedly calling `fade_out_sub`, waiting for VBlank, and re-uploading the updated title palette.
+It loops for `19*2` steps, repeatedly calling `fade_out_sub`, waiting for [VBlank](#glossary-vblank), and re-uploading the updated title palette.
 So even this small monitor source is doing a frame-by-frame effect, not just toggling a few registers once.
 
 ### Hardcoded Presentation Data
@@ -375,17 +385,18 @@ It also bundles fixed logo data, sound timing, and presentation-state constants 
 - global|||pltt_grp_type
 {% endcapture %}
 
-{% capture cgbw6def_code_cards %}
-{% include source-code-card.html title="cgbw6def.dmg" items=cgbw6def_code_items functions="0" variables="12" lines="103" %}
-{% endcapture %}
-
-{% include source-code-card-grid.html title="cgbw6def.dmg Internals" content=cgbw6def_code_cards style="justify-content: center;" %}
+<div class="rr-code-card-aside" markdown="1">
+{% include source-code-card.html title="cgbw6def.dmg" items=cgbw6def_code_items functions="0" variables="12" lines="103" class="rr-file-card-aside" %}
+<div class="rr-code-card-aside-content" markdown="1">
 
 The top half defines the monitor's memory layout, including VRAM, work RAM banks, OAM, CPU work RAM, stack positions, and palette-buffer scratch areas.
 The lower half defines palette IDs and small state bytes used while the monitor decides how to color the title sequence.
 
 That second half is especially interesting because the palette constants name built-in presets like `CI_ZELDA_OBJ`, `CI_TETRIS`, `CI_METROID_OBJ`, `CI_CAMERA`, `CI_KIRBY_OBJ`, and `CI_GAMEWATCH_GB`.
 So `cgbw6def.dmg` is also a compact data dictionary for the Game Boy Color boot monitor's built-in palette-selection system.
+
+</div>
+</div>
 
 ### The Working Memory Layout
 `cgbw6def.dmg` is also the clearest place to see how the monitor expected to use CGB memory while it was running.
@@ -420,36 +431,18 @@ The palette IDs in `cgbw6def.dmg` are easier to browse once they are grouped by 
 Preset type | Examples | What they suggest
 ---|---|---
 Generic tonal themes | `CI_SEPIA_4A`, `CI_SEPIA_4B`, `CI_BLUE_4A`, `CI_BLUE_4B`, `CI_GREEN_4A`, `CI_RED_4`, `CI_GRAY_4`, `CI_YELLOW_4` | Reusable fallback palettes for broad categories of monochrome games
-Series or game-specific entries | `CI_ZELDA_OBJ`, `CI_TETRIS`, `CI_METROID_OBJ`, `CI_KIRBY_OBJ`, `CI_DONKEY_OBJ`, `CI_DONKEY_BG`, `CI_TENNIS_BG`, `CI_BASEBALL_BG`, `CI_PANEPON` | Named presets for especially recognizable first-party properties
-Special visual themes | `CI_GAMEWATCH_GB`, `CI_RPG_BG`, `CI_CAMERA`, `CI_SPACE`, `CI_COOKIE` | Presets built around a specific visual style rather than one game series
+Series and game-specific entries | `CI_ZELDA_OBJ`, `CI_TETRIS`, `CI_METROID_OBJ`, `CI_KIRBY_OBJ`, `CI_DONKEY_OBJ`, `CI_DONKEY_BG`, `CI_TENNIS_BG`, `CI_BASEBALL_BG`, `CI_PANEPON`, `CI_GAMEWATCH_GB`, `CI_RPG_BG`, `CI_CAMERA`, `CI_SPACE`, `CI_COOKIE` | Named presets for specific Nintendo properties and individual games, rather than only broad fallback palettes
 
 That mix is one of the clearest hints that Nintendo was tuning the CGB boot monitor for appearance, not just compatibility.
-The monitor had room for broad fallback color themes, but it also carried hand-labeled presets for well-known Nintendo properties.
+The monitor had room for broad fallback color themes, but it also carried hand-labeled presets for specific games and well-known Nintendo properties.
 
 ### The Palette Selection System
-The palette logic is one of the most revealing parts of the entire CGB package.
-It shows that this monitor was carrying a built-in compatibility layer for many original Game Boy titles rather than one fixed default colorization.
-
-The source splits that work into a few distinct data blocks:
-
-* `soft_check_single` for `64 + 1` single-match title checks
-* `soft_check_plural` and `soft_check_plural_data` for `14` more ambiguous cases
-* `pltt_index_group_index` for `93 + 1` palette-group lookups
-* `pltt_index_group` for grouped `OBJ0`, `OBJ1`, and `BG` palette combinations
-* `pltt_data` for the actual color values
-
-That matters because it makes the monitor's strategy very visible.
-It is not just storing a few named preset palettes.
-It is mapping cartridge header data to palette-group indices, then expanding those indices into grouped object and background palettes before uploading them into CGB palette memory.
+By this point the overall shape of the palette system is clear: the compatibility tables identify the game, and the remaining logic decides which grouped palette preset to apply or whether to use the manual override path instead.
 
 The source also preserves a manual override path.
 `KEY_CHECK_NUM` is `12`, and `key2pltt_table` maps those checks to palette choices, which lines up neatly with the four directional inputs multiplied across three button combinations.
 So this is not only an automatic per-game palette system.
 It also preserves the user-facing palette switcher Nintendo exposed on real hardware.
-
-That input table is a nice example of how much practical behaviour survives in the source.
-The palette system is not just data-driven in the abstract.
-It preserves both the automatic lookup path and the exact small control surface Nintendo exposed to the player during boot.
 
 The table itself is compact enough to summarize directly.
 Each entry stores one input code and one packed palette selection value, where the low 5 bits are the palette number and the high 3 bits are the palette-group type:
@@ -473,7 +466,7 @@ Even without resolving every Japanese input comment perfectly, the structure is 
 The manual selector is not choosing from arbitrary colors.
 It is choosing from the same grouped palette system the automatic compatibility database uses.
 
-With the Shift-JIS comments decoded, the inputs are clearer too:
+With the [Shift-JIS](#glossary-shift-jis) comments decoded, the inputs are clearer too:
 
 * `$40`, `$41`, `$42` are `Up`, `Up+A`, and `Up+B`
 * `$20`, `$21`, `$22` are `Left`, `Left+A`, and `Left+B`
@@ -483,7 +476,7 @@ With the Shift-JIS comments decoded, the inputs are clearer too:
 So the manual palette switcher really is a compact 12-way menu built out of d-pad direction plus optional `A` or `B`.
 
 ### Cartridge Checks and DMG or CGB Handoff
-The `maker_check`, `sgb_check`, `select_palette`, and `cpu_mode_change` cluster shows how the monitor decides what to do with the inserted cartridge.
+The `maker_check`, `sgb_check`, `select_palette`, and `cpu_mode_change` cluster shows how the monitor decides what to do with the inserted cartridge, including [SGB](#glossary-sgb)-related checks.
 
 At a high level it:
 
@@ -492,11 +485,10 @@ At a high level it:
 * computes a title checksum into `name_sum`
 * searches the single-title and plural-title tables for a palette match
 * updates `curr_pltt_no` and `pltt_grp_type`
-* waits for VBlank and then switches into either CGB or DMG mode
+* waits for [VBlank](#glossary-vblank) and then switches into either [CGB](#glossary-cgb) or [DMG](#glossary-dmg) mode
 
-That helps explain why `cgbw6def.dmg` has both header-related constants and so many palette-related variables.
-This is the logic that ties those pieces together.
-The monitor is effectively doing a tiny bit of cartridge identification before it decides how the boot sequence should look.
+That is the logic that ties the header constants, compatibility tables, and palette variables together.
+The monitor is effectively doing a small cartridge-identification pass before it decides how the boot sequence should look.
 
 One subtle detail in the source makes the handoff logic even clearer.
 During the title loop, `select_palette` is only called when bit 7 of `cpu_mode_data` is clear.
@@ -510,7 +502,8 @@ The source is not treating every cartridge the same way.
 It branches early between "native color-capable cartridge" and "older monochrome cartridge that may need a compatibility palette."
 
 ### Palette Groups and Actual Color Data
-The palette system becomes even more concrete once the decoded comments in `cgbw6def.dmg` and `agb_cgb.dmg` are lined up with the tables.
+The last stage of the palette system is where the earlier selectors become actual display colors.
+Once the decoded comments in `cgbw6def.dmg` and `agb_cgb.dmg` are lined up with the tables, that final expansion path is much easier to follow.
 
 At the symbolic level, the monitor knows about palette entries such as:
 
@@ -531,15 +524,15 @@ At the symbolic level, the monitor knows about palette entries such as:
 
 With the comments decoded, a few of those names are much clearer in plain Japanese too:
 
-* `セピア4A` and `セピア4B`
-* `ブルー4A` and `ブルー4B`
-* `グリーン4A`
-* `ゲームウォッチBG`
-* `ゼルダOBJ`
-* `テトリス`
-* `メトロイドOBJ`
-* `デバガメ`
-* `宇宙`
+* `セピア4A` and `セピア4B` (`Sepia 4A` and `Sepia 4B`)
+* `ブルー4A` and `ブルー4B` (`Blue 4A` and `Blue 4B`)
+* `グリーン4A` (`Green 4A`)
+* `ゲームウォッチBG` (`Game & Watch BG`)
+* `ゼルダOBJ` (`Zelda OBJ`)
+* `テトリス` (`Tetris`)
+* `メトロイドOBJ` (`Metroid OBJ`)
+* `デバガメ` (`Camera`)
+* `宇宙` (`Space`)
 
 Then `pltt_index_group` combines those symbolic entries into 30 grouped presets for `OBJ0`, `OBJ1`, and `BG`.
 For example:
@@ -586,8 +579,7 @@ Palette entry | Swatches | Direct evidence
 `デバガメ` | <span style="display:inline-block;width:1.1em;height:1.1em;background:#FFFFFF;border:1px solid #999;"></span> <span style="display:inline-block;width:1.1em;height:1.1em;background:#FFCE00;border:1px solid #999;"></span> <span style="display:inline-block;width:1.1em;height:1.1em;background:#9C6300;border:1px solid #999;"></span> <span style="display:inline-block;width:1.1em;height:1.1em;background:#000000;border:1px solid #999;"></span> | Converted directly from `$7FFF, $033F, $0193, $0000`
 
 That makes the palette story easier to grasp at a glance.
-The source is not only naming palettes symbolically.
-It is preserving the exact 15-bit color sets the monitor uploaded into CGB palette memory.
+The source is preserving the exact 15-bit color sets the monitor uploaded into CGB palette memory, not just symbolic names.
 
 ### Why the AGB_CGB Branch Matters
 One subtle but useful detail is that the later `agb_cgb.dmg` branch is not only carrying the same broad logic as `cgb_es2.dmg`.
@@ -621,7 +613,7 @@ The filenames at the root still tell a useful story.
 
 The built outputs are also remarkably close to each other.
 Both `AgbCgbMn2_1.com` and `CgbEs2Mn.com` are exactly `2304` bytes, and a byte-level comparison only shows `11` differing positions.
-That fits very well with the source-level picture from `agb_cgb.dmg` and `cgb_es2.dmg`: these are two extremely closely related monitor builds rather than radically different binaries.
+That fits very well with the source-level picture from `agb_cgb.dmg` and `cgb_es2.dmg`: these are two extremely closely related boot monitor builds rather than radically different binaries.
 
 Those binary differences are tightly clustered too:
 
@@ -634,7 +626,7 @@ Offset | `AgbCgbMn2_1.com` | `CgbEs2Mn.com`
 `0x40B` | `FF` | `01`
 
 That clustering matches the source-level story nicely.
-Most of the binary is identical, with only one small early block and one tiny late block changing between the two monitor builds.
+Most of the binary is identical, with only one small early block and one tiny late block changing between the two boot monitor builds.
 
 The `doc` folder survives as two files:
 
@@ -673,8 +665,7 @@ That confirms a few practical details before even getting into the actual monito
 * they appear to come from a project directory literally named `cgb`
 * the later revision was structured enough to preserve formal update fields rather than being an informal note dump
 
-The most useful improvement here is that the documents can now be read as real text rather than only metadata.
-That changes the page quite a bit because the specifications now confirm several major behaviours directly.
+The most useful improvement here is that the documents can now be read as real text rather than only metadata, which means the specifications can confirm several major behaviours directly.
 
 The `980403` document describes a six-part structure:
 
@@ -715,12 +706,12 @@ Revision | March `980403` | June `980615`
 ---|---|---
 Structure | six-part document | four-part document
 Palette-selection model | separate palette-selection startup flow and operation section | folded into one unified boot flow
-Runtime behavior | describes a dedicated palette-selection window and NMI path during gameplay | describes palette changes during the boot-logo display only
+Runtime behavior | describes a dedicated palette-selection window and [NMI](#glossary-nmi) path during gameplay | describes palette changes during the boot-logo display only
 Extra staging details | expands palette-window character data into VRAM bank 1 and builds palette-panel data | emphasizes OAM clear, logo expansion, palette changes during logo display, then VRAM clear except logo tiles
 Overall feel | monitor-style palette utility layered on top of boot logic | closer to the familiar retail CGB logo-and-handoff flow
 
 The March wording is especially revealing because it still documents a much more monitor-like palette system.
-It describes a `カラーパレット選択ウィンドウ` overlay appearing on top of the running game, a palette-selection NMI path, and resuming play after the window closes.
+It describes a `カラーパレット選択ウィンドウ` (`color palette selection window`) overlay appearing on top of the running game, a palette-selection [NMI](#glossary-nmi) path, and resuming play after the window closes.
 
 By June that has been simplified into the now-familiar boot-time behavior:
 
@@ -768,3 +759,6 @@ The source, binaries, and specs all point to the same picture:
 
 So the leak is valuable for more than just preserving one boot binary.
 It shows how Nintendo structured the logic behind Game Boy Color boot-time palette compatibility at a very low level.
+
+Now you might be interested in our post on the Game Boy Advance Boot ROM:
+{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository/" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}

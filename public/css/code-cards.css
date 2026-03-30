@@ -58,6 +58,7 @@
 .rr-file-card {
   position: relative;
   box-shadow: 0 3px 15px rgba(51, 51, 51, 0.2);
+  background: #fff;
   border-radius: 10px;
   transition: 0.2s ease;
 /*   padding-left: 5%;
@@ -70,6 +71,63 @@
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.rr-file-card-float {
+  float: left;
+  display: block;
+  width: 320px;
+  max-width: 320px;
+  margin: 8px 24px 16px 0;
+  shape-outside: margin-box;
+}
+
+.rr-file-card-float ul,
+.rr-file-card-float div {
+  max-width: none;
+}
+
+.rr-file-card-float ul {
+  max-width: none;
+  height: auto;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.rr-file-card-float .rr-file-stats {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.rr-file-card-clear {
+  clear: both;
+}
+
+.rr-code-card-aside {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin: 8px 0 16px;
+}
+
+.rr-code-card-aside .rr-file-card {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.rr-file-card-aside {
+  flex: 0 0 320px;
+  width: 320px;
+  max-width: 320px;
+}
+
+.rr-code-card-aside-content {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.rr-code-card-aside-content > :first-child {
+  margin-top: 0;
 }
 
 .rr-file-card h3 {
@@ -158,6 +216,29 @@
   overflow-x: scroll;
   margin-left: -100px;
   padding-left: 10px;
+}
+
+@media (max-width: 900px) {
+  .rr-file-card-float {
+    float: none;
+    width: auto;
+    max-width: none;
+    margin: 12px 0 16px;
+  }
+
+  .rr-file-card-clear {
+    clear: none;
+  }
+
+  .rr-code-card-aside {
+    display: block;
+  }
+
+  .rr-file-card-aside {
+    width: auto;
+    max-width: none;
+    margin-bottom: 16px;
+  }
 }
 
 * {

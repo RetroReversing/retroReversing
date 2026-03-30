@@ -63,10 +63,19 @@ Posts are written in [GitHub Flavored Markdown](https://github.github.com/gfm/) 
 When a section is listing folder contents, prefer the existing includes over raw HTML or plain bullet dumps:
 * Use `connected-folder-tree.html` when showing folders with subfolders or a nested directory structure
   `folder` should be the short display name and `path` should be the longer location, for example `folder="trunk"` and `path="agb_bootrom/trunk"`
-* Use `source-code-card.html` and `source-code-card-grid.html` when you are actually showing the contents of a source file, such as its functions, variables, structs, or other internal symbols
+
+When referencing a real source file:
+* Use `source-code-card.html` and/or `source-code-card-grid.html` when you are actually showing the contents of a source file, such as its functions, variables, structs, or other internal symbols
+* Its best to float the code card to the side of the text with the `rr-code-card-aside` class and use it in sections talking about that source file.
+* Don't have the exact same code card in multiple sections of the same article
 * Do not use code cards just to summarize what a file is for or what companion files sit beside it - use a table or normal prose for that instead
 * The `functions`, `variables`, and `lines` fields on code cards must be exact numeric counts taken from the file contents, not descriptive text or estimates
 * If the exact counts are not known yet, leave the card out until the file has been inspected properly enough to count them
+* In a code-card item like `type::name::extra`, the final `extra` field is for function arguments only
+* For variables and other non-function symbols, leave the final field blank
+  Wrong: `- function::SAVE_FILE1::save wrapper for the first editor family`
+  Better: `- function::SAVE_FILE1::()`
+  Better: `- variable::Log_Format_2HD`
 * Prefer these includes over hand-written decorative HTML so the styling stays consistent across the site
 
 ## Writing Style Rules
@@ -127,6 +136,9 @@ Here are some of the markdown rules:
 * **Never use numbered lists** - Just use `*` for all unordered lists.
 * **Short inline code** - If the code is short, wrap it with backticks (e.g. `eax, 0x00`).
 * **HR before H2/H3** - Have an HR before HR/H3 but only if its not the first sub heading under a heading
+* **Add a glossary for acronym-heavy pages** - If a page uses many technical acronyms or specialist terms, add a short glossary near the top.
+* **Link first mention per section** - For glossary terms, link the first meaningful mention in each section to the glossary definition; avoid linking every occurrence.
+* **Use stable glossary anchors** - Add explicit HTML anchors for glossary entries (for example `<a id="glossary-cop"></a>`) so in-page links remain predictable.
 
 ---
 ## Frontmatter Rules
@@ -165,10 +177,10 @@ Field | Purpose
 ---|---
 `layout` | Usually `post` for normal RetroReversing pages
 `tags` | Search/discovery tags for the page, and the values other pages match against in their `recommend` lists
-`title` | Full page title shown in the page header and metadata
+`title` | Full page title shown in the page header and metadata (do not use colons! as it messes with the yaml frontmatter)
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category
-`image` | Main preview image used by the page and site cards
-`twitterimage` | Absolute URL version of the preview image for social sharing
+`image` | Main preview image used by the page and site cards, if there is not a unique one leave it blank and it will be generated based on the category and title
+`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated
 `permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page
 `recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site

@@ -46,6 +46,7 @@ It also preserves some genuinely nice historical details:
 * most of the tools still identify the project by the older internal name **CAR RACE**
 * the build scripts show a mixed regional codebase rather than a single clean PAL branch
 
+---
 # Root directory (SFC.7z/ソースデータ/FZERO)
 When the Gigaleak SFC.7z archive is extracted it contains the source for several Super Famicom projects.
 This post covers everything in the `FZERO` directory.
@@ -112,6 +113,7 @@ Programmers | `Y. Nishida`, `M. Kimura`, `S. Yamashiro`
 
 That is an unusually nice preservation detail because it shows the SNES release as a revision of an older codebase, not a project that simply appeared fully formed in 1991.
 
+---
 ### How the SNES Build Works
 The build scripts make the toolchain very clear.
 Both `makefile` and `fzero_pal.make` assemble every `.asm` file with `as65c`, then link the resulting `.rel` files with `link`, convert the linked image with `load`, and finally produce a symbol file with `insp`.
@@ -130,6 +132,7 @@ The PAL build is not a completely separate source tree.
 It mixes `fzero_main.asm` with `play_main_pal.asm`, but still pulls in several `*_usa` modules such as `title_main_usa`, `calculate_usa`, `set_bg2_usa`, and `game_over_usa`.
 That makes the archive look more like a branch stack of targeted patches than a set of fully isolated regional folders.
 
+---
 ### Interesting Game-Side Details
 Several files are much more revealing than their names make them sound:
 
@@ -203,6 +206,7 @@ It contains the DOS-side C programs and helper assembly routines used to turn ed
   </div>
 </section>
 
+---
 ### What the Toolchain Shows
 Nearly every tool still calls the project **CAR RACE** and most of them were written by **Y. Nishida** between 1989 and 1990.
 That makes this folder one of the clearest preserved examples of Nintendo's early SNES content pipeline in the leak.
@@ -225,6 +229,7 @@ Tool | Version/date in source header | What it does
 That version spread is useful because it shows the tooling matured alongside the game.
 `carmap.c` is an early 1989 generator, while `mkmap.c` is a much later 1990 rework for a larger world layout.
 
+---
 ### Likely Asset Pipeline
 The file extensions make much more sense once the tools are viewed together as one workflow:
 

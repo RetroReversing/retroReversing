@@ -47,19 +47,46 @@ function parseFrontmatter(content) {
     const yamlContent = match[1];
     const metadata = {};
     
-    // Simple YAML parser for basic key-value pairs
+    // Simple YAML parser for basic key-value pairs.
+    // Only top-level keys (no leading whitespace) are promoted to metadata so
+    // that nested fields inside block sequences (e.g. videocarousel items with
+    // their own `image:` key) do not shadow top-level fields.
     const lines = yamlContent.split('\n');
     let currentKey = null;
     let currentValue = [];
+    let insideNestedBlock = false;
     
-    for (let line of lines) {
-        line = line.trim();
+    for (const rawLine of lines) {
+        const trimmed = rawLine.trimEnd();
         
-        if (line === '' || line.startsWith('#')) {
+        if (trimmed.trim() === '' || trimmed.trim().startsWith('#')) {
             continue;
         }
         
-        // Handle array items
+        const isTopLevel = trimmed.length > 0 && trimmed[0] !== ' ' && trimmed[0] !== '\t';
+        
+        // A top-level `- ` marks the start of a block-sequence item at root level.
+        // Sub-lines that are indented belong to the previous top-level key.
+        if (!isTopLevel) {
+            const line = trimmed.trim();
+            
+            // Only collect simple (non-indented) array scalar items for top-level keys.
+            if (line.startsWith('- ') && !insideNestedBlock) {
+                if (currentKey) {
+                    currentValue.push(line.substring(2).trim());
+                }
+            }
+            // Once we enter a nested block (indented key-value pair), ignore it.
+            insideNestedBlock = line.indexOf(':') > 0 && !line.startsWith('- ');
+            continue;
+        }
+        
+        // Reset nested-block flag when we return to top-level.
+        insideNestedBlock = false;
+        
+        const line = trimmed.trim();
+        
+        // Handle top-level array items (e.g. redirect_from list)
         if (line.startsWith('- ')) {
             if (currentKey) {
                 currentValue.push(line.substring(2).trim());
@@ -67,7 +94,7 @@ function parseFrontmatter(content) {
             continue;
         }
         
-        // Handle key-value pairs
+        // Handle top-level key-value pairs
         const colonIndex = line.indexOf(':');
         if (colonIndex > 0) {
             // Save previous key-value if exists

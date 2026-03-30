@@ -2,11 +2,13 @@
 permalink: /gameboy
 layout: post
 title: Nintendo Game Boy (DMG & GBC) Reversing
-recommend: gameboy
+recommend: 
+ - gameboy
+ - gba
+ - ds
 recommendTitle: All GameBoy Posts
 editlink: ../categories/consoles/GameBoy.md
 category: gameboy
-consoleimage: /public/NintendoGameBoyThumb.png
 excerpt: Awesome list of Nintendo Game Boy Game Development and Reverse Engineering information
 breadcrumbs:
   - name: Home
@@ -23,7 +25,6 @@ videocarousel:
 redirect_from:
   - /gameboy/hardware
   - /ultimate-gameboy
-  - /gameboy/
 tags:
   - gameboy
 ---
@@ -213,6 +214,11 @@ This is a very interesting project that played a large set of gameboy games in a
 ---
 # File Formats
 {% include link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
+
+### DMG-palette-patcher
+[MrBlinky](https://github.com/MrBlinky/DMG-palette-patcher) has released a Python tool for patching Original Gameboy (DMG) ROMs to use specific color palettes when played on a Gameboy Color. The script works by modifying the ROM's header—specifically the license code and title checksum—to trick the Gameboy Color's boot ROM into automatically selecting one of 45 built-in color palettes, such as the classic grey theme, rather than the default blue-greenish hues.
+
+{% include link-to-other-site.html url="https://github.com/MrBlinky/DMG-palette-patcher" description="MrBlinky has released DMG-palette-patcher, a tool that modifies Gameboy ROM headers to trigger specific built-in color palettes on the Gameboy Color." title="DMG-palette-patcher by MrBlinky" %}
 
 ---
 # All Posts tagged with GameBoy

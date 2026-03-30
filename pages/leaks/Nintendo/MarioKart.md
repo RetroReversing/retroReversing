@@ -45,6 +45,7 @@ It also preserves a nice timeline of how the project grew:
 * the SFX-DOS and hardware-driver files are older, mostly from **October 1991**
 * the regional files show late-stage branch work for **Japanese**, **European**, **PAL**, and a few **German/debug** variants
 
+---
 # Root Directory (SFC.7z/ソースデータ/MarioKart)
 The extracted `MarioKart` folder is flat rather than neatly nested.
 That alone is revealing, because it makes the archive feel closer to a live programmer workspace than a cleaned-up archive prepared for handoff or release.
@@ -120,7 +121,7 @@ The central control flow becomes clear very quickly once the core modules are op
 It defines `Reset_entry`, `NMI_entry`, `IRQ_entry`, `COP_entry`, and a main loop that waits for NMI, then jumps through a `Process_address` table based on the current game mode.
 
 That one file alone shows how broad the game had already become by July 1992.
-It imports routines for:
+It pulls together:
 
 * race flow
 * battle flow
@@ -132,8 +133,7 @@ It imports routines for:
 * object transport and camera control
 * three separate editor entry points
 
-`kart-init.asm` is just as revealing.
-Rather than handling only power-on setup, it drives the transition system for the whole game.
+`kart-init.asm` plays the matching role on the transition side.
 Its `Selection_address` table includes:
 
 * `Title_initial`
@@ -147,8 +147,7 @@ Its `Selection_address` table includes:
 * `Final_initialize`
 
 That is one of the clearest low-level development details in the leak.
-The editors were not treated as separate external tools.
-They were wired into the same mode-selection and initialization framework as the real game screens.
+The editors were wired into the same mode-selection and initialization framework as the real game screens, not treated as completely separate tools.
 
 The work RAM definitions in `work.def` make that structure even clearer.
 They document shared state for `game_status`, `game_mode`, `game_level`, `game_selecta`, `game_index`, `irq_index`, `world_number`, `map_pointer`, `race_init`, `pause_status`, camera state, fade state, sound state, lap counters, and ranking buffers.
@@ -163,9 +162,8 @@ After `Reset_entry` finishes the hardware-side setup, `Main_loop` does three thi
 * wait until the next NMI flips `NMI_flag`
 * jump through `Process_address` using `game_index`
 
-That is a simple structure, but it says a lot about how the project was organized.
-Super Mario Kart was not built around one giant "gameplay loop" with lots of internal conditionals.
-It was built around a mode dispatcher, with each major screen or tool owning its own main and NMI paths.
+That says a lot about how the project was organized.
+Super Mario Kart was built around a mode dispatcher, with each major screen or tool owning its own main and NMI paths.
 
 The `Process_address` table makes that explicit:
 
@@ -186,27 +184,26 @@ Game index | Main handler | Meaning
 `18` | `Playing_process18` | final sequence
 `1C` | `Playing_process1C` | record screen
 
-That table is a good reminder that the editors and record screen were not hanging awkwardly off the side of the game.
+The editors and record screen were not awkward add-ons.
 They were first-class runtime modes with the same scheduling status as race, battle, title, and ending.
 
 ### Main and NMI Work Are Split Per Mode
 The second useful table in `kart-main.asm` is `NMI_address`.
 It mirrors the main-mode structure and gives each major state its own VBlank-side handler.
 
-That split matters because it shows how Nintendo kept the heavy per-frame simulation separate from VRAM, OAM, and HDMA work.
+That split shows how Nintendo kept the heavy per-frame simulation separate from VRAM, OAM, and HDMA work.
 For example:
 
 * `NMI_process02` handles the race-side VRAM and OAM transport path, then calls `Race_checker`, `Set_HDMA_parameter`, `Screen_control`, `Demo_camera`, and a common package that handles sound and controller scanning
 * `NMI_process04`, `06`, `08`, and `0A` do much lighter menu-style work, mostly `Set_OAM_screen1`, mode-specific NMI code, and the shared input and sound package
 * the battle mode mirrors the race structure rather than the menu structure, which makes sense because it still has to move objects, backgrounds, and camera state every frame
 
-That arrangement is one of the best architecture clues in the whole project.
 The game is effectively written as a pair of dispatch tables:
 
 * one for per-frame logic
 * one for VBlank-time transport and rendering setup
 
-So even before looking at the subsystems, the overall design already looks clean and deliberate.
+Even before looking at the subsystems, the overall design already looks clean and deliberate.
 
 ### kart-init.asm Is the Transition Layer
 If `kart-main.asm` is the scheduler, `kart-init.asm` is the state-transition layer that feeds it.
@@ -223,7 +220,7 @@ It:
 * seeds the initial `game_selecta`, `fade_control`, and `fade_speed` values
 
 That is already enough to show that startup was not only about the retail game.
-The boot path still expected the DOS-side support layer and the wider dev environment to exist.
+The boot path still expected the DOS-side support layer and wider dev environment to exist.
 
 The real architectural center, though, is `Selection_process`.
 That routine watches `game_selecta`, waits for the fade state to reach the right point, disables interrupts, clears the current mode state, and then jumps through `Selection_address` to run the correct initializer for the next mode.
@@ -246,7 +243,7 @@ Selection value | Initializer
 `18` | `Final_initialize`
 
 So `game_selecta` is really the transition request register, while `game_index` becomes the active runtime mode after the transition is complete.
-That is a small distinction, but it is one of the best low-level examples in the leak of how Nintendo separated "what we want to become next" from "what we are running now."
+That is one of the clearest low-level examples in the leak of how Nintendo separated "what we want to become next" from "what we are running now."
 
 ### work.def Is the Shared Runtime Contract
 `work.def` is easy to skim past, but it is one of the most valuable files in the entire archive because it names the shared RAM contract that all of the major modules are using.
@@ -289,7 +286,6 @@ For example:
 * the per-map `*_area` and `*_target` definitions hang off one shared `Drive_data_address`, which makes the course logic look table-driven rather than hardwired
 
 That makes `label.def` one of the strongest "how this was really built" files in the whole archive.
-It is not just a convenience include.
 It is the bridge between symbolic game logic and the actual packed data layout in ROM and RAM.
 
 ### Course Data Is Table-Driven
@@ -308,7 +304,7 @@ Star Cup | `01`, `0C`, `0B`, `09`, `00`
 Special Cup | `04`, `06`, `05`, `08`, `0E`
 
 That is a good example of the project's overall style.
-The game flow is controlled by lookup tables rather than by lots of map-specific branching.
+The game flow is controlled by lookup tables rather than lots of map-specific branching.
 
 The same pattern continues with `Map_type_data`.
 Once `map_number` is chosen, `Set_map_type` turns it into one of the shared environment families:
@@ -326,7 +322,6 @@ That in turn drives `Set_maps`, which is split neatly into:
 * `Set_map_character`
 * `Set_map_screen`
 
-The helper names undersell how much they are doing.
 `Open_character` and `Open_screen` pull compressed data into work RAM, while `Set_character_data`, `Set_screen_data`, and `Set_item_BG` push the decoded results toward VRAM and the background buffers.
 
 That is where `label.def` becomes especially valuable.
@@ -374,6 +369,160 @@ The game was still being locally adapted screen by screen, mode by mode, and sys
 `title-j.asm` is a good example.
 It still contains explicit debug helpers for setting player, world, and rank state right from the title sequence.
 `Final-j.asm` is equally rich, preserving the full ending flow with award logic, moving clouds, paper effects, and different behavior depending on finishing rank.
+
+### Some Branches Are Near-Clones, Others Still Carry Real Logic Differences
+One nice thing about having so many parallel files is that it becomes possible to tell the difference between a true branch and a lightly relabeled copy.
+
+So far, the menu and ending code looks split into two broad groups:
+
+Branch pattern | Examples | What it suggests
+---|---|---
+Near-structural clones | `title-p.asm`, `Pause-p.asm`, `Final-p.asm` | The branch still exists as its own source file, but the overall logic and state-machine shape remain extremely close to the Japanese or base versions
+Behaviorally distinct branches | `w-select-e.asm`, `c-select-p.asm` | The branch still carries front-end logic around unlock state, replay state, backup-RAM state, or screen-specific restore behavior
+
+`title-p.asm` is a good example of the first category.
+It keeps the same `Backup_Sam_Check`, `Back_up_clear`, `rom_checker`, and `SET_debug` flow as the Japanese and debug title branches, and it still writes `game_selecta` and `fade_control` in the same broad way.
+That makes it feel like a maintained branch, but not a radically different title implementation.
+
+`Pause-p.asm` looks similar.
+It still has the same big pause-state structure: `Main_debug`, `RAM_editer_B`, `Save_replay`, `Display_VSnext`, `Display_GPnext`, `Retry_check`, `Change_course`, and `Change_kart` are all still there.
+So the PAL pause layer appears to preserve the same "pause as front-end bridge" design rather than introducing a substantially different pause model.
+
+`Final-p.asm` also stays very close to the Japanese ceremony logic.
+It still runs `AWARD_SET`, `Rank_Check`, `Message_set`, `Zannen_pose`, `Pukupuku_1` through `Pukupuku_3`, `KUMO_move`, `Paper_fall_set`, and `Final_end_set`, with `Rotate_mode7` still sitting in the exit path.
+That suggests the award and celebration flow was stable enough by this point that the branch mainly exists to preserve a separate regional implementation, not to carry a different ending architecture.
+
+`w-select-e.asm` is the file that stands out most strongly in the other direction.
+Unlike the simpler world-select path, it keeps `Old_world_number`, updates the old and new cup labels separately in NMI through `MOJI_Set_1`, and pulls in backup-facing routines like `Back_up_set`, `Backup_Sam_Check`, `Back_up_clear`, and `Rank_Check_sum`.
+It also checks the stored Mushroom, Flower, and Star Cup completion bytes before allowing Special Cup to remain selected.
+That is a real front-end rule difference, not just translated text.
+
+So the regional split in this archive is not uniform.
+Some files are effectively parallel maintenance branches, while others still carry genuinely different front-end behavior around save validation, unlock conditions, or menu state restoration.
+
+---
+## Title, Menus, and Front-End Flow
+The menu-side files are much richer than a simple "press start" layer.
+Taken together, `title-j.asm`, `c-select.asm`, `c-select-j.asm`, `w-select.asm`, `k-select.asm`, and `Pause.asm` read like one continuous front-end state machine that can move the player from attract mode into race setup, then back out again through retry, course select, or kart select.
+
+### The Title Code Still Carries Debug Setup
+`title-j.asm` does far more than animate the logo and hand off to the next screen.
+Its `TITL_init` path calls `PPU_INT_SET`, `Backup_Sam_Check`, `TENSOU_SET`, `PPU_title`, and `OBJ_ERASE`, then explicitly initializes debug-facing variables like `Personal_player` and `Rank_set`.
+
+That becomes much more concrete in `SET_debug`.
+That routine draws the current debug values into OAM, lets the player step `Personal_player`, `world_number`, and `Rank_set`, and then copies `Test_rank_data` into the live `point_rank` table.
+In other words, the Japanese title branch still preserves a real title-side shortcut for forcing cup and rank state before jumping onward.
+
+The main loop is also broader than a plain menu handler.
+`TITL_main` runs `Random`, `KEY_CHECK`, and `FLAG_CHECK`, while the visible menu path itself goes through `WINDOW_SET` and `GAME_SELECT`.
+That makes the title file feel less like a self-contained title screen and more like the first front-end controller in the wider runtime scheduler.
+
+### Course Select Is Also Battle Select and Replay Setup
+`c-select.asm` is effectively the race-setup router.
+Its dispatch tables split the screen into two families:
+
+Mode family | Dispatch entries | What it handles
+---|---|---
+Race | `select_cup`, `select_course`, `map_read`, `map_yesno` | Cup choice, course choice, and the map-loading confirmation path
+Battle | `select_battle`, `battlemap_read` | Battle-map choice and the matching load path
+
+That separation is important because it shows battle mode was not bolted onto the side of the race UI.
+It had its own selection flow, its own `map_battle` table, and its own branch through the same front-end infrastructure.
+
+`c-select-j.asm` then makes the picture even more interesting.
+Its init path does `Check_backupRAM`, `Check_replay`, `WINDOW_INIT`, `WINDOW_CONTROL`, `Init_meter`, and `DMA_meter`, and it also carries `Erase_timeRAM`, `world_lock`, and `keySRAM_world` / `keySRAM_map` handling.
+So the Japanese course-select code is not only choosing the next track.
+It is also the point where replay state, key save state, and backup-RAM checks are brought back into sync before the race starts.
+
+### World Select Is a Cup Screen with Trophies and Rule Gating
+`w-select.asm` is really the cup-select screen, not just a tiny intermediary menu.
+Its init path builds the whole scene through `WORLD_PPU` and `WORLD_TENSOU`, then writes cup labels, trophy sprites, frame graphics, and colors directly into the menu buffers.
+
+Several details stand out:
+
+* `WORLD_TENSOU` converts the source art into the screen format the menu needs rather than just pointing at a prebuilt tilemap
+* the screen writes trophy markers for Mushroom, Flower, Star, and, when `game_level` allows it, Special Cup
+* `Cup_change.set` changes `world_number`, calls `WAKU_change_set`, restores the previous cup color, then applies the new one through `Color_change`
+* the Special Cup is gated through `game_level`, so the menu logic itself is enforcing progression rules
+
+The handoff is also very explicit.
+`NEXT_SET` clears `race_init`, triggers sound effect `002Eh`, writes `#02` into `game_selecta`, calls `BGM_fade_out`, and sets `fade_control` to `8f00h`.
+That is a good low-level example of how menu code and the main runtime scheduler talk to each other: the front end does not launch races directly, it writes the next mode request and the transition parameters, then lets the core loop perform the switch.
+
+### Kart Select Is an Animated State Machine
+`k-select.asm` is far more dynamic than a static character grid.
+Its main path runs `VS_com_set`, `SELECT_SCROLL`, `Cursor_Move_set`, `Small_kart_set`, `Pikupiku_set`, `CURSOR_FLASH`, `KART_CHECK`, `NEXT_CHECK`, and `OBJ_MOVE` every frame, while the NMI path updates demo kart DMA, cursor erasure, cursor draw, back-screen stop markers, and flashing state.
+
+That gives away a lot about how the screen is built:
+
+* the karts are active object scenes with their own DMA path through `DMA_demokart`
+* the cursor system keeps separate address, erase, next, and flash state instead of just redrawing one marker
+* `Select_Player` and `Swing_select` tables drive the actual carousel order and swing offsets used by the chosen kart art
+* `timeattack_flag` is threaded deeply through the code, affecting one-player versus rival setup and even the second cursor path
+
+`NEXT_CHECK` makes the transition logic especially clear.
+Once both `move_flag` values settle and `next_counter` reaches `0040h`, the code commits the selected kart IDs into `driver_number`, optionally mirrors one of them into `timeattack_rival`, then converts the current `game_status` into the next runtime mode.
+Grand Prix jumps to `#0008`, while VS, Time Trial, and Battle all route through `#0016`, after which `fade_control` is set to `8f00h`.
+
+So even the "pick a driver" screen is not a dead-end UI.
+It is already performing game-state setup, rival assignment, and front-end transition scheduling.
+
+### Pause Is a Front-End Bridge, Not Just an Overlay
+`Pause.asm` may be the single clearest proof that Super Mario Kart's menus and race code were designed as one connected system.
+`PAUSE_MAIN` branches through `open_select`, `every_select`, and `exit_select`, with separate pause-index families for Grand Prix, VS, Time Trial, and Battle.
+
+During the active pause state, `Every_pause` can do much more than wait for resume input:
+
+* it can enter the RAM editor through `RAM_editer_B`
+* it calls `Main_debug`
+* it draws either `Display_GPnext` or `Display_VSnext`
+* it checks `pause_cursor`, `pause_index`, `replay_flag`, and `ghost_flag`
+
+The exit side is even more revealing.
+The retry tables can jump into:
+
+Destination | Routine | What it means
+---|---|---
+Retry current race or advance | `Retry_check` | Chooses between `RACE_RETRY` and `NEXT_RACE`
+Return to title | `Retry_start` | Calls `Start_title`
+Return to course select | `Change_course` | Calls `Start_C_select`
+Return to kart select | `Change_kart` | Calls `Start_K_select`
+
+That is not just a pause menu.
+It is a live branch point back into the rest of the front end.
+The same pause layer also saves replay state with `Save_replay`, has special handling for ghost/replay flags, and can redraw the menu differently for VS/TM/BT through `Display_VSnext` versus GP through `Display_GPnext`.
+
+Once that file is read alongside the title and select code, the overall design becomes much clearer.
+Super Mario Kart was not built as a hard line between "menus" and "gameplay".
+It was built as a shared mode system where title, cup select, kart select, race, battle, retry, and debug all talk to the same scheduler through `game_selecta`, `game_index`, and fade-control state.
+
+### The Attract Demo Is a Real Runtime Scene
+`demo-j.asm` is also worth reading as part of the front end, because it shows the attract sequence was not a cheap prerecorded movie.
+It is a real gameplay-side scene with its own object setup, transport path, and camera math.
+
+The clearest clues are:
+
+* `Rotate_mode7` talks directly to the DSP triangle routine to build a zoom-and-rotation matrix
+* `DMA_demokart` increments `demokart_frame` and then calls the normal object transport path through `OBJ_transport`
+* `Set_demokart` clears `trans_counter`, resets `camera_direction`, steps through active objects, and uses `Set_trans_data` when transfer slots are available
+* `Init_demokart` mounts `demo_kart` objects through `Mount_A`, initializes their positions and pose values, and then seeds extra coins and shells through `Init_demokame`
+
+That is a great low-level preservation detail.
+The title-side demo is not just "watch mode".
+It is a miniature runtime environment built out of the same object, sprite, and projection systems as the real race code.
+
+### The Regional Front End Was Still Actively Diverging
+The menu files also show that front-end work was still branching late into development.
+`title-d.asm` is especially revealing, because it keeps the same `Backup_Sam_Check`, `Back_up_clear`, `rom_checker`, and `SET_debug` structure as `title-j.asm`.
+So the title-side debug path was not unique to one isolated Japanese source file.
+At least one other branch was still carrying the same skeleton.
+
+`c-select-p.asm` is equally useful because it makes the replay and ghost path very explicit.
+It still runs `Check_backupRAM`, clears `replay_flag`, and then calls both `backup_replay` and `check_replay` during init.
+Those helpers read `keySRAM_world` and `keySRAM_map`, mark selected entries in the course buffer, and use `ghost_flag` to distinguish backup or replay-driven state from a normal manual selection flow.
+
+That means the front-end branching was not only about translated text or PAL timing.
+At least some of the regional menu work was still carrying different save, replay, and debug expectations right inside the selection code.
 
 ---
 ## Editors, Debug, and DOS Support
@@ -562,7 +711,7 @@ The two-process split is just as useful:
 * `point_edit` handles cursor movement, address calculation, zoom, and direct editing of map points
 * `save_load` handles backup and restore using a `backup_point` area at `085c800h`
 
-So even at this level, the editor was already built around reversible editing rather than "type once and hope for the best".
+So even at this level, the editor appears to have been built around reversible editing rather than "type once and hope for the best".
 
 ### The Two Main Editor Shells
 `edit_1.asm` and `edit_2.asm` are small compared to the heavier files, but they explain how the toolchain was assembled.
@@ -692,7 +841,7 @@ The internal battle save/load pair is one of the clearest clues about the actual
 
 That replay step matters.
 The battle editor was not only restoring a raw tilemap dump.
-It was restoring a structured object list and then regenerating the visible map state from it.
+It appears to have been restoring a structured object list and then regenerating the visible map state from it.
 
 The disk-facing battle path uses a second stage:
 
@@ -789,7 +938,7 @@ Nintendo also had a substantial hardware-facing editor environment for placing o
 ### SFX-DOS Layer
 The older 1991 files reveal another part of the setup: a disk and I/O support layer for Super Famicom development hardware.
 
-`sfxdos.asm` describes itself as a `Super Famicom Disk Operation System special version`, written by **Y. Nishida** on **29 October 1991**.
+`sfxdos.asm` describes itself as a `Super Famicom Disk Operation System special version`, programmed by **Y. Nishida** on **29 October 1991**.
 Together with `fileio.asm`, `fdcdrv.asm`, `sccdrv.asm`, `ppidrv.asm`, `condrv.asm`, and `ccp_main.asm`, it preserves a real SNES-side operating layer for floppy access, keyboard and serial input, printer output, file management, and text-console interaction.
 
 That part of the leak is broader than Mario Kart itself, so it now has its own article:
@@ -886,6 +1035,157 @@ The battle loop mirrors that shape rather than inventing a separate engine archi
 It swaps in `Battle_objsetA`, `Battle_objsetB`, and `Battle_control`, but the overall ordering stays recognizably the same.
 
 That makes the codebase feel much more like one shared runtime with different mode-specific control modules than a set of unrelated mini-engines.
+
+### The PPU Layer Is a Split-Screen Display Engine
+`kart-bg.asm` and `kart-ppu.asm` make the hardware-facing side much clearer.
+They show that Super Mario Kart was not only preparing one Mode 7 screen and then throwing sprites on top.
+It was actively staging two camera contexts, two OAM states, and a timed IRQ sequence to change how the PPU was configured mid-frame.
+
+The camera side lives in `kart-bg.asm`.
+`Camera_controlA` and `Camera_controlB` both flow through `Set_camera_data`, which then calls:
+
+* `Set_camera_position`
+* `Set_camera_direction`
+* `Pers_parameter`
+
+`Camera_controlB` also calls `Set_double_buffer` first, copying the B-side scroll, center, and background values into a second buffer before the next camera pass runs.
+That is a strong clue that the game was preserving multiple camera states at once, not only recalculating one set of Mode 7 registers.
+
+The background register path is equally explicit.
+`BG_resister_A` and `BG_resister_B` write:
+
+* `Scroll_0H` and `Scroll_0V`
+* `Rotation_X` and `Rotation_Y`
+* `Scroll_2H` and `Scroll_2V`
+* the extra back-screen values derived from `back_2*` and `back_3*`
+
+That means the race view was combining the Mode 7 road plane with additional scrolling background layers rather than treating the whole scene as one flat transformed bitmap.
+
+The most revealing routine is `Screen_control`.
+During VBlank it:
+
+* sets the OBJ bank
+* calls `IRQ_control`
+* writes `camera_flip` into `Screen_flip`
+* pushes `nuki_color` values into the color registers when needed
+* applies the A-side background registers
+* applies window and color-bias settings through `Set_window_bias`
+
+Then the IRQ path takes over later in the same frame.
+`Regular_IRQ` seeds the timer, and the later `IRQ_2` and `IRQ_6` handlers do the really interesting work:
+
+* `IRQ_2` waits for the right beam position, blanks the screen, switches the screen-flip state, writes the B-side background registers, and rebuilds OAM for screen 2
+* `IRQ_6` restores the normal PPU control state, resets DMA sync, restores OAM for screen 1, and runs `Color_transport_s`
+
+So the split-screen effect is not a simple static layout.
+It is an IRQ-timed display pipeline that changes scroll, window, color, and sprite state while the frame is being drawn.
+
+`kart-ppu.asm` shows the matching sprite and transfer side.
+`OBJ_transport` walks `obj_trans_buffer` in 6-byte chunks, each one describing:
+
+* the destination VRAM address
+* the source ROM address
+* the source bank
+* the transfer size
+
+That is then fed straight into DMA channel 0 for VBlank-time uploads.
+The paired `Set_trans_bufferA` and `Set_trans_bufferB` routines fill those transfer queues, but they do not try to upload everything every frame.
+They rotate through counters, cap the number of entries, and only call `Trans_mark` when there is still room.
+
+That is a lovely low-level detail because it shows Nintendo throttling sprite and kart graphic uploads instead of treating VRAM as infinitely cheap.
+Animation and object-character updates were being budgeted across frames.
+
+The same file also keeps two separate OAM staging paths:
+
+* `Set_OAM_screen1`
+* `Set_OAM_screen2`
+
+That fits neatly with the IRQ logic in `kart-bg.asm`.
+The game was not only maintaining two camera contexts.
+It was also maintaining two sprite presentation states and swapping between them as the beam moved down the screen.
+
+Taken together, these files make the graphics side feel much more concrete.
+Super Mario Kart's display pipeline was built around:
+
+* camera A and camera B state
+* per-frame transfer queues for object graphics
+* VBlank DMA into VRAM and OAM
+* IRQ-timed mid-frame PPU changes
+* split-screen window and color-bias control layered on top of Mode 7
+
+That is one of the clearest places in the whole leak where you can see the difference between "a game uses Mode 7" and "a commercial SNES game has a carefully engineered display pipeline."
+
+### Camera, Projection, and HUD All Live in Separate Layers
+The display side becomes even clearer once `Camera.asm`, `Screen.asm`, and `Window.asm` are read alongside the PPU modules.
+
+`Camera.asm` is not the general race camera solver.
+It is a smaller control layer for special camera states, and it is explicitly credited to **H. Yajima** in the file header.
+Its exported routines are:
+
+* `Init_camera`
+* `Ending_camera`
+* `Stop_camera`
+* `Winner_camera`
+* `TV_camera`
+
+That makes the file useful because it shows the camera system had named cinematic or state-specific overrides on top of the normal race camera path.
+`Winner_camera`, for example, sets special camera-control bits, tracks a separate `goalin_offset`, and gradually rotates the camera around the winning kart instead of leaving the view locked to the standard chase direction.
+
+`Screen.asm` then shows how world-space objects become on-screen sprite positions.
+Its header calls it `XYZ -> HV convert`, and that description is accurate.
+The file exports:
+
+* `project`
+* `screen_A`
+* `screen_B`
+* `project_Z`
+* `screen_AZ`
+* `screen_BZ`
+* `dist_project`
+* `dist_screen`
+
+The key detail is that this path is DSP-backed.
+Both `project` and `dist_project` write position data to `DSP_data`, then the later `screen_A` and `screen_B` routines read the resulting values back and turn them into:
+
+* horizontal screen position
+* vertical screen position
+* distance values
+* culling decisions
+* fallback `min_patern` handling when something is too far away or outside the visible range
+
+That means the object layer was not doing all of its projection math in ad hoc per-object code.
+It had a dedicated world-to-screen conversion module, again credited to **H. Yajima**, feeding the sprite placement path.
+
+The split-screen logic shows up here too.
+`screen_A` and `screen_B` are separate routines, with mirrored handling for upper and lower views.
+They even preserve special back-view behavior when the player index indicates rear-view mode, flipping the horizontal placement around `H_center+80h` instead of the normal center.
+
+`Window.asm` fills in the last missing piece: the HUD and rank-window layer.
+`WINDOW_INIT` does much more than clear a small buffer.
+It:
+
+* decodes rank or number graphics into `deco_rank`
+* sets up window, color, and blend registers
+* programs DMA channel 7 for HDMA writes into the window registers
+* initializes `window_lank` data in WRAM
+
+Then `WINDOW_CONTROL` updates that data live from gameplay state.
+It reads `obj_flag` and `rank_number` for the upper and lower players, checks whether each side has reached the goal state, and switches between small and large rank-number layouts by writing different entries into `window_lank`.
+
+That is a great low-level detail because it means the rank display is not only a sprite overlay.
+It is tied into the SNES window and color-blend hardware as a separate display layer, with its own WRAM-backed HDMA data stream.
+
+So the display stack now reads very cleanly from top to bottom:
+
+* `Camera.asm` handles special camera-state overrides
+* `kart-bg.asm` prepares camera A/B scroll, perspective, IRQ, and window state
+* `Screen.asm` projects world-space positions into screen-space coordinates with DSP help
+* `kart-ppu.asm` queues and uploads sprite and object graphics
+* `Window.asm` drives the rank and goal overlay through HDMA-backed window data
+
+That separation is one of the strongest technical details in the archive.
+Nintendo did not hide camera math, projection, sprites, and HUD logic in one giant render routine.
+They split them into distinct layers that each map quite neatly onto specific pieces of SNES hardware.
 
 ---
 ## Audio System and BGM Control
@@ -988,8 +1288,7 @@ That is a nice low-level reminder that the audio layer was not bolted on afterwa
 It was sharing real state with the kart-control model and reacting to it every frame.
 
 ### kart-calc.asm Is the Movement Math Layer
-One of the last big missing pieces is `kart-calc.asm`.
-It sits underneath a lot of the files already discussed and acts as the shared math and decision layer for movement, targeting, ranking, and race progression.
+`kart-calc.asm` sits underneath a lot of the files already discussed and acts as the shared math and decision layer for movement, targeting, ranking, and race progression.
 
 The two most important exports are:
 
@@ -999,9 +1298,8 @@ The two most important exports are:
 Those are the routines other modules keep leaning on whenever they need a direction or angle from one point to another.
 The file also imports lookup data like `Sec_data` and `Tan_data`, which makes it clear that a lot of the steering and camera math is table-driven rather than done with slow generic arithmetic each frame.
 
-That matters because it gives the rest of the codebase a common geometry language.
-`kart-enemy.asm`, `kart-effect.asm`, and the camera-side code are not all reinventing their own target-angle logic.
-They are routing through the same shared calculation layer.
+That gives the rest of the codebase a common geometry language.
+`kart-enemy.asm`, `kart-effect.asm`, and the camera-side code are all routing through the same shared calculation layer rather than reinventing their own target-angle logic.
 
 The rest of the file reinforces that role.
 Alongside the geometry helpers it also carries:
@@ -1017,8 +1315,7 @@ Alongside the geometry helpers it also carries:
 So `kart-calc.asm` is not only "the math file."
 It is also one of the main places where geometric state gets turned into race-state decisions.
 
-### Calc_target Helps Tie the Whole Game Together
-`Calc_target` is particularly useful because it shows up all over the project.
+`Calc_target` is especially revealing because it shows up all over the project.
 
 It is used for:
 
@@ -1027,7 +1324,7 @@ It is used for:
 * effect-side steering correction in `kart-effect.asm`
 * camera and background helpers elsewhere in the runtime
 
-That makes it a good example of how shared the low-level movement model really was.
+It is a good example of how shared the low-level movement model really was.
 The game does not have one aiming system for enemies, another for drift correction, and another for camera turns.
 It has one core target-angle routine, then a number of systems interpreting that result in their own way.
 
@@ -1049,7 +1346,7 @@ Its exports tell the story immediately:
 * `Fade_control`
 * `Engine_power_control`
 
-That is not a single-purpose effects module.
+This is not a single-purpose effects module.
 It is a broad "what should happen to the kart and camera right now?" layer.
 
 The file is especially useful because it preserves how Nintendo grouped these behaviors together:
@@ -1063,7 +1360,6 @@ The file is especially useful because it preserves how Nintendo grouped these be
 
 So while `kart-drive.asm` owns the top-level race flow, `kart-effect.asm` is where a lot of the local state transitions actually get expressed.
 
-### Drift, Spin, and Ultra States Are Real State Machines
 The drift and spin code is one of the nicest remaining low-level details in the archive.
 
 This is not a one-bit "is drifting" flag.
@@ -1120,18 +1416,10 @@ They are specialized layers built around one shared movement and state model.
 
 ---
 ## Course Logic, AI, and Battle Rules
-At this point the source starts to show not just how Super Mario Kart was built, but how the actual game rules were encoded.
+This is where the source stops being mostly about tools and runtime structure and starts to show the actual rule systems underneath the game.
 
-The most revealing files here are:
-
-* `kart-enemy.asm`
-* `kart-drive.asm`
-* `BGcheck-p.asm`
-* `Item.asm`
-* `Battle.asm`
-
-Taken together, they show a surprisingly data-driven runtime.
-Tracks are broken into area and target tables, AI karts read those tables through shared buffers, collision pushes back through a surface-status layer, and battle mode adds a separate HP and object-state system on top.
+The most revealing files here are `kart-enemy.asm`, `kart-drive.asm`, `BGcheck-p.asm`, `Item.asm`, and `Battle.asm`.
+Taken together, they show a surprisingly data-driven runtime: tracks are broken into area and target tables, AI karts read those tables through shared buffers, collision pushes back through a surface-status layer, and battle mode adds a separate HP and object-state system on top.
 
 ### The Course Logic Uses Area and Target Tables
 `label.def` already hints that the course logic hangs off `Drive_data_address`, but `kart-enemy.asm` makes that concrete.
@@ -1151,15 +1439,15 @@ It is divided into:
 The area stream is code-based and terminated by `FFh`, while the target stream is read as repeating position and status entries.
 After loading, the code even appends the first target to the end of the buffer so the path can wrap cleanly.
 
-That is a very strong clue about the runtime model:
-the AI is not following a hand-authored spline in code.
+That is a very strong clue about the runtime model.
+The AI is not following a hand-authored spline in code.
 It is moving from target to target across a course map that has already been partitioned into logical areas.
 
 The goal line is layered on top of the same system.
 For race maps below `14h`, `Initial_enemy` also opens `Goal_data`, finds the matching area rows, and marks those cells with a dedicated goal-box bit inside `area_buffer`.
 Battle maps skip that path entirely.
 
-That means race and battle are already diverging at the data-layout level, not only in higher-level gameplay code.
+That suggests race and battle were already diverging at the data-layout level, not only in higher-level gameplay code.
 
 ### AI Steering Is Driven by Target Buffers and Rank State
 The enemy-control module is more sophisticated than a simple "rubber band" routine.
@@ -1198,7 +1486,7 @@ From there it returns different drive states such as:
 * ultra-style catch-up
 * special boosted or constrained movement
 
-That is one of the most interesting low-level findings in the whole archive.
+This is one of the most interesting low-level findings in the whole archive.
 The AI is not only "follow the path faster or slower."
 It is path-following layered with rank-aware tactical behavior.
 
@@ -1213,7 +1501,7 @@ Not every battle map has its own unique area and target tables:
 That suggests the battle layouts were not all authored with the same level of unique drive-data support as the normal race tracks.
 Some are clearly sharing a common base path or logic grid, even while their visual presentation differs.
 
-That is a nice example of the same asset-reuse mindset showing up in gameplay data, not just graphics.
+That looks like the same asset-reuse mindset showing up in gameplay data, not just graphics.
 
 ### Collision Is a Surface-State System, Not Just a Wall Check
 The surviving source for the collision side is the PAL branch file `BGcheck-p.asm`, but it is enough to show the general design clearly.
@@ -1288,9 +1576,228 @@ Those routines advance through `Question_buffer`, rewrite character data in `BGc
 That is a nice low-level detail because it shows battle arenas were not static tilemaps.
 At least some arena objects were being animated by rewriting their backing background data on the fly.
 
-Taken together, these files make one bigger point very clear:
-Super Mario Kart's gameplay logic was highly table-driven underneath the presentation layer.
+Taken together, these files show how table-driven the gameplay layer really was.
 Tracks were divided into areas and targets, AI steering combined path following with rank-based tactics, collision used a decoded surface-status map, items used character- and rank-aware decision tables, and battle mode layered its own HP and arena-object rules on top.
+
+---
+## Race Completion and Result Flow
+The race-end side of Super Mario Kart is almost its own subsystem.
+Once you put `Goal.asm`, `Round.asm`, and `Result.asm` together, the finish line stops looking like a single flag flip and starts to look like a layered presentation and state machine.
+
+### Goal.asm Is Tiny, but Result.asm Carries the Real State Machine
+`Goal.asm` itself is surprisingly small.
+It is basically a thin `In_goal` entry that copies a block of data with `MVN`, then returns.
+
+The real finish logic lives in `Result.asm`.
+That file preserves separate goal handlers for:
+
+* Grand Prix win, safe, and loss paths
+* Time Trial goal and replay paths
+* VS win and loss paths
+* Battle win and loss paths
+
+The branching is explicit in the tables.
+`goalset_A` and `goalset_B` read the active `goalstate`, then use `rank_jump` to route rank `1` into `winer_demo`, ranks `2` through `4` into `safe_demo`, and ranks `5` through `8` into `lost_demo`.
+
+That is a great example of how structured the finish logic was.
+The game was not only checking "did the player finish?"
+It was immediately sorting the player into different end-of-race presentation flows based on rank and mode.
+
+### Round.asm Handles the Animated Round Overlay
+`Round.asm` is another nice surprise.
+It is not a lap-check module at all.
+It is the animated `ROUND` overlay system that appears around the start of a race and in demo contexts.
+
+The key state variable is `round_process`, which dispatches through:
+
+* `round_off`
+* `round_open`
+* `round_disp`
+* `sprite_erase`
+* `round_close`
+
+`Init_round` builds the tile and OAM data in `round_buffer`, using `data_round_a` and `data_round_b` to lay out the `ROUND` text separately for the upper and lower displays.
+Then `Main_round` opens the overlay, holds it on-screen with a timer, erases the sprite side, and finally closes it again.
+
+That means the race lifecycle had its own miniature presentation controller before the player even got to lap timing and end-of-race results.
+
+### Result.asm Bridges Race Logic, Presentation, and Save Data
+`Result.asm` is where the finish system becomes much more revealing.
+It ties together:
+
+* camera changes through `Stop_camera`, `Winner_camera`, and `TV_camera`
+* finish-state flags in `goal_flag` and `result_status`
+* result messages and animated text buffers
+* lap-time formatting
+* the save handoff to `Save_laptime`
+
+The goal text path is especially rich.
+`Init_goalin` resets the per-screen message state, `DMA_goalin` pushes character data toward VRAM, and `Disp_goalin` builds the actual finish-time display into the `moji_result` buffers.
+That function does not only print a message.
+It calls `Disp_laptime`, which in turn calls `Save_laptime`, so the visible result screen and the SRAM update are directly connected.
+
+That makes the race-end pipeline much clearer:
+
+* a kart enters a goal state
+* mode- and rank-specific handlers choose the right finish path
+* camera and object behavior switch into finish-mode presentation
+* lap and total times are formatted into result buffers
+* the same handoff also updates the persistent record data
+
+So the result screen is not just a menu layered on top of the race.
+It is the point where race logic, save logic, and presentation all meet.
+
+### Final.asm Is the Award Ceremony Controller
+The cup-clear ceremony is much richer than a simple victory screen.
+`Final-j.asm` reads like a full presentation controller with its own timer, rank gate, camera state, paper effects, cloud motion, and shadow logic.
+
+The key routines make the structure pretty clear:
+
+* `Champgne_timer` acts as the master award timer
+* `AWARD_SET` handles the core podium and celebration setup
+* `Rank_Check` decides whether the player gets a true award scene or the lower-ranked "too bad" branch
+* `Message_set` and `Zannen_pose` handle the lower-ranked outcome
+* `Pukupuku_1`, `Pukupuku_2`, and `Pukupuku_3` handle the top-three-specific animation paths
+* `KUMO_move`, `Paper_fall_set`, and `Final_end_set` keep the common background presentation moving underneath the rank-specific animation
+
+That is a lot more than a static post-race overlay.
+The ceremony is being staged as its own animated scene with separate branches for podium ranks, moving background elements, and a timed handoff into the final exit path.
+
+The NMI side confirms that the scene is doing real display work too.
+`Final_nmi` writes `Scroll_X`, `Scroll_Y`, `Center_X`, `Center_Y`, and the live `rotate_A` to `rotate_D` matrix values into the SNES registers, while `Final_end_set` eventually calls `Rotate_mode7`.
+So the award ceremony is using the same kind of active Mode 7 camera control we saw elsewhere in the project, not just a flat congratulation screen.
+
+### The Japanese Ending Is Split into Two Distinct Stages
+The Japanese ending path is not bundled into one file.
+It is split between `Ending1-j.asm` and `Ending2-j.asm`, and those two files appear to handle very different parts of the ending presentation.
+
+`Ending1-j.asm` is the staff-roll choreography layer.
+Its two entry points, `Staff_roll_A` and `Staff_roll_B`, pick alternate layouts from `ending_pattern`, then feed into `Staff_roll_set`.
+From there the sequence runs through a clear staged controller:
+
+Stage | Main routines | What it appears to do
+---|---|---
+Initial page setup | `Executive_position_set`, `Name_set` | Lay out the current heading block and matching name rows
+Motion phase | `Executive_position_move`, `Name_move` | Slide the current heading and name group into place
+Final packed page | `Jump_name_set` | Reconfigure the final page layout before the ending closes
+Cleanup | `Erase_Executive_position`, `Erase_name_set` | Remove the current page and advance to the next pattern
+
+That makes the staff roll feel far more authored than a plain text crawl.
+The source is positioning, coloring, moving, and erasing credits as grouped OAM data with explicit counters and per-pattern layout rules.
+
+`Ending2-j.asm` then takes over for the actual finale.
+Its timer triggers a series of staged events:
+
+* early frames run `Banzai_set_everydody`
+* `Set_fall_moji` enables the falling-text phase
+* `Set_Wave_play` enables the wave sequence and updates `Banzai_counter`
+* the main body keeps calling `Wave_set`, `Noji_Fall_set`, and `Color_change_set`
+* the tail ends in `The_End_set`, driven by `Fade_set`, `Fade_counter`, and `Fade_timer`
+
+The setup path in `Tensou_ending2_set` is just as revealing.
+It seeds wave acceleration, wave points, landing points, falling-text acceleration, BG3 data, thank-you sprite positions, and the fade controller before the main loop even starts.
+So the final scene is another real timed animation layer, not just one still image after the credits finish.
+
+### Scene.asm Shows the Same Presentation Backbone Underneath
+`Scene.asm` helps make sense of all of this because it preserves the shared scene/object layer underneath the rest of the game.
+
+At the top of the file, `scene_select` maps every race and battle map to:
+
+* a grid definition like `grid_circuit0` or `grid_battle4`
+* a shared `set_kart` mount step
+* an environment-specific object pack such as `set_dokan`, `set_bubble`, `set_fish`, `set_poo`, `set_wood`, `set_ball`, or `set_rdossun`
+
+It also keeps `type_data` and `level_data`, then exposes the shared helpers the rest of the project relies on, including `Execute_VRAM`, `Execute_TRANS`, `Set_VRAMextra`, `Buffer_pause`, and `Set_debugmap`.
+
+That matters because the ending and ceremony code are not building an entirely separate renderer.
+They are leaning on the same project-wide scene, object-mount, and VRAM transport layer that the race and battle systems already use.
+
+### The Ending Files Preserve Real Regional Deltas
+The ending branch layout also reinforces the wider picture of this archive as a live multi-branch project.
+
+The source preserves:
+
+* `Final.asm` with `Final-e.asm`, `Final-j.asm`, and `Final-p.asm`
+* `Ending1.asm` with `Ending1-e.asm`, `Ending1-j.asm`, and `Ending1-p.asm`
+* `Ending2.asm` with `Ending2-e.asm`, `Ending2-j.asm`, and `Ending2-p.asm`
+
+That is useful in itself.
+Nintendo was not only localizing text strings at this point.
+It was still carrying separate ending and ceremony code by branch, just as it did for title, cup select, and pause.
+
+---
+## Debug Hooks and Standalone Systems
+The last group of files worth calling out are the ones that do not fit neatly into the course editor, race loop, or save system sections, but still reveal a lot about how Nintendo actually worked.
+
+### Debug.asm Is a Real-Time Memory Editor
+`Debug.asm` and `Debug-d.asm` are much more than tiny leftover cheat hooks.
+They preserve a full in-game RAM inspector and editor built around `debug_FLAG`, `debug_address`, `debug_cursor`, and a small meter-buffer display.
+
+The input combinations are unusually explicit.
+The file can toggle:
+
+* `ON_goaldebug`
+* `ON_usemeter`
+* `ON_realtime`
+* `ON_debugitem`
+* `ON_debugmode`
+
+Once active, the code displays the current bank and address, reads back RAM through the indirect address in `debug_address`, and can write modified values back through paired `debug_load` and `debug_store` handlers.
+
+That is historically useful because it shows Nintendo carrying a real-time memory editor inside the game runtime itself, not only external tooling on the dev hardware side.
+The `Debug-d.asm` branch preserves the same structure, which suggests this was not a one-off abandoned experiment.
+
+### System.asm Is Shared Object-Visibility Glue
+`System.asm` is not flashy, but it helps explain how the object layer stays under control.
+The `check_mode_A` and `check_mode_B` routines gate object display based on:
+
+* player mode
+* projected distance
+* sprite-count limits
+* fallback map-screen behavior
+
+If an object is too far away or the sprite budget is already full, these routines drop it to `min_patern` and route into an erase or return path instead.
+
+That is a very practical low-level detail.
+The object system was not only projecting and animating hazards.
+It was continuously deciding whether each object was worth drawing at all in the current screen context.
+
+### Lakitu, Missiles, Hazards, and Track Objects Each Have Their Own Logic
+The smaller object files are revealing because they show how many gameplay-specific systems Nintendo kept as separate modules rather than folding them into one giant object file.
+
+`Jugem.asm` is the biggest example.
+It is effectively Lakitu's whole rescue and race-control layer, with control sequences for:
+
+* start-light behavior
+* lap and final-lap signaling
+* goal handling
+* sea or water recovery
+* takeout and comeback behavior
+* over-out handling when the kart leaves the valid course space
+
+That is a strong reminder that Lakitu was not just a sprite with a few canned animations.
+He was part of the actual race-state machinery, clearing `official_flag`, interacting with camera control, and moving players back into a valid state.
+
+`Missile.asm` is much smaller, but it preserves the projectile-spawn side very cleanly.
+`open_shot` uses per-direction `Xoffset` and `Yoffset` tables to place the missile relative to the firing kart, then links it to the current firing register.
+
+`Pole.asm` is really a collection of course-object behaviors rather than only poles.
+It includes logic for:
+
+* fish and jumping objects
+* Thwomp-style `dossun` behavior
+* moving obstacle selection
+* poo and flower variants
+* ball and wood object display paths
+
+Because it routes those objects through `project`, `project_Z`, `screen_AZ`, `screen_BZ`, `jumpset_A`, and `jumpset_B`, it also acts like a worked example of how the general projection and object-display pipeline was reused for specific hazards.
+
+`Poo.asm` and `Net.asm` round that picture out.
+`Poo.asm` handles a dedicated poo status path and links back into the pole-object state, while `Net.asm` appears to manage indexed placement data for net or fence-style course objects using per-screen offsets and object-position setup.
+
+Taken together, these smaller files make one last point clear:
+Super Mario Kart's runtime was highly modular.
+Lakitu, projectiles, heavy stage hazards, and track-side objects all had their own compact control modules, but they still plugged back into the same shared projection, collision, and display layers described earlier in the page.
 
 ---
 ## Backup RAM and Player Records
@@ -1299,14 +1806,13 @@ The record and backup side of the game survives unusually well here.
 `Record.asm` and `record-e.asm` are not vague menu helpers.
 They operate directly on a `Backup_RAM` area at `700000h`, with `Backup_time` records stored at `Backup_RAM+660H`.
 
-The high-level picture is clearer than it first looks.
 Each course gets its own fixed record block, that block is guarded by a checksum, and the game updates best-lap and best-total tables separately.
 
 ### The Per-Course Record Layout
 The save layout is built around one repeated record structure per course.
 `Check_backupRAM` loops over `20` entries, and it computes the per-course address by ORing the course number with `1400h` before multiplying.
 
-That matters because the math lines up with a fixed `20-byte` course record:
+The address math lines up with a fixed `20-byte` course record:
 
 * `2` bytes of checksum at the start
 * `5` ranked total-time entries at `3` bytes each
@@ -1438,5 +1944,5 @@ Super Mario Kart is the opposite, and that is exactly why it is so useful.
 
 This folder preserves the game code, the regional branches, the prebuilt objects, the decompression code, the editor entry points, the backup-RAM logic, and the DOS/dev-hardware support layer in one place.
 
-For anyone trying to understand how official SNES games were actually built at a low level, that combination is the headline detail.
+For anyone trying to understand how official SNES games were actually built at a low level, that combination is the key detail.
 It shows Super Mario Kart not as a single frozen ROM source tree, but as a living workspace where race code, Mode 7 data handling, editor screens, save logic, and development-hardware support all still overlapped.

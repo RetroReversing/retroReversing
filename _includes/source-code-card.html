@@ -1,4 +1,4 @@
-<div class="rr-file-card"{% if include.card_style %} style="{{ include.card_style }}"{% endif %}>
+<div class="rr-file-card{% if include.class %} {{ include.class }}{% endif %}"{% if include.card_style %} style="{{ include.card_style }}"{% endif %}>
   <img class="geopattern" data-title="{{ include.title }}" />
   <h3>{{ include.title }}</h3>
   <ul{% if include.list_style %} style="{{ include.list_style }}"{% endif %}>

@@ -21,6 +21,7 @@ recommend:
 - tools
 editlink: /consoles/snes/SFXDOS.md
 updatedAt: '2026-03-29'
+regenerate: false
 ---
 
 The Nintendo Gigaleak preserves a surprisingly complete Super Famicom disk and I/O environment inside the Super Mario Kart source directory.
@@ -31,17 +32,39 @@ It survives inside the Mario Kart leak because the game's editors were using it 
 {% include link-to-other-post.html post="/super-mario-kart-source-code" description="For the wider Super Mario Kart source archive, including the editor files that call into SFX-DOS, check out this post." %}
 
 ---
+## Key Findings
+The biggest takeaways from the surviving files are:
+
+* this is a genuine SNES-side service environment, not just a few loose disk helpers
+* the file layer implements a packed 12-bit [FAT](#glossary-fat)-style allocation system with real directory maintenance
+* the shell exposes a usable operator workflow with `DIR`, `DEL`, `REN`, `CHDISK`, `LOAD`, and `SAVE`
+* Mario Kart's editors are clients of the same DOS layer rather than one-off save stubs
+* the Yoshi's Island tool copy shows the package was shared across projects and remained broadly recognizable
+
+---
+## Glossary of Key Terms
+If you are new to low-level SNES development terms, this quick glossary should help:
+
+* <a id="glossary-cop"></a>**COP** - A 65c816 software-interrupt instruction used here as the SFX-DOS service call gateway.
+* <a id="glossary-irq"></a>**IRQ** - A normal hardware interrupt used for routine device events.
+* <a id="glossary-nmi"></a>**NMI** - A non-maskable high-priority interrupt often used for time-critical work.
+* <a id="glossary-scc"></a>**SCC** - The `Z8530` serial communications controller used for keyboard and RS-232 handling.
+* <a id="glossary-fdc"></a>**FDC** - The `uPD72069` floppy disk controller used for physical disk access.
+* <a id="glossary-ppi"></a>**PPI** - The `uPD71055` programmable peripheral interface used here for printer I/O signaling.
+* <a id="glossary-fat"></a>**FAT** - The file allocation table that tracks which disk clusters belong to each file.
+* <a id="glossary-wram"></a>**WRAM** - Work RAM, the main writable memory area used by SFX-DOS buffers and state.
+
+---
 ## At a Glance
-This group of files is much more than a helper library.
-Taken together, it looks like a compact operating environment for development hardware:
+Taken together, the files look like a compact operating environment for development hardware:
 
 Layer | Main file | Role
 ---|---|---
-System entry layer | `sfxdos.asm` | Central dispatcher, interrupt wrapper, and COP-call API
-File-system layer | `fileio.asm` | Disk format, free space, directory scans, load/save, purge, and rename
-Raw hardware layer | `fdcdrv.asm`, `sccdrv.asm`, `ppidrv.asm` | Floppy, serial/keyboard, and printer drivers
-Console UI layer | `condrv.asm` | Text-console screen, cursor, input, and print routines
-Operator shell | `ccp_main.asm` | A command-style front end that calls into the DOS API
+[System entry layer](#the-core-api) | `sfxdos.asm` | Central dispatcher, interrupt wrapper, and [COP](#glossary-cop)-call API
+[File-system layer](#the-file-system-layer) | `fileio.asm` | Disk format, free space, directory scans, load/save, purge, and rename
+[Raw hardware layer](#the-hardware-drivers) | `fdcdrv.asm`, `sccdrv.asm`, `ppidrv.asm` | Floppy, serial/keyboard, and printer drivers
+[Console UI layer](#the-console-and-shell) | `condrv.asm` | Text-console screen, cursor, input, and print routines
+[Operator shell](#the-built-in-commands) | `ccp_main.asm` | A command-style front end that calls into the DOS API
 
 The overall shape is easiest to grasp as a layered stack:
 
@@ -64,6 +87,8 @@ The dates are useful too:
 
 That timing makes the SFX-DOS code look like an older shared development layer that the Mario Kart team was still building on later.
 
+
+---
 # Where It Appears in the Leak
 The relevant files survive under the Gigaleak path:
 
@@ -87,18 +112,47 @@ It is a shared system layer surviving inside a real game workspace, with the Mar
 
 ---
 # The Core API
+{% capture sfxdos_core_items %}
+- variable::sfxdos
+- function::DOS_Entry
+- function::COP_Entry
+- function::IRQ_Entry
+- function::NMI_Entry
+- table::Function_call$
+- variable::Break_vector
+- variable::IRQ_vector
+{% endcapture %}
+
+<div class="rr-code-card-aside" markdown="1">
+{% include source-code-card.html title="sfxdos.asm" items=sfxdos_core_items functions="4" variables="8" lines="400" class="rr-file-card-aside" %}
+<div class="rr-code-card-aside-content" markdown="1">
+
 The heart of the stack is `sfxdos.asm`.
 Its header calls it a `Super Famicom Disk Operation Sysytem special version`, programmed by **Y. Nishida** on **29 October 1991**.
 
 The file exports:
 
-* `DOS_Entry`
-* `COP_Entry`
-* `IRQ_Entry`
-* `NMI_Entry`
+* [`DOS_Entry`](/super-famicom-sfx-dos#what-dos_entry-actually-does) - the resident bootstrap path that clears work RAM, installs vectors, and initializes the drivers
+* [`COP_Entry`](/super-famicom-sfx-dos#the-cop-based-service-table) - the software-interrupt gateway that dispatches byte-sized [COP](#glossary-cop) service calls
+* [`IRQ_Entry`](/super-famicom-sfx-dos#the-interrupt-entry-points) - the resident [IRQ](#glossary-irq) (normal hardware interrupt) trampoline that hands control to the active DOS or user interrupt handler
+* [`NMI_Entry`](/super-famicom-sfx-dos#the-interrupt-entry-points) - the resident [NMI](#glossary-nmi) (non-maskable, high-priority interrupt) trampoline used for DOS-side text refresh and user NMI handoff
 
 That is already a strong clue that this is a resident support environment rather than a grab bag of routines.
 
+</div>
+</div>
+
+## What the COP Instruction Is Doing Here
+<div class="emoji">👮</div>
+On the 65c816 CPU, [`COP`](#glossary-cop) is a software interrupt instruction.
+It behaves a bit like a built-in trap into a supervisor or monitor layer: the caller executes `cop` with a small immediate value, and the system-side handler reads that value and decides which service routine to run.
+
+That matters here because the Mario Kart editor files are not jumping straight into a long list of internal SFX-DOS labels.
+They are making compact `cop` calls like `cop 15h` and `cop 16h`, and `sfxdos.asm` turns those byte-sized service numbers into real disk, console, and file-system operations.
+
+So when this page refers to the `COP` API, it means a software-interrupt gateway built on the CPU's own `COP` instruction, not a separate coprocessor.
+
+---
 ## The COP-Based Service Table
 The most important architectural detail is `COP_Entry`.
 It reads a function number from the instruction stream and dispatches through a `Function_call$` jump table, effectively giving the Super Famicom code a callable DOS API.
@@ -142,12 +196,22 @@ They were calling into a stable service layer.
 `DOS_Entry` behaves like a boot or reset path for the whole environment.
 
 On entry it:
-
 * sets up the SFX-DOS direct-page workspace
-* clears work RAM from `7E:1E00h` through `7E:2FFFh`
-* copies the user's IRQ and NMI vectors into DOS-managed slots
-* initializes the SCC, PPI, and FDC drivers
+* clears [WRAM](#glossary-wram) from `7E:1E00h` through `7E:2FFFh`
+* copies the user's [IRQ](#glossary-irq) and [NMI](#glossary-nmi) vectors into DOS-managed slots
+* initializes the **Serial Communications Controller** ([SCC](#glossary-scc)), **Programmable Peripheral Interface** ([PPI](#glossary-ppi)), and **Floppy Disk Controller** ([FDC](#glossary-fdc)) drivers
 * installs the SFX-DOS IRQ vector
+
+
+That startup flow is easier to scan as a sequence:
+
+```mermaid
+flowchart TD
+  A["<b>Set workspace</b><br>initialize direct-page state"] --> B["<b>Clear WRAM</b><br>7E:1E00h to 7E:2FFFh"]
+  B --> C["<b>Save user vectors</b><br>copy IRQ and NMI handlers"]
+  C --> D["<b>Init drivers</b><br>SCC, PPI, and FDC"]
+  D --> E["<b>Install DOS IRQ</b><br>activate SFX-DOS IRQ vector"]
+```
 
 Then the smaller lifecycle hooks round the system out:
 
@@ -157,16 +221,28 @@ Then the smaller lifecycle hooks round the system out:
 
 That makes SFX-DOS feel much closer to a resident development service than a normal game library.
 
+## The Interrupt Entry Points
+If you are not used to low-level console terms: an **interrupt** is a hardware signal that briefly pauses the current code so the system can run a small handler.
+[`IRQ`](#glossary-irq) is the regular interrupt path used for routine hardware events, while [`NMI`](#glossary-nmi) is a special high-priority interrupt that cannot be disabled and is commonly used for time-critical work.
+
+`IRQ_Entry` and `NMI_Entry` are smaller than `DOS_Entry`, but they still matter because they show how SFX-DOS sits between the running tool code and the machine's interrupt flow.
+
+`IRQ_Entry` jumps through the current IRQ vector, while `NMI_Entry` jumps through the current NMI vector.
+In practice that means the resident layer can swap in its own handlers like `Sfxdos_IRQ` and `Sfxdos_NMI`, then later restore the user's original vectors when DOS services are stopped.
+
+That is one more sign that this was a resident environment rather than a pile of callable helpers.
+It owned the interrupt handoff path as well as the disk and console services.
+
 ## What the Shared Headers Add
 One nice extra clue survives elsewhere in the Gigaleak.
-Under the Yoshi's Island tool tree there is a shared `sfxdos.h`, `doscall.h`, and `sfxdos.doc`, which appear to document the same broader SFX-DOS package that Mario Kart was using.
+Under the Yoshi's Island tool tree there is a shared `sfxdos.h`, `doscall.h`, and `sfxdos.doc`, which document the same broader SFX-DOS package family reflected in the Mario Kart copy.
 
 Those files fill in the memory map behind the code very neatly.
 The main DOS workspace is defined at:
 
 * `DOS_variable = 001E00h`
 
-and the big working buffers live at fixed WRAM addresses:
+and the big working buffers live at fixed [WRAM](#glossary-wram) addresses:
 
 Buffer | Address | Purpose
 ---|---|---
@@ -174,6 +250,16 @@ Buffer | Address | Purpose
 `Disk_Directory` | `7E2800h` | directory-sector buffer
 `Disk_Sector` | `7E2C00h` | cluster or sector read/write buffer
 `Text_VRAM` | `7E3000h` | text-console screen buffer
+
+That layout is easier to picture visually:
+
+```mermaid
+flowchart TD
+  A["<b>001E00h</b><br>DOS_variable workspace"] --> B["<b>7E2000h</b><br>Disk_FAT"]
+  B --> C["<b>7E2800h</b><br>Disk_Directory"]
+  C --> D["<b>7E2C00h</b><br>Disk_Sector"]
+  D --> E["<b>7E3000h</b><br>Text_VRAM"]
+```
 
 That is useful because it turns the implementation from "somewhere in RAM" into a very explicit memory layout.
 
@@ -235,6 +321,22 @@ That suggests the broader SFX-DOS package may once have had an execution or laun
 
 ---
 # The File-System Layer
+{% capture sfxdos_fileio_items %}
+- function::Init_FDC_Driver
+- function::Disk_Format
+- function::Files_First
+- function::Files_Next
+- function::Load_File
+- function::Save_File
+- variable::Log_Format_2HD
+- variable::Log_Format_2DD8
+- variable::Log_Format_2DD9
+{% endcapture %}
+
+<div class="rr-code-card-aside" markdown="1">
+{% include source-code-card.html title="fileio.asm" items=sfxdos_fileio_items functions="12" variables="3" lines="1763" class="rr-file-card-aside" %}
+<div class="rr-code-card-aside-content" markdown="1">
+
 `fileio.asm` is where the stack becomes recognizably DOS-like.
 Its header calls it the `file I/O module`, dated **21 August 1991**.
 
@@ -250,6 +352,9 @@ It exports the practical file operations:
 * `Purge_File`
 * `Rename_File`
 
+</div>
+</div>
+
 ## Multiple Floppy Formats
 One of the most interesting details in `fileio.asm` is that it carries full logical-disk layout tables for multiple media formats.
 
@@ -264,11 +369,11 @@ The tables define:
 * sectors per cluster
 * sectors per track
 * directory placement
-* FAT size
+* [FAT](#glossary-fat) size
 * bytes per sector
 * total cluster counts
 
-That tells us SFX-DOS was not just issuing opaque disk read and write commands.
+That tells us SFX-DOS was not relying on opaque disk read and write commands.
 It was carrying a full logical file-system layer on top of the raw floppy controller.
 
 ## More Than Fixed Load and Save
@@ -337,7 +442,7 @@ That makes SFX-DOS feel much more like a full file system than a convenience wra
 It is maintaining directory structure and allocation data coherently across create, delete, rename, and overwrite cases.
 
 ## Why This Looks Like a 12-Bit FAT
-The FAT handling is one of the most interesting parts of `fileio.asm`.
+The [FAT](#glossary-fat) handling is one of the most interesting parts of `fileio.asm`.
 The cluster logic is packed differently for even and odd cluster numbers:
 
 * even clusters use the low 12 bits of the entry pair
@@ -355,7 +460,7 @@ That odd/even split is exactly what you would expect from a **12-bit FAT-style**
 The code is manually packing and unpacking cluster entries with shifts and masks rather than treating the FAT as a table of simple 16-bit words.
 
 That is a very strong preservation detail.
-It means SFX-DOS was not just "DOS-like" in spirit.
+It means SFX-DOS was not only "DOS-like" in spirit.
 Its allocation logic is implementing a genuine packed FAT design.
 
 ## Cluster Allocation and End-of-Chain Rules
@@ -417,12 +522,28 @@ After the raw disk steps, it:
 That is another clue that SFX-DOS is a real file system implementation.
 `FORMAT` in the shell is ultimately triggering both physical formatting and logical file-system construction.
 
+## What a Save Operation Actually Does
+Once all of those pieces are put together, the write path becomes much easier to follow.
+
+```mermaid
+flowchart TD
+  A["<b>SAVE command</b><br>filename + address + length"] --> B["<b>File_Open</b><br>validate disk and locate or create entry"]
+  B --> C["<b>Search_VoidClus</b><br>reserve first free cluster"]
+  C --> D["<b>File_Write</b><br>copy data into Disk_Sector buffer"]
+  D --> E["<b>Write_Cluster</b><br>write current cluster to disk"]
+  E --> F["<b>Link_FAT</b><br>extend cluster chain if needed"]
+  F --> G["<b>File_Flush</b><br>write directory entry and FAT back"]
+```
+
+That diagram is obviously simplified, but it captures the important point: a `SAVE` in SFX-DOS is not one opaque disk write.
+It is a chain of directory management, cluster allocation, buffered sector transfer, and FAT maintenance.
+
 ---
 # The Hardware Drivers
 Three smaller files preserve the physical assumptions behind the environment.
 
 ## fdcdrv.asm
-`fdcdrv.asm` is the low-level floppy controller driver.
+`fdcdrv.asm` is the low-level floppy controller driver ([FDC](#glossary-fdc)).
 It explicitly targets the `uPD72069` and implements raw commands like:
 
 * reset
@@ -452,9 +573,24 @@ The standby logic is a nice detail on its own:
 So even at the lowest level, SFX-DOS is managing hardware lifecycle rather than only issuing I/O commands.
 
 ## sccdrv.asm
+{% capture sfxdos_scc_items %}
+- function::Init_SCC_Driver
+- function::Input_Keyboard
+- function::Sense_Keyboard
+- function::Reset_RS232C
+- function::SCC_Interrupt
+- variable::ChanA_init_data
+- variable::ChanB_init_data
+- variable::Keyboard_normal
+- variable::Keyboard_shift
+- variable::Keyboard_ctrl
+{% endcapture %}
+
+{% include source-code-card.html title="sccdrv.asm" items=sfxdos_scc_items functions="11" variables="7" lines="710" class="rr-file-card-float" %}
+
 `sccdrv.asm` targets the `Z8530`, and it is doing two jobs at once:
 
-* SCC channel A is used for keyboard input
+* [SCC](#glossary-scc) channel A is used for keyboard input
 * SCC channel B is used for RS-232 serial
 
 That split is spelled out in the comments and setup paths.
@@ -480,13 +616,23 @@ Those tables are explicitly labeled as **PC-9800 keyboard data**.
 That is one of the clearest host-environment clues anywhere in the package.
 The Super Famicom-side tool stack was designed to receive keyboard input in a form that matched NEC PC-9800 hardware conventions.
 
+<div class="rr-file-card-clear"></div>
+
 ## ppidrv.asm
+{% capture sfxdos_ppi_items %}
+- function::Init_PPI_Driver
+- function::Sense_Printer
+- function::Output_Printer
+{% endcapture %}
+
+{% include source-code-card.html title="ppidrv.asm" items=sfxdos_ppi_items functions="3" variables="0" lines="76" class="rr-file-card-float" %}
+
 `ppidrv.asm` targets the `uPD71055`.
 It is simpler than the other two drivers, but still reveals that the environment expected to support printer output directly.
 
 Its main jobs are:
 
-* initialize the PPI
+* initialize the [PPI](#glossary-ppi)
 * sense printer readiness
 * send bytes to the printer port
 
@@ -510,27 +656,46 @@ From there the data path is very direct:
 * it briefly toggles the control register to generate the output pulse
 * then restores the idle control state
 
-So while the printer support is much smaller than the floppy and serial layers, it is still real device I/O with readiness polling and a hardware output strobe, not just a placeholder API entry.
+So while the printer support is much smaller than the floppy and serial layers, it is still real device I/O with readiness polling and a hardware output strobe rather than a placeholder API entry.
 
 That is enough to tell us SFX-DOS expected a physically attached printer and knew how to hand bytes to it one by one from the Super Famicom side.
 
+<div class="rr-file-card-clear"></div>
+
 ---
 # The Console and Shell
+{% capture sfxdos_console_items %}
+- function::Init_CON_Driver
+- function::Input_Console
+- function::Output_Console
+- function::Input_String
+- function::Print_String
+- function::CON_Driver_NMI
+- variable::Screen_DMA
+- variable::Character_DMA
+- variable::Color_DMA
+- variable::Color_data
+{% endcapture %}
+
+{% include source-code-card.html title="condrv.asm" items=sfxdos_console_items functions="6" variables="4" lines="912" class="rr-file-card-float" %}
+
 `condrv.asm` turns the hardware layer into something a person could actually use.
 
 It provides:
 
-* `Init_CON_Driver`
-* `Input_Console`
-* `Output_Console`
-* `Input_String`
-* `Print_String`
-* `CON_Driver_NMI`
+* `Init_CON_Driver` - Initializes the text console state, clears buffers, and prepares the display layer.
+* `Input_Console` - Reads a single character from console input.
+* `Output_Console` - Writes one character to the console, including control-code handling.
+* `Input_String` - Reads and edits a full input line into the shared line buffer.
+* `Print_String` - Prints a null-terminated string through the console output path.
+* `CON_Driver_NMI` - Runs NMI-time console refresh tasks such as cursor and screen updates.
 
 Internally it maintains a text-VRAM emulation buffer, cursor positions, insert and delete line support, screen clearing, palette setup, and character initialization.
 
-So this is not just a serial log window.
+So this is more than a serial log window.
 It is a proper text console running on the Super Famicom side.
+
+<div class="rr-file-card-clear"></div>
 
 ## A Real Text-Screen Driver
 The initialization path is more elaborate than it first looks.
@@ -568,7 +733,7 @@ It means the higher-level shell could rely on proper screen control rather than 
 The input side is just as complete.
 `Input_String` does line editing on top of `Input_Keyboard`, handling backspace, carriage return, and control-style editing flows while storing the result in `Line_buffer`.
 
-On the display side, `CON_Driver_NMI` and `Cursor_Blink` keep the cursor alive during NMI updates.
+On the display side, `CON_Driver_NMI` and `Cursor_Blink` keep the cursor alive during [NMI](#glossary-nmi) updates.
 So the console was designed to feel interactive and stable while the SNES kept refreshing the screen in the background.
 
 `ccp_main.asm` then looks like a shell or command processor built on top of that console and the DOS API.
@@ -586,7 +751,7 @@ Its boot message literally prints:
 
 After boot, the shell drops to an `A>`-style prompt by outputting the current drive letter followed by `>`.
 
-That is a great detail because it shows SFX-DOS was presenting itself like a tiny DOS command shell, not just an invisible subsystem buried under game tools.
+That is a great detail because it shows SFX-DOS was presenting itself like a tiny DOS command shell rather than an invisible subsystem buried under game tools.
 
 ## The Built-In Commands
 The command table in `ccp_main.asm` is small but revealing.
@@ -605,10 +770,10 @@ So the shell was not only for startup diagnostics.
 It exposed a compact but usable file-management workflow directly on the Super Famicom side.
 
 There is even a commented-out `DOSCUT` test command, which temporarily halts SFX-DOS and then restarts it.
-That is the sort of internal test hook that makes the whole package feel like active systems software, not just polished release tooling.
+That is the sort of internal test hook that makes the whole package feel like active systems software rather than polished release tooling.
 
 ## How the Command Parser Actually Works
-`ccp_main.asm` is not just a thin wrapper around the DOS API.
+`ccp_main.asm` is more than a thin wrapper around the DOS API.
 It contains a real command parser with tokenization, uppercasing, delimiter tracking, hex parsing, filename validation, and shared error handling.
 
 The flow is roughly:
@@ -639,7 +804,7 @@ It also supports wildcard expansion.
 If the user enters `*`, the parser fills the remaining filename or extension field with `?`, which is then copied into the DOS-side `access_fname` buffer.
 
 That is a surprisingly concrete preservation detail.
-This was not just "give me a file name string."
+This was not simply "give me a file name string."
 It was a proper DOS-like 8.3 command shell with wildcard search behavior.
 
 ### Drive and Disk-Type Parsing
@@ -670,7 +835,7 @@ Its flow is:
 * loop with `DIRNXT`
 * finish by calling `DSKFRE` and printing free-space information
 
-That means the shell is doing a real directory walk and then reporting remaining capacity at the end, not just listing one static directory sector.
+That means the shell is doing a real directory walk and then reporting remaining capacity at the end, not merely listing one static directory sector.
 
 The display helpers are equally specific:
 
@@ -682,7 +847,7 @@ So the shell was not only functional.
 It was trying to present the disk contents in a familiar, operator-friendly format.
 
 ### LOAD and SAVE Are Raw Memory Transfers
-`LOAD` and `SAVE` are some of the most revealing commands in the whole file because they show the shell was meant to move raw memory blocks, not just copy files around abstractly.
+`LOAD` and `SAVE` are some of the most revealing commands in the whole file because they show the shell was meant to move raw memory blocks, not merely copy files around abstractly.
 
 Both commands expect:
 
@@ -712,8 +877,32 @@ It is translating them into readable console feedback.
 # How Mario Kart Used It
 The easiest way to understand why this matters is to look at the Mario Kart editor bridge files.
 
+{% capture sfxdos_bridge1_items %}
+- function::SAVE_FILE1
+- function::LOAD_FILE1
+- function::FILE_SET1
+{% endcapture %}
+
+{% capture sfxdos_bridge2_items %}
+- variable::dos_set
+- function::INIDOS_SET
+- function::DOS_INI
+- function::DOS_INI_1
+- function::POINT_SET8
+- function::SAVE_FILE2
+- function::LOAD_FILE2
+- function::FILE_SET2
+{% endcapture %}
+
+{% capture sfxdos_bridge_cards %}
+{% include source-code-card.html title="ed_dos1.asm" items=sfxdos_bridge1_items functions="3" variables="0" lines="199" %}
+{% include source-code-card.html title="ed_dos2.asm" items=sfxdos_bridge2_items functions="7" variables="1" lines="315" %}
+{% endcapture %}
+
+{% include source-code-card-grid.html content=sfxdos_bridge_cards %}
+
 `ed_dos1.asm` and `ed_dos2.asm` are not talking directly to floppy hardware.
-They prepare filenames, addresses, and byte counts, then call the `cop`-based SFX-DOS API.
+They prepare filenames, addresses, and byte counts, then call the [`COP`](#glossary-cop)-based SFX-DOS API.
 
 The differences between the editor save paths are especially revealing:
 
@@ -725,7 +914,7 @@ Editor path | Save area | Transfer size | What it suggests
 
 That makes the Mario Kart toolchain much more concrete.
 The editors were not pretending to load and save.
-They were sitting on top of a real SNES-side file system and device environment.
+They were sitting on top of a genuine SNES-side file system and device environment.
 
 ---
 # What Using It Probably Felt Like
@@ -739,7 +928,19 @@ A likely session would have looked something like this:
 * switch media mode with `CHDISK HD`, `CHDISK DD`, or `CHDISK DD9` depending on the floppy in use
 * use `LOAD filename address length` to pull a file directly into target memory
 * use `SAVE filename address length` to write a raw memory region back out to disk
-* rely on the shell and DOS layer to turn that request into directory scans, FAT updates, cluster reads or writes, and low-level track and sector transfers
+* rely on the shell and DOS layer to turn that request into directory scans, [FAT](#glossary-fat) updates, cluster reads or writes, and low-level track and sector transfers
+
+That operator flow is also easy to see as a command sequence:
+
+```mermaid
+flowchart TD
+  A["<b>Boot SFX-DOS</b><br>show version banner"] --> B["<b>Prompt appears</b><br>A>-style command prompt"]
+  B --> C["<b>DIR</b><br>list files and free space"]
+  C --> D["<b>CHDISK</b><br>set HD, DD, or DD9 mode"]
+  D --> E["<b>LOAD</b><br>read file into target memory"]
+  E --> F["<b>SAVE</b><br>write memory range back to disk"]
+  F --> G["<b>DOS layer work</b><br>directory scan, FAT update, cluster I/O"]
+```
 
 That flow matters because it makes the whole stack feel much less abstract.
 This was not only a library that happened to contain file-system code.
@@ -754,15 +955,22 @@ They were plugging into the same underlying environment that an operator could a
 The Gigaleak preserves at least two clearly related SFX-DOS copies:
 
 * the Mario Kart snapshot under `other/SFC/ソースデータ/MarioKart`
-* a later Yoshi's Island tool copy under `other/SFC/ソースデータ/ヨッシーアイランド/ツール/tool/sfxdos`
+* the Yoshi's Island tool copy under `other/SFC/ソースデータ/ヨッシーアイランド/ツール/tool/sfxdos`
 
 They are not byte-identical, but they are obviously the same package family.
 
+The comparison is easier to scan in table form:
+
+Copy | What survives | What stands out
+---|---|---
+Mario Kart | `sfxdos.asm`, `sfxdos.lib`, in-project callers | looks like a project-local working snapshot with a shorter source tail
+Yoshi's Island tools | `sfxdos.asm`, `sfxdos.lib`, `sfxdos.h`, `doscall.h`, `sfxdos.doc`, `sfxdos.map`, `sfxdos.rel`, `sfxdos.hex` | preserves a fuller packaged tool copy with documentation and a more explicit vector layout
+
 The strongest signs of continuity are:
 
-* both copies preserve the same core `COP_Entry` dispatcher structure
+* both copies preserve the same core [COP](#glossary-cop)-based `COP_Entry` dispatcher structure
 * both expose the same main service table, including `INPUT` and `PRINT`
-* both still use the same driver split for floppy, SCC, PPI, console, and file I/O
+* both still use the same driver split for floppy, [SCC](#glossary-scc), [PPI](#glossary-ppi), console, and file I/O
 * both keep **Y. Nishida** attribution and the same 1991-era design
 
 At the same time, the Yoshi tool copy is fuller in a few useful ways:

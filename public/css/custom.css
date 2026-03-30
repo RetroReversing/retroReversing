@@ -1,3 +1,8 @@
+html {
+    /* Take into the account the height of the fixed header for anchor links */
+  scroll-padding-top: 70px;
+}
+
 .rr-changelog-date, .rr-changelog h5 {
     font-size: 1.125rem;
     color: #0085b6;

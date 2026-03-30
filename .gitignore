@@ -64,3 +64,4 @@ templates
 /*.png
 /*.jpeg
 .jekyll-metadata
+*.exe
