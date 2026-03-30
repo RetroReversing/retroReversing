@@ -24,7 +24,7 @@
       <blockquote>
         <div class="widget-img">
             {% if matched_post.image %}
-              <img class="lazy-load otherPostImg" data-image-full="{{ matched_post.image }}" alt="">
+              <img class="lazy-load otherPostImg" data-image-full="{{ matched_post.image }}" alt="{{ matched_post.title }}">
             {% elsif generated_placeholder_file %}
               <img class="lazy-load otherPostImg" data-image-full="{{ generated_placeholder_path }}" alt="{{ matched_post.title }}">
             {% elsif matched_post.youtube %}

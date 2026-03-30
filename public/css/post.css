@@ -535,6 +535,7 @@ h5 + .emoji {
 
 .post .otherPostImg {
   min-width: 200px;
+  min-height: 180px;
   max-height: 180px;
   max-width: 320px;
 }

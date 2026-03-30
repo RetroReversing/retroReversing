@@ -10,9 +10,15 @@ permalink: /nintendo-lot-check
 breadcrumbs:
   - name: Home
     url: /
+  - name: Source Code
+    url: /sourcecode
   - name: Leaks
     url: /leaks
-  - name: Nintendo Lot Check ROM Leak 
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Nintendo Lot Check ROM Leak
     url: #
 recommend: 
 - leak

@@ -1,16 +1,20 @@
 ---
 layout: null
+regenerate: false
 ---
 [ {}
   {% for page in site.pages %}
     {% if page.layout == 'post' and page.title and page.permalink %}
+    {% assign generated_placeholder_image = page.permalink | replace: '.html', '' | slugify | prepend: '/public/generated/placeholders/' | append: '.jpg' %}
+    {% assign generated_placeholder_file = site.static_files | where: 'path', generated_placeholder_image | first %}
     ,{
       "title": {{ page.title | jsonify }},
       "url": {{ page.permalink | jsonify }},
       "content": {{ page.content | strip_html | strip_newlines | jsonify }},
       "excerpt": {{ page.content | strip_html | truncatewords: 50 | jsonify }},
       "tags": {{ page.tags | jsonify }},
-      "image": {{ page.image | default: site.category_images[page.console] | default: page.thumbnail | default: "/public/images/RetroReversingLogoSmall.png" | jsonify }},
+      "image": {{ page.image | default: generated_placeholder_file.path | default: "/public/images/RetroReversingLogoSmall.png" | jsonify }},
+      "consoleImage": {{ site.category_images[page.console] | default: "/public/images/RetroReversingLogoSmall.png" | jsonify }},
       "console": {{ page.console | jsonify }}
     }
     {% endif %}

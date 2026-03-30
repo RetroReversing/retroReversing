@@ -1,11 +1,11 @@
 /**
  * Site Search Functionality
- * Uses Fuse.js for fuzzy search on static content
+ * Uses Fuse.js for fuzzy search on static content.
+ * The Fuse index is shared via window.RRSearch (search-index.js).
  */
 (function() {
   'use strict';
 
-  let searchIndex = null;
   let fuse = null;
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
@@ -13,48 +13,12 @@
 
   // Initialize search when the page loads
   function initSearch() {
-    // Fetch the search index
-    fetch('/search.json')
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Failed to fetch search index: ' + response.status);
-        }
-        return response.text();
-      })
-      .then(text => {
-        // Try to parse JSON with better error handling
-        let data;
-        try {
-          data = JSON.parse(text);
-        } catch (parseError) {
-          console.error('JSON Parse Error:', parseError);
-          console.error('Response text (first 500 chars):', text.substring(0, 500));
-          throw new Error('Invalid JSON in search index: ' + parseError.message);
-        }
-        
-        searchIndex = data;
-        
-        // Configure Fuse.js options
-        const options = {
-          keys: [
-            { name: 'title', weight: 0.5 },
-            { name: 'content', weight: 0.3 },
-            { name: 'tags', weight: 0.2 }
-          ],
-          threshold: 0.4,
-          includeScore: true,
-          minMatchCharLength: 2,
-          ignoreLocation: true
-        };
-        
-        // Initialize Fuse with the search index
-        fuse = new Fuse(searchIndex, options);
-        
-        console.log('Search index loaded with', searchIndex.length, 'posts');
-      })
-      .catch(error => {
-        console.error('Error loading search index:', error);
-      });
+    window.RRSearch.ready(function (fuseInstance) {
+      fuse = fuseInstance;
+      if (fuse) {
+        console.log('Search index ready');
+      }
+    });
   }
 
   // Perform search
@@ -143,10 +107,6 @@
   }
 
   // Initialize on page load
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initSearch);
-  } else {
-    initSearch();
-  }
+  initSearch();
 
 })();

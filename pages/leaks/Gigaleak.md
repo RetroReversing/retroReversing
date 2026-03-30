@@ -14,14 +14,18 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - SNES Source Code Leak 
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
     url: #
 recommend: 
  - snes
  - leak
  - sourcecode
 editlink: /leaks/Gigaleak.md
-updatedAt: '2026-03-29'
+updatedAt: '2026-03-30'
 twitterimage: https://www.retroreversing.com/public/N64/Gigaleak.jpg
 ---
 
@@ -111,7 +115,7 @@ Beyond the source trees, the `NEWS.7z` archive also contains a **テープリス
 | Archive | Size | Entries | Contents |
 |---------|------|---------|----------|
 | **NEWS_02.tar** | 12M | 187 | System logs and user configs (`.net`, `.cshrc`, `.login`, `.logout`, mail profiles) |
-| **NEWS_04.tar** | 96M | 5,309 | **Heavy SNES assets**: 2,295 `.BAK` backups, 972 `.SCR` screens, 836 `.CGX` graphics, 412 `.COL` palettes, 266 `.OBJ` objects, 108 `.MAP` maps—primarily tile/sprite art |
+| **NEWS_04.tar** | 96M | 5,309 | **Mixed graphics workstation**: 2,297 `.BAK`, 991 `.SCR`, 876 `.CGX`, 431 `.COL`, 266 `.OBJ`, 108 `.MAP`; includes late Star Fox 2 art, Zelda/GB-Zelda branches, confirmed Super Mario Kart assets, and a likely Pilotwings-era prototype |
 | **NEWS_05.tar** | 109M | 3,831 | **Star Fox 2 3D CAD Pipeline & Development Toolkit**: 628 `.txt`, 500 `.cad` 3D models, 371 `.anm` animations, 307 `.nca` Nintendo CAD files, 268 `.c` C source files |
 | **NEWS_09.tar** | 34M | 1,374 | **SNES sprite/level assets**: 502 `.BAK` backups, 213 `.CGX`, 128 `.COL`, 117 `.OBJ`, 56 `.SCR`, 52 `.PNL` panels—Yoshi-related content |
 | **NEWS_11.tar** | 127M | 5,401 | **Largest dump**: 921 `.CGX`, 709 `.OBJ`, 648 `.SCR`, 526 `.COL`, 391 `.BAK`, 336 `.cgx`—primarily Yoshi's Island production artwork and sprite objects |
@@ -120,7 +124,7 @@ Beyond the source trees, the `NEWS.7z` archive also contains a **テープリス
 
 These tars represent raw workstation snapshots rather than organized source archives. The bulk of the data (NEWS_04, NEWS_05, NEWS_09, NEWS_11) consists of SNES development assets—heavily weighted toward graphics files (`.CGX`/`.COL` color palettes and screens), object definitions (`.OBJ`/`.OBZ` 3D/sprite data), and map data (`.MAP` and `.SCR`). Notably, NEWS_05 also preserves CAD files and animation source, suggesting multi-disciplinary workstation backups captured during active development cycles.
 
-{% include link-to-other-post.html post="/gigaleak-news-04" description="For the mixed graphics workstation backup with late Star Fox 2 art, Zelda/GB-Zelda layout material, and Sugiyama's older graphics branches, see the NEWS_04 deep-dive." %}
+{% include link-to-other-post.html post="/gigaleak-news-04" description="For the mixed graphics workstation backup with late Star Fox 2 art, Zelda/GB-Zelda layout material, confirmed Super Mario Kart production assets, and a likely Pilotwings-era prototype branch, see the NEWS_04 deep-dive." %}
 {% include link-to-other-post.html post="/gigaleak-news-05" description="For the Star Fox 2 CAD, animation, and 3D toolchain workstation snapshot, see the NEWS_05 deep-dive." %}
 
 ---
