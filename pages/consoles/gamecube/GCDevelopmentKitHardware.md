@@ -18,6 +18,8 @@ permalink: /gamecube-development-kit-hardware
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo Gamecube
     url: /gamecube
   - name: Nintendo Gamecube (Dolphin) Development Kit Hardware
@@ -229,7 +231,7 @@ The GCP-2000 USB Adapter connects via a Gamecube's memory card slot and has a us
 # SN Systems Development Kits
 SN Systems are very well known for their quality third party development kit hardware and SDKs and the gamecube was one of the last non-Sony platforms that they supported after being bought out by Sony.
 
-{% include link-to-other-post.html post="/companies/snsystems/" description="For more information on SN Systems check out this post." %}
+{% include link-to-other-post.html post="/companies/snsystems" description="For more information on SN Systems check out this post." %}
 
 
 ## SN Systems Tiny Development Kit (SN-TDEV)

@@ -75,6 +75,11 @@ The `ncDlg.h` and `ncDlg.cpp` interface declarations expose explicit file manage
 
 The UI code tracks SD/Flash storage capacity using `m_freespace` and `m_cardspace` tracking variables, confirming the Netcard itself possessed internal memory meant to be managed over USB/link by this desktop client.
 
+### The Netcard Native GBA Firmware (`iqgba.tar`)
+This multimedia functionality is perfectly corroborated by the massive `iqgba.tar` archive found alongside it. Unlike the misplaced BroadOn Wii repository, `iqgba.tar` contains the actual target Game Boy Advance firmware source code under the `iQue-GBA/viewer/Viewer_NC/` compiler directory!
+
+This firmware (the NC Viewer) features a dedicated `ncpart/` module containing a fully native GBA MP3 software decoder (`mp3dec_mad.c`, utilizing the open-source MAD library) and user interface graphical assets (`mp3_bg.acg`, `mp3_obj.aob`) designed to render the Music Player natively on the GBA screen. It also contains `nc_lobby.c` and networking hooks directly referencing the `viewer_vng.h` protocol layer!
+
 ---
 ## The PC Client & 3D Colosseum Mode
 Perhaps the most striking reveal in the `OnlinePokemonProject_Design.ppt` pitch deck and the `nc_stuff.7z` archive is that the GBA was planned to connect directly to a Windows PC Client managed by **iQue** (Nintendo's Chinese subsidiary).

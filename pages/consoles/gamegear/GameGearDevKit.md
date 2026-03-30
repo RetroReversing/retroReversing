@@ -12,6 +12,8 @@ permalink: /sega-game-gear-devkit
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Sega Game Gear
     url: /gamegear
   - name: Sega Game Gear Development Hardware
@@ -111,7 +113,7 @@ As official SEGA development kits were pretty expensive for the average game dev
 ## Krisalis Development Kit
 We have an entire page covering the Krisalis Development Kit which was used for both Game Gear development along with Sega Master System development.
 
-{% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For more information on the Krisalis Development Kit check out this post." %}
+{% include link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For more information on the Krisalis Development Kit check out this post." %}
 
 ## Realtime / Riverrun development board for Game Gear
 <section class="postSection">

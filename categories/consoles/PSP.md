@@ -65,7 +65,7 @@ We have a separate post all about the development hardware used to make PSP game
 ## SN Systems ProDG SDK
 There was a custom Software Development kit that was created by **SN Systems** before they got bought by Sony in 2005. It was later included in the official SDK when Sony bought the company.
 
-{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information on the SN Systems SDK check out this post." %}
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information on the SN Systems SDK check out this post." %}
 
 ---
 # File Formats

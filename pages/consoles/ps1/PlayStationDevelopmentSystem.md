@@ -114,7 +114,7 @@ According to Cary Brisebois on Twitter there was software called `Bonk` that we 
 These photos are kindly contributed by Andrew Earley who recently obtained the development kit from a contact at a recycling center [^4]. 
 
 
-{% include link-to-other-post.html post="/hardware/devkits/" description="For more information about all the other console development hardware check out this post" %}
+{% include link-to-other-post.html post="/hardware/devkits" description="For more information about all the other console development hardware check out this post" %}
 
 ---
 # References

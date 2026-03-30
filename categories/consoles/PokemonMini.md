@@ -106,7 +106,7 @@ The hardware for the Pokemon Mini was provided by `Seiko EPSON` which included a
 # Game Development
 
 ## Official Software Development Kit (Toolchain)
-{% include link-to-other-post.html post="/official-pokemon-mini-sdk/" description="For an introduction to the official SDK used to create Pokemon Mini games check out this post." %}
+{% include link-to-other-post.html post="/official-pokemon-mini-sdk" description="For an introduction to the official SDK used to create Pokemon Mini games check out this post." %}
 
 ## Homebrew SDK
 The Pokémon Mini homebrew scene is just starting to take off, with some very talented developers making tools that make it easier than ever to start programming your own games or applications!

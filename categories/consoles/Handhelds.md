@@ -67,7 +67,7 @@ The GP2X ran on a Linux-based operating system, which provided a stable and cust
 The Pokemon Mini was a low profile handheld games console developed by Nintendo's System Development Division (SDD) in partnership with 
 **Jupiter Corporation** and released in Japan on December 14th 2001.
 
-{% include link-to-other-post.html post="/PokemonMini/" description="For more information about the Pokemon Mini check out this post." %}
+{% include link-to-other-post.html post="/PokemonMini" description="For more information about the Pokemon Mini check out this post." %}
 
 ---
 # Wonderswan (Bandai)
@@ -83,5 +83,5 @@ The Atari Lynx is a handheld gaming console released by Atari Corporation in Sep
 # Game Gear (SEGA)
 The Game Gear was a handheld gaming console that was released by SEGA in 1990, and was notable for its full-color backlit screen and library of classic SEGA games.
 
-{% include link-to-other-post.html post="/gamegear/" description="For more information about the Sega Game Gear check out this post." %}
+{% include link-to-other-post.html post="/gamegear" description="For more information about the Sega Game Gear check out this post." %}
 

@@ -14,6 +14,8 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo Wii
     url: /wii
   - name: Nintendo Wii Development Kit Hardware
@@ -44,7 +46,7 @@ You can read more about the NR Reader and other Gamecube development kit hardwar
  </div>
 </section> 
 
-{% include link-to-other-post.html post="/gamecube-development-kit-hardware/" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
+{% include link-to-other-post.html post="/gamecube-development-kit-hardware" description="For more information about the Nintendo Gamecube Development Kits check out this post." %}
 
 ---
 # RVT-001 - NDEV

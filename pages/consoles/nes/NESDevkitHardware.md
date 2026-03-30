@@ -12,6 +12,8 @@ permalink: /famicom-nes-development-kit
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo Entertainment System
     url: /nes
   - name: NES (Famicom) Development Kit Hardware

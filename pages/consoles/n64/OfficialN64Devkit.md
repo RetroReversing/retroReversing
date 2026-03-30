@@ -27,6 +27,8 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo 64
     url: /n64
   - name: Official Nintendo 64 (Ultra 64) Development Kit Hardware
@@ -295,12 +297,12 @@ Gerry also managed to get it up and running:
 ## Maestro64
 SN Systems also released an unofficial development kit created specifically for Musicians called the Maestro64, we have another post specifically for this piece of hardware.
 
-{% include link-to-other-post.html post="/maestro64/" description="For information about SN Systems's Maestro64 development cartridge check out this post." %}
+{% include link-to-other-post.html post="/maestro64" description="For information about SN Systems's Maestro64 development cartridge check out this post." %}
 
 ## Bung DoctorV64
 There was also a device created by Bung which advertised itself as a development kit but many consumers used it for backing up game cartridges. 
 
-{% include link-to-other-post.html post="/Bung-Doctor-v64/" description="For information about Bung's v64 development hardware check out this post." %}
+{% include link-to-other-post.html post="/Bung-Doctor-v64" description="For information about Bung's v64 development hardware check out this post." %}
 
 ## Rareware custom cartridges
 

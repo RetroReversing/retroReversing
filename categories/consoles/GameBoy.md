@@ -89,11 +89,11 @@ In August 2016 the website KZone started a full disassembly of the classic Game 
 ## Game Boy Development Kit Hardware
 Special hardware was sold directly from Nintendo in order to make it easy for third party developers to get started making their own games for the new handheld.
 
-{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information about the development hardware used for Game Boy projects check out this post." %}
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information about the development hardware used for Game Boy projects check out this post." %}
 
 ## Game Boy Software Development Kit
 Along with the hardware, Nintendo also provided a fairly limited software development kit, which contained tools such as z80 assemblers and linkers.
-{% include link-to-other-post.html post="/official-gameboy-software-dev-kit/" description="For more information about the SDK used to make Game Boy games check out this post." %}
+{% include link-to-other-post.html post="/official-gameboy-software-dev-kit" description="For more information about the SDK used to make Game Boy games check out this post." %}
 
 ---
 # Hardware

@@ -107,7 +107,7 @@ However looking closely at the keyboard and the PC we can see its a **Sony NEWS*
 ## Was there an official SDK?
 **Yes**, we have a separate page for the Official Super Nintendo Software Development kits:
 
-{% include link-to-other-post.html post="/super-famicom-snes-sdk/" description="For more information about the **Super Nintendo** software development kit check out this post" %}
+{% include link-to-other-post.html post="/super-famicom-snes-sdk" description="For more information about the **Super Nintendo** software development kit check out this post" %}
 
 ---
 ## ROM and RAM Mapping on the SNES
@@ -177,7 +177,7 @@ This segment of our guide will provide you with detailed information and resourc
 
 ## Development Kit Hardware
 We have a post all about the hardware that was used to develop for the Super Nintendo:
-{% include link-to-other-post.html post="/super-famicom-snes-development-kit/" description="For more information about the **Super Nintendo** development hardware check out this post" %}
+{% include link-to-other-post.html post="/super-famicom-snes-development-kit" description="For more information about the **Super Nintendo** development hardware check out this post" %}
 
 ---
 ## Retail Console Hardware

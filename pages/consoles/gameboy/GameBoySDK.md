@@ -26,7 +26,7 @@ updatedAt: '2020-01-11'
 
 # Official Game Boy Software Development Kit (by Intelligent Systems)
 The official Game Boy development kit was developed by Intelligent systems and sold with their development kit hardware such as the `DMG-ICE`. It evolved over time and added support for the Game Boy Color, eventually becoming the SDK shipped with the `IS-CGB-EMULATOR` hardware.
-{% include link-to-other-post.html post="/gameboy-development-kit-hardware/" description="For more information on the development hardware check out this post." %}
+{% include link-to-other-post.html post="/gameboy-development-kit-hardware" description="For more information on the development hardware check out this post." %}
 
 ## Using the SDK
 If you are interested in using the SDK to develop homebrew or to help reverse engineer a game that used the Official SDK then this section will guide you through some of the basics.

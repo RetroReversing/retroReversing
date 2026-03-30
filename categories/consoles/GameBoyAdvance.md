@@ -43,19 +43,19 @@ The GameBoy Advance uses a 32-bit RISC CPU (**ARM7TDMI**) running at 16.78 MHz k
 
 ---
 # Development Kits (Hardware)
-{% include link-to-other-post.html post="/game-boy-advance-development-kit/" description="For more information on the GBA Development Kit hardware check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-development-kit" description="For more information on the GBA Development Kit hardware check out this post." %}
 
 ---
 # Software Development Kits (SDK)
 
 ## Official SDK
-{% include link-to-other-post.html post="/game-boy-advance-sdk/" description="For more information on the Official GBA SDK check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk" description="For more information on the Official GBA SDK check out this post." %}
 
 ## Music Library (M4A)
-{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a/" description="For more information on the GBA Music SDK check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a" description="For more information on the GBA Music SDK check out this post." %}
 
 ## SDK Demos
-{% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information on the GBA SDK Demo games check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For more information on the GBA SDK Demo games check out this post." %}
 
 ---
 # Emulation

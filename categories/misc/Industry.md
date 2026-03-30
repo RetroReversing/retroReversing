@@ -144,7 +144,7 @@ There are a bunch of notable companies related to retro game development, many o
 ### Cross Products
 Cross Products was a British company specialized in creating development tools for game programming, founded in 1989 by **Ian Oliver** and **Andy Craven**. It was a collaborative venture between two UK game companies, Realtime Games Software and **Vektor Grafix**. Cross Products created cross-platform development tools and kits especially for consoles during the late 80s and early 90s.
 
-{% include link-to-other-post.html post="/companies/crossproducts/" description="For more information about Cross Products check out this post." %}
+{% include link-to-other-post.html post="/companies/crossproducts" description="For more information about Cross Products check out this post." %}
 
 ### SN Systems
 SN Systems is a company that specialised in creating development tools for game developers in the UK, it created development tools for Sega and Nintendo consoles but is most famous for their Sony PlayStation development tools like PSYQ.
@@ -158,7 +158,7 @@ There are a bunch of notable companies related to game hacking which not only wo
 ### Datel
 **Datel** is most famous for their **Action Replay** line of products but also created homebrew enablers for the Gamecube and Nintendo DS along with tons of unlicensed games and applications for a wide range of home consoles and handhelds.
 
-{% include link-to-other-post.html post="/companies/datel/" description="For more information about Datel check out this post." %}
+{% include link-to-other-post.html post="/companies/datel" description="For more information about Datel check out this post." %}
 
 
 ### Codemasters

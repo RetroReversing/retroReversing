@@ -264,7 +264,7 @@ The Sound developer's Manual is HTML-based documentation found in the **/AllManu
 
 The documentation for the Sound and Music library is covered in its own post specifically for this functionality, it is recommended you read it here:
 
-{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a/" description="For more information about the GBA Music Library check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-m4a" description="For more information about the GBA Music Library check out this post." %}
 
 ---
 ## Other Documentation (/AllManual/others)
@@ -286,7 +286,7 @@ This folder contains documentation for the demo Dolphin game included in the **/
 ### Yoshi Demo Documentation (/AllManual/others/demo/yoshi)
 This folder contains documentation for the Yoshi Demo project including the basics of how to play and the technology involved in its creation.
 
-{% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For more information about the GBA SDK Demos check out this post." %}
 
 ---
 ### Function Sample Documentation (/AllManual/others/func_sample)
@@ -1525,7 +1525,7 @@ The GBA SDK comes with source code for 2 demo games:
 * Dolphin - A demo similar to ecco the dolphin
 
 For more details on the two demos we have a separate post covering the details:
-{% include link-to-other-post.html post="/game-boy-advance-sdk-demos/" description="For more information about the GBA SDK Demos check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-demos" description="For more information about the GBA SDK Demos check out this post." %}
 
 ## SysCall Library Source Code (src/lib/syscall)
 The Assembly source code for the SysCall library is available in the **src/lib/syscall** folder of the GBA SDK and is available in two different formats:
@@ -1563,14 +1563,14 @@ ArcTan:			swi		9 // This calls software interupt number 9
 ## Sample Source Code (src/samples)
 The SDK also comes with 13 sample projects, each showing off a different feature of the GBA hardware, this section would be huge if we went into detail on this page, so we have split it out into its own page.
 
-{% include link-to-other-post.html post="/game-boy-advance-sdk-samples/" description="For more information about the Samples provided by the SDK check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-sdk-samples" description="For more information about the Samples provided by the SDK check out this post." %}
 
 
 ## Tool Source Code (src/bin)
 The Tool Source Code folder holds the source code for most of the standard GBA development tools that deal with image conversion, the pre-compiled tools are available in the **/bin** directory.
 
 If you are interested in going in depth into the source code for how these tools works then we have a separate post covering just that:
-{% include link-to-other-post.html post="/game-boy-advance-tool-source-code/" description="For more information about the GBA SDK Tool Source Code check out this post." %}
+{% include link-to-other-post.html post="/game-boy-advance-tool-source-code" description="For more information about the GBA SDK Tool Source Code check out this post." %}
 
 ---
 # GBA Compilers

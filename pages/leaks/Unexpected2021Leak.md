@@ -57,7 +57,7 @@ It was planned to be a Gamecube with support for standard DVD playback at a chea
 
 The contents of the **BB2.7z** archive are documented in a separate post which you can find a link to below.
 
-{% include link-to-other-post.html post="/ique-gamecube/" description="For more information about the planned Chinese Gamecube console check out this post." %}
+{% include link-to-other-post.html post="/ique-gamecube" description="For more information about the planned Chinese Gamecube console check out this post." %}
 
 ---
 # Pokemon Gen 4 Era Prototypes  (gen4_era_protos.7z)
@@ -246,10 +246,10 @@ The archive **DIAG4RVL.ZIP** contains the source code for the Internal Wii Diagn
 
 The contents of the **DIAG4RVL.ZIP** archive are documented in a separate post which you can find a link to below.
 
-{% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak/" description="For more information about the DIAG tool source code check out this post." %}
+{% include link-to-other-post.html post="/nintendo-wii-diag4rvl-leak" description="For more information about the DIAG tool source code check out this post." %}
 
 Also inside **DIAG4RVL.zip** was the source code to the SDK provided to Nintendo by ArtX/ATI when developing both the Gamecube and Wii graphics hardware, we have a post covering it linked below.
-{% include link-to-other-post.html post="/ati-low-level-wii-sdk/" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
+{% include link-to-other-post.html post="/ati-low-level-wii-sdk" description="For more information on the leaked low level ArtX/ATI SDK check out this post." %}
 
 ---
 # Murakawa Tsushin Hidemaru emails (teru-sama_mail_2006.7z)

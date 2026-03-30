@@ -70,7 +70,7 @@ Games for Nintendo's first console was almost exclusively written in 6502 assemb
 {% include link-to-other-site.html url="https://github.com/RetailGameSourceCode/HeroQuest" description="Unreleased NES game" image="https://upload.wikimedia.org/wikipedia/en/9/9e/Heroquest_C64_boxart.jpeg" title="Hero Quest"  %}
 
 ### Home Alone 2
-{% include link-to-other-post.html post="/home-alone-2-nes-source-code/" description="For more information on the Home Alone Famicom source code check out this post." %}
+{% include link-to-other-post.html post="/home-alone-2-nes-source-code" description="For more information on the Home Alone Famicom source code check out this post." %}
 
 ### John Smith Special Agent (aka James Bond Jr.`)
 {% include link-to-other-site.html url="https://shrigley.com/source_code_archive/" description="Source Code officially released by the developer Chris Shrigley" image="https://www.giantbomb.com/a/uploads/scale_medium/9/93770/2361885-nes_jamesbondjr.jpg" title="James Bond Jr"  %}

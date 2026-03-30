@@ -766,4 +766,4 @@ So the leak is valuable for more than just preserving one boot binary.
 It shows how Nintendo structured the logic behind Game Boy Color boot-time palette compatibility at a very low level.
 
 Now you might be interested in our post on the Game Boy Advance Boot ROM:
-{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository/" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}
+{% include link-to-other-post.html post="/game-boy-advance-boot-rom-repository" description="For the larger AGB monitor, startup, library, and tooling environment, check out the Game Boy Advance boot ROM page." %}

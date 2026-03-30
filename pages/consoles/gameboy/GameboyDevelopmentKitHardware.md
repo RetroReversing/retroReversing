@@ -16,6 +16,8 @@ editlink: /consoles/gameboy/GameboyDevelopmentKitHardware.md
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo Gameboy
     url: /gameboy
   - name: Gameboy (DMG & GBC) Development Kit Hardware
@@ -56,7 +58,7 @@ Its batch files and debugger script make the older workflow unusually legible:
 * `isd` launched the debugger session
 * `START.ICE` told the debugger to load `SGB_MAIN`, map `CHRDAT.COM` into bank 2 at `$4000`, and then run against the DMG ICE environment
 
-{% include link-to-other-post.html post="/super-game-boy-sdk/" description="For a concrete preserved example of the DMG ICE workflow in action, see the Super Game Boy sample package." %}
+{% include link-to-other-post.html post="/super-game-boy-sdk" description="For a concrete preserved example of the DMG ICE workflow in action, see the Super Game Boy sample package." %}
 
 
 ## IS-CGB-EMU (Nintendo Game Boy Color Emulator)

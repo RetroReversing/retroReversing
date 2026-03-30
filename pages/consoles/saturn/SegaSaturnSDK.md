@@ -23,7 +23,7 @@ updatedAt: '2019-11-05'
 ---
 The Sega Saturn Software Development Kit was available for both PC and SGI workstations and consisted of a number of libraries build in-house by Sega and a few custom 3rd party.
 
-{% include link-to-other-post.html post="/sega-saturn-programming-box/" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
+{% include link-to-other-post.html post="/sega-saturn-programming-box" description="For the hardware side of the Sega Saturn Development Kit check out this post." %}
 
 ---
 #  Compiler Toolchain
@@ -33,7 +33,7 @@ Cygnus Solutions were a company that sold GNU products with enterprise level sup
 
 Although the Cygnus Solutions compiler toolchain supports C++ it was recommended against it by Sega in their official FAQ released with the compilers due to the larger code size output compared to standard C.
 
-{% include link-to-other-post.html post="/sega-saturn-hitachi-compiler/" description="For more information on Hitachi Compiler for the Saturn check out this post." %}
+{% include link-to-other-post.html post="/sega-saturn-hitachi-compiler" description="For more information on Hitachi Compiler for the Saturn check out this post." %}
 
 ---
 # Documentation
@@ -253,7 +253,7 @@ Assembly source code for the Sega Saturn Sound driver interface.
 ---
 # Software for Designers
 The software for 2D/3D Artists, Designers and sound editors are covered in the following post:
-{% include link-to-other-post.html post="/sega-saturn-artist-tools/" description="For the artist tools used for Sega Saturn Development check out this post." %}
+{% include link-to-other-post.html post="/sega-saturn-artist-tools" description="For the artist tools used for Sega Saturn Development check out this post." %}
 
 
 ---

@@ -14,8 +14,10 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Nintendo 3DS (Citrus)
-    url: /ds
+    url: /3ds
   - name: Nintendo 3DS (Citrus) Development Kit Hardware
     url: #
 recommend:

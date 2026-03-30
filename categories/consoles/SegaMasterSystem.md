@@ -83,7 +83,7 @@ Thanks to a [Game SoundTracks](https://gstdaisuki.tumblr.com/post/74641670704798
 > The Sega development kit included a ZAX-ICE (In-Circuit Emulator), which plugged into an SMS where the Z80 cpu would be (the SMS top cover was removed in order to achieve that).
 
 We do have information about a third party development kit used for Master System development called the Krisalis development kit:
-{% include link-to-other-post.html post="/krisalis-development-kit-(sega)/" description="For more information on The Third Party Master System Development Hardware check out this post." %}
+{% include link-to-other-post.html post="/krisalis-development-kit-(sega)" description="For more information on The Third Party Master System Development Hardware check out this post." %}
 
 The Sega Game Gear was a very similar system so some of the development hardware for Game Gear was also used for Master System games, you can find out about Game Gear development hardware in the post below:
 

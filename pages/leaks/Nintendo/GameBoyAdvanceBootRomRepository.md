@@ -734,4 +734,4 @@ The pieces on disk point to:
 * internal graphics and compression tools
 * documentation tied to stack layout, joyboot, and SDK or toolchain context
 
-{% include link-to-other-post.html post="/game-boy-color-boot-rom-repository/" description="For the smaller and older-style CGB monitor build package, check out the Game Boy Color boot ROM page." %}
+{% include link-to-other-post.html post="/game-boy-color-boot-rom-repository" description="For the smaller and older-style CGB monitor build package, check out the Game Boy Color boot ROM page." %}

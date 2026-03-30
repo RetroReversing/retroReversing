@@ -772,7 +772,7 @@ The comments preserved in the file are unusually useful, because they show the k
 That tells us the editor was not only for placing single points or objects.
 It also had higher-level terrain and background editing tools, including shape-based fill or placement helpers.
 
-### What runed2.asm and the maped Files Add
+### What runed2.asm and the 'maped' Files Add
 If `runed.asm` and `runed1.asm` are the first editor family, `runed2.asm`, `maped3.asm`, and `maped4.asm` look like the heavier support side for the second one.
 
 `runed2.asm` exports low-level interaction routines like:
@@ -952,7 +952,7 @@ Together with `fileio.asm`, `fdcdrv.asm`, `sccdrv.asm`, `ppidrv.asm`, `condrv.as
 
 That part of the leak is broader than Mario Kart itself, so it now has its own article:
 
-{% include link-to-other-post.html post="/super-famicom-sfx-dos/" description="For a full breakdown of the SFX-DOS stack, the COP API, the file system layer, and the driver hardware, check out this post." %}
+{% include link-to-other-post.html post="/super-famicom-sfx-dos" description="For a full breakdown of the SFX-DOS stack, the COP API, the file system layer, and the driver hardware, check out this post." %}
 
 For Mario Kart specifically, the important takeaway is simple:
 

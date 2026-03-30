@@ -96,7 +96,7 @@ The hardware used to develop PlayStation 2 games was similar but had an increase
 
 Later in the PS2's lifetime SN Systems released a specific development kit for developing online multiplayer PS2 games compatible with the PS2 Modem called the Network Development Kit (NDK).
 
-{% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2/" description="For information about Network Development Kit development hardware check out this post." %}
+{% include link-to-other-post.html post="/sn-systems-network-development-kit-for-ps2" description="For information about Network Development Kit development hardware check out this post." %}
 
 ---
 ## Third Party Hardware
@@ -116,10 +116,10 @@ What would the Sony Playstation 2 be without its excellent line-up of games? It 
 An excellent way to start reverse engineering is to find games where the developers accidentally left the Debug symbols in the retail release of the game. This was surprisingly common in early PS2 games as the SDK didn't remove them when building the final executables. 
 These gives you access to all the original function and variables names that were used in the retail source code so are very valuable for reversers!
 
-{% include link-to-other-post.html post="/ps2-unstripped/" description="For a full list of PS2 games that have debug symbols check out this post." %}
+{% include link-to-other-post.html post="/ps2-unstripped" description="For a full list of PS2 games that have debug symbols check out this post." %}
 
 ## Playstation 2 Demos with Debug Symbols
-{% include link-to-other-post.html post="/ps2-demos/" description="For a full list of PS2 games that have debug symbols check out this post." %}
+{% include link-to-other-post.html post="/ps2-demos" description="For a full list of PS2 games that have debug symbols check out this post." %}
 
 ## Playstation 2 Exclusives
 The most valuable reverse engineering projects tend to be the **platform exclusives** that have never been re-released as these are the games that can benefit the most from enhancements on modern hardware.
@@ -132,7 +132,7 @@ Wikipedia maintains a list of games exclusive to the Playstation 2 - [PlayStatio
 ## Official Software development kit
 The Official Software development kit was developed by a partnership between SN Systems who are known for excellent 3rd party development kits and the Game Studio Psygnosis who are known for excellent quality games.
 
-{% include link-to-other-post.html post="/ps2-official-sdk/" description="For information about Sony's Playstation Two SDK check out this post." %}
+{% include link-to-other-post.html post="/ps2-official-sdk" description="For information about Sony's Playstation Two SDK check out this post." %}
 
 ### Emotion Engine Static Libraries
 The Playstation 2 Software Development kit included various statically compiled libraries that could be optionally included in your games, these ranged from vital (gcc runtime) to optional such as Multi-tap support.

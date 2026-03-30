@@ -49,7 +49,7 @@ If you are interested to see officially released or leaked source code for the N
 
 ### Home Alone NES Source Code
 The full source code for the NES game **Home Alone** was released online thats to the **Game History Org** and we have a specific post covering the details of the files included:
-{% include link-to-other-post.html post="/home-alone-2-nes-source-code/" description="For the official source code to Home Alone for the NES check out this post." %}
+{% include link-to-other-post.html post="/home-alone-2-nes-source-code" description="For the official source code to Home Alone for the NES check out this post." %}
 
 ---
 # Hardware
@@ -62,7 +62,7 @@ Since Nintendo were very new to the home video game market, they saw themselves 
 So they did not make a public NES development kit, so most third parties has to roll their own development kits.
 
 We have a specific post covering all the NES development kits that we know about here:
-{% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
+{% include link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## Retail NES Hardware
 If you're interested in learning more about the hardware architecture of the NES, we highly recommend checking out the post on **Copetti.org**. This website is dedicated to exploring the technical details of the NES hardware, including the CPU, PPU, and APU, as well as other components that make up the console. You'll find in-depth explanations of how each component works, as well as detailed schematics and diagrams that help illustrate the inner workings of the NES.
@@ -124,7 +124,7 @@ Some examples of the length of time it took to develop Nintendo Entertainment Sy
 The British company **Rare** made gaming history by becoming the first non-Japanese licensed game developer for the NES, securing the license from Nintendo through an ingenious demonstration of their skills by reverse engineering the console and showcasing the game "Slalom" as a convincing demo to Nintendo in 1986 [^3].
 
 They created their own development kits based on the PDS and you can find out more about it in our post on the NES Development Hardware:
-{% include link-to-other-post.html post="/famicom-nes-development-kit/" description="For information about Nintendo's Famicom development hardware check out this post." %}
+{% include link-to-other-post.html post="/famicom-nes-development-kit" description="For information about Nintendo's Famicom development hardware check out this post." %}
 
 ## What do we know about the Official Famicom SDK?
 The Official Famicom SDK was created by Nintendo and Intelligent Systems in 1986, as revealed by a file leaked in the Nintendo Gigaleaks. The file, called `HDT.EXE`, was included with the source code to the Game Boy Zelda game.

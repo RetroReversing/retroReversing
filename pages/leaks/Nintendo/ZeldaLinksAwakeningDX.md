@@ -414,7 +414,7 @@ Its `README.DOC` describes it as a standard Super Game Boy BIOS sample package, 
 
 It is better treated as a shared internal SDK or reference package that happened to be copied into the Zelda demo workspace.
 
-{% include link-to-other-post.html post="/super-game-boy-sdk/" description="For the full breakdown of the SGB sample package, its libraries, build flow, check out this post." %}
+{% include link-to-other-post.html post="/super-game-boy-sdk" description="For the full breakdown of the SGB sample package, its libraries, build flow, check out this post." %}
 
 ---
 ## Disk 1 Save Data Folders

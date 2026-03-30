@@ -14,6 +14,8 @@ permalink: /sega-mega-drive-genesis-development-kit
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Sega Mega Drives (Genesis)
     url: /mega-drive
   - name: Sega Mega Drive (Genesis) Development Kit Hardware

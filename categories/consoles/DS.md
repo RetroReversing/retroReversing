@@ -48,7 +48,7 @@ Tinke is an open source application that can be used to open Nintendo DS games a
 
 ---
 # Development Kits (Hardware)
-{% include link-to-other-post.html post="/nintendo-ds-development-kit/" description="For more information on the NDS Development Kit hardware check out this post." %}
+{% include link-to-other-post.html post="/nintendo-ds-development-kit" description="For more information on the NDS Development Kit hardware check out this post." %}
 
 ---
 # Software Development Kits (SDK)

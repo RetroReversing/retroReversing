@@ -66,7 +66,7 @@ In this section of our guide, we will provide you with detailed information and 
 ## Development Hardware
 In order for game developers to create software for the SEGA Mega Drive, they had the choice of a number of different development hardware to purchase, or they could go it alone and create their own hardware. To find out more check out the post below.
 
-{% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit/" description="For information about SEGA's Mega Drive development hardware check out this post." %}
+{% include link-to-other-post.html post="/sega-mega-drive-genesis-development-kit" description="For information about SEGA's Mega Drive development hardware check out this post." %}
 
 ## Sega Digitizer System
 The Sega Digitizer System was a development kit specifically for creating sprites and background tiles officially inside SEGA. It is unclear if they ever sold the system to third party developers. It required a **NEC PC-98** for development which was the ideal choice for many game developers in japan.

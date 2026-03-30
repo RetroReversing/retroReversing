@@ -14,6 +14,8 @@ redirect_from:
 breadcrumbs:
   - name: Home
     url: /
+  - name: Dev Kits
+    url: /hardware/devkits
   - name: Microsoft Xbox
     url: /xbox
   - name: Microsoft Xbox (Original) Development Kit Hardware

@@ -28,7 +28,7 @@ This page covers the main file formats that show up in official Nintendo Game Bo
 
 After looking through the Zelda DX source leak and the Super Game Boy sample package, we can now describe several of these formats much more confidently.
 
-{% include link-to-other-post.html post="/super-game-boy-sdk/" description="For a compact sample project that shows many of these formats in practice, see the Super Game Boy SDK sample preserved in the Nintendo leak." %}
+{% include link-to-other-post.html post="/super-game-boy-sdk" description="For a compact sample project that shows many of these formats in practice, see the Super Game Boy SDK sample preserved in the Nintendo leak." %}
 
 ---
 ## ROM and Debug Images

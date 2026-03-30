@@ -38,7 +38,7 @@ Wheras the more complete version also contains the ProDG installers and addition
 Later versions of the SDK included the ProDG development kit provided by SN Systems, which provided a way to compile PSP games using Visual Studio 2005/2008/.NET as an alternative to the Cygwin (unix like) development environment provided in the rest of the SDK.
 
 For information on the ProDG SDK we have a separate post:
-{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information check out this post." %}
 
 ---
 # High Level Documentation (/Docs)
@@ -60,7 +60,7 @@ The contents of the **SNTools** folder will not be discussed in this post as we 
 </section>  
 
 
-{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk/" description="For more information check out this post." %}
+{% include link-to-other-post.html post="/sn-systems-pro-dg-psp-sdk" description="For more information check out this post." %}
 
 
 The files in this folder are described in the table below:
