@@ -8,9 +8,9 @@
             <a href="/" class="logo">Retro Reversing</a>
             <nav class="nav">
               <ul>
-                <li >
+                <!-- <li >
                   <a href="/">Home</a>       
-                </li>
+                </li> -->
                 <!-- <li class="has-dropdown mega-menu mega-games">
                   <a href="/consoles">Games</a>
                   <ul>
@@ -307,6 +307,12 @@
             </nav>
           </div>
           <div class="navbar-right">
+            <form id="desktop-search-form" class="navbar-search-inline" action="/" method="get" role="search" autocomplete="off">
+              <input type="text" class="form-control" id="desktop-search-input" name="q" placeholder="Search topics..." autocomplete="off" aria-label="Search topics">
+              <button type="submit" class="navbar-search-inline-button" aria-label="Search">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
             <a href="#" data-toggle="search"><i class="fa fa-search"></i></a>
           </div>
         </div>

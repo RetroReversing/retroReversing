@@ -7,9 +7,21 @@
   'use strict';
 
   let fuse = null;
+  const desktopSearchForm = document.getElementById('desktop-search-form');
+  const desktopSearchInput = document.getElementById('desktop-search-input');
+  const headerEl = document.getElementById('header');
   const searchInput = document.getElementById('search-input');
   const searchResults = document.getElementById('search-results');
   const searchResultsList = document.getElementById('search-results-list');
+
+  function getRelatedResultsUrl(query) {
+    const normalized = query
+      .trim()
+      .replace(/\s+/g, '-')
+      .replace(/^-+|-+$/g, '');
+
+    return '/' + encodeURIComponent(normalized);
+  }
 
   // Initialize search when the page loads
   function initSearch() {
@@ -85,6 +97,19 @@
     return div.innerHTML;
   }
 
+  function syncSearchInputsFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const query = (params.get('q') || '').trim();
+
+    if (query && desktopSearchInput) {
+      desktopSearchInput.value = query;
+    }
+  }
+
+  function updateInlineSearchVisibility() {
+    // Inline search is now forced visible via CSS.
+  }
+
   // Event listeners
   if (searchInput) {
     // Search as user types (with debounce)
@@ -106,7 +131,22 @@
     }
   }
 
+  if (desktopSearchForm && desktopSearchInput) {
+    desktopSearchForm.addEventListener('submit', function (e) {
+      const query = desktopSearchInput.value.trim();
+
+      if (!query) {
+        e.preventDefault();
+        return;
+      }
+
+      e.preventDefault();
+      window.location.href = getRelatedResultsUrl(query);
+    });
+  }
+
   // Initialize on page load
   initSearch();
+  syncSearchInputsFromUrl();
 
 })();

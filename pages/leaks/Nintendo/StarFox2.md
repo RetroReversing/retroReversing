@@ -14,7 +14,13 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Star Fox 2 Source Code (SNES)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Original Star Fox 2 Source Code
     url: #
 recommend:
 - snes

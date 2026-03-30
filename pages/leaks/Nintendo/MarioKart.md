@@ -14,14 +14,20 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Super Mario Kart Source Code (SNES)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Original Super Mario Kart Source Code
     url: #
 recommend:
 - snes
 - leak
 - sourcecode
 editlink: /leaks/Nintendo/MarioKart.md
-updatedAt: '2026-03-29'
+updatedAt: '2026-03-30'
 ---
 
 The Nintendo Gigaleak preserves a very substantial Super Mario Kart source archive under `other/SFC/ソースデータ/MarioKart`.
@@ -30,6 +36,7 @@ Unlike the F-Zero leak, this is not neatly split into `Game` and `Tools`.
 It looks much more like a live working directory copied straight out of development, with assembly source, prebuilt `.rel` objects, regional variants, editor code, backup-RAM routines, and even Super Famicom disk support code all sitting side by side.
 
 {% include link-to-other-post.html post="/gigaleak" description="For more information on the rest of the Gigaleak check out this post." %}
+{% include link-to-other-post.html post="/gigaleak-news-04" description="For workstation-side Super Mario Kart art, Mode 7 map tables, and localization assets from Sugiyama's CAR branch, see the NEWS_04 deep-dive." %}
 
 ---
 ## At a Glance

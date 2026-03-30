@@ -14,7 +14,13 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Super Mario Collection / All-Stars Source Code (SNES)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Original Super Mario Collection / All-Stars Source Code
     url: #
 recommend:
 - snes
@@ -785,6 +791,8 @@ They also hint that the visible `mn_hp_mr3*.asm` files were living alongside a p
 Unlike `mario_n1` and `mario_n2`, `mario_n3` does not preserve its linked outputs in this export.
 So this folder feels more like a source-side slice of one subsystem than a full branch capture.
 
+{% include link-to-other-post.html post="/super-mario-collection-mario-n3-mario-3-branch" description="For a dedicated deep dive into the preserved mario_n3 Mario 3 source slice, check out this post." %}
+
 ---
 ## How the Branches Fit Together
 Once the four folders are read side by side, the overall structure is much clearer.
@@ -1076,6 +1084,8 @@ We now know not only that they existed, but roughly how they were modularized an
 {% include link-to-other-post.html post="/super-mario-collection-mario-n4-world-branch" description="For a deeper reconstruction of the missing World-era mario_n4 branch, check out this post." %}
 
 {% include link-to-other-post.html post="/super-mario-collection-mario-nu-branch" description="For a deeper reconstruction of the missing mario_nu branch, check out this post." %}
+
+{% include link-to-other-post.html post="/super-mario-collection-asm0-shared-assets" description="For a deeper reconstruction of the missing shared asm0 asset staging folder, check out this post." %}
 
 So the export we have is not just missing "some folders".
 It is missing the rest of a wider branch-and-asset workspace that the surviving scripts still clearly expect to be present.

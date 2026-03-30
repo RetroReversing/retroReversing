@@ -1,4 +1,60 @@
 /* Search Results Styling */
+.navbar-search-inline {
+  display: block;
+  position: relative;
+  margin: 0 12px 0 0;
+  width: clamp(160px, 18vw, 260px);
+  min-width: 0;
+  flex: 0 1 auto;
+  align-self: center;
+}
+
+.navbar-search-inline .form-control {
+  height: 38px;
+  padding-right: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.navbar-search-inline .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.navbar-search-inline .form-control:focus {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.35);
+  color: #fff;
+  box-shadow: none;
+}
+
+.navbar-search-inline,
+.navbar-search-inline .form-control,
+#desktop-search-form {
+  margin-bottom: 0;
+}
+
+.navbar-search-inline-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.navbar-search-inline-button:hover {
+  color: #fff;
+}
+
+body.header-inline-search-enabled #header .navbar-right > a[data-toggle="search"],
+#header .navbar-right > a[data-toggle="search"] {
+  display: none;
+}
+
 #search-results {
   background: #fff;
   border: 1px solid #ddd;

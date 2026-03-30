@@ -12,7 +12,13 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Game Boy Color Boot ROM Repository
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Game Boy Color Boot ROM Repository
     url: #
 recommend:
 - gameboy

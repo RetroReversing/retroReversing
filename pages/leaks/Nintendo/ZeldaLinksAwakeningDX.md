@@ -14,7 +14,13 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Zelda Links Awakening DX Source Code (CGB)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Zelda Links Awakening DX Source Code
     url: #
 recommend:
  - gameboy

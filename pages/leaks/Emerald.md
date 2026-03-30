@@ -12,6 +12,10 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
   - name: Nintendo Emerald Leak 
     url: #
 recommend: 

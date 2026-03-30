@@ -5,23 +5,29 @@ tags:
 - leak
 - sourcecode
 title: Original Wild Trax / Stunt Race FX Source Code (Gigaleak)
-category: leak
-image: /public/images/snes/Gigaleak.jpg
-twitterimage: https://www.retroreversing.com/public/images/snes/Gigaleak.jpg
+category: 
+- leak
+- snes
 permalink: /wild-trax-source-code
 breadcrumbs:
   - name: Home
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Wild Trax / Stunt Race FX Source Code (SNES)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Original Wild Trax / Stunt Race FX Source Code
     url: #
 recommend:
 - snes
 - leak
 - sourcecode
 editlink: /leaks/Nintendo/WildTrax.md
-updatedAt: '2026-03-29'
+updatedAt: '2026-03-30'
 ---
 
 The Nintendo Gigaleak preserves a large Super Famicom source tree under `other/SFC/ソースデータ/ワイルドトラックス`.
@@ -31,6 +37,7 @@ What makes the archive especially useful is that it does not look like a neat fi
 It looks like a real working 1993 [Super FX](#glossary-superfx) tree, with banked assembly, compressed asset bundles, map scripts, sound binaries, and a lot of older Argonaut and Star Fox naming still left in place.
 
 {% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak and the other Nintendo source-code drops, check out this post." %}
+{% include link-to-other-post.html post="/gigaleak-news-04" description="For Sugiyama's FX2 workstation-side art branch and related pre-release context, see the NEWS_04 deep-dive." %}
 
 ---
 ## At a Glance

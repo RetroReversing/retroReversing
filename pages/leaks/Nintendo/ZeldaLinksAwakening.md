@@ -14,7 +14,13 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
-  - name: Gigaleak - Original Zelda Links Awakening Source Code (DMG)
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
+  - name: Original Zelda Links Awakening Source Code
     url: #
 recommend:
  - gameboy

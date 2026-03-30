@@ -11,9 +11,13 @@ permalink: /gigaleak2
 breadcrumbs:
   - name: Home
     url: /
-  - name: Nintendo 64
-    url: /n64
-  - name: Gigaleak 2 Electric Boogaloo - N64 Source Code Leak 
+  - name: Source Code
+    url: /sourcecode
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak 2
     url: #
 recommend: n64
 editlink: /consoles/n64/Gigaleak2.md

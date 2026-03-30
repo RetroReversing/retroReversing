@@ -14,6 +14,10 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
   - name: The Unexpected Nintendo Leak of 2021
     url: #
 recommend: 

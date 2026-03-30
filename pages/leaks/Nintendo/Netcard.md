@@ -14,6 +14,12 @@ breadcrumbs:
     url: /
   - name: Source Code
     url: /sourcecode
+  - name: Leaks
+    url: /leaks
+  - name: Nintendo Leaks
+    url: /nintendoleaks
+  - name: Gigaleak
+    url: /gigaleak
   - name: Netcard - Cancelled GBA Online Peripheral
     url: #
 recommend:
@@ -87,3 +93,13 @@ Because this Netcard infrastructure required constant server-side connectivity a
 1. **Disabled Hatching System** - You could not hatch eggs offline.
 2. **Restricted PC Storage** - Players could only access exactly 36 Pokémon in offline mode (6 in the party, and exactly 30 stored in a single PC box). The rest were likely intended to be securely stored online on the IDC Linux servers to prevent offline cheating modification.
 3. **Disabled Local Wireless** - Despite keeping Link Cable trades functional, the standard wireless Union Room was actively disabled offline to push players exclusively towards the new 3F Online Communication Lobby.
+
+---
+## The Fate of VNG (gba.tar)
+The 2.3 GB `gba.tar` archive included in the `netcard` folder has often been confusingly labelled as a GBA-focused SDK archive due to its placement. However, examining its internal file tree reveals an incredible twist in Nintendo's history!
+
+The massive repository does *not* contain standard GBA tools. It is an offline subversion depot (`depot-offline/sw/`) specifically containing the networking source code for **TWL** (Nintendo DSi), **RVL** (Nintendo Wii), and **IOS** (the Wii's Internal Operating System/eTicket system). 
+
+Crucially, inside `depot-offline/sw/common/lib/p2p/api/`, the archive explicitly preserves `vng_api.c`. This reveals that BroadOn's ambitious `VNG` matchmaking and networking API—originally conceptualized in 2004 exclusively for the Game Boy Advance Netcard connection—did not die with the project's cancellation!
+
+Instead, BroadOn took the underlying topology of the VNG Matchmaking API, massively scaled it up, and integrated it directly into the Nintendo Wii (RVL) and DSi (TWL) base operating systems to power the `es` (eTicket/eShop) networking infrastructure. The cancelled GBA Pokemon offline networking project directly laid the technical foundation for Nintendo's very first modern digital storefronts!

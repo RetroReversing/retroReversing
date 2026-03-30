@@ -10,6 +10,10 @@ permalink: /nintendo-hidemaru-mail-leak
 breadcrumbs:
   - name: Home
     url: /
+  - name: Source Code
+    url: /sourcecode
+  - name: Leaks
+    url: /leaks
   - name: Nintendo Leaks
     url: /nintendoleaks
   - name: Nintendo Hidemaru Mail Leak
