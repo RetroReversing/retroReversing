@@ -4,7 +4,13 @@ Parameters:
 * post - The Post (Page) that this is a placeholder thumbnail image for
 {% endcomment %}
 {% if include.post.title %}
-  {% assign placeholder_category = include.post.category | default: include.post.console | default: include.post.categories.first %}
+  {% assign placeholder_category_raw = include.post.category | default: include.post.console | default: include.post.categories.first %}
+  {% assign placeholder_category_json = placeholder_category_raw | jsonify %}
+  {% if placeholder_category_json contains '[' %}
+    {% assign placeholder_category = placeholder_category_raw | first %}
+  {% else %}
+    {% assign placeholder_category = placeholder_category_raw %}
+  {% endif %}
   {% assign placeholder_category_image = site.category_images[placeholder_category] %}
   <div class="geopattern rr-placeholder-post-image" data-title="{{ include.post.title }}">
     <img class="lazy-load rr-placeholder-post-image__logo" data-image-full="/public/images/RRPlaceholder.jpg" alt="{{ include.post.title }}" />

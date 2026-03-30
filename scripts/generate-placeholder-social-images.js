@@ -231,20 +231,74 @@ function getCategoryImageLayout(categoryImagePath) {
     };
 }
 
-function resolveCategory(metadata) {
+function getCategoryImageLayouts(categoryImagePaths = []) {
+    const usablePaths = categoryImagePaths.filter(Boolean);
+
+    if (usablePaths.length === 2) {
+        const lowerPanel = {
+            x: 0,
+            y: 205,
+            width: 1200,
+            height: 425
+        };
+        const horizontalGap = 72;
+        const slotWidth = (lowerPanel.width - horizontalGap) / 2;
+        const slotHeight = lowerPanel.height - 20;
+
+        return usablePaths.map((imagePath, index) => {
+            const slotX = lowerPanel.x + (index * (slotWidth + horizontalGap));
+            const slotY = lowerPanel.y + 10;
+            const dimensions = getImageDimensions(imagePath);
+
+            if (!dimensions) {
+                const fallbackWidth = Math.min(slotWidth * 0.82, 420);
+                const fallbackHeight = Math.min(slotHeight * 0.88, 320);
+                return {
+                    x: slotX + ((slotWidth - fallbackWidth) / 2),
+                    y: slotY + ((slotHeight - fallbackHeight) / 2),
+                    width: fallbackWidth,
+                    height: fallbackHeight
+                };
+            }
+
+            const fittedScale = Math.min(
+                (slotWidth * 0.88) / dimensions.width,
+                (slotHeight * 0.88) / dimensions.height
+            );
+            const renderedWidth = dimensions.width * fittedScale;
+            const renderedHeight = dimensions.height * fittedScale;
+
+            return {
+                x: slotX + ((slotWidth - renderedWidth) / 2),
+                y: slotY + ((slotHeight - renderedHeight) / 2),
+                width: renderedWidth,
+                height: renderedHeight
+            };
+        });
+    }
+
+    return [getCategoryImageLayout(usablePaths[0] || '')];
+}
+
+function resolveCategories(metadata) {
     if (metadata.category) {
-        return metadata.category;
+        if (Array.isArray(metadata.category) && metadata.category.length > 0) {
+            return metadata.category.filter(Boolean);
+        }
+        if (typeof metadata.category === 'string' && metadata.category) {
+            return [metadata.category];
+        }
     }
     if (metadata.console) {
-        return metadata.console;
+        return [metadata.console];
     }
     if (Array.isArray(metadata.categories) && metadata.categories.length > 0) {
-        return metadata.categories[0];
+        return [metadata.categories[0]];
     }
     if (typeof metadata.categories === 'string' && metadata.categories) {
-        return metadata.categories;
+        return [metadata.categories];
     }
-    return 'Reverse Engineering';
+    return ['Reverse Engineering'];
 }
 
 function wrapTitle(title, maxLineLength = 31, maxLines = 3) {
@@ -321,18 +375,21 @@ function buildGeoPatternSvg(seed) {
     }
 }
 
-function buildSvg({ title, category, categoryImagePath, seed }) {
+function buildSvg({ title, categories, categoryImagePaths, seed }) {
     const titleLines = wrapTitle(title);
     const titleY = titleLines.length === 1 ? 116 : 108;
-    const categoryText = category ? category.replace(/-/g, ' ').toUpperCase() : '';
-    const categoryImageHref = fileToDataUri(categoryImagePath);
+    const categoryText = categories
+        .slice(0, 2)
+        .map((category) => String(category).replace(/-/g, ' ').toUpperCase())
+        .join(' • ');
+    const categoryImageHrefs = categoryImagePaths.map((categoryImagePath) => fileToDataUri(categoryImagePath));
     const logoImageHref = fileToDataUri(RR_LOGO_IMAGE);
     const geoPatternSvg = buildGeoPatternSvg(seed);
     const geoPatternHref = geoPatternSvg
         ? `data:image/svg+xml;base64,${Buffer.from(geoPatternSvg).toString('base64')}`
         : '';
     const textX = 160;
-    const categoryImageLayout = getCategoryImageLayout(categoryImagePath);
+    const categoryImageLayouts = getCategoryImageLayouts(categoryImagePaths);
 
     const titleTspans = titleLines
         .slice(0,2)
@@ -342,9 +399,16 @@ function buildSvg({ title, category, categoryImagePath, seed }) {
     const barHeight = titleLines.length === 1 ? 150 : 205;
     const logoYOffset = titleLines.length === 1 ? 16 : 36;
 
-    const categoryImageMarkup = categoryImageHref
-        ? `<image href="${categoryImageHref}" x="${categoryImageLayout.x}" y="${categoryImageLayout.y}" width="${categoryImageLayout.width}" height="${categoryImageLayout.height}" preserveAspectRatio="xMidYMid meet" />`
-        : '';
+    const categoryImageMarkup = categoryImageHrefs
+        .map((categoryImageHref, index) => {
+            if (!categoryImageHref || !categoryImageLayouts[index]) {
+                return '';
+            }
+
+            const categoryImageLayout = categoryImageLayouts[index];
+            return `<image href="${categoryImageHref}" x="${categoryImageLayout.x}" y="${categoryImageLayout.y}" width="${categoryImageLayout.width}" height="${categoryImageLayout.height}" preserveAspectRatio="xMidYMid meet" />`;
+        })
+        .join('');
 
     return `<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
@@ -457,11 +521,15 @@ function main() {
             continue;
         }
 
-        const category = resolveCategory(metadata);
-        const categoryImageRelativePath = categoryImages[category];
-        const categoryImagePath = categoryImageRelativePath
-            ? path.join(ROOT_DIR, categoryImageRelativePath.replace(/^\//, ''))
-            : '';
+        const categories = resolveCategories(metadata).slice(0, 2);
+        const categoryImagePaths = categories
+            .map((category) => {
+                const categoryImageRelativePath = categoryImages[category];
+                return categoryImageRelativePath
+                    ? path.join(ROOT_DIR, categoryImageRelativePath.replace(/^\//, ''))
+                    : '';
+            })
+            .filter(Boolean);
 
         const outputPaths = buildOutputPath(metadata.permalink);
         const inputTimestamp = getInputTimestamp(filePath, CONFIG_PATH);
@@ -481,8 +549,8 @@ function main() {
 
         const svgContent = buildSvg({
             title: metadata.shorttitle || metadata.title,
-            category,
-            categoryImagePath,
+            categories,
+            categoryImagePaths,
             seed
         });
 

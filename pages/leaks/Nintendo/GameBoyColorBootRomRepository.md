@@ -2,7 +2,6 @@
 layout: post
 tags:
 - gameboy
-- cgb
 - leak
 - sourcecode
 title: Gigaleak - Game Boy Color Boot ROM Repository
@@ -17,8 +16,8 @@ breadcrumbs:
     url: #
 recommend:
 - gameboy
-- cgb
 - leak
+- gba
 editlink: /leaks/Nintendo/GameBoyColorBootRomRepository.md
 updatedAt: '2026-03-29'
 ---

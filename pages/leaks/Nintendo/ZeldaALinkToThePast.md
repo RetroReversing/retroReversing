@@ -4,9 +4,10 @@ tags:
 - snes
 - leak
 - sourcecode
-- zelda
 title: Original The Legend of Zelda - A Link to the Past Source Code (Gigaleak)
-category: snes
+category: 
+- snes
+- leak
 permalink: /zelda-a-link-to-the-past-source-code
 breadcrumbs:
   - name: Home
@@ -19,7 +20,6 @@ recommend:
 - snes
 - leak
 - sourcecode
-- zelda
 editlink: /leaks/Nintendo/ZeldaALinkToThePast.md
 updatedAt: '2026-03-29'
 ---

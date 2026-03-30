@@ -4,9 +4,10 @@ tags:
 - snes
 - leak
 - sourcecode
-- yoshi
 title: Original Yoshi's Island Source Code (Gigaleak)
-category: leak
+category: 
+- leak
+- snes
 permalink: /yoshis-island-source-code
 breadcrumbs:
   - name: Home

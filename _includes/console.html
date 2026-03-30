@@ -1,8 +1,21 @@
 <div class="console-pages">
 {% assign page_category = page.category | default: page.console %}
+{% assign page_category_json = page_category | jsonify %}
   
 {% for post in site.pages %}
-  {% if page_category and post.tags contains page_category and post.url != page.url %}
+  {% assign include_post = false %}
+  {% if page_category_json contains '[' %}
+    {% for category in page_category %}
+      {% if category and post.tags contains category %}
+        {% assign include_post = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% elsif page_category and post.tags contains page_category %}
+    {% assign include_post = true %}
+  {% endif %}
+
+  {% if include_post and post.url != page.url %}
   
   <div class="console-page-post">
       {% include post-list-cards.html %}

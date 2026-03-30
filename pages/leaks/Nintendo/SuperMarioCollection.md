@@ -4,9 +4,10 @@ tags:
 - snes
 - leak
 - sourcecode
-- mario
 title: Original Super Mario Collection / All-Stars Source Code (Gigaleak)
-category: leak
+category: 
+- leak
+- snes
 permalink: /super-mario-collection-source-code
 breadcrumbs:
   - name: Home
@@ -19,7 +20,6 @@ recommend:
 - snes
 - leak
 - sourcecode
-- mario
 editlink: /leaks/Nintendo/SuperMarioCollection.md
 updatedAt: '2026-03-29'
 ---
