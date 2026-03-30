@@ -4520,10 +4520,10 @@ input[type="file"] {
 
 .card .card-img img {
   max-width: 100%;
-  height: 150px;
+  height: 180px;
   width:100%;
   background-color: lightgrey;
-  min-height: 150px;
+  min-height: 180px;
   min-width: 100%;
 }
 
@@ -6535,7 +6535,7 @@ div.dataTables_wrapper div.dataTables_length select {
 }
 
 .post-review .post-thumbnail {
-  width: 150px;
+  width: 180px;
 }
 
 .post-review .post-thumbnail a {

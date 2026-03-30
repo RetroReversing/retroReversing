@@ -15,6 +15,10 @@ try {
 const ROOT_DIR = path.resolve(__dirname, '..');
 const CONTENT_DIRECTORIES = ['pages', 'categories'];
 const OUTPUT_DIRECTORY = path.join(ROOT_DIR, 'public', 'generated', 'placeholders');
+
+// New image dimensions
+const IMAGE_WIDTH = 1280;
+const IMAGE_HEIGHT = 720;
 const CONFIG_PATH = path.join(ROOT_DIR, '_config.yml');
 const RR_LOGO_IMAGE = path.join(ROOT_DIR, 'public', 'images', 'RetroReversingLogo.png');
 const RSVG_CONVERT_PATH = findExecutable('rsvg-convert');
@@ -146,16 +150,13 @@ function getImageDimensions(filePath) {
     if (!filePath || !fs.existsSync(filePath)) {
         return null;
     }
-
     if (imageDimensionCache.has(filePath)) {
         return imageDimensionCache.get(filePath);
     }
-
     try {
         const output = execFileSync('sips', ['-g', 'pixelWidth', '-g', 'pixelHeight', filePath], { stdio: 'pipe' }).toString('utf8');
         const widthMatch = output.match(/pixelWidth:\s+(\d+)/);
         const heightMatch = output.match(/pixelHeight:\s+(\d+)/);
-
         if (widthMatch && heightMatch) {
             const dimensions = {
                 width: Number(widthMatch[1]),
@@ -164,10 +165,7 @@ function getImageDimensions(filePath) {
             imageDimensionCache.set(filePath, dimensions);
             return dimensions;
         }
-    } catch (error) {
-        // Fall through to identify.
-    }
-
+    } catch (error) {}
     try {
         const output = execFileSync('identify', ['-format', '%w %h', filePath], { stdio: 'pipe' }).toString('utf8').trim();
         const [width, height] = output.split(/\s+/).map(Number);
@@ -176,39 +174,34 @@ function getImageDimensions(filePath) {
             imageDimensionCache.set(filePath, dimensions);
             return dimensions;
         }
-    } catch (error) {
-        // Leave uncached so future runs can retry.
-    }
-
+    } catch (error) {}
     return null;
 }
 
 function getCategoryImageLayout(categoryImagePath) {
     const lowerPanel = {
         x: 0,
-        y: 205,
-        width: 1200,
-        height: 425
+        y: 234,
+        width: IMAGE_WIDTH,
+        height: 486
     };
     const baselineMaxSize = {
-        width: 600,
-        height: 350
-    };
-    const maxSize = {
-        width: 900,
+        width: 640,
         height: 400
     };
+    const maxSize = {
+        width: 960,
+        height: 456
+    };
     const dimensions = getImageDimensions(categoryImagePath);
-
     if (!dimensions) {
         return {
-            x: 225,
-            y: 215,
-            width: 750,
-            height: 405
+            x: 255,
+            y: 244,
+            width: 770,
+            height: 462
         };
     }
-
     const baselineScale = Math.min(
         baselineMaxSize.width / dimensions.width,
         baselineMaxSize.height / dimensions.height
@@ -219,10 +212,8 @@ function getCategoryImageLayout(categoryImagePath) {
         maxSize.width / dimensions.width,
         maxSize.height / dimensions.height
     );
-
     const renderedWidth = dimensions.width * fittedScale;
     const renderedHeight = dimensions.height * fittedScale;
-
     return {
         x: lowerPanel.x + ((lowerPanel.width - renderedWidth) / 2),
         y: lowerPanel.y + ((lowerPanel.height - renderedHeight) / 2),
@@ -233,26 +224,23 @@ function getCategoryImageLayout(categoryImagePath) {
 
 function getCategoryImageLayouts(categoryImagePaths = []) {
     const usablePaths = categoryImagePaths.filter(Boolean);
-
     if (usablePaths.length === 2) {
         const lowerPanel = {
             x: 0,
-            y: 205,
-            width: 1200,
-            height: 425
+            y: 234,
+            width: IMAGE_WIDTH,
+            height: 486
         };
-        const horizontalGap = 72;
+        const horizontalGap = 82;
         const slotWidth = (lowerPanel.width - horizontalGap) / 2;
         const slotHeight = lowerPanel.height - 20;
-
         return usablePaths.map((imagePath, index) => {
             const slotX = lowerPanel.x + (index * (slotWidth + horizontalGap));
             const slotY = lowerPanel.y + 10;
             const dimensions = getImageDimensions(imagePath);
-
             if (!dimensions) {
-                const fallbackWidth = Math.min(slotWidth * 0.82, 420);
-                const fallbackHeight = Math.min(slotHeight * 0.88, 320);
+                const fallbackWidth = Math.min(slotWidth * 0.82, 480);
+                const fallbackHeight = Math.min(slotHeight * 0.88, 365);
                 return {
                     x: slotX + ((slotWidth - fallbackWidth) / 2),
                     y: slotY + ((slotHeight - fallbackHeight) / 2),
@@ -260,14 +248,12 @@ function getCategoryImageLayouts(categoryImagePaths = []) {
                     height: fallbackHeight
                 };
             }
-
             const fittedScale = Math.min(
                 (slotWidth * 0.88) / dimensions.width,
                 (slotHeight * 0.88) / dimensions.height
             );
             const renderedWidth = dimensions.width * fittedScale;
             const renderedHeight = dimensions.height * fittedScale;
-
             return {
                 x: slotX + ((slotWidth - renderedWidth) / 2),
                 y: slotY + ((slotHeight - renderedHeight) / 2),
@@ -276,7 +262,6 @@ function getCategoryImageLayouts(categoryImagePaths = []) {
             };
         });
     }
-
     return [getCategoryImageLayout(usablePaths[0] || '')];
 }
 
@@ -377,7 +362,7 @@ function buildGeoPatternSvg(seed) {
 
 function buildSvg({ title, categories, categoryImagePaths, seed }) {
     const titleLines = wrapTitle(title);
-    const titleY = titleLines.length === 1 ? 116 : 108;
+    const titleY = titleLines.length === 1 ? 132 : 123;
     const categoryText = categories
         .slice(0, 2)
         .map((category) => String(category).replace(/-/g, ' ').toUpperCase())
@@ -388,44 +373,43 @@ function buildSvg({ title, categories, categoryImagePaths, seed }) {
     const geoPatternHref = geoPatternSvg
         ? `data:image/svg+xml;base64,${Buffer.from(geoPatternSvg).toString('base64')}`
         : '';
-    const textX = 160;
+    const textX = 171;
     const categoryImageLayouts = getCategoryImageLayouts(categoryImagePaths);
 
     const titleTspans = titleLines
-        .slice(0,2)
-        .map((line, index) => `<tspan x="${textX}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`)
+        .slice(0, 2)
+        .map((line, index) => `<tspan x="${textX}" dy="${index === 0 ? 0 : 66}">${escapeXml(line)}</tspan>`)
         .join('');
 
-    const barHeight = titleLines.length === 1 ? 150 : 205;
-    const logoYOffset = titleLines.length === 1 ? 16 : 36;
+    const barHeight = titleLines.length === 1 ? 171 : 234;
+    const logoYOffset = titleLines.length === 1 ? 18 : 41;
 
     const categoryImageMarkup = categoryImageHrefs
         .map((categoryImageHref, index) => {
             if (!categoryImageHref || !categoryImageLayouts[index]) {
                 return '';
             }
-
             const categoryImageLayout = categoryImageLayouts[index];
             return `<image href="${categoryImageHref}" x="${categoryImageLayout.x}" y="${categoryImageLayout.y}" width="${categoryImageLayout.width}" height="${categoryImageLayout.height}" preserveAspectRatio="xMidYMid meet" />`;
         })
         .join('');
 
-    return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#111827" flood-opacity="0.45" />
-    </filter>
-  </defs>
-  <rect width="1200" height="630" fill="#4c43aa" />
-  ${geoPatternHref ? `<image href="${geoPatternHref}" x="0" y="0" width="1200" height="630" preserveAspectRatio="none" />` : ''}
-  <rect width="1200" height="${barHeight}" fill="#161a22" />
-  ${logoImageHref ? `<image href="${logoImageHref}" x="18" y="${logoYOffset}" width="170" height="112" preserveAspectRatio="xMinYMid meet" />` : ''}
-  <text x="${textX}" y="48" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="1">${escapeXml(categoryText)}</text>
-  <text x="${textX}" y="${titleY}" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800">${titleTspans}</text>
-  <g filter="url(#shadow)">
-    ${categoryImageMarkup}
-  </g>
+        return `<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="${IMAGE_WIDTH}" height="${IMAGE_HEIGHT}" viewBox="0 0 ${IMAGE_WIDTH} ${IMAGE_HEIGHT}">
+    <defs>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#111827" flood-opacity="0.45" />
+        </filter>
+    </defs>
+    <rect width="${IMAGE_WIDTH}" height="${IMAGE_HEIGHT}" fill="#4c43aa" />
+    ${geoPatternHref ? `<image href="${geoPatternHref}" x="0" y="0" width="${IMAGE_WIDTH}" height="${IMAGE_HEIGHT}" preserveAspectRatio="none" />` : ''}
+    <rect width="${IMAGE_WIDTH}" height="${barHeight}" fill="#161a22" />
+  ${logoImageHref ? `<image href="${logoImageHref}" x="20" y="${logoYOffset}" width="194" height="128" preserveAspectRatio="xMinYMid meet" />` : ''}
+  <text x="${textX}" y="55" fill="rgba(255,255,255,0.82)" font-family="Arial, Helvetica, sans-serif" font-size="37" font-weight="800" letter-spacing="1">${escapeXml(categoryText)}</text>
+  <text x="${textX}" y="${titleY}" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800">${titleTspans}</text>
+    <g filter="url(#shadow)">
+        ${categoryImageMarkup}
+    </g>
 </svg>`;
 }
 
@@ -456,48 +440,41 @@ function generateImage(svgPath, outputPath) {
         const resvg = new Resvg(svgContent, {
             fitTo: {
                 mode: 'width',
-                value: 1200
+                value: IMAGE_WIDTH
             }
         });
         const pngBuffer = resvg.render().asPng();
         const tempPngPath = `${outputPath}.tmp.png`;
         fs.writeFileSync(tempPngPath, pngBuffer);
-
         execFileSync('convert', [
             tempPngPath,
             '-quality',
             '88',
             outputPath
         ], { stdio: 'pipe' });
-
         fs.unlinkSync(tempPngPath);
         return true;
     }
-
     if (!RSVG_CONVERT_PATH) {
         return false;
     }
-
     const tempPngPath = `${outputPath}.tmp.png`;
-
     execFileSync(RSVG_CONVERT_PATH, [
         '--width',
-        '1200',
+        String(IMAGE_WIDTH),
         '--height',
-        '630',
+        String(IMAGE_HEIGHT),
         '--keep-aspect-ratio',
         svgPath,
         '-o',
         tempPngPath
     ], { stdio: 'pipe' });
-
     execFileSync('convert', [
         tempPngPath,
         '-quality',
         '88',
         outputPath
     ], { stdio: 'pipe' });
-
     fs.unlinkSync(tempPngPath);
     return true;
 }

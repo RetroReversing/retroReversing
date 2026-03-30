@@ -443,7 +443,7 @@ html {
 .rr-placeholder-post-image {
     position: relative;
     display: block;
-    height: 150px;
+    height: 180px;
     color: white;
     background-color: black;
     z-index: 2;
