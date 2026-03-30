@@ -65,3 +65,4 @@ templates
 /*.jpeg
 .jekyll-metadata
 *.exe
+/public/generated/placeholders/*.svg
