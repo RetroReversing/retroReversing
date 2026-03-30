@@ -128,7 +128,7 @@ It is a shared system layer surviving inside a real game workspace, with the Mar
 <div class="rr-code-card-aside-content" markdown="1">
 
 The heart of the stack is `sfxdos.asm`.
-Its header calls it a `Super Famicom Disk Operation Sysytem special version`, programmed by **Y. Nishida** on **29 October 1991**.
+Its header calls it a `Super Famicom Disk Operation System special version`, programmed by **Y. Nishida** on **29 October 1991**.
 
 The file exports:
 

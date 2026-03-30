@@ -60,7 +60,7 @@ This talk attempts to communicate "everything about the Game Boy" to the listene
 ## Game Boy Assembly Language (Z80-like)
 The Game Boy has a variant of the Zilog Z80 processor, well technically it is a CPU between the `i8080` and the Z80, it is not binary compatible with either but there are similarities. You need a assembler that can handle the Game Boy specific opcodes in order to write functional code for the Game Boy in assembly language.
 
-{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language." image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="gbZ80 Assembly programming for the Gameboy and Gameboy Color"  %}
+{% include link-to-other-site.html url="https://www.chibiakumas.com/z80/Gameboy.php" description="ChibiAkumas has an excellent page with tutorials and information to get started with Game Boy assembly language." image="https://www.chibiakumas.com/z80/AsmTitleStrip.jpg" title="gbZ80 Assembly programming for the Game Boy and Game Boy Color"  %}
 
 ## Game Boy Boot ROM (Bootstrapping)
 Every game produced for the Game Boy required a little piece of code known as the "bootloader" or boot code to initialise the state of the console. You don't have to know anything about this, but it can be fascinating to find out what the Game Boy does as soon as you hit that power button.
@@ -172,7 +172,7 @@ The source code for the Game Boy classic `Mr Do!` has been kindly released by tw
 
 ## Alien 3
 The Game Boy game **Alien 3** was written in only 5 weeks by legendary game programmer **Jas Austin**:
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Gameboy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Fastest commercial game I&#39;ve ever written? That would have been Alien3 on Game Boy. Done in about 5 weeks :) with <a href="https://twitter.com/recluse_games?ref_src=twsrc%5Etfw">@recluse_games</a> <a href="https://twitter.com/hashtag/gamedev?src=hash&amp;ref_src=twsrc%5Etfw">#gamedev</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/297359737287225345?ref_src=twsrc%5Etfw">February 1, 2013</a></blockquote> 
 
 ## R-Type
 The Game Boy classic **R-Type** was programmed by **Jas Austin** completely from Memory as he didn't have any code or assets from any other version of the game!
@@ -183,7 +183,7 @@ The company **B.I.T.S** obtained the license to develop the Game Boy version of 
 One cool easter egg he added to the game was an implementation of John Conway’s game of Life!
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I hid a version of John Conway’s game of Life in R-Type on the Game Boy.</p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/1379131739415719941?ref_src=twsrc%5Etfw">April 5, 2021</a></blockquote>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Source graphics for Gameboy R-Type Lv3 ship. By Mark Jones... <a href="https://twitter.com/hashtag/ScreenshotSaturday24YearsAgo?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday24YearsAgo</a> <a href="http://t.co/RsKlc0rQOE">pic.twitter.com/RsKlc0rQOE</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/591964228053016577?ref_src=twsrc%5Etfw">April 25, 2015</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Source graphics for Game Boy R-Type Lv3 ship. By Mark Jones... <a href="https://twitter.com/hashtag/ScreenshotSaturday24YearsAgo?src=hash&amp;ref_src=twsrc%5Etfw">#ScreenshotSaturday24YearsAgo</a> <a href="http://t.co/RsKlc0rQOE">pic.twitter.com/RsKlc0rQOE</a></p>&mdash; Jas Austin (@IamXERO) <a href="https://twitter.com/IamXERO/status/591964228053016577?ref_src=twsrc%5Etfw">April 25, 2015</a></blockquote>
 
 ## How Pokemon Gold & Silver Work (Tribute to Satoru Iwata)
 [TheHappieCat](https://www.youtube.com/watch?v=XGFBtVbBgnM) explains the technical wizardry Satoru Iwata employed to fit the Kanto region into *Pokémon Gold & Silver*. The video provides a primer on low-level assembly programming and memory alignment, illustrating how efficient data packing and optimization allowed for the game's massive scope on the limited Game Boy Color hardware.
@@ -208,7 +208,7 @@ Blem! was a prank ROM for the Game Boy which pretended to load up a Playstation 
 If you are interested in low-level hardware details about the Game Boy then this is a must read article: [Reverse-engineering the audio amplifier chip in the Nintendo Game Boy Color](http://www.righto.com/2020/05/reverse-engineering-audio-chip-in.html)
 
 ## Synthic: Automatically generate gameboy music using machine learning
-This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Gameboy Music! Check it out here:
+This is a very interesting project that played a large set of gameboy games in a custom headless emulator and tracked the audio registers into a text format. They then trained a Machine Learning algorithm on that audio data and used it to generate completely new Game Boy Music! Check it out here:
 [jawline/Synthic: Automatically generate gameboy music using machine learning](https://github.com/jawline/Synthic)
 
 ---
@@ -216,9 +216,9 @@ This is a very interesting project that played a large set of gameboy games in a
 {% include link-to-other-post.html post="/game-boy-file-formats" description="For more about the game boy file formats information check out this post." %}
 
 ### DMG-palette-patcher
-[MrBlinky](https://github.com/MrBlinky/DMG-palette-patcher) has released a Python tool for patching Original Gameboy (DMG) ROMs to use specific color palettes when played on a Gameboy Color. The script works by modifying the ROM's header—specifically the license code and title checksum—to trick the Gameboy Color's boot ROM into automatically selecting one of 45 built-in color palettes, such as the classic grey theme, rather than the default blue-greenish hues.
+[MrBlinky](https://github.com/MrBlinky/DMG-palette-patcher) has released a Python tool for patching Original Game Boy (DMG) ROMs to use specific color palettes when played on a Game Boy Color. The script works by modifying the ROM's header—specifically the license code and title checksum—to trick the Game Boy Color's boot ROM into automatically selecting one of 45 built-in color palettes, such as the classic grey theme, rather than the default blue-greenish hues.
 
-{% include link-to-other-site.html url="https://github.com/MrBlinky/DMG-palette-patcher" description="MrBlinky has released DMG-palette-patcher, a tool that modifies Gameboy ROM headers to trigger specific built-in color palettes on the Gameboy Color." title="DMG-palette-patcher by MrBlinky" %}
+{% include link-to-other-site.html url="https://github.com/MrBlinky/DMG-palette-patcher" description="MrBlinky has released DMG-palette-patcher, a tool that modifies Game Boy ROM headers to trigger specific built-in color palettes on the Game Boy Color." title="DMG-palette-patcher by MrBlinky" %}
 
 ---
 # All Posts tagged with GameBoy

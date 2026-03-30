@@ -279,6 +279,51 @@ That reads less like "here are some coordinates" and more like a stage-direction
 The file is telling the engine when to fade, when to spawn Falco and Slippy, when to place background traffic, and when to transition into the playable route.
 
 ---
+### How the Map Scripting Language Works
+The route files become much clearer once you look at `MAPMACS.INC` in the main archive.
+That file defines the control-byte layer behind the macros, with entries such as `ctrlmapobj`, `ctrlmapwait`, `ctrlsetbg`, `ctrlmapjsr`, `ctrlmapgoto`, `ctrlsendmessage`, `ctrlmapcspecial`, and `ctrlmapsetpath`.
+
+That matters because it shows the map files were not just free-form assembly source.
+They were written in a purpose-built mission language that compiled down into a compact command stream for the game to interpret.
+
+Some of the macros are straightforward:
+
+* `mapwait` advances time
+* `setbg` and `waitsetbg` control background changes
+* `setfadeup`, `setfadedown`, and `mapwaitfade` handle screen transitions
+* `mapjsr`, `maprts`, and `mapgoto` give the route scripts subroutine and jump-style flow control
+
+Others are closer to object scripting:
+
+* `mapobj` spawns a normal object entry
+* `mapqobj` and `mapqobj2` are compact object forms that pack position and frame data more tightly
+* `mapdobj` is a denser object form used when the shape and strategy mapping allow it
+* `pathobj` attaches scripted movement/path behavior to an object rather than just dropping it into space
+
+That mix is one of the strongest signs that `MAPS.LZH` is a gameplay authoring layer.
+It let designers or programmers describe timing, camera state, messages, object waves, fades, and scripted movement in one file format instead of scattering them across many unrelated tables.
+
+---
+### Training, Intro, and Credits as Scripted Scenes
+Once the macro layer is visible, some of the named files in `MAPS.LZH` stand out even more.
+
+`TRAINING.ASM` is not a tiny special case.
+It is a long looping tutorial script that uses `pathobj` to place ring sequences, `mapobj` to place towers, pillars, robots, and bases, and `mapmsg 123` to trigger tutorial messaging.
+
+The file is full of commented-out test material too.
+There is an entire disabled "MSG TEST" block with many `mapmsg` calls, plus traces of helper routines like `skillfly_set`.
+That makes the training map feel like an active sandbox for testing message flow and flight drills, not just a final polished stage script.
+
+`INTRO.ASM` shows that the same language was used for cinematic presentation.
+It disables player control, sets the intro background, spawns the "Presented by Nintendo" text with `textpath`, drops in enemy and player-intro objects, and then loops forever with `mapgoto`.
+
+`CREDITS.ASM` pushes that even further.
+It sets up a dedicated credits background, disables normal play, calls `actualcreds`, and then uses repeated `textpath` commands to stage the names and roles of Nintendo and Argonaut staff in sequence.
+
+So the mission package is broader than "maps".
+The same route-script system drives training scenarios, intro presentation, and the full end credits flow.
+
+---
 ### What Survives in the Map Package
 The filenames alone show how broad the package is.
 Alongside generic stage files like `LEVEL1_1.ASM` and `LEVEL2_4.ASM`, it also preserves more specific named content such as:
