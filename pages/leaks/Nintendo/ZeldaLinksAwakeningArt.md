@@ -3,10 +3,6 @@ layout: post
 tags:
 - gameboy
 - leak
-- zelda
-- linksawakening
-- graphics
-- gigaleak
 title: The Legend of Zelda Link's Awakening - 2D Art Workspace (NEWS_04 Archive)
 category: 
 - leak
@@ -28,9 +24,6 @@ breadcrumbs:
 recommend:
 - gameboy
 - leak
-- zelda
-- linksawakening
-- gigaleak
 editlink: /leaks/Nintendo/ZeldaLinksAwakeningArt.md
 updatedAt: '2026-03-30'
 ---

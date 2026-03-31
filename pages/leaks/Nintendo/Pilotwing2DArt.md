@@ -7,9 +7,6 @@ category:
 tags:
 - snes
 - leak
-- pilotwings
-- graphics
-- gigaleak
 permalink: /pilotwings-2d-art-workspace
 breadcrumbs:
   - name: Home
@@ -27,7 +24,6 @@ breadcrumbs:
 recommend:
 - snes
 - leak
-- graphics
 editlink: /leaks/Nintendo/Pilotwing2DArt.md
 updatedAt: '2026-03-30'
 ---

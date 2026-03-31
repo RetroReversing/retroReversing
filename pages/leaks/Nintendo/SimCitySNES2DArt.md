@@ -7,10 +7,6 @@ category:
 tags:
 - snes
 - leak
-- simcity
-- graphics
-- gigaleak
-- ui
 permalink: /simcity-snes-2d-art-workspace
 breadcrumbs:
   - name: Home
@@ -28,7 +24,6 @@ breadcrumbs:
 recommend:
 - snes
 - leak
-- simcity
 editlink: /leaks/Nintendo/SimCitySNES2DArt.md
 updatedAt: '2026-03-30'
 ---
