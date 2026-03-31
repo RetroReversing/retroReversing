@@ -193,14 +193,14 @@ These are the main fields and what they are for:
 Field | Purpose
 ---|---
 `layout` | Usually `post` for normal RetroReversing pages
-`tags` | Search/discovery tags for the page, and the values other pages match against in their `recommend` lists
+`tags` | Search/discovery tags for the page, and the values other pages match against in their `recommend` lists, only use valid tags from `valid-tags.json`
 `title` | Full page title shown in the page header and metadata (do not use colons! as it messes with the yaml frontmatter)
 `category` | Main site grouping such as the games console name or others such as `leak`, `introduction`, `gameengines`, `maths`, or another section-specific category. This can be a single value (`category: leak`) or a list (`category: [leak, snes]`) when a page belongs to multiple categories.
-`image` | Main preview image used by the page and site cards, if there is not a unique one leave it blank and it will be generated based on the category and title
-`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated
+`image` | Main preview image used by the page and site cards, if there is not a unique one leave it blank and it will be generated based on the category and title, if in doubt leave blank
+`twitterimage` | Absolute URL version of the preview image for social sharing, leave blank and it will be generated, if in doubt leave blank
 `permalink` | Final public path for the page (do not end with a trailing `/`; that is legacy format we are moving away from)
 `breadcrumbs` | Breadcrumb trail shown at the top of the page
-`recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site
+`recommend` | Related-topic tags used to build the recommended sidebar and card labels; these should usually be chosen from tags already used elsewhere on the site, only use valid tags from `valid-tags.json`
 `editlink` | Repo-relative path used for the "Edit on GitHub" link
 `updatedAt` | Last meaningful content update date for the page
 `excerpt` | Optional short summary for pages that need it

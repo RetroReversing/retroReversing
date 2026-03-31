@@ -7,10 +7,6 @@ category:
 tags:
 - snes
 - leak
-- wild-trax
-- stunt-race-fx
-- graphics
-- gigaleak
 permalink: /stunt-race-fx-2d-art-workspace
 breadcrumbs:
   - name: Home

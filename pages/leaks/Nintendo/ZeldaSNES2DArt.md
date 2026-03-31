@@ -3,15 +3,10 @@ layout: post
 tags:
 - snes
 - leak
-- zelda
-- alinktothe past
-- graphics
-- gigaleak
 title: The Legend of Zelda - A Link to the Past 2D Art Workspace (NEWS_04 Archive)
 category: 
 - leak
 - snes
-- gigaleak
 permalink: /zelda-snes-2d-art-workspace
 breadcrumbs:
   - name: Home
@@ -29,8 +24,6 @@ breadcrumbs:
 recommend:
 - snes
 - leak
-- zelda
-- gigaleak
 editlink: /leaks/Nintendo/ZeldaSNES2DArt.md
 updatedAt: '2026-03-30'
 ---
@@ -47,8 +40,6 @@ Both directories belong to **Masanao Arimoto** and represent the SNES-side Zelda
 
 Together, these two folders preserve *A Link to the Past* development and extended follow-up work, with evidence of NES reference materials and potential successor project work preserved alongside the original SNES assets.
 
-{% include link-to-other-post.html post="/gigaleak-news-04" description="For the broader NEWS_04 context, including Link's Awakening and Star Fox 2 workspaces, see the main NEWS_04 deep-dive." %}
-{% include link-to-other-post.html post="/zelda-links-awakening-art-workspace" description="For the Game Boy Zelda (*Link's Awakening*) workspace, see the dedicated Game Boy art analysis." %}
 {% include link-to-other-post.html post="/gigaleak" description="For the wider Gigaleak context and other NEWS tape archives, start with the main Gigaleak overview." %}
 
 ---

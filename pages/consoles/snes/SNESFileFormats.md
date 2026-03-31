@@ -569,6 +569,7 @@ In both Mario Kart and SimCity, the files look like structured object-placement 
 * they commonly appear at `13,568` bytes
 * they break naturally into short repeating groups
 * they sit beside text banks, menu screens, and object-facing graphics
+* the CAD-native variants preserve the same front-end record model at a larger capacity
 
 The Mario Kart object files are especially revealing because many of them read cleanly as repeating 3-word entries.
 For example, files like `JUGEM.OBJ`, `POLE.OBJ`, and `CAR.OBJ` open with repeated triples that look much more like compact object definitions than tile data.
@@ -578,11 +579,8 @@ The SimCity side adds another clue:
 * `MOJI.OBJ` and `SCENARIO.OBJ` share the same opening record pattern
 * `INPUT.OBJ` is shaped differently and looks tied to the input workflow
 
-So `.OBJ` is:
-
-* `.OBJ` is not generic “object graphics”
-* it is an object-side placement or assembly format
-* in UI-heavy projects it can also carry object-form text layout data
+So `.OBJ` is not generic “object graphics”.
+It is an object-side placement or assembly format, and in UI-heavy projects it can also carry object-form text layout data.
 
 The native CAD samples tighten that up further.
 `CAD-0.OBJ` is `26,880` bytes rather than `13,568`, but it keeps the same compact 3-word rhythm:
@@ -593,8 +591,24 @@ The native CAD samples tighten that up further.
 
 So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
 
+### The OBJ Container Layout
+The biggest recent breakthrough is that the smaller and larger `.OBJ` files share the same front-loaded record region.
+
+Format family | Total size | Front record region | Capacity at 6 bytes per record | Tail
+---|---:|---:|---:|---
+Mario Kart / SimCity `.OBJ` | `13,568` bytes | first `12,288` bytes | `2,048` records | `1,280` byte CAD tail
+CAD-native `.OBJ` | `26,880` bytes | first `24,576` bytes | `4,096` records | `2,304` byte CAD tail
+
+That front region is where the object records live.
+The tail is not part of the record stream.
+In files like `MOJI.OBJ`, `INPUT.OBJ`, and `TITLE.OBJ`, the ASCII `NAK1989 S-CG-CAD...` tool signature starts exactly at byte `12,288`.
+In `CAD-0.OBJ` the same kind of transition happens at byte `24,576`.
+
+So the format is not just “a file full of triples”.
+It is a fixed-capacity object-record container followed by a CAD metadata block.
+
 ### The OBJ Record Shape
-Across both Mario Kart and SimCity, the most convincing structural reading is a repeating 3-word record model.
+Across both Mario Kart and SimCity, the front record region behaves as a repeating 3-word model.
 
 Representative openings:
 
@@ -607,13 +621,92 @@ Mario Kart `CAR.OBJ` | `[0x0080, 0xF8F8, 0xB333]`, `[0x0080, 0xF0F8, 0xB233]`, `
 Mario Kart `JUGEM.OBJ` | `[0x0080, 0xED00, 0x0C30]`, `[0x0080, 0xEDF8, 0x0E30]`, `[0x0080, 0xEDF0, 0x0E30]`
 Mario Kart `POLE.OBJ` | `[0x0080, 0x18F8, 0x333A]`, `[0x0080, 0x10F8, 0x323A]`, `[0x0080, 0x18F0, 0x233A]`
 
-That gives us a concrete record model:
+That gives us a concrete six-byte record model:
 
-* word 1 often behaves like a control or active-record marker
-* word 2 often behaves like a packed coordinate or placement value
-* word 3 often behaves like a tile, attribute, or object-type value
+* word `0` is a record flag or state word
+* word `1` is a packed coordinate word
+* word `2` is a packed tile-and-attribute word
 
 That is much narrower than the old “some kind of object data” label.
+
+### The Middle Word Packs X and Y
+The coordinate word is one of the easiest parts to read.
+
+When the second word is split into two bytes, it behaves like packed `X` and `Y` positions:
+
+Record | Split bytes | Reading
+---|---|---
+Mario Kart `CAR.OBJ` `0xF8F8` | `X=0xF8`, `Y=0xF8` | top-left tile in a 4x4 kart tile group
+Mario Kart `CAR.OBJ` `0xF0F8` | `X=0xF0`, `Y=0xF8` | one tile left of the first
+Mario Kart `CAR.OBJ` `0xF8F0` | `X=0xF8`, `Y=0xF0` | one tile down from the first row
+Mario Kart `POLE.OBJ` `0x18F8` | `X=0x18`, `Y=0xF8` | right-hand tile column
+Mario Kart `POLE.OBJ` `0x10F8` | `X=0x10`, `Y=0xF8` | left-hand tile column
+
+Those values move in `8`-pixel steps exactly the way a sprite or object-placement format should.
+The byte values also run cleanly through wraparound-style positions like `0xF8`, `0xF0`, `0xE8`, which is what you would expect if the editor stored them as signed or screen-relative 8-bit coordinates rather than larger absolute map positions.
+
+### The Third Word Packs Tile Index and Attributes
+The third word is just as structured.
+Its high byte behaves like a tile number, while its low byte behaves like an attribute or palette byte.
+
+That is easiest to see in the Mario Kart art objects:
+
+Family | Third-word pattern | Reading
+---|---|---
+`CAR.OBJ` | `0xB333`, `0xB233`, `0xB133`, `0xB033` | tile indices step across a row while attribute `0x33` stays fixed
+`POLE.OBJ` | `0x333A`, `0x323A`, `0x233A`, `0x223A` | tile indices change, attribute `0x3A` stays fixed
+`JUGEM.OBJ` | `0x273A`, `0x263A`, `0x253A`, `0x2430` | mostly stable attributes with a small family-specific mix
+`MOJI.OBJ` | `0x3030`, `0x2030`, `0x8C30`, `0x8230` | text and UI tiles with a stable `0x30` attribute byte
+
+That means a practical decode is:
+
+* third-word high byte = tile index
+* third-word low byte = object attributes, palette, or flip state
+
+The exact bit split of that low byte still needs a dedicated pass, but its role as a shared attribute field is already clear from the repeated per-family constants.
+
+### The First Word Is a Record Flag Field
+The first word does not look like a coordinate or tile ID.
+Across the live record regions it is dominated by just two common values:
+
+* `0x0080`
+* `0x0000`
+
+That makes it look like a record-state or layer-control word rather than freeform data.
+Some files strongly prefer one value:
+
+* `POLE.OBJ` and `JUGEM.OBJ` are mostly `0x0080`
+* `TITLE.OBJ` is mostly `0x0000`
+* `INPUT.OBJ` mixes both classes in the same live region
+
+The exact meaning of the flag bits still needs more work, but the important point is that the first word is not noise.
+It is a stable part of the object record format.
+
+### OBJ Is OAM-Like, Not Raw OAM
+The `.OBJ` records are very close in spirit to SNES OAM, but they are not raw hardware OAM dumps.
+
+The overlap with OAM is obvious:
+
+* per-object `X` and `Y` placement
+* a tile number
+* an attribute-style byte
+* repeated fixed-size object records
+
+But several things make it clear that `.OBJ` is still an editor-side container rather than literal SNES OAM:
+
+* the records are `6` bytes each, not the packed size used by real SNES OAM
+* the files are wrapped in large fixed-capacity CAD containers
+* the first word behaves like a tool-side flag field rather than a direct SNES sprite register value
+* the back of the file switches into CAD metadata instead of continuing as sprite records
+
+So the safest description is:
+
+* `.CGX` stores the sprite graphics
+* `.COL` stores the palette rows
+* `.OBJ` stores the editor-side sprite or object layout
+* runtime code would still need to convert that data into real SNES OAM entries
+
+That distinction matters because it explains why the object records feel so hardware-adjacent while still preserving much more workstation structure than a straight OAM dump would.
 
 ## What SFX Means in These Leaks
 `.SFX` is the most unusual SNES format we can now talk about with confidence.
