@@ -1,9 +1,9 @@
 {
   "summary": {
-    "totalFiles": 297,
-    "filesWithTags": 297,
-    "uniqueTags": 112,
-    "generatedAt": "2026-03-30T12:24:45.250Z"
+    "totalFiles": 306,
+    "filesWithTags": 306,
+    "uniqueTags": 113,
+    "generatedAt": "2026-03-31T11:23:20.560Z"
   },
   "tags": {
     "2d": 1,
@@ -11,10 +11,12 @@
     "3d": 6,
     "3do": 1,
     "3ds": 8,
+    "all-stars": 1,
     "amiga": 1,
     "android": 3,
     "arcade": 1,
     "assembly": 4,
+    "assets": 1,
     "atari": 3,
     "bookazines": 1,
     "books": 2,
@@ -36,17 +38,18 @@
     "dreamcast": 8,
     "ds": 12,
     "emulation": 1,
-    "fileformats": 13,
-    "gameboy": 19,
+    "fileformats": 14,
+    "gameboy": 20,
     "gamecom": 1,
     "gamecube": 10,
     "gameengines": 13,
     "gamegear": 4,
     "games": 25,
-    "gba": 16,
+    "gba": 17,
     "gdb": 2,
     "ghidra": 4,
-    "graphics": 1,
+    "gigaleak": 2,
+    "graphics": 2,
     "hacking": 1,
     "handhelds": 4,
     "hardware": 39,
@@ -57,10 +60,11 @@
     "ios": 1,
     "ique": 2,
     "jaguar": 1,
-    "leak": 43,
+    "leak": 51,
     "leaks": 1,
     "legal": 1,
     "magazines": 4,
+    "mario": 3,
     "mastersystem": 4,
     "maths": 4,
     "megadrive": 6,
@@ -93,15 +97,16 @@
     "segasaturn": 1,
     "sg1000": 1,
     "smb3": 1,
-    "snes": 22,
+    "snes": 30,
     "snsystems": 12,
     "software": 5,
-    "sourcecode": 26,
-    "starfox2": 2,
+    "sourcecode": 27,
+    "starfox2": 1,
     "superfx": 1,
+    "supermarioworld": 1,
     "switch": 3,
     "symbols": 14,
-    "tools": 19,
+    "tools": 18,
     "tutorial": 10,
     "tutorials": 1,
     "unity3d": 3,
@@ -113,7 +118,6 @@
     "wonderswan": 1,
     "xbox": 8,
     "xbox360": 2,
-    "zelda": 1,
     "zxspectrum": 1
   },
   "fileTagMap": {
@@ -608,7 +612,8 @@
     ],
     "pages/consoles/ds/DSOfficialSDK.md": [
       "ds",
-      "sdk"
+      "sdk",
+      "gba"
     ],
     "pages/consoles/gameboy/GameBoyFileFormats.md": [
       "gameboy",
@@ -1102,6 +1107,10 @@
       "crossproducts",
       "snsystems"
     ],
+    "pages/consoles/snes/SNESFileFormats.md": [
+      "snes",
+      "fileformats"
+    ],
     "pages/consoles/snes/SNESSDK.md": [
       "snes",
       "sdk"
@@ -1138,10 +1147,10 @@
       "gamecube"
     ],
     "pages/consoles/wii/BroadOnArchive.md": [
+      "wii",
       "n64",
       "sdk",
       "leak",
-      "wii",
       "ique"
     ],
     "pages/consoles/wii/WiiDevkitHardware.md": [
@@ -1316,21 +1325,11 @@
       "sourcecode",
       "gba"
     ],
-    "pages/leaks/Nintendo/GigaleakNEWS04.md": [
-      "snes",
-      "leak",
-      "starfox2",
-      "zelda",
-      "tools",
-      "graphics"
-    ],
     "pages/leaks/Nintendo/GigaleakNEWS05.md": [
       "snes",
       "leak",
       "sourcecode",
-      "starfox2",
-      "tools",
-      "cad"
+      "tools"
     ],
     "pages/leaks/Nintendo/MarioKart.md": [
       "snes",
@@ -1353,6 +1352,14 @@
       "3ds",
       "gba"
     ],
+    "pages/leaks/Nintendo/Pilotwing2DArt.md": [
+      "snes",
+      "leak"
+    ],
+    "pages/leaks/Nintendo/SimCitySNES2DArt.md": [
+      "snes",
+      "leak"
+    ],
     "pages/leaks/Nintendo/StarFox.md": [
       "snes",
       "leak",
@@ -1364,10 +1371,36 @@
       "leak",
       "sourcecode"
     ],
+    "pages/leaks/Nintendo/StarFox22DArtWorkspace.md": [
+      "snes",
+      "leak",
+      "starfox2",
+      "graphics",
+      "gigaleak"
+    ],
+    "pages/leaks/Nintendo/StuntRaceFX2DArt.md": [
+      "snes",
+      "leak"
+    ],
+    "pages/leaks/Nintendo/SuperMarioAllStarsArt.md": [
+      "snes",
+      "leak",
+      "mario",
+      "graphics",
+      "gigaleak",
+      "all-stars"
+    ],
     "pages/leaks/Nintendo/SuperMarioCollection.md": [
       "snes",
       "leak",
       "sourcecode"
+    ],
+    "pages/leaks/Nintendo/SuperMarioCollectionAsm0.md": [
+      "snes",
+      "leak",
+      "sourcecode",
+      "mario",
+      "assets"
     ],
     "pages/leaks/Nintendo/SuperMarioCollectionMario3Branch.md": [
       "snes",
@@ -1380,6 +1413,10 @@
       "snes",
       "leak",
       "sourcecode"
+    ],
+    "pages/leaks/Nintendo/SuperMarioKart2DArt.md": [
+      "snes",
+      "leak"
     ],
     "pages/leaks/Nintendo/SuperMarioWorldAllStarsBranch.md": [
       "snes",
@@ -1407,10 +1444,18 @@
       "leak",
       "sourcecode"
     ],
+    "pages/leaks/Nintendo/ZeldaLinksAwakeningArt.md": [
+      "gameboy",
+      "leak"
+    ],
     "pages/leaks/Nintendo/ZeldaLinksAwakeningDX.md": [
       "gameboy",
       "leak",
       "sourcecode"
+    ],
+    "pages/leaks/Nintendo/ZeldaSNES2DArt.md": [
+      "snes",
+      "leak"
     ],
     "pages/leaks/NintendoLeaks.md": [
       "leak",

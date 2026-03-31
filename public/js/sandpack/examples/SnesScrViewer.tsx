@@ -434,7 +434,7 @@ function SnesScrViewer() {
       <div>
         <div className="font-medium">Required .SCR file</div>
         <FileUpload
-          accept=".scr,.SCR"
+          accept=".scr,.SCR,.BAK"
           onLoad={(buffer, file) => {
             setScrBuffer(buffer);
             setManualBitDepth(false);
@@ -448,7 +448,7 @@ function SnesScrViewer() {
       <div>
         <div className="font-medium">Optional .CGX graphics file</div>
         <FileUpload
-          accept=".cgx,.CGX,.bin"
+          accept=".cgx,.CGX,.bin,.BAK"
           onLoad={(buffer) => {
             setCgxBuffer(buffer);
             setManualBitDepth(false);
@@ -458,7 +458,7 @@ function SnesScrViewer() {
 
       <div>
         <div className="font-medium">Optional .COL palette file</div>
-        <FileUpload accept=".col,.COL" onLoad={(buffer) => setColBuffer(buffer)} />
+        <FileUpload accept=".col,.COL,.BAK" onLoad={(buffer) => setColBuffer(buffer)} />
       </div>
 
       <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>

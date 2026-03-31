@@ -287,13 +287,13 @@ function SnesCgxViewer() {
       </p>
 
       <FileUpload
-        accept=".cgx,.CGX,.bin"
+        accept=".cgx,.CGX,.bin,.BAK"
         onLoad={(nextBuffer) => {
           setBuffer(nextBuffer);
           setManualBitDepth(false);
         }}
       />
-      <div>
+      {/* <div>
         <div className="font-medium">Optional .SCR layout file for bit-depth auto-detect</div>
         <FileUpload
           accept=".scr,.SCR"
@@ -302,7 +302,7 @@ function SnesCgxViewer() {
             setManualBitDepth(false);
           }}
         />
-      </div>
+      </div> */}
       <div>
         <div className="font-medium">Optional .COL palette file</div>
         <FileUpload accept=".col,.COL" onLoad={(nextBuffer) => setPaletteBuffer(nextBuffer)} />

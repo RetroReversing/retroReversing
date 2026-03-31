@@ -17,7 +17,7 @@ recommend:
 - snes
 - fileformats
 editlink: /consoles/snes/SNESFileFormats.md
-updatedAt: '2026-03-30'
+updatedAt: '2026-03-31'
 excerpt: SNES file formats from leaked Nintendo workspaces and source trees
 ---
 
@@ -592,12 +592,31 @@ The native CAD samples tighten that up further.
 So the smaller Mario Kart and SimCity `.OBJ` files now look less like a different format and more like a smaller-capacity or differently banked member of the same broader family.
 
 ### The OBJ Container Layout
-The biggest recent breakthrough is that the smaller and larger `.OBJ` files share the same front-loaded record region.
+The biggest recent breakthrough is that the front record region is not just a flat pool of entries.
+For the standard smaller `.OBJ` files, the size matches a frame-based layout exactly.
 
 Format family | Total size | Front record region | Capacity at 6 bytes per record | Tail
 ---|---:|---:|---:|---
 Mario Kart / SimCity `.OBJ` | `13,568` bytes | first `12,288` bytes | `2,048` records | `1,280` byte CAD tail
 CAD-native `.OBJ` | `26,880` bytes | first `24,576` bytes | `4,096` records | `2,304` byte CAD tail
+CAD-native `.OBX` | `51,456` bytes | first `49,152` bytes | `8,192` records | `2,304` byte CAD tail
+
+For the standard smaller `.OBJ` files, `12,288` bytes breaks down cleanly as:
+
+* `32` frames
+* `64` entry slots per frame
+* `6` bytes per entry
+
+That is:
+
+* `32 x 64 x 6 = 12,288`
+
+The larger `.OBX` size also lines up neatly with a doubled frame and slot count:
+
+* `64` frames
+* `128` entry slots per frame
+* `6` bytes per entry
+* `64 x 128 x 6 = 49,152`
 
 That front region is where the object records live.
 The tail is not part of the record stream.
@@ -605,7 +624,19 @@ In files like `MOJI.OBJ`, `INPUT.OBJ`, and `TITLE.OBJ`, the ASCII `NAK1989 S-CG-
 In `CAD-0.OBJ` the same kind of transition happens at byte `24,576`.
 
 So the format is not just “a file full of triples”.
-It is a fixed-capacity object-record container followed by a CAD metadata block.
+It is a framed object-record container followed by a CAD metadata block.
+
+The one awkward case is the larger CAD-native `.OBJ` files.
+Their `24,576` byte front region fits `4,096` entries exactly, which suggests either:
+
+* a double-capacity `.OBJ` variant with `32` frames of `128` entries
+* or a format revision that sits between the smaller `.OBJ` and later `.OBX` layout
+
+So the safest summary is:
+
+* small `.OBJ` files very likely use `32 x 64` framed entry storage
+* `.OBX` very likely expands that to `64 x 128`
+* the larger CAD-native `.OBJ` files look like a higher-capacity close relative rather than a totally different format
 
 ### The OBJ Record Shape
 Across both Mario Kart and SimCity, the front record region behaves as a repeating 3-word model.
@@ -623,11 +654,22 @@ Mario Kart `POLE.OBJ` | `[0x0080, 0x18F8, 0x333A]`, `[0x0080, 0x10F8, 0x323A]`, 
 
 That gives us a concrete six-byte record model:
 
-* word `0` is a record flag or state word
-* word `1` is a packed coordinate word
-* word `2` is a packed tile-and-attribute word
+* byte `1` plus byte `2` form the first word
+* byte `3` plus byte `4` form the packed coordinate word
+* byte `5` plus byte `6` form the packed tile-and-attribute word
 
 That is much narrower than the old “some kind of object data” label.
+
+Using the byte order preserved on disk, the record is:
+
+Byte | Role
+---|---
+`1` | display or state flags, with bit `7` heavily used
+`2` | secondary group or class byte
+`3` | `Y` displacement
+`4` | `X` displacement
+`5` | attribute byte
+`6` | tile number
 
 ### The Middle Word Packs X and Y
 The coordinate word is one of the easiest parts to read.
@@ -665,22 +707,72 @@ That means a practical decode is:
 
 The exact bit split of that low byte still needs a dedicated pass, but its role as a shared attribute field is already clear from the repeated per-family constants.
 
-### The First Word Is a Record Flag Field
-The first word does not look like a coordinate or tile ID.
-Across the live record regions it is dominated by just two common values:
+### The Attribute Byte Has Stable Family Patterns
+The low byte of the third word is not random.
+It clusters into a small number of stable families across the record area.
 
-* `0x0080`
-* `0x0000`
+The most common groups are:
 
-That makes it look like a record-state or layer-control word rather than freeform data.
-Some files strongly prefer one value:
+* `0x30` to `0x3F`
+* `0x70` to `0x7F`
+* rarer `0xB0` to `0xBF` and `0xF0` to `0xFF`
+* a sparse low-value group like `0x00`, `0x02`, `0x08`, or `0x0A`
 
-* `POLE.OBJ` and `JUGEM.OBJ` are mostly `0x0080`
-* `TITLE.OBJ` is mostly `0x0000`
-* `INPUT.OBJ` mixes both classes in the same live region
+That is visible in the live files:
 
-The exact meaning of the flag bits still needs more work, but the important point is that the first word is not noise.
-It is a stable part of the object record format.
+File | Dominant attribute values
+---|---
+Mario Kart `CAR.OBJ` | `0x30`, `0x31`, `0x33`, `0x39`, `0x3B`, `0x3F`
+Mario Kart `POLE.OBJ` | `0x30`, `0x31`, `0x34`, `0x39`, `0x3A`, `0x3B`
+Mario Kart `JUGEM.OBJ` | heavy `0x3A`, plus `0x30`, `0x39`, `0x35`, `0x70`, `0x7A`
+Mario Kart `TITLE.OBJ` | `0x30`, `0x38`, `0x3A`, `0x3C`, `0x3E`
+SimCity `MOJI.OBJ` | almost entirely `0x30`, `0x32`, `0x34`
+
+That is exactly what you would expect if the low byte was carrying a compact attribute field with a few stable combinations reused across one object family at a time.
+
+The bit distribution is useful too.
+Across the most active object files, bits `4` and `5` are the most stable part of the field, while the lower bits vary much more from family to family.
+That lines up strikingly well with the standard SNES sprite attribute byte:
+
+Bits | Likely role
+---|---
+`0` | name-select or a related per-tile switch
+`1-3` | palette row
+`4-5` | priority
+`6` | horizontal flip
+`7` | vertical flip
+
+So the current best reading is:
+
+* bits `1-3` choose the palette row or another closely related color group
+* bits `4-5` are part of a common priority-style base pattern
+* bits `6-7` mark flip variants, which is exactly why families like `0x30`, `0x70`, `0xB0`, and `0xF0` recur together
+* bit `0` still needs a smaller dedicated pass, but it behaves like a low-level per-tile mode bit rather than random noise
+
+That still stops short of naming every bit precisely, but it is already much stronger than treating the low byte as an opaque blob.
+
+### Byte 1 and Byte 2 Have Separate Roles
+The parser details line up well with the on-disk data here.
+The first two bytes are not one opaque 16-bit flag field with a single meaning.
+They are two separate bytes with different jobs:
+
+Byte | Role
+---|---
+`1` | display bit in bit `7`, tile-size bit in bit `0`
+`2` | group info or another tool-side classification byte
+
+That explains an important pattern in the live files:
+
+* records with byte `1 = 0x80` are the ones that render as visible object entries
+* many records with byte `1 = 0x00` still carry coordinates, attributes, and tile numbers, but they are not display-enabled
+
+So the old “first word as one class field” reading was too coarse.
+The more accurate model is:
+
+* byte `1` controls display and size state
+* byte `2` carries additional grouping or tool-side record info
+
+That also explains why text-heavy files like `OBJ-MOJI-ENG.OBJ` can mix `0x80` and `0x00` entries throughout a frame without using them as hard frame separators.
 
 ### OBJ Is OAM-Like, Not Raw OAM
 The `.OBJ` records are very close in spirit to SNES OAM, but they are not raw hardware OAM dumps.
@@ -708,6 +800,34 @@ So the safest description is:
 
 That distinction matters because it explains why the object records feel so hardware-adjacent while still preserving much more workstation structure than a straight OAM dump would.
 
+### One OBJ File Holds Many Frames
+Once the frame layout is used directly, the container shape becomes much cleaner.
+Standard `.OBJ` files preserve up to `32` frames with `64` entry slots per frame, while `.OBX` extends that model.
+
+That means one `.OBJ` file is not a single sprite definition.
+It is a framed animation or state container.
+
+The Mario Kart files make that easy to see:
+
+* `CAR.OBJ` has a run of small `16`-tile kart frames in its early 64-entry frame slots
+* `JUGEM.OBJ` preserves a sequence of similarly sized visible frames with stable `0x30` and `0x3A` attribute families
+* `OBJ-MOJI.OBJ` and `OBJ-MOJI-ENG.OBJ` use the same 32-frame structure, but many of those frames look more like text or UI states than ordinary sprite animation
+
+So the best summary is:
+
+* `.OBJ` is a framed object-layout format
+* the frames can represent animation, pose changes, text states, or UI variants
+* the visible content of a frame is controlled by byte `1`'s display bit, not just by whether the slot is nonzero
+
+You can inspect an `.OBJ` file directly below.
+This viewer renders the front record region as object placements, and if you add matching `.CGX` and `.COL` files it will use the current SNES-like attribute decode to draw the real tiles with palette and flip handling.
+
+<rr-sandpack
+  template="react-ts"
+  app="/public/js/sandpack/examples/SnesObjViewer.tsx">
+</rr-sandpack>
+
+---
 ## What SFX Means in These Leaks
 `.SFX` is the most unusual SNES format we can now talk about with confidence.
 
